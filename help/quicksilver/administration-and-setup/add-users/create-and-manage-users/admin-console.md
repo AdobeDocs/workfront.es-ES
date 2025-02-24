@@ -5,10 +5,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: ae657964-d4a5-4c3b-afc6-8dde7695955d
-source-git-commit: 0cbce301426ee42bc00f8b0930a13d0d7875e382
+source-git-commit: bb6697241701160f878dc3fde2c7dd4d57ec097e
 workflow-type: tm+mt
-source-wordcount: '1336'
-ht-degree: 16%
+source-wordcount: '1449'
+ht-degree: 14%
 
 ---
 
@@ -28,7 +28,10 @@ Como administrador de Adobe, puede crear administradores del sistema de Adobe Wo
 
 >[!NOTE]
 >
->Recomendamos añadir usuarios que no sean administradores del sistema directamente en Workfront. Es posible añadir usuarios en Adobe Admin Console, pero añadirlos en Workfront le permite establecer su nivel de acceso mientras los crear, lo que le puede ahorrar tiempo.
+>* **Los administradores de Workfront deben estar configurados en Adobe Admin Console.** Para obtener información e instrucciones, consulte [Crear administradores de sistemas en Workfront con Adobe Admin Console](#create-system-administrators-in-workfront-with-the-adobe-admin-console) en este artículo.
+>* **Si su organización utiliza el inicio de sesión único (SSO)**, le recomendamos que cree usuarios y los asigne a Workfront en Adobe Admin Console. Es posible crear estos usuarios en Workfront, pero puede haber problemas para transferir esa información a Adobe Admin Console, según la configuración de Admin Console de su organización.
+>   Después de crear el usuario en Adobe Admin Console, puede configurar su información en Workfront, como la asignación de funciones, grupos, equipos y niveles de acceso.
+>* **Si su organización no utiliza el inicio de sesión único (SSO)**, puede agregar usuarios que no sean administradores del sistema directamente en Workfront. Es posible añadir usuarios en Adobe Admin Console, pero añadirlos en Workfront le permite establecer su nivel de acceso mientras los crear, lo que le puede ahorrar tiempo.
 
 <span class="preview">Al realizar cambios en los perfiles de los usuarios desde Admin Console, se agrega una actualización a la pestaña Actividad del sistema del usuario en Workfront. La actualización se muestra tal y como la realizó el &quot;Sistema&quot;. Hace referencia al administrador de Adobe Admin Console y no al administrador principal de Workfront.</span>
 

@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: e95dbc32-915b-4ea7-a5ad-e1da99edfbe3
-source-git-commit: 554e08c22f6ee142a9ced8fa991d0126b6360b0c
+source-git-commit: bb6697241701160f878dc3fde2c7dd4d57ec097e
 workflow-type: tm+mt
-source-wordcount: '1131'
-ht-degree: 93%
+source-wordcount: '1256'
+ht-degree: 83%
 
 ---
 
@@ -21,13 +21,19 @@ ht-degree: 93%
 
 >[!IMPORTANT]
 >
->Si su organización se ha incorporado a Adobe Admin Console, debe crear administradores del sistema mediante Adobe Admin Console.
+>* **Si su organización se ha incorporado a Adobe Admin Console, debe crear administradores de sistemas mediante Adobe Admin Console.**
 >
->Para obtener instrucciones sobre cómo crear administradores de sistemas en Adobe Admin Console, consulte [Administrar usuarios en Adobe Admin Console](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md).
+>   Para obtener instrucciones sobre cómo crear administradores de sistemas en Adobe Admin Console, consulte [Administrar usuarios en Adobe Admin Console](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md).
 >
->Los administradores de grupo de las organizaciones que se han incorporado a Adobe Admin Console pueden utilizar este procedimiento para crear usuarios y enviarlos para su aprobación por parte de la administración.
+>   Los administradores de grupo de las organizaciones que se han incorporado a Adobe Admin Console pueden utilizar este procedimiento para crear usuarios y enviarlos para su aprobación por parte de la administración.
 >
->Para obtener una lista de procedimientos que difieren según si su organización se ha incorporado a Adobe Admin Console, consulte [Diferencias de administración basadas en la plataforma (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>   Para obtener una lista de procedimientos que difieren según si su organización se ha incorporado a Adobe Admin Console, consulte [Diferencias de administración basadas en la plataforma (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>
+>* **Si su organización utiliza el inicio de sesión único (SSO)**, le recomendamos que cree usuarios y los asigne a Workfront en Adobe Admin Console. Es posible crear estos usuarios en Workfront, pero puede haber problemas para transferir esa información a Adobe Admin Console, según la configuración de Admin Console de su organización.
+>   Después de crear el usuario en Adobe Admin Console, puede configurar su información en Workfront, como la asignación de funciones, grupos, equipos y niveles de acceso.
+>* **Si su organización no utiliza el inicio de sesión único (SSO)**, puede agregar usuarios que no sean administradores del sistema directamente en Workfront. Es posible añadir usuarios en Adobe Admin Console, pero añadirlos en Workfront le permite establecer su nivel de acceso mientras los crear, lo que le puede ahorrar tiempo.
+
+
 
 Puede añadir usuarios en Adobe Workfront creando usuarios individuales desde cero o copiando los existentes.
 

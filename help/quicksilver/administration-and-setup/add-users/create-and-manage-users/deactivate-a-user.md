@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: aba243ba-46c2-4eb7-b704-4368bf0ae3cc
-source-git-commit: 554e08c22f6ee142a9ced8fa991d0126b6360b0c
+source-git-commit: bb6697241701160f878dc3fde2c7dd4d57ec097e
 workflow-type: tm+mt
-source-wordcount: '1085'
+source-wordcount: '1105'
 ht-degree: 9%
 
 ---
@@ -39,11 +39,14 @@ Puede reactivar un usuario en cualquier momento.
 
 >[!IMPORTANT]
 >
->Se recomienda desactivar usuarios que hayan abandonado la organización en lugar de eliminarlos. Si se elimina un usuario, se perderá todo el historial en Workfront asociado con ese usuario. Esto incluye sus asignaciones de trabajo, su asociación con notas, horas, documentos y todos los demás objetos que hayan creado una vez.
+>* Se recomienda desactivar usuarios que hayan abandonado la organización en lugar de eliminarlos. Si se elimina un usuario, se perderá todo el historial en Workfront asociado con ese usuario. Esto incluye sus asignaciones de trabajo, su asociación con notas, horas, documentos y todos los demás objetos que hayan creado una vez.
 >
->Al desactivar un usuario en Workfront, se eliminan sus licencias tanto de Workfront como de revisión digital. Además, ya no se puede asignar trabajo al usuario. Cuando se desactiva un usuario, su licencia de Workfront y su licencia de revisión quedan disponibles para que las utilice otro usuario. El resto de la información del perfil del usuario desactivado permanece sin cambios.
+>   Al desactivar un usuario en Workfront, se eliminan sus licencias tanto de Workfront como de revisión digital. Además, ya no se puede asignar trabajo al usuario. Cuando se desactiva un usuario, su licencia de Workfront y su licencia de revisión quedan disponibles para que las utilice otro usuario. El resto de la información del perfil del usuario desactivado permanece sin cambios.
 >
->Para obtener más información sobre el impacto de eliminar y desactivar usuarios, consulte [Eliminar usuarios](../../../administration-and-setup/add-users/create-and-manage-users/delete-a-user.md).
+>   Para obtener más información sobre el impacto de eliminar y desactivar usuarios, consulte [Eliminar usuarios](../../../administration-and-setup/add-users/create-and-manage-users/delete-a-user.md).
+>
+>* Al desactivar un usuario en Workfront, no se elimina del Perfil de productos de Workfront en Adobe Admin Console.
+
 
 ## Requisitos de acceso
 
