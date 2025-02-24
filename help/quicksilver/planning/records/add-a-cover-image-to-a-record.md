@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 93c6bc15-d945-4cfc-8e87-f5b4e6fac2f4
-source-git-commit: 799115d836d67a81fe69cd04c8e75014d48d2443
+source-git-commit: 7fc2239de2488d2e3e5c434ab45e8a1d24c0b28f
 workflow-type: tm+mt
-source-wordcount: '709'
-ht-degree: 34%
+source-wordcount: '748'
+ht-degree: 27%
 
 ---
 
@@ -68,7 +68,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  <tr> 
    <td role="rowheader"><p>plataforma de Adobe Workfront</p></td> 
    <td> 
-<p>La instancia de Workfront de su organización debe incorporarse a la experiencia Adobe unificado para poder acceder a todas las funcionalidades de Workfront Planning.</p> 
+<p>La instancia de Workfront de su organización debe incorporarse a Adobe Unified Experience para poder acceder a todas las funcionalidades de Workfront Planning.</p> 
 <p>Para obtener más información, consulte <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience para Workfront</a>. </p> 
    </td> 
    </tr> 
@@ -136,53 +136,46 @@ Puede personalizar un registro agregando una imagen de portada en la parte super
 
    O
 
-   En la vista de tabla, haga clic en el icono de **Abrir detalles** ![](assets/open-details-icon-in-table-name-field.png) en la primera columna.
+   En la vista de tabla, haga clic en el icono **Abrir detalles** ![Abrir detalles](assets/open-details-icon-in-table-name-field.png) en la primera columna.
 
    La vista previa del registro se abrirá en la vista.
 
-   <!--<div class="preview">
+   ![Cuadro de vista previa de detalles](assets/details-box.png)
 
-    ![](assets/details-box.png) 
 
-    </div>-->
-
-1. (Opcional) Haga clic en el icono de **Abrir en pestaña nueva** ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> en la esquina superior derecha de la vista previa del registro para abrir la página del registro en una nueva pestaña.
+1. (Opcional) Haga clic en el icono **Abrir en ficha nueva** ![Abrir en icono de ficha nueva](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> en la esquina superior derecha de la vista previa del registro para abrir la página del registro en una ficha nueva.
 
    Se abre la página de registro.
 
-   <!--<div class="preview">
-
-    ![](assets/details-page.png)
-
-    </div>-->
+   ![Página de detalles](assets/details-page.png)
 
 1. En la vista previa del registro o en la página de detalles, pasa el ratón sobre el espacio que hay sobre el nombre del registro y haz clic en **Agregar portada**.
 
    O
 
-   Pase el ratón sobre una imagen de portada existente, haga clic en el menú **Más** ![](assets/more-menu.png) y luego haga clic en **Cargar**. <!--check the casing here; I logged a bug for this-->
+   Pase el ratón sobre una imagen de portada existente, haga clic en el menú **Más** ![Menú más](assets/more-menu.png) y luego haga clic en **Cargar**. <!--check the casing here; I logged a bug for this-->
 El cuadro **Cubierta de registro** se abre en la ficha **Cargar**.
 
-   ![](assets/record-cover-box-for-upload.png)
+   ![Grabar cuadro de portada para cargar](assets/record-cover-box-for-upload.png)
 
 1. Haz clic en **Examinar imágenes** y busca una imagen en tu equipo para seleccionarla y agregarla.
 
-1. (Opcional) Para quitar la imagen antes de guardarla, haga clic en el icono **Cargar nueva imagen** ![](assets/upload-new-image-icon.png) y cargue una nueva imagen.
+1. (Opcional) Para quitar la imagen antes de guardarla, haga clic en el icono **Cargar nueva imagen** ![Cargar nuevo icono de imagen](assets/upload-new-image-icon.png) y cargue una nueva imagen.
 
 1. (Opcional) Haga clic en la ficha **Galería** y luego haga clic en una imagen de la galería de imágenes. La galería de imágenes no se puede modificar.
 
-   ![](assets/record-cover-box-for-gallery.png)
+   ![Cuadro de portada de registro para la galería](assets/record-cover-box-for-gallery.png)
 
 1. Haga clic en **Usar imagen**.
 
    La imagen se carga en la parte superior de la página de vista previa del registro o de detalles y los cambios se guardan automáticamente.
 
-   ![](assets/record-page-with-cover-image.png)
+   ![Grabar página con imagen de portada](assets/record-page-with-cover-image.png)
 
-1. (Opcional) Pase el ratón sobre la imagen, luego haga clic en el menú **Más** ![](assets/more-menu.png) en la esquina inferior derecha de la imagen de la portada y siga uno de estos procedimientos:
+1. (Opcional) Pase el ratón sobre la imagen y, a continuación, haga clic en el menú **Más** ![Menú más](assets/more-menu.png) en la esquina inferior derecha de la imagen de la portada. A continuación, siga uno de estos procedimientos:
 
    * Haz clic en **Cargar** si deseas reemplazar la imagen de portada y repite el paso 6 para cargar y guardar una nueva imagen.
-   * Haga clic en **Cambiar posición**, use la herramienta **Cambiar posición** ![](assets/reposition-tool-icon.png) para centrar la imagen de portada y, después, haga clic en **Guardar** cuando haya terminado.
+   * Haga clic en **Cambiar de posición** y use la herramienta **Cambiar de posición** ![Icono de la herramienta de cambio de posición](assets/reposition-tool-icon.png) para centrar la imagen de portada; a continuación, haga clic en **Guardar** cuando haya terminado.
    * Haz clic en **Quitar** para quitar la imagen de la portada.
 
    Workfront guardará automáticamente los cambios.

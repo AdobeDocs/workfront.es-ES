@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
+source-git-commit: 7fc2239de2488d2e3e5c434ab45e8a1d24c0b28f
 workflow-type: tm+mt
-source-wordcount: '1429'
-ht-degree: 14%
+source-wordcount: '1479'
+ht-degree: 13%
 
 ---
 
@@ -74,7 +74,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 <tr>
    <td role="rowheader"><p>plataforma de Adobe Workfront</p></td>
    <td>
-<p>La instancia de Workfront de su organización debe incorporarse a la experiencia Adobe unificado para poder acceder a todas las funcionalidades de Workfront Planning.</p>
+<p>La instancia de Workfront de su organización debe incorporarse a Adobe Unified Experience para poder acceder a todas las funcionalidades de Workfront Planning.</p>
 <p>Para obtener más información, consulte <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience para Workfront</a>. </p>
    </td>
 
@@ -169,7 +169,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
    >    * Workfront Planning connected records' lookup fields
    >    * AEM Assets connection fields-->
 
-   * **Sección predeterminada**: Este es el salto de sección predeterminado que Workfront aplica al formulario de solicitud. No se puede cambiar el nombre de la sección predeterminada ni eliminarla.
+   * **Sección predeterminada**: Este es el salto de sección predeterminado que Workfront aplica al formulario de solicitud. Todos los campos de registro se muestran en el área **Sección predeterminada**.
    * Campo **Asunto**: Campo que identificará la solicitud en Workfront. La configuración y el valor del campo Subject no se pueden editar.
 
      >[!TIP]
@@ -183,6 +183,12 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 1. (Opcional) Pase el ratón sobre cualquier campo del formulario que quiera quitar y luego haga clic en el icono **x** para quitarlo. Se agregarán a la ficha **Campos** situada a la izquierda del formulario.
 
    Por ejemplo, quite el campo **Asunto**, ya que esto no es visible en Workfront Planning. <!--remove this step when we connect intake with the Requests area in Workfront-->
+1. (Opcional) Para quitar la **sección predeterminada** del formulario, haga lo siguiente:
+
+   1. Elimine todos los campos de la sección predeterminada.
+   1. Haga clic en **Elementos de contenido** y agregue una nueva sección; a continuación, agregue un nombre para la sección.
+   1. Agregue campos a la nueva sección.
+   1. Haga clic en el icono **x** para quitar la **sección predeterminada**.
 1. Haga clic en cualquier campo y, a continuación, utilice los controles del panel derecho del formulario para definir su tamaño o cualquiera de las siguientes informaciones:
 
    * **Etiqueta**: este es el nombre del campo tal como aparecerá en el formulario de solicitud. Esto no cambia el nombre del campo de registro.
@@ -220,11 +226,11 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
      Para obtener más información sobre cómo agregar aprobaciones a los formularios de solicitud, consulte [Agregar aprobación a un formulario de solicitud](/help/quicksilver/planning/requests/add-approval-to-request-form.md).
 
 1. (Opcional) Haga clic en el menú **Más** ![](assets/more-menu.png) que se encuentra a la derecha del nombre del formulario en el encabezado y, a continuación, haga clic en **Editar** para actualizar el nombre del formulario.
-1. Haga clic en **Publish** para publicar el formulario y obtener un vínculo único para él.
+1. Haga clic en **Publicar** para publicar el formulario y obtener un vínculo único para él.
 
    Ocurren lo siguiente:
 
-   * Se ha quitado el botón **Publish**.
+   * Se ha quitado el botón **Publicar**.
    * Se agrega el botón **Cancelar publicación** al formulario. Si hace clic en él, se impedirá el acceso al formulario.
    * Se agrega un botón **Compartir** al formulario.
 

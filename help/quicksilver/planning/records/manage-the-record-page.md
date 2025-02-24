@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 799115d836d67a81fe69cd04c8e75014d48d2443
+source-git-commit: 7fc2239de2488d2e3e5c434ab45e8a1d24c0b28f
 workflow-type: tm+mt
-source-wordcount: '1624'
-ht-degree: 60%
+source-wordcount: '1772'
+ht-degree: 49%
 
 ---
 
@@ -78,7 +78,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 <tr>
    <td role="rowheader"><p>plataforma de Adobe Workfront</p></td>
    <td>
-<p>La instancia de Workfront de su organización debe incorporarse a la experiencia Adobe unificado para poder acceder a todas las funcionalidades de Workfront Planning.</p>
+<p>La instancia de Workfront de su organización debe incorporarse a Adobe Unified Experience para poder acceder a todas las funcionalidades de Workfront Planning.</p>
 <p>Para obtener más información, consulte <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience para Workfront</a>. </p>
    </td>
 
@@ -105,7 +105,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr>
 <tr>
    <td role="rowheader"><p>Plantilla de diseño</p></td>
-   <td> <p>A todos los usuarios, incluidos los administradores de Workfront, se les debe asignar una plantilla de diseño que incluya el área de Planning en el menú principal y el área de Planning para proyectos, portafolios y programas. </p> Para obtener más información, vea <a href="/help/quicksilver/planning/access/access-overview.md">Información general sobre el acceso a Adobe Planning</a>. </p>  </p>  
+   <td> <p>A todos los usuarios, incluidos los administradores de Workfront, se les debe asignar una plantilla de diseño que incluya el área de Planning en el menú principal y el área de Planning para proyectos, portafolios y programas. </p> Para obtener más información, consulte <a href="/help/quicksilver/planning/access/access-overview.md">Información general sobre el acceso a Adobe Planning</a>. </p>  </p>  
 </td>
   </tr>
  </tbody>
@@ -157,29 +157,29 @@ Para añadir una sección a una vista previa o a una página del registro:
 
    O
 
-   En la vista de tabla, haga clic en el icono de **Abrir detalles** ![](assets/open-details-icon-in-table-name-field.png) en la primera columna.
+   En la vista de tabla, haga clic en el icono **Abrir detalles** ![Abrir detalles en el campo de nombre de tabla](assets/open-details-icon-in-table-name-field.png) de la primera columna.
 
    La vista previa del registro se abrirá en la vista.
 
    <!--<div class="preview">
 
-    ![](assets/details-box.png)  
+    ![Details box](assets/details-box.png)  
 
     </div>-->
 
-1. (Opcional) Haga clic en el icono de **Abrir en pestaña nueva** ![](assets/open-details-in-a-new-tab-icon.png) en la esquina superior derecha de la vista previa del registro para abrir la página del registro en una pestaña nueva.
+1. (Opcional) Haga clic en el icono **Abrir en ficha nueva** ![Abrir detalles en un icono de ficha nueva](assets/open-details-in-a-new-tab-icon.png) en la esquina superior derecha de la vista previa del registro para abrir la página del registro en una ficha nueva.
 
    Se abre la página de registro. La pestaña Detalles se abre de forma predeterminada.
 
-   ![](assets/details-page.png)
+   ![Página de detalles](assets/details-page.png)
 
-1. En la ficha **Detalles** de la página o vista previa del registro, pase el ratón sobre el espacio en blanco a la izquierda de los campos y, a continuación, haga clic en el icono **Agregar sección** ![](assets/add-section-icon.png) para agregar una sección.
+1. En la pestaña **Detalles** de la página o vista previa del registro, pasa el ratón sobre el espacio en blanco a la izquierda de los campos y, a continuación, haz clic en el icono **Agregar sección** ![Agregar icono de sección](assets/add-section-icon.png) para agregar una sección.
 1. Haga clic dentro del nombre de la sección y reemplace **Sección sin título** por un nombre; a continuación, haga clic en Entrar. Los campos que se muestran en la sección forman parte automáticamente de la nueva sección.
 1. Empiece a arrastrar y soltar campos en la nueva sección, tal como se describe en la sección [Reorganización de los campos en la vista previa o en la página de detalles del registro](#rearrange-fields-in-the-record-preview-or-details-page) de este artículo.
 
-1. (Opcional) Pase el puntero por encima del nombre de una sección y haga clic en el menú **Más** ![](assets/more-menu.png).
+1. (Opcional) Pase el ratón sobre el nombre de una sección y haga clic en el menú **Más** ![Menú más](assets/more-menu.png).
 
-   ![](assets/more-menu-options-for-section-on-record-page.png)
+   ![Más opciones de menú para la sección de la página de registros](assets/more-menu-options-for-section-on-record-page.png)
 1. (Opcional) Realice una de las siguientes acciones para editar la sección:
 
    * Haga clic en **Cambiar nombre** para cambiar el nombre de la sección
@@ -200,19 +200,19 @@ Todos los campos de la sección se mueven con la sección.
 1. Haga clic en la flecha hacia abajo situada a la izquierda del nombre de la sección para contraerla o en la flecha hacia la derecha para expandirla.
 Todas las secciones se expanden de forma predeterminada.
 
-1. (Opcional) Haga clic en el icono de **agarre** ![](assets/grab-icon.png) a la izquierda del nombre de una sección y, a continuación, arrástrela y suéltela en el lugar que desee.
+1. (Opcional) Haga clic en el icono **asidero** ![Icono de asidero](assets/grab-icon.png) a la izquierda del nombre de una sección, luego arrástrela y suéltela en el lugar que desee.
 
    La nueva posición de la sección se actualiza tanto en la vista previa como en la página de todos los registros del mismo tipo para todos los usuarios que ven los registros.
 
    Todos los cambios realizados en las secciones y el orden de los campos se guardan automáticamente.
 
-1. (Opcional) Haga clic en el menú **Exportar** ![](assets/export-icon-in-record-details-page.png) para exportar la ficha Detalles a un archivo de Word o de un PDF. Para obtener más información, vea [Exportar los detalles de un registro](/help/quicksilver/planning/records/export-the-record-page.md).
+1. (Opcional) Haga clic en el icono **Exportar** del menú ![Exportar en la página de detalles del registro](assets/export-icon-in-record-details-page.png) para exportar la pestaña Detalles a un archivo de Word o PDF. Para obtener más información, vea [Exportar los detalles de un registro](/help/quicksilver/planning/records/export-the-record-page.md).
 
 1. (Opcional) Haga clic en la ficha **Conexiones** junto a la ficha **Detalles**. Es posible que tenga que hacer clic en **Más** antes de hacer clic en la ficha **Conexiones**.
 
    Todos los registros u objetos conectados al registro seleccionado se muestran bajo los nombres del tipo de registro o de la aplicación a la que pertenecen.
 
-   ![](assets/connections-tab-on-record-in-workfront-planning.png)
+   ![Ficha Conexiones registrada en Workfront Planning](assets/connections-tab-on-record-in-workfront-planning.png)
 
 1. (Opcional) Seleccione la opción **Mostrar todos los registros** en la esquina superior derecha de la pestaña Conexiones. Se muestran todos los tipos de registros conectados, incluidos los que aún no tienen registros conectados. De forma predeterminada, la opción no está seleccionada y los tipos de registro sin registros conectados están ocultos.
 
@@ -240,27 +240,27 @@ Ocurren lo siguiente:
 
    O
 
-   En la vista de tabla, haga clic en el icono de **Abrir detalles** ![](assets/open-details-icon-in-table-name-field.png) en la primera columna.
+   En la vista de tabla, haga clic en el icono **Abrir detalles** ![Abrir detalles en el campo de nombre de tabla](assets/open-details-icon-in-table-name-field.png) de la primera columna.
 
    La vista previa del registro se abrirá en la vista.
 
    <!--<div class="preview">
 
-    ![](assets/details-box.png) 
+    ![Details box](assets/details-box.png) 
 
     </div>-->
 
-1. (Opcional) Haga clic en el icono de **Abrir en pestaña nueva** ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> en la esquina superior derecha de la vista previa del registro para abrir la página del registro en una nueva pestaña.
+1. (Opcional) Haga clic en el icono **Abrir en ficha nueva** ![Abrir cuadro de detalles en un icono de ficha nueva](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> en la esquina superior derecha de la vista previa del registro para abrir la página del registro en una ficha nueva.
 
    La ficha **Detalles** del registro se abre de manera predeterminada.
 
    <!--<div class="preview">
 
-   ![](assets/details-page.png)
+   ![Details page](assets/details-page.png)
 
    </div>-->
 
-1. En la ficha de registro **Detalles**, haga clic en el icono **agarrar** ![](assets/grab-icon.png) que hay a la izquierda del nombre de campo y, a continuación, arrástrelo y suéltelo en el lugar que desee. <!--You can drag and drop fields to another section. You must have at least one field in a section.-->
+1. En la ficha de registro **Detalles**, haga clic en el icono **agarrar** ![Icono de agarrar](assets/grab-icon.png) a la izquierda del nombre de un campo y, a continuación, arrástrelo y suéltelo en el lugar deseado. <!--You can drag and drop fields to another section. You must have at least one field in a section.-->
 
    La nueva posición del campo se actualiza tanto en la vista previa como en la página de todos los registros del mismo tipo para todos los usuarios que ven los registros.
 
@@ -268,40 +268,64 @@ Ocurren lo siguiente:
 
 ## Agregar una página de vista Conexión a la página de un registro
 
+<!--suggested a new name for this type of page: "Connected records details" - check to see if this changed-->
+
 Tenga en cuenta lo siguiente al agregar una vista Conexión a la página de un registro:
 
 * Puede agregar una página de vista Conexión a la página de un registro.
 
 * No se puede agregar una página de vista Conexión al área de vista previa de un registro.
 
-* Las páginas de vista de conexión muestran una página de registro conectada en la vista de tabla. La vista de tabla es de solo lectura.
+* Las páginas de vista de conexión muestran una página de registro conectada en la vista de tabla. La vista de tabla es de solo lectura. <!--more views might be added in the future-->
 
 * Puede agregar una página Vista de conexión por cada tipo de registro conectado.  <!--edit this when we can remove fields from this page-->
 
-* Después de agregar una página de vista Conexión a la página de un registro, la página es visible desde el área de vista previa del registro.
+* Después de agregar una página de vista Conexión a la página de un registro, la ficha Página se puede ver desde el área de vista previa del registro. Debe ir a la página completa para ver la vista de tabla del registro conectado. <!--this might have changed? check and take disclaimer out-->
 
 Para agregar una página Vista de conexión:
 
-1. En una vista de página de registro, haga clic en el nombre de un registro para abrirlo y, a continuación, haga clic en el icono **Abrir en ficha nueva** ![](assets/open-details-in-a-new-tab-icon.png) en la esquina superior derecha de la página de vista previa.
+1. En una vista de página de registro, haga clic en el nombre de un registro para abrirlo y, a continuación, haga clic en el icono **Abrir en ficha nueva** ![Abrir detalles en un icono de ficha nueva](assets/open-details-in-a-new-tab-icon.png) en la esquina superior derecha de la página de vista previa.
 1. Haga clic en **Agregar página** > **Vista de conexión**.
 
-   ![](assets/add-connection-view-page-modal.png)
+   ![Agregar modal de página de vista de conexión](assets/add-connection-view-page-modal.png)
 1. Agregue **Nombre de página**, haga clic en **Vista de conexión** y, a continuación, haga clic en **Crear**.
 
    Se agrega una nueva pestaña a la página del registro.
 1. Busque o haga clic en el nombre de un tipo de objeto o registro conectado en la lista.
 Se muestra la vista de tabla del tipo de registro seleccionado y los registros conectados se muestran en la vista de tabla.
-La vista de tabla es de solo lectura.
+Todos los campos del registro conectado se muestran en la vista de tabla de la ficha del registro conectado.
 
-   ![](assets/audience-connected-table-view-under-campaign-details-page.png)
+   <!--<span class="preview">When you access Workfront Planning from the Preview environment, five fields from the connected record display in the connected record's table view by default. Some connection fields display in addition to other fields. All lookup fields are hidden.</span> (*****be more specific about which connected fields show, if Robert responds*******)-->
+
+   La vista de tabla es de solo lectura.
+
+   <!--replace screen shot below when additional capabilities come to the table view - Fields, etc-->
+
+   ![Vista de tabla conectada a la audiencia con detalles de campaña](assets/audience-connected-table-view-under-campaign-details-page.png)
 1. (Opcional) Haga doble clic en el nombre de la pestaña
 
    O
 
-   Pase el ratón sobre el nombre de la ficha, luego haga clic en **Más** ![](assets/more-menu.png), luego haga clic en **Cambiar nombre** para cambiar el nombre a la nueva ficha Vista conectada.
-1. (Opcional) Utilice cualquier elemento de vista de la barra de herramientas para administrar la vista de tabla. Para obtener más información, consulte [Administrar la vista de tabla](/help/quicksilver/planning/views/manage-the-table-view.md).
-1. (Opcional) Pase el ratón sobre el nombre de la pestaña, luego haga clic en **Más** ![](assets/more-menu.png) y, a continuación, haga clic en **Eliminar** para quitar a la nueva pestaña Vista conectada.
+   Pase el ratón sobre el nombre de la ficha, luego haga clic en **Más** ![Menú más](assets/more-menu.png), luego haga clic en **Cambiar nombre** para cambiar el nombre a la nueva ficha Vista conectada.
+1. (Opcional) Utilice cualquiera de los siguientes elementos de la barra de herramientas para administrar la vista de tabla
 
+   * Filtros
+   * Ordenar
+   * Agrupación
+
+   <!--Add to the list above some of the capabilities in the note with a preview tag when they are available.-->
+
+   Para obtener más información, consulte [Administrar la vista de tabla](/help/quicksilver/planning/views/manage-the-table-view.md).
+
+   >[!NOTE]
+   >
+   >   No puede realizar ninguna de las siguientes acciones en la vista de tabla de la ficha de un registro conectado:
+   >
+   >   * Ocultar campos
+   >   * Crear, editar o eliminar campos
+   >   * Reorganizar campos
+   >
+1. (Opcional) Pase el ratón sobre el nombre de la pestaña, luego haga clic en **Más** ![Menú más](assets/more-menu.png) y, a continuación, haga clic en **Eliminar** para quitar a la nueva pestaña Vista conectada.
 
 
 <!--
