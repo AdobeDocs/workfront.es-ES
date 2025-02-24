@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 8b4c04f5-f519-44e9-8429-0ce80c2d7c5b
-source-git-commit: 9a588df1ef48b40056c5228c8ff03b5819eb4410
+source-git-commit: 0cc1ab3a7412b7200ddab1a789ef5e9d86c3949f
 workflow-type: tm+mt
-source-wordcount: '1041'
+source-wordcount: '1046'
 ht-degree: 97%
 
 ---
@@ -100,6 +100,7 @@ Dado que la promoción del entorno se ocupa de la configuración de objetos, no 
 | Nivel de acceso (ACSLVL) | Nivel de acceso |
 | Tarjeta de tarifa (RTCRD) | Tarjeta de tarifas |
 | Ubicación / Clasificador (CLSF) | Ubicación / Clasificador |
+| Reglas de negocio (BSNRUL) | Reglas empresariales |
 
 \* No disponible actualmente
 
