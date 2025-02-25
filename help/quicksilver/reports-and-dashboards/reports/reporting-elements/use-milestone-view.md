@@ -2,14 +2,14 @@
 product-area: reporting
 navigation-topic: reporting-elements
 title: Uso de la vista de hito
-description: Puede aplicar la vista de hito a una lista de proyectos o a un informe.
+description: Puede aplicar la vista de Hito a una lista de proyectos o a un informe. Puede utilizar la vista de Hito para ver todos los hitos asociados con las tareas de los proyectos que está viendo.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: c55e53b5-5559-4b6a-a8d7-5028be6af30f
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: f3f33d870859408db5ec3dc306cf1d4209c126a3
 workflow-type: tm+mt
-source-wordcount: '1312'
-ht-degree: 99%
+source-wordcount: '1360'
+ht-degree: 90%
 
 ---
 
@@ -17,11 +17,15 @@ ht-degree: 99%
 
 <!-- Audited: 11/2024 -->
 
-Puede aplicar la vista de hito a una lista de proyectos o a un informe.
+Puede aplicar la vista de Hito a una lista de proyectos o a un informe. Puede utilizar la vista de Hito para ver todos los hitos asociados con las tareas de los proyectos que está viendo.
 
-Para poder usar la vista de hito, es necesario configurar los hitos, añadir las rutas de hitos a los proyectos y asociar los hitos a las tareas, tal como se describe en los artículos [Crear una ruta de hitos](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md) y [Asociar hitos a las tareas](../../../manage-work/tasks/manage-tasks/associate-milestones-with-tasks.md).
+Para poder utilizar la vista de hito, deben existir los siguientes elementos:
 
-La vista de hito está disponible cuando se visualiza una lista de proyectos o un informe de proyectos. En las secciones siguientes se describe cómo ver y utilizar la vista de hito.
+* Se configuran las rutas de los hitos. Para obtener más información, vea [Crear una ruta de hitos](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md).
+* Las rutas de hitos necesarias se añaden a los proyectos. Para obtener más información, consulte [Editar proyectos](/help/quicksilver/manage-work/projects/manage-projects/edit-projects.md).
+* Los hitos están asociados a tareas. Para obtener más información, consulte [Asociar hitos con tareas](../../../manage-work/tasks/manage-tasks/associate-milestones-with-tasks.md).
+
+La vista Hito está disponible cuando se visualiza una lista de proyectos o un informe de proyectos. En las secciones siguientes se describe cómo ver y utilizar la vista de hito.
 
 ## Requisitos de acceso
 
