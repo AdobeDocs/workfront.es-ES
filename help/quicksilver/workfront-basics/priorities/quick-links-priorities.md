@@ -5,17 +5,19 @@ description: Los vínculos que visita con frecuencia se guardan en una tarea o u
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
-source-git-commit: 75396c3f066abc6070ae2a89c2ded0255dbc0751
+exl-id: 2d76077d-2913-40b8-9596-4e201d12ec1a
+source-git-commit: 20cb2237a534b51ab5c75e393369bdd92c233efb
 workflow-type: tm+mt
-source-wordcount: '277'
-ht-degree: 0%
+source-wordcount: '293'
+ht-degree: 22%
 
 ---
-
 
 # Agregar y administrar vínculos rápidos en Prioridades
 
 Puede guardar vínculos que visite con frecuencia en una tarea o problema y acceder a ellos desde la pestaña Información general en Prioridades.
+
+Prioridades muestra los elementos de trabajo que tiene asignados. No puede ver los elementos de trabajo asignados a su equipo.
 
 ## Requisitos de acceso
 
@@ -30,7 +32,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>plan de Adobe Workfront</strong></td> 
+   <td role="rowheader"><strong>Plan de Adobe Workfront</strong></td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
@@ -46,7 +48,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Permisos de objeto</strong></td> 
-   <td> <p>Ver acceso al objeto</p></td> 
+   <td> <p>Acceso de visualización al objeto</p></td> 
   </tr> 
  </tbody> 
 </table>

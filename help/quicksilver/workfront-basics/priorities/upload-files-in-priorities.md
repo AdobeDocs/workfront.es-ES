@@ -6,16 +6,18 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 484aa52e-7f87-40ab-a5e9-3b0c55232189
-source-git-commit: d829be62c275ea91d1c97c2d3dd994e325ce9738
+source-git-commit: 20cb2237a534b51ab5c75e393369bdd92c233efb
 workflow-type: tm+mt
-source-wordcount: '292'
-ht-degree: 33%
+source-wordcount: '308'
+ht-degree: 31%
 
 ---
 
 # Cargar archivos en Prioridades
 
 Puede cargar archivos desde la lista de trabajos de Prioridades o desde elementos de trabajo individuales. Los archivos cargados desde Prioridades aparecen en la pestaña Documentos del elemento de trabajo.
+
+Prioridades muestra los elementos de trabajo que tiene asignados. No puede ver los elementos de trabajo asignados a su equipo.
 
 ## Requisitos de acceso
 

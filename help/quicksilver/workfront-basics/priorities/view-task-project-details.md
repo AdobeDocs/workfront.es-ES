@@ -6,16 +6,18 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: bd51e58c-c824-40b8-aedd-e247a5ccad55
-source-git-commit: d829be62c275ea91d1c97c2d3dd994e325ce9738
+source-git-commit: 20cb2237a534b51ab5c75e393369bdd92c233efb
 workflow-type: tm+mt
-source-wordcount: '406'
-ht-degree: 21%
+source-wordcount: '422'
+ht-degree: 20%
 
 ---
 
 # Ver detalles del proyecto y del elemento de trabajo en Prioridades
 
 Puede ver los detalles del proyecto, la tarea y el problema en la lista de trabajo de prioridades.
+
+Prioridades muestra los elementos de trabajo que tiene asignados. No puede ver los elementos de trabajo asignados a su equipo.
 
 >[!IMPORTANT]
 >

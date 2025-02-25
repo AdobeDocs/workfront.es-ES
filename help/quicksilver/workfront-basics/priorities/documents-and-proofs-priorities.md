@@ -6,16 +6,18 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 63aa5e45-e51d-4049-a5d9-18dfaaa79647
-source-git-commit: d829be62c275ea91d1c97c2d3dd994e325ce9738
+source-git-commit: 20cb2237a534b51ab5c75e393369bdd92c233efb
 workflow-type: tm+mt
-source-wordcount: '498'
-ht-degree: 37%
+source-wordcount: '514'
+ht-degree: 36%
 
 ---
 
 # Cargar documentos y crear pruebas en Prioridades
 
 Puede cargar documentos y crear pruebas en Prioridades.
+
+Prioridades muestra los elementos de trabajo que tiene asignados. No puede ver los elementos de trabajo asignados a su equipo.
 
 ## Requisitos de acceso
 
@@ -171,7 +173,7 @@ Puede organizar el documento utilizando filtros y opciones de ordenación.
 
 Puede filtrar documentos por
 
-* Agregado por
+* Añadido por
 * Tipo de archivo
 
 ### Ordenar

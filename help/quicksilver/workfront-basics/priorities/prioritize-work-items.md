@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 31793b0e-444c-492c-b1a2-909a2e97628b
-source-git-commit: d829be62c275ea91d1c97c2d3dd994e325ce9738
+source-git-commit: 20cb2237a534b51ab5c75e393369bdd92c233efb
 workflow-type: tm+mt
-source-wordcount: '184'
+source-wordcount: '200'
 ht-degree: 3%
 
 ---
@@ -16,6 +16,8 @@ ht-degree: 3%
 # Priorizar elementos de trabajo importantes
 
 Puede usar la columna Mi enfoque para priorizar el trabajo. La columna Mi enfoque es un valor personal y no afecta la prioridad establecida en la tarea o el problema.
+
+Prioridades muestra los elementos de trabajo que tiene asignados. No puede ver los elementos de trabajo asignados a su equipo.
 
 ## Priorice su trabajo con la columna Mi enfoque
 

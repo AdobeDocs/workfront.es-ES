@@ -6,16 +6,18 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 8eb9dcaf-bba3-466d-b06d-5383991bc4ea
-source-git-commit: 223e84eaccbfddb9a798af2528f4d33060bf60f2
+source-git-commit: 20cb2237a534b51ab5c75e393369bdd92c233efb
 workflow-type: tm+mt
-source-wordcount: '622'
-ht-degree: 17%
+source-wordcount: '642'
+ht-degree: 16%
 
 ---
 
 # Filtrar y agrupar su trabajo con Prioridades
 
 Puede utilizar filtros para encontrar el trabajo que está buscando y, a continuación, aplicar una agrupación para mantenerlo organizado.
+
+Prioridades muestra los elementos de trabajo que tiene asignados. No puede ver los elementos de trabajo asignados a su equipo en la Lista de trabajos de prioridades.
 
 ## Requisitos de acceso
 

@@ -6,16 +6,18 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: e4232fbe-1b5c-4614-8613-3b0e25ffee46
-source-git-commit: d829be62c275ea91d1c97c2d3dd994e325ce9738
+source-git-commit: 20cb2237a534b51ab5c75e393369bdd92c233efb
 workflow-type: tm+mt
-source-wordcount: '275'
-ht-degree: 24%
+source-wordcount: '291'
+ht-degree: 23%
 
 ---
 
 # Personalización de las columnas de lista de trabajo Prioridades
 
 Puede personalizar las columnas de la lista de trabajos en Prioridades para admitir su forma de trabajar.
+
+Prioridades muestra los elementos de trabajo que tiene asignados. No puede ver los elementos de trabajo asignados a su equipo.
 
 >[!NOTE]
 >

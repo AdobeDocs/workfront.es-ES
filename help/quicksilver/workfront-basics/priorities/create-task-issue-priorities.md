@@ -6,10 +6,10 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 240cda0f-0acf-4b5c-872d-b7f5cee0b769
-source-git-commit: 289febf91616c04c0341dbb53bf1b68be03a671d
+source-git-commit: 20cb2237a534b51ab5c75e393369bdd92c233efb
 workflow-type: tm+mt
-source-wordcount: '241'
-ht-degree: 32%
+source-wordcount: '263'
+ht-degree: 29%
 
 ---
 
@@ -37,7 +37,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
    <td role="rowheader"><strong>Licencia de Adobe Workfront*</strong></td> 
    <td> 
    <p>Actual: Solicitud o superior para Solicitudes; Revisar o superior para Problemas; Trabajo o superior para Tareas</p>
-   <p>Nuevo: Colaborador o superior para solicitudes; Ligero o superior para problemas <!--and documents-->: Tareas estándar o superiores</p> 
+   <p>Nuevo: Colaborador o superior para solicitudes; Ligero o superior para problemas y documentos: Tareas estándar o superiores</p> 
    </td> 
   </tr> 
   <tr> 
@@ -57,7 +57,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 ## Crear tareas o problemas en Prioridades
 
-Puede crear una tarea o un problema en un proyecto.
+Puede crear una tarea o un problema en un proyecto. Prioridades muestra los elementos de trabajo que tiene asignados. No puede ver los elementos de trabajo asignados a su equipo en la Lista de trabajos de prioridades.
 
 >[!NOTE]
 >
@@ -69,7 +69,7 @@ Para crear una tarea o un problema en un proyecto:
 
 1. Haga clic en **Crear nuevo** en la esquina superior derecha.
    ![](assets/create-new.png)
-&lt;!—nueva pantalla para el producto ![](assets/create-new--.png)—>
+nueva pantalla para prod ![](assets/create-new--.png)
 1. Especifique la siguiente información:
 
    | Campo | Instrucciones |

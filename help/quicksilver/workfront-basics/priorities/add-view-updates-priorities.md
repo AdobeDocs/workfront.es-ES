@@ -6,16 +6,18 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: a7237746-0a18-408b-b932-8a608fd72eee
-source-git-commit: 289febf91616c04c0341dbb53bf1b68be03a671d
+source-git-commit: 20cb2237a534b51ab5c75e393369bdd92c233efb
 workflow-type: tm+mt
-source-wordcount: '515'
-ht-degree: 13%
+source-wordcount: '531'
+ht-degree: 12%
 
 ---
 
 # Agregar y ver comentarios en Prioridades
 
 Puede agregar una actualización a una tarea o un problema para comunicar a otros el progreso del elemento de trabajo.
+
+Prioridades muestra los elementos de trabajo que tiene asignados. No puede ver los elementos de trabajo asignados a su equipo.
 
 ## Requisitos de acceso
 

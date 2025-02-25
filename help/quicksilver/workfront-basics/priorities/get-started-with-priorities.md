@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 17767006-2329-43b7-b4b3-0ca323cc41e0
-source-git-commit: d829be62c275ea91d1c97c2d3dd994e325ce9738
+source-git-commit: 20cb2237a534b51ab5c75e393369bdd92c233efb
 workflow-type: tm+mt
-source-wordcount: '999'
+source-wordcount: '1019'
 ht-degree: 7%
 
 ---
@@ -22,6 +22,8 @@ Con Prioridades, puede disfrutar de
 * Administre y priorice las tareas diarias: organice su día o semana con navegación consolidada para una mejor claridad
 * Mayor productividad: Acceda al contexto del proyecto y realice las tareas más rápido con menos clics
 * Funciones personalizadas: benefíciese de funciones diseñadas exclusivamente para propietarios de tareas
+
+La Lista de trabajos de prioridades y el Calendario muestran los elementos de trabajo que tiene asignados. No puede ver los elementos de trabajo asignados a su equipo.
 
 ## Encuentre y organice su trabajo
 
