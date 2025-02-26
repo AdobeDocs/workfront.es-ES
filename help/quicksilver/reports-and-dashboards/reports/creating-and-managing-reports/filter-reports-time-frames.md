@@ -6,10 +6,10 @@ description: Puede filtrar un informe por el lapso de tiempo de una fecha que ex
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 7dea484c-d38e-4786-85d0-f4c106cfa46f
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: e8acdf8f7b3859385237e788dfda34ee62ee11d1
 workflow-type: tm+mt
-source-wordcount: '1024'
-ht-degree: 98%
+source-wordcount: '1027'
+ht-degree: 95%
 
 ---
 
@@ -129,11 +129,11 @@ Para obtener más información sobre la creación de informes, consulte [Crear u
 
 ## Modificadores de lapso de tiempo integrados {#built-in-time-frame-modifiers}
 
-Adobe Workfront tiene modificadores de lapso de tiempo integrados que se pueden utilizar sin definir una fecha específica. 
+Adobe Workfront tiene modificadores de lapso de tiempo integrados que se pueden utilizar sin definir una fecha específica.
 
-Estos modificadores están disponibles para cualquier campo de fecha de un filtro o para una solicitud de datos de cualquier informe. 
+Estos modificadores están disponibles para cualquier campo de fecha de un filtro o para una solicitud de datos de cualquier informe.
 
-Para obtener más información sobre cómo filtrar un informe por un lapso de tiempo asociado a una fecha, consulte  [Filtrar un informe por el lapso de tiempo de una fecha](#filter-a-report-by-the-time-frame-of-a-date).
+Para obtener más información sobre cómo filtrar un informe por un lapso de tiempo asociado a una fecha, consulte la sección anterior [Filtrar un informe por el lapso de tiempo de una fecha](#filter-a-report-by-the-time-frame-of-a-date).
 
 Por ejemplo, si está generando un informe de hora y desea mostrar las horas introducidas en un lapso de tiempo específico, puede elegir entre las siguientes opciones de filtro de lapso de tiempo integrado:
 

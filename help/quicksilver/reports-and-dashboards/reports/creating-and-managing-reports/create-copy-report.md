@@ -7,7 +7,7 @@ description: Puede crear una copia de cualquier informe al que tenga acceso. Pue
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 84737f48-efc5-45f1-acd1-b9f5d353f80f
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: e8acdf8f7b3859385237e788dfda34ee62ee11d1
 workflow-type: tm+mt
 source-wordcount: '649'
 ht-degree: 15%
@@ -102,12 +102,12 @@ Si desea realizar una copia de un informe personalizado, haga lo siguiente:
 
 ## Creación de una nueva versión de un informe {#create-a-new-version-of-a-report}
 
-Si desea crear una copia de un informe predeterminado, haga lo siguiente:
+Si desea crear una copia de un informe integrado, haga lo siguiente:
 
 1. Haga clic en el icono **Menú principal** ![Icono del menú principal](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront.
 
 1. Haga clic en **Informes** y luego en **Todos los informes**.
-1. Haga clic en el nombre de un informe predeterminado para abrirlo.
+1. Haga clic en el nombre de un informe integrado para abrirlo.
 1. Haga clic en **Acciones de informe** y, a continuación, en **Editar**.
 
    ![Editar informe](assets/unshimmed-report-actions-default-report.png)

@@ -6,10 +6,10 @@ description: Adobe Workfront tiene una extensa lista de informes integrados que 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 32a47c25-192a-4e97-9016-42e6b6e201b9
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: e8acdf8f7b3859385237e788dfda34ee62ee11d1
 workflow-type: tm+mt
-source-wordcount: '2970'
-ht-degree: 99%
+source-wordcount: '2986'
+ht-degree: 97%
 
 ---
 
@@ -19,9 +19,7 @@ ht-degree: 99%
 
 Adobe Workfront tiene una extensa lista de informes integrados que puede utilizar.
 
-Los administradores de Workfront pueden ocultar los informes integrados para que los usuarios no tengan acceso a ellos.
-
-Para obtener más información sobre cómo ocultar informes integrados, consulte [Ocultar informes integrados](../../../administration-and-setup/manage-workfront/configure-reports/hide-built-in-reports.md).
+Los administradores de Workfront pueden ocultar los informes integrados para que los usuarios no tengan acceso a ellos. Para obtener más información sobre cómo ocultar informes integrados, consulte [Ocultar informes integrados](../../../administration-and-setup/manage-workfront/configure-reports/hide-built-in-reports.md).
 
 ## Requisitos de acceso
 
@@ -67,7 +65,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 ## Información general sobre informes integrados {#overview-of-built-in-reports}
 
-Puede personalizar un informe integrado y guardarlo como un informe nuevo. Para obtener más información sobre cómo personalizar informes integrados, consulte [Crear un informe personalizado](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+Puede crear una copia de un informe integrado y guardarlo como un informe nuevo. Para obtener más información sobre cómo crear copias de informes integrados, consulte [Crear una nueva versión de un informe](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md#create-a-new-version-of-a-report) en el artículo [Crear una copia de un informe](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md).
 
 Los siguientes informes se incluyen con el paquete Workfront. Los informes están disponibles para todos los usuarios que tengan al menos derechos de visualización de informes integrados en su nivel de acceso.
 

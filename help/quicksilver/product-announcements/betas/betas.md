@@ -1,25 +1,25 @@
 ---
 navigation-topic: betas
-title: Programas de Beta
-description: Obtenga información acerca de las versiones beta actuales en Adobe Workfront.
+title: Programas Beta
+description: Obtenga información acerca de las versiones Beta actuales en Adobe Workfront.
 author: Alina
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: c46e625f-b3d5-4bdd-827b-5b16493cdc6b
-source-git-commit: 60eefed6b3931f681aa86ab2c533662e76793744
+source-git-commit: e8acdf8f7b3859385237e788dfda34ee62ee11d1
 workflow-type: tm+mt
-source-wordcount: '54'
-ht-degree: 0%
+source-wordcount: '55'
+ht-degree: 100%
 
 ---
 
-# Programas de Beta
+# Programas Beta
 
-Los artículos vinculados desde esta página describen los programas beta actuales disponibles en Adobe Workfront. Es posible que las funciones disponibles en la versión beta no estén disponibles para todos los clientes.
+Los artículos vinculados desde esta página describen los programas beta disponibles actualmente en Adobe Workfront. Es posible que las funciones disponibles en la versión beta no estén disponibles para todos los clientes.
 
 Los siguientes artículos contienen información sobre las funciones que se encuentran actualmente en la versión beta:
 
-* [Información general sobre paneles de lienzo](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/canvas-dashboards-overview.md)
+* [Información beta de los paneles de lienzo](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md)
 
 
 <!--

@@ -6,10 +6,10 @@ description: Puede restablecer su contraseña de  [!DNL Adobe Workfront] . Como 
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 571cd77d-4f63-40c2-8a21-9646e924e75e
-source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
+source-git-commit: e8acdf8f7b3859385237e788dfda34ee62ee11d1
 workflow-type: tm+mt
-source-wordcount: '253'
-ht-degree: 86%
+source-wordcount: '255'
+ht-degree: 85%
 
 ---
 
@@ -27,7 +27,9 @@ Puede restablecer su contraseña de [!DNL Adobe Workfront]. Como medida de segur
 
 ## Requisitos de acceso
 
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
+
+Debe tener lo siguiente:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -36,17 +38,28 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan</strong></td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licencia*</strong></td> 
-   <td> <p>[!UICONTROL Request] o superior</p> </td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] licencia</strong></td> 
+   <td> 
+      <p>Nuevo:</p>
+         <ul>
+         <li><p>Colaborador o superior</p></li>
+         </ul>
+      <p>Actual:</p>
+         <ul>
+         <li><p>Solicitud o superior</p></li>
+         </ul>
+   </td>
   </tr> 
  </tbody> 
 </table>
 
-Para averiguar qué plan o tipo de licencia tiene, póngase en contacto con el administrador de [!DNL Workfront].
+Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Restablecer la contraseña en [!DNL Adobe Workfront]
 

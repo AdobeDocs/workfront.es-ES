@@ -1,70 +1,70 @@
 ---
 product-area: Canvas Dashboards
 navigation-topic: manage-canvas-dashboards
-title: Introducción a los paneles de lienzo
-description: Instrucciones básicas para utilizar Paneles de lienzo, incluido cómo navegar a la lista de Paneles de lienzo, así como cómo crearlos y editarlos.
+title: Introducción a los paneles de control del lienzo
+description: Instrucciones básicas de uso de los paneles de control del lienzo, que incluyen cómo navegar a la lista de paneles de control del lienzo y cómo crearlos y editarlos.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 43456634-f891-4262-93be-bdb9e7d58c77
-source-git-commit: 3c862954e36dadb5b26438bb4bc42c75c46f08f5
+source-git-commit: e8acdf8f7b3859385237e788dfda34ee62ee11d1
 workflow-type: tm+mt
-source-wordcount: '608'
-ht-degree: 0%
+source-wordcount: '618'
+ht-degree: 82%
 
 ---
 
-# Introducción a los paneles de lienzo
+# Introducción a los paneles de control del lienzo
 
 >[!IMPORTANT]
 >
 >Esta página describe la funcionalidad que está disponible como parte de la versión beta de Paneles de lienzo. Consulte la [información beta de paneles de lienzo](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md) para obtener más información.
 
-Los paneles de lienzo le permiten visualizar fácilmente los datos de Adobe Workfront añadiendo varios tipos de informes a un lienzo personalizable. Esta página proporciona instrucciones básicas para utilizar Paneles de lienzo, incluyendo cómo navegar a la lista de Paneles de lienzo, así como cómo crearlos y editarlos.
+Los paneles de control del lienzo le permiten visualizar fácilmente los datos de Adobe Workfront añadiendo varios tipos de informes a un lienzo personalizable. En esta página se proporcionan instrucciones básicas de uso de los paneles de control del lienzo, que incluyen cómo navegar a la lista de paneles de control del lienzo y cómo crearlos y editarlos.
 
 ## Requisitos previos
 
-* Debe tener una licencia de planificación (licencias actuales) o una licencia estándar (nuevas licencias) para crear un panel de lienzo.\
-  Para obtener información sobre los tipos de licencia de Workfront, consulte [Resumen de licencias](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md) para las licencias actuales y [Resumen de licencias nuevas](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md) para las licencias nuevas.
+* Su organización debe formar parte de la versión beta cerrada de Paneles de lienzo. Para obtener más información, consulte [Información beta de paneles de lienzo](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md).
 
-* El administrador de Workfront debe darle acceso a Editar paneles en su nivel de acceso para crear o editar un panel de lienzo.\
-  Para obtener información acerca de cómo conceder acceso de edición a los paneles, vea [Conceder acceso a informes, paneles y calendarios](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md).
+* Debe tener una licencia de planificación (licencias actuales) o una licencia estándar (nuevas licencias) para crear un panel de lienzo. Para obtener información acerca de los tipos de licencia de Workfront, consulte [Resumen de licencias](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md) o [Resumen de licencias nuevas](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md).
 
-## Navegar a un panel de lienzo
+* El administrador de Workfront debe otorgarle acceso de edición a los paneles de su nivel de acceso para crear o editar un panel de lienzo. Para obtener información acerca de cómo conceder acceso de edición, vea [Conceder acceso a informes, paneles y calendarios](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md).
 
-1. Haga clic en el icono **[!UICONTROL Menú principal]** ![Menú principal](/help/_includes/assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront o (si está disponible), haga clic en el icono **[!UICONTROL Menú principal]** ![Menú principal](/help/_includes/assets/main-menu-icon-left-nav.png) en la esquina superior izquierda y, a continuación, haga clic en **Paneles**.
+## Navegación a un panel de control del lienzo
 
-1. En el panel izquierdo, haga clic en **Paneles de lienzo**.
+1. Haga clic en el icono de **[!UICONTROL Menú principal]** ![Menú principal](/help/_includes/assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront o (si está disponible), haga clic en el icono de **[!UICONTROL Menú principal]** ![Menú principal](/help/_includes/assets/main-menu-icon-left-nav.png) en la esquina superior izquierda y, a continuación, haga clic en **Paneles de control**.
 
-1. Aparecerá una lista de los paneles de lienzo en la ficha **Mis paneles**. Haga clic en el nombre de un panel de lienzo para abrirlo. También puede ver los paneles de lienzo que se han compartido con usted en la ficha **Paneles compartidos**, así como todos los demás paneles de su instancia de Adobe Workfront en la ficha **Todos los paneles**.
+1. En el panel izquierdo, haga clic en **Paneles de control del lienzo**.
 
-1. (Opcional) Para volver a su lista de paneles de lienzo desde un panel de lienzo abierto, haga clic en **Paneles** en la esquina superior izquierda de la página.
+1. Aparecerá una lista de los paneles de control del lienzo en la pestaña **Mis paneles de control**. Haga clic en el nombre de un panel de control del lienzo para abrirlo. También puede ver los paneles de control del lienzo que se han compartido con usted en la pestaña **Paneles de control compartidos**, así como todos los demás paneles de control de su instancia de Adobe Workfront en la pestaña **Todos los paneles de control**.
 
-## Crear nuevo panel de lienzo
+1. (Opcional) Para volver a su lista de paneles de control del lienzo desde un panel de control de lienzo abierto, haga clic en **Paneles de control** en la esquina superior izquierda de la página.
 
-1. Haga clic en el icono **[!UICONTROL Menú principal]** ![Menú principal](/help/_includes/assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront o (si está disponible), haga clic en el icono **[!UICONTROL Menú principal]** ![Menú principal](/help/_includes/assets/main-menu-icon-left-nav.png) en la esquina superior izquierda y, a continuación, haga clic en **Paneles**.
+## Creación de un nuevo panel de control del lienzo
 
-1. En el panel izquierdo, haga clic en **Paneles de lienzo**.
+1. Haga clic en el icono de **[!UICONTROL Menú principal]** ![Menú principal](/help/_includes/assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront o (si está disponible), haga clic en el icono de **[!UICONTROL Menú principal]** ![Menú principal](/help/_includes/assets/main-menu-icon-left-nav.png) en la esquina superior izquierda y, a continuación, haga clic en **Paneles de control**.
 
-1. Haga clic en el botón **+ Nuevo panel** en la esquina superior derecha de la página.
+1. En el panel izquierdo, haga clic en **Paneles de control del lienzo**.
 
-1. Escriba un **Nombre** y una **Descripción** para el nuevo panel de lienzo y haga clic en **Crear**.
+1. Haga clic en el botón **+ Nuevo panel de control** en la esquina superior derecha de la ventana.
 
-1. En la ventana **Agregar informe** que aparece, puede agregar el primer informe a su nuevo panel de lienzo haciendo clic en el botón **Agregar** debajo del tipo de informe que desee agregar. También puede cerrar la ventana haciendo clic en el botón **Cancelar** en la esquina superior derecha si desea esperar para agregar un informe. Para obtener más información sobre cómo agregar, quitar y editar el diseño de informes en un panel de lienzo, consulte [Agregar, quitar u organizar informes en un panel de lienzo](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/add-remove-arrange-reports.md)
+1. Escriba un **Nombre** y una **Descripción** para el nuevo panel de control del lienzo y haga clic en **Crear**.
 
-## Editar el nombre o la descripción de un panel de lienzo
+1. En la ventana **Añadir informe** que aparece, puede añadir el primer informe a su nuevo panel de control del lienzo haciendo clic en el botón **Añadir** debajo del tipo de informe que desea añadir. También puede cerrar la ventana haciendo clic en el botón **Cancelar** en la esquina superior derecha si desea esperar para añadir un informe. Para obtener más información sobre cómo añadir, quitar y editar el diseño de informes en un panel de control del lienzo, consulte [Añadir, quitar u organizar informes en un panel de control del lienzo](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/add-remove-arrange-reports.md)
 
-1. Abra el panel de lienzo cuyo nombre o descripción desee editar, tal como se describe en [Vaya a un panel de lienzo](#navigate-to-a-canvas-dashboard) más arriba.
+## Edición del nombre o la descripción de un panel de control del lienzo
 
-1. Haga clic en el icono **Propiedades del panel** junto al nombre del panel de lienzo, en la esquina superior izquierda de la página.
+1. Abra el panel de control del lienzo cuyo nombre o descripción desea editar, tal como se describe en [Navegación a un panel de control del lienzo](#navigate-to-a-canvas-dashboard) más arriba.
 
-1. En la ventana que aparece, puede editar la información de **Nombre** y **Descripción** para su panel de lienzo. Cuando termine, haga clic en **Guardar**.
+1. Haga clic en el icono **Propiedades del panel de control** junto al nombre del panel de control del lienzo, en la esquina superior izquierda de la página.
 
-## Eliminar un panel de lienzo
+1. En la ventana que aparece, puede editar la información de **Nombre** y **Descripción** para su panel de control del lienzo. Cuando termine, haga clic en **Guardar**.
 
-1. Abra el panel de lienzo que desee eliminar, tal como se describe en [Vaya a un panel de lienzo](#navigate-to-a-canvas-dashboard) más arriba.
+## Eliminación de un panel de control del lienzo
 
-1. Haga clic en el nombre del panel de lienzo que desee eliminar en la lista de paneles que aparece.
+1. Abra el panel de control del lienzo que desee eliminar, tal como se describe en [Navegación a un panel de control del lienzo](#navigate-to-a-canvas-dashboard) más arriba.
 
-1. Haga clic en el botón **Más** en la esquina superior derecha de la página y, a continuación, haga clic en **Eliminar tablero**.
+1. Haga clic en el nombre del panel de control del lienzo que desee eliminar en la lista de paneles de control que aparece.
 
-1. En la ventana que aparece, marque la casilla para confirmar que desea eliminar el panel de lienzo y luego haga clic en **Eliminar**.
+1. Haga clic en el botón **Más** en la esquina superior derecha de la página y, a continuación, haga clic en **Eliminar panel de control**.
+
+1. En la ventana que aparece, marque la casilla de verificación para confirmar que desea eliminar el panel de control del lienzo y luego haga clic en **Eliminar**.

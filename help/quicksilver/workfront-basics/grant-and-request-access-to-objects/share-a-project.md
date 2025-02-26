@@ -6,10 +6,10 @@ description: El administrador de Adobe Workfront puede otorgarle acceso para ver
 author: Alina
 feature: Get Started with Workfront
 exl-id: eaeedff8-9114-40d9-8cd4-56996edc7dad
-source-git-commit: 3bd377ba2dec29bb956632cf3e9e3e33afe4305d
+source-git-commit: e8acdf8f7b3859385237e788dfda34ee62ee11d1
 workflow-type: tm+mt
-source-wordcount: '986'
-ht-degree: 100%
+source-wordcount: '1007'
+ht-degree: 94%
 
 ---
 
@@ -104,8 +104,8 @@ Puede compartir un proyecto de las siguientes maneras:
 
 ## Limitaciones para diferentes tipos de licencias
 
-* Los usuarios con una licencia de trabajo no tienen permisos para administrar proyectos. Para los trabajadores, el permiso de uso compartido más alto es de aportación.
-* Los usuarios con una licencia Request pueden ver la información del proyecto, pero tienen acceso limitado al mismo.
+* Los usuarios con una licencia básica y por debajo de (o licencia de trabajo y por debajo para el modelo de licencia antiguo) no tienen permisos para administrar proyectos. Para estos usuarios, el permiso de uso compartido más alto es Contribute.
+* Los usuarios con una licencia de colaborador (o licencia de solicitud para el modelo de licencia anterior) pueden ver la información del proyecto, pero tienen acceso limitado al proyecto.
 * Se produce una excepción respecto al cambio de estado de un proyecto cuando un usuario con permisos de visualización o aportación también está incluido en un proceso de aprobación. Pueden aprobar el proyecto, que cambia su estado, pero el estado es el predefinido para su aprobación o rechazo.
 * Para poder copiar un proyecto, un usuario también debe tener acceso para crear proyectos en su nivel de acceso.
 
