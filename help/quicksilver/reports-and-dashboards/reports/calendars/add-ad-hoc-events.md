@@ -6,14 +6,16 @@ description: Puede añadir eventos ad hoc a un calendario. Un evento ad hoc simp
 author: Lisa
 feature: Reports and Dashboards
 exl-id: 4145119e-ef2c-4f0d-89e7-86669ca5b127
-source-git-commit: d90459cb4f6fb1960552f0ab174e963582312b5c
+source-git-commit: 041e812d0663304b4bd51134020209d3a67e1423
 workflow-type: tm+mt
-source-wordcount: '286'
-ht-degree: 97%
+source-wordcount: '373'
+ht-degree: 69%
 
 ---
 
 # Añadir eventos ad hoc a un informe de calendario
+
+<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa de espacio aislado.</span>
 
 Puede añadir eventos ad hoc a un calendario. Un evento ad hoc simplemente sirve como recordatorio en el calendario y no está asociado a un proyecto, tarea o problema.
 
@@ -54,9 +56,9 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
 
 +++
 
-## Añadir eventos ad hoc a un informe de calendario
+## Agregar eventos ad hoc a un informe de calendario en Producción
 
-1. Dentro del calendario, vaya a la fecha en la que desee añadir un evento ad hoc y luego haga clic en la fecha [!UICONTROL starting] del evento.
+1. En el calendario, vaya a la fecha en la que desee agregar un evento ad hoc y, a continuación, haga clic en la fecha [!UICONTROL de inicio] del evento.
 1. Introduzca el nombre del evento y, si lo desea, seleccione un color para el evento.
 1. (Condicional) Si el evento ad hoc tiene lugar en varios días, seleccione **[!UICONTROL This will span multiple days]** y, a continuación, seleccione la fecha de finalización en el calendario emergente.
 
@@ -72,3 +74,16 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
 
    1. Haga clic en el evento del calendario para abrir la página de detalles del evento.
    1. Haga clic en el icono de la papelera y, a continuación, haga clic en **[!UICONTROL Yes, Delete it]**.
+
+<div class="preview">
+
+## Añadir eventos ad hoc a un informe de calendario en Vista previa
+
+1. Vaya al Calendario al que desee agregar un evento ad hoc.
+1. Haz clic en **Agregar** en la parte superior del calendario.
+1. En el panel lateral de la derecha, **Nombre** el evento.
+1. Elija un color para el evento.
+1. Elija si el evento debe abarcar varios días.
+1. Introduzca o seleccione una fecha con el icono de calendario.
+
+</div>

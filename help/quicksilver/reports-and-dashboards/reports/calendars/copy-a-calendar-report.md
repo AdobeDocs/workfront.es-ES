@@ -6,14 +6,16 @@ description: Si ha creado un calendario, puede copiarlo y utilizarlo como punto 
 author: Lisa
 feature: Reports and Dashboards
 exl-id: f72cf896-294f-4166-b731-eaec0c2156b1
-source-git-commit: d90459cb4f6fb1960552f0ab174e963582312b5c
+source-git-commit: 041e812d0663304b4bd51134020209d3a67e1423
 workflow-type: tm+mt
-source-wordcount: '282'
-ht-degree: 93%
+source-wordcount: '455'
+ht-degree: 81%
 
 ---
 
 # Copiar un informe de calendario
+
+<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa de espacio aislado.</span>
 
 Si ha creado un calendario, puede copiarlo y utilizarlo como punto de partida para un nuevo calendario.
 
@@ -56,7 +58,7 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
 
 +++
 
-## Copiar un informe de calendario
+## Copiar un informe de calendario en producción
 
 1. Vaya al calendario que desea copiar.
 1. En la barra de herramientas de **[!UICONTROL Calendario]**, haga clic en **[!UICONTROL Acciones de calendario]** y, a continuación, seleccione **[!UICONTROL Copiar]** en la lista desplegable.
@@ -69,3 +71,25 @@ Se abre una copia del calendario.
    Solo usted tiene acceso al calendario copiado. Los usuarios con acceso al calendario original no tienen acceso al calendario copiado. Puede conceder acceso al calendario recién creado compartiéndolo con otros usuarios. Para obtener más información sobre cómo compartir calendarios, consulte [[!UICONTROL Compartir un informe de calendario]](../../../reports-and-dashboards/reports/calendars/share-a-calendar-report.md).
 
 1. (Opcional) Cambie el nombre del calendario.
+
+<div class="preview">
+
+## Copia de un informe de calendario en Vista previa
+
+1. Vaya al calendario que desea copiar.
+1. Haga clic en el menú **Más** situado junto al menú desplegable Calendario.
+   ![calendario más menú](assets/more-menu-calendar.png)
+
+1. Seleccione **[!UICONTROL Copiar]** de la lista desplegable. El calendario se copia y se le redirige a la nueva copia.
+
+
+>[!NOTE]
+>
+>Todos los proyectos y agrupaciones de calendario del calendario original se muestran en la copia del calendario. Solo los objetos colocados por filtros de calendario se exportan al calendario recién copiado. Cualquier evento añadido manualmente al calendario original debe añadirse manualmente al calendario copiado.
+> 
+>
+>Solo usted tiene acceso al calendario copiado. Los usuarios con acceso al calendario original no tienen acceso al calendario copiado. Puede conceder acceso al calendario recién creado compartiéndolo con otros usuarios. Para obtener más información sobre cómo compartir calendarios, consulte [[!UICONTROL Compartir un informe de calendario]](../../../reports-and-dashboards/reports/calendars/share-a-calendar-report.md).
+
+1. (Opcional) Haga clic en el menú **Más** y, a continuación, haga clic en **Editar** para cambiar el nombre del calendario.
+
+</div>
