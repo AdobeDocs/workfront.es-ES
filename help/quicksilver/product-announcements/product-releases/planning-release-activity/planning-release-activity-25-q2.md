@@ -7,10 +7,10 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 99ac8d30-7cf8-4343-b11c-fe650ba024ff
-source-git-commit: 6e665acd48ce5ee4f870282cbdb59e89c5d21096
+source-git-commit: 22a293cf4ded2c24c58f3948c1e7b41fa1055e3f
 workflow-type: tm+mt
-source-wordcount: '1093'
-ht-degree: 4%
+source-wordcount: '1481'
+ht-degree: 3%
 
 ---
 
@@ -21,6 +21,62 @@ Este artículo describe las funciones que se lanzarán para Workfront Planning d
 <!--keep the sentence below for all future quarterly release pages-->
 
 Para obtener una lista de todas las características publicadas para Adobe Workfront Planning, consulte [Actividad de la versión de Adobe Workfront Planning: índice de artículo](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+
+## Mostrar el nombre de registro de una página de detalles de una solicitud de Workfront Planning en el nombre de la pestaña del explorador
+
+>[!NOTE]
+>
+>Versión de vista previa: 27 de febrero de 2025; producción para versión rápida: con la versión 25.3 (marzo de 2025); producción para versión trimestral: con la versión 25.4 (abril de 2025)
+
+Hemos actualizado la forma en que se muestra la página de detalles de una solicitud de Workfront Planning en el explorador. Ahora, el nombre del registro creado por la solicitud se muestra como el nombre de la pestaña del explorador. Antes de esta mejora, la pestaña del explorador mostraba &quot;Workfront&quot;.
+
+## Flujo de trabajo de solicitud unificada para Workfront y Planning
+
+>[!NOTE]
+>
+>Versión de vista previa: 27 de febrero de 2025; producción para versión rápida: con la versión 25.3 (marzo de 2025); producción para versión trimestral: con la versión 25.4 (abril de 2025)
+
+Ahora puede enviar solicitudes de Workfront y Workfront Planning en el área Solicitudes del menú principal.
+
+Las siguientes funciones ya están disponibles con esta actualización:
+
+* Un nuevo conmutador junto al botón Nueva solicitud habilita esta experiencia en el área Solicitudes. Al anular la selección de la opción, solo puede enviar solicitudes de Workfront.
+
+* Puede encontrar tanto colas de solicitudes de Workfront como formularios de solicitudes de Workfront Planning en un área unificada en la que se pueden realizar búsquedas.
+
+* Las 6 solicitudes más recientes se muestran primero en el área unificada en la que se puede buscar.
+
+Para obtener más información, consulte [Enviar solicitudes de Adobe Workfront Planning para crear registros](/help/quicksilver/planning/requests/submit-requests.md).
+
+## Los campos de fórmula ahora son compatibles con los formularios de solicitud
+
+>[!NOTE]
+>
+>Versión de vista previa: 27 de febrero de 2025; producción para versión rápida: con la versión 25.3 (marzo de 2025); producción para versión trimestral: con la versión 25.4 (abril de 2025)
+
+Ahora puede agregar campos de fórmula a un formulario de solicitud de tipo de registro en Workfront Planning.
+
+Antes de esta mejora, estos tipos de campos no se podían agregar a los formularios de solicitud.
+
+Para obtener más información, consulte [Crear y administrar un formulario de solicitud en Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
+
+## Actualizaciones de la página Vista de conexión de un registro
+
+>[!NOTE]
+>
+>Versión de vista previa: 27 de febrero de 2025; producción para versión rápida: con la versión 25.3 (marzo de 2025); producción para versión trimestral: con la versión 25.4 (abril de 2025)
+
+Hemos actualizado la vista Conexión de una página de registro con las siguientes funcionalidades:
+
+* De forma predeterminada, solo se muestran en la vista de tabla los 5 primeros campos del registro conectado. Antes de esta actualización, se mostraban todos los campos.
+
+* Ahora puede ocultar columnas en la vista de tabla del registro conectado.
+
+* Puede reorganizar las columnas mediante el icono Campos de la barra de herramientas de la tabla.
+
+* Puede conectar y desconectar registros.
+
+Para obtener más información, consulte [Administrar el diseño de la página de registros](/help/quicksilver/planning/records/manage-the-record-page.md).
 
 ## Nueva expresión agregada a los campos de fórmula
 
