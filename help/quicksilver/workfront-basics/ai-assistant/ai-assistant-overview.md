@@ -5,10 +5,10 @@ description: Información general del asistente de IA
 author: Becky
 feature: Get Started with Workfront
 exl-id: e5f2408b-2c29-4257-8bdc-bf20880de265
-source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
+source-git-commit: f496d5170ff087167130a6463e18ea44af50e21f
 workflow-type: tm+mt
-source-wordcount: '707'
-ht-degree: 8%
+source-wordcount: '817'
+ht-degree: 7%
 
 ---
 
@@ -139,3 +139,30 @@ Para solicitar el acuerdo de Adobe Gen AI:
 1. Introduzca el nombre y la dirección de correo electrónico de la persona de su organización que firmará el acuerdo de Adobe Gen AI.
 
    El acuerdo se enviará a esta persona para que lo firme. Una vez firmado y devuelto, el Ayudante de IA se habilita para su organización.
+
+## Sugerencias para crear mensajes en el Asistente de IA
+
+Utilice las siguientes palabras clave en los indicadores para proporcionar contexto y ayudar a localizar la información correcta. Las palabras clave no distinguen entre mayúsculas y minúsculas.
+
+Al escribir el mensaje, incluya la frase `using (keyword)`.
+
+| Palabra clave | Efecto |
+|---|---|
+| `workfront` | Interactúa con Workfront. |
+| `planning ` | Interactúa con Workfront Planning. |
+| `help` | Devuelve información de la documentación de Experience League. |
+| `formula` | Comprueba y devuelve fórmulas para utilizarlas en Planning, Setup o formularios personalizados. |
+| `health` | Comprueba el estado del proyecto con el Asesor de estado del proyecto. |
+| `summarize` | Resume elementos, como al cargar un archivo o resumir un proyecto. |
+
+>[!NOTE]
+>
+> No todas las palabras clave están disponibles en todas las áreas.
+>
+>* La palabra clave `formula` solo está disponible en Planning, Setup y el creador de formularios personalizados.
+>* La palabra clave `planning` solo está disponible en Workfront Planning.
+
+
+
+
+
