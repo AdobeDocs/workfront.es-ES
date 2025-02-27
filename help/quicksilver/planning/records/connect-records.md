@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: 92344bc1b2dfc10e6b5ce80cb041c383f36be351
+source-git-commit: 4ec3732d547cb3976c1376cbd0cf86b44b0e691b
 workflow-type: tm+mt
-source-wordcount: '3082'
-ht-degree: 54%
+source-wordcount: '3249'
+ht-degree: 51%
 
 ---
 
@@ -155,8 +155,9 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 Puede conectar registros de Workfront Planning en las siguientes áreas de un registro de Planning:
 
 * Los campos de registro conectados en la vista de tabla.
-* Vista previa o página del registro en los campos de registro conectados de la pestaña Detalles.
-* La página o vista previa del registro en la ficha Conexiones.
+* El cuadro de vista previa o la página del registro en los campos de registro conectados de la ficha Detalles.
+* Cuadro de vista previa o página del registro en la ficha Conexiones.
+* <span class="preview">Página del registro en la ficha Vista de conexión.</span> <!--this needs title edit when they rename the "Connection view" page type-->
 
 ### Conecte los registros de Workfront Planning desde la vista de tabla o desde el área Detalles de un registro
 
@@ -462,3 +463,25 @@ Debe tener lo siguiente para conectar registros de Workfront Planning desde obje
 * El administrador de Workfront o de grupo debe agregar la sección de Planificación a los proyectos, portafolios y programas de Workfront en la plantilla de diseño.
 
 Para obtener más información, consulte [Administrar registros en la sección Planificación de objetos de Adobe Workfront](/help/quicksilver/planning/records/manage-records-in-planning-section.md).
+
+<div class="preview">
+
+## Conectar registros desde la ficha Vista de conexión de la página de detalles de un registro
+
+<!--section needs title edit when they rename the "Connection view" page type-->
+
+1. Vaya a cualquier vista de un tipo de registro que se haya conectado a otros tipos de registros de Planning o tipos de objetos de otras aplicaciones.
+1. Siga los pasos descritos en las subsecciones anteriores para buscar un registro en la vista que desee conectar con otros registros u objetos.
+1. Haga clic en el nombre de un registro.
+
+   Se abre la página de vista previa.
+1. Haga clic en el icono **Abrir en ficha nueva** ![Abrir detalles en un icono de ficha nueva](assets/open-details-in-a-new-tab-icon.png) para abrir la página del registro.
+1. Haga clic en una ficha Vista de conexión existente de la vista previa o la página del registro. Primero debe crear una página Vista de conexión. Para obtener más información, vea [Administrar el diseño de la página de registros](/help/quicksilver/planning/records/manage-the-record-page.md).
+
+   Aparece una página de tipo de registro conectado en la vista de tabla.
+1. Haga clic en **Conectar** para agregar o quitar registros.
+
+   ![Botón de conexión resaltado en la ficha de detalles del registro conectado](assets/connect-button-highlighted-in-connected-record-details-tab.png)
+1. (Opcional) Si no encuentra un registro conectado, haga clic en **+ Agregar** para crearlo y conectarlo.
+
+</div>

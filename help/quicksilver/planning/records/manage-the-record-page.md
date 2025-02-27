@@ -6,19 +6,19 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: f3f33d870859408db5ec3dc306cf1d4209c126a3
+source-git-commit: 4ec3732d547cb3976c1376cbd0cf86b44b0e691b
 workflow-type: tm+mt
-source-wordcount: '1772'
-ht-degree: 49%
+source-wordcount: '1914'
+ht-degree: 46%
 
 ---
 
 
 # Administrar el diseño de página de registro
 
-<!--<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">La información resaltada en esta página hace referencia a funcionalidades que aún no están disponibles de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después de las versiones mensuales en Production, las mismas funciones también están disponibles en el entorno Production para los clientes que habilitaron versiones rápidas. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -161,11 +161,11 @@ Para añadir una sección a una vista previa o a una página del registro:
 
    La vista previa del registro se abrirá en la vista.
 
-   <!--<div class="preview">
+   <div class="preview">
 
-    ![Details box](assets/details-box.png)  
+   ![Cuadro de detalles](assets/details-box.png)
 
-    </div>-->
+   </div>
 
 1. (Opcional) Haga clic en el icono **Abrir en ficha nueva** ![Abrir detalles en un icono de ficha nueva](assets/open-details-in-a-new-tab-icon.png) en la esquina superior derecha de la vista previa del registro para abrir la página del registro en una ficha nueva.
 
@@ -244,23 +244,29 @@ Ocurren lo siguiente:
 
    La vista previa del registro se abrirá en la vista.
 
-   <!--<div class="preview">
+   <div class="preview">
 
-    ![Details box](assets/details-box.png) 
+   ![Cuadro de detalles](assets/details-box.png)
 
-    </div>-->
+   </div>
 
 1. (Opcional) Haga clic en el icono **Abrir en ficha nueva** ![Abrir cuadro de detalles en un icono de ficha nueva](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> en la esquina superior derecha de la vista previa del registro para abrir la página del registro en una ficha nueva.
 
    La ficha **Detalles** del registro se abre de manera predeterminada.
 
-   <!--<div class="preview">
+   <div class="preview">
 
-   ![Details page](assets/details-page.png)
+   ![Página de detalles](assets/details-page.png)
 
-   </div>-->
+   </div>
 
-1. En la ficha de registro **Detalles**, haga clic en el icono **agarrar** ![Icono de agarrar](assets/grab-icon.png) a la izquierda del nombre de un campo y, a continuación, arrástrelo y suéltelo en el lugar deseado. <!--You can drag and drop fields to another section. You must have at least one field in a section.-->
+1. En la ficha de registro **Detalles**, haga clic en el icono **agarrar** ![Icono de agarrar](assets/grab-icon.png) a la izquierda del nombre de un campo y, a continuación, arrástrelo y suéltelo en el lugar deseado.
+
+   >[!TIP]
+   >
+   >Puede arrastrar y soltar campos en otra sección.
+   >Debe haber al menos un portafolio en el sistema.
+   >
 
    La nueva posición del campo se actualiza tanto en la vista previa como en la página de todos los registros del mismo tipo para todos los usuarios que ven los registros.
 
@@ -295,23 +301,29 @@ Para agregar una página Vista de conexión:
 Se muestra la vista de tabla del tipo de registro seleccionado y los registros conectados se muestran en la vista de tabla.
 Todos los campos del registro conectado se muestran en la vista de tabla de la ficha del registro conectado.
 
-   <!--<span class="preview">When you access Workfront Planning from the Preview environment, the first five fields from the connected record table display by default. No lookup fields display by default. -->
+   <span class="preview">Al acceder a Workfront Planning desde el entorno de vista previa, los primeros cinco campos de la tabla de registro conectada se muestran de forma predeterminada. No se muestran campos de búsqueda de forma predeterminada.</span>
 
    La vista de tabla es de solo lectura.
 
    <!--replace screen shot below when additional capabilities come to the table view - Fields, etc-->
 
+   <div class="preview">
+
    ![Vista de tabla conectada a la audiencia con detalles de campaña](assets/audience-connected-table-view-under-campaign-details-page.png)
+
+   </div>
+
 1. (Opcional) Haga doble clic en el nombre de la pestaña
 
    O
 
    Pase el ratón sobre el nombre de la ficha, luego haga clic en **Más** ![Menú más](assets/more-menu.png), luego haga clic en **Cambiar nombre** para cambiar el nombre a la nueva ficha Vista conectada.
-1. (Opcional) Utilice cualquiera de los siguientes elementos de la barra de herramientas para administrar la vista de tabla
+1. (Opcional) Utilice cualquiera de los siguientes elementos de vista de la barra de herramientas para administrar la vista de tabla:
 
    * Filtros
    * Ordenar
    * Agrupación
+   * <span class="preview">Campos, para mostrar, ocultar o reorganizar campos</span>
 
    <!--Add to the list above from the list below - and condition these for Preview only: Hide fields, rearrange fields-->
 
@@ -321,11 +333,14 @@ Todos los campos del registro conectado se muestran en la vista de tabla de la f
    >
    >   No puede realizar ninguna de las siguientes acciones en la vista de tabla de la ficha de un registro conectado:
    >
-   >   * Ocultar campos
+   >   * Ocultar o reorganizar campos. <span class="preview">Puede ocultar y reorganizar campos en el entorno de vista previa.</span>
    >   * Crear, editar o eliminar campos
-   >   * Reorganizar campos
    >
-1. (Opcional) Pase el ratón sobre el nombre de la pestaña, luego haga clic en **Más** ![Menú más](assets/more-menu.png) y, a continuación, haga clic en **Eliminar** para quitar a la nueva pestaña Vista conectada.
+
+1. <span class="preview">Haga clic en **Conectar** para agregar o quitar registros. Para obtener más información, consulte [Conectar registros](/help/quicksilver/planning/records/connect-records.md)</span>
+1. (Opcional) Pase el ratón sobre el nombre de la pestaña Vista de conexión, haga clic en **Más** ![Menú más](assets/more-menu.png) y, a continuación, haga clic en **Eliminar** para quitar a la nueva pestaña Vista conectada.
+
+
 
 
 <!--

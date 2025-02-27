@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 5510f99e9e5c8c4c5f85953e19563f9ab18b0fae
+source-git-commit: 4ec3732d547cb3976c1376cbd0cf86b44b0e691b
 workflow-type: tm+mt
-source-wordcount: '1538'
-ht-degree: 13%
+source-wordcount: '1868'
+ht-degree: 11%
 
 ---
 
@@ -19,11 +19,10 @@ ht-degree: 13%
 
 <!--take Preview and Production references at Production time-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después de las versiones mensuales en Production, las mismas funciones también están disponibles en el entorno Production para los clientes que habilitaron versiones rápidas. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
--->
 
 {{planning-important-intro}}
 
@@ -117,46 +116,37 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 ## Limitaciones de visualización de campos y valores en formularios de solicitud
 
-<!--
+Existen limitaciones en la forma en que se muestran ciertos campos en el formulario de solicitud y en la forma en que sus valores se muestran posteriormente en los registros o en la página de detalles de la solicitud después de enviar una solicitud.
 
-There are limitations in how certain fields display on the request form and how their values later display on the records or the request details page, after you submit a request. 
+Para obtener información sobre cómo enviar solicitudes de Workfront Planning, consulte [Enviar solicitudes de Adobe Workfront Planning para crear registros](/help/quicksilver/planning/requests/submit-requests.md).
 
-For information about submitting requests to create records, see [Submit Adobe Workfront Planning requests to create records](/help/quicksilver/planning/requests/submit-requests.md). 
+* Las siguientes son limitaciones de la forma en que se muestran ciertos campos en los formularios de solicitud, los registros creados por un formulario de solicitud o en la página de detalles de la solicitud:
 
-The following are limitations for how certain fields display in request forms, records created by a request form, or on the request details page: -->
+   * No se pueden agregar campos de los siguientes tipos a un formulario de solicitud:
 
-* No se pueden agregar campos de los siguientes tipos a un formulario de solicitud:
+      * Creado por y modificado por última vez por
+      * Fecha de creación y fecha de la última modificación
+      * Fórmula. <span class="preview">Los campos de fórmula son compatibles con el entorno de vista previa.</span>
+      * Campos de búsqueda de objetos Workfront
+      * Campos de búsqueda de registros conectados de Workfront Planning
 
-   * Creado por y modificado por última vez por
-   * Fecha de creación y fecha de la última modificación
-   * Fórmula. Los campos de fórmula son compatibles con el entorno de vista previa.
-   * Campos de búsqueda de objetos Workfront
-   * Campos de búsqueda de registros conectados de Workfront Planning
-
-<!--at release to Preview, replace the above with this:  
->
->Fields of the following types do not display in the request form:
->* Created by and Last modified by
->* Created date and Last modified date
->* Formula. <span class="preview">Formula fields display in request forms in the Preview environment.</span>
->* Workfront objects' lookup fields
->* Workfront Planning connected records' lookup fields-->
-
-* Diferencia entre la forma en que se muestran los formatos de campo en el generador de formularios de solicitud y el formato de los valores en el registro o en la página de detalles de la solicitud:
+* Las siguientes son diferencias entre la forma en que se muestran los formatos de campo en el generador de formularios de solicitud y el formato de los valores de los campos en el registro o en la página de detalles de la solicitud:
 
    * Los campos Moneda, Número y Porcentaje se muestran como un campo de texto de una sola línea en el generador de formularios.
 
      Sin embargo, el formato de campo se conserva y los valores de los números de estos campos se mostrarán como Valores monetarios, numéricos y de porcentaje en el tipo de registro y en la página de detalles de la solicitud.
 
-<!--
-* The following describes how some field values display on request forms and the request details pages: 
+<div class="preview">
 
-   * Special formatting for Currency, Number, and Percentage fields is not preserved. For example, the decimal precision is not preserved for these fields' values in these areas.
-   * People field values display as IDs.
-   * Formula fields that don't refer to other fields or calculations don't display any values. For example, a field with a `STRING` formula displays a "N/A" value.
-   * Formula fields that refer to Currency fields display the values without accounting for exchange rates.
-   * The values of Paragraph fields that contain special formatting display a "N/A" value on the request form and they display html tags instead of the formatted text in the request details page.
--->
+* A continuación se describe cómo se muestran algunos valores de campo en los formularios de solicitud y en las páginas de detalles de solicitud:
+
+   * No se conserva el formato especial de los campos Moneda, Número y Porcentaje. Por ejemplo, la precisión decimal no se conserva para los valores de estos campos en estas áreas.
+   * Los valores del campo Personas se muestran como ID.
+   * Los campos de fórmula que no hacen referencia a otros campos o cálculos no muestran ningún valor. Por ejemplo, un campo con una fórmula `STRING` muestra un valor &quot;N/A&quot;.
+   * Los campos de fórmula que hacen referencia a los campos Moneda muestran los valores sin tener en cuenta los tipos de cambio.
+   * Los valores de los campos de párrafo que contienen formato especial muestran un valor &quot;N/A&quot; en el formulario de solicitud y muestran etiquetas html en lugar del texto con formato en la página de detalles de la solicitud.
+
+</div>
 
 ## Creación de un formulario de solicitud para un tipo de registro
 
@@ -170,7 +160,7 @@ The following are limitations for how certain fields display in request forms, r
 
    La página de tipo de registro se abre en la vista a la que se accedió por última vez. De forma predeterminada, se abre una página de tipo de registro en la vista de tabla.
 
-1. Haga clic en el menú **Más** ![](assets/more-menu.png) a la derecha del nombre del tipo de registro en el encabezado de la página y, a continuación, haga clic en **Crear formulario de solicitud**.
+1. Haga clic en el menú **Más** ![Menú más](assets/more-menu.png) que se encuentra a la derecha del nombre del tipo de registro en el encabezado de la página y, a continuación, haga clic en **Crear formulario de solicitud**.
 1. Actualice el nombre del formulario de solicitud. De manera predeterminada, el nombre del formulario es **Formulario sin título**. <!--check this; you logged a bug to rename it to 'Untitled request form' but was it fixed?-->
 1. (Opcional) Agregue una **Descripción** para el formulario de solicitud.
 
@@ -178,7 +168,7 @@ The following are limitations for how certain fields display in request forms, r
 
 1. Haga clic en **Crear**. El formulario de solicitud del tipo de registro seleccionado se abre en la pestaña Formulario.
 
-   ![](assets/campaigns-request-form-edit-mode.png)
+   ![Modo de edición del formulario de solicitud de campañas](assets/campaigns-request-form-edit-mode.png)
 
    El formulario de solicitud contiene la siguiente información de forma predeterminada:
 
@@ -197,7 +187,8 @@ The following are limitations for how certain fields display in request forms, r
 
 1. (Opcional) Pase el ratón sobre cualquier campo del formulario que quiera quitar y luego haga clic en el icono **x** para quitarlo. Se agregarán a la ficha **Campos** situada a la izquierda del formulario.
 
-   Por ejemplo, quite el campo **Asunto**, ya que esto no es visible en Workfront Planning. <!--remove this step when we connect intake with the Requests area in Workfront-->
+   Por ejemplo, quite el campo **Asunto**, ya que esto no es visible en Workfront Planning. <!--remove this example if this becomes visible in Planning?-->
+
 1. (Opcional) Para quitar la **sección predeterminada** del formulario, haga lo siguiente:
 
    1. Elimine todos los campos de la sección predeterminada.
@@ -227,7 +218,7 @@ The following are limitations for how certain fields display in request forms, r
 
 1. (Opcional) Haga clic en la ficha **Configuración** y, a continuación, agregue al menos un usuario al campo **Aprobadores** para aprobar nuevas solicitudes para este formulario de registro.
 
-   ![](assets/configuration-tab.png)
+   ![Ficha de configuración](assets/configuration-tab.png)
 
    <!--below bullet list is duplicated in the Add approval to a request form article-->
 
@@ -238,7 +229,7 @@ The following are limitations for how certain fields display in request forms, r
 
      Para obtener más información sobre cómo agregar aprobaciones a los formularios de solicitud, consulte [Agregar aprobación a un formulario de solicitud](/help/quicksilver/planning/requests/add-approval-to-request-form.md).
 
-1. (Opcional) Haga clic en el menú **Más** ![](assets/more-menu.png) que se encuentra a la derecha del nombre del formulario en el encabezado y, a continuación, haga clic en **Editar** para actualizar el nombre del formulario.
+1. (Opcional) Haga clic en el menú **Más** ![Menú más](assets/more-menu.png) que se encuentra a la derecha del nombre del formulario en el encabezado y, a continuación, haga clic en **Editar** para actualizar el nombre del formulario.
 1. Haga clic en **Publicar** para publicar el formulario y obtener un vínculo único para él.
 
    Ocurren lo siguiente:
@@ -249,7 +240,7 @@ The following are limitations for how certain fields display in request forms, r
 
 1. Haga clic en **Compartir** para compartir el formulario con otros usuarios.
 
-   ![](assets/share-box-for-request-form.png)
+   ![Compartir la casilla del formulario de solicitud](assets/share-box-for-request-form.png)
 
 1. Seleccione entre las siguientes opciones para indicar qué tipos de usuarios pueden acceder a este formulario:
 
@@ -261,7 +252,7 @@ The following are limitations for how certain fields display in request forms, r
    >
    >* Si selecciona **Cualquier persona que tenga el vínculo**, cualquier persona podrá obtener acceso al formulario y enviar un nuevo registro, incluso las personas que no pertenezcan a su organización y que no tengan una cuenta de Workfront.
    >
-   > * Un formulario que contenga los siguientes tipos de campo no se puede compartir públicamente:
+   >* Un formulario que contenga los siguientes tipos de campo no se puede compartir públicamente:
    >
    >     * Conexiones de Workfront o AEM Assets
    >     * Personas
@@ -271,7 +262,12 @@ The following are limitations for how certain fields display in request forms, r
 
    Puede seleccionar fechas futuras en un plazo de 180 días a partir de la fecha actual.
 
-1. Haga clic en **Guardar y copiar vínculo** para guardar los detalles de uso compartido del formulario. Si el formulario se guardó anteriormente, haga clic en **Copiar vínculo**.
+   >[!TIP]
+   >
+   ><span class="preview">Una vez que caduca la fecha de uso compartido, el formulario de solicitud ya no está disponible en el área de solicitudes de Workfront.</span>
+
+
+1. <span class="preview">(Opcional)</span> Haga clic en **Guardar y copiar vínculo** para guardar los detalles de uso compartido del formulario. Si el formulario se guardó anteriormente, haga clic en **Copiar vínculo**.
 
    Las opciones de uso compartido de formularios se guardan y el vínculo se copia en el portapapeles. Ahora puede compartirlo con otros usuarios.
 
@@ -281,11 +277,12 @@ The following are limitations for how certain fields display in request forms, r
 1. Haga clic en la flecha que señala a la izquierda del nombre del formulario en el encabezado para cerrar el formulario.
 
    Se abre la página de tipo de registro.
-1. (Opcional) Haga clic en el menú **Más** ![](assets/more-menu.png) que se encuentra a la derecha del nombre del tipo de registro en el encabezado y, a continuación, siga uno de estos procedimientos:
+1. (Opcional) Haga clic en el menú **Más** ![Menú más](assets/more-menu.png) que se encuentra a la derecha del nombre del tipo de registro en el encabezado y, a continuación, siga uno de estos procedimientos:
    * Haga clic en **Actualizar formulario de solicitud** para realizar cualquier cambio en el formulario de solicitud.
    * Haga clic en **Copiar vínculo al formulario de solicitud** para compartir el vínculo al formulario con otros usuarios.
+   * <span class= "preview"> Vaya al área de **Solicitudes** en Workfront y busque el formulario compartido para enviar una solicitud. Para obtener más información, vea [Enviar solicitudes de Adobe Workfront Planning para crear registros](/help/quicksilver/planning/requests/submit-requests.md).</span>
 
    >[!TIP]
    >
    >Hay indicios de que el vínculo se comparte públicamente cuando este es el caso.
-   >![](assets/publicly-shared-link-to-form-on-record-type-menu-highlighted.png)
+   >![Vínculo compartido públicamente al formulario en el menú de tipo de registro](assets/publicly-shared-link-to-form-on-record-type-menu-highlighted.png)

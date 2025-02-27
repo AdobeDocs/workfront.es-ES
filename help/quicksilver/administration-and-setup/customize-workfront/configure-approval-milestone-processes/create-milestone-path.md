@@ -8,10 +8,10 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: c1e2f374-576c-4f1c-b502-281e8ee9e7df
-source-git-commit: f3f33d870859408db5ec3dc306cf1d4209c126a3
+source-git-commit: 4ec3732d547cb3976c1376cbd0cf86b44b0e691b
 workflow-type: tm+mt
-source-wordcount: '700'
-ht-degree: 74%
+source-wordcount: '779'
+ht-degree: 68%
 
 ---
 
@@ -23,9 +23,9 @@ ht-degree: 74%
 NOTE: DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.
 -->
 
-<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después de las versiones mensuales en Production, las mismas funciones también están disponibles en el entorno Production para los clientes que habilitaron versiones rápidas. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 Como administrador de Adobe Workfront, puede crear rutas de hitos que luego se pueden aplicar a cualquier proyecto del sistema. Los cambios que realice en las rutas de hitos en esta área afectarán a todo el sistema de Workfront.
 
@@ -145,11 +145,19 @@ Para obtener información sobre cómo asociar rutas de hitos a proyectos, vea [E
    Se muestra el informe del proyecto. Las rutas de hitos asociadas a cada proyecto se muestran en la última columna del informe.
 1. Haga clic en el nombre de una trayectoria del hito en la última columna del informe.
 
-   Se muestran los detalles de la trayectoria del hito. También se muestran los detalles de cada hito.
+   Se muestran los detalles de la trayectoria del hito.
+
+   <div class="preview">
 
    ![Detalles de ruta de hitos del informe de proyecto](assets/milestone-details-from-project-report.png)
 
-   <!--replace screen shot above with unshimming and mark it for Preview-->
+   La página de detalles de la trayectoria del hito muestra la siguiente información:
+
+   * Nombre, ID y descripción de la ruta del hito
+   * Grupos de rutas de hitos
+   * Nombres, descripciones, colores e iconos de color de hitos
+
+   </div>
 
 1. (Opcional) Haga clic en **Atrás** para volver al informe del proyecto.
 
