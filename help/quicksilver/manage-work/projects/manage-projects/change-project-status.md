@@ -6,10 +6,10 @@ description: Puede actualizar manualmente el estado de un proyecto a cualquier o
 author: Alina
 feature: Work Management
 exl-id: 80098514-fd44-436d-836b-bd9c1b52b3a9
-source-git-commit: 7363e86f5c507e40955e16843c6776777c7ad823
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '372'
-ht-degree: 0%
+source-wordcount: '377'
+ht-degree: 91%
 
 ---
 
@@ -34,7 +34,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plan de Adobe Workfront</td> 
+   <td role="rowheader">Plan de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
@@ -46,7 +46,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso</td> 
-   <td> <p>Editar acceso a Proyectos</p> </td> 
+   <td> <p>Acceso de edición a proyectos</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
@@ -60,17 +60,17 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 ## Consideraciones sobre la actualización a estados específicos
 
 * **Al actualizar un proyecto a Completo:** Asegúrese de que todas las tareas y problemas se hayan completado en el proyecto. No puede seleccionar el estado Completado de un proyecto ni ningún otro estado que equivalga a Completado cuando hay tareas o problemas que no se han completado en el proyecto. Esto incluye la aprobación de cualquier tarea o problema que esté en un estado de Aprobación completa-pendiente.
-* **Al actualizar un proyecto de Completo a Actual:** Si se han completado todas las tareas y problemas del proyecto, asegúrese de que el modo de finalización del proyecto esté establecido en Manual. Si el modo de finalización del proyecto es automático, el estado del proyecto permanece completo.
+* **Al actualizar un proyecto de Completo a Actual:** Si se han completado todas las tareas y problemas del proyecto, asegúrese de que el modo de finalización del proyecto esté establecido en Manual. Si el modo de finalización del proyecto es automático, el estado del proyecto permanece como Completado.
 
-## Cambiar estado del proyecto
+## Cambio del estado del proyecto
 
 1. Vaya al proyecto cuyo estado desee actualizar.
 1. En el encabezado del proyecto, haga clic en el nombre del estado en el campo **Estado** y, a continuación, seleccione un nuevo estado.
 
-   ![](assets/change-project-status-in-header-drop-down-nwe-350x371.png)
+   ![Cambiar estado del proyecto](assets/change-project-status-in-header-drop-down-nwe-350x371.png)
 
    O
 
-   Haga clic en el menú **Más** ![](assets/qs-more-menu.png) junto al nombre del proyecto, haga clic en **Editar**, seleccione un nuevo estado en el campo **Estado** y, a continuación, haga clic en **Guardar**.
+   Haga clic en el menú **Más** ![Menú más](assets/qs-more-menu.png) junto al nombre del proyecto, haga clic en **Editar**, seleccione un nuevo estado en el campo **Estado** y, a continuación, haga clic en **Guardar**.
 
    El estado del proyecto se actualiza al estado seleccionado.
