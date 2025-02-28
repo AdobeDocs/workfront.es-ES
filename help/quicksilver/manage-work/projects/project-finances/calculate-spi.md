@@ -7,10 +7,10 @@ description: El Índice de rendimiento del horario (SPI) describe la relación e
 author: Lisa
 feature: Work Management
 exl-id: 38259774-f22b-4b69-9e22-5b541118a7de
-source-git-commit: 6afa65f921864403c10541d283ef717dce81aed7
+source-git-commit: b983a780198743a2b87b4b48cf4d6afdf1cee437
 workflow-type: tm+mt
-source-wordcount: '416'
-ht-degree: 24%
+source-wordcount: '419'
+ht-degree: 23%
 
 ---
 
@@ -98,6 +98,6 @@ Por ejemplo, si tiene un proyecto con una tarea y esta tiene 10 horas planificad
 
    1. Haga clic en **Detalles de la tarea** en el panel izquierdo y luego vea el área de **Finanzas**.
 
-      ![](assets/spi-on-project-nwe.png)
+      ![SPI en el proyecto](assets/spi-on-project-nwe.png)
 
 1. Busque el campo **CPI/ SPI/ CSI**.
