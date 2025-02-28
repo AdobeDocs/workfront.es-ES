@@ -6,10 +6,10 @@ description: Puede crear elementos de trabajo y proyectos desde el área [!UICON
 author: Courtney
 feature: Get Started with Workfront, Work Management
 exl-id: 9db6e509-ea6a-493a-9d86-21a163da1915
-source-git-commit: 36c4505b396f38617a7e82ae637596ff6c046d57
+source-git-commit: fddb927f2c9639b4c26d590bbea7dba684ed2b6c
 workflow-type: tm+mt
-source-wordcount: '811'
-ht-degree: 22%
+source-wordcount: '847'
+ht-degree: 16%
 
 ---
 
@@ -71,12 +71,12 @@ Usted y otros usuarios pueden ver sus tareas personales en un informe de tareas 
 
 Para crear un elemento pendiente:
 
-1. Haga clic en **[!UICONTROL Menú principal]** ![](assets/main-menu-icon.png) en la esquina superior derecha o en **Menú principal** ![](assets/lines-main-menu.png) en la esquina superior izquierda, si está disponible, y luego haga clic en **[!UICONTROL Inicio]**.
+1. Haga clic en el **[!UICONTROL icono del menú principal]** ![Menú principal](assets/main-menu-icon.png) en la esquina superior derecha, o en el **icono de las líneas del menú principal** ![Menú principal](assets/lines-main-menu.png) en la esquina superior izquierda, si está disponible, y luego haga clic en **[!UICONTROL Inicio]**.
 1. (Condicional) Haz clic en **Personalizar** y luego haz clic en **Tareas pendientes** para agregar el widget Tareas pendientes a la pantalla de inicio.
 1. Vaya al widget **Tareas pendientes** y haga clic en **Agregar tareas pendientes**.
 1. Escriba el nombre del elemento personal y haga clic en Entrar.
-1. (Opcional) Haga clic en el icono **Fecha** ![](assets/date-icon.png) para agregar una fecha límite para el elemento.
-   ![](assets/my-work-to-dos.png)
+1. (Opcional) Haga clic en el icono **Fecha** ![Icono de fecha](assets/date-icon.png) para agregar una fecha límite para el elemento.
+   ![Mis tareas pendientes de trabajo](assets/my-work-to-dos.png)
 1. (Opcional) Cree un informe de tareas personales o un filtro. Para obtener información acerca de cómo crear un filtro de tareas personales, vea [Filtro: tarea personal](/help/quicksilver/reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-personal-tasks.md).
 Puede ver los elementos pendientes, así como los elementos pendientes de otros usuarios, en el informe de tareas personales.
 
@@ -84,10 +84,10 @@ Puede ver los elementos pendientes, así como los elementos pendientes de otros 
 
 Puede agregar una tarea a un proyecto existente directamente desde el área de Inicio:
 
-1. Haga clic en **[!UICONTROL Menú principal]** ![](assets/main-menu-icon.png) en la esquina superior derecha y, a continuación, haga clic en **[!UICONTROL Inicio]**.
+1. Haga clic en el **[!UICONTROL Menú principal]** ![icono del menú principal](assets/main-menu-icon.png) en la esquina superior derecha y, a continuación, haga clic en **[!UICONTROL Inicio]**.
 1. (Condicional) Agrega el widget **Mis tareas** a la pantalla de inicio. Haga clic en **Personalizar** y busque **Mis tareas**.
 1. Vaya al widget **Mis tareas** y, a continuación, haga clic en **Nuevo**.
-   ![](assets/create-new-task.png)
+   ![Crear nueva tarea](assets/create-new-task.png)
 1. En el cuadro de diálogo **Nueva tarea**, escriba el nombre de la tarea.
 1. Empiece a escribir el nombre de un proyecto y selecciónelo en la lista.
 1. (Opcional) Introduzca información en los campos siguientes:
@@ -107,10 +107,10 @@ Puede agregar una tarea a un proyecto existente directamente desde el área de I
 
 Puede agregar un problema a un proyecto existente directamente desde el área de Inicio:
 
-1. Haga clic en **[!UICONTROL Menú principal]** ![](assets/main-menu-icon.png) en la esquina superior derecha y, a continuación, haga clic en **[!UICONTROL Inicio]**.
+1. Haga clic en el **[!UICONTROL Menú principal]** ![icono del menú principal](assets/main-menu-icon.png) en la esquina superior derecha y, a continuación, haga clic en **[!UICONTROL Inicio]**.
 1. (Condicional) Agrega el widget **Mis problemas** a la pantalla de inicio. Haga clic en **Personalizar** y busque **Mis problemas**.
 1. Vaya al widget **Mis problemas** y, a continuación, haga clic en **Nuevo**.
-   ![](assets/create-new-issue.png)
+   ![Crear nuevo problema](assets/create-new-issue.png)
 1. En el cuadro de diálogo **Nuevo problema**, empiece a escribir un nombre de proyecto y, a continuación, seleccione el nombre en la lista.
 1. Introduzca un nombre de problema.
 1. (Opcional) Introduzca información en los campos siguientes:
@@ -128,10 +128,10 @@ Puede agregar un problema a un proyecto existente directamente desde el área de
 
 Puede crear una solicitud directamente desde el área de Inicio:
 
-1. Haga clic en **[!UICONTROL Menú principal]** ![](assets/main-menu-icon.png) en la esquina superior derecha y, a continuación, haga clic en **[!UICONTROL Inicio]**.
+1. Haga clic en el **[!UICONTROL Menú principal]** ![icono del menú principal](assets/main-menu-icon.png) en la esquina superior derecha y, a continuación, haga clic en **[!UICONTROL Inicio]**.
 1. (Condicional) Agrega el widget **Mis solicitudes** a la pantalla de inicio. Haga clic en **Personalizar** y busque **Mis solicitudes**.
 1. Vaya al widget de **Mis solicitudes** y haga clic en **Nuevo**.
-   ![](assets/create-new-request.png)
+   ![Crear nueva solicitud](assets/create-new-request.png)
 
 1. En el cuadro de diálogo **Nueva solicitud**, empiece a escribir el nombre de la cola de solicitudes.
 1. Rellene los campos correspondientes.
@@ -143,10 +143,10 @@ Para obtener más información sobre cómo enviar solicitudes, consulte [Crear y
 
 Puede crear un proyecto directamente desde el área de Inicio:
 
-1. Haga clic en **[!UICONTROL Menú principal]** ![](assets/main-menu-icon.png) en la esquina superior derecha y, a continuación, haga clic en **[!UICONTROL Inicio]**.
+1. Haga clic en el **[!UICONTROL Menú principal]** ![icono del menú principal](assets/main-menu-icon.png) en la esquina superior derecha y, a continuación, haga clic en **[!UICONTROL Inicio]**.
 1. (Condicional) Agrega el widget **Mis proyectos** a la pantalla de inicio. Haga clic en **Personalizar** y busque **Mis proyectos**.
 1. Vaya al widget de **Mis proyectos** y, a continuación, haga clic en **Nuevo**.
-   ![](assets/create-new-project.png)
+   ![Crear nuevo proyecto](assets/create-new-project.png)
 1. Elija una de las siguientes opciones:
 
    | Campo | Instrucciones |
@@ -161,7 +161,7 @@ Puede crear un proyecto directamente desde el área de Inicio:
 
 You can create a board directly from the Home area:
 
-1. Click the **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
+1. Click the **[!UICONTROL Main Menu]** ![Main Menu icon](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
 1. (Conditional) Add the **Boards** widget to your home screen. Click **Customize**, and find **Boards**. -->
 
 
@@ -171,13 +171,13 @@ You can create a board directly from the Home area:
 <!--
 ## Delete a to-do item
 
-1. Click the **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
+1. Click the **[!UICONTROL Main Menu]** ![Main Menu icon](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
 1. Go to the to-do widget.
-1. Hover over the item, then click the **Delete** icon ![](assets/delete-to-do.png). 
+1. Hover over the item, then click the **Delete** icon ![Delete icon](assets/delete-to-do.png). 
 
 ## Edit a to-do item
 
-1. Click the **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
+1. Click the **[!UICONTROL Main Menu]** ![Main Menu icon](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
 1. Go to the to-do widget.
 1. Edit the item name.
-1. Click on the **Date** icon ![](assets/date-icon.png) to add or adjust a due date. -->
+1. Click on the **Date** icon ![Date icon](assets/date-icon.png) to add or adjust a due date. -->
