@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: a7237746-0a18-408b-b932-8a608fd72eee
-source-git-commit: 20cb2237a534b51ab5c75e393369bdd92c233efb
+source-git-commit: fbcdc88701b8b501b68d29e76b0148ddf07e5b52
 workflow-type: tm+mt
-source-wordcount: '531'
+source-wordcount: '541'
 ht-degree: 12%
 
 ---
@@ -66,8 +66,8 @@ Puede añadir un comentario desde la lista de trabajo:
 
 1. Busque el elemento de trabajo que desea actualizar.
 1. Pase el ratón sobre el nombre y luego haga clic en **Agregar nueva actualización**.
-   ![](assets/add-update.png)
-   <!--new screen for prod ![](assets/update-log-upload.png)-->
+   ![Agregar nueva actualización](assets/add-update.png)
+   <!--new screen for prod ![Update](assets/update-log-upload.png)-->
 1. Empiece a escribir el comentario.
 1. (Opcional) En el cuadro **Etiquetar personas o equipos**, empiece a escribir el nombre o el correo electrónico de un usuario o equipo que desee incluir en este comentario y, a continuación, selecciónelo cuando se muestre en la lista.
 1. (Opcional) Utilice las opciones de la barra de herramientas Texto enriquecido para dar formato al texto, agregar emojis, vínculos o imágenes al comentario para mejorar el contenido.
@@ -90,7 +90,7 @@ Puede agregar comentarios y ver comentarios y actualizaciones del sistema en un 
 1. (Opcional) Use la ficha **Comentarios** para actualizar los comentarios de otros usuarios sobre el elemento de trabajo.
 1. (Opcional) Use la ficha **Actividad del sistema** para ver la actividad del sistema relacionada con el elemento de trabajo.
 1. (Opcional) Para agregar un comentario, vaya a la ficha **Comentario** y empiece a escribir en el cuadro Nuevo comentario. Haga clic en **Enviar** cuando haya terminado.
-   ![](assets/updates-area-in-overview.png)
+   ![Área de actualizaciones](assets/updates-area-in-overview.png)
 
 ## Responder a un comentario
 
@@ -101,7 +101,7 @@ Puede responder a un comentario de un elemento de trabajo:
 1. Haga clic en el nombre de un elemento de trabajo para abrir la página **Información general**.
 1. Busque el área **Updates** en la esquina inferior derecha de la pantalla.
 1. En la ficha **Comentarios**, busque el comentario al que desee responder y, a continuación, haga clic en **Responder**.
-1. (Condicional) Si desea responder para incluir el contenido de un mensaje en su respuesta, haga clic en el icono de menú **Más** ![](assets/more-icon.png) situado junto al cuerpo del mensaje y elija **Citar respuesta**.
+1. (Condicional) Si desea responder para incluir el contenido de un mensaje en su respuesta, haga clic en el icono de menú **Más** ![Menú más](assets/more-icon.png) situado junto al cuerpo del mensaje y elija **Citar respuesta**.
 
 1. Escriba su respuesta y haga clic en **Enviar**.
 
@@ -109,4 +109,4 @@ Puede responder a un comentario de un elemento de trabajo:
    >
    >Solo puede editar su comentario en los 15 minutos siguientes al envío. Para editar un comentario, haga clic en el menú Más en la esquina superior derecha del comentario y, a continuación, haga clic en Editar.
 
-   ![](assets/reply-to-comment.png)
+   ![Responder al comentario](assets/reply-to-comment.png)
