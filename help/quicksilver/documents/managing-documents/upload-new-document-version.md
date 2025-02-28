@@ -6,10 +6,10 @@ description: Puede agregar una nueva versión de un documento que haya cargado a
 author: Courtney
 feature: Digital Content and Documents
 exl-id: d475e0f0-112e-4d4e-b666-6e0af3ea7702
-source-git-commit: 9aa6822c9c1ecade776d4c71b113c1afd997f40c
+source-git-commit: fddb927f2c9639b4c26d590bbea7dba684ed2b6c
 workflow-type: tm+mt
-source-wordcount: '401'
-ht-degree: 0%
+source-wordcount: '409'
+ht-degree: 31%
 
 ---
 
@@ -36,7 +36,7 @@ Debe tener lo siguiente:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plan Adobe Workfront*</td> 
+   <td role="rowheader">Plan de Adobe Workfront*</td> 
    <td> <p> Cualquiera</p> </td> 
   </tr> 
   <tr> 
@@ -45,16 +45,16 @@ Debe tener lo siguiente:
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Configuraciones de nivel de acceso*</td> 
-   <td> <p>Editar acceso a documentos</p> <p>Nota: Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, vea <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
+   <td> <p>Acceso de edición a documentos</p> <p>Nota: Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, consulte <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Editar acceso al objeto asociado con el documento</p> <p>Para obtener información sobre cómo solicitar acceso adicional, vea <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a los objetos </a>.</p> </td> 
+   <td> <p>Editar acceso al objeto asociado con el documento</p> <p>Para obtener información sobre cómo solicitar acceso adicional, consulte <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de Workfront.
+&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su administrador de Workfront.
 
 +++
 
@@ -67,7 +67,7 @@ Debe tener lo siguiente:
 1. Vaya al área Documentos donde se ha cargado el documento.
 1. Desde el escritorio o desde una ficha de explorador independiente, arrastre la nueva versión del documento sobre la versión existente en Workfront.
 
-   ![](assets/drag-drop-doc-qs-350x145.png)
+   ![Arrastrar y soltar la versión del documento](assets/drag-drop-doc-qs-350x145.png)
 
    A medida que arrastra la nueva versión, puede situarse sobre una carpeta de documentos de Workfront para abrirla. A continuación, puede desplazarse hacia arriba y hacia abajo arrastrando los archivos a la parte superior o inferior de la pantalla.
 
@@ -77,9 +77,9 @@ Debe tener lo siguiente:
 
 ## Utilice el menú Más para añadir una nueva versión
 
-1. Seleccione el documento en el que desea agregar una nueva versión.
+1. Seleccione el documento en el que desea añadir una nueva versión.
 1. Haga clic en **Agregar nuevo** > **Versión**.
 
-   ![](assets/add-new-version-350x185.png)
+   ![Agregar nueva versión](assets/add-new-version-350x185.png)
 
 1. Seleccione el tipo de documento que desea cargar y siga las indicaciones.
