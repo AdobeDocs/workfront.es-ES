@@ -6,10 +6,10 @@ description: Puede editar las plantillas del proyecto para reflejar los cambios 
 author: Alina
 feature: Work Management
 exl-id: da0fca31-6a50-4862-ad9a-a453ef968773
-source-git-commit: d85ccb9dbef343ecc8808412e89264b3ea6ab25e
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '4809'
-ht-degree: 98%
+source-wordcount: '4854'
+ht-degree: 95%
 
 ---
 
@@ -71,7 +71,7 @@ Editing a template differs depending on what environment you choose.
 
 1. Go to the template you want to edit.
 1. (Conditional) To edit limited information about the template,  click **Template Details** in the left panel, then go to the areas listed in the left panel to edit information for each area. 
-1. To edit information in the Details section, click the **Edit** icon ![](assets/edit-icon.png), then select from any of the areas below, or click **Edit all** to edit information in all areas:
+1. To edit information in the Details section, click the **Edit** icon ![Edit icon](assets/edit-icon.png), then select from any of the areas below, or click **Edit all** to edit information in all areas:
 
    * Overview
    * Custom Forms
@@ -84,7 +84,7 @@ Editing a template differs depending on what environment you choose.
    >
    >For information about all fields that display in the Details area, continue with editing all fields using the Edit Template box below.
 
-1. (Conditional) To edit all information about the template, click the **More** menu ![](assets/qs-more-icon-on-an-object.png) next to the name of the template, then click **Edit**.
+1. (Conditional) To edit all information about the template, click the **More** menu ![More icon](assets/qs-more-icon-on-an-object.png) next to the name of the template, then click **Edit**.
 
    The **Edit Template** box opens. The sections in this box contain the same fields available in  the Template Details section .
 
@@ -105,7 +105,7 @@ Editing a template differs depending on what environment you choose.
 1. Begin editing your template as described above.
 1. In the **Edit Template** box, click **Overview**.
 
-   ![](assets/edit-template-overview-with-tasks-and-issues-350x210.png)
+   ![Edit template overview](assets/edit-template-overview-with-tasks-and-issues-350x210.png)
 
 1. Update the following fields:
 
@@ -204,7 +204,7 @@ Editing a template differs depending on what environment you choose.
 1. Begin editing your template as described above.
 1. In the **Edit Template** box, click **Finance**.
 
-   ![](assets/edit-template-finance-with-tasks-and-issues-350x259.png)
+   ![Edit template finance](assets/edit-template-finance-with-tasks-and-issues-350x259.png)
 
 1. Update the following fields:
 
@@ -250,7 +250,7 @@ Editing a template differs depending on what environment you choose.
 1. Begin editing your template as described above.
 1. In the **Edit Template** box, click **Portfolio**.
 
-   ![](assets/edit-template-portfolio-with-tasks-and-issues-350x228.png)
+   ![Edit template portfolio](assets/edit-template-portfolio-with-tasks-and-issues-350x228.png)
 
 1. Update the following fields:
 
@@ -283,7 +283,7 @@ Editing a template differs depending on what environment you choose.
 1. Begin editing your template as described above.
 1. In the **Edit Template** box, click **Settings**.
 
-   ![](assets/edit-template-settings-with-tasks-and-issues-350x336.png)
+   ![Edit template settings](assets/edit-template-settings-with-tasks-and-issues-350x336.png)
 
 1. Update the following fields: 
 
@@ -411,7 +411,7 @@ Editing a template differs depending on what environment you choose.
 1. Begin editing your template as described above.
 1. In the **Edit Template** box, click **Access**.
 
-   ![](assets/edit-template-access-with-tasks-and-issues-350x241.png)
+   ![Edit template access](assets/edit-template-access-with-tasks-and-issues-350x241.png)
 
    The Access you specify for your template will become the Access of users associated with the project when the template is used to create a project.
 
@@ -488,7 +488,7 @@ For information about how these settings affect creating new tasks, see [Create 
 1. Begin editing your template as described above.
 1. In the **Edit Template** box, click **Tasks**.
 
-   ![](assets/edit-template-with-tasks-and-issue-sections-350x144.png)
+   ![Edit template tasks](assets/edit-template-with-tasks-and-issue-sections-350x144.png)
 
 1. In the **Task Default Approval Process** box, select the Approval Process you want to associate with all new tasks when you add them to a project created from this template. You must create an Approval Process for tasks before you can associate it with tasks. Only active approval processes display in the list. For more information about creating Approval Processes, see [Creating Approval Processes](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
 1. In the **Task Default Custom Forms** box, select the custom form or forms that you want to associate with all new tasks when you add them to a project created from this template. You must build the custom forms before they are available to select in this field. Only active custom forms display in the list. You can associate up to ten custom forms with a task.
@@ -516,7 +516,7 @@ By editing issue settings, you can prevent users from adding issues inline in th
 1. Begin editing your template as described above.
 1. In the **Edit Template** box, click **Issues**.
 
-   ![](assets/edit-template-box-with-issues-nwe-350x171.png)
+   ![Edit template issues](assets/edit-template-box-with-issues-nwe-350x171.png)
 
 1. (Optional) Deselect the **Allow users to add issues inline** option. It is enabled by default.
 
@@ -565,7 +565,7 @@ By editing issue settings, you can prevent users from adding issues inline in th
 
 1. Vaya a la plantilla que desea editar.
 1. (Condicional) Para editar información limitada sobre la plantilla, haga clic en **Detalles de la plantilla** en el panel izquierdo y, a continuación, vaya a las áreas que aparecen en el panel izquierdo para editar la información de cada área.
-1. Para editar información en la sección Detalles, haga clic en el icono **Editar** ![](assets/edit-icon.png), luego seleccione una de las áreas siguientes o haga clic en **Editar todo** para editar información en todas las áreas:
+1. Para editar información en la sección Detalles, haga clic en el icono **Editar** ![Editar icono](assets/edit-icon.png), luego seleccione una de las áreas siguientes o haga clic en **Editar todo** para editar información en todas las áreas:
 
    * Información general
    * Formularios personalizados
@@ -578,7 +578,7 @@ By editing issue settings, you can prevent users from adding issues inline in th
    >
    >Para obtener información sobre todos los campos que se muestran en el área de Detalles, continúe editando todos los campos con el cuadro Editar plantilla que aparece a continuación.
 
-1. (Condicional) Para editar toda la información sobre la plantilla, haga clic en el menú **Más** ![](assets/qs-more-icon-on-an-object.png) junto al nombre de la plantilla y, a continuación, haga clic en **Editar**.
+1. (Condicional) Para editar toda la información acerca de la plantilla, haga clic en el **Más** menú ![Icono de más](assets/qs-more-icon-on-an-object.png) junto al nombre de la plantilla y, a continuación, haga clic en **Editar**.
 
    Se abre el cuadro **Editar plantilla**. Las secciones de este cuadro contienen los mismos campos disponibles en la sección Detalles de la plantilla.
 
@@ -612,7 +612,7 @@ By editing issue settings, you can prevent users from adding issues inline in th
 1. Empiece a editar la plantilla tal como se ha descrito anteriormente.
 1. En el cuadro **Editar plantilla**, haga clic en **Información general**.
 
-   ![](assets/edit-template-box-overview-section.png)
+   ![Editar cuadro de plantilla](assets/edit-template-box-overview-section.png)
 
 1. Actualice los campos siguientes:
 
@@ -710,7 +710,7 @@ By editing issue settings, you can prevent users from adding issues inline in th
 1. Empiece a editar la plantilla tal como se ha descrito anteriormente.
 1. En el cuadro **Editar plantilla**, haga clic en **Finanzas**.
 
-   ![](assets/edit-template-box-finance-section.png)
+   ![Editar finanzas de cuadro de plantilla](assets/edit-template-box-finance-section.png)
 
 1. Actualice los campos siguientes:
 
@@ -766,7 +766,7 @@ By editing issue settings, you can prevent users from adding issues inline in th
 1. Empiece a editar la plantilla tal como se ha descrito anteriormente.
 1. En el cuadro **Editar plantilla**, haga clic en **Formularios personalizados**.
 
-   ![](assets/edit-template-box-custom-forms-section.png)
+   ![Editar formulario personalizado de cuadro de plantilla](assets/edit-template-box-custom-forms-section.png)
 
    Los nombres de los formularios personalizados que ya están adjuntos a la plantilla se muestran en el panel izquierdo.
 
@@ -793,7 +793,7 @@ By editing issue settings, you can prevent users from adding issues inline in th
 1. Empiece a editar la plantilla tal como se ha descrito anteriormente.
 1. En el cuadro **Editar plantilla**, haga clic en **Configuración del proyecto**.
 
-   ![](assets/edit-template-box-project-settings-section.png)
+   ![Editar configuración del cuadro de plantilla](assets/edit-template-box-project-settings-section.png)
 
 1. Actualice los campos siguientes:
 
@@ -925,7 +925,7 @@ Para obtener información sobre cómo afecta esta configuración a la creación 
 1. Empiece a editar la plantilla tal como se ha descrito anteriormente.
 1. En el cuadro **Editar plantilla**, haga clic en **Configuración de tarea**.
 
-   ![](assets/edit-template-box-tax-settings-section.png)
+   ![Editar configuración de tarea del cuadro de plantilla](assets/edit-template-box-tax-settings-section.png)
 
 1. En el cuadro **Proceso de aprobación predeterminado de tarea**, seleccione el proceso de aprobación que desee asociar con todas las tareas nuevas cuando las añada a un proyecto creado a partir de esta plantilla. Debe crear un proceso de aprobación para las tareas antes de poder asociarlo a las tareas. En la lista solo se muestran los procesos de aprobación activos. Para obtener más información sobre la creación de procesos de aprobación, consulte [Creación de procesos de aprobación](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
 1. En el cuadro **Formularios personalizados predeterminados de tareas**, seleccione el formulario o formularios personalizados que desee asociar con todas las tareas nuevas cuando los añada a un proyecto creado a partir de esta plantilla. Debe generar los formularios personalizados antes de que estén disponibles para seleccionarlos en este campo. En la lista solo se muestran los formularios personalizados activos. Para obtener más información sobre la creación de formularios personalizados, consulte [Crear un formulario personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md). Puede asociar hasta diez formularios personalizados a una tarea.
@@ -953,7 +953,7 @@ Al editar la configuración de problemas, puede evitar que los usuarios añadan 
 1. Empiece a editar la plantilla tal como se ha descrito anteriormente.
 1. En el cuadro **Editar plantilla**, haga clic en **Configuración del problema**.
 
-   ![](assets/edit-template-box-issue-settings-section.png)
+   ![Editar configuración de problema de cuadro de plantilla](assets/edit-template-box-issue-settings-section.png)
 
 1. (Opcional) Anule la selección de la opción **Permitir que los usuarios añadan problemas en línea**. Está habilitada de forma predeterminada.
 
@@ -980,7 +980,7 @@ Al editar la configuración de problemas, puede evitar que los usuarios añadan 
 1. Empiece a editar la plantilla tal como se ha descrito anteriormente.
 1. En el cuadro **Editar plantilla**, haga clic en el **Acceder**.
 
-   ![](assets/edit-template-box-access-section.png)
+   ![Editar acceso al cuadro de plantilla](assets/edit-template-box-access-section.png)
 
    El acceso que especifique para la plantilla se convertirá en el acceso de los usuarios asociados al proyecto cuando la plantilla se utilice para crear un proyecto.
 
@@ -1055,7 +1055,7 @@ Puede editar las plantillas de forma masiva y actualizar toda su información al
 
 Para editar plantillas de forma masiva:
 
-1. Haga clic en el icono **Menú principal** ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront.
+1. Haga clic en el icono **Menú principal** ![Icono del menú principal](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront.
 
 1. Haga clic en **Plantillas**.
 1. Seleccione varias plantillas en la lista.
@@ -1063,7 +1063,7 @@ Para editar plantillas de forma masiva:
 
    Se abrirá el cuadro de diálogo **Editar plantillas**.
 
-   ![](assets/edit-templates-in-bulk-box-nwe-350x327.png)
+   ![Editar plantillas](assets/edit-templates-in-bulk-box-nwe-350x327.png)
 
 1. Haga clic en las secciones de la izquierda para editar todas las plantillas seleccionadas.
 
@@ -1130,12 +1130,12 @@ Las plantillas desactivadas no afectan a los proyectos existentes que se crearon
 
 Para desactivar una plantilla:
 
-1. Vaya a una plantilla activa, haga clic en el menú **Más** ![](assets/qs-more-icon-on-an-object.png) situado junto al nombre de la plantilla y, a continuación, haga clic en **Desactivar**.
+1. Vaya a una plantilla activa, luego haga clic en el menú **Más** ![Icono de más](assets/qs-more-icon-on-an-object.png) junto al nombre de la plantilla y, a continuación, haga clic en **Desactivar**.
 
-   ![](assets/deactivate-template-link-in-more-menu.png)
+   ![Desactivar plantilla](assets/deactivate-template-link-in-more-menu.png)
 
    La plantilla dejará de estar activa y los usuarios ya no podrán encontrarla para crear proyectos a partir de ella.
-1. (Opcional) Para activar la plantilla, haga clic en el menú **Más** ![](assets/qs-more-icon-on-an-object.png) situado junto al nombre de la plantilla y, a continuación, haga clic en **Activar**.
+1. (Opcional) Para activar la plantilla, haga clic en el menú **Más** ![Más iconos](assets/qs-more-icon-on-an-object.png) junto al nombre de la plantilla y, a continuación, haga clic en **Activar**.
 
    La plantilla ahora estará activa y ya se puede adjuntar a proyectos o utilizar para crear proyectos.
 
