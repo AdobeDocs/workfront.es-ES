@@ -5,10 +5,10 @@ description: Además de configurar los ingresos y llevar el seguimiento de los g
 author: Lisa
 feature: Work Management
 exl-id: 6f17a892-7f64-4712-8ee2-7a1940b99be3
-source-git-commit: e5a87b92bf1f6c2e0485ba8a2eb73e52c422b2fc
+source-git-commit: b983a780198743a2b87b4b48cf4d6afdf1cee437
 workflow-type: tm+mt
-source-wordcount: '1896'
-ht-degree: 99%
+source-wordcount: '1898'
+ht-degree: 98%
 
 ---
 
@@ -241,7 +241,7 @@ Después de crear un registro de facturación e incluir horas, gastos e ingresos
 
    O
 
-   Haga clic en el **icono Editar** ![](assets/edit-icon.png) en la esquina superior derecha y, a continuación, edite la información en cualquier campo disponible.
+   Haga clic en el **icono Editar** ![Icono Editar](assets/edit-icon.png) en la esquina superior derecha y, a continuación, edite la información en cualquier campo disponible.
 
    Actualice lo siguiente:
 
