@@ -2,15 +2,15 @@
 title: Eliminar proyectos
 product-area: projects
 navigation-topic: manage-projects
-description: Puede eliminar un proyecto si el proyecto y sus datos ya no son necesarios. Como alternativa a eliminar un proyecto, se recomienda editar el proyecto y cambiar el estado a Completo o Inactivo. De este modo, se quitan todas las tareas actuales relacionadas con el proyecto de la lista de tareas de un usuario, pero se guardan todos los datos asociados con el proyecto.
+description: Puede eliminar un proyecto si el proyecto y sus datos ya no son necesarios. Como alternativa a eliminar un proyecto, recomendamos editar el proyecto y cambiar el estado a Completado o Inactivo. Todas las tareas actuales relacionadas con el proyecto se quitarán de la lista de tareas de un usuario pero se guardarán todos los datos asociados con dicho proyecto.
 author: Alina
 feature: Work Management
 exl-id: a0e80c4d-29a8-4bf8-aa19-0c2d493236c6
 recommendations: noDisplay, noCatalog
-source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '888'
-ht-degree: 1%
+source-wordcount: '895'
+ht-degree: 95%
 
 ---
 
@@ -20,9 +20,9 @@ ht-degree: 1%
 
 Puede eliminar un proyecto si el proyecto y sus datos ya no son necesarios.
 
-Como alternativa a eliminar un proyecto, se recomienda editar el proyecto y cambiar el estado a Completo o Inactivo. De este modo, se quitan todas las tareas actuales relacionadas con el proyecto de la lista de tareas de un usuario, pero se guardan todos los datos asociados con el proyecto.
+Como alternativa a eliminar un proyecto, recomendamos editar el proyecto y cambiar el estado a Completado o Inactivo. Todas las tareas actuales relacionadas con el proyecto se quitarán de la lista de tareas de un usuario pero se guardarán todos los datos asociados con dicho proyecto.
 
-Puede eliminar un proyecto en una lista de proyectos o en el nivel de proyecto.
+Puede eliminar un proyecto en una lista de proyectos o a nivel de proyecto.
 
 ## Requisitos de acceso
 
@@ -35,22 +35,22 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  <col> 
  <tbody> 
   <tr> 
-   <td> <p>plan de Adobe Workfront</p> </td> 
+   <td> <p>Plan de Adobe Workfront</p> </td> 
    <td>Cualquiera</td> 
   </tr> 
   <tr> 
    <td> <p>Licencia de Adobe Workfront*</p> </td> 
-   <td> <p>Nueva licencia: Standard </p>
-   <p>Licencia actual: Plan </p> 
+   <td> <p>Nueva licencia: estándar </p>
+   <p>Licencia actual: plan </p> 
    </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>Configuración del nivel de acceso</td> 
-   <td> <p>Editar el acceso a los proyectos con capacidad para crear y eliminar proyectos</p> </td> 
+   <td>Configuración de nivel de acceso</td> 
+   <td> <p>Acceso de edición a los proyectos con la posibilidad de crear y eliminar proyectos</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p>Permisos de objeto </p> </td> 
-   <td> <p>Editar acceso a Proyectos, Tareas, Problemas con la capacidad de Eliminar proyectos, tareas y problemas</p> </td> 
+   <td> <p>Acceso de edición a proyectos, tareas, problemas con la posibilidad de eliminar proyectos, tareas y problemas</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -66,13 +66,13 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 ### Limitaciones para eliminar proyectos  {#limitations-for-deleting-projects}
 
-* Los elementos eliminados se trasladan a la papelera de reciclaje durante 30 días y solamente el administrador de Workfront puede recuperarlos.
+* Los elementos eliminados se moverán a la papelera de reciclaje durante 30 días y solamente el administrador del sistema los puede recuperar.
 
-  Para obtener más información acerca de cómo restaurar objetos, vea el artículo [Restaurar elementos eliminados](../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md).
+  Para obtener más información sobre cómo restaurar objetos, consulte el artículo [Restaurar elementos eliminados](../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md).
 
-* Si el proyecto tiene tareas o problemas con las horas registradas, el administrador del grupo o de Workfront debe permitir la eliminación de estas tareas configurando las Preferencias de tareas y problemas en la instancia de Workfront para que pueda eliminar el proyecto que contiene las tareas.
+* Si el proyecto tiene tareas o problemas con las horas registradas, el administrador de grupos o de Workfront debe permitir la eliminación de estas tareas configurando las Preferencias de tareas y problemas en la instancia de Workfront para que pueda eliminar el proyecto que contiene las tareas.
 
-  Para obtener más información sobre cómo habilitar la eliminación de tareas, problemas o proyectos en los que se registran horas, consulte la sección &quot;Eliminación&quot; en [Configurar las preferencias de tareas y problemas en todo el sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+  Para obtener más información sobre cómo habilitar la eliminación de tareas, problemas o proyectos en los que se registran horas, consulte la sección “Eliminación” en [Configurar las preferencias de tareas y problemas en todo el sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 
   <!--
   <p data-mc-conditions="QuicksilverOrClassic.Quicksilver,QuicksilverOrClassic.Draft mode">(NOTE: this bullet stays in NWE only forever)</p>
@@ -80,13 +80,13 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 ### Impacto de la eliminación de proyectos {#the-impact-of-deleting-projects}
 
-* Al eliminar un proyecto, se afectan otros objetos vinculados al proyecto.
+* Al eliminar un proyecto, se ven afectados otros objetos vinculados al proyecto.
 
-  Los siguientes objetos adjuntos a un proyecto también se eliminan al eliminarlo:
+  Los siguientes objetos adjuntos a un proyecto también se eliminan cuando se elimina un proyecto:
 
    * Documentos
 
-     No se puede eliminar un proyecto que tenga un documento adjunto que se haya desprotegido. Para obtener más información acerca de cómo desproteger documentos, vea [Desproteger documentos](../../../documents/managing-documents/check-out-documents.md).
+     No se puede eliminar un proyecto que tenga un documento adjunto que se haya desprotegido. Para obtener más información sobre cómo desproteger documentos, consulte [Desproteger documentos](../../../documents/managing-documents/check-out-documents.md).
 
    * Tareas
    * Subtareas
@@ -96,62 +96,62 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
    * Gastos
    * Riesgos
    * Líneas base
-   * Información de caso comercial
-   * Detalles de cola
+   * Información del caso empresarial
+   * Información de los detalles de cola
    * Tarifas de facturación
    * Registros de facturación
 
-     No puede eliminar un proyecto que tenga Registros de facturación con el estado Facturado. Para obtener más información, consulte [Crear registros de facturación](../../projects/project-finances/create-billing-records.md).
+     No puede eliminar un proyecto que tenga registros de facturación con un estado Facturado. Para obtener más información, consulte [Crear registros de facturación](../../projects/project-finances/create-billing-records.md).
 
-* Según la forma en que el administrador de Workfront configure las preferencias de eliminación de proyectos, tareas o problemas en las preferencias de plantilla de horas y horas de la instancia de Workfront, las horas registradas para las tareas, los problemas o el proyecto se gestionarán de una de las siguientes maneras al eliminar el proyecto:
+* Según la forma en que el administrador de Workfront haya configurado las preferencias de eliminación de proyectos, tareas o problemas en las preferencias de plantilla de horas y horas de la instancia de Workfront, las horas registradas para las tareas, los problemas o el proyecto se gestionarán de una de las siguientes maneras al eliminar el proyecto:
 
-   * Las horas permanecen en la hoja de horas como tiempo general.
-   * Las horas se eliminan y se restaurarán si alguna vez se restaura el proyecto.
+   * Las horas permanecen en la plantilla de horas como tiempo general.
+   * Las horas se eliminan y se restaurarán si el proyecto se restaurara en algún momento.
 
-  Para obtener más información acerca de cómo configurar las preferencias de eliminación para los problemas de horas registradas, consulte [Configurar la hoja de horas y las preferencias de horas](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+  Para obtener más información sobre cómo configurar las preferencias de eliminación para las horas registradas para los problemas, consulte [Configurar preferencias de plantilla de horas y de horas](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
-* Si el proyecto que elimina está vinculado a una iniciativa en el Scenario Planner de Workfront:
+* Si el proyecto que elimina está vinculado a una iniciativa en el Planificador de escenarios de Workfront:
 
    * La iniciativa permanece en el plan, pero se elimina el vínculo al proyecto.
    * Si el proyecto que elimina está vinculado a la única iniciativa publicada de un plan, también se elimina la indicación de que el plan se ha publicado.
    * Si recupera un proyecto eliminado, el proyecto se recupera, pero su vínculo a la iniciativa no se restaura y el área del Planificador de escenarios ya no se muestra en Detalles del proyecto.
 
-     El Scenario Planner requiere una licencia adicional. Para obtener información sobre el Scenario Planner de Workfront, consulte [Información general sobre el Scenario Planner](../../../scenario-planner/scenario-planner-overview.md).
+     El Planificador de escenarios requiere una licencia adicional. Para obtener información sobre el Planificador de escenarios de Workfront, consulte [Información general sobre el Planificador de escenarios](../../../scenario-planner/scenario-planner-overview.md).
 
-     Para obtener información acerca de los proyectos vinculados a iniciativas en el Scenario Planner, vea [Actualizar o crear proyectos mediante la publicación de iniciativas en el Scenario Planner](../../../scenario-planner/publish-scenarios-update-projects.md).
+     Para obtener información sobre los proyectos vinculados a iniciativas en el Planificador de escenarios, consulte [Actualizar o crear proyectos mediante la publicación de iniciativas en el Planificador de escenarios](../../../scenario-planner/publish-scenarios-update-projects.md).
 
-* Si el proyecto también es una actividad para un objetivo en Workfront Goals:
+* Si el proyecto también es una actividad para una meta de Workfront Goals:
 
-   * El proyecto se elimina de la meta. También se elimina el progreso indicado en la meta por el proyecto.
+   * El proyecto se elimina de la meta. También se quita el progreso indicado en la meta por el proyecto.
 
-   * Si recupera el proyecto eliminado, este también se restaurará como la actividad del objetivo.
+   * Si recupera el proyecto eliminado, este también se restaurará como la actividad de la meta.
 
-     Esto requiere una licencia adicional. Para obtener información acerca de Workfront Goals, vea [Información general sobre Adobe Workfront Goals](../../../workfront-goals/goal-management/wf-goals-overview.md).
+     Se requiere una licencia adicional. Para obtener información sobre Workfront Goals, consulte [Información general sobre Adobe Workfront Goals](../../../workfront-goals/goal-management/wf-goals-overview.md).
 
-     Para obtener información acerca de cómo asociar proyectos con metas, vea [Agregar proyectos a metas en Adobe Workfront Goals](../../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md).
+     Para obtener información sobre cómo asociar los proyectos con las metas, consulte [Añadir proyectos a metas en Adobe Workfront Goals](../../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md).
 
 ## Eliminación de un proyecto de una lista
 
-Puede eliminar proyectos de una lista.
+Puede eliminar proyectos de una lista de proyectos.
 
 1. Ir a una lista de proyectos o a un informe de proyecto.
-1. Seleccione el proyecto o proyectos que desee eliminar y, a continuación, haga clic en el icono **Eliminar** ![](assets/delete-icon.png) en la parte superior de la lista.
+1. Seleccione el proyecto o proyectos que desee eliminar y, a continuación, haga clic en el icono **Eliminar** ![Eliminar icono](assets/delete-icon.png) de la parte superior de la lista.
 
-1. Haga clic en **Sí, eliminarlo** para confirmar la eliminación.
+1. Haga clic en **Sí, eliminar** para confirmar la eliminación.
 
-   Los proyectos se eliminan y se almacenan en la papelera de reciclaje durante 30 días. El administrador de Workfront puede restaurar los proyectos eliminados de la papelera de reciclaje durante este tiempo.
+   Los proyectos se eliminan y se almacenan en la Papelera de reciclaje durante 30 días. El administrador de Workfront puede restaurar los proyectos eliminados de la Papelera de reciclaje durante este tiempo.
 
-## Eliminar un proyecto en el nivel de proyecto
+## Eliminación de un proyecto en el nivel de proyecto
 
 1. Vaya al proyecto que desee eliminar.
-1. Haga clic en el icono **Más** ![](assets/qs-more-menu.png) a la derecha del nombre del proyecto y luego haga clic en **Eliminar proyecto**.
+1. Haga clic en el icono **Más** ![Menú más](assets/qs-more-menu.png) a la derecha del nombre del proyecto y, a continuación, haga clic en **Eliminar proyecto**.
 
-   ![](assets/more-icon-expanded-delete-project-highlighted.png)
+   ![Menú más expandido](assets/more-icon-expanded-delete-project-highlighted.png)
 
-1. Haga clic en **Sí, eliminarlo**.
+1. Haga clic en **Sí, eliminar**.
 
-   El proyecto se elimina y se almacena en la papelera de reciclaje durante 30 días. El administrador de Workfront puede restaurarla desde la papelera de reciclaje durante este tiempo.
+   El proyecto se elimina y se almacena en la Papelera de reciclaje durante 30 días. El administrador de Workfront puede restaurarlo de la Papelera de reciclaje durante este tiempo.
 
 ## Restauración de proyectos eliminados
 
-Un administrador de sistema o de grupo puede restaurar proyectos dentro de los 30 días siguientes a su eliminación, tal como se describe en el artículo [Restaurar elementos eliminados](../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md).
+Un administrador de sistema o de grupos puede restaurar proyectos durante los 30 días posteriores a su eliminación, como se describe en el artículo [Restaurar elementos eliminados](../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md).
