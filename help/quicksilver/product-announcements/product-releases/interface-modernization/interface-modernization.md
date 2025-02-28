@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 946b7d2ed2d45c3622706a0d0336b3261c22a2ad
+source-git-commit: 491a32e677b913c71396316d365fc1f18750124e
 workflow-type: tm+mt
-source-wordcount: '1469'
+source-wordcount: '1471'
 ht-degree: 0%
 
 ---
@@ -187,7 +187,7 @@ Para ver este cambio, ve a Equipos > elige un equipo > Registro de pendientes y 
 
 ### Actualización de la interfaz del área de Aprobaciones de un documento
 
-**Versión preliminar: 13 de febrero de 2025; versión de producción: por anunciar**
+**Versión preliminar: 13 de febrero de 2025; versión de producción: a partir del 27 de febrero de 2025**
 
 Hemos actualizado el área de Aprobaciones en un documento con un diseño más moderno y coherente con otras áreas de Workfront.
 
