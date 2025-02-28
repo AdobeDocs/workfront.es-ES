@@ -6,10 +6,10 @@ description: El proceso de creación y administración de gastos es el mismo par
 author: Lisa
 feature: Work Management
 exl-id: 80c41b08-3618-4d6e-8d07-1736b2f824ea
-source-git-commit: e5a87b92bf1f6c2e0485ba8a2eb73e52c422b2fc
+source-git-commit: b983a780198743a2b87b4b48cf4d6afdf1cee437
 workflow-type: tm+mt
-source-wordcount: '542'
-ht-degree: 93%
+source-wordcount: '544'
+ht-degree: 88%
 
 ---
 
@@ -74,7 +74,7 @@ Se muestra el cuadro de diálogo **Añadir un gasto**.
    * **Importe real:** el importe que representa el coste real del gasto.\
      Esto afecta al coste real del proyecto.
 
-   * **Fecha planificada:** la fecha prevista de realización del gasto. Puede escribir la fecha en el campo usando el formato *mm/dd/aa* o puede hacer clic en el icono del calendario ![](assets/calendar-icon.png) y seleccionar la fecha de forma dinámica.
+   * **Fecha planificada:** la fecha prevista de realización del gasto. Puede escribir la fecha en el campo con el formato *mm/dd/aa* o hacer clic en el icono del calendario  ![Icono del calendario](assets/calendar-icon.png) y seleccione la fecha de forma dinámica.
 
    * **Fecha de pago:** la fecha de pago del gasto.
    * **Facturable:** seleccione esta opción si desea facturar este gasto. Categorizar un gasto como facturable es importante al crear registros de facturación.
