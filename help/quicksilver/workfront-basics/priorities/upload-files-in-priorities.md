@@ -6,10 +6,10 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 484aa52e-7f87-40ab-a5e9-3b0c55232189
-source-git-commit: 20cb2237a534b51ab5c75e393369bdd92c233efb
+source-git-commit: fbcdc88701b8b501b68d29e76b0148ddf07e5b52
 workflow-type: tm+mt
-source-wordcount: '308'
-ht-degree: 31%
+source-wordcount: '321'
+ht-degree: 30%
 
 ---
 
@@ -55,12 +55,12 @@ Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con 
 {{step1-to-priorities}}
 
 1. Pase el ratón sobre el nombre y luego haga clic en **Cargar**.
-   ![](assets/update-log-upload.png)
+   ![Actualizar, registrar tiempo y cargar](assets/update-log-upload.png)
 1. (Opcional) Seleccione una carpeta.
 1. Arrastre y suelte el archivo o utilice Cmd/Ctrl + V para pegar elementos desde el portapapeles
 o
 Haga clic en **Agregar archivos** para examinar archivos o importarlos de un proveedor de Document Cloud.
-   ![](assets/add-files.png)
+   ![Agregar archivos](assets/add-files.png)
 1. (Opcional) Añada un comentario.
 1. (Opcional) Añada más archivos.
 
@@ -68,7 +68,7 @@ Haga clic en **Agregar archivos** para examinar archivos o importarlos de un pro
    >
    >Los archivos adicionales se cargan como documentos independientes.
 1. Haga clic en **Cargar**
-   ![](assets/upload-file-module.png)
+   ![Cargar archivo](assets/upload-file-module.png)
 
 
 ## Cargar un archivo en un elemento de trabajo
@@ -81,7 +81,7 @@ Haga clic en **Agregar archivos** para examinar archivos o importarlos de un pro
 1. Arrastre y suelte el archivo o utilice Cmd/Ctrl + V para pegar elementos desde el portapapeles
 o
 Haga clic en **Agregar archivos** para examinar archivos o importarlos de un proveedor de Document Cloud.
-   ![](assets/add-files.png)
+   ![Agregar archivos](assets/add-files.png)
 1. (Opcional) Añada un comentario.
 1. (Opcional) Añada más archivos.
 
@@ -89,4 +89,4 @@ Haga clic en **Agregar archivos** para examinar archivos o importarlos de un pro
    >
    >Los archivos adicionales se cargan como documentos independientes.
 1. Haga clic en **Cargar**
-   ![](assets/upload-file-module.png)
+   ![Cargar archivo](assets/upload-file-module.png)
