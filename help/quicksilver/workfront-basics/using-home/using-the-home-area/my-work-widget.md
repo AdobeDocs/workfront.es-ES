@@ -6,9 +6,9 @@ description: El widget Mi trabajo muestra todas las tareas, problemas y solicitu
 author: Courtney
 feature: Get Started with Workfront
 exl-id: e110f0f6-4ecb-419b-a368-c3f802de5920
-source-git-commit: f20f1c5d10869901ba5284a4425e38d279265a06
+source-git-commit: fddb927f2c9639b4c26d590bbea7dba684ed2b6c
 workflow-type: tm+mt
-source-wordcount: '725'
+source-wordcount: '744'
 ht-degree: 12%
 
 ---
@@ -50,7 +50,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr>  
   <tr> 
    <td role="rowheader"><strong>Permisos de objeto</strong></td> 
-   <td> <p>Permisos de Contribute o superiores para las tareas y problemas en los que debe trabajar</p>  </td> 
+   <td> <p>Aportar permisos o superiores a las tareas y problemas en los que tiene que trabajar</p>  </td> 
   </tr> 
  </tbody> 
 </table>
@@ -63,7 +63,7 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
 
 Puede ajustar los filtros de Mi trabajo para que se centren en elementos específicos de la lista de trabajo:
 
-![](assets/filter-my-work-widget.png)
+![Mi filtro de trabajo](assets/filter-my-work-widget.png)
 
 ### Detalles del filtro
 
@@ -135,7 +135,7 @@ Los elementos vencidos muestran un icono de advertencia junto a la fecha. Workfr
 >Para crear una lista que muestre todos los elementos vencidos en la parte superior del widget Mi trabajo, ordene por Fecha de vencimiento y no aplique una agrupación.
 
 
-![](assets/sort-my-work-widget.png)
+![Ordenar en el widget Mi trabajo](assets/sort-my-work-widget.png)
 
 ### Grupo
 
@@ -151,7 +151,7 @@ La fecha de vencimiento viene determinada por la fecha planificada de finalizaci
 >Cuando se aplica una agrupación, la selección en el menú Ordenar determina el orden dentro de la agrupación.
 
 
-![](assets/group-my-work-widget.png)
+![Agrupación en el widget Mi trabajo](assets/group-my-work-widget.png)
 
 ## Actualizar la información del elemento de trabajo en el resumen
 
@@ -167,7 +167,7 @@ Los administradores de Workfront pueden personalizar qué campos aparecen en el 
 * Hora de registro
 * Ver procesos de aprobación adjuntos
 
-Para abrir el resumen, pase el ratón sobre el elemento de trabajo y haga clic en el icono **Resumen** ![](assets/open-summary-new-home.png).
+Para abrir el resumen, pase el ratón sobre el elemento de trabajo y haga clic en el icono **Resumen** ![Icono de resumen](assets/open-summary-new-home.png).
 
 Para obtener información adicional sobre cómo usar el Panel de resumen, consulte [Resumen general](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md).
 
@@ -182,7 +182,7 @@ Puede utilizar el menú de acciones rápidas para lo siguiente
 
 Para localizar el menú de acciones rápidas, pase el ratón sobre el elemento de trabajo. La lista de acciones rápidas se muestra cerca del botón **Trabajar en ello** o **Listo**.
 
-![](assets/quick-actions-new-home.png)
+![Menú de acciones rápidas](assets/quick-actions-new-home.png)
 
 
 ## Ver aprobaciones y solicitudes de equipo
