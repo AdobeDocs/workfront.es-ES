@@ -6,10 +6,10 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 31793b0e-444c-492c-b1a2-909a2e97628b
-source-git-commit: 20cb2237a534b51ab5c75e393369bdd92c233efb
+source-git-commit: fbcdc88701b8b501b68d29e76b0148ddf07e5b52
 workflow-type: tm+mt
-source-wordcount: '200'
-ht-degree: 3%
+source-wordcount: '202'
+ht-degree: 2%
 
 ---
 
@@ -33,7 +33,7 @@ Prioridades muestra los elementos de trabajo que tiene asignados. No puede ver l
    | **Normal** | Normal es para los elementos de trabajo de rutina en los que trabajará una vez completados los elementos de prioridad Alta y Urgente. Esta es la opción predeterminada para tareas y problemas. |
    | **Bajo** | Bajo es para elementos de trabajo que no necesitan atención inmediata y que se pueden diferir hasta que se realicen todos los elementos de trabajo de prioridad superior. |
 
-   ![](assets/my-focus-new.png)
+   ![Mi enfoque](assets/my-focus-new.png)
 
    >[!TIP]
    >
