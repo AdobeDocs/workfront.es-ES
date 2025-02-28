@@ -6,10 +6,10 @@ description: Anular las tarifas de facturación a nivel de proyecto con las tari
 author: Lisa
 feature: Work Management
 exl-id: 02ea4c7c-0473-4cc4-913c-3baa613767b7
-source-git-commit: e5a87b92bf1f6c2e0485ba8a2eb73e52c422b2fc
+source-git-commit: b983a780198743a2b87b4b48cf4d6afdf1cee437
 workflow-type: tm+mt
-source-wordcount: '472'
-ht-degree: 100%
+source-wordcount: '476'
+ht-degree: 92%
 
 ---
 
@@ -64,7 +64,7 @@ Si una compañía está asociada con un proyecto y esta opción está habilitada
 Cuando un usuario recalcula manualmente las finanzas del proyecto, se aplican todos los cambios realizados en las tarifas de facturación a nivel de compañía. Los cálculos de ingresos históricos también se anulan, a menos que estén marcados como facturados.
 
 1. Vaya a un proyecto. 
-1. Haga clic en el menú **Más** ![](assets/qs-more-icon-on-an-object.png) junto al nombre del proyecto visible en el encabezado y, a continuación, haga clic en **Editar**.
+1. Haga clic en el menú **Más** ![Menú más](assets/qs-more-icon-on-an-object.png) junto al nombre del proyecto en el encabezado y, a continuación, haga clic en **Editar**.
 1. En la sección **Finanzas**, habilite **Permitir que las tarifas de facturación a nivel de compañía anulen las tarifas de facturación a nivel de proyecto**.
 
    >[!CAUTION]
@@ -103,4 +103,4 @@ Después de habilitar la opción de anulación de tarifas de facturación a nive
    * Un solo proyecto:
 
       1. Vaya al proyecto para el que ha habilitado la opción de anulación de las tarifas de facturación a nivel de compañía.
-      1. Haga clic en el menú **Más** ![](assets/qs-more-icon-on-an-object.png) junto al nombre del proyecto visible en el encabezado y, a continuación, haga clic en **Recalcular finanzas**.
+      1. Haga clic en el menú **Más** ![Menú más](assets/qs-more-icon-on-an-object.png) junto al nombre del proyecto en el encabezado y, a continuación, haga clic en **Volver a calcular finanzas**.
