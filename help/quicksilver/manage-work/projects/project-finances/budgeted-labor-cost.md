@@ -7,10 +7,10 @@ description: Comprender el coste presupuestado de la mano de obra y las horas pr
 author: Lisa
 feature: Work Management
 exl-id: 01020bbb-7cf9-4461-b0b6-dcbbc537c616
-source-git-commit: 6afa65f921864403c10541d283ef717dce81aed7
+source-git-commit: b983a780198743a2b87b4b48cf4d6afdf1cee437
 workflow-type: tm+mt
-source-wordcount: '1128'
-ht-degree: 100%
+source-wordcount: '1140'
+ht-degree: 98%
 
 ---
 
@@ -76,11 +76,11 @@ Si los usuarios están asociados a las funciones del puesto del proyecto y sus h
 
 * [!UICONTROL **Costo de mano de obra presupuestado**]: el área de Presupuestación de recursos del caso empresarial bajo sus respectivas funciones.
 
-  ![](assets/budgeted-labor-cost-for-users-in-business-case-highlighted-350x73.png)
+  ![Costo de mano de obra presupuestado en el caso comercial](assets/budgeted-labor-cost-for-users-in-business-case-highlighted-350x73.png)
 
 * [!UICONTROL **BDG**]: el Planificador de recursos al ver información en la vista de proyecto y función por coste.
 
-  ![](assets/budgeted-labor-cost-for-users-in-rp-project-view-cost--highlighted-350x115.png)
+  ![Costo de mano de obra presupuestado en los planes de recursos](assets/budgeted-labor-cost-for-users-in-rp-project-view-cost--highlighted-350x115.png)
 
 Los usuarios se muestran en el área de Presupuestación de recursos del caso empresarial bajo sus respectivas funciones o en el Planificador de recursos si cumplen los siguientes requisitos:
 
