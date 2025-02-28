@@ -6,10 +6,10 @@ description: 'Notificaciones: metas'
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 12e66711-4438-4fcf-af79-7fcc2c3b1522
-source-git-commit: 6a1152bb86a856d60585db7d6ffd43a59a212a72
+source-git-commit: c53e7d2229032c59710a8f955de53cfbd7fc6df4
 workflow-type: tm+mt
-source-wordcount: '569'
-ht-degree: 99%
+source-wordcount: '575'
+ht-degree: 96%
 
 ---
 
@@ -22,6 +22,8 @@ Puede habilitar las notificaciones por correo electrónico de los eventos que se
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: because there are conditions for who sees this, I added this from the How To articles/ template although this is not a How To. But I like the format, so I thought keeping it consistent might help users. We may decide to update this when we have access and prereq for overview-type articles)</p>
 -->
+
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
 Debe tener lo siguiente:
 
@@ -55,18 +57,12 @@ Debe tener lo siguiente:
 
 &#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de [!DNL Workfront].
 
++++
+
 ## Requisitos previos
 
-El usuario cuyas notificaciones de [!DNL Goals] se hayan actualizado debe tener lo siguiente:
+* El usuario cuyas [!DNL Goals] notificaciones desee actualizar debe tener una plantilla de diseño que incluya el área [!DNL Goals] en el [!UICONTROL menú principal].
 
-* Plantilla de diseño que incluye el área [!DNL Goals] en el [!UICONTROL menú principal].
-* Acceso a la nueva experiencia [!DNL Adobe Workfront].
-
-  <!--
-  <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-  (NOTE: we need this here because you can see these notifications from Classic)
-  </MadCap:conditionalText>
-  -->
 
 ## [!DNL Goals] notificaciones en el área [!UICONTROL perfil de usuario]
 

@@ -7,10 +7,10 @@ description: El [!UICONTROL Optimizador de portafolios] es la herramienta que se
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 1e48a24c-65de-49c2-85a8-dc931ac40c52
-source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
+source-git-commit: c53e7d2229032c59710a8f955de53cfbd7fc6df4
 workflow-type: tm+mt
-source-wordcount: '1657'
-ht-degree: 98%
+source-wordcount: '1647'
+ht-degree: 96%
 
 ---
 
@@ -128,7 +128,7 @@ En el [!UICONTROL Optimizador de portafolios] se muestran los siguientes campos:
   </tr> 
   <tr> 
    <td>[!UICONTROL Remaining]</td> 
-   <td> <p>El presupuesto restante después de que todos los [!UICONTROL Budgeted Costs] de todos los proyectos incluidos en el portafolio se hayan restado del Presupuesto del portafolio.</p> <p>El [!UICONTROL Remaining Portfolio Budget] se calcula mediante la siguiente fórmula:</p> <p><em>[!UICONTROL Remaining Portfolio Budget] = [!UICONTROL Total Portfolio Budget] - [!UICONTROL Budgeted Cost] total de todos los proyectos del portafolio</em> </p> <p>El [!UICONTROL Budgeted Cost] general de todos los proyectos del portafolio se representa en la barra de indicadores situada debajo del campo Presupuesto. </p> <p>Para obtener más información sobre el seguimiento de los costes de un proyecto, consulte <a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">Seguimiento de costes</a>.</p> </td> 
+   <td> <p>El presupuesto restante después del [!UICONTROL Costo total] en todos los proyectos dentro del portafolio se ha restado del Presupuesto del portafolio.</p> <p>El [!UICONTROL Remaining Portfolio Budget] se calcula mediante la siguiente fórmula:</p> <p><em>[!UICONTROL Remaining Portfolio Budget] = [!UICONTROL Total Portfolio Budget] - [!UICONTROL Budgeted Cost] total de todos los proyectos del portafolio</em> </p> <p>El presupuesto del portafolio es una entrada manual en el campo Presupuesto de Portfolio Optimizer. </p> <p>Para obtener más información sobre el seguimiento de los costes de un proyecto, consulte <a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">Seguimiento de costes</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Total Cost]</td> 

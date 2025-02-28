@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: cb38223c4dd8048fd2ab105abce2c9a79b84c43f
+source-git-commit: c53e7d2229032c59710a8f955de53cfbd7fc6df4
 workflow-type: tm+mt
-source-wordcount: '1806'
-ht-degree: 66%
+source-wordcount: '1811'
+ht-degree: 65%
 
 ---
 
@@ -29,13 +29,13 @@ ht-degree: 66%
 >
 >La información de este artículo hace referencia a Adobe Workfront Planning, una funcionalidad adicional de Adobe Workfront.
 >
->Debe tener lo siguiente para acceder a Workfront Planning:
+>Debe tener lo siguiente para acceder completamente a todas las funcionalidades de Workfront Planning:
 >
 >* Un nuevo paquete y licencia de Workfront. Workfront Planning no está disponible para paquetes o licencias de Workfront heredados.
 >* Un paquete de Workfront Planning.
 >* La instancia de Workfront de su organización debe incorporarse a la experiencia unificada de Adobe.
 >
-> Para obtener una lista completa de los requisitos para acceder a Workfront Planning, consulte [Descripción general del acceso a Adobe Planning](/help/quicksilver/planning/access/access-overview.md).
+> Para obtener una lista completa de los requisitos para acceder a Workfront Planning, consulte [Información general sobre el acceso a Adobe Planning](/help/quicksilver/planning/access/access-overview.md).
 > 
 
 Este artículo contiene información general sobre Workfront Planning.
@@ -170,7 +170,7 @@ Una vez que su organización haya adquirido un paquete de Workfront Planning, co
 
 * Asigne a los usuarios que necesiten acceder a Planning una plantilla de diseño que incluya Planning en el menú principal. Para obtener más información, consulte [Personalizar el menú principal con una plantilla de diseño](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md) y [Asignar usuarios a una plantilla de diseño](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md).
 
-* Asigne a los usuarios una licencia de Workfront y permisos de Workfront Planning que les permitan ver o crear objetos en Workfront Planning. Para obtener más información acerca de cómo conceder acceso a Workfront Planning y permitir que otros lo usen, vea [Información general sobre el acceso a Adobe Planning](/help/quicksilver/planning/access/access-overview.md).
+* Asigne a los usuarios una licencia de Workfront y permisos de Workfront Planning que les permitan ver o crear objetos en Workfront Planning. Para obtener más información sobre cómo conceder acceso a Workfront Planning y permitir que otros lo usen, consulte [Información general sobre el acceso a Adobe Planning](/help/quicksilver/planning/access/access-overview.md).
 
 ## Terminología de Workfront Planning
 
@@ -325,7 +325,7 @@ Para obtener más información, consulte [Administrar vistas de registros](/help
 
 ## Localizar Adobe Workfront Planning
 
-Para localizar la planificación de Adobe, asegúrese de que su organización ha recibido acceso a Workfront Planning y de que el administrador del sistema o del grupo ha añadido el área de planificación al menú principal. Para obtener más información, consulte [Descripción general del acceso a Adobe Planning](/help/quicksilver/planning/access/access-overview.md).
+Para localizar Adobe Planning, asegúrese de que su organización ha recibido acceso a Workfront Planning y de que el administrador del sistema o del grupo ha añadido el área de Planning al menú principal. Para obtener más información, consulte [Información general sobre el acceso a Adobe Planning](/help/quicksilver/planning/access/access-overview.md).
 
 Para localizar Workfront Planning:
 
