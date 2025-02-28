@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9b78a58e-7ced-4b13-8108-40bd36339667
-source-git-commit: 2d40585a48f42c767d49530b427d2e4d66f88148
+source-git-commit: f90a1066202e2c949ab5bfebf85897060f1c29d2
 workflow-type: tm+mt
-source-wordcount: '965'
+source-wordcount: '959'
 ht-degree: 35%
 
 ---
@@ -74,7 +74,6 @@ Las versiones mensuales y trimestrales están planificadas para estar disponible
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-project-enhancements.md" class="MCXref xref" xrefformat="{para}">
             Agregar un comentario a los proyectos al editarlos en el cuadro Editar proyecto</a></p>
-            [!BADGE Nuevo en vista previa ]{type=Negative}
             <p>Ahora puede agregar un comentario a un proyecto a medida que lo edita en el cuadro Editar proyecto. También puede agregar un comentario a varios proyectos al mismo tiempo cuando los edita por lotes. Antes de esta actualización, esta funcionalidad no existía al editar proyectos.</p>
         </td>
         <td>

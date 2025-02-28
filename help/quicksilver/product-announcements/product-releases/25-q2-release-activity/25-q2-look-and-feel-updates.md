@@ -5,10 +5,10 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: aeb16dc5-d17d-40bc-a32a-de6d47b43817
-source-git-commit: ea9c674b798c48927c7a0a542d36d5ded15ea3f1
+source-git-commit: f90a1066202e2c949ab5bfebf85897060f1c29d2
 workflow-type: tm+mt
-source-wordcount: '317'
-ht-degree: 26%
+source-wordcount: '424'
+ht-degree: 20%
 
 ---
 
@@ -33,6 +33,18 @@ Hemos actualizado el aspecto del Workfront Calendar a un diseño moderno que es 
 * Y más
 
 Para obtener más información, vea los artículos [Calendarios](/help/quicksilver/reports-and-dashboards/reports/calendars/calendars.md).
+
+## Vista actualizada de una ruta de hitos de proyecto en una vista de proyecto
+
+>[!NOTE]
+>
+>Versión de vista previa: 27 de febrero de 2025; producción para versión rápida: con la versión 25.3 (marzo de 2025); producción para versión trimestral: con la versión 25.4 (abril de 2025)
+
+Al acceder a la trayectoria del hito desde una lista de proyectos o un informe, la página de detalles del hito ahora tiene un nuevo aspecto. Debe agregar el campo Nombre de ruta de hitos a la vista de la lista o informe para poder acceder a la página de detalles de la ruta de hitos.
+
+Con esta actualización también hemos añadido información sobre los colores y códigos de color de cada hito.
+
+Para obtener más información, vea [Crear una ruta de hitos](/help/quicksilver/administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md).
 
 ## Cambios temporales de aspecto y funcionamiento en los correos electrónicos de los documentos
 
