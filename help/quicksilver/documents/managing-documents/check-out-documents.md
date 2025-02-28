@@ -1,21 +1,21 @@
 ---
 product-area: documents
 navigation-topic: manage-documents
-title: Desproteger documentos
-description: Puede retirar un documento para evitar que otros usuarios lo eliminen o carguen una nueva versión. Sólo un usuario puede desproteger un documento a la vez. Puede retirar cualquier documento cargado en Adobe Workfront, así como documentos vinculados a proveedores de documentos de terceros (Box, Dropbox, Google Drive, Webdam, Workfront DAM, SharePoint o cualquier otro proveedor personalizado).
+title: Extraer documentos
+description: Puede extraer un documento para evitar que otros usuarios lo eliminen o carguen una nueva versión. Solo un usuario puede extraer un documento a la vez. Puede extraer cualquier documento cargado en Adobe Workfront, así como documentos vinculados a proveedores de documentos de terceros (Box, Dropbox, Google Drive, Webdam, Workfront DAM, SharePoint o cualquier otro proveedor personalizado).
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 15d9ea43-1cee-4cb1-9365-4374a291c090
-source-git-commit: 9aa6822c9c1ecade776d4c71b113c1afd997f40c
+source-git-commit: 85a2f154b3b561cdf53c68d50e66b8945f9f9823
 workflow-type: tm+mt
-source-wordcount: '684'
-ht-degree: 0%
+source-wordcount: '694'
+ht-degree: 93%
 
 ---
 
-# Desproteger documentos
+# Extraer documentos
 
-Puede retirar un documento para evitar que otros usuarios lo eliminen o carguen una nueva versión. Sólo un usuario puede desproteger un documento a la vez. Puede retirar cualquier documento cargado en Adobe Workfront, así como documentos vinculados a proveedores de documentos de terceros (Box, Dropbox, Google Drive, Webdam, Workfront DAM, SharePoint o cualquier otro proveedor personalizado). 
+Puede extraer un documento para evitar que otros usuarios lo eliminen o carguen una nueva versión. Solo un usuario puede extraer un documento a la vez. Puede extraer cualquier documento cargado en Adobe Workfront, así como documentos vinculados a proveedores de documentos de terceros (Box, Dropbox, Google Drive, Webdam, Workfront DAM, SharePoint o cualquier otro proveedor personalizado). 
 
 ## Requisitos de acceso
 
@@ -28,20 +28,20 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plan Adobe Workfront*</td> 
+   <td role="rowheader">Plan de Adobe Workfront*</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licencia de Adobe Workfront*</td> 
-   <td> <p>Revisar o superior</p> </td> 
+   <td> <p>Revisión o superior</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso*</td> 
-   <td> <p>Editar acceso a documentos</p> <p>Nota: Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, vea <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
+   <td> <p>Acceso de edición a documentos</p> <p>Nota: Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, consulte <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Administrar el acceso al documento</p> <p>Para obtener información sobre cómo solicitar acceso adicional, vea <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a los objetos </a>.</p> </td> 
+   <td> <p>Administrar el acceso al documento</p> <p>Para obtener información sobre cómo solicitar acceso adicional, consulte <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a los objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -50,7 +50,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 +++
 
-## Acciones permitidas en los documentos retirados
+## Acciones permitidas en los documentos extraídos
 
 Los usuarios con acceso de administración al documento pueden hacer lo siguiente:
 
@@ -62,47 +62,47 @@ Los usuarios con acceso de administración al documento pueden hacer lo siguient
 
   >[!TIP]
   >
-  > Aunque un usuario puede descargar un documento cuando está desprotegido por otro usuario, se recomienda que los usuarios esperen hasta que el documento se vuelva a proteger antes de descargarlo. Cuando un documento está desprotegido, a menudo indica que se está trabajando en él. Si se espera hasta que se vuelva a registrar un documento para descargarlo, se garantiza que el usuario tenga la versión más reciente.
+  >Aunque un usuario puede descargar un documento cuando lo haya extraído otro usuario, se recomienda que los usuarios esperen hasta que el documento se vuelva a insertar antes de descargarlo. Cuando se ha extraído un documento, a menudo indica que se está trabajando en él. Si se espera hasta que se vuelva a insertar un documento para descargarlo, se garantiza que el usuario tenga la versión más reciente.
 
 * Aprobar un documento o aplicar una aprobación al documento.
-* Revisar el documento en el visor de revisión
+* Revisar el documento en el visor de corrección
 
-  Para obtener más información acerca de la revisión, vea [Revisión](../../review-and-approve-work/proofing/proofing.md)
+  Para obtener más información acerca de la revisión, consulte [Revisión](../../review-and-approve-work/proofing/proofing.md)
 
 ## Extraer un documento
 
-Si tiene permisos de administración en un documento, puede desprotegerlo para prohibir ciertas acciones en el documento. 
+Si tiene permisos de administración en un documento, puede extraerlo para prohibir determinadas acciones sobre el documento. 
 
 1. Vaya al área donde está almacenado el documento y, a continuación, seleccione el documento. 
 
-   Para obtener información sobre cómo agregar documentos, consulte [Agregar documentos a Adobe Workfront desde el sistema de archivos](../../documents/adding-documents-to-workfront/add-documents-from-file-system.md).
+   Para obtener información sobre cómo añadir documentos, consulte [Añadir documentos a Adobe Workfront desde el sistema de archivos](../../documents/adding-documents-to-workfront/add-documents-from-file-system.md).
 
-1. Haga clic en el icono **Desproteger** ![](assets/check-out-25x23.png).
+1. Haga clic en el icono **Desproteger** ![Desproteger](assets/check-out-25x23.png).
 
-1. Aparece un icono de candado ![](assets/lock-icon-locked-qs.png) a la derecha del nombre del documento. El documento permanece desprotegido después de cerrar la sesión de Workfront.
-1. Sólo el usuario que desprotegió el documento o el administrador de Workfront pueden proteger el documento.
+1. Aparece un icono de candado ![Icono de candado](assets/lock-icon-locked-qs.png) a la derecha del nombre del documento. El documento permanece extraído después de cerrar la sesión de Workfront.
+1. Solo el usuario que extrajo el documento o el administrador de Workfront pueden insertarlo.
 
-## Administrar documentos retirados
+## Administración de documentos extraídos
 
-Tenga en cuenta lo siguiente sobre los documentos desprotegidos:
+Tenga en cuenta lo siguiente sobre los documentos extraídos:
 
-* Antes de poder eliminar un objeto en el que está almacenado un documento extraído, primero debe volver a archivar el documento. 
-* Si el administrador de Workfront elimina un usuario que ha retirado un documento que no era de su propiedad, Workfront registra automáticamente el documento.
-* Si el administrador de Workfront elimina un usuario que ha extraído un documento de su propiedad y el documento se carga en un objeto, el documento permanece extraído. Solo un administrador de Workfront puede volver a protegerlo.
-* Si el administrador de Workfront elimina un usuario que ha retirado un documento de su propiedad y el documento se carga solamente en el área Documentos (no en un objeto), el documento se elimina con el usuario.
+* Antes de poder eliminar un objeto en el que está almacenado un documento extraído, primero debe volver a insertarlo. 
+* Si la persona con la función de administrador de Workfront elimina un usuario que ha desprotegido un documento que no era de su propiedad, Workfront protege automáticamente el documento.
+* Si la persona con la función de administrador de Workfront elimina un usuario que ha desprotegido un documento de su propiedad y el documento se carga en un objeto, el documento permanece desprotegido. Solo una persona con la función de administrador de Workfront puede volver a protegerlo.
+* Si la persona con la función de administrador de Workfront elimina un usuario que ha desprotegido un documento de su propiedad y el documento se carga solamente en el área Documentos (no en un objeto), el documento se elimina con el usuario.
 
-  Para obtener información sobre cómo eliminar usuarios, consulte [Eliminar usuarios](../../administration-and-setup/add-users/create-and-manage-users/delete-a-user.md).
+  Para obtener información sobre la eliminación de usuarios, consulte [Eliminar usuarios](../../administration-and-setup/add-users/create-and-manage-users/delete-a-user.md).
 
-* Si el administrador de Workfront desactiva un usuario, todos los documentos que haya retirado permanecerán desprotegidos. Solo un administrador de Workfront puede volver a registrarlos. 
+* Si la persona con la función de administrador de Workfront desactiva un usuario, todos los documentos que ha desprotegido permanecerán desprotegidos. Solo una persona con la función de administrador de Workfront puede volver a protegerlos. 
 
 ## Proteger un documento
 
 Debe volver a proteger un documento para poder cargar una nueva versión o eliminarlo. 
 
-Para registrar un documento:
+Para proteger un documento:
 
 1. Vaya al área donde está almacenado el documento y seleccione el documento. 
 
-   Aparece un icono de candado ![](assets/lock-icon-locked-qs.png) a la derecha del nombre del documento.
+   Aparece un icono de candado ![Icono de candado](assets/lock-icon-locked-qs.png) a la derecha del nombre del documento.
 
-1. Haga clic en el icono **Proteger** ![](assets/check-in-25x22.png).
+1. Haga clic en el icono **Proteger** ![Proteger](assets/check-in-25x22.png).
