@@ -6,10 +6,10 @@ description: Volver a calcular las escalas de tiempo permite a los administrador
 author: Alina
 feature: Work Management
 exl-id: ec5d9a07-e45a-4aa2-9f41-9421ca5d5920
-source-git-commit: 7c2d6d1960752a109c02039c1af8d1d1850bcb8c
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '1058'
-ht-degree: 0%
+source-wordcount: '1064'
+ht-degree: 14%
 
 ---
 
@@ -62,7 +62,7 @@ Sin embargo, debe tener el siguiente acceso para volver a calcular manualmente l
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plan Adobe Workfront*</td> 
+   <td role="rowheader">Plan de Adobe Workfront*</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
@@ -71,18 +71,18 @@ Sin embargo, debe tener el siguiente acceso para volver a calcular manualmente l
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso*</td> 
-   <td> <p>Editar acceso a Proyectos</p> <p>El administrador del sistema debe recalcular la escala de tiempo de todos los proyectos del sistema</p> <p><b>NOTA</b>
+   <td> <p>Acceso de edición a proyectos</p> <p>El administrador del sistema debe recalcular la escala de tiempo de todos los proyectos del sistema</p> <p><b>NOTA</b>
 
-Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, vea <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td>
+Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Administración de permisos en un proyecto</p> <p>Para obtener información sobre cómo solicitar acceso adicional, vea <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a los objetos </a>.</p> </td> 
+   <td> <p>Administración de permisos en un proyecto</p> <p>Para obtener información sobre cómo solicitar acceso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a los objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de Workfront.
+&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su administrador de Workfront.
 
 ## Recálculo automático
 
@@ -104,7 +104,7 @@ De manera predeterminada, las escalas de tiempo de los proyectos se recalculan a
 
 Adobe Workfront vuelve a calcular las escalas de tiempo a diario solo para los proyectos en los que se cumplen todas las condiciones siguientes:
 
-* Tener un estado de Actual
+* Tiene un estado Actual
 * El tipo de actualización del proyecto se establece en Automático o Automático y Al cambiar
 
   Para obtener información acerca del tipo de actualización del proyecto, vea [Descripción general del tipo de actualización del proyecto](../../../manage-work/projects/planning-a-project/project-update-type-overview.md).
@@ -174,13 +174,13 @@ Como propietario de un proyecto, puede recalcular manualmente las escalas de tie
 
 Puede recalcular la cronología de un proyecto en Workfront desde la página del proyecto o desde una lista de proyectos o un informe.
 
-1. Vaya al proyecto para el que desea volver a calcular la escala de tiempo y haga clic en el icono **Más** ![](assets/qs-more-menu.png) que aparece a la izquierda del nombre del proyecto
+1. Vaya al proyecto para el que desea volver a calcular la escala de tiempo y haga clic en el icono **Más** ![Menú Más](assets/qs-more-menu.png) que aparece a la izquierda del nombre del proyecto
 
-   ![](assets/project-level-more-drop-down-expanded-nwe-350x516.png)
+   ![Más lista desplegable](assets/project-level-more-drop-down-expanded-nwe-350x516.png)
 
    O
 
-   Vaya a una lista de proyectos o a un informe, seleccione uno o varios proyectos y, a continuación, haga clic en el icono **Más** ![](assets/qs-more-menu.png) que se encuentra en la parte superior de la lista.
+   Vaya a una lista de proyectos o a un informe, seleccione uno o varios proyectos y, a continuación, haga clic en el icono **Más** ![Menú Más](assets/qs-more-menu.png) que se encuentra en la parte superior de la lista.
 
    ![](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
 
@@ -202,7 +202,7 @@ Puede recalcular manualmente las escalas de tiempo de varios proyectos editándo
 
 >[!TIP]
 >
->Según la complejidad de sus proyectos, recomendamos no seleccionar un gran número de proyectos al editarlos por lotes para garantizar un rendimiento óptimo. Algunas cosas que podrían hacer que un proyecto sea demasiado complejo podrían ser varias dependencias o asignaciones o un gran número de campos personalizados.
+>Según la complejidad de sus proyectos, recomendamos no seleccionar un gran número de proyectos al editarlos de forma masiva para garantizar un rendimiento óptimo. Algunas cosas que podrían hacer que un proyecto sea demasiado complejo podrían ser varias dependencias o asignaciones o un gran número de campos personalizados.
 
 1. Ir a una lista de proyectos.
 1. Seleccione varios proyectos en la lista y luego haga clic en **Editar**.
