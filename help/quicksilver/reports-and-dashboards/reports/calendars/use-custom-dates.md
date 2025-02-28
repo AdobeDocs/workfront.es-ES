@@ -6,9 +6,9 @@ description: Un informe de calendario es un informe dinámico que proporciona un
 author: Lisa
 feature: Reports and Dashboards
 exl-id: 40cc8628-7641-41ce-b8e5-7f5ed5ad36c7
-source-git-commit: c88c8dc7431f3bc711ae1942df12925fafa7eff0
+source-git-commit: 40bbb198216b2806154f83730d8afedd5f355a3e
 workflow-type: tm+mt
-source-wordcount: '1106'
+source-wordcount: '1104'
 ht-degree: 65%
 
 ---
@@ -205,7 +205,6 @@ Después de configurar cómo desea que se muestren los elementos, debe añadir l
    * **[!UICONTROL Tareas]**
    * **[!UICONTROL Proyectos]**
    * **[!UICONTROL Problemas]**
-   * **Días libres**
 
 1. Haga clic en **[!UICONTROL Agregar tareas]**, **[!UICONTROL Agregar proyectos]**, **[!UICONTROL Agregar problemas]** o **Tiempo libre** según el tipo de objeto que esté agregando al calendario.
 
