@@ -6,10 +6,10 @@ description: Cuando se le asignan tareas de trabajo y problemas, aparecen enumer
 author: Courtney
 feature: Get Started with Workfront, Work Management
 exl-id: 79826743-eeb9-4849-b46f-cc3f086e3194
-source-git-commit: bc60d2cd3dee9be2351d751bafff0e35267ea640
+source-git-commit: fddb927f2c9639b4c26d590bbea7dba684ed2b6c
 workflow-type: tm+mt
-source-wordcount: '834'
-ht-degree: 0%
+source-wordcount: '857'
+ht-degree: 20%
 
 ---
 
@@ -36,15 +36,15 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] licencia*</strong></td> 
-   <td> <p>[!UICONTROL Trabajo] o superior</p> </td> 
+   <td> <p>[!UICONTROL Work] o superior</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Configuraciones de nivel de acceso*</strong></td> 
-   <td> <p>Acceso de [!UICONTROL Edit] a tareas y problemas</p> <p>Nota: si todavía no tiene acceso, pregunte al administrador de [!DNL Workfront] si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de [!DNL Workfront] puede modificar su nivel de acceso, vea <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
+   <td> <p>Acceso de [!UICONTROL Edit] a tareas y problemas</p> <p>Nota: Si todavía no tiene acceso, pregunte al administrador de [!DNL Workfront] si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de [!DNL Workfront] puede modificar su nivel de acceso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Permisos de objeto</strong></td> 
-   <td> <p>Permisos de Contribute o superiores para las tareas y problemas en los que debe trabajar</p> <p>Para obtener información sobre cómo solicitar acceso adicional, vea <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a los objetos </a>.</p> </td> 
+   <td> <p>Permisos de aportación o superiores para las tareas y problemas en los que debe trabajar</p> <p>Para obtener información sobre cómo solicitar acceso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a los objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -63,19 +63,19 @@ Este artículo describe cómo usar los filtros en el área [!UICONTROL Inicio] p
 
 Para ver un elemento de trabajo en el widget Mi trabajo:
 
-1. Haga clic en **[!UICONTROL Menú principal]** ![](assets/main-menu-icon.png) en la esquina superior derecha y, a continuación, haga clic en **[!UICONTROL Inicio]**.
+1. Haga clic en el **[!UICONTROL Menú principal]** ![icono del menú principal](assets/main-menu-icon.png) en la esquina superior derecha y, a continuación, haga clic en **[!UICONTROL Inicio]**.
 1. (Condicional) Haga clic en **Personalizar** para agregar el widget **Mi trabajo**.
 
-1. Haga clic en el icono **Filter** ![](assets/filter-nwepng.png) en la esquina superior izquierda de la lista de trabajo del widget.
+1. Haga clic en el icono **Filtro** ![Icono de filtro](assets/filter-nwepng.png) en la esquina superior izquierda de la lista de trabajos del widget.
 
 1. Haga clic en una o ambas de las siguientes opciones para las tareas:
 
-   **[!UICONTROL Listo para el inicio]:** Muestra solamente las tareas y los problemas que están listos para el inicio. Las dos afirmaciones siguientes deben ser verdaderas:
+   **[!UICONTROL Listo para el inicio]:** Muestra solamente las tareas y los problemas que están listos para el inicio. Las dos instrucciones siguientes deben ser verdaderas:
 
    * Las tareas y sus tareas principales no tienen predecesoras ni restricciones de tarea que impidan trabajar con ellas.
    * La [!UICONTROL fecha planificada de inicio] de las tareas o problemas se encuentra en las últimas o en un máximo de dos semanas en el futuro.
 
-   **[!UICONTROL No está listo]**: muestra solamente las tareas y los problemas que aún no están listos para iniciarse. Cualquiera de las siguientes afirmaciones debe ser verdadera:
+   **[!UICONTROL No está listo]**: muestra solamente las tareas y los problemas que aún no están listos para iniciarse. Cualquiera de las siguientes instrucciones debe ser verdadera:
 
    * Las tareas y sus tareas principales pueden tener predecesoras o restricciones de tareas que impiden que se trabaje con ellas.
    * Las tareas o problemas tienen una [!UICONTROL Fecha planificada de inicio] que es más de dos semanas en el futuro.
@@ -89,12 +89,12 @@ Puede acceder a una solicitud asignada a su equipo directamente desde el widget 
 
 Para acceder a una solicitud de equipo:
 
-1. Haga clic en **[!UICONTROL Menú principal]** ![](assets/main-menu-icon.png) en la esquina superior derecha y, a continuación, haga clic en **[!UICONTROL Inicio]**.
+1. Haga clic en el **[!UICONTROL Menú principal]** ![icono del menú principal](assets/main-menu-icon.png) en la esquina superior derecha y, a continuación, haga clic en **[!UICONTROL Inicio]**.
 1. (Condicional) Haga clic en **Personalizar** para agregar el widget **Solicitudes de equipo**.
 
    El widget muestra las solicitudes de equipo en agrupaciones de equipos. El widget **[!UICONTROL Solicitudes de equipo]** muestra y muestra todas las solicitudes asignadas a cualquier equipo en el que se encuentre. Para obtener más información sobre cómo trabajar con solicitudes de equipo, consulte [Administrar solicitudes de trabajo y equipo](../../../people-teams-and-groups/work-with-team-requests/manage-work-and-team-requests.md).
 
-   ![](assets/team-request-widget.png)
+   ![Widget de solicitud de equipo](assets/team-request-widget.png)
 
 ## Trabajar en un elemento de trabajo en el widget Mi trabajo
 
@@ -102,13 +102,13 @@ Al hacer clic en el botón [!UICONTROL Trabajar en ello], está indicando al usu
 
 Para trabajar en un elemento de trabajo:
 
-1. Haga clic en **[!UICONTROL Menú principal]** ![](assets/main-menu-icon.png) en la esquina superior derecha y, a continuación, haga clic en **[!UICONTROL Inicio]**.
+1. Haga clic en el **[!UICONTROL Menú principal]** ![icono del menú principal](assets/main-menu-icon.png) en la esquina superior derecha y, a continuación, haga clic en **[!UICONTROL Inicio]**.
 1. (Condicional) Haga clic en **Personalizar** para agregar el widget **Mi trabajo**.
 
 1. En el área **[!UICONTROL lista de trabajo]** del widget, seleccione la solicitud en la que desea trabajar y haga clic en **[!UICONTROL Trabajar en ello]**.
 1. Pase el ratón sobre el elemento de trabajo y luego haga clic en el icono **Resumen** para ver información sobre el elemento de trabajo.
 
-   ![](assets/open-summary-new-home.png)
+   ![Abrir resumen](assets/open-summary-new-home.png)
 
 
 ## Quitar un elemento de trabajo
@@ -117,20 +117,20 @@ Si decide que no debería estar trabajando en el elemento de trabajo, puede quit
 
 Para quitar un elemento de trabajo:
 
-1. Haga clic en **[!UICONTROL Menú principal]** ![](assets/main-menu-icon.png) en la esquina superior derecha y, a continuación, haga clic en **[!UICONTROL Inicio]**.
+1. Haga clic en el **[!UICONTROL Menú principal]** ![icono del menú principal](assets/main-menu-icon.png) en la esquina superior derecha y, a continuación, haga clic en **[!UICONTROL Inicio]**.
 1. (Condicional) Haga clic en **Personalizar** para agregar el widget **Mi trabajo**.
 
 1. En la lista de trabajo del widget, pase el ratón sobre el elemento de trabajo y haga clic en el icono **Resumen** para ver información sobre el elemento de trabajo.
-   ![](assets/open-summary-new-home.png)
+   ![Abrir resumen](assets/open-summary-new-home.png)
 1. en la sección **Asignaciones**, quite el nombre.
-   ![](assets/remove-assignment.png)
+   ![Quitar asignación](assets/remove-assignment.png)
 
 
 
 <!--
 ## Reassign a request
 
-1. Click the **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
+1. Click the **[!UICONTROL Main Menu]** ![Main Menu icon](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
 1. In the **[!UICONTROL Work List]** area, select the request you want to reassign.
 
 1. Click on the **[!UICONTROL Assignments]** widget and remove yourself from the request, then type the name of the user you want to reassign the request to.
@@ -148,7 +148,7 @@ Para quitar un elemento de trabajo:
 
 You can reply to a request to further clarify the request or to propose a new date.
 
-1. Click the **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
+1. Click the **[!UICONTROL Main Menu]** ![Main Menu icon](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
 1. In the **[!UICONTROL Work List]** area, select the request you want to reply to.
 1. Locate the individual who assigned the request to you.
 
