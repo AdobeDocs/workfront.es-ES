@@ -6,10 +6,10 @@ description: Puede ver la asignación de funciones para todos los roles asignado
 author: Alina
 feature: Work Management
 exl-id: 76f70cb6-f707-4a73-bc81-e755e2d0a33d
-source-git-commit: 67deb48ebc90dd4a93c2af1cb89442ee2486cb16
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '468'
-ht-degree: 1%
+source-wordcount: '471'
+ht-degree: 26%
 
 ---
 
@@ -66,25 +66,25 @@ Debe tener lo siguiente:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plan Adobe Workfront*</td> 
+   <td role="rowheader">Plan de Adobe Workfront*</td> 
    <td> <p>Cualquiera </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licencia de Adobe Workfront*</td> 
-   <td> <p>Revisar o superior</p> </td> 
+   <td> <p>Revisión o superior</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso*</td> 
-   <td> <p>Acceso de visualización o superior a Proyectos</p> <p>Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, vea <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
+   <td> <p>Acceso de visualización o superior a los proyectos</p> <p>Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Ver permisos superiores en el proyecto</p> <p>Para obtener información sobre cómo solicitar acceso adicional, vea <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a los objetos </a>.</p> </td> 
+   <td> <p>Permisos de visualización o superiores en el proyecto</p> <p>Para obtener información sobre cómo solicitar acceso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a los objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de Workfront.
+&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su administrador de Workfront.
 
 ## Requisitos previos
 
@@ -100,7 +100,7 @@ Debe tener lo siguiente:
 
 ## Ver horas planificadas del proyecto en el panel Asignación de funciones
 
-1. Haga clic en el icono **Menú principal** ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront y luego haga clic en **Proyectos**.
+1. Haga clic en el icono **Menú principal** ![Menú principal](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront y, a continuación, haga clic en **Proyectos**.
 1. Haga clic en el nombre de un proyecto para acceder a él. Se abrirá la página Proyecto.
 1. Haga clic en una de las siguientes opciones del panel izquierdo:
 
@@ -117,6 +117,6 @@ Debe tener lo siguiente:
 
    | Campo | Descripción |
    |---|---|
-   | **Rol** | Funciones del puesto asignadas a tareas y problemas del proyecto. Pueden ser funciones del puesto asignadas directamente a tareas y problemas o funciones del puesto asociadas a usuarios asignados a tareas y problemas del proyecto. |
+   | **Función** | Funciones del puesto asignadas a tareas y problemas del proyecto. Pueden ser funciones del puesto asignadas directamente a tareas y problemas o funciones del puesto asociadas a usuarios asignados a tareas y problemas del proyecto. |
    | **Horas planificadas** | Número total de horas planificadas de tareas y problemas asignados a roles de trabajo o usuarios asociados a un rol en el proyecto. |
 
