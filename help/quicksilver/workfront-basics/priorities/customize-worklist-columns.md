@@ -6,10 +6,10 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: e4232fbe-1b5c-4614-8613-3b0e25ffee46
-source-git-commit: 20cb2237a534b51ab5c75e393369bdd92c233efb
+source-git-commit: fbcdc88701b8b501b68d29e76b0148ddf07e5b52
 workflow-type: tm+mt
-source-wordcount: '291'
-ht-degree: 23%
+source-wordcount: '300'
+ht-degree: 22%
 
 ---
 
@@ -68,7 +68,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 {{step1-to-priorities}}
 
 1. Haga clic en **Columnas** a la derecha de la pantalla.
-   ![](assets/columns.png)
+   ![Columnas](assets/columns.png)
 1. Utilice las teclas de alternancia para activar o desactivar columnas en la lista de trabajos.
 
 ### Reordenar las columnas
@@ -77,15 +77,15 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 1. Haga clic en **Columnas** a la derecha de la pantalla.
 1. Haz clic en el icono **Arrastrar** y mueve la columna a la ubicación que desees. Al mover columnas, se actualiza automáticamente la lista de trabajo.
-   ![](assets/reorder-columns.png)
+   ![Reordenar columnas](assets/reorder-columns.png)
 
 ### Restablecer anchos de columna
 
 {{step1-to-priorities}}
 
 1. Haga clic en **Columnas** a la derecha de la pantalla.
-1. Haga clic en el icono **Más** ![](assets/more-icon.png) y elija **Restablecer anchos de columna**.
-   ![](assets/columns.png)
+1. Haga clic en el icono **Más** ![Icono de más](assets/more-icon.png) y elija **Restablecer anchos de columna**.
+   ![Columnas](assets/columns.png)
 
 ## Personalización de las columnas de lista de trabajo Prioridades
 
@@ -94,7 +94,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 {{step1-to-priorities}}
 
 1. Haga clic en **Columnas** en la parte izquierda de la pantalla.
-   ![](assets/columns-new.png)
+   ![Columnas](assets/columns-new.png)
 1. Utilice las teclas de alternancia para activar o desactivar columnas en la lista de trabajos.
 
 ### Reordenar las columnas
@@ -103,7 +103,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 1. Haga clic en **Columnas** en la parte izquierda de la pantalla.
 1. Haz clic en el icono **Arrastrar** y mueve la columna a la ubicación que desees. Al mover columnas, se actualiza automáticamente la lista de trabajo.
-   ![](assets/reorder-columns-new.png)
+   ![Reordenar columnas](assets/reorder-columns-new.png)
 
 >[!NOTE]
 >
