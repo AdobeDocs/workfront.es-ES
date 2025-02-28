@@ -6,10 +6,10 @@ description: Las finanzas se calculan en un proyecto a medida que se producen ca
 author: Lisa
 feature: Work Management
 exl-id: 5a90c5a1-8b26-4b6f-b9ec-f446a2e94ff0
-source-git-commit: e5a87b92bf1f6c2e0485ba8a2eb73e52c422b2fc
+source-git-commit: b983a780198743a2b87b4b48cf4d6afdf1cee437
 workflow-type: tm+mt
-source-wordcount: '1617'
-ht-degree: 97%
+source-wordcount: '1633'
+ht-degree: 92%
 
 ---
 
@@ -149,15 +149,15 @@ Puede recalcular las finanzas de proyectos en Workfront desde la página del pro
 
 Puede recalcular las finanzas al mismo tiempo que las edita de forma masiva. Para obtener más información, consulte la sección [Recalcular manualmente las finanzas de forma masiva](#manually-recalculate-finances-in-bulk) en este artículo.
 
-1. Vaya al proyecto donde desee recalcular las finanzas y haga clic en el icono **Más** ![](assets/qs-more-icon-on-an-object.png) que hay a la derecha del nombre del proyecto.
+1. Vaya al proyecto donde desee recalcular las finanzas y haga clic en el icono **Más** ![Menú Más](assets/qs-more-icon-on-an-object.png) a la derecha del nombre del proyecto.
 
-   ![](assets/project-level-more-drop-down-expanded-nwe-350x516.png)
+   ![Nivel de proyecto más desplegable](assets/project-level-more-drop-down-expanded-nwe-350x516.png)
 
    O
 
-   Vaya a una lista de proyectos o a un informe, seleccione uno o varios proyectos y, a continuación, haga clic en el icono **Más** ![](assets/qs-more-icon-on-an-object.png) que se encuentra en la parte superior de la lista.
+   Vaya a una lista de proyectos o a un informe, seleccione uno o varios proyectos y, a continuación, haga clic en el icono **Más** ![Menú Más](assets/qs-more-icon-on-an-object.png) que se encuentra en la parte superior de la lista.
 
-   ![](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
+   ![Recalcular expresiones](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
 
    >[!TIP]
    >
@@ -181,9 +181,9 @@ Puede recalcular manualmente las finanzas de varios proyectos editándolos de fo
 Para volver a calcular manualmente las finanzas de varios proyectos:
 
 1. Ir a una lista de proyectos.
-1. Seleccione varios proyectos en la lista y, a continuación, haga clic en el icono **Más** ![](assets/qs-more-icon-on-an-object.png) que se encuentra en la parte superior de la lista.
+1. Seleccione varios proyectos en la lista y, a continuación, haga clic en el icono **Más** ![Menú Más](assets/qs-more-icon-on-an-object.png) en la parte superior de la lista.
 
-   ![](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
+   ![Recalcular expresiones](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
 
    >[!TIP]
    >
@@ -207,4 +207,4 @@ Las siguientes acciones activan el recálculo financiero de los proyectos en Wor
 >
 >Al cambiar el estado del proyecto, solo se vuelven a calcular los valores planificados.
 
-También puede recalcular las finanzas manualmente en el menú **Más** ![](assets/qs-more-menu.png) en el nivel de proyecto, haciendo clic en **Recalcular finanzas**.
+También puede recalcular las finanzas manualmente en el menú **Más** ![Menú más](assets/qs-more-menu.png) en el nivel de proyecto, haciendo clic en **Recalcular finanzas**.
