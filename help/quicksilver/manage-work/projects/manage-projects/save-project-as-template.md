@@ -2,14 +2,14 @@
 product-area: projects;templates
 navigation-topic: manage-projects
 title: Guardar un proyecto como plantilla
-description: Guardar un proyecto como plantilla "Guardar como plantilla" en el nivel de proyecto, para que los usuarios lo vean en la interfaz de usuario; hay otro artículo al que este vincula más en profundidad (paso a paso). Esta funcionalidad debe permanecer en las áreas de proyectos Y plantillas)".
+description: Guardar un proyecto como plantilla “Guardar como plantilla” en el nivel de proyecto, para que los usuarios lo vean en la interfaz de usuario; este artículo está vinculado con otro artículo que trata esto en más profundidad (paso a paso). Esta funcionalidad debe permanecer en las áreas de proyectos Y plantillas.
 author: Alina
 feature: Work Management
 exl-id: 4b5dfe12-f984-47c6-8e19-78b549f19159
-source-git-commit: dc3461803e23f61877c31efa2c52fffdc7bd79bf
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '450'
-ht-degree: 1%
+source-wordcount: '452'
+ht-degree: 97%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 1%
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Keep this the way it is in the Managing Projects area because the functionality in the UI is "Save as template" at the project level, so users see that in the UI; there is another article that this links to which is more in depth (step-by-step). This functionality needs to stay in both projects AND templates areas.)</p>
 -->
 
-Si decide que un proyecto se va a producir de nuevo en algún momento futuro, puede crear una plantilla a partir de ese proyecto existente. A continuación, puede volver a utilizar la plantilla para crear proyectos futuros que puedan contener información similar o que puedan compartir la misma escala de tiempo o asignaciones con el proyecto existente.
+Si decide que un proyecto se va a repetir en algún momento futuro, puede crear una plantilla a partir de ese proyecto existente. En adelante, puede volver a utilizar la plantilla para crear proyectos futuros que puedan contener información similar o que puedan compartir la misma cronología o asignaciones con el proyecto existente.
 
 ## Requisitos de acceso
 
@@ -60,7 +60,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plan Adobe Workfront*</td> 
+   <td role="rowheader">Plan de Adobe Workfront*</td> 
    <td> <p>Cualquiera </p> </td> 
   </tr> 
   <tr> 
@@ -69,13 +69,13 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso*</td> 
-   <td> <p>Editar acceso a plantillas</p> <p><b>NOTA</b>
+   <td> <p>Acceso de edición a las plantillas</p> <p><b>NOTA</b>
 
-Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, vea <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td>
+Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Ver permisos superiores a un proyecto </p> <p>Los permisos de administración se obtienen en la plantilla después de guardar el proyecto como plantilla</p> <p>Para obtener información sobre cómo solicitar acceso adicional, vea <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a los objetos </a>.</p> </td> 
+   <td> <p>Permisos Ver o superiores para un proyecto </p> <p>Los permisos de administración se obtienen en la plantilla después de guardar el proyecto como plantilla</p> <p>Para obtener información sobre cómo solicitar acceso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a los objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -84,8 +84,8 @@ Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establec
 
 ## Guardar un proyecto como plantilla
 
-1. Vaya al proyecto que desea guardar como plantilla.
-1. Haga clic en el menú **Más** ![](assets/qs-more-icon-on-an-object.png) y luego en **Guardar como plantilla**.
+1. Vaya al proyecto que desee guardar como plantilla.
+1. Haga clic en el menú **Más** ![Icono de más](assets/qs-more-icon-on-an-object.png) y luego en **Guardar como plantilla**.
 1. Especifique la siguiente información para la plantilla:
 
    <table style="table-layout:auto"> 
@@ -105,30 +105,30 @@ Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establec
       <td> <p>Seleccione entre las siguientes opciones:</p> 
        <ul> 
         <li> <p><strong>Sí</strong>: otros usuarios pueden encontrar la plantilla y adjuntarla a proyectos.</p> </li> 
-        <li><strong>No</strong>: otros usuarios no pueden encontrar la plantilla y no pueden adjuntarla a proyectos.</li> 
+        <li><strong>No</strong>: otros usuarios no pueden encontrar la plantilla ni adjuntarla a proyectos.</li> 
        </ul> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Formularios personalizados</td> 
-      <td>Utilice la lista desplegable para seleccionar cualquier formulario personalizado para adjuntarlo a la plantilla. Si ya se han asociado formularios personalizados al proyecto, se muestran todos los campos de datos de esos formularios personalizados.<br>Puede incluir hasta 10 formularios personalizados en una sola plantilla.</td> 
+      <td>Utilice la lista desplegable para seleccionar cualquier formulario personalizado que desee adjuntar a la plantilla. Si ya se han asociado formularios personalizados al proyecto, se muestran todos los campos de datos de esos formularios personalizados.<br>Puede incluir hasta 10 formularios personalizados en una misma plantilla.</td> 
      </tr> 
     </tbody> 
    </table>
 
-1. Haga clic en **Administrar Forms** para quitar o reordenar los formularios. Para obtener información sobre cómo quitar y reordenar formularios personalizados en la plantilla, consulte [Formularios personalizados](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md).
+1. Haga clic en **Administrar formularios** para quitar o reordenar los formularios. Para obtener información sobre cómo quitar y reordenar formularios personalizados en la plantilla, consulte [Formularios personalizados](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md).
 
    ![](assets/save-as-template-first-step-350x159.png)
 
-1. Haga clic en **Siguiente paso.**
-1. En la sección **Opciones**, active la casilla de verificación situada junto a la información que desee borrar de la plantilla.
+1. Haga clic en **Siguiente paso**.
+1. En la sección **Opciones**, seleccione la casilla de verificación situada junto a la información que desee borrar de la plantilla.
 
    ![](assets/save-as-template-options-step-350x109.png)
 
-1. Haga clic en **Siguiente paso.**
+1. Haga clic en **Siguiente paso**.
 1. En la sección **Excluir**, seleccione las tareas que desee excluir del proyecto.
 
    ![](assets/save-as-template-exclude-350x205.png)
 
-1. Haga clic en **Finalizar y guardar plantilla.**
+1. Haga clic en **Finalizar y guardar plantilla**.
 
-   La plantilla ahora aparece en la lista de plantillas disponibles y se puede adjuntar a un proyecto existente o utilizar para crear uno nuevo.
+   La plantilla ahora aparece en la lista de plantillas disponibles y se puede adjuntar a un proyecto existente o utilizarse para crear uno nuevo.
