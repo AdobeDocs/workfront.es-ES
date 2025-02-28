@@ -6,10 +6,10 @@ description: Puede ver o editar la información financiera de un proyecto accedi
 author: Lisa
 feature: Work Management
 exl-id: 147f5d55-a827-4cca-9ab0-afb03a4bcd5a
-source-git-commit: e5a87b92bf1f6c2e0485ba8a2eb73e52c422b2fc
+source-git-commit: b983a780198743a2b87b4b48cf4d6afdf1cee437
 workflow-type: tm+mt
-source-wordcount: '1285'
-ht-degree: 97%
+source-wordcount: '1297'
+ht-degree: 94%
 
 ---
 
@@ -69,9 +69,9 @@ Tenga en cuenta lo siguiente cuando visualice o edite información en el área F
 
 1. Vaya a un proyecto. 
 1. Haga clic en **Detalles del proyecto** en el panel izquierdo.
-1. Haga clic en el icono **Editar** ![](assets/edit-icon.png) en la esquina superior derecha de la sección Detalles y, a continuación, haga clic en **Finanzas**.
+1. Haga clic en el icono **Editar** ![Editar icono](assets/edit-icon.png) en la esquina superior derecha de la sección Detalles y, a continuación, haga clic en **Finanzas**.
 
-   ![](assets/finance-area-in-details-view-only-nwe-350x188.png)
+   ![Área de finanzas en la vista de detalles](assets/finance-area-in-details-view-only-nwe-350x188.png)
 
    >[!NOTE]
    >
@@ -156,14 +156,14 @@ Para editar la información de la subpestaña Finanzas del proyecto:
    >Necesita permisos de administración en el proyecto para realizar los siguientes pasos. También se recomienda que solo el propietario del proyecto realice cambios en la subpestaña Finanzas del proyecto.
 
 1. Haga clic en **Detalles del proyecto**, en el panel izquierdo.
-1. Haga clic en el icono **Editar** ![](assets/edit-icon.png) de la esquina superior derecha de la sección Detalles y, a continuación, haga clic en **Finanzas** . Se abrirá el área Finanzas para editarla.
+1. Haga clic en el icono **Editar** ![Editar icono](assets/edit-icon.png) en la esquina superior derecha de la sección Detalles y, a continuación, haga clic en **Finanzas** . Se abrirá el área Finanzas para editarla.
 1. Edite cualquier campo que esté disponible para la edición haciendo clic en el mismo o en **+Añadir** para añadir información a un campo vacío.
 
    >[!TIP]
    >
    >Los campos no estarán disponibles para la edición si Workfront los calculase automáticamente o si no tuviera permisos de edición sobre ellos.
 
-   ![](assets/edit-finance-area-in-project-details-nwe-350x275.png)
+   ![Editar área financiera](assets/edit-finance-area-in-project-details-nwe-350x275.png)
 
 1. Actualice cualquiera de los campos siguientes.
 
