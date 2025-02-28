@@ -1,26 +1,26 @@
 ---
 product-area: projects
 navigation-topic: manage-projects
-title: Exportar un proyecto a un proyecto de Microsoft
-description: Puede exportar proyectos de Adobe Workfront a proyectos de Microsoft.
+title: Exportar un proyecto a Microsoft Project
+description: Puede exportar proyectos de Adobe Workfront a Microsoft Project.
 author: Alina
 feature: Work Management
 exl-id: 3f0f3644-a763-4b72-a93a-85af8626b5b3
-source-git-commit: dc3461803e23f61877c31efa2c52fffdc7bd79bf
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '307'
-ht-degree: 0%
+source-wordcount: '316'
+ht-degree: 83%
 
 ---
 
-# Exportar un proyecto a un proyecto de Microsoft
+# Exportar un proyecto a Microsoft Project
 
-Puede exportar proyectos de Adobe Workfront a proyectos de Microsoft. 
+Puede exportar proyectos de Adobe Workfront a Microsoft Project. 
 
 >[!IMPORTANT]
 >
->* No todos los campos de Workfront se transfieren en el archivo de Microsoft Project.\
->  Para obtener más información acerca de la compatibilidad de campos entre Workfront y Microsoft Project, vea el artículo [Asignar campos de Microsoft Project a proyectos de Adobe Workfront](../../../manage-work/projects/manage-projects/map-ms-project-fields-to-workfront.md).
+>* No todos los campos de Workfront se transfieren al archivo de Microsoft Project.\
+>  Para obtener más información acerca de la compatibilidad de campos entre Workfront y Microsoft Project, consulte el artículo [Asignar campos de Microsoft Project a proyectos de Adobe Workfront](../../../manage-work/projects/manage-projects/map-ms-project-fields-to-workfront.md).
 >* Se recomienda limitar el número de veces que se transfieren proyectos de una aplicación a otra. 
 >
 
@@ -62,41 +62,41 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plan Adobe Workfront*</td> 
+   <td role="rowheader">Plan de Adobe Workfront*</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licencia de Adobe Workfront*</td> 
-   <td> <p>Revisar o superior</p> </td> 
+   <td> <p>Revisión o superior</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso*</td> 
-   <td> <p>Acceso de visualización o superior a Proyectos</p> <p><b>NOTA</b>
+   <td> <p>Acceso de visualización o superior a los proyectos</p> <p><b>NOTA</b>
 
-Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre el acceso a los proyectos, vea <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md" class="MCXref xref">Conceder acceso a los proyectos</a>. Para obtener información sobre cómo un administrador de Workfront puede cambiar su nivel de acceso, vea <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>. </p> </td>
+Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre el acceso a los proyectos, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md" class="MCXref xref">Conceder acceso a los proyectos</a>. Para obtener información sobre cómo un administrador de Workfront puede cambiar su nivel de acceso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>. </p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p> Ver permisos superiores al proyecto</p> <p>Para obtener información acerca de los permisos del proyecto, vea <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Compartir un proyecto en Adobe Workfront</a>.</p> <p>Para obtener información sobre cómo solicitar acceso adicional, vea <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a los objetos </a>.</p> </td> 
+   <td> <p> Permisos de visualización o superiores para el proyecto</p> <p>Para obtener información acerca de los permisos del proyecto, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Compartir un proyecto en Adobe Workfront</a>.</p> <p>Para obtener información sobre cómo solicitar acceso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a los objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 &#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de Workfront.
 
-## Exportar un proyecto de Workfront a un proyecto de Microsoft
+## Exportar un proyecto de Workfront a Microsoft Project
 
 Puede exportar un proyecto desde Workfront desde la página del proyecto o desde una lista de proyectos o un informe.
 
-1. Vaya al proyecto que desea exportar y haga clic en el icono **Más** ![](assets/qs-more-menu.png) que aparece a la derecha del nombre del proyecto
+1. Vaya al proyecto que desee exportar y haga clic en el icono **Más** ![Menú más](assets/qs-more-menu.png) que aparece a la derecha del nombre del proyecto
 
-   ![](assets/project-level-more-drop-down-expanded-nwe-350x516.png)
+   ![Más lista desplegable](assets/project-level-more-drop-down-expanded-nwe-350x516.png)
 
    O
 
-   Vaya a una lista de proyectos o a un informe y seleccione un proyecto. Luego, haga clic en el icono Más ![](assets/qs-more-menu.png) en la parte superior de la lista.
+   Vaya a una lista de proyectos o a un informe y seleccione un proyecto. Luego, haga clic en el icono Más ![Menú Más](assets/qs-more-menu.png) en la parte superior de la lista.
 
-   ![](assets/more-menu-expanded-in-a-list-one-project-selected-nwe.png)
+   ![Menú más expandido](assets/more-menu-expanded-in-a-list-one-project-selected-nwe.png)
 
 1. Haga clic en **Exportar MS Project**.
 
