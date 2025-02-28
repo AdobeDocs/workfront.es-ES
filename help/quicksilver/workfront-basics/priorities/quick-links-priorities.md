@@ -6,10 +6,10 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 2d76077d-2913-40b8-9596-4e201d12ec1a
-source-git-commit: 20cb2237a534b51ab5c75e393369bdd92c233efb
+source-git-commit: fbcdc88701b8b501b68d29e76b0148ddf07e5b52
 workflow-type: tm+mt
-source-wordcount: '293'
-ht-degree: 22%
+source-wordcount: '305'
+ht-degree: 21%
 
 ---
 
@@ -65,7 +65,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 1. En la sección **Vínculos rápidos**, haga clic en **Agregar vínculo**.
 1. Pegue la dirección URL en el cuadro **Agregar vínculo**.
 1. Haga clic en **Guardar**.
-   ![](assets/add-link.png)
+   ![Agregar vínculo](assets/add-link.png)
 
 ## Copiar un vínculo rápido al portapapeles
 
@@ -73,8 +73,8 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 1. Haga clic en el nombre de un elemento de trabajo para abrir la página Información general.
 1. En la sección **Vínculos rápidos**, busque el vínculo que desea copiar.
-1. Haga clic en el icono Copiar ![](assets/copy-icon.png).
-   ![](assets/copy-link.png)
+1. Haga clic en el icono Copiar ![Icono Copiar](assets/copy-icon.png).
+   ![Copiar vínculo](assets/copy-link.png)
 
 ## Abrir un vínculo rápido
 
@@ -83,7 +83,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 1. Haga clic en el nombre de un elemento de trabajo para abrir la página Información general.
 1. En la sección **Vínculos rápidos**, busque el vínculo que desea abrir.
 1. Haga clic en el vínculo. El vínculo se abre en una nueva pestaña.
-   ![](assets/open-link.png)
+   ![Abrir vínculo](assets/open-link.png)
 
 ## Eliminar vínculos rápidos
 
@@ -91,5 +91,5 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 1. Haga clic en el nombre de un elemento de trabajo para abrir la página Información general.
 1. Haga clic en **Editar detalles** en la esquina superior derecha de la pantalla.
-   ![](assets/edit-details.png)
-1. Busque el vínculo que desea eliminar y, a continuación, haga clic en el icono Eliminar ![](assets/delete-icon.png).
+   ![Editar detalles](assets/edit-details.png)
+1. Busque el vínculo que desea eliminar y, a continuación, haga clic en el icono Eliminar ![Icono Eliminar](assets/delete-icon.png).
