@@ -6,10 +6,10 @@ description: Si un proyecto está asociado a un grupo, puede aplicar tanto los e
 author: Alina
 feature: Work Management
 exl-id: 7564ab6a-8ddf-4e76-8e45-d59f9cf8d38b
-source-git-commit: 6bb6b834c5af8ad48179fc0d60b184d083b360e4
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '351'
-ht-degree: 0%
+source-wordcount: '353'
+ht-degree: 97%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 0%
 Alina, I moved this out of an admin article about statuses (Create and customize statuses)
 -->
 
-Si un proyecto está asociado a un grupo, puede aplicar tanto los estados de nivel de sistema como un estado personalizado asociado a ese grupo al proyecto o a las tareas y problemas de ese proyecto. Para obtener información acerca de los estados de grupo en Adobe Workfront, vea [Crear o editar un estado](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
+Si un proyecto está asociado a un grupo, puede aplicar tanto los estados de nivel de sistema como un estado personalizado asociado a ese grupo al proyecto o a las tareas y problemas de ese proyecto. Para obtener información acerca de los estados de grupo en Adobe Workfront, consulte [Crear o editar un estado](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
 
 >[!TIP]
 >
@@ -65,7 +65,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plan Adobe Workfront*</td> 
+   <td role="rowheader">Plan de Adobe Workfront*</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
@@ -74,25 +74,25 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso*</td> 
-   <td> <p>Editar acceso a Proyectos</p> <p><b>NOTA</b>
+   <td> <p>Acceso de edición a proyectos</p> <p><b>NOTA</b>
 
-Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, vea <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td>
+Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Administración de permisos del proyecto</p> <p>Para obtener información sobre cómo solicitar acceso adicional, vea <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a los objetos </a>.</p> </td> 
+   <td> <p>Administrar permisos del proyecto</p> <p>Para obtener información sobre cómo solicitar acceso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de Workfront.
+&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su administrador de Workfront.
 
 ## Actualizar grupo y estado del proyecto
 
 Al actualizar el grupo de un proyecto, las opciones disponibles para el estado de las tareas, problemas o el proyecto cambian para coincidir con el grupo.
 
-1. Vaya a un proyecto o cree uno nuevo, como se describe en [Crear un proyecto](../../../manage-work/projects/create-projects/create-project.md).
-1. Haga clic en el icono **Más** ![](assets/more-icon.png) y luego haga clic en **Editar**.
+1. Vaya a un proyecto o cree uno nuevo, tal como se describe en [Crear un proyecto](../../../manage-work/projects/create-projects/create-project.md).
+1. Haga clic en el icono **Más** ![Más iconos](assets/more-icon.png) y, a continuación, haga clic en **Editar**.
 
 1. En el cuadro **Editar proyecto** que aparece, cerca de la parte inferior de la sección **Información general**, seleccione el grupo en el menú desplegable **Grupo**.
 
