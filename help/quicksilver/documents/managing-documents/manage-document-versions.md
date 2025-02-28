@@ -6,10 +6,10 @@ description: Puede administrar varias versiones de un documento en Workfront.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 477153e4-847b-46ec-8107-72a7399c3767
-source-git-commit: 9aa6822c9c1ecade776d4c71b113c1afd997f40c
+source-git-commit: fddb927f2c9639b4c26d590bbea7dba684ed2b6c
 workflow-type: tm+mt
-source-wordcount: '528'
-ht-degree: 0%
+source-wordcount: '542'
+ht-degree: 32%
 
 ---
 
@@ -28,7 +28,7 @@ Debe tener lo siguiente:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plan Adobe Workfront*</td> 
+   <td role="rowheader">Plan de Adobe Workfront*</td> 
    <td> <p> Cualquiera</p> </td> 
   </tr> 
   <tr> 
@@ -37,16 +37,16 @@ Debe tener lo siguiente:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso*</td> 
-   <td> <p>Ver acceso a documentos</p> <p>Nota: Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, vea <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
+   <td> <p>Ver acceso a los documentos</p> <p>Nota: Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, consulte <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Ver acceso al documento</p> <p>Para obtener información sobre cómo solicitar acceso adicional, vea <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a los objetos </a>.</p> </td> 
+   <td> <p>Ver acceso al documento</p> <p>Para obtener información sobre cómo solicitar acceso adicional, consulte <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de Workfront.
+&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su administrador de Workfront.
 
 +++
 
@@ -64,15 +64,15 @@ Debe tener lo siguiente:
 
 1. Cerca de la parte superior de la página Detalles del documento, haga clic en el menú desplegable situado junto al nombre y, a continuación, haga clic en el nombre de la versión que desee ver y administrar.
 
-   ![](assets/version-drop-dn-doc-dtls-nwe-350x93.png)
+   ![Menú desplegable Versión en los detalles del documento](assets/version-drop-dn-doc-dtls-nwe-350x93.png)
 
-   Además de ver los detalles de la versión, puede realizar cambios en la versión, como el nombre, los metadatos y la configuración de revisión (si es una revisión de documento).
+   Además de ver los detalles de la versión, puede realizar cambios en la versión, como el nombre, los metadatos y la configuración de la revisión (si es una revisión de documento).
 
 ## Descargar una sola versión del documento
 
-1. En el resumen, en **Versiones**, haga clic en el menú Más ![](assets/more-icon.png) a la derecha de la versión y, a continuación, haga clic en **Descargar** en la lista desplegable que aparece.
+1. En el resumen, en **Versiones**, haga clic en el menú Más ![Menú Más](assets/more-icon.png) que se encuentra a la derecha de la versión y, a continuación, haga clic en **Descargar** en la lista desplegable que aparece.
 
-   ![](assets/more-versions-350x143.png)
+   ![Descargar un solo documento](assets/more-versions-350x143.png)
 
 ## Descargar todas las versiones de un documento
 
@@ -105,4 +105,4 @@ Para eliminar una versión de documento:
 
    Si el documento está vinculado a una fuente externa, ese vínculo se elimina y el documento ya no es accesible a través de Workfront.
 
-   ![](assets/more-versions-350x143.png)
+   ![eliminar versión del documento](assets/more-versions-350x143.png)
