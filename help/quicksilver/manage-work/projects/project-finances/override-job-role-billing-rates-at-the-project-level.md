@@ -6,10 +6,10 @@ description: Como gerente del proyecto, puede especificar cuál es la tarifa de 
 author: Lisa
 feature: Work Management
 exl-id: b7a33459-6929-4611-8546-06ca979e5dbe
-source-git-commit: e5a87b92bf1f6c2e0485ba8a2eb73e52c422b2fc
+source-git-commit: b983a780198743a2b87b4b48cf4d6afdf1cee437
 workflow-type: tm+mt
-source-wordcount: '820'
-ht-degree: 32%
+source-wordcount: '825'
+ht-degree: 31%
 
 ---
 
@@ -87,7 +87,7 @@ Para sustituir una tarifa de facturación para un proyecto:
 
 1. En el campo **Rol**, seleccione el rol para el cual desea cambiar la tarifa de facturación.
 
-   ![](assets/override-billing-rate-on-project-nwe-350x310.png)
+   ![Anular tarifa de facturación en el proyecto](assets/override-billing-rate-on-project-nwe-350x310.png)
 
    El campo **Tarifa de facturación predeterminada** muestra la tarifa a nivel del sistema para este rol.
 
