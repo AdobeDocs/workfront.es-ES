@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 8eb9dcaf-bba3-466d-b06d-5383991bc4ea
-source-git-commit: 116b9823818ac6103641c2e6ce283dfb47282851
+source-git-commit: c362c62855c71022c4bc6b3abc22ba4ea83b1b24
 workflow-type: tm+mt
-source-wordcount: '643'
+source-wordcount: '652'
 ht-degree: 15%
 
 ---
@@ -66,7 +66,7 @@ Puede filtrar las tareas y los problemas que se le hayan asignado.
 1. Haga clic en **Filtros** en la parte superior izquierda de la lista de trabajos.
 1. haga clic en **Filtros estándar**.
 1. Seleccione uno o varios filtros para reducir los elementos de trabajo.
-   ![](assets/filter-new.png)
+   ![Filtro](assets/filter-new.png)
 
 +++Amplíe para ver información detallada sobre los filtros disponibles
 <table>
@@ -157,7 +157,7 @@ Utilice un lenguaje natural para filtrar rápidamente el trabajo.
 
 1. Haga clic en **Grupos** en la parte superior izquierda de la lista de trabajos.
 1. Seleccione un grupo para organizar la lista de trabajos
-   ![](assets/groups-new.png)
+   ![Grupos](assets/groups-new.png)
 
 +++Amplíe para ver información detallada sobre los grupos disponibles
 
@@ -184,7 +184,7 @@ Puede arrastrar y soltar elementos de trabajo individuales entre categorías al 
 
 Para ordenar el trabajo dentro de un grupo, abra **Grupo** y haga clic en **Orden ascendente** o **Orden descendente**.
 
-![](assets/sort-in-groups.png)
+![Ordenar en grupos](assets/sort-in-groups.png)
 
 ### Ordenar columnas
 
@@ -196,4 +196,4 @@ Para ordenar columnas individuales, vaya a la columna y haga clic en la flecha h
 
 Para expandir o contraer todas las secciones del grupo, abra **Grupo** y haga clic en **Expandir todo** o **Contraer todo**.
 
-![](assets/expand-collapse-groups.png)
+![Expandir o contraer grupos](assets/expand-collapse-groups.png)
