@@ -7,10 +7,10 @@ description: El índice de rendimiento de programación de costes (CSI) es un c�
 author: Lisa
 feature: Work Management
 exl-id: 38a8c5e0-b812-499d-8fe7-a71ddccb3aad
-source-git-commit: 6afa65f921864403c10541d283ef717dce81aed7
+source-git-commit: b983a780198743a2b87b4b48cf4d6afdf1cee437
 workflow-type: tm+mt
-source-wordcount: '340'
-ht-degree: 100%
+source-wordcount: '341'
+ht-degree: 99%
 
 ---
 
@@ -52,7 +52,7 @@ El CSI tiene los tres valores posibles siguientes:
 * \>1 = Combinación de programación por debajo del presupuesto
 * &lt;1 = Combinación de programación por encima del presupuesto
 
-![](assets/csi-highlighted.png)
+![CSI](assets/csi-highlighted.png)
 
 ## Localizar el índice de rendimiento de programación de costes (CSI)
 
