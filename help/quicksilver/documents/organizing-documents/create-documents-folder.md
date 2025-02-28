@@ -2,20 +2,20 @@
 product-area: documents
 navigation-topic: organize-documents
 title: Crear carpetas de documentos
-description: Los documentos se pueden organizar en carpetas. Puede crear carpetas personales en el área de Documentos personales.
+description: Los documentos se pueden organizar en carpetas. Puede crear carpetas personales en el área de documentos personales.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 41974d6b-fb00-49b7-9db2-36519994e0fd
-source-git-commit: b87839d6c6dbfe978a3e14ef4b448560742f95c3
+source-git-commit: fddb927f2c9639b4c26d590bbea7dba684ed2b6c
 workflow-type: tm+mt
-source-wordcount: '304'
-ht-degree: 0%
+source-wordcount: '307'
+ht-degree: 99%
 
 ---
 
 # Crear carpetas de documentos
 
-Los documentos se pueden organizar en carpetas. Puede crear carpetas personales en el área de Documentos personales.
+Los documentos se pueden organizar en carpetas. Puede crear carpetas personales en el área de documentos personales.
 
 >[!NOTE]
 >
@@ -32,16 +32,16 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plan Adobe Workfront*</td> 
+   <td role="rowheader">Plan de Adobe Workfront*</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licencia de Adobe Workfront*</td> 
-   <td> <p>Revisar o superior</p> </td> 
+   <td> <p>Revisión o superior</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso*</td> 
-   <td> <p>Editar acceso a documentos</p> <p>Nota: Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, vea <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
+   <td> <p>Acceso de edición a documentos</p> <p>Nota: Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, consulte <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -62,9 +62,9 @@ Con un objeto de Workfront abierto, haga clic en **Documentos** en el panel izqu
 
 1. Haga clic en las opciones de vista encima del panel derecho para cambiar la forma en que se muestran los documentos.
 
-   ![](assets/screenshot-2016-07-07-12.46.54.png)
+   ![Opciones de vista de documento](assets/screenshot-2016-07-07-12.46.54.png)
 
-## Creación de carpetas y subcarpetas
+## Crear carpetas y subcarpetas
 
 Cree carpetas para organizar mejor los documentos. Puede crear hasta 2000 carpetas en un objeto y hasta 50 subcarpetas dentro de cada carpeta. Las subcarpetas se cuentan hasta un máximo de 2000 carpetas.
 
@@ -74,12 +74,12 @@ O
 
 Con un objeto de Workfront abierto, haga clic en **Documentos** en el panel izquierdo.
 
-1. Para crear una carpeta de nivel superior, asegúrate de que no hay nada seleccionado y luego haz clic en **Agregar nueva** > **Carpeta**.
+1. Para crear una carpeta de nivel superior, asegúrese de que no hay nada seleccionado y luego haz clic en **Añadir nuevo** > **Carpeta**.
 
    O
 
-   Para crear una subcarpeta, selecciónela donde desee crear la subcarpeta y, a continuación, haga clic en **Agregar nueva** > **Carpeta**.
+   Para crear una subcarpeta, selecciónela donde desee crear la subcarpeta y, a continuación, haga clic en **Añadir nuevo** > **Carpeta**.
 
 ## Compartir carpetas
 
-Para obtener información acerca de cómo compartir carpetas, vea [Compartir una carpeta de documentos](../../workfront-basics/grant-and-request-access-to-objects/share-a-document-folder.md).
+Para obtener información acerca de cómo compartir carpetas, consulte [Compartir una carpeta de documentos](../../workfront-basics/grant-and-request-access-to-objects/share-a-document-folder.md).
