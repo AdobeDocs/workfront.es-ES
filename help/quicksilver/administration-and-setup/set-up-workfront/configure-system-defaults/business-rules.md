@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 780c996c-5cf1-42fe-898d-2cc208bbae7b
-source-git-commit: 554e08c22f6ee142a9ced8fa991d0126b6360b0c
+source-git-commit: 03f95d2d6397850fd53e79fd37c2de56e94a04cd
 workflow-type: tm+mt
 source-wordcount: '1270'
 ht-degree: 80%
@@ -72,21 +72,33 @@ Para obtener información acerca de los comodines basados en usuarios, consulte 
 
 Para obtener información acerca de los comodines basados en fecha, consulte [Usar comodines basados en fecha para generalizar informes](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-date-based-wildcards-generalize-reports.md).
 
-También hay un comodín de API disponible en las reglas empresariales. Utilice `$$ISAPI` esta opción para activar el regla solo en la API. Se utiliza `!$$ISAPI` para aplicar el regla solo en la interfaz de usuario y permitir a los usuarios omitir el regla a través de la API.
+También hay un comodín de API disponible en las reglas empresariales. Use `$$ISAPI` para almacenar en déclencheur la regla solamente en la API. Use `!$$ISAPI` para hacer cumplir la regla solamente en la interfaz de usuario y permitir que los usuarios omitan la regla a través de la API.
 
-* Por ejemplo, este regla prohíbe a los usuarios editar proyectos completados a través de la API. Si no se utilizaba el comodín, el regla bloquearía la acción tanto en la interfaz de usuario como en la API.
-  `IF({status} = "CPL" && $$ISAPI, "You cannot edit completed projects through the API.")`
+* Por ejemplo, esta regla prohíbe a los usuarios editar proyectos completados a través de la API. Si no se utilizara el comodín, la regla bloquearía la acción tanto en la interfaz de usuario como en la API.
 
-Los `$$BEFORE_STATE` comodines y `$$AFTER_STATE` se utilizan en expresiones para acceder a los valores de campo del objeto antes y después de cualquier edición.
+  ```
+  IF({status} = "CPL" && $$ISAPI, "You cannot edit completed projects through the API.")
+  ```
 
-* Ambos comodines están disponibles para el activador de edición. El estado predeterminado del activador de edición (si no se incluye ningún estado en el expresión) es el `$$AFTER_STATE`.
-* El activador de creación de objetos solo permite el `$$AFTER_STATE`, ya que el estado anterior no existe.
-* El activador de eliminación de objetos solo permite el `$$BEFORE_STATE`, ya que el estado después no existe.
+Los caracteres comodín `$$BEFORE_STATE` y `$$AFTER_STATE` se utilizan en expresiones para acceder a los valores de campo del objeto antes y después de cualquier edición.
+
+* Estos caracteres comodín están disponibles para el déclencheur de edición. El estado predeterminado para el déclencheur de edición (si no hay ningún estado incluido en la expresión) es `$$AFTER_STATE`.
+* El déclencheur de creación de objetos solo permite `$$AFTER_STATE`, ya que el estado antes no existe.
+* El déclencheur de eliminación de objetos solo permite `$$BEFORE_STATE`, ya que el estado después no existe.
 
 Algunos escenarios sencillos de reglas empresariales son:
 
-* Los usuarios no pueden añadir nuevos gastos durante la última semana de febrero. Esta fórmula puede expresarse de la siguiente manera: `IF(MONTH($$TODAY) = 2 && DAYOFMONTH($$TODAY) >= 22, "You cannot add new expenses during the last week of February.")`
-* Los usuarios no pueden editar el nombre de proyecto de un proyecto que se encuentre en estado Todas las aplicaciones. Esta fórmula puede expresarse de la siguiente manera: `IF({status} = "CPL" && {name} != $$BEFORE_STATE.{name}, "You cannot edit the project name.")`
+* Los usuarios no pueden añadir nuevos gastos durante la última semana de febrero. Esta fórmula puede expresarse de la siguiente manera:
+
+  ```
+  IF(MONTH($$TODAY) = 2 && DAYOFMONTH($$TODAY) >= 22, "You cannot add new expenses during the last week of February.")
+  ```
+
+* Los usuarios no pueden editar el nombre de proyecto de un proyecto en estado completo. Esta fórmula puede expresarse de la siguiente manera:
+
+  ```
+  IF({status} = "CPL" && {name} != $$BEFORE_STATE.{name}, "You cannot edit the project name.")
+  ```
 
 Un escenario con instrucciones IF anidadas es:
 
@@ -135,13 +147,13 @@ IF(
    * Como el objeto y la acción ya están definidos, no se incluyen en la fórmula.
    * El mensaje de error personalizado se muestra cuando se activa la regla empresarial. Debe proporcionar instrucciones claras sobre qué ha fallado y cómo corregir el problema.
 
-     Puede incluir un URL estático en el mensaje de error, para vincular a la documentación u otras páginas útiles para guía la usuario sobre cómo modificar su acción dentro de la restricción del regla.
+     Puede incluir una URL estática en el mensaje de error para vincular a la documentación u otras páginas útiles y guiar al usuario sobre cómo modificar su acción dentro de la restricción de la regla.
 
-     En este ejemplo, &quot;Más información&quot; vincular al URL. `"You are not allowed to add a new project in November.[Learn more](http://url)"` La URL debe estar entre paréntesis, pero no es necesario vincular texto entre corchetes. Puede mostrar el URL completo y será un vincular se puede hacer clic.
+     En este ejemplo, &quot;Más información&quot; se vincula a la dirección URL. `"You are not allowed to add a new project in November.[Learn more](http://url)"`: la dirección URL debe estar entre paréntesis, pero no se requiere el texto entre corchetes para los vínculos. Puede mostrar la dirección URL completa, que será un vínculo en el que puede hacer clic.
 
    ![Add business rule dialog](assets/add-business-rule-dialog-no-ai-button.png)
 
-   Este ejemplo es un regla empresarial para proyectos. Si el mes actual es noviembre, entonces los usuarios no pueden crear nuevos proyectos, y el mensaje lo explica.
+   Este ejemplo es una regla de negocio para proyectos. Si el mes actual es noviembre, no se permite a los usuarios crear nuevos proyectos y en el mensaje se explica esto.
 
    Para obtener más ejemplos de reglas empresariales, consulte [Escenarios para reglas empresariales](#scenarios-for-business-rules) en este artículo.
 
