@@ -6,10 +6,10 @@ description: Como administrador de proyectos, puede configurar un proyecto para 
 author: Lisa
 feature: Work Management
 exl-id: c496fe92-5c17-41a5-972b-1c063643bde3
-source-git-commit: e5a87b92bf1f6c2e0485ba8a2eb73e52c422b2fc
+source-git-commit: b983a780198743a2b87b4b48cf4d6afdf1cee437
 workflow-type: tm+mt
-source-wordcount: '529'
-ht-degree: 99%
+source-wordcount: '532'
+ht-degree: 98%
 
 ---
 
@@ -75,7 +75,7 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
 1. Haga clic en **Detalles del proyecto** en el panel izquierdo y, a continuación, vaya al área de **Finanzas**.
 1. Haga clic en **Añadir** en el campo **moneda** y seleccione la que desee usar como moneda predeterminada para el proyecto. Se muestran todas las monedas que el administrador de Workfront ha definido para la instancia de Workfront.
 
-   ![](assets/currency-on-project-expanded-nwe.png)
+   ![Moneda en el proyecto](assets/currency-on-project-expanded-nwe.png)
 
 1. (Condicional) Si selecciona una moneda distinta de la predeterminada establecida para el sistema de Workfront, especifique la tarifa de la moneda seleccionada, en relación con la establecida como base en el sistema.
 1. Haga clic en **Guardar cambios**.
