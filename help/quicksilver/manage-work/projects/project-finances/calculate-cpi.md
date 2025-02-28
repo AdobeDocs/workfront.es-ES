@@ -7,10 +7,10 @@ description: El índice de rendimiento de costes (CPI) describe la relación en 
 author: Lisa
 feature: Work Management
 exl-id: 7f2efe26-7292-482d-986c-2d2077a7ca52
-source-git-commit: 6afa65f921864403c10541d283ef717dce81aed7
+source-git-commit: b983a780198743a2b87b4b48cf4d6afdf1cee437
 workflow-type: tm+mt
-source-wordcount: '612'
-ht-degree: 100%
+source-wordcount: '615'
+ht-degree: 99%
 
 ---
 
@@ -200,4 +200,4 @@ Puede mostrar el CPI de un proyecto o una tarea en una lista de proyectos o tare
 
    El CPI se muestra en el campo **CPI/SPI/CSI**.
 
-   ![](assets/cpi-on-project-nwe.png)
+   ![IRC en el proyecto](assets/cpi-on-project-nwe.png)
