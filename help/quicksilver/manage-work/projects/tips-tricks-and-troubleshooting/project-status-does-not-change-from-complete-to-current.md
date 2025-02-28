@@ -7,10 +7,10 @@ description: (Aunque esto puede añadirse como una pregunta frecuente, lo he dej
 author: Alina
 feature: Work Management
 exl-id: 774c103f-8785-4d8b-83e9-a074e6518293
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '183'
-ht-degree: 0%
+source-wordcount: '185'
+ht-degree: 6%
 
 ---
 
@@ -33,9 +33,9 @@ Si el modo de finalización de un proyecto se establece en Manual, el estado del
 Para actualizar el modo de finalización de un proyecto a Manual:
 
 1. Vaya al proyecto que desee actualizar.
-1. Haga clic en el icono **Más** ![](assets/more-icon.png) a la derecha del nombre del proyecto y luego haga clic en **Editar**.
+1. Haga clic en el icono **Más** ![Más icono](assets/more-icon.png) a la derecha del nombre del proyecto y, a continuación, haga clic en **Editar**.
 1. Haga clic en **Proyecto** **Configuración**.
 
 1. Busque el menú desplegable **Modo de finalización** y seleccione **Manual**.
 
-1. Haga clic en **Guardar** .
+1. Haga clic en **Guardar**.
