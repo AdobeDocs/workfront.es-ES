@@ -7,10 +7,10 @@ description: El valor neto de un proyecto es el valor total esperado del proyect
 author: Lisa
 feature: Work Management
 exl-id: 44e3f211-c816-4ee1-aafc-c40fc8732f1a
-source-git-commit: 6afa65f921864403c10541d283ef717dce81aed7
+source-git-commit: b983a780198743a2b87b4b48cf4d6afdf1cee437
 workflow-type: tm+mt
-source-wordcount: '397'
-ht-degree: 96%
+source-wordcount: '402'
+ht-degree: 95%
 
 ---
 
@@ -48,7 +48,7 @@ Puede encontrar el valor neto de un proyecto en las siguientes áreas de Workfro
 * En el área Resumen del caso empresarial del caso empresarial \
   Para obtener más información acerca del área Resumen de caso empresarial, consulte la sección “Explicación del resumen de caso empresarial” en el artículo [Crear un caso empresarial para un proyecto](../../../manage-work/projects/define-a-business-case/create-business-case.md) [Crear un caso empresarial para un proyecto](../../../manage-work/projects/define-a-business-case/create-business-case.md).
 
-  ![](assets/net-value-on-business-case-summary-highlighted-350x444.png)
+  ![Valor neto en caso empresarial](assets/net-value-on-business-case-summary-highlighted-350x444.png)
 
 * En el Optimizador de portafolios si el proyecto está asociado a un portafolios
 
