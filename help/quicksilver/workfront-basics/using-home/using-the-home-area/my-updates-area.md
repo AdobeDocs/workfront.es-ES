@@ -6,10 +6,10 @@ description: Puede usar el área [!UICONTROL Mis actualizaciones] para revisar d
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 809605a0-8c24-4873-b98f-504a158be022
-source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
+source-git-commit: fddb927f2c9639b4c26d590bbea7dba684ed2b6c
 workflow-type: tm+mt
-source-wordcount: '787'
-ht-degree: 97%
+source-wordcount: '823'
+ht-degree: 88%
 
 ---
 
@@ -76,13 +76,13 @@ Debe tener lo siguiente antes de empezar:
 
 1. Haga clic en **[!UICONTROL Mis actualizaciones]** en el **[!UICONTROL Menú principal]**.
 
-   ![](assets/access-my-updates-from-main-menu-reviewer-user-nwe-350x294.png)
+   ![Mis actualizaciones en el menú principal](assets/access-my-updates-from-main-menu-reviewer-user-nwe-350x294.png)
 
    Se abre el área [!UICONTROL Mis actualizaciones].
 
    Las aprobaciones y solicitudes de acceso que se le hayan asignado se enumeran en la primera mitad de la página, en **Mis actualizaciones**.
 
-   ![](assets/my-updates-mentions-for-reviwers-nwe-350x418.png)
+   ![Menciones de Mis actualizaciones para revisores](assets/my-updates-mentions-for-reviwers-nwe-350x418.png)
 
 1. (Opcional) Desplácese hasta la parte inferior del área de [!UICONTROL **Mis actualizaciones**] y haga clic en la flecha hacia la derecha para mostrar más aprobaciones que se muestran en páginas adicionales.
 
@@ -90,9 +90,9 @@ Debe tener lo siguiente antes de empezar:
    >
    >Las primeras cinco aprobaciones o solicitudes de acceso se muestran de forma predeterminada. Las aprobaciones restantes se muestran en páginas adicionales. Puede mostrar un máximo de 2000 aprobaciones en el área [!UICONTROL Mis actualizaciones].
 
-   ![](assets/pagination-for-my-updates-page-highlighted-nwe-350x78.png)
+   ![Paginación para Mis actualizaciones](assets/pagination-for-my-updates-page-highlighted-nwe-350x78.png)
 
-1. (Opcional) Expanda el menú desplegable **[!UICONTROL Filtro]** ![](assets/filter-nwepng.png) en la esquina superior derecha de la sección **[!UICONTROL Mis actualizaciones]** y seleccione una de las siguientes opciones:
+1. (Opcional) Expanda el menú desplegable **[!UICONTROL Filtro]** ![Icono de filtro](assets/filter-nwepng.png) en la esquina superior derecha de la sección **[!UICONTROL Mis actualizaciones]** y seleccione una de las siguientes opciones:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -117,13 +117,13 @@ Debe tener lo siguiente antes de empezar:
 
 1. Para aprobar o rechazar un elemento o sugerir cambios en un documento antes de aprobarlo, haga lo siguiente:
 
-   1. (Opcional) Haga clic en el icono **desplegable** ![](assets/down-arrow-blue.png) junto a la decisión de aprobación (**[!UICONTROL Aprobar]**, **[!UICONTROL Cambios]**,**[!UICONTROL Rechazar]**) y añada un comentario. A continuación, haga clic en **[!UICONTROL Añadir]**.
+   1. (Opcional) Haga clic en el icono **desplegable** ![Icono desplegable](assets/down-arrow-blue.png) junto a la decisión de aprobación (**[!UICONTROL Aprobar]**, **[!UICONTROL Cambios]**,**[!UICONTROL Rechazar]**) y agregue un comentario. A continuación, haga clic en **[!UICONTROL Agregar]**.
 
       O
 
       Haga clic en **[!UICONTROL Omitir]** si no desea escribir ningún comentario.
 
-      ![](assets/approval-decision-buttons-in-my-updates-with-comment-box-nwe-350x183.png)
+      ![Botones de decisión de aprobación con cuadro de comentarios](assets/approval-decision-buttons-in-my-updates-with-comment-box-nwe-350x183.png)
 
       >[!NOTE]
       >
@@ -136,7 +136,7 @@ Debe tener lo siguiente antes de empezar:
       >Si no desea añadir un comentario a su decisión, puede hacer clic en el botón **[!UICONTROL Aprobar]**, **[!UICONTROL Rechazar]** o **[!UICONTROL Cambios]** para que la decisión de aprobación se conceda de inmediato.
       >
       >
-      >![](assets/approval-decision-buttons-in-my-updates-nwe-350x169.png)
+      >![Botones de decisión de aprobación](assets/approval-decision-buttons-in-my-updates-nwe-350x169.png)
       >
       >Para obtener más información sobre la aprobación de trabajo, consulte [Aprobación de trabajo](../../../review-and-approve-work/manage-approvals/approving-work.md).
 
@@ -146,7 +146,7 @@ Debe tener lo siguiente antes de empezar:
 
    Expanda el menú desplegable **[!UICONTROL Change access]** para modificar el acceso solicitado antes de concederlo.
 
-   ![](assets/grant-access-button-in-my-updates-nwe-350x224.png)
+   ![Cambiar botón de acceso](assets/grant-access-button-in-my-updates-nwe-350x224.png)
 
 1. (Opcional) Haga clic en **[!UICONTROL Ignore]** para borrar la solicitud de acceso de su lista de aprobación sin concederla.
 1. Haga clic en **[!UICONTROL Delegate my approvals]** para delegar las aprobaciones enviadas si no está disponible para tomar decisiones de aprobación durante algún tiempo. Para obtener más información sobre la delegación de aprobaciones, consulte [Delegar solicitud de aprobación](../../../review-and-approve-work/manage-approvals/delegate-approval-requests.md).
@@ -166,6 +166,6 @@ Debe tener lo siguiente antes de empezar:
 
      Cuando termine de agregar la respuesta, haga clic en **[!UICONTROL Enviar]**.
 
-     ![](assets/reply-in-the-my-updates-area.png)
+     ![Responder en el área Mis actualizaciones](assets/reply-in-the-my-updates-area.png)
 
 1. (Opcional) Haga clic en **[!UICONTROL Pin current page]** para anclar el área de [!UICONTROL My Updates] a su barra de navegación superior.
