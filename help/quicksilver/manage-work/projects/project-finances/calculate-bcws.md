@@ -7,10 +7,10 @@ description: También conocido como Valor planificado, el Coste presupuestado de
 author: Lisa
 feature: Work Management
 exl-id: b9a36333-9430-42bd-99dd-3ad82803b633
-source-git-commit: 6afa65f921864403c10541d283ef717dce81aed7
+source-git-commit: b983a780198743a2b87b4b48cf4d6afdf1cee437
 workflow-type: tm+mt
-source-wordcount: '615'
-ht-degree: 100%
+source-wordcount: '621'
+ht-degree: 99%
 
 ---
 
@@ -77,7 +77,7 @@ Puede configurar si el CPTP se calcula en horas o costes configurando cómo se c
 1. Vaya a un proyecto y haga clic en **Detalles del proyecto** en el panel izquierdo.
 1. En el área **Finanzas**, busque el campo **Método de índice de rendimiento** y haga doble clic en él para editarlo.
 
-   ![](assets/pim-options-hour-cost-based-nwe.png)
+   ![Opciones de PIM](assets/pim-options-hour-cost-based-nwe.png)
 
 1. Seleccione entre las siguientes opciones:
 
@@ -126,7 +126,7 @@ Puede ver el valor del coste presupuestado del trabajo programado en un informe 
 1. Haga clic en **Añadir columna**.
 1. En el campo **Mostrar en esta columna:**, empiece a escribir **BCWS** y haga clic para seleccionarlo cuando se muestre en la lista.
 
-   ![](assets/bcws-in-project-view.png)
+   ![CPTP en la vista de proyecto](assets/bcws-in-project-view.png)
 
 1. Haga clic en **Guardar vista**.
 1. El campo **CPTP** se muestra en la vista.
