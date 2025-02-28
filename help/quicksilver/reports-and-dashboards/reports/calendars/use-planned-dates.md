@@ -6,10 +6,10 @@ description: Un informe de calendario es un informe dinámico que proporciona un
 author: Lisa
 feature: Reports and Dashboards
 exl-id: 27bf6f03-2f6b-4556-a715-75c4a21bfbbb
-source-git-commit: 78cfafe4c9a0fb846533c04da392a09dc1dbc9f1
+source-git-commit: 40bbb198216b2806154f83730d8afedd5f355a3e
 workflow-type: tm+mt
-source-wordcount: '621'
-ht-degree: 92%
+source-wordcount: '1098'
+ht-degree: 91%
 
 ---
 
@@ -153,25 +153,25 @@ Después de configurar cómo desea que se muestren los elementos, debe añadir l
 
 1. Haga clic en **[!UICONTROL Guardar]**.
 
-<!--
 
-## Set up the group of items in Preview
+<div class="preview">
+## Configurar el grupo de elementos en Vista previa
 
-You can choose how you want the group of items to display on your calendar.
+Puede elegir cómo desea que se muestre el grupo de elementos en el calendario.
 
 {{step1-to-calendars}}
 
-1. Select the calendar you want to add a new group of items to.
-   Or
-   Click **[!UICONTROL + New Calendar]** and enter the calendar name.
+1. Seleccione el calendario al que desee agregar un nuevo grupo de elementos.
+O
+Haga clic en **[!UICONTROL + Nuevo calendario]** y escriba el nombre del calendario.
 
    >[!NOTE]
    >
-   >You must have Edit access to Reports, Dashboards, and Calendars in your access level to create a calendar report.
+   >Para crear un informe de calendario, debe tener acceso de edición a los informes, paneles y calendarios de su nivel de acceso.
 
-1. On the left, click **[!UICONTROL Add to Calendar]**, then click **[!UICONTROL Add advanced items]**.
+1. A la izquierda, haga clic en **[!UICONTROL Añadir al calendario]** y luego haga clic en **[!UICONTROL Añadir elementos avanzados]**.
 
-1. Specify the following:
+1. Especifique lo siguiente:
 
    <table style="table-layout:auto">
     <col>
@@ -179,71 +179,77 @@ You can choose how you want the group of items to display on your calendar.
     <tbody>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Name this group of items]</strong></td>
-      <td>Type a name for the group of items.</td>
+      <td>Escriba un nombre para el grupo de elementos.</td>
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Color]</strong></td>
-      <td>Select a color for the group of items. All items display in the selected color on the calendar report.</td>
+      <td>Seleccione un color para el grupo de elementos. Todos los elementos se muestran en el color seleccionado en el informe de calendario.</td>
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Date Field]</strong></td>
-      <td><p>Choose <strong>[!UICONTROL Planned dates]</strong>. For more information on planned dates, see </p>
+      <td><p>Elija <strong>[!UICONTROL Planned dates]</strong>. Para obtener más información sobre las fechas planificadas, consulte </p>
        <ul>
-        <li><a href="../../../manage-work/projects/planning-a-project/project-planned-start-date.md" class="MCXref xref">Overview of the project Planned Start Date</a></li>
-        <li><a href="../../../manage-work/tasks/task-information/task-planned-start-date.md" class="MCXref xref">Overview of the task Planned Start Date</a></li>
-        <li><a href="../../../manage-work/tasks/task-information/task-planned-completion-date.md" class="MCXref xref">Overview of the task Planned Completion Date</a></li>
-        <li><a href="../../../manage-work/projects/planning-a-project/project-planned-completion-date.md" class="MCXref xref">Set the project Planned Completion Date</a><br></li>
+        <li><a href="../../../manage-work/projects/planning-a-project/project-planned-start-date.md" class="MCXref xref">Información general sobre la fecha planificada de inicio del proyecto</a></li>
+        <li><a href="../../../manage-work/tasks/task-information/task-planned-start-date.md" class="MCXref xref">Información general sobre la fecha planificada de inicio de la tarea</a></li>
+        <li><a href="../../../manage-work/tasks/task-information/task-planned-completion-date.md" class="MCXref xref">Información general sobre la fecha planificada de finalización de la tarea</a></li>
+        <li><a href="../../../manage-work/projects/planning-a-project/project-planned-completion-date.md" class="MCXref xref">Establecer la fecha planificada de finalización del proyecto</a><br></li>
        </ul></td>
      </tr>
      <tr>
-      <td role="rowheader"><strong>On the calendar, show</strong></td>
-      <td><p>Choose how you want the dates to show:</p>
+      <td role="rowheader"><strong>En el calendario, se debe mostrar</strong></td>
+      <td><p>Elija cómo desea que se muestren las fechas:</p>
        <ul>
-        <li><strong>[!UICONTROL Start Date Only]</strong>: The calendar displays the object on a single date.</li>
-        <li><strong>[!UICONTROL End Date Only]</strong>: The calendar displays the object on a single date.</li>
-        <li><strong>[!UICONTROL Duration] (Start to End)</strong>: The calendar displays the object over a span of days.</li>
+        <li><strong>[!UICONTROL Start Date Only]</strong>: el calendario muestra el objeto en una sola fecha.</li>
+        <li><strong>[!UICONTROL End Date Only]</strong>: el calendario muestra el objeto en una sola fecha.</li>
+        <li><strong>[!UICONTROL Duration] (de inicio a fin)</strong>: el calendario muestra el objeto durante un periodo de días.</li>
        </ul></td>
      </tr>
      <tr data-mc-conditions="">
       <td role="rowheader"><strong>[!UICONTROL Switch to actual dates when available]</strong></td>
-      <td><p>The calendar automatically switches to actual dates when they are available. <br>Choose <strong>[!UICONTROL Yes]</strong> or <strong>[!UICONTROL No]</strong> to switch to actual dates when available. For more information on Actual Dates, see</p>
+      <td><p>El calendario cambia automáticamente a las fechas reales cuando están disponibles. <br>Elija <strong>[!UICONTROL Yes]</strong> o <strong>[!UICONTROL No]</strong> para cambiar a las fechas reales cuando estén disponibles. Para obtener más información sobre las fechas reales, consulte</p>
        <ul>
-        <li><a href="../../../manage-work/projects/planning-a-project/project-actual-start-date.md" class="MCXref xref">Overview of the project Actual Start Date </a></li>
-        <li><a href="../../../manage-work/projects/planning-a-project/project-actual-completion-date.md" class="MCXref xref">Overview of the project Actual Completion Date </a></li>
+        <li><a href="../../../manage-work/projects/planning-a-project/project-actual-start-date.md" class="MCXref xref">Información general sobre la fecha real de inicio del proyecto </a></li>
+        <li><a href="../../../manage-work/projects/planning-a-project/project-actual-completion-date.md" class="MCXref xref">Información general sobre la fecha de finalización real del proyecto </a></li>
        </ul></td>
      </tr>
     </tbody>
    </table>
 
-1. Continue to the following section.
+1. Continúe en la sección siguiente.
 
-## Add objects to the group of items in Preview
+## Agregar objetos al grupo de elementos en Vista previa
 
-After you set up how you want items to display, you need to add the objects you want to see on the calendar to the grouping.
+Después de configurar cómo desea que se muestren los elementos, debe añadir los objetos que desea ver en el calendario a la agrupación.
 
-1. In the **[!UICONTROL What would you like to add to the calendar?]** section, select
+1. En la sección **[!UICONTROL ¿Qué desea añadir al calendario?]**, seleccione
 
-   * **[!UICONTROL Tasks]**
-   * **[!UICONTROL Projects]**
-   * **[!UICONTROL Issues]**
+   * **[!UICONTROL Tareas]**
+   * **[!UICONTROL Proyectos]**
+   * **[!UICONTROL Problemas]**
 
-1. Click **[!UICONTROL Add Tasks]**, **[!UICONTROL Add Projects]**, or **[!UICONTROL Add Issues]**, depending on the object type you are adding to the calendar.
-   ![Select object for calendar](assets/field-name.png)
 
-1. In the drop-down menu, begin typing the field name, then select the field source of the object you want to display on the calendar (for example, **[!UICONTROL Late Tasks]**).
-1. Set a condition statement for the calendar grouping.
+1. Haga clic en **[!UICONTROL Añadir tareas]**, **[!UICONTROL Añadir proyectos]** o **[!UICONTROL Añadir problemas]**, según el tipo de objeto que esté añadiendo al calendario.
 
-   ![Condition statement](assets/condition-statement-calendar.png)
+1. En el menú desplegable, empiece a escribir el nombre del campo y, a continuación, seleccione el origen del campo del objeto que desea mostrar en el calendario (por ejemplo, **[!UICONTROL Tareas tardías]**).
+1. Establezca una instrucción de condición para la agrupación de calendario.
 
-   To learn about setting conditions, see [Filter and condition modifiers](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
 
-1. (Optional) Specify additional objects for the calendar grouping by repeating Steps 1-4.
-1. In the **[!UICONTROL Set the Tasks/Projects/Issues labels to be the...]** field, select how the objects in this calendar grouping are labeled in the calendar.
+   ![Seleccionar objeto para el calendario](assets/calendar-field-name.png)
+
+   Para obtener más información sobre la configuración de condiciones, consulte [Modificadores de filtro y condición](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
+
+1. (Opcional) Especifique objetos adicionales para la agrupación de calendario repitiendo los pasos del 1 al 4.
+
+1. En el campo **[!UICONTROL Establecer las etiquetas Tareas/Proyectos/Problemas para que sean...]**, seleccione cómo se etiquetan los objetos de esta agrupación de calendario en el calendario.
 
    >[!NOTE]
    >
-   >If the default label options are not available for a certain object, the object name is shown instead. For example, when the [!UICONTROL Parent Task] label is selected and there is no parent task associated with the object, [!DNL Adobe Workfront] displays the object name you are viewing in the calendar.
+   >Si las opciones de etiqueta predeterminadas no están disponibles para un objeto determinado, se muestra el nombre del objeto en su lugar. Por ejemplo, cuando se selecciona la etiqueta [!UICONTROL Tarea principal] y no hay ninguna tarea principal asociada al objeto, [!DNL Adobe Workfront] muestra el nombre de objeto que está viendo en el calendario.
 
-1. Click **[!UICONTROL Save]**. 
+   ![establecer etiquetas de tarea](assets/set-task-labels.png)
+1. Haga clic en **[!UICONTROL Guardar]**.
 
--->
+1. Haga clic en **[!UICONTROL Guardar]**.
+
+</div>
+
