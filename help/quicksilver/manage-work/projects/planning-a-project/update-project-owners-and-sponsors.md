@@ -6,10 +6,10 @@ description: Al crear un proyecto en Adobe Workfront, se establece automáticame
 author: Alina
 feature: Work Management
 exl-id: 10421cab-237a-49a5-bb5b-5be510dc4c46
-source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '421'
-ht-degree: 0%
+source-wordcount: '425'
+ht-degree: 91%
 
 ---
 
@@ -20,15 +20,15 @@ ht-degree: 0%
 
 Al crear un proyecto en Adobe Workfront, se establece automáticamente como Propietario del proyecto. Puede actualizar este campo con otro usuario. También puede actualizar el campo Patrocinador de proyecto de un proyecto.
 
-Para obtener información acerca de los propietarios y patrocinadores de proyectos, vea [Información general sobre los propietarios y patrocinadores de proyectos](../../../manage-work/projects/planning-a-project/project-owners-and-sponsors.md).
+Para obtener información acerca de los propietarios y patrocinadores de proyectos, consulte [Información general sobre los propietarios y patrocinadores de proyectos](../../../manage-work/projects/planning-a-project/project-owners-and-sponsors.md).
 
 >[!TIP]
 >
->Puede identificar a un propietario y a un patrocinador para una plantilla. Cuando crea un proyecto a partir de esa plantilla, el Propietario de la plantilla se convierte en el Propietario del proyecto y el Patrocinador de la plantilla se convierte en el Patrocinador del proyecto.
+>Puede identificar a un propietario y a un patrocinador para una plantilla. Cuando crea un proyecto a partir de esa plantilla, el propietario de la plantilla se convierte en el propietario del proyecto y el patrocinador de la plantilla se convierte en el patrocinador del proyecto.
 >
 >Si la plantilla no tiene un Propietario, el usuario que crea el proyecto a partir de la plantilla se convierte en el Propietario del proyecto.
 >
->Para obtener información sobre cómo editar plantillas, consulte [Editar plantillas de proyecto](../../../manage-work/projects/create-and-manage-templates/edit-templates.md).
+>Para obtener información sobre cómo editar plantillas, consulte [Editar plantillas del proyecto](../../../manage-work/projects/create-and-manage-templates/edit-templates.md).
 
 ## Requisitos de acceso
 
@@ -70,7 +70,7 @@ Para obtener información acerca de los propietarios y patrocinadores de proyect
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plan de Adobe Workfront</td> 
+   <td role="rowheader">Plan de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> <p>  </p> </td> 
   </tr> 
   <tr> 
@@ -80,7 +80,7 @@ Para obtener información acerca de los propietarios y patrocinadores de proyect
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso*</td> 
-   <td> <p>Editar acceso a Proyectos</p> </td> 
+   <td> <p>Acceso de edición a proyectos</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
@@ -89,19 +89,19 @@ Para obtener información acerca de los propietarios y patrocinadores de proyect
  </tbody> 
 </table>
 
-*Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Para obtener información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Actualizar el propietario del proyecto de un proyecto
 
-Cuando se agrega un usuario como Propietario del proyecto de un proyecto, Workfront le otorga automáticamente permisos para ver el proyecto.
+Cuando se añade un usuario como Propietario del proyecto de un proyecto, Workfront le otorga automáticamente permisos para ver el proyecto.
 
 1. Vaya al proyecto que desee actualizar.
-1. Haga clic en **Detalles del proyecto** en el panel izquierdo.
-1. Haga clic en el icono **Editar** ![](assets/qs-edit-icon.png) en la esquina superior derecha del área de Detalles del proyecto y, a continuación, haga clic en **Información general**.
+1. Haga clic en **Detalles del proyecto** en el panel de navegación izquierdo.
+1. Haga clic en el icono **Editar** ![Editar icono](assets/qs-edit-icon.png) en la esquina superior derecha del área de Detalles del proyecto y, a continuación, haga clic en **Información general**.
 
-1. Especifique el nombre de un usuario para el campo **Propietario del proyecto**.
+1. Especifique el nombre de un usuario para el campo **Propietario del Proyecto**.
 
    Solo los usuarios activos pueden especificarse como Propietarios del proyecto.
 
@@ -111,17 +111,17 @@ Cuando se agrega un usuario como Propietario del proyecto de un proyecto, Workfr
 
    ![](assets/project-stakeholders-owner-highlighted-nwe-350x149.png)
 
-## Actualizar el patrocinador de un proyecto
+## Actualizar el Patrocinador del Proyecto de un proyecto.
 
-Cuando agrega un usuario como patrocinador del proyecto de un proyecto, Workfront le otorga automáticamente permisos para ver el proyecto.
+Cuando añada un usuario como patrocinador del proyecto de un proyecto, Workfront le otorga automáticamente permisos para ver el proyecto.
 
 >[!TIP]
 >
->Si el usuario que agrega como patrocinador del proyecto es administrador del sistema, no se agregará a la lista de uso compartido del proyecto.
+>Si el usuario que añadir como patrocinador del proyecto es administrador del sistema, no se añadirá a la lista de uso compartido del proyecto.
 
 1. Vaya al proyecto que desee actualizar.
-1. Haga clic en **Detalles del proyecto** en el panel izquierdo.
-1. Haga clic en el icono **Editar** ![](assets/qs-edit-icon.png) en la esquina superior derecha del área de Detalles del proyecto y, a continuación, haga clic en **Información general**.
+1. Haga clic en **Detalles del proyecto** en el panel de navegación izquierdo.
+1. Haga clic en el icono **Editar** ![Editar icono](assets/qs-edit-icon.png) en la esquina superior derecha del área de Detalles del proyecto y, a continuación, haga clic en **Información general**.
 
 1. Especifique el nombre de un usuario para el campo **Patrocinador de proyecto**.
 
