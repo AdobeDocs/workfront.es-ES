@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 116b9823818ac6103641c2e6ce283dfb47282851
+source-git-commit: 2d38448bf7da12b8f896d444d560f746e0e9798f
 workflow-type: tm+mt
-source-wordcount: '1473'
+source-wordcount: '1526'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,14 @@ Para ver todos los demás cambios en Adobe Workfront, consulte [Versiones del pr
 
 ## Administración y configuración
 
+### Actualización de la interfaz del Centro de anuncios
+
+**Versión preliminar: 27 de febrero de 2025; por anunciar**
+
+Hemos actualizado el Centro de anuncios con un diseño más moderno y coherente con otras áreas de Workfront.
+
+Para ver este cambio, vaya al icono Notificaciones en la esquina superior derecha y, a continuación, seleccione Todos los anuncios.
+
 ### Actualización de la interfaz para personalizar temas de notificación de eventos
 
 **Versión preliminar: 13 de febrero de 2025; a partir del 13 de febrero de 2025**
@@ -34,7 +42,7 @@ Para ver este cambio, vaya a Configuración > Correo electrónico > Notificacion
 
 ### Actualización de la interfaz del área de Equipos
 
-**Versión preliminar: 13 de febrero de 2025; versión de producción: por anunciar**
+**Versión preliminar: 13 de febrero de 2025; versión de producción: a partir de la semana del 20 de febrero de 2025**
 
 Hemos actualizado el área de Equipos con un diseño más moderno que es coherente con otras áreas de Workfront.
 
@@ -136,7 +144,7 @@ Esta actualización incluye cambios visuales en el área. No se ha cambiado ning
 
 ### Página de información general sobre la actualización de interfaz para iteraciones
 
-**Versión preliminar: 13 de febrero de 2025; versión de producción: por anunciar**
+**Versión preliminar: 13 de febrero de 2025; versión de producción: a partir de la semana del 20 de febrero de 2025**
 
 Hemos actualizado la página de información general de iteraciones con un diseño más moderno y coherente con otras áreas de Workfront.
 
