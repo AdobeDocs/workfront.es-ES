@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 8b99f939-12fe-4470-9dc8-f8a92c6db334
-source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
+source-git-commit: 3f2cc191c316d107f16a12160cb126203b05387c
 workflow-type: tm+mt
-source-wordcount: '2238'
-ht-degree: 87%
+source-wordcount: '2251'
+ht-degree: 86%
 
 ---
 
@@ -96,7 +96,8 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
     </tr> 
     <tr> 
     <td role="rowheader">[!UICONTROL Revenue Type]</td> 
-    <td> <p>Calcula las estimaciones de ingresos planificados y reales de una tarea. Cuando <strong>[!UICONTROL Revenue Type]</strong> se establece en <strong>[!UICONTROL Not Billable]</strong>, las horas planificadas y las horas registradas no generan una estimación de ingresos para la tarea y el trabajo en la tarea no contribuye a los ingresos de nivel de proyecto.</p> </td> 
+    <td> <p>Calcula las estimaciones de ingresos planificados y reales de una tarea. Cuando <strong>[!UICONTROL Revenue Type]</strong> se establece en <strong>[!UICONTROL Not Billable]</strong>, las horas planificadas y las horas registradas no generan una estimación de ingresos para la tarea y el trabajo en la tarea no contribuye a los ingresos de nivel de proyecto.</p>
+         <p>Para obtener información sobre los distintos tipos de ingresos, consulte <a href="/help/quicksilver/manage-work/projects/project-finances/billing-and-revenue-overview.md">Información general sobre facturación e ingresos</a>.</p></td> 
     </tr> 
     <tr> 
     <td role="rowheader">[!UICONTROL Cost Type]</td> 
