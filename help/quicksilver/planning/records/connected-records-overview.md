@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: be51023c-8e11-42e7-aa4f-34484c30eb03
-source-git-commit: 22a1525658f4ba60d638d5080f8c178fcf500441
+source-git-commit: 9cab5818ce9fed8a4ac9d8ff305163e95cc45758
 workflow-type: tm+mt
-source-wordcount: '558'
-ht-degree: 0%
+source-wordcount: '570'
+ht-degree: 35%
 
 ---
 
@@ -30,9 +30,9 @@ Para obtener información sobre cómo conectar registros entre sí o con otro ob
 
 ## Consideraciones sobre la conexión de registros
 
-* Después de conectar los tipos de registros, los tipos de registros conectados se muestran como campos de registro vinculados en la tabla de los tipos de registros desde los que están vinculados y en las páginas de los registros.
-* Puede examinar y agregar registros y objetos de los tipos de registro y objeto vinculados desde los campos de registro vinculados.
-* Puede agregar campos (campos de búsqueda) de los tipos de registro vinculados en la tabla del tipo de registro desde el que está vinculando.
+* Después de conectar los tipos de registros, los tipos de registros conectados se muestran como campos de registro vinculados en la tabla de los tipos de registro desde los que están vinculados y en las páginas de los registros.
+* Puede examinar y añadir registros y objetos de los tipos de registro y objeto vinculados desde los campos de registro vinculados.
+* Puede añadir campos (campos de búsqueda) de los tipos de registro vinculados en la tabla del tipo de registro desde el que está vinculando.
 
   Además, puede agregar campos (campos de búsqueda) de los tipos de registro desde los que está vinculando en la tabla del tipo de registro al que está vinculando.
 
@@ -41,8 +41,8 @@ Para obtener información sobre cómo conectar registros entre sí o con otro ob
 
   Los valores de los campos de búsqueda rellenan el registro de Workfront Planning desde el que está vinculando automáticamente después de que se hayan actualizado en el registro u objeto original.
 
-* Todas las personas con acceso a Workfront Planning y View o permisos superiores en el espacio de trabajo pueden ver las conexiones que se realizan entre registros o entre registros y objetos de otras aplicaciones. Pueden ver los registros y objetos conectados independientemente de sus permisos en las aplicaciones a las que se conecta.
-* Puede ver y editar las conexiones de todos los demás, si tiene permisos de Administración en el espacio de trabajo donde se encuentran los registros conectados.
+* Todos los usuarios con acceso a Workfront Planning y permisos de visualización o superiores en el espacio de trabajo pueden ver las conexiones que se realizan entre registros o entre registros y objetos de otras aplicaciones. Pueden ver los registros y objetos conectados independientemente de sus permisos en las aplicaciones a las que se conecta.
+* Puede ver y editar las conexiones de todos los demás usuarios, si tiene permisos de administración en el espacio de trabajo donde se encuentran los registros conectados.
 * Se puede conectar un registro a uno o varios objetos desde otra aplicación, según el tipo de conexión seleccionado al conectar los tipos de registro. Para obtener más información, consulte la sección &quot;Tipos de conexiones&quot; en el artículo [Información general sobre los tipos de registros conectados](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
 
 ## Áreas donde se pueden conectar registros
@@ -54,10 +54,11 @@ Puede conectar registros a otros registros o a objetos de otra aplicación en la
    * Los campos de registro conectados en la vista de tabla de un tipo de registro en Planning.
    * Vista previa o página del registro en los campos de registro conectados de la pestaña Detalles.
    * La página o vista previa del registro en la ficha Conexiones.
+   * <span class="preview">Página del registro en una ficha Vista de conexión de un registro conectado.</span>
 
-* Puede conectar objetos de Workfront a registros de Workfront Planning en las siguientes áreas:
+* Puede conectar objetos de Workfront a registros de Workfront Planning en las siguientes áreas de Workfront:
 
-   * Desde la sección Planificación de un objeto de Workfront.
-   * <span class="preview">Desde un campo de conexión de Planning en el formulario personalizado de un objeto Workfront. </span>
+   * La sección Planificación de un objeto de Workfront.
+   * <span class="preview">Campo de conexión de Planning en el formulario personalizado de un objeto Workfront. </span>
 
   Para obtener más información, consulte [Administrar conexiones de registro desde objetos de Workfront](/help/quicksilver/planning/records/manage-records-in-planning-section.md)

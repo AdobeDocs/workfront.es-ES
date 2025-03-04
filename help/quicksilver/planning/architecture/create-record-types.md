@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ed1c4954-b338-4865-a7a9-5ba0192e7b37
-source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
+source-git-commit: 9cab5818ce9fed8a4ac9d8ff305163e95cc45758
 workflow-type: tm+mt
-source-wordcount: '1394'
-ht-degree: 20%
+source-wordcount: '996'
+ht-degree: 26%
 
 ---
 
@@ -66,7 +66,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  <tr> 
    <td role="rowheader"><p>plataforma de Adobe Workfront</p></td> 
    <td> 
-<p>La instancia de Workfront de su organización debe incorporarse a la experiencia Adobe unificado para poder acceder a todas las funcionalidades de Workfront Planning.</p> 
+<p>La instancia de Workfront de su organización debe incorporarse a Adobe Unified Experience para poder acceder a todas las funcionalidades de Workfront Planning.</p> 
 <p>Para obtener más información, consulte <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience para Workfront</a>. </p> 
    </td> 
    </tr> 
@@ -98,7 +98,6 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 +++
 
-
 ## Consideraciones sobre la creación de tipos de registros
 
 * Puede crear tipos de registros en un espacio de trabajo de las siguientes maneras:
@@ -108,11 +107,11 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
         Para obtener más información, consulte [Crear espacios de trabajo](/help/quicksilver/planning/architecture/create-workspaces.md).
 
-      * Cuando se importan mediante un archivo CSV o de Excel.
+      * Al importarlos mediante un archivo CSV o de Excel.
 
      >[!TIP]
      >
-     >Al importar un tipo de registro desde un archivo de Excel o CSV, también puede importar registros y campos.
+     >Al importar un tipo de registro desde un archivo CSV o de Excel, también puede importar registros y campos.
 
    * Manualmente:
 
@@ -152,7 +151,7 @@ Para obtener información sobre los tipos de registros que se incluyen en cada p
    Se abre el cuadro Agregar tipo de registro.
    <!--1. (Conditional) When creating record types by importing an Excel or CSV file is enabled, click **From scratch**. Otherwise, the **Add record type** box opens. -->
 
-   ![](assets/add-record-type-box-with-appearance-options.png)
+   ![Agregar cuadro de tipo de registro con opciones de apariencia](assets/add-record-type-box-with-appearance-options.png)
 
 1. Actualice la siguiente información:
 
@@ -167,12 +166,12 @@ Para obtener información sobre los tipos de registros que se incluyen en cada p
    La tarjeta de tipo de registro se añade a la sección y al espacio de trabajo seleccionado.
 La descripción del tipo de registro se muestra en la tarjeta.
 
-   ![](assets/record-type-card-with-description.png)
+   ![Tarjeta de tipo de registro con descripción](assets/record-type-card-with-description.png)
 
-1. (Opcional) Pase el ratón sobre la tarjeta de tipo de registro, haga clic en el icono **Más** ![](assets/more-menu.png) en la esquina superior derecha y, a continuación, haga clic en **Editar** para modificar la información sobre el tipo de registro.
+1. (Opcional) Pase el ratón sobre la tarjeta de tipo de registro, haga clic en el icono **Más** ![Menú Más](assets/more-menu.png) en la esquina superior derecha y, a continuación, haga clic en **Editar** para modificar la información sobre el tipo de registro.
 1. (Opcional) Haga clic en la tarjeta de tipo de registro para abrir la página de tipo de registro.
 
-   ![](assets/operational-record-type-blank.png)
+   ![Tipo de registro operativo en blanco](assets/operational-record-type-blank.png)
 
    La página de tipo de registro se muestra en la vista de tabla de forma predeterminada. Las columnas de la tabla son campos asociados al nuevo tipo de registro. Cada fila es un registro único que debe agregar.
 
@@ -188,7 +187,7 @@ La descripción del tipo de registro se muestra en la tarjeta.
 
    O
 
-   Haga clic en el icono **Más** ![](assets/more-menu.png) a la derecha del nombre del tipo de registro y haga clic en **Editar** para cambiarle el nombre o cambiar la información sobre él. Para obtener más información, vea [Editar tipos de registros](/help/quicksilver/planning/architecture/edit-record-types.md).
+   Haga clic en el icono **Más** ![Menú más](assets/more-menu.png) a la derecha del nombre del tipo de registro y haga clic en **Editar** para cambiarle el nombre o cambiar la información sobre él. Para obtener más información, vea [Editar tipos de registros](/help/quicksilver/planning/architecture/edit-record-types.md).
 
 1. (Opcional) Haga clic en **+ Nuevo registro** para agregar registros del tipo de registro seleccionado. Para obtener más información, consulte [Creación de registros](/help/quicksilver/planning/records/create-records.md).
 1. (Opcional) Haga clic en el icono **+** en la esquina superior derecha de la tabla para agregar más campos al tipo de registro.
@@ -208,71 +207,14 @@ La descripción del tipo de registro se muestra en la tarjeta.
    * [Editar tipos de registro](/help/quicksilver/planning/architecture/edit-record-types.md)
    * [Administrar vistas de registros](/help/quicksilver/planning/views/manage-record-views.md)
 
-## Creación de tipos de registros importando un archivo CSV o de Excel
+## Crear tipos de registros importando información desde un archivo CSV o de Excel
 
-Tenga en cuenta lo siguiente al importar tipos de registros mediante un archivo CSV o de Excel:
+Al importar información desde un archivo CSV o de Excel, puede importar lo siguiente:
 
-* Cada hoja del archivo de Excel se convierte en un tipo de registro. El nombre de la hoja se convierte en el nombre del tipo de registro.
-* Si sólo hay una hoja o si importa un archivo CSV, el nombre del archivo se convierte en el nombre del tipo de registro.
-* Los encabezados de columna de cada hoja se convierten en los campos asociados a cada tipo de registro.
-* Los campos son únicos para sus respectivos tipos de registros.
-* Cada fila de cada hoja se convierte en un registro único asociado a su tipo de registro respectivo.
-* Cada hoja del archivo de Excel no debe superar lo siguiente:
-   * 10 000 filas
-   * 500 columnas
-* El archivo de Excel no debe tener más de 5 MB.
-* No se admiten hojas vacías.
+* Tipos de registro
+* Registros
+* Campos de registro
 
-Para importar tipos de registros mediante un archivo CSV o de Excel:
+Para obtener más información, vea [Crear tipos de registros importando información desde un archivo CSV o de Excel](/help/quicksilver/planning/architecture/import-file-to-create-record-types.md).
 
-{{step1-to-planning}}
 
-1. Haga clic en el espacio de trabajo donde desee crear los tipos de registro,
-
-   O
-
-   Desde un espacio de trabajo, expanda la flecha hacia abajo situada a la derecha del nombre de un espacio de trabajo existente, busque un espacio de trabajo y, a continuación, selecciónelo cuando se muestre en la lista.
-1. Haga clic en **Agregar tipo de registro**.
-1. Haga clic en **Desde el archivo**.
-1. Arrastre y suelte un archivo de Excel o CSV guardado anteriormente en el equipo, o haga clic en **Seleccione un archivo CSV o de Excel** para buscar uno.
-1. Haz clic en **Vista previa y edita**.
-
-   Se muestra el cuadro **Previsualizar y editar** con la siguiente información:
-
-   * Los nombres de las hojas o de los futuros tipos de registros se muestran en el panel izquierdo. De forma predeterminada, Workfront Planning selecciona un icono y un color para cada nuevo tipo de registro.
-   * Se selecciona el primer tipo de hoja o registro y los nombres de los campos asociados a él se muestran como encabezados de columna. El tipo de cada campo está seleccionado de forma predeterminada.
-   * Cada fila representa un nuevo registro. Solo se muestran los 10 primeros registros en el cuadro Vista previa y edición.
-
-   ![](assets/preview-and-edit-box.png)
-
-1. (Opcional) Haga clic en el nombre de cada hoja en el panel izquierdo para revisar la información que contiene.
-
-   >[!NOTE]
-   >
-   >Las hojas vacías no son compatibles y aparecen atenuadas.
-
-1. (Opcional) Anule la selección de las hojas que no quiera importar del panel izquierdo.
-
-   ![](assets/select-sheets-to-import-drop-down-with-unselected.png)
-
-   Las hojas que no haya seleccionado se muestran con un fondo gris.
-
-1. (Opcional) Haga clic en la flecha hacia abajo situada a la derecha del encabezado de la columna para realizar una de las siguientes acciones:
-
-   * Cambie el nombre de uno de los campos
-   * Cambiar **tipo de campo**
-   * Actualizar el campo **Descripción**
-
-1. (Condicional) Después de actualizar la información del campo, haga clic en **Guardar**.
-
-1. Haga clic en **Importar** cuando esté listo para importar el archivo.
-
-   La siguiente información se importa en Workfront Planning:
-
-   * Nuevos tipos de registros
-   * Nuevos campos asociados a cada tipo de registro
-   * Nuevos registros asociados a cada tipo de registro
-
-   Puede empezar a administrar campos y registros en las páginas de tipos de registros.
-
-   Todas las personas con acceso a Workfront Planning ahora pueden ver y editar los tipos de registro importados y su información.
