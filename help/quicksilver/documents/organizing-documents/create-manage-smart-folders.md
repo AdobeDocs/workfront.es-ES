@@ -6,9 +6,9 @@ description: Las carpetas inteligentes se utilizan para administrar documentos f
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 62dfc6b9-72a4-4dd5-acd7-42269cd99b1b
-source-git-commit: fddb927f2c9639b4c26d590bbea7dba684ed2b6c
+source-git-commit: 3695c5bb566434d70907bfecf775ccd12b9208f4
 workflow-type: tm+mt
-source-wordcount: '572'
+source-wordcount: '561'
 ht-degree: 25%
 
 ---
@@ -70,9 +70,6 @@ Puede mostrar carpetas en vista de miniaturas, estándar o de lista. Para cambia
 1. Vaya al área de **Documentos** que contiene la carpeta inteligente que desea editar.
 1. En la columna **Carpetas**, haga clic en el icono **Más** ![Menú Más](assets/more-icon.png) que está junto a la carpeta inteligente que desea editar.
 1. Haga clic en **Editar**.
-
-   Se muestra el cuadro de diálogo **Editar carpeta inteligente**.\
-   ![Editar carpeta inteligente](assets/screen-shot-2013-08-14-at-8.42.04-am-350x167.png)
 
 1. Realice los cambios y haga clic en **Guardar carpeta**.
 
