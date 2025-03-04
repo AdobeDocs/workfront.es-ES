@@ -5,10 +5,10 @@ description: Como parte de la planificación de recursos, puede utilizar el Plan
 author: Alina
 feature: Work Management
 exl-id: 51ebb940-111c-442f-a8a6-287a04d2db68
-source-git-commit: 928ea5da9955b8c1c98782df81698c49987d4c18
+source-git-commit: f1d235a21dcf939570d4d93f08f31865eab42803
 workflow-type: tm+mt
-source-wordcount: '1237'
-ht-degree: 16%
+source-wordcount: '1247'
+ht-degree: 15%
 
 ---
 
@@ -108,11 +108,11 @@ Para aplicar conjuntos de recursos y presupuestar recursos de proyecto en el cas
 
    * Seleccione Planificador de recursos en el campo **Elija qué horas usar para calcular el costo de mano de obra presupuestado del proyecto** y luego haga clic en **Elegir > Editar presupuesto de recursos**.
 
-     ![](assets/business-case-rp-selected-with-choose-button-350x120.png)
+     ![Caso comercial en el Planificador de recursos](assets/business-case-rp-selected-with-choose-button-350x120.png)
 
    * Si se seleccionó el Planificador de escenarios para presupuestar recursos para el proyecto, haga clic en **Cambiar** > **Editar presupuesto de recursos**.
 
-     ![](assets/business-case-sp-selected-change-option-to-switch-to-rp-highlighted-350x88.png)
+     ![Caso comercial en Scenario Planner](assets/business-case-sp-selected-change-option-to-switch-to-rp-highlighted-350x88.png)
 
    Utiliza las horas presupuestadas del proyecto para calcular el costo de mano de obra presupuestado del proyecto.
 

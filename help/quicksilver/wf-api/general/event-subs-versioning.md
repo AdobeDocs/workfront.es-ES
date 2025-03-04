@@ -7,10 +7,10 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 151b9d0d-0dd6-4ece-9601-dda04356b436
-source-git-commit: 3e082ddde7cb84fb8bf3b5a23c363fd3b4cfe3d2
+source-git-commit: f1d235a21dcf939570d4d93f08f31865eab42803
 workflow-type: tm+mt
-source-wordcount: '1124'
-ht-degree: 2%
+source-wordcount: '1192'
+ht-degree: 1%
 
 ---
 
@@ -22,6 +22,9 @@ La nueva versión no es un cambio en la API de Workfront, sino un cambio en la f
 
 La capacidad de actualizar o reducir las suscripciones a eventos garantiza que, cuando se realicen cambios en la estructura de los eventos, las suscripciones existentes no se rompan, lo que le permite probar y actualizar a la nueva versión sin interrupciones en la suscripción de evento.
 
+
+Al actualizar o reducir la suscripción de evento a otra versión, se reciben eventos duplicados para cada entrega de evento durante un periodo de cinco minutos después del cambio de versión. Los duplicados incluyen una de cada versión de suscripción de evento 1 y una versión 2. Esto garantiza que no se pierda ningún evento debido al cambio de la versión de suscripción del evento.
+
 Para obtener información sobre los extremos utilizados para actualizar o degradar suscripciones de evento, consulte [Control de versiones de suscripciones de evento](/help/quicksilver/wf-api/general/event-subs-api.md#event-subscription-versioning) en el artículo API de suscripción de evento.
 
 >[!IMPORTANT]
@@ -30,6 +33,7 @@ Para obtener información sobre los extremos utilizados para actualizar o degrad
 >
 >* **Versión 25.2** (10 de abril de 2025): todas las suscripciones nuevas creadas después de la versión 25.2 se crean como Versión 2.
 >* **Versión 25.3** (17 de julio de 2025): las suscripciones ya no se pueden actualizar a la Versión 1 después de la versión 25.3.
+>* **1 de septiembre de 2025**: todas las suscripciones de la versión 1 restantes se migrarán a la versión 2.
 
 ## Cambios entre las versiones 1 y 2
 
