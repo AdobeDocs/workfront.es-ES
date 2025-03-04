@@ -7,7 +7,7 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
-source-git-commit: f1d235a21dcf939570d4d93f08f31865eab42803
+source-git-commit: f469147947715dd1bae2718565cd521fa8bc6e96
 workflow-type: tm+mt
 source-wordcount: '2407'
 ht-degree: 83%
@@ -452,11 +452,11 @@ La capacidad de actualizar o reducir las suscripciones a eventos garantiza que, 
 
 Para obtener más información sobre las versiones de suscripción de evento, incluidas las diferencias específicas entre la versión y las fechas importantes, consulte [Versiones de suscripción de evento](/help/quicksilver/wf-api/general/event-subs-versioning.md).
 
-### Cambio de versión de suscripción única
-
 >[!NOTE]
 >
 >Al actualizar o reducir la suscripción de evento a otra versión, se reciben eventos duplicados para cada entrega de evento durante un periodo de cinco minutos después del cambio de versión. Los duplicados incluyen una de cada versión de suscripción de evento 1 y una versión 2. Esto garantiza que no se pierda ningún evento debido al cambio de la versión de suscripción del evento.
+
+### Cambio de versión de suscripción única
 
 La sintaxis de solicitud para cambiar la versión de una sola suscripción es:
 
