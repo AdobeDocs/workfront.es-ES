@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: a6104204cae2a2d8fb021da254437008d55a43b6
+source-git-commit: bddd0dcd2263bd65420a17e4b9cc74336877719f
 workflow-type: tm+mt
-source-wordcount: '7392'
+source-wordcount: '7388'
 ht-degree: 9%
 
 ---
@@ -268,7 +268,7 @@ En este momento, puede crear lo siguiente al conectar registros:
 
 * Registros de Workfront Planning
 * Proyectos Workfront sin plantilla
-* Portfolio de Workfront
+* Portafolios Workfront
 
 No se pueden crear otros objetos de Workfront o recursos de Experience Manager conectados al conectarlos a un registro.
 
@@ -563,7 +563,7 @@ Producción: sábado, 21 de junio de 2024
 
 Vista previa: por determinar
 
-Hemos cambiado los tipos de usuarios que pueden tener acceso completo a los espacios de trabajo. Ahora, solo los usuarios con licencia Estándar o Planificar pueden tener permisos de Administración en los espacios de trabajo. El acceso a los tipos de registro, registros y campos se hereda de un espacio de trabajo. Todos los demás usuarios tienen acceso de solo vista a los espacios de trabajo y sus tipos de objetos. Antes de esta actualización, los usuarios con licencia Light y Worker podían recibir permisos de Contribute para los espacios de trabajo.
+Hemos cambiado los tipos de usuarios que pueden tener acceso completo a los espacios de trabajo. Ahora, solo los usuarios con licencia Estándar o Planificar pueden tener permisos de Administración en los espacios de trabajo. El acceso a los tipos de registro, registros y campos se hereda de un espacio de trabajo. Todos los demás usuarios tienen acceso de solo vista a los espacios de trabajo y sus tipos de objetos. Antes de esta actualización, los usuarios con licencia Light y Worker podían recibir permisos de Contribute en los espacios de trabajo.
 
 Para obtener más información, consulte [Descripción general del tipo de licencia al usar Adobe Workfront Planning](/help/quicksilver/planning/access/license-type-overview.md).
 
@@ -715,7 +715,7 @@ Las siguientes acciones están disponibles en la sección Planificación de Work
 
 * Abra el cuadro de vista previa de detalles o la página para ver más información sobre los registros conectados
 
-Para obtener más información, consulte [Administrar registros en la sección Planificación de objetos de Adobe Workfront](/help/quicksilver/planning/records/manage-records-in-planning-section.md).
+Para obtener más información, consulte [Administrar conexiones de registro desde objetos de Workfront](/help/quicksilver/planning/records/manage-records-in-planning-section.md).
 
 ## Semana del martes, 13 de mayo de 2024
 
@@ -794,13 +794,13 @@ Hemos actualizado el aspecto de las tarjetas de tipo de registro al verlas en es
 
 Para obtener más información, consulte [Crear tipos de registros](/help/quicksilver/planning/architecture/create-record-types.md).
 
-### Habilitar notificaciones de Workfront Planning para clientes de experiencia unificada de Adobe
+### Activación de las notificaciones de Workfront Planning para clientes de Adobe Unified Experience
 
 Producción: jueves, 08 de mayo de 2024
 
 Vista previa: pendiente de determinación
 
-Si es un cliente de Adobe de experiencia unificada y alguien le agrega a un comentario en la página de registro, recibirá una notificación sobre el comentario en la aplicación y por correo electrónico. Puede administrar las preferencias de notificación en el área Preferencias del perfil de Adobe Experience Cloud. Para obtener más información, consulte [Preferencias y notificaciones de la cuenta](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences).
+Si es cliente de Adobe Unified Experience y alguien le agrega a un comentario en la página de registro, recibirá una notificación sobre el comentario en la aplicación y por correo electrónico. Puede administrar las preferencias de notificación en el área Preferencias del perfil de Adobe Experience Cloud. Para obtener más información, consulte [Preferencias y notificaciones de la cuenta](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences).
 
 Para obtener más información acerca de las notificaciones de planificación de Workfront, vea [Notificaciones de planificación de Adobe Workfront: Índice de artículos](/help/quicksilver/planning/notifications/notifications-information.md).
 
@@ -1101,7 +1101,7 @@ Los siguientes son los niveles más altos de permisos que los usuarios pueden re
 
 * Los usuarios con una licencia de planificación (o licencia estándar, en el nuevo modelo de licencia) pueden crear y administrar espacios de trabajo, tipos de registros y registros.
 
-* Los usuarios con una licencia de trabajo (o Ligera, en el nuevo modelo de licencia) pueden ver y contribuir a un espacio de trabajo compartido con ellos, así como los tipos de registro y registros de ese espacio de trabajo.  Los usuarios de licencias de trabajo (o ligeras) también pueden crear, editar y eliminar registros en espacios de trabajo en los que tengan acceso a Contribute.
+* Los usuarios con una licencia de trabajo (o Ligera, en el nuevo modelo de licencia) pueden ver y contribuir a un espacio de trabajo compartido con ellos, así como los tipos de registro y registros de ese espacio de trabajo.  Los usuarios con licencia de trabajo (o básica) también pueden crear, editar y eliminar registros en espacios de trabajo en los que tengan acceso de tipo Contribuir.
 
 * Los usuarios con una licencia de revisión o solicitante (o colaborador, en el nuevo modelo de licencia) solo pueden ver los espacios de trabajo compartidos con ellos, así como los tipos de registro y registros de dichos espacios de trabajo. No pueden crear, editar ni eliminar tipos de registros o registros.
 
@@ -1237,7 +1237,7 @@ A continuación se muestran los niveles de permisos para espacios de trabajo:
 
 * Ver: Los usuarios pueden ver los espacios de trabajo que se comparten con ellos. También pueden ver tipos de registros y registros del espacio de trabajo compartido.
 
-* Contribute: los usuarios pueden crear, editar o eliminar registros del espacio de trabajo que se comparte con ellos.  No pueden crear ni editar tipos de registros o espacios de trabajo que se comparten con ellos.
+* Contribute: los usuarios pueden crear, editar o eliminar registros en el espacio de trabajo compartido con ellos.  No pueden crear ni editar tipos de registros o espacios de trabajo que se comparten con ellos.
 
 * Administrar: los usuarios pueden crear, editar y eliminar espacios de trabajo, tipos de registro, registros y campos en espacios de trabajo que se comparten con ellos.
 
@@ -1246,7 +1246,7 @@ A continuación se indican los niveles de permisos para las vistas de registros:
 * Vista: Los usuarios pueden seleccionar la vista en el menú desplegable Ver de una página de tipo de registro.
 * Administrar: los usuarios pueden editar, compartir y eliminar la vista.
 
-Para obtener más información, vea [Información general sobre el acceso a la planeación de Adobes](/help/quicksilver/planning/access/access-overview.md) y [Información general sobre los permisos de uso compartido en las capacidades de Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md).
+Para obtener más información, consulte [Información general sobre el acceso a Adobe Planning](/help/quicksilver/planning/access/access-overview.md) y [Información general sobre los permisos de uso compartido en las funciones de Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md).
 
 ### Nuevo tipo de campo Fórmula
 

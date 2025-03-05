@@ -1,15 +1,15 @@
 ---
 title: Información general sobre tipos de registros conectados
-description: Una manera de indicar cómo se relacionan los tipos de registros individuales entre sí es conectarlos. Además, puede conectar tipos de registros de Adobe Workfront Planning con tipos de objetos de otras aplicaciones para mejorar la experiencia de los usuarios y mantener el enfoque en una aplicación.
+description: Una forma de indicar cómo se relacionan entre sí los distintos tipos de registro es conectarlos. Además, puede conectar tipos de registros de Planificación de Adobe Workfront con tipos de objetos de otras aplicaciones para mejorar la experiencia de los usuarios y mantener el enfoque en una aplicación.
 author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 1c04c68b-7a7f-46ae-b750-2b1f79855de4
-source-git-commit: e82cf1b586ea3b08f419802bd1e88c6567b61b95
+source-git-commit: bddd0dcd2263bd65420a17e4b9cc74336877719f
 workflow-type: tm+mt
-source-wordcount: '1522'
-ht-degree: 1%
+source-wordcount: '1518'
+ht-degree: 28%
 
 ---
 
@@ -34,14 +34,14 @@ Hay dos pasos para establecer conexiones en Workfront Planning:
 
 Tenga en cuenta lo siguiente sobre la conexión de tipos de registros:
 
-* Puede conectar las siguientes entidades en Adobe Workfront Planning:
+* Puede conectar las siguientes entidades en Planificación de Adobe Workfront:
 
-   * Dos tipos de registros.
+   * Dos tipos de registros. 
 
      De forma predeterminada, puede conectar dos tipos de registros desde el mismo espacio de trabajo. También puede configurar tipos de registros para conectarse con tipos de registros de otros espacios de trabajo. Para obtener más información, consulte [Editar tipos de registros](/help/quicksilver/planning/architecture/edit-record-types.md).
    * Tipo de registro y tipo de objeto de otra aplicación.
 
-* Puede conectar los tipos de registros de Workfront Planning con los siguientes tipos de objetos desde las siguientes aplicaciones:
+* Puede conectar los tipos de registros de Planificación de Workfront con los siguientes tipos de objetos desde las siguientes aplicaciones:
 
    * Adobe Workfront:
 
@@ -58,25 +58,25 @@ Tenga en cuenta lo siguiente sobre la conexión de tipos de registros:
 
      >[!IMPORTANT]
      >
-     >Debe tener una licencia de Adobe Experience Manager Assets y la instancia de Workfront de su organización debe incorporarse a Adobe Business Platform o a Adobe Admin Console para conectar los registros de Workfront Planning a Adobe Experience Manager Assets.
+     >Debe tener una licencia de Adobe Experience Manager Assets y la instancia de Workfront de su organización debe incorporarse a Adobe Business Platform o a Adobe Admin Console para conectar los registros de Planificación de Workfront a Adobe Experience Manager Assets.
      >
-     >Si tiene preguntas acerca de la incorporación a Adobe Admin Console, consulte las [Preguntas frecuentes sobre la experiencia unificada de Adobe](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md).
+     >Si tiene preguntas acerca de la incorporación a Adobe Admin Console, consulte las [Preguntas frecuentes sobre Adobe Unified Experience](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md).
 
 * Después de crear registros para los tipos de registros conectados, puede vincularlos entre sí a través del campo de registro conectado.  Para obtener más información, consulte [Conectar registros](/help/quicksilver/planning/records/connect-records.md).
 
-* Después de conectar un tipo de registro con otro tipo de registro o con un tipo de objeto de otra aplicación, existen los siguientes escenarios:
+* Después de conectar un tipo de registro a otro tipo de registro o a un tipo de objeto de otra aplicación, se dan los siguientes escenarios:
 
    * **Al conectar dos tipos de registros de Planning**: se crea un campo de registro vinculado en el tipo de registro desde el que se conecta. Se crea un campo de registro vinculado similar en el tipo de registro al que se conecta.
 
      Por ejemplo, si conecta el tipo de registro &quot;Campaña&quot; con el tipo de registro &quot;Producto&quot;, se crea un campo de registro vinculado (campo de conexión) denominado &quot;Producto vinculado&quot; en el tipo de registro Campaña. Se crea un tipo de registro vinculado llamado automáticamente &quot;Campaign&quot; en el tipo de registro Product.
 
-   * **Cuando conecta un tipo de registro con un tipo de objeto de otra aplicación**:
+   * **Al conectar un tipo de registro a un tipo de objeto de otra aplicación**:
 
       * Se crea un campo de registro vinculado en el tipo de registro desde el que se conecta. No se crea automáticamente ningún campo de registro vinculado en el tipo de objeto de la otra aplicación.
-      * No se puede acceder a los campos de registros de Planning desde objetos de Workfront.
-      * Los registros de Planning se pueden ver desde la pestaña Planning del objeto Workfront. Para obtener más información, consulte [Administrar registros en la sección Planificación de objetos de Adobe Workfront](/help/quicksilver/planning/records/manage-records-in-planning-section.md).
+      * No se puede acceder a los campos de registros de planificación desde objetos de Workfront.
+      * Los registros de Planning se pueden ver desde la pestaña Planning del objeto Workfront. Para obtener más información, consulte [Administrar conexiones de registro desde objetos de Workfront](/help/quicksilver/planning/records/manage-records-in-planning-section.md).
       * <span class="preview">Puede crear un campo personalizado de conexión de Planning y adjuntarlo al formulario personalizado de un objeto de Workfront. Para obtener más información, consulte [Crear un formulario personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md). </span>
-      * Se puede acceder a los campos de registro de planificación desde los recursos del Experience Manager cuando el administrador de Workfront configura la asignación de metadatos mediante la integración entre Workfront y Adobe Experience Manager Assets. Para obtener más información, consulte [Configuración de la asignación de metadatos de recursos entre Adobe Workfront y Experience Manager Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=en).
+      * Se puede acceder a los campos de registro de planificación desde los recursos del Experience Manager cuando la persona con la función de administrador de Workfront configura la asignación de metadatos mediante la integración entre Workfront y Adobe Experience Manager Assets. Para obtener más información, consulte [Configurar la asignación de metadatos de recursos entre Adobe Workfront y Experience Manager Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=es).
 
 
    * **Cuando se agregan campos de búsqueda desde el registro u objeto al que se conecta**: además de crear un campo de registro vinculado, también puede conectarse a campos desde el registro conectado o el tipo de objeto que se denominan campos de búsqueda. Un campo vinculado (o de búsqueda) con información del registro al que se está conectando se muestra en el registro desde el que se está conectando.
@@ -87,13 +87,13 @@ Tenga en cuenta lo siguiente sobre la conexión de tipos de registros:
 
      Puede hacer referencia a campos de búsqueda de otros tipos de registro u objeto en fórmulas, filtros o agrupaciones.
 
-     Por ejemplo, si conecta el tipo de registro &quot;Campaña&quot; con un proyecto de Workfront y selecciona llevar el campo Fecha planificada de finalización del proyecto al registro de Workfront Planning, se crea automáticamente un campo vinculado llamado Fecha planificada de finalización (desde proyecto) para la campaña. Este campo vinculado no se puede editar manualmente. El campo Fecha planificada de finalización (del proyecto) muestra la fecha planificada de finalización de los proyectos vinculados.
+     Por ejemplo, si conecta el tipo de registro “Campaña” a un proyecto de Workfront y selecciona llevar el campo Fecha planificada de finalización del proyecto al registro de Planificación de Workfront, se crea automáticamente un campo vinculado denominado Fecha planificada de finalización (de proyecto) para la campaña. Este campo vinculado no se puede editar manualmente. El campo Fecha planificada de finalización (de proyecto) muestra la fecha planificada de finalización de los proyectos vinculados.
 
      >[!IMPORTANT]
      >
      >Todas las personas con permisos de Vista o superiores en el espacio de trabajo pueden ver la información en los campos de búsqueda, independientemente de sus permisos o nivel de acceso en la aplicación de los tipos de objetos vinculados o sus permisos en otros espacios de trabajo.
 
-     Los campos de registros vinculados están precedidos por un icono de relación ![](assets/relationship-field-icon.png).
+     Los campos de registro vinculados van precedidos de un icono de relación ![](assets/relationship-field-icon.png).
 
      Los campos vinculados van precedidos de un icono que identifica el tipo de campo. Por ejemplo, los campos vinculados (o de búsqueda) van precedidos de iconos que indican que un campo es un número, un párrafo o una fecha.
 

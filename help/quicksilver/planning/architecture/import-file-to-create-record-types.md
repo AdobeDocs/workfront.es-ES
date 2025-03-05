@@ -5,13 +5,13 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: 9cab5818ce9fed8a4ac9d8ff305163e95cc45758
+exl-id: 2afd6d57-d658-4065-86f5-2324d3818d1f
+source-git-commit: bddd0dcd2263bd65420a17e4b9cc74336877719f
 workflow-type: tm+mt
 source-wordcount: '754'
 ht-degree: 21%
 
 ---
-
 
 # Crear tipos de registro importando información desde un archivo CSV o de Excel
 
@@ -101,7 +101,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 * Los campos son únicos para sus respectivos tipos de registros.
 * Cada fila de cada hoja se convierte en un registro único asociado a su tipo de registro respectivo.
 * Cada hoja del archivo de Excel no debe superar lo siguiente:
-   * 10 000 filas
+   * 25 000 filas
    * 500 columnas
 * El archivo no debe superar los 5 MB.
 * No se admiten hojas vacías.

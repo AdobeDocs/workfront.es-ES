@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: c53e7d2229032c59710a8f955de53cfbd7fc6df4
+source-git-commit: bddd0dcd2263bd65420a17e4b9cc74336877719f
 workflow-type: tm+mt
-source-wordcount: '1869'
+source-wordcount: '1865'
 ht-degree: 11%
 
 ---
@@ -144,7 +144,7 @@ Para obtener información sobre cómo enviar solicitudes de Workfront Planning, 
    * Los valores del campo Personas se muestran como ID.
    * Los campos de fórmula que no hacen referencia a otros campos o cálculos no muestran ningún valor. Por ejemplo, un campo con una fórmula `STRING` muestra un valor &quot;N/A&quot;.
    * Los campos de fórmula que hacen referencia a los campos Moneda muestran los valores sin tener en cuenta los tipos de cambio.
-   * Los valores de los campos de párrafo que contienen formato especial muestran un valor &quot;N/A&quot; en el formulario de solicitud y muestran etiquetas html en lugar del texto con formato en la página de detalles de la solicitud.
+   * Los valores de los campos de párrafo muestran un valor &quot;N/A&quot; en el formulario de solicitud y muestran etiquetas html en lugar del texto con formato en la página de detalles de la solicitud.
 
 </div>
 

@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 2a640cd5-f4a8-4ff3-81b6-32f85f6e4535
-source-git-commit: f6484489f4726b606cc9840beed77ec8ab48a518
+source-git-commit: bddd0dcd2263bd65420a17e4b9cc74336877719f
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '364'
+ht-degree: 54%
 
 ---
 
@@ -44,7 +44,7 @@ En la tabla siguiente se muestran los límites de la cantidad de objetos que se 
 | Velocidad a la que se pueden realizar solicitudes de API | 200 solicitudes por minuto |
 | Número de vistas que un usuario puede crear para un tipo de registro | 100 |
 | Tamaño del archivo CSV de Excel que puede importar para crear tipos de registros | 5 MB |
-| Número de filas que puede importar en un archivo CSV o de Excel para crear tipos de registros | 10.000 |
+| Número de filas que puede importar en un archivo CSV o de Excel para crear tipos de registros | 25.000 |
 | Número de columnas que se pueden importar en un archivo CSV o de Excel para crear tipos de registros | 500 |
 
 * Recomendamos no tener demasiados espacios de trabajo, ya que podrían resultar difíciles de administrar y los flujos de trabajo podrían estar demasiado fragmentados.

@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 4ec3732d547cb3976c1376cbd0cf86b44b0e691b
+source-git-commit: bddd0dcd2263bd65420a17e4b9cc74336877719f
 workflow-type: tm+mt
-source-wordcount: '1914'
+source-wordcount: '1916'
 ht-degree: 46%
 
 ---
@@ -99,7 +99,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 <tr>
    <td role="rowheader"><p>Permisos de objeto</p></td>
    <td>
-   <p>Permisos de administración en un espacio de trabajo</a> </p>  
+   <p>Permisos de aportación o superiores para un espacio de trabajo</a> </p>  
    <p>Los administradores del sistema tienen permisos para todos los espacios de trabajo, incluidos los que no crearon</p> 
   </td>
   </tr>

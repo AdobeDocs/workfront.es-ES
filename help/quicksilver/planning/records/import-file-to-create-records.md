@@ -3,13 +3,13 @@ title: Crear registros importando información desde un archivo CSV o de Excel
 description: Los registros son instancias individuales de tipos de registros, que son los tipos de objetos de Adobe Workfront Planning. En Workfront Planning, puede crear registros importando información desde un archivo CSV o de Excel.
 hide: true
 hidefromtoc: true
-source-git-commit: 9f17fcab210768923e866d2f1596f40ddf8a558e
+exl-id: 940945df-391c-4672-9d9d-180d5028509b
+source-git-commit: bddd0dcd2263bd65420a17e4b9cc74336877719f
 workflow-type: tm+mt
-source-wordcount: '884'
-ht-degree: 14%
+source-wordcount: '985'
+ht-degree: 12%
 
 ---
-
 
 <!-- add the following in the metadata when live:
 
@@ -82,12 +82,12 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   <tr> 
    <td role="rowheader"><p>Configuración de nivel de acceso</p></td> 
    <td> <p>No hay controles de nivel de acceso para Adobe Workfront Planning</p> 
-   <p>Editar el acceso en Workfront para los tipos de objeto que desea crear (proyectos y portafolios) al conectar los registros a ellos. </p>  
+   <p>Edite el acceso en Workfront para los tipos de objeto que desea crear (proyectos, programas y portafolios) a medida que conecta los registros a ellos. </p>  
 </td> 
   </tr> 
 <tr> 
    <td role="rowheader"><p>Permisos de objeto</p></td> 
-   <td> <p>Administre los permisos del espacio de trabajo al que desee agregar registros. </p>  
+   <td> <p>Permisos de contribución o superiores al espacio de trabajo al que desee agregar registros. </p>  
    <p>Los administradores del sistema tienen permisos para todos los espacios de trabajo, incluidos los que no crearon</p>
    <p>Administre permisos a objetos Workfront (portafolios) para agregar objetos secundarios (proyectos).</p>
    </td> 
@@ -103,23 +103,23 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 +++
 
-## Consideraciones acerca de la importación de tipos de registros mediante un archivo CSV o de Excel
+## Consideraciones acerca de la importación de registros mediante un archivo CSV o de Excel
 
 * Los encabezados de las columnas de cada hoja se convierten en los campos asociados a los registros.
 * Cada fila de cada hoja se convierte en un registro único asociado.
 * Si el archivo de Excel contiene más de una hoja, sólo se importará la información de una hoja seleccionada durante el proceso de importación.
 * El archivo no debe superar lo siguiente:
-   * 10 000 filas
+   * 25 000 filas
    * 500 columnas
 * El archivo no debe superar los 5 MB.
 * No se admiten hojas vacías.
 * No se admiten los campos de los siguientes tipos y no se pueden asignar a campos de la hoja de importación:
-   * Campos de búsqueda de registros conectados u objetos de Workfront conectados
+   * Conexiones y campos de búsqueda de registros conectados <!--or connected Workfront objects-->
    * Campos de fórmula
    * Fecha de creación, Creado por
    * Fecha de la última modificación, Última modificación por
    * Personas
-* Si se importa un campo de selección múltiple o única y tiene más opciones que un campo similar en Planning, las opciones adicionales se crean durante la importación.
+   * Si se importa un campo de selección múltiple o única y tiene más opciones que un campo similar en Planning, las opciones adicionales se crean durante la importación. Solo los usuarios con permisos de Administrar en el espacio de trabajo pueden importar nuevas opciones.
 
 ## Creación de registros importando un archivo CSV o de Excel
 
@@ -144,11 +144,16 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
    Cada fila representa un nuevo registro. Solo se muestran los 10 primeros registros en el cuadro Vista previa y edición.
 
-1. (Opcional) Seleccione **Crear opciones que faltan** en la esquina inferior izquierda de la pantalla. Cuando se habilita, se agregan las opciones que faltan en los campos de selección única y múltiple.
+1. (Opcional y condicional) Si tiene permisos de administración en el área de trabajo, seleccione **Crear opciones que faltan** en la esquina inferior izquierda de la pantalla. Cuando se habilita, se agregan las opciones que faltan en los campos de selección única y múltiple.
 
-   Por ejemplo, si el tipo de registro seleccionado tiene un campo de estado de selección única con las opciones Nuevo, En curso y Cerrado, y un campo de estado importado de un archivo también tiene una opción de estado Retenido, también se agrega la opción de estado Retenido
+>[!NOTE]
+>
+>Por ejemplo, si el tipo de registro seleccionado tiene un campo de estado de selección única con las opciones Nuevo, En curso y Cerrado, y un campo de estado importado de un archivo también tiene una opción de estado Retenido, también se agrega la opción de estado Retenido.
+>
+>Si no tiene permisos de administración en el espacio de trabajo, puede importar registros, pero no se crearán las opciones adicionales. En su lugar, recibe el siguiente mensaje en la esquina superior derecha del cuadro Asignar los campos de Planning a los encabezados de columna: **Las opciones que no existen en los campos de conexión, de selección única o múltiple, no se agregarán**.
 
-   <!--when we add connected records and the info icon in the tool changes, also add those items to this step-->
+
+    &lt;!—cuando agreguemos registros conectados y cambie el icono de información en la herramienta, agregue también esos elementos a este paso—>
 
 1. Haga clic en **Importar**.
 

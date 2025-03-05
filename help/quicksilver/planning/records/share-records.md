@@ -6,10 +6,10 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 83ff53ac-f18e-4b71-bdb2-57e05d69ed29
-source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
+source-git-commit: bddd0dcd2263bd65420a17e4b9cc74336877719f
 workflow-type: tm+mt
-source-wordcount: '517'
-ht-degree: 1%
+source-wordcount: '515'
+ht-degree: 81%
 
 ---
 
@@ -28,7 +28,7 @@ Puede compartir un registro de Adobe Workfront Planning de las siguientes manera
 
 * Copie un vínculo a la página del registro cuando vea registros en la vista de tabla del tipo de registro.
 
-* Puede compartir todos los registros de un área de trabajo con otros usuarios compartiendo el área de trabajo. Para obtener más información, vea [Compartir un espacio de trabajo](/help/quicksilver/planning/access/share-workspaces.md).
+* Puede compartir todos los registros de un espacio de trabajo con otros usuarios compartiendo el espacio de trabajo. Para obtener más información, consulte [Compartir un espacio de trabajo](/help/quicksilver/planning/access/share-workspaces.md).
 
 En este artículo se describe cómo copiar un vínculo a la página de un registro desde la vista de tabla de un tipo de registro.
 
@@ -53,7 +53,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
    <li><p> Planificación de Adobe Workfront<p></li></ul></td> 
   </tr>   
 <tr> 
-   <td role="rowheader"><p>plan Adobe Workfront*</p></td> 
+   <td role="rowheader"><p>Plan de Adobe Workfront*</p></td> 
    <td> 
 <p>Cualquiera de los siguientes planes de Workfront:</p> 
 <ul><li>Seleccionar</li> 
@@ -70,8 +70,8 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  <tr> 
    <td role="rowheader"><p>plataforma de Adobe Workfront</p></td> 
    <td> 
-<p>La instancia de Workfront de su organización debe incorporarse a la experiencia Adobe unificado para poder acceder a todas las funcionalidades de Workfront Planning.</p> 
-<p>Para obtener más información, consulte <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Experiencia unificada de Adobe para Workfront</a>. </p> 
+<p>La instancia de Workfront de su organización debe incorporarse a Adobe Unified Experience para poder acceder a todas las funcionalidades de Workfront Planning.</p> 
+<p>Para obtener más información, consulte <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience para Workfront</a>. </p> 
    </td> 
    </tr> 
   </tr> 
@@ -82,14 +82,14 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Configuración del nivel de acceso</p></td> 
+   <td role="rowheader"><p>Configuración de nivel de acceso</p></td> 
    <td> <p>No hay controles de nivel de acceso para Adobe Workfront Planning</p>   
 </td> 
   </tr> 
 <tr> 
    <td role="rowheader"><p>Permisos de objeto</p></td> 
    <td>  <p>Ver los permisos o niveles superiores de un espacio de trabajo para compartir un registro mediante un vínculo </p>
-   <p>Administre permisos a un espacio de trabajo para compartir registros mientras comparte el espacio de trabajo al que pertenece el registro </p>
+   <p>Administre permisos a un espacio de trabajo para compartir registros del espacio de trabajo al que pertenece el registro </p>
    <p>Los administradores del sistema tienen permisos para todos los espacios de trabajo, incluidos los que no crearon</p>  </td> 
   </tr> 
 <tr> 
@@ -145,7 +145,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 <tr>
    <td role="rowheader"><p>Permissions</p></td>
    <td> <p>View or higher permissions to a workspace to share a record using a link </p>
-   <p>Manage permissions to a workspace to share records while sharing the workspace the record belongs to </p>
+   <p>Manage permissions to a workspace to share the workspace the record belongs to </p>
    <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>
 </td>
   </tr>
@@ -168,10 +168,10 @@ Se abre el espacio de trabajo al que accedió por última vez.
 1. Haga clic en una tarjeta de tipo de registro.
 
    Se abre la página de tipo de registro.
-1. (Condicional) En el menú desplegable **Ver** de la esquina superior derecha de la tabla, seleccione una vista de tabla. Esta debe ser la vista predeterminada, a menos que haya visto el tipo de registro en la vista de escala de tiempo cuando accedió por última vez.
+1. (Condicional) En el menú desplegable **Ver** de la esquina superior derecha de la tabla, seleccione una vista de tabla. Esta debe ser la vista predeterminada, a menos que haya visto el tipo de registro en la vista de cronología cuando accedió por última vez.
 
    Los registros asociados al tipo de registro seleccionado se muestran en la vista de tabla.
-1. Hacer clic con el botón derecho en una fila de registro
+1. Haga clic con el botón derecho en una fila de registro
 
    O
 
@@ -192,8 +192,8 @@ Se abre el espacio de trabajo al que accedió por última vez.
 
 ## Compartir todos los registros de un espacio de trabajo compartiendo el espacio de trabajo
 
-Puede compartir todos los registros de un área de trabajo cuando comparta el área de trabajo con otros usuarios.
+Puede compartir todos los registros de un espacio de trabajo cuando comparta el espacio de trabajo con otros usuarios.
 
-Solo los usuarios con permisos de Administración de un espacio de trabajo pueden compartirlo con otros.
+Solo los usuarios con permisos de administración de un espacio de trabajo pueden compartirlo con otros.
 
-Para obtener más información, vea [Compartir un espacio de trabajo](/help/quicksilver/planning/access/share-workspaces.md).
+Para obtener más información, consulte [Compartir un espacio de trabajo](/help/quicksilver/planning/access/share-workspaces.md).
