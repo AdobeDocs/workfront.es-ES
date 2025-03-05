@@ -7,10 +7,10 @@ description: Puede utilizar el Distribuidor de cargas de trabajo para programar 
 author: Lisa
 feature: Resource Management
 exl-id: 88029c9d-b588-4d33-801a-04f49b12a6e8
-source-git-commit: 23c6d9335b0adcafc4e2ecdd8ef2d0ab09709fa8
+source-git-commit: 496420d1c74b7c29d0fb2ff7109ea8478680d117
 workflow-type: tm+mt
-source-wordcount: '714'
-ht-degree: 94%
+source-wordcount: '724'
+ht-degree: 93%
 
 ---
 
@@ -97,6 +97,8 @@ Las secciones siguientes ilustran dónde puede acceder al Distribuidor de cargas
      Se recomienda utilizar filtros al mostrar los usuarios en el área de Trabajo asignado. Para obtener más información, consulte [Filtrar información en el Distribuidor de cargas de trabajo](../workload-balancer/filter-information-workload-balancer.md).
 
 ### Acceso al Distribuidor de cargas de trabajo para un equipo
+
+Para obtener más información sobre los equipos en Workfront, consulte [Información general de los equipos](/help/quicksilver/people-teams-and-groups/create-and-manage-teams/teams-overview.md).
 
 {{step1-to-team}}
 
