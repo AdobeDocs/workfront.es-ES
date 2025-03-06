@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 940945df-391c-4672-9d9d-180d5028509b
-source-git-commit: 279238689e132490b2d67ae64e8ef2c50a8fc604
+source-git-commit: 45cce14e126d6ee4444380d25cdd4df610962d40
 workflow-type: tm+mt
 source-wordcount: '964'
 ht-degree: 12%
@@ -148,9 +148,6 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
    >
    >Si no tiene permisos de administración en el espacio de trabajo, puede importar registros, pero no se crearán las opciones adicionales. En su lugar, recibe el siguiente mensaje en la esquina superior derecha del cuadro Asignar los campos de Planning a los encabezados de columna: **Las opciones que no existen en los campos de conexión, de selección única o múltiple, no se agregarán**.
 
-
-   <!--when we add connected records and the info icon in the tool changes, also add those items to this step and to the NOTE-->
-
 1. Haga clic en **Importar**.
 
    La siguiente información se importa en Workfront Planning:
@@ -162,3 +159,5 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
    Puede empezar a administrar campos y registros en la página de tipos de registros.
 
    Todas las personas con acceso a Workfront Planning y al espacio de trabajo ahora pueden ver y editar los registros importados y su información.
+
+   <!--when we add connected records and the info icon in the tool changes, also add those items to the Import step and to the NOTE above it-->

@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 279238689e132490b2d67ae64e8ef2c50a8fc604
+source-git-commit: 45cce14e126d6ee4444380d25cdd4df610962d40
 workflow-type: tm+mt
-source-wordcount: '1858'
+source-wordcount: '1846'
 ht-degree: 44%
 
 ---
@@ -32,8 +32,7 @@ Para crear registros, siga uno de estos procedimientos:
 * [Duplicar registros desde una vista de tabla](#create-records-by-duplicating-them)
 * [Crear registros a medida que los conecta desde otros registros](#create-records-as-you-connect-them)
 * [Crear registros enviando un formulario de solicitud a un tipo de registro](#create-records-by-submitting-a-request-form-to-a-record-type)
-* [Crear registros al importar tipos de registros desde un archivo CSV o de Excel](#create-records-when-importing-record-types-from-a-csv-or-excel-file)
-* <Span class="preview">[Crear registros importando información de un archivo CSV o de Excel](/help/quicksilver/planning/records/import-file-to-create-records.md)</span>
+* <span class="preview">[Crear registros importando información de un archivo CSV o de Excel](#create-records-by-importing-records-from-a-csv-or-excel-file)</span>
 * <span class="preview">[Crear registros mediante automatizaciones](#create-records-by-using-automations)</span>
 
 Para obtener información acerca de la administración de registros en las vistas de tabla o línea de tiempo, consulte los siguientes artículos:
@@ -305,7 +304,7 @@ Para obtener más información, consulte [Crear tipos de registros](/help/quicks
 
 <div class="preview">
 
-## Creación de registros al importar registros desde un archivo CSV o de Excel
+## Crear registros importándolos desde un archivo CSV o de Excel
 
 Puede importar registros para tipos de registros existentes al importar información desde un archivo CSV o de Excel.
 
