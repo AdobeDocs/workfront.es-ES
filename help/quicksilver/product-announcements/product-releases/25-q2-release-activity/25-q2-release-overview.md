@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9b78a58e-7ced-4b13-8108-40bd36339667
-source-git-commit: 7dba8033919f015bed4d9e1f8c7581c94f9fff4c
+source-git-commit: cbadf0a758369bf9835b5804a036fddbc37dbb51
 workflow-type: tm+mt
-source-wordcount: '1076'
+source-wordcount: '1079'
 ht-degree: 33%
 
 ---
@@ -37,6 +37,7 @@ Las versiones mensuales y trimestrales están planificadas para estar disponible
 ## Mejoras de Adobe Workfront
 
 * [Mejoras en el administrador](#administrator-enhancements)
+* [Mejoras en la administración de documentos](#document-management-enhancements)
 * [Mejoras en el proyecto](#project-enhancements)
 * [Otras mejoras](#other-enhancements)
 

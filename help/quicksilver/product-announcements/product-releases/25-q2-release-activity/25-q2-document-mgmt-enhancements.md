@@ -4,10 +4,10 @@ description: Mejoras del proyecto del segundo trimestre de 2025
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 7dba8033919f015bed4d9e1f8c7581c94f9fff4c
+source-git-commit: 1123c028a1971c7a66158b95642154e540dc3d0e
 workflow-type: tm+mt
-source-wordcount: '114'
-ht-degree: 60%
+source-wordcount: '115'
+ht-degree: 66%
 
 ---
 
@@ -21,7 +21,7 @@ Para obtener una lista de todos los cambios disponibles en este punto del ciclo 
 
 >[!NOTE]
 >
->Versión preliminar: 6 de febrero de 2025; Producción para todos los clientes: 13 de marzo de 2025
+>Versión preliminar: viernes, 06 de febrero de 2025; producción para todos los clientes: viernes, 13 de marzo de 2025
 
 Ahora puede editar varios documentos a la vez en un informe de documento. Puede editar las descripciones y actualizar los formularios personalizados.
 
