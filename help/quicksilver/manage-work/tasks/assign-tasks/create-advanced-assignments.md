@@ -7,22 +7,16 @@ author: Lisa
 feature: Work Management, Resource Management
 role: User
 exl-id: 09780f78-4eb8-404d-859b-d066d462776d
-source-git-commit: 259fd0e3fdaa07bfdb0301d60bf0d9b1090b4ef7
+source-git-commit: 4072e71dc0ba76871e17da7718ed4b77a3cdbda6
 workflow-type: tm+mt
-source-wordcount: '1171'
-ht-degree: 100%
+source-wordcount: '1109'
+ht-degree: 96%
 
 ---
 
 # Crear asignaciones avanzadas
 
 <!-- Audited: 07/2024-->
-
-<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes o en el entorno de producción para los clientes que habilitaron versiones rápidas.</span>
-
-<span class="preview">Para obtener información acerca de las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
-
-<span class="preview">Para obtener información acerca de la versión actual, consulte [Información general sobre la versión del cuarto trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md).</span>
 
 Puede administrar asignaciones de tareas o problemas mediante Asignaciones avanzadas.
 
@@ -102,7 +96,7 @@ Además, puede realizar asignaciones avanzadas en las siguientes áreas de Workf
 
    <span class="preview">![Haga clic en Avanzadas](assets/assignments-box-in-task-header.png)</span>
 
-1. En el campo **Buscar personas, funciones y equipos**, empiece a escribir el nombre de un usuario, función o equipo y, a continuación, haga clic en el nombre cuando aparezca en la lista desplegable.
+1. En el campo **Buscar personas, roles y equipos**, empiece a escribir el nombre de un usuario, rol o equipo y, a continuación, haga clic en el nombre cuando aparezca en la lista desplegable.
 
    >[!NOTE]
    >
@@ -140,10 +134,6 @@ Además, puede realizar asignaciones avanzadas en las siguientes áreas de Workf
      >Según la forma en que el administrador de Workfront o el administrador del grupo hayan configurado las preferencias del proyecto, Workfront podría utilizar la programación del propietario de la tarea para calcular la línea de tiempo de la tarea cuando tenga varios usuarios asignados a la tarea. Para obtener información acerca de los usuarios asignados a varias tareas, consulte la sección “Asignar varios usuarios a una tarea” en el artículo [Asignar tareas](../../../manage-work/tasks/assign-tasks/assign-tasks.md).
 
    * **Asignaciones**: cuando el tipo de duración de una tarea sea Simple, especifique el número de horas que cada usuario o función deben asignar a la tarea. La suma de todas las horas asignadas a cada usuario es igual al número que aparece en el campo **Horas planificadas** en la parte inferior de la columna Asignaciones. En todos los demás casos, especifique el porcentaje de tiempo (o asignación) que desea que el usuario asignado dedique a resolver la tarea o el problema.
-
-     <!--   
-     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: make sure this is right in the new UI for both classic and QS???)</p>   
-     -->
 
      >[!TIP]
      >   
