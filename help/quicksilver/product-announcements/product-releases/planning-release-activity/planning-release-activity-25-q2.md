@@ -7,10 +7,10 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 99ac8d30-7cf8-4343-b11c-fe650ba024ff
-source-git-commit: 22a293cf4ded2c24c58f3948c1e7b41fa1055e3f
+source-git-commit: b03ac1037e03a70c7e685f5e6e53ce86755868c7
 workflow-type: tm+mt
-source-wordcount: '1481'
-ht-degree: 3%
+source-wordcount: '1660'
+ht-degree: 2%
 
 ---
 
@@ -21,6 +21,29 @@ Este artículo describe las funciones que se lanzarán para Workfront Planning d
 <!--keep the sentence below for all future quarterly release pages-->
 
 Para obtener una lista de todas las características publicadas para Adobe Workfront Planning, consulte [Actividad de la versión de Adobe Workfront Planning: índice de artículo](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+
+## Agregar campos de búsqueda de registros conectados a campos de conexión de Planning en formularios personalizados de Workfront
+
+>[!NOTE]
+>
+>Vista previa: 6 de marzo de 2025; producción para versión rápida: 13 de marzo de 2025; producción para todos los clientes: 10 de abril de 2025
+
+Para acceder fácilmente a toda la información de los registros conectados desde objetos de Workfront, hemos agregado los campos de búsqueda de los registros conectados a los campos de conexión de Planning en Workfront.
+
+Puede agregar hasta siete campos de búsqueda a un registro conectado a un objeto de Workfront en el campo personalizado Conexión de Planning. Como parte de esta mejora, ahora puede mostrar los registros conectados y sus campos en un formato de tabla fácil de leer en el formulario personalizado de un objeto de Workfront.
+
+Para obtener más información, consulte [Crear un formulario personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+
+## Importación de registros mediante un archivo CSV o de Excel
+
+>[!NOTE]
+>
+>Versión preliminar: 6 de marzo de 2025; producción para todos los clientes: 10 de abril de 2025
+
+Ahora puede importar registros utilizando una hoja de cálculo CSV o de Excel desde la página de un tipo de registro.
+Antes de esta mejora, sólo se podían importar registros al crear tipos de registros. Con esta actualización, puede importar registros a tipos de registros existentes.
+
+Para obtener más información, vea [Crear registros importando información desde un archivo CSV o de Excel](/help/quicksilver/planning/records/import-file-to-create-records.md).
 
 ## Mostrar el nombre de registro de una página de detalles de una solicitud de Workfront Planning en el nombre de la pestaña del explorador
 

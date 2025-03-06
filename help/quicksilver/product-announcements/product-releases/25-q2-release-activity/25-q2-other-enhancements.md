@@ -5,10 +5,10 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 214f0e67-1da4-4abd-b942-09889e8bd92b
-source-git-commit: 2d40585a48f42c767d49530b427d2e4d66f88148
+source-git-commit: d603edee0099b6ce3e4f8d3414d1b31f94209196
 workflow-type: tm+mt
-source-wordcount: '202'
-ht-degree: 17%
+source-wordcount: '329'
+ht-degree: 10%
 
 ---
 
@@ -17,6 +17,20 @@ ht-degree: 17%
 Esta página describe las mejoras realizadas con la versión del segundo trimestre de 2025 en el entorno de vista previa. Estas mejoras estarán disponibles en el entorno de producción, como se ha indicado.
 
 Para obtener una lista de todos los cambios disponibles en este punto del ciclo de la versión del segundo trimestre de 2025, consulte [Información general de la versión del segundo trimestre de 2025](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-release-overview.md).
+
+## Actualización a la nueva versión de suscripción de evento con puntos finales de actualización de versión
+
+>[!NOTE]
+>
+>Producción para todos los clientes: 6 de marzo de 2025
+
+Workfront ahora tiene versiones de suscripciones a eventos. La nueva versión no es un cambio en la API de Workfront, sino un cambio en la funcionalidad de suscripción de evento.
+
+La capacidad de actualizar o reducir las suscripciones a eventos garantiza que, cuando se realicen cambios en la estructura de los eventos, las suscripciones existentes no se rompan, lo que le permite probar y actualizar a la nueva versión sin interrupciones en la suscripción de evento.
+
+Para obtener más información sobre las diferencias entre las dos versiones, consulte el artículo [Versiones de suscripción de evento](/help/quicksilver/wf-api/general/event-subs-versioning.md).
+
+Para obtener información sobre los extremos utilizados para actualizar o reducir una suscripción de evento entre versiones, consulte la sección [Versiones de suscripción de evento](/help/quicksilver/wf-api/general/event-subs-api.md#event-subscription-versioning) en el artículo API de suscripción de evento.
 
 ## Representar los cambios del usuario de Adobe Admin Console como &quot;Sistema&quot; en la fuente de actualización de Workfront
 
