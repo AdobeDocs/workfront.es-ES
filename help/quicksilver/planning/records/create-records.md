@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: bddd0dcd2263bd65420a17e4b9cc74336877719f
+source-git-commit: 279238689e132490b2d67ae64e8ef2c50a8fc604
 workflow-type: tm+mt
-source-wordcount: '1804'
-ht-degree: 45%
+source-wordcount: '1858'
+ht-degree: 44%
 
 ---
 
@@ -33,7 +33,7 @@ Para crear registros, siga uno de estos procedimientos:
 * [Crear registros a medida que los conecta desde otros registros](#create-records-as-you-connect-them)
 * [Crear registros enviando un formulario de solicitud a un tipo de registro](#create-records-by-submitting-a-request-form-to-a-record-type)
 * [Crear registros al importar tipos de registros desde un archivo CSV o de Excel](#create-records-when-importing-record-types-from-a-csv-or-excel-file)
-<!--* <Span class="preview">[Create Records by importing information from a CSV or Excel file](/help/quicksilver/planning/records/import-file-to-create-records.md)</span> -->
+* <Span class="preview">[Crear registros importando información de un archivo CSV o de Excel](/help/quicksilver/planning/records/import-file-to-create-records.md)</span>
 * <span class="preview">[Crear registros mediante automatizaciones](#create-records-by-using-automations)</span>
 
 Para obtener información acerca de la administración de registros en las vistas de tabla o línea de tiempo, consulte los siguientes artículos:
@@ -271,8 +271,6 @@ Para crear registros al conectarlos desde otros registros:
    O
 Empiece a escribir un nombre y luego haga clic en **+ Agregar**. El botón **+ Agregar** va seguido del nombre del tipo de registro al que se está conectando. Por ejemplo, &quot;Agregar marcas&quot; al agregar una marca a una campaña existente. El nombre que ha escrito también sigue al botón Agregar.
 
-   <!--remove the first part of the step above to say just Click Add when the button will be persistent, for preview and production-->
-
    ![Botón Agregar para crear registros resaltados en contexto](assets/add-button-to-create-records-in-context-highlighted.png)
 
    El registro se crea y se agrega al campo de registro conectado.
@@ -305,18 +303,15 @@ Puede importar registros al importar tipos de registros mediante un archivo CSV 
 
 Para obtener más información, consulte [Crear tipos de registros](/help/quicksilver/planning/architecture/create-record-types.md).
 
-<!--
 <div class="preview">
 
-## Create records when importing records from a CSV or Excel file
+## Creación de registros al importar registros desde un archivo CSV o de Excel
 
-You can import records for existing record types when you import information from a CSV or Excel file. 
+Puede importar registros para tipos de registros existentes al importar información desde un archivo CSV o de Excel.
 
-For information, see [Create Records by importing information from a CSV or Excel file](/help/quicksilver/planning/records/import-file-to-create-records.md). 
+Para obtener más información, vea [Crear registros importando información desde un archivo CSV o de Excel](/help/quicksilver/planning/records/import-file-to-create-records.md).
 
-</div> 
-
--->
+</div>
 
 <div class="preview">
 

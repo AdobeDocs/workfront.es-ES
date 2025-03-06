@@ -8,21 +8,19 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: bddd0dcd2263bd65420a17e4b9cc74336877719f
+source-git-commit: 279238689e132490b2d67ae64e8ef2c50a8fc604
 workflow-type: tm+mt
-source-wordcount: '6493'
-ht-degree: 84%
+source-wordcount: '6615'
+ht-degree: 82%
 
 ---
 
 # Crear un formulario personalizado
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>   
+<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después de las versiones mensuales en Production, las mismas funciones también están disponibles en el entorno Production para los clientes que habilitaron versiones rápidas. </span>
 
--->
+<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 Puede diseñar un formulario personalizado con el diseñador de formularios en Adobe Workfront. Puede adjuntar formularios personalizados a diferentes objetos de Workfront para capturar datos sobre esos objetos.
 
@@ -1009,19 +1007,14 @@ Para agregar un campo de conexión de Planning:
       <td role="rowheader">Campo de conexión</td> 
       <td><p>(Obligatorio) Seleccione el campo de conexión entre el tipo de registro de Planning seleccionado que desea mostrar en los objetos Workfront y el tipo de objeto Workfront. </p> <p> <b>NOTA</b></p><p>Puede tener varios campos de conexión entre el mismo objeto y los mismos tipos de registro, pero sólo puede seleccionar un campo.</p>  </td> 
      </tr>
-    </tbody> 
+
+<tr> 
+      <td role="rowheader"><span class="preview">Campos de tipo de registro</span></td> 
+      <td><p><span class="preview">(Opcional) Seleccione hasta 7 campos de búsqueda del tipo de registro conectado para mostrarlos en el formulario personalizado. El campo principal está seleccionado de forma predeterminada y no se puede editar. </span></p> <span class="preview"><p> Los campos del registro conectado que seleccione se mostrarán en una vista de tabla del formulario personalizado. Cuando el formulario se adjunta a un objeto de Workfront, la vista de tabla es de sólo lectura. </span></p>  
+    <img src="assets/planning-connections-field-with-table-on-form-preview.png"></td> 
+     </tr>
+      </tbody> 
    </table>
-
-
-   <!--
-
-    Add this to the table - one more row at the bottom at release time: 
-
-    <span class="preview">Record type fields</span>
-      
-    <p><span class="preview">(Optional) Select up to 7 lookup fields from the connected record type to display in the custom form. The primary field is selected by default and cannot be edited. </span></p> <span class="preview"><p> The connected record's fields that you select display in the table view on the custom form. The records that will later display on the selected Workfront objects' custom form will not be editable in the table view of the custom form.</span></p>  
-    <img src="assets/planning-connections-field-with-table-on-form-preview.png">
-    -->
 
 1. (Opcional) Repita los pasos anteriores para agregar otros campos.
 
