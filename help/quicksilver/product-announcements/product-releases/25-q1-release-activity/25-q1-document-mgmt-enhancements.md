@@ -5,10 +5,10 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 0639cb37-212c-46d5-bfe0-b524efc085d3
-source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
+source-git-commit: f9ebf647c7672a9d471288806cf596d103007613
 workflow-type: tm+mt
-source-wordcount: '215'
-ht-degree: 54%
+source-wordcount: '206'
+ht-degree: 56%
 
 ---
 
@@ -26,11 +26,7 @@ Para obtener una lista de todos los cambios disponibles en este punto del ciclo 
 
 Ahora puede editar varios documentos a la vez. Puede editar las descripciones y actualizar los formularios personalizados.
 
-<!--For more information, see [Edit documents in bulk](/help/quicksilver/documents/managing-documents/bulk-edit-documents.md).-->
-
->[!IMPORTANT]
->
->Las funciones que se enumeran a continuación forman parte de una versión por fases y solo están disponibles para clientes específicos.
+Para obtener más información, consulte [Editar documentos en lotes](/help/quicksilver/documents/managing-documents/bulk-edit-documents.md).
 
 ## Nuevo estado Retirado disponible para aprobaciones de versiones de documentos
 
