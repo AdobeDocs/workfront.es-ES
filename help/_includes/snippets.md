@@ -1,5 +1,5 @@
 ---
-source-git-commit: 2d75f74c7281a3ea288c892db6895754a697e198
+source-git-commit: affff16630379333465c118734babf7a239af272
 workflow-type: tm+mt
 source-wordcount: '2648'
 ht-degree: 29%
@@ -88,7 +88,7 @@ ht-degree: 29%
 Puede asegurarse de que está asociando el grupo correcto con el equipo pasando el puntero sobre él y haciendo clic en el icono de información <img src="assets/info-icon.png"> que aparece junto a él. Se muestra información de objeto sobre el grupo, como la jerarquía de grupos por encima y los nombres de sus administradores.
 
 
-## Nota importante para la incorporación del Admin Console {#important-admin-console-onboard}
+## Nota importante para la incorporación de Admin Console {#important-admin-console-onboard}
 
 >[!IMPORTANT]
 >
@@ -127,7 +127,7 @@ Puede asegurarse de que está asociando el grupo correcto con el equipo pasando 
 
 ## configuración de carpetas vinculadas {#setup-linked-folder}
 
-Puede permitir a los usuarios crear carpetas vinculadas al Experience Manager mientras están en un proyecto de Workfront. Cuando se vincula una carpeta, cualquier recurso agregado a la carpeta se muestra automáticamente en Workfront y Experience Manager. Cuando se agrega un recurso a la carpeta vinculada en Workfront por primera vez, los metadatos del recurso se insertan en Experience Manager Assets.
+Puede permitir a los usuarios crear carpetas vinculadas a Experience Manager mientras están en un proyecto de Workfront. Cuando se vincula una carpeta, cualquier recurso agregado a la carpeta se muestra automáticamente en Workfront y Experience Manager. Cuando se agrega un recurso a la carpeta vinculada en Workfront por primera vez, los metadatos del recurso se insertan en Experience Manager Assets.
 
 En los pasos siguientes, se indica dónde se desea que se creen las carpetas vinculadas. Cada integración solo puede tener una ubicación para todas las carpetas vinculadas.
 
@@ -171,7 +171,7 @@ Para configurar carpetas vinculadas:
 
 Debe instalar el complemento correcto para la aplicación de Adobe Creative Cloud que está utilizando:
 * Para Photoshop, consulte [Instalar Adobe Workfront para Photoshop](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-ps.md)
-* XD Para obtener más información, consulte [Instalar Adobe Workfront XD para la instalación de la aplicación](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-install.md)
+* Para XD, consulte [Instalar Adobe Workfront para XD](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-install.md)
 * Para InDesign, Illustrator, Premiere Pro y After Effects, consulte [Instalar Adobe Workfront para diseño y vídeo](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-install-cc.md)
 
 ## Lista de aplicaciones CC {#cc-app-list}
@@ -315,9 +315,9 @@ Debe instalar el complemento correcto para la aplicación de Adobe Creative Clou
 
 <!-- Manage Work -->
 
-## Paso 1: Cómo llegar a los Portfolio - {#step1-to-portfolios}
+## Paso 1: Cómo llegar a las carteras - {#step1-to-portfolios}
 
-1. Haga clic en el icono **[!UICONTROL Menú principal]** ![Menú principal](/help/_includes/assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront o (si está disponible), haga clic en el icono **[!UICONTROL Menú principal]** ![Menú principal](/help/_includes/assets/main-menu-icon-left-nav.png) en la esquina superior izquierda y, a continuación, haga clic en **[!UICONTROL Portfolio]**.
+1. Haga clic en el icono **[!UICONTROL Menú principal]** ![Menú principal](/help/_includes/assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront o (si está disponible), haga clic en el icono **[!UICONTROL Menú principal]** ![Menú principal](/help/_includes/assets/main-menu-icon-left-nav.png) en la esquina superior izquierda y, a continuación, haga clic en **[!UICONTROL Portafolios]**.
 
 ## Paso 1: Acceso a los programas - {#step1-to-programs}
 
@@ -495,3 +495,5 @@ For each snippets, create a head 2 section and add an anchor, such as
 In any .md file, add {{classic-note}} where you want that shared snippet content to appear.
 
 -->
+
+

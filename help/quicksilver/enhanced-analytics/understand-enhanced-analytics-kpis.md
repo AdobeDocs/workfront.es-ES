@@ -7,10 +7,10 @@ description: En la parte superior de la pantalla del área de Análisis mejorado
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 44e43618-9a0b-4585-8659-c1fe055516be
-source-git-commit: 325334010d5f1206931cc9ace67f9511d614ffca
+source-git-commit: 59e021aa3ae66e4fc8d9ce9eb57616f948e6cd90
 workflow-type: tm+mt
-source-wordcount: '524'
-ht-degree: 96%
+source-wordcount: '566'
+ht-degree: 89%
 
 ---
 
@@ -18,8 +18,11 @@ ht-degree: 96%
 
 >[!IMPORTANT]
 >
->Se requiere un plan de empresa o superior para utilizar esta función.\
->Para obtener más información sobre los diversos planes disponibles, consulte [Planes de Adobe Workfront](https://www.workfront.com/plans).
+>El análisis mejorado se eliminará de Workfront la semana del 26 de mayo. Workfront Data Connect es una nueva solución alternativa que se puede utilizar para replicar las visualizaciones de Analytics mejoradas que utilice actualmente. <br>Consulte la guía de [Desaprobación mejorada de Analytics](/help/quicksilver/product-announcements/announcements/enhanced-analytics-deprecation.md) para obtener más información.
+
+
+Se requiere un plan de empresa o superior para utilizar esta función.\
+Para obtener más información sobre los diversos planes disponibles, consulte [Planes de Adobe Workfront](https://www.workfront.com/plans).
 
 En la parte superior de la pantalla del área de Análisis mejorado se muestran cuatro indicadores clave de rendimiento (KPI). Estas métricas permiten comprender rápidamente cuánto tardan los proyectos, cuál es su envergadura y cuántos se completan en un lapso de tiempo determinado. Estos números no se limitan al máximo de 50 proyectos que aparece en las visualizaciones de esta página. En su lugar, estos datos se basan en todos los proyectos que se aplican a cualquier filtro establecido y estos números se ajustan si cambia el intervalo de fecha seleccionado o cualquiera de los filtros.
 
