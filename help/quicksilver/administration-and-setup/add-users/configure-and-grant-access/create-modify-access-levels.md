@@ -8,7 +8,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d2a73d24-51d3-42e2-9c09-7f4bc30b2caa
-source-git-commit: f9bf60fc39cc7cd26e242e7cc782ece060cc5471
+source-git-commit: 3e48bebde0171c13b4168d7eb5d693b07cb9e396
 workflow-type: tm+mt
 source-wordcount: '1465'
 ht-degree: 98%
@@ -221,3 +221,6 @@ Si concede a un usuario Estándar o Planificador acceso administrativo a las fun
 Posteriormente, si deshabilita el acceso administrativo a las funciones para el usuario, las funciones aún serán visibles para el usuario porque la opción Editar tarifas de facturación y de costes de funciones aún está habilitada.
 
 Si esto sucede y necesita eliminar el acceso del usuario para ver las funciones, debe deshabilitar la configuración del permiso del usuario Editar tarifas de facturación y de costo de rol. Para obtener más instrucciones, consulte [Concesión de acceso a los datos financieros](grant-access-financial.md).
+
+
+
