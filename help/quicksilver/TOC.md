@@ -3,9 +3,9 @@ user-guide-title: Guía de Workfront
 user-guide-description: Utilice los siguientes documentos, tutoriales y recursos adicionales para aprender a implementar y utilizar Adobe Workfront de forma eficaz en su organización.
 role: User
 feature-set: Workfront
-source-git-commit: cee44cb281dbbf5bfecd599e63b556208749ca6c
+source-git-commit: 1e372089de40c49cd99c0b0d95a614f6e6c4a997
 workflow-type: tm+mt
-source-wordcount: '13042'
+source-wordcount: '13061'
 ht-degree: 58%
 
 ---
@@ -1702,6 +1702,13 @@ ht-degree: 58%
       * [Diccionario de datos de Workfront Data Connect](reports-and-dashboards/data-lake/data-dictionary.md)
       * [Ejemplos de consultas de Workfront Data Connect](reports-and-dashboards/data-lake/basic-query-examples.md)
       * [Ver métricas de uso de Workfront Data Connect](reports-and-dashboards/data-lake/view-usage-metrics.md)
+      * [Consultas mejoradas de Analytics]{#enhanced-analytics-queries}
+         * [Consultas mejoradas de Analytics](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/enhanced-analytics-queries.md)
+         * [Consultas de KPI](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/kpi-queries.md)
+         * [Consultas de plan de vuelo](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/flight-plan-queries.md)
+         * [Consultas de actividades de proyecto](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/project-activity-queries.md)
+         * [Consultas de diagrama de proyecto](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/project-tree-map-queries.md)
+         * [Consultas de personas](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/people-queries.md)
 * Administrar recursos {#manage-resources}
    * [Administran los recursos](resource-mgmt/manage-resources.md)
    * Administración de recursos {#resource-management}
