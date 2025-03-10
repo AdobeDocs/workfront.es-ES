@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 3695c5bb566434d70907bfecf775ccd12b9208f4
+source-git-commit: b4747df73cedfb512fb54f912a5370cbb3a4c6a7
 workflow-type: tm+mt
-source-wordcount: '1586'
+source-wordcount: '1589'
 ht-degree: 0%
 
 ---
@@ -62,7 +62,7 @@ Para ver la configuración, vaya a Configuración > Preferencias > Aprobaciones 
 
 Hemos actualizado las listas de Aprobaciones de proyectos, tareas y problemas en Configuración > Grupos > Aprobaciones con un diseño más moderno y coherente con otras áreas de Workfront.
 
-Para ver este cambio, vaya a Configuración > Grupos > Aprobaciones.
+Para ver este cambio, vaya a Configuración > Grupos > Elegir un grupo > Aprobaciones.
 
 Esta actualización incluye cambios visuales en el área. No se ha cambiado ninguna funcionalidad.
 
