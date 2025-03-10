@@ -6,9 +6,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 0de6119d-6a47-41f2-87da-2c6752ca436b
-source-git-commit: 6d0074438b4711198fd94105544efe39665a785e
+source-git-commit: 905aaaa5d300bc71058dd6ee2d568c8fc1229570
 workflow-type: tm+mt
-source-wordcount: '338'
+source-wordcount: '343'
 ht-degree: 0%
 
 ---
@@ -43,21 +43,21 @@ Data Connect está incluido en el nuevo plan de Ultimate <!--, and can be purcha
 
 ### Replicación de visualizaciones mejoradas de Analytics
 
-Puede usar Workfront Data Connect para replicar las visualizaciones de Analytics mejoradas que le parezcan más valiosas, además de muchas opciones de visualización nuevas. A medida que nos acerquemos al momento de desaprobación, agregaremos ejemplos específicos de consultas que replican visualizaciones mejoradas de Analytics a la página [Consultas de ejemplo de Workfront Data Connect](/help/quicksilver/reports-and-dashboards/data-lake/basic-query-examples.md).
+Puede usar Workfront Data Connect para replicar las visualizaciones de Analytics mejoradas que le parezcan más valiosas, además de muchas opciones de visualización nuevas.
 
-<!--Use the queries in the articles below to create data visualizations similar to those in Enhanced Analytics:
-
-
-* [KPI queries](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/kpi-queries.md)
-
-Coming soon:
-
-* Flight plan queries
-* Project activities queries
-* Project treemap queries
-* People queries
+Utilice las consultas de los artículos siguientes para crear visualizaciones de datos similares a las de Enhanced Analytics:
 
 
+* [Consultas de KPI](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/kpi-queries.md)
+
+Muy pronto:
+
+* Consultas de plan de vuelo
+* Consultas de actividades de proyecto
+* Consultas de diagrama de proyecto
+* Consultas de personas
+
+<!--
 * [Flight plan queries](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/flight-plan-queries.md)
 * [Project activities queries](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/project-activity-queries.md)
 * [Project treemap queries](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/project-tree-map-queries.md) 

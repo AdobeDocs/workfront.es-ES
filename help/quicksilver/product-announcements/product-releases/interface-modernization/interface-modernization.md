@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: b4747df73cedfb512fb54f912a5370cbb3a4c6a7
+source-git-commit: 1a0902c7c6e1b7f647564e448daf74748d9cb3db
 workflow-type: tm+mt
-source-wordcount: '1589'
+source-wordcount: '1634'
 ht-degree: 0%
 
 ---
@@ -141,6 +141,14 @@ Hemos actualizado las listas de Aprobaciones de proyectos, tareas y problemas en
 Esta actualización incluye cambios visuales en el área. No se ha cambiado ninguna funcionalidad.
 
 ## Agile
+
+### Actualizaciones de interfaz para solicitudes de equipo
+
+**Versión preliminar: 6 de marzo de 2025; versión de producción: por anunciar**
+
+Hemos actualizado la página Solicitudes de equipo con un diseño más moderno y coherente con otras áreas de Workfront.
+
+Para ver este cambio, vaya a Equipos > Elegir un equipo > Solicitudes de equipo.
 
 ### Página de información general sobre la actualización de interfaz para iteraciones
 
