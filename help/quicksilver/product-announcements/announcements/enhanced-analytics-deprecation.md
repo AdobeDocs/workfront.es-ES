@@ -6,10 +6,10 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 0de6119d-6a47-41f2-87da-2c6752ca436b
-source-git-commit: 905aaaa5d300bc71058dd6ee2d568c8fc1229570
+source-git-commit: c8e47417fa52ef2bf5839d351f1376e733dbe1b2
 workflow-type: tm+mt
-source-wordcount: '343'
-ht-degree: 0%
+source-wordcount: '341'
+ht-degree: 2%
 
 ---
 
@@ -52,16 +52,15 @@ Utilice las consultas de los artículos siguientes para crear visualizaciones de
 
 Muy pronto:
 
-* Consultas de plan de vuelo
-* Consultas de actividades de proyecto
-* Consultas de diagrama de proyecto
-* Consultas de personas
-
+* Plan de grupo
+* Actividades de proyecto
+* Diagrama de árbol del proyecto
+* Actividad por equipo
 <!--
 * [Flight plan queries](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/flight-plan-queries.md)
 * [Project activities queries](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/project-activity-queries.md)
 * [Project treemap queries](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/project-tree-map-queries.md) 
-* [People queries](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/people-queries.md)
+* [Activity by team queries](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/team-queries.md)
 -->
 
 ### Pedir ayuda
