@@ -6,23 +6,23 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7d6de742-9657-4286-968c-1fc78ebbb94e
-source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
+source-git-commit: 6d9583f8a0e1e0c3712c8a47d68c5d5d321679f9
 workflow-type: tm+mt
-source-wordcount: '678'
-ht-degree: 2%
+source-wordcount: '675'
+ht-degree: 50%
 
 ---
 
 
-# Editar tipos de registros
+# Editar tipos de registro
 
 {{planning-important-intro}}
 
-Los tipos de registro son los tipos de objetos de Adobe Workfront Planning. Puede editar el aspecto de los tipos de registro que usted o cualquier otra persona hayan creado. Para obtener información acerca de cómo crear tipos de registros de Workfront Planning, vea [Crear tipos de registros](/help/quicksilver/planning/architecture/create-record-types.md).
+Los tipos de registro son los tipos de objetos de Adobe Workfront Planning. Puede editar el aspecto de los tipos de registro que usted o cualquier otra persona hayan creado. Para obtener información sobre cómo crear tipos de registro de Workfront Planning, consulte [Crear tipos de registro](/help/quicksilver/planning/architecture/create-record-types.md).
 
 ## Requisitos de acceso
 
-+++ Amplíe para ver los requisitos de acceso para Workfront Planning.
++++ Amplíe para ver los requisitos de acceso.
 
 Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
@@ -41,7 +41,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
    <li><p> Planificación de Adobe Workfront<p></li></ul></td> 
   </tr>   
 <tr> 
-   <td role="rowheader"><p>plan Adobe Workfront*</p></td> 
+   <td role="rowheader"><p>Plan de Adobe Workfront*</p></td> 
    <td> 
 <p>Cualquiera de los siguientes planes de Workfront:</p> 
 <ul><li>Seleccionar</li> 
@@ -58,8 +58,8 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  <tr> 
    <td role="rowheader"><p>plataforma de Adobe Workfront</p></td> 
    <td> 
-<p>La instancia de Workfront de su organización debe incorporarse a la experiencia Adobe unificado para poder acceder a todas las funcionalidades de Workfront Planning.</p> 
-<p>Para obtener más información, consulte <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Experiencia unificada de Adobe para Workfront</a>. </p> 
+<p>La instancia de Workfront de su organización debe incorporarse a Adobe Unified Experience para poder acceder a todas las funcionalidades de Workfront Planning.</p> 
+<p>Para obtener más información, consulte <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience para Workfront</a>. </p> 
    </td> 
    </tr> 
   </tr> 
@@ -70,13 +70,13 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Configuración del nivel de acceso</p></td> 
+   <td role="rowheader"><p>Configuración de nivel de acceso</p></td> 
    <td> <p>No hay controles de nivel de acceso para Adobe Workfront Planning</p>   
 </td> 
   </tr> 
 <tr> 
    <td role="rowheader"><p>Permisos de objeto</p></td> 
-   <td>   <p>Administrar permisos en un espacio de trabajo</a> </p>  
+   <td>   <p>Permisos de administración en un espacio de trabajo</a> </p>  
    <p>Los administradores del sistema tienen permisos para todos los espacios de trabajo, incluidos los que no crearon</p>
    <p>Solo los administradores del sistema pueden habilitar tipos de registros para conectarse desde otros espacios de trabajo</p> </td> 
   </tr> 
@@ -150,18 +150,18 @@ OLD:
 
 *For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).-->
 
-## Editar tipos de registros
+## Editar tipos de registro
 
 {{step1-to-planning}}
 
-1. Haga clic en el espacio de trabajo cuyos tipos de registros desee editar.
+1. Haga clic en el espacio de trabajo cuyos tipos de registro desee editar.
 
    Se abre la página del espacio de trabajo y se muestran los tipos de registro.
 1. Realice una de las siguientes acciones:
 
-   * Pase el ratón sobre la tarjeta de un tipo de registro y haga clic en el menú **Más** ![](assets/more-menu.png) en la esquina superior derecha de la tarjeta del tipo de registro; a continuación, haga clic en **Editar**
+   * Pase el puntero por encima de la tarjeta de un tipo de registro y haga clic en el menú **Más** ![](assets/more-menu.png) en la esquina superior derecha de la tarjeta del tipo de registro; a continuación, haga clic en **Editar**
 O
-   * Haga clic en una tarjeta de tipo de registro para abrir la página de tipo de registro, haga clic en el menú **Más** ![](assets/more-menu.png) a la derecha del nombre del tipo de registro y, a continuación, haga clic en **Editar**.
+   * Haga clic en una tarjeta de tipo de registro para abrir la página de tipo de registro, haga clic en el menú **Más** ![](assets/more-menu.png) situado a la derecha del nombre del tipo de registro y, a continuación, haga clic en **Editar**.
 
    ![](assets/more-menu-options-from-record-type-card.png)
 
@@ -171,8 +171,8 @@ O
 
    Actualice la siguiente información en la ficha **Apariencia**:
 
-   * Edite el nombre del tipo de registro si es necesario. <!--did they add a field label for this?-->
-   * **Descripción**: edite o agregue una descripción para el tipo de registro con más información al respecto.
+   * Edite el nombre del tipo de registro, si es necesario. <!--did they add a field label for this?-->
+   * **Descripción**: edite o añada una descripción para el tipo de registro con más información al respecto.
    * Edite el color y la forma del icono asociado al tipo de registro. Haga lo siguiente:
       * Seleccione un color para identificar el tipo de registro. Es el color del icono de tipo de registro.
       * Seleccione un icono de la lista o empiece a escribir el nombre de un icono para describir lo que representa y, a continuación, selecciónelo cuando se muestre. Este es el icono del tipo de registro. De forma predeterminada, se selecciona un icono de archivo.
@@ -183,7 +183,7 @@ O
 
 1. (Condicional) Como administrador del sistema, actualice la siguiente información en la ficha **Configuración avanzada**:
 
-   * **Conectar desde otros espacios de trabajo**: seleccione esta opción para permitir que los usuarios se conecten a este tipo de registro desde otros espacios de trabajo. De forma predeterminada, esta opción no está seleccionada.
+   * **Conectar desde otros espacios de trabajo**: seleccione esta opción para permitir que los usuarios se conecten a este tipo de registro desde otros espacios de trabajo. Esta opción está desactivada de forma predeterminada.
    * **En todo el sistema**: seleccione esta opción para permitir que los usuarios se conecten a este registro desde todos los espacios de trabajo del sistema.
    * **Espacios de trabajo específicos**: seleccione esta opción para restringir los espacios de trabajo desde los cuales los usuarios pueden conectarse a este tipo de registro; a continuación, expanda el menú desplegable y seleccione los espacios de trabajo desde los que desea que los usuarios se conecten a este tipo de registro. Puede empezar a escribir el nombre de un espacio de trabajo y seleccionarlo cuando se muestre en la lista.
 

@@ -6,10 +6,10 @@ description: Puede organizar el tipo de problemas o solicitudes que se registran
 author: Lisa
 feature: Work Management
 exl-id: 627749bb-a8d7-4cc2-9d11-237811f82eb8
-source-git-commit: 067a5bd54f794574f5f2d1ad98ad29b6e02ab297
+source-git-commit: 6d9583f8a0e1e0c3712c8a47d68c5d5d321679f9
 workflow-type: tm+mt
-source-wordcount: '376'
-ht-degree: 2%
+source-wordcount: '387'
+ht-degree: 22%
 
 ---
 
@@ -21,7 +21,7 @@ Esta organización resulta útil por motivos de creación de informes y para ayu
 
 ## Requisitos de acceso
 
-+++
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
 Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
@@ -30,7 +30,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plan de Adobe Workfront</td> 
+   <td role="rowheader">Plan de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
@@ -42,7 +42,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso</td> 
-   <td> <p>Editar acceso a Proyectos</p></td> 
+   <td> <p>Acceso de edición a proyectos</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
@@ -67,7 +67,7 @@ Antes de empezar, debe hacer lo siguiente:
 
 * Puede especificar el tipo de problemas o solicitudes que se pueden registrar en un proyecto al configurar el área de **Detalles de la cola** para el proyecto.
 * No es necesario habilitar el proyecto para que sea una cola de solicitudes y poder definir los tipos de solicitudes de un proyecto. Cualquier problema registrado para un proyecto puede etiquetarse con un tipo de solicitud diferente.
-* Si agrega Temas de colas al proyecto, debe definir Tipos de solicitudes en cada tema de la cola para mostrarlo al agregar un nuevo problema o solicitud. Para obtener más información, vea [Crear temas de colas](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
+* Si agrega Temas de colas al proyecto, debe definir Tipos de solicitudes en cada tema de la cola para mostrarlo al agregar un nuevo problema o solicitud. Para obtener más información, consulte [Crear temas de la cola](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
 
 ## Definición del problema o los tipos de solicitud de un proyecto
 

@@ -6,10 +6,10 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
+source-git-commit: 6d9583f8a0e1e0c3712c8a47d68c5d5d321679f9
 workflow-type: tm+mt
-source-wordcount: '2638'
-ht-degree: 0%
+source-wordcount: '2635'
+ht-degree: 70%
 
 ---
 
@@ -17,13 +17,13 @@ ht-degree: 0%
 
 {{planning-important-intro}}
 
-Puede mostrar registros en una vista de cronología al acceder a la página de tipo de registro en Adobe Workfront Planning.
+Puede mostrar registros en una vista de línea de tiempo al acceder a la página de tipo de registro en Adobe Workfront Planning.
 
 Para obtener información sobre las vistas de registros, consulte [Administrar vistas de registros](/help/quicksilver/planning/views/manage-record-views.md).
 
 ## Requisitos de acceso
 
-+++ Amplíe para ver los requisitos de acceso para Workfront Planning.
++++ Amplíe para ver los requisitos de acceso.
 
 Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
@@ -42,7 +42,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
    <li><p> Planificación de Adobe Workfront<p></li></ul></td> 
   </tr>   
 <tr> 
-   <td role="rowheader"><p>plan Adobe Workfront*</p></td> 
+   <td role="rowheader"><p>Plan de Adobe Workfront*</p></td> 
    <td> 
 <p>Cualquiera de los siguientes planes de Workfront:</p> 
 <ul><li>Seleccionar</li> 
@@ -59,8 +59,8 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  <tr> 
    <td role="rowheader"><p>plataforma de Adobe Workfront</p></td> 
    <td> 
-<p>La instancia de Workfront de su organización debe incorporarse a la experiencia Adobe unificado para poder acceder a todas las funcionalidades de Workfront Planning.</p> 
-<p>Para obtener más información, consulte <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Experiencia unificada de Adobe para Workfront</a>. </p> 
+<p>La instancia de Workfront de su organización debe incorporarse a Adobe Unified Experience para poder acceder a todas las funcionalidades de Workfront Planning.</p> 
+<p>Para obtener más información, consulte <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience para Workfront</a>. </p> 
    </td> 
    </tr> 
   </tr> 
@@ -71,14 +71,14 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Configuración del nivel de acceso</p></td> 
+   <td role="rowheader"><p>Configuración de nivel de acceso</p></td> 
    <td> <p>No hay controles de nivel de acceso para Adobe Workfront Planning</p>   
 </td> 
   </tr> 
 <tr> 
    <td role="rowheader"><p>Permisos de objeto</p></td> 
-   <td>   <p>Administración de permisos en una vista</p>  
-   <p>Ver permisos de una vista para cambiar temporalmente su configuración</p> </td> 
+   <td>   <p>Permisos de administración de una vista</p>  
+   <p>Permisos de visualización de una vista para cambiar temporalmente su configuración</p> </td> 
   </tr> 
 <tr> 
    <td role="rowheader"><p>Plantilla de diseño</p></td> 
@@ -150,52 +150,52 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 *For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).-->
 
 
-## Administrar una vista de cronología {#manage-a-timeline-view}
+## Administrar una vista de línea de tiempo {#manage-a-timeline-view}
 
 <!--insert screen shot of timeline view-->
 
-Al crear una vista de escala de tiempo, todos los registros del tipo de registro seleccionado se muestran en una escala de tiempo cronológica.
+Al crear una vista de línea de tiempo, todos los registros del tipo de registro seleccionado se muestran en una línea de tiempo cronológica.
 
 Tenga en cuenta lo siguiente:
 
-* Sólo puede crear una vista Cronología si tiene al menos dos campos de fecha asociados a un tipo de registro. Cuando hay uno o ningún campo de fecha asociado a un tipo de registro, la opción de vista Cronología aparece atenuada.
+* Solo puede crear una vista de línea de tiempo si tiene al menos dos campos de fecha asociados a un tipo de registro. Cuando hay uno o ningún campo de fecha asociado a un tipo de registro, la opción de vista de línea de tiempo aparece atenuada.
 
   Puede seleccionar los siguientes campos de fecha al crear una vista de cronología:
 
    * Registrar fechas
    * Registrar campos generados por el sistema: fecha de creación, fecha de la última modificación
    * Buscar fechas de tipos de objeto o registro conectados.
-* Según las fechas asociadas con los registros, es posible que algunos registros no se muestren en la vista de escala de tiempo en los siguientes casos:
+* Según las fechas asociadas a los registros, es posible que algunos no se muestren en la vista de línea de tiempo en los siguientes casos:
 
    * Cuando las fechas de inicio y finalización no tienen valores
    * Cuando las fechas de inicio y finalización no tienen valor
    * Cuando la fecha de inicio es posterior a la fecha de finalización
 
-Para administrar una vista de cronología:
+Para administrar una vista de línea de tiempo:
 
-1. Vaya a la página del tipo de registro cuya cronología desea ver.
-1. Cree una vista de escala de tiempo, tal como se describe en el artículo [Administrar vistas de registros](/help/quicksilver/planning/views/manage-record-views.md).
+1. Vaya a la página del tipo de registro cuya línea de tiempo desea ver.
+1. Cree una vista de línea de tiempo, tal como se describe en el artículo [Administrar vistas de registros](/help/quicksilver/planning/views/manage-record-views.md).
 
    ![](assets/timeline-view-example.png)
 
-   Los registros asociados con el tipo de registro seleccionado se muestran como barras en una cronología y se ordenan en orden cronológico de su fecha de inicio de forma predeterminada.
+   Los registros asociados al tipo de registro seleccionado se muestran como barras en una línea de tiempo y se ordenan en orden cronológico según su fecha de inicio de forma predeterminada.
 
    >[!TIP]
    >
-   >    La ordenación de los registros de la cronología no es visible en la vista Compacta.
+   >    La ordenación de los registros en la línea de tiempo no es visible en la vista compacta.
 
 1. (Opcional y condicional) Cuando el nombre del registro esté truncado, pase el ratón sobre una barra de registros para mostrar el nombre completo del registro y la información adicional.
 
-1. Realice una de las siguientes acciones para navegar por la cronología:
+1. Realice una de las siguientes acciones para navegar por la línea de tiempo:
 
-   * Haga clic en los iconos izquierdo y derecho o utilice el desplazamiento horizontal para moverse hacia atrás y hacia adelante en la cronología. Al actualizar la página, se conserva el lapso de tiempo seleccionado.
-   * Haga clic en **Hoy** para centrar la escala de tiempo en la fecha de hoy.
-   * Seleccione una de las siguientes opciones del menú desplegable lapso de tiempo para actualizar los incrementos de tiempo:
+   * Haga clic en los iconos izquierdo y derecho o utilice el desplazamiento horizontal para moverse hacia atrás y hacia adelante en la línea de tiempo. Al actualizar la página, se conserva el lapso de tiempo seleccionado.
+   * Haga clic en **Hoy** para centrar la línea de tiempo en la fecha de hoy.
+   * Seleccione una de las siguientes opciones del menú desplegable de lapso de tiempo para actualizar los incrementos de tiempo:
 
       * Año
       * Trimestre
       * Mes
-1. Haga clic en **Cambiar a la vista Estándar** para mostrar los registros en líneas independientes <!--check to see if they updated the name of the setting here-->
+1. Haga clic en **Cambiar a vista estándar** para mostrar los registros en líneas independientes <!--check to see if they updated the name of the setting here-->
 
    O
 
@@ -205,16 +205,16 @@ Para administrar una vista de cronología:
 
 1. Haga lo siguiente para buscar rápidamente registros que coincidan con una palabra clave:
 
-   1. Haga clic en el icono **Search** ![](assets/search-icon.png) y empiece a escribir una palabra clave asociada a cualquier campo de un registro que se muestra en la pantalla. El número de coincidencias correctas se muestra junto al elemento de búsqueda y el registro con la coincidencia correcta se resalta.
+   1. Haga clic en el icono **Búsqueda** ![](assets/search-icon.png) y empiece a escribir una palabra clave asociada a cualquier campo de un registro que se muestra en la pantalla. El número de coincidencias correctas se muestra junto al elemento de búsqueda y el registro con la coincidencia correcta se resalta.
 
       ![](assets/search-box-and-results-timeline-view.png)
 
       Puede utilizar cualquier palabra o carácter especial que esté visible en la pantalla.
 
-      No se pueden utilizar palabras clave asociadas a campos que no se muestran en la vista de cronología.
+      No se pueden utilizar palabras clave asociadas a campos que no se muestran en la vista de línea de tiempo.
 
-   1. Pulse Enter en el teclado para ir al siguiente campo encontrado.
-   1. (Opcional) Si hay más de una coincidencia, haga clic en las flechas arriba y abajo a la derecha de la palabra clave de búsqueda para encontrar todas las coincidencias de la tabla.
+   1. Pulse Intro en el teclado para ir al siguiente campo encontrado.
+   1. (Opcional) Si hay más de una coincidencia, haga clic en las flechas arriba y abajo situadas a la derecha de la palabra clave de búsqueda para encontrar todas las coincidencias de la tabla.
    1. Haga clic en el icono **x** en el cuadro de búsqueda para borrar la palabra clave de búsqueda.
 
 1. Actualice los siguientes elementos de vista como se describe en las subsecciones siguientes:
@@ -231,25 +231,25 @@ Para administrar una vista de cronología:
 
 Puede reducir la cantidad de información que se muestra en la pantalla mediante filtros.
 
-Tenga en cuenta lo siguiente al trabajar con filtros en la vista de cronología:
+Tenga en cuenta lo siguiente al trabajar con filtros en la vista de línea de tiempo:
 
 <!-- this list is almost identical to the one for the table view - update both-->
 
-* Los filtros que cree para una vista de cronología funcionarán de forma independiente de los filtros de cualquier otra vista aplicada al mismo tipo de registro.
+* Los filtros que cree para una vista de línea de tiempo funcionarán de forma independiente de los filtros de cualquier otra vista aplicada al mismo tipo de registro.
 
-* Los filtros son exclusivos de la vista seleccionada. Dos vistas de escala de tiempo del mismo tipo de registro pueden tener diferentes filtros aplicados.
+* Los filtros son exclusivos de la vista que seleccione. Dos vistas de línea de tiempo del mismo tipo de registro pueden tener diferentes filtros aplicados.
 
-* Dos usuarios que ven la misma vista de cronología ven el mismo filtro que se aplica actualmente.
+* Dos usuarios que ven la misma vista de línea de tiempo ven el mismo filtro que se aplica actualmente.
 
-* No puede asignar un nombre a los filtros que genere para una vista de cronología.
+* No puede asignar un nombre a los filtros que genere para una vista de línea de tiempo.
 
-* Al eliminar los filtros, se eliminan de todos los que tengan acceso al mismo tipo de registro que usted y que muestren la misma vista que usted.
+* Al eliminar los filtros, se eliminan de todos los usuarios que tengan acceso al mismo tipo de registro que usted y que muestren la misma vista que usted.
 
-* Añadir filtros en la vista de cronología es idéntico a añadir filtros en la vista de tabla.
+* Añadir filtros en la vista de línea de tiempo es idéntico a añadir filtros en la vista de tabla.
 
-  Para obtener más información, consulte la sección &quot;Agregar filtros&quot; en el artículo [Administrar la vista de tabla](/help/quicksilver/planning/views/manage-the-table-view.md).
+  Para obtener más información, consulte la sección “Añadir filtros” del artículo [Administrar la vista de tabla](/help/quicksilver/planning/views/manage-the-table-view.md).
 
-* Puede filtrar por campos de registro conectados o campos de búsqueda.
+* Puede filtrar por campos de registro conectados o por campos de búsqueda.
 * Puede filtrar por campos de búsqueda que muestren varios valores.
 
 
@@ -257,41 +257,41 @@ Tenga en cuenta lo siguiente al trabajar con filtros en la vista de cronología:
 
 <!-- groupings are almost identical between this view and table  but they display a little differently, so I kept the steps for both; update in both places if they make changes to groupings-->
 
-Puede agrupar registros por información similar al aplicar una agrupación a una vista.
+Es posible agrupar registros por información similar al aplicar una agrupación a una vista.
 
-Agregar agrupaciones en la vista de escala de tiempo es similar a agregar agrupaciones a la vista de tabla.
+Añadir agrupaciones en la vista de línea de tiempo es similar a añadir agrupaciones a la vista de tabla.
 
-Tenga en cuenta lo siguiente al trabajar con agrupaciones en la vista de cronología:
+Tenga en cuenta lo siguiente al trabajar con agrupaciones en la vista de línea de tiempo:
 
-* Puede aplicar agrupaciones tanto en las vistas de tabla como de escala de tiempo. Las agrupaciones de la vista de tabla son independientes de las de la vista de escala de tiempo del mismo tipo de registro.
-* Se pueden aplicar 3 niveles de agrupación en una vista. Los registros se agrupan en el orden de agrupaciones que seleccione.
-&lt;!—* Puede aplicar hasta 4 niveles de agrupación al utilizar la API. —comprobando este por ahora—>
-* Las agrupaciones son únicas para la vista que seleccione. Dos vistas de tabla del mismo tipo de registro pueden tener diferentes agrupaciones aplicadas. Dos usuarios que ven la misma vista de tabla ven la misma agrupación que se aplica actualmente.
-* No puede asignar un nombre a las agrupaciones que genere para una vista de tabla.
-* Al quitar las agrupaciones, se quitan de cualquier usuario que tenga acceso al mismo tipo de registro que usted y que muestre la misma vista que usted.
-* Puede editar los registros enumerados bajo una agrupación.
-* Puede agrupar por campos de registro conectados o campos de búsqueda.
-* Cuando se agrupan por campos de búsqueda con varios valores (que no se han resumido con un agregador), los registros se agrupan por cada combinación única de valores de campo.
-* Puede hacer referencia a un campo que esté situado a una distancia de hasta 4 niveles del tipo de registro actual. Por ejemplo, si está creando una agrupación para un tipo de registro de actividad y la actividad está conectada al tipo de registro de producto conectado al tipo de registro de campaña conectado a un proyecto de Workfront, puede hacer referencia al estado del proyecto en la agrupación que está creando para el tipo de registro de actividad.
+* Es posible aplicar agrupaciones tanto en las vistas de tabla como de línea de tiempo. Las agrupaciones de la vista de tabla son independientes de las de la vista de línea de tiempo del mismo tipo de registro.
+* Se pueden aplicar 3 niveles de agrupación en una vista. Los registros se agrupan en el orden de agrupaciones que se seleccione.
+&lt;!--* Es posible aplicar hasta 4 niveles de agrupación al utilizar la API. --comprobando este ahora-->
+* Las agrupaciones son únicas para la vista que se seleccione. Dos vistas de tabla del mismo tipo de registro pueden tener diferentes agrupaciones aplicadas. Dos usuarios que vean la misma vista de tabla verán la misma agrupación que se aplique en ese momento.
+* No se puede asignar un nombre a las agrupaciones que se generen para una vista de tabla.
+* Al quitar las agrupaciones, se quitarán de cualquier usuario que tenga acceso al mismo tipo de registro y que muestre la misma vista que usted.
+* Es posible editar los registros enumerados bajo una agrupación.
+* Es posible agrupar por campos de registro conectados o campos de búsqueda.
+* Cuando se agrupan por campos de búsqueda con varios valores (que no se hayan resumido por un agregador), los registros se agruparán según cada combinación única de valores de campo.
+* Puede hacer referencia a un campo que esté situado a una distancia de hasta 4 niveles del tipo de registro actual. Por ejemplo, si se crea una agrupación para un tipo de registro de actividad y la actividad estuviera conectada al tipo de registro de producto, que está conectado al tipo de registro de campaña, y que está conectado a un proyecto de Workfront, se podrá hacer referencia al estado del proyecto en la agrupación que esté creando para el tipo de registro de actividad.
 <!--checking into this: * You can apply up to 4 levels of grouping when using the API. -->
 <!-- checking also into this: * You cannot group by a Paragraph-type field.-->
 
-Para agregar una agrupación en la vista de escala de tiempo:
+Para añadir una agrupación en la vista de línea de tiempo:
 
-1. Cree una vista de escala de tiempo para un tipo de registro, tal como se describe en el artículo [Administrar vistas de registros](/help/quicksilver/planning/views/manage-record-views.md).
-1. Haga clic en **Agrupación** en la esquina superior derecha de la vista de escala de tiempo.
+1. Cree una vista de línea de tiempo para un tipo de registro, tal y como se describe en el artículo [Administración de vistas de registros](/help/quicksilver/planning/views/manage-record-views.md).
+1. Haga clic en **Agrupación** en la esquina superior derecha de la vista de línea de tiempo.
 
    ![](assets/grouping-ui-timeline-view-with-linked-fields.png)
 
-1. Haga clic en uno de los campos sugeridos o haga clic en **Elija un campo diferente**, busque un campo diferente y, a continuación, haga clic en él cuando se muestre en la lista.
+1. Haga clic en uno de los campos sugeridos o haga clic en **Elegir un campo diferente**, busque un campo diferente y, a continuación, haga clic en él cuando se muestre en la lista.
 
-   La agrupación se aplica automáticamente a la cronología y los registros se muestran dentro del cuadro de agrupación.
+   La agrupación se aplica automáticamente a la línea de tiempo y los registros se muestran dentro del cuadro de agrupación.
 
    <!-- add a step that you can rearrange the groupings here, when this will be possible-->
 
-1. (Opcional) Repita los pasos anteriores para agregar hasta 3 agrupaciones.
+1. (Opcional) Repita los pasos anteriores para añadir hasta 3 agrupaciones.
 
-   El número de campos seleccionados para la agrupación se muestra junto al icono Grouping.
+   El número de campos seleccionados para la agrupación se muestra junto al icono de Agrupación.
 
    <!-- update screen shot with view redesign-->
 
@@ -301,10 +301,10 @@ Para agregar una agrupación en la vista de escala de tiempo:
 
    O
 
-   Haga clic en **Borrar todo** para eliminar todos los campos.
+   Haga clic en **Borrar todo** para quitar todos los campos.
 
 1. Haga clic fuera del cuadro **Agrupar registros por** para cerrarlo.
-1. (Opcional) Haga clic en **Configuración** y, a continuación, en **Color** para añadir agrupaciones con códigos de color. Para obtener más información, consulte la sección [Editar la configuración de la vista de la cronología](#edit-the-timeline-view-settings) en este artículo.
+1. (Opcional) Haga clic en **Configuración** y, a continuación, en **Color** para añadir agrupaciones con códigos de color. Para obtener más información, consulte la sección [Editar la configuración de la vista de línea de tiempo](#edit-the-timeline-view-settings) en este artículo.
 
 <!-- 
 
@@ -314,53 +314,53 @@ this is not possible right now; if this is the same functionality as the table v
 
 -->
 
-### Editar la configuración de vista de cronología {#edit-the-timeline-view-settings}
+### Editar la configuración de la vista de línea de tiempo {#edit-the-timeline-view-settings}
 
-Actualice la configuración de vista de escala de tiempo para indicar qué información se muestra en la sección de escala de tiempo de la vista y cómo.
+Actualice la configuración de la vista de línea de tiempo para indicar qué información se muestra en la sección de línea de tiempo de la vista y cómo se muestra.
 
-1. Cree una vista de escala de tiempo para un tipo de registro, tal como se describe en el artículo [Administrar vistas de registros](/help/quicksilver/planning/views/manage-record-views.md).
+1. Cree una vista de línea de tiempo para un tipo de registro, tal y como se describe en el artículo [Administración de vistas de registros](/help/quicksilver/planning/views/manage-record-views.md).
 1. Haga clic en **Configuración**.
-1. Haga clic en **Fecha y hora** en el panel izquierdo, luego seleccione una **fecha de inicio** y una **fecha de finalización** para mostrar en la cronología. Puede elegir las fechas de inicio y finalización predeterminadas, o bien puede elegir cualquier campo de fecha disponible. Las barras que representan los registros comienzan en la fecha que se indica para la fecha Start y finalizan en la fecha correspondiente a End date.
+1. Haga clic en **Fecha y hora** en el panel izquierdo, luego seleccione una **Fecha de inicio** y una **Fecha de finalización** para mostrar en la línea de tiempo. Puede elegir las fechas de inicio y finalización predeterminadas, o bien puede elegir cualquier campo de fecha disponible. Las barras que representan los registros comienzan en la fecha que se indica para la Fecha de inicio y finalizan en la fecha correspondiente a la Fecha de finalización.
 
    >[!NOTE]
    >
-   >Los registros que no tienen valores para las fechas Start o End o que tienen una fecha Start posterior a End no se muestran en la vista de escala de tiempo.
+   >Los registros que no tienen valores para las fechas de inicio o finalización o que tienen una fecha de inicio posterior a la fecha de finalización no se muestran en la vista de línea de tiempo.
 
 1. Haga clic en **Estilo de barra** en el panel izquierdo para indicar qué campos desea mostrar en las barras de registros.
 
-   El campo principal (o título) del registro, tal como se define en la vista de tabla del registro, está seleccionado de forma predeterminada. <!--adjust this when the primary field is released??-->
+   El campo principal (o título) del registro, tal y como se define en la vista de tabla del registro, está seleccionado de forma predeterminada. <!--adjust this when the primary field is released??-->
 
-1. (Opcional y condicional) Si ha agregado miniaturas a los registros, seleccione la opción Miniatura para mostrar la imagen asociada a los registros en la barra de registros.
+1. (Opcional y condicional) Si ha añadido miniaturas a los registros, seleccione la opción Miniatura para mostrar la imagen asociada a los registros en la barra de registros.
 
    >[!NOTE]
    >
-   >    Primero debe agregar miniaturas en la vista de tabla para poder mostrarlas en la vista de escala de tiempo. Para obtener más información, vea [Agregar una miniatura a un registro](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
+   >    Primero debe añadir miniaturas en la vista de tabla para poder mostrarlas en la vista de línea de tiempo. Para obtener más información, consulte [Añadir una miniatura a un registro](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
 
-1. Haga clic en **Agregar campo** para agregar hasta 4 campos a las barras de registros.
-1. Haga clic dentro del cuadro **Buscar campos** y haga clic en el campo que desee agregar.
+1. Haga clic en **Añadir campo** para añadir hasta 4 campos a las barras de registro.
+1. Haga clic dentro del cuadro **Buscar campos** y haga clic en el campo que desee añadir.
 
    >[!TIP]
    >
-   >   * Debe crear los campos para poder agregarlos a las barras de registros.
+   >   * Debe crear los campos antes de poder añadirlos a las barras de registro.
    > 
-   >   * Debe haber seleccionado al menos un campo. **Nombre** está seleccionado de manera predeterminada.
+   >   * Debe tener al menos un campo seleccionado. **Nombre** está seleccionado de manera predeterminada.
 
-   A la derecha aparece una vista previa del aspecto que tendrán las barras en la cronología.
+   A la derecha aparece una vista previa del aspecto que tendrán las barras en la línea de tiempo.
 
    ![](assets/record-details-panel-timeline-settings-with-preview.png)
 
-1. Haga clic en **Color** en el panel izquierdo para personalizar los colores de los registros y agrupaciones en la cronología.
+1. Haga clic en **Color** en el panel izquierdo para personalizar los colores de los registros y agrupaciones en la línea de tiempo.
 
    ![](assets/color-tab-timeline-view.png)
 
-1. (Condicional y opcional) Si agregó una agrupación a la vista de escala de tiempo, seleccione entre las siguientes opciones para establecer un color para la agrupación en la sección **Establecer color de agrupación**:
+1. (Condicional y opcional) Si ha añadido una agrupación a la vista de línea de tiempo, seleccione una de las siguientes opciones para establecer un color para la agrupación en la sección **Establecer color de agrupación**:
 
-   * **Predeterminado (gris)**: el color de las agrupaciones está establecido en gris. Esta es la opción predeterminada.
-   * **Valores de campo**: El color de las agrupaciones coincide con el color del campo por el que se agrupa.
+   * **Predeterminado (gris)**: el color de las agrupaciones está establecido en gris. Es la opción predeterminada.
+   * **Valores de campo**: el color de las agrupaciones coincide con el color del campo por el que se agrupa.
 
      >[!NOTE]
      >
-     >    * Puede hacer coincidir el color solo con campos con opciones codificadas por colores. Por ejemplo, puede hacer coincidir el color con los campos de Estado o con las opciones asociadas con los colores.
+     >    * Puede hacer coincidir el color solo con los campos con opciones codificadas por colores. Por ejemplo, puede hacer coincidir el color con campos de Estado, o campos con opciones asociadas a colores.
      >    
      >    * No se puede hacer coincidir el color con los campos de búsqueda de tipos de objeto o registro vinculados.
 
@@ -371,16 +371,16 @@ Actualice la configuración de vista de escala de tiempo para indicar qué infor
 
    >[!TIP]
    >
-   >Si no ha agregado agrupaciones a la vista de cronología, esta sección no se muestra.
+   >Si no ha añadido agrupaciones a la vista de línea de tiempo, esta sección no aparece.
 
 1. En la sección **Establecer color de registro**, seleccione entre las siguientes opciones para establecer un color para los registros:
 
-   * **Tipo de registro**: El color de los registros coincide con el color del tipo de registro seleccionado. Esta es la opción predeterminada.
-   * **Valores de campo**: El color de los registros coincide con el color de un campo que especifique. Continúe con el paso 10. <!--ensure this stays accurate-->
-   * **Agrupación**: El color de los registros coincide con el color indicado para las agrupaciones. Esta opción aparece atenuada cuando no se han aplicado agrupaciones a la vista de escala de tiempo.
+   * **Tipo de registro**: el color de los registros coincide con el color del tipo de registro seleccionado. Esta es la opción predeterminada.
+   * **Valores de campo**: el color de los registros coincide con el color de un campo que especifique. Continúe con el paso 10. <!--ensure this stays accurate-->
+   * **Agrupación**: el color de los registros coincide con el color indicado para las agrupaciones. Esta opción aparece atenuada cuando no se han aplicado agrupaciones a la vista de línea de tiempo.
    * **Ninguno**: los registros se muestran en una barra blanca.
 
-1. (Condicional) Si seleccionó **Valores de campo** para los colores de registro, seleccione un campo en el menú desplegable **Coincidir el color del registro con**.
+1. (Condicional) Si ha seleccionado **Valores de campo** para los colores de registro, seleccione un campo en el menú desplegable **Hacer coincidir el color del registro con**.
 
    ![](assets/field-selector-drop-down-menu-timeline-view.png)
 
@@ -392,7 +392,7 @@ Actualice la configuración de vista de escala de tiempo para indicar qué infor
 
 1. Haga clic en **Guardar**.
 
-   Los registros se muestran en la vista de escala de tiempo con las especificaciones seleccionadas.
+   Los registros se muestran en la vista de línea de tiempo con las especificaciones seleccionadas.
 
 ### Utilice la función Desglose para mostrar los registros conectados en la vista de cronología
 
@@ -403,7 +403,7 @@ Puede mostrar los registros conectados en la vista de escala de tiempo de un reg
 * Puede mostrar registros u objetos conectados debajo de los registros del tipo de registro seleccionado en la vista de escala de tiempo.
 * Puede mostrar lo siguiente en la vista de cronología mediante la función Desglose:
    * Registros de Workfront Planning conectados al tipo de registro seleccionado.
-   * Tipos de objetos Workfront o recursos de Experience Manager conectados al tipo de registro seleccionado.
+   * Tipos de objetos Workfront o recursos Experience Manager conectados al tipo de registro seleccionado.
    * Registros de Workfront Planning u objetos de otra aplicación conectados a registros conectados al tipo de registro seleccionado.
 
      Por ejemplo, puede conectar campañas a portafolios. Además, puede conectar otro tipo de registro, productos, con proyectos, así como con campañas. Cuando genere la vista de la cronología de la campaña, puede desglosar las campañas por portafolios, productos y proyectos.
@@ -420,7 +420,7 @@ Puede mostrar los registros conectados en la vista de escala de tiempo de un reg
 
 #### Desglose de registros conectados en la vista de cronología
 
-1. Cree una vista de escala de tiempo para un tipo de registro, tal como se describe en el artículo [Administrar vistas de registros](/help/quicksilver/planning/views/manage-record-views.md).
+1. Cree una vista de línea de tiempo para un tipo de registro, tal y como se describe en el artículo [Administración de vistas de registros](/help/quicksilver/planning/views/manage-record-views.md).
 1. (Condicional) Si está viendo la vista de escala de tiempo en el modo Estándar, haga clic en **Desglose**.
 1. Expanda el cuadro **Seleccionar un tipo de registro vinculado** y seleccione un tipo de registro conectado. <!--add a new screen shot - submitted a bug to remove the "the"-->
 

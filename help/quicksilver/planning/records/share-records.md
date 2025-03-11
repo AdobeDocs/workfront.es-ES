@@ -6,10 +6,10 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 83ff53ac-f18e-4b71-bdb2-57e05d69ed29
-source-git-commit: bddd0dcd2263bd65420a17e4b9cc74336877719f
+source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
 workflow-type: tm+mt
-source-wordcount: '515'
-ht-degree: 81%
+source-wordcount: '510'
+ht-degree: 75%
 
 ---
 
@@ -17,6 +17,10 @@ ht-degree: 81%
 <!--should this move to the Access folder when we have sharing for ALL the objects???-->
 
 # Compartir registros
+
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -28,13 +32,28 @@ Puede compartir un registro de Adobe Workfront Planning de las siguientes manera
 
 * Copie un vínculo a la página del registro cuando vea registros en la vista de tabla del tipo de registro.
 
-* Puede compartir todos los registros de un espacio de trabajo con otros usuarios compartiendo el espacio de trabajo. Para obtener más información, consulte [Compartir un espacio de trabajo](/help/quicksilver/planning/access/share-workspaces.md).
+* Puede compartir todos los registros de un área de trabajo con otros usuarios compartiendo el área de trabajo <!--<span class="preview">and record type</span>--> Para obtener más información, consulte [Compartir un espacio de trabajo](/help/quicksilver/planning/access/share-workspaces.md).
+
+<!-- replace the last sentence above with this: 
+
+For more information see the following articles:
+
+* [Share a workspace](/help/quicksilver/planning/access/share-workspaces.md)
+
+
+<div class="preview">
+
+* [Share a record type](/help/quicksilver/planning/access/share-record-types.md)
+
+</div>
+
+-->
 
 En este artículo se describe cómo copiar un vínculo a la página de un registro desde la vista de tabla de un tipo de registro.
 
 ## Requisitos de acceso
 
-+++ Amplíe para ver los requisitos de acceso para Workfront Planning.
++++ Amplíe para ver los requisitos de acceso.
 
 Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
@@ -88,8 +107,8 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
 <tr> 
    <td role="rowheader"><p>Permisos de objeto</p></td> 
-   <td>  <p>Ver los permisos o niveles superiores de un espacio de trabajo para compartir un registro mediante un vínculo </p>
-   <p>Administre permisos a un espacio de trabajo para compartir registros del espacio de trabajo al que pertenece el registro </p>
+   <td>  <p>Vea o aumente los permisos de un área de trabajo para compartir <!--<span class="preview">and record type</span>--> un registro mediante un vínculo </p>
+   <p>Administrar permisos en un área de trabajo <!--<span class="preview">and record type</span>--> para compartir los registros del área de trabajo </p>
    <p>Los administradores del sistema tienen permisos para todos los espacios de trabajo, incluidos los que no crearon</p>  </td> 
   </tr> 
 <tr> 

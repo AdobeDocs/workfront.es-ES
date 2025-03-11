@@ -6,10 +6,10 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 8de68b70-dd87-4aad-9137-980ea9fc0d69
-source-git-commit: 5db940b197364e30ef6e1ea3e3c94ae3bda5b20c
+source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
 workflow-type: tm+mt
-source-wordcount: '478'
-ht-degree: 31%
+source-wordcount: '475'
+ht-degree: 28%
 
 ---
 
@@ -17,16 +17,14 @@ ht-degree: 31%
 
 <!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases.</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
-
-<span class="preview">For information about the current release, see [Fourth Quarter 2023 release overview](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md).</span>-->
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>-->
 
 
 Para colaborar de forma más eficaz con otras personas que no tengan una cuenta de Workfront, puede exportar los detalles de un registro a un archivo y compartirlo con ellas.
 
 ## Requisitos de acceso
 
-+++ Amplíe para ver los requisitos de acceso para Workfront Planning.
++++ Amplíe para ver los requisitos de acceso.
 
 Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
@@ -62,7 +60,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  <tr> 
    <td role="rowheader"><p>plataforma de Adobe Workfront</p></td> 
    <td> 
-<p>La instancia de Workfront de su organización debe incorporarse a la experiencia Adobe unificado para poder acceder a todas las funcionalidades de Workfront Planning.</p> 
+<p>La instancia de Workfront de su organización debe incorporarse a Adobe Unified Experience para poder acceder a todas las funcionalidades de Workfront Planning.</p> 
 <p>Para obtener más información, consulte <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience para Workfront</a>. </p> 
    </td> 
    </tr> 
@@ -80,7 +78,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
 <tr> 
    <td role="rowheader"><p>Permisos de objeto</p></td> 
-   <td>   <p>Permisos de vista o superiores a un espacio de trabajo</a> </p>  
+   <td>   <p>Ver permisos superiores a un área de trabajo <!--<span class="preview">and record type</span>--> </a> </p>  
    <p>Los administradores del sistema tienen permisos para todos los espacios de trabajo, incluidos los que no crearon</p> </td> 
   </tr> 
 <tr> 
@@ -129,7 +127,7 @@ Se abre la página de tipo de registro y se muestran todos los registros de ese 
    * **Microsoft Word**
    * **Adobe PDF**
 
-   Un archivo de Word (.docx) o de PDF se descarga y se guarda en el equipo.
+   Un archivo de Word (.docx) o PDF se descarga y se guarda en el equipo.
 
    El nombre del archivo exportado es el campo Primary del registro.
 
@@ -137,7 +135,7 @@ Se abre la página de tipo de registro y se muestran todos los registros de ese 
 
    >[!NOTE]
    >
-   >    La información adicional que no se muestra en la página y que solo está visible después de hacer clic en Mostrar más en el área de detalles del registro no se muestra en el archivo de PDF exportado. En el archivo exportado solo se muestra la información visible en la página.
+   >    La información adicional que no se muestra en la página y que solo está visible después de hacer clic en Mostrar más en el área de detalles del registro no se muestra en el archivo PDF exportado. En el archivo exportado solo se muestra la información visible en la página.
 
 
 1. (Opcional) Vaya al archivo descargado, ábralo y edítelo (si es un archivo de Word), o compártalo con otros.

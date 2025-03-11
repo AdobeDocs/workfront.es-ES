@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 3c505b3a-cda7-4e7b-b497-28b820e9bb8f
-source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
+source-git-commit: 6d9583f8a0e1e0c3712c8a47d68c5d5d321679f9
 workflow-type: tm+mt
-source-wordcount: '657'
-ht-degree: 32%
+source-wordcount: '654'
+ht-degree: 31%
 
 ---
 
@@ -35,7 +35,7 @@ Puede recibir notificaciones por correo electrónico de Workfront Planning cuand
 
 ## Requisitos de acceso
 
-+++ Amplíe para ver los requisitos de acceso para Workfront Planning.
++++ Amplíe para ver los requisitos de acceso.
 
 <table style="table-layout:auto"> 
 <col> 
@@ -70,7 +70,7 @@ Puede recibir notificaciones por correo electrónico de Workfront Planning cuand
    <td role="rowheader"><p>plataforma de Adobe Workfront</p></td> 
    <td> 
 <p>La instancia de Workfront de su organización debe incorporarse a la experiencia unificada de Adobe.</p> 
-<p>Los usuarios de su organización solo reciben notificaciones de Workfront Planning cuando su organización está integrada en la Experiencia unificada de Adobe. </p>
+<p>Los usuarios de su organización solo reciben notificaciones de Workfront Planning cuando su organización está integrada en la experiencia unificada de Adobe. </p>
 <p>Para obtener más información, consulte <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience para Workfront</a>. </p> 
    </td> 
    </tr> 
@@ -191,7 +191,7 @@ Para obtener información sobre cómo administrar las notificaciones de Workfron
 ## Administrar notificaciones por correo electrónico sobre el envío, la aprobación o el rechazo de solicitudes de Workfront Planning
 
 1. (Opcional) Vaya al correo electrónico que le envía Workfront
-después de enviar una solicitud, o después de que una solicitud enviada se haya aprobado o rechazado. El remitente del correo electrónico es un Adobe de Workfront.
+después de enviar una solicitud, o después de que una solicitud enviada se haya aprobado o rechazado. El remitente del correo electrónico es Adobe Workfront.
 
 1. (Opcional) Haga clic en **Abrir solicitud**. Esto abre la solicitud en Workfront Planning.
 

@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
-source-git-commit: 00e58ea9a207037b701e1be010c2c4c2995d60e0
+source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
 workflow-type: tm+mt
-source-wordcount: '867'
+source-wordcount: '922'
 ht-degree: 13%
 
 ---
@@ -18,17 +18,17 @@ ht-degree: 13%
 
 # Información general sobre los permisos de uso compartido en Adobe Workfront Planning
 
+<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después de las versiones mensuales en Production, las mismas funciones también están disponibles en el entorno Production para los clientes que habilitaron versiones rápidas. </span>
+
+<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
+
+
 {{planning-important-intro}}
 
 Puede compartir o quitar permisos en un espacio de trabajo o vista de Adobe Workfront Planning.
 
 En este artículo se describen los niveles de permisos para los objetos de Workfront Planning.
-
-Para obtener información sobre cómo compartir espacios de trabajo o vistas, consulte los siguientes artículos:
-
-* [Compartir espacios de trabajo](/help/quicksilver/planning/access/share-workspaces.md)
-
-* [Compartir vistas](/help/quicksilver/planning/access/share-views.md)
 
 ## Objetos que se pueden compartir en Adobe Workfront Planning
 
@@ -39,6 +39,22 @@ Puede compartir los siguientes objetos:
    * Puede compartir espacios de trabajo con personas de su organización.
    * Al compartir un espacio de trabajo, también se comparten todos los tipos de registros, registros y campos asociados a los espacios de trabajo.
    * Al compartir un espacio de trabajo, las vistas no se comparten. Las vistas se comparten por separado.
+
+  Para obtener más información, vea [Compartir espacios de trabajo](/help/quicksilver/planning/access/share-workspaces.md)
+
+<!--
+<div class="preview">
+
+* Record types
+
+    * You can share record types with people inside your organization.
+    * The level of permissions granted for the workspace displays as Inherited permissions for the record type. 
+    * You cannot share a workspace with a higher permission level than the user has on the workspace. 
+
+    For more information, see [Share record types](/help/quicksilver/planning/access/share-record-types.md). 
+
+</div>
+-->
 
 * Vistas
 
@@ -53,6 +69,14 @@ Internamente, se puede compartir un espacio de trabajo o una vista con las sigui
 
 * Usuarios
 * Grupos
+
+<div class="preview">
+
+* Equipos
+* Compañías
+* Roles
+
+</div>
 
 ## Consideraciones sobre el uso compartido de objetos en Adobe Workfront Planning
 
@@ -78,7 +102,7 @@ Las tablas de las secciones siguientes ilustran el nivel de permisos que puede s
 >
 >No todos los usuarios pueden tener los niveles de permisos que se describen a continuación. La licencia individual de los usuarios determina qué nivel de permisos pueden recibir para los objetos de Workfront Planning.
 >
->Solo los usuarios con licencia estándar (o de planificación) pueden tener permisos de Contribute o de Administración en los espacios de trabajo y permisos de Administración en las vistas.
+>Solo los usuarios con licencia estándar (o de planificación) pueden tener permisos de contribución o administración en los espacios de trabajo y permisos de administración en las vistas.
 > 
 >Los usuarios con todos los demás tipos de licencia pueden tener permisos de visualización en espacios de trabajo y vistas.
 >
@@ -105,7 +129,7 @@ Los siguientes son los niveles de permisos para espacios de trabajo:
 
 ### Permisos de tipo de registro
 
-Los permisos de Tipo de registro se heredan al conceder permisos al espacio de trabajo.
+<!--In the Production environment,--> Los permisos de Tipo de registro siempre se heredan al conceder permisos al espacio de trabajo.
 
 A continuación se indican los niveles de permisos para los tipos de registro:
 
@@ -116,6 +140,27 @@ A continuación se indican los niveles de permisos para los tipos de registro:
 | Eliminar | ✓ |            |       |
 | Editar | ✓ |            |       |
 | Ver | ✓ | ✓ | ✓ |
+
+<!--
+
+<div class="preview">
+
+In the Preview environment, Record Type permissions are inherited when you grant permissions to the workspace. 
+
+You can remove inherited permissions from the record type, but you can never grant higher permissions for the record type than users have on the workspace. 
+
+The following scenarios exist: 
+
+|   Workspace permissions     | Automatic inherited permissions for a Record Type |Possible Record Type permissions when Inherited permissions are turned off (granted manually)| 
+|--------|--------|-------------|
+| Manage |   Manage    |   Manage, No permissions           | 
+| Contribute |     Contribute |  Contribute, View, No permissions        |
+| View   |  View     |      View, No permissions        |     
+
+
+</div>
+
+-->
 
 ### Permisos de registro
 

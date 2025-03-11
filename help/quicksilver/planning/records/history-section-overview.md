@@ -6,27 +6,101 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 8258589f-a7c3-4d77-9abe-c99e9184bd21
-source-git-commit: cf42511263ec1cffd90d1e4bdcd43521b7fe6a30
+source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
 workflow-type: tm+mt
-source-wordcount: '462'
-ht-degree: 3%
+source-wordcount: '651'
+ht-degree: 85%
 
 ---
 
 # Resumen de la sección Historial
 
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases.</span>
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>-->
+
 {{planning-important-intro}}
 
 <!--update the system updates articles when we release to open beta - check the long commenting stream article list and see articles that document where in the system we have system updates; "Workfront Planning records" should be there-->
 
-Puede colaborar en registros de Adobe Workfront Planning agregando comentarios o respuestas en el panel derecho de un registro. También puede ver otros cambios realizados en el registro y registrados por el sistema en esta área.
+Puede colaborar en registros de Adobe Workfront Planning añadiendo comentarios o respuestas en el panel derecho de un registro. También puede ver otros cambios realizados en el registro y registrados por el sistema en esta área.
 
 El panel derecho de un registro muestra las siguientes secciones:
 
-* **Comentarios**: Muestra comentarios y respuestas que los usuarios agregan a los registros. Para obtener más información acerca de la administración de comentarios en los registros de Workfront Planning, vea [Administrar comentarios de registro](/help/quicksilver/planning/records/manage-record-comments.md).
+* **Comentarios**: muestra comentarios y respuestas que los usuarios añaden a los registros. Para obtener más información sobre la administración de comentarios en los registros de Workfront Planning, consulte [Administrar comentarios de registro](/help/quicksilver/planning/records/manage-record-comments.md).
 * **Historial**: muestra los cambios registrados por el sistema que los usuarios realizan en los campos de registro.
 
-## Busque la sección Historial de un registro
+## Requisitos de acceso
+
++++ Amplíe para ver los requisitos de acceso.
+
+Debe tener el siguiente acceso para realizar los pasos de este artículo:
+
+<table style="table-layout:auto"> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+    <tr> 
+<tr> 
+<td> 
+   <p> Productos</p> </td> 
+   <td> 
+   <ul><li><p> Adobe Workfront</p></li> 
+   <li><p> Planificación de Adobe Workfront<p></li></ul></td> 
+  </tr>   
+<tr> 
+   <td role="rowheader"><p>Plan de Adobe Workfront*</p></td> 
+   <td> 
+<p>Cualquiera de los siguientes planes de Workfront:</p> 
+<ul><li>Seleccionar</li> 
+<li>Prime</li> 
+<li>Ultimate</li></ul> 
+<p>Workfront Planning no está disponible para planes Workfront heredados</p> 
+   </td> 
+<tr> 
+   <td role="rowheader"><p>Paquete de planificación de Adobe Workfront*</p></td> 
+   <td> 
+<p>Cualquiera </p> 
+<p>Para obtener más información sobre qué se incluye en cada plan de Workfront Planning, póngase en contacto con su administrador de cuentas de Workfront. </p> 
+   </td> 
+ <tr> 
+   <td role="rowheader"><p>plataforma de Adobe Workfront</p></td> 
+   <td> 
+<p>La instancia de Workfront de su organización debe incorporarse a Adobe Unified Experience para poder acceder a todas las funcionalidades de Workfront Planning.</p> 
+<p>Para obtener más información, consulte <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience para Workfront</a>. </p> 
+   </td> 
+   </tr> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Licencia de Adobe Workfront*</p></td> 
+   <td> <p>Estándar</p>
+   <p>Workfront Planning no está disponible para licencias de Workfront heredadas</p> 
+  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Configuración de nivel de acceso</p></td> 
+   <td> <p>No hay controles de nivel de acceso para Adobe Workfront Planning</p>   
+</td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>Permisos de objeto</p></td> 
+   <td>   <p>Ver permisos superiores a un área de trabajo <!--<span class="preview">and record type</span>--> </a> </p>  
+   <p>Los administradores del sistema tienen permisos para todos los espacios de trabajo, incluidos los que no crearon</p> </td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>Plantilla de diseño</p></td> 
+   <td> <p>A todos los usuarios, incluidos los administradores de Workfront, se les debe asignar una plantilla de diseño que incluya el área de Planning en el menú principal. </p> </td> 
+  </tr> 
+</tbody> 
+</table>
+
+*Para obtener más información sobre los requisitos de acceso de Workfront, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
+## Localizar la sección Historial de un registro
 
 {{step1-to-planning}}
 
@@ -55,9 +129,9 @@ Puede revisar los cambios realizados en los campos de registro en la sección Hi
 
    * Los valores antiguos y nuevos de los campos, cuando cambian los valores. Los valores antiguos se muestran en formato tachado.
 
-   * El nombre completo del usuario que realizó el cambio
+   * El nombre completo del usuario que ha realizado el cambio
 
-   * Una marca de fecha y hora de cuándo se produjo el cambio.
+   * Una marca de fecha y hora de cuando se produjo el cambio.
 
 * Los campos de los siguientes tipos siempre muestran el valor antiguo (en formato tachado) y el nuevo:
 
@@ -69,25 +143,25 @@ Puede revisar los cambios realizados en los campos de registro en la sección Hi
    * Porcentaje
    * Selección única
 
-* Los campos de los siguientes tipos muestran el valor antiguo en formato tachado sólo si se ha quitado al menos uno de los valores múltiples:
+* Los campos de los siguientes tipos muestran el valor antiguo en formato tachado solo si se ha quitado al menos uno de los valores múltiples:
 
    * Selección múltiple
    * Campos de registro vinculados
    * Personas
 
-  Si el cambio solo agrega valores al campo, el valor antiguo no se muestra y solo se muestra el nuevo valor de campo.
+  Si el cambio solo ha añadido valores al campo, el valor antiguo no se muestra y solo se muestra el nuevo valor de campo.
 
 * Los campos de tipo casilla de verificación nunca muestran el valor antiguo en formato tachado. Si se edita el campo, solo se muestra el estado actual en el momento en que se realizó el cambio.
 
-  Para obtener más información acerca de los campos de Workfront Planning, vea [Crear campos](/help/quicksilver/planning/fields/create-fields.md).
+  Para obtener más información sobre los campos de Workfront Planning, consulte [Crear campos](/help/quicksilver/planning/fields/create-fields.md).
 
 * Los cambios en los campos de los siguientes tipos no se muestran en la sección Historial:
 
-   * Campos vinculados (búsqueda)
+   * Campos vinculados (de búsqueda)
    * Fórmula
    * Creado por
    * Fecha de creación
    * Última modificación realizada por
    * Fecha de la última modificación
 
-* Si se quita un campo del sistema, las actualizaciones realizadas en ese campo permanecen en la sección Historial. No hay ninguna indicación de que el campo se haya eliminado en la sección Historial de un registro.
+* Si se quita un campo del sistema, las actualizaciones realizadas en ese campo permanecen en la sección Historial. No hay ninguna indicación de que el campo se haya quitado en la sección Historial de un registro.

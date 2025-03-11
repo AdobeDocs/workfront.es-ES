@@ -1,33 +1,33 @@
 ---
 title: Crear espacios de trabajo
-description: Un área de trabajo es un conjunto de tipos de registros que utiliza un equipo y que representa el ciclo de vida del trabajo del equipo. Puede personalizar completamente los espacios de trabajo en Adobe Workfront Planning. Los tipos de registro están organizados por secciones en un espacio de trabajo.
+description: Un espacio de trabajo es un conjunto de tipos de registros que utiliza un equipo y que representa el ciclo de vida del trabajo del equipo. Puede personalizar por completo los espacios de trabajo en Adobe Workfront Planning. Los tipos de registro están organizados por secciones en un espacio de trabajo.
 feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 604b84c1-4ec6-4d4a-b9f4-4223641ff2ea
-source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
+source-git-commit: 6d9583f8a0e1e0c3712c8a47d68c5d5d321679f9
 workflow-type: tm+mt
-source-wordcount: '625'
-ht-degree: 1%
+source-wordcount: '622'
+ht-degree: 82%
 
 ---
 
 <!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->
 
-# Creación de espacios de trabajo
+# Crear espacios de trabajo
 
 {{planning-important-intro}}
 
 En Adobe Workfront Planning, los espacios de trabajo son ubicaciones centralizadas para que los equipos planifiquen el trabajo.
 
-Un área de trabajo es un conjunto de tipos de registros que utiliza un equipo y que representa el ciclo de vida del trabajo del equipo. Puede personalizar completamente los espacios de trabajo en Adobe Workfront Planning.
+Un espacio de trabajo es un conjunto de tipos de registros que utiliza un equipo y que representa el ciclo de vida del trabajo del equipo. Puede personalizar por completo los espacios de trabajo en Adobe Workfront Planning.
 
-Para obtener información general acerca de los espacios de trabajo, vea [Información general sobre los espacios de trabajo](/help/quicksilver/planning/architecture/workspaces-overview.md).
+Para obtener información general acerca de los espacios de trabajo, consulte [Información general sobre los espacios de trabajo](/help/quicksilver/planning/architecture/workspaces-overview.md).
 
 ## Requisitos de acceso
 
-+++ Amplíe para ver los requisitos de acceso para Workfront Planning.
++++ Amplíe para ver los requisitos de acceso.
 
 Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
@@ -46,7 +46,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
    <li><p> Planificación de Adobe Workfront<p></li></ul></td> 
   </tr>   
 <tr> 
-   <td role="rowheader"><p>plan Adobe Workfront*</p></td> 
+   <td role="rowheader"><p>Plan de Adobe Workfront*</p></td> 
    <td> 
 <p>Cualquiera de los siguientes planes de Workfront:</p> 
 <ul><li>Seleccionar</li> 
@@ -63,8 +63,8 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  <tr> 
    <td role="rowheader"><p>plataforma de Adobe Workfront</p></td> 
    <td> 
-<p>La instancia de Workfront de su organización debe incorporarse a la experiencia Adobe unificado para poder acceder a todas las funcionalidades de Workfront Planning.</p> 
-<p>Para obtener más información, consulte <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Experiencia unificada de Adobe para Workfront</a>. </p> 
+<p>La instancia de Workfront de su organización debe incorporarse a Adobe Unified Experience para poder acceder a todas las funcionalidades de Workfront Planning.</p> 
+<p>Para obtener más información, consulte <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience para Workfront</a>. </p> 
    </td> 
    </tr> 
   </tr> 
@@ -75,7 +75,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Configuración del nivel de acceso</p></td> 
+   <td role="rowheader"><p>Configuración de nivel de acceso</p></td> 
    <td> <p>No hay controles de nivel de acceso para Adobe Workfront Planning</p>   
 </td> 
   </tr> 
@@ -156,7 +156,7 @@ For more information about access requirements, see [Access requirements in Work
 
 ## Crear un espacio de trabajo
 
-Puede crear un espacio de trabajo y agregarle tipos de registro para organizar los objetos en Workfront Planning. Para obtener más información acerca de cómo editar un área de trabajo, vea [Editar áreas de trabajo](/help/quicksilver/planning/architecture/edit-workspaces.md).
+Puede crear un espacio de trabajo y añadirle tipos de registro para organizar los objetos en Workfront Planning. Para obtener más información acerca de cómo editar un espacio de trabajo, consulte [Editar áreas de trabajo](/help/quicksilver/planning/architecture/edit-workspaces.md).
 
 {{step1-to-planning}}
 
@@ -166,9 +166,9 @@ Puede crear un espacio de trabajo y agregarle tipos de registro para organizar l
 
 1. (Opcional y condicional) Haga clic en **Vista previa** dentro de cualquiera de las siguientes plantillas de área de trabajo predefinidas:
 
-   * Básico: gestión de marketing
-   * Avanzado: Gestión de marketing
-   * Empresa: gestión de marketing
+   * Básico: administración de marketing
+   * Administración avanzada de marketing
+   * Empresa: administración de marketing
    * Administración de ventas
    * Administración de productos
 
@@ -178,9 +178,9 @@ Puede crear un espacio de trabajo y agregarle tipos de registro para organizar l
 
    ![](assets/previewing-a-workspace-template.png)
 
-   Para obtener información acerca de las plantillas de área de trabajo de Workfront Planning, vea [Lista de plantillas de área de trabajo](/help/quicksilver/planning/architecture/workspace-templates.md).
+   Para obtener información acerca de las plantillas de espacio de trabajo de Workfront Planning, consulte [Lista de plantillas de espacio de trabajo](/help/quicksilver/planning/architecture/workspace-templates.md).
 
-1. En el cuadro de vista previa de la plantilla, haga clic en **Usar plantilla** para comenzar a crear el área de trabajo a partir de la plantilla seleccionada
+1. En el cuadro de vista previa de la plantilla, haga clic en **Usar plantilla** para comenzar a crear el espacio de trabajo a partir de la plantilla seleccionada
 
    O
 
@@ -188,7 +188,7 @@ Puede crear un espacio de trabajo y agregarle tipos de registro para organizar l
 
    Se crea uno para los siguientes tipos de espacios de trabajo:
 
-   * Un área de trabajo vacía denominada **Workspace sin título** donde puede empezar a agregar tipos de registros manualmente al crear un área de trabajo desde cero.
+   * Un espacio de trabajo vacío denominado **Espacio de trabajo sin título** donde puede empezar a añadir tipos de registros manualmente al crear un espacio de trabajo desde cero.
    * Espacio de trabajo con el nombre de la plantilla seleccionada que se rellena con tipos de registros de ejemplo. Puede personalizar aún más los tipos de registro y el espacio de trabajo.
 
    Para los administradores de Workfront, el nuevo espacio de trabajo se muestra en la ficha **Espacios de trabajo en los que participo**.
@@ -201,18 +201,18 @@ Puede crear un espacio de trabajo y agregarle tipos de registro para organizar l
 
    O
 
-   Pase el ratón sobre el nombre de una sección, luego haga clic en el menú **Más** ![](assets/more-menu.png) y luego haga clic en **Cambiar nombre** para cambiar el nombre de la sección.
+   Pase el puntero por encima del nombre de una sección, luego haga clic en el menú **Más** ![](assets/more-menu.png) y luego haga clic en **Cambiar nombre** para cambiar el nombre de la sección.
 
    >[!TIP]
    >
    >Puede cambiar el nombre de cualquier sección desde cualquier espacio de trabajo, incluso si no ha creado la sección.
 
-   Para obtener más información acerca de cómo editar espacios de trabajo, incluidas las secciones de los mismos, consulte [Editar espacios de trabajo](/help/quicksilver/planning/architecture/edit-workspaces.md).
+   Para obtener más información sobre la edición de espacios de trabajo, incluida la edición de espacios de trabajo, consulte [Editar espacios de trabajo](/help/quicksilver/planning/architecture/edit-workspaces.md).
 
-1. (Opcional) Haga clic en **Agregar tipo de registro** para agregar tipos de registro al área de trabajo en cualquier sección.
+1. (Opcional) Haga clic en **Añadir tipo de registro** para añadir tipos de registro al área de trabajo en cualquier sección.
 
    Para obtener más información, consulte [Crear tipos de registros](/help/quicksilver/planning/architecture/create-record-types.md).
 
-   Para obtener más información acerca de cómo editar y eliminar tipos de registros en un área de trabajo, vea [Editar áreas de trabajo](/help/quicksilver/planning/architecture/edit-workspaces.md).
+   Para obtener más información sobre la edición y eliminación de tipos de registros en un área de trabajo, consulte [Editar áreas de trabajo](/help/quicksilver/planning/architecture/edit-workspaces.md).
 
 

@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 10dee6f9-06ff-435a-81a4-2125642fab59
-source-git-commit: ddcefb0baf10df9ae9ac3b29d7da1e2a070101c8
+source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
 workflow-type: tm+mt
-source-wordcount: '521'
-ht-degree: 53%
+source-wordcount: '584'
+ht-degree: 44%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 53%
 
 El tipo de licencia de Adobe Workfront funciona junto con los permisos de Adobe Workfront Planning para proporcionar el siguiente acceso:
 
-* Ver, contribuir o administrar espacios de trabajo
+* Ver, contribuir o administrar espacios de trabajo <!--<span class="preview">or record types</span>-->
 * Ver o administrar vistas.
 
 Para obtener información acerca de los permisos de los objetos en Workfront Planning, consulte [Información general sobre los permisos de uso compartido en Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md).
@@ -39,9 +39,20 @@ Al conceder permisos de usuario a un espacio de trabajo, también se les concede
 
 Debe conceder a los usuarios permisos independientes a las vistas, además de los que tienen para los espacios de trabajo, para poder acceder y administrar las vistas.
 
+
+<div class="preview">
+
+Tenga en cuenta lo siguiente al trabajar con permisos de tipo de registro:
+
+* Los usuarios heredan automáticamente los permisos de tipo de registro de los espacios de trabajo.
+* Cuando un usuario tiene permisos de administración en un espacio de trabajo, no puede tener un acceso menor al tipo de registro.
+* Los usuarios no pueden tener permisos para un tipo de registro superiores a los que tienen para el espacio de trabajo al que pertenece el tipo de registro.
+
+</div>
+
 | Tipo de licencia de Adobe Workfront* | Permisos más altos permitidos en Adobe Workfront Planning |
 |------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Estándar | <p>Los usuarios pueden administrar espacios de trabajo y vistas. Pueden crear, editar o eliminar espacios de trabajo, tipos de registros, registros, campos y vistas.</p> <br> <p>Los administradores del sistema tienen permisos de administración en todos los espacios de trabajo, incluidos los que no han creado.</p> |
+| Estándar | <p>Los usuarios pueden administrar espacios de trabajo <span class="preview">, tipos de registros, </span> y vistas. Pueden crear, editar o eliminar espacios de trabajo, tipos de registros, registros, campos y vistas.</p> <br> <p>Los administradores del sistema tienen permisos de administración en todos los espacios de trabajo, incluidos los que no han creado.</p> |
 | Ligero o colaborador | <p>Los usuarios pueden ver los espacios de trabajo compartidos con ellos, así como los tipos de registro, registros y campos de dichos espacios de trabajo.</p> <br> <p>Los usuarios pueden ver las vistas que se han compartido con ellos, pero no pueden crear las suyas. </p><br> <p>Los usuarios no pueden crear, editar ni eliminar espacios de trabajo, tipos de registros, registros o campos.</p> |
 
 *Workfront Planning no está disponible para licencias de Workfront heredadas.
@@ -60,9 +71,11 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 
 ### Tipos de licencias y permisos del espacio de trabajo
 
-Solo los usuarios con una licencia estándar pueden tener permisos de contribución o administración en los espacios de trabajo. Los usuarios con todos los demás tipos de licencia pueden tener permisos de visualización en los espacios de trabajo compartidos con ellos.
+Solo los usuarios con una licencia estándar pueden tener permisos de contribución o administración en los espacios de trabajo <span class="preview">y tipos de registro</span>. Los usuarios con todos los demás tipos de licencia pueden tener permisos de visualización en los espacios de trabajo <span class="preview"> y los tipos de registro </span> compartidos con ellos.
 
 Los administradores del sistema pueden ver todos los espacios de trabajo del sistema, incluso los que no han creado.
+
+<!--does the shot below need to be replaced for record types??-->
 
 >[!INFO]
 >

@@ -6,29 +6,29 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 70fd3887-3871-45b5-9c21-f57da63662aa
-source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
+source-git-commit: 6d9583f8a0e1e0c3712c8a47d68c5d5d321679f9
 workflow-type: tm+mt
-source-wordcount: '503'
-ht-degree: 2%
+source-wordcount: '500'
+ht-degree: 83%
 
 ---
 
 
-# Eliminar tipos de registros
+# Eliminar tipos de registro
 
 {{planning-important-intro}}
 
 Puede eliminar los tipos de registro cuando ya no sean relevantes.
 
-Sin embargo, al eliminar los tipos de registro también se elimina toda la información asociada a los tipos de registro. Para obtener más información, consulte la sección [Consideraciones al eliminar tipos de registros](#considerations-when-deleting-record-types) en este artículo.
+Sin embargo, al eliminar los tipos de registro, también se elimina toda la información asociada a los tipos de registro. Para obtener más información, consulte la sección [Consideraciones al eliminar tipos de registros](#considerations-when-deleting-record-types) en este artículo.
 
-Para obtener información acerca de los tipos de registros, vea [Información general sobre los tipos de registros](/help/quicksilver/planning/architecture/overview-of-record-types.md).
+Para obtener más información sobre los tipos de registros, consulte [Información general sobre los tipos de registros](/help/quicksilver/planning/architecture/overview-of-record-types.md).
 
 <!-- last sentence might need to be deleted when we can recover or replace deleted record types-->
 
 ## Requisitos de acceso
 
-+++ Amplíe para ver los requisitos de acceso para Workfront Planning.
++++ Amplíe para ver los requisitos de acceso.
 
 Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
@@ -47,7 +47,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
    <li><p> Planificación de Adobe Workfront<p></li></ul></td> 
   </tr>   
 <tr> 
-   <td role="rowheader"><p>plan Adobe Workfront*</p></td> 
+   <td role="rowheader"><p>Plan de Adobe Workfront*</p></td> 
    <td> 
 <p>Cualquiera de los siguientes planes de Workfront:</p> 
 <ul><li>Seleccionar</li> 
@@ -64,8 +64,8 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  <tr> 
    <td role="rowheader"><p>plataforma de Adobe Workfront</p></td> 
    <td> 
-<p>La instancia de Workfront de su organización debe incorporarse a la experiencia Adobe unificado para poder acceder a todas las funcionalidades de Workfront Planning.</p> 
-<p>Para obtener más información, consulte <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Experiencia unificada de Adobe para Workfront</a>. </p> 
+<p>La instancia de Workfront de su organización debe incorporarse a Adobe Unified Experience para poder acceder a todas las funcionalidades de Workfront Planning.</p> 
+<p>Para obtener más información, consulte <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience para Workfront</a>. </p> 
    </td> 
    </tr> 
   </tr> 
@@ -76,13 +76,13 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Configuración del nivel de acceso</p></td> 
+   <td role="rowheader"><p>Configuración de nivel de acceso</p></td> 
    <td> <p>No hay controles de nivel de acceso para Adobe Workfront Planning</p>   
 </td> 
   </tr> 
 <tr> 
    <td role="rowheader"><p>Permisos de objeto</p></td> 
-   <td>   <p>Administrar permisos en un espacio de trabajo</a> </p>  
+   <td>   <p>Permisos de administración en un espacio de trabajo</a> </p>  
    <p>Los administradores del sistema tienen permisos para todos los espacios de trabajo, incluidos los que no crearon</p></td> 
   </tr> 
 <tr> 
@@ -162,8 +162,8 @@ OLD:
 
 <!--check this and ensure these are still true - some things might change with / after closed beta-->
 
-* Solo puede eliminar tipos de registro de espacios de trabajo en los que tenga permisos de administración.
-* Al eliminar los tipos de registro, se elimina la siguiente información asociada a ellos:
+* Únicamente se pueden eliminar los tipos de registro de espacios de trabajo para los que tenga permisos de administración.
+* Al eliminar los tipos de registro, se elimina la información siguiente asociada a ellos:
 
    * Todos los registros de ese tipo.
    * Todos los campos asociados al tipo de registro.
@@ -172,24 +172,24 @@ OLD:
 * No se pueden recuperar los tipos de registros eliminados ni su información.
 * Se recomienda volver a crear los campos y los registros asociados al tipo de registro que desea eliminar en otro tipo de registro antes de eliminarlos.
 
-## Eliminar tipos de registros
+## Eliminar tipos de registro
 
 {{step1-to-planning}}
 
-1. Haga clic en el espacio de trabajo cuyos tipos de registros desee eliminar.
+1. Haga clic en el espacio de trabajo cuyos tipos de registros desea eliminar,
 
    O
 
-   Desde un espacio de trabajo, expanda la flecha hacia abajo a la derecha del nombre de un espacio de trabajo existente, busque un espacio de trabajo y selecciónelo cuando se muestre en la lista.
+   Desde un espacio de trabajo, expanda la flecha hacia abajo situada a la derecha del nombre de un espacio de trabajo existente, busque un espacio de trabajo y, a continuación, selecciónelo cuando se muestre en la lista.
 
    Se abre el espacio de trabajo y se muestran los tipos de registro.
 1. Realice una de las siguientes acciones:
 
-   * Pase el ratón sobre la tarjeta de tipo de registro, haga clic en el menú **Más** y luego **Eliminar**.
-   * Haga clic en la tarjeta del tipo de registro que desee eliminar y, en la página de tipo de registro, haga clic en el menú **Más** ![](assets/more-menu.png) que se encuentra a la derecha del nombre del tipo de registro y, a continuación, haga clic en **Eliminar**.
+   * Pase el puntero por encima de la tarjeta del tipo de registro, haga clic en el menú **Más** y luego en **Eliminar**.
+   * Haga clic en la tarjeta del tipo de registro que desea eliminar y, en la página del tipo de registro, haga clic en el menú **Más** ![](assets/more-menu.png) a la derecha del nombre del tipo de registro y, a continuación, haga clic en **Eliminar**.
 
    ![](assets/permanently-delete-record-type-confirmation.png)
 
-1. Escriba **delete** en el cuadro de confirmación y luego haga clic en **Eliminar permanentemente**. Esto no distingue entre mayúsculas y minúsculas.
+1. Escriba **Eliminar** en el cuadro de confirmación y haga clic en **Eliminar permanentemente**. Esto no distingue entre mayúsculas y minúsculas.
 
-   El tipo de registro seleccionado, junto con sus campos, registros asociados y vistas, se elimina y no se puede recuperar.
+   El tipo de registro seleccionado, junto con sus campos, registros asociados y vistas, se eliminará y no se podrá recuperar.

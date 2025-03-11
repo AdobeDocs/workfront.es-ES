@@ -6,28 +6,32 @@ role: User, Admin
 recommendations: noDisplay, noCatalog
 author: Alina
 exl-id: ec48db42-2395-4439-97ae-e4f5242170b7
-source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
+source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
 workflow-type: tm+mt
-source-wordcount: '496'
-ht-degree: 1%
+source-wordcount: '493'
+ht-degree: 62%
 
 ---
 
 
 
-# Eliminar campos
+# Eliminación de campos
+
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>   -->
 
 {{planning-important-intro}}
 
 En Adobe Workfront Planning, puede crear campos personalizados para almacenar información sobre registros.
 
-Para obtener información acerca de cómo crear campos personalizados en Workfront Planning, vea [Crear campos](/help/quicksilver/planning/fields/create-fields.md).
+Para obtener información acerca de cómo crear campos personalizados en Workfront Planning, consulte [Crear campos](/help/quicksilver/planning/fields/create-fields.md).
 
 Puede eliminar los campos de Workfront Planning que ya no sean relevantes.
 
 ## Consideraciones sobre la eliminación de campos de Workfront Planning:
 
-* Sólo puede eliminar un campo en la vista de tabla de tipo de registro.
+* Solo puede eliminar un campo en la vista de tabla de tipo de registro.
 * No se puede eliminar el campo principal de un registro.
 * La información almacenada en el campo se elimina y no se puede recuperar.
 * Al eliminar un campo de registro conectado, todos los campos de búsqueda conectados también se eliminan del tipo de registro desde el que se conecta. Los campos de registro conectados de los tipos de registro a los que se conecta también se eliminan del registro al que se conecta.
@@ -38,13 +42,13 @@ Puede eliminar los campos de Workfront Planning que ya no sean relevantes.
    * El campo de búsqueda Estado del producto de la campaña
    * El campo conectado a Campaign desde el producto.
 
-  Para obtener más información, vea [Conectar tipos de registros](/help/quicksilver/planning/architecture/connect-record-types.md).
+  Para obtener más información, consulte [Conectar tipos de registros](/help/quicksilver/planning/architecture/connect-record-types.md).
 
 <!-- this is not possible yet, since fields cannot be shared yet; maybe move this up a bit, in this bullet list: * When you delete a field, it is deleted from all records associated with the field.-->
 
 ## Requisitos de acceso
 
-+++ Amplíe para ver los requisitos de acceso para Workfront Planning.
++++ Amplíe para ver los requisitos de acceso.
 
 Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
@@ -63,7 +67,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
    <li><p> Planificación de Adobe Workfront<p></li></ul></td> 
   </tr>   
 <tr> 
-   <td role="rowheader"><p>plan Adobe Workfront*</p></td> 
+   <td role="rowheader"><p>Plan de Adobe Workfront*</p></td> 
    <td> 
 <p>Cualquiera de los siguientes planes de Workfront:</p> 
 <ul><li>Seleccionar</li> 
@@ -80,8 +84,8 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  <tr> 
    <td role="rowheader"><p>plataforma de Adobe Workfront</p></td> 
    <td> 
-<p>La instancia de Workfront de su organización debe incorporarse a la experiencia Adobe unificado para poder acceder a todas las funcionalidades de Workfront Planning.</p> 
-<p>Para obtener más información, consulte <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Experiencia unificada de Adobe para Workfront</a>. </p> 
+<p>La instancia de Workfront de su organización debe incorporarse a Adobe Unified Experience para poder acceder a todas las funcionalidades de Workfront Planning.</p> 
+<p>Para obtener más información, consulte <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience para Workfront</a>. </p> 
    </td> 
    </tr> 
   </tr> 
@@ -92,13 +96,13 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Configuración del nivel de acceso</p></td> 
+   <td role="rowheader"><p>Configuración de nivel de acceso</p></td> 
    <td> <p>No hay controles de nivel de acceso para Adobe Workfront Planning</p>   
 </td> 
   </tr> 
 <tr> 
    <td role="rowheader"><p>Permisos de objeto</p></td> 
-   <td>   <p>Administrar permisos en un espacio de trabajo</a> </p>  
+   <td>   <p>Administrar permisos en un área de trabajo <!--<span class="preview">and record type</span>--> </a> </p>  
    <p>Los administradores del sistema tienen permisos para todos los espacios de trabajo, incluidos los que no crearon</p></td> 
   </tr> 
 <tr> 
@@ -171,7 +175,7 @@ OLD:
 
 -->
 
-## Eliminar campos
+## Eliminación de campos
 
 <!--When they release the sharing of fields between other records, revise this section.  -->
 
@@ -183,7 +187,7 @@ OLD:
 
 1. Haga clic en la tarjeta de un tipo de registro.
 
-1. (Condicional) Si aún no está seleccionado, haga clic en la ficha de una **vista de tabla** en la página de tipo de registro.
+1. (Condicional) Si aún no está seleccionado, haga clic en la pestaña de una **Vista de tabla** en la página de tipo de registro.
 
    Todos los registros existentes asociados al tipo de registro se muestran en las filas de la vista de tabla.
 
