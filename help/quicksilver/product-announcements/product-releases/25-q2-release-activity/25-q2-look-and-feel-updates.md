@@ -5,10 +5,10 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: aeb16dc5-d17d-40bc-a32a-de6d47b43817
-source-git-commit: f90a1066202e2c949ab5bfebf85897060f1c29d2
+source-git-commit: 69389422fc33839c3f557c3866f0d88b4a8ea837
 workflow-type: tm+mt
-source-wordcount: '424'
-ht-degree: 20%
+source-wordcount: '441'
+ht-degree: 19%
 
 ---
 
@@ -68,3 +68,5 @@ Hemos actualizado el aspecto del cuadro de diálogo Compartir a un diseño moder
 
 * La opción &quot;Visible en todo el sistema&quot; ahora muestra &quot;Todos los usuarios del sistema pueden ver&quot;. Esta opción sigue funcionando como antes.
 * Hay un nuevo icono para acceder a la configuración avanzada de recursos compartidos.
+
+Para obtener más información acerca de dónde encontrar el cuadro de diálogo Compartir, vea [Conceder y solicitar permisos para objetos](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/grant-and-request-access-to-objects.md)
