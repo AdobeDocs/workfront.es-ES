@@ -2,15 +2,15 @@
 content-type: overview;how-to-procedural
 product-area: projects;user-management
 navigation-topic: assign-tasks
-title: Información general sobre las asignaciones inteligentes
+title: Información general sobre asignaciones inteligentes
 description: Al administrar asignaciones de tareas y problemas, puede utilizar asignaciones inteligentes para identificar quién es el mejor usuario para completar el trabajo. Las asignaciones inteligentes son sugerencias que Adobe Workfront presenta al asignar elementos de trabajo a recursos en función de un algoritmo que determina el recurso más adecuado para el trabajo.
 author: Lisa
 feature: Work Management
 exl-id: 8d17eff6-5ff0-4985-b575-4934a3bb7c0b
-source-git-commit: 259fd0e3fdaa07bfdb0301d60bf0d9b1090b4ef7
+source-git-commit: 1211a441b542df49480d933d4c25b0c31ef0883d
 workflow-type: tm+mt
-source-wordcount: '556'
-ht-degree: 80%
+source-wordcount: '583'
+ht-degree: 76%
 
 ---
 
@@ -51,23 +51,23 @@ Puede ver las asignaciones inteligentes en las áreas siguientes, donde puede as
 
 * Lista o informe de problemas en la columna Asignaciones
 
-  ![](assets/smart-assignments-issue-list.png)
+  ![Columna Asignaciones de lista de problemas](assets/smart-assignments-issue-list.png)
 
 * Lista de tareas o informe en la columna Asignaciones
 
-  ![](assets/smart-assignments-task-list.png)
+  ![Columna Asignaciones de lista de tareas](assets/smart-assignments-task-list.png)
 
 * Un encabezado de tarea en el campo Asignaciones
 
-  ![](assets/smart-assignments-task-header-nwe-350x302.png)
+  ![Campo Asignaciones de encabezado de tarea](assets/smart-assignments-task-header-nwe-350x302.png)
 
 * Un encabezado de problema en el campo Asignaciones
 
-  ![](assets/smart-assignments-issue-header.png)
+  ![Campo de asignaciones de encabezado de problema](assets/smart-assignments-issue-header.png)
 
 * El panel Resumen de tareas o problemas del área Asignaciones
 
-  ![](assets/issue-assignments-summary-panel.png)
+  ![Área de asignaciones del panel de resumen](assets/issue-assignments-summary-panel.png)
 
 <!--* The Assignments field in the New Task box, when adding a task to a project
 
@@ -81,8 +81,7 @@ Puede ver las asignaciones inteligentes en las áreas siguientes, donde puede as
 
 * Distribuidor de cargas de trabajo en el área Asignado este a al asignar una tarea o un problema
 
-  ![](assets/smart-assignments-workload-balancer-bulk-assignments.png)
-
+  ![Área de asignaciones del Distribuidor de cargas de trabajo](assets/smart-assignments-workload-balancer-bulk-assignments.png)
 
 ## Criterios de las asignaciones inteligentes
 
@@ -153,7 +152,7 @@ Las asignaciones identificadas se enumeran en las secciones **Usuarios y equipos
 >
 >The following criteria applies for tasks only when the first phase of the task smart assignment calculation did not find any matches. For information, see the section [First phase of smart assignment calculation for tasks](#first-phase-of-smart-assignment-calculation-for-tasks) in this article. The following criteria always applies for issues, by default. -->
 
-![](assets/smart-assignments-issue-header.png)
+![Ejemplo de asignación inteligente](assets/smart-assignments-issue-header.png)
 
 Las recomendaciones se dan a los usuarios en la lista desplegable de asignaciones inteligentes en función de una combinación de los siguientes criterios (enumerados en orden de lo más importante a lo menos importante):
 

@@ -1,14 +1,14 @@
 ---
 product-area: projects;user-management
 navigation-topic: assign-tasks
-title: Administrar porcentaje de asignación de usuarios o funciones en tareas
+title: Administrar porcentaje de asignación de usuarios o roles en tareas
 description: El porcentaje de asignación representa la cantidad de tiempo que un recurso asignado está planificado para trabajar en una tarea en un día. Es el porcentaje de un día laborable (según la programación del usuario o proyecto) al que se asigna un recurso a lo largo de la duración de la tarea.
 author: Lisa
 feature: Work Management
 exl-id: 82238dff-b95e-42e4-8e72-6247934b504d
-source-git-commit: 259fd0e3fdaa07bfdb0301d60bf0d9b1090b4ef7
+source-git-commit: 1211a441b542df49480d933d4c25b0c31ef0883d
 workflow-type: tm+mt
-source-wordcount: '431'
+source-wordcount: '451'
 ht-degree: 24%
 
 ---
@@ -25,6 +25,8 @@ El porcentaje de asignación representa la cantidad de tiempo que un recurso asi
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
+Debe tener el siguiente acceso para realizar los pasos de este artículo:
+
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -34,7 +36,7 @@ El porcentaje de asignación representa la cantidad de tiempo que un recurso asi
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licencia de Adobe Workfront*</td> 
+   <td role="rowheader">Licencia de Adobe Workfront</td> 
    <td> <p>Nuevo: estándar</p> 
    <p>Actual: Trabajo o superior</p> </td> 
   </tr> 
@@ -49,7 +51,7 @@ El porcentaje de asignación representa la cantidad de tiempo que un recurso asi
  </tbody> 
 </table>
 
-*Para obtener más información, consulte [Requisitos de acceso para la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información sobre esta tabla, consulte [Requisitos de acceso para la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

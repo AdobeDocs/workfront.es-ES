@@ -1,16 +1,16 @@
 ---
 product-area: projects;user-management
 navigation-topic: assign-tasks
-title: Modificar varias asignaciones de usuario en una lista de tareas
+title: Modificar asignaciones de varios usuarios en una lista de tareas
 description: Al administrar las asignaciones de tareas, puede modificarlas simultáneamente para varias tareas a la vez mediante la función de edición masiva en una lista de tareas.
 author: Lisa
 feature: Work Management, Tasks, Resource Management
 role: User
 exl-id: 04f7761f-da94-4858-85c5-8dc97bd78bee
-source-git-commit: 259fd0e3fdaa07bfdb0301d60bf0d9b1090b4ef7
+source-git-commit: 1211a441b542df49480d933d4c25b0c31ef0883d
 workflow-type: tm+mt
-source-wordcount: '946'
-ht-degree: 100%
+source-wordcount: '966'
+ht-degree: 99%
 
 ---
 
@@ -34,6 +34,8 @@ Para obtener información sobre la asignación de una tarea a un recurso de una 
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
+Debe tener el siguiente acceso para realizar los pasos de este artículo:
+
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -43,7 +45,7 @@ Para obtener información sobre la asignación de una tarea a un recurso de una 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licencia de Adobe Workfront*</td> 
+   <td role="rowheader">Licencia de Adobe Workfront</td> 
    <td> <p>Nuevo: estándar</p>
    <p>Actual: Trabajo o superior</p> </td> 
   </tr> 
@@ -58,7 +60,7 @@ Para obtener información sobre la asignación de una tarea a un recurso de una 
  </tbody> 
 </table>
 
-*Para obtener información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

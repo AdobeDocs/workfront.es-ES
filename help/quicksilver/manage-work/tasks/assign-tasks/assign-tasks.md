@@ -7,9 +7,9 @@ author: Lisa
 feature: Work Management, Tasks
 role: User
 exl-id: 611b136e-2c3f-4eac-9d75-e8c12e06148d
-source-git-commit: 259fd0e3fdaa07bfdb0301d60bf0d9b1090b4ef7
+source-git-commit: 1211a441b542df49480d933d4c25b0c31ef0883d
 workflow-type: tm+mt
-source-wordcount: '1985'
+source-wordcount: '2012'
 ht-degree: 100%
 
 ---
@@ -60,6 +60,8 @@ Además de este artículo, le recomendamos que lea los siguientes artículos par
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
+Debe tener el siguiente acceso para realizar los pasos de este artículo:
+
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -69,7 +71,7 @@ Además de este artículo, le recomendamos que lea los siguientes artículos par
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licencia de Adobe Workfront*</td> 
+   <td role="rowheader">Licencia de Adobe Workfront</td> 
    <td> <p>Nuevo: estándar</p>
    <p>Actual: Trabajo o superior</p>
    </td> 
@@ -80,13 +82,13 @@ Además de este artículo, le recomendamos que lea los siguientes artículos par
   </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> </td> 
+   <td>Contribuir o permisos superiores para la tarea</td> 
   </tr> 
  </tbody> 
 </table>
 
 
-*Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 +++
 
 ## Consideraciones para varias asignaciones a funciones, equipos y usuarios

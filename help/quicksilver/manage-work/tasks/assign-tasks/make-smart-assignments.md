@@ -1,15 +1,15 @@
 ---
 product-area: projects;user-management
 navigation-topic: assign-tasks
-title: Realizar asignaciones inteligentes
+title: Hacer asignaciones inteligentes
 description: Puede utilizar asignaciones inteligentes para identificar quién es el mejor usuario para completar el trabajo. Las asignaciones inteligentes son sugerencias sobre usuarios, funciones o equipos que Adobe Workfront le presenta cuando asigna elementos de trabajo a recursos en función de un algoritmo que determina el recurso más adecuado para el trabajo. Para obtener información sobre las asignaciones inteligentes, consulte Información general sobre las asignaciones inteligentes.
 author: Lisa
 feature: Work Management
 exl-id: 073a3234-3156-4b4f-a3e1-dbb32d61068a
-source-git-commit: 259fd0e3fdaa07bfdb0301d60bf0d9b1090b4ef7
+source-git-commit: 1211a441b542df49480d933d4c25b0c31ef0883d
 workflow-type: tm+mt
-source-wordcount: '396'
-ht-degree: 91%
+source-wordcount: '422'
+ht-degree: 90%
 
 ---
 
@@ -37,6 +37,8 @@ Para obtener más información acerca de los criterios utilizados para determina
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
+Debe tener el siguiente acceso para realizar los pasos de este artículo:
+
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -46,7 +48,7 @@ Para obtener más información acerca de los criterios utilizados para determina
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licencia de Adobe Workfront*</td> 
+   <td role="rowheader">Licencia de Adobe Workfront</td> 
    <td> <p>Nuevo: estándar</p>
       O
       <p>Actual: Trabajo o superior</p> </td> 
@@ -62,7 +64,7 @@ Para obtener más información acerca de los criterios utilizados para determina
  </tbody> 
 </table>
 
-*Para obtener información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -90,7 +92,7 @@ Las asignaciones inteligentes están disponibles en la mayoría de las ubicacion
    <!--* <span class="preview">**Suggested assignments**: Displays assignments identified in the first phase of the task smart assignment algorithm.</span> -->
    * **Usuarios y equipos**, **Funciones del puesto** o <span class="preview">**Funciones del puesto de la tarjeta de tarifas**</span>: <!--Assignments identified in the second phase of the task smart assignment's algorithm calculation.-->
 
-   ![](assets/smart-assignments-task-list.png)
+   ![Ejemplo de asignaciones inteligentes en la lista de tareas](assets/smart-assignments-task-list.png)
 
    Para obtener más información, consulte [Información general sobre las asignaciones inteligentes](../../../manage-work/tasks/assign-tasks/smart-assignments.md).
 

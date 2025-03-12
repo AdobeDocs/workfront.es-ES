@@ -6,18 +6,26 @@ description: Al asignar usuarios o funciones a una tarea, se les asigna trabajar
 author: Lisa
 feature: Work Management
 exl-id: 2c0cd6ef-8719-4680-aa63-5e229de0f819
-source-git-commit: 259fd0e3fdaa07bfdb0301d60bf0d9b1090b4ef7
+source-git-commit: 1211a441b542df49480d933d4c25b0c31ef0883d
 workflow-type: tm+mt
-source-wordcount: '474'
-ht-degree: 100%
+source-wordcount: '566'
+ht-degree: 90%
 
 ---
 
 # Administrar horas de asignación de usuarios y funciones en las tareas
 
+Las horas de asignación representan la cantidad total de tiempo que un recurso asignado está planificado para trabajar en una tarea. Las horas representan el tiempo que se asigna a un usuario en un día determinado o en un día de la semana, una semana o un mes a lo largo de la duración de la tarea.
+
+>[!NOTE]
+>
+>Al asignar usuarios para trabajar, su disponibilidad según sus programaciones afecta a las fechas planificadas y proyectadas de las tareas y problemas. Para obtener información acerca de las programaciones, consulte [Crear una programación](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
+
 ## Requisitos de acceso
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
+
+Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -28,12 +36,12 @@ ht-degree: 100%
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licencia de Adobe Workfront*</td> 
+   <td role="rowheader">Licencia de Adobe Workfront</td> 
    <td> <p>Nuevo: estándar </p>
    <p>Actual: Trabajo o superior</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraciones de nivel de acceso*</td> 
+   <td role="rowheader">Configuraciones de nivel de acceso</td> 
    <td> <p>Editar acceso a Tareas</p> </td> 
   </tr> 
   <tr> 
@@ -43,7 +51,7 @@ ht-degree: 100%
  </tbody> 
 </table>
 
-*Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
