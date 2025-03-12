@@ -6,10 +6,10 @@ description: Las iteraciones son un componente clave para los equipos ágiles de
 author: Lisa
 feature: Agile
 exl-id: a25cdd4a-f2e3-4b8a-a7f4-3757940b635e
-source-git-commit: 6ae8e48361114e897d0be83ae81f8344074a5ec2
+source-git-commit: 6fb0870b919baf49e17d48586b2a9661e5cb4b94
 workflow-type: tm+mt
-source-wordcount: '1063'
-ht-degree: 90%
+source-wordcount: '1119'
+ht-degree: 84%
 
 ---
 
@@ -99,9 +99,16 @@ Utilice la función [!UICONTROL Planificar iteración] para crear una iteración
 
 {{step1-to-team}}
 
-1. (Opcional) Haga clic en el icono **[!UICONTROL Cambiar de equipo]** ![icono Cambiar de equipo](assets/switch-team-icon.png) y, a continuación, seleccione un nuevo equipo de Scrum en el menú desplegable o busque un equipo en la barra de búsqueda.
+1. Haga clic en el icono **[!UICONTROL Cambiar equipo]** ![icono Cambiar equipo](assets/switch-team-icon.png) y, a continuación, seleccione un nuevo equipo de Scrum en el menú desplegable o busque un equipo en la barra de búsqueda.
 
-1. Seleccione **[!UICONTROL Registro de asuntos pendientes]** en el panel izquierdo. A continuación, haga clic en **[!UICONTROL Planificar iteración]**.
+1. Seleccione **[!UICONTROL Registro de pendientes]** en el panel izquierdo.
+
+1. En la ficha **Historias** o **Problemas**, seleccione al menos un elemento de trabajo y haga clic en **[!UICONTROL Iteración del plan]**.
+
+>[!NOTE]
+>
+> No se puede alternar entre la ficha Historias o Problemas al planificar una iteración en la ficha Registro de pendientes. Puede agregar historias o problemas existentes una vez que se haya creado la iteración. Para obtener más información, vea [Mover historias del registro de pendientes a una iteración o tablero](/help/quicksilver/agile/work-in-an-agile-environment/manage-the-agile-backlog.md#move-stories-from-the-backlog-to-an-iteration-or-board).
+
 
 1. Especifique la siguiente información:
 

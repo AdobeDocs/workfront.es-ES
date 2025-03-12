@@ -6,14 +6,14 @@ description: Puede crear una historia Agile en una iteración de varias formas. 
 author: Lisa
 feature: Agile
 exl-id: d16ee940-3551-44da-8fe6-093f4fcac070
-source-git-commit: 452f8ddc5268a0d67e32090d166199f2fad7dbc7
+source-git-commit: 9a363dc0c591985c7ae8edb4a511fd648b486f1c
 workflow-type: tm+mt
 source-wordcount: '710'
-ht-degree: 0%
+ht-degree: 24%
 
 ---
 
-# Crear una historia ágil
+# Crear una historia Agile
 
 Puede crear una historia Agile en una iteración de varias formas. Después de crear una historia Agile, puede agregar subtareas a la historia.
 
@@ -50,7 +50,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  </tbody> 
 </table>
 
-Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -60,12 +60,12 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
 
    {{step1-to-team}}
 
-   1. (Opcional) Haga clic en el icono **[!UICONTROL Cambiar de equipo]** ![Cambiar de icono de equipo](assets/switch-team-icon.png) y, a continuación, seleccione un nuevo equipo de Scrum en el menú desplegable o busque un equipo en la barra de búsqueda.
+   1. (Opcional) Haga clic en el icono de **[!UICONTROL Cambiar equipo]** ![icono de Cambiar equipo](assets/switch-team-icon.png) y, a continuación, seleccione un nuevo equipo de Scrum en el menú desplegable o busque un equipo en la barra de búsqueda.
 
    1. En el panel izquierdo, seleccione **[!UICONTROL Iteraciones]** para elegir una iteración específica o seleccione **[!UICONTROL Iteración actual]**.
    1. Haga clic en el nombre de la iteración específica en la que desea crear un artículo.
 
-   ![Agregar nueva historia a la iteración](assets/iteration-add-story.png)
+   ![Agregar nueva historia a la iteración](assets/iteration-stories-list.png)
 
 1. Haga clic en **[!UICONTROL Nueva historia].**
 1. Especifique la siguiente información:
@@ -79,7 +79,7 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
       <td>Escriba un nombre para la historia.</td>
      </tr>
      <tr>
-      <td role="rowheader"><strong>[!UICONTROL Descripción]</strong></td>
+      <td role="rowheader"><strong>[!UICONTROL Description]</strong></td>
       <td>Escriba una descripción para la historia.</td>
      </tr>
      <tr>
@@ -88,14 +88,14 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Estimar] (puntos)</strong></td>
-      <td>Especifique la estimación para la historia. Si su equipo Agile está configurado para estimar las historias en puntos, por defecto 1 punto es igual a 8 horas. Las estimaciones se agregan como [!UICONTROL Horas planificadas] en la historia.<br>Por ejemplo, si calcula una historia como 3 puntos, el comportamiento predeterminado es agregar 24 [!UICONTROL Horas planificadas] a la historia.<br>Si un artículo contiene subtareas, recuerde que las estimaciones combinadas de todas las subtareas determinan la estimación del artículo principal. Para obtener más información, vea <a href="../../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md" class="MCXref xref">Agregar historias a una iteración existente</a>.</td>
+      <td>Especifique la estimación para la historia. Si su equipo Agile está configurado para estimar las historias en puntos, de forma predeterminada 1 punto equivale a 8 horas. Las estimaciones se añaden como [!UICONTROL Planned Hours] en la historia.<br>Por ejemplo, si calcula una historia como 3 puntos, el comportamiento predeterminado es agregar 24 [!UICONTROL Horas planificadas] a la historia.<br>Si un artículo contiene subtareas, recuerde que las estimaciones combinadas de todas las subtareas determinan la estimación del artículo principal. Para obtener más información, consulte <a href="../../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md" class="MCXref xref">Añadir historias a una iteración existente</a>.</td>
      </tr>
      <tr>
-      <td role="rowheader"><strong>[!UICONTROL Proyecto principal]</strong></td>
+      <td role="rowheader"><strong>[!UICONTROL Parent Project]</strong></td>
       <td>Empiece a escribir el nombre del proyecto con el que se asociará esta historia.<br>De manera predeterminada, el color de la historia se muestra con el mismo color que otras historias de este proyecto.<br>El estado del proyecto debe establecerse en [!UICONTROL Actual]. Si el estado del proyecto es cualquier cosa excepto [!UICONTROL Actual], no se muestra en el menú desplegable.</td>
      </tr>
      <tr>
-      <td role="rowheader"><strong>[!UICONTROL Tarea principal]</strong></td>
+      <td role="rowheader"><strong>[!UICONTROL Parent Task]</strong></td>
       <td>Después de elegir un proyecto principal, tiene la opción de elegir una tarea principal. Al seleccionar una tarea principal, el artículo se crea como una subtarea de la tarea principal en el proyecto seleccionado.<br>Empiece a escribir el nombre de la tarea principal de la historia y, a continuación, haga clic en ella cuando aparezca en la lista desplegable.</td>
      </tr>
      <tr>

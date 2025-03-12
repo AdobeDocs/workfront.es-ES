@@ -7,9 +7,9 @@ description: El gráfico de evolución proporciona una representación visual de
 author: Lisa
 feature: Agile
 exl-id: 414e3315-35ed-4aa4-a2d8-be42ec585f29
-source-git-commit: d660707dd69fab78095eed1414092a7c909ba174
+source-git-commit: 91dc9946566e15bf32d0d89975e3e6b66b39e873
 workflow-type: tm+mt
-source-wordcount: '936'
+source-wordcount: '970'
 ht-degree: 0%
 
 ---
@@ -31,31 +31,31 @@ El gráfico de evolución contiene los siguientes indicadores visuales:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <img src="assets/agile-iteration-burndown-dottedblue.png" alt=""> </td> 
+   <td role="rowheader"> <img src="assets/agile-iteration-burndown-dottedblue.png" alt="Inicio de velocidad de evolución ideal"> </td> 
    <td> <p>Tasa de evolución ideal basada en el momento en que comenzó la iteración.</p> <p>Esta línea no se muestra si el ámbito de la iteración nunca cambia (las horas o los puntos nunca se agregan ni eliminan).</p> <p>Esta línea se muestra plana cuando se trabaja en un día libre. Para obtener más información, consulte <a title="Uso del gráfico de evolución de Agile" href="#how-days-off-affect-the-burndown-chart" class="MCXref xref">Cómo afectan los días libres al gráfico de evolución</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <img src="assets/agile-iteration-burndown-solidblue.png" alt=""> </td> 
+   <td role="rowheader"> <img src="assets/agile-iteration-burndown-solidblue.png" alt="Tasa de evolución ideal en historias o tareas"> </td> 
    <td> <p>Tasa de evolución ideal en función de las historias o tareas actuales.</p> <p>La tasa de evolución ideal actual (línea azul sólida) difiere de la tasa de evolución ideal original (línea azul punteada) cuando se añaden horas o puntos a la iteración o se eliminan de ella después de que comience la iteración.</p> <p>Esta línea se muestra plana cuando se trabaja en un día libre.</p> <p>Para obtener más información, consulte <a title="Uso del gráfico de evolución de Agile" href="#how-days-off-affect-the-burndown-chart" class="MCXref xref">Cómo afectan los días libres al gráfico de evolución</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <img src="assets/agile-iteration-burndown-red.png" alt=""> </td> 
+   <td role="rowheader"> <img src="assets/agile-iteration-burndown-red.png" alt="Tasa de evolución real en rojo"> </td> 
    <td> <p>La tasa de evolución real se muestra en rojo cuando la tasa de evolución es inferior a la ideal (quedan más puntos o horas por día que el cálculo de evolución ideal).</p> <p>La fórmula siguiente se utiliza para calcular la tasa de evolución real:</p> <p>[SUMA(Valor de punto u hora del trabajo en curso * Porcentaje completado) + Valor de punto u hora del trabajo completado]</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <img src="assets/agile-iteration-burndown-green.png" alt=""> </td> 
+   <td role="rowheader"> <img src="assets/agile-iteration-burndown-green.png" alt="Tasa de evolución real en verde"> </td> 
    <td> <p>La tasa de evolución real se muestra en verde cuando la tasa de evolución es igual o mejor que la ideal (quedan menos puntos por día o iguales que el cálculo de evolución ideal).</p> <p>La fórmula siguiente se utiliza para calcular la tasa de evolución real:</p> <p>[SUMA(Valor de punto u hora del trabajo en curso * Porcentaje completado) + Valor de punto u hora del trabajo completado]</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <img src="assets/agile-iteration-burndown-scope.png" alt=""> </td> 
+   <td role="rowheader"> <img src="assets/agile-iteration-burndown-scope.png" alt="Cambio en el ámbito"> </td> 
    <td> <p>Cambio en el ámbito (se añaden horas o puntos o se eliminan de la iteración).</p> <p>Los cambios de ámbito siempre se muestran como una línea vertical en medio del día. Además, se muestra un punto azul en medio de cualquier día en el que se haya producido un cambio de ámbito.</p> <p>El eje vertical del gráfico de evolución muestra los puntos o las horas del artículo.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <img src="assets/agile-iteration-burndown-scope.png" alt=""> </td> 
+   <td role="rowheader"> <img src="assets/agile-iteration-burndown-scope.png" alt="Cambio en el intervalo de fechas"> </td> 
    <td> <p>Cambio en el intervalo de fechas (la duración de la iteración aumenta o disminuye).</p> <p>Se muestra un punto azul en medio de cualquier día en el que se haya cambiado la duración de la iteración.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <img src="assets/agile-iteration-burndown-scope.png" alt=""> </td> 
+   <td role="rowheader"> <img src="assets/agile-iteration-burndown-scope.png" alt="Quemado el punto verde del trabajo"> </td> 
    <td> <p>Se muestra un punto verde o rojo en la tasa de evolución real cada vez que se quema el trabajo. (Cuando la tasa de evolución real de ese día es de color rojo, el punto es de color rojo; cuando la tasa de evolución real de ese día es de color verde, el punto es de color verde).</p> <p>El trabajo se incendia cuando se produce cualquiera de las siguientes situaciones:</p> 
     <ul> 
      <li> El [!UICONTROL Percent Complete] aumenta en la historia.<br>[!UICONTROL Percent Complete] aumenta cuando: 

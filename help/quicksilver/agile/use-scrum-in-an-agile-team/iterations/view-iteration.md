@@ -6,7 +6,7 @@ description: Puede ver todas las iteraciones de un equipo determinado o puede ve
 author: Lisa
 feature: Agile
 exl-id: 1ee14c40-8047-4885-96f0-cddfc2617028
-source-git-commit: 9a3ec953ca1c7989be292f1747a052ed5cc7c74b
+source-git-commit: 556a2b89f2e380d3a0725f0d53251d3e1e3c7ca7
 workflow-type: tm+mt
 source-wordcount: '236'
 ht-degree: 91%
@@ -64,4 +64,4 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
 1. (Opcional) Haga clic en el nombre de la iteración específica que desea ver.
 Se muestran las historias de iteración.
 
-   ![[!UICONTROL Historias en la iteración]](assets/iteration-stories-list-NWE.png)
+   ![[!UICONTROL Historias en la iteración]](assets/iteration-stories-list.png)

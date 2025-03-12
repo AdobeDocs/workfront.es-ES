@@ -2,22 +2,22 @@
 product-area: agile-and-teams;projects
 navigation-topic: scrum-board
 title: Ver y editar la información de la historia en el panel de exploración
-description: Al ver un mosaico de historia en el panel Kanban, cierta información está disponible para editar en línea, directamente desde el mosaico de historia.
+description: Al ver el mosaico de una historia en el tablero Kanban, determinada información está disponible para editar en línea, directamente desde el mosaico de la historia.
 author: Lisa
 feature: Agile
 exl-id: 88d156ea-0913-425e-b3eb-6ae81d2d2336
-source-git-commit: d660707dd69fab78095eed1414092a7c909ba174
+source-git-commit: 91dc9946566e15bf32d0d89975e3e6b66b39e873
 workflow-type: tm+mt
-source-wordcount: '464'
-ht-degree: 0%
+source-wordcount: '466'
+ht-degree: 56%
 
 ---
 
-# Ver y editar información de historia en el tablero [!UICONTROL Scrum]
+# Ver y editar la información de historia en el tablero de [!UICONTROL Scrum]
 
 ## Comprender qué información se puede ver y editar
 
-Al ver un mosaico de artículo en el guion gráfico, está disponible la información de la siguiente tabla. Puede editar la mayor parte de la información en línea, directamente desde el mosaico de artículo.
+Al ver un mosaico de artículo en el guion gráfico, está disponible la información de la siguiente tabla. Puede editar la mayor parte de la información en línea, directamente desde el mosaico de la historia.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -27,7 +27,7 @@ Al ver un mosaico de artículo en el guion gráfico, está disponible la informa
   <tr> 
    <th><strong>Información</strong> </th> 
    <th><strong>Visible</strong> </th> 
-   <th><strong>En línea editable</strong> </th> 
+   <th><strong>Editable en línea</strong> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -47,7 +47,7 @@ Al ver un mosaico de artículo en el guion gráfico, está disponible la informa
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td> <p>[!UICONTROL Percent Complete] para cada artículo y problema.<br>El [!UICONTROL Percent Complete] de la iteración se calcula según el [!UICONTROL Percent Complete] de cada artículo.</p> <p>Al actualizar [!UICONTROL Porcentaje completado] para una historia o un problema, puede elegir cualquier número entre 0 y 100.</p> </td> 
+   <td> <p>El [!UICONTROL Percent Complete] de cada historia y problema.<br>El [!UICONTROL Percent Complete] de la iteración se calcula según el [!UICONTROL Percent Complete] de cada artículo.</p> <p>Al actualizar el [!UICONTROL Percent Complete] de una historia o un problema, puede elegir cualquier número entre 0 y 100.</p> </td> 
    <td>✓</td> 
    <td>✓</td> 
   </tr> 
@@ -94,22 +94,22 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  </tbody> 
 </table>
 
-Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Ver y editar información en un mosaico de artículo
+## Ver y editar información en un mosaico de historia
 
 {{step1-to-team}}
 
-1. (Opcional) Haga clic en el icono **[!UICONTROL Cambiar de equipo]** ![Cambiar de icono de equipo](assets/switch-team-icon.png) y, a continuación, seleccione un nuevo equipo de Scrum en el menú desplegable o busque un equipo en la barra de búsqueda.
+1. (Opcional) Haga clic en el icono de **[!UICONTROL Cambiar equipo]** ![icono de Cambiar equipo](assets/switch-team-icon.png) y, a continuación, seleccione un nuevo equipo de Scrum en el menú desplegable o busque un equipo en la barra de búsqueda.
 
 1. En el panel izquierdo, seleccione **[!UICONTROL Iteraciones]** para elegir una iteración específica o seleccione **[!UICONTROL Iteración actual]**.
 
 1. Vaya al panel de historia ágil [!UICONTROL Scrum].
 1. Expanda el mosaico [!UICONTROL story] para ver todos los campos asociados con la historia.
 
-   ![](assets/agile-storycard-scrum-2021-350x333.png)
+   ![tarjeta de historia](assets/agile-storycard-scrum-2021-350x333.png)
 
 1. (Opcional) Para editar un campo, haga clic en el campo y realice los cambios necesarios.
 
@@ -117,4 +117,4 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
 
 >[!NOTE]
 >
->Para cambiar el [!UICONTROL Porcentaje completado], debe escribir un número entre 0 y 100. El campo no es un control deslizante que se pueda mover.
+>Para cambiar el [!UICONTROL Porcentaje completado], debe escribir un número entre 0 y 100. El campo no es un regulador que se pueda mover.

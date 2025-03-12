@@ -6,9 +6,9 @@ description: Puede crear elementos de trabajo y proyectos desde el área [!UICON
 author: Courtney
 feature: Get Started with Workfront, Work Management
 exl-id: 9db6e509-ea6a-493a-9d86-21a163da1915
-source-git-commit: fddb927f2c9639b4c26d590bbea7dba684ed2b6c
+source-git-commit: e02a593ddca923067eb61f838a7ade17e7fc3652
 workflow-type: tm+mt
-source-wordcount: '847'
+source-wordcount: '842'
 ht-degree: 16%
 
 ---
@@ -19,7 +19,6 @@ Puede crear elementos de trabajo y proyectos desde el área [!UICONTROL Inicio].
 
 Desde Inicio, puede hacer lo siguiente
 
-* Cree tareas pendientes personales para usted
 * Envían solicitudes
 * Agregar tareas y problemas a proyectos específicos
 * Cree proyectos a partir de una plantilla o un proyecto en blanco, o importe un proyecto de MS.

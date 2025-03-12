@@ -7,10 +7,10 @@ author: Lisa
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 246e3f71-6403-4381-866c-fa693fb9944d
-source-git-commit: 586abc0babac2a9b3d6d22bebe841c217315b064
+source-git-commit: 0289e2d0a3f75827b9c799b72fdc4e9ca1c59949
 workflow-type: tm+mt
-source-wordcount: '118'
-ht-degree: 35%
+source-wordcount: '124'
+ht-degree: 33%
 
 ---
 
@@ -28,5 +28,6 @@ Lea estos artículos para aprender a utilizar el área de Inicio en Adobe Workfr
 * [Administrar solicitudes de trabajo y equipo en el área [!UICONTROL Inicio]](../../../workfront-basics/using-home/using-the-home-area/manage-work-and-team-requests-home.md)
 * [Actualizar o editar un elemento de trabajo en el área [!UICONTROL Inicio]](../../../workfront-basics/using-home/using-the-home-area/update-and-edit-work-item-home.md)
 * [Crear elementos de trabajo y proyectos desde el área [!UICONTROL Inicio]](../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md)
+* [Crear y administrar un elemento personal pendiente](/help/quicksilver/workfront-basics/using-home/using-the-home-area/manage-to-do-in-home.md)
 * [Registro de tiempo en elementos de trabajo del área de [!UICONTROL inicio]](../../../workfront-basics/using-home/using-the-home-area/log-time-on-work-item-in-home.md)
 * [Marcar un elemento como [!UICONTROL Listo] en el área de [!UICONTROL Inicio]](../../../workfront-basics/using-home/using-the-home-area/mark-item-done-in-home.md)

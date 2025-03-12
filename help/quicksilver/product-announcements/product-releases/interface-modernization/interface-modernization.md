@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 1a0902c7c6e1b7f647564e448daf74748d9cb3db
+source-git-commit: 3ea3acc79a0f2d9c61b4ca7fff68855a9a7b1de7
 workflow-type: tm+mt
-source-wordcount: '1634'
+source-wordcount: '1706'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,8 @@ Esta página lista las actualizaciones de la interfaz que estamos realizando a t
 Para ver todos los demás cambios en Adobe Workfront, consulte [Versiones del producto](/help/quicksilver/product-announcements/product-releases/product-releases.md).
 
 ## Administración y configuración
+
++++Amplíe para ver las actualizaciones de la interfaz de administración y configuración.
 
 ### Actualización de la interfaz del Centro de anuncios
 
@@ -140,7 +142,11 @@ Hemos actualizado las listas de Aprobaciones de proyectos, tareas y problemas en
 
 Esta actualización incluye cambios visuales en el área. No se ha cambiado ninguna funcionalidad.
 
++++
+
 ## Agile
+
++++Amplíe para ver las actualizaciones de la interfaz de Agile
 
 ### Actualizaciones de interfaz para solicitudes de equipo
 
@@ -177,7 +183,8 @@ Hemos actualizado el área Equipos > Registro de pendientes con un diseño más 
 Esta actualización incluye los siguientes cambios:
 
 * Mejoras visuales en la ficha Historias y problemas, así como en el cuadro de diálogo Desglosar historia
-* Un nuevo cuadro de diálogo para la herramienta Planificar iteración
+* Un nuevo cuadro de diálogo para la herramienta Planificar iteración. Debe seleccionar una historia o un problema para que aparezca el botón Planificar iteración.
+* Ya no puede alternar entre la pestaña Historias y problemas al planificar una iteración. Puede agregar historias o problemas desde la pestaña registro de pendientes una vez creada la iteración.
 
 ### Actualización de la interfaz de la lista Iteraciones
 
@@ -199,7 +206,11 @@ Esta actualización incluye cambios visuales en el área. No se ha cambiado ning
 
 Para ver este cambio, ve a Equipos > elige un equipo > Registro de pendientes y luego haz clic en **Nueva historia** o **Nuevo problema**.
 
++++
+
 ## Documentos
+
++++Expandir para ver las actualizaciones de la interfaz de documentos
 
 ### Actualización de la interfaz del área de Aprobaciones de un documento
 
@@ -217,7 +228,11 @@ Hemos actualizado el cuadro de diálogo de edición de Carpetas inteligentes con
 
 Para ver este cambio, vaya al menú Documentos > Haga clic en más situado junto al nombre del filtro inteligente > Haga clic en Editar.
 
++++
+
 ## Informes y paneles
+
++++Amplíe para ver las actualizaciones de la interfaz de Informes y Paneles
 
 ### Se ha actualizado el informe de equipo con un nuevo estilo
 
@@ -271,3 +286,5 @@ Se ha añadido un nuevo botón Editar modo de texto y un modal de edición a las
 
 * Filtros heredados
 * Agrupaciones
+
++++
