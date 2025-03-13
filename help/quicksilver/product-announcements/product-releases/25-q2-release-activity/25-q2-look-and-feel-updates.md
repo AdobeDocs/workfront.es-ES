@@ -5,10 +5,10 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: aeb16dc5-d17d-40bc-a32a-de6d47b43817
-source-git-commit: a17f501e732e4ba72bf224c7dd9efef7f90b47e7
+source-git-commit: ece8b2b248c8dd4e27465fbacb1319a7e0fbac11
 workflow-type: tm+mt
-source-wordcount: '469'
-ht-degree: 20%
+source-wordcount: '519'
+ht-degree: 18%
 
 ---
 
@@ -31,19 +31,15 @@ Los avatares ya no se mostrarán en las siguientes notificaciones por correo ele
 * Nuevas notificaciones de asignación
 * Todas las notificaciones de finalización de tareas predecesoras
 
-<!--
-
-## Look and feel updates to a Milestone Path list 
+## Actualizaciones de aspecto y presentación en una lista de rutas de hitos
 
 >[!NOTE]
 >
->Preview release: March 6, 2025; Production release for all customers: April 10, 2025
+>Versión preliminar: 6 de marzo de 2025; versión de producción para todos los clientes: 10 de abril de 2025
 
-We have updated the look and feel of the Milestone Path list in the Setup area, to match the design of other areas of Workfront.  
+Hemos actualizado el aspecto de la lista Ruta de hitos en el área de Configuración para que coincida con el diseño de otras áreas de Workfront.
 
-For information, see [Create a milestone path](/help/quicksilver/administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md).
-
--->
+Para obtener más información, vea [Crear una ruta de hitos](/help/quicksilver/administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md).
 
 ## Actualizaciones de aspecto y funcionamiento del calendario de Workfront
 
@@ -89,7 +85,7 @@ Estos cambios son temporales a medida que investigamos los retrasos en los corre
 
 >[!NOTE]
 >
->Versión de vista previa: 13 de febrero de 2025; versión de producción para todos los clientes: con la versión 25.3 (13 de marzo de 2025)
+>Versión preliminar: 13 de febrero de 2025; versión de producción para todos los clientes: con la versión 25.4 (10 de abril de 2025)
 
 Hemos actualizado el aspecto del cuadro de diálogo Compartir a un diseño moderno que sea coherente con otras áreas de Workfront. Hay pequeñas diferencias visuales, incluyendo:
 
