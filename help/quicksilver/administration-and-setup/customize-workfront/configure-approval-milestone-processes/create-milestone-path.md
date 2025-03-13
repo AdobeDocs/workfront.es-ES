@@ -8,10 +8,10 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: c1e2f374-576c-4f1c-b502-281e8ee9e7df
-source-git-commit: 9cab5818ce9fed8a4ac9d8ff305163e95cc45758
+source-git-commit: a3c82d8be6945a91a249d64923c6377a5edfa268
 workflow-type: tm+mt
-source-wordcount: '779'
-ht-degree: 68%
+source-wordcount: '875'
+ht-degree: 61%
 
 ---
 
@@ -115,26 +115,28 @@ Para obtener más información sobre cómo asociar una ruta de hitos a un proyec
    </table>
 
 1. Haga clic en **Añadir hito** y continúe añadiendo hitos según sea necesario hasta que finalice la ruta.
+
 1. Haga clic en **Crear ruta de hitos** para guardar los cambios.
 
    La ruta de hitos está lista para asociarse a un proyecto.
 
    Para obtener más información sobre cómo asociar rutas de hitos a proyectos e hitos a tareas, consulte [Asociar hitos a tareas](../../../manage-work/tasks/manage-tasks/associate-milestones-with-tasks.md).
 
-<!--
-1. <span class="preview">(Optional) Click the **Export** icon ![Export icon](assets/export-icon.png), then select from the following formats to export the milestone path list to a file: </span>
+
+1. <span class="preview">(Opcional) Haga clic en el icono **Exportar** ![Icono de exportar](assets/export-icon.png) y, a continuación, seleccione uno de los siguientes formatos para exportar la lista de rutas de hitos a un archivo: </span>
 
    * PDF
    * Excel
    * Excel (xlsx)
-   * Tab Delimited
-1. <span class="preview">(Optional) Select a milestone in the milestone list, then click the **Edit** icon ![Edit icon](assets/edit-icon.png) to edit milestone information. </span>
-1. <span class="preview">(Optional) Select a milestone in the milestone list, then click the **Delete** icon ![Delete icon](assets/delete-icon.png) to delete it. </span>
-1. <span class="preview">Click **Yes, Delete it**. </span>
-   <span class="preview">The milestone is deleted and cannot be recovered. Any project information associated with the milestone and any task information associated with the milestone paths is also deleted. </span>
+   * Delimitado por tabulaciones
 
-   </div>
--->
+1. <span class="preview">(Opcional) Seleccione un hito en la lista de hitos y, a continuación, haga clic en el icono **Editar** ![Editar icono](assets/edit-icon.png) para editar la información del hito. </span>
+1. <span class="preview">(Opcional) Seleccione un hito en la lista de hitos y, a continuación, haga clic en el icono **Eliminar** ![Eliminar icono](assets/delete-icon.png) para eliminarlo. </span>
+1. <span class="preview">Haga clic en **Sí, eliminarlo**. </span>
+   <span class="preview">El hito se ha eliminado y no se puede recuperar. También se elimina cualquier información de proyecto asociada al hito y cualquier información de tarea asociada a las rutas de hitos. </span>
+
+
+<div class="preview">
 
 ## Ver detalles de ruta de hitos en un informe
 
@@ -171,9 +173,8 @@ Para obtener información sobre cómo asociar rutas de hitos a proyectos, vea [E
    * Grupos de rutas de hitos
    * Nombres, descripciones, colores e iconos de color de hitos
 
-   </div>
-
 1. (Opcional) Haga clic en **Atrás** para volver al informe del proyecto.
 
+</div>
 
 

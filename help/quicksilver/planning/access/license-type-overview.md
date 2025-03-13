@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 10dee6f9-06ff-435a-81a4-2125642fab59
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: a3c82d8be6945a91a249d64923c6377a5edfa268
 workflow-type: tm+mt
-source-wordcount: '584'
-ht-degree: 44%
+source-wordcount: '548'
+ht-degree: 42%
 
 ---
 
@@ -39,41 +39,41 @@ Al conceder permisos de usuario a un espacio de trabajo, también se les concede
 
 Debe conceder a los usuarios permisos independientes a las vistas, además de los que tienen para los espacios de trabajo, para poder acceder y administrar las vistas.
 
+<!--
 
 <div class="preview">
 
-Tenga en cuenta lo siguiente al trabajar con permisos de tipo de registro:
+Consider the following when working with record type permissions: 
 
-* Los usuarios heredan automáticamente los permisos de tipo de registro de los espacios de trabajo.
-* Cuando un usuario tiene permisos de administración en un espacio de trabajo, no puede tener un acceso menor al tipo de registro.
-* Los usuarios no pueden tener permisos para un tipo de registro superiores a los que tienen para el espacio de trabajo al que pertenece el tipo de registro.
+* Users automatically inherit record type permissions from workspaces. 
+* When a user has Manage permissions to a workspace, they cannot have a lesser access to record type. 
+* Users cannot have greater permissions to a record type than they have for the workspace the record type belongs to.
 
 </div>
+-->
 
 | Tipo de licencia de Adobe Workfront* | Permisos más altos permitidos en Adobe Workfront Planning |
 |------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Estándar | <p>Los usuarios pueden administrar espacios de trabajo <span class="preview">, tipos de registros, </span> y vistas. Pueden crear, editar o eliminar espacios de trabajo, tipos de registros, registros, campos y vistas.</p> <br> <p>Los administradores del sistema tienen permisos de administración en todos los espacios de trabajo, incluidos los que no han creado.</p> |
+| Estándar | <p>Los usuarios pueden administrar los espacios de trabajo <!--<span class="preview">, record types, </span> --> y las vistas. Pueden crear, editar o eliminar espacios de trabajo, tipos de registros, registros, campos y vistas.</p> <br> <p>Los administradores del sistema tienen permisos de administración en todos los espacios de trabajo, incluidos los que no han creado.</p> |
 | Ligero o colaborador | <p>Los usuarios pueden ver los espacios de trabajo compartidos con ellos, así como los tipos de registro, registros y campos de dichos espacios de trabajo.</p> <br> <p>Los usuarios pueden ver las vistas que se han compartido con ellos, pero no pueden crear las suyas. </p><br> <p>Los usuarios no pueden crear, editar ni eliminar espacios de trabajo, tipos de registros, registros o campos.</p> |
 
 *Workfront Planning no está disponible para licencias de Workfront heredadas.
 Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 
-<!--OLD 
+### Tipos de licencias y permisos para espacios de trabajo
 
-| Adobe Workfront license type*                                   | Highest permissions allowed in Adobe Workfront Planning                                                                                                                                             |
-|------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|New: Standard <br> or <br>Current: Plan                    | Users can manage workspaces. They can create, edit, or delete workspaces, record types, records, and fields. <br> System administrators have Manage permissions to all workspaces, including the ones they did not create.                                                                                                                     |
-| New: Light, Contributor <br> or <br>Current: Work, Requestor, Reviewer                      | Users can view the workspaces shared with them, as well as the record types, records, and fields of those workspaces. <br> Users cannot create, edit, or delete workspaces, record types, records, or fields.|
+<!--should we add "record types" in the title above and to this section?-->
 
-*For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
--->
+Solo los usuarios con una licencia estándar pueden tener permisos de contribución o administración en los espacios de trabajo <!--<span class="preview">and record types</span>-->. Los permisos de Contribuir y Administrar en los espacios de trabajo <!--<span class="preview">and record types</span>--> también se transfieren a los tipos de registro, registros y campos.
 
-### Tipos de licencias y permisos del espacio de trabajo
+<!--take "record types" out from the end of the sentence above when we release record type-level access-->
 
-Solo los usuarios con una licencia estándar pueden tener permisos de contribución o administración en los espacios de trabajo <span class="preview">y tipos de registro</span>. Los usuarios con todos los demás tipos de licencia pueden tener permisos de visualización en los espacios de trabajo <span class="preview"> y los tipos de registro </span> compartidos con ellos.
+Los usuarios con todos los demás tipos de licencia pueden tener permisos de visualización en los espacios de trabajo <!--<span class="preview"> and record types </span> --> compartidos con ellos, así como en sus tipos de registro, registros y campos.
 
-Los administradores del sistema pueden ver todos los espacios de trabajo del sistema, incluso los que no han creado.
+<!--take "record types" out from the end of the sentence above when we release record type-level access-->
+
+Los administradores del sistema pueden ver todos los espacios de trabajo del sistema, incluidos los que no han creado.
 
 <!--does the shot below need to be replaced for record types??-->
 
@@ -88,7 +88,7 @@ Los administradores del sistema pueden ver todos los espacios de trabajo del sis
 >![Permisos atenuados para el usuario colaborador en el espacio de trabajo](assets/permissions-grayed-out-for-contributor-user-on-workspace.png)
 
 
-### Tipos de licencias y permisos de visualización
+### Tipos de licencias y permisos para vistas
 
 Solo los usuarios con una licencia Standard pueden tener permisos de administración en las vistas. Los usuarios con todos los demás tipos de licencia pueden tener permisos de visualización para las vistas compartidas con ellos.
 

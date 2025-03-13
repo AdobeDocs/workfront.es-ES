@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: a3c82d8be6945a91a249d64923c6377a5edfa268
 workflow-type: tm+mt
-source-wordcount: '1865'
-ht-degree: 11%
+source-wordcount: '2084'
+ht-degree: 10%
 
 ---
 
@@ -160,7 +160,7 @@ Para obtener información sobre cómo enviar solicitudes de Workfront Planning, 
 
    La página de tipo de registro se abre en la vista a la que se accedió por última vez. De forma predeterminada, se abre una página de tipo de registro en la vista de tabla.
 
-1. Haga clic en el menú **Más** ![Menú más](assets/more-menu.png) que se encuentra a la derecha del nombre del tipo de registro en el encabezado de la página y, a continuación, haga clic en **Crear formulario de solicitud**.
+1. Haga clic en el menú **Más** ![Menú más](assets/more-menu.png) que se encuentra a la derecha del nombre del tipo de registro en el encabezado de la página y, a continuación, haga clic en **Crear formulario de solicitud** <span class="preview">o **Administrar formulario de solicitud**, si ya tiene un formulario y desea crear otros</span>.
 1. Actualice el nombre del formulario de solicitud. De manera predeterminada, el nombre del formulario es **Formulario sin título**. <!--check this; you logged a bug to rename it to 'Untitled request form' but was it fixed?-->
 1. (Opcional) Agregue una **Descripción** para el formulario de solicitud.
 
@@ -258,7 +258,14 @@ Para obtener información sobre cómo enviar solicitudes de Workfront Planning, 
    >     * Personas
    >
 
-1. (Condicional) Si seleccionó **Cualquier persona con el vínculo** en el paso anterior, seleccione **Fecha de caducidad del vínculo** del calendario disponible. Las personas recibirán un error una vez que caduque el vínculo y debe actualizar la fecha del vínculo y generar un nuevo vínculo para compartirlo antes de que las personas puedan acceder al formulario de nuevo.
+1. (Condicional) Si seleccionó **Cualquier persona con el vínculo** en el paso anterior, seleccione **Fecha de caducidad del vínculo** del calendario disponible. <!--take out this tip when we release to production as in multiple forms this is no longer happening-->
+
+   >[!TIP]
+   >
+   >Hay indicios de que el vínculo se comparte públicamente cuando este es el caso.
+   >![Vínculo compartido públicamente al formulario en el menú de tipo de registro](assets/publicly-shared-link-to-form-on-record-type-menu-highlighted.png)
+
+   Las personas recibirán un error una vez que caduque el vínculo y debe actualizar la fecha del vínculo y generar un nuevo vínculo para compartirlo antes de que las personas puedan acceder al formulario de nuevo.
 
    Puede seleccionar fechas futuras en un plazo de 180 días a partir de la fecha actual.
 
@@ -274,18 +281,31 @@ Para obtener información sobre cómo enviar solicitudes de Workfront Planning, 
    Para obtener información sobre cómo crear registros mediante un vínculo a un formulario de solicitud, consulte [Enviar solicitudes de Adobe Workfront Planning](/help/quicksilver/planning/requests/submit-requests.md).
 
 1. Haga clic en **Guardar** en la esquina inferior derecha de la pestaña **Formulario** para guardar el formulario.
+
 1. Haga clic en la flecha que señala a la izquierda del nombre del formulario en el encabezado para cerrar el formulario.
 
-   Se abre la página de tipo de registro.
-1. (Opcional) Haga clic en el menú **Más** ![Menú más](assets/more-menu.png) que se encuentra a la derecha del nombre del tipo de registro en el encabezado y, a continuación, siga uno de estos procedimientos:
+   <span class="preview">Se abre la vista de tabla de **Formularios de solicitud** y se agrega el formulario.</span>
+
+1. <span class="preview">(Opcional) Pase el ratón sobre el nombre de un formulario de solicitud en la vista de tabla, luego haga clic en el menú **Más** ![Menú más](assets/more-menu.png) a la derecha del nombre del formulario y haga clic en una de las siguientes opciones:</span>
+
+   * <span class="preview">**Editar formulario**: haga clic aquí para editar más información en el formulario. </span>
+   * <span class="preview"> **Cancelar publicación**: haga clic aquí para cancelar la publicación del formulario que lo quita del área de solicitudes en Workfront. </span>
+   * <span class="preview">**Compartir**: haga clic aquí para modificar quién tiene acceso al formulario. </span>
+   * <span class="preview">**Copiar vínculo**: haga clic aquí para copiar rápidamente el vínculo del formulario de solicitud sin abrir el formulario. </span>
+   * <span class="preview">**Eliminar**: haga clic aquí para eliminar el formulario. No se eliminan todas las solicitudes y registros agregados mediante el formulario. El formulario no se puede recuperar. </span>
+
+   ![Menú más en el formulario de solicitud de la lista de formularios de solicitud](assets/more-menu-on-request-form-from-request-forms-list.png)
+
+
+1. <span class= "preview">Haga clic en la flecha que señala a la izquierda de **Solicitar formularios** en el encabezado para cerrar la tabla de formularios de solicitud.   </span>
+
+   <span class= "preview">Se abre la página de tipo de registro. </span>
+1. (Opcional y condicional) En el entorno Producción, haga clic en el menú **Más** ![Menú más](assets/more-menu.png) a la derecha del nombre del tipo de registro en el encabezado y, a continuación, siga uno de estos procedimientos:
    * Haga clic en **Actualizar formulario de solicitud** para realizar cualquier cambio en el formulario de solicitud.
    * Haga clic en **Copiar vínculo al formulario de solicitud** para compartir el vínculo al formulario con otros usuarios.
 
-   O
+1. <span class="preview"> (opcional y condicional) En el entorno de vista previa, haga clic en el menú **Más** ![Menú más](assets/more-menu.png) a la derecha del nombre del tipo de registro en el encabezado y, a continuación, haga clic en **Administrar formularios de solicitud**. </span>
 
-   * <span class= "preview"> Vaya al área de **Solicitudes** en Workfront y busque el formulario compartido para enviar una solicitud. Para obtener más información, vea [Enviar solicitudes de Adobe Workfront Planning para crear registros](/help/quicksilver/planning/requests/submit-requests.md).</span>
-
-   >[!TIP]
-   >
-   >Hay indicios de que el vínculo se comparte públicamente cuando este es el caso.
-   >![Vínculo compartido públicamente al formulario en el menú de tipo de registro](assets/publicly-shared-link-to-form-on-record-type-menu-highlighted.png)
+   <span class="preview">Se abrirá la vista de tabla de formularios de solicitud. </span>
+1. <span class="preview">Haga clic en un formulario de solicitud para abrirlo y editarlo.</span>
+1. <span class= "preview">(Opcional) Vaya al área de **Solicitudes** en Workfront y busque el formulario compartido para enviar una solicitud. Para obtener más información, vea [Enviar solicitudes de Adobe Workfront Planning para crear registros](/help/quicksilver/planning/requests/submit-requests.md).</span>
