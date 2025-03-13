@@ -7,10 +7,10 @@ description: Puede agregar agrupaciones para administrar el diseño de la inform
 author: Nolan
 feature: Reports and Dashboards
 exl-id: d050372e-c4a0-4c49-b220-5b35334ab8d0
-source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
+source-git-commit: 69dec186cdb8a6d29853703edb41073282cdd447
 workflow-type: tm+mt
-source-wordcount: '809'
-ht-degree: 0%
+source-wordcount: '813'
+ht-degree: 4%
 
 ---
 
@@ -36,7 +36,7 @@ De forma predeterminada, las agrupaciones se muestran en un resaltado gris en el
 
 ![Ejemplo de agrupación](assets/grouping-example-blue.png)
 
-Se pueden agregar hasta tres agrupaciones a un informe. Puede organizar la información con hasta cuatro agrupaciones creando un informe de matriz. Para obtener más información sobre los informes de matriz, consulte [Crear un informe de matriz](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md).
+Se pueden agregar hasta tres agrupaciones a un informe. Puede organizar la información con hasta cuatro agrupaciones creando un informe de matriz. Para obtener más información sobre los informes de matriz, consulte [Creación de un informe de matriz](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md).
 
 El número entre paréntesis después del nombre de la agrupación representa el número de resultados bajo esa agrupación. Si el informe abarca varias páginas, asegúrese de mostrar *Todos* los resultados en el informe o lista para obtener un recuento preciso de los resultados en cada agrupación.
 
@@ -64,13 +64,17 @@ También puede administrar la información del informe al usar Agrupaciones agre
 
 Puede acumular los datos mostrados en el informe en la línea de agrupación resumiendo los valores en cada columna del informe. Para obtener más información sobre cómo resumir los datos de columna en una agrupación, consulte [Información general de vistas en Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
+
 >[!NOTE]
 >
->Las siguientes excepciones se aplican a los objetos principales (por ejemplo, las tareas principales) cuando se agregan valores para los siguientes campos en agrupaciones:
+>Las siguientes excepciones se aplican a los objetos principales (por ejemplo, las tareas principales) cuando se agregan valores para los siguientes campos en >agrupaciones:
 >
->* Todos los campos de número y moneda excepto Horas reales (por ejemplo, Costo de mano de obra planificado/ real, Costo de gasto planificado/ real, Costo planificado/ real, Horas planificadas) agregan solo los valores de las tareas secundarias y las tareas independientes. No acumulan los valores de las tareas principales o principales de los elementos principales.
->* Las horas reales acumulan los valores de las tareas principales e independientes; no acumulan los números de las tareas principales o secundarias.
->* Los campos de datos personalizados para valores numéricos y monetarios acumulan todas las tareas: principales, secundarios, principales de principales y tareas independientes.
+>* Todos los campos de número, moneda y fecha, excepto Horas reales, agregan valores solo para tareas secundarias y tareas independientes. No acumulan valores para tareas principales o principales de elementos principales. Al agregar campos de número, moneda y fecha en una lista que incluya sólo tareas principales, no se mostrará un valor agregado en la barra de agrupación.
+>
+>* Las horas reales acumulan valores para las tareas principales e independientes; no acumulan los números de las tareas secundarias o principales de las tareas principales. <!--Examples of Actual hours include Planned/Actual Labor Cost, Planned/Actual Expense Cost, Planned/Actual Cost, and Planned Hours.-->
+>
+>* Los campos de datos personalizados para valores numéricos y de moneda agregan todas las tareas: principales, secundarias, principales de principales y tareas independientes.
+
 
 ### Ordenar por una agrupación {#sort-by-a-grouping}
 
@@ -84,3 +88,13 @@ La forma de quitar una agrupación depende de si la creó inicialmente o de si l
 * **Si la agrupación se compartió con usted y la elimina**, la agrupación se eliminará únicamente por usted. El usuario que lo creó originalmente y cualquier otro usuario con el que se haya compartido siguen teniendo acceso a la agrupación.
 
 Para obtener información acerca de cómo quitar una agrupación, vea el artículo [Quitar filtros, vistas y agrupaciones](../../../reports-and-dashboards/reports/reporting-elements/remove-filters-views-groupings.md).
+
+
+<!--Original note
+
+The following exceptions apply for parent objects (for example, parent tasks) when you are aggregating values for the following fields in groupings:
+All the number and currency fields except Actual Hours (for example, Planned/ Actual Labor Cost, Planned/ Actual Expense Cost, Planned/ Actual Cost, Planned Hours) aggregate only the values for the children tasks, and standalone tasks. They do not aggregate the values for the parent tasks or parents of parents.
+Actual Hours aggregate the values for the main parent and the standalone tasks; they do not aggregate the numbers for the parents of parent tasks or the children tasks.
+Custom data fields for number and currency values aggregate all tasks: parents, children, parents of parents, and standalone tasks.
+
+-->

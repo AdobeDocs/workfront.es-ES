@@ -6,10 +6,10 @@ description: Las iteraciones son un componente clave para los equipos ágiles de
 author: Lisa
 feature: Agile
 exl-id: a25cdd4a-f2e3-4b8a-a7f4-3757940b635e
-source-git-commit: 6fb0870b919baf49e17d48586b2a9661e5cb4b94
+source-git-commit: e24c97e78b210fc385052b573fe69d092b521a90
 workflow-type: tm+mt
-source-wordcount: '1119'
-ht-degree: 84%
+source-wordcount: '1036'
+ht-degree: 80%
 
 ---
 
@@ -103,11 +103,11 @@ Utilice la función [!UICONTROL Planificar iteración] para crear una iteración
 
 1. Seleccione **[!UICONTROL Registro de pendientes]** en el panel izquierdo.
 
-1. En la ficha **Historias** o **Problemas**, seleccione al menos un elemento de trabajo y haga clic en **[!UICONTROL Iteración del plan]**.
+1. En la ficha **Historias** o **Problemas**, seleccione los elementos de trabajo que desee agregar a la iteración y, a continuación, haga clic en **[!UICONTROL Planificar iteración]**.
 
 >[!NOTE]
 >
-> No se puede alternar entre la ficha Historias o Problemas al planificar una iteración en la ficha Registro de pendientes. Puede agregar historias o problemas existentes una vez que se haya creado la iteración. Para obtener más información, vea [Mover historias del registro de pendientes a una iteración o tablero](/help/quicksilver/agile/work-in-an-agile-environment/manage-the-agile-backlog.md#move-stories-from-the-backlog-to-an-iteration-or-board).
+> No puede cambiar entre la ficha Historias o Problemas ni agregar tareas adicionales al planificar una iteración en la ficha Registro de pendientes. Puede agregar historias o problemas existentes una vez que se haya creado la iteración. Para obtener más información, consulte [Agregar tareas o problemas a una iteración existente en la ficha Registro de pendientes](#add-tasks-or-issues-to-an-existing-iteration-on-the-backlog-tab) a continuación.
 
 
 1. Especifique la siguiente información:
@@ -143,19 +143,20 @@ Utilice la función [!UICONTROL Planificar iteración] para crear una iteración
     </tbody> 
    </table>
 
-1. (Opcional) Seleccione historias para añadirlas a la iteración ahora, o bien puede omitir este paso y añadir historias a una iteración más adelante. Las historias en la parte superior del registro de asuntos pendientes son de mayor prioridad. Las historias se resaltan en verde cuando caben en la capacidad; si no, se resaltan en rojo.
-Puede añadir tareas y problemas a una sola iteración:
+1. Haga clic en **[!UICONTROL Guardar].**: se crea la iteración.
 
-   * **Para añadir tareas a la iteración:** En la pestaña **[!UICONTROL Registro de asuntos pendientes]**, asegúrese de que la pestaña **[!UICONTROL Historias]** esté seleccionada (esta pestaña está seleccionada de forma predeterminada al visualizar el registro de asuntos pendientes). Seleccione los artículos que desee añadir a la iteración.
+## Agregar tareas o problemas a una iteración existente en la ficha Registro de pendientes
 
-     Cuando añade tareas a una iteración, la fecha de inicio de la tarea se calcula tal como se describe en [[!UICONTROL Comprender] cómo se calculan las fechas de inicio de las tareas cuando se añaden a una iteración](#understand-how-task-start-dates-are-calculated-when-added-to-an-iteration).
+1. En la ficha **Registro de pendientes**, haga clic en la ficha **Historias** o **Problemas**.
 
-   * **Para añadir problemas a la iteración:** en la pestaña **[!UICONTROL Registro de asuntos pendientes]**, haga clic en la pestaña **[!UICONTROL Problemas]**. Seleccione los proyectos que quiera añadir a esta iteración.
+1. Seleccione las historias o los problemas que desee añadir a la iteración. Las historias en la parte superior del registro de pendientes son de mayor prioridad.
 
-1. Haga clic en **[!UICONTROL Guardar].**
-Se crea la iteración.
+   ![mover un elemento de trabajo](assets/move-to-iteration.png)
 
-1. (Opcional) Para añadir historias a una iteración existente, consulte [Añadir historias a una iteración existente](../../../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md).
+   >[!NOTE]
+   >
+   >  Cuando añade tareas a una iteración, la fecha de inicio de la tarea se calcula tal como se describe en [[!UICONTROL Comprender] cómo se calculan las fechas de inicio de las tareas cuando se añaden a una iteración](#understand-how-task-start-dates-are-calculated-when-added-to-an-iteration).
+
 
 ## Comprender cómo se calculan las fechas de inicio de las tareas cuando se añaden a una iteración {#understand-how-task-start-dates-are-calculated-when-added-to-an-iteration}
 
