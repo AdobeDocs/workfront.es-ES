@@ -5,10 +5,10 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: aeb16dc5-d17d-40bc-a32a-de6d47b43817
-source-git-commit: 69389422fc33839c3f557c3866f0d88b4a8ea837
+source-git-commit: a17f501e732e4ba72bf224c7dd9efef7f90b47e7
 workflow-type: tm+mt
-source-wordcount: '441'
-ht-degree: 19%
+source-wordcount: '469'
+ht-degree: 20%
 
 ---
 
@@ -18,11 +18,38 @@ En esta página se describen actualizaciones menores en la apariencia de varias 
 
 Para obtener una lista de todos los cambios disponibles con la versión del segundo trimestre de 2025, consulte [Información general sobre la versión del segundo trimestre de 2025](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-release-overview.md).
 
+## Los avatares ya no se muestran en determinadas notificaciones por correo electrónico
+
+>[!NOTE]
+>
+>Versión preliminar: viernes, 13 de marzo de 2025; versión de producción para todos los clientes: viernes, 13 de marzo de 2025
+
+
+Los avatares ya no se mostrarán en las siguientes notificaciones por correo electrónico:
+
+* Todas las notificaciones de eventos de comunicación
+* Nuevas notificaciones de asignación
+* Todas las notificaciones de finalización de tareas predecesoras
+
+<!--
+
+## Look and feel updates to a Milestone Path list 
+
+>[!NOTE]
+>
+>Preview release: March 6, 2025; Production release for all customers: April 10, 2025
+
+We have updated the look and feel of the Milestone Path list in the Setup area, to match the design of other areas of Workfront.  
+
+For information, see [Create a milestone path](/help/quicksilver/administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md).
+
+-->
+
 ## Actualizaciones de aspecto y funcionamiento del calendario de Workfront
 
 >[!NOTE]
 >
->Versión de vista previa: 27 de febrero de 2025; versión de producción para todos los clientes: con la versión 25.3 (marzo de 2025)
+>Versión de vista previa: 27 de febrero de 2025; versión de producción para todos los clientes: con la versión 25.4 (10 de abril de 2025)
 
 Hemos actualizado el aspecto del Workfront Calendar a un diseño moderno que es coherente con otras áreas de Workfront. Existen pequeñas diferencias de funcionalidad con respecto al calendario actual de Workfront, incluido lo siguiente:
 
@@ -38,7 +65,7 @@ Para obtener más información, vea los artículos [Calendarios](/help/quicksilv
 
 >[!NOTE]
 >
->Versión de vista previa: 27 de febrero de 2025; producción para versión rápida: con la versión 25.3 (marzo de 2025); producción para versión trimestral: con la versión 25.4 (abril de 2025)
+>Versión de vista previa: 13 de marzo de 2025; versión de producción para todos los clientes: con la versión 25.4 (10 de abril de 2025)
 
 Al acceder a la trayectoria del hito desde una lista de proyectos o un informe, la página de detalles del hito ahora tiene un nuevo aspecto. Debe agregar el campo Nombre de ruta de hitos a la vista de la lista o informe para poder acceder a la página de detalles de la ruta de hitos.
 
@@ -62,7 +89,7 @@ Estos cambios son temporales a medida que investigamos los retrasos en los corre
 
 >[!NOTE]
 >
->Versión de vista previa: 13 de febrero de 2025; versión de producción para todos los clientes: con la versión 25.3 (marzo de 2025)
+>Versión de vista previa: 13 de febrero de 2025; versión de producción para todos los clientes: con la versión 25.3 (13 de marzo de 2025)
 
 Hemos actualizado el aspecto del cuadro de diálogo Compartir a un diseño moderno que sea coherente con otras áreas de Workfront. Hay pequeñas diferencias visuales, incluyendo:
 

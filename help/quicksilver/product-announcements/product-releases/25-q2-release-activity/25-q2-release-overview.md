@@ -5,10 +5,10 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9b78a58e-7ced-4b13-8108-40bd36339667
-source-git-commit: cbadf0a758369bf9835b5804a036fddbc37dbb51
+source-git-commit: a86b91ee323e9efdca33655eaaac805a019cbb1c
 workflow-type: tm+mt
-source-wordcount: '1079'
-ht-degree: 33%
+source-wordcount: '1158'
+ht-degree: 31%
 
 ---
 
@@ -26,7 +26,7 @@ Las versiones mensuales y trimestrales están planificadas para estar disponible
 
 | Versión mensual | Versión trimestral |
 | ----------------- | ----------------- |
-| <ul><li>25.2 (13 de febrero de 2025)</li><li>25.3 (marzo de 2025)</li><li>25.4 (abril de 2025)</li></ul> | <ul><li>25.4 (abril de 2025)</li></ul> |
+| <ul><li>25.2 (13 de febrero de 2025)</li><li>25.3 (13 de marzo de 2025)</li><li>25.4 (10 de abril de 2025)</li></ul> | <ul><li>25.4 (10 de abril de 2025)</li></ul> |
 
 >[!NOTE]
 >
@@ -47,6 +47,21 @@ Las versiones mensuales y trimestrales están planificadas para estar disponible
 <col style="width: 50%;" />
 <col style="width: 50%;" />
 <tbody>
+<tbody>
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            Mejoras en la lógica de los formularios personalizados</a></p>
+            <p>El creador de lógica de formularios personalizado tiene una interfaz actualizada para que pueda crear reglas lógicas con mayor libertad. Este nuevo diseño puede adaptarse más fácilmente a tipos de lógica adicionales que se pueden añadir en el futuro.</p><p>Además de las opciones de visualización y de lógica de omisión actuales, también está disponible la lógica de validación.</p>
+        </td>
+        <td>
+            <p><b>Disponible en estas fechas:</b></p>
+            <ul>
+                <li>Versión de vista previa: sábado, 31 de enero de 2025</li>
+                <li><span class="preview">Versión de producción para todos los clientes: 31 de enero de 2025</span></li>
+            </ul>
+        </td>
+    </tr>                          
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
@@ -74,7 +89,7 @@ Las versiones mensuales y trimestrales están planificadas para estar disponible
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            Editar varios documentos a la vez en un informe de documento </a></p>
+            Editar varios documentos a la vez en un informe de documento </a></p>[!BADGE In production ]{type=Informative}
             <p>Ahora puede editar varios documentos a la vez en un informe de documento. Puede editar las descripciones y actualizar los formularios personalizados.</p>
         </td>
         <td>
@@ -97,7 +112,7 @@ Las versiones mensuales y trimestrales están planificadas para estar disponible
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-project-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            Agregar un comentario a los proyectos al editarlos en el cuadro Editar proyecto</a></p>
+            Agregue un comentario a los proyectos al editarlos en el cuadro Editar proyecto</a>[!DISTINTIVO En producción para la publicación rápida]{type=Positive}</p>
             <p>Ahora puede agregar un comentario a un proyecto a medida que lo edita en el cuadro Editar proyecto. También puede agregar un comentario a varios proyectos al mismo tiempo cuando los edita por lotes. Antes de esta actualización, esta funcionalidad no existía al editar proyectos.</p>
         </td>
         <td>
