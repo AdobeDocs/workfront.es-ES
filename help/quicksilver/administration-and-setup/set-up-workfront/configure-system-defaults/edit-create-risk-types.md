@@ -2,16 +2,16 @@
 user-type: administrator
 product-area: system-administration
 navigation-topic: configure-system-defaults
-title: Editar y crear tipos de riesgos
+title: Editar y crear tipos de riesgo
 description: Puede añadir riesgos a un proyecto en la fase de planificación para identificar posibles obstáculos antes de la aprobación de cualquier trabajo. Los riesgos son posibles eventos que podrían impedir la finalización del proyecto a tiempo o dentro del presupuesto.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: f929806f-9087-4b64-be4b-70bbceaaeab0
-source-git-commit: caaba90f4cdd835e1a1fddf16bcefa30995cca0d
+source-git-commit: 7c39f54677be746ce6305124026df7df598b3da2
 workflow-type: tm+mt
-source-wordcount: '425'
-ht-degree: 2%
+source-wordcount: '581'
+ht-degree: 42%
 
 ---
 
@@ -19,7 +19,17 @@ ht-degree: 2%
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
 
-Puede añadir riesgos a un proyecto en la fase de planificación para identificar posibles obstáculos antes de la aprobación de cualquier trabajo. Los riesgos son posibles eventos que podrían impedir la finalización del proyecto a tiempo o dentro del presupuesto.
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+
+Adobe Workfront tiene una serie de tipos de riesgo predeterminados que puede asociar con proyectos en la fase de planificación para identificar posibles obstáculos antes de la aprobación de cualquier trabajo.
+
+Los riesgos son posibles eventos que podrían impedir la finalización del proyecto a tiempo o dentro del presupuesto.
+
+Además de los tipos de riesgo predeterminados, puede agregar nuevos tipos de riesgo para reflejar las necesidades de su organización.
+
+Puede asociar tipos de riesgos con riesgos de proyecto para identificar el tipo de riesgo que podría presentar un proyecto.
 
 ## Requisitos de acceso
 
@@ -39,64 +49,101 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
    <td role="rowheader">[!DNL Adobe Workfront] licencia</td> 
    <td><p>Nuevo: [!UICONTROL Standard]</p>
    O
-   <p>Actual: [!UICONTROL plan]</p>
+   <p>Actual: [!UICONTROL Plan]</p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso</td> 
-   <td>[!UICONTROL Administrador del sistema]</td>
+   <td>[!UICONTROL System Administrator]</td>
   </tr> 
  </tbody> 
 </table>
 
-Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Tipos de riesgos
 
-Los tipos de riesgo son etiquetas que puede utilizar para clasificar los riesgos con fines de creación de informes. El administrador [!DNL Adobe Workfront] los crea en el área **[!UICONTROL Setup]**. Una vez establecidos los tipos de riesgos en el área **[!UICONTROL Configuración]**, son universales para el sistema. Todos los propietarios de proyecto pueden utilizar los mismos tipos de riesgo para sus proyectos.
+Los tipos de riesgo son etiquetas que puede utilizar para clasificar los riesgos con fines de creación de informes.
+
+Como administrador de [!DNL Workfront], puede crear [!UICONTROL tipos de riesgos] en el área de [!UICONTROL **Configuración**].
+
+Después de configurar los tipos de riesgo, son universales para su sistema.
+
+Todos los propietarios de proyecto pueden utilizar los mismos tipos de riesgo para sus proyectos.
 
 ## Editar y crear tipos de riesgo
 
-Algunos tipos de riesgos ya están en [!DNL Workfront], de manera predeterminada. Para reflejar las necesidades de su organización, puede editar los tipos de riesgo existentes o crear nuevos tipos de riesgo.
+Algunos tipos de riesgos ya están en [!DNL Workfront], de manera predeterminada.
 
-* [Editar tipos de riesgos existentes](#edit-existing-risk-types)
-* [Crear nuevos tipos de riesgos](#create-new-risk-types)
 
-### Editar tipos de riesgos existentes {#edit-existing-risk-types}
+Puede hacer lo siguiente para mejorar el número de tipos de riesgo en la instancia de Workfront:
+
+* [Editar tipos de riesgo existentes](#edit-existing-risk-types)
+* [Crear tipos de riesgos](#create-risk-types)
+
+### Editar tipos de riesgo existentes {#edit-existing-risk-types}
 
 {{step-1-to-setup}}
 
-1. Haga clic en **[!UICONTROL Tipos de riesgos]**.
+1. Haga clic en **[!UICONTROL Tipos de riesgo]**.
 1. Seleccione el tipo de riesgo que desea editar.
-1. Haga clic en **[!UICONTROL Editar]**.
+1. Haga clic en el icono **[!UICONTROL Editar]** ![Editar icono](assets/edit-icon.png).
+
+   Se abre el cuadro [!UICONTROL **Editar tipo de riesgo**]. <!--add screen shot-->
+
+   >[!TIP]
+   >
+   >   Puede editar la información de tipo de riesgo en línea, al hacer doble clic en el Nombre o la Descripción de un tipo de riesgo en la lista.
+
 1. (Opcional) Cambie el nombre y la descripción del tipo de riesgo.
+
 
    Hay un límite de 50 caracteres para los campos **[!UICONTROL Nombre]** y **[!UICONTROL Descripción]**.
 
 1. Haga clic en **[!UICONTROL Guardar cambios].**
 
-### Crear nuevos tipos de riesgos {#create-new-risk-types}
+1. (Opcional) Para eliminar un tipo de riesgo, selecciónelo en la lista, haga clic en el icono [!UICONTROL **Eliminar**] ![Eliminar icono](assets/delete.png) y, a continuación, en [!UICONTROL **Sí, eliminarlo**]. El tipo de riesgo se elimina y no se puede recuperar.
 
-Puede crear nuevos tipos de riesgo, además de los predeterminados, para reflejar las necesidades de su organización.
+1. (Opcional) Para exportar una lista de tipos de riesgos, haga clic en el icono [!UICONTROL **Exportar**] ![Icono Exportar](assets/export-icon.png). Puede exportar a los siguientes tipos de archivo:
 
-Para crear un nuevo tipo de riesgo:
+   * PDF
+   * Excel
+   * Excel (xlsx)
+   * Delimitado por tabulaciones
+
+   >[!TIP]
+   >
+   >   Primero puede seleccionar un número limitado de tipos de riesgo y luego exportarlos para una lista más pequeña.
+
+
+### Crear tipos de riesgos {#create-risk-types}
+
+Puede crear tipos de riesgo, además de los predeterminados.
 
 {{step-1-to-setup}}
 
-1. Haga clic en **[!UICONTROL Tipos de riesgos]**.
-1. Haga clic en **[!UICONTROL Nuevo tipo de riesgo]**.
+1. Haga clic en **[!UICONTROL Tipos de riesgo]**.
+1. Haga clic en **[!UICONTROL Nuevo tipo de riesgo]** para abrir el cuadro [!UICONTROL **Nuevo tipo de riesgo**]
+
+   O
+
+   Haga clic en [!UICONTROL **Agregar más tipos de riesgos**] en la esquina inferior izquierda de la lista de tipos de riesgos para agregar tipos de riesgos en línea. <!--add screen shot-->
 1. Escriba un **[!UICONTROL Nombre]** (obligatorio) y una **[!UICONTROL Descripción]** (opcional) para el tipo de riesgo.
 
    Hay un límite de 50 caracteres para los campos **[!UICONTROL Nombre]** y **[!UICONTROL Descripción]**.
 
-1. Haga clic en **[!UICONTROL Crear tipo de riesgo]**. Si usó la edición en línea para agregar su tipo de riesgo, haga clic en **[!UICONTROL Introducir]** cuando haya terminado.
+1. Haga clic en **[!UICONTROL Crear tipo de riesgo]**,
 
-   >[!NOTE]
+   O bien, si usó la edición en línea para agregar su tipo de riesgo, haga clic en **[!UICONTROL Introducir]** cuando haya terminado.
+
+   >[!TIP]
    >
-   >Si necesita editar un tipo de riesgo personalizado, consulte la sección [[!UICONTROL Editar los tipos de riesgo existentes]](#edit-existing-risk-types) en este artículo.
+   >Para editar un tipo de riesgo personalizado, consulte la sección [[!UICONTROL Editar los tipos de riesgo existentes]](#edit-existing-risk-types) en este artículo.
 
-## Adjuntar riesgos con tipos de riesgos en proyectos
+## Adjuntar riesgos con tipos de riesgo en proyectos
 
-Los tipos de riesgos se pueden utilizar para etiquetar los riesgos que se agregan a los proyectos. Para obtener más información sobre cómo agregar riesgos a los proyectos, vea [Crear y editar riesgos en proyectos](../../../manage-work/projects/define-a-business-case/create-edit-risks-on-projects.md).
+Puede utilizar tipos de riesgos para etiquetar los riesgos agregados a sus proyectos.
+
+Para obtener más información sobre cómo añadir riesgos a los proyectos, consulte [Crear y editar riesgos en proyectos](../../../manage-work/projects/define-a-business-case/create-edit-risks-on-projects.md).
