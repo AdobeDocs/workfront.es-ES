@@ -7,14 +7,19 @@ description: Puede estimar y presupuestar la asignación de sus recursos a los p
 author: Lisa
 feature: Resource Management
 exl-id: 06cd2226-f94d-4b6a-8692-6d35210782f2
-source-git-commit: a3b2ac192e1f37e0c3d16d059ed96e8d5cadf8be
+source-git-commit: 696d656816a4c1c2edef4347567b2fc553f489f7
 workflow-type: tm+mt
-source-wordcount: '2082'
-ht-degree: 99%
+source-wordcount: '2113'
+ht-degree: 98%
 
 ---
 
-# Información general sobre el planificador de recursos
+# Información general sobre el planificador de recursos {#resource-planner-overview}
+
+>[!CONTEXTUALHELP]
+>id="wf-resourcing-planner"
+>title="Planificador de recursos"
+>abstract="Puede utilizar el Planificador de recursos para estimar y presupuestar la asignación de recursos a los proyectos a los que están asignados, así como prever su disponibilidad para el trabajo futuro."
 
 <!-- Audited: 12/2023 -->
 
