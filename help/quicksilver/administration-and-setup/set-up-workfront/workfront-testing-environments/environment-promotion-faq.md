@@ -9,10 +9,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e9794262-80cc-4641-a5c6-7130cf008ba2
-source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
+source-git-commit: b8d5abc996a3902a8ab8cdce9a8f8d92d4736db1
 workflow-type: tm+mt
 source-wordcount: '294'
-ht-degree: 85%
+ht-degree: 77%
 
 ---
 
@@ -26,7 +26,7 @@ Las siguientes preguntas frecuentes sobre la promoción del entorno son:
 
 Actualmente no se admite la promoción de entornos entre dominios. Debe promocionar entre entornos del mismo dominio.
 
-## ¿Es el Adobe Business Platform / IMS un requisito previo para la promoción del medio ambiente?
+## ¿Es Adobe Business Platform/IMS un requisito previo para la promoción del entorno?
 
 ### Respuesta
 
@@ -70,5 +70,4 @@ La reversión del paquete está disponible para el paquete más reciente, en un 
 ### Respuesta
 
 * &quot;Usar existente&quot; es equivale a &quot;omitir&quot; o ignorar la implementación, porque se asigna al objeto existente en el entorno de destino y no realiza ningún cambio.
-* Para omitir objetos, se recomienda eliminar
-los objetos que no desee instalar desde el paquete de promoción o desde el entorno de origen directamente. Después de quitar los objetos, vuelva a montar el paquete.
+* Para omitir objetos, se recomienda eliminar cualquier objeto que no desee instalar del paquete de promoción o directamente del entorno de origen. Después de quitar los objetos, vuelva a montar el paquete.
