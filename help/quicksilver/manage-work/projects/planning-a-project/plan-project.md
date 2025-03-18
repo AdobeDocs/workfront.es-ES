@@ -2,14 +2,14 @@
 product-area: projects
 navigation-topic: plan-a-project
 title: Información general sobre la planificación de un proyecto
-description: Información general sobre la planificación de un proyecto
+description: Averigüe qué es un proyecto, cómo establecer su ámbito y estructura, así como conceptos clave como programaciones, escalas de tiempo y fechas de inicio y finalización.
 author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: 23372e16-3933-445d-977c-901f52299cb2
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: 3cbcc2dd2efb457f5f0c4213110af54230a23eb0
 workflow-type: tm+mt
-source-wordcount: '1394'
+source-wordcount: '1414'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 < see if you need to add something about approval settings and users's time off might add time to tasks' timelines - Ninja story 2019.3) </p>
 -->
 
-Un proyecto es un elemento de trabajo grande en Adobe Workfront. Puede desglosar un proyecto en tareas que sean elementos de trabajo más pequeños, como las tareas. Las tareas se pueden asignar a usuarios o equipos que puedan ser responsables de su finalización. Cuando todos los usuarios completan sus tareas, el proyecto también se completa.
+Un proyecto es un elemento de trabajo grande en Adobe Workfront. Puede desglosar un proyecto en tareas que sean elementos de trabajo más pequeños. Las tareas se pueden asignar a usuarios o equipos que puedan ser responsables de su finalización. Cuando todos los usuarios completan sus tareas, el proyecto también se completa.
 
 Además de planificar las tareas de un proyecto, se incluyen muchos otros detalles en la planificación de proyectos. Desde determinar los impactos económicos hasta considerar la disponibilidad de recursos, hay muchos elementos de los proyectos que requieren atención.
 
