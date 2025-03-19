@@ -4,7 +4,7 @@ description: Puede compartir un tipo de registro con otros usuarios para garanti
 hide: true
 hidefromtoc: true
 exl-id: bf49db73-09f1-417e-836b-16c6062740d4
-source-git-commit: 08c9eb508861d585d8f76de5bb523132f3be371f
+source-git-commit: 4df268c9b5a99991bee3f1862c83fe0079d162c1
 workflow-type: tm+mt
 source-wordcount: '1308'
 ht-degree: 13%
@@ -17,6 +17,8 @@ author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog-->
+
+<!-- take the Remove permissions section out, at the end - this is what Lilit said: Because of "Everyone in the workspace can view" wildcard, currently it's not possible to entirely remove access to a record type. Let's take out this section. -->
 
 # Compartir tipos de registros
 
@@ -196,6 +198,25 @@ Puede ajustar los permisos a los tipos de registro individuales de un espacio de
 
 1. Comparta el vínculo copiado con otros usuarios. Los usuarios que reciban el vínculo deben ser usuarios activos e iniciar sesión en Workfront para poder acceder a la página de tipo de registro y mostrarla en la vista seleccionada.
 
+## Eliminación de permisos de un tipo de registro
+
+{{step1-to-planning}}
+
+1. Abra el espacio de trabajo cuyos tipos de registros desee dejar de compartir y, a continuación, haga clic en una tarjeta de tipo de registro. Se abre la página de tipo de registro.
+
+1. En la pestaña de cualquier vista, haga clic en **Compartir** en la esquina superior derecha del tipo de registro.
+
+   Se abre el cuadro **Compartir**.
+1. Busque el usuario, grupo, equipo, empresa o función de trabajo cuyos permisos desee quitar, expanda el menú desplegable de permisos a la derecha de su nombre y, a continuación, haga clic en **Quitar**. <!--check the screen shot below - the UI text for View might not be accurate-->
+
+   ![Quitar opción en la lista desplegable de uso compartido de tipo de registro](assets/remove-option-on-record-type-sharing-drop-down.png)
+
+1. Haga clic en **Guardar**.
+
+   Las personas ya no tienen acceso al tipo de registro. Podrían seguir teniendo permisos en el espacio de trabajo, a menos que también los quite de los permisos del espacio de trabajo.
+
+   A los usuarios a los que se les ha retirado el acceso a la vista no se les notifica de ninguna manera que ya no tienen acceso a ella.
+
 <!-- This is not working yet: *************************** edit this before publishing, because this was not tested with record types - this section came from sharing views *******************: 
 
 ## Grant permissions to a record type from a permission request
@@ -222,25 +243,4 @@ Users who access a link to a record type to which they do not have permissions c
 1. Click the left-pointing arrow to the left of **Pending access requests**, then click **Save**.
 
    If you approved the request, the users are added to the sharing box of the view. The user requesting the permission receives an email confirmation that their request was approved. <!--will they also get an in-app notification??-->
-
-## Eliminación de permisos de un tipo de registro
-
-<!-- take this section out - this is what Lilit said: Because of "Everyone in the workspace can view" wildcard, currently it's not possible to entirely remove access to a record type. Let's take out this section. -->
-
-{{step1-to-planning}}
-
-1. Abra el espacio de trabajo cuyos tipos de registros desee dejar de compartir y, a continuación, haga clic en una tarjeta de tipo de registro. Se abre la página de tipo de registro.
-
-1. En la pestaña de cualquier vista, haga clic en **Compartir** en la esquina superior derecha del tipo de registro.
-
-   Se abre el cuadro **Compartir**.
-1. Busque el usuario, grupo, equipo, empresa o función de trabajo cuyos permisos desee quitar, expanda el menú desplegable de permisos a la derecha de su nombre y, a continuación, haga clic en **Quitar**. <!--check the screen shot below - the UI text for View might not be accurate-->
-
-   ![Quitar opción en la lista desplegable de uso compartido de tipo de registro](assets/remove-option-on-record-type-sharing-drop-down.png)
-
-1. Haga clic en **Guardar**.
-
-   Las personas ya no tienen acceso al tipo de registro. Podrían seguir teniendo permisos en el espacio de trabajo, a menos que también los quite de los permisos del espacio de trabajo.
-
-   A los usuarios a los que se les ha retirado el acceso a la vista no se les notifica de ninguna manera que ya no tienen acceso a ella.
 
