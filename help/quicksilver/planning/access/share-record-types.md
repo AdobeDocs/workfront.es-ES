@@ -4,7 +4,7 @@ description: Puede compartir un tipo de registro con otros usuarios para garanti
 hide: true
 hidefromtoc: true
 exl-id: bf49db73-09f1-417e-836b-16c6062740d4
-source-git-commit: 3cbcc2dd2efb457f5f0c4213110af54230a23eb0
+source-git-commit: 08c9eb508861d585d8f76de5bb523132f3be371f
 workflow-type: tm+mt
 source-wordcount: '1308'
 ht-degree: 13%
@@ -243,3 +243,4 @@ Users who access a link to a record type to which they do not have permissions c
    Las personas ya no tienen acceso al tipo de registro. Podrían seguir teniendo permisos en el espacio de trabajo, a menos que también los quite de los permisos del espacio de trabajo.
 
    A los usuarios a los que se les ha retirado el acceso a la vista no se les notifica de ninguna manera que ya no tienen acceso a ella.
+
