@@ -5,10 +5,10 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9b78a58e-7ced-4b13-8108-40bd36339667
-source-git-commit: b115018560d37fd5d2741086b15b6c844ddf2505
+source-git-commit: eb51a0b5f726105d7d25a358fc3546f7a2f27d89
 workflow-type: tm+mt
-source-wordcount: '1226'
-ht-degree: 29%
+source-wordcount: '1272'
+ht-degree: 30%
 
 ---
 
@@ -86,6 +86,21 @@ Las versiones mensuales y trimestrales están planificadas para estar disponible
 <col style="width: 50%;" />
 <col style="width: 50%;" />
 <tbody>
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            Actualización del visor de corrección de escritorio </a></p>[!BADGE In production ]{type=Informative}
+            <p>El Visor de corrección de escritorio se ha actualizado a la versión 2.1.45. Esta actualización permite al usuario utilizar
+            <ul><li>Versión 35 de Electron</li><li>Chromium versión 134</li><ul></p>
+        </td>
+        <td>
+            <p><b>Disponible en estas fechas:</b></p>
+            <ul>
+                <li>Versión preliminar: viernes, 20 de marzo de 2025</li>
+                <li><span class="preview">Versión de producción para todos los clientes: 20 de marzo de 2025</span></li>
+            </ul>
+        </td>
+    </tr>                          
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">
