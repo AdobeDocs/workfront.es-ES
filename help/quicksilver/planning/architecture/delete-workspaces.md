@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: adec4b8e-2964-479b-8cf0-79d3afa27b2a
-source-git-commit: 6d9583f8a0e1e0c3712c8a47d68c5d5d321679f9
+source-git-commit: 609396b2eb6413c8f6e84361757f00c2cc5e3ad6
 workflow-type: tm+mt
-source-wordcount: '441'
-ht-degree: 56%
+source-wordcount: '449'
+ht-degree: 55%
 
 ---
 
@@ -172,12 +172,12 @@ OLD:
 1. (Opcional) Haga clic en **Mostrar menos** para limitar el número de espacios de trabajo que se muestran en la pantalla.
 1. Para eliminar un espacio de trabajo, realice una de las siguientes acciones:
 
-   * Pase el ratón sobre la tarjeta del área de trabajo y luego haga clic en el menú **Más** ![](assets/more-menu.png) en la esquina superior derecha de la tarjeta
+   * Pase el ratón sobre la tarjeta del área de trabajo y luego haga clic en el menú **Más** ![Menú Más](assets/more-menu.png) en la esquina superior derecha de la tarjeta
 O
-   * Haga clic en una tarjeta de área de trabajo para abrir el área de trabajo y, a continuación, haga clic en el menú **Más** ![](assets/more-menu.png) situado a la derecha del nombre del área de trabajo.
+   * Haga clic en una tarjeta de área de trabajo para abrir el área de trabajo y, a continuación, haga clic en el menú **Más** ![Menú Más](assets/more-menu.png) situado a la derecha del nombre del área de trabajo.
 1. Haga clic **eliminar**.
 
-   ![](assets/permanently-delete-workspace-confirmation.png)
+   ![Eliminar permanentemente la confirmación del espacio de trabajo](assets/permanently-delete-workspace-confirmation.png)
 
 1. Escriba “**Eliminar**” en el espacio proporcionado y haga clic en **Eliminar permanentemente**. Esto no distingue entre mayúsculas y minúsculas.
 

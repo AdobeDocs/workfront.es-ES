@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 374b6d9c-69a9-4a73-8708-51c14a78c7c9
-source-git-commit: 6d9583f8a0e1e0c3712c8a47d68c5d5d321679f9
+source-git-commit: 609396b2eb6413c8f6e84361757f00c2cc5e3ad6
 workflow-type: tm+mt
-source-wordcount: '706'
-ht-degree: 19%
+source-wordcount: '733'
+ht-degree: 18%
 
 ---
 
@@ -166,14 +166,14 @@ For more information about access requirements, see [Access requirements in Work
 1. (Opcional) Haga clic en **Mostrar menos** para limitar el número de espacios de trabajo que se muestran en la pantalla.
 1. Para editar un espacio de trabajo, realice una de las siguientes acciones:
 
-   * Pase el ratón sobre la tarjeta del área de trabajo y luego haga clic en el menú **Más** ![](assets/more-menu.png) en la esquina superior derecha de la tarjeta
+   * Pase el ratón sobre la tarjeta del área de trabajo y luego haga clic en el menú **Más** ![Menú Más](assets/more-menu.png) en la esquina superior derecha de la tarjeta
 O
-   * Haga clic en una tarjeta de área de trabajo para abrir el área de trabajo y, a continuación, haga clic en el menú **Más** ![](assets/more-menu.png) situado a la derecha del nombre del área de trabajo.
+   * Haga clic en una tarjeta de área de trabajo para abrir el área de trabajo y, a continuación, haga clic en el menú **Más** ![Menú Más](assets/more-menu.png) situado a la derecha del nombre del área de trabajo.
 1. Haga clic en **Editar**.
 
    Se muestra el cuadro **Editar espacio de trabajo**.
 
-   ![](assets/edit-workspace-box.png)
+   ![Editar cuadro de área de trabajo](assets/edit-workspace-box.png)
 
 1. Actualice la siguiente información en el cuadro **Editar espacio de trabajo**:
 
@@ -186,16 +186,16 @@ O
 1. (Opcional) Para agregar una nueva sección de espacio de trabajo, siga uno de estos procedimientos:
 
    * Haga clic en **Agregar sección** en la parte inferior del área de trabajo.
-   * Pase el ratón sobre el nombre de una sección y haga clic en el menú **Más** ![](assets/more-menu.png), luego haga clic en **Agregar sección arriba** o en **Agregar sección abajo**.
+   * Pase el ratón sobre el nombre de una sección y haga clic en el menú **Más** ![Menú más](assets/more-menu.png), luego haga clic en **Agregar sección arriba** o en **Agregar sección abajo**.
 
 1. (Opcional) Para cambiar la ubicación de una sección, siga uno de estos procedimientos:
 
-   * Pase el ratón sobre el nombre de una sección y haga clic en el icono **asir** ![](assets/grab-icon.png); a continuación, arrástrela y suéltela en el lugar correcto.
-   * Pase el ratón sobre el nombre de una sección y haga clic en el menú **Más** ![](assets/more-menu.png), luego haga clic en **Subir** o **Bajar**. La sección se mueve hacia arriba o hacia abajo dentro del espacio de trabajo.
+   * Pase el ratón sobre el nombre de una sección y haga clic en el icono **asir** ![Icono de asir](assets/grab-icon.png); a continuación, arrástrelo y suéltelo en el lugar correcto.
+   * Pase el ratón sobre el nombre de una sección y haga clic en el menú **Más** ![Menú más](assets/more-menu.png), luego haga clic en **Subir** o **Bajar**. La sección se mueve hacia arriba o hacia abajo dentro del espacio de trabajo.
 
 1. (Opcional) Para eliminar una sección de Workspace, haga lo siguiente:
 
-   1. Pase el ratón sobre el nombre de una sección, haga clic en el menú **Más** ![](assets/more-menu.png) y, a continuación, haga clic en **Eliminar**. <!--add screen shot when UI is final?-->
+   1. Pase el ratón sobre el nombre de una sección, luego haga clic en el menú **Más** ![Menú más](assets/more-menu.png) y, a continuación, haga clic en **Eliminar**. <!--add screen shot when UI is final?-->
    1. Seleccione una nueva sección para mover todos los tipos de registros y haga clic en **Eliminar**. <!--check the button name; logged a bug to change it to "Delete" from "Delete section".-->
 
       Todos los tipos de registro se mueven a la sección de selección y esta se elimina.
@@ -204,17 +204,17 @@ O
 
    Para obtener más información, consulte [Crear tipos de registros](/help/quicksilver/planning/architecture/create-record-types.md).
 
-1. (Opcional) Pase el ratón sobre una tarjeta de tipo de registro, haga clic en el menú **Más** ![](assets/more-menu.png) en la esquina superior derecha y, a continuación, haga clic en **Editar** para modificar el aspecto de un tipo de registro.
+1. (Opcional) Pase el ratón sobre una tarjeta de tipo de registro, haga clic en el menú **Más** ![Menú más](assets/more-menu.png) en la esquina superior derecha y, a continuación, haga clic en **Editar** para modificar el aspecto de un tipo de registro.
 
    Para obtener más información, consulte [Editar tipos de registros](/help/quicksilver/planning/architecture/edit-record-types.md).
 
-1. (Opcional) Pase el ratón sobre una tarjeta de tipo de registro, haga clic en el menú **Más** ![](assets/more-menu.png) en la esquina superior derecha y, a continuación, haga clic en **Eliminar** para eliminar un tipo de registro.
+1. (Opcional) Pase el ratón sobre una tarjeta de tipo de registro, haga clic en el menú **Más** ![Menú más](assets/more-menu.png) en la esquina superior derecha y, a continuación, haga clic en **Eliminar** para eliminar un tipo de registro.
 
    Para obtener más información, vea [Eliminar tipos de registros](/help/quicksilver/planning/architecture/delete-record-types.md).
 
 1. (Opcional) Pulse y haga clic en una tarjeta de tipo de registro para arrastrarla y soltarla en un nuevo lugar. Puede arrastrar y soltar tipos de registros de una sección de Workspace a otra.
 
-   ![](assets/drag-and-drop-record-types-in-a-workspace.png)
+   ![Arrastrar y soltar tipos de registros en un espacio de trabajo](assets/drag-and-drop-record-types-in-a-workspace.png)
 
 1. (Opcional) Haga clic en **Compartir** en la esquina superior derecha del área de trabajo para compartir el área de trabajo con otros usuarios.
 

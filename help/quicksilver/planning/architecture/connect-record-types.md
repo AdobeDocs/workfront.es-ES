@@ -6,10 +6,10 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: 6d9583f8a0e1e0c3712c8a47d68c5d5d321679f9
+source-git-commit: 609396b2eb6413c8f6e84361757f00c2cc5e3ad6
 workflow-type: tm+mt
-source-wordcount: '2341'
-ht-degree: 63%
+source-wordcount: '2407'
+ht-degree: 61%
 
 ---
 
@@ -187,13 +187,13 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 1. Haga clic en la tarjeta de un tipo de registro para abrir la página del tipo de registro.
 1. Haga clic en el icono **+** de la esquina superior derecha de la vista de tabla y, a continuación, en la pestaña **Nueva conexión**.
 
-   ![](assets/new-connection-tab-with-workfront-aem-options.png)
+   ![Nueva pestaña de conexión con las opciones de Workfront AEM](assets/new-connection-tab-with-workfront-aem-options.png)
 
 1. En el campo **Tipo de registro**, busque un tipo de registro o seleccione una de las siguientes opciones:
 
    * Otro tipo de registro del espacio de trabajo actual
 
-     ![](assets/many-to-many-connection-picker.png)
+     ![Selector de conexión de varios a varios](assets/many-to-many-connection-picker.png)
 
      >[!TIP]
      >
@@ -210,15 +210,15 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
      Para obtener más información, consulte [Editar tipos de registros](/help/quicksilver/planning/architecture/edit-record-types.md).
 
-     ![](assets/new-connection-allow-multiple-records-box.png)
+     ![Nueva conexión para permitir el cuadro de registros múltiples](assets/new-connection-allow-multiple-records-box.png)
 
    * Un **proyecto, portafolio, programa, compañía** o **grupo** de la sección **Tipos de objetos de Workfront**.
 
-     ![](assets/workfront-project-connection-selection.png)
+     ![Selección de conexión del proyecto Workfront](assets/workfront-project-connection-selection.png)
 
    * **Experience Manager Assets** de la sección **Aplicaciones de Adobe**.
 
-     ![](assets/aem-assets-connection-selection.png)
+     ![Selección de conexión de AEM Assets](assets/aem-assets-connection-selection.png)
 
 1. Actualice la siguiente información:
 
@@ -233,7 +233,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
      Esta opción solo está disponible cuando se conectan registros de dos espacios de trabajo diferentes o un registro y un objeto de recurso de Adobe Experience Manager.
 
-     ![](assets/new-connection-allow-multiple-records-box.png)
+     ![Nueva conexión para permitir el cuadro de registros múltiples](assets/new-connection-allow-multiple-records-box.png)
 
    * **Tipo de conexión**: seleccione una de las siguientes opciones para indicar cuántos registros pueden conectar con y desde:
 
@@ -244,7 +244,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
      Esta opción sólo está disponible cuando se conectan registros del mismo espacio de trabajo o un registro y un tipo de objeto de Workfront.
 
-     ![](assets/many-to-many-connection-picker.png)
+     ![Selector de conexión de varios a varios](assets/many-to-many-connection-picker.png)
 
      Para obtener más información acerca de los tipos de conexión, vea [Información general sobre los tipos de registros conectados](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
 
@@ -303,7 +303,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
    Haga clic en el icono **-** para quitar campos del área **Campos seleccionados**
 
-   ![](assets/add-lookup-fields-for-another-maestro-record-type-box.png)
+   ![Agregar campos de búsqueda para otro cuadro de tipo de registro](assets/add-lookup-fields-for-another-maestro-record-type-box.png)
 
    Los valores de los campos conectados se rellenan automáticamente después de vincular registros u objetos.
 
@@ -328,7 +328,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
    >
    >    Debe seleccionar un valor del agregador al añadir campos de fecha de búsqueda si desea que los campos estén disponibles para añadirlos como fechas de inicio y finalización en las vistas del calendario y la cronología. Por ejemplo, puede seleccionar el agregador MAX o MIN para un campo de fecha de búsqueda.
 
-   ![](assets/aggregator-drop-down-for-number-linked-field.png)
+   ![Menú desplegable del agregador para el campo numérico vinculado](assets/aggregator-drop-down-for-number-linked-field.png)
 
    >[!NOTE]
    >
@@ -358,7 +358,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
    >* **ÚNICO**: $100,000
    >
 
-1. (Opcional) Use el icono **búsqueda** ![](assets/search-icon.png) para buscar un campo.
+1. (Opcional) Use el icono **search** ![icono de búsqueda](assets/search-icon.png) para buscar un campo.
 
 1. Haga clic en **Añadir campos** para guardar los cambios.
 
@@ -385,7 +385,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
    * **Editar campo**: Actualice la información de **Nombre** y **Descripción** del campo.
    * **Editar campos de búsqueda**: se pueden añadir o quitar los campos del registro vinculado.
 
-   ![](assets/edit-field-and-lookup-fields-drop-down-menu-in-table-column.png)
+   ![Menú desplegable Editar campo y campos de búsqueda en la columna de tabla](assets/edit-field-and-lookup-fields-drop-down-menu-in-table-column.png)
 
    Para agregar o quitar campos de búsqueda, siga las instrucciones de los pasos 16-17 anteriores. <!--ensure these step numbers stay accurate-->
 

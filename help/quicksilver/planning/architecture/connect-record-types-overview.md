@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 1c04c68b-7a7f-46ae-b750-2b1f79855de4
-source-git-commit: bddd0dcd2263bd65420a17e4b9cc74336877719f
+source-git-commit: 609396b2eb6413c8f6e84361757f00c2cc5e3ad6
 workflow-type: tm+mt
-source-wordcount: '1518'
-ht-degree: 28%
+source-wordcount: '1541'
+ht-degree: 27%
 
 ---
 
@@ -93,7 +93,7 @@ Tenga en cuenta lo siguiente sobre la conexión de tipos de registros:
      >
      >Todas las personas con permisos de Vista o superiores en el espacio de trabajo pueden ver la información en los campos de búsqueda, independientemente de sus permisos o nivel de acceso en la aplicación de los tipos de objetos vinculados o sus permisos en otros espacios de trabajo.
 
-     Los campos de registro vinculados van precedidos de un icono de relación ![](assets/relationship-field-icon.png).
+     Los campos de registros vinculados están precedidos por un icono de relación ![Icono de campo de relación](assets/relationship-field-icon.png).
 
      Los campos vinculados van precedidos de un icono que identifica el tipo de campo. Por ejemplo, los campos vinculados (o de búsqueda) van precedidos de iconos que indican que un campo es un número, un párrafo o una fecha.
 
@@ -118,7 +118,7 @@ Según el número de registros que pueda agregar a un campo de registro conectad
 
 ### Tipo de conexión &quot;varios a varios&quot;
 
-![](assets/many-to-many-connection-picker.png)
+![Selector de conexión de varios a varios](assets/many-to-many-connection-picker.png)
 
 Al crear una conexión de varios a varios entre tipos de registro, puede seleccionar varios registros en el campo de conexión de ambos tipos de registro.
 
@@ -130,7 +130,7 @@ Cuando selecciona este tipo de conexión, no puede cambiarlo después de guardar
 
 ### Tipo de conexión uno a varios
 
-![](assets/one-to-many-connection-picker.png)
+![Selector de conexión de uno a varios](assets/one-to-many-connection-picker.png)
 
 
 Al crear una conexión uno a varios entre tipos de registro, puede seleccionar varios registros en el campo de conexión del tipo de registro actual, pero el campo de conexión correspondiente del tipo de registro al que se conecta sólo permitirá seleccionar un registro. El campo de registro conectado que se crea automáticamente en el segundo tipo de registro se establece automáticamente en un tipo de relación de varios a uno.
@@ -143,7 +143,7 @@ Al seleccionar este tipo de conexión, puede cambiarlo posteriormente sólo a un
 
 ### Tipo de conexión varios a uno
 
-![](assets/many-to-one-connection-picker.png)
+![Selector de conexión de varios a uno](assets/many-to-one-connection-picker.png)
 
 
 Al crear una conexión varios a uno entre tipos de registro, puede conectar cada registro del tipo de registro actual con un único registro del tipo de registro conectado. El campo de registro conectado que se crea automáticamente en el segundo tipo de registro se establece automáticamente en un tipo de relación de uno a varios.
@@ -156,7 +156,7 @@ Al seleccionar este tipo de conexión, puede cambiarlo posteriormente sólo a un
 
 ### Tipo de conexión uno a uno
 
-![](assets/one-to-one-connection-picker.png)
+![Selector de conexión uno a uno](assets/one-to-one-connection-picker.png)
 
 Cuando se crea una conexión uno a uno entre tipos de registro, en ambos tipos de registro sólo se puede conectar cada registro con un registro del otro tipo.
 

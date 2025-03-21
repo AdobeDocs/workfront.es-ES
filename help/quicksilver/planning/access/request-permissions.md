@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 94dfa36a-801a-4eef-bcf5-4a3fecc5a3d0
-source-git-commit: 6d9583f8a0e1e0c3712c8a47d68c5d5d321679f9
+source-git-commit: 609396b2eb6413c8f6e84361757f00c2cc5e3ad6
 workflow-type: tm+mt
-source-wordcount: '611'
-ht-degree: 17%
+source-wordcount: '625'
+ht-degree: 16%
 
 ---
 
@@ -118,7 +118,7 @@ Cuando alguien comparte con usted un vínculo a un espacio de trabajo o una vist
 
    Se muestra una página **No tiene acceso** para informarle de que no tiene acceso a la vista ni al área de trabajo.
 
-   ![](assets/request-access-to-view.png)
+   ![Solicitar acceso a la vista](assets/request-access-to-view.png)
 
 1. (Condicional) Si el vínculo compartido es para una vista de un área de trabajo a la que tiene acceso, haga clic en **Abrir con vista existente**. Si tiene permisos para acceder al espacio de trabajo, la página de tipo de registro se abrirá en la vista predeterminada.
 
@@ -126,8 +126,8 @@ Cuando alguien comparte con usted un vínculo a un espacio de trabajo o una vist
 
    Todos los usuarios con permisos de Administración de la vista o del espacio de trabajo reciben las siguientes notificaciones para la solicitud de acceso:
    * Una notificación en la aplicación
-     ![](assets/in-app-notification-for-access-request.png)
+     ![Notificación en la aplicación para solicitud de acceso](assets/in-app-notification-for-access-request.png)
    * Una notificación por correo electrónico
-     ![](assets/email-notification-for-access-request.png)
+     ![Notificación por correo electrónico de la solicitud de acceso](assets/email-notification-for-access-request.png)
 
 1. (Condicional) Cuando el administrador de la vista o del espacio de trabajo le concede permisos para la vista o el espacio de trabajo, recibe una notificación por correo electrónico y una notificación en la aplicación con una confirmación de que el permiso se ha concedido. <!--check this - I was not able to test this, but Isk confirmed.-->

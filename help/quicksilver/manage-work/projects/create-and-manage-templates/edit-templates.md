@@ -6,9 +6,9 @@ description: Puede editar las plantillas del proyecto para reflejar los cambios 
 author: Alina
 feature: Work Management
 exl-id: da0fca31-6a50-4862-ad9a-a453ef968773
-source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
+source-git-commit: 609396b2eb6413c8f6e84361757f00c2cc5e3ad6
 workflow-type: tm+mt
-source-wordcount: '4854'
+source-wordcount: '4877'
 ht-degree: 95%
 
 ---
@@ -1106,9 +1106,16 @@ La adición de los siguientes elementos a una plantilla es idéntica a su adici�
 
   Para obtener más información sobre cómo añadir gastos, consulte [Administrar gastos del proyecto](../../../manage-work/projects/project-finances/manage-project-expenses.md).
 
+* Detalles de la cola
+
+  Para obtener información acerca de cómo agregar detalles de cola a un proyecto o una plantilla, vea [Crear una cola de solicitudes](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+
 * Grupos de temas y temas de la cola
 
-  Para obtener más información sobre cómo añadir grupos de temas y temas de la cola a un proyecto o plantilla, consulte [Crear una cola de solicitudes](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+  Para obtener información sobre cómo agregar grupos de temas y temas de colas a un proyecto o plantilla, vea los siguientes artículos:
+
+   * [Crear grupos de temas](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-topic-groups.md)
+   * [Crear temas de la cola](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-queue-topics.md)
 
 Puede añadir los siguientes elementos a las tareas de la plantilla:
 
