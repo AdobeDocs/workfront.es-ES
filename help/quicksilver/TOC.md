@@ -3,9 +3,9 @@ user-guide-title: Guía de Workfront
 user-guide-description: Utilice los siguientes documentos, tutoriales y recursos adicionales para aprender a implementar y utilizar Adobe Workfront de forma eficaz en su organización.
 role: User
 feature-set: Workfront
-source-git-commit: 92efd05bc97e2e957825cbe7a5ca6d43ca795d6b
+source-git-commit: 8d8282e095c902c0e6b2f51585ac0d4ac9b1e177
 workflow-type: tm+mt
-source-wordcount: '13071'
+source-wordcount: '13099'
 ht-degree: 58%
 
 ---
@@ -1710,6 +1710,10 @@ ht-degree: 58%
          * [Consultas de actividades de proyecto](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/project-activity-queries.md)
          * [Consultas de diagrama de proyecto](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/project-tree-map-queries.md)
          * [Actividad por consultas de equipo](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/team-queries.md)
+      * Sugerencias, trucos y solución de problemas de Data Connect{#troubleshooting-data-connect}
+         * [Sugerencias, trucos y solución de problemas para la conexión de datos](/help/quicksilver/reports-and-dashboards/data-lake/tips-tricks-troubleshooting/tips-tricks-troubleshooting-data-connect.md)
+         * [Tableau Desktop no puede establecer una conexión](/help/quicksilver/reports-and-dashboards/data-lake/tips-tricks-troubleshooting/cannot-load-data.md)
+         * [La herramienta Power BI no se puede conectar con la contraseña proporcionada](/help/quicksilver/reports-and-dashboards/data-lake/tips-tricks-troubleshooting/cannot-connect-with-provided-password.md)
 * Administrar recursos {#manage-resources}
    * [Administran los recursos](resource-mgmt/manage-resources.md)
    * Administración de recursos {#resource-management}
@@ -2093,7 +2097,7 @@ ht-degree: 58%
       * [Administrar notificaciones en la aplicación de Planificación de Adobe Workfront](planning/notifications/manage-planning-in-app-notifications.md)
 * Integraciones de Adobe Workfront {#adobe-workfront-integrations}
    * [Integraciones de Adobe Workfront](workfront-integrations-and-apps/workfront-integrations.md)
-   * [Información general sobre las integraciones de Adobe Workfront](workfront-integrations-and-apps/built-in-integrations-non-admin.md)
+   * [Información general sobre las integraciones integradas de Adobe Workfront](workfront-integrations-and-apps/built-in-integrations-non-admin.md)
    * [Métodos de integración de Adobe Workfront](workfront-integrations-and-apps/built-in-vs-api-vs-fusion.md)
    * Adobe Workfront para Creative Cloud {#workfront-for-creative-cloud}
       * [Adobe Workfront para Creative Cloud](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-cc.md)
