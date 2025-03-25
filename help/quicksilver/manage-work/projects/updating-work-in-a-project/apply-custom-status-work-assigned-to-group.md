@@ -6,10 +6,10 @@ description: Si un proyecto está asociado a un grupo, puede aplicar tanto los e
 author: Alina
 feature: Work Management
 exl-id: 7564ab6a-8ddf-4e76-8e45-d59f9cf8d38b
-source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '353'
-ht-degree: 97%
+source-wordcount: '361'
+ht-degree: 95%
 
 ---
 
@@ -103,7 +103,7 @@ Al actualizar el grupo de un proyecto, las opciones disponibles para el estado d
    >Si selecciona un grupo diferente en el menú desplegable **Grupo**, los estados personalizados en el menú **Estado** cambian automáticamente para correlacionarse con el nuevo grupo.
    >
    >
-   >![](assets/status-drop-down-expanded-with-custom-statuses-for-project-nwe.png)   >
+   >![Se ha ampliado la lista desplegable de estado con los estados personalizados del proyecto](assets/status-drop-down-expanded-with-custom-statuses-for-project-nwe.png)   >
    >
 
 1. Seleccione el estado del proyecto. Los estados personalizados que ha creado y aplicado a ese grupo se muestran en la lista.

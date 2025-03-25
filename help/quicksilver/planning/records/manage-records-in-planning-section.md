@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: d86cf3f9-cacc-4457-acb3-a5122ae91be8
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '1797'
+source-wordcount: '1837'
 ht-degree: 7%
 
 ---
@@ -166,12 +166,12 @@ La página del objeto se abre en Workfront.
       * Nombre del campo de registro conectado tal como se muestra en Workfront Planning.
    * Los registros se muestran bajo su respectivo espacio de trabajo y tipo de registro.
 
-   ![](assets/planning-section-on-project.png)
+   ![Sección de planificación en el proyecto](assets/planning-section-on-project.png)
 
 1. (Opcional) Haga clic en **Mostrar todas las conexiones** para mostrar todos los tipos de registros conectados, incluidos los que no tienen registros conectados. De forma predeterminada, no se muestran los tipos de registros sin registros conectados.
 1. Haga clic en una tarjeta de registro para mostrar más información sobre el registro. Se muestra el cuadro de vista previa de registros.
 1. (Opcional) Comience a modificar los campos en el cuadro de vista previa del registro. Los cambios se guardarán automáticamente.
-1. (Opcional) Haga clic en el icono **Abrir en una nueva ficha** ![](assets/open-details-in-a-new-tab-icon.png) en la esquina superior derecha del cuadro de vista previa para abrir la página de detalles del registro. Se abre la página de detalles del registro en Workfront Planning.
+1. (Opcional) Haga clic en el icono **Abrir en una ficha nueva** ![Abrir detalles en un icono de ficha nueva](assets/open-details-in-a-new-tab-icon.png) en la esquina superior derecha del cuadro de vista previa para abrir la página de detalles del registro. Se abre la página de detalles del registro en Workfront Planning.
 1. (Opcional) Pase el ratón sobre una tarjeta de registro, haga clic en el icono de registro de desconexión **-** y, a continuación, haga clic en **Desconectar**.
 Ocurren lo siguiente:
    * El registro ya no está conectado al objeto Workfront.
@@ -242,7 +242,7 @@ Tenga en cuenta lo siguiente cuando vea los registros de Workfront Planning desd
 
 1. Haga clic dentro del campo para agregar registros conectados y, a continuación, haga clic en la flecha hacia abajo dentro del campo para seleccionar registros de la lista.
 
-   ![](assets/planning-connection-field-on-project-with-record-list-open.png)
+   ![Campo de conexión de Planning en el proyecto con la lista de registros abierta](assets/planning-connection-field-on-project-with-record-list-open.png)
 
    >[!TIP]
    >
@@ -252,7 +252,7 @@ Tenga en cuenta lo siguiente cuando vea los registros de Workfront Planning desd
    >
    >Hay una indicación de que el objeto del campo y el objeto seleccionado no coinciden.
    >
-   >![](assets/warning-unsupported-object-planning-connection-field-on-form.png)
+   >![Advertencia: campo de conexión de Planning de objeto no compatible en el formulario](assets/warning-unsupported-object-planning-connection-field-on-form.png)
 
 1. Haga clic fuera de la lista para cerrarla.
 
@@ -263,13 +263,13 @@ Tenga en cuenta lo siguiente cuando vea los registros de Workfront Planning desd
    * Los valores de los campos de búsqueda de Workfront conectados al registro de Planning se rellenan en Workfront Planning.
    * <span class="preview">Si el administrador de grupo o Workfront agregó campos de búsqueda de registros al crear el formulario personalizado, los campos de búsqueda del registro se rellenarán automáticamente en una vista de tabla. La vista de tabla del campo de conexión de Planning es de solo lectura </span>
 
-     ![](assets/planning-connection-field-with-table-on-project-details-custom-form.png)
+     ![Campo de conexión de Planning con tabla en el formulario personalizado de detalles del proyecto](assets/planning-connection-field-with-table-on-project-details-custom-form.png)
 
 1. (Opcional) Haga clic en el nombre de un registro <span class="preview">o coloque el puntero sobre el nombre del registro de la tabla y, a continuación, haga clic en el icono **Abrir registro** ![Icono Abrir registro en el formulario personalizado de conexión de Planning](assets/open-record-icon-on-planning-connection-custom-form.png)</span> en el campo Conexión de Planning para abrirlo en Workfront Planning.
 Se abre el cuadro de vista previa de detalles del registro de Workfront Planning.
 1. Revise o edite la información sobre el registro o haga clic en el icono **Abrir en una ficha nueva** ![Abrir registro en una ficha nueva](assets/open-details-in-a-new-tab-icon.png) para abrir la página de detalles del registro.
 
-1. (Opcional) En el formulario personalizado de Workfront, haga clic en el icono **Quitar** ![](assets/remove-icon.png) de un registro para quitarlo del campo de conexión de Planning y desconectarlo del objeto de Workfront.
+1. (Opcional) En el formulario personalizado de Workfront, haga clic en el icono **Quitar** ![Quitar icono](assets/remove-icon.png) de un registro para quitarlo del campo de conexión de Planning y desconectarlo del objeto de Workfront.
 El objeto Workfront se desconecta del registro de Planning y cualquier información de búsqueda de Workfront se quita del registro.
 
 1. Haga clic en **Guardar cambios** para guardar el formulario personalizado y cualquier otro cambio que haya realizado en el objeto de Workfront.

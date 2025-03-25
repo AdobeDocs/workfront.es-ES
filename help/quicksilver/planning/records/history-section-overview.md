@@ -6,10 +6,10 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 8258589f-a7c3-4d77-9abe-c99e9184bd21
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '651'
-ht-degree: 85%
+source-wordcount: '661'
+ht-degree: 81%
 
 ---
 
@@ -114,14 +114,14 @@ Se abre la página de tipo de registro y se muestran todos los registros de ese 
 1. En cualquier vista, haga clic en el nombre de un registro.
 
    Se abre la página del registro. El área Comentarios se abre de forma predeterminada en el panel derecho.
-1. Haga clic en el icono **Mostrar historial** ![](assets/show-history-icon.png). Todos los cambios realizados en los campos del registro se muestran en el panel derecho, empezando por el más reciente.
-1. (Opcional) Haga clic en el icono **Ocultar historial** ![](assets/hide-history-icon.png) para cerrar el panel derecho.
+1. Haga clic en el icono **Mostrar historial** ![Mostrar historial](assets/show-history-icon.png). Todos los cambios realizados en los campos del registro se muestran en el panel derecho, empezando por el más reciente.
+1. (Opcional) Haga clic en el icono **Ocultar historial** ![Ocultar icono de historial](assets/hide-history-icon.png) para cerrar el panel derecho.
 
 ## Consideraciones sobre la sección Historial
 
 Puede revisar los cambios realizados en los campos de registro en la sección Historial del panel derecho de la página de un registro.
 
-![](assets/history-area-in-comments.png)
+![Área de historial en comentarios](assets/history-area-in-comments.png)
 
 * Workfront Planning registra la siguiente información en la sección Historial:
 

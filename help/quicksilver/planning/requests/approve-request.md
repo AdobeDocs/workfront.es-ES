@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: aca9b313-3420-43f6-8f6c-dd74888bd120
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '886'
-ht-degree: 15%
+source-wordcount: '906'
+ht-degree: 14%
 
 ---
 
@@ -141,20 +141,20 @@ Para aprobar una solicitud:
 
 1. Realice una de las siguientes acciones:
 
-   * Si tiene acceso a Workfront Planning y puede ver al menos un área de trabajo, haga clic en **Menú principal** ![](assets/dots-menu.png) en la esquina superior derecha de la pantalla o en el **Menú principal** ![](assets/lines-menu.png) en la esquina superior izquierda, si está disponible, luego haga clic en **Solicitudes** > **Enviadas** > **Planificación** y haga clic en la solicitud con el estado de **Revisión pendiente** o **En revisión**.
+   * Si tiene acceso a Workfront Planning y puede ver al menos un área de trabajo, haga clic en **Menú principal** ![Menú principal de puntos](assets/dots-menu.png) en la esquina superior derecha de la pantalla, o en **Menú principal** ![Menú principal de líneas](assets/lines-menu.png) en la esquina superior izquierda, si está disponible, luego haga clic en **Solicitudes** > **Enviadas** > **Planificación** y haga clic en la solicitud con el estado de **Revisión pendiente** o **En revisar**.
 
      >[!TIP]
      >
      >Si no tiene acceso a Workfront Planning o no tiene acceso para ver ningún espacio de trabajo, solo puede acceder a una solicitud para aprobarla mediante el correo electrónico o las notificaciones en la aplicación.
 
-   * Haga clic en el icono del área **Notificaciones** ![](assets/notifications-area-icon-unified-shell.png) en la esquina superior derecha de la pantalla y luego haga clic en la notificación sobre una solicitud pendiente de su aprobación para abrir la solicitud.
+   * Haga clic en el icono del área **Notificaciones** ![Icono del área Notificaciones en Unified Shell](assets/notifications-area-icon-unified-shell.png) en la esquina superior derecha de la pantalla y haga clic en la notificación sobre una solicitud pendiente de su aprobación para abrirla.
    * Vaya a la notificación por correo electrónico del mensaje que le notifica una solicitud pendiente de aprobación y, a continuación, haga clic en **Abrir solicitud** para abrir la solicitud. <!--add the name of the button here, from the email-->
 
    La página de solicitud se abre en modo de solo lectura.
 
-   ![](assets/read-only-reqeust-page-in-review-status.png)
+   ![Página de solicitud de solo lectura en el estado de revisión](assets/read-only-reqeust-page-in-review-status.png)
 
-1. (Opcional) Haga clic en el icono **Aprobaciones** ![](assets/approvals-icon.png) en la esquina superior derecha de la solicitud para ver los aprobadores.
+1. (Opcional) Haga clic en el icono **Aprobaciones** ![Icono de aprobaciones](assets/approvals-icon.png) en la esquina superior derecha de la solicitud para ver los aprobadores.
 1. Haga clic en **Revisar y aprobar**, y después elija una de las siguientes opciones: <!--did they fix the button and removed the &??-->
 
    * **Aprobar**: Esto aprueba la solicitud. Se crea inmediatamente un registro para el tipo de registro asociado al formulario de solicitud después de que todos los aprobadores aprueben la solicitud.

@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 8b6df633-eb05-4d3e-bfe6-76cedabdb76d
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '474'
+source-wordcount: '479'
 ht-degree: 21%
 
 ---
@@ -109,11 +109,11 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 ## Restauración de registros eliminados
 
 1. Vaya a la página de tipo de registro donde ha eliminado registros.
-1. Haga clic en el icono **Deshacer** ![](assets/undo-icon.png) en la esquina superior derecha de cualquier vista de página de tipo de registro y, a continuación, haga clic en **Eliminados recientemente**.
+1. Haga clic en el icono **Deshacer** ![Deshacer icono](assets/undo-icon.png) en la esquina superior derecha de cualquier vista de página de tipo de registro y, a continuación, haga clic en **Eliminados recientemente**.
 
    Se muestra el cuadro **Eliminados recientemente**.
 
-   ![](assets/recently-deleted-box.png)
+   ![Caja eliminada recientemente](assets/recently-deleted-box.png)
 
 1. Seleccione los registros que desee eliminar y, a continuación, haga clic en **Restaurar** > **Restaurar**. Puede seleccionar más de un registro.
 

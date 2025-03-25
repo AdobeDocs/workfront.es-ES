@@ -6,10 +6,10 @@ description: Al crear un proyecto en Adobe Workfront, se establece automáticame
 author: Alina
 feature: Work Management
 exl-id: 10421cab-237a-49a5-bb5b-5be510dc4c46
-source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '425'
-ht-degree: 91%
+source-wordcount: '433'
+ht-degree: 89%
 
 ---
 
@@ -109,7 +109,7 @@ Cuando se añade un usuario como Propietario del proyecto de un proyecto, Workfr
 
    El Propietario del proyecto se actualiza en el encabezado del proyecto y en el área Detalles del proyecto.
 
-   ![](assets/project-stakeholders-owner-highlighted-nwe-350x149.png)
+   ![Propietario destacado de las partes interesadas del proyecto](assets/project-stakeholders-owner-highlighted-nwe-350x149.png)
 
 ## Actualizar el Patrocinador del Proyecto de un proyecto.
 
@@ -131,4 +131,4 @@ Cuando añada un usuario como patrocinador del proyecto de un proyecto, Workfron
 
    El patrocinador del proyecto se actualiza en el área de Detalles del proyecto.
 
-   ![](assets/project-stakeholders-sponsor-highlighted-nwe-350x147.png)
+   ![Se destacó el patrocinador de las partes interesadas del proyecto](assets/project-stakeholders-sponsor-highlighted-nwe-350x147.png)

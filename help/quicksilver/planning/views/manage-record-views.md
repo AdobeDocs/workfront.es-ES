@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: 6d9583f8a0e1e0c3712c8a47d68c5d5d321679f9
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '1422'
-ht-degree: 76%
+source-wordcount: '1459'
+ht-degree: 67%
 
 ---
 
@@ -252,7 +252,7 @@ En la tabla siguiente se muestran las similitudes y diferencias entre las vistas
 
    Se crea una nueva ficha con la vista seleccionada.
 
-   Según el ancho de la pantalla, es posible que se muestren vistas adicionales en el menú **Más** ![](assets/more-menu.png).
+   Según la anchura de la pantalla, es posible que se muestren vistas adicionales en el menú **Más** ![Menú más](assets/more-menu.png).
 
 
 >[!TIP]
@@ -264,7 +264,7 @@ En la tabla siguiente se muestran las similitudes y diferencias entre las vistas
 >De lo contrario, las opciones Línea de tiempo y Calendario aparecen atenuadas.
 >
 
-![](assets/view-types-drop-down-from-record-type-list.png)
+![Lista desplegable de tipos de vista de la lista de tipos de registro](assets/view-types-drop-down-from-record-type-list.png)
 
 1. (Condicional) Haga clic en **Siguiente** al crear una vista de línea de tiempo o de calendario.
 
@@ -285,10 +285,10 @@ En la tabla siguiente se muestran las similitudes y diferencias entre las vistas
 1. Haga clic en **Crear**.
 
    La vista se muestra como una nueva pestaña. Las vistas se muestran en orden cronológico a partir del momento en que se crearon o compartieron con el usuario.
-1. (Opcional) Haga clic en el menú **Más** ![](assets/more-caret-down-icon-views.png) que está junto a la última vista para mostrar todas las vistas del tipo de registro seleccionado.
+1. (Opcional) Haga clic en el menú **Más** ![Más vistas del icono de acento circunflejo invertido](assets/more-caret-down-icon-views.png) junto a la última vista para mostrar todas las vistas del tipo de registro seleccionado.
 
    Se muestran vistas adicionales en el menú **Más** después de la última pestaña de vista. El número al lado del menú **Más** muestra el número de vistas adicionales.
-1. (Opcional) Para cambiar el nombre de una vista una vez creada, haga clic en el menú desplegable de vista y, a continuación, haga clic en el menú **Más** ![](assets/more-menu.png) > **Cambiar nombre** para actualizar el nombre de la vista
+1. (Opcional) Para cambiar el nombre de una vista una vez creada, haga clic en el menú desplegable de vista y, a continuación, haga clic en el menú **Más** ![Menú más](assets/more-menu.png) > **Cambiar nombre** para actualizar el nombre de la vista
 
    O
 
@@ -315,7 +315,7 @@ En la tabla siguiente se muestran las similitudes y diferencias entre las vistas
 
    De forma predeterminada, todos los registros del tipo seleccionado se muestran en la vista de tabla.
 
-1. Pase el puntero por encima de uno de los nombres de la vista en la ficha de la vista, luego haga clic en **Más** ![](assets/more-menu.png) a la izquierda del nombre de la vista y luego haga clic en **Eliminar**.
+1. Pase el ratón sobre uno de los nombres de la vista en la pestaña de la vista, luego haga clic en **Más** ![Menú más](assets/more-menu.png) a la izquierda del nombre de la vista y luego haga clic en **Eliminar**.
 En primer lugar, es posible que deba hacer clic en **Más** a la izquierda de la última ficha para encontrar la vista que desee eliminar.
 
 1. Haga clic en **Eliminar** para confirmar. <!--ensure there is not another saving step here?!-->
@@ -345,9 +345,9 @@ Los permisos de uso compartido de la vista original no se transfieren a la vista
    Se abre la página de tipo de registro.
 De forma predeterminada, todos los registros del tipo seleccionado se muestran en la vista de tabla.
 
-1. Pase el puntero por encima de la ficha de la vista que desee duplicar, haga clic en el menú **Más** ![](assets/more-menu.png) a la derecha del nombre de la vista y luego haga clic en **Duplicar**.
+1. Pase el ratón sobre la pestaña de la vista que quiera duplicar y haga clic en el menú **Más** ![Menú más](assets/more-menu.png), a la derecha del nombre de la vista; a continuación, haga clic en **Duplicar**.
 
-   ![](assets/view-more-menu-with-duplicate-option.png)
+   ![Ver más en el menú con la opción duplicada](assets/view-more-menu-with-duplicate-option.png)
 
 
    La vista está duplicada y el nombre de la nueva vista sigue el siguiente patrón: `Original view's name (Copy)`. La nueva ficha de vista se muestra al final de todas las fichas de vista.
@@ -362,13 +362,13 @@ Al mostrar la vista de tabla, también puede ver qué campo está editando otro 
 1. (Condicional) Si hay otros usuarios editando al mismo tiempo los registros del tipo seleccionado, sus avatares se mostrarán en la esquina superior derecha de la vista.
 1. Haga clic en el menú desplegable situado junto a los avatares y seleccione la opción **Mostrar colaboradores**. La opción está seleccionada de forma predeterminada.
 
-   ![](assets/show-collaborators-toggle-selected.png)
+   ![Mostrar colaboradores seleccionados](assets/show-collaborators-toggle-selected.png)
 
 1. (Condicional) Abra una vista de tabla y el campo que otra persona está editando activamente se resaltará en el color correspondiente al contorno de su avatar en la vista de tabla.
 
    Si el color de resaltado del avatar es gris, el usuario dejó de editar activamente el registro hace más de 30 segundos.
 
-   ![](assets/real-time-indicator-table-field-and-avatar-connection.png)
+   ![Campo de tabla de indicadores en tiempo real y conexión de avatar](assets/real-time-indicator-table-field-and-avatar-connection.png)
 
    >[!TIP]
    >

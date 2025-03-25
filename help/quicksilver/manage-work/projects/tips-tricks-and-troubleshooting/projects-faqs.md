@@ -5,10 +5,10 @@ author: Alina
 draft: Probably
 feature: Work Management
 exl-id: be262d72-f4e4-4426-a6bc-23499667fc97
-source-git-commit: 869a1f9e4fd7e3b65591050530b96d6dae9e230c
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '617'
-ht-degree: 1%
+source-wordcount: '625'
+ht-degree: 98%
 
 ---
 
@@ -22,52 +22,52 @@ Las siguientes son las preguntas más frecuentes sobre los proyectos.
 
 Para utilizar las opciones de inserción, la lista de tareas debe estar ordenada por número. Para ordenar la columna por número, haga clic en **#** en el encabezado de columna a la izquierda de **Nombre de tarea** para reorganizar la tarea por número.
 
-## ¿Cuál es la fecha real de finalización?
+## ¿Cuál es la fecha de finalización efectiva?
 
 ### Respuesta
 
-La Fecha real de finalización representa la fecha y la hora en que se completó el trabajo. Para obtener más información, vea [Información general sobre la fecha real de finalización del proyecto](../../../manage-work/projects/planning-a-project/project-actual-completion-date.md).
+La Fecha de finalización efectiva representa la fecha y la hora en que se completó el trabajo. Para obtener más información, vea [Información general sobre la fecha de finalización efectiva del proyecto](../../../manage-work/projects/planning-a-project/project-actual-completion-date.md).
 
-## ¿Por qué falta el botón de sangría/ anulación de sangría?
+## ¿Por qué falta el botón de sangría/anulación de sangría?
 
 ### Respuesta
 
-Para utilizar el botón de sangría/ anulación de sangría, asegúrese de que las tareas estén ordenadas por el número de tarea y de que no se hayan aplicado agrupaciones.
+Para utilizar el botón de sangría/anulación de sangría, asegúrese de que las tareas estén ordenadas por el número de tarea y de que no se hayan aplicado agrupaciones.
 
-## ¿Por qué no puedo cambiar el estado del proyecto a Completo?
+## ¿Por qué no puedo cambiar el estado del proyecto a Completado?
 
 Aparece el siguiente mensaje de error cuando intento marcar mi proyecto como completado:
 
-![Mensaje de error_completo_FAQ_del_proyecto.png](assets/project-faq-complete-error-message-350x138.png)
+![Project_FAQ_Complete_Error_message.png](assets/project-faq-complete-error-message-350x138.png)
 
 ### Respuesta
 
-No puede cambiar el estado de un proyecto a completo si tiene alguno de los siguientes elementos en el proyecto:
+No puede cambiar el estado de un proyecto a completado si tiene alguno de los siguientes elementos en el proyecto:
 
 * Tareas o problemas incompletos
 * Tarea o problemas en estado de aprobación pendiente
 
-## ¿Por qué no puedo cambiar el estado del proyecto de Completo a Actual?
+## ¿Por qué no puedo cambiar el estado del proyecto de Completado a En curso?
 
 ### Respuesta
 
-Si el proyecto tiene el modo de finalización establecido en automático, una vez que se hayan completado todas las tareas y problemas, el estado del proyecto cambiará automáticamente a Completo y no podrá modificarlo a ningún otro estado. El modo de finalización del proyecto debe establecerse a Manual para poder convertir un proyecto completo a Actual. Para obtener más información, vea [El estado del proyecto no cambiará de Completo a Actual](../../../manage-work/projects/tips-tricks-and-troubleshooting/project-status-does-not-change-from-complete-to-current.md).
+Si el proyecto tiene el modo de finalización establecido en automático, una vez que se hayan completado todas las tareas y problemas, el estado del proyecto cambiará automáticamente a Completado y no podrá modificarlo a ningún otro estado. El modo de finalización del proyecto debe establecerse en Manual para poder convertir un proyecto completado a En curso. Para obtener más información, consulte [El estado del proyecto no cambiará de Completado a En curso](../../../manage-work/projects/tips-tricks-and-troubleshooting/project-status-does-not-change-from-complete-to-current.md).
 
-## ¿Por qué no puedo agregar un proyecto a un Portfolio aunque tengo los permisos correctos para hacerlo?
+## ¿Por qué no puedo añadir un Proyecto a un Portafolio aunque tengo los permisos correctos para hacerlo?
 
-Aunque tengo los permisos correctos, el botón Agregar proyectos no aparece en la ficha Proyectos del Portfolio.
+Aunque tengo los permisos correctos, el botón Añadir proyectos no aparece en la ficha Proyectos del Portafolio.
 
 ### Respuesta
 
-Esto se debe a que el estado del Portfolio es Inactivo. Para cambiar el estado del Portfolio:
+Esto se debe a que el estado del Portafolio es Inactivo. Para cambiar el estado del Portafolio:
 
-1. Haz clic en **Detalles del Portfolio > Información general**.
-1. Cambiar **estado** a **Activo.**
+1. Haga clic en **Detalles del Portafolio > Información general**.
+1. Cambiar el **Estado** a **Activo.**
 
 1. Haga clic en **Guardar**.\
-   El botón **Agregar proyectos** ahora debería estar visible en la ficha **Proyectos**.
+   El botón **Añadir proyectos** ahora debería estar visible en la ficha **Proyectos**.
 
-## ¿Qué acceso recibe un Administrador de recursos cuando se agrega a un proyecto?
+## ¿Qué acceso recibe un Administrador de recursos cuando se añade a un proyecto?
 
 ### Respuesta
 
@@ -77,7 +77,7 @@ Los administradores de recursos reciben automáticamente acceso de administraci�
 
 ### Respuesta
 
-Los estados del proyecto cambian debido a los estados predeterminados del grupo. Al agregar un grupo a un proyecto, se cambia la lista de estados a los estados predeterminados establecidos para el grupo.
+Los estados del proyecto cambian debido a los estados predeterminados del Grupo. Al añadir un grupo a un proyecto, se cambia la lista de estados a los estados predeterminados establecidos para el grupo.
 
 Para obtener más información, consulte el artículo [Crear o editar un estado](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
 
@@ -85,20 +85,20 @@ Para obtener más información, consulte el artículo [Crear o editar un estado]
 
 ### Respuesta
 
-El estado del presupuesto mostrará si el proyecto se agrega actualmente al Planificador de capacidades y si se completó el cálculo del presupuesto.
+El estado del presupuesto mostrará si el proyecto está añadido actualmente al Planificador de capacidades y si se completó el cálculo del presupuesto.
 
 Los siguientes son estados de presupuesto:
 
-* No incluido: el proyecto no se agrega al planificador de capacidades.
-* Incluido pero no calculado: el proyecto se agrega al Planificador de capacidades, pero se excluye del cálculo del presupuesto.
-* Incluido y calculado: el proyecto se agrega al Planificador de capacidades y se incluye en el cálculo del presupuesto.
+* No incluido: El proyecto no se añade al planificador de capacidades.
+* Incluido, pero no calculado: el proyecto se añade al Planificador de capacidades, pero se excluye del cálculo del presupuesto.
+* Incluido y calculado: el proyecto se añade al Planificador de capacidades y se incluye en el cálculo del presupuesto.
 
-## ¿Por qué no puedo compartir un proyecto del que soy propietario y en el que tengo permisos de administración con un equipo? No encuentro el equipo en el cuadro de diálogo para compartir del proyecto.
+## ¿Por qué no puedo compartir un proyecto del que soy propietario y tengo permisos de administración con un equipo? No encuentro el equipo en el cuadro de diálogo Uso compartido del proyecto.
 
 ### Respuesta
 
-El administrador de Adobe Workfront le ha restringido la visualización de solo Compañías, Grupos y Equipos a los que pertenece en su Nivel de acceso de. El equipo al que busca no es uno de los equipos a los que pertenece.
+El administrador de Adobe Workfront ha restringido la visualización a solo Compañías, Grupos y Equipos a los que pertenece su nivel de acceso. El equipo que busca no es uno de los equipos a los que pertenece.
 
-![](assets/view-only-team-groups-companies-they-belong-to-350x141.png)
+![Ver solamente equipos, grupos y empresas a los que pertenecen](assets/view-only-team-groups-companies-they-belong-to-350x141.png)
 
-Para obtener información acerca de cómo permitir que un usuario vea todos los equipos del sistema, vea [Crear o modificar niveles de acceso personalizados](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+Para obtener información para permitir que un usuario vea todos los equipos del sistema, consulte [Crear o modificar niveles de acceso personalizados](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).

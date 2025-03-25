@@ -8,9 +8,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: c669217a-40e2-471f-951d-93157a34f1ee
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '1800'
+source-wordcount: '1811'
 ht-degree: 8%
 
 ---
@@ -200,7 +200,7 @@ Seleccione una de las siguientes acciones:
    También se crea un campo conectado para el tipo de registro seleccionado en el tipo de registro original desde el que se configura la automatización.
 1. (Opcional y condicional) Si ha seleccionado crear un objeto Workfront y no tiene un campo de conexión para el tipo de objeto Workfront seleccionado, haga clic en el signo de interrogación a la derecha del campo **Conectado donde se crea el campo &lt; nombre de tipo de objeto Workfront >** y haga clic en el icono **Agregar** ![Crear un campo de conexión](assets/create-a-connection-field-icon.png) para agregar un campo de conexión.
 
-   ![](assets/question-mark-icon-to-add-connected-fields-in-automations-with-workfront.png)
+   ![Icono de signo de interrogación para agregar campos conectados en automatizaciones con Workfront](assets/question-mark-icon-to-add-connected-fields-in-automations-with-workfront.png)
 
    El nuevo campo se crea automáticamente y se denomina **Conectado &lt; nombre de objeto de Workfront >**. Por ejemplo, cuando se crea un campo conectado a un portafolio para el registro, se denomina &quot;Portafolio conectado&quot;.
 

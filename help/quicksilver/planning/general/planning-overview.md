@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 279238689e132490b2d67ae64e8ef2c50a8fc604
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '1818'
-ht-degree: 62%
+source-wordcount: '1878'
+ht-degree: 59%
 
 ---
 
@@ -184,7 +184,7 @@ A continuación, se muestran los objetos y conceptos principales de Workfront Pl
 
 * **Espacio de trabajo**: colección de tipos de registros que definen el ciclo de vida operativo de una determinada organización. Un espacio de trabajo es el marco de trabajo de una unidad organizativa.
 
-  ![](assets/marketing-workspace-with-record-type-taxonomies-opening-page.png)
+  ![Espacio de trabajo de marketing con taxonomías de tipo de registro que abren la página](assets/marketing-workspace-with-record-type-taxonomies-opening-page.png)
 
   Para obtener más información, consulte [Crear espacios de trabajo](/help/quicksilver/planning/architecture/create-workspaces.md).
 
@@ -202,7 +202,7 @@ A continuación, se muestran los objetos y conceptos principales de Workfront Pl
 
 * **Registro**: instancia de un tipo de registro.
 
-  ![](assets/records-highlighted-in-campaign-record-type-list.png)
+  ![Registros resaltados en la lista de tipo de registro de campaña](assets/records-highlighted-in-campaign-record-type-list.png)
 
   Después de añadir un tipo de registro a un espacio de trabajo, podrá empezar a añadir registros de ese tipo a la página del tipo de registro.
 
@@ -212,7 +212,7 @@ A continuación, se muestran los objetos y conceptos principales de Workfront Pl
 
 * **Plantilla del espacio de trabajo**: es posible crear un espacio de trabajo con plantillas predefinidas. Utilice los tipos de registro predefinidos y los campos que se incluyan en una plantilla, o bien añada los suyos propios.
 
-  ![](assets/workspaces-page-with-templates-thumbnails.png)
+  ![Página de espacios de trabajo con miniaturas de plantillas](assets/workspaces-page-with-templates-thumbnails.png)
 
   Adobe Workfront Planning contiene las siguientes plantillas:
 
@@ -226,7 +226,7 @@ A continuación, se muestran los objetos y conceptos principales de Workfront Pl
 
 * **Campos**: los campos son atributos que se pueden añadir a los tipos de registro. Los campos contienen información sobre el tipo de registro. <!--check the shot below, "Connection" needs to be in lowercase-->
 
-  ![](assets/drop-down-list-of-record-fields.png)
+  ![Lista desplegable de campos de registro](assets/drop-down-list-of-record-fields.png)
 
   Consideraciones sobre los campos de registro:
 
@@ -274,7 +274,7 @@ A continuación, se muestran los objetos y conceptos principales de Workfront Pl
 
      Debe tener una licencia de Adobe Experience Manager para vincular tipos de registros con objetos de Experience Manager.
 
-     ![](assets/new-connection-tab-with-workfront-aem-options.png)
+     ![Nueva pestaña de conexión con las opciones de Workfront AEM](assets/new-connection-tab-with-workfront-aem-options.png)
 
 
   Después de establecer una conexión entre los tipos de registro, puede conectar registros individuales u objetos de esos tipos entre sí. La conexión entre los registros se muestra como un campo de registro conectado o como una conexión.
@@ -283,7 +283,7 @@ A continuación, se muestran los objetos y conceptos principales de Workfront Pl
 
   Por ejemplo, si conecta un tipo de registro Campaña con un tipo de objeto Proyecto de Workfront, puede mostrar el campo Presupuesto de los proyectos conectados en los registros de campaña.
 
-  ![](assets/add-lookup-fields-modal.png)
+  ![Agregar cuadro de campos de búsqueda](assets/add-lookup-fields-modal.png)
 
   >[!TIP]
   >
@@ -303,7 +303,7 @@ A continuación, se muestran los objetos y conceptos principales de Workfront Pl
 
 * **Vistas**: los registros se muestran en su página de tipo de registro respectiva en distintos tipos de vistas.
 
-  ![](assets/view-types-drop-down-from-record-type-list.png)
+  ![Lista desplegable de tipos de vista de la lista de tipos de registro](assets/view-types-drop-down-from-record-type-list.png)
 
   Las vistas contienen configuraciones personalizadas de un tipo de vista específico, como la lista de campos (columnas), una lista de registros (filas), su orden (ordenación), un filtro aplicado o aplicable y una agrupación.
 
@@ -311,14 +311,14 @@ A continuación, se muestran los objetos y conceptos principales de Workfront Pl
 
    * **Vista de tabla**: muestra los registros y sus campos, incluidos los campos conectados y de búsqueda, en formato de tabla. Las filas de la tabla son los registros individuales y las columnas son los campos del registro. La vista de tabla es la vista predeterminada.
 
-     ![](assets/table-view-example.png)
+     ![Ejemplo de vista de tabla](assets/table-view-example.png)
 
    * **Vista de escala de tiempo**: muestra registros que tienen al menos dos campos de tipo Fecha en una escala de tiempo cronológica. Puede mostrar hasta 5 tipos de registros conectados y sus registros en la vista de escala de tiempo.
 
-     ![](assets/grouping-applied-in-timeline-view.png)
+     ![Agrupación aplicada en la vista de escala de tiempo](assets/grouping-applied-in-timeline-view.png)
 
    * **Vista de calendario**: muestra los registros que tienen al menos dos campos de tipo Fecha en formato de calendario.
-     ![](assets/calendar-view-example.png)
+     ![Ejemplo de vista de calendario](assets/calendar-view-example.png)
 
 
 Para obtener más información, consulte [Administrar vistas de registros](/help/quicksilver/planning/views/manage-record-views.md).
@@ -333,11 +333,11 @@ Para localizar Workfront Planning:
 
 {{step1-click-main-menu}}
 
-1. Haga clic en **Planning** ![](assets/planning-icon.png).
+1. Haga clic en **Icono de Planning** ![Planning](assets/planning-icon.png).
 
    Se abrirá la página principal de Workfront Planning.
 
-   ![](assets/planning-landing-page-admin.png)
+   ![Administrador de página de aterrizaje de planificación](assets/planning-landing-page-admin.png)
 
    >[!TIP]
    >

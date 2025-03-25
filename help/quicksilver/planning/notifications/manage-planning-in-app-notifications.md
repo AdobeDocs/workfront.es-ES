@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: a6eb8c7c-a34d-4c84-a45c-7e7f050a4302
-source-git-commit: 6d9583f8a0e1e0c3712c8a47d68c5d5d321679f9
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '433'
+source-wordcount: '440'
 ht-degree: 35%
 
 ---
@@ -160,9 +160,9 @@ OLD:
 
 ## Administrar notificaciones en la aplicación cuando alguien te etiqueta en un comentario
 
-1. (Condicional) Después de que alguien le etiquete en un comentario de un registro, vaya al icono **Notificaciones** de la aplicación ![](assets/experience-cloud-notifications-icon.png) en Adobe Experience Cloud.
+1. (Condicional) Después de que alguien le etiquete en un comentario de un registro, vaya al icono de **Notificaciones** de la aplicación ![Icono de notificaciones de Experience Cloud](assets/experience-cloud-notifications-icon.png) en Adobe Experience Cloud.
 
-   ![](assets/in-app-notification-example.png)
+   ![Ejemplo de notificación en la aplicación](assets/in-app-notification-example.png)
 
 1. Haga clic en la notificación.
 

@@ -6,10 +6,10 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 6d9583f8a0e1e0c3712c8a47d68c5d5d321679f9
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '2635'
-ht-degree: 70%
+source-wordcount: '2692'
+ht-degree: 68%
 
 ---
 
@@ -176,7 +176,7 @@ Para administrar una vista de línea de tiempo:
 1. Vaya a la página del tipo de registro cuya línea de tiempo desea ver.
 1. Cree una vista de línea de tiempo, tal como se describe en el artículo [Administrar vistas de registros](/help/quicksilver/planning/views/manage-record-views.md).
 
-   ![](assets/timeline-view-example.png)
+   ![Ejemplo de vista de escala de tiempo](assets/timeline-view-example.png)
 
    Los registros asociados al tipo de registro seleccionado se muestran como barras en una línea de tiempo y se ordenan en orden cronológico según su fecha de inicio de forma predeterminada.
 
@@ -205,9 +205,9 @@ Para administrar una vista de línea de tiempo:
 
 1. Haga lo siguiente para buscar rápidamente registros que coincidan con una palabra clave:
 
-   1. Haga clic en el icono **Búsqueda** ![](assets/search-icon.png) y empiece a escribir una palabra clave asociada a cualquier campo de un registro que se muestra en la pantalla. El número de coincidencias correctas se muestra junto al elemento de búsqueda y el registro con la coincidencia correcta se resalta.
+   1. Haga clic en el icono **Buscar** ![Icono de búsqueda](assets/search-icon.png) y empiece a escribir una palabra clave asociada a cualquier campo de un registro que se muestra en la pantalla. El número de coincidencias correctas se muestra junto al elemento de búsqueda y el registro con la coincidencia correcta se resalta.
 
-      ![](assets/search-box-and-results-timeline-view.png)
+      ![Vista de cuadro de búsqueda y escala de tiempo de resultados](assets/search-box-and-results-timeline-view.png)
 
       Puede utilizar cualquier palabra o carácter especial que esté visible en la pantalla.
 
@@ -281,7 +281,7 @@ Para añadir una agrupación en la vista de línea de tiempo:
 1. Cree una vista de línea de tiempo para un tipo de registro, tal y como se describe en el artículo [Administración de vistas de registros](/help/quicksilver/planning/views/manage-record-views.md).
 1. Haga clic en **Agrupación** en la esquina superior derecha de la vista de línea de tiempo.
 
-   ![](assets/grouping-ui-timeline-view-with-linked-fields.png)
+   ![Vista de línea de tiempo de IU de agrupación con campos vinculados](assets/grouping-ui-timeline-view-with-linked-fields.png)
 
 1. Haga clic en uno de los campos sugeridos o haga clic en **Elegir un campo diferente**, busque un campo diferente y, a continuación, haga clic en él cuando se muestre en la lista.
 
@@ -295,7 +295,7 @@ Para añadir una agrupación en la vista de línea de tiempo:
 
    <!-- update screen shot with view redesign-->
 
-   ![](assets/grouping-applied-in-timeline-view.png)
+   ![La agrupación se aplica en la vista de escala de tiempo](assets/grouping-applied-in-timeline-view.png)
 
 1. (Opcional) Dentro del cuadro **Agrupar registros por**, haga clic en el icono **x** a la derecha de un campo seleccionado para la agrupación para quitar la agrupación
 
@@ -347,11 +347,11 @@ Actualice la configuración de la vista de línea de tiempo para indicar qué in
 
    A la derecha aparece una vista previa del aspecto que tendrán las barras en la línea de tiempo.
 
-   ![](assets/record-details-panel-timeline-settings-with-preview.png)
+   ![Registrar configuración de escala de tiempo del panel de detalles con vista previa](assets/record-details-panel-timeline-settings-with-preview.png)
 
 1. Haga clic en **Color** en el panel izquierdo para personalizar los colores de los registros y agrupaciones en la línea de tiempo.
 
-   ![](assets/color-tab-timeline-view.png)
+   ![Vista de la cronología de la ficha de color](assets/color-tab-timeline-view.png)
 
 1. (Condicional y opcional) Si ha añadido una agrupación a la vista de línea de tiempo, seleccione una de las siguientes opciones para establecer un color para la agrupación en la sección **Establecer color de agrupación**:
 
@@ -382,7 +382,7 @@ Actualice la configuración de la vista de línea de tiempo para indicar qué in
 
 1. (Condicional) Si ha seleccionado **Valores de campo** para los colores de registro, seleccione un campo en el menú desplegable **Hacer coincidir el color del registro con**.
 
-   ![](assets/field-selector-drop-down-menu-timeline-view.png)
+   ![Menú desplegable de selector de campo en la vista de cronología](assets/field-selector-drop-down-menu-timeline-view.png)
 
    En el menú desplegable solo se muestran los campos con opciones codificadas por colores.
 
@@ -424,7 +424,7 @@ Puede mostrar los registros conectados en la vista de escala de tiempo de un reg
 1. (Condicional) Si está viendo la vista de escala de tiempo en el modo Estándar, haga clic en **Desglose**.
 1. Expanda el cuadro **Seleccionar un tipo de registro vinculado** y seleccione un tipo de registro conectado. <!--add a new screen shot - submitted a bug to remove the "the"-->
 
-   ![](assets/breakdown-picker-and-button-on-timeline.png)
+   ![Selector de desglose y botón en la vista de cronología](assets/breakdown-picker-and-button-on-timeline.png)
 
    >[!TIP]
    >
@@ -439,7 +439,7 @@ Puede mostrar los registros conectados en la vista de escala de tiempo de un reg
    Si están conectados con otros registros, aparecerá una flecha hacia la derecha en la barra del registro seleccionado de la escala de tiempo.
 1. Haga clic en la flecha que señala a la derecha para expandir un tipo de registro y mostrar sus conexiones.
 
-   ![](assets/campaigns-broken-down-by-programs-in-timeline-highlighted.png)
+   ![Campañas desglosadas por programas en la vista de escala de tiempo](assets/campaigns-broken-down-by-programs-in-timeline-highlighted.png)
 
 1. (Opcional) Repita los pasos anteriores para agregar más registros conectados.
 

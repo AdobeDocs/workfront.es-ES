@@ -6,10 +6,10 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 83ff53ac-f18e-4b71-bdb2-57e05d69ed29
-source-git-commit: a3c82d8be6945a91a249d64923c6377a5edfa268
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '510'
-ht-degree: 75%
+source-wordcount: '517'
+ht-degree: 71%
 
 ---
 
@@ -196,9 +196,9 @@ Se abre el espacio de trabajo al que accedió por última vez.
 
    O
 
-   Pase el ratón sobre el nombre de un registro, haga clic en el menú **Más** ![](assets/more-menu.png) y luego haga clic en **Copiar vínculo**.
+   Pase el ratón sobre el nombre de un registro, haga clic en el menú **Más** ![Menú más](assets/more-menu.png) y, a continuación, haga clic en **Copiar vínculo**.
 
-   ![](assets/contextual-menu-for-record-row.png)
+   ![Menú contextual para la fila de registros](assets/contextual-menu-for-record-row.png)
 
    El vínculo se copia en el portapapeles.
 

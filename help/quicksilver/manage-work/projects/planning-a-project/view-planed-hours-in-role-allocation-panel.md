@@ -6,10 +6,10 @@ description: Puede ver la asignación de funciones para todos los roles asignado
 author: Alina
 feature: Work Management
 exl-id: 76f70cb6-f707-4a73-bc81-e755e2d0a33d
-source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '471'
-ht-degree: 26%
+source-wordcount: '482'
+ht-degree: 25%
 
 ---
 
@@ -107,11 +107,11 @@ Debe tener lo siguiente:
    * **Tareas**
    * **Distribuidor de cargas de trabajo**
 
-1. Haga clic en el icono **Mostrar asignación de funciones** ![](assets/show-role-allocation-icon.png).
+1. Haga clic en el icono **Mostrar asignación de funciones** ![Mostrar icono de asignación de funciones](assets/show-role-allocation-icon.png).
 
    Se muestra el panel Asignación de funciones.
 
-   ![](assets/role-allocation-panel-planned-hours-only-350x316.png)
+   ![Panel de asignación de funciones con solo horas planificadas](assets/role-allocation-panel-planned-hours-only-350x316.png)
 
 1. Revise la siguiente información en el panel **Asignación de funciones**:
 

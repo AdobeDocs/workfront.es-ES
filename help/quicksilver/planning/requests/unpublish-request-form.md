@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: df8c4926-e258-49c0-ab9d-563ccaf7a6aa
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '658'
+source-wordcount: '665'
 ht-degree: 33%
 
 ---
@@ -124,7 +124,7 @@ Para cambiar el uso compartido de un formulario de solicitud:
 
    La página de tipo de registro se abre en la vista a la que se accedió por última vez. De forma predeterminada, se abre una página de tipo de registro en la vista de tabla.
 
-1. Haga clic en el menú **Más** ![](assets/more-menu.png) a la derecha del nombre del tipo de registro en el encabezado de la página y, a continuación, haga clic en **Actualizar formulario de solicitud**.
+1. Haga clic en el menú **Más** ![Menú más](assets/more-menu.png) a la derecha del nombre del tipo de registro en el encabezado de la página y, a continuación, haga clic en **Actualizar formulario de solicitud**.
 1. Haga clic en **Compartir** en la esquina superior derecha de la pantalla y, a continuación, actualice las opciones para compartir. Para obtener más información, consulte [Crear y administrar un formulario de solicitud en Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 1. (Opcional) Haga clic en **Copiar vínculo**, si ha cambiado el uso compartido del formulario de solicitud y desea compartirlo con el nuevo grupo de personas con un nuevo vínculo.
 
@@ -142,10 +142,10 @@ Cuando un formulario de solicitud deja de ser relevante y ya no desea que nadie 
 
    La página de tipo de registro se abre en la vista a la que se accedió por última vez. De forma predeterminada, se abre una página de tipo de registro en la vista de tabla.
 
-1. Haga clic en el menú **Más** ![](assets/more-menu.png) a la derecha del nombre del tipo de registro en el encabezado de la página y, a continuación, haga clic en **Actualizar formulario de solicitud**.
+1. Haga clic en el menú **Más** ![Menú más](assets/more-menu.png) que se encuentra a la derecha del nombre del tipo de registro en el encabezado de la página y, a continuación, haga clic en **Actualizar formulario de solicitud**.
 1. Haga clic en **Cancelar publicación** en la esquina superior derecha.
 
-   ![](assets/unpublish-button-highlighted.png)
+   ![Botón Cancelar publicación resaltado](assets/unpublish-button-highlighted.png)
 
    Aparece una confirmación en la parte inferior de la pantalla que le notifica que se ha cancelado la publicación del formulario.
 

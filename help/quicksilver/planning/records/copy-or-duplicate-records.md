@@ -6,10 +6,10 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 2fed8c96-0c9c-4662-a9c4-66dae507ff2a
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '583'
-ht-degree: 49%
+source-wordcount: '605'
+ht-degree: 47%
 
 ---
 
@@ -175,13 +175,13 @@ Todos los registros del tipo seleccionado se muestran en la vista.
 
 1. Realice una de las siguientes acciones:
 
-   * Pase el ratón sobre el nombre de un registro, luego haga clic en el menú **Más** alineado con el nombre del registro y luego haga clic en el icono **Duplicar** ![](assets/duplicate-icon-gray.png) .
+   * Pase el ratón sobre el nombre de un registro, luego haga clic en el menú **Más** alineado con el nombre del registro y luego haga clic en el icono **Duplicar** ![Icono duplicado gris](assets/duplicate-icon-gray.png) .
 
-     ![](assets/more-menu-from-record-in-table-view.png)
+     ![Menú más del registro en la vista de tabla](assets/more-menu-from-record-in-table-view.png)
 
-   * Seleccione un registro y, a continuación, haga clic en el icono **Duplicate** ![](assets/duplicate-icon-white-and-blue.png) de la barra de herramientas situada en la parte inferior de la página.
+   * Seleccione un registro y, a continuación, haga clic en el icono **Duplicate** ![Icono de duplicado blanco y azul](assets/duplicate-icon-white-and-blue.png) en la barra de herramientas de la parte inferior de la página.
 
-     ![](assets/duplicate-icon-in-toolbar-in-table-view.png)
+     ![Icono duplicado en la barra de herramientas de la vista de tabla](assets/duplicate-icon-in-toolbar-in-table-view.png)
 
    Debajo del registro original se crea un registro idéntico con un nombre idéntico. Todos los campos del nuevo registro se rellenan con la misma información que en el registro original.
 

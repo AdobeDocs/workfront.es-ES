@@ -6,10 +6,10 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 6d9583f8a0e1e0c3712c8a47d68c5d5d321679f9
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '2876'
-ht-degree: 89%
+source-wordcount: '2932'
+ht-degree: 85%
 
 ---
 
@@ -171,7 +171,7 @@ Para administrar una vista de tabla:
 
 1. Cree una vista de tabla, tal como se describe en el artículo [Administrar vistas de registros](/help/quicksilver/planning/views/manage-record-views.md).
 
-   ![](assets/table-view-example.png)
+   ![Ejemplo de vista de tabla](assets/table-view-example.png)
 
 1. (Opcional) Haga clic en **Altura de la fila** y, a continuación, seleccione una de las siguientes opciones para modificar la altura de las filas de la tabla:
    * Baja
@@ -209,7 +209,7 @@ Puede añadir hasta 500 campos (o columnas) en una vista de tabla.
 
    * Haga clic en **Campos** en la barra de herramientas de la tabla, arrastre y suelte los campos en el orden deseado y, a continuación, haga clic fuera del cuadro **Visibilidad y orden de los campos** para cerrarlo.
 
-     ![](assets/fields-setting-table-view-toolbar-expanded.png)
+     ![Campos configurando la barra de herramientas de la vista de tabla expandida](assets/fields-setting-table-view-toolbar-expanded.png)
 
 
      >[!TIP]
@@ -224,7 +224,7 @@ Puede añadir hasta 500 campos (o columnas) en una vista de tabla.
 
 1. (Opcional) Pase el puntero por encima de un nombre de campo en el encabezado de columna de cualquier campo que no se muestre en la primera columna de la tabla, haga clic en la flecha hacia abajo situada a la derecha del nombre del campo y, a continuación, haga clic en **Establecer como campo principal**.
 
-   ![](assets/set-as-primary-field-option-table-view.png)
+   ![Establecer como opción de campo principal en la vista de tabla](assets/set-as-primary-field-option-table-view.png)
 
 1. Haga clic en **Establecer campo** para confirmar.
 
@@ -253,9 +253,9 @@ Puede añadir hasta 500 campos (o columnas) en una vista de tabla.
 
 1. Haga lo siguiente para buscar rápidamente registros que coincidan con una palabra clave:
 
-   1. Haga clic en el icono **Búsqueda** ![](assets/search-icon.png) y empiece a escribir una palabra clave asociada a cualquier campo de un registro que se muestra en la pantalla. El número de coincidencias correctas se mostrará junto al elemento de búsqueda y el campo con la coincidencia correcta quedará resaltado.
+   1. Haga clic en el icono **Buscar** ![Icono de búsqueda](assets/search-icon.png) y empiece a escribir una palabra clave asociada a cualquier campo de un registro que se muestra en la pantalla. El número de coincidencias correctas se mostrará junto al elemento de búsqueda y el campo con la coincidencia correcta quedará resaltado.
 
-      ![](assets/search-box-with-results-blue-outline-table-view.png)
+      ![Cuadro de búsqueda con contorno azul de resultados en la vista de tabla](assets/search-box-with-results-blue-outline-table-view.png)
 
       Puede utilizar cualquier palabra o carácter especial que esté visible en la pantalla.
 
@@ -284,7 +284,7 @@ Puede tener hasta 50 000 registros (o filas) para un tipo de registro.
 
    Para obtener más información, consulte [Añadir una miniatura a un registro](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
 
-1. (Opcional) Seleccione uno o varios registros de una fila y, a continuación, arrastre y suelte el icono **asa** ![](assets/handle-icon.png) a la izquierda del registro para reordenar las filas.
+1. (Opcional) Seleccione uno o varios registros de una fila y, a continuación, arrastre y suelte el icono **controlador** ![icono de controlador](assets/handle-icon.png) a la izquierda del registro para reordenar las filas.
 
    >[!NOTE]
    >
@@ -394,7 +394,7 @@ Para añadir un filtro a una vista de tabla:
 
    * Seleccione un valor para el campo seleccionado.
 
-   ![](assets/filter-ui-table-view.png)
+   ![Vista de tabla de IU de filtro](assets/filter-ui-table-view.png)
 
    No hay límite en cuanto a las condiciones de filtrado que se pueden añadir.
 
@@ -408,7 +408,7 @@ Para añadir un filtro a una vista de tabla:
 
    1. (Opcional) Agregue operadores **AND** o **OR** adicionales entre varias agrupaciones de condiciones.
 
-      ![](assets/multi-tiered-filters-in-views.png)
+      ![Filtros de varios niveles en las vistas](assets/multi-tiered-filters-in-views.png)
 
    </div>
 
@@ -446,7 +446,7 @@ para añadir una agrupación:
 1. Cree una vista de línea de tiempo para un tipo de registro, tal y como se describe en el artículo [Administración de vistas de registros](/help/quicksilver/planning/views/manage-record-views.md).
 1. Haga clic en **Agrupación**, en la esquina superior derecha de la vista de tabla.
 
-   ![](assets/grouping-ui-table-view-with-linked-fields.png)
+   ![Vista de tabla de IU de agrupación con campos vinculados](assets/grouping-ui-table-view-with-linked-fields.png)
 
 1. Haga clic en uno de los campos sugeridos o en **Elegir un campo diferente**, busque uno y luego hágale clic cuando se muestre en la lista.
 
@@ -456,7 +456,7 @@ para añadir una agrupación:
 
    El número de campos seleccionados para la agrupación se muestra junto al icono de Agrupación.
 
-   ![](assets/grouping-applied-in-table-view.png)
+   ![Agrupación aplicada en la vista de tabla](assets/grouping-applied-in-table-view.png)
 
 1. (Opcional) Dentro del cuadro **Agrupar registros por**, haga clic en el icono **x** a la derecha de un campo seleccionado para la agrupación para quitar la agrupación
 
@@ -499,7 +499,7 @@ Tenga en cuenta lo siguiente al ordenar registros en la vista de tabla:
 Para ordenar registros <!--ungrouped (add this when sorting for groupings will be available-->, haga lo siguiente:
 
 1. Cree una vista de tabla, tal como se describe en el artículo [Administrar vistas de registros](/help/quicksilver/planning/views/manage-record-views.md).
-1. Haga clic en el icono de **Ordenar**![](assets/sort-icon.png) en la esquina superior derecha de la tabla
+1. Haga clic en el icono **Ordenar** ![Icono Ordenar](assets/sort-icon.png) en la esquina superior derecha de la tabla
 
    O
 
@@ -523,7 +523,7 @@ Para ordenar registros <!--ungrouped (add this when sorting for groupings will b
 
 1. Haga clic fuera del cuadro **Ordenar registros por** para cerrarlo.
 
-   ![](assets/sorting-in-table-view.png)
+   ![Ordenando en la vista de tabla](assets/sorting-in-table-view.png)
 
    La información mostrada en la tabla se ordena según los criterios seleccionados.
 

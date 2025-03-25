@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 53f57953-fb9f-47ef-be18-a7164c844682
-source-git-commit: 6e772ed53cca2fe3756fc15b715693b8b1fbef34
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '764'
-ht-degree: 66%
+source-wordcount: '780'
+ht-degree: 65%
 
 ---
 
@@ -76,7 +76,7 @@ Puede localizar el asistente de IA en las siguientes áreas de Workfront Plannin
 
 ## Acceso al asistente de IA en el área de planificación
 
-1. Inicie sesión en Workfront y, a continuación, haga clic en el icono **Menú principal** ![](assets/dots-main-menu.png) en la esquina superior derecha de la pantalla, o en el icono **Menú principal** ![](assets/lines-main-menu.png) en la esquina superior izquierda, si está disponible.
+1. Inicie sesión en Workfront y, a continuación, haga clic en el icono **Menú principal** ![Menú principal de puntos](assets/dots-main-menu.png) en la esquina superior derecha de la pantalla, o en el icono **Menú principal** ![Menú principal de líneas](assets/lines-main-menu.png) en la esquina superior izquierda, si está disponible.
 
 . Haga clic en **Planificación**. Se abre el área de Planning.
 
@@ -88,11 +88,11 @@ Puede localizar el asistente de IA en las siguientes áreas de Workfront Plannin
 
 1. Haga clic en el icono **Asistente de IA** en la esquina superior derecha de la pantalla en la barra de navegación global o en la esquina superior derecha de la página o vista previa del registro.
 
-   ![](assets/ai-assistant-icon-highlighted.png)
+   ![icono del Asistente de IA](assets/ai-assistant-icon-highlighted.png)
 
 1. En el espacio proporcionado, empiece a escribir comandos para el asistente de IA y, a continuación, haga clic en Intro cuando haya terminado.
 
-   ![](assets/ai-assistant-panel-with-empty-command-box.png)
+   ![Panel del asistente de IA con el cuadro de comandos vacío](assets/ai-assistant-panel-with-empty-command-box.png)
 
    Por ejemplo, puede escribir una de las siguientes opciones:
 

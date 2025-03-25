@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 3f7a3667-8a9f-462a-b706-cf15850a0d1c
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '701'
-ht-degree: 57%
+source-wordcount: '737'
+ht-degree: 46%
 
 ---
 
@@ -124,18 +124,18 @@ Puede eliminar un registro de las siguientes áreas:
 1. Realice una de las siguientes acciones:
 
    * En la vista Tabla, haga clic en el nombre de un registro.
-   * En la vista Tabla, pase el puntero por encima del nombre de un registro, haga clic en el menú **Más** ![](assets/more-menu.png) y, a continuación, haga clic en **Ver**
+   * En la vista Tabla, pase el ratón sobre el nombre de un registro, haga clic en el menú **Más** ![Menú Más](assets/more-menu.png) y, a continuación, haga clic en **Ver**
 
-     ![](assets/contextual-menu-for-record-row.png)
+     ![Menú contextual para la fila de registros](assets/contextual-menu-for-record-row.png)
    * En una vista Línea de tiempo, haga clic en una barra de registro.
 
    Se abre la página de registro.
 
-1. Haga clic en el menú **Más** ![](assets/more-menu.png) que se encuentra a la derecha del nombre del registro, a continuación haga clic en **Eliminar** y, a continuación, en **Eliminar** de nuevo para confirmar.
+1. Haga clic en el menú **Más** ![Menú más](assets/more-menu.png) que se encuentra a la derecha del nombre del registro, luego haga clic en **Eliminar** y después en **Eliminar** de nuevo para confirmar.
 
-   ![](assets/more-menu-options-from-record-details-page.png) <!--ensure the options have not changed or been renamed-->
+   ![Más opciones de menú de la página de detalles del registro](assets/more-menu-options-from-record-details-page.png) <!--ensure the options have not changed or been renamed-->
 Se elimina el registro.
-1. (Opcional y condicional) Si elimina el registro en el entorno de vista previa, vaya a la vista de tabla de la página del registro, haga clic en el icono **Deshacer** ![](assets/undo-icon.png) en la esquina superior derecha de la vista y, a continuación, haga clic en **Eliminados recientemente** para recuperar los registros eliminados.
+1. (Opcional y condicional) Si elimina el registro en el entorno de vista previa, vaya a la vista de tabla de la página del registro y haga clic en el icono **Deshacer** ![Icono Deshacer](assets/undo-icon.png) en la esquina superior derecha de la vista; a continuación, haga clic en **Eliminados recientemente** para recuperar los registros eliminados.
 
 Para obtener información acerca de cómo recuperar los registros eliminados, vea [Recuperar registros eliminados](/help/quicksilver/planning/records/restore-deleted-records.md).
 
@@ -156,17 +156,17 @@ Para obtener información acerca de cómo recuperar los registros eliminados, ve
 1. Realice una de las siguientes acciones:
 
    * Haga clic con el botón derecho en una fila de registro y, a continuación, haga clic en **Eliminar**.
-   * Haga clic en el menú **Más** ![](assets/more-menu.png) a la derecha del nombre del registro y, a continuación, haga clic en **Eliminar**.
+   * Haga clic en el menú **Más** ![Menú más](assets/more-menu.png) que se encuentra a la derecha del nombre del registro y, a continuación, haga clic en **Eliminar**.
 
-     ![](assets/contextual-menu-for-record-row.png)
+     ![Menú contextual para la fila de registros](assets/contextual-menu-for-record-row.png)
 
-   * Haga clic en el icono de **Abrir detalles** ![](assets/open-details-icon-in-table-name-field.png) para abrir el cuadro con la información detallada del registro, y haga clic en **Más** ![](assets/more-menu.png) a la derecha del nombre del registro y, a continuación, en **Eliminar**.
+   * Haga clic en el icono **Abrir detalles** ![Abrir detalles en el campo de nombre de tabla](assets/open-details-icon-in-table-name-field.png) para abrir el cuadro con la información detallada del registro, haga clic en **Más** ![Menú más](assets/more-menu.png) a la derecha del nombre del registro y, a continuación, en **Eliminar**.
 
    Se elimina el registro.
 
 1. (Opcional) Realice una de las siguientes acciones para deshacer o rehacer la eliminación de un registro:
 
-   * Haga clic en el icono **Deshacer** ![](assets/undo-icon.png) y después en **Eliminados recientemente** para recuperar los registros eliminados. Para obtener información acerca de cómo recuperar los registros eliminados, vea [Recuperar registros eliminados](/help/quicksilver/planning/records/restore-deleted-records.md).
+   * Haga clic en el icono **Deshacer** ![Deshacer icono](assets/undo-icon.png) y, a continuación, **Eliminado(a) recientemente** para recuperar los registros eliminados. Para obtener información acerca de cómo recuperar los registros eliminados, vea [Recuperar registros eliminados](/help/quicksilver/planning/records/restore-deleted-records.md).
    * Utilice los siguientes métodos abreviados del teclado para deshacer o rehacer la eliminación de un registro:
 
       * CTRL + Z (⌘ + Z para Mac) para deshacer la eliminación de un registro

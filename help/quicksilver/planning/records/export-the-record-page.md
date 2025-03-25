@@ -6,10 +6,10 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 8de68b70-dd87-4aad-9137-980ea9fc0d69
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '475'
-ht-degree: 28%
+source-wordcount: '491'
+ht-degree: 27%
 
 ---
 
@@ -118,11 +118,11 @@ Se abre la página de tipo de registro y se muestran todos los registros de ese 
 
    Se abre el cuadro de vista previa del registro.
 
-1. (Opcional) Haga clic en el icono **Abrir en ficha nueva** ![](assets/open-details-in-a-new-tab-icon.png) para abrir la página del registro.
+1. (Opcional) Haga clic en el icono **Abrir en ficha nueva** ![Abrir detalles en un icono de ficha nueva](assets/open-details-in-a-new-tab-icon.png) para abrir la página del registro.
 
 1. Elija la ficha **Detalles**. La pestaña Detalles se debe abrir de forma predeterminada.
 
-1. Haga clic en el menú **Exportar** ![](assets/export-icon-in-record-details-page.png) en la vista previa o en la página del registro y, a continuación, haga clic en una de las siguientes opciones:
+1. Haga clic en el icono **Exportar** del menú ![Exportar en la página de detalles del registro](assets/export-icon-in-record-details-page.png), ya sea en la vista previa o en la página del registro y, a continuación, haga clic en una de las siguientes opciones:
 
    * **Microsoft Word**
    * **Adobe PDF**
@@ -131,7 +131,7 @@ Se abre la página de tipo de registro y se muestran todos los registros de ese 
 
    El nombre del archivo exportado es el campo Primary del registro.
 
-   ![](assets/exported-word-file.png)
+   ![Archivo de Word exportado](assets/exported-word-file.png)
 
    >[!NOTE]
    >
