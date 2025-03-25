@@ -10,7 +10,7 @@ exl-id: 06cd2226-f94d-4b6a-8692-6d35210782f2
 source-git-commit: 696d656816a4c1c2edef4347567b2fc553f489f7
 workflow-type: tm+mt
 source-wordcount: '2113'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 98%
 >[!CONTEXTUALHELP]
 >id="wf-resourcing-planner"
 >title="Planificador de recursos"
->abstract="Puede utilizar el Planificador de recursos para estimar y presupuestar la asignación de recursos a los proyectos a los que están asignados, así como prever su disponibilidad para el trabajo futuro."
+>abstract="Puede utilizar el planificador de recursos para realizar una estimación y presupuestar la asignación de sus recursos a los proyectos a los que están asignados y prever su disponibilidad para futuros trabajos."
 
 <!-- Audited: 12/2023 -->
 

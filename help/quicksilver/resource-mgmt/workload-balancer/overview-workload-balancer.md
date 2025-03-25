@@ -10,7 +10,7 @@ exl-id: 9398bd04-9df7-4b77-8361-fdb5bdce6829
 source-git-commit: 696d656816a4c1c2edef4347567b2fc553f489f7
 workflow-type: tm+mt
 source-wordcount: '1194'
-ht-degree: 95%
+ht-degree: 96%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 95%
 >[!CONTEXTUALHELP]
 >id="wf-resourcing-workload-balancer"
 >title="Distribuidor de cargas de trabajo"
->abstract="Los propietarios de proyecto y los administradores de equipo pueden utilizar el Distribuidor de cargas de trabajo para asignar elementos de trabajo a los usuarios."
+>abstract="Los propietarios de proyectos y los administradores de equipo pueden utilizar el Distribuidor de cargas de trabajo para asignar elementos de trabajo a los usuarios."
 
 <!--
 <p>(NOTE: this is linked from the UI for the Workload Balancer page. DO NOT CHANGE TITLE OR LINK) </p>
