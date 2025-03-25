@@ -6,10 +6,10 @@ description: Puede restablecer su contraseña de  [!DNL Adobe Workfront] . Como 
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 571cd77d-4f63-40c2-8a21-9646e924e75e
-source-git-commit: e8acdf8f7b3859385237e788dfda34ee62ee11d1
+source-git-commit: 234fc6b7b5acb0914744831066cb88a965e54048
 workflow-type: tm+mt
 source-wordcount: '255'
-ht-degree: 85%
+ht-degree: 76%
 
 ---
 
@@ -77,11 +77,13 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 
 1. Escriba la contraseña anterior y, a continuación, escriba dos veces la nueva contraseña que desee.
 
-   La contraseña debe tener al menos 8 caracteres y contener dos de los tipos de caracteres siguientes:
+   La contraseña debe tener al menos 8 caracteres y contener dos <!--of each--> de los tipos de caracteres siguientes:
 
+   <!--* Uppercase letters
+   * Lowercase letters-->
    * Teclas
    * Números
-   * Caracteres especiales (es decir, ! @ # $ %, etc.)
+   * Caracteres especiales (como ! @ # $ %)
 
    Las reglas de contraseña pueden ser más estrictas, según las opciones de configuración establecidas por el administrador de [!DNL Workfront].
 

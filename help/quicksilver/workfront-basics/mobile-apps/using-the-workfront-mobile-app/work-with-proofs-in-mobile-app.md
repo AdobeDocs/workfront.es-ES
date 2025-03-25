@@ -6,10 +6,10 @@ description: Cuando se le asigna una prueba para su aprobación, aparece en la l
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 4ab8dfd0-0a1f-425d-9e05-8e8134ce930a
-source-git-commit: 6e665acd48ce5ee4f870282cbdb59e89c5d21096
+source-git-commit: 234fc6b7b5acb0914744831066cb88a965e54048
 workflow-type: tm+mt
-source-wordcount: '760'
-ht-degree: 98%
+source-wordcount: '770'
+ht-degree: 97%
 
 ---
 
@@ -40,7 +40,7 @@ Su acceso para revisar y aprobar pruebas es el mismo que en [!DNL Adobe Workfron
 
    >[!NOTE]
    >
-   >Las pruebas de vídeo no se pueden abrir en la aplicación móvil.
+   >Las pruebas de vídeo solo se pueden abrir en la aplicación móvil de iOS. Esta funcionalidad aún no está disponible para Android.
 
 1. Revise la prueba del documento.
 1. (Opcional) Seleccione ![[!UICONTROL Icono de una sola página]](assets/mobile-proofpagingicon1-25x36.png) en la parte superior derecha del documento para cambiar de la vista de una sola página a la vista continua. Seleccione ![[!UICONTROL Icono de página continua]](assets/mobile-proofpagingicon2-25x25.png) para volver a cambiar a la vista de página única.
