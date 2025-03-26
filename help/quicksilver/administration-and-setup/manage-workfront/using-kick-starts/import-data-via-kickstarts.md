@@ -9,10 +9,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 25813946-e338-4dd9-b02c-d20fa18c539c
-source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
+source-git-commit: 69cd1eafd7798861a4868fe0d68707ab5ba9106c
 workflow-type: tm+mt
-source-wordcount: '2754'
-ht-degree: 98%
+source-wordcount: '2776'
+ht-degree: 97%
 
 ---
 
@@ -361,6 +361,10 @@ Cada fila de la hoja corresponde a un objeto único.
    * Si necesita añadir varios valores de datos en el campo personalizado (como botones de opción, casillas de verificación o listas), utilice el delimitador de datos personalizados de barra vertical &quot;|&quot; que aparece en la pestaña Preferencias para separar los valores.
 
      **Ejemplo:** escriba A|D en la columna DE: Departamentos para rellenar los departamentos A y D en el formulario personalizado.
+
+     >[!NOTE]
+     >
+     >Utilice únicamente el delimitador &quot;|&quot; para separar los valores de los campos personalizados. No puede usarlo en ninguna de las otras columnas de la hoja de cálculo, entre ellas **setCategoryID**.
 
 ### Incluir fechas  {#include-dates}
 

@@ -4,14 +4,14 @@ user-type: administrator
 product-area: system-administration;templates;user-management
 navigation-topic: layout-templates
 description: Como administrador de Adobe Workfront, puede asignar una plantilla de diseño que haya creado a cualquier usuario, función de trabajo, equipo o grupo que necesite utilizarla.
-author: Alina
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: a2915f3a-071f-4e9f-88c9-338bf765f418
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: 69cd1eafd7798861a4868fe0d68707ab5ba9106c
 workflow-type: tm+mt
-source-wordcount: '919'
-ht-degree: 14%
+source-wordcount: '879'
+ht-degree: 15%
 
 ---
 
@@ -44,7 +44,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
    <td>Cualquiera</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licencia de Adobe Workfront*</td> 
+   <td role="rowheader">Licencia de Adobe Workfront</td> 
    <td><p>Nuevo: estándar</p>
   <p> Actual: plan</p>
    </td> 
@@ -57,7 +57,7 @@ Para realizarlos para un grupo, debe ser administrador de ese grupo.</p> </td>
  </tbody> 
 </table>
 
-*Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -110,8 +110,8 @@ Sin embargo, solo una plantilla de diseño es visible para el usuario en un mome
 
 ## Gran cantidad de usuarios asignados a una plantilla de diseño
 
-Si edita una plantilla de diseño asignada a más de 2000 usuarios y realiza cambios en la misma, solo se conservarán los 2000 primeros usuarios en la plantilla y verán los cambios que ha realizado. La plantilla de diseño se elimina de todas las demás.
-
+<!--If you edit a layout template which is assigned to more than 2000 users and make changes to it, only the first 2000 users will be retained on the layout template and will see the changes you made. The layout template is removed from all others.
+-->
 Si tiene más de 2000 usuarios para asignar a una plantilla de diseño, le recomendamos que realice una de las siguientes acciones:
 
 * Organice los usuarios en grupos o equipos y asigne la plantilla de diseño a esos grupos o equipos. Para obtener más información, consulte [Crear un grupo](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md) y [Crear y administrar equipos](../../../people-teams-and-groups/create-and-manage-teams/create-and-mange-teams.md).
