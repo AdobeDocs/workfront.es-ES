@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 8eb9dcaf-bba3-466d-b06d-5383991bc4ea
-source-git-commit: c362c62855c71022c4bc6b3abc22ba4ea83b1b24
+source-git-commit: fbe5373ebe1c73db656384da8a339d0983215e4e
 workflow-type: tm+mt
-source-wordcount: '652'
+source-wordcount: '651'
 ht-degree: 15%
 
 ---
@@ -64,7 +64,7 @@ Puede filtrar las tareas y los problemas que se le hayan asignado.
 {{step1-to-priorities}}
 
 1. Haga clic en **Filtros** en la parte superior izquierda de la lista de trabajos.
-1. haga clic en **Filtros estándar**.
+1. Haga clic en **Filtros estándar**.
 1. Seleccione uno o varios filtros para reducir los elementos de trabajo.
    ![Filtro](assets/filter-new.png)
 
@@ -93,8 +93,9 @@ Puede filtrar las tareas y los problemas que se le hayan asignado.
       <td>Sin preparar</td>
       <td>Muestra elementos que tienen
        <ul>
-      <li>Predecesoras incompletas o delimitaciones de tareas que impiden trabajar en el elemento</li>
+      <li>Predecesoras incompletas o delimitaciones de tareas que impiden trabajar en el elemento</li></ul>
       <p>o</p>
+      <ul>
       <li>La fecha planificada de inicio es dentro de más de dos semanas</li>
       </ul>
        </td>
@@ -143,7 +144,7 @@ Utilice un lenguaje natural para filtrar rápidamente el trabajo.
 1. Haga clic en **Filtros inteligentes**.
 1. Escriba cómo desea filtrar su trabajo.
 
-   Puede escribir cosas como
+   Puede escribir cosas como:
 
    * Mostrarme las tareas atrasadas
    * Mostrar mis prioridades principales
