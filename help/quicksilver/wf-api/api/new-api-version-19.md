@@ -6,16 +6,17 @@ description: Adobe Workfront publicó la versión 19 de la API el 6 de abril de 
 author: Becky
 feature: Workfront API
 role: Developer
-source-git-commit: 13910328903744aa9bf619e8b4c376520c21b89e
+exl-id: 84909dea-7ce1-4ad3-90f5-9dbdb354eaa4
+source-git-commit: 1c1f9f46ea25ffa7d01c1a762b0478a5edb3339e
 workflow-type: tm+mt
 source-wordcount: '970'
-ht-degree: 0%
+ht-degree: 49%
 
 ---
 
 # Novedades de la versión 19 de la API
 
-Adobe Workfront publicó la versión 19 de la API el 8 de abril de 2024. La versión 19 de la API incorpora los siguientes cambios con respecto a la versión 18.
+Adobe Workfront publicó la versión 19 de la API el martes, 08 de abril de 2024. La versión 19 de la API incorpora los siguientes cambios con respecto a la versión 18.
 
 ## Recursos añadidos
 
@@ -38,7 +39,7 @@ Un objeto AccessLevel está asociado a los usuarios y describe el conjunto de Ac
       <td>
         <ul>
           <li>
-            <p><b>accessRestrictions</b><p>Se agregaron los siguientes valores posibles:
+            <p><b>accessRestrictions</b><p>Se añadieron los siguientes valores posibles:
             </p>
             <ul>
               <li>
@@ -53,7 +54,7 @@ Un objeto AccessLevel está asociado a los usuarios y describe el conjunto de Ac
   </tbody>
 </table>
 
-### Asignación (ASIGNAR)
+### Asignación (ASSGN)
 
 Un objeto Assignment representa la conexión entre un elemento de trabajo y el usuario, equipo o grupo asignado para trabajar en él.
 
@@ -110,7 +111,7 @@ El objeto Assignment agregó el indicador **DATA_EXTENDIBLE**.
 
 ### Categoría (CTGY)
 
-Un objeto Category es un formulario personalizado.
+Un objeto de categoría es un formulario personalizado.
 
 <table>
   <tbody>
@@ -119,21 +120,21 @@ Un objeto Category es un formulario personalizado.
       <td>Se han agregado los siguientes campos para admitir la capacidad de agregar un formulario personalizado a una asignación.
         <ul>
           <li>
-            <p><b>catObjCode</b><p>Se agregaron los siguientes valores posibles:
+            <p><b>catObjCode</b><p>Se añadieron los siguientes valores posibles:
             </p>
             <ul>
               <li>
-                <p>Asignación (ASIGNAR)
+                <p>Asignación (ASSGN)
                 </p>
               </li>
              </ul>
           </li>
           <li>
-            <p><b>objTypes</b><p>Se agregaron los siguientes valores posibles:
+            <p><b>objTypes</b><p>Se añadieron los siguientes valores posibles:
             </p>
             <ul>
               <li>
-                <p>Asignación (ASIGNAR)
+                <p>Asignación (ASSGN)
                 </p>
               </li>
              </ul>
@@ -167,7 +168,7 @@ Un clasificador es una ubicación.
 
 ### Cliente
 
-Un objeto Customer representa una organización que utiliza una instancia de Workfront.
+Un objeto de cliente representa a una organización que utiliza una instancia de Workfront.
 
 <table>
   <tbody>
@@ -176,7 +177,7 @@ Un objeto Customer representa una organización que utiliza una instancia de Wor
       <td>
         <ul>
           <li>
-            <p><b>customEnumTypes</b><p>Se agregaron los siguientes valores posibles:
+            <p><b>customEnumTypes</b><p>Se añadieron los siguientes valores posibles:
             </p>
             <ul>
               <li>
@@ -193,7 +194,7 @@ Un objeto Customer representa una organización que utiliza una instancia de Wor
 </table>
 
 
-### Preferencias del cliente (CUSTPR)
+### CustomerPreferences (CUSTPR)
 
 Un objeto CustomerPreferences representa el conjunto de preferencias que un cliente ha establecido para su instancia de Workfront.
 
@@ -220,9 +221,9 @@ Un objeto CustomerPreferences representa el conjunto de preferencias que un clie
 </table>
 
 
-### Documento (DOCU)
+### Document (DOCU)
 
-Un objeto Document representa un archivo (como material escrito, imágenes u otras formas de información).
+Un objeto de documento representa un archivo (como material escrito, imágenes u otras formas de información).
 
 <table>
   <tbody>
@@ -242,7 +243,7 @@ Un objeto Document representa un archivo (como material escrito, imágenes u otr
 </table>
 
 
-### Tipo de cambio (EXRATE)
+### ExchangeRate (EXRATE)
 
 Un objeto ExchangeRate representa un tipo de cambio de divisa configurado en Workfront. Los objetos ExchangeRate no son dinámicos.
 
@@ -254,7 +255,7 @@ Un objeto ExchangeRate representa un tipo de cambio de divisa configurado en Wor
       <ul>
       <li>Los siguientes campos han agregado el validador <code>REQUIRED</code>:
         <ul>
-          <li><p><b>moneda</b></li>
+          <li><p><b>currrency</b></li>
           <li><p><b>clasificar</b></li></ul>
       <li>Se han añadido los campos siguientes:
         <ul>
@@ -328,9 +329,9 @@ Un objeto Hour representa una hora registrada por un usuario en una plantilla de
   </tbody>
 </table>
 
-### Entrada de diario (JRNLE)
+### JournalEntry (JRNLE)
 
-El objeto JournalEntry se puede configurar para que registre información sobre campos de objeto específicos cada vez que se modifiquen dichos campos. Cuando un campo está configurado para registrarse como parte del objeto Entrada de cuaderno, se creará una Entrada de cuaderno correspondiente cada vez que se modifique ese campo.
+El objeto JournalEntry se puede configurar para que registre información sobre campos de objeto específicos cada vez que se modifiquen dichos campos. Cuando un campo está configurado para registrarse como parte del objeto Entrada de cuaderno, se creará una entrada de cuaderno correspondiente cada vez que se modifique ese campo.
 
 <table>
   <tbody>
@@ -339,7 +340,7 @@ El objeto JournalEntry se puede configurar para que registre información sobre 
       <td>
         <ul>
           <li>
-            <p><b>banderas</b><p>Se agregaron los siguientes valores posibles:
+            <p><b>banderas</b><p>Se añadieron los siguientes valores posibles:
             </p>
             <ul>
               <li>
@@ -407,9 +408,9 @@ Un objeto Parameter es un campo personalizado.
   </tbody>
 </table>
 
-### Rol (ROLE)
+### Función (ROLE)
 
-Un objeto Role (función del puesto) representa una capacidad funcional o un conjunto de aptitudes que un usuario podría completar, como Designer o Product Manager.
+Un objeto Role (función) representa una capacidad funcional o un conjunto de aptitudes que un usuario podría completar, como un diseñador o un gestor de productos.
 
 <table>
   <tbody>
@@ -437,7 +438,7 @@ Un objeto Role (función del puesto) representa una capacidad funcional o un con
 
 ### ScoreCardQuestion {#scorecardquestion}
 
-Un objeto ScoreCardQuestion representa una pregunta que se ha agregado a un informe de valoración. Estas preguntas suelen ser determinadas por el gestor del Portfolio, y sus respuestas le permiten comprender cómo se ajusta un proyecto a los objetivos del portafolio.
+Un objeto ScoreCardQuestion representa una pregunta que se ha añadido a un informe de valoración. Estas preguntas suelen ser determinadas por el responsable del portafolio, y sus respuestas le permiten comprender cómo se ajusta un proyecto a las metas del portafolio.
 
 <table>
   <tbody>
@@ -505,7 +506,7 @@ El objeto TemplateAssignment agregó el indicador **DATA_EXTENDIBLE**.
   </tbody>
 </table>
 
-### Hoja de horas (TSHET)
+### Plantilla de horas (TSHET)
 
 Un objeto Timesheet representa un parte de horas virtual que permite a los usuarios especificar horas trabajadas reales para tareas, proyectos y tipos de horas generales.
 
@@ -522,5 +523,3 @@ Un objeto Timesheet representa un parte de horas virtual que permite a los usuar
       </td>
   </tbody>
 </table>
-
-
