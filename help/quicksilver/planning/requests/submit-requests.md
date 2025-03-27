@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
-source-git-commit: a3c82d8be6945a91a249d64923c6377a5edfa268
+source-git-commit: a8d2447eea4ca8d814035d183f40921cad49a0d8
 workflow-type: tm+mt
-source-wordcount: '1828'
+source-wordcount: '1878'
 ht-degree: 8%
 
 ---
@@ -28,7 +28,10 @@ Después de que un administrador de espacio de trabajo cree un formulario de sol
 
 Puede enviar una solicitud de Workfront Planning desde las siguientes áreas:
 
-* Desde el área de Solicitudes de Workfront o desde un vínculo directo al formulario de solicitud. En este artículo se describe cómo puede enviar una solicitud para agregar nuevos registros a un tipo de registro desde el área Solicitudes de Workfront o desde un vínculo compartido.
+* Desde el área Solicitudes de Workfront.
+* Desde un vínculo directo al formulario de solicitud compartido.
+
+  En este artículo se describe cómo puede enviar una solicitud para agregar nuevos registros a un tipo de registro desde el área Solicitudes de Workfront o desde un vínculo compartido.
 * <span class="preview">Desde la página de tipo de registro, cuando agregue o solicite un nuevo registro. Para obtener más información, consulte [Crear registros](/help/quicksilver/planning/records/create-records.md).</span>
 
 Los usuarios de Workfront y los usuarios externos pueden enviar solicitudes a los tipos de registros de Planning y crear registros. <!--double check on the external users-->
@@ -212,6 +215,8 @@ Si habilita esta configuración, los formularios de solicitud de Workfront Plann
      >
      >Las notificaciones por correo electrónico y en la aplicación solo son visibles cuando la instancia de Workfront de su organización está integrada en la experiencia unificada de Adobe.
 
+   1. (Opcional) Haga clic en **Ver su solicitud** en el mensaje de confirmación, para abrir la solicitud, o haga clic en el icono **X** para cerrar la confirmación.
+
 1. (Opcional) Haga clic en la ficha **Planificación** del área Solicitudes para ver la solicitud y, a continuación, haga clic en el nombre de la solicitud.
 
    Se abre la página de detalles de la solicitud.
@@ -269,7 +274,13 @@ Si habilita esta configuración, los formularios de solicitud de Workfront Plann
      >
      >Las notificaciones por correo electrónico y en la aplicación solo son visibles cuando la instancia de Workfront de su organización está integrada en la experiencia unificada de Adobe.
 
-1. (Opcional) Haga clic en la ficha **Planificación** del área Solicitudes para ver la solicitud y, a continuación, haga clic en el nombre de la solicitud.
+1. <span class="preview"> (opcional) Haga clic en **Ver su solicitud** para abrir la solicitud en Workfront.</span>
+
+   O
+
+   <span class="preview">Haga clic en [Enviar otra solicitud](https://pulsar.devtest.workfront-dev.com/intake/6740a1ff44bf3a5600cf4481/request) para abrir el formulario de solicitud y agregar una nueva. </span>
+
+1. (Opcional) Haga clic en **Menú principal** > **Solicitudes** > la pestaña **Planificación** para ver su solicitud y, a continuación, haga clic en el nombre de la solicitud.
 
    Se abre la página de detalles de la solicitud.
 

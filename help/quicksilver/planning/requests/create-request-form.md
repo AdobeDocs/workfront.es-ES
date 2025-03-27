@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 4df268c9b5a99991bee3f1862c83fe0079d162c1
+source-git-commit: a8d2447eea4ca8d814035d183f40921cad49a0d8
 workflow-type: tm+mt
-source-wordcount: '2121'
+source-wordcount: '2184'
 ht-degree: 9%
 
 ---
@@ -178,9 +178,11 @@ Para obtener información sobre cómo enviar solicitudes de Workfront Planning, 
    * **Sección predeterminada**: Este es el salto de sección predeterminado que Workfront aplica al formulario de solicitud. Todos los campos de registro se muestran en el área **Sección predeterminada**.
    * Campo **Asunto**: Campo que identificará la solicitud en Workfront. La configuración y el valor del campo Subject no se pueden editar.
 
-     >[!TIP]
+     >[!NOTE]
      >
-     >El campo **Asunto** requiere un valor cuando esté visible en el formulario de solicitud. Sin embargo, puede quitar el campo **Subject** si es necesario, y los solicitantes no lo verán en el formulario cuando envíen la solicitud.
+     >* El campo **Asunto** requiere un valor cuando esté visible en el formulario de solicitud. Sin embargo, puede quitar el campo **Subject** si es necesario, y los solicitantes no lo verán en el formulario cuando envíen la solicitud.
+     >* Cuando falta el campo Subject en un formulario de solicitud, pero hay un campo Name para el nombre del registro futuro, se asigna automáticamente el mismo nombre a la solicitud que al registro creado.
+     >* Cuando faltan los campos Asunto y Nombre en el formulario de solicitud, se asigna un nombre a la solicitud según el siguiente patrón: `< Record name > request form < Entry date of the request >`; el registro se denomina **Sin título**.
 
    * Todos los campos asociados al tipo de registro.
 

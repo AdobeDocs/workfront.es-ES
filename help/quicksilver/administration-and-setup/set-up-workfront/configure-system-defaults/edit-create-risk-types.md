@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: f929806f-9087-4b64-be4b-70bbceaaeab0
-source-git-commit: 609396b2eb6413c8f6e84361757f00c2cc5e3ad6
+source-git-commit: a8d2447eea4ca8d814035d183f40921cad49a0d8
 workflow-type: tm+mt
-source-wordcount: '584'
-ht-degree: 40%
+source-wordcount: '658'
+ht-degree: 37%
 
 ---
 
@@ -21,9 +21,9 @@ ht-degree: 40%
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después de las versiones mensuales en Production, las mismas funciones también están disponibles en el entorno Production para los clientes que habilitaron versiones rápidas. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 Adobe Workfront tiene una serie de tipos de riesgo predeterminados que puede asociar con proyectos en la fase de planificación para identificar posibles obstáculos antes de la aprobación de cualquier trabajo.
 
@@ -93,7 +93,9 @@ Puede hacer lo siguiente para mejorar el número de tipos de riesgo en la instan
 1. Seleccione el tipo de riesgo que desea editar.
 1. Haga clic en el icono **[!UICONTROL Editar]** ![Editar icono](assets/edit-icon.png).
 
-   Se abre el cuadro [!UICONTROL **Editar tipo de riesgo**]. <!--add screen shot-->
+   <span class="preview">Se abre el cuadro [!UICONTROL **Editar tipo de riesgo**].</span>
+
+   ![Editar cuadro de tipo de riesgo](assets/edit-risk-type-box.png)
 
    >[!TIP]
    >
@@ -126,11 +128,18 @@ Puede crear tipos de riesgo, además de los predeterminados.
 {{step-1-to-setup}}
 
 1. Haga clic en **[!UICONTROL Tipos de riesgo]**.
+
 1. Haga clic en **[!UICONTROL Nuevo tipo de riesgo]** para abrir el cuadro [!UICONTROL **Nuevo tipo de riesgo**]
 
    O
 
-   Haga clic en [!UICONTROL **Agregar más tipos de riesgos**] en la esquina inferior izquierda de la lista de tipos de riesgos para agregar tipos de riesgos en línea. <!--add screen shot-->
+   Haga clic en [!UICONTROL **Agregar más tipos de riesgos**] en la esquina inferior izquierda de la lista de tipos de riesgos para agregar tipos de riesgos en línea.
+
+   <span class="preview">Se abre el cuadro **Nuevo tipo de riesgo**. <span>
+
+   ![Nuevo cuadro de tipo de riesgo](assets/new-risk-type-box.png)
+
+
 1. Agregue un **[!UICONTROL Nombre]** (obligatorio) y una **[!UICONTROL Descripción]** (opcional) para el tipo de riesgo.
 
    Hay un límite de 50 caracteres para los campos **[!UICONTROL Nombre]** y **[!UICONTROL Descripción]**.
