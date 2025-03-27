@@ -7,10 +7,10 @@ recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
 exl-id: 59737844-e6ba-4f64-b2cc-a24c91525d37
-source-git-commit: 552e97c427e618f299b55a2eab5868c7b90a4156
+source-git-commit: 4ab8fede74c9e2ec5d374b0766445a2c23430777
 workflow-type: tm+mt
-source-wordcount: '879'
-ht-degree: 31%
+source-wordcount: '534'
+ht-degree: 49%
 
 ---
 
@@ -36,18 +36,12 @@ En esta página se ofrece información sobre la funcionalidad incluida en la ver
 ## Mejoras de Workfront
 
 
-* [Mejoras del administrador](#administrator-enhancements)<!--* [Boards enhancements](#boards-enhancements)-->
-* [Mejoras en la administración de documentos](#document-management-enhancements)
+* [Mejoras en el administrador](#administrator-enhancements)
 
 ### Mejoras en el administrador
 
-<table>
-  <colgroup>
-    <col style="width: 55%;" />
-    <col style="width: 15%;" />
-    <col style="width: 15%;" />
-    <col style="width: 15%;" />
-  </colgroup>
+Versiones mensuales: 14 de noviembre y 12 de diciembre. Enero de 15 | Versión trimestral: enero
+<table style="table-layout:auto">
   <tbody>
     <tr>
         <td>
@@ -66,7 +60,7 @@ En esta página se ofrece información sobre la funcionalidad incluida en la ver
         </td>
         <td>21 de noviembre de 2024</td>
         <td>Diciembre de 2024</td>
-        <td>25,1</td>
+        <td>Enero de 2024 (25.1)</td>
     </tr>     
     <tr>
         <td>
@@ -86,83 +80,13 @@ En esta página se ofrece información sobre la funcionalidad incluida en la ver
             <p>Cuando se agrega una referencia de campo nativo a un formulario personalizado y hace referencia a un campo de escritura anticipada (como Portfolio, Empresa o Propietario), ahora está disponible una opción de filtro. El filtro permite limitar los objetos que los usuarios pueden elegir cuando utilizan el campo. Este filtro personalizado funciona igual que un filtro en un campo de escritura anticipada personalizado, utilizando el modo de texto para definir el filtro.</p>
         </td>
         <td>21 de noviembre</td>
-        <td>25,12</td>
+        <td>Diciembre</td>
         <td>25,1</td>
     </tr>
   </tbody>
 </table>
 
 
-### Mejoras en la administración de documentos
-
-<table>
-  <colgroup>
-    <col style="width: 55%;" />
-    <col style="width: 15%;" />
-    <col style="width: 15%;" />
-    <col style="width: 15%;" />
-  </colgroup>
-  <tbody>
-    <tr>
-        <td>
-            <p><span class="bold">Función</span></p>
-        </td>
-        <td>Vista previa</td>
-        <td>Liberación rápida</td>
-        <td>Trimestralmente</td>
-    </tr>
-    <tr>
-        <td>
-            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            Preferencia para utilizar la programación de proyecto o de usuario para tareas de asignación única</a></p>
-            <p>Como administrador de sistemas o de grupos, ahora tiene una nueva preferencia que indica si Workfront debe utilizar la programación del proyecto o la del usuario para calcular la escala de tiempo del proyecto cuando asigna un usuario a una tarea y tanto el proyecto como el usuario están asociados a una programación.</p>
-        </td>
-        <td><p>16 de noviembre de 2024</p> <p>[!BADGE Nuevo]{type=Negative}<p></td>
-        <td><p>24,12</p></td>
-        <td><p>25,1</p></td>
-    </tr>     
-    <tr>
-        <td>
-            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            Las reglas empresariales ahora admiten hipervínculos</a></p>
-            <p>Ahora puede incluir hipervínculos en el mensaje de error personalizado de una regla de negocio para guiar al usuario sobre cómo modificar su acción dentro de la restricción de la regla. La URL estática podría vincularse a la documentación u otras páginas que resultarían útiles para el usuario.</p>
-        </td>
-        <td><p>14 de noviembre</p> </td>
-        <td><p>Diciembre de 2024</p> <p> [!BADGE Disponible ]{type=Positive}</p></td>
-        <td><p>25,1</p> </td>
-    </tr>    
-    <tr>
-        <td>
-            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            Icono "Mover a" añadido a los campos personalizados</a></p>
-            <p>Cuando un formulario personalizado contiene varias secciones con muchos campos, puede resultar difícil mover un campo de una sección a otra arrastrando y soltando. Se ha agregado un icono "mover a" a cada campo, que le permite seleccionar la sección en la que se coloca el campo.</p>
-        </td>
-        <td><p>5 de diciembre</p></td>
-          <td><p>15 de diciembre</p><p> [!BADGE Disponible ]{type=Positive}</p></td>
-        <td><p>15 de diciembre</p> <p> [!BADGE Disponible ]{type=Positive}</p> <p>[!BADGE Fuera de ciclo ]{type=Caution}</p></td>
-    </tr>
-    <tr>
-        <td>
-            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            Icono "Mover a" añadido a los campos personalizados</a></p>
-            <p>Cuando un formulario personalizado contiene varias secciones con muchos campos, puede resultar difícil mover un campo de una sección a otra arrastrando y soltando. Se ha agregado un icono "mover a" a cada campo, que le permite seleccionar la sección en la que se coloca el campo.</p>
-        </td>
-        <td><p>5 de diciembre</p><p>[!BADGE Fuera de ciclo ]{type=Caution}</p></td>
-          <td><p>15 de diciembre</p><p> [!BADGE Disponible ]{type=Positive}</p></td>
-        <td><p>15 de diciembre</p> <p> [!BADGE Disponible ]{type=Positive}</p></td>
-    </tr>
-    <tr>
-        <td>
-            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            Icono "Mover a" añadido a los campos personalizados</a></p>
-            <p>Cuando un formulario personalizado contiene varias secciones con muchos campos, puede resultar difícil mover un campo de una sección a otra arrastrando y soltando. Se ha agregado un icono "mover a" a cada campo, que le permite seleccionar la sección en la que se coloca el campo.</p>
-        </td>
-        <td><p>1 de noviembre</p></td>
-          <td><p>24,11</p><p> [!BADGE Disponible ]{type=Positive}</p></td>
-        <td><p>25,1</p> <p> [!BADGE Disponible ]{type=Positive}</p></td>
-    </tr>
-  </tbody>
-</table>
 
 <!--
 ### Functionality soon to be removed from Workfront
