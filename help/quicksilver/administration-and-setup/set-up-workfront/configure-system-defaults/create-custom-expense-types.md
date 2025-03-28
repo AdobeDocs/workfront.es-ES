@@ -8,14 +8,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 7b76b9e8-fbb8-45a7-9e26-1ddc6d5176d8
-source-git-commit: caaba90f4cdd835e1a1fddf16bcefa30995cca0d
+source-git-commit: ff4a9b317bd75b298a7a39814b4ae265c92c6d2a
 workflow-type: tm+mt
 source-wordcount: '412'
-ht-degree: 4%
+ht-degree: 18%
 
 ---
 
 # Crear tipos de gastos personalizados
+
+{{highlighted-preview}}
 
 <!--**DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
 
@@ -41,23 +43,23 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
    <td role="rowheader">[!DNL Adobe Workfront] licencia</td> 
    <td><p>Nuevo: [!UICONTROL Standard]</p>
    O
-   <p>Actual: [!UICONTROL plan]</p>
+   <p>Actual: [!UICONTROL Plan]</p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso</td> 
-   <td>[!UICONTROL Administrador del sistema]</td>
+   <td>[!UICONTROL System Administrator]</td>
   </tr>
  </tbody> 
 </table>
 
-Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Tipos de gastos predeterminados
 
-Los tipos de gastos que se encuentran en [!DNL Workfront] de manera predeterminada no se pueden eliminar ni editar; incluyen los siguientes:
+Los tipos de gastos predeterminados en [!DNL Workfront] que no se pueden eliminar ni editar incluyen los siguientes:
 
 * [!UICONTROL Advertising]
 * [!UICONTROL Consultoría]
@@ -72,18 +74,18 @@ Los tipos de gastos que se encuentran en [!DNL Workfront] de manera predetermina
 
 1. Haga clic en **[!UICONTROL Tipos de gastos]**.
 1. Haga clic en **[!UICONTROL Nuevo tipo de gasto]**.
-1. En el cuadro **[!UICONTROL Nuevo tipo de gasto]** que se muestra, especifique la siguiente información:
+1. En el cuadro de diálogo **[!UICONTROL Nuevo tipo de gasto]**, especifique la siguiente información:
 
    <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[!UICONTROL Nombre]</td> 
+      <td role="rowheader">[!UICONTROL Name]</td> 
       <td>Especifique un nombre para el gasto.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL Descripción]</td> 
+      <td role="rowheader">[!UICONTROL Description]</td> 
       <td>Especifique una descripción para el gasto.</td> 
      </tr> 
      <tr> 
@@ -106,7 +108,8 @@ Los tipos de gastos que se encuentran en [!DNL Workfront] de manera predetermina
     </tbody> 
    </table>
 
-1. Haga clic en **[!UICONTROL Crear tipo de gasto]**.\
+1. Haga clic en **Crear tipo de gasto** <span class="preview">o en **[!UICONTROL Guardar]**.</span>
+
    El tipo de gasto ya está disponible para que los usuarios lo asocien con sus gastos en proyectos y tareas.
 
 ## Modificar tipos de gastos personalizados
@@ -116,9 +119,10 @@ Los tipos de gastos que se encuentran en [!DNL Workfront] de manera predetermina
 1. Haga clic en **[!UICONTROL Tipos de gastos]**.
 1. Seleccione el tipo de gasto que desea modificar y luego haga clic en **[!UICONTROL Editar]**.
 
-   Se muestra el cuadro de diálogo **[!UICONTROL Editar tipo de gasto]**.
+   Aparece el cuadro de diálogo **[!UICONTROL Editar tipo de gasto]**.
 
-1. Realice los cambios que desee y luego haga clic en **[!UICONTROL Guardar cambios]**.\
+1. Realice los cambios que desee y, a continuación, haga clic en **Guardar cambios** <span class="preview">o en **[!UICONTROL Guardar]**.</span>
+
    El tipo de gasto ya está disponible para que los usuarios lo asocien con sus gastos en proyectos y tareas.
 
 Para obtener más información sobre cómo usar gastos y cómo pueden afectar al costo de un proyecto, vea el artículo [Administrar gastos de proyecto](../../../manage-work/projects/project-finances/manage-project-expenses.md).
