@@ -7,9 +7,9 @@ description: Esta página contiene información sobre la estructura y el conteni
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 57985404-554e-4289-b871-b02d3427aa5c
-source-git-commit: 9caac488522d2a12d3bdf4bf23ba7e44c6dbf7d2
+source-git-commit: eccc878f4b6fdeeffbcd5635b80ac3e26f7fb8c6
 workflow-type: tm+mt
-source-wordcount: '4609'
+source-wordcount: '4719'
 ht-degree: 4%
 
 ---
@@ -172,8 +172,8 @@ La siguiente tabla correlaciona los nombres de objetos en Workfront (así como s
         <td>Self<br>CATEGORIES_CURRENT | CATEGORYID<br>EXCHANGERATES_CURRENT | EXCHANGERATEID <br>Actualmente no se admite la tabla de facturas <br>USERS_CURRENT | USERID <br>PROYECTOS_ACTUALES | PROJECTID   <br>No es una relación; se usa con fines de aplicación interna</td>
     </tr>
     <tr>
-        <td>Reservas</td>
-        <td>Reservas</td>
+        <td>Reserva</td>
+        <td>Reserva</td>
         <td>RESERVA | Reserva</td>
         <td>BOOKINGS_CURRENT<br>BOOKINGS_DAILY_HISTORY<br>EVENTO_BOOKINGS</td>
         <td>BOOKINGID (self)<br>ENTEREDBYID<br>LASTUPDATEDBYID<br>NLBRCATEGORYID<br>NONLABORRESOURCEID<br>OBJID<br>PROJECTID<br>SYSID<br>TASKID<br>TEMPLATEID<br>TEMPLATETASKID<br>TOPOBJID</td>
@@ -257,7 +257,7 @@ La siguiente tabla correlaciona los nombres de objetos en Workfront (así como s
         <td>DOCAPL | Aprobación de documento</td>
         <td>DOCAPPROVALS_CURRENT<br>DOCAPPROVALS_DAILY_HISTORY<br>DOCAPPROVALS_EVENT</td>
         <td>APPROVERID<br>DOCAPPROVALID (self)<br>DOCUMENTID<br>NOTEID<br>REQUESTORID<br>SYSID</td>
-        <td>USERS_CURRENT | USERID <br>Self<br>DOCUMENTS_CURRENT | DOCUMENTID<br>NOTES_CURRENT | NOTEID<br>USERS_CURRENT | USERID <br>No es una relación; se usa con fines de aplicación interna</td>
+        <td>USERS_CURRENT | USERID  <br>Self<br>DOCUMENTS_CURRENT | DOCUMENTID<br>NOTES_CURRENT | NOTEID<br>USERS_CURRENT | IDENTIFICADOR DE  <br>USUARIO No es una relación sentimental; se utiliza con fines aplicación internos</td>
     </tr>
     <tr>
         <td>Carpeta de documentos</td>
@@ -460,7 +460,7 @@ La siguiente tabla correlaciona los nombres de objetos en Workfront (así como s
         <td>PARAMETERS_CURRENT | PARAMETERID <br>Self <br>No es una relación; se usa con fines de aplicación interna  </td>
     </tr>
     <tr>
-        <td>Sección de portal</td>
+        <td>Sección Portal</td>
         <td>Informe</td>
         <td>PTLSEC | Informe</td>
         <td>PORTALSECTIONS_CURRENT<br>PORTALSECTIONS_DAILY_HISTORY<br>PORTALSECTIONS_EVENT</td>
@@ -495,7 +495,7 @@ La siguiente tabla correlaciona los nombres de objetos en Workfront (así como s
         <td>Portafolio</td>
         <td>Portafolio</td>
         <td>PUERTO | Portfolio</td>
-        <td>PORTFOLIO_ACTUALES<br>PORTFOLIO_DAILY_HISTORY<br>PORTFOLIO_EVENT<br>PORTFOLIO_CUSTOM_VALUE_CURRENT<br>PORTFOLIO_CUSTOM_VALUE_DAILY_HISTORY<br>PORTFOLIO_CUSTOM_VALUE_EVENT</td>
+        <td>PORTFOLIOS_CURRENT<br>PORTFOLIOS_DAILY_HISTORY<br>PORTFOLIOS_EVENT<br>PORTFOLIOS_CUSTOM_VALUE_CURRENT<br>PORTFOLIOS_CUSTOM_VALUE_DAILY_HISTORY<br>PORTFOLIOS_CUSTOM_VALUE_EVENT</td>
         <td>ALIGNMENTSCORECARDID<br>CATEGORYID<br>ENTEREDBYID<br>GROUPID<br>LASTUPDATEDBYID<br>OWNERID<br>PORTFOLIOID</td>
         <td>No se admite la tabla de cuadro de mando actualmente<br>CATEGORIES_CURRENT | CATEGORYID<br>USER_CURRENT | USERID<br>GROUP_CURRENT | GROUPID<br>USER_CURRENT | USERID<br>USER_CURRENT | USERID<br>Self</td>
     </tr>
@@ -540,10 +540,10 @@ La siguiente tabla correlaciona los nombres de objetos en Workfront (así como s
         <td>PROJECTS_CURRENT | IDPROYECTO<br>Self<br>ROLES_CURRENT | ROLEID<br>No es una relación; se usa para aplicaciones internas<br>USERS_CURRENT | USERID</td>
     </tr>
     <tr>
-        <td>RateCard</td>
+        <td>Tarjeta de tarifa</td>
         <td>Tarjeta de tarifas</td>
-        <td>CRTR |Tarjeta de tarifa</td>
-        <td>RATECARD_CURRENT<br>RATECARD_DAILY_HISTORY<br>RATECARD_EVENT</td>
+        <td>RTCRD |Tarjeta de tarifas</td>
+        <td><br>RATECARD_CURRENT RATECARD_DAILY_HISTORY<br>RATECARD_EVENT</td>
         <td>CATEGORYID<br>ENTEREDBYID<br>LASTUPDATEDBYID <br>RATECARDID (self) <br>SECURITYROOTID <br>SOURCEID<br>SYSID</td>
         <td>CATEGORYID<br>USERS_CURRENT | USERID <br>USERS_CURRENT | USERID    <br>Self<br>Id. del objeto identificado en el campo SECURITYOBJCODE <br>Id. del objeto identificado en el campo SOURCEOBJCODE<br>No es una relación; se usa para fines de aplicación interna  </td>
     </tr>
@@ -622,7 +622,7 @@ La siguiente tabla correlaciona los nombres de objetos en Workfront (así como s
     <tr>
         <td>Tipo de riesgo</td>
         <td>Tipo de riesgo</td>
-        <td>RSKTYPE | Tipo de riesgo</td>
+        <td>RSKTYP | Tipo de riesgo</td>
         <td>RISKTYPES_CURRENT<br>RISKTYPES_DAILY_HISTORY<br>RISKTYPES_EVENT</td>
         <td>RISKTYPEID<br>SYSID</td>
         <td>Self<br>No es una relación; se usa con fines de aplicación interna</td>
@@ -723,12 +723,28 @@ La siguiente tabla correlaciona los nombres de objetos en Workfront (así como s
         <td>PREDECESSORID<br>SUCCESSORID <br>TEMPLATEPREDECESSORID (self)<br>SYSID</td>
         <td>TEMPLATETASKS_CURRENT |TEMPLATETASKID<br>TEMPLATETASKS_CURRENT |TEMPLATETASKID <br>Self<br>No es una relación; se usa con fines de aplicación interna</td>
     </tr>
+       <tr>
+        <td>Divisa de KPI de fase temporal (disponibilidad limitada del cliente)</td>
+        <td>KPI de fase temporal</td>
+        <td>TMPH | TimePhasedKPI</td>
+        <td>TIMESHEETS_CURRENT<br>TIMESHEETS_DAILY_HISTORY<br>EVENTO_DE_HOJAS DE HORAS</td>
+        <td>APPROVERID<br>LASTNOTEID<br>LASTUPDATEDBYID<br>TIMESHEETID<br>TIMESHEETPROFILEID<br>USERID</td>
+        <td>USER_CURRENT | USERID<br>NOTE_CURRENT | NOTEID<br>USER_CURRENT | USERID<br>Self<br>TIMESHEETPROFILES_CURRENT | TIMESHEETPROFILEID<br>USER_CURRENT | USERID</td>
+    </tr>
+        <tr>
+        <td>Duración de KPI por fases (disponibilidad limitada del cliente)</td>
+        <td>KPI de fase temporal</td>
+        <td>TMPH | TimePhasedKPI</td>
+        <td>TIMEPHASED_DURATION_CURRENT<br>TIMEPHASED_DURATION_DAILY_HISTORY<br>TIMEPHASED_DURATION_EVENT</td>
+        <td>ASSIGNMENTID<br>GROUPID<br>LOCATIONID<br>OPTASKID<br>PORTFOLIOID<br>PROGRAMID<br>PROJECTID<br>REFERENCEID<br>ROLEID<br>SOURCETASKID<br>TASKID<br>TIMEPHASEDDURATIONID (self)<br>USERID</td>
+        <td>ASSIGNMENTS_CURRENT | ASSIGNMENTID<br>GROUPS_CURRENT | GROUPID<br>CLASSIFIER_CURRENT | CLASSIFIERID<br>OPTASKS_CURRENT | OPTASKID<br>PORTFOLIOS_CURRENT | PORTFOLIOID<br>PROGRAMS_CURRENT | PROGRAMID<br>PROJECTS_CURRENT | PROJECTID<br>Identifica al sujeto del registro KPI<br>ROLES_CURRENT | ROLEID<br>TASKS_CURRENT | TASKID<br>TASKS_CURRENT | TASKID<br>Self<br>USERS_CURRENT | USERID</td>
+    </tr>
     <tr>
         <td>Plantilla de horas</td>
         <td>Plantilla de horas</td>
-        <td>HOJA TSHET | Hoja de horas</td>
-        <td>TIMESHEETS_CURRENT<br>TIMESHEETS_DAILY_HISTORY<br>EVENTO_DE_HOJAS DE HORAS</td>
-        <td>APPROVERID<br>LASTNOTEID<br>LASTUPDATEDBYID<br>TIMESHEETID<br>TIMESHEETPROFILEID<br>USERID</td>
+        <td>TMPH | TimePhasedKPI</td>
+        <td>TIMEPHASED_CURRENCY_CURRENT<br>TIMEPHASED_CURRENCY_DAILY_HISTORY<br>TIMEPHASED_CURRENCY_EVENT</td>
+        <td>ASSIGNMENTID<br>GROUPID<br>LOCATIONID<br>OPTASKID<br>PORTFOLIOID<br>PROGRAMID<br>PROJECTID<br>REFERENCEID<br>ROLEID<br>SOURCETASKID<br>TASKID<br>TIMEPHASEDCURRENCYID (self)<br>USERID</td>
         <td>USER_CURRENT | USERID<br>NOTE_CURRENT | NOTEID<br>USER_CURRENT | USERID<br>Self<br>TIMESHEETPROFILES_CURRENT | TIMESHEETPROFILEID<br>USER_CURRENT | USERID</td>
     </tr>
     <tr>
@@ -737,7 +753,7 @@ La siguiente tabla correlaciona los nombres de objetos en Workfront (así como s
         <td>TSPRO | Perfil de hoja de horas</td>
         <td>TIMESHEETPROFILES_CURRENT<br>TIMESHEETPROFILES_DAILY_HISTORY<br>TIMESHEETPROFILES_EVENT</td>
         <td>APPROVERID<br>ENTEREDBYID <br>GROUPID<br>SYSID<br>TIMESHEETPROFILEID (self)</td>
-        <td>USERS_CURRENT | USERID<br>USERS_CURRENT | USERID <br>GROUPS_CURRENT | GROUPID<br>No es una relación; se usa con fines de aplicación interna<br>Self</td>
+        <td>ASSIGNMENTS_CURRENT | ASSIGNMENTID<br>GROUPS_CURRENT | GROUPID<br>CLASSIFIER_CURRENT | CLASSIFIERID<br>OPTASKS_CURRENT | OPTASKID<br>PORTFOLIOS_CURRENT | PORTFOLIOID<br>PROGRAMS_CURRENT | PROGRAMID<br>PROJECTS_CURRENT | PROJECTID<br>Identifica al sujeto del registro KPI<br>ROLES_CURRENT | ROLEID<br>TASKS_CURRENT | TASKID<br>TASKS_CURRENT | TASKID<br>Self<br>USERS_CURRENT | USERID</td>
     </tr>
     <tr>
         <td>Filtro de IU</td>
