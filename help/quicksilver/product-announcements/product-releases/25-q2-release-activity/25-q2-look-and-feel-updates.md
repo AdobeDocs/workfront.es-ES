@@ -5,10 +5,10 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: aeb16dc5-d17d-40bc-a32a-de6d47b43817
-source-git-commit: 9b1514ac84692703aa1938c306ff5680d7c9f74f
+source-git-commit: 69f9797b5427a5dd72b7b8531cd5aa41013b3d5d
 workflow-type: tm+mt
-source-wordcount: '682'
-ht-degree: 14%
+source-wordcount: '747'
+ht-degree: 13%
 
 ---
 
@@ -18,19 +18,16 @@ En esta página se describen actualizaciones menores en la apariencia de varias 
 
 Para obtener una lista de todos los cambios disponibles con la versión del segundo trimestre de 2025, consulte [Información general sobre la versión del segundo trimestre de 2025](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-release-overview.md).
 
-<!--
-
-## Updated experience in the Access Levels area in Setup
+## Experiencia actualizada en el área de Niveles de acceso de la Configuración
 
 >[!NOTE]
 >
->Preview release: March 27, 2025; Production release for all customers: With the 25.4 release (April 10, 2025)
+>Versión de vista previa: 27 de marzo de 2025; versión de producción para todos los clientes: con la versión 25.4 (10 de abril de 2025)
 
-To enhance performance, we've made some visual updates to the Access Levels area in Setup.
+Para mejorar el rendimiento, hemos realizado algunas actualizaciones visuales en el área de Niveles de acceso de la Configuración.
 
-A small functionality change has been applied to the Access Levels list. To copy, edit, or delete an access level, select the level and click the appropriate icon.
+Se ha aplicado un pequeño cambio de funcionalidad a la lista Niveles de acceso. Para copiar, editar o eliminar un nivel de acceso, seleccione el nivel y haga clic en el icono correspondiente.
 
--->
 
 ## Actualizaciones de aspecto y funcionamiento de los cuadros de diálogo Tipos de gastos
 
