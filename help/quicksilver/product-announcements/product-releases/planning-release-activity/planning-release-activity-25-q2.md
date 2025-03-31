@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 99ac8d30-7cf8-4343-b11c-fe650ba024ff
-source-git-commit: e8751b8e33ce99d56f816f12b065482c4deb7fbd
+source-git-commit: 4b5248f667648543263073022ae10336fb022f97
 workflow-type: tm+mt
-source-wordcount: '2166'
+source-wordcount: '2208'
 ht-degree: 2%
 
 ---
@@ -28,11 +28,14 @@ Para obtener una lista de todas las características publicadas para Adobe Workf
 >
 >Vista previa: 27 de marzo de 2025; producción para todos los clientes: 10 de abril de 2025
 
-Ahora puede abrir una nueva solicitud inmediatamente después de enviarla desde las siguientes áreas:
+Hemos mejorado la forma en que se accede a una solicitud que se envía en Workfront Planning.
+Hemos agregado el vínculo &quot;Ver su solicitud&quot; que puede utilizar para ir a la página de detalles de la solicitud que acaba de enviar.
 
-* el formulario de solicitud después de acceder a él desde un vínculo compartido
-* la página de tipo de registro de los botones Nuevo registro o Solicitar registro
-* el área Solicitudes del menú principal
+El nuevo vínculo está disponible después de enviar una solicitud desde las siguientes áreas:
+
+* Desde un vínculo compartido
+* Desde el botón Nuevo registro o Solicitar registro de la página de tipo de registro
+* En el área Solicitudes, después de habilitar la nueva experiencia para enviar solicitudes.
 
 Para obtener más información, consulte [Enviar solicitudes de Adobe Workfront Planning para crear registros](/help/quicksilver/planning/requests/submit-requests.md).
 

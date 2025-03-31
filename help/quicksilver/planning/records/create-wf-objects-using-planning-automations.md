@@ -1,14 +1,12 @@
 ---
 title: Creación de objetos de Workfront mediante automatizaciones de registros de Planning de Adobe Workfront
 description: Puede configurar automatizaciones en Adobe Workfront Planning que, cuando estén activadas, creen objetos en Workfront o registros en Workfront Planning. Los objetos y registros creados se conectan automáticamente a los registros existentes de Planning. En este artículo se describe cómo administrar las automatizaciones, incluido cómo editarlas, deshabilitarlas, eliminarlas y almacenarlas en déclencheur para crear objetos y registros.
-hide: true
-hidefromtoc: true
 feature: Workfront Planning
 role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: c669217a-40e2-471f-951d-93157a34f1ee
-source-git-commit: 89b2e3547387397279cce751dd7c84d8174532b5
+source-git-commit: 585a65c497211c84cffafeeaa5016218fd66acd2
 workflow-type: tm+mt
 source-wordcount: '2197'
 ht-degree: 6%

@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
+source-git-commit: 4b5248f667648543263073022ae10336fb022f97
 workflow-type: tm+mt
-source-wordcount: '2418'
+source-wordcount: '2419'
 ht-degree: 29%
 
 ---
@@ -206,7 +206,7 @@ Los usuarios con permisos de tipo Contribuir y Administrar en el área de trabaj
    La página de tipo de registro se abre en la vista a la que se accedió por última vez. De forma predeterminada, se abre una página de tipo de registro en la vista de tabla.
 Todos los registros del tipo seleccionado se muestran en la vista.
 
-1. Desde cualquier vista, haga clic en lo siguiente en la esquina superior derecha de la pantalla, según los permisos del área de trabajo <!--<span class="preview">and record type</span>-->:
+1. (Condicional) Desde cualquier vista, haga clic en lo siguiente en la esquina superior derecha de la pantalla, según los permisos del área de trabajo <!--<span class="preview">and record type</span>-->:
 
    * Haga clic en **Nuevo registro**, si tiene permisos de Contribute o superior en el área de trabajo <!--<span class="preview">and record type</span>-->
 
