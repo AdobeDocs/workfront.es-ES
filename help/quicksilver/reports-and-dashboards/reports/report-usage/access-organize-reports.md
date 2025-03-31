@@ -6,10 +6,10 @@ description: Los informes se pueden usar en Adobe Workfront para revisar o edita
 author: Nolan
 feature: Reports and Dashboards
 exl-id: a444d863-12a8-43d0-ae84-ee24863ad87b
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: da574efdede5aee34518f251cabdfe96983a69eb
 workflow-type: tm+mt
-source-wordcount: '514'
-ht-degree: 93%
+source-wordcount: '520'
+ht-degree: 87%
 
 ---
 
@@ -88,10 +88,15 @@ Puede utilizar carpetas para organizar los informes que cree. No puede organizar
    O\
    Haga clic en cualquier carpeta anidada en la carpeta **Mis informes**.
 
-1. Arrastre un informe de la lista de informes hasta la carpeta en la que desea que se ubique y suéltelo.
+1. Seleccione el informe y luego haga clic en el icono de carpeta ![Icono de carpeta](assets/folder-icon.png) en la parte superior de la lista.
+
+1. Elija la carpeta a la que desea agregar el informe.
+
+   ![Elija una carpeta a la que mover el informe](assets/choose-folder.png)
 
    >[!NOTE]
    >
    >Solo puede mover informes de la carpeta **Mis informes** a otras carpetas anidadas en **Mis informes**. No puede mover informes desde o hasta la carpeta **Compartido conmigo** o **Todos los informes** hasta o desde otras carpetas.
 
-   ![Arrastrar informe a la carpeta](assets/nwe-drag-report-to-folder-350x292.png)
+
+
