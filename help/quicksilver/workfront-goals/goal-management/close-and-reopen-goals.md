@@ -1,19 +1,21 @@
 ---
 product-previous: workfront-goals
 navigation-topic: goal-management
-title: Cerrar y volver a abrir metas en Adobe Workfront Goals
+title: Cerrar y volver a abrir las metas en Adobe Workfront Goals
 description: Puede cerrar un objetivo cuando desee indicar que lo ha completado o que ya no está trabajando en él porque ha quedado obsoleto.
 author: Alina
 feature: Workfront Goals
 exl-id: bbb549c1-aea6-4f5e-8a6b-01fc04cf06ef
-source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
+source-git-commit: 4e1558b47f6041501aa4e4fbfa6317dec8aee571
 workflow-type: tm+mt
-source-wordcount: '952'
-ht-degree: 31%
+source-wordcount: '940'
+ht-degree: 27%
 
 ---
 
 # Cerrar y volver a abrir metas en Adobe Workfront Goals
+
+<!--Audited for P&P only: 4/2025-->
 
 Puede cerrar un objetivo cuando desee indicar lo siguiente:
 
@@ -23,6 +25,8 @@ Puede cerrar un objetivo cuando desee indicar lo siguiente:
 Puede volver a abrir los objetivos que se han cerrado cuando vuelvan a ser relevantes.
 
 ## Requisitos de acceso
+
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
 Debe tener lo siguiente:
 
@@ -54,12 +58,9 @@ Debe tener lo siguiente:
  <tr>
  <td role="rowheader">Producto*</td>
  <td>
- <p> Nuevo requisito de producto, uno de los siguientes: </p>
-<ul>
-<li>Un plan Select or Prime Adobe Workfront y una licencia adicional de Adobe Workfront Goals.</li>
-<li>Un plan Ultimate Workfront que incluye Workfront Goals de forma predeterminada. </li></ul>
+  <p> Nuevo requisito de producto: Workfront</p>
  <p>O</p>
- <p>Requisito de producto actual: un plan de Workfront y una licencia adicional para Adobe Workfront Goals. </p> <p>Para obtener más información, consulte <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requisitos para usar Workfront Goals</a>. </p> </td>
+  <p>Requisito actual del producto: además de una licencia de Workfront, debe adquirir una licencia para Adobe Workfront Goals. </p> <p>Para obtener más información, consulte <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requisitos para usar Workfront Goals</a>. </p> </td>
  </tr>
  <td role="rowheader">Nivel de acceso</td>
  <td> <p>Editar acceso a Goals</p> </td>
@@ -82,6 +83,8 @@ Debe tener lo siguiente:
 </table>
 
 *Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Consideraciones al cerrar o volver a abrir las metas
 

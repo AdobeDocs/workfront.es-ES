@@ -1,24 +1,21 @@
 ---
 product-previous: workfront-goals
 navigation-topic: goal-management
-title: Actualizar metas en el panel Detalles de metas de Adobe Workfront Goals
+title: Actualizar metas en la sección Detalles de las metas de Adobe Workfront Goals
 description: Puede actualizar la información de las metas individuales accediendo al panel Detalles de las metas.
 author: Alina
 feature: Workfront Goals
 exl-id: e9df0d98-05a1-4977-b7f1-426b8f5b3eae
-source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
+source-git-commit: 4e1558b47f6041501aa4e4fbfa6317dec8aee571
 workflow-type: tm+mt
-source-wordcount: '642'
-ht-degree: 30%
+source-wordcount: '630'
+ht-degree: 25%
 
 ---
 
 # Actualice las metas en la sección Detalles de las metas de Adobe Workfront Goals
 
-<!--drafted for the goal redesign:
-- change the title for Production to Update goals in the Goal details section in Adobe Workfront Goals. 
-- update the description in the metadata above
--->
+<!--Audited for P&P only: 4/2025-->
 
 Puede actualizar la información de las metas individuales accediendo al panel Detalles de las metas.
 
@@ -26,8 +23,9 @@ Puede actualizar la información de las metas individuales accediendo al panel D
 >
 >No se pueden actualizar las metas que tengan el estado Cerrado.
 
-
 ## Requisitos de acceso
+
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
 Debe tener lo siguiente:
 
@@ -58,12 +56,9 @@ Debe tener lo siguiente:
  <tr>
  <td role="rowheader">Producto*</td>
  <td>
- <p> Nuevo requisito de producto, uno de los siguientes: </p>
-<ul>
-<li>Un plan Select or Prime Adobe Workfront y una licencia adicional de Adobe Workfront Goals.</li>
-<li>Un plan Ultimate Workfront que incluye Workfront Goals de forma predeterminada. </li></ul>
- <p>O</p>
- <p>Requisito de producto actual: un plan de Workfront y una licencia adicional para Adobe Workfront Goals. </p> <p>Para obtener más información, consulte <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requisitos para usar Workfront Goals</a>. </p> </td>
+  <p> Nuevo requisito de producto: Workfront</p>
+  O
+  <p>Requisito actual del producto: además de una licencia de Workfront, debe adquirir una licencia para Adobe Workfront Goals. </p> <p>Para obtener más información, consulte <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requisitos para usar Workfront Goals</a>. </p> </td>
  </tr>
  <tr>
  <td role="rowheader">Nivel de acceso*</td>
@@ -87,6 +82,8 @@ Debe tener lo siguiente:
 </table>
 
 *Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Actualizar metas en la sección Detalles de las metas
 

@@ -6,14 +6,16 @@ description: Al crear una meta, Adobe Workfront Goals la guarda con el estado de
 author: Alina
 feature: Workfront Goals
 exl-id: fc556073-fe63-4f13-a313-505ca0ef1f9b
-source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
+source-git-commit: 4e1558b47f6041501aa4e4fbfa6317dec8aee571
 workflow-type: tm+mt
-source-wordcount: '501'
-ht-degree: 96%
+source-wordcount: '489'
+ht-degree: 90%
 
 ---
 
 # Activar metas en Adobe Workfront Goals
+
+<!--Audited for P&P only: 4/2025-->
 
 Al crear una meta, Adobe Workfront Goals la guarda con el estado de Borrador. Las metas esbozadas no forman parte de la administración de metas.
 
@@ -27,6 +29,8 @@ Para obtener información sobre cómo crear una meta, consulte [Crear metas en A
 
 
 ## Requisitos de acceso
+
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
 Debe tener lo siguiente:
 
@@ -57,12 +61,9 @@ Debe tener lo siguiente:
  <tr>
  <td role="rowheader">Producto*</td>
  <td>
- <p> Nuevo requisito de producto, uno de los siguientes: </p>
-<ul>
-<li>Un plan Select or Prime Adobe Workfront y una licencia adicional de Adobe Workfront Goals.</li>
-<li>Un plan Ultimate Workfront que incluye Workfront Goals de forma predeterminada. </li></ul>
+  <p> Nuevo requisito de producto: Workfront</p>
  <p>O</p>
- <p>Requisito de producto actual: un plan de Workfront y una licencia adicional para Adobe Workfront Goals. </p> <p>Para obtener más información, consulte <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requisitos para usar Workfront Goals</a>. </p> </td>
+  <p>Requisito actual del producto: además de una licencia de Workfront, debe adquirir una licencia para Adobe Workfront Goals. </p> <p>Para obtener más información, consulte <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requisitos para usar Workfront Goals</a>. </p> </td>
  </tr>
  <tr>
  <td role="rowheader">Nivel de acceso</td>
@@ -87,6 +88,7 @@ Debe tener lo siguiente:
 
 *Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
++++
 
 ## Requisitos previos
 

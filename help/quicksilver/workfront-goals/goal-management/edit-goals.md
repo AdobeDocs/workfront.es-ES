@@ -6,18 +6,22 @@ description: Puede editar las metas existentes de cualquier periodo de tiempo y 
 author: Alina
 feature: Workfront Goals
 exl-id: 74db534c-6897-40c2-bea9-a9d30a40f61c
-source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
+source-git-commit: 4e1558b47f6041501aa4e4fbfa6317dec8aee571
 workflow-type: tm+mt
-source-wordcount: '640'
-ht-degree: 32%
+source-wordcount: '628'
+ht-degree: 27%
 
 ---
 
 # Editar metas en Adobe Workfront Goals
 
+<!--Audited for P&P only: 4/2025-->
+
 Puede editar las metas existentes de cualquier periodo de tiempo y en cualquier estado.
 
 ## Requisitos de acceso
+
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
 Debe tener lo siguiente:
 
@@ -36,8 +40,9 @@ Debe tener lo siguiente:
 <p>Para la estructura actual de plan y licencias: 
 <ul><li> Pro o superior </li>
   <li>Una licencia de Adobe Workfront Goals además de una licencia de Workfront.</li></ul></p>
-   </td> 
+   </td>  
   </tr>
+ <tr>
  <tr>
  <td role="rowheader">Licencia de Adobe Workfront*</td>
  <td>
@@ -48,12 +53,9 @@ Debe tener lo siguiente:
  <tr>
  <td role="rowheader">Producto*</td>
  <td>
- <p> Nuevo requisito de producto, uno de los siguientes: </p>
-<ul>
-<li>Un plan Select or Prime Adobe Workfront y una licencia adicional de Adobe Workfront Goals.</li>
-<li>Un plan Ultimate Workfront que incluye Workfront Goals de forma predeterminada. </li></ul>
+  <p> Nuevo requisito de producto: Workfront</p>
  <p>O</p>
- <p>Requisito de producto actual: un plan de Workfront y una licencia adicional para Adobe Workfront Goals. </p> <p>Para obtener más información, consulte <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requisitos para usar Workfront Goals</a>. </p> </td>
+  <p>Requisito actual del producto: además de una licencia de Workfront, debe adquirir una licencia para Adobe Workfront Goals. </p> <p>Para obtener más información, consulte <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requisitos para usar Workfront Goals</a>. </p> </td>
  </tr>
  <tr>
  <td role="rowheader">Nivel de acceso</td>
@@ -68,7 +70,7 @@ Debe tener lo siguiente:
   <p>Para obtener información acerca de cómo compartir metas, consulte <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Compartir una meta en Workfront Goals</a>. </p>
   </div> </td>
  </tr>
- <tr>
+<tr>
    <td role="rowheader"><p>Plantilla de diseño</p></td>
    <td> <p>A todos los usuarios, incluidos los administradores de Workfront, se les debe asignar una plantilla de diseño que incluya el área Metas en el menú principal. </p>  
 </td>
@@ -77,6 +79,8 @@ Debe tener lo siguiente:
 </table>
 
 *Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Consideraciones sobre la edición de objetivos
 

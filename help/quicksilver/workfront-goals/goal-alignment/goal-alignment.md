@@ -2,20 +2,22 @@
 content-type: reference
 product-previous: workfront-goals
 navigation-topic: workfront-goals-navigation-topic
-title: Revise los siguientes artículos para comprender cómo alinear metas en Workfront Goals.
-description: Obtenga información sobre la alineación de metas en Adobe Workfront en los siguientes artículos.
+title: 'Alineación de metas en Adobe Workfront Goals: Índice de artículos'
+description: Garantizar que todos los objetivos de su empresa, desde cualquier nivel, estén alineados entre sí y con la estrategia general es un paso importante para el éxito de su organización. Obtenga información sobre la alineación de metas en Adobe Workfront en los siguientes artículos.
 author: Alina
 feature: Workfront Goals
 recommendations: noDisplay, noCatalog
 exl-id: b5b0e5b2-1133-443b-8ef1-cbb1ca377fd6
-source-git-commit: 7c1bd52c6d1878b556bc92849b5d65fd0e89f51b
+source-git-commit: 4e1558b47f6041501aa4e4fbfa6317dec8aee571
 workflow-type: tm+mt
-source-wordcount: '175'
-ht-degree: 100%
+source-wordcount: '185'
+ht-degree: 75%
 
 ---
 
-# Alineación de metas en Adobe Workfront Goals
+# Alineación de objetivos en Adobe Workfront Goals: índice de artículos
+
+<!--Audited P&P only: 4/2025-->
 
 >[!NOTE]
 >
@@ -24,11 +26,6 @@ ht-degree: 100%
 >* Para la nueva estructura de plan y licencias:
 >    
 >   * Un plan Ultimate
->        
->     O
->        
->   * Una licencia adicional para Adobe Workfront Goals para los planes Prime o Select de Adobe Workfront.
->      
 >      
 >* Para la estructura actual de plan y licencias:
 >    

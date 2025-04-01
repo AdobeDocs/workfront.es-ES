@@ -1,19 +1,21 @@
 ---
 product-previous: workfront-goals
 navigation-topic: goal-management
-title: Revisar las metas con problemas en Adobe Workfront Goals
+title: Revisar los objetivos en problemas en las metas de Adobe Workfront
 description: Las metas con un progreso Con problemas corren el peligro de no completarse y se representan con una barra de progreso roja en Adobe Workfront Goals. Debe revisar sus objetivos con frecuencia y comprender a qué se debe el retraso.
 author: Alina
 feature: Workfront Goals
 exl-id: df2cdc12-9102-4759-9daa-1f8ae68f110b
-source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
+source-git-commit: 01e53bbc10573950d08f2df63fc742e6b9771e77
 workflow-type: tm+mt
-source-wordcount: '827'
-ht-degree: 97%
+source-wordcount: '815'
+ht-degree: 94%
 
 ---
 
 # Revisar los objetivos con problemas en Adobe Workfront Goals
+
+<!--Audited: 4/2025-->
 
 <!--
 <p>(NOTE: the status of goals in "red" used to be called At Risk. Now, it is "in trouble") </p>
@@ -22,6 +24,8 @@ ht-degree: 97%
 Las metas con un progreso Con problemas corren el peligro de no completarse y se representan con una barra de progreso roja en Adobe Workfront Goals. Debe revisar sus objetivos con frecuencia y comprender a qué se debe el retraso. Para obtener información sobre el progreso de la meta, consulte [Información general sobre el progreso y la condición de la meta en Adobe Workfront Goals](../../workfront-goals/goal-management/calculate-goal-progress.md).
 
 ## Requisitos de acceso
+
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
 Debe tener lo siguiente:
 
@@ -52,12 +56,9 @@ Debe tener lo siguiente:
  <tr>
  <td role="rowheader">Producto*</td>
  <td>
- <p> Nuevo requisito de producto, uno de los siguientes: </p>
-<ul>
-<li>Un plan Select or Prime Adobe Workfront y una licencia adicional de Adobe Workfront Goals.</li>
-<li>Un plan Ultimate Workfront que incluye Workfront Goals de forma predeterminada. </li></ul>
- <p>O</p>
- <p>Requisito de producto actual: un plan de Workfront y una licencia adicional para Adobe Workfront Goals. </p> <p>Para obtener más información, consulte <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requisitos para usar Workfront Goals</a>. </p> </td>
+  <p> Nuevo requisito de producto: Workfront</p>
+  O
+  <p>Requisito actual del producto: además de una licencia de Workfront, debe adquirir una licencia para Adobe Workfront Goals. </p> <p>Para obtener más información, consulte <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requisitos para usar Workfront Goals</a>. </p> </td>
  </tr>
  <tr>
  <td role="rowheader">Nivel de acceso</td>
@@ -81,6 +82,8 @@ Debe tener lo siguiente:
 </table>
 
 *Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Recomendaciones para evitar que las metas alcancen el progreso Con problemas
 

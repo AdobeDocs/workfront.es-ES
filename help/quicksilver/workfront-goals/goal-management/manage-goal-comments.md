@@ -6,16 +6,16 @@ description: Puede añadir comentarios a todas las metas que puede ver en Adobe 
 author: Alina
 feature: Workfront Goals
 exl-id: 6cf2d2d2-5ba5-40f2-a803-01359c338541
-source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
+source-git-commit: 4e1558b47f6041501aa4e4fbfa6317dec8aee571
 workflow-type: tm+mt
-source-wordcount: '328'
-ht-degree: 82%
+source-wordcount: '297'
+ht-degree: 71%
 
 ---
 
 # Administrar comentarios de metas en Adobe Workfront Goals
 
-<!--Audited: 01/2024-->
+<!--Audited for P&P only: 04/2025-->
 
 <!--consider retiring this article when goals and all objects are in parity and we remove the legacy commenting from the system. From then on, there is just ONE way to comment and that will be documented in the Update Work article-->
 
@@ -63,9 +63,9 @@ Debe tener el siguiente acceso para realizar las acciones descritas en este art�
  <tr>
  <td role="rowheader">Producto*</td>
  <td>
- <p> Nuevo requisito del producto: si tiene el plan Select o Prime Adobe Workfront, también debe comprar una licencia adicional de Adobe Workfront Goals. Workfront Goals se incluye en el plan Ultimate Workfront.</p>
+ <p> Nuevo requisito de producto: Workfront</p>
  O
- <p>Requisito de producto actual: debe adquirir una licencia adicional para Adobe Workfront Goals a fin de acceder a la funcionalidad descrita en este artículo. </p> <p>Para obtener más información, consulte <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requisitos para usar Workfront Goals</a>. </p> </td>
+ <p>Requisito actual del producto: además de una licencia de Workfront, debe adquirir una licencia para Adobe Workfront Goals. </p> <p>Para obtener más información, consulte <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requisitos para usar Workfront Goals</a>. </p> </td>
  </tr>
  <tr>
  <td role="rowheader">Configuración de nivel de acceso</td>

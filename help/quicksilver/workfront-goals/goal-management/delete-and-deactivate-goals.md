@@ -6,18 +6,22 @@ description: Cuando empiece a trabajar en una meta y esta se vuelva irrelevante 
 author: Alina
 feature: Workfront Goals
 exl-id: 3089adeb-3e56-492a-82fe-536f57079b73
-source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
+source-git-commit: 4e1558b47f6041501aa4e4fbfa6317dec8aee571
 workflow-type: tm+mt
-source-wordcount: '680'
-ht-degree: 89%
+source-wordcount: '676'
+ht-degree: 85%
 
 ---
 
 # Eliminar y desactivar metas en Adobe Workfront Goals
 
+<!--Audited for P&P only: 4/2025-->
+
 Cuando empiece a trabajar en una meta y esta se vuelva irrelevante en su organización, recomendamos desactivarla en lugar de eliminarla. La desactivación de una meta conserva su información histórica y le ofrece la oportunidad de reactivarla más adelante. Sin embargo, hay ocasiones en las que puede tener sentido eliminar una meta para mantener la precisión de la lista de metas.
 
 ## Requisitos de acceso
+
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
 Debe tener lo siguiente:
 
@@ -36,27 +40,25 @@ Debe tener lo siguiente:
 <p>Para la estructura actual de plan y licencias: 
 <ul><li> Pro o superior </li>
   <li>Una licencia de Adobe Workfront Goals además de una licencia de Workfront.</li></ul></p>
-   </td> 
+   </td>  
   </tr>
+ <tr>
  <tr>
  <td role="rowheader">Licencia de Adobe Workfront*</td>
  <td>
  <p>Nueva licencia: Contributor o superior</p>
  O
- <p>Licencia actual: Request o superior</p> </td>
+ <p>Licencia actual: Request o superior</p> <p>Para obtener más información, consulte <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Información general sobre las licencias de Adobe Workfront</a>.</p> </td>
  </tr>
  <tr>
  <td role="rowheader">Producto*</td>
  <td>
- <p> Nuevo requisito de producto, uno de los siguientes: </p>
-<ul>
-<li>Un plan Select or Prime Adobe Workfront y una licencia adicional de Adobe Workfront Goals.</li>
-<li>Un plan Ultimate Workfront que incluye Workfront Goals de forma predeterminada. </li></ul>
+  <p> Nuevo requisito de producto: Workfront</p>
  <p>O</p>
- <p>Requisito de producto actual: un plan de Workfront y una licencia adicional para Adobe Workfront Goals. </p> <p>Para obtener más información, consulte <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requisitos para usar Workfront Goals</a>. </p> </td>
+  <p>Requisito actual del producto: además de una licencia de Workfront, debe adquirir una licencia para Adobe Workfront Goals. </p> <p>Para obtener más información, consulte <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requisitos para usar Workfront Goals</a>. </p> </td>
  </tr>
  <tr>
- <td role="rowheader"><p>Nivel de acceso</p></td>
+ <td role="rowheader">Nivel de acceso</td>
  <td> <p>Editar acceso a Goals</p> </td>
  </tr>
  <tr data-mc-conditions="">
@@ -68,7 +70,7 @@ Debe tener lo siguiente:
   <p>Para obtener información acerca de cómo compartir metas, consulte <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Compartir una meta en Workfront Goals</a>. </p>
   </div> </td>
  </tr>
- <tr>
+<tr>
    <td role="rowheader"><p>Plantilla de diseño</p></td>
    <td> <p>A todos los usuarios, incluidos los administradores de Workfront, se les debe asignar una plantilla de diseño que incluya el área Metas en el menú principal. </p>  
 </td>
@@ -77,6 +79,8 @@ Debe tener lo siguiente:
 </table>
 
 *Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Desactivar metas
 

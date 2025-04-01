@@ -6,20 +6,25 @@ description: Puede alinear manualmente dos metas o convertir los resultados y la
 author: Alina
 feature: Workfront Goals
 exl-id: 48371389-952c-4732-b519-9774cd4d1b93
-source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
+source-git-commit: 4e1558b47f6041501aa4e4fbfa6317dec8aee571
 workflow-type: tm+mt
-source-wordcount: '649'
-ht-degree: 94%
+source-wordcount: '680'
+ht-degree: 90%
 
 ---
 
 # Alinear metas convirtiendo resultados y actividades en metas
+
+<!--Audited P&P only: 4/2025-->
 
 Puede alinear manualmente dos metas o convertir los resultados y las actividades de una meta existente en otra meta. El resultado o actividad convertido se transforma en la meta secundaria de la meta original. 
 Para obtener información acerca de cómo alinear manualmente dos metas, consulte [Alinear metas conectándolas en Adobe Workfront Goals](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md).
 
 ## Requisitos de acceso
 
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
+
+Necesita el siguiente acceso para realizar las actividades enumeradas en este artículo:
 
 <table style="table-layout:auto">
 <col>
@@ -28,11 +33,15 @@ Para obtener información acerca de cómo alinear manualmente dos metas, consult
 </col>
 <tbody>
  <tr>
- <td role="rowheader">Plan de Adobe Workfront</td>
- <td>
- <p>Cualquiera</p>
-
-</td>
+ <td role="rowheader">Plan de Adobe Workfront*</td>
+ <td> 
+   <p>Para la nueva estructura de plan y licencias:
+  <ul><li>Un plan Ultimate </li></ul>
+   </p>
+<p>Para la estructura actual de plan y licencias: 
+<ul><li> Pro o superior </li>
+  <li>Una licencia de Adobe Workfront Goals además de una licencia de Workfront.</li></ul></p>
+   </td> 
  </tr>
  <tr>
  <td role="rowheader">Licencia de Adobe Workfront*</td>
@@ -44,12 +53,9 @@ Para obtener información acerca de cómo alinear manualmente dos metas, consult
  <tr>
  <td role="rowheader">Producto*</td>
  <td>
- <p> Nuevo requisito de producto, uno de los siguientes: </p>
-<ul>
-<li>Un plan Select or Prime Adobe Workfront y una licencia adicional de Adobe Workfront Goals.</li>
-<li>Un plan Ultimate Workfront que incluye Workfront Goals de forma predeterminada. </li></ul>
- <p>O</p>
- <p>Requisito de producto actual: un plan de Workfront y una licencia adicional para Adobe Workfront Goals. </p> <p>Para obtener más información, consulte <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requisitos para usar Workfront Goals</a>. </p> </td>
+   <p> Nuevo requisito de producto: Workfront</p>
+   O
+   <p>Requisito actual del producto: además de una licencia de Workfront, debe adquirir una licencia para Adobe Workfront Goals. </p> <p>Para obtener más información, consulte <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requisitos para usar Workfront Goals</a>. </p> </td>
  </tr>
  <tr>
  <td role="rowheader">Nivel de acceso</td>
@@ -73,6 +79,8 @@ Para obtener información acerca de cómo alinear manualmente dos metas, consult
 </table>
 
 *Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Requisitos previos
 

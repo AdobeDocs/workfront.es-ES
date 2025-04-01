@@ -2,156 +2,157 @@
 title: Introducción a Adobe Workfront Goals
 description: Workfront Goals le ayuda a definir, comunicar y lograr resultados estratégicos conectando la estrategia con la ejecución y el envío del trabajo.
 author: Alina
-draft: Probably
 feature: Workfront Goals
 exl-id: 9daa074e-94ce-4825-a058-722e53dbce51
-source-git-commit: 811d8076a0b344e863b25aa253a0fb1c102f0435
+source-git-commit: 4e1558b47f6041501aa4e4fbfa6317dec8aee571
 workflow-type: tm+mt
 source-wordcount: '1374'
-ht-degree: 1%
+ht-degree: 96%
 
 ---
 
 # Introducción a Adobe Workfront Goals
 
+<!--Audited for P&P only: 4/2025-->
+
 >[!IMPORTANT]
 >
 >Su organización debe tener lo siguiente para utilizar la funcionalidad descrita en este artículo:
 >
->* Para el nuevo plan y la estructura de licencias:
+>* Para la nueva estructura de plan y licencias:
 >
 >   * El plan Ultimate Workfront
 >    
->* Para el plan y la estructura de licencias actuales:
+>* Para la estructura actual de plan y licencias:
 >
 >   * Un plan Pro o superior de Workfront
 >   * Una licencia de Adobe Workfront Goals además de una licencia de Workfront.
 >
 >Póngase en contacto con el administrador de cuentas de Workfront para obtener más información sobre una licencia de Workfront Goals.
 > 
->Para obtener información adicional sobre el acceso a las metas de Workfront, consulte [Requisitos para usar las metas de Workfront](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
+>Para obtener información adicional sobre el acceso a Workfront Goals, consulte [Requisitos para usar Workfront Goals](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
-Cada organización necesita establecer y comunicar objetivos claros para mantener a sus equipos productivos, centrados y comprometidos. Saber realmente cómo el trabajo está alineado con la estrategia es clave para el éxito. Sin embargo, sin un sistema de registro que conecte su estrategia y objetivos con el trabajo en la organización, lograr la alineación puede ser realmente difícil.
+Cada organización necesita establecer y comunicar metas claras para mantener a sus equipos productivos, centrados y comprometidos. Saber realmente cómo se alinea el trabajo con la estrategia es clave para lograr tener éxito. Sin embargo, sin un sistema de registro que conecte su estrategia y metas con el trabajo en la organización, lograr la que se alineen puede ser realmente difícil.
 
 Workfront Goals le ayuda a definir, comunicar y lograr resultados estratégicos conectando la estrategia con la ejecución y el envío del trabajo. Puede enfocar los esfuerzos de todos en lo que realmente importa, hacer que el progreso sea mensurable y permitir que los equipos logren resultados sorprendentes. Las personas pueden hacer su mejor trabajo sabiendo que sus contribuciones tienen un impacto significativo.
 
-Workfront Goals es un módulo complementario para la plataforma principal de administración del trabajo de Workfront. Está diseñado para funcionar junto con Workfront Platform y aprovecha muchas de las entidades de configuración y configuración de la plataforma, como usuarios, equipos, grupos y proyectos.
+Workfront Goals es un módulo complementario para la plataforma principal de administración del trabajo de Workfront. Está diseñado para que funcione junto con Workfront Platform y aprovechar muchos de los elementos de configuración de plataformas y entidades, como usuarios, equipos, grupos y proyectos.
 
-Para obtener información acerca de Workfront Goals, vea [Información general sobre Adobe Workfront Goals](../../workfront-goals/goal-management/wf-goals-overview.md).
+Para obtener información sobre Workfront Goals, consulte [Información general sobre Adobe Workfront Goals](../../workfront-goals/goal-management/wf-goals-overview.md).
 
-## Establezca una visión y una estrategia para su organización
+## Establecer una visión y estrategia para su organización
 
-Normalmente, la misión y la visión de una organización no cambian de forma regular. Sin embargo, los objetivos organizativos a menudo cambian en función de diversos factores. Hay que seguir algunos pasos clave para garantizar que defina y comunique objetivos claros y medibles a sus equipos, de modo que puedan lograr lo que es importante si el enfoque no cambia.
+Normalmente, la misión y la visión de una organización no cambian con regularidad. Sin embargo, las metas organizativas suelen cambiar en función de diversos factores. Hay que seguir algunos pasos clave para garantizar que defina y comunique metas claras y medibles a sus equipos, de modo que puedan lograr lo que es importante si el enfoque no cambia.
 
-Hemos identificado los siguientes pasos para definir su visión y estrategia para su organización:
+Hemos identificado los siguientes pasos para definir su visión y estrategia para la organización:
 
-* [Definir y expresar el objetivo final](#define-and-express-the-end-goal)
-* [Colaborar en torno a los objetivos empresariales y organizativos](#collaborate-around-enterprise-and-organizational-goals)
-* [Alinear grupos y equipos con la estrategia](#align-groups-and-teams-to-strategy)
+* [Definir y expresar la meta final](#define-and-express-the-end-goal)
+* [Colaborar en torno a las metas empresariales y organizativas](#collaborate-around-enterprise-and-organizational-goals)
+* [Alineación de grupos y equipos con la estrategia](#align-groups-and-teams-to-strategy)
 
-### Definir y expresar el objetivo final {#define-and-express-the-end-goal}
+### Definir y expresar la meta final {#define-and-express-the-end-goal}
 
-Cree una declaración clara que establezca los pilares estratégicos de su visión y el nivel más alto de objetivos a los que se alinearán sus equipos y su trabajo.
+Cree una declaración clara que establezca los pilares estratégicos de su visión y las metas de más alto nivel con los que se alinearán sus equipos y su trabajo.
 
-Sus objetivos de nivel más alto representan sus objetivos a largo plazo y, cuanto más alta sea la meta dentro de la jerarquía, más amplio será el alcance.
+Sus metas de nivel más alto representan sus metas a largo plazo y cuanto más alto se sitúe la meta en la jerarquía, más amplio podrá ser su alcance.
 
-Un objetivo debe representar una declaración de valor que indique el resultado hacia el que está trabajando.
+Una meta debe representar una declaración de valor que indique el resultado hacia el que está trabajando.
 
 >[!TIP]
 >
->Piense en una declaración que quisiera hacer sobre su compañía, marca, organización después de un logro exitoso y piense en la manera en que desea medir su logro. Por ejemplo, su objetivo podría ser &quot;Nuestra marca es reconocida globalmente como líder en nuestra industria&quot;. y el resultado asociado que mide su logro podría ser &quot;Obtenemos una cuota de mercado del 55% dentro de nuestra industria&quot;.
+>Piense en una declaración que quisiera hacer sobre su compañía, marca, organización después de un logro y piense en la manera en que desea medir su logro. Por ejemplo, su meta podría ser “Nuestra marca es reconocida globalmente como líder en nuestro sector”. y el resultado asociado que mide su logro podría ser “Obtenemos una cuota de mercado del 55 % en nuestro sector”.
 
 Recomendamos lo siguiente:
 
-* Cree no más de 3 o 5 objetivos a más largo plazo en un orden superior.
-* Céntrese en una declaración de resultado clara cuando escriba declaraciones de objetivo.
-* Identifique una métrica clara mediante la cual pueda medir el logro exitoso de la meta.
+* Cree no más de 3 o 5 metas de orden superior y a más largo plazo.
+* Céntrese en una declaración de resultado clara cuando escriba declaraciones de metas.
+* Identifique una métrica clara con la que medirá la consecución de la meta.
 
-Para obtener información sobre cómo crear metas y agregar resultados, consulte los siguientes artículos:
+Para obtener información sobre cómo crear metas y añadir resultados, consulte los siguientes artículos:
 
 * [Crear metas en Adobe Workfront Goals](../../workfront-goals/goal-management/create-goals.md)
-* [Añadir resultados a metas en Objetivos de Adobe Workfront](../../workfront-goals/results-and-activities/add-results-to-goals.md)
+* [Añadir resultados a metas en Adobe Workfront Goals](../../workfront-goals/results-and-activities/add-results-to-goals.md)
 
 ### Colaborar en torno a las metas empresariales y organizativas {#collaborate-around-enterprise-and-organizational-goals}
 
-Encascada los objetivos de alto nivel. Sobre la base de los pilares estratégicos esbozados en primer lugar, la dirección de nivel medio superior establece objetivos que proporcionan una orientación segmentada de los resultados impulsores necesarios para cumplir la visión. Para ello, le recomendamos que haga lo siguiente:
+Establezca una cascada de metas de alto nivel. Sobre la base de los pilares estratégicos esbozados en primer lugar, la dirección de nivel medio superior establece metas que proporcionan una orientación segmentada de los resultados determinantes necesarios para cumplir la visión. Para ello, le recomendamos que haga lo siguiente:
 
 * Analice y colabore con sus equipos e informes directos.
-* Metas en cascada desde el nivel superior.
+* Establezca una cascada de metas de alto nivel. 
 
-Tenga en cuenta las siguientes directrices al crear y alinear objetivos:
+Tenga en cuenta las siguientes directrices al crear y alinear metas:
 
-* Considere la pregunta: &quot;¿Qué debemos lograr mis equipos y yo para lograr esta meta de nivel superior?&quot;
-* Los objetivos en cascada deben representar un resultado necesario que debe alcanzarse para impulsar o permitir el logro de su madre. El alcance de ese logro debería ser más limitado que el de su organización matriz.
-* No cree jerarquías de objetivos complejas que sean difíciles de seguir o que tengan demasiadas capas.
+* Considere la pregunta: “¿Qué debemos lograr mis equipos y yo para lograr esta meta de nivel superior?”
+* Las metas en cascada representan un resultado necesario que debe alcanzarse para impulsar o permitir que se logre la meta principal. El ámbito de ese logro debería ser más limitado que el de su organización matriz.
+* No cree jerarquías de metas complejas que sean difíciles de seguir o que tengan demasiadas etapas.
 
-Para obtener información sobre cómo crear y alinear objetivos, consulte los siguientes artículos:
+Para obtener información sobre cómo crear y alinear metas, consulte los siguientes artículos:
 
 * [Crear metas en Adobe Workfront Goals](../../workfront-goals/goal-management/create-goals.md)
-* [Información general sobre la alineación de objetivos en Adobe Workfront Goals](../../workfront-goals/goal-alignment/goal-alignment-overview.md)
+* [Información general sobre la alineación de metas en Adobe Workfront Goals](../../workfront-goals/goal-alignment/goal-alignment-overview.md)
 
-### Alinear grupos y equipos con la estrategia {#align-groups-and-teams-to-strategy}
+### Alineación de grupos y equipos con la estrategia {#align-groups-and-teams-to-strategy}
 
-Una vez que haya definido las metas y los resultados asociados con ellas, comparta la estrategia y los objetivos con la audiencia principal. Juntos, perfeccionamos los objetivos y fijamos objetivos a más corto plazo que se pueden lograr en un período de tiempo definido.
+Una vez que se definan las metas y los resultados asociados con ellas, compártalas junto con la estrategia con la audiencia principal. Juntos perfeccionamos las metas y fijamos otras a menor plazo que se puedan lograr en un período de tiempo definido.
 
 Haga lo siguiente:
 
-* Revisar y activar los objetivos propuestos.
+* Revisar y activar las metas propuestas.
 
-  Hasta ahora, tus metas han estado en estado de &quot;borrador&quot;, pero una vez que has refinado y terminado de entrar en los primeros niveles de la jerarquía de metas, es hora de activarlas.
+  Hasta ahora, las metas han estado en estado de “borrador”, pero una vez que refinó y terminó de introducir los primeros niveles de la jerarquía de metas, es hora de activarlas.
 
-  Después de activar los objetivos, comuníquese con los equipos que finalmente realizarán y administrarán el trabajo que impulsará estos resultados. Como en Workfront se puede conectar con los objetivos en Workfront Goals, los equipos ven realmente la conexión entre su trabajo y los resultados.
+  Después de poner en marcha las metas, comuníquese con los equipos que finalmente realizarán y administrarán el trabajo que impulsará estos resultados. Como en Workfront es posible conectarse con las metas en Workfront Goals, los equipos visualizan realmente la conexión existente entre el trabajo y los resultados.
 
-* Ponga en cascada y alinee las metas trimestrales y añada actividades a las metas.
+* Ponga en cascada y alinee las metas trimestrales y añada actividades para las metas.
 
-  Si tiene metas establecidas con un plan anual en mente, es posible que desee establecer metas trimestrales a continuación. A medida que defina y perfeccione los planes de proyecto para saber cómo comenzará a ofrecer resultados en relación con estos objetivos, también comenzará a alinear las actividades con ellos.
+  Si se tienen metas establecidas con un plan anual en mente, es posible que se quieran establecer metas trimestrales en el futuro. A medida que se definan y perfeccionen los planes de proyecto para saber cómo comenzarán a ofrecer resultados en relación con las metas, también se comenzarán a alinear con las actividades.
 
-  Las actividades pueden ser actividades básicas creadas dentro del propio objetivo o pueden vincularse a proyectos de Workfront.
+  Las actividades pueden ser actividades básicas creadas dentro de la propia meta o vincularse a proyectos de Workfront.
 
-* Establezca una cadencia para la frecuencia con la que revisará y establecerá objetivos trimestrales o incrementales en el futuro. Le recomendamos que establezca objetivos para cada periodo de planificación, pero no que los asigne con demasiada antelación, para que pueda seguir siendo ágil y receptivo a los cambios en el negocio.
+* Establezca una cadencia para la frecuencia con la que se revisarán y establecerán las metas trimestrales e incrementales en el futuro. Se recomienda establecer metas para cada período de planificación, pero sin asignarlas con demasiada antelación para garantizar la agilidad y la capacidad de respuesta ante los cambios de la empresa.
 
-* Actualice sus objetivos periódicamente. Es un momento en el que se vuelve a informar sobre el progreso de una meta.
+* Actualice las metas periódicamente. En este momento se informa sobre el progreso de una meta.
 
-  Para obtener información sobre cómo activar, añadir actividades y actualizar objetivos, consulte los siguientes artículos:
+  Para obtener información sobre cómo activar, añadir actividades y actualizar metas, consulte los siguientes artículos:
 
    * [Activar metas en Adobe Workfront Goals](../../workfront-goals/goal-management/activate-goals.md)
-   * [Agregar actividades a metas en Adobe Workfront Goals](../../workfront-goals/results-and-activities/add-activities-to-goals.md)
-   * [Actualización del progreso de la meta en Adobe Workfront Goals](../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md)
+   * [Añadir actividades a metas en Adobe Workfront Goals](../../workfront-goals/results-and-activities/add-activities-to-goals.md)
+   * [Actualizar el progreso de las metas en Adobe Workfront Goals](../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md)
 
 ## Directrices para configurar Workfront Goals
 
-Siga estas directrices para asegurarse de que está correctamente configurado para comenzar:
+Siga estas directrices para asegurarse de que la configuración sea correcta para comenzar:
 
-* Identifique a las personas principales de su organización que serán responsables de liderar la consecución de cada objetivo. Comenzando con el liderazgo de alto nivel, es probable que haya varios niveles de dueños de metas. Recomendamos no más de 3-5 niveles.
-* Identifique los equipos y los integrantes del equipo que serán los responsables últimos de ejecutar el trabajo necesario para obtener los resultados deseados.
-* En función de estos hallazgos, determine quién necesita acceso a los Objetivos de Workfront.
+* Identifique a las principales personas de la organización que serán las responsables de liderar la consecución de cada meta. Comenzando por el liderazgo de alto nivel, es probable que existan varios niveles de responsables de metas. No se recomiendan más de 3-5 niveles.
+* Identifique los equipos y a los integrantes que serán los últimos responsables de ejecutar el trabajo necesario para obtener los resultados deseados.
+* En función de esto, determine quién necesitará acceso a Workfront Goals.
 
 
 >[!NOTE]
 >
->Al identificar a los propietarios principales, tenga en cuenta que está estableciendo objetivos estratégicos para los resultados empresariales y no objetivos de desarrollo personal.
+>Al identificar a los principales responsables, hay que tener en cuenta que se están estableciendo metas estratégicas para los resultados empresariales, no de desarrollo personal. 
 
-Para obtener información sobre cómo configurar el acceso a Workfront Goals, consulte [Requisitos para usar Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+Para obtener información sobre cómo configurar el acceso a Workfront Goals, consulte [Requisitos de uso de Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
-## Objetos Workfront Goals
+## Objetos de Workfront Goals
 
-En la tabla siguiente se describen los objetos Workfront Goals. Puede personalizar su nombre modificando una plantilla de diseño y asignándola a usuarios, equipos o grupos. Para obtener información acerca de cómo personalizar nombres de objetos mediante una plantilla de diseño, vea [Personalizar la terminología de la interfaz de usuario mediante una plantilla de diseño](../../administration-and-setup/customize-workfront/use-layout-templates/customize-terminology.md).
+En la tabla siguiente se describen los objetos de Workfront Goals. Es posible personalizar el nombre modificando una plantilla de diseño y asignándola a usuarios, equipos o grupos. Para obtener información acerca de cómo personalizar nombres de objetos mediante una plantilla de diseño, consulte [Personalizar la terminología de la interfaz de usuario con una plantilla de diseño](../../administration-and-setup/customize-workfront/use-layout-templates/customize-terminology.md).
 
 Workfront Goals usa los siguientes objetos principales:
 
 | Objeto | Descripción |
 |---|---|
-| Meta | El resultado general que desea lograr. Puede crear varias metas para un período de tiempo definido. Cada objetivo tiene un propietario, normalmente un individuo o equipo (aunque también puede asignar un objetivo a un grupo). Puede alinear las metas entre sí para mostrar cómo el progreso en varias metas (metas secundarias) influye en el progreso de otra (meta principal). |
-| Resultado | Un indicador de métrica de éxito del objetivo. Cada objetivo puede tener uno o más resultados y su progreso indica el progreso de la meta. |
-| Actividad | Una acción principal que debe llevarse a cabo para obtener un resultado. Puede agregar una o más actividades a un objetivo para indicar qué trabajo se ha planificado para lograr ese objetivo. |
+| Meta | El resultado general que se desea lograr. Se pueden crear varias metas para un período de tiempo definido. Cada objetivo tiene un propietario, normalmente un individuo o equipo (aunque también puede asignar un objetivo a un grupo). Puede alinear las metas entre sí para mostrar cómo el progreso en varias metas (metas secundarias) influye en el progreso de otra (meta principal). |
+| Resultado | Un indicador de métrica de éxito de la meta. Cada meta puede tener uno o más resultados y su progreso indica el progreso de la meta. |
+| Actividad | Una acción principal que debe llevarse a cabo para obtener un resultado. Puede añadir una o más actividades a una meta para indicar qué trabajo se ha planificado para lograr esa meta. |
 
-Además de los resultados y las actividades, también puede conectar proyectos con objetivos para mostrar cómo el progreso de los proyectos puede impulsar el progreso de la meta.
+Además de los resultados y las actividades, también puede conectar proyectos con metas para mostrar cómo el progreso de los proyectos puede impulsar el progreso de la meta.
 
 <!--
 (edit the above bullet when more objects will come)
 -->
 
-Para obtener información sobre los objetivos, los resultados y las actividades, consulte:
+Para obtener información sobre las metas, los resultados y las actividades, consulte:
 
 * [Información general sobre Adobe Workfront Goals](../../workfront-goals/goal-management/wf-goals-overview.md)
 * [Introducción a resultados y actividades en Adobe Workfront Goals](../../workfront-goals/results-and-activities/get-started-with-results-and-activities.md)

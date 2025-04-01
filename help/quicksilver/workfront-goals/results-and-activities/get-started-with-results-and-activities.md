@@ -7,10 +7,10 @@ description: Debe agregar resultados, actividades o metas alineadas a una meta p
 author: Alina
 feature: Workfront Goals
 exl-id: 64fa0aef-cb92-465a-9b74-d863fc232fd1
-source-git-commit: 811d8076a0b344e863b25aa253a0fb1c102f0435
+source-git-commit: 4e1558b47f6041501aa4e4fbfa6317dec8aee571
 workflow-type: tm+mt
-source-wordcount: '853'
-ht-degree: 0%
+source-wordcount: '855'
+ht-degree: 22%
 
 ---
 
@@ -20,18 +20,18 @@ ht-degree: 0%
 >
 >Su organización debe tener lo siguiente para utilizar la funcionalidad descrita en este artículo:
 >
->* Para el nuevo plan y la estructura de licencias:
+>* Para la nueva estructura de plan y licencias:
 >
 >   * El plan Ultimate Workfront
 >    
->* Para el plan y la estructura de licencias actuales:
+>* Para la estructura actual de plan y licencias:
 >
 >   * Un plan Pro o superior de Workfront
 >   * Una licencia de Adobe Workfront Goals además de una licencia de Workfront.
 >
 >Póngase en contacto con el administrador de cuentas de Workfront para obtener más información sobre una licencia de Workfront Goals.
 > 
->Para obtener información adicional sobre el acceso a las metas de Workfront, consulte [Requisitos para usar las metas de Workfront](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
+>Para obtener información adicional sobre el acceso a Workfront Goals, consulte [Requisitos para usar Workfront Goals](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
 Cuando se crea una meta, esta tiene el estado Borrador. Para obtener información sobre cómo crear metas, consulte [Crear metas en Adobe Workfront Goals](../../workfront-goals/goal-management/create-goals.md).
 
@@ -49,7 +49,7 @@ Después de agregar al menos uno de estos elementos, puede activar la meta. Debe
 >
 > Una meta no puede tener más de un total de 1000 actividades, resultados, proyectos o metas alineadas.</span>
 
-Este artículo ofrece una descripción general de las actividades y los resultados. Para obtener información sobre cómo alinear metas, consulte [Alineación de metas en Adobe Workfront Goals](../../workfront-goals/goal-alignment/goal-alignment.md). Para obtener información acerca de cómo conectar proyectos con metas, vea [Agregar proyectos a metas en Adobe Workfront Goals](../results-and-activities/connect-projects-to-goals-overview.md).
+Este artículo ofrece una descripción general de las actividades y los resultados. Para obtener información acerca de cómo alinear metas, vea [Alineación de metas en Adobe Workfront Goals: índice de artículos](../../workfront-goals/goal-alignment/goal-alignment.md). Para obtener información acerca de cómo conectar proyectos con metas, vea [Agregar proyectos a metas en Adobe Workfront Goals](../results-and-activities/connect-projects-to-goals-overview.md).
 
 ## Resumen de resultados
 
@@ -59,7 +59,7 @@ Este artículo ofrece una descripción general de las actividades y los resultad
 
 Los resultados miden el progreso de su objetivo o lo cerca que está de alcanzarlo. Como propietario del objetivo, también puede ser el propietario del resultado. Un resultado para su objetivo también puede asignarse a un usuario diferente.
 
-Para obtener información acerca de cómo agregar resultados a las metas, vea [Agregar resultados a metas en Adobe Workfront Goals](../../workfront-goals/results-and-activities/add-results-to-goals.md).
+Para obtener información sobre cómo añadir resultados a las metas, consulte [Añadir resultados a las metas en Adobe Workfront Goals](../../workfront-goals/results-and-activities/add-results-to-goals.md).
 
 Puede agregar resultados a sus propias metas u objetivos que pertenezcan a otras entidades de su organización.
 
@@ -86,7 +86,7 @@ This will have additional types in the future - add another section for types?
 
 Las actividades, como los resultados, son específicas y mensurables, y generalmente incluyen un indicador de porcentaje completado. Como propietario del objetivo, también puede ser propietario de las actividades asociadas con el objetivo. También se puede asignar una actividad en su objetivo a un usuario diferente.
 
-Para obtener información acerca de cómo agregar actividades a las metas, vea [Agregar actividades a las metas en Adobe Workfront Goals](../../workfront-goals/results-and-activities/add-activities-to-goals.md).
+Para obtener información sobre cómo añadir actividades a las metas, consulte [Añadir actividades a las metas en Adobe Workfront Goals](../../workfront-goals/results-and-activities/add-activities-to-goals.md).
 
 Tenga en cuenta lo siguiente al asociar actividades con sus objetivos:
 
