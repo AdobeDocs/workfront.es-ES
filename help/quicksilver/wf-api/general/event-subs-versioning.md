@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 151b9d0d-0dd6-4ece-9601-dda04356b436
-source-git-commit: f1d235a21dcf939570d4d93f08f31865eab42803
+source-git-commit: cdd7c0ef619e4cb75be82ba936f07bc3ce6dc745
 workflow-type: tm+mt
-source-wordcount: '1192'
+source-wordcount: '1252'
 ht-degree: 1%
 
 ---
@@ -250,3 +250,10 @@ Se han realizado los siguientes cambios para las suscripciones de evento Versió
    <td>Ninguno. Si tiene un filtro en el campo afectado, recibirá un evento <code>UPDATE</code> solo si ese campo ha cambiado realmente, no si ha cambiado algún otro valor de parámetro.
  </tbody> 
 </table>
+
+
+## Actualización de la versión de suscripción del evento en un escenario de Workfront Fusion
+
+Workfront Fusion utiliza suscripciones de eventos para inspeccionar los cambios en Workfront en los escenarios de déclencheur. Puede actualizar la versión de suscripción de evento que Fusion utiliza directamente en un escenario mediante el módulo Workfront > Actualizar versión de carga útil de eventos.
+
+Para obtener instrucciones sobre el uso de este módulo, consulte [Módulos de Workfront](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-modules) en la documentación de Workfront Fusion.
