@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
+source-git-commit: cd37163c78012fa4bcbe19ef92ec4d3ceecfb905
 workflow-type: tm+mt
-source-wordcount: '2692'
+source-wordcount: '2684'
 ht-degree: 68%
 
 ---
@@ -394,7 +394,7 @@ Actualice la configuración de la vista de línea de tiempo para indicar qué in
 
    Los registros se muestran en la vista de línea de tiempo con las especificaciones seleccionadas.
 
-### Utilice la función Desglose para mostrar los registros conectados en la vista de cronología
+### Desglose de registros conectados en la vista de cronología
 
 Puede mostrar los registros conectados en la vista de escala de tiempo de un registro mediante la función Desglose. El desglose de registros por sus conexiones le permite ver las escalas de tiempo de otros registros conectados y comprender cómo pueden afectar al rendimiento y a los plazos de los registros.
 
@@ -418,7 +418,7 @@ Puede mostrar los registros conectados en la vista de escala de tiempo de un reg
 * Las fechas de inicio y finalización de los tipos de registro que desea mostrar en la vista de escala de tiempo deben estar en orden cronológico. Por ejemplo, si un registro tiene una fecha de inicio del 31 de enero y una fecha de finalización del 1 de enero, no se muestra en la vista de escala de tiempo. Para obtener más información, consulte la sección [Administrar una vista de escala de tiempo](#manage-a-timeline-view) en este artículo.
 * Hay un límite de 5 tipos de registros que puede incluir en el desglose de un registro.
 
-#### Desglose de registros conectados en la vista de cronología
+#### Desglose de registros conectados
 
 1. Cree una vista de línea de tiempo para un tipo de registro, tal y como se describe en el artículo [Administración de vistas de registros](/help/quicksilver/planning/views/manage-record-views.md).
 1. (Condicional) Si está viendo la vista de escala de tiempo en el modo Estándar, haga clic en **Desglose**.

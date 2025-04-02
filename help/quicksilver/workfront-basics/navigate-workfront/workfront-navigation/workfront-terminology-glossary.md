@@ -6,9 +6,9 @@ description: El [!DNL Adobe Workfront] glosario enumera términos de uso común 
 author: Alina
 feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
-source-git-commit: 158af1f48fba264b98108b5f0a573b7904eb875e
+source-git-commit: cd37163c78012fa4bcbe19ef92ec4d3ceecfb905
 workflow-type: tm+mt
-source-wordcount: '20935'
+source-wordcount: '20999'
 ht-degree: 97%
 
 ---
@@ -299,8 +299,18 @@ La siguiente tabla es una lista de los términos más utilizados en Adobe Workfr
       <li data-mc-conditions="QuicksilverOrClassic.Draft mode"> If the project is&nbsp;added to the Capacity Planner and included in the budget calculation, the value is <i>Included and Calculated</i>. </li>
      --> 
     </ul> </td> 
-  </tr> 
-  <tr> 
+  </tr>
+
+<tr> 
+   <td>[!UICONTROL Desglose]</td> 
+   <td> <p>En Workfront Planning, puede mostrar los registros conectados en la vista de escala de tiempo de un registro mediante la función Desglose. </p>
+   <p>El desglose de registros por sus conexiones le permite ver las escalas de tiempo de otros registros conectados y comprender cómo pueden afectar al rendimiento y a los plazos de los registros. </p>
+   <p>Los registros conectados se muestran anidados en su registro respectivo. </p>
+   <p>Para obtener más información, consulte <a href="/help/quicksilver/planning/views/manage-the-timeline-view.md">Administrar la vista de línea de tiempo</a>. </p>
+   </td> 
+    </tr>
+
+<tr> 
    <td>[!UICONTROL Budgeted Completion Date]</td> 
    <td> <p>Este campo está obsoleto. Cualquier información que pueda mostrar este campo está relacionada con una función que [!DNL Workfront] ha eliminado. Este campo no puede actualizarse. </p>
    <p> Este campo sigue siendo visible en los informes y listas del [!UICONTROL project].</p>  </td> 
@@ -2064,7 +2074,7 @@ Las entradas de horas pueden tener uno de los siguientes estados en Workfront:
   </tr> 
   <tr> 
    <td>[!UICONTROL Scope Change]</td> 
-   <td>Una [!UICONTROL Audit Trail] que, si está activa, genera una nota cada vez que se realiza un cambio en el ámbito de un proyecto o tarea, como si se cambia una [!UICONTROL Task Duration] o las [!UICONTROL Predecessors].</td> 
+   <td>Un [!UICONTROL Audit Trail] que, si está activo, genera una nota cada vez que se realiza un cambio en el ámbito de un proyecto o tarea, como si se cambia una [!UICONTROL Task Duration] o los [!UICONTROL Predecessors].</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Section]</td> 
