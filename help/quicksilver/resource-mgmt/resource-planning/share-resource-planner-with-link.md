@@ -6,10 +6,10 @@ description: Adobe Workfront puede generar una URL única para la vista de usuar
 author: Lisa
 feature: Resource Management
 exl-id: feb2ec26-f1a6-4581-9e1d-be948a2170c3
-source-git-commit: a3b2ac192e1f37e0c3d16d059ed96e8d5cadf8be
+source-git-commit: af0f1b9baef20c5910b13a52207531887a8524c5
 workflow-type: tm+mt
-source-wordcount: '655'
-ht-degree: 98%
+source-wordcount: '666'
+ht-degree: 95%
 
 ---
 
@@ -56,7 +56,6 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
 
 +++
 
-
 Tenga en cuenta lo siguiente al generar la URL única para la vista de usuario del planificador de recursos:
 
 * Solo puede obtener una URL única para la vista de usuario. La opción para generar la dirección URL no existe en las vistas de proyectos o roles.
@@ -80,18 +79,18 @@ Para obtener una dirección URL única en la vista de usuario del Planificador d
    * Trimestre
 
 1. (Opcional) Seleccione si desea ver la información por **ETP** u **Horas**.\
-   ![RP_hours_or_fte_in_user_view.png](assets/rp-hours-or-fte-in-user-view.png)
+   ![Seleccionar FTE u Horas](assets/rp-hours-or-fte-in-user-view.png)
 
 1. (Opcional) Aplique filtros al Planificador de recursos.\
    Para obtener información acerca de cómo aplicar filtros, consulte [Información sobre filtros en el Planificador de recursos](../../resource-mgmt/resource-planning/filter-resource-planner.md).
 
 1. Haga clic en el icono **hipervínculo**.\
-   ![RP_Storm_generate_URL_with_copy_URL_link.png](assets/rp-storm-generate-url-with-copy-url-link-350x182.png)
+   ![Icono de hipervínculo y dirección URL](assets/rp-generate-url-from-link-icon.png)
 
 1. Haga clic en **Copiar URL**.\
    Esto copia la dirección URL única del Planificador de recursos en la vista de usuario en el portapapeles.
 
-1. (Opcional) Realice una de las siguientes acciones:  
+1. (Opcional) Realice una de las siguientes acciones:
 
    * Pegue la dirección URL en otra aplicación para enviarla a otro usuario.\
      El usuario debe iniciar sesión en Workfront para ver el Planificador de recursos en la vista de usuario.
@@ -114,4 +113,4 @@ Para obtener una dirección URL única en la vista de usuario del Planificador d
    Para obtener información sobre cómo añadir tableros a una plantilla de diseño, consulte [Crear y administrar plantillas de diseño](../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).\
    Para obtener información acerca de cómo compartir paneles, consulte [Compartir un panel](../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/share-dashboard.md).\
    Al ver la dirección URL compartida, los usuarios pueden ver la información con la configuración que aplicó originalmente al Planificador de recursos. Deben iniciar sesión en Workfront para ver la URL compartida.\
-   ![user_view_dashboard_from_unique_url.png](assets/user-view-dashoard-from-unique-url-350x85.png)
+   ![Panel de muestra con el Planificador de recursos mostrado](assets/user-view-dashoard-from-unique-url-350x85.png)
