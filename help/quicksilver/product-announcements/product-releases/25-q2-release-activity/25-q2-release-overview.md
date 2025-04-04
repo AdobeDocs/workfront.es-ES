@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9b78a58e-7ced-4b13-8108-40bd36339667
-source-git-commit: 0ae0e2d3c4e47a1f7344acf18068bba9cbbab597
+source-git-commit: 993b066ecefb4b345c59289d6c6466ef0416d620
 workflow-type: tm+mt
-source-wordcount: '1628'
+source-wordcount: '1640'
 ht-degree: 25%
 
 ---
@@ -298,9 +298,11 @@ A medida que mejoramos la plataforma de Workfront, es crucial mantener nuestras 
 
 #### Se está eliminando la vista de Agile heredada en un proyecto
 
-La vista de Agile heredada en un proyecto se eliminará de Workfront con la versión 25.3 el 13 de marzo de 2025. Aún podrá ver sus tareas en una vista de Agile en un proyecto haciendo clic en el icono Tableros.
+La vista de Agile heredada en un proyecto se eliminará de Workfront con la versión 25.3 el 13 de marzo de 2025. Aún podrá ver sus tareas en una vista de Agile en un proyecto haciendo clic en el icono Tableros. Las herramientas Agile heredadas existentes siguen estando disponibles en el área de Equipos.
 
-Para obtener más información acerca del uso de la vista Agile, vea [Administrar un proyecto en la vista Agile](/help/quicksilver/manage-work/projects/manage-projects/manage-projects-in-agile-view.md).
+La siguiente imagen muestra la opción Agile heredada que se eliminará:
+![vínculo de vista Agile heredado](assets/project-agile-board-view.png)
+
 
 #### Desaprobación de Analytics mejorada
 
