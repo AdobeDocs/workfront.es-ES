@@ -1,21 +1,21 @@
 ---
 product-previous: workfront-goals
 navigation-topic: goal-review-and-sections
-title: Revise los gráficos para comprender las tendencias del progreso de las metas en Adobe Workfront Goals
+title: Revisar gráficos para comprender las tendencias de progreso de los objetivos en los objetivos de Adobe Workfront
 description: Puede ver el estado general de sus metas y su tendencia de progreso en el tiempo en la sección Gráficos de Adobe Workfront Goals. Los gráficos de esta sección no desglosan el progreso de cada meta, sino que le proporcionan una instantánea integral del estado de progreso de todas las metas, así como su tendencia de progreso a lo largo del tiempo durante un período especificado.
 author: Alina
 feature: Workfront Goals
 exl-id: 8d5f3617-c7bf-44ce-99b0-d4ebda106f25
-source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
+source-git-commit: a64f6e507d74201cba1455fbbc6af77c2b7ba058
 workflow-type: tm+mt
-source-wordcount: '987'
-ht-degree: 97%
+source-wordcount: '966'
+ht-degree: 94%
 
 ---
 
 # Revise los gráficos para comprender las tendencias del progreso de las metas en Adobe Workfront Goals
 
-<!-- drafted mostly for P&P release-->
+<!--Audited for P&P only: 4/2025-->
 
 Puede ver el estado general de sus metas y su tendencia de progreso en el tiempo en la sección Gráficos de Adobe Workfront Goals. Los gráficos de esta sección no desglosan el progreso de cada meta, sino que le proporcionan una instantánea integral del estado de progreso de todas las metas, así como su tendencia de progreso a lo largo del tiempo durante un período especificado.
 
@@ -25,7 +25,9 @@ Puede ver el estado general de sus metas y su tendencia de progreso en el tiempo
 
 ## Requisitos de acceso
 
-Debe tener el siguiente acceso para realizar las acciones descritas en este artículo:
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
+
+Debe tener lo siguiente:
 
 <table style="table-layout:auto">
 <col>
@@ -42,7 +44,7 @@ Debe tener el siguiente acceso para realizar las acciones descritas en este art�
 <p>Para la estructura actual de plan y licencias: 
 <ul><li> Pro o superior </li>
   <li>Una licencia de Adobe Workfront Goals además de una licencia de Workfront.</li></ul></p>
-   </td> 
+   </td>  
   </tr>
  <tr>
  <td role="rowheader">Licencia de Adobe Workfront*</td>
@@ -54,12 +56,9 @@ Debe tener el siguiente acceso para realizar las acciones descritas en este art�
  <tr>
  <td role="rowheader">Producto*</td>
  <td>
- <p> Nuevo requisito de producto, uno de los siguientes: </p>
-<ul>
-<li>Un plan Select or Prime Adobe Workfront y una licencia adicional de Adobe Workfront Goals.</li>
-<li>Un plan Ultimate Workfront que incluye Workfront Goals de forma predeterminada. </li></ul>
- <p>O</p>
- <p>Requisito de producto actual: un plan de Workfront y una licencia adicional para Adobe Workfront Goals. </p> <p>Para obtener más información, consulte <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requisitos para usar Workfront Goals</a>. </p> </td>
+    <p> Nuevo requisito de producto: Workfront</p>
+    O
+    <p>Requisito actual del producto: además de una licencia de Workfront, debe adquirir una licencia para Adobe Workfront Goals. </p> <p>Para obtener más información, consulte <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requisitos para usar Workfront Goals</a>. </p> </td>
  </tr>
  <tr>
  <td role="rowheader"><p>Nivel de acceso</p></td>
@@ -83,6 +82,8 @@ Debe tener el siguiente acceso para realizar las acciones descritas en este art�
 </table>
 
 *Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Tipos de gráficos en Workfront Goals
 

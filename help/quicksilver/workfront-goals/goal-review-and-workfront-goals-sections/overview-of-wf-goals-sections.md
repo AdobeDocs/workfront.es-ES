@@ -2,19 +2,21 @@
 content-type: overview
 product-previous: workfront-goals
 navigation-topic: goal-review-and-sections
-title: Información general sobre las secciones de Adobe Workfront Goals
+title: Información general sobre las secciones Objetivos de Adobe Workfront
 description: Puede acceder a listas de objetivos o metas individuales y administrarlas desde varias secciones de Adobe Workfront Goals. La sección que utilice dependerá del propósito que desee lograr al trabajar con metas.
 author: Alina
 feature: Workfront Goals
 exl-id: 915f8c62-e35a-41a0-8a63-40c28468c55a
-source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
+source-git-commit: a64f6e507d74201cba1455fbbc6af77c2b7ba058
 workflow-type: tm+mt
 source-wordcount: '699'
-ht-degree: 98%
+ht-degree: 97%
 
 ---
 
 # Información general sobre las secciones de Adobe Workfront Goals
+
+<!--Audited for P&P only: 4/2025-->
 
 >[!IMPORTANT]
 >

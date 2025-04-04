@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
-source-git-commit: a8d2447eea4ca8d814035d183f40921cad49a0d8
+source-git-commit: a64f6e507d74201cba1455fbbc6af77c2b7ba058
 workflow-type: tm+mt
-source-wordcount: '1878'
+source-wordcount: '1892'
 ht-degree: 8%
 
 ---
@@ -214,6 +214,8 @@ Si habilita esta configuración, los formularios de solicitud de Workfront Plann
      >[!NOTE]
      >
      >Las notificaciones por correo electrónico y en la aplicación solo son visibles cuando la instancia de Workfront de su organización está integrada en la experiencia unificada de Adobe.
+     >
+     >Hay un vínculo a la solicitud en la confirmación de correo electrónico o la notificación de aprobación.
 
    1. (Opcional) Haga clic en **Ver su solicitud** en el mensaje de confirmación, para abrir la solicitud, o haga clic en el icono **X** para cerrar la confirmación.
 
