@@ -1,23 +1,29 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: Información general sobre la decisión limitada de documentos y pruebas para usuarios no pagados 
-description: Las decisiones sobre pruebas y documentos son limitadas para todas las licencias de Workfront sin pago. Los límites se restablecen por usuario cada mes.
+title: 'Información general sobre decisiones limitadas de documentos y de la revisión para usuarios sin pago '
+description: Las decisiones de revisiones y documentos son limitadas para todas las licencias de Workfront que no son de pago. Los límites se restablecen por usuario cada mes.
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: f3e68fd8-723a-4e49-9cf1-823e36d04e55
-source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
+source-git-commit: cc3930f01d5e2162d7c778d061a08f937877c3c0
 workflow-type: tm+mt
-source-wordcount: '219'
-ht-degree: 3%
+source-wordcount: '259'
+ht-degree: 86%
 
 ---
 
-# Información general sobre la decisión limitada de documentos y pruebas para usuarios no pagados
+# Información general sobre decisiones limitadas de documentos y de la revisión para usuarios que no han pagado
 
-Las decisiones sobre pruebas y documentos son limitadas para todas las licencias Workfront no pagadas en los nuevos planes. Para obtener más información, vea [Información general sobre nuevas licencias](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md).
+Las decisiones sobre revisiones y documentos son limitadas para todas las licencias de Workfront sin pago en los nuevos planes. Cuando se le asigna como aprobador de un documento o prueba, debe tomar la decisión de adelantar el proceso de revisión y aprobación.
 
-Los límites se restablecen por usuario cada mes. Los límites de decisión para cada licencia difieren según el plan en el que se encuentre:
+Las siguientes opciones de decisión se contabilizan en el límite mensual:
+
+* Aprobar
+* Aprobar con cambios
+* Necesita trabajo
+
+Los límites se restablecen por usuario cada mes. Los límites de decisión para cada licencia difieren según el plan que tenga:
 
 <table>
   <tr>
@@ -27,13 +33,13 @@ Los límites se restablecen por usuario cada mes. Los límites de decisión para
    </td>
    <td><strong>Colaborador</strong> 
    </td>
-   <td><strong>Claro</strong> 
+   <td><strong>Light</strong> 
    </td>
-   <td><strong>Estándar</strong> 
+   <td><strong>Standard</strong> 
    </td>
   </tr>
   <tr>
-   <td><strong>Seleccionar</strong> 
+   <td><strong>Select</strong> 
    </td>
    <td>3 
    </td>
@@ -62,19 +68,21 @@ Los límites se restablecen por usuario cada mes. Los límites de decisión para
   </tr>
 </table>
 
+Para más información, consulte [Información general sobre nuevas licencias](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md)
+
 ## Usuarios externos
 
-Si un usuario externo alcanza su límite de decisiones, no perderá acceso a Workfront y aún podrá tomar decisiones. Adobe Workfront evaluará los promedios.
+Si un usuario externo alcanza su límite de decisiones, no perderá el acceso a Workfront y podrá seguir tomando decisiones. Adobe Workfront evaluará los promedios.
 
 ## Usuarios colaboradores
 
-Una vez que un usuario con una licencia de colaborador alcanza su límite de decisiones, se actualiza automáticamente a la licencia básica con decisiones ilimitadas sobre pruebas y documentos. Para obtener más información sobre la licencia Light, consulte la sección [Nivel de acceso Light](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md) en el artículo [Información general sobre los niveles de acceso](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md).
+Una vez que un usuario con una licencia de aportación alcanza su límite de decisiones, se actualiza automáticamente a la licencia básica con decisiones ilimitadas sobre revisiones y documentos. Para obtener más información sobre la licencia Light, consulte la sección [Nivel de acceso Light](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md) en el artículo [Información general sobre los niveles de acceso](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md).
 
 >[!NOTE]
 >
 >El administrador de Workfront recibirá una notificación por correo electrónico con respecto a esta actualización.
 
 
-## Ver el número de decisiones de un usuario
+## Visualización del número de decisiones de un usuario
 
-Puede ver el número de decisiones de un usuario en el área Usuarios de Workfront. Para obtener más información, vea [Ver el número de decisiones de todos los usuarios](/help/quicksilver/review-and-approve-work/tips-tricks-troubleshooting-approvals/view-number-of-decisions-for-users.md).
+Puede ver el número de decisiones de un usuario en el área usuarios de Workfront. Para obtener más información, consulte [Visualización del número de decisiones de todos los usuarios](/help/quicksilver/review-and-approve-work/tips-tricks-troubleshooting-approvals/view-number-of-decisions-for-users.md).

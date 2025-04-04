@@ -6,9 +6,9 @@ description: La herramienta de revisión de Adobe Workfront es una extensión de
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 4fea13cc-2d56-466e-8851-6134782e7e80
-source-git-commit: 91f2dd12a91889c2cd1c2c01c93402e161684665
+source-git-commit: 7b02d5670ebba1456e37e6fd815e7812ec06def2
 workflow-type: tm+mt
-source-wordcount: '496'
+source-wordcount: '522'
 ht-degree: 1%
 
 ---
@@ -30,8 +30,34 @@ Se recomienda utilizar el Visor de corrección de escritorio si el contenido que
 * Impide abrir el sitio en iFrames, como Figma
 
 
+## Instalación de la extensión
 
-## Hacer que la herramienta de revisión de Adobe Workfront sea el visor predeterminado para las pruebas de URL y ZIP
+### Requisitos previos
+
+* Debe quitar la extensión heredada de Web Viewer para utilizar la herramienta de revisión de Adobe Workfront.
+
+### Instalación de la extensión
+
+<!--This extension is required to review conent in GS and Ex.
+
+You must install the extension to reiew content in GenS and Express.
+
+To review content in GS, Express, or Wou must install the extension if you are using GenStuido or Creative cloud express-->
+
+Los revisores y aprobadores deben instalar la herramienta de revisión de Adobe Workfront. en uno de los siguientes exploradores:
+
+* [Extensión de Firefox](https://addons.mozilla.org/en-US/firefox/addon/adobe-workfront-review-tool/)
+
+* [Extensión de Chrome](https://chromewebstore.google.com/detail/adobe-workfront-review-to/lhdepbgeilldghlfnankdnponhljpgml)
+
+* [Edge](https://microsoftedge.microsoft.com/addons/detail/adobe-workfront-review-to/llhapmaiiddmcamgeapaipjpagnoijen)
+
+
+Para que las pruebas interactivas se abran automáticamente en la herramienta de revisión de Adobe Workfront, un administrador de Workfront debe actualizar la configuración de revisión en Workfront como se describe en las secciones a continuación.
+
+## Actualizar valores predeterminados de revisión de Workfront
+
+### Hacer que la herramienta de revisión de Adobe Workfront sea el visor predeterminado para las pruebas de URL y ZIP
 
 Para utilizar la herramienta de revisión web para pruebas de URL y ZIP, un administrador de Workfront debe ajustar la configuración predeterminada para las pruebas interactivas.
 
@@ -43,9 +69,9 @@ Para utilizar la herramienta de revisión web para pruebas de URL y ZIP, un admi
 
 >[!NOTE]
 >
->Este cambio se aplica a todas las pruebas interactivas en los entornos de Previsualización y Producción. Se recomienda probar la nueva experiencia en el entorno de vista previa antes de habilitarla en producción. Puede volver fácilmente al Visor de escritorio cambiando la configuración de la cuenta a **Habilitada para todas las pruebas interactivas**.
+>Este cambio se aplica a todas las pruebas interactivas de la instancia de Workfront. Se recomienda probar la nueva experiencia en el entorno de vista previa antes de habilitarla en producción. Puede volver fácilmente al Visor de escritorio cambiando la configuración de la cuenta de **Visor de corrección de escritorio para pruebas interactivas** a **Habilitado para todas las pruebas interactivas**.
 
-## Hacer que la herramienta de revisión de Adobe Workfront sea el visor predeterminado solo para pruebas ZIP
+### Hacer que la herramienta de revisión de Adobe Workfront sea el visor predeterminado solo para pruebas ZIP
 
 Para utilizar la herramienta de revisión web solo para pruebas ZIP, un administrador de Workfront debe ajustar la configuración predeterminada para las pruebas interactivas.
 
@@ -57,20 +83,7 @@ Para utilizar la herramienta de revisión web solo para pruebas ZIP, un administ
 
 >[!NOTE]
 >
->Este cambio se aplica a todas las pruebas interactivas en los entornos de Previsualización y Producción. Se recomienda probar la nueva experiencia en el entorno de vista previa antes de habilitarla en producción. Puede volver fácilmente al Visor de escritorio cambiando la configuración de la cuenta a **Habilitada para todas las pruebas interactivas**.
+>Este cambio se aplica a todas las pruebas de ZIP de la instancia de Workfront. Se recomienda probar la nueva experiencia en el entorno de vista previa antes de habilitarla en producción. Puede volver fácilmente al Visor de escritorio cambiando la configuración de la cuenta de **Visor de corrección de escritorio para pruebas interactivas** a **Habilitado para todas las pruebas interactivas**.
 
-## Instalación de la extensión
 
-Los revisores y aprobadores deben instalar la herramienta de revisión de Adobe Workfront. en uno de los siguientes exploradores:
 
-* [Extensión de Firefox](https://addons.mozilla.org/en-US/firefox/addon/adobe-workfront-review-tool/)
-
-* [Extensión de Chrome](https://chromewebstore.google.com/detail/adobe-workfront-review-to/lhdepbgeilldghlfnankdnponhljpgml)
-
-* [Edge](https://microsoftedge.microsoft.com/addons/detail/adobe-workfront-review-to/llhapmaiiddmcamgeapaipjpagnoijen)
-
-Una vez instalada la extensión, las pruebas interactivas se abren en la herramienta de revisión de Adobe Workfront automáticamente.
-
->[!IMPORTANT]
->
->Debe quitar la extensión heredada de Web Viewer para utilizar la herramienta de revisión de Adobe Workfront.
