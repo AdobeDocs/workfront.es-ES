@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 3ea3acc79a0f2d9c61b4ca7fff68855a9a7b1de7
+source-git-commit: 80cb8ffa0495c7d163de8fb99dba84e6442aa938
 workflow-type: tm+mt
-source-wordcount: '1706'
+source-wordcount: '1774'
 ht-degree: 0%
 
 ---
@@ -211,6 +211,18 @@ Para ver este cambio, ve a Equipos > elige un equipo > Registro de pendientes y 
 ## Documentos
 
 +++Expandir para ver las actualizaciones de la interfaz de documentos
+
+### Actualizaciones de la interfaz de la página compartida para documentos externos
+
+**Versión preliminar: 3 de abril de 2025; versión de producción: a partir del 10 de abril de 2025**
+
+Hemos actualizado la página que ven los usuarios externos de la página cuando se comparte un documento con ellos. Desde esta página, los usuarios externos pueden
+
+* Descargar el documento
+* Tomar una decisión de aprobación
+* Abrir el visor de revisión
+
+Esta actualización incluye un diseño más moderno y coherente con otras áreas de Workfront.
 
 ### Actualización de la interfaz del área de Aprobaciones de un documento
 
