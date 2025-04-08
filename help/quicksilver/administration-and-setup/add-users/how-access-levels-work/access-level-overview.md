@@ -10,9 +10,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d297d8a4-5a4e-418f-983a-19545aeb0668
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: d50ff253b0557c282496deae2a488cff4ab71775
 workflow-type: tm+mt
-source-wordcount: '1744'
+source-wordcount: '1720'
 ht-degree: 99%
 
 ---
@@ -308,13 +308,13 @@ A continuación se muestran las opciones de acceso más altas disponibles para l
 
 Este nivel de acceso no está adjunto a una licencia de Workfront de pago. Es el nivel de acceso más restrictivo, diseñado principalmente para colaboradores como consultores externos que no inician sesión en Workfront, pero que necesitan revisar, descargar o ver documentos ocasionalmente.
 
-Los usuarios de Workfront pueden asignar tareas a usuarios externos, aunque estos no puedan iniciar sesión en el sistema. Sin embargo, no es aconsejable hacerlo, porque ese trabajo quedaría sin resolver en el sistema.
-
 Usuarios con nivel de acceso de usuario externo:
 
 * Solo pueden ver documentos e informes de calendario que se han compartido con ellos
 * Vea los usuarios que comparten documentos e informes de calendario con ellos
 * Aprobar los documentos que se comparten con ellos
+
+External users cannot be assigned to work items.
 
 No es posible modificar este nivel de acceso.
 
@@ -386,7 +386,7 @@ En la tabla siguiente se compara el acceso general de un usuario a los objetos (
 
 Las actividades que un usuario puede realizar con un objeto se definen mediante una combinación de su nivel de acceso y los permisos que se les otorgan.
 
-![Jerarquía del modelo de seguridad](assets/security-model-hierachy-copy.png)
+![Security model hierarchy](assets/security-model-hierachy-copy.png)
 
 ### Conceder permisos mediante el uso compartido de objetos
 
