@@ -2,19 +2,19 @@
 product-area: workfront-integrations
 keywords: adobe,box,dropbox,gsuite,google,jira,microsoft,salesforce,sharepoint,slack,webdam,zoom
 navigation-topic: workfront-integrations-navigation-topic
-title: Información general sobre las integraciones de Adobe Workfront
+title: Información general sobre las integraciones integradas de Adobe Workfront
 description: Puede integrar [!DNL Adobe Workfront] con aplicaciones de terceros. Estas integraciones pueden ampliar la utilidad de [!DNL Workfront] y adaptarla a las necesidades de su organización. Por ejemplo, si es un trabajador creativo del sector del marketing, puede utilizar el complemento de Adobe Creative Cloud para exportar recursos directamente de Photoshop a Workfront.
 feature: Workfront Integrations and Apps
 author: Becky
 exl-id: ca51cb23-9332-4ce5-aefb-f333455cfc7c
-source-git-commit: 502e3fae874df91d4699867dcd25812659a3ffdf
+source-git-commit: 436eb2ef32363aa28593e74f7464dcd6837b2095
 workflow-type: tm+mt
-source-wordcount: '502'
-ht-degree: 85%
+source-wordcount: '539'
+ht-degree: 79%
 
 ---
 
-# Información general sobre las integraciones de Adobe Workfront
+# Información general sobre las integraciones integradas de Adobe Workfront
 
 <!-- Audited: 12/2023 -->
 
@@ -47,7 +47,7 @@ Actualmente, las integraciones integradas disponibles en Workfront son las sigui
      <p>Para obtener información e instrucciones, consulte <a href="https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-integrations/workfront-for-creative-cloud/install-wf-cc/wf-cc-install-toc.html" class="MCXref xref">Instalar el complemento de [!DNL Adobe Workfront] para aplicaciones de [!DNL Creative Cloud]</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>ADOBE EXPERIENCE MANAGER ASSETS y ASSETS ESSENTIALS </p>  </p> </td> 
+   <td role="rowheader"> <p>Adobe Experience Manager Assets y Assets Essentials </p>  </p> </td> 
    <td> 
     <ul> 
      <li>Crear automáticamente carpetas vinculadas entre Workfront y Adobe Experience Manager 
@@ -120,7 +120,7 @@ Actualmente, las integraciones integradas disponibles en Workfront son las sigui
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>Microsoft Teams</p> <p> <img src="assets/msteamslogo.png" style="max-width: 80px;"> </p> </td> 
+   <td role="rowheader"> <p>Microsoft Teams</p> <p> <img src="assets/msteamslogo.png" style="max-width: 80px;"> </p><b>NOTA</b>: A partir del 1 de julio de 2025, Microsoft eliminará la compatibilidad con la aplicación de escritorio Classic Teams. Como resultado, la integración de Workfront con Microsoft Teams no será compatible una vez que la aplicación de escritorio Classic Teams ya no esté disponible. </p> </td> 
    <td> 
     <ul> 
      <li>Obtener notificaciones de [!DNL Workfront] en [!DNL Microsoft Teams] </li> 

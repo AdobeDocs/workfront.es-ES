@@ -1,15 +1,15 @@
 ---
 product-area: workfront-integrations;agile-and-teams;user-management
 navigation-topic: workfront-for-microsoft-teams
-title: Acceder a  [!DNL Adobe Workfront] desde [!DNL Microsoft] equipos
+title: Acceder a  [!DNL Adobe Workfront] desde [!DNL Microsoft] Teams
 description: Puedes acceder a [!DNL Adobe Workfront] desde [!DNL Microsoft Teams] y realizar varias acciones en [!DNL Workfront] escribiendo comandos en el canal de bots de Workfront o en cualquier otro canal del equipo.
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: a12277e8-2c2e-4b53-990f-6ee9a6541492
-source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
+source-git-commit: 41d898e82bc5b06498966ba938b68ed10e742d3b
 workflow-type: tm+mt
-source-wordcount: '466'
-ht-degree: 1%
+source-wordcount: '485'
+ht-degree: 92%
 
 ---
 
@@ -19,18 +19,18 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->Actualmente, la integración de Adobe Workfront para Microsoft Teams solo es compatible con la experiencia clásica de Microsoft Teams.
+>A partir del 1 de julio de 2025, Microsoft eliminará la compatibilidad con la aplicación de escritorio Classic Teams. Como resultado, la integración de Workfront con Microsoft Teams no será compatible una vez que la aplicación de escritorio Classic Teams haya dejado de estar disponible.
 
-Puede obtener acceso a [!DNL Adobe Workfront] desde [!DNL Microsoft Teams] y realizar varias acciones en [!DNL Workfront] escribiendo comandos en el canal de bots [!DNL Workfront] o en cualquier otro canal del equipo.
+Puede obtener acceso a [!DNL Adobe Workfront] desde [!DNL Microsoft Teams] y realizar varias acciones en [!DNL Workfront] escribiendo comandos en el canal de bots de [!DNL Workfront] o en cualquier otro canal del equipo.
 
 Puede hacer lo siguiente en [!DNL Workfront] desde [!DNL Microsoft Teams]:
 
-* Buscar proyectos, tareas o problemas
-* Creación de tareas personales
+* Crear proyectos, tareas o problemas
+* Crear tareas personales
 * Responder a notificaciones
 * Administrar aprobaciones de documentos
 
-Los comandos que usa de [!DNL Microsoft Teams] para realizar estas acciones son diferentes según el canal desde el que desee tener acceso a [!DNL Workfront].
+Los comandos que utiliza desde [!DNL Microsoft Teams] para realizar estas acciones son diferentes según el canal desde el que desee tener acceso a [!DNL Workfront].
 
 >[!NOTE]
 >
@@ -53,7 +53,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licencia*</td> 
    <td> <p>Nuevo: [!UICONTROL Standard]</p>
-   <p>Actual: [!UICONTROL Trabajo], [!UICONTROL Plan]</p> </td> 
+   <p>Actual: [!UICONTROL Work], [!UICONTROL Plan]</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -66,23 +66,23 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 ## Requisitos previos
 
-Puede crear tareas personales en [!DNL Adobe Workfront] a partir de [!DNL Microsoft Teams] si se cumplen las siguientes condiciones:
+Puede crear tareas personales en [!DNL Adobe Workfront] desde [!DNL Microsoft Teams] si se cumplen las siguientes condiciones:
 
 * El propietario de un equipo ha instalado y configurado [!DNL Workfront for Microsoft Teams] para su equipo.
 * Ha iniciado sesión en [!DNL Workfront] desde [!DNL Microsoft Teams].
 
-## Acceder a [!DNL Workfront] desde el canal de chat de bots [!DNL Workfront]
+## Acceder a [!DNL Workfront] desde el canal de chat de bots de [!DNL Workfront]
 
-Debe iniciar sesión en Workfront.
+Debe haber iniciado sesión en Workfront.
 
-1. Abra el canal de chat de bots **[!DNL Workfront]**.
+1. Abra el canal de chat de bots de **[!DNL Workfront]**.
 1. Haga clic en el icono **[!DNL Workfront]** debajo del campo de texto para mostrar el cuadro de búsqueda.
 
-   ![equipos_search_box_in_the_bot_channel.PNG](assets/teams-search-box-in-the-bot-channel-350x456.png)
+   ![teams_search_box_in_the_bot_channel.PNG](assets/teams-search-box-in-the-bot-channel-350x456.png)
 
 1. Empiece a escribir el nombre de un proyecto, tarea o problema.
 
-   Para obtener información acerca de cómo buscar elementos, vea la sección [Buscar y compartir [!DNL Adobe Workfront] elementos en [!DNL Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/search-for-and-share-wf-items-in-ms-teams.md) in the article [Search for and share [!DNL Adobe Workfront] elementos en [!DNL Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/search-for-and-share-wf-items-in-ms-teams.md).
+   Para obtener información acerca de cómo buscar elementos, consulte la sección [Buscar y compartir [!DNL Adobe Workfront] elementos en [!DNL Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/search-for-and-share-wf-items-in-ms-teams.md) in the article [Search for and share [!DNL Adobe Workfront] elementos en [!DNL Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/search-for-and-share-wf-items-in-ms-teams.md).
 
 1. Haga clic en el campo **[!UICONTROL Escriba sus preguntas aquí]**.
 
@@ -90,23 +90,23 @@ Debe iniciar sesión en Workfront.
 
 1. Realice una de las siguientes acciones:
 
-   * Haga clic en **[!UICONTROL ¿Qué puedo hacer?]**, luego **[!UICONTROL Iniciar sesión]** o **[!UICONTROL Cerrar sesión]** de [!DNL Workfront], crear una **[!UICONTROL nueva tarea]** (tarea personal) en [!DNL Workfront] o obtener **[!UICONTROL Ayuda]** mediante la lista de comandos disponibles.
+   * Haga clic en **[!UICONTROL ¿Qué puedo hacer?]**, luego en **[!UICONTROL Iniciar sesión]** o **[!UICONTROL Cerrar sesión]** de [!DNL Workfront], cree una **[!UICONTROL Nueva tarea]** (tarea personal) en [!DNL Workfront] u obtenga **[!UICONTROL Ayuda]** mediante la lista de comandos disponibles.
 
    * Obtenga acceso a [!DNL Workfront] directamente escribiendo un comando en el campo **[!UICONTROL Escriba sus preguntas aquí]**.
 
      Los comandos no distinguen entre mayúsculas y minúsculas.
 
-     El bot [!DNL Workfront] responde con su solicitud en el canal de chat de bots [!DNL Workfront].
+     El bot de [!DNL Workfront] responde con su solicitud en el canal de chat de bots de [!DNL Workfront].
 
-## Acceder a [!DNL Workfront] desde un canal de equipo
+## Acceda a [!DNL Workfront] desde un canal de equipo
 
-Debe iniciar sesión en Workfront.
+Debe haber iniciado sesión en Workfront.
 
 1. Abra un canal de equipo y escriba **@[!DNL Workfront]**, luego seleccione **[!DNL Workfront].**
 
-1. Haz clic en **[!UICONTROL Buscar]** para buscar un proyecto, tarea o problema.
+1. Haga clic en **[!UICONTROL Buscar]** para buscar un proyecto, tarea o problema.
 
-   Para obtener información acerca de cómo buscar elementos, vea el artículo [Buscar y compartir [!DNL Adobe Workfront] elementos en [!DNL Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/search-for-and-share-wf-items-in-ms-teams.md) section in the [Search for and share [!DNL Adobe Workfront] elementos de [!DNL Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/search-for-and-share-wf-items-in-ms-teams.md).
+   Para obtener información acerca de cómo buscar elementos, consulte el artículo [Buscar y compartir [!DNL Adobe Workfront] elementos en [!DNL Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/search-for-and-share-wf-items-in-ms-teams.md) section in the [Search for and share [!DNL Adobe Workfront] elementos de [!DNL Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/search-for-and-share-wf-items-in-ms-teams.md).
 
 1. Escriba cualquiera de los siguientes comandos para realizar estas acciones en Workfront.\
    Los comandos no distinguen entre mayúsculas y minúsculas:
@@ -115,10 +115,10 @@ Debe iniciar sesión en Workfront.
    * **[!DNL Log out]** para cerrar la sesión de Workfront
    * **[!DNL New task]** para crear una nueva tarea personal
 
-     Para obtener información acerca de cómo crear tareas a partir de [!DNL Microsoft Teams], vea [Crear [!DNL Adobe Workfront] tareas a partir de [!DNL Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/create-workfront-tasks-from-ms-teams.md).
+     Para obtener información acerca de cómo crear tareas desde [!DNL Microsoft Teams], consulte [Crear [!DNL Adobe Workfront] tareas desde [!DNL Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/create-workfront-tasks-from-ms-teams.md).
 
    * **[!UICONTROL Ayuda]** para ver una lista de todos los comandos disponibles.
 
-     El bot [!DNL Workfront] responde con su solicitud en el canal de chat de bots [!DNL Workfront].
+     El bot de [!DNL Workfront] responde con su solicitud en el canal de chat de bots de [!DNL Workfront].
 
-1. Vaya al canal de chat de bots [!DNL Workfront] para acceder a [!DNL Workfront] y completar la solicitud.
+1. Vaya al canal de chat de bots de [!DNL Workfront] para acceder a [!DNL Workfront] y completar la solicitud.

@@ -1,15 +1,15 @@
 ---
 content-type: release-notes
 navigation-topic: product-announcements
-title: Prepararse para una versión de  [!DNL Adobe Workfront]
+title: 'Prepararse para una versión de  [!DNL Adobe Workfront] '
 description: Siga estas sugerencias para actualizar sin problemas su organización para cada nueva versión de Workfront.
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 411ad0b1-efb2-40e9-a04c-d06840b9cdce
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: 436eb2ef32363aa28593e74f7464dcd6837b2095
 workflow-type: tm+mt
-source-wordcount: '1234'
+source-wordcount: '1233'
 ht-degree: 0%
 
 ---
@@ -107,7 +107,7 @@ Para ver los vínculos a las descripciones generales de la versión, consulte [V
 
 Algunas funciones nuevas pueden tener el botón &quot;Proporcionar comentarios&quot;. Tenemos en cuenta estos comentarios al preparar el lanzamiento de la función en Producción.
 
-Además, si encuentra un error o tiene algún problema con las nuevas funciones, póngase en contacto con el Soporte técnico de Workfront. Para obtener más información, consulte [Póngase en contacto con Atención al cliente](../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).
+Además, si encuentra un error o tiene algún problema con las nuevas funciones, póngase en contacto con el Soporte técnico de Workfront. Para obtener más información, consulte [Contacto con el servicio de asistencia al cliente](../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).
 
 
 
@@ -125,7 +125,7 @@ A medida que se prepara para comunicar la información de la versión a los usua
 * Boletines internos
 * Correo electrónico
 * Mensajes del Centro de anuncios (reenviados desde [!DNL Workfront] o creados por usted)
-* Anuncios en herramientas de colaboración, como [!DNL Slack] o [!DNL Microsoft Teams]
+* Anuncios sobre herramientas de colaboración, como [!DNL Slack]
 * Seminarios web o formación internos
 
 Puede elegir el equilibrio entre [!DNL Workfront] recursos (como documentación, notas de la versión y formación) con información que se adapte mejor a las necesidades y flujos de trabajo de su organización. Mostrar a los usuarios cómo las nuevas funciones pueden mejorar su trabajo o ahorrar tiempo y energía ayudará a los usuarios a aceptar los cambios, pero puede ahorrar tiempo utilizando las demostraciones o la documentación ya disponible a través de [!DNL Workfront].

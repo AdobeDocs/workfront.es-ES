@@ -9,10 +9,10 @@ author: Becky
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: 50aca40a-f971-42f2-b20f-fa4fff22335e
-source-git-commit: cb38223c4dd8048fd2ab105abce2c9a79b84c43f
+source-git-commit: 436eb2ef32363aa28593e74f7464dcd6837b2095
 workflow-type: tm+mt
-source-wordcount: '1250'
-ht-degree: 91%
+source-wordcount: '1287'
+ht-degree: 88%
 
 ---
 
@@ -103,7 +103,7 @@ Entendemos que las integraciones integradas (nativas) disponibles podrían no sa
    <td> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>ADOBE EXPERIENCE MANAGER ASSETS y ASSETS ESSENTIALS </p>  </p> </td> 
+   <td role="rowheader"> <p>Adobe Experience Manager Assets y Assets Essentials </p>  </p> </td> 
    <td> 
     <ul> 
      <li>Crear automáticamente carpetas vinculadas entre Workfront y Adobe Experience Manager 
@@ -112,7 +112,7 @@ Entendemos que las integraciones integradas (nativas) disponibles podrían no sa
       <li>Conecte sin problemas varios repositorios de Experience Manager Assets a un entorno de Workfront o varios entornos de Workfront a un repositorio de Experience Manager Assets en los ID de organización</li></ul>
      <p>Para obtener información e instrucciones, consulte <a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/aem-asset-integrations.md" class="MCXref xref">Información general sobre las integraciones de Adobe Experience Manager Assets</a></p> 
      </td>
-   <td><ul><li>Workfront debe estar en un Admin Console con un ID de organización asignado.</li><li>Workfront y Experience Manager Assets o los Assets Essentials deben asignarse como un producto al usuario que configura la integración.</li></ul></td>   <td> </td> 
+   <td><ul><li>Workfront debe estar en una Admin Console con un ID de organización asignado.</li><li>Workfront y Experience Manager Assets o Assets Essentials deben asignarse como producto al usuario que configura la integración.</li></ul></td>   <td> </td> 
   </tr> 
   <tr> 
    <td> <p>[!DNL Box]</p> <p> <img src="assets/box,-inc.-logo.png"> </p> </td> 
@@ -229,7 +229,7 @@ Entendemos que las integraciones integradas (nativas) disponibles podrían no sa
      <li>Busque proyectos, tareas y problemas de [!DNL Workfront] </li> 
      <li>Crear tareas personales de [!DNL Workfront] </li> 
      <li>Enviar solicitudes de [!DNL Workfront] </li> 
-    </ul> <p>Para obtener más información, consulte <a href="../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/use-workfront-with-ms-teams.md" class="MCXref xref">[!DNL Adobe Workfront for Microsoft Teams]: índice de artículo </a>.</p> </td> 
+    </ul> <p>Para obtener más información, consulte <a href="../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/use-workfront-with-ms-teams.md" class="MCXref xref">[!DNL Adobe Workfront for Microsoft Teams]: índice de artículo </a>.</p><p><b>NOTA</b>: A partir del 1 de julio de 2025, Microsoft eliminará la compatibilidad con la aplicación de escritorio Classic Teams. Como resultado, la integración de Workfront con Microsoft Teams no será compatible una vez que la aplicación de escritorio Classic Teams ya no esté disponible. </p></td> 
    <td> 
     <ul> 
      <li>Cada equipo de su organización debe instalar la integración si más de un equipo desea utilizarla</li> 

@@ -1,15 +1,15 @@
 ---
 product-area: workfront-integrations;setup
 navigation-topic: workfront-for-microsoft-teams
-title: Instalar [!DNL Adobe Workfront] para Microsofts Teams
+title: Instalar [!DNL Adobe Workfront] para Microsoft Teams
 description: La aplicación  [!DNL Adobe Workfront for Microsoft Teams] te permite realizar acciones básicas en [!DNL Workfront] sin salir de los canales de chat de [!DNL Microsoft Teams] i.
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: a8d4e48c-1ccc-4e6e-a0a0-9b68748590c0
-source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
+source-git-commit: 41d898e82bc5b06498966ba938b68ed10e742d3b
 workflow-type: tm+mt
-source-wordcount: '820'
-ht-degree: 0%
+source-wordcount: '839'
+ht-degree: 17%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Actualmente, la integración de Adobe Workfront para Microsoft Teams solo es compatible con la experiencia clásica de Microsoft Teams.
+>A partir del 1 de julio de 2025, Microsoft eliminará la compatibilidad con la aplicación de escritorio Classic Teams. Como resultado, la integración de Workfront con Microsoft Teams no será compatible una vez que la aplicación de escritorio Classic Teams haya dejado de estar disponible.
 
 
 La aplicación [!DNL Adobe Workfront for Microsoft Teams] le permite realizar acciones básicas en [!DNL Workfront] sin salir de los canales de chat de [!DNL Microsoft Teams].
@@ -46,7 +46,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licencia</td> 
    <td><p>Nuevo: estándar</p>
-    <p>Actual: [!UICONTROL Trabajo], [!UICONTROL Plan]</p> </td> 
+    <p>Actual: [!UICONTROL Work], [!UICONTROL Plan]</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -99,7 +99,7 @@ Como propietario de equipo en [!DNL Microsoft Teams], puede instalar la aplicaci
 
 Si su organización restringe el acceso a la descarga de aplicaciones de la tienda [!DNL Microsoft], debe ponerse en contacto con nuestro equipo de soporte técnico y solicitar un archivo privado de la aplicación [!DNL Workfront for Microsoft Teams] para instalar la aplicación.
 
-Para obtener información sobre cómo comunicarse con nuestro Equipo de soporte, consulte [Comuníquese con Atención al cliente](../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).
+Para obtener información sobre cómo comunicarse con nuestro Equipo de soporte, consulte [Póngase en contacto con el servicio de atención al cliente](../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).
 
 Para instalar [!DNL Workfront for Microsoft Teams] desde un archivo privado:
 
@@ -145,11 +145,11 @@ Para iniciar sesión en [!DNL Workfront] desde [!DNL Microsoft Teams]:
 
    Se abre una nueva pestaña del explorador.
 
-1. Siga las indicaciones para iniciar sesión en [!DNL Workfront] mediante la autenticación mejorada, OAuth 2.0 o su URL de lenguaje de marcado de aserción de seguridad (SAML).
+1. Sigue las indicaciones para iniciar sesión en [!DNL Workfront] utilizando la Autenticación Mejorada, OAuth 2.0 o tu URL de Security Assertion Markup Language (SAML).
 
    >[!NOTE]
    >
-   >* Cuando se le pida que introduzca el dominio de su cuenta de [!DNL Workfront], escríbalo con este formato: *yourCompany&#39;sDomain.my.workfront.com*. El dominio de su empresa suele ser el nombre de su empresa.
+   >* Cuando se le pida que introduzca el dominio de su cuenta de [!DNL Workfront], escríbalo con este formato: *eldominiodesucompañía.my.workfront.com*. El dominio de su empresa suele ser el nombre de su empresa.
    >* La autenticación mejorada no está disponible hasta que un administrador de [!DNL Workfront] la habilite para esta integración.
 
 
