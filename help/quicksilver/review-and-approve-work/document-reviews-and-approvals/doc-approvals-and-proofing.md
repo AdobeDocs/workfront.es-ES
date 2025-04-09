@@ -1,23 +1,23 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: Usar aprobaciones y revisiones de documentos nuevas conjuntamente
-description: Puede utilizar nuevas aprobaciones de documentos con revisión.
+title: Uso conjunto de aprobaciones y pruebas unificadas
+description: Puede utilizar aprobaciones unificadas con revisión.
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: be484629-6e70-4809-ad4c-a489d5814da6
-source-git-commit: 8270a107ba2501eddbb27f52c843c337aa1f8a99
+source-git-commit: 4038180d69d4a8027f33b5bafd2104c7c6916b82
 workflow-type: tm+mt
-source-wordcount: '950'
+source-wordcount: '944'
 ht-degree: 7%
 
 ---
 
-# Usar aprobaciones y revisiones de documentos nuevas conjuntamente
+# Uso conjunto de aprobaciones y pruebas unificadas
 
-Las nuevas aprobaciones de documentos en Workfront presentan un nuevo conjunto de funciones para ayudarle a revisar y aprobar documentos. Puede utilizar el nuevo flujo de trabajo de aprobaciones de documentos con el visor de revisiones existente para agregar comentarios y marcas a los documentos que se están revisando.
+Las aprobaciones unificadas en Workfront presentan un nuevo conjunto de funciones para ayudarle a revisar y aprobar documentos. Puede utilizar un flujo de trabajo de aprobaciones unificado con el visor de revisiones existente para agregar comentarios y marcas a los documentos que se están revisando.
 
-Existen algunas diferencias clave en el flujo de trabajo al utilizar juntas nuevas aprobaciones de documentos y revisiones:
+Existen algunas diferencias clave en el flujo de trabajo al utilizar aprobaciones y pruebas unificadas:
 
 * Los botones de decisión no aparecen en el visor de pruebas
 

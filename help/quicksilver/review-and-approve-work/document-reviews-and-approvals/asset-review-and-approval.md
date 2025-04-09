@@ -6,10 +6,10 @@ description: Descripción general de los sistemas disponibles para su revisión 
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 37745149-b369-445d-bb39-f5ed790d2fae
-source-git-commit: f2f58e3db7d99043281384cc2f6047fd9254f4fd
+source-git-commit: 4038180d69d4a8027f33b5bafd2104c7c6916b82
 workflow-type: tm+mt
-source-wordcount: '339'
-ht-degree: 3%
+source-wordcount: '330'
+ht-degree: 2%
 
 ---
 
@@ -19,13 +19,13 @@ Actualmente hay tres sistemas diferentes disponibles en Workfront para la revisi
 
 * [Aprobaciones de documentos heredados](#legacy-document-approvals)
 
-* [Nuevas aprobaciones de documentos](#new-document-approvals)
+* [Aprobación unificada](#new-document-approvals)
 
 * [Aprobaciones de revisión](#proof-approvals)
 
 ## Aprobaciones de documentos heredados
 
-Las aprobaciones de documentos heredados se eliminarán de Workfront en 2025. El nuevo sistema de aprobaciones de documentos se ha diseñado para reemplazar las aprobaciones de documentos heredadas.
+Las aprobaciones de documentos heredados se eliminarán de Workfront en 2025. El sistema de aprobaciones unificado se ha diseñado para reemplazar las aprobaciones de documentos heredadas.
 
 Funciones clave disponibles para aprobaciones de documentos heredados:
 
@@ -36,13 +36,13 @@ Funciones clave disponibles para aprobaciones de documentos heredados:
 
 Para obtener más información, consulte [Aprobaciones de documentos heredados](/help/quicksilver/review-and-approve-work/manage-approvals/approval-process-in-workfront.md#document-approval-processes).
 
-## Nuevas aprobaciones de documentos
+## Aprobación unificada
 
-Las nuevas aprobaciones de documentos son un rediseño del sistema de aprobaciones heredado. Actualmente disponible en versiones limitadas, está diseñado para ser una solución práctica y eficaz para las empresas que requieren una participación integral de las partes interesadas y aprobaciones de documentos específicas para cada versión.
+Las aprobaciones unificadas son un rediseño del sistema de aprobaciones heredado. Actualmente disponible en versiones limitadas, está diseñado para ser una solución práctica y eficaz para las empresas que requieren una participación integral de las partes interesadas y aprobaciones de documentos específicas para cada versión.
 
-Para obtener información más detallada sobre las nuevas aprobaciones de documentos, consulte [Información general sobre las nuevas aprobaciones de documentos](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md).
+Para obtener información más detallada sobre las aprobaciones unificadas, consulte [Resumen de aprobaciones unificadas](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md).
 
-Funciones clave disponibles para las nuevas aprobaciones de documentos:
+Funciones clave disponibles para las aprobaciones unificadas:
 
 * Agregar usuarios y equipos como aprobadores y revisores
 
@@ -51,11 +51,11 @@ Funciones clave disponibles para las nuevas aprobaciones de documentos:
 * Creación y uso de plantillas
 
 * Revisión y comentarios en el visor de pruebas
-Para obtener más información acerca del uso del visor de revisión, vea [Usar nuevas aprobaciones de documentos y revisiones conjuntamente](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/doc-approvals-and-proofing.md).
+Para obtener más información acerca del uso del visor de revisión, vea [Usar aprobaciones y revisiones unificadas](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/doc-approvals-and-proofing.md).
 
 * Vea varios indicadores de rendimiento clave para sus aprobaciones en los widgets de inicio de Workfront
 
-* Utilice Paneles de lienzo, actualmente en fase beta, para ver los detalles de los informes acerca de las nuevas aprobaciones de documentos
+* Utilice Paneles de lienzo, actualmente en fase beta, para ver los detalles de los informes acerca de las aprobaciones unificadas
 Para obtener más información sobre los informes, consulte [Crear un tablero de informes para revisión y aprobaciones](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md).
 
 * Tome decisiones en el visor de revisión [!BADGE Próximamente]{type=Informative}

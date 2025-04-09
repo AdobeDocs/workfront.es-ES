@@ -6,20 +6,20 @@ description: Aprobación del trabajo
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 6e43edbb-14dd-493d-a76b-84be6c3bef82
-source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
+source-git-commit: 4038180d69d4a8027f33b5bafd2104c7c6916b82
 workflow-type: tm+mt
-source-wordcount: '914'
+source-wordcount: '913'
 ht-degree: 19%
 
 ---
 
-# Aprobación del trabajo
+# Approving work
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:&nbsp;From&nbsp;Courtney: Linked to Training sites/ articles , don't change title and link)</p>
 -->
 
-Si se le ha configurado como aprobador, debe revisar con regularidad qué trabajo espera su aprobación.
+If you are set as an approver, you should regularly review what work is awaiting your approval.
 
 Para obtener información acerca de cómo crear procesos de aprobación, consulte [Crear un proceso de aprobación para elementos de trabajo](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
 
@@ -66,8 +66,8 @@ Para obtener más información sobre cómo ver los elementos que esperan aprobac
 
 ## Aprobar trabajo desde el área de Inicio
 
-1. Haga clic en el **[!UICONTROL Menú principal]** ![icono del menú principal](assets/main-menu-icon.png) en la esquina superior derecha y, a continuación, haga clic en **[!UICONTROL Inicio]**.
-1. (Condicional) Haga clic en **Personalizar** para agregar el widget **Mis aprobaciones**.
+1. Click the **[!UICONTROL Main Menu]** ![Main Menu icon](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
+1. (Conditional) Click **Customize** to add the **My Approvals** widget.
 1. (Condicional) Haga clic en el menú desplegable **Filtro** y, a continuación, seleccione **Todos** para ver las aprobaciones que se le han asignado y delegado.
 
    >[!NOTE]
@@ -102,27 +102,27 @@ Para obtener más información sobre cómo ver los elementos que esperan aprobac
       <li>Conceder</li>
       <li>Ignorar</li>
       </ul>
-      Si lo desea, puede ajustar el nivel de acceso en el menú desplegable <b>Cambiar acceso</b>.
+      You can adjust the level of access in the <b>Change access</b> drop-down menu if desired.
       </td>
       <td>
          <ul>
          <li>Aprobar</li>
          <li>Rechazar</li>
          </ul>
-      Puede dejar un comentario con su decisión haciendo clic en el menú desplegable del botón de decisión.
+      You can leave a comment with your decision by click ing the drop-down menu in the decision button.
       </td>
       <td>
-   Asignado como aprobador
+   Assigned as an approver
          <ul>
          <li>Aprobar</li>
          <li>Aprobar con cambios</li>
          <li>Necesita trabajo</li>
          </ul>
-   Asignado como revisor
+   Assigned as a reviewer
          <ul>
          <li>Completar mi revisión</li>
          </ul>
-      Las opciones de esta columna se aplican únicamente a las nuevas aprobaciones de documentos. Las aprobaciones de documentos heredados aparecen igual que las aprobaciones de elementos de trabajo. 
+      Las opciones de esta columna se aplican únicamente a las aprobaciones unificadas. Las aprobaciones de documentos heredados aparecen igual que las aprobaciones de elementos de trabajo. 
       </td>
       <td>
          <ul>
@@ -138,15 +138,15 @@ Después de tomar una decisión, la aprobación se elimina del widget Mi aprobac
 
 ## Aprobar el trabajo directamente desde un proyecto, tarea o problema
 
-Cuando un proyecto, tarea o problema tiene aprobación pendiente, puede aprobar o rechazar la aprobación directamente desde el proyecto, la tarea o el problema. También puede ver detalles sobre el proceso de aprobación.
+When a project, task, or issue is pending approval, you can approve or reject the approval directly from the project, task, or issue. You can also view details regarding the approval process.
 
-Para aprobar trabajo directamente desde un proyecto, tarea o problema:
+To approve work directly from a project, task, or issue:
 
-1. Vaya al proyecto, tarea o problema que requiera su aprobación.
+1. Go to the project, task, or issue that requires your approval.
 
-   La información de aprobación relativa al proceso de aprobación actual de un proyecto, tarea o problema se muestra en el encabezado del elemento.
+   Approval information regarding the current approval process of a project, task, or issue displays in the item&#39;s header.
 
-   ![Proceso de aprobación actual en el encabezado del proyecto](assets/current-approval-process-in-project-header-with-stages-nwe-350x92.png)
+   ![Current approval process in project header](assets/current-approval-process-in-project-header-with-stages-nwe-350x92.png)
 
    Está disponible la siguiente información sobre la aprobación:
 
@@ -156,10 +156,10 @@ Para aprobar trabajo directamente desde un proyecto, tarea o problema:
     <tbody> 
      <tr> 
       <td role="rowheader">Estado</td> 
-      <td>El estado actual del proyecto, tarea o problema. Este es el estado actual del elemento que está pendiente de aprobación. El estado se aprueba después de aprobar cada fase del proceso de aprobación.</td> 
+      <td>El estado actual del proyecto, tarea o problema. This is the current status of the item that is pending the approval. El estado se aprueba después de aprobar cada fase del proceso de aprobación.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Fases de aprobación</td> 
+      <td role="rowheader">Approval stages</td> 
       <td>Las fases del proceso de aprobación. <br>La fase actual que está pendiente de aprobación se muestra como Pendiente Las fases que ya se han aprobado se muestran como Aprobadas ; las fases que aún no se han aprobado se muestran como No iniciadas</td> 
      </tr> 
     </tbody> 
@@ -179,13 +179,13 @@ Para aprobar trabajo directamente desde un proyecto, tarea o problema:
 
 ## Aprobar un documento a partir de un correo electrónico de notificación de aprobación
 
-Según la configuración de las notificaciones, puede recibir correos electrónicos que le notifiquen documentos para los que otros usuarios necesitan que tome una decisión de aprobación. Cuando reciba un correo electrónico que contenga un botón **Tomar decisión sobre la aprobación**, puede iniciar el proceso de aprobación directamente desde el correo electrónico:
+Depending on your notification settings, you may receive emails notifying you about documents for which other users need you to make an approval decision. When you receive an email containing a **Make Approval Decision** button, you can can start the approval process directly from the email:
 
-1. En el correo electrónico, haga clic en **Tomar decisión de aprobación** para abrir la página Detalles del documento para la revisión
-1. Realice una de las siguientes acciones para revisar el documento:
+1. From the email, click **Make Approval Decision** to open the Document Details page for the proof .
+1. Do any of the following to review the document:
 
-   * Vea los metadatos del documento.
-   * Si se ha creado una revisión para revisar el documento con marcas y comentarios, haga clic en **Abrir revisión** ![Abrir revisión](assets/open-proof-icon-qs.png) cerca de la esquina superior derecha y revise la revisión.
+   * View the metadata about the document.
+   * If a proof has been created for reviewing the document with markup and comments, click **Open proof** ![Open proof](assets/open-proof-icon-qs.png) near the upper right corner and review the proof.
 
      <!--   
      <span style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">[Andrzej, does it make sense to leave this here if it's s document approval?&nbsp;Would there never be a proof in that situation?]</span>   
@@ -195,6 +195,6 @@ Según la configuración de las notificaciones, puede recibir correos electróni
 
 1. Haga clic en una opción **Decisión** en la esquina superior derecha para aprobar, aprobar con cambios o rechazar el documento.
 
-## Aprobar un documento a partir de una prueba {#approve-a-document-from-a-proof}
+## Approve a document from a proof {#approve-a-document-from-a-proof}
 
-Puede aprobar un documento en el visor de revisión. Para obtener más información, consulte [Tomar una decisión sobre una prueba en el visor de pruebas](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md) en el artículo [Tomar una decisión sobre una prueba en el visor de pruebas](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md).
+You can approve a document within the proofing viewer. For more information, see [Make a decision on a proof in the proofing viewer](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md) in the article [Make a decision on a proof in the proofing viewer](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md).

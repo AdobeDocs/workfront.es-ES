@@ -6,10 +6,10 @@ description: Las decisiones de revisiones y documentos son limitadas para todas 
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: f3e68fd8-723a-4e49-9cf1-823e36d04e55
-source-git-commit: cc3930f01d5e2162d7c778d061a08f937877c3c0
+source-git-commit: 4038180d69d4a8027f33b5bafd2104c7c6916b82
 workflow-type: tm+mt
-source-wordcount: '259'
-ht-degree: 86%
+source-wordcount: '286'
+ht-degree: 82%
 
 ---
 
@@ -17,11 +17,47 @@ ht-degree: 86%
 
 Las decisiones sobre revisiones y documentos son limitadas para todas las licencias de Workfront sin pago en los nuevos planes. Cuando se le asigna como aprobador de un documento o prueba, debe tomar la decisión de adelantar el proceso de revisión y aprobación.
 
-Las siguientes opciones de decisión se contabilizan en el límite mensual:
+Los siguientes tipos de decisión se contabilizan en el límite mensual:
 
-* Aprobar
-* Aprobar con cambios
-* Necesita trabajo
+<table>
+  <tr>
+
+<td><strong>Aprobaciones de documentos heredados</strong> 
+   </td>
+   <td><strong>Aprobaciones unificadas</strong> 
+   </td>
+   <td><strong>Aprobaciones de revisión</strong> 
+   </td>
+  </tr>
+  <tr>
+   <td>
+   <ul>
+   <li>Aprobar</li>
+    <li>Aprobar con cambios</li>
+     <li>Rechazar</li>
+   </ul>
+   </td>
+   <td>
+      <ul>
+   <li>Aprobar</li>
+    <li>Aprobar con cambios</li>
+     <li>Necesita trabajo</li>
+   </ul>
+   </td>
+   <td>
+      <ul>
+   <li>Aprobar</li>
+    <li>Aprobar con cambios</li>
+     <li>Es necesario hacer cambios</li>
+   </ul>
+   <p><strong>Nota</strong>: las aprobaciones de pruebas pueden tener etiquetas de decisión personalizadas</p>
+  </tr>
+  </tr>
+</table>
+
+
+
+## Límites
 
 Los límites se restablecen por usuario cada mes. Los límites de decisión para cada licencia difieren según el plan que tenga:
 

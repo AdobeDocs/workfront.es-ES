@@ -6,20 +6,20 @@ description: Puede revisar las métricas de aprobaciones en los paneles del lien
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 48f8605b-c342-493b-96e7-f73248e34b35
-source-git-commit: 9c86cf877e0d1bbb0c4700dfc362062028496e3c
+source-git-commit: 4038180d69d4a8027f33b5bafd2104c7c6916b82
 workflow-type: tm+mt
-source-wordcount: '1991'
+source-wordcount: '1987'
 ht-degree: 1%
 
 ---
 
 # Creación de un tablero de informes para revisión y aprobaciones
 
-Puede crear un tablero de informes en el área de Tableros de lienzo para mostrar información de alto nivel y detallada acerca de las revisiones y aprobaciones con la nueva funcionalidad de aprobaciones de documentos.
+Puede crear un tablero de informes en el área de Paneles de lienzo para mostrar información de alto nivel y detallada acerca de las revisiones y aprobaciones con la funcionalidad de aprobaciones unificada.
 
 >[!IMPORTANT]
 >
->Esta funcionalidad solo está disponible para los clientes que utilizan el nuevo servicio de aprobaciones de documentos e están inscritos en la versión beta de paneles de lienzo.
+>Esta funcionalidad solo está disponible para los clientes que utilizan el servicio de aprobaciones unificado y están inscritos en la versión beta de paneles de lienzo.
 
 
 ![tablero de ejemplo](assets/whole-dashboard.png)
