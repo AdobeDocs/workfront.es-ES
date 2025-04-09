@@ -1,5 +1,5 @@
 ---
-title: Agregar reglas lógicas a campos y Forms personalizados
+title: añadir reglas lógicas a Forms y campos personalizados
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
@@ -8,16 +8,14 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 5f5dbeb5-b974-489c-8f4d-ebaa00f5e5ba
-source-git-commit: 64deb1b0b3ba52f869ca38e2a26288d461070f82
+source-git-commit: 428e6a9365c793ce5944941ec5368a674c208c78
 workflow-type: tm+mt
-source-wordcount: '1744'
-ht-degree: 67%
+source-wordcount: '1680'
+ht-degree: 66%
 
 ---
 
 # Agregar reglas lógicas a formularios y campos personalizados
-
-{{highlighted-preview}}
 
 Las reglas lógicas permiten personalizar aún más los campos del formulario.
 
@@ -79,7 +77,7 @@ Seleccione un campo con lógica aplicada para mostrar las reglas lógicas existe
 ## Consideraciones para utilizar la lógica de visualización y la lógica de omisión
 
 * Para agregar lógica de visualización en un campo personalizado, widget o salto de sección, debe colocarse al menos un campo de opción múltiple (botones de opción, listas desplegables o casillas de verificación) antes de él en el formulario.
-Para obtener información sobre los campos y widgets personalizados en los formularios personalizados, consulte [Crear un formulario personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+Para obtener información sobre los campos personalizados y las utilidades de los formularios personalizados, consulte [Crear formulario personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 * No se puede añadir lógica de omisión a un widget o salto de sección. Solo puede añadirlo a un campo de opción múltiple (botones de opción, listas desplegables o casillas de verificación).
 * No se puede aplicar la lógica de visualización u omisión para mostrar u ocultar las opciones de un campo de varias opciones. Por ejemplo, no puede restringir las opciones que se muestran para un campo Desplegable, un grupo de casillas de verificación o un campo de botón de opción en función de la lógica de visualización u omisión de otro campo.
 * Puede añadir lógica de visualización y lógica de omisión a un campo personalizado si se cumplen todas las condiciones siguientes en relación con el campo personalizado:
@@ -109,19 +107,13 @@ La lógica de visualización define qué campos personalizados aparecen en el fo
 {{step-1-to-setup}}
 
 1. Haga clic en **Formularios personalizados**.
-1. Cree un nuevo formulario personalizado o abra uno existente. Consulte [Crear un formulario personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) para obtener más información.
+1. Cree un nuevo formulario personalizado o abra uno existente. Consulte [Crear un formulario](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) personalizado para obtener más detalles.
 1. Agregue campos al formulario según sea necesario. Al menos un campo de opción múltiple (botón de radio, menú desplegable o casilla de verificación) debe estar posicionado antes del campo objetivo que se mostrará.
 1. Seleccione el campo de destino y haga clic en **Agregar lógica**.
 1. Seleccione la ficha **Mostrar** en el generador de lógica.
 1. Haga clic en **Agregar regla para mostrar**.
 
-   <span class="preview">Imagen de muestra en el entorno de vista previa:</span>
-
    ![Generador de lógica de visualización](assets/simple-display-logic1-val-only-in-menu.png)
-
-   Imagen de muestra en el entorno de producción:
-
-   ![Generador de lógica de visualización](assets/custom-form-logic-builder-display-blank.png)
 
 1. Siga los pasos a continuación para crear la instrucción lógica en el generador.
 
@@ -130,17 +122,11 @@ La lógica de visualización define qué campos personalizados aparecen en el fo
    1. La tercera opción es **Seleccionado** o **No seleccionado**. Elegir **Seleccionado** significa que cuando se selecciona el valor, se muestra el campo de destino. Elegir **No seleccionado** significa que cuando se selecciona cualquier otro valor en el campo definitorio, se muestra el campo objetivo.
    1. Para añadir una regla **Y** a la instrucción lógica, haga clic en **Agregar regla** directamente debajo de la regla que acabas de crear. Siga las mismas indicaciones para generar la regla. Todas las reglas Y deben cumplirse para que el campo objetivo se muestre.
 
-      <span class="preview">Imagen de muestra en el entorno de vista previa:</span>
-
-      ![Generador de lógica de visualización](assets/simple-display-logic2.png)
-
-      Imagen de muestra en el entorno de producción:
-
-      ![Mostrar generador de lógica](assets/custom-form-logic-builder-display1.png)
+      ![Mostrar generador de lógica](assets/simple-display-logic2.png)
 
    1. Para añadir una regla **O** a la instrucción lógica, haz clic en **Agregar regla** cerca de la parte inferior del generador de lógica. Luego, haga clic en **Agregar regla** dentro del área O y siga las mismas indicaciones para generar la regla. Cuando se cumple una regla O, el campo objetivo se muestra.
 
-1. Haga clic en **Guardar** <span class="preview">o **Aplicar**</span> cuando termine de crear la instrucción lógica.
+1. Haga clic en **Aplicar** cuando haya terminado de generar la instrucción lógica.
 
    Los iconos de la lógica de visualización se añaden al campo objetivo y al campo definitorio en el diseñador de formularios.
 
@@ -209,17 +195,10 @@ La lógica de omisión define campos de formulario personalizados que se omiten 
 1. Cree un nuevo formulario personalizado o abra uno existente. Consulte [Crear un formulario personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) para obtener más información.
 1. Agregue campos al formulario según sea necesario. El campo de definición para la lógica de omisión debe ser un campo de selección múltiple (botón de opción, lista desplegable o casilla de verificación).
 1. Seleccione el campo de definición y haga clic en **Agregar lógica** en la parte inferior izquierda de la pantalla.
-1. Seleccione la ficha **Omitir** en el generador de lógica.
-1. Haga clic en **Agregar regla de omisión**.
-
-
-   <span class="preview">Imagen de muestra en el entorno de vista previa:</span>
+1. Seleccione el **pestaña Omitir** en el generador lógico.
+1. Haga clic en **añadir regla** de omisión.
 
    ![Omitir generador de lógica](assets/skip-logic1-val-only-in-menu.png)
-
-   Imagen de muestra en el entorno de producción:
-
-   ![Omitir generador de lógica](assets/custom-form-logic-builder-skip-blank.png)
 
 1. Siga los pasos a continuación para crear la instrucción lógica en el generador.
 
@@ -228,33 +207,25 @@ La lógica de omisión define campos de formulario personalizados que se omiten 
    1. La segunda opción es **Seleccionado** o **No seleccionado**. Elegir **Seleccionado** significa que cuando se selecciona el valor, el campo objetivo se muestra y los campos intermedios se omiten. Elegir **No seleccionado** significa que cuando se selecciona cualquier otro valor en el campo de definición, se muestra el campo de destino y se omiten los campos intermedios.
    1. La tercera opción es el campo de destino o el punto al que saltar. Seleccione un nombre de campo o de **Fin de formulario**. Es posible que tenga que hacer clic primero en la palabra “vacío” antes de seleccionar una opción.
 
-      <span class="preview">Imagen de muestra en el entorno de vista previa:</span>
-
       ![Omitir generador de lógica](assets/skip-logic2.png)
-
-      Imagen de muestra en el entorno de producción:
-
-      ![Omitir generador de lógica](assets/custom-form-logic-builder-skip1.png)
 
    1. Para añadir una regla **O** a la instrucción lógica, haga clic en **Agregar regla** cerca de la parte inferior del generador de lógica. A continuación, seleccione las opciones siguiendo las mismas indicaciones para generar la regla. Cuando se cumple una regla **O** se muestra el campo de destino.
 
-1. Haga clic en **Guardar** <span class="preview">o **Aplicar**</span> cuando termine de crear la instrucción lógica.
+1. Haga clic en **Aplicar** cuando termine de crear la instrucción lógica.
 
    Los iconos de lógica de omisión se agregan al campo de destino y al campo de definición en el diseñador de formularios.
 
-<div class="preview">
+## añadir lógica validación a un formulario personalizado
 
-## Agregar lógica de validación a un formulario personalizado
+La lógica de validación se construye mediante fórmulas y puede hacer que la lógica sea tan simple o tan compleja como sea necesario. La validación puede basarse en los valores de otros campos o en el estado de los objetos, y se puede proporcionar un mensaje de error para cuando se produzca un error en el validación.
 
-La lógica de validación se crea mediante fórmulas y puede hacer que la lógica sea tan simple o tan compleja como necesite. La validación se puede basar en los valores de otros campos o en el estado de los objetos, y puede proporcionar un mensaje de error para cuando falle la validación.
+Si el campo con la lógica aplicada cumple las condiciones de validación definidas cuando un usuario rellena el formulario personalizado, el campo se resalta y aparece el mensaje de error.
 
-Si el campo con la lógica aplicada cumple las condiciones de validación definidas cuando un usuario rellena el formulario personalizado, el campo se resalta y se muestra el mensaje de error.
-
-Puede aplicar lógica de validación a los siguientes tipos de campos: texto de una línea, párrafo, lista desplegable de selección única, lista desplegable de selección múltiple, búsqueda externa, botones de opción, grupo de casillas de verificación y escritura anticipada.
+Puede aplicar validación lógica a los siguientes tipos de campo: texto de una sola línea, párrafo, menú desplegable de selección única, menú desplegable de selección múltiple, búsqueda externa, botones de opción, grupo casilla de verificación y escritura anticipada.
 
 ### Ejemplos
 
-Si se cumple la siguiente condición, el campo Presupuesto muestra un mensaje debajo del campo cuando el usuario introduce un valor que almacena en déclencheur el mensaje. Por ejemplo, si el valor introducido es negativo, se muestra el primer mensaje. Si el usuario intenta cambiar el estado del proyecto a Actual antes de introducir un valor de presupuesto, se muestra el segundo mensaje.
+Con la siguiente condición, el campo Presupuesto muestra un mensaje debajo del campo cuando el usuario introduce un valor que activa el mensaje. Por ejemplo, si el valor introducido es negativo, se muestra el primer mensaje. Si el usuario intenta cambiar el estado del proyecto a Actual antes de introducir un valor de presupuesto, se muestra el segundo mensaje.
 
 ```
 IF({DE:Budget Field} < 0,
@@ -263,31 +234,29 @@ IF({DE:Budget Field} < 0,
 )
 ```
 
-Otro ejemplo sencillo es que un campo de número de teléfono debe contener un determinado número de dígitos para ser válido.
+Otro ejemplo sencillo es que un campo de número de teléfono debe contener un determinado número de dígitos para que sea válido.
 
 Un ejemplo adicional de validación basado en otros campos es un campo para el tamaño de la sala de reuniones (pequeña, mediana o grande) y un campo independiente para el número de asistentes a la reunión. El número de personas para cada tamaño de habitación se escribe en la fórmula de validación. Si el número de asistentes que el usuario introduce es demasiado para la sala de reuniones elegida, se muestra el mensaje de error.
 
-### Definir lógica de validación
+### Definir validación lógica
 
 {{step-1-to-setup}}
 
 1. Haga clic en **Formularios personalizados**.
-1. Cree un nuevo formulario personalizado o abra uno existente. Consulte [Crear un formulario personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) para obtener más información.
-1. Agregue campos al formulario según sea necesario.
-1. Seleccione el campo al que aplicar lógica y haga clic en **Agregar lógica**.
-1. Seleccione la ficha **Validación** en el generador de lógica.
+1. Cree un nuevo formulario personalizado o abra uno existente. Consulte [Crear un formulario](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) personalizado para obtener más detalles.
+1. añadir campos al formulario según sea necesario.
+1. Seleccione el campo al que desea aplicar lógica y haga clic en **añadir lógica**.
+1. Seleccione el pestaña validación **** en el generador lógico.
 
-   ![Generador de lógica de validación](assets/validation-logic-blank-editor-val-only-in-menu.png)
+   ![Generador lógico de validación](assets/validation-logic-blank-editor-val-only-in-menu.png)
 
-1. Genere la condición de validación en el editor, incluido el mensaje de error que se mostrará cuando no se cumpla la validación.
+1. Genere la condición validación en el editor, incluido el mensaje de error que se muestra cuando no se cumple el validación.
 
    Para obtener más información sobre cálculos y expresiones, vea [Agregar campos calculados a un formulario](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md) y [Información general sobre expresiones de datos calculados](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
 
 1. Haga clic en **Aplicar**.
 
    La lógica se aplica al campo en el diseñador de formularios.
-
-</div>
 
 <!--
 <div class="preview">

@@ -8,16 +8,14 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 7b76b9e8-fbb8-45a7-9e26-1ddc6d5176d8
-source-git-commit: ff4a9b317bd75b298a7a39814b4ae265c92c6d2a
+source-git-commit: 428e6a9365c793ce5944941ec5368a674c208c78
 workflow-type: tm+mt
-source-wordcount: '412'
-ht-degree: 18%
+source-wordcount: '405'
+ht-degree: 19%
 
 ---
 
 # Crear tipos de gastos personalizados
-
-{{highlighted-preview}}
 
 <!--**DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
 
@@ -108,7 +106,7 @@ Los tipos de gastos predeterminados en [!DNL Workfront] que no se pueden elimina
     </tbody> 
    </table>
 
-1. Haga clic en **Crear tipo de gasto** <span class="preview">o en **[!UICONTROL Guardar]**.</span>
+1. Haga clic en **[!UICONTROL Guardar]**.
 
    El tipo de gasto ya está disponible para que los usuarios lo asocien con sus gastos en proyectos y tareas.
 
@@ -121,7 +119,7 @@ Los tipos de gastos predeterminados en [!DNL Workfront] que no se pueden elimina
 
    Aparece el cuadro de diálogo **[!UICONTROL Editar tipo de gasto]**.
 
-1. Realice los cambios que desee y, a continuación, haga clic en **Guardar cambios** <span class="preview">o en **[!UICONTROL Guardar]**.</span>
+1. Realice los cambios que desee y haga clic en **[!UICONTROL Guardar]**.
 
    El tipo de gasto ya está disponible para que los usuarios lo asocien con sus gastos en proyectos y tareas.
 
