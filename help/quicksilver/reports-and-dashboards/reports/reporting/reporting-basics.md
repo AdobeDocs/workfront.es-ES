@@ -2,22 +2,22 @@
 content-type: reference
 product-area: reporting
 navigation-topic: reports
-title: Conceptos básicos de informes
-description: Revise estos artículos para comprender los conceptos básicos de los informes en Adobe Workfront.
-author: Nolan
+title: 'Conceptos básicos de informes: índice de artículos'
+description: Revise estos artículos para comprender los conceptos básicos de la creación de informes en Adobe Workfront.
+author: Courtney
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 7cec252f-e5be-4099-8fa6-308f80952a21
-source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
+source-git-commit: b0a8e5277003eb3189bc7c0a26367fada05d58de
 workflow-type: tm+mt
-source-wordcount: '30'
-ht-degree: 0%
+source-wordcount: '34'
+ht-degree: 76%
 
 ---
 
-# Conceptos básicos de informes
+# Conceptos básicos de informes: índice de artículos
 
-<!-- Audited: 11/2024 -->
+<!-- Audited: 4/2025 -->
 
 Esta sección contiene los siguientes artículos:
 
