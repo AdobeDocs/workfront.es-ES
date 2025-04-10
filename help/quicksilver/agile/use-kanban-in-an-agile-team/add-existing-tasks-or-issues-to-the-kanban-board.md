@@ -2,23 +2,25 @@
 product-area: agile-and-teams;projects
 navigation-topic: use-kanban-in-an-agile-team
 title: Agregar tareas o problemas existentes al Panel Kanban
-description: Puede agregar cualquier tarea o problema a un Panel Kanban si tiene acceso de Administración al proyecto.
-author: Lisa
+description: Puede agregar cualquier tarea o problema a un tablero Kanban si tiene acceso de Administración al proyecto.
+author: Courtney
 feature: Agile
 exl-id: 5f94a451-8530-478f-85c2-41bc15c22dd1
-source-git-commit: 452f8ddc5268a0d67e32090d166199f2fad7dbc7
+source-git-commit: f78a86dcdf7b63e98bec5216fb5ab7622775a053
 workflow-type: tm+mt
-source-wordcount: '288'
-ht-degree: 0%
+source-wordcount: '494'
+ht-degree: 34%
 
 ---
 
 # Agregar tareas o problemas existentes al tablero [!UICONTROL Kanban]
 
+<!-- Audited: 4/2025 -->
+
 Puede agregar cualquier tarea o problema al tablero [!UICONTROL Kanban] si cuenta con acceso de administración al proyecto. Tenga en cuenta lo siguiente al mover una tarea o un problema al tablero [!UICONTROL Kanban]:
 
-* Si la tarea o el problema se asignan a un equipo Agile y se mueven al tablero [!UICONTROL Kanban] de otro equipo, la asignación del equipo no cambia.
-* Si la tarea o el problema no están asignados a un equipo, la tarea o el problema se asignan al equipo propietario del panel Kanban.
+* Si la tarea o el problema se asignan a un equipo ágil y se mueven al tablero [!UICONTROL Kanban] de otro equipo, la asignación del equipo no cambia.
+* Si la tarea o el problema no están asignados a un equipo, se asignan al equipo propietario del panel Kanban.
 
 ## Requisitos de acceso
 
@@ -45,27 +47,55 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  </tbody> 
 </table>
 
-Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Agregar tareas o problemas existentes al Panel Kanban
+## Agregar tareas o problemas existentes de un proyecto
 
-Para agregar una tarea o un problema al tablero [!UICONTROL Kanban]:
+Para agregar una tarea o un problema al tablero [!UICONTROL Kanban] desde un proyecto:
 
-{{step1-click-main-menu}}
+{{step1-to-projects}}
 
-1. Elija una de las siguientes opciones: **[!UICONTROL Proyectos]**, **[!UICONTROL Informes]** o **[!UICONTROL Paneles]**.
-
-1. Vaya al proyecto, informe o panel que contiene la tarea o el problema que desea agregar al Panel Kanban.
-1. Seleccione una o varias tareas o problemas.
-1. Haga clic en **[!UICONTROL Más]** > **[!UICONTROL Agregar a]** > **[!UICONTROL Panel Kanban]**.
-1. En el cuadro de diálogo [!UICONTROL Agregar historias], escriba el nombre del equipo Kanban.
+1. Seleccione el proyecto que contiene la tarea o el problema que desea agregar al Panel Kanban.
+1. Haga clic en la ficha **Tareas** o **Problemas** y, a continuación, seleccione uno o varios elementos de trabajo para agregarlos.
+1. Haga clic en el icono **[!UICONTROL Más]** ![Icono de más](assets/more-icon.png) y, a continuación, seleccione **Agregar al Panel Kanban**. Se abre el cuadro de diálogo [!UICONTROL **Agregar a**].
+1. En el campo **Panel Kanban**, escriba el nombre del equipo Kanban y selecciónelo en la lista desplegable.
 
    >[!NOTE]
    >
-   >Si agrega varios equipos, la tarea o el problema solo se podrán mostrar en el tablero [!DNL kanban] de un equipo. Este es el tablero que elegiste antes.
+   >Si se asignan varios equipos a la tarea o al problema, el elemento de trabajo solo se puede mostrar en el tablero [!DNL kanban] de un equipo.
+1. Haga clic en **Add**.
 
-1. Si está agregando tareas, haga clic en **[!UICONTROL Agregar historias]**.
-O
-Si está agregando problemas, haga clic en **[!UICONTROL Agregar problemas]**.
+## Agregar tareas o problemas existentes de un informe
+
+Para agregar una tarea o un problema al tablero [!UICONTROL Kanban] desde un informe:
+
+{{step1-to-reports}}
+
+1. Seleccione el informe de tarea o problema que contiene el elemento de trabajo que desea agregar al Panel Kanban.
+1. Seleccione uno o más elementos de trabajo para agregar.
+1. Haga clic en el icono **[!UICONTROL Más]** ![Icono de más](assets/more-icon.png) y, a continuación, seleccione **Agregar al Panel Kanban**. Se abre el cuadro de diálogo [!UICONTROL **Agregar a**].
+1. En el campo **Panel Kanban**, escriba el nombre del equipo Kanban y selecciónelo en la lista desplegable.
+
+   >[!NOTE]
+   >
+   >Si se asignan varios equipos a la tarea o al problema, el elemento de trabajo solo se puede mostrar en el tablero [!DNL kanban] de un equipo.
+1. Haga clic en **Add**.
+
+
+## Agregar tareas o problemas existentes desde un panel
+
+Para agregar una tarea o un problema al panel [!UICONTROL Kanban] desde un panel:
+
+{{step1-to-dashboards}}
+
+1. Seleccione el panel que contiene el elemento de trabajo que desea agregar al Panel Kanban.
+1. Seleccione uno o más elementos de trabajo para agregar.
+1. Haga clic en el icono **[!UICONTROL Más]** ![Icono de más](assets/more-icon.png) y, a continuación, seleccione **Agregar al Panel Kanban**. Se abre el cuadro de diálogo [!UICONTROL **Agregar a**].
+1. En el campo **Panel Kanban**, escriba el nombre del equipo Kanban y selecciónelo en la lista desplegable.
+
+   >[!NOTE]
+   >
+   >Si se asignan varios equipos a la tarea o al problema, el elemento de trabajo solo se puede mostrar en el tablero [!DNL kanban] de un equipo.
+1. Haga clic en **Add**.

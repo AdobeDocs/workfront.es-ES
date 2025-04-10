@@ -3,19 +3,19 @@ product-area: reporting;setup
 navigation-topic: create-and-manage-reports
 title: Programar una entrega automática de informes
 description: Programar una entrega automática de informes
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 5b8e382c-bfe8-43aa-aa09-a2aa0c4d56cc
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: f78a86dcdf7b63e98bec5216fb5ab7622775a053
 workflow-type: tm+mt
-source-wordcount: '1197'
-ht-degree: 87%
+source-wordcount: '1268'
+ht-degree: 70%
 
 ---
 
 # Programar una entrega automática de informes
 
-<!-- Audited: 11/2024 -->
+<!-- Audited: 4/2025 -->
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: If this stays, fix links which now go to the reference article)</p>
@@ -36,24 +36,21 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Plan de Adobe Workfront*</td> 
+   <td role="rowheader">Plan de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licencia de Adobe Workfront*</td> 
+   <td role="rowheader">Licencia de Adobe Workfront</td> 
       <td> 
-      <p>Nuevo:</p>
-         <ul>
-         <li><p>Estándar</p></li>
-         </ul>
-      <p>Actual:</p>
-         <ul>
-         <li><p>Plan</p></li>
-         </ul>
-   </td>
+      <p>Nuevo: estándar</p>
+      <p>O</p>
+
+<p>Actual: plan</p>
+
+</td>
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraciones de nivel de acceso*</td> 
+   <td role="rowheader">Configuraciones de nivel de acceso</td> 
    <td> <p>Acceso de edición a informes, paneles y calendarios</p> <p>Acceso de edición a filtros, vistas y agrupaciones</p> </td> 
   </tr> 
   <tr> 
@@ -63,7 +60,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  </tbody> 
 </table>
 
-*Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -73,24 +70,24 @@ Antes de comenzar, debe crear un informe. Para obtener más información sobre l
 
 ## Programar la entrega de un informe
 
-Para programar un informe para su envío automático o editar o eliminar un envío de informe existente:
 
-1. Vaya a un informe cuya entrega desee programar.
+Para programar un informe para su envío automático:&#x200B;
 
-   >[!NOTE]
-   >
-   >Los envíos de informes no contienen mensajes. Si desea limitar los datos en la entrega de un informe, le recomendamos aplicar filtros al informe que desea enviar.
+{{step1-to-reports}}
 
-1. Haga clic en **Acciones de informe** y luego en **Enviar informe**.
+>[!NOTE]
+>
+>Los envíos de informes no contienen mensajes. Si desea limitar los datos en la entrega de un informe, le recomendamos aplicar filtros al informe que desea enviar.
 
-   Se muestra el cuadro de diálogo **Enviar informe**.
+1. En la página **Informes**, seleccione un informe.
+1. En la parte superior de la pantalla, haz clic en **Acciones de informe** y luego en **Enviar informe** en la lista desplegable que aparece. Se muestra el cuadro de diálogo **Enviar informe**.
 
    >[!TIP]
    >
    >Para enviar un informe manualmente en cualquier momento dado, vaya al informe y haga clic en **Acciones de informe** > **Enviar informe** > **Enviar ahora**.
 
 1. Seleccione la pestaña **Envíos repetitivos**.
-1. (Condicional) Para modificar un envío de un informe repetido existente, seleccione la entrega de informes en la sección **Envíos repetitivos**.
+1. (Condicional) Para modificar una entrega repetida de informe existente, seleccione la entrega de informe en la sección **Entregas repetidas** a la derecha del cuadro de diálogo.
 1. Especifique la siguiente información:
 
    <table style="table-layout:auto"> 
@@ -99,30 +96,30 @@ Para programar un informe para su envío automático o editar o eliminar un env�
     <tbody> 
      <tr> 
       <td role="rowheader"> <p>Enviar a</p> </td> 
-      <td> <p>Empiece escribiendo el nombre del usuario, grupo, equipo o rol al que desea enviar el informe y, a continuación, haga clic sobre el nombre cuando aparezca en la lista.</p> <p>O</p> <p>Especifique la dirección de correo electrónico de una persona externa al sistema de Workfront a la que desea que tenga acceso al informe.</p> <p>Repita este proceso para enviar el informe a varios usuarios, grupos, equipos o roles.</p> <p>Nota:  <p>Tenga en cuenta lo siguiente al añadir destinatarios de envío de informes:</p> 
+      <td> <p>Empiece escribiendo el nombre del usuario, grupo, equipo o rol al que desea enviar el informe y, a continuación, haga clic sobre el nombre cuando aparezca en la lista.</p> <p>O</p> <p>Introduzca la dirección de correo electrónico de una persona externa al sistema de Workfront a la que desea que tenga acceso al informe.</p> <p>Repita este proceso para enviar el informe a varios usuarios, grupos, equipos o roles.</p> <p>Nota:  <p>Tenga en cuenta lo siguiente al añadir destinatarios de envío de informes:</p> 
         <ul> 
          <li>Si su organización restringe las notificaciones de Workfront a dominios de correo electrónico específicos, es posible que solo pueda enviar informes a las direcciones de correo electrónico que aparecen en la lista de permitidos de correo electrónico.<p>Para obtener información sobre cómo un administrador de Workfront actualiza la lista de permitidos de correo electrónico, consulte la sección <a href="../../../administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md#configur" class="MCXref xref">Configuración la lista de permitidos por correo electrónico</a>.</p></li> 
          <li> <p>Añadir un gran número de usuarios como destinatarios puede provocar errores en la entrega. Si se producen errores en las entregas, se pueden programar varios envíos de informes con grupos de usuarios más pequeños.</p> </li> 
-        </ul> </p> </td> 
+        </ul> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Asunto de correo electrónico</p> </td> 
-      <td> <p>Especifique un asunto para la notificación por correo electrónico.</p> <p>De forma predeterminada, el asunto del correo electrónico es el siguiente:</p> <p><em>Informe de Workfront: [Name of the report] [Date]</em> </p> </td> 
+      <td> <p>Introduzca un asunto para la notificación por correo electrónico.</p> <p>De forma predeterminada, el asunto del correo electrónico es el siguiente:</p> <p><em>Informe de Workfront: [Name of the report] [Date]</em> </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Mensaje de correo electrónico</p> </td> 
-      <td> <p>Especifique un mensaje para incluir en el correo electrónico.</p> <p>De forma predeterminada, el mensaje del correo electrónico es el siguiente:</p> <p><em>Se ha adjuntado el informe de [report frequency] [Name of the report] generado por Workfront el [Date].</em> </p> <p>Nota: En el caso de los informes enviados únicamente como archivo de Excel, también se añade el siguiente mensaje al correo electrónico: “Tenga en cuenta que con los tipos de archivo de MS Excel (XLS), hay un límite (65 530) en el número de hipervínculos que admiten estos tipos de archivo. Si se superan estos límites, el archivo no se abrirá y se recomienda reenviarlo sin los hipervínculos. Vuelva al programador de informes para quitar los hipervínculos y reenvíe el informe”. La frase “vuelva al programador de informes” es un vínculo que lleva al informe.</p> </td> 
+      <td> <p>Introduzca un mensaje para incluirlo en el correo electrónico.</p> <p>De forma predeterminada, el mensaje del correo electrónico es el siguiente:</p> <p><em>Se ha adjuntado el informe de [report frequency] [Name of the report] generado por Workfront el [Date].</em> </p> <p>Nota: En el caso de los informes enviados únicamente como archivo de Excel, también se añade el siguiente mensaje al correo electrónico: “Tenga en cuenta que con los tipos de archivo de MS Excel (XLS), hay un límite (65 530) en el número de hipervínculos que admiten estos tipos de archivo. Si se superan estos límites, el archivo no se abrirá y se recomienda reenviarlo sin los hipervínculos. Vuelva al programador de informes para quitar los hipervínculos y reenvíe el informe”. La frase “vuelva al programador de informes” es un vínculo que lleva al informe.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Entregar este informe con los derechos de acceso de</p> </td> 
-      <td> <p>Empiece escribiendo el nombre de un usuario que tenga acceso al informe y haga clic sobre el nombre cuando aparezca en la lista desplegable. A los usuarios que reciban el informe se les otorgará el mismo nivel de acceso que al usuario que especifique aquí.<br> Para obtener más información, consulte <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/run-deliver-report-access-rights-another-user.md" class="MCXref xref">Ejecutar y entregar un informe con los derechos de acceso de otro usuario</a>.</p> <p>Nota: Este campo no admite caracteres comodín. Por ejemplo, si se usa el comodín $$User.ID, el informe no se ejecutará con los derechos de acceso del usuario que lo reciba.</p> </td> 
+      <td> <p>Empiece escribiendo el nombre de un usuario que tenga acceso al informe y haga clic sobre el nombre cuando aparezca en la lista desplegable. A los usuarios que reciban el informe se les otorgará el mismo nivel de acceso que al usuario que especifique aquí.<br> Para obtener más información, consulte <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/run-deliver-report-access-rights-another-user.md" class="MCXref xref">Ejecutar y entregar un informe con los derechos de acceso de otro usuario</a>.</p> <p>Nota: Este campo no admite caracteres comodín. Por ejemplo, al usar el comodín <em>$$User.ID</em>, no se ejecuta el informe con los derechos de acceso del usuario que recibe el informe.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Formato</p> </td> 
       <td> <p>Seleccione el formato que desee para el informe enviado:</p> 
        <ul> 
         <li> <p>HTML</p> </li> 
-        <li> <p>PDF</p> <p>Si selecciona esta opción, puede dar formato a la salida utilizando las opciones adicionales <strong>Tamaño de papel</strong> y <strong>Orientación</strong> que se muestran.</p> </li> 
+        <li> <p>PDF</p> <p>Si selecciona PDF, puede dar formato a la salida utilizando las opciones adicionales <strong>Tamaño de papel</strong> y <strong>Orientación</strong> que se muestran.</p> </li> 
         <li> <p>MS Excel (.xlsx)</p> </li> 
         <li> <p>TSV</p> </li> 
        </ul> </td> 
@@ -170,9 +167,7 @@ Para programar un informe para su envío automático o editar o eliminar un env�
     </tbody> 
    </table>
 
-1. Haga clic en **Guardar** para guardar la entrega del informe.
-
-   El informe se mostrará en la sección **Entregas repetidas** (en el cuadro de diálogo **Enviar informe**) y se enviará a la hora programada.
+1. Haga clic en **Guardar** para guardar la entrega del informe. El informe se muestra en la sección **Envíos repetidos** del cuadro de diálogo **Enviar informe** y se enviará a la hora programada.
 
    Para obtener información sobre las limitaciones de tamaño que pueden afectar la entrega de los informes, consulte las secciones [Límites de entrega de informes](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md#understanding-export-limits) y [Límites de exportación](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md#export).
 
@@ -182,10 +177,21 @@ Para programar un informe para su envío automático o editar o eliminar un env�
 >
 >Si está utilizando una entrega de informes programada para analizar los datos de Workfront a través de una herramienta de BI, le recomendamos que utilice Workfront Data Connect en su lugar. Para obtener más información, consulte [Información general sobre Workfront Data Connect](/help/quicksilver/reports-and-dashboards/data-lake/data-lake-overview.md).
 
-1. (Opcional) Para eliminar una entrega programada:
+## Eliminación de una entrega de informe programada
 
-   1. En el panel **Entregas repetidas**, haga clic en la entrega programada y, a continuación, haga clic en **Eliminar**.
-   1. Haga clic en **Eliminar** para confirmar.
+Para eliminar una entrega de informe programada:&#x200B;
+
+{{step1-to-reports}}
+
+1. En la página **Informes**, seleccione un informe.
+
+1. En la parte superior de la pantalla, haz clic en **Acciones de informe** y luego en **Enviar informe** en la lista desplegable que aparece. Se muestra el cuadro de diálogo **Enviar informe**.
+
+1. Seleccione la pestaña **Envíos repetitivos**.
+1. En la sección **Entregas repetidas** de la parte derecha del cuadro de diálogo, haga clic en la entrega programada que desee eliminar.
+1. En la sección de detalles **Envíos repetidos**, haga clic en **Eliminar**.
+
+1. Haga clic en **Eliminar** para confirmar.
 
 <!--## Video walk-through
 
