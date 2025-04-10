@@ -2,14 +2,14 @@
 product-area: user-management
 navigation-topic: grant-and-request-access-to-objects
 title: Conceder acceso a los objetos del área de Inicio
-description: Los usuarios pueden solicitar acceso a objetos dentro de Adobe Workfront. Para obtener más información acerca de cómo solicitar acceso, vea Solicitar acceso a objetos
+description: Los usuarios pueden solicitar acceso a los objetos dentro de Adobe Workfront. Para obtener más información sobre la solicitud de acceso, consulte Solicitar acceso a objetos
 author: Alina
 feature: Get Started with Workfront
 exl-id: e0a69ed5-57c3-47ac-bb7a-65495f93b3e3
-source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
+source-git-commit: 2c94dd423cfffc7685f24699fa73fb6a48cf2806
 workflow-type: tm+mt
-source-wordcount: '481'
-ht-degree: 0%
+source-wordcount: '488'
+ht-degree: 62%
 
 ---
 
@@ -34,7 +34,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plan de Adobe Workfront</td> 
+   <td role="rowheader">Plan de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
@@ -44,11 +44,11 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso</td> 
-   <td> <p>Ver el acceso o superior a proyectos, tareas, problemas o documentos</p> </td> 
+   <td> <p>Acceso de visualización o superior a proyectos, tareas, problemas o documentos</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Ver permisos o superiores de proyectos, tareas, problemas o documentos</p> </td> 
+   <td> <p>Permisos de visualización o superiores de proyectos, tareas, problemas o documentos</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -65,22 +65,22 @@ Haga clic en el icono **Inicio** ![](assets/home-icon-30x29.png) en la esquina s
 
    >[!NOTE]
    >
-   >El administrador de Workfront puede realizar los siguientes cambios en el icono Inicio de su entorno:
+   >El administrador de Workfront puede realizar los siguientes cambios en el icono de Inicio de su entorno:
    >
-   >* Sustitúyala por una imagen personalizada para ilustrar su organización. En este caso, el icono tendrá un aspecto diferente al que se muestra en este artículo.
-   >* Reemplace la página vinculada a ella por una página diferente. En este caso, haga clic en **Menú principal** ![](assets/main-menu-icon.png) en la esquina superior derecha de la página y, a continuación, haga clic en **Inicio**.
+   >* Sustitúyalo por una imagen personalizada para ilustrar su organización. En este caso, el icono tendrá un aspecto diferente al que se muestra en este artículo.
+   >* Reemplace la página vinculada por una página diferente. En este caso, haga clic en **Menú principal** ![](assets/main-menu-icon.png) en la esquina superior derecha de la página y, a continuación, haga clic en **Inicio**.
 
 1. Haga lo siguiente:
 
    1. Vaya al widget de **Mis aprobaciones** y busque la solicitud para obtener más acceso; luego, haga clic en **Conceder acceso**.
 
-      ![](assets/request-for-access-to-project-in-new-home-approvals-widget.png)
+      ![aprobar una solicitud](assets/request-for-access-to-project-in-new-home-approvals-widget.png)
 
    1. (Opcional) Para conceder un nivel de acceso diferente al solicitado, haga clic en el menú desplegable situado a la izquierda del botón Conceder acceso, seleccione el nuevo acceso y, a continuación, haga clic en **Conceder acceso**.
 
       La solicitud de acceso se concede y desaparece de la lista de solicitudes de aprobación.
 
-1. (Opcional) Haga clic en **Omitir** para denegar el acceso. La solicitud de acceso no se concede y desaparece de la lista de solicitudes de aprobación.
+1. (Opcional) Haga clic en **Ignorar** para denegar el acceso. La solicitud de acceso no se concede y desaparece de la lista de solicitudes de aprobación.
 
 ## Configuración de notificaciones por correo electrónico para solicitudes de acceso
 
@@ -89,29 +89,11 @@ Puede configurar si desea recibir notificaciones por correo electrónico para la
 1. Para ir al perfil de usuario, siga uno de estos procedimientos:
 
    * Haga clic en el **menú principal** ![](assets/dots-main-menu.png) en la esquina superior derecha de la pantalla y, a continuación, haga clic en su nombre.
-   * Haga clic en el Adobe **Menú principal** ![](assets/adobe-blue-main-menu.png) en la esquina superior derecha, si está disponible, y luego haga clic en **Perfil de Workfront**.
+   * Haga clic en el **icono de perfil](assets/adobe-blue-main-menu.png) del ![menú principal** de Adobe en la esquina superior derecha, si está disponible, y luego haga clic en **Perfil de Workfront**.
 
-1. Haga clic en el menú **Más** ![](assets/more-icon.png) que se encuentra a la derecha de su nombre en el encabezado y luego haga clic en **Editar**.
+1. Haga clic en el icono **Más** del menú ![más](assets/more-icon.png) a la derecha de su nombre en el encabezado y, a continuación, haga clic en **Editar**.
 1. Haga clic en **Notificaciones** y seleccione o anule la selección de **Alguien me solicita acceso** en la sección **Acción necesaria**, dependiendo de si desea recibir notificaciones por correo electrónico cuando otro usuario solicite o no acceso.
 
    Puede activar una notificación diaria o instantánea.
 
 1. Haga clic en **Guardar cambios**.
-
-<!--1. (Conditional) From the legacy Home area, do the following: 
-   
-   1. In the **Work List**, select the access request you want to manage in the **Approvals** section.  
-
-   ![Screen_Shot_2018-07-02_at_11.35.29_AM.png](assets/screen-shot-2018-07-02-at-11.35.29-am-350x242.png)
-
-   The request displays on the right of the Work List. 
-
-   1. In the upper-right corner, click the grant access button.  
-   Depending on the type of access requested, the button name changes. For example, if the requestor asks for View access, the button says **Grant View Access**.  
-   ![Grant_Access_2.png](assets/grant-access-2-350x98.png)
-
-   1. (Optional) To grant a different level of access than requested, click the arrow next to the grant access button and select the new access, then click **Grant < Permission level > Access >**.  
-   A message appears confirming access was granted.  
-   
-   1. (Optional) Click **Ignore** to deny access.  
-   A message appears confirming access was ignored.-->

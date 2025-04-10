@@ -6,10 +6,10 @@ description: El administrador de Adobe Workfront concede a los usuarios acceso p
 author: Alina
 feature: Get Started with Workfront
 exl-id: 91ee72e0-20a9-4b06-9f80-a343dd4fbe06
-source-git-commit: dd7f61fcd92a43303be356dd3209ec6da6a063dd
+source-git-commit: b8a2fea8c1eac376f49201dc840f7a4fcc67d759
 workflow-type: tm+mt
-source-wordcount: '695'
-ht-degree: 2%
+source-wordcount: '692'
+ht-degree: 32%
 
 ---
 
@@ -17,9 +17,9 @@ ht-degree: 2%
 
 El administrador de Adobe Workfront concede a los usuarios acceso para ver o editar problemas cuando asignan niveles de acceso. Para obtener más información sobre la concesión de acceso a los problemas, consulte [Conceder acceso a los problemas](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md).
 
-Junto con el nivel de acceso que se concede a los usuarios, también puede concederles permisos para Ver, Contribute o Administrar problemas específicos que tiene acceso para compartir. Para obtener más información sobre los niveles de acceso y los permisos, vea [Cómo funcionan juntos los niveles de acceso y los permisos](../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md).
+Junto con el nivel de acceso que se concede a los usuarios, también puede concederles permisos para Ver, Contribuir o Administrar problemas específicos que tiene acceso para compartir. Para obtener más información sobre los niveles de acceso y los permisos, consulte [Cómo funcionan juntos los niveles de acceso y los permisos](../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md).
 
-Los permisos son específicos de un elemento en Workfront y definen qué acciones se pueden realizar sobre ese elemento.
+Los permisos son específicos de un elemento de Workfront y definen qué acciones se pueden realizar sobre ese elemento.
 
 ## Consideraciones acerca de problemas de uso compartido
 
@@ -27,26 +27,19 @@ Además de las consideraciones siguientes, consulte [Información general sobre 
 
 >[!NOTE]
 >
->Un administrador de Workfront puede agregar o quitar permisos a cualquier elemento del sistema, para todos los usuarios, sin ser el propietario de esos elementos.
+>Un administrador de Workfront puede añadir o quitar permisos a cualquier elemento del sistema, para todos los usuarios, sin que tengan que ser el propietario de esos elementos.
 
 * El creador de un problema tiene permisos de administración de forma predeterminada.
-* Puede compartir problemas individualmente o puede compartir varios de ellos a la vez. Compartir problemas es idéntico a compartir otros elementos en Workfront. Para obtener más información sobre cómo compartir elementos en Workfront, vea [Compartir un objeto](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md).
+* Puede compartir problemas individualmente o puede compartir varios de ellos a la vez. Compartir problemas es idéntico a compartir otros elementos en Workfront. Para obtener más información sobre cómo compartir elementos en Workfront, consulte [Buscar un objeto](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md).
 * Puede conceder los siguientes permisos a un problema: 
 
    * Ver
-
-     ![vista_en_problema.png](assets/view-on-issue-221x216.png)
-
+   * Aportar
    * Administrar
-
-     ![administrar_en_problemas.png](assets/manage-on-issues-179x199.png)
-
-   * Aportar\
-     ![Contribute_on_issue.png](assets/contribute-on-issue-156x205.png)
 
 * Cuando comparte un problema, todos los documentos adjuntos al problema heredan los mismos permisos.
 
-  El administrador de Workfront puede especificar si los documentos deben heredar permisos de objetos superiores en el nivel de acceso del usuario. Para obtener más información acerca de cómo restringir permisos heredados en documentos, vea [Crear o modificar niveles de acceso personalizados](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+  El administrador de Workfront puede especificar si los documentos deben heredar permisos de objetos superiores en el nivel de acceso del usuario. Para obtener más información sobre la restricción de permisos heredados en documentos, consulte [Crear o modificar niveles de acceso personalizados](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
 * Puede eliminar los permisos heredados de un problema. Para obtener más información, vea [Quitar permisos de objetos](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md).
 
@@ -55,8 +48,8 @@ Además de las consideraciones siguientes, consulte [Información general sobre 
 * Manualmente, lo que es similar a compartir cualquier otro objeto en Workfront. Para obtener más información sobre cómo compartir objetos en Workfront, vea [Compartir un objeto](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md).
 * Automáticamente, mediante una de las siguientes acciones:
 
-   * Especifique los permisos en cualquiera de los objetos principales del problema: proyecto, programa o portafolio. Los problemas heredan los permisos de sus objetos principales. Para obtener información acerca de cómo ver permisos heredados en objetos, vea [Ver permisos heredados en objetos](../../workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md).
-   * Agregue entidades al Uso compartido de proyectos en una plantilla utilizada para crear el proyecto en el que se encuentra el problema. Para obtener información sobre cómo compartir proyectos desde plantillas, vea [Compartir una plantilla](../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md).
+   * Especifique los permisos en cualquiera de los objetos principales del problema: proyecto, programa o portafolio. Los problemas heredan los permisos de sus objetos principales. Para obtener información acerca de cómo ver permisos heredados en objetos, consulte [Ver permisos heredados en objetos](../../workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md).
+   * Agregue entidades al Uso compartido de proyectos en una plantilla utilizada para crear el proyecto en el que se encuentra el problema. Para obtener información sobre cómo compartir proyectos desde plantillas, consulte [Compartir una plantilla](../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md).
 
    * Especifique los permisos sobre todos los problemas de un proyecto al editarlo. Para obtener información sobre cómo administrar el acceso a problemas o solicitudes en el proyecto en función de los permisos de un usuario para el proyecto, consulte la sección [](../../manage-work/projects/manage-projects/edit-projects.md#access) en el artículo [Editar proyectos](../../manage-work/projects/manage-projects/edit-projects.md).
 
@@ -64,7 +57,7 @@ Además de las consideraciones siguientes, consulte [Información general sobre 
      >
      >Si no especifica los permisos de problema que desea que tengan los usuarios cuando se les asignen los problemas del proyecto, recibirán los mismos permisos que tienen en el proyecto de forma predeterminada.
 
-   * Especifique los permisos que reciben los usuarios en los problemas que envían en una cola de solicitudes al crear una cola de solicitudes. Para obtener más información, vea [Crear una cola de solicitudes](../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+   * Especifique los permisos que reciben los usuarios en los problemas que envían en una cola de solicitudes al crear una cola de solicitudes. Para obtener más información, consulte [Crear una cola de solicitudes](../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
      >[!IMPORTANT]
      >
@@ -134,7 +127,7 @@ Además de las consideraciones siguientes, consulte [Información general sobre 
 
 ## Permisos de problemas
 
-La siguiente tabla muestra qué permisos puede otorgar a los usuarios cuando les permite Ver, Contribute o Administrar un problema:
+En la tabla siguiente se muestran los permisos que puede otorgar a los usuarios cuando les permite Ver, Contribuir o Administrar un problema:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -145,7 +138,7 @@ La siguiente tabla muestra qué permisos puede otorgar a los usuarios cuando les
   <tr> 
    <td><strong>Acciones</strong> </td> 
    <td><strong>Administrar</strong> </td> 
-   <td><strong>Contribute</strong> </td> 
+   <td><strong>Aportar</strong> </td> 
    <td><strong>Vista</strong> </td> 
   </tr> 
   <tr> 
@@ -155,7 +148,7 @@ La siguiente tabla muestra qué permisos puede otorgar a los usuarios cuando les
    <td> </td> 
   </tr> 
   <tr> 
-   <td>Eliminar </td> 
+   <td>Eliminar</td> 
    <td>✓</td> 
    <td> </td> 
    <td> </td> 
@@ -179,7 +172,7 @@ La siguiente tabla muestra qué permisos puede otorgar a los usuarios cuando les
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td>Agregar Un Proceso De Aprobación</td> 
+   <td>Añadir un proceso de aprobación</td> 
    <td>✓</td> 
    <td> </td> 
    <td> </td> 
@@ -221,13 +214,13 @@ La siguiente tabla muestra qué permisos puede otorgar a los usuarios cuando les
    <td> </td> 
   </tr> 
   <tr> 
-   <td>Actualizaciones/ comentarios</td> 
+   <td>Actualizaciones/comentarios</td> 
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td>Modificar fechas planificadas</td> 
+   <td>Modificar fechas planificadas del proyecto</td> 
    <td>✓</td> 
    <td> </td> 
    <td> </td> 

@@ -6,16 +6,14 @@ description: El administrador de Adobe Workfront puede otorgarle acceso para ver
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0d0e13d9-b234-48d3-a818-5b6fb36a4688
-source-git-commit: 3bd377ba2dec29bb956632cf3e9e3e33afe4305d
+source-git-commit: b8a2fea8c1eac376f49201dc840f7a4fcc67d759
 workflow-type: tm+mt
-source-wordcount: '566'
-ht-degree: 24%
+source-wordcount: '565'
+ht-degree: 23%
 
 ---
 
 # Compartir permisos financieros en un objeto
-
-{{highlighted-preview}}
 
 El administrador de Adobe Workfront puede otorgarle acceso para ver o editar datos financieros al asignar su nivel de acceso. Para obtener más información, consulte [Concesión de acceso a los datos financieros](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
 
@@ -54,6 +52,8 @@ Para obtener información acerca de lo que los usuarios de cada nivel de acceso 
  </tbody> 
 </table>
 -->
+
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 Debe tener lo siguiente para compartir información de datos financieros sobre objetos:
 
 <table style="table-layout:auto"> 
@@ -81,11 +81,13 @@ Debe tener lo siguiente para compartir información de datos financieros sobre o
 
 &#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su administrador de Workfront.
 
++++
+
 ## Compartir un objeto y conceder permisos financieros
 
 Tenga en cuenta lo siguiente al conceder permisos financieros a objetos:
 
-* Puede conceder permisos financieros a proyectos, tareas, problemas, <span class="preview">y tarjetas de tarifas</span>.
+* Puede conceder permisos financieros a proyectos, tareas y problemas.
 * Los permisos se pueden heredar: si tiene permisos de Ver finanzas en un proyecto, hereda automáticamente los permisos de Ver finanzas en las tareas y problemas del proyecto.
 
 Para conceder permisos financieros a un objeto:
@@ -102,10 +104,8 @@ Para conceder permisos financieros a un objeto:
 1. Si aparece un menú desplegable a la derecha del nombre seleccionado, haga clic en una de las siguientes opciones disponibles:
 
    * **Ver**
-   * **Contribute a la misma**
+   * **Aportar**
    * **Administrar**
-
-     ![](assets/12.png)      ![](assets/13.png) ![](assets/14.png)
 
 1. En el mismo menú desplegable, haga clic en **Configuración avanzada** y, a continuación, siga uno de estos procedimientos:
 
@@ -116,7 +116,7 @@ Para conceder permisos financieros a un objeto:
 
 ## Permiso financiero para todos los niveles de uso compartido
 
-En la tabla siguiente se muestran los permisos financieros que obtienen los usuarios al concederles permisos de Vista, Contribute o Administrar en objetos: 
+En la tabla siguiente se muestran los permisos financieros que obtienen los usuarios cuando se les conceden permisos de Ver, Contribuir o Administrar en objetos: 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -156,18 +156,6 @@ En la tabla siguiente se muestran los permisos financieros que obtienen los usua
    <td>✓</td> 
    <td> ✓</td> 
   </tr> 
-  <tr> 
-   <td><span class="preview">Administrar tarjetas de tarifas</span></td> 
-   <td>✓</td> 
-   <td> <p> </p> </td> 
-   <td> </td> 
-  </tr> 
-  <tr> 
-   <td><span class="preview">Ver tarjetas de tarifa</span></td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td> ✓</td> 
-  </tr>
   <tr> 
    <td>Ver información por coste en las herramientas de planificación de recursos</td> 
    <td>✓</td> 

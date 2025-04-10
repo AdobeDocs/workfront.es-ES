@@ -5,10 +5,10 @@ author: Alina
 draft: Probably
 feature: Get Started with Workfront
 exl-id: 79643202-2d91-4028-b673-c3443b50d898
-source-git-commit: 3bd377ba2dec29bb956632cf3e9e3e33afe4305d
+source-git-commit: b8a2fea8c1eac376f49201dc840f7a4fcc67d759
 workflow-type: tm+mt
 source-wordcount: '381'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
@@ -32,12 +32,10 @@ Además de las consideraciones siguientes, consulte [Información general sobre 
 * Puede compartir un portafolio individualmente o puede compartir varios portafolios al mismo tiempo. El uso compartido de un portafolio es idéntico al uso compartido de otros objetos en Workfront. Para obtener más información, consulte [Compartir un objeto](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md).
 
 * Solo puede conceder permisos para Ver o Administrar los portafolios.
-
-  ![](assets/screen-shot-2014-01-23-at-12.45.15-pm.png)    ![](assets/screen-shot-2014-01-22-at-10.03.43-am-190x167.png)
-
+</span>
 * Cuando comparte un portafolio, los usuarios heredan los mismos permisos en todos los objetos secundarios asociados con el portafolio de forma predeterminada.
 
-  Para obtener más información sobre la jerarquía de objetos en Workfront, consulte [Comprender los objetos en Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+Para obtener más información sobre la jerarquía de objetos en Workfront, consulte [Comprender los objetos en Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
 * Puede quitar los permisos heredados del portafolio. Para obtener más información sobre cómo quitar permisos de los objetos, consulte [Quitar permisos de los objetos](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md).
 
