@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 780c996c-5cf1-42fe-898d-2cc208bbae7b
-source-git-commit: 03f95d2d6397850fd53e79fd37c2de56e94a04cd
+source-git-commit: 34f7f35875f063a77d33ee63c33e69721dc70c03
 workflow-type: tm+mt
-source-wordcount: '1270'
-ht-degree: 80%
+source-wordcount: '1308'
+ht-degree: 79%
 
 ---
 
@@ -124,7 +124,29 @@ IF(
 
    ![Seleccione un objeto](assets/object-for-business-rule3.png)
 
-1. Escriba el **nombre** de la regla empresarial.
+   Puede aplicar reglas de negocio a los siguientes objetos:
+
+   * Proyecto
+   * Tarea
+   * Problema/Solicitud
+   * Portafolio
+   * Documento
+   * Programa
+   * Gasto
+   * Usuario
+   * Compañía
+   * Iteración
+   * Registro de facturación
+   * Grupo
+   * Riesgo
+   * Asignación
+   * Función
+   * Conjunto de recursos
+   * Días libres
+   * Hora
+   * Plantilla
+
+1. Escriba **Name** para la regla de negocio en el cuadro de diálogo del generador de reglas.
 1. En el campo **Está activa**, seleccione si la regla debe estar activa al guardarla.
 
    Si selecciona **No**, la regla se guardará como inactiva y podrá activarla más tarde.
