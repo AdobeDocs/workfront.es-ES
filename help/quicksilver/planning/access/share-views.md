@@ -6,19 +6,19 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 673dd888-3135-48b0-8198-c8d6d6706ddf
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: 7f96cddc18e70dff34beb33ef2785af69a55c36f
 workflow-type: tm+mt
-source-wordcount: '1600'
-ht-degree: 57%
+source-wordcount: '1540'
+ht-degree: 58%
 
 ---
 
 
 # Compartir vistas
 
-<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después de las versiones mensuales en Production, las mismas funciones también están disponibles en el entorno Production para los clientes que habilitaron versiones rápidas. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -35,7 +35,7 @@ Puede compartir una vista con otros usuarios para garantizar la colaboración cu
 
 Puede compartir una vista con las siguientes entidades:
 
-* Internamente, con usuarios de Workfront, grupos, <span class="preview">equipos, empresas y roles</span>
+* Internamente, con usuarios, grupos, equipos, empresas y funciones de Workfront
 * Públicamente, con usuarios de fuera de Workfront
 
 <!--
@@ -129,7 +129,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 ## Compartir permisos para una vista internamente
 
-Puede compartir las vistas que ha creado o las vistas en las que tiene permiso de administración con usuarios, grupos, <span class="preview">equipos, empresas y roles</span> en Workfront Planning.
+Puede compartir las vistas que ha creado o las vistas en las que tiene permiso de administración con usuarios, grupos, equipos, empresas y roles en Workfront Planning.
 
 >[!NOTE]
 >
@@ -151,10 +151,10 @@ Puede compartir las vistas que ha creado o las vistas en las que tiene permiso d
 
 1. (Opcional) En el área **Quién tiene acceso**, seleccione una de las siguientes opciones:
 
-   * **Solo las personas invitadas pueden tener acceso**: debe especificar los usuarios, grupos, <span class="preview">equipo, compañía o rol</span> con los que desea compartir la vista. Esta es la opción predeterminada.
+   * **Solo las personas invitadas pueden tener acceso**: debe especificar los usuarios, grupos, equipos, empresas o roles con los que desea compartir la vista. Esta es la opción predeterminada.
    * **Todos los usuarios del espacio de trabajo pueden ver**: todos los usuarios que tengan permisos de visualización o superiores en los espacios de trabajo pueden acceder a la vista.
 
-1. En el campo **Conceder acceso a esta vista**, empiece a escribir el nombre de un usuario, un grupo, <span class="preview">equipo, empresa o rol</span> y, a continuación, haga clic en él cuando se muestre en la lista.
+1. En el campo **Conceder acceso a esta vista**, empiece a escribir el nombre de un usuario, un grupo, un equipo, una empresa o un rol y, a continuación, haga clic en él cuando se muestre en la lista.
 
    ![Compartir una vista con grupos](assets/sharing-a-view-ui-with-groups.png)
 
@@ -255,7 +255,7 @@ En la notificación por correo electrónico, haga clic en **Ver todas las notifi
 1. Para quitar el uso compartido interno de una vista, haga lo siguiente:
 
    1. Asegúrese de que la pestaña **Uso compartido interno** esté seleccionada.
-   1. Busque el usuario, grupo, <span class="preview">equipo, empresa o rol</span> que desea quitar, expanda el menú desplegable de permisos a la derecha del nombre de la entidad con la que comparte la vista y, a continuación, haga clic en **Quitar**.
+   1. Busque el usuario, grupo, equipo, empresa o rol que desea quitar, expanda el menú desplegable de permisos a la derecha del nombre de la entidad con la que comparte la vista y, a continuación, haga clic en **Quitar**.
 
 1. Para quitar el uso compartido público de una vista, haga lo siguiente:
 

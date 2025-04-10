@@ -7,10 +7,10 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
-source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
+source-git-commit: 7f96cddc18e70dff34beb33ef2785af69a55c36f
 workflow-type: tm+mt
-source-wordcount: '7703'
-ht-degree: 94%
+source-wordcount: '7643'
+ht-degree: 95%
 
 ---
 
@@ -18,9 +18,9 @@ ht-degree: 94%
 
 <!--Audited: 07/2024-->
 
-<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después de las versiones mensuales en Production, las mismas funciones también están disponibles en el entorno Production para los clientes que habilitaron versiones rápidas. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 <!--
 <p>***Linked to many articles,</p>
@@ -169,7 +169,7 @@ Para obtener información sobre cómo crear un proyecto a partir de una plantill
    * [Configuración de tarea](#task-settings)
    * [Configuración de problema](#issue-settings)
    * [Acceso](#access)
-   * <span class="preview">[Comment](#comment)</span>
+   * [Comentario](#comment)
 
 
    >[!NOTE]
@@ -667,7 +667,6 @@ Para obtener información sobre cómo afecta esta configuración a la creación 
 
 1. Haga clic en **Guardar**.
 
-<div class="preview">
 
 ### Comentario
 
@@ -679,7 +678,6 @@ Para obtener información sobre cómo afecta esta configuración a la creación 
 1. Agregue un comentario en el espacio proporcionado. Workfront agrega el comentario en el área de Actualizaciones del proyecto. Para obtener más información sobre cómo actualizar el trabajo, vea [Actualizar trabajo](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 1. Haga clic en **Guardar**.
 
-</div>
 
 ## Editar un proyecto en el encabezado del proyecto (limitado)
 
@@ -804,7 +802,7 @@ Para obtener más información acerca de cómo editar el área Configuración de
 Para obtener más información acerca de cómo editar el área Configuración del problema, consulte la sección [Configuración del problema](#issue-settings) en este artículo.
 1. Haga clic en **Acceso** para editar la configuración de acceso de todos los proyectos seleccionados.
 Para obtener más información acerca de cómo editar el área de acceso, vea la sección [Acceso](#access) en este artículo.
-1. <span class="preview">Haga clic en **Comentario** y, a continuación, agregue un comentario en el espacio proporcionado. Workfront agrega el comentario en el área **Actualizaciones** de cada proyecto. Para obtener información acerca de cómo actualizar el trabajo, vea [Actualizar el trabajo](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).</span>
+1. Haga clic en **Comentario** y, a continuación, agregue un comentario en el espacio proporcionado. Workfront agrega el comentario en el área **Actualizaciones** de cada proyecto. Para obtener información sobre cómo actualizar el trabajo, vea [Actualizar trabajo](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 1. (Opcional) Para eliminar cualquier información que haya añadido en el cuadro Editar proyectos, pase el puntero sobre un campo editado y, a continuación, haga clic en el icono de descartar **x** que hay en la parte superior derecha del campo.
 
    ![Descartar icono para editar proyectos de campo de forma masiva](assets/discard-icon-for-field-edit-projects-in-bulk-unshimmed.png)

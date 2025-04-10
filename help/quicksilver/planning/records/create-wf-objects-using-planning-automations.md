@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: c669217a-40e2-471f-951d-93157a34f1ee
-source-git-commit: 585a65c497211c84cffafeeaa5016218fd66acd2
+source-git-commit: 88b8443525043a0710dfc6f93739e54f2e78a569
 workflow-type: tm+mt
-source-wordcount: '2197'
+source-wordcount: '2138'
 ht-degree: 6%
 
 ---
@@ -23,9 +23,9 @@ ht-degree: 6%
 
 <!-- if they give access to use the automation to people with LESS than Manage permissions to a workspace, split this article in two: the Configure section should be for admins and the "Use a Workfront Planning automation to create an object" should be for all other users-->
 
-<span class="preview">La información de esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después de las versiones mensuales en Production, las mismas funciones también están disponibles en el entorno Production para los clientes que habilitaron versiones rápidas. </span>
+<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 Puede configurar automatizaciones en Adobe Workfront Planning que, cuando estén activadas, creen objetos en Workfront o registros en Workfront Planning cuando se activen desde un registro de Planning. Los objetos o registros creados se conectan automáticamente a los registros desde los que activa la automatización.
 
@@ -37,7 +37,7 @@ Para obtener más información sobre los registros conectados, consulte [Informa
 
 Puede crear lo siguiente mediante automatizaciones en Workfront Planning:
 
-* Un <span class="preview">o varios</span> proyectos
+* Uno o varios proyectos
 * Un grupo
 * Un programa
 * Una cartera
@@ -123,15 +123,11 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 * El nombre del objeto o registro creado por una automatización es el mismo que el nombre del registro a partir del cual se crea, cuando se crea un único objeto.
 
-<div class="preview">
-
 * Cuando se crean varios proyectos, se les asigna automáticamente un nombre según el siguiente patrón:
 
   `[ Name of the record ] Name of the field choice`
 
   Para obtener más información, consulte la sección [Usar una automatización de Workfront Planning para crear un objeto o un registro](#use-a-workfront-planning-automation-to-create-an-object-or-a-record) en este artículo.
-
-</div>
 
 * Los nuevos objetos o registros no anulan los existentes en el mismo campo. Al activar la misma automatización varias veces para el mismo registro, se agregan los nuevos objetos o registros en el mismo campo conectado del registro original, además de los creados anteriormente.
 
@@ -166,8 +162,8 @@ Se abre la página de detalles de automatización.
    * **Acciones**: seleccione la acción que desea que realice Workfront al activar la automatización. Este campo es obligatorio.
 Seleccione una de las siguientes acciones:
 
-      * <span class="preview">Crear varios proyectos</span>
-      * <span class="preview">Crear un solo proyecto</span>
+      * Crear varios proyectos
+      * Creación de un solo proyecto
       * Crear proyecto
       * Crear registro
       * Crear programa
@@ -180,11 +176,9 @@ Seleccione una de las siguientes acciones:
 
 1. (Condicional) Según la acción seleccionada, actualice los campos siguientes:
 
-   * **Crear <span class="preview">un solo</span> proyecto**: <!--replace to the left: Create a single project-->
+   * **Crear un solo proyecto**: <!--replace to the left: Create a single project-->
       * **Campo conectado donde se crea el proyecto**: este es el campo conectado donde se mostrará el nuevo proyecto. Este campo es obligatorio.
       * **Plantilla de proyecto**: seleccione una plantilla de proyecto que Workfront usará para crear el proyecto.
-
-   <div class="preview">
 
    * Cree varios proyectos:
       * **Campo conectado donde se crea el proyecto**: este es el campo conectado donde se mostrará el nuevo proyecto. Este campo es obligatorio.
@@ -197,8 +191,6 @@ Seleccione una de las siguientes acciones:
 
       * **Usar la misma plantilla**: seleccione esta opción para usar la misma plantilla para cada nuevo proyecto. Si la opción no está seleccionada, seleccione una **plantilla de proyecto** para cada opción de campo.
       * **Plantilla de proyecto**: Si seleccionó la opción **Usar la misma plantilla**, seleccione una plantilla de proyecto que Workfront usará para crear los proyectos.
-
-   </div>
 
    * **Crear cartera**:
       * **Campo conectado donde se crea el portafolio**: este es el campo conectado donde se mostrará el nuevo portafolio. Este campo es obligatorio.
@@ -311,15 +303,11 @@ En el área **Asignar campos**, actualice la siguiente información:
 
    * El nuevo objeto se muestra en el campo conectado indicado en la configuración del botón de automatización. Es posible que tenga que actualizar la página antes de ver el nuevo objeto. El nuevo objeto tiene el mismo nombre que el registro original.
 
-   <div class="preview">
-
    * Si se han creado varios proyectos en función de las opciones de campos de selección múltiple o única, los proyectos se nombran automáticamente según el siguiente patrón:
 
      `[ Name of the record ] Name of the field choice`
 
      Por ejemplo, si una campaña denominada `Summer breeze` generó un proyecto a partir de una opción de campo de `EMEA`, el proyecto se denomina `[ Summer breeze ] EMEA`.
-
-   </div>
 
    * El registro desde el que se activa la automatización se agrega al campo conectado del nuevo registro.
 

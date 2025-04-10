@@ -8,10 +8,10 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: c1e2f374-576c-4f1c-b502-281e8ee9e7df
-source-git-commit: a3c82d8be6945a91a249d64923c6377a5edfa268
+source-git-commit: 7f96cddc18e70dff34beb33ef2785af69a55c36f
 workflow-type: tm+mt
-source-wordcount: '875'
-ht-degree: 61%
+source-wordcount: '815'
+ht-degree: 64%
 
 ---
 
@@ -23,9 +23,9 @@ ht-degree: 61%
 NOTE: DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.
 -->
 
-<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después de las versiones mensuales en Production, las mismas funciones también están disponibles en el entorno Production para los clientes que habilitaron versiones rápidas. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 Como administrador de Adobe Workfront, puede crear rutas de hitos que luego se pueden aplicar a cualquier proyecto del sistema. Los cambios que realice en las rutas de hitos en esta área afectarán a todo el sistema de Workfront.
 
@@ -123,20 +123,18 @@ Para obtener más información sobre cómo asociar una ruta de hitos a un proyec
    Para obtener más información sobre cómo asociar rutas de hitos a proyectos e hitos a tareas, consulte [Asociar hitos a tareas](../../../manage-work/tasks/manage-tasks/associate-milestones-with-tasks.md).
 
 
-1. <span class="preview">(Opcional) Haga clic en el icono **Exportar** ![Icono de exportar](assets/export-icon.png) y, a continuación, seleccione uno de los siguientes formatos para exportar la lista de rutas de hitos a un archivo: </span>
+1. (Opcional) Haga clic en el icono **Exportar** ![Icono de exportar](assets/export-icon.png) y, a continuación, seleccione uno de los siguientes formatos para exportar la lista de rutas de hitos a un archivo:
 
    * PDF
    * Excel
    * Excel (xlsx)
    * Delimitado por tabulaciones
 
-1. <span class="preview">(Opcional) Seleccione un hito en la lista de hitos y, a continuación, haga clic en el icono **Editar** ![Editar icono](assets/edit-icon.png) para editar la información del hito. </span>
-1. <span class="preview">(Opcional) Seleccione un hito en la lista de hitos y, a continuación, haga clic en el icono **Eliminar** ![Eliminar icono](assets/delete-icon.png) para eliminarlo. </span>
-1. <span class="preview">Haga clic en **Sí, eliminarlo**. </span>
-   <span class="preview">El hito se ha eliminado y no se puede recuperar. También se elimina cualquier información de proyecto asociada al hito y cualquier información de tarea asociada a las rutas de hitos. </span>
+1. (Opcional) Seleccione un hito en la lista de hitos y, a continuación, haga clic en el icono **Editar** ![Editar icono](assets/edit-icon.png) para editar la información del hito.
+1. (Opcional) Seleccione un hito en la lista de hitos y, a continuación, haga clic en el icono **Eliminar** ![Eliminar icono](assets/delete-icon.png) para eliminarlo.
+1. Haga clic en **Sí, eliminarlo**.
+El hito se elimina y no se puede recuperar. También se elimina cualquier información de proyecto asociada al hito y cualquier información de tarea asociada a las rutas de hitos.
 
-
-<div class="preview">
 
 ## Ver detalles de ruta de hitos en un informe
 
@@ -163,8 +161,6 @@ Para obtener información sobre cómo asociar rutas de hitos a proyectos, vea [E
 
    Se muestran los detalles de la trayectoria del hito.
 
-   <div class="preview">
-
    ![Detalles de ruta de hitos del informe de proyecto](assets/milestone-details-from-project-report.png)
 
    La página de detalles de la trayectoria del hito muestra la siguiente información:
@@ -175,6 +171,5 @@ Para obtener información sobre cómo asociar rutas de hitos a proyectos, vea [E
 
 1. (Opcional) Haga clic en **Atrás** para volver al informe del proyecto.
 
-</div>
 
 

@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
+source-git-commit: 7f96cddc18e70dff34beb33ef2785af69a55c36f
 workflow-type: tm+mt
-source-wordcount: '2246'
+source-wordcount: '2186'
 ht-degree: 15%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 15%
 
 # Editar registros
 
-<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después de las versiones mensuales en Production, las mismas funciones también están disponibles en el entorno Production para los clientes que habilitaron versiones rápidas. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -242,7 +242,6 @@ Para obtener más información, consulte [Administrar vistas de registros](/help
 
      ![Esquina inferior derecha arrastrable para copiar y pegar en la vista de tabla](assets/dragable-lower-right-corner-for-copy-paste-in-table-view.png)
 
-   <div class="preview">
 
    * Copie una o varias celdas de un origen externo (por ejemplo, un archivo de Excel) y péguelas en uno de los siguientes tipos de campos:
 
@@ -250,7 +249,6 @@ Para obtener más información, consulte [Administrar vistas de registros](/help
       * Campos de personas. Solo se admiten campos con un valor.
 
      No se puede copiar información de un origen externo y pegarla en ningún otro tipo de campo, incluidos los campos de conexión de Workfront o de AEM Assets.
-   </div>
 
    >[!NOTE]
    >
@@ -295,11 +293,7 @@ Para obtener más información, consulte [Administrar vistas de registros](/help
 
    En la vista de tabla, haga clic en el icono **Abrir detalles** ![Abrir detalles en el campo de nombre de tabla](assets/open-details-icon-in-table-name-field.png) de la primera columna. La vista previa del registro se abrirá en la vista.
 
-   <div class="preview">
-
    ![Cuadro de detalles](assets/details-box.png)
-
-   </div>
 
 1. (Opcional) Haga clic en el menú **Más** a la derecha del título del registro y, a continuación, haga clic en **Cambiar nombre**. Se actualiza el campo que se muestra como título del registro.
 
@@ -320,17 +314,13 @@ Para obtener más información, consulte [Administrar vistas de registros](/help
 
    Workfront guardará automáticamente los cambios.
 
-1. <span class="preview"> (Opcional) Haga clic en el **indicador en tiempo real** ![Icono de indicador en tiempo real](assets/real-time-indicator-icon.png) en la esquina superior derecha del cuadro de vista previa del registro y, a continuación, habilite la opción **Mostrar colaboradores** para resaltar los campos que están editando otros en tiempo real.
+1. (Opcional) Haga clic en el **indicador en tiempo real** ![icono de indicador en tiempo real](assets/real-time-indicator-icon.png) en la esquina superior derecha del cuadro de vista previa del registro y, a continuación, habilite la opción **Mostrar colaboradores** para resaltar los campos que otros están editando en tiempo real.
 
    En esta área se muestran los nombres y avatares de todos los usuarios que acceden al registro al mismo tiempo.
 
-   Cuando la configuración está desactivada, los avatares y los nombres se enumeran en el área del indicador en tiempo real y los campos que se están editando no están resaltados. </span>
-
-   <div class="preview">
+   Cuando la configuración está desactivada, los avatares y los nombres se enumeran en el área del indicador en tiempo real y los campos que se están editando no están resaltados.
 
    ![Cuadro de vista previa de registro expandido con indicador de tiempo real](assets/real-time-indicator-expanded-record-preview-box.png)
-
-   </div>
 
 1. (Opcional) Haga clic en el icono **Exportar** del menú ![Exportar en la página de detalles del registro](assets/export-icon-in-record-details-page.png) para exportar los detalles del registro. Para obtener más información, vea [Exportar los detalles de un registro](/help/quicksilver/planning/records/export-the-record-page.md).
 
@@ -388,17 +378,13 @@ Para obtener más información, consulte [Administrar vistas de registros](/help
 
    Workfront guardará automáticamente los cambios.
 
-1. <span class="preview"> (Opcional) Haga clic en el **indicador en tiempo real** ![Icono de indicador en tiempo real](assets/real-time-indicator-icon.png) en la esquina superior derecha de la página del registro y, a continuación, habilite la opción **Mostrar colaboradores** para resaltar los campos que están editando otros en tiempo real.
+1. (Opcional) Haga clic en el **indicador en tiempo real** ![icono del indicador en tiempo real](assets/real-time-indicator-icon.png) en la esquina superior derecha de la página del registro y, a continuación, habilite la opción **Mostrar colaboradores** para resaltar los campos que otros están editando en tiempo real.
 
    En esta área se muestran los nombres y avatares de todos los usuarios que acceden al registro al mismo tiempo.
 
-   Cuando la configuración está desactivada, los avatares y los nombres se enumeran en el área del indicador en tiempo real y los campos que se están editando no están resaltados. </span>
-
-   <div class="preview">
+   Cuando la configuración está desactivada, los avatares y los nombres se enumeran en el área del indicador en tiempo real y los campos que se están editando no están resaltados.
 
    ![Cuadro de vista previa de registro expandido de indicador de tiempo real](assets/real-time-indicator-expanded-record-preview-box.png)
-
-   </div>
 
 1. (Opcional) Haga clic en el icono **Exportar** del menú ![Exportar en la página de detalles del registro](assets/export-icon-in-record-details-page.png) para exportar los detalles del registro. Para obtener más información, vea [Exportar los detalles de un registro](/help/quicksilver/planning/records/export-the-record-page.md).
 
