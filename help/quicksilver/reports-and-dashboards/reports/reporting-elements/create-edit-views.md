@@ -6,10 +6,10 @@ description: Puede personalizar el tipo de información que se muestra en la pan
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 8fcd6320-c939-4195-8972-5c31575f78cb
-source-git-commit: 4ab3915651e664d97c368a6b650b0d0cb0a1593c
+source-git-commit: d98998627ac5161fd12bb2d86f65555550c82a48
 workflow-type: tm+mt
-source-wordcount: '1713'
-ht-degree: 90%
+source-wordcount: '1721'
+ht-degree: 84%
 
 ---
 
@@ -89,8 +89,7 @@ Se muestra el cuadro de diálogo **Personalizar vista**.
    * Añada una columna haciendo clic en **Añadir columna**, empiece a escribir el nombre de la columna que desea añadir y, a continuación, haga clic en ella cuando aparezca en la lista desplegable.
    * Ajuste el orden en que aparecen las columnas arrastrando el título de la columna a una nueva ubicación.
 
-   * En el área **Configuración de columna**, haga clic en **Resumir esta columna por** y elija cómo desea que se muestren los datos en la columna:
-
+   * En el área **Configuración de columna**, haga clic en **Resumir esta columna por** y elija cómo desea que se muestren los datos en la columna. Esta opción está disponible para los siguientes tipos de columna:
      <table style="table-layout:auto"> 
          <col> 
          <col> 
@@ -108,7 +107,7 @@ Se muestra el cuadro de diálogo **Personalizar vista**.
            <li>Cuenta</li>
          <li>Suma</li>
            <li>Promedio</li>
-         <li>Maximym</li>
+         <li>Máximo</li>
            <li>Mínimo</li>
          </ul></td> 
           </tr> 
@@ -124,9 +123,9 @@ Se muestra el cuadro de diálogo **Personalizar vista**.
      >
      >Las siguientes excepciones se aplican a los objetos principales (por ejemplo, las tareas principales) cuando se resumen los valores de los siguientes campos en las agrupaciones:
      >   
-     > * Todos los campos de número y moneda excepto Horas reales (por ejemplo, Coste planificado/real de mano de obra, Coste planificado/real de gastos, Coste planificado/ real, Horas planificadas) acumulan solo los valores de las tareas secundarias y las tareas independientes. No acumulan los valores de las tareas principales o principales de los elementos principales.
-     > * Las horas reales acumulan los valores de las tareas principales e independientes; no acumulan los números de las tareas principales o secundarias.
-     > * Los campos de datos personalizados para valores numéricos y de moneda agregan todas las tareas: principales, secundarias, principales de principales y tareas independientes.
+     > * Todos los campos de número y moneda excepto Horas reales (por ejemplo, Costo de mano de obra planificado/ real, Costo de gasto planificado/ real, Costo planificado/ real, Horas planificadas) resumen los valores solo para tareas secundarias y tareas independientes. No resumen los valores de las tareas padre o padre de los padres.
+     > * Horas reales resume los valores de las tareas principales e independientes; no resume los números de las tareas principales o secundarias.
+     > * Los campos de datos personalizados para valores numéricos y monetarios resumen todas las tareas: padres, hijos, padres de padres y tareas independientes.
      >
      >Para obtener más información acerca del uso de agrupaciones en un informe, consulte el artículo [Información general sobre agrupaciones en Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 
