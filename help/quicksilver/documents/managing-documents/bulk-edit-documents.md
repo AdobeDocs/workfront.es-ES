@@ -8,16 +8,14 @@ author: Courtney
 feature: Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: e8badce6-86f5-416c-a238-f9b7f19cdd2d
-source-git-commit: f9ebf647c7672a9d471288806cf596d103007613
+source-git-commit: 486b672a67c62b86f3306c9375a286895c2fae01
 workflow-type: tm+mt
-source-wordcount: '750'
-ht-degree: 19%
+source-wordcount: '728'
+ht-degree: 18%
 
 ---
 
 # Editar documentos por lotes
-
-<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa de espacio aislado.</span>
 
 Puede editar la descripción, agregar formularios personalizados y editar formularios personalizados en varios documentos a la vez.
 
@@ -97,7 +95,6 @@ Para editar documentos de forma masiva:
     </table>
 1. Haga clic en **Guardar**.
 
-<span class="preview">
 
 ## Editar documentos por lotes en un informe de documento
 
@@ -125,5 +122,3 @@ Cree un informe de documento como se describe en [Crear un informe personalizado
     </tr>
     </table>
 1. Haga clic en **Guardar**.
-
-</span>

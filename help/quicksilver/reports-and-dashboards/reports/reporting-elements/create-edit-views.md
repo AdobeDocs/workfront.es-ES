@@ -6,10 +6,10 @@ description: Puede personalizar el tipo de información que se muestra en la pan
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 8fcd6320-c939-4195-8972-5c31575f78cb
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: 4ab3915651e664d97c368a6b650b0d0cb0a1593c
 workflow-type: tm+mt
-source-wordcount: '1731'
-ht-degree: 94%
+source-wordcount: '1713'
+ht-degree: 90%
 
 ---
 
@@ -89,31 +89,46 @@ Se muestra el cuadro de diálogo **Personalizar vista**.
    * Añada una columna haciendo clic en **Añadir columna**, empiece a escribir el nombre de la columna que desea añadir y, a continuación, haga clic en ella cuando aparezca en la lista desplegable.
    * Ajuste el orden en que aparecen las columnas arrastrando el título de la columna a una nueva ubicación.
 
-      * (Opcional) En el área **Configuración de columna**, haga clic en la lista desplegable **Resumir esta columna por** y, a continuación, seleccione una de las opciones disponibles para resumir la información. Al elegir esta opción, la información de la columna se agrega a las agrupaciones del informe.\
-        Para los campos de fecha, puede resumir los valores mediante las siguientes opciones:
+   * En el área **Configuración de columna**, haga clic en **Resumir esta columna por** y elija cómo desea que se muestren los datos en la columna:
 
-         * Máximo
-         * Mínimo
+     <table style="table-layout:auto"> 
+         <col> 
+         <col> 
+         <tbody> 
+          <tr> 
+           <td role="rowheader"><strong>Campos de fecha</strong></td> 
+           <td><ul>
+           <li>Máximo</li>
+         <li>Mínimo</li>
+           </ul></td> 
+          </tr> 
+          <tr>
+           <td role="rowheader"><strong>Campos de moneda</strong></td> 
+           <td><ul>
+           <li>Cuenta</li>
+         <li>Suma</li>
+           <li>Promedio</li>
+         <li>Maximym</li>
+           <li>Mínimo</li>
+         </ul></td> 
+          </tr> 
+         <tr>
+           <td role="rowheader"><strong>Campos booleanos y de cadena</strong></td> 
+           <td><ul><li>Cuenta</li></ul>
+           <p>Nota: Workfront no suele recomendar el resumen de un campo booleano por recuento, ya que el valor siempre será true/false.</p></td> 
+          </tr> 
+         </tbody> 
+        </table>
 
-        Para los campos de número y moneda, puede resumir los valores mediante las siguientes opciones:
-
-         * Cuenta
-         * Suma
-         * Promedio
-         * Máximo
-         * Mínimo
-
-        >[!NOTE]
-        >
-        >Las siguientes excepciones se aplican a los objetos principales (por ejemplo, las tareas principales) cuando se añaden valores para los siguientes campos en agrupaciones:
-        >   
-        >   * Todos los campos de número y moneda excepto Horas reales (por ejemplo, Coste planificado/real de mano de obra, Coste planificado/real de gastos, Coste planificado/ real, Horas planificadas) acumulan solo los valores de las tareas secundarias y las tareas independientes. No acumulan los valores de las tareas principales o principales de los elementos principales.
-        >   * Las horas reales acumulan los valores de las tareas principales e independientes; no acumulan los números de las tareas principales o secundarias.
-        >   * Los campos de datos personalizados para valores numéricos y de moneda agregan todas las tareas: principales, secundarias, principales de principales y tareas independientes.
-        >   
-        >
-
-        Para obtener más información acerca del uso de agrupaciones en un informe, consulte el artículo [Información general sobre agrupaciones en Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
+     >[!NOTE]
+     >
+     >Las siguientes excepciones se aplican a los objetos principales (por ejemplo, las tareas principales) cuando se resumen los valores de los siguientes campos en las agrupaciones:
+     >   
+     > * Todos los campos de número y moneda excepto Horas reales (por ejemplo, Coste planificado/real de mano de obra, Coste planificado/real de gastos, Coste planificado/ real, Horas planificadas) acumulan solo los valores de las tareas secundarias y las tareas independientes. No acumulan los valores de las tareas principales o principales de los elementos principales.
+     > * Las horas reales acumulan los valores de las tareas principales e independientes; no acumulan los números de las tareas principales o secundarias.
+     > * Los campos de datos personalizados para valores numéricos y de moneda agregan todas las tareas: principales, secundarias, principales de principales y tareas independientes.
+     >
+     >Para obtener más información acerca del uso de agrupaciones en un informe, consulte el artículo [Información general sobre agrupaciones en Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 
       * (Opcional) Haga clic en **Opciones avanzadas** para especificar la siguiente información para la columna:
 
