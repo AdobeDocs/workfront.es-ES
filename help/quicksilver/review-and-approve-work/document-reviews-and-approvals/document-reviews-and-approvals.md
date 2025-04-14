@@ -19,8 +19,8 @@ ht-degree: 81%
 
 Esta sección contiene las siguientes secciones:
 
-* [Funcionalidad disponible para la revisión y aprobación de recursos y documentos](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/asset-review-and-approval.md)
-* [Resumen de aprobaciones unificadas](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)
+* [Disponible funcionalidad para recurso y documento revisión y aprobación](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/asset-review-and-approval.md)
+* [Información general sobre las aprobaciones unificadas](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)
 * [Estado de decisión del documento](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md)
 * [Configuración y administración de aprobaciones de recursos y documentos: índice de artículos](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/set-up-and-manage-doc-asset-approvals-toc.md)
 * [Revisión y aprobación de recursos y documentos: índice de artículos](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-documents-toc.md)

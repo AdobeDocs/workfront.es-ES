@@ -1,7 +1,7 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: Available functionality for asset and document review and approval
+title: Funcionalidad disponible para la revisión y aprobación de recursos y documentos
 description: Descripción general de los sistemas disponibles para su revisión y aprobación en Workfront.
 author: Courtney
 feature: Work Management, Digital Content and Documents
@@ -13,77 +13,77 @@ ht-degree: 2%
 
 ---
 
-# Disponible funcionalidad para recurso y documento revisión y aprobación
+# Funcionalidad disponible para la revisión y aprobación de recursos y documentos
 
-Actualmente hay 3 sistemas diferentes disponibles en Workfront para la revisión y aprobación de activos y documentos:
+Actualmente hay tres sistemas diferentes disponibles en Workfront para la revisión y aprobación de recursos y documentos:
 
-* [Aprobaciones de documento heredadas](#legacy-document-approvals)
+* [Aprobaciones de documentos heredados](#legacy-document-approvals)
 
-* [Unified Approvals](#new-document-approvals)
+* [Aprobaciones unificadas](#new-document-approvals)
 
-* [Proof approvals](#proof-approvals)
+* [Aprobaciones de revisión](#proof-approvals)
 
-## Legacy document approvals
+## Aprobaciones de documentos heredados
 
-Legacy document approvals will be removed from Workfront in 2025. The Unified Approvals system has been designed to replace Legacy document approvals.
+Las aprobaciones de documentos heredados se eliminarán de Workfront en 2025. El sistema de aprobaciones unificado se ha diseñado para reemplazar las aprobaciones de documentos heredadas.
 
-Key features available for legacy document approvals:
+Funciones clave disponibles para aprobaciones de documentos heredados:
 
-* Add users as approvers
-* Review and comment in the proofing viewer
-* Tomar decisiones en el visualizador de corrección
-* Crear informes de aprobación con sistema de informes heredados
+* Añadir usuarios como aprobadores
+* Revisión y comentarios en el visor de pruebas
+* Tomar decisiones en el visor de pruebas
+* Creación de informes de aprobación con informes heredados
 
-Para obtener más información, consulte [Aprobaciones de documento heredadas](/help/quicksilver/review-and-approve-work/manage-approvals/approval-process-in-workfront.md#document-approval-processes).
+Para obtener más información, consulte [Aprobaciones de documentos heredados](/help/quicksilver/review-and-approve-work/manage-approvals/approval-process-in-workfront.md#document-approval-processes).
 
-## Unified Approvals
+## Aprobaciones unificadas
 
-Unified Approvals is a redesign of the legacy approvals system. Currently available in limited release, it is designed to be a practical and effective solution for businesses requiring comprehensive stakeholder engagement and version-specific document approvals.
+Aprobaciones unificadas es un rediseño del sistema de aprobaciones heredado. Actualmente disponible en versiones limitadas, está diseñado para ser una solución práctica y eficaz para las empresas que requieren una participación integral de las partes interesadas y aprobaciones de documentos específicas para cada versión.
 
-For more detailed information about Unified Approvals, see [Unified Approvals overview](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md).
+Para obtener información más detallada sobre las aprobaciones unificadas, consulte [Resumen de aprobaciones unificadas](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md).
 
-Key features available for Unified Approvals:
+Funciones clave disponibles para las aprobaciones unificadas:
 
-* Add users and teams as approvers and reviewers
+* Agregar usuarios y equipos como aprobadores y revisores
 
-* Set deadlines
+* Establecer fechas límites
 
-* Crear y uso de plantillas
+* Creación y uso de plantillas
 
-* Revise y comente en el visualizador de revisión
-Para obtener más información sobre el uso del visualizador de corrección, consulte [Usar aprobaciones unificadas y pruebas conjuntas](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/doc-approvals-and-proofing.md).
+* Revisión y comentarios en el visor de pruebas
+Para obtener más información acerca del uso del visor de revisión, vea [Usar aprobaciones unificadas y revisar juntos](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/doc-approvals-and-proofing.md).
 
-* Ver varios indicadores clave de rendimiento para sus aprobaciones en los widgets de Workfront Home
+* Vea varios indicadores de rendimiento clave para sus aprobaciones en los widgets de inicio de Workfront
 
-* Utilice los tableros de Canvas, actualmente en fase beta, para vista sistema de informes detalles sobre las aprobaciones unificadas
-Para obtener más información sobre sistema de informes, consulte Crear [un panel de informes para su revisión y aprobación](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md).
+* Utilice Paneles de lienzo, actualmente en fase beta, para ver los detalles de creación de informes acerca de las aprobaciones unificadas
+Para obtener más información sobre los informes, consulte [Crear un tablero de informes para revisión y aprobaciones](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md).
 
-* Tome decisiones en el visualizador [!BADGE de revisión Próximamente]{type=Informative}
+* Tome decisiones en el visor de revisión [!BADGE Próximamente]{type=Informative}
 
-* Create multiple stage approvals [!BADGE Coming soon]{type=Informative}
+* Crear varias aprobaciones de etapa [!BADGE Próximamente]{type=Informative}
 
 
-## Proof approvals
+## Aprobaciones de revisión
 
-Proof approvals allow you to use basic and automated workflows to manage complex review and approve processes. Para obtener más información sobre la revisión, consulte [Revisión](/help/quicksilver/review-and-approve-work/proofing/proofing-overview/proofing-basics.md).
+Las aprobaciones de pruebas le permiten utilizar flujos de trabajo básicos y automatizados para administrar procesos complejos de revisión y aprobación. Para obtener más información sobre la revisión, consulte [Revisión](/help/quicksilver/review-and-approve-work/proofing/proofing-overview/proofing-basics.md).
 
-Features available for proofing:
+Funciones disponibles para la revisión:
 
-* Use proof roles to tailor proof access and capabilities
+* Uso de funciones de prueba para adaptar el acceso y las capacidades de prueba
 
-* Set deadlines
+* Establecer fechas límites
 
-* Create and use templates
+* Creación y uso de plantillas
 
-* Revise y comente en el visualizador de revisión
+* Revisión y comentarios en el visor de pruebas
 
-* Utilizar sistema de informes anteriores para crear informes
+* Uso de informes heredados para crear informes
 
-* Tomar decisiones en el visualizador de corrección
+* Tomar decisiones en el visor de pruebas
 
-* Create multiple stage approvals
+* Creación de varias aprobaciones de fase
 
-* Use basic or automated workflows
+* Uso de flujos de trabajo básicos o automatizados
 
 <!--
 ## Upcoming deprecations
