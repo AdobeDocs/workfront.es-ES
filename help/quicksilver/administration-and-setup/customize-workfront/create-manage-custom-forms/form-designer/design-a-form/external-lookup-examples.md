@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 13880fcb-8523-45d2-9ac6-38453e8e2391
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: 6f69425c811042f9f3e13f3631ba734f8fdcb95f
 workflow-type: tm+mt
-source-wordcount: '1318'
-ht-degree: 0%
+source-wordcount: '1378'
+ht-degree: 80%
 
 ---
 
@@ -29,44 +29,44 @@ Puede utilizar la búsqueda externa para introducir datos de la instancia de Wor
 
 ### Utilice valores de campo de Workfront nativos en la búsqueda externa
 
-Este ejemplo muestra cómo llamar a la API de Workfront y llevar los datos del campo &quot;Consulta de estado&quot; existente al campo de búsqueda externa.
+En este ejemplo se muestra cómo llamar a la API de Workfront y rellenar una lista de proyectos en un campo de búsqueda externa, filtrados por estado mediante el valor del campo personalizado &quot;Consulta de estado&quot; y un término de búsqueda mediante $$QUERY.
 
 1. Abra el formulario personalizado.
 1. En el lado izquierdo de la pantalla, busque **Búsqueda externa** y arrástrela a una sección del lienzo.
-1. Escriba **Label** y **Name** para el campo.
-1. Seleccione **Formato** para el campo.
+1. Escriba la **Etiqueta** y el **Nombre** para el campo.
+1. Seleccione el **Formato** para el campo.
 1. Escriba la llamada de API en el campo **URL de API base**.
 
-   * Para hacer referencia a la misma instancia de Workfront en la que se encuentra el formulario personalizado, utilice $$HOST para la dirección URL.
-   * Para filtrar los resultados según la consulta a un campo diferente, agregue $$QUERY.
+   * Utilice $$HOST para hacer referencia a la misma instancia de Workfront donde está el formulario personalizado.
+   * Utilice $$QUERY para filtrar dinámicamente los resultados en función de los datos introducidos por el usuario.
 
-   **Ejemplo**
-   `$$HOST/attask/api/v15.0/project/search?status={DE:StatusQuery}&$$QUERY`
+   **Ejemplo de llamada de API**
+   `$$HOST/attask/api/v15.0/project/search?status={DE:Status Query}&description=$$QUERY`
 
-1. Revise las **dependencias** para los campos a los que hace referencia este campo de búsqueda en la API.
+1. Revise las **dependencias** para los campos a los que se hace referencia en la llamada de API.
 
-   Un campo de dependencia puede ser cualquier campo personalizado o nativo existente en la página de detalles del objeto.
+   Un campo de dependencia puede ser cualquier campo personalizado o nativo disponible en el objeto. Por ejemplo, al crear un formulario personalizado para grupos que incluya un campo de búsqueda externo, los campos de dependencia pueden incluir cualquier campo disponible en un grupo.
 
-   En este ejemplo, `{DE:StatusQuery}` se reemplazará por el valor del campo personalizado StatusQuery.
+   En este ejemplo, `{DE:Status Query}` se reemplazará dinámicamente con el valor del campo personalizado &quot;Consulta de estado&quot; para el grupo actual. Por lo tanto, cuando el formulario se adjunta al grupo A, `{DE:Status Query}` se reemplaza por el valor establecido en el campo &quot;Consulta de estado&quot; para ese grupo.
 
 1. Seleccione el **método HTTP**.
 
-   Es muy probable que esto sea **Get**.
+   Es muy probable que este sea **Get**.
 
-1. Escriba la **ruta de acceso JSON** para obtener los resultados de su llamada de API.
+1. Escriba la **ruta JSON** para obtener los resultados de su llamada de API.
 
    **Ejemplo**
    `$.data[*].name`
 
    >[!NOTE]
    >
-   >No se necesita información de **Header** para llamar a la misma instancia de Workfront.
+   >No se necesita información del **Encabezado** para llamar a la misma instancia de Workfront.
 
 1. Haga clic en **Aplicar**.
 
-   ![Configuración de la llamada API a Workfront en formulario personalizado](assets/external-lookup-to-workfront.png)
+   ![Configuración de la llamada de API a Workfront en formulario personalizado](assets/external-lookup-to-workfront.png)
 
-   Cuando se agrega el formulario personalizado a un objeto de Workfront (en este ejemplo, un proyecto), tiene un aspecto similar al siguiente.
+   Cuando se añade el formulario personalizado a un objeto de Workfront (en este ejemplo, un proyecto), tiene un aspecto similar a este.
 
    ![Formulario personalizado con campo de búsqueda externa](assets/external-lookup-project-status-example1.png)
 
@@ -74,26 +74,26 @@ Este ejemplo muestra cómo llamar a la API de Workfront y llevar los datos del c
 
 ### Usar valores de campo personalizados en la búsqueda externa
 
-Este ejemplo muestra cómo llamar a la API de Workfront e introducir datos de un campo personalizado en el campo de búsqueda externa. El campo personalizado de ejemplo se denomina &quot;Colores personalizados&quot;.
+Este ejemplo muestra cómo llamar a la API de Workfront e introducir datos de un campo personalizado en el campo de búsqueda externa. El campo personalizado de ejemplo se denomina “Colores personalizados”.
 
 1. Abra el formulario personalizado.
 1. En el lado izquierdo de la pantalla, busque **Búsqueda externa** y arrástrela a una sección del lienzo.
-1. Escriba **Label** y **Name** para el campo.
-1. Seleccione **Formato** para el campo.
+1. Escriba la **Etiqueta** y el **Nombre** para el campo.
+1. Seleccione el **Formato** para el campo.
 1. Escriba la llamada de URL de API en el campo **URL de API básica**.
 
    **Ejemplo**
    `$$HOST/attask/api/v18.0/PORT/search?ID={portfolioID}&fields=parameterValues`
 
-1. Revise las **dependencias** para los campos a los que hace referencia este campo de búsqueda en la API.
+1. Revise las **Dependencias** para los campos a los que hace referencia este campo de búsqueda en la API.
 
    Un campo de dependencia puede ser cualquier campo personalizado o nativo existente en la página de detalles del objeto.
 
-1. Seleccione el **método HTTP**.
+1. Seleccione el **Método HTTP**.
 
-   Es muy probable que esto sea **Get**.
+   Es muy probable que este sea **Get**.
 
-1. Escriba la **ruta de acceso JSON** para obtener los resultados de su llamada de API.
+1. Escriba la **ruta JSON** para obtener los resultados de su llamada de API.
 
    **Ejemplo**
    `$.data[*].parameterValues.["DE:Combo Colors"]`
@@ -103,11 +103,11 @@ Este ejemplo muestra cómo llamar a la API de Workfront e introducir datos de un
 
    >[!NOTE]
    >
-   >No se necesita información de **Header** para llamar a la misma instancia de Workfront.
+   >No se necesita información de **Encabezado** para llamar a la misma instancia de Workfront.
 
 1. Haga clic en **Aplicar**.
 
-   Cuando se agrega el formulario personalizado a un objeto de Workfront, todos los valores del campo &quot;Colores combinados&quot; aparecen en la lista desplegable Campo de búsqueda externa.
+   Cuando se añade el formulario personalizado a un objeto de Workfront, todos los valores del campo &quot;Colores combinados&quot; aparecen en la lista desplegable del campo de búsqueda externa.
 
 ## Configurar un campo de búsqueda externa para la API de Workfront Planning
 
@@ -125,18 +125,18 @@ Para obtener más información, consulte [API de Workfront Planning](/help/quick
 
 Puede utilizar la Búsqueda externa para llamar a una API pública externa y recuperar datos.
 
-Este ejemplo muestra cómo llamar a una API de países (como <https://api.first.org/data/v1/countries>) para que no tenga que codificar en el código todos los nombres de países en las opciones desplegables.
+Este ejemplo muestra cómo llamar a una API de países (como <https://api.first.org/data/v1/countries>) para no tener que codificar todos los nombres de los países en las opciones desplegables.
 
 1. Abra el formulario personalizado.
 1. En el lado izquierdo de la pantalla, busque **Búsqueda externa** y arrástrela a una sección del lienzo.
-1. Escriba **Label** y **Name** para el campo.
-1. Seleccione **Formato** para el campo.
+1. Escriba la **Etiqueta** y el **Nombre** para el campo.
+1. Seleccione el **Formato** para el campo.
 1. Escriba la llamada de URL de API en el campo **URL de API básica**.
 
-   * Puede agregar $$QUERY para implementar el filtrado de consultas para los usuarios finales.
+   * Puede añadir $$QUERY para implementar el filtrado de consultas para los usuarios finales.
 
    **Ejemplos**
-Lista todos los países: <https://api.first.org/data/v1/countries>
+Enumera todos los países: <https://api.first.org/data/v1/countries>
 
    Permite que el usuario busque cualquier país en el campo desplegable: <https://api.first.org/data/v1/countries?q=$$QUERY>
 
@@ -153,16 +153,16 @@ Lista todos los países: <https://api.first.org/data/v1/countries>
 
 1. Seleccione el **método HTTP**.
 
-   Es muy probable que esto sea **Get**.
+   Es muy probable que este sea **Get**.
 
-1. Escriba la **ruta de acceso JSON** para obtener los resultados de su llamada de API.
+1. Escriba la **ruta JSON** para obtener los resultados de su llamada de API.
 
-   Esta opción permite extraer datos del JSON devuelto por la dirección URL de la API. Sirve para seleccionar qué valores dentro del JSON aparecerán en las opciones desplegables.
+   Esta opción permite extraer datos del JSON devuelto por la URL de la API. Sirve para seleccionar qué valores dentro del JSON aparecerán en las opciones desplegables.
 
    **Ejemplo**
    `$.data[*].country`
 
-1. (Opcional) Haga clic en **Agregar encabezado** y escriba o pegue el par clave-valor necesario para la autenticación con la API.
+1. (Opcional) Haga clic en **Añadir encabezado** y escriba o pegue el par clave-valor necesario para la autenticación con la API.
 
    >[!NOTE]
    >
@@ -174,7 +174,7 @@ Lista todos los países: <https://api.first.org/data/v1/countries>
 
    ![Configuración de la llamada de API a la API pública en el formulario personalizado](assets/external-lookup-to-api-for-countries.png)
 
-   Cuando se agrega el formulario personalizado a un objeto de Workfront (en este ejemplo, un proyecto), tiene un aspecto similar al siguiente.
+   Cuando se añade el formulario personalizado a un objeto de Workfront (en este ejemplo, un proyecto), tiene un aspecto similar a este.
 
    ![Formulario personalizado con campo de búsqueda externa](assets/external-lookup-countries-example1.png)
 
@@ -184,18 +184,18 @@ Lista todos los países: <https://api.first.org/data/v1/countries>
 
 Existen muchos otros casos de uso para crear una búsqueda externa.
 
-**Caso de uso:** Reemplace los campos de escritura anticipada, ya que pueden causar problemas con los informes.
-**Solución:** Use una llamada API a los objetos existentes en el sistema.
+**Caso de uso:** reemplace los campos de escritura anticipada, ya que pueden causar problemas con la creación de informes.
+**Solución:** use una llamada de API a los objetos existentes en el sistema.
 
 Ejemplo de URL de API base para plantillas, para reemplazar un campo de escritura anticipada:
 `$$HOST/attask/api/v17.0/tmpl/search?isActive=true&name_Sort=asc`
 
-**Caso de uso:** Cree campos desplegables con más características (por ejemplo, hay ajuste de línea en el campo de búsqueda externa).
-**Solución:** Use una llamada API a los objetos existentes del sistema o cree un nuevo objeto y use una llamada API a este objeto.
+**Caso de uso:** cree campos desplegables con más funciones (por ejemplo, hay salto de línea en el campo Búsqueda externa).
+**Solución:** use una llamada de API a los objetos existentes del sistema o cree un nuevo objeto y use una llamada de API a este objeto.
 
-**Caso de uso:** defina una forma para que los usuarios mantengan sus propios campos fuera del área de formularios personalizados. Configure el campo Búsqueda externa y puede proporcionar usuarios a los objetos que componen el campo. Esta opción es adecuada para equipos y campos de alto mantenimiento.
-**Solución:** Cree un nuevo objeto y use una llamada API a este objeto.
+**Caso de uso:** defina una forma para que los usuarios mantengan sus propios campos fuera del área de formularios personalizados. Configure el campo Búsqueda externa y puede proporcionar usuarios a los objetos que componen el campo. Esta opción es adecuada para campos y equipos de alto mantenimiento.
+**Solución:** cree un nuevo objeto y use una llamada de API a este objeto.
 
-**Caso de uso:** Integración con objetos fuera de Workfront. Por ejemplo, acceder a otro sistema para obtener el nombre de cada usuario, en lugar de estar restringido en un campo de escritura anticipada.
-**Solución:** Automatización de Webhook/Fusion para conectarse a otros sistemas.
+**Caso de uso:** integración con objetos fuera de Workfront. Por ejemplo, acceder a otro sistema para obtener el nombre de cada usuario, en lugar de estar restringido en un campo de escritura anticipada.
+**Solución:** automatización de webhook/Fusion para conectarse a otros sistemas.
 
