@@ -6,10 +6,10 @@ description: Puede ver informes de calendario y detalles de eventos que haya cre
 author: Lisa
 feature: Reports and Dashboards
 exl-id: db016e91-43e4-400c-ac9d-1639c7f94479
-source-git-commit: eebece1ba576d9c654ac0fd9763ae646ce3be5a5
+source-git-commit: 3e5fdb157a6ff29daf964b505d3a0bf4f9842e88
 workflow-type: tm+mt
-source-wordcount: '691'
-ht-degree: 74%
+source-wordcount: '651'
+ht-degree: 71%
 
 ---
 
@@ -82,8 +82,6 @@ Puede elegir entre las siguientes vistas de informes de calendario:
    * **[!UICONTROL Semana]**: muestra una semana del calendario
    * **[!UICONTROL Gantt]**: muestra una vista continua del calendario
 
-     ![[!UICONTROL Informe de calendario Gantt]](assets/gantt-calendar-report.png)
-
      Puede ver más eventos en una vista de [!UICONTROL Gantt] desplazándose hacia abajo o hacia los lados. Aparecerá un símbolo de carga a medida que se rellenen los datos para la vista.
 
    >[!NOTE]
@@ -118,16 +116,5 @@ Para volver a hacer visibles los eventos, seleccione el [!UICONTROL proyecto] o 
 
 Puede ver los detalles de un evento en un calendario, tanto para los eventos actuales como para los anteriores.
 
-1. Vaya al evento cuyos detalles desee conocer y, a continuación, haga clic en el evento.
-Se abre una página de detalles del evento.
-   ![calendar_report_EventDetails.png](assets/calendar-report-eventdetails-350x145.png)
-
-1. (Opcional) Para ver detalles adicionales sobre el objeto:
-
-   1. Pase el puntero por encima del nombre del proyecto, la tarea o el problema.
-
-      Se abre una página de detalles del objeto.
-      ![additional_object_details_-_calendar_report.png](assets/additional-object-details---calendar-report-350x131.png)
-
-   1. (Opcional) Para abrir el proyecto, la tarea o el problema asociado, haga clic en el título del objeto.
-   1. (Opcional) Para cerrar todas las páginas de detalles abiertas, haga clic en cualquier lugar fuera de las páginas de detalles del evento.
+1. Vaya al evento cuyos detalles desee conocer y, a continuación, haga clic en el evento. Los detalles se abren en un panel situado en el lado derecho.
+1. (Opcional) Para abrir el proyecto, la tarea o el problema asociado, haga clic en el título del objeto.
