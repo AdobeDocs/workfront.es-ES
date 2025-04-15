@@ -8,10 +8,10 @@ author: Courtney
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: 024b8606-a9b7-413a-b393-8e5cdff37dd4
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: 5d818b2e3c3314c6af076df46f7f806214f97bab
 workflow-type: tm+mt
-source-wordcount: '1877'
-ht-degree: 99%
+source-wordcount: '1869'
+ht-degree: 73%
 
 ---
 
@@ -20,6 +20,8 @@ ht-degree: 99%
 Como administrador de [!DNL Adobe Workfront] puede integrar [!DNL Workfront] con [!UICONTROL Adobe Experience Manager (AEM) Assets] y proporcionar a su organización una solución completa de administración de contenido para la creación, el uso compartido y el mantenimiento de recursos dentro de su flujo de trabajo.
 
 ## Requisitos de acceso
+
+<!-- Audited: 4/2025 -->
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
@@ -30,21 +32,24 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
    <td>Cualquiera</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licencia*</td> 
-   <td>[!UICONTROL Plan]</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] licencia</td> 
+   <td><p>Nuevo: estándar</p>
+   <p>O</p>
+   <p>Actual: plan</p>
+ </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraciones de nivel de acceso*</td> 
-   <td> <p>Debe ser administrador de [!DNL Workfront]. Para obtener información sobre administradores de [!DNL Workfront], consulte <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Conceder a un usuario acceso administrativo completo</a>.</p> </td> 
+   <td role="rowheader">Configuraciones de nivel de acceso</td> 
+   <td>Administrador del sistema </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de [!DNL Workfront].
+Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -67,7 +72,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 ## Requisitos previos para instalar el conector de [!DNL AEM Assets]
 
-Antes de instalar el conector de [!DNL Workfront] para [!UICONTROL AEM Assets], asegúrese de que se cumplan los siguientes requisitos previos:
+Antes de instalar el conector [!DNL Workfront] para [!UICONTROL AEM Assets], asegúrese de que se cumplan los siguientes requisitos previos:
 
 * [!UICONTROL AEM Assets] está instalado y configurado, versión 6.5 o posterior. Para obtener información sobre la instalación de [!UICONTROL AEM Assets], consulte la [[!DNL Adobe Experience Manager] documentación](https://experienceleague.adobe.com/docs/experience-manager.html).
 * (Condicional) Si las reglas del cortafuegos no permiten el tráfico tal como esperaba, añada la dirección IP o el dominio del clúster a la lista de permitidos. Para obtener más información, consulte [Configuración de la lista de permitidos del firewall](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
@@ -76,7 +81,7 @@ Antes de instalar el conector de [!DNL Workfront] para [!UICONTROL AEM Assets], 
 
 >[!IMPORTANT]
 >
->Las siguientes instrucciones son para un conector de [!DNL Workfront with AEM Assets] heredado que ha sido reemplazado por el conector mejorado de [[!DNL Workfront for Experience Manager] ](../../documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/workfront-for-aem-enhanced-connector.md). Póngase en contacto con su representante de cuenta para obtener más información.
+>Las siguientes instrucciones son para un conector heredado de [!DNL Workfront with AEM Assets], que ha sido reemplazado por el [[!DNL Workfront for Experience Manager] conector mejorado](../../documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/workfront-for-aem-enhanced-connector.md). Póngase en contacto con su representante de cuenta para obtener más información.
 
 Para instalar el conector de [!DNL Workfront for AEM Assets], debe importarlo en AEM como un paquete mediante el [!UICONTROL Administrador de paquetes de CRX].
 
@@ -85,27 +90,22 @@ Para instalar el conector de [!DNL Workfront for AEM Assets], debe importarlo en
    Puede obtener el conector de [!DNL Workfront for AEM Assets] a través de su representante de [!DNL Workfront].
 
 1. Inicie sesión en AEM con una cuenta de administrador.
-1. Haga clic en **[!UICONTROL Herramientas]** > **[!UICONTROL Implementación]** > **[!UICONTROL Paquetes]**.
-
-   Se abre el [!UICONTROL Administrador de paquetes de CRX].
+1. Haga clic en **[!UICONTROL Herramientas]** > **[!UICONTROL Implementación]** > **[!UICONTROL Paquetes]**. Se abre el [!UICONTROL Administrador de paquetes de CRX].
 
 1. Haga clic en **[!UICONTROL Cargar paquete].**
 
-1. En el cuadro de diálogo [!UICONTROL Cargar paquete], busque y seleccione el paquete [!UICONTROL Workfront Connector] y, a continuación, haga clic en **[!UICONTROL Aceptar]**.\
-   El paquete se muestra en el [!UICONTROL Administrador de paquetes de CRX].
+1. En el cuadro de diálogo **[!UICONTROL Cargar paquete]**, busque y seleccione el paquete de **[!UICONTROL Conector de Workfront]**, y luego haga clic en **[!UICONTROL Aceptar]**. El paquete se muestra en el [!UICONTROL Administrador de paquetes de CRX].
 
 1. Haga clic en **[!UICONTROL Instalar].**
 
-1. En el cuadro de diálogo [!UICONTROL Paquete], ignore los ajustes avanzados y haga clic en **[!UICONTROL Instalar]**.
+1. En el cuadro de diálogo **[!UICONTROL Paquete]**, ignore los ajustes avanzados y haga clic en **[!UICONTROL Instalar]**.
 1. (Opcional) Para confirmar que el conector se ha instalado correctamente, asegúrese de que la siguiente instrucción se muestra en el [!UICONTROL Registro de actividades]:
 
    ```
    Package installed in <time>
    ```
 
-1. Cierre el [!UICONTROL Administrador de paquetes de CRX].
-
-   El conector está instalado y ahora puede configurar [!DNL AEM Assets] para integrarlo con [!DNL Workfront].
+1. Cierre el [!UICONTROL Administrador de paquetes de CRX]. El conector está instalado y ahora puede configurar [!DNL AEM Assets] para integrarlo con [!DNL Workfront].
 
 1. Continuar con [Configurar [!DNL AEM Assets] para integrar con [!DNL Workfront]](#configure-aem-assets-to-integrate-with-workfront).
 
@@ -123,28 +123,29 @@ Para obtener información sobre la instalación del conector, consulte [Instalar
 
 Antes de empezar, debe habilitar los permisos para workfront-service:
 
-1. En AEM, vaya a **[!UICONTROL Herramientas]**> **[!UICONTROL Seguridad]**> **[!UICONTROL Permisos]**.
-1. En la esquina superior izquierda, elija **[!UICONTROL Usuarios]** en el menú desplegable e indique *[!UICONTROL servicio de Workfront]* en el campo **[!UICONTROL Buscar]**. Seleccione el usuario [!UICONTROL workfront-service].
+1. En AEM, vaya a **[!UICONTROL Herramientas]** > **[!UICONTROL Seguridad]** > **[!UICONTROL Permisos]**.
+1. En la esquina superior izquierda, elija **[!UICONTROL Usuarios]**&#x200B; en el menú desplegable y escriba *[!UICONTROL workfront-service]* en el campo **[!UICONTROL Buscar]**&#x200B;. Seleccione el usuario [!UICONTROL workfront-service].
 1. En el lado derecho de la pantalla, seleccione **[!UICONTROL Añadir ACE]** para crear nuevas entradas.
-1. En la ventana&#x200B;**[!UICONTROL Añadir nueva entrada]**, seleccione el icono de casilla de verificación en el campo **[!UICONTROL Ruta]** y elija la carpeta: */conf*
-1. En el campo Privilegios escriba: *jcr:read*
-1. Seleccione **[!UICONTROL Añadir]** en la esquina superior derecha
-1. (Opcional) Repita los pasos para crear más entradas.
+1. En la ventana **[!UICONTROL Agregar nueva entrada]**&#x200B;, seleccione el icono de casilla de verificación en el campo **[!UICONTROL Ruta]**&#x200B; y elija la carpeta: */conf*
+1. En el campo **Privilegios**, escriba: *jcr:read*
+1. En la esquina superior derecha, seleccione **[!UICONTROL Agregar]**&#x200B;.
+1. (Opcional) Repita los pasos anteriores para crear más entradas.
 
 ### Integrar AEM con [!DNL Workfront] {#integrate-aem-with-workfront}
 
 1. Inicie sesión en AEM Assets como administrador.
-1. Haga clic en **[!UICONTROL Herramientas]** >**[!UICONTROL Cloud Service]**>**[!UICONTROL Configuración de integración de Workfront]** >**[!UICONTROL Global-Workfront].**&#x200B;**&#x200B;**
+1. Haga clic en **[!UICONTROL Herramientas]** > **[!UICONTROL Cloud Services]** > **[!UICONTROL Configuración de integración de Workfront]** > **[!UICONTROL Global-Workfront].**&#x200B;**&#x200B;**
 
-1. (Condicional) Si aún no lo ha hecho, cree un archivo de configuración de nube de [!DNL Workfront].
+1. (Condicional) Si aún no lo ha hecho, cree un archivo de configuración de nube [!DNL Workfront]:
 
-   1. Haga clic en **[!UICONTROL Crear]** en la esquina superior derecha de la página de [!DNL Global-Workfront].
+   1. En la esquina superior derecha de la página [!DNL Global-Workfront], haga clic en **[!UICONTROL Crear]**.
    1. En el cuadro **[!UICONTROL URL de Workfront]**, especifique la URL de la instancia de [!DNL Workfront].
 
       Por ejemplo, [!DNL https]://`<account>`.my.workfront.com, donde `<account>` es la cuenta que usa para las integraciones con AEM.
 
-   1. En el campo&#x200B;**[!UICONTROL Carpeta base]**, seleccione el icono de casilla de verificación y, a continuación, en el menú desplegable, seleccione la ruta en la que se almacenan los documentos vinculados a objetos [!DNL Workfront].
-   1. En el modal de AEM que aparece, siga la ruta hasta la carpeta con los documentos conectados a objetos [!DNL Workfront]. Elija la carpeta y presione **[!UICONTROL Seleccionar]** en la esquina superior derecha.
+   1. En el campo&#x200B;**[!UICONTROL Carpeta base]**, seleccione el icono de casilla de verificación.
+   1. En el menú desplegable, seleccione la ruta en la que se almacenan los documentos vinculados a [!DNL Workfront] objetos.
+   1. En el modal de AEM que aparece, siga la ruta hasta la carpeta con los documentos conectados a objetos [!DNL Workfront]. Elija la carpeta y luego presione **[!UICONTROL Seleccionar]** en la esquina superior derecha.
 
       Puede vincular a cualquier carpeta debajo de la raíz /content/dam/.
 
@@ -156,32 +157,30 @@ Antes de empezar, debe habilitar los permisos para workfront-service:
 
       {{step-1-to-setup}}
 
-      1. Haga clic en **[!UICONTROL Sistema]** >**[!UICONTROL Información del cliente]**.
+      1. Haga clic en **[!UICONTROL Sistema]** > **[!UICONTROL Información del cliente]**.
 
-         Si ya ha generado una clave de API, la clave de API de [!DNL Workfront] se muestra en la etiqueta Clave de API del usuario.
+         Si ya ha generado una clave de API, la clave de API [!DNL Workfront] se muestra en la etiqueta **Clave de API del usuario**.
 
       1. (Condicional) Si aún no ha generado una clave de API, debe generar una:
 
-         1. En la sección **[!UICONTROL Configuración de clave API]**, asegúrese de que la opción **[!UICONTROL Después de la creación, las claves API caducan en]** esté establecida en Ninguno.
+         1. En la sección **[!UICONTROL Configuración de clave de API]**, asegúrese de que la opción **[!UICONTROL Después de la creación, las claves de API caducan en]** esté establecida en **Ninguno**.
 
-            Si selecciona un periodo de caducidad, el conector dejará de funcionar una vez que caduque la clave de API. Tendrá que volver a generar una clave de API y actualizar la configuración de [!DNL Workfront].
+            Si selecciona un periodo de caducidad, el conector dejará de funcionar una vez que caduque la clave de API. Luego tendrá que volver a generar una clave de API y actualizar la configuración de [!DNL Workfront].
 
-         1. En la etiqueta **[!UICONTROL Su clave API de usuario]**, haga clic en **[!UICONTROL Generar clave API]**.
-
-            Se genera y se muestra una clave API para [!DNL Workfront].
+         1. En la etiqueta **[!UICONTROL Su clave API de usuario]**, haga clic en **[!UICONTROL Generar clave API]**. Se genera y se muestra una clave API para [!DNL Workfront].
       1. Copie la clave API en el portapapeles.
-      1. Abra la pestaña del explorador correspondiente al conector AEM y, en el cuadro **[!DNL Workfront API Key]**, pegue la clave de API que ha copiado.
+      1. Abra la pestaña del explorador correspondiente al conector de AEM y, en el cuadro **[!DNL Workfront API Key]**, pegue la clave de API que ha copiado.
    1. (Condicional) Haga clic en la pestaña **[!UICONTROL Avanzado]** en la esquina superior izquierda de la página [!UICONTROL [!DNL Workfront] Configuración de integración] y seleccione las siguientes opciones si corresponde:
 
       **[!UICONTROL Permitir exploración de colecciones]:** seleccione esta opción si su organización permite que usuarios de [!DNL Workfront] vinculen colecciones de AEM Assets a [!DNL Workfront] objetos.
 
-      **[!UICONTROL Federated ID de usuarios]:** seleccione esta opción si su organización utiliza Federated ID o un inicio de sesión único (SSO) al iniciar sesión en Workfront.
+      **[!UICONTROL Federated ID de usuario]:** Seleccione esta opción si su organización utiliza Federated ID o un inicio de sesión único (SSO) al iniciar sesión en Workfront.
 
       **[!UICONTROL Omitir dominio de correo electrónico]:** seleccione esta opción si los usuarios de AEM no utilizan el nombre de dominio en su identificador de usuario.
 
       **[!UICONTROL Restringir el acceso]:** seleccione esta opción para especificar las direcciones IP de [!DNL Workfront] apropiadas que deben añadirse a la lista de permitidos. Para obtener más información acerca de la lista de permitidos, consulte [Configuración de la lista de permitidos del cortafuegos](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
 
-   1. Haga clic en la pestaña **[!UICONTROL Básico]** en la esquina superior izquierda de la página Configuración de integración de Workfront y, a continuación, haga clic en **[!UICONTROL Conectar]**.
+   1. En la esquina superior izquierda de la página Configuración de integración de Workfront, haga clic en la ficha **[!UICONTROL Básico]** y, a continuación, haga clic en **[!UICONTROL Conectar]**.
 
       >[!NOTE]
       >
@@ -195,18 +194,14 @@ Antes de empezar, debe habilitar los permisos para workfront-service:
 
    Más adelante necesitará la clave API de AEM para configurar [!UICONTROL Workfront] y que se integre con [!UICONTROL AEM Assets]. Para obtener más información, consulte [Configurar Workfront para integrarlo con AEM Assets](#configure-workfront-to-integrate-with-aem-assets).
 
-1. En la esquina superior derecha, haga clic en **[!UICONTROL Guardar]**.
-
-   Se muestra la ventana [!UICONTROL Global-[!DNL Workfront]].
+1. En la esquina superior derecha, haz clic en **[!UICONTROL Guardar]**. Se muestra la ventana [!UICONTROL Global-[!DNL Workfront]].
 
    ![Properties.png](assets/properties-350x117.png)
 
-1. (Opcional) Sincronice la comunicación bidireccional entre AEM y [!DNL Workfront].
+1. (Opcional) Sincronice la comunicación bidireccional entre AEM y [!DNL Workfront]:
 
    1. Haga clic en **[!UICONTROL Global-[!DNL Workfront]].**
-   1. En la esquina superior izquierda de la ventana, haga clic en **[!UICONTROL Propiedades]**.
-
-      Se muestra la página [!UICONTROL [!DNL Workfront] Integration Configuration].
+   1. En la esquina superior izquierda de la ventana, haga clic en **[!UICONTROL Propiedades]**. Se muestra la página **[!UICONTROL [!DNL Workfront]Integration Configuration]**.
 
       ![Properties2.png](assets/properties2-350x444.png)
 
@@ -234,28 +229,24 @@ El [!UICONTROL AEM Externalizer] permite que AEM pase direcciones URL en un form
 
 1. Haga clic en **[!UICONTROL OSGI]** y, a continuación, haga clic en **[!UICONTROL Configuración]** en el menú desplegable.
 
-1. En la lista de configuración, seleccione **[!UICONTROL Externalizador de vínculo CQ por día].**
+1. En la lista de configuración, seleccione&#x200B;**[!UICONTROL Externalizador de vínculos CQ por día].**: se muestra la página **[!UICONTROL Externalizador]**.
 
-   Se muestra la página [!UICONTROL Externalizer].
-
-1. En la sección **[!UICONTROL Dominios]**, asegúrese de que el dominio que aparece en el campo [!UICONTROL Autor] sea el nombre de dominio al que los usuarios de AEM pueden acceder externamente.
+1. En la sección **[!UICONTROL Dominios]**, asegúrese de que el dominio que aparece en el campo **[!UICONTROL Autor]** sea el nombre de dominio al que los usuarios de AEM pueden acceder externamente.
 
    El nombre de dominio en el campo [!UICONTROL Autor] debe coincidir con el dominio que aparece en la línea URL de la instancia de AEM.
 
    ![[!DNL Extenalizer].png](assets/extenalizer-350x128.png)
 
-1. (Condicional) Si es necesario, actualice el dominio en el campo [!UICONTROL Autor].
-1. Haga clic en **[!UICONTROL Guardar]**.
+1. (Condicional) Si es necesario, actualice el dominio en el campo **[!UICONTROL Autor]**.
+1. Haga clic en **[!UICONTROL Guardar]**. [!UICONTROL AEM Assets] se ha configurado para vincular documentos con [!DNL Workfront].
 
-   [!UICONTROL AEM Assets] ya está configurado para vincular documentos con [!DNL Workfront]
-
-1. Continúe con [Configure [!DNL Workfront] to integrate with [!DNL AEM assets]](#configure-workfront-to-integrate-with-aem-assets).
+1. Continuar con [Configurar [!DNL Workfront] para integrar con [!DNL AEM assets]](#configure-workfront-to-integrate-with-aem-assets).
 
 ## Configurar [!DNL Workfront] para integrarlo con [!DNL AEM assets] {#configure-workfront-to-integrate-with-aem-assets}
 
 Después de instalar el conector de [!UICONTROL Workfront for AEM Assets] (como se describe en [Instalar el paquete del conector [!UICONTROL Workfront for AEM Assets]](#install-the-workfront-for-aem-assets-connector-package)) y configurar [!UICONTROL AEM Assets] (como se describe en [Configurar[!UICONTROL  AEM Assets] para integrarlo con [!DNL Workfront]](#configure-aem-assets-to-integrate-with-workfront)), debe configurar [!DNL Workfront] para vincular documentos entre [!DNL Workfront] y [!DNL AEM Assets].
 
-1. Inicie sesión en [!DNL Workfront] como administrador de [!UICONTROL Workfront].
+1. Inicie sesión en Workfront como administrador.
 
    >[!TIP]
    >
@@ -263,14 +254,14 @@ Después de instalar el conector de [!UICONTROL Workfront for AEM Assets] (como 
 
 {{step-1-to-setup}}
 
-1. Haga clic en **[!UICONTROL Documentos]**> **[!UICONTROL Integración personalizada].**
+1. Haga clic en **[!UICONTROL Documentos]** > **[!UICONTROL Integración personalizada].**
 
 1. Haga clic en **[!UICONTROL Agregar integración personalizada]**.
-1. En el cuadro **[!UICONTROL Nombre]**, especifique el nombre de la integración personalizada.
+1. En el cuadro **[!UICONTROL Nombre]**, escriba el nombre de la integración personalizada.
 
-   Este es el nombre que ven los usuarios cuando usan la integración en [!UICONTROL Workfront]; por ejemplo, podría escribir *&quot;[!DNL AEM Assets]&quot;* para el nombre.
+   Este es el nombre que ven los usuarios al usar la integración en [!UICONTROL Workfront].
 
-1. En el cuadro **[!UICONTROL Dirección URL de API básica]**, especifique la dirección URL de la instancia de AEM.
+1. En el cuadro **[!UICONTROL URL de API básica]**, escriba la URL de la instancia de AEM.
 
    La dirección URL de API básica consiste en la dirección URL de la instancia de AEM seguida de la ruta: /bin/webhooks/api/
 
@@ -297,8 +288,8 @@ Para obtener más información sobre los permisos de [!DNL Workfront], consulte 
 
 ### Configurar usuarios en [!DNL AEM assets] {#set-up-users-in-aem-assets}
 
-1. Inicie sesión en [!DNL AEM Assets] como administrador de [!DNL Workfront].
-1. Haga clic en **[!UICONTROL Herramientas]** >**&#x200B;**&#x200B;**[!UICONTROL Seguridad]** >**[!UICONTROL Usuarios]**.
+1. Inicie sesión en [!DNL AEM Assets] como persona con la función de administrador de Workfront.
+1. Haga clic en **[!UICONTROL Herramientas]** > **&#x200B;**&#x200B;**[!UICONTROL Seguridad]** > **[!UICONTROL Usuarios]**.
 
 1. (Condicional) Si el usuario no tiene un perfil de usuario en AEM, cree un un perfil de usuario de AEM.
 
@@ -307,25 +298,21 @@ Para obtener más información sobre los permisos de [!DNL Workfront], consulte 
 
       ![64NewUser.png](assets/64newuser-350x524.png)
 
-      El único campo obligatorio es el campo de ID. El identificador AEM del usuario debe coincidir con su identificador de [!DNL Workfront], que es la dirección de correo electrónico de [!DNL Workfront] del usuario.
+      El único campo obligatorio es el campo **ID**. El identificador AEM del usuario debe coincidir con su identificador de [!DNL Workfront], que es la dirección de correo electrónico de [!DNL Workfront] del usuario.
 
-      Si seleccionó la opción [!UICONTROL Ignorar dominio de correo electrónico] al configurar la integración de AEM con [!DNL Workfront], entonces el identificador de AEM no coincidirá con la dirección de correo electrónico de [!DNL Workfront].
+      Si seleccionó la opción **[!UICONTROL Ignorar dominio de correo electrónico]** al configurar la integración de AEM con [!DNL Workfront], entonces el identificador de AEM no coincidirá con la dirección de correo electrónico de [!DNL Workfront].
 
-1. (Condicional) Si el usuario tiene un perfil de AEM, abra el perfil de AEM del usuario.
+1. (Condicional) Si el usuario tiene un perfil de AEM, abra el perfil de AEM del usuario:
 
-   1. Haga clic en **[!UICONTROL Usuario].**
+   1. Haga clic en&#x200B;**[!UICONTROL Usuario]**. Se muestra la página **[!UICONTROL Administración de usuarios]**.
 
-      Se muestra la página [!UICONTROL Administración de usuarios].
-
-   1. Haga clic en el usuario que desee añadir y luego haga clic en **[!UICONTROL Propiedades]**.
-
-      Se muestra la página de configuración del usuario.
+   1. Haga clic en el usuario que desee agregar y luego haga clic en **[!UICONTROL Propiedades]**. Se muestra la página de configuración del usuario.
 
 1. Haga clic en la pestaña **[!UICONTROL Grupos]**.
 
    ![Pestaña Grupos](assets/groupstab.png)
 
-1. Asegúrese de que el usuario pertenezca al menos a un grupo de [!DNL Workfront] con niveles de acceso que incluyan los permisos para [!UICONTROL Crear] y [!UICONTROL Eliminar].
+1. Asegúrese de que el usuario pertenezca al menos a un grupo de [!DNL Workfront] con niveles de acceso que incluyan los permisos para **[!UICONTROL Crear]** y **[!UICONTROL Eliminar]**.
 
    1. Para añadir el usuario a un grupo existente, empiece a escribir el nombre del grupo en el cuadro **[!UICONTROL Escriba el nombre del grupo]** y, a continuación, seleccione el grupo cuando aparezca en el menú desplegable.
 
