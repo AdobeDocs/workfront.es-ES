@@ -5,10 +5,10 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: aeb16dc5-d17d-40bc-a32a-de6d47b43817
-source-git-commit: 0d746db3b3665b288b4724c346a02d3f459fc365
+source-git-commit: 35cfdba7c206e8acb76648737588aa07120d2bbe
 workflow-type: tm+mt
-source-wordcount: '863'
-ht-degree: 11%
+source-wordcount: '926'
+ht-degree: 12%
 
 ---
 
@@ -17,6 +17,24 @@ ht-degree: 11%
 En esta página se describen actualizaciones menores en la apariencia de varias áreas de la aplicación de Adobe Workfront que se realizaron durante el periodo de lanzamiento del segundo trimestre de 2025.
 
 Para obtener una lista de todos los cambios disponibles con la versión del segundo trimestre de 2025, consulte [Información general sobre la versión del segundo trimestre de 2025](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-release-overview.md).
+
+## Informes actualizados con nuevo estilo
+
+>[!NOTE]
+>
+>Vista previa y producción para todos los clientes: jueves, 09 de abril de 2025
+
+Hemos actualizado el aspecto de varios informes para que coincida con el diseño de otras áreas de Workfront.
+
+Esta actualización incluye cambios visuales en las listas y barras de herramientas de los siguientes informes. No se ha cambiado ninguna funcionalidad.
+
+* Parámetro
+* Grupo de parámetros
+* Formularios personalizados
+* Días libres
+
+Para obtener más información, consulte [Crear un informe personalizado](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+
 
 ## Actualización del cuadro de diálogo de integración de documentos de Google Drive
 
