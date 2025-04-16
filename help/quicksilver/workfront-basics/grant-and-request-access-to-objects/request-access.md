@@ -6,14 +6,16 @@ description: La visibilidad de los objetos en Adobe Workfront depende del acceso
 author: Becky
 feature: Get Started with Workfront
 exl-id: ad1c525c-42a8-4fb7-a2cd-7792e1c280ab
-source-git-commit: 03768a0d3a63c7f6adcd11a6cd2e4d093b24f214
+source-git-commit: 18b96a6d57dc358bfe52e813bc98d8eb19f37dba
 workflow-type: tm+mt
-source-wordcount: '1380'
-ht-degree: 91%
+source-wordcount: '1338'
+ht-degree: 64%
 
 ---
 
 # Solicitar acceso a objetos
+
+<!-- Audited: 4/2025 -->
 
 La visibilidad de los objetos en Adobe Workfront depende del acceso a ese tipo de objeto, así como de los permisos sobre un objeto individual.
 
@@ -28,11 +30,9 @@ La visibilidad de los objetos en Adobe Workfront depende del acceso a ese tipo d
 
 El administrador de Workfront configura el acceso a un tipo de objeto en su nivel de acceso. Para obtener más información, consulte [Funcionamiento conjunto de los niveles de acceso y los permisos](../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md).
 
-Si necesita permisos de objetos específicos dentro de Workfront, puede solicitar acceso a ellos. En lugar de enviar un correo electrónico al administrador de Workfront o al propietario del objeto para explicarle sus necesidades, puede solicitar acceso adicional (o permisos) en Workfront.
+Si necesita permisos de objetos específicos dentro de Workfront, puede solicitar acceso a ellos. En lugar de enviar un correo electrónico al administrador de Workfront o al propietario del objeto para explicarle sus necesidades, puede solicitar acceso (o permisos) adicional en Workfront.
 
-Puede solicitar acceso inicial a los objetos si alguien comparte con usted un vínculo al objeto o puede solicitar acceso adicional a los objetos que al menos puede ver.
-
-Por ejemplo, puede tener permisos de visualización en un proyecto, pero debe añadir tareas a ese proyecto. En este caso, puede solicitar permisos de aportación al proyecto.
+Puede solicitar acceso inicial a los objetos si alguien comparte un vínculo con usted o puede solicitar acceso adicional a los objetos para los que ya tiene permisos de visualización. Por ejemplo, puede tener permisos de Vista en un proyecto, pero debe agregarle tareas. En este caso, puede solicitar permisos de aportación al proyecto.
 
 ## Requisitos de acceso
 
@@ -49,8 +49,9 @@ Se necesita tener lo siguiente para compartir objetos:
    <td> <p>Cualquiera </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licencia de Adobe Workfront*</td> 
+   <td role="rowheader">Licencia de Adobe Workfront</td> 
    <td> <p>Nuevo: estándar</p> 
+   <p>O</p>
    <p>Actual: Trabajo o superior</p> 
    </td> 
   </tr> 
@@ -61,13 +62,13 @@ Se necesita tener lo siguiente para compartir objetos:
  </tbody> 
 </table>
 
-*Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Descripción de las reglas de uso compartido estándar
 
-Las siguientes reglas estándar de uso compartido se aplican automáticamente, ya que se establecen como opciones predeterminadas en el sistema de Workfront.
+Las siguientes reglas de uso compartido estándar son opciones predeterminadas en el sistema de Workfront y se aplican automáticamente:
 
 * Los usuarios asignados a una tarea o a un problema tienen acceso de aportación en ella.
 * Los gerentes de proyectos, portafolios y programas tienen acceso de administración sobre los objetos que son de su propiedad.
@@ -85,22 +86,22 @@ Puede solicitar acceso inicial a los objetos sobre los que actualmente no tiene 
 
 ### Solicitar acceso inicial  {#request-initial-access}
 
-Si todavía no tiene acceso a un objeto y accede a ese objeto desde un vínculo, aparecerá una pantalla informándole de que no tiene acceso para ver la información.
+Si todavía no tiene acceso a un objeto y navega hasta ese objeto desde un vínculo, se muestra una pantalla que le informa de que no tiene acceso para ver la información.
 
 Para solicitar acceso inicial a un objeto:
 
-1. Haga clic en **Solicitar acceso**.\
-   Se muestra el cuadro de diálogo **Solicitar acceso**.
+1. Haga clic en **Solicitar acceso**. Se muestra el cuadro de diálogo **Solicitar acceso**.
 
-1. (Condicional) Si más de un usuario tiene el acceso adecuado para otorgarle acceso adicional, se muestra una flecha desplegable junto al nombre del usuario. Seleccione el usuario de la lista desplegable que debe recibir la solicitud de acceso.
+1. (Condicional) Si más de un usuario tiene el acceso adecuado para otorgarle acceso adicional, se muestra una flecha desplegable junto al nombre del usuario. Seleccione el usuario que recibirá la solicitud de acceso de la lista desplegable.
 
-   En la lista desplegable solo se muestran 10 usuarios. La lista está ordenada alfabéticamente.\
-   Para obtener más información sobre el orden de los usuarios enumerados en este menú desplegable, consulte [Jerarquía de los menús desplegables “Solicitar acceso” y “Solicitar más acceso”](#hierarchy-of-the-request-access-and-request-more-access-drop-down-menus).
+   En la lista desplegable solo se muestran 10 usuarios, que se ordenan alfabéticamente. Para obtener más información sobre el orden de los usuarios enumerados en este menú desplegable, consulte [Jerarquía de los menús desplegables “Solicitar acceso” y “Solicitar más acceso”](#hierarchy-of-the-request-access-and-request-more-access-drop-down-menus).
 
 1. En la lista desplegable, seleccione el tipo de acceso que solicita.
-1. (Opcional) En el campo **P.S.**, especifique una nota para el usuario sobre por qué necesita acceso adicional.
+1. (Opcional) En el campo **P.S.**, escriba una nota sobre por qué necesita acceso adicional.
 
    ![Cuadro de diálogo de solicitud de acceso](assets/request-access-to-project.png)
+
+1. Haga clic en **Solicitar acceso**.
 
 <!--
 If you do not have access level rights to an object and you try to access that object from a link, a screen is displayed informing you to contact the Workfront administrator.
@@ -113,36 +114,33 @@ For example, if you do not have portfolio access, but you were given a link to a
 
 Para solicitar acceso adicional a un objeto al que ya tiene acceso limitado:
 
-1. Vaya al objeto para el que desea solicitar acceso adicional.
+1. Vaya al objeto al que desee solicitar acceso adicional.
 
 1. Haga clic en el menú **Más** a la derecha del nombre del proyecto y, a continuación, haga clic en **Solicitar más acceso**.
 
    ![Solicitar más acceso](assets/more-menu-request-more-access.png)
 
-1. (Condicional) Si más de un usuario tiene el acceso adecuado para otorgarle acceso adicional, aparecerá una flecha desplegable junto al nombre del usuario.
-1. Seleccione el usuario de la lista desplegable que desee que reciba su solicitud de acceso.\
-   En la lista desplegable solo se muestran 10 usuarios. La lista está ordenada alfabéticamente.\
-   Para obtener más información sobre el orden de los usuarios incluidos en este menú desplegable, consulte [Jerarquía de los menús desplegables “Solicitar acceso” y “Solicitar más acceso”](#hierarchy-of-the-request-access-and-request-more-access-drop-down-menus).
+1. (Condicional) Si más de un usuario tiene el acceso adecuado para otorgarle acceso adicional, se muestra una flecha desplegable junto al nombre del usuario. Seleccione el usuario que recibirá la solicitud de acceso de la lista desplegable.
+
+   En la lista desplegable solo se muestran 10 usuarios, que se ordenan alfabéticamente. Para obtener más información sobre el orden de los usuarios incluidos en este menú desplegable, consulte [Jerarquía de los menús desplegables “Solicitar acceso” y “Solicitar más acceso”](#hierarchy-of-the-request-access-and-request-more-access-drop-down-menus).
 
 1. En la lista desplegable, seleccione el nivel de acceso que desee solicitar.
-1. (Opcional) En el campo **P.S.**, especifique una nota con respecto a por qué necesita acceso adicional.
-1. Haga clic en **Solicitar acceso**.
+1. (Opcional) En el campo **P.S.**, escriba una nota sobre por qué necesita acceso adicional.
 
-   Imagen de muestra en el entorno de vista previa:
    ![Cuadro de diálogo de solicitud de acceso](assets/request-access-to-project.png)
 
-## Jerarquía de los menús desplegables &quot;Solicitar acceso&quot; y &quot;Solicitar más acceso&quot; {#hierarchy-of-the-request-access-and-request-more-access-drop-down-menus}
+1. Haga clic en **Solicitar acceso**.
+
+## Jerarquía de los menús desplegables Solicitar acceso y Solicitar más acceso {#hierarchy-of-the-request-access-and-request-more-access-drop-down-menus}
 
 * [Comprenda la jerarquía de usuarios incluidos en los menús desplegables Solicitar acceso y Solicitar más acceso](#understand-the-hierarchy-of-users-listed-in-the-request-access-and-request-more-access-drop-down-menus)
 * [Explicación del propietario de un objeto](#understand-the-owner-of-an-object)
 
 ### Comprenda la jerarquía de usuarios incluidos en los menús desplegables Solicitar acceso y Solicitar más acceso {#understand-the-hierarchy-of-users-listed-in-the-request-access-and-request-more-access-drop-down-menus}
 
-Al rellenar las listas &quot;Solicitar acceso&quot; o &quot;Solicitar más acceso&quot; en los objetos, Workfront selecciona una lista de hasta diez usuarios que cumplen diversas funciones en el uso compartido del objeto, como se describe a continuación. Estos usuarios pueden conceder acceso al objeto al usuario que lo solicita.\
-La lista resultante se ordenará por su nombre en orden alfabético ascendente.\
-Workfront muestra hasta diez usuarios en las listas &quot;Solicitar acceso&quot; y &quot;Solicitar más acceso&quot;.
+Al rellenar las listas Solicitar acceso o Solicitar más acceso en los objetos, Workfront selecciona una lista de hasta 10 usuarios que cumplen diversas funciones que pueden conceder acceso a los objetos al usuario que lo solicita. La lista resultante se ordenará por su nombre en orden alfabético ascendente.
 
-El orden de los usuarios en los menús desplegables &quot;Solicitar acceso&quot; o &quot;Solicitar más acceso&quot; viene determinado por las siguientes reglas:
+El orden de los usuarios en los desplegables Solicitar acceso o Solicitar más acceso viene determinado por las siguientes reglas:
 
 * El primer usuario de la lista es el &quot;propietario&quot; del objeto, tal como se describe en [Comprenda el propietario de un objeto](#understand-the-owner-of-an-object).
 * A continuación, la lista se rellena con los usuarios con los que se comparte el objeto de forma individual. Se muestran en orden alfabético.
@@ -186,7 +184,7 @@ El propietario de un objeto se define de la siguiente manera:
   </tr> 
   <tr> 
    <td>Informes y paneles</td> 
-   <td>El propietario es el creador, el informe o el panel de control. </td> 
+   <td>El propietario es el creador del informe o panel. </td> 
   </tr> 
   <tr> 
    <td>Calendarios</td> 
