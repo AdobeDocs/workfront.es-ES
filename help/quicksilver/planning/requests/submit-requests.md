@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
-source-git-commit: 88b8443525043a0710dfc6f93739e54f2e78a569
+source-git-commit: 594504c6a7acc9341471371ca279379042a45457
 workflow-type: tm+mt
-source-wordcount: '1816'
-ht-degree: 7%
+source-wordcount: '1791'
+ht-degree: 8%
 
 ---
 
@@ -152,10 +152,6 @@ Para poder enviar una solicitud a un formulario de solicitud de Workfront Planni
 
 
 ## Envíe una solicitud a Workfront Planning en el área de solicitudes de Workfront
-
->[!NOTE]
->
->Después de las versiones mensuales en Production, las funciones descritas en esta sección también están disponibles en el entorno Production para los clientes que habilitaron versiones rápidas.
 
 {{step1-to-requests}}
 

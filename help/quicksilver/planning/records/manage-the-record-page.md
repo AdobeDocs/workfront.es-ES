@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 88b8443525043a0710dfc6f93739e54f2e78a569
+source-git-commit: 594504c6a7acc9341471371ca279379042a45457
 workflow-type: tm+mt
-source-wordcount: '1853'
-ht-degree: 47%
+source-wordcount: '1809'
+ht-degree: 48%
 
 ---
 
@@ -270,9 +270,7 @@ Tenga en cuenta lo siguiente al agregar una vista Conexión a la página de un r
 
 * No se puede agregar una página de vista Conexión al área de vista previa de un registro.
 
-* Las páginas de vista de conexión muestran una página de registro conectada en la vista de tabla. La vista de tabla es de solo lectura. <!--more views might be added in the future-->
-
-* Puede agregar una página Vista de conexión por cada tipo de registro conectado.  <!--edit this when we can remove fields from this page-->
+* Las páginas de vista de conexión muestran una página de tipo de registro conectada en la vista de tabla.
 
 * Después de agregar una página de vista Conexión a la página de un registro, la ficha Página se puede ver desde el área de vista previa del registro. Debe ir a la página completa para ver la vista de tabla del registro conectado. <!--this might have changed? check and take disclaimer out-->
 
@@ -289,7 +287,7 @@ Para agregar una página Vista de conexión:
 Se muestra la vista de tabla del tipo de registro seleccionado y los registros conectados se muestran en la vista de tabla.
 Todos los campos del registro conectado se muestran en la vista de tabla de la ficha del registro conectado.
 
-   Al acceder a Workfront Planning desde el entorno de vista previa, los cinco primeros campos de la tabla de registros conectada se muestran de forma predeterminada. No se muestran campos de búsqueda de forma predeterminada.0
+   Los cinco primeros campos de la tabla de registros conectada se muestran de forma predeterminada. De forma predeterminada, no se muestran campos de búsqueda.
 
    La vista de tabla es de solo lectura.
 
@@ -309,16 +307,11 @@ Todos los campos del registro conectado se muestran en la vista de tabla de la f
    * Agrupación
    * Campos, para mostrar, ocultar o reorganizar campos
 
-   <!--Add to the list above from the list below - and condition these for Preview only: Hide fields, rearrange fields-->
-
    Para obtener más información, consulte [Administrar la vista de tabla](/help/quicksilver/planning/views/manage-the-table-view.md).
 
    >[!NOTE]
    >
-   >   No puede realizar ninguna de las siguientes acciones en la vista de tabla de la ficha de un registro conectado:
-   >
-   >   * Ocultar o reorganizar campos. Puede ocultar y reorganizar los campos en el entorno de vista previa.
-   >   * Crear, editar o eliminar campos
+   >   No puede crear, editar ni eliminar campos en la vista de tabla de la ficha de un registro conectado.
    >
 
 1. Haga clic en **Conectar** para agregar o quitar registros. Para obtener más información, consulte [Conectar registros](/help/quicksilver/planning/records/connect-records.md)

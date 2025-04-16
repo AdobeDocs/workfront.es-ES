@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 6c35c313-d6ed-428b-b70d-2ea242da4e8f
-source-git-commit: e49f1b3d9de3984ed798e20a0a0f03f9d4060115
+source-git-commit: 594504c6a7acc9341471371ca279379042a45457
 workflow-type: tm+mt
-source-wordcount: '718'
-ht-degree: 76%
+source-wordcount: '699'
+ht-degree: 78%
 
 ---
 
@@ -165,18 +165,3 @@ Debe tener en cuenta lo siguiente antes de realizar cambios en la configuración
 1. (Condicional) Para los campos de registro conectados, haga clic en **Editar campos de búsqueda** y agregue o quite cualquiera de los campos de búsqueda del tipo de registro conectado.
 
    Para obtener más información, consulte [Conectar tipos de registro](/help/quicksilver/planning/architecture/connect-record-types.md).
-
-   >[!TIP]
-   >
-   >Puede agregar o quitar campos de búsqueda de los registros conectados, pero no puede editar la configuración de los campos de búsqueda.
-
-
-<!-- replace the TIP above with the one below at Preview, and remove this tip altogether after April 10 Prod release:-->
-
-<!--
-   >[!TIP]
-   >
-   >* In the Production environment, you can add or remove lookup fields from connected records, but you cannot edit the settings of lookup fields.
-   >* <span class="preview">In the Preview environment, you can edit the settings of lookup fields.</span>
-
--->
