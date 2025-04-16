@@ -6,9 +6,9 @@ description: La aplicación  [!DNL Adobe Workfront for Microsoft Teams] te permi
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: a8d4e48c-1ccc-4e6e-a0a0-9b68748590c0
-source-git-commit: 41d898e82bc5b06498966ba938b68ed10e742d3b
+source-git-commit: 69fdb5c23bb501fc81e4ef3c3ab7c94e78e69d29
 workflow-type: tm+mt
-source-wordcount: '839'
+source-wordcount: '803'
 ht-degree: 17%
 
 ---
@@ -17,9 +17,13 @@ ht-degree: 17%
 
 <!-- Audited: 1/2024 -->
 
+<!--
+
 >[!IMPORTANT]
 >
->A partir del 1 de julio de 2025, Microsoft eliminará la compatibilidad con la aplicación de escritorio Classic Teams. Como resultado, la integración de Workfront con Microsoft Teams no será compatible una vez que la aplicación de escritorio Classic Teams haya dejado de estar disponible.
+>As of July 1, 2025, Microsoft will remove support for the Classic Teams desktop app. As a result, the Workfront integration with Microsoft Teams will not be supported after the Classic Teams desktop app is no longer available.
+
+-->
 
 
 La aplicación [!DNL Adobe Workfront for Microsoft Teams] le permite realizar acciones básicas en [!DNL Workfront] sin salir de los canales de chat de [!DNL Microsoft Teams].
@@ -89,11 +93,11 @@ Como propietario de equipo en [!DNL Microsoft Teams], puede instalar la aplicaci
 
       Esto agrega un icono [!DNL Workfront] debajo del campo de chat. Puede acceder rápidamente al área [!UICONTROL Buscar] desde aquí.
 
-      Para obtener información sobre cómo buscar [!DNL Workfront] elementos, vea [Buscar y compartir [!DNL Adobe Workfront] elementos en [!DNL Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/search-for-and-share-wf-items-in-ms-teams.md).
+      Para obtener información sobre la búsqueda de [!DNL Workfront] elementos, consulte [Search y compartir [!DNL Adobe Workfront] elementos en [!DNL Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/search-for-and-share-wf-items-in-ms-teams.md).
 
-1. Haga clic en **[!UICONTROL Iniciar sesión en[!DNL Workfront]]** para acceder a [!DNL Workfront from Microsoft Teams].
+1. Haga clic **[!UICONTROL en Iniciar sesión para acceder [!DNL Workfront from Microsoft Teams]a[!DNL Workfront]]** .
 
-   Para obtener información sobre cómo iniciar sesión en [!DNL Workfront], consulte la sección [Iniciar sesión en Workfront desde Microsoft Teams](#log-in-to-workfront-from-microsoft-teams) en este artículo.
+   Para obtener información sobre registro en [!DNL Workfront], consulte la [sección Iniciar sesión en Workfront desde Microsoft Teams](#log-in-to-workfront-from-microsoft-teams) de este artículo.
 
 ### Instalar [!DNL Workfront for Microsoft Teams] desde un archivo privado
 
@@ -118,8 +122,8 @@ Para instalar [!DNL Workfront for Microsoft Teams] desde un archivo privado:
 
 1. (Opcional) Haga Clic En **[!UICONTROL Fijar]**.
 
-   Esto agrega un icono [!DNL Workfront] bajo el campo [!UICONTROL Escriba sus preguntas aquí]. Puede acceder rápidamente al área [!UICONTROL Buscar] desde aquí.\
-   Para obtener información sobre cómo buscar elementos de Workfront, consulte [Buscar y compartir [!DNL Adobe Workfront] elementos en [!DNL Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/search-for-and-share-wf-items-in-ms-teams.md).
+   Esto agrega un icono [!DNL Workfront] bajo el campo [!UICONTROL Escriba sus preguntas aquí]. Puede acceder rápidamente al [!UICONTROL área de Search] desde aquí.\
+   Para obtener información sobre la búsqueda de elementos de Workfront, consulte [Search y compartir [!DNL Adobe Workfront] elementos en [!DNL Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/search-for-and-share-wf-items-in-ms-teams.md).
 
 ## Iniciar sesión en [!DNL Workfront] desde [!DNL Microsoft] equipos
 

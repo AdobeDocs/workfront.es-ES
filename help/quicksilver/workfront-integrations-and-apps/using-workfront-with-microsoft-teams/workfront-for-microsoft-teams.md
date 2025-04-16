@@ -8,10 +8,10 @@ author: Becky
 feature: Workfront Integrations and Apps
 recommendations: noDisplay, noCatalog
 exl-id: 88b05a70-a304-461d-bab3-21d328c9356e
-source-git-commit: 41d898e82bc5b06498966ba938b68ed10e742d3b
+source-git-commit: 69fdb5c23bb501fc81e4ef3c3ab7c94e78e69d29
 workflow-type: tm+mt
-source-wordcount: '337'
-ht-degree: 89%
+source-wordcount: '301'
+ht-degree: 100%
 
 ---
 
@@ -19,9 +19,13 @@ ht-degree: 89%
 
 <!-- Audited: 12/2023 -->
 
+<!--
+
 >[!NOTE]
 >
->A partir del 1 de julio de 2025, Microsoft eliminará la compatibilidad con la aplicación de escritorio Classic Teams. Como resultado, la integración de Workfront con Microsoft Teams no será compatible una vez que la aplicación de escritorio Classic Teams haya dejado de estar disponible.
+>As of July 1, 2025, Microsoft will remove support for the Classic Teams desktop app. As a result, the Workfront integration with Microsoft Teams will not be supported after the Classic Teams desktop app is no longer available.
+
+-->
 
 Como propietario de un equipo en [!DNL Microsoft Teams], puede instalar la aplicación [!DNL Adobe Workfront for Microsoft Teams] para su equipo.
 
