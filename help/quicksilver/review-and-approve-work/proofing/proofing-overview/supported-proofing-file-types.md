@@ -2,39 +2,39 @@
 content-type: reference
 product-area: documents
 navigation-topic: proofing-overview
-title: Información general sobre tipos de archivo de revisión compatibles y límites de tamaño
-description: Puede compartir y revisar varios tipos de archivos con los revisores, incluso si no tienen el software utilizado para crear los archivos (como Photoshop o Illustrator) instalado en sus equipos. Admitimos tipos de archivos estáticos, de vídeo, de audio, capturas web y archivos interactivos de hasta 4 GB de tamaño.
+title: Información general sobre tipos de archivos de revisión admitidos y los límites de tamaño
+description: Puede compartir y revisar varios tipos de archivos con los revisores, incluso si no tienen el software utilizado para crear los archivos (como Photoshop o Illustrator) instalado en sus equipos. Admitimos tipos de archivos estáticos, de vídeo, de audio, capturas web y archivos interactivos de hasta 4 GB de tamaño.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 647edda3-de52-4bb9-b202-36c5cf832fb0
-source-git-commit: b0454e68bdd6e9e78bd748868fc82a7b0cf8f379
+source-git-commit: 1df1eff727ff2044eee0f5c0e79794c109d16c7a
 workflow-type: tm+mt
-source-wordcount: '1052'
-ht-degree: 0%
+source-wordcount: '1057'
+ht-degree: 99%
 
 ---
 
-# Información general sobre tipos de archivo de revisión compatibles y límites de tamaño
+# Información general sobre tipos de archivos de revisión admitidos y los límites de tamaño
 
 <!--Audited: 12/2023-->
 
-Puede compartir y revisar varios tipos de archivos con los revisores, incluso si no tienen el software utilizado para crear los archivos (como Photoshop o Illustrator) instalado en sus equipos. Admitimos tipos de archivos estáticos, de vídeo, de audio, de captura web y archivos interactivos de hasta 4 GB de tamaño.
+Puede compartir y revisar varios tipos de archivos con los revisores, incluso si no tienen el software utilizado para crear los archivos (como Photoshop o Illustrator) instalado en sus equipos. Admitimos tipos de archivos estáticos, de vídeo, audio, captura web y archivos interactivos de hasta 4 GB de tamaño.
 
-## Límites de tamaño de archivo
+## Límites de tamaño de los archivos
 
 Workfront tiene los límites siguientes:
 
-* Los archivos deben tener menos de 4 GB por archivo.
-* Los archivos de Microsoft Word (DOC, DOCX) y PowerPoint (PPT, PPTX) deben tener menos de 512 MB. (Esto también se aplica a las pruebas de desarchivado de estos tipos de archivos creados antes de que se implementara el límite de tamaño).
-* Los archivos XLS y XLSX deben tener menos de 100 MB.
-* Los archivos adjuntos a los comentarios en las pruebas deben tener menos de 30 MB.
+* Los archivos deben tener menos de 4 GB.
+* Los archivos de Microsoft Word (DOC, DOCX) y PowerPoint (PPT, PPTX) deben tener menos de 512 MB. (Esto también se aplica a las pruebas de desarchivado de estos tipos de archivos creados antes de que se implementara el límite de tamaño).
+* Los archivos XLS y XLSX deben tener menos de 100 MB.
+* Los archivos adjuntos a los comentarios en las pruebas deben tener menos de 30 MB.
 * Los archivos PNG deben tener una altura y anchura inferiores a 65535 píxeles.
 * Las pruebas combinadas estáticas pueden admitir hasta 50 archivos.
 * Los documentos cargados como pruebas deben tener menos de 2000 páginas.
 
 >[!NOTE]
 >
->Los archivos más grandes tardan más tiempo en cargarse y, si la conexión no es estable, la acción puede terminar o romperse.
+>Los archivos más grandes tardan más tiempo en cargarse y, si la conexión no es estable, la acción puede terminar o interrumpirse.
 
 ## Archivos estáticos
 
@@ -42,159 +42,159 @@ Workfront tiene los límites siguientes:
 > Ya no se admiten los siguientes tipos de archivos estáticos:
 >
 > * DOT: plantilla de documento de Microsoft Word
-> * DOTX - Plantilla de documento de Microsoft Word
-> * POT - Plantilla de Microsoft PowerPoint
-> * POTX - Plantilla de Microsoft PowerPoint
-> * PPS - Presentación de diapositivas de Microsoft PowerPoint
-> * PPSX - Presentación de diapositivas de Microsoft PowerPoint
+> * DOTX: plantilla de documento de Microsoft Word
+> * POT: plantilla de Microsoft PowerPoint
+> * POTX: plantilla de Microsoft PowerPoint
+> * PPS: presentación de diapositivas de Microsoft PowerPoint
+> * PPSX: presentación de diapositivas de Microsoft PowerPoint
 > * XLT: plantilla de Microsoft Excel
 > * XLTX: plantilla de Microsoft Excel
-> * EPS: PostScript encapsulado
+> * EPS: Encapsulated PostScript
 
-* ABC - Compresión Bitonal Avanzada de LEAD
-* ABIC: compresión de imágenes adaptable de dos niveles
-* AFP - Presentación de funciones avanzadas
-* AI: ilustraciones de Adobe Illustrator
-* ANI - Cursor animado de Windows
-* ANZ - Mayo Clinic Analyze formato
+* ABC: LEAD Advanced Bitonal Compression
+* ABIC: Adaptive Bi-level Image Compression
+* AFP: Advanced Function Presentation
+* AI: Adobe Illustrator Artwork
+* ANI: Windows Animated Cursor
+* ANZ: formato Mayo Clinic Analyze
 * ARW: formato RAW de Sony
-* AWD - Fax de Microsoft
+* AWD: Microsoft Fax
 * BMP: formatos de mapa de bits de Windows y OS/2
-* CAL - CALS Raster
-* CGM - Metarchivo de gráficos de ordenador
-* CIN - Kodak Cineon
-* CLP - Portapapeles de Windows
-* CMP: CABLE comprimido
-* CMW - Wavelet de PLOMO comprimido
-* CMX - Corel Presentation Exchange
-* CR2 - Canon Raw
-* CRW - Canon Raw
-* CUR - Cursor de Windows
-* CUT - Dr. Halo
-* DGN - Diseño Intergráfico
-* DOC - Documento de Microsoft Word
+* CAL: CALS Raster
+* CGM: Computer Graphics Metafile
+* CIN: Kodak Cineon
+* CLP: portapapeles de Windows
+* CMP: LEAD comprimido
+* CMW: LEAD Wavelet comprimido
+* CMX: intercambio de presentación de Corel
+* CR2: Canon Raw
+* CRW: Canon Raw
+* CUR: cursor de Windows
+* CUT: Dr. Halo
+* DGN: diseño de Intergraph
+* DOC: documento de Microsoft Word
 * DOCX: documento de Microsoft Word
-* DCR - Cámara digital Kodak
-* DCS - Sistema de cámara digital Kodak
-* DCM: DICOM
-* DCX - Pincel
-* DNG - Adobe digital negativo
-* DOC - Documento de Microsoft Word
-* DOCX: documento de Microsoft Word 2007
+* DCR - Kodak Digital Camera
+* DCS - Kodak Digital Camera System
+* DCM - DICOM
+* DCX - Paint Brush
+* DNG - Adobe Digital Negative
+* DOC: documento de Microsoft Word
+* DOCX - Documento de Microsoft Word 2007
 * DRW - DRaWing
 * DWF - AutoDesk Vector
-* ECW - Wavelet comprimido mejorado
-* EMF - Metarchivo de Windows
-* EXIF - Formato de archivo de imagen intercambiable
-* FAX - Vista láser de datos láser
-* FITS - Sistema flexible de transporte de imágenes
-* FLC - Animación de cine
+* ECW - Enhanced Compressed Wavelet
+* EMF - Windows Metafile
+* EXIF: formato de archivo de imagen intercambiable
+* FAX - LaserView Laser Data
+* FITS - Flexible Image Transport System
+* FLC - Flic Animation
 * FPX - Kodak FlashPix
 * GBR - Gerber GIF - CompuServe
-* GIF - Formato de intercambio de gráficos (GIF animado solo en el nuevo visor de Workfront Proof)
-* GIF HDP - Foto de Windows HD
-* ICO: icono de Windows
+* GIF: formato de intercambio de gráficos (GIF animado solo en el nuevo visor de Workfront Proof)
+* GIF HDP - Foto HD de Windows
+* ICO- Icono de Windows
 * IFF - Formato de archivo de intercambio
-* IOCA: arquitectura de contenido de objetos de imagen
+* IOCA - Arquitectura de contenido de objetos de imagen
 * IMG - Imagen GEM
 * ITG - Intergraph
-* JBG: JBIG
+* JBG - JBIG
 * JB2 - JBIG2
-* JPG - Grupo Mixto de Expertos Fotográficos (JPEG)
+* JPG: Joint Photographic Experts Group (JPEG)
 * JPEG-XR - Foto de Windows Media / Foto HD (HDP)
-* JPEG-LS - JPEG sin pérdidas
+* JPEG-LS - JPEG Lossless
 * J2K - JPEG 2000
 * JP2: JPEG 2000 comprimido
-* JPM - JPEG 2000, parte 6
-* JPX - JPEG 2000, parte 2
+* JPM - JPEG 2000 parte 6
+* JPX - JPEG 2000 parte 2
 * KDC - Cámara digital Kodak
 * MAC - MacPaint
-* MIF - Intercambio de MapInfo
-* MNG - Gráfico de varias redes
-* MO:DCA - Objeto mixto: arquitectura de contenido de documento
+* MIF - MapInfo Interchange
+* MNG - Multiple Network Graphic
+* MO:DCA: Mixed Object: Document Content Architecture
 * MSP - Microsoft Paint
-* MRC - Contenido rasterizado mixto de LEAD
-* MRC: contenido rasterizado mixto T.44
-* NAP: sintaxis del protocolo de capa de presentación de América del Norte (NAPLPS)
-* NEF - Formato electrónico Nikon
-* NITF - Formato de transmisión de imágenes nacionales
-* NRW - Formato Nikon Raw
-* ORF - Formato RAW de Olympus
-* PBM - Utilidades de mapa de bits portátiles
-* PCD - CD fotográfico de Kodak
-* PCL - Lenguaje de comandos de impresora
-* PCL6 - Lenguaje de comandos de impresora
+* MRC: LEAD Mixed Raster Content
+* MRC - T.44 Mixed Raster Content
+* NAP - North American Presentation Layer Protocol Syntax (NAPLPS)
+* NEF - Nikon Electronic Format
+* NITF - National Imagery Transmission Format
+* NRW - Nikon Raw Format
+* ORF - Olympus Raw Format
+* PBM - Portable Bitmap Utilities
+* PCD - Kodak Photo CD
+* PCL - Printer Command Language
+* PCL6 - Printer Command Language
 * PCT: Macintosh Pict
-* PCX - Pincel
-* PDF - Archivo de documento portátil de Adobe
-* PGM - Utilidades de mapa de bits portátiles
-* PLT - Trazador HPGL
-* PNG - Gráficos de red portátiles
-* PNM - Utilidades de mapa de bits portátiles
-* PPM - Utilidades de mapa de bits portátiles
-* PPT: presentación de PowerPoint
-* PPTX - Presentación de PowerPoint 2007 PS - Archivo de PostScript
-* PSD - PHOTOSHOP
-* PSP - Paint Shop Pro
-* PTK - PTOCA
-* RAS - SUN Raster
-* RAF - Formato Fujifilm Raw
-* RAW: Datos sin procesar
-* RTF - Texto enriquecido
-* RW2 - Formato RAW de Panasonic
-* SCT - Scitex Tono continuo
-* FP: formato de fax estructurado
-* SGI - Imagen de Silicon Graphics
-* SHP - ESRI Forma
+* PCX: Paint Brush
+* PDF: formato de documento portátil de Adobe
+* PGM: Portable Bitmap Utilities
+* PLT: HPGL Plotter
+* PNG: Portable Network Graphics
+* PNM: Portable Bitmap Utilities
+* PPM: Portable Bitmap Utilities
+* PPT: PowerPoint Presentation
+* PPTX: presentación de PowerPoint 2007 PS, archivo de PostScript
+* PSD: Photoshop
+* PSP: Paint Shop Pro
+* PTK: PTOCA
+* RAS: SUN Raster
+* RAF: Fujifilm Raw Format
+* RAW: Raw Data
+* RTF: texto enriquecido
+* RW2: Panasonic Raw Format
+* SCT: Scitex Continuous Tone
+* SFF: Structured Fax Format
+* SGI: Silicon Graphics Image
+* SHP: ESRI Shape
 * SMP: Xionics
-* SNP: instantánea de informe de acceso a Microsoft
-* SR2 - Formato RAW de Sony
-* SRF: formato RAW de Sony
-* SVG - Gráficos vectoriales escalables
-* TDB: caché de miniaturas de Microsoft Windows
-* TFX - Fax de Internet
-* TGA - Truevision TARGA
-* TIFF - Formato de archivo de imagen etiquetado
-* TIFX - Archivo de fax de Internet de Xerox
-* VFF - Mapa de bits de Sun TAAC
-* WBMP: mapa de bits inalámbrico
-* WFX - WinFax
-* WMF: Metarchivo de Windows
-* WMZ - Metarchivo comprimido de Windows
-* WPG: gráfico vectorial de WordPerfect
-* XBM - XBitMap
-* XLS - Hoja de cálculo de Microsoft Excel
-* XLSX - Hoja de cálculo de Microsoft Excel 2007
-* XPM - XPicMap
-* XPS: especificación de papel XML
-* XWD: volcado de ventana X
+* SNP: Microsoft Access Report Snapshot
+* SR2: Sony Raw Format
+* SRF: Sony Raw Format
+* SVG: Scalable Vector Graphics
+* TDB: Microsoft Windows Thumbnail Cache
+* TFX: Internet Fax
+* TGA: Truevision TARGA
+* TIFF: Tagged Image File Format
+* TIFX: Xerox Internet Fax File
+* VFF: Sun TAAC Bitmap
+* WBMP: Wireless Bitmap
+* WFX: WinFax
+* WMF: Windows Metafile
+* WMZ: Compressed Windows Metafile
+* WPG: Vector WordPerfect Graphic
+* XBM: XBitMap
+* XLS: Microsoft Excel Spreadsheet
+* XLSX: Microsoft Excel Spreadsheet 2007
+* XPM: XPicMap
+* XPS: XML Paper Specification
+* XWD: X WindowDump
 
 ## Archivos estáticos: herramienta Texto
 
 >[!IMPORTANT]
-> Ya no se admiten los siguientes tipos de archivos estáticos para la herramienta de texto:
+> Ya no se admiten los siguientes tipos de archivos estáticos para la herramienta texto:
 >
 > * DOT: plantilla de documento de Microsoft Word
-> * DOTX - Plantilla de documento de Microsoft Word
-> * POT - Plantilla de Microsoft PowerPoint
-> * POTX - Plantilla de Microsoft PowerPoint
-> * PPS - Presentación de diapositivas de Microsoft PowerPoint
-> * PPSX - Presentación de diapositivas de Microsoft PowerPoint
+> * DOTX: plantilla de documento de Microsoft Word
+> * POT: plantilla de Microsoft PowerPoint
+> * POTX: plantilla de Microsoft PowerPoint
+> * PPS: presentación de diapositivas de Microsoft PowerPoint
+> * PPSX: presentación de diapositivas de Microsoft PowerPoint
 > * XLT: plantilla de Microsoft Excel
 > * XLTX: plantilla de Microsoft Excel
 
 
-* AI: ilustraciones de Adobe Illustrator
-* Plantilla AIT - Adobe Illustrator
-* DOC - Documento de Microsoft Word
+* AI: Adobe Illustrator Artwork
+* AIT: Adobe Illustrator Template
+* DOC: documento de Microsoft Word
 * DOCX: documento de Microsoft Word
-* PDF - Archivo de documento portátil de Adobe
+* PDF: formato de documento portátil de Adobe
 * PPT: presentación de PowerPoint
-* PPTX - Presentación de PowerPoint 2007 PS - Archivo de PostScript
-* PSD - PHOTOSHOP
-* RTF - Texto enriquecido
-* XLS - Hoja de cálculo de Microsoft Excel
-* XLSX - Hoja de cálculo de Microsoft Excel 2007
+* PPTX: presentación de PowerPoint 2007 PS, archivo de PostScript
+* PSD: Photoshop
+* RTF: texto enriquecido
+* XLS: Microsoft Excel Spreadsheet
+* XLSX: Microsoft Excel Spreadsheet 2007
 
 
 ## Archivos de vídeo
@@ -208,16 +208,16 @@ Workfront tiene los límites siguientes:
 * AVI
 * Flash (VP6, Sorenson Spark/H.263+, H.264)
 * MOV
-* MP4
+* MP4: límite de 8192 x 4320 píxeles
 * MPG
-* VOB (sólo VOB sin cifrar)
+* VOB (solo VOB sin cifrar)
 * Flash
 * Windows Media/VC-1
 * 3GP/3G2
 * Ogg Theora
 * MJPEG
 * DV
-* YUV sin procesar/RGB
+* Raw YUV/RGB
 * MKV
 * Códecs de audio de entrada (parte de vídeo)
 
@@ -236,13 +236,13 @@ Workfront tiene los límites siguientes:
 
 ## Capturas web
 
-Puede crear pruebas de página web estáticas. Para obtener más información, consulte [Crear una revisión estática para un sitio web u otro contenido web](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-static-proof-website-other-web-content.md) y [Crear una revisión estática de sitio web mediante Workfront Proof](../../../workfront-proof/wp-tech-corner/proof-types/create-status-web-proof.md).
+Puede crear pruebas de páginas web estáticas. Para obtener más información, consulte [Crear una prueba estática para un sitio web u otro contenido web](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-static-proof-website-other-web-content.md) y [Crear una prueba estática de sitio web mediante Workfront Proof](../../../workfront-proof/wp-tech-corner/proof-types/create-status-web-proof.md).
 
-## Archivos Zip
+## Archivos ZIP
 
 No admitimos ni extraemos archivos de archivos ZIP por motivos de seguridad. Descomprima los archivos antes de cargarlos. Si no lo hace, la carga no tendrá éxito.
 
-Solo puede enviar archivos zip si contienen un proyecto interactivo completo y si su cuenta tiene habilitadas las funciones interactivas (planes Premium).
+Solo puede enviar archivos ZIP si contienen un proyecto interactivo completo y si su cuenta tiene habilitadas las funciones interactivas (planes Premium).
 
 Para obtener más información, consulte [Resumen de las pruebas de contenido interactivo](../../../review-and-approve-work/proofing/proofing-overview/interactive-content-proofs.md).
 
