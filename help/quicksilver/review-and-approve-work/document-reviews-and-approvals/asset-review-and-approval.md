@@ -1,23 +1,23 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: Disponible funcionalidad para recurso y documento revisión y aprobación
+title: Funcionalidad disponible para la revisión y aprobación de recursos y documentos
 description: Descripción general de los sistemas disponibles para su revisión y aprobación en Workfront.
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 37745149-b369-445d-bb39-f5ed790d2fae
-source-git-commit: 97821d0fa97e8ba18e63b7e4156e06563e148a3d
+source-git-commit: 24668c9fdbb5e23f41831b388d509220d0783057
 workflow-type: tm+mt
 source-wordcount: '368'
 ht-degree: 1%
 
 ---
 
-# Disponible funcionalidad para recurso y documento revisión y aprobación
+# Funcionalidad disponible para la revisión y aprobación de recursos y documentos
 
-Actualmente hay 3 sistemas diferentes disponibles en Workfront para la revisión y aprobación de activos y documentos:
+Actualmente hay tres sistemas diferentes disponibles en Workfront para la revisión y aprobación de recursos y documentos:
 
-* [Aprobaciones de documento heredadas](#legacy-document-approvals)
+* [Aprobaciones de documentos heredados](#legacy-document-approvals)
 
 * [Aprobaciones unificadas](#new-document-approvals)
 
@@ -30,10 +30,10 @@ Las aprobaciones de documentos heredados se eliminarán de Workfront en 2025. El
 Funciones clave disponibles para aprobaciones de documentos heredados:
 
 * Añadir usuarios como aprobadores
-* Revise y comente en el visualizador de revisión
-* Tomar decisiones en el visualizador de corrección
-* Crear informes de aprobación con sistema de informes heredados
-* Acceda a las solicitudes de aprobación en el widget Mis aprobaciones del área Inicio
+* Revisión y comentarios en el visor de pruebas
+* Tomar decisiones en el visor de pruebas
+* Creación de informes de aprobación con informes heredados
+* Acceda a las solicitudes de aprobación en el widget Mis aprobaciones del área de Inicio
 
 Para obtener más información, consulte [Aprobaciones de documentos heredados](/help/quicksilver/review-and-approve-work/manage-approvals/approval-process-in-workfront.md#document-approval-processes).
 
@@ -47,17 +47,17 @@ Funciones clave disponibles para las aprobaciones unificadas:
 
 * Agregar usuarios y equipos como aprobadores y revisores
 
-* Establecer plazos
+* Establecer fechas límites
 
-* Crear y uso de plantillas
+* Creación y uso de plantillas
 
-* Revise y comente en el visualizador de revisión
-Para obtener más información sobre el uso del visualizador de corrección, consulte [Usar aprobaciones unificadas y pruebas conjuntas](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/doc-approvals-and-proofing.md).
+* Revisión y comentarios en el visor de pruebas
+Para obtener más información acerca del uso del visor de revisión, vea [Usar aprobaciones unificadas y revisar juntos](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/doc-approvals-and-proofing.md).
 
-* Ver varios indicadores clave de rendimiento para sus aprobaciones en los widgets de Workfront Home
+* Vea varios indicadores de rendimiento clave para sus aprobaciones en los widgets de inicio de Workfront
 
-* Utilice los tableros de Canvas, actualmente en fase beta, para vista sistema de informes detalles sobre las aprobaciones unificadas
-Para obtener más información sobre sistema de informes, consulte Crear [un panel de informes para su revisión y aprobación](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md).
+* Utilice Paneles de lienzo, actualmente en fase beta, para ver los detalles de creación de informes acerca de las aprobaciones unificadas
+Para obtener más información sobre los informes, consulte [Crear un tablero de informes para revisión y aprobaciones](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md).
 
 * Tome decisiones en el visor de revisión [!BADGE Próximamente]{type=Informative}
 
@@ -72,13 +72,13 @@ Las aprobaciones de pruebas le permiten utilizar flujos de trabajo básicos y au
 
 Funciones disponibles para la revisión:
 
-* Usar funciones prueba para adaptar prueba acceso y capacidades
+* Uso de funciones de prueba para adaptar el acceso y las capacidades de prueba
 
-* Establecer plazos
+* Establecer fechas límites
 
-* Crear y uso de plantillas
+* Creación y uso de plantillas
 
-* Revise y comente en el visualizador de revisión
+* Revisión y comentarios en el visor de pruebas
 
 * Uso de informes heredados para crear informes
 
