@@ -6,9 +6,9 @@ description: Puede revisar las métricas de aprobaciones en los paneles del lien
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 48f8605b-c342-493b-96e7-f73248e34b35
-source-git-commit: 300de02b81bc6abc8be9bdceb2bd028b0c4aabfe
+source-git-commit: 0aeef516c8e3b94edee6fc177766be032241965f
 workflow-type: tm+mt
-source-wordcount: '1987'
+source-wordcount: '1991'
 ht-degree: 1%
 
 ---
@@ -80,8 +80,8 @@ Puede ver información de alto nivel sobre aprobaciones de documentos con KPI y 
 1. Haga clic en **Agregar condición**:
    1. Haga clic en el filtro de condición vacío, haga clic en **Elegir un campo** y, a continuación, elija **Estado**.
    1. Cambie el operador a **No contiene** y, a continuación, escriba _aprobado_ en el cuadro de texto.
-      ![Ejemplo 2 de filtro KPI vencido](assets/overdue-kpi-filter-2.png)
-1. Haga clic **en Listo** en la esquina superior derecha de la pantalla.
+      ![ejemplo de filtro kpi vencido 2](assets/overdue-kpi-filter-2.png)
+1. Haga clic en **Listo** en la esquina superior derecha de la pantalla.
 
 
 #### Aprobaciones completadas
@@ -150,8 +150,8 @@ Puede ver información de alto nivel sobre aprobaciones de documentos con KPI y 
 #### Gráfico de barras de revisiones
 
 1. [Cree un tablero](#create-a-dashboard) tal como se describe en la sección anterior.
-1. En la tarjeta Gráfico ****, haga clic en **añadir**.
-1. Escriba _las revisiones en el **cuadro de_ texto Nombre**.
+1. En la tarjeta **Gráfico**, haga clic en **Agregar**.
+1. Escriba _Revisiones_ en el cuadro de texto **Nombre**.
 1. Escriba _Número de revisiones de documentos con decisiones incompletas planeadas antes de que finalice este mes_ en el cuadro de texto **Descripción**. Este texto se muestra como información de objeto junto al nombre del gráfico.
 1. Haga clic en **Abrir detalles del gráfico**.
 1. En el menú desplegable **Tipo de gráfico**, deje seleccionado **Gráfico de barras**.
@@ -159,7 +159,7 @@ Puede ver información de alto nivel sobre aprobaciones de documentos con KPI y 
 1. Haga clic en **Actualizar campo** para el **eje inferior (X)** y elija la primera carpeta de **Aprobación del documento** y después **Versión del documento** > **Versión**.
 1. Establezca el Tipo de agregación en **Count**.
 1. Haga clic en **Actualizar campo** para el **eje izquierdo (Y)** y elija la primera opción de **Aprobación del documento** y después **Versión del documento** > **Documento** > **Nombre**.
-1. Haga clic en el Filtrar pestaña ![filtrar pestaña icono](assets/filter-tab.png).
+1. Haga clic en la ficha Filtro ![icono de ficha Filtro](assets/filter-tab.png).
 1. Haga clic en **Editar filtro** > **Agregar condición**:
    1. Haga clic en el filtro de condición vacío, haga clic en **Elegir un campo** y, a continuación, elija **Fecha de decisión de los participantes en la fase de aprobación**.
    1. Cambie el operador a **Is Null**.
@@ -199,23 +199,23 @@ Puede ver información de alto nivel sobre aprobaciones de documentos con KPI y 
     </tr>
     <tr>
     <td><strong>Fecha límite</strong></td>
-    <td>Documento &gt; Fase de aprobación &gt; Plazo</td>
+    <td>Aprobación de documento &gt; Fase de aprobación &gt; Plazo</td>
     </tr>
     <tr>
     <td><strong>Solicitado por</strong></td>
-    <td>Documento &gt; Fase de aprobación &gt; Participantes en la fase de aprobación* &gt; Solicitante &gt; escriba _Name_ en el cuadro de búsqueda.</td>
+    <td>Aprobación de documento &gt; Fase de aprobación &gt; Participantes en la fase de aprobación* &gt; Solicitante &gt; escriba _Name_ en el cuadro de búsqueda.</td>
     </tr>
      <tr>
-    <td><strong>Fecha solicitada</strong></td>
-    <td>Participantes de la etapa de aprobación del documento &gt; &gt; la etapa de aprobación* &gt; Creado en</td>
+    <td><strong>Fecha de solicitud</strong></td>
+    <td>Aprobación de documento &gt; Fase de aprobación &gt; Participantes de fase de aprobación* &gt; Creado en</td>
     </tr>
      <tr>
     <td><strong>Aprobador</strong></td>
-    <td>Documento &gt; Etapa de aprobación &gt; Participantes de la etapa de aprobación* &gt; Usuario participante &gt; escriba _Nombre_ en el cuadro búsqueda.</td>
+    <td>Aprobación de documento &gt; Fase de aprobación &gt; Participantes en la fase de aprobación* &gt; Usuario participante &gt; escriba _Name_ en el cuadro de búsqueda.</td>
     </tr>
     <table>
 
-   *Los participantes de la etapa de aprobación se truncan a la etapa de aprobación Pa.
+   *Los participantes de la fase de aprobación se truncan a la fase de aprobación Pa..
 
 1. Continuar a [Agregue el filtro necesario debajo de](#add-the-required-filter).
 
@@ -239,8 +239,8 @@ Para ver información más específica según el caso de uso, puede añadir cond
 1. Haga clic en **Editar filtro** > **Agregar condición**:
    1. Haga clic en el filtro de condición vacío, haga clic en **Elegir un campo** y, a continuación, elija **Versión del documento** > **Documento** > **Proyecto** > **Propietario** > escriba _Nombre_ en el cuadro de búsqueda.
    1. Cambie el operador a **Equal** y, a continuación, elija **Me (usuario conectado)** para mostrar los proyectos en Workfront en los que esté marcado como propietario del proyecto.
-      ![Ejemplo de filtro de tabla de aprobación pendiente](assets/pending-approvals-my-project-filter.png)
-1. Haga clic **en Listo** en la esquina superior derecha de la pantalla.
+      ![ejemplo de filtro de tabla de aprobación pendiente](assets/pending-approvals-my-project-filter.png)
+1. Haga clic en **Listo** en la esquina superior derecha de la pantalla.
 
 **Aprobaciones enviadas**
 
@@ -255,7 +255,7 @@ Para ver información más específica según el caso de uso, puede añadir cond
 ### Lista de aprobaciones vencidas
 
 1. [Cree un tablero](#create-a-dashboard) tal como se describe en la sección anterior.
-1. En la tarjeta Tabla, haga clic en **añadir**.
+1. En la tarjeta Tabla, haga clic en **Agregar**.
 1. Escriba _Aprobaciones vencidas_ en el cuadro de texto **Nombre**.
 1. (Opcional) Escriba una descripción en el cuadro de texto **Descripción**. Este texto se muestra como información de objeto junto al nombre del gráfico.
 1. Haga clic en **Abrir configuración de columna**.
@@ -307,11 +307,11 @@ Para ver información más específica según el caso de uso, puede añadir cond
 1. Agregue filtros opcionales como se describe a continuación, o haga clic en **Listo** en la esquina superior derecha de la pantalla.
 
 
-**filtros opcional**
+**Filtros opcionales**
 
-Para vista información más específica en función de su caso de uso, puede agregar condiciones de filtro adicionales. Puede que desee volver a crear la tabla y agregar nuevas condiciones de filtro opcionales por caso de uso.
+Para ver información más específica según el caso de uso, puede añadir condiciones de filtro adicionales. Es posible que desee volver a crear la tabla y agregar nuevas condiciones de filtro opcionales por caso de uso.
 
-+++ Amplíe para vista opciones de filtro adicionales
++++ Expandir para ver opciones de filtro adicionales
 
 **Mis proyectos**
 
@@ -335,5 +335,5 @@ Para vista información más específica en función de su caso de uso, puede ag
    1. Haga clic en el filtro de condición vacío, haga clic en **Elegir un campo** y, a continuación, elija **Fase de aprobación** > **Participantes en la fase de aprobación** > **Equipo de participantes** > escriba _Nombre_ en el cuadro de búsqueda.
    1. Cambie el operador a **Equal** y, a continuación, elija **Mis equipos predeterminados (Usuario con sesión iniciada)** o **Mis otros equipos (Usuario con sesión iniciada)** para mostrar los proyectos asignados a su equipo predeterminado o a otros equipos en los que esté.
       ![ejemplo de filtro de tabla de aprobación pendiente](assets/approvals-ive-submitted-filter.png)
-1. Haga clic **en Listo** en la esquina superior derecha de la pantalla.
+1. Haga clic en **Listo** en la esquina superior derecha de la pantalla.
 +++

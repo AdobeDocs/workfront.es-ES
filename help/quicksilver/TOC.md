@@ -3,9 +3,9 @@ user-guide-title: Guía de Workfront
 user-guide-description: Utilice los siguientes documentos, tutoriales y recursos adicionales para aprender a implementar y utilizar Adobe Workfront de forma eficaz en su organización.
 role: User
 feature-set: Workfront
-source-git-commit: 52d7964219dd0731364f0ab7fea9e5224d8ca9df
+source-git-commit: ea4efcb1566d8d2f35487e158a4f445e6c5a32f7
 workflow-type: tm+mt
-source-wordcount: '13142'
+source-wordcount: '13159'
 ht-degree: 61%
 
 ---
@@ -1920,6 +1920,7 @@ ht-degree: 61%
          * [Preguntas frecuentes: revisión en la migración de Adobe Workfront de los EE. UU. a EMEA.](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/faq-proofing-in-wf-us-to-emea-migration.md)
          * [El nombre del documento ha cambiado después de la carga y contiene un carácter no válido](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/document-to-proof-name.md)
          * [Revisar un PowerPoint con un vídeo incrustado](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/powerpoint-with-video.md)
+         * [Las versiones de prueba no se pueden descargar ni previsualizar cuando se agrega una prueba interactiva como una nueva versión](/help/quicksilver/review-and-approve-work/proofing/tips-tricks-and-troubleshooting/static-and-web-proof-downloads.md)
    * Sugerencias, trucos y solución de problemas para aprobaciones {#ttt-approvals}
       * [Sugerencias, trucos y solución de problemas para aprobaciones: índice de artículos](review-and-approve-work/tips-tricks-troubleshooting-approvals/tips-tricks-troubleshooting-approvals.md)
       * [Ver el número de decisiones de la revisión y el documento para todos los usuarios](review-and-approve-work/tips-tricks-troubleshooting-approvals/view-number-of-decisions-for-users.md)
