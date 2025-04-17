@@ -4,12 +4,11 @@ description: Mejoras del proyecto del tercer trimestre de 2025
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-hide: true
-hidefromtoc: true
-source-git-commit: 16f0caf4bdf80ef7b95e8ab51bf9f75aa3b81b3f
+exl-id: 4829d487-7041-447f-9a68-fb1acf467734
+source-git-commit: d616fcdafee137adcdd6fe88616a18c01ed969f3
 workflow-type: tm+mt
-source-wordcount: '181'
-ht-degree: 35%
+source-wordcount: '194'
+ht-degree: 32%
 
 ---
 
@@ -28,7 +27,9 @@ Para obtener una lista de todos los cambios disponibles en este punto del ciclo 
 
 >[!NOTE]
 >
->Versión preliminar: 10 de abril de 2025; versión de producción para todos los clientes: 17 de abril de 2025
+>* Versión preliminar: 10 de abril de 2025; versión de producción para todos los clientes: 17 de abril de 2025
+>
+>* Actualmente, esta funcionalidad no está disponible para los usuarios de la experiencia unificada de Adobe.
 
 Los nuevos botones de decisión de aprobación de documentos ahora aparecen en el visor de pruebas. Ahora, cuando crea una prueba sencilla y luego agrega aprobadores y revisores desde el Resumen del documento, pueden tomar su decisión directamente dentro del visualizador de pruebas.
 
