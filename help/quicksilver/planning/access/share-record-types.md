@@ -1,22 +1,18 @@
 ---
 title: Compartir tipos de registros
 description: Puede compartir un tipo de registro con otros usuarios para garantizar la colaboración al utilizar Adobe Workfront Planning.
-hide: true
-hidefromtoc: true
-exl-id: bf49db73-09f1-417e-836b-16c6062740d4
-source-git-commit: 4df268c9b5a99991bee3f1862c83fe0079d162c1
-workflow-type: tm+mt
-source-wordcount: '1308'
-ht-degree: 13%
-
----
-
-<!-- add these to metadata on release:
-
 author: Alina
 feature: Workfront Planning
 role: User, Admin
-recommendations: noDisplay, noCatalog-->
+recommendations: noDisplay, noCatalog
+exl-id: bf49db73-09f1-417e-836b-16c6062740d4
+source-git-commit: 5a4ceb3bd7a5f121312d26775b6cf91604585775
+workflow-type: tm+mt
+source-wordcount: '1475'
+ht-degree: 9%
+
+---
+
 
 <!-- take the Remove permissions section out, at the end - this is what Lilit said: Because of "Everyone in the workspace can view" wildcard, currently it's not possible to entirely remove access to a record type. Let's take out this section. -->
 
@@ -32,12 +28,10 @@ Puede compartir un tipo de registro con otros usuarios para garantizar la colabo
 
 >[!IMPORTANT]
 >
->* De forma predeterminada, la concesión de permisos a un espacio de trabajo proporciona a los usuarios los mismos permisos para los tipos de registros del espacio de trabajo.
->* Además, puede ajustar los permisos en tipos de registros individuales.
->* Sin embargo, no puede conceder a las personas permisos superiores a los permisos que tienen para el espacio de trabajo.
->* Las personas con permiso de administración en el espacio de trabajo siempre mantienen su acceso de administración en todos los tipos de registros del espacio de trabajo. Sus permisos no se pueden reducir en los tipos de registro, aunque los permisos heredados estén desactivados.
-> 
-> Para obtener más información, vea la sección [Consideraciones al compartir tipos de registros](#considerations-when-sharing-record-types) en este artículo.
+>Los usuarios con acceso a un espacio de trabajo obtienen automáticamente al menos permisos de visualización para todos los tipos de registros del espacio de trabajo.
+>Al compartir vistas, los usuarios no conceden permisos a los tipos de registro. Sólo los espacios de trabajo compartidos pueden conceder permisos de usuario a los tipos de registro.
+>* Para obtener información general sobre cómo compartir objetos en Workfront Planning, consulte también [Información general sobre los permisos de uso compartido en Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md).
+>* Para obtener más información, vea la sección [Consideraciones al compartir tipos de registros](#considerations-when-sharing-record-types) en este artículo.
 
 ## Requisitos de acceso
 
@@ -114,29 +108,35 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 ## Consideraciones al compartir tipos de registros
 
-* Para obtener información general sobre cómo compartir objetos en Workfront Planning, consulte también [Información general sobre los permisos de uso compartido en Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md).
+* De forma predeterminada, la concesión de permisos a un espacio de trabajo proporciona a los usuarios los mismos permisos para los tipos de registros del espacio de trabajo.
+
+  Además, puede ajustar los permisos en tipos de registros individuales.
+
+  Sin embargo, no puede conceder a las personas permisos superiores a los permisos que tienen para el espacio de trabajo.
+* Puede conceder a los usuarios permisos inferiores a los que tienen en el espacio de trabajo. Por ejemplo, pueden tener permisos de contribución en el espacio de trabajo y permisos de visualización en un tipo de registro.
+* Las personas con permiso de administración en el espacio de trabajo siempre mantienen su acceso de administración en todos los tipos de registros del espacio de trabajo. Sus permisos no se pueden reducir en los tipos de registro, aunque los permisos heredados estén desactivados.
 
 * Actualmente puede lograr lo siguiente cuando comparte tipos de registros:
+
    * Asigne permisos de visualización a las personas en un espacio de trabajo cuando comparta un tipo de registro con ellas por primera vez y no tengan permisos para el espacio de trabajo.
 
      Esto también les proporciona permisos de Vista para todos los tipos de registros del espacio de trabajo.
 
      A medida que se les otorgan permisos para el tipo de registro, en el cuadro para compartir se indica que también se agregan al espacio de trabajo.
-   * Convierta el tipo de registro en solo vista para todos los usuarios del espacio de trabajo (excepto para los administradores del espacio de trabajo) al desactivar los permisos heredados.
+   * Convierta el tipo de registro en de solo lectura para todos los usuarios del espacio de trabajo (excepto para los administradores del espacio de trabajo) cuando desactive los permisos heredados.
 
      Las personas con permisos de Administración en el espacio de trabajo siempre tienen permisos de Administración en los tipos de registro, incluso cuando se desactivan los permisos heredados en el tipo de registro.
-  <!-- checking with Lilit - this doesn't make much sense: * Add people with Contribute permission to the workspace, who will retain Contribute permission to the record type. This way, only the selected people can manage records in the record type, while others can only view them. -->
    * Reduzca el permiso de las personas a un tipo de registro. No se puede aumentar el permiso de una persona a un tipo de registro con respecto a lo que tiene en el área de trabajo.
 
      Por ejemplo, si alguien tiene permiso para contribuir en el área de trabajo, puede cambiar su permiso a un tipo de registro específico a Ver. Sin embargo, si tienen permiso de visualización en el espacio de trabajo, no se les puede otorgar permiso de contribución a ningún tipo de registro.
 
-* No es posible eliminar el acceso a un tipo de registro para las personas en el espacio de trabajo. Todos siempre tienen al menos el permiso Ver.
+* No es posible eliminar el acceso a un tipo de registro para las personas en el espacio de trabajo. Todos los usuarios siempre tienen al menos permiso de visualización en todos los tipos de registro si tienen al menos permisos de visualización en el espacio de trabajo.
 
 * Puede compartir un tipo de registro internamente con las siguientes entidades:
 
-   * Usuarios, grupos, equipos, empresas y funciones del Workfront
+  Usuarios, grupos, equipos, empresas y funciones del Workfront
 * No puede compartir tipos de registros externamente con usuarios fuera de Workfront.
-* Para conceder a un usuario que no tenga permisos de área de trabajo superiores a los permisos de Vista para un tipo de registro, primero debe compartir el área de trabajo con él con un permiso superior al de Vista.
+* Para conceder a un usuario que no tenga permisos de área de trabajo superiores a los permisos de Vista para un tipo de registro, primero debe compartir el área de trabajo con él con un permiso superior al de Vista. Los permisos superiores para el espacio de trabajo se aplicarán a los tipos de registro.
 
 ## Permisos de uso compartido para un tipo de registro
 
@@ -154,12 +154,9 @@ Puede ajustar los permisos a los tipos de registro individuales de un espacio de
 
    ![Permisos para tipos de registros con permisos heredados en](assets/permissions-for-record-types-with-inherited-permissions-on.png)
 
-1. (Opcional) En el área **Que tiene acceso**, seleccione una de las siguientes opciones: <!--the Only invited people is supposed to be removed - rewrite this - according to Vahan-->
+1. (Opcional) En el área **Que tiene acceso**, la opción **Todos los que están en el área de trabajo pueden ver** está seleccionada de forma predeterminada.  Todos los usuarios que tengan permisos de Vista o superiores en el espacio de trabajo pueden ver el tipo de registro.
 
-   * **Solo las personas invitadas pueden tener acceso**: debe especificar los usuarios, grupos, equipos, compañías o roles con los que desea compartir la vista.
-   * **Todos los usuarios del área de trabajo pueden ver**: todos los usuarios que tengan permisos de Vista o superiores pueden tener acceso a la vista. Esta es la opción predeterminada. <!--rewrite this based on what Lilit says in the proof: At this point, once the inherited permissions are disabled, everyone in the workspace except workspace managers will have View permission to the record type because the "Everyone in the workspace can view"  setting cannot be changed. -->
-
-1. (Opcional) Expanda la opción **Permisos heredados** para ver usuarios, equipos, grupos, empresas o roles de trabajo que heredan permisos del área de trabajo.
+1. (Opcional) Haga clic en el número de usuarios en la opción **Permisos heredados** para ver los usuarios, equipos, grupos, empresas o roles de trabajo que heredan los permisos del área de trabajo.
 
    >[!TIP]
    >
@@ -168,15 +165,14 @@ Puede ajustar los permisos a los tipos de registro individuales de un espacio de
 
 1. (Opcional y condicional) Si desea compartir el tipo de registro con entidades específicas y otorgarles un acceso al tipo de registro diferente del que ya tienen para el espacio de trabajo, haga lo siguiente:
 
-1. **Desactivar** permisos heredados.
+   1. Seleccione **Deshabilitar** del menú desplegable **Permisos heredados**.
 
    >[!TIP]
    >
    >Los administradores de Workspace siguen teniendo permisos de administración en el tipo de registro.
 
-   1. En el campo **Conceder acceso a este tipo de registro**, agregue los usuarios, equipos, grupos, empresas o roles de trabajo a los que desee conceder un nivel de permiso diferente.
+   1. En el campo **Conceder acceso a este tipo de registro**, agregue los usuarios, equipos, grupos, empresas o roles de trabajo a los que desee conceder un nivel de permiso diferente del que tienen para el área de trabajo.
    1. Elija un nivel de permisos.
-
 
    >[!IMPORTANT]
    >
@@ -185,20 +181,22 @@ Puede ajustar los permisos a los tipos de registro individuales de un espacio de
    >* Puede conceder a los usuarios un permiso inferior al tipo de registro si tienen permisos de contribución en el espacio de trabajo.
    > Para obtener más información, consulte [Información general sobre los permisos de uso compartido en Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md).
 
-1. Para que los usuarios que no tengan permisos de acceso al área de trabajo tengan acceso a la vista de tipo de registro, en el campo **Conceder acceso a esta vista**, empiece a escribir el nombre de un usuario, un grupo, un equipo, una empresa o un rol y, a continuación, haga clic en él cuando aparezca en la lista.
+1. Para que los usuarios que no tengan permisos de acceso al área de trabajo puedan ver un tipo de registro, en el campo **Conceder acceso a esta vista**, empiece a escribir el nombre de un usuario, un grupo, un equipo, una empresa o un rol y, a continuación, haga clic en él cuando aparezca en la lista.
 
    La entidad seleccionada se agrega al tipo de registro y al área de trabajo con permisos de **Ver**.
 
    Los administradores del sistema siempre reciben permisos de administración para los tipos de registros compartidos con ellos y existe una indicación de que un usuario es administrador del sistema.
 
-1. Haga clic en **Copiar vínculo** para copiar un vínculo al tipo de registro en el portapapeles.
+1. (Opcional) Haga clic en **Copiar vínculo** para copiar un vínculo al tipo de registro en el portapapeles y compartirlo con otros usuarios.
 1. Haga clic en **Guardar**.
 
    El tipo de registro ahora se comparte con otros usuarios.
 
-1. Comparta el vínculo copiado con otros usuarios. Los usuarios que reciban el vínculo deben ser usuarios activos e iniciar sesión en Workfront para poder acceder a la página de tipo de registro y mostrarla en la vista seleccionada.
+1. Comparta el vínculo copiado con otros usuarios. Los usuarios que reciban el vínculo deben ser usuarios activos e iniciar sesión en Workfront para poder acceder a la página de tipo de registro y mostrarla en la vista seleccionada. Deben tener permisos sobre el tipo de registro para poder verlo.
 
 ## Eliminación de permisos de un tipo de registro
+
+Puede quitar los permisos de los usuarios de un tipo de registro. Sin embargo, conservarán al menos el acceso de visualización al espacio de trabajo, que les otorga permisos para ver al menos el tipo de registro. Debe quitar su acceso al espacio de trabajo si desea que no tengan permisos para los tipos de registro del espacio de trabajo.
 
 {{step1-to-planning}}
 
@@ -213,7 +211,7 @@ Puede ajustar los permisos a los tipos de registro individuales de un espacio de
 
 1. Haga clic en **Guardar**.
 
-   Las personas ya no tienen acceso al tipo de registro. Podrían seguir teniendo permisos en el espacio de trabajo, a menos que también los quite de los permisos del espacio de trabajo.
+   Las personas ya no tienen los permisos indicados para el tipo de registro. Sin embargo, siguen teniendo permisos en el espacio de trabajo, a menos que también los quite de los permisos del espacio de trabajo.
 
    A los usuarios a los que se les ha retirado el acceso a la vista no se les notifica de ninguna manera que ya no tienen acceso a ella.
 

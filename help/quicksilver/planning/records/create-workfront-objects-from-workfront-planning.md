@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7c3db950-4cd9-424c-a7a7-4fa7dfa995f6
-source-git-commit: 88b8443525043a0710dfc6f93739e54f2e78a569
+source-git-commit: 5a4ceb3bd7a5f121312d26775b6cf91604585775
 workflow-type: tm+mt
-source-wordcount: '1078'
+source-wordcount: '1088'
 ht-degree: 10%
 
 ---
@@ -20,9 +20,9 @@ ht-degree: 10%
 <!-- update the title (and all the links to this article) at preview, to be this: Create Workfront objects from Workfront Planning as you connect them to records-->
 <!-- remove preview and production at release time-->
 
-<!--<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">La información resaltada en esta página hace referencia a funcionalidades que aún no están disponibles de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después de las versiones mensuales en Production, las mismas funciones también están disponibles en el entorno Production para los clientes que habilitaron versiones rápidas. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -113,7 +113,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
 <tr> 
    <td role="rowheader"><p>Permisos de objeto</p></td> 
-   <td> <p>Administre permisos en el área de trabajo <!--<span class="preview">and record type</span>--> donde desee agregar registros. </p>  
+   <td> <p>Administre permisos al área de trabajo <span class="preview">y al tipo de registro</span> donde desee agregar registros. </p>  
    <p>Los administradores del sistema tienen permisos para todos los espacios de trabajo, incluidos los que no crearon</p>
    <p>Administre permisos a objetos Workfront (portafolios) para agregar objetos secundarios (proyectos).</p>
    </td> 
@@ -145,11 +145,7 @@ Para crear proyectos al conectarlos desde otros registros:
 
 1. (Condicional) Haga clic en **Agregar proyecto**
 O
-Empiece a escribir el nombre de un proyecto y haga clic en **Agregar proyecto** si no lo encuentra.
-
-   Si no encuentra un proyecto al intentar agregarlo desde el campo de registro conectado de otro registro, agregue un nombre y haga clic en **Agregar proyecto**. El botón Agregar va seguido del nombre del proyecto que ha escrito.
-
-   <!--at production or when the permanent Add button is released to preview, take the first part of the direction above out and say "Click Add to add a new project"; take this out too: "The Add button is followed by the project name you typed."-->
+Empiece a escribir el nombre de un proyecto y haga clic en **Agregar proyecto** si no lo encuentra. El botón Agregar va seguido del nombre del proyecto que ha escrito.
 
    ![Agregar proyecto al conectarlo desde un campo de conexión](assets/add-project-when-connecting-it-from-connection-field.png)
 
@@ -170,13 +166,11 @@ Para crear portafolios a medida que los conecta desde registros de Planning:
 
 1. Vaya a la página de detalles de un registro o a la tabla del tipo de registro y comience a conectar los registros de Workfront Planning con los portafolios de Workfront, tal como se describe en el artículo [Conectar registros](/help/quicksilver/planning/records/connect-records.md).
 
-   <!--at production or when the permanent Add button is released to preview, take the first part of the direction below out and say "Click Add to add a new portfolio"; take this out too: "The Add button is followed by the portfolio name you typed."-->
-
 1. (Condicional) Haga clic en **Agregar portafolio**
 
    O
 
-   Empiece a escribir el nombre de un portafolio y, a continuación, haga clic en **Agregar portafolio** si no lo encuentra.—> Si no encuentra un portafolio al intentar agregarlo desde el campo de registro conectado de otro registro, agregue un nombre y haga clic en **Agregar portafolio**. El botón Agregar también va seguido del nombre del portafolio que ha escrito.
+   Empiece a escribir el nombre de un portafolio y, a continuación, haga clic en **Agregar portafolio** si no lo encuentra. El botón Agregar va seguido del nombre del portafolio que ha escrito.
 
    ![Agregar portafolio al conectarlo desde un campo de conexión](assets/add-portfolio-when-connecting-it-from-connection-field.png)
 
@@ -189,8 +183,6 @@ Para crear portafolios a medida que los conecta desde registros de Planning:
 Para crear programas a medida que los conecta desde registros de Planning:
 
 1. Vaya a la página de detalles de un registro o a la tabla del tipo de registro y comience a conectar los registros de Workfront Planning con los portafolios de Workfront, tal como se describe en el artículo [Conectar registros](/help/quicksilver/planning/records/connect-records.md).
-
-   <!--at production or when the permanent Add button is released to preview, take the first part of the direction below out and say "Click Add to add a new program"; take this out too: "The Add button is followed by the program name you typed."-->
 
 1. Haga clic en **Agregar programa**
 

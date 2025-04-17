@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: df8c4926-e258-49c0-ab9d-563ccaf7a6aa
-source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
+source-git-commit: 5a4ceb3bd7a5f121312d26775b6cf91604585775
 workflow-type: tm+mt
-source-wordcount: '665'
-ht-degree: 33%
+source-wordcount: '859'
+ht-degree: 29%
 
 ---
 
@@ -18,9 +18,9 @@ ht-degree: 33%
 
 <!--take Preview and Production references at Production time-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después de las versiones mensuales en Production, las mismas funciones también están disponibles en el entorno Production para los clientes que habilitaron versiones rápidas. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -89,7 +89,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
    <td role="rowheader"><p>Permisos de objeto</p></td>
    <td>
    <ul>
-   <li><p>Administrar permisos en un área de trabajo <!--<span class="preview">and record type</span>--> </p></li>
+   <li><p>Administrar permisos para un espacio de trabajo <span class="preview">y tipo de registro</span> </p></li>
     <li><p>Los administradores del sistema pueden administrar los espacios de trabajo que no hayan creado. </p></li>
     </ul>
    <p>Para obtener información acerca de los permisos de uso compartido para objetos de Workfront Planning, consulte 
@@ -124,8 +124,17 @@ Para cambiar el uso compartido de un formulario de solicitud:
 
    La página de tipo de registro se abre en la vista a la que se accedió por última vez. De forma predeterminada, se abre una página de tipo de registro en la vista de tabla.
 
-1. Haga clic en el menú **Más** ![Menú más](assets/more-menu.png) a la derecha del nombre del tipo de registro en el encabezado de la página y, a continuación, haga clic en **Actualizar formulario de solicitud**.
-1. Haga clic en **Compartir** en la esquina superior derecha de la pantalla y, a continuación, actualice las opciones para compartir. Para obtener más información, consulte [Crear y administrar un formulario de solicitud en Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
+1. Haga clic en el menú **Más** ![Menú más](assets/more-menu.png) que se encuentra a la derecha del nombre del tipo de registro en el encabezado de la página y, a continuación, haga clic en **Administrar formularios de solicitud**.
+
+   Todos los formularios de solicitud asociados al tipo de registro se muestran en una vista de tabla.
+1. Pase el ratón sobre el nombre de un formulario de solicitud, luego haga clic en el menú **Más** ![Menú más](assets/more-menu.png) a la derecha de su nombre y luego haga clic en **Compartir**.
+1. Actualice las opciones de uso compartido seleccionando una de las siguientes opciones:
+
+   * Cualquiera con acceso de visualización o más alto al espacio de trabajo
+   * Cualquiera con acceso de aportación o más alto al espacio de trabajo
+   * Cualquiera con el vínculo
+
+   Para obtener más información, consulte [Crear y administrar un formulario de solicitud en Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 1. (Opcional) Haga clic en **Copiar vínculo**, si ha cambiado el uso compartido del formulario de solicitud y desea compartirlo con el nuevo grupo de personas con un nuevo vínculo.
 
 ## Cancelar la publicación de un formulario de solicitud para un tipo de registro
@@ -142,18 +151,24 @@ Cuando un formulario de solicitud deja de ser relevante y ya no desea que nadie 
 
    La página de tipo de registro se abre en la vista a la que se accedió por última vez. De forma predeterminada, se abre una página de tipo de registro en la vista de tabla.
 
-1. Haga clic en el menú **Más** ![Menú más](assets/more-menu.png) que se encuentra a la derecha del nombre del tipo de registro en el encabezado de la página y, a continuación, haga clic en **Actualizar formulario de solicitud**.
-1. Haga clic en **Cancelar publicación** en la esquina superior derecha.
+1. Haga clic en el menú **Más** ![Menú más](assets/more-menu.png) que se encuentra a la derecha del nombre del tipo de registro en el encabezado de la página y, a continuación, haga clic en **Administrar formularios de solicitud**.
 
-   ![Botón Cancelar publicación resaltado](assets/unpublish-button-highlighted.png)
+   Todos los formularios de solicitud asociados al tipo de registro se muestran en una vista de tabla.
+1. Pase el ratón sobre el nombre de un formulario de solicitud, luego haga clic en el menú **Más** ![Menú más](assets/more-menu.png) a la derecha de su nombre y luego haga clic en **Cancelar publicación**
 
-   Aparece una confirmación en la parte inferior de la pantalla que le notifica que se ha cancelado la publicación del formulario.
+O
 
-   El botón **Cancelar publicación** cambia a **Publicar**.
+Haga clic en el nombre del formulario de solicitud para abrirlo y luego haga clic en **Cancelar la publicación** en la esquina superior derecha del formulario de solicitud.
 
-1. Haga clic en **Guardar**.
+![Botón Cancelar publicación resaltado](assets/unpublish-button-highlighted.png)
 
-   Ya no se puede obtener acceso al formulario desde un vínculo <!--or from the request queue in the Requests area of Workfront-->.
+Aparece una confirmación en la parte inferior de la pantalla que le notifica que se ha cancelado la publicación del formulario.
+
+El vínculo o botón **Cancelar la publicación** cambia a **Publicar**.
+
+1. (Condicional) Haga clic en **Guardar** si canceló la publicación del formulario después de abrirlo.
+
+   Los usuarios ya no pueden acceder al formulario de solicitud desde un vínculo o desde la cola de solicitudes del área de Solicitudes de Workfront.
 
    Cualquier registro agregado anteriormente mediante el formulario de solicitud permanece en la página de tipo de registro.
 

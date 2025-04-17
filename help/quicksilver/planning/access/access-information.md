@@ -6,15 +6,19 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 98ca7d04-35c2-420a-a87c-50c00939853c
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: 5a4ceb3bd7a5f121312d26775b6cf91604585775
 workflow-type: tm+mt
-source-wordcount: '123'
-ht-degree: 60%
+source-wordcount: '186'
+ht-degree: 47%
 
 ---
 
 
 # Información de acceso de Adobe Workfront Planning: índice de artículos
+
+<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después de las versiones mensuales en Production, las mismas funciones también están disponibles en el entorno Production para los clientes que habilitaron versiones rápidas. </span>
+
+<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -24,16 +28,14 @@ Los siguientes artículos contienen información sobre el acceso que los usuario
 
 * [Información general sobre el acceso a Adobe Planning](/help/quicksilver/planning/access/access-overview.md)
 * [Información general sobre los permisos de uso compartido en Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md)
-
-<!--<div class="preview">
-
-* [Share record types](/help/quicksilver/planning/access/share-record-types.md)
-
-</div>-->
-
-* [Compartir vistas](/help/quicksilver/planning/access/share-views.md)
-* [Compartir espacios de trabajo](/help/quicksilver/planning/access/share-workspaces.md)
 * [Información general sobre el tipo de licencia al usar Adobe Workfront Planning](/help/quicksilver/planning/access/license-type-overview.md)
 * [Solicitar permisos para una vista o un espacio de trabajo](/help/quicksilver/planning/access/request-permissions.md)
+* [Compartir vistas](/help/quicksilver/planning/access/share-views.md)
+* [Compartir espacios de trabajo](/help/quicksilver/planning/access/share-workspaces.md)
+<div class="preview">
+
+* [Compartir tipos de registros](/help/quicksilver/planning/access/share-record-types.md)
+
+</div>
 
 

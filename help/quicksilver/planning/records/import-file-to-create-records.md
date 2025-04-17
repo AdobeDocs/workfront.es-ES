@@ -6,19 +6,19 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 940945df-391c-4672-9d9d-180d5028509b
-source-git-commit: 88b8443525043a0710dfc6f93739e54f2e78a569
+source-git-commit: 5a4ceb3bd7a5f121312d26775b6cf91604585775
 workflow-type: tm+mt
-source-wordcount: '902'
-ht-degree: 12%
+source-wordcount: '972'
+ht-degree: 11%
 
 ---
 
 
 # Crear registros importando información desde un archivo CSV o de Excel
 
-<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">La información de esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después de las versiones mensuales en Production, las mismas funciones también están disponibles en el entorno Production para los clientes que habilitaron versiones rápidas. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -83,7 +83,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
 <tr> 
    <td role="rowheader"><p>Permisos de objeto</p></td> 
-   <td> <p>Aporte permisos o superiores al área de trabajo <!--and record type--> donde desee agregar registros. </p>  
+   <td> <p>Conceda permisos de contribución o superiores al área de trabajo <span class="preview">y al tipo de registro</span> donde desee agregar registros. </p>  
    <p>Los administradores del sistema tienen permisos para todos los espacios de trabajo, incluidos los que no crearon</p>
    <p>Administre permisos a objetos Workfront (portafolios) para agregar objetos secundarios (proyectos).</p>
    </td> 
@@ -128,6 +128,8 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
    Desde un espacio de trabajo, expanda la flecha hacia abajo situada a la derecha del nombre de un espacio de trabajo existente, busque un espacio de trabajo y, a continuación, selecciónelo cuando se muestre en la lista.
 1. Haga clic en la tarjeta del tipo de registro donde desee importar los registros.
 1. Haga clic en **Nuevo registro** en la esquina superior derecha de la pantalla.
+
+   ![Elija la forma de agregar registros en el cuadro de tres botones](assets/choose-way-to-add-records-three-button-box.png)
 1. Haga clic en **Cargar desde el archivo** y, a continuación, **Continuar**. <!--add screen shot when all three buttons are added - with the Submit a request button-->
 1. Arrastre y suelte un archivo de Excel o CSV guardado anteriormente en el equipo, o haga clic en **Seleccione un archivo CSV o de Excel** para buscar uno.
 1. Haz clic en **Vista previa y edita**.

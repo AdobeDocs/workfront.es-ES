@@ -6,19 +6,19 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: b22c4955-c3f2-4841-a278-bb40e8890ed9
-source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
+source-git-commit: 5a4ceb3bd7a5f121312d26775b6cf91604585775
 workflow-type: tm+mt
-source-wordcount: '912'
-ht-degree: 14%
+source-wordcount: '975'
+ht-degree: 15%
 
 ---
 
 
 # Añadir una miniatura a un registro
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después de las versiones mensuales en Production, las mismas funciones también están disponibles en el entorno Production para los clientes que habilitaron versiones rápidas. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 
 {{planning-important-intro}}
@@ -86,7 +86,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
 <tr> 
    <td role="rowheader"><p>Permisos de objeto</p></td> 
-   <td>   <p>Aportar o permisos superiores a un espacio de trabajo <!--<span class="preview">and record type</span>-->  </p>  
+   <td>   <p>Permisos de contribución o superiores para un espacio de trabajo <span class="preview">y tipo de registro</span>  </p>  
    <p>Los administradores del sistema tienen permisos para todos los espacios de trabajo, incluidos los que no crearon</p> </td> 
   </tr> 
 <tr> 
@@ -213,8 +213,6 @@ La miniatura aparece en áreas de Workfront Planning donde se muestra el registr
    >   Debe habilitar el campo Miniatura en la vista de tabla para que se muestren miniaturas en esta vista. Está desactivada de forma predeterminada.
 
 1. (Opcional) Para quitar la miniatura después de guardarla, haga clic en un registro de cualquier vista para abrir la página de detalles, pase el ratón sobre la imagen en miniatura y haga clic en el menú **Más** ![Icono de menú Más](assets/more-menu.png)> **Quitar** icono ![Quitar icono](assets/remove-image-icon.png). Se elimina la imagen en miniatura.
-
-
 
 
 <!--

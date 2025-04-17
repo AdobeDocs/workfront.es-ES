@@ -6,18 +6,18 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: be51023c-8e11-42e7-aa4f-34484c30eb03
-source-git-commit: 88b8443525043a0710dfc6f93739e54f2e78a569
+source-git-commit: 5a4ceb3bd7a5f121312d26775b6cf91604585775
 workflow-type: tm+mt
-source-wordcount: '510'
-ht-degree: 24%
+source-wordcount: '578'
+ht-degree: 26%
 
 ---
 
 # Resumen de registros conectados
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después de las versiones mensuales en Production, las mismas funciones también están disponibles en el entorno Production para los clientes que habilitaron versiones rápidas. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span> -->
+<span class="preview">Para obtener información acerca de las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
 {{planning-important-intro}}
 
@@ -41,8 +41,8 @@ Para obtener información sobre cómo conectar registros entre sí o con otro ob
 
   Los valores de los campos de búsqueda rellenan el registro de Workfront Planning desde el que está vinculando automáticamente después de que se hayan actualizado en el registro u objeto original.
 
-* Todas las personas con acceso a Workfront Planning y View o permisos superiores en el espacio de trabajo <!--<span class="preview">and record type</span>--> pueden ver las conexiones que se realizan entre los registros o entre los registros y los objetos de otras aplicaciones. Pueden ver los registros y objetos conectados independientemente de sus permisos en las aplicaciones a las que se conecta.
-* Puede ver y editar las conexiones de todos los demás, si tiene permisos de administración en el área de trabajo <!--<span class="preview">and record type</span>--> donde se encuentran los registros conectados.
+* Todas las personas con acceso a Workfront Planning y View o permisos superiores en el espacio de trabajo <span class="preview">y un tipo de registro</span> pueden ver las conexiones que se realizan entre registros o entre registros y objetos de otras aplicaciones. Pueden ver los registros y objetos conectados independientemente de sus permisos en las aplicaciones a las que se conecta.
+* Puede ver y editar las conexiones de todos los demás, si tiene permisos de administración en el área de trabajo <span class="preview"> y en el tipo de registro </span> en el que se encuentran los registros conectados.
 * Se puede conectar un registro a uno o varios objetos desde otra aplicación, según el tipo de conexión seleccionado al conectar los tipos de registro. Para obtener más información, consulte la sección &quot;Tipos de conexiones&quot; en el artículo [Información general sobre los tipos de registros conectados](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
 
 ## Áreas donde se pueden conectar registros

@@ -6,15 +6,17 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
-source-git-commit: a3c82d8be6945a91a249d64923c6377a5edfa268
+source-git-commit: 5a4ceb3bd7a5f121312d26775b6cf91604585775
 workflow-type: tm+mt
-source-wordcount: '944'
-ht-degree: 12%
+source-wordcount: '1122'
+ht-degree: 11%
 
 ---
 
 
 <!--over time, this article should look like this one does: https://eperienceleague.adobe.com/docs/workfront/using/basics/grant-request-object-permissions/sharing-permissions-on-objects-overview.html?lang=en-->
+
+<!--remove the Prod and Preview references when we release to Prod-->
 
 # Información general sobre los permisos de uso compartido en Adobe Workfront Planning
 
@@ -69,14 +71,9 @@ Internamente, se puede compartir un espacio de trabajo o una vista con las sigui
 
 * Usuarios
 * Grupos
-
-<div class="preview">
-
 * Equipos
 * Compañías
 * Roles
-
-</div>
 
 <span class="preview"> Cuando comparte espacios de trabajo y tipos de registros con otros, el nivel de permiso del tipo de registro se hereda automáticamente a los registros y campos asociados a ellos. </span>
 
@@ -131,7 +128,7 @@ Los siguientes son los niveles de permisos para espacios de trabajo:
 
 ### Permisos de tipo de registro
 
-<!--In the Production environment,--> Los permisos de Tipo de registro se heredan <!--always--> al conceder permisos al área de trabajo.
+En el entorno Producción, los permisos de Tipo de registro siempre se heredan al conceder permisos al espacio de trabajo.
 
 A continuación se indican los niveles de permisos para los tipos de registro:
 
@@ -143,29 +140,35 @@ A continuación se indican los niveles de permisos para los tipos de registro:
 | Editar | ✓ |            |       |
 | Ver | ✓ | ✓ | ✓ |
 
-<!--
-
 <div class="preview">
 
-In the Preview environment, you can remove the record type's inherited permissions received from the workspace. 
+En el entorno de vista previa, puede quitar los permisos heredados del tipo de registro recibidos del espacio de trabajo.
 
-You can give users different permissions on the record type than they have on the workspace. However, you can never grant higher permissions for the record type than users have on the workspace. 
+Puede conceder a los usuarios permisos inferiores en el tipo de registro que los que tienen en el espacio de trabajo.
 
-The following scenarios exist: 
+Sin embargo, no puede hacer lo siguiente:
 
-|   Workspace permissions     | Automatic inherited permissions for a Record Type |Possible Record Type permissions when Inherited permissions are turned off (granted manually)| 
+* Conceda permisos superiores al tipo de registro que los usuarios tienen en el espacio de trabajo.
+* Asigne a los administradores de espacio de trabajo permisos inferiores en un tipo de registro.
+* Quite los permisos de Vista en el tipo de registro o en el espacio de trabajo quitando usuarios de los permisos de tipo de registro.
+
+Se dan los siguientes escenarios:
+
+| Permisos de Workspace | Permisos heredados automáticos para un tipo de registro | Posibles permisos de Tipo de registro cuando los permisos heredados están desactivados (se conceden manualmente) |
 |--------|--------|-------------|
-| Manage |   Manage    |   Manage, Remove permissions           | 
-| Contribute |     Contribute |  Contribute, View, Remove permissions        |
-| View   |  View     |      View, Remove permissions        |     
+| Administrar | Administrar | Administración, eliminación de permisos* |
+| Aportar | Aportar | Aportar, Ver, Eliminar permisos* |
+| Ver | Ver | Ver, quitar permisos* |
+
+>[!NOTE]
+>
+>*Cuando se quitan permisos de un tipo de registro, los usuarios conservan los permisos de Vista en el espacio de trabajo y en todos los tipos de registros, a menos que se quiten sus permisos del espacio de trabajo.
 
 </div>
 
--->
-
 ### Permisos de registro
 
-Los permisos de registro se heredan de <!--<span class="preview">the record type</span>, when you grant permissions to -->el espacio de trabajo<!-- and <span class="preview">the record type</span>-->.
+Los permisos de registro se heredan de <span class="preview">el tipo de registro</span>, cuando concede permisos al área de trabajo y a <span class="preview">el tipo de registro</span>.
 
 A continuación se indican los niveles de permisos para los registros:
 
@@ -179,7 +182,7 @@ A continuación se indican los niveles de permisos para los registros:
 
 ### Permisos de campo
 
-Los permisos de campo se heredan de <!--<span class="preview">the record type</span>, when you grant permissions to -->el área de trabajo <!--and <span class="preview">the record type</span>-->.
+Los permisos de campo se heredan de <span class="preview">el tipo de registro</span>, cuando concede permisos al área de trabajo y a <span class="preview">el tipo de registro</span>.
 
 Los siguientes permisos hacen referencia a los propios campos y no a los valores asociados a cada campo. Para editar valores de campo, debe tener permisos para editar registros.
 

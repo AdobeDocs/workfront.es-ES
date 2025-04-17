@@ -6,10 +6,10 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: d86cf3f9-cacc-4457-acb3-a5122ae91be8
-source-git-commit: 7f96cddc18e70dff34beb33ef2785af69a55c36f
+source-git-commit: 5a4ceb3bd7a5f121312d26775b6cf91604585775
 workflow-type: tm+mt
-source-wordcount: '1777'
-ht-degree: 6%
+source-wordcount: '1863'
+ht-degree: 7%
 
 ---
 
@@ -18,16 +18,16 @@ ht-degree: 6%
 
 # Administrar conexiones de registro desde objetos de Workfront
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después de las versiones mensuales en Production, las mismas funciones también están disponibles en el entorno Production para los clientes que habilitaron versiones rápidas. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>-->
+<span class="preview">Para obtener información acerca de las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
 {{planning-important-intro}}
 
 Puede mostrar registros de Workfront Planning en Workfront en las siguientes áreas de los objetos conectados a ellos:
 
 * La sección Planning de un objeto Workfront: muestra todos los tipos de registros conectados a un objeto y sus registros conectados respectivos.
-* Campo personalizado de conexión de Planning: muestra un tipo de registro, sus registros conectados respectivos, <span class="preview"> y hasta 7 campos de búsqueda de los registros conectados.</span>
+* Campo personalizado de conexión de Planning: muestra un tipo de registro, sus registros conectados respectivos y hasta 7 campos de búsqueda de los registros conectados.
 
 ## Requisitos de acceso
 
@@ -94,9 +94,9 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
    <p>En Workfront, vea o supere los permisos de un proyecto, portafolio o programa</a> </p> 
    <p>En Workfront Planning:
    <ul><li>
-   Ver los permisos de un área de trabajo <!--<span class="preview">and record type</span>--> para ver los registros conectados </li>
+   Ver permisos de un espacio de trabajo <span class="preview">y tipo de registro</span> para ver cualquier registro conectado </li>
    o
-   <li> Conceder permisos de contribución o superiores a un espacio de trabajo <!--<span class="preview">and record type</span>--> para conectar o desconectar registros</a></li></ul> </p>  
+   <li> Permisos de contribución o superiores para un espacio de trabajo <span class="preview">y tipo de registro</span> para conectar o desconectar registros</a></li></ul> </p>  
    <p>Los administradores del sistema tienen permisos para todos los espacios de trabajo de Workfront Planning, incluidos los que no crearon</p> 
   </td>
   </tr>
@@ -211,7 +211,7 @@ Tenga en cuenta lo siguiente cuando vea los registros de Workfront Planning desd
 * Un campo de conexión de Planning se muestra de las siguientes maneras en el formulario personalizado de un objeto de Workfront, después de que los registros de Planning estén conectados al objeto de Workfront:
 
    * Si sólo se selecciona el campo principal del registro conectado, el campo de conexión de Planning se muestra como un campo con varios valores, si la conexión permite vincular varios registros. Para obtener más información, consulte [Información general sobre los tipos de registros de Connect](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
-   * <span class="preview">Si el administrador del grupo o de Workfront agregó campos de búsqueda adicionales desde el registro conectado en el formulario personalizado, el campo de conexión de Planning se mostrará como una tabla. Se pueden seleccionar hasta 7 campos para el campo Planning connection. La vista de tabla es de solo lectura.  </span>
+   * Si el administrador del grupo o de Workfront agregó campos de búsqueda adicionales desde el registro conectado en el formulario personalizado, el campo Conexión de Planning se mostrará como una tabla. Se pueden seleccionar hasta 7 campos para el campo Planning connection. La vista de tabla es de solo lectura.
 
 * Sólo puede asociar un tipo de registro con un campo de conexión de Planning. No hay límite en cuanto a la cantidad de campos de conexión de Planning que tiene en un formulario.
 * Debe tener el acceso y los permisos correctos para el objeto, el registro y Workfront Planning para adjuntar un formulario personalizado con un campo personalizado de conexión de Planning a un objeto de Workfront.
@@ -261,11 +261,16 @@ Tenga en cuenta lo siguiente cuando vea los registros de Workfront Planning desd
    * Los registros se conectan inmediatamente al objeto Workfront y se muestran en el campo Planning connection y en la sección Planning del objeto Workfront.
    * El objeto Workfront se agrega al campo conectado del registro de Workfront Planning.
    * Los valores de los campos de búsqueda de Workfront conectados al registro de Planning se rellenan en Workfront Planning.
-   * <span class="preview">Si el administrador de grupo o Workfront agregó campos de búsqueda de registros al crear el formulario personalizado, los campos de búsqueda del registro se rellenarán automáticamente en una vista de tabla. La vista de tabla del campo de conexión de Planning es de solo lectura </span>
+   * Si el administrador de grupo o Workfront agregó campos de búsqueda de registros al crear el formulario personalizado, los campos de búsqueda del registro se rellenarán automáticamente en una vista de tabla. La vista de tabla del campo de conexión de Planning es de sólo lectura.
 
      ![Campo de conexión de Planning con tabla en el formulario personalizado de detalles del proyecto](assets/planning-connection-field-with-table-on-project-details-custom-form.png)
 
-1. (Opcional) Haga clic en el nombre de un registro <span class="preview">o coloque el puntero sobre el nombre del registro de la tabla y, a continuación, haga clic en el icono **Abrir registro** ![Icono Abrir registro en el formulario personalizado de conexión de Planning](assets/open-record-icon-on-planning-connection-custom-form.png)</span> en el campo Conexión de Planning para abrirlo en Workfront Planning.
+     >[!NOTE]
+     >
+     >La vista de tabla solo se muestra cuando se han agregado campos de búsqueda al campo Conexiones de Planning en el formulario personalizado.
+
+
+1. (Opcional) Haga clic en el nombre de un registro o pase el ratón sobre el nombre del registro de la tabla y, a continuación, haga clic en el icono **Abrir registro** ![Icono Abrir registro en el formulario personalizado de conexión de Planning](assets/open-record-icon-on-planning-connection-custom-form.png) en el campo Conexión de Planning para abrirlo en Workfront Planning.
 Se abre el cuadro de vista previa de detalles del registro de Workfront Planning.
 1. Revise o edite la información sobre el registro o haga clic en el icono **Abrir en una ficha nueva** ![Abrir registro en una ficha nueva](assets/open-details-in-a-new-tab-icon.png) para abrir la página de detalles del registro.
 

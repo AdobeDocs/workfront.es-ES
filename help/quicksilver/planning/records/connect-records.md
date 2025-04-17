@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: 88b8443525043a0710dfc6f93739e54f2e78a569
+source-git-commit: 5a4ceb3bd7a5f121312d26775b6cf91604585775
 workflow-type: tm+mt
-source-wordcount: '3267'
+source-wordcount: '3333'
 ht-degree: 47%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 47%
 
 # Conectar registros
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después de las versiones mensuales en Production, las mismas funciones también están disponibles en el entorno Production para los clientes que habilitaron versiones rápidas. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>  -->
+<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -118,8 +118,8 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
 <tr> 
    <td role="rowheader"><p>Permisos de objeto</p></td> 
-   <td>   <p>Conceder permisos de contribución o superiores a un espacio de trabajo <!--<span class="preview">and record type</span>--> para conectar registros </p>  
-   <p>Vea o aumente los permisos de un espacio de trabajo <!--<span class="preview">and record type</span>--> para ver todas las conexiones a objetos y campos desde otras aplicaciones, independientemente del acceso que tenga en la otra aplicación. </p>
+   <td>   <p>Permisos de contribución o superiores para un espacio de trabajo <span class="preview">y tipo de registro</span> para conectar registros </p>  
+   <p>Vea o aumente los permisos de un espacio de trabajo <span class="preview"> y del tipo de registro </span> para ver todas las conexiones a objetos y campos desde otras aplicaciones, independientemente del acceso que tenga en la otra aplicación. </p>
    <p>Permisos de visualización superiores a los objetos que desea vincular desde Workfront o Experience Manager Assets. </p>
    <p>Los administradores del sistema tienen permisos para todos los espacios de trabajo, incluidos los que no crearon.</p> </td> 
   </tr> 

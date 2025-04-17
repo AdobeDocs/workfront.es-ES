@@ -6,20 +6,19 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 88b8443525043a0710dfc6f93739e54f2e78a569
+source-git-commit: 5a4ceb3bd7a5f121312d26775b6cf91604585775
 workflow-type: tm+mt
-source-wordcount: '2359'
+source-wordcount: '2425'
 ht-degree: 29%
 
 ---
 
-<!--update the metadata with real information when making this available in TOC and in the left nav-->
 
 # Crear registros
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después de las versiones mensuales en Production, las mismas funciones también están disponibles en el entorno Production para los clientes que habilitaron versiones rápidas. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -98,8 +97,8 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
 <tr> 
    <td role="rowheader"><p>Permisos de objeto</p></td> 
-   <td> <p>Aporte permisos o superiores al área de trabajo <!--<span class="preview">and record type</span>--> donde desee agregar registros. </p>
-   <p>Vea o aumente los permisos del área de trabajo <!--<span class="preview">and record type</span>--> para crear registros mediante el botón Solicitar registro de la página de registros</p>
+   <td> <p>Conceda permisos de contribución o superiores al área de trabajo <span class="preview">y al tipo de registro</span> donde desee agregar registros. </p>
+   <p>Ver o permisos superiores al área de trabajo <span class="preview">y tipo de registro</span> para crear registros con el botón Solicitar registro de la página de registros</p>
    <p>Los administradores del sistema tienen permisos para todos los espacios de trabajo, incluidos los que no crearon</p>
    <p>Administre permisos a objetos Workfront (portafolios) para agregar objetos secundarios (proyectos).</p>
    </td> 

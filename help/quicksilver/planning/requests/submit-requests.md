@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
-source-git-commit: 594504c6a7acc9341471371ca279379042a45457
+source-git-commit: 5a4ceb3bd7a5f121312d26775b6cf91604585775
 workflow-type: tm+mt
-source-wordcount: '1791'
+source-wordcount: '1875'
 ht-degree: 8%
 
 ---
@@ -18,9 +18,9 @@ ht-degree: 8%
 <!--update title when there will be more functionality added to the Planning requests, besides creating records-->
 <!--take Preview and Prod references out when releasing to Prod all-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después de las versiones mensuales en Production, las mismas funciones también están disponibles en el entorno Production para los clientes que habilitaron versiones rápidas. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -96,7 +96,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 <tr>
    <td role="rowheader"><p>Permisos de objeto</p></td>
    <td>
-   <p>Ver o permisos superiores en un espacio de trabajo <!--<span class="preview">and record type</span>-->, si es un usuario de Workfront</p> 
+   <p>Ver o permisos superiores a un espacio de trabajo <span class="preview">y tipo de registro</span>, si es un usuario de Workfront</p> 
   </td>
   </tr>
 <tr>
@@ -201,6 +201,8 @@ Si habilita esta configuración, los formularios de solicitud de Workfront Plann
      >[!IMPORTANT]
      >
      >Todos los usuarios que tengan acceso al menos a un espacio de trabajo pueden ver la pestaña Planificación en el área Solicitudes. Solo puede ver las solicitudes enviadas por usted o por cualquier otra persona a los espacios de trabajo para los que tiene al menos permisos de Vista. Los administradores de Workfront pueden ver todas las solicitudes enviadas a cualquier espacio de trabajo del sistema.
+
+   * La solicitud solo es visible para el propietario, el aprobador y las personas que tienen al menos permisos de vista en el área de trabajo <!--and people with Manage access to the request type (asking Rafael about this, because not sure how one would give Manage access to the request type??)-->.
 
    * Recibirá una notificación en la aplicación y por correo electrónico que le avisa de que la solicitud se ha enviado correctamente o que se ha enviado para su revisión.
    * Si el formulario de solicitud estaba asociado a una aprobación, los aprobadores reciben una notificación en la aplicación y por correo electrónico para revisar y aprobar la solicitud.

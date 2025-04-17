@@ -6,19 +6,19 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: a1ad5ada-5010-4dec-934e-a49a3e28aa5f
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: 5a4ceb3bd7a5f121312d26775b6cf91604585775
 workflow-type: tm+mt
-source-wordcount: '441'
-ht-degree: 79%
+source-wordcount: '504'
+ht-degree: 72%
 
 ---
 
 
 # Información general sobre campos
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después de las versiones mensuales en Production, las mismas funciones también están disponibles en el entorno Production para los clientes que habilitaron versiones rápidas. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span> -->
+<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 
 {{planning-important-intro}}
@@ -87,7 +87,7 @@ Añada nuevos campos en Adobe Workfront Planning que reflejen el ciclo de vida d
 
 * Los campos de Workfront solo son accesibles desde Workfront Planning cuando se conectan tipos de registro con tipos de objetos de Workfront y se añaden campos vinculados o de búsqueda desde objetos de Workfront. Para obtener más información, consulte [Conectar tipos de registros](/help/quicksilver/planning/architecture/connect-record-types.md).
 
-* Puede ver y actualizar la configuración de los campos que usted o cualquier otro usuario haya creado, si tiene permisos de administración en el área de trabajo <!--<span class="preview">and record type</span>--> a la que pertenece el campo.
+* Puede ver y actualizar la configuración de los campos que usted o cualquier otro usuario hayan creado, si tiene permisos de administración para el área de trabajo <span class="preview">y el tipo de registro</span> al que pertenece el campo.
 
 * Puede tener hasta 500 campos para un tipo de registro.
 
