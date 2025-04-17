@@ -4,15 +4,12 @@ description: Esta página proporciona información sobre la funcionalidad que se
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-hide: true
-hidefromtoc: true
-source-git-commit: 131a4443564def1437c9b26d1e29e65fcc78d069
+source-git-commit: 20faacf09266c455a29a04db59a4d39f825f0c2d
 workflow-type: tm+mt
-source-wordcount: '458'
-ht-degree: 58%
+source-wordcount: '394'
+ht-degree: 65%
 
 ---
-
 
 # Información general sobre la versión del tercer trimestre de 2025
 
@@ -45,32 +42,32 @@ The <add release> release webinar will be held on <date>. You can [register for 
 * [Mejoras en la administración de documentos](#document-management-enhancements)
 * [Otras mejoras](#other-enhancements)
 
-
-
-### Mejoras en la administración de documentos
+<!--
+    
+### Document management enhancements
 
 <table style="table-layout:auto">
   <tbody>
     <tr>
-        <td><strong>Característica</strong>
+        <td><strong>Feature</strong>
         </td>
-        <td><strong>Vista previa</strong></td>
-        <td><strong>Liberación rápida</strong></td>
-        <td><strong>Trimestralmente</strong></td>
+        <td><strong>Preview</strong></td>
+        <td><strong>Fast release</strong></td>
+        <td><strong>Quarterly</strong></td>
     </tr>
     <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Nuevos botones de decisión de aprobación de documento disponibles en el visor de revisión</a><p>[!BADGE Off schedule]{type=Neutral}</p>
-            <p>Los nuevos botones de decisión de aprobación de documentos ahora aparecen en el visor de pruebas. Ahora, cuando crea una prueba sencilla y luego agrega aprobadores y revisores desde el Resumen del documento, pueden tomar su decisión directamente dentro del visualizador de pruebas.</p>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">New document approval decision buttons available in proofing viewer</a><p>[!BADGE Off schedule]{type=Neutral}</p>
+            <p>The new document approval decision buttons now appear in the proofing viewer. Now, when you create a simple proof and then add approvers and reviewers from the Document summary, they can make their decision directly inside the proofing viewer.</p>
         </td>
-        <td>viernes, 10 de abril de 2025</td>
-        <td>viernes, 17 de abril de 2025</td>
-        <td>viernes, 17 de abril de 2025</td>
+        <td>April 10, 2025</td>
+        <td>April 17, 2025</td>
+        <td>April 17, 2025</td>
     </tr>     
   </tbody>
-</table>
+</table> 
 
-
+-->
 
 
 ### Otras mejoras
