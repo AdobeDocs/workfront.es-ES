@@ -3,12 +3,12 @@ navigation-topic: the-new-workfront-experience
 title: Anclar páginas para personalizar el espacio de trabajo
 description: Puede anclar su trabajo más importante en  [!DNL Adobe Workfront]  para obtener una mayor visibilidad, una mejor organización y un acceso más rápido. Siempre se puede acceder a las páginas ancladas desde la parte superior de cualquier página de Workfront.
 feature: Get Started with Workfront
-author: Nolan
+author: Courtney
 exl-id: c391dabc-8dc4-4c4b-b0fc-7ccc4244cb8a
-source-git-commit: e8a3f47a33b862a29000436d7c08c1a0e9371907
+source-git-commit: b3fe63f7a332f50c7bac3bedee5db3bbbabd2b42
 workflow-type: tm+mt
-source-wordcount: '413'
-ht-degree: 80%
+source-wordcount: '420'
+ht-degree: 65%
 
 ---
 
@@ -20,6 +20,8 @@ Es posible que se le asigne una plantilla de diseño que ya tenga páginas ancla
 
 ## Requisitos de acceso
 
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
+
 Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 <table style="table-layout:auto"> 
@@ -29,27 +31,28 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan</strong></td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licencia*</strong></td> 
-   <td> <p>[!UICONTROL Request] o superior</p> </td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] licencia</strong></td> 
+   <td> <p>Nuevo: colaborador</p> 
+   <p>O</p>
+     <p>Actual: Solicitud</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qué plan o tipo de licencia tiene, póngase en contacto con su administrador de [!DNL Workfront].
+Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Anclar una página
 
-1. Vaya a la página que desee anclar.
+1. Desplácese hasta la página que desee anclar. Puede ser cualquier elemento de trabajo, como un proyecto, una tarea, una cola de solicitudes, etc.
 
-   Puede ser cualquier elemento de trabajo, como un proyecto, una tarea, una cola de solicitudes, etc.
-
-1. Haga clic en **[!UICONTROL Pin current page]** en la parte superior de la página.
-
-   Ahora se podrá acceder a la página anclada desde la parte superior de cualquier página de [!DNL Workfront].
+1. En la esquina superior izquierda de la página, haga clic en **[!UICONTROL Anclar página actual]**. Ahora se podrá acceder a la página anclada desde la parte superior de cualquier página de [!DNL Workfront].
 
 ## Acceder a una página anclada
 
@@ -61,31 +64,31 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
    O
 
-   Si tiene muchas páginas ancladas, es posible que tenga que hacer clic en el menú **[!UICONTROL More]** ![](assets/more-icon-spectrum.png) para ver páginas ancladas adicionales.
+   Si tiene muchas páginas ancladas, haga clic en el icono **[!UICONTROL Más]** ![Haga clic en el icono Más](assets/more-icon.png) para ver otras páginas ancladas.
+
+   ![Ver páginas ancladas adicionales](assets/display-pinned-pages.png)
 
    Se mostrará la página anclada.
 
-## Cambiar el nombre de las páginas ancladas
+## Cambiar el nombre de una página anclada
 
-Puede cambiar el nombre de una página anclada para que le resulte más significativo.
-
-1. Pase el puntero por encima de la página anclada en la barra de navegación superior o el **[!UICONTROL More menu]**.
-1. Haga clic en el icono Más ![](assets/more-icon.png) junto al nombre del pin y seleccione **[!UICONTROL Cambiar nombre de pin]**.
+1. Pase el ratón sobre la página anclada en la barra de navegación superior.
+1. Haga clic en el icono **Más** ![Más icono](assets/more-icon.png) que aparece junto al nombre del pin y seleccione **[!UICONTROL Cambiar nombre de pin]**.
 
    ![Rename pin](assets/pin-menu.png)
 
 1. Escriba el nuevo nombre de anclaje y haga clic en **Guardar**.
 
-   ![Click the check mark to rename pin](assets/new-pin-name.png)
+   ![Click the check mark to rename pin](assets/rename-pin-dialog-box.png)
 
 
 ## Reordenar páginas ancladas
 
 Puede reorganizar el orden en que aparecen las páginas ancladas.
 
-1. Pase el ratón sobre la página anclada que quiera mover y luego haga clic en el icono **Más**.
+1. Pase el ratón sobre la página anclada que quiera mover y luego haga clic en el icono **Más** ![Icono de más](assets/more-icon.png).
 1. Elige **Mover a la izquierda** o **Mover a la derecha** para mover tu pin.
-1. (Opcional) Elija **Mover al frente** para mover el pin a la posición más a la derecha de la barra de pin.
+1. (Opcional) Elija **Mover al frente** para mover el pin a la posición más a la izquierda de la barra de pin.
 
    ![mover anclajes](assets/pin-menu.png)
 
@@ -93,9 +96,9 @@ Puede reorganizar el orden en que aparecen las páginas ancladas.
 
 ## Quitar una página anclada
 
-1. Haga clic en el icono Más ![](assets/more-icon.png) que se encuentra junto al fijador que desea eliminar.
-1. Haga clic en **Quitar anclaje**.
+1. Haga clic en el icono **Más** ![](assets/more-icon.png) que está junto al anclaje que desea eliminar.
+1. Haga clic en **Quitar anclaje**. La página dejará de estar accesible desde la parte superior de cualquier página de [!DNL Workfront].
 
    ![Remove pin](assets/pin-menu.png)
 
-   La página dejará de estar accesible desde la parte superior de cualquier página de [!DNL Workfront].
+
