@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: c669217a-40e2-471f-951d-93157a34f1ee
-source-git-commit: 5a4ceb3bd7a5f121312d26775b6cf91604585775
+source-git-commit: 4bdd4510a5ff7faf8f497299eac0a10f4fe7fbc2
 workflow-type: tm+mt
-source-wordcount: '2202'
+source-wordcount: '2203'
 ht-degree: 6%
 
 ---
@@ -309,7 +309,7 @@ En el área **Asignar campos**, actualice la siguiente información:
 
      Por ejemplo, si una campaña denominada `Summer breeze` generó un proyecto a partir de una opción de campo de `EMEA`, el proyecto se denomina `[ Summer breeze ] EMEA`.
 
-   * El registro desde el que se activa la automatización se agrega al campo conectado del nuevo registro.
+   * El registro desde el que se activa la automatización se agrega al campo conectado de los nuevos registros.
 
    >[!NOTE]
    >
