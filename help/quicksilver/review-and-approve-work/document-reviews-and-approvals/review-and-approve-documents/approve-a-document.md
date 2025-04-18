@@ -6,10 +6,10 @@ description: Si se le asigna a un documento en calidad de aprobador, puede tomar
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 5490973b-99a7-4790-9d89-bf8f16ff5765
-source-git-commit: 8270a107ba2501eddbb27f52c843c337aa1f8a99
+source-git-commit: 40c28e7efa61475c186d7f3fabda35a7257baf27
 workflow-type: tm+mt
-source-wordcount: '1083'
-ht-degree: 96%
+source-wordcount: '1246'
+ht-degree: 77%
 
 ---
 
@@ -114,22 +114,20 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
       * **Aprobar con cambios** indica que aún se requieren algunos cambios pequeños en el documento, pero se da la aprobación con la condición de que se realicen dichos cambios. Si selecciona esta opción, aparecerá una ventana que contiene un cuadro de texto denominado **Pasos siguientes** en el que podrá especificar qué cambios son necesarios para que se apruebe el documento. Puede introducir esa información y hacer clic en **Añadir mensaje**, o bien hacer clic en **Omitir** para enviar la decisión de aprobación sin información adicional.
 
-   * **Necesita trabajo** indica que la versión del documento no se aprobó y requiere cambios significativos.
+   * **Necesita trabajo** indica que la versión del documento no está aprobada y requiere cambios significativos.
 
 ## Aprobar un documento desde el panel Resumen del documento
 
-1. Vaya al proyecto, tarea o problema que contenga el documento y, a continuación, seleccione **Documentos**.
+1. Vaya al proyecto, tarea o problema que contiene el documento y, a continuación, seleccione **Documentos**.
 
-1. Haga clic en el documento que necesite la aprobación y se abrirá el panel Resumen del documento.
+1. Haga clic en el documento que necesita su aprobación y se abrirá el panel Resumen del documento.
 
 1. Seleccione la versión del documento que desee revisar en el menú desplegable de la versión. La última versión se selecciona de forma predeterminada.
 
-   En caso de que la versión seleccionada actualmente del documento tuviera una aprobación pendiente, los botones de decisión de aprobación se mostrarán en la esquina superior derecha del panel Resumen del documento. En caso de que otras versiones del documento tengan aprobaciones suyas pendientes, el menú desplegable de la versión mostrará un punto rojo.
-
-   <!--
+   Si la versión seleccionada actualmente del documento tiene una aprobación pendiente, los botones de decisión de aprobación se muestran en la esquina superior derecha del panel Resumen del documento; si otras versiones del documento tienen aprobaciones pendientes para usted, el menú desplegable Versión muestra un punto rojo.
+<!--
    ![Version dropdown with red dot](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/assets/version-dropdown-red-dot.png)
-   -->
-
+ -->
 1. Haga clic en una de las dos opciones de aprobación siguientes en la esquina superior derecha del panel Resumen del documento:
 
    * El menú desplegable **Aprobar** contiene dos opciones:
@@ -138,4 +136,25 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
       * **Aprobar con cambios** indica que aún se requieren algunos cambios pequeños en el documento, pero se da la aprobación con la condición de que se realicen dichos cambios. Si selecciona esta opción, aparecerá una ventana que contiene un cuadro de texto denominado **Pasos siguientes** en el que podrá especificar qué cambios son necesarios para que se apruebe el documento. Puede introducir esa información y hacer clic en **Añadir mensaje**, o bien hacer clic en **Omitir** para enviar la decisión de aprobación sin información adicional.
 
-   * **Necesita trabajo** indica que la versión del documento no se aprobó y requiere cambios significativos.
+   * **Necesita trabajo** indica que la versión del documento no está aprobada y requiere cambios significativos.
+
+
+## Aprobar un documento desde el visor de pruebas
+
+Para revisar y aprobar un documento:
+
+1. Vaya a la notificación de correo electrónico de revisión y haga clic en **Ir a revisión**.
+
+1. Una vez que estés en Workfront, haz clic en **Ir a la revisión**.
+
+1. Revise el contenido y agregue cualquier comentario o marca. Para obtener más información acerca de cómo usar el visor de revisión, vea [Revisar pruebas en Adobe Workfront: índice de artículos](/help/quicksilver/review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md).
+
+1. Elija una de las siguientes decisiones:
+
+   * **Aprobar**: el documento no necesita cambios y está listo para usarse.
+   * **Aprobar con cambios**: el documento necesita cambios y está listo para usarse una vez que se hayan realizado. No se requiere una aprobación adicional.
+   * **Necesita trabajo**: el documento necesita cambios y no está listo para usarse. Una vez realizados los cambios especificados, el documento debe cargarse como una nueva versión y pasar por otra ronda de aprobaciones. Para obtener más información sobre cómo cargar una nueva versión, consulte [Crear una nueva versión según sea necesario](#create-a-new-version-as-needed) en este artículo.
+
+Una vez que tome una decisión, se notifica al propietario del documento por correo electrónico.
+
+

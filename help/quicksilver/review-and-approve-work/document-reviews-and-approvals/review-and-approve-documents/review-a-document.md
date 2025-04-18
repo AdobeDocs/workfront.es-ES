@@ -6,10 +6,10 @@ description: Como revisor, puede previsualizar un documento que le ha sido envia
 author: Nolan
 feature: Work Management, Digital Content and Documents
 exl-id: 371970e4-cd3e-49b6-8a2d-6cb8fa628679
-source-git-commit: 8270a107ba2501eddbb27f52c843c337aa1f8a99
+source-git-commit: da00226448e0969cec57bf9d525686129d53430e
 workflow-type: tm+mt
-source-wordcount: '527'
-ht-degree: 91%
+source-wordcount: '596'
+ht-degree: 75%
 
 ---
 
@@ -76,15 +76,15 @@ Add once functionality is added
 1. (Opcional) Una vez que haya revisado el documento, puede dejar un comentario para el solicitante en la sección **Actualizaciones** del documento. Para obtener más información sobre los comentarios, consulte [Actualizar trabajo](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 1. Para registrar que ha completado la revisión, haga clic en **Completar revisión**.
 
-## Revisión de un documento desde el panel Resumen del documento
+## Revisar un documento desde el panel Resumen del documento
 
 1. Vaya al proyecto, tarea o problema que contiene el documento y, a continuación, seleccione **Documentos**.
 
-1. Haga clic en el documento que necesita, se abre el panel Resumen del documento.
+1. Haga clic en el documento que necesita y se abrirá el panel Resumen del documento.
 
 1. Seleccione la versión del documento que desee revisar en el menú desplegable de la versión. La última versión se selecciona de forma predeterminada.
 
-1. Pase el puntero por encima de la vista previa del documento en la sección **Detalles** de la parte superior del panel Resumen del documento. A continuación, puede hacer lo siguiente:
+1. Pase el ratón sobre la vista previa del documento en la sección **Detalles** de la parte superior del panel Resumen del documento. A continuación, puede hacer lo siguiente:
 
    Hacer clic en **Vista previa** para abrir una versión de solo lectura del documento en una nueva ventana.
 
@@ -96,3 +96,16 @@ Add once functionality is added
 
 1. (Opcional) También puede obtener una vista previa o descargar una versión específica del documento. Para ello, desplácese hacia abajo hasta la sección **Versiones** del panel Resumen del documento y, a continuación, haga clic en el icono Más ![Icono Más](../assets/more-icon.png) junto a la versión que desee revisar y seleccione **Descargar** o **Vista previa**.
 1. Para registrar que ha completado la revisión, haga clic en **Completar revisión**.
+
+## Revisión de un documento desde el visor de pruebas
+
+Para revisar un documento:
+
+1. Vaya a la notificación de correo electrónico de revisión y haga clic en **Ir a revisión**.
+
+1. Una vez que estés en Workfront, haz clic en **Ir a la revisión**.
+
+1. Revise el contenido y agregue cualquier comentario o marca. Para obtener más información acerca de cómo usar el visor de revisión, vea [Revisar pruebas en Adobe Workfront: índice de artículos](/help/quicksilver/review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md).
+
+1. Para registrar que ha completado la revisión, haga clic en **Completar revisión**.
+

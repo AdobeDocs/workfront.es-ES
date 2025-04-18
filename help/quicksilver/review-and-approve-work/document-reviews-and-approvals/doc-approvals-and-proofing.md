@@ -6,10 +6,10 @@ description: Puede utilizar las aprobaciones unificadas con la revisión.
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: be484629-6e70-4809-ad4c-a489d5814da6
-source-git-commit: 300de02b81bc6abc8be9bdceb2bd028b0c4aabfe
+source-git-commit: e20f1b70ffd6c94b302cea6e691337624db497ef
 workflow-type: tm+mt
-source-wordcount: '944'
-ht-degree: 7%
+source-wordcount: '881'
+ht-degree: 8%
 
 ---
 
@@ -18,8 +18,6 @@ ht-degree: 7%
 Aprobaciones unificadas en Workfront presenta un nuevo conjunto de funciones para ayudarle a revisar y aprobar documentos. Puede utilizar un flujo de trabajo de aprobaciones unificadas con el visor de revisiones existente para agregar comentarios y marcas a los documentos que se están revisando.
 
 Existen algunas diferencias clave en el flujo de trabajo al utilizar aprobaciones unificadas y revisiones juntas:
-
-* Los botones de decisión no aparecen en el visor de pruebas
 
 * Los participantes se muestran en el documento Resumen, no en el flujo de trabajo de revisión
 
@@ -58,7 +56,7 @@ Para asignar participantes:
 
 1. (Opcional) Establezca una fecha límite para la aprobación. Los usuarios y equipos reciben una notificación por correo electrónico 72 horas antes y 24 horas antes del plazo especificado.
 
-1. Para agregar un aprobador, haga clic en el botón Aprobador y y empiece a escribir el nombre de un usuario o equipo.
+1. Para agregar un aprobador, haga clic en el botón Aprobador y empiece a escribir el nombre de un usuario o equipo.
 
 1. Para agregar un revisor, haga clic en el botón Revisor y empiece a escribir el nombre de un usuario o equipo.
 
@@ -68,7 +66,7 @@ Para asignar participantes:
 
 ## Cree una nueva versión según sea necesario
 
-Si necesita otra ronda de revisión y aprobación, puede crear una nueva versión de prueba.  <!-- and add the previous participants, new participants, or a mix of both. --> Puede ver información sobre versiones anteriores y participantes en el documento Resumen.
+Si necesita otra ronda de revisión y aprobación, puede crear una nueva versión de prueba y agregar los participantes anteriores, los participantes nuevos o una combinación de ambos. Puede ver información sobre versiones anteriores y participantes en el documento Resumen.
 
 Para agregar una nueva versión:
 
@@ -85,9 +83,9 @@ Para agregar una nueva versión:
 
 1. (Opcional) Establezca una fecha límite para la aprobación. Los usuarios y equipos reciben una notificación por correo electrónico 72 horas antes y 24 horas antes del plazo especificado.
 
-1. Para agregar un aprobador, haga clic en el botón Aprobador y empiece a escribir el nombre de usuario o equipo <span class="preview">, o bien elija un aprobador de la versión anterior.</span>
+1. Para agregar un aprobador, haga clic en el botón Aprobador y empiece a escribir el nombre de un usuario o equipo, o elija un aprobador de la versión anterior.
 
-1. Para agregar un revisor, haga clic en el botón Revisor y empiece a escribir el nombre de un usuario o equipo <span class="preview">, o bien elija un revisor de la versión anterior. </span>
+1. Para agregar un revisor, haga clic en el botón Revisor y empiece a escribir el nombre de un usuario o equipo y elija un revisor de la versión anterior.
 
    ![Agregar aprobadores](assets/add-approvers.png)
 
@@ -100,11 +98,7 @@ Para agregar una nueva versión:
 
 El documento no pasa a un estado aprobado hasta que todos los aprobadores asignados eligen &quot;aprobado&quot;.
 
-Si algún aprobador elige &quot;necesita trabajo&quot;, el estado del documento cambia inmediatamente a Necesita trabajo. El documento deberá revisarse y cargarse como una nueva versión con un nuevo flujo de trabajo de aprobación.
-
->[!IMPORTANT]
->
->Los botones de decisión del documento no aparecen en el visor de pruebas. Debe volver a la página Resumen del documento o Detalles del documento para tomar una decisión o marcar como completada la revisión.
+Si algún aprobador elige &quot;necesita trabajo&quot;, el estado del documento cambia inmediatamente a Necesita trabajo. El documento debe revisarse y cargarse como una nueva versión con un nuevo flujo de trabajo de aprobación.
 
 Para revisar y aprobar un documento:
 
@@ -114,10 +108,6 @@ Para revisar y aprobar un documento:
 
 1. Revise el contenido y agregue cualquier comentario o marca. Para obtener más información acerca de cómo usar el visor de revisión, vea [Revisar pruebas en Adobe Workfront: índice de artículos](/help/quicksilver/review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md).
 
-1. Cuando termine con la revisión, cierre el visor de pruebas.
-
-1. Si se encuentra en la página Detalles del documento, los botones de decisión se encuentran en la esquina superior derecha de la pantalla.
-
 1. Elija una de las siguientes decisiones:
 
    * **Aprobar**: el documento no necesita cambios y está listo para usarse.
@@ -125,3 +115,4 @@ Para revisar y aprobar un documento:
    * **Necesita trabajo**: el documento necesita cambios y no está listo para usarse. Una vez realizados los cambios especificados, el documento debe cargarse como una nueva versión y pasar por otra ronda de aprobaciones. Para obtener más información sobre cómo cargar una nueva versión, consulte [Crear una nueva versión según sea necesario](#create-a-new-version-as-needed) en este artículo.
 
 Una vez que tome una decisión, se notifica al propietario del documento por correo electrónico.
+

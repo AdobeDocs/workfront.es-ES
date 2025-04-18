@@ -6,9 +6,9 @@ description: Puede añadir aprobadores o revisores adicionales a un documento qu
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 32cb95c2-8d12-492b-ad89-b38e2a337fc5
-source-git-commit: 300de02b81bc6abc8be9bdceb2bd028b0c4aabfe
+source-git-commit: e20f1b70ffd6c94b302cea6e691337624db497ef
 workflow-type: tm+mt
-source-wordcount: '596'
+source-wordcount: '568'
 ht-degree: 9%
 
 ---
@@ -25,7 +25,6 @@ Aprobaciones unificadas es un rediseño integral del proceso de aprobaciones exi
 
 **Diferencias con la revisión**
 
-* Los botones de decisión de aprobación de documento no están disponibles en el visor de pruebas. Las decisiones se pueden tomar en el resumen del documento, en los widgets de inicio de Workfront o en la página Detalles del documento.
 * Los participantes en la aprobación del documento se muestran en el resumen del documento, no en la pestaña del flujo de trabajo de revisión.
 * Las aprobaciones unificadas no son compatibles con la herramienta de sistema de informes actual.
 

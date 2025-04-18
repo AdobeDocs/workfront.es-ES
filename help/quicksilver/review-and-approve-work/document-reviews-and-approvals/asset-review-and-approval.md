@@ -6,9 +6,9 @@ description: Descripción general de los sistemas disponibles para su revisión 
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 37745149-b369-445d-bb39-f5ed790d2fae
-source-git-commit: 24668c9fdbb5e23f41831b388d509220d0783057
+source-git-commit: e20f1b70ffd6c94b302cea6e691337624db497ef
 workflow-type: tm+mt
-source-wordcount: '368'
+source-wordcount: '356'
 ht-degree: 1%
 
 ---
@@ -31,7 +31,6 @@ Funciones clave disponibles para aprobaciones de documentos heredados:
 
 * Añadir usuarios como aprobadores
 * Revisión y comentarios en el visor de pruebas
-* Tomar decisiones en el visor de pruebas
 * Creación de informes de aprobación con informes heredados
 * Acceda a las solicitudes de aprobación en el widget Mis aprobaciones del área de Inicio
 
@@ -51,15 +50,13 @@ Funciones clave disponibles para las aprobaciones unificadas:
 
 * Creación y uso de plantillas
 
-* Revisión y comentarios en el visor de pruebas
+* Revisar, comentar y tomar decisiones en el visualizador de pruebas
 Para obtener más información acerca del uso del visor de revisión, vea [Usar aprobaciones unificadas y revisar juntos](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/doc-approvals-and-proofing.md).
 
 * Vea varios indicadores de rendimiento clave para sus aprobaciones en los widgets de inicio de Workfront
 
 * Utilice Paneles de lienzo, actualmente en fase beta, para ver los detalles de creación de informes acerca de las aprobaciones unificadas
 Para obtener más información sobre los informes, consulte [Crear un tablero de informes para revisión y aprobaciones](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md).
-
-* Tome decisiones en el visor de revisión [!BADGE Próximamente]{type=Informative}
 
 * Crear varias aprobaciones de etapa [!BADGE Próximamente]{type=Informative}
 
