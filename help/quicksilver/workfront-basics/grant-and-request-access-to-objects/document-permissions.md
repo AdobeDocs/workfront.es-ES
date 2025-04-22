@@ -7,10 +7,10 @@ description: El administrador de Adobe Workfront concede a los usuarios acceso p
 author: Courtney
 feature: Get Started with Workfront
 exl-id: c83a3184-4af0-4897-985b-29f7ee3a0b73
-source-git-commit: fcf6165c9c641316c701d92af2e39294a9fe0123
+source-git-commit: eb4bf18407562b88bf0c946c905b202e5b62a5fe
 workflow-type: tm+mt
-source-wordcount: '1025'
-ht-degree: 29%
+source-wordcount: '1247'
+ht-degree: 24%
 
 ---
 
@@ -123,9 +123,9 @@ Además de las consideraciones siguientes, consulte [Información general sobre 
 1. Haga clic en la lista desplegable a la derecha del nombre del usuario y seleccione su nivel de permisos para este documento:
 
    * **Ver**: el usuario puede revisar y compartir el documento.
-   * **Administrar**: el usuario tiene acceso completo al programa sin derechos administrativos, que se conceden en el nivel de acceso (también incluye todos los permisos de Vista).
+   * **Administrar**: el usuario tiene acceso completo al documento sin derechos administrativos, que se conceden en el nivel de acceso (también incluye todos los permisos de Vista).
 
-1. (Opcional) Haga clic en el icono de opciones avanzadas junto al nivel de permisos que ha concedido para configurar permisos específicos del programa.
+1. (Opcional) Haga clic en el icono de opciones avanzadas junto al nivel de permisos que ha concedido para configurar permisos específicos en el documento.
 
    ![Opciones de permiso avanzadas configuradas](assets/advanced-options-icon.png)
 
@@ -136,6 +136,39 @@ Además de las consideraciones siguientes, consulte [Información general sobre 
    >[!CAUTION]
    >
    >Se recomienda tener cuidado al compartir un documento que contenga información confidencial con usuarios externos. Esto les permite ver información sin ser usuarios de Workfront ni parte de su organización.
+
+1. Haga clic en **Guardar**.
+
+## Compartir documentos de forma masiva
+
+{{step1-to-documents}}
+
+1. En la ficha **Todos los documentos** de la página **Documentos**, mantenga presionada la tecla **Comando** (Mac) o **Ctrl** (Windows) del teclado y, a continuación, haga clic en cada documento que desee compartir.
+
+1. En la parte superior de la página, haz clic en el icono **Compartir** ![Compartir icono](assets/share-icon.png). Se abre el modal de uso compartido.
+
+   ![Icono de compartir](assets/share-documents-in-bulk.png)
+
+1. En el campo **Conceder acceso al documento a**, empiece a escribir el nombre del usuario, equipo, función, grupo o compañía con el que desea compartir los documentos y, a continuación, haga clic en el nombre cuando aparezca en la lista desplegable.
+
+   >[!TIP]
+   >
+   >Solo puede compartir documentos con usuarios, equipos, funciones o empresas activos.
+
+
+1. (Opcional) Seleccione la lista desplegable **Quién tiene acceso** y seleccione el nivel de acceso a los documentos:
+
+   * **Solo las personas invitadas pueden tener acceso a:** Solo los usuarios invitados a los documentos pueden tener acceso a ellos (predeterminado).
+   * **Todos los usuarios del sistema pueden ver**: todos los usuarios del sistema pueden ver los documentos sin invitación.
+
+1. Haga clic en la lista desplegable a la derecha del nombre del usuario y seleccione su nivel de permisos para los documentos:
+
+   * **Ver**: el usuario puede revisar y compartir los documentos.
+   * **Administrar**: el usuario tiene acceso completo a los documentos sin derechos administrativos, que se conceden en el nivel de acceso (también incluye todos los permisos de Vista).
+
+1. (Opcional) Haga clic en el icono de opciones avanzadas junto al nivel de permisos que ha concedido para configurar permisos específicos en los documentos.
+
+   ![Opciones de permiso avanzadas configuradas](assets/advanced-options-icon.png)
 
 1. Haga clic en **Guardar**.
 
