@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 151b9d0d-0dd6-4ece-9601-dda04356b436
-source-git-commit: 82694183c32938905f1f8542c430d3c453274cb6
+source-git-commit: a5769e57a9fe28b816e7fb4474ec4a67f837f530
 workflow-type: tm+mt
-source-wordcount: '1118'
+source-wordcount: '1275'
 ht-degree: 1%
 
 ---
@@ -58,16 +58,16 @@ Se han realizado los siguientes cambios para las suscripciones de evento Versió
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>Valores de parámetro</p> </td> 
-   <td> <p>Para cualquier objeto creado a partir de una plantilla que incluía un formulario personalizado, se envió un evento <code>CREATE</code> y después se envió un <code>UPDATE</code> con los valores de los parámetros (incluidos los campos calculados y sus valores).    </p> </td> 
+   <td> <p>Valores de parámetro calculados</p> </td> 
+   <td> <p>Cualquier objeto creado a partir de una plantilla que incluya un formulario personalizado con valores de parámetros calculados, se enviará un evento <code>CREATE</code> y, a continuación, se enviará un <code>UPDATE</code> con los valores de los parámetros (incluidos los campos calculados y sus valores). </p> </td> 
    <td> <p>Cuando se crea un objeto a partir de una plantilla que incluye un formulario personalizado con valores de parámetros calculados, solo se envía un evento <code>CREATE</code> que contiene valores de parámetro, incluidos campos calculados.</p> </td> 
-   <td> <p>Si tiene una suscripción para <tr><ul><ul><code>UPDATE<code> events and are expecting to receive an <code>UPDATE</code> event after an object is created with calculated parameter values, you will no longer receive that <code>UPDATE</code> event. If you wish to see calculated parameter values on object creation, you must create an additional <code>CREATE</code> subscription.</p> </td> 
+   <td> <p>Si tiene una suscripción para <code>UPDATE</code> eventos y espera recibir un evento <code>UPDATE</code> después de crear un objeto con valores de parámetros calculados, ya no recibirá ese evento <code>UPDATE</code>. Si desea ver los valores de parámetros calculados al crear el objeto, debe crear una suscripción adicional de <code>CREATE</code>.</p> </td> 
   </tr> 
-   
-   <td> <p>Multi-Select type fields</p> </td> 
-   <td> <p>For any type of event that contains a change on a multi-select type field, if the field only contained one value it would be converted to and sent as a string. Otherwise it would be sent as an array. </p><p>Examples:</p><li><code>myMultiSelectField: ["oneValue"]</code> is converted and sent as <code>myMultiSelectField: "oneValue"</code>.</li><li><code>myMultiSelectField: ["first", "second"]</code> is sent as <code>myMultiSelectField: ["first", "second"]</code>.</li></ul> </td> 
-   <td> <p>Regardless of how many values are in the array, it will be sent as an array. </p><p>Examples:</p><li><code>myMultiSelectField: ["oneValue"]</code> is sent as <code>myMultiSelectField: ["oneValue"]</code>.</li><li><code>myMultiSelectField: ["first", "second"]</code> is sent as <code>myMultiSelectField: ["first", "second"]</code>.</li></ul> </td> 
-   <td> <p>If you have a subscription with a filter on a multi-select field, and the value as a string, you must create a new subscription with the same filter that has the value as an array. </p> </td> 
+  <tr> 
+   <td> <p>Campos de tipo de selección múltiple</p> </td> 
+   <td> <p>Para cualquier tipo de evento que contenga un cambio en un campo de tipo de selección múltiple, si el campo solo contuviera un valor, se convertiría en y se enviaría como una cadena. De lo contrario, se enviaría como una matriz. </p><p>Ejemplos:</p><ul><li><code>myMultiSelectField: ["oneValue"]</code> se convierte y se envía como <code>myMultiSelectField: "oneValue"</code>.</li><li><code>myMultiSelectField: ["first", "second"]</code> se envía como <code>myMultiSelectField: ["first", "second"]</code>.</li></ul> </td> 
+   <td> <p>Independientemente de cuántos valores haya en la matriz, se envía como una matriz. </p><p>Ejemplos:</p><ul><li><code>myMultiSelectField: ["oneValue"]</code> se envía como <code>myMultiSelectField: ["oneValue"]</code>.</li><li><code>myMultiSelectField: ["first", "second"]</code> se envía como <code>myMultiSelectField: ["first", "second"]</code>.</li></ul> </td> 
+   <td> <p>Si tiene una suscripción con un filtro en un campo de selección múltiple y el valor como cadena, debe crear una nueva suscripción con el mismo filtro que tenga el valor como matriz. </p> </td> 
   </tr> 
  </tbody> 
 </table>
