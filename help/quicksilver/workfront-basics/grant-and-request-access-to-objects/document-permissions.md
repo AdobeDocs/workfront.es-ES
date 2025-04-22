@@ -4,13 +4,13 @@ content-type: reference
 product-area: user-management
 navigation-topic: grant-and-request-access-to-objects
 description: El administrador de Adobe Workfront concede a los usuarios acceso para ver o editar documentos cuando asignan niveles de acceso, tal como se explica en Conceder acceso a documentos.
-author: Alina
+author: Courtney
 feature: Get Started with Workfront
 exl-id: c83a3184-4af0-4897-985b-29f7ee3a0b73
-source-git-commit: 3bd377ba2dec29bb956632cf3e9e3e33afe4305d
+source-git-commit: fcf6165c9c641316c701d92af2e39294a9fe0123
 workflow-type: tm+mt
-source-wordcount: '616'
-ht-degree: 34%
+source-wordcount: '1025'
+ht-degree: 29%
 
 ---
 
@@ -25,6 +25,42 @@ Los permisos son específicos de un elemento en Workfront y definen qué accione
 El usuario que carga un documento en Workfront tiene permisos de administración de forma predeterminada.
 
 Para obtener información acerca de cómo compartir una carpeta de documentos completa, vea [Compartir una carpeta de documentos](../../workfront-basics/grant-and-request-access-to-objects/share-a-document-folder.md).
+
+## Requisitos de acceso
+
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
+
+Se necesita tener lo siguiente para compartir objetos:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Plan de Adobe Workfront</td> 
+   <td> <p>Cualquiera </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Licencia de Adobe Workfront</td> 
+   <td> <p>Nuevo: estándar</p> 
+   O
+   <p>Actual: Trabajo o superior</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Configuraciones de nivel de acceso</td> 
+   <td> <p>Acceso de visualización o superior sobre los objetos que desea compartir</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Permisos de objeto</td> 
+   <td> <p>Permisos de visualización o superiores sobre los objetos que desea compartir</p></td> 
+  </tr> 
+ </tbody> 
+</table>
+
+Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Consideraciones sobre el uso compartido de documentos
 
@@ -57,6 +93,52 @@ Además de las consideraciones siguientes, consulte [Información general sobre 
   Puede quitar manualmente los permisos heredados en los documentos. Para obtener más información, vea [Quitar permisos de objetos](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md)
 
 * Un documento adjunto hereda permisos únicamente del objeto en el que se adjuntó. Si crea una carpeta en el objeto y mueve el documento a la carpeta, heredará los permisos de la carpeta. Sin embargo, si crea una carpeta en un objeto principal o abuelo y mueve el documento a esa carpeta, no heredará los permisos de esa carpeta.
+
+## Compartir un documento
+
+{{step1-to-documents}}
+
+1. En la página **Documentos**, pase el ratón sobre el documento que quiera compartir y haga clic en el vínculo **Detalles del documento** que aparece. Se abre la página **Detalles del documento**.
+
+   ![Vínculo Detalles del documento](assets/document-details-link.png)
+
+1. Haga clic en el icono **Más** ![Más icono](assets/more-icon.png) a la derecha del nombre del documento y, a continuación, haga clic en **Compartir**. Se abre el cuadro de diálogo **Compartir [nombre de documento]**.
+
+   ![Compartir un documento](assets/share-a-document-350x160.png)
+
+1. En el campo **Conceder acceso al documento a**, empiece a escribir el nombre del usuario, equipo, función, grupo o compañía con el que desea compartir el documento y, a continuación, haga clic en el nombre cuando aparezca en la lista desplegable.
+
+   >[!TIP]
+   >
+   >Solo puede compartir un documento con usuarios, equipos, funciones o empresas activos.
+
+
+1. (Opcional) Seleccione la lista desplegable **Quién tiene acceso** y seleccione el nivel de acceso del documento:
+
+   * **Solo las personas invitadas pueden tener acceso a:** Solo los usuarios invitados al documento pueden tener acceso a él (predeterminado).
+   * **Todos los usuarios del sistema pueden ver**: todos los usuarios del sistema pueden ver el documento sin invitación.
+
+1. (Opcional) Para hacer público el documento, haga clic en el icono de engranaje ![Seleccione el icono de engranaje](assets/gear-icon.png) y, a continuación, haga clic en el cuadro en línea con **Convertir esto en público para usuarios externos**. El botón **Copiar vínculo público** aparece en la parte inferior del cuadro de diálogo.
+
+1. Haga clic en la lista desplegable a la derecha del nombre del usuario y seleccione su nivel de permisos para este documento:
+
+   * **Ver**: el usuario puede revisar y compartir el documento.
+   * **Administrar**: el usuario tiene acceso completo al programa sin derechos administrativos, que se conceden en el nivel de acceso (también incluye todos los permisos de Vista).
+
+1. (Opcional) Haga clic en el icono de opciones avanzadas junto al nivel de permisos que ha concedido para configurar permisos específicos del programa.
+
+   ![Opciones de permiso avanzadas configuradas](assets/advanced-options-icon.png)
+
+1. (Opcional) Para desactivar los permisos heredados de los objetos secundarios del documento, haga clic en **Desactivar** en línea con **Permisos heredados**.
+
+1. (Condicional) Para copiar el vínculo público que le permite compartir el documento con usuarios externos, haga clic en **Copiar vínculo público**.
+
+   >[!CAUTION]
+   >
+   >Se recomienda tener cuidado al compartir un documento que contenga información confidencial con usuarios externos. Esto les permite ver información sin ser usuarios de Workfront ni parte de su organización.
+
+1. Haga clic en **Guardar**.
+
 
 ## Permisos de documento
 

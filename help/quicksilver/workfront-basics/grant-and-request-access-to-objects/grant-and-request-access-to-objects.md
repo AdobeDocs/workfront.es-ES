@@ -2,20 +2,20 @@
 content-type: reference
 product-area: user-management
 navigation-topic: get-started-with-workfront
-title: Concesión y solicitud de permisos a objetos
+title: 'Conceder y solicitar permisos a objetos: índice de artículos'
 description: Lea estos artículos para obtener información sobre cómo conceder y solicitar permisos a objetos en Workfront.
-author: Alina
+author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: b7b3de2c-8537-49c5-8674-a7a0f3691db3
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: fcf6165c9c641316c701d92af2e39294a9fe0123
 workflow-type: tm+mt
-source-wordcount: '175'
-ht-degree: 0%
+source-wordcount: '176'
+ht-degree: 20%
 
 ---
 
-# Concesión y solicitud de permisos a objetos
+# Conceder y solicitar permisos a objetos: índice de artículos
 
 Esta sección contiene los siguientes artículos sobre cómo puede conceder y solicitar permisos a objetos:
 
@@ -25,9 +25,9 @@ Esta sección contiene los siguientes artículos sobre cómo puede conceder y so
 * [Solicitar acceso a objetos](../../workfront-basics/grant-and-request-access-to-objects/request-access.md)
 * [Ver permisos heredados en objetos](../../workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md)
 * [Quitar permisos de objetos](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md)
-* [Compartir un proyecto en Adobe Workfront](../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md)
+* [Compartir un proyecto](../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md)
 * [Compartir una tarea](../../workfront-basics/grant-and-request-access-to-objects/share-a-task.md)
-* [Compartir un problema](../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md)
+* [Uso compartido de un problema](../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md)
 * [Compartir una plantilla](../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md)
 * [Compartir plantillas de proyecto](../../manage-work/projects/create-and-manage-templates/share-project-template.md)
 * [Compartir permisos financieros en un objeto](../../workfront-basics/grant-and-request-access-to-objects/share-financial-permissions-object.md)
@@ -36,8 +36,8 @@ Esta sección contiene los siguientes artículos sobre cómo puede conceder y so
 * [Compartir un documento](../../workfront-basics/grant-and-request-access-to-objects/document-permissions.md)
 * [Compartir una carpeta de documentos](../../workfront-basics/grant-and-request-access-to-objects/share-a-document-folder.md)
 * [Compartir informes, tableros y calendarios](../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md)
-* [Compartir un filtro, vista o agrupación](../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md)
-* [Compartir un plan en el Scenario Planner](../../scenario-planner/share-a-plan.md)
+* [Compartir un filtro, una vista o una agrupación](../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md)
+* [Compartir un plan en el Planificador de escenarios](../../scenario-planner/share-a-plan.md)
 
   Esto requiere una licencia adicional para el Scenario Planner de Workfront. Para obtener más información, consulte [Acceso necesario para usar el Scenario Planner](../../scenario-planner/access-needed-to-use-sp.md).
 

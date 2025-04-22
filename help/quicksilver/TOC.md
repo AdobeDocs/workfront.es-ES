@@ -3,9 +3,9 @@ user-guide-title: Guía de Workfront
 user-guide-description: Utilice los siguientes documentos, tutoriales y recursos adicionales para aprender a implementar y utilizar Adobe Workfront de forma eficaz en su organización.
 role: User
 feature-set: Workfront
-source-git-commit: c0a7603ed461d903f4d0b0f6788c17d58f20c328
+source-git-commit: ef09ee2fce1619f7e44deb7a584738db955a8599
 workflow-type: tm+mt
-source-wordcount: '13163'
+source-wordcount: '13162'
 ht-degree: 61%
 
 ---
@@ -908,13 +908,13 @@ ht-degree: 61%
       * [Notificaciones: Información diversa](workfront-basics/using-notifications/notifications-misc-information.md)
       * [Notificaciones: Solicitudes que he realizado](workfront-basics/using-notifications/notifications-requests-i-have-made.md)
    * Concesión y solicitud de permisos a objetos {#grant-request-object-permissions}
-      * [Concesión y solicitud de permisos a objetos](workfront-basics/grant-and-request-access-to-objects/grant-and-request-access-to-objects.md)
+      * [Conceder y solicitar permisos a objetos: índice de artículos](workfront-basics/grant-and-request-access-to-objects/grant-and-request-access-to-objects.md)
       * [Información general sobre los permisos de uso compartido en objetos](workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md)
       * [Conceder acceso a los objetos del área de Inicio](workfront-basics/grant-and-request-access-to-objects/grant-access-home.md)
       * [Solicitar acceso a objetos](workfront-basics/grant-and-request-access-to-objects/request-access.md)
       * [Ver permisos heredados en objetos](workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md)
       * [Compartir un objeto](workfront-basics/grant-and-request-access-to-objects/share-an-object.md)
-      * [Uso compartido de un proyecto en Adobe Workfront](workfront-basics/grant-and-request-access-to-objects/share-a-project.md)
+      * [Compartir un proyecto](workfront-basics/grant-and-request-access-to-objects/share-a-project.md)
       * [Compartir una tarea](workfront-basics/grant-and-request-access-to-objects/share-a-task.md)
       * [Compartir un problema](workfront-basics/grant-and-request-access-to-objects/share-an-issue.md)
       * [Compartir una plantilla](workfront-basics/grant-and-request-access-to-objects/share-a-template.md)
