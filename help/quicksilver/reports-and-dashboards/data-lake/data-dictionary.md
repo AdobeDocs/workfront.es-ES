@@ -7,9 +7,9 @@ description: Esta página contiene información sobre la estructura y el conteni
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 57985404-554e-4289-b871-b02d3427aa5c
-source-git-commit: 8aa03e16daa7c82342741b3db7b805941508c896
+source-git-commit: 44342db0a473eac70212d08cedf9ac0f571cda0b
 workflow-type: tm+mt
-source-wordcount: '7843'
+source-wordcount: '8129'
 ht-degree: 7%
 
 ---
@@ -52,16 +52,16 @@ Los objetos de Workfront (y, por lo tanto, de su repositorio de datos de Data Co
 
 ## Tipos de fecha
 
-Hay una serie de objetos de fecha que proporcionan información sobre cuándo ocurren eventos específicos.
+Existen varios objetos de fecha que proporcionan información sobre cuándo se producen eventos específicos.
 
-* `DL_LOAD_TIMESTAMP`: Esta fecha se utiliza como referencia interna y refleja cuándo se cargaron los datos en la tabla Actual, Evento o Historial diario. Esta fecha no se debe usar para la análisis de datos y se planea eliminar durante la fase beta del lago de datos Workfront.
-* `CALENDAR_DATE`: Esta fecha solo está presente en la tabla Historial diario. Esta tabla proporciona un registro de los datos que parecían gustar a las 11:59 UTC para cada fecha especificada en `CALENDAR_DATE`.
-* `BEGIN_EFFECTIVE_TIMESTAMP`: Esta fecha está presente en las tablas Evento e Historial diario, y registra exactamente cuándo un registro cambió _al_ valor que tiene en la fila actual.
-* `END_EFFECTIVE_TIMESTAMP`: Esta fecha está presente en las tablas Event e Historial diario, y registra exactamente cuándo un registro cambió _del valor de_ la fila actual a un valor de una fila diferente. Permitir entre consultas sobre `BEGIN_EFFECTIVE_TIMESTAMP` y `END_EFFECTIVE_TIMESTAMP` este valor nunca es nulo, igualado si no hay ningún valor nuevo. En la evento un registro sigue siendo válido (es decir, el valor no ha cambiado), `END_EFFECTIVE_TIMESTAMP` tendrá un valor de 2300-01-01.
+* `DL_LOAD_TIMESTAMP`: esta fecha se usa como referencia interna y refleja cuándo se cargaron los datos en la tabla Historial actual, Evento o Diario. Esta fecha no debe utilizarse para el análisis de datos y se prevé eliminarla durante la fase beta del lago de datos de Workfront.
+* `CALENDAR_DATE`: esta fecha solo está presente en la tabla Historial diario. Esta tabla proporciona un registro del aspecto de los datos a las 11:59 UTC para cada fecha especificada en `CALENDAR_DATE`.
+* `BEGIN_EFFECTIVE_TIMESTAMP`: esta fecha está presente en las tablas Evento e Historial diario y registra exactamente cuándo un registro cambió _a_ el valor que tiene en la fila actual.
+* `END_EFFECTIVE_TIMESTAMP`: esta fecha está presente en las tablas Evento e Historial diario y registra exactamente cuándo un registro cambió _de_ el valor de la fila actual a un valor de una fila diferente. Para permitir el intervalo entre consultas en `BEGIN_EFFECTIVE_TIMESTAMP` y `END_EFFECTIVE_TIMESTAMP`, este valor nunca es nulo, aunque no haya ningún valor nuevo. En el caso de que un registro siga siendo válido (es decir, el valor no haya cambiado), `END_EFFECTIVE_TIMESTAMP` tendrá el valor 2300-01-01.
 
-## Tabla terminológica
+## Tabla de terminología
 
-La tabla siguiente correlaciona los nombres de objetos en Workfront (así como sus nombres en la interfaz y API) con sus nombres equivalentes en Data Connect.
+La siguiente tabla correlaciona los nombres de objetos en Workfront (así como sus nombres en la interfaz y la API) con sus nombres equivalentes en Data Connect.
 
 ### Nivel de acceso
 
@@ -249,7 +249,7 @@ La tabla siguiente correlaciona los nombres de objetos en Workfront (así como s
              <td>ENTEREDBYID</td>
              <td>FK</td>
              <td>USERS_CURRENT</td>
-             <td>ID. DE USUARIO</td>
+             <td>USERID</td>
         </tr>
         <tr>
              <td>GLOBALPATHID</td>
@@ -260,12 +260,12 @@ La tabla siguiente correlaciona los nombres de objetos en Workfront (así como s
              <td>LASTUPDATEDBYID</td>
              <td>FK</td>
              <td>USERS_CURRENT</td>
-             <td>ID. DE USUARIO</td>
+             <td>USERID</td>
         </tr>
         <tr>
              <td>SYSID</td>
              <td>-</td>
-             <td colspan="2">No es una relación; se utiliza para fines de aplicación internos</td>
+             <td colspan="2">No es una relación; se utiliza con fines de aplicación interna</td>
         </tr>
     </tbody>
 </table>
@@ -288,7 +288,7 @@ La tabla siguiente correlaciona los nombres de objetos en Workfront (así como s
             <td>Proceso de aprobación</td>
             <td>ARVPRC</td>
             <td>Proceso de aprobación</td>
-            <td><br>APPROVALPROCESSES_CURRENT APPROVALPROCESSES_DAILY_HISTORY<br>APPROVALPROCESSES_EVENT</td>
+            <td>APPROVALPROCESSES_CURRENT<br>APPROVALPROCESSES_DAILY_HISTORY<br>APPROVALPROCESSES_EVENT</td>
         </tr>
       </tbody>
 </table>
@@ -318,7 +318,7 @@ La tabla siguiente correlaciona los nombres de objetos en Workfront (así como s
              <td>LASTUPDATEDBYID</td>
              <td>FK</td>
              <td>USERS_CURRENT</td>
-             <td>ID. DE USUARIO</td>
+             <td>USERID</td>
         </tr>
         <tr>
              <td>SYSID</td>
@@ -375,7 +375,7 @@ La tabla siguiente correlaciona los nombres de objetos en Workfront (así como s
         <tr>
              <td>SYSID</td>
              <td>-</td>
-             <td colspan="2">No es una relación; se utiliza para fines de aplicación internos</td>
+             <td colspan="2">No es una relación; se utiliza con fines de aplicación interna</td>
         </tr>
     </tbody>
 </table>
@@ -658,7 +658,7 @@ La tabla siguiente correlaciona los nombres de objetos en Workfront (así como s
              <td>DOCUMENTVERSIONID</td>
              <td>FK</td>
              <td>DOCUMENTVERSIONS_CURRENT</td>
-             <td>ID DE VERSIÓN DEL DOCUMENTO</td>
+             <td>DOCUMENTVERSIONID</td>
         </tr>
         <tr>
              <td>OPTASKID</td>
@@ -667,27 +667,27 @@ La tabla siguiente correlaciona los nombres de objetos en Workfront (así como s
              <td>OPTASKID</td>
         </tr>
         <tr>
-             <td>PROYECTID</td>
+             <td>PROJECTID</td>
              <td>FK</td>
              <td>PROJECTS_CURRENT</td>
-             <td>PROYECTID</td>
+             <td>PROJECTID</td>
         </tr>
         <tr>
-             <td>ID ROLEID</td>
+             <td>ROLEID</td>
              <td>FK</td>
              <td>ROLES_ACTUALES</td>
-             <td>ID ROLEID</td>
+             <td>ROLEID</td>
         </tr>
         <tr>
              <td>SUBMITTEDBYID</td>
              <td>FK</td>
              <td>USERS_CURRENT</td>
-             <td>ID. DE USUARIO</td>
+             <td>USERID</td>
         </tr>
         <tr>
              <td>SYSID</td>
              <td>-</td>
-             <td colspan="2">No es una relación; se utiliza para fines de aplicación internos</td>
+             <td colspan="2">No es una relación; se utiliza con fines de aplicación interna</td>
         </tr>
         <tr>
              <td>TASKID</td>
@@ -859,8 +859,8 @@ La tabla siguiente correlaciona los nombres de objetos en Workfront (así como s
       <tbody>
         <tr>
             <td>Tarifa de facturación</td>
-            <td>Tasa o tasa de anulación</td>
-            <td>TASA</td>
+            <td>Tasa o Tasa de anulación</td>
+            <td>TARIFA</td>
             <td>Tarifa de facturación</td>
             <td>RATES_CURRENT<br>RATES_DAILY_HISTORY<br>RATES_EVENT</td>
         </tr>
@@ -877,7 +877,7 @@ La tabla siguiente correlaciona los nombres de objetos en Workfront (así como s
     </thead>
     <tbody>
         <tr>
-             <td>ID DE ASIGNACIÓN</td>
+             <td>ASSIGNMENTID</td>
              <td>FK</td>
              <td>ASSIGNMENTS_CURRENT</td>
              <td>ASSIGNMENTID</td>
@@ -1255,7 +1255,7 @@ La tabla siguiente correlaciona los nombres de objetos en Workfront (así como s
              <td>ENTEREDBYID</td>
              <td>FK</td>
              <td>USERS_CURRENT</td>
-             <td>ID. DE USUARIO</td>
+             <td>USERID</td>
         </tr>
         <tr>
              <td>LASTUPDATEDBYID</td>
@@ -1441,13 +1441,13 @@ La tabla siguiente correlaciona los nombres de objetos en Workfront (así como s
              <td>ENTEREDBYID</td>
              <td>FK</td>
              <td>USERS_CURRENT</td>
-             <td>ID. DE USUARIO</td>
+             <td>USERID</td>
         </tr>
         <tr>
              <td>LASTUPDATEDBYID</td>
              <td>FK</td>
              <td>USERS_CURRENT</td>
-             <td>ID. DE USUARIO</td>
+             <td>USERID</td>
         </tr>
         <tr>
              <td>PARENTID</td>
@@ -1481,7 +1481,7 @@ La tabla siguiente correlaciona los nombres de objetos en Workfront (así como s
             <td>Compañía</td>
             <td>CMPY</td>
             <td>Compañía</td>
-            <td><br>COMPANIES_CURRENT COMPANIES_DAILY_HISTORY<br>COMPANIES_EVENT</td>
+            <td>COMPANIES_CURRENT<br>COMPANIES_DAILY_HISTORY<br>COMPANIES_EVENT</td>
         </tr>
       </tbody>
 </table>
@@ -1511,10 +1511,10 @@ La tabla siguiente correlaciona los nombres de objetos en Workfront (así como s
              <td>ENTEREDBYID</td>
              <td>FK</td>
              <td>USERS_CURRENT</td>
-             <td>ID. DE USUARIO</td>
+             <td>USERID</td>
         </tr>
         <tr>
-             <td>ID DE GRUPO</td>
+             <td>GROUPID</td>
              <td>FK</td>
              <td>GROUPS_CURRENT</td>
              <td>GROUPID</td>
@@ -1557,7 +1557,7 @@ La tabla siguiente correlaciona los nombres de objetos en Workfront (así como s
             <td>Trimestre personalizado</td>
             <td>CSTQRT</td>
             <td>Trimestre personalizado</td>
-            <td><br>CUSTOMQUARTERS_CURRENT CUSTOMQUARTERS_DAILY_HISTORY<br>CUSTOMQUARTERS_EVENT</td>
+            <td>CUSTOMQUARTERS_CURRENT<br>CUSTOMQUARTERS_DAILY_HISTORY<br>CUSTOMQUARTERS_EVENT</td>
         </tr>
       </tbody>
 </table>
@@ -1894,6 +1894,235 @@ La tabla siguiente correlaciona los nombres de objetos en Workfront (así como s
     </tbody>
 </table>
 
+### Aprobación de documento (NUEVO)
+
+Disponibilidad limitada del cliente
+
+<table>
+    <thead>
+        <tr>
+            <th>Nombre de entidad de Workfront</th>
+            <th>Referencias de interfaz</th>
+            <th>Referencia de API</th>
+            <th>Etiqueta de API</th>
+            <th>Vistas del lago de datos</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Aprobación de documento</td>
+            <td>Aprobación</td>
+            <td>N/D</td>
+            <td>N/D</td>
+            <td>APPROVAL_CURRENT<br>APPROVAL_DAILY_HISTORY<br>APPROVAL_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Clave principal/externa</th>
+            <th>Tipo</th>
+            <th>Tabla relacionada</th>
+            <th>Campo relacionado</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td class="key">APROBADO</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>NOTA: También es el ID del objeto DOCUMENTVERSION al que está asociada la aprobación.</td>
+        </tr>
+        <tr>
+             <td class="key">ASSETID</td>
+             <td>FK</td>
+             <td>Variable basada en ASSETTYPE</td>
+             <td>La clave principal/ID del objeto identificado en el campo ASSETTYPE</td>
+        </tr>
+        <tr>
+             <td class="key">CREATORID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td class="key">EAUTHTENANTID</td>
+             <td>-</td>
+             <td colspan="2">No es una relación; se utiliza con fines de aplicación interna</td>
+        </tr>
+        <tr>
+             <td class="key">PRODUCTID</td>
+             <td>-</td>
+             <td colspan="2">No es una relación; se utiliza con fines de aplicación interna</td>
+        </tr>
+        <tr>
+             <td class="key">REALCREATORID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+    </tbody>
+</table>
+
+### Fase de aprobación del documento (NUEVA)
+
+Disponibilidad limitada del cliente
+
+<table>
+    <thead>
+        <tr>
+            <th>Nombre de entidad de Workfront</th>
+            <th>Referencias de interfaz</th>
+            <th>Referencia de API</th>
+            <th>Etiqueta de API</th>
+            <th>Vistas del lago de datos</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Fase de aprobación del documento</td>
+            <td>Fase de aprobación</td>
+            <td>N/D</td>
+            <td>N/D</td>
+            <td>APPROVAL_STAGE_CURRENT<br>APPROVAL_STAGE_DAILY_HISTORY<br>APPROVAL_STAGE_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Clave principal/externa</th>
+            <th>Tipo</th>
+            <th>Tabla relacionada</th>
+            <th>Campo relacionado</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td class="key">APROBADO</td>
+             <td>FK</td>
+             <td>APPROVAL_CURRENT</td>
+             <td>APROBADO</td>
+        </tr>
+        <tr>
+             <td class="key">APPROVALSTAGEID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td class="key">CREATORID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td class="key">OBJID</td>
+             <td class="type">FK</td>
+             <td class="relatedtable">Variable basada en OBJCODE</td>
+             <td>La clave principal/ID del objeto identificado en el campo OBJCODE</td>
+        </tr>
+    </tbody>
+</table>
+
+### Participantes en la fase de aprobación de documentos (NUEVO)
+
+Disponibilidad limitada del cliente
+
+<table>
+    <thead>
+        <tr>
+            <th>Nombre de entidad de Workfront</th>
+            <th>Referencias de interfaz</th>
+            <th>Referencia de API</th>
+            <th>Etiqueta de API</th>
+            <th>Vistas del lago de datos</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Participante de la fase de aprobación del documento</td>
+            <td>Decisiones de aprobación</td>
+            <td>N/D</td>
+            <td>N/D</td>
+            <td>APPROVAL_STAGE_PARTICIPANT_CURRENT<br>APPROVAL_STAGE_PARTICIPANT_DAILY_HISTORY<br>APPROVAL_STAGE_PARTICIPANT_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Clave principal/externa</th>
+            <th>Tipo</th>
+            <th>Tabla relacionada</th>
+            <th>Campo relacionado</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td class="key">APROBADO</td>
+             <td>FK</td>
+             <td>APPROVAL_CURRENT</td>
+             <td>APROBADO</td>
+        </tr>
+        <tr>
+             <td class="key">APPROVALSTAGEPARTICIPANTID/td&gt;
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td class="key">ASSETID</td>
+             <td>FK</td>
+             <td>Variable basada en ASSETTYPE</td>
+             <td>La clave principal/ID del objeto identificado en el campo ASSETTYPE</td>
+        </tr>
+        <tr>
+             <td class="key">DECISIONUSERID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td class="key">OBJID</td>
+             <td class="type">FK</td>
+             <td class="relatedtable">Variable basada en OBJCODE</td>
+             <td>La clave principal/ID del objeto identificado en el campo OBJCODE</td>
+        </tr>
+        <tr>
+             <td class="key">PARTICIPANTID</td>
+             <td>FK</td>
+             <td class="relatedtable">Variable basada en PARTICIPANTTYPE</td>
+             <td>La clave principal/ID del objeto identificado en el campo PARTICIPANTTYPE</td>
+        </tr>
+        <tr>
+             <td class="key">REALREQUESTORID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td class="key">REALUSERID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td class="key">REQUESTORID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td class="key">STAGEID</td>
+             <td>FK</td>
+             <td>APPROVAL_STAGE_CURRENT</td>
+             <td>STAGEID</td>
+        </tr>
+    </tbody>
+</table>
+
 ### Carpeta de documentos
 
 <table>
@@ -2053,7 +2282,7 @@ La tabla siguiente correlaciona los nombres de objetos en Workfront (así como s
         <tr>
              <td>SYSID</td>
              <td>-</td>
-             <td colspan="2">No es una relación; se utiliza para fines de aplicación internos</td>
+             <td colspan="2">No es una relación; se utiliza con fines de aplicación interna</td>
         </tr>
     </tbody>
 </table>
@@ -2560,10 +2789,10 @@ La tabla siguiente correlaciona los nombres de objetos en Workfront (así como s
              <td>GROUPID</td>
         </tr>
         <tr>
-             <td>ID RAÍZ</td>
+             <td>ROOTID</td>
              <td>FK</td>
              <td>GROUPS_CURRENT</td>
-             <td>ID DE GRUPO</td>
+             <td>GROUPID</td>
         </tr>
         <tr>
              <td>SYSID</td>
@@ -2638,7 +2867,7 @@ La tabla siguiente correlaciona los nombres de objetos en Workfront (así como s
         <tr>
              <td>TONTO</td>
              <td>-</td>
-             <td colspan="2">No es una relación; se utiliza para fines de aplicación internos</td>
+             <td colspan="2">No es una relación; se utiliza con fines de aplicación interna</td>
         </tr>
         <tr>
              <td>EXCHANGERATEID</td>
@@ -2647,7 +2876,7 @@ La tabla siguiente correlaciona los nombres de objetos en Workfront (así como s
              <td>EXCHANGERATEID</td>
         </tr>
         <tr>
-             <td>ID DE HOJA DE HORAS EXTERNA</td>
+             <td>EXTERNALTIMESHEETID</td>
              <td>-</td>
              <td colspan="2">No es una relación de Workfront; se utiliza para la integración con sistemas externos
 Self</td>
@@ -2668,7 +2897,7 @@ Self</td>
              <td>LASTUPDATEDBYID</td>
              <td>FK</td>
              <td>USERS_CURRENT</td>
-             <td>ID. DE USUARIO</td>
+             <td>USERID</td>
         </tr>
         <tr>
              <td>OPTASKID</td>
@@ -2680,7 +2909,7 @@ Self</td>
              <td>OWNERID</td>
              <td>FK</td>
              <td>USERS_CURRENT</td>
-             <td>ID. DE USUARIO</td>
+             <td>USERID</td>
         </tr>
         <tr>
              <td>PROJECTID</td>
@@ -2691,10 +2920,10 @@ Self</td>
         <tr>
              <td>PROJECTOVERHEADID</td>
              <td>-</td>
-             <td colspan="2">No es una relación; se utiliza para fines de aplicación internos</td>
+             <td colspan="2">No es una relación; se utiliza con fines de aplicación interna</td>
         </tr>
         <tr>
-             <td>ID ROLEID</td>
+             <td>ROLEID</td>
              <td>FK</td>
              <td>ROLES_ACTUALES</td>
              <td>ROLEID</td>
@@ -2708,10 +2937,10 @@ Self</td>
              <td>TASKID</td>
              <td>FK</td>
              <td>TASKS_CURRENT</td>
-             <td>ID DE TAREA</td>
+             <td>TASKID</td>
         </tr>
         <tr>
-             <td>ID DE LA HOJA DE HORAS</td>
+             <td>TIMESHEETID</td>
              <td>FK</td>
              <td>TIMESHEETS_CURRENT</td>
              <td>TIMESHEETID</td>
@@ -2818,7 +3047,7 @@ Self</td>
              <td>ENTEREDBYID</td>
              <td>FK</td>
              <td>USERS_CURRENT</td>
-             <td>ID. DE USUARIO</td>
+             <td>USERID</td>
         </tr>
         <tr>
              <td>ITERATIONID</td>
@@ -2830,10 +3059,10 @@ Self</td>
              <td>LASTUPDATEDBYID</td>
              <td>FK</td>
              <td>USERS_CURRENT</td>
-             <td>ID. DE USUARIO</td>
+             <td>USERID</td>
         </tr>
         <tr>
-             <td>ID DEL PROPIETARIO</td>
+             <td>OWNERID</td>
              <td>FK</td>
              <td>USERS_CURRENT</td>
              <td>USERID</td>
@@ -2962,8 +3191,8 @@ Self</td>
         <tr>
              <td>OBJID</td>
              <td>FK</td>
-             <td>Variable, basado en OBJCODE</td>
-             <td>La clave/ID principal del objeto identificado en el campo OBJCODE.</td>
+             <td>Variable basada en OBJCODE</td>
+             <td>La clave principal/ID del objeto identificado en el campo OBJCODE</td>
         </tr>
         <tr>
              <td>OPTASKID</td>
@@ -3052,11 +3281,11 @@ Self</td>
       </thead>
       <tbody>
         <tr>
-            <td>Carpeta vinculados</td>
-            <td>Carpeta vinculados</td>
+            <td>Carpeta vinculada</td>
+            <td>Carpeta vinculada</td>
             <td>LNKFDR</td>
             <td>LinkedFolder</td>
-            <td><br>LINKEDFOLDERS_CURRENT LINKEDFOLDERS_DAILY_HISTORY<br>LINKEDFOLDERS_EVENT</td>
+            <td>LINKEDFOLDERS_CURRENT<br>LINKEDFOLDERS_DAILY_HISTORY<br>LINKEDFOLDERS_EVENT</td>
         </tr>
       </tbody>
 </table>
@@ -3082,10 +3311,10 @@ Self</td>
              <td colspan="2">El ID externo en el sistema de almacenamiento externo</td>
         </tr>
         <tr>
-             <td>IDENTIFICADOR DE CARPETA</td>
+             <td>FOLDERID</td>
              <td>FK</td>
              <td>DOCFOLDERS_CURRENT</td>
-             <td>IDENTIFICADOR DE CARPETA</td>
+             <td>FOLDERID</td>
         </tr>
         <tr>
              <td>LINKEDBYID</td>
@@ -3530,7 +3759,7 @@ Self</td>
              <td>ITERATIONID</td>
         </tr>
         <tr>
-             <td>ID DE NOTA</td>
+             <td>NOTEID</td>
              <td>PK</td>
              <td>-</td>
              <td>-</td>
@@ -3880,10 +4109,10 @@ Self</td>
              <td>OWNERID</td>
              <td>FK</td>
              <td>USERS_CURRENT</td>
-             <td>ID. DE USUARIO</td>
+             <td>USERID</td>
         </tr>
         <tr>
-             <td>PROYECTID</td>
+             <td>PROJECTID</td>
              <td>FK</td>
              <td>PROJECTS_CURRENT</td>
              <td>PROJECTID</td>
@@ -3920,19 +4149,19 @@ Self</td>
              <td>RESOLVINGOBJID</td>
              <td>FK</td>
              <td>Variable basada en RESOLVINGOBJCODE</td>
-             <td>La clave/ID principal del objeto identificado en el campo RESOLVINGOBJCODE</td>
+             <td>La clave principal/ID del objeto identificado en el campo RESOLVINGOBJCODE</td>
         </tr>
         <tr>
-             <td>ID ROLEID</td>
+             <td>ROLEID</td>
              <td>FK</td>
              <td>ROLES_ACTUALES</td>
-             <td>ID ROLEID</td>
+             <td>ROLEID</td>
         </tr>
         <tr>
-             <td>FUENTEOBJID</td>
+             <td>SOURCEOBJID</td>
              <td>FK</td>
-             <td>Variable, basado en SOURCEOBJCODE</td>
-             <td>La clave/ID principal del objeto identificado en el campo SOURCEOBJCODE.</td>
+             <td>Variable basada en SOURCEOBJCODE</td>
+             <td>La clave principal/ID del objeto identificado en el campo SOURCEOBJCODE</td>
         </tr>
         <tr>
              <td>SOURCETASKID</td>
@@ -3955,7 +4184,7 @@ Self</td>
              <td>IDENTIFICADOR DE EQUIPO</td>
              <td>FK</td>
              <td>TEAMS_CURRENT</td>
-             <td>TÉMIDA</td>
+             <td>IDENTIFICADOR DE EQUIPO</td>
         </tr>
     </tbody>
 </table>
@@ -3969,7 +4198,7 @@ Self</td>
             <th>Referencias de interfaz</th>
             <th>Referencia de API</th>
             <th>Etiqueta de API</th>
-            <th>Vistas de Data Lake</th>
+            <th>Vistas del lago de datos</th>
         </tr>
       </thead>
       <tbody>
@@ -4116,7 +4345,7 @@ Self</td>
         <tr>
              <td>SYSID</td>
              <td>-</td>
-             <td colspan="2">No es una relación; se utiliza para fines de aplicación internos</td>
+             <td colspan="2">No es una relación; se utiliza con fines de aplicación interna</td>
         </tr>
     </tbody>
 </table>
@@ -4129,17 +4358,17 @@ Self</td>
             <th>Nombre de entidad de Workfront</th>
             <th>Referencias de interfaz</th>
             <th>Referencia de API</th>
-            <th>Etiquetar de API</th>
-            <th>Vistas de Data Lake</th>
+            <th>Etiqueta de API</th>
+            <th>Vistas del lago de datos</th>
         </tr>
       </thead>
       <tbody>
         <tr>
-            <td>Sección Portal</td>
+            <td>Sección de portal</td>
             <td>Informe</td>
             <td>PTLSEC</td>
             <td>Informe</td>
-            <td><br>PORTALSECTIONS_CURRENT PORTALSECTIONS_DAILY_HISTORY<br>PORTALSECTIONS_EVENT</td>
+            <td>PORTALSECTIONS_CURRENT<br>PORTALSECTIONS_DAILY_HISTORY<br>PORTALSECTIONS_EVENT</td>
         </tr>
       </tbody>
 </table>
@@ -4232,13 +4461,13 @@ Self</td>
         <tr>
              <td>SYSID</td>
              <td>-</td>
-             <td colspan="2">No es una relación; se utiliza para fines de aplicación internos</td>
+             <td colspan="2">No es una relación; se utiliza con fines de aplicación interna</td>
         </tr>
         <tr>
-             <td>ID DE VISTA</td>
+             <td>VIEWID</td>
              <td>FK</td>
              <td>UIVIEWS_CURRENT</td>
-             <td>ID DE VISTA</td>
+             <td>VIEWID</td>
         </tr>
     </tbody>
 </table>
@@ -4261,7 +4490,7 @@ Self</td>
             <td>Panel de control</td>
             <td>PTLTAB</td>
             <td>Panel de control</td>
-            <td><br>PORTALTABS_CURRENT PORTALTABS_DAILY_HISTORY<br>PORTALTABS_EVENT</td>
+            <td>PORTALTABS_CURRENT<br>PORTALTABS_DAILY_HISTORY<br>PORTALTABS_EVENT</td>
         </tr>
       </tbody>
 </table>
@@ -4539,10 +4768,10 @@ Self</td>
       <tbody>
         <tr>
             <td>Preferencia</td>
-            <td>Ver, Filtrar, Agrupación, Definición del informe</td>
+            <td>Ver, filtrar, agrupar, definición de informe</td>
             <td>PROSET</td>
             <td>Preferencia</td>
-            <td><br>PREFERENCES_CURRENT PREFERENCES_DAILY_HISTORY<br>PREFERENCES_EVENT</td>
+            <td>PREFERENCES_CURRENT<br>PREFERENCES_DAILY_HISTORY<br>PREFERENCES_EVENT</td>
         </tr>
       </tbody>
 </table>
@@ -4620,19 +4849,19 @@ Self</td>
              <td>USERID</td>
         </tr>
         <tr>
-             <td>ID DE GRUPO</td>
+             <td>GROUPID</td>
              <td>FK</td>
              <td>GROUPS_CURRENT</td>
-             <td>ID DE GRUPO</td>
+             <td>GROUPID</td>
         </tr>
         <tr>
              <td>LASTUPDATEDBYID</td>
              <td>FK</td>
              <td>USERS_CURRENT</td>
-             <td>ID. DE USUARIO</td>
+             <td>USERID</td>
         </tr>
         <tr>
-             <td>ID DEL PROPIETARIO</td>
+             <td>OWNERID</td>
              <td>FK</td>
              <td>USERS_CURRENT</td>
              <td>USERID</td>
@@ -4757,7 +4986,7 @@ Self</td>
              <td>GROUPID</td>
              <td>FK</td>
              <td>GROUPS_CURRENT</td>
-             <td>ID DE GRUPO</td>
+             <td>GROUPID</td>
         </tr>
         <tr>
              <td>LASTCONDITIONNOTEID</td>
@@ -5071,7 +5300,7 @@ Self</td>
         <tr>
              <td>SYSID</td>
              <td>-</td>
-             <td colspan="2">No es una relación; se utiliza para fines de aplicación internos</td>
+             <td colspan="2">No es una relación; se utiliza con fines de aplicación interna</td>
         </tr>
 
     &lt;/tbody>
@@ -5131,17 +5360,17 @@ Self</td>
             <th>Nombre de entidad de Workfront</th>
             <th>Referencias de interfaz</th>
             <th>Referencia de API</th>
-            <th>Etiquetar de API</th>
-            <th>Vistas de Data Lake</th>
+            <th>Etiqueta de API</th>
+            <th>Vistas del lago de datos</th>
         </tr>
       </thead>
       <tbody>
         <tr>
-            <td>Recuento de estadísticas de Ver de informes</td>
-            <td>Recuento de estadísticas de Ver de informes</td>
+            <td>Recuento de estadísticas de vista de informe</td>
+            <td>Recuento de estadísticas de vista de informe</td>
             <td>PLSVST</td>
             <td>PortalSectionStatisticsInfo</td>
-            <td><br>REPORTVIEWSTATISTICCOUNTS_CURRENT REPORTVIEWSTATISTICCOUNTS_DAILY_HISTORY<br>REPORTVIEWSTATISTICCOUNTS_EVENT</td>
+            <td>REPORTVIEWSTATISTICCOUNTS_CURRENT<br>REPORTVIEWSTATISTICCOUNTS_DAILY_HISTORY<br>REPORTVIEWSTATISTICCOUNTS_EVENT</td>
         </tr>
       </tbody>
 </table>
@@ -5170,7 +5399,7 @@ Self</td>
         <tr>
              <td>SYSID</td>
              <td>-</td>
-             <td colspan="2">No es una relación; se utiliza para fines de aplicación internos</td>
+             <td colspan="2">No es una relación; se utiliza con fines de aplicación interna</td>
         </tr>
     </tbody>
 </table>
@@ -5183,8 +5412,8 @@ Self</td>
             <th>Nombre de entidad de Workfront</th>
             <th>Referencias de interfaz</th>
             <th>Referencia de API</th>
-            <th>Etiquetar de API</th>
-            <th>Vistas de Data Lake</th>
+            <th>Etiqueta de API</th>
+            <th>Vistas del lago de datos</th>
         </tr>
       </thead>
       <tbody>
@@ -5336,10 +5565,10 @@ Self</td>
              <td>-</td>
         </tr>
         <tr>
-             <td>PROYECTID</td>
+             <td>PROJECTID</td>
              <td>FK</td>
              <td>PROJECTS_CURRENT</td>
-             <td>PROYECTID</td>
+             <td>PROJECTID</td>
         </tr>
         <tr>
              <td>RESOURCEMANAGERID</td>
@@ -5350,10 +5579,10 @@ Self</td>
         <tr>
              <td>SYSID</td>
              <td>-</td>
-             <td colspan="2">No es una relación; se utiliza para fines de aplicación internos</td>
+             <td colspan="2">No es una relación; se utiliza con fines de aplicación interna</td>
         </tr>
         <tr>
-             <td>ID DE PLANTILLA</td>
+             <td>TEMPLATEID</td>
              <td>FK</td>
              <td>TEMPLATES_CURRENT</td>
              <td>TEMPLATEID</td>
@@ -5369,8 +5598,8 @@ Self</td>
             <th>Nombre de entidad de Workfront</th>
             <th>Referencias de interfaz</th>
             <th>Referencia de API</th>
-            <th>Etiquetar de API</th>
-            <th>Vistas de Data Lake</th>
+            <th>Etiqueta de API</th>
+            <th>Vistas del lago de datos</th>
         </tr>
       </thead>
       <tbody>
@@ -5414,7 +5643,7 @@ Self</td>
         <tr>
              <td>SYSID</td>
              <td>-</td>
-             <td colspan="2">No es una relación; se utiliza para fines de aplicación internos</td>
+             <td colspan="2">No es una relación; se utiliza con fines de aplicación interna</td>
         </tr>
     </tbody>
 </table>
@@ -5427,8 +5656,8 @@ Self</td>
             <th>Nombre de entidad de Workfront</th>
             <th>Referencias de interfaz</th>
             <th>Referencia de API</th>
-            <th>Etiquetar de API</th>
-            <th>Vistas de Data Lake</th>
+            <th>Etiqueta de API</th>
+            <th>Vistas del lago de datos</th>
         </tr>
       </thead>
       <tbody>
@@ -5606,8 +5835,8 @@ Self</td>
             <th>Nombre de entidad de Workfront</th>
             <th>Referencias de interfaz</th>
             <th>Referencia de API</th>
-            <th>Etiquetar de API</th>
-            <th>Vistas de Data Lake</th>
+            <th>Etiqueta de API</th>
+            <th>Vistas del lago de datos</th>
         </tr>
       </thead>
       <tbody>
@@ -5639,7 +5868,7 @@ Self</td>
         <tr>
              <td>SYSID</td>
              <td>-</td>
-             <td colspan="2">No es una relación; se utiliza para fines de aplicación internos</td>
+             <td colspan="2">No es una relación; se utiliza con fines de aplicación interna</td>
         </tr>
     </tbody>
 </table>
@@ -5680,12 +5909,12 @@ Self</td>
              <td>ENTEREDBYID</td>
              <td>FK</td>
              <td>USERS_CURRENT</td>
-             <td>ID. DE USUARIO</td>
+             <td>USERID</td>
         </tr>
         <tr>
              <td>LAYOUTTEMPLATEID</td>
              <td>-</td>
-             <td colspan="2">Diseño tabla de plantilla no será compatible</td>
+             <td colspan="2">No se admitirá la tabla de plantillas de diseño</td>
         </tr>
         <tr>
              <td>PRIVATERATECARDID</td>
@@ -5694,7 +5923,7 @@ Self</td>
              <td>RATECARDID</td>
         </tr>
         <tr>
-             <td>ID ROLEID</td>
+             <td>ROLEID</td>
              <td>PK</td>
              <td>-</td>
              <td>-</td>
@@ -5761,7 +5990,7 @@ Self</td>
              <td>HOMEGROUPID</td>
              <td>FK</td>
              <td>GROUPS_CURRENT</td>
-             <td>ID DE GRUPO</td>
+             <td>GROUPID</td>
         </tr>
         <tr>
              <td>SCHEDULEID</td>
@@ -5855,8 +6084,8 @@ Self</td>
             <th>Nombre de entidad de Workfront</th>
             <th>Referencias de interfaz</th>
             <th>Referencia de API</th>
-            <th>Etiquetar de API</th>
-            <th>Vistas de Data Lake</th>
+            <th>Etiqueta de API</th>
+            <th>Vistas del lago de datos</th>
         </tr>
       </thead>
       <tbody>
@@ -5978,10 +6207,10 @@ Self</td>
              <td>PARENTID</td>
              <td>FK</td>
              <td>TASKS_CURRENT</td>
-             <td>ID DE TAREA</td>
+             <td>TASKID</td>
         </tr>
         <tr>
-             <td>PROYECTID</td>
+             <td>PROJECTID</td>
              <td>FK</td>
              <td>PROJECTS_CURRENT</td>
              <td>PROJECTID</td>
@@ -6322,17 +6551,17 @@ Self</td>
             <th>Nombre de entidad de Workfront</th>
             <th>Referencias de interfaz</th>
             <th>Referencia de API</th>
-            <th>Etiquetar de API</th>
-            <th>Vistas de Data Lake</th>
+            <th>Etiqueta de API</th>
+            <th>Vistas del lago de datos</th>
         </tr>
       </thead>
       <tbody>
         <tr>
             <td>Plantilla</td>
-            <td>plantilla, plantilla de proyecto</td>
+            <td>Plantilla, Plantilla de proyecto</td>
             <td>TMPL</td>
             <td>Plantilla</td>
-            <td><br>TEMPLATES_CURRENT TEMPLATES_DAILY_HISTORY<br>TEMPLATES_EVENT</td>
+            <td>TEMPLATES_CURRENT<br>TEMPLATES_DAILY_HISTORY<br>TEMPLATES_EVENT</td>
         </tr>
       </tbody>
 </table>
@@ -6607,13 +6836,13 @@ Self</td>
              <td>LASTNOTEID</td>
              <td>FK</td>
              <td>NOTES_CURRENT</td>
-             <td>ID DE NOTA</td>
+             <td>NOTEID</td>
         </tr>
         <tr>
              <td>LASTUPDATEDBYID</td>
              <td>FK</td>
              <td>USERS_CURRENT</td>
-             <td>ID. DE USUARIO</td>
+             <td>USERID</td>
         </tr>
         <tr>
              <td>MILESTONEID</td>
@@ -6630,13 +6859,13 @@ Self</td>
         <tr>
              <td>RECURRENCERULEID</td>
              <td>-</td>
-             <td colspan="2">La tabla de reglas de periodicidad no se admite actualmente</td>
+             <td colspan="2">Tabla de reglas de periodicidad no admitida actualmente</td>
         </tr>
         <tr>
-             <td>ID ROLEID</td>
+             <td>ROLEID</td>
              <td>FK</td>
              <td>ROLES_ACTUALES</td>
-             <td>ID ROLEID</td>
+             <td>ROLEID</td>
         </tr>
         <tr>
              <td>SYSID</td>
@@ -6737,8 +6966,8 @@ Disponibilidad limitada del cliente
             <th>Nombre de entidad de Workfront</th>
             <th>Referencias de interfaz</th>
             <th>Referencia de API</th>
-            <th>Etiquetar de API</th>
-            <th>Vistas de Data Lake</th>
+            <th>Etiqueta de API</th>
+            <th>Vistas del lago de datos</th>
         </tr>
       </thead>
       <tbody>
@@ -6807,13 +7036,13 @@ Disponibilidad limitada del cliente
              <td>REFERENCEID</td>
              <td>FK</td>
              <td>Variable basada en OBJCODE</td>
-             <td>La clave/ID principal del objeto identificado en el campo OBJCODE.</td>
+             <td>La clave principal/ID del objeto identificado en el campo OBJCODE</td>
         </tr>
         <tr>
-             <td>ID ROLEID</td>
+             <td>ROLEID</td>
              <td>FK</td>
              <td>ROLES_ACTUALES</td>
-             <td>ID ROLEID</td>
+             <td>ROLEID</td>
         </tr>
         <tr>
              <td>SCHEMAID</td>
@@ -6845,7 +7074,7 @@ Disponibilidad limitada del cliente
              <td>-</td>
         </tr>
         <tr>
-             <td>ID. DE USUARIO</td>
+             <td>USERID</td>
              <td>FK</td>
              <td>USERS_CURRENT</td>
              <td>USERID</td>
@@ -6853,7 +7082,7 @@ Disponibilidad limitada del cliente
     </tbody>
 </table>
 
-### Duración de la KPI en fase temporal
+### Duración de KPI de fase temporal
 
 Disponibilidad limitada del cliente
 
@@ -6987,7 +7216,7 @@ Disponibilidad limitada del cliente
             <th>Nombre de entidad de Workfront</th>
             <th>Referencias de interfaz</th>
             <th>Referencia de API</th>
-            <th>Etiquetar de API</th>
+            <th>Etiqueta de API</th>
             <th>Vistas del lago de datos</th>
         </tr>
       </thead>
@@ -7154,7 +7383,7 @@ Disponibilidad limitada del cliente
         <tr>
              <td>APPGLOBALID</td>
              <td>-</td>
-             <td colspan="2">No es una relación; se utiliza para fines de aplicación internos</td>
+             <td colspan="2">No es una relación; se utiliza con fines de aplicación interna</td>
         </tr>
         <tr>
              <td>ENTEREDBYID</td>
@@ -7258,7 +7487,7 @@ Disponibilidad limitada del cliente
         <tr>
              <td>SYSID</td>
              <td>-</td>
-             <td colspan="2">No es una relación; se utiliza para fines de aplicación internos</td>
+             <td colspan="2">No es una relación; se utiliza con fines de aplicación interna</td>
         </tr>
         <tr>
              <td>UIGROUPBYID</td>
@@ -7308,16 +7537,16 @@ Disponibilidad limitada del cliente
              <td>USERID</td>
         </tr>
         <tr>
-             <td>ID DE GRUPO</td>
+             <td>GROUPID</td>
              <td>FK</td>
              <td>GROUPS_CURRENT</td>
-             <td>ID DE GRUPO</td>
+             <td>GROUPID</td>
         </tr>
         <tr>
              <td>LASTUPDATEDBYID</td>
              <td>FK</td>
              <td>USERS_CURRENT</td>
-             <td>ID. DE USUARIO</td>
+             <td>USERID</td>
         </tr>
         <tr>
              <td>SYSID</td>
@@ -7380,19 +7609,19 @@ Disponibilidad limitada del cliente
              <td>LASTUPDATEDBYID</td>
              <td>FK</td>
              <td>USERS_CURRENT</td>
-             <td>ID. DE USUARIO</td>
+             <td>USERID</td>
         </tr>
         <tr>
              <td>OBJID</td>
              <td>FK</td>
-             <td>Variable, basado en OBJCODE</td>
+             <td>Variable basada en OBJCODE</td>
              <td>La clave principal/ID del objeto identificado en el campo OBJCODE</td>
         </tr>
         <tr>
-             <td>ID DE PREFERENCIA</td>
+             <td>PREFERENCEID</td>
              <td>FK</td>
              <td>PREFERENCIAS_ACTUALES</td>
-             <td>ID DE PREFERENCIA</td>
+             <td>PREFERENCEID</td>
         </tr>
         <tr>
              <td>SYSID</td>
@@ -7416,8 +7645,8 @@ Disponibilidad limitada del cliente
             <th>Nombre de entidad de Workfront</th>
             <th>Referencias de interfaz</th>
             <th>Referencia de API</th>
-            <th>Etiquetar de API</th>
-            <th>Vistas de Data Lake</th>
+            <th>Etiqueta de API</th>
+            <th>Vistas del lago de datos</th>
         </tr>
       </thead>
       <tbody>
@@ -7426,7 +7655,7 @@ Disponibilidad limitada del cliente
             <td>Usuario</td>
             <td>USER</td>
             <td>Usuario</td>
-            <td><br>USERS_CURRENT USERS_DAILY_HISTORY<br>USERS_EVENT</td>
+            <td>USERS_CURRENT<br>USERS_DAILY_HISTORY<br>USERS_EVENT</td>
         </tr>
       </tbody>
 </table>
@@ -7485,19 +7714,19 @@ Disponibilidad limitada del cliente
              <td>HOMEGROUPID</td>
              <td>FK</td>
              <td>GROUPS_CURRENT</td>
-             <td>ID DE GRUPO</td>
+             <td>GROUPID</td>
         </tr>
         <tr>
              <td>HOMETEAMID</td>
              <td>FK</td>
              <td>TEAMS_CURRENT</td>
-             <td>TÉMIDA</td>
+             <td>IDENTIFICADOR DE EQUIPO</td>
         </tr>
         <tr>
              <td>LASTENTEREDNOTEID</td>
              <td>FK</td>
              <td>NOTES_CURRENT</td>
-             <td>ID DE NOTA</td>
+             <td>NOTEID</td>
         </tr>
         <tr>
              <td>LASTUPDATEDBYID</td>
@@ -7794,21 +8023,21 @@ Disponibilidad limitada del cliente
     </thead>
     <tbody>
         <tr>
-             <td>ID ROLEID</td>
+             <td>ROLEID</td>
              <td>FK</td>
              <td>ROLES_ACTUALES</td>
-             <td>ID ROLEID</td>
+             <td>ROLEID</td>
         </tr>
         <tr>
              <td>SYSID</td>
              <td>-</td>
-             <td colspan="2">No es una relación; se utiliza para fines de aplicación internos</td>
+             <td colspan="2">No es una relación; se utiliza con fines de aplicación interna</td>
         </tr>
         <tr>
-             <td>ID. DE USUARIO</td>
+             <td>USERID</td>
              <td>FK</td>
              <td>USERS_CURRENT</td>
-             <td>ID. DE USUARIO</td>
+             <td>USERID</td>
         </tr>
         <tr>
              <td>USERROLESETID</td>
@@ -7895,7 +8124,7 @@ Disponibilidad limitada del cliente
             <td>Conjunto de roles de usuario</td>
             <td>URSET</td>
             <td>UserRoleSet</td>
-            <td><br>USERROLESET_CURRENT USERROLESET_DAILY_HISTORY<br>USERROLESET_EVENT</td>
+            <td>USERROLESET_CURRENT<br>USERROLESET_DAILY_HISTORY<br>USERROLESET_EVENT</td>
         </tr>
       </tbody>
 </table>
@@ -7913,7 +8142,7 @@ Disponibilidad limitada del cliente
              <td>PRIMARYROLEID</td>
              <td>FK</td>
              <td>ROLES_ACTUALES</td>
-             <td>ID ROLEID</td>
+             <td>ROLEID</td>
         </tr>
         <tr>
              <td>SYSID</td>
@@ -7982,7 +8211,7 @@ Disponibilidad limitada del cliente
              <td>USERID</td>
              <td>FK</td>
              <td>USERS_CURRENT</td>
-             <td>ID. DE USUARIO</td>
+             <td>USERID</td>
         </tr>
     </tbody>
 </table>
@@ -8052,13 +8281,13 @@ Disponibilidad limitada del cliente
              <td>TASKID</td>
              <td>FK</td>
              <td>TASKS_CURRENT</td>
-             <td>ID DE TAREA</td>
+             <td>TASKID</td>
         </tr>
         <tr>
-             <td>ID. DE USUARIO</td>
+             <td>USERID</td>
              <td>FK</td>
              <td>USERS_CURRENT</td>
-             <td>ID. DE USUARIO</td>
+             <td>USERID</td>
         </tr>
         <tr>
              <td>WORKITEMID</td>
