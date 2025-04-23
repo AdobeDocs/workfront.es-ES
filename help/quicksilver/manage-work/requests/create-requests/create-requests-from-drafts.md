@@ -3,13 +3,13 @@ product-area: requests
 navigation-topic: create-requests
 title: Crear solicitudes a partir de borradores
 description: Además de utilizar los borradores disponibles que Workfront le sugiere al introducir una nueva solicitud, también puede acceder a una solicitud de borrador desde la sección Borradores y terminar de enviarla desde allí.
-author: Lisa
+author: Alina
 feature: Work Management
 exl-id: 664004e7-04c8-4a1f-b682-7b82d349643d
-source-git-commit: 067a5bd54f794574f5f2d1ad98ad29b6e02ab297
+source-git-commit: 6311526ddf9143c4a979d8bbac96312a3b0e8151
 workflow-type: tm+mt
 source-wordcount: '583'
-ht-degree: 1%
+ht-degree: 26%
 
 ---
 
@@ -28,14 +28,14 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plan de Adobe Workfront</td> 
+   <td role="rowheader">Plan de Adobe Workfront</td> 
    <td> <p>Cualquiera </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licencia de Adobe Workfront</td> 
-   <td> <p>Nuevo: Colaborador o superior</p>
+   <td> <p>Nuevo: colaborador o superior</p>
    O
-   <p>Actual: Solicitud o superior</p>
+   <p>Actual: solicitud o superior</p>
     </td> 
   </tr> 
   <tr> 
@@ -92,11 +92,11 @@ Debe hacer lo siguiente para poder crear una solicitud a partir de un borrador:�
 
 1. Después de completar la información de la solicitud, realice una de las siguientes acciones:
 
-   * Haga clic en **Enviar** si está listo para enviar la solicitud. La solicitud se guarda en la sección Enviada. En función de la regla de enrutamiento de la cola de solicitudes, esta solicitud puede redirigirse a un proyecto diferente al designado como cola de solicitudes. Para obtener información acerca de las reglas de enrutamiento, vea [Crear reglas de enrutamiento](../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md).
+   * Haga clic en **Enviar** si está listo para enviar la solicitud. La solicitud se guarda en la sección Enviada. En función de la regla de enrutamiento de la cola de solicitudes, esta solicitud puede redirigirse a un proyecto diferente al designado como cola de solicitudes. Para obtener información acerca de las reglas de enrutamiento, consulte [Crear reglas de enrutamiento](../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md).
 
      O
 
-     Haz clic en **Cerrar** si no estás listo para enviarlo y es posible que vuelvas y lo termines más tarde. La solicitud se guardará en la sección Borradores y estará disponible la próxima vez que envíe una solicitud para esta cola de solicitudes.
+     Haga clic en **Cerrar** si no estás listo para enviarlo y puede volver y terminarlo más adelante. La solicitud se guardará en la sección Borradores y estará disponible la próxima vez que envíe una solicitud para esta cola de solicitudes.
 
      ![](assets/nwe-submit-close-discard-draft-buttons-on-new-request-350x340.png)
 

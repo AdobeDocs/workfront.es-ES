@@ -3,12 +3,12 @@ product-area: requests
 navigation-topic: create-requests
 title: Localizar solicitudes enviadas
 description: Obtenga información sobre las áreas de Adobe Workfront en las que puede localizar solicitudes que ha enviado o que otra persona ha enviado, o solicitudes que nunca ha enviado y que se han guardado como borradores.
-author: Lisa
+author: Alina
 feature: Requests
 topic: Collaboration
 role: User
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
-source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
+source-git-commit: 6311526ddf9143c4a979d8bbac96312a3b0e8151
 workflow-type: tm+mt
 source-wordcount: '949'
 ht-degree: 86%

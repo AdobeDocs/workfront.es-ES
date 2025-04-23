@@ -3,13 +3,13 @@ product-area: requests
 navigation-topic: create-requests
 title: Eliminar un borrador de solicitud
 description: Puede eliminar los borradores de solicitud a medida que los vaya creando descartándolos.
-author: Lisa
+author: Alina
 feature: Work Management
 exl-id: 9098ada7-0e6b-4de2-97ad-5c6e590fbba3
-source-git-commit: 067a5bd54f794574f5f2d1ad98ad29b6e02ab297
+source-git-commit: 6311526ddf9143c4a979d8bbac96312a3b0e8151
 workflow-type: tm+mt
 source-wordcount: '255'
-ht-degree: 0%
+ht-degree: 38%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Puede eliminar los borradores de solicitud a medida que los vaya creando descartándolos.
 
-Para obtener más información, consulte:
+Para obtener más información, consulte lo siguiente:
 
 * [Crear y enviar solicitudes de Adobe Workfront](../../../manage-work/requests/create-requests/create-submit-requests.md)
 * [Crear solicitudes a partir de borradores](../../../manage-work/requests/create-requests/create-requests-from-drafts.md)
@@ -35,14 +35,14 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plan de Adobe Workfront</td> 
+   <td role="rowheader">Plan de Adobe Workfront</td> 
    <td> <p>Cualquiera </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licencia de Adobe Workfront</td> 
-   <td> <p>Nuevo: Colaborador o superior</p>
+   <td> <p>Nuevo: colaborador o superior</p>
    O
-   <p>Actual: Solicitud o superior</p>
+   <p>Actual: solicitud o superior</p>
     </td> 
   </tr> 
   <tr> 
@@ -74,6 +74,6 @@ Debe hacer lo siguiente para poder eliminar un borrador de solicitud:
 
 1. (Opcional) Haga clic en **Filtrar por tipo de solicitud** en la esquina superior derecha de la lista de borradores y, a continuación, seleccione la cola de solicitudes que contiene los borradores que desea mostrar.
 1. Seleccione un borrador en la lista y, a continuación, haga clic en **Eliminar** en la parte superior de la lista.
-1. Haga clic en **Sí, eliminarlo**.
+1. Haga clic en **Sí, eliminar**.
 
    El borrador se eliminará y no se podrá recuperar.

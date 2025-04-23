@@ -3,10 +3,10 @@ product-area: requests
 navigation-topic: create-requests
 title: Creación y envío de solicitudes
 description: En Adobe Workfront, el trabajo planificado se representa mediante proyectos y tareas. Sin embargo, es posible que se trabaje en un entorno en el que el trabajo no planificado (en forma de solicitudes aleatorias) pueda llegar en cualquier momento. Workfront proporciona un flujo de trabajo para dar cabida a este tipo de entorno mediante el uso de colas de solicitudes.
-author: Lisa
+author: Alina
 feature: Work Management
 exl-id: 8b023a3d-326d-4d63-9e1e-8171553a9e23
-source-git-commit: 88b8443525043a0710dfc6f93739e54f2e78a569
+source-git-commit: 6311526ddf9143c4a979d8bbac96312a3b0e8151
 workflow-type: tm+mt
 source-wordcount: '2680'
 ht-degree: 82%
