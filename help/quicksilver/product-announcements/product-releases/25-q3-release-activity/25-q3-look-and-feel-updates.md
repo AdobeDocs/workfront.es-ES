@@ -4,7 +4,8 @@ description: Actualizaciones de aspecto durante el periodo de lanzamiento del te
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 20faacf09266c455a29a04db59a4d39f825f0c2d
+exl-id: 1a98053a-7f0d-4c87-a9eb-f081dade872c
+source-git-commit: 88bbfdc21501fb1575cd07d03af43afe90142adc
 workflow-type: tm+mt
 source-wordcount: '287'
 ht-degree: 32%
@@ -15,7 +16,7 @@ ht-degree: 32%
 
 Esta página describe actualizaciones menores en el aspecto y la funcionalidad de varias áreas de la aplicación Adobe Workfront que se realizaron en el marco de la versión del tercer trimestre de 2025.
 
-Para obtener una lista de todos los cambios disponibles con la versión del tercer trimestre de 2025, consulte [Información general sobre la versión del tercer trimestre de 2025](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-release-overview.md).
+Para obtener una lista de todos los cambios disponibles con la versión del tercer trimestre de 2025, consulte [Información general sobre la versión del tercer trimestre de 2025](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-release-overview.md).
 
 ## Actualizaciones de aspecto y funcionamiento del área de Administración de recursos en Configuración
 
