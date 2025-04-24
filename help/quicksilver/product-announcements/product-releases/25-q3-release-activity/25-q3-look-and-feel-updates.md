@@ -5,10 +5,10 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 1a98053a-7f0d-4c87-a9eb-f081dade872c
-source-git-commit: 88bbfdc21501fb1575cd07d03af43afe90142adc
+source-git-commit: f47c1ad2c3c5d82e62efa1a8920bc0aac59af26e
 workflow-type: tm+mt
-source-wordcount: '287'
-ht-degree: 32%
+source-wordcount: '424'
+ht-degree: 23%
 
 ---
 
@@ -17,6 +17,35 @@ ht-degree: 32%
 Esta página describe actualizaciones menores en el aspecto y la funcionalidad de varias áreas de la aplicación Adobe Workfront que se realizaron en el marco de la versión del tercer trimestre de 2025.
 
 Para obtener una lista de todos los cambios disponibles con la versión del tercer trimestre de 2025, consulte [Información general sobre la versión del tercer trimestre de 2025](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-release-overview.md).
+
+## Actualizaciones de aspecto y funcionamiento de elementos restaurados recientemente
+
+>[!NOTE]
+>
+>Versión preliminar: 23 de abril de 2025; versión de producción para todos los clientes: 23 de abril de 2025
+
+Hemos actualizado el aspecto de los elementos restaurados recientemente en el área de Configuración para que coincidan con el diseño de otras áreas de Workfront. No se ha cambiado la funcionalidad de los proyectos, tareas, solicitudes, documentos o plantillas restaurados recientemente.
+
+Para ver este cambio, vaya a Configuración > Papelera de reciclaje > Restaurados recientemente.
+
+Para obtener más información, consulte [Ver elementos restaurados](/help/quicksilver/administration-and-setup/manage-workfront/manage-deleted-items/view-restored-items.md).
+
+## Informes actualizados con nuevo estilo
+
+>[!NOTE]
+>
+>Versión preliminar: 23 de abril de 2025; versión de producción para todos los clientes: 23 de abril de 2025
+
+Hemos actualizado el aspecto de varios informes para que coincida con el diseño de otras áreas de Workfront. No se ha cambiado ninguna funcionalidad.
+
+Esta actualización incluye cambios visuales en las listas y barras de herramientas de los informes para los siguientes tipos de objetos:
+
+* Tareas de plantilla
+* Grupos de temas
+* Tarjetas de puntuación
+* Horarios
+
+Para obtener más información, consulte [Crear un informe personalizado](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
 ## Actualizaciones de aspecto y funcionamiento del área de Administración de recursos en Configuración
 
