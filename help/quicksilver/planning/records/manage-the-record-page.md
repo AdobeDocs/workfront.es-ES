@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 1dc2791bed0dfada109ee102e09c25ae9a52e6b0
+source-git-commit: f171db8474df703fddbf63a673f9bfbd2ab2db27
 workflow-type: tm+mt
-source-wordcount: '1872'
-ht-degree: 46%
+source-wordcount: '2034'
+ht-degree: 42%
 
 ---
 
@@ -116,7 +116,6 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 +++
 
 <!--replace the layout template info in the table with this at release: 
-
 
 <p>In the Production environment, all users including the System Administrators must be assigned to a layout template that includes the Planning areas.</p>
 <p><span class="preview">In the Preview environment, Standard users and System Administrators have the Planning area enabled by default.</span></p>
@@ -268,42 +267,75 @@ Ocurren lo siguiente:
 
    Todos los cambios en el diseño de la vista previa o la página del registro se guardan automáticamente.
 
-## Agregar una página de vista Conexión a la página de un registro
+## Agregar una ficha Vista de conexión a la página de un registro
 
-<!--suggested a new name for this type of page: "Connected records details" - check to see if this changed-->
+<!--suggested a new name for this type of page: "Connected records page" - check to see if this changed, and update this everywhere in this section-->
+
+Puede ver información de registros u objetos conectados agregando una ficha para un tipo de página Vista de conexión a un registro. La información de los registros conectados se muestra en una vista de tabla de sólo lectura.
+
+&lt;!-reemplace la última frase anterior por esta en el momento de la publicación:
+
+En el entorno Producción, la información de los registros u objetos conectados se muestra en una vista de tabla de sólo lectura.
+
+<Span class="preview">En el entorno de vista previa, la información de los registros conectados se puede editar en la vista de tabla. La información de los objetos conectados desde otra aplicación no se puede editar en la vista de tabla.</span> —>
 
 Tenga en cuenta lo siguiente al agregar una vista Conexión a la página de un registro:
 
-* Puede agregar una página de vista Conexión a la página de un registro.
+* Puede agregar una página Vista de conexión a la página de un registro después de conectar tipos de registro u objeto al tipo de registro.
 
 * No se puede agregar una página de vista Conexión al área de vista previa de un registro.
 
-* Las páginas de vista de conexión muestran una página de tipo de registro conectada en la vista de tabla.
+* Las páginas de vista de conexión muestran una página de tipo de registro conectada o un tipo de objeto conectado de otra aplicación en una vista de tabla.
 
 * Después de agregar una página de vista Conexión a la página de un registro, la ficha Página se puede ver desde el área de vista previa del registro. Debe ir a la página completa para ver la vista de tabla del registro conectado. <!--this might have changed? check and take disclaimer out-->
 
 Para agregar una página Vista de conexión:
 
 1. En una vista de página de registro, haga clic en el nombre de un registro para abrirlo y, a continuación, haga clic en el icono **Abrir en ficha nueva** ![Abrir detalles en un icono de ficha nueva](assets/open-details-in-a-new-tab-icon.png) en la esquina superior derecha de la página de vista previa.
-1. Haga clic en **Agregar página** > **Vista de conexión**.
+1. Haga clic en **Agregar página**.
 
    ![Agregar modal de página de vista de conexión](assets/add-connection-view-page-modal.png)
 1. Agregue **Nombre de página**, haga clic en **Vista de conexión** y, a continuación, haga clic en **Crear**.
 
    Se agrega una nueva pestaña a la página del registro.
 1. Busque o haga clic en el nombre de un tipo de objeto o registro conectado en la lista.
-Se muestra la vista de tabla del tipo de registro seleccionado y los registros conectados se muestran en la vista de tabla.
+La vista de tabla del tipo de registro seleccionado se muestra en la nueva página y los registros conectados se muestran en la vista de tabla.
 Todos los campos del registro conectado se muestran en la vista de tabla de la ficha del registro conectado.
 
    Los cinco primeros campos de la tabla de registros conectada se muestran de forma predeterminada. De forma predeterminada, no se muestran campos de búsqueda.
-
-   La vista de tabla es de solo lectura.
 
    <!--replace screen shot below when additional capabilities come to the table view - Fields, etc-->
 
    ![Vista de tabla conectada a la audiencia con detalles de campaña](assets/audience-connected-table-view-under-campaign-details-page.png)
 
-1. (Opcional) Haga doble clic en el nombre de la pestaña
+1. (Opcional) En la vista de tabla de los registros conectados, realice una de las siguientes acciones:
+
+   * Haga clic en el nombre de un registro. Se abre la página del registro en una nueva ficha. <!--<span class="preview">In the Preview environment, this opens the record's preview page.</span>-->
+   * Haga clic en **Conectar** para conectar más registros y, a continuación, haga clic fuera del cuadro de conexión para cerrarlo. Los registros nuevos se agregan automáticamente a la tabla.
+     <!--* <span class="preview">Edit any information from the connected records inside the table view. </span>-->
+
+   <!--<div class="preview">
+
+   * Hover over a connected record's name, then click the **More** menu ![More menu](assets/more-menu.png), then click one of the following options: 
+      * View 
+      * Copy link
+      * Edit thumbnail
+      * Duplicate
+      * Insert record above or below
+      * Delete 
+   * Select one of the records, then click one of the following options in the blue bar at the bottom of the screen: 
+      * View
+      * Copy link
+      * Edit thumbnail
+      * Duplicate
+      * Delete. Delete is the only option available when you select more than one record. 
+
+      For information about editing records in the table view, see [Edit records](/help/quicksilver/planning/records/edit-records.md). 
+
+   </div>-->
+
+
+1. (Opcional) Haga doble clic en el nombre de la ficha Vista de conexión
 
    O
 
@@ -323,7 +355,7 @@ Todos los campos del registro conectado se muestran en la vista de tabla de la f
    >
 
 1. Haga clic en **Conectar** para agregar o quitar registros. Para obtener más información, consulte [Conectar registros](/help/quicksilver/planning/records/connect-records.md)
-1. (Opcional) Pase el ratón sobre el nombre de la pestaña Vista de conexión, haga clic en **Más** ![Menú más](assets/more-menu.png) y, a continuación, haga clic en **Eliminar** para quitar a la nueva pestaña Vista conectada.
+1. (Opcional) Pase el ratón sobre el nombre de la pestaña Vista de conexión, haga clic en **Más** ![Menú más](assets/more-menu.png) y, a continuación, haga clic en **Eliminar** para quitar a la pestaña.
 
 
 
