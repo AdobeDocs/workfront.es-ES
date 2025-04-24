@@ -5,14 +5,16 @@ description: Puede anclar su trabajo más importante en  [!DNL Adobe Workfront] 
 feature: Get Started with Workfront
 author: Courtney
 exl-id: c391dabc-8dc4-4c4b-b0fc-7ccc4244cb8a
-source-git-commit: b3fe63f7a332f50c7bac3bedee5db3bbbabd2b42
+source-git-commit: c79d030ff2d05487e5f7e3457bf98df591822a80
 workflow-type: tm+mt
-source-wordcount: '420'
+source-wordcount: '423'
 ht-degree: 65%
 
 ---
 
 # Anclar páginas para personalizar el espacio de trabajo
+
+<!-- Audited: 4/2025 -->
 
 Puede anclar su trabajo más importante en [!DNL Adobe Workfront] para obtener una mayor visibilidad, una mejor organización y un acceso más rápido. Siempre se puede acceder a las páginas ancladas desde la parte superior de cualquier página de Workfront.
 
@@ -53,6 +55,8 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
 1. Desplácese hasta la página que desee anclar. Puede ser cualquier elemento de trabajo, como un proyecto, una tarea, una cola de solicitudes, etc.
 
 1. En la esquina superior izquierda de la página, haga clic en **[!UICONTROL Anclar página actual]**. Ahora se podrá acceder a la página anclada desde la parte superior de cualquier página de [!DNL Workfront].
+
+   ![Anclar página actual](assets/pin-current-page-button.png)
 
 ## Acceder a una página anclada
 

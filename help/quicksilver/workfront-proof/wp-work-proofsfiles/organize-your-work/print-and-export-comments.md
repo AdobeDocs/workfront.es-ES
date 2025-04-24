@@ -7,9 +7,9 @@ description: Se puede acceder al resumen de comentarios en Workfront Proof.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 212d465c-5605-4bb9-af5a-cea377619cfe
-source-git-commit: de23513976d7bc4fe34cbf7b007a41c3b9797347
+source-git-commit: c79d030ff2d05487e5f7e3457bf98df591822a80
 workflow-type: tm+mt
-source-wordcount: '493'
+source-wordcount: '495'
 ht-degree: 39%
 
 ---
@@ -82,7 +82,7 @@ Para imprimir la vista de miniaturas, haga clic en el icono **[!UICONTROL Impres
 
 La vista de página completa muestra cada página en orden con los comentarios de esa página y un pin que indica dónde se encuentra el comentario.
 
-Para imprimir la vista de página completa, haga clic en el icono **[!UICONTROL Impresora]** en la esquina superior derecha de la página.
+Para imprimir la vista de página completa, haz clic en el icono **[!UICONTROL Impresora]** en la esquina superior derecha de la página.
 
 ![PV_full.png](assets/pv-full-350x347.png)
 
@@ -97,8 +97,7 @@ Para descargar el resumen de [!DNL Excel] desde la página de detalles de Prueba
 
 1. Haga clic en el botón **Más** y luego seleccione **Exportar a Excel**.
 
-   <!--
-   ![Export to Excel option](assets/export-to-excel-option.png) -->
+   ![Exportar a Excel](assets/export-to-excel.png)
 
 ## Exportar a PDF
 

@@ -1,27 +1,27 @@
 ---
 content-type: overview
 product-area: documents
-keywords: prueba, permiso
+keywords: prueba,permiso
 navigation-topic: proofing-overview
-title: Resumen del perfil de permisos de revisión
-description: Los perfiles de permisos de pruebas determinan qué permisos generales tienen los usuarios sobre todas las pruebas de la cuenta. Los perfiles de permisos de pruebas se asignan a los usuarios en su perfil de usuario. Los perfiles de permisos de prueba son diferentes de las funciones de prueba.
+title: Información general del perfil de permiso de revisión
+description: Los perfiles de permisos de prueba determinan qué permisos generales tienen los usuarios sobre todas las pruebas de la cuenta. Los perfiles de permisos de prueba se asignan a los usuarios en su perfil de usuario. Los perfiles de permisos de prueba son diferentes de las funciones de prueba.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: fb6faa48-d97b-4b7b-83ae-fe39d40b3963
-source-git-commit: 4e3cafafb121371249fb73f2f001477bdbad2d77
+source-git-commit: c79d030ff2d05487e5f7e3457bf98df591822a80
 workflow-type: tm+mt
 source-wordcount: '498'
-ht-degree: 2%
+ht-degree: 100%
 
 ---
 
-# Resumen del perfil de permisos de revisión
+# Información general del perfil de permiso de revisión
 
 <!--Audited: 12/2023-->
 
-Los perfiles de permisos de pruebas determinan qué permisos generales tienen los usuarios sobre todas las pruebas de la cuenta. Los perfiles de permisos de pruebas se asignan a los usuarios en su perfil de usuario.
+Los perfiles de permisos de prueba determinan qué permisos generales tienen los usuarios sobre todas las pruebas de la cuenta. Los perfiles de permisos de prueba se asignan a los usuarios en su perfil de usuario.
 
-Los perfiles de permisos de prueba son diferentes de las funciones de prueba. Para obtener más información sobre las funciones de prueba, consulte [Resumen de funciones de prueba](../../../review-and-approve-work/proofing/proofing-overview/proof-roles.md).
+Los perfiles de permisos de prueba son diferentes de las funciones de prueba. Para obtener más información sobre las funciones de prueba, consulte [Información general sobre funciones de prueba](../../../review-and-approve-work/proofing/proofing-overview/proof-roles.md).
 
 >[!NOTE]
 >
@@ -40,17 +40,17 @@ Los perfiles de permisos de prueba son diferentes de las funciones de prueba. Pa
 </ul>
 -->
 
-## Perfiles de permisos de revisión
+## Perfiles de permisos de prueba
 
 La siguiente tabla muestra los permisos disponibles con cada perfil de permisos de prueba.
 
-<table>
+<table style="table-layout:auto">
   <tr>
    <td colspan="1" ><strong></strong>
    </td>
    <td colspan="4" ><strong>Elementos propios</strong>
    </td>
-   <td colspan="3" ><strong>Elementos de otros usuarios</strong>
+   <td colspan="3" ><strong>Otros elementos de otros usuarios</strong>
    </td>
    <td><strong>Administrador</strong>
    </td>
@@ -58,7 +58,7 @@ La siguiente tabla muestra los permisos disponibles con cada perfil de permisos 
   <tr>
    <td>
    </td>
-   <td><strong>Agregar</strong>
+   <td><strong>Añadir</strong>
    </td>
    <td><strong>Vista</strong>
    </td>
@@ -158,10 +158,10 @@ Los administradores tienen acceso a [Configuración de la cuenta](https://suppor
      <li> <p>Eliminar las carpetas públicas de otros usuarios</p> </li> 
      <li> <p>Editar todas las pruebas creadas en la cuenta</p> </li> 
      <li> <p>Se debe establecer como propietario de Dropzone*</p> </li> 
-     <li> <p>Acceda a la página Configuración de cuenta y edite los detalles de la cuenta</p> </li> 
+     <li> <p>Acceder a la página Configuración de la cuenta y editar los detalles de la cuenta</p> </li> 
      <li> <p>Vaciar la papelera</p> </li> 
-     <li> <p>Agregar, editar y eliminar usuarios</p> </li> 
-     <li> <p>Creación de grupos y adición de nuevos contactos</p> </li> 
+     <li> <p>Añadir, editar y eliminar usuarios</p> </li> 
+     <li> <p>Crear grupos y añadir nuevos contactos</p> </li> 
      <li> <p>Eliminar contactos</p> </li> 
      <li> <p>Editar pruebas si no hay respuestas en ellas</p> </li> 
     </ul> </td> 
@@ -169,7 +169,7 @@ Los administradores tienen acceso a [Configuración de la cuenta](https://suppor
     <ul> 
      <li> <p>Editar respuestas de prueba.</p> </li> 
      <li> <p>Eliminar las carpetas privadas de otros usuarios</p> </li> 
-     <li> <p>Acceda a la página Facturación o edite los detalles de facturación</p> </li> 
+     <li> <p>Acceder a la página Facturación o editar los detalles de facturación</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -186,8 +186,8 @@ Los supervisores tienen los siguientes permisos:
  <col> 
  <tbody> 
   <tr> 
-   <td>Los supervisores pueden:</td> 
-   <td>Los supervisores no pueden:</td> 
+   <td>Los supervisores pueden hacer lo siguiente:</td> 
+   <td>Los supervisores no pueden hacer lo siguiente:</td> 
   </tr> 
   <tr> 
    <td> 
@@ -197,7 +197,7 @@ Los supervisores tienen los siguientes permisos:
      <li> <p>Ver, editar y eliminar pruebas y archivos creados por todos los usuarios de la organización</p> </li> 
      <li> <p>Eliminar las carpetas públicas de otros usuarios</p> </li> 
      <li> <p>Editar todas las pruebas creadas en la cuenta</p> </li> 
-     <li> <p>Creación de grupos y adición de nuevos contactos</p> </li> 
+     <li> <p>Crear grupos y añadir nuevos contactos</p> </li> 
      <li> <p>Eliminar contactos</p> </li> 
      <li> <p>Editar pruebas si no hay respuestas en ellas</p> </li> 
     </ul> </td> 
@@ -205,8 +205,8 @@ Los supervisores tienen los siguientes permisos:
     <ul> 
      <li> <p>Editar respuestas de prueba.</p> </li> 
      <li> <p>Eliminar las carpetas privadas de otros usuarios</p> </li> 
-     <li> <p>Acceda a la página Facturación o edite los detalles de facturación</p> </li> 
-     <li> <p>Agregar, editar o eliminar usuarios</p> </li> 
+     <li> <p>Acceder a la página Facturación o editar los detalles de facturación</p> </li> 
+     <li> <p>Añadir, editar o eliminar usuarios</p> </li> 
      <li> <p>Vaciar la papelera</p> </li> 
     </ul> </td> 
   </tr> 
@@ -215,31 +215,31 @@ Los supervisores tienen los siguientes permisos:
 
 ### Gerente
 
-Los responsables tienen los siguientes permisos:
+Los administradores tienen los siguientes permisos:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td>Los responsables pueden:</td> 
-   <td>Los responsables no pueden:</td> 
+   <td>Los administradores pueden hacer lo siguiente:</td> 
+   <td>Los administradores no pueden hacer lo siguiente:</td> 
   </tr> 
   <tr> 
    <td> 
     <ul> 
      <li> <p>Crear pruebas, cargar archivos y crear carpetas</p> </li> 
      <li> <p>Ver, editar y eliminar pruebas y archivos que han creado</p> </li> 
-     <li> <p>Ver, revisar y aprobar pruebas de otros usuarios que se han compartido explícitamente con ellos (derechos de solo lectura para todo lo que hay en una carpeta compartida)</p> </li> 
+     <li> <p>Ver, revisar y aprobar pruebas de otros usuarios que se hayan compartido explícitamente con ellos (derechos de solo lectura para todo lo que hay en una carpeta compartida)</p> </li> 
      <li> <p>Editar todas las pruebas creadas en la cuenta</p> </li> 
-     <li> <p>Creación de grupos y adición de nuevos contactos</p> </li> 
+     <li> <p>Crear grupos y añadir nuevos contactos</p> </li> 
     </ul> </td> 
    <td> 
     <ul> 
      <li> <p>Ver, editar o eliminar pruebas y archivos creados por otros usuarios de la organización. </p> </li><li><p>Editar respuestas de prueba.</p> </li> 
      <li> <p>Eliminar las carpetas privadas o públicas de otros usuarios</p> </li> 
-     <li> <p>Acceda a la página Facturación o edite los detalles de facturación</p> </li> 
-     <li> <p>Agregar, editar o eliminar usuarios</p> </li> 
+     <li> <p>Acceder a la página Facturación o editar los detalles de facturación</p> </li> 
+     <li> <p>Añadir, editar o eliminar usuarios</p> </li> 
      <li> <p> Eliminar contactos</p> </li> 
      <li> <p>Vaciar la papelera</p> </li> 
     </ul> </td> 
