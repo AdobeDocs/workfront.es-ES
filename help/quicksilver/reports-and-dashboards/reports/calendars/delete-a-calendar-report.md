@@ -6,16 +6,14 @@ description: Puede eliminar un calendario que sea suyo o que otros hayan compart
 author: Lisa
 feature: Reports and Dashboards
 exl-id: 6208442e-21af-4cd1-ad55-52215bd4d959
-source-git-commit: 041e812d0663304b4bd51134020209d3a67e1423
+source-git-commit: 5c0278607faf65b58abeb9b813e403f97032a965
 workflow-type: tm+mt
-source-wordcount: '260'
-ht-degree: 78%
+source-wordcount: '204'
+ht-degree: 82%
 
 ---
 
 # Eliminar un informe de calendario
-
-<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa de espacio aislado.</span>
 
 Puede eliminar un calendario que sea suyo o que otros hayan compartido con usted. Una vez eliminado, el calendario deja de ser accesible para los usuarios con los que lo ha compartido.
 
@@ -58,15 +56,8 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
 
 +++
 
-## Eliminar un informe de calendario en producción
 
-1. Vaya al calendario que desee eliminar.
-1. En la barra de herramientas **[!UICONTROL Calendario]**, haga clic en **[!UICONTROL Acciones de calendario]** y, a continuación, seleccione **[!UICONTROL Eliminar]** en la lista desplegable.
-1. Haga Clic en **[!UICONTROL Sí, eliminarlo]**.
-
-<div class="preview">
-
-## Eliminar un informe de calendario en Vista previa
+## Eliminar un informe de calendario
 
 1. Vaya al calendario que desee eliminar.
 1. Haga clic en el menú **Más** situado junto al menú desplegable Calendario.
@@ -74,5 +65,3 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
 
 1. Seleccione **[!UICONTROL Delete]** de la lista desplegable.
 1. Haga clic **[!UICONTROL eliminar]**.
-
-</div>
