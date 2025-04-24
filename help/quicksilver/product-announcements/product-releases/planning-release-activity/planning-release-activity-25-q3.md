@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 6761f5af-2501-4487-8114-2751f1e4fe69
-source-git-commit: a92261330ddf289217057c83fa9360776a8628b8
+source-git-commit: 881eea5b527532227a40483d2cd2edeba84dc30f
 workflow-type: tm+mt
-source-wordcount: '336'
+source-wordcount: '363'
 ht-degree: 3%
 
 ---
@@ -30,7 +30,7 @@ Para obtener una lista de todas las características publicadas para Adobe Workf
 >* Versión rápida de producción: 15 de mayo de 2025
 >* Producción para todos los clientes: 17 de julio de 2025
 
-Ahora puede habilitar una configuración en la ficha Estilo de barra del cuadro Configuración de una vista de escala de tiempo para truncar nombres de registro más largos al mostrarlos en la vista Estándar. La configuración está deshabilitada de forma predeterminada y solo se puede habilitar cuando se muestra la vista de cronología en el modo Estándar.
+Ahora puede habilitar una configuración en la ficha Estilo de barra del cuadro Configuración de una vista de escala de tiempo para truncar nombres de registro más largos al mostrarlos en la vista Estándar. La configuración está deshabilitada de forma predeterminada y solo se puede habilitar cuando se muestra la vista de cronología en el modo Estándar. Como esta opción está deshabilitada, la información de las barras de registros se muestra expandida de forma predeterminada. Antes de esta mejora, la información de las barras de registro se truncaba de forma predeterminada.
 
 Para obtener más información, consulte [Administrar la vista de línea de tiempo](/help/quicksilver/planning/views/manage-the-timeline-view.md).
 
