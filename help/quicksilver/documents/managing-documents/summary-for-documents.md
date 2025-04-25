@@ -7,10 +7,10 @@ description: El resumen le permite interactuar con información importante direc
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 7a4a4bd3-ad60-4d84-b4b0-332c2a4eb8fb
-source-git-commit: fddb927f2c9639b4c26d590bbea7dba684ed2b6c
+source-git-commit: daa46f0e2a5f656d048260d4a714ed02f01cdbbf
 workflow-type: tm+mt
-source-wordcount: '418'
-ht-degree: 93%
+source-wordcount: '443'
+ht-degree: 63%
 
 ---
 
@@ -20,9 +20,13 @@ ht-degree: 93%
 
 Puede usar el Panel de resumen para acceder a información importante y actualizarla directamente desde la lista de documentos.
 
+
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
+
+
 ## Requisitos de acceso
 
-Debe tener lo siguiente:
+Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -35,7 +39,7 @@ Debe tener lo siguiente:
    <td> <p> Cualquiera</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licencias de Adobe Workfront*</td> 
+   <td role="rowheader">Licencias de Adobe Workfront</td> 
    <td> <p>Nuevo: colaborador o superior</p> 
    <p>Actual: solicitud o superior</p>
    </td> 
@@ -51,43 +55,47 @@ Debe tener lo siguiente:
  </tbody> 
 </table>
 
-*Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su administrador de Workfront. Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Abrir la vista Resumen
 
-1. Vaya al área **Documentos** y seleccione un elemento de la lista.
-1. Haga clic en el icono **Abrir resumen** ![Abrir resumen](assets/qs-summary-in-new-toolbar-small.png).
+{{step1-to-documents}}
 
-   Cuando abra el Resumen, permanecerá abierto cuando haga clic en otros documentos y permanecerá abierto hasta que lo cierre manualmente.
+1. En la página **Documentos**, seleccione un documento de la lista.
 
-   ![Detalles de resumen](assets/summary-details-350x585.png)
+1. En la esquina superior derecha de la página, haga clic en el icono **Abrir resumen** ![Abrir resumen](assets/qs-summary-in-new-toolbar-small.png). Se abre el panel lateral **Resumen del documento**.
+
+   ![Detalles de resumen](assets/document-summary-panel.png)
+
+   Después de abrir el Resumen, permanecerá abierto en esta página (incluso si hace clic en otros documentos) hasta que lo cierre manualmente.
+
 
 ## Detalles
 
-Utilice la sección Detalles para ver información general de alto nivel e interactuar con formularios personalizados. Haga clic en **Detalles** en la parte superior de la sección para ir a la página completa Detalles del documento.
+Utilice la sección Detalles para ver información general de alto nivel e interactuar con formularios personalizados. Haga clic en Detalles en la parte superior de la sección para ir a la página completa de Detalles del documento.
 
 * [Información general](#overview)
 * [Formularios personalizados](#custom-forms)
-
-![Detalles del resumen del documento](assets/copy-of-doc-summary-details-section-350x404.png)
 
 ### Información general {#overview}
 
 Expanda la sección Información general para ver o descargar una miniatura de imagen, abrir una prueba, actualizar la descripción básica, desproteger el documento y mucho más.
 
-![Resumen del documento](assets/copy-of-doc-summary-with-overview-350x560.png)
+![Resumen del documento](assets/details-section.png)
 
 ### Formularios personalizados {#custom-forms}
 
 Utilice la sección Formularios personalizados para añadir, editar o ver cualquier formulario personalizado asociado al documento. Empiece a escribir el nombre del formulario personalizado para añadirlo al documento. Para obtener más información, consulte [Añadir o editar un formulario personalizado en un documento](../../documents/managing-documents/add-custom-form-documents.md).
 
-![Agregar un formulario personalizado en el resumen del documento](assets/add-custom-form-doc-summary-350x265.png)
+![Agregar un formulario personalizado en el resumen del documento](assets/custom-forms-section.png)
 
 ## Actualizaciones
 
-Utilice la sección Actualizaciones para leer una actualización realizada por una persona en el documento o la prueba. El resumen muestra los dos primeros comentarios realizados. Para obtener más información sobre las actualizaciones, consulte [Comentario sobre una prueba](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/comment-on-proof.md).
+Utilice la sección Actualizaciones para ver una actualización realizada por alguien en el documento o la prueba. El resumen muestra los dos primeros comentarios realizados. Para obtener más información sobre las actualizaciones, consulte [Comentario sobre una prueba](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/comment-on-proof.md).
 
-![Sección Actualización en el Panel de resumen](assets/summary-updates-section-new-comments.png)
+![Sección Actualización en el Panel de resumen](assets/updates-section.png)
 
 ## Rutas de aprobación
 
@@ -98,16 +106,16 @@ Las aprobaciones de pruebas deben añadirse al flujo de trabajo de la prueba. Pa
 * [Aprobación de trabajos](../../review-and-approve-work/manage-approvals/approving-work.md)
 * [Solicitar aprobaciones de documentos](../../review-and-approve-work/manage-approvals/request-document-approvals.md)
 
-![Aprobaciones de resumen de documento](assets/summary-upddates,-approvals,-versions,-custom-forms-350x415.png)
+![Aprobaciones de resumen de documento](assets/approvals-section.png)
 
 ## Versiones
 
-Utilice la sección Versiones para ver el número de versiones creadas para un documento específico. Haga clic en el **menú Más** para
+Utilice la sección Versiones para ver el número de versiones creadas para un documento específico. Haga clic en el icono **Más** ![Más](assets/more-icon.png) para hacer lo siguiente:
 
-* Abrir una prueba 
-* Descargar una prueba o un documento
-* Previsualizar un documento compatible con el explorador
-* Ir a los detalles del documento
-* Eliminar una prueba o un documento
+* Abra una prueba.
+* Descargue una prueba o un documento.
+* Vista previa de un documento compatible con el explorador.
+* Vaya a los detalles del documento.
+* Eliminar una prueba o un documento.
 
-![Versiones de resumen de documento](assets/summary-upddates,-approvals,-versions,-custom-forms-350x415.png)
+![Versiones de resumen de documento](assets/versions-section.png)

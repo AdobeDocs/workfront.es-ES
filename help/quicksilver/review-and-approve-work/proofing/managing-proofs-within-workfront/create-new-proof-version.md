@@ -6,10 +6,10 @@ description: Gestionar los comentarios de varias versiones o revisiones de un tr
 author: Courtney
 feature: Digital Content and Documents
 exl-id: ee0c859e-349b-4e7a-ac80-164740b950f0
-source-git-commit: c79d030ff2d05487e5f7e3457bf98df591822a80
+source-git-commit: daa46f0e2a5f656d048260d4a714ed02f01cdbbf
 workflow-type: tm+mt
-source-wordcount: '1523'
-ht-degree: 35%
+source-wordcount: '1521'
+ht-degree: 36%
 
 ---
 
@@ -225,4 +225,4 @@ Si tiene un asunto y un mensaje predeterminados guardados en su configuración p
 Si no tiene un asunto y un mensaje predeterminados guardados en su configuración personal, se mostrará lo siguiente en la página Nueva versión:
 
 * Si notificó a los revisores la versión de prueba anterior mediante el correo electrónico estándar (por ejemplo, sin asunto/mensaje personalizado), la opción Notificar a las personas por correo electrónico se seleccionará de forma predeterminada en la página Nueva versión. Para añadir un mensaje personalizado, haga clic en el vínculo.
-* Si no notificó a los revisores por correo electrónico en relación con la versión de prueba anterior (por ejemplo, sin correo electrónico estándar o personalizado), la página Nueva versión no incluirá ningún mensaje de forma predeterminada. Para notificar la nueva versión a los revisores, haga clic en el vínculo Enviar un mensaje. Puede añadir un asunto y un mensaje personalizados haciendo clic en el enlace para añadir un mensaje personalizado.
+* Si no ha informado a los revisores sobre la versión de prueba anterior (por ejemplo, sin correo electrónico estándar o personalizado), la página Nueva versión no incluirá ningún mensaje de forma predeterminada. Para notificar la nueva versión a los revisores, haga clic en el vínculo Enviar un mensaje. Puede añadir un asunto y un mensaje personalizados haciendo clic en el enlace para añadir un mensaje personalizado.
