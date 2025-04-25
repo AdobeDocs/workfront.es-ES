@@ -7,10 +7,10 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 505a9602-580c-4932-a85c-6c9a7c8af457
-source-git-commit: 131a4443564def1437c9b26d1e29e65fcc78d069
+source-git-commit: fd28dbdb72805e604ff5f2410864c053ea388992
 workflow-type: tm+mt
-source-wordcount: '281'
-ht-degree: 83%
+source-wordcount: '286'
+ht-degree: 84%
 
 ---
 
@@ -121,7 +121,7 @@ Para obtener más información sobre cómo ayudar a su organización a adaptarse
       <td>
         <p>Versiones en 2025</p>
         <ul>
-          <!--<li><a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q2-release-overview.md" class="MCXref xref" xrefformat="{para}">Second Quarter 2025 release overview</a></li>-->
+          <li><a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-release-overview.md" class="MCXref xref" xrefformat="{para}">Información general sobre la versión del tercer trimestre de 2025</a></li>
           <li><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-release-overview.md" class="MCXref xref" xrefformat="{para}">Información general sobre la versión del segundo trimestre de 2025</a></li>
           <li><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md" class="MCXref xref" xrefformat="{para}">Información general sobre la versión del primer trimestre de 2025</a></li>
         </ul>
