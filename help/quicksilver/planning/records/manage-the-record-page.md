@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: f171db8474df703fddbf63a673f9bfbd2ab2db27
+source-git-commit: 8fcc6c75811080f3ee152849a149542be8ae820c
 workflow-type: tm+mt
-source-wordcount: '2034'
-ht-degree: 42%
+source-wordcount: '1974'
+ht-degree: 44%
 
 ---
 
@@ -273,11 +273,11 @@ Ocurren lo siguiente:
 
 Puede ver información de registros u objetos conectados agregando una ficha para un tipo de página Vista de conexión a un registro. La información de los registros conectados se muestra en una vista de tabla de sólo lectura.
 
-&lt;!-reemplace la última frase anterior por esta en el momento de la publicación:
+<!--replace the last sentence above with this at release:
 
-En el entorno Producción, la información de los registros u objetos conectados se muestra en una vista de tabla de sólo lectura.
+In the Production environment, the information from the connected records or objects displays in a read-only table view. 
 
-<Span class="preview">En el entorno de vista previa, la información de los registros conectados se puede editar en la vista de tabla. La información de los objetos conectados desde otra aplicación no se puede editar en la vista de tabla.</span> —>
+<Span class="preview">In the Preview environment, the information from the connected records can be edited in the table view. The information from the objects connected from another application is not editable in the table view.</span> -->
 
 Tenga en cuenta lo siguiente al agregar una vista Conexión a la página de un registro:
 
