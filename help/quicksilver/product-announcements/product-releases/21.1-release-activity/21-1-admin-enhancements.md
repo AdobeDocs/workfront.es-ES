@@ -2,36 +2,36 @@
 content-type: release-notes
 keywords: notas,trimestral,actualizar
 navigation-topic: product-releases
-title: 21.1 Mejoras del administrador
-description: Esta página describe todas las mejoras realizadas por el administrador con la versión 21.1 en el entorno de vista previa. Estas mejoras estarán disponibles en el entorno de producción el 15 de febrero de 2021.
+title: Mejoras del administrador en la versión 21.1
+description: En esta página se describen todas las mejoras realizadas por el administrador en la versión 21.1 en el entorno de vista preliminar. Estas mejoras estarán disponibles en el entorno de producción la semana del 15 de febrero de 2021.
 author: Luke
 feature: Product Announcements, System Setup and Administration
 recommendations: noDisplay, noCatalog
 exl-id: 4048f8b5-70e2-4d63-ae64-a4fbf91a57df
-source-git-commit: ccba3a3d7c0cac50dbd29cae677b076811904a91
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '1393'
-ht-degree: 0%
+ht-degree: 99%
 
 ---
 
-# 21.1 Mejoras del administrador
+# Mejoras del administrador en la versión 21.1
 
-Esta página describe todas las mejoras realizadas por el administrador con la versión 21.1 en el entorno de vista previa. Estas mejoras estarán disponibles en el entorno de producción el 15 de febrero de 2021.
+En esta página se describen todas las mejoras realizadas por el administrador en la versión 21.1 en el entorno de vista preliminar. Estas mejoras estarán disponibles en el entorno de producción la semana del 15 de febrero de 2021.
 
 Para obtener una lista de todos los cambios disponibles con la versión 21.1, consulte [Información general sobre la versión 21.1](../../../product-announcements/product-releases/21.1-release-activity/21-1-release-overview.md).
 
-## Introducir nueva configuración de nivel de acceso para copiar proyectos
+## Introducción de una nueva configuración del nivel de acceso para copiar proyectos
 
-Para darle más control, como administrador del sistema, sobre lo que los planificadores pueden hacer con un proyecto, hemos hecho que el acceso de edición a proyectos en el nivel de acceso sea más granular, al introducir una nueva configuración que le permite habilitar o deshabilitar su capacidad para copiar proyectos. Antes de este cambio, cuando habilitaba el acceso de los usuarios a Editar proyectos, automáticamente tenían acceso para copiarlos. Con la nueva función, puede otorgar acceso a alguien para editar proyectos sin tener necesariamente acceso para copiarlos deshabilitando la nueva configuración Copiar.
+Para otorgarle más control, como administrador del sistema, sobre lo que los planificadores pueden hacer con un proyecto, hemos hecho que el acceso de edición a los proyectos en el nivel de acceso sea más detallado, introduciendo una nueva configuración que le permite habilitar o deshabilitar la posibilidad de copiar proyectos. Antes de este cambio, cuando se habilitaba el acceso de los usuarios a los proyectos de edición, automáticamente tenían acceso para copiarlos. Con la nueva función, puede otorgar acceso a una persona para que edite proyectos sin que necesariamente tenga acceso para copiarlos desactivando la nueva configuración Copiar.
 
-Si los usuarios tenían acceso a Editar proyectos en su nivel de acceso antes de este cambio, automáticamente tendrán esta configuración habilitada cuando se publique esta función.
+Si los usuarios tenían acceso a los proyectos de edición en su nivel de acceso antes de este cambio, automáticamente tendrán esta configuración habilitada cuando se publique esta función.
 
-Para obtener información sobre el nivel de acceso del plan, consulte [Conceder acceso a proyectos](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md).
+Para obtener información sobre el nivel de acceso del plan, consulte [Conceder acceso a los proyectos](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md).
 
-Para obtener información sobre cómo copiar un proyecto, vea [Copiar un proyecto](../../../manage-work/projects/manage-projects/copy-project.md).
+Para obtener información sobre la copia de un proyecto, consulte [Copiar un proyecto](../../../manage-work/projects/manage-projects/copy-project.md).
 
-Esta característica ahora se incluye en [Aspectos básicos del administrador en la nueva experiencia de Workfront, Parte 1: Organización del usuario](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-MCUPSLH2M2WBDTFI2VKSRE2BRGKY) ruta de aprendizaje en Workfront One.
+Esta característica ahora se incluye en la ruta de aprendizaje de [Aspectos básicos del administrador en la nueva experiencia de Workfront, Parte 1: Organización del usuario](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) en Workfront One.
 
 ## En un formulario personalizado de un objeto, seleccione todos los elementos en un campo desplegable de selección múltiple
 
@@ -41,7 +41,7 @@ Esta característica ahora se incluye en [Aspectos básicos del administrador en
 
 En la página Detalles de un objeto, cuando rellene un campo desplegable de selección múltiple en un formulario personalizado, puede hacer clic en Seleccionar todo si necesita seleccionar todas las opciones disponibles.
 
-Para obtener información sobre cómo editar datos en un formulario personalizado, consulte [Editar información en campos de formulario personalizados](../../../workfront-basics/work-with-custom-forms/edit-custom-forms.md).
+Para obtener información sobre la edición de datos en un formulario personalizado, consulte [Editar información en campos de formulario personalizados](../../../workfront-basics/work-with-custom-forms/edit-custom-forms.md).
 
 ## Volver a calcular todos los campos de formulario personalizados de un objeto
 
@@ -49,35 +49,35 @@ Ahora es más fácil asegurarse de que todos los datos de los campos personaliza
 
 Esto resulta especialmente útil después de que alguien edite datos en otro objeto al que se hace referencia mediante un campo personalizado calculado en el objeto.
 
-Anteriormente, los usuarios tenían que usar soluciones alternativas para asegurarse de que todos los datos de los campos personalizados calculados estuvieran actualizados. Por ejemplo, editaron el objeto junto con otros objetos para utilizar la opción de recálculo que está disponible para la edición masiva.
+Anteriormente, los usuarios tenían que utilizar soluciones alternativas para asegurarse de que todos los datos de los campos personalizados calculados estuvieran actualizados. Por ejemplo, editaban el objeto junto con otros objetos para utilizar la opción de recálculo que está disponible para la edición masiva.
 
 Para obtener más información, consulte [Editar información en campos de formulario personalizados](../../../workfront-basics/work-with-custom-forms/edit-custom-forms.md).
 
-## Desbloquear las preferencias de tareas y problemas para los administradores de grupos
+## Desbloqueo de las preferencias de tareas y problemas para los administradores de grupos
 
 >[!NOTE]
 >
->Hasta el 24 de junio de 2021, esto estaba disponible como parte de un despliegue gradual solo para clientes que tengan la capacidad de desbloquear las preferencias de proyecto para grupos. Ahora está disponible para todos los clientes.
+>Hasta el 24 de junio de 2021, esto estaba disponible como parte de un despliegue gradual solo para clientes que tienen la posibilidad de desbloquear las preferencias de proyecto para grupos. Ahora está disponible para todos los clientes.
 
-Los administradores de Adobe Workfront ahora pueden dar más autonomía a los administradores de grupos desbloqueando las preferencias de tareas y problemas individuales. Cuando una preferencia está desbloqueada, los administradores de grupos pueden configurarla para que sus grupos sirvan a las necesidades únicas y a los procesos internos de cada grupo.
+Los administradores de Adobe Workfront ahora pueden dar más autonomía a los administradores de grupos desbloqueando las preferencias de tareas y problemas individuales. Cuando una preferencia está desbloqueada, los administradores de grupos pueden configurarla para sus grupos para atender las necesidades únicas y los procesos internos de cada grupo.
 
 Para obtener más información, consulte [Configurar las preferencias de tareas y problemas de un grupo](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md).
 
-Esta característica ahora se incluye en [Aspectos básicos del administrador en la nueva experiencia de Workfront, Parte 2: Configuración del proyecto](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-1-project-workfl-MCTBVZ3Q3J5RHNLIPPZPFSQRLKUY) ruta de aprendizaje en Workfront One.
+Esta característica ahora se incluye en la ruta de aprendizaje de [Aspectos básicos del administrador en la nueva experiencia de Workfront, Parte 2: Configuración del proyecto](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) en Workfront One.
 
-## Configurar por separado el nivel de acceso para portafolios y programas
+## Configuración por separado del nivel de acceso para portafolios y programas
 
 Ahora es más fácil administrar el acceso de los usuarios a portafolios y programas porque puede establecer la configuración de su nivel de acceso por separado.
 
 Anteriormente, se combinaba la configuración del nivel de acceso para portafolios y programas. Esto significaba que no se podía establecer la configuración de acceso para los programas sin configurarlos de la misma manera para los portafolios, y lo mismo ocurría al revés.
 
-Para obtener información acerca de cómo configurar un nivel de acceso, vea [Crear o modificar niveles de acceso personalizados](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+Para obtener información sobre la configuración de un nivel de acceso, consulte [Crear o modificar niveles de acceso personalizados](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
-Para obtener información acerca de la configuración de acceso que puede configurar para programas y portafolios, vea [Acceso configurable a la funcionalidad para cada tipo de objeto](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
+Para obtener información sobre la configuración de acceso que puede configurar para programas y portafolios, consulte [Acceso configurable a la funcionalidad para cada tipo de objeto](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
 
-Esta característica ahora se incluye en [Aspectos básicos del administrador en la nueva experiencia de Workfront, Parte 1: Organización del usuario](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-MCUPSLH2M2WBDTFI2VKSRE2BRGKY) ruta de aprendizaje en Workfront One.
+Esta característica ahora se incluye en la ruta de aprendizaje de [Aspectos básicos del administrador en la nueva experiencia de Workfront, Parte 1: Organización del usuario](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) en Workfront One.
 
-## Seleccionar todas las casillas de verificación de una serie al editar información en un formulario personalizado
+## Selección de todas las casillas de verificación de una serie al editar información en un formulario personalizado
 
 >[!NOTE]
 >
@@ -91,14 +91,14 @@ Para obtener más información, consulte [Editar información en campos de formu
 
 ## Configuración de la lista de permitidos de correo electrónico de Workfront
 
-Para proteger mejor sus datos, ahora puede utilizar una lista de permitidos de dominio de correo electrónico para lo siguiente:
+Para proteger mejor sus datos, ahora puede utilizar una lista de dominios permitidos de correo electrónico para lo siguiente:
 
 * Controlar adónde pueden ir los correos electrónicos de Workfront si contienen informes o documentos almacenados en Workfront
 * Los dominios de control de correo electrónico pueden estar en la dirección de correo electrónico que los usuarios pueden especificar en su perfil de usuario
 
 Por ejemplo, si desea proteger datos confidenciales, como un informe que enumere los clientes en riesgo, puede incluir solo el dominio o los dominios de correo electrónico internos en la lista de permitidos de correo electrónico. De este modo, los usuarios no podrán enviar dicho informe (ni ningún otro informe de Workfront) a una dirección de correo electrónico externa.
 
-Para obtener más información, consulte la sección [Configuración de la lista de permitidos del firewall](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md#configur) en el artículo [Configuración de la lista de permitidos del firewall](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
+Para obtener más información, consulte la sección [Configurar la lista de permitidos del cortafuegos](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md#configur) en el artículo [Configurar la lista de permitidos del cortafuegos](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
 
 ## Asignar un administrador de grupo para un subgrupo
 
@@ -108,13 +108,13 @@ Anteriormente, solo un grupo de nivel superior podía tener Administradores de g
 
 Para obtener más información, consulte la sección [Administradores de grupos para subgrupos](../../../administration-and-setup/manage-groups/groups-overview/subgroups.md#for) en el artículo [Información general sobre subgrupos](../../../administration-and-setup/manage-groups/groups-overview/subgroups.md).
 
-Esta característica ahora se incluye en [Aspectos básicos del administrador en la nueva experiencia de Workfront, Parte 1: Organización del usuario](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-MCUPSLH2M2WBDTFI2VKSRE2BRGKY) ruta de aprendizaje en Workfront One.
+Esta característica ahora se incluye en [Aspectos básicos del administrador en la nueva experiencia de Workfront, Parte 1: Organización del usuario](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) ruta de aprendizaje en Workfront One.
 
 ## Configuración de notificaciones de eventos para grupos
 
 >[!NOTE]
 >
->Disponible como parte de un despliegue gradual, solo para clientes que tengan la capacidad de desbloquear las preferencias de proyecto de los grupos. Esto incluye a todos los clientes de los clústeres 4 y 6 y a un pequeño número de clientes de otros clústeres. Esta nota se actualizará a medida que la funcionalidad esté disponible para más clústeres.
+>Disponible como parte de un despliegue gradual solo para clientes que tengan la capacidad de desbloquear las preferencias de proyecto para grupos. Esto incluye a todos los clientes de los clústeres 4 y 6 y a un pequeño número de clientes de otros clústeres. Esta nota se actualizará a medida que la funcionalidad esté disponible para más clústeres.
 
 Los administradores de Workfront ahora pueden dar más autonomía a los administradores de grupos, ya que les permite configurar notificaciones de eventos para sus grupos de nivel superior. Los subgrupos heredan las configuraciones de notificación de eventos de su grupo principal superior.
 
@@ -123,11 +123,11 @@ Anteriormente, solo un administrador de Workfront podía configurar las notifica
 Para obtener más información, consulte los siguientes artículos:
 
 * [Desbloquear o bloquear la configuración de notificaciones de eventos para todos los grupos](../../../administration-and-setup/manage-workfront/emails/unlock-configuration-of-event-notifications-for-groups.md)
-* [Visualización y configuración de notificaciones de eventos para un grupo](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-configure-event-notifications-group.md)
+* [Ver y configurar notificaciones de eventos para un grupo](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-configure-event-notifications-group.md)
 
-Esta característica ahora se incluye en [Aspectos básicos del administrador en la nueva experiencia de Workfront, Parte 1: Organización del usuario](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-MCUPSLH2M2WBDTFI2VKSRE2BRGKY) ruta de aprendizaje en Workfront One.
+Esta característica ahora se incluye en [Aspectos básicos del administrador en la nueva experiencia de Workfront, Parte 1: Organización del usuario](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) ruta de aprendizaje en Workfront One.
 
-Esta característica ahora se incluye en [Notificaciones por correo electrónico y en la aplicación en la nueva ruta de aprendizaje de la experiencia Workfront](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-https://one.workfront.com/s/learningpath2/email-and-in-app-notifications-in-the-new-workfront-experience-MCDSDH3SRJ4ZGTJF5NJI64F4TW2U) en Workfront One.
+Esta característica ahora se incluye en [Notificaciones por correo electrónico y en la aplicación en la nueva ruta de aprendizaje de la experiencia Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/home://one.workfront.com/s/learningpath2/email-and-in-app-notifications-in-the-new-workfront-experience-MCDSDH3SRJ4ZGTJF5NJI64F4TW2U) en Workfront One.
 
 ## Trabajar con proyectos de grupo y procesos de aprobación en el área de Grupos
 
@@ -135,7 +135,7 @@ Si es administrador de grupos, es fácil ver y trabajar con los proyectos y proc
 
 * Haga clic en Proyectos en el menú de la izquierda para ver los proyectos del grupo y crear otros nuevos para el grupo. Si se ha compartido un proyecto seleccionado con usted, puede utilizar los botones de la barra de herramientas para editarlo, exportarlo, copiarlo o eliminarlo.
 
-  Para obtener más información, vea [Crear y modificar proyectos de un grupo](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-projects.md).
+  Para obtener más información, consulte [Crear y modificar proyectos de un grupo](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-projects.md).
 
 * Haga clic en Aprobaciones en el menú de la izquierda para ver y administrar todos los procesos de aprobación asociados con el grupo.
 

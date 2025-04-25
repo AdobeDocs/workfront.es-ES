@@ -1,38 +1,38 @@
 ---
-title: 20.4 Mejoras en la gestión de recursos
-description: 20.4 Mejoras en la gestión de recursos
+title: 20.4 Mejoras en la administración de recursos
+description: 20.4 Mejoras en la administración de recursos
 author: Luke
 draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9f660a38-4a59-4135-8178-0841088cc7d6
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '1042'
-ht-degree: 0%
+ht-degree: 99%
 
 ---
 
-# 20.4 Mejoras en la gestión de recursos
+# 20.4 Mejoras en la administración de recursos
 
 Esta página describe todas las mejoras de Administración de recursos realizadas con la versión 20.4 en el entorno de vista previa. Estas mejoras estarán disponibles en el entorno de producción el 9 de noviembre de 2020.
 
-Para obtener una lista de todos los cambios disponibles con la versión 20.4, consulte [Descripción general de la versión 20.4](../../../product-announcements/product-releases/20.4-release-activity/20-4-release-overview.md).
+Para obtener una lista de todos los cambios disponibles con la versión 20.4, consulte [Información general de la versión 20.4](../../../product-announcements/product-releases/20.4-release-activity/20-4-release-overview.md).
 
-## Planificar el trabajo mediante esfuerzo de trabajo en lugar de horas planificadas
+## Planificar el trabajo mediante esfuerzo laboral en lugar de horas planificadas
 
-Para ofrecerle flexibilidad a la hora de planificar el trabajo en sus proyectos, hemos introducido el nuevo concepto de esfuerzo de trabajo para las tareas. Puede estimar si el esfuerzo de trabajo de una tarea es pequeño, mediano o grande sin estimar manualmente las horas planificadas para la tarea. Cada nivel de esfuerzo se calcula en función de un porcentaje de tiempo desde las horas típicas al día configuradas en la instancia.
+Para ofrecerle flexibilidad a la hora de planificar el trabajo en sus proyectos, hemos introducido el nuevo concepto de esfuerzo laboral para las tareas. Puede estimar si el esfuerzo laboral de una tarea es pequeño, mediano o grande sin estimar manualmente las horas planificadas para la tarea. Cada nivel de esfuerzo se calcula en función de un porcentaje de tiempo desde las horas típicas al día configuradas en la instancia.
 
 Las siguientes mejoras ya están disponibles con esta nueva función:
 
 * Habilite esta opción para proyectos y plantillas a fin de que esté disponible para tareas y tareas de plantilla
 * Actualice esta configuración para cada tarea con un Tipo de duración simple que actualice automáticamente las Horas planificadas de la tarea
 * Deshabilite esta configuración con una plantilla de diseño para los usuarios que prefieran seguir usando las horas planificadas.
-* Mostrar el valor de este nuevo campo en una lista de tareas o un informe.
+* Muester el valor de este nuevo campo en una lista de tareas o un informe.
 
-Para obtener información sobre el esfuerzo de trabajo, consulte [Resumen del esfuerzo de trabajo](../../../manage-work/tasks/task-information/work-effort.md).
+Para obtener información sobre el esfuerzo laboral, consulte [Información general del esfuerzo laboral](../../../manage-work/tasks/task-information/work-effort.md).
 
-Esta característica ahora se incluye en la ruta de aprendizaje [Aspectos básicos del planificador, parte 2](https://one.workfront.com/s/learningpath3/planner-fundamentals-for-the-new-workfront-experience-part-2-plan-a-project-20Y0z000000bm79EAA) en Workfront One.
+Esta característica ahora se incluye en la ruta de aprendizaje [Aspectos básicos del planificador, parte 2](https://experienceleague.adobe.com/en/docs/workfront/using/home) en Workfront One.
 
 ## Colores basados en el estado del proyecto para elementos de trabajo en el Distribuidor de cargas de trabajo
 
@@ -48,11 +48,11 @@ Para obtener información sobre cómo administrar asignaciones en el Distribuido
 
 ## Mostrar u ocultar trabajo completado en el Distribuidor de cargas de trabajo
 
-Ahora, una nueva configuración le permite mostrar u ocultar los elementos de trabajo completados en el Distribuidor de cargas de trabajo. La configuración está habilitada de forma predeterminada y los elementos de trabajo completados que coinciden con los criterios de filtrado y el lapso de tiempo seleccionado se muestran en el Distribuidor de cargas de trabajo.
+Ahora, una nueva configuración le permite mostrar u ocultar los elementos de trabajo completados en el Distribuidor de cargas de trabajo. La configuración está habilitada de forma predeterminada y los elementos de trabajo completados que coinciden con los criterios de filtrado y el lapso de tiempo seleccionados se muestran en el Distribuidor de cargas de trabajo.
 
 Antes de esta mejora, los elementos de trabajo completados siempre se mostraban en el Distribuidor de cargas de trabajo.
 
-Para obtener más información acerca de cómo ajustar la configuración en el Distribuidor de cargas de trabajo, vea [Desplazarse por el Distribuidor de cargas de trabajo](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
+Para obtener más información acerca de cómo ajustar la configuración en el Distribuidor de cargas de trabajo, consulte [Desplazarse por el Distribuidor de cargas de trabajo](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
 
 ## Mejoras de uso en el Distribuidor de cargas de trabajo
 
@@ -74,13 +74,13 @@ Para obtener más información sobre cómo navegar por el Distribuidor de cargas
 
 Para permitirle tener una representación visual de alto nivel de la asignación de los usuarios en un lapso de tiempo determinado, una nueva configuración ahora habilita una vista de gráfico de cómo se muestran las asignaciones en el Distribuidor de cargas de trabajo. Al habilitar esta configuración, se muestra la asignación de los usuarios en un gráfico de líneas que indica las sobreasignaciones en bloques rojos y las infraasignaciones en azul.
 
-Para obtener más información acerca de la configuración en el Distribuidor de cargas de trabajo, vea [Desplazarse por el Distribuidor de cargas de trabajo](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
+Para obtener más información acerca de la configuración en el Distribuidor de cargas de trabajo, consulte [Desplazarse por el Distribuidor de cargas de trabajo](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
 
-## Visualizar el trabajo completado en el Distribuidor de cargas de trabajo
+## Visualización del trabajo completado en el Distribuidor de cargas de trabajo
 
 Para permitirle identificar fácilmente el trabajo que ya se ha completado y poder administrar las asignaciones de usuario correctamente, hemos habilitado un indicador visual en el Distribuidor de cargas de trabajo que muestra cuándo se han completado los elementos de un lapso de tiempo seleccionado. Ahora puede ver una marca de verificación verde para las tareas y los problemas cuando se completan. El proyecto también muestra la marca de verificación verde cuando hay elementos de trabajo completados durante el lapso de tiempo mostrado en la pantalla.
 
-Para obtener información acerca de cómo ver información en el Distribuidor de cargas de trabajo, vea [Desplazarse por el Distribuidor de cargas de trabajo](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
+Para obtener información acerca de cómo ver información en el Distribuidor de cargas de trabajo, consulte [Desplazarse por el Distribuidor de cargas de trabajo](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
 
 ## Nuevo filtro predeterminado para el área de Trabajo asignado en el Distribuidor de cargas de trabajo
 
@@ -92,11 +92,11 @@ Para obtener información sobre el uso de filtros en el Distribuidor de cargas d
 
 ## Nuevo icono para cambiar entre horas y valores de porcentaje, o entre el tiempo asignado y el tiempo restante en el Distribuidor de cargas de trabajo
 
-Se ha agregado una nueva configuración que le permite cambiar entre las horas asignadas y los porcentajes a medida que ve el Distribuidor de cargas de trabajo. Con este nuevo icono, también hemos eliminado la sección Carga de trabajo del usuario en el panel Configuración. El Distribuidor de cargas de trabajo muestra el tiempo asignado de forma predeterminada y se ha movido la configuración de horas restantes al nuevo icono de porcentaje u horas.
+Se ha añadido una nueva configuración que le permite cambiar entre las horas asignadas y los porcentajes a medida que se ve el Distribuidor de cargas de trabajo. Con este nuevo icono, también hemos eliminado la sección Carga de trabajo del usuario en el panel Configuración. El Distribuidor de cargas de trabajo muestra el tiempo asignado de forma predeterminada y se ha movido la configuración de horas restantes al nuevo icono de porcentaje u horas.
 
 Esta mejora elimina los clics y hace que la navegación por el Distribuidor de cargas de trabajo sea más fácil y eficiente.
 
-Para obtener información acerca de cómo administrar la configuración del Distribuidor de cargas de trabajo, vea [Desplazarse por el Distribuidor de cargas de trabajo](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
+Para obtener información acerca de cómo administrar la configuración del Distribuidor de cargas de trabajo, consulte [Navegar por el Distribuidor de cargas de trabajo](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
 
 ## Un nuevo filtro integrado para el Distribuidor de cargas de trabajo: usuarios en proyectos
 

@@ -121,7 +121,7 @@ ht-degree: 53%
       <p>Esta opción está habilitada de forma predeterminada.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Permitir que se comparta la revisión mediante una dirección URL pública o código para insertar</td> 
+      <td role="rowheader">Permitir que se comparta la revisión mediante una dirección URL pública o código incrustado</td> 
       <td><p>Cuando se selecciona esta opción, la prueba se puede compartir mediante una URL pública o un código incrustado.</p>
        <p>Esta opción está habilitada de forma predeterminada.</p>
       </td> 

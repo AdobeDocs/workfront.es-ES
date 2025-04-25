@@ -6,7 +6,7 @@ description: Estamos realizando dos cambios en la forma en que Adobe Workfront e
 author: Luke
 feature: Product Announcements
 exl-id: 9110f04d-b7a9-428b-928c-c4eb746fec3f
-source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '313'
 ht-degree: 84%
@@ -31,4 +31,4 @@ Algunas notificaciones por correo electrónico permiten a los usuarios responder
 
 No se producirán cambios en los correos electrónicos procedentes directamente del sistema de Workfront Proof. Seguirá recibiendo esos correos electrónicos como lo ha hecho en el pasado.
 
-Si tiene otras preguntas o inquietudes, comuníquese con el [Equipo de soporte de Workfront](https://experienceleague.adobe.com/es?support-tab=home#support).
+Si tiene otras preguntas o inquietudes, comuníquese con el [Equipo de soporte de Workfront](https://experienceleague.adobe.com/?support-tab=home#support).

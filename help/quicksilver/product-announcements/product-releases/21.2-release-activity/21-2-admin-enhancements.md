@@ -8,7 +8,7 @@ author: Luke
 feature: Product Announcements, System Setup and Administration
 recommendations: noDisplay, noCatalog
 exl-id: 7ae5a04a-a9bc-4a85-8651-2b912f7fd7e4
-source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '1525'
 ht-degree: 99%
@@ -36,7 +36,7 @@ En el área Registros de auditoría, ahora puede realizar un seguimiento y soluc
 
 Para obtener más información, consulte [Registros de auditoría](../../../administration-and-setup/add-users/create-and-manage-users/audit-logs.md).
 
-Esta característica ahora se incluye en la ruta de aprendizaje [Aspectos básicos de administración para la nueva experiencia de Workfront, Parte 2: Configuración del proyecto](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-1-project-workfl-MCTBVZ3Q3J5RHNLIPPZPFSQRLKUY) en Workfront One.
+Esta característica ahora se incluye en la ruta de aprendizaje [Aspectos básicos de administración para la nueva experiencia de Workfront, Parte 2: Configuración del proyecto](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) en Workfront One.
 
 ## Para administradores de grupos: controles mejorados para mover subgrupos y una barra de herramientas actualizada
 
@@ -137,7 +137,7 @@ Anteriormente, estos valores predeterminados no se podían personalizar, por lo 
 
 Para obtener más información, vea [Personalización de Filtros, Vistas y Agrupaciones mediante una plantilla de diseño](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md).
 
-Esta característica ahora se incluye en la ruta de aprendizaje [Aspectos básicos del administrador en el nuevo Workfront Experience, Parte 3: Experiencia de control e interfaz](https://one.workfront.com/s/learningpath3/administrator-fundamentals-control-and-interface-experience-MCNCSSMXLPDFEERGVEM4EWL2I4LI) en Workfront One.
+Esta característica ahora se incluye en la ruta de aprendizaje [Aspectos básicos del administrador en el nuevo Workfront Experience, Parte 3: Experiencia de control e interfaz](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) en Workfront One.
 
 ## Nuevo para administradores: enumere con facilidad los informes que utilizan en la actualidad un campo personalizado
 

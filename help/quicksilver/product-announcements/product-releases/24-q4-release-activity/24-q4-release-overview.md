@@ -5,7 +5,7 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6cc67488-1ba9-4455-9152-366aaabf0939
-source-git-commit: 552e97c427e618f299b55a2eab5868c7b90a4156
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '2194'
 ht-degree: 46%
@@ -26,7 +26,7 @@ Las <span class="preview">funciones fuera de ciclo que se enviaron a producción
 >
 >| Versión mensual | Versión trimestral |
 >|----|----|
->| <ul><li>24.8 (15 de agosto de 2024)</li><li>24.9 (12 de septiembre de 2024)</li><li>24.10 (viernes, 17 de octubre de 2024)</li></ul> | <ul><li>24.10 (viernes, 17 de octubre de 2024)</li></ul> |
+>| <ul><li>24.8 (15 de agosto de 2024)</li><li>24.9 (12 de septiembre de 2024)</li><li>24.10 (17 de octubre de 2024)</li></ul> | <ul><li>24.10 (17 de octubre de 2024)</li></ul> |
 >
 >Tenga en cuenta que, para la versión final de cada trimestre (24.10 este trimestre), los usuarios de la programación de versiones rápidas recibirán la versión un día antes.
 >
@@ -511,12 +511,12 @@ Las <span class="preview">funciones fuera de ciclo que se enviaron a producción
             </tr>
             <tr>
                 <td>
-                    <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Asistente de IA de Adobe disponible en Workfront</a></p>
+                    <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-other-enhancements.md" class="MCXref xref" xrefformat="{para}">El Asistente de IA de Adobe está disponible en Workfront</a></p>
                     [!BADGE In production ]{type=Informative}
                     <p>Para facilitarle la realización de su trabajo, hemos agregado el asistente de IA de Adobe a Workfront. El asistente de IA puede ayudarle con lo siguiente:</p>
                     <ul>
                         <li>Resumir elementos y documentos de trabajo le permite obtener rápidamente una comprensión general de las tareas, los proyectos y los recursos.</li>
-                        <li>Proporcionar información de la documentación del Experience League, incorporar instrucciones y material de referencia a Workfront y, al mismo tiempo, vincularla a documentación más detallada.</li>
+                        <li>Proporcionar información de la documentación de Experience League, incorporar instrucciones y material de referencia a Workfront y, al mismo tiempo, vincular a documentación más detallada.</li>
                         <li>Crear y refinar fórmulas para campos de formulario personalizados calculados, generar fórmulas a partir de peticiones de texto o localizar errores en fórmulas existentes.</li>
                         </ul>
                         <p>El administrador de Workfront puede habilitar o deshabilitar el Asistente de IA para su organización. El asistente de IA está disponible para instancias con planes Select, Prime y Ultimate.</p>
@@ -591,8 +591,8 @@ Para obtener información sobre las versiones de API, consulte [Versiones de API
 
 ### Actualizaciones de mantenimiento de Workfront 
 
-Para obtener información sobre las actualizaciones de mantenimiento realizadas durante la versión del cuarto trimestre de 2024, consulte [Actualizaciones de mantenimiento de Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=es).
+Para obtener información sobre las actualizaciones de mantenimiento realizadas durante la versión del cuarto trimestre de 2024, consulte [Actualizaciones de mantenimiento de Workfront](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates).
 
 ### Actualizaciones de aprendizaje
 
-Explore las últimas actualizaciones realizadas en los programas de aprendizaje, rutas de aprendizaje, vídeos y guías de cada versión del producto de Adobe Workfront. Para obtener más información, consulte la sección “Novedades” de la [página de tutoriales de Workfront](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=es).
+Explore las últimas actualizaciones realizadas en los programas de aprendizaje, rutas de aprendizaje, vídeos y guías de cada versión del producto de Adobe Workfront. Para obtener más información, consulte la sección “Novedades” de la [página de tutoriales de Workfront](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home).

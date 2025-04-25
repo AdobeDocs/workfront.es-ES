@@ -9,7 +9,7 @@ author: Becky
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: 50aca40a-f971-42f2-b20f-fa4fff22335e
-source-git-commit: 33d5e67ffe3e28d0d667a82d881f274107d1d04a
+source-git-commit: 7f24186c8803237a6f5116293b3c6a5fd1ea90f6
 workflow-type: tm+mt
 source-wordcount: '1280'
 ht-degree: 88%
@@ -98,7 +98,7 @@ Entendemos que las integraciones integradas (nativas) disponibles podrían no sa
      <li>After Effects </li>
      </ul>
      <li><p>Descargar/instalar desde <a href="https://exchange.adobe.com/apps/browse/cc?page=1&amp;product=All&amp;q=workfront&amp;sort=RELEVANCE" class="MCXref xref">Adobe Exchange</a>.</p></li></ul>
-     <p>Para obtener información e instrucciones, consulte <a href="https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-integrations/workfront-for-creative-cloud/install-wf-cc/wf-cc-install-toc.html" class="MCXref xref">Instalar el complemento [!DNL Adobe Workfront] para [!DNL Creative Cloud] Aplicaciones</a></p> 
+     <p>Para obtener información e instrucciones, consulte <a href="https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-integrations/workfront-for-creative-cloud/install-wf-cc/wf-cc-install-toc" class="MCXref xref">Instalar el complemento [!DNL Adobe Workfront] para [!DNL Creative Cloud] Aplicaciones</a></p> 
      </td>  <td> </td> 
    <td> </td> 
   </tr> 

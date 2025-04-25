@@ -9,7 +9,7 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: 74e0a85b-a8aa-4e39-9c2e-0f09957ebafa
-source-git-commit: 85a2f154b3b561cdf53c68d50e66b8945f9f9823
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '1357'
 ht-degree: 1%
@@ -58,7 +58,7 @@ Debe tener lo siguiente:
 Las organizaciones deben trabajar con sus administradores de cuentas para adquirir AppBuilder. El proceso exacto para esto no se entiende porque no necesitábamos hacer esto para el POC.
 
 Si desea probar la integración de AppBuilder, puede solicitar una prueba gratuita para su organización de IMS aquí:
-[https://developer.adobe.com/app-builder/trial/#](https://developer.adobe.com/app-builder/trial/#)
+[https://developer.adobe.com/app-builder/docs/overview/getting_access/#](https://developer.adobe.com/app-builder/docs/overview/getting_access/#)
 
 Tengo la impresión de que aunque es una prueba gratuita de 30 días, en realidad no desactivarán la prueba después de ese tiempo.
 

@@ -3,11 +3,11 @@ title: Resumen de análisis mejorado
 content-type: overview
 product-area: enhanced-analytics
 navigation-topic: enhanced-analytics-navigation-topic
-description: El análisis mejorado es una potente herramienta en Adobe Workfront con visualizaciones prediseñadas que le permite ver los datos del proyecto e identificar las tendencias con la planificación y la finalización. Esta perspectiva de sus proyectos le ayuda a administrar el trabajo actual y le permite planificar con mayor precisión el trabajo futuro.
+description: El análisis mejorado es una potente herramienta en Adobe Workfront con visualizaciones prediseñadas que le permite ver los datos del proyecto e identificar las tendencias con la planificación y la finalización. Esta insight en sus proyectos le ayuda a administrar su trabajo actual y le permite planificar con mayor precisión el trabajo futuro.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: a14ad57c-859b-43df-84c0-575ccda86e50
-source-git-commit: 59e021aa3ae66e4fc8d9ce9eb57616f948e6cd90
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '1246'
 ht-degree: 10%
@@ -21,7 +21,7 @@ ht-degree: 10%
 >El análisis mejorado se eliminará de Workfront la semana del 26 de mayo. Workfront Data Connect es una nueva solución alternativa que se puede utilizar para replicar las visualizaciones de Analytics mejoradas que utilice actualmente. <br>Consulte la guía de [Desaprobación mejorada de Analytics](/help/quicksilver/product-announcements/announcements/enhanced-analytics-deprecation.md) para obtener más información.
 
 
-El análisis mejorado es una potente herramienta en Adobe Workfront con visualizaciones prediseñadas que le permite ver los datos del proyecto e identificar las tendencias con la planificación y la finalización. Esta perspectiva de sus proyectos le ayuda a administrar el trabajo actual y le permite planificar con mayor precisión el trabajo futuro.
+El análisis mejorado es una potente herramienta en Adobe Workfront con visualizaciones prediseñadas que le permite ver los datos del proyecto e identificar las tendencias con la planificación y la finalización. Esta insight en sus proyectos le ayuda a administrar su trabajo actual y le permite planificar con mayor precisión el trabajo futuro.
 
 Los análisis mejorados pueden ayudarle a identificar lo siguiente:
 
@@ -34,7 +34,7 @@ Los análisis mejorados pueden ayudarle a identificar lo siguiente:
 
 ![Análisis](assets/nwe-full-screen-analytics-350x222.png)
 
-Para ver casos de uso o obtener más información sobre la administración del trabajo actual y la planificación del trabajo futuro con el análisis mejorado, consulte [Rutas de aprendizaje de análisis mejorado](https://one.workfront.com/s/enhanced-analytics-program).
+Para ver casos de uso o obtener más información sobre la administración del trabajo actual y la planificación del trabajo futuro con el análisis mejorado, consulte [Rutas de aprendizaje de análisis mejorado](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home).
 
 ## Requisitos previos
 
@@ -42,11 +42,11 @@ Para acceder al área de Análisis mejorado, debe:
 
 * Tener un plan empresarial o de negocios.
 
-  Para obtener más información, consulte [Planes de Workfront](https://www.workfront.com/plans).
+  Para obtener más información, consulte [Planes de Workfront](https://business.adobe.com/products/workfront/pricing.html).
 
 * Pida al administrador de Workfront que añada análisis mejorados a la plantilla de diseño.
 
-  Para obtener más información, consulte [Análisis mejorado: agregar análisis a plantillas de diseño](https://one.workfront.com/s/managed-content-videos/enhanced-analytics-adding-analytics-to-layout-templates-MCH7URDSIXRREHHHF7TRTYYP2LTE).
+  Para obtener más información, consulte [Análisis mejorado: agregar análisis a plantillas de diseño](https://experienceleague.adobe.com/en/docs/workfront/using/home).
 
 Para ver información de proyectos y tareas, debe:
 
@@ -139,7 +139,7 @@ Si utiliza software de lectura de pantalla o un complemento, el lector de pantal
 
 ## Vistas y funciones de análisis mejoradas
 
-Para obtener más información sobre los detalles de una función específica dentro del análisis mejorado, las acciones que puede completar para obtener más información y lo que puede aprender de estos datos, consulte los siguientes artículos:
+Para obtener más información sobre los detalles de una función específica dentro del análisis mejorado, las acciones que puede completar para obtener más información de insight y lo que puede aprender de estos datos, consulte los siguientes artículos:
 
 <table style="table-layout:auto"> 
  <col> 

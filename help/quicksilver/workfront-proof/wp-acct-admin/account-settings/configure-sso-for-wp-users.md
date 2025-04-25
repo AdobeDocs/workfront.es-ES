@@ -7,10 +7,10 @@ description: Si tiene el plan Select o Premium, puede proporcionar la capacidad 
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 52ac1919-1821-424f-89f8-72865b236e4e
-source-git-commit: 74a877145b55ccc14b4d5aefd1889919a39e1f20
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '1225'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
@@ -94,7 +94,7 @@ El inicio de sesión único es una características de Select y Premium, por lo 
 Aquí tiene dos métodos (5) de configuración:
 
 1. **Heredado:** SSO con la configuración tomada de su cuenta central.
-Si un usuario accede a [!DNL Workfront Proof] a través de la **página de inicio de sesión predeterminada** ([https://www.proofhq.com/login](https://www.proofhq.com/login)), habrá **dos niveles de autorización**: en primer lugar, se pide al usuario que inicie sesión con los datos de acceso de [!DNL Workfront Proof] (correo electrónico y contraseña); a continuación, se transfiere al usuario a través de una ventana de SSO a la página de inicio de sesión de SSO.
+Si un usuario tiene acceso a [!DNL Workfront Proof] a través de la **página de inicio de sesión predeterminada** ([https://business.adobe.com/products/workfront/proofing-approvals.html](https://business.adobe.com/products/workfront/proofing-approvals.html)), habrá **dos niveles de autorización**: En primer lugar, se pide al usuario que inicie sesión con los datos de acceso de [!DNL Workfront Proof] (correo electrónico y contraseña); a continuación, se transfiere al usuario a través de una ventana de SSO a la página de inicio de sesión de SSO.
 Por lo tanto, con el servicio SSO habilitado, recomendamos iniciar sesión a través de su propio subdominio/dominio de [!DNL Workfront Proof].
 
    >[!NOTE]
@@ -143,7 +143,7 @@ Si se ha elegido la configuración de SSO manual para una cuenta satélite (1), 
 Con el inicio de sesión único habilitado, la dirección URL de inicio de sesión de subdominio (por ejemplo, yourcompany.proofhq.com/login) muestra una pantalla de transferencia (2) que le lleva directamente a la página de inicio de sesión de SSO.
    ![SSO_login_page.png](assets/sso-login-page-350x164.png)
 
-1. Si un usuario accede a [!DNL Workfront Proof] a través de la **página de inicio de sesión predeterminada** ([https://www.proofhq.com/login](https://www.proofhq.com/login)), habrá **dos niveles de autorización**. Primero se le pide al usuario que inicie sesión usando los datos de acceso de [!DNL Workfront Proof] (correo electrónico y contraseña). A continuación, el usuario se transfiere a través de una ventana de SSO (2) a la página de inicio de sesión de SSO.\
+1. Si un usuario tiene acceso a [!DNL Workfront Proof] a través de la **página de inicio de sesión predeterminada** ([https://business.adobe.com/products/workfront/proofing-approvals.html](https://business.adobe.com/products/workfront/proofing-approvals.html)), habrá **dos niveles de autorización**. Primero se le pide al usuario que inicie sesión usando los datos de acceso de [!DNL Workfront Proof] (correo electrónico y contraseña). A continuación, el usuario se transfiere a través de una ventana de SSO (2) a la página de inicio de sesión de SSO.\
    Por lo tanto, con el servicio SSO habilitado, recomendamos iniciar sesión a través de su propio subdominio/dominio [!DNL Workfront Proof].
 
 1. En este momento, cuando el inicio de sesión único está habilitado en su cuenta de Workfront Proof, no podrá iniciar sesión en la aplicación de iPhone con esas credenciales.

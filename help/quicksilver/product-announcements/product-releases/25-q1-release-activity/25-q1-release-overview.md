@@ -5,7 +5,7 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 5bb898fa-d74e-4174-bc93-d8ffb8937680
-source-git-commit: 46faf723ea7a8e9dfa02c0f2bed1f5f450976fc8
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '2775'
 ht-degree: 39%
@@ -583,7 +583,7 @@ En esta página se ofrece información sobre la funcionalidad incluida en la ver
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-report-and-dashboard-enhancements.md" class="MCXref xref" xrefformat="{para}">
             Botón de creación de cuenta del lector por primera vez para Data Connect</a></p>
             [!BADGE In production ]{type=Informative}
-            <p>A los administradores que acceden a Data Connect por primera vez se les presenta la opción de crear una nueva cuenta de Snowflake reader haciendo clic en un solo botón. El proceso tarda unos minutos en completarse, pero no requiere ninguna acción adicional.</p>
+            <p>A los administradores que acceden a Data Connect por primera vez se les presenta la opción de crear una nueva cuenta de lector de Snowflake haciendo clic en un solo botón. El proceso tarda unos minutos en completarse, pero no requiere ninguna acción adicional.</p>
         </td>
         <td>
             <p><b>Disponible en estas fechas:</b></p>
@@ -747,8 +747,8 @@ Para obtener información sobre las versiones de API, consulte [Versiones de API
 
 ### Actualizaciones de mantenimiento de Workfront 
 
-Para obtener información sobre las actualizaciones de mantenimiento realizadas durante la versión del primer trimestre de 2025, consulte [Actualizaciones de mantenimiento de Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=es).
+Para obtener información sobre las actualizaciones de mantenimiento realizadas durante la versión del primer trimestre de 2025, consulte [Actualizaciones de mantenimiento de Workfront](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates).
 
 ### Actualizaciones de aprendizaje
 
-Explore las últimas actualizaciones realizadas en los programas de aprendizaje, rutas de aprendizaje, vídeos y guías de cada versión del producto de Adobe Workfront. Para obtener más información, consulte la sección “Novedades” de la [página de tutoriales de Workfront](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=es).
+Explore las últimas actualizaciones realizadas en los programas de aprendizaje, rutas de aprendizaje, vídeos y guías de cada versión del producto de Adobe Workfront. Para obtener más información, consulte la sección “Novedades” de la [página de tutoriales de Workfront](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home).

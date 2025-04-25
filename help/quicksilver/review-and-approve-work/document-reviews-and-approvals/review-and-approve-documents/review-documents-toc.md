@@ -2,16 +2,16 @@
 content-type: reference
 product-area: projects
 navigation-topic: projects-navigation-topic
-title: "Revisar y aprobar documentos: índice de artículos"
+title: 'Revisar y aprobar documentos: índice de artículos'
 description: Esta sección contiene artículos sobre la revisión de documentos en Adobe Workfront.
 author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: cb4c2496-4219-4e37-9785-a8d224bc3936
-source-git-commit: b55e06fb9734d7abe203a139ed34ba7ec77f5f4c
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '67'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
@@ -23,5 +23,5 @@ ht-degree: 0%
 
 Esta sección contiene los siguientes artículos:
 
-* [Revisar un documento en Workfront](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-a-document.md)
+* [Revisión de un documento en Workfront](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-a-document.md)
 * [Aprobar un documento](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/approve-a-document.md)

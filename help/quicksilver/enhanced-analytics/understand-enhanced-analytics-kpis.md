@@ -7,7 +7,7 @@ description: En la parte superior de la pantalla del área de Análisis mejorado
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 44e43618-9a0b-4585-8659-c1fe055516be
-source-git-commit: 59e021aa3ae66e4fc8d9ce9eb57616f948e6cd90
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '566'
 ht-degree: 89%
@@ -22,7 +22,7 @@ ht-degree: 89%
 
 
 Se requiere un plan de empresa o superior para utilizar esta función.\
-Para obtener más información sobre los diversos planes disponibles, consulte [Planes de Adobe Workfront](https://www.workfront.com/plans).
+Para obtener más información sobre los diversos planes disponibles, consulte [Planes de Adobe Workfront](https://business.adobe.com/products/workfront/pricing.html).
 
 En la parte superior de la pantalla del área de Análisis mejorado se muestran cuatro indicadores clave de rendimiento (KPI). Estas métricas permiten comprender rápidamente cuánto tardan los proyectos, cuál es su envergadura y cuántos se completan en un lapso de tiempo determinado. Estos números no se limitan al máximo de 50 proyectos que aparece en las visualizaciones de esta página. En su lugar, estos datos se basan en todos los proyectos que se aplican a cualquier filtro establecido y estos números se ajustan si cambia el intervalo de fecha seleccionado o cualquiera de los filtros.
 

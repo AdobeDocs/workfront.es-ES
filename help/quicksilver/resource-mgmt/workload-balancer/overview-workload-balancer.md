@@ -7,7 +7,7 @@ description: Una vez que los administradores de proyecto hayan planificado el tr
 author: Lisa
 feature: Resource Management
 exl-id: 9398bd04-9df7-4b77-8361-fdb5bdce6829
-source-git-commit: 696d656816a4c1c2edef4347567b2fc553f489f7
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '1194'
 ht-degree: 96%
@@ -35,7 +35,7 @@ Una vez que los administradores de proyecto hayan planificado el trabajo en los 
 
 Este artículo describe el propósito general del Distribuidor de cargas de trabajo y algunas de las prácticas recomendadas sobre cómo puede configurar sus proyectos y recursos para utilizarlo correctamente.
 
-Para revisar los tutoriales en vídeo del Distribuidor de cargas de trabajo, vaya a la página [Tutorials de Workfront](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=es). En el menú de la izquierda, seleccione **Administrar recursos** > **Distribuidor de cargas de trabajo** y elija un tutorial.
+Para revisar los tutoriales en vídeo del Distribuidor de cargas de trabajo, vaya a la página [Tutorials de Workfront](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home). En el menú de la izquierda, seleccione **Administrar recursos** > **Distribuidor de cargas de trabajo** y elija un tutorial.
 
 ## Buscar el Distribuidor de cargas de trabajo
 

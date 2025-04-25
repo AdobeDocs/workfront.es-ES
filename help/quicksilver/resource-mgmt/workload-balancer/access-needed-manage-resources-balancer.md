@@ -2,26 +2,26 @@
 product-area: resource-management
 navigation-topic: the-workload-balancer
 title: Acceso necesario para administrar recursos en el Distribuidor de cargas de trabajo
-description: Sin el acceso o los permisos correctos, es posible que no pueda ver o administrar sus asignaciones de trabajo en el Distribuidor de cargas de trabajo.
+description: Sin el acceso o los permisos correctos, es posible que no pueda ver o administrar sus asignaciones de trabajo en el Equilibrador de carga de trabajo.
 author: Lisa
 feature: Resource Management
 exl-id: b3da9a62-481e-4503-8f27-136d6513262e
-source-git-commit: db0aab0e6e7e896a8e7c0afe2da709de7c3c2a4e
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '462'
-ht-degree: 0%
+ht-degree: 80%
 
 ---
 
-# Acceso necesario para administrar los recursos en el Distribuidor de cargas de trabajo
+# Acceso necesario para administrar los recursos en el Equilibrador de carga de trabajo
 
-Sin el acceso o los permisos correctos, es posible que no pueda ver o administrar sus asignaciones de trabajo en el Distribuidor de cargas de trabajo.
+Sin el acceso o los permisos correctos, es posible que no pueda ver o administrar sus asignaciones de trabajo en el Equilibrador de carga de trabajo.
 
-Debe tener acceso para ver los usuarios cuya carga de trabajo desee ver o administrar en el Distribuidor de cargas de trabajo. Además, debe tener el nivel de acceso correcto y los permisos correctos en los proyectos con los que está asociado el trabajo.
+Debe tener acceso para ver los usuarios cuya carga de trabajo desee ver o administrar en el Equilibrador de carga de trabajo. Además, debe tener el nivel de acceso correcto y los permisos correctos en los proyectos con los que está asociado el trabajo.
 
-## Plan de Adobe Workfront necesario para utilizar el Distribuidor de cargas de trabajo para diferentes áreas
+## Plan de Adobe Workfront necesario para utilizar el Equilibrador de carga de trabajo para diferentes áreas
 
-La siguiente tabla ilustra la conexión entre el plan de Workfront que tiene su compañía y dónde puede utilizar el Distribuidor de cargas de trabajo en el sistema:
+La siguiente tabla ilustra la conexión entre el plan de Workfront que tiene su compañía y dónde puede utilizar el Equilibrador de carga de trabajo en el sistema:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -29,19 +29,19 @@ La siguiente tabla ilustra la conexión entre el plan de Workfront que tiene su 
  <tbody> 
   <tr> 
    <td role="rowheader"><p><b>Plan Workfront (actual)</b></p></td> 
-   <td> <p><b>Áreas donde puede acceder al Distribuidor de cargas de trabajo</b></p> </td> 
+   <td> <p><b>Áreas donde puede acceder al Equilibrador de carga de trabajo</b></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Equipo o superior </td> 
-   <td>Distribuidor de cargas de trabajo para un equipo o un proyecto</td> 
+   <td>Equilibrador de carga de trabajo para un equipo o un proyecto</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Pro o superior</td> 
-   <td>Distribuidor de cargas de trabajo para varios proyectos, a nivel de sistema</td> 
+   <td>Equilibrador de carga de trabajo para varios proyectos, a nivel del sistema</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p><b>Plan Workfront (Nuevo)</b></p></td> 
-   <td> <p><b>Áreas donde puede acceder al Distribuidor de cargas de trabajo</b></p> </td> 
+   <td> <p><b>Áreas donde puede acceder al Equilibrador de carga de trabajo</b></p> </td> 
   </tr>
   <tr> 
    <td role="rowheader">Cualquiera </td> 
@@ -50,13 +50,13 @@ La siguiente tabla ilustra la conexión entre el plan de Workfront que tiene su 
  </tbody> 
 </table>
 
-Para obtener información sobre los planes de Workfront, consulte [Nuestros planes](https://www.workfront.com/plans).
+Para obtener información sobre los planes de Workfront, consulte [Nuestros planes](https://business.adobe.com/products/workfront/pricing.html).
 
-Para obtener información sobre dónde puede ubicar el Distribuidor de cargas de trabajo en Workfront, consulte [Localizar el Distribuidor de cargas de trabajo](../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
+Para obtener información sobre dónde puede localizar el Equilibrador de carga de trabajo en Workfront, consulte [Localizar el Equilibrador de carga de trabajo](../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
 
-## Acceso necesario para ver el Distribuidor de cargas de trabajo
+## Acceso necesario para ver el Equilibrador de carga de trabajo
 
-Debe tener el siguiente acceso para ver el Distribuidor de cargas de trabajo:
+Debe tener el siguiente acceso para ver el Equilibrador de carga de trabajo:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -71,20 +71,20 @@ Debe tener el siguiente acceso para ver el Distribuidor de cargas de trabajo:
   </tr>  
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso</td> 
-   <td> <p>Acceso de visualización o superior a la administración de recursos</p> <p>Para obtener información acerca del nivel de acceso a Administración de recursos, vea el artículo <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md" class="MCXref xref">Conceder acceso a Administración de recursos</a>.</p></td> 
+   <td> <p>Acceso de visualización o superior a la administración de recursos</p> <p>Para obtener información acerca del nivel de acceso a la Administración de recursos, consulte el artículo <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md" class="MCXref xref">Conceder acceso a la Administración de recursos</a>.</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Debe tener permisos de vista en el proyecto cuyas asignaciones desee ver. </p> <p>Para obtener información acerca de los permisos del proyecto, vea el artículo <a href="../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Compartir un proyecto en Adobe Workfront</a>.</p></td> 
+   <td> <p>Debe tener permisos de vista en el proyecto cuyas asignaciones desee ver. </p> <p>Para obtener información acerca de los permisos de los proyectos, consulte el artículo <a href="../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Uso compartido de proyectos en Adobe Workfront</a>.</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-## Acceso necesario para administrar asignaciones en el Distribuidor de cargas de trabajo
+## Acceso necesario para administrar asignaciones en el Equilibrador de carga de trabajo
 
-Debe tener el siguiente acceso para administrar el Distribuidor de cargas de trabajo:
+Debe tener el siguiente acceso para administrar el Equilibrador de carga de trabajo:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -99,17 +99,17 @@ Debe tener el siguiente acceso para administrar el Distribuidor de cargas de tra
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso</td> 
-   <td> <p>Editar acceso a Administración de recursos</p> 
-     <p>Para obtener información acerca del nivel de acceso a Administración de recursos, vea el artículo <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md" class="MCXref xref">Conceder acceso a Administración de recursos</a>.</p> </td> 
+   <td> <p>Acceso de edición a la administración de recursos</p> 
+     <p>Para obtener información acerca del nivel de acceso a Administración de recursos, consulte el artículo <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md" class="MCXref xref">Conceder acceso a la administración de recursos</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p> Contribute o permisos superiores en el proyecto cuyas asignaciones desea administrar, lo que incluye permisos para realizar asignaciones. </p> <p>Para obtener información acerca de los permisos del proyecto, vea el artículo <a href="../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Compartir un proyecto en Adobe Workfront</a>.</p></td>
+   <td> <p> Permisos de contribución o superiores sobre el proyecto cuyas asignaciones desea administrar, lo que incluye permisos para realizar asignaciones. </p> <p>Para obtener información acerca de los permisos del proyecto, consulte el artículo <a href="../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Compartir un proyecto en Adobe Workfront</a>.</p></td>
   </tr> 
  </tbody> 
 </table>
 
-Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 <!--these notes were inside the table: for the Edit access to Res Management
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">View or higher access to Financial Data, if you want to view information by cost (NOTE: this is not possible yet!)</p>    

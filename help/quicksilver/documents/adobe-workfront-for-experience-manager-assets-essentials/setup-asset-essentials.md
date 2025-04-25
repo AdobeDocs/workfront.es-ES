@@ -2,24 +2,24 @@
 product-area: documents;workfront-integrations
 navigation-topic: adobe-workfront-for-experince-manager-asset-essentials
 title: Configuración de la integración de Experience Manager Assets Essentials
-description: Conecte su trabajo con el contenido de Experience Manager Assets Essentials.
+description: Conecte su trabajo a su contenido en Experience Manager Assets Essentials.
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: abaa76e2-bbf1-47d0-8bdc-4e950df4f7ea
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '623'
-ht-degree: 1%
+ht-degree: 97%
 
 ---
 
 # Configurar la integración de Experience Manager Assets Essentials
 
-Conecte su trabajo con el contenido de Experience Manager Assets Essentials&#x200B;:
+Conecte su trabajo a su contenido en Experience Manager Assets Essentials:
 
-* Inserción de recursos y metadatos de Adobe Workfront en Experience Manager Assets Essentials&#x200B;
-* Vincule recursos de Experience Manager Assets Essentials a sus proyectos y tareas en Workfront&#x200B;
-* Facilitar los flujos de trabajo de versiones para los recursos insertados en Experience Manager Assets Essentials
+* Inserte recursos y metadatos de Adobe Workfront en Experience Manager Assets Essentials
+* Vincule recursos de Experience Manager Assets Essentials a sus proyectos y tareas de Workfront
+* Facilite los flujos de trabajo de versiones para los recursos insertados en Experience Manager Assets Essentials
 
 >[!NOTE]
 >
@@ -41,7 +41,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   <tr>
    <td>[!DNL Adobe Workfront] licencia
    </td>
-   <td><p>Actual: [!UICONTROL plan]</p>
+   <td><p>Actual: [!UICONTROL Plan]</p>
    <p>Nuevo: [!UICONTROL Standard]</p></td>
   </tr>
   <tr>
@@ -53,7 +53,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   <tr>
    <td>Producto
    </td>
-   <td>Debe tener Experience Manager Assets Essentials y se le debe añadir al producto como usuario en el Admin Console.
+   <td>Debe tener Experience Manager Assets Essentials y se le debe añadir al producto como usuario en la Admin Console.
    </td>
   </tr>
   <tr>
@@ -68,25 +68,25 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
 
 +++
 
-## Configuración de la integración
+## Configurar la integración
 
 {{step-1-to-setup}}
 
 1. Seleccione **Documentos** ![icono de documentos](assets/document-icon.png) en el panel izquierdo y, a continuación, seleccione **Integración de Experience Manager**.
-1. Seleccione **Agregar integración de Experience Manager**.
+1. Seleccione **Añadir integración de Experience Manager**.
 1. Especifique lo siguiente:
 
    <table>
    <tr>
       <td><strong>Nombre</strong>
       </td>
-      <td>Escriba el nombre que desea que vean los usuarios en el botón Agregar nuevo del área Documentos.
+      <td>Introduzca el nombre que desea que vean los usuarios en el botón Añadir nuevo del área Documentos.
       </td>
    </tr>
    <tr>
       <td><strong>URL de navegación</strong>
       </td>
-      <td>El sistema rellena automáticamente la URL de navegación. Esta URL se utiliza para vincular a la instancia de Assets Essentials de su organización desde el menú principal para acceder rápidamente.
+      <td>El sistema rellena automáticamente la URL de navegación. Esta URL se utiliza para establecer el vínculo a la instancia de Assets Essentials de su organización desde el menú principal para un acceso rápido.
       </td>
    </tr>
    <tr>
@@ -99,10 +99,10 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
    </tr>
    </table>
 
-1. Haga clic en **Guardar** o continúe con la sección [Configurar metadatos (opcional)](#set-up-metadata-optional) de este artículo.
+1. Haga clic en **Guardar** o continúe en la sección [Configurar metadatos (opcional)](#set-up-metadata-optional) de este artículo.
 
 
-## Configuración de metadatos (opcional)
+## Configurar metadatos (opcional)
 
 Asigne datos de objeto de Workfront a los campos de medios de recursos en Experience Manager Assets. Los metadatos se asignan cuando se envía un recurso desde Workfront por primera vez.
 
@@ -111,18 +111,18 @@ Asigne datos de objeto de Workfront a los campos de medios de recursos en Experi
 
 Antes de empezar, debe
 
-* Configure un esquema de metadatos en Experience Manager Assets Essentials como se explica en [Configure la asignación de metadatos de recursos entre Adobe Workfront y Experience Manager Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=en).
+* Configure un esquema de metadatos en Experience Manager Assets Essentials como se explica en [Configurar la asignación de metadatos de recursos entre Adobe Workfront y Experience Manager Assets](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
 * (Opcional) Configure campos de formulario personalizados en Workfront. Workfront tiene muchos campos personalizados integrados que puede utilizar. Sin embargo, también puede crear sus propios campos personalizados. Para obtener más información, consulte [Crear un formulario personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ## Campos compatibles de Workfront y Experience Manager Assets
 
-### AEM Palabra clave
+### Palabra clave AEM
 
 Puede asignar cualquier campo compatible con Workfront a una palabra clave en Experience Manager Assets Essentials.
 
-Para vincular un campo a una palabra clave, seleccione `xcm:keywords` en la lista desplegable de campos de Experience Manager Assets en el área de asignación de metadatos.
+Para vincular un campo a una palabra clave, seleccione `xcm:keywords` en la lista desplegable de campos de Experience Manager Assets situada en el área de asignación de metadatos.
 
-Para asignar varios campos de texto de una sola línea a palabras clave, escriba una lista separada por comas de los valores de palabras clave en el lado Workfront de la asignación de metadatos y `xcm:keywords` en el lado Experience Manager Assets. Cada valor de campo se asigna a una palabra clave independiente. Puede utilizar un campo calculado para combinar varios campos de Workfront en un único campo de texto separado por comas.
+Para asignar varios campos de texto de una sola línea a palabras clave, introduzca una lista separada por comas de los valores de palabras clave en el lado Workfront de la asignación de metadatos y `xcm:keywords` en el lado Experience Manager Assets. Cada valor de campo se asigna a una palabra clave independiente. Puede utilizar un campo calculado para combinar varios campos de Workfront en un único campo de texto separado por comas.
 
 <!--
 Look for essentials article
@@ -142,11 +142,11 @@ Los metadatos se asignan cuando se envía un recurso desde Workfront por primera
 
 1. En el campo **Experience Manager**, elija un campo de Experience Manager Assets.
 
-   Para asignar un campo Workfront a una etiqueta Experience Manager Assets, seleccione `xcm:keywords`.
+   Para asignar un campo de Workfront a una etiqueta de Experience Manager Assets, seleccione `xcm:keywords`.
 
 1. Repita los pasos 1 y 2 según sea necesario.
    ![habilitar metadatos](assets/metadata-assets-essentials.png)
-1. Haga clic en **Guardar** o continúe con la sección [Configurar carpetas vinculadas (opcional)](#set-up-linked-folders-optional) de este artículo.
+1. Haga clic en **Guardar** o continúe en la sección [Configurar carpetas vinculadas (opcional)](#set-up-linked-folders-optional) de este artículo.
 
 
 ## Configurar carpetas vinculadas (opcional)

@@ -8,7 +8,7 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 0897b269-c6f3-4b63-8956-b7f9fbe0a553
-source-git-commit: 552e97c427e618f299b55a2eab5868c7b90a4156
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '4718'
 ht-degree: 77%
@@ -343,7 +343,7 @@ For specific release dates and times for each cluster, see the [Adobe Workfront 
    <td> <p><strong>Entornos y fechas de lanzamiento</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/21.4-release-activity/21-4-integration-enhancements.md#link" class="MCXref xref" xrefformat="{para}">Enlazar documentos de la empresa del Dropbox</a> </p> <p>Se añadió Dropbox Business como integración de documentos disponible. Ya es posible acceder a los documentos almacenados en Dropbox Business directamente desde Workfront.</p> <p>Dropbox Business permite vincular documentos compartidos y cargar documentos en carpetas compartidas. Dropbox (no Dropbox Business) permite que solo el propietario de los documentos pueda ver el documento en Workfront.</p> <p>El administrador de Workfront puede habilitar esta integración para su organización.</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/21.4-release-activity/21-4-integration-enhancements.md#link" class="MCXref xref" xrefformat="{para}">Enlazar documentos de Dropbox Business</a> </p> <p>Se añadió Dropbox Business como integración de documentos disponible. Ya es posible acceder a los documentos almacenados en Dropbox Business directamente desde Workfront.</p> <p>Dropbox Business permite vincular documentos compartidos y cargar documentos en carpetas compartidas. Dropbox (no Dropbox Business) permite que solo el propietario de los documentos pueda ver el documento en Workfront.</p> <p>El administrador de Workfront puede habilitar esta integración para su organización.</p> </td> 
    <td> <p><b>Disponible en estas fechas:</b> </p> <p>Versión de vista previa: N/D<br></p> <p>Versión de producción: con la versión 21.4</p> <p><strong>Disponible en estos entornos:</strong> </p> <p>La nueva experiencia de Adobe Workfront </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -465,7 +465,7 @@ El seminario web sobre la versión 21.4 de Workfront se presentó el viernes, 23
 
 ## Actualizaciones de aprendizaje
 
-Explore las últimas actualizaciones realizadas en los programas de aprendizaje, rutas de aprendizaje, vídeos y guías de cada versión del producto de Adobe Workfront. Para obtener más información, consulte la página [Actualizaciones de la versión de formación](https://one.workfront.com/s/training-release-updates).
+Explore las últimas actualizaciones realizadas en los programas de aprendizaje, rutas de aprendizaje, vídeos y guías de cada versión del producto de Adobe Workfront. Para obtener más información, consulte la página [Actualizaciones de la versión de formación](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home).
 
 ## Esta funcionalidad ya no es compatible
 

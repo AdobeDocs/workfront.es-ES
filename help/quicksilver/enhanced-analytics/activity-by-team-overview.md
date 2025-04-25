@@ -7,10 +7,10 @@ description: La visualización Actividad por equipo muestra las actividades que 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: c4f9886c-ce76-43a8-bd43-cb64fff27e79
-source-git-commit: 59e021aa3ae66e4fc8d9ce9eb57616f948e6cd90
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '769'
-ht-degree: 37%
+ht-degree: 36%
 
 ---
 
@@ -44,7 +44,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">Plan de Workfront</a></td> 
+   <td role="rowheader"><a href="https://business.adobe.com/products/workfront/pricing.html" target="_blank">Plan de Workfront</a></td> 
    <td> <p>Business o superior</p> </td> 
   </tr> 
   <tr> 

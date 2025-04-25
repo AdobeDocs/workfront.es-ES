@@ -7,7 +7,7 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7cf7f6ed-fe85-4c86-bb4b-dd93197338cf
-source-git-commit: 552e97c427e618f299b55a2eab5868c7b90a4156
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '3695'
 ht-degree: 99%
@@ -310,7 +310,7 @@ This section will be updated with more information prior to the 20.4 release bei
 </MadCap:conditionalText>
 -->
 
-Para obtener más información sobre novedades y actualizaciones, consulte [Novedades de la versión 12 de la API](https://one.workfront.com/s/document-item?bundleId=workfront-classic&amp;topicId=Content%2FWF_API%2FAPI%2Fnew-api-version-12.htm).
+Para obtener más información sobre novedades y actualizaciones, consulte [Novedades de la versión 12 de la API](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-api/api-notes/new-api-version-12).
 
 Para obtener más información sobre las versiones de API, consulte [Versiones de API y programación de soporte](../../../wf-api/api/api-version-support-schedule.md)
 
@@ -348,7 +348,7 @@ El seminario web sobre la versión 20.4 de Workfront se presentará el miércole
 
 A partir del 20 de mayo de 2020, Workfront empezó a ofrecer la funcionalidad en el entorno de vista previa de forma semanal. Antes de este cambio, la funcionalidad generalmente se publicaba en el entorno de vista previa cada dos semanas.
 
-Para obtener más información, consulte [Preguntas frecuentes sobre el cambio en la cadencia de la versión preliminar de Workfront](https://one.workfront.com/s/article/Change-in-Workfront-Preview-release-cadence)
+Para obtener más información, consulte [Preguntas frecuentes sobre el cambio en la cadencia de la versión preliminar de Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/home)
 
 ### Lista de permitidos de dominios adicionales necesarios para acceder a Workfront {#allowlist-of-additional-domains-required-for-accessing-workfront}
 
@@ -363,4 +363,4 @@ Para obtener más información, consulte [Configurar la lista de permitidos del 
 
 Con Workfront One, descubrirá el contenido, los recursos y las noticias más importantes de Workfront: todo en un solo lugar, con un solo inicio de sesión. Hemos unificado los sitios de experiencia, comunidad y formación, para que le resulte más fácil encontrar lo que busca.
 
-[Más información sobre Workfront One](https://www.workfront.com/campaigns/workfront-one).
+[Más información sobre Workfront One](https://business.adobe.com/products/workfront.html).

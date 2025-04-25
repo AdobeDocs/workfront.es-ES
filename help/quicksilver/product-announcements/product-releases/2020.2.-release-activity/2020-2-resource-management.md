@@ -1,16 +1,16 @@
 ---
 content-type: release-notes
 navigation-topic: 2020-2-release-activity
-title: "Mejoras en la administración de recursos de 2020.2: Distribuidor de cargas de trabajo"
+title: 'Mejoras en la administración de recursos de 2020.2: Distribuidor de cargas de trabajo'
 description: Esta página describe todas las mejoras de Administración de recursos realizadas con la versión 2020.2 en el entorno de producción. Estas mejoras estaban disponibles en el entorno de producción en la semana del 11 de mayo de 2020.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 00cc1205-5d58-485b-8076-e177f1d931f9
-source-git-commit: 99aac8d1621370f901704f58affd9e3e18497c4e
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '1741'
-ht-degree: 0%
+ht-degree: 42%
 
 ---
 
@@ -64,7 +64,7 @@ Para obtener información sobre el filtrado en el Distribuidor de cargas de trab
 
 Para ayudarle a tomar las decisiones de asignación correctas, una nueva configuración ahora le permite ver la diferencia de horas entre las horas que un usuario está disponible para trabajar según su horario y las horas que ya se les ha asignado para trabajar (las horas restantes). La nueva configuración ya está disponible en el Distribuidor de cargas de trabajo.
 
-Para obtener información sobre cómo ver la información en el Distribuidor de cargas de trabajo, consulte [Navegar por el Distribuidor de cargas de trabajo](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md) (o si utiliza Adobe Workfront Classic, consulte [Navegar por el Distribuidor de cargas de trabajo](https://one.workfront.com/s/article/Navigate-the-Workload-Balancer-1841453648)).
+Para obtener información sobre cómo ver la información en el Distribuidor de cargas de trabajo, consulte [Navegar por el Distribuidor de cargas de trabajo](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md) (o si utiliza Adobe Workfront Classic, consulte [Navegar por el Distribuidor de cargas de trabajo](https://experienceleague.adobe.com/en/docs/workfront/using/home)).
 
 **Disponible en estos entornos:**
 
@@ -74,9 +74,9 @@ Para obtener información sobre cómo ver la información en el Distribuidor de 
 
 Para ayudarle a comprender cómo afectarán las tareas a la carga de trabajo de los usuarios antes de asignarles, la configuración &quot;Mostrar asignaciones&quot; administra ahora la información que se muestra en el área Trabajo no asignado del Distribuidor de cargas de trabajo. Cuando esta configuración está habilitada, las horas planificadas tanto para tareas como para proyectos se muestran en el área de trabajo no asignado del Distribuidor de cargas de trabajo.
 
-Antes de este cambio, esta configuración solo actualizaba información en el área de Trabajo asignado del Distribuidor.
+Antes de este cambio, esta opción solo actualizaba información en el área Trabajo asignado del Distribuidor.
 
-Para obtener información sobre cómo navegar por el Distribuidor de cargas de trabajo, consulte [Navegar por el Distribuidor de cargas de trabajo](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md) (o si utiliza Adobe Workfront Classic, consulte [Navegar por el Distribuidor de cargas de trabajo](https://one.workfront.com/s/article/Navigate-the-Workload-Balancer-1841453648)).
+Para obtener información sobre cómo navegar por el Distribuidor de cargas de trabajo, consulte [Navegar por el Distribuidor de cargas de trabajo](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md) (o si utiliza Adobe Workfront Classic, consulte [Navegar por el Distribuidor de cargas de trabajo](https://experienceleague.adobe.com/en/docs/workfront/using/home)).
 
 **Disponible en estos entornos:**
 
@@ -90,7 +90,7 @@ Para optimizar su experiencia, ahora hay disponible un cuadro Configuración que
 * Agrupar por proyecto
 * Muestra las horas asignadas o las horas restantes de las tareas y proyectos.
 
-Para obtener información sobre cómo ver la información en el Distribuidor de cargas de trabajo, consulte [Navegar por el Distribuidor de cargas de trabajo](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md) (o si utiliza Adobe Workfront Classic, consulte [Navegar por el Distribuidor de cargas de trabajo](https://one.workfront.com/s/article/Navigate-the-Workload-Balancer-1841453648)).
+Para obtener información sobre cómo ver la información en el Distribuidor de cargas de trabajo, consulte [Navegar por el Distribuidor de cargas de trabajo](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md) (o si utiliza Adobe Workfront Classic, consulte [Navegar por el Distribuidor de cargas de trabajo](https://experienceleague.adobe.com/en/docs/workfront/using/home)).
 
 **Disponible en estos entornos:**
 
@@ -101,7 +101,7 @@ Para obtener información sobre cómo ver la información en el Distribuidor de 
 
 Ahora puede compartir la carga de trabajo de sus empleados con los ejecutivos para que puedan tener contexto sobre sus necesidades de personal. Para ello, ahora puede compartir el Distribuidor de cargas de trabajo compartiendo una URL única del Distribuidor de cargas de trabajo con cualquier otra persona.
 
-Para obtener información sobre cómo navegar por el Distribuidor de cargas de trabajo, consulte [Navegar por el Distribuidor de cargas de trabajo](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md) (o si utiliza Adobe Workfront Classic, consulte [Navegar por el Distribuidor de cargas de trabajo](https://one.workfront.com/s/article/Navigate-the-Workload-Balancer-1841453648)).
+Para obtener información sobre cómo navegar por el Distribuidor de cargas de trabajo, consulte [Navegar por el Distribuidor de cargas de trabajo](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md) (o si utiliza Adobe Workfront Classic, consulte [Navegar por el Distribuidor de cargas de trabajo](https://experienceleague.adobe.com/en/docs/workfront/using/home)).
 
 **Disponible en estos entornos:**
 
@@ -114,26 +114,26 @@ Para personalizar aún más la duración de la cronología del Distribuidor de c
 
 Antes de esta mejora, el Distribuidor de cargas de trabajo siempre mostraba información a partir de la semana actual.
 
-Para obtener información sobre cómo navegar por el Distribuidor de cargas de trabajo, consulte [Navegar por el Distribuidor de cargas de trabajo](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md) (o si utiliza Adobe Workfront Classic, consulte [Navegar por el Distribuidor de cargas de trabajo](https://one.workfront.com/s/article/Navigate-the-Workload-Balancer-1841453648)).
+Para obtener información sobre cómo navegar por el Distribuidor de cargas de trabajo, consulte [Navegar por el Distribuidor de cargas de trabajo](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md) (o si utiliza Adobe Workfront Classic, consulte [Navegar por el Distribuidor de cargas de trabajo](https://experienceleague.adobe.com/en/docs/workfront/using/home)).
 
 **Disponible en estos entornos:**
 
 * Adobe Workfront Classic
 * La nueva experiencia de Adobe Workfront (disponible anteriormente)
 
-## Mover y copiar tareas a otro proyecto mantiene la restricción de tareas cuando estas pueden ajustarse a la escala de tiempo del proyecto
+## Mover y copiar tareas a otro proyecto, mantiene la restricción de tareas cuando estas pueden ajustarse a la línea de tiempo del proyecto
 
-Hemos mejorado la forma en que Workfront gestiona la restricción de tarea específica de una tarea al copiar la tarea o moverla a otro proyecto. Algunos ejemplos de restricciones de tareas específicas de fecha son Debe comenzar el, Debe finalizar el, Fechas fijas, No comenzar después del, etc.
+Hemos mejorado la forma en que Workfront gestiona la restricción de fecha específica de una tarea al copiarla o moverla a otro proyecto. Algunos ejemplos de restricciones de tareas específicas de fecha son Debe iniciarse el, Debe finalizarse el, Fechas fijas, No iniciar después del, etc.
 
-Por ejemplo, cuando mueve o copia una tarea con una delimitación Debe comenzar el a otro proyecto cuya fecha planificada de inicio es anterior a la fecha de inicio de la tarea, la tarea mantiene la delimitación después de copiarla o moverla. Cuando se mueve o copia una tarea con una delimitación Debe comenzar el a un proyecto cuya fecha planificada de inicio es posterior a la fecha de inicio de la tarea, la delimitación de la tarea cambia a Lo antes posible.
+Por ejemplo, cuando mueve o copia una tarea con una delimitación Debe iniciarse el a otro proyecto cuya fecha planificada de inicio es anterior a la fecha de inicio de la tarea, la tarea mantiene la delimitación después de copiarla o moverla. Cuando se mueve o copia una tarea con una delimitación Debe iniciarse el a un proyecto cuya fecha planificada de inicio es posterior a la fecha de inicio de la tarea, la delimitación de la tarea cambia a Lo antes posible.
 
 Antes de este cambio, la restricción de tarea siempre cambia a Lo antes posible.
 
-Para obtener información sobre cómo mover tareas, consulte [Mover tareas](../../../manage-work/tasks/manage-tasks/move-tasks.md) (o si está usando Adobe Workfront Classic, consulte [Mover tareas](https://one.workfront.com/s/article/Moving-Tasks-2081996259)).
+Para obtener información sobre cómo mover tareas, consulte [Mover tareas](../../../manage-work/tasks/manage-tasks/move-tasks.md) (o si está usando Adobe Workfront Classic, consulte [Mover tareas](https://experienceleague.adobe.com/en/docs/workfront/using/home)).
 
-Para obtener información acerca de cómo copiar tareas, vea [Copiar y duplicar tareas](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md) (o si usa Adobe Workfront Classic, vea [Copiar y duplicar tareas](https://one.workfront.com/s/article/Copy-and-Duplicate-Tasks-218695605)).
+Para obtener información acerca de cómo copiar tareas, consulte [Copiar y duplicar tareas](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md) (o si usa Adobe Workfront Classic, consulte [Copiar y duplicar tareas](https://experienceleague.adobe.com/en/docs/workfront/using/home)).
 
-Para obtener una descripción general de todas las restricciones de tarea, vea [Información general sobre las restricciones de tarea](../../../manage-work/tasks/task-constraints/task-constraint-overview.md) (o si está usando Adobe Workfront Classic, vea [Información general sobre las restricciones de tarea](https://one.workfront.com/s/article/Task-Constraint-Overview-453396848)).
+Para obtener una descripción general de todas las restricciones de tarea, consulte [Información general sobre la restricción de tarea](../../../manage-work/tasks/task-constraints/task-constraint-overview.md) (o si está usando Adobe Workfront Classic, consulte [Información general sobre la restricción de tarea](https://experienceleague.adobe.com/en/docs/workfront/using/home)).
 
 **Disponible en estos entornos:**
 
@@ -142,9 +142,9 @@ Para obtener una descripción general de todas las restricciones de tarea, vea [
 
 ## Prevención de la pérdida de datos al realizar cambios en la pestaña Detalles o en una lista de tareas
 
-Para evitar la pérdida de datos al actualizar información en la página Detalles de un objeto o tareas de una lista de tareas en el nivel de proyecto al guardar los cambios manualmente, ahora se muestra un mensaje de advertencia para notificarle que tiene cambios sin guardar antes de intentar editar la información en el encabezado. Las únicas acciones permitidas antes de guardar los cambios son suscribirse o agregar el objeto a los favoritos.
+Para evitar la pérdida de datos al actualizar la información en la página Detalles de un objeto o las tareas de una lista de tareas en el nivel de proyecto cuando se guardan los cambios manualmente, ahora se muestra un mensaje de advertencia para avisarle de que tiene cambios sin guardar antes de intentar editar la información del encabezado. Las únicas acciones permitidas antes de guardar los cambios son la suscripción o la adición del objeto a los favoritos.
 
-Para obtener información acerca de la edición de tareas en una lista, vea [Editar tareas en una lista](../../../manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md)
+Para obtener información sobre la edición de tareas en una lista, consulte [Editar tareas en una lista](../../../manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md)
 
 **Disponible en estos entornos:**
 
@@ -152,18 +152,18 @@ Para obtener información acerca de la edición de tareas en una lista, vea [Edi
 
 ## Creación de procesos de aprobación para grupos mediante estados personalizados
 
-Para facilitar a los grupos la administración de sus propios flujos de trabajo únicos, ahora puede utilizar estados personalizados específicos de grupo en los procesos de aprobación.
+Para que los grupos la administración puedan administrar más fácilmente sus propios flujos de trabajo únicos, ahora puede utilizar estados personalizados específicos del grupo en los procesos de aprobación.
 
 Anteriormente, un grupo no podía utilizar sus propios estados personalizados con sus procesos de aprobación específicos del grupo. Solo estaban disponibles los estados de todo el sistema, que no siempre se ajustaban a los procesos de aprobación de grupos.
 
 Los estados personalizados ahora se pueden utilizar en procesos de aprobación de un solo uso y en todo el sistema:
 
-* Cree un proceso de aprobación de un solo uso para un objeto (proyecto, tarea o problema) y baselo en los estados asociados con el grupo que trabaja en ese objeto. Esto incluye cualquier estado personalizado asociado con el grupo.
-* Cree un proceso de aprobación global y haga que esté disponible solo para el grupo o para todos los miembros del sistema.
+* Cree un proceso de aprobación de un solo uso para un objeto (proyecto, tarea o problema) y báselo en los estados asociados al grupo que trabaja en ese objeto. Esto incluye cualquier estado personalizado asociado al grupo.
+* Cree un proceso de aprobación global y póngalo a disposición solo del grupo o de todas las personas del sistema
 
-Para los usuarios con acceso administrativo a los procesos de aprobación, la información sobre la configuración de los procesos de aprobación está disponible en [Crear un proceso de aprobación para los elementos de trabajo](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md) (o si utiliza Adobe Workfront Classic, consulte [Creación de procesos de aprobación](https://one.workfront.com/s/article/Creating-Approval-Processes-1001577410)).
+En el caso de los usuarios con acceso administrativo a los procesos de aprobación, la información sobre la configuración de los procesos de aprobación está disponible en [Crear un proceso de aprobación para los elementos de trabajo](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md) (o si utiliza Adobe Workfront Classic, consulte [Creación de procesos de aprobación](https://experienceleague.adobe.com/en/docs/workfront/using/home)).
 
-Para los usuarios, la información sobre cómo asociar procesos de aprobación con elementos de trabajo está disponible en [Asociar un proceso de aprobación nuevo o existente con el trabajo](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md) (o si está usando Adobe Workfront Classic, vea [Asociar un proceso de aprobación nuevo o existente con el trabajo](https://one.workfront.com/s/article/Associating-a-New-or-Existing-Approval-Process-with-Work-708455630)).
+En el caso de los usuarios, la información sobre cómo asociar procesos de aprobación a elementos de trabajo está disponible en [Asociar un proceso de aprobación nuevo o existente con el trabajo](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md) (o si está usando Adobe Workfront Classic, consulte [Asociación de un proceso de aprobación nuevo o existente con el trabajo](https://experienceleague.adobe.com/en/docs/workfront/using/home)).
 
 **Disponible en estos entornos:**
 

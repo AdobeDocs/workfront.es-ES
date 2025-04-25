@@ -8,7 +8,7 @@ author: Courtney, Becky
 feature: System Setup and Administration, Workfront Integrations and Apps, Digital Content and Documents
 role: Admin
 exl-id: cf5c4e3d-b45f-46cd-a938-22e412d1c491
-source-git-commit: 5ff071a6e0af93f5280225355edad1d0dde42b3f
+source-git-commit: 7f24186c8803237a6f5116293b3c6a5fd1ea90f6
 workflow-type: tm+mt
 source-wordcount: '1125'
 ht-degree: 12%
@@ -74,7 +74,7 @@ Puede configurar las siguientes integraciones para administrar documentos:
 
 * [!DNL Workfront Proof]
 
-  Vincular pruebas de [!DNL Workfront Proof] le permite hacer que las pruebas creadas originalmente en [!DNL Workfront Proof] estén disponibles en [!DNL Workfront]. Para los planes actuales, se requiere un plan [!UICONTROL Pro] [!DNL Workfront] o superior para usar esta característica. Para los nuevos planes, esta función está disponible con todos los planes. Para obtener más información sobre los diversos planes disponibles, consulte [Planes de Workfront](https://www.workfront.com/plans).
+  Vincular pruebas de [!DNL Workfront Proof] le permite hacer que las pruebas creadas originalmente en [!DNL Workfront Proof] estén disponibles en [!DNL Workfront]. Para los planes actuales, se requiere un plan [!UICONTROL Pro] [!DNL Workfront] o superior para usar esta característica. Para los nuevos planes, esta función está disponible con todos los planes. Para obtener más información sobre los diversos planes disponibles, consulte [Planes de Workfront](https://business.adobe.com/products/workfront/pricing.html).
 
 * [!DNL Microsoft SharePoint]
 
@@ -97,7 +97,7 @@ Puede configurar las siguientes integraciones para administrar documentos:
 
 * Otros proveedores de documentos (mediante integraciones de documentos personalizadas).
 
-  Para los planes actuales, se requiere un plan [!UICONTROL Pro] [!DNL Workfront] o superior para usar esta característica. Para los nuevos planes, esta función está disponible con todos los planes. Para obtener más información sobre los diversos planes disponibles, consulte [Planes de Workfront](https://www.workfront.com/plans).
+  Para los planes actuales, se requiere un plan [!UICONTROL Pro] [!DNL Workfront] o superior para usar esta característica. Para los nuevos planes, esta función está disponible con todos los planes. Para obtener más información sobre los diversos planes disponibles, consulte [Planes de Workfront](https://business.adobe.com/products/workfront/pricing.html).
 
 Además, puede mejorar su experiencia con documentos de [!DNL Workfront] con integraciones DAM de terceros. Los administradores deben habilitar estas características para que los usuarios puedan vincular el servicio a su cuenta de [!DNL Workfront].
 
@@ -105,7 +105,7 @@ Además, puede mejorar su experiencia con documentos de [!DNL Workfront] con int
 
 {{step-1-to-setup}}
 
-1. En el panel izquierdo, haga clic en **[!UICONTROL Documentos]** > **[!UICONTROL proveedores] de nube.**
+1. En el panel izquierdo, haga clic en **[!UICONTROL Documentos]** > **[!UICONTROL Proveedores de nube].**
 
 1. (Opcional) Para almacenar documentos en una aplicación de servicios de documentos y no en [!DNL Workfront], seleccione **[!UICONTROL Impedir que los usuarios almacenen documentos en [!DNL Workfront]].**
 
@@ -195,7 +195,7 @@ Una vez creada la integración de documentos personalizada, puede ponerla a disp
 
 1. Haga clic en **[!UICONTROL Guardar]** para crear la integración.
 
-## Usar integraciones de documento
+## Uso de integraciones de documentos
 
 Para obtener información acerca de cómo los usuarios pueden utilizar la revisión, vea [Crear revisiones](../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-proofs-in-wf.md).
 
@@ -242,7 +242,7 @@ Para configurar [!DNL Workfront] para enviar metadatos a [!DNL Workfront DAM]:
 
 1. Expanda **[!UICONTROL Documentos]** y, a continuación, haga clic en **[!UICONTROL Asignación de metadatos]**.
 
-1. En la lista de campos, seleccione cualquiera de los campos que desee quitar de metadatos asignación.
+1. En la lista de campos, seleccione cualquiera de los campos que desee eliminar de la asignación de metadatos.
 1. Haga clic **[!UICONTROL eliminar]**.
 
    Los campos se quitan de la asignación de metadatos y la información que contienen no se transfiere a [!DNL Workfront DAM] con los documentos cargados.

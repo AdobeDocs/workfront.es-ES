@@ -7,7 +7,7 @@ description: Puede integrar [!DNL Adobe Workfront] con aplicaciones de terceros.
 feature: Workfront Integrations and Apps
 author: Becky
 exl-id: ca51cb23-9332-4ce5-aefb-f333455cfc7c
-source-git-commit: 436eb2ef32363aa28593e74f7464dcd6837b2095
+source-git-commit: 7f24186c8803237a6f5116293b3c6a5fd1ea90f6
 workflow-type: tm+mt
 source-wordcount: '539'
 ht-degree: 79%
@@ -44,7 +44,7 @@ Actualmente, las integraciones integradas disponibles en Workfront son las sigui
      <li>After Effects </li>
      </ul>
      <li><p>Descargar/instalar desde <a href="https://exchange.adobe.com/apps/browse/cc?page=1&amp;product=All&amp;q=workfront&amp;sort=RELEVANCE" class="MCXref xref">Adobe Exchange</a>.</p></li></ul>
-     <p>Para obtener información e instrucciones, consulte <a href="https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-integrations/workfront-for-creative-cloud/install-wf-cc/wf-cc-install-toc.html" class="MCXref xref">Instalar el complemento de [!DNL Adobe Workfront] para aplicaciones de [!DNL Creative Cloud]</a>.</p> </td> 
+     <p>Para obtener información e instrucciones, consulte <a href="https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-integrations/workfront-for-creative-cloud/install-wf-cc/wf-cc-install-toc" class="MCXref xref">Instalar el complemento de [!DNL Adobe Workfront] para aplicaciones de [!DNL Creative Cloud]</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Adobe Experience Manager Assets y Assets Essentials </p>  </p> </td> 

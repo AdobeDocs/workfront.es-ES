@@ -6,10 +6,10 @@ description: El siguiente proceso describe las prácticas recomendadas para pasa
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 4a8d1e2b-9744-4f72-a337-5057448db4fb
-source-git-commit: 3a1bc4a56cba2fe224a1f0a21c8882c2d9d030de
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '329'
-ht-degree: 0%
+ht-degree: 99%
 
 ---
 
@@ -28,11 +28,11 @@ Para los clientes con Adobe Experience Manager Assets as a Cloud Service, la rut
 
 >[!IMPORTANT]
 >
->Se necesita un socio certificado o servicios de Adobe Consulting para implementar el conector mejorado.
+>Se necesita un partner certificado o servicios de Adobe Consulting para implementar el conector mejorado.
 >
-> Para los socios que deseen certificar el conector mejorado, consulte el siguiente artículo: [Workfront para Experience Manager con conector mejorado Expert Series](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/workfront/enhanced-connector/aem-experts-series/overview.html?lang=en).
+> Para los partners que deseen certificar el conector mejorado, consulte el siguiente artículo: [Workfront para Experience Manager con conector mejorado Expert Series](https://experienceleague.adobe.com/en/docs/experience-manager-learn/assets/workfront/enhanced-connector/aem-experts-series/overview).
 
-Para implementar el conector mejorado, consulte [Configuración de Workfront para el conector mejorado de Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-65/assets/integrations/workfront-connector-configure.html?lang=en).
+Para implementar el conector mejorado, consulte [Configuración de Workfront para el conector mejorado de Experience Manager](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/integrations/workfront-connector-configure).
 
 
 ## Mover recursos existentes
@@ -49,4 +49,4 @@ Es importante validar todos los casos de uso críticos que se van a utilizar a t
 
 Por último, debe desinstalar el conector heredado. El conector heredado no está diseñado para ejecutarse en paralelo con el conector mejorado.
 
-Para desinstalar, consulte [Desinstalar Workfront con el conector heredado de Adobe Experience Manager](/help/quicksilver/documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/uninstall-legacy-connector.md).
+Para desinstalarlo, consulte [Desinstalar Workfront con el conector heredado de Adobe Experience Manager](/help/quicksilver/documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/uninstall-legacy-connector.md).

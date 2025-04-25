@@ -3,15 +3,15 @@ content-type: reference
 product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: manage-security-workfront-proof
-title: Seguridad de revisión en  [!DNL Workfront Proof]
+title: Seguridad de la revisión en  [!DNL Workfront Proof]
 description: La seguridad de los datos es primordial para  [!DNL Workfront Proof]. Invertimos recursos significativos para mantener nuestra infraestructura de seguridad actualizada y actualizada.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: bee0fece-e22b-4f92-9641-81a130f5c346
-source-git-commit: 405523606094d4f8553b0aee544d71c2b7f97d86
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '341'
-ht-degree: 0%
+ht-degree: 5%
 
 ---
 
@@ -19,13 +19,13 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Este artículo hace referencia a la funcionalidad del producto independiente [!DNL Workfront Proof]. Para obtener información sobre la revisión dentro de [!DNL Adobe Workfront], vea [Revisión](../../../review-and-approve-work/proofing/proofing.md).
+>Este artículo hace referencia a la funcionalidad del producto independiente [!DNL Workfront Proof]. Para obtener información sobre la revisión dentro de [!DNL Adobe Workfront], consulte [Revisión](../../../review-and-approve-work/proofing/proofing.md).
 
 La seguridad de los datos es primordial para [!DNL Workfront Proof]. Invertimos recursos significativos para mantener nuestra infraestructura de seguridad actualizada y actualizada.
 
 Como resultado, proporcionamos niveles insuperables de seguridad y privacidad para nuestros clientes.
 
-Consulte la página [Información general de seguridad](https://www.workfront.com/workfront-security) para obtener más información.
+Consulte la página [Información general de seguridad](https://www.adobe.com/legal/terms/enterprise-licensing/workfront-legacy-terms.html) para obtener más información.
 
 ## Requerir firmas electrónicas
 

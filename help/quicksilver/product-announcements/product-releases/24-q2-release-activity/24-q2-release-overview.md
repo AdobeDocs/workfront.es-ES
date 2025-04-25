@@ -5,7 +5,7 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: bdcfed70-1999-4c40-a38f-12c762c8c1c4
-source-git-commit: 552e97c427e618f299b55a2eab5868c7b90a4156
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '2247'
 ht-degree: 62%
@@ -17,13 +17,13 @@ ht-degree: 62%
 Esta página proporciona información sobre la funcionalidad que se incluye en la versión del segundo trimestre de 2024. Estas mejoras están disponibles en el entorno de producción para todos los clientes con la versión 24.4 del 10 y 11 de abril de 2024.
 
 <!--The 24.1 release webinar was on January 11, 2024. You can [register for the webinar to view an on-demand recording here](https://webinars.on24.com/adobe_workfront/whatsnewin241?partnerref=releaseoverview).-->
-En lugar de un seminario web sobre la versión, le invitamos a [registrarse para el Adobe Summit](https://summit.adobe.com/na/) para ver las siguientes sesiones de Workfront:
+En lugar de un seminario web sobre la versión, le invitamos a [registrarse en Adobe Summit](https://summit.adobe.com/na/) para ver las siguientes sesiones de Workfront:
 
 [El futuro de Adobe Workfront](https://reg.adobe.com/flow/adobe/as24/sessions/page/catalog?search=S302) el 26 de marzo de 2024 para echar un vistazo al futuro de la planificación estratégica y el flujo de trabajo. Descubra cómo el equipo de Workfront planea abordar las funcionalidades empresariales en todo el ciclo de vida de marketing, todo con un enfoque de IA-First para automatizar el trabajo, simplificar las experiencias de los usuarios y aumentar la productividad.
 
 [Presentación de calendarios y herramientas de marketing para la planificación de campañas de extremo a extremo](https://reg.adobe.com/flow/adobe/as24/sessions/page/catalog?search=s304) el 28 de marzo de 2024 para obtener información sobre las nuevas funciones de los productos diseñadas para permitir que su organización administre y visualice ciclos de vida operativos de extremo a extremo.
 
-También puede [ver un archivo de PDF](https://acrobat.adobe.com/id/urn:aaid:sc:US:1754831a-dbfe-471d-bca7-386264d90352){target="_blank"} con elementos destacados de la versión 24.4.
+También puede [ver un archivo PDF](https://acrobat.adobe.com/id/urn:aaid:sc:US:1754831a-dbfe-471d-bca7-386264d90352){target="_blank"} con los aspectos destacados de la versión 24.4.
 
 <span class="preview">Las funciones que no están en ciclo de producción (las que se lanzaron a Producción antes de la fecha de lanzamiento del segundo trimestre de 2024) aparecen resaltadas en amarillo.</span>
 
@@ -662,9 +662,9 @@ Para obtener más información sobre las versiones de la API, consulte [Versione
 
 ### Actualizaciones de mantenimiento de Workfront 
 
-Para obtener información sobre las actualizaciones de mantenimiento realizadas durante la versión del segundo trimestre de 2024, consulte [Actualizaciones de mantenimiento de Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=es).
+Para obtener información sobre las actualizaciones de mantenimiento realizadas durante la versión del segundo trimestre de 2024, consulte [Actualizaciones de mantenimiento de Workfront](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates).
 
 ### Actualizaciones de aprendizaje
 
-Explore las últimas actualizaciones realizadas en los programas de aprendizaje, rutas de aprendizaje, vídeos y guías de cada versión del producto de Adobe Workfront. Para obtener más información, consulte la sección “Novedades” de la [página de tutoriales de Workfront](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=es).
+Explore las últimas actualizaciones realizadas en los programas de aprendizaje, rutas de aprendizaje, vídeos y guías de cada versión del producto de Adobe Workfront. Para obtener más información, consulte la sección “Novedades” de la [página de tutoriales de Workfront](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home).
 

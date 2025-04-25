@@ -3,22 +3,22 @@ filename: boards-emails
 content-type: reference
 navigation-topic: boards
 title: Preferencias y notificaciones por correo electrónico de tableros
-description: Tableros de Adobe Workfront le envía un correo electrónico cuando se le añade a un tablero y cuando se le asigna una tarjeta.
+description: Tableros de Adobe Workfront le envía un correo electrónico cuando se le ha añadido a un tablero y cuando se le ha asignado una tarjeta.
 author: Lisa
 feature: Agile
 exl-id: 7ec9f9cc-274c-4253-8441-d7ffe9afd78d
-source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '220'
-ht-degree: 0%
+ht-degree: 97%
 
 ---
 
-# Notificaciones y preferencias por correo electrónico de Tableros
+# Notificaciones por correo electrónico sobre preferencias de tableros
 
-[!DNL Adobe Workfront] [!UICONTROL Tableros] le envía un mensaje de correo electrónico cuando se le agrega a un tablero y cuando se le asigna una tarjeta. Las notificaciones están activadas de forma predeterminada y puede seleccionar en las preferencias de sus tableros qué correos electrónicos desea recibir.
+[!DNL Adobe Workfront] [!UICONTROL Boards] le envía un correo electrónico cuando se le ha añadido a un tablero y cuando se le ha asignado una tarjeta. Las notificaciones están activadas de forma predeterminada y puede seleccionar entre las preferencias de sus tableros qué correos electrónicos desea recibir.
 
-También recibirá un correo electrónico cuando esté etiquetado en un comentario en una tarjeta conectada, según la configuración de las notificaciones por correo electrónico. Para obtener más información, consulte [Modificar sus propias notificaciones por correo electrónico](/help/quicksilver/workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md). En este momento, los usuarios etiquetados en comentarios en tarjetas ad hoc no reciben una notificación por correo electrónico.
+Según la configuración de las notificaciones por correo electrónico, también recibirá un correo electrónico cuando esté etiquetado en un comentario en una tarjeta conectada. Para obtener más información, consulte [Modificar sus propias notificaciones por correo electrónico](/help/quicksilver/workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md). En este momento, los usuarios etiquetados en comentarios en tarjetas ad hoc no reciben una notificación por correo electrónico.
 
 ## Requisitos de acceso
 
@@ -45,7 +45,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  </tbody> 
 </table>
 
-Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -53,12 +53,12 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
 
 {{step1-to-boards}}
 
-1. Haga clic en [!UICONTROL **Preferencias**] en el panel de tableros.
-1. Seleccione si desea recibir correos electrónicos para que se agreguen a un tablero y se asignen a una tarjeta.
+1. Haga clic en [!UICONTROL **Preferencias**] en el panel de control de tableros.
+1. Seleccione si desea recibir correos electrónicos para que se añadan a un tablero y se asignen a una tarjeta.
 
-   ![Preferencias de correo electrónico de tableros](assets/boards-email-preferences.png)
+   ![Preferencias para correo electrónicos en tableros](assets/boards-email-preferences.png)
 
-   Las preferencias que establezca para los correos electrónicos se aplican a todos los tableros.
+   Las preferencias que establezca para los correos electrónicos se aplicarán a todos los tableros.
 
 <!--
 

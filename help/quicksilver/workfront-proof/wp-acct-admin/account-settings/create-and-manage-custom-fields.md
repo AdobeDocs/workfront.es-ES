@@ -7,7 +7,7 @@ description: Se requiere un plan Select o Premium [!DNL Workfront] para usar est
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 87c8aff7-b638-4d14-9c5a-7e316f1ec608
-source-git-commit: c79d030ff2d05487e5f7e3457bf98df591822a80
+source-git-commit: 7f24186c8803237a6f5116293b3c6a5fd1ea90f6
 workflow-type: tm+mt
 source-wordcount: '1044'
 ht-degree: 50%
@@ -22,7 +22,7 @@ ht-degree: 50%
 >
 >Este artículo hace referencia a la funcionalidad del producto independiente [!DNL Workfront Proof]. Para obtener información sobre la revisión dentro de [!DNL Adobe Workfront], consulte [Revisión](../../../review-and-approve-work/proofing/proofing.md).
 
-Se requiere un plan Select o Premium [!DNL Workfront] para utilizar esta función. Para obtener más información sobre los diversos planes disponibles, consulte [Planes de Workfront](https://www.workfront.com/plans).
+Se requiere un plan Select o Premium [!DNL Workfront] para utilizar esta función. Para obtener más información sobre los diversos planes disponibles, consulte [Planes de Workfront](https://business.adobe.com/products/workfront/pricing.html).
 
 Los campos personalizados le permiten capturar datos adicionales al crear una prueba, un usuario o un invitado nuevos. Por ejemplo, es posible que los usuarios que creen una nueva prueba deseen incluir una sección adicional que les permita capturar un número de trabajo, un código de departamento o una referencia de proveedor.
 
