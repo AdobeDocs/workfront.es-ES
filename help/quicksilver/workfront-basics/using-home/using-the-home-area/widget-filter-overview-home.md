@@ -6,10 +6,10 @@ description: Puede elegir entre una serie de widgets para personalizar el conten
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 58f79e81-df6b-456f-9e91-4e00a1c2a8a2
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 4994f099b11703bbffb396d494fd5622fc006cbf
 workflow-type: tm+mt
-source-wordcount: '818'
-ht-degree: 13%
+source-wordcount: '963'
+ht-degree: 14%
 
 ---
 
@@ -238,6 +238,44 @@ Puede utilizar los siguientes filtros en el widget Mis problemas:
     <td>Muestra todos los problemas que no tienen un usuario principal asignado pero sí un rol asignado </td>
   </tr>
 </table>
+
+## Mis solicitudes
+
+<table style="table-layout:auto"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader">Todas</td> 
+      <td>Muestra todas las solicitudes enviadas, independientemente del estado o de quién las envió.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Abrir</td> 
+      <td> <p>Muestra todas las solicitudes enviadas 
+      <ul>
+      <li>Que están abiertas actualmente, independientemente de quién las envió. Solo las solicitudes para las que tenga al menos permisos de visualización se muestran aquí si no las había enviado usted mismo.</li>
+      <li>En la subpestaña Open se muestra si el objeto de resolución no tiene una Fecha de finalización real o no tiene una Fecha de finalización real.</li> 
+      </ul>
+      <p><b>NOTA</b> 
+      Las solicitudes con cualquier estado que no sea igual a Cerrado se consideran abiertas.</p> 
+      </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Mis solicitudes</td> 
+      <td>Muestra las solicitudes enviadas independientemente de su estado. </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Mis solicitudes abiertas</td> 
+      <td> <p>Muestra solicitudes 
+      <ul>
+      <li>Que ha enviado y que sigue abierto. </li> 
+      <li>Sin una fecha de finalización real o cuyo objeto de resolución no tenga una fecha de finalización real se muestra en la subpestaña Mis solicitudes abiertas. </li> 
+      </ul>
+      <p><b>NOTA</b> 
+      Las solicitudes que no están en un estado equivalente a Cerrado se consideran abiertas.</p> </td> 
+     </tr> 
+    </tbody> 
+   </table>
 
 ## Mi trabajo
 
