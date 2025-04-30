@@ -6,9 +6,9 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 04b09d8f-71bf-4c5b-b2f3-09c714740969
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: f4c1f2170d826b4b6f1e8189e1fecc1edb6e0d97
 workflow-type: tm+mt
-source-wordcount: '3272'
+source-wordcount: '3231'
 ht-degree: 99%
 
 ---
@@ -661,24 +661,23 @@ Nota: Actualmente, esta funcionalidad no está disponible en el equilibrador de 
                         <p>Workfront Campaigns permite organizar proyectos de diferentes portafolios y programas en un nuevo contenedor de trabajo.
 Las campañas se lanzaron a la versión beta en vista previa con la versión 22.3 en julio de 2022.</p>
 <p>Este nuevo contenedor evolucionará en futuras versiones para conectar objetos de trabajo que actualmente se administran en silos independientes.</p>
-
-    &lt;/td>
-    &lt;td>&lt;p>&lt;b>Disponible en estas fechas:&lt;/b>&lt;/p>
-    &lt;ul>
-    &lt;li>
-    &lt;p>Versión preliminar: durante todo el periodo de tiempo de la versión de 22.4&lt;br />&lt;/p>
-    &lt;/li>
-    &lt;li>
-    &lt;p>Versión de producción&lt;/p>
-    &lt;/li>
-    &lt;/ul>
-    &lt;/td>
-    &lt;/tr>
-    &lt;tr>
-    &lt;td>
-    &lt;a href=&quot;../../../product-announcements/product-releases/22.4-release-activity/22-4-other-enhancements.md&quot; class=&quot;MCXref xref&quot; xrefformat=&quot;{para}&quot;>Descripción del equipo ampliada&lt;/a>&lt;/p>
-    &lt;p>En el área Equipos, ahora puede ver la descripción completa del equipo haciendo clic en la descripción para mostrarla en una ventana emergente. Se puede hacer clic en cualquier dirección URL de la descripción en la ventana emergente y hacer clic en el texto de la descripción para editarlo (si tiene acceso para editar la configuración del equipo).&lt;/p>
-    &lt;p>Anteriormente, la única manera de ver todo el contenido era desplazarse por la descripción en un área estrecha.&lt;/p>
+                    </td>
+                    <td><p><b>Disponible en estas fechas:</b></p>
+                        <ul>
+                            <li>
+                                <p>Versión preliminar: durante todo el periodo de tiempo de la versión 22.4<br /></p>
+                            </li>
+                            <li>
+                                <p>Versión de producción: por determinar</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Descripción ampliada del equipo</a></p>
+                        <p>En el área Equipos, ya es posible ver la descripción completa del equipo haciendo clic en la descripción para mostrarla en una ventana emergente. Se puede hacer clic en cualquier dirección URL de la descripción en la ventana emergente y hacer clic en el texto de la descripción para editarlo (si tiene acceso para editar la configuración del equipo).</p>
+                        <p>Anteriormente, la única manera de ver todo el contenido era desplazarse por la descripción en un área estrecha.</p>
 <p>Esta mejora en la descripción se aplica tanto a los equipos Agile como a los no Agile.</p>
                     </td>
                     <td><p><b>Disponible en estas fechas:</b></p>
