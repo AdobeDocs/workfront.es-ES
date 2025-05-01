@@ -5,10 +5,10 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9342f393-a404-44b4-aad6-2c4cf634dfd5
-source-git-commit: 27107a4c2f694e9e8725d074058b008972116924
+source-git-commit: b36cfdc4587bc440867a6a84b9460eaeaf4daf88
 workflow-type: tm+mt
-source-wordcount: '458'
-ht-degree: 58%
+source-wordcount: '593'
+ht-degree: 47%
 
 ---
 
@@ -41,6 +41,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
 ## Mejoras de Adobe Workfront
 
 * [Mejoras en la administración de documentos](#document-management-enhancements)
+* [Mejoras en actualizaciones y notificaciones]
 * [Otras mejoras](#other-enhancements)
 
 ### Mejoras en la administración de documentos
@@ -62,6 +63,52 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td>viernes, 10 de abril de 2025</td>
         <td>viernes, 17 de abril de 2025</td>
         <td>viernes, 17 de abril de 2025</td>
+    </tr>     
+  </tbody>
+</table>
+
+### Mejoras en la creación de informes
+
+<table style="table-layout:auto">
+  <tbody>
+    <tr>
+        <td><strong>Característica</strong>
+        </td>
+        <td><strong>Vista previa</strong></td>
+        <td><strong>Liberación rápida</strong></td>
+        <td><strong>Trimestralmente</strong></td>
+    </tr>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-reporting-enhancements.md" class="MCXref xref" xrefformat="{para}">Los comodines de usuario ya no devuelven resultados con un valor nulo al filtrar </a><p></p>
+            <p>Hemos actualizado el comportamiento de los comodines del usuario para excluir el valor nulo al filtrar un informe. Este cambio ayuda al filtro a producir resultados más precisos, en lugar de devolver resultados que no tienen un usuario configurado correctamente (un resultado nulo). </p>
+        </td>
+        <td>jueves, 30 de abril de 2025</td>
+        <td>viernes, 15 de mayo de 2025</td>
+        <td>viernes, 17 de julio de 2025</td>
+    </tr>     
+  </tbody>
+</table>
+
+### Mejoras de actualizaciones y notificaciones
+
+<table style="table-layout:auto">
+  <tbody>
+    <tr>
+        <td><strong>Función</strong>
+        </td>
+        <td><strong>Vista previa</strong></td>
+        <td><strong>Liberación rápida</strong></td>
+        <td><strong>Trimestralmente</strong></td>
+    </tr>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-update-and-notification-enhancements.md" class="MCXref xref" xrefformat="{para}">Se modificó la experiencia al agregar personas a los comentarios</a><p>[!BADGE Off schedule]{type=Neutral}</p>
+            <p>Para lograr un rendimiento mejorado, hemos introducido una experiencia modificada al añadir personas a los comentarios. Ahora, el vínculo "Etiquetar personas o equipos" permanece en el cuadro Comentario después de agregar usuarios o equipos al comentario. </p>
+        </td>
+        <td>jueves, 30 de abril de 2025</td>
+        <td>(Despliegue gradual): 8 de mayo a 15 de mayo de 2025</td>
+        <td>(Despliegue gradual): 8 de mayo a 15 de mayo de 2025</td>
     </tr>     
   </tbody>
 </table>

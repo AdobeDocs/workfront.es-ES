@@ -5,10 +5,10 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 1a98053a-7f0d-4c87-a9eb-f081dade872c
-source-git-commit: f47c1ad2c3c5d82e62efa1a8920bc0aac59af26e
+source-git-commit: bd6a9c2de25aa1088a0348df4ec5154d81d7a385
 workflow-type: tm+mt
-source-wordcount: '424'
-ht-degree: 23%
+source-wordcount: '552'
+ht-degree: 18%
 
 ---
 
@@ -17,6 +17,33 @@ ht-degree: 23%
 Esta página describe actualizaciones menores en el aspecto y la funcionalidad de varias áreas de la aplicación Adobe Workfront que se realizaron en el marco de la versión del tercer trimestre de 2025.
 
 Para obtener una lista de todos los cambios disponibles con la versión del tercer trimestre de 2025, consulte [Información general sobre la versión del tercer trimestre de 2025](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-release-overview.md).
+
+## Busque y sienta las opciones del menú Más para los comentarios
+
+>[!NOTE]
+>
+>Versión preliminar: 17 de abril de 2025; versión de producción para todos los clientes: 17 de abril de 2025
+
+Hemos actualizado el aspecto de las opciones disponibles en el menú Más de un comentario en la sección Actualizaciones para todos los objetos.
+
+Esta actualización incluye los siguientes cambios:
+
+* Se han reorganizado las acciones para que funciones similares se agrupen.
+* Se han insertado divisores para separar claramente cada grupo.
+* Se ha resaltado la acción Eliminar mostrándola en rojo.
+
+Para obtener más información, consulte [Actualizar trabajo](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+
+
+## Actualizaciones de aspecto y presentación de un informe de ruta de hitos
+
+>[!NOTE]
+>
+>Versión preliminar: 30 de abril de 2025; versión de producción para todos los clientes: 30 de abril de 2025
+
+Hemos actualizado el aspecto del informe Ruta de hitos para que coincida con el diseño de otras áreas de Workfront.
+
+Para obtener más información, consulte [Crear un informe personalizado](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
 ## Actualizaciones de aspecto y funcionamiento de elementos restaurados recientemente
 
