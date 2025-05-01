@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 673dd888-3135-48b0-8198-c8d6d6706ddf
-source-git-commit: 1dc2791bed0dfada109ee102e09c25ae9a52e6b0
+source-git-commit: 6e2e337969fccba88ea7089fe9a6d9db605343f7
 workflow-type: tm+mt
-source-wordcount: '1540'
-ht-degree: 58%
+source-wordcount: '1564'
+ht-degree: 57%
 
 ---
 
@@ -35,7 +35,7 @@ Puede compartir una vista con otros usuarios para garantizar la colaboración cu
 
 Puede compartir una vista con las siguientes entidades:
 
-* Internamente, con usuarios, grupos, equipos, empresas y funciones de Workfront
+* Internamente, con usuarios, grupos, equipos, empresas y roles de trabajo de Workfront
 * Públicamente, con usuarios de fuera de Workfront
 
 <!--
@@ -61,7 +61,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
    <p> Productos</p> </td> 
    <td> 
    <ul><li><p> Adobe Workfront</p></li> 
-   <li><p> Planificación de Adobe Workfront<p></li></ul></td> 
+   <li><p> Adobe Systems planificación del frente de trabajo<p></li></ul></td> 
   </tr>   
 <tr> 
    <td role="rowheader"><p>Plan de Adobe Workfront*</p></td> 
@@ -70,7 +70,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 <ul><li>Seleccionar</li> 
 <li>Prime</li> 
 <li>Ultimate</li></ul> 
-<p>Workfront Planning no está disponible para planes Workfront heredados</p> 
+<p>La planificación de Workfront no está disponible para los planes de Workfront heredados</p> 
    </td> 
 <tr> 
    <td role="rowheader"><p>Paquete de planificación de Adobe Workfront*</p></td> 
@@ -79,10 +79,10 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 <p>Para obtener más información sobre qué se incluye en cada plan de Workfront Planning, póngase en contacto con su administrador de cuentas de Workfront. </p> 
    </td> 
  <tr> 
-   <td role="rowheader"><p>plataforma de Adobe Workfront</p></td> 
+   <td role="rowheader"><p>Plataforma Adobe Systems Workfront</p></td> 
    <td> 
-<p>La instancia de Workfront de su organización debe incorporarse a Adobe Unified Experience para poder acceder a todas las funcionalidades de Workfront Planning.</p> 
-<p>Su organización debe incorporarse a la experiencia unificada de Adobe para que los usuarios puedan solicitar y conceder permisos a una vista desde una solicitud de permiso. </p>
+<p>El instancia de Workfront de su organización debe incorporarse a la Adobe Systems Unified Experience para poder acceder a todas las capacidades de Workfront Planning.</p> 
+<p>Su organización debe estar integrada a la Experiencia unificada de Adobe Systems para que los usuarios puedan solicitud y conceder permisos a una vista desde una solicitud de permiso. </p>
 <p>Para obtener más información, consulte <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience para Workfront</a>. </p> 
    </td> 
    </tr> 
@@ -90,7 +90,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   <tr> 
    <td role="rowheader"><p>Licencia de Adobe Workfront*</p></td> 
    <td><p> Estándar</p>
-   <p>Workfront Planning no está disponible para licencias de Workfront heredadas</p> 
+   <p>Workfront Planning no está disponible para licencias anteriores de Workfront</p> 
   </td> 
   </tr> 
   <tr> 
@@ -124,7 +124,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 ## Consideraciones al compartir vistas
 
-* Para obtener información general sobre cómo compartir objetos en Workfront Planning, consulte también [Información general sobre los permisos de uso compartido en Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md).
+* Para obtener información general sobre cómo compartir objetos en Workfront Planning, consulte [también Información general sobre el uso compartido de permisos en Adobe Systems Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md).
 * Puede conceder permisos de visualización o administración para una vista a usuarios internos de Workfront.
 
 * Los usuarios con permisos de administración pueden modificar la configuración de vista, compartirla, duplicarla o eliminarla.
@@ -137,7 +137,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 ## Compartir permisos para una vista internamente
 
-Puede compartir las vistas que ha creado o las vistas en las que tiene permiso de administración con usuarios, grupos, equipos, empresas y roles en Workfront Planning.
+Puede compartir vistas creadas o vistas para las que tiene permisos de administración con usuarios, grupos, equipos, empresas y puestos de trabajo en Workfront Planning.
 
 >[!NOTE]
 >
@@ -151,15 +151,21 @@ Puede compartir las vistas que ha creado o las vistas en las que tiene permiso d
 
    Se abre la página de tipo de registro.
 
-1. En la pestaña Ver, pase el ratón sobre la vista que quiera compartir, haga clic en el menú **Más** ![Menú Más](assets/more-menu.png), a la derecha del nombre de la vista y, a continuación, haga clic en **Compartir**.
+1. En el pestaña vista, coloca el cursor sobre la vista que quieras compartir y haz clic en el **menú ![](assets/more-menu.png) Más menú Más** a la derecha del nombre del vista y, a continuación, haz clic en **Compartir**.
 
-   ![Menú más para vistas expandido con la opción de uso compartido](assets/more-menu-for-views-expanded-with-share-option.png)
+   ![Más menú para vistas ampliadas con opción de compartir](assets/more-menu-for-views-expanded-with-share-option.png)
 
    La pestaña **Uso compartido interno** debería estar seleccionada de manera predeterminada.
 
 1. (Opcional) En el área **Quién tiene acceso**, seleccione una de las siguientes opciones:
 
-   * **Solo las personas invitadas pueden tener acceso**: debe especificar los usuarios, grupos, equipos, empresas o roles con los que desea compartir la vista. Esta es la opción predeterminada.
+   * **Solo las personas invitadas pueden acceder** a: Debe especificar usuarios, grupos, equipo, compañía o función de trabajo con los que desea compartir la vista. Esta es la opción predeterminada.
+
+     >[!NOTE]
+     >
+     >   Además de equipos, grupos, empresas y roles de trabajo, solo puede compartir con usuarios que se hayan agregado al Adobe Admin Console.
+
+
    * **Todos los usuarios del espacio de trabajo pueden ver**: todos los usuarios que tengan permisos de visualización o superiores en los espacios de trabajo pueden acceder a la vista.
 
 1. En el campo **Conceder acceso a esta vista**, empiece a escribir el nombre de un usuario, un grupo, un equipo, una empresa o un rol y, a continuación, haga clic en él cuando se muestre en la lista.
@@ -177,7 +183,7 @@ Puede compartir las vistas que ha creado o las vistas en las que tiene permiso d
 1. Haga clic en **Copiar vínculo** para copiar un vínculo a la vista en el portapapeles.
 1. Haga clic en **Guardar**.
 
-   La vista se actualiza con un icono de personas ![Vista compartida con otros iconos](assets/view-shared-with-others-people-icon.png) para indicar que la vista ahora se comparte con otros usuarios.
+   El vista se actualiza con un icono ![de personas Ver se comparte con otros para](assets/view-shared-with-others-people-icon.png) indicar que el vista ahora se comparte con otros usuarios.
 
    >[!TIP]
    >
@@ -202,7 +208,7 @@ Para compartir una vista públicamente en Workfront Planning:
 
    Se abre la página de tipo de registro.
 
-1. En la pestaña Ver, pase el ratón sobre la vista que quiera compartir, haga clic en el menú **Más** ![Menú Más](assets/more-menu.png), a la derecha del nombre de la vista y, a continuación, haga clic en **Compartir**.
+1. En el pestaña vista, coloca el cursor sobre la vista que quieras compartir y haz clic en el **menú ![](assets/more-menu.png) Más menú Más** a la derecha del nombre del vista y, a continuación, haz clic en **Compartir**.
 
    ![Menú más para vistas expandido con la opción de uso compartido](assets/more-menu-for-views-expanded-with-share-option.png)
 
@@ -214,13 +220,13 @@ Para compartir una vista públicamente en Workfront Planning:
 
    Aparecerá un vínculo disponible. Este es un vínculo público. Cuando se comparte, cualquier persona que tenga el vínculo, incluidas las personas de fuera de la organización, puede acceder a la página de tipo de registro y ver los registros y campos de la página.
 
-1. Haga clic en el icono **Copiar vínculo** ![Copiar vista de vínculo](assets/copy-link-view.png) para copiar el vínculo en el portapapeles.
+1. Haga clic en el **icono Copiar vincular** Copiar vincular vista](assets/copy-link-view.png) para copiar el vincular ![en su portapapeles.
 
 1. Introduzca una fecha manualmente o use el calendario del campo **Fecha de caducidad del vínculo** para seleccionar una fecha de caducidad para el vínculo público. No se podrá acceder a la vista de página del registro después de la fecha seleccionada.
 
 1. Haga clic en **Guardar**.
 
-   La vista se actualiza con un icono global ![Icono de vista compartida pública resaltado](assets/public-shared-view-icon-highlighted.png) para indicar que la vista se comparte públicamente.
+   El vista se actualiza con un icono ![global Público compartió vista resaltado](assets/public-shared-view-icon-highlighted.png) para indicar que el vista se comparte públicamente.
 
    >[!TIP]
    >
@@ -233,7 +239,7 @@ Para compartir una vista públicamente en Workfront Planning:
 
 Los usuarios que acceden a un vínculo a una vista para la que no tienen permisos pueden solicitar permisos. Todos los usuarios con permisos de Administración de la vista reciben la solicitud de permiso y pueden concederlos o denegarlos.
 
-1. (Condicional) Si es el administrador de una vista, es posible que otro usuario le solicite el acceso a la vista en las áreas siguientes:
+1. (Condicional) Si usted es el administrador de una vista, es posible que reciba una solicitud de otra usuario para acceder a la vista en las siguientes áreas:
 
    * Una notificación en la aplicación
      ![Notificación en la aplicación para solicitud de acceso de vista](assets/in-app-notification-for-access-request-for-view.png)
@@ -243,13 +249,13 @@ Los usuarios que acceden a un vínculo a una vista para la que no tienen permiso
 O
 En la notificación por correo electrónico, haga clic en **Ver todas las notificaciones** y, a continuación, haga clic en la notificación en la lista.
 
-   Se muestra el cuadro **Solicitudes de acceso pendientes**.
+   Se muestra el **cuadro Solicitudes** de acceso pendientes.
 
-   ![Cuadro de aprobación de lista de notificaciones](assets/notifications-list-approval-box.png)
-1. (Opcional) Para el usuario cuyos permisos desea aprobar, seleccione una de las siguientes opciones en el menú desplegable situado a la derecha del nombre del usuario:
+   ![Cuadro de notificación lista aprobación](assets/notifications-list-approval-box.png)
+1. (Opcional) Para la usuario cuyos permisos desee aprobar, seleccione una de las siguientes opciones en el menú desplegable situado a la derecha del nombre del usuario:
    * **Vista**
    * **Administrar**
-1. Seleccione el usuario para el que desea aprobar o denegar el permiso y, a continuación, haga clic en **Aprobar todo** o **Denegar todo**.
+1. Seleccione la usuario a la que desea aprobar o denegar el permiso y, a continuación, haga clic en **Aprobar todo** o **Denegar todo**.
 1. Haga clic en la flecha que señala a la izquierda de **Solicitudes de acceso pendientes** y, a continuación, haga clic en **Guardar**.
 
    Si ha aprobado la solicitud, los usuarios se agregan al cuadro para compartir de la vista. El usuario que solicita el permiso recibe un correo electrónico de confirmación de que su solicitud se ha aprobado. <!--will they also get an in-app notification??-->
@@ -259,11 +265,11 @@ En la notificación por correo electrónico, haga clic en **Ver todas las notifi
 {{step1-to-planning}}
 
 1. Abra el espacio de trabajo cuya vista desee dejar de compartir y, a continuación, haga clic en una tarjeta de tipo de registro. Se abre la página de tipo de registro.
-1. Pase el ratón sobre el nombre de la ficha de la vista de la que quiera quitar el uso compartido y haga clic en el menú **Más** ![Menú más](assets/more-menu.png); a continuación, haga clic en **Compartir**.
+1. Coloca el cursor sobre el nombre del pestaña de la vista de la que quieras quitar el uso compartido, haz clic en el **menú](assets/more-menu.png)![ Más** y, a continuación, haz clic en **Compartir**.
 1. Para quitar el uso compartido interno de una vista, haga lo siguiente:
 
    1. Asegúrese de que la pestaña **Uso compartido interno** esté seleccionada.
-   1. Busque el usuario, grupo, equipo, empresa o rol que desea quitar, expanda el menú desplegable de permisos a la derecha del nombre de la entidad con la que comparte la vista y, a continuación, haga clic en **Quitar**.
+   1. Busque el usuario, grupo, equipo, compañía o trabajo función lo que desea eliminar, expanda el menú desplegable de permisos a la derecha del nombre de la entidad con la que comparte la vista y luego haga clic en **Quitar**.
 
 1. Para quitar el uso compartido público de una vista, haga lo siguiente:
 

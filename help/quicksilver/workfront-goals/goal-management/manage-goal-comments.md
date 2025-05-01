@@ -1,12 +1,12 @@
 ---
 product-previous: workfront-goals
 navigation-topic: goal-management
-title: Administrar comentarios de metas en Adobe Workfront Goals
+title: Administrar comentarios de objetivos en Objetivos de Adobe Systems Workfront
 description: Puede añadir comentarios a todas las metas que puede ver en Adobe Workfront Goals.
 author: Alina
 feature: Workfront Goals
 exl-id: 6cf2d2d2-5ba5-40f2-a803-01359c338541
-source-git-commit: 4e1558b47f6041501aa4e4fbfa6317dec8aee571
+source-git-commit: 6e2e337969fccba88ea7089fe9a6d9db605343f7
 workflow-type: tm+mt
 source-wordcount: '297'
 ht-degree: 71%
@@ -30,7 +30,7 @@ After the monthly releases to Production, the same features are also available i
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)</span>  
 -->
 
-Puede agregar comentarios a todas las metas que puede ver en Adobe Workfront Goals.
+Puede agregar comentarios a todos los objetivos que puede vista en Adobe Systems Objetivos de Workfront.
 
 ## Requisitos de acceso
 
@@ -63,9 +63,9 @@ Debe tener el siguiente acceso para realizar las acciones descritas en este art�
  <tr>
  <td role="rowheader">Producto*</td>
  <td>
- <p> Nuevo requisito de producto: Workfront</p>
+ <p> Nuevo requisito del producto: Workfront</p>
  O
- <p>Requisito actual del producto: además de una licencia de Workfront, debe adquirir una licencia para Adobe Workfront Goals. </p> <p>Para obtener más información, consulte <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requisitos para usar Workfront Goals</a>. </p> </td>
+ <p>Requisitos actuales del producto: Además de una licencia de Workfront, debe comprar una licencia para Adobe Systems objetivos de Workfront. </p> <p>Para obtener más información, consulte <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requisitos para usar Workfront Goals</a>. </p> </td>
  </tr>
  <tr>
  <td role="rowheader">Configuración de nivel de acceso</td>
@@ -96,12 +96,12 @@ Debe tener el siguiente acceso para realizar las acciones descritas en este art�
 
 Puede añadir comentarios a las metas en la sección Actualizaciones de la página de una meta.
 
-1. Haga clic en el icono **Menú principal** ![Icono del menú principal](assets/main-menu-icon.png) en la esquina superior derecha, o en el icono **Menú principal** ![Líneas del menú principal](assets/lines-main-menu.png) en la esquina superior izquierda, si está disponible, y luego haga clic en **Metas**.
+1. Haz clic en el icono](assets/main-menu-icon.png) del menú principal en la esquina superior derecha o en el icono ![del **menú** principal Líneas](assets/lines-main-menu.png) del menú principal en la esquina superior izquierda, si están disponibles, y haz clic en **Objetivos******![
 Se abrirá la lista de metas.
 1. Busque la meta a la que desee añadir comentarios y, a continuación, haga clic en su nombre para abrir la página de la meta.
 1. Haga clic en **Actualizaciones** en el panel izquierdo. 
 
-   Para obtener más información acerca de cómo administrar comentarios en objetos de Workfront, vea [Actualizar el trabajo](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+   Para obtener más información acerca de la administración de comentarios para objetos Workfront, consulte Actualización [del trabajo](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 <!--   
 1. (Optional) To locate an existing comment, start typing a keyword (*****or a user's name********) in the **Search** box in the upper-right corner of the **Comments** tab. 

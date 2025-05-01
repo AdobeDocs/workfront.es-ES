@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 475a519d-d3bd-4461-8099-0e296d556d34
-source-git-commit: 1dc2791bed0dfada109ee102e09c25ae9a52e6b0
+source-git-commit: 6e2e337969fccba88ea7089fe9a6d9db605343f7
 workflow-type: tm+mt
-source-wordcount: '894'
+source-wordcount: '918'
 ht-degree: 19%
 
 ---
@@ -49,7 +49,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
    <p> Productos</p> </td> 
    <td> 
    <ul><li><p> Adobe Workfront</p></li> 
-   <li><p> Planificación de Adobe Workfront<p></li></ul></td> 
+   <li><p> Adobe Systems planificación del frente de trabajo<p></li></ul></td> 
   </tr>   
 <tr> 
    <td role="rowheader"><p>Plan de Adobe Workfront*</p></td> 
@@ -88,7 +88,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
 <tr> 
    <td role="rowheader"><p>Permisos de objeto</p></td> 
-   <td>  <p>Administración de permisos en un espacio de trabajo</p>  </td> 
+   <td>  <p>Administrar permisos para una espacio de trabajo</p>  </td> 
   </tr> 
 <tr> 
    <td role="rowheader"><p>Plantilla de diseño</p></td> 
@@ -113,6 +113,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 * Para obtener información general sobre cómo compartir objetos en Workfront Planning, consulte también [Información general sobre los permisos de uso compartido en Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md).
 * Puede compartir espacios de trabajo con usuarios, equipos, funciones, grupos o empresas de su organización.
+* Además de los equipos, grupos, empresas y funciones del puesto, solo puede compartir con los usuarios que se han añadido a Adobe Admin Console.
 * No puede compartir espacios de trabajo con usuarios que no pertenezcan a su organización.
 * Al compartir un espacio de trabajo, también se comparten todos los tipos de registros, registros y campos asociados a los espacios de trabajo.
 * Al compartir un espacio de trabajo, las vistas no se comparten. Debe compartir vistas por separado.
@@ -134,11 +135,11 @@ Para compartir un espacio de trabajo con otros usuarios:
 
 {{step1-to-planning}}
 
-1. Abra el área de trabajo que desea compartir y haga clic en **Compartir** en la esquina superior derecha de la pantalla.
+1. Abre la espacio de trabajo que quieras compartir y, a continuación, haz clic **en Compartir** en la esquina superior derecha de la pantalla.
 
-   ![Botón Compartir en la parte superior derecha del espacio de trabajo](assets/share-button-on-workspace-top-right.png)
+   ![Comparte botón en espacio de trabajo parte superior derecha](assets/share-button-on-workspace-top-right.png)
 
-1. En el campo **Conceder acceso a este área de trabajo**, empiece a escribir el nombre de un usuario, grupo, equipo, empresa o rol y, a continuación, haga clic en él cuando se muestre en la lista.
+1. En el **campo Conceder acceso a este espacio de trabajo** , inicio escribiendo el nombre de una usuario, grupo, equipo, compañía o función de trabajo y, a continuación, haga clic en él cuando aparezca en el lista.
 
    ![IU para compartir con grupos](assets/sharing-ui-with-groups.png)
 
@@ -166,11 +167,11 @@ Los usuarios que accedan a un vínculo a un espacio de trabajo para el que no te
 O
 En la notificación por correo electrónico, haga clic en **Ver todas las notificaciones** y, a continuación, haga clic en la notificación en la lista.
 
-   Se muestra el cuadro **Solicitudes de acceso pendientes**.
+   Se muestra el **cuadro Solicitudes** de acceso pendientes.
 
-   ![Cuadro de aprobación de lista de notificaciones](assets/notifications-list-approval-box.png)
+   ![Cuadro de notificación lista aprobación](assets/notifications-list-approval-box.png)
 
-1. (Opcional) Para el usuario cuyos permisos desea aprobar, seleccione una de las siguientes opciones en el menú desplegable situado a la derecha del nombre del usuario:
+1. (Opcional) Para la usuario cuyos permisos desee aprobar, seleccione una de las siguientes opciones en el menú desplegable situado a la derecha del nombre del usuario:
    * **Vista**
    * **Aportar**
    * **Administrar**

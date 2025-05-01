@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 8fcc6c75811080f3ee152849a149542be8ae820c
+source-git-commit: 6e2e337969fccba88ea7089fe9a6d9db605343f7
 workflow-type: tm+mt
-source-wordcount: '1974'
-ht-degree: 44%
+source-wordcount: '2258'
+ht-degree: 39%
 
 ---
 
@@ -56,7 +56,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
    <p> Productos</p> </td>
    <td>
    <ul><li><p> Adobe Workfront</p></li>
-   <li><p> Planificación de Adobe Workfront<p></li></ul></td>
+   <li><p> Adobe Systems planificación del frente de trabajo<p></li></ul></td>
   </tr>  
  <tr>
    <td role="rowheader"><p>Plan de Adobe Workfront*</p></td>
@@ -105,7 +105,8 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr>
 <tr>
    <td role="rowheader"><p>Plantilla de diseño</p></td>
-   <td> <p>A todos los usuarios, incluidos los administradores de Workfront, se les debe asignar una plantilla de diseño que incluya el área de Planning en el menú principal y el área de Planning para proyectos, portafolios y programas. </p> Para obtener más información, consulte <a href="/help/quicksilver/planning/access/access-overview.md">Información general sobre el acceso a Adobe Planning</a>. </p>  </p>  
+   <td> <p>En el entorno de producción, todos los usuarios, incluidos los administradores del sistema, deben estar asignados a una plantilla de diseño que incluya las áreas de planificación.</p>
+<p><span class="preview">En el entorno de vista previa, los usuarios estándar y los administradores del sistema tienen activada de forma predeterminada el área de Planning.</span></p>  
 </td>
   </tr>
  </tbody>
@@ -115,12 +116,6 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 +++
 
-<!--replace the layout template info in the table with this at release: 
-
-<p>In the Production environment, all users including the System Administrators must be assigned to a layout template that includes the Planning areas.</p>
-<p><span class="preview">In the Preview environment, Standard users and System Administrators have the Planning area enabled by default.</span></p>
-
--->
 
 ## Consideraciones sobre la edición de páginas de registro
 
@@ -170,9 +165,9 @@ Para añadir una sección a una vista previa o a una página del registro:
 
    ![Cuadro de detalles](assets/details-box.png)
 
-1. (Opcional) Haga clic en el icono **Abrir en ficha nueva** ![Abrir detalles en un icono de ficha nueva](assets/open-details-in-a-new-tab-icon.png) en la esquina superior derecha de la vista previa del registro para abrir la página del registro en una ficha nueva.
+1. (Opcional) Haga clic en el **icono Abrir en pestaña** nueva Abrir ![detalles en un nuevo icono](assets/open-details-in-a-new-tab-icon.png) de pestaña en la esquina superior derecha del registro previsualización para abrir el Página del registro en una nueva pestaña.
 
-   Se abre la página de registro. La pestaña Detalles se abre de forma predeterminada.
+   Se abre la Página de registro. La pestaña Detalles se abre de forma predeterminada.
 
    ![Página de detalles](assets/details-page.png)
 
@@ -180,9 +175,9 @@ Para añadir una sección a una vista previa o a una página del registro:
 1. Haga clic dentro del nombre de la sección y reemplace **Sección sin título** por un nombre; a continuación, haga clic en Entrar. Los campos que se muestran en la sección forman parte automáticamente de la nueva sección.
 1. Empiece a arrastrar y soltar campos en la nueva sección, tal como se describe en la sección [Reorganización de los campos en la vista previa o en la página de detalles del registro](#rearrange-fields-in-the-record-preview-or-details-page) de este artículo.
 
-1. (Opcional) Pase el ratón sobre el nombre de una sección y haga clic en el menú **Más** ![Menú más](assets/more-menu.png).
+1. (Opcional) Pase el ratón sobre el nombre de una sección y haga clic en el **menú Más** ![menú Más](assets/more-menu.png).
 
-   ![Más opciones de menú para la sección de la página de registros](assets/more-menu-options-for-section-on-record-page.png)
+   ![Más opciones de menú para la sección en el registro Página](assets/more-menu-options-for-section-on-record-page.png)
 1. (Opcional) Realice una de las siguientes acciones para editar la sección:
 
    * Haga clic en **Cambiar nombre** para cambiar el nombre de la sección
@@ -267,75 +262,93 @@ Ocurren lo siguiente:
 
    Todos los cambios en el diseño de la vista previa o la página del registro se guardan automáticamente.
 
-## Agregar una ficha Vista de conexión a la página de un registro
+## Agregar una <span class="preview">página de registros conectados</span> a un registro
 
-<!--suggested a new name for this type of page: "Connected records page" - check to see if this changed, and update this everywhere in this section-->
+Puede ver información de registros u objetos conectados agregando una ficha para una <span class="preview">página Registros conectados</span> a un registro.
 
-Puede ver información de registros u objetos conectados agregando una ficha para un tipo de página Vista de conexión a un registro. La información de los registros conectados se muestra en una vista de tabla de sólo lectura.
+En el entorno Producción, la información de los registros u objetos conectados se muestra en una vista de tabla de sólo lectura.
 
-<!--replace the last sentence above with this at release:
+<span class="preview">En el entorno de vista previa, la información de los registros conectados se puede editar en la vista de tabla. La información de los objetos conectados desde otra aplicación no se puede editar en la vista de tabla.</span>
 
-In the Production environment, the information from the connected records or objects displays in a read-only table view. 
+Tenga en cuenta lo siguiente al agregar una <span class="preview">página Registros conectados</span> a un registro:
 
-<Span class="preview">In the Preview environment, the information from the connected records can be edited in the table view. The information from the objects connected from another application is not editable in the table view.</span> -->
+* Puede agregar un <span class="preview">Página</span> de registros conectados a un registro después de conectar el registro o tipos de objeto al tipo de registro desde el vista de tabla de un tipo de registro.
 
-Tenga en cuenta lo siguiente al agregar una vista Conexión a la página de un registro:
+* No puede agregar un <span class="preview">Página</span> de registros conectados al área previsualización de un registro.
 
-* Puede agregar una página Vista de conexión a la página de un registro después de conectar tipos de registro u objeto al tipo de registro.
+* <span class="preview">Las páginas</span> de registros conectados muestran solo los objetos conectados o los registros de un objeto o tipo de registro en una tabla vista. La Página no muestra todos los registros de ese tipo en la tabla vista.
 
-* No se puede agregar una página de vista Conexión al área de vista previa de un registro.
+* Después de agregar una <span class="preview">página Registros conectados</span> a un registro, la ficha de página se ve desde el área de vista previa del registro, pero está en blanco. Debe ir al Página completo para ver los vista de tabla para el registro conectado. <!--this might have changed? check and take disclaimer out-->
 
-* Las páginas de vista de conexión muestran una página de tipo de registro conectada o un tipo de objeto conectado de otra aplicación en una vista de tabla.
+* Puede agregar <span class="preview">Páginas de registros conectados</span> para los siguientes tipos de registros u objetos conectados:
 
-* Después de agregar una página de vista Conexión a la página de un registro, la ficha Página se puede ver desde el área de vista previa del registro. Debe ir a la página completa para ver la vista de tabla del registro conectado. <!--this might have changed? check and take disclaimer out-->
+   * Tipos de registros de Workfront Planning
+   * Proyectos, programas, portafolios, grupos o compañías de Workfront. Puede ver los objetos de Workfront conectados incluso cuando no tenga permisos para acceder a ellos en Workfront.
 
-Para agregar una página Vista de conexión:
+  >[!NOTE]
+  >
+  >   No puede agregar una Página</span> de <span class="preview">registros conectados para registros de Recursos AEM conectados.
 
-1. En una vista de página de registro, haga clic en el nombre de un registro para abrirlo y, a continuación, haga clic en el icono **Abrir en ficha nueva** ![Abrir detalles en un icono de ficha nueva](assets/open-details-in-a-new-tab-icon.png) en la esquina superior derecha de la página de vista previa.
+
+Para agregar un <span class="preview">Página</span> de registros conectados:
+
+1. Desde un vista de página de registro, haga clic en el nombre de un registro para abrirlo y, a continuación, haga clic en el **icono ![Abrir en pestaña** nueva Abrir](assets/open-details-in-a-new-tab-icon.png) detalles en un icono de pestaña nuevo en la esquina superior derecha del Página previsualización.
 1. Haga clic en **Agregar página**.
 
-   ![Agregar modal de página de vista de conexión](assets/add-connection-view-page-modal.png)
-1. Agregue **Nombre de página**, haga clic en **Vista de conexión** y, a continuación, haga clic en **Crear**.
+   <div class="preview">
+
+   Se abre el cuadro **Crear página**.
+
+   ![Agregar página de registros conectados modal](assets/add-connection-view-page-modal.png)
+
+   </div>
+
+1. Agregue **Nombre de página**, haga clic en **<span class="preview">Página de registros conectados</span>** y, a continuación, haga clic en **Crear**.
 
    Se agrega una nueva pestaña a la página del registro.
 1. Busque o haga clic en el nombre de un tipo de objeto o registro conectado en la lista.
 La vista de tabla del tipo de registro seleccionado se muestra en la nueva página y los registros conectados se muestran en la vista de tabla.
 Todos los campos del registro conectado se muestran en la vista de tabla de la ficha del registro conectado.
 
-   Los cinco primeros campos de la tabla de registros conectada se muestran de forma predeterminada. De forma predeterminada, no se muestran campos de búsqueda.
+   Los primeros cinco campos de la tabla de registros conectada se muestran de forma predeterminada. De forma predeterminada, no se muestran campos de búsqueda.
 
    <!--replace screen shot below when additional capabilities come to the table view - Fields, etc-->
 
-   ![Vista de tabla conectada a la audiencia con detalles de campaña](assets/audience-connected-table-view-under-campaign-details-page.png)
+   ![Tabla conectada a la audiencia vista debajo de campaña detalles](assets/audience-connected-table-view-under-campaign-details-page.png)
 
 1. (Opcional) En la vista de tabla de los registros conectados, realice una de las siguientes acciones:
 
-   * Haga clic en el nombre de un registro. Se abre la página del registro en una nueva ficha. <!--<span class="preview">In the Preview environment, this opens the record's preview page.</span>-->
-   * Haga clic en **Conectar** para conectar más registros y, a continuación, haga clic fuera del cuadro de conexión para cerrarlo. Los registros nuevos se agregan automáticamente a la tabla.
-     <!--* <span class="preview">Edit any information from the connected records inside the table view. </span>-->
+   * Haga clic en el nombre de un registro. Esto abre el Página del registro en una nueva pestaña.
 
-   <!--<div class="preview">
+     <span class="preview">En el entorno de vista previa, se abre la página de vista previa del registro. Haga clic en el **icono ![Abrir en una nueva pestaña** Abrir en un nuevo icono](assets/open-details-in-a-new-tab-icon.png) de pestaña en la esquina superior derecha para abrir el Página del registro conectado.</span>
 
-   * Hover over a connected record's name, then click the **More** menu ![More menu](assets/more-menu.png), then click one of the following options: 
-      * View 
-      * Copy link
-      * Edit thumbnail
-      * Duplicate
-      * Insert record above or below
-      * Delete 
-   * Select one of the records, then click one of the following options in the blue bar at the bottom of the screen: 
-      * View
-      * Copy link
-      * Edit thumbnail
-      * Duplicate
-      * Delete. Delete is the only option available when you select more than one record. 
+   * Haga clic en **Conectar** para conectar más registros y, a continuación, haga clic fuera del cuadro de conexión para cerrarlo. Los nuevos registros se agregan automáticamente a la tabla.
+   * <span class="preview">Editar cualquier información de los registros conectados dentro de la tabla vista. </span>
 
-      For information about editing records in the table view, see [Edit records](/help/quicksilver/planning/records/edit-records.md). 
+   <div class="preview">
 
-   </div>-->
+   * Desplácese sobre el nombre de un registro conectado, luego haga clic en el **menú Más** ![menú](assets/more-menu.png) Más y, a continuación, haga clic en una de las siguientes opciones:
+      * Ver
+      * Copiar vínculo
+      * Editar miniatura
+      * Duplicar
+      * Insertar registro arriba o abajo
+      * Eliminar
+   * Seleccione uno de los registros y haga clic en una de las siguientes opciones de la barra azul de la parte inferior de la pantalla:
+      * Ver
+      * Copiar vínculo
+      * Editar miniatura
+      * Duplicar
+      * Eliminar. Eliminar es la única opción disponible cuando se selecciona más de un registro.
+
+     Para obtener información acerca de cómo editar registros en la vista de tabla, vea [Editar registros](/help/quicksilver/planning/records/edit-records.md).
+
+   * Edite en línea cualquiera de los registros de la tabla en la página Registros conectados. Los objetos de Workfront se muestran en una vista de tabla de solo lectura y no se pueden editar.
+
+   </div>
 
 
-1. (Opcional) Haga doble clic en el nombre de la ficha Vista de conexión
+1. (Opcional) Haga doble clic en el nombre de la ficha <span class="preview">Página de registros conectados</span>
 
    O
 
@@ -355,7 +368,7 @@ Todos los campos del registro conectado se muestran en la vista de tabla de la f
    >
 
 1. Haga clic en **Conectar** para agregar o quitar registros. Para obtener más información, consulte [Conectar registros](/help/quicksilver/planning/records/connect-records.md)
-1. (Opcional) Pase el ratón sobre el nombre de la pestaña Vista de conexión, haga clic en **Más** ![Menú más](assets/more-menu.png) y, a continuación, haga clic en **Eliminar** para quitar a la pestaña.
+1. (Opcional) Pase el ratón sobre el nombre de la ficha <span class="preview">Página de registros conectados</span>, haga clic en **Más** ![Menú más](assets/more-menu.png) y, a continuación, haga clic en **Eliminar** para quitar a la ficha.
 
 
 

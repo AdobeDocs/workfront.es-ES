@@ -6,18 +6,18 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: f171db8474df703fddbf63a673f9bfbd2ab2db27
+source-git-commit: 6e2e337969fccba88ea7089fe9a6d9db605343f7
 workflow-type: tm+mt
-source-wordcount: '2872'
-ht-degree: 87%
+source-wordcount: '3205'
+ht-degree: 76%
 
 ---
 
 # Administrar la vista de tabla
 
-<!--<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">La información resaltada en esta página hace referencia a funcionalidades que aún no están disponibles de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después de las versiones mensuales en Production, las mismas funciones también están disponibles en el entorno Production para los clientes que habilitaron versiones rápidas. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -43,7 +43,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
    <p> Productos</p> </td> 
    <td> 
    <ul><li><p> Adobe Workfront</p></li> 
-   <li><p> Planificación de Adobe Workfront<p></li></ul></td> 
+   <li><p> Adobe Systems planificación del frente de trabajo<p></li></ul></td> 
   </tr>   
 <tr> 
    <td role="rowheader"><p>Plan de Adobe Workfront*</p></td> 
@@ -86,7 +86,8 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
 <tr> 
    <td role="rowheader"><p>Plantilla de diseño</p></td> 
-   <td> <p>A todos los usuarios, incluidos los administradores de Workfront, se les debe asignar una plantilla de diseño que incluya el área de Planning en el menú principal. </p> </td> 
+   <td> <p>En el entorno de producción, todos los usuarios, incluidos los administradores del sistema, deben asignarse a una plantilla de diseño que incluya las áreas de planificación.</p>
+<p><span class="preview">En el entorno Vista previa, los usuarios Standard y los administradores del sistema tienen el área Planificación activada de forma predeterminada.</span></p></td> 
   </tr> 
 </tbody> 
 </table>
@@ -95,13 +96,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 +++
 
-<!--replace the layout template info in the table with this at release: 
 
-
-<p>In the Production environment, all users including the System Administrators must be assigned to a layout template that includes the Planning areas.</p>
-<p><span class="preview">In the Preview environment, Standard users and System Administrators have the Planning area enabled by default.</span></p>
-
--->
 
 ## Editar registros mediante la vista de tabla
 
@@ -117,9 +112,11 @@ Al crear una vista de tabla, todos los registros del tipo seleccionado se muestr
 
 Para administrar una vista de tabla:
 
-1. Cree una vista de tabla, tal como se describe en el artículo [Administrar vistas de registros](/help/quicksilver/planning/views/manage-record-views.md).
+1. <span class="preview">Cree una vista de tabla, tal como se describe en el artículo [Administrar vistas de registros](/help/quicksilver/planning/views/manage-record-views.md). </span>
 
-   ![Ejemplo de vista de tabla](assets/table-view-example.png)
+   <span class="preview">![Ejemplo de vista de tabla](assets/table-view-example.png)
+
+   </span>
 
 1. (Opcional) Haga clic en **Altura de la fila** y, a continuación, seleccione una de las siguientes opciones para modificar la altura de las filas de la tabla:
    * Baja
@@ -130,14 +127,17 @@ Para administrar una vista de tabla:
    * [Columnas (o campos)](#add-columns-or-fields)
    * [Filas (o registros)](#add-rows-or-records)
    * [Filtros](#add-filters)
-   * [Agrupación](#add-groupings)
    * [Ordenar](#add-a-sort)
-   * [Habilitar el indicador de presencia en tiempo real](#enable-the-real-time-presence-indicator)
+   * [Agrupación](#add-groupings)
+   * <span class="preview">[Colores de fila](#add-row-colors)</span>
+   * [Indicador de presencia en tiempo real](#enable-the-real-time-presence-indicator)
 
 
 ### Añadir columnas (o campos) {#add-columns}
 
-Los encabezados de columna de una vista de tabla muestran los campos asociados a los registros de la vista. Los mismos campos mostrados en la vista de tabla también se muestran en la sección de detalles de un registro. Para obtener más información, consulte [Editar registros](/help/quicksilver/planning/records/edit-records.md).
+Los encabezados de columna de una vista de tabla muestran los campos asociados a los registros de la vista. Los campos mostrados en la vista de tabla también se muestran en la sección Detalles de un registro.
+
+Para obtener más información, consulte [Editar registros](/help/quicksilver/planning/records/edit-records.md).
 
 <!--this is not available yet:You can display record fields (or columns) in both a table and a timeline view. However, the number of columns displayed in the table of the timeline view is limited and you cannot add columns in addition to those selected by default.-->
 
@@ -157,7 +157,7 @@ Puede añadir hasta 500 campos (o columnas) en una vista de tabla.
 
    * Haga clic en **Campos** en la barra de herramientas de la tabla, arrastre y suelte los campos en el orden deseado y, a continuación, haga clic fuera del cuadro **Visibilidad y orden de los campos** para cerrarlo.
 
-     ![Campos configurando la barra de herramientas de la vista de tabla expandida](assets/fields-setting-table-view-toolbar-expanded.png)
+     ![Campos que configuran tabla vista barra de herramientas expandida](assets/fields-setting-table-view-toolbar-expanded.png)
 
 
      >[!TIP]
@@ -203,7 +203,7 @@ Puede añadir hasta 500 campos (o columnas) en una vista de tabla.
 
    1. Haga clic en el icono **Buscar** ![Icono de búsqueda](assets/search-icon.png) y empiece a escribir una palabra clave asociada a cualquier campo de un registro que se muestra en la pantalla. El número de coincidencias correctas se mostrará junto al elemento de búsqueda y el campo con la coincidencia correcta quedará resaltado.
 
-      ![Cuadro de búsqueda con contorno azul de resultados en la vista de tabla](assets/search-box-with-results-blue-outline-table-view.png)
+      ![Search cuadro con los resultados en azul en la tabla vista](assets/search-box-with-results-blue-outline-table-view.png)
 
       Puede utilizar cualquier palabra o carácter especial que esté visible en la pantalla.
 
@@ -362,55 +362,6 @@ Para añadir un filtro a una vista de tabla:
 1. (Opcional) Haga clic en el icono **x** para quitar una condición de filtro.
 1. (Opcional) Haga clic en **Filtros** para cerrar el cuadro de filtros. <!--right now you cannot "clear all" for filters, but this might come later-->
 
-### Añadir agrupaciones {#add-groupings}
-
-<!--this section exists in the timeline view too, but the display is slightly different, so I kept both steps; consider updating both sections if any updates to groupings are introduced-->
-
-Es posible agrupar registros por información similar al aplicar una agrupación a una vista.
-
-Añadir agrupaciones en la vista de tabla es similar a añadir agrupaciones a la vista de línea de tiempo.
-
-Tenga en cuenta lo siguiente:
-
-* Es posible aplicar agrupaciones tanto en las vistas de tabla como de línea de tiempo. Las agrupaciones de la vista de tabla son independientes de las de la vista de línea de tiempo del mismo tipo de registro.
-* Se pueden aplicar 3 niveles de agrupación en una vista. Los registros se agrupan en el orden de agrupaciones que se seleccione.
-&lt;!--* Es posible aplicar hasta 4 niveles de agrupación al utilizar la API. --comprobando este ahora-->
-* Las agrupaciones son únicas para la vista que se seleccione. Dos vistas de tabla del mismo tipo de registro pueden tener diferentes agrupaciones aplicadas. Dos usuarios que vean la misma vista de tabla verán la misma agrupación que se aplique en ese momento.
-* No se puede asignar un nombre a las agrupaciones que se generen para una vista de tabla.
-* Al quitar las agrupaciones, se quitarán de cualquier usuario que tenga acceso al mismo tipo de registro y que muestre la misma vista que usted.
-* Es posible editar los registros enumerados bajo una agrupación.
-* Es posible agrupar por campos de registro conectados o campos de búsqueda.
-* Cuando se agrupan por campos de búsqueda con varios valores (que no se hayan resumido por un agregador), los registros se agruparán según cada combinación única de valores de campo.
-* Puede hacer referencia a un campo que esté situado a una distancia de hasta 4 niveles del tipo de registro actual. Por ejemplo, si se crea una agrupación para un tipo de registro de actividad y la actividad estuviera conectada al tipo de registro de producto, que está conectado al tipo de registro de campaña, y que está conectado a un proyecto de Workfront, se podrá hacer referencia al estado del proyecto en la agrupación que esté creando para el tipo de registro de actividad.
-<!--checking into this: * You can apply up to 4 levels of grouping when using the API. -->
-<!-- checking also into this: * You cannot group by a Paragraph-type field.-->
-
-para añadir una agrupación:
-
-1. Cree una vista de línea de tiempo para un tipo de registro, tal y como se describe en el artículo [Administración de vistas de registros](/help/quicksilver/planning/views/manage-record-views.md).
-1. Haga clic en **Agrupación**, en la esquina superior derecha de la vista de tabla.
-
-   ![Vista de tabla de IU de agrupación con campos vinculados](assets/grouping-ui-table-view-with-linked-fields.png)
-
-1. Haga clic en uno de los campos sugeridos o en **Elegir un campo diferente**, busque uno y luego hágale clic cuando se muestre en la lista.
-
-   La agrupación se aplicará automáticamente a la tabla y los registros se mostrarán bajo la línea de separación de la agrupación.
-
-1. (Opcional) Haga clic en **Añadir condición** y repita los pasos anteriores para añadir hasta 3 agrupaciones.
-
-   El número de campos seleccionados para la agrupación se muestra junto al icono de Agrupación.
-
-   ![Agrupación aplicada en la vista de tabla](assets/grouping-applied-in-table-view.png)
-
-1. (Opcional) Dentro del cuadro **Agrupar registros por**, haga clic en el icono **x** a la derecha de un campo seleccionado para la agrupación para quitar la agrupación
-
-   O
-
-   Haga clic en **Borrar todo** para quitar todos los campos.
-
-1. Haga clic fuera del cuadro **Agrupar registros por** para cerrarlo.
-1. (Opcional) Haga clic en **+ Nuevo registro** al final de cualquier agrupación para añadir nuevos registros y, a continuación, actualice la página para añadir el nuevo registro a la agrupación adecuada. <!--this might need to be changed when they add the Refresh button on the toolbar of the table view-->
-
 ### Añadir una ordenación {#sort-information}
 
 Al aplicar una ordenación, puede organizar la información en un orden determinado.
@@ -473,6 +424,56 @@ Para ordenar registros <!--ungrouped (add this when sorting for groupings will b
 
    Los campos seleccionados para la ordenación muestran un icono de ordenación seguido de un número que indica el orden de aplicación de la ordenación.
 
+### Añadir agrupaciones {#add-groupings}
+
+<!--this section exists in the timeline view too, but the display is slightly different, so I kept both steps; consider updating both sections if any updates to groupings are introduced-->
+
+Es posible agrupar registros por información similar al aplicar una agrupación a una vista.
+
+Añadir agrupaciones en la vista de tabla es similar a añadir agrupaciones a la vista de línea de tiempo.
+
+Tenga en cuenta lo siguiente:
+
+* Es posible aplicar agrupaciones tanto en las vistas de tabla como de línea de tiempo. Las agrupaciones de la vista de tabla son independientes de las de la vista de línea de tiempo del mismo tipo de registro.
+* Se pueden aplicar 3 niveles de agrupación en una vista. Los registros se agrupan en el orden de agrupaciones que se seleccione.
+&lt;!--* Es posible aplicar hasta 4 niveles de agrupación al utilizar la API. --comprobando este ahora-->
+* Las agrupaciones son únicas para la vista que se seleccione. Dos vistas de tabla del mismo tipo de registro pueden tener diferentes agrupaciones aplicadas. Dos usuarios que vean la misma vista de tabla verán la misma agrupación que se aplique en ese momento.
+* No se puede asignar un nombre a las agrupaciones que se generen para una vista de tabla.
+* Al quitar las agrupaciones, se quitarán de cualquier usuario que tenga acceso al mismo tipo de registro y que muestre la misma vista que usted.
+* Es posible editar los registros enumerados bajo una agrupación.
+* Es posible agrupar por campos de registro conectados o campos de búsqueda.
+* Cuando se agrupan por campos de búsqueda con varios valores (que no se hayan resumido por un agregador), los registros se agruparán según cada combinación única de valores de campo.
+* Puede hacer referencia a un campo que esté situado a una distancia de hasta 4 niveles del tipo de registro actual. Por ejemplo, si se crea una agrupación para un tipo de registro de actividad y la actividad estuviera conectada al tipo de registro de producto, que está conectado al tipo de registro de campaña, y que está conectado a un proyecto de Workfront, se podrá hacer referencia al estado del proyecto en la agrupación que esté creando para el tipo de registro de actividad.
+<!--checking into this: * You can apply up to 4 levels of grouping when using the API. -->
+<!-- checking also into this: * You cannot group by a Paragraph-type field.-->
+
+para añadir una agrupación:
+
+1. Cree una vista de línea de tiempo para un tipo de registro, tal y como se describe en el artículo [Administración de vistas de registros](/help/quicksilver/planning/views/manage-record-views.md).
+1. Haga clic en **Agrupación**, en la esquina superior derecha de la vista de tabla.
+
+   ![Vista de tabla de IU de agrupación con campos vinculados](assets/grouping-ui-table-view-with-linked-fields.png)
+
+1. Haga clic en uno de los campos sugeridos o en **Elegir un campo diferente**, busque uno y luego hágale clic cuando se muestre en la lista.
+
+   La agrupación se aplicará automáticamente a la tabla y los registros se mostrarán bajo la línea de separación de la agrupación.
+
+1. (Opcional) Haga clic en **Añadir condición** y repita los pasos anteriores para añadir hasta 3 agrupaciones.
+
+   El número de campos seleccionados para la agrupación se muestra junto al icono de Agrupación.
+
+   ![Agrupación aplicada en la vista de tabla](assets/grouping-applied-in-table-view.png)
+
+1. (Opcional) Dentro del cuadro **Agrupar registros por**, haga clic en el icono **x** a la derecha de un campo seleccionado para la agrupación para quitar la agrupación
+
+   O
+
+   Haga clic en **Borrar todo** para quitar todos los campos.
+
+1. Haga clic fuera del cuadro **Agrupar registros por** para cerrarlo.
+1. (Opcional) Haga clic en **+ Nuevo registro** al final de cualquier agrupación para añadir nuevos registros y, a continuación, actualice la página para añadir el nuevo registro a la agrupación adecuada. <!--this might need to be changed when they add the Refresh button on the toolbar of the table view-->
+
+
 <!-- this is not available yet: 
 
 To sort grouped records: 
@@ -481,6 +482,42 @@ To sort grouped records:
 1. ************************* add steps here for sorting grouped records****************
 
 -->
+
+<div class="preview">
+
+### añadir colores de fila
+
+1. (Opcional) Haga clic en **Colores** de fila para definir condiciones y elegir configurar colores diferentes para filas de tabla.
+
+1. Haga clic en añadir color **y, a continuación**, seleccione **un campo** cuyo valor desee determinar el color de una fila.
+
+   Por ejemplo, para mostrar las campañas con el estado Activo en verde, seleccione **Estado** y, a continuación, elija un modificador y un valor para el campo.
+
+   ![Cuadro de colores de filas con el estado Activo seleccionado y la opción de color predeterminada](assets/row-colors-box-with-active-status-selected-default-color-choice.png)
+
+1. Haga clic en el menú desplegable del selector de color en la esquina superior izquierda de la condición seleccionada, para elegir el color de la condición y, a continuación, haga clic fuera del cuadro selector de color para cerrarlo.
+
+   ![Menú desplegable del selector de color en el cuadro Colores de fila resaltado](assets/drop-down-color-picker-menu-in-row-colors-box-highlighted.png)
+
+1. (Opcional) Haga clic en **Agregar condición** para agregar más campos y valores al primer conjunto de condiciones
+
+   O
+
+   Haga clic en **Agregar color** para agregar un nuevo conjunto de condiciones e identificar un nuevo color.
+
+   Por ejemplo, puede mostrar las campañas en un estado de Planning en amarillo definiendo un nuevo conjunto de condiciones.
+
+   ![Cuadro de colores de fila con colores personalizados de estado Activo y Planificación](assets/row-colors-box-with-active-and-planning-status-custom-colors.png)
+
+1. (Opcional) Active la opción **Aplicar a toda la fila** en la esquina superior derecha del cuadro Colores de fila. Toda la fila donde se cumple la condición se muestra automáticamente en el color seleccionado.
+
+   >[!TIP]
+   >
+   >Si la configuración Aplicar a toda la fila está desactivada, solo el lado izquierdo del campo Principal muestra un indicador de color estrecho con el color seleccionado. La configuración está desactivada de forma predeterminada.
+
+1. Haga clic fuera del cuadro **Colores de fila** para cerrarlo. Los colores se aplican automáticamente.
+
+</div>
 
 ### Habilitar el indicador de presencia en tiempo real
 
