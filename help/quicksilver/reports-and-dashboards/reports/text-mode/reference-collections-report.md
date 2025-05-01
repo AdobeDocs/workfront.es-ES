@@ -6,9 +6,9 @@ description: Colecciones de referencia en un informe
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 18ba3f4b-ae03-4694-a2fe-fdbeeb576ea9
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: 6bd9dc626befc4dfa4054760e7ec7d677f6da6e5
 workflow-type: tm+mt
-source-wordcount: '2560'
+source-wordcount: '2615'
 ht-degree: 5%
 
 ---
@@ -307,6 +307,15 @@ Puede hacer referencia a una colección de objetos en el filtro de un informe pa
 
 Por ejemplo, puede filtrar la información de tareas o problemas de un informe de proyecto mediante una referencia a los atributos de las tareas o problemas del proyecto en la instrucción de filtro.
 
+>[!NOTE]
+>
+>Cuando se aplica a campos que contienen varios valores (como una colección de notas dentro de un proyecto), el filtro determina la inclusión de la siguiente manera:
+>
+>* Si todos los elementos de una colección contienen el valor especificado, se excluye todo el registro de los resultados.
+>* Si al menos un elemento de la colección no contiene el valor especificado, el registro permanece en los resultados.
+
+
+
 Para agregar una referencia a una colección en un filtro de informe:
 
 1. Haga clic en el **icono del menú principal** ![Menú principal](assets/main-menu-icon.png) y, a continuación, haga clic en **Informes**.
@@ -350,7 +359,7 @@ Para agregar una referencia a una colección en un filtro de informe:
 
    Este informe solo muestra los proyectos que tienen al menos una tarea con la palabra &quot;marketing&quot; en su nombre.
 
-   ![Tareas de solo marketing en el proyecto](assets/marketing-only-tasks-in-project-report-nwe-350x309.png){width=400}
+   ![Tareas solo de marketing en el proyecto](assets/marketing-only-tasks-in-project-report-nwe-350x309.png){width=400}
 
 1. Para filtrar por el nombre de un problema, utilice el siguiente código:
 

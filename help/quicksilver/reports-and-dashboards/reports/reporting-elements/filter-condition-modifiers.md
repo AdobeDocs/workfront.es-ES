@@ -6,10 +6,10 @@ description: Los modificadores de filtro y condición permiten crear filtros y e
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 13e9d926-8a89-490e-aa7a-e6e8baf2a36b
-source-git-commit: b2b17c34fe4887e291e69facf76f5071bca43b06
+source-git-commit: 6bd9dc626befc4dfa4054760e7ec7d677f6da6e5
 workflow-type: tm+mt
-source-wordcount: '1565'
-ht-degree: 99%
+source-wordcount: '1593'
+ht-degree: 95%
 
 ---
 
@@ -75,7 +75,12 @@ Puede utilizar los siguientes modificadores de condición en filtros e instrucci
   <tr valign="top"> 
    <td> <p><strong>No contiene</strong> </p> </td> 
    <td> <p><strong>cinotcontains</strong> </p> </td> 
-   <td> <p>Es la versión <i>sin distinción de mayúsculas y minúsculas</i> de <strong>notcontains</strong>.</p><p>Este modificador filtra los elementos a los que les falta el valor especificado.</p> <p>Por ejemplo, <code>does not contain inf</code> captura todo lo que no contenga <code>Inf</code> o <code>inf</code> en el nombre.</p> <p>Nota: <span>Si el campo por el que está filtrando tiene varias opciones, se filtrarán los resultados que contengan tanto la opción especificada como la especificada y cualquier otra opción adicional.</span> </p> </td> 
+   <td> <p>Es la versión <i>sin distinción de mayúsculas y minúsculas</i> de <strong>notcontains</strong>.</p><p>Este modificador filtra los elementos a los que les falta el valor especificado.</p> <p>Por ejemplo, <code>does not contain inf</code> captura todo lo que no contenga <code>Inf</code> o <code>inf</code> en el nombre.</p> <p>Nota: Cuando se aplica a campos que contienen varios valores (como una colección de notas dentro de un proyecto), el filtro determina la exclusión de la siguiente manera:
+<ul>
+    <li>Si todos los elementos de una colección contienen el texto especificado, todo el registro se excluye de los resultados.</li>
+    <li>Si al menos un elemento de la colección no contiene el texto especificado, el registro permanece en los resultados.</li>
+</ul>
+ </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td> </td> 
