@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 828426242e87d99d27d763e1893dee81afa36fc4
+source-git-commit: 6350e815e39d642a88a2c9c8b17208db5cb253c5
 workflow-type: tm+mt
-source-wordcount: '2009'
+source-wordcount: '2064'
 ht-degree: 0%
 
 ---
@@ -150,6 +150,14 @@ Para ver esta página, vaya a Configuración > Correo electrónico > Notificacio
 **Versión preliminar: 16 de enero de 2025; a partir del 30 de enero de 2025**
 
 Hemos actualizado el cuadro de diálogo Agregar Sharepoint en Configuración > Documentos > Integración con Sharepoint con un diseño más moderno y coherente con otras áreas de Workfront.
+
+Esta actualización incluye cambios visuales en el área. No se ha cambiado ninguna funcionalidad.
+
+### Actualización de la interfaz para el cuadro de diálogo Añadir integración personalizada
+
+**Versión preliminar: 16 de enero de 2025; a partir del 30 de enero de 2025**
+
+Hemos actualizado el cuadro de diálogo Agregar integración personalizada en Configuración > Documentos > Integración personalizada con un diseño más moderno y coherente con otras áreas de Workfront.
 
 Esta actualización incluye cambios visuales en el área. No se ha cambiado ninguna funcionalidad.
 
