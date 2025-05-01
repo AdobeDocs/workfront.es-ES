@@ -3,9 +3,9 @@ user-guide-title: Guía de Workfront
 user-guide-description: Utilice los siguientes documentos, tutoriales y recursos adicionales para aprender a implementar y utilizar Adobe Workfront de forma eficaz en su organización.
 role: User
 feature-set: Workfront
-source-git-commit: b36cfdc4587bc440867a6a84b9460eaeaf4daf88
+source-git-commit: ab3e1a354ec897797a455d6e25c7bf292a337a9d
 workflow-type: tm+mt
-source-wordcount: '13178'
+source-wordcount: '13174'
 ht-degree: 61%
 
 ---
@@ -1226,7 +1226,7 @@ ht-degree: 61%
          * [Información general sobre cómo adjuntar una plantilla a un proyecto](manage-work/projects/create-and-manage-templates/attach-template-to-project-overview.md)
       * Definir un caso comercial {#define-business-case}
          * [Definir un Caso empresarial: índice de artículos](manage-work/projects/define-a-business-case/define-business-case.md)
-         * [Información general de las áreas del caso empresarial](manage-work/projects/define-a-business-case/areas-of-business-case.md)
+         * [Resumen de áreas de caso comercial](manage-work/projects/define-a-business-case/areas-of-business-case.md)
          * [Creación de un caso empresarial para un proyecto](manage-work/projects/define-a-business-case/create-business-case.md)
          * [Aprobar un caso comercial](manage-work/projects/define-a-business-case/approve-business-case.md)
          * [Información general sobre los campos financieros del caso empresarial](manage-work/projects/define-a-business-case/business-case-finances.md)
