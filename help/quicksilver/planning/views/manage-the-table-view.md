@@ -6,7 +6,7 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 6e2e337969fccba88ea7089fe9a6d9db605343f7
+source-git-commit: e25f6ac3fb4ffc114d59bf5cceecfe718ae914ec
 workflow-type: tm+mt
 source-wordcount: '3205'
 ht-degree: 76%
@@ -43,7 +43,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
    <p> Productos</p> </td> 
    <td> 
    <ul><li><p> Adobe Workfront</p></li> 
-   <li><p> Adobe Systems planificación del frente de trabajo<p></li></ul></td> 
+   <li><p> Planificación de Adobe Workfront<p></li></ul></td> 
   </tr>   
 <tr> 
    <td role="rowheader"><p>Plan de Adobe Workfront*</p></td> 
@@ -86,8 +86,8 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
 <tr> 
    <td role="rowheader"><p>Plantilla de diseño</p></td> 
-   <td> <p>En el entorno de producción, todos los usuarios, incluidos los administradores del sistema, deben asignarse a una plantilla de diseño que incluya las áreas de planificación.</p>
-<p><span class="preview">En el entorno Vista previa, los usuarios Standard y los administradores del sistema tienen el área Planificación activada de forma predeterminada.</span></p></td> 
+   <td> <p>En el entorno de producción, todos los usuarios, incluidos los administradores del sistema, deben estar asignados a una plantilla de diseño que incluya las áreas de planificación.</p>
+<p><span class="preview">En el entorno de vista previa, los usuarios estándar y los administradores del sistema tienen activada de forma predeterminada el área de Planning.</span></p></td> 
   </tr> 
 </tbody> 
 </table>
@@ -95,8 +95,6 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 *Para obtener más información sobre los requisitos de acceso de Workfront, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
-
-
 
 ## Editar registros mediante la vista de tabla
 
@@ -157,7 +155,7 @@ Puede añadir hasta 500 campos (o columnas) en una vista de tabla.
 
    * Haga clic en **Campos** en la barra de herramientas de la tabla, arrastre y suelte los campos en el orden deseado y, a continuación, haga clic fuera del cuadro **Visibilidad y orden de los campos** para cerrarlo.
 
-     ![Campos que configuran tabla vista barra de herramientas expandida](assets/fields-setting-table-view-toolbar-expanded.png)
+     ![Campos configurando la barra de herramientas de la vista de tabla expandida](assets/fields-setting-table-view-toolbar-expanded.png)
 
 
      >[!TIP]
@@ -203,7 +201,7 @@ Puede añadir hasta 500 campos (o columnas) en una vista de tabla.
 
    1. Haga clic en el icono **Buscar** ![Icono de búsqueda](assets/search-icon.png) y empiece a escribir una palabra clave asociada a cualquier campo de un registro que se muestra en la pantalla. El número de coincidencias correctas se mostrará junto al elemento de búsqueda y el campo con la coincidencia correcta quedará resaltado.
 
-      ![Search cuadro con los resultados en azul en la tabla vista](assets/search-box-with-results-blue-outline-table-view.png)
+      ![Cuadro de búsqueda con contorno azul de resultados en la vista de tabla](assets/search-box-with-results-blue-outline-table-view.png)
 
       Puede utilizar cualquier palabra o carácter especial que esté visible en la pantalla.
 
@@ -485,15 +483,15 @@ To sort grouped records:
 
 <div class="preview">
 
-### añadir colores de fila
+### Agregar colores de fila
 
-1. (Opcional) Haga clic en **Colores** de fila para definir condiciones y elegir configurar colores diferentes para filas de tabla.
+1. (Opcional) Haga clic en **Colores de fila** para definir las condiciones y elegir configurar diferentes colores para las filas de la tabla.
 
-1. Haga clic en añadir color **y, a continuación**, seleccione **un campo** cuyo valor desee determinar el color de una fila.
+1. Haga clic en **Agregar color** y, a continuación, **Seleccione un campo** cuyo valor desee determinar el color de una fila.
 
-   Por ejemplo, para mostrar las campañas con el estado Activo en verde, seleccione **Estado** y, a continuación, elija un modificador y un valor para el campo.
+   Por ejemplo, para mostrar campañas con el estado Activo en verde, seleccione **Estado** y, a continuación, elija un modificador y un valor para el campo.
 
-   ![Cuadro de colores de filas con el estado Activo seleccionado y la opción de color predeterminada](assets/row-colors-box-with-active-status-selected-default-color-choice.png)
+   ![Cuadro de colores de fila con estado Activo seleccionado y opción de color predeterminada](assets/row-colors-box-with-active-status-selected-default-color-choice.png)
 
 1. Haga clic en el menú desplegable del selector de color en la esquina superior izquierda de la condición seleccionada, para elegir el color de la condición y, a continuación, haga clic fuera del cuadro selector de color para cerrarlo.
 

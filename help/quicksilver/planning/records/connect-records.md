@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: 6e2e337969fccba88ea7089fe9a6d9db605343f7
+source-git-commit: e25f6ac3fb4ffc114d59bf5cceecfe718ae914ec
 workflow-type: tm+mt
-source-wordcount: '3359'
+source-wordcount: '3355'
 ht-degree: 46%
 
 ---
@@ -26,7 +26,7 @@ Puede conectar registros de Adobe Workfront Planning entre sí o a objetos de ot
 
 Este artículo describe cómo conectar registros. Para obtener información más general acerca de los registros de conexión, vea [Información general sobre los registros conectados](/help/quicksilver/planning/records/connected-records-overview.md).
 
-Primero debe conectar dos tipos de registro entre sí o un tipo de registro a un tipo de objeto de otra aplicación. Esto crea campos de registro conectados. A continuación, puede conectar registros entre sí o registros con otros objetos desde otras aplicaciones en los campos de registro conectados.
+Primero debe conectar dos tipos de registro entre sí o un tipo de registro a un tipo de objeto de otra aplicación. Esto crea campos de registro conectados. A continuación, puede conectar registros entre sí o registros a otros objetos de otras aplicaciones en los campos de registros conectados.
 
 Conectar registros es similar a conectar registros a objetos de otra aplicación.
 
@@ -36,10 +36,10 @@ Para ver un ejemplo de cómo conectar tipos de registros, consulte [Ejemplo de c
 
 Puede conectar lo siguiente:
 
-* Adobe Systems registros de planificación de Workfront entre sí
+* Registros de Adobe Workfront Planning entre sí
 * Registros de Adobe Workfront Planning con objetos de otras aplicaciones.
 
-  Puede conectar registros con objetos de los tipos enumerados a continuación desde las siguientes aplicaciones:
+  Puede conectar registros con objetos de los tipos que se indican a continuación desde las aplicaciones siguientes:
 
    * Adobe Workfront
 
@@ -125,8 +125,8 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
 <tr> 
    <td role="rowheader"><p>Plantilla de diseño</p></td> 
-   <td> <p>En el entorno de producción, todos los usuarios, incluidos los administradores del sistema, deben estar asignados a una plantilla de diseño que incluya las áreas de planificación.</p>
-<p><span class="preview">En el entorno de vista previa, los usuarios estándar y los administradores del sistema tienen activada de forma predeterminada el área de Planning.</span></p> </td> 
+   <td> <p>En el entorno de producción, todos los usuarios, incluidos los administradores del sistema, deben estar asignados a una plantilla de diseño que incluya Planning.</p>
+<p><span class="preview">En el entorno de vista previa, los usuarios estándar y los administradores del sistema tienen Planning habilitado de forma predeterminada.</span></p> </td> 
   </tr> 
 </tbody> 
 </table>
@@ -149,18 +149,18 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
    * Conexiones entre los tipos de registro o entre los tipos de registro y los objetos de otras aplicaciones. Para obtener más información, consulte [Conectar tipos de registros](/help/quicksilver/planning/architecture/connect-record-types.md).
 
-* Puede conectar uno o varios registros u objetos entre sí. Esto depende del tipo de conexión que haya seleccionado al conectar los tipos de registro u objeto. Para obtener información, consulte [Información general](/help/quicksilver/planning/architecture/connect-record-types-overview.md) sobre los tipos de registro de Connect.
+* Puede conectar uno o varios registros u objetos entre sí. Esto depende del tipo de conexión seleccionado al conectar los tipos de registro u objeto. Para obtener más información, consulte [Información general sobre los tipos de registros de Connect](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
 
 ## Conectar registros desde Workfront Planning
 
-Puede conectar registros desde Workfront Planning en las siguientes áreas de un registro de planificación:
+Puede conectar registros de Workfront Planning en las siguientes áreas de un registro de Planning:
 
 * Los campos de registro conectados en la vista de tabla.
 * El cuadro de vista previa o la página del registro en los campos de registro conectados de la ficha Detalles.
-* El cuadro o Página previsualización del registro en el pestaña de conexiones.
-* El Página del registro en un <span class="preview">pestaña de registros conectados Página</span> .
+* Cuadro de vista previa o página del registro en la ficha Conexiones.
+* La página del registro en una ficha <span class="preview">Página de registros conectados</span>.
 
-### Conecte los registros de Workfront Planning desde el vista de tabla o el área Detalles de un registro
+### Conecte los registros de Workfront Planning desde la vista de tabla o desde el área Detalles de un registro
 
 {{step1-to-planning}}
 
@@ -258,9 +258,9 @@ Después de crear una conexión entre un tipo de registro y un tipo de objeto de
 
 1. Haga clic en **Nuevo registro** para añadir registros individuales al tipo de registro que seleccionó. Para obtener más información, consulte [Crear registros](/help/quicksilver/planning/records/create-records.md).
 
-1. (Condicional) Después de conectar el tipo de registro seleccionado con un tipo de objeto Workfront, vaya al campo conectado en un registro y haga clic en el campo o haga clic en **Conectar** para agregar objetos Workfront.
+1. (Condicional) Después de conectar el tipo de registro seleccionado con un tipo de objeto de Workfront, vaya al campo conectado de un registro y haga clic en el campo o haga clic en **Conectar** para agregar objetos de Workfront.
 
-   ![Conectar proyectos en la tabla vista](assets/connect-projects-smaller-box-in-table-view.png)
+   ![Conectar proyectos en la vista de tabla](assets/connect-projects-smaller-box-in-table-view.png)
 
 1. Realice una de las siguientes acciones:
 
@@ -271,7 +271,7 @@ Después de crear una conexión entre un tipo de registro y un tipo de objeto de
    >
    >Puede abrir la página de un registro desde la vista, hacer doble clic en el campo de registro vinculado o hacer clic en **Conectar** en el campo para agregar objetos del tipo de objeto conectado.
 
-1. (Opcional) Si no encuentra un objeto para conectar y desea agregarlo, haga clic en **+ añadir**
+1. (Opcional) Si no encuentra un objeto para conectarse y desea agregarlo, haga clic en **+ Agregar**
 
    O
 
@@ -384,11 +384,11 @@ Para conectar registros con recursos de Experience Manager:
 
      >[!TIP]
      >
-     >* Cuando selecciona conectar varios registros al conectar los tipos de registro, los valores de los objetos múltiples se muestran separados por comas o agregados según el agregador que elija.
+     >* Cuando se selecciona conectar varios registros al conectar los tipos de registro, los valores de los objetos múltiples se muestran separados por comas o agregados según el agregador elegido.
      >
      >* No se crea un campo de registro vinculado a los registros vinculados de Workfront Planning para los recursos de Experience Manager vinculados en la aplicación de Experience Manager Assets.
 
-1. (Opcional) Vaya al tipo de registro desde el que vinculó a Experience Manager Assets y haga clic en el nombre de un recurso en el campo de registro vinculado. Los detalles de Experience Manager del recurso se muestran en una ventana elemento emergente.
+1. (Opcional) Vaya al tipo de registro desde el que vinculó a Experience Manager Assets y haga clic en el nombre de un recurso en el campo de registro vinculado. Los detalles de Experience Manager del recurso se muestran en una ventana emergente.
 
    ![Ventana emergente de recursos con detalles y miniatura de AEM](assets/asset-pop-up-window-with-aem-details-and-thumbnail.png)
 
@@ -418,9 +418,9 @@ Para conectar registros con recursos de Experience Manager:
 
    Esto añade o elimina campos vinculados de los registros. La información asociada con los campos eliminados permanece en Adobe Experience Assets.
 
-### Conecte registros de planificación de Workfront con otros registros u objetos de la pestaña de conexiones del Página de registros
+### Conecte los registros de Workfront Planning con otros registros u objetos desde la ficha Conexiones de la página de registros
 
-1. Vaya a cualquier vista de un tipo de registro que se haya conectado a otros tipos de registro de planeación o tipos de objetos de otras aplicaciones.
+1. Vaya a cualquier vista de un tipo de registro que se haya conectado a otros tipos de registros de Planning o tipos de objetos de otras aplicaciones.
 1. Siga los pasos descritos en las subsecciones anteriores para buscar un registro en la vista que desee conectar con otros registros u objetos.
 1. Haga clic en el nombre de un registro.
 

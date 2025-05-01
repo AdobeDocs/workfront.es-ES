@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 6e2e337969fccba88ea7089fe9a6d9db605343f7
+source-git-commit: e25f6ac3fb4ffc114d59bf5cceecfe718ae914ec
 workflow-type: tm+mt
-source-wordcount: '2258'
+source-wordcount: '2254'
 ht-degree: 39%
 
 ---
@@ -56,7 +56,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
    <p> Productos</p> </td>
    <td>
    <ul><li><p> Adobe Workfront</p></li>
-   <li><p> Adobe Systems planificación del frente de trabajo<p></li></ul></td>
+   <li><p> Planificación de Adobe Workfront<p></li></ul></td>
   </tr>  
  <tr>
    <td role="rowheader"><p>Plan de Adobe Workfront*</p></td>
@@ -105,8 +105,8 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr>
 <tr>
    <td role="rowheader"><p>Plantilla de diseño</p></td>
-   <td> <p>En el entorno de producción, todos los usuarios, incluidos los administradores del sistema, deben estar asignados a una plantilla de diseño que incluya las áreas de planificación.</p>
-<p><span class="preview">En el entorno de vista previa, los usuarios estándar y los administradores del sistema tienen activada de forma predeterminada el área de Planning.</span></p>  
+   <td> <p>En el entorno de producción, todos los usuarios, incluidos los administradores del sistema, deben estar asignados a una plantilla de diseño que incluya Planning.</p>
+<p><span class="preview">En el entorno de vista previa, los usuarios estándar y los administradores del sistema tienen Planning habilitado de forma predeterminada.</span></p>  
 </td>
   </tr>
  </tbody>
@@ -165,9 +165,9 @@ Para añadir una sección a una vista previa o a una página del registro:
 
    ![Cuadro de detalles](assets/details-box.png)
 
-1. (Opcional) Haga clic en el **icono Abrir en pestaña** nueva Abrir ![detalles en un nuevo icono](assets/open-details-in-a-new-tab-icon.png) de pestaña en la esquina superior derecha del registro previsualización para abrir el Página del registro en una nueva pestaña.
+1. (Opcional) Haga clic en el icono **Abrir en ficha nueva** ![Abrir detalles en un icono de ficha nueva](assets/open-details-in-a-new-tab-icon.png) en la esquina superior derecha de la vista previa del registro para abrir la página del registro en una ficha nueva.
 
-   Se abre la Página de registro. La pestaña Detalles se abre de forma predeterminada.
+   Se abre la página de registro. La pestaña Detalles se abre de forma predeterminada.
 
    ![Página de detalles](assets/details-page.png)
 
@@ -175,9 +175,9 @@ Para añadir una sección a una vista previa o a una página del registro:
 1. Haga clic dentro del nombre de la sección y reemplace **Sección sin título** por un nombre; a continuación, haga clic en Entrar. Los campos que se muestran en la sección forman parte automáticamente de la nueva sección.
 1. Empiece a arrastrar y soltar campos en la nueva sección, tal como se describe en la sección [Reorganización de los campos en la vista previa o en la página de detalles del registro](#rearrange-fields-in-the-record-preview-or-details-page) de este artículo.
 
-1. (Opcional) Pase el ratón sobre el nombre de una sección y haga clic en el **menú Más** ![menú Más](assets/more-menu.png).
+1. (Opcional) Pase el ratón sobre el nombre de una sección y haga clic en el menú **Más** ![Menú más](assets/more-menu.png).
 
-   ![Más opciones de menú para la sección en el registro Página](assets/more-menu-options-for-section-on-record-page.png)
+   ![Más opciones de menú para la sección de la página de registros](assets/more-menu-options-for-section-on-record-page.png)
 1. (Opcional) Realice una de las siguientes acciones para editar la sección:
 
    * Haga clic en **Cambiar nombre** para cambiar el nombre de la sección
@@ -272,13 +272,13 @@ En el entorno Producción, la información de los registros u objetos conectados
 
 Tenga en cuenta lo siguiente al agregar una <span class="preview">página Registros conectados</span> a un registro:
 
-* Puede agregar un <span class="preview">Página</span> de registros conectados a un registro después de conectar el registro o tipos de objeto al tipo de registro desde el vista de tabla de un tipo de registro.
+* Puede agregar una <span class="preview">página Registros conectados</span> a un registro después de conectar tipos de registro u objeto al tipo de registro desde la vista de tabla de un tipo de registro.
 
-* No puede agregar un <span class="preview">Página</span> de registros conectados al área previsualización de un registro.
+* No puede agregar una <span class="preview">página Registros conectados</span> al área de vista previa de un registro.
 
-* <span class="preview">Las páginas</span> de registros conectados muestran solo los objetos conectados o los registros de un objeto o tipo de registro en una tabla vista. La Página no muestra todos los registros de ese tipo en la tabla vista.
+* <span class="preview">Las páginas de registros conectados</span> sólo muestran los objetos o registros conectados de un tipo de objeto o registro en una vista de tabla. La página no muestra todos los registros de ese tipo en la vista de tabla.
 
-* Después de agregar una <span class="preview">página Registros conectados</span> a un registro, la ficha de página se ve desde el área de vista previa del registro, pero está en blanco. Debe ir al Página completo para ver los vista de tabla para el registro conectado. <!--this might have changed? check and take disclaimer out-->
+* Después de agregar una <span class="preview">página Registros conectados</span> a un registro, la ficha de página se ve desde el área de vista previa del registro, pero está en blanco. Debe ir a la página completa para ver la vista de tabla del registro conectado. <!--this might have changed? check and take disclaimer out-->
 
 * Puede agregar <span class="preview">Páginas de registros conectados</span> para los siguientes tipos de registros u objetos conectados:
 
@@ -287,12 +287,12 @@ Tenga en cuenta lo siguiente al agregar una <span class="preview">página Regist
 
   >[!NOTE]
   >
-  >   No puede agregar una Página</span> de <span class="preview">registros conectados para registros de Recursos AEM conectados.
+  >   No puede agregar una <span class="preview">página Registros conectados</span> para registros de AEM Assets conectados.
 
 
-Para agregar un <span class="preview">Página</span> de registros conectados:
+Para agregar una <span class="preview">página Registros conectados</span>:
 
-1. Desde un vista de página de registro, haga clic en el nombre de un registro para abrirlo y, a continuación, haga clic en el **icono ![Abrir en pestaña** nueva Abrir](assets/open-details-in-a-new-tab-icon.png) detalles en un icono de pestaña nuevo en la esquina superior derecha del Página previsualización.
+1. En una vista de página de registro, haga clic en el nombre de un registro para abrirlo y, a continuación, haga clic en el icono **Abrir en ficha nueva** ![Abrir detalles en un icono de ficha nueva](assets/open-details-in-a-new-tab-icon.png) en la esquina superior derecha de la página de vista previa.
 1. Haga clic en **Agregar página**.
 
    <div class="preview">
@@ -310,24 +310,24 @@ Para agregar un <span class="preview">Página</span> de registros conectados:
 La vista de tabla del tipo de registro seleccionado se muestra en la nueva página y los registros conectados se muestran en la vista de tabla.
 Todos los campos del registro conectado se muestran en la vista de tabla de la ficha del registro conectado.
 
-   Los primeros cinco campos de la tabla de registros conectada se muestran de forma predeterminada. De forma predeterminada, no se muestran campos de búsqueda.
+   Los cinco primeros campos de la tabla de registros conectada se muestran de forma predeterminada. De forma predeterminada, no se muestran campos de búsqueda.
 
    <!--replace screen shot below when additional capabilities come to the table view - Fields, etc-->
 
-   ![Tabla conectada a la audiencia vista debajo de campaña detalles](assets/audience-connected-table-view-under-campaign-details-page.png)
+   ![Vista de tabla conectada a la audiencia con detalles de campaña](assets/audience-connected-table-view-under-campaign-details-page.png)
 
 1. (Opcional) En la vista de tabla de los registros conectados, realice una de las siguientes acciones:
 
-   * Haga clic en el nombre de un registro. Esto abre el Página del registro en una nueva pestaña.
+   * Haga clic en el nombre de un registro. Se abre la página del registro en una nueva ficha.
 
-     <span class="preview">En el entorno de vista previa, se abre la página de vista previa del registro. Haga clic en el **icono ![Abrir en una nueva pestaña** Abrir en un nuevo icono](assets/open-details-in-a-new-tab-icon.png) de pestaña en la esquina superior derecha para abrir el Página del registro conectado.</span>
+     <span class="preview">En el entorno de vista previa, se abre la página de vista previa del registro. Haga clic en el icono **Abrir en una ficha nueva** ![Abrir en un icono de ficha nueva](assets/open-details-in-a-new-tab-icon.png) en la esquina superior derecha para abrir la página del registro conectado.</span>
 
-   * Haga clic en **Conectar** para conectar más registros y, a continuación, haga clic fuera del cuadro de conexión para cerrarlo. Los nuevos registros se agregan automáticamente a la tabla.
-   * <span class="preview">Editar cualquier información de los registros conectados dentro de la tabla vista. </span>
+   * Haga clic en **Conectar** para conectar más registros y, a continuación, haga clic fuera del cuadro de conexión para cerrarlo. Los registros nuevos se agregan automáticamente a la tabla.
+   * <span class="preview">Edite cualquier información de los registros conectados dentro de la vista de tabla. </span>
 
    <div class="preview">
 
-   * Desplácese sobre el nombre de un registro conectado, luego haga clic en el **menú Más** ![menú](assets/more-menu.png) Más y, a continuación, haga clic en una de las siguientes opciones:
+   * Pase el ratón sobre el nombre de un registro conectado, luego haga clic en el menú **Más** ![Menú Más](assets/more-menu.png) y, a continuación, haga clic en una de las siguientes opciones:
       * Ver
       * Copiar vínculo
       * Editar miniatura

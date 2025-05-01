@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 475a519d-d3bd-4461-8099-0e296d556d34
-source-git-commit: 6e2e337969fccba88ea7089fe9a6d9db605343f7
+source-git-commit: e25f6ac3fb4ffc114d59bf5cceecfe718ae914ec
 workflow-type: tm+mt
-source-wordcount: '918'
-ht-degree: 19%
+source-wordcount: '936'
+ht-degree: 16%
 
 ---
 
@@ -49,7 +49,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
    <p> Productos</p> </td> 
    <td> 
    <ul><li><p> Adobe Workfront</p></li> 
-   <li><p> Adobe Systems planificación del frente de trabajo<p></li></ul></td> 
+   <li><p> Planificación de Adobe Workfront<p></li></ul></td> 
   </tr>   
 <tr> 
    <td role="rowheader"><p>Plan de Adobe Workfront*</p></td> 
@@ -88,11 +88,12 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
 <tr> 
    <td role="rowheader"><p>Permisos de objeto</p></td> 
-   <td>  <p>Administrar permisos para una espacio de trabajo</p>  </td> 
+   <td>  <p>Administración de permisos en un espacio de trabajo</p>  </td> 
   </tr> 
 <tr> 
    <td role="rowheader"><p>Plantilla de diseño</p></td> 
-   <td> <p>A todos los usuarios, incluidos los administradores de Workfront, se les debe asignar una plantilla de diseño que incluya el área de Planning en el menú principal. </p> </td> 
+   <td> <p>En el entorno de producción, todos los usuarios, incluidos los administradores del sistema, deben estar asignados a una plantilla de diseño que incluya las áreas de planificación.</p>
+<p><span class="preview">En el entorno de vista previa, los usuarios estándar y los administradores del sistema tienen activada de forma predeterminada el área de Planning.</span></p></td> 
   </tr> 
 </tbody> 
 </table>
@@ -100,14 +101,6 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 *Para obtener más información sobre los requisitos de acceso de Workfront, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
-
-<!--replace the layout template info in the table with this at release: 
-
-
-<p>In the Production environment, all users including the System Administrators must be assigned to a layout template that includes the Planning areas.</p>
-<p><span class="preview">In the Preview environment, Standard users and System Administrators have the Planning area enabled by default.</span></p>
-
--->
 
 ## Consideraciones sobre compartir espacios de trabajo
 
@@ -135,11 +128,11 @@ Para compartir un espacio de trabajo con otros usuarios:
 
 {{step1-to-planning}}
 
-1. Abre la espacio de trabajo que quieras compartir y, a continuación, haz clic **en Compartir** en la esquina superior derecha de la pantalla.
+1. Abra el área de trabajo que desea compartir y haga clic en **Compartir** en la esquina superior derecha de la pantalla.
 
-   ![Comparte botón en espacio de trabajo parte superior derecha](assets/share-button-on-workspace-top-right.png)
+   ![Botón Compartir en la parte superior derecha del espacio de trabajo](assets/share-button-on-workspace-top-right.png)
 
-1. En el **campo Conceder acceso a este espacio de trabajo** , inicio escribiendo el nombre de una usuario, grupo, equipo, compañía o función de trabajo y, a continuación, haga clic en él cuando aparezca en el lista.
+1. En el campo **Conceder acceso a este área de trabajo**, empiece a escribir el nombre de un usuario, grupo, equipo, empresa o rol y, a continuación, haga clic en él cuando se muestre en la lista.
 
    ![IU para compartir con grupos](assets/sharing-ui-with-groups.png)
 
@@ -167,11 +160,11 @@ Los usuarios que accedan a un vínculo a un espacio de trabajo para el que no te
 O
 En la notificación por correo electrónico, haga clic en **Ver todas las notificaciones** y, a continuación, haga clic en la notificación en la lista.
 
-   Se muestra el **cuadro Solicitudes** de acceso pendientes.
+   Se muestra el cuadro **Solicitudes de acceso pendientes**.
 
-   ![Cuadro de notificación lista aprobación](assets/notifications-list-approval-box.png)
+   ![Cuadro de aprobación de lista de notificaciones](assets/notifications-list-approval-box.png)
 
-1. (Opcional) Para la usuario cuyos permisos desee aprobar, seleccione una de las siguientes opciones en el menú desplegable situado a la derecha del nombre del usuario:
+1. (Opcional) Para el usuario cuyos permisos desea aprobar, seleccione una de las siguientes opciones en el menú desplegable situado a la derecha del nombre del usuario:
    * **Vista**
    * **Aportar**
    * **Administrar**
