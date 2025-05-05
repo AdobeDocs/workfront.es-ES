@@ -5,10 +5,10 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9342f393-a404-44b4-aad6-2c4cf634dfd5
-source-git-commit: 05311b556067289b81e597038dbbfc1fdd19629a
+source-git-commit: 74714ce45c815afc9cff1360fd3542fa15763907
 workflow-type: tm+mt
-source-wordcount: '595'
-ht-degree: 47%
+source-wordcount: '603'
+ht-degree: 46%
 
 ---
 
@@ -157,7 +157,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
 
 ## Notas de la versión para otras áreas
 
-* [Actividad de la versión de Adobe Workfront Fusion](https://experienceleague.adobe.com/es/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
+* [Actividad de la versión de Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
 * [Actividad de la versión del tercer trimestre de 2025 de Adobe Workfront Planning](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q3.md).
 
 No hay actualizaciones para lo siguiente en este punto de la versión:
@@ -167,11 +167,11 @@ No hay actualizaciones para lo siguiente en este punto de la versión:
 * Metas
 
 
-### Versión 19 de la API
+### Versión 20 de la API
 
-Para la versión 19 de la API, hemos modificado algunos recursos y puntos finales. Algunos de los cambios admiten nuevas funciones y otros facilitan el uso de la información disponible a través de la API.
+La versión 20 de la API de Workfront se publicó el 4 de mayo de 2024. Para la versión 20 de la API, hemos modificado algunos recursos y puntos finales. Algunos de los cambios admiten nuevas funciones y otros facilitan el uso de la información disponible a través de la API.
 
-Para obtener información sobre novedades y actualizaciones, consulte [Novedades de la versión 19 de la API](/help/quicksilver/wf-api/api/new-api-version-19.md).
+Para obtener información sobre novedades y actualizaciones, consulte [Novedades de la versión 20 de la API](/help/quicksilver/wf-api/api/new-api-version-19.md).
 
 Para obtener información sobre las versiones de API, consulte [Versiones de API y programación de soporte](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
 
