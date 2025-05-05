@@ -97,7 +97,7 @@ Las etiquetas de flujo de trabajo están disponibles para todos los tableros de 
 
    O
 
-   Haga clic en el menú **[!UICONTROL Más]** ![[!UICONTROL Más ]](assets/more-icon-spectrum.png) de la tarjeta y seleccione **[!UICONTROL Editar]**.
+   Haga clic en el menú **[!UICONTROL Más]** ![[!UICONTROL Más &#x200B;]](assets/more-icon-spectrum.png) de la tarjeta y seleccione **[!UICONTROL Editar]**.
 
 1. En el cuadro **[!UICONTROL Etiquetas]**, escriba el nombre de una etiqueta existente y selecciónela en los resultados de búsqueda.\
    O\
@@ -122,7 +122,7 @@ Las etiquetas de flujo de trabajo están disponibles para todos los tableros de 
 
    O
 
-   Haga clic en el menú **[!UICONTROL Más]** ![[!UICONTROL Más ]](assets/more-icon-spectrum.png) de la tarjeta y seleccione **[!UICONTROL Editar]**.
+   Haga clic en el menú **[!UICONTROL Más]** ![[!UICONTROL Más &#x200B;]](assets/more-icon-spectrum.png) de la tarjeta y seleccione **[!UICONTROL Editar]**.
 
 1. Busque la etiqueta que quiera quitar de la tarjeta y luego haga clic en el icono **[!UICONTROL Quitar]** ![Quitar etiqueta](assets/copy-of-boards-remove-30x23.png).
 1. Haga clic en **[!UICONTROL Cerrar]**.

@@ -41,15 +41,15 @@ Antes de empezar, debe inscribirse en la versión beta del lienzo del sistema de
 
 1. En el lado derecho de la pantalla, en **Añadir un bloque**, efectúe lo siguiente:
 
-   Arrastre el icono **Visualización** **** al lienzo directamente a la ubicación deseada.
+   Arrastre el icono **Visualización** **&#x200B;**&#x200B;al lienzo directamente a la ubicación deseada.
 
    O
 
-   Haga doble clic en el icono **Visualización** **** para añadir una visualización a la parte superior del lienzo.
+   Haga doble clic en el icono **Visualización** **&#x200B;**&#x200B;para añadir una visualización a la parte superior del lienzo.
 
    O
 
-   Seleccione el icono **Visualizar** **** en la parte superior de una tabla del lienzo.
+   Seleccione el icono **Visualizar** **&#x200B;**&#x200B;en la parte superior de una tabla del lienzo.
 
    >[!TIP]
    >
@@ -61,7 +61,7 @@ Antes de empezar, debe inscribirse en la versión beta del lienzo del sistema de
 
    >[!NOTE]
    >
-   >Si selecciona **+ Añadir nueva tabla**, se crea un nuevo bloque de tabla debajo del bloque de visualización. Debe rellenar la tabla con datos antes de poder añadirle una visualización. Para obtener más información sobre cómo crear y editar tablas, consulte [ [Añadir o editar un bloque de tabla en el lienzo del sistema de informes](../../../reports-and-dashboards/reporting-canvas/table-blocks/add-or-edit-report-table.md)](../../../reports-and-dashboards/reporting-canvas/table-blocks/add-or-edit-report-table.md)
+   >Si selecciona **+ Añadir nueva tabla**, se crea un nuevo bloque de tabla debajo del bloque de visualización. Debe rellenar la tabla con datos antes de poder añadirle una visualización. Para obtener más información sobre cómo crear y editar tablas, consulte [&#128279;](../../../reports-and-dashboards/reporting-canvas/table-blocks/add-or-edit-report-table.md) [Añadir o editar un bloque de tabla en el lienzo del sistema de informes](../../../reports-and-dashboards/reporting-canvas/table-blocks/add-or-edit-report-table.md)
 
 1. Seleccione el tipo de visualización que desea añadir.
 

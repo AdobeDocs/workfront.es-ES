@@ -125,7 +125,7 @@ Para obtener más información, consulte [Resumen del gráfico de evolución de 
 
    <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
       <td role="rowheader"><strong>[!UICONTROL Group]</strong> </td> 
-      <td> <p>Empiece a escribir el nombre de un grupo para agregarlo al equipo y, a continuación, seleccione el nombre cuando aparezca en la lista desplegable.</p> <p><b>NOTA</b></p> <p> Cuando se asigna un equipo a un grupo o subgrupo, cualquier administrador de grupo de ese grupo o subgrupo puede administrar el equipo sin ser miembro del equipo. Los administradores del grupo pueden ir al área de [!UICONTROL Teams] desde el menú principal de [!UICONTROL] y hacer clic en la flecha <img src="assets/switch-team-icon.png" alt="Icono Cambiar equipo"> de [!UICONTROL Switch Teams] para ver una lista de todos los equipos asignados a los grupos que administran.</p> </td> 
+      <td> <p>Empiece a escribir el nombre de un grupo para agregarlo al equipo y, a continuación, seleccione el nombre cuando aparezca en la lista desplegable.</p> <p><b>NOTA</b></p> <p> Cuando se asigna un equipo a un grupo o subgrupo, cualquier administrador de grupo de ese grupo o subgrupo puede administrar el equipo sin ser miembro del equipo. Los administradores del grupo pueden ir al área de [!UICONTROL Teams] desde el menú principal de  y hacer clic en la flecha <img src="assets/switch-team-icon.png" alt="Icono Cambiar equipo"> de [!UICONTROL Switch Teams] para ver una lista de todos los equipos asignados a los grupos que administran.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Miembros del equipo]</strong> </td> 
@@ -134,7 +134,7 @@ Para obtener más información, consulte [Resumen del gráfico de evolución de 
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Descripción]</strong> </td> 
       <td><p>Escriba una descripción para el equipo.</p> <p>La descripción se muestra en la parte superior derecha del área de [!UICONTROL Teams] cuando se selecciona el equipo.</p>
-      <p>Si la descripción es larga, puede hacer clic en ella para mostrar la descripción completa en una ventana emergente. Si tiene acceso para editar la configuración del equipo de [!UICONTROL], también puede editar la descripción directamente en la ventana emergente.</p></td>
+      <p>Si la descripción es larga, puede hacer clic en ella para mostrar la descripción completa en una ventana emergente. Si tiene acceso para editar la configuración del equipo de , también puede editar la descripción directamente en la ventana emergente.</p></td>
      </tr> 
     </tbody> 
    </table>

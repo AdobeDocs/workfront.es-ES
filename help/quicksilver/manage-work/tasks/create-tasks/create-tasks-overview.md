@@ -86,7 +86,7 @@ Al definir la información predeterminada que se asociará con las tareas agrega
 * Cuando se copian tareas de un proyecto a otro y el proyecto de destino tiene una configuración predeterminada diferente para las tareas, las tareas copiadas conservan la configuración predeterminada del proyecto original, a menos que se borren en el proceso de copia.
 * Al duplicar una tarea en el mismo proyecto, los formularios personalizados y el proceso de aprobación se transfieren a la tarea duplicada.
 
-  Para obtener información sobre cómo copiar y duplicar tareas, vea [ [Copiar y duplicar tareas](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md)](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md).
+  Para obtener información sobre cómo copiar y duplicar tareas, vea [&#128279;](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md) [Copiar y duplicar tareas](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md).
 
 * Al mover la tarea a otro proyecto, la configuración predeterminada de la tarea se guarda en las tareas del proyecto original, independientemente de la configuración predeterminada de la tarea en el nuevo proyecto.
 

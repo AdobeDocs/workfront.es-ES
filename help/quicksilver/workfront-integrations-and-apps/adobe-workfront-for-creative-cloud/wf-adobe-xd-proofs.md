@@ -187,7 +187,7 @@ Puede crear una prueba interactiva para las mesas de trabajo con el complemento 
    XD ![Aprobaciones de revisión en la fecha de aprobación de la prueba](assets/proof-approvals-xd-350x396.png)
 
 1. En el menú desplegable **[!UICONTROL Tipo de recurso]**, elija el vínculo que acaba de crear en la pestaña **Vínculos compartidos**. Para obtener más información, consulte [Crear un vínculo interactivo para la mesa de trabajo](#create-an-interactive-link-for-your-artboard).\
-   XD ![Vínculos compartidos en el espacio de trabajo de {100](assets/shared-links-xd-350x870.png)
+   XD ![Vínculos compartidos en el espacio de trabajo de &lbrace;100](assets/shared-links-xd-350x870.png)
 
 1. Haga clic en **[!UICONTROL Cargar]**
 

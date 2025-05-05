@@ -154,4 +154,4 @@ Antes de empezar, debe inscribirse en la versión beta del lienzo del sistema de
 
    1. Arrastre el campo que desea añadir al área **Añadir un conjunto de reglas** por debajo de los demás conjuntos de reglas de filtros.
    1. Repita los pasos 4-7.
-   1. En la lista desplegable de operadores que se encuentra a la izquierda del nuevo conjunto de reglas, seleccione **AND** u **OR**. Estos operadores funcionan igual que los enumerados en el paso 7, pero se aplican a conjuntos de reglas completos en contraposición a reglas individuales dentro de un conjunto****.
+   1. En la lista desplegable de operadores que se encuentra a la izquierda del nuevo conjunto de reglas, seleccione **AND** u **OR**. Estos operadores funcionan igual que los enumerados en el paso 7, pero se aplican a conjuntos de reglas completos en contraposición a reglas individuales dentro de un conjunto&#x200B;**&#x200B;**.

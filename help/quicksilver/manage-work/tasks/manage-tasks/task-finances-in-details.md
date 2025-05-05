@@ -137,4 +137,4 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
     </tbody> 
    </table>
 
-1. (Condicional) Si está editando los campos en la sección Finanzas, haga clic en **Guardar****Cambios**.
+1. (Condicional) Si está editando los campos en la sección Finanzas, haga clic en **Guardar**&#x200B;**Cambios**.

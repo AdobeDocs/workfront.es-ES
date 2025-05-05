@@ -38,7 +38,7 @@ Consulte también [Notificaciones de eventos](../../workfront-basics/using-notif
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p><strong>Se ha enviado un mensaje al Centro de anuncios de [!UICONTROL]</strong> </p> <p>Recibirá una notificación por correo electrónico cuando se envíe un nuevo mensaje al Centro de anuncios de [!UICONTROL]. </p> <p>El asunto del correo electrónico de notificación instantánea es: <em>[!UICONTROL [!DNL Adobe Workfront] Anuncio]: &lt;Asunto del anuncio&gt;</em></p> </td> 
+   <td> <p><strong>Se ha enviado un mensaje al Centro de anuncios de </strong> </p> <p>Recibirá una notificación por correo electrónico cuando se envíe un nuevo mensaje al Centro de anuncios de . </p> <p>El asunto del correo electrónico de notificación instantánea es: <em>[!UICONTROL [!DNL Adobe Workfront] Anuncio]: &lt;Asunto del anuncio&gt;</em></p> </td> 
    <td> Asunto del anuncio<br>Texto del mensaje incluido en el anuncio<br>Documento(s) adjunto(s)<br>Nombre del usuario que envió el anuncio<br>Fecha y hora en que se envió el anuncio </td> 
    <td><strong>Instantáneo</strong> </td> 
   </tr> 
@@ -64,7 +64,7 @@ Consulte también [Notificaciones de eventos](../../workfront-basics/using-notif
   </tr> 
   <tr> 
    <td> <p><strong>Se agrega a una persona de mi equipo a un proyecto</strong> </p> <p>Un administrador recibe una notificación por correo electrónico cuando se agrega uno de sus usuarios a un proyecto. Esta notificación se envía independientemente del estado del proyecto. </p> <p>Los usuarios con una licencia de [!UICONTROL Review] no reciben ninguna notificación.</p> <p>El asunto del correo electrónico es: <em>Asignación de proyecto: &lt;Nombre de usuario&gt;[&lt;GUID de proyecto&gt;_ &lt;GUID de usuario&gt;]</em></p> </td> 
-   <td> <p>Nombre del proyecto<br>Nombre del Portfolio<br>Número de referencia del proyecto<br>Nombre del usuario que agregó a la persona al proyecto<br>Nombre del usuario que se agregó al proyecto<br>Fecha planificada de inicio del proyecto [!UICONTROL]<br>Fecha planificada de finalización del proyecto [!UICONTROL]<br>Porcentaje completado del proyecto<br>Nombres de otros en el proyecto<br>Estado del proyecto<br>Propietario del proyecto<br><strong>[!UICONTROL Ver más detalles]</strong> botón<br><br><br></p> </td> 
+   <td> <p>Nombre del proyecto<br>Nombre del Portfolio<br>Número de referencia del proyecto<br>Nombre del usuario que agregó a la persona al proyecto<br>Nombre del usuario que se agregó al proyecto<br>Fecha planificada de inicio del proyecto <br>Fecha planificada de finalización del proyecto <br>Porcentaje completado del proyecto<br>Nombres de otros en el proyecto<br>Estado del proyecto<br>Propietario del proyecto<br><strong>[!UICONTROL Ver más detalles]</strong> botón<br><br><br></p> </td> 
    <td><strong>Instantáneo</strong> </td> 
   </tr> 
   <tr> 

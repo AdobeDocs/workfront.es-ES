@@ -131,7 +131,7 @@ Prioridades muestra los elementos de trabajo que tiene asignados. No puede ver l
     </tbody>
     </table>
 
-+++
+   +++
 
 1. Haga clic en la barra del elemento de trabajo del calendario para abrir el resumen lateral. El resumen lateral le permite
 

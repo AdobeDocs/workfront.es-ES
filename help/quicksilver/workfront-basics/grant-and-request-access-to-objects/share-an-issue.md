@@ -88,7 +88,7 @@ Además de las consideraciones siguientes, consulte [Información general sobre 
    * Especifique los permisos en cualquiera de los objetos principales del problema: proyecto, programa o portafolio. Los problemas heredan los permisos de sus objetos principales. Para obtener información acerca de cómo ver permisos heredados en objetos, consulte [Ver permisos heredados en objetos](../../workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md).
    * Agregue entidades al Uso compartido de proyectos en una plantilla utilizada para crear el proyecto en el que se encuentra el problema. Para obtener información sobre cómo compartir proyectos desde plantillas, consulte [Compartir una plantilla](../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md).
 
-   * Especifique los permisos sobre todos los problemas de un proyecto al editarlo. Para obtener información sobre cómo administrar el acceso a problemas o solicitudes en el proyecto en función de los permisos de un usuario para el proyecto, consulte la sección [](../../manage-work/projects/manage-projects/edit-projects.md#access) en el artículo [Editar proyectos](../../manage-work/projects/manage-projects/edit-projects.md).
+   * Especifique los permisos sobre todos los problemas de un proyecto al editarlo. Para obtener información sobre cómo administrar el acceso a problemas o solicitudes en el proyecto en función de los permisos de un usuario para el proyecto, consulte la sección [&#128279;](../../manage-work/projects/manage-projects/edit-projects.md#access) en el artículo [Editar proyectos](../../manage-work/projects/manage-projects/edit-projects.md).
 
      >[!TIP]
      >

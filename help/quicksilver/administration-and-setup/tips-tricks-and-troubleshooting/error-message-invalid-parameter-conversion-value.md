@@ -4,7 +4,7 @@ content-type: tips-tricks-troubleshooting
 product-area: system-administration
 navigation-topic: tips-tricks-troubleshooting-setup-admin
 title: "Mensaje de error: Parámetro no válido: Valor de conversión"
-description: "Recibirá el siguiente mensaje de error al intentar cambiar el formato de un campo personalizado en un formulario personalizado existente: 'Parámetro no válido: conversion value `&lt;...&gt;`'"
+description: "Recibirá el siguiente mensaje de error al intentar cambiar el formato de un campo personalizado en un formulario personalizado existente: 'Parámetro no válido: conversion value &grave;&lt;...&gt;&grave;'"
 author: Lisa
 feature: System Setup and Administration
 role: Admin

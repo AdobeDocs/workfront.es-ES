@@ -62,7 +62,7 @@ El seminario web de la versión 24.1 fue el 11 de enero de 2024. Puede [registra
                  </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Ya están disponibles las decisiones sobre pruebas/documentos de los 12 meses anteriores</a></p><p>[!BADGE In production ]{type=Informative}</p><p>Los informes de decisiones de usuarios para tipos de licencias nuevas y antiguas ahora muestran el número de decisiones del mes actual, así como de los 12 meses anteriores.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Ya están disponibles las decisiones sobre pruebas/documentos de los 12 meses anteriores</a></p><p>[!BADGE In production &#x200B;]{type=Informative}</p><p>Los informes de decisiones de usuarios para tipos de licencias nuevas y antiguas ahora muestran el número de decisiones del mes actual, así como de los 12 meses anteriores.</p>
                     </td>
                     <td><p><b>Disponible en estas fechas:</b></p>
                         <ul>
@@ -99,7 +99,7 @@ El seminario web de la versión 24.1 fue el 11 de enero de 2024. Puede [registra
                  </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-boards-enhancements.md" class="MCXref xref" xrefformat="{para}">Los tableros dinámicos archivan las tarjetas completadas cuando se crea el tablero</a></p><p>[!BADGE In production ]{type=Informative}</p><p>Al crear un tablero dinámico, tiene la opción de incluir las tareas y los problemas completados en el tablero. Para los proyectos con un gran número de tareas y problemas completados, el tablero dinámico puede tener problemas de rendimiento. Ahora, cuando crea un tablero dinámico y elige incluir el trabajo completado, las tareas y los problemas se incluyen en el tablero como tarjetas archivadas.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-boards-enhancements.md" class="MCXref xref" xrefformat="{para}">Los tableros dinámicos archivan las tarjetas completadas cuando se crea el tablero</a></p><p>[!BADGE In production &#x200B;]{type=Informative}</p><p>Al crear un tablero dinámico, tiene la opción de incluir las tareas y los problemas completados en el tablero. Para los proyectos con un gran número de tareas y problemas completados, el tablero dinámico puede tener problemas de rendimiento. Ahora, cuando crea un tablero dinámico y elige incluir el trabajo completado, las tareas y los problemas se incluyen en el tablero como tarjetas archivadas.</p>
                     </td>
                     <td><p><b>Disponible en estas fechas:</b></p>
                         <ul>
@@ -134,7 +134,7 @@ El seminario web de la versión 24.1 fue el 11 de enero de 2024. Puede [registra
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Estados actualizados para aprobaciones de documentos</a></p><p>[!BADGE In production ]{type=Informative}</p><p>Para que el estado de aprobación de un documento sea más claro, hemos actualizado las aprobaciones de estado de documentos disponibles. Ahora, el estado de aprobación corresponde a los revisores que marcan su revisión como completada, así como a los casos en los que solo hay revisores pero no aprobadores.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Estados actualizados para aprobaciones de documentos</a></p><p>[!BADGE In production &#x200B;]{type=Informative}</p><p>Para que el estado de aprobación de un documento sea más claro, hemos actualizado las aprobaciones de estado de documentos disponibles. Ahora, el estado de aprobación corresponde a los revisores que marcan su revisión como completada, así como a los casos en los que solo hay revisores pero no aprobadores.</p>
                     </td>
                     <td><p><b>Disponible en estas fechas:</b></p>
                         <ul>
@@ -153,7 +153,7 @@ El seminario web de la versión 24.1 fue el 11 de enero de 2024. Puede [registra
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Marcar una revisión como completada</a></p><p>[!BADGE In production ]{type=Informative}</p><p>Para aclarar cuándo se ha revisado un documento y está listo para la siguiente fase de aprobación, hemos creado un nuevo botón <strong>Completar mi revisión</strong>.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Marcar una revisión como completada</a></p><p>[!BADGE In production &#x200B;]{type=Informative}</p><p>Para aclarar cuándo se ha revisado un documento y está listo para la siguiente fase de aprobación, hemos creado un nuevo botón <strong>Completar mi revisión</strong>.</p>
                     </td>
                     <td><p><b>Disponible en estas fechas:</b></p>
                         <ul>
@@ -172,7 +172,7 @@ El seminario web de la versión 24.1 fue el 11 de enero de 2024. Puede [registra
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Se muestra el estado de revisión y aprobación del documento en el encabezado del documento</a></p><p>[!BADGE In production ]{type=Informative}</p><p>Para que el proceso de revisión y aprobación sea más transparente, hemos añadido el estado al encabezado de la página Detalles del documento.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Se muestra el estado de revisión y aprobación del documento en el encabezado del documento</a></p><p>[!BADGE In production &#x200B;]{type=Informative}</p><p>Para que el proceso de revisión y aprobación sea más transparente, hemos añadido el estado al encabezado de la página Detalles del documento.</p>
                     </td>
                     <td><p><b>Disponible en estas fechas:</b></p>
                         <ul>
@@ -210,7 +210,7 @@ El seminario web de la versión 24.1 fue el 11 de enero de 2024. Puede [registra
                  </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Nuevo widget de aprobaciones pendientes disponible</a></p><p>[!BADGE In production ]{type=Informative}</p><p>Para facilitarle la visualización del estado de las aprobaciones y revisiones de los proyectos que posee, hemos añadido un nuevo widget de aprobaciones pendientes a Inicio.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Nuevo widget de aprobaciones pendientes disponible</a></p><p>[!BADGE In production &#x200B;]{type=Informative}</p><p>Para facilitarle la visualización del estado de las aprobaciones y revisiones de los proyectos que posee, hemos añadido un nuevo widget de aprobaciones pendientes a Inicio.</p>
                     </td>
                     <td><p><b>Disponible en estas fechas:</b></p>
                         <ul>
@@ -229,7 +229,7 @@ El seminario web de la versión 24.1 fue el 11 de enero de 2024. Puede [registra
                 </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Controles de administrador para el nuevo Inicio mediante plantillas de diseño</a></p><p>[!BADGE In production ]{type=Informative}</p><p>Los administradores ahora pueden personalizar el nuevo Inicio para los usuarios que utilizan plantillas de diseño. Las opciones de personalización incluyen la selección de widgets obligatorios y su posición, la elección de un fondo y opciones específicas de los widgets para designar los filtros y grupos disponibles (y establecer los valores predeterminados).</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Controles de administrador para el nuevo Inicio mediante plantillas de diseño</a></p><p>[!BADGE In production &#x200B;]{type=Informative}</p><p>Los administradores ahora pueden personalizar el nuevo Inicio para los usuarios que utilizan plantillas de diseño. Las opciones de personalización incluyen la selección de widgets obligatorios y su posición, la elección de un fondo y opciones específicas de los widgets para designar los filtros y grupos disponibles (y establecer los valores predeterminados).</p>
                     </td>
                     <td><p><b>Disponible en estas fechas:</b></p>
                         <ul>
@@ -247,7 +247,7 @@ El seminario web de la versión 24.1 fue el 11 de enero de 2024. Puede [registra
                 </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Los botones de acción rápida Mi trabajo se cambiaron para mostrarse solamente al pasar el puntero por encima</a></p><p>[!BADGE In production ]{type=Informative}</p><p>Para mejorar el rendimiento, los botones de acción rápida disponibles en el widget Mi trabajo ahora solo se mostrarán cuando se pase el ratón sobre un elemento de trabajo.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Los botones de acción rápida Mi trabajo se cambiaron para mostrarse solamente al pasar el puntero por encima</a></p><p>[!BADGE In production &#x200B;]{type=Informative}</p><p>Para mejorar el rendimiento, los botones de acción rápida disponibles en el widget Mi trabajo ahora solo se mostrarán cuando se pase el ratón sobre un elemento de trabajo.</p>
                     </td>
                     <td><p><b>Disponible en estas fechas:</b></p>
                         <ul>
@@ -281,7 +281,7 @@ El seminario web de la versión 24.1 fue el 11 de enero de 2024. Puede [registra
                  </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">La asignación de metadatos en Experience Manager Assets Essentials ahora utiliza <code>xcm:keywords</code> en lugar de <code>dc:subject</code></a></p><p>[!BADGE In production ]{type=Informative}</p><p>Hemos actualizado la integración de Experience Manager Assets Essentials para que coincida con la experiencia en la integración Experience Manager Assets as a Cloud Service. Ahora, cuando se asignan varios campos de texto de una sola línea a un único campo en Experience Manager Assets, ambos servicios utilizan el campo <code>xcm:keywords</code>.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">La asignación de metadatos en Experience Manager Assets Essentials ahora utiliza <code>xcm:keywords</code> en lugar de <code>dc:subject</code></a></p><p>[!BADGE In production &#x200B;]{type=Informative}</p><p>Hemos actualizado la integración de Experience Manager Assets Essentials para que coincida con la experiencia en la integración Experience Manager Assets as a Cloud Service. Ahora, cuando se asignan varios campos de texto de una sola línea a un único campo en Experience Manager Assets, ambos servicios utilizan el campo <code>xcm:keywords</code>.</p>
                     </td>
                     <td><p><b>Disponible en estas fechas:</b></p>
                         <ul>
@@ -298,7 +298,7 @@ El seminario web de la versión 24.1 fue el 11 de enero de 2024. Puede [registra
                     </td>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Los campos de escritura anticipada ya están disponibles en la integración de Adobe Experience Manager</a></p><p>[!BADGE In production ]{type=Informative}</p><p>Para facilitar el vínculo de campos entre Workfront y Adobe Experience Manager, se ha añadido la compatibilidad con los campos de escritura anticipada en la asignación de metadatos. Ahora puede asignar campos de escritura anticipada a los campos correspondientes en Adobe Experience Manager.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Los campos de escritura anticipada ya están disponibles en la integración de Adobe Experience Manager</a></p><p>[!BADGE In production &#x200B;]{type=Informative}</p><p>Para facilitar el vínculo de campos entre Workfront y Adobe Experience Manager, se ha añadido la compatibilidad con los campos de escritura anticipada en la asignación de metadatos. Ahora puede asignar campos de escritura anticipada a los campos correspondientes en Adobe Experience Manager.</p>
                     </td>
                     <td><p><b>Disponible en estas fechas:</b></p>
                         <ul>
@@ -313,7 +313,7 @@ El seminario web de la versión 24.1 fue el 11 de enero de 2024. Puede [registra
                  </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Publicar recursos automáticamente en Adobe Experience Manager</a></p><p>[!BADGE In production ]{type=Informative}</p><p>Se ha añadido otro flujo de trabajo a la integración de Adobe Experience Manager. Ahora puede configurar los recursos para que se publiquen automáticamente cuando se envíen a Adobe Experience Manager. La integración se puede configurar para que publique en el servicio de publicación de Adobe Experience Manager o en un Adobe Experience Manager Brand Portal.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Publicar recursos automáticamente en Adobe Experience Manager</a></p><p>[!BADGE In production &#x200B;]{type=Informative}</p><p>Se ha añadido otro flujo de trabajo a la integración de Adobe Experience Manager. Ahora puede configurar los recursos para que se publiquen automáticamente cuando se envíen a Adobe Experience Manager. La integración se puede configurar para que publique en el servicio de publicación de Adobe Experience Manager o en un Adobe Experience Manager Brand Portal.</p>
                     </td>
                     <td><p><b>Disponible en estas fechas:</b></p>
                         <ul>
@@ -349,7 +349,7 @@ El seminario web de la versión 24.1 fue el 11 de enero de 2024. Puede [registra
                  <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Asignaciones inteligentes más relevantes</a></p>
-                        [!BADGE In production for Fast Release ]{type=Positive}<p>Se ha modificado el algoritmo que utiliza Workfront para calcular y sugerir asignaciones inteligentes para las tareas. El nuevo algoritmo se aplica en las siguientes áreas de Workfront donde asigna una tarea: listas de tareas, el área Asignaciones en el encabezado de la tarea, Inicio y el panel Resumen.</p>
+                        [!BADGE In production for Fast Release &#x200B;]{type=Positive}<p>Se ha modificado el algoritmo que utiliza Workfront para calcular y sugerir asignaciones inteligentes para las tareas. El nuevo algoritmo se aplica en las siguientes áreas de Workfront donde asigna una tarea: listas de tareas, el área Asignaciones en el encabezado de la tarea, Inicio y el panel Resumen.</p>
                     </td>
                     <td><p><b>Disponible en estas fechas:</b></p>
                         <ul>
@@ -384,7 +384,7 @@ El seminario web de la versión 24.1 fue el 11 de enero de 2024. Puede [registra
                  </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Arrastrar y soltar la imagen en un comentario en la sección Actualizaciones</a></p><p>[!BADGE In production ]{type=Informative}</p><p>Para mejorar el contenido de los comentarios, ya es posible arrastrar y soltar rápidamente una imagen en un comentario o una respuesta en la sección Actualizaciones de un objeto.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Arrastrar y soltar la imagen en un comentario en la sección Actualizaciones</a></p><p>[!BADGE In production &#x200B;]{type=Informative}</p><p>Para mejorar el contenido de los comentarios, ya es posible arrastrar y soltar rápidamente una imagen en un comentario o una respuesta en la sección Actualizaciones de un objeto.</p>
                     </td>
                     <td><p><b>Disponible en estas fechas:</b></p>
                         <ul>
@@ -402,7 +402,7 @@ El seminario web de la versión 24.1 fue el 11 de enero de 2024. Puede [registra
                     </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">La nueva experiencia de comentarios captura toda la información de proyectos, tareas, problemas y documentos</a></p><p>[!BADGE In production ]{type=Informative}</p><p>Los proyectos, las tareas, los problemas y los documentos muestran todas las actualizaciones en el área de experiencia de comentarios nueva desde el principio de la instancia de Workfront.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">La nueva experiencia de comentarios captura toda la información de proyectos, tareas, problemas y documentos</a></p><p>[!BADGE In production &#x200B;]{type=Informative}</p><p>Los proyectos, las tareas, los problemas y los documentos muestran todas las actualizaciones en el área de experiencia de comentarios nueva desde el principio de la instancia de Workfront.</p>
                     </td>
                     <td><p><b>Disponible en estas fechas:</b></p>
                         <ul>
@@ -417,7 +417,7 @@ El seminario web de la versión 24.1 fue el 11 de enero de 2024. Puede [registra
                     </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Busque un comentario o un usuario en la sección Actualizaciones</a></p><p>[!BADGE In production ]{type=Informative}</p><p>Para buscar rápidamente información en la sección Actualizaciones de un objeto, ya es posible buscar palabras clave de un comentario o de cualquier usuario asociado a un comentario.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Busque un comentario o un usuario en la sección Actualizaciones</a></p><p>[!BADGE In production &#x200B;]{type=Informative}</p><p>Para buscar rápidamente información en la sección Actualizaciones de un objeto, ya es posible buscar palabras clave de un comentario o de cualquier usuario asociado a un comentario.</p>
                     </td>
                     <td><p><b>Disponible en estas fechas:</b></p>
                         <ul>
@@ -435,7 +435,7 @@ El seminario web de la versión 24.1 fue el 11 de enero de 2024. Puede [registra
                     </tr>
                     <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Copia y pegado de una imagen en un comentario en la sección Actualizaciones</a></p><p>[!BADGE In production ]{type=Informative}</p><p>Para proporcionar contexto al contenido de un mensaje, ahora puede adjuntar con rapidez imágenes a los comentarios copiándolas del equipo y pegándolas en una nueva actualización o respuesta.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Copia y pegado de una imagen en un comentario en la sección Actualizaciones</a></p><p>[!BADGE In production &#x200B;]{type=Informative}</p><p>Para proporcionar contexto al contenido de un mensaje, ahora puede adjuntar con rapidez imágenes a los comentarios copiándolas del equipo y pegándolas en una nueva actualización o respuesta.</p>
                     </td>
                     <td><p><b>Disponible en estas fechas:</b></p>
                         <ul>

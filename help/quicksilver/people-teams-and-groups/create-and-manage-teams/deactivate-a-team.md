@@ -34,7 +34,7 @@ Puede desactivar los equipos que ya no utilice y conservar los datos históricos
     <ul> 
      <li> <p>Menú desplegable de selección principal en el área de [!UICONTROL Teams]</p> </li> 
      <li> <p>[!UICONTROL Asignaciones] typeforward</p> </li> 
-     <li> <p>Cuadro de diálogo Agregar al panel [!UICONTROL] en un proyecto</p> </li> 
+     <li> <p>Cuadro de diálogo Agregar al panel  en un proyecto</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 

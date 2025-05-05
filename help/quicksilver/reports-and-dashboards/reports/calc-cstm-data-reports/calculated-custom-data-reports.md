@@ -22,7 +22,7 @@ Puede crear informes utilizando datos personalizados calculados. Los siguientes 
 * [Información general sobre expresiones de datos calculados](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md)
 * [Campos personalizados calculados frente a columnas calculadas](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-fields-calculated-columns.md)
 * [Operadores de condición en expresiones personalizadas calculadas](../../../reports-and-dashboards/reports/calc-cstm-data-reports/condition-operators-calculated-custom-expressions.md)
-* Resumen de instrucciones &quot;IF&quot; de [](../../../reports-and-dashboards/reports/calc-cstm-data-reports/if-statements-overview.md)
+* Resumen de instrucciones &quot;IF&quot; de [&#128279;](../../../reports-and-dashboards/reports/calc-cstm-data-reports/if-statements-overview.md)
 * [Ejemplo de campo personalizado calculado: mostrar el administrador del creador de un problema en el formulario personalizado del problema](../../../reports-and-dashboards/reports/calc-cstm-data-reports/custom-field-manager-issue-creator-on-issue-form.md)
 * [Ejemplo de campo personalizado calculado: mostrar una marca de tiempo de estado en un formulario personalizado](../../../reports-and-dashboards/reports/calc-cstm-data-reports/example-status-timestamp-in-calculated-field.md)
 * [Ejemplo de campo personalizado calculado: mostrar el historial de edición de un campo](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-field-example-edit-history-of-another-field.md)

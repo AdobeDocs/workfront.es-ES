@@ -92,7 +92,7 @@ Compartir uno o varios informes de una lista es lo mismo.
 
    O
 
-   Haga clic en el nombre de un informe y, a continuación, haga clic en **Acciones de informe >****Uso compartido**.
+   Haga clic en el nombre de un informe y, a continuación, haga clic en **Acciones de informe >**&#x200B;**Uso compartido**.
 
    ![](assets/unshimmed-report-actions-sharing.png)
 

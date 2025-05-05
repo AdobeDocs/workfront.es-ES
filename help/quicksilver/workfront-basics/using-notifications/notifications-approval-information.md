@@ -38,7 +38,7 @@ Consulte también [Notificaciones de eventos](../../workfront-basics/using-notif
   </tr> 
   <tr> 
    <td> <p><strong>Se completó una solicitud de aprobación delegada de proyecto</strong> </p> <p>Ese usuario aprobó o rechazó una aprobación de proyecto que delegó en otro usuario.</p> <p>El asunto del correo electrónico de notificación instantánea es: <em>[!UICONTROL Aprobación/rechazo del proyecto hecho a nombre suyo por] &lt;Nombre de usuario&gt;</em></p> <p><em>El asunto de la notificación de resumen diario es: [!UICONTROL Resumen de la información de aprobación] &lt;Fecha del resumen diario&gt;</em> </p> </td> 
-   <td> Nombre del proyecto<br>[!UICONTROL Nombre del Portfolio]<br>[!UICONTROL Número de referencia del proyecto]<br>Nombre del usuario que aprobó o rechazó el proyecto en su nombre<br>[!Decisión de aprobación de UICONTROL]<br>[!Estado del proyecto UICONTROL]<br>Nombre del usuario que solicitó la aprobación<br><strong>[!UICONTROL Ver más detalles]</strong> botón<br>*Número de referencia del proyecto<br>*Nombre del proyecto<br>*Nombre del aprobador<br>[!UICONTROL *Fecha del resumen diario]<br></td> 
+   <td> Nombre del proyecto<br>[!UICONTROL Nombre del Portfolio]<br>[!UICONTROL Número de referencia del proyecto]<br>Nombre del usuario que aprobó o rechazó el proyecto en su nombre<br>[!UICONTROL Decisión de aprobación de]<br>[!UICONTROL Estado del proyecto]<br>Nombre del usuario que solicitó la aprobación<br><strong>[!UICONTROL Ver más detalles]</strong> botón<br>*Número de referencia del proyecto<br>*Nombre del proyecto<br>*Nombre del aprobador<br>[!UICONTROL *Fecha del resumen diario]<br></td> 
    <td><strong>Diariamente</strong> </td> 
   </tr> 
   <tr> 

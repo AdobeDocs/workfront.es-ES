@@ -70,7 +70,7 @@ Para ver los comentarios en el visor de revisión:
 
 1. (Condicional) Si el área de comentarios no está abierta, haga clic en **Ver comentarios** en la esquina superior derecha.
 1. Haga clic en cualquier comentario para ver las marcas de comentario de la prueba.
-1.  O
+1. O
 1.  En una prueba de vídeo, pase el ratón sobre el punto de la cronología en el que se realizó un comentario y, a continuación, haga clic en el globo numerado que aparece.
 1. ![proof_comment_video.png](assets/proof-comment-video-350x190.png)
 

@@ -126,9 +126,9 @@ Antes de añadir un usuario, recopile la información sobre el usuario enumerada
    >
    >* Si el administrador de Workfront ha habilitado una integración de SSO con Workfront, el campo Permitir solo la autenticación &lt;Configuración de SSO> se oculta si se desactiva la invitación por correo electrónico. El campo Identificador de federación o &lt;Configuración de SSO> Nombre de usuario permanece visible.
    >
-   * Si su organización se ha incorporado a Admin Console y añade un usuario a través de Workfront, no tiene la opción de enviar una invitación por correo electrónico.
+   >* Si su organización se ha incorporado a Admin Console y añade un usuario a través de Workfront, no tiene la opción de enviar una invitación por correo electrónico.
    >
-   Para los usuarios de Adobe existentes, el usuario puede recibir o no un correo electrónico sobre la disponibilidad de Workfront. Esta es una preferencia que controla el administrador de Adobe para este producto.
+   >Para los usuarios de Adobe existentes, el usuario puede recibir o no un correo electrónico sobre la disponibilidad de Workfront. Esta es una preferencia que controla el administrador de Adobe para este producto.
 
 1. Haga clic en **Agregar esta persona**.
 
@@ -138,7 +138,7 @@ Antes de añadir un usuario, recopile la información sobre el usuario enumerada
 
    >[!NOTE]
    >
-   Si es usted administrador de grupos y añade un usuario a una organización que se ha incorporado a Adobe Admin Console, las opciones de este paso son **Enviar usuario para la aprobación de Admin** y **Enviar para aprobación y empezar otro**. El usuario se crea con un estado de Desactivado y Aprobación pendiente. Un administrador de Workfront debe aprobar el usuario, quien lo activará también en Workfront y lo añadirá a Adobe Admin Console.
+   >Si es usted administrador de grupos y añade un usuario a una organización que se ha incorporado a Adobe Admin Console, las opciones de este paso son **Enviar usuario para la aprobación de Admin** y **Enviar para aprobación y empezar otro**. El usuario se crea con un estado de Desactivado y Aprobación pendiente. Un administrador de Workfront debe aprobar el usuario, quien lo activará también en Workfront y lo añadirá a Adobe Admin Console.
 
 ## Copiar un usuario existente para crear uno nuevo
 
@@ -146,11 +146,11 @@ Puede crear un usuario copiando un usuario existente.
 
 >[!NOTE]
 >
-Cuando crea un usuario de esta manera, toda la información se copia del usuario original al usuario recién creado, excepto para los siguientes casos:
+>Cuando crea un usuario de esta manera, toda la información se copia del usuario original al usuario recién creado, excepto para los siguientes casos:
 >
-* La información de la sección Información personal.
-* Al iniciar sesión, se muestra la pestaña de aterrizaje predeterminada del nivel de acceso está seleccionada en este cuadro.
-* Subordinados directos
+>* La información de la sección Información personal.
+>* Al iniciar sesión, se muestra la pestaña de aterrizaje predeterminada del nivel de acceso está seleccionada en este cuadro.
+>* Subordinados directos
 >
 
 Para crear un nuevo usuario copiando uno existente:
@@ -174,6 +174,6 @@ Si ha seleccionado la opción para enviar una invitación al usuario, este deber
 
 >[!NOTE]
 >
-Si su organización se ha incorporado a Admin Console y añade un usuario a través de Workfront, no tiene la opción de enviar una invitación por correo electrónico.
+>Si su organización se ha incorporado a Admin Console y añade un usuario a través de Workfront, no tiene la opción de enviar una invitación por correo electrónico.
 >
-Para los usuarios de Adobe existentes, el usuario puede recibir o no un correo electrónico sobre la disponibilidad de Workfront. Esta es una preferencia que controla el administrador de Adobe para este producto.
+>Para los usuarios de Adobe existentes, el usuario puede recibir o no un correo electrónico sobre la disponibilidad de Workfront. Esta es una preferencia que controla el administrador de Adobe para este producto.

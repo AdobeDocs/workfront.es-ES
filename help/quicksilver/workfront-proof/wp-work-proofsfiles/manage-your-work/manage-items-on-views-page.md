@@ -197,4 +197,4 @@ Si tiene los derechos de edición para hacerlo, puede mover pruebas, archivos y 
 1. Realice una de las siguientes acciones:
 
    * Para mover un elemento, haga clic en él y manténgalo pulsado, arrastrándolo y soltándolo en la carpeta en la que desea colocarlo.
-   * Para mover varios elementos al mismo tiempo, puede seleccionar las casillas de verificación a la izquierda de los elementos, hacer clic en **[!UICONTROL Mover a]**encima de la lista y, a continuación, seleccionar la carpeta donde desee colocarlos o crear una nueva carpeta para ellos.
+   * Para mover varios elementos al mismo tiempo, puede seleccionar las casillas de verificación a la izquierda de los elementos, hacer clic en **[!UICONTROL Mover a]**&#x200B;encima de la lista y, a continuación, seleccionar la carpeta donde desee colocarlos o crear una nueva carpeta para ellos.

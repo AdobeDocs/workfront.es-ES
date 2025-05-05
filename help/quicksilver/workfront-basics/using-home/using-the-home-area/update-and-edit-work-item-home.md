@@ -104,7 +104,7 @@ Puede editar elementos de trabajo con los widgets siguientes en el área Inicio:
 
 Puede proporcionar actualizaciones sobre cualquier elemento de trabajo en el [!UICONTROL widget Mi trabajo] :
 
-1. Haga clic en el icono del **[!UICONTROL menú ![]** principal en la esquina superior derecha, o en el icono](assets/lines-main-menu.png) de líneas del ****![menú principal en la esquina superior izquierda, si está disponible, luego haga clic **[!UICONTROL en Inicio.]**](assets/main-menu-icon.png)
+1. Haga clic en el icono del **![[!UICONTROL menú []** principal en la esquina superior derecha, o en el icono]](assets/lines-main-menu.png) de líneas del **&#x200B;**![menú principal en la esquina superior izquierda, si está disponible, luego haga clic **[!UICONTROL en Inicio.]**](assets/main-menu-icon.png)
 1. (Condicional) Haga clic en **Personalizar** para agregar el widget Mi [!UICONTROL **trabajo**] .
 
 1. Busque el elemento de trabajo que desea actualizar en el [!UICONTROL **widget Mi trabajo**] .
@@ -149,7 +149,7 @@ Puede proporcionar actualizaciones sobre cualquier elemento de trabajo en el [!U
 
 Puede editar cualquier campo de cualquier elemento de trabajo al que tenga acceso para editar.
 
-1. Haga clic en el icono del **[!UICONTROL menú ![]** principal en la esquina superior derecha, o en el icono](assets/lines-main-menu.png) de líneas del ****![menú principal en la esquina superior izquierda, si está disponible, luego haga clic **[!UICONTROL en Inicio.]**](assets/main-menu-icon.png)
+1. Haga clic en el icono del **![[!UICONTROL menú []** principal en la esquina superior derecha, o en el icono]](assets/lines-main-menu.png) de líneas del **&#x200B;**![menú principal en la esquina superior izquierda, si está disponible, luego haga clic **[!UICONTROL en Inicio.]**](assets/main-menu-icon.png)
 1. (Condicional) Haga clic en **Personalizar** para agregar el widget Mi **trabajo** .
 
 1. Pase el ratón sobre el elemento de trabajo y, a continuación, haga clic en el **icono Resumen** .

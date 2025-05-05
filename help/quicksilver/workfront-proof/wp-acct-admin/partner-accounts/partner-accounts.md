@@ -24,5 +24,5 @@ ht-degree: 0%
 
 Esta sección contiene los siguientes artículos:
 
-* [Administrar una relación de socio entre  [!DNL Workfront Proof ]cuentas](../../../workfront-proof/wp-acct-admin/partner-accounts/manage-partner-relationship-between-wp-accts.md)
+* [Administrar una relación de socio entre  [!DNL Workfront Proof &#x200B;]cuentas](../../../workfront-proof/wp-acct-admin/partner-accounts/manage-partner-relationship-between-wp-accts.md)
 * [Compartir elementos con un socio en  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/partner-accounts/share-items-partner-in-wp.md)

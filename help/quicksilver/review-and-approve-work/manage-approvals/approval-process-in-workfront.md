@@ -78,9 +78,7 @@ Para obtener información acerca de cómo crear un proceso de aprobación de niv
      >     Por ejemplo, si tiene una aprobación de tarea asociada al estado En curso, la tarea cambia automáticamente su estado a En curso cuando se concede la aprobación. No puede cambiar automáticamente su estado a Completado ni a ningún otro estado que no esté asociado con la aprobación.
      >   
      >   
-     >
-
-   * Las entidades asociadas a un proceso de aprobación pueden ser usuarios, funciones del puesto o equipos. En última instancia, los usuarios son los responsables de aceptar o rechazar la aprobación. Puede asignar aprobaciones a los usuarios que cumplan una determinada función en el proyecto. Por ejemplo, puede asignar una aprobación a un propietario del proyecto o patrocinador. Para obtener más información, vea [Crear un proceso de aprobación de elementos de trabajo](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
+     >* Las entidades asociadas a un proceso de aprobación pueden ser usuarios, funciones del puesto o equipos. En última instancia, los usuarios son los responsables de aceptar o rechazar la aprobación. Puede asignar aprobaciones a los usuarios que cumplan una determinada función en el proyecto. Por ejemplo, puede asignar una aprobación a un propietario del proyecto o patrocinador. Para obtener más información, vea [Crear un proceso de aprobación de elementos de trabajo](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
 
      Existen los siguientes escenarios:
 

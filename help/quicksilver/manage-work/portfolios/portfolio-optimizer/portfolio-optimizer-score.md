@@ -24,7 +24,7 @@ Para obtener información sobre cómo encontrar [!UICONTROL Portfolio Optimizer]
 
 Para obtener información sobre cómo [!DNL Adobe Workfront] usa la puntuación del proyecto y otra información del proyecto para optimizar proyectos en [!UICONTROL Portfolio Optimizer], consulte [Optimizar proyectos en Portfolio Optimizer](../../../manage-work/portfolios/portfolio-optimizer/optimize-projects-in-portfolio-optimizer.md).
 
-## Diferencia entre la puntuación de alineación [!UICONTROL 1} y la puntuación de Portfolio Optimizer [!UICONTROL 3}]]
+## Diferencia entre la puntuación de alineación [!UICONTROL 1&rbrace; y la puntuación de Portfolio Optimizer [!UICONTROL 3&rbrace;]]
 
 Hay una diferencia entre la puntuación de alineación y la puntuación del Optimizador de portafolios de un proyecto.
 

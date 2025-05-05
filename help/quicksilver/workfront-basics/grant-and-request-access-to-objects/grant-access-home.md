@@ -89,7 +89,7 @@ Puede configurar si desea recibir notificaciones por correo electrónico para la
 1. Para ir al perfil de usuario, siga uno de estos procedimientos:
 
    * Haga clic en el **menú principal** ![](assets/dots-main-menu.png) en la esquina superior derecha de la pantalla y, a continuación, haga clic en su nombre.
-   * Haga clic en el **icono de perfil](assets/adobe-blue-main-menu.png) del ![menú principal** de Adobe en la esquina superior derecha, si está disponible, y luego haga clic en **Perfil de Workfront**.
+   * Haga clic en el **icono de perfil![&#128279;](assets/adobe-blue-main-menu.png) del menú principal** de Adobe en la esquina superior derecha, si está disponible, y luego haga clic en **Perfil de Workfront**.
 
 1. Haga clic en el icono **Más** del menú ![más](assets/more-icon.png) a la derecha de su nombre en el encabezado y, a continuación, haga clic en **Editar**.
 1. Haga clic en **Notificaciones** y seleccione o anule la selección de **Alguien me solicita acceso** en la sección **Acción necesaria**, dependiendo de si desea recibir notificaciones por correo electrónico cuando otro usuario solicite o no acceso.

@@ -154,7 +154,7 @@ Se muestra el cuadro **Nueva aplicación OAuth2**.
         </ol> </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Claves públicas de [!UICONTROL]</td> 
+      <td role="rowheader">Claves públicas de </td> 
       <td> <p>Las aplicaciones de servidor a servidor utilizan claves públicas y privadas para la autenticación. Realice una de las siguientes acciones:</p> 
        <ul> 
         <li> <p>Haga clic en <b>[!UICONTROL Agregar una clave pública]</b> e introduzca la clave pública desde la otra aplicación.</p> </li> 
@@ -230,7 +230,7 @@ Para obtener instrucciones sobre cómo configurar y utilizar la aplicación OAut
       <td> <p>Seleccione la cantidad de tiempo después de la cual, si el usuario no ha estado activo en el sistema, caduca su token de actualización. </p> <p>Por ejemplo, si la caducidad del token de actualización por inactividad es de seis meses y el usuario no inicia sesión durante seis meses, el token de actualización caduca aunque la caducidad del token de actualización absoluta se pueda establecer para más tiempo.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Logotipo de [!UICONTROL]</td> 
+      <td role="rowheader">Logotipo de </td> 
       <td>Puede añadir un logotipo para hacer que esta aplicación sea más identificable. </td> 
      </tr> 
      <tr> 
@@ -290,7 +290,7 @@ Para obtener instrucciones sobre cómo configurar y utilizar la aplicación OAut
       <td> <p>Seleccione la cantidad de tiempo después de la cual, si el usuario no ha estado activo en el sistema, caduca su token de actualización. </p> <p>Por ejemplo, si la caducidad del token de actualización por inactividad es de seis meses y el usuario no inicia sesión durante seis meses, el token de actualización caduca aunque la caducidad del token de actualización absoluta se pueda establecer para más tiempo.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Logotipo de [!UICONTROL]</td> 
+      <td role="rowheader">Logotipo de </td> 
       <td>Puede añadir un logotipo para hacer que esta aplicación sea más identificable. </td> 
      </tr> 
      <tr> 

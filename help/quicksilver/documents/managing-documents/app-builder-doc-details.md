@@ -107,6 +107,7 @@ Adobe proporciona una CLI de código abierto que se puede utilizar para ayudar a
 
 1. Selección y configuración de plantilla
    1. Examine todas las plantillas disponibles y elija la plantilla **@adobe/aem-cf-editor-ui-ext-tpl** para su proyecto.
+
       ![Plantilla de búsqueda](assets/search-template.png)
       ![Seleccionar plantilla](assets/select-template.png)
 
@@ -115,6 +116,7 @@ Adobe proporciona una CLI de código abierto que se puede utilizar para ayudar a
    1. Proporcione un resumen descriptivo de la funcionalidad de la extensión.
    1. Seleccione un número de versión inicial para empezar.
    1. Confirme la finalización seleccionando **He terminado**.
+
       ![Definir extensión](assets/define-extension.png)
 
 1. Vaya a la carpeta del proyecto

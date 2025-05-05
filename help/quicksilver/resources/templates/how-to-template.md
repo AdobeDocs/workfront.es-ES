@@ -35,7 +35,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>[Especifique la información especial del producto. Elimine esta línea si la funcionalidad está en Workfront [Proper]</td> 
+   <td>&lbrack;Especifique la información especial del producto. Elimine esta línea si la funcionalidad está en Workfront [Proper]</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso*</td> 

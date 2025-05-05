@@ -54,10 +54,10 @@ En la tabla siguiente se muestran las áreas en las que puede encontrar y usar e
     </ul> </td> 
   </tr> 
   <tr> 
-   <td>Tareas en las áreas de trabajo de [!UICONTROL sin asignar] y [!UICONTROL asignado] del Distribuidor de cargas de trabajo de [!UICONTROL]</td> 
+   <td>Tareas en las áreas de trabajo de [!UICONTROL sin asignar] y [!UICONTROL asignado] del Distribuidor de cargas de trabajo de </td> 
   </tr> 
    <tr> 
-   <td>Tareas en una hoja de horas de [!UICONTROL]</td> 
+   <td>Tareas en una hoja de horas de </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td><b>Problemas</b></td> 
@@ -71,14 +71,14 @@ En la tabla siguiente se muestran las áreas en las que puede encontrar y usar e
     </ul> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>Problemas en el área de [!UICONTROL Trabajo asignado] del Distribuidor de cargas de trabajo de [!UICONTROL]</td> 
+   <td>Problemas en el área de [!UICONTROL Trabajo asignado] del Distribuidor de cargas de trabajo de </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>Problemas en la sección [!UICONTROL Enviado] del área de [!UICONTROL Solicitudes]</td> 
   </tr> 
 </tr> 
    <tr> 
-   <td>Problemas en una hoja de horas de [!UICONTROL]</td> 
+   <td>Problemas en una hoja de horas de </td> 
   </tr>
 
 <tr data-mc-conditions=""> 

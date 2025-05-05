@@ -155,7 +155,7 @@ Aunque no puede ver información de tareas en el Planificador de recursos, los c
 
 Existen los siguientes escenarios al calcular el costo planificado para usuarios, roles y el proyecto:
 
-* Cuando **Tipo de costo** es **Usuario por hora **y no hay **ninguna asignación** en la tarea:
+* Cuando **Tipo de costo** es **Usuario por hora &#x200B;** y no hay **ninguna asignación** en la tarea:
 
    * **Costo planificado por rol y usuario**:
 

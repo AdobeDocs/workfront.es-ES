@@ -33,7 +33,7 @@ El cambio de configuración regional no afecta al día de inicio de la semana en
 A continuación se indican las instrucciones para cambiar la configuración regional y de idioma de varios exploradores compatibles con Workfront.
 
 * **Chrome:** Copie y pegue el siguiente vínculo en el explorador Chrome: `chrome://settings/languages` y, a continuación, vaya a Idiomas.
-* **Firefox:**Copie y pegue el siguiente vínculo en el explorador Firefox: `about:preferences#content` y, a continuación, vaya a Idiomas.
+* **Firefox:**&#x200B;Copie y pegue el siguiente vínculo en el explorador Firefox: `about:preferences#content` y, a continuación, vaya a Idiomas.
 * **IE 11:** Herramientas -> Opciones de Internet -> General -> Idiomas
 * **Safari:** Lamentablemente, Safari no permite cambiar los idiomas de exploración web sin cambiar también todo el idioma del sistema operativo. Probablemente sea más fácil simplemente instalar otro navegador como Chrome o Firefox.
 

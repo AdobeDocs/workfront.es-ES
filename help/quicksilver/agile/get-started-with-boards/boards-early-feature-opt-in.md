@@ -33,7 +33,7 @@ En la tabla siguiente se describen las principales funciones de los tableros jun
    <th><strong>Estado</strong></th> 
   </tr>
   <tr>
-   <td>Área de [!UICONTROL Tableros] en el menú principal de [!UICONTROL]</td>
+   <td>Área de [!UICONTROL Tableros] en el menú principal de </td>
    <td>Publicado</td>
   </tr>
     <tr>

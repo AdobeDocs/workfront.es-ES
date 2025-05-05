@@ -59,7 +59,7 @@ Para obtener más información sobre cómo cancelar la suscripción a los correo
 
 ## Configurar cómo se muestran los hitos en el gráfico Gantt {#configure-how-milestones-are-displayed-on-the-gantt-chart}
 
-***CORRECCIÓN **: esta característica no se encuentra actualmente en el entorno de vista previa de espacio aislado. Está planificado para su lanzamiento en una fecha posterior, durante el mes de junio de 2017.*
+***CORRECCIÓN &#x200B;**: esta característica no se encuentra actualmente en el entorno de vista previa de espacio aislado. Está planificado para su lanzamiento en una fecha posterior, durante el mes de junio de 2017.*
 
 Ahora hay dos opciones para ver la información de los hitos en un gráfico Gantt. Puede configurar uno o ambos de los siguientes indicadores de hito:
 

@@ -55,4 +55,4 @@ De forma predeterminada, los revisores pueden descargar el archivo original desd
 
 La configuración guardada en su configuración personal se aplica a todas las pruebas que usted haya creado, pero se puede anular al crear una nueva prueba o al modificarla, tal como se describe en [Administrar detalles de prueba en [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).
 
-Puede deshabilitar las descargas de archivos si modifica la configuración personal de revisión, tal como se describe en [Configurar la revisión en[!DNL  Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md).
+Puede deshabilitar las descargas de archivos si modifica la configuración personal de revisión, tal como se describe en [Configurar la revisión en[!DNL &#x200B; Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md).

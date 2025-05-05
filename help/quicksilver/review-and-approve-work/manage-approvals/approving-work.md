@@ -193,7 +193,7 @@ Según la configuración de las notificaciones, puede recibir correos electróni
 
      Para obtener información sobre la revisión de pruebas, consulte Revisión [de pruebas en Adobe Systems Workfront](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md).
 
-1. Haga clic en la opción Decisión **** en la esquina superior derecha para aprobar, aprobar con cambios o rechazar el documento.
+1. Haga clic en la opción Decisión **&#x200B;**&#x200B;en la esquina superior derecha para aprobar, aprobar con cambios o rechazar el documento.
 
 ## Aprobar un documento a partir de una prueba {#approve-a-document-from-a-proof}
 

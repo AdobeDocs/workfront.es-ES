@@ -33,7 +33,7 @@ Realiza dos sencillos pasos:
 
 **Paso 1**: Si aún no tiene un ID de sesión, consiga uno mediante los métodos doLogin() o getSessionID(). Utilice la primera para &quot;iniciar sesión&quot; con la dirección de correo electrónico y la contraseña de un usuario o el segundo método si tiene la dirección de correo electrónico y el token de autenticación del usuario.
 
-**Paso 2:**Ahora es el momento de crear la prueba. Utilice el método createProof() y envíenos al menos los campos obligatorios (actualmente solo hay 5). Asegúrese de establecer el parámetro Hash en &quot;web&quot; y el parámetro SourceName como URL de la página web que desea capturar.
+**Paso 2:**&#x200B;Ahora es el momento de crear la prueba. Utilice el método createProof() y envíenos al menos los campos obligatorios (actualmente solo hay 5). Asegúrese de establecer el parámetro Hash en &quot;web&quot; y el parámetro SourceName como URL de la página web que desea capturar.
 
 Si ahora inicia sesión en su cuenta, verá la prueba.
 

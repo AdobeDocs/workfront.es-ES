@@ -141,7 +141,7 @@ Para obtener más información, siga trabajando en el formulario personalizado d
 
    *Pertenencia*
 
-1. Abra la ficha **Agregar un campo** y cree un campo **Texto con formato **campo denominado *¿Cuál es el objetivo del sitio web?* y luego haga clic en **Aplicar**.
+1. Abra la ficha **Agregar un campo** y cree un campo **Texto con formato &#x200B;** campo denominado *¿Cuál es el objetivo del sitio web?* y luego haga clic en **Aplicar**.
 
    En esta organización, el equipo de redacción técnica crea un sitio de documentación de Ayuda, no el departamento de marketing. Por lo tanto, no se necesita más información de un usuario que selecciona la documentación de Ayuda en el segundo campo. Crearemos una línea de texto (un campo de texto descriptivo) que les dirá que vean al equipo de escritura técnica en su lugar. Y usaremos una regla de lógica de omisión que salta a ese usuario a esa línea de texto.
 

@@ -56,7 +56,7 @@ El nuevo correo electrónico de prueba contiene:
 
 ## El registro de actividad
 
-El envío de un correo electrónico [!UICONTROL Nueva prueba] a un revisor se ha registrado en la sección [!UICONTROL Actividad] de la página [!UICONTROL Detalles de la prueba]. Consulte [Administrar[!UICONTROL  detalles de revisión] en [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md) para obtener más información. Puede comprobar si el correo electrónico [!UICONTROL Nueva revisión] se habilitó en el momento de crear una revisión.
+El envío de un correo electrónico [!UICONTROL Nueva prueba] a un revisor se ha registrado en la sección [!UICONTROL Actividad] de la página [!UICONTROL Detalles de la prueba]. Consulte [Administrar[!UICONTROL &#x200B; detalles de revisión] en [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md) para obtener más información. Puede comprobar si el correo electrónico [!UICONTROL Nueva revisión] se habilitó en el momento de crear una revisión.
 
 ![New_Version_email_-_activity_log.png](assets/new-verison-email---acitivity-log-350x44.png)
 

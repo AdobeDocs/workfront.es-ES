@@ -323,6 +323,7 @@ A continuación, se muestran los objetos y conceptos principales de Workfront Pl
      ![Agrupación aplicada en la vista de escala de tiempo](assets/grouping-applied-in-timeline-view.png)
 
    * **Vista de calendario**: muestra los registros que tienen al menos dos campos de tipo Fecha en formato de calendario.
+
      ![Ejemplo de vista de calendario](assets/calendar-view-example.png)
 
 

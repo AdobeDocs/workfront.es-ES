@@ -34,7 +34,7 @@ El área [!UICONTROL Inicio] le permite trabajar directamente en las tareas, pro
      <li>Empezar a trabajar en tareas y problemas</li> 
      <li>Marcar tareas y problemas como [!UICONTROL Listo]</li> 
      <li>Reasignar tareas y problemas</li> 
-     <li>Cambiar la fecha de confirmación de [!UICONTROL]</li> 
+     <li>Cambiar la fecha de confirmación de </li> 
     </ul> </td> 
    <td> 
     <ul> 

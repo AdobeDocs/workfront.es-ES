@@ -70,11 +70,13 @@ Si compartió el informe de calendario con otros usuarios o equipos, el nombre d
    1. Haga clic en **[!UICONTROL Añadir al calendario].**
    1. Empiece a escribir el nombre del proyecto desde el que desea agregar eventos de calendario y, a continuación, haga clic en el nombre cuando aparezca en la lista desplegable.
    1. Haga clic en **Add**.
+
       ![agregar un proyecto a un calendario](assets/add-a-calendar-project.png)
 
 
 1. (Opcional) Para añadir una agrupación de calendario o modificar una existente:
    1. Haga clic en el menú **Más** junto al nombre del proyecto y luego haga clic en **Editar**.
+
       ![editar proyecto en calendario](assets/edit-project-in-calendar.png)
 
    1. Elija cómo quiere agrupar los elementos:

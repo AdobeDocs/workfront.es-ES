@@ -150,7 +150,7 @@ Puede añadir tarjetas ad hoc con un solo título para rellenar rápidamente el 
 
    O
 
-   Haga clic en el menú **[!UICONTROL Más]** ![[!UICONTROL Más ]](assets/more-icon-spectrum.png) de la tarjeta y seleccione **[!UICONTROL Editar]**.
+   Haga clic en el menú **[!UICONTROL Más]** ![[!UICONTROL Más &#x200B;]](assets/more-icon-spectrum.png) de la tarjeta y seleccione **[!UICONTROL Editar]**.
 
 1. En el cuadro [!UICONTROL Detalles de la tarjeta], actualice la información según sea necesario y haga clic en **[!UICONTROL Cerrar]** para volver al tablero.
 

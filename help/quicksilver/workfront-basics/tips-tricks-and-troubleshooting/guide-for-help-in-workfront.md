@@ -59,7 +59,7 @@ Para obtener más información sobre [!DNL Workfront], puede hacer lo siguiente:
   </tr> 
   <tr> 
    <td><strong>[!UICONTROL Connect with peers]</strong> </td> 
-   <td>[!UICONTROL [!DNL Workfront] Community] le ofrece una red de profesionales que dominan el trabajo moderno y que comparten activamente sus conocimientos y experiencia. Para obtener más información, consulte <a href="../../workfront-basics/tips-tricks-and-troubleshooting/workfront-community.md" class="MCXref xref" xrefformat="{para}">La comunidad de [!DNL Adobe Workfront]</a>.</td> 
+   <td>[!UICONTROL [!DNL Workfront] Community] le ofrece una red de profesionales que dominan el trabajo moderno y que comparten activamente sus conocimientos y experiencia. Para obtener más información, consulte <a href="../../workfront-basics/tips-tricks-and-troubleshooting/workfront-community.md" class="MCXref xref" xrefformat="{para}">La comunidad de [!DNL Adobe Workfront]</a>.</td> 
   </tr> 
   <tr> 
    <td><strong>Consulte las novedades de cualquiera de los productos de </strong>[!DNL Workfront]<strong></strong></td> 

@@ -50,7 +50,7 @@ Tenga en cuenta lo siguiente al trabajar en finanzas en el [!UICONTROL Optimizad
 Puede ver información financiera en las siguientes áreas del [!UICONTROL Optimizador de portafolios]:
 
 * **[!UICONTROL Encabezado del portafolios]**: esta área muestra información financiera recopilada de todos los proyectos del portafolio. Se muestra en todas las pestañas del objeto Portafolio.
-*   **[!UICONTROL Finanzas del portafolio para proyectos seleccionados]**: esta área muestra información financiera recopilada de los proyectos seleccionados en el [!UICONTROL Optimizador de portafolios]. Puede añadir o quitar proyectos y comprender el efecto que tendrá en las finanzas del portafolio al consultar la información de esta área.
+* **[!UICONTROL Finanzas del portafolio para proyectos seleccionados]**: esta área muestra información financiera recopilada de los proyectos seleccionados en el [!UICONTROL Optimizador de portafolios]. Puede añadir o quitar proyectos y comprender el efecto que tendrá en las finanzas del portafolio al consultar la información de esta área.
 * **[!UICONTROL Finanzas de los proyectos]**: esta área muestra la información financiera de cada proyecto enumerado en el [!UICONTROL Optimizador de portafolios].
 
 ### Campos financieros del [!UICONTROL Optimizador de portafolios] {#the-financial-fields-in-the-portfolio-optimizer}

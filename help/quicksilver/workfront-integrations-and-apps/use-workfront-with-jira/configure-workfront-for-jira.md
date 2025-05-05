@@ -38,7 +38,7 @@ Debe tener lo siguiente:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL [!DNL Adobe Workfront] [plan]</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] [plan]</td> 
    <td><p>Nuevo: Cualquiera</p>
        <p>o</p>
        <p>Actual: [!UICONTROL Pro] o superior</p>

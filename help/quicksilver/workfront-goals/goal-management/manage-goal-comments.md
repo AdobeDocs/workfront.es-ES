@@ -96,7 +96,7 @@ Debe tener el siguiente acceso para realizar las acciones descritas en este art�
 
 Puede añadir comentarios a las metas en la sección Actualizaciones de la página de una meta.
 
-1. Haz clic en el icono](assets/main-menu-icon.png) del menú principal en la esquina superior derecha o en el icono ![del **menú** principal Líneas](assets/lines-main-menu.png) del menú principal en la esquina superior izquierda, si están disponibles, y haz clic en **Objetivos******![
+1. Haz clic en el icono![&#128279;](assets/main-menu-icon.png) del menú principal en la esquina superior derecha o en el icono ![del **menú** principal Líneas](assets/lines-main-menu.png) del menú principal en la esquina superior izquierda, si están disponibles, y haz clic en **Objetivos**&#x200B;**&#x200B;**
 Se abrirá la lista de metas.
 1. Busque la meta a la que desee añadir comentarios y, a continuación, haga clic en su nombre para abrir la página de la meta.
 1. Haga clic en **Actualizaciones** en el panel izquierdo. 

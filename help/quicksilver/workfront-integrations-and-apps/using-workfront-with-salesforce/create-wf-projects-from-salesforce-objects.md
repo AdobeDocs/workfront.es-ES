@@ -158,7 +158,7 @@ Para configurar déclencheur en [!UICONTROL Salesforce]:
    1. Seleccione un **[!UICONTROL Tipo]** del menú desplegable **[!UICONTROL Tipo]**.
 
       Cuando cualquier **Cuenta
-** se designa como **[!UICONTROL Tipo]** especificado aquí en [!DNL Salesforce], se crea un **[!UICONTROL Proyecto]** en [!DNL Workfront].
+**&#x200B; se designa como &#x200B;** [!UICONTROL Tipo] **&#x200B; especificado aquí en [!DNL Salesforce], se crea un &#x200B;** [!UICONTROL Proyecto]** en [!DNL Workfront].
 
       Este campo es obligatorio.
 

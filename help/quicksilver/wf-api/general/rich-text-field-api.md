@@ -28,7 +28,7 @@ Un campo personalizado con formato de texto enriquecido se denomina **Campo con 
 **Ejemplo:** una petición GET básica para recuperar el valor del campo de formulario personalizado **Campo con texto enriquecido**:
 
 <!-- [Copy](javascript:void(0);) -->
-<pre><OBJ Code><OBJ ID><OBJ Code><OBJ ID></pre> 
+<pre>&lt;OBJ Code>&lt;OBJ ID>&lt;OBJ Code>&lt;OBJ ID></pre> 
 
 **Ejemplo:** esta solicitud devolverá el valor de **Campo con texto enriquecido** en JSON almacenado en **parameterValue** **DE:Campo con texto enriquecido**
 
@@ -118,4 +118,4 @@ Para guardar los siguientes valores de un campo de texto enriquecido mediante la
 1. Utilice el método **stringify** en el archivo JSON descrito anteriormente para realizar una solicitud **PUT** y enviar actualizaciones
 
    <!-- [Copy](javascript:void(0);) -->
-   <pre><OBJ Code><OBJ ID></pre>
+   <pre>&lt;OBJ Code>&lt;OBJ ID></pre>

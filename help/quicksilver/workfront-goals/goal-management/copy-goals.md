@@ -185,7 +185,7 @@ To copy goals in the Production environment:
    ![Copiar cuadro de metas](assets/copy-goal-box-unshimmed.png)
 
 1. Actualice cualquiera de la siguiente información para la meta copiada:
-   *   **Nombre de la meta**: el nombre de la nueva meta. El nombre predeterminado para el objetivo copiado es “Copia de &lt;original goal>”.
+   * **Nombre de la meta**: el nombre de la nueva meta. El nombre predeterminado para el objetivo copiado es “Copia de &lt;original goal>”.
    * **Período**: el período de tiempo durante el cual desea alcanzar la meta. Seleccione un periodo de tiempo en el menú desplegable
 
      O

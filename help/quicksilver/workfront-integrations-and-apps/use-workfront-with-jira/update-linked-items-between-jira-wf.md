@@ -195,7 +195,7 @@ Puede registrar el tiempo de un problema de [!DNL Jira] vinculado a un elemento 
 
 >[!IMPORTANT]
 >
->Si el usuario que registra la hora en [!DNL Jira] no existe en [!DNL Workfront], la integración crea un nuevo usuario activo en Workfront si **[!UICONTROL Crea automáticamente un usuario en [!DNL Workfront] si el usuario [!DNL Jira] no tiene una *cuenta [!DNL Workfront]]** se establece en**[!UICONTROL  Siempre ]**. Este usuario no ocupa una licencia de [!DNL Workfront]. Puede asignar usuarios activos a elementos de trabajo en [!DNL Workfront], pero no puede incluirlos en las actualizaciones. Para obtener información acerca de cómo configurar la creación automática de [!DNL Workfront] usuarios de [!DNL Jira], vea [Configurar [!DNL Workfront for Jira]](../../workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md).
+>Si el usuario que registra la hora en [!DNL Jira] no existe en [!DNL Workfront], la integración crea un nuevo usuario activo en Workfront si **[!UICONTROL Crea automáticamente un usuario en [!DNL Workfront] si el usuario [!DNL Jira] no tiene una *cuenta [!DNL Workfront]]** se establece en&#x200B;**[!UICONTROL &#x200B; Siempre &#x200B;]**. Este usuario no ocupa una licencia de [!DNL Workfront]. Puede asignar usuarios activos a elementos de trabajo en [!DNL Workfront], pero no puede incluirlos en las actualizaciones. Para obtener información acerca de cómo configurar la creación automática de [!DNL Workfront] usuarios de [!DNL Jira], vea [Configurar [!DNL Workfront for Jira]](../../workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md).
 
 Para registrar el tiempo de un elemento en [!DNL Jira] y que se registre tanto en [!DNL Jira] como en [!DNL Workfront]:
 

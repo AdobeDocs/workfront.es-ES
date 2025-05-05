@@ -75,5 +75,5 @@ El punto final de tiempo de los usuarios disponibles recupera los datos en el ti
 
 ## Parámetros de respuesta
 
-* AVL ****: horas disponibles reales. Matriz de números.
+* AVL **&#x200B;**: horas disponibles reales. Matriz de números.
 * **PAVL**: Horas puramente disponibles para la programación que no incluyen días no laborables o días libres del usuario. Cadena.

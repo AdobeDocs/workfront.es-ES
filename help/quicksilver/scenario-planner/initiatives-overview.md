@@ -91,7 +91,7 @@ Puede ver los siguientes indicadores financieros sobre una iniciativa accediendo
   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Beneficio planificado de [!UICONTROL]</td> 
+   <td role="rowheader">Beneficio planificado de </td> 
    <td>Se trata de una entrada manual en la que puede estimar el beneficio general que obtendría su departamento al completar esta iniciativa. </td> 
   </tr> 
   <tr> 

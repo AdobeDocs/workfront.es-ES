@@ -429,64 +429,64 @@ Método EAC = Resumir a partir de tareas/ subtareas
 </table>
 
 1. En Acciones de proyecto, ejecute Recalcular finanzas
-1. **IRC****para la tarea 1** = 0,14 calculado de la siguiente manera:\
-   **IRC****para la tarea 1**  = *IF* Costo de mano de obra real + IncurredActualExpenseCost  &lt;> 0 *ENTONCES*
+1. **IRC**&#x200B;**para la tarea 1** = 0,14 calculado de la siguiente manera:\
+   **IRC**&#x200B;**para la tarea 1**  = *IF* Costo de mano de obra real + IncurredActualExpenseCost  &lt;> 0 *ENTONCES*
 
    ```
    CPI = (TotalBudgetedCostWorkPerformed + IncurredPlannedExpenseCost) / (ActualLaborCost + IncurredActualExpenseCost)
    ```
 
    *   ELSE* CPI = CPI_Labor\
-   **IRC****para la tarea 1**  = (100+300) / (2500+400)\
-   **IRC****para la tarea 1**  = 400 / 2900\
-   **IRC****para la tarea 1**  = 0,14
+   **IRC**&#x200B;**para la tarea 1**  = (100+300) / (2500+400)\
+   **IRC**&#x200B;**para la tarea 1**  = 400 / 2900\
+   **IRC**&#x200B;**para la tarea 1**  = 0,14
 
-1. **EAC****para la tarea 1** = 13.400,00 $\
-   **Trabajo del IRC****para la Tarea 1** = IF Costo de mano de obra real &lt;> 0 THEN
+1. **EAC**&#x200B;**para la tarea 1** = 13.400,00 $\
+   **Trabajo del IRC**&#x200B;**para la Tarea 1** = IF Costo de mano de obra real &lt;> 0 THEN
 
    ```
    CPI_Labor = TotalBudgetedCostWorkPerformed / Actual Labor Cost
    ```
 
       ELSE CPI_Labor = 1\
-   **Trabajo de CPI****para la tarea 1** = 100/2500\
-   **Trabajo de IRC****para la tarea 1** = 0,04
+   **Trabajo de CPI**&#x200B;**para la tarea 1** = 100/2500\
+   **Trabajo de IRC**&#x200B;**para la tarea 1** = 0,04
 
-   **Trabajo EAC****para la tarea 1** = *IF* CPI_Labor &lt;> 0 *THEN*
+   **Trabajo EAC**&#x200B;**para la tarea 1** = *IF* CPI_Labor &lt;> 0 *THEN*
 
    ```
    EAC Labor = Planned Labor Cost / CPI_Labor
    ```
 
    *   ELSE* EAC  Mano de Obra = Coste Laboral Planificado + Coste Laboral Real\
-   **Trabajo EAC****para la tarea 1** = 500.00/.04\
-   **Trabajo EAC****para la tarea 1** = 12.500,00 $
+   **Trabajo EAC**&#x200B;**para la tarea 1** = 500.00/.04\
+   **Trabajo EAC**&#x200B;**para la tarea 1** = 12.500,00 $
 
-   **EAC Expense****for Task 1** = IncurredActualExpenseCost + NotIncurredPlannedExpense\
-   **Gasto EAC****para la tarea 1** = 400,00 $ + 500,00 $\
-   **Gasto EAC****para la tarea 1** = 900,00 $
+   **EAC Expense**&#x200B;**for Task 1** = IncurredActualExpenseCost + NotIncurredPlannedExpense\
+   **Gasto EAC**&#x200B;**para la tarea 1** = 400,00 $ + 500,00 $\
+   **Gasto EAC**&#x200B;**para la tarea 1** = 900,00 $
 
-   **EAC****para Tarea 1** = Mano de obra EAC + Gasto EAC\
-   **EAC****para la tarea 1**  = 12.500,00 $ + 900,00 $\
-   **EAC****para la tarea 1**  = 13.400,00 $
+   **EAC**&#x200B;**para Tarea 1** = Mano de obra EAC + Gasto EAC\
+   **EAC**&#x200B;**para la tarea 1**  = 12.500,00 $ + 900,00 $\
+   **EAC**&#x200B;**para la tarea 1**  = 13.400,00 $
 
 1. Estos son los valores CPI / EAC para la Tarea 2 y la Tarea 3:\
    Tarea 2 = 0,19 / 8.433,33 $\
-   Tarea 3 = 0,44 / 6.950,00 $****
+   Tarea 3 = 0,44 / 6.950,00 $**&#x200B;**
 
 1. IPC del proyecto = 0,32\
-   **CPI****para el proyecto** = *IF* Costo de mano de obra real + IncurredActualExpenseCost  &lt;> 0 *ENTONCES*
+   **CPI**&#x200B;**para el proyecto** = *IF* Costo de mano de obra real + IncurredActualExpenseCost  &lt;> 0 *ENTONCES*
 
    ```
    CPI = (TotalBudgetedCostWorkPerformed + IncurredPlannedExpenseCost)/(ActualLaborCost + IncurredActualExpenseCost)
    ```
 
    *   ELSE* CPI = CPI_Labor\
-   **IRC****para el proyecto** = (1000 + 2300) / (7500 + 2700)\
-   **CPI****para el proyecto** = 3300 / 10200\
-   **IRC****para el proyecto** = 0,32
+   **IRC**&#x200B;**para el proyecto** = (1000 + 2300) / (7500 + 2700)\
+   **CPI**&#x200B;**para el proyecto** = 3300 / 10200\
+   **IRC**&#x200B;**para el proyecto** = 0,32
 
 1. El EAC para el proyecto es de $28,783.33\
-   **EAC****para el proyecto** = Tarea EAC 1 + Tarea EAC 2 + Tarea EAC 3\
-   **EAC****para el proyecto** = 13.400,00 $ + 8.433,33 $ + 6.950,00 $\
-   **EAC****para el proyecto** = 28.783,33 $
+   **EAC**&#x200B;**para el proyecto** = Tarea EAC 1 + Tarea EAC 2 + Tarea EAC 3\
+   **EAC**&#x200B;**para el proyecto** = 13.400,00 $ + 8.433,33 $ + 6.950,00 $\
+   **EAC**&#x200B;**para el proyecto** = 28.783,33 $

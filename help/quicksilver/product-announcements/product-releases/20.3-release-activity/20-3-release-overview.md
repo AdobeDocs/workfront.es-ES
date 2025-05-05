@@ -150,32 +150,32 @@ La versión 2020.3 contiene las siguientes mejoras para todos los usuarios:
 >Debe tener lo siguiente:
 >
 ><table style="table-layout:auto"> 
-&gt; <col> 
-&gt; <col> 
-&gt; <tbody> 
-&gt;  <tr> 
-&gt;   <td role="rowheader"> <p><a href="https://business.adobe.com/products/workfront/pricing.html" target="_blank">Plan de Workfront</a>*</p> </td> 
-&gt;   <td>Business o superior</td> 
-&gt;  </tr> 
-&gt;  <tr> 
-&gt;   <td role="rowheader"> <p>Tipo de licencia*</p> </td> 
-&gt;   <td> <p>Revisión o superior. Para obtener más información, consulte <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Información general sobre licencias de Adobe Workfront</a>.</p> </td> 
-&gt;  </tr> 
-&gt;  <tr> 
-&gt;   <td role="rowheader">Producto</td> 
-&gt;   <td>Planificador de escenarios de Workfront <p>Para obtener información sobre el planificador de escenarios de Workfront, consulte <a href="../../../scenario-planner/scenario-planner-overview.md" class="MCXref xref">Información general sobre el planificador de escenarios</a>.</p> </td> 
-&gt;  </tr> 
-&gt;  <tr data-mc-conditions=""> 
-&gt;   <td role="rowheader"><strong>Nivel de acceso*</strong> </td> 
-&gt;   <td> <p>Acceso de visualización o superior al planificador de escenarios</p> <p>Nota: Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede cambiar su nivel de acceso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
-&gt;  </tr> 
-&gt;  <tr data-mc-conditions=""> 
-&gt;   <td role="rowheader"> <p><strong>Permisos de objeto</strong> </p> </td> 
-&gt;   <td> <p>Permisos de visualización o superiores para un plan</p> <p>Para obtener información sobre la solicitud de acceso adicional a un plan, consulte <a href="../../../scenario-planner/request-access-to-plan.md" class="MCXref xref">Solicitud de acceso a un plan en el planificador de escenarios</a>.</p> </td> 
-&gt;  </tr> 
-&gt; </tbody> 
-&gt;</table>
-&gt;*Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su administrador de Workfront.
+>&gt; <col> 
+>&gt; <col> 
+>&gt; <tbody> 
+>&gt;  <tr> 
+>&gt;   <td role="rowheader"> <p><a href="https://business.adobe.com/products/workfront/pricing.html" target="_blank">Plan de Workfront</a>*</p> </td> 
+>&gt;   <td>Business o superior</td> 
+>&gt;  </tr> 
+>&gt;  <tr> 
+>&gt;   <td role="rowheader"> <p>Tipo de licencia*</p> </td> 
+>&gt;   <td> <p>Revisión o superior. Para obtener más información, consulte <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Información general sobre licencias de Adobe Workfront</a>.</p> </td> 
+>&gt;  </tr> 
+>&gt;  <tr> 
+>&gt;   <td role="rowheader">Producto</td> 
+>&gt;   <td>Planificador de escenarios de Workfront <p>Para obtener información sobre el planificador de escenarios de Workfront, consulte <a href="../../../scenario-planner/scenario-planner-overview.md" class="MCXref xref">Información general sobre el planificador de escenarios</a>.</p> </td> 
+>&gt;  </tr> 
+>&gt;  <tr data-mc-conditions=""> 
+>&gt;   <td role="rowheader"><strong>Nivel de acceso*</strong> </td> 
+>&gt;   <td> <p>Acceso de visualización o superior al planificador de escenarios</p> <p>Nota: Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede cambiar su nivel de acceso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
+>&gt;  </tr> 
+>&gt;  <tr data-mc-conditions=""> 
+>&gt;   <td role="rowheader"> <p><strong>Permisos de objeto</strong> </p> </td> 
+>&gt;   <td> <p>Permisos de visualización o superiores para un plan</p> <p>Para obtener información sobre la solicitud de acceso adicional a un plan, consulte <a href="../../../scenario-planner/request-access-to-plan.md" class="MCXref xref">Solicitud de acceso a un plan en el planificador de escenarios</a>.</p> </td> 
+>&gt;  </tr> 
+>&gt; </tbody> 
+>&gt;</table>
+>&gt;*Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su administrador de Workfront.
 
  
 

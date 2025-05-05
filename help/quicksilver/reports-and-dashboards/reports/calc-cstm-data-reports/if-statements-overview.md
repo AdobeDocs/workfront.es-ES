@@ -57,7 +57,7 @@ Puede crear instrucciones &quot;IF&quot; en Workfront con el siguiente formato:
 
 * **Operador de condición** = este es el operador que le ayuda a generar la condición de su instrucción &quot;IF&quot;. Por ejemplo, &quot;es igual a&quot; o &quot;es mayor que&quot; son operadores de condición. Para obtener una lista de los operadores de condición que se pueden usar en las instrucciones, vea [Operadores de condición en expresiones personalizadas calculadas](../../../reports-and-dashboards/reports/calc-cstm-data-reports/condition-operators-calculated-custom-expressions.md).
 
-* **True****Expression** = Es la variable &quot;True&quot;, que indica a la ecuación qué indicador mostrar una vez que se cumplen los criterios de la condición (indicadores true).
+* **True**&#x200B;**Expression** = Es la variable &quot;True&quot;, que indica a la ecuación qué indicador mostrar una vez que se cumplen los criterios de la condición (indicadores true).
 
 * **Expresión falsa** = Es la variable &quot;False&quot;, que indica a la ecuación qué indicador mostrar cuando no se cumplen los criterios de la condición (indicadores falsos).
 

@@ -74,7 +74,7 @@ Cuando alguien comparte una carpeta con usted, aparece en la barra lateral de su
 
 1. Haga clic en el vínculo que aparece en el correo electrónico de notificación que recibe.
 1. Iniciar sesión en [!DNL Workfront Proof].\
-     [!DNL  Workfront Proof] muestra la página de detalles de la carpeta. Para obtener más información, vea [Administrar carpetas y su contenido en [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders-and-contents.md).
+     [!DNL &#x200B; Workfront Proof] muestra la página de detalles de la carpeta. Para obtener más información, vea [Administrar carpetas y su contenido en [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders-and-contents.md).
 
 ## Acerca del uso compartido de subcarpetas
 
