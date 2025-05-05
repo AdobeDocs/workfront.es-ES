@@ -27,7 +27,7 @@ Para compartir más fácilmente el estado y el progreso de un proyecto, ahora pu
 
 Para obtener más información, consulte [Información general de las métricas del proyecto](../../../manage-work/projects/manage-projects/project-metrics.md).
 
-Esta característica ahora se incluye en la ruta de aprendizaje [Aspectos básicos del planificador para la nueva experiencia de Workfront, Parte 3: Administrar un proyecto](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) en Workfront One.
+Esta característica ahora se incluye en la ruta de aprendizaje [Aspectos básicos del planificador para la nueva experiencia de Workfront, Parte 3: Administrar un proyecto](https://experienceleague.adobe.com/es/docs/workfront-learn/tutorials-workfront/home) en Workfront One.
 
 ## Actualizar el porcentaje completado del problema cuando el proyecto o la tarea se convirtieron a partir de la actualización del problema
 
@@ -41,9 +41,9 @@ Para permitirle administrar sus Solicitudes enviadas de una manera más fácil y
 
 Para obtener información sobre cómo localizar las solicitudes enviadas, consulte [Localizar solicitudes enviadas](../../../manage-work/requests/create-requests/locate-submitted-requests.md).
 
-Esta característica ahora se incluye en [Aspectos básicos de colaborador para la nueva ruta de aprendizaje de Workfront Experience](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/manage-work/issues-requests/make-a-request) en Workfront One.
+Esta característica ahora se incluye en [Aspectos básicos de colaborador para la nueva ruta de aprendizaje de Workfront Experience](https://experienceleague.adobe.com/es/docs/workfront-learn/tutorials-workfront/manage-work/issues-requests/make-a-request) en Workfront One.
 
-Esta característica ahora se incluye en [Solicitudes en la nueva ruta de aprendizaje de la experiencia Workfront](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/manage-work/request-queues/understand-request-queues) en Workfront One.
+Esta característica ahora se incluye en [Solicitudes en la nueva ruta de aprendizaje de la experiencia Workfront](https://experienceleague.adobe.com/es/docs/workfront-learn/tutorials-workfront/manage-work/request-queues/understand-request-queues) en Workfront One.
 
 ## Campos eliminados de la página Nueva solicitud
 

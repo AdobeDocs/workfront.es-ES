@@ -27,7 +27,7 @@ Blueprints proporciona bloques de construcción básicos para ayudarle a crear u
 
 Para obtener más información, consulte [Información general sobre los modelos](../../../administration-and-setup/blueprints/blueprints-overview.md).
 
-Esta característica ahora se incluye en la ruta de aprendizaje [Plantillas de proyecto en la nueva experiencia de Workfront](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) en Workfront One.
+Esta característica ahora se incluye en la ruta de aprendizaje [Plantillas de proyecto en la nueva experiencia de Workfront](https://experienceleague.adobe.com/es/docs/workfront-learn/tutorials-workfront/home) en Workfront One.
 
 ## Novedad para los administradores de grupos: crear y editar estados para un grupo en cualquier nivel
 

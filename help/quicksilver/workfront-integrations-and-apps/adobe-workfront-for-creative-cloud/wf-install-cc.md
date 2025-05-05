@@ -57,7 +57,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> -->
   <tr> 
    <td role="rowheader">Producto</td> 
-   <td><p>Debe tener una licencia de [!DNL Adobe Creative Cloud] además de una licencia de [!DNL Workfront].</p><p>Para obtener más información, consulte <a href="https://helpx.adobe.com/support/programs/cc-support-policy.html#cce" class="MCXref xref" xrefformat="{para}">Política de soporte de Creative Cloud</a>.</p></td> 
+   <td><p>Debe tener una licencia de [!DNL Adobe Creative Cloud] además de una licencia de [!DNL Workfront].</p><p>Para obtener más información, consulte <a href="https://helpx.adobe.com/es/support/programs/cc-support-policy.html#cce" class="MCXref xref" xrefformat="{para}">Política de soporte de Creative Cloud</a>.</p></td> 
   </tr> 
  </tbody> 
 </table>

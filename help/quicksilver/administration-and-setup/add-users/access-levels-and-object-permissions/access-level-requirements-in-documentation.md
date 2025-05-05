@@ -96,7 +96,7 @@ Algunas filas contienen información con las etiquetas &quot;Nuevo&quot; y &quot
    <ul><li>Actual: El modelo de licencia actual se basa en el número de operaciones realizadas y no tiene limitaciones en las acciones que puede realizar una organización. </li>
    <li>Heredado: las licencias heredadas se basan en si los escenarios pueden conectarse a aplicaciones de terceros o si solo se utilizan para la automatización de Workfront. </li>
    </ul>
-   Para obtener información sobre las licencias de Fusion, consulte <a href="https://experienceleague.adobe.com/en/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration" class="MCXref xref">Licencias de Workfront Fusion</a>.
+   Para obtener información sobre las licencias de Fusion, consulte <a href="https://experienceleague.adobe.com/es/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration" class="MCXref xref">Licencias de Workfront Fusion</a>.
    </td> 
   </tr> 
  </tbody> 

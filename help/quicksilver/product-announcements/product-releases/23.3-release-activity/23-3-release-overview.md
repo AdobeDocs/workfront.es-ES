@@ -744,7 +744,7 @@ El seminario web de la versión 23.3 fue el 29 de junio de 2023. Puede [registra
 
 ### Mejoras de Workfront Fusion
 
-Las nuevas funciones de Workfront Fusion están disponibles en el entorno de producción en una cadencia distinta a la de la versión 23.3. Para obtener más información sobre las últimas funciones, consulte [Actividad de la versión de Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
+Las nuevas funciones de Workfront Fusion están disponibles en el entorno de producción en una cadencia distinta a la de la versión 23.3. Para obtener más información sobre las últimas funciones, consulte [Actividad de la versión de Adobe Workfront Fusion](https://experienceleague.adobe.com/es/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
 
 ### Mejoras en el Planificador de escenarios de Workfront
 
@@ -768,11 +768,11 @@ Para obtener información sobre las versiones de API, consulte [Versiones de la 
 
 ### Actualizaciones de mantenimiento de Workfront 
 
-Para obtener información acerca de las actualizaciones de mantenimiento realizadas durante la versión 22.3, consulte [Actualizaciones de mantenimiento de Workfront](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates).
+Para obtener información acerca de las actualizaciones de mantenimiento realizadas durante la versión 22.3, consulte [Actualizaciones de mantenimiento de Workfront](https://experienceleague.adobe.com/es/docs/workfront-known-issues/releases/current-updates).
 
 ### Actualizaciones de aprendizaje
 
-Explore las últimas actualizaciones realizadas en los programas de aprendizaje, rutas de aprendizaje, vídeos y guías de cada versión del producto de Adobe Workfront. Para obtener más información, consulte la sección “Novedades” de la [página de tutoriales de Workfront](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home).
+Explore las últimas actualizaciones realizadas en los programas de aprendizaje, rutas de aprendizaje, vídeos y guías de cada versión del producto de Adobe Workfront. Para obtener más información, consulte la sección “Novedades” de la [página de tutoriales de Workfront](https://experienceleague.adobe.com/es/docs/workfront-learn/tutorials-workfront/home).
 
 ### Funcionalidad que se eliminará pronto de Workfront
 

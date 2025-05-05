@@ -33,7 +33,7 @@ Anteriormente, era necesario ir al flujo de trabajo de detalles y revisión del 
 
 Para obtener más información acerca de las decisiones de revisión, consulte [El área Documentos](../../../documents/managing-documents/documents-area.md).
 
-Esta característica ahora se incluye en la ruta de aprendizaje [Administrar pruebas y versiones en la nueva experiencia de Workfront](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) en Workfront One.
+Esta característica ahora se incluye en la ruta de aprendizaje [Administrar pruebas y versiones en la nueva experiencia de Workfront](https://experienceleague.adobe.com/es/docs/workfront-learn/tutorials-workfront/home) en Workfront One.
 
 ## Nuevos campos en el informe de aprobación de revisión
 
@@ -45,7 +45,7 @@ Para facilitar la aparición de información útil sobre las revisiones, se han 
 
 Estos campos no forman parte del informe predeterminado. Es necesario añadirlos si desea verlos.
 
-Esta característica ahora se incluye en la ruta de aprendizaje [Configuración del sistema de revisión, Parte 2: Administración del flujo de trabajo](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) en Workfront One.
+Esta característica ahora se incluye en la ruta de aprendizaje [Configuración del sistema de revisión, Parte 2: Administración del flujo de trabajo](https://experienceleague.adobe.com/es/docs/workfront-learn/tutorials-workfront/home) en Workfront One.
 
 ## Arrastre el flujo de trabajo de pruebas existente al generar una nueva versión
 

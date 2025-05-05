@@ -47,7 +47,7 @@ Seguimos mejorando la forma en se que usa Workfront Goals en función de los com
 >
 >**Disponibilidad para producción:** con la versión 20.4
 
-Esta característica ahora se incluye en la [ruta de aprendizaje de Workfront Goals](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) en Workfront One.
+Esta característica ahora se incluye en la [ruta de aprendizaje de Workfront Goals](https://experienceleague.adobe.com/es/docs/workfront-learn/tutorials-workfront/home) en Workfront One.
 
 ## Controles de acceso para Workfront Goals
 
@@ -61,7 +61,7 @@ Para obtener información sobre la concesión de acceso a Workfront Goals, consu
 >
 >**Disponibilidad para producción:** con la versión 20.4
 
-Esta característica ahora se incluye en la [ruta de aprendizaje de Workfront Goals](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) en Workfront One.
+Esta característica ahora se incluye en la [ruta de aprendizaje de Workfront Goals](https://experienceleague.adobe.com/es/docs/workfront-learn/tutorials-workfront/home) en Workfront One.
 
 ## Mejoras de uso de Workfront Goals
 
@@ -82,4 +82,4 @@ Para obtener más información, consulte los siguientes artículos:
 >
 >**Disponibilidad para producción:** con la versión 20.4
 
-Esta característica ahora se incluye en la [ruta de aprendizaje deWorkfront Goals](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) en Workfront One.
+Esta característica ahora se incluye en la [ruta de aprendizaje deWorkfront Goals](https://experienceleague.adobe.com/es/docs/workfront-learn/tutorials-workfront/home) en Workfront One.

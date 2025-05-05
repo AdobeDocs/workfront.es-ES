@@ -40,7 +40,7 @@ Para obtener más información sobre los procesos de versiones trimestrales y r�
 
 ### Actualizaciones de mantenimiento
 
-Las correcciones de problemas del producto Adobe Workfront están disponibles en el entorno de producción cada semana. Consulte la página [Actualizaciones de mantenimiento de Workfront](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates) para ver qué se ha corregido recientemente.
+Las correcciones de problemas del producto Adobe Workfront están disponibles en el entorno de producción cada semana. Consulte la página [Actualizaciones de mantenimiento de Workfront](https://experienceleague.adobe.com/es/docs/workfront-known-issues/releases/current-updates) para ver qué se ha corregido recientemente.
 
 ## Funciones eliminadas de un lanzamiento programado
 

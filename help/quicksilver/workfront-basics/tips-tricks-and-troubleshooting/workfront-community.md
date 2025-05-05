@@ -53,7 +53,7 @@ Si no recuerda su contraseña para el sitio de la comunidad, comuníquese con [!
 
 ### ¿Cuál es la dirección URL de la comunidad [!DNL Workfront]?
 
-La comunidad [!DNL Workfront] está disponible en el sitio web [!DNL Adobe Experience League] en la siguiente URL: [[!DNL Workfront] Comunidad](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront).
+La comunidad [!DNL Workfront] está disponible en el sitio web [!DNL Adobe Experience League] en la siguiente URL: [[!DNL Workfront] Comunidad](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront?profile.language=es).
 
 ### ¿Cuál es mi subdominio? {#what-s-my-subdomain}
 

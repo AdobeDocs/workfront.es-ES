@@ -44,4 +44,4 @@ Para obtener más información sobre [!UICONTROL [!DNL Adobe Workfront] para los
 
 Los paquetes se crean mediante [!DNL Adobe Admin Console].
 
-Para obtener instrucciones sobre cómo crear estos paquetes, consulte [Paquetes administrados](https://helpx.adobe.com/enterprise/using/create-nul-packages.html#managed-packages) en la documentación de Adobe Admin Console.
+Para obtener instrucciones sobre cómo crear estos paquetes, consulte [Paquetes administrados](https://helpx.adobe.com/es/enterprise/using/create-nul-packages.html#managed-packages) en la documentación de Adobe Admin Console.

@@ -155,7 +155,7 @@ Antes de esta mejora, se cambiaba proporcionalmente el tamaño de la columna con
 
 Para obtener información sobre cómo cambiar el tamaño de las columnas que se están reorganizando en las listas, consulte [Modificar el ancho y el orden de las columnas](../../../../reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md).
 
-Para participar en nuestro programa de pruebas beta de las mejoras actuales de la lista, consulte [Nuevo estudio de listas.](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront) (se requiere inicio de sesión)
+Para participar en nuestro programa de pruebas beta de las mejoras actuales de la lista, consulte [Nuevo estudio de listas.](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront?profile.language=es) (se requiere inicio de sesión)
 
 ## Icono de compatibilidad con las nuevas listas de proyectos {#icon-support-for-the-new-project-lists}
 

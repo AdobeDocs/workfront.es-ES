@@ -413,7 +413,7 @@ For specific release dates and times for each cluster, see the [Adobe Workfront 
 
 ## Mejoras de Workfront Fusion
 
-Las nuevas funciones de Workfront Fusion están disponibles en el entorno de producción en una cadencia distinta a la de la programación de la versión 21.4. Para obtener más información sobre las últimas funciones, consulte [Actividad de la versión de Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
+Las nuevas funciones de Workfront Fusion están disponibles en el entorno de producción en una cadencia distinta a la de la programación de la versión 21.4. Para obtener más información sobre las últimas funciones, consulte [Actividad de la versión de Adobe Workfront Fusion](https://experienceleague.adobe.com/es/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
 
 ## Mejoras en el Planificador de escenarios de Workfront
 
@@ -465,7 +465,7 @@ El seminario web sobre la versión 21.4 de Workfront se presentó el viernes, 23
 
 ## Actualizaciones de aprendizaje
 
-Explore las últimas actualizaciones realizadas en los programas de aprendizaje, rutas de aprendizaje, vídeos y guías de cada versión del producto de Adobe Workfront. Para obtener más información, consulte la página [Actualizaciones de la versión de formación](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home).
+Explore las últimas actualizaciones realizadas en los programas de aprendizaje, rutas de aprendizaje, vídeos y guías de cada versión del producto de Adobe Workfront. Para obtener más información, consulte la página [Actualizaciones de la versión de formación](https://experienceleague.adobe.com/es/docs/workfront-learn/tutorials-workfront/home).
 
 ## Esta funcionalidad ya no es compatible
 

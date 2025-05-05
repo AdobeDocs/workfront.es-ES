@@ -138,5 +138,5 @@ Para obtener información acerca del uso de campos en listas e informes, consult
 
 Al descartar un borrador guardado, ahora puede hacer clic en Cancelar en el mensaje de confirmación que le informa de que se eliminará el borrador. De este modo, no perderá el borrador en caso de que cambie de opinión sobre su descarte.
 
-Esta función solo está disponible en la nueva experiencia de Workfront. Para obtener más información, consulte [Crear y enviar solicitudes de Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/home).
+Esta función solo está disponible en la nueva experiencia de Workfront. Para obtener más información, consulte [Crear y enviar solicitudes de Workfront](https://experienceleague.adobe.com/es/docs/workfront/using/home).
 

@@ -15,7 +15,7 @@ ht-degree: 99%
 
 # Información general de la versión 22.3
 
-Esta página proporciona información sobre la funcionalidad incluida en la versión 22.3. Todas las funciones enumeradas están disponibles en la nueva experiencia de Adobe Workfront. Algunas funciones también están disponibles en Adobe Workfront Classic; sin embargo, [Workfront Classic dejará de estar disponible en marzo de 2022](https://experienceleague.adobe.com/en/docs/workfront/using/home), y poco después, en julio de 2022, finalizará su vida útil.
+Esta página proporciona información sobre la funcionalidad incluida en la versión 22.3. Todas las funciones enumeradas están disponibles en la nueva experiencia de Adobe Workfront. Algunas funciones también están disponibles en Adobe Workfront Classic; sin embargo, [Workfront Classic dejará de estar disponible en marzo de 2022](https://experienceleague.adobe.com/es/docs/workfront/using/home), y poco después, en julio de 2022, finalizará su vida útil.
 
 Estas mejoras se incorporaron en el entorno de producción la semana del 11 de julio de 2022.
 
@@ -240,7 +240,7 @@ Estas mejoras se incorporaron en el entorno de producción la semana del 11 de j
     </ul> <p><strong>Disponible en estos entornos:</strong> </p> 
     <ul> 
      <li> <p>La nueva experiencia de Adobe Workfront </p> </li> 
-     <li> <p>Adobe Workfront Classic (<a href="https://experienceleague.adobe.com/en/docs/workfront/using/home" target="_blank">Workfront Classic dejó de usarse en marzo de 2022</a>, seguido poco después por la fecha de finalización de la vida útil de Workfront Classic en julio de 2022).</p> </li> 
+     <li> <p>Adobe Workfront Classic (<a href="https://experienceleague.adobe.com/es/docs/workfront/using/home" target="_blank">Workfront Classic dejó de usarse en marzo de 2022</a>, seguido poco después por la fecha de finalización de la vida útil de Workfront Classic en julio de 2022).</p> </li> 
     </ul> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -278,7 +278,7 @@ Estas mejoras se incorporaron en el entorno de producción la semana del 11 de j
     </ul> <p><strong>Disponible en estos entornos:</strong> </p> 
     <ul> 
      <li> <p>La nueva experiencia de Adobe Workfront </p> </li> 
-     <li> <p>Adobe Workfront Classic (<a href="https://experienceleague.adobe.com/en/docs/workfront/using/home" target="_blank">Workfront Classic dejó de usarse en marzo de 2022</a>, seguido poco después por la fecha de finalización de la vida útil de Workfront Classic en julio de 2022).</p> </li> 
+     <li> <p>Adobe Workfront Classic (<a href="https://experienceleague.adobe.com/es/docs/workfront/using/home" target="_blank">Workfront Classic dejó de usarse en marzo de 2022</a>, seguido poco después por la fecha de finalización de la vida útil de Workfront Classic en julio de 2022).</p> </li> 
     </ul> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -290,7 +290,7 @@ Estas mejoras se incorporaron en el entorno de producción la semana del 11 de j
     </ul> <p><strong>Disponible en estos entornos:</strong> </p> 
     <ul> 
      <li> <p>La nueva experiencia de Adobe Workfront </p> </li> 
-     <li> <p>Adobe Workfront Classic (<a href="https://experienceleague.adobe.com/en/docs/workfront/using/home" target="_blank">Workfront Classic dejará de usarse en marzo de 2022</a>, seguido poco después por la fecha de finalización de la vida útil de Workfront Classic en julio de 2022).</p> </li> 
+     <li> <p>Adobe Workfront Classic (<a href="https://experienceleague.adobe.com/es/docs/workfront/using/home" target="_blank">Workfront Classic dejará de usarse en marzo de 2022</a>, seguido poco después por la fecha de finalización de la vida útil de Workfront Classic en julio de 2022).</p> </li> 
     </ul> </td> 
   </tr> 
   <tr>
@@ -498,7 +498,7 @@ Las campañas se lanzaron a la versión beta en vista previa con la versión 22.
 
 ## Mejoras de Workfront Fusion
 
-Las nuevas funciones de Workfront Fusion están disponibles en el entorno de producción en una cadencia distinta a la de la versión 22.3. Para obtener más información sobre las últimas funciones, consulte [Actividad de la versión de Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
+Las nuevas funciones de Workfront Fusion están disponibles en el entorno de producción en una cadencia distinta a la de la versión 22.3. Para obtener más información sobre las últimas funciones, consulte [Actividad de la versión de Adobe Workfront Fusion](https://experienceleague.adobe.com/es/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
 
 ## Mejoras de WorkfrontScenario Planner
 
@@ -534,7 +534,7 @@ Para obtener información sobre las versiones de API, consulte [Versiones de API
 
 ## Actualizaciones de mantenimiento de Workfront 
 
-Para obtener información acerca de las actualizaciones de mantenimiento realizadas durante la versión 22.3, consulte [Actualizaciones de mantenimiento de Workfront](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates).
+Para obtener información acerca de las actualizaciones de mantenimiento realizadas durante la versión 22.3, consulte [Actualizaciones de mantenimiento de Workfront](https://experienceleague.adobe.com/es/docs/workfront-known-issues/releases/current-updates).
 
 ## Seminario web de la versión 22.3
 
@@ -565,7 +565,7 @@ was presented on January 12, 2022. You can view the webinar recording on the
 
 ## Actualizaciones de aprendizaje
 
-Explore las últimas actualizaciones realizadas en los programas de aprendizaje, rutas de aprendizaje, vídeos y guías de cada versión del producto de Adobe Workfront. Para obtener más información, consulte la página [Actualizaciones de la versión de formación](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home).
+Explore las últimas actualizaciones realizadas en los programas de aprendizaje, rutas de aprendizaje, vídeos y guías de cada versión del producto de Adobe Workfront. Para obtener más información, consulte la página [Actualizaciones de la versión de formación](https://experienceleague.adobe.com/es/docs/workfront-learn/tutorials-workfront/home).
 
 ## Esta funcionalidad ya no es compatible
 

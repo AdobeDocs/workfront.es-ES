@@ -43,6 +43,6 @@ Las barras de herramientas de las siguientes listas e informes ahora tienen una 
 
 >[!NOTE]
 >
->Este cambio se actualizó en Producción el 23 de mayo de 2022. Consulte la [Actualización de mantenimiento del 26 de mayo de 2022 para obtener más información](https://experienceleague.adobe.com/en/docs/workfront/using/home).
+>Este cambio se actualizó en Producción el 23 de mayo de 2022. Consulte la [Actualización de mantenimiento del 26 de mayo de 2022 para obtener más información](https://experienceleague.adobe.com/es/docs/workfront/using/home).
 
 Hemos actualizado los separadores de rutas de exploración en todas las áreas donde hay disponibles rutas de exploración. Ahora, los objetos de las rutas de exploración están separados por barras verticales (|). Antes de esta actualización, estaban separados por barras inclinadas (/).

@@ -298,7 +298,7 @@ La mayoría de las nuevas funciones se incluyen en la versión 20.4 de Workfront
 
 ## Mejoras de Workfront Fusion
 
-Las nuevas funciones de Workfront Fusion están disponibles en el entorno de producción en una cadencia distinta a la de la versión 20.4. Para obtener más información sobre las últimas funciones, consulte [Actividad de la versión de Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)
+Las nuevas funciones de Workfront Fusion están disponibles en el entorno de producción en una cadencia distinta a la de la versión 20.4. Para obtener más información sobre las últimas funciones, consulte [Actividad de la versión de Adobe Workfront Fusion](https://experienceleague.adobe.com/es/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)
 
 ## Mejoras de API
 
@@ -310,7 +310,7 @@ This section will be updated with more information prior to the 20.4 release bei
 </MadCap:conditionalText>
 -->
 
-Para obtener más información sobre novedades y actualizaciones, consulte [Novedades de la versión 12 de la API](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-api/api-notes/new-api-version-12).
+Para obtener más información sobre novedades y actualizaciones, consulte [Novedades de la versión 12 de la API](https://experienceleague.adobe.com/es/docs/workfront/using/adobe-workfront-api/api-notes/new-api-version-12).
 
 Para obtener más información sobre las versiones de API, consulte [Versiones de API y programación de soporte](../../../wf-api/api/api-version-support-schedule.md)
 
@@ -348,7 +348,7 @@ El seminario web sobre la versión 20.4 de Workfront se presentará el miércole
 
 A partir del 20 de mayo de 2020, Workfront empezó a ofrecer la funcionalidad en el entorno de vista previa de forma semanal. Antes de este cambio, la funcionalidad generalmente se publicaba en el entorno de vista previa cada dos semanas.
 
-Para obtener más información, consulte [Preguntas frecuentes sobre el cambio en la cadencia de la versión preliminar de Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/home)
+Para obtener más información, consulte [Preguntas frecuentes sobre el cambio en la cadencia de la versión preliminar de Workfront](https://experienceleague.adobe.com/es/docs/workfront/using/home)
 
 ### Lista de permitidos de dominios adicionales necesarios para acceder a Workfront {#allowlist-of-additional-domains-required-for-accessing-workfront}
 

@@ -23,4 +23,4 @@ Esta sección contiene los siguientes artículos:
 * [Iconos de estado integrados en las vistas](../../../reports-and-dashboards/reports/using-built-in-reports/built-in-status-icons-views.md)
 * [Uso de informes integrados de Adobe Workfront](../../../reports-and-dashboards/reports/using-built-in-reports/use-workfront-built-in-reports.md)
 * [Información general sobre el informe de utilización de recursos](../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md)
-* [Programa de creación de informes básicos para la nueva experiencia de Workfront](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home)
+* [Programa de creación de informes básicos para la nueva experiencia de Workfront](https://experienceleague.adobe.com/es/docs/workfront-learn/tutorials-workfront/home)

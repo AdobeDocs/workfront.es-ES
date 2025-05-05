@@ -30,8 +30,8 @@ Al eliminar un documento o una carpeta vinculados en Workfront, se desvinculan d
 
 Cuando se elimina un documento o una carpeta vinculados de la aplicación externa, el documento o la carpeta permanece en el sistema de Workfront hasta que también se elimina de Workfront.
 
-* Para eliminar un recurso de Adobe Experience Manager as a Cloud Service, consulte [Eliminar recursos](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets#delete-assets) en la documentación de Adobe Experience Manager as a Cloud Service.
-* Para eliminar un recurso de Adobe Experience Manager Assets Essentials, consulte [Eliminar recursos o carpetas](https://experienceleague.adobe.com/en/docs/experience-manager-assets-essentials/help/add-delete#delete-assets) en la documentación de Adobe Experience Manager Assets Essentials.
+* Para eliminar un recurso de Adobe Experience Manager as a Cloud Service, consulte [Eliminar recursos](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets#delete-assets) en la documentación de Adobe Experience Manager as a Cloud Service.
+* Para eliminar un recurso de Adobe Experience Manager Assets Essentials, consulte [Eliminar recursos o carpetas](https://experienceleague.adobe.com/es/docs/experience-manager-assets-essentials/help/add-delete#delete-assets) en la documentación de Adobe Experience Manager Assets Essentials.
 
 
 

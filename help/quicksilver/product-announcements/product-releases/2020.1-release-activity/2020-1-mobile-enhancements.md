@@ -25,7 +25,7 @@ Para obtener una lista de todos los cambios disponibles con la versión 2020.1, 
 
 Para que su experiencia sea más coherente al utilizar Workfront tanto en la aplicación móvil como en la web, cualquier personalización de la navegación secundaria del panel izquierdo en las plantillas de diseño nuevas o existentes se reflejará automáticamente en la aplicación móvil.
 
-Para obtener más información sobre cómo personalizar el panel izquierdo, consulte [Personalizar el panel izquierdo con una plantilla de diseño con la nueva experiencia de Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/home).
+Para obtener más información sobre cómo personalizar el panel izquierdo, consulte [Personalizar el panel izquierdo con una plantilla de diseño con la nueva experiencia de Workfront](https://experienceleague.adobe.com/es/docs/workfront/using/home).
 
 ## Expresar que le gustan las actualizaciones de la aplicación móvil
 

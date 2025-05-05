@@ -32,7 +32,7 @@ Las siguientes mejoras ya están disponibles con esta nueva función:
 
 Para obtener información sobre el esfuerzo laboral, consulte [Información general del esfuerzo laboral](../../../manage-work/tasks/task-information/work-effort.md).
 
-Esta característica ahora se incluye en la ruta de aprendizaje [Aspectos básicos del planificador, parte 2](https://experienceleague.adobe.com/en/docs/workfront/using/home) en Workfront One.
+Esta característica ahora se incluye en la ruta de aprendizaje [Aspectos básicos del planificador, parte 2](https://experienceleague.adobe.com/es/docs/workfront/using/home) en Workfront One.
 
 ## Colores basados en el estado del proyecto para elementos de trabajo en el Distribuidor de cargas de trabajo
 

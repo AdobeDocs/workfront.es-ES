@@ -29,4 +29,4 @@ Para permitirle ver la información que desea ver sin tener que aplicar filtros 
 
 Anteriormente, el área de Análisis mejorado limitaba la cantidad de proyectos que se podían ver a 50.
 
-Esta característica ahora se incluye en la ruta de aprendizaje [Enhanced Analytics, Part 1](https://experienceleague.adobe.com/en/docs/workfront/using/home) en Workfront One.
+Esta característica ahora se incluye en la ruta de aprendizaje [Enhanced Analytics, Part 1](https://experienceleague.adobe.com/es/docs/workfront/using/home) en Workfront One.

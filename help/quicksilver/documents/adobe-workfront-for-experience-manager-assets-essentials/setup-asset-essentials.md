@@ -111,7 +111,7 @@ Asigne datos de objeto de Workfront a los campos de medios de recursos en Experi
 
 Antes de empezar, debe
 
-* Configure un esquema de metadatos en Experience Manager Assets Essentials como se explica en [Configurar la asignación de metadatos de recursos entre Adobe Workfront y Experience Manager Assets](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
+* Configure un esquema de metadatos en Experience Manager Assets Essentials como se explica en [Configurar la asignación de metadatos de recursos entre Adobe Workfront y Experience Manager Assets](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
 * (Opcional) Configure campos de formulario personalizados en Workfront. Workfront tiene muchos campos personalizados integrados que puede utilizar. Sin embargo, también puede crear sus propios campos personalizados. Para obtener más información, consulte [Crear un formulario personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ## Campos compatibles de Workfront y Experience Manager Assets
@@ -126,7 +126,7 @@ Para asignar varios campos de texto de una sola línea a palabras clave, introdu
 
 <!--
 Look for essentials article
-For more information on keywords in Experience Manager Assets, including how to create and manage keywords, see [Administering Tags]( https://experienceleague.adobe.com/docs/experience-manager-64/administering/contentmanagement/tags.html?lang=en).
+For more information on keywords in Experience Manager Assets, including how to create and manage keywords, see [Administering Tags]( https://experienceleague.adobe.com/docs/experience-manager-64/administering/contentmanagement/tags.html?lang=es).
 -->
 
 

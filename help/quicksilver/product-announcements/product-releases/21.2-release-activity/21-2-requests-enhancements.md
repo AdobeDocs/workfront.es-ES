@@ -50,7 +50,7 @@ A medida que incorporamos sus comentarios sobre la creación de solicitudes en l
 
 Para obtener información sobre cómo crear nuevas solicitudes, consulte [Crear y enviar solicitudes de Adobe Workfront](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md).
 
-Esta característica ahora se incluye en [Aspectos básicos de colaborador para la nueva ruta de aprendizaje de Workfront Experience](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/manage-work/issues-requests/make-a-request) en Workfront One.
+Esta característica ahora se incluye en [Aspectos básicos de colaborador para la nueva ruta de aprendizaje de Workfront Experience](https://experienceleague.adobe.com/es/docs/workfront-learn/tutorials-workfront/manage-work/issues-requests/make-a-request) en Workfront One.
 
 ## Mejoras en el flujo de trabajo de solicitudes
 
@@ -64,7 +64,7 @@ A medida que escuchamos e incorporamos sus comentarios, hemos añadido varias me
 * Ahora, al salir de la página, se conserva la ordenación de la lista de solicitudes enviadas por una de las columnas. Para obtener más información, consulte [Localizar solicitudes enviadas](../../../manage-work/requests/create-requests/locate-submitted-requests.md).
 * Al crear una nueva solicitud, los botones Enviar y Cancelar ahora se encuentran en la parte inferior del formulario Nueva solicitud. Para obtener más información, consulte [Crear y enviar solicitudes de Workfront](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md).
 
-Esta característica ahora se incluye en [Aspectos básicos de colaborador para la nueva ruta de aprendizaje de Workfront Experience](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/manage-work/issues-requests/make-a-request) en Workfront One.
+Esta característica ahora se incluye en [Aspectos básicos de colaborador para la nueva ruta de aprendizaje de Workfront Experience](https://experienceleague.adobe.com/es/docs/workfront-learn/tutorials-workfront/manage-work/issues-requests/make-a-request) en Workfront One.
 
 ## Abra el Panel de resumen en la sección Enviado del área Solicitudes
 
@@ -76,7 +76,7 @@ Para que su experiencia sea coherente en todas las áreas de Adobe Workfront, he
 
 Para obtener información sobre las solicitudes enviadas, consulte [Localizar solicitudes enviadas](../../../manage-work/requests/create-requests/locate-submitted-requests.md).
 
-Esta característica ahora se incluye en [Aspectos básicos de colaborador para la nueva ruta de aprendizaje de Workfront Experience](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/manage-work/issues-requests/make-a-request) en Workfront One.
+Esta característica ahora se incluye en [Aspectos básicos de colaborador para la nueva ruta de aprendizaje de Workfront Experience](https://experienceleague.adobe.com/es/docs/workfront-learn/tutorials-workfront/manage-work/issues-requests/make-a-request) en Workfront One.
 
 ## Devolver los campos de nuevos problemas eliminados en un formulario de nueva solicitud
 
@@ -104,7 +104,7 @@ Posibilidad de compartir un vínculo a la cola de solicitudes, al grupo de temas
 
 Para obtener información sobre cómo enviar solicitudes, consulte [Crear y enviar solicitudes de Workfront](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md).
 
-Esta característica ahora se incluye en [Aspectos básicos de colaborador para la nueva ruta de aprendizaje de Workfront Experience](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/manage-work/issues-requests/make-a-request) en Workfront One.
+Esta característica ahora se incluye en [Aspectos básicos de colaborador para la nueva ruta de aprendizaje de Workfront Experience](https://experienceleague.adobe.com/es/docs/workfront-learn/tutorials-workfront/manage-work/issues-requests/make-a-request) en Workfront One.
 
 ## Compartir un vínculo a una cola de solicitudes al enviar una solicitud
 
@@ -118,4 +118,4 @@ Antes de enviar una nueva solicitud, puede copiar un vínculo a la cola de solic
 
 Para obtener información sobre cómo compartir un vínculo a una cola de solicitudes al enviar una solicitud, consulte [Compartir un vínculo a una cola de solicitudes](../../../manage-work/requests/create-requests/share-link-to-request-queue.md).
 
-Esta característica ahora se incluye en [Aspectos básicos de colaborador para la nueva ruta de aprendizaje de Workfront Experience](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/manage-work/issues-requests/make-a-request) en Workfront One.
+Esta característica ahora se incluye en [Aspectos básicos de colaborador para la nueva ruta de aprendizaje de Workfront Experience](https://experienceleague.adobe.com/es/docs/workfront-learn/tutorials-workfront/manage-work/issues-requests/make-a-request) en Workfront One.

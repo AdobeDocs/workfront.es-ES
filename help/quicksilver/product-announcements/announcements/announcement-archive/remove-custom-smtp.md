@@ -25,4 +25,4 @@ La opción resaltada en esta captura de pantalla cambiará automáticamente para
 
 Si tiene configurado un servidor SMTP de correo electrónico personalizado, **le recomendamos encarecidamente que se ponga en contacto con su equipo de TI** para asegurarse de que los correos electrónicos de notifications@my.workfront.com no son bloqueados al entrar en su sistema. También puede consultar Configurar el cortafuegos para obtener más información sobre las direcciones IP de las que proceden nuestro tráfico y correo electrónico.
 
-Si tiene alguna pregunta o inquietud, contacte con el [Equipo de Soporte de Workfront](https://experienceleague.adobe.com/?support-tab=home#support).
+Si tiene alguna pregunta o inquietud, contacte con el [Equipo de Soporte de Workfront](https://experienceleague.adobe.com/es?support-tab=home#support).

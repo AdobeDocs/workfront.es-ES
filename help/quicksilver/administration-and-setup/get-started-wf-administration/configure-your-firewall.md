@@ -23,7 +23,7 @@ ht-degree: 15%
 >
 >El procedimiento descrito en esta página se aplica solo a las organizaciones que aún no se han incorporado a Admin Console. Si su organización se ha incorporado a Adobe Admin Console, debe llevar a cabo esta acción mediante Adobe Admin Console.
 >
->Para configurar la lista de permitidos si su organización se ha incorporado a Adobe Admin Console, consulte [Dominios permitidos para aplicaciones y servicios de Adobe](https://helpx.adobe.com/enterprise/kb/network-endpoints.html).
+>Para configurar la lista de permitidos si su organización se ha incorporado a Adobe Admin Console, consulte [Dominios permitidos para aplicaciones y servicios de Adobe](https://helpx.adobe.com/es/enterprise/kb/network-endpoints.html).
 >
 >Para obtener una lista de procedimientos que difieren según si su organización se ha incorporado a Adobe Admin Console, consulte [Diferencias de administración basadas en la plataforma (Adobe Workfront/Adobe Business Platform)](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 

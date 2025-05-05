@@ -55,7 +55,7 @@ Las barras de herramientas de las siguientes listas e informes ahora tienen una 
 
 >[!NOTE]
 >
->La barra de herramientas para estos mismos informes dentro de los paneles de control también se actualizó en Producción con la [actualización de mantenimiento](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates) semanal el 3 de marzo de 2022.
+>La barra de herramientas para estos mismos informes dentro de los paneles de control también se actualizó en Producción con la [actualización de mantenimiento](https://experienceleague.adobe.com/es/docs/workfront-known-issues/releases/current-updates) semanal el 3 de marzo de 2022.
 
 * Informes de proyecto
 * Informes de tarea

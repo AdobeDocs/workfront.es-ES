@@ -34,7 +34,7 @@ Los análisis mejorados pueden ayudarle a identificar lo siguiente:
 
 ![Análisis](assets/nwe-full-screen-analytics-350x222.png)
 
-Para ver casos de uso o obtener más información sobre la administración del trabajo actual y la planificación del trabajo futuro con el análisis mejorado, consulte [Rutas de aprendizaje de análisis mejorado](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home).
+Para ver casos de uso o obtener más información sobre la administración del trabajo actual y la planificación del trabajo futuro con el análisis mejorado, consulte [Rutas de aprendizaje de análisis mejorado](https://experienceleague.adobe.com/es/docs/workfront-learn/tutorials-workfront/home).
 
 ## Requisitos previos
 
@@ -46,7 +46,7 @@ Para acceder al área de Análisis mejorado, debe:
 
 * Pida al administrador de Workfront que añada análisis mejorados a la plantilla de diseño.
 
-  Para obtener más información, consulte [Análisis mejorado: agregar análisis a plantillas de diseño](https://experienceleague.adobe.com/en/docs/workfront/using/home).
+  Para obtener más información, consulte [Análisis mejorado: agregar análisis a plantillas de diseño](https://experienceleague.adobe.com/es/docs/workfront/using/home).
 
 Para ver información de proyectos y tareas, debe:
 

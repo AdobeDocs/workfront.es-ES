@@ -93,7 +93,7 @@ Actualmente, Workfront Fusion solo admite el inglés.
 * Workfront Fusion no admite el uso de caracteres de texto que no estén en inglés en los campos introducidos por el usuario.
 
 Su compañía debe adquirir una licencia de Workfront Fusion para poder acceder a Workfront Fusion.\
-Para obtener más información sobre Workfront Fusion, consulte [Información general de Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+Para obtener más información sobre Workfront Fusion, consulte [Información general de Adobe Workfront Fusion](https://experienceleague.adobe.com/es/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 
 ## Cambiar el idioma
 

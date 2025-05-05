@@ -35,7 +35,7 @@ Una vez que los administradores de proyecto hayan planificado el trabajo en los 
 
 Este artículo describe el propósito general del Distribuidor de cargas de trabajo y algunas de las prácticas recomendadas sobre cómo puede configurar sus proyectos y recursos para utilizarlo correctamente.
 
-Para revisar los tutoriales en vídeo del Distribuidor de cargas de trabajo, vaya a la página [Tutorials de Workfront](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home). En el menú de la izquierda, seleccione **Administrar recursos** > **Distribuidor de cargas de trabajo** y elija un tutorial.
+Para revisar los tutoriales en vídeo del Distribuidor de cargas de trabajo, vaya a la página [Tutorials de Workfront](https://experienceleague.adobe.com/es/docs/workfront-learn/tutorials-workfront/home). En el menú de la izquierda, seleccione **Administrar recursos** > **Distribuidor de cargas de trabajo** y elija un tutorial.
 
 ## Buscar el Distribuidor de cargas de trabajo
 

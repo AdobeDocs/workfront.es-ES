@@ -47,7 +47,7 @@ Para obtener más información, consulte [Permitir que los usuarios envíen un p
 
 Para obtener más información sobre el motivo por el que realizamos este cambio, consulte [Nuevo sistema administrado por Adobe Workfront para reemplazar el correo electrónico POP en las colas de solicitudes con 21.1](../../../product-announcements/announcements/announcement-archive/pop-removal-request-queue.md).
 
-Esta característica ahora se incluye en la ruta de aprendizaje [Administración de colas en la nueva experiencia de Workfront](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) en Workfront One.
+Esta característica ahora se incluye en la ruta de aprendizaje [Administración de colas en la nueva experiencia de Workfront](https://experienceleague.adobe.com/es/docs/workfront-learn/tutorials-workfront/home) en Workfront One.
 
 ## Restricción de la edición de horas en las plantillas de horas
 

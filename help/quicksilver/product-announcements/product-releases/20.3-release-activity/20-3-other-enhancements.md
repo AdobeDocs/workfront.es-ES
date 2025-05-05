@@ -72,7 +72,7 @@ Para ayudarle a visualizar y administrar mejor su trabajo diario con los calenda
 
 Anteriormente, el calendario solo se podía administrar con fechas proyectadas y planificadas cuando las fechas reales no estaban disponibles.
 
-Para obtener más información, consulte [Usar campos de fecha personalizados en un informe de calendario](../../../reports-and-dashboards/reports/calendars/use-custom-dates.md) (o si usa Workfront Classic, vea [Usar campos de fecha personalizados en un informe de calendario](https://experienceleague.adobe.com/en/docs/workfront/using/home)).
+Para obtener más información, consulte [Usar campos de fecha personalizados en un informe de calendario](../../../reports-and-dashboards/reports/calendars/use-custom-dates.md) (o si usa Workfront Classic, vea [Usar campos de fecha personalizados en un informe de calendario](https://experienceleague.adobe.com/es/docs/workfront/using/home)).
 
 ## Cambios de correo electrónico
 
@@ -82,7 +82,7 @@ Anteriormente, los administradores del sistema podían agregar una dirección de
 
 **Cambios en la respuesta POP de correo electrónico entrante:** Los administradores del sistema ya no podrán configurar un servidor de correo electrónico POP personalizado para las respuestas de correo electrónico entrantes a las notificaciones.
 
-Para obtener más información, consulte [suplantación de correo electrónico y cambios en el correo electrónico de respuesta POP](https://experienceleague.adobe.com/en/docs/workfront/using/home).
+Para obtener más información, consulte [suplantación de correo electrónico y cambios en el correo electrónico de respuesta POP](https://experienceleague.adobe.com/es/docs/workfront/using/home).
 
 ## DomainKeys Identified Mail (DKIM) ahora se incluye en los correos electrónicos salientes de Workfront
 

@@ -27,7 +27,7 @@ En la nueva experiencia de Workfront, la opción Cambiar a Classic aparece en el
 
 En Workfront Classic, la opción Cambiar a la nueva experiencia aparece en el menú que se muestra al hacer clic en la imagen de perfil de la esquina superior derecha de la barra de navegación global.
 
-Esta característica ahora se incluye en la [ruta de aprendizaje Aspectos básicos del administrador, parte 1](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) en Workfront One.
+Esta característica ahora se incluye en la [ruta de aprendizaje Aspectos básicos del administrador, parte 1](https://experienceleague.adobe.com/es/docs/workfront-learn/tutorials-workfront/home) en Workfront One.
 
 ## Cifrado mejorado para Workfront Proof
 
@@ -62,7 +62,7 @@ Además, observe que con nuestro moderno estilo ahora ha mejorado la experiencia
 
 Para obtener información sobre la configuración de notificaciones por correo electrónico, consulte [Configurar notificaciones de los eventos para todos los usuarios del sistema](../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
 
-Esta característica ahora se incluye en la [ruta de aprendizaje Notificaciones por correo electrónico y en la aplicación](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) en Workfront One.
+Esta característica ahora se incluye en la [ruta de aprendizaje Notificaciones por correo electrónico y en la aplicación](https://experienceleague.adobe.com/es/docs/workfront-learn/tutorials-workfront/home) en Workfront One.
 
 ## Nuevos objetos de API que activan actualizaciones de suscripción a eventos
 

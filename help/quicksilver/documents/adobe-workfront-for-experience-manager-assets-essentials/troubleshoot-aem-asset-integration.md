@@ -27,5 +27,5 @@ Esto puede ocurrir debido a la lista de permitidos de Adobe Cloud Manager. Si la
 
 Añada las direcciones IP de Workfront a la lista de permitidos de Adobe Cloud Manager.
 
-* Para obtener instrucciones sobre cómo añadir direcciones IP a Adobe Cloud Manager, consulte [Introducción a las listas de permitidos de IP](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/ip-allow-lists/introduction) en la documentación de Adobe Experience Manager.
+* Para obtener instrucciones sobre cómo añadir direcciones IP a Adobe Cloud Manager, consulte [Introducción a las listas de permitidos de IP](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/ip-allow-lists/introduction) en la documentación de Adobe Experience Manager.
 * Para obtener una lista de direcciones IP de Workfront que añadir a la lista de permitidos, consulte [Configurar el cortafuegos](/help/quicksilver/administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
