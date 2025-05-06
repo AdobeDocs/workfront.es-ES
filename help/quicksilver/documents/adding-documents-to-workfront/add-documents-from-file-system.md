@@ -6,9 +6,9 @@ description: Puede agregar documentos a proyectos, tareas o problemas en varias 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 0a5f82b2-f86e-4ffa-b3a6-18221dd0e158
-source-git-commit: 85a2f154b3b561cdf53c68d50e66b8945f9f9823
+source-git-commit: a69193eb7a98949222f71561b44d8fecea4dd496
 workflow-type: tm+mt
-source-wordcount: '769'
+source-wordcount: '763'
 ht-degree: 18%
 
 ---
@@ -123,7 +123,7 @@ La digitalización de documentos solo está habilitada para su organización si 
 
 Si la digitalización de documentos está habilitada, los archivos de menos de 25 MB se analizan cuando se cargan. Los archivos de más de 25 MB no se analizan.
 
-Si Workfront detecta un documento dañado, Workfront interrumpe el proceso de carga y aparece un mensaje que indica que el archivo está dañado. También recibe una notificación por correo electrónico cuando Workfront detecta contenido potencialmente malicioso y el archivo está programado para su eliminación.
+Si Workfront detecta un documento dañado, aparecerá un mensaje que indica que el archivo está dañado. También recibe una notificación por correo electrónico cuando Workfront detecta contenido potencialmente malicioso y el archivo está programado para su eliminación.
 
 Los archivos dañados se eliminan en un plazo de 24 horas tras la detección, a menos que los elimine manualmente. Si elimina un archivo dañado, Workfront realiza el seguimiento de esta acción como una actualización. Si permite que Workfront lo elimine, no se registrará ninguna actualización.
 
