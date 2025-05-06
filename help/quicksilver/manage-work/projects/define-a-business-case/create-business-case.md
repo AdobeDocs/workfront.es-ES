@@ -5,7 +5,7 @@ description: Puede utilizar el caso empresarial para solicitar un proyecto y def
 author: Alina
 feature: Work Management
 exl-id: db69b3bf-04e3-49b4-ae0d-ab6145389db5
-source-git-commit: fedb0328450896d212081715df4cde7644b169bc
+source-git-commit: 3827e834a71084f14a99cb27aadefd97327b02d7
 workflow-type: tm+mt
 source-wordcount: '846'
 ht-degree: 68%
@@ -40,7 +40,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Administrar permisos superiores en el proyecto</p> <p>Para obtener información sobre cómo solicitar acceso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a los objetos </a>.</p> </td> 
+   <td> <p>Administrar permisos superiores en el proyecto</p> <p>Para obtener información sobre cómo solicitar acceso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -66,41 +66,41 @@ Tenga en cuenta lo siguiente al solicitar un proyecto a través de un caso empre
 
 {{step1-to-projects}}
 
-1. Click **New Project**, then select **Request Project** from the drop-down that appears. The project is created and the **Idea** status is assigned by default.
+1. Haga clic en **Nuevo proyecto** y, a continuación, seleccione **Solicitar proyecto** en la lista desplegable que aparece. El proyecto se crea y el estado **Idea** se asigna de manera predeterminada.
 
    >[!CAUTION]
    >
    >Si el estado de Idea se ha eliminado en la instancia de Workfront, el proyecto se coloca en el estado predeterminado para nuevos proyectos, tal como se define en el área Preferencias del proyecto. Para obtener información sobre cómo configurar las preferencias del proyecto, consulte [Configurar las preferencias del proyecto de todo el sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
-1. Enter a name in the project title field.
-1. (Optional) Click the **More** icon ![More icon](assets/qs-more-icon-on-an-object.png), then **Attach Template** to create the Work Breakdown Structure of your project.
+1. Escriba un nombre en el campo Título del proyecto.
+1. (Opcional) Haga clic en el icono **Más** ![Icono de más](assets/qs-more-icon-on-an-object.png) y, a continuación, **Adjuntar plantilla** para crear la estructura de desglose de trabajo de su proyecto.
 
    O
 
    Empiece a añadir tareas al proyecto manualmente.
 
-1. (Conditional) If you selected to attach a template, continue attaching the template to the project.
-1. In the left panel, click **Business Case**.
-1. (Optional) To edit the **Project Info** section, click **Edit Project Info**. 
+1. (Condicional) Si ha seleccionado adjuntar una plantilla, continúe adjuntándola al proyecto.
+1. En el panel izquierdo, haga clic en **Caso comercial**.
+1. (Opcional) Para editar la sección **Información del proyecto**, haga clic en **Editar información del proyecto**. 
 
-   For more information about editing the **Project Info** section fields, see the section [Project Info](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md#project-info) in the article [Overview of the Areas of the Business Case](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md).
+   Para obtener más información sobre cómo editar los campos de sección **Información del proyecto**, consulte la sección [Información del proyecto](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md#project-info) en el artículo [Información general sobre las áreas del caso empresarial](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md).
 
-1. (Optional) To edit the **Goals** section, click **Edit Goals**.
+1. (Opcional) Para editar la sección **Metas**, haga clic en **Editar metas**.
 
-   For more information about editing the **Goals** section of the Business Case, see the section [Goals](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md#goals) in the article [Overview of the Areas of the Business Case](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md).
+   Para obtener más información acerca de cómo editar la sección **Goals** del caso comercial, vea la sección [Goals](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md#goals) en el artículo [Overview of the Areas of the Business Case](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md).
 
-1. (Optional) To edit the **Expenses** section, click **Edit Expenses**.
+1. (Opcional) Para editar la sección **Gastos**, haga clic en **Editar gastos**.
 
-   For more information about editing the **Expenses** section of the Business Case, see the section [Expenses](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md#expenses) in the article [Overview of the Areas of the Business Case](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md).
+   Para obtener más información sobre cómo editar la sección **Gastos** del caso comercial, consulte la sección [Gastos](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md#expenses) en el artículo [Información general sobre las áreas del caso comercial](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md).
 
-1. (Optional) Click **Edit Resource Budgeting** to budget your resources and obtain the Budgeted Labor Cost associated with the job roles on the project. Para obtener más información, consulte [Recursos de presupuesto en el caso empresarial](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md).
+1. (Opcional) Haga clic en **Editar presupuesto de recursos** para presupuestar sus recursos y obtener el costo de mano de obra presupuestado asociado con los roles del proyecto. Para obtener más información, consulte [Recursos de presupuesto en el caso empresarial](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md).
 
    >[!TIP]
    >
    >La información que se muestra aquí es la misma que la que aparece en las herramientas de presupuestación de recursos en el sistema.
 
 1. (Opcional) Haga clic en **Editar riesgos** para añadir posibles riesgos a este proyecto. Para obtener información acerca de cómo añadir riesgos al caso empresarial, vea la sección [Riesgos](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md#risks) en el artículo [Información general sobre las áreas del caso empresarial](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md).
-1. (Optional) Select a **Scorecard** in the **Add a Scorecard to this Project** drop-down menu.
+1. (Opcional) Seleccione un **informe de valoración** en el menú desplegable **Agregar un informe de valoración a este proyecto**.
 
    Se deben crear cuadros de resultados para poder adjuntarlos a los proyectos.
 
@@ -110,15 +110,15 @@ Tenga en cuenta lo siguiente al solicitar un proyecto a través de un caso empre
 
    Se deben crear formularios personalizados para poder adjuntarlos a los proyectos.
 
-   For more information about Custom Forms, see the article [Create a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+   Para obtener más información acerca de Forms personalizado, vea el artículo [Crear un formulario personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
-1. Click **Submit**. El estado del proyecto se cambió a **Solicitado** y se envía para que se apruebe el caso empresarial.
+1. Haga clic en **Enviar**. El estado del proyecto se cambió a **Solicitado** y se envía para que se apruebe el caso empresarial.
 
    Para obtener más información acerca de cómo aprobar un caso empresarial, vea el artículo [Aprobar un caso empresarial](../../../manage-work/projects/define-a-business-case/approve-business-case.md).
 
 
 >[!TIP]
 >
-> After completing the Business Case, you can export a copy of it to a .pdf file. For more information about exporting the Business Case to a .pdf file, see [Export the Business Case of a project](/help/quicksilver/manage-work/projects/define-a-business-case/export-business-case.md).
+> Después de completar el caso empresarial, puede exportar una copia a un archivo .pdf. Para obtener más información sobre cómo exportar el caso empresarial a un archivo .pdf, vea [Exportar el caso empresarial de un proyecto](/help/quicksilver/manage-work/projects/define-a-business-case/export-business-case.md).
 
 

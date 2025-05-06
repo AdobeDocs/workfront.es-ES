@@ -3,30 +3,32 @@ content-type: overview
 product-area: projects
 navigation-topic: task-information
 title: Ver horas reales
-description: Las horas que inicie sesión en los elementos de trabajo en Adobe Workfront se consideran horas reales.
+description: Las horas que registre en sus elementos de trabajo en Adobe Workfront se consideran horas reales.
 author: Alina
 feature: Work Management
 exl-id: c4b0e431-1765-416d-89f5-6ac663ac1d4f
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 3827e834a71084f14a99cb27aadefd97327b02d7
 workflow-type: tm+mt
-source-wordcount: '796'
-ht-degree: 0%
+source-wordcount: '759'
+ht-degree: 64%
 
 ---
 
 # Ver horas reales
 
-Las horas que inicie sesión en los elementos de trabajo en Adobe Workfront se consideran horas reales.
+<!-- Audited: 5/2025 -->
+
+Las horas que registre en sus elementos de trabajo en Adobe Workfront se consideran horas reales.
 
 Las horas reales representan el tiempo real que tardó en completar una tarea, un problema o un proyecto.
 
-Se recomienda registrar las horas en los elementos de trabajo, que son tareas y problemas.
+Se recomienda registrar las horas en los elementos de trabajo, que son tareas y problemas. Sin embargo, como administrador de Workfront, puede permitir que los usuarios también registren tiempo en los proyectos según los flujos de trabajo de su organización.
 
-Sin embargo, como administrador de Workfront, también puede permitir que los usuarios registren tiempo en los proyectos, según los flujos de trabajo de su organización.
-
-Para obtener más información sobre cómo configurar el sistema para que los usuarios puedan registrar tiempo en los proyectos, consulte [Configurar las preferencias de horas y hojas de horas](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+Para obtener más información sobre cómo permitir que los usuarios registren tiempo en los proyectos, consulte [Configurar preferencias de plantilla de horas y de horas](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
 ## Requisitos de acceso
+
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
 Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
@@ -35,33 +37,36 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plan Adobe Workfront*</td> 
+   <td role="rowheader">Plan de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licencia de Adobe Workfront*</td> 
-   <td> <p>Trabajo o superior</p> </td> 
+   <td role="rowheader">Licencia de Adobe Workfront</td> 
+   <td> 
+   <p>Nuevo: estándar<p>
+   <p>O</p>
+   <p>Actual: Trabajo o superior</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraciones de nivel de acceso*</td> 
-   <td> <p>Ver o aumentar el acceso a Tareas, Proyectos o Problemas</p> <p>Nota: Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, vea <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
+   <td role="rowheader">Configuraciones de nivel de acceso</td> 
+   <td> <p>Acceso de visualización o superior a tareas, proyectos o problemas</p> <p>Nota: Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Ver o aumentar los permisos de una tarea, un proyecto o un problema</p> <p>Para obtener información sobre cómo solicitar acceso adicional, vea <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a los objetos </a>.</p> </td> 
+   <td> <p>Permisos de visualización o superiores a una tarea, proyecto o problema</p> <p>Para obtener información sobre cómo solicitar acceso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de Workfront.
+Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-## Horas reales en tareas y problemas vs. Horas reales en proyectos
++++
 
-Las Horas reales en tareas y problemas representan el número de horas registradas directamente en las tareas y problemas.
+## Horas reales en tareas y problemas frente a horas reales en proyectos
 
->[!NOTE]
->
->Horas reales de tareas secundarias acumuladas a las horas reales de la tarea principal. La siguiente fórmula se aplica a las horas reales de una tarea principal:
+Las horas reales en tareas y problemas representan el número de horas registradas directamente en las tareas y problemas.
+
+Las horas reales de las tareas secundarias se transfieren a las horas reales de la tarea principal. La siguiente fórmula se aplica a las horas reales de una tarea principal:
 
 ```
 Parent Task Actual Hours = All Tasks Actual Hours + Parent Task Actual Hours
@@ -77,9 +82,9 @@ Project Actual Hours = All Tasks Actual Hours + All Issues Actual Hours + All Pr
 
 ## Buscar horas reales
 
-Encontrar el valor de Horas reales para un elemento es idéntico para tareas, proyectos y problemas.
+Encontrar el valor de las horas reales para un elemento es idéntico para tareas, proyectos y problemas.
 
-Puede encontrar la información de Horas reales sobre las tareas en las siguientes ubicaciones:
+Puede encontrar la información de las horas reales sobre las tareas en las siguientes ubicaciones:
 
 * [Horas reales en la sección Detalles](#actual-hours-in-the-details-section)
 * [Horas reales en la sección Horas](#actual-hours-in-the-hours-section)
@@ -88,63 +93,55 @@ Puede encontrar la información de Horas reales sobre las tareas en las siguient
 
 ### Horas reales en la sección Detalles {#actual-hours-in-the-details-section}
 
-Buscar horas reales en la sección Detalles es idéntico en proyectos, tareas y problemas.
+Buscar las horas reales en la sección Detalles es idéntico para proyectos, tareas y problemas.
 
 Para localizar las horas reales en los detalles de la tarea:
 
 1. Vaya a una tarea para la que desee revisar las horas reales.
-1. Haga clic en **Detalles de la tarea** en el panel izquierdo.
-1. Haga clic en **Información general** y observe el valor de **Horas reales**.
-
-   Este es el total de horas registradas en esta tarea.
+1. En el panel izquierdo, haga clic en **Detalles de la tarea**. Se muestra la sección **Información general**.
+1. Busque el valor **Horas reales** en la sección **Tiempo de trabajo**. Este es el total de horas registradas en esta tarea.
 
 ### Horas reales en la sección Horas {#actual-hours-in-the-hours-section}
 
-Buscar horas reales en la sección Horas es idéntico para proyectos, tareas y problemas.
+Buscar las horas reales en la sección Horas es idéntico para proyectos, tareas y problemas.
 
-Para localizar las horas reales en la sección Horas
+Para localizar las horas reales en la sección Horas:
 
 1. Vaya a una tarea para la que desee revisar las horas reales.
-1. Haga clic en **Horas** en el panel izquierdo.
 
-   Según la configuración, la sección Horas podría aparecer en **Mostrar más**.
+1. En el panel izquierdo, haga clic en **Horas**. Se muestra una lista de las entradas de horas registradas en la tarea, con la columna **Horas** que muestra el número total de horas reales para la tarea.
 
-   Muestra una lista de entradas de horas registradas en la tarea.
-
-1. Asegúrese de que la vista **Standard** y la agrupación **Project** se hayan aplicado a esta lista.
-
-   El número que se muestra en la línea de agrupación de la columna **Horas** es el número total de horas reales en la tarea.
+1. Asegúrese de que la vista **Estándar** y la agrupación **Proyecto** se hayan aplicado a esta lista.
 
 ### Horas reales en los informes {#actual-hours-in-reports}
 
 Al generar informes sobre tareas, problemas o proyectos, puede mostrar el valor de Horas reales de cada tarea, problema o proyecto en el informe.
 
-Agregar la columna Horas reales a una vista de tareas es similar a crear una vista en un informe.
-
 Para mostrar las horas reales en un informe de tareas:
 
-1. Haga clic en el icono **Menú principal** ![](assets/main-menu-icon.png) en la esquina superior derecha de Workfront y luego haga clic en **Informes**.
-1. Haga clic en **Nuevo informe** y, a continuación, elija **Tarea** como objeto.
+{{step1-to-reports}}
 
-1. Haga clic en **Agregar columna** y empiece a escribir **Horas reales** cuando se muestre el campo desplegable **Mostrar en esta columna**. Seleccione el campo cuando aparezca en la lista.
+1. En la página **Informes**, haga clic en **Nuevo informe** y, a continuación, elija **Tarea** como objeto.
+1. En la esquina inferior derecha de la página, haga clic en **Agregar columna**.
+1. En el campo desplegable **Mostrar en esta columna** que aparece, empiece a escribir **Horas reales** y, a continuación, seleccione el campo cuando aparezca en la lista.
 
-1. Haga clic en **Guardar + Cerrar** para guardar el informe.
+1. En la esquina inferior izquierda de la página, haga clic en **Guardar + Cerrar** para guardar el informe.
 
-   La columna Horas reales muestra el número de horas registradas en cada tarea.
+1. En el cuadro de diálogo **Asigne un nombre a este informe para guardarlo**, escriba un nuevo nombre para el informe y haga clic en **Aplicar**.
 
 ### Horas reales en las herramientas de administración de recursos {#actual-hours-in-resource-management-tools}
 
-Si desea ver el progreso del trabajo que los usuarios están realizando en las tareas y problemas que se les han asignado, puede verlos en las siguientes herramientas de Administración de recursos:
+Si desea ver el progreso del trabajo que los usuarios están realizando en las tareas y problemas que se les han asignado, puede consultarlo en las siguientes herramientas de Administración de recursos:
 
-* Informe de utilización.\
-  Para obtener información sobre el informe de utilización, consulte [Información general sobre el informe de utilización de recursos](../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md).
+* El Informe De Utilización.\
+  Para obtener más información, consulte [Información general sobre el informe de utilización de recursos](../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md).
 
-* Planificador de recursos.
+* El Planificador de recursos.
 
-  Para obtener información sobre cómo ver las horas reales en el Planificador de recursos, consulte [Ver horas disponibles, planificadas y reales o FTE en el Planificador de recursos al usar la vista de usuario](../../../resource-mgmt/resource-planning/view-hours-fte-user-view-resource-planner.md).
+  Para obtener más información, vea [Ver horas disponibles, planificadas y reales o FTE en el Planificador de recursos al usar la vista de usuario](../../../resource-mgmt/resource-planning/view-hours-fte-user-view-resource-planner.md).
 
 ## Hora de registro
 
 Puede registrar tiempo en tareas, problemas y proyectos de varias formas.
 
-Para obtener más información sobre cómo registrar el tiempo en Workfront, consulte [Registrar el tiempo](../../../timesheets/create-and-manage-timesheets/log-time.md).
+Para obtener más información, consulte [Registrar tiempo](../../../timesheets/create-and-manage-timesheets/log-time.md).
