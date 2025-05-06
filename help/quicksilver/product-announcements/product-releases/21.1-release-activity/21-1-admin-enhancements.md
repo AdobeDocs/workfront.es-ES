@@ -31,7 +31,7 @@ Para obtener información sobre el nivel de acceso del plan, consulte [Conceder 
 
 Para obtener información sobre la copia de un proyecto, consulte [Copiar un proyecto](../../../manage-work/projects/manage-projects/copy-project.md).
 
-Esta característica ahora se incluye en la ruta de aprendizaje de [Aspectos básicos del administrador en la nueva experiencia de Workfront, Parte 1: Organización del usuario](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) en Workfront One.
+Esta característica ahora se incluye en la ruta de aprendizaje de [Aspectos básicos del administrador en la nueva experiencia de Workfront, Parte 1: Organización del usuario](https://experienceleague.adobe.com/es/docs/workfront-learn/tutorials-workfront/home) en Workfront One.
 
 ## En un formulario personalizado de un objeto, seleccione todos los elementos en un campo desplegable de selección múltiple
 
@@ -63,7 +63,7 @@ Los administradores de Adobe Workfront ahora pueden dar más autonomía a los ad
 
 Para obtener más información, consulte [Configurar las preferencias de tareas y problemas de un grupo](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md).
 
-Esta característica ahora se incluye en la ruta de aprendizaje de [Aspectos básicos del administrador en la nueva experiencia de Workfront, Parte 2: Configuración del proyecto](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) en Workfront One.
+Esta característica ahora se incluye en la ruta de aprendizaje de [Aspectos básicos del administrador en la nueva experiencia de Workfront, Parte 2: Configuración del proyecto](https://experienceleague.adobe.com/es/docs/workfront-learn/tutorials-workfront/home) en Workfront One.
 
 ## Configuración por separado del nivel de acceso para portafolios y programas
 
@@ -75,7 +75,7 @@ Para obtener información sobre la configuración de un nivel de acceso, consult
 
 Para obtener información sobre la configuración de acceso que puede configurar para programas y portafolios, consulte [Acceso configurable a la funcionalidad para cada tipo de objeto](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
 
-Esta característica ahora se incluye en la ruta de aprendizaje de [Aspectos básicos del administrador en la nueva experiencia de Workfront, Parte 1: Organización del usuario](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) en Workfront One.
+Esta característica ahora se incluye en la ruta de aprendizaje de [Aspectos básicos del administrador en la nueva experiencia de Workfront, Parte 1: Organización del usuario](https://experienceleague.adobe.com/es/docs/workfront-learn/tutorials-workfront/home) en Workfront One.
 
 ## Selección de todas las casillas de verificación de una serie al editar información en un formulario personalizado
 
@@ -108,7 +108,7 @@ Anteriormente, solo un grupo de nivel superior podía tener Administradores de g
 
 Para obtener más información, consulte la sección [Administradores de grupos para subgrupos](../../../administration-and-setup/manage-groups/groups-overview/subgroups.md#for) en el artículo [Información general sobre subgrupos](../../../administration-and-setup/manage-groups/groups-overview/subgroups.md).
 
-Esta característica ahora se incluye en [Aspectos básicos del administrador en la nueva experiencia de Workfront, Parte 1: Organización del usuario](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) ruta de aprendizaje en Workfront One.
+Esta característica ahora se incluye en [Aspectos básicos del administrador en la nueva experiencia de Workfront, Parte 1: Organización del usuario](https://experienceleague.adobe.com/es/docs/workfront-learn/tutorials-workfront/home) ruta de aprendizaje en Workfront One.
 
 ## Configuración de notificaciones de eventos para grupos
 
@@ -125,7 +125,7 @@ Para obtener más información, consulte los siguientes artículos:
 * [Desbloquear o bloquear la configuración de notificaciones de eventos para todos los grupos](../../../administration-and-setup/manage-workfront/emails/unlock-configuration-of-event-notifications-for-groups.md)
 * [Ver y configurar notificaciones de eventos para un grupo](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-configure-event-notifications-group.md)
 
-<!--This feature is now included in the [Administrator Fundamentals in the new Workfront experience, Part 1: User Organization](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) learning path on Workfront One.
+<!--This feature is now included in the [Administrator Fundamentals in the new Workfront experience, Part 1: User Organization](https://experienceleague.adobe.com/es/docs/workfront-learn/tutorials-workfront/home) learning path on Workfront One.
 
 This feature is now included in the [Email and In-App Notifications in the new Workfront experience](https://experienceleague.adobe.com/en/docs/workfront/using/home://one.workfront.com/s/learningpath2/email-and-in-app-notifications-in-the-new-workfront-experience-MCDSDH3SRJ4ZGTJF5NJI64F4TW2U) learning path on Workfront One.-->
 
