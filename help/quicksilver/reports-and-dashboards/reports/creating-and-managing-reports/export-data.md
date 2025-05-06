@@ -1,23 +1,23 @@
 ---
 product-area: reporting
 navigation-topic: create-and-manage-reports
-title: Exportación de datos
-description: Puede exportar datos de Adobe Workfront desde varias listas, informes, paneles de control y búsquedas.
+title: Exportar datos
+description: Puede exportar datos de Adobe Workfront desde listas, informes, paneles y búsquedas.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 7fd45fa2-f5d2-411d-849e-cff5be420fbc
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: ae3fc73e93474c75fd03144b66af23f7142867c0
 workflow-type: tm+mt
-source-wordcount: '2247'
-ht-degree: 95%
+source-wordcount: '2264'
+ht-degree: 82%
 
 ---
 
 # Exportación de datos
 
-<!-- Audited: 12/2023 -->
+<!-- Audited: 5/2025 -->
 
-Puede exportar datos de Adobe Workfront desde varias listas, informes, paneles de control y búsquedas.
+Puede exportar datos de Adobe Workfront desde listas, informes, paneles y búsquedas.
 
 Algunos de los motivos para exportar datos son:
 
@@ -97,14 +97,14 @@ Para obtener más información sobre la creación de informes, consulte [Crear u
 
 La información se puede exportar en los siguientes formatos:
 
-* PDF (carta horizontal o vertical, legal, doble carta y A4)
-* Excel (.xls)
+* PDF (horizontal o vertical)
+* Excel
 * Excel (.xlsx)
 * Delimitado por tabulaciones
 
 >[!NOTE]
 >
->Los paneles de control se pueden imprimir o exportar únicamente a un archivo .pdf.
+>Los paneles se pueden imprimir o exportar solo a un archivo PDF.
 
 ### Límites de exportación {#export-limits}
 
@@ -115,10 +115,10 @@ NOTE: Alina: [! This information is shared between "Exporting Data" and "Setting
 Existen varias limitaciones en la forma en que se muestran los informes en Workfront, así como en la forma en que se exportan a través de una exportación manual, un informe enviado o a través de la API.
 
 * **50 000 celdas:** número máximo de celdas permitidas en la exportación de un informe para archivos de Excel.
-* **50 000 filas:** número de filas de datos permitidas en la exportación de un informe para archivos .pdf y delimitados por tabulaciones.
+* **50.000 filas:** Número de filas de datos permitidas en una exportación de informe para archivos PDF y delimitados por tabuladores.
 
-   * Para archivos .xls de Excel, este límite es de **65 000 filas**.
-   * Para archivos .xlsx de Excel, este límite es de **100 000 filas**.
+   * Para archivos de Excel, este límite es de **65,000 filas**.
+   * Para archivos de Excel(.xlsx), este límite es de **100.000 filas**.
    * Estos límites excluyen los encabezados de columna y las filas de las agrupaciones del informe. Por ejemplo, si tiene 6 agrupaciones en un informe y 50 000 filas de datos, el archivo exportado tendrá 50 000 filas.
 
   >[!IMPORTANT]
@@ -153,7 +153,7 @@ Existen varias limitaciones en la forma en que se muestran los informes en Workf
      Para obtener más información sobre cómo exportar la información de utilización de un proyecto, consulte [Información general sobre el informe de utilización de recursos](../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md#exporting-utilization-information-for-a-project).
 
 * **Tamaño de archivo de 10 MB:** límite de tamaño de archivo para cualquier informe exportado programado para su envío. Si un archivo exportado adjunto a un correo electrónico supera los 5 MB, se enviará por correo electrónico un vínculo donde se pueda descargar el archivo en lugar del informe exportado adjunto.
-* **65 530 hipervínculos:** Excel ha impuesto este límite a los documentos que contienen más de 65 530 hipervínculos. Estos documentos no se pueden abrir cuando se exportan manualmente o cuando se envían en un informe enviado. Tenga en cuenta que un documento de Excel puede tener solo 200 filas de datos, pero si hay más de 65 530 vínculos dentro del documento, este no se abrirá. Este límite solo existe en archivos de Excel, no en los demás formatos admitidos. 
+* **65 530 hipervínculos:** Excel ha impuesto este límite a los documentos que contienen más de 65 530 hipervínculos. Estos documentos no se pueden abrir cuando se exportan manualmente o cuando se envían en un informe enviado. Tenga en cuenta que un documento de Excel puede tener solo 200 filas de datos, pero si hay más de 65 530 vínculos dentro del documento, este no se abrirá. Este límite solo existe en archivos de Excel, no en los demás formatos admitidos.
 * **256 columnas**: Excel ha impuesto este límite a los documentos que contienen más de 256 columnas. Estos documentos no se pueden exportar manualmente ni enviar en un informe enviado. Este límite solo existe en archivos de Excel, no en los demás formatos admitidos.
 
   >[!IMPORTANT]
@@ -175,7 +175,7 @@ Si tiene dudas o problemas con respecto a su límite, póngase en contacto con e
 ### Exportación de datos desde un informe o una lista {#export-data-from-a-report-or-list}
 
 1. Vaya al informe o la lista que desea exportar.
-1. Seleccione los elementos que desea exportar. (Al seleccionar elementos individuales, solo se exportan los elementos seleccionados).
+1. Seleccione los elementos que desea exportar. Al seleccionar elementos individuales, se exportan únicamente los elementos seleccionados.
 
    Por ejemplo, en un proyecto, seleccione las tareas que desea exportar.
 
@@ -197,30 +197,24 @@ Si tiene dudas o problemas con respecto a su límite, póngase en contacto con e
 
    Haga clic en el icono **Exportar** ![Icono Exportar](assets/export-icon-nwe.png) y, a continuación, seleccione un formato.
 
-   Las opciones disponibles para la exportación de PDF dependen de la configuración regional de la configuración de usuario de Workfront:
+   Las opciones disponibles para la exportación de PDF dependen de la configuración Configuración regional de correo electrónico de la configuración de usuario de Workfront:
 
-   * América del Norte: carta (predeterminada), legal, doble carta, A4
+   * América del Norte - Carta - Horizontal, Carta - Vertical, Otros tamaños
 
-     <!--   
-     <img src="assets/north-america.jpg" alt="" data-mc-conditions="QuicksilverOrClassic.Draft mode">   
-     -->
-
-   * Todas las ubicaciones fuera de América del Norte: A3, A4 (predeterminado), carta, legal, doble carta
-
-     <!--   
-     <img src="assets/everywhere-else.jpg" alt="" data-mc-conditions="QuicksilverOrClassic.Draft mode">   
-     -->
+   * Todas las ubicaciones fuera de América del Norte - A4 - Horizontal, A4 - Vertical, Otros tamaños
 
 1. (Condicional) Según el sistema operativo que utilice, puede tener la opción de abrir o guardar el archivo. Abra el archivo con la aplicación asociada o guárdelo en el disco duro.
-1. Continúe con [Utilizar el documento exportado](#use-the-exported-document).
+1. Para comprender cómo se muestra la información en el archivo exportado, siga leyendo la sección [Use el documento exportado](#use-the-exported-document) en este artículo.
 
 ### Exportar datos desde un panel de control {#export-data-from-a-dashboard}
 
-Puede imprimir la información desde un panel de control o exportarla como un archivo .pdf.
+Puede imprimir la información desde un panel o exportarla como un archivo PDF.
 
 Para obtener más información sobre la exportación de datos desde un panel, consulte [Exportar un panel de control](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/export-dashboard.md).
 
 ## Utilizar el documento exportado {#use-the-exported-document}
+
+Las secciones siguientes describen cómo se muestra la información en un archivo exportado:
 
 * [Nombres de archivo](#file-names)
 * [Títulos](#titles)
@@ -308,11 +302,11 @@ Según el tipo de documento que exporte, las marcas de tiempo se mostrarán en v
 
 ### Formato {#formatting}
 
-Al exportar un proyecto a .pdf, las subtareas se muestran con sangría respecto a sus tareas principales. Las listas exportadas no contraen ninguna tarea principal.
+Al exportar un proyecto a PDF, las subtareas se muestran con sangría respecto a sus tareas principales. Las listas exportadas no contraen ninguna tarea principal.
 
 Siempre recibe la pestaña predeterminada de un informe cuando se envía un informe o cuando se programa su envío, a menos que el informe tenga una vista especial.
 
-Si el informe tiene un formato especial en la aplicación web, el informe se enviaría con el formato especial cuando se envían las pestañas Detalles y Matriz, solo para archivos .pdf y Excel.
+Si el informe tiene un formato especial en la aplicación web, el informe debe entregarse con el formato especial cuando se entreguen las pestañas Details y Matrix, solo para archivos de PDF y Excel.
 
 >[!NOTE]
 >
@@ -322,11 +316,11 @@ Para obtener más información sobre cómo personalizar el formato de un informe
 
 ### Vínculos {#links}
 
-Los vínculos pueden dirigir a cualquier objeto de Workfront que admita la vinculación. Al exportar una lista en Workfront a .pdf, los vínculos admitidos que existan en el documento original permanecerán activos en el documento exportado.
+Los vínculos pueden dirigir a cualquier objeto de Workfront que admita la vinculación. Al exportar una lista en Workfront a PDF, los vínculos admitidos que existan en el documento original permanecerán activos en el documento exportado.
 
 >[!TIP]
 >
->Si la línea `valueformat=HTML` aparece en modo de texto para una columna de campo personalizado y los valores del vínculo no se muestran en un archivo .pdf exportado, debe introducir líneas de código adicionales en la columna en modo de texto.
+>Si la línea `valueformat=HTML` aparece en modo de texto para una columna de campo personalizado y los valores del vínculo no se muestran en un archivo PDF exportado, debe introducir líneas de código adicionales en la columna en modo de texto.
 >
 >Por ejemplo, si tiene un campo personalizado llamado Abrir proyectos del primer trimestre que contiene vínculos, debe añadir el siguiente código:
 >
@@ -343,7 +337,7 @@ Al exportar a un formato de Excel, en el archivo exportado solo se incluyen los 
 >
 >Si su organización ya se ha incorporado a Adobe Experience Cloud, la personalización de marca no está disponible.
 
-Si el administrador de Workfront ha añadido la personalización de marca a la instancia de Workfront para la barra de navegación global, los archivos .pdf exportados también incluyen el logotipo personalizado.
+Si el administrador de Workfront ha añadido una personalización de la marca a la instancia de Workfront para la barra de navegación global, los archivos PDF exportados también incluyen su logotipo personalizado.
 
 Los datos exportados en cualquier otro formato no se pueden personalizar con el logotipo.
 

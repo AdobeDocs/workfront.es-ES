@@ -2,39 +2,61 @@
 content-type: tips-tricks-troubleshooting
 product-area: timesheets
 navigation-topic: tips-tricks-and-troubleshooting-timesheets
-title: Corregir el día de inicio de la semana laboral para hojas de horas
-description: El día de inicio de la semana en mi hoja de horas no coincide con el día de inicio de la semana configurado en mi perfil de hoja de horas.
+title: Corregir el día de inicio de la semana laboral para las hojas de horas
+description: El día de inicio de semana en mi hoja de horas no coincide con el día de inicio semanal esperado.
 author: Alina
 feature: Timesheets
 exl-id: 5c6c100f-2a04-4a6b-9f95-acc8de3a90f1
-source-git-commit: d5d517a0c9a1292c37e66db07f7ed17d0a9a59e1
+source-git-commit: ae3fc73e93474c75fd03144b66af23f7142867c0
 workflow-type: tm+mt
-source-wordcount: '293'
-ht-degree: 0%
+source-wordcount: '205'
+ht-degree: 5%
 
 ---
 
-# Corregir el día de inicio de la semana laboral para hojas de horas
+# Corregir el día de inicio de la semana laboral para las plantillas de horas
+
+<!--Audited: 5/2025-->
 
 ## Problema
 
-El día de inicio de la semana en mi hoja de horas no coincide con el día de inicio de la semana configurado en mi perfil de hoja de horas (como se describe en [Crear, editar y asignar perfiles de hoja de horas](../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md)).
+El día de inicio de semana en mi hoja de horas no coincide con el día de inicio semanal esperado.
+
+Esto suele ocurrir cuando no se le asigna un perfil de hoja de horas y la hoja de horas se ha creado manualmente.
+
 
 ## Solución
 
-El día de inicio de la semana de una plantilla de horas en Adobe Workfront utiliza la configuración de idioma y configuración regional del explorador para determinar el día de la semana. Debido a esto, debe actualizar la configuración de idioma y configuración regional de su explorador.
+El administrador de Workfront debe crear perfiles de hojas de horas y asignar a todos a un perfil, tal como se describe en [Crear, editar y asignar perfiles de hojas de horas](/help/quicksilver/timesheets/create-and-manage-timesheets/create-timesheet-profiles.md). El administrador de Workfront puede definir la fecha de inicio de una plantilla de horas en un día distinto a la fecha de inicio semanal prevista. Hable con ellos para averiguar cuál es la fecha de inicio de un perfil de hoja de horas para su hoja de horas.
 
-Por ejemplo, con el idioma del explorador establecido en inglés y la configuración regional establecida en Estados Unidos, la semana comienza el domingo. Como alternativa, el idioma del explorador configurado en inglés y la configuración regional configurada en Reino Unido, el día de inicio es lunes.
+Si la hoja de horas se creó manualmente, el día de inicio de la semana en la hoja de horas usa la configuración Configuración regional de correo electrónico del perfil del usuario, tal como se describe en el artículo [Configurar mi configuración](/help/quicksilver/workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md).
 
-Esta configuración también afecta al día de inicio de la semana en los calendarios emergentes de todo el sistema.
+Por ejemplo, con la Configuración regional de correo electrónico establecida en Inglés (Estados Unidos), la semana en la plantilla de horas comienza el domingo. Como alternativa, con la Configuración regional de correo electrónico establecida en Inglés (Reino Unido), la semana en la plantilla de horas comienza en lunes.
 
-El cambio de configuración regional no afecta al día de inicio de la semana en la cuadrícula de recursos (o vista de cuadrícula de recursos). La semana siempre empieza el domingo.
 
-A continuación se indican las instrucciones para cambiar la configuración regional y de idioma de varios exploradores compatibles con Workfront.
+<!--This is the old content for this article but I found this was not working this way at all, so I changed it to what it is today: 
 
-* **Chrome:** Copie y pegue el siguiente vínculo en el explorador Chrome: `chrome://settings/languages` y, a continuación, vaya a Idiomas.
-* **Firefox:**&#x200B;Copie y pegue el siguiente vínculo en el explorador Firefox: `about:preferences#content` y, a continuación, vaya a Idiomas.
-* **IE 11:** Herramientas -> Opciones de Internet -> General -> Idiomas
-* **Safari:** Lamentablemente, Safari no permite cambiar los idiomas de exploración web sin cambiar también todo el idioma del sistema operativo. Probablemente sea más fácil simplemente instalar otro navegador como Chrome o Firefox.
+## Problem
+
+The start day of the week on my timesheet does not match the start day of the week that is configured on my timesheet profile (as described in [Create, edit, and assign timesheet profiles](../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md).).
+
+## Solution
+
+The start day of the week of a timesheet in Adobe Workfront uses the language and locale settings in your browser to determine the day of the week. Because of this, you need to update the language and locale settings for your browser. 
+
+For example, with the browser language set to English and the locale set to United States, the week starts on Sunday. Alternatively, the browser language set to English and the locale set to United Kingdom, the start day is Monday.
+
+This setting also affects the start day of the week in the pop-up calendars across the system.
+
+The locale change does not affect the start day of the week on the Resource Grid (or resource grid view). The week always starts on Sunday.
+
+Following are the directions for changing language and locale settings for various browsers that are supported with Workfront.
+
+* **Chrome:** Copy and paste the following link into your Chrome browser: `chrome://settings/languages` then go to Languages.
+* **Firefox:**Copy and paste the following link into your Firefox browser: `about:preferences#content` then go to Languages.
+* **IE 11:** Tools -> Internet Options -> General -> Languages
+* **Safari:** Unfortunately, Safari does not allow changing web browsing languages without also changing your entire operating system language. It is probably easier to simply install another browser like Chrome or Firefox.
+
+-->
 
 
