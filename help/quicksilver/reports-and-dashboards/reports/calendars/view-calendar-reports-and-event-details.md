@@ -6,10 +6,10 @@ description: Puede ver informes de calendario y detalles de eventos que haya cre
 author: Lisa
 feature: Reports and Dashboards
 exl-id: db016e91-43e4-400c-ac9d-1639c7f94479
-source-git-commit: 3e5fdb157a6ff29daf964b505d3a0bf4f9842e88
+source-git-commit: 83b425998de978fef4998f407960a2489e1320b4
 workflow-type: tm+mt
-source-wordcount: '651'
-ht-degree: 71%
+source-wordcount: '627'
+ht-degree: 70%
 
 ---
 
@@ -90,18 +90,18 @@ Puede elegir entre las siguientes vistas de informes de calendario:
 
 1. (Opcional) Si está viendo el calendario en las vistas [!UICONTROL Mes] o [!UICONTROL Semana], puede cambiar la vista del calendario con las siguientes opciones:
 
-   * Para incluir o excluir fines de semana:
+<!--   * To include or exclude weekends:
 
-      1. En la barra de herramientas de **[!UICONTROL Calendario]**, haga clic en **[!UICONTROL Acciones de calendario]** y, a continuación, en la lista desplegable, seleccione **[!UICONTROL Mostrar fin de semana]** u **[!UICONTROL Ocultar fin de semana]**.
+      1. On the **[!UICONTROL Calendar]** toolbar, click **[!UICONTROL Calendar Actions]**, then from the drop-down list select either **[!UICONTROL Show Weekend]** or **[!UICONTROL Hide Weekend]**.-->
 
-   * Para cambiar rápidamente las fechas mostradas:
+* Para cambiar rápidamente las fechas mostradas:
 
-      1. En la barra de herramientas **[!UICONTROL Calendario]**, haga clic en la flecha izquierda del indicador de fecha para retroceder en el calendario o en la flecha derecha para avanzar.
+   1. En la barra de herramientas **[!UICONTROL Calendario]**, haga clic en la flecha izquierda del indicador de fecha para retroceder en el calendario o en la flecha derecha para avanzar.
 
-         ![Haga clic en la flecha para cambiar la fecha](assets/click-arrows-to-change-dates-calendar-report.png)\
-         Las fechas mostradas se ajustan mediante un intervalo basado en la vista de calendario actual. Por ejemplo, si está viendo el calendario en la vista [!UICONTROL Semana], el calendario mostrará una semana hacia adelante o una semana hacia atrás, según la flecha que seleccione.
+      ![Haga clic en la flecha para cambiar la fecha](assets/click-arrows-to-change-dates-calendar-report.png)\
+      Las fechas mostradas se ajustan mediante un intervalo basado en la vista de calendario actual. Por ejemplo, si está viendo el calendario en la vista [!UICONTROL Semana], el calendario mostrará una semana hacia adelante o una semana hacia atrás, según la flecha que seleccione.
 
-      1. (Opcional) Para volver al día actual, haga clic en [!UICONTROL **Hoy**].
+   1. (Opcional) Para volver al día actual, haga clic en [!UICONTROL **Hoy**].
 
 
 1. (Opcional) Para ver un calendario en pantalla completa, haga clic en las flechas de pantalla completa en la parte derecha de la barra de herramientas de **[!UICONTROL Calendario]**.
