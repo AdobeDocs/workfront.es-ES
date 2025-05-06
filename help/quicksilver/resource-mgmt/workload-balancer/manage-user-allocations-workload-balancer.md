@@ -6,10 +6,10 @@ description: Como administrador de recursos, puede asignar trabajo a los usuario
 author: Lisa
 feature: Resource Management
 exl-id: 9649e482-af24-4516-9a69-ef12b2f1d579
-source-git-commit: 23c6d9335b0adcafc4e2ecdd8ef2d0ab09709fa8
+source-git-commit: d588380201aa8bcc9e358d516b7e52ed5f60b78d
 workflow-type: tm+mt
-source-wordcount: '2909'
-ht-degree: 95%
+source-wordcount: '2886'
+ht-degree: 94%
 
 ---
 
@@ -78,7 +78,7 @@ Las horas planificadas de la tarea se distribuyen equitativamente entre todos lo
 
 >[!CAUTION]
 >
->El equilibrador de carga de trabajo solo muestra hasta 1000 horas planificadas por elemento de trabajo por usuario y hasta 1000 días de duración de un elemento. Las asignaciones del equilibrador de carga de trabajo se muestran como cero después de alcanzar el límite de 1000 horas o 1000 días. Recomendamos dividir las tareas en subtareas más pequeñas para dar cabida a un mayor número de horas planificadas o para duraciones de más de 1000 días.
+>El Distribuidor de cargas de trabajo solo muestra <!--up to 1000 Planned Hours per work item per user, and--> hasta 1000 días de la duración de un elemento. Las asignaciones del Distribuidor de cargas de trabajo se muestran como cero después de alcanzar el límite de 1000 días. Se recomienda dividir las tareas en subtareas más pequeñas <!--to accommodate a larger number of Planned Hours or--> para duraciones de más de 1000 días.
 
 Tenga en cuenta lo siguiente a la hora de localizar asignaciones diarias, semanales o mensuales para tareas o problemas en el equilibrador de carga de trabajo:
 
