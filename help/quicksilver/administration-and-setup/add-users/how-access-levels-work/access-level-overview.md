@@ -10,10 +10,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d297d8a4-5a4e-418f-983a-19545aeb0668
-source-git-commit: d50ff253b0557c282496deae2a488cff4ab71775
+source-git-commit: dcc4657d4af4edbbe7971acd385a67b2ad50a058
 workflow-type: tm+mt
-source-wordcount: '1720'
-ht-degree: 99%
+source-wordcount: '1724'
+ht-degree: 98%
 
 ---
 
@@ -115,7 +115,7 @@ Adjuntado a la licencia básica, este nivel de acceso está diseñado para los u
 * Ven todos los elementos y actualizaciones vinculados al trabajo
 * Aprueban proyectos, tareas y problemas
 * Ven paneles de control e informes
-* Llevan un seguimiento del tiempo y aprueban plantillas de horas
+* Rastree el tiempo en las tareas y los problemas y apruebe las hojas de horas
 * Crean y administran problemas
 
 Usuarios con el nivel de acceso Light:
@@ -314,7 +314,7 @@ Usuarios con nivel de acceso de usuario externo:
 * Vea los usuarios que comparten documentos e informes de calendario con ellos
 * Aprobar los documentos que se comparten con ellos
 
-External users cannot be assigned to work items.
+No se pueden asignar usuarios externos a elementos de trabajo.
 
 No es posible modificar este nivel de acceso.
 
@@ -386,7 +386,7 @@ En la tabla siguiente se compara el acceso general de un usuario a los objetos (
 
 Las actividades que un usuario puede realizar con un objeto se definen mediante una combinación de su nivel de acceso y los permisos que se les otorgan.
 
-![Security model hierarchy](assets/security-model-hierachy-copy.png)
+![Jerarquía del modelo de seguridad](assets/security-model-hierachy-copy.png)
 
 ### Conceder permisos mediante el uso compartido de objetos
 
