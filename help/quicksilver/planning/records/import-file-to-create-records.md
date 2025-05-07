@@ -113,7 +113,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 * No se admiten hojas vacías.
 * No se admiten los campos de los siguientes tipos y no se pueden asignar a campos de la hoja de importación:
 
-   * <!--In the Production environment,--> Campos de conexión a registros de Planning u objetos de Workfront y AEM Assets
+   * &#x200B;<!--In the Production environment,--> Campos de conexión a registros de Planning u objetos de Workfront y AEM Assets
 
      <!--<span class="preview">In the Preview environment, you can map and import connection fields to Planning records. </span>-->
 
