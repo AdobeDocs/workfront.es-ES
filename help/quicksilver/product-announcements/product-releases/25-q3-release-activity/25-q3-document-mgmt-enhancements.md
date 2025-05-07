@@ -5,10 +5,10 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4829d487-7041-447f-9a68-fb1acf467734
-source-git-commit: d072b8e9c657e970c12f75a304f63e04d0512505
+source-git-commit: f9de87b7b874910cb986cbf6d57e998afe602bb8
 workflow-type: tm+mt
-source-wordcount: '181'
-ht-degree: 35%
+source-wordcount: '346'
+ht-degree: 18%
 
 ---
 
@@ -21,6 +21,25 @@ Para obtener una lista de todos los cambios disponibles en este punto del ciclo 
 >[!IMPORTANT]
 >
 >Las características enumeradas en esta página forman parte de un lanzamiento por fases y solo están disponibles para determinados clientes.
+
+## Assets en una carpeta Google vinculada debe añadirse individualmente para que aparezca en Workfront
+
+>[!NOTE]
+>
+>* Versión preliminar: 31 de mayo de 2025; versión de producción para todos los clientes: 31 de mayo de 2025
+
+Google está [mejorando los controles de seguridad](https://workspace.google.com/blog/product-announcements/enhancing-security-controls-for-google-drive-third-party-apps) para las aplicaciones de terceros que acceden a Google Drive, lo que requiere que las aplicaciones adopten un modelo de consentimiento por usuario. Como resultado, los recursos individuales deben vincularse de uno en uno para que sean visibles en Workfront. Consulte [Configurar integraciones de documentos](/help/quicksilver/administration-and-setup/configure-integrations/configure-document-integrations.md) para obtener más información.
+
+Funcionalidades clave que permanecen sin cambios:
+
+* Busque y filtre recursos y carpetas desde el modal de Google Drive
+* Vincular recursos a objetos de Workfront desde Google Drive
+* Cargue recursos a Google Drive a través del menú desplegable &quot;Enviar a&quot; de la página de documentos
+* Ver y acceder a la estructura de carpetas en el área Mi unidad de un usuario
+* Vincular una nueva versión de un recurso de Google Drive a un documento existente en Workfront
+* Vincular carpetas a objetos de Workfront desde Google Drive
+* Cargar recursos a Google Drive arrastrando y soltando documentos en una carpeta vinculada
+* Crear un nuevo documento de Google Drive desde Workfront
 
 
 ## Nuevos botones de decisión de aprobación de documento disponibles en el visor de pruebas

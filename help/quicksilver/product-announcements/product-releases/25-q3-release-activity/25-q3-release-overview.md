@@ -5,10 +5,10 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9342f393-a404-44b4-aad6-2c4cf634dfd5
-source-git-commit: 74714ce45c815afc9cff1360fd3542fa15763907
+source-git-commit: f9de87b7b874910cb986cbf6d57e998afe602bb8
 workflow-type: tm+mt
-source-wordcount: '603'
-ht-degree: 46%
+source-wordcount: '669'
+ht-degree: 42%
 
 ---
 
@@ -56,6 +56,17 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td><strong>Liberación rápida</strong></td>
         <td><strong>Trimestralmente</strong></td>
     </tr>
+      <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Assets en una carpeta Google vinculada debe agregarse individualmente para que aparezca en Workfront</a><p>[!BADGE Off schedule]{type=Neutral}</p>
+            <p>Google está <a href="https://workspace.google.com/blog/product-announcements/enhancing-security-controls-for-google-drive-third-party-apps">mejorando los controles de seguridad</a>
+            para aplicaciones de terceros que acceden a Google Drive, que requieren que las aplicaciones adopten un modelo de consentimiento por usuario. Como resultado, los recursos individuales deben vincularse de uno en uno para que sean visibles en Workfront. Ver <a href="/help/quicksilver/administration-and-setup/configure-integrations/configure-document-integrations.md">Configurar integraciones de documentos</a>
+             para obtener más información. </p>
+        </td>
+        <td>25 de mayo de 2023</td>
+        <td>25 de mayo de 2023</td>
+        <td>25 de mayo de 2023</td>
+    </tr>  
     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Nuevos botones de decisión de aprobación de documento disponibles en el visor de revisión</a><p>[!BADGE Off schedule]{type=Neutral}</p>
@@ -157,7 +168,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
 
 ## Notas de la versión para otras áreas
 
-* [Actividad de la versión de Adobe Workfront Fusion](https://experienceleague.adobe.com/es/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
+* [Actividad de la versión de Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
 * [Actividad de la versión del tercer trimestre de 2025 de Adobe Workfront Planning](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q3.md).
 
 No hay actualizaciones para lo siguiente en este punto de la versión:
