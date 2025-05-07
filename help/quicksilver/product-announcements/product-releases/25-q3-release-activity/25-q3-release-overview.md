@@ -168,7 +168,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
 
 ## Notas de la versión para otras áreas
 
-* [Actividad de la versión de Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
+* [Actividad de la versión de Adobe Workfront Fusion](https://experienceleague.adobe.com/es/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
 * [Actividad de la versión del tercer trimestre de 2025 de Adobe Workfront Planning](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q3.md).
 
 No hay actualizaciones para lo siguiente en este punto de la versión:
