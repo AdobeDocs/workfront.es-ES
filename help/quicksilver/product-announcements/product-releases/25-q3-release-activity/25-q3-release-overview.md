@@ -5,10 +5,10 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9342f393-a404-44b4-aad6-2c4cf634dfd5
-source-git-commit: f9de87b7b874910cb986cbf6d57e998afe602bb8
+source-git-commit: 220c31cb836e324b91fb36106ed34662c1eb6b29
 workflow-type: tm+mt
-source-wordcount: '669'
-ht-degree: 42%
+source-wordcount: '718'
+ht-degree: 41%
 
 ---
 
@@ -168,15 +168,19 @@ The <add release> release webinar will be held on <date>. You can [register for 
 
 ## Notas de la versión para otras áreas
 
-* [Actividad de la versión de Adobe Workfront Fusion](https://experienceleague.adobe.com/es/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
-* [Actividad de la versión del tercer trimestre de 2025 de Adobe Workfront Planning](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q3.md).
+### Mejoras de Workfront Fusion
+
+Las nuevas funciones de Workfront Fusion están disponibles en el entorno de producción en una cadencia fuera de la programación de versiones estándar. Para obtener más información sobre las últimas funciones, consulte [Actividad de la versión de Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
+
+### Mejoras de Workfront Planning
+
+Las nuevas funciones de Workfront Planning están disponibles en el entorno de producción. Para obtener más información sobre las últimas funciones, consulte [Actividad de la versión del tercer trimestre de 2025 de Adobe Workfront Planning](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q2.md).
 
 No hay actualizaciones para lo siguiente en este punto de la versión:
 
 * Planificador de escenarios
 * Revisión
 * Metas
-
 
 ### Versión 20 de la API
 
