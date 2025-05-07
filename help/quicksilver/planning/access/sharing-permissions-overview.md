@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
-source-git-commit: 7f24186c8803237a6f5116293b3c6a5fd1ea90f6
+source-git-commit: 3550d7addcc0bb790f15d141d9470e0b75f940a6
 workflow-type: tm+mt
-source-wordcount: '1122'
-ht-degree: 11%
+source-wordcount: '1227'
+ht-degree: 10%
 
 ---
 
@@ -44,19 +44,18 @@ Puede compartir manualmente los siguientes objetos en Workfront Planning:
 
   Para obtener más información, vea [Compartir espacios de trabajo](/help/quicksilver/planning/access/share-workspaces.md)
 
-<!--
 <div class="preview">
 
-* Record types
+* Tipos de registro
 
-    * You can share record types with people inside your organization.
-    * The level of permissions granted for the workspace displays as Inherited permissions for the record type. 
-    * You cannot share a record type with a higher permission level than the user has on the workspace. 
+   * Puede compartir tipos de registros con personas de su organización.
+   * El nivel de permisos otorgados para el espacio de trabajo se muestra como Permisos heredados para el tipo de registro.
+   * No se puede compartir un tipo de registro con un nivel de permisos superior al que el usuario tiene en el área de trabajo.
 
-    For more information, see [Share record types](/help/quicksilver/planning/access/share-record-types.md). 
+  Para obtener más información, vea [Compartir tipos de registros](/help/quicksilver/planning/access/share-record-types.md).
 
 </div>
--->
+
 
 * Vistas
 
@@ -67,7 +66,7 @@ Puede compartir manualmente los siguientes objetos en Workfront Planning:
 
   Para obtener más información, consulte [Compartir vistas](/help/quicksilver/planning/access/share-views.md).
 
-Internamente, se puede compartir un espacio de trabajo o una vista con las siguientes entidades de Workfront:
+Internamente, puede compartir un área de trabajo, una vista <span class="preview"> o un tipo de registro </span> con las siguientes entidades de Workfront:
 
 * Usuarios
 * Grupos
@@ -76,6 +75,11 @@ Internamente, se puede compartir un espacio de trabajo o una vista con las sigui
 * Roles
 
 <span class="preview"> Cuando comparte espacios de trabajo y tipos de registros con otros, el nivel de permiso del tipo de registro se hereda automáticamente a los registros y campos asociados a ellos. </span>
+
+>[!IMPORTANT]
+>
+>Si la instancia de Workfront de su organización se ha incorporado a la experiencia unificada de Adobe, los usuarios con los que desea compartir objetos de Planning deben agregarse a Adobe Admin Console. No puede compartir objetos de Planning con usuarios de Workfront que no se hayan agregado a Adobe Admin Console.
+
 
 ## Consideraciones sobre el uso compartido de objetos en Adobe Workfront Planning
 

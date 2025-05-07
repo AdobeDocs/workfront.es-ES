@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 940945df-391c-4672-9d9d-180d5028509b
-source-git-commit: e25f6ac3fb4ffc114d59bf5cceecfe718ae914ec
+source-git-commit: 3dfac5ada17248f5c67380b56b9a0969b10b73e6
 workflow-type: tm+mt
-source-wordcount: '986'
+source-wordcount: '1002'
 ht-degree: 11%
 
 ---
@@ -112,7 +112,12 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 * El archivo no debe superar los 5 MB.
 * No se admiten hojas vacías.
 * No se admiten los campos de los siguientes tipos y no se pueden asignar a campos de la hoja de importación:
-   * Conexiones y campos de búsqueda de registros conectados <!--or connected Workfront objects-->
+
+   * <!--In the Production environment,--> Campos de conexión a registros de Planning u objetos de Workfront y AEM Assets
+
+     <!--<span class="preview">In the Preview environment, you can map and import connection fields to Planning records. </span>-->
+
+   * Campos de búsqueda de registros de Planning conectados u objetos de Workfront y AEM Assets
    * Campos de fórmula
    * Fecha de creación, Creado por
    * Fecha de la última modificación, Última modificación por

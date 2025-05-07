@@ -6,10 +6,10 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: e25f6ac3fb4ffc114d59bf5cceecfe718ae914ec
+source-git-commit: 3dfac5ada17248f5c67380b56b9a0969b10b73e6
 workflow-type: tm+mt
-source-wordcount: '3205'
-ht-degree: 76%
+source-wordcount: '3497'
+ht-degree: 70%
 
 ---
 
@@ -82,7 +82,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 <tr> 
    <td role="rowheader"><p>Permisos de objeto</p></td> 
    <td>   <p>Permisos de administración de una vista</p>  
-   <p>Permisos de visualización de una vista para cambiar temporalmente su configuración</p> </td> 
+   <p>Ver permisos en una vista para cambiar temporalmente la configuración de la vista o duplicarla <!--<span class="preview">or to export the view</span>--></p> </td> 
   </tr> 
 <tr> 
    <td role="rowheader"><p>Plantilla de diseño</p></td> 
@@ -509,9 +509,11 @@ To sort grouped records:
 
 1. (Opcional) Active la opción **Aplicar a toda la fila** en la esquina superior derecha del cuadro Colores de fila. Toda la fila donde se cumple la condición se muestra automáticamente en el color seleccionado.
 
-   >[!TIP]
+   >[!NOTE]
    >
-   >Si la configuración Aplicar a toda la fila está desactivada, solo el lado izquierdo del campo Principal muestra un indicador de color estrecho con el color seleccionado. La configuración está desactivada de forma predeterminada.
+   >* Si la configuración Aplicar a toda la fila está desactivada, solo el lado izquierdo del campo Principal muestra un indicador de color estrecho con el color seleccionado. La configuración está desactivada de forma predeterminada.
+   >
+   >* No se pueden aplicar colores de fila a toda una fila si se ha seleccionado al menos una agrupación en la vista de tabla.
 
 1. Haga clic fuera del cuadro **Colores de fila** para cerrarlo. Los colores se aplican automáticamente.
 
@@ -525,3 +527,49 @@ Al mostrar la vista de tabla, también puede ver qué campo está editando otro 
 
 Para obtener más información, consulte la sección &quot;Habilitar el indicador de presencia en tiempo real&quot; en el artículo [Administrar vistas de registros](/help/quicksilver/planning/views/manage-record-views.md).
 
+<div class="preview">
+
+## Exportación de la vista de tabla
+
+Puede exportar información de la vista de tabla a un archivo CSV o de Excel.
+
+Tenga en cuenta lo siguiente al exportar la vista de tabla:
+
+* La información exportada a un archivo de Excel conserva los filtros, agrupaciones y ordenaciones aplicados a la vista de tabla en Workfront Planning. Las agrupaciones no son visibles en el archivo CSV.
+
+* Los archivos exportados no admiten miniaturas ni colores de fila personalizados.
+
+* Solo se exportan los campos que se hacen visibles en la interfaz de Workfront. Los campos ocultos no se exportan.
+
+Para exportar información desde la vista de tabla o un tipo de registro:
+
+1. Vaya a una página de tipo de registro y haga clic en una ficha de vista de tabla.
+1. Pase el ratón sobre el nombre de la pestaña de la vista de tabla y luego haga clic en el menú **Más** ![Menú más](assets/more-menu.png).
+1. Haga clic en **Exportar** y, a continuación, seleccione uno de los siguientes formatos:
+
+   * Excel
+   * CSV
+
+   >[!IMPORTANT]
+   >
+   >No se puede exportar información desde la vista de tabla cuando se muestra una vista diferente en la pantalla. Debe mostrar la vista de tabla que desea exportar para acceder a la opción Exportar en el menú Más.
+
+   El archivo se descargará en el equipo.
+
+1. (Opcional) Vaya a la carpeta de descargas del equipo y busque el archivo descargado.
+
+   El nombre del archivo exportado sigue el siguiente formato:
+
+   `Name of the view - name of the record type`
+
+   Por ejemplo, una vista de tabla para el tipo de registro Campañas genera un archivo denominado `Table view - Campaigns`.
+
+   El archivo muestra la siguiente información:
+
+   * Los encabezados de columna se resaltan en negro en el archivo de Excel
+   * Todos los campos visibles en la interfaz de Workfront, ordenados y filtrados según los mismos criterios
+   * Las agrupaciones se conservan en el archivo de Excel
+
+   Ahora puede compartir los archivos exportados con otros usuarios o adjuntarlos a cualquier comunicación.
+
+</div>
