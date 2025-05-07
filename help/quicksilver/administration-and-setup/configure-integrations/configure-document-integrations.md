@@ -8,10 +8,10 @@ author: Courtney, Becky
 feature: System Setup and Administration, Workfront Integrations and Apps, Digital Content and Documents
 role: Admin
 exl-id: cf5c4e3d-b45f-46cd-a938-22e412d1c491
-source-git-commit: 7f24186c8803237a6f5116293b3c6a5fd1ea90f6
+source-git-commit: ec0e2be036ce1298e285ce85cdeddae97cd1f144
 workflow-type: tm+mt
-source-wordcount: '1125'
-ht-degree: 12%
+source-wordcount: '1199'
+ht-degree: 11%
 
 ---
 
@@ -250,4 +250,12 @@ Para configurar [!DNL Workfront] para enviar metadatos a [!DNL Workfront DAM]:
 
 ## Limitaciones
 
-* La integración de documentos de Google Drive permite agregar carpetas e imágenes desde el área Mi unidad de Google. No puede agregar carpetas o imágenes desde una unidad compartida. Más información sobre [Unidades compartidas de Google](https://support.google.com/a/users/answer/7212025?hl=en).
+### Integración con Google Drive
+
+* Cuando se agrega una carpeta vinculada a Workfront, los archivos de la carpeta ya no se agregan automáticamente.
+   * Puede agregar la carpeta de Google a Workfront sin los archivos y, a continuación, agregar los archivos individuales a Workfront. Los archivos se agregan automáticamente a la carpeta Google en Workfront.
+O
+   * Puede crear una carpeta de documentos en Workfront y, a continuación, seleccionar todos los archivos de la carpeta de Google y agregarlos a la carpeta de Workfront.
+
+
+* La integración de documentos de Google Drive permite agregar archivos desde el área Mi unidad de Google Drive. No puede agregar carpetas o imágenes desde una unidad compartida. Más información sobre [Unidades compartidas de Google](https://support.google.com/a/users/answer/7212025?hl=en).
