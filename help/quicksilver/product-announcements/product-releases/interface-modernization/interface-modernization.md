@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 78300d47d9a892a07816d94c448c7b957f11f14f
+source-git-commit: 7de63fbe2df6aa5f173b8e5647097e3f8aabc08c
 workflow-type: tm+mt
-source-wordcount: '2138'
+source-wordcount: '2140'
 ht-degree: 0%
 
 ---
@@ -47,7 +47,7 @@ Hemos actualizado la página que utiliza para conceder acceso de soporte técnic
 
 ### Actualización de la interfaz del Centro de anuncios
 
-**Versión preliminar: 27 de febrero de 2025; por anunciar**
+**Versión preliminar: 27 de febrero de 2025; a partir del 6 de marzo de 2025**
 
 Hemos actualizado el Centro de anuncios con un diseño más moderno y coherente con otras áreas de Workfront.
 
@@ -71,7 +71,7 @@ Para ver la configuración, vaya a Configuración > Equipos.
 
 ### Actualización de la interfaz para la configuración del proceso de aprobación en Configuración
 
-**Versión preliminar: 6 de febrero de 2025; versión de producción: por anunciar**
+**Versión preliminar: 6 de febrero de 2025; versión de producción: a partir del 13 de febrero de 2025**
 
 Hemos actualizado el cuadro de diálogo Configuración de aprobación con un diseño más moderno y coherente con otras áreas de Workfront.
 
@@ -177,7 +177,7 @@ Esta actualización incluye cambios visuales en el área. No se ha cambiado ning
 
 ### Actualizaciones de interfaz para solicitudes de equipo
 
-**Versión preliminar: 6 de marzo de 2025; versión de producción: por anunciar**
+**Versión preliminar: 6 de marzo de 2025; versión de producción: 13 de marzo de 2025**
 
 Hemos actualizado la página Solicitudes de equipo con un diseño más moderno y coherente con otras áreas de Workfront.
 

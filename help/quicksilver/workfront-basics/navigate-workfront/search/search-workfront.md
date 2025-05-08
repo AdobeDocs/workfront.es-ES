@@ -5,10 +5,10 @@ description: Puede localizar fácilmente elementos en  [!DNL Adobe Workfront]  b
 feature: Get Started with Workfront
 author: Lisa
 exl-id: 7c856349-c79f-40d8-9c96-b32bfb6d5417
-source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
+source-git-commit: b04d09d1244a7d7abef8aaddb62dbdf7124bfde8
 workflow-type: tm+mt
-source-wordcount: '1690'
-ht-degree: 97%
+source-wordcount: '1673'
+ht-degree: 77%
 
 ---
 
@@ -79,7 +79,7 @@ Puede buscar los siguientes objetos en Workfront:
 
 Los campos disponibles para la búsqueda se basan en el tipo de búsqueda: Básica o [!UICONTROL Búsqueda avanzada].
 
-* **Búsqueda básica**: al buscar objetos en una búsqueda básica, [!DNL Workfront] busca texto que pueda contener palabras clave en los campos siguientes:
+* **Búsqueda básica**: al buscar objetos en una Búsqueda básica, [!DNL Workfront] busca texto que pueda contener palabras clave en los campos siguientes:
 
    * Nombres de objeto
    * Descripciones
@@ -87,15 +87,15 @@ Los campos disponibles para la búsqueda se basan en el tipo de búsqueda: Bási
    * Actualizaciones
    * Nombres de documentos (en búsquedas de documentos específicas y en una búsqueda básica)
 
-  Para obtener más información acerca de la búsqueda básica en [!DNL Workfront], consulte [Búsqueda básica](#basic-search) en este artículo.
+  Para obtener más información acerca de la búsqueda básica en [!DNL Workfront], vea [Búsqueda básica](#basic-search) en este artículo.
 
-* **[!UICONTROL Búsqueda avanzada]**: en una [!UICONTROL Búsqueda avanzada], puede configurar filtros para buscar campos que no están disponibles en la búsqueda básica. Por lo tanto, [!UICONTROL Búsqueda avanzada] le permite buscar en cualquier campo del objeto.
+* **[!UICONTROL Búsqueda avanzada]**: en una [!UICONTROL Búsqueda avanzada], puede configurar filtros para buscar campos que no estén disponibles en la Búsqueda básica. Por lo tanto, [!UICONTROL Búsqueda avanzada] le permite buscar en cualquier campo del objeto.
 
   Para obtener más información sobre [!UICONTROL Búsqueda avanzada], consulte [Búsqueda avanzada](#advanced-search) en este artículo.
 
 >[!NOTE]
 >
->Para realizar una [!UICONTROL Advanced Search], debe seleccionar la opción [!UICONTROL Advanced Search] al comenzar la búsqueda. No puede restringir una búsqueda básica en [!UICONTROL Advanced Search].
+>Para realizar una [!UICONTROL Advanced Search], debe seleccionar la opción [!UICONTROL Advanced Search] al comenzar la búsqueda. No puede restringir una búsqueda básica a una [!UICONTROL búsqueda avanzada].
 
 ## Comprender las limitaciones de las búsquedas de [!DNL Workfront]
 
@@ -165,20 +165,20 @@ Sin embargo, puede hacer lo siguiente en el cuadro [!UICONTROL Search] para ajus
 
 ### Búsqueda básica
 
-Una búsqueda básica permite buscar palabras clave en todos los objetos del sistema o en un solo objeto a la vez (como proyectos). [!DNL Workfront] entonces busca esas palabras clave en algunos campos específicos. Puede restringir los resultados de búsqueda basándose en otros campos específicos de objetos seleccionados por [!DNL Workfront].
+Una búsqueda básica le permite buscar palabras clave en todos los objetos del sistema o en un solo objeto a la vez (como proyectos). [!DNL Workfront] entonces busca esas palabras clave en algunos campos específicos. Puede restringir los resultados de búsqueda basándose en otros campos específicos de objetos seleccionados por [!DNL Workfront].
 
 Para obtener una lista de los campos específicos buscados en la búsqueda básica, consulte [Campos disponibles para la búsqueda](#fields-available-for-search) en este artículo.
 
 >[!NOTE]
 >
->Para realizar una [!UICONTROL Advanced Search], debe seleccionar la opción [!UICONTROL Advanced Search] al comenzar la búsqueda. No se puede restringir una búsqueda básica en una [!UICONTROL Advanced Search].
+>Para realizar una [!UICONTROL Advanced Search], debe seleccionar la opción [!UICONTROL Advanced Search] al comenzar la búsqueda. No puede restringir una búsqueda básica a una [!UICONTROL búsqueda avanzada].
 
 * [Realizar una búsqueda básica](#perform-a-basic-search)
 * [Restringir una búsqueda básica](#refine-a-basic-search)
 
 #### Realizar una búsqueda básica
 
-Se puede realizar una búsqueda básica de cualquiera de las siguientes maneras:
+Puede realizar una búsqueda básica de cualquiera de estas formas:
 
 * En todos los objetos del sistema (búsqueda general).
 * Solo en un objeto a la vez (búsqueda específica de objetos).
@@ -191,9 +191,10 @@ Para realizar una búsqueda básica:
 
    ![Buscar por tipo de objeto](assets/search-objecttype.png)
 
-1. En el cuadro **[!UICONTROL Search]**, empiece a escribir la información que está buscando.\
-   Para obtener información sobre qué campos se buscan en [!DNL Workfront], consulte [Comprender la búsqueda](#understand-search).\
-   ![Menú desplegable de búsqueda](assets/qs-search-drop-down-highlighted-350x234.png)\
+1. En el cuadro **[!UICONTROL Buscar]**, empiece a escribir la información que está buscando.
+Para obtener información sobre qué campos se buscan en [!DNL Workfront], consulte [Comprender la búsqueda](#understand-search).
+   ![Menú desplegable de búsqueda](assets/qs-search-drop-down-highlighted-350x234.png)
+
    A medida que se empieza a escribir en la barra de búsqueda, [!DNL Workfront] hace recomendaciones basadas en el historial de visualización y resalta en azul la palabra clave que se busca.
 
 1. Si el elemento que busca se muestra en el menú [!UICONTROL typeforward], haga clic en él.
@@ -211,7 +212,7 @@ Para realizar una búsqueda básica:
    >A veces, en la lista de elementos encontrados se muestran las variaciones de una palabra.\
    >Por ejemplo, si busca “comercialización”, se muestran objetos cuyo nombre contiene “comercialización” o “comercio”.
 
-1. (Opcional) Si la búsqueda ha generado demasiados resultados, restrínjala como se describe en [Restringir una búsqueda básica](#refine-a-basic-search).
+1. (Opcional) Si la búsqueda generó demasiados resultados, refine la búsqueda como se describe en [Refinar una búsqueda básica](#refine-a-basic-search).
 1. (Opcional) Para volver a la página en la que se encontraba antes de la búsqueda, haga clic en **[!UICONTROL Close]** en la esquina superior derecha.
 
 >[!NOTE]
@@ -220,29 +221,30 @@ Para realizar una búsqueda básica:
 
 #### Restringir una búsqueda básica
 
-Después de realizar una búsqueda básica, como se describe en [[!UICONTROL Perform a basic search]](#perform-a-basic-search), podrá restringir la búsqueda.
+Después de realizar una búsqueda básica (como se describe en [[!UICONTROL Realizar una búsqueda básica]](#perform-a-basic-search)), puede restringir la búsqueda.
 
 Utilice la barra de herramientas situada a la izquierda de los resultados de búsqueda para acotar la información que está buscando.
 
 Para restringir una búsqueda:
 
 1. (Condicional) Si ha realizado una búsqueda general, seleccione el objeto que estaba buscando en la lista de objetos de la parte superior izquierda de los resultados.
-1. Localice los campos disponibles para los objetos mostrados en la búsqueda en la barra de herramientas situada a la izquierda de los resultados.\
-   Se muestran los valores de cada campo, ordenados por recuento (hasta 10 valores por cada campo).
-1. Haga clic dentro de cualquiera de los campos disponibles para acortar la lista de resultados.\
-   Las selecciones que realice se resaltarán en azul y los valores de campo que no seleccione se ocultarán.\
-   Después de seleccionar cada nuevo valor, los resultados a la derecha se actualizan dinámicamente.\
-   ![Refinar búsqueda](assets/qs-refine-search-350x175.png)
+1. Busque los campos disponibles para los objetos mostrados en la búsqueda en la barra de herramientas situada a la izquierda de los resultados.
+Se muestran los valores de cada campo, ordenados por recuento (hasta 10 valores por cada campo).
+1. Haga clic dentro de cualquiera de los campos disponibles para acortar la lista de resultados.
+Las selecciones que realice se resaltarán en azul y los valores de campo que no seleccione se ocultarán.
+Después de seleccionar cada nuevo valor, los resultados a la derecha se actualizan dinámicamente.
+
+   ![Ficha Búsqueda básica](assets/basic-search.png)
 
 1. (Opcional) Haga clic en los valores seleccionados para anular su selección y volver a mostrar todos los valores de cada campo.
 
 ### [!UICONTROL Advanced Search]
 
-La [!UICONTROL Advanced Search] permite buscar utilizando campos y filtros que no están disponibles en la búsqueda básica. Por ejemplo, puede buscar proyectos con una prioridad específica o un nombre de propietario de documentos.
+[!UICONTROL Búsqueda avanzada] le permite buscar utilizando campos y filtros que no están disponibles para la Búsqueda básica. Por ejemplo, puede buscar proyectos con una prioridad específica o un nombre de propietario de documentos.
 
 >[!NOTE]
 >
->Para realizar una [!UICONTROL Advanced Search], debe seleccionar la opción [!UICONTROL Advanced Search] al comenzar la búsqueda. No puede restringir una búsqueda básica en una [!UICONTROL Advanced Search].
+>Para realizar una [!UICONTROL Advanced Search], debe seleccionar la opción [!UICONTROL Advanced Search] al comenzar la búsqueda. No puede restringir una búsqueda básica a una [!UICONTROL búsqueda avanzada].
 
 * [Usar [!UICONTROL Advanced Search]](#use-advanced-search)
 
@@ -260,14 +262,12 @@ Para realizar una búsqueda avanzada:
    La página [!UICONTROL Advanced Search] se abrirá deslizándose desde la derecha y cubrirá la mayor parte de la página anterior.
 
 1. Seleccione el tipo de objeto que está buscando.\
-   **[!UICONTROL Projects]** está seleccionado de manera predeterminada.
+   **[!UICONTROL Tareas]** está seleccionada de manera predeterminada.
 
-   ![Objetos de búsqueda avanzada](assets/advanced-search-objects-qs-remove-after-prod-release.png)
+   ![Objetos de búsqueda avanzada](assets/advanced-search.png)
 
 1. (Opcional) Escriba una palabra clave en el campo de la parte superior de la lista.
-1. (Opcional) Haga clic en **[!UICONTROL Filter your results]** para filtrar los resultados de búsqueda según tipos de campo específicos y, a continuación, seleccione un campo de la lista. Si es necesario, seleccione también un valor para el campo.\
-   O\
-   Añada un nuevo filtro.
+1. (Opcional) Active **[!UICONTROL Filtrar los resultados]** para generar un filtro que restrinja la búsqueda. Haga clic en **Aplicar** cuando termine.
 
 1. Haga clic en **[!UICONTROL Search]**.\
    A la derecha de la barra de herramientas de [!UICONTROL Advanced Search], se muestra una lista de elementos que coinciden con la búsqueda.
