@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 7de63fbe2df6aa5f173b8e5647097e3f8aabc08c
+source-git-commit: 73df51a476695a3af11911da850ce4049c95aa06
 workflow-type: tm+mt
-source-wordcount: '2140'
+source-wordcount: '2204'
 ht-degree: 0%
 
 ---
@@ -277,11 +277,21 @@ Para ver este cambio, vaya al menú Documentos > Haga clic en más situado junto
 
 ## Informes y paneles
 
-+++Amplíe para ver las actualizaciones de la interfaz de Informes y Paneles
+### Se ha actualizado el informe Nivel de acceso con un nuevo estilo
+
+**Versión de vista previa: por determinar; Versión de producción: a partir del 6 de febrero de 2025**
+
+Hemos actualizado el informe Nivel de acceso con un diseño más moderno y coherente con otras áreas de Workfront.
+
+Esta actualización incluye cambios visuales en el informe. No se ha cambiado ninguna funcionalidad.
+
+Para crear un informe de equipo, vaya a Informes > Nuevo informe > Nivel de acceso.
+
++++Amplíe para ver más actualizaciones de la interfaz de Informes y paneles
 
 ### Se ha actualizado el informe de equipo con un nuevo estilo
 
-**Versión preliminar: 30 de enero de 2025; a partir del 6 de febrero de 2025**
+**Versión preliminar: 30 de enero de 2025; versión de producción: a partir del 6 de febrero de 2025**
 
 Hemos actualizado el informe de equipo con un diseño más moderno y coherente con otras áreas de Workfront.
 
