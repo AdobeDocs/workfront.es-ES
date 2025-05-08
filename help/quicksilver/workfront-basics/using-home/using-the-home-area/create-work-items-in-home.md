@@ -6,9 +6,9 @@ description: Puede crear elementos de trabajo y proyectos desde el área [!UICON
 author: Courtney
 feature: Get Started with Workfront, Work Management
 exl-id: 9db6e509-ea6a-493a-9d86-21a163da1915
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 04a9524c4ee9066e7b8d3b47712d70fcfc119b32
 workflow-type: tm+mt
-source-wordcount: '842'
+source-wordcount: '846'
 ht-degree: 16%
 
 ---
@@ -39,7 +39,9 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] licencia*</strong></td> 
-   <td> <p>[!UICONTROL Work] o superior</p> </td> 
+   <td>
+    <p>Nuevo: [!UICONTROL Standard]</p> 
+    <p>Actual: [!UICONTROL Work] o superior</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Configuraciones de nivel de acceso*</strong></td> 
