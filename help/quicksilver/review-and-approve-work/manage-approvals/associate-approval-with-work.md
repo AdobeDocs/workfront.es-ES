@@ -7,9 +7,9 @@ author: Courtney and Alina
 feature: Work Management, Digital Content and Documents
 sexl-id: 20bc2f2a-3ec7-4531-a0a8-ec54c14e15d0
 exl-id: 20bc2f2a-3ec7-4531-a0a8-ec54c14e15d0
-source-git-commit: e02a593ddca923067eb61f838a7ade17e7fc3652
+source-git-commit: 06e42fa713bc9b0c1e308feb2b84ca62dafa416c
 workflow-type: tm+mt
-source-wordcount: '1917'
+source-wordcount: '1891'
 ht-degree: 95%
 
 ---
@@ -123,8 +123,6 @@ Para asociar un proceso de aprobación global existente a un proyecto, tarea, pr
 1. Vaya al elemento de trabajo donde desea asociar un proceso de aprobación.
 1. Haga clic en **Aprobaciones** en el panel izquierdo.
 
-   Es posible que deba hacer clic en **Mostrar más** y luego hacer clic en **Aprobaciones**.
-
    ![Sección de aprobaciones en la tarea](assets/approvals-section-on-task-highlighted-nwe-350x246.png)
 
 1. ![Use las aprobaciones existentes o cree aprobaciones de un solo uso](assets/use-existing-or-create-single-use-approvals-menus-on-pti-classic-350x50.png)
@@ -193,8 +191,6 @@ Crear proceso de aprobación de un solo uso:
 1. Vaya al proyecto, tarea, problema, plantilla o tarea de plantilla donde desea asociar un proceso de aprobación.
 1. Haga clic en **Aprobaciones** en el panel izquierdo.
 
-   Es posible que deba hacer clic en **Mostrar más** > **Aprobaciones**.
-
    ![Sección de aprobaciones en la tarea](assets/approvals-section-on-task-highlighted-nwe-350x246.png)
 
 1. Haga clic en **Crear un solo uso**.
@@ -231,8 +227,6 @@ Para quitar o eliminar un proceso de aprobación de un elemento de trabajo:
 
 1. Vaya al proyecto, tarea, problema, plantilla o tarea de plantilla en el que desea eliminar un proceso de aprobación que haya añadido anteriormente.
 1. Haga clic en **Aprobaciones** en el panel izquierdo.
-
-   Es posible que deba hacer clic en **Mostrar más** > **Aprobaciones**.
 
    ![Sección de aprobaciones en la tarea](assets/approvals-section-on-task-highlighted-nwe-350x246.png)
 

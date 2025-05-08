@@ -6,10 +6,10 @@ description: Los procesos de aprobación proporcionan la flexibilidad para crear
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 1071e456-f111-4c52-b13a-ac1113f69cec
-source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
+source-git-commit: 06e42fa713bc9b0c1e308feb2b84ca62dafa416c
 workflow-type: tm+mt
-source-wordcount: '802'
-ht-degree: 85%
+source-wordcount: '794'
+ht-degree: 84%
 
 ---
 
@@ -129,7 +129,7 @@ Es posible obtener visibilidad sobre dónde se encuentra actualmente una tarea o
 Para ver el estado actual en el que se encuentra una tarea o problema en el proceso de aprobación:
 
 1. Vaya al proyecto, tarea o problema con el que está asociada la aprobación.
-1. En el panel izquierdo, haga clic en **Aprobaciones**. Es posible que primero haya que hacer clic en **Mostrar más**.
+1. En el panel izquierdo, haga clic en **Aprobaciones**.
 
    La pestaña Aprobaciones muestra la información completa sobre todas las rutas y etapas de aprobación anteriores. Es posible ver exactamente quién tomó una decisión sobre la aprobación o si la aprobación está establecida para un equipo, rol de trabajo o usuario.
 

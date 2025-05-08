@@ -6,10 +6,10 @@ description: Puede configurar un proyecto para permitir que los usuarios agregue
 author: Alina, Courtney
 feature: Work Management
 exl-id: 556775e8-7ac9-482d-8c1c-863678584aa4
-source-git-commit: fedb0328450896d212081715df4cde7644b169bc
+source-git-commit: 06e42fa713bc9b0c1e308feb2b84ca62dafa416c
 workflow-type: tm+mt
-source-wordcount: '790'
-ht-degree: 91%
+source-wordcount: '782'
+ht-degree: 90%
 
 ---
 
@@ -78,7 +78,7 @@ Se requieren las siguientes condiciones para configurar un proyecto de modo que 
 >Recomendamos que el proyecto que configure para recibir solicitudes por correo electrónico no tenga más de un tema de cola. Si las solicitudes enviadas están destinadas a diferentes recursos o proyectos, debe redirigirlas o moverlas manualmente una vez que se hayan enviado.
 
 1. Vaya al proyecto que desea habilitar para recibir problemas por correo electrónico.
-1. Haga clic en **Detalles de la cola** el panel de navegación izquierdo. Es posible que deba hacer clic en **Mostrar más** primero.
+1. Haga clic en **Detalles de cola** en el panel izquierdo.
 1. En el área **Tipo de cola**, seleccione **Publicar como cola de solicitudes de ayuda**.
 
 1. Desplácese hacia abajo hasta el área **Configuración de la cola de correos electrónicos**, luego seleccione **Habilitar recepción de solicitudes por correo electrónico**.
