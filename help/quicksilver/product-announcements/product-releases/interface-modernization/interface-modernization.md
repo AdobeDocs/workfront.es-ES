@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 6350e815e39d642a88a2c9c8b17208db5cb253c5
+source-git-commit: 78300d47d9a892a07816d94c448c7b957f11f14f
 workflow-type: tm+mt
-source-wordcount: '2064'
+source-wordcount: '2138'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Para ver todos los demás cambios en Adobe Workfront, consulte [Versiones del pr
 
 ### Actualización de la interfaz para búsqueda avanzada
 
-**Versión preliminar: 17 de abril; versión de producción: por anunciar**
+**Versión preliminar: 17 de abril; versión de producción: a partir de la semana del 24 de abril**
 
 Hemos actualizado el área de Búsqueda avanzada con los siguientes cambios:
 
@@ -344,19 +344,16 @@ Hemos actualizado la página de uso compartido de documentos para usuarios exter
 
 Los usuarios externos ya no pueden obtener acceso a _Mi configuración_ desde esta página.
 
-<!--
+### Se ha actualizado la página de registro de usuarios externos
 
-### Updated external user registration page
+**Versión preliminar: 24 de abril de 2024; versión de producción: a partir del 8 de mayo de 2024**
 
-**Preview release: April 24, 2024; Production release: To be announced**
+Hemos actualizado la página de registro de usuarios externos con un diseño más moderno y coherente con otras áreas de Workfront.
 
-We have updated the external user registration page with a more modern design that is consistent with other areas of Workfront.
+## Licencias
 
+### Página de acuerdo de licencia actualizada
 
-## Licenses
+**Versión preliminar: 24 de abril de 2024; versión de producción: a partir del 8 de mayo de 2024**
 
-### Updated license agreement page
-
-**Preview release: tbd; Production release: To be announced**
-
-We have updated the license agreement page with a more modern design that is consistent with other areas of Workfront.-->
+Hemos actualizado la página del acuerdo de licencia con un diseño más moderno y coherente con otras áreas de Workfront.
