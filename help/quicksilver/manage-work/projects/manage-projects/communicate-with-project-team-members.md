@@ -6,10 +6,10 @@ description: Puede comunicarse fácilmente con los miembros de su equipo del pro
 author: Alina
 feature: Work Management
 exl-id: 2dadc10c-ffa8-4bb5-b2f1-14e2a8f0a7d6
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
 workflow-type: tm+mt
-source-wordcount: '460'
-ht-degree: 0%
+source-wordcount: '452'
+ht-degree: 22%
 
 ---
 
@@ -30,7 +30,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plan Adobe Workfront*</td> 
+   <td role="rowheader">Plan de Adobe Workfront*</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
@@ -39,30 +39,30 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso*</td> 
-   <td> <p>Acceso de visualización o superior a Proyectos</p> <p>Nota: Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, vea <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
+   <td> <p>Acceso de visualización o superior a Proyectos</p> <p>Nota: Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Ver permisos superiores al proyecto</p> <p>Para obtener información sobre cómo solicitar acceso adicional, vea <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a los objetos </a>.</p> </td> 
+   <td> <p>Permisos de visualización o superiores para el proyecto</p> <p>Para obtener información sobre cómo solicitar acceso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de Workfront.
+&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su administrador de Workfront.
 
 ## Enviar un correo electrónico a un miembro del equipo del proyecto {#send-an-email-to-a-project-team-member}
 
 1. Vaya a un proyecto a cuyos miembros del equipo del proyecto desee enviar un correo electrónico.
-1. Haga clic en **Personas** en el panel izquierdo. Es posible que primero deba hacer clic en **Mostrar más**.
+1. Haga clic en **Personas** en el panel izquierdo.
 
    Para actualizar a todos los miembros del equipo del proyecto, haga clic en **Actualizar todo** en la esquina superior izquierda de la lista de miembros del equipo del proyecto.
 
    O
 
-   Para actualizar a ciertos miembros del equipo del proyecto, seleccione uno o varios usuarios de la lista y haga clic en **Enviar actualización al usuario**&#x200B;**&#x200B;**.\
+   Para actualizar a ciertos miembros del equipo del proyecto, seleccione uno o varios usuarios de la lista y haga clic en **Enviar actualización al usuario******.\
    ![Comentando_1.png](assets/commenting-1-350x352.png)
 
-1. Escriba su actualización en el campo **Post y actualice este proyecto**.
+1. Escriba su actualización en el campo **Publicar una actualización en este proyecto**.
 1. (Opcional) Para que la actualización sea privada, haga clic en el icono **Bloquear**.
 
    Los usuarios fuera de la empresa no pueden ver una actualización privada.
@@ -91,7 +91,7 @@ Puede enviar actualizaciones de proyecto a los integrantes del equipo y a otros 
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p>(NOTE: drafted. No longer valid)</p>
 <ol>
 <li value="1"> <p>Go to a project whose members of the project team you want to send an email to. </p> </li>
-<li value="2"> Click <strong>Show More</strong>, then <strong>People</strong> in the left panel.</li>
+<li value="2"> Click <strong>People</strong> in the left panel.</li>
 <li value="3"> <p>To update all members of the project team, click <strong>Update All</strong> in the upper-left corner of the list of project team members.</p> <p>Or</p> <p>To update certain members of the project team, select one or several users in the list, then click <strong>Update</strong>. </p> </li>
 <li value="4">Type your update in the <strong>Post an update to this project</strong> field.</li>
 <li value="5"> <p>(Optional) To make the update private, click the <strong>Lock</strong> icon.</p> <p>Users outside the company cannot view a private&nbsp;update.</p> </li>

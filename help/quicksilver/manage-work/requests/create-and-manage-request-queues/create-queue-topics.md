@@ -7,10 +7,10 @@ author: Alina
 feature: Work Management, Requests
 role: User, Admin
 exl-id: 65a74698-011f-4caa-9739-d7510faeb66f
-source-git-commit: 6311526ddf9143c4a979d8bbac96312a3b0e8151
+source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
 workflow-type: tm+mt
-source-wordcount: '854'
-ht-degree: 97%
+source-wordcount: '844'
+ht-degree: 96%
 
 ---
 
@@ -108,7 +108,7 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
 
    Para obtener información sobre la creación de grupos de temas, consulte [Crear grupos de temas](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md).
 
-1. Haga clic en **Temas de la cola** en el panel de la izquierda. Es posible que tenga que hacer clic en **Mostrar más** y luego en **Temas de la cola**.
+1. Haga clic en **Temas de cola** en el panel izquierdo.
 1. Haga clic en **Nuevo tema de la cola**.
 1. En el formulario **Nuevo tema de la cola**, escriba lo siguiente:
 

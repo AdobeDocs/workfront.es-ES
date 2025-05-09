@@ -6,10 +6,10 @@ description: Puede quitar usuarios de un proyecto cuando ya no estén implicados
 author: Alina
 feature: Work Management
 exl-id: 3a75c78d-faed-41cd-a0a4-59504bb981af
-source-git-commit: afbf2e2fbfcc2c527223da008518bc7632872c23
+source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
 workflow-type: tm+mt
-source-wordcount: '570'
-ht-degree: 0%
+source-wordcount: '561'
+ht-degree: 21%
 
 ---
 
@@ -28,7 +28,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plan Adobe Workfront*</td> 
+   <td role="rowheader">Plan de Adobe Workfront*</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
@@ -37,13 +37,13 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso*</td> 
-   <td> <p>Editar acceso a Proyectos</p> <p><b>NOTA</b>
+   <td> <p>Acceso de edición a proyectos</p> <p><b>NOTA</b>
 
-Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, vea <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td>
+Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Administración de permisos en el proyecto</p> <p>Para obtener información sobre cómo solicitar acceso adicional, vea <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a los objetos </a>.</p> </td> 
+   <td> <p>Administración de permisos en el proyecto</p> <p>Para obtener información sobre cómo solicitar acceso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a objetos</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -65,7 +65,7 @@ Puede quitar usuarios de un proyecto si los quita del equipo del proyecto.
 
 Cuando los usuarios cumplen funciones en un proyecto, pasan a formar parte del equipo del proyecto.
 
-Cuando elimina usuarios de sus funciones en el proyecto, siguen formando parte del equipo del proyecto.
+Al quitar usuarios de sus funciones en el proyecto, siguen formando parte del equipo del proyecto.
 
 Para obtener información acerca de las funciones de los usuarios en un proyecto, vea [Administrar el equipo del proyecto](../planning-a-project/manage-project-team.md).
 
@@ -73,7 +73,7 @@ Para quitar usuarios del equipo del proyecto:
 
 1. Vaya al proyecto en el que desea eliminar a los usuarios.
 
-1. Haga clic en **Personas** en el panel izquierdo y, a continuación, seleccione los usuarios que desee eliminar. Es posible que tengas que hacer clic en **Mostrar más** y luego en **Personas**.
+1. Haga clic en **Personas** en el panel izquierdo y, a continuación, seleccione los usuarios que desee eliminar.
 
 1. Haga clic en el icono **Quitar** ![Quitar elemento](assets/remove-icon---x-in-circle.png) que se encuentra en la parte superior de la lista de usuarios.
 

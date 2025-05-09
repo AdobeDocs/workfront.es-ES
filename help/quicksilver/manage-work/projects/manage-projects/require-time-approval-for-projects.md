@@ -6,10 +6,10 @@ description: Requerir tiempo de aprobación de un proyecto
 author: Alina
 feature: Work Management
 exl-id: e4a27640-9f5c-4a9f-82cc-3384694594af
-source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
+source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
 workflow-type: tm+mt
-source-wordcount: '763'
-ht-degree: 79%
+source-wordcount: '754'
+ht-degree: 81%
 
 ---
 
@@ -98,7 +98,7 @@ Si configura un proyecto para que requiera la aprobación de las horas registrad
 Para aprobar o rechazar las horas de un proyecto:
 
 1. Vaya al proyecto. 
-1. Haga clic en el área **Horas** del panel izquierdo. Puede encontrarse en el área **Mostrar más**.
+1. Haga clic en el área de **Horas** en el panel izquierdo.
 
 1. Se muestran las horas registradas para problemas, tareas y el proyecto, y deben tener un estado de **Enviado**.\
    Haga clic en el cuadro situado a la izquierda de las entradas de horas para seleccionar las horas que desea aprobar.

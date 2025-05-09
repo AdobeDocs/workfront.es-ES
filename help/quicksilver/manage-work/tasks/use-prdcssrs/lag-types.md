@@ -7,9 +7,9 @@ description: El retardo es la cantidad de tiempo que debe transcurrir tras la fi
 author: Alina
 feature: Work Management
 exl-id: 9b3cac9a-1b8d-4697-b5d4-a2d669c790a9
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
 workflow-type: tm+mt
-source-wordcount: '1462'
+source-wordcount: '1452'
 ht-degree: 100%
 
 ---
@@ -142,7 +142,7 @@ Puede indicar tipos de retraso en las tareas cuando defina sus relaciones de tar
 ### Indicar tipos de retraso en la sección Tareas predecesoras de una tarea {#indicate-lag-types-in-the-predecessors-section-of-a-task}
 
 1. Vaya a una tarea para la que desee definir la tarea predecesora y el Tipo de retraso.
-1. Haga clic en **Tareas predecesoras** en el panel izquierdo. Es posible que tenga que hacer clic en **Mostrar más** y luego en **Tareas predecesoras**.
+1. Haga clic en **Predecesoras** en el panel izquierdo.
 1. Haga clic en **Añadir tarea predecesora**.
 1. (Opcional) Si desea añadir una tarea predecesora entre proyectos, reemplace el nombre de **Proyecto principal** por otro proyecto.
 1. Comience a escribir el nombre de la tarea predecesora y, a continuación, selecciónela cuando aparezca en la lista.

@@ -8,10 +8,10 @@ feature: Work Management, Requests
 topic: Collaboration
 role: User, Admin
 exl-id: 640f9054-f2f8-4594-9311-e93518f58453
-source-git-commit: 46c86c1a5e4bb5379409c46669a348ddb53e260b
+source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
 workflow-type: tm+mt
-source-wordcount: '516'
-ht-degree: 88%
+source-wordcount: '506'
+ht-degree: 86%
 
 ---
 
@@ -61,7 +61,7 @@ Una vez creadas, las reglas de enrutamiento no se pueden mover de un proyecto a 
 ## Creación de una regla de enrutamiento
 
 1. Vaya al proyecto en el que desea agregar reglas de enrutamiento para las solicitudes.
-1. Haga clic en **Reglas de enrutamiento** en el panel de la izquierda. Es posible que deba hacer clic en **Mostrar más** y luego en **Reglas de enrutamiento**.
+1. Haga clic en **Reglas de enrutamiento** en el panel izquierdo.
 1. Haga clic en **Nueva regla de enrutamiento** para agregar la nueva regla. Se abre el cuadro **Nueva regla de enrutamiento**.
 
    ![Recuadro Nueva regla de enrutamiento](assets/new-routing-rule-box.png)

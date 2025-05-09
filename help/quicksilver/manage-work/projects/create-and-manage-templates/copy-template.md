@@ -2,54 +2,60 @@
 product-area: templates
 navigation-topic: templates-navigation-topic
 title: Copiar una plantilla de proyecto
-description: En lugar de crear una nueva plantilla de proyecto desde cero, puede copiar una plantilla existente y realizar cambios en ella, si es necesario.
+description: Además de crear una plantilla de proyecto desde cero, también puede copiar una existente y modificarla.
 author: Alina
 feature: Work Management
 exl-id: b2e0878b-8245-4e01-819d-c3746f553d95
-source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
+source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
 workflow-type: tm+mt
-source-wordcount: '335'
-ht-degree: 97%
+source-wordcount: '295'
+ht-degree: 62%
 
 ---
 
 # Copiar una plantilla de proyecto
 
-En lugar de crear una nueva plantilla de proyecto desde cero, puede copiar una plantilla existente y realizar cambios en ella, si es necesario.
+<!--Audited: 5/2025-->
+
+Además de crear una plantilla de proyecto desde cero, también puede copiar una existente y modificarla en Adobe Workfront.
 
 ## Requisitos de acceso
 
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
+
+Debe tener el siguiente acceso.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Plan de Adobe Workfront*</td> 
+   <td role="rowheader">Plan de Adobe Workfront</td> 
    <td> <p>Cualquiera </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licencia de Adobe Workfront*</td> 
-   <td> <p>Plan </p> </td> 
+   <td><p>Nuevo: estándar</p> 
+   <p>Actual:Plan </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraciones de nivel de acceso*</td> 
-   <td> <p>Acceso de edición a las plantillas</p> <p>Nota: Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
+   <td role="rowheader">Configuraciones de nivel de acceso</td> 
+   <td> <p>Acceso de edición a las plantillas</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Permisos de visualización o superiores de una plantilla</p> <p>Para obtener información sobre cómo solicitar acceso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a los objetos </a>.</p> </td> 
+   <td> <p>Permisos de visualización o superiores de una plantilla</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de Workfront.
+*Para obtener información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
++++
 
 ## Consideraciones sobre la copia de plantillas
 
-Los siguientes elementos siempre se copian de un proyecto existente a uno nuevo:
+Los siguientes elementos siempre se copian de una plantilla existente a una nueva:
 
 * Tareas de plantilla
 * Información de valor predeterminado de la tarea de plantilla (proceso de aprobación predeterminado de tarea, formularios personalizados predeterminados de tarea)
@@ -61,18 +67,23 @@ Los siguientes elementos siempre se copian de un proyecto existente a uno nuevo:
 * Documentos
 * Los días de las tareas de plantilla originales se transfieren a la nueva plantilla. Debe cambiar el día de inicio o finalización de la plantilla (según su modo de programación) para actualizar los días de las tareas de plantilla, si es necesario.
 
-Los siguientes elementos nunca se copian de un proyecto existente a uno nuevo:
+Los siguientes elementos nunca se copian de una plantilla existente a una nueva:
 
 * Tarifas de facturación
 * Comentarios del usuario
 
 ## Copiar una plantilla
 
+
+<!--ensure steps and casing on the fields and buttons is accurate with unshim-->
+
 1. Vaya a la plantilla que desea copiar.
-1. Haga clic en el icono **Más** del menú ![Más](assets/qs-more-icon-on-an-object.png) y luego haga clic en **Copiar**.
+1. Haga clic en el icono **Más** del menú ![Más](assets/qs-more-icon-on-an-object.png) a la derecha del nombre de la plantilla en el encabezado, luego haga clic en **Copiar**.
+
+   Se abre el cuadro **Copiar plantilla**.
 1. Especifique un nombre para la plantilla en el campo **Nuevo nombre de plantilla**.
 
-   De manera predeterminada, el nuevo nombre es **Copia de `<original template name>`.**
+   De manera predeterminada, el nuevo nombre es `Copy of Original template name`.
 
 1. Seleccione si desea **Conservar asignaciones de usuarios en tareas y plantillas**: seleccione esta opción para transferir todas las asignaciones de tareas y plantillas de la plantilla original a la nueva plantilla.
 1. Haga clic en **Guardar** para crear una copia de la plantilla.

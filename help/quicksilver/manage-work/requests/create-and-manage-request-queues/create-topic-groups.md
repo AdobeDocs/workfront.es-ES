@@ -8,10 +8,10 @@ feature: Work Management, Requests
 topic: Collaboration
 role: User, Admin
 exl-id: 7c5959f4-f33f-4f5e-b031-748dbe1a24a5
-source-git-commit: 6311526ddf9143c4a979d8bbac96312a3b0e8151
+source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
 workflow-type: tm+mt
-source-wordcount: '466'
-ht-degree: 91%
+source-wordcount: '456'
+ht-degree: 90%
 
 ---
 
@@ -80,7 +80,7 @@ Para crear un grupo de temas:
 1. Vaya al proyecto que ha publicado como Cola de solicitudes de ayuda.\
    Para obtener más información sobre cómo publicar un proyecto como cola de solicitud de ayuda, consulte [Crear una cola de solicitud](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
-1. Haga clic en **Grupos de temas** en el panel izquierdo. Es posible que tenga que hacer clic en **Mostrar más** y luego en **Grupos de temas**.
+1. Haga clic en **Grupos de temas** en el panel izquierdo.
 1. Crear **Nuevo grupo de temas**
 
    ![](assets/new-topic-group-box-nwe-350x306.png)

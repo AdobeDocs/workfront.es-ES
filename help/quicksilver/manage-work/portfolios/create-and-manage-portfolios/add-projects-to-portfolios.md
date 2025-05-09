@@ -6,10 +6,10 @@ description: Le recomendamos que cuando inicie proyectos, los añada a un portaf
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 97f36c18-3ac8-45ac-b5bc-dfe8b1363faf
-source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
+source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
 workflow-type: tm+mt
-source-wordcount: '381'
-ht-degree: 97%
+source-wordcount: '412'
+ht-degree: 77%
 
 ---
 
@@ -67,7 +67,9 @@ Al añadir proyectos a un portafolio, tenga en cuenta lo siguiente:
 
    >[!TIP]
    >
-   >No se puede añadir un proyecto al ver la lista de proyectos en la vista [!UICONTROL Hito].
+   >No se puede agregar un proyecto al ver la lista de proyectos en la vista [!UICONTROL Hito].
+
+   ![Agregar proyecto existente](assets/add-existing-project-from-portfolio-window-nwe-350x545.png)
 
    Seleccione entre las siguientes opciones:
 
@@ -100,9 +102,13 @@ Al añadir proyectos a un portafolio, tenga en cuenta lo siguiente:
 
    ![Nuevo menú desplegable de proyecto](assets/new-project-dropdown-expanded-from-portfolio-nwe-350x376.png)
 
-1. (Condicional) Si ha seleccionado añadir un proyecto existente, empiece a escribir el nombre de un proyecto en el cuadro **[!UICONTROL Añadir proyectos]** y, a continuación, haga clic en ellos cuando aparezcan en la lista. Puede añadir varios proyectos a la vez.
+1. (Condicional) Si seleccionó agregar un proyecto existente, empiece a escribir el nombre de un proyecto en el campo **[!UICONTROL Agregar proyectos a este Portfolio]** y, a continuación, haga clic en ellos cuando aparezcan en la lista.
 
-   ![Agregar proyecto existente](assets/add-existing-project-from-portfolio-window-nwe-350x545.png)
+   Puede agregar más de un proyecto.
+
+1. (Opcional) Si decide no agregarlo al portafolio, haga clic en el icono **X** que aparece a la derecha del nombre del proyecto para quitarlo de la lista.
+
+   <!--replace last step with this, for unshim: 1. (Optional) Click the **Delete** icon ![Delete icon](assets/delete-icon.png) next to the name of a project if you decide not to add it to the portfolio.-->
 
 1. Haga clic en **[!UICONTROL Añadir proyectos]**.
 

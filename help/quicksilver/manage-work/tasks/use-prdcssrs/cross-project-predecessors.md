@@ -6,9 +6,9 @@ description: Una tarea predecesora entre proyectos es una tarea de la que depend
 author: Alina
 feature: Work Management
 exl-id: 7e29e589-e0a5-437e-935d-d5bc1b268594
-source-git-commit: b42436ad660642bd23638a8a44d9561513d748ed
+source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
 workflow-type: tm+mt
-source-wordcount: '752'
+source-wordcount: '742'
 ht-degree: 97%
 
 ---
@@ -72,7 +72,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 ## Crear una predecesora entre proyectos
 
 1. Vaya a la tarea que va a ser su sucesora (tarea dependiente).
-1. Haga clic en **Tareas predecesoras** en el panel izquierdo. Es posible que tenga que hacer clic en **Mostrar más** y luego en **Tareas predecesoras**.
+1. Haga clic en **Predecesoras** en el panel izquierdo.
 
    >[!TIP]
    >

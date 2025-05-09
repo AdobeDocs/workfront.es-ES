@@ -8,9 +8,9 @@ feature: Work Management, Requests
 topic: Collaboration
 role: User, Admin
 exl-id: 385420aa-0962-4b67-9d0d-b153dcf302cf
-source-git-commit: 6311526ddf9143c4a979d8bbac96312a3b0e8151
+source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
 workflow-type: tm+mt
-source-wordcount: '2855'
+source-wordcount: '2845'
 ht-degree: 66%
 
 ---
@@ -139,7 +139,7 @@ To create a Request Queue:
 
 1. Go to the project that you want to set up as a Request Queue.
 1. (Optional) Click **Project Details** in the left panel and add a **Description** to the project in the **Overview** area. This information displays on all new requests.
-1. Click **Queue Details** in the left panel. You might need to click **Show More**, then **Queue Details**.
+1. Click **Queue Details** in the left panel. 
 
    This opens the Queue Details section.
 
@@ -339,7 +339,7 @@ Para crear una cola de solicitudes, haga lo siguiente:
 
 1. Vaya al proyecto que quiera configurar como cola de solicitudes.
 1. (Opcional) Haga clic en **Detalles del proyecto**, en el panel izquierdo, y añada una **Descripción** al proyecto en el área **Información general**. Esta información se mostrará en todas las solicitudes nuevas.
-1. Haga clic en **Detalles de la cola**, en el panel de navegación izquierdo. Es posible que sea necesario hacer clic en **Mostrar más** y, a continuación, en **Detalles de la cola**.
+1. Haga clic en **Detalles de cola** en el panel izquierdo.
 
    Se abrirá la sección de detalles de la cola.
 

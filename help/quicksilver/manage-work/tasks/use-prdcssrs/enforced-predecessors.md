@@ -2,14 +2,14 @@
 product-area: projects
 navigation-topic: use-predecessors
 title: Forzar predecesoras
-description: Las tareas predecesoras son tareas de las que dependen otras tareas para su finalización. Las relaciones de predecesoras afectan a las fechas de inicio y finalización de las tareas y, en última instancia, afectan a la cronología del proyecto.
+description: Las predecesoras son tareas de las que dependen otras tareas para su finalización. Las relaciones de predecesora afectan a las fechas de inicio y finalización de las tareas y, en última instancia, afectan a la línea de tiempo del proyecto.
 author: Alina
 feature: Work Management
 exl-id: c3242b92-9036-4770-a073-2a9c393b97fd
-source-git-commit: 5cb07cb42c3264c6629bc0a038c0e70ffc2cb509
+source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
 workflow-type: tm+mt
-source-wordcount: '494'
-ht-degree: 0%
+source-wordcount: '485'
+ht-degree: 97%
 
 ---
 
@@ -17,23 +17,23 @@ ht-degree: 0%
 
 <!-- Audited: 2/2024 -->
 
-Las tareas predecesoras son tareas de las que dependen otras tareas para su finalización. Las relaciones de predecesoras afectan a las fechas de inicio y finalización de las tareas y, en última instancia, afectan a la cronología del proyecto.
+Las predecesoras son tareas de las que dependen otras tareas para su finalización. Las relaciones de predecesora afectan a las fechas de inicio y finalización de las tareas y, en última instancia, afectan a la línea de tiempo del proyecto.
 
-Para obtener información acerca de las tareas predecesoras, vea [Información general sobre las tareas predecesoras](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md).
+Para obtener información sobre las predecesoras, consulte [Información general sobre las tareas predecesoras](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md).
 
-Al establecer relaciones de predecesoras entre tareas, se define cómo el comienzo o el fin de una tarea dependiente depende del comienzo o del fin de sus tareas predecesoras. Esto se realiza mediante diferentes tipos de dependencia.
+Al establecer relaciones de predecesora entre las tareas, se define cómo el comienzo o la finalización de una tarea dependiente depende del comienzo o de la finalización de sus tareas predecesoras. Esto se realiza mediante diferentes tipos de dependencia.
 
-Para obtener información acerca de los tipos de dependencia, vea [Información general sobre los tipos de dependencia entre tareas](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md).
+Para obtener información acerca de los tipos de dependencia, consulte [Información general sobre los tipos de dependencia entre tareas](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md).
 
 ## Información general sobre predecesoras forzadas
 
 >[!IMPORTANT]
 >
->Debe hacer cumplir las predecesoras para exigir que se respeten las relaciones de predecesoras. Sin aplicar las tareas predecesoras, las tareas dependientes pueden comenzar y finalizar independientemente del comienzo y el fin de sus predecesoras, independientemente de sus tipos de dependencia.
+>Debe imponer predecesoras para exigir que se respeten las relaciones de predecesor. Si no se imponen predecesoras, las tareas dependientes pueden comenzar y finalizar independientemente del comienzo y la finalización de sus predecesoras, independientemente de sus tipos de dependencia.
 
-Puede forzar la relación de predecesoras al establecer predecesoras en un proyecto.
+Puede forzar la relación de predecesora al establecer predecesoras en un proyecto.
 
-Si se fuerza una tarea predecesora, la tarea sucesora no puede iniciarse antes de que finalice la predecesora. Por ejemplo, si se aplica una relación Fin-Comienzo entre la Tarea A y la Tarea B, la Tarea B no puede comenzar (el estado debe ser Nuevo y el porcentaje completado debe permanecer en 0%) hasta que la Tarea A se marque como completada. Las relaciones obligatorias se aplican a todos los tipos de predecesoras.
+Si se fuerza una predecesora, la tarea sucesora no podrá iniciarse antes de que se complete la predecesora. Por ejemplo, si se fuerza una relación Finalizar-Iniciar entre la Tarea A y la Tarea B, la Tarea B no puede comenzar (el estado debe ser Nuevo y el porcentaje completado debe permanecer en 0 %) hasta que la Tarea A se marque como completada. Las relaciones de imposición se aplican a todos los tipos de predecesoras.
 
 ## Requisitos de acceso
 
@@ -46,7 +46,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plan de Adobe Workfront</td> 
+   <td role="rowheader">Plan de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
@@ -59,7 +59,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso</td> 
-   <td> <p>Editar acceso a Tareas y Proyectos</p> </td> 
+   <td> <p>Editar el acceso a Tareas y Proyectos</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
@@ -68,31 +68,31 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  </tbody> 
 </table>
 
-Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Exigir un predecesor en el nivel de tarea
+## Forzar una predecesora a nivel de tarea
 
-1. Vaya a la tarea sucesora cuyo predecesor desea aplicar.
-1. Haga clic en **Predecesoras** en el panel izquierdo y luego haga clic en **Agregar predecesora**. Es posible que tengas que hacer clic en **Mostrar más** y luego en **Predecesoras**.
-1. (Condicional) Si desea agregar una tarea predecesora entre proyectos, quite el nombre del proyecto en el campo **Proyecto principal** y reemplácelo por otro proyecto.
-1. Especifique el nombre de las tareas predecesoras en el campo **Tareas**.
+1. Vaya a la tarea sucesora cuya predecesora desea forzar.
+1. Haga clic en **Predecesoras** en el panel izquierdo y luego haga clic en **Agregar predecesora**.
+1. (Condicional) Si desea añadir una tarea predecesora entre proyectos, quite el nombre del proyecto en el campo **Proyecto principal** y reemplácelo por otro proyecto.
+1. Especifique el nombre de la tarea predecesora en el campo **Tareas**.
 1. Especifique el **Tipo de dependencia** entre estas dos tareas.
 
-   El **tipo de dependencia** predeterminado es **Finalizar-Inicio**.
+   El **Tipo de dependencia** predeterminado es **Finalizar-Iniciar**.
 
-1. Seleccione el campo **Forzado** para forzar el predecesor.
+1. Seleccione el campo **Forzado** para forzar la predecesora.
 1. Haga clic en **Guardar**.
 
-## Forzar un predecesor en una lista de tareas
+## Forzar una predecesora en una lista de tareas
 
-1. Ir a una lista de tareas de un proyecto.
+1. Vaya a una lista de tareas de un proyecto.
 1. En el menú desplegable **Vista**, seleccione la **Vista estándar**.
 
 1. Tome nota mentalmente del número de tareas que va a designar como predecesoras.
-1. Busque la tarea sucesora cuyo predecesor desea aplicar.
-1. En la columna **Predecesoras**, empiece a escribir el número de la tarea predecesora seguida de &quot;e&quot;. Por ejemplo, escriba &quot;1e&quot; para agregar la tarea número 1 como predecesora de la tarea seleccionada.
+1. Busque la tarea sucesora cuya predecesora desea forzar.
+1. En la columna **Predecesoras**, empiece a escribir el número de la tarea predecesora seguida de “e”. Por ejemplo, escriba &quot;1e&quot; para añadir la tarea número 1 como predecesora de la tarea seleccionada.
 1. Haga clic en Entrar para guardar la información de predecesoras de la tarea.
 
-   ![predecesora_forzada_en_lista.png](assets/predecessor-enforced-in-list-350x308.png)
+   ![predecessor_enforced_in_list.png](assets/predecessor-enforced-in-list-350x308.png)
