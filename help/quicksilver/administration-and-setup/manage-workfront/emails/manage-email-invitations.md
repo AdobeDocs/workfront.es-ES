@@ -4,13 +4,13 @@ product-area: system-administration
 navigation-topic: emails-administration
 title: Administrar invitaciones por correo electrónico a nuevos usuarios
 description: Como administrador de Adobe Workfront, puede agregar usuarios a Workfront y notificarles que han sido agregados mediante invitaciones por correo electrónico.
-author: Nolan
+author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: e13e3479-391f-4aec-b998-e9b6057f256b
-source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
+source-git-commit: dccbd5a036e1b148bc8f3e41fac3a67babe6dc9a
 workflow-type: tm+mt
-source-wordcount: '932'
+source-wordcount: '936'
 ht-degree: 17%
 
 ---
@@ -69,7 +69,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 +++
 
-## Generar invitaciones por correo electrónico {#generate-email-invitations}
+## Reenviar invitaciones por correo electrónico a usuarios no registrados existentes
 
 Las invitaciones por correo electrónico se generan en los siguientes casos:
 
@@ -82,7 +82,7 @@ Las invitaciones por correo electrónico se generan en los siguientes casos:
   >
   >Si anula la selección del cuadro **Enviar una invitación por correo electrónico a esta persona** al crear el usuario, la invitación por correo electrónico no se podrá generar manualmente. El reenvío manual de las invitaciones por correo electrónico solo es posible para los usuarios a los que se les ha enviado la invitación por correo electrónico original cuando se creó su cuenta. Para obtener más información sobre cómo crear usuarios nuevos, consulte [Añadir usuarios](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md).
 
-Para generar manualmente invitaciones por correo electrónico a usuarios no registrados existentes:
+Para reenviar manualmente invitaciones por correo electrónico a usuarios no registrados existentes:
 
 {{step-1-to-users}}
 
@@ -96,9 +96,9 @@ Para generar manualmente invitaciones por correo electrónico a usuarios no regi
 
    >[!NOTE]
    >
-   >Si su organización se ha incorporado al Admin Console y agrega un usuario a través de Workfront, no tiene la opción de enviar una invitación por correo electrónico a los nuevos usuarios.
+   >Si su organización se ha incorporado a Admin Console y agrega un usuario a través de Workfront, no tiene la opción de enviar una invitación por correo electrónico a los nuevos usuarios.
    >
-   >Los nuevos usuarios de Adobe se añaden al Admin Console Admin Console y este envía un correo electrónico para invitarlos a completar el proceso de registro. Todos los usuarios deben completar el proceso de registro para acceder a cualquier sistema de Adobe.
+   >Los nuevos usuarios de Adobe se añaden a Admin Console y Admin Console envía un correo electrónico para invitarlos a completar el proceso de registro. Todos los usuarios deben completar el proceso de registro para acceder a cualquier sistema de Adobe.
    >
    >Para los usuarios de Adobe existentes, el usuario puede recibir o no un correo electrónico sobre la disponibilidad de Workfront. Esta es una preferencia que controla el administrador de Adobe para este producto.
 
