@@ -7,10 +7,10 @@ description: Puede utilizar el Distribuidor de cargas de trabajo para programar 
 author: Lisa
 feature: Resource Management
 exl-id: 88029c9d-b588-4d33-801a-04f49b12a6e8
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 485f2985c70b1bb095e31323b7b4698bcb7a04cf
 workflow-type: tm+mt
-source-wordcount: '724'
-ht-degree: 93%
+source-wordcount: '714'
+ht-degree: 92%
 
 ---
 
@@ -122,7 +122,7 @@ Se muestra la página de su equipo de inicio.
 {{step1-to-projects}}
 
 1. Haga clic en el nombre de un proyecto para abrir su página.
-1. Haga clic en **Distribuidor de cargas de trabajo** en el panel de la izquierda. Es posible que tenga que hacer clic en **Mostrar más** y luego en **Distribuidor de cargas de trabajo**.
+1. Haga clic en **Distribuidor de cargas de trabajo** en el panel de la izquierda.
 
    Se muestra el Distribuidor de cargas de trabajo para el proyecto.
 

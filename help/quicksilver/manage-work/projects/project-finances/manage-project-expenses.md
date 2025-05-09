@@ -6,10 +6,10 @@ description: El proceso de creación y administración de gastos es el mismo par
 author: Lisa
 feature: Work Management
 exl-id: 80c41b08-3618-4d6e-8d07-1736b2f824ea
-source-git-commit: b983a780198743a2b87b4b48cf4d6afdf1cee437
+source-git-commit: 485f2985c70b1bb095e31323b7b4698bcb7a04cf
 workflow-type: tm+mt
 source-wordcount: '544'
-ht-degree: 88%
+ht-degree: 84%
 
 ---
 
@@ -58,14 +58,13 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
 ## Agregar gastos
 
 1. Vaya al proyecto en el que desea introducir los gastos.\
-   Si desea añadir gastos a una tarea, vaya a una tarea en su lugar. 
-1. Haga clic en **Mostrar más** y luego haga clic en **Gastos**.
-1. Haga clic en **Añadir un gasto**.
+   Si desea añadir gastos a una tarea, vaya a una tarea en su lugar.
+1. Haga clic en **Gastos** en el panel izquierdo.
+1. Haga clic en **Agregar un gasto**.
 Se muestra el cuadro de diálogo **Añadir un gasto**.
 1. Actualice lo siguiente:
 
    * **Descripción:** descripción del gasto.
-
    * **Tipo de gasto:** (obligatorio) seleccione la categoría que mejor describa el gasto.
    * **Tarea:** empiece a escribir el nombre de la tarea a la que está asociado este gasto y, a continuación, haga clic en ella cuando aparezca en la lista desplegable.
    * **Importe planificado:** el importe presupuestado planificado para el gasto.\
@@ -87,7 +86,6 @@ Se muestra el cuadro de diálogo **Añadir un gasto**.
 ## Eliminar gastos
 
 1. Vaya al proyecto en el que desea eliminar los gastos.
-1. Haga clic en **Mostrar más** y luego en **Gastos**.
+1. Haga clic en **Gastos** en el panel izquierdo.
 1. Seleccione los gastos que desee eliminar y, a continuación, haga clic en **Eliminar** ![Eliminar](assets/delete.png).
-
 1. Haga clic en **Sí, eliminar** para confirmar la eliminación.

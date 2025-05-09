@@ -5,9 +5,9 @@ author: Lisa
 feature: Work Management
 role: User
 exl-id: 97c33c5a-e42d-4015-841f-69dc44a0599d
-source-git-commit: e5a87b92bf1f6c2e0485ba8a2eb73e52c422b2fc
+source-git-commit: 485f2985c70b1bb095e31323b7b4698bcb7a04cf
 workflow-type: tm+mt
-source-wordcount: '408'
+source-wordcount: '400'
 ht-degree: 97%
 
 ---
@@ -69,7 +69,7 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
 ## Adjuntar una tarjeta de tarifas a un proyecto
 
 1. Vaya al proyecto. 
-1. Haga clic en **Tarifas de facturación** en el panel izquierdo. Es posible que primero tenga que hacer clic en **Mostrar más**.
+1. Haga clic en **Tarifas de facturación** en el panel de la izquierda.
 1. Haga clic en **Añadir tarifa de facturación > Adjuntar una tarjeta de tarifas**.
 
    Se abre la página Adjuntar una tarjeta de tarifas. Para obtener más información, consulte [Administrar tarjetas de tarifas](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).

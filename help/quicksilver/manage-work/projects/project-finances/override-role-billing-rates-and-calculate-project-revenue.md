@@ -6,7 +6,7 @@ description: Puede utilizar tarifas de facturación para calcular los ingresos d
 author: Lisa
 feature: Work Management
 exl-id: 63ba6758-ba62-48b4-89f4-d784e32a1bfa
-source-git-commit: e5a87b92bf1f6c2e0485ba8a2eb73e52c422b2fc
+source-git-commit: 485f2985c70b1bb095e31323b7b4698bcb7a04cf
 workflow-type: tm+mt
 source-wordcount: '3860'
 ht-degree: 99%
@@ -134,7 +134,7 @@ Para obtener más información sobre qué función se utiliza para calcular los 
 <p>To override a billing rate for a project:</p>
 <ol>
 <li value="1">Go to the project you want to override billing rates for.</li>
-<li value="2"> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click <strong>Billing Rates</strong> in the left panel. You might have to first click <strong>Show More</strong>. </p> </li>
+<li value="2"> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click <strong>Billing Rates</strong> in the left panel. </p> </li>
 <li value="3"> <p>Click <strong>Add Billing Rate</strong> > <strong>New Billing Rate</strong>.</p> <p>The New Billing Rate box opens</p> <p> <img src="assets/override-billing-rate-on-project-nwe-350x310.png" style="width: 350;height: 310;"> </p> <p> <br>The <strong>Default Billing Rate</strong> field displays the system-level rate for this job role.</p> </li>
 <li value="4">In the <strong>Job Role</strong> field, select the job role you want to change the billing rate for.<br></li>
 <li value="5">In the <strong>Billing Rates 1</strong> field, enter the one time billing rate override, then click <strong>Save</strong> to override the billing rate one time, <br>Or Click <strong>Add Rate</strong> to add more billing rate overrides.</li>
@@ -327,7 +327,7 @@ Tenga en cuenta lo siguiente al calcular los ingresos planificados para usuarios
 
 * Las **Horas planificadas** se distribuyen de manera uniforme en la **Duración** de la tarea.
 
-* La **duración** es el período de tiempo entre la **Fecha planificada de inicio** **&#x200B;**&#x200B;y la **Fecha planificada de finalización** de la tarea. Dado que la **Fecha planificada de inicio** y la **Fecha planificada de finalización** de las tareas pueden diferir según las zonas horarias de los usuarios que ven la tarea, la cantidad de horas planificadas por día puede ser diferente para dos usuarios en dos zonas horarias diferentes.
+* La **duración** es el período de tiempo entre la **Fecha planificada de inicio** **** y la **Fecha planificada de finalización** de la tarea. Dado que la **Fecha planificada de inicio** y la **Fecha planificada de finalización** de las tareas pueden diferir según las zonas horarias de los usuarios que ven la tarea, la cantidad de horas planificadas por día puede ser diferente para dos usuarios en dos zonas horarias diferentes.
 
 * La cantidad de horas planificadas por día no cambia los ingresos planificados de un proyecto si la tarifa de facturación de la función no cambia, o cuando solo hay una anulación de tarifa de facturación. En este caso, incluso si dos usuarios de dos zonas horarias diferentes ven diferentes horas planificadas por día, los ingresos planificados generales del proyecto son idénticos entre los dos usuarios.
 

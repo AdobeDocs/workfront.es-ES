@@ -6,9 +6,9 @@ description: Puede ver la utilización de sus recursos en el informe Utilizació
 author: Lisa
 feature: Resource Management
 exl-id: 785ee3e9-1b2d-4180-bc78-c41e71c5244d
-source-git-commit: 696d656816a4c1c2edef4347567b2fc553f489f7
+source-git-commit: 485f2985c70b1bb095e31323b7b4698bcb7a04cf
 workflow-type: tm+mt
-source-wordcount: '7283'
+source-wordcount: '7285'
 ht-degree: 99%
 
 ---
@@ -453,7 +453,7 @@ Para realizar un seguimiento del progreso o el coste de uno o más proyectos con
 
    * Para ver la información de utilización de un solo proyecto:
 
-      1. Vaya a un proyecto cuya información de utilización desee ver y, a continuación, haga clic en **Mostrar más > Utilización**.
+      1. Vaya a un proyecto cuya información de utilización desee ver y, a continuación, haga clic en **Utilización** en el panel izquierdo.
       1. La información de utilización se muestra automáticamente cuando se visualiza un proyecto individual y no es necesario aplicar un filtro.\
          Si desea filtrar el informe de utilización, puede aplicar un filtro y luego hacer clic en **Ejecutar**.\
          Para obtener información sobre cómo filtrar el informe de utilización, consulte [Filtrar información de utilización](#filter-utilization-information) en este artículo.\

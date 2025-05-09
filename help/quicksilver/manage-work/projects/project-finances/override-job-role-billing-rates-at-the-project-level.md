@@ -6,9 +6,9 @@ description: Como gerente del proyecto, puede especificar cuál es la tarifa de 
 author: Lisa
 feature: Work Management
 exl-id: b7a33459-6929-4611-8546-06ca979e5dbe
-source-git-commit: b983a780198743a2b87b4b48cf4d6afdf1cee437
+source-git-commit: 485f2985c70b1bb095e31323b7b4698bcb7a04cf
 workflow-type: tm+mt
-source-wordcount: '825'
+source-wordcount: '817'
 ht-degree: 31%
 
 ---
@@ -80,7 +80,7 @@ Puede anular la tasa de facturación de un rol en un proyecto de las siguientes 
 Para sustituir una tarifa de facturación para un proyecto:
 
 1. Vaya al proyecto para el que desea anular las tarifas de facturación.
-1. Haga clic en **Tarifas de facturación** en el panel izquierdo. Es posible que primero tenga que hacer clic en **Mostrar más**.
+1. Haga clic en **Tarifas de facturación** en el panel de la izquierda.
 1. Haga clic en **Agregar tarifa de facturación** > **Nueva tarifa de facturación**.
 
    Se abre la casilla Nueva tarifa de facturación.
