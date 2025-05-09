@@ -327,7 +327,7 @@ Tenga en cuenta lo siguiente al calcular los ingresos planificados para usuarios
 
 * Las **Horas planificadas** se distribuyen de manera uniforme en la **Duración** de la tarea.
 
-* La **duración** es el período de tiempo entre la **Fecha planificada de inicio** **** y la **Fecha planificada de finalización** de la tarea. Dado que la **Fecha planificada de inicio** y la **Fecha planificada de finalización** de las tareas pueden diferir según las zonas horarias de los usuarios que ven la tarea, la cantidad de horas planificadas por día puede ser diferente para dos usuarios en dos zonas horarias diferentes.
+* La **duración** es el período de tiempo entre la **Fecha planificada de inicio** **&#x200B;**&#x200B;y la **Fecha planificada de finalización** de la tarea. Dado que la **Fecha planificada de inicio** y la **Fecha planificada de finalización** de las tareas pueden diferir según las zonas horarias de los usuarios que ven la tarea, la cantidad de horas planificadas por día puede ser diferente para dos usuarios en dos zonas horarias diferentes.
 
 * La cantidad de horas planificadas por día no cambia los ingresos planificados de un proyecto si la tarifa de facturación de la función no cambia, o cuando solo hay una anulación de tarifa de facturación. En este caso, incluso si dos usuarios de dos zonas horarias diferentes ven diferentes horas planificadas por día, los ingresos planificados generales del proyecto son idénticos entre los dos usuarios.
 

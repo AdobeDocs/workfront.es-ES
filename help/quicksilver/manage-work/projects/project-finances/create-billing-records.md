@@ -256,4 +256,4 @@ Después de crear un registro de facturación e incluir horas, gastos e ingresos
      Included Hourly Revenue (Billable Hours) + Included Expenses (Billable Expenses) + Included Fixed Revenue (Billable Revenues) + Fixed Amount for Other Billable Items (Additional Amount)
      ```
 
-1. Haga clic en **Guardar****cambios**.
+1. Haga clic en **Guardar**&#x200B;**cambios**.
