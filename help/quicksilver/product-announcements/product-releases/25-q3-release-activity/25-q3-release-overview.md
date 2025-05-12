@@ -5,10 +5,10 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9342f393-a404-44b4-aad6-2c4cf634dfd5
-source-git-commit: b81164511776efed53d3f41b4ac1cbf0c035c741
+source-git-commit: d0a82c1ae306edb4f63c961120bb1df4613ace7e
 workflow-type: tm+mt
-source-wordcount: '718'
-ht-degree: 41%
+source-wordcount: '758'
+ht-degree: 39%
 
 ---
 
@@ -56,6 +56,15 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td><strong>Liberación rápida</strong></td>
         <td><strong>Trimestralmente</strong></td>
     </tr>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Actualización del visor de corrección de escritorio</a><p>[!BADGE Off schedule]{type=Neutral}</p>
+            <p>Esta actualización es una corrección del problema para mantener la compatibilidad del Visor de escritorio con los sistemas operativos de Mac. El electrón fue bajado a 34.4.0 y el cromo bajó a 132.</p>
+        </td>
+        <td>jueves, 07 de mayo de 2025</td>
+        <td>jueves, 07 de mayo de 2025</td>
+        <td>jueves, 07 de mayo de 2025</td>
+    </tr> 
       <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Assets en una carpeta Google vinculada debe agregarse individualmente para que aparezca en Workfront</a><p>[!BADGE Off schedule]{type=Neutral}</p>
@@ -170,7 +179,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
 
 ### Mejoras de Workfront Fusion
 
-Las nuevas funciones de Workfront Fusion están disponibles en el entorno de producción en una cadencia fuera de la programación de versiones estándar. Para obtener más información sobre las últimas funciones, consulte [Actividad de la versión de Adobe Workfront Fusion](https://experienceleague.adobe.com/es/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
+Las nuevas funciones de Workfront Fusion están disponibles en el entorno de producción en una cadencia fuera de la programación de versiones estándar. Para obtener más información sobre las últimas funciones, consulte [Actividad de la versión de Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
 
 ### Mejoras de Workfront Planning
 

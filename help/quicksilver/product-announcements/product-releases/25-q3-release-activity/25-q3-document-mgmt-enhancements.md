@@ -5,10 +5,10 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4829d487-7041-447f-9a68-fb1acf467734
-source-git-commit: f9de87b7b874910cb986cbf6d57e998afe602bb8
+source-git-commit: d0a82c1ae306edb4f63c961120bb1df4613ace7e
 workflow-type: tm+mt
-source-wordcount: '346'
-ht-degree: 18%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -18,9 +18,14 @@ Esta página describe todas las mejoras realizadas en la administración de docu
 
 Para obtener una lista de todos los cambios disponibles en este punto del ciclo de la versión del tercer trimestre de 2025, consulte [Información general de la versión del tercer trimestre de 2025](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-release-overview.md).
 
->[!IMPORTANT]
->
->Las características enumeradas en esta página forman parte de un lanzamiento por fases y solo están disponibles para determinados clientes.
+## Actualización del visor de corrección de escritorio
+
+El Visor de corrección de escritorio se ha actualizado a la versión 2.1.48.
+
+Esta actualización es una corrección del problema para mantener la compatibilidad del Visor de escritorio con los sistemas operativos de Mac. El electrón fue bajado a 34.4.0 y el cromo bajó a 132.
+
+Esta actualización es para Mac y Windows.
+
 
 ## Assets en una carpeta Google vinculada debe añadirse individualmente para que aparezca en Workfront
 
@@ -43,6 +48,10 @@ Funcionalidades clave que permanecen sin cambios:
 
 
 ## Nuevos botones de decisión de aprobación de documento disponibles en el visor de pruebas
+
+>[!IMPORTANT]
+>
+>Esta función forma parte de una versión por fases y solo está disponible para clientes específicos.
 
 >[!NOTE]
 >
