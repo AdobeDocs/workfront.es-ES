@@ -7,7 +7,7 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 6761f5af-2501-4487-8114-2751f1e4fe69
-source-git-commit: 036846cc84e53b090276f7b853372e4e0050c316
+source-git-commit: b81164511776efed53d3f41b4ac1cbf0c035c741
 workflow-type: tm+mt
 source-wordcount: '689'
 ht-degree: 2%
@@ -88,7 +88,7 @@ Para obtener más información, consulte [Administrar la vista de línea de tiem
 >[!NOTE]
 >
 >* Vista previa: 17 de abril de 2025
->* Versión rápida de producción: 15 de mayo de 2025
+>* Versión rápida de producción: 12 de junio de 2025
 >* Producción para todos los clientes: viernes, 17 de julio de 2025
 
 Para controlar mejor quién puede ver o administrar registros en cada tipo de registro y garantizar que solo las personas autorizadas puedan administrar la información de cada tipo de registro en función de sus funciones y responsabilidades, hemos introducido permisos en el nivel de tipo de registro.
