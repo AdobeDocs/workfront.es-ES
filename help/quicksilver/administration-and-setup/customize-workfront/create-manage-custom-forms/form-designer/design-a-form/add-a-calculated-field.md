@@ -8,14 +8,16 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 407aae49-4bc3-4364-a794-7e170a57a6d3
-source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
+source-git-commit: 0c2a54406ceb690e638cdc0376a3dc01a7c2df76
 workflow-type: tm+mt
-source-wordcount: '2422'
-ht-degree: 90%
+source-wordcount: '2434'
+ht-degree: 80%
 
 ---
 
 # Añadir campos calculados a un formulario
+
+<!-- Audited: 5/2025 -->
 
 Puede añadir un campo personalizado calculado que utilice datos existentes para generar datos nuevos cuando el formulario personalizado se adjunte a un objeto.
 
@@ -77,7 +79,7 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
 
 Puede utilizar el mismo campo personalizado calculado en formularios personalizados que pertenezcan a objetos diferentes. Por ejemplo, puede utilizar el campo calculado Beneficio que ha creado para el formulario personalizado del proyecto en un formulario personalizado de tarea.
 
-Cuando se utiliza un campo personalizado calculado existente, el cálculo no se transfiere al nuevo formulario. Debe volver a añadir el cálculo, en el mismo campo, en el nuevo formulario personalizado.
+Al utilizar un campo personalizado calculado existente, el cálculo no se transfiere al nuevo formulario. Debe volver a agregar el cálculo en el mismo campo del nuevo formulario personalizado.
 
 Puede tener un cálculo diferente para el mismo campo en el nuevo formulario. Mantener el mismo nombre para el campo personalizado calculado garantiza la coherencia y la cohesión en la convención de nomenclatura.
 
@@ -93,15 +95,15 @@ Para reutilizar un campo personalizado calculado existente:
 
 {{step-1-to-setup}}
 
-1. Haga clic en **Formularios personalizados** en el panel izquierdo. 
+1. En el panel izquierdo, haga clic en **Forms personalizado** y luego en **Forms**.
 
    <!-- >[!TIP]
     >
     >In the view that appears, you can review all custom forms and custom fields that have been created for your organization. You can also see who created each form and the fields that are associated with it. -->
 
-1. Haga clic en **Nuevo formulario personalizado.**
-1. Seleccione a qué tipos de objetos desea adjuntar el formulario personalizado y, a continuación, haga clic en **Continuar**.
+1. Haga clic en **Nuevo formulario personalizado**.
 
+1. En el cuadro de diálogo **Nuevo formulario personalizado**, seleccione a qué tipos de objeto desea adjuntar el formulario personalizado y, a continuación, haga clic en **Continuar**.
 1. En la parte superior izquierda de la pantalla, haga clic en **Biblioteca de campos**.
 
    ![Biblioteca de campos](assets/field-library.png)
@@ -131,14 +133,15 @@ Para reutilizar un campo personalizado calculado existente:
 
 {{step-1-to-setup}}
 
-1. Haga clic en **Formularios personalizados** en el panel izquierdo. 
+1. En el panel izquierdo, haga clic en **Forms personalizado** y luego en **Forms**.
+
+1. Haga clic en **Nuevo formulario personalizado**.
 
    <!-- >[!TIP]
     >
     >In the view that appears, you can review all custom forms and custom fields that have been created for your organization. You can also see who created each form and the fields that are associated with it. -->
 
-1. Haga clic en **Nuevo formulario personalizado.**
-1. Seleccione qué tipos de objetos desea adjuntar al formulario personalizado y, a continuación, haga clic en **Continuar**.
+1. En el cuadro de diálogo **Nuevo formulario personalizado**, seleccione a qué tipos de objeto desea adjuntar el formulario personalizado y, a continuación, haga clic en **Continuar**.
 
 1. En el lado izquierdo de la pantalla, busque **Calculado** y arrástrelo hasta una sección del lienzo.
 
@@ -166,9 +169,9 @@ Para reutilizar un campo personalizado calculado existente:
      </tr> 
      <tr> 
       <td role="rowheader">Formato</td> 
-      <td> <p>El formato en el que desea que se almacenen y muestren los resultados del campo.</p> <p>Si el campo se va a utilizar en cálculos matemáticos, utilice siempre un formato <strong>Número</strong> o <strong>Moneda</strong>. Al seleccionar Número o Moneda, el sistema trunca automáticamente los números que comienzan por 0.</p> 
-      <p><b>IMPORTANTE</b>: antes de elegir un formato, tenga en cuenta el formato correcto para el nuevo campo. El campo de formato no se puede editar una vez guardado el formulario personalizado. Y seleccionar el formato incorrecto podría afectar a futuros cálculos y valores acumulados en las agrupaciones de informes y listas.</p>
-      <p><strong>NOTA:</strong> Los campos calculados con un formato Moneda no deben incluir comillas. (Por ejemplo, use 800,00 y no "800,00"). El uso de comillas puede tener consecuencias inesperadas debido a los matices del formato de idioma para los tipos de moneda.</p></td>
+      <td> <p>El formato en el que desea que se almacenen y muestren los resultados del campo.</p> <p>Si el campo se va a utilizar en cálculos matemáticos, utilice siempre un formato <strong>Número</strong> o <strong>Moneda</strong>. Si selecciona <strong>Número</strong> o <strong>Moneda</strong>, el sistema trunca automáticamente los números que comienzan por 0.</p> 
+      <p><b>IMPORTANTE</b>: antes de elegir un formato, tenga en cuenta el formato correcto para el nuevo campo. El campo de formato no se puede editar después de guardar el formulario personalizado. Y seleccionar el formato incorrecto podría afectar a futuros cálculos y valores acumulados en las agrupaciones de informes y listas.</p>
+      <p><strong>NOTA</strong>: los campos calculados con un formato <strong>Divisa</strong> no deben incluir comillas. (Por ejemplo, use 800,00 y no "800,00"). El uso de comillas puede tener consecuencias inesperadas debido a los matices del formato de idioma para los tipos de moneda.</p></td>
      </tr> 
     </tbody> 
    </table>
@@ -295,7 +298,7 @@ Un cálculo suele comenzar con una expresión, seguida de paréntesis que contie
       >
       >Puede realizar cualquiera de las siguientes acciones para obtener ayuda con el cálculo:
       > 
-      >* Pase el puntero por encima de una expresión del cálculo para ver una descripción, un ejemplo que muestre cómo se puede usar y un vínculo &quot;Más información&quot; para obtener más información en el artículo [Información general sobre las expresiones de datos calculados](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+      >* Pase el ratón sobre una expresión del cálculo para ver una descripción, un ejemplo que muestra cómo se puede usar y un vínculo de **Más información** para obtener más información en el artículo [Información general sobre las expresiones de datos calculados](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
       >  ![Texto de ayuda de expresión](assets/hover-expression-help-text.jpg)
       >* Utilice la codificación de color para identificar los componentes que ha añadido. Las expresiones se muestran en azul y los campos en verde.
       >  ![Colores para expresiones de campo](assets/colors-fields-expressions.jpg)
@@ -317,7 +320,7 @@ Un cálculo suele comenzar con una expresión, seguida de paréntesis que contie
     <tbody> 
      <tr> 
       <td role="rowheader">Agregar lógica</td> 
-      <td>Puede añadir Lógica de visualización para determinar si el campo calculado se muestra, en función de al menos una opción que realice un usuario en un campo de opción múltiple anterior (Lista desplegable, Casillas de verificación o Botones de opción) al rellenar el formulario. <!-- For more information, see <a href="Need to add link for new article when it's written" class="MCXref xref">Add display logic and skip logic to a custom form</a>.--> <p>Esto solo está disponible cuando al menos una casilla de verificación, un botón de opción o un campo desplegable preceden al campo personalizado calculado en el formulario. </p> <p>La lógica de omisión no está disponible para los campos personalizados calculados.</p> </td> 
+      <td>Puede agregar Lógica de visualización para determinar si el campo calculado se muestra, en función de al menos una opción que realice un usuario en un campo de opción múltiple anterior (Lista desplegable, Casillas de verificación o Botones de opción) al rellenar el formulario. <!-- For more information, see <a href="Need to add link for new article when it's written" class="MCXref xref">Add display logic and skip logic to a custom form</a>.--> <p>Esto solo está disponible cuando al menos una casilla de verificación, un botón de opción o un campo desplegable preceden al campo personalizado calculado en el formulario. </p> <p>La lógica de omisión no está disponible para los campos personalizados calculados.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Actualizar cálculos anteriores</td> 

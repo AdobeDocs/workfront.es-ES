@@ -3,9 +3,9 @@ user-guide-title: Guía de Workfront
 user-guide-description: Utilice los siguientes documentos, tutoriales y recursos adicionales para aprender a implementar y utilizar Adobe Workfront de forma eficaz en su organización.
 role: User
 feature-set: Workfront
-source-git-commit: c02c5173626857b279b20ebe2784f8d81b1a1fcc
+source-git-commit: ad6d983524e19e60e0c884faed2990d9fa6549d7
 workflow-type: tm+mt
-source-wordcount: '13189'
+source-wordcount: '13194'
 ht-degree: 61%
 
 ---
@@ -409,7 +409,7 @@ ht-degree: 61%
    * Configuración de Workfront {#set-up-wf}
       * [Configuración de](administration-and-setup/set-up-workfront/set-up-workfront.md)
       * Configurar valores predeterminados del sistema {#configure-system-defaults}
-         * [Configurar valores predeterminados](administration-and-setup/set-up-workfront/configure-system-defaults/configure-system-defaults.md)
+         * [Configurar valores predeterminados del sistema: índice del artículo](administration-and-setup/set-up-workfront/configure-system-defaults/configure-system-defaults.md)
          * [Configurar preferencias del proyecto](administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)
          * [Configurar las preferencias de tareas y problemas](administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md)
          * [Bloquear preferencias de proyecto para grupos](administration-and-setup/set-up-workfront/configure-system-defaults/lock-or-unlock-project-preferences-for-groups-system.md)
@@ -1462,7 +1462,7 @@ ht-degree: 61%
       * [Información general sobre tareas y problemas delegados](manage-work/delegate-work/delegate-work-overview.md)
       * [Delegar tareas y problemas](manage-work/delegate-work/how-to-delegate-work.md)
 * Equipos y grupos {#teams-groups}
-   * [Equipos y grupos](people-teams-and-groups/people-teams-and-groups.md)
+   * [Equipos y grupos: índice de artículos](people-teams-and-groups/people-teams-and-groups.md)
    * Crear y administrar equipos {#create-manage-teams}
       * [Crear y administrar equipos](people-teams-and-groups/create-and-manage-teams/create-and-mange-teams.md)
       * [Información general sobre Teams](people-teams-and-groups/create-and-manage-teams/teams-overview.md)
