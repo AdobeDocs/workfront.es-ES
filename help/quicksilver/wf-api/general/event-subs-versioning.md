@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 151b9d0d-0dd6-4ece-9601-dda04356b436
-source-git-commit: 19e0b792bc49ede0504af479952fdbdf384dc73c
+source-git-commit: e4ff9c9c44c75518e75b14209a18586363cdf4f5
 workflow-type: tm+mt
-source-wordcount: '1275'
+source-wordcount: '1259'
 ht-degree: 1%
 
 ---
@@ -32,7 +32,6 @@ Para obtener información sobre los extremos utilizados para actualizar o degrad
 >Las siguientes versiones afectarán al control de versiones de suscripciones a eventos:
 >
 >* **Versión 25.2** (10 de abril de 2025): todas las suscripciones nuevas creadas después de la versión 25.2 se crean como Versión 2.
->* **Versión 25.3** (17 de julio de 2025): las suscripciones ya no se pueden actualizar a la Versión 1 después de la versión 25.3.
 >* **15 de enero de 2026**: todas las suscripciones de la versión 1 restantes se migran a la versión 2.
 
 ## Cambios entre las versiones 1 y 2
@@ -256,4 +255,4 @@ Se han realizado los siguientes cambios para las suscripciones de evento Versió
 
 Workfront Fusion utiliza suscripciones de eventos para inspeccionar los cambios en Workfront en los escenarios de déclencheur. Puede actualizar la versión de suscripción de evento que Fusion utiliza directamente en un escenario mediante el módulo Workfront > Actualizar versión de carga útil de eventos.
 
-Para obtener instrucciones sobre el uso de este módulo, consulte [Módulos de Workfront](https://experienceleague.adobe.com/es/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-modules) en la documentación de Workfront Fusion.
+Para obtener instrucciones sobre el uso de este módulo, consulte [Módulos de Workfront](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-modules) en la documentación de Workfront Fusion.
