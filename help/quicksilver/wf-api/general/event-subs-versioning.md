@@ -255,4 +255,4 @@ Se han realizado los siguientes cambios para las suscripciones de evento Versió
 
 Workfront Fusion utiliza suscripciones de eventos para inspeccionar los cambios en Workfront en los escenarios de déclencheur. Puede actualizar la versión de suscripción de evento que Fusion utiliza directamente en un escenario mediante el módulo Workfront > Actualizar versión de carga útil de eventos.
 
-Para obtener instrucciones sobre el uso de este módulo, consulte [Módulos de Workfront](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-modules) en la documentación de Workfront Fusion.
+Para obtener instrucciones sobre el uso de este módulo, consulte [Módulos de Workfront](https://experienceleague.adobe.com/es/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-modules) en la documentación de Workfront Fusion.
