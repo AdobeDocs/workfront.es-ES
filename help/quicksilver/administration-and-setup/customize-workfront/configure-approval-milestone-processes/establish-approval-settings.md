@@ -8,10 +8,10 @@ author: Alina, Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 2fb0c647-bb6d-46d0-a985-6ab820b4a7f2
-source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
+source-git-commit: 1397702a6b50953e7abcfe491b95aeb8b981df5b
 workflow-type: tm+mt
-source-wordcount: '900'
-ht-degree: 97%
+source-wordcount: '879'
+ht-degree: 94%
 
 ---
 
@@ -70,7 +70,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
      </tr> 
      <tr> 
       <td role="rowheader">No se requiere un aprobador en el equipo del proyecto (en procesos de aprobación que incluyan una función)</td> 
-      <td> <p>Seleccione esta opción si no se requiere que un aprobador esté en el equipo del proyecto cuando un proceso de aprobación incluya un rol. Al asignar la decisión de aprobación a una función, solo los usuarios que tengan una función asociada a ellos en el proyecto verán la aprobación. Si se habilita esta configuración, cualquier usuario con ese rol recibirá la solicitud de aprobación, tanto si está en el equipo del proyecto como si no. Para obtener información sobre cómo editar la función del proyecto de un usuario, consulte <a href="../../../manage-work/projects/planning-a-project/manage-project-team.md" class="MCXref xref">Administración del equipo del proyecto</a>. </p> 
+      <td> <p>Seleccione esta opción si no se requiere que un aprobador esté en el equipo del proyecto cuando un proceso de aprobación incluya un rol. Cualquier usuario con esa función de trabajo recibe la solicitud de aprobación tanto si pertenece al equipo del proyecto como si no, aunque no se le conceda automáticamente acceso al proyecto. Para obtener información sobre cómo editar la función del proyecto de un usuario, consulte <a href="../../../manage-work/projects/planning-a-project/manage-project-team.md" class="MCXref xref">Administración del equipo del proyecto</a>. </p> 
       <p><b>SUGERENCIA</b>: cuando se asigne una aprobación a una función y la opción <b>No se requiere que el aprobador esté en el equipo del proyecto (para los procesos de aprobación que incluyan una función)</b> esté deshabilitada, pero no haya funciones en el equipo del proyecto que coincidan con la función en la aprobación, esta última se reasignará al propietario del proyecto. </p> </td> 
      </tr> 
      <tr> 
