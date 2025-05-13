@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 454877e742420c3bc289adf6b2cb1d692fc4fe95
+source-git-commit: 8e8a10d375e721199c5f81f425178a7bae0bf0c0
 workflow-type: tm+mt
-source-wordcount: '2355'
+source-wordcount: '2365'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ Hemos actualizado la página que utiliza para conceder acceso de soporte técnic
 
 ## Administración y configuración
 
-+++Amplíe para ver las actualizaciones de la interfaz de administración y configuración.
++++Amplíe para ver las actualizaciones de la interfaz de administración y configuración realizadas en el segundo trimestre
 
 ### Actualización de la interfaz del Centro de anuncios
 
@@ -174,7 +174,7 @@ Esta actualización incluye cambios visuales en el área. No se ha cambiado ning
 
 ## Agile
 
-+++Amplíe para ver las actualizaciones de la interfaz de Agile
++++Amplíe para ver las actualizaciones de la interfaz de Agile realizadas en el segundo trimestre
 
 ### Actualizaciones de interfaz para solicitudes de equipo
 
@@ -244,7 +244,7 @@ Para ver este cambio, ve a Equipos > elige un equipo > Registro de pendientes y 
 
 Hemos actualizado el cuadro de diálogo Compartir para permitir que los usuarios compartan documentos con usuarios externos mediante una dirección de correo electrónico. Esta funcionalidad no estaba disponible temporalmente debido al trabajo de modernización de la interfaz.
 
-+++Expandir para ver más actualizaciones de la interfaz de documentos
++++Amplíe para ver las actualizaciones de la interfaz de documentos realizadas en el segundo trimestre
 
 ### Actualizaciones de la interfaz al solicitar un documento
 
@@ -284,17 +284,17 @@ Para ver este cambio, vaya al menú Documentos > Haga clic en más situado junto
 
 ## Informes y paneles
 
++++Amplíe para ver las actualizaciones de la interfaz de Informes y paneles realizadas en el segundo trimestre
+
 ### Se ha actualizado el informe Nivel de acceso con un nuevo estilo
 
-**Versión de vista previa: por determinar; Versión de producción: a partir del 6 de febrero de 2025**
+**Versión preliminar: 30 de enero de 2024; versión de producción: a partir del 6 de febrero de 2025**
 
 Hemos actualizado el informe Nivel de acceso con un diseño más moderno y coherente con otras áreas de Workfront.
 
 Esta actualización incluye cambios visuales en el informe. No se ha cambiado ninguna funcionalidad.
 
 Para crear un informe de equipo, vaya a Informes > Nuevo informe > Nivel de acceso.
-
-+++Amplíe para ver más actualizaciones de la interfaz de Informes y paneles
 
 ### Se ha actualizado el informe de equipo con un nuevo estilo
 
