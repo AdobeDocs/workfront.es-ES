@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: 3dfac5ada17248f5c67380b56b9a0969b10b73e6
+source-git-commit: 0d968a3f398c2e7dc4154cd5a16acf35ca7c86f5
 workflow-type: tm+mt
-source-wordcount: '1537'
-ht-degree: 62%
+source-wordcount: '1508'
+ht-degree: 61%
 
 ---
 
@@ -41,7 +41,7 @@ En este artículo se describe la siguiente información sobre las vistas de regi
 
 * [Crear y editar una vista](#create-or-edit-record-views)
 * [Eliminar una vista](#delete-views)
-* [Duplicar una vista](#duplicate-views)
+* [Duplicar una vista](#duplicate-a-view)
 * [Habilitar los indicadores de presencia en tiempo real en una vista](#enable-the-real-time-presence-indicator-in-a-view)
   <!--* [Add a view as a favorite](#add-a-view-as-a-favorite) - not possible yet-->
 

@@ -6,10 +6,10 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 3dfac5ada17248f5c67380b56b9a0969b10b73e6
+source-git-commit: 0d968a3f398c2e7dc4154cd5a16acf35ca7c86f5
 workflow-type: tm+mt
-source-wordcount: '2878'
-ht-degree: 61%
+source-wordcount: '2946'
+ht-degree: 59%
 
 ---
 
@@ -171,7 +171,7 @@ Para administrar una vista de línea de tiempo:
 
 1. (Opcional) Haga clic en **Desglose** para mostrar los registros conectados en la cronología.
 
-   Para obtener más información, vea la sección [Usar la característica Desglose para mostrar los registros conectados en la vista de escala de tiempo](#break-down-connected-records-in-the-timeline-view)
+   Para obtener más información, vea la sección [Use la característica Desglose para mostrar los registros conectados en la vista de escala de tiempo](#break-down-connected-records-in-the-timeline-view) en este artículo.
 
 ### Añadir filtros
 
@@ -266,15 +266,22 @@ Actualice la configuración de la vista de línea de tiempo para indicar qué in
 
 1. Cree una vista de línea de tiempo para un tipo de registro, tal y como se describe en el artículo [Administración de vistas de registros](/help/quicksilver/planning/views/manage-record-views.md).
 1. Haga clic en **Configuración**.
-1. Haga clic en **Fecha y hora** en el panel izquierdo, luego seleccione una **Fecha de inicio** y una **Fecha de finalización** para mostrar en la línea de tiempo. Puede elegir las fechas de inicio y finalización predeterminadas, o bien puede elegir cualquier campo de fecha disponible. Las barras que representan los registros comienzan en la fecha que se indica para la Fecha de inicio y finalizan en la fecha correspondiente a la Fecha de finalización.
+1. Haga clic en **Fecha y hora** en el panel izquierdo, luego seleccione una **Fecha de inicio** y una **Fecha de finalización** para mostrar en la línea de tiempo. Puede elegir las fechas de inicio y finalización predeterminadas, o bien puede elegir cualquier campo de fecha disponible.
+
+   Las barras que representan los registros comienzan en la fecha que se indica para la Fecha de inicio y finalizan en la fecha correspondiente a la Fecha de finalización.
 
    >[!NOTE]
    >
-   >Los registros que no tienen valores para las fechas de inicio o finalización o que tienen una fecha de inicio posterior a la fecha de finalización no se muestran en la vista de línea de tiempo.
+   >* Los registros que no tienen valores para las fechas de inicio o finalización o que tienen una fecha de inicio posterior a la fecha de finalización no se muestran en la vista de línea de tiempo.
+   >
+   >* Si muestra registros adicionales mediante la opción Desglose, las fechas de inicio y finalización son las del registro principal. No puede elegir fechas de inicio y finalización para los registros conectados en esta área.
 
 1. Haga clic en **Estilo de barra** en el panel izquierdo para indicar qué información desea mostrar en las barras de registro.
 
-   El campo principal (o título) del registro, tal y como se define en la vista de tabla del registro, está seleccionado de forma predeterminada. <!--adjust this when the primary field is released??-->
+   <!--<span class="preview">You can define the bar style of  the main record as well as for the connected records, when using the Breakdown option in the Standard view. </span>-->
+
+   El campo principal (o título) del registro, tal como se define en la vista de tabla del registro, está seleccionado de forma predeterminada.
+   <!--adjust this when the primary field is released??-->
 
 1. (Opcional y condicional) Si ha añadido miniaturas a los registros, seleccione la opción Miniatura para mostrar la imagen asociada a los registros en la barra de registros.
 
@@ -306,10 +313,13 @@ Actualice la configuración de la vista de línea de tiempo para indicar qué in
    >
    >* <span class="preview">Si desglosa la vista de escala de tiempo para mostrar los objetos conectados, la configuración Truncar bar details sólo se aplica al tipo de registro principal. No se aplica a las barras de registros conectadas.</span>
 
+   <!--take out the last bullet in the Tip above when we release the additional records in breakdown formatting-->
 
 1. Haga clic en **Color** en el panel izquierdo para personalizar los colores de los registros y agrupaciones en la línea de tiempo.
 
    ![Vista de la cronología de la ficha de color](assets/color-tab-timeline-view.png)
+
+   <!--<span class="preview">You can define the color of  the main record as well as for the connected records, when using the Breakdown option in the Standard view. </span>-->
 
 1. (Condicional y opcional) Si ha añadido una agrupación a la vista de línea de tiempo, seleccione una de las siguientes opciones para establecer un color para la agrupación en la sección **Establecer color de agrupación**:
 
@@ -348,9 +358,13 @@ Actualice la configuración de la vista de línea de tiempo para indicar qué in
 
    Si no tiene ningún campo con opciones codificadas por colores para el tipo de registro seleccionado, esta opción aparece atenuada.
 
+   <!--1. <span class="preview">(Optional) If you are using the Breakdown option, repeat the steps starting with step 4 for each connected record displayed in the timeline. </span>-->
+
 1. Haga clic en **Guardar**.
 
    Los registros se muestran en la vista de línea de tiempo con las especificaciones seleccionadas.
+
+
 
 ### Desglose de registros conectados en la vista de cronología
 
@@ -359,6 +373,7 @@ Puede mostrar los registros conectados en la vista de escala de tiempo de un reg
 #### Consideraciones al utilizar la función Desglose
 
 * Puede mostrar registros u objetos conectados debajo de los registros del tipo de registro seleccionado en la vista de escala de tiempo.
+* Puede mostrar los registros conectados en la vista de la cronología únicamente cuando vea los registros en modo Estándar. No se puede utilizar la opción Desglose en el modo Compacto de la vista de línea de tiempo.
 * Puede mostrar lo siguiente en la vista de cronología mediante la función Desglose:
    * Registros de Workfront Planning conectados al tipo de registro seleccionado.
    * Tipos de objetos Workfront o recursos Experience Manager conectados al tipo de registro seleccionado.

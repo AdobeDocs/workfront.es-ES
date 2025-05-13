@@ -6,10 +6,10 @@ description: Además de crear una plantilla de proyecto desde cero, también pue
 author: Alina
 feature: Work Management
 exl-id: b2e0878b-8245-4e01-819d-c3746f553d95
-source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
+source-git-commit: 0d968a3f398c2e7dc4154cd5a16acf35ca7c86f5
 workflow-type: tm+mt
-source-wordcount: '295'
-ht-degree: 62%
+source-wordcount: '322'
+ht-degree: 48%
 
 ---
 
@@ -36,7 +36,7 @@ Debe tener el siguiente acceso.
   <tr> 
    <td role="rowheader">Licencia de Adobe Workfront*</td> 
    <td><p>Nuevo: estándar</p> 
-   <p>Actual:Plan </p> </td> 
+   <p>Actual: plan </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso</td> 
@@ -81,9 +81,14 @@ Los siguientes elementos nunca se copian de una plantilla existente a una nueva:
 1. Haga clic en el icono **Más** del menú ![Más](assets/qs-more-icon-on-an-object.png) a la derecha del nombre de la plantilla en el encabezado, luego haga clic en **Copiar**.
 
    Se abre el cuadro **Copiar plantilla**.
+
+   <!--![Copy template box](assets/copy-template-box.png)-->
+
 1. Especifique un nombre para la plantilla en el campo **Nuevo nombre de plantilla**.
 
    De manera predeterminada, el nuevo nombre es `Copy of Original template name`.
 
-1. Seleccione si desea **Conservar asignaciones de usuarios en tareas y plantillas**: seleccione esta opción para transferir todas las asignaciones de tareas y plantillas de la plantilla original a la nueva plantilla.
+1. Seleccione la opción **Conservar asignaciones de usuarios en tareas y plantillas** si desea transferir todas las asignaciones de tareas y plantillas de la plantilla original a la nueva. Las asignaciones de tareas de plantilla, el Propietario de la plantilla y el Patrocinador se transfieren a la plantilla copiada.
 1. Haga clic en **Guardar** para crear una copia de la plantilla.
+
+   La nueva plantilla se muestra en la lista de plantillas del área de Plantilla de Workfront.
