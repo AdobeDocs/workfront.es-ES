@@ -5,10 +5,10 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9342f393-a404-44b4-aad6-2c4cf634dfd5
-source-git-commit: d0a82c1ae306edb4f63c961120bb1df4613ace7e
+source-git-commit: 2629598989726e1beaf03092dcd1a4b93a23a9aa
 workflow-type: tm+mt
-source-wordcount: '758'
-ht-degree: 39%
+source-wordcount: '798'
+ht-degree: 37%
 
 ---
 
@@ -175,11 +175,15 @@ The <add release> release webinar will be held on <date>. You can [register for 
 * 
 -->
 
+## Modernización de interfaces
+
+Estamos actualizando la interfaz a través de Adobe Workfront para mejorar la experiencia del usuario y unificarla con otras aplicaciones de Adobe. Estos cambios se liberan fuera de la programación de versiones estándar. Para obtener una lista de estos cambios, consulte [Modernización de la interfaz](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).
+
 ## Notas de la versión para otras áreas
 
 ### Mejoras de Workfront Fusion
 
-Las nuevas funciones de Workfront Fusion están disponibles en el entorno de producción en una cadencia fuera de la programación de versiones estándar. Para obtener más información sobre las últimas funciones, consulte [Actividad de la versión de Adobe Workfront Fusion](https://experienceleague.adobe.com/es/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
+Las nuevas funciones de Workfront Fusion están disponibles en el entorno de producción en una cadencia fuera de la programación de versiones estándar. Para obtener más información sobre las últimas funciones, consulte [Actividad de la versión de Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
 
 ### Mejoras de Workfront Planning
 
