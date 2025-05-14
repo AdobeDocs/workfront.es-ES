@@ -10,10 +10,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 91b1b448-5a0b-4e64-a59e-458c8387ecbc
-source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
+source-git-commit: a215cf721cc4d517ee39cfa864e29dbbbfeb0a31
 workflow-type: tm+mt
-source-wordcount: '1956'
-ht-degree: 96%
+source-wordcount: '1563'
+ht-degree: 95%
 
 ---
 
@@ -35,35 +35,35 @@ Solo los usuarios con una licencia Plan pueden obtener acceso completo a los pro
 
 | Acción | Planificador | Trabajador | Revisor | Solicitante | Usuario externo |
 |---|---|---|---|---|---|
-| Crear | ✓&#42; |   |   |   |   |
-| Copiar | ✓&#42; |   |   |   |   |
-| Eliminar | ✓&#42; |   |   |   |   |
-| Compartir | ✓&#42; | ✓&#42; |   |   |   |
-| Compartir en todo el sistema | ✓&#42; |   |   |   |   |
-| Ver | ✓&#42; | ✓&#42; | ✓&#42; |   |   |
-| Añadir un formulario personalizado | ✓ |   |   |   |   |
-| Actualizar campos personalizados | ✓ | ✓ |   |   |   |
-| Añadir un proceso de aprobación | ✓ |   |   |   |   |
-| Aprobar un proyecto | ✓ | ✓ | ✓ |   |   |
-| Añadir documento | ✓ | ✓ | ✓ |   |   |
-| Agregar problema | ✓ | ✓ |   |   |   |
-| Añadir tareas | ✓ | ✓ |   |   |   |
-| Proporcionar actualizaciones/comentarios | ✓ | ✓ | ✓ |   |   |
-| Cambiar estado | ✓ |   |   |   |   |
-| Registrar horas | ✓ | ✓ |   |   |   |
-| Editar asignaciones | ✓ | ✓ |   |   |   |
-| Administrar una línea de base | ✓ |   |   |   |   |
-| Administrar riesgos | ✓ |   |   |   |   |
-| Administrar finanzas | ✓ |   |   |   |   |
-| Añadir o editar gastos | ✓ | ✓ |   |   |   |
-| Adjuntar plantillas | ✓ |   |   |   |   |
-| Guardar como plantilla | ✓ |   |   |   |   |
-| Añadir o editar un caso empresarial | ✓ |   |   |   |   |
-| Editar detalles del proyecto | ✓ |   |   |   |   |
-| Editar personal | ✓ |   |   |   |   |
-| Exportar a MS Project | ✓ | ✓ | ✓ |   |   |
-| Recalcular finanzas/líneas de tiempo | ✓ |   |   |   |   |
-| Establecer propiedades de cola | ✓ |   |   |   |   |
+| Crear | ✓&#42; |  |  |  |  |
+| Copiar | ✓&#42; |  |  |  |  |
+| Eliminar | ✓&#42; |  |  |  |  |
+| Compartir | ✓&#42; | ✓&#42; |  |  |  |
+| Compartir en todo el sistema | ✓&#42; |  |  |  |  |
+| Ver | ✓&#42; | ✓&#42; | ✓&#42; |  |  |
+| Añadir un formulario personalizado | ✓ |  |  |  |  |
+| Actualizar campos personalizados | ✓ | ✓ |  |  |  |
+| Añadir un proceso de aprobación | ✓ |  |  |  |  |
+| Aprobar un proyecto | ✓ | ✓ | ✓ |  |  |
+| Añadir documento | ✓ | ✓ | ✓ |  |  |
+| Agregar problema | ✓ | ✓ |  |  |  |
+| Añadir tareas | ✓ | ✓ |  |  |  |
+| Proporcionar actualizaciones/comentarios | ✓ | ✓ | ✓ |  |  |
+| Cambiar estado | ✓ |  |  |  |  |
+| Registrar horas | ✓ | ✓ |  |  |  |
+| Editar asignaciones | ✓ | ✓ |  |  |  |
+| Administrar una línea de base | ✓ |  |  |  |  |
+| Administrar riesgos | ✓ |  |  |  |  |
+| Administrar finanzas | ✓ |  |  |  |  |
+| Añadir o editar gastos | ✓ | ✓ |  |  |  |
+| Adjuntar plantillas | ✓ |  |  |  |  |
+| Guardar como plantilla | ✓ |  |  |  |  |
+| Añadir o editar un caso empresarial | ✓ |  |  |  |  |
+| Editar detalles del proyecto | ✓ |  |  |  |  |
+| Editar personal | ✓ |  |  |  |  |
+| Exportar a MS Project | ✓ | ✓ | ✓ |  |  |
+| Recalcular finanzas/líneas de tiempo | ✓ |  |  |  |  |
+| Establecer propiedades de cola | ✓ |  |  |  |  |
 
 
 
@@ -73,29 +73,29 @@ Solo los usuarios con una licencia Plan pueden obtener acceso completo a los pro
 
 | Acción | Planificador | Trabajador | Revisor | Solicitante | Usuario externo |
 |---|---|---|---|---|---|
-| Crear | ✓&#42; | ✓&#42; |   |   |   |
-| Eliminar | ✓&#42; | ✓&#42; |   |   |   |
-| Compartir | ✓&#42; | ✓&#42; |   |   |   |
-| Compartir en todo el sistema | ✓&#42; |   |   |   |   |
-| Ver | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; |   |
-| Añadir predecesoras | ✓ | ✓ |   |   |   |
-| Añadir problemas | ✓ | ✓ |   |   |   |
-| Editar una tarea (excluido el estado) | ✓ | ✓ |   |   |   |
-| Cambiar el estado de una tarea | ✓ | ✓ |   |   |   |
-| Agregar documentos | ✓ | ✓ | ✓ |   |   |
-| Copiar una tarea | ✓ | ✓ |   |   |   |
-| Mover una tarea | ✓ | ✓ |   |   |   |
-| Registrar horas | ✓ | ✓ |   |   |   |
-| Aceptar una asignación | ✓ | ✓ |   |   |   |
-| Realización de una asignación | ✓ | ✓ | Solo edición en línea | Solo edición en línea |   |
-| Adjuntar un formulario personalizado | ✓ | ✓ |   |   |   |
-| Editar campos personalizados | ✓ | ✓ |   |   |   |
-| Crear un proceso de aprobación | ✓ | ✓ |   |   |   |
-| Aprobar una tarea | ✓ | ✓ | ✓ |   |   |
-| Editar finanzas | ✓ |   |   |   |   |
-| Añadir o editar gastos | ✓ | ✓ |   |   |   |
-| Ver finanzas | ✓ | ✓ | ✓ |   |   |
-| Actualizaciones/comentarios | ✓ | ✓ | ✓ |   |   |
+| Crear | ✓&#42; | ✓&#42; |  |  |  |
+| Eliminar | ✓&#42; | ✓&#42; |  |  |  |
+| Compartir | ✓&#42; | ✓&#42; |  |  |  |
+| Compartir en todo el sistema | ✓&#42; |  |  |  |  |
+| Ver | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; |  |
+| Añadir predecesoras | ✓ | ✓ |  |  |  |
+| Añadir problemas | ✓ | ✓ |  |  |  |
+| Editar una tarea (excluido el estado) | ✓ | ✓ |  |  |  |
+| Cambiar el estado de una tarea | ✓ | ✓ |  |  |  |
+| Agregar documentos | ✓ | ✓ | ✓ |  |  |
+| Copiar una tarea | ✓ | ✓ |  |  |  |
+| Mover una tarea | ✓ | ✓ |  |  |  |
+| Registrar horas | ✓ | ✓ |  |  |  |
+| Aceptar una asignación | ✓ | ✓ |  |  |  |
+| Realización de una asignación | ✓ | ✓ | Solo edición en línea | Solo edición en línea |  |
+| Adjuntar un formulario personalizado | ✓ | ✓ |  |  |  |
+| Editar campos personalizados | ✓ | ✓ |  |  |  |
+| Crear un proceso de aprobación | ✓ | ✓ |  |  |  |
+| Aprobar una tarea | ✓ | ✓ | ✓ |  |  |
+| Editar finanzas | ✓ |  |  |  |  |
+| Añadir o editar gastos | ✓ | ✓ |  |  |  |
+| Ver finanzas | ✓ | ✓ | ✓ |  |  |
+| Actualizaciones/comentarios | ✓ | ✓ | ✓ |  |  |
 
 {style="table-layout:auto"}
 
@@ -105,25 +105,25 @@ Solo los usuarios con una licencia Plan pueden obtener acceso completo a los pro
 
 | Acción | Planificador | Trabajador | Revisor | Solicitante | Usuario externo |
 |---|---|---|---|---|---|
-| Crear | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; |   |
-| Editar | ✓ | ✓ | ✓ | ✓ |   |
-| Eliminar | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; |   |
-| Compartir | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; |   |
-| Compartir en todo el sistema | ✓&#42; |   |   |   |   |
-| Ver | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; |   |
-| Adjuntar formularios personalizados | ✓ | ✓ | ✓ | ✓ |   |
-| Editar campos personalizados | ✓ | ✓ | ✓ | ✓ |   |
-| Aprobar problemas | ✓ | ✓ | ✓ | ✓ |   |
-| Añadir un proceso de aprobación | ✓ | ✓ | ✓ | ✓ |   |
-| Agregar documentos | ✓ | ✓ | ✓ | ✓ |   |
-| Copiar problemas | ✓ | ✓ | ✓ | ✓ |   |
-| Mover problemas | ✓ | ✓ | ✓ | ✓ |   |
-| Registrar horas | ✓ | ✓ |   |   |   |
-| Convertir un problema en un proyecto | ✓ | ✓ |   |   |   |
-| Convertir un problema en una tarea | ✓ |   |   |   |   |
-| Aceptar asignaciones | ✓ | ✓ |   |   |   |
-| Hacer asignaciones | ✓ | ✓ |   |   |   |
-| Añadir actualizaciones y comentarios | ✓ | ✓ | ✓ | ✓ |   |
+| Crear | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; |  |
+| Editar | ✓ | ✓ | ✓ | ✓ |  |
+| Eliminar | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; |  |
+| Compartir | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; |  |
+| Compartir en todo el sistema | ✓&#42; |  |  |  |  |
+| Ver | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; |  |
+| Adjuntar formularios personalizados | ✓ | ✓ | ✓ | ✓ |  |
+| Editar campos personalizados | ✓ | ✓ | ✓ | ✓ |  |
+| Aprobar problemas | ✓ | ✓ | ✓ | ✓ |  |
+| Añadir un proceso de aprobación | ✓ | ✓ | ✓ | ✓ |  |
+| Agregar documentos | ✓ | ✓ | ✓ | ✓ |  |
+| Copiar problemas | ✓ | ✓ | ✓ | ✓ |  |
+| Mover problemas | ✓ | ✓ | ✓ | ✓ |  |
+| Registrar horas | ✓ | ✓ |  |  |  |
+| Convertir un problema en un proyecto | ✓ | ✓ |  |  |  |
+| Convertir un problema en una tarea | ✓ |  |  |  |  |
+| Aceptar asignaciones | ✓ | ✓ |  |  |  |
+| Hacer asignaciones | ✓ | ✓ |  |  |  |
+| Añadir actualizaciones y comentarios | ✓ | ✓ | ✓ | ✓ |  |
 
 
 
@@ -135,19 +135,19 @@ Solo los usuarios con una licencia de planificación pueden tener acceso complet
 
 | Acción | Planificador | Trabajador | Revisor | Solicitante | Usuario externo |
 |---|---|---|---|---|---|
-| Crear | ✓&#42; |   |   |   |   |
-| Eliminar | ✓&#42; |   |   |   |   |
-| Compartir | ✓&#42; |   |   |   |   |
-| Compartir en todo el sistema | ✓&#42; |   |   |   |   |
-| Ver | ✓&#42; | ✓&#42; | ✓&#42; |   |   |
-| Editar detalles | ✓ |   |   |   |   |
-| Adjuntar formularios personalizados | ✓ |   |   |   |   |
-| Editar campos personalizados | ✓ |   |   |   |   |
-| Añadir y eliminar proyectos | ✓ |   |   |   |   |
-| Aprobar proyectos | ✓ |   |   |   |   |
-| Optimización del portafolio | ✓ |   |   |   |   |
-| Agregar documentos | ✓ | ✓ | ✓ |   |   |
-| Añadir actualizaciones y comentarios | ✓ | ✓ | ✓ |   |   |
+| Crear | ✓&#42; |  |  |  |  |
+| Eliminar | ✓&#42; |  |  |  |  |
+| Compartir | ✓&#42; |  |  |  |  |
+| Compartir en todo el sistema | ✓&#42; |  |  |  |  |
+| Ver | ✓&#42; | ✓&#42; | ✓&#42; |  |  |
+| Editar detalles | ✓ |  |  |  |  |
+| Adjuntar formularios personalizados | ✓ |  |  |  |  |
+| Editar campos personalizados | ✓ |  |  |  |  |
+| Añadir y eliminar proyectos | ✓ |  |  |  |  |
+| Aprobar proyectos | ✓ |  |  |  |  |
+| Optimización del portafolio | ✓ |  |  |  |  |
+| Agregar documentos | ✓ | ✓ | ✓ |  |  |
+| Añadir actualizaciones y comentarios | ✓ | ✓ | ✓ |  |  |
 
 
 
@@ -159,19 +159,19 @@ Solo los usuarios con una licencia de planificación pueden tener acceso complet
 
 | Acción | Planificador | Trabajador | Revisor | Solicitante | Usuario externo |
 |---|---|---|---|---|---|
-| Crear | ✓&#42; |   |   |   |   |
-| Eliminar | ✓&#42; |   |   |   |   |
-| Compartir | ✓&#42; |   |   |   |   |
-| Compartir en todo el sistema | ✓&#42; |   |   |   |   |
-| Ver | ✓&#42; | ✓&#42; | ✓&#42; |   |   |
-| Editar detalles | ✓ |   |   |   |   |
-| Adjuntar formularios personalizados | ✓ |   |   |   |   |
-| Editar campos personalizados | ✓ |   |   |   |   |
-| Añadir y eliminar proyectos | ✓ |   |   |   |   |
-| Aprobar proyectos | ✓ |   |   |   |   |
-| Optimización de portafolio | ✓ |   |   |   |   |
-| Agregar documentos | ✓ | ✓ | ✓ |   |   |
-| Añadir actualizaciones y comentarios | ✓ | ✓ | ✓ |   |   |
+| Crear | ✓&#42; |  |  |  |  |
+| Eliminar | ✓&#42; |  |  |  |  |
+| Compartir | ✓&#42; |  |  |  |  |
+| Compartir en todo el sistema | ✓&#42; |  |  |  |  |
+| Ver | ✓&#42; | ✓&#42; | ✓&#42; |  |  |
+| Editar detalles | ✓ |  |  |  |  |
+| Adjuntar formularios personalizados | ✓ |  |  |  |  |
+| Editar campos personalizados | ✓ |  |  |  |  |
+| Añadir y eliminar proyectos | ✓ |  |  |  |  |
+| Aprobar proyectos | ✓ |  |  |  |  |
+| Optimización de portafolio | ✓ |  |  |  |  |
+| Agregar documentos | ✓ | ✓ | ✓ |  |  |
+| Añadir actualizaciones y comentarios | ✓ | ✓ | ✓ |  |  |
 
 
 
@@ -183,15 +183,15 @@ Los usuarios con una licencia de planificación pueden tener acceso completo a l
 
 | Acción | Planificador | Trabajador | Revisor | Solicitud | Usuario externo |
 |---|---|---|---|---|---|
-| Crear | ✓&#42; |   |   |   |   |
-| Eliminar | ✓&#42; |   |   |   |   |
-| Ver informes integrados | ✓&#42; |   |   |   |   |
-| Compartir | ✓&#42; | ✓ | ✓ |   |   |
-| Compartir calendarios e informes públicamente | ✓&#42; |   |   |   |   |
-| Compartir en todo el sistema | ✓&#42; |   |   |   |   |
+| Crear | ✓&#42; |  |  |  |  |
+| Eliminar | ✓&#42; |  |  |  |  |
+| Ver informes integrados | ✓&#42; |  |  |  |  |
+| Compartir | ✓&#42; | ✓ | ✓ |  |  |
+| Compartir calendarios e informes públicamente | ✓&#42; |  |  |  |  |
+| Compartir en todo el sistema | ✓&#42; |  |  |  |  |
 | Ver | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; |
-| Editar | ✓ |   |   |   |   |
-| Copiar | ✓ |   |   |   |   |
+| Editar | ✓ |  |  |  |  |
+| Copiar | ✓ |  |  |  |  |
 
 {style="table-layout:auto"}
 
@@ -233,7 +233,7 @@ Los usuarios con una licencia de planificación pueden tener acceso completo a l
    <td>✓*</td> 
    <td>✓*</td> 
    <td>✓*</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Eliminar</td> 
@@ -241,7 +241,7 @@ Los usuarios con una licencia de planificación pueden tener acceso completo a l
    <td>✓*</td> 
    <td>✓*</td> 
    <td>✓*</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Compartir</td> 
@@ -249,7 +249,7 @@ Los usuarios con una licencia de planificación pueden tener acceso completo a l
    <td>✓*</td> 
    <td>✓*</td> 
    <td>✓*</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Compartir en todo el sistema</td> 
@@ -257,7 +257,7 @@ Los usuarios con una licencia de planificación pueden tener acceso completo a l
    <td>✓*</td> 
    <td>✓*</td> 
    <td>✓*</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Ver</td> 
@@ -265,7 +265,7 @@ Los usuarios con una licencia de planificación pueden tener acceso completo a l
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Editar</td> 
@@ -273,7 +273,7 @@ Los usuarios con una licencia de planificación pueden tener acceso completo a l
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -284,32 +284,32 @@ Los usuarios con una licencia de planificación pueden tener acceso completo a l
 
 | Acción | Planificador | Trabajador | Revisor | Solicitante | Usuario externo |
 |---|---|---|---|---|---|
-| Crear | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; |   |
-| Eliminar (documentos y carpetas) | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; |   |
-| Compartir | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; |   |
-| Compartir públicamente (externamente) | ✓&#42; |   |   |   |   |
-| Compartir en todo el sistema | ✓&#42; | ✓&#42; |   |   |   |
+| Crear | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; |  |
+| Eliminar (documentos y carpetas) | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; |  |
+| Compartir | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; |  |
+| Compartir públicamente (externamente) | ✓&#42; |  |  |  |  |
+| Compartir en todo el sistema | ✓&#42; | ✓&#42; |  |  |  |
 | Ver | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; |
-| Editar detalles | ✓ | ✓ | ✓ | ✓ |   |
+| Editar detalles | ✓ | ✓ | ✓ | ✓ |  |
 | Descargar | ✓ | ✓ | ✓ | ✓ | ✓ |
-| Cierre de compra | ✓ | ✓ | ✓ | ✓ |   |
-| Añadir aprobadores | ✓ | ✓ | ✓ | ✓ |   |
+| Cierre de compra | ✓ | ✓ | ✓ | ✓ |  |
+| Añadir aprobadores | ✓ | ✓ | ✓ | ✓ |  |
 | Aprobar documentos | ✓ | ✓ | ✓ | ✓ | ✓ |
-| Adjuntar formularios personalizados | ✓ | ✓ | ✓ | ✓ |   |
-| Editar campos personalizados | ✓ | ✓ | ✓ | ✓ |   |
-| Mover a (objeto) | ✓ | ✓ | ✓ | ✓ |   |
-| Enviar a (integración) | ✓ | ✓ | ✓ | ✓ |   |
-| Añadir actualizaciones y comentarios | ✓ | ✓ | ✓ | ✓ |   |
-| Cargar nueva versión | ✓ | ✓ | ✓ | ✓ |   |
-| Eliminar una versión | ✓ | ✓ | ✓ | ✓ |   |
+| Adjuntar formularios personalizados | ✓ | ✓ | ✓ | ✓ |  |
+| Editar campos personalizados | ✓ | ✓ | ✓ | ✓ |  |
+| Mover a (objeto) | ✓ | ✓ | ✓ | ✓ |  |
+| Enviar a (integración) | ✓ | ✓ | ✓ | ✓ |  |
+| Añadir actualizaciones y comentarios | ✓ | ✓ | ✓ | ✓ |  |
+| Cargar nueva versión | ✓ | ✓ | ✓ | ✓ |  |
+| Eliminar una versión | ✓ | ✓ | ✓ | ✓ |  |
 | Vista previa | ✓ | ✓ | ✓ | ✓ | ✓ |
-| Revisión | ✓ | ✓ | ✓ | ✓ |   |
-| Generar revisión | ✓ | ✓ |   |   |   |
-| Eliminar prueba | ✓ | ✓ | ✓ | ✓ |   |
-| Agregar/Quitar&#42;&#42; | ✓ | ✓ | ✓ | ✓ |   |
-| Cambiar nombre&#42;&#42; | ✓ | ✓ | ✓ | ✓ |   |
-| Vincular (con integración) | ✓ | ✓ | ✓ | ✓ |   |
-| Desvincular (con integración) | ✓ | ✓ | ✓ | ✓ |   |
+| Revisión | ✓ | ✓ | ✓ | ✓ |  |
+| Generar revisión | ✓ | ✓ |  |  |  |
+| Eliminar prueba | ✓ | ✓ | ✓ | ✓ |  |
+| Agregar/Quitar&#42;&#42; | ✓ | ✓ | ✓ | ✓ |  |
+| Cambiar nombre&#42;&#42; | ✓ | ✓ | ✓ | ✓ |  |
+| Vincular (con integración) | ✓ | ✓ | ✓ | ✓ |  |
+| Desvincular (con integración) | ✓ | ✓ | ✓ | ✓ |  |
 
 {style="table-layout:auto"}
 
@@ -346,34 +346,34 @@ Los usuarios con una licencia de planificación pueden tener acceso completo a l
   <tr> 
    <td>Crear</td> 
    <td>✓*</td> 
-   <td> </td> 
-   <td> </td> 
-   <td> </td> 
-   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Eliminar</td> 
    <td>✓*</td> 
-   <td> </td> 
-   <td> </td> 
-   <td> </td> 
-   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Editar, eliminar, desactivar, iniciar sesión como o restablecer la contraseña de cualquier usuario</td> 
    <td>✓*<p><b>NOTA</b>: no puede iniciar sesión como ningún usuario que sea administrador del sistema.</p></td> 
-   <td> </td> 
-   <td> </td> 
-   <td> </td> 
-   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Editar, eliminar, desactivar, iniciar sesión como o restablecer la contraseña de cualquier usuario de un grupo que administre</td> 
    <td>✓*<p><b>NOTA</b>: no puede iniciar sesión como ningún usuario que sea administrador del sistema.</p></td> 
-   <td> </td> 
-   <td> </td> 
-   <td> </td> 
-   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Ver usuarios</td> 
@@ -381,7 +381,7 @@ Los usuarios con una licencia de planificación pueden tener acceso completo a l
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Ver información de contacto</td> 
@@ -389,7 +389,7 @@ Los usuarios con una licencia de planificación pueden tener acceso completo a l
    <td> ✓</td> 
    <td>✓ </td> 
    <td> ✓</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -421,34 +421,34 @@ Los usuarios con una licencia de planificación pueden tener acceso completo a l
   <tr> 
    <td>Crear</td> 
    <td>✓*</td> 
-   <td> </td> 
-   <td> </td> 
-   <td> </td> 
-   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Eliminar</td> 
    <td>✓*</td> 
-   <td> </td> 
-   <td> </td> 
-   <td> </td> 
-   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Editar los equipos en los que están</td> 
    <td>✓*</td> 
    <td>✓*</td> 
-   <td> </td> 
-   <td> </td> 
-   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Editar equipos en grupos que administran</td> 
    <td>✓*</td> 
-   <td> </td> 
-   <td> </td> 
-   <td> </td> 
-   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Ver todos los equipos</td> 
@@ -456,7 +456,7 @@ Los usuarios con una licencia de planificación pueden tener acceso completo a l
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Ver equipos asociados con mis grupos</td> 
@@ -464,7 +464,7 @@ Los usuarios con una licencia de planificación pueden tener acceso completo a l
    <td> ✓</td> 
    <td>✓ </td> 
    <td> ✓</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -475,13 +475,13 @@ Los usuarios con una licencia de planificación pueden tener acceso completo a l
 
 | Acción | Planificador | Trabajador | Revisor | Solicitante | Usuario externo |
 |---|---|---|---|---|---|
-| Crear | ✓&#42; |   |   |   |   |
-| Eliminar | ✓&#42; |   |   |   |   |
-| Compartir | ✓&#42; |   |   |   |   |
-| Compartir en todo el sistema | ✓&#42; |   |   |   |   |
-| Ver | ✓&#42; |   |   |   |   |
-| Copiar | ✓ |   |   |   |   |
-| Editar detalles de plantilla | ✓ |   |   |   |   |
+| Crear | ✓&#42; |  |  |  |  |
+| Eliminar | ✓&#42; |  |  |  |  |
+| Compartir | ✓&#42; |  |  |  |  |
+| Compartir en todo el sistema | ✓&#42; |  |  |  |  |
+| Ver | ✓&#42; |  |  |  |  |
+| Copiar | ✓ |  |  |  |  |
+| Editar detalles de plantilla | ✓ |  |  |  |  |
 
 {style="table-layout:auto"}
 
@@ -495,18 +495,18 @@ Los tipos de licencia de solicitud y usuario externo no se incluyen aquí porque
 
 | Acción | Planificador | Trabajador | Revisor |
 |---|---|---|---|
-| Editar las tarifas de facturación y de costes de funciones | ✓&#42; |   |   |
-| Editar tarifas de facturación y de coste de usuario | ✓&#42; |   |   |
-| Ver tarifas de facturación y de coste de funciones | ✓&#42; |   |   |
-| Ver tarifas de facturación y de costes de usuario | ✓&#42; |   |   |
-| Administrar registros de facturación | ✓ |   |   |
-| Administrar gastos | ✓ | ✓ |   |
+| Editar las tarifas de facturación y de costes de funciones | ✓&#42; |  |  |
+| Editar tarifas de facturación y de coste de usuario | ✓&#42; |  |  |
+| Ver tarifas de facturación y de coste de funciones | ✓&#42; |  |  |
+| Ver tarifas de facturación y de costes de usuario | ✓&#42; |  |  |
+| Administrar registros de facturación | ✓ |  |  |
+| Administrar gastos | ✓ | ✓ |  |
 | Ver datos financieros | ✓&#42; | ✓&#42; | ✓&#42; |
-| <span class="preview">Administrar tarjetas de tarifas</span> | ✓ |   |   |
-| Ver información por coste en las herramientas de planificación de recursos | ✓ |   |   |
-| Recursos de presupuesto en las herramientas de planificación de recursos&#42;&#42; | ✓ |   |   |
+| <span class="preview">Administrar tarjetas de tarifas</span> | ✓ |  |  |
+| Ver información por coste en las herramientas de planificación de recursos | ✓ |  |  |
+| Recursos de presupuesto en las herramientas de planificación de recursos&#42;&#42; | ✓ |  |  |
 | Ver asignación de recursos en las herramientas de planificación de recursos&#42; | ✓ | ✓ | ✓ |
-| Crear riesgos en los proyectos | ✓ |   |   |
+| Crear riesgos en los proyectos | ✓ |  |  |
 | Ver riesgos en los proyectos | ✓ | ✓ | ✓ |
 
 {style="table-layout:auto"}
@@ -521,14 +521,14 @@ Solo los usuarios con una licencia de planificación pueden tener acceso complet
 
 | Acción | Planificador | Trabajador | Revisor | Solicitante | Usuario externo |
 |---|---|---|---|---|---|
-| Editar prioridades y horas presupuestadas en el Planificador | ✓&#42; |   |   |   |   |
-| Crear, editar y eliminar conjuntos de recursos&#42;&#42; | ✓&#42; |   |   |   |   |
-| Actualizar horas planificadas en el Distribuidor de cargas de trabajo&#42;&#42;&#42; | ✓* |   |   |   |   |
-| Ver las prioridades del proyecto en el Planificador de recursos | ✓&#42; |   |   |   |   |
-| Ver la asignación de recursos en las herramientas de planificación de recursos | ✓&#42; | ✓&#42; | ✓&#42; |   |   |
-| Ver conjuntos de recursos | ✓&#42; | ✓&#42; | ✓&#42; |   |   |
-| Presupuestar recursos en las herramientas de planificación de recursos&#42;&#42; | ✓ |   |   |   |   |
-| Adjuntar conjuntos de recursos a proyectos, plantillas y usuarios | ✓ |   |   |   |   |
+| Editar prioridades y horas presupuestadas en el Planificador | ✓&#42; |  |  |  |  |
+| Crear, editar y eliminar conjuntos de recursos&#42;&#42; | ✓&#42; |  |  |  |  |
+| Actualizar horas planificadas en el Distribuidor de cargas de trabajo&#42;&#42;&#42; | ✓* |  |  |  |  |
+| Ver las prioridades del proyecto en el Planificador de recursos | ✓&#42; |  |  |  |  |
+| Ver la asignación de recursos en las herramientas de planificación de recursos | ✓&#42; | ✓&#42; | ✓&#42; |  |  |
+| Ver conjuntos de recursos | ✓&#42; | ✓&#42; | ✓&#42; |  |  |
+| Presupuestar recursos en las herramientas de planificación de recursos&#42;&#42; | ✓ |  |  |  |  |
+| Adjuntar conjuntos de recursos a proyectos, plantillas y usuarios | ✓ |  |  |  |  |
 
 {style="table-layout:auto"}
 
@@ -542,12 +542,12 @@ Solo los usuarios con una licencia de planificación pueden tener acceso complet
 
 | Acción | Planificador | Trabajador | Revisor | Solicitante | Usuario externo |
 |---|---|---|---|---|---|
-| Crear/editar planes e iniciativas existentes | ✓ | ✓ | ✓ |   |   |
-| Añadir o editar información sobre funciones en planes e iniciativas&#42; | ✓ | ✓ | ✓ |   |   |
-| Añadir o editar información sobre costes en planes e iniciativas&#42; | ✓ | ✓ | ✓ |   |   |
-| Eliminar planes e iniciativas | ✓ | ✓ | ✓ |   |   |
-| Ver escenarios en el menú principal ![Icono del planificador de escenarios](assets/esp-icon-in-main-menu.png) | ✓ | ✓ | ✓ | |   |
-| Ver los planes e iniciativas que creó el usuario&#42; | ✓ | ✓ | ✓ |   |   |
+| Crear/editar planes e iniciativas existentes | ✓ | ✓ | ✓ |  |  |
+| Añadir o editar información sobre funciones en planes e iniciativas&#42; | ✓ | ✓ | ✓ |  |  |
+| Añadir o editar información sobre costes en planes e iniciativas&#42; | ✓ | ✓ | ✓ |  |  |
+| Eliminar planes e iniciativas | ✓ | ✓ | ✓ |  |  |
+| Ver escenarios en el menú principal ![Icono del planificador de escenarios](assets/esp-icon-in-main-menu.png) | ✓ | ✓ | ✓ | |  |
+| Ver los planes e iniciativas que creó el usuario&#42; | ✓ | ✓ | ✓ |  |  |
 
 {style="table-layout:auto"}
 
@@ -561,19 +561,19 @@ Solo los usuarios con una licencia de planificación pueden tener acceso complet
 
 | Acciones | Ver | Editar |
 |---|---|---|
-| Crear |   | ✓ |
-| Editar/eliminar todas las metas |   | ✓ |
+| Crear |  | ✓ |
+| Editar/eliminar todas las metas |  | ✓ |
 | Ver Metas en el Menú principal | ✓ | ✓ |
 | Ver el área de Metas desde un vínculo compartido | ✓ | ✓ |
 | Ver todas las metas en el sistema | ✓ | ✓ |
-| Activar/desactivar/cerrar todas las metas |   | ✓ |
-| Crear/editar/eliminar actividades |   | ✓ |
-| Crear/editar/eliminar resultados |   | ✓ |
-| Añadir una meta alineada |   | ✓ |
-| Actualización del progreso de un resultado o una actividad |   | ✓ |
+| Activar/desactivar/cerrar todas las metas |  | ✓ |
+| Crear/editar/eliminar actividades |  | ✓ |
+| Crear/editar/eliminar resultados |  | ✓ |
+| Añadir una meta alineada |  | ✓ |
+| Actualización del progreso de un resultado o una actividad |  | ✓ |
 | Poseer una meta, resultado o actividad | ✓ | ✓ |
 | Comentario sobre una meta | ✓ | ✓ |
-| Copiar metas |   | ✓ |
+| Copiar metas |  | ✓ |
 | Consulte la sección Lista de metas en el panel izquierdo | ✓ | ✓ |
 | Ver la sección Gráficos en el panel izquierdo | ✓ | ✓ |
 | Consulte la sección Alineación de metas en el panel izquierdo | ✓ | ✓ |

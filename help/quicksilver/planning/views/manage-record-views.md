@@ -1,15 +1,15 @@
 ---
 title: Administrar vistas de registros
-description: Puede mostrar registros en una vista de tabla, escala de tiempo o calendario al utilizar Adobe Workfront Planning. Este artículo describe cómo crear una vista y editar o eliminar una existente.
+description: Puede mostrar registros en una vista de tabla, escala de tiempo o calendario al utilizar Adobe Workfront Planning. Este artículo describe cómo crear una vista y editar una existente.
 author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: 0d968a3f398c2e7dc4154cd5a16acf35ca7c86f5
+source-git-commit: a215cf721cc4d517ee39cfa864e29dbbbfeb0a31
 workflow-type: tm+mt
-source-wordcount: '1508'
-ht-degree: 61%
+source-wordcount: '1161'
+ht-degree: 57%
 
 ---
 
@@ -40,10 +40,14 @@ Después de seleccionar un tipo de registro en el área de Adobe Workfront Plann
 En este artículo se describe la siguiente información sobre las vistas de registros:
 
 * [Crear y editar una vista](#create-or-edit-record-views)
-* [Eliminar una vista](#delete-views)
-* [Duplicar una vista](#duplicate-a-view)
 * [Habilitar los indicadores de presencia en tiempo real en una vista](#enable-the-real-time-presence-indicator-in-a-view)
   <!--* [Add a view as a favorite](#add-a-view-as-a-favorite) - not possible yet-->
+
+Para obtener más información sobre la administración de vistas de registros de Workfront Planning, consulte también los siguientes artículos:
+
+* [Eliminar vistas de registros](/help/quicksilver/planning/views/delete-record-views.md)
+* [Duplicar vistas de registros](/help/quicksilver/planning/views/duplicate-record-views.md)
+* [Compartir vistas](/help/quicksilver/planning/access/share-views.md)
 
 
 ## Requisitos de acceso
@@ -123,21 +127,17 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 * Las vistas que cree solo serán visibles para usted y para los usuarios con los que comparta las vistas.
 * Al modificar o eliminar una vista, esta se modifica y elimina para todos los usuarios que tengan permisos de acceso sobre ella.
 * Cada usuario puede crear un máximo de 100 vistas. Puede mostrar más de 100 vistas para un tipo de registro, pero un usuario solo puede crear 100 vistas.
-* Puede compartir vistas que cree con otros usuarios. Para obtener más información, consulte [Compartir vistas](/help/quicksilver/planning/access/share-views.md).
-* Los siguientes elementos son exclusivos de cada vista de registro:
+* Aunque algunos elementos de vista se pueden aplicar a varias vistas del mismo registro, son únicos en cada vista de registro:
 
    * Filtro
-   * Agrupación
-   * Ordenar
-   * Aspecto de la barra (para la vista de la línea de tiempo)
+   * Agrupación (para las vistas Tabla y Cronología)
+   * Apariencia de la barra (para las vistas de calendario y cronología)
 
-  <!-- some of these are not available in all of the views - edit above-->
+  Por ejemplo, al crear un filtro en una vista de tabla, los resultados del filtro sólo son visibles en la vista seleccionada (la vista de tabla) y no en todas las vistas asociadas al tipo de registro.
 
-  Por ejemplo, al crear un filtro en una vista de tabla, los resultados del filtro solo son visibles en la vista seleccionada y no en todas las vistas asociadas al tipo de registro.
-
-  >[!NOTE]
+  >[!TIP]
   >
-  > Es posible que algunos elementos de vista no estén disponibles para todas las vistas.
+  >Algunos elementos de vista no estarán disponibles para todas las vistas.
 
 
 ## Similitudes y diferencias entre vistas de registros
@@ -160,7 +160,7 @@ En la tabla siguiente se muestran las similitudes y diferencias entre las vistas
 | Mostrar registros en un calendario |           |              | ✓ |
 | Registros de grupo | ✓ | ✓ |
 | Ordenar registros | ✓ |              |
-| Registros con código de color |           | ✓ | ✓ |
+| <span class="preview">Registros de código de color</span> | <span class="preview">✓</span> | ✓ | ✓ |
 | Agrupaciones de código de color |           | ✓ |
 | Buscar registros específicos | ✓ | ✓ |
 | Compartir la vista con otros usuarios | ✓ | ✓ | ✓ |
@@ -242,76 +242,18 @@ En la tabla siguiente se muestran las similitudes y diferencias entre las vistas
    * [Administrar la vista de cronología](/help/quicksilver/planning/views/manage-the-timeline-view.md)
    * [Administrar la vista de calendario](/help/quicksilver/planning/views/manage-the-calendar-view.md)
 
-
-## Eliminar vistas
-
-{{step1-to-planning}}
-
-1. Haga clic en la tarjeta de un espacio de trabajo.
-
-   El espacio de trabajo se abre y los tipos de registro se muestran como tarjetas.
-
-1. Haga clic en una tarjeta de tipo de registro.
-
-   Se abre la página de tipo de registro.
-
-   De forma predeterminada, todos los registros del tipo seleccionado se muestran en la vista de tabla.
-
-1. Pase el ratón sobre uno de los nombres de la vista en la pestaña de la vista, luego haga clic en **Más** ![Menú más](assets/more-menu.png) a la izquierda del nombre de la vista y luego haga clic en **Eliminar**.
-En primer lugar, es posible que deba hacer clic en **Más** a la izquierda de la última ficha para encontrar la vista que desee eliminar.
-
-1. Haga clic en **Eliminar** para confirmar. <!--ensure there is not another saving step here?!-->
-
-   La vista se elimina para todos los usuarios que pueden acceder al área de registros y no se puede recuperar.
-
-<!--## Add a view as a favorite - this is not possible yet-->
-
-<!--not possible yet - August 30, 2023: -->
-
-## Duplicar una vista
-
-Si desea conservar varias versiones de una vista y realizar ligeros cambios entre ellas, puede duplicar una vista.
-
-Al duplicar una vista, se crean copias idénticas de una vista existente.
-
-Los permisos de uso compartido de la vista original no se transfieren a la vista duplicada.
-
-{{step1-to-planning}}
-
-1. Haga clic en la tarjeta de un espacio de trabajo.
-
-   El espacio de trabajo se abre y los tipos de registro se muestran como tarjetas.
-
-1. Haga clic en una tarjeta de tipo de registro.
-
-   Se abre la página de tipo de registro.
-De forma predeterminada, todos los registros del tipo seleccionado se muestran en la vista de tabla.
-
-1. Pase el ratón sobre la pestaña de la vista que quiera duplicar y haga clic en el menú **Más** ![Menú más](assets/more-menu.png), a la derecha del nombre de la vista; a continuación, haga clic en **Duplicar**.
-
-   ![Ver más en el menú con la opción duplicada](assets/view-more-menu-with-duplicate-option.png)
-
-
-   La vista está duplicada y el nombre de la nueva vista sigue el siguiente patrón: `Original view's name (Copy)`. La nueva ficha de vista se muestra al final de todas las fichas de vista.
-
 ## Habilitar el indicador de presencia en tiempo real en una vista
+
+Puede ver si otros usuarios están editando registros al mismo tiempo que usted siguiendo los indicadores de presencia en tiempo real de la vista.
 
 De forma predeterminada, los avatares de otros usuarios que están editando información de registro al mismo tiempo que se muestran en la esquina superior derecha de todas las vistas de registros.
 
 Al mostrar la vista de tabla, también puede ver qué campo está editando otro usuario en el momento en que está viendo el registro.
 
-1. Vaya a una página de tipo de registro y abra cualquier vista.
-1. (Condicional) Si hay otros usuarios editando al mismo tiempo los registros del tipo seleccionado, sus avatares se mostrarán en la esquina superior derecha de la vista.
-1. Haga clic en el menú desplegable situado junto a los avatares y seleccione la opción **Mostrar colaboradores**. La opción está seleccionada de forma predeterminada.
+Para obtener más información, consulte [Administrar la vista de tabla](/help/quicksilver/planning/views/manage-the-table-view.md).
 
-   ![Mostrar colaboradores seleccionados](assets/show-collaborators-toggle-selected.png)
 
-1. (Condicional) Abra una vista de tabla y el campo que otra persona está editando activamente se resaltará en el color correspondiente al contorno de su avatar en la vista de tabla.
 
-   Si el color de resaltado del avatar es gris, el usuario dejó de editar activamente el registro hace más de 30 segundos.
+<!--## Add a view as a favorite - this is not possible yet-->
 
-   ![Campo de tabla de indicadores en tiempo real y conexión de avatar](assets/real-time-indicator-table-field-and-avatar-connection.png)
-
-   >[!TIP]
-   >
-   >Puede seleccionar la opción **Mostrar colaboradores** de cualquier vista. El campo editado actualmente por otros usuarios sólo se describe en la vista de tabla.
+<!--not possible yet - August 30, 2023: -->

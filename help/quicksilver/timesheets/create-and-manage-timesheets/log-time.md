@@ -7,16 +7,16 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: d85ccb9dbef343ecc8808412e89264b3ea6ab25e
+source-git-commit: a215cf721cc4d517ee39cfa864e29dbbbfeb0a31
 workflow-type: tm+mt
-source-wordcount: '3824'
+source-wordcount: '3819'
 ht-degree: 92%
 
 ---
 
 # Hora de registro
 
-<!--Audited: 12/2023-->
+<!--Audited: 5/2025-->
 
 <!--remove all preview and production references if any-->
 <!--update screen shots for the general hour entries and the mixed selection of hours at production, if they fixed the bugs -->
@@ -41,11 +41,9 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo y regis
   </tr> 
   <tr> 
    <td role="rowheader">Licencia de Adobe Workfront*</td> 
-   <td> <p>Nuevo:</p>
-   <ul><li><p> Ligero o superior para registrar horas en una tarea, un problema o las horas generales en una hoja de horas</p>
-   <li><p>Estándar para registrar horas en los proyectos</p></li></ul>
-   <p>
-   <p>Actual: 
+   <td> <p>Nuevo: Ligero o superior para registrar horas en un proyecto, tarea, problema o Horas generales en una hoja de horas</p>
+
+<p>Actual: 
    <ul><li>Revisión o superior para registrar las horas generales en una plantilla de horas</li>
    <li>Trabajo o superior para registrar las horas en un proyecto, tarea o problema</li></ul> </td> 
   </tr> 
@@ -168,7 +166,7 @@ haga clic en **Cancelar** para detener la adición de los elementos seleccionado
    >     * Mayús + Opción + Flecha abajo para equipos Mac.
 
 
-1. (Opcional) Para fijar manualmente un elemento que se muestra automáticamente en la plantilla de horas, pase el puntero por encima del elemento y, a continuación, haga clic en el icono **fijar** ![](assets/empty-pin-icon.png).
+1. (Opcional) Para fijar manualmente un elemento que se muestra automáticamente en la plantilla de horas, pase el puntero por encima del elemento y, a continuación, haga clic en el icono **fijar**![](assets/empty-pin-icon.png).
 
    >[!TIP]
    >
@@ -342,7 +340,7 @@ Además, para registrar el tiempo de un elemento en el widget Mi trabajo:
 1. Vaya al área de **Inicio**.
 1. Añada el widget **Mi trabajo** a su área de Inicio.
 1. (Opcional) Seleccione una tarea, un problema o una solicitud en una lista y, a continuación, haga clic en **Trabajar en ello**.
-1. Pase el puntero por encima de la tarea o el problema para el que quiera registrar tiempo y luego haga clic en el icono de **Registrar el tiempo** ![](assets/log-time-icon-in-new-home.png), a la derecha de la información de la tarea.
+1. Pase el puntero por encima de la tarea o el problema para el que quiera registrar tiempo y luego haga clic en el icono de **Registrar el tiempo**![](assets/log-time-icon-in-new-home.png), a la derecha de la información de la tarea.
 
    ![](assets/log-time-ui-for-task-from-new-home.png)
 

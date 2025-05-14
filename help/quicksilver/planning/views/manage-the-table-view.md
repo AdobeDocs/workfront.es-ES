@@ -1,15 +1,15 @@
 ---
 title: Administrar la vista de tabla
-description: Puede mostrar los registros y sus campos en una vista de tabla al acceder a la página de tipo de registro en Adobe Workfront Planning. Este artículo describe cómo crear una vista de tabla y editar o eliminar una existente.
+description: Puede mostrar los registros y sus campos en una vista de tabla al acceder a la página de tipo de registro en Adobe Workfront Planning. En este artículo se describe cómo crear o editar una edición de vista de tabla y cómo habilitar los indicadores de presencia en tiempo real para la vista o cómo exportarla a un archivo CSV o de Excel.
 feature: Workfront Planning
 role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 0d968a3f398c2e7dc4154cd5a16acf35ca7c86f5
+source-git-commit: a215cf721cc4d517ee39cfa864e29dbbbfeb0a31
 workflow-type: tm+mt
-source-wordcount: '3229'
-ht-degree: 75%
+source-wordcount: '3395'
+ht-degree: 72%
 
 ---
 
@@ -24,6 +24,12 @@ ht-degree: 75%
 Puede mostrar los registros y sus campos en una vista de tabla al acceder a la página de tipo de registro en Adobe Workfront Planning.
 
 Para obtener información sobre las vistas de registros y su administración, consulte [Administrar vistas de registros](/help/quicksilver/planning/views/manage-record-views.md).
+
+Este artículo describe la siguiente información:
+
+* [Crear o editar columnas y filas en una vista de tabla](#manage-a-table-view)
+* [Habilitar indicadores de presencia en tiempo real para la vista de tabla](#enable-the-real-time-presence-indicator)
+  <!--* <span class="preview">[Export a table view to a CSV or Excel file](#export-the-table-view)</span>-->
 
 ## Requisitos de acceso
 
@@ -525,7 +531,21 @@ De forma predeterminada, los avatares de otros usuarios que están editando info
 
 Al mostrar la vista de tabla, también puede ver qué campo está editando otro usuario en el momento en que está viendo el registro.
 
-Para obtener más información, consulte la sección &quot;Habilitar el indicador de presencia en tiempo real&quot; en el artículo [Administrar vistas de registros](/help/quicksilver/planning/views/manage-record-views.md).
+1. Vaya a una página de tipo de registro y abra cualquier vista.
+1. (Condicional) Si hay otros usuarios editando al mismo tiempo los registros del tipo seleccionado, sus avatares se mostrarán en la esquina superior derecha de la vista.
+1. Haga clic en el menú desplegable situado junto a los avatares y seleccione la opción **Mostrar colaboradores**. La opción está seleccionada de forma predeterminada.
+
+   ![Mostrar colaboradores seleccionados](assets/show-collaborators-toggle-selected.png)
+
+1. (Condicional) Abra una vista de tabla y el campo que otra persona está editando activamente se resaltará en el color correspondiente al contorno de su avatar en la vista de tabla.
+
+   Si el color de resaltado del avatar es gris, el usuario dejó de editar activamente el registro hace más de 30 segundos.
+
+   ![Campo de tabla de indicadores en tiempo real y conexión de avatar](assets/real-time-indicator-table-field-and-avatar-connection.png)
+
+   >[!TIP]
+   >
+   >Puede seleccionar la opción **Mostrar colaboradores** de cualquier vista. El campo editado actualmente por otros usuarios sólo se describe en la vista de tabla.
 
 <!--<div class="preview">
 
