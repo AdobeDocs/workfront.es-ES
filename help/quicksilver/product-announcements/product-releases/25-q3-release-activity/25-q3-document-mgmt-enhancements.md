@@ -1,14 +1,14 @@
 ---
-title: Mejoras del proyecto del tercer trimestre de 2025
-description: Mejoras del proyecto del tercer trimestre de 2025
+title: Mejoras en la administración de documentos del tercer trimestre de 2025
+description: Mejoras en la administración de documentos del tercer trimestre de 2025
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4829d487-7041-447f-9a68-fb1acf467734
-source-git-commit: d0a82c1ae306edb4f63c961120bb1df4613ace7e
+source-git-commit: c8222e177d7e1ab9f62f5a520a2a941ca87cc27a
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '395'
+ht-degree: 8%
 
 ---
 
