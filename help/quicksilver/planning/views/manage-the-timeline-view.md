@@ -6,10 +6,10 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 0d968a3f398c2e7dc4154cd5a16acf35ca7c86f5
+source-git-commit: eb3db3b056cea359f77e56f77d6e9520954e2abb
 workflow-type: tm+mt
-source-wordcount: '2946'
-ht-degree: 59%
+source-wordcount: '3060'
+ht-degree: 56%
 
 ---
 
@@ -97,8 +97,6 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 +++
 
 ## Administrar una vista de línea de tiempo {#manage-a-timeline-view}
-
-<!--insert screen shot of timeline view-->
 
 Al crear una vista de línea de tiempo, todos los registros del tipo de registro seleccionado se muestran en una línea de tiempo cronológica.
 
@@ -278,7 +276,7 @@ Actualice la configuración de la vista de línea de tiempo para indicar qué in
 
 1. Haga clic en **Estilo de barra** en el panel izquierdo para indicar qué información desea mostrar en las barras de registro.
 
-   <!--<span class="preview">You can define the bar style of  the main record as well as for the connected records, when using the Breakdown option in the Standard view. </span>-->
+   <span class="preview">Puede definir el estilo de barra del registro principal, así como para los registros conectados, al utilizar la opción Desglose en la vista Estándar. </span>
 
    El campo principal (o título) del registro, tal como se define en la vista de tabla del registro, está seleccionado de forma predeterminada.
    <!--adjust this when the primary field is released??-->
@@ -309,17 +307,14 @@ Actualice la configuración de la vista de línea de tiempo para indicar qué in
 
    >[!TIP]
    >
-   >* <span class="preview">La configuración Truncar detalles de barra no está disponible cuando se muestra la vista de escala de tiempo en el modo compacto y no está disponible en la vista Calendario.</span>
+   ><span class="preview">La configuración Truncar detalles de barra no está disponible cuando se muestra la vista de escala de tiempo en el modo compacto y no está disponible en la vista Calendario.</span>
    >
-   >* <span class="preview">Si desglosa la vista de escala de tiempo para mostrar los objetos conectados, la configuración Truncar bar details sólo se aplica al tipo de registro principal. No se aplica a las barras de registros conectadas.</span>
-
-   <!--take out the last bullet in the Tip above when we release the additional records in breakdown formatting-->
 
 1. Haga clic en **Color** en el panel izquierdo para personalizar los colores de los registros y agrupaciones en la línea de tiempo.
 
    ![Vista de la cronología de la ficha de color](assets/color-tab-timeline-view.png)
 
-   <!--<span class="preview">You can define the color of  the main record as well as for the connected records, when using the Breakdown option in the Standard view. </span>-->
+   <span class="preview">Puede definir el color del registro principal y de los registros conectados al utilizar la opción Desglose en la vista Estándar. </span>
 
 1. (Condicional y opcional) Si ha añadido una agrupación a la vista de línea de tiempo, seleccione una de las siguientes opciones para establecer un color para la agrupación en la sección **Establecer color de agrupación**:
 
@@ -358,7 +353,7 @@ Actualice la configuración de la vista de línea de tiempo para indicar qué in
 
    Si no tiene ningún campo con opciones codificadas por colores para el tipo de registro seleccionado, esta opción aparece atenuada.
 
-   <!--1. <span class="preview">(Optional) If you are using the Breakdown option, repeat the steps starting with step 4 for each connected record displayed in the timeline. </span>-->
+   1. <span class="preview">(Opcional) Si utiliza la opción Desglose, repita los pasos que comienzan con el paso 4 para cada registro conectado que se muestra en la cronología. </span>
 
 1. Haga clic en **Guardar**.
 
@@ -413,6 +408,15 @@ Puede mostrar los registros conectados en la vista de escala de tiempo de un reg
 1. Haga clic en la flecha que señala a la derecha para expandir un tipo de registro y mostrar sus conexiones.
 
    ![Campañas desglosadas por programas en la vista de escala de tiempo](assets/campaigns-broken-down-by-programs-in-timeline-highlighted.png)
+
+   >[!IMPORTANT]
+   >
+   >    Cuando se muestran varios registros conectados en el desglose, no están en orden jerárquico.
+   >
+   >Por ejemplo, si está viendo la cronología de las campañas y agrega Productos y, a continuación, Programas al desglose, los Programas no necesariamente están conectados primero a los Productos.
+   >
+   >Tanto los productos como los programas deben estar conectados a las campañas para que se muestren como opciones en la opción de desglose y puede agregarlos al desglose en cualquier orden.
+
 
 1. (Opcional) Repita los pasos anteriores para agregar más registros conectados.
 

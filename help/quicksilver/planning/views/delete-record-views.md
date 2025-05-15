@@ -5,13 +5,13 @@ author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: a215cf721cc4d517ee39cfa864e29dbbbfeb0a31
+exl-id: f86971bc-e807-459e-9fa8-dc34967bc069
+source-git-commit: eb3db3b056cea359f77e56f77d6e9520954e2abb
 workflow-type: tm+mt
-source-wordcount: '441'
-ht-degree: 34%
+source-wordcount: '440'
+ht-degree: 29%
 
 ---
-
 
 # Eliminar vistas de registros
 
@@ -111,11 +111,14 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
    De forma predeterminada, todos los registros del tipo seleccionado se muestran en la vista de tabla.
 
-1. Pase el ratón sobre uno de los nombres de la vista en la pestaña de la vista, luego haga clic en **Más** ![Menú más](assets/more-menu.png) a la izquierda del nombre de la vista y luego haga clic en **Eliminar**.
+1. <span class="preview">Pase el ratón sobre uno de los nombres de la vista en la pestaña de la vista, luego haga clic en **Más** ![Menú más](assets/more-menu.png) a la izquierda del nombre de la vista y luego haga clic en **Eliminar**.</span>
 
-   En primer lugar, es posible que deba hacer clic en **Más** a la izquierda de la última ficha para encontrar la vista que desee eliminar.
+   <span class="preview">![Menú Ver más en una vista de registro](assets/view-more-menu-with-duplicate-option.png)</span>
 
-   ![Menú Ver más en una vista de registro](assets/view-more-menu-with-duplicate-option.png)
+   >[!TIP]
+   >
+   >Es posible que tenga que hacer clic en **Más** a la derecha de la última pestaña para encontrar la vista que desea eliminar.
+
 
 1. Haga clic en **Eliminar** para confirmar. <!--ensure there is not another saving step here?!-->
 

@@ -6,10 +6,10 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: a215cf721cc4d517ee39cfa864e29dbbbfeb0a31
+source-git-commit: eb3db3b056cea359f77e56f77d6e9520954e2abb
 workflow-type: tm+mt
-source-wordcount: '3395'
-ht-degree: 72%
+source-wordcount: '3680'
+ht-degree: 66%
 
 ---
 
@@ -29,7 +29,7 @@ Este artículo describe la siguiente información:
 
 * [Crear o editar columnas y filas en una vista de tabla](#manage-a-table-view)
 * [Habilitar indicadores de presencia en tiempo real para la vista de tabla](#enable-the-real-time-presence-indicator)
-  <!--* <span class="preview">[Export a table view to a CSV or Excel file](#export-the-table-view)</span>-->
+* <span class="preview">[Exportar una vista de tabla a un archivo CSV o de Excel](#export-the-table-view)</span>
 
 ## Requisitos de acceso
 
@@ -88,7 +88,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 <tr> 
    <td role="rowheader"><p>Permisos de objeto</p></td> 
    <td>   <p>Permisos de administración de una vista</p>  
-   <p>Ver permisos en una vista para cambiar temporalmente la configuración de la vista o duplicarla <!--<span class="preview">or to export the view</span>--></p> </td> 
+   <p>Ver permisos de una vista para cambiar temporalmente la configuración de la vista, duplicar, <span class="preview">o exportarla</span></p> </td> 
   </tr> 
 <tr> 
    <td role="rowheader"><p>Plantilla de diseño</p></td> 
@@ -109,8 +109,6 @@ La información de los registros solo se puede editar en la vista de tabla.
 Para obtener más información sobre la edición de registros en la vista de tabla, consulte [Editar registros](/help/quicksilver/planning/records/edit-records.md).
 
 ## Administrar una vista de tabla {#manage-a-table-view}
-
-<!--insert screen shot of table view-->
 
 Al crear una vista de tabla, todos los registros del tipo seleccionado se muestran en una tabla. Cada fila es un registro único y cada columna es un campo de registro. Todos los campos y todos los registros se muestran de forma predeterminada.
 
@@ -547,51 +545,52 @@ Al mostrar la vista de tabla, también puede ver qué campo está editando otro 
    >
    >Puede seleccionar la opción **Mostrar colaboradores** de cualquier vista. El campo editado actualmente por otros usuarios sólo se describe en la vista de tabla.
 
-<!--<div class="preview">
+<div class="preview">
 
-## Export the table view
+## Exportación de la vista de tabla
 
-You can export information in the table view to a CSV or an Excel file. 
+Puede exportar información de la vista de tabla a un archivo CSV o de Excel.
 
-Consider the following when exporting the table view:
+Tenga en cuenta lo siguiente al exportar la vista de tabla:
 
-* The information exported to an Excel file preserves the filters, groupings, and sorts applied to the table view in Workfront Planning. Groupings are not visible in the CSV file.
+* La información exportada a un archivo de Excel conserva los filtros, agrupaciones y ordenaciones aplicados a la vista de tabla en Workfront Planning. Las agrupaciones no son visibles en el archivo CSV.
 
-* Thumbnails and custom row colors are not supported in exported files.  
+* Los archivos exportados no admiten miniaturas ni colores de fila personalizados.
 
-* Only fields made visible in the Workfront interface are exported. Hidden fields are not exported.
+* Solo se exportan los campos que se hacen visibles en la interfaz de Workfront. Los campos ocultos no se exportan.
 
-To export information from the table view or a record type:
+Para exportar información desde la vista de tabla o un tipo de registro:
 
-1. Go to a record type page and click a table view tab. 
-1. Hover over the table view tab's name, then click the **More** menu ![More menu](assets/more-menu.png).
-1. Click **Export**, then select one of the following formats:
+1. Vaya a una página de tipo de registro y haga clic en una ficha de vista de tabla.
+1. Pase el ratón sobre el nombre de la pestaña de la vista de tabla y luego haga clic en el menú **Más** ![Menú más](assets/more-menu.png).
 
-    * Excel
-    * CSV
+   ![Menú Más en una vista](assets/view-more-menu-with-duplicate-option.png)
+1. Haga clic en **Exportar** y, a continuación, seleccione uno de los siguientes formatos:
 
-    >[!IMPORTANT]
-    >
-    >You cannot export information from the table view when you display a different view on the screen. You must display the table view that you want to export in order to access the Export option in the More menu. 
+   * Excel
+   * CSV
 
-    The file is downloaded to your computer. 
+   >[!IMPORTANT]
+   >
+   >No se puede exportar información desde la vista de tabla cuando se muestra una vista diferente en la pantalla. Debe mostrar la vista de tabla que desea exportar para acceder a la opción Exportar en el menú Más.
 
-1. (Optional) Go to the downloads folder on your computer and find the downloaded file. 
+   El archivo se descargará en el equipo.
 
-    The name of the exported file follows the following format: 
+1. (Opcional) Vaya a la carpeta de descargas del equipo y busque el archivo descargado.
 
-    `Name of the view - name of the record type`
+   El nombre del archivo exportado sigue el siguiente formato:
 
-    For example, a table view for the Campaigns record type generates a file named `Table view - Campaigns`.
+   `Name of the view - name of the record type`
 
-    The file displays the following information: 
-    
-    * The column headers are highlighted in black, in the Excel file
-    * All the fields visible in the Workfront interface, sorted and filtered by the same criteria
-    * Groupings are preserved in the Excel file
+   Por ejemplo, una vista de tabla para el tipo de registro Campañas genera un archivo denominado `Table view - Campaigns`.
 
-    You can now share the exported files with others, or attach them to any communication. 
-    
- </div>   
+   El archivo muestra la siguiente información:
 
- -->
+   * Los encabezados de columna se resaltan en negro en el archivo de Excel
+   * Todos los campos visibles en la interfaz de Workfront, ordenados y filtrados según los mismos criterios
+   * Las agrupaciones se conservan en el archivo de Excel
+
+   Ahora puede compartir los archivos exportados con otros usuarios o adjuntarlos a cualquier comunicación.
+
+</div>
+

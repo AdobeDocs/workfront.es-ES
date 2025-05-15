@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 940945df-391c-4672-9d9d-180d5028509b
-source-git-commit: 3dfac5ada17248f5c67380b56b9a0969b10b73e6
+source-git-commit: eb3db3b056cea359f77e56f77d6e9520954e2abb
 workflow-type: tm+mt
-source-wordcount: '1002'
-ht-degree: 11%
+source-wordcount: '1065'
+ht-degree: 10%
 
 ---
 
@@ -113,9 +113,11 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 * No se admiten hojas vacías.
 * No se admiten los campos de los siguientes tipos y no se pueden asignar a campos de la hoja de importación:
 
-   * &#x200B;<!--In the Production environment,--> Campos de conexión a registros de Planning u objetos de Workfront y AEM Assets
+   * Campos de conexión, según el entorno que utilice:
 
-     <!--<span class="preview">In the Preview environment, you can map and import connection fields to Planning records. </span>-->
+      * En el entorno Producción, los campos de conexión a registros de Planning o a objetos de Workfront y AEM Assets no se pueden asignar
+
+      * <span class="preview">En el entorno de vista previa, puede asignar e importar campos de conexión a registros de Planning. No se pueden asignar campos a Workfront y AEM Assets.</span>
 
    * Campos de búsqueda de registros de Planning conectados u objetos de Workfront y AEM Assets
    * Campos de fórmula
@@ -148,6 +150,11 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
    ![Asignar campos de Planning a columnas al importar registros](assets/map-planning-fields-to-columns-when-importing-records.png)
 
    Cada fila representa un nuevo registro. Solo se muestran los 10 primeros registros en el cuadro Vista previa y edición.
+
+   >[!TIP]
+   >
+   >No se admiten todos los tipos de campo. Para obtener más información, vea la sección [Consideraciones acerca de la importación de registros mediante un archivo CSV o de Excel](#considerations-about-importing-records-using-an-excel-or-csv-file) en este artículo.
+
 
 1. (Opcional y condicional) Si tiene permisos de administración en el área de trabajo, seleccione **Crear opciones que faltan** en la esquina inferior izquierda de la pantalla. Cuando se habilita, se agregan las opciones que faltan en los campos de selección única y múltiple.
 

@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 673dd888-3135-48b0-8198-c8d6d6706ddf
-source-git-commit: 3550d7addcc0bb790f15d141d9470e0b75f940a6
+source-git-commit: eb3db3b056cea359f77e56f77d6e9520954e2abb
 workflow-type: tm+mt
-source-wordcount: '1660'
+source-wordcount: '1657'
 ht-degree: 53%
 
 ---
@@ -145,9 +145,9 @@ Puede compartir las vistas que ha creado o las vistas en las que tiene permiso d
 
    Se abre la página de tipo de registro.
 
-1. En la pestaña Ver, pase el ratón sobre la vista que quiera compartir, haga clic en el menú **Más** ![Menú Más](assets/more-menu.png), a la derecha del nombre de la vista y, a continuación, haga clic en **Compartir**.
+1. <span class="preview">En la pestaña de vista, pasa el ratón sobre la vista que quieras compartir y haz clic en el menú **Más** ![Menú más](assets/more-menu.png) que se encuentra a la derecha del nombre de la vista y, a continuación, haz clic en **Compartir**. </span>
 
-   ![Menú más para vistas expandido con la opción de uso compartido](assets/more-menu-for-views-expanded-with-share-option.png)
+   <span class="preview">![Menú más para una vista](assets/more-menu-for-views-expanded-with-share-option.png) </span>
 
    La pestaña **Uso compartido interno** debería estar seleccionada de manera predeterminada.
 
@@ -236,10 +236,8 @@ Los usuarios que acceden a un vínculo a una vista para la que no tienen permiso
 1. (Condicional) Si es el administrador de una vista, es posible que otro usuario le solicite el acceso a la vista en las áreas siguientes:
 
    * Una notificación en la aplicación
-
      ![Notificación en la aplicación para solicitud de acceso de vista](assets/in-app-notification-for-access-request-for-view.png)
    * Una notificación por correo electrónico
-
      ![Notificación en la aplicación para solicitud de acceso de vista](assets/in-app-notification-for-access-request-for-view.png)
 1. (Condicional) En el área de notificación de Workfront, haga clic en la notificación dentro de la aplicación
 O

@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: a215cf721cc4d517ee39cfa864e29dbbbfeb0a31
+source-git-commit: eb3db3b056cea359f77e56f77d6e9520954e2abb
 workflow-type: tm+mt
-source-wordcount: '1161'
-ht-degree: 57%
+source-wordcount: '1166'
+ht-degree: 56%
 
 ---
 
@@ -168,6 +168,7 @@ En la tabla siguiente se muestran las similitudes y diferencias entre las vistas
 | Mostrar registros por año y trimestre |           | ✓ |    |
 | Mostrar registros por mes |           | ✓ | ✓ |
 | Mostrar registros por semana |           |               | ✓ |
+| <span class="preview">Exportar información de una vista</span> | <span class="preview">✓</span> |               |    |
 
 
 ## Crear o editar vistas {#create-or-edit-views}

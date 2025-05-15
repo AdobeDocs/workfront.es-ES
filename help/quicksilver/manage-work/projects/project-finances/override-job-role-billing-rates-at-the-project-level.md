@@ -6,9 +6,9 @@ description: Como gerente del proyecto, puede especificar cuál es la tarifa de 
 author: Lisa
 feature: Work Management
 exl-id: b7a33459-6929-4611-8546-06ca979e5dbe
-source-git-commit: 485f2985c70b1bb095e31323b7b4698bcb7a04cf
+source-git-commit: eb3db3b056cea359f77e56f77d6e9520954e2abb
 workflow-type: tm+mt
-source-wordcount: '817'
+source-wordcount: '850'
 ht-degree: 31%
 
 ---
@@ -72,6 +72,8 @@ Puede anular la tasa de facturación de un rol en un proyecto de las siguientes 
 
 * Varias veces, seleccionando varias tasas nuevas para intervalos de fechas específicos.\
   Se puede utilizar una tasa diferente durante cada intervalo de fechas especificado.
+
+* Puede agregar nuevas tarifas de facturación a una plantilla de proyecto, que se convertirán en tarifas de facturación del proyecto cuando cree el proyecto a partir de esa plantilla. Para obtener información sobre cómo editar plantillas, consulte [Editar plantillas del proyecto](/help/quicksilver/manage-work/projects/create-and-manage-templates/edit-templates.md).
 
 >[!TIP]
 >
