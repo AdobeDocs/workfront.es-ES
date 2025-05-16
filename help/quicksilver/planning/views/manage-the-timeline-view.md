@@ -6,7 +6,7 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: eb3db3b056cea359f77e56f77d6e9520954e2abb
+source-git-commit: d0ec729a510b78a7ce417356ac9250a485308f0b
 workflow-type: tm+mt
 source-wordcount: '3060'
 ht-degree: 56%
@@ -276,7 +276,7 @@ Actualice la configuración de la vista de línea de tiempo para indicar qué in
 
 1. Haga clic en **Estilo de barra** en el panel izquierdo para indicar qué información desea mostrar en las barras de registro.
 
-   <span class="preview">Puede definir el estilo de barra del registro principal, así como para los registros conectados, al utilizar la opción Desglose en la vista Estándar. </span>
+   Puede definir el estilo de barra del registro principal <span class="preview">así como para los registros conectados</span>, al utilizar la opción Desglose en la vista Estándar.
 
    El campo principal (o título) del registro, tal como se define en la vista de tabla del registro, está seleccionado de forma predeterminada.
    <!--adjust this when the primary field is released??-->
@@ -314,7 +314,7 @@ Actualice la configuración de la vista de línea de tiempo para indicar qué in
 
    ![Vista de la cronología de la ficha de color](assets/color-tab-timeline-view.png)
 
-   <span class="preview">Puede definir el color del registro principal y de los registros conectados al utilizar la opción Desglose en la vista Estándar. </span>
+   Puede definir el color del registro principal <span class="preview">así como de los registros conectados</span>, al utilizar la opción Desglose en la vista Estándar.
 
 1. (Condicional y opcional) Si ha añadido una agrupación a la vista de línea de tiempo, seleccione una de las siguientes opciones para establecer un color para la agrupación en la sección **Establecer color de agrupación**:
 
