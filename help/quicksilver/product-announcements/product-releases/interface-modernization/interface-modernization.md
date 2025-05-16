@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 0525dc9025f43491a5413726600df0dbb9e45b94
+source-git-commit: e94d7f40accd80d631765405752a03bf3a0363f1
 workflow-type: tm+mt
-source-wordcount: '3539'
+source-wordcount: '3691'
 ht-degree: 1%
 
 ---
@@ -82,8 +82,28 @@ Para obtener más información, consulte [Buscar [!DNL Adobe Workfront]](/help/q
 
 Hemos actualizado la página que utiliza para conceder acceso de soporte técnico a su cuenta de Workfront con un diseño más moderno y coherente con otras áreas de Workfront.
 
+## Informes y tableros
+
+### Las direcciones URL con /tile o /qstile ya no se admiten en los paneles de Workfront
+
+**Versión preliminar: 13 de mayo; versión de producción: por anunciar**
+
+Si tiene una página externa en un panel con una dirección URL de Workfront que contiene `/tile` o `/qstile`, esa página ya no se cargará.
+
+Añadir `/tile` o `/qstile` a una URL de Workfront permitía al explorador cargar páginas de experiencia clásica no admitidas que quedaron obsoletas en julio de 2022.
+
+Se recomienda reemplazar la URL para ir a una página compatible o eliminar la página externa del panel.
+
 
 ## Usuarios
+
+### Actualización de la interfaz a la nueva página de registro de usuario
+
+**Versión preliminar: 15 de mayo de 2024; versión de producción: por anunciar**
+
+Hemos actualizado la nueva página de registro de usuarios con un diseño más moderno y coherente con otras áreas de Workfront.
+
+Los usuarios ya no tienen la opción de subir una foto en esta página. Sin embargo, pueden cargar una foto en su perfil de usuario una vez que inician sesión en Workfront.
 
 ### Búsqueda actualizada de la página de inicio de sesión
 
@@ -122,7 +142,6 @@ Hemos actualizado la página de registro de usuarios externos con un diseño má
 **Versión preliminar: 24 de abril de 2024; versión de producción: a partir del 8 de mayo de 2024**
 
 Hemos actualizado la página del acuerdo de licencia con un diseño más moderno y coherente con otras áreas de Workfront.
-
 
 
 ## Actualizaciones de la interfaz realizadas en el segundo trimestre
