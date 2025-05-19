@@ -8,7 +8,7 @@ feature: System Setup and Administration
 role: Admin
 author: Lisa
 exl-id: 9243ee60-006b-4628-bde7-5b037dde7511
-source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
+source-git-commit: 379772f6bd1ed9448e6fd5feee956a931f65f69e
 workflow-type: tm+mt
 source-wordcount: '350'
 ht-degree: 94%
@@ -81,16 +81,14 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
      </tr> 
      <tr> 
       <td role="rowheader">Comprobar todas las cuentas POP</td> 
-      <td> <p>Comprueba nuevos mensajes de correo electrónico que se enviaron a cuentas POP vinculadas a Workfront. </p> <!--
-        <p data-mc-conditions="QuicksilverOrClassic.Draft mode">For more information about Workfront and POP account integrations, see and <a href="../../../manage-work/requests/create-and-manage-request-queues/queue-details-tab-overview.md" class="MCXref xref">Overview of the Queue Details tab in a project</a>.</p>
-       --> </td> 
+      <td>Comprueba nuevos mensajes de correo electrónico que se enviaron a cuentas POP vinculadas a Workfront.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Volver a calcular las escalas de tiempo</td> 
       <td> <p>Vuelve a calcular la línea de tiempo de todos los proyectos de Workfront que están en estado Actual. </p> <p>Para obtener más información sobre cómo calcular la línea de tiempo de los proyectos de forma automática o manual, proyecto por proyecto, consulte <a href="../../../manage-work/projects/manage-projects/recalculate-project-timeline.md" class="MCXref xref">Recalcular líneas de tiempo del proyecto</a>.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Restablecer informes de cliente personalizados</td> 
+      <td role="rowheader">Restaurar informes de clientes personalizados</td> 
       <td>Restaura los informes predeterminados que se entregaron originalmente con Workfront, de modo que estén visibles en la sección <strong>Informes</strong> para todos los usuarios.</td> 
      </tr> 
      <tr> 

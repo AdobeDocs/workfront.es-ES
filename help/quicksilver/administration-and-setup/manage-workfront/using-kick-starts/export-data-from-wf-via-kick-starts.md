@@ -9,10 +9,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 7f56b63e-a674-43e4-bef6-d276898e2074
-source-git-commit: 03768a0d3a63c7f6adcd11a6cd2e4d093b24f214
+source-git-commit: 4c80802c8e0084aa9e7be350caefc8929c9c4e2b
 workflow-type: tm+mt
-source-wordcount: '1014'
-ht-degree: 93%
+source-wordcount: '1043'
+ht-degree: 90%
 
 ---
 
@@ -167,6 +167,10 @@ Existen las siguientes limitaciones al exportar datos mediante kick-starts (los 
      </tr> 
     </tbody> 
    </table>
+
+   >[!NOTE]
+   >
+   >Si la opción **Tablero** no está disponible, significa que no tiene ningún tablero en el sistema que se comparta en todo el sistema. No puede exportar paneles privados.
 
 1. Haga clic en **Más opciones** para ver la lista completa de objetos.
 
@@ -330,7 +334,7 @@ Existen las siguientes limitaciones al exportar datos mediante kick-starts (los 
 
    El archivo de KickStart exportado se descarga en el equipo como archivo de Excel o como archivo .zip que contiene varios archivos de propiedades y de Excel. Cada archivo Excel es una colección de hojas, donde cada hoja representa un campo asociado al objeto seleccionado. Hay una hoja **Propiedades** asociada con cada exportación.
 
-   Las opciones **Panel de control** e **Informe** le permiten seleccionar paneles de control e informes específicos para incluirlos en la descarga. Solo puede exportar paneles de control, que se comparten en todo el sistema.
+   Las opciones **Panel de control** e **Informe** le permiten seleccionar paneles de control e informes específicos para incluirlos en la descarga. En el caso de los paneles, solo puede exportar los que se comparten en todo el sistema.
 
    No se pueden exportar los informes de matriz. Para obtener más información acerca de los informes de matriz, consulte [Crear un informe de matriz](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md).
 

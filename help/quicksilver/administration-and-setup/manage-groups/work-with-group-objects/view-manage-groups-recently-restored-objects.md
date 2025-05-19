@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 8ec06363-080e-4f1d-8a50-fc14f06ad323
-source-git-commit: 96b9939131beebd9c1968cb5c287d75295c68c5b
+source-git-commit: 379772f6bd1ed9448e6fd5feee956a931f65f69e
 workflow-type: tm+mt
-source-wordcount: '356'
-ht-degree: 90%
+source-wordcount: '333'
+ht-degree: 71%
 
 ---
 
@@ -79,19 +79,8 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
 
    Cada ficha enumera elementos del tipo de objeto correspondiente que pertenecen al grupo actual o a sus subgrupos y que se restauraron en los últimos 30 días.
 
-1. Complete cualquiera de las siguientes acciones:
+1. (Opcional) Para exportar toda la lista de objetos de la ficha, haga clic en el icono **Exportar**. ![Icono de exportación](assets/export-icon.png).
+1. (Opcional) Cambie la visualización de la información en la lista mediante un filtro, una vista o una agrupación.
 
-   <table style="table-layout:auto"> 
-    <col> 
-    <col> 
-    <tbody> 
-     <tr> 
-      <td role="rowheader"> <p>Exportar toda la lista de objetos en la pestaña</p> </td> 
-      <td> <p>Haga clic en <strong>Exportar</strong>.</p> </td> 
-     </tr> 
-     <tr data-mc-conditions=""> 
-      <td role="rowheader"> <p>Cambiar la visualización de la información en la lista</p> </td> 
-      <td> <p>En la esquina superior derecha, sobre la lista, utilice <strong>Filtrar</strong> para definir lo que se mostrará según los criterios que proporcione. Utilice <strong>Ver</strong> para definir qué campos se muestran como columnas. Utilice <strong>Agrupación</strong> para agrupar los elementos en categorías.</p> </td> 
-     </tr> 
-    </tbody> 
-   </table>
+   Para obtener más información, consulte [Información general sobre los elementos de informes](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/reporting-elements-overview.md).
+

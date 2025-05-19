@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 25813946-e338-4dd9-b02c-d20fa18c539c
-source-git-commit: 69cd1eafd7798861a4868fe0d68707ab5ba9106c
+source-git-commit: 4c80802c8e0084aa9e7be350caefc8929c9c4e2b
 workflow-type: tm+mt
-source-wordcount: '2776'
+source-wordcount: '2785'
 ht-degree: 97%
 
 ---
@@ -104,7 +104,7 @@ Para exportar una plantilla de Kick-Start:
     </thead> 
     <tbody> 
      <tr> 
-      <td scope="col"> <p>Panel de control</p> <p>Todos los paneles del sistema están disponibles para exportar. Puede seleccionar hasta 100 paneles específicos en una sola exportación.</p> </td> 
+      <td scope="col"> <p>Panel de control</p> <p>Todos los tableros del sistema que se comparten públicamente están disponibles para la exportación. Los tableros que no se comparten en todo el sistema no se pueden exportar. Puede seleccionar hasta 100 paneles específicos en una sola exportación.</p> </td> 
       <td scope="col">Exportar como archivo ZIP</td> 
       <td scope="col"> <p>Parámetro</p> <p>Texto descriptivo</p><p>Opción del parámetro</p> <p>Grupo de parámetros</p> <p>Parámetro de categoría</p> <p>Categoría</p> <p>Informe</p> <p>Sección de la ficha de portal</p> <p>Panel de control</p> <p>Preferencias</p> </td> 
      </tr> 

@@ -6,10 +6,10 @@ description: La función de organigrama le permite ver el organigrama asociado a
 author: Lisa
 feature: People Teams and Groups
 exl-id: 10c1fc55-8df4-4c2a-9251-ee6db9ee6c0d
-source-git-commit: dfd5c7423b65e6065ab9c2094578443b81189abd
+source-git-commit: 379772f6bd1ed9448e6fd5feee956a931f65f69e
 workflow-type: tm+mt
 source-wordcount: '143'
-ht-degree: 0%
+ht-degree: 39%
 
 ---
 
@@ -28,20 +28,20 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>plan de Adobe Workfront</p> </td> 
+   <td role="rowheader"> <p>Plan de Adobe Workfront</p> </td> 
    <td>Cualquiera</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licencia de Adobe Workfront</td> 
    <td>
-   <p>Nuevo: claro o superior</p>
+   <p>Nuevo: Light o superior</p>
    <p>o</p>
-   <p>Actual: revisar o superior</p></td>
+   <p>Actual: revisión o superior</p></td>
   </tr> 
  </tbody> 
 </table>
 
-Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -49,5 +49,5 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
 
 {{step1-click-profile-pic}}
 
-1. En el panel izquierdo, haga clic en **[!UICONTROL Organigrama]**.\
-   ![Organigrama](assets/org-chart.png)
+1. En el panel izquierdo, haga clic en **[!UICONTROL Organigrama]**.
+   ![Organigrama](assets/org-chart-2025.png)
