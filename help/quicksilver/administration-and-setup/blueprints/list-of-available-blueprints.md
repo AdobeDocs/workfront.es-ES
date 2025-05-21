@@ -8,14 +8,16 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: a5cdcb89-71c0-43f0-a5cf-dc99fac542ba
-source-git-commit: 04d41a8c9c8c04f2e7ef308465328ccc57bd3195
+source-git-commit: 48de4553478fc42d88d81ea953440337f6684e50
 workflow-type: tm+mt
-source-wordcount: '2017'
-ht-degree: 97%
+source-wordcount: '2057'
+ht-degree: 83%
 
 ---
 
 # Lista de modelos disponibles
+
+<!-- Audited: 5/2025 -->
 
 Los administradores del sistema tienen disponibles los siguientes [!DNL Adobe Workfront] modelos para instalarlos. Para obtener más información sobre los modelos, consulte [Información general sobre los modelos](/help/quicksilver/administration-and-setup/blueprints/blueprints-overview.md).
 
@@ -50,7 +52,7 @@ El paquete [!UICONTROL Revisión de recursos digitales] contiene una única plan
 Este modelo contiene una plantilla que la organización de Professional services de [!DNL Workfront] ha utilizado durante años en los compromisos de implementación con equipos de TI corporativa para administrar las distintas actividades que deben realizarse cuando se transfiere a un empleado a una nueva función. Esta plantilla reduce los riesgos de seguridad que existen cuando se completa la transferencia de un empleado sin supervisión de TI. También elimina horas perdidas de tiempo improductivo cuando no se concede acceso a los sistemas para cumplir con las obligaciones del nuevo rol del empleado.
 
 **[!UICONTROL Cierre operativo de fin de mes]**
-Este modelo contiene una plantilla que la organización de Professional services de [!DNL Workfront] ha utilizado durante años en los compromisos de implementación con los equipos de finanzas para organizar el cierre de los libros a final de mes. La plantilla proporciona una lista de comprobación de actividades comunes que deben completarse cada mes para informar con precisión sobre el estado de la empresa y promoverlo.
+Este modelo contiene una plantilla que la organización de servicios profesionales [!DNL Workfront] ha utilizado durante años durante los compromisos de implementación con los equipos de finanzas para organizar el cierre de los libros a fin de mes. La plantilla proporciona una lista de comprobación de actividades comunes que deben completarse cada mes para informar con precisión sobre el estado de la empresa y promoverlo.
 
 **[!UICONTROL Configuración de la organización de finanzas]**
 Este modelo contiene la configuración de estructuras organizativas para la expansión a un departamento de finanzas.
@@ -76,11 +78,14 @@ Este modelo contiene la configuración de estructuras organizativas para la expa
 **[!UICONTROL Plan de incorporación de nuevos empleados]**
 Este modelo contiene una plantilla que la [!DNL Workfront professional services] organización ha utilizado durante años en los compromisos de implementación con los equipos de recursos humanos para ayudar a los nuevos empleados a realizar un seguimiento de sus actividades de incorporación.
 
-**[!UICONTROL Preparación para la contratación]**
-Este modelo contiene una plantilla que la organización de Professional services de [!DNL Workfront] ha utilizado durante años en los compromisos de implementación con los equipos de recursos humanos para animar a estos especialistas y a los responsables de contratación a completar las actividades esenciales para que el primer día de los nuevos empleados sea extraordinario.
+**[!UICONTROL Nueva preparación para la contratación]**
+Este modelo contiene una plantilla que la organización de servicios profesionales de [!DNL Workfront] ha utilizado durante años durante los acuerdos de implementación con los equipos de Recursos Humanos para solicitar a los especialistas en recursos humanos y a los jefes de contratación que completen las actividades esenciales para el primer día de trabajo de un empleado.
 
 **Descarga | Tablero de usuario saliente**
 Este modelo contiene un único panel con 13 informes que le ayudarán a buscar, reasignar o, de otro modo, administrar los objetos y asignaciones asociados con la salida de un usuario de Workfront. También puede utilizar estos informes para reasignar el trabajo de un usuario que se traslada a una función o grupo nuevo.
+
+**Habilitación de socio: paquete de GenStudio Foundation**
+El paquete Partner Enablement: GenStudio Foundation está diseñado para facilitar la promoción perfecta del entorno de base de GenStudio. Incluye todos los componentes necesarios para ejecutar el bootcamp de manera efectiva.
 
 **Tablero del administrador de personas**
 Este modelo contiene un solo tablero con 12 informes para dar a los administradores de personas visibilidad del trabajo de sus informes directos.
@@ -94,21 +99,20 @@ El paquete [!UICONTROL Producción de recursos de impresión] contiene una plant
 **[!UICONTROL Producción de recursos de impresión] (administrada)**
 El paquete [!UICONTROL Producción de recursos de impresión] contiene una plantilla que organiza el trabajo para un proceso de producción de impresión estándar. Este paquete está diseñado como punto de entrada para administrar la creación de recursos de impresión en Workfront. Utilice este paquete para crear una base para la creación de contenido impreso y, a continuación, personalizarlo para satisfacer las necesidades de otros procesos creativos para materiales impresos.
 
-**[!UICONTROL Impresión: producción de recursos de correo directo]**
-Este modelo de [!UICONTROL Impresión: producción de recursos de correo directo] organiza el trabajo para un proceso de producción de material impreso. Este modelo está diseñado como punto de entrada para la administración de material impreso, específicamente correo directo, en Workfront.
+**[!UICONTROL Imprimir: producción de recursos de correo directo]**
+El modelo [!UICONTROL Imprimir: producción de recursos de correo postal] organiza el trabajo para un proceso de producción de material promocional impreso. Este modelo está diseñado como punto de entrada para la administración de material impreso, específicamente correo directo, en Workfront.
 
-**[!UICONTROL Impresión: creación de contenido de correo directo y ejecución de campañas]**
-Este modelo [!UICONTROL Impresión: Creación y ejecución de contenido de correo directo] organiza el trabajo para un proceso de producción de material impreso. Este modelo está diseñado como punto de entrada para la administración de material impreso, específicamente correo directo, en Workfront. Esta plantilla es única porque también contiene tareas para imprimir el recurso y ejecutar la campaña de correo directo, independientemente de otras actividades de campaña.
+**[!UICONTROL Imprimir: Creación de contenido de correo directo y ejecución de campañas]**
+El modelo [!UICONTROL Imprimir: Creación y ejecución de contenido de correo directo] organiza el trabajo para un proceso de producción de material promocional impreso. Este modelo está diseñado como punto de entrada para la administración de material impreso, específicamente correo directo, en Workfront. Esta plantilla es única porque también contiene tareas para imprimir el recurso y ejecutar la campaña de correo directo, independientemente de otras actividades de campaña.
 
 **[!UICONTROL Configuración de la organización de Professional Services]**
 Este modelo contiene la configuración de estructuras organizativas para ampliarlas a un caso de uso de Professional Services.
 
 **[!UICONTROL Seguimiento del proceso de contratación]**
-Este modelo define una lista de comprobación para los recursos de contratación interna que se utilizarán para ayudar a las partes interesadas del negocio a realizar un seguimiento del progreso de las solicitudes de personal. Está diseñado para admitir un nivel de madurez administrado.
+Este modelo define una lista de comprobación para los recursos de contratación interna que se utilizarán para ayudar a las partes interesadas del negocio a realizar un seguimiento del progreso de las solicitudes de personal. Está diseñado para admitir un nivel de madurez gestionado.
 
-**Preparación de la administración de recursos**
-
-Utilice esta plantilla de proyecto y el informe de usuario para asegurarse de que dispone de la configuración y la información correctas necesarias para generar datos precisos de administración de recursos.
+**Preparación de administración de recursos**
+Utilice este modelo para asegurarse de que tiene la configuración y la información correctas necesarias para generar datos precisos de Administración de recursos.
 
 **[!UICONTROL Autoevaluación de control de riesgos: planificación clave de la mitigación de riesgos]**
 La [!UICONTROL Autoevaluación del control de riesgos] (RSCA) define un proceso para identificar los riesgos y medir los controles de que dispone para mitigarlos. Esta plantilla formaliza el proceso para que evalúe nuevos riesgos, para asegurarse de que se establecen los controles adecuados y para asegurarse de que sabe cómo medir y documentar la eficacia del control.
@@ -120,10 +124,10 @@ La [!UICONTROL autoevaluación del control de riesgos] (RSCA) define un proceso 
 El paquete [!UICONTROL Social Asset Production] contiene una plantilla que organiza el trabajo para crear un artefacto social. La plantilla proporciona un proceso eficiente para la creación original de recursos sociales para un equipo que se basa en procedimientos operativos estándar para definir cómo realizar el trabajo y utiliza el proyecto únicamente para priorizar el trabajo y rastrear el progreso.
 
 **[!UICONTROL Social Asset Production] (administrado)**
-El paquete [!UICONTROL Social Asset Production] contiene una plantilla que organiza el trabajo para crear un artefacto social. Este paquete está diseñado como punto de entrada para administrar la creación de recursos sociales en Workfront. Utilice este paquete para crear una base para todos los procesos de creación de contenido social personalizándola para satisfacer las necesidades de otros procesos creativos de contenido social.
+El paquete [!UICONTROL Social Asset Production] contiene una plantilla que organiza el trabajo para crear un artefacto social. Está diseñado como punto de entrada para administrar la creación de recursos sociales en Workfront. Utilice este paquete para crear una base para todos los procesos de creación de contenido social personalizándola para satisfacer las necesidades de otros procesos creativos de contenido social.
 
 **[!UICONTROL Implementaciones de software/Desarrollo de aplicaciones]**
-Este modelo contiene una plantilla que la organización de Professional Services de [!DNL Workfront] ha utilizado durante años en participaciones de implementación con equipos de TI para organizar el trabajo de instalación de soluciones de terceros o para crear aplicaciones y utilidades internas.
+Este modelo contiene una plantilla que la organización de servicios profesionales de [!DNL Workfront] ha utilizado durante años durante los compromisos de implementación con los equipos de TI para organizar el trabajo al instalar soluciones de terceros o para crear aplicaciones y utilidades internas.
 
 **[!UICONTROL Panel de control de mantenimiento del administrador del sistema]**
 Este modelo contiene un solo panel de control para ayudar a los administradores del sistema a mantener y limpiar el sistema periódicamente de desorden diverso que pueda acumularse con el tiempo.
@@ -153,7 +157,11 @@ El paquete [!UICONTROL Video Asset Production] contiene una plantilla que organi
 
 **[!UICONTROL [!DNL Workfront]Comunicación y plantilla de inicio]**
 
-Este modelo contiene una sola plantilla que organiza el trabajo que un cliente de [!DNL Workfront] deberá realizar para tener un despliegue estelar de la aplicación [!DNL Workfront].
+Este modelo contiene una sola plantilla que organiza el trabajo que un cliente de [!DNL Workfront] deberá realizar para el despliegue de su aplicación [!DNL Workfront].
+
+**Formación de Workfront para nuevos usuarios**
+
+Este modelo contiene 3 plantillas de proyecto que se utilizarán como lista de comprobación de formación al habilitar usuarios en Workfront.
 
 **[!DNL Workfront Usage Dashboard]**
 Este modelo contiene un único panel de control con 11 informes para ayudar a los administradores del sistema y a los equipos de gobernanza a comprender si su configuración se está utilizando según lo previsto.

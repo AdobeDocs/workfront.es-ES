@@ -7,7 +7,7 @@ description: Con el Planificador de recursos de Adobe Workfront puede comprender
 author: Lisa
 feature: Resource Management
 exl-id: 5a1be723-e3ac-443a-9c09-85e8839fcbef
-source-git-commit: 7f0aac7c8519b1e570e29fedf1492918e8120ad2
+source-git-commit: 48de4553478fc42d88d81ea953440337f6684e50
 workflow-type: tm+mt
 source-wordcount: '2424'
 ht-degree: 6%
@@ -249,7 +249,6 @@ En las Vistas de proyecto y de funciones, los usuarios podrían aparecer enumera
 
    * Si el rol secundario tiene un número válido para el porcentaje de disponibilidad de FTE en su perfil de usuario.
    * Si el usuario está asignado a tareas en esas funciones.
-
 Para obtener más información sobre el porcentaje de disponibilidad de FTE para un rol, consulte [Editar el perfil de un usuario](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) .
 
 ## Secciones Sin rol y Sin usuario

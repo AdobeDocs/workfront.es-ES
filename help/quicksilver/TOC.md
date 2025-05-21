@@ -3,9 +3,9 @@ user-guide-title: Guía de Workfront
 user-guide-description: Utilice los siguientes documentos, tutoriales y recursos adicionales para aprender a implementar y utilizar Adobe Workfront de forma eficaz en su organización.
 role: User
 feature-set: Workfront
-source-git-commit: f2ae543071fa77725037d9b4834651cd05b05b72
+source-git-commit: 48de4553478fc42d88d81ea953440337f6684e50
 workflow-type: tm+mt
-source-wordcount: '13209'
+source-wordcount: '13210'
 ht-degree: 61%
 
 ---
@@ -2503,7 +2503,7 @@ ht-degree: 61%
       * [Formato de mensaje saliente para suscripciones a eventos](wf-api/api/message-format-event-subs.md)
       * [Preguntas frecuentes: suscripciones a eventos](wf-api/general/event-subs-faq.md)
    * API de webhooks de documentos {#document-webhooks-api}
-      * [Artículos de API de Document Webhooks](wf-api/doc-wbhks-api/document-webhooks-api.md)
+      * [API de Document Webhooks: índice de artículos](wf-api/doc-wbhks-api/document-webhooks-api.md)
       * [Información general sobre webhooks](wf-api/doc-wbhks-api/webhooks-overview.md)
       * [Registro de una integración de webhook](wf-api/doc-wbhks-api/register-webhook-integration.md)
       * [Autenticación para webhooks de documentos](wf-api/doc-wbhks-api/auth-for-docu-webhook.md)
@@ -2515,7 +2515,7 @@ ht-degree: 61%
       * [Obtener una miniatura de un documento](wf-api/doc-wbhks-api/get-thmbnl-doc.md)
       * [Carga de archivos mediante webhooks de documentos](wf-api/doc-wbhks-api/file-upload-docu-webhook.md)
       * [Crear una carpeta con webhooks de documentos](wf-api/doc-wbhks-api/create-folder-docu-webhook.md)
-      * [Eliminación de un documento o una carpeta (aún no implementado)](wf-api/doc-wbhks-api/delete-a-document-or-folder.md)
+      * [Eliminar un documento o una carpeta (aún no implementados)](wf-api/doc-wbhks-api/delete-a-document-or-folder.md)
       * [Obtener información sobre el servicio (aún no implementado)](wf-api/doc-wbhks-api/get-service-info-webhook.md)
       * [Cambiar el nombre de un documento o carpeta (aún no implementado)](wf-api/doc-wbhks-api/rename-docu-or-folder.md)
       * [Realizar una acción personalizada (aún no se ha implementado)](wf-api/doc-wbhks-api/perform-custom-action.md)
