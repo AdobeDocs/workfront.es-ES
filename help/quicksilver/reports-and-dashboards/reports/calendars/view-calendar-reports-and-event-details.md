@@ -6,10 +6,10 @@ description: Puede ver informes de calendario y detalles de eventos que haya cre
 author: Lisa
 feature: Reports and Dashboards
 exl-id: db016e91-43e4-400c-ac9d-1639c7f94479
-source-git-commit: 83b425998de978fef4998f407960a2489e1320b4
+source-git-commit: a411c1ddf0c6d19dc7f6e181cceeebba5504530c
 workflow-type: tm+mt
-source-wordcount: '627'
-ht-degree: 70%
+source-wordcount: '592'
+ht-degree: 69%
 
 ---
 
@@ -82,31 +82,26 @@ Puede elegir entre las siguientes vistas de informes de calendario:
    * **[!UICONTROL Semana]**: muestra una semana del calendario
    * **[!UICONTROL Gantt]**: muestra una vista continua del calendario
 
-     Puede ver más eventos en una vista de [!UICONTROL Gantt] desplazándose hacia abajo o hacia los lados. Aparecerá un símbolo de carga a medida que se rellenen los datos para la vista.
+     Puede ver más eventos en una vista de **Gantt** desplazándose hacia abajo o hacia los lados. Aparecerá un símbolo de carga a medida que se rellenen los datos para la vista.
 
    >[!NOTE]
    >
-   >En las vistas [!UICONTROL Mes] y [!UICONTROL Semana], los eventos actuales o futuros (incluidos los eventos que abarcan varios días, siempre que contengan un día de hoy o un día futuro) tienen un sombreado que corresponde al color del proyecto o de la agrupación de calendario. Los eventos anteriores tienen un sombreado más claro para indicar que ya no son actuales, pero aún puede seleccionar y ver dichos eventos.
+   >En las vistas **Mes** y **Semana**, los eventos actuales o futuros (incluidos los eventos que abarcan varios días, siempre que contengan un día de hoy o un día futuro) tienen un sombreado que corresponde al color del proyecto o de la agrupación de calendario. Los eventos anteriores tienen un sombreado más claro para indicar que ya no son actuales, pero aún puede seleccionar y ver dichos eventos.
 
-1. (Opcional) Si está viendo el calendario en las vistas [!UICONTROL Mes] o [!UICONTROL Semana], puede cambiar la vista del calendario con las siguientes opciones:
+1. (Opcional) Si está viendo el calendario en las vistas **Mes** o **Semana**, puede cambiar la vista del calendario con las siguientes opciones:
 
-<!--   * To include or exclude weekends:
-
+   <!--   * To include or exclude weekends:
       1. On the **[!UICONTROL Calendar]** toolbar, click **[!UICONTROL Calendar Actions]**, then from the drop-down list select either **[!UICONTROL Show Weekend]** or **[!UICONTROL Hide Weekend]**.-->
 
-* Para cambiar rápidamente las fechas mostradas:
+   * Para cambiar rápidamente las fechas mostradas:
 
-   1. En la barra de herramientas **[!UICONTROL Calendario]**, haga clic en la flecha izquierda del indicador de fecha para retroceder en el calendario o en la flecha derecha para avanzar.
+      1. En la barra de herramientas **[!UICONTROL Calendario]**, haga clic en la flecha izquierda del indicador de fecha para retroceder en el calendario o en la flecha derecha para avanzar.
 
-      ![Haga clic en la flecha para cambiar la fecha](assets/click-arrows-to-change-dates-calendar-report.png)\
-      Las fechas mostradas se ajustan mediante un intervalo basado en la vista de calendario actual. Por ejemplo, si está viendo el calendario en la vista [!UICONTROL Semana], el calendario mostrará una semana hacia adelante o una semana hacia atrás, según la flecha que seleccione.
+         ![Haga clic en la flecha para cambiar la fecha](assets/click-arrows-to-change-dates-calendar-report.png)
 
-   1. (Opcional) Para volver al día actual, haga clic en [!UICONTROL **Hoy**].
+         Las fechas mostradas se ajustan mediante un intervalo basado en la vista de calendario actual. Por ejemplo, si está viendo el calendario en la vista **Semana**, el calendario mostrará una semana hacia adelante o una semana hacia atrás, según la flecha que seleccione.
 
-
-1. (Opcional) Para ver un calendario en pantalla completa, haga clic en las flechas de pantalla completa en la parte derecha de la barra de herramientas de **[!UICONTROL Calendario]**.
-   ![Haga clic en la flecha para cambiar la fecha](assets/click-arrows-to-change-dates-calendar-report.png)\
-   Pulse Esc para volver a la vista normal del calendario.
+      1. (Opcional) Para volver al día actual, haga clic en [!UICONTROL **Hoy**].
 
 1. (Opcional) Para ocultar los eventos de un proyecto o agrupación de calendario vinculada al calendario, borre la agrupación de proyecto o calendario en la lista de proyectos.
    ![Ocultar eventos](assets/hide-events-for-project-or-cal-grouping.png)

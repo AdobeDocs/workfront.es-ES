@@ -7,14 +7,16 @@ description: El índice de rendimiento de costes (CPI) describe la relación en 
 author: Lisa
 feature: Work Management
 exl-id: 7f2efe26-7292-482d-986c-2d2077a7ca52
-source-git-commit: b983a780198743a2b87b4b48cf4d6afdf1cee437
+source-git-commit: a411c1ddf0c6d19dc7f6e181cceeebba5504530c
 workflow-type: tm+mt
-source-wordcount: '615'
-ht-degree: 99%
+source-wordcount: '606'
+ht-degree: 91%
 
 ---
 
 # Calcular el índice de rendimiento de costes (CPI)
+
+<!-- Audited: 5/2025 -->
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Linked to the product. Do not change link.)</p>
@@ -61,9 +63,6 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
 +++
 
 ## Información general sobre el índice de rendimiento de costes (CPI)
-
-* [El valor de CPI](#the-cpi-value)
-* [Cómo se calcula el CPI](#how-cpi-is-calculated)
 
 ### El valor de CPI {#the-cpi-value}
 
@@ -184,20 +183,18 @@ El Trabajo total presupuestado realizado se calcula para lo siguiente:
 * **Para un proyecto:**
 
   ```
-  Total Budgeted Cost Work Performed = SUM(Total Budgeted Cost Work Performed field for all top level tasks)
+  Total Budgeted Cost Work Performed = SUM(Total Budgeted Cost Work Performed field for all top-level tasks)
   ```
 
 
 
 ## Localizar CPI en un proyecto o tarea
 
-Puede mostrar el CPI de un proyecto o una tarea en una lista de proyectos o tareas o en un informe. Además, puede verlo a nivel de proyecto o de tarea.
+Puede mostrar el CPI de un proyecto o tarea en una lista de proyectos o tareas o en un informe. Además, puede verlo a nivel de proyecto o de tarea.
 
 1. Vaya al proyecto o tarea donde desee ver el CPI.
 1. Expanda **Detalles del proyecto** o **Detalles de la tarea** en el panel izquierdo, según si está viendo el CPI de un proyecto o tarea.
 
-1. Haga clic en **Finanzas**.
-
-   El CPI se muestra en el campo **CPI/SPI/CSI**.
+1. Haga clic en **Finanzas**. El CPI se muestra en el campo **CPI/SPI/CSI**.
 
    ![IRC en el proyecto](assets/cpi-on-project-nwe.png)
