@@ -8,10 +8,10 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: d4f02102-0378-472f-9ebb-753502ec048b
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: 7640016921e421d2aec0ab1aadc0edd304125feb
 workflow-type: tm+mt
-source-wordcount: '639'
-ht-degree: 44%
+source-wordcount: '686'
+ht-degree: 41%
 
 ---
 
@@ -47,7 +47,9 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  <tbody> 
   <tr> 
    <td role="rowheader"><strong>Plan de Adobe Workfront</strong></td> 
-   <td>Cualquiera</td> 
+   <td><p>Cualquiera</p>
+
+<p>Añadir aplicaciones personalizadas al menú principal solo está disponible para organizaciones con licencia para Adobe App Builder.</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Licencia de Adobe Workfront*</strong></td> 
@@ -120,6 +122,12 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
      >[!NOTE]
      >
      >Planning requiere una licencia adicional. Para obtener información sobre Workfront Planning, consulte [Información general sobre Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md)
+      * Aplicación personalizada
+
+     >[!NOTE]
+     >
+     > Las aplicaciones personalizadas deben crearse por separado antes de que estén disponibles como opciones del menú principal. Para obtener más información, consulte [Crear una aplicación personalizada para Workfront con Adobe App Builder](/help/quicksilver/app-builder/app-builder.md).
+
 
 1. Realice una de las siguientes acciones:
 
