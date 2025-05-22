@@ -4,28 +4,39 @@ product-area: system-administration
 navigation-topic: configure-system-defaults
 title: Crear cuadro de resultados
 description: Un cuadro de resultados mide en qué medida un proyecto se ajusta a los criterios previamente establecidos de un portafolio. Un cuadro de resultados suele reflejar la misión, los valores y las metas estratégicas de una organización. Los administradores del portafolios suelen definir las preguntas y respuestas del informe de valoración para garantizar que sean significativas y valiosas durante la priorización y selección del proyecto. Un administrador de  [!DNL Adobe Workfront]  crea los cuadros de resultados en función de las recomendaciones de los administradores de portafolios.
-author: Lisa
+author: Lisa, Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 89c9b450-72a6-4b72-98d1-22956696543a
-source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
+source-git-commit: 05512c4cfdc094e90abea471b5356337955119be
 workflow-type: tm+mt
-source-wordcount: '705'
-ht-degree: 84%
+source-wordcount: '781'
+ht-degree: 70%
 
 ---
 
 # Crear cuadro de resultados
 
-<!--Audited: 01/2024-->
+<!--Audited: 05/2025-->
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
 
+<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Las mismas funciones también estarán disponibles en el entorno de producción para todos los clientes una semana después de la versión de vista previa. </span>
+
+<span class="preview">Para obtener más información, vea [Modernización de la interfaz](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). </span>
+
 Un cuadro de resultados mide en qué medida un proyecto se ajusta a los criterios previamente establecidos de un portafolio. Un cuadro de resultados suele reflejar la misión, los valores y las metas estratégicas de una organización.
 
-Los administradores del portafolios suelen definir las preguntas y respuestas del cuadro de resultados para garantizar que sean significativas y valiosas durante la priorización y selección del proyecto. Un administrador de [!DNL Adobe Workfront] crea los cuadros de resultados basándose en las recomendaciones de los administradores de portafolios.
+Como administrador de portafolios, puede definir las preguntas y respuestas del cuadro de resultados para asegurarse de que sean significativas y valiosas durante la priorización y selección de proyectos.
+
+Como administrador de [!DNL Adobe Workfront], puede crear cuadros de resultados basados en las recomendaciones de los administradores de portafolios.
 
 Las preguntas y respuestas seleccionadas para un cuadro de resultados deben ser cuantificables a fin de proporcionar un valor de alineación para comparar distintos proyectos.
+
+Puede crear un informe de valoración de la siguiente manera:
+
+* Desde cero
+* Al copiar una existente
 
 ## Requisitos de acceso
 
@@ -56,17 +67,15 @@ Debe tener el siguiente acceso:
 
 +++
 
-## Crear cuadro de resultados
-
-Puede crear un cuadro de mandos desde cero o copiar uno existente.
-
-Para crear un informe de valoración desde cero:
+## Crear un informe de valoración desde cero
 
 {{step-1-to-setup}}
 
-1. Haga clic en **[!UICONTROL Cuadros de resultados]** y luego haga clic en **[!UICONTROL Nuevo cuadro de resultados]**. Se abre la casilla **Nueva tarjeta de puntuación**.
+1. Haga clic en **[!UICONTROL Cuadros de resultados]** y luego haga clic en **[!UICONTROL Nuevo cuadro de resultados]**.
 
-   <!--add screen shot at unshim-->
+   <span class="preview">Se abre el cuadro de diálogo **Nuevo cuadro de mandos**.</span>
+
+   <span class="preview">![Nuevo cuadro de mandos](assets/new-scorecard-350x173.png)</span>
 
 1. Especifique un **[!UICONTROL Nombre de cuadro de resultados]** y una **[!UICONTROL Descripción]**.
 
@@ -104,9 +113,9 @@ Para crear un informe de valoración desde cero:
    >
    >Puede reordenar las preguntas del cuadro de resultados arrastrando y soltando las preguntas en el orden correcto.
 
-1. Haga clic en **[!UICONTROL Guardar]** cuando termine de escribir toda la información.
+1. Haga clic en **[!UICONTROL Guardar]**.
 
-   Esto crea el cuadro de resultados y los administradores del proyecto ahora pueden adjuntarlo a su caso empresarial del proyecto.
+   Esto crea el cuadro de resultados y los jefes de proyecto ahora pueden adjuntarlo a su caso comercial del proyecto.
 
 ## Copiar un informe de valoración existente
 
@@ -116,16 +125,20 @@ Puede crear un informe de valoración copiando y editando uno existente.
 
 1. Haga clic en **[!UICONTROL Cuadros de resultados]** en el panel izquierdo.
 1. Seleccione un informe de valoración en la lista y, a continuación, haga clic en el icono **Copiar** ![Copiar icono de informe de valoración](assets/copy-scorecard-icon.png) que se encuentra en la parte superior de la lista.
-Se abre la casilla **Copiar informe de valoración**.
 
-   <!--add screen shot at unshim-->
+   <span class="preview">Se abre el cuadro de diálogo **Copiar informe de valoración**.</span>
+
+   <span class="preview">![Copiar cuadro de mandos](assets/copy-scorecard-box.png)</span>
+
 1. Especifique la siguiente información:
 
-   * **informe de valoración**: escriba el nombre del informe de valoración.  De forma predeterminada, el nombre se actualiza automáticamente según el siguiente formato:
+   * **informe de valoración**: actualice el nombre del informe de valoración.  De forma predeterminada, el nombre se actualiza automáticamente según el siguiente formato:
 
      `Original scorecard name (Copy)`
    * **Descripción**: escriba información adicional sobre el cuadro de mandos.
 1. Haga clic en **Guardar**.
+
+   Esto crea un nuevo cuadro de resultados con la misma información que el original. Los jefes de proyecto ahora pueden adjuntarlo a su caso empresarial de proyecto.
 
 ## Aplicar un cuadro de resultados a un proyecto
 

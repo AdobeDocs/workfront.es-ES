@@ -6,9 +6,9 @@ description: Puede editar las plantillas del proyecto para reflejar los cambios 
 author: Alina
 feature: Work Management
 exl-id: da0fca31-6a50-4862-ad9a-a453ef968773
-source-git-commit: eb3db3b056cea359f77e56f77d6e9520954e2abb
+source-git-commit: 05512c4cfdc094e90abea471b5356337955119be
 workflow-type: tm+mt
-source-wordcount: '4881'
+source-wordcount: '4870'
 ht-degree: 94%
 
 ---
@@ -1092,7 +1092,7 @@ La adición de los siguientes elementos a una plantilla es idéntica a su adici�
 * Documentos
 * Riesgos
 
-  Para obtener más información sobre la creación de riesgos, consulte la sección [Crear y editar riesgos en proyectos](../../../manage-work/projects/define-a-business-case/create-edit-risks-on-projects.md#create) en el artículo [Crear y editar riesgos en proyectos](../../../manage-work/projects/define-a-business-case/create-edit-risks-on-projects.md).
+  Para obtener más información sobre la creación de riesgos, vea [Crear y editar riesgos en proyectos](/help/quicksilver/manage-work/projects/define-a-business-case/create-edit-risks-on-projects.md).
 
 * Procesos de aprobación
 

@@ -2,14 +2,14 @@
 product-area: projects
 navigation-topic: business-case-and-scorecards
 title: Crear y editar riesgos en proyectos
-description: Los riesgos son eventos posibles o factores que impiden que un proyecto finalice a tiempo o dentro del presupuesto. Los riesgos se pueden registrar como parte de la creación del caso empresarial de un proyecto o mediante la pestaña Riesgos. Los riesgos solo se crean en un proyecto. No es posible asociar riesgos con tareas o problemas.
+description: Los riesgos son eventos posibles o factores que impiden que un proyecto finalice a tiempo o dentro del presupuesto. Puede registrar los riesgos del proyecto como parte de la creación del caso empresarial de un proyecto o utilizando la pestaña Riesgos. Puede agregar riesgos a proyectos y plantillas. No es posible asociar riesgos con tareas o problemas.
 author: Alina
 feature: Work Management
 exl-id: 6125c477-c0d8-43b4-88d8-35b0c2412468
-source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
+source-git-commit: 05512c4cfdc094e90abea471b5356337955119be
 workflow-type: tm+mt
-source-wordcount: '1037'
-ht-degree: 98%
+source-wordcount: '1131'
+ht-degree: 62%
 
 ---
 
@@ -17,13 +17,21 @@ ht-degree: 98%
 
 <!--Audited: 01/2025-->
 
-Los riesgos son eventos posibles o factores que impiden que un proyecto finalice a tiempo o dentro del presupuesto. Los riesgos se pueden registrar como parte de la creación del caso empresarial de un proyecto o mediante la pestaña Riesgos. Los riesgos solo se crean en un proyecto. No es posible asociar riesgos con tareas o problemas.
+<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Las mismas funciones también estarán disponibles en el entorno de producción para todos los clientes una semana después de la versión de vista previa. </span>
+
+<span class="preview">Para obtener más información, vea [Modernización de la interfaz](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). </span>
+
+Los riesgos son eventos posibles o factores que impiden que un proyecto finalice a tiempo o dentro del presupuesto. Puede registrar los riesgos como parte de la creación del caso empresarial de un proyecto o utilizando la pestaña Riesgos.
+
+Solo puede crear riesgos en proyectos o plantillas. No es posible asociar riesgos con tareas o problemas.
 
 Los riesgos pueden estar asociados con el coste, pero el coste de riesgos real no afecta al coste real del proyecto.
 
 >[!NOTE]
 >
->Este artículo define los riesgos asociados con el proyecto tal como los haya definido en el caso empresarial del proyecto o como los haya añadido en la pestaña Riesgos del proyecto. Para obtener información sobre el campo Riesgo que está disponible al editar un proyecto, consulte [Editar proyectos](../../../manage-work/projects/manage-projects/edit-projects.md).
+>Este artículo define los riesgos asociados con el proyecto tal como los define en el caso comercial del proyecto o como los agrega en la pestaña Riesgos del proyecto.
+>
+>Para obtener información sobre el campo Riesgo que está disponible al editar un proyecto, consulte [Editar proyectos](../../../manage-work/projects/manage-projects/edit-projects.md).
 
 ## Requisitos de acceso
 
@@ -94,8 +102,7 @@ Para crear o editar un riesgo en el caso empresarial:
 
 Además de crear y editar riesgos en el caso empresarial, puede hacerlo en la sección **Riesgos** de un proyecto.
 
-* [Crear riesgos en el área Riesgos](#create-risks-in-the-risks-area)
-* [Edición de riesgos en el área Riesgos](#edit-risks-in-the-risks-area)
+Puede crear y editar riesgos en la sección Riesgos de un proyecto o una plantilla. Crear riesgos para plantillas es idéntico a crear riesgos para proyectos.
 
 ### Creación de riesgos en el área Riesgos {#create-risks-in-the-risks-area}
 
@@ -104,33 +111,37 @@ Además de crear y editar riesgos en el caso empresarial, puede hacerlo en la se
 
    ![Sección Riesgos de la tarea](assets/risks-section-on-project-2022.png)
 
-1. Haga clic en **Comenzar a añadir riesgos** y cree riesgos editando en línea la información.
+1. Haga clic en **Comenzar a agregar riesgos** y cree riesgos editando en línea su información. **Descripción** es un campo obligatorio
 
    O
 
-   Haga clic en **Nuevo riesgo**. Se abrirá el cuadro de diálogo **Nuevo riesgo**.
+   Haga clic en **Nuevo riesgo**.
 
-1. Introduzca la siguiente información:
+   <span class="preview">Se abre el cuadro **Nuevo riesgo**.</span>
 
-   * **Descripción**: describa el riesgo.
-   * **Tipo de riesgo**: indique en qué categoría se encuentra el riesgo.\
+   <span class="preview">![Nuevo cuadro de riesgo](assets/new-risk-box.png)</span>
+
+1. (Condicional) Si agrega un riesgo en el cuadro **Nuevo riesgo**, escriba la siguiente información:
+
+   * **Descripción**: describe el riesgo. Este campo es obligatorio.
+   * **Tipo de riesgo**: Indique en qué categoría se encuentra el riesgo.\
      El administrador de Workfront define los tipos de riesgos disponibles en el entorno. Para obtener información acerca de la definición de tipos de riesgos, consulte el artículo [Editar y crear tipos de riesgos](../../../administration-and-setup/set-up-workfront/configure-system-defaults/edit-create-risk-types.md).
 
    * **Probabilidad**: indique la probabilidad de que el riesgo se presente como un valor porcentual.
-   * **Coste potencial**: indique el coste estimado en caso de manifestarse el riesgo.
-   * **Coste de mitigación**: indique el coste del plan de mitigación que se debe establecer para evitar que se produzca el riesgo.
-   * **Coste real**: indique el coste real del riesgo en caso de manifestarse.
+   * **Costo potencial**: Indique el costo estimado si el riesgo se presenta.
+   * **Costo de mitigación**: indique el costo del plan de mitigación que debe establecer para evitar que se produzca el riesgo.
+   * **Costo real**: indique el costo real del riesgo si éste se produjo.
    * **Plan de mitigación**: actualice la descripción del plan para mitigar el riesgo.
 
 1. (Condicional) Haga clic en **Introducir** si está creando el riesgo en línea.
 
    O
 
-   Haga clic en **Guardar** si está editando la información en el cuadro de diálogo **Nuevo riesgo**.
+   Haga clic en **Guardar** si está editando la información en el cuadro **Nuevo riesgo**.
 
 1. (Opcional) Seleccione un **Estado** diferente para el riesgo en el menú desplegable **Estado** al aplicar la vista **Estándar** para la lista de riesgos.
 
-   De manera predeterminada, el estado de un riesgo es **Identificado**.
+   De manera predeterminada, el **estado** de un riesgo es **Identificado**.
 
 ### Edición de riesgos en el área Riesgos {#edit-risks-in-the-risks-area}
 
@@ -152,21 +163,21 @@ Para editar riesgos:
    >
    >Se aplica la misma información a todos los riesgos seleccionados al editar varios riesgos al mismo tiempo. La información asociada con cada riesgo antes de los cambios se sobrescribe en una edición masiva.
 
-1. Al hacer clic en **Editar**, se abrirá el cuadro de diálogo **Editar riesgo**.
+1. Si ha hecho clic en **Editar**, se abrirá el cuadro **Editar riesgo** o **Editar riesgos**.
 
    Considere la posibilidad de editar los campos siguientes:
 
    * **Descripción**: edite la descripción del riesgo.
-   * **Tipo de riesgo**: indique a qué categoría pertenece el riesgo.
-   * **Probabilidad**: indique la probabilidad de que el riesgo se manifieste como un valor porcentual.
-   * **Coste potencial**: indique el coste estimado en caso de manifestarse el riesgo.
-   * **Coste de mitigación**: indique el coste del plan de mitigación que se debe establecer para evitar que se produzca el riesgo.
-   * **Coste real**: indique el coste real del riesgo en caso de manifestarse.
+   * **Tipo de riesgo**: indique en qué categoría se encuentra el riesgo.
+   * **Probabilidad**: indique la probabilidad de que el riesgo se presente como un valor porcentual.
+   * **Costo potencial**: Indique el costo estimado si el riesgo se presenta.
+   * **Costo de mitigación**: indique el costo del plan de mitigación que debe establecer para evitar que se produzca el riesgo.
+   * **Costo real**: indique el costo real del riesgo si éste se produjo.
    * **Plan de mitigación**: actualice la descripción del plan para mitigar el riesgo.
 
-1. Haga clic en **Guardar cambios**.
+1. <span class="preview">Haga clic en **Guardar**.</span>
 1. (Opcional) Edite el **Estado** de un riesgo en el menú desplegable **Estado** al aplicar la vista **Estándar** para la lista de riesgos.
 
    >[!NOTE]
    >
-   >No es posible editar el **Estado** de los riesgos en el cuadro de diálogo **Editar riesgo**. Solo es posible hacerlo en una edición en línea.
+   >No puede editar el **estado** de los riesgos en el cuadro de diálogo **Editar riesgo**. Solo es posible hacerlo en una edición en línea.

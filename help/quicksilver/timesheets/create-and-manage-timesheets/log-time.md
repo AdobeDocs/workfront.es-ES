@@ -7,9 +7,9 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: a215cf721cc4d517ee39cfa864e29dbbbfeb0a31
+source-git-commit: 1926500c76e4f9cfdac829f8d9f0cdfa6231e31d
 workflow-type: tm+mt
-source-wordcount: '3819'
+source-wordcount: '3818'
 ht-degree: 92%
 
 ---
@@ -27,7 +27,7 @@ Para obtener más información sobre el tipo de horas que puede iniciar sesión 
 
 ## Requisitos de acceso
 
-+++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
++++ Amplíe para ver los requisitos de acceso.
 
 Debe tener el siguiente acceso para realizar los pasos de este artículo y registrar las horas específicas del proyecto:
 
@@ -41,7 +41,9 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo y regis
   </tr> 
   <tr> 
    <td role="rowheader">Licencia de Adobe Workfront*</td> 
-   <td> <p>Nuevo: Ligero o superior para registrar horas en un proyecto, tarea, problema o Horas generales en una hoja de horas</p>
+   <td> <p>Nuevo:</p>
+   <ul><li> Ligero o superior para registrar horas en una tarea, un problema o las horas generales en una hoja de horas</li>
+   <li>Estándar para registrar horas en los proyectos</li></ul>
 
 <p>Actual: 
    <ul><li>Revisión o superior para registrar las horas generales en una plantilla de horas</li>

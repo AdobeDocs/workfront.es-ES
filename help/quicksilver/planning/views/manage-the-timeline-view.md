@@ -6,10 +6,10 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: d0ec729a510b78a7ce417356ac9250a485308f0b
+source-git-commit: 05512c4cfdc094e90abea471b5356337955119be
 workflow-type: tm+mt
-source-wordcount: '3060'
-ht-degree: 56%
+source-wordcount: '3152'
+ht-degree: 54%
 
 ---
 
@@ -139,13 +139,8 @@ Para administrar una vista de línea de tiempo:
       * Año
       * Trimestre
       * Mes
-1. Haga clic en **Cambiar a vista estándar** para mostrar los registros en líneas independientes <!--check to see if they updated the name of the setting here-->
-
-   O
-
-   Haga clic en **Cambiar a la vista compacta** para mostrar los registros cuyas fechas no se cruzan en la misma línea. <!--check to see if they updated the name of the setting here-->
-
-   Los registros se muestran en la vista Compacta de forma predeterminada.
+1. (Opcional) Haga clic en **Cambiar a la vista Compacta** para mostrar los registros cuyas fechas no se cruzan en la misma línea. <!--check to see if they updated the name of the setting here-->
+1. (Condicional) Si cambió el modo a **Compacto**, haga clic en **Cambiar a la vista Estándar** para mostrar los registros en líneas separadas. <span class="preview">La opción **Estándar** es la predeterminada.</span>  <!--check to see if they updated the name of the setting here-->
 
 1. Haga lo siguiente para buscar rápidamente registros que coincidan con una palabra clave:
 
@@ -353,7 +348,7 @@ Actualice la configuración de la vista de línea de tiempo para indicar qué in
 
    Si no tiene ningún campo con opciones codificadas por colores para el tipo de registro seleccionado, esta opción aparece atenuada.
 
-   1. <span class="preview">(Opcional) Si utiliza la opción Desglose, repita los pasos que comienzan con el paso 4 para cada registro conectado que se muestra en la cronología. </span>
+1. <span class="preview">(Opcional) Si utiliza la opción Desglose, repita los pasos que comienzan con el paso 4 para cada registro conectado que se muestra en la cronología. </span>
 
 1. Haga clic en **Guardar**.
 
@@ -389,7 +384,7 @@ Puede mostrar los registros conectados en la vista de escala de tiempo de un reg
 #### Desglose de registros conectados
 
 1. Cree una vista de línea de tiempo para un tipo de registro, tal y como se describe en el artículo [Administración de vistas de registros](/help/quicksilver/planning/views/manage-record-views.md).
-1. (Condicional) Si está viendo la vista de escala de tiempo en el modo Estándar, haga clic en **Desglose**.
+1. En los modos **Estándar** o <span class="preview">**Compacto**, haga clic en **Desglose**</span> en la esquina superior derecha de la vista de la escala de tiempo.
 1. Expanda el cuadro **Seleccionar un tipo de registro vinculado** y seleccione un tipo de registro conectado. <!--add a new screen shot - submitted a bug to remove the "the"-->
 
    ![Selector de desglose y botón en la vista de cronología](assets/breakdown-picker-and-button-on-timeline.png)
@@ -417,7 +412,15 @@ Puede mostrar los registros conectados en la vista de escala de tiempo de un reg
    >
    >Tanto los productos como los programas deben estar conectados a las campañas para que se muestren como opciones en la opción de desglose y puede agregarlos al desglose en cualquier orden.
 
+1. <span class="preview">(Condicional) Si está viendo la escala de tiempo en el modo Compacto, haga clic en **Cambiar vista**. El desglose no es visible en el modo **Compacto**.</span>
 
+   >[!TIP]
+   >
+   ><span class="preview">Seleccionar **No volver a mostrar esto** en el **Cambiar a la vista Estándar?**, antes de cambiar de vista. </span>
+   >
+   ><span class="preview">Esta preferencia solo se recuerda en el explorador actual. Si cambia de explorador o de equipo, tendrá que volver a seleccionar esta preferencia.</span>
+   >
+   >No puede volver al modo Compacto después de cambiar la vista a Estándar y mostrar los registros conectados en la vista.
 1. (Opcional) Repita los pasos anteriores para agregar más registros conectados.
 
 

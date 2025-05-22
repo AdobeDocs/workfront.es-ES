@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: eb3db3b056cea359f77e56f77d6e9520954e2abb
+source-git-commit: 05512c4cfdc094e90abea471b5356337955119be
 workflow-type: tm+mt
-source-wordcount: '1166'
-ht-degree: 56%
+source-wordcount: '1181'
+ht-degree: 54%
 
 ---
 
@@ -221,9 +221,13 @@ En la tabla siguiente se muestran las similitudes y diferencias entre las vistas
 
 1. (Condicional) Seleccione las **fechas de inicio** y **de finalización** para los registros que se mostrarán en la vista de línea de tiempo o de calendario.
 
-   >[!TIP]
+   >[!NOTE]
    >
-   >    Puede seleccionar entre los campos de fecha de registro o los campos de fecha de búsqueda de los tipos de objeto o registro conectados. Debe utilizar agregadores para los campos de fecha (MAX o MIN) cuando seleccione los campos de búsqueda como las fechas de inicio y de finalización para las vistas de línea de tiempo y calendario. Para obtener más información, consulte [Conectar tipos de registros](/help/quicksilver/planning/architecture/connect-record-types.md).
+   >    Puede seleccionar entre los campos de fecha de registro o los campos de fecha de búsqueda de los tipos de objeto o registro conectados.
+   >
+   >Debe utilizar acumuladores para los campos de fecha (MAX o MIN) al seleccionar campos de búsqueda al conectar tipos de registro. Solo añadir los acumuladores le permite utilizar las fechas de las conexiones como fechas de inicio y finalización para las vistas de cronología y calendario.
+   >
+   >Para obtener más información, consulte [Conectar tipos de registros](/help/quicksilver/planning/architecture/connect-record-types.md).
 
 1. Haga clic en **Crear**.
 

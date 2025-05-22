@@ -6,10 +6,10 @@ description: Además de crear una plantilla de proyecto desde cero, también pue
 author: Alina
 feature: Work Management
 exl-id: b2e0878b-8245-4e01-819d-c3746f553d95
-source-git-commit: 0d968a3f398c2e7dc4154cd5a16acf35ca7c86f5
+source-git-commit: 1926500c76e4f9cfdac829f8d9f0cdfa6231e31d
 workflow-type: tm+mt
-source-wordcount: '322'
-ht-degree: 48%
+source-wordcount: '329'
+ht-degree: 47%
 
 ---
 
@@ -74,7 +74,6 @@ Los siguientes elementos nunca se copian de una plantilla existente a una nueva:
 
 ## Copiar una plantilla
 
-
 <!--ensure steps and casing on the fields and buttons is accurate with unshim-->
 
 1. Vaya a la plantilla que desea copiar.
@@ -82,11 +81,11 @@ Los siguientes elementos nunca se copian de una plantilla existente a una nueva:
 
    Se abre el cuadro **Copiar plantilla**.
 
-   <!--![Copy template box](assets/copy-template-box.png)-->
+   ![Copiar cuadro de plantilla](assets/copy-template-box.png)
 
 1. Especifique un nombre para la plantilla en el campo **Nuevo nombre de plantilla**.
 
-   De manera predeterminada, el nuevo nombre es `Copy of Original template name`.
+   De manera predeterminada, Workfront establece el nuevo nombre con este formato: `Copy of Original template name`.
 
 1. Seleccione la opción **Conservar asignaciones de usuarios en tareas y plantillas** si desea transferir todas las asignaciones de tareas y plantillas de la plantilla original a la nueva. Las asignaciones de tareas de plantilla, el Propietario de la plantilla y el Patrocinador se transfieren a la plantilla copiada.
 1. Haga clic en **Guardar** para crear una copia de la plantilla.

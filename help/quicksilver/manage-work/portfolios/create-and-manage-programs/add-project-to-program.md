@@ -6,16 +6,20 @@ description: Puede organizar los proyectos añadiéndolos a programas dentro de 
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 1fecc4d1-4c24-495c-98f5-824e13967369
-source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
+source-git-commit: 05512c4cfdc094e90abea471b5356337955119be
 workflow-type: tm+mt
-source-wordcount: '478'
-ht-degree: 64%
+source-wordcount: '531'
+ht-degree: 59%
 
 ---
 
 # Añadir un proyecto a un programa
 
 <!--Audited: 5/2025-->
+
+<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Las mismas funciones también estarán disponibles en el entorno de producción para todos los clientes una semana después de la versión de vista previa. </span>
+
+<span class="preview">Para obtener más información, vea [Modernización de la interfaz](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). </span>
 
 Puede organizar los proyectos añadiéndolos a programas dentro de portafolios. Puede tener varios proyectos dentro de un programa, pero solo puede asociar un programa a un proyecto.
 
@@ -100,19 +104,17 @@ Para obtener información sobre cómo crear programas, consulte [Crear un progra
     </tbody> 
    </table>
 
-1. (Condicional) Si seleccionó **[!UICONTROL Proyecto existente]**, se abrirá la casilla **Agregar proyectos**.
+1. (Condicional) Si seleccionó **[!UICONTROL Proyecto existente]**, se abrirá la casilla <span class="preview">**Agregar proyectos**</span>. <!--check at unshimming-->
 
-   <!--screen shot at unshim?-->
+   <span class="preview">![Agregar proyectos existentes al cuadro de programa](assets/add-projects-to-programs-box.png)</span><!--check at unshimming-->
 
 1. Haga lo siguiente:
 
    1. En el cuadro **[!UICONTROL Agregar proyectos]**, escriba el nombre de un proyecto en el campo **Agregar proyectos a este programa** y, a continuación, selecciónelo cuando se muestre en la lista. <!--check casing on links and buttons-->
 
       Puede agregar más de un proyecto.
-   1. (Opcional) Si decide no agregarlo al programa, haga clic en el icono **X** que aparece a la derecha del nombre del proyecto para quitarlo de la lista.
+   1. (Opcional) Haga clic en el icono <span class="preview">**Eliminar** ![Eliminar icono](assets/delete-icon.png)</span> junto al nombre de un proyecto si decide no agregarlo al programa.
 
-      <!--replace last step with this, for unshim: 1. (Optional) Click the **Delete** icon ![Delete icon](assets/delete-icon.png) next to the name of a project if you decide not to add it to the program.-->
-
-   1. Haga clic en **[!UICONTROL Añadir proyectos]**.
+   1. Haga clic en **[!UICONTROL Agregar proyectos]**. <!--check at unshimming-->
 
       El proyecto aparece en la ficha **[!UICONTROL Proyectos]** del programa y ahora está asociado con el programa y el portafolio respectivo del programa.
