@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 6761f5af-2501-4487-8114-2751f1e4fe69
-source-git-commit: a39ba047fc4c1e422f3bea8bd9266b9197219900
+source-git-commit: 870e4130daf9924bf85b59eb09f7d548b8152096
 workflow-type: tm+mt
-source-wordcount: '1041'
+source-wordcount: '1165'
 ht-degree: 3%
 
 ---
@@ -21,6 +21,23 @@ Este artículo describe las funciones que se lanzarán para Workfront Planning d
 <!--keep the sentence below for all future quarterly release pages-->
 
 Para obtener una lista de todas las características publicadas para Adobe Workfront Planning, consulte [Actividad de la versión de Adobe Workfront Planning: índice de artículo](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+
+## Nueva experiencia al desglosar registros en modo compacto en la vista de cronología
+
+>[!NOTE]
+>
+>* Vista previa: viernes, 22 de mayo de 2025
+>* Versión rápida de producción: 12 de junio de 2025
+>* Producción para todos los clientes: 17 de julio de 2025
+
+Hemos cambiado la experiencia al desglosar registros en la vista de cronología y se le ha aplicado la vista Compacta.
+Con la nueva actualización, cuando se definen los objetos de desglose mientras se muestra la línea de tiempo en el modo Compacto, se le pedirá que cambie la vista a Estándar una vez que haya terminado de configurar las condiciones de desglose.
+
+Antes de esta mejora, no era posible definir las condiciones de desglose al mostrar la vista de la línea de tiempo en el modo compacto.
+
+Con esta actualización, la opción Estándar es la predeterminada. Antes de esto, el modo compacto era el predeterminado.
+
+Para obtener más información, consulte [Administrar la vista de línea de tiempo](/help/quicksilver/planning/views/manage-the-timeline-view.md).
 
 ## Actualice la configuración de la vista de escala de tiempo para definir el aspecto de las barras de los registros conectados al utilizar la opción Desglose
 
