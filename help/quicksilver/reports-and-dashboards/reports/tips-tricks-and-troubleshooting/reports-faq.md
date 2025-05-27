@@ -7,14 +7,16 @@ description: Preguntas frecuentes sobre informes
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 5e267d45-7922-4c0f-8530-59a8c152f625
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: 66fc75ed9a7fca4b44ac776c314a6e08a6fbd450
 workflow-type: tm+mt
-source-wordcount: '1519'
-ht-degree: 99%
+source-wordcount: '1494'
+ht-degree: 88%
 
 ---
 
 # Preguntas frecuentes sobre informes
+
+<!--Audited: 05/2025-->
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Alina: ***This is the ONE anchor article for all FAQs about Reporting. Add a new FAQ in the TOC at the top first, then add the answer as a section at the bottom.)</p>
@@ -23,6 +25,8 @@ ht-degree: 99%
 Las siguientes son las preguntas más frecuentes sobre los informes.
 
 ## Requisitos de acceso
+
++++ Amplíe para ver los requisitos de acceso.
 
 Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
@@ -33,39 +37,51 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Plan de Adobe Workfront*</td> 
+   <td role="rowheader">Plan de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licencia de Adobe Workfront*</td> 
-   <td> <p>Plan, Trabajo</p> </td> 
+   <td><p>Nuevo: estándar</p> 
+   <p>Actual: Trabajo o superior</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraciones de nivel de acceso*</td> 
-   <td> <p>Acceso de edición a informes, paneles y calendarios</p> <p>Nota: Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
+   <td role="rowheader">Configuraciones de nivel de acceso</td> 
+   <td> <p>Acceso de Edición a informes, paneles y calendarios</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Permisos de administración para un informe</p> <p>Para obtener información sobre cómo solicitar acceso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a los objetos </a>.</p> </td> 
+   <td> <p>Permisos de administración para un informe</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de Workfront.
+*Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## ¿Por qué mi cálculo personalizado para una diferencia horaria no muestra el resultado correcto en una columna?
 
-En un informe de proyecto tengo un cálculo que resta las horas reales (2) de las horas planificadas (4). El resultado que obtengo es 120 cuando debería ser 2.\
+<!--this section is linked from the Actual Hours article for Tasks in the Task Information folder; edit the links or do not delete or change this section-->
+
+En un informe de proyecto tengo un cálculo que resta las horas reales de las planificadas. El resultado que estoy obteniendo es incorrecto.
+
+<!--this changed with this issue in May 2025; Actual Hours changed from actualWorkRequired to actualWorkRequiredDouble: https://experience.adobe.com/#/@adobeinternalworkfront/so:hub-Hub/workfront/task/68108e860000120e90a79cb82e5811c2/updates : On a project report I have a calculation that subtracts Actual Hours (2) from Planned Hours (4). The result I am getting is 120 when it should be 2.  -->
+
+
 Mi cálculo es:
-<pre>valueexpression=SUB(workRequired,actualWorkRequired)</pre>
+
+`valueexpression=SUB(workRequired,actualWorkRequiredDouble)`
 
 ### Respuesta
 
-Los campos que utilizan horas en Workfront se almacenan en minutos. Al utilizar el campo en un cálculo, el resultado será en minutos. Para obtener el resultado en horas, debe dividir el resultado del cálculo por 60.
+La mayoría de los campos que utilizan horas en Workfront se almacenan en minutos. Cuando se utilizan estos campos en un cálculo, el resultado suele ser en minutos. Para obtener el resultado en horas, debe dividir el resultado del cálculo o del campo al que hace referencia por 60.
+
+Por ejemplo, las horas planificadas se almacenan en minutos, mientras que las horas reales se almacenan en horas. Como resultado, debe convertir las horas planificadas de minutos a horas.
 
 El cálculo correcto es:
 
-<pre>valueexpression=SUB(workRequired,actualWorkRequired)/60</pre>
+`valueexpression=SUB(workRequired/60,actualWorkRequiredDouble)`
 
 ## ¿Por qué no se muestra en el gráfico el valor de cada uno de los elementos de mi gráfico en un informe?
 
@@ -175,7 +191,7 @@ Si tiene permisos para ver o administrar un informe, también puede realizar una
 
 ### Respuesta
 
-En ocasiones, el propietario del informe también es el usuario especificado en el campo **Ejecutar este informe con los derechos de acceso de:** del informe. Si el usuario **Ejecutar este informe con los derechos de acceso de:** está desactivado, el informe ya no se muestra para los usuarios con los que se ha compartido el informe. Cuando esto suceda, puede volver a tener acceso al informe si deja en blanco **Ejecutar este informe con los derechos de acceso de:** o escriba un usuario activo en el campo.
+En ocasiones, el propietario del informe también es el usuario especificado en el campo **Ejecutar este informe con los derechos de acceso de:** del informe. Si el usuario **Ejecutar este informe con los derechos de acceso de:** está desactivado, el informe ya no se mostrará a los usuarios que hayan compartido el informe con ellos. Cuando esto suceda, puede volver a tener acceso al informe si deja en blanco **Ejecutar este informe con los derechos de acceso de:** o escribe un usuario activo en el campo.
 
 Para obtener más información acerca del campo **Ejecutar este informe con los derechos de acceso de:**, consulte [Ejecutar y entregar un informe con los derechos de acceso de otro usuario](../../../reports-and-dashboards/reports/creating-and-managing-reports/run-deliver-report-access-rights-another-user.md). Para obtener información sobre cómo identificar todos los informes que pertenecen a usuarios desactivados, consulte [Crear un informe sobre las actividades de creación de informes](../../../reports-and-dashboards/reports/report-usage/create-report-reporting-activities.md).
 

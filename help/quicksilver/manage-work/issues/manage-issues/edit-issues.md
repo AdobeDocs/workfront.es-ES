@@ -8,9 +8,9 @@ feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 1449374a-ab0d-4c98-83cd-4e511467633a
-source-git-commit: 4e1558b47f6041501aa4e4fbfa6317dec8aee571
+source-git-commit: 66fc75ed9a7fca4b44ac776c314a6e08a6fbd450
 workflow-type: tm+mt
-source-wordcount: '2556'
+source-wordcount: '2566'
 ht-degree: 27%
 
 ---
@@ -392,6 +392,8 @@ Los siguientes campos se incluyen en el encabezado de problema de forma predeter
 
 * Nombre del problema
 * Porcentaje completado
+
+  Para obtener más información, consulte [Ver y actualizar el porcentaje completado de las tareas](/help/quicksilver/manage-work/projects/updating-work-in-a-project/view-update-percent-complete-for-tasks.md).
 * Asignaciones
 * Fecha y hora planificadas de finalización
 * Estado

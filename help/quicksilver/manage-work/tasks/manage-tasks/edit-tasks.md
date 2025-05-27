@@ -7,10 +7,10 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 572c6008-3a67-47ae-8f5d-6b871ef1f37b
-source-git-commit: cd37163c78012fa4bcbe19ef92ec4d3ceecfb905
+source-git-commit: 66fc75ed9a7fca4b44ac776c314a6e08a6fbd450
 workflow-type: tm+mt
-source-wordcount: '3706'
-ht-degree: 98%
+source-wordcount: '3721'
+ht-degree: 97%
 
 ---
 
@@ -622,12 +622,14 @@ Los campos siguientes se incluyen en el encabezado de la tarea de forma predeter
 
 * Nombre de la tarea
 * Porcentaje completado
+
+  Para obtener más información, consulte [Ver y actualizar el porcentaje completado de las tareas](/help/quicksilver/manage-work/projects/updating-work-in-a-project/view-update-percent-complete-for-tasks.md).
 * Asignaciones
 * Fecha planificada de finalización
 
   >[!CAUTION]
   >
-  >Algunas restricciones de tarea y otras dependencias pueden impedir la edición de este campo. Para obtener información acerca de la restricción de tareas, consulte [Información general sobre la restricción de tarea](../../../manage-work/tasks/task-constraints/task-constraint-overview.md).
+  >Algunas restricciones de tarea y otras dependencias pueden impedir que se edite la fecha planificada de finalización de una tarea. Para obtener información acerca de la restricción de tareas, consulte [Información general sobre la restricción de tarea](../../../manage-work/tasks/task-constraints/task-constraint-overview.md).
 
 * Estado
 * Tomar decisiones de aprobación si se establece como aprobador en un proceso de aprobación actual
