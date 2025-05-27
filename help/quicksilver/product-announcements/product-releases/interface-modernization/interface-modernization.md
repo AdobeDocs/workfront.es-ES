@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: da7151e210bc779beb963e53a2beed5b5280f494
+source-git-commit: 616d729b0a42446e11805579febac4e26489b13f
 workflow-type: tm+mt
-source-wordcount: '3938'
+source-wordcount: '3990'
 ht-degree: 2%
 
 ---
@@ -24,6 +24,14 @@ Para ver todos los demás cambios en Adobe Workfront, consulte [Versiones del pr
 
 
 ## Administración y configuración
+
+### Actualización de la interfaz de la pestaña Registro de acceso en la configuración
+
+**Versión preliminar: 21 de mayo de 2025; versión de producción: 29 de mayo de 2025**
+
+Hemos actualizado la pestaña Acceder al registro con un diseño más moderno y coherente con otras áreas de Workfront.
+
+Para ver este cambio, vaya a Configuración > Iniciar sesión como > Elegir registro de acceso en la parte superior de la pantalla.
 
 ### Nueva apariencia de los cuadros Nuevo y Copiar informe de valoración
 
@@ -66,7 +74,7 @@ No se han introducido cambios de funcionalidad con esta actualización.
 
 ### Compartir un documento con una dirección de correo electrónico externa
 
-**Versión preliminar: 15 de mayo de 2025; versión de producción: por anunciar**
+**Versión preliminar: 15 de mayo de 2025; versión de producción: 21 de mayo de 2025**
 
 Hemos actualizado el cuadro de diálogo Compartir para permitir que los usuarios compartan documentos con usuarios externos mediante una dirección de correo electrónico. Esta funcionalidad no estaba disponible temporalmente debido al trabajo de modernización de la interfaz.
 
