@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 151b9d0d-0dd6-4ece-9601-dda04356b436
-source-git-commit: e4ff9c9c44c75518e75b14209a18586363cdf4f5
+source-git-commit: f34f48d974db200d9ce1815c805885707ab27f6d
 workflow-type: tm+mt
-source-wordcount: '1259'
+source-wordcount: '1288'
 ht-degree: 1%
 
 ---
@@ -255,4 +255,6 @@ Se han realizado los siguientes cambios para las suscripciones de evento Versió
 
 Workfront Fusion utiliza suscripciones de eventos para inspeccionar los cambios en Workfront en los escenarios de déclencheur. Puede actualizar la versión de suscripción de evento que Fusion utiliza directamente en un escenario mediante el módulo Workfront > Actualizar versión de carga útil de eventos.
 
-Para obtener instrucciones sobre el uso de este módulo, consulte [Módulos de Workfront](https://experienceleague.adobe.com/es/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-modules) en la documentación de Workfront Fusion.
+Para obtener instrucciones sobre el uso de este módulo, consulte [Módulos de Workfront](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-modules) en la documentación de Workfront Fusion.
+
+Para obtener recursos sobre cómo preservar los escenarios de Workfront Fusion durante la actualización de la suscripción al evento, incluida una grabación del seminario web, consulte [Conservación de los escenarios de Fusion durante la actualización de las suscripciones a eventos V2](https://experienceleaguecommunities.adobe.com/t5/workfront-discussions/event-follow-up-preserving-your-fusion-scenarios-during-the/td-p/754182).
