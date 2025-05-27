@@ -9,10 +9,10 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: b83e2e35-dd9d-4d98-b8d4-2f8718b3c6c1
-source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
+source-git-commit: a8faf4aa1a0a1b60f61c0c981c3be1b0d9d033a4
 workflow-type: tm+mt
-source-wordcount: '1150'
-ht-degree: 90%
+source-wordcount: '1218'
+ht-degree: 84%
 
 ---
 
@@ -309,3 +309,13 @@ En las tablas siguientes se muestran los usuarios que se van a importar y varios
 1. Importe el archivo de Excel.
 
    Siga las instrucciones proporcionadas en [Importar datos en Adobe Workfront a través de una plantilla de Kick-Start](/help/quicksilver/administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).
+
+
+
+>[!NOTE]
+>
+>Los usuarios importados a Workfront se crean en un estado de Desactivado y Pendiente de aprobación.
+> 
+>Si su organización se ha migrado a Adobe Admin Console y un usuario no abandona el estado Desactivado y Pendiente de aprobación en unos minutos, puede añadir el lote de usuarios directamente a Adobe Admin Console.
+>
+>Para obtener instrucciones, consulte [Administrar varios usuarios | Carga masiva de CSV](https://helpx.adobe.com/enterprise/using/bulk-upload-users.html) en la documentación de Adobe.
