@@ -7,9 +7,9 @@ description: El menú principal cambia con el nivel de acceso que le asignó su 
 author: Lisa
 feature: Get Started with Workfront
 exl-id: c6e67518-a9e7-4b71-93d2-7a9d36633792
-source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
+source-git-commit: 577761ff5d1fb59db104df5995af953a0b5e6c0c
 workflow-type: tm+mt
-source-wordcount: '482'
+source-wordcount: '452'
 ht-degree: 93%
 
 ---
@@ -45,8 +45,6 @@ Las siguientes áreas están incluidas en el diseño predeterminado de un [!UICO
 * **[!UICONTROL Documentos]**: aquí puede cargar o revisar los documentos que se han compartido con usted. Para obtener más información, consulte [Documentos](../../../documents/documents-overview.md).
 
 * **[!UICONTROL Recursos]**: puede ver la asignación de recursos en las herramientas de planificación de recursos y ver los conjuntos de recursos aquí. Para obtener más información, consulte [Administrar recursos](../../../resource-mgmt/manage-resources.md).
-
-* **[!UICONTROL Análisis]**: observe los datos del proyecto e identifique las tendencias con la planificación y finalización. Esta área muestra información sobre los proyectos que puede ver. Para obtener más información, consulte [Información general de Análisis mejorado](../../../enhanced-analytics/enhanced-analytics-overview.md)
 
 * **[!UICONTROL Tableros]**: trabaje con flexibilidad y colaboración con los integrantes del equipo mediante tableros compartidos que contengan columnas y tarjetas que reflejen el trabajo que desea realizar. Para obtener más información, consulte [Introducción a los tableros: índice de artículos](../../../agile/get-started-with-boards/get-started-with-boards.md).
 

@@ -7,9 +7,9 @@ description: La visualización del plan en curso muestra cuántos proyectos (den
 author: Nolan
 feature: Reports and Dashboards
 exl-id: c64ed752-151a-40f7-ab18-684e2cd032bc
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 2a6e767036ae702f6c19dc71cdb11dae8e9e37ea
 workflow-type: tm+mt
-source-wordcount: '927'
+source-wordcount: '924'
 ht-degree: 90%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 90%
 
 >[!IMPORTANT]
 >
->El análisis mejorado se eliminará de Workfront la semana del 26 de mayo. Workfront Data Connect es una nueva solución alternativa que se puede utilizar para replicar las visualizaciones de Analytics mejoradas que utilice actualmente. <br>Consulte la guía de [Desaprobación mejorada de Analytics](/help/quicksilver/product-announcements/announcements/enhanced-analytics-deprecation.md) para obtener más información.
+>El análisis mejorado se eliminó de Workfront el 27 de mayo. Workfront Data Connect es una nueva solución alternativa que se puede utilizar para replicar las visualizaciones de Analytics mejoradas que utilice actualmente. <br>Consulte la guía de [Desaprobación mejorada de Analytics](/help/quicksilver/product-announcements/announcements/enhanced-analytics-deprecation.md) para obtener más información.
 
 
 La visualización del plan en curso muestra cuántos proyectos (dentro de los criterios de filtro aplicados) estaban en curso, qué cambios de estado se produjeron a lo largo de la vida de estos proyectos y en qué medida estos proyectos se ajustaron a sus plazos de finalización previstos.

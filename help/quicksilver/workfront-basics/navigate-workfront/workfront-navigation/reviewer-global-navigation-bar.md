@@ -6,10 +6,10 @@ description: El menú principal cambia con el nivel de acceso que le asignó su 
 author: Lisa
 feature: Get Started with Workfront
 exl-id: c646b3d2-2eca-47ef-b181-9358cef03ed7
-source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
+source-git-commit: 577761ff5d1fb59db104df5995af953a0b5e6c0c
 workflow-type: tm+mt
-source-wordcount: '388'
-ht-degree: 39%
+source-wordcount: '358'
+ht-degree: 34%
 
 ---
 
@@ -31,8 +31,6 @@ El diseño predeterminado de [!UICONTROL Revisor] incluye las áreas siguientes:
 
 * **[!UICONTROL Solicitudes]**: puede enviar y revisar solicitudes que usted u otros usuarios de su compañía hayan enviado en esta área.
 * **[!UICONTROL Documentos]**: aquí puede cargar o revisar los documentos que se han compartido con usted.
-* **[!UICONTROL Análisis]**: observe los datos del proyecto e identifique las tendencias con la planificación y finalización. Esta área muestra información sobre los proyectos que puede ver. Para obtener más información, consulte [Información general de Análisis mejorado](../../../enhanced-analytics/enhanced-analytics-overview.md)
-
 * **[!UICONTROL Modelos]**: revise los modelos existentes en su sistema y solicite que se instale uno, si el administrador de [!DNL Workfront] configuró la cola de solicitudes para los modelos. Para más información, consulte [Información general sobre modelos](../../../administration-and-setup/blueprints/blueprints-overview.md).
 
 

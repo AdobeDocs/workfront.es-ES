@@ -7,9 +7,9 @@ description: El análisis mejorado es una potente herramienta en Adobe Workfront
 author: Nolan
 feature: Reports and Dashboards
 exl-id: a14ad57c-859b-43df-84c0-575ccda86e50
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 2a6e767036ae702f6c19dc71cdb11dae8e9e37ea
 workflow-type: tm+mt
-source-wordcount: '1246'
+source-wordcount: '1243'
 ht-degree: 10%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 10%
 
 >[!IMPORTANT]
 >
->El análisis mejorado se eliminará de Workfront la semana del 26 de mayo. Workfront Data Connect es una nueva solución alternativa que se puede utilizar para replicar las visualizaciones de Analytics mejoradas que utilice actualmente. <br>Consulte la guía de [Desaprobación mejorada de Analytics](/help/quicksilver/product-announcements/announcements/enhanced-analytics-deprecation.md) para obtener más información.
+>El análisis mejorado se eliminó de Workfront el 27 de mayo. Workfront Data Connect es una nueva solución alternativa que se puede utilizar para replicar las visualizaciones de Analytics mejoradas que utilice actualmente. <br>Consulte la guía de [Desaprobación mejorada de Analytics](/help/quicksilver/product-announcements/announcements/enhanced-analytics-deprecation.md) para obtener más información.
 
 
 El análisis mejorado es una potente herramienta en Adobe Workfront con visualizaciones prediseñadas que le permite ver los datos del proyecto e identificar las tendencias con la planificación y la finalización. Esta insight en sus proyectos le ayuda a administrar su trabajo actual y le permite planificar con mayor precisión el trabajo futuro.
@@ -34,7 +34,7 @@ Los análisis mejorados pueden ayudarle a identificar lo siguiente:
 
 ![Análisis](assets/nwe-full-screen-analytics-350x222.png)
 
-Para ver casos de uso o obtener más información sobre la administración del trabajo actual y la planificación del trabajo futuro con el análisis mejorado, consulte [Rutas de aprendizaje de análisis mejorado](https://experienceleague.adobe.com/es/docs/workfront-learn/tutorials-workfront/home).
+Para ver casos de uso o obtener más información sobre la administración del trabajo actual y la planificación del trabajo futuro con el análisis mejorado, consulte [Rutas de aprendizaje de análisis mejorado](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home).
 
 ## Requisitos previos
 
@@ -46,7 +46,7 @@ Para acceder al área de Análisis mejorado, debe:
 
 * Pida al administrador de Workfront que añada análisis mejorados a la plantilla de diseño.
 
-  Para obtener más información, consulte [Análisis mejorado: agregar análisis a plantillas de diseño](https://experienceleague.adobe.com/es/docs/workfront/using/home).
+  Para obtener más información, consulte [Análisis mejorado: agregar análisis a plantillas de diseño](https://experienceleague.adobe.com/en/docs/workfront/using/home).
 
 Para ver información de proyectos y tareas, debe:
 

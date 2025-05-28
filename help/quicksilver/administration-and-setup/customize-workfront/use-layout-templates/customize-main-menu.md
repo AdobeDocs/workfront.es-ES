@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: d4f02102-0378-472f-9ebb-753502ec048b
-source-git-commit: 7640016921e421d2aec0ab1aadc0edd304125feb
+source-git-commit: bb0c3139be903e34fd01be055010673764fe9787
 workflow-type: tm+mt
-source-wordcount: '686'
+source-wordcount: '682'
 ht-degree: 41%
 
 ---
@@ -20,8 +20,6 @@ ht-degree: 41%
 <!--Audited: 01/2024-->
 
 Como administrador de Adobe Workfront o de un grupo, puede utilizar una plantilla de diseño para configurar las opciones que ven los usuarios cuando abren el menú principal en Workfront.
-
-![Opciones del menú principal](assets/main-menu-with-blueprints-no-branding.png)
 
 >[!NOTE]
 >
@@ -106,7 +104,6 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
    * Hojas de horas
    * Documentos
    * Plantillas
-   * Análisis
    * Revisión
    * Metas
 
@@ -122,7 +119,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
      >[!NOTE]
      >
      >Planning requiere una licencia adicional. Para obtener información sobre Workfront Planning, consulte [Información general sobre Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md)
-     > * Aplicación personalizada
+      * Aplicación personalizada
 
      >[!NOTE]
      >

@@ -7,9 +7,9 @@ description: La visualización Tareas en vuelo muestra cuántas tareas (dentro d
 author: Nolan
 feature: Reports and Dashboards
 exl-id: cc738450-362a-49e8-836f-611fa82057b5
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 2a6e767036ae702f6c19dc71cdb11dae8e9e37ea
 workflow-type: tm+mt
-source-wordcount: '791'
+source-wordcount: '788'
 ht-degree: 44%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 44%
 
 >[!IMPORTANT]
 >
->El análisis mejorado se eliminará de Workfront la semana del 26 de mayo. Workfront Data Connect es una nueva solución alternativa que se puede utilizar para replicar las visualizaciones de Analytics mejoradas que utilice actualmente. <br>Consulte la guía de [Desaprobación mejorada de Analytics](/help/quicksilver/product-announcements/announcements/enhanced-analytics-deprecation.md) para obtener más información.
+>El análisis mejorado se eliminó de Workfront el 27 de mayo. Workfront Data Connect es una nueva solución alternativa que se puede utilizar para replicar las visualizaciones de Analytics mejoradas que utilice actualmente. <br>Consulte la guía de [Desaprobación mejorada de Analytics](/help/quicksilver/product-announcements/announcements/enhanced-analytics-deprecation.md) para obtener más información.
 
 
 La visualización Tareas en vuelo muestra cuántas tareas (dentro de los criterios de filtro aplicados) están en curso para un proyecto, el porcentaje de trabajo completado para cada tarea y cómo de programadas están las tareas.

@@ -5,9 +5,9 @@ author: Nolan
 draft: Probably
 feature: Reports and Dashboards
 exl-id: ecf947ce-54d8-4103-8903-f455b1d86c39
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: 577761ff5d1fb59db104df5995af953a0b5e6c0c
 workflow-type: tm+mt
-source-wordcount: '2798'
+source-wordcount: '2771'
 ht-degree: 94%
 
 ---
@@ -168,15 +168,6 @@ Puede configurar el informe Entrada de cuaderno para que muestre lo siguiente:
 Si desea ver el estado de un proyecto, también puede configurar el informe para que muestre esta misma información usando el campo **Condición** del proyecto.
 
 Esta información se puede utilizar para ayudar con las auditorías y para ilustrar la buena planificación por parte de usted y su organización.
-
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:&nbsp;for tip below: When analytics adds the status option, update this note to say "these entries (status or condition changes)")</p>
--->
-
->[!TIP]
->
->Si desea comparar la diferencia de días entre los cambios de condición, puede utilizar el análisis mejorado.\
->Para obtener más información sobre los análisis mejorados, consulte [Información general de los análisis mejorados](../../../enhanced-analytics/enhanced-analytics-overview.md).
 
 1. Haga clic en el icono **[!UICONTROL Main Menu]** ![Menú principal](/help/_includes/assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront o (si está disponible), haga clic en el icono **[!UICONTROL Main Menu]** ![Menú principal](/help/_includes/assets/main-menu-icon-left-nav.png) en la esquina superior izquierda y, a continuación, haga clic en **Informes**.
 1. Haga clic en **Nuevo informe** y, a continuación, seleccione **Entrada de cuaderno**.

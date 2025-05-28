@@ -5,14 +5,14 @@ content-type: reference;overview
 product-area: system-administration;templates
 navigation-topic: layout-templates
 description: El diseño predeterminado es la disposición del menú principal, del panel izquierdo y de las vistas, agrupaciones y filtros antes de que un administrador de Adobe Workfront realice cambios mediante una plantilla de diseño.
-author: Alina
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: a68bca5e-1cec-432d-bb38-14b426a9c051
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 76797ce2afb6a6a929531f02ed3a3b3f75240602
 workflow-type: tm+mt
-source-wordcount: '627'
-ht-degree: 44%
+source-wordcount: '614'
+ht-degree: 43%
 
 ---
 
@@ -192,16 +192,6 @@ La siguiente tabla muestra los elementos predeterminados del menú principal y l
     <td class="tg-0lax">✔</td>
     <td class="tg-0lax"></td>
     <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
-  </tr>
-  <tr>
-    <td class="tg-0lax">Análisis</td>
-    <td class="tg-0lax">Trabajar<br>personas</td>
-    <td class="tg-0lax">✔</td>
-    <td class="tg-0lax">✔</td>
-    <td class="tg-0lax">✔</td>
-    <td class="tg-0lax">✔</td>
     <td class="tg-0lax"></td>
     <td class="tg-0lax"></td>
   </tr>
@@ -408,15 +398,6 @@ La siguiente tabla muestra los elementos predeterminados del menú principal y l
     <td class="tg-0pky">✔</td>
     <td class="tg-0pky">✔</td>
     <td class="tg-0pky"></td>
-    <td class="tg-0pky"></td>
-    <td class="tg-0pky"></td>
-  </tr>
-  <tr>
-    <td class="tg-0pky">Análisis</td>
-    <td class="tg-0pky">Trabajar<br>personas</td>
-    <td class="tg-0pky">✔</td>
-    <td class="tg-0pky">✔</td>
-    <td class="tg-0pky">✔</td>
     <td class="tg-0pky"></td>
     <td class="tg-0pky"></td>
   </tr>

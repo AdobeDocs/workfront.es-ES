@@ -4,13 +4,13 @@ user-type: administrator
 product-area: system-administration;templates;setup
 navigation-topic: layout-templates
 description: En una plantilla de diseño, puede anclar las páginas que desea que los usuarios tengan siempre disponibles en la parte superior de Adobe Workfront. Pueden ser páginas a las que se accede mediante el menú principal o los paneles de control.
-author: Alina
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 55cc75c5-8b8c-48e7-b114-b41fe3d545d8
-source-git-commit: 2d40585a48f42c767d49530b427d2e4d66f88148
+source-git-commit: 76797ce2afb6a6a929531f02ed3a3b3f75240602
 workflow-type: tm+mt
-source-wordcount: '546'
+source-wordcount: '545'
 ht-degree: 66%
 
 ---
@@ -77,7 +77,6 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 
    * Seleccione entre las siguientes áreas:
 
-      * Análisis
       * Calendarios
       * Paneles
       * Documentos

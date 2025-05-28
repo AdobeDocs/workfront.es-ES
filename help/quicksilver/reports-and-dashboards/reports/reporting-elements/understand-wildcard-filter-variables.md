@@ -3,18 +3,18 @@ content-type: overview
 product-area: reporting
 navigation-topic: reporting-elements
 title: Variables de filtro comodín
-description: Mediante el uso de caracteres comodín en los filtros, se puede hacer referencia a un usuario o fecha genéricos en lugar de a un usuario o fecha específicos. De este modo, los elementos que cree serán dinámicos y los resultados cambiarán según el contexto en el que se utilicen.
+description: Mediante el uso de comodines en los filtros, se puede hacer referencia a un usuario o fecha genéricos en lugar de a un usuario o fecha específica. De este modo, los elementos que cree serán dinámicos y los resultados cambiarán según el contexto en el que se utilicen.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: f99cd99e-c4c1-471d-8428-c680f0e73336
-source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
+source-git-commit: 577761ff5d1fb59db104df5995af953a0b5e6c0c
 workflow-type: tm+mt
-source-wordcount: '1440'
-ht-degree: 1%
+source-wordcount: '1439'
+ht-degree: 100%
 
 ---
 
-# Resumen de variables de filtro comodín
+# Información general sobre las variables de filtro comodín
 
 <!-- Audited: 11/2024 -->
 
@@ -25,7 +25,7 @@ The $$USER.roleIDs variable refers to all the job roles that are associated with
 For example, if you want to display tasks assigned to any of the job roles associated with the logged-in user, you can use the following filter rule in a task filter:
 AssignedToID Equals $$USER.roleIDs.)-->
 
-Con los caracteres comodín, se puede hacer referencia a un usuario o fecha genéricos en lugar de a un usuario o fecha específicos. De este modo, los elementos que genere son dinámicos; los resultados cambian según el contexto en el que se utilicen.
+Con los comodines, se puede hacer referencia a un usuario o fecha genéricos en lugar de a un usuario o fecha específica. De este modo, los elementos que se generan son dinámicos; los resultados cambian en función del contexto en el que se utilizan.
 
 Por ejemplo, si se filtra $$USER.homeGroupID en un informe de proyecto, se recuperan únicamente los proyectos asociados al grupo de inicio del usuario que ha iniciado sesión.
 
@@ -34,12 +34,12 @@ Puede utilizar variables de filtro (también conocidas como comodines) al crear 
 <table>
     <tr>
         <td>Filtros en listas, informes y el Planificador de recursos</td>
-        <td>Para obtener información acerca de los filtros de Workfront, consulte el artículo <a href="../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md">Resumen de filtros</a>.
+        <td>Para obtener más información sobre los filtros de Workfront, consulte el artículo <a href="../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md">Información general sobre los filtros</a>.
 </td>
     </tr>
     <tr>
         <td>Búsquedas avanzadas</td>
-        <td>Para obtener información acerca de las búsquedas avanzadas, consulte la sección <a href="../../../workfront-basics/navigate-workfront/search/search-workfront.md#using-advanced-search">Usar la búsqueda avanzada</a> en el artículo <a href="../../../workfront-basics/navigate-workfront/search/search-workfront.md">Buscar en Adobe Workfront</a>.
+        <td>Para obtener información acerca de las búsquedas avanzadas, consulte la sección <a href="../../../workfront-basics/navigate-workfront/search/search-workfront.md#using-advanced-search">Utilizar la búsqueda avanzada</a> en el artículo <a href="../../../workfront-basics/navigate-workfront/search/search-workfront.md">Buscar en Adobe Workfront</a>.
     </tr>
     <tr>
         <td>Columnas calculadas en vistas</td>
@@ -47,20 +47,20 @@ Puede utilizar variables de filtro (también conocidas como comodines) al crear 
     </tr>
     <tr>
         <td>Formato condicional en vistas</td>
-        <td>Para obtener información acerca del formato condicional, vea el artículo <a href="../../../reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md">Usar formato condicional en las vistas</a>.
+        <td>Para obtener información acerca del formato condicional, consulte el artículo <a href="../../../reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md">Usar formato condicional en vistas</a>.
     </tr>
     <tr>
         <td>Campos personalizados calculados</td>
-        <td>Las variables de filtro comodín no son compatibles cuando se hace referencia a colecciones anidadas en una columna calculada.
+        <td>No se admiten variables de filtro comodín cuando se hace referencia a colecciones anidadas en una columna calculada.
 
-Para obtener información acerca de columnas y campos personalizados calculados, vea el artículo <a hreft="../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-fields-calculated-columns.md">Campos personalizados calculados frente a columnas calculadas</a>.
+Para obtener información sobre los campos y columnas personalizados calculados, consulte el artículo <a hreft="../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-fields-calculated-columns.md">Campos personalizados calculados frente a columnas calculadas</a>.
 </td>
     </tr>
 </table>
 
 ## Variables de filtro comodín basadas en fechas
 
-Las opciones de comodín basadas en fechas se pueden usar en combinación con cualquier atributo de filtro de fecha. Para obtener información acerca de cómo agregar un comodín basado en fecha a un informe, vea el artículo [Usar comodines basados en fecha para generalizar informes](../../../reports-and-dashboards/reports/reporting-elements/use-date-based-wildcards-generalize-reports.md).
+Las opciones de carácter comodín basadas en fechas se pueden utilizar en combinación con cualquier atributo de filtro de fecha. Para obtener información acerca de cómo añadir un comodín basado en fecha a un informe, consulte el artículo [Usar comodines basados en fecha para generalizar informes](../../../reports-and-dashboards/reports/reporting-elements/use-date-based-wildcards-generalize-reports.md).
 
 >[!NOTE]
 >
@@ -74,16 +74,16 @@ Puede elegir entre los siguientes comodines basados en fechas:
  <tbody> 
   <tr valign="top"> 
    <td width="100" role="rowheader"> <p><strong>$$TODAY</strong> </p> </td> 
-   <td> <p>Le recomendamos que genere filtros con distinción de fechas utilizando este comodín para evitar volver a generar el filtro mañana, la semana que viene o el mes que viene.</p> <p>Por ejemplo, si desea mostrar todas las tareas que vencen antes de hoy, puede usar la siguiente regla en un filtro de tareas: <em>Fecha planificada de inicio menor que $$TODAY</em>.</p> <p>$$TODAY siempre equivale a medianoche del día actual.</p> </td> 
+   <td> <p>Le recomendamos que genere filtros con distinción de fechas utilizando este comodín para evitar volver a generar el filtro mañana, la semana que viene o el mes que viene.</p> <p>Por ejemplo, si desea mostrar todas las tareas que vencen antes de hoy, puede usar la siguiente regla en un filtro de tareas: <em>Fecha planificada de inicio menor que $$TODAY</em>.</p> <p>$$TODAY siempre equivale a la medianoche del día actual.</p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td width="100" role="rowheader"> <p><strong>$$AHORA</strong> </p> </td> 
+   <td width="100" role="rowheader"> <p><strong>$$NOW</strong> </p> </td> 
    <td> <p>Es similar al comodín $$TODAY, pero incluye la fecha y la hora actuales. $$NOW es igual a la fecha y hora actuales.</p> <p>Por ejemplo, si desea mostrar todas las entradas de horas proporcionadas hasta la hora actual, puede hacerlo usando la siguiente regla en un filtro de horas: <em>Fecha planificada de inicio inferior a $$NOW</em>.</p> <p>Nota: Este comodín no es compatible con el Planificador de recursos.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Para indicar varios períodos de tiempo y varios puntos en el tiempo (futuros o pasados), puede combinar los caracteres comodín anteriores con lo siguiente:
+Para indicar varios periodos de tiempo y varios puntos en el tiempo (futuros o pasados), puede combinar los caracteres comodín anteriores con lo siguiente:
 
 | Atributos |   |
 |---|---|
@@ -98,8 +98,8 @@ Para indicar varios períodos de tiempo y varios puntos en el tiempo (futuros o 
 
 | **Calificadores** | |
 |---|---|
-| **b** | comienzo del período (sin un atributo especificado, el valor predeterminado es comienzo de semana: domingo) |
-| **e** | final del periodo (sin un atributo especificado, de forma predeterminada fin de semana: sábado) |
+| **b** | inicio del período (sin un atributo especificado, el valor predeterminado es el inicio de la semana: domingo) |
+| **e** | final del período (sin un atributo especificado, el valor predeterminado es el fin de semana: sábado) |
 
 {style="table-layout:auto"}
 
@@ -110,15 +110,15 @@ Para indicar varios períodos de tiempo y varios puntos en el tiempo (futuros o 
 
 {style="table-layout:auto"}
 
-Por ejemplo, el comodín `$$TODAYb+2w` hace referencia a &quot;2 semanas a partir del comienzo de esta semana&quot;. El comodín *`$$NOW+2h` hace referencia a &quot;2 horas a partir de ahora&quot;.
+Por ejemplo, el comodín `$$TODAYb+2w` hace referencia a “2 semanas a partir del inicio de esta semana”. El comodín *`$$NOW+2h` hace referencia a “2 horas a partir de ahora”.
 
-## Variables de filtro comodín basadas en usuarios
+## Variables de filtro comodín basadas en el usuario
 
 >[!IMPORTANT]
 >
->Si un filtro o informe contiene una variable de filtro comodín basada en usuario, los resultados siempre muestran información filtrada por el usuario que ha iniciado sesión en ese momento. Cuando comparte un filtro o informe de este tipo con otro usuario, el comodín recupera información para el usuario que consulta el informe. Los dos usuarios ven resultados diferentes.
+>Si un filtro o informe contiene una variable de filtro comodín basada en el usuario, los resultados siempre muestran información filtrada por el usuario que ha iniciado sesión en ese momento. Cuando comparte un filtro o informe de este tipo con otro usuario, el comodín recupera información para el usuario que consulta el informe. Los dos usuarios ven resultados diferentes.
 >
->Para obtener información acerca de cómo agregar un comodín basado en usuarios a un informe, vea el artículo [Usar comodines basados en usuarios para generalizar informes](../../../reports-and-dashboards/reports/reporting-elements/use-user-based-wildcards-generalize-reports.md).
+>Para obtener información acerca de cómo añadir un comodín basado en el usuario a un informe, consulte el artículo [Usar comodines basados en el usuario para generalizar informes](../../../reports-and-dashboards/reports/reporting-elements/use-user-based-wildcards-generalize-reports.md).
 
 Puede elegir entre las siguientes variables basadas en el usuario:
 
@@ -130,7 +130,7 @@ Puede elegir entre las siguientes variables basadas en el usuario:
    <td width="200" role="rowheader"> <p><strong>$$USER.ID</strong> </p> </td> 
    <td> <!--
      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: : should these be formatted with code?!) </p>
-    --> <p>La variable basada en usuarios más común es $$USER.ID. Esto siempre devuelve el ID del usuario que ha iniciado sesión. Identificador que se utiliza para identificar qué usuario creó cada objeto y sus asignaciones de trabajo.</p> <p>Cuando se utiliza en los informes, este comodín reduce el número de informes que debe crear en el sistema. Puede crear un informe y compartirlo con varios usuarios, y los resultados cambian según el usuario que ha iniciado sesión y está viendo el informe.</p> <p>Por ejemplo, para generar un informe con todos los problemas asignados al usuario que ha iniciado sesión, puede usar la siguiente regla en un filtro de problemas: <em>Asignado a ID es igual a $$USER.ID</em>.</p> <p>Workfront utiliza esta variable en los siguientes filtros integrados:</p> 
+    --> <p>La variable basada en el usuario más común es $$USER.ID. Esto siempre devuelve el ID del usuario que ha iniciado sesión. Identificador que se utiliza para identificar qué usuario creó cada objeto y sus asignaciones de trabajo.</p> <p>Cuando se utiliza en los informes, este comodín reduce el número de informes que debe crear en el sistema. Puede crear un informe y compartirlo con varios usuarios, y los resultados cambian según el usuario que ha iniciado sesión y está viendo el informe.</p> <p>Por ejemplo, para generar un informe con todos los problemas asignados al usuario que ha iniciado sesión, puede usar la siguiente regla en un filtro de problemas: <em>Asignado a ID es igual a $$USER.ID</em>.</p> <p>Workfront utiliza esta variable en los siguientes filtros integrados:</p> 
     <ul> 
      <li>Mis informes</li> 
      <li>Mis proyectos</li> 
@@ -173,12 +173,11 @@ Puede elegir entre las siguientes variables basadas en el usuario:
      <ul> 
       <li> <p>Planificador de recursos</p> </li> 
       <li> <p>Distribuidor de cargas de trabajo</p> </li> 
-      <li> <p>Análisis</p> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td role="rowheader"> <p><strong>$$USER.homeGroupID</strong> </p> </td> 
-   <td> <p>La variable $$USER.homeGroupID hace referencia al ID del grupo de inicio del usuario que ha iniciado sesión. Como Administrador de grupos, puede utilizar esta variable para filtrar únicamente los elementos que pertenezcan a los usuarios del grupo de inicio.</p> <p>Por ejemplo, para ver todas las tareas incompletas de los proyectos del grupo financiero, use las siguientes reglas de filtro en un filtro de tareas:<br><em>Proyecto: Id. de grupo es igual a $$USER.homeGroupID </em><br><em>Porcentaje completado menor que 100</em></p> <p>Para ver todas las tareas incompletas asignadas a individuos en un grupo específico que es el Grupo de inicio del usuario que ha iniciado sesión, utilice las siguientes reglas de filtro en un filtro de tareas:</p> <p><em>Asignado a: ID de grupo igual a $$USER.homeGroupID<br>Porcentaje completado menor que 100</em> </p> </td> 
+   <td> <p>La variable $$USER.homeGroupID hace referencia al ID del grupo de inicio del usuario que ha iniciado sesión. Como administrador de grupos, puede utilizar esta variable para filtrar únicamente los elementos que pertenezcan a los usuarios del grupo de inicio.</p> <p>Por ejemplo, para ver todas las tareas incompletas de los proyectos del grupo de finanzas, use las siguientes reglas de filtro en un filtro de tareas:<br><em>Proyecto: el ID de grupo es igual a $$USER.homeGroupID </em><br><em>Porcentaje completado menor que 100</em></p> <p>Para ver todas las tareas incompletas asignadas a personas de un grupo específico, que es el grupo de inicio del usuario que ha iniciado sesión, utilice las siguientes reglas de filtro en el filtro de tareas:</p> <p><em>Asignado a: ID de grupo es igual a $$USER.homeGroupID<br>Porcentaje completado menor que 100</em> </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td role="rowheader"> <p><strong>$$USER.otherGroupIDs</strong> </p> </td> 
@@ -194,11 +193,11 @@ Puede elegir entre las siguientes variables basadas en el usuario:
   </tr> 
   <tr valign="top"> 
    <td role="rowheader"> <p><strong>$$USER.roleID</strong> </p> </td> 
-   <td> <p>La variable $$USER.roleID hace referencia a la función principal del usuario que ha iniciado sesión. Con esta variable, puede informar sobre tareas o problemas asignados a un rol específico.</p> <p>Por ejemplo, para ver todas las tareas asignadas a la función principal del usuario que ha iniciado sesión, puede utilizar la siguiente regla de filtro en un filtro de tareas:</p> <p><em>Tarea: ID de rol igual a $$USER.roleID.</em> </p> </td> 
+   <td> <p>La variable $$USER.roleID hace referencia a la función principal del usuario que ha iniciado sesión. Con esta variable, puede informar sobre tareas o problemas asignados a una función específica.</p> <p>Por ejemplo, para ver todas las tareas asignadas a la función principal del usuario que ha iniciado sesión, puede utilizar la siguiente regla de filtro en un filtro de tareas:</p> <p><em>Tarea: ID de función es igual a $$USER.roleID.</em> </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td role="rowheader"><p><strong>$$USER.roleIDs</strong></p></td> 
-   <td> <p>La variable $$USER.roleIDs hace referencia a todas las funciones de trabajo asociadas al usuario que ha iniciado sesión. Con esta variable, puede generar informes sobre las tareas o los problemas asignados a cualquiera de los roles asociados con el usuario que ha iniciado sesión. </p> <p>Por ejemplo, para ver todas las tareas asignadas a cualquiera de las funciones asociadas con el usuario que ha iniciado sesión, puede utilizar la siguiente regla de filtro en un filtro de tareas:</p> <p><i>Tarea: ID de rol igual a $$USERID.roleIDs<br></i> </p> <p>Sugerencia: <i>Tarea: El identificador de función es igual a $$USERID.roleIDs</i> regla de filtro existe en los filtros integrados Tareas sin asignar en Mi función y Problemas sin asignar en Mi función. </p> </td> 
+   <td> <p>La variable $$USER.roleIDs hace referencia a todas las funciones de trabajo asociadas al usuario que ha iniciado sesión. Con esta variable, puede generar informes sobre las tareas o los problemas asignados a cualquiera de las funciones asociadas con el usuario que ha iniciado sesión. </p> <p>Por ejemplo, para ver todas las tareas asignadas a cualquiera de las funciones asociadas con el usuario que ha iniciado sesión, puede utilizar la siguiente regla de filtro en un filtro de tareas:</p> <p><i>Task: Role ID Equals $$USERID.roleIDs<br></i> </p> <p>Sugerencia: La regla de filtro <i>Task: Role ID Equals $$USERID.roleIDs</i> existe en los filtros integrados Tareas sin asignación en Mi función y Problemas sin asignación en Mi función. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -217,7 +216,7 @@ Puede elegir entre los siguientes comodines basados en objetos:
     <div> 
      <p>La variable $$OBJCODE hace referencia al tipo de un objeto. </p> 
      <p>En un formulario personalizado, cuando los tipos de objeto seleccionados del formulario son incompatibles con un campo al que se hace referencia en un campo personalizado calculado, puede utilizar este comodín para evitar la solución alternativa de crear formularios duplicados para esos tipos de objeto.</p> 
-     <p>En el campo personalizado calculado, puede hacerlo incluyendo el comodín en una expresión IF para que el cálculo pueda generar valores diferentes para cada tipo de objeto del formulario. </p> 
+     <p>En el campo personalizado calculado, puede hacerlo incluyendo el comodín en una expresión IF para que el cálculo pueda generar valores diferentes para cada uno de los tipos de objeto del formulario. </p> 
     </div> </td> 
   </tr> 
  </tbody> 
