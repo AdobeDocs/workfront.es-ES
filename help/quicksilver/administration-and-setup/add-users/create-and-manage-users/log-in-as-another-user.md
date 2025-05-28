@@ -8,16 +8,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 2f8dd132-1086-4980-9b56-993a68231e96
-source-git-commit: 554e08c22f6ee142a9ced8fa991d0126b6360b0c
+source-git-commit: 6068c9c53568d3ebec9fae294bfee1cbd365714b
 workflow-type: tm+mt
-source-wordcount: '748'
-ht-degree: 85%
+source-wordcount: '738'
+ht-degree: 63%
 
 ---
 
 # Iniciar sesión como otro usuario
 
-<!--Audited: April, 2024-->
+<!--Audited: 5/2025-->
 
 <!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all users only in the Preview environment.</span> -->
 
@@ -25,9 +25,7 @@ ht-degree: 85%
 **DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. Also linked to other articles: Creating and Managing Groups, etc.</p>
 -->
 
-Como administrador de Adobe Workfront, a veces es posible que deba acceder a Workfront en nombre de otro usuario.
-
-O bien, como administrador de grupos, es posible que deba acceder a Workfront en nombre de un usuario que sea miembro de un grupo que administre.
+Como administrador de Adobe Workfront, a veces es posible que deba acceder a Workfront en nombre de otro usuario. O bien, como administrador de grupos, es posible que deba acceder a Workfront en nombre de un usuario que sea miembro de un grupo que administre.
 
 Por ejemplo, si una tarea no puede progresar hasta que un usuario de vacaciones realice una determinada acción, puede iniciar sesión como ese usuario y realizar la acción en su lugar.
 
@@ -44,7 +42,7 @@ Some users, such as executives, need to be able to control which administrators 
 >
 >Dado que una integración de documentos puede conectarse a archivos personales privados, los administradores no pueden acceder a las integraciones de documentos mientras hayan iniciado sesión como otro usuario.
 >
->Para obtener más información sobre las integraciones de documentos, consulte [Configurar integraciones de documentos](../../../administration-and-setup/configure-integrations/configure-document-integrations.md)
+>Para obtener más información sobre las integraciones de documentos, consulte [Configurar integraciones de documentos](../../../administration-and-setup/configure-integrations/configure-document-integrations.md).
 
 ## Requisitos de acceso
 
@@ -68,8 +66,8 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso</td> 
-   <td> <p>Con el nivel de acceso de administrador del sistema, puede iniciar sesión como cualquier persona.</p> <p>Con un nivel de acceso Estándar o Planificador, puedes iniciar sesión como un usuario con un nivel de licencia inferior si la configuración de <b>Usuarios</b> en el nivel de acceso está configurada para el acceso de <b>Editar</b>, con <b>Crear</b> y al menos una de las dos opciones de <b>Administrador de usuarios</b> habilitadas en <b>Ajustar la configuración</b> <img src="assets/gear-icon-in-access-levels.png">. </p> 
-   <p><b>NOTA</b>: De estas dos opciones, si <b>Administrador de usuarios (usuarios del grupo)</b> está habilitado, debe ser administrador de un grupo del que el usuario sea miembro.</p></td>
+   <td> <p>Con el nivel de acceso de administrador del sistema, puede iniciar sesión como cualquier persona.</p> <p>Con un nivel de acceso Estándar o Planificador, puede iniciar sesión como un usuario con un nivel de licencia inferior si la opción Usuarios en el nivel de acceso está configurada para Editar acceso, con Crear y al menos una de las dos opciones de Administración de usuarios habilitada en Ajustar la configuración <img src="assets/gear-icon-in-access-levels.png">. </p> 
+   <p>NOTA: De estas dos opciones, si la opción Administración de usuarios (usuarios del grupo) está activada, debe ser administrador de un grupo al que pertenezca el usuario.</p></td>
   </tr> 
  </tbody> 
 </table>
@@ -80,7 +78,7 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
 
 ## Iniciar sesión y realizar acciones como otro usuario
 
-1. Inicie sesión en Workfront como administrador de grupos o de Workfront.
+1. Inicie sesión en Workfront como administrador de Workfront o administrador de grupos.
 
    >[!NOTE]
    >
@@ -96,15 +94,14 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
 
 1. En el panel izquierdo, haga clic en **Iniciar sesión como**.
 
-1. En el cuadro **Usuarios** de la pestaña **Iniciar sesión como**, empiece a escribir el nombre del usuario y, a continuación, haga clic en el nombre cuando aparezca en la lista desplegable.
+1. En el cuadro **Empiece a escribir el nombre...** de la ficha **Iniciar sesión como**, empiece a escribir el nombre del usuario y, a continuación, haga clic en el nombre cuando aparezca en la lista desplegable.
 
-   El usuario debe tener un nivel de acceso definido en Workfront. No puede iniciar sesión en el sistema de Workfront como un usuario que no tiene derechos para iniciar sesión.
 
    >[!NOTE]
-   >
-   >Los administradores de grupos solo pueden iniciar sesión como los usuarios que son miembros de los grupos que administran. No pueden iniciar sesión como administradores de Workfront.
+   >* El usuario que seleccione debe tener un nivel de acceso definido en Workfront. No puede iniciar sesión en el sistema de Workfront como un usuario que no tiene derechos para iniciar sesión.
+   >* Los administradores de grupos solo pueden iniciar sesión como los usuarios que son miembros de los grupos que administran. No pueden iniciar sesión como administradores de Workfront.
 
-1. Haga clic en **Iniciar sesión.**
+1. Haga clic en **Iniciar sesión**. Ha iniciado sesión como otro usuario y aparece una notificación en la parte superior de la pantalla que lo indica.
 
    <!--
    <p> Might come in a future story:</p>
@@ -131,15 +128,15 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
    </div>
    -->
 
-   Cuando inicia sesión como otro usuario, aparece una notificación en la parte superior de la pantalla para indicarlo.
 
-1. Después de haber realizado las acciones necesarias como usuario, haga clic en **Cerrar sesión.**
+
+1. Después de haber realizado las acciones necesarias como usuario, haga clic en **Cerrar sesión** en la parte superior de la pantalla.
 
 ## Seguimiento y auditoría de la actividad mientras un administrador ha iniciado sesión como otro usuario
 
 Workfront proporciona mecanismos para el seguimiento y la auditoría de la actividad que tiene lugar mientras el administrador ha iniciado sesión como otro usuario.
 
-Cuando inicia sesión como otro usuario, la fecha del último inicio de sesión se modifica para ese usuario hasta la fecha en que el administrador del sistema o del grupo inicia sesión como ese usuario.
+Cuando inicia sesión como otro usuario, la fecha del último inicio de sesión de ese usuario se modifica a la fecha en que el administrador del sistema o del grupo inicia sesión como ese usuario.
 
 * [Ver indicadores en elementos](#view-indicators-on-items)
 * [Ver información de la auditoría](#view-audit-information)
@@ -153,14 +150,17 @@ Por ejemplo, si comenta sobre un elemento mientras está conectado como otro usu
 ### Ver información de la auditoría {#view-audit-information}
 
 1. Inicie sesión en Workfront como administrador de Workfront o administrador de grupos.
-1. Haga clic en el icono **Menú principal** ![Icono del menú principal](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront y, a continuación, haga clic en **Configurar** ![Icono de configuración de engranajes](assets/gear-icon-settings.png).
+   {{step-1-to-setup}}
+   <!--1. Click the **Main Menu** icon ![Main menu icon](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![Gear settings icon](assets/gear-icon-settings.png).-->
 
-1. Haga clic en **Iniciar sesión como** y luego haga clic en la pestaña **Acceder al registro**.
+1. En el panel izquierdo, haga clic en **Iniciar sesión como** y, a continuación, haga clic en la ficha **Registro de acceso**.
 
-   Cada vez que un administrador de sistemas o de grupos inicia sesión en Workfront como otro usuario, el evento se registra en la pista de auditoría. Además, todas las acciones auditables que se realizan mientras el administrador inicia sesión como otro usuario se registran en la pista de auditoría.
+   >[!NOTE]
+   >
+   >Cada vez que un administrador de sistemas o de grupos inicia sesión en Workfront como otro usuario, el evento se registra en la pista de auditoría. Además, todas las acciones auditables que se realizan mientras el administrador inicia sesión como otro usuario se registran en la pista de auditoría.
 
 1. (Opcional) Puede filtrar los resultados que se muestran en la pista de auditoría de las siguientes maneras:
 
    * Por el usuario que ha iniciado la sesión
    * Por el usuario que ha iniciado la sesión como
-   * Por la fecha
+   * Por fecha y hora

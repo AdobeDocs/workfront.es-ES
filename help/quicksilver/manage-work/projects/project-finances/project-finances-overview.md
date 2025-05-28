@@ -8,7 +8,7 @@ author: Lisa
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: 7dda021d-4cf8-4f65-b187-23fcd935a842
-source-git-commit: e5a87b92bf1f6c2e0485ba8a2eb73e52c422b2fc
+source-git-commit: 97d755c71eb1bdfa8a031fa387741318f9a7f261
 workflow-type: tm+mt
 source-wordcount: '211'
 ht-degree: 98%
@@ -16,6 +16,8 @@ ht-degree: 98%
 ---
 
 # Finanzas del proyecto: índice de artículos
+
+<!-- Audited: 5/2025 -->
 
 Para obtener información sobre las áreas en las que puede encontrar información financiera del proyecto y sobre cómo administrar las finanzas del proyecto, consulte los siguientes artículos:
 
