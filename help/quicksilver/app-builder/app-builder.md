@@ -4,9 +4,9 @@ description: Las extensiones de la interfaz de usuario de Workfront, con tecnolo
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 2ed75053-8199-474c-afb4-fa9bbd3750f8
-source-git-commit: e27cf74c94167e918bb6426b99bf7e47139cbade
+source-git-commit: a4e715d5212c3c166ce6ed995b327eb2b7198123
 workflow-type: tm+mt
-source-wordcount: '1705'
+source-wordcount: '1693'
 ht-degree: 0%
 
 ---
@@ -38,10 +38,11 @@ Debe tener lo siguiente:
 
 * Una cuenta de Workfront habilitada para IMS
 * Un equipo de desarrollo con nodo v18 y npm
+* Licencia de App Builder
 
 ## Acceso a Adobe App Builder
 
-Para crear extensiones de interfaz de usuario, debe tener acceso a Adobe App Builder en Adobe Developer Console.
+Para crear extensiones de IU, debe tener acceso a Adobe App Builder en Adobe Developer Console.
 
 Encontrará más instrucciones en el [sitio de Adobe Developer](https://developer.adobe.com/uix/docs/guides/get-access/).
 
@@ -69,8 +70,6 @@ Encontrará más instrucciones en el [sitio de Adobe Developer](https://develope
 ### Obtener acceso a App Builder
 
 Las organizaciones deben colaborar con sus administradores de cuentas para adquirir App Builder.
-
-Para probar la integración de AppBuilder, puede solicitar una prueba gratuita para su organización IMS aquí: https://developer.adobe.com/app-builder/trial/#
 
 Si AppBuilder está configurado correctamente, debería ver Crear proyecto a partir de una plantilla como parte de la creación de un nuevo proyecto.
 
@@ -132,7 +131,7 @@ Encontrará instrucciones adicionales en GitHub y en el sitio de Adobe Developer
 
 1. Confirme la finalización seleccionando He terminado. La generación de código a partir de la plantilla está en curso.
    ![generación en proceso](assets/6-generation-in-process.png)
-1. Espere hasta que vea un mensaje que indique que la inicialización de la aplicación ha finalizado. A continuación, puede abrir el proyecto en un IDE (se recomienda VSCode) y acceder a la carpeta src.
+1. Espere hasta que vea un mensaje que indique que la inicialización de la aplicación ha finalizado. A continuación, puede abrir el proyecto en un IDE (se recomienda Visual Studio Code) y tener acceso a la carpeta src.
 
    Para obtener más información sobre las carpetas y los archivos del proyecto, consulte el [sitio para desarrolladores de Adobe](https://developer.adobe.com/app-builder/docs/getting_started/first_app/#5-anatomy-of-an-appbuilder-application).
 
@@ -153,13 +152,13 @@ Para permitir aplicaciones personalizadas en el menú principal de Workfront:
 En la función ExtensionRegistration, debería ver el siguiente código. Este código se creó automáticamente mediante la plantilla. Este código se puede añadir para crear elementos de menú adicionales. Asegúrese de reemplazar los ID y las direcciones URL.
 
     &quot;
-    mainMenu: &lbrace;
+    mainMenu: {
     
-    getItems() &lbrace;
+    getItems() {
     
-    return &lbrack;
+    return [
     
-    &lbrace;
+    {
     
     id: &#39;main-menu-label&#39;,
     
@@ -169,13 +168,13 @@ En la función ExtensionRegistration, debería ver el siguiente código. Este c�
     
     icon: icon1,
     
-    &rbrace;,
+    },
     
-    &rbrack;;
+    ];
     
-    &rbrace;,
+    },
     
-    &rbrace;
+    }
     &quot;
 
 1. Agregue el siguiente fragmento de código:
