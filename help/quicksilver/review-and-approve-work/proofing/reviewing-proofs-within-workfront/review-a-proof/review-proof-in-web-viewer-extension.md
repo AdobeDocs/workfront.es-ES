@@ -6,16 +6,16 @@ description: La herramienta de revisión de Adobe Workfront es una extensión de
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 4fea13cc-2d56-466e-8851-6134782e7e80
-source-git-commit: 7b02d5670ebba1456e37e6fd815e7812ec06def2
+source-git-commit: 5a8bfdeae7f5d23ecf835e652cf0ff5efd5aa410
 workflow-type: tm+mt
-source-wordcount: '522'
+source-wordcount: '575'
 ht-degree: 1%
 
 ---
 
 # Revisión del contenido interactivo con la herramienta de revisión de Adobe Workfront
 
-<span class="preview">La herramienta Adobe Workfront Review estará disponible el 7 de noviembre de 2024. Esta extensión se encuentra en la versión beta.</span>
+<span class="preview">La herramienta Adobe Workfront Review estuvo disponible el 7 de noviembre de 2024. Esta extensión se encuentra en la versión beta.</span>
 
 La herramienta de revisión de Adobe Workfront es una extensión de explorador basada en web que le permite probar el contenido interactivo en un archivo ZIP o con una dirección URL. La herramienta de revisión de Adobe Workfront está disponible en los siguientes exploradores:
 
@@ -24,10 +24,9 @@ La herramienta de revisión de Adobe Workfront es una extensión de explorador b
 * Edge
 * Safari
 
-Se recomienda utilizar el Visor de corrección de escritorio si el contenido que necesita revisar está en un sitio web que
-
-* Requiere autenticación SSO
-* Impide abrir el sitio en iFrames, como Figma
+>[!IMPORTANT]
+>
+>Esta extensión es necesaria para revisar el contenido en GenStudio for Performance Marketing y Creative Cloud Express. Assets se abrirá automáticamente en el visor web. No es necesario que actualice ninguna configuración de la cuenta.
 
 
 ## Instalación de la extensión
@@ -37,12 +36,6 @@ Se recomienda utilizar el Visor de corrección de escritorio si el contenido que
 * Debe quitar la extensión heredada de Web Viewer para utilizar la herramienta de revisión de Adobe Workfront.
 
 ### Instalación de la extensión
-
-<!--This extension is required to review conent in GS and Ex.
-
-You must install the extension to reiew content in GenS and Express.
-
-To review content in GS, Express, or Wou must install the extension if you are using GenStuido or Creative cloud express-->
 
 Los revisores y aprobadores deben instalar la herramienta de revisión de Adobe Workfront. en uno de los siguientes exploradores:
 
@@ -56,6 +49,15 @@ Los revisores y aprobadores deben instalar la herramienta de revisión de Adobe 
 Para que las pruebas interactivas se abran automáticamente en la herramienta de revisión de Adobe Workfront, un administrador de Workfront debe actualizar la configuración de revisión en Workfront como se describe en las secciones a continuación.
 
 ## Actualizar valores predeterminados de revisión de Workfront
+
+Para utilizar la herramienta de revisión de Workfront como el visor predeterminado para el contenido interactivo, debe actualizar los valores predeterminados de revisión en Workfront.
+
+>[!NOTE]
+>
+>Se recomienda utilizar el Visor de corrección de escritorio si el contenido que necesita revisar está en un sitio web que
+>
+>* Requiere autenticación SSO
+>* Impide abrir el sitio en iFrames, como Figma
 
 ### Hacer que la herramienta de revisión de Adobe Workfront sea el visor predeterminado para las pruebas de URL y ZIP
 
@@ -84,6 +86,4 @@ Para utilizar la herramienta de revisión web solo para pruebas ZIP, un administ
 >[!NOTE]
 >
 >Este cambio se aplica a todas las pruebas de ZIP de la instancia de Workfront. Se recomienda probar la nueva experiencia en el entorno de vista previa antes de habilitarla en producción. Puede volver fácilmente al Visor de escritorio cambiando la configuración de la cuenta de **Visor de corrección de escritorio para pruebas interactivas** a **Habilitado para todas las pruebas interactivas**.
-
-
 
