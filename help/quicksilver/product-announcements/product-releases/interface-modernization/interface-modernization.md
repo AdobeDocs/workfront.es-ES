@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 616d729b0a42446e11805579febac4e26489b13f
+source-git-commit: f8b660859269694f13410e4bc6894d6677cd04a2
 workflow-type: tm+mt
-source-wordcount: '3990'
+source-wordcount: '3995'
 ht-degree: 2%
 
 ---
@@ -150,7 +150,7 @@ Se recomienda reemplazar la URL para ir a una página compatible o eliminar la p
 
 ### Actualización de la interfaz a la nueva página de registro de usuario
 
-**Versión preliminar: 15 de mayo de 2024; versión de producción: por anunciar**
+**Versión preliminar: 12 de mayo de 2024; versión de producción: 19 de mayo de 2025**
 
 Hemos actualizado la nueva página de registro de usuarios con un diseño más moderno y coherente con otras áreas de Workfront.
 
@@ -158,13 +158,15 @@ Los usuarios ya no tienen la opción de subir una foto en esta página. Sin emba
 
 ### Búsqueda actualizada de la página de inicio de sesión
 
-**Versión preliminar: 15 de mayo de 2024; versión de producción: por anunciar**
+**Versión preliminar: 12 de mayo de 2024; versión de producción: 19 de mayo de 2025**
 
 Hemos actualizado la página de inicio de sesión con un diseño más moderno que es coherente con otras áreas de Workfront.
 
+Con este cambio, la página de inicio de sesión ya no admite la personalización de marca.
+
 ### Página de búsqueda de contraseña restablecida actualizada
 
-**Versión preliminar: 15 de mayo de 2024; versión de producción: por anunciar**
+**Versión preliminar: 12 de mayo de 2024; versión de producción: 19 de mayo de 2025**
 
 Hemos actualizado la pantalla de restablecimiento de contraseña con un diseño más moderno que es coherente con otras áreas de Workfront. Esta actualización incluye actualizaciones para las siguientes páginas:
 
