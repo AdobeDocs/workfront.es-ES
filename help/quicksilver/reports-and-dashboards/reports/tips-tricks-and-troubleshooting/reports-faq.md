@@ -7,9 +7,9 @@ description: Preguntas frecuentes sobre informes
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 5e267d45-7922-4c0f-8530-59a8c152f625
-source-git-commit: 66fc75ed9a7fca4b44ac776c314a6e08a6fbd450
+source-git-commit: d68189272bd3f78de2d57b8393b44b698fa5db13
 workflow-type: tm+mt
-source-wordcount: '1494'
+source-wordcount: '1504'
 ht-degree: 88%
 
 ---
@@ -71,17 +71,27 @@ En un informe de proyecto tengo un cálculo que resta las horas reales de las pl
 
 Mi cálculo es:
 
-`valueexpression=SUB(workRequired,actualWorkRequiredDouble)`
+`valueexpression=SUB(workRequired,actualWorkRequired)`
 
 ### Respuesta
 
 La mayoría de los campos que utilizan horas en Workfront se almacenan en minutos. Cuando se utilizan estos campos en un cálculo, el resultado suele ser en minutos. Para obtener el resultado en horas, debe dividir el resultado del cálculo o del campo al que hace referencia por 60.
 
-Por ejemplo, las horas planificadas se almacenan en minutos, mientras que las horas reales se almacenan en horas. Como resultado, debe convertir las horas planificadas de minutos a horas.
+<!--For example, Planned Hours are stored in minutes, while Actual Hours are stored in hours. As a result, you must convert Planned Hours from minutes to hours. -->
 
 El cálculo correcto es:
 
-`valueexpression=SUB(workRequired/60,actualWorkRequiredDouble)`
+`valueexpression=SUB(workRequired,actualWorkRequired)/60`
+
+>[!NOTE]
+>
+>Si se refiere a horas reales en llamadas a la API, use `actualWorkRequiredDouble` para el campo de valor. Las horas reales en la API se almacenan en horas. Las horas planificadas se almacenan en minutos.
+>
+>El cálculo correcto en una llamada de API es:
+>>`valueexpression=SUB(workRequired/60,actualWorkRequiredDouble)`
+
+
+<!--when the actualWorkRequiredDouble is released to custom data in Workfront and not just the API, update the calculation above to this: `valueexpression=SUB(workRequired/60,actualWorkRequiredDouble)`; and take the note out -->
 
 ## ¿Por qué no se muestra en el gráfico el valor de cada uno de los elementos de mi gráfico en un informe?
 
