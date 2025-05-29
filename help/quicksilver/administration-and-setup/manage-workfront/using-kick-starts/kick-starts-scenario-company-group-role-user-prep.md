@@ -307,4 +307,4 @@ En las tablas siguientes se muestran los usuarios que se van a importar y varios
 > 
 >Si su organización se ha migrado a Adobe Admin Console y un usuario no abandona el estado Desactivado y Pendiente de aprobación en unos minutos, puede añadir el lote de usuarios directamente a Adobe Admin Console.
 >
->Para obtener instrucciones, consulte [Administrar varios usuarios | Carga masiva de CSV](https://helpx.adobe.com/enterprise/using/bulk-upload-users.html) en la documentación de Adobe.
+>Para obtener instrucciones, consulte [Administrar varios usuarios | Carga masiva de CSV](https://helpx.adobe.com/es/enterprise/using/bulk-upload-users.html) en la documentación de Adobe.
