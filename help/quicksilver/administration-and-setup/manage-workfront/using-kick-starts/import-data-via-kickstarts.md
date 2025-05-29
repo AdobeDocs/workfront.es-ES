@@ -9,14 +9,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 25813946-e338-4dd9-b02c-d20fa18c539c
-source-git-commit: 4c80802c8e0084aa9e7be350caefc8929c9c4e2b
+source-git-commit: 137d7112c051322c191488463e52abdd73e50d1f
 workflow-type: tm+mt
-source-wordcount: '2785'
-ht-degree: 97%
+source-wordcount: '2894'
+ht-degree: 91%
 
 ---
 
 # Importación de datos en Workfront mediante una plantilla de KickStart
+
+{{highlighted-preview}}
 
 <!--Audited: 12/2023-->
 
@@ -488,12 +490,19 @@ Para importar los datos de la hoja de cálculo de plantillas en Workfront:
 
 1. Haga clic en **Sistema** > **Importar datos (Kick-Starts)**.
 
-1. En la sección **Cargar datos con hoja de cálculo de Kick-Start**, haga clic en **Elegir archivo** y luego busque y seleccione la hoja de cálculo rellenada.
+1. En la sección **Cargar datos con hoja de cálculo de KickStart**, haga clic en **Elegir archivo**, busque y seleccione la hoja de cálculo rellenada.
 
-1. Haga clic en **Cargar.**
+   <div class="preview">
 
-   Si el archivo de Excel tarda más de 5 minutos en cargarse en Workfront, la aplicación agota el tiempo de espera y Workfront no puede cargar el archivo.
+   En el entorno de vista previa, el archivo se carga automáticamente y se muestra una notificación de que la importación se ha realizado correctamente.
 
-   Intente importar los datos en lotes de objetos más pequeños.
+   Si el archivo de Excel tarda más de 5 minutos en cargarse en Workfront, la aplicación agota el tiempo de espera y Workfront no puede cargar el archivo. Intente importar los datos en lotes de objetos más pequeños.
 
-1. (Condicional) Si utiliza Workfront Fusion, ahora puede activar los FLO o escenarios.
+   </div>
+
+1. (Solo en el entorno de producción) Haga clic en **Cargar**.
+
+   Si el archivo de Excel tarda más de 5 minutos en cargarse en Workfront, la aplicación agota el tiempo de espera y Workfront no puede cargar el archivo. Intente importar los datos en lotes de objetos más pequeños.
+
+1. (Condicional) Si la importación no se realizó correctamente, recibirá un mensaje de error que indica cuál es el problema. Intente identificar el campo, la hoja y el número de fila en los que se encontró el problema y corregir la información en el archivo de Excel. A continuación, intente importar el archivo una vez más.
+1. (Condicional) Si utiliza Workfront Fusion, ahora puede activar los FLO o escenarios cuando se complete la importación.

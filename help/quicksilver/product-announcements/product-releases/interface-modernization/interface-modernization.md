@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 2cf14ed7a4d96760c2c64ea8cca869ba5ba54c73
+source-git-commit: c5cf44d1e68aebdb5b61d2588a8cefc088b6d2a2
 workflow-type: tm+mt
-source-wordcount: '4043'
+source-wordcount: '4126'
 ht-degree: 2%
 
 ---
@@ -25,14 +25,13 @@ Para ver todos los demás cambios en Adobe Workfront, consulte [Versiones del pr
 
 ## Administración y configuración
 
-<!--
-### Interface updates for the Import Data (Kick-Starts) page
+### Actualizaciones de la interfaz de la página Importar datos (Kick-Starts)
 
-**Preview release: May 29, 2025; Production release: June 5, 2025**
+**Versión preliminar: 29 de mayo de 2025; versión de producción: 5 de junio de 2025**
 
-We have updated the Import Data (Kick-Starts) page in the Setup area with a more modern design that is consistent with other areas of Workfront. Also, the import process was streamlined so that the selected file is uploaded immediately. You no longer have to click a separate **Upload** button to complete the import after choosing the file.
+Hemos actualizado la página Importar datos (Kick-Starts) en el área de Configuración con un diseño más moderno y coherente con otras áreas de Workfront. Además, el proceso de importación de KickStart se optimizó para que el archivo seleccionado se cargue inmediatamente. Ya no tiene que hacer clic en un botón **Cargar** independiente para completar la importación después de elegir el archivo.
 
-For information, see [Import data into Workfront using a Kick-Start template](/help/quicksilver/administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).-->
+Para obtener más información, vea [Importar datos a Workfront mediante una plantilla de KickStart](/help/quicksilver/administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).
 
 ### Actualización de la interfaz de la pestaña Registro de acceso en la configuración
 
