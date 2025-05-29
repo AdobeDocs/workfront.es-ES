@@ -4,12 +4,11 @@ description: Mejoras en el hogar del tercer trimestre de 2025
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-hide: true
-hidefromtoc: true
-source-git-commit: fe2e7c5ad5d2d2f32d66f5dfd3e1fd69eca8ca92
+exl-id: 91789b7b-3aec-415c-a03d-e06d0c43a263
+source-git-commit: 75a8990a3bb75a0f8177b10d5e42bd6b4211f7f1
 workflow-type: tm+mt
-source-wordcount: '119'
-ht-degree: 29%
+source-wordcount: '130'
+ht-degree: 28%
 
 ---
 
@@ -21,7 +20,12 @@ Para obtener una lista de todos los cambios disponibles en este punto del ciclo 
 
 ## El widget de mis aprobaciones ahora se ordena automáticamente por plazo
 
+>[!NOTE]
+>
+>* Vista previa: viernes, 29 de mayo de 2025
+>* Versión rápida de producción: 12 de junio de 2025
+>* Producción para todos los clientes: 17 de julio de 2025
+
 Hemos actualizado el widget Mis aprobaciones en Inicio para ordenarlo por plazo (descendente) de forma predeterminada. Esto permite que las aprobaciones más urgentes aparezcan en la parte superior de la lista.
 
 Anteriormente, el widget ordenaba por fecha de entrada, lo que dificultaba la determinación de la prioridad.
-

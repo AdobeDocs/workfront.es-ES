@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 6761f5af-2501-4487-8114-2751f1e4fe69
-source-git-commit: 870e4130daf9924bf85b59eb09f7d548b8152096
+source-git-commit: 686db6004d1a64279080ab3ba311c172a6a24d1f
 workflow-type: tm+mt
-source-wordcount: '1165'
+source-wordcount: '1308'
 ht-degree: 3%
 
 ---
@@ -21,6 +21,30 @@ Este artículo describe las funciones que se lanzarán para Workfront Planning d
 <!--keep the sentence below for all future quarterly release pages-->
 
 Para obtener una lista de todas las características publicadas para Adobe Workfront Planning, consulte [Actividad de la versión de Adobe Workfront Planning: índice de artículo](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+
+## Filtros, columnas y campos adicionales añadidos a la pestaña Planificación en el área Solicitudes
+
+>[!NOTE]
+>
+>* Vista previa: viernes, 29 de mayo de 2025
+>* Versión rápida de producción: 12 de junio de 2025
+>* Producción para todos los clientes: 17 de julio de 2025
+
+Hemos agregado la siguiente funcionalidad a una lista de solicitudes en la pestaña Planificación del área Solicitudes:
+
+* Introducido por columna para indicar la persona que agregó una solicitud
+* Filtra para limitar el número de solicitudes que ve en la pestaña Planificación. Puede filtrar la lista por los siguientes elementos:
+
+   * la Workspace desde la que se originó el formulario de solicitud
+   * el tipo de registro asociado al formulario de solicitud
+   * la fecha de entrada de la solicitud
+   * el nombre del formulario de solicitud
+   * el estado de las solicitudes
+   * el nombre de la persona que introdujo la solicitud.
+
+* Control Columns para ver u ocultar campos (o columnas) en la lista de solicitudes de Planning.
+
+Para obtener más información, consulte [Enviar solicitudes de Adobe Workfront Planning para crear registros](/help/quicksilver/planning/requests/submit-requests.md).
 
 ## Nueva experiencia al desglosar registros en modo compacto en la vista de cronología
 
@@ -126,7 +150,7 @@ Antes de esta mejora, los usuarios con todos los niveles de licencia debían asi
 >[!NOTE]
 >
 >Este cambio será visible para todos los usuarios nuevos y existentes con una licencia de administrador del sistema y estándar.
->Los usuarios existentes asignados a una plantilla de diseño seguirán viendo todo según la configuración definida en la plantilla.
+>>Los usuarios existentes asignados a una plantilla de diseño seguirán viendo todo según la configuración definida en la plantilla.
 
 Para obtener más información, consulte [Descripción general de Adobe Workfront Planning](/help/quicksilver/planning/access/access-overview.md).
 
