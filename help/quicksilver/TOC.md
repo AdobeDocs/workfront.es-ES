@@ -3,9 +3,9 @@ user-guide-title: Guía de Workfront
 user-guide-description: Utilice los siguientes documentos, tutoriales y recursos adicionales para aprender a implementar y utilizar Adobe Workfront de forma eficaz en su organización.
 role: User
 feature-set: Workfront
-source-git-commit: ddd69533738865d09f35e290e545cfbae062c687
+source-git-commit: 779fc409d316e957a4cbec951047e41641b69863
 workflow-type: tm+mt
-source-wordcount: '13216'
+source-wordcount: '13220'
 ht-degree: 61%
 
 ---
@@ -188,7 +188,7 @@ ht-degree: 61%
          * [21.2 Mejoras de proyectos](product-announcements/product-releases/21.2-release-activity/21-2-project-enhancements.md)
          * [21.2 Solicitudes de mejoras](product-announcements/product-releases/21.2-release-activity/21-2-requests-enhancements.md)
          * [Mejoras en la administración de recursos de la versión 21.2](product-announcements/product-releases/21.2-release-activity/21-2-resource-management-enhancements.md)
-         * [21. 2 Mejoras en los informes](product-announcements/product-releases/21.2-release-activity/21-2-reporting-management-enhancements.md)
+         * [&#x200B;21. 2 Mejoras en los informes](product-announcements/product-releases/21.2-release-activity/21-2-reporting-management-enhancements.md)
          * [21.2 Mejoras de revisión](product-announcements/product-releases/21.2-release-activity/21-2-proofing-enhancements.md)
          * [21.2 Mejoras en la integración](product-announcements/product-releases/21.2-release-activity/21-2-integration-enhancements.md)
          * [21.2 Otras mejoras](product-announcements/product-releases/21.2-release-activity/21-2-other-enhancements.md)
@@ -254,7 +254,7 @@ ht-degree: 61%
          * Versión 20.4 {#release-20-4}
             * [Información general sobre la versión 20.4](product-announcements/product-releases/20.4-release-activity/20-4-release-overview.md)
             * [20.4 Mejoras en la administración de proyectos](product-announcements/product-releases/20.4-release-activity/20-4-project-mgt-enhancements.md)
-            * [20. 4 Mejoras de Analytics](product-announcements/product-releases/20.4-release-activity/20-4-analytics-enhancements.md)
+            * [&#x200B;20. 4 Mejoras de Analytics](product-announcements/product-releases/20.4-release-activity/20-4-analytics-enhancements.md)
             * [20.4 Mejoras en la administración de recursos](product-announcements/product-releases/20.4-release-activity/20-4-resource-mgt-enhancements.md)
             * [20.4 Mejoras de prueba](product-announcements/product-releases/20.4-release-activity/20-4-proof-enhancements.md)
             * [Mejoras en aplicaciones móviles e integración de la versión 20.4](product-announcements/product-releases/20.4-release-activity/20-4-mobile-enhancements.md)
@@ -802,6 +802,7 @@ ht-degree: 61%
    * [Glosario de terminología de Adobe Workfront](workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md)
    * [Requisitos del explorador para Adobe Workfront](workfront-basics/workfront-browser-requirements.md)
    * [Idiomas admitidos en Adobe Workfront](workfront-basics/supported-languages-in-workfront.md)
+   * [Preparación para HIPAA para Workfront](/help/quicksilver/workfront-basics/hipaa-readiness-for-workfront.md)
    * Navegar por Adobe Workfront {#navigate}
       * [Navegar por Adobe Workfront: índice de artículos](workfront-basics/navigate-workfront/navigate-workfront.md)
       * Búsqueda de Adobe Workfront {#search}
