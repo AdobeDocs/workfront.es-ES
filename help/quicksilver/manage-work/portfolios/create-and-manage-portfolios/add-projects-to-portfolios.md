@@ -6,10 +6,10 @@ description: Le recomendamos que cuando inicie proyectos, los añada a un portaf
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 97f36c18-3ac8-45ac-b5bc-dfe8b1363faf
-source-git-commit: 05512c4cfdc094e90abea471b5356337955119be
+source-git-commit: 78b4724ca8d5df15ed76e9e882179e3cb127282c
 workflow-type: tm+mt
-source-wordcount: '468'
-ht-degree: 70%
+source-wordcount: '417'
+ht-degree: 75%
 
 ---
 
@@ -17,9 +17,9 @@ ht-degree: 70%
 
 <!--Audited: 5/2025-->
 
-<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Las mismas funciones también estarán disponibles en el entorno de producción para todos los clientes una semana después de la versión de vista previa. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release. </span>   
 
-<span class="preview">Para obtener más información, vea [Modernización de la interfaz](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). </span>
+<span class="preview">For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). </span>-->
 
 Le recomendamos que cuando inicie proyectos, los añada a un portafolio. Sin embargo, puede añadirlos a un portafolio en cualquier momento durante su vida útil.
 
@@ -104,9 +104,9 @@ Al añadir proyectos a un portafolio, tenga en cuenta lo siguiente:
 
    ![Nuevo menú desplegable de proyecto](assets/new-project-dropdown-expanded-from-portfolio-nwe-350x376.png)
 
-1. (Condicional) Si ha seleccionado agregar un proyecto existente, se abrirá el cuadro <span class="preview">**Agregar proyectos**.</span> <!--check this after UI changes-->
+1. (Condicional) Si ha seleccionado agregar un proyecto existente, se abrirá el cuadro **Agregar proyectos**. <!--check this after UI changes-->
 
-   <span class="preview">![Agregar proyecto existente](assets/add-existing-projects-to-portfolios-box.png)</span> <!--check this after UI changes-->
+   ![Agregar proyecto existente](assets/add-existing-projects-to-portfolios-box.png) <!--check this after UI changes-->
 
 1. Empiece a escribir el nombre de un proyecto en el campo **[!UICONTROL Agregar proyectos a este Portfolio]** y, a continuación, haga clic en ellos cuando aparezcan en la lista.  <!--check this after UI changes-->
 

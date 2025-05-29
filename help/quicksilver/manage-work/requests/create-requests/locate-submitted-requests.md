@@ -8,16 +8,18 @@ feature: Requests
 topic: Collaboration
 role: User
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
-source-git-commit: 6311526ddf9143c4a979d8bbac96312a3b0e8151
+source-git-commit: 78b4724ca8d5df15ed76e9e882179e3cb127282c
 workflow-type: tm+mt
-source-wordcount: '949'
-ht-degree: 86%
+source-wordcount: '1022'
+ht-degree: 81%
 
 ---
 
 # Localizar solicitudes enviadas
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span>-->
+<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después de las versiones mensuales en Production, las mismas funciones también están disponibles en el entorno Production para los clientes que habilitaron versiones rápidas. </span>
+
+<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 Puede localizar los siguientes tipos de solicitudes que ha enviado u otra persona ha enviado, o solicitudes que ha iniciado pero que nunca ha terminado de enviar. Puede localizar estas solicitudes en las siguientes áreas de Adobe Workfront:
 
@@ -166,7 +168,7 @@ Para localizar solicitudes que ha enviado u otros usuarios han enviado:
      </tr> 
      <tr> 
       <td role="rowheader">Mis solicitudes abiertas</td> 
-      <td> <p>Solicitudes que ha enviado que aún están abiertas. </p> <p>Las solicitudes sin fecha de finalización real o cuyo objeto de resolución no tenga una fecha de finalización real se muestran en la subpestaña Mis solicitudes abiertas. </p> <p><b>Sugerencia</b>
+      <td> <p>Solicitudes que ha enviado que aún están abiertas. </p> <p>Las solicitudes sin fecha de finalización real o cuyo objeto de resolución no tenga una fecha de finalización real se muestran en la subpestaña Mis solicitudes abiertas. </p> <p><b>Sugerencia</b>
 
    Las solicitudes que no están en un estado equivalente a Cerrado se consideran abiertas.</p> </td>
    </tr> 
@@ -176,13 +178,13 @@ Para localizar solicitudes que ha enviado u otros usuarios han enviado:
 1. (Opcional) Haga clic en el icono **Filtrar página** ![](assets/search-icon.png) en la parte superior de la lista para buscar una solicitud por su nombre. La lista se actualiza con los resultados que coinciden con los criterios de búsqueda.
 
    <!--
-   <li value="9" data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p>Click the&nbsp;<strong>Complete</strong> subtab to view requests that have been completed.</p> <p>(NOTE: this step will stay drafted even after release. We can't see Completed at this time!) <br>Requests with an Actual Completion Date or whose resolving object has an Actual Completion Date are listed in the Complete subtab.<br>Once a request receives an Actual Completion Date, it stays in the Recently Completed area for 10 business days. After that, it is moved to the Completed area. <br>For information about resolving and resolvable objects, see the article <a href="../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md" class="MCXref xref">Overview of Resolving and Resolvable Objects </a>.</p> </li>
+   <li value="9" data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p>Click the <strong>Complete</strong> subtab to view requests that have been completed.</p> <p>(NOTE: this step will stay drafted even after release. We can't see Completed at this time!) <br>Requests with an Actual Completion Date or whose resolving object has an Actual Completion Date are listed in the Complete subtab.<br>Once a request receives an Actual Completion Date, it stays in the Recently Completed area for 10 business days. After that, it is moved to the Completed area. <br>For information about resolving and resolvable objects, see the article <a href="../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md" class="MCXref xref">Overview of Resolving and Resolvable Objects </a>.</p> </li>
    -->
 
    <!--
-   <li value="10" data-mc-conditions="QuicksilverOrClassic.Draft mode">(Optional) Select an option from the <strong>Sort by</strong> drop-down menu to sort the requests by the following criteria:&nbsp; &nbsp;(NOTE:&nbsp;this step will stay drafted even after release. We can't see Completed at this time!) &nbsp;
+   <li value="10" data-mc-conditions="QuicksilverOrClassic.Draft mode">(Optional) Select an option from the <strong>Sort by</strong> drop-down menu to sort the requests by the following criteria:   (NOTE: this step will stay drafted even after release. We can't see Completed at this time!)  
    <ul>
-   <li><strong>Assigned To</strong>: Requests are sorted alphabetically by the name of the assignee using the following criteria:&nbsp;
+   <li><strong>Assigned To</strong>: Requests are sorted alphabetically by the name of the assignee using the following criteria: 
    <ul>
    <li>All requests assigned to users are sorted first, in the order of the users' names.</li>
    <li>Requests assigned to job roles are sorted secondly, in the order of the job roles' names and are listed after all the requests assigned to users.</li>
@@ -191,10 +193,10 @@ Para localizar solicitudes que ha enviado u otros usuarios han enviado:
    </ul></li>
    <li><strong>Submitted On</strong>: Requests are sorted chronologically by the date when they were submitted.</li>
    <li><strong>Recently Updated</strong> (this is the default): Requests are sorted chronologically by the date of their last update.</li>
-   <li><strong>Name</strong>: Requests are sorted alphabetically by name.&nbsp;</li>
+   <li><strong>Name</strong>: Requests are sorted alphabetically by name. </li>
    <li><strong>Priority</strong>: Requests are sorted in the order of their priority.</li>
-   <li><strong>Queue</strong>: Requests are sorted alphabetically by the name of the requests queue where they were submitted.&nbsp;</li>
-   <li><strong>Status</strong>: Requests are sorted alphabetically by their status.&nbsp;</li>
+   <li><strong>Queue</strong>: Requests are sorted alphabetically by the name of the requests queue where they were submitted. </li>
+   <li><strong>Status</strong>: Requests are sorted alphabetically by their status. </li>
    </ul></li>
    -->
 
@@ -202,12 +204,10 @@ Para localizar solicitudes que ha enviado u otros usuarios han enviado:
 
 1. (Opcional y condicional) Si su organización compró un paquete de Workfront Planning, haga clic en la pestaña **Planning** y, a continuación, haga clic en **Enviado** en el panel izquierdo para ver las solicitudes de Workfront Planning.
 
-   ![](assets/workfront-planning-tab-submitted-section-in-requests-area.png)
+   <span class="preview">Use **Filtros** y **Columnas** para actualizar la información en la lista de solicitudes de Planning. </span>
+
+   <span class="preview">![](assets/workfront-planning-tab-submitted-section-in-requests-area.png)</span>
 
    Para obtener más información, consulte [Enviar solicitudes de Adobe Workfront Planning para crear registros](/help/quicksilver/planning/requests/submit-requests.md).
 
- 
 
- 
-
- 

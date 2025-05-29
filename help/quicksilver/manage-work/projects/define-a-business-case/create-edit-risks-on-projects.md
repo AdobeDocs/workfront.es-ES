@@ -6,10 +6,10 @@ description: Los riesgos son eventos posibles o factores que impiden que un proy
 author: Alina
 feature: Work Management
 exl-id: 6125c477-c0d8-43b4-88d8-35b0c2412468
-source-git-commit: 05512c4cfdc094e90abea471b5356337955119be
+source-git-commit: 78b4724ca8d5df15ed76e9e882179e3cb127282c
 workflow-type: tm+mt
-source-wordcount: '1131'
-ht-degree: 62%
+source-wordcount: '1080'
+ht-degree: 64%
 
 ---
 
@@ -17,9 +17,9 @@ ht-degree: 62%
 
 <!--Audited: 01/2025-->
 
-<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Las mismas funciones también estarán disponibles en el entorno de producción para todos los clientes una semana después de la versión de vista previa. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release. </span>   
 
-<span class="preview">Para obtener más información, vea [Modernización de la interfaz](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). </span>
+<span class="preview">For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). </span>-->
 
 Los riesgos son eventos posibles o factores que impiden que un proyecto finalice a tiempo o dentro del presupuesto. Puede registrar los riesgos como parte de la creación del caso empresarial de un proyecto o utilizando la pestaña Riesgos.
 
@@ -117,9 +117,9 @@ Puede crear y editar riesgos en la sección Riesgos de un proyecto o una plantil
 
    Haga clic en **Nuevo riesgo**.
 
-   <span class="preview">Se abre el cuadro **Nuevo riesgo**.</span>
+   Se abre el cuadro **Nuevo riesgo**.
 
-   <span class="preview">![Nuevo cuadro de riesgo](assets/new-risk-box.png)</span>
+   ![Nuevo cuadro de riesgo](assets/new-risk-box.png)
 
 1. (Condicional) Si agrega un riesgo en el cuadro **Nuevo riesgo**, escriba la siguiente información:
 
@@ -175,7 +175,7 @@ Para editar riesgos:
    * **Costo real**: indique el costo real del riesgo si éste se produjo.
    * **Plan de mitigación**: actualice la descripción del plan para mitigar el riesgo.
 
-1. <span class="preview">Haga clic en **Guardar**.</span>
+1. Haga clic en **Guardar**.
 1. (Opcional) Edite el **Estado** de un riesgo en el menú desplegable **Estado** al aplicar la vista **Estándar** para la lista de riesgos.
 
    >[!NOTE]

@@ -8,10 +8,10 @@ author: Lisa, Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 89c9b450-72a6-4b72-98d1-22956696543a
-source-git-commit: 05512c4cfdc094e90abea471b5356337955119be
+source-git-commit: 78b4724ca8d5df15ed76e9e882179e3cb127282c
 workflow-type: tm+mt
-source-wordcount: '781'
-ht-degree: 70%
+source-wordcount: '730'
+ht-degree: 73%
 
 ---
 
@@ -21,9 +21,9 @@ ht-degree: 70%
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
 
-<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Las mismas funciones también estarán disponibles en el entorno de producción para todos los clientes una semana después de la versión de vista previa. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release. </span>   
 
-<span class="preview">Para obtener más información, vea [Modernización de la interfaz](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). </span>
+<span class="preview">For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). </span>-->
 
 Un cuadro de resultados mide en qué medida un proyecto se ajusta a los criterios previamente establecidos de un portafolio. Un cuadro de resultados suele reflejar la misión, los valores y las metas estratégicas de una organización.
 
@@ -73,9 +73,9 @@ Debe tener el siguiente acceso:
 
 1. Haga clic en **[!UICONTROL Cuadros de resultados]** y luego haga clic en **[!UICONTROL Nuevo cuadro de resultados]**.
 
-   <span class="preview">Se abre el cuadro de diálogo **Nuevo cuadro de mandos**.</span>
+   Se abre el cuadro de diálogo **Nueva tarjeta de puntuación**.
 
-   <span class="preview">![Nuevo cuadro de mandos](assets/new-scorecard-350x173.png)</span>
+   ![Nuevo cuadro de mandos](assets/new-scorecard-350x173.png)
 
 1. Especifique un **[!UICONTROL Nombre de cuadro de resultados]** y una **[!UICONTROL Descripción]**.
 
@@ -126,9 +126,9 @@ Puede crear un informe de valoración copiando y editando uno existente.
 1. Haga clic en **[!UICONTROL Cuadros de resultados]** en el panel izquierdo.
 1. Seleccione un informe de valoración en la lista y, a continuación, haga clic en el icono **Copiar** ![Copiar icono de informe de valoración](assets/copy-scorecard-icon.png) que se encuentra en la parte superior de la lista.
 
-   <span class="preview">Se abre el cuadro de diálogo **Copiar informe de valoración**.</span>
+   Se abre la casilla **Copiar informe de valoración**.
 
-   <span class="preview">![Copiar cuadro de mandos](assets/copy-scorecard-box.png)</span>
+   ![Copiar cuadro de mandos](assets/copy-scorecard-box.png)
 
 1. Especifique la siguiente información:
 

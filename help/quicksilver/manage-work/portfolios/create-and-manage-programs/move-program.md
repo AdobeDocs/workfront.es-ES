@@ -6,10 +6,10 @@ description: Puede añadir programas existentes a un portafolio. Como los progra
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 73dbe277-12d2-4041-8a02-91ccf5f8b465
-source-git-commit: 05512c4cfdc094e90abea471b5356337955119be
+source-git-commit: 78b4724ca8d5df15ed76e9e882179e3cb127282c
 workflow-type: tm+mt
-source-wordcount: '310'
-ht-degree: 57%
+source-wordcount: '259'
+ht-degree: 63%
 
 ---
 
@@ -17,9 +17,9 @@ ht-degree: 57%
 
 <!--Audited: 5/2025-->
 
-<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Las mismas funciones también estarán disponibles en el entorno de producción para todos los clientes una semana después de la versión de vista previa. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release. </span>   
 
-<span class="preview">Para obtener más información, vea [Modernización de la interfaz](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). </span>
+<span class="preview">For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). </span>-->
 
 Puede añadir programas existentes a un portafolio. Como los programas no pueden existir en dos portafolios diferentes, al añadir un programa existente se mueve permanentemente de un portafolio a otro.
 
@@ -62,9 +62,9 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 1. Haga clic en **[!UICONTROL Nuevo programa]**.
 1. Haga clic en **[!UICONTROL Existing Program]**.
 
-   <span class="preview">Se abre el cuadro **Agregar programas**.</span> <!--check screen shot - I logged changes for this casing-->
+   Se abre el cuadro **Agregar programas**. <!--check screen shot - I logged changes for this casing-->
 
-   <span class="preview">![Agregar cuadro de programa](assets/add-programs-box.png)</span>
+   ![Agregar cuadro de programa](assets/add-programs-box.png)
 
    >[!IMPORTANT]
    >
@@ -74,7 +74,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
    Puede agregar varios programas.
 
-1. (Opcional) Si decide no agregarlo al portafolio, haga clic en el icono <span class="preview">**Eliminar** ![Eliminar icono](assets/delete-icon.png)</span> que está junto al nombre de un programa.
+1. (Opcional) Si decide no agregarlo al portafolio, haga clic en el icono **Eliminar** ![Eliminar icono](assets/delete-icon.png) que está junto al nombre de un programa.
 
 1. Haga clic en **[!UICONTROL Agregar programas]**. <!--check this button in the UI after they implemented the changes??-->
 
