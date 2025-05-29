@@ -7,9 +7,9 @@ feature: Get Started with Workfront
 author: Courtney
 hide: true
 hidefromtoc: true
-source-git-commit: 779fc409d316e957a4cbec951047e41641b69863
+source-git-commit: a984038eea41d249cb0ad0d2ec6ba47025c56a65
 workflow-type: tm+mt
-source-wordcount: '470'
+source-wordcount: '473'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # Preparación para HIPAA para Workfront
 
-Un cliente de Workfront que, según se define en HIPAA, es **Asociado empresarial** y/o **Entidad cubierta** en cuyo nombre el Asociado empresarial proporciona Adobe Workfront debe utilizar las siguientes directrices para configurar Workfront para el uso compatible con HIPAA:
+Un cliente de Workfront que, tal como se define en la HIPAA, es un socio comercial y/o la entidad cubierta en cuyo nombre el socio comercial proporciona Adobe Workfront debe utilizar las siguientes directrices para configurar Workfront para el uso compatible con HIPAA:
 
 
 ## Requisitos de contraseña
@@ -30,19 +30,19 @@ Un cliente de Workfront que, según se define en HIPAA, es **Asociado empresaria
 | Historial de contraseñas | ¿Cuántas contraseñas pasadas deben recordarse y no permitirse? | No menos de 5 |
 
 
-## Requisitos de inicio
+## Requisitos de inicio de sesión
 
 | **Configuración de seguridad** | **¿Qué Es?** | **Requisito** |
 |----------------------|------------------|------------------|
 | Máximo de errores de inicio de sesión | ¿Cuántos intentos de inicio de sesión erróneos hacen que el usuario esté bloqueado? | No más de 5 intentos dentro de un período de 5 minutos; se permiten reintentos pasados 30 minutos |
-| Máximo de errores de verificación de SSO | ¿Cuántos intentos de verificación de SSO fallidos causan bloqueo? | No más de 5 (se aplica solo a los clientes que utilizan SSO) |
+| Máximo de errores de verificación de SSO | ¿Cuántos intentos de verificación de SSO fallidos causan un bloqueo? | No más de 5 (se aplica solo a los clientes que utilizan SSO) |
 
 
 ## Requisitos de sesión
 
 | **Configuración de seguridad** | **¿Qué Es?** | **Requisito** |
 |----------------------|------------------|------------------|
-| Tiempo de espera de sesión | ¿Cuántos minutos de inactividad provocan el cierre de sesión? | No más de 15 minutos |
+| Tiempo de espera de sesión | ¿Cuántos minutos de inactividad provocan un cierre de sesión? | No más de 15 minutos |
 
 ## Responsabilidades del cliente
 
@@ -57,7 +57,7 @@ En particular, deben revisarse y comunicarse las siguientes responsabilidades y 
 * Cualquier dato sensible, incluyendo, pero no limitado a ePHI, se carga bajo el propio riesgo del cliente.  El cliente es en todo momento responsable de todos los datos del cliente. 
 
 
-## Protección de datos y cumplimiento
+## Protección de datos y cumplimiento normativo
 
 >[!IMPORTANT]
 >
