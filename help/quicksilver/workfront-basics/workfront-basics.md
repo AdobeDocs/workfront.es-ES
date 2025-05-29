@@ -3,14 +3,15 @@ content-type: reference
 navigation-topic: get-started-with-workfront
 title: 'Conceptos básicos de Adobe Workfront: índice de artículos'
 description: Revise estas áreas para comprender los conceptos básicos de Adobe Workfront y aprender a realizar funciones básicas, como usar el área de Inicio o Prioridades, administrar el perfil de su cuenta, utilizar el asistente de IA o comprender cuáles son los requisitos del explorador y los idiomas compatibles. Consulte el glosario de Workfront para conocer la terminología común de Workfront.
+short-description: Comprenda los conceptos básicos de Adobe Workfront y aprenda a realizar funciones básicas.
 author: Nolan
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: c0b25ec2-38a5-4499-9366-be3b71ae62a2
-source-git-commit: 00e58ea9a207037b701e1be010c2c4c2995d60e0
+source-git-commit: 0c76cf9ebadaeabee55939969d59ea16d69ed328
 workflow-type: tm+mt
-source-wordcount: '192'
-ht-degree: 4%
+source-wordcount: '205'
+ht-degree: 59%
 
 ---
 
