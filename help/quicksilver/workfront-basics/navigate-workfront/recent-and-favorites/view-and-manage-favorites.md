@@ -4,20 +4,24 @@ navigation-topic: recent-and-favorites
 title: Ver y administrar favoritos
 description: El menú Favoritos le permite tener acceso rápidamente a los elementos. Los elementos permanecen en el menú Favoritos hasta que los quite. Puede tener hasta 40 elementos en el menú Favoritos.
 feature: Get Started with Workfront
-author: Lisa
+author: Courtney
 exl-id: bf9dc447-751c-4802-9e6a-ecd31538dba4
-source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
+source-git-commit: a9dbfe21337be9cd9929f4e982e4979265ca14e1
 workflow-type: tm+mt
-source-wordcount: '398'
-ht-degree: 78%
+source-wordcount: '382'
+ht-degree: 71%
 
 ---
 
 # Ver y administrar favoritos
 
+<!-- Audited: 5/2025 -->
+
 El menú [!UICONTROL Favorites] le permite tener acceso a los elementos rápidamente. Los elementos permanecerán en el menú [!UICONTROL Favorites] hasta que los quite. Puede tener hasta 40 elementos en el menú Favoritos.
 
 ## Requisitos de acceso
+
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
 Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
@@ -28,25 +32,30 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licencia*</strong></td> 
-   <td> <p>[!UICONTROL Request] o superior</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] licencia</td> 
+   <td> <p>
+      <p>Nuevo: colaborador o superior<p>
+      <p>O</p>
+      <p>Actual: solicitud o superior</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qué plan o tipo de licencia tiene, póngase en contacto con su administrador de [!DNL Workfront].
+Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Ver un favorito
 
 Para ver un elemento que haya añadido anteriormente como favorito:
 
-1. Haga clic en el icono **[!UICONTROL Favoritos]** ![Favoritos](assets/favorites-icon.png) en la esquina superior derecha de cualquier página de [!DNL Adobe Workfront].
+1. Haga clic en el icono **[!UICONTROL Favoritos]** ![Icono de favoritos](assets/favorites-icon.png) en la esquina superior derecha de cualquier página de [!DNL Adobe Workfront].
 
-1. En la lista [!UICONTROL Favorites], haga clic en el elemento que desea ver.
+1. En la lista **Favorites**, haga clic en el elemento que desea ver.
 
 ## Añadir un elemento como favorito
 
@@ -57,27 +66,17 @@ Puede añadir elementos recientes o la página actual al menú [!UICONTROL Favor
 
 ### Añadir elementos recientes como favoritos
 
-1. Haga clic en el icono **[!UICONTROL Recents]** ![[!UICONTROL Recents]](assets/recents-icon-40x43.png) en la esquina superior derecha de cualquier página en la nueva experiencia de [!DNL Adobe Workfront].
-1. Pase el puntero por encima del elemento más reciente que quiera guardar como favorito y luego haga clic en la estrella.
+1. Haga clic en el icono **[!UICONTROL Recientes]** ![Icono Recientes](assets/recents-icon-40x43.png) en la esquina superior derecha de cualquier página en la nueva experiencia [!DNL Adobe Workfront].
+1. Haga clic en la estrella en línea con el elemento que desee guardar como favorito. El elemento más reciente aparece en el menú **Favorites**.
 
-   El elemento más reciente aparece en el menú [!UICONTROL Favorites].
-
-   Haga clic en la X de la parte superior derecha para cerrar la lista.
-
-   ![Marcar como favorito un elemento reciente](assets/favorite-recent-item-2022-350x375.png)
+   ![Marcar como favorito un elemento reciente](assets/recents-section.png)
 
 ### Añadir el elemento actual como favorito
 
 1. Vaya a la página que desee añadir como favorita.
-1. Haga clic en el icono **[!DNL Favorites]** ![Favoritos](assets/favorites-icon.png) en la esquina superior derecha de cualquier página de [!DNL Workfront] y, a continuación, haga clic en **[!UICONTROL Agregar página actual]**.
+1. Haga clic en el icono **[!DNL Favorites]** ![Favoritos](assets/favorites-icon.png) en la esquina superior derecha de la página y, a continuación, haga clic en **[!UICONTROL Agregar página actual]**.
 
-   ![Añadir página actual a favoritos](assets/add-current-page-favorite-2022-350x147.png)
-
-   Haga clic en la X de la parte superior derecha para cerrar la lista.
-
-   O
-
-   Haga clic en el icono **[!UICONTROL Favoritos]** ![Favoritos](assets/favorites-icon.png) a la derecha del nombre del objeto.
+   ![Añadir página actual a favoritos](assets/add-current-page.png)
 
    >[!NOTE]
    >
@@ -86,10 +85,10 @@ Puede añadir elementos recientes o la página actual al menú [!UICONTROL Favor
 
 ## Quitar un elemento del menú [!UICONTROL Favorites]
 
-1. Haga clic en el icono **[!UICONTROL Favoritos]** ![Favoritos](assets/favorites-icon.png) en la esquina superior derecha de cualquier página de [!DNL Workfront].
+1. Haga clic en el icono **[!UICONTROL Favoritos]** ![Icono de favoritos](assets/favorites-icon.png) en la esquina superior derecha de cualquier página de [!DNL Workfront].
 
 1. Pase el puntero por encima del elemento que quiera eliminar como favorito y luego haga clic en la **X** que está al lado.
 
    O
 
-   Si se encuentra en la página que desea quitar como favorita, haga clic en el icono **[!UICONTROL Favoritos]** ![Favoritos](assets/favorites-icon.png) que está junto al nombre del objeto para quitarlo del menú Favoritos.
+   Si se encuentra en la página que desea quitar como favorita, haga clic en el icono **[!UICONTROL Favoritos]** ![Icono de favoritos](assets/remove-favorite-icon.png) junto al nombre del objeto para quitarlo del menú **Favoritos**.

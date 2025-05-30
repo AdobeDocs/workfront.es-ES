@@ -5,14 +5,16 @@ description: Puede localizar fácilmente elementos en  [!DNL Adobe Workfront]  b
 feature: Get Started with Workfront
 author: Lisa
 exl-id: 7c856349-c79f-40d8-9c96-b32bfb6d5417
-source-git-commit: b04d09d1244a7d7abef8aaddb62dbdf7124bfde8
+source-git-commit: a9dbfe21337be9cd9929f4e982e4979265ca14e1
 workflow-type: tm+mt
-source-wordcount: '1673'
-ht-degree: 77%
+source-wordcount: '1569'
+ht-degree: 63%
 
 ---
 
 # Buscar [!DNL Adobe Workfront]
+
+<!-- Audited: 5/2025 -->
 
 Puede localizar fácilmente elementos en [!DNL Adobe Workfront] buscándolos cuando no pueda recordar su ubicación exacta.
 
@@ -31,32 +33,34 @@ Debe tener permisos para ver un objeto antes de poder encontrarlo en una búsque
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licencia*</strong></td> 
-   <td> <p>Solicitud o superior</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] licencia</td> 
+   <td> <p>Nuevo: colaborador o superior<p>
+   <p>O</p>
+   <p>Actual: solicitud o superior </p>
+
+
+</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Configuraciones de nivel de acceso*</strong></td> 
+   <td role="rowheader">Configuraciones de nivel de acceso</td> 
    <td> <p>Acceso de [!UICONTROL View] al tipo de objeto </p> <p>Nota: Si todavía no tiene acceso, pregunte al administrador de [!DNL Workfront] si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de [!DNL Workfront] puede modificar su nivel de acceso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Permisos de objeto</strong></td> 
+   <td role="rowheader">Permisos de objeto</td> 
    <td> <p>Debe tener permisos para ver un objeto antes de poder encontrarlo en una búsqueda.</p> <p>Para obtener información sobre cómo solicitar acceso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a los objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de [!DNL Workfront].
+Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Comprender la búsqueda
-
-* [[!UICONTROL Objetos disponibles para la búsqueda]](#objects-available-for-search)
-* [[!UICONTROL Campos disponibles para la búsqueda]](#fields-available-for-search)
 
 ### Objetos disponibles para la búsqueda
 
@@ -87,11 +91,11 @@ Los campos disponibles para la búsqueda se basan en el tipo de búsqueda: Bási
    * Actualizaciones
    * Nombres de documentos (en búsquedas de documentos específicas y en una búsqueda básica)
 
-  Para obtener más información acerca de la búsqueda básica en [!DNL Workfront], vea [Búsqueda básica](#basic-search) en este artículo.
+  Para obtener más información acerca de la búsqueda básica en [!DNL Workfront], vea la siguiente sección en este artículo: [Búsqueda básica](#basic-search).
 
 * **[!UICONTROL Búsqueda avanzada]**: en una [!UICONTROL Búsqueda avanzada], puede configurar filtros para buscar campos que no estén disponibles en la Búsqueda básica. Por lo tanto, [!UICONTROL Búsqueda avanzada] le permite buscar en cualquier campo del objeto.
 
-  Para obtener más información sobre [!UICONTROL Búsqueda avanzada], consulte [Búsqueda avanzada](#advanced-search) en este artículo.
+  Para obtener más información acerca de [!UICONTROL Búsqueda avanzada], vea la siguiente sección en este artículo: [Búsqueda avanzada](#advanced-search).
 
 >[!NOTE]
 >
@@ -101,9 +105,9 @@ Los campos disponibles para la búsqueda se basan en el tipo de búsqueda: Bási
 
 Tenga en cuenta las siguientes limitaciones al usar [!UICONTROL Search] en [!DNL Workfront]:
 
-* Las búsquedas no distinguen entre mayúsculas y minúsculas
-* [!DNL Workfront] no corrige ni comprende errores tipográficos
-* La búsqueda en [!DNL Workfront] no admite caracteres comodín
+* Las búsquedas no distinguen entre mayúsculas y minúsculas.
+* [!DNL Workfront] no corrige ni comprende errores tipográficos.
+* La búsqueda en [!DNL Workfront] no admite caracteres comodín.
 * La búsqueda de [!DNL Workfront] admite búsquedas parciales de palabras, pero no admite búsquedas de subcadenas.\
    Por ejemplo, la palabra clave de búsqueda “stand” devolverá resultados que incluyan la palabra “standard”, pero no los resultados que incluyan la palabra “understand”.
 
@@ -158,7 +162,7 @@ Sin embargo, puede hacer lo siguiente en el cuadro [!UICONTROL Search] para ajus
 
 ## Usar la búsqueda en [!DNL Workfront]
 
-[!DNL Workfront] presenta dos tipos de búsquedas: básica y avanzada. Utilice la búsqueda básica si desea buscar palabras clave en campos de objeto comunes, como nombre o descripción. Use [!UICONTROL Búsqueda avanzada] si desea usar filtros para buscar otros campos de objeto.
+[!DNL Workfront] presenta dos tipos de búsquedas: Básicas y Avanzadas. Utilice la búsqueda básica si desea buscar palabras clave en campos de objeto comunes, como nombre o descripción. Use [!UICONTROL Búsqueda avanzada] si desea usar filtros para buscar otros campos de objeto.
 
 * [Búsqueda básica](#basic-search)
 * [Búsqueda avanzada](#advanced-search)
@@ -167,7 +171,7 @@ Sin embargo, puede hacer lo siguiente en el cuadro [!UICONTROL Search] para ajus
 
 Una búsqueda básica le permite buscar palabras clave en todos los objetos del sistema o en un solo objeto a la vez (como proyectos). [!DNL Workfront] entonces busca esas palabras clave en algunos campos específicos. Puede restringir los resultados de búsqueda basándose en otros campos específicos de objetos seleccionados por [!DNL Workfront].
 
-Para obtener una lista de los campos específicos buscados en la búsqueda básica, consulte [Campos disponibles para la búsqueda](#fields-available-for-search) en este artículo.
+Para obtener una lista de los campos específicos buscados en la búsqueda básica, consulte la siguiente sección en este artículo: [Campos disponibles para la búsqueda](#fields-available-for-search).
 
 >[!NOTE]
 >
@@ -185,14 +189,14 @@ Puede realizar una búsqueda básica de cualquiera de estas formas:
 
 Para realizar una búsqueda básica:
 
-1. Haga clic en la lupa ![Icono de búsqueda](assets/search-icon.png) en la esquina superior derecha de la página. También puede escribir **[!UICONTROL ALT + /]** u **[!UICONTROL Option + /]** para abrir el menú [!UICONTROL Search].
+1. Haga clic en la lupa ![Icono de búsqueda](assets/search-icon.png) en la esquina superior derecha de la página.
 
 1. (Opcional) Para buscar un objeto específico, haga clic en el menú desplegable **[!UICONTROL All]** y seleccione el objeto que desee buscar.
 
    ![Buscar por tipo de objeto](assets/search-objecttype.png)
 
 1. En el cuadro **[!UICONTROL Buscar]**, empiece a escribir la información que está buscando.
-Para obtener información sobre qué campos se buscan en [!DNL Workfront], consulte [Comprender la búsqueda](#understand-search).
+Para obtener información sobre los campos que se buscan en [!DNL Workfront], consulte la siguiente sección en este artículo: [Comprender la búsqueda](#understand-search).
    ![Menú desplegable de búsqueda](assets/qs-search-drop-down-highlighted-350x234.png)
 
    A medida que se empieza a escribir en la barra de búsqueda, [!DNL Workfront] hace recomendaciones basadas en el historial de visualización y resalta en azul la palabra clave que se busca.
@@ -201,9 +205,7 @@ Para obtener información sobre qué campos se buscan en [!DNL Workfront], consu
 
    O
 
-   Pulse **[!UICONTROL Enter]** para realizar una búsqueda completa. Esta búsqueda consulta toda la base de datos en lugar de los artículos vistos más recientemente.
-
-   La página [!UICONTROL Search Results] se abre deslizándose desde la izquierda y cubre la mayor parte de la página anterior.
+   Presione Intro (Mac) o [!UICONTROL Intro] (Windows) en el teclado para realizar una búsqueda exhaustiva. Esta búsqueda consulta toda la base de datos en lugar de los elementos vistos más recientemente y abre la página **Buscar**.
 
    Si ha realizado una búsqueda general, [!DNL Workfront] devuelve los resultados de cualquier objeto que coincida con el término de búsqueda en cualquiera de los campos buscados, tal como se describe en [Comprender la búsqueda](#understand-search). Los objetos que coinciden con la búsqueda se muestran en una lista.
 
@@ -213,25 +215,18 @@ Para obtener información sobre qué campos se buscan en [!DNL Workfront], consu
    >Por ejemplo, si busca “comercialización”, se muestran objetos cuyo nombre contiene “comercialización” o “comercio”.
 
 1. (Opcional) Si la búsqueda generó demasiados resultados, refine la búsqueda como se describe en [Refinar una búsqueda básica](#refine-a-basic-search).
-1. (Opcional) Para volver a la página en la que se encontraba antes de la búsqueda, haga clic en **[!UICONTROL Close]** en la esquina superior derecha.
-
->[!NOTE]
->
->La página [!UICONTROL Search Results] solo permanece abierta cuando está enfocada. Si hace clic fuera de la página o abre otra, la página [!UICONTROL Search Results] se cerrará.
 
 #### Restringir una búsqueda básica
 
-Después de realizar una búsqueda básica (como se describe en [[!UICONTROL Realizar una búsqueda básica]](#perform-a-basic-search)), puede restringir la búsqueda.
+Después de realizar una búsqueda básica, puede restringir la búsqueda.
 
 Utilice la barra de herramientas situada a la izquierda de los resultados de búsqueda para acotar la información que está buscando.
 
 Para restringir una búsqueda:
 
 1. (Condicional) Si ha realizado una búsqueda general, seleccione el objeto que estaba buscando en la lista de objetos de la parte superior izquierda de los resultados.
-1. Busque los campos disponibles para los objetos mostrados en la búsqueda en la barra de herramientas situada a la izquierda de los resultados.
-Se muestran los valores de cada campo, ordenados por recuento (hasta 10 valores por cada campo).
-1. Haga clic dentro de cualquiera de los campos disponibles para acortar la lista de resultados.
-Las selecciones que realice se resaltarán en azul y los valores de campo que no seleccione se ocultarán.
+1. Busque los campos disponibles para los objetos mostrados en la búsqueda en la barra de herramientas situada a la izquierda de los resultados. Se muestran los valores de cada campo, ordenados por recuento (hasta 10 valores por cada campo).
+1. Haga clic dentro de cualquiera de los campos disponibles para acortar la lista de resultados. Las selecciones que realice se resaltarán en azul y los valores de campo que no seleccione se ocultarán.
 Después de seleccionar cada nuevo valor, los resultados a la derecha se actualizan dinámicamente.
 
    ![Ficha Búsqueda básica](assets/basic-search.png)
@@ -251,29 +246,21 @@ Después de seleccionar cada nuevo valor, los resultados a la derecha se actuali
 #### Usar [!UICONTROL Advanced Search]
 
 Puede usar [!UICONTROL Advanced Search] para filtrar la búsqueda según criterios específicos.\
-Este tipo de búsqueda es útil cuando no se puede recordar una palabra clave asociada a un objeto, pero se conoce información específica sobre ese objeto (por ejemplo, prioridad del proyecto, nombre del propietario del documento, etc.).
+Este tipo de búsqueda es útil cuando no puede recordar una palabra clave asociada a un objeto pero conoce información específica sobre ese objeto (por ejemplo: Prioridad del proyecto, Nombre del propietario del documento, etc.).
 
 Para realizar una búsqueda avanzada:
 
-1. En la esquina superior derecha de cualquier página de [!DNL Workfront], haga clic en el icono **[!UICONTROL Buscar]** ![Icono de búsqueda](assets/search-icon.png). Se mostrará el menú [!DNL Search].
+1. En la esquina superior derecha de cualquier página de [!DNL Workfront], haga clic en el icono **[!UICONTROL Buscar]** ![Icono de búsqueda](assets/search-icon.png). Se muestra el menú **Buscar**.
 
-1. En la parte inferior del menú [!UICONTROL Search], haga clic en **[!UICONTROL Advanced Search]**.\
-   ![Búsqueda avanzada](assets/qs-advanced-search-350x224.png)\
-   La página [!UICONTROL Advanced Search] se abrirá deslizándose desde la derecha y cubrirá la mayor parte de la página anterior.
+1. En la parte inferior del menú **Buscar**, haga clic en **[!UICONTROL Búsqueda avanzada]**. La página **Buscar** se abre con la ficha **Búsqueda avanzada** seleccionada de forma predeterminada.
+   ![Búsqueda avanzada](assets/qs-advanced-search-350x224.png)
 
-1. Seleccione el tipo de objeto que está buscando.\
-   **[!UICONTROL Tareas]** está seleccionada de manera predeterminada.
+
+1. Seleccione el tipo de objeto que está buscando. **[!UICONTROL Tareas]** está seleccionada de manera predeterminada.
 
    ![Objetos de búsqueda avanzada](assets/advanced-search.png)
 
 1. (Opcional) Escriba una palabra clave en el campo de la parte superior de la lista.
-1. (Opcional) Active **[!UICONTROL Filtrar los resultados]** para generar un filtro que restrinja la búsqueda. Haga clic en **Aplicar** cuando termine.
+1. (Opcional) Cambie **[!UICONTROL Filtrar los resultados]** por **Activado** para generar un filtro que restrinja la búsqueda. Haga clic en **Aplicar** cuando termine.
 
-1. Haga clic en **[!UICONTROL Search]**.\
-   A la derecha de la barra de herramientas de [!UICONTROL Advanced Search], se muestra una lista de elementos que coinciden con la búsqueda.
-
-1. (Opcional) Para volver a la página en la que se encontraba antes de la búsqueda, haga clic en **[!UICONTROL Close]** en la esquina superior derecha.
-
->[!NOTE]
->
->La página [!UICONTROL Search Results] solo permanece abierta cuando está enfocada. Si hace clic fuera de la página o abre otra, la página [!UICONTROL Search Results] se cerrará.
+1. Haga clic en **[!UICONTROL Buscar]**. A la derecha de la barra de herramientas de **[!UICONTROL Advanced Search]**, se muestra una lista de elementos que coinciden con la búsqueda.
