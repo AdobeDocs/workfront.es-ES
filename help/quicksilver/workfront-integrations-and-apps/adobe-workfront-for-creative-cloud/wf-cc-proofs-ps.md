@@ -2,20 +2,26 @@
 product-area: workfront-integrations;setup
 navigation-topic: adobe-workfront-for-creative-cloud
 title: Cargar pruebas desde Adobe Photoshop
-description: Puede cargar los tableros de arte como pruebas directamente en Adobe Workfront para una revisión y aprobación exhaustivas.
+description: Puede cargar ajustes preestablecidos de documento fotográfico como pruebas directamente en  [!DNL Adobe Workfront]  para una revisión y aprobación exhaustivas.
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: cbb12ee7-949e-44a1-9340-3ef93c003b21
-source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
+source-git-commit: 9cbf1706e6c535ff7f52627d2c6e13de65ec76d0
 workflow-type: tm+mt
-source-wordcount: '700'
-ht-degree: 78%
+source-wordcount: '717'
+ht-degree: 73%
 
 ---
 
 # Carga de pruebas desde [!DNL Photoshop]
 
-Puede cargar sus tableros de arte como pruebas directamente a [!DNL Adobe Workfront] para una revisión y aprobación exhaustivas.
+Puede cargar ciertos tipos de ajustes preestablecidos de documentos de Photoshop como pruebas directamente en [!DNL Adobe Workfront] para una revisión y aprobación exhaustivas.
+
+>[!IMPORTANT]
+>
+>El archivo debe ser un ajuste preestablecido de documento fotográfico como se describe en [Plantillas y ajustes preestablecidos en Photoshop](https://helpx.adobe.com/photoshop/using/create-documents.html).
+
+
 
 ## Requisitos de acceso
 
@@ -131,7 +137,7 @@ Puede cargar una nueva versión de una prueba. El complemento recuerda el flujo 
 1. Haga clic en **[!UICONTROL Nueva versión]** cerca de la parte inferior del panel [!DNL Workfront].
 1. Habilite el conmutador **[!UICONTROL Crear una revisión]**.
 
-1. En la sección *[!UICONTROL *Aprobaciones de revisión]&#x200B;**, elija &#x200B;** [!UICONTROL Básico] **&#x200B; o &#x200B;** [!UICONTROL Automatizado]**.
+1. En la sección *[!UICONTROL *Aprobaciones de revisión]**, elija **[!UICONTROL Básico]** o **[!UICONTROL Automatizado]**.
 
 1. Añada **[!UICONTROL Revisores]** o una **[!UICONTROL Plantilla de flujo de trabajo]** según el tipo de aprobación que seleccionó en el paso 7.
 
