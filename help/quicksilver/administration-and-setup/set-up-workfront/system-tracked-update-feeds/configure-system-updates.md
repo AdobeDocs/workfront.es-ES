@@ -8,14 +8,16 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 54fc3f77-57d1-47f1-8e16-73626a6733ec
-source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
+source-git-commit: 52ba2457ac2870d23e325f64163b683756f88ad4
 workflow-type: tm+mt
-source-wordcount: '899'
-ht-degree: 93%
+source-wordcount: '823'
+ht-degree: 65%
 
 ---
 
 # Configurar las actualizaciones del sistema
+
+<!-- Audited: 5/2025 -->
 
 [!DNL Adobe Workfront] genera actualizaciones automáticas del sistema en el área [!UICONTROL Actualizaciones] de un objeto para registrar los eventos siguientes:
 
@@ -37,8 +39,6 @@ Por ejemplo, puede hacer que [!DNL Workfront] realice un seguimiento de todos lo
 ## Requisitos de acceso
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
-
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -79,7 +79,7 @@ Puede determinar qué información rastrea [!DNL Workfront] cuando los usuarios 
 
 
 * [Añada los campos en los que desee que  [!DNL Workfront] realice un seguimiento](#add-fields-you-want-workfront-to-track)
-* [Elimine los campos de los que no desee realizar un seguimiento](#remove-fields-that-you-don-t-want-tracked)
+* [Elimine los campos de los que no desea realizar un seguimiento](#remove-fields-you-don-t-want-tracked)
 
 ### Añada los campos en los que desee que [!DNL Workfront] realice un seguimiento {#add-fields-you-want-workfront-to-track}
 
@@ -87,37 +87,33 @@ Puede añadir los campos en los que desee que [!DNL Workfront] realice un seguim
 
 >[!NOTE]
 >
->Puede realizar un seguimiento de hasta 300 campos integrados y personalizados en las fuentes de actualización. Si realiza el seguimiento del número máximo de campos y desea realizar el seguimiento de campos adicionales que no se muestran en la subficha [!UICONTROL Todos los campos], primero debe quitar algunos de los campos rastreados para poder realizar el seguimiento de nuevos campos. Para obtener más información acerca de cómo quitar campos de los campos de actualización, consulte [Quitar campos de los que no se desea realizar un seguimiento](#remove-fields-that-you-don-t-want-tracked).
+>Puede realizar un seguimiento de hasta 300 campos integrados y personalizados en las fuentes de actualización. Si realiza el seguimiento del número máximo de campos y desea realizar el seguimiento de campos adicionales que no se muestran en la subpestaña [!UICONTROL Todos los campos], primero debe quitar algunos de los campos rastreados para poder realizar el seguimiento de nuevos campos. Para obtener más información acerca de cómo quitar campos de los campos de actualización, vea [Quitar campos de los que no se desea realizar un seguimiento](#remove-fields-you-don-t-want-tracked).
 
-1. Haga clic en el icono **[!UICONTROL Menú principal]** ![Icono del menú principal](assets/main-menu-icon.png) en la esquina superior derecha de [!DNL Adobe Workfront] y, a continuación, haga clic en **[!UICONTROL Configurar]** ![Icono de configuración de engranajes](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
-1. En el panel de la izquierda, haga clic en **[!UICONTROL Interfaz]** > **[!UICONTROL Actualizar fuentes]**.
+1. En el panel de la izquierda, haz clic en **[!UICONTROL Interfaz]** y luego en **[!UICONTROL Actualizar fuentes]**.
 
-1. Haga clic en **[!UICONTROL Añadir campos]** y, a continuación, haga clic en el objeto sobre el que desea realizar el seguimiento.
+1. &#x200B;Haga clic en **[!UICONTROL Agregar campos]** y, a continuación, seleccione en la lista desplegable el objeto sobre el que desea realizar el seguimiento.
 
-1. En el cuadro **[!UICONTROL Actualizar fuentes]** que aparece, empiece a escribir un campo integrado (estándar) o un campo personalizado para el objeto y, a continuación, haga clic en para seleccionarlo cuando aparezca en la lista.
+1. En el cuadro que aparece, empiece a escribir un campo integrado (estándar) o un campo personalizado para el objeto y, a continuación, selecciónelo cuando aparezca en la lista.
 
-   Si [!DNL Workfront] ya está realizando el seguimiento del campo, no podrá añadirlo por segunda vez desde la lista.
+   >[!NOTE]
+   >
+   >Si [!DNL Workfront] ya está realizando el seguimiento del campo, no podrá agregarlo por segunda vez desde la lista.
 
-1. Después de añadir todos los campos que desea que [!DNL Workfront] rastree, haga clic en **[!UICONTROL Añadir campos]**.
+1. Después de agregar todos los campos que desea que [!DNL Workfront] rastree, haga clic en **[!UICONTROL Agregar campos]**. Los campos integrados que agregó se muestran bajo la subpestaña **[!UICONTROL Campos integrados]**, y los campos personalizados se muestran bajo la subpestaña **[!UICONTROL Campos personalizados]**.
 
-   Los campos integrados que añadió se muestran bajo la subficha **[!UICONTROL Campos integrados]**.
+   La subpestaña **[!UICONTROL Todos los campos]** muestra los campos integrados y personalizados de los que se está realizando un seguimiento.
 
-   Los campos personalizados que añadió se muestran en la subficha **[!UICONTROL Campos personalizados]**.
+### Elimine los campos de los que no desea realizar un seguimiento {#remove-fields-you-don-t-want-tracked}
 
-   La subficha **[!UICONTROL Todos los campos]** muestra los campos integrados y personalizados de los que se está realizando un seguimiento.
+Puede quitar campos sobre los que no desea que el sistema realice un seguimiento para un tipo concreto de objeto en la interfaz [!DNL Workfront].
 
-### Elimine los campos de los que no desee realizar un seguimiento {#remove-fields-that-you-don-t-want-tracked}
+{{step-1-to-setup}}
 
-Puede quitar campos en los que no desea que el sistema realice un seguimiento para un tipo concreto de objeto en la interfaz de [!DNL Workfront].
+1. Haga clic en **[!UICONTROL Interfaz]** y luego en **[!UICONTROL Actualizar fuentes]**.
 
-1. Haga clic en el icono **[!UICONTROL Menú principal]** ![Icono del menú principal](assets/main-menu-icon.png) en la esquina superior derecha de [!DNL Adobe Workfront] y, a continuación, haga clic en **[!UICONTROL Configurar]** ![Icono de configuración de engranajes](assets/gear-icon-settings.png).
-
-1. Haga clic en **[!UICONTROL Interface]** > **[!UICONTROL Update Feeds]**.
-
-1. En la ficha **[!UICONTROL Tracked Fields]**, seleccione la subpestaña **[!UICONTROL All Fields]**.
-
-   Así se mostrarán tanto los campos integrados como los personalizados de los que se esté realizando un seguimiento.
+1. En la ficha **[!UICONTROL Campos rastreados]**, seleccione la subpestaña **[!UICONTROL Todos los campos]**. Se muestran los campos integrados y personalizados que se están rastreando actualmente.
 
 1. Seleccione el campo cuyo seguimiento desea detener y luego haga clic en **[!UICONTROL Remove]**.
 
@@ -198,13 +194,13 @@ Por ejemplo, puede hacer que [!DNL Workfront] registre una actualización cada v
 
 Para configurar de qué acciones desea que [!DNL Workfront] realice un seguimiento:
 
-1. Haga clic en el icono **[!UICONTROL Menú principal]** ![Icono del menú principal](assets/main-menu-icon.png) en la esquina superior derecha de [!DNL Adobe Workfront] y, a continuación, haga clic en **[!UICONTROL Configurar]** ![Icono de configuración de engranajes](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
-1. Haga clic en **[!UICONTROL Interface]** > **[!UICONTROL Update Feeds]**.
+1. Haga clic en **[!UICONTROL Interfaz]** y luego en **[!UICONTROL Actualizar fuentes]**.
 
 1. Haga clic en la ficha **[!UICONTROL Actions]**.
 
-1. Seleccione una acción para habilitarla o anule la selección de una acción para deshabilitarla.
+1. Seleccione la casilla de verificación de una acción para activarla o desactívela para desactivarla.
 1. Haga clic en **[!UICONTROL Guardar]**.
 
 Cuando deshabilita una acción, cualquier actualización registrada anteriormente sobre esa acción se conserva en el área de [!UICONTROL Actualizaciones] en la que se registró.

@@ -6,39 +6,37 @@ description: Puede actualizar el estado de una tarea para informar a otros sobre
 author: Alina
 feature: Work Management
 exl-id: e1efc676-e110-486e-91dc-f521421575e8
-source-git-commit: 1eb1e919bede7e366956d8c0bd969329a641123f
+source-git-commit: 0792651822fd85cb3bfbb754aaf949c4fc4038a1
 workflow-type: tm+mt
-source-wordcount: '648'
-ht-degree: 1%
+source-wordcount: '638'
+ht-degree: 69%
 
 ---
 
-# Actualizar estado de la tarea
+# Actualizar el estado de una tarea
 
 <!--Audited: 10/2024-->
 
 Puede actualizar el estado de una tarea para informar a otros sobre dónde se encuentra la tarea (y el proyecto general) y cómo progresa.
 
-Los estados predeterminados son Nuevo, En curso y Completado. El administrador de Adobe Workfront puede agregar estados personalizados para su organización. Para obtener más información, consulte [Crear o editar un estado](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
+Los estados predeterminados son Nuevo, En curso y Completado. El administrador de Adobe Workfront puede añadir estados personalizados para su organización. Para obtener más información, consulte [Crear o editar un estado](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
 
-Puede actualizar manualmente los estados de las tareas o dejar que Workfront los actualice automáticamente cuando se realicen determinadas acciones.
+Puede actualizar manualmente los estados de las tareas o permitir que Workfront los actualice automáticamente cuando se realicen determinadas acciones.
 
 ## Requisitos de acceso
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
-
-Debe tener el siguiente acceso para actualizar las tareas manualmente:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plan de Adobe Workfront</td> 
+   <td role="rowheader">Plan de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licencia de Adobe Workfront*</td> 
+   <td role="rowheader">Licencia de Adobe Workfront</td> 
    <td> <p>Nuevo: estándar</p> 
    O
    <p>Actual: Trabajo o superior</p>
@@ -55,46 +53,46 @@ Debe tener el siguiente acceso para actualizar las tareas manualmente:
  </tbody> 
 </table>
 
-*Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Consideraciones acerca de la actualización del estado de las tareas
 
-* Cuando marca una tarea como Completada, el porcentaje completado de la tarea se actualiza al 100%.
-* Los siguientes escenarios existen para tareas principales:
+* Cuando marca una tarea como Completada, el porcentaje completado de la tarea se actualiza al 100 %.
+* Existen los siguientes escenarios para las tareas principales:
    * No se puede actualizar el estado de una tarea principal a Completo cuando el modo de finalización de resumen del proyecto está establecido en Automático y las subtareas no se han completado.
-   * Puede actualizar el estado de una tarea principal a Completo cuando el modo de finalización de resumen del proyecto esté establecido en Manual y las subtareas estén completadas o incompletas.
+   * Puede actualizar el estado de una tarea principal a Completado cuando el modo de finalización de resumen del proyecto esté establecido en Manual y las subtareas estén completadas o incompletas.
 
   Para obtener más información, consulte [Editar proyectos](../manage-projects/edit-projects.md).
 
-## Actualizar manualmente el estado de la tarea
+## Actualizar manualmente el estado de una tarea
 
-Puede actualizar el estado de la tarea en las siguientes áreas de Workfront:
+Puede actualizar el estado de la tarea en las siguientes áreas:
 
 * El encabezado de la tarea en la página de tareas.
-* El cuadro Editar tarea, al editar una tarea.
+* Cuadro de diálogo Editar tarea al editar una tarea.
 * La sección Detalles de la tarea de la página de tareas.
-* En una lista de tareas o un informe, cuando el campo Estado sea visible en la vista.
+* En una lista de tareas o un informe cuando el campo Estado está visible en la vista.
 * En el panel Resumen de la tarea.
 
 Para actualizar manualmente el estado de la tarea en el encabezado de tarea:
 
-1. Vaya a una tarea cuyo estado desee actualizar.
-1. Haga clic en el campo **Estado** del encabezado de la tarea y seleccione un nuevo estado.
-1. Para proporcionar una indicación visual de la finalización de la tarea, arrastre o haga doble clic en la burbuja bajo **Porcentaje completado** en el encabezado de la tarea
+1. Vaya a la tarea cuyo estado desee actualizar.
+1. En el encabezado de la tarea, haga clic en el campo **Estado** y seleccione un nuevo estado.
+1. Para proporcionar una indicación visual de la finalización de la tarea, arrastre la burbuja bajo **Porcentaje completado** en el encabezado de la tarea.
 
    O
 
-   Haga clic dentro de la burbuja en el encabezado de la tarea para introducir un porcentaje.
+   Haga doble clic dentro de la burbuja **Porcentaje completado** para introducir manualmente un nuevo porcentaje.
 
    ![](assets/percent-complete-status-widgets-task-header.png)
 
 1. (Opcional) Realice una de las siguientes acciones para proporcionar información adicional sobre la actualización:
 
-   * Para agregar una nota sobre la actualización, ve a la sección **Actualizaciones**, haz clic en **Nuevo comentario** y luego escribe una nota.
+   * Para añadir una nota sobre la actualización, vaya a la sección **Actualizaciones**, haga clic en **Nuevo comentario** y luego escriba una nota.
 
-     ![](assets/add-update-to-task.png)
+     ![Agregando una actualización a una tarea](assets/add-update-to-task.png)
 
    * Para notificar la actualización a determinados usuarios, escriba sus nombres en el campo **Etiquetar personas o equipos** que aparece al escribir un comentario. Para obtener más información, consulte [Etiquetar a otros en las actualizaciones](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
    * Para actualizar la fecha de confirmación de la tarea, haga clic en **Detalles de la tarea** y, a continuación, edite el campo **Fecha de confirmación**. Para obtener más información, consulte [Editar tareas](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md).
@@ -125,7 +123,7 @@ Workfront actualiza automáticamente el estado existente de una tarea a un estad
 
 >[!NOTE]
 >
->Los estados de la tabla siguiente son estados de sistema predeterminados. El administrador de Workfront o de un grupo puede cambiar el nombre de los estados de su instancia de Workfront. Para obtener información sobre cómo crear y administrar estados en Workfront, consulte [Crear o editar un estado](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
+>Los estados de la tabla siguiente son estados de sistema predeterminados. El administrador de grupos o de Workfront puede cambiar el nombre de los estados de su instancia de Workfront. Para obtener información sobre cómo crear y administrar estados en Workfront, consulte [Crear o editar un estado](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
 
 <table style="table-layout:auto"> 
  <col> 
@@ -138,19 +136,19 @@ Workfront actualiza automáticamente el estado existente de una tarea a un estad
    <td><b>Nuevo estado</b></td> 
   </tr> 
   <tr> 
-   <td>Actualizar el porcentaje completado de la tarea al 100%</td> 
-   <td>Nuevo o en curso</td> 
+   <td>Actualizar el porcentaje completado de la tarea al 100 %</td> 
+   <td>Nuevo o En curso</td> 
    <td>Completar</td> 
   </tr> 
   <tr> 
-   <td>Actualizar el porcentaje completado de la tarea del 100% a un número inferior</td> 
+   <td>Actualizar el porcentaje completado de la tarea del 100 % a un número inferior</td> 
    <td>Completar</td> 
    <td>En curso</td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td><span>Haga clic en el botón Iniciar tarea para aceptar que se trabaje en una tarea asignada a usted</span> </td> 
+   <td><span>Haga clic en el botón Iniciar tarea para aceptar que se trabaje en una tarea que se le ha asignado</span> </td> 
    <td><span>Nuevo</span> </td> 
-   <td> <p>Cualquier estado asociado con el botón Iniciar tarea en la configuración de Equipo de inicio.</p> <p>Para obtener información acerca de cómo reemplazar el botón Trabajar en ello por un botón Iniciar tarea, vea <span href="../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md"><a href="../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md" class="MCXref xref">Reemplazar el botón Trabajar en ello por un botón Iniciar</a></span>.</p> <p>Sugerencia: <span>Al hacer clic</span> <span data-mc-conditions="QuicksilverOrClassic.Quicksilver">en el botón Deshacer</span>después de hacer clic en Iniciar tarea, se revierte el estado a Nuevo. </p> </td> 
+   <td> <p>Cualquier estado asociado con el botón Iniciar tarea en la configuración del equipo de inicio.</p> <p>Para obtener información acerca de cómo reemplazar el botón Trabajar en ello por un botón Iniciar tarea, consulte <span href="../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md"><a href="../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md" class="MCXref xref">Reemplazar el botón Trabajar en ello por el botón Inicio</a></span>.</p> <p>Sugerencia: <span>Al hacer clic</span> <span data-mc-conditions="QuicksilverOrClassic.Quicksilver">en el botón Deshacer</span> después de hacer clic en Iniciar tarea, se revierte el estado a Nuevo. </p> </td> 
   </tr> 
  </tbody> 
 </table>

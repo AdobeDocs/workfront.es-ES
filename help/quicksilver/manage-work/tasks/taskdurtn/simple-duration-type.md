@@ -2,25 +2,29 @@
 content-type: overview
 product-area: projects
 navigation-topic: task-duration
-title: "Resumen del tipo de duración: Simple"
-description: El tipo de duración simple es un tipo de duración que puede establecer para una tarea en Adobe Workfront. Para obtener información general sobre los tipos de duración en Workfront, consulte Información general sobre la duración de la tarea y el tipo de duración.
+title: 'Información general del tipo de duración: simple'
+description: El tipo de duración simple es un tipo de duración que puede establecer para una tarea en Adobe Workfront.
 author: Alina
 feature: Work Management
 exl-id: 9bb472db-1448-467e-93ca-611453e1c00a
-source-git-commit: 1efd7c0270fe1396345cfa6e5499e8f998297d61
+source-git-commit: 0792651822fd85cb3bfbb754aaf949c4fc4038a1
 workflow-type: tm+mt
-source-wordcount: '345'
-ht-degree: 0%
+source-wordcount: '322'
+ht-degree: 15%
 
 ---
 
-# Información general del tipo de duración: Simple
+# Información general del tipo de duración: simple
 
-El tipo de duración simple es un tipo de duración que puede establecer para una tarea en Adobe Workfront. Para obtener información general acerca de los tipos de duración en Workfront, vea [Información general sobre la duración de la tarea y el tipo de duración](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
+<!-- Audited: 5/2025 -->
+
+El tipo de duración simple es un tipo de duración que puede establecer para una tarea en Adobe Workfront. Para obtener más información acerca de los tipos de duración en Workfront, vea [Información general sobre la duración de la tarea y el tipo de duración](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
 
 ## Descripción general del tipo de duración simple
 
-Su Workfront o un administrador de grupo pueden establecer el tipo de duración predeterminado de su sistema o grupo como Simple. En este caso, todas las tareas nuevas se crearán con este tipo de duración. Para obtener información sobre cómo cambiar las preferencias de tareas y problemas como parte de las preferencias de proyectos de nivel de sistema o de grupo, consulte [Configurar las preferencias de tareas y problemas de todo el sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+El administrador de Workfront o de grupo puede establecer el tipo de duración predeterminado del sistema o grupo como Simple. En este caso, todas las tareas nuevas se crearán con este tipo de duración.
+
+Para obtener información sobre cómo cambiar las preferencias de tareas y problemas como parte de las preferencias de proyectos de nivel de sistema o de grupo, consulte [Configurar las preferencias de tareas y problemas de todo el sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 
 Cuando una tarea tiene un tipo de duración sencillo, ocurre lo siguiente:
 
@@ -30,7 +34,7 @@ Cuando una tarea tiene un tipo de duración sencillo, ocurre lo siguiente:
 
   >[!IMPORTANT]
   >
-  >Cuando crea una tarea por primera vez, le asigna el Tipo de duración simple y no especifica una Duración, Workfront calcula la Duración de la tarea en función de la cantidad de Horas planificadas que especifique para la tarea. Si modifica manualmente la Duración de una tarea de Duración simple, Workfront deja de hacer coincidir las Horas planificadas con la Duración porque supone que desea definirlas manualmente.
+  >Cuando crea una tarea por primera vez y le asigna el tipo de duración Simple pero no especifica una Duración, Workfront calcula la duración de la tarea en función de la cantidad de horas planificadas que especifique para la tarea. Si modifica manualmente la duración de una tarea de duración simple, Workfront deja de hacer coincidir las horas planificadas con la duración porque supone que desea definirlas manualmente.
   >
   >Workfront calcula la duración de las tareas cuya duración no se ha modificado manualmente mediante la fórmula siguiente:
   >
@@ -38,7 +42,7 @@ Cuando una tarea tiene un tipo de duración sencillo, ocurre lo siguiente:
   >
   >El administrador de Workfront define `Typical hours per work day` en el área de Preferencias de proyecto de la Configuración de la instancia.
 
-* El porcentaje de asignación está oculto y las horas de asignación pueden editarse en su lugar.
+* El porcentaje de asignación está oculto, pero las horas de asignación están disponibles para su edición.
 * Todos los clientes nuevos tienen el Tipo de duración de nivel de sistema establecido en Simple.
 
 ## Cambiar el tipo de duración de una tarea a Simple

@@ -2,21 +2,23 @@
 content-type: overview
 product-area: projects
 navigation-topic: task-duration
-title: "Descripción general del tipo de duración: Asignación calculada"
+title: 'Información general del tipo de duración: Asignación calculada'
 description: La asignación calculada es un tipo de duración que puede establecer para una tarea en Adobe Workfront. Para obtener información general sobre los tipos de duración en Workfront, consulte Información general sobre la duración de la tarea y el tipo de duración.
 author: Alina
 feature: Work Management
 exl-id: 5f1f6109-5d54-4c3f-9aa5-dc6ce165a1cd
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 0792651822fd85cb3bfbb754aaf949c4fc4038a1
 workflow-type: tm+mt
-source-wordcount: '482'
-ht-degree: 0%
+source-wordcount: '481'
+ht-degree: 90%
 
 ---
 
 # Información general del tipo de duración: Asignación calculada
 
-La asignación calculada es un tipo de duración que puede establecer para una tarea en Adobe Workfront. Para obtener información general acerca de los tipos de duración en Workfront, vea [Información general sobre la duración de la tarea y el tipo de duración](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
+<!-- Audited: 5/2025 -->
+
+La asignación calculada es un tipo de duración que puede establecer para una tarea en Adobe Workfront. Para obtener información general acerca de los tipos de duración en Workfront, consulte [Información general sobre la duración de la tarea y el tipo de duración](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
 
 ## Descripción general del tipo de duración de asignación calculada
 
@@ -24,17 +26,17 @@ La asignación calculada es un tipo de duración que puede establecer para una t
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: This Hub issue has a powerpoint that highlights information that is useful to users when using Calculated Assignment duration type. I don't think we can use the powerpoint, because it's old. I also don't know if the things they discuss are still relevant, since the PP is from 2015. I've closed the issue, but I'm putting a link here just in case the info is useful. https://hub.workfront.com/issue/5a9dd7d5007d02a8966014557c23cc89/updates)</p>
 -->
 
-* Cuando utilice un Tipo de duración de asignación calculada, debe especificar tanto una Duración como un número de horas planificadas para la tarea. A continuación, Workfront divide la cantidad de horas planificadas por la cantidad de horas de Duración y, a continuación, por el número de recursos asignados a la tarea para calcular el porcentaje de asignación (calcula la asignación) de cada recurso. Cada recurso tendrá igualmente el mismo valor para su porcentaje de asignación. En este caso, no puede modificar los valores de asignación para cada recurso.
-* Su Workfront o un administrador de grupo pueden establecer el tipo de duración predeterminado de su sistema o grupo como asignación calculada. En este caso, todas las tareas nuevas se crearán con este tipo de duración. Para obtener información sobre cómo cambiar las preferencias de tareas y problemas como parte de las preferencias de proyectos de nivel de sistema o de grupo, consulte [Configurar las preferencias de tareas y problemas de todo el sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+* Cuando utilice un tipo de duración de asignación calculada, debe especificar tanto una duración como un número de horas planificadas para la tarea. A continuación, Workfront divide la cantidad de horas planificadas por la cantidad de horas de duración y, a continuación, por el número de recursos asignados a la tarea para calcular el porcentaje de asignación (calcula la asignación) de cada recurso. Cada recurso tendrá igualmente el mismo valor para su porcentaje de asignación. En este caso, no puede modificar los valores de asignación para cada recurso.
+* Su Workfront o un administrador de grupo pueden establecer el tipo de duración predeterminado de su sistema o grupo como asignación calculada.En este caso, todas las tareas nuevas se crearán con este tipo de duración. Para obtener información sobre cómo cambiar las preferencias de tareas y problemas como parte de las preferencias de proyectos de nivel de sistema o de grupo, consulte [Configurar las preferencias de tareas y problemas de todo el sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 
-  En este caso, la tarea tiene una Duración predeterminada de un día y un valor predeterminado de 0 horas de Horas planificadas. A menos que el jefe de proyecto establezca una Duración más precisa y rellene el campo Horas planificadas con una estimación realista, los recursos aparecerán infraasignados.
+  En este caso, la tarea tiene una Duración predeterminada de un día y un valor predeterminado de 0 horas de Horas planificadas. A menos que el gestor del proyecto establezca una duración más precisa y rellene el campo de horas planificadas con una estimación realista, los recursos parecerán infrautilizados.
 
 Asignación calculada es el tipo de duración preferido en las siguientes situaciones:
 
-* Cuando las asignaciones tienen una ventana de actividad pero no tardan toda la duración asignada en completar su trabajo. Por ejemplo, se le asigna la tarea de enviar un informe a su supervisor antes del final de la semana. Tiene una duración de cinco días, pero solo le llevará diez horas redactar el borrador del documento.
-* Cuando se asigna un solo recurso a una tarea porque el jefe de proyecto puede estimar la duración planificada y la cantidad de esfuerzo planificada de forma independiente.
+* Cuando las asignaciones tienen una ventana de actividad pero no tardan toda la duración asignada en completar su trabajo. Por ejemplo, se le asigna la tarea de enviar un informe a su supervisor antes del final de la semana. Tiene una duración de cinco días, pero solo le llevará 10 horas redactar el borrador del documento.
+* Cuando se asigna un único recurso a una tarea, el gestor del proyecto puede estimar la duración planificada y la cantidad de esfuerzo planificado de manera independiente entre sí.
 
-  Puede utilizar el Tipo de duración de trabajo calculada para el mismo resultado, pero el jefe de proyecto debe especificar una asignación porcentual para el recurso a fin de que afecte al valor calculado de las horas planificadas. Esto hace que la planificación de proyectos sea más difícil y lleve más tiempo.
+  Puedes usar el tipo de duración de trabajo calculada para obtener el mismo resultado, pero el gestor del proyecto debe introducir un porcentaje de asignación para el recurso con el fin de afectar el valor calculado de las horas planificadas. Esto hace que la planificación de proyectos sea más difícil y lleve más tiempo.
 
 El porcentaje de asignación de cada recurso se calcula de la siguiente manera:
 
@@ -42,13 +44,13 @@ El porcentaje de asignación de cada recurso se calcula de la siguiente manera:
 Planned Hours / Duration / Number of Resources = Allocation Percentage for each resource
 ```
 
-Por ejemplo, en el escenario que se describe a continuación, cada tarea tiene una Duración de 3 días. El administrador de proyectos introduce manualmente la duración (3 días o 24 horas) y las horas planificadas y, como resultado, se calcula el porcentaje de asignación (o el porcentaje de asignación):
+Por ejemplo, en el escenario que se describe a continuación, cada tarea tiene una Duración de 3 días. El gestor del proyecto introduce manualmente tanto la Duración (3 días o 24 horas) como las Horas Planificadas, y como resultado, se calcula el porcentaje de asignación (o porcentaje de tarea asignada):
 
 ![](assets/calcassign-350x80.png)
 
 ## Cambiar el tipo de duración de una tarea a Asignación calculada
 
-Para obtener información acerca de cómo cambiar el tipo de duración de una tarea, vea [Actualizar el tipo de duración de una tarea](../../../manage-work/tasks/taskdurtn/update-duration-type-of-task.md).
+Para obtener información acerca de cómo cambiar el tipo de duración de una tarea, consulte [Actualizar el tipo de duración de una tarea](../../../manage-work/tasks/taskdurtn/update-duration-type-of-task.md).
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: replaced with new article linked above)</p>

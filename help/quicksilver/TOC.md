@@ -3,10 +3,10 @@ user-guide-title: Guía de Workfront
 user-guide-description: Utilice los siguientes documentos, tutoriales y recursos adicionales para aprender a implementar y utilizar Adobe Workfront de forma eficaz en su organización.
 role: User
 feature-set: Workfront
-source-git-commit: 4189ea6b6c61a97eaf15c92724ef1dbfeb8b8b82
+source-git-commit: 8aee2f81f97bba6851537115e7f588694bd53692
 workflow-type: tm+mt
-source-wordcount: '13222'
-ht-degree: 61%
+source-wordcount: '13225'
+ht-degree: 60%
 
 ---
 
@@ -1414,7 +1414,7 @@ ht-degree: 61%
    * Administración de portafolios {#portfolio-management}
       * [Administración de portafolios](manage-work/portfolios/portfolio-management-overview.md)
       * Información general sobre Portfolio en Adobe Workfront {#portfolio-overview-in-adobe-workfront}
-         * [Portafolios](manage-work/portfolios/portfolios-overview/portfolio-overview-1.md)
+         * [Portfolios: índice de artículos](manage-work/portfolios/portfolios-overview/portfolio-overview-1.md)
          * [Navegación dentro de un portafolio](manage-work/portfolios/portfolios-overview/navigate-within-portfolio.md)
          * [Preferencias de administración de portafolios](manage-work/portfolios/portfolios-overview/portfolio-managament-overview.md)
          * [Información general sobre Portfolio en Adobe Workfront](manage-work/portfolios/portfolios-overview/portfolio-overview.md)
@@ -1427,8 +1427,8 @@ ht-degree: 61%
          * [Quitar un proyecto de un portafolio](manage-work/portfolios/create-and-manage-portfolios/remove-project-from-portfolio.md)
          * [Revisar proyectos solicitados](manage-work/portfolios/create-and-manage-portfolios/review-requested-projects.md)
       * Crear y administrar programas {#create-and-manage-programs}
-         * [Información general de programas en  [!DNL Adobe Workfront]](manage-work/portfolios/create-and-manage-programs/programs-overview.md)
-         * [Crear y administrar programas](manage-work/portfolios/create-and-manage-programs/create-and-manage-programs.md)
+         * [Información general de programas](manage-work/portfolios/create-and-manage-programs/programs-overview.md)
+         * [Crear y administrar programas: índice de artículos](manage-work/portfolios/create-and-manage-programs/create-and-manage-programs.md)
          * [Crear un programa](manage-work/portfolios/create-and-manage-programs/create-program.md)
          * [Editar programas](manage-work/portfolios/create-and-manage-programs/edit-programs.md)
          * [Añadir un programa existente a un portafolio](manage-work/portfolios/create-and-manage-programs/move-program.md)
