@@ -5,10 +5,10 @@ description: Como parte del caso empresarial, puede crear un conjunto de metas p
 author: Alina
 feature: Work Management
 exl-id: c5f4c095-ea21-4205-a747-e8923de7030f
-source-git-commit: b38c98ec79617a78c76510bcb109da2ff83247af
+source-git-commit: 9cfb67f627c06a5926e820860d52ba9f1ab58bcf
 workflow-type: tm+mt
-source-wordcount: '504'
-ht-degree: 61%
+source-wordcount: '495'
+ht-degree: 58%
 
 ---
 
@@ -43,8 +43,6 @@ Tenga en cuenta lo siguiente al crear metas de caso empresarial para sus proyect
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -53,14 +51,14 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  <tbody> 
   <tr> 
    <td role="rowheader">Plan de Adobe Workfront</td> 
-   <td> <p>Pro o superior</p> </td> 
+   <td> <p>Actual: Prime o superior</p>
+   <p>Heredado: Pro o superior</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licencia de Adobe Workfront</td>
    <td> 
-   <p>Nuevo: estándar</p> 
-   <p>O</p>
-   <p>Actual: plan </p> 
+   <p>Actual: Estándar</p> 
+   <p>Heredado: plan </p> 
    </td> 
   </tr> 
   <tr> 

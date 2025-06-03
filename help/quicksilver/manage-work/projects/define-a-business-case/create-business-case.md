@@ -5,10 +5,10 @@ description: Puede utilizar el caso empresarial para solicitar un proyecto y def
 author: Alina
 feature: Work Management
 exl-id: db69b3bf-04e3-49b4-ae0d-ab6145389db5
-source-git-commit: 3827e834a71084f14a99cb27aadefd97327b02d7
+source-git-commit: 9cfb67f627c06a5926e820860d52ba9f1ab58bcf
 workflow-type: tm+mt
-source-wordcount: '846'
-ht-degree: 68%
+source-wordcount: '841'
+ht-degree: 66%
 
 ---
 
@@ -20,19 +20,22 @@ Puede utilizar el caso empresarial para solicitar un proyecto y definir el prop�
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
-  <tr> 
+ <tr> 
    <td role="rowheader">Plan de Adobe Workfront</td> 
-   <td> <p>Cualquiera </p> </td> 
+   <td> 
+   <p>Actual: Prime o superior</p> 
+   <p>Heredado: Pro o superior</p> 
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licencia de Adobe Workfront</td> 
-   <td> <p>Plan o superior</p> </td> 
+   <td> 
+   <p>Actual: Estándar </p> 
+   <p>Heredado: plan </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso</td> 

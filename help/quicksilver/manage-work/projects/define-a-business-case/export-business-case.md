@@ -6,10 +6,10 @@ description: Puede exportar el caso empresarial a un archivo PDF, en caso de que
 author: Alina
 feature: Work Management
 exl-id: 834c56c4-ca11-4aff-b67e-0eac9fa23403
-source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
+source-git-commit: 9cfb67f627c06a5926e820860d52ba9f1ab58bcf
 workflow-type: tm+mt
-source-wordcount: '251'
-ht-degree: 98%
+source-wordcount: '269'
+ht-degree: 92%
 
 ---
 
@@ -19,7 +19,7 @@ Puede exportar el caso empresarial a un archivo PDF, en caso de que necesite imp
 
 ## Requisitos de acceso
 
-Debe tener lo siguiente:
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -27,11 +27,13 @@ Debe tener lo siguiente:
  <tbody> 
   <tr> 
    <td role="rowheader">Plan de Adobe Workfront*</td> 
-   <td> <p>Cualquiera </p> </td> 
+   <td> <p>Actual: Prime o superior </p> <p>Heredado: Pro o superior </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licencia de Adobe Workfront*</td> 
-   <td> <p>Revisión o superior</p> </td> 
+   <td> 
+   <p>Actual: Ligero o superior</p>
+   <p>Heredado: revisión o superior</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso*</td> 
@@ -44,7 +46,9 @@ Debe tener lo siguiente:
  </tbody> 
 </table>
 
-&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de Workfront.
+Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Exportar el caso empresarial
 
