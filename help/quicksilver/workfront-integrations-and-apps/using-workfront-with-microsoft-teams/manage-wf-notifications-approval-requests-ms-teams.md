@@ -6,7 +6,7 @@ description: Puede recibir notificaciones de  [!DNL Adobe Workfront] acerca de l
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 7771a7d7-7e20-4b3d-95e7-1050aeb3af67
-source-git-commit: 75c4baf5ceca53f7ba85ffcc34876bca1238c9de
+source-git-commit: 372b7566fa5eb38703905b22ff43d49a76bcb400
 workflow-type: tm+mt
 source-wordcount: '1412'
 ht-degree: 94%
@@ -19,7 +19,7 @@ ht-degree: 94%
 >
 >A medida que Microsoft cambia al cliente Nuevos equipos, el cliente Teams clásico dejará de estar disponible a partir del 1 de julio de 2025. Como preparación, estamos desarrollando una nueva versión de la integración de Microsoft Teams que será totalmente compatible con el cliente de Nuevos equipos y estará disponible antes del 1 de julio para garantizar una transición sin problemas.
 >
->Las instrucciones sobre cómo descargar e instalar la integración en el cliente de New Teams aparecerán aquí después de que la integración esté disponible.
+>Las instrucciones sobre cómo descargar e instalar la integración en el cliente de New Teams estarán disponibles después de que se publique la integración.
 
 Puede recibir notificaciones de [!DNL Adobe Workfront] acerca de los elementos que necesita aprobar, las asignaciones que se le han dado o los comentarios y cambios en los elementos con los que está asociado.
 

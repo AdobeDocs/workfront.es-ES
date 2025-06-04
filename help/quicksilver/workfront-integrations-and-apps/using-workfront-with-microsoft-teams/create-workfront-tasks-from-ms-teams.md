@@ -6,7 +6,7 @@ description: Puede crear tareas personales en Adobe [!DNL Workfront] desde Micro
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 31b86c8d-967a-446a-86f2-3d38e44c45e1
-source-git-commit: 75c4baf5ceca53f7ba85ffcc34876bca1238c9de
+source-git-commit: 372b7566fa5eb38703905b22ff43d49a76bcb400
 workflow-type: tm+mt
 source-wordcount: '421'
 ht-degree: 82%
@@ -19,7 +19,7 @@ ht-degree: 82%
 >
 >A medida que Microsoft cambia al cliente Nuevos equipos, el cliente Teams clásico dejará de estar disponible a partir del 1 de julio de 2025. Como preparación, estamos desarrollando una nueva versión de la integración de Microsoft Teams que será totalmente compatible con el cliente de Nuevos equipos y estará disponible antes del 1 de julio para garantizar una transición sin problemas.
 >
->Las instrucciones sobre cómo descargar e instalar la integración en el cliente de New Teams aparecerán aquí después de que la integración esté disponible.
+>Las instrucciones sobre cómo descargar e instalar la integración en el cliente de New Teams estarán disponibles después de que se publique la integración.
 
 ## Requisitos de acceso
 

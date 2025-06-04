@@ -5,10 +5,10 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9342f393-a404-44b4-aad6-2c4cf634dfd5
-source-git-commit: b3a441f7bde5532bae4a3dcfd052752931c0fdf9
+source-git-commit: 9b06b297549fbf4b4493471e7335c5c11351ee86
 workflow-type: tm+mt
-source-wordcount: '1089'
-ht-degree: 30%
+source-wordcount: '1171'
+ht-degree: 28%
 
 ---
 
@@ -261,7 +261,7 @@ Estamos actualizando la interfaz a través de Adobe Workfront para mejorar la ex
 
 ### Mejoras de Workfront Fusion
 
-Las nuevas funciones de Workfront Fusion están disponibles en el entorno de producción en una cadencia fuera de la programación de versiones estándar. Para obtener más información sobre las últimas funciones, consulte [Actividad de la versión de Adobe Workfront Fusion](https://experienceleague.adobe.com/es/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
+Las nuevas funciones de Workfront Fusion están disponibles en el entorno de producción en una cadencia fuera de la programación de versiones estándar. Para obtener más información sobre las últimas funciones, consulte [Actividad de la versión de Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
 
 ### Mejoras de Workfront Planning
 
@@ -272,6 +272,14 @@ No hay actualizaciones para lo siguiente en este punto de la versión:
 * Planificador de escenarios
 * Revisión
 * Metas
+
+## Anuncios
+
+### Nueva versión de Workfront para Microsoft Teams
+
+A medida que Microsoft cambia al cliente Nuevos equipos, el cliente Teams clásico dejará de estar disponible a partir del 1 de julio de 2025. Como preparación, estamos desarrollando una nueva versión de la integración de Microsoft Teams que será totalmente compatible con el cliente de Nuevos equipos y estará disponible antes del 1 de julio para garantizar una transición sin problemas.
+
+Las instrucciones sobre cómo descargar e instalar la integración en el cliente de New Teams estarán disponibles después de que se publique la integración.
 
 ### Versión 20 de la API
 
