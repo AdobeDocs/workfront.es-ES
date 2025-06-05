@@ -9,16 +9,14 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 25813946-e338-4dd9-b02c-d20fa18c539c
-source-git-commit: 137d7112c051322c191488463e52abdd73e50d1f
+source-git-commit: aa2bef064df3ff7dd9e4fd896ac7482df3c55e32
 workflow-type: tm+mt
-source-wordcount: '2894'
-ht-degree: 91%
+source-wordcount: '2851'
+ht-degree: 92%
 
 ---
 
 # Importación de datos en Workfront mediante una plantilla de KickStart
-
-{{highlighted-preview}}
 
 <!--Audited: 12/2023-->
 
@@ -492,15 +490,7 @@ Para importar los datos de la hoja de cálculo de plantillas en Workfront:
 
 1. En la sección **Cargar datos con hoja de cálculo de KickStart**, haga clic en **Elegir archivo**, busque y seleccione la hoja de cálculo rellenada.
 
-   <div class="preview">
-
-   En el entorno de vista previa, el archivo se carga automáticamente y se muestra una notificación de que la importación se ha realizado correctamente.
-
-   Si el archivo de Excel tarda más de 5 minutos en cargarse en Workfront, la aplicación agota el tiempo de espera y Workfront no puede cargar el archivo. Intente importar los datos en lotes de objetos más pequeños.
-
-   </div>
-
-1. (Solo en el entorno de producción) Haga clic en **Cargar**.
+   El archivo se carga automáticamente y se muestra una notificación de que la importación se ha realizado correctamente.
 
    Si el archivo de Excel tarda más de 5 minutos en cargarse en Workfront, la aplicación agota el tiempo de espera y Workfront no puede cargar el archivo. Intente importar los datos en lotes de objetos más pequeños.
 

@@ -6,20 +6,16 @@ description: Puede eliminar problemas o solicitudes en Adobe Workfront si tiene 
 author: Alina
 feature: Work Management
 exl-id: 31cc802f-7fa6-420c-8494-a45313df1f10
-source-git-commit: 78b4724ca8d5df15ed76e9e882179e3cb127282c
+source-git-commit: aa2bef064df3ff7dd9e4fd896ac7482df3c55e32
 workflow-type: tm+mt
-source-wordcount: '767'
-ht-degree: 75%
+source-wordcount: '716'
+ht-degree: 79%
 
 ---
 
 # Eliminar problemas
 
 <!--Audited: 05/2025-->
-
-<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Las mismas funciones también estarán disponibles en el entorno de producción para todos los clientes una semana después de la versión de vista previa. </span>
-
-<span class="preview">Para obtener más información, consulte [Modernización de la interfaz](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).</span>
 
 Puede eliminar problemas o solicitudes en Adobe Workfront si tiene el acceso y los permisos correctos para hacerlo.
 
@@ -116,7 +112,7 @@ Según la forma en que el administrador de Workfront o de grupos configure las p
    A la derecha aparece una lista de problemas asociados con el proyecto seleccionado.
 1. Seleccione uno o varios problemas en la lista y, a continuación, haga clic en el icono **Eliminar** ![Eliminar icono](assets/delete.png) que se encuentra en la parte superior de la lista.
 
-1. Si la eliminación está permitida, haga clic en **<span class="preview">Eliminar</span>**.
+1. Si la eliminación está permitida, haga clic en **Eliminar**.
 
    Es posible que el administrador de Workfront no permita la eliminación de problemas en los que se registran horas.\
    Para obtener más información acerca del acceso y los permisos necesarios para eliminar un problema, consulte la sección [Consideraciones para eliminar problemas](#considerations-for-deleting-issues) en este artículo.
@@ -136,7 +132,7 @@ Según la forma en que el administrador de Workfront o de grupos configure las p
    ![Menú más de problemas](assets/qs-issue-more-menu-highlighted-350x469.png)
 
 1. Haga clic en **Eliminar problema**.
-1. Si la eliminación está permitida, haga clic en **<span class="preview">Eliminar</span>**.
+1. Si la eliminación está permitida, haga clic en **Eliminar**.
 
    Es posible que el administrador de Workfront no permita la eliminación de problemas en los que se registran horas.\
    Para obtener más información acerca del acceso y los permisos necesarios para eliminar un problema, consulte la sección [Consideraciones para eliminar problemas](#considerations-for-deleting-issues) en este artículo.
