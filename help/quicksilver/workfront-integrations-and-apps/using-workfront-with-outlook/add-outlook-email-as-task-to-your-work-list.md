@@ -6,7 +6,7 @@ description: Puede convertir [!DNL Outlook] correos electrónicos en [!DNL Adobe
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: fcd02116-ffeb-43d3-8541-5e30e6cfdc5e
-source-git-commit: b4b45bbc8bb68dbac35488c1777fca85fa0cc7e3
+source-git-commit: d9b0e6b1c2afd17cefe190f29a072634f0b0ce50
 workflow-type: tm+mt
 source-wordcount: '463'
 ht-degree: 22%
@@ -22,7 +22,6 @@ ht-degree: 22%
 >* **Después de que Microsoft deshabilite completamente estos tokens, la integración de Workfront para Microsoft Outlook dejará de funcionar.**
 >
 >Como parte de este cambio, Microsoft ha tomado la decisión de cambiar la forma en que se vuelven a habilitar los tokens. Después del **30 de junio de 2025**, los administradores ya no podrán volver a habilitar los tokens, solo el soporte de Microsoft puede conceder excepciones. **El 1 de octubre de 2025, los tokens heredados se desactivarán para todos los inquilinos. No se concederán excepciones.**
-
 
 
 Puede convertir [!DNL Outlook] correos electrónicos en [!DNL Adobe Workfront] tareas. Después de convertir un correo electrónico, la tarea estará disponible en su lista de [!UICONTROL Trabajar] en el área de [!UICONTROL Inicio].
