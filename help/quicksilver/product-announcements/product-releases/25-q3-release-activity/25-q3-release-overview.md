@@ -5,10 +5,10 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9342f393-a404-44b4-aad6-2c4cf634dfd5
-source-git-commit: 00710d009dca3dd9ae2f529a846c369e16d675b6
+source-git-commit: ca0a7403f8a8461d9d007afda1b1c88264da1c16
 workflow-type: tm+mt
-source-wordcount: '1168'
-ht-degree: 28%
+source-wordcount: '1283'
+ht-degree: 26%
 
 ---
 
@@ -251,7 +251,7 @@ Estamos actualizando la interfaz a través de Adobe Workfront para mejorar la ex
 
 ### Mejoras de Workfront Fusion
 
-Las nuevas funciones de Workfront Fusion están disponibles en el entorno de producción en una cadencia fuera de la programación de versiones estándar. Para obtener más información sobre las últimas funciones, consulte [Actividad de la versión de Adobe Workfront Fusion](https://experienceleague.adobe.com/es/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
+Las nuevas funciones de Workfront Fusion están disponibles en el entorno de producción en una cadencia fuera de la programación de versiones estándar. Para obtener más información sobre las últimas funciones, consulte [Actividad de la versión de Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
 
 ### Mejoras de Workfront Planning
 
@@ -270,6 +270,14 @@ No hay actualizaciones para lo siguiente en este punto de la versión:
 A medida que Microsoft cambia al cliente Nuevos equipos, el cliente Teams clásico dejará de estar disponible a partir del 1 de julio de 2025. Como preparación, estamos desarrollando una nueva versión de la integración de Microsoft Teams que será totalmente compatible con el cliente de Nuevos equipos y estará disponible antes del 1 de julio para garantizar una transición sin problemas.
 
 Las instrucciones sobre cómo descargar e instalar la integración en el cliente de New Teams estarán disponibles después de que se publique la integración.
+
+### Workfront para Microsoft Outlook
+
+[Microsoft está deshabilitando la compatibilidad con los tokens en línea heredados de Exchange](https://learn.microsoft.com/en-us/office/dev/add-ins/outlook/faq-nested-app-auth-outlook-legacy-tokens), que el complemento Outlook de Workfront usa actualmente para la autenticación. Este cambio de Microsoft ya ha comenzado a afectar a los clientes y seguirá implementándose por fases hasta octubre de 2025.
+
+* **Después de que Microsoft deshabilite completamente estos tokens, la integración de Workfront para Microsoft Outlook dejará de funcionar.**
+
+Como parte de este cambio, Microsoft ha tomado la decisión de cambiar la forma en que se vuelven a habilitar los tokens. Después del **30 de junio de 2025**, los administradores ya no podrán volver a habilitar los tokens, solo el soporte de Microsoft puede conceder excepciones. **El 1 de octubre de 2025, los tokens heredados se desactivarán para todos los inquilinos. No se concederán excepciones.**
 
 ### Versión 20 de la API
 
