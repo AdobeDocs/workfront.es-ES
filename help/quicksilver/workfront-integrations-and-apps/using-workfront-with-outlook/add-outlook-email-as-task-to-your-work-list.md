@@ -6,14 +6,24 @@ description: Puede convertir [!DNL Outlook] correos electrónicos en [!DNL Adobe
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: fcd02116-ffeb-43d3-8541-5e30e6cfdc5e
-source-git-commit: 16acba0f1981b75ca141a36d096fb6f5d37c40d1
+source-git-commit: b4b45bbc8bb68dbac35488c1777fca85fa0cc7e3
 workflow-type: tm+mt
-source-wordcount: '352'
-ht-degree: 0%
+source-wordcount: '463'
+ht-degree: 22%
 
 ---
 
 # Agregar un correo electrónico [!DNL Outlook] como tarea a su lista de trabajos
+
+>[!IMPORTANT]
+>
+>[Microsoft está deshabilitando la compatibilidad con los tokens en línea heredados de Exchange](https://learn.microsoft.com/en-us/office/dev/add-ins/outlook/faq-nested-app-auth-outlook-legacy-tokens), que el complemento Outlook de Workfront usa actualmente para la autenticación. Este cambio de Microsoft ya ha comenzado a afectar a los clientes y seguirá implementándose por fases hasta octubre de 2025.
+>
+>* **Después de que Microsoft deshabilite completamente estos tokens, la integración de Workfront para Microsoft Outlook dejará de funcionar.**
+>
+>Como parte de este cambio, Microsoft ha tomado la decisión de cambiar la forma en que se vuelven a habilitar los tokens. Después del **30 de junio de 2025**, los administradores ya no podrán volver a habilitar los tokens, solo el soporte de Microsoft puede conceder excepciones. **El 1 de octubre de 2025, los tokens heredados se desactivarán para todos los inquilinos. No se concederán excepciones.**
+
+
 
 Puede convertir [!DNL Outlook] correos electrónicos en [!DNL Adobe Workfront] tareas. Después de convertir un correo electrónico, la tarea estará disponible en su lista de [!UICONTROL Trabajar] en el área de [!UICONTROL Inicio].
 
@@ -31,7 +41,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licencia*</td> 
-   <td> <p>[!UICONTROL Trabajo], [!UICONTROL Plan]</p> </td> 
+   <td> <p>[!UICONTROL Work], [!UICONTROL Plan]</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -60,7 +70,7 @@ El administrador de [!DNL Workfront] debe habilitar [!DNL Outlook for Office] co
    * **[!UICONTROL Descripción]:** De forma predeterminada, la descripción es la misma que el cuerpo del correo electrónico. Puede modificar la descripción como desee.
    * **[!UICONTROL Archivos adjuntos]:** Los archivos adjuntos de los mensajes de correo electrónico se guardarán en el área de [!UICONTROL Documentos] de la tarea. Puede eliminar los archivos adjuntos antes de guardar el correo electrónico como una tarea.
 
-1. Haga clic en **[!UICONTROL Agregar]**.\
+1. Haga clic en **[!UICONTROL Add]**.\
    La tarea se agrega a la [!UICONTROL Lista de trabajos] en su área de Inicio sin fecha de confirmación.
 
 1. (Opcional) Haga clic en **[!UICONTROL Ver en Workfront]** para mostrar la tarea dentro de la aplicación [!DNL Workfront] en una nueva pestaña.

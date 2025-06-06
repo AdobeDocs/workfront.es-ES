@@ -8,16 +8,25 @@ author: Becky
 feature: Workfront Integrations and Apps
 recommendations: noDisplay, noCatalog
 exl-id: c374416e-9680-4725-ab2d-256dff6f03b1
-source-git-commit: a411c1ddf0c6d19dc7f6e181cceeebba5504530c
+source-git-commit: b4b45bbc8bb68dbac35488c1777fca85fa0cc7e3
 workflow-type: tm+mt
-source-wordcount: '109'
-ht-degree: 87%
+source-wordcount: '220'
+ht-degree: 43%
 
 ---
 
 # [!DNL Adobe Workfront for Outlook: article index]
 
 <!-- Audited: 5/2025 -->
+
+>[!IMPORTANT]
+>
+>[Microsoft está deshabilitando la compatibilidad con los tokens en línea heredados de Exchange](https://learn.microsoft.com/en-us/office/dev/add-ins/outlook/faq-nested-app-auth-outlook-legacy-tokens), que el complemento Outlook de Workfront usa actualmente para la autenticación. Este cambio de Microsoft ya ha comenzado a afectar a los clientes y seguirá implementándose por fases hasta octubre de 2025.
+>
+>* **Después de que Microsoft deshabilite completamente estos tokens, la integración de Workfront para Microsoft Outlook dejará de funcionar.**
+>
+>Como parte de este cambio, Microsoft ha tomado la decisión de cambiar la forma en que se vuelven a habilitar los tokens. Después del **30 de junio de 2025**, los administradores ya no podrán volver a habilitar los tokens, solo el soporte de Microsoft puede conceder excepciones. **El 1 de octubre de 2025, los tokens heredados se desactivarán para todos los inquilinos. No se concederán excepciones.**
+
 
 Esta sección contiene los siguientes artículos:
 

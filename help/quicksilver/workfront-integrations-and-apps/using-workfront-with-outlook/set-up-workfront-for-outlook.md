@@ -6,16 +6,25 @@ description: El complemento  [!DNL Adobe Workfront] [!DNL Outlook] le permite re
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 57f0560b-68c2-4654-863e-bd728e76da29
-source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
+source-git-commit: b4b45bbc8bb68dbac35488c1777fca85fa0cc7e3
 workflow-type: tm+mt
-source-wordcount: '686'
-ht-degree: 92%
+source-wordcount: '797'
+ht-degree: 79%
 
 ---
 
 # Configurar [!DNL Adobe Workfront for Outlook]
 
 <!-- Audited: 12/2023 -->
+
+>[!IMPORTANT]
+>
+>[Microsoft está deshabilitando la compatibilidad con los tokens en línea heredados de Exchange](https://learn.microsoft.com/en-us/office/dev/add-ins/outlook/faq-nested-app-auth-outlook-legacy-tokens), que el complemento Outlook de Workfront usa actualmente para la autenticación. Este cambio de Microsoft ya ha comenzado a afectar a los clientes y seguirá implementándose por fases hasta octubre de 2025.
+>
+>* **Después de que Microsoft deshabilite completamente estos tokens, la integración de Workfront para Microsoft Outlook dejará de funcionar.**
+>
+>Como parte de este cambio, Microsoft ha tomado la decisión de cambiar la forma en que se vuelven a habilitar los tokens. Después del **30 de junio de 2025**, los administradores ya no podrán volver a habilitar los tokens, solo el soporte de Microsoft puede conceder excepciones. **El 1 de octubre de 2025, los tokens heredados se desactivarán para todos los inquilinos. No se concederán excepciones.**
+
 
 El complemento [!DNL Adobe Workfront] [!DNL Outlook] le permite realizar las siguientes tareas clave de [!DNL Workfront] directamente desde Outlook:
 

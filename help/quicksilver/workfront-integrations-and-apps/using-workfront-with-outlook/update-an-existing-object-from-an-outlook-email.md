@@ -2,20 +2,29 @@
 product-area: workfront-integrations;projects
 navigation-topic: workfront-for-outlook
 title: Actualizar un objeto existente desde un correo electrónico de Outlook
-description: Puede actualizar un proyecto, tarea o problema existente con información de un correo electrónico de Outlook.
+description: Puede actualizar un proyecto, tarea o problema existente con información proveniente de un correo electrónico de Outlook.
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 297eb1c4-ee9f-4bb3-a412-18f23c74b0eb
-source-git-commit: 16acba0f1981b75ca141a36d096fb6f5d37c40d1
+source-git-commit: b4b45bbc8bb68dbac35488c1777fca85fa0cc7e3
 workflow-type: tm+mt
-source-wordcount: '444'
-ht-degree: 0%
+source-wordcount: '555'
+ht-degree: 80%
 
 ---
 
 # Actualizar un objeto existente de un correo electrónico de [!DNL Outlook]
 
-Puede actualizar un proyecto, tarea o problema existente con información de un correo electrónico de [!DNL Outlook].
+>[!IMPORTANT]
+>
+>[Microsoft está deshabilitando la compatibilidad con los tokens en línea heredados de Exchange](https://learn.microsoft.com/en-us/office/dev/add-ins/outlook/faq-nested-app-auth-outlook-legacy-tokens), que el complemento Outlook de Workfront usa actualmente para la autenticación. Este cambio de Microsoft ya ha comenzado a afectar a los clientes y seguirá implementándose por fases hasta octubre de 2025.
+>
+>* **Después de que Microsoft deshabilite completamente estos tokens, la integración de Workfront para Microsoft Outlook dejará de funcionar.**
+>
+>Como parte de este cambio, Microsoft ha tomado la decisión de cambiar la forma en que se vuelven a habilitar los tokens. Después del **30 de junio de 2025**, los administradores ya no podrán volver a habilitar los tokens, solo el soporte de Microsoft puede conceder excepciones. **El 1 de octubre de 2025, los tokens heredados se desactivarán para todos los inquilinos. No se concederán excepciones.**
+
+Puede actualizar un proyecto, tarea o problema existente con la información de un correo electrónico de [!DNL Outlook].
+
 
 ## Requisitos de acceso
 
@@ -31,7 +40,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licencia*</td> 
-   <td> <p>[!UICONTROL Trabajo], [!UICONTROL Plan]</p> </td> 
+   <td> <p>[!UICONTROL Work], [!UICONTROL Plan]</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -40,13 +49,13 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 ## Requisitos previos
 
-El administrador de [!DNL Workfront] debe habilitar [!DNL Outlook for Office] con [!DNL Workfront] para poder usar esta integración.
+El administrador de [!DNL Workfront] debe habilitar [!DNL Outlook for Office] con [!DNL Workfront] antes de poder usar esta integración.
 
-## Actualizar un objeto existente de un correo electrónico de [!DNL Outlook]
+## Actualizar un objeto existente desde un correo electrónico de [!DNL Outlook]
 
-1. En [!DNL Outlook], seleccione el correo electrónico que contiene la información que desea incluir en un [!DNL Adobe Workfront update].
+1. En [!DNL Outlook], seleccione el correo electrónico que contiene la información que desea incluir en una [!DNL Adobe Workfront update].
 1. Haga clic en el icono **[!DNL Workfront]** en la esquina superior derecha del mensaje de correo electrónico para mostrar el complemento de Workfront.\
-   Es posible que deba hacer clic en la flecha hacia abajo situada en la parte superior derecha del correo electrónico para acceder al icono [!DNL Workfront].
+   Es posible que deba hacer clic en la flecha hacia abajo situada en la parte superior derecha del correo electrónico para acceder al icono de [!DNL Workfront].
 
 1. Haga clic en el icono **[!UICONTROL Menú]** ![o365_addin_menu_icon.png](assets/o365-addin-menu2-icon.png) para mostrar la lista de opciones de [!DNL Workfront] disponibles.\
 
@@ -54,27 +63,27 @@ El administrador de [!DNL Workfront] debe habilitar [!DNL Outlook for Office] co
 1. Haga clic en **[!UICONTROL Actualizar] en Workfront**.\
    Puede actualizar la siguiente información del correo electrónico antes de guardarlo como una tarea:
 
-   * **[!UICONTROL Tipo]**: seleccione el tipo de objeto que está actualizando. Puede seleccionar **[!UICONTROL Proyecto]**, **[!UICONTROL Tarea]** o **[!UICONTROL Problema]**. El objeto que seleccione determina los resultados que se muestran en el campo **[!UICONTROL Nombre]** siguiente. Si no está seguro del tipo de objeto, seleccione **[!UICONTROL Todos]** para buscar proyectos, tareas y problemas simultáneamente.
+   * **[!UICONTROL Tipo]**: seleccione el tipo de objeto que está actualizando. Puede seleccionar **[!UICONTROL Proyecto]**, **[!UICONTROL Tarea]** o **[!UICONTROL Problema]**. El objeto que seleccione determina los resultados que se muestran en el campo **[!UICONTROL Nombre]** siguiente. Si no está seguro del tipo de objeto, seleccione **[!UICONTROL Todo]** para buscar proyectos, tareas y problemas simultáneamente.
 
-   * **[!UICONTROL Nombre]**: empiece a escribir el nombre del proyecto, tarea o problema que desea actualizar. Haga clic en el nombre cuando aparezca en la lista desplegable.
-   * **[!UICONTROL Actualización]**: de forma predeterminada, la actualización es la misma que el Cuerpo del correo electrónico. Puede modificar la actualización como desee.\
+   * **[!UICONTROL Nombre]**: empiece a escribir el nombre del proyecto, tarea o problema que desea actualizar. Haga clic sobre el nombre cuando aparezca en la lista.
+   * **[!UICONTROL Actualización]**: de forma predeterminada, la actualización es la misma que el cuerpo del correo electrónico. Puede modificar la actualización como desee.\
 
      Esta [!UICONTROL actualización] se muestra como el estado de actualización en Workfront.
 
    * **[!UICONTROL Archivos adjuntos]**: todos los archivos adjuntos de los correos electrónicos se guardan en el área de [!UICONTROL Documentos] de la tarea. Puede eliminar los archivos adjuntos antes de enviar la actualización.
 
 1. (Opcional) Haga clic en **[!UICONTROL Incluir otros]**, empiece a escribir el nombre de los usuarios que desea incluir en la actualización y, a continuación, haga clic en el nombre cuando aparezca en la lista desplegable.\
-   Repita este proceso para incluir usuarios adicionales y luego haga clic en **[!UICONTROL Listo]**.\
+   Repita este proceso para incluir usuarios adicionales y, a continuación, haga clic en **[!UICONTROL Listo]**.\
    De forma predeterminada, el usuario al que responde recibe una notificación independientemente de si los incluye o no.\
 
-1. (Opcional) Haga clic en el icono **[!UICONTROL Bloquear]** para restringir esta actualización a los usuarios de su compañía. Cuando la actualización está bloqueada, los usuarios que no pertenezcan a su empresa no podrán ver la actualización.
+1. (Opcional) Haga clic en el icono **[!UICONTROL Bloqueado]** para restringir esta actualización a los usuarios de su compañía. Cuando la actualización está bloqueada, los usuarios que no pertenezcan a su compañía no podrán verla.
 
-   * **[!UICONTROL Desbloqueado]:** Cualquier usuario con acceso al proyecto, tarea o problema en el que reside la actualización puede ver la actualización.\
+   * **[!UICONTROL Desbloqueado]:** cualquier usuario con acceso al proyecto, tarea o problema en el que reside la actualización puede verla.\
 
      De forma predeterminada, la actualización está desbloqueada.\
-      ![o365_addin_desbloquear.png](assets/o365-addin-unlock.png)
+      ![o365_addin_unlock.png](assets/o365-addin-unlock.png)
 
-   * **[!UICONTROL Bloqueado]:** Solo los usuarios de su compañía pueden ver la actualización.\
+   * **[!UICONTROL Bloqueado]:** solo los usuarios de su compañía pueden ver la actualización.\
 
      ![o365_addin_lock.png](assets/o365-addin-lock.png)
 

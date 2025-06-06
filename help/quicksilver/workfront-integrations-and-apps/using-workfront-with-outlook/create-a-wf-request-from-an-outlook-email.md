@@ -1,19 +1,28 @@
 ---
 product-area: workfront-integrations;projects
 navigation-topic: workfront-for-outlook
-title: Crear una  [!DNL Adobe Workfront] solicitud a partir de un correo electrónico de Outlook
-description: Puede crear una  [!DNL Adobe Workfront] solicitud a partir de un correo electrónico en Outlook.
+title: Crear una [!DNL Adobe Workfront] solicitud a partir de un correo electrónico de Outlook
+description: Puede crear una [!DNL Adobe Workfront] solicitud a partir de un correo electrónico en Outlook.
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 4ecfe632-5f2e-4dc2-8c88-6a8229887f53
-source-git-commit: 16acba0f1981b75ca141a36d096fb6f5d37c40d1
+source-git-commit: b4b45bbc8bb68dbac35488c1777fca85fa0cc7e3
 workflow-type: tm+mt
-source-wordcount: '372'
-ht-degree: 0%
+source-wordcount: '483'
+ht-degree: 77%
 
 ---
 
 # Crear una solicitud [!DNL Adobe Workfront] a partir de un correo electrónico de [!UICONTROL Outlook]
+
+>[!IMPORTANT]
+>
+>[Microsoft está deshabilitando la compatibilidad con los tokens en línea heredados de Exchange](https://learn.microsoft.com/en-us/office/dev/add-ins/outlook/faq-nested-app-auth-outlook-legacy-tokens), que el complemento Outlook de Workfront usa actualmente para la autenticación. Este cambio de Microsoft ya ha comenzado a afectar a los clientes y seguirá implementándose por fases hasta octubre de 2025.
+>
+>* **Después de que Microsoft deshabilite completamente estos tokens, la integración de Workfront para Microsoft Outlook dejará de funcionar.**
+>
+>Como parte de este cambio, Microsoft ha tomado la decisión de cambiar la forma en que se vuelven a habilitar los tokens. Después del **30 de junio de 2025**, los administradores ya no podrán volver a habilitar los tokens, solo el soporte de Microsoft puede conceder excepciones. **El 1 de octubre de 2025, los tokens heredados se desactivarán para todos los inquilinos. No se concederán excepciones.**
+
 
 Puede crear una solicitud [!DNL Adobe Workfront] a partir de un correo electrónico en Outlook.
 
@@ -37,7 +46,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licencia*</td> 
-   <td> <p>[!UICONTROL Trabajo], [!UICONTROL Plan]</p> </td> 
+   <td> <p>[!UICONTROL Work], [!UICONTROL Plan]</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -64,14 +73,14 @@ Para crear una solicitud [!DNL Workfront] a partir de [!DNL Outlook]:
 1. Especifique la siguiente información:\
    Los campos disponibles pueden variar en función de cómo se haya configurado la cola de solicitudes. Para obtener una lista y una descripción completas de los campos posibles, consulte el artículo [Crear y enviar [!DNL Adobe Workfront] solicitudes](../../manage-work/requests/create-requests/create-submit-requests.md).
 
-   * **[!UICONTROL Asunto]:** Especifique un asunto para la solicitud. De forma predeterminada, se utiliza el asunto del correo electrónico.
-   * **[!UICONTROL Descripción]:** Especifique una descripción para la solicitud. De forma predeterminada, se utiliza el cuerpo del correo electrónico.
-   * **[!UICONTROL Documentos]:** Adjunte cualquier documento que desee incluir en la solicitud. Puede adjuntar documentos arrastrando y soltando o haciendo clic en **[!UICONTROL Seleccionar archivo]** y buscando y seleccionando el documento.\
+   * **[!UICONTROL Asunto]:** especifique un asunto para la solicitud. De forma predeterminada, se utiliza el asunto del correo electrónico.
+   * **[!UICONTROL Descripción]:** especifique una descripción para la solicitud. De forma predeterminada, se utiliza el cuerpo del correo electrónico.
+   * **[!UICONTROL Documentos]:** adjunte cualquier documento que desee incluir en la solicitud. Puede adjuntar documentos arrastrando y soltando o haciendo clic en **[!UICONTROL Seleccionar archivo]** y buscando y seleccionando el documento.\
 
      De forma predeterminada, todos los documentos adjuntos al correo electrónico se incluyen en la solicitud.
 
 1. Haga clic en **[!UICONTROL Enviar solicitud]**.\
-   La solicitud se envió a [!DNL Workfront], en la cola de solicitudes especificada.
+   La solicitud se ha enviado a [!DNL Workfront], en la cola de solicitudes especificada.
 
 1. (Opcional) Vuelva a [!DNL Outlook] y seleccione el correo electrónico original.\
-   En la parte superior del panel del complemento [!DNL Workfront], observe la confirmación con un vínculo de que el correo electrónico se agregó a Workfront como una solicitud. El vínculo incluye la fecha en la que se convirtió.\
+   En la parte superior del panel del complemento de [!DNL Workfront], observe la confirmación con un vínculo de que el correo electrónico se añadió a Workfront como una solicitud. El vínculo incluye la fecha en la que se convirtió.\

@@ -2,20 +2,29 @@
 product-area: workfront-integrations
 navigation-topic: workfront-for-outlook
 title: Ver información adicional sobre Adobe Workfront para Outlook y cerrar la sesión
-description: Puede ver detalles sobre la versión del complemento de Adobe Workfront para Outlook, desplazarse directamente a la versión web, enviar comentarios o cerrar la sesión.
+description: Puede ver detalles sobre la versión del complemento de Adobe Workfront para Outlook, ir directamente a la versión web, enviar comentarios o cerrar la sesión.
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: f2200d71-c81e-4b15-b631-07e08562609b
-source-git-commit: 16acba0f1981b75ca141a36d096fb6f5d37c40d1
+source-git-commit: b4b45bbc8bb68dbac35488c1777fca85fa0cc7e3
 workflow-type: tm+mt
-source-wordcount: '205'
-ht-degree: 0%
+source-wordcount: '316'
+ht-degree: 64%
 
 ---
 
 # Ver información adicional acerca de [!DNL Adobe Workfront for Outlook] y cerrar la sesión
 
-Puede ver detalles sobre la versión del complemento [!DNL Adobe Workfront] para [!DNL Outlook], navegar directamente a la versión web, enviar comentarios o cerrar la sesión.
+>[!IMPORTANT]
+>
+>[Microsoft está deshabilitando la compatibilidad con los tokens en línea heredados de Exchange](https://learn.microsoft.com/en-us/office/dev/add-ins/outlook/faq-nested-app-auth-outlook-legacy-tokens), que el complemento Outlook de Workfront usa actualmente para la autenticación. Este cambio de Microsoft ya ha comenzado a afectar a los clientes y seguirá implementándose por fases hasta octubre de 2025.
+>
+>* **Después de que Microsoft deshabilite completamente estos tokens, la integración de Workfront para Microsoft Outlook dejará de funcionar.**
+>
+>Como parte de este cambio, Microsoft ha tomado la decisión de cambiar la forma en que se vuelven a habilitar los tokens. Después del **30 de junio de 2025**, los administradores ya no podrán volver a habilitar los tokens, solo el soporte de Microsoft puede conceder excepciones. **El 1 de octubre de 2025, los tokens heredados se desactivarán para todos los inquilinos. No se concederán excepciones.**
+
+
+Puede ver detalles sobre la versión del complemento [!DNL Adobe Workfront] para [!DNL Outlook], ir directamente a la versión web, enviar comentarios o cerrar la sesión.
 
 ## Requisitos de acceso
 
@@ -31,7 +40,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licencia*</td> 
-   <td> <p>[!UICONTROL Trabajo], [!UICONTROL Plan]</p> </td> 
+   <td> <p>[!UICONTROL Work], [!UICONTROL Plan]</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -44,15 +53,15 @@ El administrador de [!DNL Workfront] debe habilitar [!DNL Outlook for Office] co
 
 ## Ver información adicional acerca de [!DNL Adobe Workfront for Outlook] y cerrar la sesión
 
-1. Seleccionar un correo electrónico en [!DNL Outlook].
+1. Seleccione un correo electrónico en [!DNL Outlook].
 1. Haga clic en el icono **[!DNL Workfront]** para mostrar el complemento de Workfront.
 1. Haga clic en la flecha desplegable situada junto al nombre de usuario.
 
 1. Haga clic en una de las siguientes opciones:
 
-   * **[!UICONTROL Acerca de]:** Vea información sobre el complemento de Workfront, incluida la versión actual, las novedades y un vínculo a información de procedimientos en el sitio de Ayuda de Workfront.
-   * **[!UICONTROL Versión web]:** Inicie la aplicación Workfront completa en una nueva ventana del explorador.
-   * **Enviar comentarios:** Enviar comentarios a [!DNL Workfront] con respecto al complemento de Workfront.
-   * **[!UICONTROL Cerrar sesión]:** Cierre la sesión del complemento [!DNL Workfront].
+   * **[!UICONTROL Sobre]:** permite ver información sobre el complemento de Workfront, incluida la versión actual, las novedades y un vínculo a la información sobre instrucciones en el sitio de Ayuda de Workfront.
+   * **[!UICONTROL Web Version]:** permite iniciar la aplicación Workfront completa en una nueva ventana del explorador.
+   * **Enviar comentarios:** permite enviar comentarios a [!DNL Workfront] con respecto al complemento de Workfront.
+   * **[!UICONTROL Cerrar sesión]:** permite cerrar la sesión del complemento [!DNL Workfront].
 
-     Esta opción no lo cierra de [!DNL Outlook].
+     Esta opción no cierra su sesión en [!DNL Outlook].
