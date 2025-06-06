@@ -7,10 +7,10 @@ description: Si lo desea, puede añadir una columna de entrada al tablero que re
 author: Courtney
 feature: Agile
 exl-id: 4991f4f7-6f3d-4e15-ae8d-96433ed46557
-source-git-commit: a9dbfe21337be9cd9929f4e982e4979265ca14e1
+source-git-commit: 0ff02569d3c7fb532a2faafc46fe4235ce77acd4
 workflow-type: tm+mt
-source-wordcount: '1070'
-ht-degree: 68%
+source-wordcount: '1033'
+ht-degree: 69%
 
 ---
 
@@ -84,16 +84,10 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
 1. Seleccione la sección **Board**. Aparecerán nuevos campos.
 1. Activar **introducir elementos de forma dinámica en el tablero**. La columna de entrada en blanco aparece en el lado izquierdo del tablero.
 
-   ![Opciones de filtro simple de columna de entrada](assets/intake-column-simple-filters.png)
+   ![Opciones de filtro simple de columna de entrada](assets/board-section.png)
 
 1. (Opcional) Busque y seleccione [!DNL Workfront] [!UICONTROL **Proyectos**].
 1. (Opcional) Busque y seleccione el usuario o equipo [!UICONTROL **asignaciones**].
-1. Seleccione [!UICONTROL **Incluir el trabajo completado**] para mostrar las tareas y los problemas con el estado Completado en la columna de entrada.
-
-   >[!NOTE]
-   >
-   >Si esta opción no está seleccionada, cuando las tarjetas en otros estados se marquen como completadas, no se mostrarán en el tablero.
-
 1. Haga clic en **Aplicar**. Los objetos aparecen en la columna de entrada del tablero como tarjetas conectadas.
 
    ![Columna de entrada](assets/intake-column-added3.png)
