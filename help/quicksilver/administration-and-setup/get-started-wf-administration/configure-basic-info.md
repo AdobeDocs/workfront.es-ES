@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: bad5e700-79a6-49ed-bcf9-f0b5b3eaa909
-source-git-commit: caaba90f4cdd835e1a1fddf16bcefa30995cca0d
+source-git-commit: 83d236a4d50c0eef7062f161757d2f9fe6bc4e06
 workflow-type: tm+mt
-source-wordcount: '847'
-ht-degree: 2%
+source-wordcount: '829'
+ht-degree: 13%
 
 ---
 
@@ -33,7 +33,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plan de Adobe Workfront</td> 
+   <td role="rowheader">Plan de Adobe Workfront</td> 
    <td>Cualquiera</td> 
   </tr> 
   <tr> 
@@ -50,7 +50,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  </tbody> 
 </table>
 
-Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -80,9 +80,14 @@ Para acceder a la página Información del cliente:
 
      Para obtener información acerca de cómo agregar direcciones IP a la lista de permitidos para que los usuarios tengan acceso a Workfront, consulte [Configuración de la lista de permitidos del firewall](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
 
-   * **Licencia**
+   * **Lista de permitidos por correo electrónico**
 
-     Para obtener información sobre las licencias, consulte [Administrar licencias disponibles en el sistema](../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md).
+     Para obtener información sobre cómo agregar correos electrónicos a la lista de permitidos, consulte [Configuración de la lista de permitidos por correo electrónico](/help/quicksilver/administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md).
+
+   <!--
+   * **License**
+
+     For information about licenses, see [Manage available licenses in your system](../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md).-->
 
 ## Configurar información básica {#configure-basic-info}
 
@@ -125,7 +130,7 @@ Para configurar la sección Información básica en el área Información del cl
        </ul> <p>Los usuarios pueden modificar la zona horaria de su instancia de Workfront en su perfil. Cuando los usuarios modifican su zona horaria, la fecha y la hora de sus correos electrónicos desde Workfront coinciden con sus preferencias de perfil. Para obtener más información acerca de cómo modificar las preferencias del perfil de usuario, vea <a href="../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md" class="MCXref xref">Configurar mis opciones</a>. Se selecciona como zona horaria predeterminada al crear una nueva programación. Para obtener más información acerca de cómo crear programaciones, vea <a href="../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">Crear una programación</a>.</p> <p>Para obtener información sobre cómo usar las programaciones para ayudar a los usuarios a colaborar en Workfront en diferentes zonas horarias, consulte <a href="../../workfront-basics/tips-tricks-and-troubleshooting/working-across-timezones.md" class="MCXref xref">Uso entre zonas horarias</a>.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Configuración regional</td> 
+      <td role="rowheader">Configuración regional predeterminada del correo electrónico</td> 
       <td>Controla el idioma, la fecha y el formato de número utilizado en los mensajes de correo electrónico salientes. La configuración regional seleccionada aquí es la predeterminada cuando se crean nuevos usuarios. Los usuarios pueden modificar su configuración regional en el perfil de usuario. Cuando los usuarios modifican su configuración regional, el idioma, la fecha y el formato de número de sus correos electrónicos de Workfront coinciden con sus preferencias de perfil. Para obtener más información acerca de cómo modificar las preferencias de perfil, consulte <a href="../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md" class="MCXref xref">Configurar mi configuración</a>.</td> 
      </tr> 
      <tr> 
@@ -135,11 +140,7 @@ Para configurar la sección Información básica en el área Información del cl
         <li>Documentos que vincula a Workfront desde cualquier otro proveedor de servicios de terceros (SharePoint, Google Drive, Webdam, Box, Dropbox o cualquier otro proveedor de administración de recursos de documentos).</li> 
         <li>Sus datos de Workfront (proyectos, tareas, problemas, usuarios, etc.).</li> 
        </ul> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Versión del producto</td> 
-      <td>Este es el tipo de instancia de Workfront que se le ha asignado. La versión del producto para la mayoría de los clientes de Workfront es <strong>Enterprise</strong>.</td> 
-     </tr> 
+     </tr>
     </tbody> 
    </table>
 
