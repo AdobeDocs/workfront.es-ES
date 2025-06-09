@@ -6,10 +6,10 @@ description: Si se le asigna a un documento en calidad de aprobador, puede tomar
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 5490973b-99a7-4790-9d89-bf8f16ff5765
-source-git-commit: 40c28e7efa61475c186d7f3fabda35a7257baf27
+source-git-commit: 1f7a17206ca77442b501f121f3333d4b60aa85f1
 workflow-type: tm+mt
-source-wordcount: '1246'
-ht-degree: 77%
+source-wordcount: '1247'
+ht-degree: 75%
 
 ---
 
@@ -74,7 +74,8 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
    >[!NOTE]
    >
-   >Las aprobaciones asignadas a funciones o grupos no se enumeran en Inicio. Las aprobaciones asignadas a equipos se muestran en la agrupación de solicitudes de equipo de la lista de trabajos.
+   >* Las aprobaciones asignadas a roles o grupos de trabajos no aparecen en Inicio.
+   >* Las aprobaciones asignadas a los equipos se muestran en el widget Mis aprobaciones de cada miembro del equipo individual en Inicio.
 
 1. Haga clic en la aprobación del documento de la lista para el que desea tomar una decisión de aprobación. La información sobre la aprobación aparecerá en la parte derecha de la página.
 
