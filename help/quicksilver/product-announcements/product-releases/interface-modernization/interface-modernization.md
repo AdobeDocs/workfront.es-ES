@@ -5,7 +5,7 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: c5cf44d1e68aebdb5b61d2588a8cefc088b6d2a2
+source-git-commit: b011ee9afcce273c82c1f7d93ca86dfde035a497
 workflow-type: tm+mt
 source-wordcount: '4126'
 ht-degree: 2%
@@ -239,7 +239,9 @@ Hemos actualizado el aspecto de los elementos restaurados recientemente en el á
 
 Para ver este cambio, vaya a Configuración > Papelera de reciclaje > Restaurados recientemente.
 
-Para obtener más información, consulte [Ver elementos restaurados](/help/quicksilver/administration-and-setup/manage-workfront/manage-deleted-items/view-restored-items.md).### Actualizaciones de la interfaz del área de Administración de recursos en Configuración
+Para obtener más información, consulte [Ver elementos restaurados](/help/quicksilver/administration-and-setup/manage-workfront/manage-deleted-items/view-restored-items.md).
+
+### Actualizaciones de la interfaz del área Administración de recursos en Configuración
 
 **Versión preliminar: 17 de abril de 2025; a partir del 17 de abril de 2025**
 
