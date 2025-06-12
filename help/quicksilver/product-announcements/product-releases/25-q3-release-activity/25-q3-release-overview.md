@@ -5,10 +5,10 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9342f393-a404-44b4-aad6-2c4cf634dfd5
-source-git-commit: 39762dbf34501f3cd967a2a766042086d18003c8
+source-git-commit: 26a97126bbe809bc5fdd40d52bce2e0763110bcb
 workflow-type: tm+mt
-source-wordcount: '1310'
-ht-degree: 25%
+source-wordcount: '1371'
+ht-degree: 24%
 
 ---
 
@@ -45,19 +45,38 @@ The <add release> release webinar will be held on <date>. You can [register for 
 * [Mejoras en el proyecto](#project-enhancements)
 * [Mejoras en la creación de informes](#reporting-enhancements)
 * [Mejoras de actualizaciones y notificaciones](#update-and-notification-enhancements)
+* [Mejoras en la integración]
 * [Otras mejoras](#other-enhancements)
 
-### Mejoras en la administración de documentos
+### Mejoras de corrección y administración de documentos
 
 <table style="table-layout:auto">
   <tbody>
     <tr>
-        <td><strong>Característica</strong>
+        <td><strong>Función</strong>
         </td>
         <td><strong>Vista previa</strong></td>
         <td><strong>Liberación rápida</strong></td>
         <td><strong>Trimestralmente</strong></td>
     </tr>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Nueva revisión e integración de GenStudio for Performance Marketing</a>
+            <p>Nos complace presentar una nueva integración entre Proofing y GenStudio for Performance Marketing. Con esta integración, puede 
+            <ul>
+            <li>Uso de plantillas de aprobación de Workfront para definir flujos de trabajo de aprobación
+            </li>
+             <li>Revisar el contenido de los borradores de GenStudio en el visor de pruebas
+            </li>
+             <li>Consulte revisar decisiones para su aprobación final y publicación en GenStudio 
+            </li>
+            </ul>
+            </p>
+        </td>
+        <td>viernes, 12 de junio de 2025</td>
+        <td>viernes, 12 de junio de 2025</td>
+        <td>viernes, 12 de junio de 2025</td>
+    </tr> 
     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Actualización del visor de corrección de escritorio</a><p>[!BADGE Off schedule]{type=Neutral}</p>
@@ -251,7 +270,7 @@ Estamos actualizando la interfaz a través de Adobe Workfront para mejorar la ex
 
 ### Mejoras de Workfront Fusion
 
-Las nuevas funciones de Workfront Fusion están disponibles en el entorno de producción en una cadencia fuera de la programación de versiones estándar. Para obtener más información sobre las últimas funciones, consulte [Actividad de la versión de Adobe Workfront Fusion](https://experienceleague.adobe.com/es/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
+Las nuevas funciones de Workfront Fusion están disponibles en el entorno de producción en una cadencia fuera de la programación de versiones estándar. Para obtener más información sobre las últimas funciones, consulte [Actividad de la versión de Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
 
 ### Mejoras de Workfront Planning
 

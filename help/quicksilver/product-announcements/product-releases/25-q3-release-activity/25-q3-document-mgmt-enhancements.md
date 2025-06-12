@@ -1,22 +1,42 @@
 ---
-title: Mejoras en la administración de documentos del tercer trimestre de 2025
-description: Mejoras en la administración de documentos del tercer trimestre de 2025
+title: Mejoras de revisión y administración de documentos en el tercer trimestre de 2025
+description: Mejoras de revisión y administración de documentos en el tercer trimestre de 2025
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4829d487-7041-447f-9a68-fb1acf467734
-source-git-commit: e73986702dac81d698f59caca76f6c7239ddeef8
+source-git-commit: 26a97126bbe809bc5fdd40d52bce2e0763110bcb
 workflow-type: tm+mt
-source-wordcount: '395'
-ht-degree: 11%
+source-wordcount: '496'
+ht-degree: 8%
 
 ---
 
-# Mejoras en la administración de documentos del tercer trimestre de 2025
+# Mejoras de revisión y administración de documentos en el tercer trimestre de 2025
 
 Esta página describe todas las mejoras realizadas en la administración de documentos con la versión del tercer trimestre de 2025 en el entorno de vista previa. Estas mejoras estarán disponibles en el entorno de producción, como se ha indicado.
 
 Para obtener una lista de todos los cambios disponibles en este punto del ciclo de la versión del tercer trimestre de 2025, consulte [Información general de la versión del tercer trimestre de 2025](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-release-overview.md).
+
+## Nueva integración de revisión y GenStudio for Performance Marketing
+
+>[!NOTE]
+>
+>* Lanzamiento de producción para todos los clientes: 12 de junio de 2025
+
+Nos complace presentar una nueva integración entre Proofing y GenStudio for Performance Marketing. Con esta integración, puede
+
+* Uso de plantillas de aprobación de Workfront para definir flujos de trabajo de aprobación
+
+* Revisar el contenido de los borradores en el visualizador de pruebas de Workfront
+
+* Consulte revisar decisiones para su aprobación final y publicación en GenStudio for Performance Marketing
+
+### Requisitos de integración
+
+Workfront y GenStudio for Performance Marketing deben implementarse en la misma organización de IMS.
+
+Para obtener más información, consulte [Introducción a la integración de GenStudio for Performance Marketing y Workfront Proof](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-genstudio.md).
 
 ## Actualización del visor de corrección de escritorio
 

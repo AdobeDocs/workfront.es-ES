@@ -2,30 +2,30 @@
 content-type: reference
 product-area: workfront-integrations
 navigation-topic: workfront-integrations-navigation-topic
-title: Introducción a la integración de pruebas y GenStudio for Performance Marketing
-description: Introducción a la integración de pruebas y GenStudio for Performance Marketing
+title: Introducción a la integración de GenStudio for Performance Marketing y Workfront Proof
+description: Introducción a la integración de GenStudio for Performance Marketing y Workfront Proof
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 recommendations: noDisplay, noCatalog
-hide: true
-hidefromtoc: true
 exl-id: 9905a522-9913-49c0-8c80-a8b46221fcbb
-source-git-commit: e67446c6fb3e90d5dc45dd446988e5d02291f775
+source-git-commit: 4b0ba0112138b91b12e10f4770ecab3db4e3fddb
 workflow-type: tm+mt
-source-wordcount: '476'
-ht-degree: 12%
+source-wordcount: '551'
+ht-degree: 9%
 
 ---
 
-# Introducción a la integración de pruebas y GenStudio for Performance Marketing
+# Introducción a la integración de GenStudio for Performance Marketing y Workfront Proof
 
-Con la integración entre Proofing y GenStudio for Performance Marketing, puede
+Con la integración entre GenStudio for Performance Marketing y Workfront Proof, puede
 
 * Uso de plantillas de prueba de Workfront para definir flujos de trabajo de revisión y aprobación
 
-* Revisar y aprobar el contenido de los borradores de GenStudio en el visor de pruebas
+* Revise y apruebe el contenido de borrador de GenStudio for Performance Marketing en el visualizador de pruebas de Workfront
 
-* Ver decisiones de revisión en GenStudio para su aprobación y publicación finales
+* Ver decisiones de revisión en GenStudio for Performance Marketing para su aprobación y publicación finales
+
+Para obtener más información acerca de la revisión y aprobación en GenStudio for Performance Marketing, consulte [Integración de Workfront Proof con GenStudio for Performance Marketing](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/approve/proof-integration).
 
 
 ## Requisitos de acceso
@@ -78,37 +78,35 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
 
 ## Habilitar la integración en Workfront
 
+Debe ser administrador del sistema para habilitar esta integración.
+
 1. Haga clic en el icono **[!UICONTROL Menú principal]** ![Menú principal](/help/_includes/assets/main-menu-icon-left-nav.png) en la esquina superior izquierda y, a continuación, haga clic en **[!UICONTROL Configuración]** ![Icono de configuración](/help/_includes/assets/gear-icon-setup.png).
 1. En el panel izquierdo, haga clic en **Revisar y aprobar** > **Adobe GenStudio**.
 1. Habilitar **Usar aprobaciones de revisión**.
-   ![habilitar revisión para GenStudio](assets/enable-proofing-gs.png)
+   ![habilitar revisión para la configuración de GenStudio](assets/enable-proofing-gs.png)
 
 ## Uso de plantillas de prueba de Workfront para definir flujos de trabajo de aprobación
 
 Si el proceso de revisión de contenido de su organización se repite con frecuencia o lo revisan las mismas personas, puede utilizar plantillas de prueba para automatizar los flujos de trabajo de revisión y aprobación.
 
+### Creación de una plantilla de prueba en Workfront
+
 Puede crear plantillas sencillas de una sola etapa para uno o dos revisores, o bien crear plantillas automatizadas de varias etapas para revisiones complejas con muchas fases y dependencias.
 
-Cuando un usuario inicia una revisión en GenStudio, simplemente elige la plantilla que necesita. Los usuarios pueden cambiar fácilmente cualquier plantilla de flujo de trabajo de prueba y agregar o eliminar revisores y fases en cualquier momento.
-
-Con las plantillas de flujo de trabajo de prueba, puede
-
-* Añada usuarios específicos y asigne a cada uno una función de prueba designada
-* Establecer una fecha límite
-* Elija cuándo se activa una fase
-* Bloquear fases una vez completadas
-* Requerir solo una decisión
-* Especificar un responsable principal de la toma de decisiones
-* y más
-
-Para obtener más información, consulte sobre plantillas y flujos de trabajo automatizados
+Para obtener más información sobre la creación de plantillas y flujos de trabajo automatizados en Workfront, consulte
 
 * [Información general sobre flujos de trabajo automatizados](/help/quicksilver/review-and-approve-work/proofing/proofing-overview/automated-workflow.md)
 * [Crear y administrar plantillas de flujo de trabajo automatizado](/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/create-manage-automated-workflow-templates.md)
 
-## Revisar y aprobar el contenido de los borradores de GenStudio en el visor de pruebas
+### Elija o modifique la plantilla en GenStudio for Performance Marketing
 
-Puede revisar y aprobar el contenido del borrador de GenStudio directamente en GenStudio en el visualizador de pruebas.
+Cuando un usuario inicia una revisión en GenStudio for Performance Marketing, simplemente elige la plantilla que necesita. Los usuarios pueden cambiar fácilmente cualquier plantilla de flujo de trabajo de prueba y agregar o eliminar revisores y fases en cualquier momento.
+
+Para obtener más información, vea [Solicitar revisión y aprobación](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/approve/request-review).
+
+## Revise y apruebe el contenido de borrador de GenStudio for Performance Marketing en el visualizador de pruebas de Workfront
+
+Puede revisar y aprobar el contenido del borrador directamente en GenStudio for Performance Marketing en el visualizador de pruebas de Workfront.
 
 Con el visualizador de pruebas, puede
 
@@ -116,10 +114,16 @@ Con el visualizador de pruebas, puede
 * Borrador de marcado para mostrar lo que debe cambiar
 * Tomar una decisión
 
-Para obtener más información acerca de la revisión y aprobación en GenStudio, vea <!--[Workfront Proof integration with GenStudio for Performance Marketing]().-->
+Para obtener más información, vea [Revisar y editar contenido](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/approve/review-and-edit).
 
-## Ver decisiones de revisión en GenStudio para su aprobación y publicación finales
 
-Una vez que el recurso ha pasado por el proceso de revisión y aprobación, puede ver la decisión de revisión y publicar el contenido directamente desde GenStudio.
+>[!IMPORTANT]
+>
+>Los usuarios deben instalar [Revisar contenido interactivo con la herramienta de revisión de Adobe Workfront](/help/quicksilver/review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/review-proof-in-web-viewer-extension.md) para poder empezar a revisar borradores en GenStudio for Performance Marketing.
 
-Para obtener más información, vea <!--[link to GS docs]().-->
+
+## Ver decisiones de revisión en GenStudio for Performance Marketing para su aprobación y publicación finales
+
+Una vez que el recurso ha pasado por el proceso de revisión y aprobación, puede ver la decisión de revisión y publicar el contenido directamente desde GenStudio for Performance Marketing.
+
+Para obtener más información, consulte [Publicar contenido aprobado](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/approve/publish-content).
