@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: b011ee9afcce273c82c1f7d93ca86dfde035a497
+source-git-commit: 6fa00a88f6620936ed9af00faf60f61d48c2f825
 workflow-type: tm+mt
-source-wordcount: '4126'
+source-wordcount: '4390'
 ht-degree: 2%
 
 ---
@@ -24,6 +24,16 @@ Para ver todos los demás cambios en Adobe Workfront, consulte [Versiones del pr
 
 
 ## Administración y configuración
+
+### Actualizaciones de la interfaz de la página Información del cliente
+
+**Versión preliminar: 12 de junio de 2025; versión de producción: 19 de junio de 2025**
+
+Hemos actualizado la página Información del cliente con un diseño más moderno y coherente con otras áreas de Workfront.
+
+Para ver este cambio, vaya a Configuración > Sistema > Información del cliente.
+
+Para obtener más información, consulte [Configurar información básica para el sistema](/help/quicksilver/administration-and-setup/get-started-wf-administration/configure-basic-info.md).
 
 ### Actualizaciones de la interfaz de la página Importar datos (Kick-Starts)
 
@@ -108,6 +118,22 @@ Hemos actualizado la página que utiliza para conceder acceso de soporte técnic
 
 ## Proyectos
 
+### Actualizaciones de la interfaz de la sección Proyectos asociados de un proyecto (solo disponible para clientes específicos)
+
+**Versión preliminar: 12 de junio de 2025; versión de producción: 19 de junio de 2025**
+
+Hemos actualizado la sección de Proyectos asociados de un proyecto con un diseño más moderno y coherente con otras áreas de Workfront.
+
+Determinados clientes pueden ver este cambio en la sección Proyectos asociados de un proyecto del panel izquierdo.
+
+### Nueva apariencia para el cuadro &quot;Guardar como plantilla&quot;
+
+**Versión preliminar: 12 de junio de 2025; versión de producción: 19 de junio de 2025**
+
+Hemos actualizado el aspecto del cuadro &quot;Guardar como plantilla&quot; que se muestra al guardar un proyecto como plantilla. El nuevo diseño incluye una interfaz optimizada, en la que todas las secciones se muestran en un formulario coherente que puede navegar mediante vínculos en el panel izquierdo. El nuevo diseño coincide con otras áreas y otros objetos de la aplicación.
+
+Para obtener más información, vea [Guardar un proyecto como plantilla](/help/quicksilver/manage-work/projects/manage-projects/save-project-as-template.md).
+
 ### Actualizaciones de aspecto y funcionamiento del cuadro Eliminar problema
 
 **Versión preliminar: 29 de mayo de 2025; versión de producción: 5 de junio de 2025**
@@ -150,6 +176,21 @@ Para obtener más información, consulte los siguientes artículos:
 
 
 ## Informes y paneles
+
+### Informes actualizados con nuevo estilo
+
+**Versión preliminar: 12 de junio de 2025; versión de producción: 19 de junio de 2025**
+
+Hemos actualizado el aspecto de varios informes para que coincida con el diseño de otras áreas de Workfront. No se ha cambiado ninguna funcionalidad.
+
+Esta actualización incluye cambios visuales en las listas y barras de herramientas de los informes para los siguientes tipos de objetos:
+
+* Riesgos
+* Líneas base
+* Tarifas
+* Plantillas de diseño
+
+Para obtener más información, consulte [Crear un informe personalizado](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
 ### Las direcciones URL con /tile o /qstile ya no se admiten en los paneles de Workfront
 

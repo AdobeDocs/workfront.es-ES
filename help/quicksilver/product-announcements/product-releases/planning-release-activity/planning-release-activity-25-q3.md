@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 6761f5af-2501-4487-8114-2751f1e4fe69
-source-git-commit: 686db6004d1a64279080ab3ba311c172a6a24d1f
+source-git-commit: 39762dbf34501f3cd967a2a766042086d18003c8
 workflow-type: tm+mt
-source-wordcount: '1308'
+source-wordcount: '1601'
 ht-degree: 3%
 
 ---
@@ -21,6 +21,62 @@ Este artículo describe las funciones que se lanzarán para Workfront Planning d
 <!--keep the sentence below for all future quarterly release pages-->
 
 Para obtener una lista de todas las características publicadas para Adobe Workfront Planning, consulte [Actividad de la versión de Adobe Workfront Planning: índice de artículo](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+
+## Disponibilidad de trimestres personalizados para la vista de cronología de Workfront Planning
+
+>[!NOTE]
+>
+>* Vista previa: viernes, 12 de junio de 2025
+>* Versión rápida de producción: 17 de julio de 2025
+>* Producción para todos los clientes: 17 de julio de 2025
+
+Con esta actualización, al configurar trimestres personalizados en el área Preferencias de proyecto de Configuración, los trimestres personalizados están disponibles para la vista Cronología en Workfront Planning.
+
+Antes de esta actualización, los trimestres personalizados solo estaban disponibles para las funciones de creación de informes de Workfront.
+
+Con esta mejora, los clientes que hayan adquirido Workfront Planning verán una experiencia actualizada para definir trimestres personalizados. Esta actualización incluye las siguientes mejoras:
+
+Ya no se aceptan los espacios y las superposiciones entre los trimestres.
+
+Puede configurar hasta 100 trimestres personalizados. Antes de esta actualización solo se podían configurar 8 trimestres personalizados
+
+No hay cambios en la experiencia del trimestre personalizado para los clientes que no han adquirido Workfront Planning.
+
+Para obtener más información, consulte [Habilitar trimestres personalizados para proyectos](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md).
+
+## Calcular todas las fórmulas dependientes al mismo tiempo
+
+>[!NOTE]
+>
+>* Vista previa: viernes, 12 de junio de 2025
+>* Versión rápida de producción: 12 de junio de 2025
+>* Producción para todos los clientes: 12 de junio de 2025
+
+Hemos introducido una mejora que actualiza todos los campos de fórmula dependientes entre sí al mismo tiempo después de que un campo al que se hace referencia se actualice manualmente. Los campos de fórmula que están a 2, 3 o 4 campos del campo cuyo valor se cambia manualmente y que se hacen referencia entre sí ahora se actualizarán automáticamente al mismo tiempo.
+
+Antes de esta mejora, solo se actualizaban los campos de fórmula directamente dependientes cuando el valor de un campo de referencias se actualizaba manualmente.
+
+Para obtener más información, vea [Información general sobre los campos de fórmula](/help/quicksilver/planning/fields/formula-fields.md).
+
+## Nuevas expresiones agregadas a los campos de fórmula
+
+>[!NOTE]
+>
+>* Vista previa: sábado, 06 de junio de 2025
+>* Versión rápida de producción: 6 de junio de 2025
+>* Producción para todos los clientes: 6 de junio de 2025
+
+Se han agregado las siguientes expresiones a los campos de fórmula:
+
+* ARRAYCONTAINS
+
+* SORTASCARRAY
+
+* SORTDESCARRAY
+
+Antes de esta mejora, estas expresiones solo eran compatibles con los campos personalizados calculados por Workfront.
+
+Para obtener más información, vea [Información general sobre los campos de fórmula](/help/quicksilver/planning/fields/formula-fields.md).
 
 ## Filtros, columnas y campos adicionales añadidos a la pestaña Planificación en el área Solicitudes
 
@@ -150,7 +206,7 @@ Antes de esta mejora, los usuarios con todos los niveles de licencia debían asi
 >[!NOTE]
 >
 >Este cambio será visible para todos los usuarios nuevos y existentes con una licencia de administrador del sistema y estándar.
->&#x200B;>Los usuarios existentes asignados a una plantilla de diseño seguirán viendo todo según la configuración definida en la plantilla.
+>>Los usuarios existentes asignados a una plantilla de diseño seguirán viendo todo según la configuración definida en la plantilla.
 
 Para obtener más información, consulte [Descripción general de Adobe Workfront Planning](/help/quicksilver/planning/access/access-overview.md).
 
@@ -184,7 +240,7 @@ Para obtener más información, consulte [Administrar la vista de línea de tiem
 >[!NOTE]
 >
 >* Vista previa: 17 de abril de 2025
->* Versión rápida de producción: 12 de junio de 2025
+>* Versión rápida de producción: 17 de julio de 2025
 >* Producción para todos los clientes: viernes, 17 de julio de 2025
 
 Para controlar mejor quién puede ver o administrar registros en cada tipo de registro y garantizar que solo las personas autorizadas puedan administrar la información de cada tipo de registro en función de sus funciones y responsabilidades, hemos introducido permisos en el nivel de tipo de registro.

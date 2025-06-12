@@ -7,10 +7,10 @@ recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
 exl-id: 33fa5a61-5300-402c-9f80-f2701f7999a8
-source-git-commit: a5a61045bad5a97fb1413fac4a5a2666b753fa83
+source-git-commit: 3ff70fcc949644d511c876add10d2c58901cb197
 workflow-type: tm+mt
-source-wordcount: '488'
-ht-degree: 11%
+source-wordcount: '515'
+ht-degree: 10%
 
 ---
 
@@ -24,9 +24,9 @@ Para obtener una lista de todos los cambios disponibles en este punto del ciclo 
 
 >[!NOTE]
 >
->* Vista previa: miércoles, 27 de mayo de 2025
->* Versión rápida de producción: 27 de mayo de 2025
->* Producción para todos los clientes: 27 de mayo de 2025
+>* Vista previa: Con la próxima versión de la API, programada para más adelante en 2025
+>* Lanzamiento rápido de la producción: con la próxima versión de la API, programada para más adelante en 2025
+>* Producción para todos los clientes: con la próxima versión de la API, programada para más adelante en 2025
 
 Esta actualización presenta un cambio en la forma en que se almacenan las horas reales de los proyectos, las tareas y los problemas en la base de datos. A partir de esta actualización, las horas reales utilizarán un campo de valor de `actualWorkRequiredDouble` (con un valor en horas).
 
