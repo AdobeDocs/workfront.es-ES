@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 264eed40-6d90-498b-83cc-2500c8b19c84
-source-git-commit: ee4cf80bc69416e3224c895c1f04628432ce2f4c
+source-git-commit: d710c8bd9854d4d92945e034e708d06410d0779b
 workflow-type: tm+mt
-source-wordcount: '1646'
+source-wordcount: '1616'
 ht-degree: 15%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 15%
 >
 >El procedimiento descrito en esta página se aplica solo a las organizaciones que aún no se han incorporado a Admin Console. Si su organización se ha incorporado a Adobe Admin Console, debe llevar a cabo esta acción mediante Adobe Admin Console.
 >
->Para configurar la lista de permitidos si su organización se ha incorporado a Adobe Admin Console, consulte [Dominios permitidos para aplicaciones y servicios de Adobe](https://helpx.adobe.com/es/enterprise/kb/network-endpoints.html).
+>Para configurar la lista de permitidos si su organización se ha incorporado a Adobe Admin Console, consulte [Dominios permitidos para aplicaciones y servicios de Adobe](https://helpx.adobe.com/enterprise/kb/network-endpoints.html).
 >
 >Para obtener una lista de procedimientos que difieren según si su organización se ha incorporado a Adobe Admin Console, consulte [Diferencias de administración basadas en la plataforma (Adobe Workfront/Adobe Business Platform)](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
@@ -142,18 +142,18 @@ Si el entorno de producción está en el clúster 1, 2, 3, 5, 7, 8 o 9, debe per
 
 Si su entorno de producción está en el clúster 4, agregue las siguientes direcciones IP para SSO, documentar las integraciones de ganchos web y recibir correo electrónico de la aplicación de Workfront:
 
-* 52 31 132 175
+* 52.31.132.175
 * 52.19.188.226
-* 52 28 49 94
+* 52.28.49.94
 * 52.29.41.175
 * 52.29.197.69
-* 52 48 124 108
-* 69 169 230 231
+* 52.48.124.108
+* 69.169.230.231
 * 69.169. 230,232
 * 3.121.91.129
 * 3.122.11.35
-* 34 246 27 40
-* 52 208 123 166
+* 34.246.27.40
+* 52.208.123.166
 * 52.208.159.124
 * 52.17.130.201
 * 34.252.250.191
@@ -162,7 +162,7 @@ Si su entorno de producción está en el clúster 4, agregue las siguientes dire
 * 34.254.76.122
 * 34.242.62.80/32
 * 46.51.194.192/32
-* 54,229.129.66/32
+* 54.229.129.66/32
 
 Para obtener información sobre las siguientes direcciones IP, consulte [Nuevas direcciones IP para el correo electrónico de Adobe Workfront con la versión 21.1](../../product-announcements/announcements/announcement-archive/new-email-ip-21-1.md)
 
@@ -423,6 +423,7 @@ Si su organización utiliza el filtrado de red saliente, agregue los siguientes 
 * fonts.gstatic.com
 * dpm.demdex.net
 * storage.googleapis.com
+* snippet.maze.co
 * *.aptrinsic.com
 * *.static.workfront.com
 
@@ -435,7 +436,7 @@ Si su organización utiliza el filtrado de red saliente, agregue los siguientes 
    * mfe-preview.static.workfront.com
    * mfe-review.static.workfront.com
 
-Si su organización se encuentra en la Experiencia unificada de Adobe, utiliza los siguientes dominios. Estos dominios están cubiertos en `*.adobe.com`, pero se pueden agregar si lo desea.
+Si su organización se encuentra en la experiencia unificada de Adobe, utiliza los siguientes dominios. Estos dominios están cubiertos en `*.adobe.com`, pero se pueden agregar si lo desea.
 
 * &lt;su dominio>.my.workfront.adobe.com
 * &lt;su dominio>.preview.workfront.adobe.com
