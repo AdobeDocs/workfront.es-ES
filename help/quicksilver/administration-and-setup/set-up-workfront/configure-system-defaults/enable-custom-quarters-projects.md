@@ -2,26 +2,37 @@
 user-type: administrator
 product-area: system-administration;projects
 navigation-topic: configure-system-defaults
-title: Habilitar trimestres personalizados para proyectos
+title: Activar trimestres personalizados
 description: Con fines de creación de informes, es posible que desee crear trimestres personalizados si los trimestres de su organización se basan en criterios específicos distintos de las fechas del calendario (como días laborables o días de compras).
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 0f643d36-6235-4fd3-b6d3-54fbd03c9b33
-source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
+source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
 workflow-type: tm+mt
-source-wordcount: '272'
-ht-degree: 97%
+source-wordcount: '442'
+ht-degree: 56%
 
 ---
 
-# Habilitar trimestres personalizados para proyectos
+# Habilitar trimestres personalizados
 
 <!--Audited: 11/2024-->
 
+<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes que han comprado [!DNL Adobe Workfront Planning]. Después de las versiones mensuales en Production, las mismas funciones también están disponibles en el entorno Production para los clientes que habilitaron versiones rápidas. </span>
+
+<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
 Con fines de creación de informes, es posible que desee crear trimestres personalizados si los trimestres de su organización se basan en criterios específicos distintos de las fechas del calendario (como días laborables o días de compras).
 
-Puede configurar hasta ocho trimestres personalizados para su sistema [!DNL Adobe Workfront].
+<div class="preview">
+
+Según los productos que haya adquirido su compañía, puede configurar el siguiente número de trimestres en el área Configuración de Workfront:
+
+* Los clientes que solo compraron [!DNL Workfront], pueden configurar hasta ocho trimestres personalizados para el sistema [!DNL Adobe Workfront].
+* Los clientes que compraron [!DNL Workfront] y [!DNL Workfront Planning], pueden configurar hasta 100 trimestres para el sistema [!DNL Workfront], que también están disponibles en [!DNL Planning].
+
+</div>
 
 ## Requisitos de acceso
 
@@ -69,7 +80,15 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
    ![Trimestres personalizados](assets/custom-quarters-nwe.png)
 
 1. (Opcional) Haga clic en **[!UICONTROL Add Custom Quarter]** para añadir trimestres personalizados adicionales al sistema.
-1. (Opcional) Cree un elemento de creación de informes que haga referencia a los trimestres fiscales.
+
+   >[!IMPORTANT]
+   >
+   > <span class="preview">Si su empresa compró [!DNL Workfront Planning], no puede guardar sus trimestres personalizados si hay espacios o superposiciones entre los trimestres. </span>
+   ><span class="preview">![Trimestres personalizados con advertencia de superposición](assets/custom-quarters-with-overlap-warning.png)</span>
+   >Solo se permiten espacios y superposiciones entre los trimestres para [!DNL Workfront] clientes.
+
+1. (Opcional y condicional) Si su empresa compró solo [!DNL Workfront], sin [!DNL Workfront Planning], cree un elemento de informe que haga referencia a los trimestres fiscales.
+
 
    **Ejemplo:** cree un filtro para una lista de [!UICONTROL project] e incluya la fecha planificada de finalización de un proyecto que haga referencia a los trimestres personalizados.
 
@@ -80,3 +99,4 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
    Para obtener información acerca de los elementos de informes, consulte [Elementos de creación de informes: filtros, vistas y agrupaciones](../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md).
 
    Para obtener información acerca de cómo crear filtros, consulte [Crear o editar filtros en [!DNL Adobe Workfront]](../../../reports-and-dashboards/reports/reporting-elements/create-filters.md).
+1. <span class="preview"> (opcional y condicional) Si tiene acceso a [!DNL Workfront Planning], vaya a una página de tipo de registro y abra una vista de escala de tiempo. La vista muestra los nuevos trimestres personalizados. </span>

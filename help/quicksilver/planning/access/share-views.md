@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 673dd888-3135-48b0-8198-c8d6d6706ddf
-source-git-commit: d0ec729a510b78a7ce417356ac9250a485308f0b
+source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
 workflow-type: tm+mt
-source-wordcount: '1657'
-ht-degree: 53%
+source-wordcount: '1653'
+ht-degree: 54%
 
 ---
 
@@ -81,7 +81,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  <tr> 
    <td role="rowheader"><p>plataforma de Adobe Workfront</p></td> 
    <td> 
-<p>La instancia de Workfront de su organización debe incorporarse a Adobe Unified Experience para poder acceder a todas las funcionalidades de Workfront Planning.</p> 
+<p>La instancia de Workfront de su organización debe incorporarse a Adobe Unified Experience para poder acceder a Workfront Planning.</p> 
 <p>Su organización debe incorporarse a la experiencia unificada de Adobe para que los usuarios puedan solicitar y conceder permisos a una vista desde una solicitud de permiso. </p>
 <p>Los usuarios deben agregarse a Adobe Admin Console para obtener permisos en las vistas de Workfront Planning.</p>
 <p>Para obtener más información, consulte <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience para Workfront</a>. </p> 
@@ -236,10 +236,8 @@ Los usuarios que acceden a un vínculo a una vista para la que no tienen permiso
 1. (Condicional) Si es el administrador de una vista, es posible que otro usuario le solicite el acceso a la vista en las áreas siguientes:
 
    * Una notificación en la aplicación
-
      ![Notificación en la aplicación para solicitud de acceso de vista](assets/in-app-notification-for-access-request-for-view.png)
    * Una notificación por correo electrónico
-
      ![Notificación en la aplicación para solicitud de acceso de vista](assets/in-app-notification-for-access-request-for-view.png)
 1. (Condicional) En el área de notificación de Workfront, haga clic en la notificación dentro de la aplicación
 O

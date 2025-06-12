@@ -7,10 +7,10 @@ description: Las horas que registre en sus elementos de trabajo en Adobe Workfro
 author: Alina
 feature: Work Management
 exl-id: c4b0e431-1765-416d-89f5-6ac663ac1d4f
-source-git-commit: d68189272bd3f78de2d57b8393b44b698fa5db13
+source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
 workflow-type: tm+mt
-source-wordcount: '819'
-ht-degree: 51%
+source-wordcount: '845'
+ht-degree: 49%
 
 ---
 
@@ -144,7 +144,7 @@ Debe tener en cuenta la conversión de minutos a horas al acceder a estos campos
 
 En función de cómo acceda a Horas reales, se pueden almacenar en los siguientes campos y unidades de la base de datos:
 
-* En la API: `valuefield` para las horas reales es `actualWorkRequiredDouble`, que se almacena en horas.
+* En la API: Con la siguiente versión de la API de Workfront programada para su lanzamiento para finales de 2025, `valuefield` para las horas reales es `actualWorkRequiredDouble`, que se almacena en horas. La versión actual almacenó Horas reales como `actualWorkRequired`, que se almacena en minutos.
 * En la interfaz de Workfront (campo personalizado calculado y columnas): `valuefield` para las horas reales es `actualWorkRequired`, que se almacena en minutos.
 
 <!--Change the above with this when we fix this for the Workfront UI: 

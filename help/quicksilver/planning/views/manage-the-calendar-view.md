@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 45b5be81-703c-45d5-a08c-60cb8ec5b103
-source-git-commit: 3dfac5ada17248f5c67380b56b9a0969b10b73e6
+source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
 workflow-type: tm+mt
-source-wordcount: '859'
+source-wordcount: '855'
 ht-degree: 63%
 
 ---
@@ -63,7 +63,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  <tr> 
    <td role="rowheader"><p>plataforma de Adobe Workfront</p></td> 
    <td> 
-<p>La instancia de Workfront de su organización debe incorporarse a Adobe Unified Experience para poder acceder a todas las funcionalidades de Workfront Planning.</p> 
+<p>La instancia de Workfront de su organización debe incorporarse a Adobe Unified Experience para poder acceder a Workfront Planning.</p> 
 <p>Para obtener más información, consulte <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience para Workfront</a>. </p> 
    </td> 
    </tr> 

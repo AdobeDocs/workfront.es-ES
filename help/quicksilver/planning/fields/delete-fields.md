@@ -6,9 +6,9 @@ role: User, Admin
 recommendations: noDisplay, noCatalog
 author: Alina
 exl-id: ec48db42-2395-4439-97ae-e4f5242170b7
-source-git-commit: e25f6ac3fb4ffc114d59bf5cceecfe718ae914ec
+source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
 workflow-type: tm+mt
-source-wordcount: '580'
+source-wordcount: '576'
 ht-degree: 52%
 
 ---
@@ -84,7 +84,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  <tr> 
    <td role="rowheader"><p>plataforma de Adobe Workfront</p></td> 
    <td> 
-<p>La instancia de Workfront de su organización debe incorporarse a Adobe Unified Experience para poder acceder a todas las funcionalidades de Workfront Planning.</p> 
+<p>La instancia de Workfront de su organización debe incorporarse a Adobe Unified Experience para poder acceder a Workfront Planning.</p> 
 <p>Para obtener más información, consulte <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience para Workfront</a>. </p> 
    </td> 
    </tr> 
@@ -133,7 +133,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
    Todos los registros existentes asociados al tipo de registro se muestran en las filas de la vista de tabla.
 
-1. Busque el campo que desea eliminar en los encabezados de columna, pase el ratón sobre el encabezado de columna y, a continuación, haga clic en la flecha hacia abajo situada después del nombre del campo.
+1. Busque el campo que desea eliminar en los encabezados de columna, pase el puntero por encima del encabezado de columna y, a continuación, haga clic en la flecha hacia abajo situada después del nombre del campo.
 
    ![Menú de flecha después del nombre del campo en el encabezado de tabla resaltado](assets/arrow-menu-after-name-of-field-in-table-header-highlighted.png)
 

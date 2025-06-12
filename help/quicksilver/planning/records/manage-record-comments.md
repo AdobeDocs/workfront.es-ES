@@ -6,10 +6,10 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 215883a4-e882-438e-9c21-954c0b1d741b
-source-git-commit: e25f6ac3fb4ffc114d59bf5cceecfe718ae914ec
+source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
 workflow-type: tm+mt
-source-wordcount: '1063'
-ht-degree: 58%
+source-wordcount: '1057'
+ht-degree: 57%
 
 ---
 
@@ -66,7 +66,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  <tr> 
    <td role="rowheader"><p>plataforma de Adobe Workfront</p></td> 
    <td> 
-<p>La instancia de Workfront de su organización debe incorporarse a Adobe Unified Experience para poder acceder a todas las funcionalidades de Workfront Planning.</p> 
+<p>La instancia de Workfront de su organización debe incorporarse a Adobe Unified Experience para poder acceder a Workfront Planning.</p> 
 <p>Para obtener más información, consulte <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience para Workfront</a>. </p> 
    </td> 
    </tr> 
@@ -160,8 +160,8 @@ Se abre la página de tipo de registro y se muestran todos los registros de ese 
    >Si sale de la sección Comentarios antes de terminar de escribir y enviar un comentario, el comentario en la página se mantiene en modo de borrador incluso después de cerrar la sesión y volver a iniciarla. <!--this is no longer possible for records: Any images that are added to the comment are also saved in the draft. Drafts are saved for 7 days after which they are discarded and cannot be recovered. Drafted comments are only visible to the user entering them.-->
 
 1. (Opcional) Para deshacer o rehacer un cambio, utilice las siguientes teclas de método abreviado:
-   * CTRL + Z (⌘ + z para Mac) para deshacer un cambio
-   * CTRL + Y (⌘ + y para Mac) para rehacer un cambio
+   * CTRL + Z (⌘+z para Mac) para deshacer un cambio
+   * CTRL + Y (⌘+y para Mac) para rehacer un cambio
 1. (Opcional y condicional) Si la instancia de Workfront forma parte de la experiencia unificada de Adobe, agregue **@** seguido del nombre de un usuario para etiquetar a alguien en la actualización. Para obtener más información, vea la sección [Consideraciones acerca de comentar un registro](#considerations-about-commenting-on-a-record) en este artículo.
 
 1. (Opcional) Utilice las opciones de la barra de herramientas Texto enriquecido para dar formato al texto, agregar emojis o vínculos a la actualización con el fin de mejorar el contenido.

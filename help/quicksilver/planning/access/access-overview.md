@@ -6,9 +6,9 @@ feature: Workfront Planning
 recommendations: noDisplay, noCatalog
 role: User, Admin
 exl-id: 99fac041-a235-4991-b826-d19944164bc9
-source-git-commit: 3550d7addcc0bb790f15d141d9470e0b75f940a6
+source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
 workflow-type: tm+mt
-source-wordcount: '798'
+source-wordcount: '794'
 ht-degree: 28%
 
 ---
@@ -81,7 +81,7 @@ Debe tener el siguiente acceso para acceder a Workfront Planning:
 <tr>
    <td role="rowheader"><p>plataforma de Adobe Workfront</p></td>
    <td>
-<p>La instancia de Workfront de su organización debe incorporarse a Adobe Unified Experience para poder acceder a todas las funcionalidades de Workfront Planning.</p>
+<p>La instancia de Workfront de su organización debe incorporarse a Adobe Unified Experience para poder acceder a Workfront Planning.</p>
 <p>Para obtener más información, consulte <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience para Workfront</a>. </p>
    </td>
 

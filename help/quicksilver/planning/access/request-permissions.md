@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 94dfa36a-801a-4eef-bcf5-4a3fecc5a3d0
-source-git-commit: e25f6ac3fb4ffc114d59bf5cceecfe718ae914ec
+source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
 workflow-type: tm+mt
-source-wordcount: '743'
+source-wordcount: '739'
 ht-degree: 14%
 
 ---
@@ -76,7 +76,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  <tr> 
    <td role="rowheader"><p>plataforma de Adobe Workfront</p></td> 
    <td> 
-<p>La instancia de Workfront de su organización debe incorporarse a Adobe Unified Experience para poder acceder a todas las funcionalidades de Workfront Planning.</p> 
+<p>La instancia de Workfront de su organización debe incorporarse a Adobe Unified Experience para poder acceder a Workfront Planning.</p> 
 <p><b>IMPORTANTE</b></p>
 <p>Los usuarios de su organización solo pueden solicitar permisos para vistas y espacios de trabajo cuando su organización está integrada en la experiencia unificada de Adobe. </p>
 <p>Para obtener más información, consulte <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience para Workfront</a>. </p> 
@@ -140,10 +140,8 @@ Cuando alguien comparte con usted un vínculo a un espacio de trabajo o una vist
 
    Todos los usuarios con permisos de Administración de la vista o del espacio de trabajo reciben las siguientes notificaciones para la solicitud de acceso:
    * Una notificación en la aplicación
-
      ![Notificación en la aplicación para solicitud de acceso](assets/in-app-notification-for-access-request.png)
    * Una notificación por correo electrónico
-
      ![Notificación por correo electrónico de la solicitud de acceso](assets/email-notification-for-access-request.png)
 
 1. (Condicional) Cuando el administrador de la vista o del espacio de trabajo le concede permisos para la vista o el espacio de trabajo, recibe una notificación por correo electrónico y una notificación en la aplicación con una confirmación de que el permiso se ha concedido. <!--check this - I was not able to test this, but Isk confirmed.-->

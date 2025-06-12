@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: c69097fb-99e4-441b-9599-fd8af2dd7116
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
 workflow-type: tm+mt
-source-wordcount: '2767'
+source-wordcount: '2765'
 ht-degree: 95%
 
 ---
@@ -88,7 +88,7 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
 
    >[!TIP]
    >
-   >Si al pasar el ratón por encima de una preferencia se mostrase ayuda contextual indicando que está bloqueada, pida al administrador de Workfront que la desbloquee para todos los grupos de la organización.
+   >Si al pasar el puntero por encima de una preferencia se mostrase ayuda contextual indicando que está bloqueada, pida al administrador de Workfront que la desbloquee para todos los grupos de la organización.
 
 * [Estado del proyecto](#project-status)
 * [Timelines](#timelines)
@@ -238,7 +238,7 @@ Configure cualquiera de las siguientes preferencias para los proyectos recién c
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader"> <p><strong>Trimestres personalizados</strong> </p> </td> 
-   <td> <p>Configure trimestres anuales personalizados para los usuarios que trabajarán en proyectos. Los trimestres personalizados suelen ser trimestres que no coinciden con el desglose tradicional de trimestres durante un año natural. Puede añadir varios trimestres personalizados. Para obtener más información, consulte <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md" class="MCXref xref" data-mc-variable-override="">Habilitar trimestres personalizados para proyectos</a>.</p> <p><b>NOTA</b>: Los administradores de Workfront no pueden desbloquear las preferencias de trimestres personalizados.</p> </td> 
+   <td> <p>Configure trimestres anuales personalizados para los usuarios que trabajarán en proyectos. Los trimestres personalizados suelen ser trimestres que no coinciden con el desglose tradicional de trimestres durante un año natural. Puede añadir varios trimestres personalizados. Para obtener más información, consulte <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md" class="MCXref xref" data-mc-variable-override="">Habilitar trimestres personalizados</a>.</p> <p><b>NOTA</b>: Los administradores de Workfront no pueden desbloquear las preferencias de trimestres personalizados.</p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -5,13 +5,13 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
-source-git-commit: ae3fc73e93474c75fd03144b66af23f7142867c0
+exl-id: cde20e5a-15a2-413a-8de4-ccf6eeb4395f
+source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
 workflow-type: tm+mt
-source-wordcount: '1800'
+source-wordcount: '1796'
 ht-degree: 7%
 
 ---
-
 
 # Configuración de automatizaciones de Adobe Workfront Planning
 
@@ -75,7 +75,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  <tr> 
    <td role="rowheader"><p>plataforma de Adobe Workfront</p></td> 
    <td> 
-<p>La instancia de Workfront de su organización debe incorporarse a Adobe Unified Experience para poder acceder a todas las funcionalidades de Workfront Planning.</p> 
+<p>La instancia de Workfront de su organización debe incorporarse a Adobe Unified Experience para poder acceder a Workfront Planning.</p> 
 <p>Para obtener más información, consulte <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience para Workfront</a>. </p> 
    </td> 
    </tr> 

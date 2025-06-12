@@ -6,10 +6,10 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 05512c4cfdc094e90abea471b5356337955119be
+source-git-commit: dae692617f447c446a421207143225b33b51debe
 workflow-type: tm+mt
-source-wordcount: '3152'
-ht-degree: 54%
+source-wordcount: '3512'
+ht-degree: 48%
 
 ---
 
@@ -63,7 +63,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  <tr> 
    <td role="rowheader"><p>plataforma de Adobe Workfront</p></td> 
    <td> 
-<p>La instancia de Workfront de su organización debe incorporarse a Adobe Unified Experience para poder acceder a todas las funcionalidades de Workfront Planning.</p> 
+<p>La instancia de Workfront de su organización debe incorporarse a Adobe Unified Experience para poder acceder a Workfront Planning.</p> 
 <p>Para obtener más información, consulte <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience para Workfront</a>. </p> 
    </td> 
    </tr> 
@@ -128,17 +128,51 @@ Para administrar una vista de línea de tiempo:
    >
    >    La ordenación de los registros en la línea de tiempo no es visible en la vista compacta.
 
+1. <span class="preview"> (Condicional) Si el administrador ha habilitado trimestres personalizados y Workfront detecta problemas con la configuración de los trimestres personalizados, es posible que reciba una advertencia al abrir la vista de escala de tiempo. </span>
+
+   <div class="preview">
+
+   Se dan los siguientes escenarios:
+
+   * Si se han detectado espacios o superposiciones entre las fechas de los trimestres, podría recibir una notificación que indique que ahora se pueden configurar trimestres personalizados y que es posible que sea necesario editarlos.
+
+     ![Falta notificación de trimestres personalizados o hay espacios entre trimestres](assets/custom-quarter-notification-missing-or-gaps.png)
+
+     >[!TIP]
+     >
+     >Este mensaje solo debe mostrarse inmediatamente después de que las compras de su organización en Planning y en trimestres personalizados ya estuvieran habilitadas antes de la compra. No se permiten superposiciones y espacios entre los trimestres después de habilitar Workfront Planning para su organización.
+
+   * Si los trimestres se han configurado parcialmente y faltan algunos meses del mismo año, puede recibir una notificación cuando se desplace para mostrar los trimestres que faltan y que el resto del año debe configurarse con los trimestres que faltan.
+
+   ![Falta el mensaje original de trimestres personalizados en la vista de escala de tiempo](assets/missing-custom-quarters-original-message-on-timeline-view.png)
+
+   Estos mensajes de advertencia se muestran una vez por cada usuario.
+
+   >[!NOTE]
+   >
+   >Sin un trimestre personalizado guardado correctamente, la vista de la cronología muestra los trimestres clásicos.
+   >Después de configurar trimestres personalizados en el área de Configuración, la vista de cronología muestra los trimestres personalizados en lugar de los trimestres clásicos.
+   >Para obtener más información, consulte [Habilitar trimestres personalizados](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md).
+
+   </div>
+
+1. <span class="preview">(Condicional) Si es administrador de Workfront, haga clic en **Ir a la instalación** para configurar sus trimestres. Si no es así, haga clic en **Aceptar** y pídale al administrador de Workfront que configure los trimestres personalizados.</span>
+
+   >[!TIP]
+   >
+   ><span class="preview">El botón Ir a la configuración solo se muestra para el administrador de Workfront.</span>
+
 1. (Opcional y condicional) Cuando el nombre del registro esté truncado, pase el ratón sobre una barra de registros para mostrar el nombre completo del registro y la información adicional.
 
 1. Realice una de las siguientes acciones para navegar por la línea de tiempo:
 
    * Haga clic en los iconos izquierdo y derecho o utilice el desplazamiento horizontal para moverse hacia atrás y hacia adelante en la línea de tiempo. Al actualizar la página, se conserva el lapso de tiempo seleccionado.
    * Haga clic en **Hoy** para centrar la línea de tiempo en la fecha de hoy.
-   * Seleccione una de las siguientes opciones del menú desplegable de lapso de tiempo para actualizar los incrementos de tiempo:
+   * Seleccione una de las siguientes opciones del menú desplegable lapso de tiempo para actualizar los incrementos de tiempo y actualizar la vista:
 
-      * Año
-      * Trimestre
-      * Mes
+      * **Year**: muestra trimestres y meses con indicación de año.
+      * **Trimestre**: muestra meses y semanas con indicación de trimestre.
+      * **Mes**: muestra semanas y días.
 1. (Opcional) Haga clic en **Cambiar a la vista Compacta** para mostrar los registros cuyas fechas no se cruzan en la misma línea. <!--check to see if they updated the name of the setting here-->
 1. (Condicional) Si cambió el modo a **Compacto**, haga clic en **Cambiar a la vista Estándar** para mostrar los registros en líneas separadas. <span class="preview">La opción **Estándar** es la predeterminada.</span>  <!--check to see if they updated the name of the setting here-->
 
@@ -268,6 +302,16 @@ Actualice la configuración de la vista de línea de tiempo para indicar qué in
    >* Los registros que no tienen valores para las fechas de inicio o finalización o que tienen una fecha de inicio posterior a la fecha de finalización no se muestran en la vista de línea de tiempo.
    >
    >* Si muestra registros adicionales mediante la opción Desglose, las fechas de inicio y finalización son las del registro principal. No puede elegir fechas de inicio y finalización para los registros conectados en esta área.
+
+1. <span class="preview">(Condicional y opcional) Si es administrador de Workfront, haga clic en **Ir a la instalación** en el cuadro **Usar trimestres personalizados** para ir al área de instalación y configurar trimestres personalizados. Después de configurar trimestres personalizados, puede mostrarlos en la vista de cronología en lugar de en los trimestres clásicos. Si no es administrador de Workfront, puede solicitar que un administrador habilite los trimestres personalizados para su organización. </span>
+
+   Para obtener más información, consulte [Habilitar trimestres personalizados](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md).
+
+   ![Usar advertencia de trimestres personalizados dentro de la configuración de vista de cronología](assets/use-custom-quarters-warning-inside-timelive-view-settings.png)
+
+   >[!TIP]
+   >
+   ><span class="preview">El botón Ir a la configuración solo se muestra para el administrador de Workfront.</span>
 
 1. Haga clic en **Estilo de barra** en el panel izquierdo para indicar qué información desea mostrar en las barras de registro.
 

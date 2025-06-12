@@ -7,10 +7,10 @@ description: Puede utilizar expresiones de datos para definir campos de datos pe
 author: Nolan
 feature: Reports and Dashboards
 exl-id: cfb3ace9-76c3-4006-878f-e2ad25ffa03b
-source-git-commit: 6a46486b62974f1cc7033b4497d32ab787b05bf2
+source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
 workflow-type: tm+mt
-source-wordcount: '2433'
-ht-degree: 92%
+source-wordcount: '2463'
+ht-degree: 91%
 
 ---
 
@@ -391,7 +391,17 @@ Puede crear un campo personalizado calculado que muestre un valor con formato de
    <p><code>ARRAY(string1, "delimiter")</code></p> 
    </td> 
   </tr>
-  <tr> 
+
+<tr> 
+   <td><strong>ARRAYCONTAINS</strong> </td> 
+   <td> <p>Busca un valor específico en una lista o matriz. Si se encuentra el valor, la función devuelve True; en caso contrario, devuelve False. </p> 
+   <p>La expresión tiene el siguiente formato:</p>
+   <p><code>ARRAY(value 1, value 2)</code></p> 
+   </td> 
+  </tr>
+
+
+<tr> 
    <td><strong>LONGITUD DE MATRIZ</strong> </td> 
    <td> <p>Devuelve el número de elementos de la matriz con el siguiente formato:</p>
    <p><code>ARRAYLENGTH(array)</code></p> 

@@ -3,9 +3,9 @@ user-guide-title: Guía de Workfront
 user-guide-description: Utilice los siguientes documentos, tutoriales y recursos adicionales para aprender a implementar y utilizar Adobe Workfront de forma eficaz en su organización.
 role: User
 feature-set: Workfront
-source-git-commit: fb8b65b59ee9cd591c2a7f8edceab19f89afd29d
+source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
 workflow-type: tm+mt
-source-wordcount: '13255'
+source-wordcount: '13254'
 ht-degree: 60%
 
 ---
@@ -423,7 +423,7 @@ ht-degree: 60%
          * [Crear tipos de gastos](administration-and-setup/set-up-workfront/configure-system-defaults/create-custom-expense-types.md)
          * [Crear cuadro de resultados](administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md)
          * [Recálculos de escala de tiempo del proyecto](administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md)
-         * [Trimestres personalizados para proyectos](administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)
+         * [Habilitar trimestres personalizados](administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)
          * [Habilitar o deshabilitar las versiones rápidas para su organización](administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)
          * [Crear y editar reglas empresariales](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/business-rules.md)
          * [Configurar ubicaciones](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-locations.md)
