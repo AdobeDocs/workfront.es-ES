@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4829d487-7041-447f-9a68-fb1acf467734
-source-git-commit: 26a97126bbe809bc5fdd40d52bce2e0763110bcb
+source-git-commit: 11fb8416c4432708b4847486d345ab7a9489f6fb
 workflow-type: tm+mt
-source-wordcount: '496'
+source-wordcount: '531'
 ht-degree: 8%
 
 ---
@@ -17,6 +17,14 @@ ht-degree: 8%
 Esta página describe todas las mejoras realizadas en la administración de documentos con la versión del tercer trimestre de 2025 en el entorno de vista previa. Estas mejoras estarán disponibles en el entorno de producción, como se ha indicado.
 
 Para obtener una lista de todos los cambios disponibles en este punto del ciclo de la versión del tercer trimestre de 2025, consulte [Información general de la versión del tercer trimestre de 2025](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-release-overview.md).
+
+## Actualización del visor de corrección de escritorio
+
+El Visor de corrección de escritorio se ha actualizado a la versión 2.1.50.
+
+Esta actualización incluye actualizaciones de las herramientas internas y no afecta a la funcionalidad del usuario final.
+
+Esta actualización es para Mac y Windows.
 
 ## Nueva integración de revisión y GenStudio for Performance Marketing
 
