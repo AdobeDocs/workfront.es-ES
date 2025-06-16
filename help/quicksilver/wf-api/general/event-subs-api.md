@@ -7,10 +7,10 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
-source-git-commit: ec018b8987a45cbf29c8a908f3adbdb8aade9d90
+source-git-commit: 334b08f4689318201d3b8260916655f57c2a9320
 workflow-type: tm+mt
-source-wordcount: '2407'
-ht-degree: 83%
+source-wordcount: '2479'
+ht-degree: 81%
 
 ---
 
@@ -707,6 +707,33 @@ Este filtro permite que se envíen mensajes si el cambio que se produjo contiene
 }
 ```
 
+#### containsOnly
+
+Este filtro permite que los mensajes se transmitan únicamente cuando el conjunto completo de valores seleccionados coincide exactamente con fieldValue del filtro, independientemente del orden. No debe haber valores adicionales o que falten.
+
+Nota: Se utiliza para campos de tipo matriz (selección múltiple). Esta suscripción de ejemplo que se muestra a continuación permite que los mensajes se transmitan únicamente cuando el campo `groups` contiene exactamente &quot;Opción 3&quot; y &quot;Opción 4&quot;, sin valores adicionales o que falten, e independientemente del orden.
+
+
+```
+{
+    "objCode": "PROJ",
+    "eventType": "UPDATE",
+    "authToken": "token",
+    "url": "https://domain-for-subscription.com/API/endpoint/UpdatedProjects",
+    "filters": [
+        {
+            "fieldName": "groups",
+            "fieldValue": [
+                "Choice 3",
+                "Choice 4"
+            ],
+            "state": "newState",
+            "comparison": "containsOnly"
+        }
+    ]
+}
+```
+
 #### cambiar
 
 Este filtro permite que los mensajes se transmitan solo si el campo especificado (`fieldName`) tiene un valor diferente en oldstate y newstate. Al actualizar otros campos además del especificado (`fieldName`), no se devolverá ese cambio.
@@ -739,7 +766,7 @@ Este conector hace que el filtro se aplique al nuevo estado o al antiguo estado 
 >[!NOTE]
 >
 >La suscripción siguiente con el filtro especificado solo devolverá mensajes donde el nombre de la tarea contenga `again` en `oldState`, tal como sucedía antes de que se realizara una actualización en la tarea.
->Un caso de uso para esto sería encontrar los mensajes de objCode que han cambiado de una manera a otra. Por ejemplo, para averiguar todas las tareas que cambiaron de &quot;Investigar Algún nombre&quot; a &quot;Investigar TeamName Algún nombre&quot;
+>>Un caso de uso para esto sería encontrar los mensajes de objCode que han cambiado de una manera a otra. Por ejemplo, para averiguar todas las tareas que cambiaron de &quot;Investigar Algún nombre&quot; a &quot;Investigar TeamName Algún nombre&quot;
 
 ```
 {
