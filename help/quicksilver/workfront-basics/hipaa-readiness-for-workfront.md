@@ -5,15 +5,13 @@ title: Preparación para HIPAA para Workfront
 description: Un cliente de Workfront que, tal como se define en HIPAA, es un Asociado Comercial y/o la Entidad Cubierta en cuyo nombre el Asociado Comercial proporciona Adobe Workfront debe utilizar las siguientes directrices para configurar Workfront para el uso compatible con HIPAA.
 feature: Get Started with Workfront
 author: Courtney
-hide: true
-hidefromtoc: true
-source-git-commit: a984038eea41d249cb0ad0d2ec6ba47025c56a65
+exl-id: e3cdaa03-d523-46a4-954b-8456d5f190e4
+source-git-commit: 15a703e2292883427e371603f77a99765ed9d00a
 workflow-type: tm+mt
-source-wordcount: '473'
+source-wordcount: '474'
 ht-degree: 0%
 
 ---
-
 
 # Preparación para HIPAA para Workfront
 
@@ -66,5 +64,5 @@ En particular, deben revisarse y comunicarse las siguientes responsabilidades y 
 * Para cualquier base de datos de Workfront donde se pueda tener acceso a ePHI, asegúrese de que **Encryption at Rest (EAR)** esté habilitado.
    * Póngase en contacto con su ejecutivo de cuentas (AEM) para verificar que el EAR esté incluido en su compra de Workfront.
    * Configurar sistemas/bases de datos accesibles a través de Workfront para cumplir con las obligaciones de cumplimiento.
-* Asegúrese de que la ePHI no se transfiera, vincule o comparta con otras soluciones de Adobe.
+* Asegúrese de que ePHI no se transfiera, vincule o comparta con otras soluciones de Adobe no preparadas para HIPAA.
 * Asegúrese de que las fotografías de los pacientes procesadas mediante Workfront se almacenen de forma segura y no sean de acceso público.
