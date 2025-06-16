@@ -6,9 +6,9 @@ description: La aplicación  [!DNL Adobe Workfront for Microsoft Teams] te permi
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: a8d4e48c-1ccc-4e6e-a0a0-9b68748590c0
-source-git-commit: 75c4baf5ceca53f7ba85ffcc34876bca1238c9de
+source-git-commit: 940cbfb34f12eacd5ba698f60fb7a3e67eb62b22
 workflow-type: tm+mt
-source-wordcount: '719'
+source-wordcount: '728'
 ht-degree: 20%
 
 ---
@@ -19,9 +19,9 @@ ht-degree: 20%
 
 >[!IMPORTANT]
 >
->A medida que Microsoft cambia al cliente Nuevos equipos, el cliente Teams clásico dejará de estar disponible a partir del 1 de julio de 2025. Como preparación, estamos desarrollando una nueva versión de la integración de Microsoft Teams que será totalmente compatible con el cliente de Nuevos equipos y estará disponible antes del 1 de julio para garantizar una transición sin problemas.
+>A medida que [Microsoft pasa al cliente New Teams](https://learn.microsoft.com/en-us/microsoftteams/teams-classic-client-end-of-availability), el cliente Classic Teams dejará de estar disponible a partir del 1 de julio de 2025. Para seguir utilizando Microsoft Teams y aplicaciones integradas como Workfront, los clientes deben realizar la transición al cliente Nuevo equipo antes de esta fecha.
 >
->Las instrucciones sobre cómo descargar e instalar la integración en el cliente de New Teams aparecerán aquí después de que la integración esté disponible.
+>La integración actualizada de Workfront ya está disponible y es totalmente compatible con la experiencia Nuevos equipos. En la mayoría de los casos, Workfront aparecerá automáticamente una vez que los usuarios hayan realizado la transición. Si no es así, la integración se puede instalar manualmente desde Microsoft Teams App Store.
 
 
 La aplicación [!DNL Adobe Workfront for Microsoft Teams] le permite realizar acciones básicas en [!DNL Workfront] sin salir de los canales de chat de [!DNL Microsoft Teams].

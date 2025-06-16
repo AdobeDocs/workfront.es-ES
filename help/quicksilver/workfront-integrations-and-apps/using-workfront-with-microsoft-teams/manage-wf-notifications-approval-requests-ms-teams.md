@@ -6,10 +6,10 @@ description: Puede recibir notificaciones de  [!DNL Adobe Workfront] acerca de l
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 7771a7d7-7e20-4b3d-95e7-1050aeb3af67
-source-git-commit: 372b7566fa5eb38703905b22ff43d49a76bcb400
+source-git-commit: 940cbfb34f12eacd5ba698f60fb7a3e67eb62b22
 workflow-type: tm+mt
-source-wordcount: '1412'
-ht-degree: 94%
+source-wordcount: '1438'
+ht-degree: 92%
 
 ---
 
@@ -17,9 +17,9 @@ ht-degree: 94%
 
 >[!IMPORTANT]
 >
->A medida que Microsoft cambia al cliente Nuevos equipos, el cliente Teams clásico dejará de estar disponible a partir del 1 de julio de 2025. Como preparación, estamos desarrollando una nueva versión de la integración de Microsoft Teams que será totalmente compatible con el cliente de Nuevos equipos y estará disponible antes del 1 de julio para garantizar una transición sin problemas.
+>A medida que [Microsoft pasa al cliente New Teams](https://learn.microsoft.com/en-us/microsoftteams/teams-classic-client-end-of-availability), el cliente Classic Teams dejará de estar disponible a partir del 1 de julio de 2025. Para seguir utilizando Microsoft Teams y aplicaciones integradas como Workfront, los clientes deben realizar la transición al cliente Nuevo equipo antes de esta fecha.
 >
->Las instrucciones sobre cómo descargar e instalar la integración en el cliente de New Teams estarán disponibles después de que se publique la integración.
+>La integración actualizada de Workfront ya está disponible y es totalmente compatible con la experiencia Nuevos equipos. En la mayoría de los casos, Workfront aparecerá automáticamente una vez que los usuarios hayan realizado la transición. Si no es así, la integración se puede instalar manualmente desde Microsoft Teams App Store. Para instalar o comprobar la integración de Workfront en el cliente New Teams, consulte [Instalar [!DNL Adobe Workfront] para Microsoft Teams](/help/quicksilver/workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md).
 
 Puede recibir notificaciones de [!DNL Adobe Workfront] acerca de los elementos que necesita aprobar, las asignaciones que se le han dado o los comentarios y cambios en los elementos con los que está asociado.
 

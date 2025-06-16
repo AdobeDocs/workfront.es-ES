@@ -7,9 +7,9 @@ description: Adobe Workfront ofrece una integración con Microsoft Teams. Este a
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: b8b9d216-b529-4ff0-9259-b37724675d6a
-source-git-commit: 372b7566fa5eb38703905b22ff43d49a76bcb400
+source-git-commit: 940cbfb34f12eacd5ba698f60fb7a3e67eb62b22
 workflow-type: tm+mt
-source-wordcount: '163'
+source-wordcount: '189'
 ht-degree: 1%
 
 ---
@@ -18,9 +18,9 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->A medida que Microsoft cambia al cliente Nuevos equipos, el cliente Teams clásico dejará de estar disponible a partir del 1 de julio de 2025. Como preparación, estamos desarrollando una nueva versión de la integración de Microsoft Teams que será totalmente compatible con el cliente de Nuevos equipos y estará disponible antes del 1 de julio para garantizar una transición sin problemas.
+>A medida que [Microsoft pasa al cliente New Teams](https://learn.microsoft.com/en-us/microsoftteams/teams-classic-client-end-of-availability), el cliente Classic Teams dejará de estar disponible a partir del 1 de julio de 2025. Para seguir utilizando Microsoft Teams y aplicaciones integradas como Workfront, los clientes deben realizar la transición al cliente Nuevo equipo antes de esta fecha.
 >
->Las instrucciones sobre cómo descargar e instalar la integración en el cliente de New Teams estarán disponibles después de que se publique la integración.
+>La integración actualizada de Workfront ya está disponible y es totalmente compatible con la experiencia Nuevos equipos. En la mayoría de los casos, Workfront aparecerá automáticamente una vez que los usuarios hayan realizado la transición. Si no es así, la integración se puede instalar manualmente desde Microsoft Teams App Store. Para instalar o comprobar la integración de Workfront en el cliente New Teams, consulte [Instalar [!DNL Adobe Workfront] para Microsoft Teams](/help/quicksilver/workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md).
 
 Adobe Workfront ofrece una integración con Microsoft Teams. Este artículo contiene vínculos a instrucciones para instalar y configurar esta integración, así como a cómo utilizarla en su trabajo diario.
 
