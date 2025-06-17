@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 7373ee9f31e4b7561735920f3ff02cbd4fdce44a
+source-git-commit: af7789f3a4c7443854639fd60bcf0661217b37ae
 workflow-type: tm+mt
 source-wordcount: '6547'
 ht-degree: 56%
@@ -133,7 +133,7 @@ Cada nombre de campo personalizado debe ser único en la instancia de Workfront 
 >[!NOTE]
 >
 >Aunque es posible hacerlo, le recomendamos que no cambie este nombre después de que usted u otros usuarios empiecen a utilizar el formulario personalizado en Workfront. Si lo hace, el sistema ya no reconocerá el campo personalizado, donde ahora se podría hacer referencia a él en otras áreas de Workfront.
->&#x200B;>Por ejemplo, si añade el campo personalizado a un informe y posteriormente cambia su nombre, Workfront no lo reconocerá en el informe y dejará de funcionar correctamente allí a menos que lo vuelva a añadir al informe con el nuevo nombre.
+>>Por ejemplo, si añade el campo personalizado a un informe y posteriormente cambia su nombre, Workfront no lo reconocerá en el informe y dejará de funcionar correctamente allí a menos que lo vuelva a añadir al informe con el nuevo nombre.
 >
 >Se recomienda no escribir un nombre que ya se utilice en los campos integrados de Workfront.
 >
@@ -533,7 +533,7 @@ Para añadir los campos de fecha y escritura anticipada:
         <li>Pertenecen al mismo grupo que la persona que utiliza el campo.</li> 
        </ul>
        <p>Debe definir el filtro para el tipo de objeto que haya seleccionado mediante la sintaxis de modo de texto. Para obtener información acerca de cómo crear un filtro mediante el modo de texto, consulte <a href="/help/quicksilver/reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md">Editar un filtro mediante el modo de texto</a>.</p>
-       <p><b>Sugerencia:</b>Puede crear un informe para probar el filtro antes de agregar el filtro directamente al campo de escritura anticipada. Esto le ayudará a comprobar que el filtro devuelve los objetos correctos. A continuación, puede cambiar al modo de texto en el informe, copiar la instrucción de modo de texto y agregarla al filtro de escritura anticipada.</p>
+       <p><b>Sugerencia:</b> Puede crear un informe para probar el filtro antes de agregar el filtro directamente al campo de escritura anticipada. Esto le ayudará a comprobar que el filtro devuelve los objetos correctos. A continuación, puede cambiar al modo de texto en el informe, copiar la instrucción de modo de texto y agregarla al filtro de escritura anticipada.</p>
        <p><b>Nota</b>:
        <ul> 
         <li>Si está editando un formulario personalizado existente, al agregar un filtro a un campo de escritura anticipada no se elimina ningún objeto (fuera del ámbito del filtro) que los usuarios ya hayan agregado mediante el campo.</li> 
@@ -632,12 +632,12 @@ Para añadir una búsqueda externa:
       <td role="rowheader">Ruta JSON</td>
       <td><p>Escriba o pegue la ruta JSON para la API.</p> <p>Esta opción permite extraer datos del JSON devuelto por la URL de la API. Sirve para seleccionar qué valores dentro del JSON aparecerán en las opciones desplegables.</p><p>Por ejemplo, si la dirección URL de la API devuelve JSON en el siguiente formato, puede usar "$.data[*].name" para seleccionar EE. UU. y Canadá como opciones desplegables:</br>
       <pre>
-      &lbrace;
-       data: &lbrace;
+      {
+       data: {
          { name: "USA"},
          { name: "Canada"}
-       &rbrace;
-      &rbrace;
+       }
+      }
       </pre>
       </p>
      <p>Para obtener más información sobre la ruta JSON y cómo asegurarse de que escribe la ruta JSON correcta, consulte <a href="https://jsonpath.com/">https://jsonpath.com/</a>.</p></td>
