@@ -3,9 +3,9 @@ user-guide-title: Guía de Workfront
 user-guide-description: Utilice los siguientes documentos, tutoriales y recursos adicionales para aprender a implementar y utilizar Adobe Workfront de forma eficaz en su organización.
 role: User
 feature-set: Workfront
-source-git-commit: 26a97126bbe809bc5fdd40d52bce2e0763110bcb
+source-git-commit: 5413ab5cfbb06a7e047a4ccab87e82af7c859cab
 workflow-type: tm+mt
-source-wordcount: '13256'
+source-wordcount: '13262'
 ht-degree: 60%
 
 ---
@@ -1730,9 +1730,9 @@ ht-degree: 60%
          * [Tableau Desktop no puede establecer una conexión](/help/quicksilver/reports-and-dashboards/data-lake/tips-tricks-troubleshooting/cannot-load-data.md)
          * [La herramienta Power BI no se puede conectar con la contraseña proporcionada](/help/quicksilver/reports-and-dashboards/data-lake/tips-tricks-troubleshooting/cannot-connect-with-provided-password.md)
 * Administran los recursos {#manage-resources}
-   * [Administran los recursos](resource-mgmt/manage-resources.md)
+   * [Administrar recursos: índice de artículos](resource-mgmt/manage-resources.md)
    * Administración de recursos {#resource-management}
-      * [Administración de recursos](resource-mgmt/resource-mgmt-overview/resource-management-overview.md)
+      * [Administración de recursos: índice de artículos](resource-mgmt/resource-mgmt-overview/resource-management-overview.md)
       * [Introducción a la Administración de recursos ](resource-mgmt/resource-mgmt-overview/get-started-resource-management.md)
    * Planificación de recursos en Adobe Workfront {#resource-planning-in-adobe-workfront}
       * [Planificación de recursos: índice de artículos](resource-mgmt/resource-planning/resource-planning-overview.md)
@@ -1762,7 +1762,7 @@ ht-degree: 60%
       * [Informe sobre horas presupuestadas del planificador de recursos](resource-mgmt/resource-planning/report-on-budgeted-hours.md)
       * [Limitaciones de visualización del Planificador de recursos](resource-mgmt/resource-planning/resource-planner-display-limitations.md)
    * Utilización de recursos {#resource-utilization}
-      * [Utilización de recursos](resource-mgmt/resource-utilization/resource-utilization.md)
+      * [Utilización de los recursos: índice del artículo](resource-mgmt/resource-utilization/resource-utilization.md)
       * [Ver información sobre la utilización de recursos](resource-mgmt/resource-utilization/view-utilization-information.md)
    * Distribuidor de cargas de trabajo {#the-workload-balancer}
       * [El Distribuidor de cargas de trabajo: índice de artículos](resource-mgmt/workload-balancer/workload-balancer.md)
