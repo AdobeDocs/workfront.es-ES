@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 08de894a-82f0-4440-a350-680d6648f01e
-source-git-commit: 554e08c22f6ee142a9ced8fa991d0126b6360b0c
+source-git-commit: 7373ee9f31e4b7561735920f3ff02cbd4fdce44a
 workflow-type: tm+mt
-source-wordcount: '1330'
-ht-degree: 12%
+source-wordcount: '1341'
+ht-degree: 11%
 
 ---
 
@@ -173,4 +173,9 @@ En un formulario personalizado con un salto de sección configurado con el permi
 1. Empiece a crear o editar un formulario personalizado y a agregar campos, tal como se describe en [Crear un formulario personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 1. Haga clic en **Vista previa** en la esquina superior derecha para ver el aspecto que tendrá el formulario cuando se utilice y, a continuación, haga clic en **Finalizar vista previa** para regresar a la edición del formulario.
+
+   >[!NOTE]
+   >
+   >La lógica avanzada no se admite en el modo de vista previa del diseñador de formularios.
+
 

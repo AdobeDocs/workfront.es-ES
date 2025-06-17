@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 5f5dbeb5-b974-489c-8f4d-ebaa00f5e5ba
-source-git-commit: b3a4945cf2db1ba11b42742f0da685b32a6d0dd9
+source-git-commit: 7373ee9f31e4b7561735920f3ff02cbd4fdce44a
 workflow-type: tm+mt
-source-wordcount: '1694'
+source-wordcount: '1705'
 ht-degree: 65%
 
 ---
@@ -259,6 +259,10 @@ Para obtener más ejemplos de lógica de validación, consulte [Ejemplos de lóg
 1. Haga clic en **Aplicar**.
 
    La lógica se aplica al campo en el diseñador de formularios.
+
+   >[!NOTE]
+   >
+   >La lógica de validación no se admite en el modo de vista previa del diseñador de formularios.
 
 <!--
 <div class="preview">
