@@ -5,9 +5,9 @@ description: La barra de navegación superior, que aparece en la parte superior 
 feature: Get Started with Workfront
 author: Courtney
 exl-id: 6262d0ff-4be0-41ac-b2e7-5eaa6b2795dc
-source-git-commit: 577761ff5d1fb59db104df5995af953a0b5e6c0c
+source-git-commit: 4ad4873f1646a2ff499d03dabd9749d43022f6b1
 workflow-type: tm+mt
-source-wordcount: '693'
+source-wordcount: '690'
 ht-degree: 99%
 
 ---
@@ -85,8 +85,6 @@ Las opciones disponibles en el [!UICONTROL Menú principal] dependen de lo sigui
 * **Configuraciones de la plantilla de diseño**: para saber cómo un administrador de [!DNL Workfront] puede modificar el [!UICONTROL Menú principal] a partir de una plantilla de diseño, consulte [Personalizar el [!UICONTROL Menú principal] con una plantilla de diseño](../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
 
 * **Tipo de licencia**: para conocer las configuraciones predeterminadas para diferentes tipos de licencia, consulte [Comprender la navegación de un usuario con licencia de revisión](../../workfront-basics/navigate-workfront/workfront-navigation/reviewer-global-navigation-bar.md) o [Comprender la navegación de un usuario con licencia de [!UICONTROL Trabajo]](../../workfront-basics/navigate-workfront/workfront-navigation/worker-global-navigation-bar.md).
-
-![Opciones del menú principal](assets/main-menu-options-350x481.png)
 
 Cada icono le lleva a un área diferente de Workfront.
 
