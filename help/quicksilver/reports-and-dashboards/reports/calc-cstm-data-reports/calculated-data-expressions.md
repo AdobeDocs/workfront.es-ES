@@ -7,7 +7,7 @@ description: Puede utilizar expresiones de datos para definir campos de datos pe
 author: Nolan
 feature: Reports and Dashboards
 exl-id: cfb3ace9-76c3-4006-878f-e2ad25ffa03b
-source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
+source-git-commit: fe9d3cfbb50bfda672360b918d971cc77b0b8b0a
 workflow-type: tm+mt
 source-wordcount: '2463'
 ht-degree: 91%
@@ -396,7 +396,7 @@ Puede crear un campo personalizado calculado que muestre un valor con formato de
    <td><strong>ARRAYCONTAINS</strong> </td> 
    <td> <p>Busca un valor específico en una lista o matriz. Si se encuentra el valor, la función devuelve True; en caso contrario, devuelve False. </p> 
    <p>La expresión tiene el siguiente formato:</p>
-   <p><code>ARRAY(value 1, value 2)</code></p> 
+   <p><code>ARRAYCONTAINS(array, value)</code></p> 
    </td> 
   </tr>
 

@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: e25f6ac3fb4ffc114d59bf5cceecfe718ae914ec
+source-git-commit: fe9d3cfbb50bfda672360b918d971cc77b0b8b0a
 workflow-type: tm+mt
-source-wordcount: '1979'
-ht-degree: 57%
+source-wordcount: '2061'
+ht-degree: 53%
 
 ---
 
@@ -277,12 +277,14 @@ A continuación, se muestran los objetos y conceptos principales de Workfront Pl
    * Un tipo de registro y un tipo de objeto de proyecto, programa, portafolio, compañía o grupo de Workfront.
    * Un tipo de registro y un recurso o carpeta de Adobe Experience Manager.
 
-     Debe tener una licencia de Adobe Experience Manager para vincular tipos de registros con objetos de Experience Manager.
+     Debe tener una licencia de Adobe Experience Manager para conectar tipos de registros con objetos de Experience Manager.
 
      ![Nueva pestaña de conexión con las opciones de Workfront AEM](assets/new-connection-tab-with-workfront-aem-options.png)
 
 
   Después de establecer una conexión entre los tipos de registro, puede conectar registros individuales u objetos de esos tipos entre sí. La conexión entre los registros se muestra como un campo de registro conectado o como una conexión.
+
+  La conexión de tipos de registros es útil cuando hay varios tipos de objetos de trabajo que se afectan entre sí. Por ejemplo, puede trabajar con campañas, y cada campaña puede adaptarse a varias marcas. Para indicar esta relación, puede conectar campañas a marcas. Además, el trabajo de cada campaña puede planificarse en varios proyectos en Workfront. Para indicar esto, puede conectar las campañas a los proyectos relevantes. La conexión de tipos de registros y, posteriormente, la conexión de registros individuales logra esta relación en Workfront Planning.
 
 * **Campos de búsqueda** (o campos vinculados): después de establecer la conexión entre dos tipos de registro y conectar registros individuales, puede hacer referencia a los campos desde los registros conectados desde el registro desde el que se conecta.
 
@@ -299,7 +301,7 @@ A continuación, se muestran los objetos y conceptos principales de Workfront Pl
   >* Última modificación realizada por
   >* Campos de escritura anticipada de Workfront (incluidos campos como Propietario del proyecto o Patrocinador del proyecto)
 
-  Para obtener información sobre la vinculación de tipos de registros, registros y la creación de campos vinculados, consulte los siguientes artículos:
+  Para obtener información sobre cómo conectar tipos de registros, registros y crear campos vinculados, vea los siguientes artículos:
 
    * [Conectar tipos de registro](/help/quicksilver/planning/architecture/connect-record-types.md)
    * [Conectar registros](/help/quicksilver/planning/records/connect-records.md)
@@ -323,7 +325,6 @@ A continuación, se muestran los objetos y conceptos principales de Workfront Pl
      ![Agrupación aplicada en la vista de escala de tiempo](assets/grouping-applied-in-timeline-view.png)
 
    * **Vista de calendario**: muestra los registros que tienen al menos dos campos de tipo Fecha en formato de calendario.
-
      ![Ejemplo de vista de calendario](assets/calendar-view-example.png)
 
 
@@ -395,7 +396,7 @@ Para obtener una lista actualizada de las características publicadas, consulte 
     >
     >    The Workfront AI Assistant has been temporarily removed and it will be available at a later date.-->
 
-* [Módulos de Adobe Workfront Planning para Workfront Fusion](https://experienceleague.adobe.com/es/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules): Con los módulos de Adobe Workfront Planning, puede activar un escenario cuando se produzcan eventos en Workfront Planning. También puede crear, leer, actualizar y eliminar registros, o realizar una llamada de API personalizada a su cuenta de Adobe Workfront Planning.
+* [Módulos de Adobe Workfront Planning para Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules): Con los módulos de Adobe Workfront Planning, puede activar un escenario cuando se produzcan eventos en Workfront Planning. También puede crear, leer, actualizar y eliminar registros, o realizar una llamada de API personalizada a su cuenta de Adobe Workfront Planning.
 
 * [Conceptos básicos de la API de Adobe Workfront Planning](/help/quicksilver/planning/general/planning-api-basics.md): la meta de la API de Planning de Adobe Workfront es simplificar la creación de integraciones con Planning mediante la introducción de una arquitectura REST-ful que funcione a través de HTTP.
 
