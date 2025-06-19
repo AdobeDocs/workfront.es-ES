@@ -7,10 +7,10 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 1926500c76e4f9cfdac829f8d9f0cdfa6231e31d
+source-git-commit: f7cb314067d105d5534f4be356024aea8e8f9a28
 workflow-type: tm+mt
-source-wordcount: '3818'
-ht-degree: 92%
+source-wordcount: '4065'
+ht-degree: 87%
 
 ---
 
@@ -21,6 +21,17 @@ ht-degree: 92%
 <!--remove all preview and production references if any-->
 <!--update screen shots for the general hour entries and the mixed selection of hours at production, if they fixed the bugs -->
 
+<!--
+<div class="preview">
+
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release.     
+
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). 
+
+</div>
+
+-->
+
 Puede registrar el tiempo de los elementos de trabajo en Adobe Workfront para indicar la cantidad de horas que dedica a trabajar en ellos. También puede registrar el tiempo que no esté relacionado con el trabajo, como vacaciones, tiempo por enfermedad o tiempo que pasa en reuniones. El tiempo que registre se mostrará en la plantilla de horas.
 
 Para obtener más información sobre el tipo de horas que puede iniciar sesión en Workfront, consulte [Administrar tipos de horas](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/hour-types.md).
@@ -28,8 +39,6 @@ Para obtener más información sobre el tipo de horas que puede iniciar sesión 
 ## Requisitos de acceso
 
 +++ Amplíe para ver los requisitos de acceso.
-
-Debe tener el siguiente acceso para realizar los pasos de este artículo y registrar las horas específicas del proyecto:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -344,11 +353,25 @@ Además, para registrar el tiempo de un elemento en el widget Mi trabajo:
 1. (Opcional) Seleccione una tarea, un problema o una solicitud en una lista y, a continuación, haga clic en **Trabajar en ello**.
 1. Pase el puntero por encima de la tarea o el problema para el que quiera registrar tiempo y luego haga clic en el icono de **Registrar el tiempo**![](assets/log-time-icon-in-new-home.png), a la derecha de la información de la tarea.
 
-   ![](assets/log-time-ui-for-task-from-new-home.png)
+   Se muestra el cuadro **Registrar tiempo**.
+
+   ![Registrar cuadro de tiempo para una tarea en Inicio](assets/log-time-ui-for-task-from-new-home.png)
+
+1. Especifique la siguiente información:
+
+   * **Tipo de hora**: seleccione un Tipo de hora en el menú desplegable, si es diferente del que se muestra de forma predeterminada.
+
+     Según los tipos de horas que estén configurados en el sistema, las opciones aquí pueden variar. Para obtener más información acerca de cómo configurar los tipos de horas, consulte [Definir tipos de horas y disponibilidad](../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md).
+
+   * **Función**: (condicional) si el administrador de su Workfront o de su grupo ha habilitado la opción **Asignar funciones a las entradas de horas manualmente**, seleccione una **Función** en el menú desplegable. La Función especificada cuando se le asigna al objeto se muestra de forma predeterminada. Si no se le asigna una función en el objeto, la función principal se muestra como predeterminada. Para obtener más información sobre esta configuración, consulte el artículo [Configurar la plantilla de horas y las preferencias de horas](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+
+   * En el calendario semanal, escriba el número de horas del proyecto, tarea o problema.
 
 1. Haga clic en **Registrar el tiempo**.
 
    El tiempo registrado se muestra en la sección Horas del objeto y en la hoja de horas.
+
+   El campo **Horas totales** del cuadro Tiempo de registro muestra todas las horas registradas para el proyecto, tarea o problema por todos los usuarios.
 
 <!--#### Log time on a work item from the legacy Home area
 
@@ -395,7 +418,7 @@ Para registrar el tiempo en la sección Actualizaciones de un proyecto, tarea o 
    >   
    >   Hay una indicación en la esquina superior derecha del cuadro Escribir días de cuántas horas se incluyen en un día.
 
-   ![](assets/log-time-box-in-updates-stream.png)
+   ![Registrar cuadro de tiempo para una tarea en el área de Actualizaciones](assets/log-time-box-in-updates-stream.png)
 
 1. Especifique la siguiente información:
 
@@ -405,11 +428,13 @@ Para registrar el tiempo en la sección Actualizaciones de un proyecto, tarea o 
 
    * **Función**: (condicional) si el administrador de su Workfront o de su grupo ha habilitado la opción **Asignar funciones a las entradas de horas manualmente**, seleccione una **Función** en el menú desplegable. La Función especificada cuando se le asigna al objeto se muestra de forma predeterminada. Si no se le asigna una función en el objeto, la función principal se muestra como predeterminada. Para obtener más información sobre esta configuración, consulte el artículo [Configurar la plantilla de horas y las preferencias de horas](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
-   * **Horas**: introduzca el número de horas del proyecto, tarea o problema.
+   * En el calendario semanal, escriba el número de horas del proyecto, tarea o problema.
 
-1. Haga clic en **Tiempo de registro**.
+1. Haga clic en **Registrar el tiempo**.
 
-   El tiempo registrado se muestra en la sección Horas del objeto y en la plantilla de horas.
+   El tiempo registrado se muestra en la sección Horas del objeto y en la hoja de horas.
+
+   El campo **Horas totales** del cuadro Tiempo de registro muestra todas las horas registradas para el proyecto, tarea o problema por todos los usuarios.
 
 #### Sección Horas{#hours-section}
 
@@ -429,7 +454,13 @@ Para registrar el tiempo en la sección Horas de un proyecto, tarea o problema:
 1. En el panel izquierdo, haga clic en **Horas**.
 1. Haga clic en **Tiempo de registro**.
 
-   Aparece el cuadro de diálogo Registrar horas.
+   Se muestra el cuadro **Registrar tiempo**.
+
+   <!--<div class="preview">
+  
+   ![Log time in the Hours section of a task](assets/log-time-box-in-hours-section-on-task.png)
+
+   </div>-->
 
 1. Especifique la siguiente información:
 
@@ -438,14 +469,19 @@ Para registrar el tiempo en la sección Horas de un proyecto, tarea o problema:
 
    * **Tipo de hora**: seleccione un Tipo de hora en el menú desplegable, si es diferente del que se muestra de forma predeterminada.
 
-     Según los tipos de horas que estén configurados en el sistema, las opciones aquí pueden variar. Para obtener más información acerca de cómo configurar los tipos de horas, consulte [Definir tipos de horas y disponibilidad](../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md).
+     Según los tipos de horas que estén configurados en el sistema, las opciones aquí pueden variar.
+
+     Para obtener más información acerca de cómo configurar los tipos de horas, consulte [Definir tipos de horas y disponibilidad](../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md).
 
    * **Función**: (condicional) si el administrador de su Workfront o de su grupo ha habilitado la opción **Asignar funciones a las entradas de horas manualmente**, seleccione una **Función** en el menú desplegable. La Función especificada cuando se le asigna al objeto se muestra de forma predeterminada. Si no se le asigna una función en el objeto, la función principal se muestra como predeterminada. Para obtener más información sobre esta configuración, consulte el artículo [Configurar la plantilla de horas y las preferencias de horas](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+   * **Horas**: escriba el número de horas del proyecto, tarea o problema. <!--<span class="preview">In the weekly calendar, enter the number of hours for the project, task, or issue.</span>-->
+   * **Nota**: agrega una nota para explicar para qué sirven las horas. Se guardó como **nota de hora** o como **descripción de hora**.
 
-     ![](assets/log-time-box-in-hours-section-on-task.png)
-   * **Horas**: escriba el número de horas del proyecto, tarea o problema.
+1. Haga clic en **Registrar el tiempo**.
 
-1. Haga clic en **Registrar tiempo**.
+   El tiempo registrado se muestra en la sección Horas del objeto y en la hoja de horas.
+
+   El campo **Horas totales** del cuadro Tiempo de registro muestra todas las horas registradas para el proyecto, tarea o problema por todos los usuarios.
 
 ### Panel de resumen
 

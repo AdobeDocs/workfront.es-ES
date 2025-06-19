@@ -3,22 +3,22 @@ user-type: administrator
 content-type: reference;overview
 product-area: system-administration
 navigation-topic: system-tracked-update-feeds
-title: Actualizaciones seguidas por el sistema
+title: Información general sobre actualizaciones rastreadas del sistema
 description: Adobe Workfront registra la actividad que se está llevando a cabo en ciertos objetos mediante el registro de información de estado en el área [!UICONTROL Updates] del objeto.
 author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: c88823a7-100b-40dd-b4f1-bead53ae5dc4
-source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
+source-git-commit: 4448d2fc6d0230ef2f53ad0ea7ae0f10f52fcac4
 workflow-type: tm+mt
-source-wordcount: '390'
-ht-degree: 98%
+source-wordcount: '386'
+ht-degree: 95%
 
 ---
 
-# Actualizaciones rastreadas por el sistema
+# Información general sobre actualizaciones rastreadas del sistema
 
-<!-- Audited: April, 2024-->
+<!-- Audited: 06/2025-->
 
 <!--
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases.</span>
@@ -75,7 +75,7 @@ Las actualizaciones rastreadas por el sistema no están disponibles para todos l
    * [!UICONTROL Iteración]
    * [!UICONTROL Meta]
 
-     Debe contar con una licencia adicional para tener acceso al área [!UICONTROL Metas]. Para obtener más información, consulte [Requisitos para usar Workfront Goals](../../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+     No todos los paquetes de Workfront incluyen Workfront Goals. Para obtener más información, consulte [Requisitos para usar Workfront Goals](../../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
    * [!UICONTROL Card] en un tablero
 
      Para obtener más información sobre las actualizaciones de las tarjetas, consulte [Usar tarjetas conectadas en tableros](../../../agile/get-started-with-boards/connected-cards.md).

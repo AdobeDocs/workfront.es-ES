@@ -6,9 +6,9 @@ description: Puede usar el área [!UICONTROL Mis actualizaciones] para revisar d
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 809605a0-8c24-4873-b98f-504a158be022
-source-git-commit: fddb927f2c9639b4c26d590bbea7dba684ed2b6c
+source-git-commit: 4448d2fc6d0230ef2f53ad0ea7ae0f10f52fcac4
 workflow-type: tm+mt
-source-wordcount: '823'
+source-wordcount: '811'
 ht-degree: 88%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 88%
 
 Puede usar el área [!UICONTROL Mis actualizaciones] para revisar rápidamente las aprobaciones que esperan su decisión o las conversaciones en las que se le ha incluido.
 
-Como usuario con una licencia de [!UICONTROL Revisión], puede encontrar el área [!UICONTROL Mis actualizaciones] en el [!UICONTROL Menú principal] de forma predeterminada, mientras que el área [!UICONTROL Mis actualizaciones] será su página de aterrizaje predeterminada.
+Como usuario con una licencia de [!UICONTROL Revisión], puede encontrar el área [!UICONTROL Mis actualizaciones] en el [!UICONTROL Menú principal] de forma predeterminada, mientras que el área [!UICONTROL Mis actualizaciones] será su página de destino predeterminada.
 
 Para obtener información acerca de [!DNL Adobe Workfront] licencias, consulte [[!DNL Adobe Workfront] Información general sobre licencias](../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md).
 
@@ -74,15 +74,13 @@ Debe tener lo siguiente antes de empezar:
 
 ## Obtener acceso al área [!UICONTROL Mis actualizaciones]
 
-1. Haga clic en **[!UICONTROL Mis actualizaciones]** en el **[!UICONTROL Menú principal]**.
+{{step1-to-my-updates}}
 
-   ![Mis actualizaciones en el menú principal](assets/access-my-updates-from-main-menu-reviewer-user-nwe-350x294.png)
+Se abre el área [!UICONTROL Mis actualizaciones].
 
-   Se abre el área [!UICONTROL Mis actualizaciones].
+Las aprobaciones y solicitudes de acceso que se le hayan asignado se enumeran en la primera mitad de la página, en **Mis actualizaciones**.
 
-   Las aprobaciones y solicitudes de acceso que se le hayan asignado se enumeran en la primera mitad de la página, en **Mis actualizaciones**.
-
-   ![Menciones de Mis actualizaciones para revisores](assets/my-updates-mentions-for-reviwers-nwe-350x418.png)
+![Menciones de Mis actualizaciones para revisores](assets/my-updates-mentions-for-reviwers-nwe-350x418.png)
 
 1. (Opcional) Desplácese hasta la parte inferior del área de [!UICONTROL **Mis actualizaciones**] y haga clic en la flecha hacia la derecha para mostrar más aprobaciones que se muestran en páginas adicionales.
 

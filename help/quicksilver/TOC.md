@@ -3,9 +3,9 @@ user-guide-title: Guía de Workfront
 user-guide-description: Utilice los siguientes documentos, tutoriales y recursos adicionales para aprender a implementar y utilizar Adobe Workfront de forma eficaz en su organización.
 role: User
 feature-set: Workfront
-source-git-commit: 5413ab5cfbb06a7e047a4ccab87e82af7c859cab
+source-git-commit: 4448d2fc6d0230ef2f53ad0ea7ae0f10f52fcac4
 workflow-type: tm+mt
-source-wordcount: '13262'
+source-wordcount: '13266'
 ht-degree: 60%
 
 ---
@@ -446,8 +446,8 @@ ht-degree: 60%
          * [Desactivar funciones](administration-and-setup/set-up-workfront/organizational-setup/deactivate-job-roles.md)
          * [Anular tarifas de facturación de rol](administration-and-setup/set-up-workfront/organizational-setup/override-job-role-billing-rates-company-level.md)
       * Fuentes de actualización rastreadas por el sistema {#system-tracked-updates}
-         * [Actualizaciones rastreadas por el sistema](administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-updates-feeds.md)
-         * [Actualizaciones rastreadas por el sistema](administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md)
+         * [Fuentes de actualizaciones rastreadas por el sistema: índice de artículos](administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-updates-feeds.md)
+         * [Información general sobre actualizaciones rastreadas del sistema](administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md)
          * [Configurar las actualizaciones del sistema](administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md)
          * [Configurar preferencias para actualizaciones de usuarios](administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-preferences-user-updates.md)
       * Entornos de prueba de Adobe Workfront {#testing-environments}
@@ -554,7 +554,7 @@ ht-degree: 60%
          * [Personalizar páginas ancladas](administration-and-setup/customize-workfront/use-layout-templates/customize-pinned-pages.md)
          * [Personalizar filtros, vistas y agrupaciones](administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
          * [Personalizar la terminología de interfaz de usuario](administration-and-setup/customize-workfront/use-layout-templates/customize-terminology.md)
-         * [Personalizar la página de aterrizaje](administration-and-setup/customize-workfront/use-layout-templates/customize-landing-page.md)
+         * [Personalizar la página de destino](administration-and-setup/customize-workfront/use-layout-templates/customize-landing-page.md)
          * [Brand Workfront](administration-and-setup/customize-workfront/use-layout-templates/brand-wf-using-a-layout-template.md)
          * [Prueba de una plantilla de diseño](administration-and-setup/customize-workfront/use-layout-templates/test-a-layout-template.md)
          * [Acceso administrativo para plantillas de diseño](administration-and-setup/customize-workfront/use-layout-templates/grant-admin-access-layout-template.md)
