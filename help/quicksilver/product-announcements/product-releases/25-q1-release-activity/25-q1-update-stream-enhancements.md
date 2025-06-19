@@ -5,10 +5,10 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 29fa2641-9ac0-4cad-aef1-0f5ac877bab1
-source-git-commit: 270bf0fb1bb5b3ab93e82aafd423ee6fceaa7b42
+source-git-commit: ec74d34bc69f2f1424414453f9fdf94e539a75fd
 workflow-type: tm+mt
-source-wordcount: '220'
-ht-degree: 43%
+source-wordcount: '231'
+ht-degree: 41%
 
 ---
 
@@ -22,7 +22,7 @@ Para obtener una lista de todos los cambios disponibles en este punto del ciclo 
 
 >[!NOTE]
 >
->Versión de vista previa: 19 de diciembre de 2024; versión de producción para todos los clientes: por anunciar
+>Versión de vista previa: 19 de diciembre de 2024; versión de producción para todos los clientes para Inicio: por anunciar; versión de producción para todos los clientes para Mis actualizaciones: 19 de junio de 2025
 
 Estamos actualizando la experiencia de comentarios en el widget Menciones en Inicio y en la sección Menciones del área Mis actualizaciones. Ahora, la misma experiencia en el área de Actualizaciones de la mayoría de los objetos de Workfront también está disponible en el widget Menciones y en la sección Menciones de Mis actualizaciones.
 

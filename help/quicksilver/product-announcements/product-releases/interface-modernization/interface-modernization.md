@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 6fa00a88f6620936ed9af00faf60f61d48c2f825
+source-git-commit: 95a8d56b82e6d28995f7adc9cf3e23cbb039c096
 workflow-type: tm+mt
-source-wordcount: '4390'
+source-wordcount: '4589'
 ht-degree: 2%
 
 ---
@@ -25,9 +25,70 @@ Para ver todos los demás cambios en Adobe Workfront, consulte [Versiones del pr
 
 ## Administración y configuración
 
+<!--
+### Look and feel updates for the Update Feeds section of Setup 
+
+**Preview release: June 19, 2025; Production release: June 26, 2025** 
+
+We have updated the look and feel of all the tabs and subtabs in the Update Feeds section of Setup. The Update Feeds section displays under the Interface area of Setup. Now, all the tabs in the Update Feeds section match other areas of Workfront. 
+
+For information, see the articles in the [System-tracked update feeds](/help/quicksilver/administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-updates-feeds.md) section.
+-->
+
+<!--
+### Look and feel updates for the Add fields box in the Update Feeds section of Setup 
+
+**Preview release: June 19, 2025; Production release: June 26, 2025** 
+
+We have updated the look and feel of the Add fields box in the Update Feeds section of Setup. The Update Feeds section displays under the Interface area of Setup. Now, when you add fields in any subtab of the Tracked Fields tab, the Add fields box has a new look and feel, and some of the interface elements have been updated.  
+
+For information, see [Configure system updates](/help/quicksilver/administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
+-->
+
+### Actualizaciones de la interfaz para crear, copiar y editar programaciones
+
+**Versión preliminar: 18 de junio de 2025; versión de producción: 26 de junio de 2025**
+
+Hemos actualizado el cuadro de diálogo para cuando cree, edite o copie una programación con un diseño más moderno y coherente con otras áreas de Workfront.
+
+Hay algunos pequeños cambios en la funcionalidad con esta actualización:
+
+* En la pestaña Programación, se ha mejorado la forma de seleccionar las horas de la programación.
+
+* En la ficha Detalles, todas las casillas de verificación están en una columna en lugar de en dos columnas.
+
+* En la ficha Excepciones, si desea cambiar un evento de día completo a un evento de día parcial o un evento de día parcial a un evento de día completo, tiene que eliminar el evento existente y, a continuación, crear uno nuevo.
+
+
+Para obtener más información, consulte [Crear una programación](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
+
+### Actualización del cuadro de diálogo Niveles de acceso
+
+**Versión preliminar: 19 de junio de 2025; versión de producción: 19 de junio de 2025**
+
+Hemos actualizado el cuadro de diálogo Niveles de acceso con un diseño más moderno y coherente con otras áreas de Workfront.
+
+El botón para ajustar el acceso se ha movido a la derecha del botón Editar.
+
+Para ver este cambio, vaya a Configuración > Niveles de acceso > Nuevo nivel de acceso.
+
+<!--
+### Interface updates for the Companies page
+
+**Preview release: June 19, 2025; Production release: June 26, 2025**
+
+We have updated the Companies page with a more modern design that is consistent with other areas of Workfront.
+
+This update includes visual changes to the list of companies. No functionality has changed.
+
+To view the change, go to Setup > Companies.
+
+For information, see [Create and edit companies](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md).
+-->
+
 ### Actualizaciones de la interfaz de la página Información del cliente
 
-**Versión preliminar: 12 de junio de 2025; versión de producción: 19 de junio de 2025**
+**Versión preliminar: 12 de junio de 2025; versión de producción: por anunciar**
 
 Hemos actualizado la página Información del cliente con un diseño más moderno y coherente con otras áreas de Workfront.
 
@@ -118,9 +179,19 @@ Hemos actualizado la página que utiliza para conceder acceso de soporte técnic
 
 ## Proyectos
 
+<!--
+### New look and feel for logging time on a project, task, or issue in the Hours tab   
+
+**Preview release: June 19, 2025; Production release: June 26, 2025** 
+
+We have updated the look and feel of the Log time box when logging time for a project, task, or issue in the Hours tab, to match the design of other areas of Workfront.  
+
+For information, see [Log time](/help/quicksilver/timesheets/create-and-manage-timesheets/log-time.md).
+-->
+
 ### Actualizaciones de la interfaz de la sección Proyectos asociados de un proyecto (solo disponible para clientes específicos)
 
-**Versión preliminar: 12 de junio de 2025; versión de producción: 19 de junio de 2025**
+**Versión preliminar: 12 de junio de 2025; versión de producción: por anunciar**
 
 Hemos actualizado la sección de Proyectos asociados de un proyecto con un diseño más moderno y coherente con otras áreas de Workfront.
 
@@ -128,7 +199,7 @@ Determinados clientes pueden ver este cambio en la sección Proyectos asociados 
 
 ### Nueva apariencia para el cuadro &quot;Guardar como plantilla&quot;
 
-**Versión preliminar: 12 de junio de 2025; versión de producción: 19 de junio de 2025**
+**Versión preliminar: 12 de junio de 2025; versión de producción: por anunciar**
 
 Hemos actualizado el aspecto del cuadro &quot;Guardar como plantilla&quot; que se muestra al guardar un proyecto como plantilla. El nuevo diseño incluye una interfaz optimizada, en la que todas las secciones se muestran en un formulario coherente que puede navegar mediante vínculos en el panel izquierdo. El nuevo diseño coincide con otras áreas y otros objetos de la aplicación.
 
@@ -142,7 +213,7 @@ Hemos actualizado el aspecto del cuadro Eliminar problema al eliminar uno o vari
 
 Para obtener más información, consulte [Eliminar problemas](/help/quicksilver/manage-work/issues/manage-issues/delete-issues.md).
 
-## Buscar y recibir actualizaciones en los cuadros Nuevo y Editar riesgo de un proyecto o una plantilla
+### Buscar y recibir actualizaciones en los cuadros Nuevo y Editar riesgo de un proyecto o una plantilla
 
 **Versión preliminar: 22 de mayo de 2025; versión de producción: 29 de mayo de 2025**
 
@@ -177,16 +248,26 @@ Para obtener más información, consulte los siguientes artículos:
 
 ## Informes y paneles
 
+<!--
+### Interface updates for the Expense report
+
+Preview release: June 19, 2025; Production release: June 26, 2025
+
+We have updated the look and feel of the Expense report to match the design of other areas of Workfront.
+
+For information, see [Create a custom report](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+-->
+
 ### Informes actualizados con nuevo estilo
 
-**Versión preliminar: 12 de junio de 2025; versión de producción: 19 de junio de 2025**
+**Versión preliminar: 12 de junio de 2025; versión de producción: por anunciar**
 
 Hemos actualizado el aspecto de varios informes para que coincida con el diseño de otras áreas de Workfront. No se ha cambiado ninguna funcionalidad.
 
 Esta actualización incluye cambios visuales en las listas y barras de herramientas de los informes para los siguientes tipos de objetos:
 
 * Riesgos
-* Líneas base
+* Líneas de base (Publicadas para producción el 19 de junio). 2025)
 * Tarifas
 * Plantillas de diseño
 
@@ -208,13 +289,14 @@ Se recomienda reemplazar la URL para ir a una página compatible o eliminar la p
 <!--
 ### Interface updates to the organizational chart
 
-**Preview release: May 29, 2025; Production release: June 5, 2025**
+**Preview release: June 19, 2025; Production release for all customers: June 26, 2025**
 
 We have updated the look and feel of the organizational chart associated with a Workfront user, to match the design of other areas of Workfront.
 
 To view this change, go to a Workfront user profile and click **Org Chart** in the left panel. (This feature is available through the Workfront user profile, not the Adobe user profile.)
 
-For information, see [View the organizational chart](/help/quicksilver/people-teams-and-groups/work-directly-with-others/view-the-org-chart.md).-->
+For information, see [View the organizational chart](/help/quicksilver/people-teams-and-groups/work-directly-with-others/view-the-org-chart.md).
+-->
 
 ### Actualización de la interfaz a la nueva página de registro de usuario
 

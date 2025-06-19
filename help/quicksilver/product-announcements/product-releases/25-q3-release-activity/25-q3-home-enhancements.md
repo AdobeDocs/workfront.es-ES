@@ -5,10 +5,10 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 91789b7b-3aec-415c-a03d-e06d0c43a263
-source-git-commit: 75a8990a3bb75a0f8177b10d5e42bd6b4211f7f1
+source-git-commit: d7b9f6cac531bed5fd2a3e5c766e9d714f2625e4
 workflow-type: tm+mt
-source-wordcount: '130'
-ht-degree: 28%
+source-wordcount: '211'
+ht-degree: 17%
 
 ---
 
@@ -17,6 +17,20 @@ ht-degree: 28%
 Esta página describe todas las mejoras realizadas en Inicio con la versión del tercer trimestre de 2025 en el entorno de vista previa. Estas mejoras estarán disponibles en el entorno de producción, como se ha indicado.
 
 Para obtener una lista de todos los cambios disponibles en este punto del ciclo de la versión del tercer trimestre de 2025, consulte [Información general de la versión del tercer trimestre de 2025](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-release-overview.md).
+
+## Se ha actualizado la experiencia de comentarios en la sección Menciones del área Mis actualizaciones
+
+>[!NOTE]
+>
+>* Vista previa: 19 de diciembre de 2024
+>* Versión rápida de producción: 19 de junio de 2025
+>* Producción para todos los clientes: 19 de junio de 2025
+
+Estamos actualizando la experiencia de comentarios en la sección Menciones del área Mis actualizaciones. Ahora, la misma experiencia en el área de Actualizaciones de la mayoría de los objetos de Workfront también está disponible en la sección Menciones de Mis actualizaciones.
+
+Antes de esta mejora, la experiencia de comentarios heredados estaba disponible en esta área.
+
+Para obtener más información, vea [Usar el área Mis actualizaciones](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-updates-area.md).
 
 ## El widget de mis aprobaciones ahora se ordena automáticamente por plazo
 
