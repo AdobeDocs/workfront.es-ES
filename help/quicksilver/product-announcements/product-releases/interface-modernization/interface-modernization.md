@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 95a8d56b82e6d28995f7adc9cf3e23cbb039c096
+source-git-commit: f7e8dd73dc50d5e8a600abe42868a6c7096d8ed6
 workflow-type: tm+mt
-source-wordcount: '4589'
+source-wordcount: '4583'
 ht-degree: 2%
 
 ---
@@ -260,14 +260,14 @@ For information, see [Create a custom report](/help/quicksilver/reports-and-dash
 
 ### Informes actualizados con nuevo estilo
 
-**Versión preliminar: 12 de junio de 2025; versión de producción: por anunciar**
+**Versión preliminar: 12 de junio de 2025; versión de producción: 19 de junio. 2025**
 
 Hemos actualizado el aspecto de varios informes para que coincida con el diseño de otras áreas de Workfront. No se ha cambiado ninguna funcionalidad.
 
 Esta actualización incluye cambios visuales en las listas y barras de herramientas de los informes para los siguientes tipos de objetos:
 
 * Riesgos
-* Líneas de base (Publicadas para producción el 19 de junio). 2025)
+* Líneas base
 * Tarifas
 * Plantillas de diseño
 
