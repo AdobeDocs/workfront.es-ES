@@ -7,10 +7,10 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
-source-git-commit: 334b08f4689318201d3b8260916655f57c2a9320
+source-git-commit: 1e893dd5933ce5740b2bfea1e028f39a07a2291c
 workflow-type: tm+mt
-source-wordcount: '2479'
-ht-degree: 81%
+source-wordcount: '2632'
+ht-degree: 76%
 
 ---
 
@@ -711,7 +711,9 @@ Este filtro permite que se envíen mensajes si el cambio que se produjo contiene
 
 Este filtro permite que los mensajes se transmitan únicamente cuando el conjunto completo de valores seleccionados coincide exactamente con fieldValue del filtro, independientemente del orden. No debe haber valores adicionales o que falten.
 
-Nota: Se utiliza para campos de tipo matriz (selección múltiple). Esta suscripción de ejemplo que se muestra a continuación permite que los mensajes se transmitan únicamente cuando el campo `groups` contiene exactamente &quot;Opción 3&quot; y &quot;Opción 4&quot;, sin valores adicionales o que falten, e independientemente del orden.
+>[!NOTE]
+>
+>Se utiliza para campos de tipo matriz (selección múltiple). Esta suscripción de ejemplo que se muestra a continuación permite que los mensajes se transmitan únicamente cuando el campo `groups` contiene exactamente &quot;Opción 3&quot; y &quot;Opción 4&quot;, sin valores adicionales o que falten, e independientemente del orden. Si se especifica una cadena o un entero en `fieldValue` en lugar de una matriz, la suscripción permite que los mensajes se transmitan solo cuando el campo `groups` contiene exactamente una opción y esa opción coincide exactamente con la cadena o el entero especificado en `fieldValue`&quot;
 
 
 ```
@@ -729,6 +731,31 @@ Nota: Se utiliza para campos de tipo matriz (selección múltiple). Esta suscrip
             ],
             "state": "newState",
             "comparison": "containsOnly"
+        }
+    ]
+}
+```
+
+#### notContains
+
+Este filtro permite que los mensajes se transmitan sólo cuando el campo especificado (`fieldName`) no contiene el valor especificado (`fieldValue`)
+
+>[!NOTE]
+>
+>Se utiliza para campos de tipo matriz (selección múltiple) o cadena. Si el campo es una cadena, comprobaremos si el valor especificado no está contenido en la cadena (por ejemplo, &quot;Nuevo&quot; no está en la cadena &quot;Proyecto - Actualizado&quot;). Si el campo es una matriz y el valor de campo especificado es una cadena o un número entero, comprobaremos si la matriz no contiene el valor especificado (por ejemplo, &quot;Opción 1&quot; que no está en [&quot;Opción 2&quot;, &quot;Opción 3&quot;]). La suscripción de ejemplo siguiente permite que los mensajes se envíen únicamente cuando los campos `groups` no contienen la cadena &quot;Group 2&quot;.
+
+```
+{
+    "objCode": "PROJ",
+    "eventType": "UPDATE",
+    "authToken": "token",
+    "url": "https://domain-for-subscription.com/API/endpoint/UpdatedProjects",
+    "filters": [
+        {
+            "fieldName": "groups",
+            "fieldValue": "Group 2",
+            "state": "newState",
+            "comparison": "notContains"
         }
     ]
 }
@@ -766,7 +793,7 @@ Este conector hace que el filtro se aplique al nuevo estado o al antiguo estado 
 >[!NOTE]
 >
 >La suscripción siguiente con el filtro especificado solo devolverá mensajes donde el nombre de la tarea contenga `again` en `oldState`, tal como sucedía antes de que se realizara una actualización en la tarea.
->&#x200B;>Un caso de uso para esto sería encontrar los mensajes de objCode que han cambiado de una manera a otra. Por ejemplo, para averiguar todas las tareas que cambiaron de &quot;Investigar Algún nombre&quot; a &quot;Investigar TeamName Algún nombre&quot;
+>>Un caso de uso para esto sería encontrar los mensajes de objCode que han cambiado de una manera a otra. Por ejemplo, para averiguar todas las tareas que cambiaron de &quot;Investigar Algún nombre&quot; a &quot;Investigar TeamName Algún nombre&quot;
 
 ```
 {
