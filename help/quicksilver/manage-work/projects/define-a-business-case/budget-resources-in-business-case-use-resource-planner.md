@@ -5,7 +5,7 @@ description: Como parte de la planificación de recursos, puede utilizar el Plan
 author: Alina
 feature: Work Management
 exl-id: 51ebb940-111c-442f-a8a6-287a04d2db68
-source-git-commit: 9cfb67f627c06a5926e820860d52ba9f1ab58bcf
+source-git-commit: f97c989f57d864252adf6e24f8e6b03f56d26901
 workflow-type: tm+mt
 source-wordcount: '1240'
 ht-degree: 14%
@@ -14,7 +14,7 @@ ht-degree: 14%
 
 # Presupuestar recursos en el caso comercial utilizando el Planificador de recursos
 
-<!--Audited: 01/2025-->
+<!--Audited: 06/2025-->
 
 Como parte de la planificación de recursos, puede utilizar el Planificador de recursos en el nivel de proyecto para presupuestar los roles de trabajo necesarios para completar el trabajo en un proyecto al crear el caso empresarial.
 
@@ -35,23 +35,23 @@ También puede presupuestar recursos en el caso empresarial mediante Adobe Workf
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Plan de Adobe Workfront</td> 
+   <td role="rowheader"><p>Plan de Adobe Workfront*</p></td> 
    <td> <p>Actual: Prime o superior</p>
    <p>Heredado: Pro o superior</p> 
     </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licencia de Adobe Workfront*</td> 
+   <td role="rowheader"><p>Licencia de Adobe Workfront*</p></td> 
    <td> <p>Actual: Ligero o superior</p>
    <p>Heredado: revisión o superior</p>
 
 <p><b>IMPORTANTE:</b></p> 
-   <p>Nuevo: Debe tener una licencia estándar para modificar la información de presupuesto de recursos. </p> 
-   <p>Actual: Debe tener una licencia de planificación para modificar la información de presupuesto de recursos. </p>
+   <p>Actual: Debe tener una licencia estándar para modificar la información de presupuesto de recursos. </p> 
+   <p>Heredado: Debe tener una licencia de planificación para modificar la información de presupuesto de recursos. </p>
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraciones de nivel de acceso</td> 
+   <td role="rowheader"><p>Configuraciones de nivel de acceso</p></td> 
    <td> <p>Acceso de edición a los siguientes elementos: </p> 
     <ul> 
      <li> <p>Proyectos</p> </li> 
@@ -60,13 +60,13 @@ También puede presupuestar recursos en el caso empresarial mediante Adobe Workf
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Permisos de objeto</td> 
+   <td role="rowheader"><p>Permisos de objeto</p></td> 
    <td> <p>Administración de permisos en el proyecto</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

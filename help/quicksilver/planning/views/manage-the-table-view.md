@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
+source-git-commit: f97c989f57d864252adf6e24f8e6b03f56d26901
 workflow-type: tm+mt
-source-wordcount: '3676'
+source-wordcount: '3633'
 ht-degree: 66%
 
 ---
@@ -34,8 +34,6 @@ Este artículo describe la siguiente información:
 ## Requisitos de acceso
 
 +++ Amplíe para ver los requisitos de acceso.
-
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 <table style="table-layout:auto"> 
 <col> 
@@ -260,8 +258,6 @@ Tenga en cuenta lo siguiente cuando utilice filtros en la vista de tabla:
 
 * Al quitar los filtros, se quitarán para todas las personas que tengan acceso al mismo tipo de registro que usted y utilicen la misma vista que utiliza.
 
-* Añadir filtros a la vista de tabla es idéntico a añadir filtros a la vista de línea de tiempo.
-
 * Puede filtrar por campos de registro conectados o por campos de búsqueda.
 
 * Puede filtrar por campos de búsqueda que muestren varios valores.
@@ -432,8 +428,6 @@ Para ordenar registros <!--ungrouped (add this when sorting for groupings will b
 
 Es posible agrupar registros por información similar al aplicar una agrupación a una vista.
 
-Añadir agrupaciones en la vista de tabla es similar a añadir agrupaciones a la vista de línea de tiempo.
-
 Tenga en cuenta lo siguiente:
 
 * Es posible aplicar agrupaciones tanto en las vistas de tabla como de línea de tiempo. Las agrupaciones de la vista de tabla son independientes de las de la vista de línea de tiempo del mismo tipo de registro.
@@ -464,6 +458,8 @@ para añadir una agrupación:
 
    El número de campos seleccionados para la agrupación se muestra junto al icono de Agrupación.
 
+   <!--replace screen shot for Expand all-->
+
    ![Agrupación aplicada en la vista de tabla](assets/grouping-applied-in-table-view.png)
 
 1. (Opcional) Dentro del cuadro **Agrupar registros por**, haga clic en el icono **x** a la derecha de un campo seleccionado para la agrupación para quitar la agrupación
@@ -475,6 +471,26 @@ para añadir una agrupación:
 1. Haga clic fuera del cuadro **Agrupar registros por** para cerrarlo.
 1. (Opcional) Haga clic en **+ Nuevo registro** al final de cualquier agrupación para añadir nuevos registros y, a continuación, actualice la página para añadir el nuevo registro a la agrupación adecuada. <!--this might need to be changed when they add the Refresh button on the toolbar of the table view-->
 
+<!--
+
+1. <span class="preview">To expand or collapse groupings, do one of the following:</span>
+
+    <div class="preview">
+
+    1. Click the **Grouping** icon, then **Expand all**, or **Collapse all**. This expands all the groupings and subgroupings in the table view. 
+
+        ![Expand and collapse all buttons on grouping box table view](assets/expand-collapse-all-buttons-on-grouping-box-table-view.png)
+
+    1. Right-click any of the grouping headers in the table view, then click one of the following options:
+        * **Expand group**
+        * **Collapse group**
+        * **Expand all**
+        * **Collapse all**
+        * **Expand subgroups**
+        * **Collapse subgroups**
+
+        Depending on the number of groupings you apply to the view, some options might not be available.</div>
+-->
 
 <!-- this is not available yet: 
 

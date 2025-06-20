@@ -5,14 +5,16 @@ description: Puede utilizar el caso empresarial para solicitar un proyecto y def
 author: Alina
 feature: Work Management
 exl-id: db69b3bf-04e3-49b4-ae0d-ab6145389db5
-source-git-commit: 9cfb67f627c06a5926e820860d52ba9f1ab58bcf
+source-git-commit: f97c989f57d864252adf6e24f8e6b03f56d26901
 workflow-type: tm+mt
-source-wordcount: '841'
-ht-degree: 66%
+source-wordcount: '784'
+ht-degree: 64%
 
 ---
 
 # Creación de un caso empresarial para un proyecto
+
+<!--Audited: 6/2025-->
 
 Puede utilizar el caso empresarial para solicitar un proyecto y definir el propósito, el presupuesto y el beneficio potencial del proyecto. El administrador de Portafolios o el patrocinador del proyecto utilizan la información del caso empresarial para analizar y priorizar el proyecto antes de aprobarlo.
 
@@ -25,30 +27,30 @@ Puede utilizar el caso empresarial para solicitar un proyecto y definir el prop�
  <col> 
  <tbody> 
  <tr> 
-   <td role="rowheader">Plan de Adobe Workfront</td> 
+   <td role="rowheader"><p>Plan de Adobe Workfront*</p></td> 
    <td> 
    <p>Actual: Prime o superior</p> 
    <p>Heredado: Pro o superior</p> 
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licencia de Adobe Workfront</td> 
+   <td role="rowheader"><p>Licencia de Adobe Workfront*</p></td> 
    <td> 
    <p>Actual: Estándar </p> 
    <p>Heredado: plan </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraciones de nivel de acceso</td> 
-   <td> <p>Editar acceso a Proyectos, Datos financieros y Administración de recursos</p> <p>Nota: Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
+   <td role="rowheader"><p>Configuraciones de nivel de acceso</p></td> 
+   <td> <p>Editar acceso a Proyectos, Datos financieros y Administración de recursos</p>  </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Administrar permisos superiores en el proyecto</p> <p>Para obtener información sobre cómo solicitar acceso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a objetos </a>.</p> </td> 
+   <td role="rowheader"><p>Permisos de objeto</p></td> 
+   <td> <p>Administrar permisos superiores en el proyecto</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

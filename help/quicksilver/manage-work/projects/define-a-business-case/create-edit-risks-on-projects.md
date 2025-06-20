@@ -6,16 +6,16 @@ description: Los riesgos son eventos posibles o factores que impiden que un proy
 author: Alina
 feature: Work Management
 exl-id: 6125c477-c0d8-43b4-88d8-35b0c2412468
-source-git-commit: 9cfb67f627c06a5926e820860d52ba9f1ab58bcf
+source-git-commit: f97c989f57d864252adf6e24f8e6b03f56d26901
 workflow-type: tm+mt
-source-wordcount: '1080'
-ht-degree: 64%
+source-wordcount: '1108'
+ht-degree: 62%
 
 ---
 
 # Crear y editar riesgos en proyectos
 
-<!--Audited: 01/2025-->
+<!--Audited: 06/2025-->
 
 <!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release. </span>   
 
@@ -44,27 +44,30 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Plan de Adobe Workfront</td> 
-   <td> 
-   <p>Cualquiera</p></td> 
+   <td role="rowheader"><p>Plan de Adobe Workfront*</p></td> 
+   <td> <p>Planes actuales:</p>
+   <ul><li>Cualquier plan para agregar riesgos en el área de Riesgos del proyecto</p></li>
+   <li><p>Prime o superior, para agregar riesgos en el caso comercial del proyecto</p></li></ul>
+   <p>Planes heredados: cualquier plan</p>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licencia de Adobe Workfront</td> 
-   <td> <p>Nuevo: estándar </p>
-   <p>Actual: plan </p> </td> 
+   <td role="rowheader"><p>Licencia de Adobe Workfront*</p></td> 
+   <td> <p>Actual: Estándar </p>
+   <p>Heredado: plan </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraciones de nivel de acceso</td> 
+   <td role="rowheader"><p>Configuraciones de nivel de acceso</p></td> 
    <td> <p>Editar acceso a Proyectos y datos financieros</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Permisos de objeto</td> 
+   <td role="rowheader"><p>Permisos de objeto</p></td> 
    <td> <p> Permisos de administración que incluyen Administrar finanzas en el proyecto para el que desea crear o editar riesgos </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Para obtener información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

@@ -5,14 +5,16 @@ description: Como parte de la planificación de recursos, puede utilizar el Plan
 author: Alina
 feature: Work Management
 exl-id: d5f3e348-dc7d-4265-a5ce-8eef152db410
-source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
+source-git-commit: f97c989f57d864252adf6e24f8e6b03f56d26901
 workflow-type: tm+mt
-source-wordcount: '945'
-ht-degree: 22%
+source-wordcount: '972'
+ht-degree: 19%
 
 ---
 
 # Presupuestar recursos en el caso empresarial con el Scenario Planner
+
+<!--Audited: 06/2025-->
 
 Como parte de la planificación de recursos, puede utilizar el Planificador de escenarios de Adobe Workfront para presupuestar las funciones de trabajo necesarias para completar el trabajo en un proyecto al crear el caso empresarial.
 
@@ -33,7 +35,7 @@ También puede presupuestar recursos en el caso comercial utilizando el Planific
 
 ## Requisitos de acceso
 
-Debe tener lo siguiente:
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -42,19 +44,22 @@ Debe tener lo siguiente:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Plan de Adobe Workfront*</td> 
-   <td> <p>Business o superior</p> </td> 
+   <td role="rowheader"><p>Plan de Adobe Workfront*</p></td> 
+   <td><p>Actual: Ultimate</p> 
+   <p>Heredado: Empresa o superior</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licencia de Adobe Workfront*</td> 
-   <td> <p>Revisión o superior</p> </td> 
+   <td role="rowheader"><p>Licencia de Adobe Workfront*</p></td> 
+   <td><p>Actual: Ligero o superior 
+   <p>Heredado: revisión o superior</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Producto</td> 
-   <td> <p>Debe adquirir una licencia adicional para el Planificador de escenarios de Adobe Workfront para acceder a la funcionalidad descrita en este artículo.</p> <p>Para obtener información sobre cómo obtener el Planificador de escenarios de Workfront, consulte <a href="../../../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Acceso necesario para utilizar el planificador de escenarios</a>. </p> </td> 
+   <td role="rowheader"><p>Producto</p></td> 
+   <td><p>El planificador de escenarios está incluido en el plan actual de Ultimate Workfront.</p> 
+   <p>Para los planes de Workfront heredados, debe adquirir una licencia para Adobe Workfront Scenario Planner, además de la licencia de Workfront, para acceder a la funcionalidad descrita en este artículo.</p> <p>Para obtener información sobre cómo obtener el Planificador de escenarios de Workfront, consulte <a href="../../../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Acceso necesario para utilizar el planificador de escenarios</a>. </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraciones de nivel de acceso*</td> 
+   <td role="rowheader"><p>Configuraciones de nivel de acceso</p></td> 
    <td> <p>Acceso de edición a los siguientes elementos: </p> 
     <ul> 
      <li> <p>Proyectos</p> </li> 
@@ -63,13 +68,15 @@ Debe tener lo siguiente:
     </ul> <p>Para obtener información sobre el acceso necesario para presupuestar recursos, consulte también <a href="../../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md" class="MCXref xref">Acceso necesario para presupuestar recursos en Adobe Workfront</a>.</p> <p>Nota: Si sigue sin tener acceso, pregunte al administrador de Adobe Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Permisos de objeto</td> 
+   <td role="rowheader"><p>Permisos de objeto</p></td> 
    <td> <p>Administración de permisos en el proyecto</p> <p>Para obtener información sobre cómo solicitar acceso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su administrador de Workfront.
+*Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Requisitos previos
 

@@ -5,16 +5,16 @@ description: Puede utilizar un cuadro de resultados para medir la alineación de
 author: Alina
 feature: Work Management
 exl-id: 21cf5493-147d-4b8d-8b16-2891eb7e0491
-source-git-commit: 9cfb67f627c06a5926e820860d52ba9f1ab58bcf
+source-git-commit: f97c989f57d864252adf6e24f8e6b03f56d26901
 workflow-type: tm+mt
-source-wordcount: '1227'
+source-wordcount: '1220'
 ht-degree: 99%
 
 ---
 
 # Aplicar un cuadro de resultados a un proyecto y generar una puntuación de alineación
 
-<!-- Audited: 02/2024 -->
+<!-- Audited: 06/2025 -->
 
 Puede utilizar un cuadro de resultados para medir la alineación de un proyecto con los criterios de un portafolios establecidos anteriormente. Un cuadro de resultados suele reflejar la misión, los valores y las metas estratégicas de una organización.
 
@@ -29,14 +29,14 @@ Para obtener más información sobre los cuadros de resultados y cómo crearlos,
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Plan de Adobe Workfront</td> 
+   <td role="rowheader">Plan de Adobe Workfront*</td> 
    <td>
    <p>Actual: Prime o superior</p>
    <p>o</p>
    <p>Heredado: Empresa o superior</p> </td>
   </tr> 
   <tr> 
-   <td role="rowheader">Licencia de Adobe Workfront</td> 
+   <td role="rowheader">Licencia de Adobe Workfront*</td> 
    <td>
    <p>Actual: Estándar</p>
    <p>o</p>
@@ -53,7 +53,7 @@ Para obtener más información sobre los cuadros de resultados y cómo crearlos,
  </tbody> 
 </table>
 
-Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Para obtener información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

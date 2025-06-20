@@ -6,10 +6,10 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: dae692617f447c446a421207143225b33b51debe
+source-git-commit: f97c989f57d864252adf6e24f8e6b03f56d26901
 workflow-type: tm+mt
-source-wordcount: '3512'
-ht-degree: 48%
+source-wordcount: '3788'
+ht-degree: 45%
 
 ---
 
@@ -28,8 +28,6 @@ Para obtener información sobre las vistas de registros, consulte [Administrar v
 ## Requisitos de acceso
 
 +++ Amplíe para ver los requisitos de acceso.
-
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 <table style="table-layout:auto"> 
 <col> 
@@ -146,7 +144,7 @@ Para administrar una vista de línea de tiempo:
 
    ![Falta el mensaje original de trimestres personalizados en la vista de escala de tiempo](assets/missing-custom-quarters-original-message-on-timeline-view.png)
 
-   Estos mensajes de advertencia se muestran una vez por cada usuario.
+   Los mensajes de advertencia sobre los trimestres personalizados se muestran una vez por cada usuario.
 
    >[!NOTE]
    >
@@ -162,12 +160,12 @@ Para administrar una vista de línea de tiempo:
    >
    ><span class="preview">El botón Ir a la configuración solo se muestra para el administrador de Workfront.</span>
 
-1. (Opcional y condicional) Cuando el nombre del registro esté truncado, pase el ratón sobre una barra de registros para mostrar el nombre completo del registro y la información adicional.
+1. (Opcional y condicional) Cuando el nombre del registro esté truncado, pase el ratón sobre una barra de registros para mostrar el nombre completo del registro y la información adicional. Para obtener información acerca de cómo configurar el truncamiento de la barra de registro en la escala de tiempo, vea la sección [Editar la configuración de la vista de la escala de tiempo](#edit-the-timeline-view-settings) en este artículo.
 
 1. Realice una de las siguientes acciones para navegar por la línea de tiempo:
 
-   * Haga clic en los iconos izquierdo y derecho o utilice el desplazamiento horizontal para moverse hacia atrás y hacia adelante en la línea de tiempo. Al actualizar la página, se conserva el lapso de tiempo seleccionado.
-   * Haga clic en **Hoy** para centrar la línea de tiempo en la fecha de hoy.
+   * Haga clic en los iconos izquierdo y derecho de la esquina superior izquierda o utilice el desplazamiento horizontal para moverse hacia atrás y hacia adelante en la cronología. Al actualizar la página, se conserva el lapso de tiempo seleccionado.
+   * Haga clic en **Hoy** en la esquina superior derecha para centrar la cronología en la fecha de hoy.
    * Seleccione una de las siguientes opciones del menú desplegable lapso de tiempo para actualizar los incrementos de tiempo y actualizar la vista:
 
       * **Year**: muestra trimestres y meses con indicación de año.
@@ -218,12 +216,105 @@ Tenga en cuenta lo siguiente al trabajar con filtros en la vista de línea de ti
 
 * Al eliminar los filtros, se eliminan de todos los usuarios que tengan acceso al mismo tipo de registro que usted y que muestren la misma vista que usted.
 
-* Añadir filtros en la vista de línea de tiempo es idéntico a añadir filtros en la vista de tabla.
-
-  Para obtener más información, consulte la sección “Añadir filtros” del artículo [Administrar la vista de tabla](/help/quicksilver/planning/views/manage-the-table-view.md).
-
 * Puede filtrar por campos de registro conectados o por campos de búsqueda.
 * Puede filtrar por campos de búsqueda que muestren varios valores.
+
+Para agregar un filtro a una vista de cronología:
+
+1. Cree una vista de escala de tiempo para una página de tipo de registro, tal como se describe en el artículo [Administrar vistas de registros](/help/quicksilver/planning/views/manage-record-views.md).
+1. Seleccione una vista de escala de tiempo y haga clic en **Filtros** en la esquina superior derecha de la tabla.
+1. Haga clic en **Añadir condición** y añada la siguiente información:
+
+   * **Seleccione un campo** por el que desea filtrar <!-- the tip below might change-->
+
+   * **Seleccione una opción** (o un modificador de filtro) para definir qué tipo de condición debe cumplir el campo
+
+     En la tabla siguiente se muestran los modificadores disponibles para cada tipo de campo.
+
+     <table>
+        <thead>
+        <tr>
+            <th><b>Tipo de campo</b></th>
+            <th><b>Modificadores</b></th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>Una sola línea, párrafo, fórmula </td>
+            <td><p>Contiene</p>
+            <p>No contiene</p>
+            <p>Es</p>
+            <p>No es</p>
+            <p>Está vacío</p>
+            <p>No está vacío</p></td>
+        </tr>
+        <tr><td>Selección única</td>
+            <td><p>Es</p>
+            <p>No es</p>
+            <p>Es cualquiera de</p>
+            <p>No es ninguno de</p>
+            <p>Está vacío</p>
+            <p>No está vacío</p></td>
+        </tr>
+        <tr>
+            <td>Selección múltiple, Personas</td>
+            <td><p>Tiene cualquiera de</p>
+            <p>Tiene todas de</p>
+            <p>Es exactamente</p>
+            <p>No tiene ninguno de</p>
+            <p>Está vacío</p>
+            <p>No está vacío</p></td>
+        </tr>
+        <tr>
+            <td>Número, Porcentaje, Moneda</td>
+            <td><p>=</p>
+            <p>≠</p>
+            <p> &lt; </p>
+            <p>&gt;</p>
+            <p>≤</p>
+            <p>≥</p>
+            <p>Está vacío</p>
+            <p>No está vacío</p></td>
+        </tr>
+        <tr>
+            <td>Fecha</td>
+            <td><p>Es</p>
+            <p>No es</p>
+            <p>Es después de</p>
+            <p>Es anterior a</p>
+            <p>Está entre</p><p>No está entre</p>
+            <p>Está vacío</p><p>No está vacío</p></td>
+        </tr>
+
+     <tr>
+            <td>Casilla de verificación</td>
+            <td><p>Es</p>
+        </tr>
+        </tbody>
+        </table>
+
+   * Seleccione un valor para el campo seleccionado.
+
+   ![Vista de tabla de IU de filtro](assets/filter-ui-table-view.png)
+
+   No hay límite en cuanto a las condiciones de filtrado que se pueden añadir.
+
+1. (Opcional) Haga clic en **Añadir condición** para añadir otra opción de filtrado y repita los pasos anteriores. El número de filtros aplicados se muestra a la izquierda del icono **Filters**.
+1. Haga clic en los siguientes operadores a la izquierda para indicar cómo se unen y deben aplicarse las condiciones de filtro:
+
+   * **AND**: se deben cumplir todas las condiciones especificadas.
+   * **OR**: se debe cumplir cualquiera de las condiciones especificadas.
+Esta es la opción predeterminada.
+
+   1. (Opcional) Agregue agrupaciones de filtros adicionales y únase a ellas con los operadores **AND** o **OR**.
+
+      ![Filtros de varios niveles en las vistas](assets/multi-tiered-filters-in-views.png)
+
+   La lista de registros se filtra automáticamente según los criterios de filtro.  <!--at this time, you can't name and save the filter - but will this change?!-->
+   <!-- asked on the task for the simple filters whether there is a limitation for how many statements a filter can have?!-->
+
+1. (Opcional) Haga clic en el icono **x** para quitar una condición de filtro.
+1. (Opcional) Haga clic en **Filtros** o en cualquier otra parte de la página para cerrar el cuadro de filtros. <!--right now you cannot "clear all" for filters, but this might come later-->
 
 
 ### Agregar agrupación
@@ -231,8 +322,6 @@ Tenga en cuenta lo siguiente al trabajar con filtros en la vista de línea de ti
 <!-- groupings are almost identical between this view and table  but they display a little differently, so I kept the steps for both; update in both places if they make changes to groupings-->
 
 Es posible agrupar registros por información similar al aplicar una agrupación a una vista.
-
-Añadir agrupaciones en la vista de línea de tiempo es similar a añadir agrupaciones a la vista de tabla.
 
 Tenga en cuenta lo siguiente al trabajar con agrupaciones en la vista de línea de tiempo:
 
@@ -320,7 +409,7 @@ Actualice la configuración de la vista de línea de tiempo para indicar qué in
    El campo principal (o título) del registro, tal como se define en la vista de tabla del registro, está seleccionado de forma predeterminada.
    <!--adjust this when the primary field is released??-->
 
-1. (Opcional y condicional) Si ha añadido miniaturas a los registros, seleccione la opción Miniatura para mostrar la imagen asociada a los registros en la barra de registros.
+1. (Opcional y condicional) Si agregó miniaturas a los registros, seleccione la opción **Miniatura** para mostrar la imagen asociada a los registros en su barra de registros.
 
    >[!NOTE]
    >
@@ -340,13 +429,13 @@ Actualice la configuración de la vista de línea de tiempo para indicar qué in
 
    ![Registrar configuración de escala de tiempo del panel de detalles con vista previa](assets/record-details-panel-timeline-settings-with-preview.png)
 
-1. <span class="preview"> (opcional y condicional) Si muestra la cronología en el modo Estándar, habilite la configuración **Detalles de la barra de truncado**. Cuando está habilitada, la información de las barras de registros se trunca y sólo se muestra completamente al pasar el ratón por encima de las barras. Esta configuración está deshabilitada de forma predeterminada y la información se muestra completamente en las barras. </span>
+1. <span class="preview"> (opcional y condicional) Si muestra la cronología en el modo Estándar, seleccione la configuración **Detalles de la barra de truncado**. Al seleccionarla, la información de las barras de registros se trunca y sólo se muestra completamente al pasar el ratón por encima de las barras. Esta configuración no está seleccionada de forma predeterminada y la información de registro se muestra completamente en las barras. </span>
 
    ![Se ha resaltado la configuración de truncado en el cuadro de configuración de la cronología](assets/truncate-setting-enabled-on-timeline-settings-highlighted.png)
 
    >[!TIP]
    >
-   ><span class="preview">La configuración Truncar detalles de barra no está disponible cuando se muestra la vista de escala de tiempo en el modo compacto y no está disponible en la vista Calendario.</span>
+   ><span class="preview">La configuración Truncar detalles de barra no está disponible cuando se muestra la vista de escala de tiempo en el modo compacto.</span>
    >
 
 1. Haga clic en **Color** en el panel izquierdo para personalizar los colores de los registros y agrupaciones en la línea de tiempo.
@@ -392,13 +481,11 @@ Actualice la configuración de la vista de línea de tiempo para indicar qué in
 
    Si no tiene ningún campo con opciones codificadas por colores para el tipo de registro seleccionado, esta opción aparece atenuada.
 
-1. <span class="preview">(Opcional) Si utiliza la opción Desglose, repita los pasos que comienzan con el paso 4 para cada registro conectado que se muestra en la cronología. </span>
+1. <span class="preview">(Opcional) Si utiliza la opción **Desglose**, repita los pasos que comienzan con el paso 4 para cada registro conectado que se muestre en la cronología. </span>
 
 1. Haga clic en **Guardar**.
 
    Los registros se muestran en la vista de línea de tiempo con las especificaciones seleccionadas.
-
-
 
 ### Desglose de registros conectados en la vista de cronología
 

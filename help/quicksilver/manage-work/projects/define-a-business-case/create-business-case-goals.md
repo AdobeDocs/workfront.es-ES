@@ -5,16 +5,16 @@ description: Como parte del caso empresarial, puede crear un conjunto de metas p
 author: Alina
 feature: Work Management
 exl-id: c5f4c095-ea21-4205-a747-e8923de7030f
-source-git-commit: 9cfb67f627c06a5926e820860d52ba9f1ab58bcf
+source-git-commit: f97c989f57d864252adf6e24f8e6b03f56d26901
 workflow-type: tm+mt
-source-wordcount: '495'
-ht-degree: 58%
+source-wordcount: '445'
+ht-degree: 53%
 
 ---
 
 # Crear metas de caso empresarial
 
-<!-- Audited: 4/2025 -->
+<!-- Audited: 6/2025 -->
 
 Como parte del caso empresarial, puede crear un conjunto de metas para definir los objetivos de un proyecto. Estos objetivos se utilizan para comunicar el propósito de completar un proyecto al administrador de Portfolio o al patrocinador del proyecto.
 
@@ -50,12 +50,12 @@ Tenga en cuenta lo siguiente al crear metas de caso empresarial para sus proyect
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Plan de Adobe Workfront</td> 
+   <td role="rowheader"><p>Plan de Adobe Workfront*</p></td> 
    <td> <p>Actual: Prime o superior</p>
    <p>Heredado: Pro o superior</p>  </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licencia de Adobe Workfront</td>
+   <td role="rowheader"><p>Licencia de Adobe Workfront*</p></td>
    <td> 
    <p>Actual: Estándar</p> 
    <p>Heredado: plan </p> 
@@ -63,16 +63,16 @@ Tenga en cuenta lo siguiente al crear metas de caso empresarial para sus proyect
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso</td> 
-   <td> <p>Acceso de edición a proyectos</p> <p>Nota: Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
+   <td> <p>Acceso de edición a proyectos</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Permisos de administración o superiores del proyecto</p> <p>Para obtener información sobre cómo solicitar acceso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a objetos</a>.</p> </td> 
+   <td role="rowheader"><p>Permisos de objeto</p></td> 
+   <td> <p>Permisos de administración o superiores del proyecto</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
