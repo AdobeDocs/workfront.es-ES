@@ -3,9 +3,9 @@ user-guide-title: Guía de Workfront
 user-guide-description: Utilice los siguientes documentos, tutoriales y recursos adicionales para aprender a implementar y utilizar Adobe Workfront de forma eficaz en su organización.
 role: User
 feature-set: Workfront
-source-git-commit: 4448d2fc6d0230ef2f53ad0ea7ae0f10f52fcac4
+source-git-commit: d5b0043ed251bfdb6501d091cf10d77685bc497b
 workflow-type: tm+mt
-source-wordcount: '13266'
+source-wordcount: '13201'
 ht-degree: 60%
 
 ---
@@ -1699,17 +1699,6 @@ ht-degree: 60%
          * [Compartir un panel de control](reports-and-dashboards/dashboards/creating-and-managing-dashboards/share-dashboard.md)
          * [Eliminación de una página externa de un panel](reports-and-dashboards/dashboards/creating-and-managing-dashboards/remove-external-page-from-dashboard.md)
          * [Información general sobre paneles de lienzo](reports-and-dashboards/dashboards/creating-and-managing-dashboards/canvas-dashboards-overview.md)
-   * Análisis mejorado {#enhanced-analytics}
-      * [Análisis mejorado](enhanced-analytics/enhanced-analytics.md)
-      * [Resumen de análisis mejorado](enhanced-analytics/enhanced-analytics-overview.md)
-      * [Aplicar filtros en Análisis mejorado](enhanced-analytics/use-enhanced-analytics-filters.md)
-      * [Comprender los KPI de análisis mejorado](enhanced-analytics/understand-enhanced-analytics-kpis.md)
-      * [Visualización del plan en curso en el análisis mejorado](enhanced-analytics/flight-plan-overview.md)
-      * [Ver la visualización de evolución en Análisis mejorado](enhanced-analytics/burndown-overview.md)
-      * [Visualización de las tareas en vuelo en Análisis mejorado](enhanced-analytics/tasks-in-flight-overview.md)
-      * [Ver la visualización de actividades del proyecto en Análisis mejorado](enhanced-analytics/project-activity-overview.md)
-      * [Vista de la visualización del diagrama de árbol del proyecto en Análisis mejorado](enhanced-analytics/project-treemap-overview.md)
-      * [Vea la visualización Actividad por equipo en el análisis mejorado](enhanced-analytics/activity-by-team-overview.md)
    * Workfront Data Connect {#data-lake}
       * [Información general sobre Workfront Data Connect](reports-and-dashboards/data-lake/data-lake-overview.md)
       * [Crear una cuenta de lector o una conexión para Snowflake](reports-and-dashboards/data-lake/create-a-reader-account.md)
