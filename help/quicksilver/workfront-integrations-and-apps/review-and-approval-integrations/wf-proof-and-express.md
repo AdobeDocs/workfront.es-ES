@@ -10,23 +10,27 @@ recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
 exl-id: 2eef36a6-8c61-4e7e-9760-23114f942250
-source-git-commit: e67446c6fb3e90d5dc45dd446988e5d02291f775
+source-git-commit: ca9625b1cb3c51f208bad28792e9090802521dfa
 workflow-type: tm+mt
-source-wordcount: '260'
-ht-degree: 20%
+source-wordcount: '514'
+ht-degree: 7%
 
 ---
 
-# Introducción a las pruebas y Creative Cloud Express
+# Introducción a la integración de Adobe Express y Workfront Proof
+
+Utilice Workfront Proof con Adobe Express para lo siguiente
+
+* Optimice la colaboración entre equipos creativos, legales y de cumplimiento para reducir el tiempo de publicación y, al mismo tiempo, mantener la supervisión
+
+* Realice revisiones profundas mediante marcas de dibujo, anotaciones y comentarios con el visualizador de pruebas de Workfront
+
+* Cumplir las normas de conformidad empresarial con firmas electrónicas y registros de auditoría completos.
 
 
-Nos complace presentar una nueva integración entre Proofing y Creative Cloud Express. Con esta integración, puede
+* Requerir aprobación en cualquier archivo remezclado de una plantilla con marca Express
 
-* Uso de plantillas de aprobación de Workfront para definir flujos de trabajo de aprobación
-
-* Revisar el contenido del borrador de Creative Cloud Express en el visor de pruebas
-
-* Consulte revisar decisiones en Creative Cloud Express para su aprobación y publicación finales
+* Asigne una plantilla rápida a un flujo de trabajo de revisión y aprobación de varias fases mediante plantillas de prueba avanzadas
 
 ## Requisitos de acceso
 
@@ -45,49 +49,72 @@ Nos complace presentar una nueva integración entre Proofing y Creative Cloud Ex
   <tr> 
    <td role="rowheader">Licencia de Adobe Workfront</td> 
    <td> 
-   <p>Actual: Estándar </p> 
-   <p>Heredado: plan </p></td> 
+   <p>Estándar </p> 
+  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Producto</td> 
    <td> 
-   <p> Debe tener Creative Cloud Express y se le debe añadir al producto como usuario en Admin Console. </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Configuraciones de nivel de acceso</td> 
-   <td> <p>Acceso de edición a proyectos</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Administrar permisos superiores en el proyecto</p> </td> 
-  </tr> 
- </tbody> 
+   <p> Debe tener Adobe Express y se le debe añadir al producto como usuario en Admin Console. </p> </td> 
+  </tr>
+
+</tbody> 
 </table>
 
-Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-
-
-## Requisitos previos
-
-* Workfront y Creative Cloud Express deben implementarse en la misma organización de IMS.
-
-* Un usuario SOLO puede estar activo y habilitado en una instancia de Workfront dentro de la organización de IMS para que la integración funcione
-
-* La instancia de Workfront debe habilitarse en el shell unificado
-
-* La sección Configuración de Workfront está activada para conectarse a la revisión (ver a continuación)
-
 ## Requisitos de integración
 
-Workfront y Creative Cloud Express deben implementarse en la misma organización de IMS.
+* Workfront y Adobe Express deben implementarse en la misma organización de IMS.
 
-## Configuración en Workfront
+* El equipo de productos de Adobe debe habilitar la integración en sus cuentas.
 
-## Uso de plantillas de aprobación de Workfront para definir flujos de trabajo de aprobación
+  >[!IMPORTANT]
+  >
+  >La integración de Adobe Express y Workfront Proof estará disponible para los usuarios a lo largo de varias versiones, empezando por las cuentas que tienen Workfront y Adobe Express asociados con el mismo ID de organización en Adobe Admin Console, seguido por los clientes con usuarios que trabajan en organizaciones IMS. Si desea tener la integración habilitada, póngase en contacto con el administrador de éxito del cliente o de cuentas estratégicas.
 
-## Revisar el contenido del borrador de Creative Cloud Express en el visor de pruebas
+* Los usuarios deben instalar [Revisar contenido interactivo con la herramienta de revisión de Adobe Workfront](/help/quicksilver/review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/review-proof-in-web-viewer-extension.md) para poder empezar a revisar borradores en Adobe Express.
 
-## Consulte revisar decisiones en Creative Cloud Express para su aprobación y publicación finales
+
+## Configuración de flujos de trabajo de aprobación en Workfront
+
+Para que los usuarios puedan agregar un flujo de trabajo de aprobación en una plantilla Express, un administrador de Proof debe crear un flujo de trabajo de aprobación en Workfront.
+
+Para obtener más información, consulte [Crear y administrar plantillas de flujo de trabajo automatizado](/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/create-manage-automated-workflow-templates.md).
+
+## Añadir un flujo de trabajo de aprobación a una plantilla Express
+
+Después de crear una plantilla de flujo de trabajo de aprobación en Workfront, los diseñadores con una licencia Express Enterprise Premium pueden asignarla a una plantilla Express directamente en Adobe Express.
+
+Cuando se remezcla una plantilla Express, se requiere una aprobación antes de la publicación, lo que activa automáticamente el flujo de trabajo de aprobación preconfigurado.
+
+Obtenga más información sobre cómo añadir flujos de trabajo de revisión y aprobación a plantillas compartibles. <!--need link to help article-->
+
+
+## Combinar plantillas rápidas y enviar para su revisión y aprobación
+
+Los usuarios de Adobe Express pueden remezclar plantillas Express para adaptarlas a sus necesidades. Antes de publicar, deben solicitar la aprobación a los aprobadores designados.
+
+A lo largo del proceso de producción, revisión y aprobación de contenido, los usuarios pueden
+
+* Ver quién ha abierto el archivo
+* Ver el estado de decisión de todos los participantes
+* Leer comentarios
+* y más
+
+Obtenga información sobre cómo obtener la aprobación de diseños.\
+<!--need link to help article-->
+
+## Revisar y aprobar el archivo Express remezclado
+
+Las partes interesadas pueden proporcionar comentarios relevantes para su área de experiencia (como texto, legal o de marca) mediante herramientas de marcado y comentarios en el visualizador de pruebas de Workfront.
+
+También son responsables de tomar las decisiones finales para aprobar el contenido y así poder publicarlo.
+
+Obtenga más información sobre cómo revisar y aprobar diseños en Workfront.
+
+
+Licencia de colaborador de Workfront - tratando de averiguar cómo trabajar esto en—
+
