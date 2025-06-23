@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: f97c989f57d864252adf6e24f8e6b03f56d26901
+source-git-commit: 44b3298905a04c64a457045c4112d9628d933aae
 workflow-type: tm+mt
-source-wordcount: '3788'
+source-wordcount: '3804'
 ht-degree: 45%
 
 ---
@@ -106,7 +106,7 @@ Tenga en cuenta lo siguiente:
 
    * Registrar fechas
    * Registrar campos generados por el sistema: fecha de creación, fecha de la última modificación
-   * Buscar fechas de tipos de objeto o registro conectados.
+   * Buscar fechas de tipos de objeto o registro conectados (sólo cuando agregó un agregador para ellos cuando conectó los tipos de objeto o registro)
 * Según las fechas asociadas a los registros, es posible que algunos no se muestren en la vista de línea de tiempo en los siguientes casos:
 
    * Cuando las fechas de inicio y finalización no tienen valores

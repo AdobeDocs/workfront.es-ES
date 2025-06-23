@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: fe9d3cfbb50bfda672360b918d971cc77b0b8b0a
+source-git-commit: 44b3298905a04c64a457045c4112d9628d933aae
 workflow-type: tm+mt
-source-wordcount: '2559'
+source-wordcount: '2570'
 ht-degree: 58%
 
 ---
@@ -218,7 +218,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
    >[!NOTE]
    >
-   >El administrador de Workfront puede asignar campos de Workfront Planning a campos de Experience Manager Assets a través de la asignación de metadatos en Workfront. Para obtener más información, consulte [Configuración de la asignación de metadatos de recursos entre Adobe Workfront y Experience Manager Assets](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
+   >El administrador de Workfront puede asignar campos de Workfront Planning a campos de Experience Manager Assets a través de la asignación de metadatos en Workfront. Para obtener más información, consulte [Configuración de la asignación de metadatos de recursos entre Adobe Workfront y Experience Manager Assets](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
 
 1. (Condicional) Si ha seleccionado conectarse a Experience Manager Assets o a un tipo de registro de Workfront Planning, seleccione una de las siguientes opciones en el área **Apariencia del registro**:
 
@@ -267,7 +267,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
    * Los registros se agrupan según cada combinación única de valores de campo
 
-   * La vista de cronología se crea en función del primer valor de fecha
+   * La vista de cronología se crea en función del primer valor de fecha del tipo de registro conectado, cuando se muestra en la vista
 
    >[!IMPORTANT]
    >
