@@ -6,26 +6,26 @@ description: Al proporcionar acceso a una cola de solicitudes, se determina qui�
 author: Alina
 feature: Work Management
 exl-id: eb88c32a-f8b8-42d3-9a3a-72c62fd1dc3a
-source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
+source-git-commit: abf5f21281b05dedfecbe71c6ffbf54ee69e2460
 workflow-type: tm+mt
-source-wordcount: '509'
-ht-degree: 81%
+source-wordcount: '483'
+ht-degree: 53%
 
 ---
 
 # Proporcionar acceso a las colas de solicitudes
 
+<!-- Audited: 6/2025 -->
+
 Al proporcionar acceso a una cola de solicitudes, se determina quién de la organización puede ver la cola en el área Solicitudes de Adobe Workfront.
 
-Puede proporcionar a distintos usuarios acceso a una cola de solicitudes, según si forman parte del equipo del proyecto, del grupo de proyectos o de la compañía del proyecto. También puede proporcionar acceso a todos los usuarios del sistema a una cola de solicitudes.
+Puede proporcionar a distintos usuarios acceso a una cola de solicitudes en función de si forman parte del equipo del proyecto, del grupo de proyectos o de la compañía del proyecto. También puede proporcionar acceso a la cola de solicitudes a todos los miembros del sistema.
 
-Esto resulta útil en el caso de organizaciones que invitan a partes interesadas externas a Workfront y desean limitar el acceso de los usuarios a áreas específicas; en este caso, una cola de solicitudes abierta solo a los usuarios asociados con la compañía o el grupo del proyecto limita la visibilidad a las partes interesadas externas. Al permitir el acceso a cualquier usuario, la solicitud se hace visible tanto para las partes interesadas internas como externas.
+Esto resulta útil en organizaciones que invitan a partes interesadas externas a Workfront y desean limitar el acceso de los usuarios a áreas específicas. En este caso, una cola de solicitudes abierta solo para los usuarios asociados con la empresa o el grupo del proyecto limita la visibilidad a las partes interesadas externas. Al permitir el acceso a cualquier usuario, la solicitud se hace visible tanto para las partes interesadas internas como externas.
 
 ## Requisitos de acceso
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
-
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -38,9 +38,8 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   <tr> 
    <td role="rowheader">Licencia de Adobe Workfront</td> 
    <td> 
-   <p>Nueva licencia: estándar </p>
-   O
-   <p>Licencia actual: plan </p> </td> 
+   <p>Nuevo: estándar </p>
+   <p>Actual: plan </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso</td> 
@@ -61,7 +60,7 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
 
 Antes de que la cola de solicitudes esté disponible para los usuarios en el área de Solicitudes, debe crear un proyecto con la siguiente configuración:
 
-* Designarlo como cola de solicitudes. Para obtener más información acerca de cómo crear una cola de solicitudes, consulte [Crear una cola de solicitudes](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+* Designarlo como cola de solicitudes. Para obtener más información, vea [Crear una cola de solicitudes](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 * Actualice el estado del proyecto a Actual.
 
 ## Proporcionar acceso a una cola de solicitudes
@@ -74,16 +73,17 @@ Antes de que la cola de solicitudes esté disponible para los usuarios en el ár
 
 1. Haga clic en **Detalles de cola** en el panel izquierdo.
 1. Seleccione **Publicar como cola de solicitud de ayuda** para designar el proyecto como cola de solicitud.
-1. Seleccione entre las siguientes opciones:
+1. Seleccione entre las siguientes opciones que aparecen:
 
    * **Cualquiera**: cualquier usuario puede ver y añadir solicitudes a la cola de solicitudes.
    * **Personas con acceso de visualización en este proyecto**: Los usuarios que tienen permisos de visualización en el proyecto pueden ver y agregar solicitudes a la cola de solicitudes.
    * **Personas en la compañía de este proyecto**: Los usuarios asociados con la compañía del proyecto pueden ver y agregar solicitudes. La compañía asociada con el proyecto se enumera entre paréntesis junto a esta opción.
-   * **Las personas en el grupo de este proyecto**: los usuarios asociados con el grupo del proyecto pueden ver y añadir solicitudes. El grupo asociado con el proyecto se muestra entre paréntesis junto a esta opción.
+   * **Personas en el grupo de este proyecto**: Los usuarios asociados con el grupo del proyecto pueden ver y agregar solicitudes. El grupo asociado con el proyecto se muestra entre paréntesis junto a esta opción.
 
      Las colas de grupo son útiles cuando varios departamentos comparten una cuenta de Workfront para lograr objetivos organizativos únicos. Cada departamento puede tener sus propias colas que los miembros de otros grupos no deberían poder ver.
 
-     Para obtener información sobre quién tiene permisos en un proyecto, consulte [Compartir un proyecto en Adobe Workfront](../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).\
-     Los grupos y empresas pueden asociarse con el proyecto al editarlo. Para obtener más información sobre cómo editar proyectos, consulte [Editar proyectos](../../../manage-work/projects/manage-projects/edit-projects.md).
+     Para obtener información sobre quién tiene permisos en un proyecto, consulte [Compartir un proyecto en Adobe Workfront](../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).
+
+     Los grupos y empresas pueden asociarse con el proyecto al editarlo. Para obtener más información, consulte [Editar proyectos](../../../manage-work/projects/manage-projects/edit-projects.md).
 
 1. Haga clic en **Guardar**.
