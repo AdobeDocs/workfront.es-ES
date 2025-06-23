@@ -5,10 +5,10 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 91789b7b-3aec-415c-a03d-e06d0c43a263
-source-git-commit: d7b9f6cac531bed5fd2a3e5c766e9d714f2625e4
+source-git-commit: de30f2600c5d13bb4bbc56cdc1b166ac7c5adb05
 workflow-type: tm+mt
-source-wordcount: '211'
-ht-degree: 17%
+source-wordcount: '225'
+ht-degree: 16%
 
 ---
 
@@ -42,4 +42,7 @@ Para obtener más información, vea [Usar el área Mis actualizaciones](/help/qu
 
 Hemos actualizado el widget Mis aprobaciones en Inicio para ordenarlo por plazo (descendente) de forma predeterminada. Esto permite que las aprobaciones más urgentes aparezcan en la parte superior de la lista.
 
+Actualmente, solo las aprobaciones de prueba pueden ordenarse por fecha límite en el widget Mis aprobaciones.
+
 Anteriormente, el widget ordenaba por fecha de entrada, lo que dificultaba la determinación de la prioridad.
+

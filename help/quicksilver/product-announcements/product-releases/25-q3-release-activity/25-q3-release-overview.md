@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9342f393-a404-44b4-aad6-2c4cf634dfd5
-source-git-commit: d7b9f6cac531bed5fd2a3e5c766e9d714f2625e4
+source-git-commit: de30f2600c5d13bb4bbc56cdc1b166ac7c5adb05
 workflow-type: tm+mt
-source-wordcount: '1482'
+source-wordcount: '1497'
 ht-degree: 22%
 
 ---
@@ -61,8 +61,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Actualización del visor de corrección de escritorio</a><p>[!BADGE Off schedule]{type=Neutral}</p>
-            <p>El Visor de corrección de escritorio se ha actualizado a la versión 2.1.50.
-Esta actualización incluye actualizaciones de las herramientas internas y no afecta a la funcionalidad del usuario final. </p>
+            <p>El Visor de corrección de escritorio se ha actualizado a la versión 2.1.50. Esta actualización incluye actualizaciones de las herramientas internas y no afecta a la funcionalidad del usuario final.</p>
         </td>
         <td>sábado, 13 de junio de 2025</td>
         <td>sábado, 13 de junio de 2025</td>
@@ -141,7 +140,7 @@ Esta actualización incluye actualizaciones de las herramientas internas y no af
     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity//25-q3-home-enhancements.md" class="MCXref xref" xrefformat="{para}">El widget de mis aprobaciones ahora se ordena automáticamente por la fecha límite </a><p></p>
-            <p>Hemos actualizado el widget Mis aprobaciones en Inicio para ordenarlo por plazo (descendente) de forma predeterminada. Esto permite que las aprobaciones más urgentes aparezcan en la parte superior de la lista. </p>
+            <p>Hemos actualizado el widget Mis aprobaciones en Inicio para ordenarlo por plazo (descendente) de forma predeterminada. Esto permite que las aprobaciones más urgentes aparezcan en la parte superior de la lista. </p><p><b>Nota:</b> En la actualidad, solo las aprobaciones de pruebas pueden ordenarse por fecha límite en el widget Mis aprobaciones.</p>
         </td>
         <td>viernes, 29 de mayo de 2025</td>
         <td>viernes, 12 de junio de 2025</td>
@@ -288,7 +287,7 @@ Estamos actualizando la interfaz a través de Adobe Workfront para mejorar la ex
 
 ### Mejoras de Workfront Fusion
 
-Las nuevas funciones de Workfront Fusion están disponibles en el entorno de producción en una cadencia fuera de la programación de versiones estándar. Para obtener más información sobre las últimas funciones, consulte [Actividad de la versión de Adobe Workfront Fusion](https://experienceleague.adobe.com/es/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
+Las nuevas funciones de Workfront Fusion están disponibles en el entorno de producción en una cadencia fuera de la programación de versiones estándar. Para obtener más información sobre las últimas funciones, consulte [Actividad de la versión de Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
 
 ### Mejoras de Workfront Planning
 
