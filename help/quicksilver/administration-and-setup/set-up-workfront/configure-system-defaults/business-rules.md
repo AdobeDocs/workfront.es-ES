@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 780c996c-5cf1-42fe-898d-2cc208bbae7b
-source-git-commit: 34f7f35875f063a77d33ee63c33e69721dc70c03
+source-git-commit: 1cf16fd93de383aae66ba810ad85dd00806b8237
 workflow-type: tm+mt
-source-wordcount: '1308'
-ht-degree: 79%
+source-wordcount: '1341'
+ht-degree: 77%
 
 ---
 
@@ -99,6 +99,8 @@ Algunos escenarios sencillos de reglas empresariales son:
   ```
   IF({status} = "CPL" && {name} != $$BEFORE_STATE.{name}, "You cannot edit the project name.")
   ```
+
+El sistema permite una regla de negocio por objeto y déclencheur. Por ejemplo, se permite una regla de déclencheur de edición para los problemas. Sin embargo, puede incluir varias reglas en una fórmula con instrucciones IF anidadas.
 
 Un escenario con instrucciones IF anidadas es:
 
