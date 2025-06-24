@@ -6,10 +6,10 @@ description: Programar una entrega automática de informes
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 5b8e382c-bfe8-43aa-aa09-a2aa0c4d56cc
-source-git-commit: f78a86dcdf7b63e98bec5216fb5ab7622775a053
+source-git-commit: 62f56486ccc590921b7dc8227d46cdede84df32d
 workflow-type: tm+mt
-source-wordcount: '1268'
-ht-degree: 70%
+source-wordcount: '1309'
+ht-degree: 66%
 
 ---
 
@@ -98,7 +98,7 @@ Para programar un informe para su envío automático:&#x200B;
       <td role="rowheader"> <p>Enviar a</p> </td> 
       <td> <p>Empiece escribiendo el nombre del usuario, grupo, equipo o rol al que desea enviar el informe y, a continuación, haga clic sobre el nombre cuando aparezca en la lista.</p> <p>O</p> <p>Introduzca la dirección de correo electrónico de una persona externa al sistema de Workfront a la que desea que tenga acceso al informe.</p> <p>Repita este proceso para enviar el informe a varios usuarios, grupos, equipos o roles.</p> <p>Nota:  <p>Tenga en cuenta lo siguiente al añadir destinatarios de envío de informes:</p> 
         <ul> 
-         <li>Si su organización restringe las notificaciones de Workfront a dominios de correo electrónico específicos, es posible que solo pueda enviar informes a las direcciones de correo electrónico que aparecen en la lista de permitidos de correo electrónico.<p>Para obtener información sobre cómo un administrador de Workfront actualiza la lista de permitidos de correo electrónico, consulte la sección <a href="../../../administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md#configur" class="MCXref xref">Configuración la lista de permitidos por correo electrónico</a>.</p></li> 
+         <li><p>Si su organización restringe las notificaciones de Workfront a dominios de correo electrónico específicos, es posible que solo pueda enviar informes a las direcciones de correo electrónico que aparecen en la lista de permitidos de correo electrónico.</p> <p>Por ejemplo, cuando un usuario se establece como destinatario del informe y tiene una dirección de correo electrónico anteriormente permitida y la lista de permitidos se actualiza para que ya no envíe correos electrónicos a ese dominio, el usuario ya no recibirá informes enviados.</p><p>Para obtener información sobre cómo un administrador de Workfront actualiza la lista de permitidos de correo electrónico, consulte la sección <a href="../../../administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md#configur" class="MCXref xref">Configuración la lista de permitidos por correo electrónico</a>.</p></li> 
          <li> <p>Añadir un gran número de usuarios como destinatarios puede provocar errores en la entrega. Si se producen errores en las entregas, se pueden programar varios envíos de informes con grupos de usuarios más pequeños.</p> </li> 
         </ul> </td> 
      </tr> 
