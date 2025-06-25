@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
-source-git-commit: 1e893dd5933ce5740b2bfea1e028f39a07a2291c
+source-git-commit: d41bb7beb4879bcef224b0234b1c024eb16c9bd6
 workflow-type: tm+mt
-source-wordcount: '2632'
+source-wordcount: '2647'
 ht-degree: 76%
 
 ---
@@ -51,6 +51,9 @@ Los siguientes temas admiten la API de suscripción a eventos:
 
 Las suscripciones a eventos admiten los siguientes objetos de Workfront.
 
+* Aprobación
+* Fase de aprobación
+* Participante de fase de aprobación
 * Asignación
 * Compañía
 * Panel de control
@@ -105,6 +108,18 @@ El recurso de suscripción contiene los campos siguientes.
        </tr> 
       </thead> 
       <tbody> 
+       <tr> 
+        <td scope="col">Aprobación</td> 
+        <td scope="col"><p>aprobación</p></td> 
+       </tr> 
+       <tr> 
+        <td scope="col">Fase de aprobación</td> 
+        <td scope="col"><p>approval_stage</p></td> 
+       </tr> 
+       <tr> 
+        <td scope="col">Participante de fase de aprobación</td> 
+        <td scope="col"><p>approval_stage_partition</p></td> 
+       </tr> 
        <tr> 
         <td scope="col">Asignación</td> 
         <td scope="col"><p>ASSGN</p></td> 
@@ -793,7 +808,7 @@ Este conector hace que el filtro se aplique al nuevo estado o al antiguo estado 
 >[!NOTE]
 >
 >La suscripción siguiente con el filtro especificado solo devolverá mensajes donde el nombre de la tarea contenga `again` en `oldState`, tal como sucedía antes de que se realizara una actualización en la tarea.
->&#x200B;>Un caso de uso para esto sería encontrar los mensajes de objCode que han cambiado de una manera a otra. Por ejemplo, para averiguar todas las tareas que cambiaron de &quot;Investigar Algún nombre&quot; a &quot;Investigar TeamName Algún nombre&quot;
+>>Un caso de uso para esto sería encontrar los mensajes de objCode que han cambiado de una manera a otra. Por ejemplo, para averiguar todas las tareas que cambiaron de &quot;Investigar Algún nombre&quot; a &quot;Investigar TeamName Algún nombre&quot;
 
 ```
 {

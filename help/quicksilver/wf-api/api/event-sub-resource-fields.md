@@ -7,10 +7,10 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 54859930-7619-4b93-8dff-29b10e43d6d5
-source-git-commit: e53f845a00245049ac78616848d243453b2d57eb
+source-git-commit: d41bb7beb4879bcef224b0234b1c024eb16c9bd6
 workflow-type: tm+mt
-source-wordcount: '764'
-ht-degree: 93%
+source-wordcount: '848'
+ht-degree: 87%
 
 ---
 
@@ -21,6 +21,10 @@ Los campos de recursos de suscripción a eventos representan activadores de even
 Tenga en cuenta que los datos se pueden filtrar mediante filtros anidados. Para obtener más información, consulte [Uso de filtros anidados](/help/quicksilver/wf-api/general/event-subs-api.md#using-nested-filters) en el artículo API de suscripción a evento.
 
 En la tabla siguiente se enumeran los campos disponibles para los recursos de suscripción a eventos:
+
+>[!NOTE]
+>
+>Algunos objetos solo están disponibles en la versión 2 de Suscripciones de eventos. Estos objetos se indican en la tabla.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -34,6 +38,200 @@ En la tabla siguiente se enumeran los campos disponibles para los recursos de su
   </tr> 
  </thead> 
  <tbody> 
+  <tr> 
+   <td>Aprobación<p>(Subs de evento v2)</p></td> 
+   <td>aprobación</td> 
+   <td>createdAt</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>creatorID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>customerID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> Identificador </td> 
+  </tr> 
+  <tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> isLocked </td> 
+  </tr> 
+  <tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> objCode </td> 
+  </tr> 
+  <tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>objID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>estado</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>updatedAt</td> 
+  </tr> 
+  <tr> 
+   <td>Fase de aprobación<p>(Subs de evento v2)</p></td> 
+   <td>approval_stage</td> 
+   <td>approvalID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>createdAt</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>creatorID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>customerID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> deadlineDate </td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> Identificador </td> 
+  </tr> 
+  <tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> isLocked </td> 
+  </tr> 
+  <tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> name </td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> objCode </td> 
+  </tr> 
+  <tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>objID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>estado</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>updatedAt</td> 
+  </tr> 
+  <tr> 
+   <td>Participante de fase de aprobación<p>(Subs de evento v2)</p></td> 
+   <td>approval_stage_partition</td> 
+   <td>createdAt</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>customerID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> deadlineDate </td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> decisión </td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> decisionDate </td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> decisionUserID </td> 
+  </tr> 
+  <tr> 
+  <tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> objCode </td> 
+  </tr> 
+  <tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>objID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> IDparticipante </td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> participanteMetadata </td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> participanteRole </td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> participanteType </td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> realUserID </td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> requesterID </td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> stageID </td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>estado</td> 
+  </tr> 
   <tr> 
    <td>Asignación</td> 
    <td>ASSGN</td> 
@@ -806,7 +1004,7 @@ En la tabla siguiente se enumeran los campos disponibles para los recursos de su
    <td>topReferenceObjID</td> 
   </tr> 
   <tr> 
-   <td>Campo</td> 
+   <td>Campo<p>(Subs de evento v2)</p></td> 
    <td>FIELD</td> 
    <td>createdAt</td> 
   </tr> 
@@ -1876,7 +2074,7 @@ En la tabla siguiente se enumeran los campos disponibles para los recursos de su
    <td><span>requesterID</span> </td> 
   </tr> 
   <tr> 
-   <td>Registro</td> 
+   <td>Registro<p><p>(Subs de evento v2)</p></td> 
    <td>RECORD</td> 
    <td>createdAt</td> 
   </tr> 
@@ -1921,7 +2119,7 @@ En la tabla siguiente se enumeran los campos disponibles para los recursos de su
    <td>updatedAt</td> 
   </tr> 
   <tr> 
-   <td>Tipo de registro </td> 
+   <td>Tipo de registro<p><p>(Subs de evento v2)</p> </td> 
    <td>RECORD_TYPE </td> 
    <td>color</td> 
   </tr> 
@@ -2776,7 +2974,7 @@ En la tabla siguiente se enumeran los campos disponibles para los recursos de su
    <td>workHoursPerDay </td> 
   </tr> 
   <tr> 
-   <td>Espacio de trabajo</td> 
+   <td>Espacio de trabajo<p><p>(Subs de evento v2)</p></td> 
    <td>WORKSPACE</td> 
    <td>color</td> 
   </tr> 
