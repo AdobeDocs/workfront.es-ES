@@ -7,20 +7,22 @@ description: Los usuarios que están asociados a un proyecto en cierta capacidad
 author: Alina
 feature: Work Management
 exl-id: ceb25fb1-57fc-476c-b92c-fc41aadc0b5b
-source-git-commit: 1b2180fd33da153c7f8b698cd17df2eb10669ce9
+source-git-commit: 3dfb30646e8a967264f7e562441a52a059d73d32
 workflow-type: tm+mt
-source-wordcount: '420'
-ht-degree: 0%
+source-wordcount: '414'
+ht-degree: 3%
 
 ---
 
 # Información general del equipo del proyecto
 
-Los usuarios que están asociados a un proyecto en cierta capacidad conforman el equipo del proyecto. Los usuarios que aparecen en el área Personas de un proyecto son los usuarios que conforman el equipo del proyecto. Por ejemplo, los usuarios asignados para trabajar en el proyecto o el propietario del proyecto forman parte del equipo del proyecto.
+<!-- Audited: 6/2025 -->
+
+Un equipo de proyecto consta de usuarios que están asociados a un proyecto en cierta capacidad. Los usuarios enumerados en el área Personas de un proyecto conforman el equipo del proyecto. Por ejemplo, los usuarios asignados para trabajar en el proyecto o el propietario del proyecto forman parte del equipo del proyecto.
 
 ## Miembros del equipo del proyecto
 
-Puede asignar usuarios a un equipo del proyecto manualmente o automáticamente. Para obtener más información, vea la sección &quot;Agregar usuarios a un equipo del proyecto&quot; en el artículo [Administrar el equipo del proyecto](../../../manage-work/projects/planning-a-project/manage-project-team.md).
+Puede asignar usuarios a un equipo del proyecto manualmente o automáticamente. Para obtener más información, vea la sección Agregar usuarios a un equipo del proyecto en el artículo [Administrar el equipo del proyecto](../../../manage-work/projects/planning-a-project/manage-project-team.md).
 
 Cuando agregue usuarios manualmente al equipo del proyecto, recibirán permisos de vista para el proyecto, así como para las tareas, problemas y documentos del proyecto.
 
@@ -39,9 +41,9 @@ Para utilizar aprobaciones basadas en funciones en un proyecto, los usuarios deb
 Consulte los siguientes artículos para obtener información sobre cómo añadir un usuario al equipo del proyecto y cómo asignarle una función de trabajo:
 
 * [Administrar el equipo del proyecto](../../../manage-work/projects/planning-a-project/manage-project-team.md)
-* [Edición del perfil de un usuario](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)
+* [Editar el perfil de un usuario](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)
 
-Si no desea que el usuario esté en el equipo del proyecto para las aprobaciones basadas en roles, puede controlarlo en la configuración de aprobación. Para obtener más información, vea [Configurar la aprobación global](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/establish-approval-settings.md).
+Si no desea que el usuario esté en el equipo del proyecto para las aprobaciones basadas en roles, puede controlarlo en la configuración de aprobación. Para obtener más información, consulte [Configuración de la aprobación global](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/establish-approval-settings.md).
 
 ## Filtro Proyectos en los que participo
 
