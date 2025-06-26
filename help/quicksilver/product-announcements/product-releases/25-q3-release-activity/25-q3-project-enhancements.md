@@ -7,10 +7,10 @@ recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
 exl-id: 33fa5a61-5300-402c-9f80-f2701f7999a8
-source-git-commit: 3ff70fcc949644d511c876add10d2c58901cb197
+source-git-commit: b87b32d0396b0c277a5fc30d060c76a71192171b
 workflow-type: tm+mt
-source-wordcount: '515'
-ht-degree: 10%
+source-wordcount: '712'
+ht-degree: 7%
 
 ---
 
@@ -19,6 +19,31 @@ ht-degree: 10%
 Esta página describe las mejoras del proyecto realizadas con la versión del tercer trimestre de 2025 en el entorno de vista previa. Estas mejoras estarán disponibles en el entorno de producción, como se ha indicado.
 
 Para obtener una lista de todos los cambios disponibles en este punto del ciclo de la versión del tercer trimestre de 2025, consulte [Información general de la versión del tercer trimestre de 2025](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-release-overview.md).
+
+## Se ha reemplazado el campo Horas reales existentes por Horas reales heredadas y se ha creado el nuevo campo Horas reales
+
+>[!NOTE]
+>
+> Previsualización y producción: 24 de junio de 2025 
+
+El campo existente de Horas reales ha cambiado a Horas reales heredadas. Este campo almacena el tiempo registrado de los proyectos, tareas y problemas en minutos. El campo se almacena en la base de datos de Workfront como actualWorkRequired.
+
+Se ha agregado un nuevo campo Horas reales que almacena el tiempo registrado de los proyectos, las tareas y los problemas en horas, con precisión decimal. El campo se almacena en la base de datos de Workfront como actualWorkRequiredDouble.
+
+Los campos Horas reales y Horas reales heredadas están visibles en las vistas e informes de proyectos, tareas y problemas.
+
+El campo Horas reales visible en la sección de detalles del proyecto, tareas y problemas representa las horas reales heredadas.
+
+
+>[!IMPORTANT]
+>
+>Las horas registradas antes de mayo de 2021 se almacenan en el campo Horas reales heredadas.  
+>>El valor del campo Horas reales para proyectos, tareas y problemas en los que las horas se registraron antes de mayo de 2021 es cero. 
+>>Las horas registradas después de mayo de 2021 se almacenan tanto en el campo Horas reales como en el campo Horas reales heredadas.
+>> Es posible que tenga que actualizar los informes para que reflejen los nuevos campos.
+
+Para obtener más información, vea [Ver horas reales](/help/quicksilver/manage-work/tasks/task-information/actual-hours.md).
+
 
 ## Cambio en la forma en que se almacenan las horas reales en la base de datos para las llamadas API
 

@@ -7,10 +7,10 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 6761f5af-2501-4487-8114-2751f1e4fe69
-source-git-commit: 39762dbf34501f3cd967a2a766042086d18003c8
+source-git-commit: 482067778b6a5b7291eb25d00245a394bc72ccf0
 workflow-type: tm+mt
-source-wordcount: '1601'
-ht-degree: 3%
+source-wordcount: '1799'
+ht-degree: 4%
 
 ---
 
@@ -21,6 +21,39 @@ Este artículo describe las funciones que se lanzarán para Workfront Planning d
 <!--keep the sentence below for all future quarterly release pages-->
 
 Para obtener una lista de todas las características publicadas para Adobe Workfront Planning, consulte [Actividad de la versión de Adobe Workfront Planning: índice de artículo](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+
+
+## Expandir y contraer todas las agrupaciones de la vista de tabla
+
+>[!NOTE]
+>
+>* Vista previa: viernes, 26 de junio de 2025
+>* Producción para todos: 17 de julio de 2025
+
+Ahora puede contraer y expandir las agrupaciones en una vista de tabla mediante las áreas siguientes:
+
+* El cuadro Agrupación, accesible desde la barra de herramientas de la vista de tabla
+
+* Encabezado de una agrupación, haciendo clic con el botón derecho en él
+
+Puede contraer o expandir una agrupación o todas las agrupaciones al mismo tiempo.
+
+Antes de esta mejora, solo se podía contraer o expandir una agrupación a la vez, desde cada encabezado de agrupación.
+
+Para obtener más información, consulte [Administrar la vista de tabla](/help/quicksilver/planning/views/manage-the-table-view.md).
+
+## Nueva funcionalidad de agregación para campos de fórmula
+
+>[!NOTE]
+>
+>* Vista previa: viernes, 26 de junio de 2025
+>* Producción para todos: 26 de junio de 2025
+
+Ahora, al conectar tipos de registros e incluir un campo de fórmula como búsqueda, puede aplicar las funciones de agregado (SUM, AVERAGE, MIN, MAX, etc.) según el formato del campo de fórmula. Por ejemplo, si el campo de fórmula es numérico, puede utilizar funciones como SUMA o PROMEDIO; si el campo de fórmula tiene formato de texto, no se aplicarán funciones de agregado como SUMA.
+
+Anteriormente, al conectar tipos de registro e incorporar campos de búsqueda desde los registros conectados, las funciones de agregado solo se podían aplicar a los campos normales, pero no a los de fórmula.
+
+Para obtener más información, consulte [Descripción general del campo de fórmula](/help/quicksilver/planning/fields/formula-fields.md).
 
 ## Disponibilidad de trimestres personalizados para la vista de cronología de Workfront Planning
 
@@ -206,7 +239,7 @@ Antes de esta mejora, los usuarios con todos los niveles de licencia debían asi
 >[!NOTE]
 >
 >Este cambio será visible para todos los usuarios nuevos y existentes con una licencia de administrador del sistema y estándar.
->&#x200B;>Los usuarios existentes asignados a una plantilla de diseño seguirán viendo todo según la configuración definida en la plantilla.
+>>Los usuarios existentes asignados a una plantilla de diseño seguirán viendo todo según la configuración definida en la plantilla.
 
 Para obtener más información, consulte [Descripción general de Adobe Workfront Planning](/help/quicksilver/planning/access/access-overview.md).
 

@@ -5,10 +5,10 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9342f393-a404-44b4-aad6-2c4cf634dfd5
-source-git-commit: de30f2600c5d13bb4bbc56cdc1b166ac7c5adb05
+source-git-commit: 3f8d0430ce5685aeec4b5881ab3436201273e4a2
 workflow-type: tm+mt
-source-wordcount: '1497'
-ht-degree: 22%
+source-wordcount: '1627'
+ht-degree: 20%
 
 ---
 
@@ -128,6 +128,15 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td><strong>Liberación rápida</strong></td>
         <td><strong>Trimestralmente</strong></td>
     </tr>
+       <!--<tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity//25-q3-home-enhancements.md" class="MCXref xref" xrefformat="{para}">All Approvals widget renamed to Document approval metrics</a><p></p>
+            <p>We've renamed the All Approvals widget to Document Approval Metrics to more accurately reflect the information it displays. The Document Approval Metrics widget provides high-level insights into document approvals for the projects you own.</p>
+        </td>
+        <td>TBD</td>
+        <td>TBD</td>
+        <td>TBD</td>
+    </tr> -->   
     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity//25-q3-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Se ha actualizado la experiencia de comentarios en la sección Menciones del área Mis actualizaciones</a><p></p>
@@ -160,6 +169,16 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td><strong>Liberación rápida</strong></td>
         <td><strong>Trimestralmente</strong></td>
     </tr>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Se reemplazó el campo Horas reales existentes por Horas reales heredadas y se creó el nuevo campo Horas reales</a><p>[!BADGE Off schedule]{type=Neutral}</p>
+            <p>El campo existente de Horas reales ha cambiado a Horas reales heredadas. Este campo almacena el tiempo registrado de los proyectos, tareas y problemas en minutos. El campo se almacena en la base de datos de Workfront como actualWorkRequired. </p>
+            <p>Se ha agregado un nuevo campo Horas reales que almacena el tiempo registrado de los proyectos, las tareas y los problemas en horas, con precisión decimal. El campo se almacena en la base de datos de Workfront como actualWorkRequiredDouble.</p>
+        </td>
+        <td>miércoles, 24 de junio de 2025</td>
+        <td>miércoles, 24 de junio de 2025</td>
+        <td>miércoles, 24 de junio de 2025</td>
+    </tr> 
     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Cambio en la forma en que se almacenan las horas reales en la base de datos para las llamadas API</a><p>[!BADGE Off schedule]{type=Neutral}</p>
@@ -203,6 +222,16 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td><strong>Liberación rápida</strong></td>
         <td><strong>Trimestralmente</strong></td>
     </tr>
+      <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-reporting-enhancements.md" class="MCXref xref" xrefformat="{para}">Seguridad de entrega de informes mejorada </a><p>[!BADGE Off schedule]{type=Neutral}</p>
+            <p>Se ha mejorado la entrega de informes programados para garantizar que las notificaciones de Workfront solo se envíen a dominios de correo electrónico aprobados en la lista de permitidos.</p>
+            <p></p>
+        </td>
+        <td>viernes, 26 de junio de 2025</td>
+        <td>(Despliegue gradual): Del 26 de junio al 9 de julio de 2025</td>
+        <td>(Despliegue gradual): Del 26 de junio al 9 de julio de 2025</td>
+    </tr>   
     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-reporting-enhancements.md" class="MCXref xref" xrefformat="{para}">Los comodines de usuario ya no devuelven resultados con un valor nulo al filtrar </a><p></p>
@@ -287,7 +316,7 @@ Estamos actualizando la interfaz a través de Adobe Workfront para mejorar la ex
 
 ### Mejoras de Workfront Fusion
 
-Las nuevas funciones de Workfront Fusion están disponibles en el entorno de producción en una cadencia fuera de la programación de versiones estándar. Para obtener más información sobre las últimas funciones, consulte [Actividad de la versión de Adobe Workfront Fusion](https://experienceleague.adobe.com/es/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
+Las nuevas funciones de Workfront Fusion están disponibles en el entorno de producción en una cadencia fuera de la programación de versiones estándar. Para obtener más información sobre las últimas funciones, consulte [Actividad de la versión de Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
 
 ### Mejoras de Workfront Planning
 
