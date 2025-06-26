@@ -8,10 +8,10 @@ feature: Work Management, Requests
 topic: Collaboration
 role: User, Admin
 exl-id: 7c5959f4-f33f-4f5e-b031-748dbe1a24a5
-source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
+source-git-commit: 0da05d048d0dab1c2f06870e589c1349c48ccc58
 workflow-type: tm+mt
-source-wordcount: '456'
-ht-degree: 90%
+source-wordcount: '486'
+ht-degree: 84%
 
 ---
 
@@ -83,7 +83,7 @@ Para crear un grupo de temas:
 1. Haga clic en **Grupos de temas** en el panel izquierdo.
 1. Crear **Nuevo grupo de temas**
 
-   ![](assets/new-topic-group-box-nwe-350x306.png)
+   <!--   ![](assets/new-topic-group-box-nwe-350x306.png) -->
 
 1. Especifique la siguiente información:
 
@@ -94,3 +94,4 @@ Para crear un grupo de temas:
 1. Haga clic en **Guardar**.\
    Esto crea un nuevo grupo de temas en la cola de solicitudes. Ahora puede seleccionar categorías adicionales en el primer menú desplegable debajo de una cola de solicitudes.\
    Para obtener más información sobre cómo enviar solicitudes, consulte [Crear y enviar solicitudes de Adobe Workfront](../../../manage-work/requests/create-requests/create-submit-requests.md).
+1. Para editar un grupo de temas existente, seleccione el grupo de temas en la lista Grupos de temas y, a continuación, edite los detalles en la ventana que se abre. Haga clic en **Guardar** para guardar los cambios.
