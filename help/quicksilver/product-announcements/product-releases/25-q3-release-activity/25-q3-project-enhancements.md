@@ -39,11 +39,11 @@ El campo Horas reales visible en la sección de detalles del proyecto, tareas y 
 >[!IMPORTANT]
 >
 >Dependiendo de cuándo se registraron las horas, podría haber una discrepancia entre las horas reales y las horas reales heredadas de un proyecto, tarea o problema.<br>
->>Se dan los siguientes escenarios:
+>&#x200B;>Se dan los siguientes escenarios:
 >
 >* Las horas reales que representan las horas registradas en los proyectos, las tareas y los problemas desde mayo de 2021 se han movido del campo Horas reales heredadas al nuevo campo Horas reales.
 >* Las horas reales que representan las horas registradas para proyectos, tareas y problemas anteriores a mayo de 2021 solo se contabilizan en el campo Horas reales heredadas.
->  ><br>Es posible que tenga que actualizar los informes para reflejar el nuevo campo y sus valores.
+>  &#x200B;><br>Es posible que tenga que actualizar los informes para reflejar el nuevo campo y sus valores.
 
 
 Para obtener más información, vea [Ver horas reales](/help/quicksilver/manage-work/tasks/task-information/actual-hours.md).
