@@ -7,9 +7,9 @@ recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
 exl-id: 33fa5a61-5300-402c-9f80-f2701f7999a8
-source-git-commit: b87b32d0396b0c277a5fc30d060c76a71192171b
+source-git-commit: e3fa5f6fd86f0fe9ba221fb7c20f46f966437a42
 workflow-type: tm+mt
-source-wordcount: '712'
+source-wordcount: '745'
 ht-degree: 7%
 
 ---
@@ -32,15 +32,19 @@ Se ha agregado un nuevo campo Horas reales que almacena el tiempo registrado de 
 
 Los campos Horas reales y Horas reales heredadas están visibles en las vistas e informes de proyectos, tareas y problemas.
 
-El campo Horas reales visible en la sección de detalles del proyecto, tareas y problemas representa las horas reales heredadas.
+El campo Horas reales visible en la sección de detalles del proyecto, tareas y problemas representa las nuevas horas reales.
+
 
 
 >[!IMPORTANT]
 >
->Las horas registradas antes de mayo de 2021 se almacenan en el campo Horas reales heredadas.  
->&#x200B;>El valor del campo Horas reales para proyectos, tareas y problemas en los que las horas se registraron antes de mayo de 2021 es cero. 
->&#x200B;>Las horas registradas después de mayo de 2021 se almacenan tanto en el campo Horas reales como en el campo Horas reales heredadas.
->&#x200B;> Es posible que tenga que actualizar los informes para que reflejen los nuevos campos.
+>Dependiendo de cuándo se registraron las horas, podría haber una discrepancia entre las horas reales y las horas reales heredadas de un proyecto, tarea o problema.<br>
+>>Se dan los siguientes escenarios:
+>
+>* Las horas reales que representan las horas registradas en los proyectos, las tareas y los problemas desde mayo de 2021 se han movido del campo Horas reales heredadas al nuevo campo Horas reales.
+>* Las horas reales que representan las horas registradas para proyectos, tareas y problemas anteriores a mayo de 2021 solo se contabilizan en el campo Horas reales heredadas.
+>  ><br>Es posible que tenga que actualizar los informes para reflejar el nuevo campo y sus valores.
+
 
 Para obtener más información, vea [Ver horas reales](/help/quicksilver/manage-work/tasks/task-information/actual-hours.md).
 
