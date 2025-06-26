@@ -38,9 +38,9 @@ El campo Horas reales visible en la sección de detalles del proyecto, tareas y 
 >[!IMPORTANT]
 >
 >Las horas registradas antes de mayo de 2021 se almacenan en el campo Horas reales heredadas.  
->>El valor del campo Horas reales para proyectos, tareas y problemas en los que las horas se registraron antes de mayo de 2021 es cero. 
->>Las horas registradas después de mayo de 2021 se almacenan tanto en el campo Horas reales como en el campo Horas reales heredadas.
->> Es posible que tenga que actualizar los informes para que reflejen los nuevos campos.
+>&#x200B;>El valor del campo Horas reales para proyectos, tareas y problemas en los que las horas se registraron antes de mayo de 2021 es cero. 
+>&#x200B;>Las horas registradas después de mayo de 2021 se almacenan tanto en el campo Horas reales como en el campo Horas reales heredadas.
+>&#x200B;> Es posible que tenga que actualizar los informes para que reflejen los nuevos campos.
 
 Para obtener más información, vea [Ver horas reales](/help/quicksilver/manage-work/tasks/task-information/actual-hours.md).
 
