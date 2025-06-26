@@ -6,9 +6,9 @@ description: El [!DNL Adobe Workfront] glosario enumera términos de uso común 
 author: Alina
 feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
-source-git-commit: 66fc75ed9a7fca4b44ac776c314a6e08a6fbd450
+source-git-commit: 594f224e11b0e7708ed555410b7c331741113791
 workflow-type: tm+mt
-source-wordcount: '21072'
+source-wordcount: '21141'
 ht-degree: 96%
 
 ---
@@ -63,12 +63,13 @@ La siguiente tabla es una lista de los términos más utilizados en Adobe Workfr
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL Actual Hours]</td> 
-   <td> <p>En un informe de proyecto, tarea o problema, [!UICONTROL Actual Hours] es la suma de todas las horas registradas en el proyecto, tarea o problema.</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Ejemplo: </b></span></span> Si desde la pestaña [!UICONTROL Updates] de la Tarea 1, haga clic en “Tiempo de registro” e introduce 25 horas, las Horas reales de la Tarea 1 = 25 horas. </p> <p>[!DNL Workfront] calcula [!UICONTROL Actual Hours] para tareas o proyectos principales mediante las siguientes fórmulas:</p> 
+   <td> <p>En un informe de proyecto, tarea o problema, [!UICONTROL Horas reales] es la suma de todas las horas registradas en el proyecto, tarea o problema después de mayo de 2021.</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Ejemplo: </b></span></span> Si desde la pestaña [!UICONTROL Updates] de la Tarea 1, haga clic en “Tiempo de registro” e introduce 25 horas, las Horas reales de la Tarea 1 = 25 horas. </p> <p>[!DNL Workfront] calcula [!UICONTROL Actual Hours] para tareas o proyectos principales mediante las siguientes fórmulas:</p> 
     <ul> 
      <li> <p><code>For parent tasks = children [!UICONTROL Actual Hours] + [!UICONTROL Actual Hours] on the parent task. </code> </p> </li> 
-     <li> <p><code>For projects = [!UICONTROL Actual Hours] logged on the project + [!UICONTROL Actual Hours] logged on standalone or children tasks in the project</code> </p> </li> 
+     <li> <p><code>For projects = [!UICONTROL Actual Hours] logged on the project + [!UICONTROL Actual Hours] logged on standalone or children tasks in the project + [!UICONTROL Actual Hours] logged on issues in the project</code>  </p> </li> 
     </ul> 
-    <p>Para obtener más información, vea <a href="/help/quicksilver/manage-work/tasks/task-information/actual-hours.md">Horas reales</a>.</p>
+   <p>Consulte también <strong>Horas reales heredadas</strong>.
+    <p>Para obtener más información, vea <a href="/help/quicksilver/manage-work/tasks/task-information/actual-hours.md">Ver horas reales</a>.</p>
     </td> 
   </tr> 
   <tr> 
@@ -362,7 +363,7 @@ La siguiente tabla es una lista de los términos más utilizados en Adobe Workfr
        </tr> 
        <tr> 
         <td>[!UICONTROL Bud. Hours]</td> 
-        <td> <p>Informe de [!UICONTROL Budgeted Hour]</p><p>El objeto [!UICONTROL Budgeted Hour] del informe de Hora presupuestada hace referencia a información relacionada con una herramienta de administración de recursos obsoleta. Solo el campo "[!UICONTROL . Hours]" en este informe hace referencia a las horas presupuestadas en el área de [!UICONTROL Resource Planner] o [!UICONTROL Resource Budgeting] del [!UICONTROL Business Case] del proyecto. </p> <p>Para obtener más información acerca de cómo crear un informe, consulte el artículo <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md" class="MCXref xref">Crear un informe personalizado</a>.</p> </td> 
+        <td> <p>Informe de [!UICONTROL Budgeted Hour]</p><p>El objeto [!UICONTROL Budgeted Hour] del informe de Hora presupuestada hace referencia a información relacionada con una herramienta de administración de recursos obsoleta. Solo el campo "[!UICONTROL. Hours]" en este informe hace referencia a las horas presupuestadas en el área de [!UICONTROL Resource Planner] o [!UICONTROL Resource Budgeting] del [!UICONTROL Business Case] del proyecto. </p> <p>Para obtener más información acerca de cómo crear un informe, consulte el artículo <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md" class="MCXref xref">Crear un informe personalizado</a>.</p> </td> 
        </tr> 
        <tr> 
         <td>[!UICONTROL Resource Planner Budgeted Hours] </td> 
@@ -1276,9 +1277,15 @@ Las entradas de horas pueden tener uno de los siguientes estados en Workfront:
    <p>See <i>Resource Pools</i> for updated fields. </p> 
    <p>The Legacy Resource Pool is a collection&nbsp;of job roles associated with a project or a user. The functionality of the Legacy Resource Pools is displayed in the tools available in the Legacy Resource Planning tab of the People area. This is a deprecated field.</p>
     --> </td> 
-  </tr>
-
-<tr> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>[!UICONTROL Horas reales heredadas]</td> 
+   <td> <p>En un informe de proyecto, tarea o problema, las [!UICONTROL Horas reales heredadas] son la suma de todas las horas registradas en el proyecto, tarea o problema en cualquier momento, incluso antes de mayo de 2021.</p>  
+   <p>Las horas reales heredadas se muestran como horas reales en el área de detalles de un proyecto, tarea o problema. </p>
+   <p>Ver también <strong>Horas reales</strong>.
+    <p>Para obtener más información, vea <a href="/help/quicksilver/manage-work/tasks/task-information/actual-hours.md">Ver horas reales</a>.</p>
+    </td> 
+  </tr>  <tr> 
    <td>[!UICONTROL License Type]</td> 
    <td>Tipo de licencia asignada a un [!UICONTROL Access Level].  Es [!UICONTROL Full User], [!UICONTROL Limited User] o [!UICONTROL Requester].</td> 
   </tr> 
@@ -2060,7 +2067,7 @@ Las entradas de horas pueden tener uno de los siguientes estados en Workfront:
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Optimized"> 
    <td>[!UICONTROL Scenario] (en [!DNL Workfront Fusion]) </td> 
-   <td> <p>Un escenario consiste en una serie de pasos (módulos) que indican cómo se deben transferir y transformar los datos entre aplicaciones y servicios.</p> <p>Para obtener información acerca de los escenarios de [!DNL Workfront Fusion], consulte Información general sobre escenarios de <a href="https://experienceleague.adobe.com/es/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/scenario-overview">[!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>Un escenario consiste en una serie de pasos (módulos) que indican cómo se deben transferir y transformar los datos entre aplicaciones y servicios.</p> <p>Para obtener información acerca de los escenarios de [!DNL Workfront Fusion], consulte Información general sobre escenarios de <a href="https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/scenario-overview">[!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Scenario] (en el [!DNL Workfront Scenario Planner]) </td> 

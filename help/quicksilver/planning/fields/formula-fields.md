@@ -6,16 +6,14 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 5027d611-916e-492d-9a44-841bdde11c94
-source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
+source-git-commit: 594f224e11b0e7708ed555410b7c331741113791
 workflow-type: tm+mt
-source-wordcount: '755'
-ht-degree: 49%
+source-wordcount: '795'
+ht-degree: 46%
 
 ---
 
 # Información general sobre campos de fórmula
-
-<!--when we release permissions to RECORDS and we release referring lookup fields in a formula field, update considerations to say that lookup fields from linked records depends on the permissions to the record; if they have no permissions to view a linked record, they won't be able to use that records's lookup fields in a formula-->
 
 <span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después de las versiones mensuales en Production, las mismas funciones también están disponibles en el entorno Production para los clientes que habilitaron versiones rápidas. </span>
 
@@ -104,6 +102,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 * Los campos de fórmula hacen referencia a campos que pertenecen al mismo tipo de registro.
 * Sólo se puede hacer referencia a campos de otros tipos de registro cuando se conecta otro tipo de registro con el campo de fórmula para el que se está creando.
+* &lt;span class-&quot;preview&quot;>La referencia a los tipos de registros conectados o a sus campos de búsqueda en una fórmula depende de los permisos que tenga para los tipos de registros conectados. Si no tiene permisos para ver el tipo de registro, no puede hacer referencia a sus campos en una fórmula. </span>
 * No puede cambiar el tipo de campo de un campo Fórmula después de guardarlo.
 * Puede actualizar el cálculo de un campo de fórmula después de guardarlo, y los resultados del cálculo se actualizan automáticamente para todos los registros del mismo tipo.
 * Debe añadir los campos a los que hace referencia en las fórmulas tal y como aparecen en la interfaz de Workfront Planning.

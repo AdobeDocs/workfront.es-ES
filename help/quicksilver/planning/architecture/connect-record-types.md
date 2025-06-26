@@ -6,10 +6,10 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: 44b3298905a04c64a457045c4112d9628d933aae
+source-git-commit: 594f224e11b0e7708ed555410b7c331741113791
 workflow-type: tm+mt
-source-wordcount: '2570'
-ht-degree: 58%
+source-wordcount: '2556'
+ht-degree: 56%
 
 ---
 
@@ -199,14 +199,9 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
    * **Seleccionar campos de búsqueda**: seleccione esta opción para añadir campos desde el tipo de registro seleccionado. Los campos de búsqueda son campos asociados al tipo de registro u objeto al que se está vinculando. Al vincularlos, se muestra información del registro u objeto con el que se está vinculando en el registro desde el que se está vinculando. Esta opción está seleccionada de forma predeterminada.
 
-     >[!TIP]
-     >
-     > No se puede añadir los siguientes tipos de campo como campos de búsqueda:
-     >
-     >    * Personas
-     >    * Creado por
-     >    * Última modificación realizada por
-     >    * Campos de escritura anticipada de Workfront (incluidos campos como Propietario del proyecto o Patrocinador del proyecto)
+   >[!TIP]
+   >
+   >No puede agregar campos de escritura anticipada de Workfront (incluidos campos como Propietario del proyecto o Patrocinador del proyecto) como campos de búsqueda.
 
 1. (Condicional y opcional) Si seleccionó conectar un objeto de Workfront, seleccione un **formulario personalizado** de la sección **Vincule solo los objetos que cumplan estos criterios**. Solo los objetos que tienen los formularios personalizados adjuntos seleccionados pueden vincularse al tipo de registro seleccionado. Pueden seleccionarse varios formularios.
 
@@ -218,7 +213,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
    >[!NOTE]
    >
-   >El administrador de Workfront puede asignar campos de Workfront Planning a campos de Experience Manager Assets a través de la asignación de metadatos en Workfront. Para obtener más información, consulte [Configuración de la asignación de metadatos de recursos entre Adobe Workfront y Experience Manager Assets](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
+   >El administrador de Workfront puede asignar campos de Workfront Planning a campos de Experience Manager Assets a través de la asignación de metadatos en Workfront. Para obtener más información, consulte [Configuración de la asignación de metadatos de recursos entre Adobe Workfront y Experience Manager Assets](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
 
 1. (Condicional) Si ha seleccionado conectarse a Experience Manager Assets o a un tipo de registro de Workfront Planning, seleccione una de las siguientes opciones en el área **Apariencia del registro**:
 
@@ -256,10 +251,18 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
    >
    >    Todas las personas con permisos de visualización o superiores del espacio de trabajo pueden ver la información en los campos vinculados, independientemente de sus permisos o nivel de acceso en la aplicación de los tipos de objetos vinculados.
 
-
 1. (Opcional) Haga clic en **Omitir** para omitir la adición de campos desde el registro o el tipo de objeto vinculados. El nombre o el campo Principal del registro vinculado es el único campo visible en la vista de tabla del tipo de registro desde el que se conecta.
 
-1. (Opcional y condicional) Si selecciona vincular un campo de número, moneda, porcentaje o tipo de fecha, seleccione también un valor del agregador para resumir varios valores. Los valores de los campos vinculados se muestran separados por comas o como un valor resumido según el agregador que elija, cuando los usuarios seleccionen más de un registro vinculado en el campo de registros vinculados.
+1. Elija un agregador para los campos de búsqueda que agregue.
+
+   >[!NOTE]
+   >
+   >No se pueden agregar agregadores para los siguientes tipos de campo:
+   >
+   >    * Párrafo
+   >    * Casilla de verificación
+
+   Los valores de los campos vinculados se muestran separados por comas o como un valor resumido según el agregador que elija, cuando los usuarios seleccionen más de un registro vinculado en el campo de registros vinculados.
 
    Si el campo de búsqueda contiene varios valores que no están resumidos, tenga en cuenta lo siguiente al utilizar el campo en la ordenación o la agrupación de una vista:
 
@@ -271,7 +274,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
    >[!IMPORTANT]
    >
-   >    Debe seleccionar un valor del agregador al añadir campos de fecha de búsqueda si desea que los campos estén disponibles para añadirlos como fechas de inicio y finalización en las vistas del calendario y la cronología. Por ejemplo, puede seleccionar el agregador MAX o MIN para un campo de fecha de búsqueda.
+   > Debe seleccionar un valor del agregador al añadir campos de fecha de búsqueda si desea que los campos estén disponibles para añadirlos como fechas de inicio y finalización en las vistas del calendario y la cronología. Por ejemplo, puede seleccionar el agregador MAX o MIN para un campo de fecha de búsqueda.
 
    ![Menú desplegable del agregador para el campo numérico vinculado](assets/aggregator-drop-down-for-number-linked-field.png)
 

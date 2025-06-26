@@ -4,11 +4,11 @@ product-area: system-administration;setup
 navigation-topic: system-tracked-update-feeds
 title: Configurar preferencias para actualizaciones de usuarios
 description: Puede configurar las preferencias que permiten acceder a determinadas funciones cuando los usuarios añaden comentarios en el área [!UICONTROL Actualizaciones] de un objeto.
-author: Lisa
+author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: d6d18423-d13c-42e8-b8ee-43e6842b6481
-source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
+source-git-commit: 594f224e11b0e7708ed555410b7c331741113791
 workflow-type: tm+mt
 source-wordcount: '289'
 ht-degree: 91%
@@ -16,6 +16,8 @@ ht-degree: 91%
 ---
 
 # Configurar preferencias para actualizaciones de usuarios
+
+<!--Audited: 06/2025-->
 
 Puede configurar las preferencias que conceden a los usuarios acceso a determinadas funciones cuando añaden comentarios en el área [!UICONTROL Actualizaciones] de un objeto.
 
@@ -34,7 +36,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
    <td>Cualquiera</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licencia</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] licencia*</td> 
    <td><p>Nuevo: [!UICONTROL Standard]</p>
    O
    <p>Actual: [!UICONTROL Plan]</p>
@@ -47,7 +49,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  </tbody> 
 </table>
 
-Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
