@@ -7,10 +7,10 @@ description: Preguntas frecuentes sobre informes
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 5e267d45-7922-4c0f-8530-59a8c152f625
-source-git-commit: 04818bc054c3bab6e6208b6678365549664d1594
+source-git-commit: 957c6e6955a828aa40ac996490d66e9c46f594bc
 workflow-type: tm+mt
-source-wordcount: '1500'
-ht-degree: 88%
+source-wordcount: '1510'
+ht-degree: 87%
 
 ---
 
@@ -64,7 +64,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 <!--this section is linked from the Actual Hours article for Tasks in the Task Information folder; edit the links or do not delete or change this section-->
 
-En un informe de proyecto tengo un cálculo que resta las horas reales heredadas de las planificadas.
+En un informe de proyecto tengo un cálculo que resta las horas reales de las planificadas.
 
 El resultado que estoy obteniendo es incorrecto.
 
@@ -78,17 +78,19 @@ Mi cálculo es:
 
 La mayoría de los campos que utilizan horas en Workfront se almacenan en minutos. Cuando se utilizan estos campos en un cálculo, el resultado suele ser en minutos. Para obtener el resultado en horas, debe dividir el resultado del cálculo o del campo al que hace referencia por 60.
 
-El cálculo correcto es:
+Las horas planificadas se almacenan en minutos.
 
-`valueexpression=SUB(workRequired,actualWorkRequired)/60`
+En función del campo Horas reales que desee utilizar para el cálculo, las fórmulas correctas son:
 
->[!NOTE]
->
->Si está usando horas reales en el cálculo, use `actualWorkRequiredDouble` para el campo de valor. Las horas reales se almacenan en horas. Las horas planificadas se almacenan en minutos.
->
->El cálculo correcto de Horas reales es:
->&#x200B;>`valueexpression=SUB(workRequired/60,actualWorkRequiredDouble)`
+* Para las horas reales heredadas que se almacenan en minutos:
 
+  `valueexpression=SUB(workRequired,actualWorkRequired)/60`
+
+* Para las horas reales que se almacenan en horas:
+
+  `valueexpression=SUB(workRequired/60,actualWorkRequiredDouble)`
+
+Para obtener más información, vea [Ver horas reales](/help/quicksilver/manage-work/tasks/task-information/actual-hours.md).
 
 ## ¿Por qué no se muestra en el gráfico el valor de cada uno de los elementos de mi gráfico en un informe?
 
