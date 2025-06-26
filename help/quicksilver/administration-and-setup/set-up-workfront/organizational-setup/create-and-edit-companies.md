@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: bb597032-3395-4c9a-b622-5c920ba55131
-source-git-commit: e9d1e35a9c94143a84eb2007985a42f0960a09f7
+source-git-commit: b89715649473ba13e1b6b7a250dfed7a468bb4b4
 workflow-type: tm+mt
-source-wordcount: '1416'
-ht-degree: 0%
+source-wordcount: '1420'
+ht-degree: 17%
 
 ---
 
@@ -39,24 +39,24 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!DNL Adobe Workfront] licencia</p> </td> 
-   <td><p>Actual: [!UICONTROL plan]</p>
+   <td><p>Actual: [!UICONTROL Plan]</p>
    <p>O</p>
    <p>Nuevo: [!UICONTROL Standard]</p>
    </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Configuración del nivel de acceso</td> 
+   <td role="rowheader">Configuración de nivel de acceso</td> 
    <td> <p>Uno de los siguientes:</p> 
     <ul> 
      <li> <p>Nivel de acceso de [!UICONTROL System Administrator], que permite editar cualquier compañía del sistema.</p> </li> 
      <li> <p>Acceso administrativo para gestionar empresas, que permite editar cualquier empresa del sistema.</p> </li> 
     </ul> <p><b>NOTA</b>:  
      <ul> 
-      <li> <p>También puede administrar empresas asociadas a cualquier grupo al que esté asignado como administrador del grupo.</p> </li> 
-      <li> <p>Para agregar y quitar usuarios del sistema [!DNL Workfront], debe tener uno de los siguientes elementos:</p> 
+      <li> <p>También puede administrar compañías asociadas a cualquier grupo en el que esté asignado como administrador de grupos.</p> </li> 
+      <li> <p>Para añadir y quitar usuarios del sistema [!DNL Workfront], debe tener uno de los siguientes niveles de acceso:</p> 
        <ul> 
         <li> <p>Nivel de acceso de [!UICONTROL System Administrator]. </p> </li> 
-        <li> <p>En su nivel de acceso, [!UICONTROL Edit] debe estar seleccionado para la opción [!UICONTROL Users]. Además, para la configuración de [!UICONTROL Usuarios], en [!UICONTROL Ajustar la configuración] <img src="assets/gear-icon-in-access-levels.png">, la opción [!UICONTROL Crear] y al menos una de las dos opciones de [!UICONTROL Administración de usuarios] deben estar habilitadas. </p> <p> <img src="assets/access-req-users.png"> </p> <p>Si utiliza la opción [!UICONTROL User Admin (Usuarios del grupo)], debe ser administrador de un grupo del que sea miembro el usuario.</p> </li> 
+        <li> <p>En su nivel de acceso, [!UICONTROL Edit] debe estar seleccionado para la configuración [!UICONTROL Users]. Además, para la configuración de [!UICONTROL Usuarios], en [!UICONTROL Ajustar la configuración] <img src="assets/gear-icon-in-access-levels.png">, la opción [!UICONTROL Crear] y al menos una de las dos opciones de [!UICONTROL Administración de usuarios] deben estar habilitadas. </p> <p> <img src="assets/access-req-users.png"> </p> <p>Si utiliza la opción [!UICONTROL User Admin (Group Users)], debe ser administrador de un grupo del que sea miembro el usuario.</p> </li> 
        </ul>
        </li> 
      </ul> </p> </td> 
@@ -64,7 +64,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  </tbody> 
 </table>
 
-Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -102,7 +102,7 @@ Para agregar o editar una compañía:
 
    O
 
-   Si estás editando una empresa existente, selecciónela y luego haz clic en **[!UICONTROL Editar]** en la parte superior de la lista de empresas.
+   Si estás editando una empresa existente, selecciona la empresa y luego haz clic en el icono **[!UICONTROL Editar]** ![Editar icono](assets/edit-icon.png) en la parte superior de la lista de la empresa.
 
 1. Actualice la siguiente información:
 
@@ -116,9 +116,9 @@ Para agregar o editar una compañía:
        <ul> 
         <li> <p><b>[!UICONTROL Nombre de la compañía]</b>: escriba un nombre para la compañía.</p> </li> 
         <li> <p><b>[!UICONTROL Está Activo]</b>: cuando esta opción está habilitada, los usuarios pueden encontrar la compañía y adjuntarla a los proyectos que creen y editen. No se puede adjuntar una empresa inactiva a los proyectos. Esta opción está habilitada de forma predeterminada.</p> </li> 
-        <li> <p><b>[!UICONTROL Esta es la compañía principal]</b>: asigna la compañía como compañía principal de su organización. La compañía principal suele representar su cuenta de [!DNL Workfront] donde trabajan la mayoría de los usuarios.</p> <p>Puede tener una compañía o ninguna compañía designada como compañía primaria, pero no puede tener varias compañías designadas como compañías primarias. Para obtener más información, vea <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> <p><b>NOTA</b>: Al modificar sus niveles de acceso, puede restringir a los usuarios para que vean otros usuarios: solo en su compañía principal, o en su compañía asociada y en la compañía principal. Para obtener información acerca de cómo funciona la compañía principal con los niveles de acceso de los usuarios, vea <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </li> 
+        <li> <p><b>[!UICONTROL Esta es la compañía principal]</b>: asigna la compañía como compañía principal de su organización. La compañía principal suele representar su cuenta de [!DNL Workfront] donde trabajan la mayoría de los usuarios.</p> <p>Puede tener una compañía o ninguna compañía designada como compañía primaria, pero no puede tener varias compañías designadas como compañías primarias. Para obtener más información, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creación o modificación de niveles de acceso personalizados</a>.</p> <p><b>NOTA</b>: Al modificar sus niveles de acceso, puede restringir a los usuarios para que vean otros usuarios: solo en su compañía principal, o en su compañía asociada y en la compañía principal. Para obtener información acerca de cómo funciona la compañía principal con los niveles de acceso de los usuarios, vea <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </li> 
         <li> <p><b>[!UICONTROL Group]</b>: si hay un grupo que hace negocios con la compañía, puede agregar el nombre del grupo aquí. Esto resulta útil para los administradores de grupos que necesitan informar y administrar todas las compañías con las que hacen negocios sus grupos.</p> <p><b>IMPORTANTE</b>: Si no asocia el grupo que trabajará con esta compañía, los administradores del grupo no podrán tener acceso a la compañía a menos que tengan acceso administrativo a las compañías de su nivel de acceso. Para obtener información acerca de cómo se concede este acceso, vea <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Conceder a los usuarios acceso administrativo a ciertas áreas</a>.</p> <p data-mc-conditions="SnippetConditions-wf-groups.system-level">Empiece a escribir el nombre del grupo y, a continuación, presione <strong>[!UICONTROL Entrar]</strong> cuando aparezca.</p> <p data-mc-conditions="SnippetConditions-wf-groups.system-level">Cuando asigna un grupo a una compañía, los administradores del grupo obtienen acceso a [!UICONTROL Administrar]. Para obtener más información, consulte <a href="#group-administrators-and-companies" class="MCXref xref">Administradores de grupos y empresas</a> en este artículo.</p> </li> 
-        <li> <p><b>[!UICONTROL Miembros de la compañía]</b>: agregue usuarios existentes a la compañía. Al hacerlo, asocia estos usuarios con esta compañía.</p> <p>No hay límite en cuanto a la cantidad de usuarios que asocia con una empresa, pero un usuario no puede asociarse con más de una empresa.</p> </li> 
+        <li> <p><b>[!UICONTROL Miembros de la compañía]</b>: agregue usuarios existentes a la compañía. Al hacerlo, asocia estos usuarios con esta compañía.</p> <p>No hay límite en la cantidad de usuarios que puedes asociar con una empresa, pero un usuario no puede estar asociado a más de una empresa.</p> </li> 
        </ul> </td> 
      </tr>
      <tr> 
