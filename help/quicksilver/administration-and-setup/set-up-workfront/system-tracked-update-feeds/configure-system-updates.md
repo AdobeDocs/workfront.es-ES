@@ -102,7 +102,7 @@ Puede añadir los campos en los que desee que [!DNL Workfront] realice un seguim
    * <span class="preview">**Campos personalizados**</span>: Muestra una lista de campos personalizados. Debe crear los campos personalizados antes de que estén disponibles en la lista.
    * <span class="preview">**Todos los campos**</span>: muestra una lista de campos integrados y personalizados.
 
-1. Haga clic en <span class="preview">**[!UICONTROL Agregar campos ]**,</span> y, a continuación, seleccione el objeto sobre el que desea realizar el seguimiento en la lista desplegable.
+1. Haga clic en <span class="preview">**[!UICONTROL Agregar campos &#x200B;]**,</span> y, a continuación, seleccione el objeto sobre el que desea realizar el seguimiento en la lista desplegable.
 
    La selección manual de campos no está disponible para todos los objetos que tienen un área de Actualizaciones.
 

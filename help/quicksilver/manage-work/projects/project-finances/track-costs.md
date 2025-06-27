@@ -154,7 +154,7 @@ La tasa por hora de la fórmula tiene en cuenta cualquier cambio efectivo de fec
 >[!NOTE]
 >
 >El costo de gasto real del proyecto se calcula de la siguiente manera:
->>`SUM (All Project Actual Expense Costs) + SUM (All Tasks Actual Expense Costs) + Project Fixed Cost`
+>&#x200B;>`SUM (All Project Actual Expense Costs) + SUM (All Tasks Actual Expense Costs) + Project Fixed Cost`
 >
 >Estos costes no se duplican en el cálculo de costes reales. Por ejemplo, si un costo fijo es parte del costo de gasto real del proyecto, no se agrega por separado al costo real.
 
