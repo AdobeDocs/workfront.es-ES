@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 1176d899-0585-430d-87f2-0823bda2f1be
-source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
+source-git-commit: 8934c3f5681c09c00769442900013844ee7a80ef
 workflow-type: tm+mt
-source-wordcount: '1330'
-ht-degree: 98%
+source-wordcount: '1336'
+ht-degree: 92%
 
 ---
 
@@ -107,14 +107,13 @@ Puede generar y administrar claves de API para usuarios con funciones distintas 
    1. Expanda **Sistema** y haga clic en **Inicio de sesión único (SSO)**.
    1. En el campo **Tipo**, seleccione el tipo de SSO que utiliza su organización.
    1. Con el tipo seleccionado, desplácese hacia abajo y desactive la casilla de verificación **Habilitar**.
-
       ![Habilitar SSO](assets/sysadmin-security-sso-disable-31620-350x320.png)
    1. Haga clic en **Guardar**.
 
 
 1. En la barra de direcciones de un explorador, introduzca la siguiente llamada de API:
 
-   `<domain>`**.my.workfront.com/attask/api/v7.0/user?action=generateApiKey&amp;username=**&#x200B;username&#x200B;**&amp;password=**&#x200B;password**&amp;method=PUT
+   `<domain>`.my.workfront.com/attask/api/v7.0/user?action=generateApiKey&amp;username=**nombre de usuario**&amp;contraseña=**contraseña**&amp;método=PUT
 
    Reemplace `<domain>` con su nombre de dominio de Workfront, y su nombre de usuario y contraseña con las credenciales de Workfront del usuario.
 
@@ -140,9 +139,9 @@ Puede configurar las claves API de modo que caduquen para todos los usuarios del
 
    De forma predeterminada, las claves API caducan cada mes.
 
-1. Para configurar las claves API para que caduquen al caducar las contraseñas de los usuarios, seleccione **Quitar clave API cuando caduque la contraseña de un usuario**.
+1. Para configurar las claves API para que caduquen cuando caduquen las contraseñas de los usuarios, habilite **Quitar clave API cuando caduque la contraseña de un usuario**.
 
-   Esta opción no está seleccionada de forma predeterminada.
+   Esta opción no está habilitada de forma predeterminada.
 
    Para obtener información sobre cómo configurar las contraseñas de usuario para que caduquen, consulte [Configurar las preferencias de seguridad del sistema](../../../administration-and-setup/manage-workfront/security/configure-security-preferences.md).
 
@@ -170,11 +169,11 @@ Si le preocupa una infracción de seguridad concreta en relación con su sistema
 >
 >Para obtener una lista de procedimientos que difieren según si su organización se ha incorporado a Adobe Business Platform, consulte [Diferencias de administración basadas en la plataforma (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
-Las aplicaciones de terceros pueden comunicarse con Workfront a través de la API. Para aumentar la seguridad del sitio de Workfront, puede configurar Workfront para que restrinja las solicitudes de inicio de sesión de API cargando un certificado X.509 en Workfront. Una vez habilitado, todas las solicitudes de inicio de sesión mediante la API deben incluir un certificado de cliente, además del nombre de usuario y la contraseña.
-
 >[!NOTE]
 >
 >Esto no está disponible si la instancia de Workfront de su organización está habilitada con Adobe IMS. Consulte al administrador de red o de TI si necesita más información.
+
+Las aplicaciones de terceros pueden comunicarse con Workfront a través de la API. Para aumentar la seguridad del sitio de Workfront, puede configurar Workfront para que restrinja las solicitudes de inicio de sesión de API cargando un certificado X.509 en Workfront. Una vez habilitado, todas las solicitudes de inicio de sesión mediante la API deben incluir un certificado de cliente, además del nombre de usuario y la contraseña.
 
 * [Obtener el certificado X.509](#obtain-the-x-509-certificate)
 * [Cargar el certificado en Workfront](#upload-the-certificate-to-workfront)
@@ -182,7 +181,7 @@ Las aplicaciones de terceros pueden comunicarse con Workfront a través de la AP
 
 ### Obtener el certificado X.509 {#obtain-the-x-509-certificate}
 
-Obtenga un certificado X.509 válido de una autoridad de certificación de confianza (como Verisign) y colóquelo en una ubicación temporal de su estación de trabajo.
+Obtenga un certificado X.509 válido de una entidad emisora de certificados de confianza (como Verisign) y guárdelo en una ubicación temporal de la estación de trabajo.
 
 ### Cargar el certificado en Workfront {#upload-the-certificate-to-workfront}
 
@@ -192,7 +191,8 @@ Una vez que haya obtenido el certificado X.509 de su autoridad de certificación
 
 1. Expanda **Sistema** y, a continuación, haga clic en **Información del cliente**.
 
-1. En el área **Configuración de clave API**, seleccione **Habilitar certificado X.509**.
+1. En el área **Configuración de clave API**, seleccione **Requerir certificado X.509 para inicios de sesión en API**.
+1. Haga clic en **Cambiar certificado**.
 1. En la estación de trabajo, busque y seleccione el certificado X.509 que descargó anteriormente.
 1. (Opcional) Haga clic en **Ver detalles** junto al nombre del certificado para ver los siguientes detalles sobre el certificado:
 
