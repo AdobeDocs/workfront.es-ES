@@ -7,10 +7,10 @@ description: Las horas que inicie sesión en los elementos de trabajo en Adobe W
 author: Alina
 feature: Work Management
 exl-id: c4b0e431-1765-416d-89f5-6ac663ac1d4f
-source-git-commit: 957c6e6955a828aa40ac996490d66e9c46f594bc
+source-git-commit: 23a5c90b9321b72a20f21752f957b3be0a9f3a02
 workflow-type: tm+mt
-source-wordcount: '1010'
-ht-degree: 41%
+source-wordcount: '1034'
+ht-degree: 40%
 
 ---
 
@@ -69,11 +69,16 @@ Según el área de Workfront desde la que acceda a las horas reales, podrían ha
 * En el proyecto, las tareas y los informes y listas de problemas:
 
    * **Horas reales**: Horas registradas para el proyecto, las tareas o los problemas después de mayo de 2021. Se almacenan en la base de datos de Workfront en horas y su campo de valor es `actualWorkRequiredDouble`.
-   * **Horas reales heredadas**: Horas registradas para proyectos, tareas o problemas en cualquier momento, incluso antes de mayo de 2021. Se almacenan en la base de datos de Workfront en minutos y su campo de valor es `actualWorkRequired`. <!--check below and see if you need to add this to the API section - asked on the tech doc task -->
+   * **Horas reales heredadas**: Horas registradas para proyectos, tareas o problemas en cualquier momento, incluso antes de mayo de 2021. Se almacenan en la base de datos de Workfront en minutos y su valor es `actualWorkRequired`.
+
+     >[!IMPORTANT]
+     >
+     >El costo real del proyecto utiliza las horas reales heredadas para calcular.
+
 
 * En el área Detalles del proyecto, tarea o problema:
 
-   * **Horas reales**: Horas registradas para proyectos, tareas o problemas antes de mayo de 2021. Se almacenan en la base de datos de Workfront en horas y su campo de valor es `actualWorkRequiredDouble`.
+   * **Horas reales**: Horas registradas para proyectos, tareas o problemas después de mayo de 2021. Se almacenan en la base de datos de Workfront en horas y su campo de valor es `actualWorkRequiredDouble`.
 
 ## Horas reales en tareas y problemas frente a horas reales en proyectos
 
@@ -160,9 +165,13 @@ Las horas reales registradas para proyectos, tareas o problemas se almacenan act
 Con la siguiente versión de la API de Workfront programada para su lanzamiento para finales de 2025, las horas reales se almacenan en los siguientes campos y unidades de la base de datos:
 
 * **Horas reales**: Horas registradas para el proyecto, las tareas o los problemas después de mayo de 2021. Se almacenan en la base de datos de Workfront en horas y su campo de valor es `actualWorkRequiredDouble`.
-   * **Horas reales heredadas**: Horas registradas para proyectos, tareas o problemas en cualquier momento, incluso antes de mayo de 2021. Se almacenan en la base de datos de Workfront en minutos y su valor es `actualWorkRequired`.
+* **Horas reales heredadas**: Horas registradas para proyectos, tareas o problemas en cualquier momento, incluso antes de mayo de 2021. Se almacenan en la base de datos de Workfront en minutos y su valor es `actualWorkRequired`.
 
-Para obtener información sobre cómo usar las horas reales en columnas o campos calculados, consulte [Preguntas más frecuentes sobre informes](/help/quicksilver/reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md).
+  >[!IMPORTANT]
+  >
+  >El costo real del proyecto utiliza las horas reales heredadas para calcular.
+
+  Para obtener información sobre cómo usar las horas reales en columnas o campos calculados, consulte [Preguntas más frecuentes sobre informes](/help/quicksilver/reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md).
 
 ## Hora de registro
 

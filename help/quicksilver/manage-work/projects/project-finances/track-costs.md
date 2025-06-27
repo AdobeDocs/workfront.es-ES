@@ -7,9 +7,9 @@ description: Puede realizar un seguimiento de los costos de los proyectos, las t
 author: Lisa
 feature: Work Management
 exl-id: df3090ae-9721-4e9b-84b4-315890619801
-source-git-commit: e5a87b92bf1f6c2e0485ba8a2eb73e52c422b2fc
+source-git-commit: 23a5c90b9321b72a20f21752f957b3be0a9f3a02
 workflow-type: tm+mt
-source-wordcount: '2480'
+source-wordcount: '2499'
 ht-degree: 5%
 
 ---
@@ -77,7 +77,11 @@ Puede realizar un seguimiento de varios tipos de costos para tareas y proyectos 
     </tr> 
     <tr> 
      <td>Costos laborales reales</td> 
-     <td> <p>Se calculan mediante la fórmula siguiente:</p><code>Actual Labor Costs = Actual Hours * Cost per Hour rate</code> </td> 
+     <td> <p>Se calculan mediante la fórmula siguiente:</p><code>Actual Labor Costs = Actual Hours * Cost per Hour rate</code> 
+     <p><strong>NOTA</strong>
+     <p>Workfront calcula el coste laboral real utilizando las horas reales heredadas. Para obtener más información, vea <a href="/help/quicksilver/manage-work/tasks/task-information/actual-hours.md">Ver horas reales</a>. </p>
+
+  </td> 
     </tr> 
    </tbody> 
   </table>
@@ -150,7 +154,7 @@ La tasa por hora de la fórmula tiene en cuenta cualquier cambio efectivo de fec
 >[!NOTE]
 >
 >El costo de gasto real del proyecto se calcula de la siguiente manera:
->`SUM (All Project Actual Expense Costs) + SUM (All Tasks Actual Expense Costs) + Project Fixed Cost`
+>>`SUM (All Project Actual Expense Costs) + SUM (All Tasks Actual Expense Costs) + Project Fixed Cost`
 >
 >Estos costes no se duplican en el cálculo de costes reales. Por ejemplo, si un costo fijo es parte del costo de gasto real del proyecto, no se agrega por separado al costo real.
 

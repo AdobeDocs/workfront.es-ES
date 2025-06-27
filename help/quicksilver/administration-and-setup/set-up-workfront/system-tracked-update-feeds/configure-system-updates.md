@@ -8,10 +8,10 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 54fc3f77-57d1-47f1-8e16-73626a6733ec
-source-git-commit: f7cb314067d105d5534f4be356024aea8e8f9a28
+source-git-commit: 23a5c90b9321b72a20f21752f957b3be0a9f3a02
 workflow-type: tm+mt
-source-wordcount: '931'
-ht-degree: 50%
+source-wordcount: '981'
+ht-degree: 47%
 
 ---
 
@@ -19,13 +19,13 @@ ht-degree: 50%
 
 <!-- Audited: 6/2025 -->
 
-<!--<div class="preview">
+<div class="preview">
 
-The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release.     
+La información resaltada en esta página hace referencia a funcionalidades que aún no están disponibles de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Las mismas funciones también estarán disponibles en el entorno de producción para todos los clientes una semana después de la versión de vista previa.
 
-For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). 
+Para obtener más información, vea [Modernización de la interfaz](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).
 
-</div> -->
+</div>
 
 [!DNL Adobe Workfront] genera actualizaciones automáticas del sistema en el área [!UICONTROL Actualizaciones] de un objeto para registrar los eventos siguientes:
 
@@ -96,13 +96,13 @@ Puede añadir los campos en los que desee que [!DNL Workfront] realice un seguim
 {{step-1-to-setup}}
 
 1. En el panel de la izquierda, haz clic en **[!UICONTROL Interfaz]** y luego en **[!UICONTROL Actualizar fuentes]**.
-1. (Opcional) En la ficha **Campos rastreados**, haga clic en una de las siguientes subpestañas, en función de los tipos de campos que desee rastrear en la fuente de actualización:
+1. (Opcional) En la ficha <span class="preview">**Campos rastreados**</span>, haga clic en una de las siguientes subfichas, en función de los tipos de campos que desee rastrear en la fuente de actualización:
 
-   * **Campos integrados**: Muestra una lista de campos integrados.
-   * **Campos personalizados**: Muestra una lista de campos personalizados. Debe crear los campos personalizados antes de que estén disponibles en la lista.
-   * **Todos los campos**: muestra una lista de campos integrados y personalizados.
+   * <span class="preview">**Campos integrados**</span>: Muestra una lista de campos integrados.
+   * <span class="preview">**Campos personalizados**</span>: Muestra una lista de campos personalizados. Debe crear los campos personalizados antes de que estén disponibles en la lista.
+   * <span class="preview">**Todos los campos**</span>: muestra una lista de campos integrados y personalizados.
 
-1. Haga clic en **[!UICONTROL Agregar campos]** y, a continuación, seleccione el objeto sobre el que desea realizar el seguimiento en la lista desplegable.
+1. Haga clic en <span class="preview">**[!UICONTROL Agregar campos ]**,</span> y, a continuación, seleccione el objeto sobre el que desea realizar el seguimiento en la lista desplegable.
 
    La selección manual de campos no está disponible para todos los objetos que tienen un área de Actualizaciones.
 
@@ -115,51 +115,16 @@ Puede añadir los campos en los que desee que [!DNL Workfront] realice un seguim
    * Programa
    * Usuario
 
-   Se abre el cuadro **Agregar campos** para cada objeto seleccionado.
-1. En el cuadro **Agregar campos**, empiece a escribir un campo integrado (estándar) o un campo personalizado para el objeto y, a continuación, selecciónelo cuando aparezca en la lista.
+   Se abre el cuadro <span class="preview">**Agregar campos** </span> para cada objeto seleccionado.
+1. En el cuadro <span class="preview">**Agregar campos** </span>, empiece a escribir un campo integrado (estándar) o un campo personalizado para el objeto y, a continuación, selecciónelo cuando aparezca en la lista.
 
    >[!NOTE]
    >
    >Si [!DNL Workfront] ya está realizando el seguimiento del campo, no podrá agregarlo por segunda vez desde la lista.
 
-1. Después de agregar todos los campos que desea que [!DNL Workfront] rastree, haga clic en **[!UICONTROL Agregar campos]**.
-Los campos integrados que agregó se muestran bajo la subpestaña **[!UICONTROL Campos integrados]**, y los campos personalizados se muestran bajo la subpestaña **[!UICONTROL Campos personalizados]**.
-La subpestaña **[!UICONTROL Todos los campos]** muestra los campos integrados y personalizados que [!DNL Workfront] rastrea.
-
-<!-- replace the above when releasing to Preview: 
-
-1. In the panel on the left, click **[!UICONTROL Interface]**, then **[!UICONTROL Update Feeds]**.
-1. (Optional) In the <span class="preview">**Tracked fields** tab</span>, click one of the following subtabs, depending on which types of fields you want to track in the update feed:
-
-   * <span class="preview">**Built-in fields**</span>: Displays a list of built-in fields.
-   * <span class="preview">**Custom fields**</span>: Displays a list of custom fields. You must create the custom fields before they are available in the list. 
-   * <span class="preview">**All fields**</span>: Displays a list of both built-in and custom fields. 
-
-1. Click <span class="preview">**[!UICONTROL Add fields]**,</span> then select the object that you want to be tracked from the drop-down. 
-
-   Manually selecting fields is not available for all the objects that have an Updates area.
-
-   Select from fields for the following objects:
-
-      * Project
-      * Task
-      * Issue
-      * Portfolio
-      * Program
-      * User
-
-   The <span class="preview">**Add fields** </span> box opens, for each object selected.
-1. In the <span class="preview">**Add fields** </span> box, start typing either a built-in (standard) field or a custom field for the object, then select it when it appears in the list.
-
-   >[!NOTE]
-   >
-   >If [!DNL Workfront] is already tracking the field, you can't add it a second time from the list.
-
-1. After adding all the fields you want [!DNL Workfront] to track, <span class="preview"> click **[!UICONTROL Add]**.
-   The built-in fields that you added show under the **[!UICONTROL Built-in fields]** subtab, and the custom fields show under the **[!UICONTROL Custom fields]** subtab.
-   The **[!UICONTROL All fields]** subtab shows both the built-in and the custom fields that [!DNL Workfront] tracks.</span>
-
--->
+1. Después de agregar todos los campos que desea que [!DNL Workfront] rastree, <span class="preview"> haga clic en **[!UICONTROL Agregar]**.
+Los campos integrados que agregó se muestran bajo la subpestaña **[!UICONTROL Campos integrados]** y los campos personalizados se muestran bajo la subpestaña **[!UICONTROL Campos personalizados]**.
+La subpestaña **[!UICONTROL Todos los campos]** muestra los campos integrados y personalizados que [!DNL Workfront] rastrea.</span>
 
 ### Elimine los campos de los que no desea realizar un seguimiento {#remove-fields-you-don-t-want-tracked}
 
