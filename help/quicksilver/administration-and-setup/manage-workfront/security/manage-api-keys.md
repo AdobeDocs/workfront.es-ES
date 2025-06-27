@@ -107,6 +107,7 @@ Puede generar y administrar claves de API para usuarios con funciones distintas 
    1. Expanda **Sistema** y haga clic en **Inicio de sesión único (SSO)**.
    1. En el campo **Tipo**, seleccione el tipo de SSO que utiliza su organización.
    1. Con el tipo seleccionado, desplácese hacia abajo y desactive la casilla de verificación **Habilitar**.
+
       ![Habilitar SSO](assets/sysadmin-security-sso-disable-31620-350x320.png)
    1. Haga clic en **Guardar**.
 
