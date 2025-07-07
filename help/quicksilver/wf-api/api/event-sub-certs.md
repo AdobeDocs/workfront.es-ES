@@ -7,14 +7,14 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 3606b6c3-b373-47ea-9cb5-813bd3af8da7
-source-git-commit: c747d3697fd2a4e74dd4af5a8a418d0f52cf71ed
+source-git-commit: f409bc84360d92f1b952b594720d5e4aea1fc354
 workflow-type: tm+mt
-source-wordcount: '284'
-ht-degree: 2%
+source-wordcount: '305'
+ht-degree: 93%
 
 ---
 
-# Configurar TLS de cliente para suscripción a evento
+# Configuración de TLS de cliente para suscripción a eventos
 
 <!--Configuring Client TLS for Event Subscription
 Steps to Verify Workfront's Client Certificate
@@ -29,10 +29,15 @@ Sandbox 1
 Sandbox 2
 -->
 
-TLS de cliente le permite comprobar que el mensaje de suscripción de evento que recibe realmente proviene de Adobe Workfront. Para habilitar esta funcionalidad, el servidor debe estar configurado para solicitar y validar el certificado x509 de Workfront.
+La TLS de cliente permite comprobar que el mensaje de suscripción a un evento que recibe proviene, en efecto, de Adobe Workfront. Para habilitar esta funcionalidad, el servidor debe estar configurado para solicitar y validar el certificado x509 de Workfront.
+
+>[!NOTE]
+>
+>* Workfront admite actualmente TLS versión 1.2 de forma predeterminada.
+>* Las organizaciones pueden solicitar que se habilite TLS versión 1.3 para su instancia de Workfront.
 
 
-## Verificar el certificado de cliente de Workfront
+## Verificación del certificado de cliente de Workfront
 
 Este procedimiento supone que el servidor está configurado para aceptar conexiones TLS. Workfront no admite certificados autofirmados.
 
@@ -43,8 +48,8 @@ En general, estos son los pasos necesarios para activar la autenticación de cli
 
    Especifique el certificado de CA del paso 1 como de confianza.
 
-1. Establezca la profundidad de verificación en 2, ya que nuestro certificado está firmado por la CA del servidor seguro SHA2 de DigiCert, que es una CA intermedia bajo la CA raíz global de DigiCert.
-1. Compruebe que el certificado de cliente proviene realmente de Workfront inspeccionando su nombre de dominio del sujeto.
+1. Establezca la profundidad de verificación en 2, ya que nuestro certificado está firmado por la CA de servidor seguro SHA2 de DigiCert, que es una CA intermedia bajo la CA raíz global de DigiCert.
+1. Compruebe que el certificado de cliente proviene, en efecto, de Workfront inspeccionando su nombre de dominio del asunto.
 
 ## Ejemplos de configuración del servidor
 
@@ -94,21 +99,21 @@ Para obtener más información, consulte
 
 ## Asignación de certificado a entorno
 
-| Entorno WF | Nombre común de certificado | Asunto del certificado (DN) |
+| Entorno WF | Nombre común del certificado | Asunto del certificado (DN) |
 | -- | -- | -- |
 | Producción | *.prod.eventsubscriptions.workfront.com | subject= /C=US/ST=Utah/L=Lehi/O=Workfront, Inc./CN=*.prod.eventsubscriptions.workfront.com |
 | Vista previa | *.preview.eventsubscriptions.workfront.com | subject= /C=US/ST=Utah/L=Lehi/O=Workfront, Inc./CN=*.preview.eventsubscriptions.workfront.com |
 | Zona protegida 1 | *.sandbox.eventsubscriptions.workfront.com | subject= /C=US/ST=Utah/L=Lehi/O=Workfront, Inc./CN=*.sandbox.eventsubscriptions.workfront.com |
 | Zona protegida 2 | *.sandbox.eventsubscriptions.workfront.com | subject= /C=US/ST=Utah/L=Lehi/O=Workfront, Inc./CN=*.sandbox.eventsubscriptions.workfront.com |
 
-## Descargar certificados
+## Descarga de certificados
 
 Haga clic en los siguientes vínculos para descargar los certificados de cliente.
 
 * [Certificado de cliente: entorno de producción](assets/prod-environment-nov-2024.crt)
 * [Certificado de cliente: entorno de vista previa](assets/preview-environment-nov-2024.crt)
-* [Certificado de cliente: entorno de espacio aislado](assets/sandbox-environment-nov-2024.crt)
+* [Certificado de cliente: entorno de zona protegida](assets/sandbox-environment-nov-2024.crt)
 
 >[!NOTE]
 >
->Puede utilizar el mismo certificado de cliente para ambos entornos de espacio aislado.
+>Puede utilizar el mismo certificado de cliente para ambos entornos de zona protegida.
