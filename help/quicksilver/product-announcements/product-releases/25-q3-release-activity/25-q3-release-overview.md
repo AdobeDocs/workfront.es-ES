@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9342f393-a404-44b4-aad6-2c4cf634dfd5
-source-git-commit: 9808596e561ef30cc0edf5006f5ac2f190ed64f5
+source-git-commit: 69677755d3e2f018169461683caf5750fba4fde0
 workflow-type: tm+mt
-source-wordcount: '1670'
+source-wordcount: '1675'
 ht-degree: 20%
 
 ---
@@ -130,7 +130,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
     </tr>
        <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity//25-q3-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Se cambió el nombre del widget de todas las aprobaciones a Métricas de aprobación de documento</a><p></p>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity//25-q3-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Se cambió el nombre del widget de todas las aprobaciones a Métricas de aprobación de documento</a><p>[!BADGE Off schedule]{type=Neutral}</p>
             <p>Hemos cambiado el nombre del widget Todas las aprobaciones a Métricas de aprobación de documento para reflejar con mayor precisión la información que muestra. El widget Métricas de aprobación de documento proporciona información de alto nivel sobre las aprobaciones de documentos para los proyectos que posee.</p>
         </td>
         <td>martes, 30 de junio de 2025</td>
@@ -316,7 +316,7 @@ Estamos actualizando la interfaz a través de Adobe Workfront para mejorar la ex
 
 ### Mejoras de Workfront Fusion
 
-Las nuevas funciones de Workfront Fusion están disponibles en el entorno de producción en una cadencia fuera de la programación de versiones estándar. Para obtener más información sobre las últimas funciones, consulte [Actividad de la versión de Adobe Workfront Fusion](https://experienceleague.adobe.com/es/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
+Las nuevas funciones de Workfront Fusion están disponibles en el entorno de producción en una cadencia fuera de la programación de versiones estándar. Para obtener más información sobre las últimas funciones, consulte [Actividad de la versión de Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
 
 ### Mejoras de Workfront Planning
 
