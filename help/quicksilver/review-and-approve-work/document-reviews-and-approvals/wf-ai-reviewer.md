@@ -55,8 +55,8 @@ El revisor de IA de Workfront utiliza las directrices de marca configuradas en G
 
 Para obtener más información sobre las directrices de marca, consulte
 
-* [Marcas de GenStudio for Performance Marketing](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/guidelines/brands)
-* [Agregar directrices](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/guidelines/add-guidelines)
+* [Marcas de GenStudio for Performance Marketing](https://experienceleague.adobe.com/es/docs/genstudio-for-performance-marketing/user-guide/guidelines/brands)
+* [Agregar directrices](https://experienceleague.adobe.com/es/docs/genstudio-for-performance-marketing/user-guide/guidelines/add-guidelines)
 
 
 ## Crear revisores de IA
