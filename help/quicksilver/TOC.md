@@ -3,9 +3,9 @@ user-guide-title: Guía de Workfront
 user-guide-description: Utilice los siguientes documentos, tutoriales y recursos adicionales para aprender a implementar y utilizar Adobe Workfront de forma eficaz en su organización.
 role: User
 feature-set: Workfront
-source-git-commit: 8d37762a2f6b01ff25845639c6436b2a39aa5449
+source-git-commit: cd5dcbd0f39754fb9ab1605c1eb65af37aa21996
 workflow-type: tm+mt
-source-wordcount: '13224'
+source-wordcount: '13227'
 ht-degree: 60%
 
 ---
@@ -1165,7 +1165,7 @@ ht-degree: 60%
          * [Información general sobre los tipos de actualización de un proyecto](manage-work/projects/planning-a-project/project-update-type-overview.md)
          * [Comprensión y actualización de las prioridades del proyecto](manage-work/projects/planning-a-project/project-priority.md)
          * [Establecer la fecha planificada de finalización del proyecto](manage-work/projects/planning-a-project/project-planned-completion-date.md)
-         * [Información general sobre la fecha planificada de inicio del proyecto](manage-work/projects/planning-a-project/project-planned-start-date.md)
+         * [Información general sobre la fecha de inicio planificada del proyecto](manage-work/projects/planning-a-project/project-planned-start-date.md)
          * [Información general sobre la fecha proyectada de finalización de proyectos, tareas y problemas](manage-work/projects/planning-a-project/project-projected-completion-date.md)
          * [Información general sobre el estado de progreso del proyecto](manage-work/projects/planning-a-project/project-progress-status.md)
          * [Información general sobre la fecha de inicio proyectada del proyecto](manage-work/projects/planning-a-project/project-projected-start-date.md)
@@ -1288,7 +1288,7 @@ ht-degree: 60%
          * [Información general sobre las horas planificadas](manage-work/tasks/task-information/planned-hours.md)
          * [Información general de esfuerzo laboral](manage-work/tasks/task-information/work-effort.md)
          * [Resumen del estado de progreso de tareas](manage-work/tasks/task-information/task-progress-status.md)
-         * [Información general sobre la fecha planificada de inicio de la tarea](manage-work/tasks/task-information/task-planned-start-date.md)
+         * [Información general sobre la fecha de inicio planificada de la tarea](manage-work/tasks/task-information/task-planned-start-date.md)
          * [Información general sobre la fecha planificada de finalización de la tarea](manage-work/tasks/task-information/task-planned-completion-date.md)
          * [Información general sobre la fecha de transferencia de tareas](manage-work/tasks/task-information/handoff-task-date.md)
          * [Información general sobre la fecha de margen de demora de la tarea](manage-work/tasks/task-information/task-slack-date.md)
@@ -2457,7 +2457,7 @@ ht-degree: 60%
       * [Actualizar integraciones que utilizan versiones de API predeterminadas](wf-api/api/update-default-api-versioning.md)
       * [Filtrado de mensajes de suscripción de eventos](wf-api/api/filter-event-sub-messages.md)
       * [Campos de recursos de suscripción a eventos](wf-api/api/event-sub-resource-fields.md)
-      * [Certificados de suscripción de eventos](wf-api/api/event-sub-certs.md)
+      * [Configuración de TLS de cliente para suscripción a eventos](wf-api/api/event-sub-certs.md)
       * [Especificar una versión de API en las integraciones](wf-api/api/specify-api-version-integrations.md)
       * [Cambios en la API principal: respuestas de búsqueda de estado](wf-api/api/api-changes-search.md)
       * [Versiones de API y programación de asistencia](wf-api/api/api-version-support-schedule.md)
