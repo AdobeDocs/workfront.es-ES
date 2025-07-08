@@ -12,7 +12,7 @@ exl-id: 0f4fd3a7-9578-4fda-b10f-9b4be147f1de
 source-git-commit: da980cee8710570f52c724053d1e0f359c6a9fe1
 workflow-type: tm+mt
 source-wordcount: '594'
-ht-degree: 3%
+ht-degree: 5%
 
 ---
 
@@ -40,7 +40,7 @@ Para obtener más información sobre la firma del acuerdo, consulte [Firmar el a
 >[!CONTEXTUALHELP]
 >id="wf_document_approvals_ai_supported_files"
 >title="Tipo de archivo no compatible"
->abstract="Este Revisor de IA no admite el tipo de archivo seleccionado.Cargue un tipo de archivo compatible o elimine el comprobador por IA para enviar la solicitud."
+>abstract="Este comprobador por IA no admite el tipo de archivo seleccionado.Cargue un tipo de archivo compatible o elimine el comprobador por IA para enviar la solicitud."
 
 El revisor de IA puede revisar los siguientes tipos de archivos:
 
@@ -55,8 +55,8 @@ El revisor de IA de Workfront utiliza las directrices de marca configuradas en G
 
 Para obtener más información sobre las directrices de marca, consulte
 
-* [Marcas de GenStudio for Performance Marketing](https://experienceleague.adobe.com/es/docs/genstudio-for-performance-marketing/user-guide/guidelines/brands)
-* [Agregar directrices](https://experienceleague.adobe.com/es/docs/genstudio-for-performance-marketing/user-guide/guidelines/add-guidelines)
+* [Marcas de GenStudio for Performance Marketing](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/guidelines/brands)
+* [Agregar directrices](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/guidelines/add-guidelines)
 
 
 ## Crear revisores de IA
