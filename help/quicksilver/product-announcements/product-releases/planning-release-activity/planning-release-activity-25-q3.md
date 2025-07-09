@@ -7,10 +7,10 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 6761f5af-2501-4487-8114-2751f1e4fe69
-source-git-commit: 6f79c2973324d7de34736810dafcbd08714b4738
+source-git-commit: eaba54ebfef15c5f823c7086b809165b5cfb181b
 workflow-type: tm+mt
-source-wordcount: '1982'
-ht-degree: 4%
+source-wordcount: '1908'
+ht-degree: 3%
 
 ---
 
@@ -36,21 +36,21 @@ Prior to this enhancement, you had to manually update the fields associated with
 
 For information, see [Create records](/help/quicksilver/planning/records/create-records.md).-->
 
-## Botón de uso compartido común para vistas y tipos de registros
+<!--## Common sharing button for views and record types
 
 >[!NOTE]
 >
->* Vista previa: 9 de julio de 2025
->* Producción para todos: 17 de julio de 2025
+>* Preview: July 9, 2025 
+>* Production for everyone: July 17, 2025 
 
-Ahora puede compartir una vista y un tipo de registro desde el mismo botón de la página del tipo de registro. Antes de esta mejora, solo se podía compartir el tipo de registro desde el botón Compartir de la página de tipo de registro y una vista desde la pestaña de la vista.
+You can now share a view as well as a record type from the same button on the record type's page. Prior to this enhancement, you could only share the record type from the Share button on the record type page and a view from the view's tab.  
 
-Para obtener más información, consulte los siguientes artículos:
+For more information, see the following articles: 
 
-* [Compartir vistas](/help/quicksilver/planning/access/share-views.md)
+* [Share views](/help/quicksilver/planning/access/share-views.md)  
 
-* [Compartir tipos de registros](/help/quicksilver/planning/access/share-record-types.md)
-
+* [Share record types](/help/quicksilver/planning/access/share-record-types.md)
+-->
 
 <!--## Add teams as approvers on Planning request forms
 
@@ -78,7 +78,7 @@ Para que la experiencia al compartir un formulario de solicitud en Workfront Pla
 * Se han eliminado las opciones de administración y contribución para los usuarios con los que comparte el formulario de solicitud. Ahora, los usuarios añadidos solo pueden enviar el formulario.
 * La pestaña de uso compartido público ahora muestra el campo de vínculo y fecha de caducidad solo después de habilitar la opción Crear vínculo público.
 
-Para obtener más información, consulte [Crear y administrar un formulario de solicitud en Adobe Workfront Planning](https://experienceleague.adobe.com/es/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-requests/create-request-form).
+Para obtener más información, consulte [Crear y administrar un formulario de solicitud en Adobe Workfront Planning](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-requests/create-request-form).
 
 ## Expandir y contraer todas las agrupaciones de la vista de tabla
 
@@ -296,7 +296,7 @@ Antes de esta mejora, los usuarios con todos los niveles de licencia debían asi
 >[!NOTE]
 >
 >Este cambio será visible para todos los usuarios nuevos y existentes con una licencia de administrador del sistema y estándar.
->&#x200B;>Los usuarios existentes asignados a una plantilla de diseño seguirán viendo todo según la configuración definida en la plantilla.
+>>Los usuarios existentes asignados a una plantilla de diseño seguirán viendo todo según la configuración definida en la plantilla.
 
 Para obtener más información, consulte [Descripción general de Adobe Workfront Planning](/help/quicksilver/planning/access/access-overview.md).
 
