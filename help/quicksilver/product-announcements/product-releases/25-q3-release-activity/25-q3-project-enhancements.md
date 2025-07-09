@@ -7,9 +7,9 @@ recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
 exl-id: 33fa5a61-5300-402c-9f80-f2701f7999a8
-source-git-commit: f02a07c0bc4568d7e0fa25ca6e880024423527b7
+source-git-commit: d950346c549d22c7a8db82ce032caa24202f9126
 workflow-type: tm+mt
-source-wordcount: '741'
+source-wordcount: '881'
 ht-degree: 7%
 
 ---
@@ -19,6 +19,23 @@ ht-degree: 7%
 Esta página describe las mejoras del proyecto realizadas con la versión del tercer trimestre de 2025 en el entorno de vista previa. Estas mejoras estarán disponibles en el entorno de producción, como se ha indicado.
 
 Para obtener una lista de todos los cambios disponibles en este punto del ciclo de la versión del tercer trimestre de 2025, consulte [Información general de la versión del tercer trimestre de 2025](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-release-overview.md).
+
+## Actualizaciones en la experiencia al realizar una solicitud
+
+>[!NOTE]
+>
+>* Vista previa: 9 de julio de 2025
+>* Versión rápida de producción: 17 de julio de 2025
+>* Producción para todos los clientes: viernes, 17 de julio de 2025
+
+Hemos actualizado la experiencia al realizar una solicitud en la nueva experiencia solicitante.
+
+* Los formularios de solicitud y las rutas disponibles aparecen en una lista, en lugar de en las tarjetas. Las más recientes aparecen en una sección cerca de la parte superior.
+* Todos los formularios de solicitud, incluidos los de Workfront y Workfront Planning, aparecen en la lista. Anteriormente, solo aparecían los primeros 50.
+* Las rutas de solicitud y los formularios de solicitud se enumeran en secciones independientes, tanto en el área Reciente como en la lista más grande que aparece a continuación.
+* Cuando busca una cola de solicitudes, la lista filtra para mostrar solo los formularios y las rutas que incluyen el término de búsqueda. El término de búsqueda se resalta en cada formulario o ruta de solicitud mostrada.
+
+Para obtener información sobre cómo realizar una solicitud, consulte [Crear y enviar solicitudes](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md).
 
 ## Se ha reemplazado el campo Horas reales existentes por Horas reales heredadas y se ha creado el nuevo campo Horas reales
 
@@ -37,12 +54,12 @@ El campo Horas reales visible en la sección de detalles del proyecto, tareas y 
 >[!IMPORTANT]
 >
 >Dependiendo de cuándo se registraron las horas, podría haber una discrepancia entre las horas reales y las horas reales heredadas de un proyecto, tarea o problema.<br>
->&#x200B;>Se dan los siguientes escenarios:
+>>Se dan los siguientes escenarios:
 >
 >* Las horas reales representan las horas registradas en los proyectos, las tareas y los problemas desde mayo de 2021.
 >* Las horas reales heredadas representan las horas registradas en los proyectos, tareas y problemas durante la duración del proyecto, la tarea o el problema. Esto incluye las horas registradas antes de mayo de 2021 hasta la hora actual.
->  &#x200B;><br>Es posible que tenga que actualizar los informes para reflejar el nuevo campo y sus valores.
->  &#x200B;><br>Workfront utiliza las horas reales heredadas para calcular los costes laborales reales.
+>  ><br>Es posible que tenga que actualizar los informes para reflejar el nuevo campo y sus valores.
+>  ><br>Workfront utiliza las horas reales heredadas para calcular los costes laborales reales.
 
 Para obtener más información, vea [Ver horas reales](/help/quicksilver/manage-work/tasks/task-information/actual-hours.md).
 
@@ -96,3 +113,5 @@ Para aclarar cómo AI Assistant encuentra respuestas a preguntas sobre proyectos
 Anteriormente, esta información no estaba disponible en la respuesta del asistente de IA.
 
 Para obtener información sobre cómo usar el Asistente de IA para obtener información sobre los elementos de Workfront, vea [Usar el Asistente de IA para trabajar con proyectos, tareas y problemas](/help/quicksilver/workfront-basics/ai-assistant/work-with-pti-through-ai-assisant.md).
+
+

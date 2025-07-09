@@ -5,10 +5,10 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9342f393-a404-44b4-aad6-2c4cf634dfd5
-source-git-commit: 69677755d3e2f018169461683caf5750fba4fde0
+source-git-commit: 7ef39340d19f2eadf3c2c8f66c9981c28308795a
 workflow-type: tm+mt
-source-wordcount: '1675'
-ht-degree: 20%
+source-wordcount: '1791'
+ht-degree: 19%
 
 ---
 
@@ -171,6 +171,22 @@ The <add release> release webinar will be held on <date>. You can [register for 
     </tr>
     <tr>
         <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Actualizaciones en la experiencia al realizar una solicitud</a>
+            <p>La nueva experiencia de solicitud incluye las siguientes mejoras:
+              <ul>
+                <li>Los formularios de solicitud y las rutas disponibles aparecen en una lista, en lugar de en las tarjetas. Las más recientes aparecen en una sección cerca de la parte superior.</li>
+                <li>Todos los formularios de solicitud, incluidos los de Workfront y Workfront Planning, aparecen en la lista. Anteriormente, solo aparecían los primeros 50.</li>
+                <li>Las rutas de solicitud y los formularios de solicitud se enumeran en secciones independientes, tanto en el área Reciente como en la lista más grande que aparece a continuación.</li>
+                <li>Cuando busca una cola de solicitudes, la lista filtra para mostrar solo los formularios y las rutas que incluyen el término de búsqueda. El término de búsqueda se resalta en cada formulario o ruta de solicitud mostrada.</li>
+              </ul>
+            </p>
+        </td>
+        <td>jueves, 09 de julio de 2025</td>
+        <td>Por determinar</td>
+        <td>Por determinar</td>
+    </tr> 
+    <tr>
+        <td>
             <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Se reemplazó el campo Horas reales existentes por Horas reales heredadas y se creó el nuevo campo Horas reales</a><p>[!BADGE Off schedule]{type=Neutral}</p>
             <p>El campo existente de Horas reales ha cambiado a Horas reales heredadas. Este campo almacena el tiempo registrado de los proyectos, tareas y problemas en minutos. El campo se almacena en la base de datos de Workfront como <code>actualWorkRequired</code>. </p>
             <p>Se ha agregado un nuevo campo Horas reales que almacena el tiempo registrado de los proyectos, las tareas y los problemas en horas, con precisión decimal. El campo se almacena en la base de datos de Workfront como <code>actualWorkRequiredDouble</code>.</p>
@@ -316,7 +332,7 @@ Estamos actualizando la interfaz a través de Adobe Workfront para mejorar la ex
 
 ### Mejoras de Workfront Fusion
 
-Las nuevas funciones de Workfront Fusion están disponibles en el entorno de producción en una cadencia fuera de la programación de versiones estándar. Para obtener más información sobre las últimas funciones, consulte [Actividad de la versión de Adobe Workfront Fusion](https://experienceleague.adobe.com/es/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
+Las nuevas funciones de Workfront Fusion están disponibles en el entorno de producción en una cadencia fuera de la programación de versiones estándar. Para obtener más información sobre las últimas funciones, consulte [Actividad de la versión de Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
 
 ### Mejoras de Workfront Planning
 
