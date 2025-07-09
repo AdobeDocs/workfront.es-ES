@@ -6,10 +6,10 @@ description: En Adobe Workfront, el trabajo planificado se representa mediante p
 author: Alina
 feature: Work Management
 exl-id: 8b023a3d-326d-4d63-9e1e-8171553a9e23
-source-git-commit: 6311526ddf9143c4a979d8bbac96312a3b0e8151
+source-git-commit: 8e9d9c9489d43917386e581ac9834fbb65b33d25
 workflow-type: tm+mt
-source-wordcount: '2680'
-ht-degree: 82%
+source-wordcount: '2863'
+ht-degree: 77%
 
 ---
 
@@ -25,9 +25,9 @@ ht-degree: 82%
 </div>
 -->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después de las versiones mensuales en Production, las mismas funciones también están disponibles en el entorno Production para los clientes que habilitaron versiones rápidas. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 En Adobe Workfront, el trabajo planificado se representa mediante proyectos y tareas. Sin embargo, es posible que se trabaje en un entorno en el que el trabajo no planificado, en forma de solicitudes, pueda llegar en cualquier momento. Workfront proporciona un flujo de trabajo para dar cabida a este tipo de entorno mediante el uso de colas de solicitudes.
 
@@ -142,7 +142,7 @@ Para crear una solicitud en la aplicación web de Workfront:
 
    Se abre el cuadro **Nueva solicitud**.
 
-1. (Condicional) Si cambió a la nueva experiencia que incluye Workfront Planning, el cuadro **Nueva solicitud** mostrará lo siguiente:</span>
+1. (Condicional) Si ha cambiado a la nueva experiencia que incluye Workfront Planning y se encuentra en el entorno de producción, el cuadro **Nueva solicitud** muestra lo siguiente:</span>
 
    * Las 6 colas de solicitud de Workfront a las que se ha accedido más recientemente y los formularios de solicitud de Planning se muestran en la sección Reciente.
    * 50 colas de solicitudes de Workfront adicionales y formularios de solicitudes de Planning se muestran en orden alfabético en la sección **Todos los formularios de solicitudes**. Puede buscar una cola de solicitudes que no se muestre de forma predeterminada.
@@ -150,6 +150,13 @@ Para crear una solicitud en la aplicación web de Workfront:
    ![Nuevo cuadro de solicitud con flujo de trabajo unificado para las solicitudes de planificación](assets/new-request-box-with-unified-workflow-for-planning-requests.png)
 
    Haga clic en una de las tarjetas de cola de solicitudes de Workfront o busque una y, a continuación, haga clic en ella cuando se muestre en la lista.
+1. <span class="preview">(Condicional) Si ha cambiado a la nueva experiencia que incluye Workfront Planning y se encuentra en el entorno de vista previa, el cuadro **Nueva solicitud** mostrará lo siguiente:</span>
+
+   <ul><span class="preview"><li>Las 6 colas de solicitud de Workfront a las que se ha accedido más recientemente y los formularios de solicitud de Planning se muestran en la sección Reciente. </li></span>
+    <span class="preview"><li>Todos los formularios de solicitud adicionales de Workfront y Planning <b>Todos los formularios de solicitud</b>. Puede buscar formularios de solicitud que no se muestren de forma predeterminada. </li></span>
+    <span class="preview"><li>Todas las rutas de cola de solicitudes adicionales de Workfront y Planning se muestran en la sección <b>Todas las rutas de solicitud</b>. Puede buscar una cola de solicitudes que no se muestre de forma predeterminada.</li></span></ul>
+    <span class="preview">Haga clic en una de las rutas o formularios de la cola de solicitudes de Workfront o busque una y, a continuación, haga clic en ella cuando aparezca en la lista. </span>
+
 1. (Condicional) Si ha cambiado a la nueva experiencia que incluye Workfront Planning, seleccione los grupos de temas y los temas de la cola y continúe actualizando el formulario.
 
    De lo contrario, haga clic dentro del campo **Tipo de solicitud** y realice una de las siguientes acciones:
@@ -221,7 +228,7 @@ Para crear una solicitud en la aplicación web de Workfront:
    >Al pasar el puntero por encima de un grupo de temas o un tema de la cola, el campo Descripción aparece a la derecha. Contiene información adicional sobre el grupo de temas o el tema de la cola.
    >
    >
-   >![](assets/show-description-on-queue-topic-when-submitting-request-nwe-350x81.png)   >
+   >![](assets/show-description-on-queue-topic-when-submitting-request-nwe-350x81.png)
    >
 
    Puede tener hasta 10 niveles de grupos de temas integrados en la cola de solicitudes.\
@@ -297,7 +304,7 @@ Para crear una solicitud en la aplicación web de Workfront:
       <td> <p>Calcule cuántas horas tardaría esta solicitud en completarse.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Fecha planificada de inicio</strong> </td> 
+      <td role="rowheader"><strong>Fecha de inicio planificada</strong> </td> 
       <td> <p>Especifique la fecha en la que debe comenzar el trabajo en esta solicitud.</p> </td> 
      </tr> 
      <tr> 
@@ -323,7 +330,7 @@ Para crear una solicitud en la aplicación web de Workfront:
 
 1. Realice una de las siguientes acciones:
 
-   * Haga clic en **Enviar** si está listo para enviar la solicitud. La solicitud se guarda en la sección Enviado En función de la regla de enrutamiento de la cola de solicitudes, esta solicitud puede redirigirse a un proyecto diferente al designado como cola de solicitudes. Para obtener información acerca de las reglas de enrutamiento, consulte [Crear reglas de enrutamiento](../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md).
+   * Haga clic en **Enviar** si está listo para enviar la solicitud. La solicitud se guarda en la sección Enviada. En función de la regla de enrutamiento de la cola de solicitudes, esta solicitud puede redirigirse a un proyecto diferente al designado como cola de solicitudes. Para obtener información acerca de las reglas de enrutamiento, consulte [Crear reglas de enrutamiento](../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md).
 
      O
 

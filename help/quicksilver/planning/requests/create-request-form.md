@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
+source-git-commit: 8e9d9c9489d43917386e581ac9834fbb65b33d25
 workflow-type: tm+mt
-source-wordcount: '2087'
+source-wordcount: '2166'
 ht-degree: 8%
 
 ---
@@ -241,7 +241,7 @@ Para obtener información sobre cómo enviar solicitudes de Workfront Planning, 
 
    ![Compartir la casilla del formulario de solicitud](assets/share-box-for-request-form.png)
 
-1. Seleccione entre las siguientes opciones para indicar qué tipos de usuarios pueden acceder a este formulario:
+1. (Condicional) En el entorno de producción, seleccione las siguientes opciones para indicar qué tipos de usuarios pueden acceder a este formulario:
 
    * Cualquiera con acceso de visualización o más alto al espacio de trabajo
    * Cualquiera con acceso de aportación o más alto al espacio de trabajo
@@ -257,7 +257,7 @@ Para obtener información sobre cómo enviar solicitudes de Workfront Planning, 
    >     * Personas
    >
 
-1. (Condicional) Si seleccionó **Cualquier persona con el vínculo** en el paso anterior, seleccione **Fecha de caducidad del vínculo** del calendario disponible.
+1. (Condicional) En el entorno de producción, si seleccionó **Cualquiera con el vínculo** en el paso anterior, seleccione **Fecha de caducidad del vínculo** del calendario disponible.
 
    Las personas recibirán un error una vez que caduque el vínculo y debe actualizar la fecha del vínculo y generar un nuevo vínculo para compartirlo antes de que las personas puedan acceder al formulario de nuevo.
 
@@ -267,13 +267,14 @@ Para obtener información sobre cómo enviar solicitudes de Workfront Planning, 
    >
    >Una vez que caduca la fecha de uso compartido, el formulario de solicitud ya no está disponible en el área de Solicitudes de Workfront y ya no se puede acceder a los vínculos compartidos con otros usuarios.
 
-
-1. (Opcional) Haga clic en **Guardar y copiar vínculo** para guardar los detalles de uso compartido del formulario. Si el formulario se guardó anteriormente, haga clic en **Copiar vínculo**.
+1. (Opcional y condicional) En el entorno de producción, haga clic en **Guardar y copiar vínculo** para guardar los detalles de uso compartido del formulario. Si el formulario se guardó anteriormente, haga clic en **Copiar vínculo**.
 
    Las opciones de uso compartido de formularios se guardan y el vínculo se copia en el portapapeles. Ahora puede compartirlo con otros usuarios.
 
    Para obtener información sobre cómo crear registros mediante un vínculo a un formulario de solicitud, consulte [Enviar solicitudes de Adobe Workfront Planning](/help/quicksilver/planning/requests/submit-requests.md).
 
+1. <span class="preview">(Condicional) En el entorno de vista previa, para compartir con los usuarios, seleccione la ficha Uso compartido interno, busque el nombre del usuario y, a continuación, selecciónelo cuando aparezca en la lista.</span>
+1. <span class="preview"> (condicional) En el entorno de vista previa, para crear un vínculo público, seleccione la pestaña Uso compartido público y, a continuación, active la opción Crear vínculo público. A continuación, puede copiar el vínculo aquí o establecer una fecha de caducidad para el vínculo.</span>
 1. Haga clic en **Guardar** en la esquina inferior derecha de la pestaña **Formulario** para guardar el formulario.
 
 1. Haga clic en la flecha que señala a la izquierda del nombre del formulario en el encabezado para cerrar el formulario.
