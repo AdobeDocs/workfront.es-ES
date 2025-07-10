@@ -4,11 +4,11 @@ user-type: administrator
 product-area: system-administration;templates;setup
 navigation-topic: layout-templates
 description: Como administrador de Adobe Workfront o de un grupo, puede utilizar una plantilla de diseño para configurar las opciones que ven los usuarios cuando abren el menú principal en Workfront.
-author: Alina
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: d4f02102-0378-472f-9ebb-753502ec048b
-source-git-commit: bb0c3139be903e34fd01be055010673764fe9787
+source-git-commit: 00ec13dfb082ecd9b087d79b385a4eea677cf55d
 workflow-type: tm+mt
 source-wordcount: '682'
 ht-degree: 41%
@@ -118,13 +118,13 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
      >[!NOTE]
      >
-     >Planning requiere una licencia adicional. Para obtener información sobre Workfront Planning, consulte [Información general sobre Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md)
-     > * Aplicación personalizada
+     >Planning requiere una licencia adicional. Para obtener información sobre Workfront Planning, consulte [Información general sobre Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
+
+   * Aplicación personalizada
 
      >[!NOTE]
      >
      > Las aplicaciones personalizadas deben crearse por separado antes de que estén disponibles como opciones del menú principal. Para obtener más información, consulte [Crear una aplicación personalizada para Workfront con Adobe App Builder](/help/quicksilver/app-builder/app-builder.md).
-
 
 1. Realice una de las siguientes acciones:
 
@@ -140,10 +140,10 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
    O
 
-   Si ha finalizado la personalización, haga clic en **Guardar**.
+   Si ha terminado la personalización, haga clic en **Guardar**.
 
    >[!TIP]
    >
-   >Puede hacer clic en Guardar en cualquier momento para guardar el progreso y seguir modificando la plantilla más adelante.
+   >Puede hacer clic en **Guardar** en cualquier momento para guardar el progreso y luego seguir modificando la plantilla más adelante.
 
 Para obtener más información sobre las plantillas de diseño, consulte [Crear y administrar plantillas de diseño](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).

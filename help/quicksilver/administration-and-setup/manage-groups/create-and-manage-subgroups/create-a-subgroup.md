@@ -8,14 +8,14 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: b59b1491-9a78-49c0-89c9-ab1ce0099e0b
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: 008f96d52632f5f05554d63ae1c38cc37d21544b
 workflow-type: tm+mt
-source-wordcount: '873'
-ht-degree: 3%
+source-wordcount: '659'
+ht-degree: 62%
 
 ---
 
-# Creación de un subgrupo
+# Crear un subgrupo
 
 Puede crear un subgrupo en un grupo que administre para organizar usuarios y proyectos y para asignar derechos de acceso dentro de Adobe Workfront.
 
@@ -34,7 +34,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plan de Adobe Workfront</td> 
+   <td role="rowheader">Plan de Adobe Workfront</td> 
    <td>Cualquiera</td> 
   </tr> 
   <tr> 
@@ -52,11 +52,11 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  </tbody> 
 </table>
 
-Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Adición de un subgrupo
+## Añadir un subgrupo
 
 {{step-1-to-setup}}
 
@@ -64,56 +64,37 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
 
    En la lista que se muestra, puede ver los grupos que administra, junto con los subgrupos que tengan. Los administradores de Adobe Workfront pueden ver todos los grupos.
 
-1. Seleccione el grupo o subgrupo existente al que desee agregar un nuevo subgrupo.
+1. Seleccione el grupo o subgrupo existente al que desee añadir un nuevo subgrupo.
 1. Haga clic en **Nuevo subgrupo**.
 1. En el cuadro **Nuevo subgrupo** que aparece, escriba un **Nombre de grupo** para el subgrupo.
-1. (Opcional) Especifique cualquiera de la siguiente información:
+1. (Opcional) Introduzca la siguiente información:
 
-   <table style="table-layout:auto"> 
-    <col> 
-    <col> 
-    <tbody> 
-     <tr> 
-      <td role="rowheader">Nombre de grupo</td> 
-      <td>Cambie el nombre del grupo.</td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Descripción</td> 
-      <td>Escriba una descripción para el subgrupo. Puede escribir hasta 512 caracteres.</td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Activo</td> 
-      <td> <p>(Habilitado de forma predeterminada) Activa el grupo en la instancia de Workfront.</p> <p>En campos de escritura anticipada como el que se muestra a continuación, cuando los usuarios normales buscan un grupo para adjuntarlo a un objeto o compartirlo, solo se muestran en la lista los grupos activos.</p> <p> <img src="assets/group-type-aheads.jpg"> </p> <p>Para optimizar esto para los usuarios, puede deshabilitar la opción Está activo para los grupos que no están en uso actualmente.</p> <p>Puede ver, filtrar y agrupar fácilmente la lista Grupos en función del estado activo o inactivo mediante este campo. Para obtener información acerca del uso de vistas, filtros y agrupaciones en listas, vea <a href="../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md" class="MCXref xref" data-mc-variable-override="">Elementos de informes: filtros, vistas y agrupaciones</a>.</p>  </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Convertir este grupo y sus subgrupos en públicos</td> 
-      <td> <p>(Disponible únicamente si visualiza los detalles de un grupo de nivel superior, no de un subgrupo). Active esta opción para permitir que los usuarios del subgrupo con acceso de edición de usuario (que no sean administradores del grupo) agreguen este grupo y sus subgrupos al perfil de usuario de otros usuarios.</p> <p>En el caso de los grupos públicos, cualquier usuario (dentro o fuera del grupo) que tenga acceso de usuario de edición puede agregar el grupo al perfil de otros usuarios. No pueden hacerlo para un grupo privado.</p> <p>Solo puede editar esta opción en el grupo principal superior de una jerarquía de grupos que tenga más de un nivel. Todos los subgrupos del grupo principal heredan su configuración.</p> <p><b>NOTA</b>:  
-        <ul> 
-         <li>No puede hacer público un subgrupo por sí solo, pero puede hacer público su grupo principal de nivel superior, que también hace públicos todos los subgrupos del grupo principal.</li> 
-         <li>Un subgrupo que pertenece a un grupo público es público de forma predeterminada, por lo que cualquier usuario con acceso de edición de usuarios también puede agregar el subgrupo a otros usuarios.</li> 
-        </ul> </p> <p>Si necesita información sobre el acceso necesario para editar usuarios, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref" data-mc-variable-override="">Conceder acceso a usuarios</a>. Para obtener información sobre cómo editar usuarios, consulte <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref" data-mc-variable-override="">Editar el perfil de un usuario</a>.</p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Coordinador empresarial </td> 
-      <td> <p>Puede asignar un usuario como coordinador empresarial a un subgrupo que administre. Un coordinador empresarial es alguien que toma decisiones empresariales para el subgrupo. Para obtener más información, vea <a href="../../../administration-and-setup/manage-groups/group-roles/business-leader-overview.md" class="MCXref xref" data-mc-variable-override="">Descripción general del coordinador empresarial</a><span>.</span></p> <p>Si la persona aún no es miembro del subgrupo, al agregar su nombre a este campo también se agregará al grupo.</p> <p><b>NOTA</b>:  
-        <ul> 
-         <li>Antes de poder quitar el coordinador empresarial de un subgrupo, debe quitar su nombre del campo Coordinador empresarial.</li> 
-         <li>Si quita el nombre del campo coordinador empresarial, ese usuario seguirá siendo miembro del subgrupo a menos que lo quite de él. Para obtener instrucciones sobre cómo quitar a alguien de un grupo, consulte la sección <a href="../../../administration-and-setup/manage-groups/create-and-manage-groups/manage-a-group.md#manage" class="MCXref xref" data-mc-variable-override="">Administrar las pertenencias de un grupo</a> en el artículo <a href="../../../administration-and-setup/manage-groups/create-and-manage-groups/manage-a-group.md" class="MCXref xref" data-mc-variable-override="">Administrar un grupo</a>.</li> 
-        </ul> </p> <p>Para obtener más información, vea <a href="../../../administration-and-setup/manage-groups/group-roles/business-leader-overview.md" class="MCXref xref" data-mc-variable-override="">Resumen del coordinador empresarial</a>.</p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Miembros y administradores de grupo</td> 
-      <td> 
-       <ul> 
-        <li> <p>Miembros del grupo: para agregar usuarios y grupos al subgrupo, empiece a escribir el nombre de un usuario o grupo existente que desee agregar y, a continuación, seleccione el nombre cuando aparezca.</p> <p>Los usuarios y grupos que agregue tendrán acceso a todos los objetos compartidos con el grupo.</p> </li> 
-        <li> <p data-mc-conditions="SnippetConditions-wf-groups.subgroups">Administradores de grupo: un subgrupo hereda los administradores de grupo del grupo sobre él, por lo que es opcional especificar un usuario como administrador de grupo para un subgrupo. Puede asignar un miembro del grupo como administrador del grupo mediante el menú desplegable situado a la derecha del nombre del usuario.</p> </li> 
-       </ul> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Buscar personas y grupos en la lista</td> 
-      <td> Si necesita encontrar un usuario o grupo ya asignado a este subgrupo, puede escribir su nombre aquí y seleccionarlo cuando aparezca.</td> 
-     </tr> 
-    </tbody> 
-   </table>
+   * **Descripción**: escriba una descripción para el subgrupo. Puede escribir hasta 512 caracteres.
+   * **Está activo**: Esta opción está habilitada de manera predeterminada y hace que el grupo esté activo en la instancia de Workfront.
 
-1. Haga clic en **Guardar.**
+     En campos de escritura anticipada como el que se muestra a continuación, cuando los usuarios normales buscan un grupo para adjuntarlo a un objeto o compartirlo, solo se muestran en la lista los grupos activos.
+
+     ![Campo de escritura anticipada para un grupo](assets/typeahead-for-group.png)
+
+     Para optimizar esto para los usuarios, puede deshabilitar la opción **Está activo** para los grupos que no están actualmente en uso.
+
+     Puede ver, filtrar y agrupar fácilmente la lista Grupos en función del estado activo o inactivo mediante este campo. Para obtener información acerca del uso de vistas, filtros y agrupaciones en listas, consulte [Elementos para la creación de informes: filtros, vistas y agrupaciones](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md).
+
+   * **Coordinador empresarial**: puede asignar un usuario como coordinador empresarial para un subgrupo que usted administre. Un coordinador empresarial es alguien que toma decisiones empresariales para el subgrupo. Para más información, consulte [Información general sobre el Coordinador empresarial](/help/quicksilver/administration-and-setup/manage-groups/group-roles/business-leader-overview.md).
+
+     Si la persona aún no es miembro del subgrupo, al añadir su nombre a este campo también se añade al grupo.
+
+     >[!NOTE]
+     >
+     >* Para poder quitar al coordinador empresarial de un subgrupo, debe quitar su nombre del campo Coordinador empresarial.
+     >* Si quita el nombre del campo Coordinador empresarial, ese usuario seguirá siendo miembro del subgrupo a menos que lo quite de él. Para obtener instrucciones sobre cómo quitar a alguien de un grupo, vea [Ver y administrar las pertenencias de un grupo](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-memberships.md).
+
+   * **Miembros del grupo y administradores del grupo**: Para agregar usuarios y grupos como miembros del subgrupo, empiece a escribir el nombre de un usuario o grupo existente que desee agregar y, a continuación, seleccione el nombre cuando aparezca.
+
+     Los usuarios y grupos que añada tendrán acceso a todos los objetos compartidos con el grupo.
+
+     Un subgrupo hereda los administradores de grupo del grupo sobre él, por lo que es opcional especificar un usuario como administrador de grupo para un subgrupo. Puede asignar un miembro del grupo como administrador del grupo mediante el menú desplegable situado a la derecha del nombre del usuario.
+
+   * **Buscar personas y grupos en la lista**: Si necesita encontrar un usuario o grupo ya asignado a este subgrupo, puede escribir su nombre aquí y seleccionarlo cuando aparezca.
+
+1. Haga clic en **Guardar**.

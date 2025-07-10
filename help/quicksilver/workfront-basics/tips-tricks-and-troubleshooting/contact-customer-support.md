@@ -6,10 +6,10 @@ description: Como cliente de Adobe Workfront, puede ponerse en contacto con el e
 feature: Get Started with Workfront
 author: Becky
 exl-id: fa8e0559-7af6-4049-9c24-76d1bcbebf84
-source-git-commit: 854b537e3a480d14a35bf7d17d1ed8ed1507660c
+source-git-commit: 008f96d52632f5f05554d63ae1c38cc37d21544b
 workflow-type: tm+mt
-source-wordcount: '418'
-ht-degree: 81%
+source-wordcount: '480'
+ht-degree: 82%
 
 ---
 
@@ -26,6 +26,39 @@ Como cliente de [!DNL Adobe Workfront], puede ponerse en contacto con el equipo 
 >[!NOTE]
 >
 >Para problemas críticos, póngase en contacto con la atención al cliente de [!DNL Workfront] por teléfono.
+
+## Requisitos de acceso
+
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
+
+Debe tener el siguiente acceso para realizar los pasos de este artículo:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Plan de Adobe Workfront</td> 
+   <td>Cualquiera</td> 
+  </tr> 
+  <tr> 
+  <tr> 
+   <td role="rowheader">Licencia de Adobe Workfront</td> 
+   <td><p>Nuevo: estándar</p>
+       <p>O</p>
+       <p>Actual: plan</p></td>
+  </tr> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Configuraciones de nivel de acceso</td> 
+   <td>Debe ser administrador del sistema.</td>
+  </tr> 
+ </tbody> 
+</table>
+
+Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Teléfono
 
@@ -52,7 +85,7 @@ Puede enviar un ticket de asistencia técnica desde el portal de autoservicio de
 >Solo los contactos de asistencia autorizados (o los usuarios con derechos de asistencia) pueden enviar tickets de asistencia en línea.
 
 
-1. En el sitio web [[!DNL Experience League]](https://experienceleague.adobe.com/es), haga clic en **[!UICONTROL Asistencia técnica]** en la parte superior de la página.
+1. En el sitio web [[!DNL Experience League]](https://experienceleague.adobe.com), haga clic en **[!UICONTROL Asistencia técnica]** en la parte superior de la página.
 
    ![](assets/experience-league-top-navigation-with-support-highlighted.png)
 
@@ -105,7 +138,7 @@ Si tiene alguna pregunta o problema al enviar una solicitud, llame al equipo de 
 1. (Opcional) Para cerrar el caso, haga clic en el botón **[!UICONTROL Cerrar caso]**.
 
 
-<!--drafted: I took the information above from this blog post by Jon Chen (on September 13, 2022): https://experienceleaguecommunities.adobe.com/t5/workfront-blogs/how-to-submit-a-support-ticket-on-experience-league/ba-p/461737?profile.language=es)
+<!--drafted: I took the information above from this blog post by Jon Chen (on September 13, 2022): https://experienceleaguecommunities.adobe.com/t5/workfront-blogs/how-to-submit-a-support-ticket-on-experience-league/ba-p/461737)
 
 - this is the information that was there before - pointing to WorkfrontOne: 
 
