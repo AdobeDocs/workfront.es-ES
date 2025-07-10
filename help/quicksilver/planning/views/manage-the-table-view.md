@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 04818bc054c3bab6e6208b6678365549664d1594
+source-git-commit: 4fafdcea97874e791104260375617e3989af1870
 workflow-type: tm+mt
-source-wordcount: '3720'
+source-wordcount: '3758'
 ht-degree: 64%
 
 ---
@@ -573,13 +573,20 @@ Tenga en cuenta lo siguiente al exportar la vista de tabla:
 Para exportar información desde la vista de tabla o un tipo de registro:
 
 1. Vaya a una página de tipo de registro y haga clic en una ficha de vista de tabla.
-1. Pase el ratón sobre el nombre de la pestaña de la vista de tabla y luego haga clic en el menú **Más** ![Menú más](assets/more-menu.png).
+1. Realice una de las siguientes acciones:
+
+   * Pase el ratón sobre el nombre de la pestaña de la vista de tabla, luego haga clic en el menú **Más** ![Menú más](assets/more-menu.png) a la derecha del nombre de la vista y luego haga clic en **Exportar**.
 
    ![Menú Más en una vista](assets/view-more-menu-with-duplicate-option.png)
-1. Haga clic en **Exportar** y, a continuación, seleccione uno de los siguientes formatos:
 
-   * Excel
-   * CSV
+   * Haga clic en **Compartir** > **Exportar la vista actual**. Esta opción sólo está disponible cuando se muestra la vista de tabla.
+
+   ![Botón Compartir con tipo de registro y ver opciones de uso compartido](assets/share-button-with-record-type-and-view-sharing-options.png)
+
+1. Seleccione uno de los siguientes formatos:
+
+   * **Excel**
+   * **CSV**
 
    >[!IMPORTANT]
    >

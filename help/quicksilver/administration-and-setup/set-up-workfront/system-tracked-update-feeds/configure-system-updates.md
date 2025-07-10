@@ -8,10 +8,10 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 54fc3f77-57d1-47f1-8e16-73626a6733ec
-source-git-commit: 23a5c90b9321b72a20f21752f957b3be0a9f3a02
+source-git-commit: 4fafdcea97874e791104260375617e3989af1870
 workflow-type: tm+mt
-source-wordcount: '981'
-ht-degree: 47%
+source-wordcount: '933'
+ht-degree: 50%
 
 ---
 
@@ -19,13 +19,15 @@ ht-degree: 47%
 
 <!-- Audited: 6/2025 -->
 
+<!--
+
 <div class="preview">
 
-La información resaltada en esta página hace referencia a funcionalidades que aún no están disponibles de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Las mismas funciones también estarán disponibles en el entorno de producción para todos los clientes una semana después de la versión de vista previa.
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release.     
 
-Para obtener más información, vea [Modernización de la interfaz](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). 
 
-</div>
+</div> -->
 
 [!DNL Adobe Workfront] genera actualizaciones automáticas del sistema en el área [!UICONTROL Actualizaciones] de un objeto para registrar los eventos siguientes:
 
@@ -96,13 +98,13 @@ Puede añadir los campos en los que desee que [!DNL Workfront] realice un seguim
 {{step-1-to-setup}}
 
 1. En el panel de la izquierda, haz clic en **[!UICONTROL Interfaz]** y luego en **[!UICONTROL Actualizar fuentes]**.
-1. (Opcional) En la ficha <span class="preview">**Campos rastreados**</span>, haga clic en una de las siguientes subfichas, en función de los tipos de campos que desee rastrear en la fuente de actualización:
+1. (Opcional) En la pestaña **Campos rastreados**, haga clic en una de las siguientes subpestañas, según los tipos de campos que desee rastrear en la fuente de actualización:
 
-   * <span class="preview">**Campos integrados**</span>: Muestra una lista de campos integrados.
-   * <span class="preview">**Campos personalizados**</span>: Muestra una lista de campos personalizados. Debe crear los campos personalizados antes de que estén disponibles en la lista.
-   * <span class="preview">**Todos los campos**</span>: muestra una lista de campos integrados y personalizados.
+   * **Campos integrados**: Muestra una lista de campos integrados.
+   * **Campos personalizados**: Muestra una lista de campos personalizados. Debe crear los campos personalizados antes de que estén disponibles en la lista.
+   * **Todos los campos**: muestra una lista de campos integrados y personalizados.
 
-1. Haga clic en <span class="preview">**[!UICONTROL Agregar campos &#x200B;]**,</span> y, a continuación, seleccione el objeto sobre el que desea realizar el seguimiento en la lista desplegable.
+1. Haga clic en **[!UICONTROL Agregar campos]** y, a continuación, seleccione el objeto sobre el que desea realizar el seguimiento en la lista desplegable.
 
    La selección manual de campos no está disponible para todos los objetos que tienen un área de Actualizaciones.
 
@@ -115,16 +117,16 @@ Puede añadir los campos en los que desee que [!DNL Workfront] realice un seguim
    * Programa
    * Usuario
 
-   Se abre el cuadro <span class="preview">**Agregar campos** </span> para cada objeto seleccionado.
-1. En el cuadro <span class="preview">**Agregar campos** </span>, empiece a escribir un campo integrado (estándar) o un campo personalizado para el objeto y, a continuación, selecciónelo cuando aparezca en la lista.
+   Se abre el cuadro **Agregar campos** para cada objeto seleccionado.
+1. En el cuadro **Agregar campos**, empiece a escribir un campo integrado (estándar) o un campo personalizado para el objeto y, a continuación, selecciónelo cuando aparezca en la lista.
 
    >[!NOTE]
    >
    >Si [!DNL Workfront] ya está realizando el seguimiento del campo, no podrá agregarlo por segunda vez desde la lista.
 
-1. Después de agregar todos los campos que desea que [!DNL Workfront] rastree, <span class="preview"> haga clic en **[!UICONTROL Agregar]**.
+1. Después de agregar todos los campos que desea que [!DNL Workfront] rastree, haga clic en **[!UICONTROL Agregar]**.
 Los campos integrados que agregó se muestran bajo la subpestaña **[!UICONTROL Campos integrados]** y los campos personalizados se muestran bajo la subpestaña **[!UICONTROL Campos personalizados]**.
-La subpestaña **[!UICONTROL Todos los campos]** muestra los campos integrados y personalizados que [!DNL Workfront] rastrea.</span>
+La subpestaña **[!UICONTROL Todos los campos]** muestra los campos integrados y personalizados que [!DNL Workfront] rastrea.
 
 ### Elimine los campos de los que no desea realizar un seguimiento {#remove-fields-you-don-t-want-tracked}
 
@@ -136,16 +138,7 @@ Puede quitar campos sobre los que no desea que el sistema realice un seguimiento
 
 1. En la ficha **[!UICONTROL Campos rastreados]**, seleccione la subpestaña **[!UICONTROL Todos los campos]**. Se muestran los campos integrados y personalizados que se están rastreando actualmente.
 
-1. Seleccione el campo cuyo seguimiento desea detener y, a continuación, haga clic en **[!UICONTROL Quitar]**.
-
-
-<!--replace above at Preview release with this:
-
-1. On the <span class="preview">**[!UICONTROL Tracked fields]** tab</span>, select the **[!UICONTROL All fields]** subtab. Both the built-in and custom fields that are currently being tracked display.
-
-1. Select the field you want to stop tracking, then click the <span class="preview">**[!UICONTROL Remove]** icon ![Remove icon](assets/remove-icon.png).</span>
-
--->
+1. Seleccione el campo cuyo seguimiento desea detener y, a continuación, haga clic en el icono **[!UICONTROL Quitar]** ![Quitar icono](assets/remove-icon.png).
 
 1. En el cuadro **[!UICONTROL Remove Field]** que aparece, haga clic en **[!UICONTROL Yes, Remove It]** para confirmar.
 

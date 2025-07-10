@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
+source-git-commit: 5f9f4d4f100557238d9ff8d7f571108de4341c75
 workflow-type: tm+mt
-source-wordcount: '2255'
+source-wordcount: '2305'
 ht-degree: 13%
 
 ---
@@ -139,6 +139,10 @@ Puede editar un registro desde las siguientes áreas:
 Cuando edita registros desde la vista de tabla, existe una indicación de qué campo están editando otros usuarios en el momento en que está viendo el registro.
 
 Para obtener más información, consulte [Administrar vistas de registros](/help/quicksilver/planning/views/manage-record-views.md).
+
+<span class="preview">Cuando se agrega un nuevo registro después del último registro de una agrupación o subagrupación, Workfront actualiza automáticamente los campos incluidos en las agrupaciones para los registros nuevos. Puede editar manualmente estos campos, si es necesario, y los registros pueden eliminarse de la agrupación. </span>
+
+Para obtener más información, consulte [Crear registros](/help/quicksilver/planning/records/create-records.md).
 
 {{step1-to-planning}}
 

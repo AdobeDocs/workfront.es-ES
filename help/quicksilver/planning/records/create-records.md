@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
+source-git-commit: 4fafdcea97874e791104260375617e3989af1870
 workflow-type: tm+mt
-source-wordcount: '2419'
-ht-degree: 28%
+source-wordcount: '2468'
+ht-degree: 27%
 
 ---
 
@@ -133,7 +133,11 @@ Los registros del tipo seleccionado se muestran en la vista.
 
 1. (Condicional) Desde la vista de tabla, realice una de las siguientes acciones:
 
-   * Haga clic en **Nuevo registro** en la última fila de la tabla
+   * Haga clic en **Nuevo registro** en la última fila de la tabla o después del último registro de una agrupación
+
+     >[!TIP]
+     >
+     ><span class="preview">Cuando se agrega un nuevo registro después del último registro de una agrupación o subagrupación, Workfront rellena automáticamente los campos incluidos en las agrupaciones. Puede editar manualmente estos campos, si es necesario, y los registros pueden eliminarse de la agrupación. </span>
 
    * Haga clic en **Mayús + Intro** en el teclado desde cualquier columna o fila de la tabla. Esto añade una fila vacía debajo del registro desde el que comienza.
    * Pase el ratón sobre el campo principal de un registro, haga clic en el menú **Más** ![Menú más](assets/more-menu.png), a la derecha del campo, y luego haga clic en **Insertar registro arriba** o **Insertar registro abajo**.

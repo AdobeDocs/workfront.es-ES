@@ -9,10 +9,10 @@ author: Alina, Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: ad0d141b-3e56-4bb1-be24-4dd9203e7881
-source-git-commit: f35da9077b0422ba939ed9f6285835897f28874c
+source-git-commit: 4fafdcea97874e791104260375617e3989af1870
 workflow-type: tm+mt
-source-wordcount: '894'
-ht-degree: 6%
+source-wordcount: '843'
+ht-degree: 7%
 
 ---
 
@@ -23,13 +23,14 @@ ht-degree: 6%
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. 
 **Linked to Creating Billing Record-->
 
-<div class="preview">
+<!--<div class="preview">
 
-La información resaltada en esta página hace referencia a funcionalidades que aún no están disponibles de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Las mismas funciones también estarán disponibles en el entorno de producción para todos los clientes una semana después de la versión de vista previa.
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release.     
 
-Para obtener más información, vea [Modernización de la interfaz](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). 
 
 </div>
+-->
 
 Los tipos de horas son etiquetas que se utilizan para definir las entradas de horas. Puede asociar tipos de horas con sus entradas de horas.
 
@@ -165,11 +166,11 @@ Para desactivar un tipo de hora:
 1. Seleccione el tipo de hora que desea desactivar.
 
 
-1. <span class="preview">Haga clic en **Más** y luego en **Desactivar**.</span>
+1. Haga clic en **Más** y luego en **Desactivar**.
 
-   <span class="preview">![Activar y desactivar vínculos de tipo de hora](assets/activate-and-deactivate-hour-type-links.png)</span>
+   ![Activar y desactivar vínculos de tipo de hora](assets/activate-and-deactivate-hour-type-links.png)
 
-   <span class="preview">El tipo de hora está desactivado y los usuarios ya no pueden encontrarlo al registrar horas.</span>
+   El tipo de hora se desactiva y los usuarios ya no pueden encontrarlo al registrar horas.
 
-1. <span class="preview">(Opcional) Para reactivar un tipo de hora, selecciónelo en la lista **Tipos de hora** y, a continuación, haga clic en **Más** > **Activar**. </span>
+1. (Opcional) Para reactivar un tipo de hora, selecciónelo en la lista **Tipos de horas** y, a continuación, haga clic en **Más** > **Activar**.
 
