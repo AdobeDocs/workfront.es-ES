@@ -6,9 +6,9 @@ description: Puede añadir aprobadores o revisores adicionales a un documento qu
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 32cb95c2-8d12-492b-ad89-b38e2a337fc5
-source-git-commit: 9ede952041f89eca4ba324348880d7eb5f2bccd7
+source-git-commit: 10efc850b4951c3ad1a7086d3ec087d848dde96e
 workflow-type: tm+mt
-source-wordcount: '569'
+source-wordcount: '576'
 ht-degree: 9%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 9%
 >
 >El contenido de este artículo hace referencia a la funcionalidad actualizada de aprobación de documentos que solo está disponible para cuentas específicas. Para obtener información sobre los procesos de aprobación estándar, consulte los artículos enumerados en [Aprobaciones de trabajo](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md).
 
-Aprobaciones unificadas es un rediseño integral del proceso de aprobaciones existente que se encuentra actualmente en desarrollo para Adobe Workfront. Actualmente disponible en versiones limitadas, está diseñado para ser una solución práctica y eficaz para las empresas que requieren una participación integral de las partes interesadas y aprobaciones de documentos específicas para cada versión. Su cuidadoso diseño y sus nuevas características facilitan la colaboración, la claridad de funciones y el control de versiones en el proceso de aprobación, mejorando la eficiencia y la responsabilidad.
+Las aprobaciones unificadas, anteriormente denominadas nuevas aprobaciones de documentos, son un rediseño integral del proceso de aprobaciones existente que se encuentra actualmente en desarrollo para Adobe Workfront. Actualmente disponible en versiones limitadas, está diseñado para ser una solución práctica y eficaz para las empresas que requieren una participación integral de las partes interesadas y aprobaciones de documentos específicas para cada versión. Su cuidadoso diseño y sus nuevas características facilitan la colaboración, la claridad de funciones y el control de versiones en el proceso de aprobación, mejorando la eficiencia y la responsabilidad.
 
 ## Diferencias clave con las aprobaciones de pruebas y documentos heredados
 

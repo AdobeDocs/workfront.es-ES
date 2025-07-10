@@ -6,7 +6,7 @@ description: El Hogar te ayuda a administrar tu trabajo. Puede personalizar este
 author: Courtney
 feature: Get Started with Workfront
 exl-id: eddb2db0-88c5-40f9-ba05-14839a3dfc7f
-source-git-commit: 9ede952041f89eca4ba324348880d7eb5f2bccd7
+source-git-commit: 10efc850b4951c3ad1a7086d3ec087d848dde96e
 workflow-type: tm+mt
 source-wordcount: '1011'
 ht-degree: 79%
@@ -62,7 +62,7 @@ A continuación se muestran los 11 widgets disponibles actualmente para elegir, 
     Muestra todas las aprobaciones pendientes, asignadas, delegadas y enviadas; un botón para delegar aprobaciones y botones para tomar decisiones de aprobación directamente dentro del widget.
 
 * **Métricas de aprobación de documento**\
-        Muestra dos gráficos con información sobre el tiempo promedio de aprobación de documentos y las decisiones, así como vistas de lista de aprobaciones pendientes y vencidas. Debe tener las aprobaciones unificadas habilitadas para utilizar este widget.
+        Muestra dos gráficos con información sobre el tiempo promedio de aprobación de documentos y las decisiones, así como vistas de lista de aprobaciones pendientes y vencidas. Debe tener [Aprobaciones unificadas](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md) habilitadas para usar este widget.
 
 * **Menciones**\
     Muestra los hilos de comentarios recientes de Workfront, de forma similar a la página Mis actualizaciones. Puede utilizar el botón de respuesta para redactar una respuesta en del widget. Este widget también muestra los comentarios realizados sobre las tareas y los problemas que se le han asignado, que ha asignado a otro usuario, que son de su propiedad, del cual es el contacto principal o que ha creado, siempre y cuando la tarea o el problema se haya actualizado en los últimos 30 días.
