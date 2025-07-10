@@ -276,8 +276,10 @@ Los usuarios que acceden a un vínculo a una vista para la que no tienen permiso
 1. (Condicional) Si es el administrador de una vista, es posible que otro usuario le solicite el acceso a la vista en las áreas siguientes:
 
    * Una notificación en la aplicación
+
      ![Notificación en la aplicación para solicitud de acceso de vista](assets/in-app-notification-for-access-request-for-view.png)
    * Una notificación por correo electrónico
+
      ![Notificación en la aplicación para solicitud de acceso de vista](assets/in-app-notification-for-access-request-for-view.png)
 1. (Condicional) En el área de notificación de Workfront, haga clic en la notificación dentro de la aplicación
 O
