@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 3c505b3a-cda7-4e7b-b497-28b820e9bb8f
-source-git-commit: e25f6ac3fb4ffc114d59bf5cceecfe718ae914ec
+source-git-commit: 60f2890e431065d0eb034a9254680e43a51ecab8
 workflow-type: tm+mt
-source-wordcount: '662'
+source-wordcount: '668'
 ht-degree: 30%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 30%
 
 Puede recibir notificaciones por correo electrónico de Workfront Planning cuando existan los siguientes escenarios:
 
-* Alguien le etiqueta en un comentario de registro
+* Alguien le etiqueta a usted o a sus equipos en un comentario de registro
 
   Para obtener información sobre cómo etiquetar a otras personas en un comentario de registro, consulte [Administrar comentarios de registro](/help/quicksilver/planning/records/manage-record-comments.md).
 * Alguien le pide permiso para acceder a una vista o a un espacio de trabajo
@@ -161,7 +161,7 @@ OLD:
 
 ## Administrar notificaciones por correo electrónico cuando alguien le etiqueta en un comentario
 
-1. (Condicional y opcional) Después de que alguien le etiquete en un comentario de un registro, vaya a la notificación por correo electrónico que le informa de la etiqueta y del comentario. El remitente del correo electrónico es Adobe Experience Cloud.
+1. (Condicional y opcional) Después de que alguien le etiquete a usted o a su equipo en un comentario de un registro, vaya a la notificación por correo electrónico que le informa de la etiqueta y del comentario. El remitente del correo electrónico es Adobe Experience Cloud.
 
    ![Ejemplo de notificaciones por correo electrónico](assets/email-notification-example.png)
 

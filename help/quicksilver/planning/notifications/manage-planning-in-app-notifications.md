@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: a6eb8c7c-a34d-4c84-a45c-7e7f050a4302
-source-git-commit: e25f6ac3fb4ffc114d59bf5cceecfe718ae914ec
+source-git-commit: 60f2890e431065d0eb034a9254680e43a51ecab8
 workflow-type: tm+mt
-source-wordcount: '440'
-ht-degree: 35%
+source-wordcount: '446'
+ht-degree: 34%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 35%
 
 Puede recibir notificaciones en la aplicación desde Workfront Planning cuando existan los siguientes escenarios:
 
-* Alguien le etiqueta en un comentario de registro
+* Alguien le etiqueta a usted o a sus equipos en un comentario de registro
 
   Para obtener información sobre cómo etiquetar a otras personas en un comentario de registro, consulte [Administrar comentarios de registro](/help/quicksilver/planning/records/manage-record-comments.md).
 * Alguien le pide permiso para acceder a una vista o a un espacio de trabajo
@@ -160,7 +160,7 @@ OLD:
 
 ## Administrar notificaciones en la aplicación cuando alguien te etiqueta en un comentario
 
-1. (Condicional) Después de que alguien le etiquete en un comentario de un registro, vaya al icono de **Notificaciones** de la aplicación ![Icono de notificaciones de Experience Cloud](assets/experience-cloud-notifications-icon.png) en Adobe Experience Cloud.
+1. (Condicional) Después de que alguien lo etiquete a usted o a sus equipos en un comentario de un registro, vaya al icono de **Notificaciones** de la aplicación ![Icono de notificaciones de Experience Cloud](assets/experience-cloud-notifications-icon.png) en Adobe Experience Cloud.
 
    ![Ejemplo de notificación en la aplicación](assets/in-app-notification-example.png)
 

@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 6761f5af-2501-4487-8114-2751f1e4fe69
-source-git-commit: ccd0f65f064b5e55b6b5b94b27e25facfe50502f
+source-git-commit: 60f2890e431065d0eb034a9254680e43a51ecab8
 workflow-type: tm+mt
-source-wordcount: '2078'
+source-wordcount: '2148'
 ht-degree: 4%
 
 ---
@@ -21,6 +21,15 @@ Este artículo describe las funciones que se lanzarán para Workfront Planning d
 <!--keep the sentence below for all future quarterly release pages-->
 
 Para obtener una lista de todas las características publicadas para Adobe Workfront Planning, consulte [Actividad de la versión de Adobe Workfront Planning: índice de artículo](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+
+## Agregar notificaciones para los usuarios del equipo cuando el equipo se agrega a un comentario de registro
+
+Vista previa: 10 de julio de 2025
+Producción para todos: 10 de julio de 2025
+
+Ahora, cuando agregue un equipo a un comentario de registro en Workfront Planning, todos los miembros del equipo recibirán una notificación sobre el comentario tanto en la aplicación como por correo electrónico. Antes de esta mejora, solo se notificaba a los usuarios añadidos a los comentarios individualmente
+
+Para obtener más información, vea Administrar comentarios de registro [Administrar comentarios de registro](/help/quicksilver/planning/records/manage-record-comments.md).
 
 ## Rellenar automáticamente campos basados en agrupaciones aplicadas
 
@@ -77,7 +86,7 @@ Para que la experiencia al compartir un formulario de solicitud en Workfront Pla
 * Se han eliminado las opciones de administración y contribución para los usuarios con los que comparte el formulario de solicitud. Ahora, los usuarios añadidos solo pueden enviar el formulario.
 * La pestaña de uso compartido público ahora muestra el campo de vínculo y fecha de caducidad solo después de habilitar la opción Crear vínculo público.
 
-Para obtener más información, consulte [Crear y administrar un formulario de solicitud en Adobe Workfront Planning](https://experienceleague.adobe.com/es/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-requests/create-request-form).
+Para obtener más información, consulte [Crear y administrar un formulario de solicitud en Adobe Workfront Planning](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-requests/create-request-form).
 
 ## Expandir y contraer todas las agrupaciones de la vista de tabla
 
@@ -295,7 +304,7 @@ Antes de esta mejora, los usuarios con todos los niveles de licencia debían asi
 >[!NOTE]
 >
 >Este cambio será visible para todos los usuarios nuevos y existentes con una licencia de administrador del sistema y estándar.
->&#x200B;>Los usuarios existentes asignados a una plantilla de diseño seguirán viendo todo según la configuración definida en la plantilla.
+>>Los usuarios existentes asignados a una plantilla de diseño seguirán viendo todo según la configuración definida en la plantilla.
 
 Para obtener más información, consulte [Descripción general de Adobe Workfront Planning](/help/quicksilver/planning/access/access-overview.md).
 

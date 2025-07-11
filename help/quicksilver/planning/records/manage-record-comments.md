@@ -6,10 +6,10 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 215883a4-e882-438e-9c21-954c0b1d741b
-source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
+source-git-commit: 60f2890e431065d0eb034a9254680e43a51ecab8
 workflow-type: tm+mt
-source-wordcount: '1057'
-ht-degree: 57%
+source-wordcount: '1045'
+ht-degree: 54%
 
 ---
 
@@ -120,9 +120,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
   Por ejemplo, los comentarios añadidos a proyectos en Workfront no se muestran en el mismo proyecto vinculado a una campaña en Workfront Planning y los comentarios añadidos al proyecto en el registro de Workfront Planning no se muestran en Workfront.
 
-* Puede etiquetar a los usuarios para llamar su atención sobre una actualización. Los usuarios etiquetados no reciben una notificación dentro de la aplicación ni un correo electrónico sobre su actualización. <!--this might change??-->
-
-* Puede etiquetar a los usuarios para llamar su atención sobre una actualización. Los usuarios etiquetados reciben una notificación en la aplicación o una notificación por correo electrónico sobre su actualización.
+* Puede etiquetar usuarios o equipos para que llamen su atención sobre una actualización. Tanto los usuarios etiquetados de forma individual como los usuarios de los equipos etiquetados reciben una notificación dentro de la aplicación y un correo electrónico sobre la actualización.
 
   >[!NOTE]
   >
@@ -162,7 +160,7 @@ Se abre la página de tipo de registro y se muestran todos los registros de ese 
 1. (Opcional) Para deshacer o rehacer un cambio, utilice las siguientes teclas de método abreviado:
    * CTRL + Z (⌘+z para Mac) para deshacer un cambio
    * CTRL + Y (⌘+y para Mac) para rehacer un cambio
-1. (Opcional y condicional) Si la instancia de Workfront forma parte de la experiencia unificada de Adobe, agregue **@** seguido del nombre de un usuario para etiquetar a alguien en la actualización. Para obtener más información, vea la sección [Consideraciones acerca de comentar un registro](#considerations-about-commenting-on-a-record) en este artículo.
+1. (Opcional y condicional) Si la instancia de Workfront forma parte de la experiencia unificada de Adobe, agregue **@** seguido del nombre de un usuario o de un equipo para etiquetarlos en la actualización. Para obtener más información, vea la sección [Consideraciones acerca de comentar un registro](#considerations-about-commenting-on-a-record) en este artículo.
 
 1. (Opcional) Utilice las opciones de la barra de herramientas Texto enriquecido para dar formato al texto, agregar emojis o vínculos a la actualización con el fin de mejorar el contenido.
 
