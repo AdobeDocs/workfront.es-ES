@@ -5,7 +5,7 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9342f393-a404-44b4-aad6-2c4cf634dfd5
-source-git-commit: 2eb858876a79acd9d6028f051fa8c8bc9bc5a34a
+source-git-commit: 1ab909022dad1acd1502cdc2bd8ba2d596c669e8
 workflow-type: tm+mt
 source-wordcount: '1801'
 ht-degree: 19%
@@ -240,7 +240,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
     </tr>
       <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-reporting-enhancements.md" class="MCXref xref" xrefformat="{para}">Seguridad de entrega de informes mejorada </a><p>[!BADGE Off schedule]{type=Neutral}</p>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-reporting-enhancements.md" class="MCXref xref" xrefformat="{para}">Seguridad mejorada en la entrega de informes </a><p>[!BADGE Off schedule]{type=Neutral}</p>
             <p>Se ha mejorado la entrega de informes programados para garantizar que las notificaciones de Workfront solo se envíen a dominios de correo electrónico aprobados en la lista de permitidos.</p>
             <p></p>
         </td>
@@ -332,7 +332,7 @@ Estamos actualizando la interfaz a través de Adobe Workfront para mejorar la ex
 
 ### Mejoras de Workfront Fusion
 
-Las nuevas funciones de Workfront Fusion están disponibles en el entorno de producción en una cadencia fuera de la programación de versiones estándar. Para obtener más información sobre las últimas funciones, consulte [Actividad de la versión de Adobe Workfront Fusion](https://experienceleague.adobe.com/es/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
+Las nuevas funciones de Workfront Fusion están disponibles en el entorno de producción en una cadencia fuera de la programación de versiones estándar. Para obtener más información sobre las últimas funciones, consulte [Actividad de la versión de Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
 
 ### Mejoras de Workfront Planning
 
