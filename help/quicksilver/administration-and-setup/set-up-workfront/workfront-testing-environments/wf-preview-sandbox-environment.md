@@ -9,10 +9,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e5c02b8c-854e-4c42-a599-f680443f425d
-source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
+source-git-commit: 7549c9699a86b6f87e5562efd7e586be282c5619
 workflow-type: tm+mt
-source-wordcount: '1284'
-ht-degree: 94%
+source-wordcount: '1302'
+ht-degree: 93%
 
 ---
 
@@ -179,12 +179,15 @@ Para obtener más información, vea [Configurar cálculos de escala de tiempo pa
 
 Para el entorno de vista previa, el cálculo nocturno está deshabilitado y las escalas de tiempo del proyecto no se recalculan automáticamente. Debe recalcular manualmente la cronología del proyecto para el entorno de vista previa. Para obtener más información, consulte [Recalcular líneas de tiempo de proyecto](/help/quicksilver/manage-work/projects/manage-projects/recalculate-project-timeline.md).
 
+
 ## Rendimiento y disponibilidad del entorno de vista previa
 
-[!DNL Workfront] Los entornos de vista previa no están pensados para pruebas de carga o rendimiento. En su lugar, utilice estos entornos para validar la funcionalidad de las funciones con los flujos de trabajo existentes de su organización.
+* [!DNL Workfront] Los entornos de vista previa no están pensados para pruebas de carga o rendimiento. En su lugar, utilice estos entornos para validar la funcionalidad de las funciones con los flujos de trabajo existentes de su organización.
 
-[!DNL Workfront] Los entornos de vista previa están pensados para estar siempre disponibles.
+* Los flujos de trabajo que implican documentos deben centrarse en procesos y no en pruebas de carga. Los archivos grandes no son compatibles con los entornos de espacio aislado.
 
-Cualquier interrupción en un entorno de vista previa de [!DNL Workfront] durante el horario laboral normal será una primera prioridad inmediatamente después de que se resuelva cualquier problema de producción, si existe.
+* [!DNL Workfront] Los entornos de vista previa están pensados para estar siempre disponibles.
 
-Cualquier interrupción en un entorno de vista previa de [!DNL Workfront] los fines de semana (sábados y domingos) se solucionará para que el entorno funcione durante el horario laboral los lunes.
+* Cualquier interrupción en un entorno de vista previa de [!DNL Workfront] durante el horario laboral normal será una primera prioridad inmediatamente después de que se resuelva cualquier problema de producción, si existe.
+
+* Cualquier interrupción en un entorno de vista previa de [!DNL Workfront] los fines de semana (sábados y domingos) se solucionará para que el entorno funcione durante el horario laboral los lunes.

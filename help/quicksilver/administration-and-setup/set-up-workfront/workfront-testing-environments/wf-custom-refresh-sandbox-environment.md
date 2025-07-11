@@ -9,10 +9,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e18c005b-e6ff-4a1e-a589-63132f3a8ad2
-source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
+source-git-commit: 7549c9699a86b6f87e5562efd7e586be282c5619
 workflow-type: tm+mt
-source-wordcount: '1745'
-ht-degree: 93%
+source-wordcount: '1763'
+ht-degree: 92%
 
 ---
 
@@ -210,9 +210,12 @@ Para obtener más información, vea [Configurar cálculos de escala de tiempo pa
 
 Para el entorno de espacio aislado de actualización personalizado, el cálculo nocturno está deshabilitado y las escalas de tiempo del proyecto no se recalculan automáticamente. Debe recalcular manualmente la cronología del proyecto para el entorno de espacio aislado de actualización personalizado. Para obtener más información, consulte [Recalcular líneas de tiempo de proyecto](/help/quicksilver/manage-work/projects/manage-projects/recalculate-project-timeline.md).
 
+
 ## Uso y disponibilidad previstos
 
 * Los entornos de zona protegida de actualización personalizada de [!DNL Workfront] no están pensados para pruebas de carga o rendimiento. En su lugar, utilice estos entornos para validar la funcionalidad de las funciones con los flujos de trabajo existentes de su organización.
+
+* Los flujos de trabajo que implican documentos deben centrarse en procesos y no en pruebas de carga. Los archivos grandes no son compatibles con los entornos de espacio aislado.
 
 * Los entornos de zona protegida de actualización personalizada de [!DNL Workfront] están pensados para estar siempre disponibles. Cualquier interrupción en un entorno de zona protegida de actualización personalizada de Workfront durante el horario laboral normal será una prioridad inmediata después de resolver cualquier problema de producción, si existe. Cualquier interrupción en un entorno de zona protegida de actualización personalizada de Workfront los fines de semana (sábados y domingos) se solucionará para que el entorno se ejecute en horario laboral los lunes.
 
