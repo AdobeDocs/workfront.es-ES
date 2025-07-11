@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: bf49db73-09f1-417e-836b-16c6062740d4
-source-git-commit: 4fafdcea97874e791104260375617e3989af1870
+source-git-commit: d3d4a923dddb8685a981162918f34447300136cf
 workflow-type: tm+mt
-source-wordcount: '1515'
-ht-degree: 8%
+source-wordcount: '1560'
+ht-degree: 7%
 
 ---
 
@@ -29,7 +29,7 @@ Puede compartir un tipo de registro con otros usuarios para garantizar la colabo
 >[!IMPORTANT]
 >
 >Los usuarios con acceso a un espacio de trabajo obtienen automáticamente al menos permisos de visualización para todos los tipos de registros del espacio de trabajo.
->&#x200B;>Al compartir vistas, los usuarios no conceden permisos a los tipos de registro. Sólo los espacios de trabajo compartidos pueden conceder permisos de usuario a los tipos de registro.
+>>Al compartir vistas, los usuarios no conceden permisos a los tipos de registro. Sólo los espacios de trabajo compartidos pueden conceder permisos de usuario a los tipos de registro.
 >
 >* Para obtener información general sobre cómo compartir objetos en Workfront Planning, consulte también [Información general sobre los permisos de uso compartido en Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md).
 >* Para obtener más información, vea la sección [Consideraciones al compartir tipos de registros](#considerations-when-sharing-record-types) en este artículo.
@@ -195,6 +195,10 @@ Puede ajustar los permisos a los tipos de registro individuales de un espacio de
 1. Haga clic en **Guardar**.
 
    El tipo de registro ahora se comparte con otros usuarios.
+Los usuarios con los que ha compartido el tipo de registro reciben una notificación en la aplicación y por correo electrónico sobre la concesión de permisos a las siguientes entidades:
+
+   * El tipo de registro
+   * El espacio de trabajo, si no tenían permisos para el espacio de trabajo antes de que se compartiera el tipo de registro con ellos.
 
 1. Comparta el vínculo copiado con otros usuarios. Los usuarios que reciban el vínculo deben ser usuarios activos e iniciar sesión en Workfront para poder acceder a la página de tipo de registro y mostrarla en la vista seleccionada. Deben tener permisos sobre el tipo de registro para poder verlo.
 

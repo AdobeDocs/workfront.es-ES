@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 673dd888-3135-48b0-8198-c8d6d6706ddf
-source-git-commit: e8e8e12bef55303c65894aa495f7554a9f1a811c
+source-git-commit: d3d4a923dddb8685a981162918f34447300136cf
 workflow-type: tm+mt
-source-wordcount: '1950'
+source-wordcount: '1969'
 ht-degree: 44%
 
 ---
@@ -186,6 +186,8 @@ Puede compartir las vistas que ha creado o las vistas en las que tiene permiso d
 
    La vista se actualiza con un icono de personas ![Vista compartida con otros iconos](assets/view-shared-with-others-people-icon.png) para indicar que la vista ahora se comparte con otros usuarios.
 
+   Los usuarios con los que compartió la vista reciben una notificación dentro de la aplicación y por correo electrónico sobre si tienen permisos para ella.
+
    >[!TIP]
    >
    >Las vistas sin un icono de personas o global son vistas que ha creado y no se comparten con otros. Las vistas no compartidas solo son visibles para usted.
@@ -276,10 +278,8 @@ Los usuarios que acceden a un vínculo a una vista para la que no tienen permiso
 1. (Condicional) Si es el administrador de una vista, es posible que otro usuario le solicite el acceso a la vista en las áreas siguientes:
 
    * Una notificación en la aplicación
-
      ![Notificación en la aplicación para solicitud de acceso de vista](assets/in-app-notification-for-access-request-for-view.png)
    * Una notificación por correo electrónico
-
      ![Notificación en la aplicación para solicitud de acceso de vista](assets/in-app-notification-for-access-request-for-view.png)
 1. (Condicional) En el área de notificación de Workfront, haga clic en la notificación dentro de la aplicación
 O

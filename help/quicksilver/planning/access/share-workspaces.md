@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 475a519d-d3bd-4461-8099-0e296d556d34
-source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
+source-git-commit: d3d4a923dddb8685a981162918f34447300136cf
 workflow-type: tm+mt
-source-wordcount: '950'
-ht-degree: 16%
+source-wordcount: '969'
+ht-degree: 15%
 
 ---
 
@@ -147,6 +147,8 @@ Para compartir un espacio de trabajo con otros usuarios:
 1. Comparta el vínculo copiado con otros usuarios. Los usuarios que reciban el vínculo deben ser usuarios activos e iniciar sesión en Workfront para poder acceder al espacio de trabajo.
 1. Haga clic en **Guardar**.
 
+   Los usuarios con los que ha compartido el espacio de trabajo reciben una notificación en la aplicación y por correo electrónico sobre si tienen permisos para él.
+
 ## Conceder permisos a un espacio de trabajo desde una solicitud de permiso
 
 Los usuarios que accedan a un vínculo a un espacio de trabajo para el que no tengan permisos pueden solicitar permisos. Todos los usuarios con permisos de Administrar en el espacio de trabajo reciben la solicitud de permiso y pueden concederlos o denegarlos.
@@ -154,10 +156,8 @@ Los usuarios que accedan a un vínculo a un espacio de trabajo para el que no te
 1. (Condicional) Si usted es el administrador de un espacio de trabajo, es posible que otro usuario le solicite el acceso a la vista en las áreas siguientes:
 
    * Una notificación en la aplicación
-
      ![Notificación en la aplicación para solicitud de acceso](assets/in-app-notification-for-access-request.png)
    * Una notificación por correo electrónico
-
      ![Notificación por correo electrónico de la solicitud de acceso](assets/email-notification-for-access-request.png)
 1. (Condicional) En el área de notificación de Workfront, haga clic en la notificación dentro de la aplicación
 O
