@@ -6,10 +6,10 @@ description: El panel de navegación izquierdo en  [!DNL Workfront]  facilita la
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 18aae496-b4ec-4056-a7f1-9600b5fb5421
-source-git-commit: 06e42fa713bc9b0c1e308feb2b84ca62dafa416c
+source-git-commit: 297a8bc1a59fab42d96ec3479451c2f82f5c3dc1
 workflow-type: tm+mt
-source-wordcount: '1373'
-ht-degree: 100%
+source-wordcount: '1385'
+ht-degree: 98%
 
 ---
 
@@ -265,9 +265,7 @@ Para saber qué secciones están disponibles para áreas específicas, consulte 
       >
       >Debe generar el tablero antes de que aparezca en la lista.
 
-   1. Haga clic en **[!UICONTROL Añadir]**.
-
-      El vínculo del panel aparece en la parte inferior del panel izquierdo.
+1. (Opcional) Para quitar un vínculo rápido del panel, pase el ratón sobre el panel en el panel de navegación izquierdo y, a continuación, haga clic en el icono **Quitar** ![Quitar icono](assets/remove-dashboard-from-left.png) cuando aparezca.
 
 1. (Opcional) Para cambiar el orden de una sección en el panel izquierdo, haga clic en el icono **[!UICONTROL Arrastrar]** ![](assets/drag-icon.png) situado a la derecha de una sección y arrástrela hacia arriba o hacia abajo.
 
