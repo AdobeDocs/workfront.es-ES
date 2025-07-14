@@ -3,9 +3,9 @@ user-guide-title: Guía de Workfront
 user-guide-description: Utilice los siguientes documentos, tutoriales y recursos adicionales para aprender a implementar y utilizar Adobe Workfront de forma eficaz en su organización.
 role: User
 feature-set: Workfront
-source-git-commit: d3d4a923dddb8685a981162918f34447300136cf
+source-git-commit: 979d0919605564107e58032b80cfd259bd6edffa
 workflow-type: tm+mt
-source-wordcount: '13231'
+source-wordcount: '13221'
 ht-degree: 60%
 
 ---
@@ -1496,17 +1496,16 @@ ht-degree: 60%
    * [Informes y paneles: índice de artículos](reports-and-dashboards/reports-and-dashboards-overview.md)
    * Paneles de control de lienzo {#canvas-dashboards}
       * [Paneles de control de lienzo](reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md)
-      * Administrar paneles de lienzo {#manage-canvas-dashboards}
-         * [Administrar paneles de lienzo](reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/manage-canvas-dashboards.md)
-         * [Introducción a los paneles de control del lienzo](reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md)
-         * [Añadir, quitar u organizar informes en un panel de lienzo](reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/add-remove-arrange-reports.md)
-         * [Compartir un panel de lienzo](reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/share-canvas-dashboard.md)
       * Añadir informes {#add-reports}
+         * [Agregar informes: índice de artículos](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/add-reports-toc.md)
          * [Información general de tipos de informes del panel de control de lienzo](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/report-types-overview.md)
          * [Creación de un informe de KPI](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-kpi-report.md)
          * [Creación de un informe de gráfico](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-chart-report.md)
          * [Creación de un informe de tabla](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-table-report.md)
          * [Añadir un informe existente a un panel de lienzo](reports-and-dashboards/canvas-dashboards/add-reports/add-existing-report.md)
+      * Administrar paneles de lienzo {#manage-canvas-dashboards}
+         * [Administrar paneles de lienzo](reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/manage-canvas-dashboards.md)
+         * [Compartir un panel de lienzo](reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/share-canvas-dashboard.md)
    * Informes {#reports}
       * [Informes](reports-and-dashboards/reports/reports-overview.md)
       * Conceptos básicos sobre la creación de informes {#report-basics}

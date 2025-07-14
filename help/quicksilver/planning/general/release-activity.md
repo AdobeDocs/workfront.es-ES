@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: bddd0dcd2263bd65420a17e4b9cc74336877719f
+source-git-commit: 718ed3efd56c532693d26cc067041bedbc71cca0
 workflow-type: tm+mt
-source-wordcount: '7388'
+source-wordcount: '7386'
 ht-degree: 9%
 
 ---
@@ -188,7 +188,7 @@ Para obtener más información sobre el Asistente de IA de Workfront Planning, c
 
 Vista previa y producción: jueves, 28 de agosto de 2024
 
-Ahora puede ver la información de Workfront Planning en un informe mediante el panel de lienzo de Workfront. Para obtener más información, consulte [Introducción a los paneles de lienzo](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md).
+Ahora puede ver la información de Workfront Planning en un informe mediante el panel de lienzo de Workfront. Para obtener más información, consulte [Información general sobre paneles de lienzo](/help/quicksilver/reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md).
 
 ## Semana del martes, 19 de agosto de 2024
 
@@ -800,7 +800,7 @@ Producción: jueves, 08 de mayo de 2024
 
 Vista previa: pendiente de determinación
 
-Si es cliente de Adobe Unified Experience y alguien le agrega a un comentario en la página de registro, recibirá una notificación sobre el comentario en la aplicación y por correo electrónico. Puede administrar las preferencias de notificación en el área Preferencias del perfil de Adobe Experience Cloud. Para obtener más información, consulte [Preferencias y notificaciones de la cuenta](https://experienceleague.adobe.com/es/docs/core-services/interface/features/account-preferences).
+Si es cliente de Adobe Unified Experience y alguien le agrega a un comentario en la página de registro, recibirá una notificación sobre el comentario en la aplicación y por correo electrónico. Puede administrar las preferencias de notificación en el área Preferencias del perfil de Adobe Experience Cloud. Para obtener más información, consulte [Preferencias y notificaciones de la cuenta](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences).
 
 Para obtener más información acerca de las notificaciones de planificación de Workfront, vea [Notificaciones de planificación de Adobe Workfront: Índice de artículos](/help/quicksilver/planning/notifications/notifications-information.md).
 

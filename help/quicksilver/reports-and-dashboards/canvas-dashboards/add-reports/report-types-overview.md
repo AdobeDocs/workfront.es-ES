@@ -9,10 +9,10 @@ recommendations: noDisplay, noCatalog
 hidefromtoc: true
 hide: true
 exl-id: d593a9d5-6351-48ff-891d-cc1b727188bc
-source-git-commit: e8c0242ff89cad5378c7fb9d16b54257fc901a2e
+source-git-commit: 718ed3efd56c532693d26cc067041bedbc71cca0
 workflow-type: tm+mt
-source-wordcount: '161'
-ht-degree: 86%
+source-wordcount: '110'
+ht-degree: 80%
 
 ---
 
@@ -29,15 +29,3 @@ Hay varios informes diferentes que puede añadir a un panel de control de lienzo
 * Informes de KPI
 * Informes de tabla
 * Informes de aprobaciones pendientes
-
-Para obtener información general sobre cómo añadir y organizar informes en un panel de lienzo, consulte [Añadir, quitar u organizar informes en un panel de lienzo](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/add-remove-arrange-reports.md). Para obtener información más detallada sobre cómo añadir y dar formato a tipos de informes específicos, consulte el artículo de artículos siguiente.
-
-## Tipos de informes de panel de control de lienzo: índice de artículos
-
-Esta sección contiene los siguientes artículos:
-
-<!--* [Add an existing report to a Canvas Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/add-existing-report.md)
-* [Build a KPI report in a Canvas Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/report-types/build-kpi-report.md)
-* [Build a chart report in a Canvas Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/report-types/build-chart-report.md)
-* [Build a table report in a Canvas Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/report-types/build-table-report.md)
-* [Add a pending approvals report to a Canvas Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/report-types/add-pending-approvals-report.md)-->

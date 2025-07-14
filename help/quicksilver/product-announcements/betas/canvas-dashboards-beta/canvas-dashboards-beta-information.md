@@ -7,23 +7,58 @@ author: Courtney
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 5fbcd807-e152-4e93-a895-2028ed089f72
-source-git-commit: abf5f21281b05dedfecbe71c6ffbf54ee69e2460
+source-git-commit: ba9256255905e139c281099555a6d129fc570984
 workflow-type: tm+mt
-source-wordcount: '418'
-ht-degree: 72%
+source-wordcount: '346'
+ht-degree: 51%
 
 ---
 
 # Información beta de los paneles de lienzo
 
-Paneles de lienzo es una función que está actualmente en desarrollo y que le permite visualizar fácilmente los datos de Adobe Workfront añadiendo varios tipos de informes a un lienzo personalizable. Tenga en cuenta que, aunque le agradecemos su participación durante la fase de prueba de la versión beta, es posible que algunas partes de la funcionalidad no estén completas o que no funcionen según lo previsto. Envíe cualquier comentario sobre su experiencia siguiendo las instrucciones de la sección [Proporcionar comentarios](#provide-feedback) que aparece a continuación.
-
-Para obtener información básica sobre el uso de paneles de lienzo, consulte [Introducción a los paneles de lienzo](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md).
-Para obtener una lista de toda la documentación de los paneles de lienzo, consulte [Información general sobre los paneles de lienzo](/help/quicksilver/reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md).
-
 >[!NOTE]
 >
 >Los paneles de lienzo se encuentran actualmente en una fase de prueba beta cerrada y, por lo tanto, están sujetos a cambios frecuentes.
+
+Paneles de lienzo es una función que se encuentra actualmente en desarrollo, que le permite visualizar fácilmente los datos de Adobe Workfront agregando varios tipos de informes a un lienzo personalizable.
+
+Tenga en cuenta que, aunque le agradecemos su participación durante la fase de prueba de la versión beta, es posible que algunas partes de la funcionalidad no estén completas o que no funcionen según lo previsto. Envíe cualquier comentario sobre su experiencia siguiendo las instrucciones de la sección [Proporcionar comentarios](#provide-feedback) que aparece a continuación.
+
+## Requisitos de acceso
+
++++ Amplíe para ver los requisitos de acceso.
+
+<table style="table-layout:auto"> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+<tr> 
+   <td role="rowheader"><p>Plan de Adobe Workfront</p></td> 
+   <td> 
+<p>Cualquiera </p> 
+   </td> 
+<tr> 
+ <tr> 
+   <td role="rowheader"><p>Licencia de Adobe Workfront</p></td> 
+   <td> 
+<p>Actual: plan </p> 
+<p>Nuevo: estándar</p> 
+   </td> 
+   </tr> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Configuraciones de nivel de acceso</p></td> 
+   <td><p>Editar el acceso a Informes, Paneles y Calendarios</p>
+  </td> 
+  </tr>  
+</tbody> 
+</table>
+
+Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
++++
+
 
 ## Inscripción en la versión beta
 
@@ -49,29 +84,3 @@ Agradeceremos sus comentarios a medida que desarrollemos esta herramienta en el 
 
 1. Haga clic en **Enviar**.
 
-## Funciones planificadas
-
-A continuación se ofrece una lista de los tipos de informes que admite actualmente la versión beta, así como una lista de otras funciones que está previsto añadir a los paneles de lienzo durante la versión beta y en etapas posteriores.
-
-### Tipos de informes admitidos
-
-* Informes existentes (informes creados con la herramienta de creación de informes actual)
-* Informes de gráficos
-* Informes de KPI
-* Informes de tabla
-* Informes de aprobaciones pendientes
-
-### Características en desarrollo
-
-* Caracteres comodín basados en fechas y usuarios para filtros
-* Informes de Workfront Planning
-* Tipos de objetos adicionales de Workfront
-* Informes de tableros
-* Otras mejoras de uso
-* Hojas de trabajo
-* Contenido web incrustado
-
-### Futuras funciones de hoja de ruta
-
-* Indicadores de nivel de panel
-* Compatibilidad con la moneda

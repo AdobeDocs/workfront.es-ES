@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: fe9d3cfbb50bfda672360b918d971cc77b0b8b0a
+source-git-commit: 718ed3efd56c532693d26cc067041bedbc71cca0
 workflow-type: tm+mt
-source-wordcount: '2061'
+source-wordcount: '2059'
 ht-degree: 53%
 
 ---
@@ -325,7 +325,6 @@ A continuación, se muestran los objetos y conceptos principales de Workfront Pl
      ![Agrupación aplicada en la vista de escala de tiempo](assets/grouping-applied-in-timeline-view.png)
 
    * **Vista de calendario**: muestra los registros que tienen al menos dos campos de tipo Fecha en formato de calendario.
-
      ![Ejemplo de vista de calendario](assets/calendar-view-example.png)
 
 
@@ -349,7 +348,7 @@ Para localizar Workfront Planning:
 
    >[!TIP]
    >
-   >    El administrador de Workfront podría añadir el área Planning a la opción Seleccionar página de aterrizaje de la plantilla de diseño para poder abrir Planning en cuanto se inicie sesión en Workfront. Para obtener más información, consulte [Personalización de la página de aterrizaje mediante una plantilla de diseño](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-landing-page.md).
+   >    El administrador de Workfront podría añadir el área Planning a la opción Seleccionar página de destino de la plantilla de diseño para poder abrir Planning en cuanto se inicie sesión en Workfront. Para obtener más información, consulte [Personalización de la página de destino mediante una plantilla de diseño](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-landing-page.md).
 
 1. (Condicional y opcional) Si es administrador de Workfront, haga clic en una de las siguientes pestañas:
    * **Espacios de trabajo en los que participo**: muestra los espacios de trabajo que ha creado o los que se han compartido con usted.
@@ -397,9 +396,9 @@ Para obtener una lista actualizada de las características publicadas, consulte 
     >
     >    The Workfront AI Assistant has been temporarily removed and it will be available at a later date.-->
 
-* [Módulos de Adobe Workfront Planning para Workfront Fusion](https://experienceleague.adobe.com/es/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules): Con los módulos de Adobe Workfront Planning, puede activar un escenario cuando se produzcan eventos en Workfront Planning. También puede crear, leer, actualizar y eliminar registros, o realizar una llamada de API personalizada a su cuenta de Adobe Workfront Planning.
+* [Módulos de Adobe Workfront Planning para Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules): Con los módulos de Adobe Workfront Planning, puede activar un escenario cuando se produzcan eventos en Workfront Planning. También puede crear, leer, actualizar y eliminar registros, o realizar una llamada de API personalizada a su cuenta de Adobe Workfront Planning.
 
 * [Conceptos básicos de la API de Adobe Workfront Planning](/help/quicksilver/planning/general/planning-api-basics.md): la meta de la API de Planning de Adobe Workfront es simplificar la creación de integraciones con Planning mediante la introducción de una arquitectura REST-ful que funcione a través de HTTP.
 
-* **Funciones de informes de Workfront Planning**: ahora puede ver información de Workfront Planning en un informe en Workfront mediante el panel de lienzo de Workfront. Para obtener más información, consulte [Introducción a los paneles de lienzo](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md).
+* **Funciones de informes de Workfront Planning**: ahora puede ver información de Workfront Planning en un informe en Workfront mediante el panel de lienzo de Workfront. Para obtener más información, consulte [Información general sobre paneles de lienzo](/help/quicksilver/reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md).
 

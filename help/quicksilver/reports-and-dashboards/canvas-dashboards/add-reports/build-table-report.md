@@ -2,16 +2,14 @@
 product-area: Canvas Dashboards
 navigation-topic: report-types
 title: Creación de un informe de tabla
-description: Se puede agregar a un panel de lienzo un informe de tabla que muestre los datos como una tabla configurable.
-author: Nolan
+description: Puede agregar un informe de tabla a un panel de lienzo para visualizar los datos en formato de tabla.
+author: Courtney and Jenny
 feature: Reports and Dashboards
-hidefromtoc: true
-hide: true
 exl-id: a7aa8614-6e80-4fc1-88ff-d952d87ddcbc
-source-git-commit: 026365a182b29c7ac073a4c8c28f0044bfe9c4cc
+source-git-commit: ba9256255905e139c281099555a6d129fc570984
 workflow-type: tm+mt
-source-wordcount: '180'
-ht-degree: 63%
+source-wordcount: '436'
+ht-degree: 12%
 
 ---
 
@@ -19,41 +17,97 @@ ht-degree: 63%
 
 >[!IMPORTANT]
 >
->Esta página describe la funcionalidad que está disponible como parte de la versión beta de Paneles de lienzo. Consulte la [información beta de paneles de lienzo](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md) para obtener más información.
+>Actualmente, la función Paneles de lienzo solo está disponible para los usuarios que participan en la fase beta. Para obtener más información, consulte [Información beta de paneles de lienzo](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md).
 
-Se puede agregar a un panel de lienzo un informe de tabla que muestre los datos como una tabla configurable.
+Puede agregar un informe de tabla a un panel de lienzo para visualizar los datos en formato de tabla.
 
-Para obtener información general sobre cómo añadir y organizar informes en un panel de lienzo, consulte [Añadir, eliminar u organizar informes en un panel de lienzo](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/add-remove-arrange-reports.md).
+![Ejemplo de informe de tabla](assets/table-example-main.png)
 
-## Requisitos de acceso
-
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
++++ Amplíe para ver los requisitos de acceso.
 
 <table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Plan de Adobe Workfront</td> 
-   <td>Cualquiera</td> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+<tr> 
+   <td role="rowheader"><p>Plan de Adobe Workfront</p></td> 
+   <td> 
+<p>Cualquiera </p> 
+   </td> 
+<tr> 
+ <tr> 
+   <td role="rowheader"><p>Licencia de Adobe Workfront</p></td> 
+   <td> 
+<p>Actual: plan </p> 
+<p>Nuevo: estándar</p> 
+   </td> 
+   </tr> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licencia de Adobe Workfront</td> 
-   <td>Nuevo: estándar
-   <p>o</p>
-   <p>Actual: plan</p></td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Configuraciones de nivel de acceso</td> 
-   <td> <p>Debe tener acceso de edición en los paneles.</p></td> 
-  </tr> 
- </tbody> 
+   <td role="rowheader"><p>Configuraciones de nivel de acceso</p></td> 
+   <td><p>Editar el acceso a Informes, Paneles y Calendarios</p>
+  </td> 
+  </tr>  
+</tbody> 
 </table>
 
-Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
++++
+
+## Requisitos previos
+
+Debe crear un tablero para poder crear un informe de tabla.
 
 ## Generar un informe de tabla en un panel de control del lienzo
 
->[!IMPORTANT]
->
->Este artículo aún no se ha finalizado. Consulte las instrucciones generales para añadir un informe a un panel de lienzo en el artículo [Añadir, quitar u organizar informes en un panel de lienzo](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/add-remove-arrange-reports.md).
+Hay muchas opciones de configuración disponibles para crear un informe de tabla. En esta sección, le guiaremos a través del proceso general de creación de uno.
+
+{{step1-to-dashboards}}
+
+1. En el panel izquierdo, haga clic en **Paneles de lienzo**.
+
+1. Haga clic en **Nuevo panel** en la esquina superior derecha.
+
+1. En el cuadro **Crear tablero**, escriba el **Nombre** y la **Descripción** del tablero.
+
+1. Haga clic en **Crear**.
+
+1. En el cuadro **Agregar informe**, seleccione **Crear informe**.
+
+1. En el lado izquierdo, seleccione **Tabla**.
+
+1. En la esquina superior derecha, haga clic en **Crear informe**.
+
+1. (Opcional) Siga los pasos a continuación para configurar la sección **Detalles**:
+
+   1. Escriba un informe **Nombre**.
+
+   1. Escriba un informe **Descripción**.
+
+1. Siga los pasos a continuación para configurar la sección **Generar tabla**:
+
+   1. En el panel izquierdo, haga clic en el icono **Columnas de tabla** ![Icono de crear tabla](assets/drilldown-column.png).
+
+   1. Haga clic en **Agregar columna** y, a continuación, seleccione el campo que desee mostrar como columna en la tabla. La columna aparece en la sección de vista previa de la derecha.
+
+   1. Repita el paso anterior para cada columna que desee agregar.
+
+1. Siga los pasos a continuación para configurar la sección **Filter**:
+
+   1. En el panel izquierdo, haga clic en el icono **Filtro** ![Icono de filtro](assets/filter-icon.png).
+
+   1. Seleccione **Editar filtro**.
+
+   1. Haga clic en **Agregar condición** y, a continuación, especifique el campo por el que desea filtrar y el modificador que define qué tipo de condición debe cumplir el campo. La columna aparece en la sección de vista previa de la derecha.
+
+1. (Opcional) Haga clic en **Agregar grupo de filtros** para agregar otro conjunto de criterios de filtrado. El operador predeterminado entre los conjuntos es Y. Haga clic en el operador para cambiarlo a OR.
+
+1. Siga los pasos a continuación para configurar la sección **Configuración del grupo de desglose**:
+
+   1. En el panel izquierdo, haga clic en el icono **Configuración de grupo** ![Icono de configuración de grupo](assets/drilldown-group-icon.png).
+
+   1. Haga clic en el botón **Agregar agrupación** y, a continuación, seleccione el campo que desee crear como agrupación. La columna de agrupación aparece en la sección de vista previa de la derecha.
+
+1. Haga clic en **Guardar** para crear el informe y agregarlo al tablero.
