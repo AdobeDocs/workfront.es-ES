@@ -3,9 +3,9 @@ user-guide-title: Guía de Workfront
 user-guide-description: Utilice los siguientes documentos, tutoriales y recursos adicionales para aprender a implementar y utilizar Adobe Workfront de forma eficaz en su organización.
 role: User
 feature-set: Workfront
-source-git-commit: 979d0919605564107e58032b80cfd259bd6edffa
+source-git-commit: b4e2f9b6cad03062b4edb2858f2a59847b47d622
 workflow-type: tm+mt
-source-wordcount: '13221'
+source-wordcount: '13233'
 ht-degree: 60%
 
 ---
@@ -2041,7 +2041,8 @@ ht-degree: 60%
       * [Información general de tipos de registro](planning/architecture/overview-of-record-types.md)
       * [Crear tipos de registro](planning/architecture/create-record-types.md)
       * [Crear tipos de registro importando información desde un archivo CSV o de Excel](planning/architecture/import-file-to-create-record-types.md)
-      * [Crear tipos de registros globalmente](planning/architecture/create-record-types-globally.md)
+      * [Configuración de funciones entre espacios de trabajo para tipos de registros](planning/architecture/configure-record-type-cross-workspace-capabilities.md)
+      * [Añadir tipos de registros entre espacios de trabajo](planning/architecture/add-cross-workspace-record-types.md)
       * [Información general sobre tipos de registros Connect](planning/architecture/connect-record-types-overview.md)
       * [Conectar tipos de registro](planning/architecture/connect-record-types.md)
       * [Editar tipos de registro](planning/architecture/edit-record-types.md)
@@ -2086,6 +2087,7 @@ ht-degree: 60%
       * [Administrar el diseño de página de registro](planning/records/manage-the-record-page.md)
       * [Administrar conexiones de registro desde objetos de Workfront](planning/records/manage-records-in-planning-section.md)
       * [Exportación de los detalles de un registro](planning/records/export-the-record-page.md)
+      * [Exportar registros desde la vista de tabla](planning/records/export-records-from-the-table-view.md)
       * [Cree objetos de Workfront desde Workfront Planning a medida que los conecta a registros](planning/records/create-workfront-objects-from-workfront-planning.md)
       * [Configuración de automatizaciones de Adobe Workfront Planning](planning/records/configure-automations-to-create-records.md)
       * [Creación de objetos mediante automatizaciones de registros de Workfront Planning](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md)
