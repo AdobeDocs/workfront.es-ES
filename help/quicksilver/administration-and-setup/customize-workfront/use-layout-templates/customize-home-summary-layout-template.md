@@ -4,11 +4,11 @@ user-type: administrator
 product-area: system-administration;templates;setup
 navigation-topic: layout-templates
 description: Puede usar una plantilla de diseño para configurar lo que ven los usuarios cuando hacen clic en una tarea o un problema en el resumen. Cada configuración que realice siguiendo los pasos siguientes afecta al panel Resumen. Estas personalizaciones no se aplican al panel Resumen del documento.
-author: Alina
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 8f64c009-09ad-45f6-8b59-5c1b4024532e
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: 80bdc2f2c1bedbc5a894b5a474425c5544c039fd
 workflow-type: tm+mt
 source-wordcount: '770'
 ht-degree: 57%

@@ -4,11 +4,11 @@ user-type: administrator
 product-area: system-administration;templates;setup
 navigation-topic: layout-templates
 description: Como administrador de Workfront, puede utilizar una plantilla de diseño para determinar qué información aparece cuando un usuario selecciona la sección Detalles en el panel izquierdo mientras ve una tarea, un problema, un documento, un programa o un portafolio.
-author: Alina
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 1474e1dd-9b10-476e-9526-6577efa8d1c2
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: 80bdc2f2c1bedbc5a894b5a474425c5544c039fd
 workflow-type: tm+mt
 source-wordcount: '596'
 ht-degree: 75%
@@ -100,7 +100,7 @@ Para realizarlos para un grupo, debe ser administrador de ese grupo.</p> </td>
 ## Personalizar lo que ven los usuarios en la vista Detalles
 
 1. Empiece a trabajar en una plantilla de diseño, tal como se describe en [Crear y administrar plantillas de diseño](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
-1. Haga clic en la flecha abajo ![Flecha abajo](assets/dropdown-arrow-12x12.png) bajo **Personalizar lo que ven los usuarios** y, a continuación, haga clic en **Proyecto**, **Tarea**, **Problema**, **Programa** o **Portfolio.**
+1. Haga clic en la flecha abajo ![Flecha abajo](assets/dropdown-arrow-12x12.png) bajo **Personalizar lo que ven los usuarios**, luego haga clic en **Proyecto**, **Tarea**, **Problema**, **Programa** o **Portfolio.**
 <!--
 , or billing record
 -->

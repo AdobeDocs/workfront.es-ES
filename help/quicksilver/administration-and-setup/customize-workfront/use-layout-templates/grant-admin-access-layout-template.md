@@ -4,14 +4,14 @@ user-type: administrator
 product-area: system-administration;templates;user-management
 navigation-topic: layout-templates
 description: Como administrador de Adobe Workfront, puede otorgar acceso administrativo a una plantilla de diseño a los administradores de grupo de un grupo en particular para que puedan editar la plantilla. Esto no asigna la plantilla a los usuarios del grupo.
-author: Alina
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 066a55ef-1904-4678-8866-c59428f78bc1
-source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
+source-git-commit: 80bdc2f2c1bedbc5a894b5a474425c5544c039fd
 workflow-type: tm+mt
 source-wordcount: '437'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ Para obtener información acerca de cómo asignar usuarios a una plantilla de di
 
 Para obtener más información acerca de las plantillas de diseño, vea [Crear y administrar plantillas de diseño](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 
-Para obtener información acerca de las plantillas de diseño para grupos, vea [Crear y modificar plantillas de diseño de un grupo](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
+Para obtener información sobre las plantillas de diseño para grupos, consulte [Crear y modificar las plantillas de diseño de un grupo](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
 
 ## Requisitos de acceso
 
@@ -36,7 +36,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plan de Adobe Workfront</td> 
+   <td role="rowheader">Plan de Adobe Workfront</td> 
    <td>Cualquiera</td> 
   </tr> 
   <tr> 

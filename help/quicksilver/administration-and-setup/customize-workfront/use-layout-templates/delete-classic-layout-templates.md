@@ -8,14 +8,14 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: c6d33d5d-da93-4aba-8897-f177c1171595
-source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
+source-git-commit: 80bdc2f2c1bedbc5a894b5a474425c5544c039fd
 workflow-type: tm+mt
-source-wordcount: '318'
-ht-degree: 51%
+source-wordcount: '315'
+ht-degree: 80%
 
 ---
 
-# Concesión de acceso administrativo a una plantilla de diseño
+# Eliminar plantillas de diseño clásicas
 
 Las plantillas de diseño de la experiencia clásica de Workfront ya no están disponibles en la interfaz de Workfront, pero pueden afectar a los datos de Workfront. Esto puede provocar incoherencias en los campos afectados por las plantillas de diseño (como el campo Compartido con) en los informes o paneles.
 
@@ -32,7 +32,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plan de Adobe Workfront</td> 
+   <td role="rowheader">Plan de Adobe Workfront</td> 
    <td>Cualquiera</td> 
   </tr> 
   <tr> 
@@ -53,7 +53,7 @@ Para realizarlos para un grupo, debe ser administrador de ese grupo.</p> </td>
 
 +++
 
-## Eliminar las plantillas de diseño clásicas mediante una llamada de API
+## Elimine las plantillas de diseño clásicas mediante una llamada de API
 
 Puede introducir llamadas de API en la barra URL del navegador y pulsar Intro. La respuesta de la API se muestra en el explorador.
 

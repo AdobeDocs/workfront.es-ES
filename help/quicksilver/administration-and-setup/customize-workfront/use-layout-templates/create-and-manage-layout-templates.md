@@ -4,15 +4,15 @@ user-type: administrator
 content-type: overview
 product-area: system-administration;templates
 navigation-topic: layout-templates
-description: Como administrador de Workfront o de un grupo, puede crear y modificar plantillas de diseño para personalizar los elementos de diseño en Workfront para los usuarios.
-author: Alina
+description: Como administrador de Workfront o de un grupo, puede crear y modificar plantillas de diseño para personalizar los elementos de diseño para los usuarios en Workfront.
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 53076920-3b13-4b65-85cb-38096cf2d04d
-source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
+source-git-commit: 80bdc2f2c1bedbc5a894b5a474425c5544c039fd
 workflow-type: tm+mt
 source-wordcount: '510'
-ht-degree: 3%
+ht-degree: 97%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 3%
 **DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.
 -->
 
-Como administrador de Adobe Workfront o de un grupo, puede crear y modificar plantillas de diseño para personalizar los siguientes elementos de diseño en Workfront para los usuarios:
+Como administrador de Adobe Workfront o de un grupo, puede crear y modificar plantillas de diseño para personalizar los siguientes elementos de diseño para los usuarios en Workfront:
 
 * Menú principal
 * Panel de navegación izquierdo
@@ -32,11 +32,11 @@ Como administrador de Adobe Workfront o de un grupo, puede crear y modificar pla
 * Panel de resumen
 * Vistas, filtros y agrupaciones que se utilizan con listas e informes.
 * Terminología en pantalla
-* Encabezados de proyecto, tarea y problema
+* Encabezados de proyectos, tareas y problemas
 
 Después de crear o modificar una plantilla de diseño, puede asignarla a usuarios individuales, equipos, grupos o funciones de trabajo.
 
-El diseño de Workfront predeterminado de cada usuario depende de su nivel de acceso y tipo de licencia. Por ejemplo, es posible que algunos usuarios no vean algunas áreas en el menú principal. Para obtener más información, vea [Acerca del diseño predeterminado de Adobe Workfront](../../../administration-and-setup/customize-workfront/use-layout-templates/about-the-default-wf-layout.md).
+El diseño predeterminado de Workfront de cada usuario depende de su nivel de acceso y tipo de licencia. Por ejemplo, es posible que algunos usuarios no vean algunas áreas en el menú principal. Para obtener más información, consulte [Acerca del diseño predeterminado de Adobe Workfront](../../../administration-and-setup/customize-workfront/use-layout-templates/about-the-default-wf-layout.md).
 
 ## Requisitos de acceso
 
@@ -49,7 +49,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plan de Adobe Workfront</td> 
+   <td role="rowheader">Plan de Adobe Workfront</td> 
    <td>Cualquiera</td> 
   </tr> 
   <tr> 
@@ -72,41 +72,41 @@ Para realizarlos para un grupo, debe ser administrador de ese grupo.</p> </td>
 
 ## Consideraciones para crear y administrar plantillas de diseño
 
-* Los usuarios pueden personalizar algunas áreas de su propio diseño. Al cambiar una plantilla de diseño, los cambios se combinan con las personalizaciones que hayan realizado, sin sobrescribirlos ni restablecerlos. Esto también se aplica si asigna usuarios a una nueva plantilla de diseño.
+* Los usuarios pueden personalizar algunas áreas de su propio diseño. Al cambiar una plantilla de diseño, los cambios se combinan con las personalizaciones que se hayan realizado, sin sobrescribirlos ni restablecerlos. Esto también se aplica si asigna usuarios a una nueva plantilla de diseño.
 * Los administradores de grupos y los usuarios con una licencia de planificación que puedan editar a otros usuarios pueden añadir plantillas de diseño de nivel de sistema y de grupo a los usuarios que pueden gestionar al editar su perfil.
-* Los administradores de grupo no pueden asignar plantillas de diseño a roles o equipos de trabajo.
+* Los administradores de grupo no pueden asignar plantillas de diseño a funciones o equipos de trabajo.
 
-Para obtener más información acerca de las plantillas de diseño, vea [Plantillas de diseño](../../../administration-and-setup/customize-workfront/use-layout-templates/use-layout-templates-customize-ui.md).
+Para obtener más información sobre las plantillas de diseño, consulte [Plantillas de diseño](../../../administration-and-setup/customize-workfront/use-layout-templates/use-layout-templates-customize-ui.md).
 
 <!--removed this from above, but keeping it for a bit, in case it will be needed - known issue around old templates still visible at time:
 * Your older layout templates created in Adobe Workfront Classic have been automatically available in your instance of the new Adobe Workfront experience since they were migrated in early Fall 2019. Layout templates created in Adobe Workfront Classic after that time were migrated in April 2020. We recommend that you update these layout templates in the new Adobe Workfront experience to take advantage of new functionality and to make them even more useful in that environment.
 -->
 
-## Creación o modificación de una plantilla de diseño
+## Crear o modificar una plantilla de diseño
 
 {{step-1-to-setup}}
 
 1. En el panel izquierdo, haga clic en **Interfaz** > **Plantillas de diseño**.
 
-1. Haga clic en **Nueva plantilla de diseño**.
+1. Haga clic en **Nueva plantilla de diseño**
 
    O
 
-   Haga clic en el nombre de la plantilla de diseño que desee modificar.
+   Haga clic en el nombre de la plantilla de diseño que desea modificar.
 
-1. Si está creando una nueva plantilla de diseño, escriba un **nombre de plantilla de diseño** y (opcional) una **descripción** para ella.
+1. Si está creando una nueva plantilla de diseño, escriba un **nombre de plantilla de diseño** y (opcional) una **descripción** para él.
 
 1. Personalice las áreas de la interfaz de usuario, tal como se describe en los siguientes artículos:
 
-   * [Personalizar el menú principal mediante una plantilla de diseño](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md)
+   * [Personalizar el menú principal con una plantilla de diseño](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md)
    * [Personalizar el panel izquierdo con una plantilla de diseño](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md)
-   * [Personalizar páginas ancladas mediante una plantilla de diseño](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-pinned-pages.md)
-   * [Personalizar la vista Detalles mediante una plantilla de diseño](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md)
+   * [Personalizar las páginas ancladas con una plantilla de diseño](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-pinned-pages.md)
+   * [Personalizar la vista de detalles con una plantilla de diseño](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md)
    * [Personalizar el panel de resumen mediante una plantilla de diseño](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)
    * [Personalizar el Inicio con una plantilla de diseño](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-new-home-layout-template.md)
-   * [Personalizar la página de aterrizaje mediante una plantilla de diseño](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-landing-page.md)
-   * [Personalizar filtros, vistas y agrupaciones mediante una plantilla de diseño](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
-   * [Personalización de la terminología de la interfaz de usuario mediante una plantilla de diseño](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-terminology.md)
+   * [Personalizar la página de destino con una plantilla de diseño](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-landing-page.md)
+   * [Personalizar filtros, vistas y agrupaciones con una plantilla de diseño](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
+   * [Personalizar la terminología de la interfaz de usuario con una plantilla de diseño](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-terminology.md)
 
 1. Continúe probando la plantilla de diseño y poniéndola a disposición de los usuarios, tal como se describe en los artículos siguientes:
 
