@@ -6,7 +6,7 @@ description: Se puede añadir a un panel de lienzo un informe de KPI que muestre
 author: Courtney and Jenny
 feature: Reports and Dashboards
 exl-id: e1c68ac3-112e-4f9e-b644-f44bb0778b92
-source-git-commit: ba9256255905e139c281099555a6d129fc570984
+source-git-commit: 981d86fa7d54d9d26c0a2b6142db98d5989cbed2
 workflow-type: tm+mt
 source-wordcount: '579'
 ht-degree: 12%
@@ -86,8 +86,8 @@ Hay muchas opciones de configuración disponibles para crear un informe de KPI. 
    1. Escriba un informe **Descripción**.
 
       >[!NOTE]
-      > 
-      > La descripción se utilizará como pie de ilustración debajo del valor de KPI. Si no introduce una descripción, se generará un pie de ilustración en función del agregador y el tipo de agregación que seleccione en los pasos siguientes.
+      >
+      >La descripción se utilizará como pie de ilustración debajo del valor de KPI. Si no introduce una descripción, se generará un pie de ilustración en función del agregador y el tipo de agregación que seleccione en los pasos siguientes.
 
 1. Siga los pasos a continuación para configurar la sección **Generar KPI**:
 

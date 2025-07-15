@@ -6,7 +6,7 @@ description: Se puede añadir a un panel de lienzo un informe de gráfico que vi
 author: Courtney and Jenny
 feature: Reports and Dashboards
 exl-id: 4262cae8-602f-416d-94b9-409eb9d6241c
-source-git-commit: ba9256255905e139c281099555a6d129fc570984
+source-git-commit: 981d86fa7d54d9d26c0a2b6142db98d5989cbed2
 workflow-type: tm+mt
 source-wordcount: '1037'
 ht-degree: 8%
@@ -139,7 +139,6 @@ Hay muchas opciones de configuración disponibles para crear un informe de gráf
 ## Crear un ejemplo de informe de gráfico
 
 En esta sección, veremos los pasos para crear un gráfico de columnas que muestre las tareas vencidas por el propietario del proyecto.
-
 
 {{step1-to-dashboards}}
 

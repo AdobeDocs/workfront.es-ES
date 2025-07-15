@@ -6,10 +6,10 @@ description: Los informes creados con la herramienta Informes de Adobe Workfront
 author: Courtney and Jenny
 feature: Reports and Dashboards
 exl-id: f77990ab-da7a-4dcb-89fa-f65ed2b79522
-source-git-commit: ba9256255905e139c281099555a6d129fc570984
+source-git-commit: 981d86fa7d54d9d26c0a2b6142db98d5989cbed2
 workflow-type: tm+mt
-source-wordcount: '225'
-ht-degree: 48%
+source-wordcount: '232'
+ht-degree: 47%
 
 ---
 
@@ -55,6 +55,8 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
 {{step1-to-dashboards}}
 
 1. En el panel izquierdo, haga clic en **Paneles de lienzo**.
+
+1. Haga clic en **Nuevo panel** en la esquina superior derecha.
 
 1. En el cuadro **Crear tablero**, escriba el **Nombre** y la **Descripción** del tablero.
 
