@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: af7789f3a4c7443854639fd60bcf0661217b37ae
+source-git-commit: b95d536bc251c2575b105f38691a66bde67502b8
 workflow-type: tm+mt
-source-wordcount: '6547'
+source-wordcount: '6589'
 ht-degree: 56%
 
 ---
@@ -133,7 +133,7 @@ Cada nombre de campo personalizado debe ser único en la instancia de Workfront 
 >[!NOTE]
 >
 >Aunque es posible hacerlo, le recomendamos que no cambie este nombre después de que usted u otros usuarios empiecen a utilizar el formulario personalizado en Workfront. Si lo hace, el sistema ya no reconocerá el campo personalizado, donde ahora se podría hacer referencia a él en otras áreas de Workfront.
->&#x200B;>Por ejemplo, si añade el campo personalizado a un informe y posteriormente cambia su nombre, Workfront no lo reconocerá en el informe y dejará de funcionar correctamente allí a menos que lo vuelva a añadir al informe con el nuevo nombre.
+>>Por ejemplo, si añade el campo personalizado a un informe y posteriormente cambia su nombre, Workfront no lo reconocerá en el informe y dejará de funcionar correctamente allí a menos que lo vuelva a añadir al informe con el nuevo nombre.
 >
 >Se recomienda no escribir un nombre que ya se utilice en los campos integrados de Workfront.
 >
@@ -632,12 +632,12 @@ Para añadir una búsqueda externa:
       <td role="rowheader">Ruta JSON</td>
       <td><p>Escriba o pegue la ruta JSON para la API.</p> <p>Esta opción permite extraer datos del JSON devuelto por la URL de la API. Sirve para seleccionar qué valores dentro del JSON aparecerán en las opciones desplegables.</p><p>Por ejemplo, si la dirección URL de la API devuelve JSON en el siguiente formato, puede usar "$.data[*].name" para seleccionar EE. UU. y Canadá como opciones desplegables:</br>
       <pre>
-      &lbrace;
-       data: &lbrace;
+      {
+       data: {
          { name: "USA"},
          { name: "Canada"}
-       &rbrace;
-      &rbrace;
+       }
+      }
       </pre>
       </p>
      <p>Para obtener más información sobre la ruta JSON y cómo asegurarse de que escribe la ruta JSON correcta, consulte <a href="https://jsonpath.com/">https://jsonpath.com/</a>.</p></td>
@@ -743,6 +743,10 @@ Para añadir imágenes, PDF o vídeos:
     </tbody> 
    </table>
 
+   >[!NOTE]
+   >En el caso de los PDF, se recomienda utilizar Grande para el tamaño de visualización del widget.
+   >El visor de PDF de un explorador afecta a la visualización de los usuarios, que pueden tener que ajustar el tamaño de la ventana y el porcentaje de zoom del explorador si la visualización de PDF no es óptima.
+
 1. (Opcional) Repita el paso anterior para añadir otros campos o widgets.
 
    O
@@ -804,7 +808,7 @@ Esta tabla enumera los campos nativos disponibles para objetos de Workfront espe
 | Fecha planificada de finalización | ✓ | ✓ | ✓ |   |   |   |   |   |
 | Duración planificada | ✓ |   |   | ✓ |   |   |   |   |
 | Horas planificadas | ✓ | ✓ | ✓ |   | ✓ |   |   |   |
-| Fecha planificada de inicio | ✓ |   |   |   |   |   |   |   |
+| Fecha de inicio planificada | ✓ |   |   |   |   |   |   |   |
 | Portafolio | ✓ |   |   | ✓ |   |   | ✓ |   |
 | Prioridad | ✓ | ✓ | ✓ | ✓ | ✓ |   |   |   |
 | Programa | ✓ |   |   | ✓ |   |   |   |   |
