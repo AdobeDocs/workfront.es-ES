@@ -317,7 +317,7 @@ Los tipos de campo numéricos capturan información en formato numérico.
 >Los campos de número se muestran como un campo de texto de una sola línea en un generador de formularios de solicitud.
 >
 >Sin embargo, el formato de campo se conserva y los valores de estos campos se muestran como números después de enviar la solicitud, en el tipo de registro y en la página de detalles de la solicitud.
->>Para obtener más información, consulte [Crear y administrar un formulario de solicitud en Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
+>&#x200B;>Para obtener más información, consulte [Crear y administrar un formulario de solicitud en Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 
 
 1. Comience a crear un campo como se describe en la sección [Crear campos desde cero](#create-fields-from-scratch) de este artículo y, a continuación, seleccione el tipo de campo **Número**.
@@ -347,7 +347,7 @@ Los tipos de campo de porcentaje capturan información en un formato numérico s
 >Los campos de porcentaje se muestran como un campo de texto de una sola línea en un generador de formularios de solicitud.
 >
 >Sin embargo, el formato de campo se conserva y los valores de estos campos se muestran como porcentajes después de enviar la solicitud, en el tipo de registro y en la página de detalles de la solicitud.
->>Para obtener más información, consulte [Crear y administrar un formulario de solicitud en Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
+>&#x200B;>Para obtener más información, consulte [Crear y administrar un formulario de solicitud en Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 
 
 1. Comience a crear un campo como se describe en la sección [Crear campos desde cero](#create-fields-from-scratch) de este artículo y, a continuación, seleccione el tipo de campo **Porcentaje**.
@@ -387,7 +387,7 @@ Los tipos de campo Divisa capturan información en un formato de número precedi
 >Los campos de moneda se muestran como un campo de texto de una sola línea en un generador de formularios de solicitud.
 >
 >Sin embargo, el formato de campo se conserva y los valores de estos campos se muestran como moneda una vez enviada la solicitud, en el tipo de registro y en la página de detalles de la solicitud.
->>Para obtener más información, consulte [Crear y administrar un formulario de solicitud en Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
+>&#x200B;>Para obtener más información, consulte [Crear y administrar un formulario de solicitud en Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 
 1. Comience a crear un campo como se describe en la sección [Crear campos desde cero](#create-fields-from-scratch) de este artículo y, a continuación, seleccione el tipo de campo **Divisa**.
 
