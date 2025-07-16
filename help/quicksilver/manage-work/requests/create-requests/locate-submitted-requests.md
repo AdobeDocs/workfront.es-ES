@@ -8,7 +8,7 @@ feature: Requests
 topic: Collaboration
 role: User
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
-source-git-commit: 78b4724ca8d5df15ed76e9e882179e3cb127282c
+source-git-commit: b27b01e1efacc3fc459cec0a53b2c11cbe5e132b
 workflow-type: tm+mt
 source-wordcount: '1022'
 ht-degree: 81%
@@ -204,9 +204,9 @@ Para localizar solicitudes que ha enviado u otros usuarios han enviado:
 
 1. (Opcional y condicional) Si su organización compró un paquete de Workfront Planning, haga clic en la pestaña **Planning** y, a continuación, haga clic en **Enviado** en el panel izquierdo para ver las solicitudes de Workfront Planning.
 
-   <span class="preview">Use **Filtros** y **Columnas** para actualizar la información en la lista de solicitudes de Planning. </span>
+   Use **Filtros** y **Columnas** para actualizar la información en la lista de solicitudes de Planning.
 
-   <span class="preview">![](assets/workfront-planning-tab-submitted-section-in-requests-area.png)</span>
+   ![](assets/workfront-planning-tab-submitted-section-in-requests-area.png)
 
    Para obtener más información, consulte [Enviar solicitudes de Adobe Workfront Planning para crear registros](/help/quicksilver/planning/requests/submit-requests.md).
 

@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 0f643d36-6235-4fd3-b6d3-54fbd03c9b33
-source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
+source-git-commit: b27b01e1efacc3fc459cec0a53b2c11cbe5e132b
 workflow-type: tm+mt
-source-wordcount: '442'
-ht-degree: 56%
+source-wordcount: '386'
+ht-degree: 62%
 
 ---
 
@@ -19,20 +19,12 @@ ht-degree: 56%
 
 <!--Audited: 11/2024-->
 
-<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes que han comprado [!DNL Adobe Workfront Planning]. Después de las versiones mensuales en Production, las mismas funciones también están disponibles en el entorno Production para los clientes que habilitaron versiones rápidas. </span>
-
-<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
-
 Con fines de creación de informes, es posible que desee crear trimestres personalizados si los trimestres de su organización se basan en criterios específicos distintos de las fechas del calendario (como días laborables o días de compras).
-
-<div class="preview">
 
 Según los productos que haya adquirido su compañía, puede configurar el siguiente número de trimestres en el área Configuración de Workfront:
 
-* Los clientes que solo compraron [!DNL Workfront], pueden configurar hasta ocho trimestres personalizados para el sistema [!DNL Adobe Workfront].
-* Los clientes que compraron [!DNL Workfront] y [!DNL Workfront Planning], pueden configurar hasta 100 trimestres para el sistema [!DNL Workfront], que también están disponibles en [!DNL Planning].
-
-</div>
+* Los clientes que solo compraron [!DNL Workfront], pueden configurar hasta ocho trimestres personalizados para su sistema [!DNL Adobe Workfront].
+* Los clientes que compraron [!DNL Workfront] y [!DNL Workfront Planning], pueden configurar hasta 100 trimestres para su sistema [!DNL Workfront], que también están disponibles en [!DNL Planning].
 
 ## Requisitos de acceso
 
@@ -83,8 +75,8 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
 
    >[!IMPORTANT]
    >
-   > <span class="preview">Si su empresa compró [!DNL Workfront Planning], no puede guardar sus trimestres personalizados si hay espacios o superposiciones entre los trimestres. </span>
-   ><span class="preview">![Trimestres personalizados con advertencia de superposición](assets/custom-quarters-with-overlap-warning.png)</span>
+   > Si su compañía compró [!DNL Workfront Planning], no puede guardar los trimestres personalizados si hay espacios o superposiciones entre los trimestres.
+   >![Trimestres personalizados con advertencia de superposición](assets/custom-quarters-with-overlap-warning.png)
    >Solo se permiten espacios y superposiciones entre los trimestres para [!DNL Workfront] clientes.
 
 1. (Opcional y condicional) Si su empresa compró solo [!DNL Workfront], sin [!DNL Workfront Planning], cree un elemento de informe que haga referencia a los trimestres fiscales.
@@ -99,4 +91,5 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
    Para obtener información acerca de los elementos de informes, consulte [Elementos de creación de informes: filtros, vistas y agrupaciones](../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md).
 
    Para obtener información acerca de cómo crear filtros, consulte [Crear o editar filtros en [!DNL Adobe Workfront]](../../../reports-and-dashboards/reports/reporting-elements/create-filters.md).
-1. <span class="preview"> (opcional y condicional) Si tiene acceso a [!DNL Workfront Planning], vaya a una página de tipo de registro y abra una vista de escala de tiempo. La vista muestra los nuevos trimestres personalizados. </span>
+1. (Opcional y condicional) Si tiene acceso a [!DNL Workfront Planning], vaya a una página de tipo de registro y abra una vista de escala de tiempo. La vista muestra los nuevos trimestres personalizados.
+Para obtener más información, consulte [Administrar la vista de línea de tiempo](/help/quicksilver/planning/views/manage-the-timeline-view.md).

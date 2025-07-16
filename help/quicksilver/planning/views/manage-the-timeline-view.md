@@ -6,18 +6,18 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 44b3298905a04c64a457045c4112d9628d933aae
+source-git-commit: b27b01e1efacc3fc459cec0a53b2c11cbe5e132b
 workflow-type: tm+mt
-source-wordcount: '3804'
-ht-degree: 45%
+source-wordcount: '3708'
+ht-degree: 46%
 
 ---
 
 # Administrar la vista de cronología
 
-<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después de las versiones mensuales en Production, las mismas funciones también están disponibles en el entorno Production para los clientes que habilitaron versiones rápidas. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -81,12 +81,7 @@ Para obtener información sobre las vistas de registros, consulte [Administrar v
    <td role="rowheader"><p>Permisos de objeto</p></td> 
    <td>   <p>Permisos de administración de una vista</p>  
    <p>Ver permisos en una vista para cambiar temporalmente la configuración de la vista o para duplicarla</p> </td> 
-  </tr> 
-<tr> 
-   <td role="rowheader"><p>Plantilla de diseño</p></td> 
-   <td> <p>En el entorno de producción, todos los usuarios, incluidos los administradores del sistema, deben estar asignados a una plantilla de diseño que incluya Planning.</p>
-<p><span class="preview">En el entorno de vista previa, los usuarios estándar y los administradores del sistema tienen Planning habilitado de forma predeterminada.</span></p> </td> 
-  </tr> 
+  </tr>  
 </tbody> 
 </table>
 
@@ -126,9 +121,7 @@ Para administrar una vista de línea de tiempo:
    >
    >    La ordenación de los registros en la línea de tiempo no es visible en la vista compacta.
 
-1. <span class="preview"> (Condicional) Si el administrador ha habilitado trimestres personalizados y Workfront detecta problemas con la configuración de los trimestres personalizados, es posible que reciba una advertencia al abrir la vista de escala de tiempo. </span>
-
-   <div class="preview">
+1. (Condicional) Si el administrador ha habilitado trimestres personalizados y Workfront detecta problemas con la configuración de estos, es posible que reciba una advertencia al abrir la vista de cronología.
 
    Se dan los siguientes escenarios:
 
@@ -152,13 +145,11 @@ Para administrar una vista de línea de tiempo:
    >Después de configurar trimestres personalizados en el área de Configuración, la vista de cronología muestra los trimestres personalizados en lugar de los trimestres clásicos.
    >Para obtener más información, consulte [Habilitar trimestres personalizados](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md).
 
-   </div>
-
-1. <span class="preview">(Condicional) Si es administrador de Workfront, haga clic en **Ir a la instalación** para configurar sus trimestres. Si no es así, haga clic en **Aceptar** y pídale al administrador de Workfront que configure los trimestres personalizados.</span>
+1. (Condicional) Si es administrador de Workfront, haga clic en **Ir a la instalación** para configurar sus trimestres. Si no es así, haga clic en **Aceptar** y pídale al administrador de Workfront que configure los trimestres personalizados.
 
    >[!TIP]
    >
-   ><span class="preview">El botón Ir a la configuración solo se muestra para el administrador de Workfront.</span>
+   >El botón Ir a la configuración solo aparece para el administrador de Workfront.
 
 1. (Opcional y condicional) Cuando el nombre del registro esté truncado, pase el ratón sobre una barra de registros para mostrar el nombre completo del registro y la información adicional. Para obtener información acerca de cómo configurar el truncamiento de la barra de registro en la escala de tiempo, vea la sección [Editar la configuración de la vista de la escala de tiempo](#edit-the-timeline-view-settings) en este artículo.
 
@@ -172,7 +163,7 @@ Para administrar una vista de línea de tiempo:
       * **Trimestre**: muestra meses y semanas con indicación de trimestre.
       * **Mes**: muestra semanas y días.
 1. (Opcional) Haga clic en **Cambiar a la vista Compacta** para mostrar los registros cuyas fechas no se cruzan en la misma línea. <!--check to see if they updated the name of the setting here-->
-1. (Condicional) Si cambió el modo a **Compacto**, haga clic en **Cambiar a la vista Estándar** para mostrar los registros en líneas separadas. <span class="preview">La opción **Estándar** es la predeterminada.</span>  <!--check to see if they updated the name of the setting here-->
+1. (Condicional) Si cambió el modo a **Compacto**, haga clic en **Cambiar a la vista Estándar** para mostrar los registros en líneas separadas. La opción **Standard** es la predeterminada.  <!--check to see if they updated the name of the setting here-->
 
 1. Haga lo siguiente para buscar rápidamente registros que coincidan con una palabra clave:
 
@@ -392,7 +383,7 @@ Actualice la configuración de la vista de línea de tiempo para indicar qué in
    >
    >* Si muestra registros adicionales mediante la opción Desglose, las fechas de inicio y finalización son las del registro principal. No puede elegir fechas de inicio y finalización para los registros conectados en esta área.
 
-1. <span class="preview">(Condicional y opcional) Si es administrador de Workfront, haga clic en **Ir a la instalación** en el cuadro **Usar trimestres personalizados** para ir al área de instalación y configurar trimestres personalizados. Después de configurar trimestres personalizados, puede mostrarlos en la vista de cronología en lugar de en los trimestres clásicos. Si no es administrador de Workfront, puede solicitar que un administrador habilite los trimestres personalizados para su organización. </span>
+1. (Condicional y opcional) Si es administrador de Workfront, haga clic en **Ir a la instalación** en el cuadro **Usar trimestres personalizados** para ir al área de instalación y configurar trimestres personalizados. Después de configurar trimestres personalizados, puede mostrarlos en la vista de cronología en lugar de en los trimestres clásicos. Si no es administrador de Workfront, puede solicitar que un administrador habilite los trimestres personalizados para su organización.
 
    Para obtener más información, consulte [Habilitar trimestres personalizados](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md).
 
@@ -400,11 +391,11 @@ Actualice la configuración de la vista de línea de tiempo para indicar qué in
 
    >[!TIP]
    >
-   ><span class="preview">El botón Ir a la configuración solo se muestra para el administrador de Workfront.</span>
+   >El botón Ir a la configuración solo aparece para el administrador de Workfront.
 
 1. Haga clic en **Estilo de barra** en el panel izquierdo para indicar qué información desea mostrar en las barras de registro.
 
-   Puede definir el estilo de barra del registro principal <span class="preview">así como para los registros conectados</span>, al utilizar la opción Desglose en la vista Estándar.
+   Puede definir el estilo de barra del registro principal, así como para los registros conectados, al utilizar la opción Desglose en la vista Estándar.
 
    El campo principal (o título) del registro, tal como se define en la vista de tabla del registro, está seleccionado de forma predeterminada.
    <!--adjust this when the primary field is released??-->
@@ -429,20 +420,20 @@ Actualice la configuración de la vista de línea de tiempo para indicar qué in
 
    ![Registrar configuración de escala de tiempo del panel de detalles con vista previa](assets/record-details-panel-timeline-settings-with-preview.png)
 
-1. <span class="preview"> (opcional y condicional) Si muestra la cronología en el modo Estándar, seleccione la configuración **Detalles de la barra de truncado**. Al seleccionarla, la información de las barras de registros se trunca y sólo se muestra completamente al pasar el ratón por encima de las barras. Esta configuración no está seleccionada de forma predeterminada y la información de registro se muestra completamente en las barras. </span>
+1. (Opcional y condicional) Si muestra la cronología en el modo Estándar, seleccione la configuración **Detalles de la barra de truncado**. Al seleccionarla, la información de las barras de registros se trunca y sólo se muestra completamente al pasar el ratón por encima de las barras. Esta configuración no está seleccionada de forma predeterminada y la información de registro se muestra completamente en las barras.
 
    ![Se ha resaltado la configuración de truncado en el cuadro de configuración de la cronología](assets/truncate-setting-enabled-on-timeline-settings-highlighted.png)
 
    >[!TIP]
    >
-   ><span class="preview">La configuración Truncar detalles de barra no está disponible cuando se muestra la vista de escala de tiempo en el modo compacto.</span>
+   >La configuración Truncar detalles de la barra no está disponible cuando se muestra la vista de línea de tiempo en el modo Compacto.
    >
 
 1. Haga clic en **Color** en el panel izquierdo para personalizar los colores de los registros y agrupaciones en la línea de tiempo.
 
    ![Vista de la cronología de la ficha de color](assets/color-tab-timeline-view.png)
 
-   Puede definir el color del registro principal <span class="preview">así como de los registros conectados</span>, al utilizar la opción Desglose en la vista Estándar.
+   Puede definir el color del registro principal y de los registros conectados al utilizar la opción Desglose en la vista Estándar.
 
 1. (Condicional y opcional) Si ha añadido una agrupación a la vista de línea de tiempo, seleccione una de las siguientes opciones para establecer un color para la agrupación en la sección **Establecer color de agrupación**:
 
@@ -481,7 +472,7 @@ Actualice la configuración de la vista de línea de tiempo para indicar qué in
 
    Si no tiene ningún campo con opciones codificadas por colores para el tipo de registro seleccionado, esta opción aparece atenuada.
 
-1. <span class="preview">(Opcional) Si utiliza la opción **Desglose**, repita los pasos que comienzan con el paso 4 para cada registro conectado que se muestre en la cronología. </span>
+1. (Opcional) Si está usando la opción **Desglose**, repita los pasos que comienzan con el paso 4 para cada registro conectado que se muestre en la cronología.
 
 1. Haga clic en **Guardar**.
 
@@ -515,7 +506,7 @@ Puede mostrar los registros conectados en la vista de escala de tiempo de un reg
 #### Desglose de registros conectados
 
 1. Cree una vista de línea de tiempo para un tipo de registro, tal y como se describe en el artículo [Administración de vistas de registros](/help/quicksilver/planning/views/manage-record-views.md).
-1. En los modos **Estándar** o <span class="preview">**Compacto**, haga clic en **Desglose**</span> en la esquina superior derecha de la vista de la escala de tiempo.
+1. En los modos **Estándar** o **Compacto**, haga clic en **Desglose** en la esquina superior derecha de la vista de la escala de tiempo.
 1. Expanda el cuadro **Seleccionar un tipo de registro vinculado** y seleccione un tipo de registro conectado. <!--add a new screen shot - submitted a bug to remove the "the"-->
 
    ![Selector de desglose y botón en la vista de cronología](assets/breakdown-picker-and-button-on-timeline.png)
@@ -543,13 +534,13 @@ Puede mostrar los registros conectados en la vista de escala de tiempo de un reg
    >
    >Tanto los productos como los programas deben estar conectados a las campañas para que se muestren como opciones en la opción de desglose y puede agregarlos al desglose en cualquier orden.
 
-1. <span class="preview">(Condicional) Si está viendo la escala de tiempo en el modo Compacto, haga clic en **Cambiar vista**. El desglose no es visible en el modo **Compacto**.</span>
+1. (Condicional) Si está viendo la escala de tiempo en el modo Compacto, haga clic en **Cambiar vista**. El desglose no es visible en el modo **Compacto**.
 
    >[!TIP]
    >
-   ><span class="preview">Seleccionar **No volver a mostrar esto** en el **Cambiar a la vista Estándar?**, antes de cambiar de vista. </span>
+   >Seleccione **No volver a mostrar esto** en el **Cambiar a la vista estándar?**, antes de cambiar de vista.
    >
-   ><span class="preview">Esta preferencia solo se recuerda en el explorador actual. Si cambia de explorador o de equipo, tendrá que volver a seleccionar esta preferencia.</span>
+   >Esta preferencia solo se recuerda en el navegador actual. Si cambia de explorador o de equipo, tendrá que volver a seleccionar esta preferencia.
    >
    >No puede volver al modo Compacto después de cambiar la vista a Estándar y mostrar los registros conectados en la vista.
 1. (Opcional) Repita los pasos anteriores para agregar más registros conectados.

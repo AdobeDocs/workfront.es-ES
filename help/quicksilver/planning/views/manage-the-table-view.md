@@ -6,18 +6,18 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 8f4c1be156094d18df4bc3628d4f1fca90372119
+source-git-commit: b27b01e1efacc3fc459cec0a53b2c11cbe5e132b
 workflow-type: tm+mt
-source-wordcount: '3446'
-ht-degree: 69%
+source-wordcount: '3346'
+ht-degree: 72%
 
 ---
 
 # Administrar la vista de tabla
 
-<span class="preview">La información resaltada en esta página hace referencia a funcionalidades que aún no están disponibles de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después de las versiones mensuales en Production, las mismas funciones también están disponibles en el entorno Production para los clientes que habilitaron versiones rápidas. </span>
+<!--<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -87,12 +87,7 @@ Para obtener información acerca de cómo exportar la vista de tabla a un archiv
 <tr> 
    <td role="rowheader"><p>Permisos de objeto</p></td> 
    <td>   <p>Permisos de administración de una vista</p>  
-   <p>Ver permisos de una vista para cambiar temporalmente la configuración de la vista, duplicar, <span class="preview">o exportarla</span></p> </td> 
-  </tr> 
-<tr> 
-   <td role="rowheader"><p>Plantilla de diseño</p></td> 
-   <td> <p>En el entorno de producción, todos los usuarios, incluidos los administradores del sistema, deben estar asignados a una plantilla de diseño que incluya las áreas de planificación.</p>
-<p><span class="preview">En el entorno de vista previa, los usuarios estándar y los administradores del sistema tienen activada de forma predeterminada el área de Planning.</span></p></td> 
+   <p>Ver permisos en una vista para cambiar temporalmente la configuración de la vista, duplicarla o exportarla</p> </td> 
   </tr> 
 </tbody> 
 </table>
@@ -113,11 +108,9 @@ Al crear una vista de tabla, todos los registros del tipo seleccionado se muestr
 
 Para administrar una vista de tabla:
 
-1. <span class="preview">Cree una vista de tabla, tal como se describe en el artículo [Administrar vistas de registros](/help/quicksilver/planning/views/manage-record-views.md). </span>
+1. Cree una vista de tabla, tal como se describe en el artículo [Administrar vistas de registros](/help/quicksilver/planning/views/manage-record-views.md).
 
-   <span class="preview">![Ejemplo de vista de tabla](assets/table-view-example.png)
-
-   </span>
+   ![Ejemplo de vista de tabla](assets/table-view-example.png)
 
 1. (Opcional) Haga clic en **Altura de la fila** y, a continuación, seleccione una de las siguientes opciones para modificar la altura de las filas de la tabla:
    * Baja
@@ -130,7 +123,7 @@ Para administrar una vista de tabla:
    * [Filtros](#add-filters)
    * [Ordenar](#add-a-sort)
    * [Agrupación](#add-groupings)
-   * <span class="preview">[Colores de fila](#add-row-colors)</span>
+   * [Colores de la fila](#add-row-colors)
    * [Indicador de presencia en tiempo real](#enable-the-real-time-presence-indicator)
 
 
@@ -459,7 +452,7 @@ para añadir una agrupación:
 
    El número de campos seleccionados para la agrupación se muestra junto al icono de Agrupación.
 
-   <span class="preview">![Agrupación aplicada en la vista de tabla](assets/grouping-applied-in-table-view.png)</span>
+   ![Agrupación aplicada en la vista de tabla](assets/grouping-applied-in-table-view.png)
 
 1. (Opcional) Dentro del cuadro **Agrupar registros por**, haga clic en el icono **x** a la derecha de un campo seleccionado para la agrupación para quitar la agrupación
 
@@ -470,9 +463,7 @@ para añadir una agrupación:
 1. Haga clic fuera del cuadro **Agrupar registros por** para cerrarlo.
 1. (Opcional) Haga clic en **+ Nuevo registro** al final de cualquier agrupación para añadir nuevos registros y, a continuación, actualice la página para añadir el nuevo registro a la agrupación adecuada. <!--this might need to be changed when they add the Refresh button on the toolbar of the table view-->
 
-1. <span class="preview">Para expandir o contraer agrupaciones, siga uno de estos procedimientos:</span>
-
-   <div class="preview">
+1. Para expandir o contraer agrupaciones, siga uno de estos procedimientos:
 
    1. Haga clic en el icono **Agrupación**, luego en **Expandir todo** o **Contraer todo**. Esto expande todas las agrupaciones y subagrupaciones de la vista de tabla.
 
@@ -486,7 +477,7 @@ para añadir una agrupación:
       * **Expandir subgrupos**
       * **Contraer subgrupos**
 
-      Según el número de agrupaciones que aplique a la vista, es posible que algunas opciones no estén disponibles.</div>
+      Según el número de agrupaciones que aplique a la vista, es posible que algunas opciones no estén disponibles.
 
 <!-- this is not available yet: 
 
@@ -496,8 +487,6 @@ To sort grouped records:
 1. ************************* add steps here for sorting grouped records****************
 
 -->
-
-<div class="preview">
 
 ### Agregar colores de fila
 
@@ -533,8 +522,6 @@ To sort grouped records:
 
 1. Haga clic fuera del cuadro **Colores de fila** para cerrarlo. Los colores se aplican automáticamente.
 
-</div>
-
 ### Habilitar el indicador de presencia en tiempo real
 
 De forma predeterminada, los avatares de otros usuarios que están editando información de registro al mismo tiempo que se muestran en la esquina superior derecha de todas las vistas de registros.
@@ -557,7 +544,7 @@ Al mostrar la vista de tabla, también puede ver qué campo está editando otro 
    >
    >Puede seleccionar la opción **Mostrar colaboradores** de cualquier vista. El campo editado actualmente por otros usuarios sólo se describe en la vista de tabla.
 
-<div class="preview">
+
 
 
 

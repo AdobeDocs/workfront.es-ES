@@ -6,18 +6,18 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 2afd6d57-d658-4065-86f5-2324d3818d1f
-source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
+source-git-commit: b27b01e1efacc3fc459cec0a53b2c11cbe5e132b
 workflow-type: tm+mt
-source-wordcount: '1003'
-ht-degree: 13%
+source-wordcount: '855'
+ht-degree: 14%
 
 ---
 
 # Crear tipos de registros importando información desde un archivo CSV o de Excel
 
-<span class="preview">La información de esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después de las versiones mensuales en Production, las mismas funciones también están disponibles en el entorno Production para los clientes que habilitaron versiones rápidas. </span>
+<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -26,8 +26,6 @@ Los tipos de registro son los tipos de objetos de Adobe Workfront Planning. En W
 ## Requisitos de acceso
 
 +++ Amplíe para ver los requisitos de acceso.
-
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 <table style="table-layout:auto"> 
 <col> 
@@ -81,12 +79,8 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
    <td role="rowheader"><p>Permisos de objeto</p></td> 
    <td>   <p>Permisos de administración en un espacio de trabajo</a> </p>  
    <p>Los administradores del sistema tienen permisos para todos los espacios de trabajo, incluidos los que no crearon</p>  </td> 
-  </tr> 
-<tr> 
-   <td role="rowheader"><p>Plantilla de diseño</p></td> 
-   <td> <p>En el entorno de producción, todos los usuarios, incluidos los administradores del sistema, deben estar asignados a una plantilla de diseño que incluya Planning.</p>
-<p><span class="preview">En el entorno de vista previa, los usuarios estándar y los administradores del sistema tienen Planning habilitado de forma predeterminada.</span></p> </td> 
-  </tr> 
+  </tr>
+
 </tbody> 
 </table>
 
@@ -109,16 +103,12 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 * No se admiten hojas vacías.
 * No se admiten los campos de los siguientes tipos y no se pueden asignar a campos de la hoja de importación:
 
-   * Campos de conexión, según el entorno que utilice:
-
-      * En el entorno Producción, los campos de conexión a registros de Planning o a objetos de Workfront y AEM Assets no se pueden asignar
-
-      * <span class="preview">En el entorno de vista previa, puede asignar e importar campos de conexión a registros de Planning. No se pueden asignar campos a Workfront y AEM Assets.</span>
-
+   * Campos de conexión a Workfront y tipos de objeto de AEM Assets.
    * Campos de búsqueda de registros de Planning conectados u objetos de Workfront y AEM Assets
    * Campos de fórmula
    * Fecha de creación, Creado por
    * Fecha de la última modificación, Última modificación por
+     <!--* <span class="preview">Approved date, Approved by</span>-->
    * Personas
 
 Para importar tipos de registros mediante un archivo CSV o de Excel:
@@ -155,21 +145,21 @@ Para importar tipos de registros mediante un archivo CSV o de Excel:
 
    Las hojas que no haya seleccionado se muestran con un fondo gris.
 
-1. (Opcional) Haga clic en la flecha hacia abajo situada a la derecha del encabezado de una columna para realizar una de las siguientes acciones, <span class="preview">en la ficha **Campo**</span>:
+1. (Opcional) Haga clic en la flecha hacia abajo situada a la derecha del encabezado de una columna para realizar una de las siguientes acciones, en la ficha **Campo**:
 
-   <span class="preview">![Ficha Campo en el cuadro de importación de asignación de tipo de registro](assets/field-tab-on-record-type-import-mapping-box.png)</span>
+   ![Ficha Campo en el cuadro de importación de asignación de tipo de registro](assets/field-tab-on-record-type-import-mapping-box.png)
 
    * Cambie el nombre de uno de los campos
    * Cambiar **tipo de campo**
    * Actualizar el campo **Descripción**
 
-1. <span class="preview">(Opcional) Haga clic en la ficha **Conexión** para asignar la información de la columna a un campo conectado de otros tipos de registros.</span>
+1. (Opcional) Haga clic en la ficha **Conexión** para asignar la información de la columna a un campo conectado desde otros tipos de registros.
 
-   <span class="preview">![Ficha Conexión en el cuadro de asignación de importación de tipo de registro](assets/connection-tab-on-record-type-import-mapping-box.png)</span>
+   ![Ficha Conexión en el cuadro de asignación de importación de tipo de registro](assets/connection-tab-on-record-type-import-mapping-box.png)
 
    >[!TIP]
    >
-   ><span class="preview">Solo puede asignar campos desde registros conectados de Workfront Planning. No se puede asignar a campos desde conexiones de Workfront o AEM Assets. Para obtener más información, vea la sección [Consideraciones acerca de la importación de tipos de registros mediante un archivo CSV o de Excel](#considerations-about-importing-record-types-using-an-excel-or-csv-file) en este artículo.</span>
+   >Solo puede asignar a campos desde registros conectados de Workfront Planning. No se puede asignar a campos desde conexiones de Workfront o AEM Assets. Para obtener más información, vea la sección [Consideraciones acerca de la importación de tipos de registros mediante un archivo CSV o de Excel](#considerations-about-importing-record-types-using-an-excel-or-csv-file) en este artículo.
 
 1. (Condicional) Después de actualizar la información del campo, haga clic en **Guardar**.
 

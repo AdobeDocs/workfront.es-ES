@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 940945df-391c-4672-9d9d-180d5028509b
-source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
+source-git-commit: b27b01e1efacc3fc459cec0a53b2c11cbe5e132b
 workflow-type: tm+mt
-source-wordcount: '1061'
+source-wordcount: '923'
 ht-degree: 10%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 10%
 
 # Crear registros importando información desde un archivo CSV o de Excel
 
-<span class="preview">La información de esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después de las versiones mensuales en Production, las mismas funciones también están disponibles en el entorno Production para los clientes que habilitaron versiones rápidas. </span>
+<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -29,8 +29,6 @@ Para obtener más información sobre cómo crear registros, vea [Crear registros
 ## Requisitos de acceso
 
 +++ Amplíe para ver los requisitos de acceso.
-
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 <table style="table-layout:auto"> 
 <col> 
@@ -83,15 +81,10 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
 <tr> 
    <td role="rowheader"><p>Permisos de objeto</p></td> 
-   <td> <p>Conceda permisos de contribución o superiores al área de trabajo <span class="preview">y al tipo de registro</span> donde desee agregar registros. </p>  
+   <td> <p>Conceda permisos de contribución o superiores al espacio de trabajo y tipo de registro donde desee agregar registros. </p>  
    <p>Los administradores del sistema tienen permisos para todos los espacios de trabajo, incluidos los que no crearon</p>
    <p>Administre permisos a objetos Workfront (portafolios) para agregar objetos secundarios (proyectos).</p>
    </td> 
-  </tr> 
-<tr> 
-   <td role="rowheader"><p>Plantilla de diseño</p></td> 
-   <td> <p>En el entorno de producción, todos los usuarios, incluidos los administradores del sistema, deben estar asignados a una plantilla de diseño que incluya Planning.</p>
-<p><span class="preview">En el entorno de vista previa, los usuarios estándar y los administradores del sistema tienen Planning habilitado de forma predeterminada.</span></p> </td> 
   </tr> 
 </tbody> 
 </table>
@@ -113,16 +106,12 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 * No se admiten hojas vacías.
 * No se admiten los campos de los siguientes tipos y no se pueden asignar a campos de la hoja de importación:
 
-   * Campos de conexión, según el entorno que utilice:
-
-      * En el entorno Producción, los campos de conexión a registros de Planning o a objetos de Workfront y AEM Assets no se pueden asignar
-
-      * <span class="preview">En el entorno de vista previa, puede asignar e importar campos de conexión a registros de Planning. No se pueden asignar campos a Workfront y AEM Assets.</span>
-
+   * Campos de conexión a Workfront y tipos de objeto de AEM Assets. Sólo se pueden asignar campos de conexión a tipos de registro de Planning.
    * Campos de búsqueda de registros de Planning conectados u objetos de Workfront y AEM Assets
    * Campos de fórmula
    * Fecha de creación, Creado por
    * Fecha de la última modificación, Última modificación por
+     <!--* <span class="preview">Approved date, Approved by</span>-->
    * Personas
    * Si se importa un campo de selección múltiple o única y tiene más opciones que un campo similar en Planning, las opciones adicionales se crean durante la importación. Solo los usuarios con permisos de Administrar en el espacio de trabajo pueden importar nuevas opciones.
 

@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
-source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
+source-git-commit: b27b01e1efacc3fc459cec0a53b2c11cbe5e132b
 workflow-type: tm+mt
 source-wordcount: '2091'
 ht-degree: 7%
@@ -239,7 +239,7 @@ Todas las solicitudes a las que tiene acceso para ver que se enviaron a un formu
       * **Fecha de entrada**: La fecha en la que se envió la solicitud.
       * **Formulario de solicitud**: Nombre del formulario de solicitud utilizado para enviar la solicitud.
       * **Estado**: El estado de la solicitud.
-      * **Ingresado por**: nombre del usuario que agregó la solicitud. Si la solicitud se agregó con alguien fuera de Workfront, el campo **Ingresado por** muestra `N/A`.
+      * **Ingresado por**: nombre del usuario que agregó la solicitud. Si alguien fuera de Workfront agregó la solicitud, el campo **Ingresado por** muestra `N/A`.
 
         Puede tener varios filtros unidos por **And** o **Or**.
 La lista de solicitudes se filtra automáticamente a medida que se añaden las condiciones de filtro.
@@ -312,6 +312,8 @@ La lista de solicitudes se filtra automáticamente a medida que se añaden las c
      >[!NOTE]
      >
      >Las notificaciones por correo electrónico y en la aplicación solo son visibles cuando la instancia de Workfront de su organización está integrada en la experiencia unificada de Adobe.
+
+   <!--* <span class="preview"> After the request was approved and the record was created, the Approved by and Approved date fields display information about the approval on the record.</span>-->
 
 1. (Opcional) Haga clic en **Ver su solicitud** para abrir la solicitud en Workfront.
 
