@@ -5,7 +5,7 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: e4f4c3502281ed46bb865faa401a0d2058a5e6cd
+source-git-commit: ba7939d80c074510f829e7f66edf083141cad5a5
 workflow-type: tm+mt
 source-wordcount: '5214'
 ht-degree: 2%
@@ -24,13 +24,13 @@ Para ver todos los demás cambios en Adobe Workfront, consulte [Versiones del pr
 
 ## Administración y configuración
 
-### Actualizaciones de la interfaz de la ficha Portafolios de un grupo
+### Actualizaciones de la interfaz de la ficha Portafolios en un grupo
 
 **Vista previa: 10 de julio de 2025; Producción para todos: 17 de julio de 2025**
 
 Hemos actualizado la página de Portfolio en el panel izquierdo de un grupo para que coincida con otras áreas de la aplicación.
 
-Para ver estos cambios, vaya a Configuración > Grupos > Seleccionar un grupo > Portafolios.
+Para ver estos cambios, vaya a Configuración > Grupos > seleccione un grupo > Portafolios.
 
 ### Actualizaciones de interfaz para cuadros de diálogo de subgrupos
 
