@@ -27,7 +27,7 @@ Para obtener una lista de todas las características publicadas para Adobe Workf
 >[!NOTE]
 >
 >Vista previa: 10 de julio de 2025
->>Producción para todos: 10 de julio de 2025
+>&#x200B;>Producción para todos: 10 de julio de 2025
 
 
 Hemos actualizado la pestaña Configuración avanzada al crear o editar un tipo de registro.
@@ -44,7 +44,7 @@ Para obtener más información, vea [Crear tipos de registros](/help/quicksilver
 >[!NOTE]
 >
 >Vista previa: 10 de julio de 2025
->>Producción para todos: 10 de julio de 2025
+>&#x200B;>Producción para todos: 10 de julio de 2025
 
 Ahora, cuando agregue un equipo a un comentario de registro en Workfront Planning, todos los miembros del equipo recibirán una notificación sobre el comentario tanto en la aplicación como por correo electrónico. Antes de esta mejora, solo se notificaba a los usuarios añadidos a los comentarios individualmente
 
@@ -55,8 +55,8 @@ Para obtener más información, vea Administrar comentarios de registro [Adminis
 >[!NOTE]
 >
 >Vista previa: 10 de julio de 2025
->>Versión rápida de producción: 14 de agosto de 2025
->>Producción para todos: 16 de octubre de 2025
+>&#x200B;>Versión rápida de producción: 14 de agosto de 2025
+>&#x200B;>Producción para todos: 16 de octubre de 2025
 
 
 Ahora, cuando tenga agrupaciones aplicadas a una vista de tabla, al agregar un registro a la tabla se rellenarán automáticamente los campos asociados con las agrupaciones a las que agregue el registro.
@@ -72,7 +72,7 @@ Para obtener más información, consulte [Crear registros](/help/quicksilver/pla
 >[!NOTE]
 >
 >Vista previa: 9 de julio de 2025
->>Producción para todos: 17 de julio de 2025
+>&#x200B;>Producción para todos: 17 de julio de 2025
 
 Ahora puede compartir una vista y un tipo de registro desde el mismo botón de la página del tipo de registro. Antes de esta mejora, solo se podía compartir el tipo de registro desde el botón Compartir de la página de tipo de registro y una vista desde la pestaña de la vista.
 
@@ -336,7 +336,7 @@ Antes de esta mejora, los usuarios con todos los niveles de licencia debían asi
 >[!NOTE]
 >
 >Este cambio será visible para todos los usuarios nuevos y existentes con una licencia de administrador del sistema y estándar.
->>Los usuarios existentes asignados a una plantilla de diseño seguirán viendo todo según la configuración definida en la plantilla.
+>&#x200B;>Los usuarios existentes asignados a una plantilla de diseño seguirán viendo todo según la configuración definida en la plantilla.
 
 Para obtener más información, consulte [Descripción general de Adobe Workfront Planning](/help/quicksilver/planning/access/access-overview.md).
 
