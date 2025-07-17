@@ -6,19 +6,19 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 53f57953-fb9f-47ef-be18-a7164c844682
-source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
+source-git-commit: a5b7683bffa6c63d7feb45e5c38404185d3f2b44
 workflow-type: tm+mt
-source-wordcount: '780'
-ht-degree: 65%
+source-wordcount: '720'
+ht-degree: 68%
 
 ---
 
 
 # Información general sobre el asistente de IA de Adobe Workfront Planning
 
-<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después de las versiones mensuales en Production, las mismas funciones también están disponibles en el entorno Production para los clientes que habilitaron versiones rápidas. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span> -->
 
 
 {{planning-important-intro}}
@@ -45,7 +45,7 @@ Los comandos del usuario y la ejecución por parte de la IA de esos comandos fun
 
 * Puede utilizar comandos para deshacer las acciones. Por ejemplo, puede escribir “Deshacer el último cambio” para revertir el cambio.
 
-* <span class="preview"> Al crear, actualizar o eliminar un objeto mediante el Asistente de IA, el Asistente de IA muestra las acciones deseadas y solicita confirmación. A continuación, puede confirmar o cancelar las acciones. </span>
+* Al crear, actualizar o eliminar un objeto mediante el Asistente de IA, este muestra las acciones deseadas y solicita confirmación. A continuación, puede confirmar o cancelar las acciones.
 
 ## Funcionalidad disponible actualmente para el asistente de IA
 
