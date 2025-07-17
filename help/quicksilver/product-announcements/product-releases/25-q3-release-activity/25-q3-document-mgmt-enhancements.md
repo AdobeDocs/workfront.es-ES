@@ -5,10 +5,10 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4829d487-7041-447f-9a68-fb1acf467734
-source-git-commit: 53c5c970f2bfd0191c053baec25bd29f11b6272d
+source-git-commit: 6da80f55fd4314c661c52bb2327ae8fa6c7e55b6
 workflow-type: tm+mt
-source-wordcount: '531'
-ht-degree: 8%
+source-wordcount: '650'
+ht-degree: 6%
 
 ---
 
@@ -39,7 +39,31 @@ Note: The integration must be enabled for your accounts by the Adobe Product Tea
 For more information, see [Get started with the Adobe Express and Workfront Proof integration](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-express.md).
 -->
 
+## Despliegue gradual de aprobaciones unificadas
+
+>[!NOTE]
+>
+>Lanzamiento de producción para clientes: Despliegue gradual a partir del 17 de julio de 2025
+
+
+Habilitamos las aprobaciones unificadas, anteriormente denominadas nuevas aprobaciones de documentos, en un despliegue gradual. Esta funcionalidad se habilitará automáticamente en la instancia de Workfront en los próximos seis meses.
+
+Aprobaciones unificadas reemplaza a las aprobaciones de documentos heredadas y proporciona la siguiente funcionalidad directamente en un documento:
+
+* Designar todo un equipo de Workfront como revisores o aprobadores
+* Establecer una fecha límite para la revisión o aprobación
+* Creación y reutilización de plantillas de aprobación
+* Utilizar las nuevas versiones
+* Vea varios indicadores de rendimiento clave para sus aprobaciones en los widgets de inicio de Workfront
+* Utilice los paneles de lienzo para ver los detalles de creación de informes sobre las aprobaciones unificadas
+
+Para obtener más información, consulte [Información general sobre aprobaciones unificadas](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md).
+
 ## Actualización del visor de corrección de escritorio
+
+>[!NOTE]
+>
+>* Lanzamiento de producción para todos los clientes: 16 de junio de 2025
 
 El Visor de corrección de escritorio se ha actualizado a la versión 2.1.50.
 
