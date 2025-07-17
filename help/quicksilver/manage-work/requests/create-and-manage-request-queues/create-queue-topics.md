@@ -7,7 +7,7 @@ author: Alina
 feature: Work Management, Requests
 role: User, Admin
 exl-id: 65a74698-011f-4caa-9739-d7510faeb66f
-source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
+source-git-commit: ef33a8bcdec76747434b5c5aaf62a743335fb10f
 workflow-type: tm+mt
 source-wordcount: '844'
 ht-degree: 96%
@@ -154,18 +154,16 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Tipos de solicitud</strong> </td> 
-      <td> <p>Elija el tipo de solicitudes que almacena este tema de la cola. Las opciones visibles se establecen en la pestaña <strong>Detalles de la cola</strong> del proyecto. Este campo es obligatorio. </p>
-
-   <p><b>NOTA</b>:
-
-   Los tipos se muestran como una selección en el área de solicitudes solo si el tipo de solicitud está seleccionado en ambas páginas: Detalles de la cola y Tema de la cola. Para obtener información sobre la configuración del área Detalles de la cola de un proyecto, consulte <a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">Crear una cola de solicitudes</a>. </p> <p>Seleccione entre los siguientes tipos:</p>
-   <ul>
-   <li>Informe de errores</li>
-   <li>Solicitud de cambio</li>
-   <li>Problema</li>
-   <li>Solicitud</li>
-   </ul> <p>Es posible que el administrador de Workfront haya cambiado el nombre de algunas de estas opciones. </p> </td>
-   </tr> 
+      <td> <p>Elija el tipo de solicitudes que almacena este tema de la cola. Las opciones visibles se establecen en la pestaña <strong>Detalles de la cola</strong> del proyecto. Este campo es obligatorio. </p> 
+       <p><b>NOTA</b>:</p>
+      <p>Los tipos se muestran como una selección en el área de solicitudes solo si el tipo de solicitud está seleccionado en ambas páginas: Detalles de la cola y Tema de la cola. Para obtener información sobre la configuración del área Detalles de la cola de un proyecto, consulte <a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">Crear una cola de solicitudes</a>. </p> <p>Seleccione entre los siguientes tipos:</p> 
+       <ul> 
+        <li>Informe de errores</li> 
+        <li>Solicitud de cambio</li> 
+        <li>Problema</li> 
+        <li>Solicitud</li> 
+       </ul> <p>Es posible que el administrador de Workfront haya cambiado el nombre de algunas de estas opciones. </p> </td> 
+     </tr> 
     </tbody> 
    </table>
 
