@@ -135,8 +135,10 @@ Cuando alguien comparte con usted un vínculo a un espacio de trabajo o una vist
 
    Todos los usuarios con permisos de Administración de la vista o del espacio de trabajo reciben las siguientes notificaciones para la solicitud de acceso:
    * Una notificación en la aplicación
+
      ![Notificación en la aplicación para solicitud de acceso](assets/in-app-notification-for-access-request.png)
    * Una notificación por correo electrónico
+
      ![Notificación por correo electrónico de la solicitud de acceso](assets/email-notification-for-access-request.png)
 
 1. (Condicional) Cuando el administrador de la vista o del espacio de trabajo le concede permisos para la vista o el espacio de trabajo, recibe una notificación por correo electrónico y una notificación en la aplicación con una confirmación de que el permiso se ha concedido. <!--check this - I was not able to test this, but Isk confirmed.-->

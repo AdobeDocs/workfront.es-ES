@@ -147,8 +147,10 @@ Los usuarios que accedan a un vínculo a un espacio de trabajo para el que no te
 1. (Condicional) Si usted es el administrador de un espacio de trabajo, es posible que otro usuario le solicite el acceso a la vista en las áreas siguientes:
 
    * Una notificación en la aplicación
+
      ![Notificación en la aplicación para solicitud de acceso](assets/in-app-notification-for-access-request.png)
    * Una notificación por correo electrónico
+
      ![Notificación por correo electrónico de la solicitud de acceso](assets/email-notification-for-access-request.png)
 1. (Condicional) En el área de notificación de Workfront, haga clic en la notificación dentro de la aplicación
 O
