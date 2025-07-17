@@ -5,10 +5,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 5e87cad4-4a5d-4cb2-848f-7c97ff11d0e8
-source-git-commit: 5113771baf269405e758307d11a392f95ee870fe
+source-git-commit: 09bb41e16da89edd2c2cbfb5a85213045e52394d
 workflow-type: tm+mt
-source-wordcount: '793'
-ht-degree: 1%
+source-wordcount: '767'
+ht-degree: 29%
 
 ---
 
@@ -28,7 +28,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plan de Adobe Workfront</td> 
+   <td role="rowheader">Plan de Adobe Workfront</td> 
    <td>Cualquiera</td> 
   </tr> 
   <tr> 
@@ -37,7 +37,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso</td> 
-   <td> <p>Debe ser administrador de Workfront.</p> <p><b>NOTA</b>: Si todavía no tiene acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, vea <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref" data-mc-variable-override="">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
+   <td> <p>Debe ser administrador de Workfront.</p> <p><b>NOTA</b>: Si todavía no tiene acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo los administradores de Workfront pueden modificar su nivel de acceso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref" data-mc-variable-override="">Creación o modificación de niveles de acceso personalizados</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -54,7 +54,7 @@ Puede administrar la información que los usuarios pueden ver y editar para otro
 
 * Un usuario con una licencia de Plan predeterminada que también tiene acceso a los usuarios, como se explica en este artículo.
 
-  Los usuarios con restricciones para ver solo los usuarios de su compañía o de la compañía principal tienen acceso para editar solo los usuarios que pueden ver. Para obtener más información, vea [Crear o modificar niveles de acceso personalizados](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+  Los usuarios con restricciones para ver solo los usuarios de su compañía o de la compañía principal tienen acceso para editar solo los usuarios que pueden ver. Para obtener más información, consulte [Creación o modificación de niveles de acceso personalizados](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
 * Usuario con una licencia de planificación predeterminada que también se especifica como administrador de otro usuario.
 
@@ -62,7 +62,7 @@ Puede administrar la información que los usuarios pueden ver y editar para otro
 
 * Un usuario con una licencia de planificación predeterminada que haya creado un usuario puede desactivar, eliminar o editar el usuario que ha creado. Para obtener información sobre cómo crear usuarios nuevos, consulte [Agregar usuarios](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md).
 
-## Configure el acceso de los usuarios para editar usuarios con un nivel de acceso personalizado
+## Configurar el acceso de los usuarios para editar usuarios con un nivel de acceso personalizado
 
 1. Comience a crear o editar el nivel de acceso, tal como se explica en [Crear o modificar niveles de acceso personalizados](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 1. Para cambiar la capacidad de los usuarios con una licencia de planificación o de trabajo para ver los perfiles de otros usuarios:
@@ -70,6 +70,8 @@ Puede administrar la información que los usuarios pueden ver y editar para otro
    1. Haga clic en el icono de engranaje ![](assets/gear-icon-settings.png) en el botón **Ver** a la derecha de **Usuarios**.
 
    1. Deshabilite **Ver información de contacto** y, a continuación, haga clic en la X para cerrar el cuadro **Ajustar la configuración**.
+
+      ![ajustar la configuración de usuario](assets/fine-tune-users.png)
 
 1. Para modificar la capacidad de los usuarios con acceso a una licencia de planificación para editar otros usuarios, haga clic en el icono de engranaje ![](assets/gear-icon-settings.png) en el botón **Editar** a la derecha de **Usuarios** y, a continuación, seleccione las capacidades que desee conceder:
 
@@ -79,16 +81,13 @@ Puede administrar la información que los usuarios pueden ver y editar para otro
     <tbody> 
      <tr> 
       <td role="rowheader"><strong>Crear</strong> </td> 
-      <td> <p>Permite a los usuarios crear usuarios.<br>Esta opción está habilitada de manera predeterminada.</p> 
-      &lt;!—
-        <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Asegúrese de realizar este cambio antes de desredactar estas dos notas. El 29 de marzo, el documento de req dice que esto depende de los resultados de la investigación.</p>
-
-       &lt;p>&lt;b>NOTA&lt;/b>: Esto no está disponible si su organización se ha incorporado a Adobe Admin Console. Consulte al administrador de red o de TI si necesita más información.&lt;/p>
-       —> &lt;/td>
-   </tr> 
+      <td> <p>Permite a los usuarios crear usuarios.<br>Esta opción está desactivada de forma predeterminada.</p> 
+     <p><b>NOTA</b>: Esto no está disponible si su organización se ha incorporado a Adobe Admin Console. Consulte al administrador de red o de TI si necesita más información.</p>
+        </td>  
+     </tr> 
      <tr> 
       <td role="rowheader"><strong>Eliminar</strong> </td> 
-      <td> <p> Permite a los usuarios eliminar los usuarios que ellos mismos han creado.<br>Esta opción está habilitada de manera predeterminada.</p> <p><b>NOTA</b>: Esto no está disponible si su organización se ha incorporado a Adobe Admin Console. Consulte al administrador de red o de TI si necesita más información.</p> </td> 
+      <td> <p> Permite a los usuarios eliminar los usuarios que ellos mismos han creado.<br>Esta opción está desactivada de forma predeterminada.</p> <p><b>NOTA</b>: Esto no está disponible si su organización se ha incorporado a Adobe Admin Console. Consulte al administrador de red o de TI si necesita más información.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Administrador de usuarios (todos los usuarios)</strong> </td> 
@@ -115,7 +114,7 @@ Puede administrar la información que los usuarios pueden ver y editar para otro
    >
    >Si no desea conceder acceso a los administradores de grupos a todos los miembros de los grupos que administran, desactive las dos opciones Administración de usuarios mencionadas anteriormente. Los administradores de grupo seguirán teniendo acceso a los miembros del grupo que agreguen a Workfront o que dependan de ellos en Workfront.
 
-1. (Opcional) Para establecer la configuración de acceso para otros objetos y áreas en el nivel de acceso en el que está trabajando, continúe con uno de los artículos enumerados en [Configurar el acceso a Adobe Workfront](../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md), como [Conceder acceso a las tareas](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md) y [Conceder acceso a los datos financieros](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
+1. (Opcional) Para establecer la configuración de acceso para otros objetos y áreas en el nivel de acceso en el que esté trabajando, continúe con uno de los artículos enumerados en [Configurar el acceso a Adobe Workfront](../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md), como [Conceder acceso a las tareas](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md) y [Conceder acceso a los datos financieros](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
 1. Cuando termine, haga clic en **Guardar**.
 
 ## Acceso a usuarios por tipo de licencia
