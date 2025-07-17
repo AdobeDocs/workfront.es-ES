@@ -6,19 +6,19 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: d3d4a923dddb8685a981162918f34447300136cf
+source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
 workflow-type: tm+mt
-source-wordcount: '3414'
-ht-degree: 45%
+source-wordcount: '3306'
+ht-degree: 46%
 
 ---
 
 
 # Conectar registros
 
-<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después de las versiones mensuales en Production, las mismas funciones también están disponibles en el entorno Production para los clientes que habilitaron versiones rápidas. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>  -->
 
 {{planning-important-intro}}
 
@@ -59,8 +59,6 @@ Puede conectar lo siguiente:
 ## Requisitos de acceso
 
 +++ Amplíe para ver los requisitos de acceso.
-
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 <table style="table-layout:auto"> 
 <col> 
@@ -118,15 +116,10 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
 <tr> 
    <td role="rowheader"><p>Permisos de objeto</p></td> 
-   <td>   <p>Permisos de contribución o superiores para un espacio de trabajo <span class="preview">y tipo de registro</span> para conectar registros </p>  
-   <p>Vea o aumente los permisos de un espacio de trabajo <span class="preview"> y del tipo de registro </span> para ver todas las conexiones a objetos y campos desde otras aplicaciones, independientemente del acceso que tenga en la otra aplicación. </p>
+   <td>   <p>Permisos de contribución o superiores a un espacio de trabajo y tipo de registro para conectar registros </p>  
+   <p>Permite ver o aumentar los permisos de un espacio de trabajo y tipo de registro para ver todas las conexiones a objetos y campos desde otras aplicaciones, independientemente del acceso que tenga en la otra aplicación. </p>
    <p>Permisos de visualización superiores a los objetos que desea vincular desde Workfront o Experience Manager Assets. </p>
    <p>Los administradores del sistema tienen permisos para todos los espacios de trabajo, incluidos los que no crearon.</p> </td> 
-  </tr> 
-<tr> 
-   <td role="rowheader"><p>Plantilla de diseño</p></td> 
-   <td> <p>En el entorno de producción, todos los usuarios, incluidos los administradores del sistema, deben estar asignados a una plantilla de diseño que incluya Planning.</p>
-<p><span class="preview">En el entorno de vista previa, los usuarios estándar y los administradores del sistema tienen Planning habilitado de forma predeterminada.</span></p> </td> 
   </tr> 
 </tbody> 
 </table>
@@ -158,7 +151,7 @@ Puede conectar registros de Workfront Planning en las siguientes áreas de un re
 * Los campos de registro conectados en la vista de tabla.
 * El cuadro de vista previa o la página del registro en los campos de registro conectados de la ficha Detalles.
 * Cuadro de vista previa o página del registro en la ficha Conexiones.
-* La página del registro en una ficha <span class="preview">Página de registros conectados</span>.
+* La página del registro en una ficha de página Registros conectados.
 
 ### Conecte los registros de Workfront Planning desde la vista de tabla o desde el área Detalles de un registro
 
@@ -231,7 +224,7 @@ Puede conectar registros de Workfront Planning en las siguientes áreas de un re
    >
    >* La información del campo de fecha de los objetos de Workfront se muestra en formato de 24 horas en Workfront Planning, independientemente de cómo se muestre en Workfront.
    >
-   >   Por ejemplo, si la fecha planificada de inicio de un proyecto se muestra a las 3:00 p.m. en Workfront, en un campo de búsqueda importado se mostrará a las 15:00 en Workfront Planning.
+   >   Por ejemplo, si la fecha planificada de inicio de un proyecto se muestra como las 3:00 p.m. en Workfront, se mostrará como 15:00 en Workfront Planning en un campo de búsqueda importado.
 
 1. (Opcional) Cierre la página de tipo de registro y vaya al espacio de trabajo seleccionado.
 1. Haga clic en la tarjeta del tipo de registro al que está vinculado.
@@ -344,7 +337,7 @@ Después de crear una conexión entre un tipo de registro y Adobe Experience Man
 
 >[!NOTE]
 >
->Se puede acceder a los registros de planificación y a sus campos desde Experience Manager Assets cuando el administrador de Workfront configura la asignación de metadatos mediante la integración entre Workfront y Adobe Experience Manager Assets. Para obtener más información, consulte [Configuración de la asignación de metadatos de recursos entre Adobe Workfront y Experience Manager Assets](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
+>Se puede acceder a los registros de planificación y a sus campos desde Experience Manager Assets cuando el administrador de Workfront configura la asignación de metadatos mediante la integración entre Workfront y Adobe Experience Manager Assets. Para obtener más información, consulte [Configuración de la asignación de metadatos de recursos entre Adobe Workfront y Experience Manager Assets](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
 
 Para conectar registros con recursos de Experience Manager:
 
@@ -461,8 +454,7 @@ Los registros y objetos se agregan inmediatamente.
 
    El registro se desconecta inmediatamente de todas las áreas de Workfront Planning o de otras aplicaciones en las que podría mostrarse como conectado. También se quitan todos los valores de campo de búsqueda.
 
-### Conectar registros de la <span class="preview">página Registros conectados</span> de un registro
-
+### Conectar registros desde la página Registros conectados de un registro
 
 1. Vaya a cualquier vista de un tipo de registro que se haya conectado a otros tipos de registros de Planning o tipos de objetos de otras aplicaciones.
 1. Siga los pasos descritos en las subsecciones anteriores para buscar un registro en la vista que desee conectar con otros registros u objetos.
@@ -470,7 +462,7 @@ Los registros y objetos se agregan inmediatamente.
 
    Se abre la página de vista previa.
 1. Haga clic en el icono **Abrir en ficha nueva** ![Abrir detalles en un icono de ficha nueva](assets/open-details-in-a-new-tab-icon.png) para abrir la página del registro.
-1. Haga clic en una ficha <span class="preview">Página de registros conectados</span> existente de la página del registro. Primero debe crear una <span class="preview">página Registros conectados</span>. Para obtener más información, vea [Administrar el diseño de la página de registros](/help/quicksilver/planning/records/manage-the-record-page.md).
+1. Haga clic en una ficha de la página Registros conectados existente de la página del registro. Primero debe crear una página Registros conectados. Para obtener más información, vea [Administrar el diseño de la página de registros](/help/quicksilver/planning/records/manage-the-record-page.md).
 
    Aparece una página de tipo de registro conectado en la vista de tabla.
 

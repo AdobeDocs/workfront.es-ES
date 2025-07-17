@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 718ed3efd56c532693d26cc067041bedbc71cca0
+source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
 workflow-type: tm+mt
-source-wordcount: '2059'
-ht-degree: 53%
+source-wordcount: '1973'
+ht-degree: 55%
 
 ---
 
@@ -19,9 +19,9 @@ ht-degree: 53%
 
 <!--do not use the snippet for IMPORTANT as it links to this article-->
 
-<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después de las versiones mensuales en Production, las mismas funciones también están disponibles en el entorno Production para los clientes que habilitaron versiones rápidas. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span> -->
 
 >[!IMPORTANT]
 >
@@ -166,14 +166,13 @@ The following features are currently available in Workfront Planning:
 
 Una vez que su organización haya adquirido un paquete de Workfront Planning, como administrador de Workfront, debe asegurarse de que dispone de lo siguiente para que los usuarios puedan acceder a Workfront Planning:
 
-* En función del entorno que utilice, asigne a los siguientes usuarios una plantilla de diseño que incluya Planning en el menú principal:
+* Asigne a los siguientes usuarios una plantilla de diseño que incluya Planning en el menú principal:
 
-   * En el entorno Producción, asigne la plantilla a todos los usuarios de todos los tipos de licencias, incluidos los administradores del sistema.
+   * Asigne la plantilla de diseño a los usuarios de Light y Contribute.
 
-   * <span class="preview">En el entorno de vista previa, asigne la plantilla a los usuarios de Light y Contribute. Los usuarios estándar y los administradores del sistema tienen Planning habilitado de forma predeterminada. </span>
+     Los usuarios estándar y los administradores del sistema tienen Planning habilitado de forma predeterminada.
 
   Para obtener más información, consulte [Personalizar el menú principal con una plantilla de diseño](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md) y [Asignar usuarios a una plantilla de diseño](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md).
-
 
 * Asigne a los usuarios una licencia de Workfront y permisos de Workfront Planning que les permitan ver o crear objetos en Workfront Planning. Para obtener más información sobre cómo conceder acceso a Workfront Planning y permitir que otros lo usen, consulte [Información general sobre el acceso a Adobe Planning](/help/quicksilver/planning/access/access-overview.md).
 
@@ -325,7 +324,6 @@ A continuación, se muestran los objetos y conceptos principales de Workfront Pl
      ![Agrupación aplicada en la vista de escala de tiempo](assets/grouping-applied-in-timeline-view.png)
 
    * **Vista de calendario**: muestra los registros que tienen al menos dos campos de tipo Fecha en formato de calendario.
-
      ![Ejemplo de vista de calendario](assets/calendar-view-example.png)
 
 
@@ -397,7 +395,7 @@ Para obtener una lista actualizada de las características publicadas, consulte 
     >
     >    The Workfront AI Assistant has been temporarily removed and it will be available at a later date.-->
 
-* [Módulos de Adobe Workfront Planning para Workfront Fusion](https://experienceleague.adobe.com/es/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules): Con los módulos de Adobe Workfront Planning, puede activar un escenario cuando se produzcan eventos en Workfront Planning. También puede crear, leer, actualizar y eliminar registros, o realizar una llamada de API personalizada a su cuenta de Adobe Workfront Planning.
+* [Módulos de Adobe Workfront Planning para Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules): Con los módulos de Adobe Workfront Planning, puede activar un escenario cuando se produzcan eventos en Workfront Planning. También puede crear, leer, actualizar y eliminar registros, o realizar una llamada de API personalizada a su cuenta de Adobe Workfront Planning.
 
 * [Conceptos básicos de la API de Adobe Workfront Planning](/help/quicksilver/planning/general/planning-api-basics.md): la meta de la API de Planning de Adobe Workfront es simplificar la creación de integraciones con Planning mediante la introducción de una arquitectura REST-ful que funcione a través de HTTP.
 

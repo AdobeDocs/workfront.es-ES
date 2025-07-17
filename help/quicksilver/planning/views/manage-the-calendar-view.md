@@ -6,10 +6,10 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 45b5be81-703c-45d5-a08c-60cb8ec5b103
-source-git-commit: b27b01e1efacc3fc459cec0a53b2c11cbe5e132b
+source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
 workflow-type: tm+mt
-source-wordcount: '1485'
-ht-degree: 52%
+source-wordcount: '1527'
+ht-degree: 51%
 
 ---
 
@@ -66,9 +66,9 @@ Para obtener información sobre las vistas de Adobe Workfront Planning y cómo a
    </td> 
    </tr> 
   </tr> 
-  <tr> 
-   <td role="rowheader"><p>Licencia de Adobe Workfront*</p></td> 
-   <td><p> Estándar </p>
+    <td role="rowheader"><p>Licencia de Adobe Workfront*</p></td> 
+   <td><p> Estándar para crear y eliminar vistas</p>
+   <p>Colaborador o superior para actualizar los elementos de vista</p>
    <p>Workfront Planning no está disponible para licencias de Workfront heredadas</p> 
   </td> 
   </tr> 
@@ -81,6 +81,12 @@ Para obtener información sobre las vistas de Adobe Workfront Planning y cómo a
    <td role="rowheader"><p>Permisos de objeto</p></td> 
    <td>   <p>Permisos de administración de una vista</p>  
    <p>Ver permisos en una vista para cambiar temporalmente la configuración de la vista o para duplicarla</p> </td> 
+  </tr> 
+<tr>
+   <td role="rowheader"><p>Plantilla de diseño</p></td>
+   <td> A los usuarios con una licencia Light o Contributor se les debe asignar una plantilla de diseño que incluya Planning.
+   <p>Los usuarios estándar y los administradores del sistema tienen las áreas de Planning habilitadas de forma predeterminada.</p></div></li></ul>
+</td>
   </tr>
 
 </tbody> 

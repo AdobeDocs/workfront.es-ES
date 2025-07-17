@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 1de095b3-78d9-44df-a678-51f4238deb91
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
 workflow-type: tm+mt
-source-wordcount: '260'
-ht-degree: 90%
+source-wordcount: '294'
+ht-degree: 63%
 
 ---
 
@@ -18,9 +18,17 @@ ht-degree: 90%
 
 {{planning-important-intro}}
 
-A diferencia de Workfront, donde los tipos de objeto están predefinidos, en Adobe Workfront Planning puede crear sus propios tipos de objeto. Por ejemplo, en Workfront, los tipos de objeto Programa, Portafolios, Proyecto, Tarea o Problema ya están creados.
+A diferencia de Workfront, donde los tipos de objeto están predefinidos, en Adobe Workfront Planning puede crear sus propios tipos de objeto.
 
-Los tipos de objetos de Workfront Planning se denominan “tipos de registros” y existen únicamente cuando los usuarios los crean. Los tipos de registros son los componentes de un espacio de trabajo de Adobe Workfront Planning. Para obtener más información acerca de los espacios de trabajo, consulte [Creación de espacios de trabajo](/help/quicksilver/planning/architecture/create-workspaces.md).
+Por ejemplo, en Workfront, los tipos de objeto Programa, Portafolios, Proyecto, Tarea o Problema ya están creados.
+
+Los tipos de objetos de Workfront Planning se denominan &quot;tipos de registros&quot; y existen únicamente cuando los usuarios los crean.
+
+Los tipos de registro son los componentes básicos de un espacio de trabajo de Workfront Planning y debe crearlos todos para poder asociarlos con el flujo de trabajo y otra información.
+
+Los tipos de registros están organizados en espacios de trabajo.
+
+Para obtener más información acerca de los espacios de trabajo, consulte [Creación de espacios de trabajo](/help/quicksilver/planning/architecture/create-workspaces.md).
 
 ## Información general de tipo de registro
 
@@ -32,6 +40,8 @@ Para obtener información acerca de cómo crear tipos de registros, consulte [Cr
 
    * **Tipos de registros operativos**: tipos de registros que representan planes estratégicos, iniciativas o trabajo planificado. Por ejemplo, Campaña, Actividad, Táctica u Oportunidad son tipos de registros operativos.
    * **Taxonomías**: tipos de registros que capturan atributos sobre un tipo de registro operativo. Por ejemplo, Región, Dirección y Público son taxonomías.
+
+  Puede cambiar el nombre de estas secciones, eliminarlas o crear más.
 
 * Cuando crea un tipo de registro en un espacio de trabajo que ha creado desde cero, puede colocar el tipo de registro en cualquier sección que cree en el espacio de trabajo.
 * Cuando crea un tipo de registro, solo usted y los usuarios a los que conceda permiso para acceder al espacio de trabajo podrán ver el tipo de registro.

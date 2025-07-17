@@ -6,15 +6,15 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: b27b01e1efacc3fc459cec0a53b2c11cbe5e132b
+source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
 workflow-type: tm+mt
-source-wordcount: '4607'
-ht-degree: 58%
+source-wordcount: '5201'
+ht-degree: 53%
 
 ---
 
 
-<!--Should the structure of this article be like this other one: https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/custom-form-builder/use-the-custom-form-builder/add-a-custom-field-to-a-custom-form.html?lang=es ??-->
+<!--Should the structure of this article be like this other one: https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/custom-form-builder/use-the-custom-form-builder/add-a-custom-field-to-a-custom-form.html?lang=en ??-->
 
 <!--will they add a way to create fields elsewhere than in a table?! - how will that change the structure of this article? -->
 
@@ -22,9 +22,9 @@ ht-degree: 58%
 
 # Crear campos
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después de las versiones mensuales en Production, las mismas funciones también están disponibles en el entorno Production para los clientes que habilitaron versiones rápidas. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 
 {{planning-important-intro}}
@@ -165,7 +165,9 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
    * [Creado por](#created-by)
    * [Fecha de creación](#created-date)
    * [Última modificación realizada por](#last-modified-by)
-   * [Fecha de última modificación](#last-modified-date)
+   * [Fecha de la última modificación](#last-modified-date)
+   * <span class="preview">[Fecha de aprobación](#approved-date)</span>
+   * <span class="preview">[Aprobado por](#approved-by)</span>
      <!--* [Object](#object-field-type)-->
 
    >[!IMPORTANT]
@@ -301,8 +303,8 @@ Puede utilizar un campo de fecha para capturar información adicional en formato
 
      Seleccione entre las siguientes opciones:
 
-      * **24 h**: por ejemplo: 18:00
-      * **12 h**: por ejemplo: 6:00 P. M.
+      * **24hr**: Por ejemplo: 18:00
+      * **12hr**: Por ejemplo: 6:00 PM
 
 1. Haga clic en **Crear**.
 
@@ -317,7 +319,7 @@ Los tipos de campo numéricos capturan información en formato numérico.
 >Los campos de número se muestran como un campo de texto de una sola línea en un generador de formularios de solicitud.
 >
 >Sin embargo, el formato de campo se conserva y los valores de estos campos se muestran como números después de enviar la solicitud, en el tipo de registro y en la página de detalles de la solicitud.
->&#x200B;>Para obtener más información, consulte [Crear y administrar un formulario de solicitud en Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
+>>Para obtener más información, consulte [Crear y administrar un formulario de solicitud en Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 
 
 1. Comience a crear un campo como se describe en la sección [Crear campos desde cero](#create-fields-from-scratch) de este artículo y, a continuación, seleccione el tipo de campo **Número**.
@@ -347,7 +349,7 @@ Los tipos de campo de porcentaje capturan información en un formato numérico s
 >Los campos de porcentaje se muestran como un campo de texto de una sola línea en un generador de formularios de solicitud.
 >
 >Sin embargo, el formato de campo se conserva y los valores de estos campos se muestran como porcentajes después de enviar la solicitud, en el tipo de registro y en la página de detalles de la solicitud.
->&#x200B;>Para obtener más información, consulte [Crear y administrar un formulario de solicitud en Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
+>>Para obtener más información, consulte [Crear y administrar un formulario de solicitud en Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 
 
 1. Comience a crear un campo como se describe en la sección [Crear campos desde cero](#create-fields-from-scratch) de este artículo y, a continuación, seleccione el tipo de campo **Porcentaje**.
@@ -387,7 +389,7 @@ Los tipos de campo Divisa capturan información en un formato de número precedi
 >Los campos de moneda se muestran como un campo de texto de una sola línea en un generador de formularios de solicitud.
 >
 >Sin embargo, el formato de campo se conserva y los valores de estos campos se muestran como moneda una vez enviada la solicitud, en el tipo de registro y en la página de detalles de la solicitud.
->&#x200B;>Para obtener más información, consulte [Crear y administrar un formulario de solicitud en Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
+>>Para obtener más información, consulte [Crear y administrar un formulario de solicitud en Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 
 1. Comience a crear un campo como se describe en la sección [Crear campos desde cero](#create-fields-from-scratch) de este artículo y, a continuación, seleccione el tipo de campo **Divisa**.
 
@@ -563,8 +565,8 @@ Puede utilizar el tipo de campo Fecha de creación para añadir la fecha en la q
 
      Seleccione entre las siguientes opciones:
 
-      * **24 h**: por ejemplo: 18:00
-      * **12 h**: por ejemplo: 6:00 P. M.
+      * **24hr**: Por ejemplo: 18:00
+      * **12hr**: Por ejemplo: 6:00 PM
 
 1. Haga clic en **Crear**.
 
@@ -615,81 +617,77 @@ Puede utilizar el tipo de campo Fecha de la última modificación para añadir l
 
      Seleccione entre las siguientes opciones:
 
-      * **24 h**: por ejemplo: 18:00
-      * **12 h**: por ejemplo: 6:00 P. M.
+      * **24hr**: Por ejemplo: 18:00
+      * **12hr**: Por ejemplo: 6:00 PM
 
 1. Haga clic en **Crear**.
 
    El nuevo tipo de campo Fecha de la última modificación se añade como una columna al tipo de registro y sus valores se rellenan previamente con la fecha (o fecha y hora) a la que se creó el registro.
 
-<!--
-
 <div class="preview">
 
-### Approved date
+### Fecha de aprobación
 
-You can use the Approved date field type to add the date when a request was approved and it resulted in the creation of the record. This is a read-only field, and it automatically populates with the date (and optionally with the time) when the request was approved by the last approver. In this case, the approval date should coincide with the date the record was created. 
-
->[!TIP]
->
->The Approved date field populates with information only for records that were created by submitting a request form associated with approvers. 
->
->If the form is associated with more than one approver, only the date of the last approval decision is recorded in the Approved date field.
- 
-
-1. Start creating a field as described in the section [Create fields from scratch](#create-fields-from-scratch) in this article, then select the **Created date** field type.
- 
-   ![Approved date field type](assets/approved-date-field-type.png)
-
-   1. Add the following information in the **New field** tab:
-
-     * **Name**: The name of the field, as it will appear in a table or the record page. 
-     * **Description**: Additional information about the field. The description of a field displays when you hover over the field's column in a table, or when you click the information icon next to the field name in the record's details page.
-     * **Date Format**: Select from the following formats:
-
-        * **Locale**: Matches the locale of your browser.
-        * **Standard**: 05/16/2023
-        * **Long**: May 16, 2023
-        * **European**: 16/05/2023
-        * **ISO**: 2023-05-16
-     
-     * **Include a time field**: Select this option if you want to include a time stamp. This is unselected by default. 
-    
-        Select from the following options:
-        
-        * **24hr**: For example: 18:00
-        * **12hr**: For example: 6:00 PM 
-    
-1. Click **Create**.
-
-    The new Approved date-type field is added as a column to the record type and its values are prefilled with the date (or date and time) when the record request was approved, if the record was created by submitting a request associated with approvers. 
-
-### Approved by
-
-You can use the Approved by field type to add the user who last approved the request to create a record. This is a read-only field, and it automatically populates with the name of the user who approved the request to create the record.
+Puede utilizar el tipo de campo Approved date para agregar la fecha en la que se aprobó una solicitud y que resultó en la creación del registro. Este campo es de solo lectura y se rellena automáticamente con la fecha (y opcionalmente con la hora) en que el último aprobador aprobó la solicitud. En este caso, la fecha de aprobación debe coincidir con la fecha en la que se creó el registro.
 
 >[!TIP]
 >
->The Approved by field populates with information only for records that were created by submitting a request form associated with approvers.
+>El campo Approved date se rellena con información solo para los registros creados al enviar un formulario de solicitud asociado con los aprobadores.
 >
->If the form is associated with more than one approver, the name of all approvers are recorded in the Approved date field, separated by commas.
- 
-1. Start creating a field as described in the section [Create fields from scratch](#create-fields-from-scratch) in this article, then select the **Approved by** field type.
- 
-   ![Approved by field type](assets/approved-by-field-type.png)
+>Si el formulario está asociado con más de un aprobador, solo se registra la fecha de la última decisión de aprobación en el campo Approved date.
 
-1. Add the following information in the **New field** tab:
 
-     * **Name**: The name of the field, as it will appear in a table or the record page. 
-     * **Description**: Additional information about the field. The description of a field displays when you hover over the field's column in a table, or when you click the information icon next to the field name in the record's details page.
-    
-1. Click **Create**.
+1. Comience a crear un campo como se describe en la sección [Crear campos desde cero](#create-fields-from-scratch) de este artículo y, a continuación, seleccione el tipo de campo **Fecha de creación**.
 
-    The new Approved by-type field is added as a column to the record type and its values are prefilled with the name of the user who last modified each record.  
+   ![Tipo de campo de fecha aprobado](assets/approved-date-field-type.png)
+
+   1. Añada la siguiente información en la pestaña **Nuevo campo**:
+
+   * **Nombre**: Nombre del campo tal como aparecerá en una tabla o en la página de registro.
+   * **Descripción**: información adicional sobre el campo. La descripción de un campo se muestra al pasar el ratón por encima de la columna del campo en una tabla o al hacer clic en el icono de información situado junto al nombre del campo en la página de detalles del registro.
+   * **Formato de fecha**: seleccione entre los siguientes formatos:
+
+      * **Configuración regional**: coincide con la configuración regional del explorador.
+      * **Estándar**: 16/5/2023
+      * **Largo**: 16 de mayo de 2023
+      * **Europeo**: 16/5/2023
+      * **ISO**: 16-5-2023
+
+   * **Incluir un campo de hora**: seleccione esta opción si desea incluir una marca de hora. De forma predeterminada, esta opción no está seleccionada.
+
+     Seleccione entre las siguientes opciones:
+
+      * **24hr**: Por ejemplo: 18:00
+      * **12hr**: Por ejemplo: 6:00 PM
+
+1. Haga clic en **Crear**.
+
+   El nuevo campo Approved date-type se añade como una columna al tipo de registro y sus valores se rellenan previamente con la fecha (o fecha y hora) en que se aprobó la solicitud de registro, si el registro se creó enviando una solicitud asociada con los aprobadores.
+
+### Aprobado por
+
+Puede utilizar el tipo de campo Approved by para agregar al usuario que aprobó la solicitud por última vez para crear un registro. Este es un campo de solo lectura y se rellena automáticamente con el nombre del usuario que aprobó la solicitud para crear el registro.
+
+>[!TIP]
+>
+>El campo Aprobado por se rellena con información solo para los registros creados al enviar un formulario de solicitud asociado a los aprobadores.
+>
+>Si el formulario está asociado con más de un aprobador, el nombre de todos los aprobadores se registra en el campo Approved date, separado por comas.
+
+1. Comience a crear un campo como se describe en la sección [Crear campos desde cero](#create-fields-from-scratch) de este artículo y, a continuación, seleccione el tipo de campo **Aprobado por**.
+
+   ![Aprobado por tipo de campo](assets/approved-by-field-type.png)
+
+1. Añada la siguiente información en la pestaña **Nuevo campo**:
+
+   * **Nombre**: Nombre del campo tal como aparecerá en una tabla o en la página de registro.
+   * **Descripción**: información adicional sobre el campo. La descripción de un campo se muestra al pasar el ratón por encima de la columna del campo en una tabla o al hacer clic en el icono de información situado junto al nombre del campo en la página de detalles del registro.
+
+1. Haga clic en **Crear**.
+
+   El nuevo campo Approved by-type se agrega como una columna al tipo de registro y sus valores se rellenan previamente con el nombre del usuario que modificó cada registro por última vez.
 
 </div>
--->
-
 
 <!--
 

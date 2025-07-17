@@ -6,19 +6,19 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
+source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
 workflow-type: tm+mt
-source-wordcount: '1177'
-ht-degree: 54%
+source-wordcount: '1110'
+ht-degree: 55%
 
 ---
 
 
 # Administrar vistas de registros
 
-<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después de las versiones mensuales en Production, las mismas funciones también están disponibles en el entorno Production para los clientes que habilitaron versiones rápidas. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 
 {{planning-important-intro}}
@@ -53,8 +53,6 @@ Para obtener más información sobre la administración de vistas de registros d
 ## Requisitos de acceso
 
 +++ Amplíe para ver los requisitos de acceso.
-
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 <table style="table-layout:auto"> 
 <col> 
@@ -95,7 +93,8 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
   <tr> 
    <td role="rowheader"><p>Licencia de Adobe Workfront*</p></td> 
-   <td><p> Estándar </p>
+   <td><p> Estándar para crear y eliminar vistas</p>
+   <p>Colaborador o superior para actualizar los elementos de vista</p>
    <p>Workfront Planning no está disponible para licencias de Workfront heredadas</p> 
   </td> 
   </tr> 
@@ -109,11 +108,12 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
    <td>   <p>Permisos de administración de una vista</p>  
    <p>Ver permisos en una vista para cambiar temporalmente la configuración de la vista o para duplicarla</p> </td> 
   </tr> 
-<tr> 
-   <td role="rowheader"><p>Plantilla de diseño</p></td> 
-   <td> <p>En el entorno de producción, todos los usuarios, incluidos los administradores del sistema, deben estar asignados a una plantilla de diseño que incluya Planning.</p>
-<p><span class="preview">En el entorno de vista previa, los usuarios estándar y los administradores del sistema tienen Planning habilitado de forma predeterminada.</span></p></td> 
-  </tr> 
+<tr>
+   <td role="rowheader"><p>Plantilla de diseño</p></td>
+   <td> A los usuarios con una licencia Light o Contributor se les debe asignar una plantilla de diseño que incluya Planning.
+   <p>Los usuarios estándar y los administradores del sistema tienen las áreas de Planning habilitadas de forma predeterminada.</p></div></li></ul>
+</td>
+  </tr>
 </tbody> 
 </table>
 
@@ -160,7 +160,7 @@ En la tabla siguiente se muestran las similitudes y diferencias entre las vistas
 | Mostrar registros en un calendario |           |              | ✓ |
 | Registros de grupo | ✓ | ✓ |
 | Ordenar registros | ✓ |              |
-| <span class="preview">Registros de código de color</span> | <span class="preview">✓</span> | ✓ | ✓ |
+| Registros con código de color | ✓ | ✓ | ✓ |
 | Agrupaciones de código de color |           | ✓ |
 | Buscar registros específicos | ✓ | ✓ |
 | Compartir la vista con otros usuarios | ✓ | ✓ | ✓ |
@@ -168,7 +168,7 @@ En la tabla siguiente se muestran las similitudes y diferencias entre las vistas
 | Mostrar registros por año y trimestre |           | ✓ |    |
 | Mostrar registros por mes |           | ✓ | ✓ |
 | Mostrar registros por semana |           |               | ✓ |
-| <span class="preview">Exportar información de una vista</span> | <span class="preview">✓</span> |               |    |
+| Exportación de información desde una vista | ✓ |               |    |
 
 
 ## Crear o editar vistas {#create-or-edit-views}

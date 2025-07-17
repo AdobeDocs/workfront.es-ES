@@ -6,19 +6,19 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: fe3127ab-3f59-46a0-a747-9e9e1582265b
-source-git-commit: 5a4ceb3bd7a5f121312d26775b6cf91604585775
+source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
 workflow-type: tm+mt
-source-wordcount: '365'
-ht-degree: 77%
+source-wordcount: '305'
+ht-degree: 88%
 
 ---
 
 
 # Información general sobre el campo principal
 
-<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después de las versiones mensuales en Production, las mismas funciones también están disponibles en el entorno Production para los clientes que habilitaron versiones rápidas. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -53,4 +53,4 @@ Para obtener información acerca de cómo designar un campo como campo principal
 * Cambiar el campo principal en la vista de tabla afecta a la vista de todos los demás usuarios que lo elijan.
 * Cambiar el campo principal en una vista de tabla afecta a todas las vistas de tabla del tipo de registro.
 * El valor que aparece en el campo principal siempre está hipervinculado a la página del registro.
-* Si tiene permisos de tipo Contribuir o superior para un área de trabajo <span class="preview">y tipo de registro</span>, puede editar el valor de los campos principales, excepto para los campos de fórmula. Las fórmulas son cálculos que se actualizan automáticamente.
+* Si tiene permisos de tipo Contribuir o superior para un espacio de trabajo y tipo de registro, puede editar el valor de los campos principales, excepto para los campos de fórmula. Las fórmulas son cálculos que se actualizan automáticamente.

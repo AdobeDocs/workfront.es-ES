@@ -6,21 +6,19 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 3f7a3667-8a9f-462a-b706-cf15850a0d1c
-source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
+source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
 workflow-type: tm+mt
-source-wordcount: '808'
-ht-degree: 41%
+source-wordcount: '681'
+ht-degree: 44%
 
 ---
 
 
 # Eliminar registros
 
-<!--take Preview and Production references out at release-->
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después de las versiones mensuales en Production, las mismas funciones también están disponibles en el entorno Production para los clientes que habilitaron versiones rápidas. </span>
-
-<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>  -->
 
 {{planning-important-intro}}
 
@@ -29,8 +27,6 @@ Puede eliminar los registros que ya no sean relevantes en Adobe Workfront Planni
 ## Requisitos de acceso
 
 +++ Amplíe para ver los requisitos de acceso.
-
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 <table style="table-layout:auto"> 
 <col> 
@@ -82,13 +78,8 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
 <tr> 
    <td role="rowheader"><p>Permisos de objeto</p></td> 
-   <td>   <p>Permisos de contribución o superiores para un área de trabajo <span class="preview"> y tipo de registro </span> </a> </p>  
+   <td>   <p>Permisos de contribución o superiores para un espacio de trabajo y tipo de registro </a> </p>  
    <p>Los administradores del sistema tienen permisos para todos los espacios de trabajo, incluidos los que no crearon</p> </td> 
-  </tr> 
-<tr> 
-   <td role="rowheader"><p>Plantilla de diseño</p></td> 
-   <td> <p>En el entorno de producción, todos los usuarios, incluidos los administradores del sistema, deben estar asignados a una plantilla de diseño que incluya Planning.</p>
-<p><span class="preview">En el entorno de vista previa, los usuarios estándar y los administradores del sistema tienen Planning habilitado de forma predeterminada.</span></p> </td> 
   </tr> 
 </tbody> 
 </table>
@@ -100,7 +91,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 ## Consideraciones sobre la eliminación de registros
 
 * Puede eliminar los registros que usted u otro usuario hayan creado.
-* No se pueden recuperar los registros eliminados en el entorno de producción. Puede recuperar los registros eliminados en el entorno de vista previa.
+* Puede recuperar los registros eliminados que usted u otros usuarios hayan eliminado.
 * Si los registros eliminados están vinculados a otros registros, los registros vinculados no se eliminan, pero también se elimina la información del registro eliminado.
 * No se pueden eliminar registros de la escala de tiempo o de las vistas de calendario.
 
@@ -136,7 +127,7 @@ Puede eliminar un registro de las siguientes áreas:
 
    ![Más opciones de menú de la página de detalles del registro](assets/more-menu-options-from-record-details-page.png) <!--ensure the options have not changed or been renamed-->
 Se elimina el registro.
-1. (Opcional y condicional) Si elimina el registro en el entorno de vista previa, vaya a la vista de tabla de la página del registro y haga clic en el icono **Deshacer** ![Icono Deshacer](assets/undo-icon.png) en la esquina superior derecha de la vista; a continuación, haga clic en **Eliminados recientemente** para recuperar los registros eliminados.
+1. (Opcional) Vaya a la vista de tabla de la página del registro y haga clic en el icono **Deshacer** ![Deshacer icono](assets/undo-icon.png) en la esquina superior derecha de la vista; a continuación, haga clic en **Eliminados recientemente** para recuperar los registros eliminados.
 
 Para obtener información acerca de cómo recuperar los registros eliminados, vea [Recuperar registros eliminados](/help/quicksilver/planning/records/restore-deleted-records.md).
 

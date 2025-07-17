@@ -3,13 +3,13 @@ title: Envío de solicitudes de Adobe Workfront Planning
 description: Una vez que alguien comparta un vínculo a un formulario de solicitud con usted desde una página de tipo de registro en Adobe Workfront Planning, puede añadir una solicitud para crear registros para el tipo de registro asociado al formulario de solicitud.
 feature: Workfront Planning
 role: User, Admin
-author: Alina
+author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
-source-git-commit: b27b01e1efacc3fc459cec0a53b2c11cbe5e132b
+source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
 workflow-type: tm+mt
-source-wordcount: '2091'
-ht-degree: 7%
+source-wordcount: '2019'
+ht-degree: 6%
 
 ---
 
@@ -41,8 +41,6 @@ Para obtener información sobre cómo un administrador del área de trabajo pued
 ## Requisitos de acceso
 
 +++ Amplíe para ver los requisitos de acceso.
-
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 <table style="table-layout:auto">
  <col>
@@ -96,20 +94,8 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 <tr>
    <td role="rowheader"><p>Permisos de objeto</p></td>
    <td>
-   <p>Ver o permisos superiores a un espacio de trabajo <span class="preview">y tipo de registro</span>, si es un usuario de Workfront</p> 
+   <p>Permisos de visualización o superiores para un espacio de trabajo y tipo de registro, si es un usuario de Workfront</p> 
   </td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>Plantilla de diseño</p></td>
-   <td> <p>Para acceder al área de Planning en Workfront, debe tener la siguiente configuración de plantilla de diseño: </p>
-<ul>
-<li><p>En el entorno de producción, todos los usuarios, incluidos los administradores del sistema, deben estar asignados a una plantilla de diseño que incluya Planning.</p></li>
-<li><div class="preview">
-<p> En el entorno de vista previa, a los usuarios con una licencia Light o Contributor se les debe asignar una plantilla de diseño que incluya Planning.
-   <p>Los usuarios estándar y los administradores del sistema tienen las áreas de Planning habilitadas de forma predeterminada.</p></div></li></ul>
-
-<p> Sin embargo, no es necesario acceder al área de Planning para enviar solicitudes a Workfront Planning. </p>  
-</td>
   </tr>
  </tbody>
 </table>
@@ -226,8 +212,6 @@ Si habilita esta configuración, los formularios de solicitud de Workfront Plann
 Todas las solicitudes a las que tiene acceso para ver que se enviaron a un formulario de solicitud de Planning se muestran en una lista.
 1. (Opcional) Realice una de las siguientes acciones:
 
-   <div class="preview">
-
    * Haga clic en **Filtros** y empiece a agregar condiciones para las solicitudes que desee ver en la pestaña Planificación.
 
      ![Edición de filtros en la ficha de solicitudes de Planning](assets/filters-editing-box-in-requests-planning-tab.png)
@@ -260,8 +244,6 @@ La lista de solicitudes se filtra automáticamente a medida que se añaden las c
    Se abre la página de detalles de la solicitud.
 
    ![Página de detalles de solicitud](assets/request-details-page.png)
-
-   </div>
 
 
 1. (Condicional) Si el formulario de solicitud no está asociado a una aprobación, o si la solicitud se ha aprobado, haga clic en el nombre de la solicitud y, a continuación, haga clic en el nombre del registro en el campo **Registro**.
@@ -313,7 +295,7 @@ La lista de solicitudes se filtra automáticamente a medida que se añaden las c
      >
      >Las notificaciones por correo electrónico y en la aplicación solo son visibles cuando la instancia de Workfront de su organización está integrada en la experiencia unificada de Adobe.
 
-   <!--* <span class="preview"> After the request was approved and the record was created, the Approved by and Approved date fields display information about the approval on the record.</span>-->
+   * <span class="preview"> Después de aprobar la solicitud y crear el registro, los campos de fecha Aprobado por y Aprobado muestran información sobre la aprobación en el registro.</span>
 
 1. (Opcional) Haga clic en **Ver su solicitud** para abrir la solicitud en Workfront.
 

@@ -6,10 +6,10 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: d86cf3f9-cacc-4457-acb3-a5122ae91be8
-source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
+source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
 workflow-type: tm+mt
-source-wordcount: '1843'
-ht-degree: 7%
+source-wordcount: '1734'
+ht-degree: 5%
 
 ---
 
@@ -18,9 +18,9 @@ ht-degree: 7%
 
 # Administrar conexiones de registro desde objetos de Workfront
 
-<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después de las versiones mensuales en Production, las mismas funciones también están disponibles en el entorno Production para los clientes que habilitaron versiones rápidas. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Para obtener información acerca de las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>-->
 
 {{planning-important-intro}}
 
@@ -32,8 +32,6 @@ Puede mostrar registros de Workfront Planning en Workfront en las siguientes ár
 ## Requisitos de acceso
 
 +++ Amplíe para ver los requisitos de acceso.
-
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 <table style="table-layout:auto">
  <col>
@@ -72,8 +70,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 <p>La instancia de Workfront de su organización debe incorporarse a Adobe Unified Experience para poder acceder a Workfront Planning.</p>
 <p>Para obtener más información, consulte <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience para Workfront</a>. </p>
    </td>
-
-</tr>
+  </tr>
   </tr>
   <tr>
    <td role="rowheader"><p>Licencia de Adobe Workfront*</p></td>
@@ -94,17 +91,11 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
    <p>En Workfront, vea o supere los permisos de un proyecto, portafolio o programa</a> </p> 
    <p>En Workfront Planning:
    <ul><li>
-   Ver permisos de un espacio de trabajo <span class="preview">y tipo de registro</span> para ver cualquier registro conectado </li>
+   Ver permisos de un espacio de trabajo y tipo de registro para ver los registros conectados </li>
    o
-   <li> Permisos de contribución o superiores para un espacio de trabajo <span class="preview">y tipo de registro</span> para conectar o desconectar registros</a></li></ul> </p>  
+   <li> Permisos de contribución o superiores a un espacio de trabajo y tipo de registro para conectar o desconectar registros</a></li></ul> </p>  
    <p>Los administradores del sistema tienen permisos para todos los espacios de trabajo de Workfront Planning, incluidos los que no crearon</p> 
   </td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>Plantilla de diseño</p></td>
-   <td> <p>En el entorno de producción, todos los usuarios, incluidos los administradores del sistema, deben estar asignados a una plantilla de diseño que incluya Planning.</p>
-<p><span class="preview">En el entorno de vista previa, los usuarios estándar y los administradores del sistema tienen Planning habilitado de forma predeterminada.</span></p>  </p>  
-</td>
   </tr>
  </tbody>
 </table>

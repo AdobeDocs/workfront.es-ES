@@ -3,10 +3,10 @@ title: Cancelar la publicación de un formulario de solicitud en Adobe Workfront
 description: Puede cancelar la publicación de un formulario de solicitud si ya no es necesario o relevante. Al cancelar la publicación, se eliminan los permisos de todos los usuarios para acceder al formulario.
 feature: Workfront Planning
 role: User, Admin
-author: Alina
+author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: df8c4926-e258-49c0-ab9d-563ccaf7a6aa
-source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
+source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
 workflow-type: tm+mt
 source-wordcount: '863'
 ht-degree: 26%

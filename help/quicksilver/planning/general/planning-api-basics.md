@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: afb58d04-fa75-4eb7-9c19-2a8c1748fbc2
-source-git-commit: e25f6ac3fb4ffc114d59bf5cceecfe718ae914ec
+source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
 workflow-type: tm+mt
-source-wordcount: '973'
-ht-degree: 95%
+source-wordcount: '1006'
+ht-degree: 93%
 
 ---
 
@@ -25,6 +25,13 @@ Estar familiarizado con el esquema de Workfront Planning le ayudará a comprende
 Puede llamar a la API de Planning desde un campo de búsqueda externa en un formulario personalizado de Workfront.
 
 Para obtener más información sobre los campos de búsqueda externa, vea [Ejemplos del campo de búsqueda externa en un formulario personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/external-lookup-examples.md).
+
+>[!NOTE]
+>
+>Los usuarios deben añadirse a Adobe Admin Console para que sean accesibles en las llamadas de API. No se puede acceder a los usuarios solo de Workfront mediante la API de Adobe Planning.
+>
+>Para obtener más información, consulte [Adobe Unified Experience para Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
+
 
 ## URL de API de Workfront Planning
 
