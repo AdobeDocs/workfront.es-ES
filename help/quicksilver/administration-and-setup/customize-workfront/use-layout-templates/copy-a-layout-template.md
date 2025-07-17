@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: fec77b37-3968-4e0e-8034-63a816a7a3d5
-source-git-commit: 80bdc2f2c1bedbc5a894b5a474425c5544c039fd
+source-git-commit: 2847adb34fc8f433392c82dbcab9bf48f0fc8aa0
 workflow-type: tm+mt
-source-wordcount: '316'
-ht-degree: 97%
+source-wordcount: '320'
+ht-degree: 95%
 
 ---
 
@@ -62,7 +62,7 @@ Para realizarlos para un grupo, debe ser administrador de ese grupo.</p> </td>
 1. En el panel izquierdo, haga clic en **Interfaz** > **Plantillas de diseño**.
 
 1. Haga clic en el nombre de la plantilla de diseño que desea modificar.
-1. Haga clic en **Copiar**.
+1. Haga clic en el icono **Copiar** ![Copiar icono](assets/copy-icon.png).
 
    Todas las configuraciones, excepto el nombre, la descripción y las asignaciones de usuario de la plantilla de diseño existente, se copian en la nueva plantilla.
 
