@@ -44,7 +44,7 @@ Para ello:
 
    * **Tipo de registro**: producto <!--did they change the casing here?-->
    * **Nombre**: asigne un nombre al nuevo campo. Por ejemplo, “Información del producto”. Es el nombre del campo de registro vinculado.
-   * **Descripción**: añada una descripción para el nuevo campo. Por ejemplo, &quot;Estos son los productos con los que quiero que se asocien mis campañas&quot;. La descripción del campo se muestra al pasar el puntero del ratón por encima del campo en el encabezado de la columna.
+   * **Descripción**: añada una descripción para el nuevo campo. Por ejemplo, &quot;Estos son los productos con los que quiero que se asocien mis campañas&quot;. La descripción del campo se muestra al pasar el puntero por encima del campo en el encabezado de la columna.
    * **Tipo de conexión**: seleccione una de las siguientes opciones:
       * **Muchos a muchos**: Los usuarios pueden conectar una campaña a varios productos y un producto a varias campañas.
       * **De uno a varios**: los usuarios pueden conectar una campaña a varios productos y un producto a una campaña.

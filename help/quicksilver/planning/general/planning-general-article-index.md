@@ -9,7 +9,7 @@ exl-id: 8c4e4fbb-2f21-43a1-bfb0-d23ac1a33705
 source-git-commit: bbc3ac852dae3d9a503b4585dfc229d43c9aed28
 workflow-type: tm+mt
 source-wordcount: '168'
-ht-degree: 0%
+ht-degree: 87%
 
 ---
 
@@ -21,14 +21,14 @@ Como líder de operaciones de marketing, puede utilizar Adobe Workfront Planning
 
 Revise los siguientes artículos:
 
-* [Resumen de planificación de Adobe Workfront](/help/quicksilver/planning/general/planning-overview.md)
-* [Descripción general del Asistente de IA de Adobe Workfront Planning](/help/quicksilver/planning/general/planning-ai-assistant-overview.md)
-* [Conceptos básicos de API de Adobe Workfront Planning](/help/quicksilver/planning/general/planning-api-basics.md)
+* [Información general de Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md)
+* [Información general sobre el asistente de IA de Adobe Workfront Planning](/help/quicksilver/planning/general/planning-ai-assistant-overview.md)
+* [Conceptos básicos de la API de Adobe Workfront Planning](/help/quicksilver/planning/general/planning-api-basics.md)
 * [Información general sobre las limitaciones de objetos de Adobe Workfront Planning](/help/quicksilver/planning/general/limitations-overview.md)
 * [Actividad de la versión de Adobe Workfront Planning para 2024](/help/quicksilver/planning/general/release-activity.md)
 * [Actividad de la versión de Adobe Workfront Planning para 2023](/help/quicksilver/planning/general/release-activity-archives-2023.md)
 * [Información general sobre las limitaciones de objetos de Adobe Workfront Planning](/help/quicksilver/planning/general/limitations-overview.md)
-* [Prácticas recomendadas de Adobe Workfront Planning](/help/quicksilver/planning/general/planning-best-practices.md)
+* [Prácticas recomendadas para Adobe Workfront Planning](/help/quicksilver/planning/general/planning-best-practices.md)
 
 
 
