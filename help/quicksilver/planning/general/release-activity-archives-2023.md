@@ -76,7 +76,7 @@ Producción: 21 de diciembre de 2023
 >
 >Su organización debe adquirir Adobe Workfront Fusion para poder crear conexiones con las funciones de Adobe Workfront Planning.
 >
->Para obtener más información, consulte [Información general de Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+>Para obtener más información, consulte [Información general de Adobe Workfront Fusion](https://experienceleague.adobe.com/es/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 
 Ahora puede utilizar Adobe Workfront Fusion para conectarse a las funciones de planificación. Con la nueva conexión Fusion, puede hacer lo siguiente:
 
@@ -92,7 +92,7 @@ Ahora puede utilizar Adobe Workfront Fusion para conectarse a las funciones de p
 
 * Activar un escenario cuando se realiza un cambio en las capacidades de planificación
 
-Para obtener más información, consulte [Módulos de Adobe Workfront Planning](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules).
+Para obtener más información, consulte [Módulos de Adobe Workfront Planning](https://experienceleague.adobe.com/es/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules).
 
 ## Semana del 11 de diciembre de 2023
 
