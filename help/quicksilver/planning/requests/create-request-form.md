@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
+source-git-commit: 58d2bf9f14b9a3adf4bacfad58f1b9862aeaf247
 workflow-type: tm+mt
-source-wordcount: '2242'
+source-wordcount: '2281'
 ht-degree: 7%
 
 ---
@@ -269,6 +269,10 @@ Para obtener información sobre cómo enviar solicitudes de Workfront Planning, 
    ![Compartir la casilla del formulario de solicitud](assets/share-box-for-request-form.png)
 
 1. (Opcional) Haga clic en el menú desplegable situado después del nombre de una entidad y, a continuación, haga clic en **Quitar** para quitarlos de la lista y dejar de compartir el formulario con ellos.
+
+   >[!NOTE]
+   >
+   >Además de los equipos, grupos, empresas y funciones del puesto, solo puede compartir con los usuarios que se han añadido a Adobe Admin Console. No puede agregar usuarios solo de Workfront. Para obtener más información, consulte [Administrar usuarios en Adobe Admin Console](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md).
 
 1. En la sección **Quién puede enviar solicitudes a través de este formulario**, seleccione entre las siguientes opciones para indicar qué tipos de usuarios pueden acceder a este formulario:
 
