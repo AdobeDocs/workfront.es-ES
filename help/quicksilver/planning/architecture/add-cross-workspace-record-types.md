@@ -4,10 +4,10 @@ description: Los tipos de registro son los tipos de objetos de Adobe Workfront P
 hidefromtoc: true
 hide: true
 exl-id: b977d5dd-8975-42c4-9968-a7ac357972e6
-source-git-commit: ee366e05097518a4618dd11ed5807b8766465d94
+source-git-commit: 943c26efa6f6351abf885dbc5f3aa09c0b0fab05
 workflow-type: tm+mt
-source-wordcount: '404'
-ht-degree: 25%
+source-wordcount: '591'
+ht-degree: 15%
 
 ---
 
@@ -36,8 +36,6 @@ Para obtener más información, vea [Configurar las capacidades entre espacios d
 ## Requisitos de acceso
 
 +++ Amplíe para ver los requisitos de acceso.
-
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 <table style="table-layout:auto"> 
 <col> 
@@ -108,6 +106,32 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
    * Registros
    * Registrar conexiones
 
-## Crear un tipo de registro a partir de un tipo de registro global existente
+* Sólo puede editar el tipo de registro, incluidos sus campos, en su espacio de trabajo original. No puede editarlo desde los espacios de trabajo en los que se añadió.
 
-1. Comience a crear un tipo de registro, tal como se describe en el artículo [Crear tipos de registro](/help/quicksilver/planning/architecture/create-record-types.md), y después haga clic en **Usar tipo de registro global**. <!--check this - the option might have been renamed in the UI-->
+## Crear un tipo de registro a partir de un tipo de registro existente
+
+1. Comience a crear un tipo de registro, tal como se describe en el artículo [Crear tipos de registros](/help/quicksilver/planning/architecture/create-record-types.md), luego haga clic en **Agregar tipos de registros existentes**. <!--check this - the option might have been renamed in the UI-->
+
+   ![Modal para agregar el tipo de registro con la opción de importar desde otro espacio de trabajo](assets/add-record-type-from-existing-workspace-option-when-creating-records.png)
+
+1. Haga clic en **Continuar**.
+1. En el cuadro **Elegir tipo de registro**, haga clic en la tarjeta del tipo de registro que desee agregar desde un área de trabajo existente y, a continuación, haga clic en **Agregar**.
+
+   El tipo de registro se añade al espacio de trabajo seleccionado y se producen las siguientes situaciones:
+
+   * El icono **tipo de registro entre espacios de trabajo** ![icono de conexión entre espacios de trabajo](assets/global-icon.png) se agrega a la tarjeta del tipo de registro importado.
+   * El campo **Workspace** de solo lectura se agrega al tipo de registro importado. El campo muestra en qué espacio de trabajo se creó cada registro.
+
+     >[!NOTE]
+     >
+     >* No se puede editar el tipo de registro importado ni sus campos. Puede editar el tipo de registro y sus campos desde el espacio de trabajo original.
+
+1. (Opcional) Haga clic en el menú **Más** ![Más menú](assets/more-menu.png) en la tarjeta del tipo de registro importado, o a la derecha del nombre del tipo de registro en su página, luego haga clic en **Eliminar**.
+1. (Condicional) Escriba **delete** en el campo proporcionado y luego haga clic en **Eliminar permanentemente**.
+
+   Quita el tipo de registro importado del espacio de trabajo seleccionado. El tipo de registro original y sus campos permanecen en su espacio de trabajo original.
+
+   <!--**************************ASK LILIT ON THIS ONE, NOT SURE IF THIS IS TRUE: Any records added in the current workspace are saved in the original workspace.**********-->
+
+
+
