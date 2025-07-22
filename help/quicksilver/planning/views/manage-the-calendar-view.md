@@ -6,7 +6,7 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 45b5be81-703c-45d5-a08c-60cb8ec5b103
-source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
+source-git-commit: 948ca1f8a91e20616b5a42876df8432e85737b2d
 workflow-type: tm+mt
 source-wordcount: '1527'
 ht-degree: 51%
@@ -133,7 +133,9 @@ Para administrar una vista de calendario:
          * Los registros que se extienden durante varios días se muestran en la parte superior del calendario.
          * Registros que duran un día o menos y que se muestran en la mitad inferior de la vista de calendario. Si ha seleccionado mostrar la hora de las fechas de inicio y finalización, el registro se muestra a la hora adecuada dentro del día en que se produce.
 
-
+   <!--
+    1. <span class="preview">(Optional) Click the **Full screen** icon ![Open full screen icon](assets/open-full-screen-icon.png) to open the view in full screen, then the **Exit full screen** icon ![Exit full screen icon](assets/exit-full-screen-icon.png) or Escape on your keyboard to exit the full screen.  </span>
+    -->
 1. Actualice los siguientes elementos de vista como se describe en las subsecciones siguientes:
    * [Filtros](#add-filters)
    * [Configuración](#edit-the-calendar-view-settings)

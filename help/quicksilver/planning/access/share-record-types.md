@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: bf49db73-09f1-417e-836b-16c6062740d4
-source-git-commit: 58d2bf9f14b9a3adf4bacfad58f1b9862aeaf247
+source-git-commit: 948ca1f8a91e20616b5a42876df8432e85737b2d
 workflow-type: tm+mt
-source-wordcount: '1476'
+source-wordcount: '1474'
 ht-degree: 8%
 
 ---
@@ -29,7 +29,7 @@ Puede compartir un tipo de registro con otros usuarios para garantizar la colabo
 >[!IMPORTANT]
 >
 >Los usuarios con acceso a un espacio de trabajo obtienen automáticamente al menos permisos de visualización para todos los tipos de registros del espacio de trabajo.
->&#x200B;>Al compartir vistas, los usuarios no conceden permisos a los tipos de registro. Sólo los espacios de trabajo compartidos pueden conceder permisos de usuario a los tipos de registro.
+>>Al compartir vistas, los usuarios no conceden permisos a los tipos de registro. Sólo los espacios de trabajo compartidos pueden conceder permisos de usuario a los tipos de registro.
 >
 >* Para obtener información general sobre cómo compartir objetos en Workfront Planning, consulte también [Información general sobre los permisos de uso compartido en Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md).
 >* Para obtener más información, vea la sección [Consideraciones al compartir tipos de registros](#considerations-when-sharing-record-types) en este artículo.
@@ -142,7 +142,19 @@ Puede ajustar los permisos a los tipos de registro individuales de un espacio de
 
 {{step1-to-planning}}
 
-1. Abra el espacio de trabajo cuyos tipos de registro desee compartir y, a continuación, haga clic en una tarjeta de tipo de registro.
+1. Abra el espacio de trabajo cuyos tipos de registros desee compartir.
+
+<!--when we release Share on the record type card, replace the next 3 steps with this: 
+
+1. Do one of the following: 
+
+   * <span class="preview">From the record type card, click the **More** menu > **Share**.</span>
+   * Click a record type card to open the record type's page, then click **Share** > **Share the record type** from any record type view.
+
+   The **Share** box opens.
+-->
+
+1. Haga clic en una tarjeta de tipo de registro.
 
    Se abre la página de tipo de registro.
 
@@ -160,7 +172,6 @@ Puede ajustar los permisos a los tipos de registro individuales de un espacio de
    >[!TIP]
    >
    >No se pueden quitar entidades individuales de la lista Permisos heredados.
-
 
 1. (Opcional y condicional) Si desea compartir el tipo de registro con entidades específicas y otorgarles un acceso al tipo de registro diferente del que ya tienen para el espacio de trabajo, haga lo siguiente:
 

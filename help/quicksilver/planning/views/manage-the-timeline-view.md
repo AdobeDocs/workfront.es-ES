@@ -6,7 +6,7 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
+source-git-commit: 948ca1f8a91e20616b5a42876df8432e85737b2d
 workflow-type: tm+mt
 source-wordcount: '3750'
 ht-degree: 46%
@@ -114,6 +114,14 @@ Tenga en cuenta lo siguiente:
    * Cuando las fechas de inicio y finalización no tienen valor
    * Cuando la fecha de inicio es posterior a la fecha de finalización
 
+<!--
+<div class="preview">
+
+* You can create and edit records in the timeline view. For information, see [Create records](/help/quicksilver/planning/records/create-records.md).
+
+</div>
+-->
+
 Para administrar una vista de línea de tiempo:
 
 1. Vaya a la página del tipo de registro cuya línea de tiempo desea ver.
@@ -184,6 +192,10 @@ Para administrar una vista de línea de tiempo:
    1. Pulse Intro en el teclado para ir al siguiente campo encontrado.
    1. (Opcional) Si hay más de una coincidencia, haga clic en las flechas arriba y abajo situadas a la derecha de la palabra clave de búsqueda para encontrar todas las coincidencias de la tabla.
    1. Haga clic en el icono **x** en el cuadro de búsqueda para borrar la palabra clave de búsqueda.
+
+   <!--
+    1. <span class="preview">(Optional) Click the **Full screen** icon ![Open full screen icon](assets/open-full-screen-icon.png) to open the view in full screen, then the **Exit full screen** icon ![Exit full screen icon](assets/exit-full-screen-icon.png) or Escape on your keyboard to exit the full screen.  </span>
+-->
 
 1. Actualice los siguientes elementos de vista como se describe en las subsecciones siguientes:
    * [Filtros](#add-filters)

@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: b27b01e1efacc3fc459cec0a53b2c11cbe5e132b
+source-git-commit: 948ca1f8a91e20616b5a42876df8432e85737b2d
 workflow-type: tm+mt
 source-wordcount: '2388'
 ht-degree: 27%
@@ -26,8 +26,12 @@ En Adobe Workfront Planning, un registro es una instancia de un tipo de registro
 
 Para crear registros, siga uno de estos procedimientos:
 
-* [Crear registros agregándolos en línea desde la vista de tabla de tipo de registro](#create-records-by-adding-them-inline-from-the-record-type-table-view)
 * [Crear registros con el botón Nuevo registro o Solicitar registro desde cualquier vista de tipo de registro](#create-records-using-the-new-record-or-request-record-button-from-any-record-type-view)
+* [Crear registros agregándolos en línea desde la vista de tabla de tipo de registro](#create-records-by-adding-them-inline-from-the-record-type-table-view)
+
+<!--
+* [Create records by adding them in the record type timeline view](#create-records-by-adding-them-in-the-record-type-timeline-view)-->
+
 * [Copie y pegue una lista de registros de una lista externa](#create-records-by-copying-and-pasting-them-from-an-external-list)
 * [Duplicar registros desde una vista de tabla](#create-records-by-duplicating-them)
 * [Crear registros a medida que los conecta desde otros registros](#create-records-as-you-connect-them)
@@ -108,77 +112,6 @@ Para obtener información acerca de la administración de registros en las vista
 *Para obtener más información sobre los requisitos de acceso de Workfront, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
-
-## Crear registros agregándolos en línea desde la vista de tabla de tipo de registro
-
-Puede crear registros en la vista de tabla de una página de tipo de registro a medida que los agrega en línea.
-
-Para obtener información acerca de cómo editar información de registro, consulte [Editar registros](/help/quicksilver/planning/records/edit-records.md).
-
-{{step1-to-planning}}
-
-1. Haga clic en el espacio de trabajo donde desee añadir registros.
-
-   El espacio de trabajo se abre y los tipos de registro se muestran como tarjetas.
-
-1. Haga clic en una tarjeta de tipo de registro. Para obtener información acerca de cómo crear un tipo de registro, consulte [Crear tipos de registros](/help/quicksilver/planning/architecture/create-record-types.md).
-
-   La página de tipo de registro se abre en la vista a la que se accedió por última vez. De forma predeterminada, se abre una página de tipo de registro en la vista de tabla.
-Los registros del tipo seleccionado se muestran en la vista.
-
-1. (Condicional) Desde la vista de tabla, realice una de las siguientes acciones:
-
-   * Haga clic en **Nuevo registro** en la última fila de la tabla o después del último registro de una agrupación
-
-     >[!TIP]
-     >
-     >Cuando se agrega un nuevo registro después del último registro de una agrupación o subagrupación, Workfront rellena automáticamente los campos incluidos en las agrupaciones. Puede editar manualmente estos campos, si es necesario, y los registros pueden eliminarse de la agrupación.
-
-   * Haga clic en **Mayús + Intro** en el teclado desde cualquier columna o fila de la tabla. Esto añade una fila vacía debajo del registro desde el que comienza.
-   * Pase el ratón sobre el campo principal de un registro, haga clic en el menú **Más** ![Menú más](assets/more-menu.png), a la derecha del campo, y luego haga clic en **Insertar registro arriba** o **Insertar registro abajo**.
-
-   ![Agregando una nueva campaña en la fila de la tabla](assets/adding-a-new-campaign-in-table-row.png)
-
-   Workfront carga automáticamente una miniatura en cada registro nuevo. Podrá modificar estas imágenes más adelante. Para obtener más información, vea [Agregar una imagen de portada a un registro](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md).
-
-   Se agrega un nuevo registro en la tabla.
-
-1. Haga clic en el campo principal del nuevo registro
-
-   O
-
-   Haga clic en el icono **Abrir detalles** ![Abrir detalles en el campo de nombre de tabla](assets/open-details-icon-in-table-name-field.png) a la izquierda del nombre del registro.
-
-   El cuadro de vista previa se abre en la tabla.
-
-1. Escriba información sobre el nuevo registro en los campos que ve en el cuadro de vista previa.
-
-   >[!NOTE]
-   >
-   >  * No hay campos obligatorios para los registros. Sin embargo, se recomienda añadir información para el campo principal de un registro, ya que es útil identificar registros al vincular registros entre sí. Para obtener más información acerca de los campos principales, consulte [Administrar la vista de tabla](/help/quicksilver/planning/views/manage-the-table-view.md) e [Información general del campo principal](/help/quicksilver/planning/fields/primary-field-overview.md).
-   >
-   >  * Los campos que hacen referencia a otros tipos de registro o campos calculados son campos de sólo lectura.
-
-1. (Condicional) Cuando agregue registros a la tabla, antes de abrir el cuadro de vista previa del registro, siga agregando información en cada fila y, a continuación, haga clic en **Escribir** en el teclado para guardar los cambios.
-
-   O
-
-   Haga clic en el nombre del nuevo registro o en el icono **Abrir detalles** ![Abrir detalles en el campo de nombre de tabla](assets/open-details-icon-in-table-name-field.png), a la izquierda del nombre del registro, para abrir el cuadro de vista previa y editar la información del registro en el área de detalles.
-
-   >[!TIP]
-   >
-   >Solo puede obtener acceso al icono **Abrir detalles** desde el campo de nombre del registro cuando el campo Nombre es un campo principal.
-
-1. (Opcional) En el cuadro de vista previa del registro, haga clic en el icono **Abrir en ficha nueva** ![Abrir detalles en icono de ficha nueva](assets/open-details-in-a-new-tab-icon.png) en la esquina superior derecha para abrir la página del registro en una ficha nueva. Continúe editando el registro en la página de registros. Para obtener más información, consulte [Editar registros](/help/quicksilver/planning/records/edit-records.md).
-
-   Workfront guardará automáticamente los cambios.
-
-1. (Opcional) Cierre el cuadro de vista previa o haga clic en la flecha hacia atrás situada a la izquierda del nombre del registro, si ha abierto la página del registro.
-
-1. (Opcional) Desde la vista de tabla, utilice los siguientes métodos abreviados del teclado para deshacer o rehacer la adición de nuevos registros o su información, al agregarlos en la vista de tabla:
-
-   * CTRL + Z (⌘ + Z para Mac) para deshacer un cambio
-   * CTRL + Mayús + Z (⌘ + Mayús + Z para Mac) para rehacer un cambio
 
 ## Crear registros con el botón Nuevo registro o Solicitar registro desde cualquier vista de tipo de registro
 
@@ -265,6 +198,136 @@ You can import records from other applications by linking them to existing recor
       For example, if you connect a Planning record type to Workfront project, a read-only record type named "Workfront project" is created in the same workspace. You can access the read-only Workfront record types from the table view of the Planning records you're linking from. 
    
 -->
+
+## Crear registros agregándolos en línea desde la vista de tabla de tipo de registro
+
+Puede crear registros en la vista de tabla de una página de tipo de registro a medida que los agrega en línea.
+
+Para obtener información acerca de cómo editar información de registro, consulte [Editar registros](/help/quicksilver/planning/records/edit-records.md).
+
+{{step1-to-planning}}
+
+1. Haga clic en el espacio de trabajo donde desee añadir registros.
+
+   El espacio de trabajo se abre y los tipos de registro se muestran como tarjetas.
+
+1. Haga clic en una tarjeta de tipo de registro. Para obtener información acerca de cómo crear un tipo de registro, consulte [Crear tipos de registros](/help/quicksilver/planning/architecture/create-record-types.md).
+
+   La página de tipo de registro se abre en la vista a la que se accedió por última vez. De forma predeterminada, se abre una página de tipo de registro en la vista de tabla.
+Los registros del tipo seleccionado se muestran en la vista.
+
+1. (Condicional) Desde la vista de tabla, realice una de las siguientes acciones:
+
+   * Haga clic en **Nuevo registro** en la última fila de la tabla o después del último registro de una agrupación
+
+     >[!TIP]
+     >
+     >Cuando se agrega un nuevo registro después del último registro de una agrupación o subagrupación, Workfront rellena automáticamente los campos incluidos en las agrupaciones. Puede editar manualmente estos campos, si es necesario, y los registros pueden eliminarse de la agrupación.
+
+   * Haga clic en **Mayús + Intro** en el teclado desde cualquier columna o fila de la tabla. Esto añade una fila vacía debajo del registro desde el que comienza.
+   * Pase el ratón sobre el campo principal de un registro, haga clic en el menú **Más** ![Menú más](assets/more-menu.png), a la derecha del campo, y luego haga clic en **Insertar registro arriba** o **Insertar registro abajo**.
+
+   ![Agregando una nueva campaña en la fila de la tabla](assets/adding-a-new-campaign-in-table-row.png)
+
+   Workfront carga automáticamente una miniatura en cada registro nuevo. Podrá modificar estas imágenes más adelante. Para obtener más información, vea [Agregar una imagen de portada a un registro](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md).
+
+   Se agrega un nuevo registro en la tabla.
+
+1. Haga clic en el campo principal del nuevo registro
+
+   O
+
+   Haga clic en el icono **Abrir detalles** ![Abrir detalles en el campo de nombre de tabla](assets/open-details-icon-in-table-name-field.png) a la izquierda del nombre del registro.
+
+   El cuadro de vista previa se abre en la tabla.
+
+1. Escriba información sobre el nuevo registro en los campos que ve en el cuadro de vista previa.
+
+   >[!NOTE]
+   >
+   >  * No hay campos obligatorios para los registros. Sin embargo, se recomienda añadir información para el campo principal de un registro, ya que es útil identificar registros al vincular registros entre sí. Para obtener más información acerca de los campos principales, consulte [Administrar la vista de tabla](/help/quicksilver/planning/views/manage-the-table-view.md) e [Información general del campo principal](/help/quicksilver/planning/fields/primary-field-overview.md).
+   >
+   >  * Los campos que hacen referencia a otros tipos de registro o campos calculados son campos de sólo lectura.
+
+1. (Condicional) Cuando agregue registros a la tabla, antes de abrir el cuadro de vista previa del registro, siga agregando información en cada fila y, a continuación, haga clic en **Escribir** en el teclado para guardar los cambios.
+
+   O
+
+   Haga clic en el nombre del nuevo registro o en el icono **Abrir detalles** ![Abrir detalles en el campo de nombre de tabla](assets/open-details-icon-in-table-name-field.png), a la izquierda del nombre del registro, para abrir el cuadro de vista previa y editar la información del registro en el área de detalles.
+
+   >[!TIP]
+   >
+   >Solo puede obtener acceso al icono **Abrir detalles** desde el campo de nombre del registro cuando el campo Nombre es un campo principal.
+
+1. (Opcional) En el cuadro de vista previa del registro, haga clic en el icono **Abrir en ficha nueva** ![Abrir detalles en icono de ficha nueva](assets/open-details-in-a-new-tab-icon.png) en la esquina superior derecha para abrir la página del registro en una ficha nueva. Continúe editando el registro en la página de registros. Para obtener más información, consulte [Editar registros](/help/quicksilver/planning/records/edit-records.md).
+
+   Workfront guardará automáticamente los cambios.
+
+1. (Opcional) Cierre el cuadro de vista previa o haga clic en la flecha hacia atrás situada a la izquierda del nombre del registro, si ha abierto la página del registro.
+
+1. (Opcional) Desde la vista de tabla, utilice los siguientes métodos abreviados del teclado para deshacer o rehacer la adición de nuevos registros o su información, al agregarlos en la vista de tabla:
+
+   * CTRL + Z (⌘ + Z para Mac) para deshacer un cambio
+   * CTRL + Mayús + Z (⌘ + Mayús + Z para Mac) para rehacer un cambio
+
+<!--<div class="preview">
+
+## Create records by adding them in the record type timeline view
+
+You can create records in the timeline view of a record type page, by double-clicking in the timeline. 
+
+For information about creating a timeline view, see [Manage the timeline view](/help/quicksilver/planning/views/manage-the-timeline-view.md).
+
+{{step1-to-planning}}
+  
+1. Click the workspace where you want to add records.
+
+    The workspace opens and the record types display as cards.
+
+1. Click a record type card. 
+
+    The record type page opens in the view that you last accessed. 
+
+1. Click to open a timeline view, or create a timeline view, first. 
+
+    >[!NOTE]
+    >
+    >You can create a timeline view only if there are at least two date fields associated with the record type.
+1. Double-click anywhere in the timeline. 
+
+    A new record box opens. 
+
+    ![New record box on timeline with unnamed record bar](assets/new-record-small-box-on-timeline.png)
+1. Update the following information:
+
+    * **Name**: Enter the name of the record. If you leave it empty, Workfront names it **Untitled** by default. The name will not be visible in the record bar if left empty. 
+    * **Record date fields**: Update the dates of the record. 
+        
+        The names of the date fields are customized according to the fields selected for the Start and End dates when the timeline view was created.
+
+        By default, date values are preselected depending on how you display the timeline view. The following scenarios exist:
+
+        * By **Year**: The record start and end dates span a month.
+        * By **Quarter**: The record start and end dates span a week. 
+        * By **Month**: The record start and end dates span three days.
+
+1. (Optional) Click one of the following icons: 
+
+    * **Expand** ![Expand icon](assets/expand-icon.png) to open the record details in the preview window. 
+    * **Delete** ![Delete icon](assets/delete-icon.png) to delete the record.
+    * **Close**  ![Close icon](assets/close-icon.png) to close the new record box. 
+
+    The record is added to the timeline as well as to the table and calendar views immediately, unless you clicked the **Delete** icon. 
+
+1. (Optional) Click the record bar in the timeline to open the record's details window and update its information, delete it, or add comments. 
+
+    >[!TIP]
+    >
+    >By default, Workfront associates the record with a thumbnail and a cover image.
+    >
+    >The thumbnail displays in the timeline view only when it is enabled in the Settings of the view. 
+
+</div>-->
 
 ## Cree registros copiándolos y pegándolos desde una lista externa
 

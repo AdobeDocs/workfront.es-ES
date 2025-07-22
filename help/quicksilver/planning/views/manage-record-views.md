@@ -6,7 +6,7 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
+source-git-commit: 948ca1f8a91e20616b5a42876df8432e85737b2d
 workflow-type: tm+mt
 source-wordcount: '1110'
 ht-degree: 55%
@@ -170,6 +170,7 @@ En la tabla siguiente se muestran las similitudes y diferencias entre las vistas
 | Mostrar registros por semana |           |               | ✓ |
 | Exportación de información desde una vista | ✓ |               |    |
 
+<!--Add to the table: <span class="preview">Display in full screen</span>-->
 
 ## Crear o editar vistas {#create-or-edit-views}
 
@@ -240,7 +241,9 @@ En la tabla siguiente se muestran las similitudes y diferencias entre las vistas
    O
 
    Haga doble clic en el nombre de la vista y empiece a escribir el nuevo nombre. <!--ensure there is not another saving step here?!-->
-
+<!--
+1. <span class="preview">(Optional) Click the **Full screen** icon ![Open full screen icon](assets/open-full-screen-icon.png) to open any view in full screen, then the **Exit full screen** icon ![Exit full screen icon](assets/exit-full-screen-icon.png) or Escape on your keyboard to exit the full screen.  </span>
+-->
 1. (Opcional) Para administrar un tipo de vista específico, consulte los siguientes artículos:
 
    * [Administrar la vista de tabla](/help/quicksilver/planning/views/manage-the-table-view.md)

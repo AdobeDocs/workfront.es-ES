@@ -4,15 +4,15 @@ content-type: reference
 product-area: system-administration;timesheets
 navigation-topic: configure-timesheets-and-schedules
 title: Administrar tipos de horas
-description: Puede asociar tipos de horas con sus entradas de horas. Los tipos de horas son etiquetas que se utilizan para definir las entradas de horas.
+description: Puede asociar tipos de horas con sus entradas de horas. Los tipos de horas son etiquetas que se utilizan para definir las entradas de horas. Los tipos de horas pueden ser para la hora general o para la hora específica del proyecto.
 author: Alina, Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: ad0d141b-3e56-4bb1-be24-4dd9203e7881
-source-git-commit: 4fafdcea97874e791104260375617e3989af1870
+source-git-commit: 948ca1f8a91e20616b5a42876df8432e85737b2d
 workflow-type: tm+mt
-source-wordcount: '843'
-ht-degree: 7%
+source-wordcount: '1134'
+ht-degree: 5%
 
 ---
 
@@ -58,7 +58,7 @@ Para obtener información sobre cómo registrar horas y asociarlas a tipos de ho
 
 ## Requisitos de acceso
 
-+++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
++++ Amplíe para ver los requisitos de acceso.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -129,7 +129,7 @@ Para crear tipos de horas:
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Scope]</td> 
-      <td> <p>Seleccione si el tipo de hora es un tipo de hora general o específico del proyecto en el menú desplegable <strong>Ámbito</strong>.</p> <p>Los tipos de horas generales solo están visibles en las plantillas de horas y no pueden asociarse a proyectos, tareas o problemas.</p> <p><b>IMPORTANTE</b>: si tiene un tipo de hora personalizado que es [!UICONTROL Específico del proyecto] y lo cambia a [!UICONTROL General], todas las horas de tareas, problemas y proyectos existentes se establecen en sus tipos predeterminados del sistema.</p> </td> 
+      <td> <p>Seleccione si el tipo de hora es un tipo de hora general o específico del proyecto en el menú desplegable <strong>Ámbito</strong>.</p> <p>Los tipos de horas generales solo están visibles en las plantillas de horas y no pueden asociarse a proyectos, tareas o problemas.</p> <p><b>IMPORTANTE</b></p><p> Si tiene un tipo de hora personalizado [!UICONTROL Específico del proyecto] y lo cambia a [!UICONTROL General], todas las horas de tareas, problemas y proyectos existentes se establecen en sus tipos predeterminados del sistema.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Contar como ingresos]</td> 
@@ -142,9 +142,65 @@ Para crear tipos de horas:
     </tbody> 
    </table>
 
+   <!-- in the table above, add this for the Count as revenue: <span class="preview">[!UICONTROL Count as Revenue]</span>-->
+
 1. Haga clic en **[!UICONTROL Crear tipo de hora].**
 
+   <!--Click  **[!UICONTROL Create Hour Type]** <span class="preview"> or **Save**</span>. -->
+
    El tipo de hora se añade al sistema de Workfront y se activa de forma predeterminada.
+
+
+## Editar tipos de horas
+
+Como administrador de [!DNL Workfront], puede editar los tipos de horas para su organización en los niveles de sistema y proyecto.
+
+>[!NOTE]
+>
+>* No puede editar los tipos de horas integrados.
+>* No puede editar los tipos de horas de forma masiva.
+
+{{step-1-to-setup}}
+
+1. En el panel izquierdo, haga clic en **Hoja de horas y horas**, luego haga clic en **Tipos de horas**.
+
+1. Haga clic en el nombre de un tipo de hora o seleccione el tipo de hora y, a continuación, haga clic en el icono **Editar** ![Editar icono](assets/edit-icon.png) que se encuentra en la parte superior de la lista.
+1. En el cuadro de diálogo **Editar tipos de horas**, especifique la siguiente información:
+
+   <table style="table-layout:auto"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader">[!UICONTROL Name]</td> 
+      <td>Introduzca un nombre de tipo de hora fácilmente reconocible en el sistema.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">[!UICONTROL Description]</td> 
+      <td>Agregue una descripción para su tipo de hora.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">[!UICONTROL Scope]</td> 
+      <td> <p>Seleccione si el tipo de hora es un tipo de hora general o específico del proyecto en el menú desplegable <strong>Ámbito</strong>.</p> <p>Los tipos de horas generales solo están visibles en las plantillas de horas y no pueden asociarse a proyectos, tareas o problemas.</p> <p><b>IMPORTANTE</b></p> <p>Si tiene un tipo de hora personalizado [!UICONTROL Específico del proyecto] y lo cambia a [!UICONTROL General], todas las horas de tareas, problemas y proyectos existentes se establecen en sus tipos predeterminados del sistema.</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">[!UICONTROL Contar como ingresos]</td> 
+      <td><p>Seleccione esta opción si desea que la entrada de horas asociada con este tipo de hora afecte a los cálculos de ingresos.</p>
+      <p>El tiempo por enfermedad y el tiempo de vacaciones no se pueden contar como ingresos.</p>
+      <p><b>NOTA</b></p>
+      <p>Cuando los tipos de hora generales se cuentan como ingresos, la tasa de coste asociada al perfil del usuario que registra la hora se asocia al coste de la hora.  
+      </td> 
+     </tr> 
+    </tbody> 
+   </table>
+
+   <!-- in the table above, add this for the Count as revenue: <span class="preview">[!UICONTROL Count as Revenue]</span>-->
+
+1. Haga clic en **[!UICONTROL Guardar cambios].**
+
+   <!--Click  **[!UICONTROL Save Changes]** <span class="preview"> or **Save**</span>. -->
+
+   Los cambios se guardarán y se editará el tipo de hora.
 
 ## Desactivar tipos de horas
 
@@ -152,9 +208,11 @@ Puede desactivar los tipos de horas si ya no desea que los usuarios asocien sus 
 
 >[!NOTE]
 >
->* Los tipos de horas integrados no se pueden desactivar.
+>* No puede desactivar los tipos de horas integrados.
+>* Puede desactivar los tipos de horas de forma masiva.
 >* Al desactivar un tipo de hora específico del proyecto, todo el tiempo registrado para ese tipo toma automáticamente el valor predeterminado de un tipo de hora integrado específico del proyecto. Por ejemplo, el tiempo registrado de un proyecto se establece de forma predeterminada en el tipo de hora Hora del proyecto; el tiempo registrado de una tarea se establece de forma predeterminada en el tipo de hora Hora de la tarea.
->
+>* Cuando se desactiva un tipo de hora general, el tiempo registrado permanece en la hoja de horas, pero los usuarios ya no podrán registrar el tiempo de ese tipo de hora en el futuro.
+
 
 
 Para desactivar un tipo de hora:
@@ -163,8 +221,7 @@ Para desactivar un tipo de hora:
 
 1. En el panel izquierdo, haga clic en **[!UICONTROL Hoja de horas y horas]**, luego haga clic en **[!UICONTROL Tipos de horas]**.
 
-1. Seleccione el tipo de hora que desea desactivar.
-
+1. Seleccione el tipo de hora que desea desactivar. Puede seleccionar varios tipos de horas.
 
 1. Haga clic en **Más** y luego en **Desactivar**.
 
