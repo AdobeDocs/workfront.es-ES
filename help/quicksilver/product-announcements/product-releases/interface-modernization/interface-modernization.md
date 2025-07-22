@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 6b93cca4a434885e39cddcb4a01a8d753609b220
+source-git-commit: b2fdf8d54adacfa4ab2d665767f2265fdd23da4f
 workflow-type: tm+mt
-source-wordcount: '5280'
+source-wordcount: '5276'
 ht-degree: 2%
 
 ---
@@ -23,7 +23,6 @@ Esta página lista las actualizaciones de la interfaz que estamos realizando a t
 Para ver todos los demás cambios en Adobe Workfront, consulte [Versiones del producto](/help/quicksilver/product-announcements/product-releases/product-releases.md).
 
 ## Administración y configuración
-
 
 ### Actualizaciones de la interfaz de la página Plantillas de diseño
 
@@ -248,7 +247,7 @@ La nueva experiencia está disponible al crear o editar grupos de temas en proye
 
 ### Actualizaciones de la interfaz de la sección Proyectos asociados de un proyecto (solo disponible para clientes específicos)
 
-**Versión preliminar: 12 de junio de 2025; versión de producción: por anunciar**
+**Versión preliminar: 12 de junio de 2025; versión de producción: 19 de junio de 2025**
 
 Hemos actualizado la sección de Proyectos asociados de un proyecto con un diseño más moderno y coherente con otras áreas de Workfront.
 
@@ -256,7 +255,7 @@ Determinados clientes pueden ver este cambio en la sección Proyectos asociados 
 
 ### Nueva apariencia para el cuadro &quot;Guardar como plantilla&quot;
 
-**Versión preliminar: 12 de junio de 2025; versión de producción: por anunciar**
+**Versión preliminar: 12 de junio de 2025; versión de producción: 19 de junio de 2025**
 
 Hemos actualizado el aspecto del cuadro &quot;Guardar como plantilla&quot; que se muestra al guardar un proyecto como plantilla. El nuevo diseño incluye una interfaz optimizada, en la que todas las secciones se muestran en un formulario coherente que puede navegar mediante vínculos en el panel izquierdo. El nuevo diseño coincide con otras áreas y otros objetos de la aplicación.
 
