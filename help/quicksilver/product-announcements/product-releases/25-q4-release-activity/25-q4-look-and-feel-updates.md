@@ -4,10 +4,11 @@ description: Actualizaciones de aspecto durante el periodo de lanzamiento del te
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: b495399ff6375eae222b9a15538c52ae3c73f6bb
+exl-id: 1acb64b8-b215-408e-93b0-6301b63d7880
+source-git-commit: e62d4cc5f5b00bbf4e99986c52e49d0c6465dca7
 workflow-type: tm+mt
-source-wordcount: '116'
-ht-degree: 65%
+source-wordcount: '188'
+ht-degree: 40%
 
 ---
 
@@ -16,6 +17,21 @@ ht-degree: 65%
 Esta página describe actualizaciones menores en el aspecto de varias áreas de la aplicación de Adobe Workfront que se realizaron en el marco de la versión del cuarto trimestre de 2025.
 
 Para obtener una lista de todos los cambios disponibles con la versión del cuarto trimestre de 2025, consulte [Información general de la versión del cuarto trimestre de 2025](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-release-overview.md).
+
+## Nuevas actualizaciones de aspecto y funcionamiento de la lista del widget de solicitudes de equipo
+
+>[!NOTE]
+>
+>* Vista previa: 21 de julio de 2025
+>* Versión rápida de producción: 21 de julio de 2025
+>* Producción para todos los clientes: 21 de julio de 2025
+
+Hemos actualizado el aspecto de la lista en el widget de solicitud de equipo.  A continuación se indican algunos pequeños cambios en la funcionalidad:
+
+* Las celdas Nombre del proyecto y Desde ya no están vinculadas
+* El icono Asignar ahora es + Asignar
+
+Este cambio es el resultado de una corrección del problema relacionado con el botón Asignar usuarios.
 
 
 ## Modernización de interfaces
