@@ -27,8 +27,8 @@ Para obtener una lista de todas las características publicadas para Adobe Workf
 >[!NOTE]
 >
 >Vista previa: 10 de julio de 2025
->>Producción para todos: 10 de julio de 2025
->>[!BADGE Fuera del horario]{type=Neutral}
+>&#x200B;>Producción para todos: 10 de julio de 2025
+>&#x200B;>[!BADGE Fuera del horario]{type=Neutral}
 
 
 Hemos actualizado la pestaña Configuración avanzada al crear o editar un tipo de registro.
@@ -45,8 +45,8 @@ Para obtener más información, vea [Crear tipos de registros](/help/quicksilver
 >[!NOTE]
 >
 >Vista previa: 10 de julio de 2025
->>Producción para todos: 10 de julio de 2025
->>[!BADGE Fuera del horario]{type=Neutral}
+>&#x200B;>Producción para todos: 10 de julio de 2025
+>&#x200B;>[!BADGE Fuera del horario]{type=Neutral}
 
 Ahora, cuando agregue un equipo a un comentario de registro en Workfront Planning, todos los miembros del equipo recibirán una notificación sobre el comentario tanto en la aplicación como por correo electrónico. Antes de esta mejora, solo se notificaba a los usuarios añadidos a los comentarios individualmente
 
@@ -57,8 +57,8 @@ Para obtener más información, vea Administrar comentarios de registro [Adminis
 >[!NOTE]
 >
 >Vista previa: 10 de julio de 2025
->>Versión rápida de producción: 14 de agosto de 2025
->>Producción para todos: 16 de octubre de 2025
+>&#x200B;>Versión rápida de producción: 14 de agosto de 2025
+>&#x200B;>Producción para todos: 16 de octubre de 2025
 
 
 Ahora, cuando tenga agrupaciones aplicadas a una vista de tabla, al agregar un registro a la tabla se rellenarán automáticamente los campos asociados con las agrupaciones a las que agregue el registro.
@@ -74,7 +74,7 @@ Para obtener más información, consulte [Crear registros](/help/quicksilver/pla
 >[!NOTE]
 >
 >Vista previa: 9 de julio de 2025
->>Producción para todos: 17 de julio de 2025
+>&#x200B;>Producción para todos: 17 de julio de 2025
 
 Ahora puede compartir una vista y un tipo de registro desde el mismo botón de la página del tipo de registro. Antes de esta mejora, solo se podía compartir el tipo de registro desde el botón Compartir de la página de tipo de registro y una vista desde la pestaña de la vista.
 
@@ -147,7 +147,7 @@ Para obtener más información, consulte [Administrar la vista de tabla](/help/q
 >
 >* Vista previa: viernes, 26 de junio de 2025
 >* Producción para todos: 26 de junio de 2025
->  >[!BADGE Fuera del horario]{type=Neutral}
+>  &#x200B;>[!BADGE Fuera del horario]{type=Neutral}
 
 Ahora, al conectar tipos de registros e incluir un campo de fórmula como búsqueda, puede aplicar las funciones de agregado (SUM, AVERAGE, MIN, MAX, etc.) según el formato del campo de fórmula. Por ejemplo, si el campo de fórmula es numérico, puede utilizar funciones como SUMA o PROMEDIO; si el campo de fórmula tiene formato de texto, no se aplicarán funciones de agregado como SUMA.
 
@@ -183,7 +183,7 @@ Para obtener más información, consulte [Habilitar trimestres personalizados pa
 >
 >* Vista previa: viernes, 12 de junio de 2025
 >* Producción para todos: 12 de junio de 2025
->  >[!BADGE Fuera del horario]{type=Neutral}
+>  &#x200B;>[!BADGE Fuera del horario]{type=Neutral}
 
 Hemos introducido una mejora que actualiza todos los campos de fórmula dependientes entre sí al mismo tiempo después de que un campo al que se hace referencia se actualice manualmente. Los campos de fórmula que están a 2, 3 o 4 campos del campo cuyo valor se cambia manualmente y que se hacen referencia entre sí ahora se actualizarán automáticamente al mismo tiempo.
 
@@ -197,7 +197,7 @@ Para obtener más información, vea [Información general sobre los campos de f�
 >
 >* Vista previa: sábado, 06 de junio de 2025
 >* Producción para todos los clientes: 6 de junio de 2025
->  >[!BADGE Fuera del horario]{type=Neutral}
+>  &#x200B;>[!BADGE Fuera del horario]{type=Neutral}
 
 Se han agregado las siguientes expresiones a los campos de fórmula:
 
@@ -339,7 +339,7 @@ Antes de esta mejora, los usuarios con todos los niveles de licencia debían asi
 >[!NOTE]
 >
 >Este cambio será visible para todos los usuarios nuevos y existentes con una licencia de administrador del sistema y estándar.
->>Los usuarios existentes asignados a una plantilla de diseño seguirán viendo todo según la configuración definida en la plantilla.
+>&#x200B;>Los usuarios existentes asignados a una plantilla de diseño seguirán viendo todo según la configuración definida en la plantilla.
 
 Para obtener más información, consulte [Descripción general de Adobe Workfront Planning](/help/quicksilver/planning/access/access-overview.md).
 
