@@ -120,7 +120,7 @@ Para que la experiencia al compartir un formulario de solicitud en Workfront Pla
 * Se han eliminado las opciones de administración y contribución para los usuarios con los que comparte el formulario de solicitud. Ahora, los usuarios añadidos solo pueden enviar el formulario.
 * La pestaña de uso compartido público ahora muestra el campo de vínculo y fecha de caducidad después de habilitar la opción Crear vínculo público.
 
-Para obtener más información, consulte [Crear y administrar un formulario de solicitud en Adobe Workfront Planning](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-requests/create-request-form).
+Para obtener más información, consulte [Crear y administrar un formulario de solicitud en Adobe Workfront Planning](https://experienceleague.adobe.com/es/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-requests/create-request-form).
 
 ## Expandir y contraer todas las agrupaciones de la vista de tabla
 
