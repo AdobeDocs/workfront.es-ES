@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 058148db-1795-4d39-be87-271008ae3d47
-source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
+source-git-commit: 83b3bd73fd30b5fba931e64783dee67485d98fe9
 workflow-type: tm+mt
-source-wordcount: '754'
+source-wordcount: '782'
 ht-degree: 12%
 
 ---
@@ -123,11 +123,11 @@ Para obtener información sobre cómo enviar una solicitud a un tipo de registro
    Se muestra el área **Configuración**.
 
    ![Ficha de configuración](assets/configuration-tab.png)
-1. En el campo **Aprobadores**, haga clic en el icono desplegable y seleccione uno o varios nombres en la lista
+1. En el campo **Aprobadores**, haga clic en el icono desplegable y seleccione uno o varios usuarios <span class="preview">o equipos</span> en la lista
 
    O
 
-   Empiece a escribir el nombre de un aprobador y selecciónelo cuando aparezca en la lista.
+   Empiece a escribir el nombre de un usuario <span class="preview">o equipo</span> que desee establecer como aprobador y selecciónelo cuando se muestre en la lista.
 
    <!--most of the Note below is duplicated in the Create a request form article-->
 
@@ -141,6 +141,8 @@ Para obtener información sobre cómo enviar una solicitud a un tipo de registro
    >* Si al menos un aprobador rechaza la solicitud, esta se rechaza y no se crea el registro. La solicitud permanece en la pestaña Planificación de la sección Enviados del área Solicitudes de Workfront.
    >
    >* Todos los aprobadores deben tomar una decisión antes de aprobar o rechazar una solicitud.
+   >
+   >* <span class="preview">Si un equipo se establece como aprobador, solo se requiere una decisión del equipo.</span>
 
 
 1. (Opcional) Haga clic en **Publicar** si nunca antes había compartido el formulario de solicitud

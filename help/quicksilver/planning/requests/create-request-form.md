@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 58d2bf9f14b9a3adf4bacfad58f1b9862aeaf247
+source-git-commit: 83b3bd73fd30b5fba931e64783dee67485d98fe9
 workflow-type: tm+mt
-source-wordcount: '2281'
+source-wordcount: '2299'
 ht-degree: 7%
 
 ---
@@ -207,7 +207,7 @@ Para obtener información sobre cómo enviar solicitudes de Workfront Planning, 
 
 1. (Opcional) Haga clic en **Vista previa** para ver cómo se mostrará el formulario para otros usuarios cuando lo usen para enviar un nuevo registro.
 
-1. (Opcional) Haga clic en la ficha **Configuración** y, a continuación, agregue al menos un usuario al campo **Aprobadores** para aprobar nuevas solicitudes para este formulario de registro.
+1. (Opcional) Haga clic en la ficha **Configuración** y, a continuación, agregue al menos un usuario <span class="preview">o equipo</span>al campo **Aprobadores** para aprobar nuevas solicitudes para este formulario de registro.
 
    ![Ficha de configuración](assets/configuration-tab.png)
 
@@ -217,6 +217,7 @@ Para obtener información sobre cómo enviar solicitudes de Workfront Planning, 
    * Puede agregar uno o varios aprobadores a un formulario de solicitud.
    * Si al menos un aprobador rechaza la solicitud, esta se rechaza y no se crea el registro.
    * Todos los aprobadores deben tomar una decisión antes de aprobar o rechazar una solicitud.
+   * <span class="preview">Si un equipo se establece como aprobador, solo se requiere una decisión del equipo.</span>
 
      Para obtener más información sobre cómo agregar aprobaciones a los formularios de solicitud, consulte [Agregar aprobación a un formulario de solicitud](/help/quicksilver/planning/requests/add-approval-to-request-form.md).
 
