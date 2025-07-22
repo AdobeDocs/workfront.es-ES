@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 7b76b9e8-fbb8-45a7-9e26-1ddc6d5176d8
-source-git-commit: 428e6a9365c793ce5944941ec5368a674c208c78
+source-git-commit: 7f95df7acfb1afd0974c0138152a68326631d265
 workflow-type: tm+mt
-source-wordcount: '405'
-ht-degree: 19%
+source-wordcount: '402'
+ht-degree: 18%
 
 ---
 
@@ -72,39 +72,21 @@ Los tipos de gastos predeterminados en [!DNL Workfront] que no se pueden elimina
 
 1. Haga clic en **[!UICONTROL Tipos de gastos]**.
 1. Haga clic en **[!UICONTROL Nuevo tipo de gasto]**.
-1. En el cuadro de diálogo **[!UICONTROL Nuevo tipo de gasto]**, especifique la siguiente información:
+1. En el cuadro de diálogo **[!UICONTROL Nuevo tipo de gasto]**, escriba la siguiente información:
 
-   <table style="table-layout:auto"> 
-    <col> 
-    <col> 
-    <tbody> 
-     <tr> 
-      <td role="rowheader">[!UICONTROL Name]</td> 
-      <td>Especifique un nombre para el gasto.</td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">[!UICONTROL Description]</td> 
-      <td>Especifique una descripción para el gasto.</td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">[!UICONTROL Unidad calculada]</td> 
-      <td> <p>Seleccione la unidad de medida del tipo de gasto en la lista desplegable.</p> <p>Están disponibles las siguientes unidades de medida:</p> 
-       <ul> 
-        <li>Milla</li> 
-        <li>Kilómetro</li> 
-        <li>Kilogramo</li> 
-        <li>Dólar</li> 
-        <li>Dólar</li> 
-        <li>Día</li> 
-        <li>Otros: al seleccionar esta opción, se le pedirá que asigne un nombre a la unidad de medida y que defina la unidad de medida como algo familiar para su organización.</li> 
-       </ul> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Tarifa</td> 
-      <td> <p>Especifique el precio por unidad. Este es un campo con formato de moneda y representa el costo de cada unidad establecida en el campo <strong>[!UICONTROL Calculated Unit]</strong>. </p> <p>La tasa puede contener un valor numérico con hasta 4 números después del decimal. Por ejemplo, 1,0375</p> </td> 
-     </tr> 
-    </tbody> 
-   </table>
+   * **Nombre** - Un nombre para el gasto.
+   * **Descripción** - Una descripción del gasto.
+   * **Unidad calculada**: seleccione la unidad de medida del tipo de gasto en la lista desplegable. Están disponibles las siguientes unidades de medida:
+
+      * Milla
+      * Kilómetro
+      * Kilogramo
+      * Dólar
+      * Hora
+      * Día
+      * Otros: al seleccionar esta opción, se le pedirá que asigne un nombre a la unidad de medida y que defina la unidad de medida como algo familiar para su organización.
+
+   * **Tarifa** - El precio por unidad. Este es un campo con formato de moneda y representa el costo de cada unidad establecida en el campo **Unidad calculada**. La tasa puede contener un valor numérico con hasta 4 números después del decimal. Por ejemplo, 1,0375.
 
 1. Haga clic en **[!UICONTROL Guardar]**.
 
@@ -115,7 +97,7 @@ Los tipos de gastos predeterminados en [!DNL Workfront] que no se pueden elimina
 {{step-1-to-setup}}
 
 1. Haga clic en **[!UICONTROL Tipos de gastos]**.
-1. Seleccione el tipo de gasto que desea modificar y luego haga clic en **[!UICONTROL Editar]**.
+1. Seleccione el tipo de gasto que desea modificar y luego haga clic en el icono **[!UICONTROL Editar]** ![Editar icono](assets/edit-icon.png).
 
    Aparece el cuadro de diálogo **[!UICONTROL Editar tipo de gasto]**.
 
