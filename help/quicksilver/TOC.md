@@ -3,9 +3,9 @@ user-guide-title: Guía de Workfront
 user-guide-description: Utilice los siguientes documentos, tutoriales y recursos adicionales para aprender a implementar y utilizar Adobe Workfront de forma eficaz en su organización.
 role: User
 feature-set: Workfront
-source-git-commit: 4558180667d3812f3b4089b7d599158327a683bf
+source-git-commit: 308d6e1dba361c5297c741dea71b11fe6100e871
 workflow-type: tm+mt
-source-wordcount: '13258'
+source-wordcount: '13265'
 ht-degree: 60%
 
 ---
@@ -207,7 +207,6 @@ ht-degree: 60%
          * [21.1 Otras mejoras](product-announcements/product-releases/21.1-release-activity/21-1-other-enhancements.md)
       * Actividad de versión de Adobe Workfront Planning{#planning-release-activity}
          * [Actividad de la versión de Adobe Workfront Planning](product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)
-
            [Actividad de la versión del cuarto trimestre de 2025 para Adobe Workfront Planning](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q4.md)
          * [Actividad de la versión del tercer trimestre de 2025 para Adobe Workfront Planning](product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q3.md)
          * [Actividad de la versión del segundo trimestre de 2025 para Adobe Workfront Planning](product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q2.md)
@@ -857,6 +856,7 @@ ht-degree: 60%
       * [Administrar el trabajo en el calendario de prioridades](/help/quicksilver/workfront-basics/priorities/calendar-priorities.md)
    * Inicio {#home}
       * [Inicio](workfront-basics/using-home/home.md)
+      * [Cambio de una página de inicio heredada a una nueva](/help/quicksilver/workfront-basics/using-home/new-home/move-to-new-home.md)
       * Uso del área de Inicio {#use-home-area}
          * [Utilice el área de inicio: índice de artículos](workfront-basics/using-home/using-the-home-area/use-the-home-area.md)
          * [Introducción a Inicio](workfront-basics/using-home/using-the-home-area/get-started-with-home.md)
