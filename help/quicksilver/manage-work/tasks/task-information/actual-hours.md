@@ -7,10 +7,10 @@ description: Las horas que inicie sesión en los elementos de trabajo en Adobe W
 author: Alina
 feature: Work Management
 exl-id: c4b0e431-1765-416d-89f5-6ac663ac1d4f
-source-git-commit: 23a5c90b9321b72a20f21752f957b3be0a9f3a02
+source-git-commit: de42974a9a5c4c346ef3ae1cce09968befd1381c
 workflow-type: tm+mt
-source-wordcount: '1034'
-ht-degree: 40%
+source-wordcount: '1178'
+ht-degree: 32%
 
 ---
 
@@ -79,6 +79,7 @@ Según el área de Workfront desde la que acceda a las horas reales, podrían ha
 * En el área Detalles del proyecto, tarea o problema:
 
    * **Horas reales**: Horas registradas para proyectos, tareas o problemas después de mayo de 2021. Se almacenan en la base de datos de Workfront en horas y su campo de valor es `actualWorkRequiredDouble`.
+   * **Horas reales**: cuando se tiene acceso a ellas mediante un campo personalizado de referencia de campo nativo en un formulario personalizado de proyecto, tarea o problema.
 
 ## Horas reales en tareas y problemas frente a horas reales en proyectos
 
@@ -111,34 +112,40 @@ Para localizar las horas reales en los detalles de la tarea:
 1. Vaya a una tarea para la que desee revisar las horas reales.
 1. En el panel izquierdo, haga clic en **Detalles de la tarea**. Se muestra la sección **Información general**.
 1. Busque el valor **Horas reales** en la sección **Tiempo de trabajo**. Este es el total de horas registradas en esta tarea.
+1. (Opcional y condicional) Si la referencia del campo nativo Horas reales se agregó a un formulario personalizado de proyecto, tarea o problema, vaya al formulario personalizado y busque las Horas reales en el campo personalizado. Es el total de horas registradas para el objeto.
 
 ### Horas reales en la sección Horas {#actual-hours-in-the-hours-section}
 
 Buscar las horas reales en la sección Horas es idéntico para proyectos, tareas y problemas.
 
-Para localizar las horas reales en la sección Horas:
+Para localizar las horas reales en la sección Horas de una tarea:
 
 1. Vaya a una tarea para la que desee revisar las horas reales.
 
 1. En el panel izquierdo, haga clic en **Horas**. Se muestra una lista de las entradas de horas registradas en la tarea, con la columna **Horas** que muestra el número total de horas reales para la tarea.
 
 1. Asegúrese de que la vista **Estándar** y la agrupación **Proyecto** se hayan aplicado a esta lista.
+1. Las horas reales de la tarea se mostrarán en la línea de agrupación de la columna **Horas reales**.
 
-### Horas reales en los informes {#actual-hours-in-reports}
+### Horas reales y Horas reales heredadas en los informes
 
-Al generar informes sobre tareas, problemas o proyectos, puede mostrar el valor de Horas reales de cada tarea, problema o proyecto en el informe.
+Al generar informes sobre tareas, problemas o proyectos, puede mostrar en el informe los valores de Horas reales y Horas reales heredadas para cada tarea, problema o proyecto.
 
-Para mostrar las horas reales en un informe de tareas:
+Para obtener información sobre la diferencia entre las horas reales y las horas reales heredadas, consulte la sección [Horas reales vs. horas reales heredadas](#actual-hours-vs-legacy-actual-hours) en este artículo.
+
+Para mostrar las horas reales y las horas reales heredadas en un informe de tareas:
 
 {{step1-to-reports}}
 
 1. En la página **Informes**, haga clic en **Nuevo informe** y, a continuación, elija **Tarea** como objeto.
 1. En la esquina inferior derecha de la página, haga clic en **Agregar columna**.
-1. En el campo desplegable **Mostrar en esta columna** que aparece, empiece a escribir **Horas reales** y, a continuación, seleccione el campo cuando aparezca en la lista.
+1. En el campo desplegable **Mostrar en esta columna**, empiece a escribir **Horas reales** y, a continuación, seleccione el campo cuando aparezca en la lista.
+1. Repita el paso anterior para agregar el campo **Horas reales heredadas** al informe.
 
 1. En la esquina inferior izquierda de la página, haga clic en **Guardar + Cerrar** para guardar el informe.
 
 1. En el cuadro de diálogo **Asigne un nombre a este informe para guardarlo**, escriba un nuevo nombre para el informe y haga clic en **Aplicar**.
+1. Repita los mismos pasos para un proyecto o informe de problemas.
 
 ### Horas reales en las herramientas de administración de recursos {#actual-hours-in-resource-management-tools}
 

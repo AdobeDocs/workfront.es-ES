@@ -7,10 +7,10 @@ description: La sección Actualizaciones de un objeto muestra los comentarios qu
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: 158af1f48fba264b98108b5f0a573b7904eb875e
+source-git-commit: de42974a9a5c4c346ef3ae1cce09968befd1381c
 workflow-type: tm+mt
-source-wordcount: '1095'
-ht-degree: 79%
+source-wordcount: '1196'
+ht-degree: 71%
 
 ---
 
@@ -299,24 +299,33 @@ En la tabla siguiente, se muestran los objetos cuyos comentarios también aparec
 
 Existen algunas limitaciones en la sección Actualizaciones de un equipo y al introducir actualizaciones en nombre de otros usuarios.
 
-### Limitaciones para usuarios y equipos
+### Consideraciones para usuarios y equipos
 
 Tenga en cuenta lo siguiente al ver las actualizaciones de usuarios y equipos:
 
 * No se pueden añadir nuevos comentarios en la sección Actualizaciones de un equipo.
-
-* La sección Actualizaciones de los equipos se rellena con actualizaciones introducidas en los siguientes objetos:
-
-   * Usuarios
-   * Historias
-   * Hojas de horas
-   * Iteraciones
 
 * Añada respuestas a actualizaciones que vea de un equipo. La respuesta se mostrará en la sección Actualizaciones del equipo, así como en la sección Actualizaciones del objeto al que pertenezca.
 
 * En la sección Actualizaciones para usuarios y equipos, se ven las actualizaciones introducidas en los últimos 90 días.
 
   Si desea ver todas las actualizaciones realizadas en un usuario o equipo más allá del límite de 90 días, genere un informe para notas. El informe no debería tener filtros de tiempo que muestren todas las actualizaciones realizadas para usuarios o equipos. Para obtener más información, consulte [Creación de informes personalizados](../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+
+* La sección Actualizaciones para equipos se rellena con comentarios añadidos a los siguientes objetos:
+
+   * Usuarios
+   * Historias
+   * Hojas de horas
+   * Iteraciones
+
+* La ficha Actualizaciones del sistema del área Actualizaciones para usuarios se rellena con actualizaciones de otros objetos. Las siguientes son actualizaciones que se muestran en la pestaña Actualizaciones del sistema del perfil del usuario, cuando se realiza el seguimiento de estos campos en el área Fuentes de actualizaciones de la configuración:
+
+   * Agregar, quitar y otras actualizaciones de documentos
+   * Adición, eliminación, adición en nombre de y otras actualizaciones de entradas de horas
+   * Notas, actualizaciones de campos personalizados
+   * Actualizaciones de perfil de usuario (actualizaciones del avatar del usuario, número de móvil, campo Háblame acerca de, título)
+   * Adición, eliminación, cambio de nivel de acceso, cambios en los campos integrados del usuario
+   * Información financiera de tareas y proyectos.
 
 ### Limitaciones al introducir comentarios en nombre de otro usuario
 
