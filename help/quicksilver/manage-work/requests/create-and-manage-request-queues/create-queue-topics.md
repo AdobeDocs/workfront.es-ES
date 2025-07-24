@@ -7,10 +7,10 @@ author: Alina
 feature: Work Management, Requests
 role: User, Admin
 exl-id: 65a74698-011f-4caa-9739-d7510faeb66f
-source-git-commit: ef33a8bcdec76747434b5c5aaf62a743335fb10f
+source-git-commit: 3563d5e7136d8bd70504a0b7762c4be06e5a9c56
 workflow-type: tm+mt
-source-wordcount: '844'
-ht-degree: 96%
+source-wordcount: '957'
+ht-degree: 84%
 
 ---
 
@@ -18,11 +18,15 @@ ht-degree: 96%
 
 <!-- Audited: 12/2023 -->
 
+<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa de espacio aislado.</span>
+
 Los temas de la cola funcionan junto con las reglas de enrutamiento para asignar automáticamente el trabajo entrante a un usuario, función o equipo, o para colocarlo en un proyecto. Los temas de la cola definen las condiciones que deben darse para que se implemente la regla de enrutamiento.
 
 No hay límite en cuanto al número de temas de la cola que se pueden asignar a un grupo de temas o a un proyecto. Los temas de la cola son un tipo de objeto que se puede incluir en un informe.
 
-Una vez creados, no se pueden mover los temas de la cola de un proyecto a otro.
+Puede crear temas de colas para proyectos individuales o para plantillas de proyecto.
+
+Una vez creados, no se pueden mover los temas de la cola de un proyecto o plantilla a otro.
 
 ## Requisitos de acceso
 
@@ -97,7 +101,7 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
    * [Eliminar grupos de temas](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md)
    * [Crear un formulario personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)
 
-1. Vaya al proyecto que eligió habilitar como cola de solicitudes de ayuda y donde desea crear un nuevo tema de la cola.\
+1. Vaya al proyecto o plantilla que eligió habilitar como cola de solicitudes de ayuda y donde desea crear un nuevo tema de cola.\
    Para obtener más información sobre cómo designar un proyecto como cola de solicitudes de ayuda, consulte [Crear una cola de solicitudes](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
    Puede organizar temas de la cola relacionados en un grupo de temas. Esto proporcionará al solicitante una serie de menús desplegables al realizar una solicitud.
@@ -171,3 +175,13 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
 
 1. Haga clic en **Guardar**.\
    El tema de la cola ya está disponible para usar y se puede ver en el área de solicitudes de Workfront, después de seleccionar una cola de solicitudes y un grupo de temas.
+
+## Editar un tema de cola
+
+Para editar un tema de la cola existente:
+
+1. Vaya al proyecto o plantilla que contiene el tema de la cola que desea editar.
+1. Haga clic en **Temas de cola** en el panel izquierdo.
+1. En el entorno Producción, seleccione el Tema de la cola que desee editar. En la página Detalles que se abre, haga clic en **Editar tema de cola**.
+1. <span class="preview">En el entorno de vista previa, seleccione el tema de la cola que desee editar y, a continuación, haga clic en el icono Editar ![icono Editar](assets/edit-icon.png).</span>
+
