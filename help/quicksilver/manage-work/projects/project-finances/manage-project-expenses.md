@@ -6,10 +6,10 @@ description: El proceso de creación y administración de gastos es el mismo par
 author: Lisa
 feature: Work Management
 exl-id: 80c41b08-3618-4d6e-8d07-1736b2f824ea
-source-git-commit: abf5f21281b05dedfecbe71c6ffbf54ee69e2460
+source-git-commit: e1884aa7975018a737538d909954319e6feee318
 workflow-type: tm+mt
 source-wordcount: '504'
-ht-degree: 45%
+ht-degree: 41%
 
 ---
 
@@ -58,8 +58,8 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
 
 1. Vaya al proyecto o tarea para el que desee introducir gastos.
 1. Haga clic en **Gastos** en el panel izquierdo.
-1. Haga clic en **Agregar un gasto**. Se muestra el cuadro de diálogo **Agregar un gasto**.
-1. Actualice lo siguiente:
+1. Haga clic en **Agregar un gasto**. Aparece el cuadro de diálogo **Agregar un gasto**.
+1. Introduzca la siguiente información:
 
    * **Descripción:** Escriba una descripción del gasto.
    * **Tipo de gasto:** (obligatorio) seleccione la categoría que mejor describa el gasto.
@@ -68,11 +68,11 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
 
    * **Importe real:** Escriba el importe que representa el costo real del gasto. Esto afecta al coste real del proyecto.
 
-   * **Fecha planificada:** Escriba la fecha esperada para que se produzca el gasto. Puede escribir la fecha en el campo con el formato *mm/dd/aa* o hacer clic en el icono **Calendario**  ![Icono del calendario](assets/calendar-icon.png) y seleccione la fecha de forma dinámica.
+   * **Fecha planificada:** Escriba la fecha esperada para que se produzca el gasto. Puede escribir la fecha en el campo con el formato *mm/dd/aa*, o bien puede hacer clic en el icono **Calendario** ![Icono del calendario](assets/calendar-icon.png) y seleccionar la fecha de forma dinámica.
 
    * **Fecha de pago:** Escriba o seleccione la fecha en que se pagó el gasto.
-   * **Facturable:** seleccione esta opción si desea facturar este gasto. Categorizar un gasto como facturable es importante al crear registros de facturación.
-   * **Reembolsable:** seleccione esta opción si es necesario reembolsar el gasto. A continuación, puede marcar el gasto como reembolsado después de que se haya reembolsado el gasto.
+   * **Facturable:** Seleccione esta opción si desea facturar este gasto. Categorizar un gasto como facturable es importante al crear registros de facturación.
+   * **Reembolsable:** Seleccione esta opción si es necesario reembolsar el gasto. A continuación, puede marcar el gasto como reembolsado después de que se haya reembolsado el gasto.
 
 1. Seleccione un **formulario personalizado** y especifique la información adicional que necesite.
 
@@ -80,7 +80,7 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
    >
    >Debe crear un formulario personalizado para poder asociarlo a un gasto. En la lista solo se muestran los formularios personalizados activos. Para obtener información acerca de cómo crear formularios personalizados, vea el artículo [Crear un formulario personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
-1. Haga clic en **Guardar cambios**.
+1. Haga clic en **Guardar**.
 
 ## Eliminar gastos
 
