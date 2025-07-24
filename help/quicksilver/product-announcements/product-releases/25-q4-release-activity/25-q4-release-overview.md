@@ -4,7 +4,8 @@ description: En esta página se proporciona información sobre la funcionalidad 
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: b495399ff6375eae222b9a15538c52ae3c73f6bb
+exl-id: 298473d4-7d7d-4401-80bf-899a01f570a6
+source-git-commit: 83c9f6f36acad5182c63a74aa2f8e286ba1b839d
 workflow-type: tm+mt
 source-wordcount: '712'
 ht-degree: 38%
@@ -37,7 +38,27 @@ The <add release> release webinar will be held on <date>. You can [register for 
 
 ## Mejoras de Adobe Workfront
 
+<!--* [Resource Management enhancements](#resource-management-enhancements)-->
 * [Otras mejoras](#other-enhancements)
+
+
+
+<!--### Resource Management enhancements
+
+<table style="table-layout:auto">
+  <tbody>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-resource-mgmt.md" class="MCXref xref" xrefformat="{para}">Role assignments display in the Workload Balancer </a><p></p>
+            <p>Resource managers can now review job role assignments in the Workload Balancer. The assignments are displayed in the Unassigned Work area, under the tasks or issues the roles are assigned to. Only work items assigned to users are displayed in the Assigned Work area. </p>
+            <p>A new Workload Balancer setting, Show Role Assignments, determines whether role assignments are displayed. The setting is enabled by default.</p>
+        </td>
+        <td>July 24, 2025</td>
+        <td>August 14, 2025</td>
+        <td>October 16, 2025</td>
+    </tr>     
+  </tbody>
+</table> -->
 
 ### Otras mejoras
 
@@ -88,7 +109,7 @@ Estamos actualizando la interfaz a través de Adobe Workfront para mejorar la ex
 
 ### Mejoras de Workfront Fusion
 
-Las nuevas funciones de Workfront Fusion están disponibles en el entorno de producción en una cadencia fuera de la programación de versiones estándar. Para obtener más información sobre las últimas funciones, consulte [Actividad de la versión de Adobe Workfront Fusion](https://experienceleague.adobe.com/es/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
+Las nuevas funciones de Workfront Fusion están disponibles en el entorno de producción en una cadencia fuera de la programación de versiones estándar. Para obtener más información sobre las últimas funciones, consulte [Actividad de la versión de Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
 
 ### Mejoras de Workfront Planning
 
