@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: bf49db73-09f1-417e-836b-16c6062740d4
-source-git-commit: 948ca1f8a91e20616b5a42876df8432e85737b2d
+source-git-commit: a4bb3582eb476acbefa5d11db1f2c06eafc13cdd
 workflow-type: tm+mt
-source-wordcount: '1474'
-ht-degree: 8%
+source-wordcount: '1540'
+ht-degree: 7%
 
 ---
 
@@ -18,9 +18,9 @@ ht-degree: 8%
 
 # Compartir tipos de registros
 
-<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">La información de esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después de las versiones mensuales en Production, las mismas funciones también están disponibles en el entorno Production para los clientes que habilitaron versiones rápidas. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -29,7 +29,7 @@ Puede compartir un tipo de registro con otros usuarios para garantizar la colabo
 >[!IMPORTANT]
 >
 >Los usuarios con acceso a un espacio de trabajo obtienen automáticamente al menos permisos de visualización para todos los tipos de registros del espacio de trabajo.
->&#x200B;>Al compartir vistas, los usuarios no conceden permisos a los tipos de registro. Sólo los espacios de trabajo compartidos pueden conceder permisos de usuario a los tipos de registro.
+>>Al compartir vistas, los usuarios no conceden permisos a los tipos de registro. Sólo los espacios de trabajo compartidos pueden conceder permisos de usuario a los tipos de registro.
 >
 >* Para obtener información general sobre cómo compartir objetos en Workfront Planning, consulte también [Información general sobre los permisos de uso compartido en Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md).
 >* Para obtener más información, vea la sección [Consideraciones al compartir tipos de registros](#considerations-when-sharing-record-types) en este artículo.
@@ -144,22 +144,10 @@ Puede ajustar los permisos a los tipos de registro individuales de un espacio de
 
 1. Abra el espacio de trabajo cuyos tipos de registros desee compartir.
 
-<!--when we release Share on the record type card, replace the next 3 steps with this: 
+1. Realice una de las siguientes acciones:
 
-1. Do one of the following: 
-
-   * <span class="preview">From the record type card, click the **More** menu > **Share**.</span>
-   * Click a record type card to open the record type's page, then click **Share** > **Share the record type** from any record type view.
-
-   The **Share** box opens.
--->
-
-1. Haga clic en una tarjeta de tipo de registro.
-
-   Se abre la página de tipo de registro.
-
-1. En la pestaña de cualquier vista, haga clic en **Compartir** en la esquina superior derecha del tipo de registro.
-1. Haga clic en **Compartir el tipo de registro**.
+   * <span class="preview">En la tarjeta de tipo de registro, haga clic en el menú **Más** > **Compartir**.</span>
+   * Haga clic en una tarjeta de tipo de registro para abrir la página del tipo de registro y, a continuación, haga clic en **Compartir** > **Compartir el tipo de registro** desde cualquier vista de tipo de registro.
 
    Se abre el cuadro **Compartir**.
 

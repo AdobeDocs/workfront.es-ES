@@ -6,19 +6,19 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 948ca1f8a91e20616b5a42876df8432e85737b2d
+source-git-commit: a4bb3582eb476acbefa5d11db1f2c06eafc13cdd
 workflow-type: tm+mt
-source-wordcount: '2388'
-ht-degree: 27%
+source-wordcount: '2798'
+ht-degree: 25%
 
 ---
 
 
 # Crear registros
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después de las versiones mensuales en Production, las mismas funciones también están disponibles en el entorno Production para los clientes que habilitaron versiones rápidas. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -26,18 +26,21 @@ En Adobe Workfront Planning, un registro es una instancia de un tipo de registro
 
 Para crear registros, siga uno de estos procedimientos:
 
-* [Crear registros con el botón Nuevo registro o Solicitar registro desde cualquier vista de tipo de registro](#create-records-using-the-new-record-or-request-record-button-from-any-record-type-view)
-* [Crear registros agregándolos en línea desde la vista de tabla de tipo de registro](#create-records-by-adding-them-inline-from-the-record-type-table-view)
+* [Utilice el botón Nuevo registro o Solicitar registro de cualquier vista de tipo de registro](#create-records-using-the-new-record-or-request-record-button-from-any-record-type-view)
+* [Añádalos en línea desde la vista de tabla de tipo de registro](#create-records-by-adding-them-inline-from-the-record-type-table-view)
 
-<!--
-* [Create records by adding them in the record type timeline view](#create-records-by-adding-them-in-the-record-type-timeline-view)-->
+<div class="preview">
+
+* [Añádalos en la vista de escala de tiempo de tipo de registro](#create-records-by-adding-them-in-the-record-type-timeline-view)
+
+</div>
 
 * [Copie y pegue una lista de registros de una lista externa](#create-records-by-copying-and-pasting-them-from-an-external-list)
 * [Duplicar registros desde una vista de tabla](#create-records-by-duplicating-them)
-* [Crear registros a medida que los conecta desde otros registros](#create-records-as-you-connect-them)
-* [Crear registros enviando un formulario de solicitud a un tipo de registro](#create-records-by-submitting-a-request-form-to-a-record-type)
-* [Crear registros importando información desde un archivo CSV o de Excel](#create-records-by-importing-records-from-a-csv-or-excel-file)
-* [Creación de registros mediante automatizaciones](#create-records-by-using-automations)
+* [Conectarlos desde otros registros](#create-records-as-you-connect-them)
+* [Envío de un formulario de solicitud a un tipo de registro](#create-records-by-submitting-a-request-form-to-a-record-type)
+* [Importar información desde un archivo CSV o de Excel](#create-records-by-importing-records-from-a-csv-or-excel-file)
+* [Usar automatizaciones](#create-records-by-using-automations)
 
 Para obtener información acerca de la administración de registros en las vistas de tabla o línea de tiempo, consulte los siguientes artículos:
 
@@ -270,64 +273,64 @@ Los registros del tipo seleccionado se muestran en la vista.
    * CTRL + Z (⌘ + Z para Mac) para deshacer un cambio
    * CTRL + Mayús + Z (⌘ + Mayús + Z para Mac) para rehacer un cambio
 
-<!--<div class="preview">
+<div class="preview">
 
-## Create records by adding them in the record type timeline view
+## Crear registros agregándolos en la vista de escala de tiempo de tipo de registro
 
-You can create records in the timeline view of a record type page, by double-clicking in the timeline. 
+Puede crear registros en la vista de escala de tiempo de una página de tipo de registro haciendo doble clic en ella.
 
-For information about creating a timeline view, see [Manage the timeline view](/help/quicksilver/planning/views/manage-the-timeline-view.md).
+Para obtener información acerca de cómo crear una vista de escala de tiempo, vea [Administrar la vista de escala de tiempo](/help/quicksilver/planning/views/manage-the-timeline-view.md).
 
 {{step1-to-planning}}
-  
-1. Click the workspace where you want to add records.
 
-    The workspace opens and the record types display as cards.
+1. Haga clic en el espacio de trabajo donde desee añadir registros.
 
-1. Click a record type card. 
+   El espacio de trabajo se abre y los tipos de registro se muestran como tarjetas.
 
-    The record type page opens in the view that you last accessed. 
+1. Haga clic en una tarjeta de tipo de registro.
 
-1. Click to open a timeline view, or create a timeline view, first. 
+   La página de tipo de registro se abre en la vista a la que se accedió por última vez.
 
-    >[!NOTE]
-    >
-    >You can create a timeline view only if there are at least two date fields associated with the record type.
-1. Double-click anywhere in the timeline. 
+1. Haga clic para abrir una vista de escala de tiempo o crear primero una vista de escala de tiempo.
 
-    A new record box opens. 
+   >[!NOTE]
+   >
+   >Puede crear una vista de escala de tiempo únicamente si existen al menos dos campos de fecha asociados al tipo de registro.
+1. Haga doble clic en cualquier lugar de la cronología.
 
-    ![New record box on timeline with unnamed record bar](assets/new-record-small-box-on-timeline.png)
-1. Update the following information:
+   Se abre un nuevo cuadro de registro. <!--might need a new screen shot for Production - might add a title etc-->
 
-    * **Name**: Enter the name of the record. If you leave it empty, Workfront names it **Untitled** by default. The name will not be visible in the record bar if left empty. 
-    * **Record date fields**: Update the dates of the record. 
-        
-        The names of the date fields are customized according to the fields selected for the Start and End dates when the timeline view was created.
+   ![Nuevo cuadro de registro en la cronología con barra de registros sin nombre](assets/new-record-small-box-on-timeline.png)
+1. Actualice la siguiente información:
 
-        By default, date values are preselected depending on how you display the timeline view. The following scenarios exist:
+   * **Nombre**: escriba el nombre del registro. Si lo deja vacío, Workfront lo nombra **Sin título** de manera predeterminada. El nombre no será visible en la barra de registros si se deja vacío.
+   * **Campos de fecha de registro**: Actualice las fechas del registro.
 
-        * By **Year**: The record start and end dates span a month.
-        * By **Quarter**: The record start and end dates span a week. 
-        * By **Month**: The record start and end dates span three days.
+     Los nombres de los campos de fecha se personalizan según los campos seleccionados para las fechas de inicio y finalización cuando se creó la vista de cronología.
 
-1. (Optional) Click one of the following icons: 
+     De forma predeterminada, los valores de fecha se preseleccionan en función de cómo se muestre la vista de cronología. Se dan los siguientes escenarios:
 
-    * **Expand** ![Expand icon](assets/expand-icon.png) to open the record details in the preview window. 
-    * **Delete** ![Delete icon](assets/delete-icon.png) to delete the record.
-    * **Close**  ![Close icon](assets/close-icon.png) to close the new record box. 
+      * Por **año**: las fechas de inicio y finalización del registro abarcan un mes.
+      * Por **trimestre**: las fechas de inicio y finalización del registro abarcan una semana.
+      * Por **mes**: las fechas de inicio y finalización del registro abarcan tres días.
 
-    The record is added to the timeline as well as to the table and calendar views immediately, unless you clicked the **Delete** icon. 
+1. (Opcional) Haga clic en uno de los iconos siguientes:
 
-1. (Optional) Click the record bar in the timeline to open the record's details window and update its information, delete it, or add comments. 
+   * **Expandir** ![Expandir icono](assets/expand-icon.png) para abrir los detalles del registro en la ventana de vista previa.
+   * **Eliminar** ![Eliminar icono](assets/delete-icon.png) para eliminar el registro.
+   * **Cerrar** ![Icono de cierre](assets/close-icon.png) para cerrar el cuadro de nuevo registro.
 
-    >[!TIP]
-    >
-    >By default, Workfront associates the record with a thumbnail and a cover image.
-    >
-    >The thumbnail displays in the timeline view only when it is enabled in the Settings of the view. 
+   El registro se agrega inmediatamente a la escala de tiempo, así como a las vistas de tabla y calendario, a menos que haga clic en el icono **Eliminar**.
 
-</div>-->
+1. (Opcional) Haga clic en la barra de registros de la cronología para abrir la ventana de detalles del registro y actualizar su información, eliminarla o agregar comentarios.
+
+   >[!TIP]
+   >
+   >De forma predeterminada, Workfront asocia el registro con una miniatura y una imagen de portada.
+   >
+   >La miniatura solo se muestra en la vista de la cronología cuando está habilitada en la Configuración de la vista.
+
+</div>
 
 ## Cree registros copiándolos y pegándolos desde una lista externa
 

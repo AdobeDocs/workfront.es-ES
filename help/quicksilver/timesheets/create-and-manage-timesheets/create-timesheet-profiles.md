@@ -6,10 +6,10 @@ description: Puede crear, editar y asignar perfiles de hojas de horas que genere
 author: Alina
 feature: Timesheets
 exl-id: 8f4826bd-82b4-4157-a7d4-a7c94b8fc879
-source-git-commit: 594f224e11b0e7708ed555410b7c331741113791
+source-git-commit: a4bb3582eb476acbefa5d11db1f2c06eafc13cdd
 workflow-type: tm+mt
-source-wordcount: '1540'
-ht-degree: 90%
+source-wordcount: '1604'
+ht-degree: 84%
 
 ---
 
@@ -36,8 +36,6 @@ Para obtener más información sobre cómo crear manualmente una hoja de horas, 
 ## Requisitos de acceso
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
-
-Para realizar los pasos de este artículo, debe tener lo siguiente:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -194,9 +192,17 @@ Para realizar los pasos de este artículo, debe tener lo siguiente:
    >* Cuando se añade un grupo, solo aparece el nombre del grupo en la pestaña Asignar personas, no la lista de integrantes del grupo. Si desea ver los integrantes del grupo enumerados aquí, haga clic en Guardar cambios y, a continuación, haga clic en el nombre del perfil de plantilla de horas que acaba de crear.
    >* Cuando termina estos pasos, el perfil de plantilla de horas genera plantillas de horas únicamente para los usuarios o integrantes del grupo asignados que no tienen plantillas de horas existentes para el período actual.
 
-1. Haga clic en **Guardar cambios**.
+1. Haga clic en **Guardar**.
 
-   La primera vez que el perfil de plantilla de horas genera plantillas de horas, se crean dos plantillas de horas por cada usuario. Después, cada vez que se generen nuevas hojas de horas, se creará una por usuario.
+1. En la parte superior de la lista de perfiles de hojas de horas, haga clic en el icono **Más** ![Icono de más](assets/more-icon.png) para perfiles de hojas de horas de nivel de sistema o en **Más** para perfiles de hojas de horas de grupo y, a continuación, haga clic en **Generar hojas de horas**.
+
+   En la parte inferior de la pantalla aparece una confirmación de que las plantillas de horas se han generado correctamente. Se generan nuevas plantillas de horas en función de los nuevos perfiles que haya creado.
+
+   Para obtener más información, consulte [Generar hojas de horas manualmente](/help/quicksilver/timesheets/create-and-manage-timesheets/manually-generate-timesheets.md).
+
+   La primera vez que el perfil de plantilla de horas genera plantillas de horas, se crean 2 plantillas de horas para cada usuario, tanto para el periodo de tiempo que incluye la hora actual como para el siguiente periodo de tiempo.
+
+   Después, cada vez que genera nuevas plantillas de horas, se crea una por usuario.
 
    <!--the content in the table above will need to match the content in the Create timesheets article-->
 

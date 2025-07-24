@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 5c895e77-bd88-435f-a903-37c2325eab45
-source-git-commit: 485f2985c70b1bb095e31323b7b4698bcb7a04cf
+source-git-commit: a4bb3582eb476acbefa5d11db1f2c06eafc13cdd
 workflow-type: tm+mt
-source-wordcount: '367'
-ht-degree: 92%
+source-wordcount: '348'
+ht-degree: 90%
 
 ---
 
@@ -27,9 +27,7 @@ Si hay grupos por encima del grupo que administra, sus administradores también 
 
 ## Requisitos de acceso
 
-+++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
-
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
++++ Amplíe para ver los requisitos de acceso.
 
 <table style="table-layout:auto"> 
  <col> 
