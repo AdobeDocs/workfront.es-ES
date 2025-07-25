@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 298473d4-7d7d-4401-80bf-899a01f570a6
-source-git-commit: 7d7c7c98eb133ad35a940db2711c579d1f83045b
+source-git-commit: 0d344f637ef5f70ec76a2927230eba81b0ba7c55
 workflow-type: tm+mt
-source-wordcount: '715'
+source-wordcount: '712'
 ht-degree: 38%
 
 ---
@@ -30,7 +30,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
 >
 >| Versión mensual | Versión trimestral |
 >|----|----|
->| <ul><li>25.8 (agosto de 2025)</li><li>25.9 (septiembre de 2025)</li><li>25.10 (octubre de 2025)</li><li>25.11 (noviembre de 2025)</li></ul> | <ul><li>25.10 (octubre de 2025)</li></ul> |
+>| <ul><li>25.8 (agosto de 2025)</li><li>25.9 (septiembre de 2025)</li><li>25.10 (octubre de 2025)</li></ul> | <ul><li>25.10 (octubre de 2025)</li></ul> |
 >
 >Tenga en cuenta que, para la versión final de cada trimestre (25.10 este trimestre), los usuarios de la programación de versiones rápidas recibirán la versión un día antes.
 >
@@ -109,7 +109,7 @@ Estamos actualizando la interfaz a través de Adobe Workfront para mejorar la ex
 
 ### Mejoras de Workfront Fusion
 
-Las nuevas funciones de Workfront Fusion están disponibles en el entorno de producción en una cadencia fuera de la programación de versiones estándar. Para obtener más información sobre las últimas funciones, consulte [Actividad de la versión de Adobe Workfront Fusion](https://experienceleague.adobe.com/es/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
+Las nuevas funciones de Workfront Fusion están disponibles en el entorno de producción en una cadencia fuera de la programación de versiones estándar. Para obtener más información sobre las últimas funciones, consulte [Actividad de la versión de Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
 
 ### Mejoras de Workfront Planning
 
