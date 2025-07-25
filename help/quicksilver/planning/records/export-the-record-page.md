@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 8de68b70-dd87-4aad-9137-980ea9fc0d69
-source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
+source-git-commit: 10fec10e1bb885ac20e1ef9526cfa8a59086d874
 workflow-type: tm+mt
-source-wordcount: '465'
+source-wordcount: '467'
 ht-degree: 21%
 
 ---
@@ -65,7 +65,7 @@ Para colaborar de forma más eficaz con otras personas que no tengan una cuenta 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Licencia de Adobe Workfront*</p></td> 
-   <td> <p>Estándar</p>
+   <td> <p>Ligero o superior</p>
    <p>Workfront Planning no está disponible para licencias de Workfront heredadas</p> 
   </td> 
   </tr> 

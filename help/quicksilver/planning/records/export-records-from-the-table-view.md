@@ -6,10 +6,10 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: d8ac4d94-28b5-41d6-acb8-259696897c8a
-source-git-commit: ee366e05097518a4618dd11ed5807b8766465d94
+source-git-commit: 10fec10e1bb885ac20e1ef9526cfa8a59086d874
 workflow-type: tm+mt
-source-wordcount: '498'
-ht-degree: 12%
+source-wordcount: '486'
+ht-degree: 11%
 
 ---
 
@@ -66,7 +66,7 @@ Puede exportar registros y su información desde la vista de tabla a un archivo 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Licencia de Adobe Workfront*</p></td> 
-   <td><p> Estándar </p>
+   <td><p> Ligero o superior </p>
    <p>Workfront Planning no está disponible para licencias de Workfront heredadas</p> 
   </td> 
   </tr> 
@@ -77,8 +77,8 @@ Puede exportar registros y su información desde la vista de tabla a un archivo 
   </tr> 
 <tr> 
    <td role="rowheader"><p>Permisos de objeto</p></td> 
-   <td>   <p>Permisos de administración de una vista</p>  
-   <p>Ver permisos en una vista para cambiar temporalmente la configuración de la vista, duplicarla o exportarla.</p> </td> 
+   <td>   <p>Ver o permisos superiores a una vista</p>  
+   </td> 
   </tr> 
 </tbody> 
 </table>

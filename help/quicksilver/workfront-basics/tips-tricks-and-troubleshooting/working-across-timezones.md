@@ -5,10 +5,10 @@ title: Trabajar en diferentes zonas horarias
 description: Puede resultar útil entender cómo  [!DNL Adobe Workfront]  usa las zonas horarias para calcular los campos de tiempo para objetos y la hora en otras áreas, como los correos electrónicos.
 feature: Get Started with Workfront
 exl-id: b6574165-a6dc-4694-a367-d98927abf1e3
-source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
+source-git-commit: 7697bb68e2042291e5290048cfc2f626145979af
 workflow-type: tm+mt
-source-wordcount: '1192'
-ht-degree: 92%
+source-wordcount: '1249'
+ht-degree: 71%
 
 ---
 
@@ -58,25 +58,36 @@ La zona horaria de la instancia de [!DNL Workfront] de su organización suele es
 
 ### El perfil de usuario {#your-user-profile}
 
-La zona horaria del perfil de usuario debe configurarse para la ubicación donde se trabaje. Esto determina lo siguiente:
+El campo Zona horaria del perfil del usuario controla la hora que se muestra en los mensajes de correo electrónico salientes.
+
+La zona horaria también afecta a lo que se muestra en un informe de calendario de PTO.
+
+Para obtener información sobre la configuración de la zona horaria en el perfil de usuario, consulte [Configuración de mis opciones](../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md).
+
+Para obtener información sobre cómo un administrador de [!DNL Workfront] (o alguien con acceso de [!UICONTROL Edición] de usuarios) puede configurar la zona horaria de un perfil de usuario, consulte [Editar el perfil de un usuario](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+
+### Zona horaria del explorador
+
+La zona horaria del navegador debe configurarse para la ubicación en la que trabaje. Esto determina lo siguiente:
 
 <!--
 * The time shown in your outgoing [!DNL Workfront] email messages
 [NOTE FROM LISA: Saeid that dates/times shown in emails are more complicated than how it is described in the article so we decided to comment out this line.]
 -->
-* Las horas de un objeto en el que trabaje, como las horas de inicio y finalización
+* Horas de un objeto en el que trabaje, como las horas de inicio y finalización.
 
-  Si los usuarios de varias zonas horarias se asignan a un objeto, [!DNL Workfront] convertirá las horas del objeto para todos los involucrados, utilizando la zona horaria configurada en cada perfil de usuario.
+  Si los usuarios de varias zonas horarias están asignados a un objeto, [!DNL Workfront] convierte las horas del objeto para todos los implicados, utilizando la zona horaria configurada en el explorador de cada usuario.
 
-  **Ejemplo:** en la zona horaria Estándar del Este (EST) en la que trabaja, configura una tarea para que comience a las 4:00 p. m. y la asigna a los usuarios que trabajen en la zona horaria Estándar del Pacífico (PST). Para estos usuarios, la hora de inicio se mostrará como 1:00 p. m. Si se mostrara a las 4:00 p. m., empezarían a trabajar con tres horas de retraso.
+  **EJEMPLO**
+En la zona horaria estándar del Este (EST) en la que trabaja, establece una tarea para que comience a las 4:00 p.m. y la asigna a los usuarios que trabajan en la zona horaria estándar del Pacífico (PST). Para esos usuarios, la hora de inicio se muestra a las 1:00 p.m. Si se mostrara como las 4:00 p.m., empezarían a trabajar en él con tres horas de retraso.
 
-  Si el creador del objeto no observase la diferencia entre las zonas horarias de los usuarios asignados y realizase los ajustes necesarios al establecer las horas del objeto, o si los usuarios asignados no notasen esa diferencia, podría resultar difícil ajustar la temporización correctamente mientras todos colaboran en el objeto.
+  Si el creador del objeto no conoce la diferencia entre las zonas horarias de los usuarios asignados y no realiza los ajustes necesarios al establecer las horas del objeto, o si los usuarios asignados no conocen esa diferencia, puede ser difícil ajustar el tiempo correctamente mientras todos colaboran en el objeto.
 
-  **Ejemplo:** se configura una tarea de un día para que comience a las 9:00 a. m. EST, olvidando que algunos usuarios de la tarea trabajan en la zona PST. Para ellos, la hora de inicio será a las 6 de la mañana. Como no empezarán a trabajar hasta las 9:00 en su hora (mediodía en la de usted), la tarea comenzaría y finalizaría con tres horas de retraso.
+  **EJEMPLO**
 
-Para obtener información sobre la configuración de la zona horaria en el perfil de usuario, consulte [Configuración de mis opciones](../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md).
+  Configura una tarea de un día para que comience a las 9:00 AM EST, olvidando que algunos usuarios de la tarea trabajan en la zona PST. Para ellos, la hora de inicio es 6:00 AM. Debido a que no comenzarán a trabajar en él hasta las 9:00 de su hora (mediodía de su hora), la tarea comienza y finaliza con tres horas de retraso.
 
-Para obtener información sobre cómo un administrador de [!DNL Workfront] (o alguien con acceso de [!UICONTROL Edición] de usuarios) puede configurar la zona horaria de un perfil de usuario, consulte [Editar el perfil de un usuario](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+La configuración de la zona horaria difiere entre los exploradores. Para obtener más información, consulte la documentación de cada explorador o la información de ayuda.
 
 ## Cómo se puede facilitar el trabajo de los usuarios entre zonas horarias
 
@@ -110,7 +121,7 @@ Los administradores de [!DNL Workfront] crean horarios separados para cada zona 
 >[!BEGINSHADEBOX]
 
 **EJEMPLO:**
-Se asigna a un usuario de EST una tarea de un día programada para comenzar a las 9:00 AM PST, que es el mediodía EST. Como al usuario de EST le quedan solo 2 horas laborables por día, la fecha de finalización de la tarea se extiende unas 6 horas hasta el siguiente día laborable.
+Se asigna a un usuario de EST una tarea de un día programada para iniciarse a las 9:00 AM PST, que es mediodía EST. Como al usuario de EST le quedan solo 2 horas laborables por día, la fecha de finalización de la tarea se extiende unas 6 horas hasta el siguiente día laborable.
 
 
 >[!ENDSHADEBOX]
