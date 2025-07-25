@@ -88,6 +88,7 @@ Para obtener más información, consulte [Generar un informe de KPI](/help/quick
 
    1. Haga clic en el filtro de condición vacío, haga clic en **Elegir un campo** y, a continuación, elija **Estado**.
    1. Deje el operador como **Equal** y, a continuación, escriba _pending review_ en el cuadro de texto.
+
       ![ejemplo de filtro kpi pendiente](assets/pending-kpi-filter.png)
 1. Haz clic en **Guardar** en la esquina superior derecha de la pantalla.
 
@@ -133,11 +134,13 @@ Para obtener más información, consulte [Generar un informe de KPI](/help/quick
    1. Seleccione **Fase de aprobación** > **Plazo**.
    1. Cambie el operador a **Less Than**.
    1. Cambie **Establecer fecha relativa** en **EL** y, a continuación, escriba _$$HOY_ en el cuadro de texto.
+
       ![ejemplo de filtro de kpi vencido](assets/overdue-kpi-filter.png)
    1. Haga clic en **Agregar condición**.
    1. Haga clic en el filtro de condición vacío y luego haga clic en **Elegir un campo**.
    1. Seleccione **Estado**.
    1. Cambie el operador a **No contiene** y, a continuación, escriba _aprobado_ en el cuadro de texto.
+
       ![ejemplo de filtro kpi vencido 2](assets/overdue-kpi-filter-2.png)
 1. Haz clic en **Guardar** en la esquina superior derecha de la pantalla.
 
@@ -184,12 +187,14 @@ Para obtener más información, consulte [Generar un informe de KPI](/help/quick
    1. Seleccione **Estado**.
 
    1. Cambie el operador a **Contains** y escriba _approved_ en el cuadro de texto.
+
       ![ejemplo de filtro kpi completado](assets/completed-kpi-filter.png)
    1. Haga clic en **Agregar condición**.
    1. Haga clic en **Y** para cambiarlo a **O**.
    1. Haga clic en el filtro de condición vacío y luego haga clic en **Elegir un campo**.
    1. Seleccione **Estado**.
    1. Cambie el operador a **Equal** y, a continuación, escriba _review_ en el cuadro de texto.
+
       ![ejemplo de filtro kpi completado](assets/completed-kpi-filter-2.png)
 1. Haz clic en **Guardar** en la esquina superior derecha de la pantalla.
 
@@ -234,12 +239,14 @@ Para obtener más información, consulte [Generar un informe de KPI](/help/quick
    1. Seleccione **Estado**.
 
    1. Cambie el operador a **No contiene** y escriba _aprobado_ en el cuadro de texto.
+
       ![ejemplo de filtro kpi abandonado](assets/abandoned-kpi-filter.png)
    1. Haga clic en **Agregar condición**.
    1. Haga clic en el filtro de condición vacío y luego haga clic en **Elegir un campo**.
    1. Seleccione **Plazo**.
    1. Cambie el operador a **Less Than** y luego cambie **Set relative date** a **ON**.
    1. Escriba _$$TODAY-2w_ en el cuadro de texto.
+
       ![ejemplo de filtro kpi abandonado](assets/abandoned-kpi-filter-2.png)
 1. Haz clic en **Guardar** en la esquina superior derecha de la pantalla.
 
@@ -277,6 +284,7 @@ Para obtener más información, consulte [Generar un informe de KPI](/help/quick
    1. Haga clic en el filtro de condición vacío y luego haga clic en **Elegir un campo**.
    1. Seleccione **Versión del documento** > **Versión**.
    1. Cambiar el operador a **No es nulo**.
+
       ![ejemplo de filtro](assets/approvals-by-decision-chart-filter.png)
 1. Haz clic en **Guardar** en la esquina superior derecha de la pantalla.
 
@@ -315,12 +323,14 @@ Para obtener más información, consulte [Generar un informe de KPI](/help/quick
    1. Seleccione **fase de aprobación** > **participantes en la fase de aprobación** > **Fecha de decisión**.
 
    1. Cambie el operador a **Is Null**.
+
       ![ejemplo de filtro de gráfico de revisiones](assets/revision-chart-filter.png)
    1. Haga clic en **Agregar condición**.
    1. Haga clic en el filtro de condición vacío y luego haga clic en **Elegir un campo**.
    1. Seleccione **Fase de aprobación** > **Plazo**.
    1. Cambie el operador a **Menor o igual que**, luego cambie **Establecer fecha relativa** a **ON**.
    1. Escriba _$$TODAYem_ en el cuadro de texto.
+
       ![Ejemplo de filtro de gráfico de revisiones](assets/revision-chart-filter-2.png)
 1. Haz clic en **Guardar** en la esquina superior derecha de la pantalla.
 
@@ -394,6 +404,7 @@ Para obtener más información sobre cómo generar un informe de tabla, consulte
    1. Haga clic en el filtro de condición vacío y luego haga clic en **Elegir un campo**.
    1. Seleccione **Estado**.
    1. Cambie el operador a **Equal** y, a continuación, escriba _pending approval_ en el cuadro de texto.
+
       ![ejemplo de filtro de tabla de aprobación pendiente](assets/pending-approval-table-filter.png)
    1. (Opcional) Agregue filtros adicionales como se describe en la sección **Filtros opcionales** a continuación.
 1. Haz clic en **Guardar** en la esquina superior derecha de la pantalla.
@@ -411,6 +422,7 @@ Para ver información más específica según el caso de uso, puede añadir cond
    1. Haga clic en el filtro de condición vacío y luego haga clic en **Elegir un campo**.
    1. Seleccione **Versión del documento** > **Documento** > **Proyecto** > **Propietario** > escriba _Nombre_ en el cuadro de búsqueda.
    1. Cambie el operador a **Equal** y, a continuación, elija **Me (Logged in user)** para mostrar los proyectos en Workfront donde esté marcado como propietario del proyecto.
+
       ![ejemplo de filtro de tabla de aprobación pendiente](assets/pending-approvals-my-project-filter.png)
 1. Haz clic en **Guardar** en la esquina superior derecha de la pantalla.
 
@@ -420,6 +432,7 @@ Para ver información más específica según el caso de uso, puede añadir cond
    1. Haga clic en el filtro de condición vacío y luego en **Elegir un campo**.
    1. Seleccione **Fase de aprobación** > **Participantes en la fase de aprobación** > **Solicitante** > escriba _Nombre_ en el cuadro de búsqueda.
    1. Cambie el operador a **Equal** y, a continuación, elija **Me (Logged in user)** para mostrar los proyectos en Workfront donde esté marcado como propietario del proyecto.
+
       ![ejemplo de filtro de tabla de aprobación pendiente](assets/pending-approvals-my-project-filter.png)
 1. Haz clic en **Guardar** en la esquina superior derecha de la pantalla.
 
@@ -489,6 +502,7 @@ Para ver información más específica según el caso de uso, puede añadir cond
    1. Seleccione **Fase de aprobación** > **Plazo**.
    1. Cambie el operador a **Less than** y luego cambie **Set relative date** a **ON**.
    1. Escriba _$$TODAY_ en el campo de texto.
+
       ![ejemplo de filtro de tabla de aprobación vencida](assets/overdue-approval.png)
    1. (Opcional) Agregue filtros adicionales como se describe en la sección **Filtros opcionales** a continuación.
 1. Haz clic en **Guardar** en la esquina superior derecha de la pantalla.
@@ -507,6 +521,7 @@ Para ver información más específica según el caso de uso, puede añadir cond
    1. Haga clic en el filtro de condición vacío y luego en **Elegir un campo**.
    1. Seleccione **Versión del documento** > **Documento** > **Proyecto** > **Propietario** > escriba _Nombre_ en el cuadro de búsqueda.
    1. Cambie el operador a **Equal** y, a continuación, elija **Me (usuario conectado)** para mostrar los proyectos en Workfront en los que esté marcado como propietario del proyecto.
+
       ![ejemplo de filtro de tabla de aprobación pendiente](assets/pending-approvals-my-project-filter.png)
 1. Haz clic en **Guardar** en la esquina superior derecha de la pantalla.
 
@@ -516,6 +531,7 @@ Para ver información más específica según el caso de uso, puede añadir cond
    1. Haga clic en el filtro de condición vacío y luego en **Elegir un campo**.
    1. Seleccione **Fase de aprobación** > **Participantes en la fase de aprobación** > **Solicitante** > escriba _Nombre_ en el cuadro de búsqueda.
    1. Cambie el operador a **Equal** y, a continuación, elija **Me (usuario conectado)** para mostrar los proyectos en Workfront en los que esté marcado como propietario del proyecto.
+
       ![ejemplo de filtro de tabla de aprobación pendiente](assets/pending-approvals-my-project-filter.png)
 1. Haz clic en **Guardar** en la esquina superior derecha de la pantalla.
 
@@ -525,6 +541,7 @@ Para ver información más específica según el caso de uso, puede añadir cond
    1. Haga clic en el filtro de condición vacío y luego en **Elegir un campo**.
    1. Seleccione **Fase de aprobación** > **Participantes en la fase de aprobación** > **Equipo de participantes** > escriba _Nombre_ en el cuadro de búsqueda.
    1. Cambie el operador a **Equal** y, a continuación, elija **Mis equipos predeterminados (Usuario con sesión iniciada)** o **Mis otros equipos (Usuario con sesión iniciada)** para mostrar los proyectos asignados a su equipo predeterminado o a otros equipos en los que esté.
+
       ![ejemplo de filtro de tabla de aprobación pendiente](assets/approvals-ive-submitted-filter.png)
 1. Haz clic en **Guardar** en la esquina superior derecha de la pantalla.
 +++
