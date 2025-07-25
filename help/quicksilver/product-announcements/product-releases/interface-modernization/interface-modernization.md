@@ -5,7 +5,7 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 10fec10e1bb885ac20e1ef9526cfa8a59086d874
+source-git-commit: f98dd9c4bbb342e20ef77690ef20b0b14f5e9b6b
 workflow-type: tm+mt
 source-wordcount: '5853'
 ht-degree: 2%
@@ -357,7 +357,7 @@ Determinados clientes pueden ver este cambio en la sección Proyectos asociados 
 
 ### Nueva apariencia para el cuadro &quot;Guardar como plantilla&quot;
 
-**Versión preliminar: 12 de junio de 2025; versión de producción: 19 de junio de 2025
+**Versión preliminar: 12 de junio de 2025; versión de producción: 19 de junio de 2025**
 
 Hemos actualizado el aspecto del cuadro &quot;Guardar como plantilla&quot; que se muestra al guardar un proyecto como plantilla. El nuevo diseño incluye una interfaz optimizada, en la que todas las secciones se muestran en un formulario coherente que puede navegar mediante vínculos en el panel izquierdo. El nuevo diseño coincide con otras áreas y otros objetos de la aplicación.
 
@@ -515,7 +515,6 @@ Hemos actualizado la página del acuerdo de licencia con un diseño más moderno
 
 +++
 
--->
 
 ## Actualizaciones de la interfaz realizadas en el segundo trimestre
 

@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 572c6008-3a67-47ae-8f5d-6b871ef1f37b
-source-git-commit: 66fc75ed9a7fca4b44ac776c314a6e08a6fbd450
+source-git-commit: f98dd9c4bbb342e20ef77690ef20b0b14f5e9b6b
 workflow-type: tm+mt
-source-wordcount: '3721'
+source-wordcount: '3723'
 ht-degree: 97%
 
 ---
@@ -268,18 +268,18 @@ Puede editar una tarea mediante las áreas Editar tarea o Detalles de la tarea. 
      </tr> 
      <tr> 
       <td role="rowheader">Fecha y hora de inicio planificadas</td> 
-      <td> <p>Cuando está previsto que comience la tarea. La fecha planificada de inicio de una tarea se establece y se ve influida por una serie de factores:</p> 
+      <td> <p>Cuando está previsto que comience la tarea. La fecha de inicio planificada de una tarea se establece y se ve influida por una serie de factores:</p> 
        <ul> 
       <li>Según la preferencia de todo el sistema para la fecha de inicio planificada de la tarea, la fecha de inicio de una nueva tarea en un proyecto puede ser hoy o la fecha de inicio del proyecto de forma predeterminada. <span>El administrador del grupo asociado con el proyecto también puede establecer esta preferencia para el grupo.</span> Para obtener más información acerca de las preferencias de tareas a nivel de sistema o de grupo, consulte <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md" class="MCXref xref">Configurar las preferencias de tareas y problemas a nivel de sistema</a>.</li> 
       <li>Según las predecesoras de la tarea, Workfront elige la fecha de inicio planificada para que sea la siguiente fecha disponible después de que finalicen o comiencen las predecesoras, según la relación de las predecesoras. Para obtener más información acerca de las relaciones de las predecesoras, consulte <a href="../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md" class="MCXref xref">Información general sobre las predecesoras de tareas</a>.</li> 
-      <li>El administrador del proyecto o el propietario de la tarea pueden establecer manualmente la fecha planificada de inicio cuando la restricción de la tarea sea Fechas fijas o Debe iniciarse el. Para obtener más información acerca de las restricciones de tareas, consulte <a href="../../../manage-work/tasks/task-constraints/task-constraint-overview.md" class="MCXref xref">Información general sobre la restricción de tareas</a>.</li> 
+      <li>El administrador del proyecto o el propietario de la tarea pueden establecer manualmente la fecha de inicio planificada cuando la restricción de la tarea sea Fechas fijas o Debe iniciarse el. Para obtener más información acerca de las restricciones de tareas, consulte <a href="../../../manage-work/tasks/task-constraints/task-constraint-overview.md" class="MCXref xref">Información general sobre la restricción de tareas</a>.</li> 
        </ul> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Fecha y hora planificadas de finalización</td> 
       <td> <p>La fecha de finalización anticipada, tal como se muestra cuando se planifica la tarea. Workfront establece la fecha planificada de finalización teniendo en cuenta algunos de los siguientes factores:</p> 
        <ul> 
-      <li>La fecha planificada de finalización se calcula a partir de la fecha planificada de inicio añadiendo la duración de la tarea a la fecha planificada de inicio. Cuando el administrador del proyecto o Workfront especifican la duración de la tarea, se activa una actualización de la fecha planificada de finalización. Si la fecha planificada cambia, a menudo se debe a que se ha actualizado la duración de la tarea.</li> 
+      <li>La fecha de finalización planificada se calcula a partir de la fecha de inicio planificada añadiendo la duración de la tarea a la fecha de inicio planificada. Cuando el administrador del proyecto o Workfront especifican la duración de la tarea, se activa una actualización de la fecha planificada de finalización. Si la fecha planificada cambia, a menudo se debe a que se ha actualizado la duración de la tarea.</li> 
       <li>El administrador del proyecto o el propietario de la tarea pueden establecer manualmente la fecha planificada de finalización cuando la restricción de la tarea sea Fechas fijas o Debe finalizarse el. Para obtener más información acerca de las restricciones de tareas, consulte <a href="../../../manage-work/tasks/task-constraints/task-constraint-overview.md" class="MCXref xref">Información general sobre la restricción de tareas</a>.</li> 
       <li>Si el Tipo de duración de la tarea cambia y el número de recursos de las tareas cambia al mismo tiempo, también cambiará la fecha planificada de finalización. Para obtener más información sobre los tipos de duración, consulte <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Información general sobre la duración de la tarea y tipos de duración</a>.</li> 
        </ul> </td> 
@@ -360,7 +360,7 @@ Puede editar una tarea mediante las áreas Editar tarea o Detalles de la tarea. 
       <li> <p>El número de recursos asignados a una tarea </p> </li> 
       <li> <p>El esfuerzo total necesario para completar la tarea </p> </li> 
       <li> <p> La duración total de la tarea. </p> </li> 
-       </ul> <p>El administrador de grupos o de Workfront selecciona la configuración predeterminada de Tipo de duración para las tareas del sistema o del grupo. Para obtener información sobre cómo establecer los valores predeterminados del proyecto, consulte <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configurar las preferencias de proyecto de todo el sistema</a>. </p> <p>Los tipos de duración permiten establecer asignaciones de recursos coherentes según las necesidades de la tarea. Para obtener más información acerca del tipo de duración de una tarea, consulte <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Información general sobre la duración de la tarea y el tipo de duración</a>. </p> <p>Seleccione entre las siguientes opciones: </p> 
+       </ul> <p>El administrador de grupos o de Workfront selecciona la configuración predeterminada de Tipo de duración para las tareas del sistema o del grupo. Para obtener información sobre cómo establecer los valores predeterminados del proyecto, consulte <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md" class="MCXref xref">Configurar las preferencias de tareas y problemas en todo el sistema</a>. </p> <p>Los tipos de duración permiten establecer asignaciones de recursos coherentes según las necesidades de la tarea. Para obtener más información acerca del tipo de duración de una tarea, consulte <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Información general sobre la duración de la tarea y el tipo de duración</a>. </p> <p>Seleccione entre las siguientes opciones: </p> 
        <ul> 
       <li> <p>Asignación calculada </p> </li> 
       <li> <p> Trabajo calculado </p> </li> 
@@ -443,7 +443,7 @@ Puede editar una tarea mediante las áreas Editar tarea o Detalles de la tarea. 
 
    <p><b>NOTA</b>
 
-   <p>El tiempo transcurrido es una unidad de tiempo de la duración de una tarea. Es el tiempo entre la fecha planificada de inicio y la fecha planificada de finalización de una tarea que incluye días festivos, fines de semana y días libres. En otras palabras, el tiempo transcurrido es el paso de los días del calendario.
+   <p>El tiempo transcurrido es una unidad de tiempo de la duración de una tarea. Es el tiempo entre la fecha de inicio planificada y la fecha de finalización planificada de una tarea que incluye días festivos, fines de semana y días libres. En otras palabras, el tiempo transcurrido es el paso de los días del calendario.
 
    El tiempo habitual tiene en cuenta los días festivos, los fines de semana y los días libres, y los excluye de la duración de la tarea. Para obtener más información acerca de la duración de la tarea, consulte <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Información general sobre la duración de la tarea y el tipo de duración</a>. </p>
    </div> 
