@@ -169,7 +169,7 @@ Para configurar activadores para crear automáticamente elementos en [!DNL Jira]
    >
    >No puede tener varios activadores para el mismo equipo, usuario o función.
 
-   Cuando alguien crea una tarea o un problema y lo asigna a una de estas entidades, se crea automáticamente un problema en [!DNL [!DNL Jira]].
+   Cuando alguien crea una tarea o un problema y lo asigna a una de estas entidades, se crea automáticamente un problema en [!DNL [!DNL Jira]].
 
 1. En el campo proyecto de **[!UICONTROL [!DNL Jira]]**, empiece a escribir el nombre de un proyecto de [!DNL Jira] y, a continuación, haga clic en para seleccionarlo cuando se muestre en la lista.
 
