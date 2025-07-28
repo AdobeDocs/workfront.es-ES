@@ -23,9 +23,9 @@ ht-degree: 92%
 >
 >En agosto estarán disponibles ocho plantillas de integración y automatización de Workfront listas para usar para Jira, que ayudarán a replicar los flujos de trabajo comunes y acelerar la implementación. Las plantillas son totalmente personalizables para satisfacer necesidades comerciales específicas y se pueden ampliar a medida que evolucionan los requisitos.
 > 
->Para obtener una descripción general de la automatización e integración de Workfront, consulte [Información general de Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+>Para obtener una descripción general de la automatización e integración de Workfront, consulte [Información general de Adobe Workfront Fusion](https://experienceleague.adobe.com/es/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 >
->Para obtener información sobre las capacidades específicas de los módulos de integración y automatización de Workfront para Jira, consulte [Módulos de software de Jira](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/jira-software-modules).
+>Para obtener información sobre las capacidades específicas de los módulos de integración y automatización de Workfront para Jira, consulte [Módulos de software de Jira](https://experienceleague.adobe.com/es/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/jira-software-modules).
 
 Cuando vincula problemas de [!DNL Jira] a tareas o problemas de [!DNL Adobe Workfront], los usuarios pueden actualizar los elementos en una aplicación y el equivalente de ese elemento también se actualiza para los usuarios que trabajan en la segunda aplicación.
 
