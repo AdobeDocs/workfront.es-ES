@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: f98dd9c4bbb342e20ef77690ef20b0b14f5e9b6b
+source-git-commit: d3a5d0c94df449a23e2b36d3e0f6fb816d306ce6
 workflow-type: tm+mt
-source-wordcount: '5853'
+source-wordcount: '5961'
 ht-degree: 2%
 
 ---
@@ -26,7 +26,7 @@ Para ver todos los demás cambios en Adobe Workfront, consulte [Versiones del pr
 
 ## Actualizaciones de la interfaz para la lista Perfiles de hojas de horas en un grupo
 
-**Versión preliminar: 24 de julio de 2025; versión de producción: por anunciar**
+**Versión preliminar: 24 de julio de 2025; versión de producción: 28 de julio de 2025**
 
 Hemos actualizado el aspecto de la lista Perfiles de plantilla de horas del panel izquierdo de un grupo para que coincida con otras áreas de la aplicación.
 
@@ -50,15 +50,23 @@ El botón de exportación se ha movido al lado derecho de la página.
 
 Para ver este cambio, vaya a Configuración > Seguimiento de cambios > Registros de auditoría.
 
-<!--## Interface updates to the Update users for SSO page in Setup
+## Actualizaciones de la interfaz de la página Actualización de usuarios para SSO de la Configuración
 
-**Preview release: July 22, 2025; Production release: To be annoounced**
+**Versión preliminar: 22 de julio de 2025; versión de producción: 28 de julio de 2025**
 
-We have updated the Update users for SSO page with a more modern design that is consistent with other areas of Workfront.
+Hemos actualizado la página Actualizar usuarios para SSO con un diseño más moderno y coherente con otras áreas de Workfront.
 
-To view this change, go to Setup > System > Update Users For SSO-->
+Para ver este cambio, vaya a Configuración > Sistema > Actualizar usuarios para SSO
 
 ## Proyectos
+
+## Actualizaciones de interfaz para el cuadro Importar archivo de MS Project
+
+**Versión preliminar: 24 de julio de 2025; versión de producción: por anunciar**
+
+Hemos actualizado el aspecto del cuadro Importar archivo de MS Project al importar un proyecto desde MS Project para que coincida con el diseño de otras áreas de Workfront.
+
+Para ver este cambio, vaya a Proyectos > Nuevo proyecto > Importar MS Project.
 
 ## Actualización de la interfaz del cuadro Agregar un gasto de un proyecto o plantilla
 
