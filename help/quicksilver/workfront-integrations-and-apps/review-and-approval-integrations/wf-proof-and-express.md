@@ -7,12 +7,10 @@ description: Introducción a las pruebas y Creative Cloud Express
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 recommendations: noDisplay, noCatalog
-hide: true
-hidefromtoc: true
 exl-id: 2eef36a6-8c61-4e7e-9760-23114f942250
-source-git-commit: ca9625b1cb3c51f208bad28792e9090802521dfa
+source-git-commit: dce2d9413b3a363d6508cabec0147c260817ed98
 workflow-type: tm+mt
-source-wordcount: '514'
+source-wordcount: '510'
 ht-degree: 7%
 
 ---
@@ -80,7 +78,7 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
 
 ## Configuración de flujos de trabajo de aprobación en Workfront
 
-Para que los usuarios puedan agregar un flujo de trabajo de aprobación en una plantilla Express, un administrador de Proof debe crear un flujo de trabajo de aprobación en Workfront.
+Para que los usuarios puedan agregar un flujo de trabajo de aprobación en una plantilla Express, un administrador de pruebas con una licencia Standard debe crear un flujo de trabajo de aprobación en Workfront.
 
 Para obtener más información, consulte [Crear y administrar plantillas de flujo de trabajo automatizado](/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/create-manage-automated-workflow-templates.md).
 
@@ -90,7 +88,9 @@ Después de crear una plantilla de flujo de trabajo de aprobación en Workfront,
 
 Cuando se remezcla una plantilla Express, se requiere una aprobación antes de la publicación, lo que activa automáticamente el flujo de trabajo de aprobación preconfigurado.
 
-Obtenga más información sobre cómo añadir flujos de trabajo de revisión y aprobación a plantillas compartibles. <!--need link to help article-->
+Los usuarios deben tener una licencia de Workfront estándar para solicitar la aprobación de Adobe Express.
+
+Aprenda a [obtener aprobación de diseños](https://helpx.adobe.com/express/web/share-and-publish/share-and-collaborate/request-approval.html).
 
 
 ## Combinar plantillas rápidas y enviar para su revisión y aprobación
@@ -104,8 +104,8 @@ A lo largo del proceso de producción, revisión y aprobación de contenido, los
 * Leer comentarios
 * y más
 
-Obtenga información sobre cómo obtener la aprobación de diseños.\
-<!--need link to help article-->
+<!--Learn how to get approval on designs.   
+need link to help article-->
 
 ## Revisar y aprobar el archivo Express remezclado
 
@@ -113,8 +113,4 @@ Las partes interesadas pueden proporcionar comentarios relevantes para su área 
 
 También son responsables de tomar las decisiones finales para aprobar el contenido y así poder publicarlo.
 
-Obtenga más información sobre cómo revisar y aprobar diseños en Workfront.
-
-
-Licencia de colaborador de Workfront - tratando de averiguar cómo trabajar esto en—
-
+Los usuarios deben tener al menos una licencia de Collaborator Workfront para revisar y tomar una decisión.
