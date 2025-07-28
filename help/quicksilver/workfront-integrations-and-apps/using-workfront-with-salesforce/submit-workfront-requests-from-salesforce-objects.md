@@ -6,14 +6,24 @@ description: Después de instalar  [!DNL Adobe Workfront]  para  [!DNL Salesforc
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 84f8cb15-4840-4fe1-bf60-93bc4283b564
-source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
+source-git-commit: f9af669b023309abc132421f35a2ece974e796b0
 workflow-type: tm+mt
-source-wordcount: '547'
-ht-degree: 95%
+source-wordcount: '632'
+ht-degree: 83%
 
 ---
 
 # Envío de solicitudes de [!DNL Adobe Workfront] desde objetos de [!DNL Salesforce]
+
+>[!IMPORTANT]
+>
+>Para ofrecer integraciones más estables y escalables, estamos adoptando un enfoque de integración moderno y flexible mediante la automatización e integración (Fusion) de Workfront. Como parte de este proceso de transición, la integración de Workfront para Salesforce no estará disponible después del **28 de febrero de 2026**.
+>
+>Recomendamos utilizar la automatización e integración de Workfront para las necesidades de integración de su organización con Salesforce.
+>
+>Para obtener una descripción general de la automatización e integración de Workfront, consulte [Información general de Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+>
+>Para obtener información sobre las capacidades específicas de los módulos de integración y automatización de Workfront para Salesforce, consulte [módulos de Salesforce](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/salesforce-modules).
 
 Después de instalar [!DNL Adobe Workfront for Salesforce], puede enviar solicitudes de [!DNL Workfront] desde Oportunidades y cuentas de [!DNL Salesforce]. Esta funcionalidad existe en los marcos de trabajo [!DNL Classic] y [!DNL Lightning Experience].
 

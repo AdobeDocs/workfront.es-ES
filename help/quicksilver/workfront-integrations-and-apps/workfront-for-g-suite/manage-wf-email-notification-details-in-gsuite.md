@@ -7,18 +7,28 @@ description: En Google Workspace, al abrir notificaciones por correo electrónic
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: d5ca31d8-3667-4405-a523-3dc248a94746
-source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
+source-git-commit: 58543982fef6e7ba2d05787dc023a2099e47bbc7
 workflow-type: tm+mt
-source-wordcount: '477'
-ht-degree: 95%
+source-wordcount: '576'
+ht-degree: 76%
 
 ---
 
 # Administrar detalles de notificación de [!DNL Adobe Workfront] de [!DNL Google Workspace]
 
->[!NOTE]
+>[!IMPORTANT]
 >
->La versión más reciente del complemento de Adobe Workfront para Google se publicó el 26 de junio de 2023.
+>Para ofrecer integraciones más estables y escalables, estamos adoptando un enfoque de integración moderno y flexible mediante la automatización e integración (Fusion) de Workfront. Como parte de este proceso de transición, la siguiente funcionalidad de Workfront para Google Workspace no estará disponible después del **28 de febrero de 2026**:
+>
+>* Acceso a la funcionalidad de Google Workspace desde Workfront
+>
+>* Visualización y administración de tareas de Workfront desde Gmail o el panel de sitio Calendario de Google
+>
+>Recomendamos utilizar la automatización e integración de Workfront para las necesidades de integración de su organización con Google Workspace.
+>
+>Para obtener una descripción general de la automatización e integración de Workfront, consulte [Información general de Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+>
+>Para obtener información sobre las capacidades específicas de los módulos de integración y automatización de Workfront para Google Workspace, consulte [Módulos de Gmail](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/gmail-modules) y [Módulos de Google Calendar](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/google-calendar-modules).
 
 En [!DNL Google Workspace], al abrir notificaciones por correo electrónico enviadas por [!DNL Adobe Workfront], es posible ver los detalles del elemento de trabajo asociado y responder sin salir de la [!UICONTROL bandeja de entrada]. Si hubiera acciones disponibles, como aprobar una solicitud, será posible realizar esas acciones directamente desde [!DNL Workfront for Google Workspace].
 

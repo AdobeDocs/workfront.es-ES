@@ -2,18 +2,30 @@
 product-area: workfront-integrations;setup
 navigation-topic: workfront-for-jira
 title: Ver el registro de actividades de Jira
-description: 'Como administrador, puede ver las excepciones y errores que ocurren durante la sincronización o la creación de los vales entre  [!DNL Adobe Workfront] y [!DNL Jira] en un registro de actividad. [!DNL Jira] '
+description: 'Como administrador, puede ver las excepciones y errores que ocurren durante la sincronización o la creación de los vales entre  [!DNL Jira] y [!DNL Adobe Workfront] en un registro de actividad. [!DNL Jira] '
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 3e66c8e3-94b7-4153-abbb-32b872b9402b
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: f9af669b023309abc132421f35a2ece974e796b0
 workflow-type: tm+mt
-source-wordcount: '307'
-ht-degree: 51%
+source-wordcount: '431'
+ht-degree: 36%
 
 ---
 
 # Ver el registro de actividad [!UICONTROL [!DNL Jira]]
+
+>[!IMPORTANT]
+>
+>Para ofrecer integraciones más estables y escalables, estamos adoptando un enfoque de integración moderno y flexible mediante la automatización e integración (Fusion) de Workfront. Como parte de este proceso de transición, la integración de Workfront para Jira no estará disponible después del **28 de febrero de 2026**.
+>
+>Recomendamos utilizar la automatización e integración de Workfront para las necesidades de integración de su organización con Jira.
+>
+>En agosto estarán disponibles ocho plantillas de integración y automatización de Workfront listas para usar para Jira, que ayudarán a replicar los flujos de trabajo comunes y acelerar la implementación. Las plantillas son totalmente personalizables para satisfacer necesidades comerciales específicas y se pueden ampliar a medida que evolucionan los requisitos.
+> 
+>Para obtener una descripción general de la automatización e integración de Workfront, consulte [Información general de Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+>
+>Para obtener información sobre las capacidades específicas de los módulos de integración y automatización de Workfront para Jira, consulte [Módulos de software de Jira](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/jira-software-modules).
 
 Como administrador de [!DNL Jira], puede ver las excepciones y errores que se producen durante la sincronización o la creación de los vales entre [!DNL Adobe Workfront] y [!DNL Jira] en un [!UICONTROL Registro de actividades].
 
@@ -58,7 +70,7 @@ Para poder vincular elementos entre [!DNL Workfront] y [!DNL Jira], debe
 
   Para obtener instrucciones sobre la instalación de [!DNL Workfront for Jira], consulte [Instalar [!DNL Adobe Workfront for Jira]](../../workfront-integrations-and-apps/use-workfront-with-jira/install-workfront-for-jira.md).
 
-## Acceder al registro de actividad [!UICONTROL [!DNL Jira] &#x200B;]:
+## Acceder al registro de actividad [!UICONTROL [!DNL Jira] ]:
 
 1. Inicie sesión en Jira como administrador del sistema.
 1. Haga clic en **[!UICONTROL Configuración]** en el menú principal de [!DNL Jira].

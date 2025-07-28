@@ -1,25 +1,35 @@
 ---
 product-area: workfront-integrations;projects
 navigation-topic: workfront-for-salesforce
-title: Crear  [!DNL Adobe Workfront] proyectos a partir de [!DNL Salesforce] objetos
-description: Después de instalar [!DNL Adobe Workfront] for Salesforce, puede definir déclencheur que creen [!DNL Workfront] proyectos cuando se cumplan ciertos criterios en [!DNL Salesforce] Oportunidades y cuentas.
+title: 'Crear proyectos de  [!DNL Adobe Workfront]  a partir de objetos de  [!DNL Salesforce] '
+description: Después de instalar [!DNL Adobe Workfront] for Salesforce, puede definir déclencheur que crean [!DNL Workfront] proyectos cuando se cumplan determinados criterios en [!DNL Salesforce] Oportunidades y cuentas.
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: b38c91ae-342b-4002-a947-7a0ab1aaca93
-source-git-commit: ad2fc27db2a19ea231e925d5991dbef27ea48030
+source-git-commit: f9af669b023309abc132421f35a2ece974e796b0
 workflow-type: tm+mt
-source-wordcount: '1496'
-ht-degree: 3%
+source-wordcount: '1581'
+ht-degree: 10%
 
 ---
 
 # Crear [!DNL Adobe Workfront] proyectos a partir de [!DNL Salesforce] objetos
 
+>[!IMPORTANT]
+>
+>Para ofrecer integraciones más estables y escalables, estamos adoptando un enfoque de integración moderno y flexible mediante la automatización e integración (Fusion) de Workfront. Como parte de este proceso de transición, la integración de Workfront para Salesforce no estará disponible después del **28 de febrero de 2026**.
+>
+>Recomendamos utilizar la automatización e integración de Workfront para las necesidades de integración de su organización con Salesforce.
+>
+>Para obtener una descripción general de la automatización e integración de Workfront, consulte [Información general de Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+>
+>Para obtener información sobre las capacidades específicas de los módulos de integración y automatización de Workfront para Salesforce, consulte [módulos de Salesforce](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/salesforce-modules).
+
 Después de instalar [!DNL Adobe Workfront] para Salesforce, puede definir déclencheur que creen [!DNL Workfront] proyectos cuando se cumplan ciertos criterios en [!DNL Salesforce] [!UICONTROL Oportunidades] y [!UICONTROL Cuentas].
 
 ## Requisitos de acceso
 
-Debe tener el siguiente acceso para utilizar la funcionalidad descrita en este artículo:
+Debe tener el siguiente acceso para utilizar la funcionalidad que se describe en este artículo:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -36,7 +46,7 @@ Debe tener el siguiente acceso para utilizar la funcionalidad descrita en este a
  </tbody> 
 </table>
 
-&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de [!DNL Workfront].
+&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con la persona con la función de administrador de [!DNL Workfront].
 
 ## Requisitos previos
 
@@ -44,11 +54,11 @@ Para enviar una solicitud [!DNL Workfront] desde una [!DNL Salesforce] [!UICONTR
 asegúrese de que dispone de lo siguiente en su entorno:
 
 * El administrador de [!DNL Workfront] ha instalado [!DNL Workfront for Salesforce].\
-   Para obtener más información acerca de la instalación de [!DNL Workfront for Salesforce], vea [Instalar [!DNL Adobe Workfront for Salesforce]](../../workfront-integrations-and-apps/using-workfront-with-salesforce/install-workfront-for-salesforce.md)
+   Para obtener más información sobre la instalación de [!DNL Workfront for Salesforce], consulte [Instalar  [!DNL Adobe Workfront for Salesforce]](../../workfront-integrations-and-apps/using-workfront-with-salesforce/install-workfront-for-salesforce.md)
 
 * El administrador de [!DNL Workfront] ha agregado la sección [!DNL Workfront] a su [!UICONTROL oportunidad] y cuenta
 diseños de página.\
-   Para obtener más información sobre cómo agregar la sección [!DNL Workfront] a un diseño de página, consulte [Configurar la sección  [!DNL Adobe Workfront] para [!DNL Salesforce] usuarios](../../workfront-integrations-and-apps/using-workfront-with-salesforce/configure-wf-section-for-salesforce-users.md).
+   Para obtener más información sobre cómo añadir la sección [!DNL Workfront] a un diseño de página, consulte [Configurar la sección  [!DNL Adobe Workfront]  para los usuarios de  [!DNL Salesforce] ](../../workfront-integrations-and-apps/using-workfront-with-salesforce/configure-wf-section-for-salesforce-users.md).
 
 * Tiene una cuenta de [!DNL Workfront] y puede iniciar sesión en ella desde la sección [!DNL Workfront] dentro de su [!UICONTROL oportunidad] o cuenta
 .
@@ -68,14 +78,14 @@ Como administrador del sistema de [!DNL Salesforce], puede definir déclencheur 
 se ha actualizado.
 
 Los déclencheur solo se pueden configurar después de instalar [!DNL Workfront for Salesforce].  \
-Para obtener información acerca de la instalación de [!DNL Workfront for Salesforce], vea [Instalar [!DNL Adobe Workfront for Salesforce]](../../workfront-integrations-and-apps/using-workfront-with-salesforce/install-workfront-for-salesforce.md).
+Para obtener información acerca de la instalación de [!DNL Workfront for Salesforce], consulte [Instalar [!DNL Adobe Workfront for Salesforce]](../../workfront-integrations-and-apps/using-workfront-with-salesforce/install-workfront-for-salesforce.md).
 
 Tenga en cuenta lo siguiente al configurar déclencheur para crear automáticamente [!DNL Workfront] proyectos cuando se creen o actualicen [!DNL Salesforce] elementos:
 
 * Debe ser administrador de sistema de [!DNL Salesforce] y de [!DNL Workfront] para configurar las déclencheur.
 * Después de configurar las déclencheur, cualquier persona que actualice la [!UICONTROL fase] de una [!UICONTROL oportunidad] o el [!UICONTROL tipo] de una cuenta
 puede almacenar en déclencheur la creación de un proyecto [!DNL Workfront]. Esto incluye a [!DNL Salesforce] usuarios que no tienen una cuenta de [!DNL Workfront].
-* No hay límite en cuanto a la cantidad de déclencheur que puede tener.
+* No hay límite en cuanto a la cantidad de activadores que puede tener.
 * No se pueden crear varios déclencheur basados en las mismas condiciones. Los déclencheur son únicos de forma predeterminada.
 * Una vez creado el proyecto, se vincula automáticamente a la oportunidad o a la cuenta en la que se generó. Una vez establecido, este vínculo no se puede romper.
 * Se puede vincular una oportunidad o cuenta a varios proyectos en [!DNL Workfront] si se ha cumplido varias veces una condición desencadenada en la duración de la oportunidad o de la cuenta.
@@ -120,7 +130,7 @@ Para configurar déclencheur en [!UICONTROL Salesforce]:
 
       Cuando una oportunidad llega a la [!UICONTROL fase] especificada aquí, se crea un proyecto en [!DNL Workfront]. Este campo es obligatorio.
 
-   1. En el campo **[!UICONTROL Portfolio o Programa]**, empiece a escribir el nombre de un Portfolio o Programa donde desee colocar el proyecto en [!DNL Workfront] y, a continuación, selecciónelo cuando aparezca en la lista.\
+   1. En el campo **[!UICONTROL Portfolio o Programa]**, empiece a escribir el nombre de un Portfolio o Programa en el que desee colocar el proyecto en [!DNL Workfront] y, a continuación, selecciónelo cuando aparezca en la lista.\
 
       Si no especifica un Portfolio o un programa, se creará el nuevo proyecto y se agregará a la lista [!UICONTROL Proyectos de mi propiedad] del usuario que inició sesión en [!DNL Workfront] al configurar las déclencheur. Ese usuario también es el propietario del proyecto nuevo.
 
@@ -158,11 +168,11 @@ Para configurar déclencheur en [!UICONTROL Salesforce]:
    1. Seleccione un **[!UICONTROL Tipo]** del menú desplegable **[!UICONTROL Tipo]**.
 
       Cuando cualquier **Cuenta
-**&#x200B; se designa como &#x200B;** [!UICONTROL Tipo] **&#x200B; especificado aquí en [!DNL Salesforce], se crea un &#x200B;** [!UICONTROL Proyecto]** en [!DNL Workfront].
+** se designa como **[!UICONTROL Tipo]** especificado aquí en [!DNL Salesforce], se crea un **[!UICONTROL Proyecto]** en [!DNL Workfront].
 
       Este campo es obligatorio.
 
-   1. (Opcional) Empiece a escribir el nombre de un **[!UICONTROL Portfolio]** o de un **[!UICONTROL programa]** en el que desee colocar el proyecto en [!DNL Workfront] en el campo **[!UICONTROL Portfolio o Programa]** y, a continuación, selecciónelo cuando aparezca en la lista.
+   1. (Opcional) Empiece a escribir el nombre de un **[!UICONTROL Portfolio]** o **[!UICONTROL Programa]** en el que desee colocar el proyecto en [!DNL Workfront] en el campo **[!UICONTROL Portfolio o Programa]** y, a continuación, selecciónelo cuando aparezca en la lista.
 
       Si no especifica un Portfolio o un programa, el nuevo proyecto se creará y se agregará a la lista **[!UICONTROL Proyectos de mi propiedad]** del usuario que inició sesión en [!DNL Workfront] desde [!DNL Salesforce]. El usuario también es el propietario del proyecto para el nuevo proyecto.
 

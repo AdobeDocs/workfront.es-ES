@@ -8,10 +8,10 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 6adb4146-42fd-4eda-b46f-c61d7ff71df6
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: 1c11be2d6de471bf456107b5c86a599766583f74
 workflow-type: tm+mt
-source-wordcount: '1527'
-ht-degree: 3%
+source-wordcount: '1523'
+ht-degree: 6%
 
 ---
 
@@ -66,14 +66,14 @@ En cada entrada de registro de auditoría se registran los campos siguientes:
 
 * [Nivel de acceso](#access-level)
 * [Reglas empresariales](#business-rules)
-* [Empresa](#company)
+* [Compañía](#company)
 * [Condición](#condition)
 * [Campo personalizado](#custom-field)
 * [Formulario personalizado](#custom-forms)
 * [Sección personalizada](#custom-section)
 * [Tasa de cambio](#exchange-rate)
 * [Grupo](#group)
-* [Roles](#job-roles)
+* [Funciones](#job-roles)
 * [Intento de inicio de sesión](#login-attempt)
 * [Prioridad](#priority)
 * [Preferencia del proyecto](#project-preference)
@@ -91,7 +91,7 @@ El sistema genera una entrada de registro de nivel de acceso cuando un usuario r
 * Cambia un nivel de acceso:
 
    * Modifica el tipo de licencia
-   * Cambia los permisos a Proyectos, Tareas, Problemas, Portfolio, Programas, Informes, Documentos, Usuarios o Plantillas
+   * Cambia los permisos a Proyectos, Tareas, Problemas, Portafolios, Programas, Informes, Documentos, Usuarios o Plantillas
 
      >[!NOTE]
      >
@@ -101,7 +101,7 @@ El sistema genera una entrada de registro de nivel de acceso cuando un usuario r
 
 ### Reglas empresariales
 
-Las reglas de negocio solo están disponibles para los clientes que han adquirido un plan Ultimate Workfront. Para obtener más información, consulte [Crear y editar reglas de negocio](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/business-rules.md).
+Las reglas de negocio solo están disponibles para los clientes que han adquirido un plan Ultimate Workfront. Para obtener más información, consulte [Crear y editar reglas empresariales](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/business-rules.md).
 
 El sistema genera una entrada de registro de auditoría de regla de negocio cuando un usuario realiza una de las siguientes acciones:
 
@@ -210,7 +210,7 @@ El sistema genera una entrada de registro de auditoría de sección personalizad
 
 Para obtener información acerca de las secciones personalizadas de los formularios personalizados, consulte [Crear un formulario personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
-### tarifa de cambio {#exchange-rate}
+### Tarifa de cambio {#exchange-rate}
 
 El sistema genera una entrada de registro de auditoría de tasa de cambio cuando un usuario realiza una de las siguientes acciones:
 
@@ -257,7 +257,7 @@ Para obtener más información acerca de cómo configurar los roles, consulte [C
 El sistema genera una entrada de registro de auditoría de intento de inicio de sesión cuando un usuario realiza una de las siguientes acciones:
 
 * Inicia sesión, cierra la sesión o falla al intentar iniciar sesión en Workfront (en un explorador y en la aplicación móvil)
-* Inicia sesión, cierra la sesión o falla al intentar iniciar sesión en cualquier integración de Workfront (como Workfront para Slack y Workfront para Salesforce)
+* Inicia sesión, cierra la sesión o falla en un intento de inicio de sesión en cualquier integración de Workfront (como Workfront para Slack)
 * Inicia sesión o cierra sesión en la API de Workfront
 
 Inicio de sesión Los registros de intentos no registran cuándo un administrador de Workfront utiliza la función Iniciar sesión como.
@@ -297,7 +297,7 @@ El sistema genera una entrada de registro de auditoría Preferencias del proyect
 
 * Elimina un trimestre personalizado
 
-Para obtener más información acerca de las preferencias del proyecto, vea [Configurar las preferencias de proyecto de todo el sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+Para obtener más información acerca de las preferencias de proyecto, consulte [Configurar las preferencias de proyecto de todo el sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
 ### Gravedad {#severity}
 

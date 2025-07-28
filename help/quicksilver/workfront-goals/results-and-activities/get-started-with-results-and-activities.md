@@ -7,7 +7,7 @@ description: Debe agregar resultados, actividades o metas alineadas a una meta p
 author: Alina
 feature: Workfront Goals
 exl-id: 64fa0aef-cb92-465a-9b74-d863fc232fd1
-source-git-commit: 4e1558b47f6041501aa4e4fbfa6317dec8aee571
+source-git-commit: 1c11be2d6de471bf456107b5c86a599766583f74
 workflow-type: tm+mt
 source-wordcount: '855'
 ht-degree: 22%
@@ -67,10 +67,6 @@ Tenga en cuenta lo siguiente al trabajar con resultados:
 
 * Responden a la pregunta: &quot;¿Cómo sabré cuando mi objetivo esté completo?&quot;
 * Son indicadores de métricas. Puede seleccionar las siguientes opciones para indicar un progreso para el resultado:
-
-  <!--
-  this might change (jira, Salesforce, etc))
-  -->
 
    * Divisa
    * Número

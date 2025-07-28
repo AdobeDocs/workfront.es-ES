@@ -5,10 +5,10 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 298473d4-7d7d-4401-80bf-899a01f570a6
-source-git-commit: 0d344f637ef5f70ec76a2927230eba81b0ba7c55
+source-git-commit: 1c11be2d6de471bf456107b5c86a599766583f74
 workflow-type: tm+mt
-source-wordcount: '712'
-ht-degree: 38%
+source-wordcount: '791'
+ht-degree: 35%
 
 ---
 
@@ -109,7 +109,7 @@ Estamos actualizando la interfaz a través de Adobe Workfront para mejorar la ex
 
 ### Mejoras de Workfront Fusion
 
-Las nuevas funciones de Workfront Fusion están disponibles en el entorno de producción en una cadencia fuera de la programación de versiones estándar. Para obtener más información sobre las últimas funciones, consulte [Actividad de la versión de Adobe Workfront Fusion](https://experienceleague.adobe.com/es/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
+Las nuevas funciones de Workfront Fusion están disponibles en el entorno de producción en una cadencia fuera de la programación de versiones estándar. Para obtener más información sobre las últimas funciones, consulte [Actividad de la versión de Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
 
 ### Mejoras de Workfront Planning
 
@@ -136,6 +136,17 @@ La integración actualizada de Workfront ya está disponible y es totalmente com
 * **Después de que Microsoft deshabilite completamente estos tokens, la integración de Workfront para Microsoft Outlook dejará de funcionar.**
 
 Como parte de este cambio, Microsoft ha tomado la decisión de cambiar la forma en que se vuelven a habilitar los tokens. Después del **30 de junio de 2025**, los administradores ya no podrán volver a habilitar los tokens, solo el soporte de Microsoft puede conceder excepciones. **El 1 de octubre de 2025, los tokens heredados se desactivarán para todos los inquilinos. No se concederán excepciones.**
+
+### Otras transiciones de integración de Workfront
+
+Para ofrecer integraciones más estables y escalables, estamos adoptando un enfoque de integración moderno y flexible mediante la automatización e integración (Fusion) de Workfront. Como parte de este proceso de transición, las siguientes integraciones no estarán disponibles después del **28 de febrero de 2026**:
+
+* Workfront para G Suite
+* Workfront para Jira
+* Workfront para Salesforce.
+
+Recomendamos utilizar la automatización e integración de Workfront para las necesidades de integración de su organización con Google Workspace.
+Para obtener una descripción general de la automatización e integración de Workfront, consulte [Información general de Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 
 ### Versión 20 de la API
 

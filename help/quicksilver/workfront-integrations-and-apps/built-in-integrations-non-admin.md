@@ -1,16 +1,16 @@
 ---
 product-area: workfront-integrations
-keywords: adobe,box,dropbox,gsuite,google,jira,microsoft,salesforce,sharepoint,slack,webdam,zoom
+keywords: adobe,box,dropbox,microsoft,sharepoint,slack,webdam,zoom
 navigation-topic: workfront-integrations-navigation-topic
 title: Información general sobre las integraciones integradas de Adobe Workfront
 description: Puede integrar [!DNL Adobe Workfront] con aplicaciones de terceros. Estas integraciones pueden ampliar la utilidad de [!DNL Workfront] y adaptarla a las necesidades de su organización. Por ejemplo, si es un trabajador creativo del sector del marketing, puede utilizar el complemento de Adobe Creative Cloud para exportar recursos directamente de Photoshop a Workfront.
 feature: Workfront Integrations and Apps
 author: Becky
 exl-id: ca51cb23-9332-4ce5-aefb-f333455cfc7c
-source-git-commit: af54faae1e78d7ffbe679fd82dfb5a3abd45f5cf
+source-git-commit: 1c11be2d6de471bf456107b5c86a599766583f74
 workflow-type: tm+mt
-source-wordcount: '489'
-ht-degree: 77%
+source-wordcount: '433'
+ht-degree: 73%
 
 ---
 
@@ -44,7 +44,7 @@ Actualmente, las integraciones integradas disponibles en Workfront son las sigui
      <li>After Effects </li>
      </ul>
      <li><p>Descargar/instalar desde <a href="https://exchange.adobe.com/apps/browse/cc?page=1&amp;product=All&amp;q=workfront&amp;sort=RELEVANCE" class="MCXref xref">Adobe Exchange</a>.</p></li></ul>
-     <p>Para obtener información e instrucciones, consulte <a href="https://experienceleague.adobe.com/es/docs/workfront/using/adobe-workfront-integrations/workfront-for-creative-cloud/install-wf-cc/wf-cc-install-toc" class="MCXref xref">Instalar el complemento de [!DNL Adobe Workfront] para aplicaciones de [!DNL Creative Cloud]</a>.</p> </td> 
+     <p>Para obtener información e instrucciones, consulte <a href="https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-integrations/workfront-for-creative-cloud/install-wf-cc/wf-cc-install-toc" class="MCXref xref">Instalar el complemento de [!DNL Adobe Workfront] para aplicaciones de [!DNL Creative Cloud]</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Adobe Experience Manager Assets y Assets Essentials </p>  </p> </td> 
@@ -72,27 +72,10 @@ Actualmente, las integraciones integradas disponibles en Workfront son las sigui
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>G Suite</p> <p> <img src="assets/gsuite.png" style="max-width: 80px;"> </p> </td> 
-   <td> 
-    <ul> 
-     <li>Añadir un correo electrónico de Google Workspace a un proyecto o tarea </li> 
-     <li>Ver y administrar notificaciones de [!DNL Workfront] en Gmail</li> 
-     <li>Enviar solicitudes mediante Gmail </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
    <td role="rowheader"> <p>Google Drive</p> <p> <img src="assets/google-drive-logo.png"> </p> </td> 
    <td> 
     <ul> 
      <li>Vincular documentos y carpetas a [!DNL Workfront]</li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"> <p>Jira</p> <p> <img src="assets/jiralogo.png" style="max-width: 80px;"> </p> </td> 
-   <td> 
-    <ul> 
-     <li>Crear nuevos tickets en [!DNL Jira] basados en tareas y problemas de [!DNL Workfront]</li> 
-     <li>Sincronizar actualizaciones y estados de tareas vinculadas entre [!DNL Workfront] y [!DNL Jira] </li> 
     </ul> </td> 
   </tr> 
   <!--<tr> 
@@ -128,21 +111,6 @@ Actualmente, las integraciones integradas disponibles en Workfront son las sigui
      <li>Busque proyectos, tareas y problemas de [!DNL Workfront] </li> 
      <li>Crear tareas personales de [!DNL Workfront] </li> 
      <li>Enviar solicitudes de [!DNL Workfront] </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"> <p>Salesforce</p> <p> <img src="assets/salesforce-logo-web-2019.png" style="max-width: 80px;"> </p> </td> 
-   <td> 
-    <ul> 
-     <li>Crear nuevas solicitudes de [!DNL Workfront] desde [!DNL Salesforce] </li> 
-     <li>Crear proyectos de [!DNL Workfront] desde [!DNL Salesforce]</li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"> <p>SharePoint</p> <p> <img src="assets/sharepoint.png"> </p> </td> 
-   <td> 
-    <ul> 
-     <li>Vincular documentos y carpetas a [!DNL Workfront]</li> 
     </ul> </td> 
   </tr> 
   <tr> 

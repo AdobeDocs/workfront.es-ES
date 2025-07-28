@@ -9,10 +9,10 @@ author: Becky
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: 50aca40a-f971-42f2-b20f-fa4fff22335e
-source-git-commit: af54faae1e78d7ffbe679fd82dfb5a3abd45f5cf
+source-git-commit: 1c11be2d6de471bf456107b5c86a599766583f74
 workflow-type: tm+mt
-source-wordcount: '1292'
-ht-degree: 78%
+source-wordcount: '1151'
+ht-degree: 76%
 
 ---
 
@@ -46,7 +46,7 @@ Para empezar a usar integraciones integradas (nativas), siga el siguiente flujo 
 
 1. **Identifique a su administrador de tecnología**
 
-   Identifique al administrador de tecnología de su organización para la aplicación que desea integrar con [!DNL Workfront]. Por ejemplo, si elige integrar con [!DNL Jira], debe ponerte en contacto con el administrador de [!DNL Jira] de su empresa e involucrarlo en cualquier necesidad de configuración dentro de su plataforma. También debería involucrar a este administrador en cualquier conversación con Asistencia al cliente de [!DNL Workfront].
+   Identifique al administrador de tecnología de su organización para la aplicación que desea integrar con [!DNL Workfront]. Por ejemplo, si elige integrar con [!DNL Slack], debe ponerte en contacto con el administrador de [!DNL Slack] de su empresa e involucrarlo en cualquier necesidad de configuración dentro de su plataforma. También debería involucrar a este administrador en cualquier conversación con Asistencia al cliente de [!DNL Workfront].
 
    Para que el administrador comience, debe proporcionarles las instrucciones específicas para esa integración. Para obtener vínculos a estas instrucciones, consulte [Integraciones disponibles sin coste adicional](#integrations-available-at-no-additional-cost).
 
@@ -113,7 +113,7 @@ Entendemos que las integraciones integradas (nativas) disponibles podrían no sa
      <li>After Effects </li>
      </ul>
      <li><p>Descargar/instalar desde <a href="https://exchange.adobe.com/apps/browse/cc?page=1&amp;product=All&amp;q=workfront&amp;sort=RELEVANCE" class="MCXref xref">Adobe Exchange</a>.</p></li></ul>
-     <p>Para obtener información e instrucciones, consulte <a href="https://experienceleague.adobe.com/es/docs/workfront/using/adobe-workfront-integrations/workfront-for-creative-cloud/install-wf-cc/wf-cc-install-toc" class="MCXref xref">Instalar el complemento [!DNL Adobe Workfront] para [!DNL Creative Cloud] Aplicaciones</a></p> 
+     <p>Para obtener información e instrucciones, consulte <a href="https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-integrations/workfront-for-creative-cloud/install-wf-cc/wf-cc-install-toc" class="MCXref xref">Instalar el complemento [!DNL Adobe Workfront] para [!DNL Creative Cloud] Aplicaciones</a></p> 
      </td>  <td> </td> 
    <td> </td> 
   </tr> 
@@ -148,27 +148,6 @@ Entendemos que las integraciones integradas (nativas) disponibles podrían no sa
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <p>[!DNL Google Workspace]</p> <p> <img src="assets/gsuite.png" style="max-width: 80px;"> </p> </td> 
-   <td> 
-    <ul> 
-     <li>Añadir un correo electrónico de [!DNL Google Workspace] a un proyecto o tarea </li> 
-     <li>Ver y administrar [!DNL Workfront] notificaciones en [!DNL Gmail]</li> 
-     <li>Enviar solicitudes por medio de [!DNL Gmail] </li> 
-    </ul> <p>Para obtener más información, consulte <a href="../../workfront-integrations-and-apps/workfront-for-g-suite/workfront-for-gsuite.md" class="MCXref xref">[!DNL Adobe Workfront for Google Workspace]</a>.</p> </td> 
-   <td> 
-    <ul> 
-     <li>[!DNL Google Workspace] los usuarios deben tener una licencia de [!DNL Workfront] </li> 
-     <li>[!DNL Workfront] los permisos para ver y compartir trabajo deben establecerse por nivel de acceso </li> 
-     <li> El usuario debe tener una cuenta de correo electrónico habilitada para POP </li> 
-     <li>[!DNL Workfront] la configuración de solicitudes debe incluir la configuración POP </li> 
-    </ul> </td> 
-   <td> 
-    <ul> 
-     <li>[!DNL Google Workspace] administrador</li> 
-     <li>[!DNL Workfront] administrador </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
    <td> <p>[!DNL Google Drive]</p> <p> <img src="assets/google-drive-logo.png"> </p> </td> 
    <td> 
     <ul> 
@@ -176,24 +155,6 @@ Entendemos que las integraciones integradas (nativas) disponibles podrían no sa
     </ul> <p>Para obtener más información, consulte <a href="../../administration-and-setup/configure-integrations/configure-document-integrations.md" class="MCXref xref">Configurar integraciones de documentos</a>.</p> </td> 
    <td> </td> 
    <td> </td> 
-  </tr> 
-  <tr> 
-   <td> <p>[!DNL Jira]</p> <p> <img src="assets/jiralogo.png" style="max-width: 80px;"> </p> </td> 
-   <td> 
-    <ul> 
-     <li>Crear nuevos tickets en [!DNL Jira] basados en tareas y problemas en [!DNL Workfront]</li> 
-     <li>Sincronizar actualizaciones y estados de tareas vinculadas entre Workfront y [!DNL Jira] </li> 
-     <li>Funciona en [!DNL Jira Server] y [!DNL Jira Cloud] </li> 
-    </ul> <p>Para obtener más información, consulte <a href="../../workfront-integrations-and-apps/use-workfront-with-jira/workfront-for-jira.md" class="MCXref xref">[!DNL Adobe Workfront for Jira]</a>.</p> </td> 
-   <td> 
-    <ul> 
-     <li><p>Nuevo plan de Workfront: plan [!UICONTROL Select] [!DNL Workfront] o superior</p><p>Plan Workfront actual: plan [!UICONTROL Pro] [!DNL Workfront] o superior</p> </li> 
-    </ul> </td> 
-   <td> 
-    <ul> 
-     <li> Instalación realizada únicamente por un administrador de [!DNL Jira]</li> 
-     <li>Los administradores que no pertenecen a [!DNL Jira] deben solicitar acceso y se les debe otorgar desde el administrador de [!DNL Jira]</li> 
-    </ul> </td> 
   </tr> 
   <!--<tr> 
    <td>[!DNL Microsoft] Calendars ([!DNL Office 365] / [!DNL Outlook Live])</td> 
@@ -255,23 +216,6 @@ Entendemos que las integraciones integradas (nativas) disponibles podrían no sa
     </ul> </td> 
   </tr> 
   <tr> 
-   <td> <p>[!DNL Salesforce]</p> <p> <img src="assets/salesforce-logo-web-2019.png" style="max-width: 80px;"> </p> </td> 
-   <td> 
-    <ul> 
-     <li>Crear nuevas solicitudes de [!DNL Workfront] a partir de [!DNL Salesforce] </li> 
-     <li>Crear proyectos de [!DNL Workfront] desde [!DNL Salesforce]</li> 
-    </ul> <p>Para obtener más información, consulte <a href="../../workfront-integrations-and-apps/using-workfront-with-salesforce/workfront-for-salesforce.md" class="MCXref xref">[!DNL Adobe Workfront for Salesforce]</a>.</p> </td> 
-   <td> 
-    <ul> 
-     <li><p>Nuevo plan de Workfront: plan [!UICONTROL Select] [!DNL Workfront] o superior</p><p>Plan Workfront actual: [!UICONTROL Pro] [!DNL Workfront] Plan o superior</p> </li> 
-    </ul> </td> 
-   <td> 
-    <ul> 
-     <li>[!DNL Salesforce] administrador</li> 
-     <li>[!DNL Workfront] administrador</li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
    <td> <p>[!DNL SharePoint]</p> <p> <img src="assets/sharepoint.png"> </p> </td> 
    <td> 
     <ul> 
@@ -320,7 +264,7 @@ Entendemos que las integraciones integradas (nativas) disponibles podrían no sa
 
   [!DNL Adobe Workfront Fusion] vincula acciones dentro y entre aplicaciones y servicios para crear un escenario que transfiera y transforme tus datos automáticamente. Tiene conectores dedicados a muchas aplicaciones, pero puede conectarse a cualquier aplicación con una API pública.
 
-  Para obtener más información, consulte [[!DNL Adobe Workfront Fusion] descripción general](https://experienceleague.adobe.com/es/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+  Para obtener más información, consulte [[!DNL Adobe Workfront Fusion] descripción general](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 
 * [!DNL Adobe Experience Manager Assets]
 * [!DNL Anaplan] (Requiere [!DNL Workfront Fusion])
