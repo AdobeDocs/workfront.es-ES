@@ -1,31 +1,47 @@
 ---
 product-area: templates
 navigation-topic: templates-navigation-topic
-title: Editar plantillas del proyecto
-description: Puede editar las plantillas del proyecto para reflejar los cambios en los procesos y la configuración del proyecto.
+title: Editar plantillas de proyecto
+description: Puede editar las plantillas de proyecto para reflejar los cambios en los procesos y la configuración de futuros proyectos. Puede editar una plantilla a la vez o puede editar varias plantillas de forma masiva.
 author: Alina
 feature: Work Management
 exl-id: da0fca31-6a50-4862-ad9a-a453ef968773
-source-git-commit: 05512c4cfdc094e90abea471b5356337955119be
+source-git-commit: f4ea19368b664d0b3a47f93c70fd489685791538
 workflow-type: tm+mt
-source-wordcount: '4870'
-ht-degree: 94%
+source-wordcount: '5045'
+ht-degree: 89%
 
 ---
 
 # Editar plantillas del proyecto
 
-<!-- Audited: 2/2024 -->
+<!-- Audited: 7/2025 -->
 
 <!--The Resource Pools part also duplicates in the "Working with Resource Pools" article-->
 
-Puede editar las plantillas del proyecto para reflejar los cambios en los procesos y la configuración del proyecto. Después de actualizar y guardar los cambios en una plantilla, los nuevos cambios serán visibles en los nuevos proyectos cuando los proyectos se creen con la plantilla. Los cambios que realice en la plantilla no se reflejarán en el proyecto que esté utilizando esa plantilla.
+<!--
+<div class="preview"> 
+
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release.      
+
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
+
+</div> 
+
+-->
+
+
+Puede editar las plantillas de proyecto para reflejar los cambios en los procesos y la configuración de futuros proyectos.
+
+Después de actualizar y guardar los cambios en una plantilla, los nuevos cambios serán visibles en los nuevos proyectos cuando los proyectos se creen con la plantilla.
+
+Los cambios que realice en la plantilla no se reflejarán en los proyectos que estén utilizando esa plantilla en ese momento.
+
+Puede editar las plantillas de una en una o editarlas de forma masiva.
 
 ## Requisitos de acceso
 
-+++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
-
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
++++ Amplíe para ver los requisitos de acceso.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -36,7 +52,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
    <td> <p>Cualquiera </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licencias de Adobe Workfront</td> 
+   <td role="rowheader">Licencias de Adobe Workfront*</td> 
    <td>
       <p>Nuevo: estándar</p>
       <p>O</p>
@@ -58,11 +74,681 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  </tbody> 
 </table>
 
-Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Editar una plantilla {#edit-a-template}
+
+1. Vaya a la plantilla que desea editar.
+1. (Condicional) Para editar información limitada sobre la plantilla, haga clic en **Detalles de la plantilla** en el panel izquierdo y, a continuación, vaya a las áreas que aparecen en el panel izquierdo para editar la información de cada área.
+1. Para editar información en la sección Detalles, haga clic en el icono **Editar** ![Editar icono](assets/edit-icon.png), luego seleccione una de las áreas siguientes o haga clic en **Editar todo** para editar información en todas las áreas:
+
+   * Información general
+   * Formularios personalizados
+
+   Los nombres de los formularios personalizados solo se muestran si hay formularios personalizados adjuntos al objeto.
+
+   * Finanzas
+
+   >[!TIP]
+   >
+   >Para obtener información sobre todos los campos que se muestran en el área de Detalles, continúe editando todos los campos con el cuadro Editar plantilla que aparece a continuación.
+
+1. (Condicional) Para editar toda la información acerca de la plantilla, haga clic en el **Más** menú ![Icono de más](assets/qs-more-icon-on-an-object.png) junto al nombre de la plantilla y, a continuación, haga clic en **Editar**.
+
+   Se abre el cuadro **Editar plantilla**. Las secciones de este cuadro contienen los campos disponibles en la sección Detalles de la plantilla, así como campos adicionales.
+
+1. Considere la posibilidad de editar la información en cualquiera de las siguientes secciones:
+
+   * [Nombre de la plantilla](#template-name)
+   * [Información general](#overview-preview)
+   * [Finanzas](#finance-preview)
+   * [Formularios personalizados](#custom-forms-preview)
+   * [Configuración de plantilla](#template-settings)
+   * [Configuración de tareas](#task-settings)
+   * [Configuración del problema](#issue-settings)
+   * [Acceso](#access-preview)
+   * [Comentario](#comment)
+   <!--* [Linked folders](#linked-folders-conditional-availability) -->
+
+
+### Nombre de plantilla{#template-name}
+
+1. Empiece a editar la plantilla tal como se ha descrito anteriormente.
+1. En el cuadro **Editar plantilla**, haga clic en **Nombre de la plantilla**.
+1. Actualice o reemplace el nombre de la plantilla.
+1. (Opcional) Siga editando las secciones siguientes, según la información que desee modificar
+
+   O
+
+   Haga clic en **Guardar**.
+
+### Información general {#overview-preview}
+
+1. Empiece a editar la plantilla tal como se ha descrito anteriormente.
+1. En el cuadro **Editar plantilla**, haga clic en **Información general**.
+
+   ![Editar cuadro de plantilla Sección de información general](assets/edit-template-box-overview-section.png)
+
+1. Actualice los campos siguientes:
+
+   <table style="table-layout:auto"> 
+       <col> 
+       <col> 
+       <tbody> 
+         <tr> 
+         <td role="rowheader"><strong>Descripción</strong></td> 
+         <td>Añada información adicional sobre la plantilla.</td> 
+       </tr> 
+         <tr> 
+         <td role="rowheader"><strong>Prioridad</strong></td> 
+         <td><p>Es tan solo un indicador visual que le permite priorizar sus proyectos futuros. Seleccione entre las siguientes opciones:</p> 
+         <ul> 
+         <li><p><strong>Ninguno</strong></p></li> 
+         <li><p><strong>Bajo</strong></p></li> 
+         <li><p><strong>Normal</strong></p></li> 
+         <li><p><strong>Alto</strong></p></li> 
+         <li><p><strong>Urgente</strong></p></li> 
+         </ul><p><p>Según las Preferencias del proyecto seleccionadas por el administrador de Workfront, los nombres de las prioridades pueden ser diferentes para usted. Para obtener más información sobre cómo editar prioridades, consulte <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md" class="MCXref xref">Crear y personalizar prioridades</a>.</p></p></td> 
+       </tr> 
+       <tr> 
+       <td role="rowheader"><strong>URL</strong></td> 
+         <td>Especifique un vínculo web relacionado con la información sobre esta plantilla.</td> 
+       </tr>
+<tr> 
+      <td role="rowheader"><strong>Activo</strong></td> 
+      <td><p>Active esta opción si desea que la plantilla esté activa. Otros usuarios pueden encontrar esta plantilla y adjuntarla a proyectos al crearlos. Desactive la opción si desea desactivar las plantillas que ya no se utilizan. Las plantillas desactivadas no se pueden adjuntar a los proyectos. Esta opción está activada de forma predeterminada. </p><p><b>Sugerencia</b></p>
+
+<p>Puede desactivar una plantilla desde el encabezado de la plantilla tal como se describe en la sección "Activar o desactivar una plantilla" de este artículo.</p></td> 
+     </tr>
+
+<tr> 
+<td role="rowheader"><strong>Tipo de condición</strong></td> 
+   <td><p>Seleccione entre los siguientes tipos de condición:</p> 
+   <ul> 
+   <li><strong>Manual:</strong> el propietario del proyecto establece manualmente la condición del proyecto en el proyecto. <strong></strong></li> 
+   <li><strong>Estado del progreso:</strong> Workfront establece automáticamente la condición del proyecto futuro en función del estado del progreso de las tareas en la ruta crítica. Para obtener más información sobre el significado del estado de progreso, consulte <a href="../../../manage-work/tasks/task-information/task-progress-status.md" class="MCXref xref">Información general sobre el estado de progreso de la tarea</a>.</li> 
+   </ul>
+   </td> 
+   </tr> 
+   <tr> 
+   <td role="rowheader"><strong>Modo de programación</strong></td> 
+   <td><p>Especifique si el proyecto que usa esta plantilla está programado a partir de la <strong>fecha de inicio</strong> o a partir de la <strong>fecha de finalización</strong>. Esta selección determina las fechas planificadas de las tareas futuras del proyecto mediante esta plantilla. </p><p>Seleccione entre las siguientes opciones: </p> 
+   <ul> 
+   <li><p><strong>Programar a partir de la fecha de inicio</strong>: la fecha de inicio de la plantilla es en realidad el día de inicio. Cuando se programa una plantilla a partir de la fecha de inicio, Adobe Workfront calcula el día de finalización de la plantilla en función de la duración de todas las tareas de plantilla. El día de inicio de la plantilla se convierte en la fecha de inicio planificada del futuro proyecto.</p></li> 
+   <li><p><strong>Programar a partir de la fecha de finalización</strong>: la fecha de finalización de la plantilla es en realidad el día de finalización. Cuando se programa una plantilla a partir de la fecha de finalización, Workfront calcula el día de inicio de la plantilla en función de la duración de todas las tareas de plantilla. El día de finalización de la plantilla se convierte en la fecha planificada de finalización del futuro proyecto. </p></li> 
+   </ul><p>Para obtener más información sobre los días de inicio y finalización de las tareas de plantilla, consulte <a href="../../../manage-work/projects/create-and-manage-templates/overview-of-start-completion-day-on-template.md" class="MCXref xref">Información general sobre los días de inicio y finalización en una plantilla</a>. </p><p>La configuración de Programación desde de las plantillas es similar a la de los proyectos. El administrador de Workfront selecciona la configuración predeterminada Programación desde para los proyectos del sistema. Para obtener información sobre cómo establecer los valores predeterminados del proyecto, consulte <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configurar las preferencias del proyecto en todo el sistema</a>.</p></td> 
+   </tr>
+
+<tr> 
+   <td role="rowheader"><strong>Portafolio</strong></td> 
+   <td><p>Especifique un portafolio para los proyectos creados a partir de esta plantilla. Para que un Portafolio aparezca en la lista desplegable, primero debe crearlo. </p><p>En la lista solo se muestran los portafolios activos. Para obtener más información sobre la creación de portafolios, consulte <a href="../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md" class="MCXref xref">Crear un portafolio </a>.</p></td> 
+   </tr> 
+   <tr> 
+   <td role="rowheader"><strong>Programa</strong></td> 
+   <td><p>Si ha seleccionado un portafolio para la plantilla, especifique un <strong>Programa</strong> para el proyecto futuro. Es posible que algunos portafolios no tengan programa. Para que un programa aparezca en esta lista desplegable, primero debe crearlo. En la lista solo se muestran los programas activos.</p><p>Para obtener más información sobre cómo crear programas, consulte <a href="../../../manage-work/portfolios/create-and-manage-programs/create-program.md" class="MCXref xref">Crear un programa</a>.</p></td> 
+   </tr>  
+   <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
+   <td role="rowheader"><strong>Grupo</strong></td> 
+   <td><p>En la lista desplegable, seleccione el grupo que desea asociar a los proyectos creados a partir de la plantilla. Puede ser un grupo de cualquier nivel. </p><p>Para asegurarse de que está seleccionando el grupo correcto, pase el puntero por encima de él y haga clic en el icono de información <img src="assets/info-icon.png"> que se muestra junto a él. Esta acción muestra la ayuda contextual con información sobre el grupo, como la jerarquía de los grupos que tiene por encima y sus administradores.</p> <p><b>NOTAS</b>
+
+<ul> 
+   <li><p>En el área Proyectos de la página de un grupo, cuando alguien crea un proyecto con una plantilla que no tiene un grupo seleccionado, el sistema asocia el grupo que está abierto en ese momento con el proyecto.</p><p>Esto es distinto en otras áreas en las que el sistema asocia el grupo de inicio de un usuario con el proyecto cuando el usuario crea el proyecto mediante una plantilla que no tiene un grupo seleccionado.</p></li> 
+   <li><p>Si un usuario selecciona una plantilla que tiene un grupo seleccionado cuando está creando un proyecto (o al convertir una tarea o un problema en un proyecto), el usuario puede elegir un grupo diferente para el proyecto.</p></li> 
+   <li>Aunque este campo está disponible solamente en las plantillas de la nueva experiencia de Adobe Workfront, puede verlo en listas e informes tanto allí como en Adobe Workfront Classic. </li> 
+   </ul> </p></td> 
+   </tr> 
+   <tr> 
+   <td role="rowheader"><strong>Compañía</strong></td> 
+   <td><p>Especifique la Compañía que desee asociar con la plantilla. En la lista solo se muestran las compañías activas.</p></td> 
+   </tr> 
+   <tr> 
+   <td role="rowheader"><strong>Propietario de la plantilla</strong></td> 
+   <td><p>El usuario designado como Propietario de la plantilla debe ser un usuario activo de Workfront. </p><p>Tenga en cuenta lo siguiente sobre el usuario designado como propietario de la plantilla: </p> 
+   <ul> 
+   <li>Se les otorgan automáticamente permisos de administración en la plantilla. </li> 
+   <li>Se añaden al equipo del proyecto y se les otorgan automáticamente permisos de administración en el proyecto creado a partir de la plantilla. </li> 
+   <li>Se convierten en Propietario del proyecto cuando el proyecto se crea a partir de esta plantilla. </li> 
+   <li> Si el usuario designado como Propietario de la plantilla tiene acceso limitado a las plantillas o proyectos desde su nivel de acceso, sus permisos de administración en la plantilla y en los proyectos estarán limitados. Por ejemplo, si solo tienen acceso para Ver en las plantillas o proyectos de su nivel de acceso, recibirán automáticamente permisos para Ver en la plantilla y el proyecto cuando se designen como Propietario de la plantilla.</li>
+   </ul></td> 
+   </tr> 
+   <tr> 
+   <td role="rowheader"><strong>Patrocinador de plantilla</strong></td> 
+   <td><p>El usuario especificado en este campo se convierte en patrocinador del proyecto cuando la plantilla se añade al proyecto. Este usuario se añade al equipo del proyecto y se le conceden automáticamente permisos para Ver en el proyecto. El usuario designado como Patrocinador de la plantilla debe ser un usuario activo de Workfront. </p></td> 
+   </tr> 
+   <tr> 
+   <td role="rowheader"><strong>Gerente de recursos</strong></td> 
+   <td><p>A los usuarios especificados se les conceden automáticamente permisos de administración en los proyectos futuros y pueden asignar recursos a las tareas y problemas de los proyectos. Puede especificar más de un Administrador de recursos. </p></td> 
+   </tr> 
+</table>
+
+1. (Opcional) Siga editando las secciones siguientes, según la información que desee modificar.
+
+   O
+
+   Haga clic en **Guardar**.
+
+### Finanzas {#finance-preview}
+
+1. Empiece a editar la plantilla tal como se ha descrito anteriormente.
+1. En el cuadro **Editar plantilla**, haga clic en **Finanzas**.
+
+   ![Editar sección de finanzas del cuadro de plantilla](assets/edit-template-box-finance-section.png)
+
+1. Actualice los campos siguientes:
+
+   <table style="table-layout:auto"> 
+       <col> 
+       <col> 
+       <tbody>
+       <tr> 
+         <td role="rowheader"><strong> Divisa</strong></td> 
+         <td><p>Especifique la moneda para el proyecto futuro, si es diferente a la moneda predeterminada del sistema. Este campo no está visible si solo tiene la moneda predeterminada en el sistema.<br>Para obtener más información sobre la moneda, consulte <a href="../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">Configurar tasas de cambio</a>.</p></td> 
+       </tr>
+       <tr> 
+       <td role="rowheader"><strong>Presupuesto</strong></td> 
+       <td><p>Especifique un presupuesto para los proyectos creados a partir de esta plantilla.</p></td> 
+       </tr>  
+       <tr> 
+         <td role="rowheader"><strong>Método de índice de rendimiento</strong></td> 
+         <td><p>Elija cómo calculará Workfront las métricas de valor ganado del proyecto futuro. Elija entre las siguientes opciones:
+         <ul>
+         <li>Basado en horas</li>
+         <li>Basado en costes</li>
+         </ul>
+
+   Para obtener más información sobre el método de índice de rendimiento, consulte <a href="../../../manage-work/projects/project-finances/set-pim.md" class="MCXref xref">Establecer el método de índice de rendimiento (PIM)</a>. </p></td>
+   </tr> 
+         <tr> 
+         <td role="rowheader"><strong>Beneficio planificado</strong></td> 
+         <td><p>Especifique el beneficio planificado de los proyectos que se crean a partir de esta plantilla. El beneficio planificado se utiliza en el Caso empresarial del proyecto y en el Optimizador de portafolios. </p><p>Para obtener más información sobre el beneficio planificado de un proyecto, consulte <a href="../../../manage-work/projects/project-finances/project-planned-benefit.md" class="MCXref xref">Información general sobre el beneficio planificado del proyecto</a>. El Beneficio planificado de un proyecto se tiene en cuenta cuando se calcula el valor neto de un proyecto. </p><p>Para obtener más información sobre el uso del Optimizador de portafolios, consulte <a href="../../../manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md" class="MCXref xref">Administrar proyectos en el Optimizador de portafolios</a> </p></td> 
+       </tr> 
+       <tr> 
+         <td role="rowheader"><strong>Coste fijo</strong></td> 
+         <td><p>Especifique el coste fijo de los proyectos creados a partir de esta plantilla. Esto es diferente al coste de mano de obra que proviene de las horas en el proyecto y al coste de gasto que proviene de la cantidad de gastos en el proyecto. El coste fijo de un proyecto se tiene en cuenta al calcular su valor neto y forma parte del coste presupuestado.</p></td> 
+       </tr> 
+       <tr> 
+       <td role="rowheader"><strong>Ingresos fijos</strong></td> 
+       <td><p>Especifique los ingresos fijos de los proyectos creados a partir de esta plantilla.</p></td> 
+       </tr> 
+       <tr> 
+       <td role="rowheader"><strong>Requerir tiempo de aprobación de este proyecto</strong></td> 
+       <td><p>Seleccione esta opción para solicitar al propietario del proyecto del futuro proyecto creado a partir de esta plantilla que apruebe el tiempo de registro en el proyecto. Si utiliza Registros de facturación y selecciona esta opción, solo las horas aprobadas en el proyecto aparecen como horas facturables disponibles para los Registros de facturación. La aprobación de las horas en el proyecto es independiente de la aprobación de plantillas de horas. Para obtener más información sobre cómo requerir tiempo para aprobar un proyecto, vea <a href="../../../manage-work/projects/manage-projects/require-time-approval-for-projects.md" class="MCXref xref">Requerir tiempo de aprobación de un proyecto</a>.</p></td> 
+       </tr> 
+       </tbody> 
+      </table>
+
+1. (Opcional) Siga editando las secciones siguientes, según la información que desee modificar.
+
+   O
+
+   Haga clic en **Guardar**.
+
+### Formularios personalizados {#custom-forms-preview}
+
+1. Empiece a editar la plantilla tal como se ha descrito anteriormente.
+1. En el cuadro **Editar plantilla**, haga clic en **Formularios personalizados**.
+
+   ![Editar sección de Forms personalizada del cuadro de plantilla](assets/edit-template-box-custom-forms-section.png)
+
+   Los nombres de los formularios personalizados que ya están adjuntos a la plantilla se muestran en el panel izquierdo.
+
+1. Haga clic dentro del campo **Añadir formulario personalizado** y seleccione el formulario o formularios personalizados que desea asociar a la plantilla. Debe generar los formularios personalizados antes de que estén disponibles para seleccionarlos en este campo.
+
+   En la lista solo se muestran los formularios personalizados activos. Para obtener más información sobre la creación de formularios personalizados, consulte [Crear un formulario personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+
+   Puede añadir hasta diez formularios personalizados a una plantilla.
+
+   Los formularios se añadirán al proyecto creado a partir de esta plantilla.
+
+1. (Opcional) Actualice la información en cualquiera de los campos de los formularios personalizados. La información se transferirá a los proyectos que se crearán a partir de la plantilla.
+
+1. (Opcional) Haga clic en el icono **x** a la derecha del nombre de un formulario personalizado y, a continuación, haga clic en **Quitar** para quitarlo de la plantilla.
+
+1. (Opcional) Siga editando la sección siguiente, según la información que desee modificar.
+
+   O
+
+   Haga clic en **Guardar**.
+
+### Configuración de plantillas {#template-settings}
+
+1. Empiece a editar la plantilla tal como se ha descrito anteriormente.
+1. En el cuadro **Editar plantilla**, haga clic en **Configuración del proyecto**.
+
+   ![Editar sección Configuración de plantilla de cuadro de plantilla](assets/edit-template-box-project-settings-section.png)
+
+1. Actualice los campos siguientes:
+
+   <table style="table-layout:auto"> 
+       <col> 
+       <col> 
+       <tbody> 
+       <tr> 
+       <td role="rowheader"><strong>Ruta de hitos</strong> </td> 
+       <td> <p>Seleccione una ruta de hitos para la plantilla. En la lista solo se muestran las trayectorias de hitos activas.<br>Para obtener más información sobre las rutas de hitos, consulte <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md" class="MCXref xref">Crear una ruta de hitos</a>.</p> </td> 
+       </tr> 
+       <tr> 
+         <td role="rowheader"><strong>Modo de finalización</strong> </td> 
+         <td> <p>Controla la manera en que el futuro proyecto se marcará como completo. <br>Seleccione entre las siguientes opciones:</p> 
+         <ul> 
+         <li> <p><strong>Automático</strong>: el proyecto se marca como completo cuando se completen todas las tareas y problemas.</p> </li> 
+         <li> <p><strong>Manual</strong>: debe seleccionar manualmente el estado completo del proyecto cuando se hayan completado todas las tareas y problemas. </p> </li> 
+         </ul> </td> 
+       </tr> 
+       <tr> 
+       <td role="rowheader"><strong>Modo de finalización de resumen</strong> </td> 
+       <td> <p>Controla la manera en que las tareas principales del futuro proyecto se marcan como completas. <br>Seleccione entre las siguientes opciones:</p> 
+       <ul> 
+       <li> <p><strong>Automático</strong>: las tareas principales se marcan como Completas y actualizan su porcentaje completado automáticamente, a medida que se completan las tareas secundarias y se actualiza el porcentaje completado de las tareas secundarias. </p> </li> 
+       <li> <p><strong>Manual</strong>: debe actualizar manualmente el porcentaje completado y el estado de las tareas principales, independientemente de los cambios que se realicen en las tareas secundarias. </p> </li> 
+       </ul> </td> 
+       </tr> 
+       <tr> 
+         <td role="rowheader"><strong>Tipo de actualización</strong> </td> 
+         <td> <p>Controla cuándo se guardan en el proyecto los cambios realizados en la línea de tiempo del futuro proyecto. </p> 
+         <b>EJEMPLO </b> 
+         <p>Los siguientes cambios en el proyecto activan una actualización en la línea de tiempo del proyecto:</p> 
+         <ul> 
+         <li> <p>actualizar las fechas de las tareas</p> </li> 
+         <li> <p>cambiar relaciones de predecesoras<br></p> </li> 
+         <li> <p>cambiar relaciones principales y secundarias</p> </li> 
+         <li> <p>añadir o quitar asignaciones, además de cambiar la restricción de tarea o el tipo de duración.</p> </li> 
+         </ul> 
+         </div> <p>Seleccione entre las siguientes opciones:<br></p> 
+         <ul> 
+         <li> <p><strong>Automático y al cambiar</strong> (configuración predeterminada): la línea de tiempo del proyecto futuro se actualiza cada vez que se produce un cambio en el proyecto o en otro proyecto del que depende la línea de tiempo (al cambiar). La cronología del proyecto también se actualiza cada noche (Automática).<br>Esta es la configuración recomendada para este campo porque garantiza que la línea de tiempo del proyecto siempre esté actualizada.<br>Cuando realiza una acción en una tarea o proyecto que activa un recálculo de línea de tiempo, todas las fechas disponibles se muestran inmediatamente, lo que le permite seguir trabajando. En los proyectos con más de 100 tareas, las fechas que requieran recálculos mayores se muestran brevemente como signo de interrogación (entre 1 y 5 segundos, o hasta un minuto en los proyectos grandes). Esto indica que el recálculo aún no ha finalizado y que las fechas están sujetas a cambios.<br></p> </li> 
+         </ul> 
+         <ul> 
+         <li> <p><strong>Solo al cambiar</strong>: la línea de tiempo del proyecto se actualiza cada vez que se produce un cambio en el proyecto o en otro proyecto del que depende la línea de tiempo. Es posible que desee seleccionar esta opción si los cambios rara vez se producen en el proyecto o en otros proyectos de los que depende la cronología.<br></p> </li> 
+         </ul> 
+         <ul> 
+         <li> <p><strong>Solo automático</strong>: la línea de tiempo del proyecto se actualiza cada noche; no se actualiza inmediatamente después de realizar los cambios.<br>Es posible que desee seleccionar esta opción si se producen muchos cambios cada día en el proyecto o en otros proyectos de los que depende la línea de tiempo. Sin embargo, tenga en cuenta que ha elegido esta configuración, ya que el proyecto no se actualizará al mismo tiempo que se realizan los cambios.<br></p> </li> 
+         </ul> 
+         <ul> 
+         <li> <p><strong>Solo manual</strong>: la línea de tiempo del proyecto solo se actualiza cuando selecciona la opción para recalcular las líneas de tiempo, tal como se describe en <a href="../../../manage-work/projects/manage-projects/recalculate-project-timeline.md" class="MCXref xref">Recalcular las líneas de tiempo del proyecto</a>.<br></p> </li> 
+         </ul> <p>Es posible que desee seleccionar esta opción si realiza muchos cambios en el proyecto al mismo tiempo y desea que el cálculo de la escala de tiempo se produzca después de realizar todos los cambios (en lugar de después de cada cambio individual).</p> </td> 
+       </tr> 
+       <tr> 
+         <td role="rowheader"><strong>Programación</strong> </td> 
+         <td> <p>Seleccione una programación para la plantilla. Esto se convertirá en la programación del proyecto que se crea a partir de esta plantilla. Debe ser la misma programación asignada a la mayoría de las personas que trabajan en el proyecto. Debe crear una programación para poder asignarla a una plantilla.<br>Para obtener más información sobre cómo crear programaciones, consulte <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">Crear una programación</a>. <br>Si no ha creado programaciones personalizadas en el sistema, se selecciona la Programación predeterminada. </p> </td> 
+       </tr> 
+       <tr> 
+         <td role="rowheader"><strong>Días libres del usuario</strong> </td> 
+         <td> <p>Determina si los días libres de la persona asignada principal de una tarea ajusta las fechas planificadas de la tarea. Cuando adjunta la plantilla a un proyecto existente y la plantilla tiene una configuración para este campo diferente a la del proyecto, la configuración del proyecto permanece sin cambios. La opción predeterminada para esta configuración para una plantilla nueva es la misma que la preferencia del proyecto a nivel del sistema. </p> <p>Para obtener información acerca de las preferencias del proyecto a nivel del sistema, consulte <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configurar las preferencias de proyecto de todo el sistema</a>. </p> <p>Para obtener información acerca de cómo afecta esta configuración a las fechas de las tareas de un proyecto, consulte <a href="../../../manage-work/projects/manage-projects/edit-projects.md" class="MCXref xref">Editar proyectos</a>.<br>Seleccione entre las siguientes opciones:<br></p> 
+         <ul> 
+         <li> <p><strong>Tenga en cuenta el tiempo libre del usuario en las duraciones de la tarea</strong>: al seleccionar esta opción, las fechas planificadas de las tareas en el proyecto creadas a partir de esta plantilla se ajustan según el tiempo libre de la persona asignada principal de la tarea, si el tiempo libre se produce durante la duración de la tarea. </p> </li> 
+         <li> <p><strong>Ignore el tiempo libre del usuario en las duraciones de la tarea</strong>: al seleccionar esta opción, las fechas planificadas de las tareas en el proyecto creado a partir de esta plantilla permanecen tal y como se planificó originalmente, incluso si la persona asignada principal de la tarea tiene tiempo libre durante la duración de la tarea. </p> </li> 
+         </ul> </td> 
+       </tr> 
+       <tr> 
+         <td role="rowheader"><strong>Modo de nivelación de recursos</strong> </td> 
+         <td> <p>Seleccione entre las siguientes opciones:<br></p> 
+         <ul> 
+         <li> <p><strong>Manual</strong>: debe redistribuir manualmente los recursos en el proyecto creado a partir de esta plantilla (esta es la configuración predeterminada)</p> </li> 
+         <li> <p><strong>Automático:</strong> Workfront nivela los recursos en el proyecto futuro. <br>Para obtener más información acerca de la nivelación de recursos, consulte <a href="../../../manage-work/gantt-chart/use-the-gantt-chart/level-resources-in-gantt.md" class="MCXref xref">Nivelar recursos en el Gráfico Gantt </a>. </p> </li> 
+         </ul> </td> 
+       </tr> 
+       <tr> 
+         <td role="rowheader"><strong>Riesgo</strong> </td> 
+         <td> <p>Defina el nivel de riesgo de los proyectos creados a partir de esta plantilla. El riesgo es solo un indicador de lo riesgoso que puede ser un proyecto. Puede priorizar la ejecución de sus proyectos en función del nivel de riesgo.<br>Considere la posibilidad de seleccionar entre los siguientes niveles de riesgo:<br></p> 
+         <ul> 
+         <li> <p><strong>Muy bajo</strong> </p> </li> 
+         <li> <p><strong>Bajo</strong> </p> </li> 
+         <li> <p><strong>Medio</strong> </p> </li> 
+         <li> <p><strong>Alto</strong> </p> </li> 
+         <li> <p><strong>Muy alto</strong> </p> </li> 
+         </ul> </td> 
+       </tr> 
+       <tr> 
+         <td role="rowheader"><strong>Conjuntos de recursos</strong> </td> 
+         <td> <p>Especifique los conjuntos de recursos asociados a la plantilla. Los conjuntos de recursos son colecciones de usuarios que se necesitan al mismo tiempo para completar un proyecto. Para obtener más información sobre los conjuntos de recursos, consulte <a href="../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md" class="MCXref xref"> Información general sobre los conjuntos de recursos </a>.</p> <p> <p><b>NOTA</b>
+
+   Cuando edita plantillas de forma masiva, solo aparecen en este campo los conjuntos de recursos que son comunes a todas las plantillas seleccionadas. Si las plantillas seleccionadas no tienen conjuntos de recursos compartidos, este campo estará vacío. Los conjuntos de recursos que especifique aquí sobrescribirán los conjuntos de recursos individuales de las plantillas.</p> </p> </td>
+   </tr>
+
+   <tr> 
+      <td role="rowheader"><strong>Requerir tiempo de aprobación de este proyecto</strong></td>
+
+<td><p>Seleccione esta opción para exigir al futuro propietario del proyecto creado a partir de esta plantilla que apruebe el tiempo de inicio de sesión en el proyecto.</p> 
+   <p>Si está utilizando Registros de facturación y selecciona esta opción, solo las horas aprobadas en el proyecto aparecen como horas facturables disponibles para los Registros de facturación. </p>
+   <p>La aprobación de las horas en el proyecto es independiente de la aprobación de plantillas de horas. Para obtener más información sobre cómo requerir tiempo para aprobar un proyecto, vea <a href="../../../manage-work/projects/manage-projects/require-time-approval-for-projects.md" class="MCXref xref">Requerir tiempo de aprobación de un proyecto</a>.</p>
+   </td> 
+   </tr> 
+   <tr> 
+   <td role="rowheader"><strong>Filtrar tipo de horas</strong> </td> 
+   <td> <p>Tenga en cuenta lo siguiente:</p> <p>Seleccione <strong>No</strong> para que todos los tipos de horas específicas del proyecto estén disponibles en el proyecto futuro. (Es la selección predeterminada)</p> <p>O</p> <p>Seleccione <strong>Sí</strong> para que solo un subconjunto de los tipos de horas específicas del proyecto esté disponible en el proyecto futuro y, a continuación, seleccione los tipos de horas que desee que estén disponibles. (Mantenga pulsada la tecla Mayús para seleccionar varios tipos de horas).</p> <p>Si selecciona esta opción, solo se podrán seleccionar los tipos de horas que seleccione cuando registre las horas en el proyecto (o en tareas y problemas dentro del proyecto). Debe seleccionar al menos un tipo de hora; si selecciona esta opción y no selecciona ningún tipo de hora, todos los tipos de horas estarán disponibles en el proyecto.</p> <p>Las mismas selecciones de tipo de hora deben realizarse a nivel de usuario individual para que el usuario pueda ver estas opciones de tipo de hora en el proyecto. </p> <p>Para obtener más información sobre la definición de tipos de horas en el nivel de usuario, consulte la sección <a href="../../../timesheets/create-and-manage-timesheets/log-time.md#understa" class="MCXref xref">Hora de registro</a> en <a href="../../../timesheets/create-and-manage-timesheets/log-time.md" class="MCXref xref">Hora de registro</a>.</p> </td> 
+   </tr> 
+   <tr> 
+   <td role="rowheader"><strong>Notificación de recordatorio</strong> </td> 
+   <td>Seleccione la notificación de recordatorio que debe asociarse al proyecto futuro. Debe configurar las notificaciones de recordatorio de los proyectos para que este campo aparezca durante la edición de una plantilla. <br>Para obtener más información sobre cómo configurar las notificaciones de recordatorio, consulte <a href="../../../administration-and-setup/manage-workfront/emails/set-up-reminder-notifications.md" class="MCXref xref">Configurar notificaciones de recordatorio</a>.</td> 
+   </tr>
+   <tr> 
+   <td role="rowheader"><strong>Proceso de aprobación</strong> </td> 
+   <td> <p>Seleccione el proceso de aprobación que desee asociar con la plantilla. El administrador de Workfront o un usuario con acceso administrativo a los procesos de aprobación deben definir los procesos de aprobación de proyectos de nivel de sistema o de grupo para poder asociarlos a una plantilla. Para obtener más información sobre cómo crear procesos de aprobación, consulte <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md" class="MCXref xref">Crear un proceso de aprobación para elementos de trabajo</a>.</p> <p>Tenga en cuenta lo siguiente a la hora de añadir procesos de aprobación: </p> 
+   <ul> 
+   <li>En la lista solo se muestran los procesos de aprobación activos. </li> 
+   <li> <p>Los procesos de aprobación de todo el sistema y específicos del grupo se muestran en la lista. Un proceso de aprobación asociado a un grupo que no sea el de la plantilla no se muestra en la lista.</p> <p><b>IMPORTANTE</b>
+
+Si el grupo asociado a la plantilla cambia, el proceso de aprobación específico del grupo se convertirá en un proceso de aprobación de un solo uso. Para obtener más información sobre cómo los cambios en el grupo del proyecto o los cambios en el proceso de aprobación afectan a la configuración de la aprobación, consulte <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md">Cómo afectan los cambios en el grupo y el proceso de aprobación a los procesos de aprobación asignados</a>. </p> </li>
+<li> <p>Si ha añadido un proceso de aprobación de un solo uso, se mostrará como “Personalizado” en este campo. Para obtener más información, consulte <a href="../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md" class="MCXref xref">Asociar un proceso de aprobación nuevo o existente con el trabajo</a>. </p> 
+      </li> 
+      <li> <p>Cuando se editan plantillas de forma masiva, se dan los siguientes escenarios:</p> 
+      <ul> 
+         <li> <p>Al seleccionar plantillas del mismo grupo, en este campo se muestran tanto los procesos de aprobación a nivel de sistema como los de nivel de grupo.</p> </li> 
+         <li> <p>Al seleccionar plantillas de diferentes grupos, solo se muestran en este campo los procesos de aprobación a nivel de sistema.</p> </li> 
+         <li> <p>Cuando alguna de las plantillas tiene un proceso de aprobación de un solo uso adjunto, se reemplazará por el proceso a nivel de sistema que seleccione. </p> </li> 
+      </ul> </li> 
+      </ul> </td> 
+       </tr>  
+       </tbody> 
+      </table>
+
+1. (Opcional) Siga editando las secciones siguientes, según la información que desee modificar.\
+   O
+1. Haga clic en **Guardar**.
+
+### Configuración de tarea {#task-settings}
+
+Puede definir los valores predeterminados que se asociarán a todas las tareas nuevas cuando las añada a un proyecto que se cree a partir de la plantilla.
+
+Para obtener información sobre cómo afecta esta configuración a la creación de nuevas tareas, consulte [Información general sobre la creación de tareas](../../../manage-work/tasks/create-tasks/create-tasks-overview.md).
+
+1. Empiece a editar la plantilla tal como se ha descrito anteriormente.
+1. En el cuadro **Editar plantilla**, haga clic en **Configuración de tarea**.
+
+   ![Editar cuadro de plantilla Sección Configuración de tarea](assets/edit-template-box-task-settings-section.png)
+
+1. En el cuadro **Proceso de aprobación predeterminado de tarea**, seleccione el proceso de aprobación que desee asociar con todas las tareas nuevas cuando las añada a un proyecto creado a partir de esta plantilla. Debe crear un proceso de aprobación para las tareas antes de poder asociarlo a las tareas. En la lista solo se muestran los procesos de aprobación activos. Para obtener más información sobre la creación de procesos de aprobación, consulte [Creación de procesos de aprobación](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
+1. En el cuadro **Formularios personalizados predeterminados de tareas**, seleccione el formulario o formularios personalizados que desee asociar con todas las tareas nuevas cuando los añada a un proyecto creado a partir de esta plantilla. Debe generar los formularios personalizados antes de que estén disponibles para seleccionarlos en este campo. En la lista solo se muestran los formularios personalizados activos. Para obtener más información sobre la creación de formularios personalizados, consulte [Crear un formulario personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md). Puede asociar hasta diez formularios personalizados a una tarea.
+1. (Opcional) Seleccione **Usar esfuerzo laboral para calcular automáticamente las horas planificadas de la tarea** si desea habilitar la administración del esfuerzo de la tarea mediante esfuerzo laboral en lugar de horas planificadas en el proyecto creado a partir de la plantilla.
+1. (Condicional y opcional) Si ha seleccionado Usar esfuerzo laboral para calcular automáticamente las horas planificadas de la tarea, haga clic en el menú desplegable para actualizar el porcentaje de cada nivel de esfuerzo laboral. Los siguientes valores de porcentaje son los predeterminados:
+
+   | Nivel de esfuerzo laboral | Valor porcentual |
+   |---|---|
+   | Pequeño | 25 % |
+   | Media | 50 % |
+   | Grande | 75 % |
+
+   Para obtener información sobre cómo usar Esfuerzo laboral para administrar el esfuerzo en tareas de proyectos, consulte [Información general de esfuerzo laboral](../../../manage-work/tasks/task-information/work-effort.md).
+
+1. (Opcional) Siga editando la sección siguiente, según la información que desee modificar.
+
+   O
+
+   Haga clic en **Guardar**.
+
+### Configuración de problema {#issue-settings}
+
+Al editar la configuración de problemas, puede evitar que los usuarios añadan problemas en línea en el proyecto futuro creado a partir de la plantilla.
+
+1. Empiece a editar la plantilla tal como se ha descrito anteriormente.
+1. En el cuadro **Editar plantilla**, haga clic en **Configuración del problema**.
+
+   ![Editar cuadro de plantilla Sección de configuración de problema](assets/edit-template-box-issue-settings-section.png)
+
+1. (Opcional) Anule la selección de la opción **Permitir que los usuarios añadan problemas en línea**. Está habilitada de forma predeterminada.
+
+   Al deshabilitar esta opción, los usuarios no pueden añadir problemas en línea al proyecto o a las tareas de la sección Problemas, cuando el proyecto se crea a partir de la plantilla.
+
+   >[!TIP]
+   >
+   >Deshabilite esta opción si desea obligar a los usuarios a rellenar los campos de nuevo problema o los formularios personalizados asociados a nuevos problemas.
+
+   Al deshabilitar esta opción, los usuarios con permisos para añadir problemas al proyecto creado a partir de la plantilla pueden hacerlo utilizando el botón Nuevo problema o una cola de solicitudes asociadas al proyecto.
+
+   Para obtener más información acerca de la configuración de problemas en proyectos, consulte la sección [Configuración del problema](../../../manage-work/projects/manage-projects/edit-projects.md#issue) en el artículo [Editar proyectos](../../../manage-work/projects/manage-projects/edit-projects.md).
+
+   Para obtener información sobre cómo crear problemas en proyectos, consulte [Crear problemas](../../../manage-work/issues/manage-issues/create-issues.md).
+
+1. (Opcional) Siga editando la sección siguiente, según la información que desee modificar.
+
+   O
+
+   Haga clic en **Guardar**.
+
+### Acceso {#access-preview}
+
+1. Empiece a editar la plantilla tal como se ha descrito anteriormente.
+1. En el cuadro **Editar plantilla**, haga clic en el **Acceder**.
+
+   ![Editar cuadro de plantilla Sección de acceso](assets/edit-template-box-access-section.png)
+
+   El acceso que especifique para la plantilla se convertirá en el acceso de los usuarios asociados al proyecto cuando la plantilla se utilice para crear un proyecto.
+
+   Especifique la siguiente información de **Acceso** para la plantilla:
+
+   <table style="table-layout:auto"> 
+       <col> 
+       <col> 
+       <tbody> 
+       <tr> 
+         <td role="rowheader"><strong>Cada vez que se asigne a una persona a una tarea</strong> </td> 
+         <td> <p>Seleccione entre el acceso de <strong>Visualización</strong>, <strong>Contribución</strong> o <strong>Administración</strong> a una tarea. Al usuario asignado a una tarea se le concede automáticamente este acceso a la tarea. </p> </td> 
+       </tr> 
+       <tr> 
+         <td role="rowheader"><strong>Conceder también acceso al proyecto</strong> </td> 
+         <td> <p> Seleccione entre el acceso de <strong>Visualización</strong>, <strong>Contribución</strong> o <strong>Administración</strong> al proyecto. Al usuario asignado a una tarea se le concede automáticamente este acceso al proyecto. </p> </td> 
+       </tr> 
+       <tr> 
+         <td role="rowheader"><strong>Cuando se asigna a una persona a un problema</strong> </td> 
+         <td> <p>Seleccione entre el acceso de <strong>Visualización</strong>, <strong>Contribución</strong> o <strong>Administración</strong> a un problema. Al usuario asignado a un problema se le concede automáticamente este acceso. </p> </td> 
+       </tr> 
+       <tr> 
+         <td role="rowheader"><strong>Conceder también acceso al proyecto</strong> </td> 
+         <td> <p> Seleccione entre el acceso de <strong>visualización</strong>, <strong>contribución</strong> o <strong>administración</strong> del proyecto. Al usuario asignado a un problema se le concede también automáticamente este acceso al proyecto. </p> </td> 
+       </tr> 
+       <tr> 
+         <td role="rowheader"><strong>Cuando una persona envía una solicitud: concederle acceso</strong> </td> 
+         <td> <p> Seleccione entre el acceso de <strong>visualización</strong>, <strong>contribución</strong> o <strong>administración</strong> de la solicitud. Cuando envían una solicitud al proyecto, se les concede este acceso a la solicitud que han enviado. Para obtener más información, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Compartir un problema</a>.</p> </td> 
+       </tr> 
+       <tr> 
+         <td role="rowheader"><strong>Las personas de la misma compañía heredarán los mismos permisos en todas las solicitudes.</strong> </td> 
+         <td> <p>Seleccione este campo si desea que las personas de la misma compañía tengan el mismo acceso a todas las solicitudes del proyecto, tanto si las han enviado como si no.</p> </td> 
+       </tr> 
+       <tr> 
+         <td role="rowheader"><strong>Cuando alguien recibe acceso a este proyecto: concederle acceso a...</strong> </td> 
+         <td> <p>Seleccione las opciones de acceso que desea que tengan los usuarios en el proyecto, si el proyecto se comparte con ellos. Seleccione las opciones específicas para su acceso si se les ha designado como <strong>visualizadores</strong>, <strong>colaboradores</strong> o <strong>administradores</strong> al compartir el proyecto con ellos. </p> </td> 
+       </tr> 
+       </tbody> 
+      </table>
+
+1. (Opcional) Siga editando las secciones siguientes, según la información que desee modificar.
+
+   O
+
+   Haga clic en **Guardar**.
+
+   Los cambios se enviarán para esta plantilla.
+
+   Ahora, cuando utilice esta plantilla para crear un proyecto, toda esta configuración se transferirá al nuevo proyecto.
+
+<!--I don't think this note is valid anymore - this note was on Edit project when the section below was in that article, by mistake: 
+>[!NOTE]
+>
+>Because linked folders are created when the project is created, editing the linked folder workflow on an existing project is ineffective. Editing these values when creating a project functions as expected.-->
+
+<!-- This section is here by mistake - it should be maybe in layout templates?? 
+
+### Linked folders (conditional availability) {#linked-folders}
+
+Linked folder functionality automatically creates folders in Adobe Experience Manager Assets, and connects these folders to Workfront. 
+
+This section appears only if all of the following apply:
+
+* Your organization has been migrated to the Adobe Admin Console
+* Your organization has enabled and configured an integration with Adobe Experience Manager
+* The template has enabled and configured linked folders.
+
+For instructions on editing Linked folders, see [Edit workflow values in a project](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-aem-workflows.md#edit-workflow-values-in-a-project) in the article [Use workflows in the Experience Manager Assets integration](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-aem-workflows.md).
+
+-->
+
+### Comentario
+
+1. Empiece a editar la plantilla tal como se ha descrito anteriormente.
+1. En el cuadro **Editar plantilla**, haga clic en **Comentario**.
+
+   ![Editar sección de comentarios del cuadro de plantilla](assets/edit-template-box-comment-section.png)
+1. Agregue un comentario sobre la actualización que está realizando, etiquete a usuarios adicionales o marque la casilla **Privado para mi empresa** para que la actualización sea privada para los usuarios de su empresa y luego haga clic en **Guardar**.
+
+## Editar plantillas de forma masiva
+
+Puede editar las plantillas de forma masiva y actualizar toda su información al mismo tiempo.
+
+<!--
+Editing templates in bulk differs depending on which environment you are using. 
+
+### Edit templates in bulk in the Production environment 
+
+*****************and hide the first line below************ -->
+
+Para editar plantillas de forma masiva:
+
+{{step1-to-templates}}
+
+1. Seleccione varias plantillas en la lista.
+1. Haga clic en el icono **Editar** ![Editar icono](assets/edit-icon.png).
+
+   Se abrirá el cuadro de diálogo **Editar plantillas**.
+
+   ![Editar plantillas](assets/edit-templates-in-bulk-box-nwe-350x327.png)
+
+1. Haga clic en las secciones de la izquierda para editar todas las plantillas seleccionadas.
+
+   Para obtener más información sobre cómo editar la información de las plantillas, consulte la sección [Editar una plantilla](#edit-a-template) en este artículo.
+
+1. Actualice las siguientes secciones de las plantillas seleccionadas:
+
+   * Información general
+   * Finanzas
+   * Portafolio
+   * Configuración
+   * Acceso
+   * Formularios personalizados
+   * Tareas
+   * Problemas
+   * Comentario
+
+1. Haga clic en **Guardar cambios**.
+
+   Todos los cambios que haya realizado estarán ahora visibles en todas las plantillas seleccionadas.
+
+<!--
+<div class="preview">
+
+### Edit templates in bulk in the Preview environment 
+
+*****************and hide/delete the first line below************
+
+To edit templates in bulk:
+
+{{step1-to-templates}}
+
+1. Select several templates in the list.
+1. Click the **Edit** icon ![Edit icon](assets/edit-icon.png).
+
+   The **Edit Templates** dialog box opens.
+
+   ![Edit templates in bulk box](assets/edit-templates-in-bulk-box.png)
+
+1. Click the sections on the left to edit all selected templates.
+
+   For more information about editing information on templates, see the [Edit a template](#edit-a-template) section in this article.
+
+1. Update the following sections of the selected templates:
+
+   * Overview
+   * Custom Forms
+   * Finance
+   * Template Settings
+   * Task Settings
+   * Issue Settings
+   * Access
+   * Comment
+
+1. Click **Save**.
+
+   All changes you made are now visible on all the selected templates.
+
+</div>
+
+-->
+
+## Añadir tareas a una plantilla
+
+Una vez creada la plantilla y editada su información, puede añadirle tareas.
+
+La adición de tareas a una plantilla es similar a la adición de tareas a un proyecto.
+
+Para obtener más información sobre cómo añadir tareas a un proyecto, consulte [Crear tareas en un proyecto](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md).
+
+Cuando se añaden tareas a una plantilla, la duración de la plantilla y los días de inicio y de finalización de la plantilla cambian en consecuencia. Para obtener información sobre los días de inicio y de finalización de la plantilla y de las tareas de la plantilla, consulte [Información general sobre los días de inicio y finalización de una plantilla](../../../manage-work/projects/create-and-manage-templates/overview-of-start-completion-day-on-template.md).
+
+## Agregar más elementos a una plantilla
+
+Una vez creada la plantilla y editada su información, puede añadirle más elementos. Los elementos que añada estarán disponibles para el proyecto cuando lo esté creando a partir de la plantilla.
+
+La adición de los siguientes elementos a una plantilla es idéntica a su adición a un proyecto:
+
+* Documentos
+* Riesgos
+
+  Para obtener más información sobre la creación de riesgos, vea [Crear y editar riesgos en proyectos](/help/quicksilver/manage-work/projects/define-a-business-case/create-edit-risks-on-projects.md).
+
+* Procesos de aprobación
+
+  Para obtener información sobre cómo asociar procesos de aprobación con trabajo, consulte [Asociar un proceso de aprobación nuevo o existente con trabajo](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md).
+
+* Tarifas de facturación
+
+  Agregar tarifas de facturación para una plantilla es similar a agregar tarifas de facturación a un proyecto. Para obtener más información, consulte [Anulación de tarifas de facturación de funciones en el nivel de proyecto](/help/quicksilver/manage-work/projects/project-finances/override-job-role-billing-rates-at-the-project-level.md).
+
+* Gastos
+
+  Para obtener más información sobre cómo añadir gastos, consulte [Administrar gastos del proyecto](../../../manage-work/projects/project-finances/manage-project-expenses.md).
+
+* Detalles de la cola
+
+  Para obtener información acerca de cómo agregar detalles de cola a un proyecto o una plantilla, vea [Crear una cola de solicitudes](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+
+* Grupos de temas y temas de la cola
+
+  Para obtener información sobre cómo agregar grupos de temas y temas de colas a un proyecto o plantilla, vea los siguientes artículos:
+
+   * [Crear grupos de temas](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-topic-groups.md)
+   * [Crear temas de la cola](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-queue-topics.md)
+
+Puede añadir los siguientes elementos a las tareas de la plantilla:
+
+* Documentos
+* Gastos
+
+  Para obtener más información sobre cómo añadir gastos, consulte [Administrar gastos del proyecto](../../../manage-work/projects/project-finances/manage-project-expenses.md).
+
+* Rutas de aprobación
+
+  Para obtener más información sobre cómo asociar las aprobaciones con el trabajo, consulte [Asociar un proceso de aprobación nuevo o existente con trabajo](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md).
+
+
+## Activar o desactivar una plantilla
+
+Puede desactivar una plantilla si desea que los usuarios no puedan encontrarla y crear proyectos a partir de ella. No puede adjuntar una plantilla desactivada a proyectos ni utilizarla para crear un proyecto.
+
+Las plantillas desactivadas no afectan a los proyectos existentes que se crearon con ellas.
+
+Para desactivar una plantilla:
+
+1. Vaya a una plantilla activa, luego haga clic en el menú **Más** ![Icono de más](assets/qs-more-icon-on-an-object.png) junto al nombre de la plantilla y, a continuación, haga clic en **Desactivar**.
+
+   ![Desactivar plantilla](assets/deactivate-template-link-in-more-menu.png)
+
+   La plantilla dejará de estar activa y los usuarios ya no podrán encontrarla para crear proyectos a partir de ella.
+1. (Opcional) Para activar la plantilla, haga clic en el menú **Más** ![Más iconos](assets/qs-more-icon-on-an-object.png) junto al nombre de la plantilla y, a continuación, haga clic en **Activar**.
+
+   La plantilla ahora estará activa y ya se puede adjuntar a proyectos o utilizar para crear proyectos.
+
 
 <!--
 Editing a template differs depending on what environment you choose. 
@@ -562,587 +1248,3 @@ By editing issue settings, you can prevent users from adding issues inline in th
 
 ### Edit a template in the Preview environment {#edit-a-template-in-the-preview-environment}
 -->
-
-1. Vaya a la plantilla que desea editar.
-1. (Condicional) Para editar información limitada sobre la plantilla, haga clic en **Detalles de la plantilla** en el panel izquierdo y, a continuación, vaya a las áreas que aparecen en el panel izquierdo para editar la información de cada área.
-1. Para editar información en la sección Detalles, haga clic en el icono **Editar** ![Editar icono](assets/edit-icon.png), luego seleccione una de las áreas siguientes o haga clic en **Editar todo** para editar información en todas las áreas:
-
-   * Información general
-   * Formularios personalizados
-
-   Los nombres de los formularios personalizados solo se muestran si hay formularios personalizados adjuntos al objeto.
-
-   * Finanzas
-
-   >[!TIP]
-   >
-   >Para obtener información sobre todos los campos que se muestran en el área de Detalles, continúe editando todos los campos con el cuadro Editar plantilla que aparece a continuación.
-
-1. (Condicional) Para editar toda la información acerca de la plantilla, haga clic en el **Más** menú ![Icono de más](assets/qs-more-icon-on-an-object.png) junto al nombre de la plantilla y, a continuación, haga clic en **Editar**.
-
-   Se abre el cuadro **Editar plantilla**. Las secciones de este cuadro contienen los mismos campos disponibles en la sección Detalles de la plantilla.
-
-1. Considere la posibilidad de editar la información en cualquiera de las siguientes secciones:
-
-   * [Nombre de la plantilla](#template-name)
-   * [Información general](#overview-preview)
-   * [Finanzas](#finance-preview)
-   * [Formularios personalizados](#custom-forms-preview)
-   * [Configuración del proyecto](#project-settings)
-   * [Configuración de tareas](#task-settings)
-   * [Configuración del problema](#issue-settings)
-   * [Acceso](#access-preview)
-   * [Carpetas vinculadas](#linked-folders-conditional-availability) (disponibilidad condicional)
-
-
-### Nombre de plantilla{#template-name}
-
-1. Empiece a editar la plantilla tal como se ha descrito anteriormente.
-1. En el cuadro **Editar plantilla**, haga clic en **Nombre de la plantilla**.
-1. (Opcional) Siga editando las secciones siguientes, según la información que desee modificar
-
-   O
-
-   Haga clic en **Guardar**.
-
-
-
-### Información general {#overview-preview}
-
-1. Empiece a editar la plantilla tal como se ha descrito anteriormente.
-1. En el cuadro **Editar plantilla**, haga clic en **Información general**.
-
-   ![Editar cuadro de plantilla](assets/edit-template-box-overview-section.png)
-
-1. Actualice los campos siguientes:
-
-   <table style="table-layout:auto"> 
-       <col> 
-       <col> 
-       <tbody> 
-         <tr> 
-         <td role="rowheader"><strong>Descripción</strong></td> 
-         <td>Añada información adicional sobre la plantilla.</td> 
-       </tr> 
-         <tr> 
-         <td role="rowheader"><strong>Prioridad</strong></td> 
-         <td><p>Es tan solo un indicador visual que le permite priorizar sus proyectos futuros. Seleccione entre las siguientes opciones:</p> 
-         <ul> 
-         <li><p><strong>Ninguno</strong></p></li> 
-         <li><p><strong>Bajo</strong></p></li> 
-         <li><p><strong>Normal</strong></p></li> 
-         <li><p><strong>Alto</strong></p></li> 
-         <li><p><strong>Urgente</strong></p></li> 
-         </ul><p><p>Según las Preferencias del proyecto seleccionadas por el administrador de Workfront, los nombres de las prioridades pueden ser diferentes para usted. Para obtener más información sobre cómo editar prioridades, consulte <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md" class="MCXref xref">Crear y personalizar prioridades</a>.</p></p></td> 
-       </tr> 
-       <tr> 
-       <td role="rowheader"><strong>URL</strong></td> 
-         <td>Especifique un vínculo web relacionado con la información sobre esta plantilla.</td> 
-       </tr>
-       <tr> 
-       <td role="rowheader"><strong>Tipo de condición</strong></td> 
-       <td><p>Seleccione entre los siguientes tipos de condición:</p> 
-         <ul> 
-         <li><strong>Manual:</strong> el propietario del proyecto establece manualmente la condición del proyecto en el proyecto. <strong></strong></li> 
-         <li><strong>Estado del progreso:</strong> Workfront establece automáticamente la condición del proyecto futuro en función del estado del progreso de las tareas en la ruta crítica. Para obtener más información sobre el significado del estado de progreso, consulte <a href="../../../manage-work/tasks/task-information/task-progress-status.md" class="MCXref xref">Información general sobre el estado de progreso de la tarea</a>.</li> 
-       </ul>
-         </td> 
-         </tr> 
-       <tr> 
-         <td role="rowheader"><strong>Modo de programación</strong></td> 
-         <td><p>Especifique si el proyecto que usa esta plantilla está programado a partir de la <strong>fecha de inicio</strong> o a partir de la <strong>fecha de finalización</strong>. Esta selección determina las fechas planificadas de las tareas futuras del proyecto mediante esta plantilla. </p><p>Seleccione entre las siguientes opciones: </p> 
-       <ul> 
-       <li><p><strong>Programar a partir de la fecha de inicio</strong>: la fecha de inicio de la plantilla es en realidad el día de inicio. Cuando se programa una plantilla a partir de la fecha de inicio, Adobe Workfront calcula el día de finalización de la plantilla en función de la duración de todas las tareas de plantilla. El día de inicio de la plantilla se convierte en la fecha planificada de inicio del futuro proyecto.</p></li> 
-       <li><p><strong>Programar a partir de la fecha de finalización</strong>: la fecha de finalización de la plantilla es en realidad el día de finalización. Cuando se programa una plantilla a partir de la fecha de finalización, Workfront calcula el día de inicio de la plantilla en función de la duración de todas las tareas de plantilla. El día de finalización de la plantilla se convierte en la fecha planificada de finalización del futuro proyecto. </p></li> 
-       </ul><p>Para obtener más información sobre los días de inicio y finalización de las tareas de plantilla, consulte <a href="../../../manage-work/projects/create-and-manage-templates/overview-of-start-completion-day-on-template.md" class="MCXref xref">Información general sobre los días de inicio y finalización en una plantilla</a>. </p><p>La configuración de Programación desde de las plantillas es similar a la de los proyectos. El administrador de Workfront selecciona la configuración predeterminada Programación desde para los proyectos del sistema. Para obtener información sobre cómo establecer los valores predeterminados del proyecto, consulte <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configurar las preferencias del proyecto en todo el sistema</a>.</p></td> 
-       </tr>
-
-   <tr> 
-         <td role="rowheader"><strong>Portafolio</strong></td> 
-         <td><p>Especifique un portafolio para los proyectos creados a partir de esta plantilla. Para que un Portafolio aparezca en la lista desplegable, primero debe crearlo. </p><p>En la lista solo se muestran los portafolios activos. Para obtener más información sobre la creación de portafolios, consulte <a href="../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md" class="MCXref xref">Crear un portafolio </a>.</p></td> 
-       </tr> 
-       <tr> 
-         <td role="rowheader"><strong>Programa</strong></td> 
-         <td><p>Si ha seleccionado un portafolio para la plantilla, especifique un <strong>Programa</strong> para el proyecto futuro. Es posible que algunos portafolios no tengan programa. Para que un programa aparezca en esta lista desplegable, primero debe crearlo. En la lista solo se muestran los programas activos.</p><p>Para obtener más información sobre cómo crear programas, consulte <a href="../../../manage-work/portfolios/create-and-manage-programs/create-program.md" class="MCXref xref">Crear un programa</a>.</p></td> 
-       </tr>  
-       <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
-         <td role="rowheader"><strong>Grupo</strong></td> 
-         <td><p>En la lista desplegable, seleccione el grupo que desea asociar a los proyectos creados a partir de la plantilla. Puede ser un grupo de cualquier nivel. </p><p>Para asegurarse de que está seleccionando el grupo correcto, pase el puntero por encima de él y haga clic en el icono de información <img src="assets/info-icon.png"> que se muestra junto a él. Esta acción muestra la ayuda contextual con información sobre el grupo, como la jerarquía de los grupos que tiene por encima y sus administradores.</p> <p><b>NOTAS</b>
-
-   <ul> 
-       <li><p>En el área Proyectos de la página de un grupo, cuando alguien crea un proyecto con una plantilla que no tiene un grupo seleccionado, el sistema asocia el grupo que está abierto en ese momento con el proyecto.</p><p>Esto es distinto en otras áreas en las que el sistema asocia el grupo de inicio de un usuario con el proyecto cuando el usuario crea el proyecto mediante una plantilla que no tiene un grupo seleccionado.</p></li> 
-       <li><p>Si un usuario selecciona una plantilla que tiene un grupo seleccionado cuando está creando un proyecto (o al convertir una tarea o un problema en un proyecto), el usuario puede elegir un grupo diferente para el proyecto.</p></li> 
-       <li>Aunque este campo está disponible solamente en las plantillas de la nueva experiencia de Adobe Workfront, puede verlo en listas e informes tanto allí como en Adobe Workfront Classic. </li> 
-         </ul> </p></td> 
-       </tr> 
-       <tr> 
-         <td role="rowheader"><strong>Compañía</strong></td> 
-         <td><p>Especifique la Compañía que desee asociar con la plantilla. En la lista solo se muestran las compañías activas.</p></td> 
-       </tr> 
-       <tr> 
-         <td role="rowheader"><strong>Propietario de la plantilla</strong></td> 
-         <td><p>El usuario designado como Propietario de la plantilla debe ser un usuario activo de Workfront. </p><p>Tenga en cuenta lo siguiente sobre el usuario designado como propietario de la plantilla: </p> 
-         <ul> 
-         <li>Se les otorgan automáticamente permisos de administración en la plantilla. </li> 
-         <li>Se añaden al equipo del proyecto y se les otorgan automáticamente permisos de administración en el proyecto creado a partir de la plantilla. </li> 
-         <li>Se convierten en Propietario del proyecto cuando el proyecto se crea a partir de esta plantilla. </li> 
-         <li> Si el usuario designado como Propietario de la plantilla tiene acceso limitado a las plantillas o proyectos desde su nivel de acceso, sus permisos de administración en la plantilla y en los proyectos estarán limitados. Por ejemplo, si solo tienen acceso para Ver en las plantillas o proyectos de su nivel de acceso, recibirán automáticamente permisos para Ver en la plantilla y el proyecto cuando se designen como Propietario de la plantilla.</li>
-         </ul></td> 
-       </tr> 
-       <tr> 
-         <td role="rowheader"><strong>Patrocinador de plantilla</strong></td> 
-         <td><p>El usuario especificado en este campo se convierte en patrocinador del proyecto cuando la plantilla se añade al proyecto. Este usuario se añade al equipo del proyecto y se le conceden automáticamente permisos para Ver en el proyecto. El usuario designado como Patrocinador de la plantilla debe ser un usuario activo de Workfront. </p></td> 
-       </tr> 
-       <tr> 
-         <td role="rowheader"><strong>Gerente de recursos</strong></td> 
-         <td><p>A los usuarios especificados se les conceden automáticamente permisos de administración en los proyectos futuros y pueden asignar recursos a las tareas y problemas de los proyectos. Puede especificar más de un Administrador de recursos. </p></td> 
-       </tr> 
-      </table>
-
-1. (Opcional) Siga editando las secciones siguientes, según la información que desee modificar.
-
-   O
-
-   Haga clic en **Guardar**.
-
-### Finanzas {#finance-preview}
-
-1. Empiece a editar la plantilla tal como se ha descrito anteriormente.
-1. En el cuadro **Editar plantilla**, haga clic en **Finanzas**.
-
-   ![Editar finanzas de cuadro de plantilla](assets/edit-template-box-finance-section.png)
-
-1. Actualice los campos siguientes:
-
-   <table style="table-layout:auto"> 
-       <col> 
-       <col> 
-       <tbody>
-       <tr> 
-         <td role="rowheader"><strong> Divisa</strong></td> 
-         <td><p>Especifique la moneda para el proyecto futuro, si es diferente a la moneda predeterminada del sistema. Este campo no está visible si solo tiene la moneda predeterminada en el sistema.<br>Para obtener más información sobre la moneda, consulte <a href="../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">Configurar tasas de cambio</a>.</p></td> 
-       </tr>
-       <tr> 
-       <td role="rowheader"><strong>Presupuesto</strong></td> 
-       <td><p>Especifique un presupuesto para los proyectos creados a partir de esta plantilla.</p></td> 
-       </tr>  
-       <tr> 
-         <td role="rowheader"><strong>Método de índice de rendimiento</strong></td> 
-         <td><p>Elija cómo calculará Workfront las métricas de valor ganado del proyecto futuro. Elija entre las siguientes opciones:
-         <ul>
-         <li>Basado en horas</li>
-         <li>Basado en costes</li>
-         </ul>
-
-   Para obtener más información sobre el método de índice de rendimiento, consulte <a href="../../../manage-work/projects/project-finances/set-pim.md" class="MCXref xref">Establecer el método de índice de rendimiento (PIM)</a>. </p></td>
-   </tr> 
-         <tr> 
-         <td role="rowheader"><strong>Beneficio planificado</strong></td> 
-         <td><p>Especifique el beneficio planificado de los proyectos que se crean a partir de esta plantilla. El beneficio planificado se utiliza en el Caso empresarial del proyecto y en el Optimizador de portafolios. </p><p>Para obtener más información sobre el beneficio planificado de un proyecto, consulte <a href="../../../manage-work/projects/project-finances/project-planned-benefit.md" class="MCXref xref">Información general sobre el beneficio planificado del proyecto</a>. El Beneficio planificado de un proyecto se tiene en cuenta cuando se calcula el valor neto de un proyecto. </p><p>Para obtener más información sobre el uso del Optimizador de portafolios, consulte <a href="../../../manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md" class="MCXref xref">Administrar proyectos en el Optimizador de portafolios</a> </p></td> 
-       </tr> 
-       <tr> 
-         <td role="rowheader"><strong>Coste fijo</strong></td> 
-         <td><p>Especifique el coste fijo de los proyectos creados a partir de esta plantilla. Esto es diferente al coste de mano de obra que proviene de las horas en el proyecto y al coste de gasto que proviene de la cantidad de gastos en el proyecto. El coste fijo de un proyecto se tiene en cuenta al calcular su valor neto y forma parte del coste presupuestado.</p></td> 
-       </tr> 
-       <tr> 
-       <td role="rowheader"><strong>Ingresos fijos</strong></td> 
-       <td><p>Especifique los ingresos fijos de los proyectos creados a partir de esta plantilla.</p></td> 
-       </tr> 
-       <tr> 
-       <td role="rowheader"><strong>Requerir tiempo de aprobación de este proyecto</strong></td> 
-       <td><p>Seleccione esta opción para solicitar al propietario del proyecto del futuro proyecto creado a partir de esta plantilla que apruebe el tiempo de registro en el proyecto. Si utiliza Registros de facturación y selecciona esta opción, solo las horas aprobadas en el proyecto aparecen como horas facturables disponibles para los Registros de facturación. La aprobación de las horas en el proyecto es independiente de la aprobación de plantillas de horas. Para obtener más información sobre cómo requerir tiempo para aprobar un proyecto, vea <a href="../../../manage-work/projects/manage-projects/require-time-approval-for-projects.md" class="MCXref xref">Requerir tiempo de aprobación de un proyecto</a>.</p></td> 
-       </tr> 
-       </tbody> 
-      </table>
-
-1. (Opcional) Siga editando las secciones siguientes, según la información que desee modificar.
-
-   O
-
-   Haga clic en **Guardar**.
-
-### Formularios personalizados {#custom-forms-preview}
-
-1. Empiece a editar la plantilla tal como se ha descrito anteriormente.
-1. En el cuadro **Editar plantilla**, haga clic en **Formularios personalizados**.
-
-   ![Editar formulario personalizado de cuadro de plantilla](assets/edit-template-box-custom-forms-section.png)
-
-   Los nombres de los formularios personalizados que ya están adjuntos a la plantilla se muestran en el panel izquierdo.
-
-1. Haga clic dentro del campo **Añadir formulario personalizado** y seleccione el formulario o formularios personalizados que desea asociar a la plantilla. Debe generar los formularios personalizados antes de que estén disponibles para seleccionarlos en este campo.
-
-   En la lista solo se muestran los formularios personalizados activos. Para obtener más información sobre la creación de formularios personalizados, consulte [Crear un formulario personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
-
-   Puede añadir hasta diez formularios personalizados a una plantilla.
-
-   Los formularios se añadirán al proyecto creado a partir de esta plantilla.
-
-1. (Opcional) Actualice la información en cualquiera de los campos de los formularios personalizados. La información se transferirá a los proyectos que se crearán a partir de la plantilla.
-
-1. (Opcional) Haga clic en el icono **x** a la derecha del nombre de un formulario personalizado y, a continuación, haga clic en **Quitar** para quitarlo de la plantilla.
-
-1. (Opcional) Siga editando la sección siguiente, según la información que desee modificar.
-
-   O
-
-   Haga clic en **Guardar**.
-
-### Configuración de proyecto {#project-settings}
-
-1. Empiece a editar la plantilla tal como se ha descrito anteriormente.
-1. En el cuadro **Editar plantilla**, haga clic en **Configuración del proyecto**.
-
-   ![Editar configuración del cuadro de plantilla](assets/edit-template-box-project-settings-section.png)
-
-1. Actualice los campos siguientes:
-
-   <table style="table-layout:auto"> 
-       <col> 
-       <col> 
-       <tbody> 
-       <tr> 
-       <td role="rowheader"><strong>Ruta de hitos</strong> </td> 
-       <td> <p>Seleccione una ruta de hitos para la plantilla. En la lista solo se muestran las trayectorias de hitos activas.<br>Para obtener más información sobre las rutas de hitos, consulte <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md" class="MCXref xref">Crear una ruta de hitos</a>.</p> </td> 
-       </tr> 
-       <tr> 
-         <td role="rowheader"><strong>Modo de finalización</strong> </td> 
-         <td> <p>Controla la manera en que el futuro proyecto se marcará como completo. <br>Seleccione entre las siguientes opciones:</p> 
-         <ul> 
-         <li> <p><strong>Automático</strong>: el proyecto se marca como completo cuando se completen todas las tareas y problemas.</p> </li> 
-         <li> <p><strong>Manual</strong>: debe seleccionar manualmente el estado completo del proyecto cuando se hayan completado todas las tareas y problemas. </p> </li> 
-         </ul> </td> 
-       </tr> 
-       <tr> 
-       <td role="rowheader"><strong>Modo de finalización de resumen</strong> </td> 
-       <td> <p>Controla la manera en que las tareas principales del futuro proyecto se marcan como completas. <br>Seleccione entre las siguientes opciones:</p> 
-       <ul> 
-       <li> <p><strong>Automático</strong>: las tareas principales se marcan como Completas y actualizan su porcentaje completado automáticamente, a medida que se completan las tareas secundarias y se actualiza el porcentaje completado de las tareas secundarias. </p> </li> 
-       <li> <p><strong>Manual</strong>: debe actualizar manualmente el porcentaje completado y el estado de las tareas principales, independientemente de los cambios que se realicen en las tareas secundarias. </p> </li> 
-       </ul> </td> 
-       </tr> 
-       <tr> 
-         <td role="rowheader"><strong>Tipo de actualización</strong> </td> 
-         <td> <p>Controla cuándo se guardan en el proyecto los cambios realizados en la línea de tiempo del futuro proyecto. </p> 
-         <b>EJEMPLO </b> 
-         <p>Los siguientes cambios en el proyecto activan una actualización en la línea de tiempo del proyecto:</p> 
-         <ul> 
-         <li> <p>actualizar las fechas de las tareas</p> </li> 
-         <li> <p>cambiar relaciones de predecesoras<br></p> </li> 
-         <li> <p>cambiar relaciones principales y secundarias</p> </li> 
-         <li> <p>añadir o quitar asignaciones, además de cambiar la restricción de tarea o el tipo de duración.</p> </li> 
-         </ul> 
-         </div> <p>Seleccione entre las siguientes opciones:<br></p> 
-         <ul> 
-         <li> <p><strong>Automático y al cambiar</strong> (configuración predeterminada): la línea de tiempo del proyecto futuro se actualiza cada vez que se produce un cambio en el proyecto o en otro proyecto del que depende la línea de tiempo (al cambiar). La cronología del proyecto también se actualiza cada noche (Automática).<br>Esta es la configuración recomendada para este campo porque garantiza que la línea de tiempo del proyecto siempre esté actualizada.<br>Cuando realiza una acción en una tarea o proyecto que activa un recálculo de línea de tiempo, todas las fechas disponibles se muestran inmediatamente, lo que le permite seguir trabajando. En los proyectos con más de 100 tareas, las fechas que requieran recálculos mayores se muestran brevemente como signo de interrogación (entre 1 y 5 segundos, o hasta un minuto en los proyectos grandes). Esto indica que el recálculo aún no ha finalizado y que las fechas están sujetas a cambios.<br></p> </li> 
-         </ul> 
-         <ul> 
-         <li> <p><strong>Solo al cambiar</strong>: la línea de tiempo del proyecto se actualiza cada vez que se produce un cambio en el proyecto o en otro proyecto del que depende la línea de tiempo. Es posible que desee seleccionar esta opción si los cambios rara vez se producen en el proyecto o en otros proyectos de los que depende la cronología.<br></p> </li> 
-         </ul> 
-         <ul> 
-         <li> <p><strong>Solo automático</strong>: la línea de tiempo del proyecto se actualiza cada noche; no se actualiza inmediatamente después de realizar los cambios.<br>Es posible que desee seleccionar esta opción si se producen muchos cambios cada día en el proyecto o en otros proyectos de los que depende la línea de tiempo. Sin embargo, tenga en cuenta que ha elegido esta configuración, ya que el proyecto no se actualizará al mismo tiempo que se realizan los cambios.<br></p> </li> 
-         </ul> 
-         <ul> 
-         <li> <p><strong>Solo manual</strong>: la línea de tiempo del proyecto solo se actualiza cuando selecciona la opción para recalcular las líneas de tiempo, tal como se describe en <a href="../../../manage-work/projects/manage-projects/recalculate-project-timeline.md" class="MCXref xref">Recalcular las líneas de tiempo del proyecto</a>.<br></p> </li> 
-         </ul> <p>Es posible que desee seleccionar esta opción si realiza muchos cambios en el proyecto al mismo tiempo y desea que el cálculo de la escala de tiempo se produzca después de realizar todos los cambios (en lugar de después de cada cambio individual).</p> </td> 
-       </tr> 
-       <tr> 
-         <td role="rowheader"><strong>Programación</strong> </td> 
-         <td> <p>Seleccione una programación para la plantilla. Esto se convertirá en la programación del proyecto que se crea a partir de esta plantilla. Debe ser la misma programación asignada a la mayoría de las personas que trabajan en el proyecto. Debe crear una programación para poder asignarla a una plantilla.<br>Para obtener más información sobre cómo crear programaciones, consulte <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">Crear una programación</a>. <br>Si no ha creado programaciones personalizadas en el sistema, se selecciona la Programación predeterminada. </p> </td> 
-       </tr> 
-       <tr> 
-         <td role="rowheader"><strong>Días libres del usuario</strong> </td> 
-         <td> <p>Determina si los días libres de la persona asignada principal de una tarea ajusta las fechas planificadas de la tarea. Cuando adjunta la plantilla a un proyecto existente y la plantilla tiene una configuración para este campo diferente a la del proyecto, la configuración del proyecto permanece sin cambios. La opción predeterminada para esta configuración para una plantilla nueva es la misma que la preferencia del proyecto a nivel del sistema. </p> <p>Para obtener información acerca de las preferencias del proyecto a nivel del sistema, consulte <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configurar las preferencias de proyecto de todo el sistema</a>. </p> <p>Para obtener información acerca de cómo afecta esta configuración a las fechas de las tareas de un proyecto, consulte <a href="../../../manage-work/projects/manage-projects/edit-projects.md" class="MCXref xref">Editar proyectos</a>.<br>Seleccione entre las siguientes opciones:<br></p> 
-         <ul> 
-         <li> <p><strong>Tenga en cuenta el tiempo libre del usuario en las duraciones de la tarea</strong>: al seleccionar esta opción, las fechas planificadas de las tareas en el proyecto creadas a partir de esta plantilla se ajustan según el tiempo libre de la persona asignada principal de la tarea, si el tiempo libre se produce durante la duración de la tarea. </p> </li> 
-         <li> <p><strong>Ignore el tiempo libre del usuario en las duraciones de la tarea</strong>: al seleccionar esta opción, las fechas planificadas de las tareas en el proyecto creado a partir de esta plantilla permanecen tal y como se planificó originalmente, incluso si la persona asignada principal de la tarea tiene tiempo libre durante la duración de la tarea. </p> </li> 
-         </ul> </td> 
-       </tr> 
-       <tr> 
-         <td role="rowheader"><strong>Modo de nivelación de recursos</strong> </td> 
-         <td> <p>Seleccione entre las siguientes opciones:<br></p> 
-         <ul> 
-         <li> <p><strong>Manual</strong>: debe redistribuir manualmente los recursos en el proyecto creado a partir de esta plantilla (esta es la configuración predeterminada)</p> </li> 
-         <li> <p><strong>Automático:</strong> Workfront nivela los recursos en el proyecto futuro. <br>Para obtener más información acerca de la nivelación de recursos, consulte <a href="../../../manage-work/gantt-chart/use-the-gantt-chart/level-resources-in-gantt.md" class="MCXref xref">Nivelar recursos en el Gráfico Gantt </a>. </p> </li> 
-         </ul> </td> 
-       </tr> 
-       <tr> 
-         <td role="rowheader"><strong>Riesgo</strong> </td> 
-         <td> <p>Defina el nivel de riesgo de los proyectos creados a partir de esta plantilla. El riesgo es solo un indicador de lo riesgoso que puede ser un proyecto. Puede priorizar la ejecución de sus proyectos en función del nivel de riesgo.<br>Considere la posibilidad de seleccionar entre los siguientes niveles de riesgo:<br></p> 
-         <ul> 
-         <li> <p><strong>Muy bajo</strong> </p> </li> 
-         <li> <p><strong>Bajo</strong> </p> </li> 
-         <li> <p><strong>Medio</strong> </p> </li> 
-         <li> <p><strong>Alto</strong> </p> </li> 
-         <li> <p><strong>Muy alto</strong> </p> </li> 
-         </ul> </td> 
-       </tr> 
-       <tr> 
-         <td role="rowheader"><strong>Conjuntos de recursos</strong> </td> 
-         <td> <p>Especifique los conjuntos de recursos asociados a la plantilla. Los conjuntos de recursos son colecciones de usuarios que se necesitan al mismo tiempo para completar un proyecto. Para obtener más información sobre los conjuntos de recursos, consulte <a href="../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md" class="MCXref xref"> Información general sobre los conjuntos de recursos </a>.</p> <p> <p><b>NOTA</b>
-
-   Cuando edita plantillas de forma masiva, solo aparecen en este campo los conjuntos de recursos que son comunes a todas las plantillas seleccionadas. Si las plantillas seleccionadas no tienen conjuntos de recursos compartidos, este campo estará vacío. Los conjuntos de recursos que especifique aquí sobrescribirán los conjuntos de recursos individuales de las plantillas.</p> </p> </td>
-   </tr>
-       <tr> 
-         <td role="rowheader"><strong>Filtrar tipo de horas</strong> </td> 
-         <td> <p>Tenga en cuenta lo siguiente:</p> <p>Seleccione <strong>No</strong> para que todos los tipos de horas específicas del proyecto estén disponibles en el proyecto futuro. (Es la selección predeterminada)</p> <p>O</p> <p>Seleccione <strong>Sí</strong> para que solo un subconjunto de los tipos de horas específicas del proyecto esté disponible en el proyecto futuro y, a continuación, seleccione los tipos de horas que desee que estén disponibles. (Mantenga pulsada la tecla Mayús para seleccionar varios tipos de horas).</p> <p>Si selecciona esta opción, solo se podrán seleccionar los tipos de horas que seleccione cuando registre las horas en el proyecto (o en tareas y problemas dentro del proyecto). Debe seleccionar al menos un tipo de hora; si selecciona esta opción y no selecciona ningún tipo de hora, todos los tipos de horas estarán disponibles en el proyecto.</p> <p>Las mismas selecciones de tipo de hora deben realizarse a nivel de usuario individual para que el usuario pueda ver estas opciones de tipo de hora en el proyecto. </p> <p>Para obtener más información sobre la definición de tipos de horas en el nivel de usuario, consulte la sección <a href="../../../timesheets/create-and-manage-timesheets/log-time.md#understa" class="MCXref xref">Hora de registro</a> en <a href="../../../timesheets/create-and-manage-timesheets/log-time.md" class="MCXref xref">Hora de registro</a>.</p> </td> 
-       </tr> 
-       <tr> 
-         <td role="rowheader"><strong>Proceso de aprobación</strong> </td> 
-         <td> <p>Seleccione el proceso de aprobación que desee asociar con la plantilla. El administrador de Workfront o un usuario con acceso administrativo a los procesos de aprobación deben definir los procesos de aprobación de proyectos de nivel de sistema o de grupo para poder asociarlos a una plantilla. Para obtener más información sobre cómo crear procesos de aprobación, consulte <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md" class="MCXref xref">Crear un proceso de aprobación para elementos de trabajo</a>.</p> <p>Tenga en cuenta lo siguiente a la hora de añadir procesos de aprobación: </p> 
-         <ul> 
-         <li>En la lista solo se muestran los procesos de aprobación activos. </li> 
-         <li> <p>Los procesos de aprobación de todo el sistema y específicos del grupo se muestran en la lista. Un proceso de aprobación asociado a un grupo que no sea el de la plantilla no se muestra en la lista.</p> <p><b>IMPORTANTE</b>
-
-   Si el grupo asociado a la plantilla cambia, el proceso de aprobación específico del grupo se convertirá en un proceso de aprobación de un solo uso. Para obtener más información sobre cómo los cambios en el grupo del proyecto o los cambios en el proceso de aprobación afectan a la configuración de la aprobación, consulte <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md">Cómo afectan los cambios en el grupo y el proceso de aprobación a los procesos de aprobación asignados</a>. </p> </li>
-   <li> <p>Si ha añadido un proceso de aprobación de un solo uso, se mostrará como “Personalizado” en este campo. Para obtener más información, consulte <a href="../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md" class="MCXref xref">Asociar un proceso de aprobación nuevo o existente con el trabajo</a>. </p> 
-         </li> 
-         <li> <p>Cuando se editan plantillas de forma masiva, se dan los siguientes escenarios:</p> 
-         <ul> 
-            <li> <p>Al seleccionar plantillas del mismo grupo, en este campo se muestran tanto los procesos de aprobación a nivel de sistema como los de nivel de grupo.</p> </li> 
-            <li> <p>Al seleccionar plantillas de diferentes grupos, solo se muestran en este campo los procesos de aprobación a nivel de sistema.</p> </li> 
-            <li> <p>Cuando alguna de las plantillas tiene un proceso de aprobación de un solo uso adjunto, se reemplazará por el proceso a nivel de sistema que seleccione. </p> </li> 
-         </ul> </li> 
-         </ul> </td> 
-       </tr> 
-       <tr> 
-         <td role="rowheader"><strong>Notificación de recordatorio</strong> </td> 
-         <td>Seleccione la notificación de recordatorio que debe asociarse al proyecto futuro. Debe configurar las notificaciones de recordatorio de los proyectos para que este campo aparezca durante la edición de una plantilla. <br>Para obtener más información sobre cómo configurar las notificaciones de recordatorio, consulte <a href="../../../administration-and-setup/manage-workfront/emails/set-up-reminder-notifications.md" class="MCXref xref">Configurar notificaciones de recordatorio</a>.</td> 
-       </tr> 
-       </tbody> 
-      </table>
-
-1. (Opcional) Siga editando las secciones siguientes, según la información que desee modificar.\
-   O
-1. Haga clic en **Guardar**.
-
-### Configuración de tarea {#task-settings}
-
-Puede definir los valores predeterminados que se asociarán a todas las tareas nuevas cuando las añada a un proyecto que se cree a partir de la plantilla.
-
-Para obtener información sobre cómo afecta esta configuración a la creación de nuevas tareas, consulte [Información general sobre la creación de tareas](../../../manage-work/tasks/create-tasks/create-tasks-overview.md).
-
-1. Empiece a editar la plantilla tal como se ha descrito anteriormente.
-1. En el cuadro **Editar plantilla**, haga clic en **Configuración de tarea**.
-
-   ![Editar configuración de tarea del cuadro de plantilla](assets/edit-template-box-tax-settings-section.png)
-
-1. En el cuadro **Proceso de aprobación predeterminado de tarea**, seleccione el proceso de aprobación que desee asociar con todas las tareas nuevas cuando las añada a un proyecto creado a partir de esta plantilla. Debe crear un proceso de aprobación para las tareas antes de poder asociarlo a las tareas. En la lista solo se muestran los procesos de aprobación activos. Para obtener más información sobre la creación de procesos de aprobación, consulte [Creación de procesos de aprobación](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
-1. En el cuadro **Formularios personalizados predeterminados de tareas**, seleccione el formulario o formularios personalizados que desee asociar con todas las tareas nuevas cuando los añada a un proyecto creado a partir de esta plantilla. Debe generar los formularios personalizados antes de que estén disponibles para seleccionarlos en este campo. En la lista solo se muestran los formularios personalizados activos. Para obtener más información sobre la creación de formularios personalizados, consulte [Crear un formulario personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md). Puede asociar hasta diez formularios personalizados a una tarea.
-1. (Opcional) Seleccione **Usar esfuerzo laboral para calcular automáticamente las horas planificadas de la tarea** si desea habilitar la administración del esfuerzo de la tarea mediante esfuerzo laboral en lugar de horas planificadas en el proyecto creado a partir de la plantilla.
-1. (Condicional y opcional) Si ha seleccionado Usar esfuerzo laboral para calcular automáticamente las horas planificadas de la tarea, haga clic en el menú desplegable para actualizar el porcentaje de cada nivel de esfuerzo laboral. Los siguientes valores de porcentaje son los predeterminados:
-
-   | Nivel de esfuerzo laboral | Valor porcentual |
-   |---|---|
-   | Pequeño | 25 % |
-   | Media | 50 % |
-   | Grande | 75 % |
-
-   Para obtener información sobre cómo usar Esfuerzo laboral para administrar el esfuerzo en tareas de proyectos, consulte [Información general de esfuerzo laboral](../../../manage-work/tasks/task-information/work-effort.md).
-
-1. (Opcional) Siga editando la sección siguiente, según la información que desee modificar.
-
-   O
-
-   Haga clic en **Guardar**.
-
-### Configuración de problema {#issue-settings}
-
-Al editar la configuración de problemas, puede evitar que los usuarios añadan problemas en línea en el proyecto futuro creado a partir de la plantilla.
-
-1. Empiece a editar la plantilla tal como se ha descrito anteriormente.
-1. En el cuadro **Editar plantilla**, haga clic en **Configuración del problema**.
-
-   ![Editar configuración de problema de cuadro de plantilla](assets/edit-template-box-issue-settings-section.png)
-
-1. (Opcional) Anule la selección de la opción **Permitir que los usuarios añadan problemas en línea**. Está habilitada de forma predeterminada.
-
-   Al deshabilitar esta opción, los usuarios no pueden añadir problemas en línea al proyecto o a las tareas de la sección Problemas, cuando el proyecto se crea a partir de la plantilla.
-
-   >[!TIP]
-   >
-   >Deshabilite esta opción si desea obligar a los usuarios a rellenar los campos de nuevo problema o los formularios personalizados asociados a nuevos problemas.
-
-   Al deshabilitar esta opción, los usuarios con permisos para añadir problemas al proyecto creado a partir de la plantilla pueden hacerlo utilizando el botón Nuevo problema o una cola de solicitudes asociadas al proyecto.
-
-   Para obtener más información acerca de la configuración de problemas en proyectos, consulte la sección [Configuración del problema](../../../manage-work/projects/manage-projects/edit-projects.md#issue) en el artículo [Editar proyectos](../../../manage-work/projects/manage-projects/edit-projects.md).
-
-   Para obtener información sobre cómo crear problemas en proyectos, consulte [Crear problemas](../../../manage-work/issues/manage-issues/create-issues.md).
-
-1. (Opcional) Siga editando la sección siguiente, según la información que desee modificar.
-
-   O
-
-   Haga clic en **Guardar**.
-
-### Acceso {#access-preview}
-
-1. Empiece a editar la plantilla tal como se ha descrito anteriormente.
-1. En el cuadro **Editar plantilla**, haga clic en el **Acceder**.
-
-   ![Editar acceso al cuadro de plantilla](assets/edit-template-box-access-section.png)
-
-   El acceso que especifique para la plantilla se convertirá en el acceso de los usuarios asociados al proyecto cuando la plantilla se utilice para crear un proyecto.
-
-   Especifique la siguiente información de **Acceso** para la plantilla:
-
-   <table style="table-layout:auto"> 
-       <col> 
-       <col> 
-       <tbody> 
-       <tr> 
-         <td role="rowheader"><strong>Cada vez que se asigne a una persona a una tarea</strong> </td> 
-         <td> <p>Seleccione entre el acceso de <strong>Visualización</strong>, <strong>Contribución</strong> o <strong>Administración</strong> a una tarea. Al usuario asignado a una tarea se le concede automáticamente este acceso a la tarea. </p> </td> 
-       </tr> 
-       <tr> 
-         <td role="rowheader"><strong>Conceder también acceso al proyecto</strong> </td> 
-         <td> <p> Seleccione entre el acceso de <strong>Visualización</strong>, <strong>Contribución</strong> o <strong>Administración</strong> al proyecto. Al usuario asignado a una tarea se le concede automáticamente este acceso al proyecto. </p> </td> 
-       </tr> 
-       <tr> 
-         <td role="rowheader"><strong>Cuando se asigna a una persona a un problema</strong> </td> 
-         <td> <p>Seleccione entre el acceso de <strong>Visualización</strong>, <strong>Contribución</strong> o <strong>Administración</strong> a un problema. Al usuario asignado a un problema se le concede automáticamente este acceso. </p> </td> 
-       </tr> 
-       <tr> 
-         <td role="rowheader"><strong>Conceder también acceso al proyecto</strong> </td> 
-         <td> <p> Seleccione entre el acceso de <strong>visualización</strong>, <strong>contribución</strong> o <strong>administración</strong> del proyecto. Al usuario asignado a un problema se le concede también automáticamente este acceso al proyecto. </p> </td> 
-       </tr> 
-       <tr> 
-         <td role="rowheader"><strong>Cuando una persona envía una solicitud: concederle acceso</strong> </td> 
-         <td> <p> Seleccione entre el acceso de <strong>visualización</strong>, <strong>contribución</strong> o <strong>administración</strong> de la solicitud. Cuando envían una solicitud al proyecto, se les concede este acceso a la solicitud que han enviado. Para obtener más información, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Compartir un problema</a>.</p> </td> 
-       </tr> 
-       <tr> 
-         <td role="rowheader"><strong>Las personas de la misma compañía heredarán los mismos permisos en todas las solicitudes.</strong> </td> 
-         <td> <p>Seleccione este campo si desea que las personas de la misma compañía tengan el mismo acceso a todas las solicitudes del proyecto, tanto si las han enviado como si no.</p> </td> 
-       </tr> 
-       <tr> 
-         <td role="rowheader"><strong>Cuando alguien recibe acceso a este proyecto: concederle acceso a...</strong> </td> 
-         <td> <p>Seleccione las opciones de acceso que desea que tengan los usuarios en el proyecto, si el proyecto se comparte con ellos. Seleccione las opciones específicas para su acceso si se les ha designado como <strong>visualizadores</strong>, <strong>colaboradores</strong> o <strong>administradores</strong> al compartir el proyecto con ellos. </p> </td> 
-       </tr> 
-       </tbody> 
-      </table>
-
-1. (Opcional) Siga editando las secciones siguientes, según la información que desee modificar.
-
-   O
-
-   Haga clic en **Guardar**.
-
-   Los cambios se enviarán para esta plantilla.
-
-   Ahora, cuando utilice esta plantilla para crear un proyecto, toda esta configuración se transferirá al nuevo proyecto.
-
-
-### Carpetas vinculadas (disponibilidad condicional) {#linked-folders}
-
-La funcionalidad de carpetas vinculadas crea automáticamente carpetas en Adobe Experience Manager Assets y las conecta a Workfront.
-
-Esta sección solo aparece si se aplican todas las condiciones siguientes:
-
-* Su organización ha migrado a Adobe Admin Console
-* Su organización ha habilitado y configurado una integración con Adobe Experience Manager
-* La plantilla ha habilitado y configurado las carpetas vinculadas.
-
-Para obtener instrucciones sobre la edición de carpetas vinculadas, consulte [Editar valores de flujo de trabajo en un proyecto](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-aem-workflows.md#edit-workflow-values-in-a-project) en el artículo [Usar flujos de trabajo en la integración de Experience Manager Assets](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-aem-workflows.md).
-
-<!--I don't think this note is valid anymore - this note was on Edit project when this section was in that article, by mistake: 
->[!NOTE]
->
->Because linked folders are created when the project is created, editing the linked folder workflow on an existing project is ineffective. Editing these values when creating a project functions as expected.-->
-
-## Editar plantillas de forma masiva
-
-Puede editar las plantillas de forma masiva y actualizar toda su información al mismo tiempo.
-
-Para editar plantillas de forma masiva:
-
-1. Haga clic en el icono **Menú principal** ![Icono del menú principal](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront.
-
-1. Haga clic en **Plantillas**.
-1. Seleccione varias plantillas en la lista.
-1. Haga clic en **Editar**.
-
-   Se abrirá el cuadro de diálogo **Editar plantillas**.
-
-   ![Editar plantillas](assets/edit-templates-in-bulk-box-nwe-350x327.png)
-
-1. Haga clic en las secciones de la izquierda para editar todas las plantillas seleccionadas.
-
-   Para obtener más información sobre cómo editar la información de las plantillas, consulte la sección [Editar una plantilla](#edit-a-template) en este artículo.
-
-1. Haga clic en **Guardar cambios**.
-
-   Todos los cambios que haya realizado estarán ahora visibles en todas las plantillas seleccionadas.
-
-## Añadir tareas a una plantilla
-
-Una vez creada la plantilla y editada su información, puede añadirle tareas.
-
-La adición de tareas a una plantilla es similar a la adición de tareas a un proyecto.
-
-Para obtener más información sobre cómo añadir tareas a un proyecto, consulte [Crear tareas en un proyecto](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md).
-
-Cuando se añaden tareas a una plantilla, la duración de la plantilla y los días de inicio y de finalización de la plantilla cambian en consecuencia. Para obtener información sobre los días de inicio y de finalización de la plantilla y de las tareas de la plantilla, consulte [Información general sobre los días de inicio y finalización de una plantilla](../../../manage-work/projects/create-and-manage-templates/overview-of-start-completion-day-on-template.md).
-
-## Añadir elementos adicionales a una plantilla
-
-Una vez creada la plantilla y editada su información, puede añadirle más elementos. Los elementos que añada estarán disponibles para el proyecto cuando lo esté creando a partir de la plantilla.
-
-La adición de los siguientes elementos a una plantilla es idéntica a su adición a un proyecto:
-
-* Documentos
-* Riesgos
-
-  Para obtener más información sobre la creación de riesgos, vea [Crear y editar riesgos en proyectos](/help/quicksilver/manage-work/projects/define-a-business-case/create-edit-risks-on-projects.md).
-
-* Procesos de aprobación
-
-  Para obtener información sobre cómo asociar procesos de aprobación con trabajo, consulte [Asociar un proceso de aprobación nuevo o existente con trabajo](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md).
-
-* Tarifas de facturación
-
-  Agregar tarifas de facturación para una plantilla es similar a agregar tarifas de facturación a un proyecto. Para obtener más información, consulte [Anulación de tarifas de facturación de funciones en el nivel de proyecto](/help/quicksilver/manage-work/projects/project-finances/override-job-role-billing-rates-at-the-project-level.md).
-
-* Gastos
-
-  Para obtener más información sobre cómo añadir gastos, consulte [Administrar gastos del proyecto](../../../manage-work/projects/project-finances/manage-project-expenses.md).
-
-* Detalles de la cola
-
-  Para obtener información acerca de cómo agregar detalles de cola a un proyecto o una plantilla, vea [Crear una cola de solicitudes](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
-
-* Grupos de temas y temas de la cola
-
-  Para obtener información sobre cómo agregar grupos de temas y temas de colas a un proyecto o plantilla, vea los siguientes artículos:
-
-   * [Crear grupos de temas](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-topic-groups.md)
-   * [Crear temas de la cola](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-queue-topics.md)
-
-Puede añadir los siguientes elementos a las tareas de la plantilla:
-
-* Documentos
-* Gastos
-
-  Para obtener más información sobre cómo añadir gastos, consulte [Administrar gastos del proyecto](../../../manage-work/projects/project-finances/manage-project-expenses.md).
-
-* Rutas de aprobación
-
-  Para obtener más información sobre cómo asociar las aprobaciones con el trabajo, consulte [Asociar un proceso de aprobación nuevo o existente con trabajo](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md).
-
-
-## Activar o desactivar una plantilla
-
-Puede desactivar una plantilla si desea que los usuarios no puedan encontrarla y crear proyectos a partir de ella. No puede adjuntar una plantilla desactivada a proyectos ni utilizarla para crear un proyecto.
-
-Las plantillas desactivadas no afectan a los proyectos existentes que se crearon con ellas.
-
-Para desactivar una plantilla:
-
-1. Vaya a una plantilla activa, luego haga clic en el menú **Más** ![Icono de más](assets/qs-more-icon-on-an-object.png) junto al nombre de la plantilla y, a continuación, haga clic en **Desactivar**.
-
-   ![Desactivar plantilla](assets/deactivate-template-link-in-more-menu.png)
-
-   La plantilla dejará de estar activa y los usuarios ya no podrán encontrarla para crear proyectos a partir de ella.
-1. (Opcional) Para activar la plantilla, haga clic en el menú **Más** ![Más iconos](assets/qs-more-icon-on-an-object.png) junto al nombre de la plantilla y, a continuación, haga clic en **Activar**.
-
-   La plantilla ahora estará activa y ya se puede adjuntar a proyectos o utilizar para crear proyectos.
-

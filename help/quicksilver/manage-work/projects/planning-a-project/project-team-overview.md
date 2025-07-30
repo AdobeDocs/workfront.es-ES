@@ -3,14 +3,14 @@ content-type: overview
 product-area: projects;agile-and-teams
 navigation-topic: plan-a-project
 title: Información general del equipo del proyecto
-description: Los usuarios que están asociados a un proyecto en cierta capacidad conforman el equipo del proyecto. Los usuarios que aparecen en el área Personas de un proyecto son los usuarios que conforman el equipo del proyecto.
+description: Los usuarios que están asociados a un proyecto en cierta capacidad conforman el equipo del proyecto. Los usuarios que aparecen en el área Personas de un proyecto o una plantilla son los usuarios que conforman el equipo del proyecto.
 author: Alina
 feature: Work Management
 exl-id: ceb25fb1-57fc-476c-b92c-fc41aadc0b5b
-source-git-commit: 3dfb30646e8a967264f7e562441a52a059d73d32
+source-git-commit: d77da0569389104172fc759c53a9eb00acec4f65
 workflow-type: tm+mt
-source-wordcount: '414'
-ht-degree: 3%
+source-wordcount: '450'
+ht-degree: 7%
 
 ---
 
@@ -20,6 +20,8 @@ ht-degree: 3%
 
 Un equipo de proyecto consta de usuarios que están asociados a un proyecto en cierta capacidad. Los usuarios enumerados en el área Personas de un proyecto conforman el equipo del proyecto. Por ejemplo, los usuarios asignados para trabajar en el proyecto o el propietario del proyecto forman parte del equipo del proyecto.
 
+Los usuarios asociados con el trabajo en una plantilla de proyecto o que son el propietario o patrocinador de la plantilla forman parte del futuro equipo de proyecto una vez que el proyecto se ha creado con la plantilla.
+
 ## Miembros del equipo del proyecto
 
 Puede asignar usuarios a un equipo del proyecto manualmente o automáticamente. Para obtener más información, vea la sección Agregar usuarios a un equipo del proyecto en el artículo [Administrar el equipo del proyecto](../../../manage-work/projects/planning-a-project/manage-project-team.md).
@@ -28,7 +30,13 @@ Cuando agregue usuarios manualmente al equipo del proyecto, recibirán permisos 
 
 ## Notificaciones a los miembros del equipo del proyecto
 
-Según las notificaciones de correo electrónico que habilite el administrador de Adobe Workfront, se notificarán a los usuarios de un equipo de proyecto las distintas acciones de un proyecto. Para obtener más información sobre cómo habilitar las notificaciones por correo electrónico, consulte [Configurar notificaciones de eventos para todos los usuarios del sistema](../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
+Según las notificaciones de correo electrónico que habilite el administrador de Adobe Workfront, se notificarán a los usuarios de un equipo de proyecto las distintas acciones de un proyecto.
+
+Para obtener más información, consulte los siguientes artículos:
+
+* [Tipos de notificaciones de eventos](/help/quicksilver/administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md)
+
+* [Configurar notificaciones de los eventos para todos los usuarios del sistema](../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md)
 
 >[!NOTE]
 >

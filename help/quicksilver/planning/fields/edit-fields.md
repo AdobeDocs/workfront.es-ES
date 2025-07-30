@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 6c35c313-d6ed-428b-b70d-2ea242da4e8f
-source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
+source-git-commit: 567fa8c960f7db47279d6cde1f5e90dc7f38ae79
 workflow-type: tm+mt
-source-wordcount: '663'
-ht-degree: 77%
+source-wordcount: '668'
+ht-degree: 76%
 
 ---
 
@@ -146,7 +146,11 @@ Debe tener en cuenta lo siguiente antes de realizar cambios en la configuración
 
    ![Menú de flecha después del nombre del campo en el encabezado de tabla resaltado](assets/arrow-menu-after-name-of-field-in-table-header-highlighted.png)
 
-1. Actualice la información sobre el campo y haga clic en **Guardar**. <!--insert screen shot when finalized-->
+1. Actualice la información sobre el campo y haga clic en **Guardar**.
+
+   Para obtener más información, consulte [Crear campos](/help/quicksilver/planning/fields/create-fields.md).
+
+   <!--insert screen shot when finalized-->
 
    >[!TIP]
    >

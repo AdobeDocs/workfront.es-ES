@@ -2,25 +2,85 @@
 product-area: projects;agile-and-teams
 navigation-topic: plan-a-project
 title: Administrar el equipo del proyecto
-description: El equipo del proyecto está formado por usuarios asociados al proyecto. Los miembros del equipo del proyecto se muestran en la sección Personas del proyecto.
+description: El equipo del proyecto está formado por usuarios asociados al proyecto. Los miembros del equipo del proyecto se muestran en la sección Personas del proyecto o en la sección Personas de la plantilla que se puede utilizar para crear un proyecto.
 author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: 6e8036fc-feda-4277-9502-0b973028fccb
-source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
+source-git-commit: d77da0569389104172fc759c53a9eb00acec4f65
 workflow-type: tm+mt
-source-wordcount: '671'
-ht-degree: 99%
+source-wordcount: '1181'
+ht-degree: 27%
 
 ---
 
 # Administrar el equipo del proyecto
 
-El equipo del proyecto está formado por usuarios asociados al proyecto. Los miembros del equipo del proyecto se muestran en la sección Personas del proyecto.
+<!--
+<div class="preview"> 
+
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release.      
+
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
+
+</div> 
+
+-->
+
+El equipo del proyecto está formado por usuarios asociados al proyecto. Para más información, consulte [Información general del equipo del proyecto](/help/quicksilver/manage-work/projects/planning-a-project/project-team-overview.md).
+
+Los miembros del equipo del proyecto se muestran en la sección Personas del proyecto.
+
+Los usuarios que se muestran en la sección Personas de una plantilla de proyecto se convertirán en el equipo del proyecto una vez creado el proyecto a partir de la plantilla.
+
+Los siguientes usuarios se agregan automáticamente al equipo del proyecto, tanto para proyectos como para plantillas:
+
+* Propietario
+* Patrocinador
+* Usuarios asignados a tareas
+* Usuarios asignados a problemas (solo para un proyecto)
+
+Los usuarios del equipo del proyecto reciben notificaciones sobre el proyecto. Para obtener más información, consulte [Tipos de notificación de eventos](/help/quicksilver/administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
+
+Puede administrar los usuarios de los equipos del proyecto y de la plantilla agregándolos (solo para el proyecto), eliminándolos o enviándoles una actualización.
 
 ## Requisitos de acceso
 
-<!--drafted for P&P:
++++ Amplíe para ver los requisitos de acceso.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Plan de Adobe Workfront*</td> 
+   <td> <p>Cualquiera</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Licencia de Adobe Workfront*</td> 
+   <td> <p>Nuevo: estándar </p>
+    <p>Actual: plan </p>
+    </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Nivel de acceso</td> 
+   <td> <p>Acceso de edición a proyectos y plantillas</p> <p>Acceso de visualización o superior a los usuarios</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Permisos de objeto</td> 
+   <td> <p>Ver permisos superiores a un proyecto o a una plantilla</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+*Para obtener información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
+<!--Old access: 
+
+You must have the following access to perform the steps in this article:
+
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -31,10 +91,7 @@ El equipo del proyecto está formado por usuarios asociados al proyecto. Los mie
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Current license: Standard </p>
-   Or
-   <p>Legacy license: Plan </p>
-    </td> 
+   <td> <p>Plan </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
@@ -48,70 +105,42 @@ El equipo del proyecto está formado por usuarios asociados al proyecto. Los mie
   </tr> 
  </tbody> 
 </table>
--->
 
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
+*To find out what plan, license type, or access you have, contact your Workfront administrator.
 
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Plan de Adobe Workfront*</td> 
-   <td> <p>Cualquiera</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Licencia de Adobe Workfront*</td> 
-   <td> <p>Plan </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Configuraciones de nivel de acceso*</td> 
-   <td> <p>Acceso de edición a proyectos</p> <p>Acceso de visualización o superior a los usuarios</p> <p><b>NOTA</b>
+## Add users to a Project Team
 
-Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td>
-</tr> 
-  <tr> 
-   <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Permisos de visualización o superiores para el proyecto</p> <p>Para obtener información sobre cómo solicitar acceso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a los objetos </a>.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-*Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su administrador de Workfront.
-
-## Agregar usuarios al equipo del proyecto
-
-Cuando agregue usuarios al equipo del proyecto, esos usuarios recibirán permisos de visualización en el proyecto y en las tareas, problemas y documentos del proyecto. Para obtener más información, consulte el artículo [Infomación general sobre el equipo del proyecto](../../../manage-work/projects/planning-a-project/project-team-overview.md).
+When you add users to the project team, they gain View permissions on the project and the tasks, issues, and documents of the project. For more information, see the article [Project Team overview](../../../manage-work/projects/planning-a-project/project-team-overview.md).
 
 >[!TIP]
 >
->Los usuarios del equipo del proyecto no se agregan automáticamente a las herramientas de administración de recursos del proyecto.
+>Users on the Project Team are not automatically added to the resource management tools for the project.
 
-Puede agregar usuarios al equipo del proyecto de las siguientes maneras:
+You can add users to the project team in the following ways:
 
-* [Agregar usuarios automáticamente a un equipo del proyecto](#automatically-add-users-to-a-project-team)
-* [Agregar usuarios manualmente a un equipo del proyecto](#manually-add-users-to-a-project-team)
+* [Automatically add users to a Project Team](#automatically-add-users-to-a-project-team) 
+* [Manually add users to a Project Team](#manually-add-users-to-a-project-team)
 
-### Agregar usuarios automáticamente a un equipo del proyecto {#automatically-add-users-to-a-project-team}
+### Automatically add users to a Project Team {#automatically-add-users-to-a-project-team}
 
-Los usuarios que cumplen las siguientes funciones en el proyecto se agregan automáticamente al equipo del proyecto y aparecen en la sección Personas cuando se crea el proyecto:
+The users that fulfill the following roles on the project are automatically added to the project team and appear  in the People section when the project is created:
 
-* El creador del proyecto
-* El propietario del proyecto
-* El patrocinador del proyecto
+* The creator of the project
+* The project owner
+* The project sponsor
 
-Los usuarios también se agregan automáticamente al equipo del proyecto cuando se les asigna lo siguiente:
+Users are also automatically added to the project team when they are assigned to the following:
 
-* Tareas
-* Problemas
+* Tasks
+* Issues
 
-### Agregar usuarios manualmente a un equipo del proyecto {#manually-add-users-to-a-project-team}
+### Manually add users to a Project Team {#manually-add-users-to-a-project-team}
 
-Si los usuarios que no cumplen ninguna función en el proyecto desean que se les notifiquen determinadas actualizaciones o cambios durante la duración del proyecto, puede agregarlos manualmente al equipo del proyecto.
+If users that don't fulfill any role on the project want to be notified about certain updates or changes during the life of the project, you can manually add them to the project team. 
 
-Para obtener más información sobre las notificaciones que se pueden habilitar para los usuarios del equipo del proyecto, consulte [Tipos de notificaciones de eventos](../../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
+ For more information about what notifications can be enabled for users on the project team, see [Event notification types](../../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md). 
 
-<!--drafted - this used to be the case, in the note below but this limitation was removed on Jan 5, 2023 - as a patch, not a release feature:
+ <!--drafted - this used to be the case, in the note below but this limitation was removed on Jan 5, 2023 - as a patch, not a release feature:
 
 >[!IMPORTANT]
 >
@@ -119,17 +148,23 @@ Para obtener más información sobre las notificaciones que se pueden habilitar 
 
 -->
 
-1. Vaya al proyecto al que desee agregar usuarios.
+## Administración de personas en un proyecto
+
+1. Vaya al proyecto para el que desea administrar el equipo del proyecto.
+
+   >[!TIP]
+   >
+   >Debe tener usuarios asignados a tareas, problemas o partes interesadas en el proyecto para que se muestren en la sección Personas.
 
 1. Haga clic en **Personas** en el panel izquierdo.
 
 1. Haga clic en **Agregar usuarios**.
 
-   Aparece el cuadro de diálogo Agregar usuarios al equipo del proyecto.
+   Se muestra el cuadro **Agregar usuarios al equipo del proyecto**.
 
    ![add_users_dialog.png](assets/add-users-dialog-350x217.png)
 
-1. En el cuadro **Agregar usuarios**, empiece a escribir el nombre de un usuario activo de Workfront que desee agregar al equipo del proyecto y, a continuación, haga clic en el nombre cuando aparezca en la lista desplegable.
+1. En el cuadro **Agregar usuarios**, empiece a escribir el nombre de un usuario activo de Workfront que desee agregar al equipo del proyecto y, a continuación, haga clic en el nombre cuando aparezca en la lista.
 
    Repita este paso para agregar varios usuarios al equipo del proyecto. Los usuarios deben pertenecer al grupo asociado al proyecto.
 
@@ -140,17 +175,126 @@ Para obtener más información sobre las notificaciones que se pueden habilitar 
    >
    >  Debe tener activada la configuración Ver información de contacto en su nivel de acceso para que los usuarios vean los correos electrónicos de los usuarios. Para obtener más información, consulte [Conceder acceso a los usuarios](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
 
-
 1. Haga clic en **Añadir**.
 
    Los usuarios obtienen permisos de visualización del proyecto y reciben notificaciones sobre el proyecto como parte del equipo del proyecto.
 
-## Quitar usuarios del equipo del proyecto
+1. (Opcional) Si desea que un usuario reciba una notificación cuando su rol se agregue a una tarea, problema o aprobación de proyecto, haga clic dentro de la columna **Rol** para el usuario y seleccione un rol que se asociará con la aprobación.
+
+   Los usuarios recibirán notificaciones relacionadas con las aprobaciones asignadas al rol seleccionado.
+
+   Para obtener más información, consulte la sección &quot;Aprobaciones basadas en roles&quot; en el artículo [Información general del equipo del proyecto](/help/quicksilver/manage-work/projects/planning-a-project/project-team-overview.md).
+
+1. Seleccione uno o varios usuarios en la lista y luego haga clic en el icono **Quitar** ![Quitar icono](assets/remove-icon.png) para quitarlos del equipo.
+
+1. Haga clic en **Sí, quitar usuarios seleccionados** para confirmar y quitar los usuarios.
+
+   Los usuarios se quitan y se quitan las asignaciones de los elementos de trabajo incompletos.
+
+   Para obtener más información, consulte la sección [Consideraciones para eliminar usuarios de un equipo de proyecto](#considerations-for-removing-users-from-a-project-team) en este artículo.
+1. (Opcional) Para enviar una actualización para este proyecto a los usuarios, haga clic en Actualizar todo para enviar la actualización a todos los miembros del equipo
+
+   O
+
+   Seleccione uno o varios usuarios en la lista y luego haga clic en **Enviar actualización al usuario**.
+
+   ![Enviar actualización al usuario en un proyecto](assets/send-update-to-user-on-project-box.png)
+
+   Se abre el cuadro **Enviar actualización al usuario**.
+
+1. Realice una de las siguientes acciones:
+
+   * Añada una actualización para los usuarios seleccionados.
+   * Haga clic en el icono de candado para que la actualización sea privada para los usuarios de su empresa.
+   * Etiquete usuarios adicionales para recibir la misma actualización.
+   * Haga clic en **Enviar**.
+
+   La actualización se agrega a la sección **Actualizaciones** del proyecto y todos los usuarios seleccionados se muestran como usuarios etiquetados.
+
+   Los usuarios pueden recibir una notificación por correo electrónico, si están habilitados para ellos, y una notificación dentro de la aplicación sobre la nueva actualización.
+
+1. (Opcional) Haga clic en el icono **Exportar** ![Icono de exportar](assets/export-icon.png) para exportar la lista de usuarios a un archivo
+
+   O
+
+   Seleccione usuarios y luego haga clic en el icono **Exportar** para exportar solo usuarios específicos.
+
+## Administrar personas en una plantilla
+
+1. Vaya a la plantilla para la que desea administrar el equipo del proyecto.
+
+   >[!TIP]
+   >
+   >Debe tener usuarios asignados a tareas o como partes interesadas en la plantilla para que se muestren en la sección Personas.
+
+1. Haga clic en **Personas** en el panel izquierdo.
+
+1. Seleccione uno o varios usuarios en la lista y luego haga clic en **Quitar** para quitarlos del equipo.
+
+1. Haga clic en **Sí, quitar usuarios seleccionados** para confirmar y quitar los usuarios.
+
+   Los usuarios se eliminan y se anula su asignación de las tareas de plantilla.
+
+   Para obtener más información, consulte la sección [Consideraciones para eliminar usuarios de un equipo de proyecto](#considerations-for-removing-users-from-a-project-team) en este artículo.
+
+1. (Opcional) Para enviar una actualización a los usuarios, haga clic en Actualizar todo para enviar la actualización a todos los usuarios de la lista
+
+   O
+
+   Seleccione uno o varios usuarios en la lista y luego haga clic en **Actualizar**.
+
+   <!--update screen shot for unshim-->
+
+   ![Enviar actualización al cuadro de usuario en la plantilla](assets/send-update-to-user-on-template-box.png)
+
+   Se abre el cuadro **Enviar actualización al usuario**.
+
+1. Haga lo siguiente:
+
+   * Añada una actualización para los usuarios seleccionados.
+   * Haga clic en el icono Personas para etiquetar a usuarios adicionales para que reciban la misma actualización.
+   * Haga clic en el icono de candado para que la actualización sea privada para los usuarios de su empresa.
+   * Haga clic en **Enviar**.
+
+   <!--replace list above with:
+   <div class="preview">
+
+   * Add an update for the selected users.
+   * Click **Tag people** to tag additional users to receive the same update. 
+   * Select the **Private to my company** option to to make the update private to the users in your company. 
+   * Click **Send**. 
+   </div>
+   -->
+
+   La actualización se agrega a la sección **Actualizaciones** del perfil de cada usuario etiquetado.
+
+   Los usuarios pueden recibir una notificación por correo electrónico, si están habilitados para ellos, y una notificación dentro de la aplicación sobre la nueva actualización.
+
+1. (Opcional) Haga clic en **Exportar** para exportar la lista de usuarios a un archivo
+
+   O
+
+   Seleccione usuarios y luego haga clic en **Exportar** para exportar solo usuarios específicos.
+
+## Consideraciones para quitar usuarios de un equipo del proyecto
 
 Al quitar usuarios de sus funciones en el proyecto, siguen formando parte del equipo del proyecto.
 
+Debe eliminarlos del equipo del proyecto, de la sección Personas del proyecto, para que dejen de recibir notificaciones enviadas al equipo del proyecto.
+
 Si quita un usuario del equipo del proyecto y el usuario está asignado a tareas o problemas del proyecto, se le quita la asignación de las tareas y problemas que no se hayan completado. En este caso, las tareas y los problemas vuelven al área Trabajo no asignado del Distribuidor de cargas de trabajo.
 
-Los usuarios asignados a tareas y problemas completados permanecen asignados incluso después de quitarlos del equipo del proyecto.
+Los usuarios asignados a tareas y problemas completados permanecen asignados a las tareas y problemas, incluso después de quitarlos del equipo del proyecto.
+
+Los siguientes usuarios se eliminan de sus funciones en el proyecto cuando los elimina de la sección Personas de un proyecto o una plantilla:
+
+* Usuarios asignados a tareas incompletas
+* Usuarios asignados a problemas incompletos
+
+Los siguientes usuarios no se eliminan de sus funciones en el proyecto cuando los elimina de la sección Personas de un proyecto o una plantilla:
+
+* Propietario
+* Patrocinador
 
 Para obtener más información sobre cómo quitar usuarios del equipo del proyecto, consulte [Quitar usuarios de los proyectos](../../../manage-work/projects/manage-projects/remove-users-from-projects.md).
+

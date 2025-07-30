@@ -7,9 +7,9 @@ description: La sección Actualizaciones de un objeto muestra los comentarios qu
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: de42974a9a5c4c346ef3ae1cce09968befd1381c
+source-git-commit: d77da0569389104172fc759c53a9eb00acec4f65
 workflow-type: tm+mt
-source-wordcount: '1196'
+source-wordcount: '1195'
 ht-degree: 71%
 
 ---
@@ -322,7 +322,7 @@ Tenga en cuenta lo siguiente al ver las actualizaciones de usuarios y equipos:
 
    * Agregar, quitar y otras actualizaciones de documentos
    * Adición, eliminación, adición en nombre de y otras actualizaciones de entradas de horas
-   * Notas, actualizaciones de campos personalizados
+   * Actualizaciones en campos personalizados
    * Actualizaciones de perfil de usuario (actualizaciones del avatar del usuario, número de móvil, campo Háblame acerca de, título)
    * Adición, eliminación, cambio de nivel de acceso, cambios en los campos integrados del usuario
    * Información financiera de tareas y proyectos.
