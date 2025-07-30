@@ -5,9 +5,9 @@ description: Puede utilizar IA para rellenar automáticamente los campos de soli
 author: Becky
 feature: Get Started with Workfront
 exl-id: d053e604-5a28-4fd3-8f89-4467b6e46f02
-source-git-commit: d890d467dfdade676a5c93f061a5cbeda53556b6
+source-git-commit: b0454d5fe3d866b30513cdea67d22c06c5efbfb3
 workflow-type: tm+mt
-source-wordcount: '961'
+source-wordcount: '937'
 ht-degree: 3%
 
 ---
@@ -170,6 +170,5 @@ Puede cargar un documento para aplicarlo a todo el formulario o a una sola secci
 Si no recibe las sugerencias esperadas, puede deberse a una de las siguientes causas:
 
 * Debe tener al menos un mes de datos de solicitud en el sistema para poder sugerir valores de campo de solicitudes anteriores.
-* Un elemento de datos de solicitud debe haber estado en el sistema durante más de 24 horas antes de que se pueda sugerir en otra solicitud.
 * Es posible que no haya seguido las protecciones de carga de documentos al cargar un documento desde el que extraer sugerencias. Para obtener más información, consulte [Protecciones de carga de documentos](#document-upload-guardrails) en este artículo.
 
