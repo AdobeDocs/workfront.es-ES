@@ -5,9 +5,9 @@ description: Puede utilizar IA para rellenar automáticamente los campos de soli
 author: Becky
 feature: Get Started with Workfront
 exl-id: d053e604-5a28-4fd3-8f89-4467b6e46f02
-source-git-commit: a3e93311277bc5b68063e0ec1cbdcce3a40eb3dd
+source-git-commit: d890d467dfdade676a5c93f061a5cbeda53556b6
 workflow-type: tm+mt
-source-wordcount: '856'
+source-wordcount: '961'
 ht-degree: 3%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->Actualmente, esta funcionalidad forma parte de una versión beta cerrada. Para activar esta funcionalidad, póngase en contacto con sargism@adobe.com.
+>Actualmente, esta funcionalidad forma parte de una versión beta cerrada. Para habilitar esta funcionalidad, comuníquese con `sargism@adobe.com`.
 >
 >Para poder acceder a la versión beta cerrada, su organización debe cumplir los requisitos para utilizar el asistente de IA de Workfront. Para obtener más información, consulte [Requisitos previos para el asistente de IA](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant).
 
@@ -25,6 +25,8 @@ AI puede ayudarle a rellenar automáticamente los campos de solicitud. Puede sug
 Puede aprobar o rechazar estas sugerencias antes de enviar la solicitud.
 
 El relleno automático no sobrescribe los campos que ya haya rellenado.
+
+Los usuarios no reciben sugerencias de datos a los que no tienen acceso de otro modo.
 
 ## Obtener sugerencias al rellenar el formulario
 
@@ -162,4 +164,12 @@ Puede cargar un documento para aplicarlo a todo el formulario o a una sola secci
    O
 
    Seleccione **Aceptar todo** o **Rechazar todo** en la parte superior de la página para aceptar o rechazar todas las sugerencias.
+
+## Resolución de problemas
+
+Si no recibe las sugerencias esperadas, puede deberse a una de las siguientes causas:
+
+* Debe tener al menos un mes de datos de solicitud en el sistema para poder sugerir valores de campo de solicitudes anteriores.
+* Un elemento de datos de solicitud debe haber estado en el sistema durante más de 24 horas antes de que se pueda sugerir en otra solicitud.
+* Es posible que no haya seguido las protecciones de carga de documentos al cargar un documento desde el que extraer sugerencias. Para obtener más información, consulte [Protecciones de carga de documentos](#document-upload-guardrails) en este artículo.
 
