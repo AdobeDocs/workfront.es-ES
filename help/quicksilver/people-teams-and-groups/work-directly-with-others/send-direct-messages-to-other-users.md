@@ -7,14 +7,16 @@ description: Adobe Workfront permite enviar rápida y fácilmente mensajes que n
 author: Lisa
 feature: People Teams and Groups
 exl-id: 82a1c304-176a-48c5-809d-40663ee768b7
-source-git-commit: 03768a0d3a63c7f6adcd11a6cd2e4d093b24f214
+source-git-commit: 52d722932b6b445bc8ee08a706e4e53765776bf7
 workflow-type: tm+mt
-source-wordcount: '535'
-ht-degree: 49%
+source-wordcount: '604'
+ht-degree: 45%
 
 ---
 
 # Envío de mensajes directos a otros usuarios
+
+{{highlighted-preview}}
 
 [!DNL Adobe Workfront] le permite enviar rápida y fácilmente mensajes que no están relacionados con ningún elemento de trabajo directamente a otros usuarios de [!DNL Workfront]. Los mensajes enviados como se describe en esta sección aparecen en la ficha [!UICONTROL Actualizaciones] de la página de perfil del usuario y son visibles para todos los usuarios. Para obtener información adicional sobre las actualizaciones, consulte [Actualizar elementos de trabajo y ver actualizaciones: índice de artículos](../../workfront-basics/updating-work-items-and-viewing-updates/update-work-items-and-view-updates.md).
 
@@ -83,11 +85,16 @@ Esta opción solo está disponible si tiene una licencia estándar, de plan o de
 {{step-1-to-users}}
 
 1. Seleccione el usuario o usuarios a los que desee enviar un mensaje y haga clic en [!UICONTROL **Enviar actualización al usuario**].
-1. Escriba su mensaje en la ventana [!UICONTROL Enviar actualización al usuario].
+1. Escriba su mensaje en la ventana [!UICONTROL Enviar actualización al usuario]. Utilice las opciones de formato de texto según sea necesario. Para obtener más información, consulte [Usar texto enriquecido en un comentario de Workfront](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md#use-rich-text-in-a-workfront-comment) en el artículo [Trabajo de actualización](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
+   <span class="preview">Imagen de muestra en el entorno de vista previa:</span>
+   ![Usuario de mensaje en la ventana Enviar actualización al usuario](assets/send-update-to-user-072825.png)
+
+   Imagen de muestra en el entorno de producción:
    ![Usuario de mensaje en la ventana Enviar actualización al usuario](assets/send-message-to-user-dialog-from-user-list.png)
 
-1. (Opcional) Busque los usuarios adicionales que desee etiquetar en el mensaje. No es necesario que etiquete a los usuarios que ya haya seleccionado en la lista de usuarios.
+1. <span class="preview">(Opcional) Haga clic en **Etiquetar personas** para etiquetar a cualquier usuario adicional en el mensaje. Para obtener más información, consulte [Etiquetar a otros en las actualizaciones](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).</span>
+1. (Opcional) En el entorno de producción, busque los usuarios adicionales que desee etiquetar en el mensaje. No es necesario que etiquete a los usuarios que ya haya seleccionado en la lista de usuarios.
 1. (Opcional) Seleccione **[!UICONTROL Privado para mi compañía]** para que este mensaje solo sea visible para otros usuarios de su compañía.
 1. Haga clic en [!UICONTROL **Enviar**].
-El mensaje se publica al principio de la lista de mensajes en la ficha **[!UICONTROL Actualizaciones]** de la página de perfil de cada usuario.
+El mensaje se publica al principio de la lista de mensajes en la ficha **[!UICONTROL Actualizaciones]** de cada página de perfil del usuario etiquetado.

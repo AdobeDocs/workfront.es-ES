@@ -3,18 +3,20 @@ product-area: resource-management
 keywords: trabajo,equipo,asignación de personal,recursos
 navigation-topic: the-workload-balancer
 title: Buscar el Distribuidor de cargas de trabajo
-description: Puede utilizar el Distribuidor de cargas de trabajo para programar los recursos para el trabajo o revisar su disponibilidad y las asignaciones actuales.
+description: El Distribuidor de cargas de trabajo está disponible para varios proyectos del área de Recursos, para un equipo, para un proyecto y para un usuario.
 author: Lisa
 feature: Resource Management
 exl-id: 88029c9d-b588-4d33-801a-04f49b12a6e8
-source-git-commit: 485f2985c70b1bb095e31323b7b4698bcb7a04cf
+source-git-commit: a63c53652491a25b909b7563990d4375d8f5885f
 workflow-type: tm+mt
-source-wordcount: '714'
-ht-degree: 92%
+source-wordcount: '841'
+ht-degree: 78%
 
 ---
 
 # Buscar el Distribuidor de cargas de trabajo
+
+{{preview-fast-release-general}}
 
 Puede utilizar el Distribuidor de cargas de trabajo para programar los recursos para el trabajo o revisar su disponibilidad y las asignaciones actuales.
 
@@ -55,7 +57,8 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
    <td><p>Nuevo: estándar</p>
        <p>o</p>
        <p>Actual: Planificar, al usar el Distribuidor de cargas de trabajo en el área de Recursos;</br>
-       Trabaje con el Distribuidor de cargas de trabajo de un equipo o proyecto</p></td>
+       Trabaje con el Distribuidor de cargas de trabajo de un equipo o proyecto</p>
+       <p><span class="preview">Nota: Todos los usuarios pueden acceder al Distribuidor de cargas de trabajo en sus propios perfiles de usuario, sin ningún requisito de licencia.</span></p></td>
   </tr> 
    <td role="rowheader">Configuraciones de nivel de acceso</td> 
    <td> <p>Acceso de visualización o superior a lo siguiente:</p> 
@@ -137,6 +140,27 @@ Se muestra la página de su equipo de inicio.
      >
      >Puede mostrar todos los usuarios del sistema en lugar de solo los del proyecto (en el área de Trabajo asignado) activando la opción Mostrar todos los usuarios. Para obtener más información, consulte [Navegar por el Distribuidor de cargas de trabajo](../workload-balancer/navigate-the-workload-balancer.md).
 
+<div class="preview">
+
+### Acceso al Distribuidor de cargas de trabajo para un usuario
+
+Todos los usuarios tienen acceso para ver el Distribuidor de cargas de trabajo en sus propios perfiles. Los datos del Distribuidor de cargas de trabajo de un usuario son de solo lectura. No puede asignar trabajo, anular la asignación de trabajo ni ajustar asignaciones en el nivel de usuario.
+
+Todos los ajustes de visualización están disponibles para el Distribuidor de cargas de trabajo de un usuario. Para obtener más información, consulte [Navegar por el Distribuidor de cargas de trabajo](/help/quicksilver/resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
+
+{{step1-click-profile-pic}}
+
+1. Haga clic en **Distribuidor de cargas de trabajo** en el panel de la izquierda.
+
+   Aparece el Distribuidor de cargas de trabajo para el usuario.
+
+   ![Distribuidor de cargas de trabajo para un usuario](assets/workload-balancer-user.png)
+
+   El Distribuidor de cargas de trabajo de un usuario muestra lo siguiente a modo de información de forma predeterminada:
+
+   * **Trabajo asignado**: las tareas y problemas asignados al usuario específico.
+
+</div>
 
 ## Añadir el Distribuidor de cargas de trabajo a una sección personalizada
 

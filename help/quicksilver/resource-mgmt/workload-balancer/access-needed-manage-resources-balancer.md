@@ -6,14 +6,16 @@ description: Sin el acceso o los permisos correctos, es posible que no pueda ver
 author: Lisa
 feature: Resource Management
 exl-id: b3da9a62-481e-4503-8f27-136d6513262e
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 78d73d0d7bd0ffc00ae1afed0adb324501e0c310
 workflow-type: tm+mt
-source-wordcount: '462'
-ht-degree: 80%
+source-wordcount: '502'
+ht-degree: 73%
 
 ---
 
 # Acceso necesario para administrar los recursos en el Equilibrador de carga de trabajo
+
+{{preview-fast-release-general}}
 
 Sin el acceso o los permisos correctos, es posible que no pueda ver o administrar sus asignaciones de trabajo en el Equilibrador de carga de trabajo.
 
@@ -81,6 +83,8 @@ Debe tener el siguiente acceso para ver el Equilibrador de carga de trabajo:
 </table>
 
 Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
+<span class="preview">Todos los usuarios tienen acceso para ver el Distribuidor de cargas de trabajo en sus propios perfiles. Esto no está restringido por licencia o nivel de acceso. Tenga en cuenta que el Distribuidor de cargas de trabajo de un perfil de usuario es de solo lectura y las asignaciones y asignaciones no se pueden cambiar.</span>
 
 ## Acceso necesario para administrar asignaciones en el Equilibrador de carga de trabajo
 
