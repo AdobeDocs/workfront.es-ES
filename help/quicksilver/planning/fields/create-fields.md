@@ -6,15 +6,15 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: f4ea19368b664d0b3a47f93c70fd489685791538
+source-git-commit: fe51ded26c57e3b7137e42ad2218d79adf032b85
 workflow-type: tm+mt
-source-wordcount: '5201'
+source-wordcount: '5244'
 ht-degree: 53%
 
 ---
 
 
-<!--Should the structure of this article be like this other one: https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/custom-form-builder/use-the-custom-form-builder/add-a-custom-field-to-a-custom-form.html?lang=es ??-->
+<!--Should the structure of this article be like this other one: https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/custom-form-builder/use-the-custom-form-builder/add-a-custom-field-to-a-custom-form.html?lang=en ??-->
 
 <!--will they add a way to create fields elsewhere than in a table?! - how will that change the structure of this article? -->
 
@@ -358,7 +358,7 @@ Los tipos de campo numéricos capturan información en formato numérico.
 >Los campos de número se muestran como un campo de texto de una sola línea en un generador de formularios de solicitud.
 >
 >Sin embargo, el formato de campo se conserva y los valores de estos campos se muestran como números después de enviar la solicitud, en el tipo de registro y en la página de detalles de la solicitud.
->&#x200B;>Para obtener más información, consulte [Crear y administrar un formulario de solicitud en Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
+>>Para obtener más información, consulte [Crear y administrar un formulario de solicitud en Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 
 
 1. Comience a crear un campo como se describe en la sección [Crear campos desde cero](#create-fields-from-scratch) de este artículo y, a continuación, seleccione el tipo de campo **Número**.
@@ -388,7 +388,7 @@ Los tipos de campo de porcentaje capturan información en un formato numérico s
 >Los campos de porcentaje se muestran como un campo de texto de una sola línea en un generador de formularios de solicitud.
 >
 >Sin embargo, el formato de campo se conserva y los valores de estos campos se muestran como porcentajes después de enviar la solicitud, en el tipo de registro y en la página de detalles de la solicitud.
->&#x200B;>Para obtener más información, consulte [Crear y administrar un formulario de solicitud en Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
+>>Para obtener más información, consulte [Crear y administrar un formulario de solicitud en Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 
 
 1. Comience a crear un campo como se describe en la sección [Crear campos desde cero](#create-fields-from-scratch) de este artículo y, a continuación, seleccione el tipo de campo **Porcentaje**.
@@ -428,7 +428,7 @@ Los tipos de campo Divisa capturan información en un formato de número precedi
 >Los campos de moneda se muestran como un campo de texto de una sola línea en un generador de formularios de solicitud.
 >
 >Sin embargo, el formato de campo se conserva y los valores de estos campos se muestran como moneda una vez enviada la solicitud, en el tipo de registro y en la página de detalles de la solicitud.
->&#x200B;>Para obtener más información, consulte [Crear y administrar un formulario de solicitud en Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
+>>Para obtener más información, consulte [Crear y administrar un formulario de solicitud en Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 
 1. Comience a crear un campo como se describe en la sección [Crear campos desde cero](#create-fields-from-scratch) de este artículo y, a continuación, seleccione el tipo de campo **Divisa**.
 
@@ -482,8 +482,6 @@ Para obtener más información, consulte [Información general sobre campos de f
 
 1. Haga clic en la expresión seleccionada para mostrar la definición y ver su formato.
 
-   <!--update screen shot for Maximize button-->
-
    ![Descripción de la expresión de fórmula](assets/description-of-formula-expression.png)
 
    Para obtener más información acerca de las expresiones admitidas, consulte [Información general sobre campos de fórmula](/help/quicksilver/planning/fields/formula-fields.md).
@@ -508,11 +506,10 @@ Para obtener más información, consulte [Información general sobre campos de f
    >![Se quitaron cuatro campos del presupuesto del proyecto de ejemplo de fórmula ](assets/formula-example-project-budget-four-fields-removed.png)
    >
 
-   <!--
-    1. <span class="preview">(Optional) Click **Maximize** to open the Formula box in a larger area. </span>
-           <span class="preview">The Formula box opens in a larger window. </span>
-    1. <span class="preview">(Optional and conditional) If you opened the Formula box in a larger area,click **Minimize** to return to the original formula field box.</span> 
-    -->
+1. (Opcional) Haga clic en **Maximizar** para abrir el cuadro Fórmula en un área más grande.
+
+   El cuadro Fórmula se abre en una ventana más grande.
+1. (Opcional y condicional) Si ha abierto el cuadro Fórmula en un área más grande, haga clic en **Minimizar** para volver al cuadro del campo Fórmula original.
 
 1. En el campo **Formato**, seleccione entre las siguientes opciones para identificar el formato del resultado mostrado en el campo de tipo de fórmula:
 

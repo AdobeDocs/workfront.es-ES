@@ -3,18 +3,17 @@ title: Introducción a la integración de Workfront Planning y GenStudio for Per
 description: El espacio de trabajo de GenStudio for Performance Marketing está disponible en Adobe Workfront Planning cuando su empresa ha adquirido ambos productos. Descubra algunos de los conceptos básicos sobre cómo puede optimizar los flujos de trabajo con esta integración.
 hide: true
 hidefromtoc: true
-source-git-commit: bd34fe3404e590e74ecd666c039f78c0cc0d72e7
+exl-id: 3b2fc764-f384-41bb-9d88-b2b88434ffc6
+source-git-commit: fe51ded26c57e3b7137e42ad2218d79adf032b85
 workflow-type: tm+mt
 source-wordcount: '205'
 ht-degree: 4%
 
 ---
 
-
 # Introducción a la integración de Workfront Planning y GenStudio for Performance Marketing
 
 <!--Better metadata, at publishing:
-
 ---
 title: Get Started with the Workfront Planning and GenStudio for Performance Marketing Integration
 description: The GenStudio for Performance Marketing workspace is available in Adobe Workfront Planning when your company has purchased both products. Learn some of the basics about how you can streamline your workflows using this integration.

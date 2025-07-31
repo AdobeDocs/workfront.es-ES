@@ -6,19 +6,19 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 567fa8c960f7db47279d6cde1f5e90dc7f38ae79
+source-git-commit: fe51ded26c57e3b7137e42ad2218d79adf032b85
 workflow-type: tm+mt
-source-wordcount: '2133'
-ht-degree: 40%
+source-wordcount: '2241'
+ht-degree: 38%
 
 ---
 
 
 # Administrar el diseño de página de registro
 
-<!--<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">La información resaltada en esta página hace referencia a funcionalidades que aún no están disponibles de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después de las versiones mensuales en Production, las mismas funciones también están disponibles en el entorno Production para los clientes que habilitaron versiones rápidas. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -264,11 +264,16 @@ Tenga en cuenta lo siguiente al agregar una página Registros conectados a un re
 
 * Puede agregar una página Registros conectados a un registro después de conectar tipos de registro u objeto al tipo de registro desde la vista de tabla de un tipo de registro.
 
-* No se puede agregar una página Registros conectados al área de vista previa de un registro. <!--take this out when we release connected record pages to the record preview area-->
+* En el entorno Producción, no se puede agregar una página Registros conectados al área de vista previa de un registro.
+
+  <span class="preview">Puede agregar una página Registros conectados al área de vista previa de un registro en el entorno de vista previa.</span>
 
 * Las páginas Registros conectados muestran sólo los objetos o registros conectados de un tipo de objeto o registro en una vista de tabla. La página no muestra todos los registros de ese tipo en la vista de tabla.
 
-* Después de agregar una página Registros conectados a un registro, la ficha de página es visible desde el área de vista previa del registro, pero está en blanco. Debe ir a la página completa para ver la vista de tabla del registro conectado. &lt;!—esto cambiará con el lanzamiento de las páginas conectadas al área de previsualización— comprobar y eliminar la exención de responsabilidad—>
+* Según el entorno que utilice, es posible que observe lo siguiente:
+
+   * En el entorno Producción, después de agregar una página Registros conectados a un registro, la ficha de página es visible desde el área de vista previa del registro, pero está vacía. Debe ir a la página completa para ver la vista de tabla del registro conectado.
+   * <span class="preview">En el entorno de vista previa, la página Registros conectados es visible desde el área de vista previa del registro y desde la ficha del explorador independiente.</span>
 
 * Puede agregar páginas Registros conectados para los siguientes tipos de registros u objetos conectados:
 
@@ -281,18 +286,11 @@ Tenga en cuenta lo siguiente al agregar una página Registros conectados a un re
 
 Para agregar una página Registros conectados:
 
-<!--replace the first 2 steps with these steps when we release connected record page to the record preview area, if this goes both to Preview and Prod: 
+1. Haga clic en el nombre del registro para abrirlo.
+1. Haga clic en **Agregar página** en una de las siguientes áreas:
 
-1. Click the name of the record to open it. 
-1. Click **Add page** from one of the following areas: 
-
-   * The record's preview window
-   * The record's details page, after clicking the **Open in new tab** icon ![Open details in a new tab icon](assets/open-details-in-a-new-tab-icon.png) in the upper-right corner of the preview page.  
-
--->
-
-1. En una vista de página de registro, haga clic en el nombre de un registro para abrirlo y, a continuación, haga clic en el icono **Abrir en ficha nueva** ![Abrir detalles en un icono de ficha nueva](assets/open-details-in-a-new-tab-icon.png) en la esquina superior derecha de la página de vista previa.
-1. Haga clic en **Agregar página**.
+   * <span class="preview">Ventana de vista previa del registro</span>
+   * La página de detalles del registro, después de hacer clic en el icono **Abrir en ficha nueva** ![Abrir detalles en icono de ficha nueva](assets/open-details-in-a-new-tab-icon.png) en la esquina superior derecha de la página de vista previa.
 
    Se abre el cuadro **Crear página**.
 
@@ -306,8 +304,6 @@ La vista de tabla del tipo de registro seleccionado se muestra en la nueva pági
 Todos los campos del registro conectado se muestran en la vista de tabla de la ficha del registro conectado.
 
    Los cinco primeros campos de la tabla de registros conectada se muestran de forma predeterminada. De forma predeterminada, no se muestran campos de búsqueda.
-
-   <!--replace screen shot below when additional capabilities come to the table view - Fields, etc-->
 
    ![Vista de tabla conectada a la audiencia con detalles de campaña](assets/audience-connected-table-view-under-campaign-details-page.png)
 
