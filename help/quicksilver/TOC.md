@@ -212,6 +212,7 @@ ht-degree: 60%
          * [21.1 Otras mejoras](product-announcements/product-releases/21.1-release-activity/21-1-other-enhancements.md)
       * Actividad de versión de Adobe Workfront Planning{#planning-release-activity}
          * [Actividad de la versión de Adobe Workfront Planning](product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)
+
            [Actividad de la versión del cuarto trimestre de 2025 para Adobe Workfront Planning](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q4.md)
          * [Actividad de la versión del tercer trimestre de 2025 para Adobe Workfront Planning](product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q3.md)
          * [Actividad de la versión del segundo trimestre de 2025 para Adobe Workfront Planning](product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q2.md)

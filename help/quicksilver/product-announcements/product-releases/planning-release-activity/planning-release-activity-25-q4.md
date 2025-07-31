@@ -28,8 +28,8 @@ Para obtener una lista de todas las características publicadas para Adobe Workf
 >[!NOTE]
 >
 >Vista previa: 31 de julio de 2025
->>Producción para todos los clientes: viernes, 31 de julio de 2025
->>[!BADGE Fuera del horario]{type=Neutral}
+>&#x200B;>Producción para todos los clientes: viernes, 31 de julio de 2025
+>&#x200B;>[!BADGE Fuera del horario]{type=Neutral}
 
 Se ha agregado un botón Maximizar para ampliar el campo Fórmula al crear o editar el campo en una vista de tabla de registros. Además, hemos agregado un botón Minimizar en la nueva ventana ampliada para volver al cuadro de creación de campos.
 
@@ -78,8 +78,8 @@ For more information on creating requests see:
 >[!NOTE]
 >
 >Vista previa: 24 de julio de 2025
->>Versión rápida de producción: 14 de agosto de 2025
->>Producción para todos los clientes: viernes, 16 de octubre de 2025
+>&#x200B;>Versión rápida de producción: 14 de agosto de 2025
+>&#x200B;>Producción para todos los clientes: viernes, 16 de octubre de 2025
 
 Ahora puede crear registros en la vista de escala de tiempo de un tipo de registro haciendo doble clic en cualquier lugar de la escala de tiempo.
 
@@ -94,8 +94,8 @@ Para obtener más información, consulte [Crear registros](/help/quicksilver/pla
 >[!NOTE]
 >
 >Vista previa: 24 de julio de 2025
->>Versión rápida de producción: 14 de agosto de 2025
->>Producción para todos los clientes: viernes, 16 de octubre de 2025
+>&#x200B;>Versión rápida de producción: 14 de agosto de 2025
+>&#x200B;>Producción para todos los clientes: viernes, 16 de octubre de 2025
 
 Ahora puede compartir un tipo de registro desde el menú Más de la tarjeta de tipo de registro de la página del espacio de trabajo. Antes de esta mejora, la opción Compartir solo estaba disponible dentro de la página de tipo de registro.
 
@@ -106,8 +106,8 @@ Para obtener más información, vea [Compartir tipos de registros](/help/quicksi
 >[!NOTE]
 >
 >Vista previa: 24 de julio de 2025
->>Versión rápida de producción: 14 de agosto de 2025
->>Producción para todos los clientes: viernes, 16 de octubre de 2025
+>&#x200B;>Versión rápida de producción: 14 de agosto de 2025
+>&#x200B;>Producción para todos los clientes: viernes, 16 de octubre de 2025
 
 Ahora puede mostrar todas las vistas de Workfront Planning (tabla, cronología y calendario) en modo de pantalla completa. La funcionalidad de vista se conserva y también puede cambiar la vista mientras está en pantalla completa.
 
@@ -120,8 +120,8 @@ Para obtener más información, consulte [Administrar vistas de registros](/help
 >[!NOTE]
 >
 >Vista previa: 22 de julio de 2025
->>Producción para la versión rápida: 14 de agosto de 2025
->>Producción para todos los clientes: viernes, 16 de octubre de 2025
+>&#x200B;>Producción para la versión rápida: 14 de agosto de 2025
+>&#x200B;>Producción para todos los clientes: viernes, 16 de octubre de 2025
 
 Para que el proceso de aprobación sea más flexible, se ha agregado la capacidad de agregar equipos como aprobadores en los formularios de solicitud de Planning. Ahora puede introducir y seleccionar nombres de equipo al configurar aprobadores. Cualquiera de los integrantes del equipo puede tomar una decisión, que cuenta como decisión de aprobación para todo el equipo.
 
@@ -134,8 +134,8 @@ Para obtener más información, consulte [Agregar una aprobación a un formulari
 >[!NOTE]
 >
 >Vista previa: 22 de julio de 2025
->>Producción para la versión rápida: 14 de agosto de 2025
->>Producción para todos los clientes: viernes, 16 de octubre de 2025
+>&#x200B;>Producción para la versión rápida: 14 de agosto de 2025
+>&#x200B;>Producción para todos los clientes: viernes, 16 de octubre de 2025
 
 Para que el proceso de aprobación sea más flexible, se ha agregado la capacidad de agregar equipos como aprobadores en los formularios de solicitud de Planning. Ahora puede introducir y seleccionar nombres de equipo al configurar aprobadores. Cualquiera de los integrantes del equipo puede tomar una decisión, que cuenta como decisión de aprobación para todo el equipo.
 
@@ -148,8 +148,8 @@ Para obtener más información, consulte [Agregar una aprobación a un formulari
 >[!NOTE]
 >
 >Vista previa: 17 de julio de 2025
->>Producción para la versión rápida: 14 de agosto de 2025
->>Producción para todos los clientes: viernes, 16 de octubre de 2025
+>&#x200B;>Producción para la versión rápida: 14 de agosto de 2025
+>&#x200B;>Producción para todos los clientes: viernes, 16 de octubre de 2025
 
 Presentamos los siguientes campos para capturar la información de aprobación de los registros creados al enviar una solicitud con una aprobación:
 
@@ -163,8 +163,8 @@ Para obtener más información, consulte [Crear campos](/help/quicksilver/planni
 >[!NOTE]
 >
 >Vista previa: 10 de julio de 2025
->>Versión rápida de producción: 14 de agosto de 2025
->>Producción para todos los clientes: viernes, 16 de octubre de 2025
+>&#x200B;>Versión rápida de producción: 14 de agosto de 2025
+>&#x200B;>Producción para todos los clientes: viernes, 16 de octubre de 2025
 
 
 Ahora, cuando tenga agrupaciones aplicadas a una vista de tabla, al agregar un registro a la tabla se rellenarán automáticamente los campos asociados con las agrupaciones a las que agregue el registro.
