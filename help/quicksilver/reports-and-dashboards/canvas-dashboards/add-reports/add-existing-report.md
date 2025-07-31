@@ -6,14 +6,18 @@ description: Los informes creados con la herramienta Informes de Adobe Workfront
 author: Courtney and Jenny
 feature: Reports and Dashboards
 exl-id: f77990ab-da7a-4dcb-89fa-f65ed2b79522
-source-git-commit: 981d86fa7d54d9d26c0a2b6142db98d5989cbed2
+source-git-commit: b8f25d9490173f8f23a0ba545486c99202f05a69
 workflow-type: tm+mt
-source-wordcount: '232'
-ht-degree: 47%
+source-wordcount: '255'
+ht-degree: 37%
 
 ---
 
 # Añadir un informe existente a un panel de lienzo
+
+>[!IMPORTANT]
+>
+>Actualmente, la función Paneles de lienzo solo está disponible para los usuarios que participan en la fase beta. Para obtener más información, consulte [Información beta de paneles de lienzo](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md).
 
 Los informes creados con la herramienta Informes de Adobe Workfront se pueden añadir a un panel de lienzo. Para obtener más información sobre la creación de informes, consulte [Introducción a los informes](/help/quicksilver/reports-and-dashboards/reports/reporting/get-started-reports-workfront.md).
 
