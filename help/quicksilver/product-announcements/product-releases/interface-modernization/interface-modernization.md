@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: eafc56adab1fad3bbc1a4f3dc8f61e599ab21f57
+source-git-commit: db0a8e78454ffb5b85865265a273e21e99022f9f
 workflow-type: tm+mt
-source-wordcount: '6162'
+source-wordcount: '6262'
 ht-degree: 2%
 
 ---
@@ -84,15 +84,15 @@ Hemos actualizado el aspecto del cuadro de usuario Enviar actualización al acce
 
 Para obtener más información, consulte [Administrar el equipo del proyecto](/help/quicksilver/manage-work/projects/planning-a-project/manage-project-team.md).
 
-<!--## Updated experience when editing a Queue Topic in a project or template
+## Experiencia actualizada al editar un tema de la cola en un proyecto o plantilla
 
-**Preview release: July 31, 2025; Production release: August 7, 2025**
+**Versión preliminar: 31 de julio de 2025; versión de producción: 31 de julio de 2025**
 
-We have updated the look and feel of a Queue Topic when editing it on a template. The Queue Topic editing page now matches the design of other areas of Workfront.
+Hemos actualizado el aspecto de un tema de la cola al editarlo en una plantilla. La página de edición de temas de la cola ahora coincide con el diseño de otras áreas de Workfront.
 
-A small functionality change has been applied to the Routing Rules list. To edit A Queue Topic, select the Queue Topic from the list and click the Edit icon. You are no longer directed to the Queue Topic details page before you can edit.
+Se ha aplicado un pequeño cambio de funcionalidad a la lista Reglas de enrutamiento. Para editar un tema de la cola, selecciónelo en la lista y haga clic en el icono Editar. Ya no se le dirigirá a la página Detalles de tema de cola antes de poder editar.
 
-For more information, see [Create Queue Topics](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).-->
+Para obtener más información, consulte [Crear temas de la cola](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
 
 ## Actualizaciones de interfaz para registros de facturación
 
