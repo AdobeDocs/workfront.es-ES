@@ -7,10 +7,10 @@ author: Alina
 feature: Work Management, Requests
 role: User, Admin
 exl-id: 65a74698-011f-4caa-9739-d7510faeb66f
-source-git-commit: 3563d5e7136d8bd70504a0b7762c4be06e5a9c56
+source-git-commit: 81b40eda8536d1a63c38a297d92158a12f9d350e
 workflow-type: tm+mt
-source-wordcount: '957'
-ht-degree: 84%
+source-wordcount: '937'
+ht-degree: 85%
 
 ---
 
@@ -183,5 +183,5 @@ Para editar un tema de la cola existente:
 1. Vaya al proyecto o plantilla que contiene el tema de la cola que desea editar.
 1. Haga clic en **Temas de cola** en el panel izquierdo.
 1. En el entorno Producción, seleccione el Tema de la cola que desee editar. En la página Detalles que se abre, haga clic en **Editar tema de cola**.
-1. <span class="preview">En el entorno de vista previa, seleccione el tema de la cola que desee editar y, a continuación, haga clic en el icono Editar ![icono Editar](assets/edit-icon.png).</span>
+   <!--1. <span class="preview">In the Preview environment, select the Queue Topic that you want to edit, then click the Edit icon ![Edit icon](assets/edit-icon.png).</span>-->
 
