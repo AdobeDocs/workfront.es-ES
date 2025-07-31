@@ -8,14 +8,16 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: b95d536bc251c2575b105f38691a66bde67502b8
+source-git-commit: 75ac50d23c80aaf1b2100b02780adfe7fd7abb39
 workflow-type: tm+mt
-source-wordcount: '6589'
+source-wordcount: '6606'
 ht-degree: 56%
 
 ---
 
 # Crear un formulario personalizado
+
+{{highlighted-preview}}
 
 <!-- Audited: 6/2025 -->
 
@@ -133,7 +135,7 @@ Cada nombre de campo personalizado debe ser único en la instancia de Workfront 
 >[!NOTE]
 >
 >Aunque es posible hacerlo, le recomendamos que no cambie este nombre después de que usted u otros usuarios empiecen a utilizar el formulario personalizado en Workfront. Si lo hace, el sistema ya no reconocerá el campo personalizado, donde ahora se podría hacer referencia a él en otras áreas de Workfront.
->&#x200B;>Por ejemplo, si añade el campo personalizado a un informe y posteriormente cambia su nombre, Workfront no lo reconocerá en el informe y dejará de funcionar correctamente allí a menos que lo vuelva a añadir al informe con el nuevo nombre.
+>>Por ejemplo, si añade el campo personalizado a un informe y posteriormente cambia su nombre, Workfront no lo reconocerá en el informe y dejará de funcionar correctamente allí a menos que lo vuelva a añadir al informe con el nuevo nombre.
 >
 >Se recomienda no escribir un nombre que ya se utilice en los campos integrados de Workfront.
 >
@@ -572,7 +574,7 @@ Para añadir los campos de fecha y escritura anticipada:
 
 ### Añadir campos de búsqueda externa
 
-Un campo de búsqueda externa llama a una API externa y devuelve valores como opciones en un campo desplegable. Los usuarios que trabajen con el objeto al que está adjunto el formulario personalizado pueden seleccionar una o más de estas opciones en la lista desplegable. El campo de búsqueda externa también está disponible en listas e informes.
+Un campo de búsqueda externa llama a una API externa y devuelve valores como opciones en un campo desplegable. Los usuarios que trabajen con el objeto al que está adjunto el formulario personalizado pueden seleccionar una o varias de estas opciones en la lista desplegable, en función de si el campo de búsqueda externo es de selección única o múltiple. Los campos de búsqueda externos también están disponibles en listas e informes.
 
 Para obtener ejemplos sobre el uso del campo de búsqueda externa para llamar a la misma instancia de Workfront o a una API pública, consulte [Ejemplos del campo de búsqueda externa en un formulario personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/external-lookup-examples.md).
 
@@ -583,7 +585,7 @@ Para obtener ejemplos sobre el uso del campo de búsqueda externa para llamar a 
 
 Para añadir una búsqueda externa:
 
-1. En la ficha **Nuevo campo** de la parte izquierda de la pantalla, busque **Búsqueda externa** y arrástrela a una sección del lienzo.
+1. En la ficha **Nuevo campo** de la parte izquierda de la pantalla, busque **Búsqueda externa** o <span class="preview">**Búsqueda externa de selección múltiple**</span> y arrástrela a una sección del lienzo.
 1. En el lado derecho de la pantalla, configure las opciones para el campo personalizado:
 
    <table style="table-layout:auto"> 
@@ -632,12 +634,12 @@ Para añadir una búsqueda externa:
       <td role="rowheader">Ruta JSON</td>
       <td><p>Escriba o pegue la ruta JSON para la API.</p> <p>Esta opción permite extraer datos del JSON devuelto por la URL de la API. Sirve para seleccionar qué valores dentro del JSON aparecerán en las opciones desplegables.</p><p>Por ejemplo, si la dirección URL de la API devuelve JSON en el siguiente formato, puede usar "$.data[*].name" para seleccionar EE. UU. y Canadá como opciones desplegables:</br>
       <pre>
-      &lbrace;
-       data: &lbrace;
+      {
+       data: {
          { name: "USA"},
          { name: "Canada"}
-       &rbrace;
-      &rbrace;
+       }
+      }
       </pre>
       </p>
      <p>Para obtener más información sobre la ruta JSON y cómo asegurarse de que escribe la ruta JSON correcta, consulte <a href="https://jsonpath.com/">https://jsonpath.com/</a>.</p></td>
@@ -647,8 +649,8 @@ Para añadir una búsqueda externa:
       <td><p>Haga clic en <strong>Agregar encabezado</strong> y, a continuación, escriba o pegue el par clave-valor necesario para la autenticación con la API.</p><p><strong>Nota:</strong> Los campos de encabezado no son un lugar seguro para almacenar credenciales, y debe tener cuidado con lo que escribe y guarda.</p></td>
      </tr>
      <tr> 
-      <td role="rowheader">Lista desplegable de selección múltiple</td>
-      <td><p>Seleccione esta opción para permitir que el usuario seleccione más de un valor en la lista desplegable.</p></td>
+      <td role="rowheader"><span class="preview">Lista desplegable de selección múltiple</span></td>
+      <td><p><span class="preview">Seleccione esta opción para permitir que el usuario seleccione más de un valor en la lista desplegable.</span></p></td>
      </tr>
      </tr>
      <tr> 
