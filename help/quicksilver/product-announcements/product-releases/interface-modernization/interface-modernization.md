@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: d3a5d0c94df449a23e2b36d3e0f6fb816d306ce6
+source-git-commit: eafc56adab1fad3bbc1a4f3dc8f61e599ab21f57
 workflow-type: tm+mt
-source-wordcount: '5961'
+source-wordcount: '6162'
 ht-degree: 2%
 
 ---
@@ -60,6 +60,50 @@ Para ver este cambio, vaya a Configuración > Sistema > Actualizar usuarios para
 
 ## Proyectos
 
+## Nueva apariencia de la sección Detalles de cola en una plantilla
+
+**Versión preliminar: 31 de julio de 2025; versión de producción: 7 de agosto de 2025**
+
+Hemos actualizado el aspecto de la sección Detalles de cola de una plantilla. El aspecto de la sección Detalles de cola ahora coincide con otras áreas de Workfront.
+
+Para obtener más información, consulte [Crear una cola de solicitudes](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+
+<!--## Interface updates when bulk editing templates
+
+**Preview release: July 31, 2025; Production release: August 7, 2025**
+
+We have updated the look and feel of the Edit templates box when editing templates in bulk from a list of templates. The organization of information on the Edit templates box now matches the single-template edit box.
+
+For information, see [Edit project templates](/help/quicksilver/manage-work/projects/create-and-manage-templates/edit-templates.md).-->
+
+## Actualizaciones de la interfaz para el cuadro Enviar actualización al usuario de una plantilla
+
+**Versión preliminar: 31 de julio de 2025; versión de producción: 7 de agosto de 2025**
+
+Hemos actualizado el aspecto del cuadro de usuario Enviar actualización al acceder a él desde la pestaña Personas de una plantilla. El cuadro Enviar actualización al usuario ahora coincide con otras áreas de Workfront cuando envía una actualización a uno o varios usuarios.
+
+Para obtener más información, consulte [Administrar el equipo del proyecto](/help/quicksilver/manage-work/projects/planning-a-project/manage-project-team.md).
+
+<!--## Updated experience when editing a Queue Topic in a project or template
+
+**Preview release: July 31, 2025; Production release: August 7, 2025**
+
+We have updated the look and feel of a Queue Topic when editing it on a template. The Queue Topic editing page now matches the design of other areas of Workfront.
+
+A small functionality change has been applied to the Routing Rules list. To edit A Queue Topic, select the Queue Topic from the list and click the Edit icon. You are no longer directed to the Queue Topic details page before you can edit.
+
+For more information, see [Create Queue Topics](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).-->
+
+## Actualizaciones de interfaz para registros de facturación
+
+**Versión preliminar: 31 de julio de 2025; versión de producción: 7 de agosto de 2025**
+
+Hemos actualizado el aspecto de las páginas Horas facturables, Gastos facturables e Ingresos fijos de los registros de facturación para que coincidan con otras áreas de la aplicación. También se han actualizado los cuadros de diálogo para agregar nuevas horas facturables, gastos facturables e ingresos fijos.
+
+Para ver estos cambios, vaya a un proyecto > Registros de facturación > seleccione un registro de facturación > Horas facturables, Gastos facturables o Ingresos fijos > agregue nuevas horas facturables, gastos facturables o ingresos fijos.
+
+Para obtener más información, consulte [Crear registros de facturación](/help/quicksilver/manage-work/projects/project-finances/create-billing-records.md).
+
 ## Actualizaciones de interfaz para el cuadro Importar archivo de MS Project
 
 **Versión preliminar: 24 de julio de 2025; versión de producción: por anunciar**
@@ -84,7 +128,7 @@ Para obtener más información, consulte [Administrar gastos del proyecto](/help
 
 Hemos actualizado el aspecto de una regla de enrutamiento al editarla en una plantilla. La página de edición de la regla de enrutamiento ahora coincide con el diseño de otras áreas de Workfront.
 
-Se ha aplicado un pequeño cambio de funcionalidad a la lista Reglas de enrutamiento. Para editar la regla de enrutamiento, seleccione la regla de enrutamiento en la lista y haga clic en el icono Editar.
+Para editar la regla de enrutamiento, seleccione la regla de enrutamiento en la lista y haga clic en el icono Editar.
 
 Para obtener más información, consulte [Crear reglas de enrutamiento](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-routing-rules.md).
 
@@ -98,7 +142,7 @@ Hemos actualizado el aspecto de las siguientes listas en las plantillas:
 * Grupos de temas
 * Reglas de enrutamiento
 
-Se ha aplicado un pequeño cambio de funcionalidad a las listas. Para editar o eliminar un elemento de una de estas listas, seleccione el elemento y haga clic en el icono correspondiente.
+Para editar o eliminar un elemento de una de estas listas, seleccione el elemento y haga clic en el icono correspondiente.
 
 Para obtener más información, consulte
 
@@ -398,6 +442,11 @@ Para obtener más información, consulte [Copiar una plantilla de proyecto](/hel
 ### Buscar y recibir actualizaciones al agregar objetos a programas y portafolios
 
 **Versión preliminar: 22 de mayo de 2025; versión de producción: 29 de mayo de 2025**
+
+>[!NOTE]
+>
+>Se eliminó temporalmente de la vista previa y producción
+
 
 Hemos actualizado la interfaz de los cuadros Agregar al hacer lo siguiente:
 
