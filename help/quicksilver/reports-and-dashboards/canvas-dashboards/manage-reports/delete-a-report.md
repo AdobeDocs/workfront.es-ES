@@ -1,24 +1,24 @@
 ---
 product-area: Canvas Dashboards
 navigation-topic: report-types
-title: Eliminación de un informe
+title: Eliminación de un informe en un panel de lienzo
 description: Puede eliminar un informe desde un panel de lienzo.
 author: Courtney and Jenny
 feature: Reports and Dashboards
-source-git-commit: d22cd176947387ce5f24e4fc91444b7aca698f5d
+source-git-commit: 8b9676c7ef4efcad1294a9aa786aa6fe52d26cc0
 workflow-type: tm+mt
-source-wordcount: '226'
-ht-degree: 20%
+source-wordcount: '235'
+ht-degree: 19%
 
 ---
 
-# Eliminación de un informe
+# Eliminación de un informe en un panel de lienzo
 
 >[!IMPORTANT]
 >
 >Actualmente, la función Paneles de lienzo solo está disponible para los usuarios que participan en la fase beta. Para obtener más información, consulte [Información beta de paneles de lienzo](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md).
 
-Una vez creado un tablero y agregado los informes, puede eliminar los informes más antiguos que ya no sean aplicables a ese tablero específico.
+Una vez creado un panel de lienzo y agregado los informes, puede eliminar los informes más antiguos que ya no sean aplicables a ese panel específico.
 
 La eliminación de un informe es permanente. Si necesita volver a agregar un informe después de eliminarlo, deberá volver a crear el informe.
 

@@ -5,10 +5,10 @@ description: Puede resumir rápidamente elementos de trabajo y documentos median
 author: Becky
 feature: Get Started with Workfront
 exl-id: 5b0e1002-b6e9-4354-9ead-643de1de5bab
-source-git-commit: 1b11eb212f8eb980361cfd22a07ac17be71d4472
+source-git-commit: 8b9676c7ef4efcad1294a9aa786aa6fe52d26cc0
 workflow-type: tm+mt
-source-wordcount: '185'
-ht-degree: 42%
+source-wordcount: '182'
+ht-degree: 36%
 
 ---
 
@@ -19,7 +19,7 @@ El Asistente de IA puede ayudarle a localizar proyectos, tareas y problemas en W
 
 ## Requisitos de acceso
 
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -28,13 +28,11 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   <tr> 
    <td role="rowheader">Plan de Adobe Workfront</td> 
    <td><p>Nuevo: cualquiera</p>
-       <p>o</p>
        <p>Actual: no disponible</p></td>
   </tr> 
   <tr> 
    <td role="rowheader">Licencia de Adobe Workfront</td> 
    <td><p>Nuevo: estándar</p>
-       <p>o</p>
        <p>Actual: no disponible</p></td>
   </tr> 
  </tbody> 
@@ -42,20 +40,23 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-
++++
 
 ## Buscar elementos de trabajo
 
 1. Haga clic en el icono **Asistente de IA** ![icono Asistente de IA](assets/ai-assistant-icon.png) cerca de la esquina superior derecha de la pantalla.
-1. Introduzca un mensaje como
+1. Introduzca una solicitud como:
 
-   * Buscar mis tareas pendientes para esta semana
-   * Qué problemas hay en el proyecto &quot;Campaña de primavera&quot;
-   * Buscar proyectos en estado actual
+   * *Encontrar mis tareas pendientes esta semana*
+   * *Qué problemas hay en el proyecto &quot;Campaña de primavera&quot;*
+   * *Buscar proyectos en estado actual*
 
-   El Asistente de IA puede tardar unos momentos en localizar la información, según el tamaño o la complejidad del mensaje y los registros que necesite buscar.
-1. Consulte la respuesta en el panel Asistente de IA.
-1. (Opcional) Para ir al elemento de trabajo, haga clic en el vínculo en el panel Ayudante de IA.
+   >[!NOTE]
+   >
+   > El Ayudante de IA puede tardar unos momentos en localizar la información en función del tamaño o la complejidad del mensaje y de los registros que necesite buscar.
+1. Vea la respuesta en el panel **Asistente de IA**.
+1. (Opcional) Para ir al elemento de trabajo, haga clic en el vínculo en el panel **Asistente de IA**.
+
 
 <!--
 

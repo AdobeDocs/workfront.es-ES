@@ -1,26 +1,26 @@
 ---
 product-area: Canvas Dashboards
 navigation-topic: report-types
-title: Editar filtros de informe
+title: Edición de filtros de informes en un panel de lienzo
 description: Puede editar los filtros de informe después de aplicarlos a un panel de lienzo.
 author: Courtney and Jenny
 feature: Reports and Dashboards
 hidefromtoc: true
 hide: true
-source-git-commit: d22cd176947387ce5f24e4fc91444b7aca698f5d
+source-git-commit: 8b9676c7ef4efcad1294a9aa786aa6fe52d26cc0
 workflow-type: tm+mt
-source-wordcount: '236'
-ht-degree: 20%
+source-wordcount: '244'
+ht-degree: 19%
 
 ---
 
-# Editar filtros de informe
+# Edición de filtros de informes en un panel de lienzo
 
 >[!IMPORTANT]
 >
 >Actualmente, la función Paneles de lienzo solo está disponible para los usuarios que participan en la fase beta. Para obtener más información, consulte [Información beta de paneles de lienzo](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md).
 
-Puede editar los filtros de informe una vez que los haya aplicado a un panel de lienzo para actualizar los datos que se muestran a medida que progresa el proyecto.
+Puede editar los filtros de informe una vez que los haya aplicado a un panel de lienzo para actualizar los datos que se muestran a medida que avanza el proyecto.
 
 +++ Amplíe para ver los requisitos de acceso.
 

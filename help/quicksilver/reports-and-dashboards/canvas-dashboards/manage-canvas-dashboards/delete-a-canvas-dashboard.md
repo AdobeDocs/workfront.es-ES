@@ -1,18 +1,18 @@
 ---
 product-area: Canvas Dashboards
 navigation-topic: report-types
-title: Eliminación de un panel de control
+title: Eliminación de un panel de control del lienzo
 description: Puede organizar la forma en que se muestran los informes en un panel de lienzo después de agregarlos a uno.
 author: Courtney and Jenny
 feature: Reports and Dashboards
-source-git-commit: d22cd176947387ce5f24e4fc91444b7aca698f5d
+source-git-commit: 8b9676c7ef4efcad1294a9aa786aa6fe52d26cc0
 workflow-type: tm+mt
-source-wordcount: '196'
+source-wordcount: '198'
 ht-degree: 29%
 
 ---
 
-# Eliminación de un panel de control
+# Eliminación de un panel de control del lienzo
 
 >[!IMPORTANT]
 >

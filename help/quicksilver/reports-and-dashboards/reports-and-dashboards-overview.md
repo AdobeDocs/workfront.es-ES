@@ -8,7 +8,7 @@ author: Courtney
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 618c9dda-ad7d-4a05-960b-3ad14c14d605
-source-git-commit: 577761ff5d1fb59db104df5995af953a0b5e6c0c
+source-git-commit: 8b9676c7ef4efcad1294a9aa786aa6fe52d26cc0
 workflow-type: tm+mt
 source-wordcount: '86'
 ht-degree: 4%
@@ -24,6 +24,7 @@ Puede organizar la información en los informes en Adobe Workfront. Puede coloca
 
 Para obtener más información sobre informes y paneles, consulte los artículos de las siguientes subsecciones:
 
+* [Paneles de control de lienzo](../reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md)
 * [Informes](../reports-and-dashboards/reports/reports-overview.md)
 * [Paneles](../reports-and-dashboards/dashboards/dashboards-overview.md)
-* [Paneles de control de lienzo](../reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md)
+

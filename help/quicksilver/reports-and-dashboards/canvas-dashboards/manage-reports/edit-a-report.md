@@ -1,24 +1,24 @@
 ---
 product-area: Canvas Dashboards
 navigation-topic: report-types
-title: Edición de un informe
+title: Edición de un informe en un panel de lienzo
 description: Puede editar un informe de panel de lienzo una vez que se haya creado.
 author: Courtney and Jenny
 feature: Reports and Dashboards
-source-git-commit: d22cd176947387ce5f24e4fc91444b7aca698f5d
+source-git-commit: 8b9676c7ef4efcad1294a9aa786aa6fe52d26cc0
 workflow-type: tm+mt
-source-wordcount: '435'
+source-wordcount: '444'
 ht-degree: 13%
 
 ---
 
-# Edición de un informe
+# Edición de un informe en un panel de lienzo
 
 >[!IMPORTANT]
 >
 >Actualmente, la función Paneles de lienzo solo está disponible para los usuarios que participan en la fase beta. Para obtener más información, consulte [Información beta de paneles de lienzo](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md).
 
-Después de agregar informes a un tablero, puede editar la información del informe para cambiar los datos que se muestran en el tablero.
+Después de agregar informes a un panel de lienzo, puede editar la información del informe para cambiar los datos que se muestran en el panel.
 
 Cualquier cambio realizado en un informe afectará a todos los usuarios que tengan acceso al panel que lo contiene.
 

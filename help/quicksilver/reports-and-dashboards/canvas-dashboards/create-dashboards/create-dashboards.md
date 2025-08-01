@@ -5,7 +5,7 @@ title: Crear un panel de lienzo
 description: Con los paneles de lienzo, puede crear y agregar informes a un panel personalizable para visualizar rápidamente los datos de su cuenta.
 author: Courtney and Jenny
 feature: Reports and Dashboards
-source-git-commit: ba9256255905e139c281099555a6d129fc570984
+source-git-commit: 8b9676c7ef4efcad1294a9aa786aa6fe52d26cc0
 workflow-type: tm+mt
 source-wordcount: '323'
 ht-degree: 16%

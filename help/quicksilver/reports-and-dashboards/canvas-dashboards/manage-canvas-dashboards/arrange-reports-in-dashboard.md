@@ -1,24 +1,24 @@
 ---
 product-area: Canvas Dashboards
 navigation-topic: report-types
-title: Organizar informes en un tablero
+title: Organizar informes en un panel de lienzo
 description: Puede organizar la forma en que se muestran los informes en un panel de lienzo después de agregarlos a uno.
 author: Courtney and Jenny
 feature: Reports and Dashboards
-source-git-commit: d22cd176947387ce5f24e4fc91444b7aca698f5d
+source-git-commit: 8b9676c7ef4efcad1294a9aa786aa6fe52d26cc0
 workflow-type: tm+mt
-source-wordcount: '255'
-ht-degree: 18%
+source-wordcount: '258'
+ht-degree: 17%
 
 ---
 
-# Organizar informes en un tablero
+# Organizar informes en un panel de lienzo
 
 >[!IMPORTANT]
 >
 >Actualmente, la función Paneles de lienzo solo está disponible para los usuarios que participan en la fase beta. Para obtener más información, consulte [Información beta de paneles de lienzo](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md).
 
-Una vez agregado un informe a un tablero, se muestra como un widget de informe en el tablero para que pueda visualizar rápidamente sus datos de un vistazo. Una vez añadidos varios informes, se recomienda reorganizar el tamaño y el orden de cada widget para mostrar los datos del panel de forma más eficaz.
+Una vez que se agrega un informe a un panel de lienzo, se muestra como un widget de informe en el panel para que pueda visualizar rápidamente sus datos de un vistazo. Una vez añadidos varios informes, se recomienda reorganizar el tamaño y el orden de cada widget para mostrar los datos del panel de forma más eficaz.
 
 +++ Amplíe para ver los requisitos de acceso.
 
