@@ -6,10 +6,10 @@ description: Volver a calcular las escalas de tiempo permite a los administrador
 author: Alina
 feature: Work Management
 exl-id: ec5d9a07-e45a-4aa2-9f41-9421ca5d5920
-source-git-commit: 3dfb30646e8a967264f7e562441a52a059d73d32
+source-git-commit: d846f2f90a8ca2a38c1b18897341cb50f4c5aef4
 workflow-type: tm+mt
-source-wordcount: '994'
-ht-degree: 6%
+source-wordcount: '1060'
+ht-degree: 4%
 
 ---
 
@@ -27,7 +27,7 @@ El cálculo automático de escala de tiempo se produce sin acceso especial para 
 
 ## Requisitos de acceso
 
-+++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
++++ Amplíe para ver los requisitos de acceso.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -39,9 +39,8 @@ El cálculo automático de escala de tiempo se produce sin acceso especial para 
   </tr> 
   <tr> 
    <td role="rowheader">Licencia de Adobe Workfront</td> 
-   <td> <p>Nuevo: estándar </p> 
-   O
-   <p>Actual: plan </p>
+   <td> <p>Estándar </p> 
+    <p>Plan </p>
    </td> 
   </tr> 
   <tr> 
@@ -63,17 +62,21 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
 
 De manera predeterminada, las escalas de tiempo de los proyectos se recalculan automáticamente a diario cuando el ámbito del proyecto cambia o cada noche. El administrador de Workfront determina si se deben calcular automáticamente las escalas de tiempo cada noche o con cada cambio de ámbito administrando la configuración Escalas de tiempo en el área Preferencias de proyecto de Configuración. Para obtener más información, vea [Configurar cálculos de escala de tiempo para proyectos](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md).
 
->[!NOTE]
+>[!IMPORTANT]
 >
->Si la escala de tiempo de un proyecto supera los 15 años, el recálculo automático se desactiva para ese proyecto y solo puede seleccionar un tipo de actualización manual. Si cambia las fechas del proyecto a menos de 15 años, debe recalcular manualmente la escala de tiempo una vez antes de que se calcule automáticamente.
+>* Si la escala de tiempo de un proyecto supera los 15 años, el recálculo automático se desactiva para ese proyecto y solo puede seleccionar un tipo de actualización manual. Si cambia las fechas del proyecto a menos de 15 años, debe recalcular manualmente la escala de tiempo una vez antes de que se calcule automáticamente.
+>* Para los entornos de vista previa y espacio aislado de actualización personalizado, el recálculo nocturno está deshabilitado y las escalas de tiempo del proyecto no se recalculan automáticamente. Debe recalcular manualmente la cronología del proyecto para los entornos de Vista previa y de la Zona protegida de actualización personalizada.
+>* Si un proyecto es complejo, es posible que no se recalcule la escala de tiempo automáticamente.
+>  > Un ejemplo de proyecto complejo puede ser un proyecto con varias dependencias, un gran número de tareas, varias tareas predecesoras entre proyectos o varias sangrías de tareas.
+>  > Workfront coloca una advertencia a la derecha del nombre del proyecto en la página del proyecto para advertir a los usuarios de que la cronología del proyecto debe recalcularse manualmente. Solo los usuarios con permisos de Administración del proyecto pueden recalcular manualmente la cronología.
+>
+>   ![](assets/project-warning-to-manually-recalculate-timeline.png)
+>
 
 * [Recálculo automático de escalas de tiempo de proyectos](#automatic-recalculation-of-project-timelines)
 * [Acciones que almacenan en déclencheur un nuevo cálculo automático de las escalas de tiempo del proyecto](#actions-that-trigger-an-automatic-recalculation-of-project-timelines)
 
 
->[!IMPORTANT]
->
->Para los entornos de vista previa y espacio aislado de actualización personalizado, el recálculo nocturno está deshabilitado y las escalas de tiempo del proyecto no se recalculan automáticamente. Debe recalcular manualmente la cronología del proyecto para los entornos de Vista previa y de la Zona protegida de actualización personalizada.
 
 ### Recálculo automático de escalas de tiempo de proyectos {#automatic-recalculation-of-project-timelines}
 
@@ -86,7 +89,7 @@ Workfront vuelve a calcular las escalas de tiempo a diario solo para los proyect
 
 * Tener una fecha de última actualización en los últimos 3 meses. Un administrador de Workfront puede cambiar esta funcionalidad predeterminada. Para obtener más información, vea [Configurar cálculos de escala de tiempo para proyectos](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md).
 
-* La fecha del último cálculo de la escala de tiempo del proyecto no está dentro del día del calendario actual. Esto significa que la última fecha de cálculo de la escala de tiempo del proyecto es anterior a las 00:00 del día actual.
+* La fecha del último cálculo de la escala de tiempo del proyecto no está dentro del día del calendario actual. Esto significa que la última fecha de cálculo de la escala de tiempo del proyecto es anterior a 00:00 del día actual.
 
 Puede configurar la frecuencia con la que se actualiza la cronología del proyecto. Cuando se actualiza la escala de tiempo del proyecto, se vuelve a calcular en función de los cambios realizados en el proyecto.
 
