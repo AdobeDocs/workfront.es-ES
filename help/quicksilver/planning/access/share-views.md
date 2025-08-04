@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 673dd888-3135-48b0-8198-c8d6d6706ddf
-source-git-commit: 58d2bf9f14b9a3adf4bacfad58f1b9862aeaf247
+source-git-commit: a92c85ad5f58700138d7750423cc3d134d980a9e
 workflow-type: tm+mt
-source-wordcount: '1871'
+source-wordcount: '1869'
 ht-degree: 45%
 
 ---
@@ -259,7 +259,7 @@ Esta sección describe cómo compartir una vista internamente.
 1. En la pestaña de una vista, realice una de las siguientes acciones:
 
    * Pase el ratón sobre la pestaña de la vista que quiera compartir y haga clic en el menú **Más** ![Menú más](assets/more-menu.png) a la derecha del nombre de la vista, luego haga clic en **Compartir** > **Copiar vínculo** en el cuadro **Compartir vista**.
-   * Haga clic en **Compartir** > **Copiar el vínculo de vista** > **Copiar vínculo** en el cuadro **Compartir vista**.
+   * Haga clic en **Compartir** > **Copie el vínculo de vista** de la página de tipo de registro.
 
    Se copia un vínculo a la vista en el portapapeles y se recibe una confirmación en la parte inferior de la pantalla.
 
@@ -272,10 +272,8 @@ Los usuarios que acceden a un vínculo a una vista para la que no tienen permiso
 1. (Condicional) Si es el administrador de una vista, es posible que otro usuario le solicite el acceso a la vista en las áreas siguientes:
 
    * Una notificación en la aplicación
-
      ![Notificación en la aplicación para solicitud de acceso de vista](assets/in-app-notification-for-access-request-for-view.png)
    * Una notificación por correo electrónico
-
      ![Notificación en la aplicación para solicitud de acceso de vista](assets/in-app-notification-for-access-request-for-view.png)
 1. (Condicional) En el área de notificación de Workfront, haga clic en la notificación dentro de la aplicación
 O

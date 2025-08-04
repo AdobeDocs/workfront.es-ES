@@ -6,10 +6,10 @@ description: Puede utilizar tareas predecesoras (o solo predecesoras) para vincu
 author: Alina
 feature: Work Management
 exl-id: a84d88ac-8dd4-4952-b83f-02fafa61e68b
-source-git-commit: 0792651822fd85cb3bfbb754aaf949c4fc4038a1
+source-git-commit: a92c85ad5f58700138d7750423cc3d134d980a9e
 workflow-type: tm+mt
-source-wordcount: '651'
-ht-degree: 70%
+source-wordcount: '642'
+ht-degree: 69%
 
 ---
 
@@ -31,7 +31,7 @@ Para obtener más información, consulte [Información general sobre predecesora
 
 ## Requisitos de acceso
 
-+++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
++++ Amplíe para ver los requisitos de acceso.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -43,7 +43,7 @@ Para obtener más información, consulte [Información general sobre predecesora
   </tr> 
   <tr> 
    <td role="rowheader">Licencia de Adobe Workfront</td> 
-   <td> <p>Nuevo: estándar </p><p>Actual: plan </p> </td> 
+   <td> <p>Estándar </p><p>Plan </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso</td> 
@@ -78,7 +78,7 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
    >
    >1. Haga clic en el icono **Modo de planificación** y elija **Guardar automáticamente**.
    >
-   >1. Escriba el Número de referencia del proyecto del predecesor seguido de dos puntos y el número de la tarea. Por ejemplo, al escribir *765021:12* se indica que el número de referencia del proyecto del predecesor es 765021 y el predecesor es el número de tarea 12 del proyecto.
+   >1. Escriba el Número de referencia del proyecto del predecesor seguido de dos puntos y el número de la tarea. Por ejemplo, al escribir *765021:12* se indica que el número de referencia del proyecto del predecesor es 765021 y que el predecesor es el número de tarea 12 del proyecto.
    >
    >1. Añada el tipo de dependencia para esta predecesora. Para obtener más información, consulte [Crear predecesoras entre proyectos](/help/quicksilver/manage-work/tasks/use-prdcssrs/cross-project-predecessors.md).
    >
@@ -110,7 +110,7 @@ Puede ver rápidamente los detalles sobre la predecesora desde la lista de tarea
 
    **ID.:** el número de referencia del proyecto donde se encuentra la predecesora.
 
-   **Inicio planificado:** la fecha planificada de inicio de la tarea predecesora.
+   **Inicio planificado:** la fecha de inicio planificada de la tarea predecesora.
 
    **Fin planificado:** la fecha planificada de finalización de la tarea predecesora.
 

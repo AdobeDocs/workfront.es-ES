@@ -6,10 +6,10 @@ description: Una tarea predecesora entre proyectos es una tarea de la que depend
 author: Alina
 feature: Work Management
 exl-id: 7e29e589-e0a5-437e-935d-d5bc1b268594
-source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
+source-git-commit: a92c85ad5f58700138d7750423cc3d134d980a9e
 workflow-type: tm+mt
-source-wordcount: '742'
-ht-degree: 97%
+source-wordcount: '753'
+ht-degree: 94%
 
 ---
 
@@ -35,7 +35,7 @@ Para obtener más información acerca de las relaciones de predecesoras, consult
 
 ## Requisitos de acceso
 
-+++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
++++ Amplíe para ver los requisitos de acceso.
 
 Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
@@ -49,9 +49,9 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
   <tr> 
    <td role="rowheader">Licencia de Adobe Workfront*</td> 
-   <td> <p>Nuevo: estándar </p> 
-   O
-   <p>Actual: plan </p>
+   <td> <p>Estándar </p>
+
+<p>Plan </p>
    </td> 
   </tr> 
   <tr> 
@@ -70,6 +70,11 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 +++
 
 ## Crear una predecesora entre proyectos
+
+>[!TIP]
+>
+>Aunque la creación de tareas de plantilla predecesoras es similar a la creación de tareas de proyecto predecesoras, no se pueden crear tareas de plantilla predecesoras entre plantillas para tareas de plantilla.
+
 
 1. Vaya a la tarea que va a ser su sucesora (tarea dependiente).
 1. Haga clic en **Predecesoras** en el panel izquierdo.

@@ -7,9 +7,9 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: f7cb314067d105d5534f4be356024aea8e8f9a28
+source-git-commit: a92c85ad5f58700138d7750423cc3d134d980a9e
 workflow-type: tm+mt
-source-wordcount: '4065'
+source-wordcount: '4064'
 ht-degree: 87%
 
 ---
@@ -50,12 +50,13 @@ Para obtener más información sobre el tipo de horas que puede iniciar sesión 
   </tr> 
   <tr> 
    <td role="rowheader">Licencia de Adobe Workfront*</td> 
-   <td> <p>Nuevo:</p>
+   <td> 
    <ul><li> Ligero o superior para registrar horas en una tarea, un problema o las horas generales en una hoja de horas</li>
    <li>Estándar para registrar horas en los proyectos</li></ul>
 
-<p>Actual: 
-   <ul><li>Revisión o superior para registrar las horas generales en una plantilla de horas</li>
+<p>O </p>
+
+<ul><li>Revisión o superior para registrar las horas generales en una plantilla de horas</li>
    <li>Trabajo o superior para registrar las horas en un proyecto, tarea o problema</li></ul> </td> 
   </tr> 
   <tr> 

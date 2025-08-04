@@ -6,10 +6,10 @@ description: Puede utilizar tareas predecesoras (o sólo predecesoras) para vinc
 author: Alina
 feature: Work Management
 exl-id: 68774286-da24-409a-bbd8-eb18dfe75063
-source-git-commit: 3827e834a71084f14a99cb27aadefd97327b02d7
+source-git-commit: a92c85ad5f58700138d7750423cc3d134d980a9e
 workflow-type: tm+mt
-source-wordcount: '416'
-ht-degree: 59%
+source-wordcount: '469'
+ht-degree: 46%
 
 ---
 
@@ -33,9 +33,7 @@ Para obtener información acerca de las predecesoras, consulte [Información gen
 
 ## Requisitos de acceso
 
-+++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
-
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
++++ Amplíe para ver los requisitos de acceso.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -48,9 +46,8 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   <tr> 
    <td role="rowheader">Licencia de Adobe Workfront</td> 
    <td> 
-   <p>Nuevo: estándar </p>
-   <p>O </p>
-   <p>Actual: plan </p> </td> 
+   <p>Estándar </p>
+    <p>Plan </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso</td> 
@@ -69,15 +66,24 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
 
 ## Crear una predecesora para una tarea
 
+Crear una tarea predecesora para una tarea de proyecto mediante el área Predecesoras es similar a crear predecesoras para tareas de plantilla en una plantilla.
+
+Para crear una tarea predecesora para una tarea de proyecto:
+
 1. Desplácese hasta la tarea que desee designar como tarea dependiente.
 
 1. En el panel izquierdo, haga clic en **Predecesoras**.
 
-1. En la sección **Predecesoras**, haga clic en **+Agregar predecesora**. Se abre el cuadro de diálogo **Agregar predecesora**.
+1. En la sección **Predecesoras**, haga clic en **Agregar predecesora**. Se abre el cuadro de diálogo **Agregar predecesora**.
 
 1. (Opcional) Para agregar una tarea predecesora entre proyectos, reemplace el nombre del proyecto en el campo **Proyecto principal** por otro proyecto.
 
    Para obtener más información, vea [Crear predecesoras entre proyectos](../../../manage-work/tasks/use-prdcssrs/cross-project-predecessors.md).
+
+   >[!TIP]
+   >
+   >No se pueden crear predecesoras entre plantillas para tareas de plantilla.
+
 
 1. En el campo **Tareas**, escriba el nombre de la tarea o tareas que desee designar como predecesoras y, a continuación, selecciónelas cuando aparezcan en la lista desplegable.
 
@@ -96,3 +102,7 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
    Para obtener más información, vea [Aplicar predecesoras](../../../manage-work/tasks/use-prdcssrs/enforced-predecessors.md).
 
 1. Haga clic en **Guardar**.
+
+1. (Opcional) Para quitar un predecesor, selecciónelo de la lista de predecesores y luego haga clic en el icono **Quitar** ![Quitar icono](assets/remove-or-delete-icon.png).
+
+   La tarea predecesora se elimina de la lista. La tarea predecesora no se elimina de su proyecto.

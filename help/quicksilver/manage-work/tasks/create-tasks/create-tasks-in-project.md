@@ -7,10 +7,10 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 96f80e7b-6ad5-40ae-861d-8d97c570f2ac
-source-git-commit: 00e58ea9a207037b701e1be010c2c4c2995d60e0
+source-git-commit: a92c85ad5f58700138d7750423cc3d134d980a9e
 workflow-type: tm+mt
-source-wordcount: '959'
-ht-degree: 68%
+source-wordcount: '1041'
+ht-degree: 59%
 
 ---
 
@@ -48,7 +48,7 @@ También puede crear tareas de las siguientes maneras:
 
 ## Requisitos de acceso
 
-+++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
++++ Amplíe para ver los requisitos de acceso.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -60,9 +60,9 @@ También puede crear tareas de las siguientes maneras:
   </tr> 
   <tr> 
    <td role="rowheader"> <p role="rowheader">Licencia de Adobe Workfront</p> </td> 
-   <td><p>Actual: Trabajo o superior</p> 
-   O
-   <p>Nuevo: estándar</p> </td> 
+   <td><p>Estándar</p> 
+   <p>Trabajo o superior</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso*</td> 
@@ -70,7 +70,7 @@ También puede crear tareas de las siguientes maneras:
   </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Permisos de aportación para el proyecto con capacidad para Añadir tareas o superior</p> <p>Al crear una tarea, recibe automáticamente permisos de administración para dicha tarea</p> <p> Para obtener información acerca de los permisos de tareas, vea <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-task.md" class="MCXref xref">Compartir una tarea </a>. </p> <p>Para obtener información sobre cómo solicitar permisos adicionales, vea <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a los objetos </a>.</p> </td> 
+   <td> <p>Permisos de aportación para el proyecto con capacidad para Añadir tareas o superior</p> <p>Al crear una tarea, recibe automáticamente permisos de administración para dicha tarea</p> <p> Para obtener información acerca de los permisos de tareas, vea <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-task.md" class="MCXref xref">Compartir una tarea </a>. </p> <p>Para obtener información sobre cómo solicitar permisos adicionales, vea <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a objetos. </a></p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -80,6 +80,10 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
 +++
 
 ## Creación de tareas en un proyecto
+
+Crear tareas en un proyecto es similar a crear tareas en una plantilla. Puede seguir los pasos descritos a continuación al agregar tareas de plantilla a una plantilla.
+
+Para crear tareas en un proyecto:
 
 1. Vaya al proyecto donde desea crear una tarea.
 1. Haga clic en **Tareas** en el panel izquierdo.
@@ -113,7 +117,6 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
 
       ![](assets/create-task-larger-box-nwe-350x244.png)
 
-       
 
       >[!NOTE]
       >
@@ -162,13 +165,15 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
 
          Esto hace que la nueva tarea sea secundaria o subtarea de la tarea anterior.
 
-         Para obtener más información sobre tareas secundarias, consulte [Crear subtareas](/help/quicksilver/manage-work/tasks/create-tasks/create-subtasks.md).
+         Para obtener más información acerca de las tareas secundarias, vea la sección &quot;Crear subtareas a partir de la sección de subtareas de tareas&quot; en el artículo [Crear subtareas](/help/quicksilver/manage-work/tasks/create-tasks/create-subtasks.md).
 
       1. (Condicional) Si ha deshabilitado la opción **Autoguardar** después de pulsar **Agregar más tareas**, puede hacer lo siguiente:
 
          * Haga clic en **Deshacer** en cualquier momento para revertir el último cambio o en **Cancelar** para revertir todos los cambios que se hayan realizado en la lista de tareas.
          * Si anteriormente ha hecho clic en **Deshacer**, haga clic en **Rehacer** para volver a aplicar el último cambio cancelado.
          * Haga clic en **Guardar** para guardar los cambios en la lista de tareas.
+   1. (Opcional) En una lista de tareas, haga clic en la sección **Predecesora** para agregarle predecesoras. Para obtener más información, vea [Crear una relación de predecesoras mediante el área de predecesoras](/help/quicksilver/manage-work/tasks/use-prdcssrs/create-predecessors-in-predecessors-area.md).
+   1. (Opcional) En una lista de tareas, haga clic en la sección **Subtareas** para agregar tareas secundarias. Para obtener más información, consulte [Crear subtareas](/help/quicksilver/manage-work/tasks/create-tasks/create-subtasks.md).
 
 ## Crear tareas moviendo una tarea personal a un proyecto
 

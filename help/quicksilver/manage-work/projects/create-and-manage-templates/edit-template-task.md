@@ -7,10 +7,10 @@ description: Después de crear una plantilla, puede editar la información sobre
 author: Alina
 feature: Work Management
 exl-id: 2df8522e-7eee-4440-be0f-f7483c5acdb0
-source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
+source-git-commit: a92c85ad5f58700138d7750423cc3d134d980a9e
 workflow-type: tm+mt
-source-wordcount: '2420'
-ht-degree: 89%
+source-wordcount: '2493'
+ht-degree: 86%
 
 ---
 
@@ -31,9 +31,7 @@ Puede editar las tareas de plantilla o puede editar las tareas de plantilla de f
 
 ## Requisitos de acceso
 
-+++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
-
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
++++ Amplíe para ver los requisitos de acceso.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -45,8 +43,8 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
   <tr> 
    <td role="rowheader">Licencia de Adobe Workfront*</td> 
-   <td> <p>Nuevo: estándar </p>
-   <p>Actual: plan </p> </td> 
+   <td> <p>Estándar </p>
+   <p>Plan </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Nivel de acceso</td> 
@@ -80,7 +78,9 @@ Puede editar una tarea de plantilla mediante las áreas Editar tarea de plantill
 1. Seleccione el nombre de una plantilla para abrirla.
 1. Haga clic en **Tareas de plantilla** en el panel de la izquierda.
 1. Haga clic en el nombre de una tarea de plantilla en la lista para abrirla.
-1. (Opcional) Para editar varias tareas de plantilla de forma masiva, seleccione varias tareas de plantilla y luego haga clic en **Editar** en la parte superior de la lista de plantillas.
+1. (Opcional) Haga clic en la sección **Predecesoras** del panel izquierdo para agregar predecesoras para las tareas de plantilla. Agregar predecesoras de tareas de plantilla es similar a agregar predecesoras de tareas de proyecto. Para obtener más información, vea [Crear una relación de predecesoras mediante el área Predecesoras](/help/quicksilver/manage-work/tasks/use-prdcssrs/create-predecessors-in-predecessors-area.md).
+1. (Opcional) Haga clic en la sección **Subtareas** del panel izquierdo para agregar tareas secundarias a la tarea de plantilla. Agregar subtareas para tareas de plantilla es similar a agregar subtareas de tareas de proyecto. Para obtener más información, vea la sección &quot;Crear subtareas a partir de la sección Subtareas de tareas&quot; en el artículo [Crear subtareas](/help/quicksilver/manage-work/tasks/create-tasks/create-subtasks.md).
+
 1. (Condicional) Para editar información limitada sobre una tarea de plantilla, haga clic en **Detalles de la tarea de plantilla** en el panel izquierdo y, a continuación, vaya a las áreas de la sección Detalles para editar la información de cada área.
 1. (Opcional) Haga clic en el icono **Contraer todo** ![Contraer todo el icono](assets/collapse-all-icon.png) para contraer todas las áreas.
 1. Para editar información en la sección Detalles, haga clic en el icono **Editar** ![Editar icono](assets/edit-icon.png), luego seleccione una de las áreas siguientes o haga clic en **Editar todo** para editar información en todas las áreas:
@@ -95,8 +95,8 @@ Puede editar una tarea de plantilla mediante las áreas Editar tarea de plantill
    >[!TIP]
    >
    >Para obtener información acerca de todos los campos que se muestran en el área Detalles, continúe editando todos los campos mediante el cuadro Editar tarea de plantilla, como se describe a continuación.
-
-1. (Condicional) Para editar toda la información acerca de la tarea de plantilla, haga clic en el menú **Más** ![Icono de más](assets/qs-more-icon-on-an-object.png) junto al nombre de la tarea de plantilla y, a continuación, haga clic en **Editar**.
+1. (Opcional) Para editar varias tareas de plantilla de forma masiva, seleccione varias tareas de plantilla y luego haga clic en **Editar** en la parte superior de la lista de plantillas.
+1. (Condicional) Para editar toda la información sobre la tarea de plantilla o sobre varias tareas al mismo tiempo, haga clic para seleccionarlas en una lista y, a continuación, haga clic en el icono **Editar** ![Editar icono](assets/edit-icon.png) en la parte superior de la lista.
 
    Se muestra el cuadro **Editar tarea de plantilla**.
 
@@ -175,14 +175,14 @@ Puede editar una tarea de plantilla mediante las áreas Editar tarea de plantill
       <td> <p>La tarea en el proyecto creado a partir de esta plantilla tendrá esta restricción. Las restricciones de tarea identifican cuándo se debe completar una tarea. </p> <p>Seleccione entre las siguientes opciones:</p> 
        <ul> 
         <li><strong>Fechas fijas</strong>. Especifique un <strong>inicio planificado</strong> y una <strong>fecha planificada de finalización.</strong></li> 
-        <li><strong>Debe iniciarse el</strong>. Especifique una <strong>fecha planificada de inicio.</strong></li> 
+        <li><strong>Debe iniciarse el</strong>. Especifique una <strong>fecha de inicio planificada.</strong></li> 
         <li><strong>Debe finalizarse el</strong>. Especifique una <strong>Fecha planificada de finalización</strong>.</li> 
         <li><strong>Lo antes posible</strong> </li> 
         <li><strong>Lo más tarde posible</strong> </li> 
         <li style="font-weight: bold;"><strong>Lo más temprano disponible</strong> </li> 
         <li style="font-weight: bold;"><strong>Lo más tarde posible</strong> </li> 
-        <li>No iniciar después del. Especifique una <strong>fecha planificada de inicio</strong>.</li> 
-        <li><strong>No iniciar antes del</strong>. Especifique una <strong>fecha planificada de inicio</strong>.</li> 
+        <li>No iniciar después del. Especifique una <strong>fecha de inicio planificada</strong>.</li> 
+        <li><strong>No iniciar antes del</strong>. Especifique una <strong>fecha de inicio planificada</strong>.</li> 
         <li><strong>No terminar después de</strong>. Especifique una <strong>fecha planificada de finalización</strong>.</li> 
         <li><strong>No terminar antes de</strong>. Especifique una <strong>fecha planificada de finalización</strong>.</li> 
        </ul> <p>Para obtener más información sobre la restricción de tarea, consulte <a href="../../../manage-work/tasks/task-constraints/task-constraint-overview.md" class="MCXref xref">Información general sobre la restricción de tarea</a>.</p> </td> 
