@@ -6,9 +6,9 @@ description: Los riesgos son eventos posibles o factores que impiden que un proy
 author: Alina
 feature: Work Management
 exl-id: 6125c477-c0d8-43b4-88d8-35b0c2412468
-source-git-commit: f97c989f57d864252adf6e24f8e6b03f56d26901
+source-git-commit: 14b6b9c4a184131cfdc33b6156c578218ed9119a
 workflow-type: tm+mt
-source-wordcount: '1108'
+source-wordcount: '1107'
 ht-degree: 62%
 
 ---
@@ -97,7 +97,7 @@ Para crear o editar un riesgo en el caso empresarial:
 
    * **Coste de mitigación**: indique el coste del plan de mitigación que se debe establecer para evitar que se produzca el riesgo.
 
-   ![Riesgos](assets/crp1-350x117.png)
+   <!--![Risks](assets/crp1-350x117.png)-->
 
 1. (Opcional) Haga clic en **Añadir otro riesgo** para añadir riesgos adicionales.
 1. Haga clic en **Guardar**.

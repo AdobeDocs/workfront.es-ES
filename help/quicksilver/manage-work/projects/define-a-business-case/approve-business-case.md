@@ -5,7 +5,7 @@ description: Una vez completado y enviado el caso empresarial para una solicitud
 author: Alina
 feature: Work Management
 exl-id: 60abb054-5cb0-4dd6-9091-c9dcd635a630
-source-git-commit: f97c989f57d864252adf6e24f8e6b03f56d26901
+source-git-commit: 14b6b9c4a184131cfdc33b6156c578218ed9119a
 workflow-type: tm+mt
 source-wordcount: '692'
 ht-degree: 17%
@@ -126,7 +126,7 @@ Para generar un informe para los proyectos que están pendientes de la aprobaci�
 1. Haga clic en **Caso empresarial** en el panel de la izquierda.
 1. Haga clic en **Aprobar** o **Rechazar** en el área Resumen de caso comercial para aprobar o rechazar el caso comercial.
 
-   ![Caso comercial](assets/business-case-summary-with-rp-information--1-.png)
+   &lt;!—![Caso comercial](assets/business-case-summary-with-rp-information--1-.png)—>
 
    El estado del proyecto cambia a **Aprobado** si se aprueba el caso comercial.
 

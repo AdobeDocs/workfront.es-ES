@@ -6,9 +6,9 @@ description: Puede exportar el caso empresarial a un archivo PDF, en caso de que
 author: Alina
 feature: Work Management
 exl-id: 834c56c4-ca11-4aff-b67e-0eac9fa23403
-source-git-commit: f97c989f57d864252adf6e24f8e6b03f56d26901
+source-git-commit: 14b6b9c4a184131cfdc33b6156c578218ed9119a
 workflow-type: tm+mt
-source-wordcount: '210'
+source-wordcount: '209'
 ht-degree: 71%
 
 ---
@@ -56,9 +56,9 @@ Puede exportar el caso empresarial a un archivo PDF, en caso de que necesite imp
 1. Haga clic en **caso empresarial** en el panel de la izquierda.
 1. En el área superior derecha **Resumen de caso empresarial**, haga clic en **Exportar**.
 
-   ![Resumen de caso comercial](assets/bc-summary--350x587.png)\
+   &lt;!—![Resumen de caso comercial](assets/bc-summary--350x587.png)—>\
    A PDF   El archivo de se ha descargado en el equipo. El archivo contiene todas las áreas del caso empresarial en un formato fácil de leer.
 
-   ![BC_Summary_export.png](assets/bc-summary-exported-350x160.png)
+   <!--![BC_Summary_exported.png](assets/bc-summary-exported-350x160.png)-->
 
 1. (Opcional) Adjunte el archivo PDF a un mensaje de correo electrónico o imprímalo para compartirlo con otros usuarios.

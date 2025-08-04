@@ -5,9 +5,9 @@ description: Como parte de la planificación de recursos, puede utilizar el Plan
 author: Alina
 feature: Work Management
 exl-id: 51ebb940-111c-442f-a8a6-287a04d2db68
-source-git-commit: f97c989f57d864252adf6e24f8e6b03f56d26901
+source-git-commit: 14b6b9c4a184131cfdc33b6156c578218ed9119a
 workflow-type: tm+mt
-source-wordcount: '1240'
+source-wordcount: '1229'
 ht-degree: 14%
 
 ---
@@ -108,11 +108,11 @@ Para aplicar conjuntos de recursos y presupuestar recursos de proyecto en el cas
 
    * Seleccione Planificador de recursos en el campo **Elija qué horas usar para calcular el costo de mano de obra presupuestado del proyecto** y luego haga clic en **Elegir > Editar presupuesto de recursos**.
 
-     ![Caso comercial en el Planificador de recursos](assets/business-case-rp-selected-with-choose-button-350x120.png)
+     <!--![Business case in Resource Planner](assets/business-case-rp-selected-with-choose-button-350x120.png)-->
 
    * Si se seleccionó el Planificador de escenarios para presupuestar recursos para el proyecto, haga clic en **Cambiar** > **Editar presupuesto de recursos**.
 
-     ![Caso comercial en Scenario Planner](assets/business-case-sp-selected-change-option-to-switch-to-rp-highlighted-350x88.png)
+     <!--![Business case in Scenario Planner](assets/business-case-sp-selected-change-option-to-switch-to-rp-highlighted-350x88.png)-->
 
    Utiliza las horas presupuestadas del proyecto para calcular el costo de mano de obra presupuestado del proyecto.
 
@@ -138,7 +138,7 @@ Para aplicar conjuntos de recursos y presupuestar recursos de proyecto en el cas
 
    Para obtener más información sobre el Planificador de recursos, consulte [Información general del Planificador de recursos](../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
 
-   ![área_de_presupuestación_de_recursos_BC.png](assets/bc-resource-budgeting-area-350x276.png)
+   <!--![BC_resource_budgeting_area.png](assets/bc-resource-budgeting-area-350x276.png)-->
 
 1. (Opcional y condicional) Expanda las funciones del puesto para ver los usuarios asociados a ellas.
 

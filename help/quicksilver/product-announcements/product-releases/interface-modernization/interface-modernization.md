@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: db0a8e78454ffb5b85865265a273e21e99022f9f
+source-git-commit: 14b6b9c4a184131cfdc33b6156c578218ed9119a
 workflow-type: tm+mt
-source-wordcount: '6262'
+source-wordcount: '6319'
 ht-degree: 2%
 
 ---
@@ -59,6 +59,16 @@ Hemos actualizado la página Actualizar usuarios para SSO con un diseño más mo
 Para ver este cambio, vaya a Configuración > Sistema > Actualizar usuarios para SSO
 
 ## Proyectos
+
+## Actualizaciones de interfaz para un caso comercial de proyecto
+
+**Versión preliminar: 4 de agosto de 2025; versión de producción: por anunciar**
+
+Hemos actualizado el aspecto del caso empresarial del proyecto para que coincida con otras áreas de la aplicación.
+
+Para ver este cambio, vaya a Proyectos > Seleccionar un proyecto > Caso comercial.
+
+Para obtener más información, vea [Crear un caso comercial para un proyecto](/help/quicksilver/manage-work/projects/define-a-business-case/create-business-case.md).
 
 ## Nueva apariencia de la sección Detalles de cola en una plantilla
 

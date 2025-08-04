@@ -5,10 +5,10 @@ description: Los formularios personalizados se utilizan para recopilar informaci
 author: Alina
 feature: Work Management
 exl-id: f781fd00-968c-4e5d-b82c-a74acedb2734
-source-git-commit: f97c989f57d864252adf6e24f8e6b03f56d26901
+source-git-commit: 14b6b9c4a184131cfdc33b6156c578218ed9119a
 workflow-type: tm+mt
-source-wordcount: '333'
-ht-degree: 90%
+source-wordcount: '327'
+ht-degree: 92%
 
 ---
 
@@ -80,9 +80,9 @@ Para adjuntar un formulario personalizado:
 
 1. En la sección **Formulario personalizado**, seleccione el formulario personalizado que desea adjuntar en el menú desplegable.
 
-   ![Lista desplegable de formularios personalizados](assets/custom-forms-drop-down-menu.png)
+   <!--![Custom forms dropdown](assets/custom-forms-drop-down-menu.png)-->
 
 1. (Opcional) Seleccione **Editar formulario personalizado**.\
-   ![Editar formulario personalizado](assets/acf1-350x122.png)
+   <!--![Edit custom form](assets/acf1-350x122.png)-->
 
 1. (Opcional) Especifique la información en los campos del formulario personalizado y, a continuación, haga clic en **Guardar**

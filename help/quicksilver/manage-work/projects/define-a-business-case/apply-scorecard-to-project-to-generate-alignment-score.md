@@ -5,9 +5,9 @@ description: Puede utilizar un cuadro de resultados para medir la alineación de
 author: Alina
 feature: Work Management
 exl-id: 21cf5493-147d-4b8d-8b16-2891eb7e0491
-source-git-commit: f97c989f57d864252adf6e24f8e6b03f56d26901
+source-git-commit: 14b6b9c4a184131cfdc33b6156c578218ed9119a
 workflow-type: tm+mt
-source-wordcount: '1220'
+source-wordcount: '1208'
 ht-degree: 99%
 
 ---
@@ -91,7 +91,7 @@ Para aplicar un cuadro de resultados a un proyecto:
 
 1. Seleccione un cuadro de resultados en el menú desplegable.
 
-   ![Nuevo cuadro de resultados](assets/new-scorecard.png)
+   <!--![New scorecard](assets/new-scorecard.png)-->
 
 1. Escriba una respuesta para todas las preguntas del cuadro de resultados.
 
@@ -164,7 +164,7 @@ Puede ver la puntuación de alineación de un proyecto en el nivel de proyecto s
 
    La puntuación de alineación se encuentra en el resumen del caso empresarial, en el valor **Alineado**.
 
-   ![Puntuación de alineación en un proyecto](assets/alignment-score-on-a-project.png)
+   <!--![Alignment score on a project](assets/alignment-score-on-a-project.png)-->
 
 ### Vea las puntuaciones de alineación del proyecto y del portafolios en el Optimizador de portafolios
 
@@ -175,7 +175,7 @@ Para obtener más información acerca de la información mostrada en el Optimiza
 * [Busque la puntuación de alineación del proyecto en el Optimizador de portafolios](#locate-the-alignment-score-of-the-project-in-the-portfolio-optimizer)
 * [Busque la puntuación de alineación del portafolios en el Optimizador de portafolios](#locate-the-alignment-score-of-the-portfolio-in-the-portfolio-optimizer)
 
-  ![Puntuación de alineación en el Optimizador de portafolios](assets/alignment-score-in-portfolio-optimizer.png)
+  <!--![Alignment score in Portfolio Optimizer](assets/alignment-score-in-portfolio-optimizer.png)-->
 
 #### Busque la puntuación de alineación del proyecto en el Optimizador de portafolios {#locate-the-alignment-score-of-the-project-in-the-portfolio-optimizer}
 
