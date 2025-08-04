@@ -7,7 +7,7 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
-source-git-commit: 5b984451d19ed0381c75c4fa19f3eba16804fbf5
+source-git-commit: 1c6a1238e9ea1ca843dcb296db7a552ff354c50a
 workflow-type: tm+mt
 source-wordcount: '2666'
 ht-degree: 75%
@@ -77,7 +77,9 @@ Las suscripciones a eventos admiten los siguientes objetos de Workfront.
 * Usuario
 * Espacio de trabajo
 
-Para obtener una lista de los campos admitidos por los objetos de suscripción a eventos, consulte [Campos de recurso de suscripción a eventos](../../wf-api/api/event-sub-resource-fields.md).
+>[!NOTE]
+>
+>Para obtener una lista de los campos admitidos por los objetos de suscripción a eventos, consulte [Campos de recurso de suscripción a eventos](../../wf-api/api/event-sub-resource-fields.md).
 
 ## Autenticación de suscripción de evento
 
@@ -810,7 +812,7 @@ Este conector hace que el filtro se aplique al nuevo estado o al antiguo estado 
 >[!NOTE]
 >
 >La suscripción siguiente con el filtro especificado solo devolverá mensajes donde el nombre de la tarea contenga `again` en `oldState`, tal como sucedía antes de que se realizara una actualización en la tarea.
->&#x200B;>Un caso de uso para esto sería encontrar los mensajes de objCode que han cambiado de una manera a otra. Por ejemplo, para averiguar todas las tareas que cambiaron de &quot;Investigar Algún nombre&quot; a &quot;Investigar TeamName Algún nombre&quot;
+>>Un caso de uso para esto sería encontrar los mensajes de objCode que han cambiado de una manera a otra. Por ejemplo, para averiguar todas las tareas que cambiaron de &quot;Investigar Algún nombre&quot; a &quot;Investigar TeamName Algún nombre&quot;
 
 ```
 {
