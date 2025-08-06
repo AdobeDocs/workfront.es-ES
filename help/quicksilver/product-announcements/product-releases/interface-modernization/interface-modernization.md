@@ -5,7 +5,7 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 14b6b9c4a184131cfdc33b6156c578218ed9119a
+source-git-commit: 4ecb9141054c2f927a936f498941cc41108cbe45
 workflow-type: tm+mt
 source-wordcount: '6319'
 ht-degree: 2%
@@ -72,7 +72,7 @@ Para obtener más información, vea [Crear un caso comercial para un proyecto](/
 
 ## Nueva apariencia de la sección Detalles de cola en una plantilla
 
-**Versión preliminar: 31 de julio de 2025; versión de producción: 7 de agosto de 2025**
+**Versión preliminar: 31 de julio de 2025; versión de producción: 14 de agosto de 2025**
 
 Hemos actualizado el aspecto de la sección Detalles de cola de una plantilla. El aspecto de la sección Detalles de cola ahora coincide con otras áreas de Workfront.
 
