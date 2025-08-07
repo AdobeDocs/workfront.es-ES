@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 4ecb9141054c2f927a936f498941cc41108cbe45
+source-git-commit: 832b4044feaea902b807c12b5fad072c6dd04fc8
 workflow-type: tm+mt
-source-wordcount: '6319'
+source-wordcount: '6584'
 ht-degree: 2%
 
 ---
@@ -24,7 +24,19 @@ Para ver todos los demás cambios en Adobe Workfront, consulte [Versiones del pr
 
 ## Administración y configuración
 
-## Actualizaciones de la interfaz para la lista Perfiles de hojas de horas en un grupo
+## Actualizaciones de la interfaz para el área Condiciones en Configuración
+
+**Versión preliminar: 7 de agosto de 2025; versión de producción: 18 de agosto de 2025**
+
+Hemos actualizado la página Condiciones con un diseño más moderno y coherente con otras áreas de Workfront.
+
+Una mejora visible en la interfaz es que ahora aparece un botón **Editar** junto a las condiciones que puede editar y ya no tiene que pasar el ratón sobre una condición para encontrar el icono Editar.
+
+Para ver estos cambios, vaya a Configuración > Preferencias de proyecto > Condiciones.
+
+Para obtener más información, consulte [Crear o editar una condición personalizada](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-conditions/create-edit-custom-conditions.md).
+
+### Actualizaciones de la interfaz para la lista Perfiles de hojas de horas en un grupo
 
 **Versión preliminar: 24 de julio de 2025; versión de producción: 28 de julio de 2025**
 
@@ -32,7 +44,7 @@ Hemos actualizado el aspecto de la lista Perfiles de plantilla de horas del pane
 
 Para ver estos cambios, vaya a Configuración > Grupos > Seleccione un grupo > Perfiles de plantilla de horas.
 
-## Cambios en la interfaz para los cuadros Nuevo y Editar tipo de hora
+### Cambios en la interfaz para los cuadros Nuevo y Editar tipo de hora
 
 **Versión preliminar: 24 de julio de 2025; versión de producción: 31 de julio de 2025**
 
@@ -40,7 +52,7 @@ Hemos actualizado el aspecto de los cuadros Nuevo y Editar tipo de hora al agreg
 
 Para obtener más información, consulte [Administrar tipos de horas](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/hour-types.md).
 
-## Actualizaciones de la interfaz de la página Registros de auditoría en la configuración
+### Actualizaciones de la interfaz de la página Registros de auditoría en la configuración
 
 **Versión preliminar: 22 de julio de 2025; versión de producción: por anunciar**
 
@@ -50,7 +62,7 @@ El botón de exportación se ha movido al lado derecho de la página.
 
 Para ver este cambio, vaya a Configuración > Seguimiento de cambios > Registros de auditoría.
 
-## Actualizaciones de la interfaz de la página Actualización de usuarios para SSO de la Configuración
+### Actualizaciones de la interfaz de la página Actualización de usuarios para SSO de la Configuración
 
 **Versión preliminar: 22 de julio de 2025; versión de producción: 28 de julio de 2025**
 
@@ -60,9 +72,17 @@ Para ver este cambio, vaya a Configuración > Sistema > Actualizar usuarios para
 
 ## Proyectos
 
-## Actualizaciones de interfaz para un caso comercial de proyecto
+### Actualizaciones de la interfaz para registrar el tiempo de un proyecto, tarea o problema en la pestaña Horas
 
-**Versión preliminar: 4 de agosto de 2025; versión de producción: por anunciar**
+**Versión preliminar: 7 de agosto de 2025; versión de producción: 14 de agosto de 2025**
+
+Hemos actualizado el aspecto del cuadro Registrar tiempo al registrar el tiempo de un proyecto, tarea o problema en la pestaña Horas para que coincida con el diseño de otras áreas de Workfront.
+
+Para obtener más información, consulte [Registrar tiempo](/help/quicksilver/timesheets/create-and-manage-timesheets/log-time.md).
+
+### Actualizaciones de interfaz para un caso comercial de proyecto
+
+**Versión preliminar: 4 de agosto de 2025; versión de producción: 18 de agosto**
 
 Hemos actualizado el aspecto del caso empresarial del proyecto para que coincida con otras áreas de la aplicación.
 
@@ -70,7 +90,7 @@ Para ver este cambio, vaya a Proyectos > Seleccionar un proyecto > Caso comercia
 
 Para obtener más información, vea [Crear un caso comercial para un proyecto](/help/quicksilver/manage-work/projects/define-a-business-case/create-business-case.md).
 
-## Nueva apariencia de la sección Detalles de cola en una plantilla
+### Nueva apariencia de la sección Detalles de cola en una plantilla
 
 **Versión preliminar: 31 de julio de 2025; versión de producción: 14 de agosto de 2025**
 
@@ -78,7 +98,7 @@ Hemos actualizado el aspecto de la sección Detalles de cola de una plantilla. E
 
 Para obtener más información, consulte [Crear una cola de solicitudes](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
-<!--## Interface updates when bulk editing templates
+<!--### Interface updates when bulk editing templates
 
 **Preview release: July 31, 2025; Production release: August 7, 2025**
 
@@ -86,15 +106,15 @@ We have updated the look and feel of the Edit templates box when editing templat
 
 For information, see [Edit project templates](/help/quicksilver/manage-work/projects/create-and-manage-templates/edit-templates.md).-->
 
-## Actualizaciones de la interfaz para el cuadro Enviar actualización al usuario de una plantilla
+### Actualizaciones de la interfaz para el cuadro Enviar actualización al usuario de una plantilla
 
-**Versión preliminar: 31 de julio de 2025; versión de producción: 7 de agosto de 2025**
+**Versión preliminar: 31 de julio de 2025; versión de producción: TBD, 2025**
 
 Hemos actualizado el aspecto del cuadro de usuario Enviar actualización al acceder a él desde la pestaña Personas de una plantilla. El cuadro Enviar actualización al usuario ahora coincide con otras áreas de Workfront cuando envía una actualización a uno o varios usuarios.
 
 Para obtener más información, consulte [Administrar el equipo del proyecto](/help/quicksilver/manage-work/projects/planning-a-project/manage-project-team.md).
 
-## Experiencia actualizada al editar un tema de la cola en un proyecto o plantilla
+### Experiencia actualizada al editar un tema de la cola en un proyecto o plantilla
 
 **Versión preliminar: 31 de julio de 2025; versión de producción: 31 de julio de 2025**
 
@@ -104,7 +124,7 @@ Se ha aplicado un pequeño cambio de funcionalidad a la lista Reglas de enrutami
 
 Para obtener más información, consulte [Crear temas de la cola](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
 
-## Actualizaciones de interfaz para registros de facturación
+### Actualizaciones de interfaz para registros de facturación
 
 **Versión preliminar: 31 de julio de 2025; versión de producción: 7 de agosto de 2025**
 
@@ -114,7 +134,7 @@ Para ver estos cambios, vaya a un proyecto > Registros de facturación > selecci
 
 Para obtener más información, consulte [Crear registros de facturación](/help/quicksilver/manage-work/projects/project-finances/create-billing-records.md).
 
-## Actualizaciones de interfaz para el cuadro Importar archivo de MS Project
+### Actualizaciones de interfaz para el cuadro Importar archivo de MS Project
 
 **Versión preliminar: 24 de julio de 2025; versión de producción: por anunciar**
 
@@ -122,7 +142,7 @@ Hemos actualizado el aspecto del cuadro Importar archivo de MS Project al import
 
 Para ver este cambio, vaya a Proyectos > Nuevo proyecto > Importar MS Project.
 
-## Actualización de la interfaz del cuadro Agregar un gasto de un proyecto o plantilla
+### Actualización de la interfaz del cuadro Agregar un gasto de un proyecto o plantilla
 
 **Versión preliminar: 24 de julio de 2025; versión de producción: 31 de julio de 2025**
 
@@ -132,7 +152,15 @@ Para obtener más información, consulte [Administrar gastos del proyecto](/help
 
 ## Plantillas
 
-## Cambios en la interfaz al editar una regla de enrutamiento para una plantilla
+### Actualizaciones de la interfaz de la lista Predecesoras de una plantilla
+
+**Versión preliminar: 7 de agosto de 2025; versión de producción: 14 de agosto de 2025**
+
+Hemos actualizado el aspecto de las listas de predecesoras de una plantilla para que coincidan con el diseño de otras áreas de Workfront.
+
+Agregar predecesoras a una tarea de plantilla es similar a agregar predecesoras a una tarea de proyecto. Para obtener más información, vea [Crear una relación de predecesoras mediante el área Predecesoras](/help/quicksilver/manage-work/tasks/use-prdcssrs/create-predecessors-in-predecessors-area.md).
+
+### Cambios en la interfaz al editar una regla de enrutamiento para una plantilla
 
 **Versión preliminar: 24 de julio de 2025; versión de producción: 31 de julio de 2025**
 
@@ -142,7 +170,7 @@ Para editar la regla de enrutamiento, seleccione la regla de enrutamiento en la 
 
 Para obtener más información, consulte [Crear reglas de enrutamiento](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-routing-rules.md).
 
-## Cambios en la interfaz de las áreas de administración de colas de solicitudes de una plantilla
+### Cambios en la interfaz de las áreas de administración de colas de solicitudes de una plantilla
 
 **Versión preliminar: 24 de julio de 2025; versión de producción: 31 de julio de 2025**
 
@@ -160,6 +188,18 @@ Para obtener más información, consulte
 * [Crear grupos de temas](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-topic-groups.md).
 * [Crear reglas de enrutamiento](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-routing-rules.md).
 
+## Usuarios
+
+### Actualizaciones de la interfaz del cuadro de diálogo Importar usuarios
+
+**Versión preliminar: 7 de agosto de 2025; versión de producción para todos los clientes: 14 de agosto de 2025**
+
+Hemos actualizado el cuadro de diálogo para importar nuevos usuarios a través de un archivo de hoja de cálculo, para que coincida con otras áreas de la aplicación.
+
+Para ver este cambio, vaya a Usuarios > Nuevo usuario > Importar usuarios.
+
+Para obtener más información, consulte [Importar usuarios](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/import-users.md).
+
 ## Actualizaciones de la interfaz realizadas en el tercer trimestre
 
 ### Administración y configuración
@@ -168,7 +208,7 @@ Para obtener más información, consulte
 
 ### Actualizaciones de la interfaz de la página Plantillas de diseño
 
-**Versión preliminar: 17 de julio de 2025; versión de producción: 24 de julio de 2025**
+**Versión preliminar: 17 de julio de 2025; versión de producción: TBD**
 
 Hemos actualizado la página Plantillas de diseño con un diseño más moderno y coherente con otras áreas de Workfront.
 
