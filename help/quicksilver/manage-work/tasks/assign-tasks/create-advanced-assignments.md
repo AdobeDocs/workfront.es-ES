@@ -7,14 +7,16 @@ author: Lisa
 feature: Work Management, Resource Management
 role: User
 exl-id: 09780f78-4eb8-404d-859b-d066d462776d
-source-git-commit: 1211a441b542df49480d933d4c25b0c31ef0883d
+source-git-commit: a0b635953245cf307b558d343ad234a27c96da94
 workflow-type: tm+mt
-source-wordcount: '1132'
-ht-degree: 86%
+source-wordcount: '1144'
+ht-degree: 82%
 
 ---
 
 # Crear asignaciones avanzadas
+
+{{preview-fast-release-general}}
 
 <!-- Audited: 07/2024-->
 
@@ -84,7 +86,10 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
 
    >[!TIP]
    >
-   >Puede realizar asignaciones avanzadas directamente en la lista de tareas o problemas si hay dos o más personas asignadas. Haga clic dentro del campo **Asignaciones** en la misma línea que la tarea o el problema y, a continuación, haga clic en el icono **Personas** para abrir la ventana Asignaciones avanzadas. Vaya al paso 5 para continuar creando asignaciones avanzadas.\
+   >Puede realizar asignaciones avanzadas directamente en la lista de tareas o problemas. Haga clic dentro del campo **Asignaciones** en la misma línea que la tarea o el problema y, a continuación, haga clic en <span class="preview">**Avanzadas**</span> o en el icono **Personas** para abrir la ventana Asignaciones avanzadas. Vaya al paso 5 para continuar creando asignaciones avanzadas.
+   ><span class="preview">Imagen de muestra en el entorno de vista previa:</span>
+   >![Haga clic en Avanzadas o en el icono Personas](assets/access-aa-from-lists.png)
+   >Imagen de muestra en el entorno de producción:
    >![Haga clic en el icono Personas](assets/nwe-advanced-assignments-350x55.png)
 
 1. Haga clic en **Asignar a** en el campo **Asignaciones** del encabezado de la tarea o el problema
@@ -95,7 +100,7 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
 
 1. Haga clic en **Avanzadas**.
 
-   ![Haga clic en Avanzadas](assets/assignments-box-in-task-header.png)
+   ![Haga clic en Avanzadas](assets/assignments-from-task-header-0825.png)
 
 1. En el campo **Buscar personas, roles y equipos**, empiece a escribir el nombre de un usuario, rol o equipo y, a continuación, haga clic en el nombre cuando aparezca en la lista desplegable.
 
