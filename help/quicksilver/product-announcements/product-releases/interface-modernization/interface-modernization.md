@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 832b4044feaea902b807c12b5fad072c6dd04fc8
+source-git-commit: e8178ef6b746057e9f1b3991c1d87c89c08dddd8
 workflow-type: tm+mt
-source-wordcount: '6584'
+source-wordcount: '6617'
 ht-degree: 2%
 
 ---
@@ -106,13 +106,24 @@ We have updated the look and feel of the Edit templates box when editing templat
 
 For information, see [Edit project templates](/help/quicksilver/manage-work/projects/create-and-manage-templates/edit-templates.md).-->
 
-### Actualizaciones de la interfaz para el cuadro Enviar actualización al usuario de una plantilla
+### Actualizaciones de interfaz para el cuadro Enviar actualización al usuario en varios objetos
 
-**Versión preliminar: 31 de julio de 2025; versión de producción: TBD, 2025**
+**Versión preliminar: 31 de julio de 2025; versión de producción: 7 de agosto de 2025**
 
-Hemos actualizado el aspecto del cuadro de usuario Enviar actualización al acceder a él desde la pestaña Personas de una plantilla. El cuadro Enviar actualización al usuario ahora coincide con otras áreas de Workfront cuando envía una actualización a uno o varios usuarios.
+Hemos actualizado el aspecto del cuadro de usuario Enviar actualización al acceder desde las siguientes áreas:
 
-Para obtener más información, consulte [Administrar el equipo del proyecto](/help/quicksilver/manage-work/projects/planning-a-project/manage-project-team.md).
+* La sección Personas de una plantilla
+* La sección Personas de un proyecto
+* Una lista de usuarios de una empresa
+* La lista de usuarios en el área Usuarios
+
+El cuadro Enviar actualización al usuario ahora coincide con otras áreas de Workfront cuando envía una actualización a uno o varios usuarios.
+
+Para obtener más información, consulte los siguientes artículos:
+
+* [Envío de mensajes directos a otros usuarios](/help/quicksilver/people-teams-and-groups/work-directly-with-others/send-direct-messages-to-other-users.md)
+* [Administrar el equipo del proyecto](/help/quicksilver/manage-work/projects/planning-a-project/manage-project-team.md)
+* [Administrar suscripciones a compañías](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/manage-company-memberships.md)
 
 ### Experiencia actualizada al editar un tema de la cola en un proyecto o plantilla
 
