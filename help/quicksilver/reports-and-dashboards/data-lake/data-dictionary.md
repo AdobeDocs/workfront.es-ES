@@ -4,12 +4,12 @@ product-area: reports and dashboards
 navigation-topic: data connect
 title: Diccionario de datos de Workfront Data Connect
 description: Esta página contiene información sobre la estructura y el contenido de los datos de Workfront Data Connect.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 57985404-554e-4289-b871-b02d3427aa5c
-source-git-commit: 44342db0a473eac70212d08cedf9ac0f571cda0b
+source-git-commit: 5a7f61b9b5237e282c1a61fb49b85533497836e3
 workflow-type: tm+mt
-source-wordcount: '8129'
+source-wordcount: '8114'
 ht-degree: 7%
 
 ---
@@ -54,7 +54,7 @@ Los objetos de Workfront (y, por lo tanto, de su repositorio de datos de Data Co
 
 Existen varios objetos de fecha que proporcionan información sobre cuándo se producen eventos específicos.
 
-* `DL_LOAD_TIMESTAMP`: esta fecha se usa como referencia interna y refleja cuándo se cargaron los datos en la tabla Historial actual, Evento o Diario. Esta fecha no debe utilizarse para el análisis de datos y se prevé eliminarla durante la fase beta del lago de datos de Workfront.
+* `DL_LOAD_TIMESTAMP`: esta fecha se actualiza una vez que se ha completado correctamente una actualización de datos e incluye la marca de tiempo de cuándo comenzó el trabajo de actualización que proporcionó la última versión de un registro.
 * `CALENDAR_DATE`: esta fecha solo está presente en la tabla Historial diario. Esta tabla proporciona un registro del aspecto de los datos a las 11:59 UTC para cada fecha especificada en `CALENDAR_DATE`.
 * `BEGIN_EFFECTIVE_TIMESTAMP`: esta fecha está presente en las tablas Evento e Historial diario y registra exactamente cuándo un registro cambió _a_ el valor que tiene en la fila actual.
 * `END_EFFECTIVE_TIMESTAMP`: esta fecha está presente en las tablas Evento e Historial diario y registra exactamente cuándo un registro cambió _de_ el valor de la fila actual a un valor de una fila diferente. Para permitir el intervalo entre consultas en `BEGIN_EFFECTIVE_TIMESTAMP` y `END_EFFECTIVE_TIMESTAMP`, este valor nunca es nulo, aunque no haya ningún valor nuevo. En el caso de que un registro siga siendo válido (es decir, el valor no haya cambiado), `END_EFFECTIVE_TIMESTAMP` tendrá el valor 2300-01-01.
@@ -2488,7 +2488,7 @@ Disponibilidad limitada del cliente
     </tbody>
 </table>
 
-### tarifa de cambio
+### Tarifa de cambio
 
 <table>
     <thead>
@@ -2502,10 +2502,10 @@ Disponibilidad limitada del cliente
       </thead>
       <tbody>
         <tr>
-            <td>tarifa de cambio</td>
-            <td>tarifa de cambio</td>
+            <td>Tarifa de cambio</td>
+            <td>Tarifa de cambio</td>
             <td>EXTRAER</td>
-            <td>tarifa de cambio</td>
+            <td>Tarifa de cambio</td>
             <td>EXCHANGERATES_CURRENT<br>EXCHANGERATES_DAILY_HISTORY<br>EXCHANGERATES_EVENT</td>
         </tr>
       </tbody>
