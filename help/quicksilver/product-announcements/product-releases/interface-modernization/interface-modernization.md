@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: e8178ef6b746057e9f1b3991c1d87c89c08dddd8
+source-git-commit: 6e6f88362eb46122e43f049ae975a2087cdbe588
 workflow-type: tm+mt
-source-wordcount: '6617'
+source-wordcount: '6618'
 ht-degree: 2%
 
 ---
@@ -72,11 +72,11 @@ Para ver este cambio, vaya a Configuración > Sistema > Actualizar usuarios para
 
 ## Proyectos
 
-### Actualizaciones de la interfaz para registrar el tiempo de un proyecto, tarea o problema en la pestaña Horas
+### Actualizaciones de la interfaz para registrar el tiempo en un proyecto, tarea o problema en la sección Horas
 
 **Versión preliminar: 7 de agosto de 2025; versión de producción: 14 de agosto de 2025**
 
-Hemos actualizado el aspecto del cuadro Registrar tiempo al registrar el tiempo de un proyecto, tarea o problema en la pestaña Horas para que coincida con el diseño de otras áreas de Workfront.
+Hemos actualizado el aspecto del cuadro Registrar tiempo al registrar el tiempo de un proyecto, tarea o problema en la sección Horas para que coincida con el diseño de otras áreas de Workfront.
 
 Para obtener más información, consulte [Registrar tiempo](/help/quicksilver/timesheets/create-and-manage-timesheets/log-time.md).
 
@@ -114,7 +114,7 @@ Hemos actualizado el aspecto del cuadro de usuario Enviar actualización al acce
 
 * La sección Personas de una plantilla
 * La sección Personas de un proyecto
-* Una lista de usuarios de una empresa
+* La sección Miembros de una compañía
 * La lista de usuarios en el área Usuarios
 
 El cuadro Enviar actualización al usuario ahora coincide con otras áreas de Workfront cuando envía una actualización a uno o varios usuarios.
