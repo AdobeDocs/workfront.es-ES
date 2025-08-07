@@ -7,9 +7,9 @@ description: Los usuarios que están asociados a un proyecto en cierta capacidad
 author: Alina
 feature: Work Management
 exl-id: ceb25fb1-57fc-476c-b92c-fc41aadc0b5b
-source-git-commit: d77da0569389104172fc759c53a9eb00acec4f65
+source-git-commit: 89e15f6d99514e11e43e06487a4477d35a155cb0
 workflow-type: tm+mt
-source-wordcount: '450'
+source-wordcount: '476'
 ht-degree: 7%
 
 ---
@@ -18,9 +18,14 @@ ht-degree: 7%
 
 <!-- Audited: 6/2025 -->
 
-Un equipo de proyecto consta de usuarios que están asociados a un proyecto en cierta capacidad. Los usuarios enumerados en el área Personas de un proyecto conforman el equipo del proyecto. Por ejemplo, los usuarios asignados para trabajar en el proyecto o el propietario del proyecto forman parte del equipo del proyecto.
+Un equipo de proyecto consta de usuarios que están asociados a un proyecto en cierta capacidad. Los usuarios enumerados en la sección Personas de un proyecto conforman el equipo del proyecto. Por ejemplo, los usuarios asignados para trabajar en el proyecto o el propietario del proyecto forman parte del equipo del proyecto.
 
-Los usuarios asociados con el trabajo en una plantilla de proyecto o que son el propietario o patrocinador de la plantilla forman parte del futuro equipo de proyecto una vez que el proyecto se ha creado con la plantilla.
+Los siguientes usuarios de una plantilla de proyecto forman parte del futuro equipo de proyecto una vez creado el proyecto con la plantilla:
+
+* Usuarios asignados para trabajar (tareas y problemas) en la plantilla.
+* El propietario o patrocinador de la plantilla.
+
+Los usuarios que forman parte del futuro equipo del proyecto en una plantilla se muestran en la sección Personas de la plantilla.
 
 ## Miembros del equipo del proyecto
 

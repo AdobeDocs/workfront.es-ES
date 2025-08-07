@@ -7,10 +7,10 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: 6e8036fc-feda-4277-9502-0b973028fccb
-source-git-commit: fe51ded26c57e3b7137e42ad2218d79adf032b85
+source-git-commit: 89e15f6d99514e11e43e06487a4477d35a155cb0
 workflow-type: tm+mt
-source-wordcount: '1280'
-ht-degree: 25%
+source-wordcount: '1183'
+ht-degree: 26%
 
 ---
 
@@ -18,13 +18,15 @@ ht-degree: 25%
 
 <!--take preview and production references out at production - August 7-->
 
-<div class="preview">
+<!--<div class="preview"> 
 
-La información resaltada en esta página hace referencia a funcionalidades que aún no están disponibles de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Las mismas funciones también estarán disponibles en el entorno de producción para todos los clientes una semana después de la versión de vista previa.
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release.      
 
-Para obtener más información, vea [Modernización de la interfaz](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
 
 </div>
+
+-->
 
 El equipo del proyecto está formado por usuarios asociados al proyecto. Para más información, consulte [Información general del equipo del proyecto](/help/quicksilver/manage-work/projects/planning-a-project/project-team-overview.md).
 
@@ -57,8 +59,8 @@ Puede administrar los usuarios de los equipos del proyecto y de la plantilla agr
   </tr> 
   <tr> 
    <td role="rowheader">Licencia de Adobe Workfront*</td> 
-   <td> <p>Nuevo: estándar </p>
-    <p>Actual: plan </p>
+   <td> <p>Estándar </p>
+    <p>Plan </p>
     </td> 
   </tr> 
   <tr> 
@@ -197,9 +199,14 @@ If users that don't fulfill any role on the project want to be notified about ce
 
    Seleccione uno o varios usuarios en la lista y luego haga clic en **Enviar actualización al usuario**.
 
-   ![Enviar actualización al usuario en un proyecto](assets/send-update-to-user-on-project-box.png)
+   <!--update screen shot when they fix the bug - the text above the box needs to match the OLD box, below-->
 
-   Se abre el cuadro **Enviar actualización al usuario**.
+   ![Enviar actualización al cuadro de usuario en el proyecto](assets/send-update-to-user-on-project-box-2025.png)
+
+   <!--Old UI for projects but the text above the comment box is right and matches the functionality):
+   ![OLD Send update to user on a project](assets/send-update-to-user-on-project-box.png)-->
+
+   Se abre la casilla **Enviar actualización al usuario**.
 
 1. Realice una de las siguientes acciones:
 
@@ -246,27 +253,14 @@ If users that don't fulfill any role on the project want to be notified about ce
 
    ![Enviar actualización al cuadro de usuario en la plantilla](assets/send-update-to-user-on-template-box.png)
 
-   Se abre el cuadro **Enviar actualización al usuario**.
+   Se abre la casilla **Enviar actualización al usuario**.
 
 1. Haga lo siguiente:
-
-   * En el entorno de producción:
-
-      * Añada una actualización para los usuarios seleccionados.
-      * Haga clic en el icono Personas para etiquetar a usuarios adicionales para que reciban la misma actualización.
-      * Haga clic en el icono de candado para que la actualización sea privada para los usuarios de su empresa.
-      * Haga clic en **Enviar**.
-
-   * <span class="preview">En el entorno de vista previa: </span>
-
-   <div class="preview">
 
    * Añada una actualización para los usuarios seleccionados.
    * Haga clic en **Etiquetar personas** para etiquetar a usuarios adicionales y recibir la misma actualización.
    * Seleccione la opción **Privado para mi compañía** de para que la actualización sea privada para los usuarios de su compañía.
    * Haga clic en **Enviar**.
-
-   </div>
 
    La actualización se agrega a la sección **Actualizaciones** del perfil de cada usuario etiquetado.
 
