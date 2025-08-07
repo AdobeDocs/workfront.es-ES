@@ -4,10 +4,10 @@ description: El espacio de trabajo de GenStudio for Performance Marketing está 
 hide: true
 hidefromtoc: true
 exl-id: d6140b05-26c3-4298-a2f9-53695aa021cb
-source-git-commit: a92c85ad5f58700138d7750423cc3d134d980a9e
+source-git-commit: 36cd1c23dfb6e01dc1016a6a12ae47e4f9172d20
 workflow-type: tm+mt
-source-wordcount: '601'
-ht-degree: 14%
+source-wordcount: '684'
+ht-degree: 12%
 
 ---
 
@@ -26,7 +26,7 @@ recommendations: noDisplay, noCatalog
 
 El espacio de trabajo de GenStudio for Performance Marketing está disponible en Adobe Workfront Planning cuando su empresa ha adquirido ambos productos y su instancia de Workfront está integrada con la instancia de GenStudio de su empresa. Puede ver el espacio de trabajo de GenStudio desde Planning y actualizar la información en ambos sistemas.
 
-Para obtener información acerca del uso de GenStudio for Performance Marketing, consulte [Guía del usuario de Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/es/docs/genstudio-for-performance-marketing/user-guide/home).
+Para obtener información acerca del uso de GenStudio for Performance Marketing, consulte [Guía del usuario de Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/home).
 
 ## Requisitos de acceso
 
@@ -93,6 +93,17 @@ Para obtener información acerca del uso de GenStudio for Performance Marketing,
 *Para obtener más información sobre los requisitos de acceso de Workfront, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
+
+## Consideraciones para administrar un espacio de trabajo de GenStudio en Workfront Planning
+
+* Su organización debe adquirir Adobe GenStudio for Performance Marketing para poder ver un espacio de trabajo de GenStudio en Workfront Planning.
+
+  Para obtener más información sobre GenStudio, consulte [Guía del usuario de Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/home).
+
+  Para obtener más información sobre la integración de GenStudio y Workfront Planning, consulte [Introducción a Workfront Planning y a la integración de GenStudio for Performance Marketing](/help/quicksilver/planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md)
+
+* Los usuarios de Workfront deben tener acceso a GenStudio para poder ver GenStudio Workspace en Workfront Planning.
+
 
 ## Administrar el espacio de trabajo de GenStudio en Workfront Planning
 
