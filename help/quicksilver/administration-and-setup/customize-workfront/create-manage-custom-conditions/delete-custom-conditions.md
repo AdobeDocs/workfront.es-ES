@@ -8,14 +8,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 5fbd4989-460b-4380-a136-8a9f6b79787d
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: 1eab0317bfe72609133e71411ee24263517f1508
 workflow-type: tm+mt
-source-wordcount: '253'
-ht-degree: 31%
+source-wordcount: '259'
+ht-degree: 27%
 
 ---
 
 # Eliminación de una condición personalizada
+
+{{highlighted-preview}}
 
 Puede eliminar una condición personalizada si ya no la necesita.
 
@@ -58,16 +60,11 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
 
 1. Haga clic en **Preferencias del proyecto** > **Condiciones**.
 
-   <!--
-   <span data-mc-conditions="QuicksilverOrClassic.Draft mode">Make sure it's this way also in QS</span>
-   -->
-
 1. Seleccione la ficha del tipo de objeto (**Proyecto**, **Tarea** o **Problema**) donde se encuentra la condición que desea eliminar.
 
-1. Pase el ratón sobre la condición que quiera eliminar y luego haga clic en el icono **Eliminar** ![Eliminar](assets/delete.png) que aparece en el extremo derecho.
-1. En el mensaje de confirmación que aparece, haga clic en **Eliminar condición**.
+1. Haga clic en <span class="preview">**Eliminar** junto al nombre de la condición</span> que desee eliminar, o bien pase el ratón sobre la condición y haga clic en el icono **Eliminar** ![Eliminar](assets/delete.png) que aparece en el extremo derecho.
 
-1. En el cuadro **Eliminar condición** que aparece, seleccione una nueva condición en la lista desplegable para todos los proyectos que estaban utilizando la condición que está eliminando.
+1. En el cuadro **Eliminar condición** que aparece, seleccione una nueva condición en la lista desplegable para todos los proyectos, tareas o problemas que estaban utilizando la condición que está eliminando.
 
    Las condiciones personalizadas solo están disponibles en la lista desplegable si se equiparan con la misma condición integrada que la que está eliminando. Por ejemplo, si elimina una condición que es igual a En riesgo, solo se podrán seleccionar las condiciones personalizadas que también sean iguales a En riesgo.
 
@@ -76,5 +73,5 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
 >[!NOTE]
 >
 >No puede eliminar las condiciones integradas, que son En el destino, En riesgo y Con problemas. Sin embargo, puede cambiar sus nombres y colores.
-
-Para obtener información acerca de las condiciones personalizadas, consulte [Condiciones personalizadas](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/custom-conditions.md).
+>
+>Para obtener información sobre cómo editar condiciones personalizadas, consulte [Crear o editar una condición personalizada](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-conditions/create-edit-custom-conditions.md).

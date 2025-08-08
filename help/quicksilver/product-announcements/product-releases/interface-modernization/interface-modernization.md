@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 46cb91855937742ee681b3d2412941b2d3831086
+source-git-commit: 1eab0317bfe72609133e71411ee24263517f1508
 workflow-type: tm+mt
-source-wordcount: '6618'
+source-wordcount: '6622'
 ht-degree: 2%
 
 ---
@@ -30,7 +30,7 @@ Para ver todos los demás cambios en Adobe Workfront, consulte [Versiones del pr
 
 Hemos actualizado la página Condiciones con un diseño más moderno y coherente con otras áreas de Workfront.
 
-Una mejora visible en la interfaz es que ahora aparece un botón **Editar** junto a las condiciones que puede editar y ya no tiene que pasar el ratón sobre una condición para encontrar el icono Editar.
+Una mejora visible en la interfaz es que los botones **Editar** y **Eliminar** aparecen ahora junto a las condiciones que puede editar y ya no tiene que pasar el ratón sobre una condición para encontrar los iconos Editar y Eliminar.
 
 Para ver estos cambios, vaya a Configuración > Preferencias de proyecto > Condiciones.
 

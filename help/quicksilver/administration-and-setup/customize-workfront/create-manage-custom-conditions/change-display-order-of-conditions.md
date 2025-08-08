@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: b9a489e8-0ffe-4f52-bbd9-172e7273048c
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: 1eab0317bfe72609133e71411ee24263517f1508
 workflow-type: tm+mt
 source-wordcount: '175'
-ht-degree: 90%
+ht-degree: 86%
 
 ---
 
@@ -21,7 +21,7 @@ Puede cambiar el orden en que se muestran las condiciones en los proyectos, tare
 
 * Cuando un usuario está editando un proyecto
 
-  ![Cambiar condición al editar el proyecto](assets/change-condition-edit-project.png)
+  ![Cambiar condición al editar el proyecto](assets/change-condition-edit-project-0825.png)
 
 * Cuando un usuario está cambiando la condición de una tarea o un problema
 
@@ -66,7 +66,7 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
 
 1. Haga clic en **Preferencias del proyecto** > **Condiciones**.
 
-1. Seleccione la pestaña **Proyectos**,**Tareas** o **Problemas**.
+1. Seleccione la ficha **Proyectos**, **Tareas** o **Problemas**.
 
 1. Arrastre ![Icono de mover](assets/move-icon---dots.png) condiciones para cambiar su orden.
 

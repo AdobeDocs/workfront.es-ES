@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 5c950862-4358-4aab-997b-223972662150
-source-git-commit: 1c3c82db8c1320130aa3eec9d5ad1fe31340e2e9
+source-git-commit: 1eab0317bfe72609133e71411ee24263517f1508
 workflow-type: tm+mt
 source-wordcount: '635'
 ht-degree: 13%
@@ -124,15 +124,15 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
 
      ![Cambiar condición al editar el proyecto](assets/change-condition-edit-project-0825.png)
 
-<!-- 
+   <!-- 
    * When a user is changing the condition for a task or issue on the Updates tab:
 
      ![Change condition when updating comment](assets/change-condition-update-comment.png)
--->
+   -->
 
-* Cuando un usuario cambia la condición de una tarea o un problema en una vista de lista:
+   * Cuando un usuario cambia la condición de una tarea o un problema en una vista de lista:
 
-  ![Cambiar condición en la lista](assets/change-conditions-list-dropdown-only.png)
+     ![Cambiar condición en la lista](assets/change-conditions-list-dropdown-only.png)
 
 1. Haga clic en **Guardar**.
 
