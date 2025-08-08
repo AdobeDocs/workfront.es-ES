@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: dba052ed-83a2-44d2-b025-d970783c4151
-source-git-commit: 183bdced08da75cfb15fe2cc0f0804dec7f07f23
+source-git-commit: 705fc990f2d90ff2102233fc68947fdbe1eb6946
 workflow-type: tm+mt
-source-wordcount: '320'
+source-wordcount: '322'
 ht-degree: 20%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 20%
 
 Si el tipo de condición de un proyecto se establece en estado de progreso en lugar de en manual, Adobe Workfront muestra automáticamente una de las tres condiciones predeterminadas integradas en el proyecto (según el destino, en riesgo o con problemas) a medida que avanza, como se explica en [Información general sobre la condición del proyecto y el tipo de condición](../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md).
 
-![Condición en el encabezado del proyecto](assets/condition-in-project-header-nwe.png)
+![Condición en el encabezado y los detalles del proyecto](assets/condition-of-project-0825.png)
 
 Puede establecer las condiciones personalizadas como condiciones predeterminadas en lugar de utilizar estas tres condiciones predeterminadas integradas. Por ejemplo, puede cambiar la condición predeterminada En el destino para que se muestre como Bien de seguimiento en todos los proyectos.
 

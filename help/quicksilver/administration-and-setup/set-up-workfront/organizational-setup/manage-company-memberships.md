@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: f0efd985-76e3-435e-bf19-87008f6a5e9d
-source-git-commit: ac34076ddc0b5815c262a61326534a1241c17a4c
+source-git-commit: 705fc990f2d90ff2102233fc68947fdbe1eb6946
 workflow-type: tm+mt
 source-wordcount: '879'
 ht-degree: 31%
@@ -127,9 +127,10 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
       <td> 
        <ol> 
         <li value="1"> <p>Seleccione al menos un usuario y luego haga clic en <b>Enviar actualización al usuario</b> en la barra de herramientas.</p> </li> 
-        <li value="2"> <p>Escriba el comentario que desea enviar a los usuarios y al área de [!UICONTROL Updates] de sus perfiles de usuario.</p> </li> 
+        <li value="2"> <p>Escriba el comentario que desea enviar a los usuarios y al área de [!UICONTROL Updates] de sus perfiles de usuario.</p>
+         <p>Para obtener más información, vea <a href="/help/quicksilver/people-teams-and-groups/work-directly-with-others/send-direct-messages-to-other-users.md">Enviar mensajes directos a otros usuarios</a>.</p></li> 
        </ol>
-       <p>Para obtener más información, vea <a href="/help/quicksilver/people-teams-and-groups/work-directly-with-others/send-direct-messages-to-other-users.md">Enviar mensajes directos a otros usuarios</a>.</p></td> 
+      </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Exportar la lista de miembros de la empresa</td> 
