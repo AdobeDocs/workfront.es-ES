@@ -6,10 +6,10 @@ description: La información que ve en la aplicación web de  [!DNL Workfront]  
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 68f4b83b-a8b4-4304-930f-62551cb06a92
-source-git-commit: 8b1c7f4fa96a6d5f1bc7fbc7ef11e57fa9ff4bff
+source-git-commit: ac34076ddc0b5815c262a61326534a1241c17a4c
 workflow-type: tm+mt
-source-wordcount: '697'
-ht-degree: 100%
+source-wordcount: '680'
+ht-degree: 99%
 
 ---
 
@@ -37,6 +37,7 @@ La siguiente tabla enumera todas las áreas y objetos de [!DNL Workfront] que co
 | [!UICONTROL Problema] |  ✓ |  ✓ |
 | [!UICONTROL Usuario] |  ✓ |  ✓ |
 | [!UICONTROL Documento] |  ✓ |  ✓ |
+| Área de [!UICONTROL recursos] | ✓ | ✓ |
 
 {style="table-layout:auto"}
 
@@ -51,19 +52,19 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licencia*</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront] licencia*</td> 
    <td> <p>[!UICONTROL Review] o superior</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Configuraciones de nivel de acceso*</strong></td> 
+   <td role="rowheader">Configuraciones de nivel de acceso*</td> 
    <td>[!UICONTROL Reviewer] o superior</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Permisos de objeto</strong></td> 
+   <td role="rowheader">Permisos de objeto</td> 
    <td>Ver acceso al tipo de objeto</td> 
   </tr> 
  </tbody> 

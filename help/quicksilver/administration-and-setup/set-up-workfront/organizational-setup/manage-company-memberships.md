@@ -4,14 +4,14 @@ product-area: system-administration
 navigation-topic: organization-setup
 title: Administrar suscripciones a compañías
 description: En el área [!UICONTROL Compañías] de Configuración, puede agregar y quitar miembros de una compañía. También puede editar sus perfiles de usuario y recordarles que se registren en  [!DNL Workfront], deactivate them in [!DNL Workfront], and remove them from the [!DNL Workfront] system.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: f0efd985-76e3-435e-bf19-87008f6a5e9d
-source-git-commit: 439303273239549bb326c171be44eea321f5bb5f
+source-git-commit: ac34076ddc0b5815c262a61326534a1241c17a4c
 workflow-type: tm+mt
-source-wordcount: '872'
-ht-degree: 1%
+source-wordcount: '879'
+ht-degree: 31%
 
 ---
 
@@ -33,12 +33,12 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
    <td role="rowheader"> <p>[!DNL Workfront] plan</p> </td> 
    <td><p>Actual: [!UICONTROL Equipo] o superior</p>
    <p>O</p>
-   <p>Nuevo: Cualquiera</p>
+   <p>Nuevo: cualquiera</p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!DNL Adobe Workfront] licencia</p> </td> 
-   <td><p>Actual: [!UICONTROL plan]</p>
+   <td><p>Actual: [!UICONTROL Plan]</p>
    <p>O</p>
    <p>Nuevo: [!UICONTROL Standard]</p>
    </td> 
@@ -51,11 +51,11 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
      <li> <p>Acceso administrativo para gestionar empresas, que permite editar cualquier empresa del sistema.</p> </li> 
     </ul> <p><b>NOTA</b>:  
      <ul> 
-      <li> <p>También puede administrar empresas asociadas a cualquier grupo al que esté asignado como administrador del grupo.</p> </li> 
-      <li> <p>Para agregar y quitar usuarios del sistema [!DNL Workfront], debe tener uno de los siguientes elementos:</p> 
+      <li> <p>También puede administrar compañías asociadas a cualquier grupo en el que esté asignado como administrador de grupos.</p> </li> 
+      <li> <p>Para añadir y quitar usuarios del sistema [!DNL Workfront], debe tener uno de los siguientes niveles de acceso:</p> 
        <ul> 
         <li> <p>Nivel de acceso de [!UICONTROL System Administrator].</p> </li> 
-        <li> <p>En su nivel de acceso, [!UICONTROL Edit] debe estar seleccionado para la opción [!UICONTROL Users]. Además, para la configuración de [!UICONTROL Usuarios], en [!UICONTROL Ajustar la configuración] <img src="assets/gear-icon-in-access-levels.png"> , la opción [!UICONTROL Crear] y al menos una de las dos opciones de [!UICONTROL Administración de usuarios] deben estar habilitadas. </p> <p> <img src="assets/access-req-users.png"> </p> <p>Si utiliza la opción [!UICONTROL User Admin (Usuarios del grupo)], debe ser administrador de un grupo del que sea miembro el usuario.</p> </li> 
+        <li> <p>En su nivel de acceso, [!UICONTROL Edit] debe estar seleccionado para la configuración [!UICONTROL Users]. Además, para la configuración de [!UICONTROL Users], en [!UICONTROL Fine-tune your settings] <img src="assets/gear-icon-in-access-levels.png">, la opción [!UICONTROL Create] y al menos una de las dos opciones de [!UICONTROL User Admin] deben estar habilitadas. </p> <p> <img src="assets/access-req-users.png"> </p> <p>Si utiliza la opción [!UICONTROL User Admin (Group Users)], debe ser administrador de un grupo del que sea miembro el usuario.</p> </li> 
        </ul>
        </li> 
      </ul> </p> </td> 
@@ -63,7 +63,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  </tbody> 
 </table>
 
-Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -73,7 +73,8 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
 
 1. Haga clic en **[!UICONTROL Compañías]**.
 1. Haga clic en el nombre de la empresa.
-1. Con la sección **[!UICONTROL Miembros de la compañía]** seleccionada en el panel izquierdo, realice una de las siguientes acciones:
+1. Haga clic en **[!UICONTROL Miembros de la compañía]** en el panel izquierdo.
+1. Realice una de las siguientes acciones:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -93,12 +94,12 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
       <td> 
        <ol> 
         <li value="1"> <p>Seleccione al menos un usuario y, a continuación, haga clic en el icono de [!UICONTROL Edit] <img src="assets/edit-icon.png"> de la barra de herramientas.</p> </li> 
-        <li value="2"> <p>Configure las opciones en el cuadro <b>[!UICONTROL Editar usuario]</b> que aparece.</p> <p>Para obtener información acerca de estas opciones, vea <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">Editar el perfil de un usuario</a>.</p> </li> 
+        <li value="2"> <p>Configure las opciones en el cuadro <b>[!UICONTROL Editar usuario]</b> que aparece.</p> <p>Para obtener más información acerca de estas opciones, vea <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">Editar el perfil de un usuario</a>.</p> </li> 
        </ol> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Copiar miembro</td> 
-      <td> <p>Puede crear un miembro de la compañía copiando uno existente. </p> <p><b>NOTA</b>:  <p>Cuando crea un usuario de esta manera, toda la información se copia del usuario original al usuario recién creado, excepto para lo siguiente:</p> 
+      <td> <p>Puede crear un miembro de la compañía copiando uno existente. </p> <p><b>NOTA</b>:  <p>Cuando crea un usuario de esta manera, toda la información se copia del usuario original al usuario recién creado, excepto para los siguientes casos:</p> 
         <ul> 
          <li>La información de la sección [!UICONTROL Información personal].</li> 
          <li>[!UICONTROL Cuando inicio sesión, mostrar]: la ficha de aterrizaje predeterminada del nivel de acceso está seleccionada en este cuadro.</li> 
@@ -117,7 +118,7 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
         <p>Seleccione al menos un usuario, haga clic en <b>[!UICONTROL Quitar usuarios]</b> y, a continuación, seleccione una de las siguientes opciones en el menú desplegable que se muestra:</p> 
         <ul> 
          <li> <p><b>[!UICONTROL Quitar de la compañía]</b>: quita el usuario o usuarios de la compañía.</p> </li> 
-         <li> <p><b>[!UICONTROL Eliminar]</b>: elimina el usuario o usuarios del sistema [!DNL Workfront].</p> <p><b>IMPORTANTE</b>: al eliminar un usuario del sistema, también se elimina la información asociada con el usuario que es posible que desee conservar. Se recomienda desactivar usuarios en lugar de eliminarlos. Para obtener más información, consulte <a href="../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md" class="MCXref xref">Desactivar o reactivar un usuario</a>.</p> </li> 
+         <li> <p><b>[!UICONTROL Eliminar]</b>: elimina el usuario o usuarios del sistema [!DNL Workfront].</p> <p><b>IMPORTANTE</b>: al eliminar un usuario del sistema, también se elimina la información asociada con el usuario que es posible que desee conservar. Se recomienda desactivar a los usuarios en lugar de eliminarlos. Para obtener más información, consulte <a href="../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md" class="MCXref xref">Desactivar o reactivar un usuario</a>.</p> </li> 
         </ul> 
        </div> </td> 
      </tr> 
@@ -125,9 +126,10 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
       <td role="rowheader">Enviar un comentario a los usuarios y a sus áreas de [!UICONTROL Updates]</td> 
       <td> 
        <ol> 
-        <li value="1"> <p>Seleccione al menos un usuario y, a continuación, haga clic en el icono de [!UICONTROL Comment] <img src="assets/comment-icon.png"> de la barra de herramientas.</p> </li> 
+        <li value="1"> <p>Seleccione al menos un usuario y luego haga clic en <b>Enviar actualización al usuario</b> en la barra de herramientas.</p> </li> 
         <li value="2"> <p>Escriba el comentario que desea enviar a los usuarios y al área de [!UICONTROL Updates] de sus perfiles de usuario.</p> </li> 
-       </ol> </td> 
+       </ol>
+       <p>Para obtener más información, vea <a href="/help/quicksilver/people-teams-and-groups/work-directly-with-others/send-direct-messages-to-other-users.md">Enviar mensajes directos a otros usuarios</a>.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">Exportar la lista de miembros de la empresa</td> 

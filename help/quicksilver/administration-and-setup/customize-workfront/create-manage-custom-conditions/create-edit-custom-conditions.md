@@ -8,14 +8,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 5c950862-4358-4aab-997b-223972662150
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: 1c3c82db8c1320130aa3eec9d5ad1fe31340e2e9
 workflow-type: tm+mt
-source-wordcount: '633'
-ht-degree: 12%
+source-wordcount: '635'
+ht-degree: 13%
 
 ---
 
 # Crear o editar una condición personalizada
+
+{{highlighted-preview}}
 
 Como administrador de Adobe Workfront, puede crear o editar una condición personalizada para proyectos, tareas y problemas para que coincida con las necesidades de su organización.
 
@@ -60,12 +62,16 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
 
 1. Haga clic en la ficha del tipo de objeto (**Proyecto**, **Tarea** o **Problema**) que desee asociar con la condición.
 
-1. Para crear una condición nueva, haga clic en **Agregar condición nueva**.
+1. Para crear una nueva condición, haga clic en **Agregar nueva condición**.
 
    O
 
-   Para editar una condición existente, pase el ratón sobre la condición que quiera editar y luego haga clic en el icono **Editar** que aparece en el extremo derecho.
+   Para editar una condición existente, haga clic en <span class="preview">**Editar** junto al nombre de la condición</span>, o bien pase el ratón sobre la condición que quiera editar y luego haga clic en el icono **Editar** que aparece en el extremo derecho.
 
+   <span class="preview">Imagen de muestra en el entorno de vista previa:</span>
+   ![Editar condición personalizada](assets/custom-conditions-0825.png)
+
+   Imagen de muestra en el entorno de producción:
    ![Condición personalizada](assets/custom-condition-edit-nwe.jpg)
 
 1. Configure la condición personalizada con las siguientes opciones:
@@ -75,7 +81,7 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
     <col> 
     <tbody> 
      <tr> 
-      <td>Nombre de la condición</td> 
+      <td>Nombre de condición</td> 
       <td>(Obligatorio) Escriba un nombre descriptivo para la condición.</td> 
      </tr> 
      <tr> 
@@ -116,15 +122,17 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
 
    * Cuando un usuario está editando un proyecto
 
-     ![Cambiar condición al editar el proyecto](assets/change-condition-edit-project.png)
+     ![Cambiar condición al editar el proyecto](assets/change-condition-edit-project-0825.png)
 
-   * Cuando un usuario cambia la condición de una tarea o un problema en la pestaña Actualizaciones:
+<!-- 
+   * When a user is changing the condition for a task or issue on the Updates tab:
 
-     ![Cambiar condición al actualizar comentario](assets/change-condition-update-comment.png)
+     ![Change condition when updating comment](assets/change-condition-update-comment.png)
+-->
 
-   * Cuando un usuario cambia la condición de una tarea o un problema en una vista de lista:
+* Cuando un usuario cambia la condición de una tarea o un problema en una vista de lista:
 
-     ![Cambiar condición en la lista](assets/change-conditions-list-dropdown-only.png)
+  ![Cambiar condición en la lista](assets/change-conditions-list-dropdown-only.png)
 
 1. Haga clic en **Guardar**.
 
