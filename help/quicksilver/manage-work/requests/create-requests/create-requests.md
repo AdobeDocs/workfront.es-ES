@@ -8,10 +8,10 @@ author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: de161674-5b61-4853-a16a-c70db10a1c95
-source-git-commit: 6311526ddf9143c4a979d8bbac96312a3b0e8151
+source-git-commit: 7eb5b40c92ed743a665f6c38ce6d09db7d9a2ddb
 workflow-type: tm+mt
-source-wordcount: '157'
-ht-degree: 98%
+source-wordcount: '170'
+ht-degree: 91%
 
 ---
 
@@ -38,3 +38,5 @@ Para obtener más información sobre cómo crear, enviar o enviar solicitudes po
 * [Localizar solicitudes enviadas](../../../manage-work/requests/create-requests/locate-submitted-requests.md)
 * [Compartir un vínculo a una cola de solicitudes](../../../manage-work/requests/create-requests/share-link-to-request-queue.md)
 * [Eliminar un borrador de solicitud](../../../manage-work/requests/create-requests/delete-request-draft.md)
+* [Rellenar automáticamente una solicitud de datos anteriores](/help/quicksilver/manage-work/requests/create-requests/autofill-suggestions-from-previous.md)
+* [Rellenar automáticamente una solicitud utilizando indicaciones o documentos](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md)
