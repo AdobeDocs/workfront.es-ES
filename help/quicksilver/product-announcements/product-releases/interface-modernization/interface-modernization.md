@@ -5,7 +5,7 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 1eab0317bfe72609133e71411ee24263517f1508
+source-git-commit: c8f552a4f4da2365f793e9111ee12a9905516134
 workflow-type: tm+mt
 source-wordcount: '6622'
 ht-degree: 2%
@@ -24,7 +24,7 @@ Para ver todos los demás cambios en Adobe Workfront, consulte [Versiones del pr
 
 ## Administración y configuración
 
-## Actualizaciones de la interfaz para el área Condiciones en Configuración
+### Actualizaciones de la interfaz para el área Condiciones en Configuración
 
 **Versión preliminar: 7 de agosto de 2025; versión de producción: 18 de agosto de 2025**
 
