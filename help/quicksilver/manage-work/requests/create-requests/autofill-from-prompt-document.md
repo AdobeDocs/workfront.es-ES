@@ -4,9 +4,10 @@ content-type: reference
 description: Puede utilizar IA para rellenar automáticamente los campos de solicitud introduciendo una solicitud o suministrando un documento.
 author: Becky
 feature: Get Started with Workfront
-source-git-commit: cf2ae77ed27b1dd30144f6de31bec474f53f1efb
+exl-id: 4a22f9ea-c9ee-4947-8683-9989c54903b1
+source-git-commit: fd42ac97be05df9499ea3214642099738ccc69b1
 workflow-type: tm+mt
-source-wordcount: '1060'
+source-wordcount: '1093'
 ht-degree: 12%
 
 ---
@@ -62,6 +63,8 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
++++
+
 ## Requisitos previos
 
 Para rellenar automáticamente las solicitudes utilizando un aviso o un documento, se deben aplicar **todas** las siguientes condiciones:
@@ -72,6 +75,9 @@ Para rellenar automáticamente las solicitudes utilizando un aviso o un document
 * Adobe debe tener registrado un acuerdo de Adobe Gen AI
 
   Para obtener más información sobre la firma del acuerdo, consulte [Firmar el acuerdo de IA de Adobe Gen](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement) en el artículo Información general del Asistente de IA.
+* El asistente de IA debe estar habilitado en la configuración del sistema de su organización. Esto lo administra el administrador de Workfront.
+
+  Para obtener más información sobre cómo habilitar el Asistente de IA en la configuración del sistema, consulte [Habilitar o deshabilitar el Asistente de IA](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md).
 
 ## Obtener sugerencias de un mensaje de texto
 
@@ -252,4 +258,3 @@ Si no recibe las sugerencias esperadas, puede deberse a una de las siguientes ca
 
 * Debe tener al menos un mes de datos de solicitud en el sistema para poder sugerir valores de campo de solicitudes anteriores.
 * Es posible que no haya seguido las protecciones de carga de documentos al cargar un documento desde el que extraer sugerencias. Para obtener más información, consulte [Protecciones de carga de documentos](#document-upload-guardrails) en este artículo.
-
