@@ -7,9 +7,9 @@ description: Adobe Workfront tiene límites en cuanto a la cantidad de objetos q
 author: Alina
 feature: Work Management
 exl-id: 60576107-89f1-4328-89e2-5b1e5e243fd9
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 71ddeb83543c3c1491a412ac18deaa3ce1077c21
 workflow-type: tm+mt
-source-wordcount: '412'
+source-wordcount: '456'
 ht-degree: 0%
 
 ---
@@ -54,6 +54,10 @@ Algunos ejemplos de dependencias entre tareas que podrían influir o impedir que
   <tr> 
    <td role="rowheader"><p>Cálculos de cronología</p></td> 
    <td>Workfront no realiza cálculos de escala de tiempo automáticos para proyectos que no se hayan actualizado en seis meses y no se reanudarán hasta que se realice una actualización.<p>En el caso de los proyectos que no se hayan actualizado en tres meses, Workfront realiza cálculos de escala de tiempo semanalmente en lugar de cada noche.</p><p>Para obtener información sobre cómo calcular la escala de tiempo del proyecto, vea <a href="../../../manage-work/projects/manage-projects/recalculate-project-timeline.md" class="MCXref xref">Recalcular escala de tiempo del proyecto</a>. </p></td> 
+  </tr> 
+    <tr> 
+   <td role="rowheader"><p>Convertir objetos </p></td> 
+   <td>Workfront tiene un límite de procesamiento de 5 minutos al convertir objetos. Si el objeto tiene un gran número de documentos adjuntos a él, es posible que no se convierta dentro del límite de 5 minutos. Es posible que tenga que eliminar algunos de los documentos e intentarlo de nuevo.</td> 
   </tr> 
  </tbody> 
 </table>

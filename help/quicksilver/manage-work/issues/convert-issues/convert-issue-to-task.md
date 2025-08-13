@@ -6,10 +6,10 @@ description: Si es necesario más trabajo para completar un problema una vez env
 author: Alina
 feature: Work Management
 exl-id: 9d8e50ab-9fed-4ded-83e1-29dc92c37171
-source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
+source-git-commit: 55c714436fe59c84251c7f4e2a46614feae92cd6
 workflow-type: tm+mt
-source-wordcount: '1048'
-ht-degree: 99%
+source-wordcount: '1081'
+ht-degree: 95%
 
 ---
 
@@ -48,10 +48,14 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 *Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su administrador de Workfront.
 
+## Consideraciones
+
+* Al convertir un problema en una tarea, existe un límite de procesamiento de 5 minutos. Si el problema tiene un gran número de documentos adjuntos y no se convierte, es posible que tenga que eliminar algunos de los documentos e intentarlo de nuevo.
+
 ## Convertir un problema en una tarea
 
 1. Vaya a un proyecto y haga clic en [!UICONTROL **Problemas**] en el panel izquierdo.
-1. Haga clic en el problema que desee convertir para ir a la página de aterrizaje de este.
+1. Haga clic en el problema que desee convertir para ir a la página de destino de este.
 1. Haga clic en el menú [!UICONTROL **Más**] del problema y, luego, [!UICONTROL **Convertir a tarea**].
 
    ![Menú más de problemas](assets/qs-issue-more-menu-highlighted-350x469.png)
@@ -95,7 +99,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
    * [!UICONTROL **Mantenimiento de la fecha planificada de finalización del problema**]
 
-     Si no se selecciona, la [!UICONTROL Fecha planificada de finalización] de la nueva tarea se calcula a partir de la [!UICONTROL Fecha planificada de inicio] de la tarea. La [!UICONTROL Fecha planificada de inicio] de la nueva tarea se ha establecido de acuerdo con las preferencias del sistema para las nuevas tareas.
+     Si no se selecciona, la [!UICONTROL Fecha de finalización planificada] de la nueva tarea se calcula a partir de la [!UICONTROL Fecha de inicio planificada] de la tarea. La [!UICONTROL Fecha de inicio planificada] de la nueva tarea se ha establecido de acuerdo con las preferencias del sistema para las nuevas tareas.
 
      >[!NOTE]
      >

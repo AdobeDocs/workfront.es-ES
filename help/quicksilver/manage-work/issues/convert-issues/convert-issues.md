@@ -8,10 +8,10 @@ feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 97c83b65-208b-4e3f-b4cc-681237d82aa3
-source-git-commit: 586abc0babac2a9b3d6d22bebe841c217315b064
+source-git-commit: 55c714436fe59c84251c7f4e2a46614feae92cd6
 workflow-type: tm+mt
-source-wordcount: '1476'
-ht-degree: 97%
+source-wordcount: '1506'
+ht-degree: 95%
 
 ---
 
@@ -51,7 +51,7 @@ Para obtener información sobre la conversión de problemas en proyectos, consul
    * Versiones
    * Las revisiones solo se incluyen cuando la opción **Mantener el problema original y enlazar su solución a esta tarea** no está seleccionada.
    * Las aprobaciones de documentos no se incluyen al convertir un problema que tiene documentos y vínculos a documentos adjuntos.
-
+* Al convertir un problema, existe un límite de procesamiento de 5 minutos. Si el problema tiene un gran número de documentos adjuntos y no se convierte, es posible que tenga que eliminar algunos de los documentos e intentarlo de nuevo.
 * Si ha decidido mantener el problema en la conversión y tiene documentos adjuntos, el documento y sus versiones se copian en el proyecto o en la tarea. Las pruebas y las aprobaciones de documentos no se copian en el proyecto ni en la tarea.
 * Si decide no mantener el problema en la conversión y tiene documentos adjuntos, el documento, sus versiones y las pruebas se transfieren al proyecto o a la tarea. Las aprobaciones de documentos no se transferirán al proyecto o a la tarea.
 * Si tiene documentos y carpetas vinculados al problema original desde servicios de terceros, como Google Drive, independientemente de si mantiene el problema o no durante la conversión, esos vínculos se copiarán al nuevo objeto.
@@ -106,7 +106,7 @@ En la tabla siguiente se muestra información del proyecto y si se transfiere de
    <td>Fechas del proyecto</td> 
    <td> 
     <ul> 
-     <li> <p><b>Fecha planificada de inicio</b>: debe preseleccionarse el tiempo de trabajo más cercano basado en el tiempo de trabajo de programación de la plantilla, de acuerdo con la zona horaria. Este campo está desactivado si el campo de programación “Desde” está establecido como Desde la finalización. </p> </li> 
+     <li> <p><b>Fecha de inicio planificada</b>: debe preseleccionarse el tiempo de trabajo más cercano basado en el tiempo de trabajo de programación de la plantilla, de acuerdo con la zona horaria. Este campo está desactivado si el campo de programación “Desde” está establecido como Desde la finalización. </p> </li> 
      <li> <p><b>Fecha planificada de finalización</b>: debe preseleccionarse el tiempo de trabajo más cercano basado en el tiempo de trabajo de programación de la plantilla, de acuerdo con la zona horaria. Este campo está desactivado si el campo de programación “Desde” está establecido como Desde el inicio. </p> </li> 
     </ul> </td> 
   </tr> 

@@ -6,10 +6,10 @@ description: Cuando una tarea de un proyecto requiere un esfuerzo mayor en compl
 author: Alina
 feature: Work Management
 exl-id: a45f0af4-1768-4f20-80d4-912e6fe0fc03
-source-git-commit: 0c45c768be1dda579e507f5f6ff4b127021a5f73
+source-git-commit: 55c714436fe59c84251c7f4e2a46614feae92cd6
 workflow-type: tm+mt
-source-wordcount: '1148'
-ht-degree: 98%
+source-wordcount: '1189'
+ht-degree: 95%
 
 ---
 
@@ -52,6 +52,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 * Se elimina la tarea original.
 * Todas las subtareas, problemas y notas se transfieren al nuevo proyecto.
 * Los documentos, las versiones de los documentos y las pruebas se mueven al nuevo proyecto.
+* Al convertir una tarea en un proyecto, existe un límite de procesamiento de 5 minutos. Si la tarea tiene un gran número de documentos adjuntos y no se puede convertir, es posible que tenga que eliminar algunos de los documentos e intentarlo de nuevo.
 * Se conservan el estado y el porcentaje completado de todas las subtareas y problemas.
 * Los usuarios asignados a la tarea y el usuario que convierte la tarea en el proyecto se convierten en usuarios compartidos en el proyecto.
 * La fecha de inicio del proyecto se establece en la fecha de inicio de la tarea.
