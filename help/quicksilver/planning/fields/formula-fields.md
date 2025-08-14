@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 5027d611-916e-492d-9a44-841bdde11c94
-source-git-commit: b27b01e1efacc3fc459cec0a53b2c11cbe5e132b
+source-git-commit: b6ced451cdd6b38b5661a076b2311a34c2c70432
 workflow-type: tm+mt
-source-wordcount: '684'
-ht-degree: 50%
+source-wordcount: '736'
+ht-degree: 46%
 
 ---
 
@@ -29,7 +29,7 @@ Para obtener más información, consulte la sección “Fórmula” en el artíc
 
 ## Requisitos de acceso
 
-+++ Amplíe para ver los requisitos de acceso.
++++ Amplíe para ver los requisitos de acceso. 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -90,7 +90,7 @@ Para obtener más información, consulte la sección “Fórmula” en el artíc
 
 *Para obtener más información sobre los requisitos de acceso de Workfront, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-+++
++++   
 
 ## Consideraciones sobre los campos de fórmula
 
@@ -112,6 +112,10 @@ Para obtener más información, consulte la sección “Fórmula” en el artíc
 
   Para obtener más información, consulte la sección &quot;Fórmula&quot; en el artículo [Crear campos](/help/quicksilver/planning/fields/create-fields.md).
 * Puede hacer referencia a los campos de fórmula en las fórmulas nuevas. Una vez que el valor se actualiza en un campo al que se hace referencia en un campo de fórmula, todos los campos subsiguientes que hagan referencia a ese campo o a los campos de fórmula que contengan ese campo se actualizarán automáticamente.
+* Los campos de fórmula podrían mostrarse como `#ERROR!` en los siguientes casos:
+   * Cuando se elimina un campo utilizado en una fórmula.
+   * Cuando un campo utilizado en un campo de búsqueda agregado se muestra como `#ERROR!`.
+Por ejemplo, si muestra un campo de búsqueda que contiene campos de fórmula de búsqueda agregados y uno de los campos de fórmula a los que se hace referencia se muestra como `#ERROR!`.
 
 ## Fórmulas compatibles
 

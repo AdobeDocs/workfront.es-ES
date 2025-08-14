@@ -4,9 +4,9 @@ description: Los tipos de registro son los tipos de objetos de Adobe Workfront P
 hidefromtoc: true
 hide: true
 exl-id: b977d5dd-8975-42c4-9968-a7ac357972e6
-source-git-commit: 943c26efa6f6351abf885dbc5f3aa09c0b0fab05
+source-git-commit: b6ced451cdd6b38b5661a076b2311a34c2c70432
 workflow-type: tm+mt
-source-wordcount: '591'
+source-wordcount: '599'
 ht-degree: 15%
 
 ---
@@ -27,15 +27,15 @@ recommendations: noDisplay, noCatalog
 
 Como administrador de espacio de trabajo, puede importar o agregar un tipo de registro existente a otro espacio de trabajo.
 
-Primero debe definir las capacidades de un tipo de registro entre espacios de trabajo para que los administradores de espacios de trabajo puedan importarlo a otros espacios de trabajo.
+Primero debe designar un tipo de registro como centralizado antes de que los administradores de espacio de trabajo puedan importarlo a otros espacios de trabajo.
 
-Las funciones entre espacios de trabajo de un tipo de registro se definen al crear o editar un tipo de registro.
+Puede designar un tipo de registro como centralizado al crearlo o editarlo, al definir su configuración de espacio de trabajo cruzado.
 
 Para obtener más información, vea [Configurar las capacidades entre espacios de trabajo para los tipos de registro](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md).
 
 ## Requisitos de acceso
 
-+++ Amplíe para ver los requisitos de acceso.
++++ Amplíe para ver los requisitos de acceso.  
 
 <table style="table-layout:auto"> 
 <col> 
@@ -95,9 +95,11 @@ Para obtener más información, vea [Configurar las capacidades entre espacios d
 
 *Para obtener más información sobre los requisitos de acceso de Workfront, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-+++
++++   
 
-## Consideraciones al agregar tipos de registros existentes desde otro espacio de trabajo
+## Descripción general de los tipos de registros centralizados
+
+Consideraciones al agregar tipos de registros existentes desde otro espacio de trabajo
 
 * Cuando no hay ningún tipo de registro configurado para añadirse a otro espacio de trabajo, no se muestra la opción de importarlo desde otro espacio de trabajo al crear un tipo de registro. <!--add this a tip in the steps below, and/ or add a Conditional step that this is possible only when these record types are first enabled-->
 * Después de agregar el tipo de registro desde otro espacio de trabajo, también se agrega la siguiente información desde el tipo de registro existente:

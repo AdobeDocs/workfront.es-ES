@@ -6,10 +6,10 @@ description: Como cliente de Adobe Workfront, puede ponerse en contacto con el e
 feature: Get Started with Workfront
 author: Becky
 exl-id: fa8e0559-7af6-4049-9c24-76d1bcbebf84
-source-git-commit: 008f96d52632f5f05554d63ae1c38cc37d21544b
+source-git-commit: 8a4668a568fde2ca7ee26714caae3cd33efe4eda
 workflow-type: tm+mt
-source-wordcount: '480'
-ht-degree: 82%
+source-wordcount: '468'
+ht-degree: 79%
 
 ---
 
@@ -29,9 +29,7 @@ Como cliente de [!DNL Adobe Workfront], puede ponerse en contacto con el equipo 
 
 ## Requisitos de acceso
 
-+++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
-
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
++++ Amplíe para ver los requisitos de acceso.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -44,9 +42,8 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   <tr> 
   <tr> 
    <td role="rowheader">Licencia de Adobe Workfront</td> 
-   <td><p>Nuevo: estándar</p>
-       <p>O</p>
-       <p>Actual: plan</p></td>
+   <td><p>Estándar</p>
+       <p>Plan</p></td>
   </tr> 
   </tr> 
   <tr> 
@@ -85,13 +82,15 @@ Puede enviar un ticket de asistencia técnica desde el portal de autoservicio de
 >Solo los contactos de asistencia autorizados (o los usuarios con derechos de asistencia) pueden enviar tickets de asistencia en línea.
 
 
-1. En el sitio web [[!DNL Experience League]](https://experienceleague.adobe.com/es), haga clic en **[!UICONTROL Asistencia técnica]** en la parte superior de la página.
+1. En el sitio web [[!DNL Experience League]](https://experienceleague.adobe.com), haga clic en **[!UICONTROL Asistencia técnica]** en la parte superior de la página.
 
    ![](assets/experience-league-top-navigation-with-support-highlighted.png)
 
    Se abre la página [!UICONTROL Asistencia].
 
    Desde la página de inicio de [!UICONTROL Asistencia], puede navegar a sus casos de asistencia abiertos, registrar un caso nuevo, ver los artículos de [!UICONTROL Asistencia] principales o acceder a fuentes de formación adicionales.
+
+   Para obtener más información acerca del aprendizaje de Workfront, consulte [Centro de ayuda](https://learning.adobe.com/resources/help-center.html).
 
 <!--1. To submit a case, select the option **[!UICONTROL Open a support case]**, then click **[!UICONTROL Sign] In**.-->
 
@@ -138,7 +137,7 @@ Si tiene alguna pregunta o problema al enviar una solicitud, llame al equipo de 
 1. (Opcional) Para cerrar el caso, haga clic en el botón **[!UICONTROL Cerrar caso]**.
 
 
-<!--drafted: I took the information above from this blog post by Jon Chen (on September 13, 2022): https://experienceleaguecommunities.adobe.com/t5/workfront-blogs/how-to-submit-a-support-ticket-on-experience-league/ba-p/461737?profile.language=es)
+<!--drafted: I took the information above from this blog post by Jon Chen (on September 13, 2022): https://experienceleaguecommunities.adobe.com/t5/workfront-blogs/how-to-submit-a-support-ticket-on-experience-league/ba-p/461737)
 
 - this is the information that was there before - pointing to WorkfrontOne: 
 

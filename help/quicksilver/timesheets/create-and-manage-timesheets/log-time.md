@@ -7,10 +7,10 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 36cd1c23dfb6e01dc1016a6a12ae47e4f9172d20
+source-git-commit: 8a4668a568fde2ca7ee26714caae3cd33efe4eda
 workflow-type: tm+mt
-source-wordcount: '4160'
-ht-degree: 85%
+source-wordcount: '4075'
+ht-degree: 87%
 
 ---
 
@@ -21,13 +21,13 @@ ht-degree: 85%
 <!--remove all preview and production references if any-->
 <!--update screen shots for the general hour entries and the mixed selection of hours at production, if they fixed the bugs -->
 
-<div class="preview">
+<!--<div class="preview">
 
-La información resaltada en esta página hace referencia a funcionalidades que aún no están disponibles de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Las mismas funciones también estarán disponibles en el entorno de producción para todos los clientes una semana después de la versión de vista previa.
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release.     
 
-Para obtener más información, vea [Modernización de la interfaz](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). 
 
-</div>
+</div>-->
 
 Puede registrar el tiempo de los elementos de trabajo en Adobe Workfront para indicar la cantidad de horas que dedica a trabajar en ellos. También puede registrar el tiempo que no esté relacionado con el trabajo, como vacaciones, tiempo por enfermedad o tiempo que pasa en reuniones. El tiempo que registre se mostrará en la plantilla de horas.
 
@@ -452,13 +452,9 @@ Para registrar el tiempo en la sección Horas de un proyecto, tarea o problema:
 1. En el panel izquierdo, haga clic en **Horas**.
 1. Haga clic en **Tiempo de registro**.
 
-   <span class="preview">Se muestra el cuadro **Registrar tiempo**.</span>
-
-   <div class="preview">
+   Se muestra el cuadro **Registrar tiempo**.
 
    ![Registrar tiempo en la sección Horas de una tarea](assets/log-time-box-in-hours-section-on-task.png)
-
-   </div>
 
 1. Especifique la siguiente información:
 
@@ -472,7 +468,7 @@ Para registrar el tiempo en la sección Horas de un proyecto, tarea o problema:
      Para obtener más información acerca de cómo configurar los tipos de horas, consulte [Definir tipos de horas y disponibilidad](../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md).
 
    * **Función**: (condicional) si el administrador de su Workfront o de su grupo ha habilitado la opción **Asignar funciones a las entradas de horas manualmente**, seleccione una **Función** en el menú desplegable. La Función especificada cuando se le asigna al objeto se muestra de forma predeterminada. Si no se le asigna una función en el objeto, la función principal se muestra como predeterminada. Para obtener más información sobre esta configuración, consulte el artículo [Configurar la plantilla de horas y las preferencias de horas](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
-   * **Horas** o <span class="preview">el calendario semanal</span>: escriba el número de horas del proyecto, tarea o problema. <span class="preview">En el calendario semanal, escriba el número de horas del proyecto, tarea o problema.</span> El calendario semanal se muestra en el área **Horas** del cuadro **Hora de registro** en el entorno Producción.
+   * **Calendario semanal**: escriba el número de horas del proyecto, tarea o problema.
    * **Nota**: agrega una nota para explicar para qué sirven las horas. Se guardó como **nota de hora** o como **descripción de hora**.
 
 1. Haga clic en **Registrar el tiempo**.

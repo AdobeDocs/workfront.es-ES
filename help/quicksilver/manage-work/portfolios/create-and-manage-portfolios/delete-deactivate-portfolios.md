@@ -6,10 +6,10 @@ description: Los portafolios son colecciones de proyectos o programas de Adobe W
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: f88669d2-e8e9-4905-a771-1427b1fd32b2
-source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
+source-git-commit: 8a4668a568fde2ca7ee26714caae3cd33efe4eda
 workflow-type: tm+mt
-source-wordcount: '362'
-ht-degree: 20%
+source-wordcount: '441'
+ht-degree: 12%
 
 ---
 
@@ -23,9 +23,7 @@ Se recomienda desactivar un portafolio que ya no necesite asociarse con proyecto
 
 ## Requisitos de acceso
 
-+++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
-
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
++++ Amplíe para ver los requisitos de acceso.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -37,8 +35,8 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licencia</td> 
-   <td> <p>Nuevo: [!UICONTROL Standard] </p>
-   <p>Actual: [!UICONTROL Plan] </p> </td> 
+   <td> <p>[!UICONTROL Standard]</p>
+   <p>[!UICONTROL Plan]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso</td> 
@@ -68,6 +66,7 @@ Tenga en cuenta lo siguiente a la hora de decidir si elimina o desactiva portafo
 * Al eliminar un portafolio, no se eliminan los proyectos asociados a él.
 * No puede recuperar los portafolios eliminados.
 * La desactivación de un portafolio garantiza que el nombre del portafolio y sus programas ya no se puedan asignar a proyectos al crear un proyecto.
+* Al desactivar un portafolio que ya está adjunto a un proyecto, no se elimina del proyecto. Si elimina un portafolio desactivado de un proyecto, debe reactivarlo para poder volver a adjuntarlo al proyecto.
 
 ## Desactivar un portafolio
 
@@ -82,11 +81,17 @@ Cuando desactiva un portafolio, aún puede acceder a él desde el área de [!UIC
 1. Haga clic en **[!UICONTROL Portafolios]** .
 1. Haga clic en el nombre del portafolio.
 1. Haga clic en el menú **Más** ![Menú más](assets/more-icon.png) que se encuentra a la derecha del nombre del portafolio y, a continuación, haga clic en **[!UICONTROL Desactivar Portfolio]**.
+El portafolio se desactiva inmediatamente.
+1. (Opcional) Haga clic en el menú **Más** ![Menú más](assets/more-icon.png) que se encuentra a la derecha del nombre del portafolio y, a continuación, haga clic en **[!UICONTROL Activar Portfolio]** para reactivarlo.
 
 ## Eliminar un portafolio
 
-{{step1-click-main-menu}}
+{{step1-to-portfolios}}
 
-1. Haga clic en **[!UICONTROL Portafolios]** .
-1. Seleccione el portafolio y haga clic en **[!UICONTROL Eliminar]** el icono [!UICONTROL Eliminar] ![Eliminar icono](assets/delete.png).
+1. Realice una de las siguientes acciones:
+
+   * Seleccione el portafolio en la lista y luego haga clic en el icono **[!UICONTROL Eliminar]** ![Eliminar icono](assets/delete.png).
+   * Haga clic en el portafolio para abrirlo y, a continuación, haga clic en el menú **Más** ![Menú más](assets/more-icon.png) a la derecha del nombre del portafolio y, a continuación, en **Eliminar Portfolio**.
 1. Haga clic en **[!UICONTROL Sí, eliminarlo]** para confirmar.
+
+   El portafolio se elimina y no se puede recuperar.
