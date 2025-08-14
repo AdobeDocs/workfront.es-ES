@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 343ffcc5ba894f389e4ca00e12ea31009eb6c76a
+source-git-commit: a7a4ef39cf5e50d487ec2053e6b02cb2bb06c3f5
 workflow-type: tm+mt
-source-wordcount: '6687'
+source-wordcount: '6776'
 ht-degree: 2%
 
 ---
@@ -23,6 +23,16 @@ Esta página lista las actualizaciones de la interfaz que estamos realizando a t
 Para ver todos los demás cambios en Adobe Workfront, consulte [Versiones del producto](/help/quicksilver/product-announcements/product-releases/product-releases.md).
 
 ## Administración y configuración
+
+### Actualizaciones de la interfaz del cuadro Enviar actualización al usuario en los grupos
+
+**Versión preliminar: 14 de agosto de 2025; versión de producción: 14 de agosto de 2025**
+
+Hemos actualizado el aspecto del cuadro Enviar actualización al usuario al acceder a él desde la lista de miembros del grupo y la lista de miembros del subgrupo.
+
+El cuadro Enviar actualización al usuario ahora coincide con otras áreas de Workfront cuando envía una actualización a uno o varios usuarios.
+
+Para obtener más información, vea [Ver y administrar las pertenencias de un grupo](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-memberships.md) y [Ver y administrar los miembros de un subgrupo](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-subgroups/view-and-manage-subgroup-members.md).
 
 ### Actualizaciones de la interfaz de elementos eliminados recientemente
 
@@ -85,6 +95,10 @@ Para ver este cambio, vaya a Configuración > Sistema > Actualizar usuarios para
 ### Actualizaciones de la interfaz para registrar el tiempo en un proyecto, tarea o problema en la sección Horas
 
 **Versión preliminar: 7 de agosto de 2025; versión de producción: 14 de agosto de 2025**
+
+>[!NOTE]
+>
+>Se eliminó temporalmente de la vista previa y producción
 
 Hemos actualizado el aspecto del cuadro Registrar tiempo al registrar el tiempo de un proyecto, tarea o problema en la sección Horas para que coincida con el diseño de otras áreas de Workfront.
 

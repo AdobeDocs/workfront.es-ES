@@ -7,9 +7,9 @@ author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 0f4fd3a7-9578-4fda-b10f-9b4be147f1de
-source-git-commit: cfa948baf31891d389ca38fc35d546b77e599c5e
+source-git-commit: bcf9e3eb987bf4c33b994d68276cb04b817c484d
 workflow-type: tm+mt
-source-wordcount: '620'
+source-wordcount: '622'
 ht-degree: 6%
 
 ---
@@ -53,7 +53,7 @@ El revisor de IA puede revisar los siguientes tipos de archivos:
 
 ## Configurar directrices de marca
 
-El revisor de IA de Workfront utiliza las directrices de marca configuradas en Genstudio para el marketing de rendimiento al revisar el contenido. Actualmente, solo puede configurar directrices de marca para imágenes. Para obtener más información, consulte [Introducción a Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/es/docs/genstudio-for-performance-marketing/user-guide/get-started).
+El revisor de IA de Workfront utiliza las directrices de marca configuradas en Genstudio para el marketing de rendimiento al revisar el contenido. Actualmente, solo puede configurar directrices de marca para imágenes. Para obtener más información, consulte [Introducción a Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started).
 
 
 ## Crear revisores de IA
@@ -103,3 +103,6 @@ Para obtener más información sobre la visualización de puntuaciones y comenta
 ![comentarios del revisor de IA](assets/ai-reviewer-feedback.png)
 
 
+## Tutorial de vídeo
+
+>[!VIDEO](https://video.tv.adobe.com/v/3470847/)
