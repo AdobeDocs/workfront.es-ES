@@ -6,17 +6,19 @@ description: Workfront AI Reviewer
 author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
-hide: true
-hidefromtoc: true
 exl-id: 0f4fd3a7-9578-4fda-b10f-9b4be147f1de
-source-git-commit: da980cee8710570f52c724053d1e0f359c6a9fe1
+source-git-commit: cfa948baf31891d389ca38fc35d546b77e599c5e
 workflow-type: tm+mt
-source-wordcount: '594'
-ht-degree: 5%
+source-wordcount: '620'
+ht-degree: 6%
 
 ---
 
 # Introducción al Revisor de IA de Workfront
+
+>[!NOTE]
+>
+>Esta función se encuentra actualmente en fase beta.
 
 Con Workfront AI Reviewer, puede aumentar la velocidad del contenido y optimizar el cumplimiento de la marca en el flujo de trabajo de revisión y aprobación. Puede agregar revisores de IA a las plantillas de aprobación o a las solicitudes de revisión y aprobación individuales en Workfront.
 
@@ -51,17 +53,12 @@ El revisor de IA puede revisar los siguientes tipos de archivos:
 
 ## Configurar directrices de marca
 
-El revisor de IA de Workfront utiliza las directrices de marca configuradas en Genstudio Foundations al revisar el contenido.
-
-Para obtener más información sobre las directrices de marca, consulte
-
-* [Marcas de GenStudio for Performance Marketing](https://experienceleague.adobe.com/es/docs/genstudio-for-performance-marketing/user-guide/guidelines/brands)
-* [Agregar directrices](https://experienceleague.adobe.com/es/docs/genstudio-for-performance-marketing/user-guide/guidelines/add-guidelines)
+El revisor de IA de Workfront utiliza las directrices de marca configuradas en Genstudio para el marketing de rendimiento al revisar el contenido. Actualmente, solo puede configurar directrices de marca para imágenes. Para obtener más información, consulte [Introducción a Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started).
 
 
 ## Crear revisores de IA
 
-Una vez que hay al menos una marca configurada en GenStudio Foundations, los administradores de Workfront pueden empezar a crear revisores de IA en el área de Configuración. Estos revisores de IA se pueden asignar a plantillas de aprobación y a solicitudes de revisión y aprobación individuales.
+Una vez que hay al menos una marca configurada en GenStudio Foundations, los administradores de Workfront pueden empezar a crear revisores de IA en el área de Configuración. Estos revisores de IA se pueden asignar a plantillas de aprobación y a solicitudes de revisión y aprobación individuales. En este momento, los revisores de IA solo pueden revisar las directrices de marca de imagen.
 
 Para obtener más información, consulte [Crear revisores de IA](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/set-up-ai-reviewer.md).
 
@@ -71,13 +68,13 @@ Los usuarios pueden agregar revisores de IA a plantillas de aprobación existent
 
 ### Plantillas de aprobación
 
-Si su organización agrega con frecuencia a las mismas personas para revisar y aprobar solicitudes, los usuarios de licencias estándar pueden crear plantillas de aprobación en el área Configuración de Workfront.
+Si su organización agrega con frecuencia las mismas personas a las solicitudes de revisión y aprobación, los usuarios de licencias estándar pueden crear plantillas de aprobación en el área Configuración de Workfront.
 
 Los usuarios pueden agregar revisores de IA a las plantillas de aprobación para comprobar automáticamente la conformidad de la marca cuando se utiliza una plantilla para crear una solicitud.
 
 Una vez creadas, las plantillas de aprobación se pueden aplicar a los recursos del área Documentos de un proyecto, tarea o problema.
 
-Para obtener más información, consulte [Crear una plantilla de aprobación para recursos y documentos](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)
+Para obtener más información, consulte [Crear una plantilla de aprobación para recursos y documentos](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md).
 
 ![lista de plantillas que muestra revisores de IA](assets/ai-review-templates.png)
 
@@ -85,7 +82,7 @@ Para obtener más información, consulte [Crear una plantilla de aprobación par
 
 Cuando los usuarios crean solicitudes de revisión y aprobación individuales, pueden agregar un revisor de IA con otros participantes o pueden crear una única solicitud con solo el revisor de IA para comprobar el cumplimiento de la marca.
 
-Para obtener más información, vea [Crear una solicitud de revisión o aprobación de documento](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)
+Para obtener más información, vea [Crear una solicitud de revisión o aprobación de documento](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).
 
 
 ![Se agregó un revisor de IA a la solicitud de aprobación individual](assets/ad-ai-reviewer-to-request.png)
