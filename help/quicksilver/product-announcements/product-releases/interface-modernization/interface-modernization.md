@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: c8f552a4f4da2365f793e9111ee12a9905516134
+source-git-commit: 343ffcc5ba894f389e4ca00e12ea31009eb6c76a
 workflow-type: tm+mt
-source-wordcount: '6622'
+source-wordcount: '6687'
 ht-degree: 2%
 
 ---
@@ -23,6 +23,16 @@ Esta página lista las actualizaciones de la interfaz que estamos realizando a t
 Para ver todos los demás cambios en Adobe Workfront, consulte [Versiones del producto](/help/quicksilver/product-announcements/product-releases/product-releases.md).
 
 ## Administración y configuración
+
+### Actualizaciones de la interfaz de elementos eliminados recientemente
+
+**Versión preliminar: 14 de agosto de 2025; versión de producción: 21 de agosto de 2025**
+
+Hemos actualizado el aspecto de los elementos eliminados recientemente en el área de Configuración para que coincidan con el diseño de otras áreas de Workfront. No se ha cambiado la funcionalidad de los proyectos, tareas, solicitudes, documentos o plantillas eliminados recientemente.
+
+Para ver este cambio, vaya a Configuración > Papelera de reciclaje > Eliminados recientemente.
+
+Para obtener más información, consulte [Restaurar elementos eliminados](/help/quicksilver/administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md).
 
 ### Actualizaciones de la interfaz para el área Condiciones en Configuración
 
@@ -82,7 +92,7 @@ Para obtener más información, consulte [Registrar tiempo](/help/quicksilver/ti
 
 ### Actualizaciones de interfaz para un caso comercial de proyecto
 
-**Versión preliminar: 4 de agosto de 2025; versión de producción: 18 de agosto**
+**Versión preliminar: 4 de agosto de 2025; versión de producción: 13 de agosto de 2025**
 
 Hemos actualizado el aspecto del caso empresarial del proyecto para que coincida con otras áreas de la aplicación.
 
@@ -125,15 +135,14 @@ Para obtener más información, consulte los siguientes artículos:
 * [Administrar el equipo del proyecto](/help/quicksilver/manage-work/projects/planning-a-project/manage-project-team.md)
 * [Administrar suscripciones a compañías](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/manage-company-memberships.md)
 
-### Experiencia actualizada al editar un tema de la cola en un proyecto o plantilla
+### Se ha actualizado la experiencia al editar un grupo de temas en un proyecto o plantilla
 
 **Versión preliminar: 31 de julio de 2025; versión de producción: 31 de julio de 2025**
 
-Hemos actualizado el aspecto de un tema de la cola al editarlo en una plantilla. La página de edición de temas de la cola ahora coincide con el diseño de otras áreas de Workfront.
+Hemos actualizado el aspecto de un grupo de temas al editarlo en una plantilla. La página de edición del grupo de temas ahora coincide con el diseño de otras áreas de Workfront.
+Se ha aplicado un pequeño cambio de funcionalidad al grupo de temas. Para editar un grupo de temas, seleccione el grupo de temas en la lista y haga clic en el icono Editar. Ya no se le dirigirá a la página de detalles del grupo de temas antes de que pueda editar.
 
-Se ha aplicado un pequeño cambio de funcionalidad a la lista Reglas de enrutamiento. Para editar un tema de la cola, selecciónelo en la lista y haga clic en el icono Editar. Ya no se le dirigirá a la página Detalles de tema de cola antes de poder editar.
-
-Para obtener más información, consulte [Crear temas de la cola](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
+Para obtener más información, consulte [Crear grupos de temas](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-topic-groups.md).
 
 ### Actualizaciones de interfaz para registros de facturación
 
@@ -219,7 +228,7 @@ Para obtener más información, consulte [Importar usuarios](/help/quicksilver/a
 
 ### Actualizaciones de la interfaz de la página Plantillas de diseño
 
-**Versión preliminar: 17 de julio de 2025; versión de producción: TBD**
+**Versión preliminar: 17 de julio de 2025; versión de producción: 14 de agosto de 2025**
 
 Hemos actualizado la página Plantillas de diseño con un diseño más moderno y coherente con otras áreas de Workfront.
 
@@ -404,7 +413,7 @@ No se han introducido cambios de funcionalidad con esta actualización.
 
 ### Documentos
 
-+++Amplíe para ver las actualizaciones de la interfaz de documentos realizadas en el tercer trimestre
++++Ampliar para ver las actualizaciones de la interfaz de documentos realizadas en el tercer trimestre
 
 ### Compartir un documento con una dirección de correo electrónico externa
 
@@ -891,7 +900,7 @@ Para ver este cambio, ve a Equipos > elige un equipo > Registro de pendientes y 
 
 ### Documentos
 
-+++Amplíe para ver las actualizaciones de la interfaz de documentos realizadas en el segundo trimestre
++++Ampliar para ver las actualizaciones de la interfaz de documentos realizadas en el segundo trimestre
 
 ### Actualizaciones de la interfaz al solicitar un documento
 
@@ -1095,7 +1104,7 @@ Se ha añadido un nuevo botón Editar modo de texto y un modal de edición a las
 
 ### Actualizaciones y comentarios
 
-+++Amplíe para ver las actualizaciones y los comentarios de la interfaz realizados en el segundo trimestre
++++Amplíe para ver las actualizaciones de la interfaz de Actualizaciones y Comentarios realizadas en el segundo trimestre
 
 ### Actualización de la interfaz para las opciones del menú Más para los comentarios
 
