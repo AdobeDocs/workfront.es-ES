@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 8eb9dcaf-bba3-466d-b06d-5383991bc4ea
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: b886284eb44c2154987019655ff07cdeb0e1ae22
 workflow-type: tm+mt
-source-wordcount: '651'
+source-wordcount: '653'
 ht-degree: 15%
 
 ---
@@ -64,8 +64,7 @@ Puede filtrar las tareas y los problemas que se le hayan asignado.
 {{step1-to-priorities}}
 
 1. Haga clic en **Filtros** en la parte superior izquierda de la lista de trabajos.
-1. Haga clic en **Filtros estándar**.
-1. Seleccione uno o varios filtros para reducir los elementos de trabajo.
+1. En la sección **Filtros estándar**, seleccione uno o más filtros para reducir los elementos de trabajo.
    ![Filtro](assets/filter-new.png)
 
 +++Amplíe para ver información detallada sobre los filtros disponibles
@@ -116,12 +115,12 @@ Puede filtrar las tareas y los problemas que se le hayan asignado.
     <td>Muestra el trabajo por fecha planificada de finalización</td>
     </tr>
     <tr>
-    <td>Estado</td>
-    <td>Muestra tareas o problemas en estados nuevos, en curso y completos</td>
+    <td>Mi enfoque</td>
+    <td>Muestra tareas o problemas que tienen niveles de enfoque asignados. El usuario individual asigna y administra los niveles de enfoque.</td>
     </tr>
     <tr>
-    <td>Mi enfoque</td>
-    <td>Muestra tareas o problemas en que tienen niveles de enfoque asignados. El usuario individual asigna y administra los niveles de enfoque.</td>
+    <td>Estado</td>
+    <td>Muestra tareas o problemas en estados nuevos, en curso y completos.</td>
     </tr>
   </tbody>
 </table>
@@ -136,7 +135,7 @@ Utilice un lenguaje natural para filtrar rápidamente el trabajo.
 
 >[!NOTE]
 >
->Esta función solo está disponible para los clientes en la experiencia de Unified Adobe mediante el asistente de IA. Para obtener más información sobre el Asistente de IA, consulte [Descripción general del Asistente de IA](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md).
+>Esta función solo está disponible para los clientes de en Unified Adobe Experience mediante el asistente de IA. Para obtener más información sobre el Asistente de IA, consulte [Descripción general del Asistente de IA](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md).
 
 {{step1-to-priorities}}
 
@@ -146,28 +145,26 @@ Utilice un lenguaje natural para filtrar rápidamente el trabajo.
 
    Puede escribir cosas como:
 
-   * Mostrarme las tareas atrasadas
-   * Mostrar mis prioridades principales
-   * Mostrar trabajo a entregar hoy
-
-</div>
+   * *Mostrarme tareas atrasadas*
+   * *Mostrar mis prioridades principales*
+   * *Mostrar trabajo con vencimiento hoy*
 
 ## Agrupar su trabajo
 
 {{step1-to-priorities}}
 
 1. Haga clic en **Grupos** en la parte superior izquierda de la lista de trabajos.
-1. Seleccione un grupo para organizar la lista de trabajos
+1. Seleccione un grupo para organizar la lista de trabajo.
    ![Grupos](assets/groups-new.png)
 
-+++Amplíe para ver información detallada sobre los grupos disponibles
++++Expanda para ver información detallada sobre los grupos disponibles
 
 | Grupo | Descripción |
 |-----------|-------------|
 | Proyecto | Agrupa los elementos por proyecto. |
+| Fecha de vencimiento | Agrupa los elementos según su vencimiento. Las fechas de vencimiento están determinadas por la fecha planificada de finalización. |
 | Mi enfoque | Agrupa los elementos según el nivel de enfoque que asigne. |
-| Vence la semana | Agrupa los elementos según la semana de vencimiento. Las fechas de vencimiento están determinadas por la fecha planificada de finalización. |
-| Estado | Agrupa los elementos según los siguientes estados: Nuevo, En curso y Completado. <br>Nota: no puede usar estados personalizados en Prioridades en este momento. |
+| Estado | Agrupa los elementos según los siguientes estados: Nuevo, En curso y Completado. <br><b>Nota</b>: no puedes usar estados personalizados en Prioridades en este momento. |
 
 +++
 
@@ -176,14 +173,14 @@ Utilice un lenguaje natural para filtrar rápidamente el trabajo.
 Puede arrastrar y soltar elementos de trabajo individuales entre categorías al agruparlos por Mi prioridad o Estado.
 
 1. Agrupa tu trabajo por **Estado** o **Mi prioridad**.
-2. Pase el ratón sobre el elemento de trabajo para buscar el icono de mover y arrastrarlo a la categoría deseada.
+2. Pase el ratón sobre el elemento de trabajo para hacer clic en el icono **Arrastrar** y moverlo a la categoría que quiera.
    ![icono de arrastrar](assets/drag-and-drop.png)
 
 ## Ordenar el trabajo
 
 ### Ordenar en grupos
 
-Para ordenar el trabajo dentro de un grupo, abra **Grupo** y haga clic en **Orden ascendente** o **Orden descendente**.
+Para ordenar el trabajo dentro de un grupo, abra **Grupo** y seleccione si desea ordenar en orden ascendente o descendente.
 
 ![Ordenar en grupos](assets/sort-in-groups.png)
 

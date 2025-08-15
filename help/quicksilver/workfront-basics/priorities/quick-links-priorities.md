@@ -6,7 +6,7 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 2d76077d-2913-40b8-9596-4e201d12ec1a
-source-git-commit: fbcdc88701b8b501b68d29e76b0148ddf07e5b52
+source-git-commit: b886284eb44c2154987019655ff07cdeb0e1ae22
 workflow-type: tm+mt
 source-wordcount: '305'
 ht-degree: 21%
@@ -61,7 +61,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 {{step1-to-priorities}}
 
-1. Haga clic en el nombre de un elemento de trabajo para abrir la página Información general.
+1. Haga clic en el nombre de un elemento de trabajo para abrir la página **Información general**.
 1. En la sección **Vínculos rápidos**, haga clic en **Agregar vínculo**.
 1. Pegue la dirección URL en el cuadro **Agregar vínculo**.
 1. Haga clic en **Guardar**.
@@ -71,16 +71,16 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 {{step1-to-priorities}}
 
-1. Haga clic en el nombre de un elemento de trabajo para abrir la página Información general.
+1. Haga clic en el nombre de un elemento de trabajo para abrir la página **Información general**.
 1. En la sección **Vínculos rápidos**, busque el vínculo que desea copiar.
-1. Haga clic en el icono Copiar ![Icono Copiar](assets/copy-icon.png).
+1. Haga clic en el icono **Copiar**![ Icono Copiar](assets/copy-icon.png).
    ![Copiar vínculo](assets/copy-link.png)
 
 ## Abrir un vínculo rápido
 
 {{step1-to-priorities}}
 
-1. Haga clic en el nombre de un elemento de trabajo para abrir la página Información general.
+1. Haga clic en el nombre de un elemento de trabajo para abrir la página **Información general**.
 1. En la sección **Vínculos rápidos**, busque el vínculo que desea abrir.
 1. Haga clic en el vínculo. El vínculo se abre en una nueva pestaña.
    ![Abrir vínculo](assets/open-link.png)
@@ -89,7 +89,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 {{step1-to-priorities}}
 
-1. Haga clic en el nombre de un elemento de trabajo para abrir la página Información general.
+1. Haga clic en el nombre de un elemento de trabajo para abrir la página **Información general**.
 1. Haga clic en **Editar detalles** en la esquina superior derecha de la pantalla.
    ![Editar detalles](assets/edit-details.png)
-1. Busque el vínculo que desea eliminar y, a continuación, haga clic en el icono Eliminar ![Icono Eliminar](assets/delete-icon.png).
+1. Busque el vínculo que desea eliminar y, a continuación, haga clic en el icono **Eliminar** ![Eliminar icono](assets/delete-icon.png).

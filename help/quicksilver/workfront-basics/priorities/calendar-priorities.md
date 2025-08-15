@@ -6,10 +6,10 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: d24ad7d1-3a88-479e-beaf-69f8264c9a6b
-source-git-commit: 20cb2237a534b51ab5c75e393369bdd92c233efb
+source-git-commit: b886284eb44c2154987019655ff07cdeb0e1ae22
 workflow-type: tm+mt
-source-wordcount: '537'
-ht-degree: 17%
+source-wordcount: '524'
+ht-degree: 15%
 
 ---
 
@@ -30,8 +30,6 @@ Realice fácilmente un seguimiento de su trabajo con un calendario claro y visua
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -39,28 +37,28 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Plan de Adobe Workfront</strong></td> 
+   <td role="rowheader">Plan de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Licencia de Adobe Workfront*</strong></td> 
+   <td role="rowheader">Licencia de Adobe Workfront</td> 
    <td> 
    <p>Actual: Revisor o superior</p>
    <p>Nuevo: Light o superior</p> 
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Configuraciones de nivel de acceso</strong></td> 
+   <td role="rowheader">Configuraciones de nivel de acceso</td> 
    <td> <p>Acceso de visualización o edición para el objeto en el que se encuentra la actualización</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Permisos de objeto</strong></td> 
+   <td role="rowheader">Permisos de objeto</td> 
    <td> <p>Acceso de visualización al objeto</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-*Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -70,7 +68,7 @@ Prioridades muestra los elementos de trabajo que tiene asignados. No puede ver l
 
 {{step1-to-priorities}}
 
-1. Haga clic en el icono de Calendario en la parte superior de la lista de trabajos.
+1. Haga clic en el icono **Calendario** en la parte superior de la lista de trabajos.
    ![icono de calendario](assets/calendar-tab.png)
 1. Seleccione uno o varios filtros para reducir los elementos de trabajo.
 
@@ -83,7 +81,7 @@ Prioridades muestra los elementos de trabajo que tiene asignados. No puede ver l
     </tr>
         <tr>
         <td>Trabajando en ello</td>
-        <td>Muestra los elementos en los que está trabajando actualmente</td>
+        <td>Muestra los elementos en los que está trabajando actualmente.</td>
         </tr>
         <tr>
         <td>Listo para comenzar</td>
@@ -101,28 +99,28 @@ Prioridades muestra los elementos de trabajo que tiene asignados. No puede ver l
         <ul>
         <li>Predecesoras incompletas o delimitaciones de tareas que impiden trabajar en el elemento</li>
         <p>o</p>
-        <li>La fecha planificada de inicio es dentro de más de dos semanas</li>
+        <li>La fecha planificada de inicio será dentro de más de dos semanas.</li>
         </ul>
         </td>
         </tr>
         <tr>
         <td>Solicitud</td>
-        <td>Muestra los problemas en los que no ha empezado a trabajar</td>
+        <td>Muestra los problemas en los que no ha empezado a trabajar.</td>
         </tr>
         <td>Listo</td>
         <td>Muestra el trabajo completado en las últimas dos semanas. Esta opción de filtro no incluye aprobaciones.</td>
         </tr>
         <tr>
         <td>Proyecto</td>
-        <td>Muestra los proyectos que contienen tareas o problemas a los que se le ha asignado</td>
+        <td>Muestra los proyectos que contienen tareas o problemas a los que se le ha asignado.</td>
         </tr>
         <tr>
         <td>Fecha de vencimiento</td>
-        <td>Muestra el trabajo por fecha planificada de finalización</td>
+        <td>Muestra el trabajo por fecha planificada de finalización.</td>
         </tr>
         <tr>
         <td>Estado</td>
-        <td>Muestra tareas o problemas en estados nuevos, en curso y completos</td>
+        <td>Muestra tareas o problemas en estados nuevos, en curso y completos.</td>
         </tr>
         <tr>
         <td>Mi enfoque</td>
@@ -135,14 +133,14 @@ Prioridades muestra los elementos de trabajo que tiene asignados. No puede ver l
 
 1. Haga clic en la barra del elemento de trabajo del calendario para abrir el resumen lateral. El resumen lateral le permite
 
-* Ver y editar detalles de proyecto y elemento de trabajo
-* Crear y ver comentarios
-* Ver y cargar documentos
-* Crear una prueba
-* Vaya a la página del proyecto en Workfront
-* Vaya a la página de detalles del elemento de trabajo en Prioridades
-* Hora de registro
-* Adición de vínculos rápidos
+   * Ver y editar detalles de proyecto y elemento de trabajo
+   * Crear y ver comentarios
+   * Ver y cargar documentos
+   * Crear una prueba
+   * Vaya a la página del proyecto en Workfront
+   * Vaya a la página de detalles del elemento de trabajo en Prioridades
+   * Hora de registro
+   * Adición de vínculos rápidos
 
 1. (Opcional) Haga clic en **Crear nuevo** para agregar un nuevo elemento de trabajo al calendario. Para obtener más información, consulte [Crear una tarea o problema nuevo en Prioridades](/help/quicksilver/workfront-basics/priorities/create-task-issue-priorities.md).
 
@@ -150,12 +148,12 @@ Prioridades muestra los elementos de trabajo que tiene asignados. No puede ver l
 
 {{step1-to-priorities}}
 
-1. Haga clic en el icono de Calendario en la parte superior de la lista de trabajos.
+1. Haga clic en el icono **Calendario** en la parte superior de la lista de trabajos.
    ![icono de calendario](assets/calendar-tab.png)
 1. Haga clic en el icono **Configuración** en la esquina derecha del calendario.
 
 1. En la ficha **Estilo de barra**, elija hasta 5 campos para mostrar en la barra de elementos de trabajo del calendario.
    ![barra de muestra](assets/sample-task-for-field-config.png)
 
-1. En la ficha **Color**, elija cómo desea que se muestren los elementos de trabajo. Por ejemplo, si elige Proyecto, los elementos de trabajo se muestran según el color asignado al proyecto en la lista de trabajo.
+1. En la ficha **Color**, elija cómo desea que se muestren los elementos de trabajo. Por ejemplo, si elige **Proyecto**, los elementos de trabajo se mostrarán según el color asignado al proyecto en la lista de trabajos.
    ![proyecto de color de muestra](assets/sample-calendar-projects.png)

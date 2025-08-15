@@ -6,10 +6,10 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 484aa52e-7f87-40ab-a5e9-3b0c55232189
-source-git-commit: fbcdc88701b8b501b68d29e76b0148ddf07e5b52
+source-git-commit: b886284eb44c2154987019655ff07cdeb0e1ae22
 workflow-type: tm+mt
-source-wordcount: '321'
-ht-degree: 30%
+source-wordcount: '337'
+ht-degree: 29%
 
 ---
 
@@ -54,9 +54,10 @@ Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con 
 
 {{step1-to-priorities}}
 
-1. Pase el ratón sobre el nombre y luego haga clic en **Cargar**.
+1. Pase el ratón sobre el nombre y luego haga clic en el icono **Más** ![Más](assets/more-icon.png).
+1. Haga clic en **Cargar**
    ![Actualizar, registrar tiempo y cargar](assets/update-log-upload.png)
-1. (Opcional) Seleccione una carpeta.
+1. (Opcional) En el cuadro **Cargar archivos**, seleccione una carpeta.
 1. Arrastre y suelte el archivo o utilice Cmd/Ctrl + V para pegar elementos desde el portapapeles
 o
 Haga clic en **Agregar archivos** para examinar archivos o importarlos de un proveedor de Document Cloud.
@@ -68,16 +69,14 @@ Haga clic en **Agregar archivos** para examinar archivos o importarlos de un pro
    >
    >Los archivos adicionales se cargan como documentos independientes.
 1. Haga clic en **Cargar**
-   ![Cargar archivo](assets/upload-file-module.png)
-
 
 ## Cargar un archivo en un elemento de trabajo
 
 {{step1-to-priorities}}
 
-1. Haga clic en el nombre de un elemento de trabajo para abrir la página Información general.
-1. En la sección **Acciones rápidas**, haga clic en **Cargar**.
-1. (Opcional) Seleccione una carpeta.
+1. Haga clic en el nombre de un elemento de trabajo para abrir la página **Información general**.
+1. En la sección **Acciones rápidas**, haga clic en **Cargar** y, a continuación, seleccione **Documento**.
+1. (Opcional) En el cuadro **Cargar archivos**, seleccione una carpeta.
 1. Arrastre y suelte el archivo o utilice Cmd/Ctrl + V para pegar elementos desde el portapapeles
 o
 Haga clic en **Agregar archivos** para examinar archivos o importarlos de un proveedor de Document Cloud.
@@ -89,4 +88,3 @@ Haga clic en **Agregar archivos** para examinar archivos o importarlos de un pro
    >
    >Los archivos adicionales se cargan como documentos independientes.
 1. Haga clic en **Cargar**
-   ![Cargar archivo](assets/upload-file-module.png)

@@ -3,9 +3,9 @@ user-guide-title: Guía de Workfront
 user-guide-description: Utilice los siguientes documentos, tutoriales y recursos adicionales para aprender a implementar y utilizar Adobe Workfront de forma eficaz en su organización.
 role: User
 feature-set: Workfront
-source-git-commit: ab0e1bba3a91c07070620f65b480c09c2c1560ed
+source-git-commit: b886284eb44c2154987019655ff07cdeb0e1ae22
 workflow-type: tm+mt
-source-wordcount: '13427'
+source-wordcount: '13424'
 ht-degree: 59%
 
 ---
@@ -846,7 +846,6 @@ ht-degree: 59%
       * [Información general sobre las fechas del proyecto, la tarea y el problema en Workfront](workfront-basics/navigate-workfront/workfront-navigation/definitions-pti-dates.md)
    * Prioridades {#priorities}
       * [Prioridades: índice de artículos](workfront-basics/priorities/priorities-toc.md)
-      * [Prioridades: próximas versiones](workfront-basics/priorities/priorities-upcoming-releases.md)
       * [Introducción a Prioridades](workfront-basics/priorities/get-started-with-priorities.md)
       * [Ver detalles del proyecto y del elemento de trabajo en Prioridades](workfront-basics/priorities/view-task-project-details.md)
       * [Filtrar y agrupar su trabajo en Prioridades](/help/quicksilver/workfront-basics/priorities/filter-group-work-priorities.md)

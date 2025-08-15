@@ -6,10 +6,10 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: e4232fbe-1b5c-4614-8613-3b0e25ffee46
-source-git-commit: fbcdc88701b8b501b68d29e76b0148ddf07e5b52
+source-git-commit: b886284eb44c2154987019655ff07cdeb0e1ae22
 workflow-type: tm+mt
-source-wordcount: '300'
-ht-degree: 22%
+source-wordcount: '204'
+ht-degree: 29%
 
 ---
 
@@ -26,8 +26,6 @@ Prioridades muestra los elementos de trabajo que tiene asignados. No puede ver l
 ## Requisitos de acceso
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
-
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -57,35 +55,9 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  </tbody> 
 </table>
 
-*Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
-
-## Personalizar las columnas de la lista de trabajo Prioridades en Producción
-
-### Habilitar o deshabilitar columnas
-
-{{step1-to-priorities}}
-
-1. Haga clic en **Columnas** a la derecha de la pantalla.
-   ![Columnas](assets/columns.png)
-1. Utilice las teclas de alternancia para activar o desactivar columnas en la lista de trabajos.
-
-### Reordenar las columnas
-
-{{step1-to-priorities}}
-
-1. Haga clic en **Columnas** a la derecha de la pantalla.
-1. Haz clic en el icono **Arrastrar** y mueve la columna a la ubicación que desees. Al mover columnas, se actualiza automáticamente la lista de trabajo.
-   ![Reordenar columnas](assets/reorder-columns.png)
-
-### Restablecer anchos de columna
-
-{{step1-to-priorities}}
-
-1. Haga clic en **Columnas** a la derecha de la pantalla.
-1. Haga clic en el icono **Más** ![Icono de más](assets/more-icon.png) y elija **Restablecer anchos de columna**.
-   ![Columnas](assets/columns.png)
 
 ## Personalización de las columnas de lista de trabajo Prioridades
 

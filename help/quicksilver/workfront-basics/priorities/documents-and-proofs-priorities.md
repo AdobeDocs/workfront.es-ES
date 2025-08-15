@@ -6,10 +6,10 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 63aa5e45-e51d-4049-a5d9-18dfaaa79647
-source-git-commit: 20cb2237a534b51ab5c75e393369bdd92c233efb
+source-git-commit: b886284eb44c2154987019655ff07cdeb0e1ae22
 workflow-type: tm+mt
-source-wordcount: '514'
-ht-degree: 36%
+source-wordcount: '599'
+ht-degree: 29%
 
 ---
 
@@ -72,13 +72,18 @@ Puede cargar un documento en un elemento de trabajo desde la lista de trabajo o 
 {{step1-to-priorities}}
 
 1. En la lista de trabajo, pase el ratón sobre el nombre del trabajo y haga clic en **Icono de resumen** ![icono de resumen abierto](assets/summary-icon.png).
-1. Asegúrese de que está en la pestaña Tarea o Problemas del panel.
-1. Haga clic en el icono Documento en el carril derecho.
-1. Haga clic en el icono Upload file y seleccione el archivo.
-1. (Opcional) Realice una de las siguientes acciones:
-   1. Seleccione una carpeta.
-   1. Hacer un comentario
-   1. Añada archivos adicionales.
+1. Asegúrese de que se encuentra en la ficha **Tarea** o **Problemas** del panel de resumen.
+1. Haga clic en el icono **Cargar archivo** ![Cargar archivo](assets/upload-file-icon.png).
+1. Arrastre y suelte el archivo o utilice Cmd/Ctrl + V para pegar elementos desde el portapapeles
+o
+Haga clic en **Agregar archivos** para examinar archivos o importarlos de un proveedor de Document Cloud.
+   ![Agregar archivos](assets/add-files.png)
+1. (Opcional) Añada un comentario.
+1. (Opcional) Añada más archivos.
+
+   >[!NOTE]
+   >
+   >Los archivos adicionales se cargan como documentos independientes.
 1. Haga clic en **Cargar**
 
 ### Detalles del elemento de trabajo
@@ -86,12 +91,18 @@ Puede cargar un documento en un elemento de trabajo desde la lista de trabajo o 
 {{step1-to-priorities}}
 
 1. En la lista de trabajos, haga clic en el nombre del elemento de trabajo.
-1. Haga clic en la pestaña Documento en la parte superior de la pantalla.
-1. Haga clic en **Cargar documento** > **Documento**.
-1. (Opcional) Realice una de las siguientes acciones:
-   1. Seleccione una carpeta.
-   1. Hacer un comentario
-   1. Añada archivos adicionales.
+1. Haga clic en la ficha **Documentos** en la parte superior de la pantalla.
+1. Haga clic en **Cargar documento** en la esquina superior derecha y, a continuación, seleccione **Documento**.
+1. Arrastre y suelte el archivo o utilice Cmd/Ctrl + V para pegar elementos desde el portapapeles
+o
+Haga clic en **Agregar archivos** para examinar archivos o importarlos de un proveedor de Document Cloud.
+   ![Agregar archivos](assets/add-files.png)
+1. (Opcional) Añada un comentario.
+1. (Opcional) Añada más archivos.
+
+   >[!NOTE]
+   >
+   >Los archivos adicionales se cargan como documentos independientes.
 1. Haga clic en **Cargar**
 
 
@@ -105,16 +116,17 @@ Puede crear una prueba a partir de un documento desde la lista de trabajos o des
 {{step1-to-priorities}}
 
 1. En la lista de trabajo, pase el ratón sobre el nombre del trabajo y haga clic en **Icono de resumen** ![icono de resumen abierto](assets/summary-icon.png).
-1. Asegúrese de que está en la pestaña Tarea o Problemas del panel.
-1. Haga clic en el icono **Documento** en el carril derecho.
-1. Haga clic en el icono **Cargar archivo** y, a continuación, elija el archivo.
+1. Asegúrese de que se encuentra en la ficha **Tarea** o **Problemas** del panel de resumen.
+1. Haga clic en el icono **Documentos** ![Icono de documentos](assets/show-document-icon.png) en el carril derecho.
+1. Haga clic en el icono **Cargar archivo** ![Cargar archivo](assets/upload-file-icon.png) y, a continuación, elija el archivo.
 
    >[!NOTE]
    >
    >Debe cargar el documento para poder crear la prueba.
 
 
-1. Una vez que se cargue el archivo, haga clic en **Crear revisión**.
+1. Una vez que se cargue el archivo, selecciónelo en la sección **Documentos**.
+1. Haga clic en **Crear revisión** en la esquina superior derecha del cuadro de detalles del archivo.
 1. Seleccione una de las siguientes opciones:
 
    <table style="table-layout:auto"> 
@@ -122,11 +134,11 @@ Puede crear una prueba a partir de un documento desde la lista de trabajos o des
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">Prueba sencilla</td> 
+      <td role="rowheader"><b>Prueba sencilla</b></td> 
       <td>Esta opción crea una prueba sin flujo de trabajo adjunto y aplica la configuración de prueba predeterminada. Puede actualizar la configuración de prueba predeterminada o agregar un flujo de trabajo después de crear la prueba. Para obtener más información sobre la configuración de la prueba, consulte <a href="/help/quicksilver/review-and-approve-work/proofing/managing-proofs-within-workfront/edit-proof-settings.md" class="MCXref xref">Editar configuración de prueba</a>.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Prueba avanzada</td> 
+      <td role="rowheader"><b>Prueba avanzada</b></td> 
       <td> <p>Esta opción le permite configurar un flujo de trabajo Básico o Avanzado y modificar la configuración de prueba de la prueba que cree. Para obtener más información, consulte </p> 
        <ul> 
         <li><p><a href="/help/quicksilver/review-and-approve-work/proofing/creating-proofs-within-workfront/configure-basic-proof-workflow.md" class="MCXref xref">Crear una prueba avanzada con un flujo de trabajo básico</a> </p> </li> 
@@ -142,8 +154,8 @@ Puede crear una prueba a partir de un documento desde la lista de trabajos o des
 {{step1-to-priorities}}
 
 1. En la lista de trabajos, haga clic en el nombre del elemento de trabajo.
-1. Haga clic en la ficha **Documento** en la parte superior de la pantalla.
-1. Haga clic en **Cargar documento** > **Revisión**.
+1. Haga clic en la ficha **Documentos** en la parte superior de la pantalla.
+1. Haga clic en **Cargar documento** en la esquina superior derecha y, a continuación, seleccione **Revisión**.
 1. Cree una prueba como se describe en
    [Crear una prueba avanzada con un flujo de trabajo básico](/help/quicksilver/review-and-approve-work/proofing/creating-proofs-within-workfront/configure-basic-proof-workflow.md)
    [Crear una prueba avanzada con un flujo de trabajo automatizado](/help/quicksilver/review-and-approve-work/proofing/creating-proofs-within-workfront/create-automated-proof-workflow.md)

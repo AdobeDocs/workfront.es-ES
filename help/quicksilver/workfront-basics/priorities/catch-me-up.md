@@ -6,24 +6,24 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: c3ff90cc-2a9b-472e-ac6c-88b8ec93c8fb
-source-git-commit: d829be62c275ea91d1c97c2d3dd994e325ce9738
+source-git-commit: b886284eb44c2154987019655ff07cdeb0e1ae22
 workflow-type: tm+mt
-source-wordcount: '180'
-ht-degree: 22%
+source-wordcount: '186'
+ht-degree: 25%
 
 ---
 
 # Ponerse al día con el trabajo en Prioridades
 
-Póngase al día (con tecnología del asistente de IA de Workfront) que resume las actualizaciones, los documentos cargados y otros cambios importantes acerca de sus proyectos en los siguientes lapsos de tiempo: 24 horas, 3 días y 7 días, lo que ayuda a reducir el tiempo que tarda en buscar información sobre proyectos activos.
+Póngase al día (con tecnología del asistente de IA de Workfront) que resume las actualizaciones, los documentos cargados y otros cambios importantes acerca de sus proyectos en los siguientes lapsos de tiempo: 24 horas, 3 días, 7 días. Esto ayuda a reducir el tiempo que se necesita para buscar información en proyectos activos.
 
 >[!NOTE]
 >
->Esta función solo está disponible para los clientes de en la experiencia de Adobe unificado que utilizan el asistente de IA. Para obtener más información sobre el Asistente de IA, consulte [Descripción general del Asistente de IA](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md).
+>Esta función solo está disponible para los clientes en la experiencia de Unified Adobe mediante el asistente de IA. Para obtener más información sobre el Asistente de IA, consulte [Descripción general del Asistente de IA](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md).
 
 ## Requisitos de acceso
 
-+++Debe tener el siguiente acceso para realizar los pasos de este artículo:
++++Debe tener el siguiente acceso para realizar los pasos de este artículo: 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -55,9 +55,12 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
 
 1. En la parte superior de la página, haz clic en **Ponerme al día**.
    ![botón para ponerme al día](assets/catch-me-up-button.png)
-1. Elija el periodo de tiempo que desee resumir:
-   1. 24 horas
-   1. 3 días
-   1. 7 días
+1. Seleccione el periodo de tiempo deseado:
+   * **Resumir las últimas 24 horas**
+   * **Resumir los últimos 3 días**
+   * **Resumir los últimos 7 días**
 
-   Si no puede interactuar con este panel, su organización no tiene un acuerdo de IA general de Adobe firmado en el archivo.
+   >[!NOTE]
+   >
+   > Si no puede interactuar con este panel, su organización no tiene registrado ningún acuerdo de IA general de Adobe firmado.
+

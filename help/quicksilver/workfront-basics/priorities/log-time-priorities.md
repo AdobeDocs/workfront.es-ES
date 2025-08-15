@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 5457f516-c213-4b82-b033-bc8db943a217
-source-git-commit: fbcdc88701b8b501b68d29e76b0148ddf07e5b52
+source-git-commit: b886284eb44c2154987019655ff07cdeb0e1ae22
 workflow-type: tm+mt
-source-wordcount: '505'
+source-wordcount: '511'
 ht-degree: 44%
 
 ---
@@ -35,10 +35,8 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo y regis
   </tr> 
   <tr> 
    <td role="rowheader">Licencia de Adobe Workfront</td> 
-   <td> <p>Nuevo: </p>
-   <p>Ligero o superior para registrar horas en una tarea o un problema</p>
-   <p>Actual: 
-   <p>Trabajo o superior para registrar horas en una tarea o un problema</p> </td> 
+   <td> <p>Nuevo: ligero o superior para registrar horas en una tarea o un problema</p>
+   <p>Actual: Trabajo o superior para registrar horas en una tarea o un problema</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso</td> 
@@ -61,7 +59,8 @@ Puede registrar tiempo directamente desde la lista de trabajo:
 
 {{step1-to-priorities}}
 
-1. Pase el ratón sobre el nombre y luego haga clic en **Registrar tiempo**.
+1. Pase el ratón sobre el nombre y luego haga clic en el icono **Más** ![Más](assets/more-icon.png).
+1. Seleccionar **Registrar tiempo**.
    ![Actualizar, registrar tiempo y cargar](assets/update-log-upload.png)
 1. En el menú desplegable **Tipo de hora**, seleccione el tipo de hora adecuado. Los tipos de horas están disponibles según lo que se haya definido en los niveles de sistema, proyecto y usuario, tal como se describe en Definición de tipos de horas y disponibilidad.
 
@@ -77,7 +76,7 @@ Puede registrar el tiempo en un elemento de trabajo individual:
 
 {{step1-to-priorities}}
 
-1. Haga clic en el nombre de un elemento de trabajo para abrir la página Información general.
+1. Haga clic en el nombre de un elemento de trabajo para abrir la página **Información general**.
 1. En la sección **Acciones rápidas**, haga clic en **Registrar tiempo**.
 1. En el menú desplegable **Tipo de hora**, seleccione el tipo de hora adecuado. Los tipos de horas están disponibles según lo que se haya definido en los niveles de sistema, proyecto y usuario, tal como se describe en Definición de tipos de horas y disponibilidad.
 1. (Condicional) Si el administrador de su grupo o Workfront ha habilitado la opción Asignar roles de trabajo a las entradas de hora manualmente, seleccione un rol en el menú desplegable. La función especificada cuando se le asigna al elemento de trabajo se muestra de forma predeterminada. Si no se le asigna una función en el objeto, la función principal se muestra como predeterminada. Si no tiene un rol principal asignado, se muestra Sin rol.
