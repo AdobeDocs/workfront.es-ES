@@ -4,68 +4,204 @@ description: Este es un artículo interno para que nuestro equipo mantenga un in
 author: Alina
 hide: true
 hidefromtoc: true
-source-git-commit: fa61335a6abf8eb880f7b1b14532f764deca4514
+source-git-commit: 1d7b6c280586f03277f1cce6cea3f8e8110fc602
 workflow-type: tm+mt
-source-wordcount: '314'
-ht-degree: 42%
+source-wordcount: '641'
+ht-degree: 47%
 
 ---
 
 
 # Ejemplos de tablas de requisitos de acceso: artículo interno
 
-## Requisitos de acceso para la mayoría de los artículos de administración del sistema
+## Lista de verificación
 
-<!--Audited: 08/2025-->
+1. Cambie de plan a paquete.
+1. Quitar actual y heredado de la fila de licencias
+1. Elimine los asteriscos
+1. Elimine las frases de introducción después de &quot;Expandir para ver los requisitos de acceso para la funcionalidad de este artículo&quot;.
 
-+++ Amplíe para ver los requisitos de acceso.
+## Requisitos de acceso (Este es un ejemplo cuando el paquete permanece igual y actualizamos la fila de licencias)
+
+Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><p>Productos</p></td> 
-   <td><p>Adobe Workfront</p></td> 
-  </tr> 
-  <tr> 
-  <tr> 
-   <td role="rowheader">
-      <p>Paquetes de Adobe Workfront</p></td>
-
-<td> <p>Cualquier paquete de Adobe Workfront</p>
-   O
-   <p>Cualquier paquete de flujo de trabajo de Adobe Workfront</p>
+   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td> <p>Cualquiera </p> 
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Licencia de Adobe Workfront</p></td> 
-   <td><p>Estándar</p>
-   O
-   <p>Plan</p></td> 
+   <td role="rowheader">Licencia de Adobe Workfront*</td> 
+   <td> <p>Ligero o superior</p>
+   <p>Trabajo o superior</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Configuración de nivel de acceso</p></td> 
-   <td> <p>Debe ser administrador de Workfront.</p></td> 
+   <td role="rowheader">Configuraciones de nivel de acceso</td> 
+   <td> <p>Acceso de edición a las plantillas</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Permisos de objeto</td> 
+   <td> <p>Permisos de visualización o superiores de una plantilla</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Para obtener información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-+++
+## Requisitos de acceso
+
+Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td> <p>Cualquiera </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Licencia de Adobe Workfront</td> 
+   <td><p>Estándar</p>
+   <p>Trabajo o superior</p></td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Configuraciones de nivel de acceso</td> 
+   <td> <p>Acceso de edición a las plantillas</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Permisos de objeto</td> 
+   <td> <p>Permisos de visualización o superiores de una plantilla</p>  </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
+## Requisitos de acceso
+
+Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Paquete Adobe Workfront</td> 
+   <td> <p>Cualquiera </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Licencia de Adobe Workfront</td> 
+   <td><p>Estándar</p>
+  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Configuraciones de nivel de acceso</td> 
+   <td> <p>Acceso de edición a las plantillas</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Permisos de objeto</td> 
+   <td> <p>Permisos de visualización o superiores de una plantilla</p>  </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
+
+## Requisitos de acceso (este es un ejemplo en el que la nueva función solo existe en los paquetes de 2023/2025)
+
+Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
+
+<table>
+  <tr>
+   <td>paquete de Adobe Workfront
+   </td>
+   <td> <p>PRIME o ULTIMATE</p>
+    <p>Workflow Ultimate</p>
+   </td>
+  </tr>
+  <tr>
+   <td>Licencias de Adobe Workfront
+   </td>
+   <td>Estándar
+   </td>
+  </tr>
+   <tr>
+   <td>Configuraciones de nivel de acceso
+   </td>
+   <td>Debe ser administrador de [!DNL Workfront].
+   </td>
+  </tr>
+</table>
+
+Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
+## Requisitos de acceso (este es un ejemplo en el que se requiere tener otros productos)
+
+Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
+
+<table>
+  <tr>
+   <td>paquete de Adobe Workfront
+   </td>
+   <td> <p>PRIME o ULTIMATE</p>
+    <p>Workflow Ultimate</p>
+   </td>
+  </tr>
+  <tr>
+   <td>Productos adicionales
+   </td>
+   <td> <p>Frame.io enterprise, AEM, Creative Cloud</p>
+   </td>
+  </tr>
+   <tr>
+   <td>Configuraciones de nivel de acceso
+   </td>
+   <td>Debe ser administrador de [!DNL Workfront].
+   </td>
+  </tr>
+</table>
+
+Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
+
+## Los paquetes de 2017 deben eliminarse de la fila de paquetes
+
+Paquetes de 2017
+Licencias: revisión, trabajo, planificador
+Paquete: equipo, profesional, empresa, empresa
+
+Paquetes de 2023
+Licencias: colaborador, ligero, estándar
+Paquete: select, prime, ultimate
+
+Paquetes de flujo de trabajo 2025
+Licencias: colaborador, ligero, estándar
+Paquete: selección de flujo de trabajo, flujo de trabajo principal, flujo de trabajo final
+
+Paquetes de planificación para 2025
+Licencias: colaborador, ligero, estándar
+Paquete: Planning Select, Planning Prime, Planning Ultimate
+
+
+
+
 
 ## Requisitos de acceso para la mayoría de Workfront Planning
 
-+++ Amplíe para ver los requisitos de acceso.  
+Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
 <table style="table-layout:auto"> 
 <col> 
 </col> 
 <col> 
 </col> 
-<tbody>
-
+<tbody> 
 <tr> 
 <td> 
    <p> Productos</p> </td> 
@@ -77,12 +213,12 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
 <tr> 
    <td role="rowheader"><p>Paquetes de Adobe Workfront</p></td> 
    <td> 
-<p>Cualquier paquete de Adobe Workfront o de Adobe Workfront Workflow</p> (***esto es demasiado**&#x200B;**)
+<p>Cualquier paquete de Adobe Workfront o de Adobe Workfront Workflow</p> (***esto es demasiado****)
 
 Y
 <p>Cualquier paquete de Adobe Workfront Planning</p> 
    </td> </tr>
-<td role="rowheader"><p>Plataforma de Adobe Workfront (¿**&#x200B;** llamarlo, o simplemente hacer que forme parte del artículo vinculado en la parte inferior???**&#x200B;***)</p></td> 
+<td role="rowheader"><p>Plataforma de Adobe Workfront (¿**** llamarlo, o simplemente hacer que forme parte del artículo vinculado en la parte inferior???*****)</p></td> 
    <td> 
 <p>La instancia de Workfront de su organización debe incorporarse a Adobe Unified Experience para poder acceder a Workfront Planning.</p> 
 <p>Para obtener más información, consulte <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience para Workfront</a>. </p> 
@@ -107,9 +243,9 @@ Y
 </tbody> 
 </table>
 
-*Para obtener más información sobre los requisitos de acceso de Workfront, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información acerca de los requisitos de acceso de Workfront, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-+++   
+
 
 
 ## Requisitos de acceso para la mayoría de Scenario Planner
@@ -119,7 +255,7 @@ Y
 >Si su empresa ha comprado el Scenario Planner de Adobe en el pasado, se le ha otorgado la licencia de propietario. El planificador de escenarios ya no está disponible para adquirir.
 
 
-+++ Amplíe para ver los requisitos de acceso. 
+Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -133,7 +269,7 @@ Y
   <tr> 
    <td> <p>[!DNL Adobe Workfront] Paquete</p> </td> 
    <td> 
-   <p>Adobe Workfront Ultimate*</p>
+   <p>Adobe Workfront Ultimate</p>
    </td> 
   </tr> 
   <tr> 
@@ -153,6 +289,5 @@ Y
  </tbody> 
 </table>
 
-*Para obtener más información, consulte [Requisitos de acceso a la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información, consulte [Requisitos de acceso a la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-+++
