@@ -208,7 +208,7 @@ Puede agregar ingresos fijos a los registros de facturación si tiene tareas con
 
 1. Seleccione las tareas cuyos ingresos fijos desee incluir en el registro de facturación y luego haga clic en **Agregar tareas**.  La cantidad de **Ingresos fijos** de las tareas se añade como cantidad de **Ingresos facturables** al **Total del registro de facturación**.
 
-1. (Opcional) Haga clic en **Detalles** de registros de facturación para revisar los importes totales **** de ingresos **facturables y** registro de facturación, así como el total de registro facturación en el encabezado facturación registro.
+1. (Opcional) Haga clic en **Detalles** de registros de facturación para revisar los importes totales **&#x200B;**&#x200B;de ingresos **facturables y** registro de facturación, así como el total de registro facturación en el encabezado facturación registro.
 
 ## Editar un registro de facturación
 
