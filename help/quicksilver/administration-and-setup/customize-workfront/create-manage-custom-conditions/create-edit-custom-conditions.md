@@ -8,16 +8,14 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 5c950862-4358-4aab-997b-223972662150
-source-git-commit: 1eab0317bfe72609133e71411ee24263517f1508
+source-git-commit: f62d8f681fa75d2b18d78d7918df46734fa61e2e
 workflow-type: tm+mt
-source-wordcount: '635'
+source-wordcount: '601'
 ht-degree: 13%
 
 ---
 
 # Crear o editar una condición personalizada
-
-{{highlighted-preview}}
 
 Como administrador de Adobe Workfront, puede crear o editar una condición personalizada para proyectos, tareas y problemas para que coincida con las necesidades de su organización.
 
@@ -66,13 +64,9 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
 
    O
 
-   Para editar una condición existente, haga clic en <span class="preview">**Editar** junto al nombre de la condición</span>, o bien pase el ratón sobre la condición que quiera editar y luego haga clic en el icono **Editar** que aparece en el extremo derecho.
+   Para editar una condición existente, haga clic en **Editar** junto al nombre de la condición.
 
-   <span class="preview">Imagen de muestra en el entorno de vista previa:</span>
    ![Editar condición personalizada](assets/custom-conditions-0825.png)
-
-   Imagen de muestra en el entorno de producción:
-   ![Condición personalizada](assets/custom-condition-edit-nwe.jpg)
 
 1. Configure la condición personalizada con las siguientes opciones:
 
@@ -81,7 +75,7 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
     <col> 
     <tbody> 
      <tr> 
-      <td>Nombre de condición</td> 
+      <td>Nombre de la condición</td> 
       <td>(Obligatorio) Escriba un nombre descriptivo para la condición.</td> 
      </tr> 
      <tr> 
@@ -93,7 +87,7 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
       <td>(Opcional) Haga clic en el icono de color y, a continuación, elija el color que desee para la condición cuando se muestre en proyectos, tareas o problemas. También puede escribir un número hexadecimal.</td> 
      </tr> 
      <tr> 
-      <td>Igual que </td> 
+      <td>Igual a </td> 
       <td><p>(Obligatorio, solo para proyectos) Haga clic en la opción de la lista desplegable que mejor describa la función de la nueva condición. Por ejemplo, para una condición denominada Bien de seguimiento, debe hacer clic en En el destino. Esto determina cómo funcionan las condiciones predeterminadas. Cada condición que cree debe coincidir con una de las opciones del menú desplegable.</p>
       <p>Para obtener información acerca de las condiciones predeterminadas, vea <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-projects.md" class="MCXref xref">Establecer una condición personalizada como predeterminada para los proyectos</a> y <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-tasks-issues.md" class="MCXref xref">Establecer una condición personalizada como predeterminada para tareas y problemas</a>.</p>
       <p>Esta opción no se puede modificar una vez que haya terminado de crear la condición.</p></td> 

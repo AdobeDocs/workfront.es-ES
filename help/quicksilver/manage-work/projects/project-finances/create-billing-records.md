@@ -5,10 +5,10 @@ description: Además de configurar los ingresos y llevar el seguimiento de los g
 author: Lisa
 feature: Work Management
 exl-id: 6f17a892-7f64-4712-8ee2-7a1940b99be3
-source-git-commit: ec6ddb50d6b9137837c8031b22f213cd6ada70ff
+source-git-commit: 4805b93be7ce3dc098c7e160cdb872446f80ecbd
 workflow-type: tm+mt
 source-wordcount: '1645'
-ht-degree: 40%
+ht-degree: 39%
 
 ---
 
@@ -73,10 +73,10 @@ Tenga en cuenta lo siguiente cuando planee utilizar registros de facturación:
 
 {{step1-to-projects}}
 
-1. En la página **Proyectos**, seleccione un proyecto.
+1. En la **Página Proyectos** , seleccione un proyecto.
 1. Haga clic en **Registros de facturación** en el panel izquierdo.
-1. Haga clic en **Nuevo registro de facturación**.
-1. En el cuadro **Nuevo registro de facturación** que aparece, especifique la siguiente información:
+1. Haga clic en **Nuevo registro** de facturación.
+1. En el **cuadro Nuevo facturación registro** que aparece, introduzca la siguiente información:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -95,7 +95,7 @@ Tenga en cuenta lo siguiente cuando planee utilizar registros de facturación:
       <td>Seleccione la fecha en la que se facturó este registro de facturación haciendo clic en el icono de calendario.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Nº de orden de compra</td> 
+      <td role="rowheader">N.º de orden de compra</td> 
       <td>Introduzca el número de pedido asociado a este registro de facturación.</td> 
      </tr> 
      <tr> 
@@ -124,7 +124,7 @@ Puede incluir horas que se hayan registrado en tareas, problemas o el proyecto e
 Si el usuario que registra las horas o su rol principal está asociado con una tarifa Facturación por hora, los ingresos de estas horas se agregan al registro de facturación.
 
 * [Qué horas se pueden añadir a un registro de facturación](#what-hours-can-be-added-to-a-billing-record)
-* [Añadir horas a un registro de facturación](#add-hours-to-a-billing-record)
+* [Agregar horas a un registro de facturación](#add-hours-to-a-billing-record)
 
 #### Qué horas se pueden añadir a un registro de facturación {#what-hours-can-be-added-to-a-billing-record}
 
@@ -133,24 +133,24 @@ Puede añadir horas a un registro de facturación cuando se cumplan las siguient
 * Se han registrado horas para las tareas, problemas o proyectos.
 * El tipo de hora de las horas registradas se marca como Contar como ingresos.
 
-  Para obtener más información, consulte el artículo [Administrar tipos de horas](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/hour-types.md).
+  Para obtener más información, consulte el artículo [Administrar tipos](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/hour-types.md) de horas.
 
-* Todas las horas registradas para problemas o el proyecto pueden agregarse a un registro de facturación si el usuario que registra la hora tiene una tarifa de facturación por hora asociada a ellos o a su rol principal.
+* Todas las horas registradas por problemas o el proyecto se pueden agregar a un registro de facturación si el usuario que registra el tiempo tiene una tarifa de facturación por hora asociada con ellos o con su función de trabajo principal.
 * Si se registran las horas en una tarea, la tarea debe tener el siguiente tipo de ingresos:
 
-   * El tipo de ingresos no puede establecerse en No facturable.
+   * El Tipo de ingresos no se puede establecer en No facturable.
    * Si el tipo de ingresos se establece en Usuario por hora, el usuario que registre la hora debe tener establecida una tarifa de facturación por hora en su perfil.
-   * Si el Tipo de ingresos está establecido en Rol por hora, la función principal del usuario que registra la hora debe tener una tarifa de facturación por hora.
+   * Si el Tipo de ingresos se establece en Rol por hora, el función principal del usuario que registra la hora debe tener una tarifa de Facturación por hora.
 
      >[!NOTE]
      >
      >Puede anular las tarifas de facturación de las funciones a nivel de proyecto.\
-     >Para obtener más información, consulte la sección &quot;Anulación de las tarifas de facturación de rol en el nivel de proyecto&quot; en el artículo [Información general sobre la anulación de tarifas de facturación de rol y el cálculo de ingresos en un proyecto](../../../manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
+     >Para obtener más información, consulte la sección &quot;Anular las tasas de función facturación de trabajo en el nivel de proyecto&quot; en el artículo [Descripción general de anular las tasas de facturación de roles de trabajo y calcular los ingresos de un proyecto](../../../manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
 
-* Si la opción Requerir tiempo para aprobar de este proyecto está seleccionada en Configuración del proyecto, el propietario del proyecto debe aprobar las horas registradas.\
-  Para obtener más información, vea [Requerir tiempo para aprobar un proyecto](../../../manage-work/projects/manage-projects/require-time-approval-for-projects.md).
+* Si la opción Requerir tiempo para ser aprobado para este proyecto está seleccionada en Proyecto Configuración, entonces el Propietario del proyecto debe aprobar las horas registradas.\
+  Para obtener más información, consulte [Requerir tiempo para ser aprobado para un proyecto](../../../manage-work/projects/manage-projects/require-time-approval-for-projects.md).
 
-#### Agregar horas a un registro de facturación {#add-hours-to-a-billing-record}
+#### añadir horas a un récord facturación {#add-hours-to-a-billing-record}
 
 {{step1-to-projects}}
 
@@ -170,7 +170,7 @@ Puede añadir horas a un registro de facturación cuando se cumplan las siguient
 
 ### Incluir gastos facturables en un registro de facturación {#include-billable-expenses-in-a-billing-record}
 
-Si está agregando gastos facturables al registro de facturación, asegúrese de que los gastos de las tareas y el proyecto estén marcados como Facturables. Los gastos que no están marcados como Facturable no están disponibles para añadirlos en un registro de facturación. Para obtener más información sobre cómo añadir gastos, consulte el artículo [Administrar gastos dle proyecto](../../../manage-work/projects/project-finances/manage-project-expenses.md).
+Si está agregando gastos facturables al registro de facturación, asegúrese de que los gastos de las tareas y el proyecto estén marcados como facturables. Los gastos que no están marcados como Facturable no están disponibles para añadirlos en un registro de facturación. Para obtener más información sobre cómo añadir gastos, consulte el artículo [Administrar gastos dle proyecto](../../../manage-work/projects/project-finances/manage-project-expenses.md).
 
 Para añadir gastos facturables a un registro de facturación:
 
@@ -180,13 +180,13 @@ Para añadir gastos facturables a un registro de facturación:
 1. Haga clic en **Registros de facturación** en el panel izquierdo.
 1. Haga clic en el registro de facturación **Descripción** para abrir la ficha **Detalles del registro de facturación**.
 1. Haga clic en **Gastos facturables** en el panel izquierdo.
-1. (Condicional) Si ha agregado gastos a sus tareas o al proyecto y los ha marcado como Facturables, haga clic en **Agregar gastos**.
+1. (Condicional) Si has añadido gastos a tus tareas o al proyecto y los has marcado como facturables, haz clic en **añadir gastos**.
 
    >[!NOTE]
    >
-   >Si tiene gastos pero no están marcados como facturables, el botón **Agregar gastos** no se muestra. Solo los gastos facturables con un importe real mayor que cero pueden incluirse en un registro de facturación.
+   >Si tiene gastos pero no están marcados como facturables, el botón de gastos **de añadir** no se muestra. Solo los gastos facturables con un importe real mayor que cero pueden incluirse en un registro de facturación.
 
-1. Seleccione los gastos facturables que están disponibles para ser agregados al registro de facturación, luego haga clic en **Agregar gastos**.  El importe real de los gastos se añade como cantidad de **Gastos facturables** al **Total del registro de facturación**.
+1. Seleccione los gastos facturables que están disponibles para añadirlos al registro facturación y, a continuación, haga clic en **añadir gastos**.  El importe real de los gastos se añade como cantidad de **Gastos facturables** al **Total del registro de facturación**.
 
 1. (Opcional) Haga clic en **Detalles de registros de facturación** para revisar los importes de **Gastos facturables** y **Registro de facturación total**, y el total del registro de facturación en el encabezado del registro de facturación.
 
@@ -200,22 +200,22 @@ Puede agregar ingresos fijos a los registros de facturación si tiene tareas con
 1. Haga clic en **Registros de facturación** en el panel izquierdo.
 1. Haga clic en la **descripción** del registro de facturación para abrir la ficha **Detalles del registro de facturación**.
 1. Seleccione la pestaña **Ingresos fijos**.
-1. Si ha agregado ingresos fijos a sus tareas, haga clic en **Agregar ingresos fijos**.
+1. Si ha agregado ingresos fijos a sus tareas, haga clic en **añadir ingresos fijos**.
 
    >[!NOTE]
    >
-   >Si tiene importes de ingresos en tareas que no están marcadas como fijas, el botón **Agregar ingresos fijos** no se mostrará.
+   >Si tienes ingresos cantidades en tareas, pero no están marcadas como Fijas, no se mostrarán los **añadir fijos ingresos** botón.
 
 1. Seleccione las tareas cuyos ingresos fijos desee incluir en el registro de facturación y luego haga clic en **Agregar tareas**.  La cantidad de **Ingresos fijos** de las tareas se añade como cantidad de **Ingresos facturables** al **Total del registro de facturación**.
 
-1. (Opcional) Haga clic en **Detalles de registros de facturación** para revisar los importes de **Ingresos facturables** y **Registro de facturación total**, y el total del registro de facturación en el encabezado del registro de facturación.
+1. (Opcional) Haga clic en **Detalles** de registros de facturación para revisar los importes totales **** de ingresos **facturables y** registro de facturación, así como el total de registro facturación en el encabezado facturación registro.
 
 ## Editar un registro de facturación
 
-Después de crear un registro de facturación y agregarle horas, gastos e ingresos, puede editar parte de la información del registro existente antes de que se marque como Facturado.
+Después de crear un registro facturación y agregarle horas, gastos e ingresos, puede editar cierta información en el registro existente antes de que se marque como Facturado.
 
-1. Vaya al registro de facturación.
-1. Seleccione **Detalles del registro de facturación** en el panel izquierdo.
+1. Desplácese hasta el registro facturación.
+1. Seleccione **Detalles** del registro de facturación en el panel izquierdo.
 1. Edite la información en cualquier campo disponible.
 
    O
@@ -238,7 +238,7 @@ Después de crear un registro de facturación y agregarle horas, gastos e ingres
 
    Los campos siguientes no están disponibles para la edición:
 
-   * **Horas facturables:** el total de los ingresos reales de las horas incluidas en el registro de facturación. Para obtener más información, consulte la siguiente sección de este artículo: [Incluir horas facturables en un registro de facturación](#include-billable-hours-in-a-billing-record).
+   * **Horas facturables:** el total de los ingresos reales de las horas incluidas en el registro de facturación. Para obtener más información, consulte la siguiente sección de este artículo: [Incluir horas facturables en un registro](#include-billable-hours-in-a-billing-record) facturación.
 
    * **Gastos facturables**: el total del importe real de los gastos facturables incluidos en el registro de facturación. Para obtener más información, vea la siguiente sección de este artículo: [Incluir gastos facturables en un registro de facturación](#include-billable-expenses-in-a-billing-record).
 
