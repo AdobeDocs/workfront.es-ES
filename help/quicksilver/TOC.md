@@ -3,9 +3,9 @@ user-guide-title: Guía de Workfront
 user-guide-description: Utilice los siguientes documentos, tutoriales y recursos adicionales para aprender a implementar y utilizar Adobe Workfront de forma eficaz en su organización.
 role: User
 feature-set: Workfront
-source-git-commit: 629e7943e7f14e555bf658d6b5c04c2b647b6f83
+source-git-commit: edd0893a30fd925c40020f7795ede87c93eb1ee8
 workflow-type: tm+mt
-source-wordcount: '13427'
+source-wordcount: '13431'
 ht-degree: 59%
 
 ---
@@ -1233,6 +1233,7 @@ ht-degree: 59%
          * [Copiar y mover tareas de plantilla](manage-work/projects/create-and-manage-templates/copy-and-move-template-tasks.md)
          * [Editar plantillas del proyecto](manage-work/projects/create-and-manage-templates/edit-templates.md)
          * [Editar una tarea de plantilla](manage-work/projects/create-and-manage-templates/edit-template-task.md)
+         * [Eliminar una tarea de plantilla](manage-work/projects/create-and-manage-templates/delete-template-tasks.md)
          * [Crear plantilla a partir de proyecto](manage-work/projects/create-and-manage-templates/create-template-from-project.md)
          * [Compartir plantillas de proyecto](manage-work/projects/create-and-manage-templates/share-project-template.md)
          * [Eliminar plantillas de proyecto](manage-work/projects/create-and-manage-templates/delete-templates.md)

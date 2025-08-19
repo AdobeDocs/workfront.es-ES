@@ -7,10 +7,10 @@ description: Después de crear una plantilla, puede editar la información sobre
 author: Alina
 feature: Work Management
 exl-id: 2df8522e-7eee-4440-be0f-f7483c5acdb0
-source-git-commit: a92c85ad5f58700138d7750423cc3d134d980a9e
+source-git-commit: 5bdf1bd285023d29ee6c61f16a4bd6a622d964d8
 workflow-type: tm+mt
-source-wordcount: '2493'
-ht-degree: 86%
+source-wordcount: '2491'
+ht-degree: 85%
 
 ---
 
@@ -31,7 +31,7 @@ Puede editar las tareas de plantilla o puede editar las tareas de plantilla de f
 
 ## Requisitos de acceso
 
-+++ Amplíe para ver los requisitos de acceso.
++++ Amplíe para ver los requisitos de acceso. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -52,7 +52,7 @@ Puede editar las tareas de plantilla o puede editar las tareas de plantilla de f
   </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto </td> 
-   <td> <p>Administrar permisos para una plantilla. </p> <p>Aportación o permisos superiores para la tarea de plantilla.</p> </td> 
+   <td> <p>Administrar permisos para una plantilla. </p> <p>No puede compartir una tarea de plantilla. </p> </td> 
   </tr> 
  </tbody> 
 </table>

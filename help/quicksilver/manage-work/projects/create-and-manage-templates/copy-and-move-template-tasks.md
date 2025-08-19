@@ -6,10 +6,10 @@ description: Puede copiar o mover una tarea de plantilla a la misma plantilla o 
 author: Alina
 feature: Work Management
 exl-id: a2e09e63-5c88-460c-9996-3a39fbb82150
-source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
+source-git-commit: 5bdf1bd285023d29ee6c61f16a4bd6a622d964d8
 workflow-type: tm+mt
-source-wordcount: '2140'
-ht-degree: 95%
+source-wordcount: '2091'
+ht-degree: 94%
 
 ---
 
@@ -35,13 +35,11 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso*</td> 
-   <td> <p>Acceso de edición a las plantillas</p> <p><b>NOTA</b>
-
-Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td>
-</tr> 
+   <td> <p>Acceso de edición a las plantillas</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Permisos de administración para una plantilla y para la tarea de plantilla </p> <p>Para obtener información sobre cómo solicitar acceso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a los objetos </a>.</p> </td> 
+   <td> <p>Administrar permisos para una plantilla.</p> <p>No puede compartir una tarea de plantilla.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -94,7 +92,7 @@ Se abre el cuadro Copiar tarea de plantilla.
 
    >[!TIP]
    >
-   >Este campo aparece atenuado y no se puede editar al seleccionar copiar varias tareas de plantilla en una lista. Puede pasar el ratón sobre el campo Nombre de tarea de plantilla y se mostrará una lista de todas las tareas de plantilla seleccionadas.
+   >Este campo aparece atenuado y no se puede editar al seleccionar copiar varias tareas de plantilla en una lista. Puede pasar el puntero por encima del campo Nombre de tarea de plantilla y se mostrará una lista de todas las tareas de plantilla seleccionadas.
 
 1. Empiece a escribir el nombre de la **Plantilla de destino** en la que desea copiar la tarea de plantilla en el campo **Seleccionar plantilla de destino** y, a continuación, selecciónela cuando se muestre en la lista.
 
@@ -218,7 +216,7 @@ Se abre el cuadro Mover tarea de plantilla.
 
    >[!TIP]
    >
-   >Este campo aparece atenuado y no se puede editar al seleccionar mover varias tareas de plantilla en una lista. Puede pasar el ratón sobre el campo Nombre de tarea de plantilla y se mostrará una lista de todas las tareas de plantilla seleccionadas.
+   >Este campo aparece atenuado y no se puede editar al seleccionar mover varias tareas de plantilla en una lista. Puede pasar el puntero por encima del campo Nombre de tarea de plantilla y se mostrará una lista de todas las tareas de plantilla seleccionadas.
 
 1. Empiece a escribir el nombre de la **Plantilla de destino** a la que desea mover la tarea de plantilla en el campo **Seleccionar plantilla de destino** y, a continuación, selecciónela cuando se muestre en la lista.
 
