@@ -6,10 +6,10 @@ description: Puede eliminar un perfil de hoja de horas que ya no sea relevante.
 author: Alina
 feature: Timesheets
 exl-id: 1fb39f74-205b-485e-9e8b-a2ab3f9f1ac4
-source-git-commit: a4bb3582eb476acbefa5d11db1f2c06eafc13cdd
+source-git-commit: a94f358e7d4b8a23ff37d1adc0644f4e3ee6f013
 workflow-type: tm+mt
-source-wordcount: '267'
-ht-degree: 29%
+source-wordcount: '289'
+ht-degree: 28%
 
 ---
 
@@ -25,7 +25,7 @@ Para obtener información sobre los perfiles de plantilla de horas, consulte [Cr
 
 ## Requisitos de acceso
 
-+++ Amplíe para ver los requisitos de acceso.
++++ Amplíe para ver los requisitos de acceso. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -63,9 +63,10 @@ Para obtener información sobre los perfiles de plantilla de horas, consulte [Cr
    Si está eliminando un perfil de hoja de horas de un grupo, haga clic en **Grupos** > haga clic en el nombre del grupo y, a continuación, haga clic en **Perfiles de hoja de horas**.
 1. Seleccione al menos un perfil de hoja de horas que desee eliminar y luego haga clic en el icono **Más** ![](assets/more-icon.png) > **Eliminar** para el perfil de hoja de horas de todo el sistema
 
-   O
-
-   Haga clic en **Más** > **Eliminar** para el perfil de hoja de horas de nivel de grupo.
+1. Haga clic en **Perfiles de plantilla de horas**.
+1. Seleccione al menos un perfil de hoja de horas que desee eliminar y luego haga clic en el icono ![más icono](assets/more-icon.png) > **Eliminar**.
+O
+Haga clic en **Más** > **Eliminar** para el perfil de hoja de horas de nivel de grupo.
 1. (Condicional) Si el perfil de hoja de horas ya está asignado a los usuarios, se muestra el cuadro **Perfil de hoja de horas de reemplazo**. Haga lo siguiente:
    1. Seleccione otro perfil de hoja de horas en la lista desplegable. El perfil de hoja de horas que está eliminando será reemplazado por el perfil de hoja de horas con el que lo reemplaza para todos los usuarios asignados. Las plantillas de horas se generarán según el perfil recién asignado en el siguiente ciclo de generación de plantillas de horas.
    1. Haga clic en **Eliminarlo** para confirmar la eliminación.

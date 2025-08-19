@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: b04e8ba5-c3f2-4838-8df1-35e90de5c7bd
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: 994518f7abe519180fa6c3eab6b29165475ab4fc
 workflow-type: tm+mt
-source-wordcount: '328'
+source-wordcount: '330'
 ht-degree: 19%
 
 ---
@@ -77,7 +77,7 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
    >
    >Las opciones del menú desplegable Tipo de acción varían según el registro de auditoría seleccionado.
 
-   ![Registros de auditoría](assets/audit-logs.jpg)
+   ![Registros de auditoría](assets/audit-logs.png)
 
 1. Haga clic en **Aplicar**.
 1. (Opcional) Haga clic en **Borrar filtros** para restablecer los cambios realizados en los filtros.
@@ -86,7 +86,7 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
 
 {{step-1-to-setup}}
 
-1. En el panel izquierdo, haga clic en **Sistema > Registros de auditoría**.
+1. En el panel izquierdo, haga clic en **Sistema > Seguimiento de cambios > Registros de auditoría**.
 
 1. En el menú desplegable **Tipo de registro**, seleccione un registro de auditoría.
 

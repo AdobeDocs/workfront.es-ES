@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 8cfb8a6c9a5c512b5722dc6d66840faaeba08c67
+source-git-commit: b050e096a05bd25d07b5e93ae9db7d0fef332d3a
 workflow-type: tm+mt
-source-wordcount: '6894'
+source-wordcount: '6892'
 ht-degree: 2%
 
 ---
@@ -93,7 +93,7 @@ Para obtener más información, consulte [Administrar tipos de horas](/help/quic
 
 ### Actualizaciones de la interfaz de la página Registros de auditoría en la configuración
 
-**Versión preliminar: 22 de julio de 2025; versión de producción: por anunciar**
+**Versión preliminar: 22 de julio de 2025; versión de producción: 28 de julio de 2025**
 
 Hemos actualizado la página Registros de auditoría en Configuración para que coincida con otras áreas de la aplicación.
 
@@ -117,9 +117,9 @@ Para ver este cambio, vaya a Configuración > Sistema > Actualizar usuarios para
 
 >[!NOTE]
 >
->Eliminado temporalmente de Vista previa y producción
+>Se eliminó temporalmente de la vista previa y producción
 
-Hemos actualizado el apariencia del cuadro de tiempo de registro cuando registro tiempo para un proyecto, tarea o problema en la sección Horas, para que coincida con el diseño de otras áreas de Workfront.
+Hemos actualizado el aspecto del cuadro Registrar tiempo al registrar el tiempo de un proyecto, tarea o problema en la sección Horas para que coincida con el diseño de otras áreas de Workfront.
 
 Para obtener más información, consulte [Registrar tiempo](/help/quicksilver/timesheets/create-and-manage-timesheets/log-time.md).
 
@@ -205,21 +205,21 @@ Para obtener más información, consulte [Administrar gastos del proyecto](/help
 
 ## Plantillas
 
-### Actualizaciones de interfaz para los predecesores lista en un plantilla
+### Actualizaciones de la interfaz de la lista Predecesoras de una plantilla
 
-**Vista previa lanzamiento: 7 de agosto de 2025; Lanzamiento de la producción: 14 de agosto de 2025**
+**Versión preliminar: 7 de agosto de 2025; versión de producción: 14 de agosto de 2025**
 
-Hemos actualizado el apariencia de las listas de predecesores en una plantilla para que coincida con el diseño de otras áreas de Workfront.
+Hemos actualizado el aspecto de las listas de predecesoras de una plantilla para que coincidan con el diseño de otras áreas de Workfront.
 
-Agregar predecesores para una tarea de plantilla es similar a agregar predecesores a un proyecto tarea. Para obtener información, consulte [Crear una relación predecesora mediante el área](/help/quicksilver/manage-work/tasks/use-prdcssrs/create-predecessors-in-predecessors-area.md) Predecesores.
+Agregar predecesoras a una tarea de plantilla es similar a agregar predecesoras a una tarea de proyecto. Para obtener más información, vea [Crear una relación de predecesoras mediante el área Predecesoras](/help/quicksilver/manage-work/tasks/use-prdcssrs/create-predecessors-in-predecessors-area.md).
 
 ### Cambios en la interfaz al editar una regla de enrutamiento para una plantilla
 
 **Versión preliminar: 24 de julio de 2025; versión de producción: 31 de julio de 2025**
 
-Hemos actualizado el apariencia de una regla de enrutamiento al editarla en un plantilla. El Página de edición de reglas de enrutamiento ahora coincide con el diseño de otras áreas de Workfront.
+Hemos actualizado el aspecto de una regla de enrutamiento al editarla en una plantilla. La página de edición de la regla de enrutamiento ahora coincide con el diseño de otras áreas de Workfront.
 
-Para editar la regla de enrutamiento, selecciónela en el lista y haga clic en el icono Editar.
+Para editar la regla de enrutamiento, seleccione la regla de enrutamiento en la lista y haga clic en el icono Editar.
 
 Para obtener más información, consulte [Crear reglas de enrutamiento](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-routing-rules.md).
 
@@ -233,7 +233,7 @@ Hemos actualizado el aspecto de las siguientes listas en las plantillas:
 * Grupos de temas
 * Reglas de enrutamiento
 
-Para editar o eliminar un elemento de una de estas listas, seleccione el elemento y haga clic en el icono apropiado.
+Para editar o eliminar un elemento de una de estas listas, seleccione el elemento y haga clic en el icono correspondiente.
 
 Para obtener más información, consulte
 
@@ -317,22 +317,22 @@ Hemos actualizado el aspecto de las siguientes listas en la sección Plantillas 
 
 Estas listas ahora coinciden con otras áreas de Workfront.
 
-Para obtener información, consulte [Crear, editar y asignar perfiles del parte de horas](/help/quicksilver/timesheets/create-and-manage-timesheets/create-timesheet-profiles.md).
+Para obtener más información, consulte [Crear, editar y asignar perfiles de hojas de horas](/help/quicksilver/timesheets/create-and-manage-timesheets/create-timesheet-profiles.md).
 
-### Actualizaciones de interfaz para el Página Empresas
+### Actualizaciones de la interfaz para la página Compañías
 
-**Vista previa versión: 26 de junio de 2025; Versión de la producción: 10 de julio de 2025**
+**Versión preliminar: 26 de junio de 2025; versión de producción: 10 de julio de 2025**
 
 Hemos actualizado la página Compañías con un diseño más moderno y coherente con otras áreas de Workfront.
 
-Esta actualización incluye cambios visuales en los lista de las empresas. Ningún funcionalidad ha cambiado.
+Esta actualización incluye cambios visuales en la lista de empresas. No se ha cambiado ninguna funcionalidad.
 
-Para vista el cambio, vaya a Configuración > empresas.
+Para ver el cambio, vaya a Configuración > Compañías.
 
 Para obtener más información, consulte [Crear y editar empresas](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md).
 
 
-### Actualización de los niveles de acceso lista en el programa de instalación
+### Actualizar a la lista Niveles de acceso en la instalación
 
 **Versión preliminar: 19 de junio de 2025; versión de producción: 23 de junio de 2025**
 
@@ -345,9 +345,9 @@ Para ver este cambio, vaya a Configuración > Niveles de acceso.
 
 **Versión preliminar: 18 de junio de 2025; versión de producción: 26 de junio de 2025**
 
-Hemos actualizado el cuadro de diálogo para cuando cree, edite o copie una programación con un diseño más moderno que sea coherente con otras áreas de Workfront.
+Hemos actualizado el cuadro de diálogo para cuando cree, edite o copie una programación con un diseño más moderno y coherente con otras áreas de Workfront.
 
-Hay algunos pequeños cambios funcionalidad con esta actualización:
+Hay algunos pequeños cambios en la funcionalidad con esta actualización:
 
 * En la pestaña Programación, se ha mejorado la forma de seleccionar las horas de la programación.
 
@@ -430,29 +430,29 @@ Para obtener más información, vea [Ver y administrar los elementos restaurados
 
 Hemos actualizado el aspecto de la página Diagnóstico en el área de Configuración para que coincida con el diseño de otras áreas de Workfront.
 
-Para vista este cambio, vaya a Configuración > Diagnóstico > del sistema.
+Para ver este cambio, vaya a Configuración > Sistema > Diagnóstico.
 
-Para obtener información, consulte [Usar diagnósticos para desencadenar procesos automatizados](/help/quicksilver/administration-and-setup/manage-workfront/run-diagnostics/use-diagnostics-to-trigger-automated-processes.md).
+Para obtener más información, consulte [Usar diagnósticos para almacenar en déclencheur procesos automatizados](/help/quicksilver/administration-and-setup/manage-workfront/run-diagnostics/use-diagnostics-to-trigger-automated-processes.md).
 
-### La interfaz se actualiza al añadir una tasa de facturación a una plantilla
+### Actualizaciones de la interfaz al añadir una tasa de facturación a una plantilla
 
-**Vista previa versión: 15 de mayo de 2025; Lanzamiento de la producción: 15 de mayo de 2025**
+**Versión preliminar: 15 de mayo de 2025; versión de producción: 15 de mayo de 2025**
 
-Hemos actualizado la interfaz al añadir una tasa de facturación a una plantilla para que coincida con otras áreas del aplicación.
+Hemos actualizado la interfaz al añadir una tasa de facturación a una plantilla para que coincida con otras áreas de la aplicación.
 
-No se han introducido cambios funcionalidad con esta actualización.
+No se han introducido cambios de funcionalidad con esta actualización.
 
 +++
 
 ### Documentos
 
-+++Expandir a vista Actualizaciones de interfaz de Documentos realizadas en Q3
++++Ampliar para ver las actualizaciones de la interfaz de documentos realizadas en el tercer trimestre
 
-### Compartir una documento con una dirección correo electrónico externa
+### Compartir un documento con una dirección de correo electrónico externa
 
-**Vista previa versión: 15 de mayo de 2025; Lanzamiento de la producción: 21 de mayo de 2025**
+**Versión preliminar: 15 de mayo de 2025; versión de producción: 21 de mayo de 2025**
 
-Hemos actualizado el cuadro de diálogo Compartir para permitir a los usuarios compartir documentos con usuarios externos mediante una dirección correo electrónico. Este funcionalidad no estuvo disponible temporalmente debido a los trabajos de modernización de la interfaz.
+Hemos actualizado el cuadro de diálogo Compartir para permitir que los usuarios compartan documentos con usuarios externos mediante una dirección de correo electrónico. Esta funcionalidad no estaba disponible temporalmente debido al trabajo de modernización de la interfaz.
 
 +++
 
@@ -466,8 +466,8 @@ Hemos actualizado el cuadro de diálogo Compartir para permitir a los usuarios c
 
 Hemos actualizado el área de Búsqueda avanzada con los siguientes cambios:
 
-* Se ha añadido un nuevo pestaña Search completo. En este pestaña, puede búsqueda por tipo, Introducido por, Fecha de entrada, categoría y Última actualización por.
-* El filtro del pestaña Avance Search es ligeramente diferente. Ahora, el filtro no se rellena previamente. Debe activarlo y versión el filtro desde cero. El filtro no se mantiene si se actualiza la página.
+* Se ha añadido una nueva pestaña Búsqueda completa. En esta pestaña, puede buscar por tipo, introducido por, fecha de entrada, categoría y actualizado por.
+* El filtro de la ficha Búsqueda avanzada es ligeramente diferente. Ahora, el filtro no se rellena previamente. Debe activarlo y generar el filtro desde cero. El filtro no se mantiene si se actualiza la página.
 * La búsqueda avanzada ahora está en pantalla completa. Debe salir de la página en lugar de cerrar el cuadro de diálogo.
 
 Para obtener más información, consulte [Buscar [!DNL Adobe Workfront]](/help/quicksilver/workfront-basics/navigate-workfront/search/search-workfront.md).
@@ -498,7 +498,7 @@ For information, see [Log time](/help/quicksilver/timesheets/create-and-manage-t
 
 **Versión preliminar: 26 de junio de 2025; versión de producción: 10 de julio de 2025**
 
-Hemos actualizado el apariencia del experiencia al crear o editar Grupos de temas para colas de solicitudes, para que coincida con otras áreas de Workfront.
+Hemos actualizado el aspecto de la experiencia al crear o editar grupos de temas para colas de solicitudes, para que coincida con otras áreas en Workfront.
 
 La nueva experiencia está disponible al crear o editar grupos de temas en proyectos o plantillas.
 
@@ -512,9 +512,9 @@ Determinados clientes pueden ver este cambio en la sección Proyectos asociados 
 
 ### Nueva apariencia para el cuadro &quot;Guardar como plantilla&quot;
 
-**Vista previa versión: 12 de junio de 2025; Lanzamiento de la producción: 19 de junio de 2025**
+**Versión preliminar: 12 de junio de 2025; versión de producción: 19 de junio de 2025**
 
-Hemos actualizado el apariencia del cuadro &quot;Guardar como plantilla&quot; que se muestra al guardar un proyecto como plantilla. El nuevo diseño incluye una interfaz simplificada, donde todas las secciones se muestran en una forma cohesiva que puede navegar mediante el uso de enlaces en el panel izquierdo. El nuevo diseño coincide con otras áreas y otros objetos de la aplicación.
+Hemos actualizado el aspecto del cuadro &quot;Guardar como plantilla&quot; que se muestra al guardar un proyecto como plantilla. El nuevo diseño incluye una interfaz optimizada, en la que todas las secciones se muestran en un formulario coherente que puede navegar mediante vínculos en el panel izquierdo. El nuevo diseño coincide con otras áreas y otros objetos de la aplicación.
 
 Para obtener más información, vea [Guardar un proyecto como plantilla](/help/quicksilver/manage-work/projects/manage-projects/save-project-as-template.md).
 
@@ -570,13 +570,13 @@ Para obtener más información, consulte los siguientes artículos:
 
 +++Amplíe para ver las actualizaciones de la interfaz de Informes y paneles realizadas en el tercer trimestre
 
-### Actualizaciones de la interfaz para el informe Gastos
+### Actualizaciones de la interfaz del informe Gastos
 
-Vista previa versión: 19 de junio de 2025; Versión de la producción: 26 de junio de 2025
+Versión preliminar: 19 de junio de 2025; versión de producción: 26 de junio de 2025
 
-Hemos actualizado el apariencia del informe Gastos para que coincida con el diseño de otras áreas de Workfront.
+Hemos actualizado el aspecto del informe Gastos para que coincida con el diseño de otras áreas de Workfront.
 
-Para obtener información, consulte [Crear un informe](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) personalizado.
+Para obtener más información, consulte [Crear un informe personalizado](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
 ### Informes actualizados con nuevo estilo
 
@@ -591,7 +591,7 @@ Esta actualización incluye cambios visuales en las listas y barras de herramien
 * Tarifas
 * Plantillas de diseño
 
-Para obtener información, consulte [Crear un informe](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) personalizado.
+Para obtener más información, consulte [Crear un informe personalizado](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
 ### Las direcciones URL con /tile o /qstile ya no se admiten en los paneles de Workfront
 
@@ -601,22 +601,22 @@ Si tiene una página externa en un panel con una dirección URL de Workfront que
 
 Añadir `/tile` o `/qstile` a una URL de Workfront permitía al explorador cargar páginas de experiencia clásica no admitidas que quedaron obsoletas en julio de 2022.
 
-Se recomienda reemplazar el URL para ir a un Página compatible o eliminar el Página externo del panel.
+Se recomienda reemplazar la URL para ir a una página compatible o eliminar la página externa del panel.
 
 +++
 
 
 ## Usuarios
 
-+++Expandir a vista usuarios las actualizaciones de interfaz realizadas en el tercer trimestre
++++Amplíe para ver las actualizaciones de la interfaz de usuario realizadas en el tercer trimestre
 
 ### Actualizaciones de la interfaz del organigrama
 
-**Vista previa versión: 26 de junio de 2025; Versión de producción para todos los clientes: 10 de julio de 2025**
+**Versión preliminar: 26 de junio de 2025; versión de producción para todos los clientes: 10 de julio de 2025**
 
-Hemos actualizado el apariencia del organigrama asociado con un usuario de Workfront, para que coincida con el diseño de otras áreas de Workfront.
+Hemos actualizado el aspecto del organigrama asociado a un usuario de Workfront para que coincida con el diseño de otras áreas de Workfront.
 
-Para ver este cambio, vaya a un perfil de usuario de Workfront y haga clic en **Organigrama** en el panel izquierdo. (Esta función está disponible a través del perfil de usuario Workfront, no del perfil usuario Adobe Systems).
+Para ver este cambio, vaya a un perfil de usuario de Workfront y haga clic en **Organigrama** en el panel izquierdo. (Esta función está disponible a través del perfil de usuario de Workfront, no del perfil de usuario de Adobe).
 
 Para obtener más información, consulte [Ver el organigrama](/help/quicksilver/people-teams-and-groups/work-directly-with-others/view-the-org-chart.md).
 
@@ -629,9 +629,9 @@ Hemos actualizado la nueva página de registro de usuarios con un diseño más m
 
 Los usuarios ya no tienen la opción de subir una foto en esta página. Sin embargo, pueden cargar una foto en su perfil de usuario una vez que inician sesión en Workfront.
 
-### Se ha actualizado el aspecto del inicio de sesión Página
+### Búsqueda actualizada de la página de inicio de sesión
 
-**Vista previa versión: 12 de mayo de 2024; Lanzamiento de la producción: 19 de mayo de 2025**
+**Versión preliminar: 12 de mayo de 2024; versión de producción: 19 de mayo de 2025**
 
 Hemos actualizado la página de inicio de sesión con un diseño más moderno que es coherente con otras áreas de Workfront.
 
@@ -681,19 +681,19 @@ Hemos actualizado la página del acuerdo de licencia con un diseño más moderno
 
 ### Administración y configuración
 
-+++Amplíe para vista las actualizaciones de la interfaz de administración y configuración realizadas en el segundo trimestre
++++Amplíe para ver las actualizaciones de la interfaz de administración y configuración realizadas en el segundo trimestre
 
-### Actualizaciones de la interfaz para elementos restaurados recientemente
+### Actualizaciones de la interfaz de elementos restaurados recientemente
 
-**Vista previa versión: 23 de abril de 2025; Versión de la producción: 23 de abril de 2025**
+**Versión preliminar: 23 de abril de 2025; versión de producción: 23 de abril de 2025**
 
-Hemos actualizado el apariencia de los elementos restaurados recientemente en el área Configuración para que coincida con el diseño de otras áreas de Workfront. Ningún funcionalidad ha cambiado para proyectos, tareas, solicitudes documentos o plantillas restaurados recientemente.
+Hemos actualizado el aspecto de los elementos restaurados recientemente en el área de Configuración para que coincidan con el diseño de otras áreas de Workfront. No se ha cambiado la funcionalidad de los proyectos, tareas, solicitudes, documentos o plantillas restaurados recientemente.
 
 Para ver este cambio, vaya a Configuración > Papelera de reciclaje > Restaurados recientemente.
 
-Para obtener información, consulte [Ver elementos restaurados](/help/quicksilver/administration-and-setup/manage-workfront/manage-deleted-items/view-restored-items.md).
+Para obtener más información, consulte [Ver elementos restaurados](/help/quicksilver/administration-and-setup/manage-workfront/manage-deleted-items/view-restored-items.md).
 
-### Actualizaciones de la interfaz del área de administración de recursos en el programa de instalación
+### Actualizaciones de la interfaz del área Administración de recursos en Configuración
 
 **Versión preliminar: 17 de abril de 2025; a partir del 17 de abril de 2025**
 
@@ -705,11 +705,11 @@ Para obtener más información, consulte [Configurar las preferencias de adminis
 
 **Versión preliminar: 6 de marzo de 2025; a partir del 10 de abril de 2025**
 
-Hemos actualizado el apariencia del lista de ruta de Milestone en el área Configuración para que coincida con el diseño de otras áreas de Workfront.
+Hemos actualizado el aspecto de la lista Ruta de hitos en el área de Configuración para que coincida con el diseño de otras áreas de Workfront.
 
-Para obtener información, consulte [Crear una ruta](/help/quicksilver/administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md) de hitos.
+Para obtener más información, vea [Crear una ruta de hitos](/help/quicksilver/administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md).
 
-### Actualización de la interfaz al cuadro Tipo de riesgo de Editar en Configuración
+### Actualización de la interfaz al cuadro Editar tipo de riesgo de la instalación
 
 **Versión preliminar: 27 de marzo de 2025; a partir del 10 de abril de 2025**
 
@@ -723,21 +723,21 @@ Para obtener más información, vea [Editar y crear tipos de riesgos](/help/quic
 
 Hemos actualizado el aspecto del cuadro Nuevo tipo de riesgo al agregar un nuevo tipo de riesgo en el área Configuración de Workfront. El nuevo diseño ahora coincide con otras áreas de Workfront.
 
-Para obtener información, consulte [Editar y crear tipos de](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/edit-create-risk-types.md) riesgo.
+Para obtener más información, vea [Editar y crear tipos de riesgos](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/edit-create-risk-types.md).
 
-### Actualización de la interfaz en los cuadros de diálogo Tipos de gastos del programa de instalación
+### Actualización de la interfaz en los cuadros de diálogo Tipos de gastos en Configuración
 
-**Vista previa versión: 27 de marzo de 2025; A partir de la semana del 10 de abril de 2025**
+**Versión preliminar: 27 de marzo de 2025; a partir del 10 de abril de 2025**
 
-Hemos actualizado el apariencia de los cuadros de diálogo para agregar y editar tipos de gastos en el área de configuración, para que coincida con el diseño de otras áreas de Workfront.
+Hemos actualizado el aspecto de los cuadros de diálogo para agregar y editar tipos de gastos en el área de Configuración, para que coincidan con el diseño de otras áreas de Workfront.
 
-Para obtener información, consulte [Crear tipos de gastos personalizados](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/create-custom-expense-types.md).
+Para obtener más información, consulte [Crear tipos de gastos personalizados](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/create-custom-expense-types.md).
 
-### Se ha actualizado el experiencia del área Niveles de acceso del programa de configuración.
+### Experiencia actualizada en el área de Niveles de acceso de la Configuración
 
-**Vista previa versión: 27 de marzo de 2025; A partir de la semana del 10 de abril de 2025**
+**Versión preliminar: 27 de marzo de 2025; a partir del 10 de abril de 2025**
 
-Para mejorar el rendimiento, hemos realizado algunas actualizaciones visuales en el área Niveles de acceso de Configuración.
+Para mejorar el rendimiento, hemos realizado algunas actualizaciones visuales en el área de Niveles de acceso de la Configuración.
 
 Se ha aplicado un pequeño cambio de funcionalidad a la lista Niveles de acceso. Para copiar, editar o eliminar un nivel de acceso, seleccione el nivel y haga clic en el icono correspondiente.
 
@@ -749,9 +749,9 @@ Hemos actualizado el Centro de anuncios con un diseño más moderno y coherente 
 
 Para ver este cambio, vaya al icono Notificaciones en la esquina superior derecha y, a continuación, seleccione Todos los anuncios.
 
-### Actualización de la interfaz para personalizar los temas de la notificación de eventos
+### Actualización de la interfaz para personalizar temas de notificación de eventos
 
-**Vista previa versión: 13 de febrero de 2025; A partir de la semana del 13 de febrero de 2025**
+**Versión preliminar: 13 de febrero de 2025; a partir del 13 de febrero de 2025**
 
 Hemos actualizado el cuadro de diálogo Asunto de notificación de eventos con un diseño más moderno y coherente con otras áreas de Workfront.
 
@@ -791,15 +791,15 @@ Hemos actualizado la apariencia de la página Funciones de prueba con un diseño
 
 En lugar de seleccionar botones de opción, ahora utiliza menús desplegables para elegir las funciones de prueba de los usuarios nuevos e invitados.
 
-Para vista este cambio, vaya a Configuración > Revisión y aprobación.
+Para ver este cambio, vaya a Configuración > Revisar y aprobar.
 
-### Actualización de la interfaz para el Página de recordatorios automáticos en el programa de instalación
+### Actualización de la interfaz de la página Recordatorios automáticos en Configuración
 
-**Vista previa versión: 23 de enero de 2025; Versión de la producción: a partir de la semana del 30 de enero de 2025**
+**Versión preliminar: 23 de enero de 2025; versión de producción: a partir de la semana del 30 de enero de 2025**
 
-Hemos actualizado el Página de recordatorios automáticos con un diseño más moderno que es coherente con otras áreas de Workfront.
-Para vista este Página, vaya a Configuración > correo electrónico > recordatorios automáticos.
-Esta actualización incluye cambios visuales en el área. Ningún funcionalidad ha cambiado.
+Hemos actualizado la página Recordatorios automáticos con un diseño más moderno y coherente con otras áreas de Workfront.
+Para ver esta página, vaya a Configuración > Correo electrónico > Recordatorios automáticos.
+Esta actualización incluye cambios visuales en el área. No se ha cambiado ninguna funcionalidad.
 
 ### Actualización de la interfaz de la página Plantillas de correo electrónico en Configuración
 
@@ -809,7 +809,7 @@ Hemos actualizado la página Plantillas de correo electrónico con un diseño m�
 
 En lugar de hacer clic directamente en el nombre de la plantilla para editarla, debe seleccionar la casilla de verificación y, a continuación, hacer clic en el icono Editar de la barra de herramientas.
 
-Para vista este Página, vaya a Configuración > Notificaciones > correo electrónico > plantillas de correo electrónico.
+Para ver esta página, vaya a Configuración > Correo electrónico > Notificaciones > Plantillas de correo electrónico.
 
 ### Actualización de la interfaz de la página Invitaciones por correo electrónico en Configuración
 
@@ -819,19 +819,19 @@ Hemos actualizado la página Invitaciones por correo electrónico con un diseño
 
 Para ver esta página, vaya a Configuración > Correo electrónico > Invitaciones.
 
-Esta actualización incluye cambios visuales en el área. Ningún funcionalidad ha cambiado.
+Esta actualización incluye cambios visuales en el área. No se ha cambiado ninguna funcionalidad.
 
-### Actualizaciones de la interfaz para los Página de notificaciones de eventos de un grupo
+### Actualizaciones de la interfaz de la página Notificaciones de eventos de un grupo
 
-**Vista previa versión: 23 de enero de 2025; A partir de la semana del 30 de enero de 2025**
+**Versión preliminar: 23 de enero de 2025; a partir del 30 de enero de 2025**
 
-Hemos actualizado el Página de Notificación de Eventos en un Grupo con un diseño más moderno que es consistente con otras áreas de Workfront.
+Hemos actualizado la página Notificación de eventos en un grupo con un diseño más moderno y coherente con otras áreas de Workfront.
 
 Para ver esta página, vaya a Configuración > Grupos > Seleccionar un grupo > Notificaciones de eventos
 
-Esta actualización incluye pequeños cambios visuales en el área. Ningún funcionalidad ha cambiado.
+Esta actualización incluye cambios visuales menores en el área. No se ha cambiado ninguna funcionalidad.
 
-### Actualizaciones de la interfaz para el pestaña de notificaciones de recordatorio del programa de instalación
+### Actualizaciones de la interfaz de la ficha Notificaciones de recordatorio en Configuración
 
 **Versión preliminar: 23 de enero de 2025; versión de producción: a partir del 30 de enero de 2025**
 
@@ -839,17 +839,17 @@ Hemos actualizado la pestaña Notificaciones de recordatorio, así como los cuad
 
 En lugar de hacer clic directamente en el nombre de la notificación para editarla, debe seleccionar la casilla de verificación y, a continuación, hacer clic en el icono Editar de la barra de herramientas.
 
-Para vista este Página, vaya a Configuración > Notificaciones de > por correo electrónico > Notificaciones de recordatorio.
+Para ver esta página, vaya a Configuración > Correo electrónico > Notificaciones > Notificaciones de recordatorio.
 
-### Actualización de la interfaz para añadir cuadro de diálogo de SharePoint
+### Actualización de la interfaz para el cuadro de diálogo Agregar SharePoint
 
-**Vista previa versión: 16 de enero de 2025; A partir de la semana del 30 de enero de 2025**
+**Versión preliminar: 16 de enero de 2025; a partir del 30 de enero de 2025**
 
-Hemos actualizado el cuadro de diálogo añadir Sharepoint en Configuración > documentos > Integración de SharePoint con un diseño más moderno que es coherente con otras áreas de Workfront.
+Hemos actualizado el cuadro de diálogo Agregar Sharepoint en Configuración > Documentos > Integración con Sharepoint con un diseño más moderno y coherente con otras áreas de Workfront.
 
-Esta actualización incluye cambios visuales en el área. Ningún funcionalidad ha cambiado.
+Esta actualización incluye cambios visuales en el área. No se ha cambiado ninguna funcionalidad.
 
-### Actualización de la interfaz para añadir cuadro de diálogo de integración personalizada
+### Actualización de la interfaz para el cuadro de diálogo Añadir integración personalizada
 
 **Versión preliminar: 16 de enero de 2025; a partir del 30 de enero de 2025**
 
@@ -861,9 +861,9 @@ Esta actualización incluye cambios visuales en el área. No se ha cambiado ning
 
 **Versión preliminar: 16 de enero de 2025; versión de producción: a partir del 30 de enero de 2025**
 
-Hemos actualizado las listas de aprobaciones de proyectos, tareas y problemas en Configuración > Procesos > Aprobaciones con un diseño más moderno que es coherente con otras áreas de Workfront.
+Hemos actualizado las listas de Aprobaciones de proyectos, tareas y problemas en Configuración > Procesos > Aprobaciones con un diseño más moderno y coherente con otras áreas de Workfront.
 
-Esta actualización incluye cambios visuales en el área. Ningún funcionalidad ha cambiado.
+Esta actualización incluye cambios visuales en el área. No se ha cambiado ninguna funcionalidad.
 
 +++
 
@@ -906,12 +906,12 @@ Hemos actualizado el área Equipos > Registro de pendientes con un diseño más 
 Esta actualización incluye los siguientes cambios:
 
 * Mejoras visuales en la ficha Historias y problemas, así como en el cuadro de diálogo Desglosar historia
-* Un nuevo cuadro de diálogo para el herramienta plan iteración. Debe seleccionar un artículo o un número para que aparezca el botón de iteración plan.
-* Ya no se puede cambiar entre el pestaña Historias y Problemas al planificar una iteración. Puede agregar historias o problemas del trabajo pendiente pestaña una vez creada la iteración.
+* Un nuevo cuadro de diálogo para la herramienta Planificar iteración. Debe seleccionar una historia o un problema para que aparezca el botón Planificar iteración.
+* Ya no puede alternar entre la pestaña Historias y problemas al planificar una iteración. Puede agregar historias o problemas desde la pestaña registro de pendientes una vez creada la iteración.
 
-### Actualización de la interfaz para el lista Iterations
+### Actualización de la interfaz de la lista Iteraciones
 
-**Vista previa versión: 23 de enero de 2025; Lanzamiento de la producción: a partir de la semana del 3 de febrero de 2025**
+**Versión preliminar: 23 de enero de 2025; versión de producción: a partir del 3 de febrero de 2025**
 
 Hemos actualizado la lista Equipos > Iteraciones con un diseño más moderno y coherente con otras áreas de Workfront.
 
@@ -933,37 +933,37 @@ Para ver este cambio, ve a Equipos > elige un equipo > Registro de pendientes y 
 
 ### Documentos
 
-+++Expandir a vista Actualizaciones de interfaz de documentos realizadas en el segundo trimestre
++++Ampliar para ver las actualizaciones de la interfaz de documentos realizadas en el segundo trimestre
 
 ### Actualizaciones de la interfaz al solicitar un documento
 
-**Vista previa versión: 3 de abril de 2025; Versión de producción: A partir de la semana del 10 de abril de 2025**
+**Versión preliminar: 3 de abril de 2025; versión de producción: a partir del 10 de abril de 2025**
 
-Hemos actualizado el cuadro de diálogo utilizado para solicitud un documento de otro usuario con un diseño más moderno que es coherente con otras áreas de Workfront.
+Hemos actualizado el cuadro de diálogo utilizado para solicitar un documento a otro usuario con un diseño más moderno y coherente con otras áreas de Workfront.
 
 ### Actualizaciones de la interfaz de la página compartida para documentos externos
 
-**Vista previa versión: 3 de abril de 2025; Versión de producción: A partir de la semana del 10 de abril de 2025**
+**Versión preliminar: 3 de abril de 2025; versión de producción: a partir del 10 de abril de 2025**
 
-Hemos actualizado la página que ven los usuarios externos de la página cuando se comparte un documento con ellos. A partir de este Página, los usuarios externos pueden
+Hemos actualizado la página que ven los usuarios externos de la página cuando se comparte un documento con ellos. Desde esta página, los usuarios externos pueden
 
 * Descargar el documento
 * Tomar una decisión de aprobación
-* Abra el visualizador de corrección
+* Abrir el visor de revisión
 
-Esta actualización incluye un diseño más moderno que es coherente con otras áreas de Workfront.
+Esta actualización incluye un diseño más moderno y coherente con otras áreas de Workfront.
 
-### Actualización de la interfaz para el área de Aprobaciones en un documento
+### Actualización de la interfaz del área de Aprobaciones de un documento
 
-**Vista previa versión: 13 de febrero de 2025; Versión de producción: A partir de la semana del 27 de febrero de 2025**
+**Versión preliminar: 13 de febrero de 2025; versión de producción: a partir del 27 de febrero de 2025**
 
-Hemos actualizado el área de Aprobaciones en una documento con un diseño más moderno que es consistente con otras áreas de Workfront.
+Hemos actualizado el área de Aprobaciones en un documento con un diseño más moderno y coherente con otras áreas de Workfront.
 
-Para vista este cambio, vaya a un documento > haga clic en Detalles > aprobaciones del documento.
+Para ver este cambio, vaya a un documento > Haga clic en Detalles del documento > Aprobaciones.
 
-### Actualización de la interfaz del cuadro de diálogo edición de Smart Carpeta
+### Cuadro de diálogo Actualización de la interfaz para editar carpeta inteligente
 
-**Vista previa versión: 27 de enero de 2025; Lanzamiento de la producción: a partir de la semana del 3 de febrero de 2025**
+**Versión preliminar: 27 de enero de 2025; versión de producción: a partir del 3 de febrero de 2025**
 
 Hemos actualizado el cuadro de diálogo de edición de Carpetas inteligentes con un diseño más moderno y coherente con otras áreas de Workfront.
 
@@ -977,9 +977,9 @@ Para ver este cambio, vaya al menú Documentos > Haga clic en más situado junto
 
 ### Actualizaciones de aspecto y presentación en el área Detalles de cola de un proyecto
 
-**Vista previa versión: 27 de marzo de 2025; A partir de la semana del 10 de abril de 2025**
+**Versión preliminar: 27 de marzo de 2025; a partir del 10 de abril de 2025**
 
-Hemos actualizado el apariencia del área Detalles de cola en un proyecto para que coincida con el diseño de otras áreas de Workfront.
+Hemos actualizado el aspecto del área Detalles de cola de un proyecto para que coincida con el diseño de otras áreas de Workfront.
 
 Con esta actualización, el aspecto del área Detalles de cola de una plantilla no ha cambiado.
 

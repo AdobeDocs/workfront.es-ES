@@ -6,9 +6,9 @@ description: Para permitir que los cambios realizados en los perfiles de plantil
 author: Alina
 feature: Timesheets
 exl-id: 316c270a-c64e-4d83-a035-4128abe33f87
-source-git-commit: c9df676467007a84920073fe06bc3c73b18a89ae
+source-git-commit: 311816df863d3c03a54d43c8fa3cac69d2d6d7d4
 workflow-type: tm+mt
-source-wordcount: '458'
+source-wordcount: '467'
 ht-degree: 22%
 
 ---
@@ -66,6 +66,8 @@ Puede generar manualmente plantillas de horas a nivel del sistema o de grupo des
    Si está generando hojas de horas usadas por un grupo específico, haga clic en **Grupos** y luego haga clic en el nombre del grupo.
 
 1. Haga clic en **Perfiles de plantilla de horas**.
+1. Haga clic en el icono de más ![icono de más](assets/more-icon.png) y luego en **Generar hojas de horas**.
+
 1. En la parte superior de la lista de perfiles de hojas de horas, haga clic en el icono **Más** ![Icono de más](assets/more-icon.png) para perfiles de hojas de horas de nivel de sistema o en **Más** para perfiles de hojas de horas de grupo y, a continuación, haga clic en **Generar hojas de horas**.
 
    Las nuevas hojas de horas se crean para un máximo de dos períodos de tiempo para los usuarios asociados con perfiles de hojas de horas.
