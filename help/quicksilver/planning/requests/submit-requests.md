@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
-source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
+source-git-commit: c3e3dfdb0a1819954c97168cbabddfc8dc5863a0
 workflow-type: tm+mt
-source-wordcount: '2019'
+source-wordcount: '2005'
 ht-degree: 6%
 
 ---
@@ -40,7 +40,7 @@ Para obtener información sobre cómo un administrador del área de trabajo pued
 
 ## Requisitos de acceso
 
-+++ Amplíe para ver los requisitos de acceso.
++++ Amplíe para ver los requisitos de acceso. 
 
 <table style="table-layout:auto">
  <col>
@@ -162,7 +162,7 @@ Si habilita esta configuración, los formularios de solicitud de Workfront Plann
 
 1. Haga clic en **Nueva solicitud**.
 
-   ![Nuevo cuadro de solicitud con tarjetas Workfront y Planning unificadas](assets/new-request-box-with-unified-workfront-and-planning-cards.png)
+   <!--![New request box with unified Workfront and Planning cards](assets/new-request-box-with-unified-workfront-and-planning-cards.png-->
 
    El cuadro **Nueva solicitud** se abre con la siguiente información:
 
@@ -171,7 +171,7 @@ Si habilita esta configuración, los formularios de solicitud de Workfront Plann
 
 1. Realice una de las siguientes acciones:
 
-   * Haga clic en la tarjeta de uno de los formularios de solicitud de Planning en las secciones Formularios de solicitud recientes o Todos
+   * Seleccione los formularios de solicitud de Planning en las secciones Formularios de solicitud recientes o Todos
    * Comience a escribir el nombre de un formulario de solicitud de Planning en el cuadro de búsqueda y, a continuación, haga clic en la tarjeta cuando se muestre en la lista.
 
    Se abrirá el formulario de solicitud.
