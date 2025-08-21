@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: b050e096a05bd25d07b5e93ae9db7d0fef332d3a
+source-git-commit: 870fcb44506ae583fb6a5c36419fda71be581e6d
 workflow-type: tm+mt
-source-wordcount: '6892'
+source-wordcount: '7094'
 ht-degree: 2%
 
 ---
@@ -23,6 +23,17 @@ Esta página lista las actualizaciones de la interfaz que estamos realizando a t
 Para ver todos los demás cambios en Adobe Workfront, consulte [Versiones del producto](/help/quicksilver/product-announcements/product-releases/product-releases.md).
 
 ## Administración y configuración
+
+<!--
+### Interface updates when editing a Scorecard
+
+**Preview release: August 21, 2025; Production release: August 21, 2025**
+
+We have updated the look and feel of the when editing a Scorecard to match the design in other areas of the application. You can view the updated design when editing a scorecard in the Setup area of Workfront.
+
+A small functionality change has been applied to the Scorecard. To edit a Scorecard, select the Scorecard from the list and click the Edit icon. You are no longer directed to the Scorecard details page before you can edit.
+
+-->
 
 ### Actualizaciones de la interfaz para la página de notificaciones de revisión y aprobación en Configuración
 
@@ -110,6 +121,54 @@ Hemos actualizado la página Actualizar usuarios para SSO con un diseño más mo
 Para ver este cambio, vaya a Configuración > Sistema > Actualizar usuarios para SSO
 
 ## Proyectos
+
+### Actualizaciones de la interfaz al agregar objetos a programas y portafolios
+
+**Versión preliminar: 22 de mayo de 2025; versión de producción: 29 de mayo de 2025**
+
+>[!NOTE]
+>
+>Esto se eliminó temporalmente de la vista previa y de la producción y se volvió a agregar el 21 de agosto de 2025.
+
+
+Hemos actualizado la interfaz de los cuadros Agregar al hacer lo siguiente:
+
+* Adición de proyectos a programas
+* Adición de proyectos a portafolios
+* Adición de programas a portafolios
+
+Para obtener más información, consulte los siguientes artículos:
+
+* [Añadir un programa existente a un portafolio](/help/quicksilver/manage-work/portfolios/create-and-manage-programs/move-program.md)
+* [Añadir proyectos a un portafolio](/help/quicksilver/manage-work/portfolios/create-and-manage-portfolios/add-projects-to-portfolios.md)
+* [Agregar un proyecto a un programa](/help/quicksilver/manage-work/portfolios/create-and-manage-programs/add-project-to-program.md)
+
+### Actualizaciones de interfaz al cuadro Nuevo tema de cola de proyectos y plantillas
+
+**Versión preliminar: 21 de agosto de 2025; versión de producción: 28 de agosto de 2025**
+
+Hemos actualizado el aspecto del cuadro Nuevo tema de cola al agregar un nuevo tema de cola a un proyecto o plantilla, para que coincida con el diseño de otras áreas de Workfront.
+
+Para obtener más información, vea [Crear temas de colas](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
+
+### Actualizaciones de la interfaz al editar un tema de la cola en un proyecto o plantilla
+
+**Versión preliminar: 21 de agosto de 2025; versión de producción: 28 de agosto de 2025**
+
+Hemos actualizado la experiencia al editar un Tema de la cola en proyectos y plantillas, para que coincida con otras áreas de Workfront.
+
+Con esta actualización se introdujo un pequeño cambio de funcionalidad. Ahora, al hacer clic en un Tema de la cola, se le redirige directamente a la página de edición del Tema de la cola, en lugar de a una página para Detalles del Tema de la cola.
+
+Para obtener más información, vea [Crear temas de colas](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
+
+<!--### Interface update for the Edit Expense box of a project
+
+**Preview release: August 21, 2025; Production release: August 28, 2025**
+
+We have updated the dialog box for editing a project expense, to match other areas of the application. The updated dialog box is available when editing expenses in projects or templates.
+
+For information, see [Manage project expenses](/help/quicksilver/manage-work/projects/project-finances/manage-project-expenses.md).
+-->
 
 ### Actualizaciones de la interfaz para registrar el tiempo en un proyecto, tarea o problema en la sección Horas
 
@@ -204,6 +263,14 @@ Hemos actualizado el cuadro de diálogo para agregar un nuevo gasto a un proyect
 Para obtener más información, consulte [Administrar gastos del proyecto](/help/quicksilver/manage-work/projects/project-finances/manage-project-expenses.md).
 
 ## Plantillas
+
+### Actualizaciones de la interfaz de la lista Personas de una plantilla
+
+**Versión preliminar: 21 de agosto de 2025; versión de producción: 28 de agosto de 2025**
+
+Hemos actualizado el aspecto de la lista Personas en una plantilla para que coincida con el diseño de otras áreas de Workfront.
+
+Trabajar con personas en una plantilla es similar a trabajar con personas en un proyecto. Para obtener más información, vea [Administrar el equipo del proyecto](/help/quicksilver/manage-work/projects/planning-a-project/manage-project-team.md).
 
 ### Actualizaciones de la interfaz de la lista Predecesoras de una plantilla
 
@@ -542,26 +609,6 @@ Hemos actualizado el aspecto del cuadro Copiar plantilla para que coincida con e
 
 Para obtener más información, consulte [Copiar una plantilla de proyecto](/help/quicksilver/manage-work/projects/create-and-manage-templates/copy-template.md).
 
-### Buscar y recibir actualizaciones al agregar objetos a programas y portafolios
-
-**Versión preliminar: 22 de mayo de 2025; versión de producción: 29 de mayo de 2025**
-
->[!NOTE]
->
->Se eliminó temporalmente de la vista previa y producción
-
-
-Hemos actualizado la interfaz de los cuadros Agregar al hacer lo siguiente:
-
-* Adición de proyectos a programas
-* Adición de proyectos a portafolios
-* Adición de programas a portafolios
-
-Para obtener más información, consulte los siguientes artículos:
-
-* [Añadir un programa existente a un portafolio](/help/quicksilver/manage-work/portfolios/create-and-manage-programs/move-program.md)
-* [Añadir proyectos a un portafolio](/help/quicksilver/manage-work/portfolios/create-and-manage-portfolios/add-projects-to-portfolios.md)
-* [Agregar un proyecto a un programa](/help/quicksilver/manage-work/portfolios/create-and-manage-programs/add-project-to-program.md)
 
 +++
 

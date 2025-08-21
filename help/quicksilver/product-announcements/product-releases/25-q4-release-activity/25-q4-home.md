@@ -3,13 +3,12 @@ title: Mejoras en la página de inicio en el cuarto trimestre de 2025
 description: Mejoras en la página de inicio en el cuarto trimestre de 2025
 author: Courtney
 feature: Product Announcements
-hide: true
-hidefromtoc: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 3b1085fe3221650bc1ba7c7223c2c2160e11f757
+exl-id: 2d8c5d2b-a026-4741-b907-aac4c0eac98f
+source-git-commit: 870fcb44506ae583fb6a5c36419fda71be581e6d
 workflow-type: tm+mt
-source-wordcount: '149'
-ht-degree: 36%
+source-wordcount: '164'
+ht-degree: 33%
 
 ---
 
@@ -23,8 +22,8 @@ Para obtener una lista de todos los cambios disponibles en este punto del ciclo 
 
 >[!NOTE]
 >
->* Vista previa: 24 de julio de 2025
->* Versión rápida de producción: 14 de agosto de 2025
+>* Vista previa: 21 de agosto de 2025
+>* Versión rápida de producción: 11 de septiembre de 2025
 >* Producción para todos los clientes: viernes, 16 de octubre de 2025
 
 Para crear una experiencia más fluida entre Workfront y Workfront Planning, hemos rediseñado el widget Mis solicitudes en Inicio. El nuevo widget presenta los siguientes cambios:
@@ -33,4 +32,4 @@ Para crear una experiencia más fluida entre Workfront y Workfront Planning, hem
 * El filtro ahora es más personalizable. Ahora puede filtrar por valores de campo específicos mediante las reglas Y y O.
 * Puede ocultar o reorganizar columnas en el widget.
 
-<!--For more information on the new My Requests widget, see [Use the My Requests widget](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md).-->
+Para obtener más información sobre el nuevo widget Mis solicitudes, consulte [Usar el widget Mis solicitudes](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md).

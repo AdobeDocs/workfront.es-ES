@@ -6,7 +6,8 @@ feature: Product Announcements
 hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 832b4044feaea902b807c12b5fad072c6dd04fc8
+exl-id: 65012e89-3e3e-42b7-94af-8fa3687501ed
+source-git-commit: 4b708e10e54a0a7ef9d305bbcfd8cf80a82d0376
 workflow-type: tm+mt
 source-wordcount: '237'
 ht-degree: 32%
@@ -18,6 +19,23 @@ ht-degree: 32%
 Esta página describe las mejoras del proyecto realizadas con la versión del cuarto trimestre de 2025 en el entorno de vista previa. Estas mejoras estarán disponibles en el entorno de producción, como se ha indicado.
 
 Para obtener una lista de todos los cambios disponibles en este punto del ciclo de lanzamiento del cuarto trimestre de 2025, consulte [Información general de la versión del cuarto trimestre de 2025](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-release-overview.md).
+
+<!--
+## Create project intake forms in Workfront
+
+>[!NOTE]
+>
+>* Preview: August 21, 2025
+>* Production fast release: September 11, 2025
+>* Production for all customers: October 16, 2025
+
+To make it easier to create requested projects without converting from issues, we've created Project intake forms. You can configure these intake forms with specific fields, templates, and custom forms, and set approvers for project creation. Then, when a user uses this form, the project is configured to your specifications and sent for approval.
+
+Previously, requests were entered into Workfront as issues, which had to be converted to projects.
+
+For information and instructions about project intake forms, see [Create project intake forms](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-project-intake-form.md).
+
+-->
 
 ## Nuevas expresiones agregadas a campos personalizados calculados en Workfront
 
@@ -48,4 +66,3 @@ Ahora hay disponible un botón **Avanzado** para las asignaciones de las listas,
 Este cambio se aplica tanto a las asignaciones de tareas como de problemas.
 
 Para obtener más información, consulte [Crear asignaciones avanzadas](/help/quicksilver/manage-work/tasks/assign-tasks/create-advanced-assignments.md).
-
