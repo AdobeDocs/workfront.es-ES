@@ -2,14 +2,14 @@
 product-area: projects;agile-and-teams
 navigation-topic: plan-a-project
 title: Administrar el equipo del proyecto
-description: El equipo del proyecto está formado por usuarios asociados al proyecto. Los miembros del equipo del proyecto se muestran en la sección Personas del proyecto o en la sección Personas de la plantilla que se puede utilizar para crear un proyecto.
+description: El equipo del proyecto está formado por usuarios asociados al proyecto. Los miembros del equipo del proyecto aparecen en la sección Personas del proyecto o en la sección Personas de la plantilla que podrían usarse para crear un proyecto.
 author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: 6e8036fc-feda-4277-9502-0b973028fccb
-source-git-commit: 89e15f6d99514e11e43e06487a4477d35a155cb0
+source-git-commit: bb2479b936a9064a4df34ac3e840dd78cae297b6
 workflow-type: tm+mt
-source-wordcount: '1183'
+source-wordcount: '1193'
 ht-degree: 26%
 
 ---
@@ -32,9 +32,9 @@ El equipo del proyecto está formado por usuarios asociados al proyecto. Para m�
 
 Los miembros del equipo del proyecto se muestran en la sección Personas del proyecto.
 
-Los usuarios que se muestran en la sección Personas de una plantilla de proyecto se convertirán en el equipo del proyecto una vez creado el proyecto a partir de la plantilla.
+Los usuarios que se muestran en la sección Personas de un proyecto plantilla se convertirán en el equipo del proyecto después de que el proyecto se cree desde el plantilla.
 
-Los siguientes usuarios se agregan automáticamente al equipo del proyecto, tanto para proyectos como para plantillas:
+Los siguientes usuarios se añaden automáticamente al equipo del proyecto, tanto para proyectos como para plantillas:
 
 * Propietario
 * Patrocinador
@@ -47,7 +47,7 @@ Puede administrar los usuarios de los equipos del proyecto y de la plantilla agr
 
 ## Requisitos de acceso
 
-+++ Amplíe para ver los requisitos de acceso.
++++ Amplíe para ver los requisitos de acceso. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -149,15 +149,15 @@ If users that don't fulfill any role on the project want to be notified about ce
 
 -->
 
-## Administración de personas en un proyecto
+## Gestionar personas en un proyecto
 
-1. Vaya al proyecto para el que desea administrar el equipo del proyecto.
+1. Vaya al proyecto para el que desea administrar el proyecto equipo.
 
    >[!TIP]
    >
-   >Debe tener usuarios asignados a tareas, problemas o partes interesadas en el proyecto para que se muestren en la sección Personas.
+   >Debe tener usuarios asignados a tareas, problemas o como partes interesadas en el proyecto para que se muestren en la sección Personas.
 
-1. Haga clic en **Personas** en el panel izquierdo.
+1. Haga clic **en Personas** en el panel izquierdo.
 
 1. Haga clic en **Agregar usuarios**.
 
@@ -180,20 +180,20 @@ If users that don't fulfill any role on the project want to be notified about ce
 
    Los usuarios obtienen permisos de visualización del proyecto y reciben notificaciones sobre el proyecto como parte del equipo del proyecto.
 
-1. (Opcional) Si desea que un usuario reciba una notificación cuando su rol se agregue a una tarea, problema o aprobación de proyecto, haga clic dentro de la columna **Rol** para el usuario y seleccione un rol que se asociará con la aprobación.
+1. (Opcional) Si desea que un usuario reciba un notificación cuando su función de trabajo se agrega a una aprobación de tarea, problema o proyecto, haga clic dentro de la columna Rol **de** trabajo para el usuario y seleccione un función de trabajo que se asociará con la aprobación.
 
-   Los usuarios recibirán notificaciones relacionadas con las aprobaciones asignadas al rol seleccionado.
+   Los usuarios recibirán notificaciones relacionadas con las aprobaciones asignadas al función de trabajo seleccionado.
 
-   Para obtener más información, consulte la sección &quot;Aprobaciones basadas en roles&quot; en el artículo [Información general del equipo del proyecto](/help/quicksilver/manage-work/projects/planning-a-project/project-team-overview.md).
+   Para obtener más información, consulte la sección &quot;Aprobaciones basadas en funciones&quot; en el artículo Información general[ del equipo del proyecto](/help/quicksilver/manage-work/projects/planning-a-project/project-team-overview.md).
 
-1. Seleccione uno o varios usuarios en la lista y luego haga clic en el icono **Quitar** ![Quitar icono](assets/remove-icon.png) para quitarlos del equipo.
+1. Seleccione uno o varios usuarios en la lista y, a continuación, haga clic en el icono **de** Quitar![ Quitar](assets/remove-icon.png) icono para eliminarlos del equipo.
 
 1. Haga clic en **Sí, quitar usuarios seleccionados** para confirmar y quitar los usuarios.
 
    Los usuarios se quitan y se quitan las asignaciones de los elementos de trabajo incompletos.
 
    Para obtener más información, consulte la sección [Consideraciones para eliminar usuarios de un equipo de proyecto](#considerations-for-removing-users-from-a-project-team) en este artículo.
-1. (Opcional) Para enviar una actualización para este proyecto a los usuarios, haga clic en Actualizar todo para enviar la actualización a todos los miembros del equipo
+1. (Opcional) Para enviar una actualización para este proyecto a los usuarios, haga clic en **Actualizar todo** para enviar la actualización a todos los miembros del equipo
 
    O
 
@@ -215,11 +215,11 @@ If users that don't fulfill any role on the project want to be notified about ce
    * Etiquete usuarios adicionales para recibir la misma actualización.
    * Haga clic en **Enviar**.
 
-   La actualización se agrega a la sección **Actualizaciones** del proyecto y todos los usuarios seleccionados se muestran como usuarios etiquetados.
+   La actualización se agrega a la **sección Actualizaciones** del proyecto y todos los usuarios seleccionados se muestran como usuarios etiquetado.
 
-   Los usuarios pueden recibir una notificación por correo electrónico, si están habilitados para ellos, y una notificación dentro de la aplicación sobre la nueva actualización.
+   Los usuarios pueden recibir un notificación correo electrónico, si están habilitados para ellos, y recibir un notificación en la aplicación sobre la nueva actualización.
 
-1. (Opcional) Haga clic en el icono **Exportar** ![Icono de exportar](assets/export-icon.png) para exportar la lista de usuarios a un archivo
+1. (Opcional) Haga clic en el **icono** Exportar![ icono Exportar](assets/export-icon.png) para exportar el lista de usuarios a un archivo
 
    O
 
@@ -227,27 +227,27 @@ If users that don't fulfill any role on the project want to be notified about ce
 
 ## Administrar personas en una plantilla
 
-1. Vaya a la plantilla para la que desea administrar el equipo del proyecto.
+1. Vaya a la plantilla desea administrar el proyecto equipo.
 
    >[!TIP]
    >
    >Debe tener usuarios asignados a tareas o como partes interesadas en la plantilla para que se muestren en la sección Personas.
 
-1. Haga clic en **Personas** en el panel izquierdo.
+1. Haga clic **en Personas** en el panel izquierdo.
 
-1. Seleccione uno o varios usuarios en la lista y luego haga clic en **Quitar** para quitarlos del equipo.
+1. Seleccione uno o varios usuarios en la lista y, a continuación, haga clic en el icono Quitar **** para eliminarlos del equipo.
 
-1. Haga clic en **Sí, quitar usuarios seleccionados** para confirmar y quitar los usuarios.
+1. Haga clic en **Sí, Quitar usuarios** seleccionados para confirmar y eliminar los usuarios.
 
    Los usuarios se eliminan y se anula su asignación de las tareas de plantilla.
 
    Para obtener más información, consulte la sección [Consideraciones para eliminar usuarios de un equipo de proyecto](#considerations-for-removing-users-from-a-project-team) en este artículo.
 
-1. (Opcional) Para enviar una actualización a los usuarios, haga clic en Actualizar todo para enviar la actualización a todos los usuarios de la lista
+1. (Opcional) Para enviar una actualización a los usuarios, haga clic en **Actualizar todo** para enviar la actualización a todos los usuarios de la lista
 
    O
 
-   Seleccione uno o varios usuarios en la lista y luego haga clic en **Actualizar**.
+   Seleccione uno o varios usuarios en la lista y luego haga clic en **Enviar actualización al usuario**.
 
    <!--update screen shot for unshim production, notice the text above the box - it needs to say "Post an update to each person's profile"-->
 
@@ -262,21 +262,21 @@ If users that don't fulfill any role on the project want to be notified about ce
    * Seleccione la opción **Privado para mi compañía** de para que la actualización sea privada para los usuarios de su compañía.
    * Haga clic en **Enviar**.
 
-   La actualización se agrega a la sección **Actualizaciones** del perfil de cada usuario etiquetado.
+   La actualización se agrega a la **sección Actualizaciones** de cada etiquetado perfil del usuario.
 
-   Los usuarios pueden recibir una notificación por correo electrónico, si están habilitados para ellos, y una notificación dentro de la aplicación sobre la nueva actualización.
+   Los usuarios pueden recibir un notificación correo electrónico, si están habilitados para ellos, y recibir un notificación en la aplicación sobre la nueva actualización.
 
-1. (Opcional) Haga clic en **Exportar** para exportar la lista de usuarios a un archivo
+1. Haga clic en el icono **Exportar** ![icono Exportar](assets/export-icon.png) para exportar la lista de usuarios a un archivo
 
    O
 
-   Seleccione usuarios y luego haga clic en **Exportar** para exportar solo usuarios específicos.
+   Seleccione usuarios y, a continuación, haga clic en el **icono Exportar** para exportar solo usuarios específicos.
 
-## Consideraciones para quitar usuarios de un equipo del proyecto
+## Consideraciones para eliminar usuarios de un equipo de proyecto
 
 Al quitar usuarios de sus funciones en el proyecto, siguen formando parte del equipo del proyecto.
 
-Debe eliminarlos del equipo del proyecto, de la sección Personas del proyecto, para que dejen de recibir notificaciones enviadas al equipo del proyecto.
+Debe eliminarlos de la equipo del proyecto, de la sección Personas del proyecto, para que dejen de recibir notificaciones enviadas al equipo del proyecto.
 
 Si quita un usuario del equipo del proyecto y el usuario está asignado a tareas o problemas del proyecto, se le quita la asignación de las tareas y problemas que no se hayan completado. En este caso, las tareas y los problemas vuelven al área Trabajo no asignado del Distribuidor de cargas de trabajo.
 
