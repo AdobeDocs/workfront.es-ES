@@ -4,9 +4,9 @@ description: Puede habilitar un tipo de registro para que se agregue a otro espa
 hidefromtoc: true
 hide: true
 exl-id: d36ab9fb-0275-483d-97be-0a88e170f8e0
-source-git-commit: b6ced451cdd6b38b5661a076b2311a34c2c70432
+source-git-commit: 4569b5bd004a93396257f3f1f8964831f69399dc
 workflow-type: tm+mt
-source-wordcount: '1030'
+source-wordcount: '1021'
 ht-degree: 12%
 
 ---
@@ -43,7 +43,7 @@ Then for the second setting for cross-workspace connections, we'll need a simila
 
 # Configuración de funciones entre espacios de trabajo para tipos de registros
 
-<!--this is linked to the UI in the info icon of when you create a record type from a global record type-->
+<!--this is linked to the UI in the info icon when you enable a record to be either centralized or connectable-->
 
 <span class="preview">La información de esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después de las versiones mensuales en Production, las mismas funciones también están disponibles en el entorno Production para los clientes que habilitaron versiones rápidas. </span>
 
@@ -127,7 +127,9 @@ Para obtener más información, consulte uno de los siguientes artículos:
 
 +++   
 
-## Configuración de la adición de un tipo de registro a otros espacios de trabajo
+## Configuración de tipos de registros centralizados
+
+<!--this is a UI term; don't change the title of this section-->
 
 Como administrador de espacio de trabajo, puede configurar un tipo de registro para que se agregue a otros espacios de trabajo al crear o editar un tipo de registro.
 
@@ -180,7 +182,9 @@ O
 
      Este campo es de solo lectura y no se puede eliminar.
 
-## Configurar la conexión a un tipo de registro desde otros espacios de trabajo
+## Configurar tipos de registros conectables
+
+<!--this is a UI term; don't change the title of this section-->
 
 Puede configurar un tipo de registro al que conectarse desde otros espacios de trabajo al crear o editar el tipo de registro.
 

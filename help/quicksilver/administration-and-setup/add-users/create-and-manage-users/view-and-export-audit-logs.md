@@ -4,14 +4,14 @@ user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
 description: Puede ver todos los registros de auditoría del sistema o los que cumplen determinados criterios de filtrado. También puede exportar registros de auditoría. Los registros de auditoría enumeran los cambios de usuario activados en el sistema durante los últimos 90 días.
-author: Lisa
+author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: b04e8ba5-c3f2-4838-8df1-35e90de5c7bd
-source-git-commit: 994518f7abe519180fa6c3eab6b29165475ab4fc
+source-git-commit: 4569b5bd004a93396257f3f1f8964831f69399dc
 workflow-type: tm+mt
-source-wordcount: '330'
-ht-degree: 19%
+source-wordcount: '424'
+ht-degree: 13%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 19%
 **DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **
 -->
 
-Puede ver todos los registros de auditoría del sistema o los que cumplen determinados criterios de filtrado. También puede exportar registros de auditoría.
+Puede ver todos los registros de auditoría del sistema o los que cumplen determinados criterios de filtrado. También puede exportar registros de auditoría a un archivo CSV.
 
 Los registros de auditoría enumeran los cambios de usuario activados en el sistema durante los últimos 90 días.
 
@@ -38,20 +38,19 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Plan de Adobe Workfront</td> 
-   <td>Cualquiera</td> 
+   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td><p>Cualquiera</p></td> 
   </tr> 
   <tr> 
   <tr> 
    <td role="rowheader">Licencia de Adobe Workfront</td> 
-   <td><p>Nuevo: estándar</p>
-       <p>O</p>
-       <p>Actual: plan</p></td>
+   <td><p>Estándar</p>
+       <p>Plan</p></td>
   </tr> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso</td> 
-   <td>[!UICONTROL System Administrator]</td>
+   <td><p>Administrador del sistema</p></td>
   </tr> 
  </tbody> 
 </table>
@@ -65,28 +64,34 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
 {{step-1-to-setup}}
 
 1. En el panel izquierdo, haga clic en **Sistema > Registros de auditoría**.
+1. En la lista desplegable **Tipo de acción**, seleccione el tipo de auditoría que desea ver.
+
+   >[!NOTE]
+   >
+   >Las opciones del menú desplegable Tipo de acción varían según el registro de auditoría seleccionado.
+
 1. En el menú desplegable **Tipo de registro**, seleccione el tipo de registro de auditoría que desea ver.
 
    **Todos los tipos de registro** está seleccionado de forma predeterminada.
 
    Para obtener una lista de todos los tipos de registros de auditoría que puede ver y la información que contienen, vea [Registros de auditoría](../../../administration-and-setup/add-users/create-and-manage-users/audit-logs.md).
 
-1. (Opcional) Defina cualquiera de los filtros disponibles.
+1. (Opcional) Defina cualquiera de los filtros disponibles para los siguientes campos:
 
-   >[!NOTE]
-   >
-   >Las opciones del menú desplegable Tipo de acción varían según el registro de auditoría seleccionado.
+   * **Usuarios**: escriba el nombre del usuario que realizó el cambio.
+   * **Desde**: fecha de inicio del lapso de tiempo en que se realizó el cambio.
+   * **Para**: Fecha de finalización del lapso de tiempo en que se realizó el cambio.
 
    ![Registros de auditoría](assets/audit-logs.png)
 
 1. Haga clic en **Aplicar**.
-1. (Opcional) Haga clic en **Borrar filtros** para restablecer los cambios realizados en los filtros.
+1. (Opcional) Haga clic en **Borrar** para restablecer los cambios realizados en los filtros.
 
 ## Exportar registros de auditoría
 
 {{step-1-to-setup}}
 
-1. En el panel izquierdo, haga clic en **Sistema > Seguimiento de cambios > Registros de auditoría**.
+1. En el panel izquierdo, haga clic en **Sistema** > **Registros de auditoría**.
 
 1. En el menú desplegable **Tipo de registro**, seleccione un registro de auditoría.
 
@@ -99,3 +104,9 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
    >No se pueden exportar más de 50 000 registros al mismo tiempo. Workfront exporta registros en función de los filtros configurados, no del número de registros que se muestran en la página. Puede ver el número total de registros filtrados en la esquina inferior derecha de la página.
 
 1. Haga clic en **Exportar**.
+
+   Se abrirá el cuadro Guardar archivo y podrá guardar el archivo exportado en el equipo.
+
+   Los registros de auditoría solo se pueden guardar en formato CSV.
+
+   Termine de guardar el archivo exportado. Ahora puede encontrarlo en el equipo y compartirlo con otros usuarios.

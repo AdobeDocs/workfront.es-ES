@@ -1,13 +1,13 @@
 ---
-title: Agregar tipos de registros entre espacios de trabajo
+title: Agregar tipos de registro existentes
 description: Los tipos de registro son los tipos de objetos de Adobe Workfront Planning. En Workfront Planning, puede importar un tipo de registro existente desde otro espacio de trabajo.
 hidefromtoc: true
 hide: true
 exl-id: b977d5dd-8975-42c4-9968-a7ac357972e6
-source-git-commit: b6ced451cdd6b38b5661a076b2311a34c2c70432
+source-git-commit: 4569b5bd004a93396257f3f1f8964831f69399dc
 workflow-type: tm+mt
-source-wordcount: '599'
-ht-degree: 15%
+source-wordcount: '635'
+ht-degree: 13%
 
 ---
 
@@ -19,7 +19,7 @@ author: Alina
 recommendations: noDisplay, noCatalog
 -->
 
-# Añadir tipos de registros entre espacios de trabajo
+# Agregar tipos de registros existentes
 
 <span class="preview">La información de esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después de las versiones mensuales en Production, las mismas funciones también están disponibles en el entorno Production para los clientes que habilitaron versiones rápidas. </span>
 
@@ -35,7 +35,7 @@ Para obtener más información, vea [Configurar las capacidades entre espacios d
 
 ## Requisitos de acceso
 
-+++ Amplíe para ver los requisitos de acceso.  
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
 <table style="table-layout:auto"> 
 <col> 
@@ -109,6 +109,7 @@ Consideraciones al agregar tipos de registros existentes desde otro espacio de t
    * Registrar conexiones
 
 * Sólo puede editar el tipo de registro, incluidos sus campos, en su espacio de trabajo original. No puede editarlo desde los espacios de trabajo en los que se añadió.
+* Los registros añadidos desde todos los espacios de trabajo serán visibles para todos los usuarios que accedan a ellos desde todos los espacios de trabajo, incluso si se crean en un espacio de trabajo en el que no tienen permisos.
 
 ## Crear un tipo de registro a partir de un tipo de registro existente
 
