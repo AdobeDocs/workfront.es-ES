@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 4f8a8c263f53ff30f99062dedc10d674b867b0b7
+source-git-commit: 359131cef04fdb46def64428a7a693c3f00b2cd4
 workflow-type: tm+mt
-source-wordcount: '2298'
+source-wordcount: '2568'
 ht-degree: 7%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 7%
 
 {{planning-important-intro}}
 
-Puede crear un formulario de solicitud y asociarlo a un tipo de registro en Adobe Workfront Planning. A continuación, puede compartir el formulario con otros usuarios y estos pueden enviar solicitudes para crear registros.
+Puede crear un formulario de solicitud y asociarlo a un tipo de registro en Adobe Workfront Planning. A continuación, puede compartir el formulario con otros usuarios y estos pueden enviar solicitudes para crear registros de ese tipo.
 
 Este artículo describe cómo un administrador del espacio de trabajo puede crear un formulario de solicitud asociado a un tipo de registro.
 
@@ -34,7 +34,7 @@ Para obtener información sobre cómo enviar una solicitud a un tipo de registro
 
 ## Requisitos de acceso
 
-+++ Amplíe para ver los requisitos de acceso.
++++ Amplíe para ver los requisitos de acceso. 
 
 <table style="table-layout:auto">
  <col>
@@ -135,7 +135,11 @@ Para obtener información sobre cómo enviar solicitudes de Workfront Planning, 
    * Los campos de fórmula que hacen referencia a los campos Moneda muestran los valores sin tener en cuenta los tipos de cambio.
    * Los valores de los campos de párrafo muestran un valor &quot;N/A&quot; en el formulario de solicitud y muestran etiquetas html en lugar del texto con formato en la página de detalles de la solicitud.
 
-## Creación de un formulario de solicitud para un tipo de registro
+## Empezar a crear un formulario de solicitud
+
+Puede crear un formulario de solicitud a partir del tipo de registro asociado al formulario <span class="preview"> o del área de solicitudes de Workfront.</span>
+
+### Creación de un formulario de solicitud a partir de un tipo de registro
 
 {{step1-to-planning}}
 
@@ -149,12 +153,51 @@ Para obtener información sobre cómo enviar solicitudes de Workfront Planning, 
 
 1. Haga clic en el menú **Más** ![Menú más](assets/more-menu.png) que se encuentra a la derecha del nombre del tipo de registro en el encabezado de la página y, a continuación, haga clic en **Crear formulario de solicitud** o **Administrar formularios de solicitud**, si ya tiene un formulario y desea crear otros.
 1. (Condicional) Si desea agregar otro formulario, haga clic en **Nuevo formulario de solicitud**.
-1. Actualice el nombre del formulario de solicitud. De manera predeterminada, el nombre del formulario es **Formulario sin título**. <!--check this; you logged a bug to rename it to 'Untitled request form' but was it fixed?-->
+
+   Se abrirá el cuadro de diálogo Crear formulario de solicitud.
+
+1. En el cuadro Crear formulario de solicitud, actualice el nombre del formulario de solicitud. De manera predeterminada, el nombre del formulario es **Formulario sin título**. <!--check this; you logged a bug to rename it to 'Untitled request form' but was it fixed?-->
 1. (Opcional) Agregue una **Descripción** para el formulario de solicitud.
 
    <!--Not possible yet: The Description is visible when you access the request form from the Requests area of Workfront.-->
 
-1. Haga clic en **Crear**. El formulario de solicitud del tipo de registro seleccionado se abre en la pestaña Formulario.
+1. Haga clic en **Crear**.
+
+   El formulario de solicitud del tipo de registro seleccionado se abre en la pestaña Formulario.
+1. Continúe a [Configurar el formulario](#configure-the-form).
+
+<div class="preview">
+
+### Cree un formulario de solicitud desde el área Solicitudes de Workfront
+
+1. Haga clic en el icono **[!UICONTROL Menú principal]** ![Menú principal](/help/_includes/assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront o (si está disponible), haga clic en el icono **[!UICONTROL Menú principal]** ![Menú principal](/help/_includes/assets/main-menu-icon-left-nav.png) en la esquina superior izquierda y, a continuación, haga clic en **Solicitudes**.
+1. En la esquina superior derecha de la pantalla, haga clic en **Solicitar formularios**.
+1. (Condicional) Si está editando un formulario de solicitud existente, selecciónelo en la lista y, a continuación, [configure el formulario](#confgure-the-form).
+1. Si está creando un nuevo formulario de solicitud, en la esquina superior derecha de la pantalla, haga clic en **Nuevo formulario de solicitud**.
+
+   Se abrirá el cuadro de diálogo Crear formulario de solicitud
+
+1. En el cuadro Crear formulario de solicitud, actualice el nombre del formulario de solicitud. De manera predeterminada, el nombre del formulario es **Formulario sin título**.
+1. En el campo Object types, seleccione el tipo de registro al que se asociará el formulario de solicitud. Los tipos de registro se agrupan en el espacio de trabajo en el que existen.
+1. (Opcional) Agregue una **Descripción** para el formulario de solicitud.
+
+   <!--Not possible yet: The Description is visible when you access the request form from the Requests area of Workfront.-->
+
+1. Haga clic en **Crear**.
+
+   El formulario de solicitud del tipo de registro seleccionado se abre en la pestaña Formulario.
+1. Continúe a [Configurar el formulario](#configure-the-form).
+
+</div>
+
+## Configuración del formulario
+
+1. Comience a crear o editar un formulario de solicitud, tal como se describe en una de las siguientes secciones:
+
+   * [Creación de un formulario de solicitud a partir de un tipo de registro](#create-a-request-form-from-a-record-type)
+   * <span class="preview">[Crear un formulario de solicitud desde el área de solicitudes de Workfront](#create-a-request-form-from-the-requests-area-of-workfront)</span>
+
+   El formulario de solicitud del tipo de registro seleccionado se abre en la pestaña Formulario.
 
    ![Modo de edición del formulario de solicitud de campañas](assets/campaigns-request-form-edit-mode.png)
 

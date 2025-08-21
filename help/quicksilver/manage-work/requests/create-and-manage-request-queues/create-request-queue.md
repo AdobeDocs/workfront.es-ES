@@ -8,10 +8,10 @@ feature: Work Management, Requests
 topic: Collaboration
 role: User, Admin
 exl-id: 385420aa-0962-4b67-9d0d-b153dcf302cf
-source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
+source-git-commit: ce611ec0c91b114f1a10977970e42fa753f62f22
 workflow-type: tm+mt
-source-wordcount: '2845'
-ht-degree: 66%
+source-wordcount: '2868'
+ht-degree: 65%
 
 ---
 
@@ -47,6 +47,8 @@ Para configurar un proyecto o una plantilla como cola de solicitudes, debe edita
 Este artículo describe cómo se puede configurar un proyecto como una cola de solicitudes en la que los usuarios pueden enviar solicitudes. Configurar los detalles de cola para una plantilla es similar a configurarlos en el proyecto.
 
 Para obtener información sobre cómo enviar una nueva solicitud a una cola de solicitudes, consulte [Copiar y enviar solicitudes](../create-requests/copy-and-submit-requests.md).
+
+Para obtener información sobre cómo configurar un formulario de solicitud en Workfront Planning, consulte [Crear y administrar un formulario de solicitud en Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 
 ## Requisitos de acceso
 
