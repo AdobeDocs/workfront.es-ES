@@ -6,9 +6,9 @@ description: Puede crear elementos de trabajo y proyectos desde el área [!UICON
 author: Courtney
 feature: Get Started with Workfront, Work Management
 exl-id: 9db6e509-ea6a-493a-9d86-21a163da1915
-source-git-commit: 04a9524c4ee9066e7b8d3b47712d70fcfc119b32
+source-git-commit: e3e297bc548338032bc8f321ad3e1214be9cdee4
 workflow-type: tm+mt
-source-wordcount: '846'
+source-wordcount: '878'
 ht-degree: 16%
 
 ---
@@ -25,7 +25,7 @@ Desde Inicio, puede hacer lo siguiente
 
 ## Requisitos de acceso
 
-+++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo. 
 
 Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
@@ -51,6 +51,10 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   <tr> 
    <td role="rowheader"><strong>Permisos de objeto</strong></td> 
    <td> <p>Acceso a [!UICONTROL Edit] o superior en tareas</p> <p>Para obtener información sobre cómo solicitar acceso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a objetos</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><strong>[!DNL Product]</strong></td> 
+   <td> <ul><li>Adobe Workfront</li><li>Debe tener Adobe Workfront Planning para ver solicitudes de Planning o formularios de solicitud</td> 
   </tr> 
  </tbody> 
 </table>
@@ -130,11 +134,11 @@ Puede agregar un problema a un proyecto existente directamente desde el área de
 Puede crear una solicitud directamente desde el área de Inicio:
 
 1. Haga clic en el **[!UICONTROL Menú principal]** ![icono del menú principal](assets/main-menu-icon.png) en la esquina superior derecha y, a continuación, haga clic en **[!UICONTROL Inicio]**.
-1. (Condicional) Agrega el widget **Mis solicitudes** a la pantalla de inicio. Haga clic en **Personalizar** y busque **Mis solicitudes**.
+1. (Condicional) Para agregar el widget **Mis solicitudes** a la pantalla de inicio. Haga clic en **Personalizar** y busque **Mis solicitudes**.
 1. Vaya al widget de **Mis solicitudes** y haga clic en **Nuevo**.
-   ![Crear nueva solicitud](assets/create-new-request.png)
+   ![Crear nueva solicitud](assets/create-new-request-new.png)
 
-1. En el cuadro de diálogo **Nueva solicitud**, empiece a escribir el nombre de la cola de solicitudes.
+1. En el cuadro de diálogo **Nueva solicitud**, empiece a escribir el nombre de la cola de solicitudes de Workfront o del formulario de solicitudes de Workfront Planning en la barra de búsqueda y, a continuación, selecciónelo cuando aparezca.
 1. Rellene los campos correspondientes.
 1. Haga clic en **Enviar**.
 

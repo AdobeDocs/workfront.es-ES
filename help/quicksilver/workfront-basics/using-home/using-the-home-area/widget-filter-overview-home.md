@@ -6,14 +6,18 @@ description: Puede elegir entre una serie de widgets para personalizar el conten
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 58f79e81-df6b-456f-9e91-4e00a1c2a8a2
-source-git-commit: 6350e815e39d642a88a2c9c8b17208db5cb253c5
+source-git-commit: 884ade1102e685ec01af2790b17acb50c2114ca7
 workflow-type: tm+mt
-source-wordcount: '965'
-ht-degree: 14%
+source-wordcount: '1092'
+ht-degree: 15%
 
 ---
 
 # Resumen de filtros de widget de inicio
+
+<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después de las versiones mensuales en Production, las mismas funciones también están disponibles en el entorno Production para los clientes que habilitaron versiones rápidas. </span>
+
+<span class="preview">Para obtener información acerca de las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
 Puede utilizar filtros en los siguientes widgets para buscar y organizar el trabajo:
 
@@ -242,6 +246,8 @@ Puede utilizar los siguientes filtros en el widget Mis problemas:
 
 ## Mis solicitudes
 
+En el entorno de producción:
+
 <table style="table-layout:auto"> 
     <col> 
     <col> 
@@ -277,6 +283,16 @@ Puede utilizar los siguientes filtros en el widget Mis problemas:
      </tr> 
     </tbody> 
    </table>
+
+<div class="preview">
+
+En el entorno de vista previa:
+
+El widget Mis solicitudes incluye un filtro personalizable que le permite controlar qué solicitudes aparecen en el widget. Puede configurar este filtro para diferentes campos y valores, así como apilar condiciones mediante AND y OR.
+
+Para obtener instrucciones sobre cómo configurar el filtro en el widget Mis solicitudes, consulte [Solicitudes de filtro](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md#filter-requests) en el artículo Uso del widget Mis solicitudes.
+
+</div>
 
 ## Mi trabajo
 

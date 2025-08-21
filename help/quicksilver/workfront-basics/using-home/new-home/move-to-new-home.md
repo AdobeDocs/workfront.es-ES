@@ -7,13 +7,13 @@ author: Courtney
 hide: true
 hidefromtoc: true
 feature: Get Started with Workfront
-source-git-commit: 28bb652f371d3168ffe03c39fc33e29d710605db
+exl-id: cfb3de96-0710-44e9-a934-05877fa75b51
+source-git-commit: f5ffb83d2a9cab48a4ce623088e11e3e13d8f744
 workflow-type: tm+mt
-source-wordcount: '1596'
-ht-degree: 33%
+source-wordcount: '1632'
+ht-degree: 32%
 
 ---
-
 
 # Cambio de una página de inicio heredada a una nueva
 
@@ -163,6 +163,8 @@ A continuación se muestran los 11 widgets disponibles actualmente para elegir, 
 * **Mis solicitudes**\
     Muestra todas las solicitudes enviadas, un filtro para mostrar solo las solicitudes abiertas y un botón que abre el panel de resumen de una solicitud.
 
+  <span class="preview">En el entorno de vista previa, este widget muestra todas las solicitudes que ha enviado, un filtro para mostrar solamente las solicitudes que cumplen los criterios especificados y un botón que permite reorganizar las columnas del widget.</span>
+
 * **Solicitudes de equipo**\
     Muestra todas las solicitudes pendientes de los equipos en los que se encuentra, ordenadas por equipos, así como botones para asignar directamente una solicitud a alguien o para trabajar en ella usted mismo.
 
@@ -270,7 +272,7 @@ Hacerlo lo antes posible dará a sus usuarios tiempo para adaptarse a la nueva e
 
 **Formación**
 
-* [Quitar, agregar y reorganizar widgets en el tutorial de inicio](https://experienceleague.adobe.com/es/docs/workfront-learn/tutorials-workfront/home/remove-add-and-rearrange-widgets)
+* [Quitar, agregar y reorganizar widgets en el tutorial de inicio](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home/remove-add-and-rearrange-widgets)
 * [Aspectos básicos del trabajo en Adobe Workfront](https://adobe-ats.sabacloud.com/Saba/Web_spf/PRODTNT100/app/me/learningeventdetail/cours000000000098821?regId=regdw000000001250612)
 
 >[!IMPORTANT]
