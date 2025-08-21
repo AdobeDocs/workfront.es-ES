@@ -5,13 +5,13 @@ title: Uso del widget Mis solicitudes
 description: Puede enviar solicitudes en el widget Mis solicitudes. También puede personalizar el widget con filtros y columnas.
 author: Becky
 feature: Get Started with Workfront
-source-git-commit: 68379a6c41db1b694e2968d93de259cb7b0d8bc4
+exl-id: 2b994f44-2404-4aa3-8c38-0686a0c287b7
+source-git-commit: 2fe55f61bd24ebb3ecfe09fff29c4aad2ca33608
 workflow-type: tm+mt
-source-wordcount: '793'
+source-wordcount: '825'
 ht-degree: 17%
 
 ---
-
 
 # Uso del widget Mis solicitudes
 
@@ -19,11 +19,16 @@ ht-degree: 17%
 
 <span class="preview">Para obtener información sobre las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
 
+>[!IMPORTANT]
+>
+>Este artículo describe el nuevo widget Mis solicitudes. Debe tener la nueva experiencia de solicitud habilitada para ver el nuevo widget.
+>>Puede activar la nueva experiencia de solicitud en el área de solicitudes.
+
 El widget Mis solicitudes muestra las solicitudes que se han enviado a su organización. Puede filtrar las solicitudes, buscar solicitudes específicas o ajustar el orden y la visibilidad de las columnas. También puede crear una nueva solicitud desde el widget Mis solicitudes.
 
 >[!NOTE]
 >
->Cuando se carga el widget Mis solicitudes, muestra hasta 50 solicitudes. Para mostrar más solicitudes, desplácese hacia abajo por la lista.
+>* Cuando se carga el widget Mis solicitudes, muestra hasta 50 solicitudes. Para mostrar más solicitudes, desplácese hacia abajo por la lista.
 
 ## Requisitos de acceso
 
@@ -137,8 +142,3 @@ Para buscar solicitudes específicas en el widget Mis solicitudes:
    Las solicitudes que contienen el término se resaltan en naranja.
 
 1. (Opcional) Para saltar a las solicitudes resaltadas, haga clic en las flechas arriba o abajo de la barra de búsqueda.
-
-
-
-
-
