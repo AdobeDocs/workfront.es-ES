@@ -22,7 +22,7 @@ ht-degree: 17%
 >[!IMPORTANT]
 >
 >Este artículo describe el nuevo widget Mis solicitudes. Debe tener la nueva experiencia de solicitud habilitada para ver el nuevo widget.
->>Puede activar la nueva experiencia de solicitud en el área de solicitudes.
+>&#x200B;>Puede activar la nueva experiencia de solicitud en el área de solicitudes.
 
 El widget Mis solicitudes muestra las solicitudes que se han enviado a su organización. Puede filtrar las solicitudes, buscar solicitudes específicas o ajustar el orden y la visibilidad de las columnas. También puede crear una nueva solicitud desde el widget Mis solicitudes.
 
