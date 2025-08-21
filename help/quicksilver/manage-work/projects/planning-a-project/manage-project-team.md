@@ -235,7 +235,7 @@ If users that don't fulfill any role on the project want to be notified about ce
 
 1. Haga clic **en Personas** en el panel izquierdo.
 
-1. Seleccione uno o varios usuarios en la lista y, a continuación, haga clic en el icono Quitar **** para eliminarlos del equipo.
+1. Seleccione uno o varios usuarios en la lista y, a continuación, haga clic en el icono Quitar **&#x200B;**&#x200B;para eliminarlos del equipo.
 
 1. Haga clic en **Sí, Quitar usuarios** seleccionados para confirmar y eliminar los usuarios.
 
