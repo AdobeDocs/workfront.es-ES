@@ -7,10 +7,10 @@ author: Alina
 feature: Work Management, Requests
 role: User, Admin
 exl-id: 65a74698-011f-4caa-9739-d7510faeb66f
-source-git-commit: 81b40eda8536d1a63c38a297d92158a12f9d350e
+source-git-commit: 613904bd75aabe3062c5ab50f28cf44eb62919e8
 workflow-type: tm+mt
-source-wordcount: '937'
-ht-degree: 85%
+source-wordcount: '1036'
+ht-degree: 77%
 
 ---
 
@@ -183,5 +183,16 @@ Para editar un tema de la cola existente:
 1. Vaya al proyecto o plantilla que contiene el tema de la cola que desea editar.
 1. Haga clic en **Temas de cola** en el panel izquierdo.
 1. En el entorno Producción, seleccione el Tema de la cola que desee editar. En la página Detalles que se abre, haga clic en **Editar tema de cola**.
-   <!--1. <span class="preview">In the Preview environment, select the Queue Topic that you want to edit, then click the Edit icon ![Edit icon](assets/edit-icon.png).</span>-->
+1. <span class="preview">En el entorno de vista previa, haga clic en el tema de la cola que desee editar.
+
+Para obtener información acerca de las opciones de edición disponibles, vea [Crear un tema de cola](#create-a-queue-topic) en este artículo.
+
+## Eliminar un tema de cola
+
+Puede eliminar uno o varios temas de la cola al mismo tiempo.
+
+1. Vaya al proyecto o plantilla que contiene el tema de la cola que desea eliminar.
+1. Haga clic en **Temas de cola** en el panel izquierdo.
+1. Haga clic en el cuadro situado junto al nombre de cada tema de la cola que desee eliminar. Aparecerá una marca de verificación en el cuadro.
+1. Haga clic en el icono **Eliminar** ![Eliminar icono](assets/delete-icon.png) en la parte superior de la página.
 
