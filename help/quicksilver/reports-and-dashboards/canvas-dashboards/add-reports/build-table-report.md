@@ -6,10 +6,10 @@ description: Puede agregar un informe de tabla a un panel de lienzo para visuali
 author: Courtney and Jenny
 feature: Reports and Dashboards
 exl-id: a7aa8614-6e80-4fc1-88ff-d952d87ddcbc
-source-git-commit: 8b9676c7ef4efcad1294a9aa786aa6fe52d26cc0
+source-git-commit: 72344e5c1607ba6b4dd2a1e71a462bba93369b27
 workflow-type: tm+mt
-source-wordcount: '444'
-ht-degree: 15%
+source-wordcount: '761'
+ht-degree: 11%
 
 ---
 
@@ -23,7 +23,7 @@ Puede agregar un informe de tabla a un panel de lienzo para visualizar los datos
 
 ![Ejemplo de informe de tabla](assets/table-example-main.png)
 
-+++ Amplíe para ver los requisitos de acceso.
++++ Amplíe para ver los requisitos de acceso. 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -111,3 +111,82 @@ Hay muchas opciones de configuración disponibles para crear un informe de tabla
    1. Haga clic en el botón **Agregar agrupación** y, a continuación, seleccione el campo que desee crear como agrupación. La columna de agrupación aparece en la sección de vista previa de la derecha.
 
 1. Haga clic en **Guardar** para crear el informe y agregarlo al tablero.
+
+## Generar un ejemplo de informe de tabla
+
+En esta sección, explicaremos los pasos para crear un informe de tabla que muestre las aprobaciones de documentos pendientes.
+
+Para obtener más información sobre ejemplos de informes de tabla, consulte [Crear un tablero de informes para revisión y aprobaciones](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md).
+
+{{step1-to-dashboards}}
+
+1. En el panel izquierdo, haga clic en **Paneles de lienzo**.
+
+1. Haga clic en **Nuevo panel** en la esquina superior derecha.
+
+1. En el cuadro **Crear tablero**, escriba el **Nombre** y la **Descripción** del tablero.
+
+1. Haga clic en **Crear**.
+
+1. En el cuadro **Agregar informe**, seleccione **Crear informe**.
+
+1. En el lado izquierdo, seleccione **Tabla**.
+
+1. En la esquina superior derecha, haga clic en **Crear informe**.
+
+1. Siga los pasos a continuación para configurar la sección **Detalles**:
+
+   1. Escriba _aprobaciones pendientes_ en el campo **Nombre**.
+   1. Escriba una descripción en el campo **Descripción**. Este texto se muestra como información de objeto junto al nombre del gráfico.
+
+1. Siga los pasos a continuación para configurar la sección **Generar tabla**:
+
+   1. En el panel izquierdo, haga clic en el icono **Columnas de tabla** ![Icono de columnas de tabla](assets/drilldown-column.png).
+   1. Haga clic en **Agregar columna**.
+   1. Desplácese hacia abajo y seleccione **Aprobaciones de documentos** > **Estado**.
+   1. Añada las siguientes columnas:
+
+   <table>
+    <tr>
+    <td><strong>Nombre del proyecto</strong></td>
+    <td>Versión del documento &gt; Documento &gt; Proyecto &gt; Nombre</td>
+    </tr>
+    <tr>
+    <td><strong>Nombre de documento</strong></td>
+    <td>Versión del documento &gt; Documento &gt; escriba <em>Nombre</em> en el cuadro de búsqueda.</td>
+    </tr>
+    <tr>
+    <td><strong>Versión del documento</strong></td>
+    <td>Versión del documento &gt; Documento &gt; Versión</td>
+    </tr>
+    <tr>
+    <td><strong>Fecha límite</strong></td>
+    <td>Aprobación de documento &gt; Fase de aprobación &gt; Plazo</td>
+    </tr>
+    <tr>
+    <td><strong>Solicitado por</strong></td>
+    <td>Aprobación de documento &gt; Fase de aprobación &gt; Participantes en la fase de aprobación* &gt; Solicitante &gt; escriba <em>Nombre</em> en el cuadro de búsqueda.</td>
+    </tr>
+    <tr>
+    <td><strong>Fecha de solicitud</strong></td>
+    <td>Aprobación de documento &gt; Fase de aprobación &gt; Participantes de fase de aprobación* &gt; Creado en</td>
+    </tr>
+    <tr>
+    <td><strong>Aprobador</strong></td>
+    <td>Aprobación de documento &gt; Fase de aprobación &gt; Participantes en la fase de aprobación* &gt; Usuario participante &gt; escriba <em>Nombre</em> en el cuadro de búsqueda.</td>
+    </tr>
+    </table>
+
+
+   *Los participantes de la fase de aprobación se truncan a _fase de aprobación Pa.._
+
+
+1. Siga los pasos a continuación para configurar la sección **Filter**:
+   1. En el panel izquierdo, haga clic en el icono **Filtrar** ![icono de ficha de filtro](assets/filter-tab.png).
+   1. Haga clic en **Editar filtro** y luego en **Agregar condición**.
+   1. Haga clic en el filtro de condición vacío y luego haga clic en **Elegir un campo**.
+   1. Seleccione **Estado**.
+   1. Cambie el operador a **Equal** y, a continuación, escriba _pending approval_ en el cuadro de texto.
+      ![ejemplo de filtro de tabla de aprobación pendiente](assets/pending-approval-table-filter.png)
+   1. (Opcional) Agregue filtros adicionales como se describe en la sección **Filtros opcionales** a continuación.
+1. Haz clic en **Guardar** en la esquina superior derecha de la pantalla.

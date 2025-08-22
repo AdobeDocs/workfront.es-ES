@@ -6,10 +6,10 @@ description: Se puede añadir a un panel de lienzo un informe de KPI que muestre
 author: Courtney and Jenny
 feature: Reports and Dashboards
 exl-id: e1c68ac3-112e-4f9e-b644-f44bb0778b92
-source-git-commit: 8b9676c7ef4efcad1294a9aa786aa6fe52d26cc0
+source-git-commit: 72344e5c1607ba6b4dd2a1e71a462bba93369b27
 workflow-type: tm+mt
-source-wordcount: '587'
-ht-degree: 14%
+source-wordcount: '809'
+ht-degree: 11%
 
 ---
 
@@ -23,7 +23,7 @@ Puede crear y agregar un informe de KPI a un panel de lienzo que represente visu
 
 ![Ejemplo de informe KPI](assets/kpi-example-main.png)
 
-+++ Amplíe para ver los requisitos de acceso.
++++ Amplíe para ver los requisitos de acceso. 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -122,5 +122,57 @@ Hay muchas opciones de configuración disponibles para crear un informe de KPI. 
    1. Haga clic en el botón **Agregar agrupación** y, a continuación, seleccione el campo que desee crear como agrupación.
 
 1. Haga clic en **Guardar** para crear el informe y agregarlo al tablero.
+
+## Generar un ejemplo de informe de KPI
+
+En esta sección, explicaremos los pasos para crear un informe KPI que muestre las aprobaciones de documentos pendientes.
+
+Para obtener más información sobre ejemplos de informes KPI, consulte [Crear un tablero de informes para revisión y aprobaciones](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md).
+
+{{step1-to-dashboards}}
+
+1. En el panel izquierdo, haga clic en **Paneles de lienzo**.
+
+1. Haga clic en **Nuevo panel** en la esquina superior derecha.
+
+1. En el cuadro **Crear tablero**, escriba el **Nombre** y la **Descripción** del tablero.
+
+1. Haga clic en **Crear**.
+
+1. En el cuadro **Agregar informe**, seleccione **Crear informe**.
+
+1. En el lado izquierdo, seleccione **KPI**.
+
+1. En la esquina superior derecha, haga clic en **Crear informe**.
+
+1. Siga los pasos a continuación para configurar la sección **Detalles**:
+
+   1. Escriba *Pending* en el campo **Name**.
+   1. Escriba *aprobaciones pendientes* en el campo **Descripción**. Esto se muestra como un pie de ilustración debajo del valor de KPI.
+
+1. Siga los pasos a continuación para configurar la sección **Generar KPI**:
+
+   1. En el panel izquierdo, haga clic en el **KPI de compilación** ![icono de KPI de compilación](assets/build-kpi-icon.png).
+
+   1. Haga clic en **Seleccionar campo**.
+
+   1. Busque y seleccione la carpeta **Aprobación de documento**.
+
+   1. Seleccione **Estado**.
+
+   1. En el menú desplegable **Tipo de agregación**, seleccione **Recuento**.
+
+1. Siga los pasos a continuación para configurar la sección **Filter**:
+
+   1. En el panel izquierdo, haga clic en el icono **Filtro** ![Icono de filtro](assets/filter-icon.png).
+
+   1. Seleccione **Editar filtro**.
+
+   1. Haga clic en **Agregar condición**.
+
+   1. Haga clic en el filtro de condición vacío, haga clic en **Elegir un campo** y, a continuación, elija **Estado**.
+   1. Deje el operador como **Equal** y, a continuación, escriba _pending review_ en el cuadro de texto.
+      ![Ejemplo de filtro de KPI pendiente](assets/pending-kpi-filter.png)
+1. Haz clic en **Guardar** en la esquina superior derecha de la pantalla.
 
 
