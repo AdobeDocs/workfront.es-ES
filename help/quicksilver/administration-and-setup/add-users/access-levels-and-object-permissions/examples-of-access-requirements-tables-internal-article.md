@@ -4,10 +4,10 @@ description: Este es un artículo interno para que nuestro equipo mantenga un in
 author: Alina
 hide: true
 hidefromtoc: true
-source-git-commit: 15eba2f627e31661c5fde60e989dfc68a9f4cd15
+source-git-commit: 5fd51b6fad81eb54696784745989efee06b79c94
 workflow-type: tm+mt
 source-wordcount: '657'
-ht-degree: 37%
+ht-degree: 46%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 37%
 
 ## Requisitos de acceso (Este es un ejemplo cuando el paquete permanece igual y actualizamos la fila de licencias)
 
-Amplíe para ver los requisitos de acceso para la funcionalidad en este artículo
+Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -56,7 +56,7 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 
 ## Requisitos de acceso
 
-Amplíe para ver los requisitos de acceso para la funcionalidad en este artículo
+Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -86,7 +86,7 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 
 ## Requisitos de acceso (solo disponible para nuevos clientes netos)
 
-Amplíe para ver los requisitos de acceso para la funcionalidad en este artículo
+Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -117,7 +117,7 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 
 ## Requisitos de acceso (este es un ejemplo en el que la nueva función solo existe en los paquetes de 2023/2025)
 
-Amplíe para ver los requisitos de acceso para la funcionalidad en este artículo
+Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
 <table>
   <tr>
@@ -145,7 +145,7 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
 
 ## Requisitos de acceso (este es un ejemplo en el que se requiere tener otros productos)
 
-Amplíe para ver los requisitos de acceso para la funcionalidad en este artículo
+Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
 <table>
   <tr>
@@ -220,7 +220,7 @@ Expanda para ver los requisitos de acceso para la funcionalidad en este artícul
    <td> 
 <p>Cualquier paquete del flujo de trabajo de Adobe Workfront y cualquier paquete de Adobe Workfront Planning</p> 
    </td> </tr>
-<td role="rowheader"><p>Plataforma de Adobe Workfront (¿**&#x200B;** llamarlo, o simplemente hacer que forme parte del artículo vinculado en la parte inferior???**&#x200B;***)</p></td> 
+<td role="rowheader"><p>Plataforma de Adobe Workfront (¿**** llamarlo, o simplemente hacer que forme parte del artículo vinculado en la parte inferior???*****)</p></td> 
    <td> 
 <p>La instancia de Workfront de su organización debe incorporarse a Adobe Unified Experience para poder acceder a Workfront Planning.</p> 
 <p>Para obtener más información, consulte <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience para Workfront</a>. </p> 
