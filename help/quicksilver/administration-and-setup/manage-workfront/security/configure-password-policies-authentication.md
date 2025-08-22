@@ -3,15 +3,15 @@ user-type: administrator
 product-area: system-administration;user-management;setup
 navigation-topic: security
 title: Configurar políticas de contraseña para autenticación
-description: Como administrador de Adobe Workfront, puede configurar las opciones de la directiva de contraseñas para personalizar la experiencia de autenticación en su sistema Workfront.
+description: Como administrador de Adobe Workfront, puede configurar las opciones de políticas de contraseñas para personalizar la experiencia de autenticación en su sistema Workfront.
 author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 7832986b-a5e8-4f14-8802-d3b8e32b14bc
-source-git-commit: 206ea3ad1398849e26dea7fe77f6d7c027825b6f
+source-git-commit: c71c5c4a545f9256ecce123ae3513d01a7251ad7
 workflow-type: tm+mt
-source-wordcount: '705'
-ht-degree: 2%
+source-wordcount: '30'
+ht-degree: 100%
 
 ---
 
@@ -19,105 +19,108 @@ ht-degree: 2%
 
 {{important-admin-console-onboard}}
 
-Como administrador de Adobe Workfront, puede configurar las opciones de la directiva de contraseñas para personalizar la experiencia de autenticación en su sistema Workfront.
+<!--REMOVE ME MARCH 2026-->
 
-Le recomendamos que configure las preferencias de autenticación durante la implementación de Workfront y que solo las vuelva a consultar ocasionalmente más tarde.
+<!--As an Adobe Workfront administrator, you can configure password policy options to customize the authentication experience to your Workfront system.
 
-Próximamente se ofrecerán funcionalidades mejoradas de administración de contraseñas, o es posible que ya se encuentren disponibles para su organización. Utilice cualquiera de las siguientes secciones, en función de si su organización tiene acceso a la nueva experiencia de autenticación.
+We recommend that you configure authentication preferences during the Workfront implementation and only occasionally revisit them afterward.
 
-## Requisitos de acceso
+Improved password management capabilities are coming soon or might already be available for your organization. Use either of the following sections, depending on whether your organization has access to the new authentication experience.
 
-+++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
+## Access requirements
 
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
++++ Expand to view access requirements for the functionality in this article.
+
+You must have the following access to perform the steps in this article: 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plan de Adobe Workfront</td> 
-   <td>Cualquiera</td> 
+   <td role="rowheader">Adobe Workfront plan</td> 
+   <td>Any</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licencia de Adobe Workfront</td> 
+   <td role="rowheader">Adobe Workfront license</td> 
    <td>Plan</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraciones de nivel de acceso</td> 
-   <td> <p>Debe ser administrador de Workfront.</p> <p><b>NOTA</b>: Si todavía no tiene acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, vea <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>You must be a Workfront administrator.</p> <p><b>NOTE</b>: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 +++
 
-## Configurar autenticación (disponible para todos los clientes) {#configure-authentication-available-for-all-customers}
+## Configure authentication (available for all customers) {#configure-authentication-available-for-all-customers}
 
-Las opciones de autenticación se muestran para todos los clientes. Próximamente se ofrecerán funcionalidades mejoradas de administración de contraseñas, o quizá ya se encuentren disponibles para su organización, tal como se describe en la sección [Configurar autenticación mejorada)](#configure-enhanced-authentication-coming-soon) de este artículo.
+Authentication options are displayed for all customers. Improved password management capabilities are coming soon or might already be available for your organization, as described in the section [Configure enhanced authentication)](#configure-enhanced-authentication-coming-soon) in this article.
 
-Para configurar las preferencias de autenticación:
+To configure authentication preferences:
 
 {{step-1-to-setup}}
 
-1. Haga clic en **Sistema** > **Autenticación**.
+1. Click **System** > **Authentication**.
 
-1. Seleccione cualquiera de los siguientes campos para establecer la configuración de autenticación de su organización:
+1. Select any of the following fields to establish the authentication settings for your organization:
 
    <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">Forzar a los usuarios a restablecer su contraseña cada <em>&lt;value&gt;</em> días</td> 
-      <td>Esto establece el lapso de tiempo para que los usuarios restablezcan su contraseña de Workfront. Esta opción está desactivada de forma predeterminada. Al activarla, puede elegir entre 30, 60, 90, 120, 180 días. El valor predeterminado es de 30 días.</td> 
+      <td role="rowheader">Force users to reset their password every <em>&lt;value&gt;</em> days</td> 
+      <td>This establishes the time frame for users to reset their Workfront password. By default, this option is disabled. When you enable it, you can choose between 30, 60, 90, 120, 180 days. The default is 30 days.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">No permitir que los usuarios establezcan la misma contraseña que ninguna de sus <em>&lt;value&gt;</em> contraseñas anteriores</td> 
-      <td> <p>Este campo prohíbe a los usuarios reutilizar contraseñas para un número determinado de reinicios. De forma predeterminada, este campo está deshabilitado. Cuando lo habilita, puede establecer este valor en 5, 10 o 15 restablecimientos antes de que se pueda reutilizar una contraseña.</p> <p>Cuando se selecciona esta opción, los usuarios no pueden restablecer sus contraseñas más de una vez en un día determinado</p> </td> 
+      <td role="rowheader">Don't allow users to set the same password as any of their previous <em>&lt;value&gt;</em> passwords</td> 
+      <td> <p>This field prohibits users from reusing passwords for a set number of resets. By default, this field is disabled. When you enable it, you can set this value to 5, 10, or 15 resets before a password can be reused.</p> <p>When this option is selected, users cannot reset their passwords more than one time in a given day</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Si se escribe una contraseña incorrecta cinco veces consecutivas, se debe bloquear la cuenta durante <em>&lt;value&gt;</em> minutos: </td> 
-      <td> <p>Seleccione cuánto tiempo se bloqueará a un usuario en Workfront después de introducir una contraseña incorrecta cinco veces consecutivas. De forma predeterminada, esta opción está habilitada y el tiempo de espera es de 10 minutos. Puede bloquear cuentas durante 10 minutos, 30 minutos, 1 hora, 8 horas o 24 horas. </p> <p>El restablecimiento manual de la contraseña del usuario anula este valor de espera predeterminado. <br>Los usuarios pueden restablecer sus propias contraseñas cuando estén bloqueados a través de la pantalla de inicio de sesión. Para obtener más información sobre cómo pueden restablecer su contraseña, si la olvidaron, consulte <a href="../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/reset-your-password.md" class="MCXref xref">Restablecer la contraseña</a>.</p> </td> 
+      <td role="rowheader">If an incorrect password is entered five consecutive times, lock the account for <em>&lt;value&gt;</em> minutes: </td> 
+      <td> <p>Select how long a user will be locked out of Workfront after entering an incorrect password five consecutive times. By default, this option is enabled, and the amount of wait time is 10 minutes. You can lock accounts for 10 minutes, 30 minutes, 1 hour, 8 hours, or 24 hours. </p> <p>Manually resetting the password for the user overrides this default wait value. <br>Users can reset their own passwords when they are locked out via the login screen. For more information about how they can reset their password, if they forgot it, see <a href="../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/reset-your-password.md" class="MCXref xref">Reset your password</a>.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Las contraseñas deben contener al menos <em>&lt;value&gt;</em> tipos de caracteres diferentes:</td> 
-      <td> <p>Determina la seguridad de las contraseñas de usuario, ya que permite seleccionar el número de tipos de caracteres necesarios en las contraseñas.</p> <p>No se puede usar una palabra de diccionario reconocible como contraseña.<br>De manera predeterminada, Workfront requiere que haya al menos 2 de los siguientes caracteres en las contraseñas (también puede requerir que 3 de estos caracteres estén presentes para una contraseña válida): </p> 
+      <td role="rowheader">Passwords must contain at least <em>&lt;value&gt;</em> different types of characters:</td> 
+      <td> <p>Determines how strong user passwords are required to be by allowing you to select the number of different types of characters required in your passwords.</p> <p>A recognizable dictionary word cannot be used as a password.<br>By default, Workfront requires that at least 2 of the following are present in passwords (you can also require 3 of these characters to be present for a valid password): </p> 
        <ul> 
-        <li>Caracteres en mayúsculas</li> 
-        <li>Caracteres en minúsculas</li> 
-        <li>Números</li> 
-        <li>Símbolos</li> 
+        <li>Uppercase characters</li> 
+        <li>Lowercase characters</li> 
+        <li>Numbers</li> 
+        <li>Symbols</li> 
        </ul> </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. Haga clic en **Guardar**.
+1. Click **Save**.
 
-## Configuración de la autenticación mejorada{#configure-enhanced-authentication-coming-soon}
+## Configure enhanced authentication{#configure-enhanced-authentication-coming-soon}
 
-En esta sección se describe la experiencia de autenticación mejorada, que podría no estar aún disponible para su organización. Si su organización no se ha migrado a la nueva experiencia de autenticación, debe configurar las opciones de autenticación, tal como se describe en [Configurar autenticación (disponible para todos los clientes)](#configure-authentication-available-for-all-customers).
+This section describes the enhanced authentication experience, which might not yet be available for your organization. If your organization has not been migrated to the new authentication experience, you must configure the authentication settings, as described in [Configure authentication (available for all customers)](#configure-authentication-available-for-all-customers).
 
-Para configurar las preferencias de autenticación mejorada:
+To configure enhanced authentication preferences:
 
 {{step-1-to-setup}}
 
-1. Haga clic en **Sistema** > **Autenticación mejorada**.
-1. En el cuadro **Longitud de contraseña**, escriba el número mínimo de caracteres necesarios para una contraseña válida.
+1. Click **System** > **Enhanced Authentication**.
+1. In the **Password Length** box, enter the minimum number of characters required for a valid password.
 
-   Workfront requiere al menos 6 caracteres.
+   Workfront requires at least 6 characters.
 
-1. (Opcional) En la sección **Requisitos de contraseña**, seleccione los tipos de caracteres necesarios en las contraseñas de usuario.
+1. (Optional) In the **Password Requirements** section, select the types of characters required in user passwords.
 
-   Puede aumentar la seguridad de las contraseñas de usuario si requiere alguno o todos los tipos de caracteres en la sección Requisito de contraseña. Estas son las opciones disponibles:
+   You can increase the strength of user passwords by requiring any or all the types of characters in the Password Requirement section. The following options are available:
 
-   | Letras minúsculas | Requerir al menos una letra minúscula |
+   | Lowercase Letters |Require at least one lowercase letter |
    |---|---|
-   | Letras mayúsculas | Requerir al menos una letra mayúscula |
-   | Números | Requerir al menos un número |
-   | Caracteres especiales | Requiere al menos un carácter especial |
+   | Uppercase Letters |Require at least one uppercase letter |
+   | Numbers |Require at least one number |
+   | Special Characters |Require at least one special character |
 
    {style="table-layout:auto"}
 
-1. Haga clic en **Guardar**.
+1. Click **Save**.
+-->

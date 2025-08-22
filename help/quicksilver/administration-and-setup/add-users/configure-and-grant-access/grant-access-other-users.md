@@ -5,10 +5,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 5e87cad4-4a5d-4cb2-848f-7c97ff11d0e8
-source-git-commit: 09bb41e16da89edd2c2cbfb5a85213045e52394d
+source-git-commit: c71c5c4a545f9256ecce123ae3513d01a7251ad7
 workflow-type: tm+mt
-source-wordcount: '767'
-ht-degree: 29%
+source-wordcount: '684'
+ht-degree: 27%
 
 ---
 
@@ -79,16 +79,17 @@ Puede administrar la información que los usuarios pueden ver y editar para otro
     <col> 
     <col> 
     <tbody> 
-     <tr> 
-      <td role="rowheader"><strong>Crear</strong> </td> 
-      <td> <p>Permite a los usuarios crear usuarios.<br>Esta opción está desactivada de forma predeterminada.</p> 
-     <p><b>NOTA</b>: Esto no está disponible si su organización se ha incorporado a Adobe Admin Console. Consulte al administrador de red o de TI si necesita más información.</p>
+    <!--DELETE THIS SECTION MARCH 2026-->
+     <!-- <tr> 
+     <td role="rowheader"><strong>Create</strong> </td> 
+      <td> <p>Allows users to create users.<br>This option is enabled by default.</p> 
+     <p><b>NOTE</b>: This is not available if your organization has been onboarded to the Adobe Admin Console. See your network or IT administrator if you need more information.</p>
         </td>  
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Eliminar</strong> </td> 
-      <td> <p> Permite a los usuarios eliminar los usuarios que ellos mismos han creado.<br>Esta opción está desactivada de forma predeterminada.</p> <p><b>NOTA</b>: Esto no está disponible si su organización se ha incorporado a Adobe Admin Console. Consulte al administrador de red o de TI si necesita más información.</p> </td> 
-     </tr> 
+      <td role="rowheader"><strong>Delete</strong> </td> 
+      <td> <p> Allows users to delete the users they have created themselves.<br>This option is enabled by default.</p> <p><b>NOTE</b>: This is not available if your organization has been onboarded to the Adobe Admin Console. See your network or IT administrator if you need more information.</p> </td> 
+     </tr> -->
      <tr> 
       <td role="rowheader"><strong>Administrador de usuarios (todos los usuarios)</strong> </td> 
       <td> <p>Permite a los usuarios hacer lo siguiente para cualquier usuario de Workfront:</p> 

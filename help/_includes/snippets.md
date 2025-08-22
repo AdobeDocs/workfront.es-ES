@@ -1,8 +1,8 @@
 ---
-source-git-commit: 4e7aa16333c7a24ee2ef67fb964be70ed45cd369
+source-git-commit: c71c5c4a545f9256ecce123ae3513d01a7251ad7
 workflow-type: tm+mt
-source-wordcount: '2648'
-ht-degree: 29%
+source-wordcount: '2645'
+ht-degree: 28%
 
 ---
 # Fragmentos
@@ -92,9 +92,9 @@ Puede asegurarse de que está asociando el grupo correcto con el equipo pasando 
 
 >[!IMPORTANT]
 >
->El procedimiento descrito en esta página se aplica solo a las organizaciones que aún no se han incorporado a Adobe Admin Console.
+>El procedimiento descrito en esta página se ha eliminado porque se aplicaba únicamente a las organizaciones que aún no se habían incorporado a Adobe Admin Console.
 >
->Si su organización se ha incorporado a Adobe Admin Console, consulte [Diferencias de administración basadas en la plataforma (Adobe Workfront/Adobe Business Platform)](/help/quicksilver/administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>Todas las organizaciones de Workfront se han incorporado a Adobe Admin Console.
 
 ## Paso 1: Llegada a los usuarios {#step-1-to-users}
 
@@ -484,7 +484,7 @@ Estos usuarios pueden ver ahora cualquier configuración del equipo, incluidos l
 1. Este es un paso de fragmento, el primero de dos.
 1. Este es un paso de fragmento, el segundo de dos.
 
-![imagen](/help/_includes/assets/adobecclogo.png)
+![Imagen](/help/_includes/assets/adobecclogo.png)
 
 <!--
 
