@@ -1,42 +1,51 @@
 ---
 product-area: documents;workfront-integrations
 navigation-topic: adobe-workfront-for-experince-manager-asset-essentials
-title: Migración del conector heredado o mejorado a la integración de Workfront para Adobe Experience Manager as a Cloud Service
-description: En la información de esta página se explican las prácticas recomendadas para pasar de Workfront para conectores Experience Cloud mejorados o heredados a la última integración nativa que conecta Workfront y Adobe Experience Manager Assets as a Cloud Service.
+title: Migración desde el conector heredado o mejorado a la integración de Workfront para Adobe Experience Manager as a Cloud Service
+description: En la información de esta página se explican las prácticas recomendadas para pasar de los conectores mejorados o heredados de Workfront for Experience Cloud a la última integración nativa que conecta Workfront y Adobe Experience Manager Assets as a Cloud Service.
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: af14f408-df39-473c-9e18-bb88022c96ed
-source-git-commit: 3a1bc4a56cba2fe224a1f0a21c8882c2d9d030de
+source-git-commit: f381b37e6d4537e6f83e55ed4a2f4ff7f868dd54
 workflow-type: tm+mt
-source-wordcount: '481'
-ht-degree: 0%
+source-wordcount: '372'
+ht-degree: 94%
 
 ---
 
-# Migración del conector heredado o mejorado a la integración de Workfront para Adobe Experience Manager as a Cloud Service
+# Migración desde el conector heredado o mejorado a la integración de Workfront para Adobe Experience Manager as a Cloud Service
 
-En la información de esta página se explican las prácticas recomendadas para pasar de Workfront para conectores Experience Cloud mejorados o heredados a la última integración nativa que conecta Workfront y Adobe Experience Manager Assets as a Cloud Service.
+En la información de esta página se explican las prácticas recomendadas para pasar de los conectores mejorados o heredados de Workfront for Experience Cloud a la última integración nativa que conecta Workfront y Adobe Experience Manager Assets as a Cloud Service.
 
 >[!IMPORTANT]
 >
 >Esta información no se aplica a los clientes que utilizan entornos On-Premise o Managed Services de Adobe Experience Manager Assets.
 
-## Mover la instancia de Workfront al Admin Console
+## Migración de la instancia de Workfront a Admin Console
 
-Los clientes que tengan intención de utilizar la nueva integración nativa entre Workfront y Adobe Experience Manager Assets as a Cloud Service deben asegurarse de que su entorno de Workfront esté vinculado a un Adobe Admin Console. Para los entornos de Workfront existentes, esto probablemente requiera una migración del entorno a un Adobe Admin Console conectado. Para obtener más información sobre esta migración y la lista de comprobación asociada, consulte [Prepararse para incorporar su organización a Adobe Admin Console](/help/quicksilver/administration-and-setup/adobe-admin-console/prep-for-admin-console.md).
+>[!IMPORTANT]
+>
+>Debido a que todas las organizaciones de Workfront se han migrado a Adobe Admin Console, esta sección se eliminará en un futuro próximo.
 
-El Adobe debe ayudar a realizar esta migración. Para solicitar ayuda, siga uno de estos procedimientos:
+<!--DELETE THIS SECTION MARCH 2026-->
 
-* Si tiene acceso a Workfront Hub, envíe su solicitud a [Migración de Workfront a Adobe Admin Console](https://hub.workfront.com/requests/new?activeTab=tab-new-helpRequest&amp;projectID=629674d500054a38133cf26e01d06a97&amp;path=).
-* Si no tiene acceso a Workfront Hub, puede enviar la solicitud a [Workfront a la cola de solicitudes de migración anticipada de Adobe Admin Console](https://workfront.az1.qualtrics.com/jfe/form/SV_9T5LuHf05JUOPAi).
+<!--
+Customers that intend to use the new native integration between Workfront and Adobe Experience Manager Assets as a Cloud Service must ensure their Workfront environment is tied to an Adobe Admin Console. For existing Workfront environments, this will likely require a migration of the environment to a connected Adobe Admin Console. For more details regarding this migration and the associated checklist, see [Prepare to onboard your organization to the Adobe Admin Console](/help/quicksilver/administration-and-setup/adobe-admin-console/prep-for-admin-console.md). 
 
-## Configuración del nuevo Workfront para la integración as a Cloud Service de recursos de Adobe Experience Manager
+ Adobe must help carry out this migration. To request help, do one of the following:
 
-Una vez que el entorno de Workfront se haya migrado a Adobe Admin Console, los administradores de Workfront podrán configurar la nueva integración nativa. Para obtener ayuda sobre la configuración, consulte [Configuración de la as a Cloud Service de Experience Manager Assets](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md).
+* If you have Workfront Hub access, submit your request to the [Workfront Migration to Adobe Admin Console](https://hub.workfront.com/requests/new?activeTab=tab-new-helpRequest&projectID=629674d500054a38133cf26e01d06a97&path=).
+* If you do not have Workfront Hub access, you can submit your request to the [Workfront to Adobe Admin Console Early Migration Request Queue](https://workfront.az1.qualtrics.com/jfe/form/SV_9T5LuHf05JUOPAi).
 
-## Mueva los recursos existentes a la integración as a Cloud Service de recursos de Workfront para Adobe Experience Manager
+-->
 
-Después de configurar el entorno, puede mover los recursos y las carpetas vinculados existentes a Adobe Experience Manager. Este es un paso opcional, pero garantizará que las carpetas y los recursos vinculados anteriormente a través del conector heredado o mejorado seguirán siendo accesibles una vez que se desinstalen esos conectores.
+## Configuración de la nueva integración de Workfront for Adobe Experience Manager Assets as a Cloud Service
+
+Una vez que el entorno de Workfront se haya migrado a Adobe Admin Console, los administradores de Workfront podrán configurar la nueva integración nativa. Para obtener ayuda sobre la configuración, consulte [Configuración de la integración de Experience Manager Assets as a Cloud Service](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md).
+
+## Mover los recursos existentes a la integración de Workfront for Adobe Experience Manager Assets as a Cloud Service
+
+Después de configurar el entorno, puede mover los recursos y las carpetas vinculados existentes a Adobe Experience Manager. Este paso es opcional, pero garantizará que las carpetas y los recursos vinculados anteriormente a través del conector heredado o mejorado sigan siendo accesibles una vez que se desinstalen esos conectores.
 
 Para obtener más información sobre cómo mover los recursos, consulte [Migrar carpetas y documentos vinculados](/help/quicksilver/documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/workfront-document-link-updates.md).
 
@@ -50,5 +59,5 @@ Por último, debe desinstalar el conector heredado o mejorado. La integración n
 
 Para desinstalar, consulte
 
-* Instrucciones de desinstalación del conector heredado: [Desinstale Workfront con el conector heredado de Adobe Experience Manager](/help/quicksilver/documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/uninstall-legacy-connector.md).
-* Instrucciones de desinstalación del conector mejorado: [Desinstale Workfront con el conector mejorado de Adobe Experience Manager](/help/quicksilver/documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/uninstall-enhanced-connector.md).
+* Instrucciones de desinstalación del conector heredado: [Desinstalar el conector heredado de Workfront con Adobe Experience Manager](/help/quicksilver/documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/uninstall-legacy-connector.md).
+* Instrucciones de desinstalación del conector mejorado: [Desinstalar el conector mejorado de Workfront con Adobe Experience Manager](/help/quicksilver/documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/uninstall-enhanced-connector.md).

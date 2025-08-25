@@ -9,10 +9,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 4b481215-36a1-4945-828a-1598502529d8
-source-git-commit: 206ea3ad1398849e26dea7fe77f6d7c027825b6f
+source-git-commit: f381b37e6d4537e6f83e55ed4a2f4ff7f868dd54
 workflow-type: tm+mt
-source-wordcount: '654'
-ht-degree: 0%
+source-wordcount: '713'
+ht-degree: 19%
 
 ---
 
@@ -20,7 +20,15 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->El procedimiento descrito en esta página se aplica sólo a las organizaciones que aún no se han incorporado al Admin Console. Si su organización se ha incorporado a Adobe Admin Console, no es necesario realizar ninguna acción.
+>El procedimiento descrito en esta página se ha eliminado porque se aplicaba únicamente a las organizaciones que aún no se habían incorporado a Adobe Admin Console. Este procedimiento no es necesario para las organizaciones en Adobe Admin Console.
+>
+>Dado que todas las organizaciones de Workfront ahora se han incorporado a Adobe Admin Console, este artículo se eliminará en un futuro próximo.
+
+<!--DELETE ME MARCH 2026-->
+
+>[!IMPORTANT]
+>
+>El procedimiento descrito en esta página se aplica solo a las organizaciones que aún no se han incorporado a Admin Console. Si su organización se ha incorporado a Adobe Admin Console, no es necesario realizar ninguna acción.
 >
 >Para obtener una lista de procedimientos que difieren según si su organización se ha incorporado a Adobe Admin Console, consulte [Diferencias de administración basadas en la plataforma (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
@@ -47,7 +55,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plan de Adobe Workfront</td> 
+   <td role="rowheader">Plan de Adobe Workfront</td> 
    <td>Cualquiera</td> 
   </tr> 
  <tr> 
@@ -64,7 +72,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  </tbody> 
 </table>
 
-Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

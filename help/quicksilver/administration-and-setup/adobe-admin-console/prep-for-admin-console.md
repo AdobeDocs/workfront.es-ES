@@ -10,16 +10,22 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d9b5e4a1-069e-48be-80d0-84f4bf8aea8b
-source-git-commit: eb68357ed4fd8f323707aa4a54a0f946253bf4e0
+source-git-commit: f381b37e6d4537e6f83e55ed4a2f4ff7f868dd54
 workflow-type: tm+mt
-source-wordcount: '647'
-ht-degree: 96%
+source-wordcount: '668'
+ht-degree: 93%
 
 ---
 
 # Prepárese para incorporar su organización a la Adobe Admin Console
 
 <!-- Audited: 12/2023 -->
+
+<!--DELETE ME MARCH 2026-->
+
+>[!IMPORTANT]
+>
+>Dado que todas las organizaciones se han migrado a Adobe Admin Console, este artículo se eliminará en un futuro próximo.
 
 Dado que Adobe Workfront es un producto de Adobe, puede acceder a él a través de Adobe Admin Console. Esto le permite administrar Workfront junto con otras cuentas de Adobe y productos para los usuarios en un lugar central.
 
@@ -45,11 +51,11 @@ Para garantizar que su organización pueda migrar a Adobe Admin Console, debe re
    >
    >Prepárese para hablar con la asistencia de Workfront y con su equipo de TI sobre las preferencias de autenticación, como el inicio de sesión único (SSO) o de otro tipo.
 
-   Para obtener instrucciones, consulte la sección Identity Management de la [Guía de implementación para la Adobe Admin Console](https://helpx.adobe.com/es/enterprise/using/deployment-planning.html).
+   Para obtener instrucciones, consulte la sección Identity Management de la [Guía de implementación para la Adobe Admin Console](https://helpx.adobe.com/enterprise/using/deployment-planning.html).
 
 1. (Condicional) Si utiliza el inicio de sesión único, conecte la nueva Adobe Admin Console a su proveedor de SSO existente.
 
-   Para obtener más información e instrucciones, consulte [Configurar una identidad](https://helpx.adobe.com/es/enterprise/using/set-up-identity.html).
+   Para obtener más información e instrucciones, consulte [Configurar una identidad](https://helpx.adobe.com/enterprise/using/set-up-identity.html).
 
    >[!NOTE]
    >

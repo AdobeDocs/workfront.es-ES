@@ -8,9 +8,9 @@ feature: Work Management
 hide: true
 hidefromtoc: true
 exl-id: 230d8e62-a3c9-4e38-9b26-5ba1c4f56391
-source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
+source-git-commit: f381b37e6d4537e6f83e55ed4a2f4ff7f868dd54
 workflow-type: tm+mt
-source-wordcount: '1180'
+source-wordcount: '1167'
 ht-degree: 99%
 
 ---
@@ -28,11 +28,7 @@ Cuando un proyecto de Workfront está conectado con Frame.io, puede
 
 ## Requisitos de acceso
 
-+++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
-
->[!IMPORTANT]
->
->Esta funcionalidad solo está disponible para las organizaciones que se han incorporado a [!DNL Adobe Admin Console].
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo. 
 
 Debe tener lo siguiente:
 
@@ -208,7 +204,7 @@ Workfront tiene funcionalidades sólidas de administración de proyectos. Se rec
 
 ### Establecer el proyecto en actual
 
-1. En la cabecera del proyecto, cambie el proyecto de Planificación a Actual.
+1. En el encabezado del proyecto, cambie el proyecto de Planificación a Actual.
 Una vez creado el proyecto y cargado por los creativos los recursos finalizados, puede asignar un flujo de trabajo de revisión y aprobación al recurso en Workfront.
 
 Una vez creado el proyecto y cargado por los creativos los recursos finalizados, puede asignar un flujo de trabajo de revisión y aprobación al recurso en Workfront.
