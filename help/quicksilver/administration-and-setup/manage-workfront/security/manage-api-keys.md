@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 1176d899-0585-430d-87f2-0823bda2f1be
-source-git-commit: 8934c3f5681c09c00769442900013844ee7a80ef
+source-git-commit: 99113ac4f2ceca6bd50f078916e33cec7f577362
 workflow-type: tm+mt
-source-wordcount: '1336'
-ht-degree: 92%
+source-wordcount: '1207'
+ht-degree: 88%
 
 ---
 
@@ -92,40 +92,47 @@ Puede generar, restablecer o eliminar la clave de API de su cuenta de usuario de
 
    Para quitar la clave de API: en la sección **Configuración de clave API**, haga clic en **Quitar** y, a continuación, en **Quitar**.
 
-## Generación de una clave de API para usuarios no administradores
+## Generación de una clave de API para usuarios no administradores—>
 
-Puede generar y administrar claves de API para usuarios con funciones distintas a las de administrador de Workfront.
+<!--DELETE THIS SECTION MARCH 2026-->
+
+>[!IMPORTANT]
+>
+>El procedimiento descrito en esta sección se ha eliminado porque se aplicaba únicamente a las organizaciones que aún no se habían incorporado a Adobe Admin Console.
+>
+>Todas las organizaciones de Workfront se han incorporado a Adobe Admin Console.
+
+<!--You can generate and manage API Keys for users in roles other than Workfront administrator.
 
 >[!NOTE]
 >
->Esto no está disponible si la instancia de Workfront de su organización está habilitada con Adobe IMS. Consulte al administrador de red o de TI si necesita más información.
+>This is not available if your organization's Workfront instance is enabled with Adobe IMS. See your network or IT administrator if you need more information.
 
-1. (Condicional) Si su organización utiliza la administración de acceso de inicio de sesión único (SSO), deshabilite temporalmente la opción que requiere autenticación SSO.
+1. (Conditional) If your organization uses Single Sign-On (SSO) access management, temporarily disable the option requiring SSO authentication.
+
+   {{step-1-to-setup}} 
+   
+   1. Expand **System**, then click **Single Sign-on (SSO)**. 
+   1. In the **Type** field, select the type of SSO your organization uses.
+   1. With the type selected, scroll down and clear the **Enable** checkbox. 
+      ![Enable SSO](assets/sysadmin-security-sso-disable-31620-350x320.png)  
+   1. Click **Save**.
+
+
+1. In the address bar of a browser, enter the following API call:
+
+   `<domain>`.my.workfront.com/attask/api/v7.0/user?action=generateApiKey&username=**username**&password=**password**&method=PUT
+
+   Replace `<domain>` with your Workfront domain name, and username and password with the user's Workfront credentials.
+
+1. (Conditional) Enable the option requiring SSO authentication if you disabled it in Step 1.
 
    {{step-1-to-setup}}
-
-   1. Expanda **Sistema** y haga clic en **Inicio de sesión único (SSO)**.
-   1. En el campo **Tipo**, seleccione el tipo de SSO que utiliza su organización.
-   1. Con el tipo seleccionado, desplácese hacia abajo y desactive la casilla de verificación **Habilitar**.
-
-      ![Habilitar SSO](assets/sysadmin-security-sso-disable-31620-350x320.png)
-   1. Haga clic en **Guardar**.
-
-
-1. En la barra de direcciones de un explorador, introduzca la siguiente llamada de API:
-
-   `<domain>`.my.workfront.com/attask/api/v7.0/user?action=generateApiKey&amp;username=**nombre de usuario**&amp;contraseña=**contraseña**&amp;método=PUT
-
-   Reemplace `<domain>` con su nombre de dominio de Workfront, y su nombre de usuario y contraseña con las credenciales de Workfront del usuario.
-
-1. (Condicional) Habilite la opción que requiere autenticación SSO si la deshabilitó en el paso 1.
-
-   {{step-1-to-setup}}
-
-   1. Expanda **Sistema** y, a continuación, haga clic en **Inicio de sesión único (SSO)**.
-
-   1. Seleccione su método SSO en el menú desplegable **Tipo**.
-   1. Marque la casilla de verificación que requiere autenticación SSO.
+   
+   1. Expand **System**, then click **Single Sign-on (SSO)**.
+   
+   1. Select your SSO method in the **Type** drop down menu.
+   1. Check the checkbox requiring SSO authentication.-->
 
 ## Configure cuándo caducan las claves API
 
