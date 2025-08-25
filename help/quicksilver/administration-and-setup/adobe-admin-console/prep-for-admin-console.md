@@ -45,11 +45,11 @@ Para garantizar que su organización pueda migrar a Adobe Admin Console, debe re
    >
    >Prepárese para hablar con la asistencia de Workfront y con su equipo de TI sobre las preferencias de autenticación, como el inicio de sesión único (SSO) o de otro tipo.
 
-   Para obtener instrucciones, consulte la sección Identity Management de la [Guía de implementación para la Adobe Admin Console](https://helpx.adobe.com/enterprise/using/deployment-planning.html).
+   Para obtener instrucciones, consulte la sección Identity Management de la [Guía de implementación para la Adobe Admin Console](https://helpx.adobe.com/es/enterprise/using/deployment-planning.html).
 
 1. (Condicional) Si utiliza el inicio de sesión único, conecte la nueva Adobe Admin Console a su proveedor de SSO existente.
 
-   Para obtener más información e instrucciones, consulte [Configurar una identidad](https://helpx.adobe.com/enterprise/using/set-up-identity.html).
+   Para obtener más información e instrucciones, consulte [Configurar una identidad](https://helpx.adobe.com/es/enterprise/using/set-up-identity.html).
 
    >[!NOTE]
    >
