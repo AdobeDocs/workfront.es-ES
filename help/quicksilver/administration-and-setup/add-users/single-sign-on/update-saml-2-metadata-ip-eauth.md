@@ -8,10 +8,10 @@ exl-id: 55d7d8a8-0dfe-45bc-a23a-47111347e9ca
 hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
-source-git-commit: c71c5c4a545f9256ecce123ae3513d01a7251ad7
+source-git-commit: d585b698b6c7900d861a30dc6b5e0bff6bd6d13a
 workflow-type: tm+mt
-source-wordcount: '48'
-ht-degree: 77%
+source-wordcount: '938'
+ht-degree: 98%
 
 ---
 
@@ -21,141 +21,139 @@ ht-degree: 77%
 
 {{important-admin-console-onboard}}
 
-<!--REMOVE ME MARCH 2026-->
+Como administrador de Adobe Workfront, puede integrar el inicio de sesión único (SSO) de Workfront con cualquier proveedor de identidad que admita el protocolo SAML (Security Assertion Markup Language) 2.0.
 
-<!--As an Adobe Workfront administrator, you can integrate Workfront single sign-on (SSO) with any identity provider that supports the Security Assertion Markup Language (SAML) 2.0 protocol.
+En las secciones siguientes se describe el proceso de integración cuando su cuenta de Workfront se ha actualizado a la experiencia de autenticación mejorada (aún no disponible para todas las organizaciones). Para obtener más información acerca de la experiencia de autenticación mejorada, consulte [Información general sobre la autenticación mejorada](../../../administration-and-setup/manage-workfront/security/get-started-enhanced-authentication.md).
 
-The following sections describe the integration process when your Workfront account has been upgraded to the enhanced authentication experience (not yet available to all organizations). For more information about the enhanced authentication experience, see [Enhanced Authentication overview](../../../administration-and-setup/manage-workfront/security/get-started-enhanced-authentication.md).
-
-For information about configuring SAML prior to your migration to the enhanced authentication experience, see [Update SAML 2.0 metadata in your identity provider](../../../administration-and-setup/add-users/single-sign-on/update-saml-2-metadata-ip.md).
+Para obtener información sobre cómo configurar SAML antes de migrar a la experiencia de autenticación mejorada, consulte [Actualizar metadatos de SAML 2.0 en su proveedor de identidad](../../../administration-and-setup/add-users/single-sign-on/update-saml-2-metadata-ip.md).
 
 
-## Access requirements
+## Requisitos de acceso
 
-+++ Expand to view access requirements for the functionality in this article.
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
-You must have the following access to perform the steps in this article: 
+Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan</td> 
-   <td>Any</td> 
+   <td role="rowheader">Plan de Adobe Workfront</td> 
+   <td>Cualquiera</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license</td> 
+   <td role="rowheader">Licencia de Adobe Workfront</td> 
    <td>Plan</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Access level configurations</td> 
-   <td> <p>You must be a Workfront administrator.</p> <p><b>NOTE</b>: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td role="rowheader">Configuraciones de nivel de acceso</td> 
+   <td> <p>Debe ser administrador de Workfront.</p> <p><b>NOTA</b>: Si todavía no tiene acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 +++
 
-## Use Okta as your identity provider
+## Uso de Okta como proveedor de identidad
 
-Okta is an example of an identity provider that supports SAML 2.0. This section describes how to use Okta as your identity provider. Similar steps would be required when configuring another identity provider that supports SAML 2.0.
+Okta es un ejemplo de proveedor de identidad compatible con SAML 2.0. En esta sección se describe cómo utilizar Okta como proveedor de identidad. Se requerirían pasos similares al configurar otro proveedor de identidad que admita SAML 2.0.
 
 >[!NOTE]
 >
->Users are mapped based on their email address. In order to log in to Workfront using Okta, you must have a user with the same (case-insensitive) email address created in your Workfront customer.
+>Los usuarios se asignan en función de su dirección de correo electrónico. Para iniciar sesión en Workfront con Okta, debe tener un usuario con la misma dirección de correo electrónico (sin distinción de mayúsculas y minúsculas) creado en su cliente de Workfront.
 
-Complete the following sections to configure Okta as your identity provider in Workfront.
+Complete las siguientes secciones para configurar Okta como su proveedor de identidad en Workfront.
 
-* [Create a Workfront app in Okta](#create-a-workfront-app-in-okta) 
-* [Add your Okta instance as an identity provider in Workfront](#add-your-okta-instance-as-an-identity-provider-in-workfront)
+* [Creación de una aplicación de Workfront en Okta](#create-a-workfront-app-in-okta)
+* [Añadir la instancia de Okta como proveedor de identidad en Workfront](#add-your-okta-instance-as-an-identity-provider-in-workfront)
 
-### Create a Workfront app in Okta {#create-a-workfront-app-in-okta}
+### Crear una aplicación de Workfront en Okta {#create-a-workfront-app-in-okta}
 
-1. Log in to your Okta environment. 
-1. Ensure that **Classic UI** is selected in the upper-left corner of the Okta interface.
-1. In the menu, click **Applications** > **Applications**.
+1. Inicie sesión en su entorno de Okta.
+1. Asegúrese de que **IU clásica** esté seleccionada en la esquina superior izquierda de la interfaz de Okta.
+1. En el menú, haga clic en **Aplicaciones** > **Aplicaciones**.
 
-1. Click **Add Application**, then click **Create New App**.
+1. Haga clic en **Añadir aplicación** y, a continuación, haga clic en **Crear nueva aplicación**.
 
-1. In the **Create a New Application Integration dialog** box, select **SAML 2.0**, then click **Create**.
+1. En el cuadro de diálogo **Crear una nueva integración de aplicación**, seleccione **SAML 2.0** y, a continuación, haga clic en **Crear**.
 
-1. Specify a name for your Workfront app, then click **Next**.
-1. In the SAML Settings page that displays, locate information required for the SAML Settings page:
+1. Especifique un nombre para la aplicación de Workfront y haga clic en **Siguiente**.
+1. En la página Configuración de SAML que aparece, busque la información necesaria para la página Configuración de SAML:
 
-   1. Without exiting the browser tab where the Okta interface is displayed, open a separate browser tab or window.
-   1. Specify the following URL in the browser:
+   1. Sin salir de la pestaña del explorador donde se muestra la interfaz de Okta, abra una pestaña o ventana independiente del explorador.
+   1. Especifique la siguiente URL en el explorador:
 
       `https://[your_customer_subdomain].my.workfront.com/auth/saml2/metadata`
-   
-   1. In the resulting XML file, identify the values for **entityID** and **Location**.
+
+   1. En el archivo XML resultante, identifique los valores de **entityID** y **Location**.
 
       ![sso-okta.png](assets/sso-okta.png)
 
-   1. Copy the value from the **entityID** field to your system clipboard. Do not close this browser tab.
+   1. Copie el valor del campo **entityID** al portapapeles del sistema. No cierre esta pestaña del explorador.
 
-1. Go back to the SAML Settings page that you opened in Step 6. 
-1. Paste the value from the **entityID** field into the **Audience URI (SP Entity ID)** field.
+1. Vuelva a la página Configuración de SAML que abrió en el paso 6.
+1. Pegue el valor del campo **entityID** en el campo **URI de público (ID de entidad de SP)**.
 
-1. In the XML file in your other browser tab, copy the value from the **Location** field.
-1. Paste the value from the **Location** field into the **Single sign on** **URL** field.
+1. En el archivo XML de la pestaña del otro explorador, copie el valor del campo **Location**.
+1. Pegue el valor del campo **Location** en el campo **URL de** **inicio único de sesión**.
 
-1. Scroll to the **Attribute Statements (Optional)** section.
-1. In the **Name** field, specify **email**.
+1. Desplácese hasta la sección **Instrucciones de atributo (opcional)**.
+1. En el campo **Nombre**, especifique **email**.
 
-1. In the **Value** field, specify **user.email**.
+1. En el campo **Valor**, especifique **user.email**.
 
-1. (Optional) Add any advanced values.
-1. Click **Next**.
-1. Select, **I'm an Okta customer adding an internal app**, then click **Finish**.
+1. (Opcional) Añada cualquier valor avanzado.
+1. Haga clic en **Siguiente**.
+1. Seleccione **Soy cliente de Okta y quiero añadir una aplicación interna** y luego haga clic en **Finalizar**.
 
-### Add your Okta instance as an identity provider in Workfront {#add-your-okta-instance-as-an-identity-provider-in-workfront}
+### Añadir la instancia de Okta como proveedor de identidad en Workfront {#add-your-okta-instance-as-an-identity-provider-in-workfront}
 
-This procedure provides essential information for configuring Okta as an identity provider in Workfront. For additional information about other mappings or configuration options, see [Configure Adobe Workfront with SAML 2.0](../../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2.md).
+Este procedimiento proporciona información esencial para configurar Okta como el proveedor de identidad en Workfront. Para obtener información adicional sobre otras asignaciones u opciones de configuración, consulte [Configuración de Adobe Workfront con SAML 2.0](../../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2.md).
 
-1. Download the identity provider metadata for your Okta instance:
+1. Descargue los metadatos del proveedor de identidad para su instancia de Okta:
 
-   1. Log in to your Okta environment. 
-   1. Ensure that **Classic UI** is selected in the upper-left corner of the Okta interface.
-   1. In the menu, click **Applications** > **Applications**.
-   
-   1. Click the Workfront app that you created, as described in the section, [Create a Workfront app in Okta](#create-a-workfront-app-in-okta)
-   1. On the **Sign On** tab, click **Identity Provider metadata**.
+   1. Inicie sesión en su entorno de Okta.
+   1. Asegúrese de que **IU clásica** esté seleccionada en la esquina superior izquierda de la interfaz de Okta.
+   1. En el menú, haga clic en **Aplicaciones** > **Aplicaciones**.
+
+   1. Haga clic en la aplicación de Workfront que creó, tal como se describe en la sección [Crear una aplicación de Workfront en Okta](#create-a-workfront-app-in-okta)
+   1. En la pestaña **Inicio de sesión**, haga clic en **Metadatos del proveedor de identidad**.
 
       ![idp_okta_metadata.png](assets/idp-okta-metadata.png)
 
-      The metadata is opened as XML in a new browser tab.
-   
-   1. Copy the URL that is displayed in the browser URL field.
+      Los metadatos se abren como XML en una nueva pestaña del explorador.
 
-1. Log in to Workfront as a Workfront administrator.
+   1. Copie la dirección URL que se muestra en el campo URL del explorador.
+
+1. Inicie sesión en Workfront como administrador de Workfront.
 
 {{step-1-to-setup}}
 
-1. In the left panel, click **System** > **Single Sign-On (SSO)**.
+1. En el panel izquierdo, haga clic en **Sistema** > **Inicio de sesión único (SSO)**.
 
-1. (Conditional) If you see two tabs, click the **New SSO Providers** tab.
+1. (Condicional) Si ve dos pestañas, haga clic en la pestaña **Nuevos proveedores de SSO**.
 
    ![sso_idp_halflife.png](assets/sso-idp-halflife-350x234.png)
 
    >[!IMPORTANT]
    >
-   >Do not delete your existing SSO configuration settings in the **Current SSO Provider** tab until your account is updated to the enhanced authentication experience and the new SSO configuration is fully functional.
+   >No elimine las opciones de configuración de SSO existentes en la pestaña **Proveedor de SSO actual** hasta que su cuenta se actualice a la experiencia de autenticación mejorada y la nueva configuración de SSO funcione por completo.
 
-1. Click **New SSO Provider**.
-1. Specify a name, such as Okta IDP, then specify a description.
-1. In the **Populate fields from Identity Provider Metadata** section, paste the URL that you copied in Step 1 into the **Metadata URL** field.   
-   Alternatively, you can click **Choose File** to upload an .xml file, but we recommend that you paste the URL.
+1. Haga clic en **Nuevo proveedor de SSO**.
+1. Especifique un nombre, como Okta IDP, y después especifique una descripción.
+1. En la sección **Rellenar campos a partir de los metadatos del proveedor de identidad**, pegue la dirección URL que copió en el paso 1, en el campo **URL de metadatos**.\
+   También puede hacer clic en **Elegir archivo** para cargar un archivo .xml, pero le recomendamos que pegue la dirección URL.
 
-1. In the **Map User Attributes** section, in the **Directory Attribute** field, type **email**. (**Email Address** is already populated in the **Workfront User Attribute** field.)
+1. En la sección **Asignar atributos de usuario**, en el campo **Atributo de directorio**, escriba **correo electrónico**. (**La dirección de correo electrónico** ya se ha rellenado en el campo **Atributo de usuario de Workfront**).
 
-1. (Optional) Enable **Make Default SSO Provider** to send unathenticated users to the identity provider login screen instead of to the Workfront login screen for authentication. We recommend that you enable this option only if all users in your system access Workfront through the identity provider.
-1. Select the **Enable** checkbox. Before doing this, ensure that users in your system are aware of the new login experience to ensure they do not lose access to the Workfront system.
-1. Click **Test Connection**.  
-   You should see a message telling you the connection is successful. 
+1. (Opcional) Habilite **Establecer el proveedor de SSO predeterminado** para enviar usuarios no autenticados a la pantalla de inicio de sesión del proveedor de identidad en lugar de a la pantalla de inicio de sesión de Workfront para la autenticación. Se recomienda habilitar esta opción solo si todos los usuarios de su sistema acceden a Workfront a través del proveedor de identidad.
+1. Seleccione la casilla de verificación **Habilitar**. Antes de hacerlo, asegúrese de que los usuarios del sistema conozcan la nueva experiencia de inicio de sesión para garantizar que no pierden el acceso al sistema de Workfront.
+1. Haga clic en **Probar conexión**.\
+   Debería ver un mensaje que le indica que la conexión se ha realizado correctamente.
 
-1. Click **Save**.
+1. Haga clic en **Guardar**.
 
-## Using other identity providers
+## Uso de otros proveedores de identidad
 
-When using identity providers other than Okta (such as Ping or Centrify), you must re-upload the Workfront metadata to your identity provider.-->
+Si utilice proveedores de identidad distintos de Okta (como Ping o Centrify), debe volver a cargar los metadatos de Workfront en su proveedor de identidad.

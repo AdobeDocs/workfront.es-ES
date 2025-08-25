@@ -9,10 +9,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: a0617270-e233-4ebe-a5ee-8df7a8a85823
-source-git-commit: d2dd148c8b7a08f4ea9a13e325a33f753eea2d7d
+source-git-commit: d585b698b6c7900d861a30dc6b5e0bff6bd6d13a
 workflow-type: tm+mt
-source-wordcount: '687'
-ht-degree: 94%
+source-wordcount: '747'
+ht-degree: 96%
 
 ---
 
@@ -96,9 +96,17 @@ Para obtener más información, consulte [Crear y editar empresas](../../adminis
 
 Un usuario debe estar activo para aparecer en cualquier campo de escritura anticipada de todos los demás objetos al realizar asignaciones o compartirlos.
 
-Debe desactivar usuarios a través de [!UICONTROL Adobe Admin Console].
+Puede desactivar usuarios desde la página del usuario o mientras está editando un usuario.
 
-Para obtener instrucciones sobre cómo desactivar un usuario en [!UICONTROL Adobe Admin Console], consulta la sección “Eliminar usuarios” en el artículo [Administración de usuarios individualmente](https://helpx.adobe.com/es/enterprise/using/manage-users-individually.html?lang=es) o póngase en contacto con su administrador de [!UICONTROL Adobe Admin Console].
+Para obtener información sobre cómo desactivar usuarios, consulte [Desactivar o reactivar un usuario](../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md).
+
+>[!IMPORTANT]
+>
+>Si su organización se ha incorporado a [!DNL Adobe Business Platform], debe desactivar usuarios mediante [!UICONTROL Adobe Admin Console].
+>
+>Para obtener instrucciones sobre cómo desactivar un usuario en [!UICONTROL Adobe Admin Console], consulta la sección “Eliminar usuarios” en el artículo [Administración de usuarios individualmente](https://helpx.adobe.com/enterprise/using/manage-users-individually.html?lang=es) o póngase en contacto con su administrador de [!UICONTROL Adobe Admin Console].
+>
+>Para obtener una lista de procedimientos que difieren según si su organización se ha incorporado a [!DNL Adobe Business Platform], consulte [Diferencias de administración basadas en la plataforma (Adobe Workfront/Adobe Business Platform)](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
 ## Equipos
 

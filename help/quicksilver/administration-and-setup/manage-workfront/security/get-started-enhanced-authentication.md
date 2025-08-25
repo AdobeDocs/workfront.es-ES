@@ -6,9 +6,9 @@ hide: true
 feature: System Setup and Administration
 role: Admin
 exl-id: bf3c6c6f-ddd5-42d0-9efe-b5eb94549f85
-source-git-commit: c71c5c4a545f9256ecce123ae3513d01a7251ad7
+source-git-commit: d585b698b6c7900d861a30dc6b5e0bff6bd6d13a
 workflow-type: tm+mt
-source-wordcount: '13'
+source-wordcount: '537'
 ht-degree: 100%
 
 ---
@@ -19,11 +19,9 @@ ht-degree: 100%
 
 {{important-admin-console-onboard}}
 
-<!--REMOVE ME MARCH 2026-->
+Adobe Workfront está cambiando la administración del sistema de usuarios y contraseñas. Estos cambios se implementarán en una versión por fases denominada experiencia de **Autenticación mejorada**. La autenticación mejorada ofrece a los usuarios una experiencia de inicio de sesión más coherente y segura en todos los productos y servicios de Workfront.
 
-<!--Adobe Workfront is changing the system management of users and passwords. These changes will roll out in a phased release called **Enhanced Authentication** experience. Enhanced Authentication offers users a more consistent and secure sign-in experience across all Workfront products and services.
-
-The following table provides details about current and future functionality:
+La siguiente tabla proporciona detalles sobre la funcionalidad actual y futura:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -32,83 +30,83 @@ The following table provides details about current and future functionality:
  <col data-mc-conditions=""> 
  <thead> 
   <tr> 
-   <th> <p><strong>Feature</strong> </p> </th> 
-   <th><strong>Legacy Authentication</strong> </th> 
-   <th><strong>Enhanced Authentication 1.0</strong> </th> 
-   <th> <p>Enhanced Authentication 2.0</p> </th> 
+   <th> <p><strong>Función</strong> </p> </th> 
+   <th><strong>Autenticación heredada</strong> </th> 
+   <th><strong>Autenticación mejorada 1.0</strong> </th> 
+   <th> <p>Autenticación mejorada 2.0</p> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td colspan="3"> <p><strong>Login options</strong> </p> </td> 
+   <td colspan="3"> <p><strong>Opciones de inicio de sesión</strong> </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Enable a single username to be used for all Workfront products and services, including training, support, and others</p> </td> 
-   <td>Not available</td> 
-   <td> <p>Not available</p> </td> 
+   <td> <p>Habilite un solo nombre de usuario para utilizarlo en todos los productos y servicios de Workfront, incluidos aprendizaje, asistencia y otros</p> </td> 
+   <td>No disponible</td> 
+   <td> <p>No disponible</p> </td> 
    <td> <p>✓</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Allow using the same email address across Workfront instances</p> </td> 
-   <td> <p>✓</p> <p>Available as of the 2019.3 release</p> </td> 
-   <td> <p>✓</p> <p>Available as of the 2019.3 release</p> </td> 
-   <td> <p>✓</p> <p>Available as of the 2019.3 release</p> </td> 
+   <td> <p>Permitir el uso de la misma dirección de correo electrónico en todas las instancias de Workfront</p> </td> 
+   <td> <p>✓</p> <p>Disponible a partir de la versión 2019.3</p> </td> 
+   <td> <p>✓</p> <p>Disponible a partir de la versión 2019.3</p> </td> 
+   <td> <p>✓</p> <p>Disponible a partir de la versión 2019.3</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Email addresses are case-insensitive</p> </td> 
-   <td> <p>✓</p> <p>Available as of the 2019.3 release</p> </td> 
-   <td> <p>✓</p> <p>Multiple users cannot have the same email address if the address differs only by case. </p> </td> 
-   <td> <p>✓</p> <p>Multiple users cannot have the same email address if the address differs only by case. </p> <p>Workfront administrators will be notified toward the end of 2019 to begin fixing duplicate email addresses.</p> </td> 
+   <td> <p>Las direcciones de correo electrónico no distinguen entre mayúsculas y minúsculas</p> </td> 
+   <td> <p>✓</p> <p>Disponible a partir de la versión 2019.3</p> </td> 
+   <td> <p>✓</p> <p>Varios usuarios no pueden tener la misma dirección de correo electrónico si la dirección solo difiere según el caso. </p> </td> 
+   <td> <p>✓</p> <p>Varios usuarios no pueden tener la misma dirección de correo electrónico si la dirección solo difiere según el caso. </p> <p>Se notificará a los administradores de Workfront a finales de 2019 para que empiecen a corregir direcciones de correo electrónico duplicadas.</p> </td> 
   </tr> 
   <tr> 
-   <td colspan="3"> <p><strong>Password management options</strong> </p> </td> 
+   <td colspan="3"> <p><strong>Opciones de administración de contraseñas</strong> </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Instigate a password reset email for a user as the Workfront administrator</p> </td> 
-   <td> <p>Not available </p> </td> 
+   <td> <p>Instigar un correo electrónico de restablecimiento de contraseña para un usuario como administrador de Workfront</p> </td> 
+   <td> <p>No disponible </p> </td> 
    <td> <p>✓</p> </td> 
    <td> <p>✓</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Set a temporary password for a user as the Workfront administrator</p> </td> 
+   <td> <p>Establecer una contraseña temporal para un usuario como administrador de Workfront</p> </td> 
    <td> <p>✓</p> </td> 
-   <td> <p>Not planned</p> <p>This functionality is not a security best practice</p> </td> 
-   <td> <p>Not planned</p> <p>This functionality is not a security best practice</p> </td> 
+   <td> <p>No planificado</p> <p>Esta funcionalidad no es una práctica recomendada de seguridad</p> </td> 
+   <td> <p>No planificado</p> <p>Esta funcionalidad no es una práctica recomendada de seguridad</p> </td> 
   </tr> 
   <tr> 
-   <td colspan="3"> <p><strong>Password policy requirements</strong> </p> </td> 
+   <td colspan="3"> <p><strong>Requisitos de política de contraseñas</strong> </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Require users to reset passwords after a certain timeframe</p> </td> 
+   <td> <p>Requerir que los usuarios restablezcan las contraseñas después de un periodo de tiempo determinado</p> </td> 
    <td>✓</td> 
-   <td> <p>Not planned</p> </td> 
+   <td> <p>No planificado</p> </td> 
    <td> <p>✓</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Restrict users from using a previous password </p> </td> 
+   <td> <p>Restringir a los usuarios el uso de una contraseña anterior </p> </td> 
    <td>✓</td> 
-   <td>Not planned </td> 
+   <td>No planificado </td> 
    <td> <p>✓</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Safeguard against incorrect password entry attempts </p> </td> 
-   <td> <p>✓ </p> <p>Locks the account after 5 incorrect password entry attempts. The wait time required after lockout is configured by the Workfront administrator</p> </td> 
-   <td> <p>✓</p> <p>Wait time is exponentially increased after each successive incorrect password based on industry best practices; the time required is not configurable by the Workfront administrator</p> </td> 
-   <td> <p>✓</p> <p>Uses a lock-out algorithm that proactively blocks a variety of suspicious behavior.</p> </td> 
+   <td> <p>Protegerse contra intentos incorrectos de introducción de contraseñas </p> </td> 
+   <td> <p>✓ </p> <p>Bloquea la cuenta tras cinco intentos incorrectos de introducción de contraseña. El tiempo de espera necesario después de que el administrador de Workfront haya configurado el bloqueo</p> </td> 
+   <td> <p>✓</p> <p>El tiempo de espera aumenta exponencialmente después de cada contraseña incorrecta sucesiva en función de las prácticas recomendadas del sector; el administrador de Workfront no puede configurar el tiempo requerido</p> </td> 
+   <td> <p>✓</p> <p>Utiliza un algoritmo de bloqueo que bloquea de forma proactiva una variedad de comportamientos sospechosos.</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Require a mix of lowercase, uppercase, numbers, and special characters</p> </td> 
+   <td> <p>Requerir una combinación de minúsculas, mayúsculas, números y caracteres especiales</p> </td> 
    <td>✓</td> 
-   <td> <p>✓ </p> <p>Enhanced flexibility in choosing specific requirements</p> </td> 
+   <td> <p>✓ </p> <p>Mayor flexibilidad a la hora de elegir requisitos específicos</p> </td> 
    <td> <p>✓</p> <p> 
      </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Set a minimum password length </p> </td> 
-   <td> Not available </td> 
+   <td> <p>Establecer una longitud mínima de contraseña </p> </td> 
+   <td> No disponible </td> 
    <td> ✓ </td> 
    <td> <p>✓</p> </td> 
   </tr> 
@@ -119,55 +117,55 @@ The following table provides details about current and future functionality:
     <td>Not available</td> 
     <td> <p>✓</p> </td> 
    </tr>
-  -->
-<!--<tr> 
-   <td colspan="3"> <p><strong>Single Sign-On Protocol support</strong></p> </td> 
-   <td>&nbsp;</td> 
+  --> 
+  <tr> 
+   <td colspan="3"> <p><strong>Compatibilidad con el protocolo de inicio de sesión único</strong></p> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
-   <td> <p>Supports SSO integrations that are compliant with Active Directory and LDAP protocols</p> </td> 
-   <td> ✓&nbsp;</td> 
-   <td> <p> Deprecated</p> <p>Active Directory, Azure, and LDAP systems should use SAML 2.0</p> </td> 
-   <td> <p>Deprecated</p> <p>Active Directory, Azure, and LDAP systems can be configured with encrypted SAML 2.0 or OpenID Connect.</p> </td> 
+   <td> <p>Admite integraciones SSO compatibles con los protocolos Active Directory y LDAP</p> </td> 
+   <td> ✓ </td> 
+   <td> <p> Obsoleto</p> <p>Los sistemas Active Directory, Azure y LDAP deben utilizar SAML 2.0</p> </td> 
+   <td> <p>Obsoleto</p> <p>Los sistemas Active Directory, Azure y LDAP se pueden configurar con SAML 2.0 cifrado o OpenID Connect.</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Supports SSO protocols that are compliant with SAML 2.0&nbsp;</p> </td> 
+   <td> <p>Admite protocolos SSO compatibles con SAML 2.0 </p> </td> 
    <td>✓</td> 
-   <td> ✓&nbsp;</td> 
+   <td> ✓ </td> 
    <td> <p>✓</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Supports Open ID Connect protocols</p> </td> 
-   <td> <p>Not available</p> </td> 
-   <td> <p>Not available</p> </td> 
+   <td> <p>Admite protocolos de conexión Open ID</p> </td> 
+   <td> <p>No disponible</p> </td> 
+   <td> <p>No disponible</p> </td> 
    <td> <p>✓</p> </td> 
   </tr> 
   <tr> 
-   <td> <p> Configure the Workfront login page to always redirect to the identity provider login page </p> </td> 
-   <td> Enabled by default and cannot be disabled</td> 
-   <td> <p>✓</p> <p>Workfront administrator can configure the login page to redirect to the identity provider login page, or can configure a login button or buttons.</p> </td> 
-   <td> <p>✓</p> <p> Workfront administrators can configure the login page to redirect to the identity provider login page, or can configure a login button or buttons.</p> </td> 
+   <td> <p> Configurar la página de inicio de sesión de Workfront para que redirija siempre a la página de inicio de sesión del proveedor de identidad </p> </td> 
+   <td> Habilitado de forma predeterminada y no se puede deshabilitar</td> 
+   <td> <p>✓</p> <p>El administrador de Workfront puede configurar la página de inicio de sesión para redirigirla a la página de inicio de sesión del proveedor de identidad o puede configurar un botón o botones de inicio de sesión.</p> </td> 
+   <td> <p>✓</p> <p> Los administradores de Workfront pueden configurar la página de inicio de sesión para redirigirla a la página de inicio de sesión del proveedor de identidad o puede configurar un botón o botones de inicio de sesión.</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Allow each instance to enable multiple SSO providers</p> </td> 
-   <td> <p>N/A</p> </td> 
-   <td> <p>Not planned</p> </td> 
+   <td> <p>Permitir que cada instancia habilite varios proveedores de SSO</p> </td> 
+   <td> <p>N/D</p> </td> 
+   <td> <p>No planificado</p> </td> 
    <td> <p>✓</p> </td> 
   </tr> 
   <tr> 
-   <td colspan="3"> <p><strong>Environment support</strong> </p> </td> 
-   <td>&nbsp;</td> 
+   <td colspan="3"> <p><strong>Compatibilidad con entornos</strong> </p> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
-   <td> <p>A single username and password for Preview environments</p> </td> 
-   <td> <p>Not available</p> </td> 
-   <td> <p>Not available</p> </td> 
+   <td> <p>Un solo nombre de usuario y contraseña para los entornos de vista previa</p> </td> 
+   <td> <p>No disponible</p> </td> 
+   <td> <p>No disponible</p> </td> 
    <td> <p>✓</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>A single username and password for Sandbox environments</p> </td> 
-   <td> <p>Not available</p> </td> 
-   <td> <p>Not available</p> </td> 
+   <td> <p>Un solo nombre de usuario y contraseña para entornos de zona protegida</p> </td> 
+   <td> <p>No disponible</p> </td> 
+   <td> <p>No disponible</p> </td> 
    <td> <p>✓</p> </td> 
   </tr> 
   <!--
@@ -183,5 +181,6 @@ The following table provides details about current and future functionality:
     <td> ✓</td> 
     <td> <p>✓</p> </td> 
    </tr>
-   </tbody> 
-</table>-->
+  --> 
+ </tbody> 
+</table>
