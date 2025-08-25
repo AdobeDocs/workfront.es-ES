@@ -6,9 +6,9 @@ description: Cuando un administrador de  [!DNL Workfront]  cree un nuevo usuario
 author: Courtney
 feature: Get Started with Workfront
 exl-id: a13dbe33-f283-4732-a7f2-5a94a37855f0
-source-git-commit: f381b37e6d4537e6f83e55ed4a2f4ff7f868dd54
+source-git-commit: a25eb28800ca8bbeeffedb521b3d72c8df71c697
 workflow-type: tm+mt
-source-wordcount: '312'
+source-wordcount: '321'
 ht-degree: 100%
 
 ---
@@ -42,6 +42,7 @@ Para saber qué plan o tipo de licencia tiene, póngase en contacto con el admin
 
 Cuando un administrador de [!DNL Workfront] cree un nuevo usuario, este último recibirá un correo electrónico de invitación en función de varios factores:
 
+* Si la organización del usuario se incorporó a [!DNL Adobe Admin Console]
 * Si el usuario se añadió a [!DNL Workfront] o [!DNL Admin Console]
 * Si el usuario tiene acceso a otros productos de [!DNL Adobe] o se trata de un nuevo usuario de [!DNL Adobe]
 * Si el administrador eligió enviar al usuario una invitación por correo electrónico (solo se aplica a las organizaciones que aún no estén en [!DNL Admin Console])

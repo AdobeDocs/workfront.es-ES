@@ -11,18 +11,14 @@ feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: e168ba61-8e12-4f42-961a-465b62bc4775
-source-git-commit: f381b37e6d4537e6f83e55ed4a2f4ff7f868dd54
+source-git-commit: a25eb28800ca8bbeeffedb521b3d72c8df71c697
 workflow-type: tm+mt
-source-wordcount: '72'
-ht-degree: 58%
+source-wordcount: '49'
+ht-degree: 85%
 
 ---
 
 # Administración de Workfront en Adobe Admin Console
-
->[!IMPORTANT]
->
->Todas las organizaciones de Workfront se han migrado a Adobe Admin Console. Esta sección de artículos se eliminará en un futuro próximo.
 
 Esta sección contiene los siguientes artículos:
 
