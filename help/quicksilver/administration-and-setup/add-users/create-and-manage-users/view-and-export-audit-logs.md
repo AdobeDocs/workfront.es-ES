@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: b04e8ba5-c3f2-4838-8df1-35e90de5c7bd
-source-git-commit: 4569b5bd004a93396257f3f1f8964831f69399dc
+source-git-commit: 6d02397a15b0b06c3c60fb5d71dfeb3cb0b0a30d
 workflow-type: tm+mt
-source-wordcount: '424'
+source-wordcount: '426'
 ht-degree: 13%
 
 ---
@@ -25,7 +25,7 @@ Puede ver todos los registros de auditoría del sistema o los que cumplen determ
 
 Los registros de auditoría enumeran los cambios de usuario activados en el sistema durante los últimos 90 días.
 
-Para obtener información acerca de todos los tipos de registros de auditoría y lo que los genera, vea [Registros de auditoría](../../../administration-and-setup/add-users/create-and-manage-users/audit-logs.md).
+Para obtener información acerca de todos los tipos de registros de auditoría y lo que los genera, vea [Resumen de los registros de auditoría](../../../administration-and-setup/add-users/create-and-manage-users/audit-logs.md).
 
 ## Requisitos de acceso
 
@@ -74,7 +74,7 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
 
    **Todos los tipos de registro** está seleccionado de forma predeterminada.
 
-   Para obtener una lista de todos los tipos de registros de auditoría que puede ver y la información que contienen, vea [Registros de auditoría](../../../administration-and-setup/add-users/create-and-manage-users/audit-logs.md).
+   Para obtener una lista de todos los tipos de registros de auditoría que puede ver y la información que contienen, vea [Resumen de los registros de auditoría](../../../administration-and-setup/add-users/create-and-manage-users/audit-logs.md).
 
 1. (Opcional) Defina cualquiera de los filtros disponibles para los siguientes campos:
 

@@ -6,9 +6,9 @@ description: El [!DNL Adobe Workfront] glosario enumera términos de uso común 
 author: Alina
 feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
-source-git-commit: 594f224e11b0e7708ed555410b7c331741113791
+source-git-commit: 6d02397a15b0b06c3c60fb5d71dfeb3cb0b0a30d
 workflow-type: tm+mt
-source-wordcount: '21141'
+source-wordcount: '21167'
 ht-degree: 96%
 
 ---
@@ -42,7 +42,7 @@ La siguiente tabla es una lista de los términos más utilizados en Adobe Workfr
   </tr> 
   <tr> 
    <td>[!UICONTROL Active Task]</td> 
-   <td>Una tarea incompleta en un proyecto actual que no está impedida de ser trabajada por una tarea predecesora y no tiene una restricción de tarea con una futura fecha planificada de inicio. En otras palabras, está disponible para trabajar en ello.</td> 
+   <td>Una tarea incompleta en un proyecto actual que no está impedida de ser trabajada por una tarea predecesora y no tiene una restricción de tarea con una futura fecha de inicio planificada. En otras palabras, está disponible para trabajar en ello.</td> 
   </tr> 
   <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
    <td>[!UICONTROL Activity]</td> 
@@ -50,7 +50,9 @@ La siguiente tabla es una lista de los términos más utilizados en Adobe Workfr
   </tr> 
   <tr> 
    <td>[!UICONTROL Actual Cost]</td> 
-   <td> <p>En el caso de tareas y problemas, se trata del coste asociado a las horas reales registradas en relación con la tarifa coste por hora del recurso asignado a la tarea o al problema. En el caso de los proyectos, se trata de un total de todos los [!UICONTROL Actual Costs] de las tareas y problemas del proyecto. Para obtener más información, consulte <a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">Seguimiento de costes</a>.</p> </td> 
+   <td> <p>En el caso de tareas y problemas, se trata del coste asociado a las horas reales registradas en relación con la tarifa coste por hora del recurso asignado a la tarea o al problema. En el caso de los proyectos, se trata de un total de todos los [!UICONTROL Actual Costs] de las tareas y problemas del proyecto. Para obtener más información, consulte <a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">Seguimiento de costes</a>.</p>
+
+<p>Los cálculos de [!UICONTROL Costo real] tienen en cuenta las [!UICONTROL Horas reales heredadas]. Para obtener más información, consulte "[!UICONTROL Horas reales]" o "[!UICONTROL Horas reales heredadas]" en esta tabla. </p>   </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Actual Expense Cost]</td> 
@@ -68,7 +70,7 @@ La siguiente tabla es una lista de los términos más utilizados en Adobe Workfr
      <li> <p><code>For parent tasks = children [!UICONTROL Actual Hours] + [!UICONTROL Actual Hours] on the parent task. </code> </p> </li> 
      <li> <p><code>For projects = [!UICONTROL Actual Hours] logged on the project + [!UICONTROL Actual Hours] logged on standalone or children tasks in the project + [!UICONTROL Actual Hours] logged on issues in the project</code>  </p> </li> 
     </ul> 
-   <p>Consulte también <strong>Horas reales heredadas</strong>.
+   <p>Consulte también <strong>[!UICONTROL Horas reales heredadas]</strong>.
     <p>Para obtener más información, vea <a href="/help/quicksilver/manage-work/tasks/task-information/actual-hours.md">Ver horas reales</a>.</p>
     </td> 
   </tr> 
@@ -363,7 +365,7 @@ La siguiente tabla es una lista de los términos más utilizados en Adobe Workfr
        </tr> 
        <tr> 
         <td>[!UICONTROL Bud. Hours]</td> 
-        <td> <p>Informe de [!UICONTROL Budgeted Hour]</p><p>El objeto [!UICONTROL Budgeted Hour] del informe de Hora presupuestada hace referencia a información relacionada con una herramienta de administración de recursos obsoleta. Solo el campo "[!UICONTROL . Hours]" en este informe hace referencia a las horas presupuestadas en el área de [!UICONTROL Resource Planner] o [!UICONTROL Resource Budgeting] del [!UICONTROL Business Case] del proyecto. </p> <p>Para obtener más información acerca de cómo crear un informe, consulte el artículo <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md" class="MCXref xref">Crear un informe personalizado</a>.</p> </td> 
+        <td> <p>Informe de [!UICONTROL Budgeted Hour]</p><p>El objeto [!UICONTROL Budgeted Hour] del informe de Hora presupuestada hace referencia a información relacionada con una herramienta de administración de recursos obsoleta. Solo el campo "[!UICONTROL. Hours]" en este informe hace referencia a las horas presupuestadas en el área de [!UICONTROL Resource Planner] o [!UICONTROL Resource Budgeting] del [!UICONTROL Business Case] del proyecto. </p> <p>Para obtener más información acerca de cómo crear un informe, consulte el artículo <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md" class="MCXref xref">Crear un informe personalizado</a>.</p> </td> 
        </tr> 
        <tr> 
         <td>[!UICONTROL Resource Planner Budgeted Hours] </td> 
@@ -1020,7 +1022,7 @@ The designated full time equivalency for users. A full-time user should have 100
    <td><p>Hay dos conceptos de metas en [!DNL Workfront]: </p> 
     <ul> 
      <li> <p><b>Metas del proyecto</b>: un conjunto de metas empresariales acordadas por las partes interesadas relevantes de un proyecto. Las metas del proyecto forman parte del caso empresarial de un proyecto. </p> <p>No puede mostrar las metas del proyecto en listas o informes, pero puede acceder a ellos a través de la API. </p> <p>Para obtener información acerca de las metas del proyecto de caso empresarial, vea <a href="../../../manage-work/projects/define-a-business-case/create-business-case-goals.md">Crear metas de caso empresarial </a>. </p> </li> 
-     <li> <p><b>Metas estratégicas</b>: Una meta estratégica es una meta que se crea para planificar la estrategia de trabajo para un período de tiempo específico. Puede crear estos tipos de metas usando [!DNL Workfront Goals]. Su organización debe adquirir una licencia adicional y debe tener acceso a esta función para poder crear metas estratégicas. [!DNL Workfront Goals] solo están disponibles con una licencia adicional.</p> 
+     <li> <p><b>Metas estratégicas</b>: Una meta estratégica es una meta que se crea para planificar la estrategia de trabajo para un período de tiempo específico. Puede crear estos tipos de metas usando [!DNL Workfront Goals]. Su organización debe comprar una licencia adicional y debe tener acceso a esta función para poder crear metas estratégicas. [!DNL Workfront Goals] solo están disponibles con una licencia adicional.</p> 
      <p>Para obtener más información, vea <a href="../../../workfront-goals/goal-management/wf-goals-overview.md">[!DNL Adobe Workfront Goals] información general </a>. </p> 
      <p>Puede mostrar metas estratégicas en una meta o en un informe de proyecto y acceder a ellas a través de la API. </p> </li> 
     </ul> </td> 
@@ -2067,7 +2069,7 @@ Las entradas de horas pueden tener uno de los siguientes estados en Workfront:
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Optimized"> 
    <td>[!UICONTROL Scenario] (en [!DNL Workfront Fusion]) </td> 
-   <td> <p>Un escenario consiste en una serie de pasos (módulos) que indican cómo se deben transferir y transformar los datos entre aplicaciones y servicios.</p> <p>Para obtener información acerca de los escenarios de [!DNL Workfront Fusion], consulte Información general sobre escenarios de <a href="https://experienceleague.adobe.com/es/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/scenario-overview">[!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>Un escenario consiste en una serie de pasos (módulos) que indican cómo se deben transferir y transformar los datos entre aplicaciones y servicios.</p> <p>Para obtener información acerca de los escenarios de [!DNL Workfront Fusion], consulte Información general sobre escenarios de <a href="https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/scenario-overview">[!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Scenario] (en el [!DNL Workfront Scenario Planner]) </td> 

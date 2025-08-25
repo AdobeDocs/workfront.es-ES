@@ -1,5 +1,5 @@
 ---
-title: Registros de auditoría
+title: Resumen de registros de auditoría
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
@@ -8,14 +8,14 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 6adb4146-42fd-4eda-b46f-c61d7ff71df6
-source-git-commit: d585b698b6c7900d861a30dc6b5e0bff6bd6d13a
+source-git-commit: aeb55124fa76192a5c39b504964fe9acc16c31d8
 workflow-type: tm+mt
-source-wordcount: '1523'
+source-wordcount: '1522'
 ht-degree: 6%
 
 ---
 
-# Registros de auditoría
+# Resumen de registros de auditoría
 
 <!--Audited: 01/2024-->
 
@@ -73,14 +73,14 @@ En cada entrada de registro de auditoría se registran los campos siguientes:
 * [Sección personalizada](#custom-section)
 * [Tasa de cambio](#exchange-rate)
 * [Grupo](#group)
-* [Funciones](#job-roles)
-* [Intento de inicio de sesión](#login-attempt)
+* [Función](#job-role)
 * [Prioridad](#priority)
 * [Preferencia del proyecto](#project-preference)
 * [Gravedad](#severity)
 * [Estado](#status)
 * [Preferencias de tareas y problemas](#tasks-issues-preferences)
 * [Usuario](#user)
+<!--* [Login Attempt](#login-attempt) -->
 
 ### Nivel de acceso {#access-level}
 
@@ -236,7 +236,7 @@ El sistema genera una entrada de registro de auditoría de grupo cuando un usuar
    * Agrega o quita usuarios
    * Agrega o quita subgrupos
 
-### Roles {#job-roles}
+### s {#job-role}
 
 El sistema genera una entrada de registro de auditoría de funciones de trabajo cuando un usuario realiza una de las siguientes acciones:
 

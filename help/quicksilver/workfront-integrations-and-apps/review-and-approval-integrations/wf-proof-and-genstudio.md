@@ -8,9 +8,9 @@ author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 9905a522-9913-49c0-8c80-a8b46221fcbb
-source-git-commit: 4b0ba0112138b91b12e10f4770ecab3db4e3fddb
+source-git-commit: 6d02397a15b0b06c3c60fb5d71dfeb3cb0b0a30d
 workflow-type: tm+mt
-source-wordcount: '551'
+source-wordcount: '554'
 ht-degree: 9%
 
 ---
@@ -25,7 +25,7 @@ Con la integración entre GenStudio for Performance Marketing y Workfront Proof,
 
 * Ver decisiones de revisión en GenStudio for Performance Marketing para su aprobación y publicación finales
 
-Para obtener más información acerca de la revisión y aprobación en GenStudio for Performance Marketing, consulte [Integración de Workfront Proof con GenStudio for Performance Marketing](https://experienceleague.adobe.com/es/docs/genstudio-for-performance-marketing/user-guide/approve/proof-integration).
+Para obtener más información acerca de la revisión y aprobación en GenStudio for Performance Marketing, consulte [Integración de Workfront Proof con GenStudio for Performance Marketing](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/approve/proof-integration).
 
 
 ## Requisitos de acceso
@@ -67,9 +67,9 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
 
 ## Requisitos de integración
 
-* Workfront y GenStudio for Performance Marketing deben implementarse en la misma organización de IMS.
+* Workfront y GenStudio for Performance Marketing deben implementarse en la misma organización de Identity Management system (IMS).
 
-* Los usuarios solo pueden pertenecer a una instancia de Workfront dentro de la organización de IMS.
+* Los usuarios solo pueden pertenecer a una instancia de Workfront dentro de la organización IMS.
 
 * La instancia de Workfront debe estar habilitada en la experiencia unificada de Adobe.
 
@@ -102,7 +102,7 @@ Para obtener más información sobre la creación de plantillas y flujos de trab
 
 Cuando un usuario inicia una revisión en GenStudio for Performance Marketing, simplemente elige la plantilla que necesita. Los usuarios pueden cambiar fácilmente cualquier plantilla de flujo de trabajo de prueba y agregar o eliminar revisores y fases en cualquier momento.
 
-Para obtener más información, vea [Solicitar revisión y aprobación](https://experienceleague.adobe.com/es/docs/genstudio-for-performance-marketing/user-guide/approve/request-review).
+Para obtener más información, vea [Solicitar revisión y aprobación](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/approve/request-review).
 
 ## Revise y apruebe el contenido de borrador de GenStudio for Performance Marketing en el visualizador de pruebas de Workfront
 
@@ -114,7 +114,7 @@ Con el visualizador de pruebas, puede
 * Borrador de marcado para mostrar lo que debe cambiar
 * Tomar una decisión
 
-Para obtener más información, vea [Revisar y editar contenido](https://experienceleague.adobe.com/es/docs/genstudio-for-performance-marketing/user-guide/approve/review-and-edit).
+Para obtener más información, vea [Revisar y editar contenido](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/approve/review-and-edit).
 
 
 >[!IMPORTANT]
@@ -126,4 +126,4 @@ Para obtener más información, vea [Revisar y editar contenido](https://experie
 
 Una vez que el recurso ha pasado por el proceso de revisión y aprobación, puede ver la decisión de revisión y publicar el contenido directamente desde GenStudio for Performance Marketing.
 
-Para obtener más información, consulte [Publicar contenido aprobado](https://experienceleague.adobe.com/es/docs/genstudio-for-performance-marketing/user-guide/approve/publish-content).
+Para obtener más información, consulte [Publicar contenido aprobado](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/approve/publish-content).

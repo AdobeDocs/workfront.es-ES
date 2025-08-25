@@ -10,10 +10,10 @@ feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 014cb6de-fb96-44df-a29c-b210afe9c55c
-source-git-commit: eb68357ed4fd8f323707aa4a54a0f946253bf4e0
+source-git-commit: 6d02397a15b0b06c3c60fb5d71dfeb3cb0b0a30d
 workflow-type: tm+mt
-source-wordcount: '103'
-ht-degree: 87%
+source-wordcount: '104'
+ht-degree: 84%
 
 ---
 
@@ -35,7 +35,7 @@ Esta sección contiene los siguientes artículos:
 * [Asignar atributos de usuario y aprovisionar automáticamente nuevos usuarios](../../../administration-and-setup/add-users/create-and-manage-users/map-user-attributes.md)
 * [Desactivar o volver a activar un usuario](../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md)
 * [Eliminar usuarios](../../../administration-and-setup/add-users/create-and-manage-users/delete-a-user.md)
-* [Registros de auditoría](../../../administration-and-setup/add-users/create-and-manage-users/audit-logs.md)
+* [Resumen de registros de auditoría](../../../administration-and-setup/add-users/create-and-manage-users/audit-logs.md)
 * [Ver y exportar registros de auditoría](../../../administration-and-setup/add-users/create-and-manage-users/view-and-export-audit-logs.md)
 * [Ver información de inicio de sesión del usuario](../../../administration-and-setup/add-users/create-and-manage-users/view-user-login-info.md)
 * [Administración de usuarios en Adobe Admin Console](../../../administration-and-setup/add-users/create-and-manage-users/admin-console.md)

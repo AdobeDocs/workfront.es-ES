@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 5027d611-916e-492d-9a44-841bdde11c94
-source-git-commit: b6ced451cdd6b38b5661a076b2311a34c2c70432
+source-git-commit: 6d02397a15b0b06c3c60fb5d71dfeb3cb0b0a30d
 workflow-type: tm+mt
-source-wordcount: '736'
-ht-degree: 46%
+source-wordcount: '791'
+ht-degree: 43%
 
 ---
 
@@ -115,7 +115,11 @@ Para obtener más información, consulte la sección “Fórmula” en el artíc
 * Los campos de fórmula podrían mostrarse como `#ERROR!` en los siguientes casos:
    * Cuando se elimina un campo utilizado en una fórmula.
    * Cuando un campo utilizado en un campo de búsqueda agregado se muestra como `#ERROR!`.
-Por ejemplo, si muestra un campo de búsqueda que contiene campos de fórmula de búsqueda agregados y uno de los campos de fórmula a los que se hace referencia se muestra como `#ERROR!`.
+
+     Por ejemplo, si muestra un campo de búsqueda que contiene campos de fórmula de búsqueda agregados y uno de los campos de fórmula a los que se hace referencia se muestra como `#ERROR!`.
+   * Cuando un valor de fórmula no se puede mostrar en el formato seleccionado.
+
+     Por ejemplo, si selecciono Número para el formato de un campo de fórmula y los campos utilizados en la fórmula son campos de texto que sólo muestran valores de texto no numéricos, el resultado de la fórmula se mostrará como `#ERROR!`, ya que no puede analizar el texto en un número.
 
 ## Fórmulas compatibles
 
