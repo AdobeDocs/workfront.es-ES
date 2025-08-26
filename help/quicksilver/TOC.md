@@ -3,9 +3,9 @@ user-guide-title: Guía de Workfront
 user-guide-description: Utilice los siguientes documentos, tutoriales y recursos adicionales para aprender a implementar y utilizar Adobe Workfront de forma eficaz en su organización.
 role: User
 feature-set: Workfront
-source-git-commit: 6d02397a15b0b06c3c60fb5d71dfeb3cb0b0a30d
+source-git-commit: fcce7c6b9a2d10069a4b6c50b7b7a244ac538a33
 workflow-type: tm+mt
-source-wordcount: '13449'
+source-wordcount: '13461'
 ht-degree: 59%
 
 ---
@@ -1524,14 +1524,15 @@ ht-degree: 59%
          * [Administrar paneles de lienzo: índice de artículos](reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/manage-canvas-dashboards.md)
          * [Compartir un panel de lienzo](reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/share-canvas-dashboard.md)
          * [Organizar informes en un panel de lienzo](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/arrange-reports-in-dashboard.md)
+         * [Filtrado de un panel de lienzo](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/filter-canvas-dashboard.md)
          * [Cambiar el nombre o la descripción de un panel de lienzo](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/change-name-or-description-of-dashboard.md)
          * [Eliminación de un panel de control del lienzo](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/delete-a-canvas-dashboard.md)
+         * [Añadir un panel de lienzo a una plantilla de diseño](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/add-dashboard-to-layout-template)
       * Administrar informes {#manage-reports}
          * [Administrar informes: índice de artículos](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/manage-reports-article-index.md)
          * [Edición de un informe en un panel de lienzo](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/edit-a-report.md)
          * [Edición de filtros de informes en un panel de lienzo](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/edit-report-filters.md)
          * [Eliminación de un informe en un panel de lienzo](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/delete-a-report.md)
-
    * Informes {#reports}
       * [Informes](reports-and-dashboards/reports/reports-overview.md)
       * Conceptos básicos sobre la creación de informes {#report-basics}

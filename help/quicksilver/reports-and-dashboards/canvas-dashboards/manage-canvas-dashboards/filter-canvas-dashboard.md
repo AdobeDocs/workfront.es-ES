@@ -5,12 +5,10 @@ title: Filtrado de un panel de lienzo
 description: Puede aplicar un filtro a un panel de lienzo una vez que se haya creado.
 author: Courtney and Jenny
 feature: Reports and Dashboards
-hidefromtoc: true
-hide: true
-source-git-commit: 8b9676c7ef4efcad1294a9aa786aa6fe52d26cc0
+source-git-commit: fcce7c6b9a2d10069a4b6c50b7b7a244ac538a33
 workflow-type: tm+mt
-source-wordcount: '405'
-ht-degree: 11%
+source-wordcount: '806'
+ht-degree: 8%
 
 ---
 
@@ -20,9 +18,9 @@ ht-degree: 11%
 >
 >Actualmente, la función Paneles de lienzo solo está disponible para los usuarios que participan en la fase beta. Para obtener más información, consulte [Información beta de paneles de lienzo](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md).
 
-Puede aplicar un filtro al tablero que contenga mensajes __________
+Puede aplicar un filtro a un panel de lienzo que contenga mensajes. Una solicitud funciona como un modificador de filtro que aplica criterios de filtrado adicionales para que pueda reducir aún más los resultados. Estos indicadores se pueden modificar cada vez que se aplica el filtro, lo que permite ajustar los resultados mostrados sin necesidad de editar los criterios de filtro principales del panel o de cada informe individual.
 
-+++ Amplíe para ver los requisitos de acceso.
++++ Amplíe para ver los requisitos de acceso. 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -69,6 +67,26 @@ Para obtener más información, consulte [Crear un panel de lienzo](/help/quicks
 
 ## Filtrado de un tablero
 
+Siga estos pasos en el orden indicado para filtrar un tablero:
+
+* [Parte 1: Crear un filtro de panel](#part-1-create-a-dashboard-filter)
+* [Parte 2: Crear una solicitud de panel](#part-2-define-a-dashboard-prompt)
+* [Parte 3: Aplicar un indicador de panel](#step-3-apply-a-dashboard-prompt)
+
+>[!NOTE]
+>
+>El filtro de tablero se aplicará a todos los informes en los que los filtros de nivel de tablero no estén desactivados.  Puede excluir informes individuales de la aplicación de filtros a nivel de panel. Para ello, expanda el menú de acciones de cada informe y seleccione la opción **Deshabilitar filtros**.
+
+
+### Parte 1: Crear un filtro de panel
+
+Con un filtro de panel, puede aplicar un filtro común a todos los informes disponibles en un panel sin tener que modificar los filtros para cada informe individual.
+
+>[!NOTE]
+>
+>Estos filtros solo los puede configurar un usuario con acceso de Administración al panel.
+
+
 {{step1-to-dashboards}}
 
 1. En el panel izquierdo, haga clic en **Paneles de lienzo**.
@@ -85,9 +103,22 @@ Para obtener más información, consulte [Crear un panel de lienzo](/help/quicks
 
       ![Editar icono](assets/edit-icon.png)
 
-   1. Haga clic en **Agregar condición** y, a continuación, especifique el campo por el que desea filtrar y el modificador que define qué tipo de condición debe cumplir el campo.
+   1. Haga clic en **Agregar condición** y, a continuación, agregue la siguiente información:
+      * Seleccione un campo por el que desee filtrar.
+      * Seleccione una opción (o modificador de filtro) para definir qué tipo de condición debe cumplir el campo.
 
    1. (Opcional) Haga clic en **Agregar grupo de filtros** para agregar otro conjunto de criterios de filtrado. El operador predeterminado entre los conjuntos es Y. Haga clic en el operador para cambiarlo a OR.
+
+1. Continúe con [Parte 2: Crear una solicitud de panel](#part-2-define-a-dashboard-prompt).
+
+
+### Parte 2: Definir una solicitud de panel
+
+Una solicitud de panel ofrece a los usuarios la opción de aplicar filtros personalizados adicionales a los informes disponibles en el panel.
+
+>[!NOTE]
+>
+>Las opciones de solicitud de panel solo las puede configurar un usuario con acceso de Administración al panel.
 
 1. Para agregar una solicitud, siga los pasos a continuación:
 
@@ -95,7 +126,7 @@ Para obtener más información, consulte [Crear un panel de lienzo](/help/quicks
 
    1. Escriba una etiqueta en el campo **Personalizar etiqueta**.
 
-   1. Haga clic en **Seleccionar campo** y, a continuación, especifique el campo que desee ________.
+   1. Seleccione el campo en el que desea basar la solicitud escribiendo el nombre del campo y seleccionándolo cuando aparezca en la lista. 
 
 1. Para agregar una solicitud personalizada, siga los pasos a continuación:
 
@@ -105,10 +136,34 @@ Para obtener más información, consulte [Crear un panel de lienzo](/help/quicks
 
    1. Haga clic en **Agregar nueva opción**.
 
-   1. Escriba _____ en el campo **Valor de opción**.
+   1. Escriba el nombre del mensaje en el campo **Valor de opción**.
 
    1. Haga clic en **Agregar condición** y, a continuación, especifique el campo por el que desea filtrar y el modificador que define qué tipo de condición debe cumplir el campo.
+
+      >[!NOTE]
+      >
+      >La condición de un mensaje personalizado solo se puede editar mediante el modo de texto. Esto permite aplicar varias condiciones en un único campo.
+
 
    1. (Opcional) Haga clic en **Agregar grupo de filtros** para agregar otro conjunto de criterios de filtrado. El operador predeterminado entre los conjuntos es Y. Haga clic en el operador para cambiarlo a OR.
 
 1. Haga clic en **Guardar** para aplicar el filtro al tablero.
+
+1. Continúe con [Parte 3: Aplicar una solicitud de panel](#step-3-apply-a-dashboard-prompt).
+
+### Paso 3: Aplicar una solicitud de panel
+
+Todos los usuarios con acceso a un tablero pueden aplicar una solicitud de tablero a un tablero de lienzo una vez que se hayan creado el filtro y las solicitudes.
+
+{{step1-to-dashboards}}
+
+1. En el panel izquierdo, haga clic en **Paneles de lienzo**.
+
+1. En la página **Paneles de lienzo**, seleccione el panel al que desee aplicar la solicitud.
+
+1. En la esquina superior izquierda de la página de detalles del panel, haga clic en **Filtros**. Se abrirá el panel lateral de filtros.
+
+1. En la sección **Mostrar registros donde...**, elija una condición para uno o todos los mensajes mostrados. Se aplica la solicitud y aparece la etiqueta **Filtros del panel aplicados** en la esquina del widget de informe.
+   ![Seleccionar condición](assets/prompts-list.png)
+
+1. Haga clic en el icono **Cerrar** ![Cerrar icono](assets/close-icon.png) en la esquina superior derecha para ocultar el panel.
