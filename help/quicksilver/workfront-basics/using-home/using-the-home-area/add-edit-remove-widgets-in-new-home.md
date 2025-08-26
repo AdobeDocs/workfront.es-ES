@@ -6,10 +6,10 @@ description: Puede elegir entre una serie de widgets para personalizar el conten
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 81f32dfe-cde0-4e61-a542-9b99a18a3953
-source-git-commit: 10efc850b4951c3ad1a7086d3ec087d848dde96e
+source-git-commit: e153ccb40112688769a3c6b706a2b23f1f084021
 workflow-type: tm+mt
-source-wordcount: '1098'
-ht-degree: 41%
+source-wordcount: '1111'
+ht-degree: 38%
 
 ---
 
@@ -95,7 +95,7 @@ Para agregar un widget:
    ![Botón Personalizar](assets/customize-button.png)
 1. Desplácese hasta la sección **Widgets** y, a continuación, seleccione los widgets que desee agregar.
 
-+++ Amplíe para ver una lista detallada de los widgets disponibles
+   +++ Amplíe para ver una lista detallada de los widgets disponibles
 
    * **Mi trabajo**\
        Muestra todas las tareas, problemas y solicitudes asignados en un solo lugar. Puede hacer clic en el botón Trabajar en ello para comenzar a trabajar en un elemento o en el botón Listo para marcarlo como completado. También puede actualizar información (estado, condición, porcentaje completado) de tareas y problemas, registrar tiempo y añadir actualizaciones desde el widget Mi trabajo.
@@ -119,7 +119,10 @@ Para agregar un widget:
        Muestra todas las solicitudes pendientes de los equipos en los que se encuentra, ordenadas por equipos, así como botones para asignar directamente una solicitud a alguien o para trabajar en ella usted mismo.
 
    * **Mis aprobaciones**\
-       Muestra todas las aprobaciones pendientes asignadas o delegadas, un botón para delegar aprobaciones y botones para tomar decisiones de aprobación directamente dentro del widget.
+       Muestra todas las aprobaciones asignadas o delegadas pendientes, un botón para delegar aprobaciones y botones para tomar decisiones de aprobación directamente dentro del widget. Las aprobaciones se ordenan de la siguiente manera:
+      * Plazos de vencimiento
+      * Próximos plazos
+      * Elementos sin fecha límite
 
    * **Métricas de aprobación de documento**\
            Muestra dos gráficos con información sobre el tiempo medio de aprobación y las decisiones, así como vistas de lista de aprobaciones pendientes y vencidas. Debe tener [Aprobaciones unificadas](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md) habilitadas para usar este widget.
@@ -134,7 +137,7 @@ Para agregar un widget:
      >
      >Debe tener permiso para crear tareas pendientes en el widget Tareas pendientes y solo aparecerán las tareas personales introducidas por el usuario actual.
 
-+++
+   +++
 
 1. Haga clic en **Agregar widget**.
 

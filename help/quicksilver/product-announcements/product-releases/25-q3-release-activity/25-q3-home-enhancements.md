@@ -5,16 +5,16 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 91789b7b-3aec-415c-a03d-e06d0c43a263
-source-git-commit: a1295e5dfa3c608c5f1eca9cabb67bd402617db5
+source-git-commit: e153ccb40112688769a3c6b706a2b23f1f084021
 workflow-type: tm+mt
-source-wordcount: '306'
+source-wordcount: '319'
 ht-degree: 12%
 
 ---
 
 # Mejoras en el hogar del tercer trimestre de 2025
 
-Esta página describe todas las mejoras realizadas en Inicio con la versión del tercer trimestre de 2025 en el entorno de vista previa. Estas mejoras estarán disponibles en el entorno de producción, como se ha indicado.
+Este Página describe todas las mejoras Home realizadas con la versión del tercer trimestre de 2025 para el Vista previa entorno. Estas mejoras estarán disponibles en el entorno de producción, como se ha indicado.
 
 Para obtener una lista de todos los cambios disponibles en este punto del ciclo de la versión del tercer trimestre de 2025, consulte [Información general de la versión del tercer trimestre de 2025](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-release-overview.md).
 
@@ -54,7 +54,11 @@ Para obtener más información, vea [Usar el área Mis actualizaciones](/help/qu
 >* Versión rápida de producción: 12 de junio de 2025
 >* Producción para todos los clientes: 17 de julio de 2025
 
-Hemos actualizado el widget Mis aprobaciones en Inicio para ordenarlo por plazo (descendente) de forma predeterminada. Esto permite que las aprobaciones más urgentes aparezcan en la parte superior de la lista.
+Hemos actualizado el widget Mis aprobaciones en la página principal para que se ordene por fecha límite (ascendente) de forma predeterminada. Esto permite que las aprobaciones más urgentes aparezcan en la parte superior del lista. Las aprobaciones se ordenan de la siguiente manera:
+
+* Plazos de vencimiento
+* Próximos plazos
+* Elementos sin fecha límite
 
 Actualmente, solo las aprobaciones de prueba pueden ordenarse por fecha límite en el widget Mis aprobaciones.
 

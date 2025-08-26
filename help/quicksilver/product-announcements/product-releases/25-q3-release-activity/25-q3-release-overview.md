@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9342f393-a404-44b4-aad6-2c4cf634dfd5
-source-git-commit: 401d6a25cb23ebd28960ea866e7308142107a891
+source-git-commit: e153ccb40112688769a3c6b706a2b23f1f084021
 workflow-type: tm+mt
-source-wordcount: '1866'
+source-wordcount: '1879'
 ht-degree: 18%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 18%
 
 Esta página proporciona información sobre la funcionalidad que se incluye en la versión del tercer trimestre de 2025 programada para julio de 2025.
 
-Las mejoras de esta página están disponibles en el entorno de vista previa. Esta página se actualizará con mejoras adicionales a medida que la versión del tercer trimestre de 2025 se aproxime a su versión de producción planificada.
+Las mejoras de este Página están disponibles en la Vista previa entorno. Este Página se actualizará con mejoras adicionales a medida que la versión del tercer trimestre de 2025 se acerque a su lanzamiento de producción planificado.
 
 
 <!-- Keep commented until Final Preview release.
@@ -80,10 +80,10 @@ The <add release> release webinar will be held on <date>. You can [register for 
     </tr> 
     <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Nueva revisión e integración de GenStudio for Performance Marketing</a>
-            <p>Nos complace presentar una nueva integración entre Proofing y GenStudio for Performance Marketing. Con esta integración, puede 
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Nuevo Proofing y GenStudio para la integración de Performance Marketing</a>
+            <p>Estamos entusiasmados de presentar una nueva integración entre Proofing y GenStudio para el marketing de rendimiento. Con esta integración, puede 
             <ul>
-            <li>Uso de plantillas de aprobación de Workfront para definir flujos de trabajo de aprobación
+            <li>Utilice plantillas de aprobación de Workfront para definir los flujos de trabajo aprobación
             </li>
              <li>Revisar el contenido de los borradores de GenStudio en el visor de pruebas
             </li>
@@ -107,9 +107,9 @@ The <add release> release webinar will be held on <date>. You can [register for 
     </tr> 
       <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Assets en una carpeta Google vinculada debe agregarse individualmente para que aparezca en Workfront</a><p>[!BADGE Off schedule]{type=Neutral}</p>
-            <p>Google está <a href="https://workspace.google.com/blog/product-announcements/enhancing-security-controls-for-google-drive-third-party-apps">mejorando los controles de seguridad</a>
-            para aplicaciones de terceros que acceden a Google Drive, que requieren que las aplicaciones adopten un modelo de consentimiento por usuario. Como resultado, los recursos individuales deben vincularse de uno en uno para que sean visibles en Workfront. Ver <a href="/help/quicksilver/administration-and-setup/configure-integrations/configure-document-integrations.md">Configurar integraciones de documentos</a>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Assets de una carpeta vinculada de Google deben agregarse individualmente para que aparezcan en Workfront</a><p>[! DISTINTIVO Fuera de horario]{type=Neutral}</p>
+            <p>Google está <a href="https://workspace.google.com/blog/product-announcements/enhancing-security-controls-for-google-drive-third-party-apps">mejorando los controles</a> de seguridad
+            para terceros aplicaciones que acceden a Google Drive, que requieren que las aplicaciones adopten un modelo de consentimiento por usuario. Como resultado, los activos individuales deben vincularse de uno en uno para que sean visibles en Workfront. Consulte <a href="/help/quicksilver/administration-and-setup/configure-integrations/configure-document-integrations.md">Configurar integraciones de</a> documento
              para obtener más información. </p>
         </td>
         <td>25 de mayo de 2023</td>
@@ -118,8 +118,8 @@ The <add release> release webinar will be held on <date>. You can [register for 
     </tr>  
     <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Nuevos botones de decisión de aprobación de documento disponibles en el visor de revisión</a><p>[!BADGE Off schedule]{type=Neutral}</p>
-            <p>Los nuevos botones de decisión de aprobación de documentos ahora aparecen en el visor de pruebas. Ahora, cuando crea una prueba sencilla y luego agrega aprobadores y revisores desde el Resumen del documento, pueden tomar su decisión directamente dentro del visualizador de pruebas.</p>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Nuevos botones de decisión de aprobación de documento disponibles en el visor de revisión</a><p>[! DISTINTIVO Fuera de horario]{type=Neutral}</p>
+            <p>Los nuevos botones de decisión de aprobación de documento ahora aparecen en el visualizador de revisión. Ahora, cuando crea un prueba simple y luego agrega aprobadores y revisores desde el resumen del documento, pueden tomar su decisión directamente dentro del visualizador de corrección.</p>
         </td>
         <td>viernes, 10 de abril de 2025</td>
         <td>viernes, 17 de abril de 2025</td>
@@ -136,12 +136,12 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td><strong>Característica</strong>
         </td>
         <td><strong>Vista previa</strong></td>
-        <td><strong>Liberación rápida</strong></td>
+        <td><strong>Versión rápida</strong></td>
         <td><strong>Trimestralmente</strong></td>
     </tr>
        <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity//25-q3-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Se cambió el nombre del widget de todas las aprobaciones a Métricas de aprobación de documento</a><p>[!BADGE Off schedule]{type=Neutral}</p>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity//25-q3-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Se ha cambiado el nombre del widget Aprobaciones a Métricas de aprobación de documentos</a><p>[! DISTINTIVO Fuera de horario]{type=Neutral}</p>
             <p>Hemos cambiado el nombre del widget Todas las aprobaciones a Métricas de aprobación de documento para reflejar con mayor precisión la información que muestra. El widget Métricas de aprobación de documento proporciona información de alto nivel sobre las aprobaciones de documentos para los proyectos que posee. Debe tener <a href="/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md"class="MCXref xref" xrefformat="{para}">Aprobaciones unificadas</a> habilitadas para usar este widget.</p>
         </td>
         <td>martes, 30 de junio de 2025</td>
@@ -160,7 +160,13 @@ The <add release> release webinar will be held on <date>. You can [register for 
     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity//25-q3-home-enhancements.md" class="MCXref xref" xrefformat="{para}">El widget de mis aprobaciones ahora se ordena automáticamente por la fecha límite </a><p></p>
-            <p>Hemos actualizado el widget Mis aprobaciones en Inicio para ordenarlo por plazo (descendente) de forma predeterminada. Esto permite que las aprobaciones más urgentes aparezcan en la parte superior de la lista. </p><p><b>Nota:</b> En la actualidad, solo las aprobaciones de pruebas pueden ordenarse por fecha límite en el widget Mis aprobaciones.</p>
+            <p>Hemos actualizado el widget Mis aprobaciones en Inicio para ordenarlo por plazo (ascendente) de forma predeterminada. Esto permite que las aprobaciones más urgentes aparezcan en la parte superior de la lista. Las aprobaciones se ordenan de la siguiente manera:</p>
+            <ul>
+                <li>Plazos de vencimiento</li>
+                <li>Próximos plazos</li>
+                <li>Elementos sin fecha límite</li>
+            </ul>
+            <p><b>Nota:</b> En la actualidad, solo las aprobaciones de pruebas pueden ordenarse por fecha límite en el widget Mis aprobaciones.</p>
         </td>
         <td>viernes, 29 de mayo de 2025</td>
         <td>viernes, 12 de junio de 2025</td>
@@ -198,8 +204,8 @@ The <add release> release webinar will be held on <date>. You can [register for 
     </tr> 
     <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Se reemplazó el campo Horas reales existentes por Horas reales heredadas y se creó el nuevo campo Horas reales</a><p>[!BADGE Off schedule]{type=Neutral}</p>
-            <p>El campo existente de Horas reales ha cambiado a Horas reales heredadas. Este campo almacena el tiempo registrado de los proyectos, tareas y problemas en minutos. El campo se almacena en la base de datos de Workfront como <code>actualWorkRequired</code>. </p>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">El campo de horas reales existente se ha reemplazado por horas reales heredadas y se ha creado un nuevo campo de horas reales</a><p>[! DISTINTIVO Fuera de horario]{type=Neutral}</p>
+            <p>El campo existente de horas reales se ha denominado Horas reales heredadas. Este campo almacena el tiempo registrado de los proyectos, tareas y problemas en minutos. El campo se almacena en la base de datos de Workfront como <code>actualWorkRequired</code>. </p>
             <p>Se ha agregado un nuevo campo Horas reales que almacena el tiempo registrado de los proyectos, las tareas y los problemas en horas, con precisión decimal. El campo se almacena en la base de datos de Workfront como <code>actualWorkRequiredDouble</code>.</p>
         </td>
         <td>miércoles, 24 de junio de 2025</td>
@@ -208,17 +214,17 @@ The <add release> release webinar will be held on <date>. You can [register for 
     </tr> 
     <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Cambio en la forma en que se almacenan las horas reales en la base de datos para las llamadas API</a><p>[!BADGE Off schedule]{type=Neutral}</p>
-            <p>Esta actualización presenta un cambio en la forma en que se almacenan las horas reales de los proyectos, las tareas y los problemas en la base de datos. A partir de esta actualización, las horas reales utilizarán un campo de valor de <code>actualWorkRequiredDouble</code> (con un valor en horas).</p>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Cambio en la forma en que se almacenan las horas reales en la base de datos para llamadas a la API</a><p>[! DISTINTIVO Fuera de horario]{type=Neutral}</p>
+            <p>Esta actualización introduce un cambio en la forma en que se almacenan las horas reales para proyectos, tareas y problemas en la base de datos. A partir de esta actualización, Horas reales usará un campo de valor de <code>actualWorkRequiredDouble</code> (con un valor en horas).</p>
         </td>
-        <td>Con la próxima versión de la API, programada para finales de 2025</td>
-        <td>Con la próxima versión de la API, programada para finales de 2025</td>
-        <td>Con la próxima versión de la API, programada para finales de 2025</td>
+        <td>Con la próxima versión de API, programada para más adelante en 2025</td>
+        <td>Con la próxima versión de API, programada para más adelante en 2025</td>
+        <td>Con la próxima versión de API, programada para más adelante en 2025</td>
     </tr>     
     <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Actualizar en mediante el control deslizante Porcentaje completado en un encabezado de tarea o problema</a><p>[!BADGE Off schedule]{type=Neutral}</p>
-            <p>Hemos actualizado el modo en que funciona el control deslizante porcentaje completado para tareas y problemas. Cuando se desliza la burbuja azul Porcentaje completado en el encabezado de una tarea o un problema, el porcentaje completado de la tarea o del problema ahora se actualizará en incrementos de cinco puntos. Antes de esta actualización, al deslizar la burbuja azul Porcentaje completado, se actualizaban las tareas o los problemas en incrementos de un punto.</p>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Actualización al usar el regulador Porcentaje Todas las aplicaciones en un encabezado de tarea o problema</a><p>[! DISTINTIVO Fuera de horario]{type=Neutral}</p>
+            <p>Hemos actualizado la forma en que el porcentaje de regulador completados funciona para tareas y problemas. Cuando diapositiva el porcentaje Todas las aplicaciones burbuja azul en el encabezado de una tarea o problema, el porcentaje Todas las aplicaciones de la tarea o el problema ahora se actualizará en incrementos de cinco puntos. Antes de esta actualización, al deslizar la burbuja azul Porcentaje Todas las aplicaciones se actualizaban las tareas o problemas en incrementos de un punto.</p>
         </td>
         <td>miércoles, 27 de mayo de 2025</td>
         <td>miércoles, 27 de mayo de 2025</td>
@@ -246,12 +252,12 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td><strong>Característica</strong>
         </td>
         <td><strong>Vista previa</strong></td>
-        <td><strong>Liberación rápida</strong></td>
+        <td><strong>Versión rápida</strong></td>
         <td><strong>Trimestralmente</strong></td>
     </tr>
       <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-reporting-enhancements.md" class="MCXref xref" xrefformat="{para}">Seguridad mejorada en la entrega de informes </a><p>[!BADGE Off schedule]{type=Neutral}</p>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-reporting-enhancements.md" class="MCXref xref" xrefformat="{para}">Seguridad mejorada en la entrega de informes </a><p>[! DISTINTIVO Fuera de horario]{type=Neutral}</p>
             <p>Se ha mejorado la entrega de informes programados para garantizar que las notificaciones de Workfront solo se envíen a dominios de correo electrónico aprobados en la lista de permitidos.</p>
             <p></p>
         </td>
@@ -312,8 +318,8 @@ The <add release> release webinar will be held on <date>. You can [register for 
                 </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">Actualizaciones de aspecto durante el tercer trimestre de 2025</a></p>
-                        <p>Se están realizando actualizaciones menores del aspecto de varias áreas de la aplicación de Adobe Workfront dentro del periodo de tiempo de la versión del tercer trimestre de 2025. </p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">Look actualizaciones durante la versión del tercer trimestre de 2025 periodo de tiempo</a></p>
+                        <p>Se están realizando actualizaciones menores en el apariencia de varias áreas del aplicación de Adobe Systems Workfront dentro de la versión del tercer trimestre de 2025 periodo de tiempo. </p>
                     </td>
                     <td><p><b>Disponible en estas fechas:</b></p>
                         <ul>
@@ -337,19 +343,19 @@ The <add release> release webinar will be held on <date>. You can [register for 
 
 ## Modernización de interfaces
 
-Estamos actualizando la interfaz a través de Adobe Workfront para mejorar la experiencia del usuario y unificarla con otras aplicaciones de Adobe. Estos cambios se liberan fuera de la programación de versiones estándar. Para obtener una lista de estos cambios, consulte [Modernización de la interfaz](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).
+Estamos actualizando la interfaz en todo Adobe Systems Workfront para mejorar el experiencia del usuario y unificarlo con otras aplicaciones Adobe Systems. Estos cambios se publican fuera de la programación de lanzamiento estándar. Para obtener una lista de estos cambios, consulte [Modernización de la interfaz](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).
 
 ## Notas de la versión para otras áreas
 
 ### Mejoras de Workfront Fusion
 
-Las nuevas funciones de Workfront Fusion están disponibles en el entorno de producción en una cadencia fuera de la programación de versiones estándar. Para obtener más información sobre las últimas funciones, consulte [Actividad de la versión de Adobe Workfront Fusion](https://experienceleague.adobe.com/es/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
+Nuevo funciones de Workfront Fusion están disponibles en producción a una cadencia fuera del calendario de lanzamiento estándar. Para obtener más información sobre las últimas funciones, consulte [Actividad de la versión de Adobe Workfront Fusion](https://experienceleague.adobe.com/es/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
 
-### Mejoras de Workfront Planning
+### Mejoras en la planificación del frente de trabajo
 
-Las nuevas funciones de Workfront Planning están disponibles en el entorno de producción. Para obtener más información sobre las últimas funciones, consulte [Actividad de la versión del tercer trimestre de 2025 de Adobe Workfront Planning](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q3.md).
+Nuevo funciones de Workfront Planning están disponibles en Producción. Para obtener más información sobre las funciones más recientes, consulte [Adobe Systems actividad](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q3.md) de la versión Workfront Planning del tercer trimestre de 2025.
 
-No hay actualizaciones para lo siguiente en este punto de la versión:
+No hay actualizaciones para lo siguiente en este momento de la versión:
 
 * Planificador de escenarios
 * Revisión
@@ -357,19 +363,19 @@ No hay actualizaciones para lo siguiente en este punto de la versión:
 
 ## Anuncios
 
-### Nueva versión de Workfront para Microsoft Teams
+### Nuevo versión de Workfront for Microsoft Teams
 
-A medida que [Microsoft pasa al cliente New Teams](https://learn.microsoft.com/en-us/microsoftteams/teams-classic-client-end-of-availability), el cliente Classic Teams dejará de estar disponible a partir del 1 de julio de 2025. Para seguir utilizando Microsoft Teams y aplicaciones integradas como Workfront, los clientes deben realizar la transición al cliente Nuevo equipo antes de esta fecha.
+A medida [que Microsoft realiza la transición al cliente](https://learn.microsoft.com/en-us/microsoftteams/teams-classic-client-end-of-availability) de Nuevo Teams, el cliente de Classic Teams dejará de estar disponible después del 1 de julio de 2025. Para seguir usando Microsoft Teams y las aplicaciones integradas gustar Workfront, los clientes deben transición al cliente de Nuevo Teams antes de esta fecha.
 
 La integración actualizada de Workfront ya está disponible y es totalmente compatible con la experiencia Nuevos equipos. En la mayoría de los casos, Workfront aparecerá automáticamente una vez que los usuarios hayan realizado la transición. Si no es así, la integración se puede instalar manualmente desde Microsoft Teams App Store. Para instalar o comprobar la integración de Workfront en el cliente New Teams, consulte [Instalar [!DNL Adobe Workfront] para Microsoft Teams](/help/quicksilver/workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md).
 
 ### Workfront para Microsoft Outlook
 
-[Microsoft está deshabilitando la compatibilidad con los tokens en línea heredados de Exchange](https://learn.microsoft.com/en-us/office/dev/add-ins/outlook/faq-nested-app-auth-outlook-legacy-tokens), que el complemento Outlook de Workfront usa actualmente para la autenticación. Este cambio de Microsoft ya ha comenzado a afectar a los clientes y seguirá implementándose por fases hasta octubre de 2025.
+[Microsoft está en proceso de deshabilitar la compatibilidad con los tokens de en línea Exchange heredados](https://learn.microsoft.com/en-us/office/dev/add-ins/outlook/faq-nested-app-auth-outlook-legacy-tokens), que actualmente usa el complemento Workfront Outlook para la autenticación. Este cambio de Microsoft ya ha comenzado a afectar a los clientes y continuará implementándose en fases hasta octubre de 2025.
 
 * **Después de que Microsoft deshabilite completamente estos tokens, la integración de Workfront para Microsoft Outlook dejará de funcionar.**
 
-Como parte de este cambio, Microsoft ha tomado la decisión de cambiar la forma en que se vuelven a habilitar los tokens. Después del **30 de junio de 2025**, los administradores ya no podrán volver a habilitar los tokens, solo el soporte de Microsoft puede conceder excepciones. **El 1 de octubre de 2025, los tokens heredados se desactivarán para todos los inquilinos. No se concederán excepciones.**
+Como parte de este cambio, Microsoft ha tomado la decisión de cambiar la forma en que se vuelven a habilitar los tokens. Después del **30 de junio de 2025**, los administradores ya no podrán volver a habilitar los tokens por sí mismos; solo el soporte técnico de Microsoft puede conceder excepciones. **El 1 de octubre de 2025, los tokens heredados se desactivarán para todos los inquilinos. No se concederán excepciones.**
 
 ### Versión 20 de la API
 

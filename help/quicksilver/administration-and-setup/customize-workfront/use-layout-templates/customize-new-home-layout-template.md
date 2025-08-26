@@ -3,21 +3,21 @@ title: Personalizar inicio mediante una plantilla de diseño
 user-type: administrator
 product-area: system-administration;templates;setup
 navigation-topic: layout-templates
-description: Puede utilizar una plantilla de diseño para configurar lo que ven los usuarios al abrir Inicio en Adobe Workfront.
+description: Puede usar una plantilla Diseño para configurar lo que los usuarios ven cuando abren Inicio en Adobe Systems Workfront.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: b9997e79-a893-49dd-8c90-290399b2d2f7
-source-git-commit: 80bdc2f2c1bedbc5a894b5a474425c5544c039fd
+source-git-commit: e153ccb40112688769a3c6b706a2b23f1f084021
 workflow-type: tm+mt
-source-wordcount: '855'
-ht-degree: 39%
+source-wordcount: '844'
+ht-degree: 38%
 
 ---
 
-# Personalizar la página de inicio mediante una plantilla de diseño
+# Personalizar la página principal con una plantilla Diseño
 
-Puede utilizar una plantilla de diseño para configurar lo que ven los usuarios la primera vez que abren Inicio.
+Puede usar una plantilla Diseño para configurar lo que los usuarios ven cuando abren la página principal por primera vez.
 
 Puede configurar lo siguiente:
 
@@ -31,7 +31,7 @@ Puede configurar lo siguiente:
 > 
 >Los administradores tienen la capacidad de añadir nuevos widgets para los usuarios. Sin embargo, si un usuario final ya ha personalizado el orden de los widgets o la selección del fondo, esas personalizaciones específicas no se modifican.
 
-Para obtener información sobre Inicio, consulte [Introducción a Inicio](/help/quicksilver/workfront-basics/using-home/using-the-home-area/get-started-with-home.md).
+Para obtener información acerca de Inicio, consulte [Introducción a Inicio](/help/quicksilver/workfront-basics/using-home/using-the-home-area/get-started-with-home.md).
 
 Para obtener información sobre cómo crear plantillas de diseño, consulte [Crear y administrar plantillas de diseño](../use-layout-templates/create-and-manage-layout-templates.md).
 
@@ -82,9 +82,9 @@ Para personalizar la página de inicio mediante una plantilla de diseño:
 1. En las pestañas de la derecha, haga clic en una de las siguientes opciones:
 
    * **Diseño**: selecciona para elegir y organizar los widgets y el fondo
-   * **Configuración del widget**: selecciónelo para administrar la configuración de widgets individuales, como los filtros y grupos disponibles.
+   * **Configuración** Widget: Seleccione esta opción para administrar la configuración de widgets individuales, como filtros y grupos disponibles.
 
-   La siguiente tabla contiene detalles sobre cada pestaña:
+   La tabla siguiente contiene detalles sobre cada pestaña:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -93,8 +93,8 @@ Para personalizar la página de inicio mediante una plantilla de diseño:
      <tr> 
       <td role="rowheader">Diseño y disposición</td> 
       <td>
-      <p>Seleccione los widgets que se mostrarán en los espacios de trabajo de los usuarios, su posición y elija un fondo.</p> 
-      <p>Tenga en cuenta que, aunque los usuarios no pueden eliminar los widgets seleccionados, pueden moverlos y cambiarles el tamaño libremente. También pueden agregar más widgets.</p>
+      <p>Seleccione qué widgets se mostrarán en los espacios de trabajo de los usuarios, su posición y elija un fondo.</p> 
+      <p>Tenga en cuenta que aunque los usuarios no pueden eliminar los widgets seleccionados, pueden moverlos y cambiar su tamaño libremente. También pueden agregar más widgets.</p>
       <p>Esta pestaña funciona esencialmente como una previsualización del espacio de trabajo de Inicio real que experimentarán los usuarios con esta plantilla de diseño.</p> 
       <p> Realice una de las siguientes acciones: </p>
       <ul><li>Personalice esta ficha según los pasos descritos en <a href="/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md" class="MCXref xref">Agregar, editar o quitar widgets en Inicio</a>. </li>
@@ -112,12 +112,12 @@ Para personalizar la página de inicio mediante una plantilla de diseño:
      <tr> 
       <td role="rowheader">Configuración del widget</td> 
       <td>
-      <p>Cambie la configuración de los widgets individuales.</p> 
+      <p>Cambie la configuración de widgets individuales.</p> 
       <p>
 
    >[!NOTE]
    >
-   >Estas opciones no se extienden al panel Resumen. Debe configurar esa área en la pestaña Resumen de la plantilla de diseño.
+   >Estas opciones no se extienden al panel Resumen. Debe configurar esa área en el pestaña de resumen de la plantilla Diseño.
 
    </p>
       <p> Seleccione entre los siguientes widgets de la lista a la izquierda:</p>
@@ -126,18 +126,16 @@ Para personalizar la página de inicio mediante una plantilla de diseño:
         <li>Mis tareas</li>
         <li>Mis problemas</li>
       </ul>
-      <p>Después de seleccionar el widget que desea editar, seleccione los <b>Filtros</b>, <b>Columnas</b> y <b>Grupos</b> que desea poner a disposición de Inicio a la derecha.</p>
+      <p>Después de seleccionar la utilidad que desea gustar editar, seleccione los <b>filtros</b>, <b>columnas</b> y <b>grupos</b> que desea que estén disponibles para Inicio a la derecha.</p>
       <p> Puede:</p>
       <ul>
       <li><p>Seleccione y ordene los filtros, columnas o grupos disponibles para los usuarios marcando la casilla junto a las opciones de la lista. Las opciones no seleccionadas no aparecerán para los usuarios.</p></li>
-      <li> <p>Arrastre y suelte las opciones de la lista para establecer un orden.</p></li>
       <p>
 
    >[!IMPORTANT]
    >
    >* Las opciones Filtro, Columnas y Grupo están vinculadas a las opciones de personalización de la lista de la plantilla de diseño. Los cambios realizados aquí también se aplicarán a esa configuración.
    >* Los usuarios deben tener al menos acceso de creación a vistas para que la configuración de la columna del administrador se aplique correctamente a sus páginas de inicio.
-
    </p>
       <li><p>Defina un filtro o un grupo predeterminado para el widget pasando el puntero sobre una opción y haciendo clic en <b>Establecer como predeterminado</b>. El valor predeterminado actual muestra un distintivo <b>Default</b> azul a la derecha.</p></li>
       <li><p>Agregue un filtro, columna o grupo existente a la lista de opciones disponibles haciendo clic en el botón del signo más situado en la parte inferior de cada lista para agregar una opción a esa lista. Tenga en cuenta que solo los Filtros, Campos (para columnas) o Grupos existentes se pueden agregar de esta manera.</p></li>
