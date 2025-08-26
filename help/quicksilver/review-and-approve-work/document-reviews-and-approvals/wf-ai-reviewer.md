@@ -7,10 +7,10 @@ author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 0f4fd3a7-9578-4fda-b10f-9b4be147f1de
-source-git-commit: 619bc09a226c6023ff653557dc6e049b2d177722
+source-git-commit: 945fa710e98b094a37258d5c94f7b1a2eb056abb
 workflow-type: tm+mt
-source-wordcount: '609'
-ht-degree: 7%
+source-wordcount: '620'
+ht-degree: 6%
 
 ---
 
@@ -31,9 +31,7 @@ Cualquier usuario puede agregar el revisor de IA a una solicitud de revisión y 
 
 ## Requisitos previos
 
-<!--DELETE THIS SECTION MARCH 2026-->
-
-<!--* Your organization must have migrated to Adobe IMS (Identity Management System).-->
+* Su organización debe haber migrado a Adobe IMS (sistema Identity Management).
 * La instancia de Workfront debe tener habilitadas las aprobaciones unificadas.
 * Adobe debe tener registrado un acuerdo de Adobe Gen AI.
 Para obtener más información sobre la firma del acuerdo, consulte [Firmar el acuerdo de Adobe Gen AI](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement).
@@ -55,7 +53,7 @@ El revisor de IA puede revisar los siguientes tipos de archivos:
 
 ## Configurar directrices de marca
 
-El revisor de IA de Workfront utiliza las directrices de marca configuradas en Genstudio Foundations al revisar el contenido. Actualmente, solo puede configurar directrices de marca para imágenes. Para obtener más información, consulte [Introducción a Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/es/docs/genstudio-for-performance-marketing/user-guide/get-started).
+El revisor de IA de Workfront utiliza las directrices de marca configuradas en Genstudio Foundations al revisar el contenido. Actualmente, solo puede configurar directrices de marca para imágenes. Para obtener más información, consulte [Introducción a Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started).
 
 
 ## Crear revisores de IA

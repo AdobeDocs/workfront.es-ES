@@ -5,9 +5,9 @@ description: Puede utilizar IA para rellenar automáticamente los campos de soli
 author: Becky
 feature: Get Started with Workfront
 exl-id: 4a22f9ea-c9ee-4947-8683-9989c54903b1
-source-git-commit: 99113ac4f2ceca6bd50f078916e33cec7f577362
+source-git-commit: 945fa710e98b094a37258d5c94f7b1a2eb056abb
 workflow-type: tm+mt
-source-wordcount: '1091'
+source-wordcount: '1093'
 ht-degree: 12%
 
 ---
@@ -69,7 +69,7 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
 
 Para rellenar automáticamente las solicitudes utilizando un aviso o un documento, se deben aplicar **todas** las siguientes condiciones:
 
-* Su organización debe utilizar Adobe IMS (Identity Management System)
+* Su organización debe haber migrado a Adobe IMS (sistema Identity Management)
 * La experiencia unificada de Adobe debe estar habilitada
 * Su organización debe tener un plan Select, Prime o Ultimate Workfront
 * Adobe debe tener registrado un acuerdo de Adobe Gen AI
