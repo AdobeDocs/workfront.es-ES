@@ -107,7 +107,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
     </tr> 
       <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Assets de una carpeta vinculada de Google deben agregarse individualmente para que aparezcan en Workfront</a><p>[! DISTINTIVO Fuera de horario]{type=Neutral}</p>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Assets de una carpeta vinculada de Google deben agregarse individualmente para que aparezcan en Workfront</a><p>[ ! DISTINTIVO Fuera de horario]{type=Neutral}</p>
             <p>Google está <a href="https://workspace.google.com/blog/product-announcements/enhancing-security-controls-for-google-drive-third-party-apps">mejorando los controles</a> de seguridad
             para terceros aplicaciones que acceden a Google Drive, que requieren que las aplicaciones adopten un modelo de consentimiento por usuario. Como resultado, los activos individuales deben vincularse de uno en uno para que sean visibles en Workfront. Consulte <a href="/help/quicksilver/administration-and-setup/configure-integrations/configure-document-integrations.md">Configurar integraciones de</a> documento
              para obtener más información. </p>
@@ -118,7 +118,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
     </tr>  
     <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Nuevos botones de decisión de aprobación de documento disponibles en el visor de revisión</a><p>[! DISTINTIVO Fuera de horario]{type=Neutral}</p>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Nuevos botones de decisión de aprobación de documento disponibles en el visor de revisión</a><p>[ ! DISTINTIVO Fuera de horario]{type=Neutral}</p>
             <p>Los nuevos botones de decisión de aprobación de documento ahora aparecen en el visualizador de revisión. Ahora, cuando crea un prueba simple y luego agrega aprobadores y revisores desde el resumen del documento, pueden tomar su decisión directamente dentro del visualizador de corrección.</p>
         </td>
         <td>viernes, 10 de abril de 2025</td>
@@ -141,7 +141,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
     </tr>
        <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity//25-q3-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Se ha cambiado el nombre del widget Aprobaciones a Métricas de aprobación de documentos</a><p>[! DISTINTIVO Fuera de horario]{type=Neutral}</p>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity//25-q3-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Se ha cambiado el nombre del widget Aprobaciones a Métricas de aprobación de documentos</a><p>[ ! DISTINTIVO Fuera de horario]{type=Neutral}</p>
             <p>Hemos cambiado el nombre del widget Todas las aprobaciones a Métricas de aprobación de documento para reflejar con mayor precisión la información que muestra. El widget Métricas de aprobación de documento proporciona información de alto nivel sobre las aprobaciones de documentos para los proyectos que posee. Debe tener <a href="/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md"class="MCXref xref" xrefformat="{para}">Aprobaciones unificadas</a> habilitadas para usar este widget.</p>
         </td>
         <td>martes, 30 de junio de 2025</td>
@@ -204,7 +204,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
     </tr> 
     <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">El campo de horas reales existente se ha reemplazado por horas reales heredadas y se ha creado un nuevo campo de horas reales</a><p>[! DISTINTIVO Fuera de horario]{type=Neutral}</p>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">El campo de horas reales existente se ha reemplazado por horas reales heredadas y se ha creado un nuevo campo de horas reales</a><p>[ ! DISTINTIVO Fuera de horario]{type=Neutral}</p>
             <p>El campo existente de horas reales se ha denominado Horas reales heredadas. Este campo almacena el tiempo registrado de los proyectos, tareas y problemas en minutos. El campo se almacena en la base de datos de Workfront como <code>actualWorkRequired</code>. </p>
             <p>Se ha agregado un nuevo campo Horas reales que almacena el tiempo registrado de los proyectos, las tareas y los problemas en horas, con precisión decimal. El campo se almacena en la base de datos de Workfront como <code>actualWorkRequiredDouble</code>.</p>
         </td>
@@ -214,7 +214,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
     </tr> 
     <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Cambio en la forma en que se almacenan las horas reales en la base de datos para llamadas a la API</a><p>[! DISTINTIVO Fuera de horario]{type=Neutral}</p>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Cambio en la forma en que se almacenan las horas reales en la base de datos para llamadas a la API</a><p>[ ! DISTINTIVO Fuera de horario]{type=Neutral}</p>
             <p>Esta actualización introduce un cambio en la forma en que se almacenan las horas reales para proyectos, tareas y problemas en la base de datos. A partir de esta actualización, Horas reales usará un campo de valor de <code>actualWorkRequiredDouble</code> (con un valor en horas).</p>
         </td>
         <td>Con la próxima versión de API, programada para más adelante en 2025</td>
@@ -223,7 +223,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
     </tr>     
     <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Actualización al usar el regulador Porcentaje Todas las aplicaciones en un encabezado de tarea o problema</a><p>[! DISTINTIVO Fuera de horario]{type=Neutral}</p>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Actualización al usar el regulador Porcentaje Todas las aplicaciones en un encabezado de tarea o problema</a><p>[ ! DISTINTIVO Fuera de horario]{type=Neutral}</p>
             <p>Hemos actualizado la forma en que el porcentaje de regulador completados funciona para tareas y problemas. Cuando diapositiva el porcentaje Todas las aplicaciones burbuja azul en el encabezado de una tarea o problema, el porcentaje Todas las aplicaciones de la tarea o el problema ahora se actualizará en incrementos de cinco puntos. Antes de esta actualización, al deslizar la burbuja azul Porcentaje Todas las aplicaciones se actualizaban las tareas o problemas en incrementos de un punto.</p>
         </td>
         <td>miércoles, 27 de mayo de 2025</td>
@@ -257,7 +257,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
     </tr>
       <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-reporting-enhancements.md" class="MCXref xref" xrefformat="{para}">Seguridad mejorada en la entrega de informes </a><p>[! DISTINTIVO Fuera de horario]{type=Neutral}</p>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-reporting-enhancements.md" class="MCXref xref" xrefformat="{para}">Seguridad mejorada en la entrega de informes </a><p>[ ! DISTINTIVO Fuera de horario]{type=Neutral}</p>
             <p>Se ha mejorado la entrega de informes programados para garantizar que las notificaciones de Workfront solo se envíen a dominios de correo electrónico aprobados en la lista de permitidos.</p>
             <p></p>
         </td>

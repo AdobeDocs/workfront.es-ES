@@ -136,11 +136,11 @@ Para personalizar la página de inicio mediante una plantilla de diseño:
    >
    >* Las opciones Filtro, Columnas y Grupo están vinculadas a las opciones de personalización de la lista de la plantilla de diseño. Los cambios realizados aquí también se aplicarán a esa configuración.
    >* Los usuarios deben tener al menos acceso de creación a vistas para que la configuración de la columna del administrador se aplique correctamente a sus páginas de inicio.
-   </p>
-      <li><p>Defina un filtro o un grupo predeterminado para el widget pasando el puntero sobre una opción y haciendo clic en <b>Establecer como predeterminado</b>. El valor predeterminado actual muestra un distintivo <b>Default</b> azul a la derecha.</p></li>
-      <li><p>Agregue un filtro, columna o grupo existente a la lista de opciones disponibles haciendo clic en el botón del signo más situado en la parte inferior de cada lista para agregar una opción a esa lista. Tenga en cuenta que solo los Filtros, Campos (para columnas) o Grupos existentes se pueden agregar de esta manera.</p></li>
-      </ul>
-      <p>
+   ></p>
+   >   <li><p>Defina un filtro o un grupo predeterminado para el widget pasando el puntero sobre una opción y haciendo clic en <b>Establecer como predeterminado</b>. El valor predeterminado actual muestra un distintivo <b>Default</b> azul a la derecha.</p></li>
+   >   <li><p>Agregue un filtro, columna o grupo existente a la lista de opciones disponibles haciendo clic en el botón del signo más situado en la parte inferior de cada lista para agregar una opción a esa lista. Tenga en cuenta que solo los Filtros, Campos (para columnas) o Grupos existentes se pueden agregar de esta manera.</p></li>
+   >   </ul>
+   >   <p>
 
    >[!NOTE]
    >
