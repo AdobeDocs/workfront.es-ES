@@ -3,9 +3,9 @@ user-guide-title: Guía de Workfront
 user-guide-description: Utilice los siguientes documentos, tutoriales y recursos adicionales para aprender a implementar y utilizar Adobe Workfront de forma eficaz en su organización.
 role: User
 feature-set: Workfront
-source-git-commit: b5899500cad1ac32345d39f76eea7f643f1cd0ea
+source-git-commit: 6f1b24548fe99b5833dce0e5456eaefa5591abd1
 workflow-type: tm+mt
-source-wordcount: '13461'
+source-wordcount: '13464'
 ht-degree: 59%
 
 ---
@@ -830,6 +830,7 @@ ht-degree: 59%
          * [Exportar una lista](workfront-basics/navigate-workfront/use-lists/export-lists.md)
          * [Edición en línea de elementos en una lista en Adobe Workfront](workfront-basics/navigate-workfront/use-lists/inline-edit-objects.md)
          * [Modificación del modo en que se muestra una lista](workfront-basics/navigate-workfront/use-lists/modify-list-display.md)
+         * [Uso de listas mejoradas](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md)
       * [Experiencia unificada de Adobe para Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md)
       * [Preguntas frecuentes sobre Adobe Unified Experience](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md)
       * [Información general sobre la barra de navegación superior](workfront-basics/the-new-workfront-experience/global-navigation-overview.md)
