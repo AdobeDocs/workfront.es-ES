@@ -8,10 +8,10 @@ feature: Requests
 topic: Collaboration
 role: User
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
-source-git-commit: 7815fd0f84170cb92eef1bafa8aa90abe5365c04
+source-git-commit: 0ffae8ed285f6e9164a239552feb90465bea3cca
 workflow-type: tm+mt
-source-wordcount: '962'
-ht-degree: 85%
+source-wordcount: '978'
+ht-degree: 84%
 
 ---
 
@@ -65,6 +65,10 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   <tr>
    <td role="rowheader">Permisos de objeto</td> 
    <td><p>Ver permisos o superiores en las solicitudes</p></td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> Producto</td> 
+   <td> <ul><li>Adobe Workfront</li><li>Debe tener Adobe Workfront Planning para ver solicitudes de Planning o formularios de solicitud</td> 
   </tr> 
  </tbody> 
 </table>

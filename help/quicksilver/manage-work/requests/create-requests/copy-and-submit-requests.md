@@ -6,10 +6,10 @@ feature: Work Management
 role: User
 topic: Collaboration
 exl-id: 3d7581d0-e99c-4204-b1e5-04fde72251bb
-source-git-commit: 6311526ddf9143c4a979d8bbac96312a3b0e8151
+source-git-commit: 0ffae8ed285f6e9164a239552feb90465bea3cca
 workflow-type: tm+mt
-source-wordcount: '1345'
-ht-degree: 99%
+source-wordcount: '1361'
+ht-degree: 98%
 
 ---
 
@@ -80,10 +80,14 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
    <td role="rowheader">Configuraciones de nivel de acceso</td> 
    <td> <p>Editar acceso a Problemas</p>  </td> 
   </tr> 
+  <tr>
    <td role="rowheader">Permisos de objeto</td> 
    <td><p>Acceso para añadir solicitudes a una cola de solicitudes</p> <p>Ver permisos superiores en la solicitud existente</p> <p>Para obtener información sobre cómo configurar una cola de solicitudes, consulte <a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">Crear una cola de solicitudes</a>. </p> </td> 
-  <tr>
   </tr>
+  <tr> 
+   <td role="rowheader"> Producto</td> 
+   <td> <ul><li>Adobe Workfront</li><li>Debe tener Adobe Workfront Planning para ver solicitudes de Planning o formularios de solicitud</td> 
+  </tr> 
  </tbody> 
 </table>
 
@@ -227,7 +231,7 @@ Debe tener una solicitud que usted o alguien de su organización haya enviado an
       <td> <p>Calcule cuántas horas tardaría esta solicitud en completarse.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Fecha planificada de inicio</strong> </td> 
+      <td role="rowheader"><strong>Fecha de inicio planificada</strong> </td> 
       <td> <p>La fecha en la que debería comenzar el trabajo en esta solicitud.</p> </td> 
      </tr> 
      <tr> 

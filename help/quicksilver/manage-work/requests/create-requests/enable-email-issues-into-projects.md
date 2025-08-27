@@ -6,10 +6,10 @@ description: Puede configurar un proyecto para permitir que los usuarios agregue
 author: Alina, Courtney
 feature: Work Management
 exl-id: 556775e8-7ac9-482d-8c1c-863678584aa4
-source-git-commit: 06e42fa713bc9b0c1e308feb2b84ca62dafa416c
+source-git-commit: 0ffae8ed285f6e9164a239552feb90465bea3cca
 workflow-type: tm+mt
-source-wordcount: '782'
-ht-degree: 90%
+source-wordcount: '798'
+ht-degree: 89%
 
 ---
 
@@ -48,6 +48,10 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
    <td role="rowheader">Configuraciones de nivel de acceso</td> 
    <td> <p>Editar acceso a Problemas</p>  </td> 
   </tr> 
+  <tr> 
+   <td role="rowheader"> Producto</td> 
+   <td> <ul><li>Adobe Workfront</li><li>Debe tener Adobe Workfront Planning para ver solicitudes de Planning o formularios de solicitud</td> 
+  </tr> 
  </tbody> 
 </table>
 
@@ -75,7 +79,7 @@ Se requieren las siguientes condiciones para configurar un proyecto de modo que 
 >* Workfront permite un correo electrónico único por cola de solicitudes en todos los clústeres. Si decide deshabilitar su cola de solicitudes, conservará la dirección de correo electrónico que creó siempre que aún esté en el cuadro de Dirección de correo de entrada. Si decide dejar de usar el correo de entrada, debe eliminarlo del campo de Dirección de correo de entrada para que esté disponible para uso futuro.
 >
 >* Si la cola de solicitudes tiene varios temas o grupos de temas, Workfront seleccionará al azar el tema de la cola al que se enviarán las solicitudes por correo electrónico, lo que dificulta la gestión de dichas solicitudes.
->Recomendamos que el proyecto que configure para recibir solicitudes por correo electrónico no tenga más de un tema de cola. Si las solicitudes enviadas están destinadas a diferentes recursos o proyectos, debe redirigirlas o moverlas manualmente una vez que se hayan enviado.
+>  >Recomendamos que el proyecto que configure para recibir solicitudes por correo electrónico no tenga más de un tema de cola. Si las solicitudes enviadas están destinadas a diferentes recursos o proyectos, debe redirigirlas o moverlas manualmente una vez que se hayan enviado.
 
 1. Vaya al proyecto que desea habilitar para recibir problemas por correo electrónico.
 1. Haga clic en **Detalles de cola** en el panel izquierdo.

@@ -6,10 +6,10 @@ description: En Adobe Workfront, el trabajo planificado se representa mediante p
 author: Alina
 feature: Work Management
 exl-id: 8b023a3d-326d-4d63-9e1e-8171553a9e23
-source-git-commit: 1c11be2d6de471bf456107b5c86a599766583f74
+source-git-commit: b24b1e481bbe726aaf9810124fcf55bdac866cb0
 workflow-type: tm+mt
-source-wordcount: '2765'
-ht-degree: 78%
+source-wordcount: '2841'
+ht-degree: 77%
 
 ---
 
@@ -17,9 +17,17 @@ ht-degree: 78%
 
 <!--Audited: 12/2023-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--
+<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
+<p>(NOTE: Linked to the UI - do not change/ remove; THIS IS NOW SPLIT IN THREE ARTICLES>> MAKE SURE THE TRANSITION TO THE OTHER TWO IS CLEAR SINCE THIS IS LINKED TO UI)</p>
+<p>(NOTE: If they come out with templates AND drafts, consider splitting this article to keep Create in one and Working with Drafts and Requests in another??)</p>
+<p>(NOTE: this article is linked from Submitting Workfront Requests from Salesforce) </p>
+</div>
+-->
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después de las versiones mensuales en Production, las mismas funciones también están disponibles en el entorno Production para los clientes que habilitaron versiones rápidas. </span>
+
+<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 En Adobe Workfront, el trabajo planificado se representa mediante proyectos y tareas. Sin embargo, es posible que se trabaje en un entorno en el que el trabajo no planificado, en forma de solicitudes, pueda llegar en cualquier momento. Workfront proporciona un flujo de trabajo para dar cabida a este tipo de entorno mediante el uso de colas de solicitudes.
 
@@ -50,6 +58,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  <col> 
  <col> 
  <tbody> 
+ <tbody> 
   <tr> 
    <td role="rowheader">Plan de Adobe Workfront</td> 
    <td> <p>Cualquiera </p> </td> 
@@ -64,6 +73,10 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso</td> 
    <td> <p>Editar acceso a Problemas</p>  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> Producto</td> 
+   <td> <ul><li>Adobe Workfront</li><li>Debe tener Adobe Workfront Planning para ver solicitudes de Planning o formularios de solicitud</td> 
   </tr> 
  </tbody> 
 </table>
@@ -136,18 +149,20 @@ Para crear una solicitud en la aplicación web de Workfront:
 
 1. (Condicional) Si ha cambiado a la nueva experiencia que incluye Workfront Planning y se encuentra en el entorno de producción, el cuadro **Nueva solicitud** muestra lo siguiente:</span>
 
-   * Las 6 colas de solicitud de Workfront a las que se ha accedido más recientemente y los formularios de solicitud de Planning se muestran en la sección Reciente.
-   * 50 colas de solicitudes de Workfront adicionales y formularios de solicitudes de Planning se muestran en orden alfabético en la sección **Todos los formularios de solicitudes**. Puede buscar una cola de solicitudes que no se muestre de forma predeterminada.
-
-   ![Nuevo cuadro de solicitud con flujo de trabajo unificado para las solicitudes de planificación](assets/new-request-box-with-unified-workflow-for-planning-requests.png)
-
-   Haga clic en una de las tarjetas de cola de solicitudes de Workfront o busque una y, a continuación, haga clic en ella cuando se muestre en la lista.
-1. (Condicional) Si ha cambiado a la nueva experiencia que incluye Workfront Planning y se encuentra en el entorno de vista previa, el cuadro **Nueva solicitud** mostrará lo siguiente:
-
    <ul><li>Las 6 colas de solicitud de Workfront a las que se ha accedido más recientemente y los formularios de solicitud de Planning se muestran en la sección Reciente. </li>
     <li>Todos los formularios de solicitud adicionales de Workfront y Planning <b>Todos los formularios de solicitud</b>. Puede buscar formularios de solicitud que no se muestren de forma predeterminada. </li>
     <li>Todas las rutas de cola de solicitudes adicionales de Workfront y Planning se muestran en la sección <b>Todas las rutas de solicitud</b>. Puede buscar una cola de solicitudes que no se muestre de forma predeterminada.</li></ul>
    Haga clic en una de las rutas o formularios de la cola de solicitudes de Workfront o busque uno y, a continuación, haga clic en él cuando se muestre en la lista.
+1. <span class="preview">(Condicional) Si ha cambiado a la nueva experiencia que incluye Workfront Planning, seleccione una de las rutas o formularios de cola de solicitudes de Workfront o haga clic en la barra de búsqueda. </span>
+
+   <span class="preview">Al hacer clic en la barra de búsqueda, aparece una lista desplegable que muestra primero las colas y los formularios utilizados más recientemente. Seleccione uno de la lista o empiece a escribir y seleccione la cola o lista cuando aparezca.</span>
+
+   >[!NOTE]
+   >
+   ><span class="preview">Tenga en cuenta lo siguiente con respecto a la nueva experiencia de solicitud disponible actualmente en Vista previa:</span>
+   >* <span class="preview">La lista incluye tanto colas de solicitud de Workfront como formularios de solicitud de Workfront Planning.</span>
+   >* <span class="preview">Puede filtrar la lista por tipo de objeto.</span>
+   >* <span class="preview">Para mostrar solo las colas de solicitud de Workfront, filtre por `Issue` tipos de objetos.</span>
 
 1. (Condicional) Si ha cambiado a la nueva experiencia que incluye Workfront Planning, seleccione los grupos de temas y los temas de la cola y continúe actualizando el formulario.
 

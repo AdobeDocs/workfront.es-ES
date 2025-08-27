@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
-source-git-commit: c3e3dfdb0a1819954c97168cbabddfc8dc5863a0
+source-git-commit: b24b1e481bbe726aaf9810124fcf55bdac866cb0
 workflow-type: tm+mt
-source-wordcount: '2005'
+source-wordcount: '2047'
 ht-degree: 6%
 
 ---
@@ -30,9 +30,10 @@ Puede enviar una solicitud de Workfront Planning desde las siguientes áreas:
 
 * Desde el área Solicitudes de Workfront.
 * Desde un vínculo directo al formulario de solicitud compartido.
-
-  En este artículo se describe cómo puede enviar una solicitud para agregar nuevos registros a un tipo de registro desde el área Solicitudes de Workfront o desde un vínculo compartido.
 * Desde la página de tipo de registro, al agregar o solicitar un registro nuevo. Para obtener más información, consulte [Crear registros](/help/quicksilver/planning/records/create-records.md).
+
+En este artículo se describe cómo puede enviar una solicitud para agregar nuevos registros a un tipo de registro desde el área Solicitudes de Workfront o desde un vínculo compartido.
+
 
 Los usuarios de Workfront y los usuarios externos pueden enviar solicitudes a los tipos de registros de Planning y crear registros. <!--double check on the external users-->
 
@@ -160,7 +161,9 @@ Si habilita esta configuración, los formularios de solicitud de Workfront Plann
    >* Tiene acceso para ver al menos un espacio de trabajo.
    >
 
-1. Haga clic en **Nueva solicitud**.
+<!--Production-->
+
+1. En el entorno Producción, haga clic en **Nueva solicitud**.
 
    <!--![New request box with unified Workfront and Planning cards](assets/new-request-box-with-unified-workfront-and-planning-cards.png-->
 
@@ -169,12 +172,15 @@ Si habilita esta configuración, los formularios de solicitud de Workfront Plann
    * Las 6 colas de solicitud de Workfront a las que se ha accedido más recientemente y los formularios de solicitud de Planning se muestran en la sección Reciente.
    * 50 colas de solicitudes de Workfront adicionales y formularios de solicitudes de Planning se muestran en orden alfabético en la sección **Todos los formularios de solicitudes**. Puede buscar una cola de solicitudes que no se muestre de forma predeterminada.
 
-1. Realice una de las siguientes acciones:
+1. En el entorno Producción, realice una de las siguientes acciones:
 
    * Seleccione los formularios de solicitud de Planning en las secciones Formularios de solicitud recientes o Todos
    * Comience a escribir el nombre de un formulario de solicitud de Planning en el cuadro de búsqueda y, a continuación, haga clic en la tarjeta cuando se muestre en la lista.
 
    Se abrirá el formulario de solicitud.
+
+<!-- Put preview section here-->
+1. <span class="preview">En el entorno de vista previa, seleccione un formulario o cola de solicitud en el área de formularios de solicitud a los que se ha accedido recientemente, o empiece a escribir el nombre del formulario o cola en la lista y, a continuación, selecciónelo cuando aparezca.
 
 1. Actualice los campos disponibles en el formulario de solicitud. Los campos con un asterisco rojo son obligatorios.
 1. Haga clic en **Enviar**.
