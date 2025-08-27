@@ -6,7 +6,7 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 2a640cd5-f4a8-4ff3-81b6-32f85f6e4535
-source-git-commit: bddd0dcd2263bd65420a17e4b9cc74336877719f
+source-git-commit: 7288c6fb0f5d45758e0a82b8d1283e1f43ae94e6
 workflow-type: tm+mt
 source-wordcount: '364'
 ht-degree: 54%
@@ -46,6 +46,11 @@ En la tabla siguiente se muestran los límites de la cantidad de objetos que se 
 | Tamaño del archivo CSV de Excel que puede importar para crear tipos de registros | 5 MB |
 | Número de filas que puede importar en un archivo CSV o de Excel para crear tipos de registros | 25.000 |
 | Número de columnas que se pueden importar en un archivo CSV o de Excel para crear tipos de registros | 500 |
+
+<!--
+| <span class="preview">Number of formula fields for one record type</span> | <span class="preview">20</span> |
+| <span class="preview">Number of characters in a formula field expression</span> | <span class="preview">50,000</span> |
+-->
 
 * Recomendamos no tener demasiados espacios de trabajo, ya que podrían resultar difíciles de administrar y los flujos de trabajo podrían estar demasiado fragmentados.
 

@@ -6,14 +6,23 @@ description: Cuando una tarea de un proyecto requiere un esfuerzo mayor en compl
 author: Alina
 feature: Work Management
 exl-id: a45f0af4-1768-4f20-80d4-912e6fe0fc03
-source-git-commit: 55c714436fe59c84251c7f4e2a46614feae92cd6
+source-git-commit: 7288c6fb0f5d45758e0a82b8d1283e1f43ae94e6
 workflow-type: tm+mt
-source-wordcount: '1189'
-ht-degree: 95%
+source-wordcount: '1198'
+ht-degree: 84%
 
 ---
 
 # Convertir una tarea en un proyecto
+
+<!--
+<div class="preview"> 
+
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release.      
+
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
+
+</div>-->
 
 Cuando una tarea de un proyecto requiere un esfuerzo mayor en completarse que el planificado originalmente, puede convertirla en un proyecto.
 
@@ -166,7 +175,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 1. Haga clic en el icono **Más** ![](assets/more-icon.png) y, a continuación, en **Convertir en un proyecto**.
 1. Elija alguna de las siguientes opciones:
 
-   * **Nuevo proyecto**
+   * **Nuevo proyecto**, para crear un proyecto sin usar una plantilla
    * Una plantilla en la sección **Seleccionar desde plantillas**
 
      ![](assets/convert-task-to-project-template-option-dropdown-nwe-350x209.png)
@@ -174,15 +183,15 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 1. Haga clic en **Continuar** en la notificación que aparece.
 1. En el cuadro **Convertir en proyecto**, especifique lo siguiente:
 
-   * **Nombre**: asigne un nombre al proyecto. El nombre predeterminado es el de la tarea.
-   * (Opcional) **Descripción**: describe la finalidad de este proyecto.
-   * (Opcional y condicional) Si ha seleccionado crear un proyecto a partir de una plantilla, actualice los campos disponibles en el cuadro de diálogo **Convertir en proyecto**.
+   * **Nombre**: asigne un nombre al proyecto. El nombre predeterminado es el nombre de la tarea. Este campo es obligatorio.
+   * **Descripción**: describe el propósito de este proyecto.
+   * (Condicional) Si ha seleccionado crear un proyecto a partir de una plantilla, actualice los campos disponibles en el cuadro **Convertir en proyecto**.
 
      Para obtener más información sobre cómo editar campos en proyectos, consulte [Editar proyectos](../../../manage-work/projects/manage-projects/edit-projects.md).
 
      >[!TIP]
      >
-     >Para actualizar los campos de la sección Finanzas del cuadro Convertir en proyecto, debe tener acceso de edición a los datos financieros en su nivel de acceso.Si tiene acceso de visualización de datos financieros en su nivel de acceso, toda la información financiera de la plantilla se transfiere al nuevo proyecto y no puede editarla mientras convierte el problema. Para obtener más información, consulte [Conceder acceso a datos financieros](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md) y [Compartir una plantilla](../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md).
+     >Para actualizar los campos de la sección Finanzas del cuadro Convertir en proyecto, debe tener acceso de edición a los datos financieros en su nivel de acceso. Si tiene acceso de visualización de datos financieros en su nivel de acceso, toda la información financiera de la plantilla se transfiere al nuevo proyecto y no puede editarla mientras convierte el problema. Para obtener más información, consulte [Conceder acceso a datos financieros](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md) y [Compartir una plantilla](../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md).
 
    * (Opcional) Añada **Formularios personalizados** al nuevo proyecto.
 
@@ -191,6 +200,6 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
      >Si un formulario personalizado de varios objetos adjunto a la tarea se ha configurado para utilizarse con tareas y proyectos, se conserva toda la información guardada en el formulario cuando realice la conversión.
      >
      >
-     >Si utiliza una plantilla para la conversión y un formulario personalizado adjunto a la plantilla contiene un campo personalizado que también se encuentra en un formulario personalizado adjunto a la tarea, se utiliza el valor de campo de la tarea para el nuevo proyecto. Sin embargo, si el campo personalizado está en blanco en la tarea, se utiliza el valor de la plantilla.
+     >Si utiliza una plantilla para la conversión y un formulario personalizado adjunto a la plantilla contiene un campo personalizado que también se encuentra en un formulario personalizado adjunto a la tarea, se utiliza el valor de campo de la tarea para el nuevo proyecto. Sin embargo, si el campo personalizado está vacío en la tarea, se utiliza el valor de la plantilla.
 
-1. Haga clic en **Guardar cambios**.
+1. Haga clic en **Guardar cambios** <!--<span class="preview">or **Convert to Project**</span>-->.
