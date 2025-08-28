@@ -5,10 +5,10 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 298473d4-7d7d-4401-80bf-899a01f570a6
-source-git-commit: a7f368f605851d01293715e67c165c36d4e2ec48
+source-git-commit: a4aa7a6f8909dc3f7212f78391f28068d50a2786
 workflow-type: tm+mt
-source-wordcount: '1811'
-ht-degree: 19%
+source-wordcount: '1871'
+ht-degree: 18%
 
 ---
 
@@ -57,11 +57,20 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td><strong>Liberación rápida</strong></td>
         <td><strong>Trimestralmente</strong></td>
     </tr>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Habilitar características de AI Beta para su organización</a><p></p>
+            <p>Para facilitarle la visualización e influencia de las próximas funciones de IA, hemos habilitado las funciones beta para dichas funciones en su organización. Ahora, puede elegir habilitar una o más de las funciones de AI Beta disponibles actualmente en Preferencias del sistema.</p>
+        </td>
+        <td>viernes, 28 de agosto de 2025</td>
+        <td>viernes, 11 de septiembre de 2025</td>
+        <td>viernes, 16 de octubre de 2025</td>
+    </tr>     
      <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Actualizaciones en el perfil de usuario de Workfront</a><p></p>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Actualizaciones en el perfil de usuario de Workfront</a><p>[!BADGE Off schedule]{type=Neutral}</p>
             <p>Hemos actualizado el aspecto del perfil de usuario de Workfront a un diseño moderno que es coherente con otras áreas de Workfront. Estas actualizaciones se aplican tanto a un administrador que edita un único perfil como a un administrador que edita varios perfiles en lote, o a un usuario que edita su propio perfil.</p>
-            <p>Existen pequeñas diferencias de funcionalidad con respecto al perfil de usuario actual, entre ellas:</p>
+            <p>Existen algunas pequeñas diferencias de funcionalidad con respecto al perfil de usuario actual, que incluyen:</p>
             <ul>
                 <li>Algunas casillas de verificación (como marcar al usuario como activo) se han cambiado a alternancias o botones.</li>
                 <li>La opción "Enviar trabajo que me asigne a mí mismo a mi ficha Trabajando en" en Preferencias se ha eliminado porque hace referencia a una función obsoleta.</li>
@@ -73,7 +82,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
     </tr>  
     <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Agregar varias opciones de valor de una API externa a un formulario personalizado</a><p>[!BADGE Off schedule]{type=Neutral}</p>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Agregar varias opciones de valor de una API externa a un formulario personalizado</a><p></p>
             <p>Ahora hay disponible un nuevo tipo de campo, Búsqueda externa de selección múltiple en el diseñador de formularios personalizado. Cuando los datos están almacenados en un sistema externo, este tipo de campo le permite cargar opciones desde una API externa y filtrar según otros valores de campo del formulario personalizado. Es lo mismo que una búsqueda externa de selección única.</p>
             <p>Cuando se agrega el formulario a un objeto, los valores devueltos por la API aparecen en un campo desplegable y el usuario puede seleccionar varios valores.</p>
         </td>
@@ -380,7 +389,7 @@ Para ofrecer integraciones más estables y escalables, estamos adoptando un enfo
 * Workfront para Salesforce.
 
 Recomendamos utilizar la automatización e integración de Workfront para las necesidades de integración de su organización con Google Workspace.
-Para obtener una descripción general de la automatización e integración de Workfront, consulte [Información general de Adobe Workfront Fusion](https://experienceleague.adobe.com/es/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+Para obtener una descripción general de la automatización e integración de Workfront, consulte [Información general de Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 
 ### Versión 20 de la API
 
