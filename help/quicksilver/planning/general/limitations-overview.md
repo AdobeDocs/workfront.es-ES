@@ -6,19 +6,19 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 2a640cd5-f4a8-4ff3-81b6-32f85f6e4535
-source-git-commit: 7288c6fb0f5d45758e0a82b8d1283e1f43ae94e6
+source-git-commit: 7f719c903ad4079470a6dbd046dce445ba227a5b
 workflow-type: tm+mt
-source-wordcount: '364'
-ht-degree: 54%
+source-wordcount: '441'
+ht-degree: 45%
 
 ---
 
 
 # Información general sobre las limitaciones de objetos de Adobe Workfront Planning
 
-<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">La información de esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después de las versiones mensuales en Production, las mismas características también están disponibles en el entorno Production para los clientes que habilitaron versiones rápidas.</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -46,11 +46,9 @@ En la tabla siguiente se muestran los límites de la cantidad de objetos que se 
 | Tamaño del archivo CSV de Excel que puede importar para crear tipos de registros | 5 MB |
 | Número de filas que puede importar en un archivo CSV o de Excel para crear tipos de registros | 25.000 |
 | Número de columnas que se pueden importar en un archivo CSV o de Excel para crear tipos de registros | 500 |
+| <span class="preview">Número de campos de fórmula para un tipo de registro</span> | <span class="preview">20</span> |
+| <span class="preview">Número de caracteres en una expresión de campo de fórmula</span> | <span class="preview">50.000</span> |
 
-<!--
-| <span class="preview">Number of formula fields for one record type</span> | <span class="preview">20</span> |
-| <span class="preview">Number of characters in a formula field expression</span> | <span class="preview">50,000</span> |
--->
 
 * Recomendamos no tener demasiados espacios de trabajo, ya que podrían resultar difíciles de administrar y los flujos de trabajo podrían estar demasiado fragmentados.
 

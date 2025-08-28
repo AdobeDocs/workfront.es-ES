@@ -4,11 +4,11 @@ product-area: system-administration
 navigation-topic: configure-system-defaults
 title: Crear cuadro de resultados
 description: Un cuadro de resultados mide en qué medida un proyecto se ajusta a los criterios previamente establecidos de un portafolio. Un cuadro de resultados suele reflejar la misión, los valores y las metas estratégicas de una organización. Los administradores del portafolios suelen definir las preguntas y respuestas del informe de valoración para garantizar que sean significativas y valiosas durante la priorización y selección del proyecto. Un administrador de  [!DNL Adobe Workfront]  crea los cuadros de resultados en función de las recomendaciones de los administradores de portafolios.
-author: Lisa, Alina
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 89c9b450-72a6-4b72-98d1-22956696543a
-source-git-commit: f97c989f57d864252adf6e24f8e6b03f56d26901
+source-git-commit: 7f719c903ad4079470a6dbd046dce445ba227a5b
 workflow-type: tm+mt
 source-wordcount: '718'
 ht-degree: 73%
