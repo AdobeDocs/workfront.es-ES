@@ -6,10 +6,10 @@ description: Puede cambiar el idioma en el que se muestran Adobe Workfront y los
 feature: Get Started with Workfront
 author: Nolan
 exl-id: 0b76175f-5fe2-49df-b605-68e6e66b4366
-source-git-commit: 0ae0e2d3c4e47a1f7344acf18068bba9cbbab597
+source-git-commit: 046c1eada53631c9ab50bb0c8233adb012223bb3
 workflow-type: tm+mt
-source-wordcount: '1159'
-ht-degree: 76%
+source-wordcount: '1156'
+ht-degree: 75%
 
 ---
 
@@ -72,11 +72,10 @@ El Visor de corrección web de Workfront admite la mayoría de los idiomas compa
 
 La herramienta de revisión no admite los siguientes idiomas:
 
-* Chino simplificado (zh-CN)
 * Chino tradicional (zh-TW)
-* Portugués (pt-BR)
+* Coreano (ko-KR)
 
-Su compañía debe adquirir una licencia de revisión para que pueda acceder al Visor de corrección web.
+Su compañía debe comprar una licencia de revisión para que pueda acceder al Visor de corrección web.
 
 Para obtener más información sobre la revisión, consulte [Revisión](../review-and-approve-work/proofing/proofing.md).
 
@@ -92,8 +91,8 @@ Actualmente, Workfront Fusion solo admite el inglés.
 * Todo el contenido de Workfront Fusion, así como cualquier contenido de ayuda relacionado con Workfront Fusion, se muestra en inglés.
 * Workfront Fusion no admite el uso de caracteres de texto que no estén en inglés en los campos introducidos por el usuario.
 
-Su compañía debe adquirir una licencia de Workfront Fusion para poder acceder a Workfront Fusion.\
-Para obtener más información sobre Workfront Fusion, consulte [Información general de Adobe Workfront Fusion](https://experienceleague.adobe.com/es/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+Su compañía debe comprar una licencia de Workfront Fusion para poder acceder a Workfront Fusion.\
+Para obtener más información sobre Workfront Fusion, consulte [Información general de Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 
 ## Cambiar el idioma
 
