@@ -9,10 +9,10 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 2be211a8-df84-49c3-827f-1215c77159e0
-source-git-commit: 485f2985c70b1bb095e31323b7b4698bcb7a04cf
+source-git-commit: 909236983b7eefa25ea7961a2f760d87cae23132
 workflow-type: tm+mt
-source-wordcount: '363'
-ht-degree: 91%
+source-wordcount: '382'
+ht-degree: 73%
 
 ---
 
@@ -70,15 +70,15 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
 
      O
 
-     Para crear una nueva plantilla para el grupo basada en una existente, seleccione la plantilla existente y haga clic en **Copiar**.
+     Para crear una nueva plantilla para el grupo basada en una existente, selecciona la plantilla existente y luego haz clic en el icono **Copiar** ![Icono Copiar](assets/copy-icon.png).
 
      Para obtener información sobre la creación de una plantilla de diseño, consulte [Crear y administrar plantillas de diseño](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 
      Para obtener información sobre la copia de una plantilla de diseño para crear una nueva, consulte [Copiar una plantilla de diseño](../../../administration-and-setup/customize-workfront/use-layout-templates/copy-a-layout-template.md).
 
-   * Para editar una plantilla de diseño de grupo existente, selecciónela y haga clic en **Editar**.
+   * Para editar una plantilla de diseño de grupo existente, selecciónela y haga clic en el icono **Editar** ![Editar icono](assets/edit-icon.png).
 
      Para obtener información sobre la edición de una plantilla de diseño, consulte [Crear y administrar plantillas de diseño](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 
-   * Para eliminar una o más plantillas de diseño, selecciónelas y haga clic en **Eliminar**.
-   * Para exportar la lista de plantillas de diseño, haga clic en **Exportar**.
+   * Para eliminar una o más plantillas de diseño, selecciónelas y haga clic en el icono **Eliminar** ![Eliminar icono](assets/delete.png).
+   * Para exportar la lista de plantillas de diseño, haga clic en el icono **Exportar** ![Icono Exportar](assets/export-icon.png).
