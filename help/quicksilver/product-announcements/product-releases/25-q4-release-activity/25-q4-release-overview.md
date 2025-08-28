@@ -5,10 +5,10 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 298473d4-7d7d-4401-80bf-899a01f570a6
-source-git-commit: f4493666ce8053f98490b87a6cfd76d759393d8c
+source-git-commit: a7f368f605851d01293715e67c165c36d4e2ec48
 workflow-type: tm+mt
-source-wordcount: '1638'
-ht-degree: 21%
+source-wordcount: '1811'
+ht-degree: 19%
 
 ---
 
@@ -57,9 +57,23 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td><strong>Liberación rápida</strong></td>
         <td><strong>Trimestralmente</strong></td>
     </tr>
+     <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Actualizaciones en el perfil de usuario de Workfront</a><p></p>
+            <p>Hemos actualizado el aspecto del perfil de usuario de Workfront a un diseño moderno que es coherente con otras áreas de Workfront. Estas actualizaciones se aplican tanto a un administrador que edita un único perfil como a un administrador que edita varios perfiles en lote, o a un usuario que edita su propio perfil.</p>
+            <p>Existen pequeñas diferencias de funcionalidad con respecto al perfil de usuario actual, entre ellas:</p>
+            <ul>
+                <li>Algunas casillas de verificación (como marcar al usuario como activo) se han cambiado a alternancias o botones.</li>
+                <li>La opción "Enviar trabajo que me asigne a mí mismo a mi ficha Trabajando en" en Preferencias se ha eliminado porque hace referencia a una función obsoleta.</li>
+            </ul>
+        </td>
+        <td>viernes, 28 de agosto de 2025</td>
+        <td>viernes, 04 de septiembre de 2025</td>
+        <td>viernes, 04 de septiembre de 2025</td>
+    </tr>  
     <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Agregar varias opciones de valor de una API externa a un formulario personalizado</a><p></p>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Agregar varias opciones de valor de una API externa a un formulario personalizado</a><p>[!BADGE Off schedule]{type=Neutral}</p>
             <p>Ahora hay disponible un nuevo tipo de campo, Búsqueda externa de selección múltiple en el diseñador de formularios personalizado. Cuando los datos están almacenados en un sistema externo, este tipo de campo le permite cargar opciones desde una API externa y filtrar según otros valores de campo del formulario personalizado. Es lo mismo que una búsqueda externa de selección única.</p>
             <p>Cuando se agrega el formulario a un objeto, los valores devueltos por la API aparecen en un campo desplegable y el usuario puede seleccionar varios valores.</p>
         </td>
@@ -266,30 +280,36 @@ The <add release> release webinar will be held on <date>. You can [register for 
 
 <table>
             <col style="width: 50%;" />
-            <col style="width: 50%;" />
+            <col style="width: 25%;" />
             <tbody>
-                <tr>
-                    <td>
-                        <p><span class="bold">Característica</span>
-                        </p>
-                    </td>
-                    <td>
-                        <p><span class="bold">Fechas de lanzamiento</span>
-                        </p>
-                    </td>
-                </tr>
+               <tr>
+        <td><strong>Característica</strong>
+        </td>
+        <td><strong>Vista previa</strong></td>
+        <td><strong>Liberación rápida</strong></td>
+        <td><strong>Trimestralmente</strong></td>
+    </tr>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-other.md" class="MCXref xref" xrefformat="{para}">Actualizaciones en listas mejoradas</a><p></p>
+            <p>Con nuestro diseño de listas avanzadas, puede utilizar filtros y agrupaciones para mostrar su trabajo y mantenerlo mejor organizado. Ahora aparece un indicador de punto azul encima de un widget para saber cuándo se ha aplicado un filtro o una agrupación a una lista en las siguientes áreas:</p>
+            <ul>
+                <li>Tasas de cambio en la configuración</li>
+                <li>Widget de Mis solicitudes</li>
+                <li>Prioridades</li>
+            </ul>
+        </td>
+        <td>viernes, 28 de agosto de 2025</td>
+        <td>viernes, 11 de septiembre de 2025</td>
+        <td>viernes, 16 de octubre de 2025</td>
+    </tr>     
                  <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">Actualizaciones de aspecto durante el cuarto trimestre de 2025</a></p>
                         <p>En el periodo de tiempo del cuarto trimestre de 2025 se realizarán actualizaciones menores del aspecto de varias áreas de la aplicación de Adobe Workfront. </p>
                     </td>
-                    <td><p><b>Disponible en estas fechas:</b></p>
-                        <ul>
-                            <li>
-                                <p>Versión de vista previa: Durante el cuarto trimestre de 2025<br /></p>
-                            </li>
-                            <li>
-                                <p>Versión de producción: un mínimo de 2 semanas después del lanzamiento a Vista previa (a menos que se especifique lo contrario)</p>
+                    <td><p>Durante el cuarto trimestre de 2025<br /></p>
+                    <td colspan="2"><p>Versión rápida: Un mínimo de 1 semana después del lanzamiento a Vista previa (a menos que se especifique lo contrario)</p>
                             </li>
                         </ul>
                     </td>
@@ -360,7 +380,7 @@ Para ofrecer integraciones más estables y escalables, estamos adoptando un enfo
 * Workfront para Salesforce.
 
 Recomendamos utilizar la automatización e integración de Workfront para las necesidades de integración de su organización con Google Workspace.
-Para obtener una descripción general de la automatización e integración de Workfront, consulte [Información general de Adobe Workfront Fusion](https://experienceleague.adobe.com/es/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+Para obtener una descripción general de la automatización e integración de Workfront, consulte [Información general de Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 
 ### Versión 20 de la API
 

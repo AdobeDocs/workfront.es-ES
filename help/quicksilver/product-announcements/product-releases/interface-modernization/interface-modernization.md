@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 870fcb44506ae583fb6a5c36419fda71be581e6d
+source-git-commit: ae5cc55bcd1d9db4484b5c5447a483456015f9fe
 workflow-type: tm+mt
-source-wordcount: '7094'
+source-wordcount: '7449'
 ht-degree: 2%
 
 ---
@@ -24,16 +24,26 @@ Para ver todos los demás cambios en Adobe Workfront, consulte [Versiones del pr
 
 ## Administración y configuración
 
-<!--
-### Interface updates when editing a Scorecard
+### Actualizaciones de la interfaz de la lista de plantillas de diseño de un grupo
 
-**Preview release: August 21, 2025; Production release: August 21, 2025**
+**Versión preliminar: 28 de agosto de 2025; versión de producción: 4 de septiembre de 2025**
 
-We have updated the look and feel of the when editing a Scorecard to match the design in other areas of the application. You can view the updated design when editing a scorecard in the Setup area of Workfront.
+Hemos actualizado el aspecto de la lista de plantillas de diseño del panel izquierdo de un grupo para que coincida con otras áreas de la aplicación.
 
-A small functionality change has been applied to the Scorecard. To edit a Scorecard, select the Scorecard from the list and click the Edit icon. You are no longer directed to the Scorecard details page before you can edit.
+Para ver estos cambios, vaya a Configuración > Grupos > Seleccionar un grupo > Plantillas de diseño.
 
--->
+Para obtener más información, vea [Crear y modificar las plantillas de diseño de un grupo](/help/quicksilver/administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
+
+
+### Actualizaciones de la interfaz al editar un informe de valoración
+
+**Versión preliminar: 28 de agosto de 2025; versión de producción: 28 de agosto de 2025**
+
+Hemos actualizado el aspecto del informe de valoración a fin de que coincida con el diseño de otras áreas de la aplicación. Puede ver el diseño actualizado al editar un cuadro de mandos en el área de Configuración de Workfront.
+
+Se ha aplicado un pequeño cambio de funcionalidad al informe de valoración. Para editar un informe de valoración, selecciónelo en la lista y haga clic en el icono Editar. Ya no se le dirigirá a la página de detalles del informe de valoración para que pueda editarlo.
+
+
 
 ### Actualizaciones de la interfaz para la página de notificaciones de revisión y aprobación en Configuración
 
@@ -120,7 +130,30 @@ Hemos actualizado la página Actualizar usuarios para SSO con un diseño más mo
 
 Para ver este cambio, vaya a Configuración > Sistema > Actualizar usuarios para SSO
 
+## Portafolios
+
+### Actualizaciones de la interfaz para editar portafolios
+
+**Versión preliminar: 28 de agosto de 2025; versión de producción: 4 de septiembre de 2025**
+
+Hemos introducido actualizaciones en la interfaz al editar portafolios en el cuadro Editar Portfolio. Los cuadros Editar portafolio y Editar portafolios ahora tienen un diseño más reciente que coincide con otras áreas de Workfront.
+
+>[!NOTE]
+>
+>La configuración Recalcular expresiones se ha eliminado al editar portafolios por lotes. Puede volver a calcular las expresiones personalizadas de forma masiva, al seleccionar varios portafolios en una lista y hacer clic en la opción Volver a calcular expresiones en el menú Más de la barra de herramientas.
+
+
+Para obtener más información, consulte [Editar portafolios](/help/quicksilver/manage-work/portfolios/create-and-manage-portfolios/edit-portfolios.md).
+
 ## Proyectos
+
+### Cambios en la interfaz para la tarea Convertir una tarea en un proyecto sin plantilla
+
+**Versión preliminar: 28 de agosto de 2025; versión de producción: 4 de septiembre de 2025**
+
+Hemos introducido actualizaciones de la interfaz en el cuadro Convertir en proyecto al convertir una tarea en un proyecto sin plantilla. La casilla ahora coincide con el diseño de otras áreas de Workfront.
+
+Para obtener más información, vea [Convertir una tarea en un proyecto](/help/quicksilver/manage-work/tasks/manage-tasks/convert-task-to-project.md).
 
 ### Actualizaciones de la interfaz al agregar objetos a programas y portafolios
 
@@ -161,14 +194,14 @@ Con esta actualización se introdujo un pequeño cambio de funcionalidad. Ahora,
 
 Para obtener más información, vea [Crear temas de colas](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
 
-<!--### Interface update for the Edit Expense box of a project
+### Actualización de la interfaz del cuadro Editar gasto de un proyecto
 
-**Preview release: August 21, 2025; Production release: August 28, 2025**
+**Versión preliminar: 28 de agosto de 2025; versión de producción: 4 de septiembre de 2025**
 
-We have updated the dialog box for editing a project expense, to match other areas of the application. The updated dialog box is available when editing expenses in projects or templates.
+Hemos actualizado el cuadro de diálogo para editar un gasto de proyecto, para que coincida con otras áreas de la aplicación. El cuadro de diálogo actualizado está disponible al editar gastos en proyectos o plantillas.
 
-For information, see [Manage project expenses](/help/quicksilver/manage-work/projects/project-finances/manage-project-expenses.md).
--->
+Para obtener más información, consulte [Administrar gastos del proyecto](/help/quicksilver/manage-work/projects/project-finances/manage-project-expenses.md).
+
 
 ### Actualizaciones de la interfaz para registrar el tiempo en un proyecto, tarea o problema en la sección Horas
 
