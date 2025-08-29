@@ -5,10 +5,11 @@ title: Eliminación de un informe en un panel de lienzo
 description: Puede eliminar un informe desde un panel de lienzo.
 author: Courtney and Jenny
 feature: Reports and Dashboards
-source-git-commit: 8b9676c7ef4efcad1294a9aa786aa6fe52d26cc0
+exl-id: 98d26160-a097-473d-8d66-e6d619cb2908
+source-git-commit: 68a4a9d1c3980fd947b5fefef19cdfa09591e849
 workflow-type: tm+mt
-source-wordcount: '235'
-ht-degree: 19%
+source-wordcount: '292'
+ht-degree: 17%
 
 ---
 
@@ -16,14 +17,20 @@ ht-degree: 19%
 
 >[!IMPORTANT]
 >
->Actualmente, la función Paneles de lienzo solo está disponible para los usuarios que participan en la fase beta. Para obtener más información, consulte [Información beta de paneles de lienzo](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md).
+>Actualmente, la función Paneles de lienzo solo está disponible para los usuarios que participan en la fase beta. Es posible que algunas partes de la función no estén completas o que no funcionen según lo previsto durante esta fase. Envíe cualquier comentario sobre su experiencia siguiendo las instrucciones de la sección [Proporcionar comentarios](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) del artículo Información general sobre la versión beta de los paneles de lienzo.<br>
+>>Tenga en cuenta que esta versión beta no está disponible en los siguientes proveedores de la nube:
+>
+>* Traer su propia clave para Amazon Web Service
+>* Azure
+>* Google Cloud Platform
 
 Una vez creado un panel de lienzo y agregado los informes, puede eliminar los informes más antiguos que ya no sean aplicables a ese panel específico.
 
 La eliminación de un informe es permanente. Si necesita volver a agregar un informe después de eliminarlo, deberá volver a crear el informe.
 
+## Requisitos de acceso
 
-+++ Amplíe para ver los requisitos de acceso.
++++ Amplíe para ver los requisitos de acceso. 
 
 <table style="table-layout:auto"> 
 <col> 

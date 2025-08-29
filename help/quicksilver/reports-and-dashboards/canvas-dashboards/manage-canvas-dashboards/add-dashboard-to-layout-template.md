@@ -5,9 +5,10 @@ title: Añadir un panel de lienzo a una plantilla de diseño
 description: Puede agregar un panel de lienzo a una plantilla de diseño para que reemplace la página de aterrizaje de Inicio, aparezca en el panel izquierdo de un objeto o esté anclado a la barra superior.
 author: Courtney and Jenny
 feature: Reports and Dashboards
-source-git-commit: b5899500cad1ac32345d39f76eea7f643f1cd0ea
+exl-id: 91ebcec5-99a4-4096-8d4e-b4ea31755d75
+source-git-commit: d76ad0d51f28191cbd04af950e10a2247414830e
 workflow-type: tm+mt
-source-wordcount: '490'
+source-wordcount: '547'
 ht-degree: 9%
 
 ---
@@ -16,11 +17,18 @@ ht-degree: 9%
 
 >[!IMPORTANT]
 >
->Actualmente, la función Paneles de lienzo solo está disponible para los usuarios que participan en la fase beta. Para obtener más información, consulte [Información beta de paneles de lienzo](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md).
+>Actualmente, la función Paneles de lienzo solo está disponible para los usuarios que participan en la fase beta. Es posible que algunas partes de la función no estén completas o que no funcionen según lo previsto durante esta fase. Envíe cualquier comentario sobre su experiencia siguiendo las instrucciones de la sección [Proporcionar comentarios](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) del artículo Información general sobre la versión beta de los paneles de lienzo.<br>
+>>Tenga en cuenta que esta versión beta no está disponible en los siguientes proveedores de la nube:
+>
+>* Traer su propia clave para Amazon Web Service
+>* Azure
+>* Google Cloud Platform
 
 Puede agregar un panel de lienzo a una plantilla de diseño para que reemplace la página de aterrizaje de Inicio, aparezca en el panel izquierdo de un objeto o esté anclado a la barra superior en todo Adobe Workfront.
 
 ![Panel izquierdo](assets/left-panel.png)
+
+## Requisitos de acceso
 
 +++ Amplíe para ver los requisitos de acceso. 
 

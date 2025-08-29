@@ -6,10 +6,10 @@ description: Puede agregar un informe de tabla a un panel de lienzo para visuali
 author: Courtney and Jenny
 feature: Reports and Dashboards
 exl-id: a7aa8614-6e80-4fc1-88ff-d952d87ddcbc
-source-git-commit: 72344e5c1607ba6b4dd2a1e71a462bba93369b27
+source-git-commit: d76ad0d51f28191cbd04af950e10a2247414830e
 workflow-type: tm+mt
-source-wordcount: '761'
-ht-degree: 11%
+source-wordcount: '1045'
+ht-degree: 8%
 
 ---
 
@@ -17,11 +17,18 @@ ht-degree: 11%
 
 >[!IMPORTANT]
 >
->Actualmente, la función Paneles de lienzo solo está disponible para los usuarios que participan en la fase beta. Para obtener más información, consulte [Información beta de paneles de lienzo](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md).
+>Actualmente, la función Paneles de lienzo solo está disponible para los usuarios que participan en la fase beta. Es posible que algunas partes de la función no estén completas o que no funcionen según lo previsto durante esta fase. Envíe cualquier comentario sobre su experiencia siguiendo las instrucciones de la sección [Proporcionar comentarios](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) del artículo Información general sobre la versión beta de los paneles de lienzo.<br>
+>>Tenga en cuenta que esta versión beta no está disponible en los siguientes proveedores de la nube:
+>
+>* Traer su propia clave para Amazon Web Service
+>* Azure
+>* Google Cloud Platform
 
 Puede agregar un informe de tabla a un panel de lienzo para visualizar los datos en formato de tabla.
 
 ![Ejemplo de informe de tabla](assets/table-example-main.png)
+
+## Requisitos de acceso
 
 +++ Amplíe para ver los requisitos de acceso. 
 
@@ -60,6 +67,7 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
 
 Debe crear un tablero para poder crear un informe de tabla.
 
+
 ## Generar un informe de tabla en un panel de control del lienzo
 
 Hay muchas opciones de configuración disponibles para crear un informe de tabla. En esta sección, le guiaremos a través del proceso general de creación de uno.
@@ -91,6 +99,8 @@ Hay muchas opciones de configuración disponibles para crear un informe de tabla
    1. En el panel izquierdo, haga clic en el icono **Columnas de tabla** ![Icono de crear tabla](assets/drilldown-column.png).
 
    1. Haga clic en **Agregar columna** y, a continuación, seleccione el campo que desee mostrar como columna en la tabla. La columna aparece en la sección de vista previa de la derecha.
+
+
 
    1. Repita el paso anterior para cada columna que desee agregar.
 
@@ -190,3 +200,35 @@ Para obtener más información sobre ejemplos de informes de tabla, consulte [Cr
       ![ejemplo de filtro de tabla de aprobación pendiente](assets/pending-approval-table-filter.png)
    1. (Opcional) Agregue filtros adicionales como se describe en la sección **Filtros opcionales** a continuación.
 1. Haz clic en **Guardar** en la esquina superior derecha de la pantalla.
+
+## Consideraciones al crear un informe de tabla
+
+### Uso del selector de campos
+
+La lista desplegable **Secciones** de la sección **Generar tabla** está diseñada para reducir las opciones de un selector de campo y facilitar la búsqueda de un objeto al crear un informe de tabla. Para empezar, debe seleccionar un objeto de entidad base.
+
+* **Todas las secciones**: Todos los tipos de objetos en Workfront Workflow y Workfront Planning.
+* **Objetos Workfront**: objetos nativos de flujo de trabajo de Workfront.
+* **Tipos de registros de planificación**: tipos de registros personalizados definidos en Workfront Planning.
+
+![Lista desplegable de secciones](assets/sections-dropdown.png)
+
+Una vez seleccionado el objeto de entidad base, la lista desplegable **Secciones** se actualiza con las opciones de tipo de campo aplicables para elegir.
+
+* **Todas las secciones**: campos nativos, campos personalizados y objetos relacionados.
+* **Todos los campos**: campos nativos y personalizados (excluye relaciones).
+* **Campos personalizados**: campos definidos por el cliente en un formulario personalizado o en un registro de Planning.
+* **Campos de Workfront**: Solo campos nativos.
+* **Relaciones**: Registros conectados.
+
+![Selección de objetos de informe](assets/reportable-objects-selection.png)
+
+### Referencia a objetos secundarios
+
+Las relaciones disponibles para columnas adicionales, opciones de filtro y atributos de agrupación generalmente se limitan a objetos superiores en la jerarquía de objetos de Workfront o tienen una sola selección en el objeto de entidad base del informe. Hay algunas excepciones a este respecto, que incluyen las siguientes:
+
+* Proyecto > Tareas
+* Aprobación de documento > Fases de aprobación de documento
+* Fases de aprobación de documento > Participantes en la fase de aprobación de documento
+
+Al utilizar cualquiera de las relaciones principal-secundario enumeradas anteriormente, verá una fila en la tabla para cada registro secundario conectado al objeto principal.

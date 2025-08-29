@@ -5,10 +5,11 @@ title: Cambiar el nombre o la descripción de un panel de lienzo
 description: Puede editar el nombre o la descripción de un panel de lienzo una vez que se haya creado.
 author: Courtney and Jenny
 feature: Reports and Dashboards
-source-git-commit: 8b9676c7ef4efcad1294a9aa786aa6fe52d26cc0
+exl-id: e768de3d-ec07-40bd-a7d8-39252e6583c0
+source-git-commit: d76ad0d51f28191cbd04af950e10a2247414830e
 workflow-type: tm+mt
-source-wordcount: '212'
-ht-degree: 22%
+source-wordcount: '297'
+ht-degree: 17%
 
 ---
 
@@ -16,14 +17,21 @@ ht-degree: 22%
 
 >[!IMPORTANT]
 >
->Actualmente, la función Paneles de lienzo solo está disponible para los usuarios que participan en la fase beta. Para obtener más información, consulte [Información beta de paneles de lienzo](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md).
+>Actualmente, la función Paneles de lienzo solo está disponible para los usuarios que participan en la fase beta. Es posible que algunas partes de la función no estén completas o que no funcionen según lo previsto durante esta fase. Envíe cualquier comentario sobre su experiencia siguiendo las instrucciones de la sección [Proporcionar comentarios](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) del artículo Información general sobre la versión beta de los paneles de lienzo.<br>
+>>Tenga en cuenta que esta versión beta no está disponible en los siguientes proveedores de la nube:
+>
+>* Traer su propia clave para Amazon Web Service
+>* Azure
+>* Google Cloud Platform
+
 
 Puede editar el nombre o la descripción de un panel de lienzo una vez que se haya creado.
 
 Cualquier cambio que realice en un tablero afectará a todos los usuarios que tengan acceso a él.
 
+## Requisitos de acceso
 
-+++ Amplíe para ver los requisitos de acceso.
++++ Amplíe para ver los requisitos de acceso. 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -70,6 +78,10 @@ Para obtener más información, consulte [Crear un panel de lienzo](/help/quicks
 
 ## Cambiar el nombre y la descripción de un tablero
 
+>[!NOTE]
+>
+>Los usuarios con los que haya compartido un panel de lienzo podrán ver su nombre y descripción en la lista de inventario de paneles de lienzo y en la sección de detalles del panel.
+
 {{step1-to-dashboards}}
 
 1. En el panel izquierdo, haga clic en **Paneles de lienzo**.
@@ -83,4 +95,6 @@ Para obtener más información, consulte [Crear un panel de lienzo](/help/quicks
 1. Escriba una nueva **descripción**.
 
 1. Haga clic en **Guardar**.
+
+
 

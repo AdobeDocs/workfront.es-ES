@@ -6,10 +6,10 @@ description: Puede compartir un panel de lienzo con otros usuarios de Adobe Work
 author: Jenny
 feature: Reports and Dashboards
 exl-id: 5cb03113-35b0-49aa-86ec-ec800cd3f4dc
-source-git-commit: b8f25d9490173f8f23a0ba545486c99202f05a69
+source-git-commit: d76ad0d51f28191cbd04af950e10a2247414830e
 workflow-type: tm+mt
-source-wordcount: '379'
-ht-degree: 11%
+source-wordcount: '516'
+ht-degree: 9%
 
 ---
 
@@ -17,11 +17,18 @@ ht-degree: 11%
 
 >[!IMPORTANT]
 >
->Actualmente, la función Paneles de lienzo solo está disponible para los usuarios que participan en la fase beta. Para obtener más información, consulte [Información beta de paneles de lienzo](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md).
+>Actualmente, la función Paneles de lienzo solo está disponible para los usuarios que participan en la fase beta. Es posible que algunas partes de la función no estén completas o que no funcionen según lo previsto durante esta fase. Envíe cualquier comentario sobre su experiencia siguiendo las instrucciones de la sección [Proporcionar comentarios](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) del artículo Información general sobre la versión beta de los paneles de lienzo.<br>
+>>Tenga en cuenta que esta versión beta no está disponible en los siguientes proveedores de la nube:
+>
+>* Traer su propia clave para Amazon Web Service
+>* Azure
+>* Google Cloud Platform
 
 Puede compartir un panel de lienzo con otros usuarios de Adobe Workfront para que puedan verlo o editarlo.
 
-+++ Amplíe para ver los requisitos de acceso.
+## Requisitos de acceso
+
++++ Amplíe para ver los requisitos de acceso. 
 <table style="table-layout:auto"> 
 <col> 
 </col> 
@@ -44,13 +51,14 @@ Puede compartir un panel de lienzo con otros usuarios de Adobe Workfront para qu
   </tr> 
   <tr> 
    <td role="rowheader"><p>Configuraciones de nivel de acceso</p></td> 
-   <td><p>Editar el acceso a Informes, Paneles y Calendarios</p>
+   <td><p>Acceso de visualización a informes, paneles de control y calendarios</p>
   </td> 
   </tr>  
     </tr>  
         <tr> 
    <td role="rowheader"><p>Permisos de objeto</p></td> 
-   <td><p>Administración de permisos para el tablero</p>
+   <td><p>Ver permisos del tablero para compartir el tablero</p>
+   <p>Administre permisos para el tablero para asignar permisos de tablero</p>
   </td> 
   </tr>
 </tbody> 
@@ -61,13 +69,17 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
 
 ## Consideraciones sobre el uso compartido de paneles
 
-* De forma predeterminada, el creador de un tablero tiene permisos de administración.
+* Los paneles se pueden compartir con el usuario, el equipo, el grupo, la función del puesto o los recursos de la empresa.
 
-* Puede compartir los paneles que cree con otras personas, equipos, grupos, funciones del puesto o empresas. También puede compartir tableros que otros hayan creado y compartido anteriormente con usted.
+* De forma predeterminada, el creador de un tablero tiene permisos de administración para el tablero.
 
-* De forma predeterminada, cuando comparte un panel, los usuarios heredan los permisos de Vista en todos los objetos de informes del panel a menos que el permiso se actualice antes de compartirlo.
+* Los administradores del sistema y los usuarios con el permiso Administrar pueden conceder el acceso Ver o Administrar a un tablero.
 
-* Si tiene permisos de Vista en un panel, aún puede compartir el panel, pero no puede asignar a los destinatarios un permiso superior a Vista.
+* Los usuarios con permiso de visualización en un panel pueden conceder acceso de visualización a un panel.
+
+* Al compartir un tablero, los recursos con los que se comparte heredarán los permisos de los informes que se muestran en el tablero.
+
+* Cuando se distribuye un tablero mediante una plantilla de diseño, se concede un permiso de vista automático para el tablero (y sus informes) a todos los recursos asignados a la plantilla de diseño.
 
 
 ## Compartir un panel de lienzo
@@ -83,16 +95,18 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
 
 1. En el campo **Dar acceso a**, empiece a escribir el nombre de un usuario, equipo, rol, grupo o compañía específico con el que desee compartir el panel de lienzo y, a continuación, selecciónelo cuando aparezca en la lista desplegable.
 
-1. (Opcional) Para editar el acceso de un usuario al panel, haga clic en **Ver** junto a su nombre y, a continuación, seleccione **Administrar** en la lista desplegable que aparece.
+1. (Opcional) Para editar el acceso de un recurso al panel, haga clic en **Ver** junto a su nombre y, a continuación, seleccione **Administrar** en la lista desplegable que aparece.
 
    >[!NOTE]
    >
-   >Algunos usuarios no pueden tener su nivel de acceso cambiado (por ejemplo, los administradores).
+   > Cuando los usuarios no tienen los permisos de edición en un panel asignado a través de su nivel de acceso, no se les pueden asignar permisos de administración en un panel.
 
-1. Repita los pasos del 5 al 6 con cada usuario con el que desee compartir el tablero.
+1. Repita los pasos del 5 al 6 con cada recurso con el que desee compartir el tablero.
 
 1. Haga clic en el botón **Compartir**. Los destinatarios reciben una notificación por correo electrónico que les informa de que el tablero se ha compartido con ellos y a la que ahora pueden acceder en **Paneles** > **Paneles de lienzo** > **Paneles compartidos**.
 
    >[!NOTE]
    >
-   >Pueden aplicarse preferencias de usuario individuales y exclusiones del sistema para las notificaciones por correo electrónico.
+   > Pueden aplicarse preferencias de usuario individuales y exclusiones del sistema para las notificaciones por correo electrónico. <br>
+   > Las notificaciones solo se envían cuando se comparten directamente con un usuario. El uso compartido en grupos, roles, compañías y equipos no genera notificaciones por correo electrónico.<br>
+   > Los permisos heredados de una plantilla de diseño no generan una notificación por correo electrónico sobre el acceso al panel.

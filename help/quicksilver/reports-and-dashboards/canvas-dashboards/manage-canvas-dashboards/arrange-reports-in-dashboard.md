@@ -5,10 +5,11 @@ title: Organizar informes en un panel de lienzo
 description: Puede organizar la forma en que se muestran los informes en un panel de lienzo después de agregarlos a uno.
 author: Courtney and Jenny
 feature: Reports and Dashboards
-source-git-commit: 8b9676c7ef4efcad1294a9aa786aa6fe52d26cc0
+exl-id: 60f68ebd-6b98-476d-84b6-a6a2dce90d93
+source-git-commit: d76ad0d51f28191cbd04af950e10a2247414830e
 workflow-type: tm+mt
-source-wordcount: '258'
-ht-degree: 17%
+source-wordcount: '330'
+ht-degree: 15%
 
 ---
 
@@ -16,11 +17,19 @@ ht-degree: 17%
 
 >[!IMPORTANT]
 >
->Actualmente, la función Paneles de lienzo solo está disponible para los usuarios que participan en la fase beta. Para obtener más información, consulte [Información beta de paneles de lienzo](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md).
+>Actualmente, la función Paneles de lienzo solo está disponible para los usuarios que participan en la fase beta. Es posible que algunas partes de la función no estén completas o que no funcionen según lo previsto durante esta fase. Envíe cualquier comentario sobre su experiencia siguiendo las instrucciones de la sección [Proporcionar comentarios](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) del artículo Información general sobre la versión beta de los paneles de lienzo.<br>
+>>Tenga en cuenta que esta versión beta no está disponible en los siguientes proveedores de la nube:
+>
+>* Traer su propia clave para Amazon Web Service
+>* Azure
+>* Google Cloud Platform
 
-Una vez que se agrega un informe a un panel de lienzo, se muestra como un widget de informe en el panel para que pueda visualizar rápidamente sus datos de un vistazo. Una vez añadidos varios informes, se recomienda reorganizar el tamaño y el orden de cada widget para mostrar los datos del panel de forma más eficaz.
 
-+++ Amplíe para ver los requisitos de acceso.
+Una vez que se agrega un informe a un panel de lienzo, se muestra como un widget de informe en el panel para que pueda visualizar rápidamente sus datos de un vistazo. Una vez añadidos varios informes, puede definir el tamaño de cada widget para que se ajuste mejor al contenido del informe dentro del tablero y, a continuación, ajustar la posición de cada widget para que muestre los datos de forma más eficaz.
+
+## Requisitos de acceso
+
++++ Amplíe para ver los requisitos de acceso. 
 
 <table style="table-layout:auto"> 
 <col> 

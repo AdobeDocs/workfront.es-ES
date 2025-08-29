@@ -6,10 +6,10 @@ description: Se puede añadir a un panel de lienzo un informe de gráfico que vi
 author: Courtney and Jenny
 feature: Reports and Dashboards
 exl-id: 4262cae8-602f-416d-94b9-409eb9d6241c
-source-git-commit: 8b9676c7ef4efcad1294a9aa786aa6fe52d26cc0
+source-git-commit: d76ad0d51f28191cbd04af950e10a2247414830e
 workflow-type: tm+mt
-source-wordcount: '1045'
-ht-degree: 9%
+source-wordcount: '1352'
+ht-degree: 7%
 
 ---
 
@@ -17,13 +17,20 @@ ht-degree: 9%
 
 >[!IMPORTANT]
 >
->Actualmente, la función Paneles de lienzo solo está disponible para los usuarios que participan en la fase beta. Para obtener más información, consulte [Información beta de paneles de lienzo](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md).
+>Actualmente, la función Paneles de lienzo solo está disponible para los usuarios que participan en la fase beta. Es posible que algunas partes de la función no estén completas o que no funcionen según lo previsto durante esta fase. Envíe cualquier comentario sobre su experiencia siguiendo las instrucciones de la sección [Proporcionar comentarios](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) del artículo Información general sobre la versión beta de los paneles de lienzo.<br>
+>>Tenga en cuenta que esta versión beta no está disponible en los siguientes proveedores de la nube:
+>
+>* Traer su propia clave para Amazon Web Service
+>* Azure
+>* Google Cloud Platform
 
 Puede crear y agregar un informe de gráfico a un panel de lienzo para visualizar los datos como un gráfico de barras, columnas, líneas o circulares.
 
 ![Informe de gráfico](assets/chart-report-main.png)
 
-+++ Amplíe para ver los requisitos de acceso.
+## Requisitos de acceso
+
++++ Amplíe para ver los requisitos de acceso. 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -90,7 +97,7 @@ Hay muchas opciones de configuración disponibles para crear un informe de gráf
 
       >[!NOTE]
       >
-      >Hay un número máximo de series que se pueden mostrar en un gráfico. Cuando se marca esta casilla, cualquier serie por encima del límite se consolida en una agrupación **Other** del gráfico.
+      >Hay un número máximo de 60 series que se pueden mostrar en un gráfico. Cuando se marca esta casilla, cualquier serie por encima del límite se consolida en una agrupación **Other** del gráfico.
 
 1. Siga los pasos a continuación para configurar la sección **Gráfico de generación**:
 
@@ -100,7 +107,7 @@ Hay muchas opciones de configuración disponibles para crear un informe de gráf
 
       * **Barra**
       * **Columna**
-      * **Línea**
+      * **Line**
       * **Circular**
 
    1. En la lista desplegable **Tipo de columna**, seleccione el tipo de columna:
@@ -204,6 +211,8 @@ En esta sección, veremos los pasos para crear un gráfico de columnas que muest
 
    1. Escriba *$$TODAY* en el campo del evaluador.
 
+      Para obtener más información sobre los caracteres comodín, consulte la sección Variables de filtro basadas en fecha en el artículo [Editar filtros de informe en un panel de lienzo](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/edit-report-filters.md).
+
       ![Campo del evaluador](assets/add-condition.png)
 
 1. Siga los pasos a continuación para configurar la sección **Configuración de columna detallada**:
@@ -227,3 +236,35 @@ En esta sección, veremos los pasos para crear un gráfico de columnas que muest
    1. Haga clic en el botón **Agregar agrupación** y, a continuación, seleccione el campo **Proyecto** > **Nombre**.
 
 1. Haga clic en **Guardar** para crear el informe y agregarlo al tablero.
+
+## Consideraciones al crear un informe de gráfico
+
+### Uso del selector de campos
+
+La lista desplegable **Secciones** de la sección **Crear gráfico** está diseñada para reducir las opciones de un selector de campo y facilitar la búsqueda de un objeto al crear un informe de tabla. Para empezar, debe seleccionar un objeto de entidad base.
+
+* **Todas las secciones**: Todos los tipos de objetos en Workfront Workflow y Workfront Planning.
+* **Objetos Workfront**: objetos nativos de flujo de trabajo de Workfront.
+* **Tipos de registros de planificación**: tipos de registros personalizados definidos en Workfront Planning.
+
+![Lista desplegable de secciones](assets/sections-dropdown.png)
+
+Una vez seleccionado el objeto de entidad base, la lista desplegable **Secciones** se actualiza con las opciones de tipo de campo aplicables para elegir.
+
+* **Todas las secciones**: campos nativos, campos personalizados y objetos relacionados.
+* **Todos los campos**: campos nativos y personalizados (excluye relaciones).
+* **Campos personalizados**: campos definidos por el cliente en un formulario personalizado o en un registro de Planning.
+* **Campos de Workfront**: Solo campos nativos.
+* **Relaciones**: Registros conectados.
+
+![Selección de objetos de informe](assets/reportable-objects-selection.png)
+
+### Referencia a objetos secundarios
+
+Las relaciones disponibles para columnas adicionales, opciones de filtro y atributos de agrupación generalmente se limitan a objetos superiores en la jerarquía de objetos de Workfront o tienen una sola selección en el objeto de entidad base del informe. Hay algunas excepciones a este respecto, que incluyen las siguientes:
+
+* Proyecto > Tareas
+* Aprobación de documento > Fases de aprobación de documento
+* Fases de aprobación de documento > Participantes en la fase de aprobación de documento
+
+Al utilizar cualquiera de las relaciones principal-secundario enumeradas anteriormente, verá una fila en la tabla para cada registro secundario conectado al objeto principal.

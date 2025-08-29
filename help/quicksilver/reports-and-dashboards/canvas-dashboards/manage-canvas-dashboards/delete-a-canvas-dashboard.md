@@ -5,10 +5,11 @@ title: Eliminación de un panel de control del lienzo
 description: Puede organizar la forma en que se muestran los informes en un panel de lienzo después de agregarlos a uno.
 author: Courtney and Jenny
 feature: Reports and Dashboards
-source-git-commit: 8b9676c7ef4efcad1294a9aa786aa6fe52d26cc0
+exl-id: 075df18c-08b8-467d-a0e4-60cd3abd5807
+source-git-commit: d76ad0d51f28191cbd04af950e10a2247414830e
 workflow-type: tm+mt
-source-wordcount: '198'
-ht-degree: 29%
+source-wordcount: '282'
+ht-degree: 22%
 
 ---
 
@@ -16,12 +17,19 @@ ht-degree: 29%
 
 >[!IMPORTANT]
 >
->Actualmente, la función Paneles de lienzo solo está disponible para los usuarios que participan en la fase beta. Para obtener más información, consulte [Información beta de paneles de lienzo](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md).
+>Actualmente, la función Paneles de lienzo solo está disponible para los usuarios que participan en la fase beta. Es posible que algunas partes de la función no estén completas o que no funcionen según lo previsto durante esta fase. Envíe cualquier comentario sobre su experiencia siguiendo las instrucciones de la sección [Proporcionar comentarios](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) del artículo Información general sobre la versión beta de los paneles de lienzo.<br>
+>>Tenga en cuenta que esta versión beta no está disponible en los siguientes proveedores de la nube:
+>
+>* Traer su propia clave para Amazon Web Service
+>* Azure
+>* Google Cloud Platform
+
 
 Una vez que ya no necesite un panel de lienzo, puede eliminarlo de Adobe Workfront.
 
+## Requisitos de acceso
 
-+++ Amplíe para ver los requisitos de acceso.
++++ Amplíe para ver los requisitos de acceso. 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -70,7 +78,8 @@ Para obtener más información, consulte [Crear un panel de lienzo](/help/quicks
 
 >[!WARNING]
 >
->Una vez eliminado un tablero, no se puede recuperar.
+> Una vez que se elimina un tablero, el tablero y todos sus informes o visualizaciones personalizados no se pueden recuperar.<br>
+> > Si elimina un tablero que contiene un informe clásico, este no se eliminará.
 
 {{step1-to-dashboards}}
 
