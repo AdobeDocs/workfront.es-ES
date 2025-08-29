@@ -8,9 +8,9 @@ feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 1449374a-ab0d-4c98-83cd-4e511467633a
-source-git-commit: 66fc75ed9a7fca4b44ac776c314a6e08a6fbd450
+source-git-commit: b291525db0105081b5ff3dd65d9d2b3267a2f60c
 workflow-type: tm+mt
-source-wordcount: '2566'
+source-wordcount: '2618'
 ht-degree: 27%
 
 ---
@@ -25,7 +25,7 @@ Puede editar un solo problema o editar problemas de una lista. Para obtener info
 
 ## Requisitos de acceso
 
-+++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo. 
 
 Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
@@ -163,11 +163,9 @@ Puede editar un problema mediante las áreas Editar problema o Detalles del prob
      <tr> 
       <td role="rowheader">Descripción</td> 
       <td> <p>Añada información adicional sobre el problema.</p> </td> 
-     </tr> 
-     <tr> 
-      <td colspan="2" role="rowheader">Sección de información básica</td> 
-     </tr> 
-     <tr> 
+     </tr>
+
+   <tr> 
       <td role="rowheader">Estado</td> 
       <td> <p>Seleccione el estado del problema. Para obtener más información sobre los estados de problemas, consulte <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/issue-statuses.md" class="MCXref xref">Acceso a la lista de estados de problemas del sistema</a>. </p> </td> 
      </tr> 
@@ -192,8 +190,24 @@ Puede editar un problema mediante las áreas Editar problema o Detalles del prob
         <li> <p style="font-weight: bold;">Error sin solución</p> </li> 
         <li> <p style="font-weight: bold;">Error fatal</p> </li> 
        </ul> <p>Según las Preferencias del proyecto seleccionadas por el administrador de Workfront, los nombres de las gravedades podrían ser diferentes para usted. Para obtener más información sobre cómo editar gravedades, consulte <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-issue-severities.md" class="MCXref xref">Crear o personalizar gravedades de problemas</a>.</p> </td> 
-     </tr> 
-     <tr> 
+     </tr>
+
+   <tr> 
+   <td role="rowheader">Condición del problema</td> 
+   <td> <p>La condición de un problema es un indicador que se coloca para indicar cómo va.</p> 
+   <p>Puede establecer la condición de una tarea o un problema de forma automática o manual.</p>
+   <p>Debe estar asignado al problema para cambiar su condición.</p>
+   <p>Seleccione entre las siguientes opciones:</p> 
+      <ul> 
+   <li> <p style="font-weight: bold;">Sin problemas</p> </li> 
+   <li> <p style="font-weight: bold;">Algunas preocupaciones</p> </li> 
+   <li> <p style="font-weight: bold;">Impedimentos mayores</p> </li> 
+   </ul> </td> 
+     </tr>
+
+
+
+   <tr> 
       <td role="rowheader">URL</td> 
       <td> <p>Escriba un vínculo web relacionado con la información sobre el problema.</p> </td> 
      </tr> 
