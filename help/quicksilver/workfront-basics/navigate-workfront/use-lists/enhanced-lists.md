@@ -4,9 +4,10 @@ title: Usar listas mejoradas
 description: Las listas mejoradas utilizan un formato de tabla para mostrar los elementos de la lista y tienen un aspecto diferente al de las listas estándar
 author: Lisa
 feature: Get Started with Workfront
-source-git-commit: 8e88db186c574ea57dd609301b816d57636b125b
+exl-id: 4c25ed54-b147-4fd3-8d00-6f1ba61bbd38
+source-git-commit: dc820b4012fec494ce5ebb1baefb4ee0df214916
 workflow-type: tm+mt
-source-wordcount: '1038'
+source-wordcount: '1124'
 ht-degree: 7%
 
 ---
@@ -15,7 +16,7 @@ ht-degree: 7%
 
 {{preview-fast-release-general}}
 
-Las listas mejoradas están disponibles en algunas áreas de Adobe Workfront. Estas listas utilizan un formato de tabla para mostrar los elementos de la lista, y tienen un aspecto diferente al de las listas estándar.
+Las listas mejoradas están disponibles en algunas áreas de Adobe Workfront. Estas listas utilizan un formato de tabla para mostrar los elementos de la lista, y tienen un aspecto diferente al de las listas estándar. También se mejora la administración de vistas, incluidos el filtrado, la agrupación, la administración de columnas y la búsqueda.
 
 Para obtener información sobre las listas estándar, consulte [Introducción a las listas en Adobe Workfront](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
 
@@ -67,7 +68,22 @@ A continuación se muestran algunos tipos de listas de objetos de Workfront que 
 Según la configuración de la lista mejorada, podría haber dos formas de agregar un elemento a la lista:
 
 * Haga clic en un botón situado encima de la lista. Esta opción abre un cuadro de diálogo en el que se introduce información y se guarda.
-* Haga clic en **Nueva fila** al final de la lista. Esta opción agrega una nueva fila a la tabla y se introduce información en cada celda. Si una celda está limitada a un conjunto de datos específico (como un nombre de moneda), se le puede pedir que elija de una lista o busque el nombre.
+* Haga clic en **Nueva fila** al final de la lista. Esta opción agrega una nueva fila a la tabla y se introduce información en cada celda.
+
+  Las listas mejoradas admiten estos tipos de campos:
+
+   * Texto
+   * Número
+   * Divisa
+   * Fecha
+   * Fecha y hora
+   * Lista desplegable de selección única/múltiple
+   * Escritura anticipada
+   * Párrafo
+   * Usuario asignado (uno o varios)
+   * Selector de color
+
+  Al editar una celda, cada tipo de campo tiene sus propias opciones de edición.
 
 Para editar un elemento de la lista, haga doble clic en la celda que desee editar y escriba la información. Algunas celdas pueden ser de solo lectura.
 
@@ -77,13 +93,19 @@ Para editar un elemento de la lista, haga doble clic en la celda que desee edita
 
 Al seleccionar la casilla de verificación situada junto a un elemento de la lista mejorada, la barra de acciones aparece en la parte inferior de la pantalla y muestra las acciones que puede realizar con dicho elemento. Algunas acciones pueden ser específicas de esa lista y no aparecen en ninguna otra.
 
-Haga clic en un botón de la barra de acciones para realizar esa acción, como ver el elemento de la lista, eliminarlo o convertirlo en el elemento predeterminado.
+>[!NOTE]
+>
+>Varias listas mejoradas pueden permitir seleccionar un solo elemento, editar de forma masiva (seleccionando más de un elemento) o no seleccionar ningún elemento.
+
+Haga clic en un botón de la barra de acciones para realizar esa acción, como ver el elemento de la lista, eliminarlo o editarlo.
 
 Si no hay acciones disponibles para el elemento seleccionado, la barra de acciones indica &quot;No hay acciones disponibles&quot;.
 
 ![Ejemplo de barra de acciones](assets/glist-action-bar-exchange-rates.png)
 
-El menú **Más** es el menú de tres puntos que aparece junto a un elemento de la lista cuando pasa el ratón por encima. Haga clic en el menú para ver acciones adicionales para el elemento. Algunas acciones pueden ser específicas de esa lista y no aparecen en ninguna otra.
+El menú **Más** es el menú de tres puntos que aparece junto a un campo principal en un elemento de la lista cuando pasa el ratón por encima. (El campo principal es la columna situada más a la izquierda de la tabla).
+
+Haga clic en el menú para ver acciones adicionales para el elemento. Algunas acciones pueden ser específicas de esa lista y no aparecen en ninguna otra.
 
 ![Ejemplo de menú más](assets/glist-more-menu-exchange-rates.png)
 
@@ -100,7 +122,9 @@ Algunas listas mejoradas permiten ocultar y mostrar columnas y reordenarlas.
 
    >[!NOTE]
    >
-   >Un campo puede mostrarse o fijarse siempre en la primera posición y no se puede cambiar su columna.
+   >El campo principal es la columna situada más a la izquierda de la tabla. Se fija en la primera posición y no se puede cambiar su columna. Si el número de columnas es grande, el campo principal se bloquea a la izquierda y, cuando se desplaza horizontalmente, siempre lo ve.
+   >
+   >El icono junto al nombre de un campo muestra el tipo de campo, como el campo de texto o de fecha.
 
    <span class="preview">Aparece un indicador en el botón **Columnas** cuando las columnas están ocultas. El indicador no aparece al reordenar las columnas.</span>
 
@@ -150,7 +174,7 @@ Para ordenar columnas individuales, vaya a la columna y haga clic en la flecha h
 
 >[!NOTE]
 >
->Si la lista tiene un elemento predeterminado, ese elemento siempre será el primero de la lista, independientemente de cómo se ordene la lista.
+>Es posible que algunas columnas no se puedan ordenar.
 
 ![Ordenar por una columna](assets/glist-sort-by-column.png)
 

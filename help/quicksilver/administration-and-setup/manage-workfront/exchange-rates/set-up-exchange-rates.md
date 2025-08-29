@@ -8,10 +8,10 @@ feature: System Setup and Administration
 role: Admin
 author: Lisa
 exl-id: 149c08de-fd3a-465a-afd1-0b53012d30d8
-source-git-commit: cb12c715d6b20dd4737e2d2e29d9849f08ce67e9
+source-git-commit: dc820b4012fec494ce5ebb1baefb4ee0df214916
 workflow-type: tm+mt
-source-wordcount: '634'
-ht-degree: 57%
+source-wordcount: '650'
+ht-degree: 56%
 
 ---
 
@@ -89,6 +89,10 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
    * Pase el ratón sobre el nombre de la moneda y haga clic en el menú **Más** que aparece. A continuación, seleccione **Establecer como predeterminado**.
 
      La nueva moneda predeterminada se actualiza con el icono.
+
+     >[!NOTE]
+     >
+     >La moneda predeterminada siempre aparece primero en la lista, independientemente de cómo esté ordenada.
 
 1. (Opcional) Para eliminar una moneda, seleccione la casilla de verificación situada junto al nombre de la moneda y seleccione **Eliminar** en la barra de acciones de la parte inferior de la pantalla. No puede eliminar la moneda predeterminada.
 
