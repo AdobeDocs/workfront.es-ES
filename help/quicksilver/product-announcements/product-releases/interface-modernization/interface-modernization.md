@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: ae5cc55bcd1d9db4484b5c5447a483456015f9fe
+source-git-commit: 31cc110fb4fba38a530406acc1f42a89159e029b
 workflow-type: tm+mt
-source-wordcount: '7449'
+source-wordcount: '7469'
 ht-degree: 2%
 
 ---
@@ -180,6 +180,10 @@ Para obtener más información, consulte los siguientes artículos:
 
 **Versión preliminar: 21 de agosto de 2025; versión de producción: 28 de agosto de 2025**
 
+>[!NOTE]
+>
+>Esta función se ha eliminado temporalmente del entorno de producción.
+
 Hemos actualizado el aspecto del cuadro Nuevo tema de cola al agregar un nuevo tema de cola a un proyecto o plantilla, para que coincida con el diseño de otras áreas de Workfront.
 
 Para obtener más información, vea [Crear temas de colas](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
@@ -187,6 +191,10 @@ Para obtener más información, vea [Crear temas de colas](/help/quicksilver/man
 ### Actualizaciones de la interfaz al editar un tema de la cola en un proyecto o plantilla
 
 **Versión preliminar: 21 de agosto de 2025; versión de producción: 28 de agosto de 2025**
+
+>[!NOTE]
+>
+>Esta función se ha eliminado temporalmente del entorno de producción.
 
 Hemos actualizado la experiencia al editar un Tema de la cola en proyectos y plantillas, para que coincida con otras áreas de Workfront.
 
