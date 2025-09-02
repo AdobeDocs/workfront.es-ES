@@ -7,10 +7,10 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
-source-git-commit: 1c6a1238e9ea1ca843dcb296db7a552ff354c50a
+source-git-commit: 699ce13472ee70149fba7c8c34dde83c7db5f5de
 workflow-type: tm+mt
-source-wordcount: '2666'
-ht-degree: 75%
+source-wordcount: '2739'
+ht-degree: 73%
 
 ---
 
@@ -89,6 +89,10 @@ Para crear, consultar o eliminar una suscripción a eventos, el usuario de Workf
 * Se requiere un encabezado `sessionID` para usar la API de suscripciones a eventos
 
   Para obtener más información, consulte [Autenticación](api-basics.md#authentication) en [Conceptos básicos de la API](api-basics.md).
+
+## Evitar sobrecargar suscripciones a eventos
+
+El servicio de suscripciones a eventos está diseñado para proporcionar un envío fiable de eventos para todos los usuarios. Para garantizar esto, se han implementado salvaguardas para evitar una producción de eventos excesiva por parte de un solo usuario que podría causar posibles problemas de calidad del servicio para todos los usuarios. Como resultado, un usuario que produce demasiados eventos a una tasa alta en un corto periodo de tiempo puede experimentar interferencias y retrasos en la entrega de eventos.
 
 ## Formación del recurso de suscripción
 
@@ -812,7 +816,7 @@ Este conector hace que el filtro se aplique al nuevo estado o al antiguo estado 
 >[!NOTE]
 >
 >La suscripción siguiente con el filtro especificado solo devolverá mensajes donde el nombre de la tarea contenga `again` en `oldState`, tal como sucedía antes de que se realizara una actualización en la tarea.
->&#x200B;>Un caso de uso para esto sería encontrar los mensajes de objCode que han cambiado de una manera a otra. Por ejemplo, para averiguar todas las tareas que cambiaron de &quot;Investigar Algún nombre&quot; a &quot;Investigar TeamName Algún nombre&quot;
+>>Un caso de uso para esto sería encontrar los mensajes de objCode que han cambiado de una manera a otra. Por ejemplo, para averiguar todas las tareas que cambiaron de &quot;Investigar Algún nombre&quot; a &quot;Investigar TeamName Algún nombre&quot;
 
 ```
 {

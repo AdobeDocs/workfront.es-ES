@@ -7,10 +7,10 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 2c6e3567-d5eb-4528-a393-dbf235958ed2
-source-git-commit: 19e0b792bc49ede0504af479952fdbdf384dc73c
+source-git-commit: 699ce13472ee70149fba7c8c34dde83c7db5f5de
 workflow-type: tm+mt
-source-wordcount: '282'
-ht-degree: 97%
+source-wordcount: '355'
+ht-degree: 77%
 
 ---
 
@@ -29,6 +29,10 @@ Asegúrese de que se proporcionan a la API todos los campos del cuerpo de la sol
 ## Evitar incluir campos de cuerpo adicionales
 
 No incluya campos de cuerpo adicionales en la solicitud, ya que esto hará que la API no cree una suscripción.
+
+## Evitar sobrecargar suscripciones a eventos
+
+El servicio de suscripciones a eventos está diseñado para proporcionar un envío fiable de eventos para todos los usuarios. Para garantizar esto, se han implementado salvaguardas para evitar una producción de eventos excesiva por parte de un solo usuario que podría causar posibles problemas de calidad del servicio para todos los usuarios. Como resultado, un usuario que produce demasiados eventos a una tasa alta en un corto periodo de tiempo puede experimentar interferencias y retrasos en la entrega de eventos.
 
 ## Completar las pruebas dentro del período de gracia
 
