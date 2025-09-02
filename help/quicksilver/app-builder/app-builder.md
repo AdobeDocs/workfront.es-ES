@@ -4,7 +4,7 @@ description: Las extensiones de la interfaz de usuario de Workfront, con tecnolo
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 2ed75053-8199-474c-afb4-fa9bbd3750f8
-source-git-commit: a4e715d5212c3c166ce6ed995b327eb2b7198123
+source-git-commit: dcdae47ffd4a02ac9a0bbd3cd9bd1418f6c59e1a
 workflow-type: tm+mt
 source-wordcount: '1693'
 ht-degree: 1%
@@ -133,7 +133,7 @@ Encontrará instrucciones adicionales en GitHub y en el sitio de Adobe Developer
    ![generación en proceso](assets/6-generation-in-process.png)
 1. Espere hasta que vea un mensaje que indique que la inicialización de la aplicación ha finalizado. A continuación, puede abrir el proyecto en un IDE (se recomienda Visual Studio Code) y tener acceso a la carpeta src.
 
-   Para obtener más información sobre las carpetas y los archivos del proyecto, consulte el [sitio para desarrolladores de Adobe](https://developer.adobe.com/app-builder/docs/getting_started/first_app/#5-anatomy-of-an-appbuilder-application).
+   Para obtener más información sobre las carpetas y los archivos del proyecto, consulte el [sitio para desarrolladores de Adobe](https://developer.adobe.com/app-builder/docs/get_started/app_builder_get_started/first-app#anatomy-of-an-app-builder-application).
 
 ## Cree las extensiones en VSCode.
 
@@ -152,13 +152,13 @@ Para permitir aplicaciones personalizadas en el menú principal de Workfront:
 En la función ExtensionRegistration, debería ver el siguiente código. Este código se creó automáticamente mediante la plantilla. Este código se puede añadir para crear elementos de menú adicionales. Asegúrese de reemplazar los ID y las direcciones URL.
 
     &quot;
-    mainMenu: &lbrace;
+    mainMenu: {
     
-    getItems() &lbrace;
+    getItems() {
     
-    return &lbrack;
+    return [
     
-    &lbrace;
+    {
     
     id: &#39;main-menu-label&#39;,
     
@@ -168,13 +168,13 @@ En la función ExtensionRegistration, debería ver el siguiente código. Este c�
     
     icon: icon1,
     
-    &rbrace;,
+    },
     
-    &rbrack;;
+    ];
     
-    &rbrace;,
+    },
     
-    &rbrace;
+    }
     &quot;
 
 1. Agregue el siguiente fragmento de código:
@@ -237,7 +237,7 @@ Para permitir aplicaciones personalizadas en la navegación del panel izquierdo 
    ![ejemplo de código](assets/9-app-file-step-1-from-sam.png)
 1. Guarde el trabajo.
 
-Para obtener más información sobre cómo desarrollar y ejecutar la aplicación, consulte el [sitio para desarrolladores de Adobe](https://developer.adobe.com/app-builder/docs/getting_started/first_app/#6developing-the-application).
+Para obtener más información sobre cómo desarrollar y ejecutar la aplicación, consulte el [sitio para desarrolladores de Adobe](https://developer.adobe.com/app-builder/docs/get_started/app_builder_get_started/first-app#develop-the-application).
 
 ## Contexto compartido
 

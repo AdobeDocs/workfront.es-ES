@@ -9,7 +9,7 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: 74e0a85b-a8aa-4e39-9c2e-0f09957ebafa
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: dcdae47ffd4a02ac9a0bbd3cd9bd1418f6c59e1a
 workflow-type: tm+mt
 source-wordcount: '1357'
 ht-degree: 1%
@@ -58,7 +58,7 @@ Debe tener lo siguiente:
 Las organizaciones deben trabajar con sus administradores de cuentas para adquirir AppBuilder. El proceso exacto para esto no se entiende porque no necesitábamos hacer esto para el POC.
 
 Si desea probar la integración de AppBuilder, puede solicitar una prueba gratuita para su organización de IMS aquí:
-[https://developer.adobe.com/app-builder/docs/overview/getting_access/#](https://developer.adobe.com/app-builder/docs/overview/getting_access/#)
+[https://developer.adobe.com/app-builder/docs/overview/getting_access/#](https://developer.adobe.com/app-builder/docs/get_started/app_builder_get_started/set-up#access-and-credentials)
 
 Tengo la impresión de que aunque es una prueba gratuita de 30 días, en realidad no desactivarán la prueba después de ese tiempo.
 
@@ -89,7 +89,7 @@ Si AppBuilder está configurado correctamente, debería ver &quot;Crear proyecto
 
 ## CLI de Adobe IO (aio)
 
-Adobe proporciona una CLI de código abierto que se puede utilizar para ayudar a crear las aplicaciones de App Builder. Encontrará documentación aquí: [https://github.com/adobe/aio-cli](https://github.com/adobe/aio-cli), así como instrucciones de Adobe App Builder [https://developer.adobe.com/app-builder/docs/getting_started/first_app/](https://developer.adobe.com/app-builder/docs/getting_started/first_app/).
+Adobe proporciona una CLI de código abierto que se puede utilizar para ayudar a crear las aplicaciones de App Builder. Encontrará documentación aquí: [https://github.com/adobe/aio-cli](https://github.com/adobe/aio-cli), así como instrucciones de Adobe App Builder [https://developer.adobe.com/app-builder/docs/getting_started/first_app/](https://developer.adobe.com/app-builder/docs/get_started/app_builder_get_started/first-app).
 
 1. Instalación
    1. Para instalar la herramienta (asegúrese de que está en el nodo v18 primero) ejecute: `npm install -g @adobe/aio-cli `.
@@ -107,7 +107,6 @@ Adobe proporciona una CLI de código abierto que se puede utilizar para ayudar a
 
 1. Selección y configuración de plantilla
    1. Examine todas las plantillas disponibles y elija la plantilla **@adobe/aem-cf-editor-ui-ext-tpl** para su proyecto.
-
       ![Plantilla de búsqueda](assets/search-template.png)
       ![Seleccionar plantilla](assets/select-template.png)
 
@@ -116,7 +115,6 @@ Adobe proporciona una CLI de código abierto que se puede utilizar para ayudar a
    1. Proporcione un resumen descriptivo de la funcionalidad de la extensión.
    1. Seleccione un número de versión inicial para empezar.
    1. Confirme la finalización seleccionando **He terminado**.
-
       ![Definir extensión](assets/define-extension.png)
 
 1. Vaya a la carpeta del proyecto
@@ -354,7 +352,7 @@ Adobe tiene documentación interesante sobre cómo empezar a crear aplicaciones 
 
 Estos son algunos vínculos útiles:
 
-* [https://developer.adobe.com/app-builder/docs/getting_started/first_app/#4-bootstrapping-new-app-using-the-cli](https://developer.adobe.com/app-builder/docs/getting_started/first_app/#4-bootstrapping-new-app-using-the-cli)
+* [https://developer.adobe.com/app-builder/docs/getting_started/first_app/#4-bootstrapping-new-app-using-the-cli](https://developer.adobe.com/app-builder/docs/get_started/app_builder_get_started/first-app#bootstrap-the-new-app-using-the-cli)
 
 * [https://developer.adobe.com/uix/docs/guides/publication/](https://developer.adobe.com/uix/docs/guides/publication/)
 
