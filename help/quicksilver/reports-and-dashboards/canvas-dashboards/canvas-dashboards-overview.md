@@ -1,25 +1,25 @@
 ---
 product-area: Canvas Dashboards
 navigation-topic: canvas-dashboards
-title: Información general sobre paneles de lienzo
+title: Información general sobre paneles de control de lienzo
 description: Más información sobre los Paneles de lienzo
 author: Courtney and Jenny
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: d82bb8a2-a2a6-43d6-a62e-e90f69229533
-source-git-commit: d76ad0d51f28191cbd04af950e10a2247414830e
+source-git-commit: 5ce472f19cdf72d4aba07f34b11092fa16b7bd2f
 workflow-type: tm+mt
 source-wordcount: '497'
 ht-degree: 15%
 
 ---
 
-# Información general sobre paneles de lienzo
+# Información general sobre paneles de control de lienzo
 
 >[!IMPORTANT]
 >
 >Actualmente, la función Paneles de lienzo solo está disponible para los usuarios que participan en la fase beta. Es posible que algunas partes de la función no estén completas o que no funcionen según lo previsto durante esta fase. Envíe cualquier comentario sobre su experiencia siguiendo las instrucciones de la sección [Proporcionar comentarios](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) del artículo Información general sobre la versión beta de los paneles de lienzo.<br>
->&#x200B;>Tenga en cuenta que esta versión beta no está disponible en los siguientes proveedores de la nube:
+>>Tenga en cuenta que esta versión beta no está disponible en los siguientes proveedores de la nube:
 >
 >* Traer su propia clave para Amazon Web Service
 >* Azure
@@ -41,12 +41,12 @@ Con los paneles de lienzo, puede informar sobre las funciones de Workfront reci�
 ## Artículos de panel de lienzo
 
 * Paneles de lienzo beta
-   * [Información beta de los paneles de lienzo](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md)
-* Creación de paneles
+   * [Información beta de los paneles de control de lienzo](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md)
+* Creación de paneles de control
    * [Crear un panel de lienzo](/help/quicksilver/reports-and-dashboards/canvas-dashboards/create-dashboards/create-dashboards.md)
 * Añadir informes
-   * [Añadir un informe existente a un panel de lienzo](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/add-existing-report.md)
-   * [Generar un informe de KPI en un panel de lienzo](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-kpi-report.md)
+   * [Añadir un informe existente a un panel de control de lienzo](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/add-existing-report.md)
+   * [Generar un informe de KPI en un panel de control de lienzo](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-kpi-report.md)
    * [Creación de un informe de gráfico en un panel de control de lienzo](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-chart-report.md)
    * [Generar un informe de tabla en un panel de control del lienzo](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-table-report.md)
 * Administrar paneles de lienzo

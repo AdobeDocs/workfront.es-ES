@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 298473d4-7d7d-4401-80bf-899a01f570a6
-source-git-commit: a4aa7a6f8909dc3f7212f78391f28068d50a2786
+source-git-commit: e835f3721f8d732780ab199fd6da47f563004077
 workflow-type: tm+mt
-source-wordcount: '1871'
+source-wordcount: '1905'
 ht-degree: 18%
 
 ---
@@ -42,8 +42,8 @@ The <add release> release webinar will be held on <date>. You can [register for 
 * [Mejoras de documentos y revisiones](#document-and-proofing-enhancements)
 * [Mejoras en el Inicio](#home-enhancements)
 * [Mejoras en el proyecto](#project-enhancements)
-* [Solicitudes de mejoras](#requests-enhancements)
 * [Mejoras en la administración de recursos](#resource-management-enhancements)
+* [Solicitudes de mejoras](#requests-enhancements)
 * [Otras mejoras](#other-enhancements)
 
 ### Mejoras en el administrador
@@ -175,36 +175,6 @@ The <add release> release webinar will be held on <date>. You can [register for 
   </tbody>
 </table>
 
-### Solicitudes de mejoras
-
-<table style="table-layout:auto">
-  <tbody>
-   <tr>
-        <td><strong>Característica</strong>
-        </td>
-        <td><strong>Vista previa</strong></td>
-        <td><strong>Liberación rápida</strong></td>
-        <td><strong>Trimestralmente</strong></td>
-    </tr>
-    <tr>
-        <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-requests.md" class="MCXref xref" xrefformat="{para}">Actualizaciones para solicitar experiencia</a><p></p>
-            <p>Para crear una mejor experiencia de usuario al realizar solicitudes en Workfront y Workfront Planning, hemos actualizado la experiencia de solicitud. Ahora puede hacer lo siguiente:
-            <ul>
-                <li>Ver solicitudes de Workfront y Workfront Planning en una sola lista.</li>
-                <li>Filtrar las solicitudes enviadas según los criterios especificados.</li>
-                <li>Busque y seleccione colas de solicitudes de Workfront y formularios de Workfront Planning en una experiencia consolidada.</li>
-                <li>Ocultar y reordenar columnas en la lista de solicitudes enviadas.</li>
-            </ul>
-            </p>
-        </td>
-        <td>viernes, 21 de agosto de 2025</td>
-        <td>viernes, 11 de septiembre de 2025</td>
-        <td>viernes, 16 de octubre de 2025</td>
-    </tr>     
-  </tbody>
-</table>
-
 ### Mejoras en el proyecto
 
 <table style="table-layout:auto">
@@ -280,6 +250,45 @@ The <add release> release webinar will be held on <date>. You can [register for 
         </td>
         <td>viernes, 31 de julio de 2025</td>
         <td>viernes, 14 de agosto de 2025</td>
+        <td>viernes, 16 de octubre de 2025</td>
+    </tr>     
+  </tbody>
+</table>
+
+### Solicitudes de mejoras
+
+<table style="table-layout:auto">
+  <tbody>
+   <tr>
+        <td><strong>Característica</strong>
+        </td>
+        <td><strong>Vista previa</strong></td>
+        <td><strong>Liberación rápida</strong></td>
+        <td><strong>Trimestralmente</strong></td>
+    </tr>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-requests.md" class="MCXref xref" xrefformat="{para}">Nueva columna de estado combinada en la lista de solicitudes unificadas</a><p></p>
+            <p>Para simplificar la experiencia de solicitud unificada, la columna Estado ahora muestra el estado de la solicitud y el estado de aprobación, lo que se aplique a una solicitud determinada.</p>
+        </td>
+        <td>viernes, 28 de agosto de 2025</td>
+        <td>viernes, 11 de septiembre de 2025</td>
+        <td>viernes, 16 de octubre de 2025</td>
+    </tr>     
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-requests.md" class="MCXref xref" xrefformat="{para}">Actualizaciones para solicitar experiencia</a><p></p>
+            <p>Para crear una mejor experiencia de usuario al realizar solicitudes en Workfront y Workfront Planning, hemos actualizado la experiencia de solicitud. Ahora puede hacer lo siguiente:
+            <ul>
+                <li>Ver solicitudes de Workfront y Workfront Planning en una sola lista.</li>
+                <li>Filtrar las solicitudes enviadas según los criterios especificados.</li>
+                <li>Busque y seleccione colas de solicitudes de Workfront y formularios de Workfront Planning en una experiencia consolidada.</li>
+                <li>Ocultar y reordenar columnas en la lista de solicitudes enviadas.</li>
+            </ul>
+            </p>
+        </td>
+        <td>viernes, 21 de agosto de 2025</td>
+        <td>viernes, 11 de septiembre de 2025</td>
         <td>viernes, 16 de octubre de 2025</td>
     </tr>     
   </tbody>
@@ -389,7 +398,7 @@ Para ofrecer integraciones más estables y escalables, estamos adoptando un enfo
 * Workfront para Salesforce.
 
 Recomendamos utilizar la automatización e integración de Workfront para las necesidades de integración de su organización con Google Workspace.
-Para obtener una descripción general de la automatización e integración de Workfront, consulte [Información general de Adobe Workfront Fusion](https://experienceleague.adobe.com/es/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+Para obtener una descripción general de la automatización e integración de Workfront, consulte [Información general de Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 
 ### Versión 20 de la API
 

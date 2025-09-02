@@ -6,7 +6,7 @@ description: Puede editar los filtros de informe después de aplicarlos a un pan
 author: Courtney and Jenny
 feature: Reports and Dashboards
 exl-id: 5205c342-7f63-438e-97c8-e74f7dfecfd0
-source-git-commit: d76ad0d51f28191cbd04af950e10a2247414830e
+source-git-commit: 64a71767c88362b55470e5eeffc2f41bb7482734
 workflow-type: tm+mt
 source-wordcount: '1023'
 ht-degree: 45%
@@ -18,7 +18,7 @@ ht-degree: 45%
 >[!IMPORTANT]
 >
 >Actualmente, la función Paneles de lienzo solo está disponible para los usuarios que participan en la fase beta. Es posible que algunas partes de la función no estén completas o que no funcionen según lo previsto durante esta fase. Envíe cualquier comentario sobre su experiencia siguiendo las instrucciones de la sección [Proporcionar comentarios](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) del artículo Información general sobre la versión beta de los paneles de lienzo.<br>
->&#x200B;>Tenga en cuenta que esta versión beta no está disponible en los siguientes proveedores de la nube:
+>>Tenga en cuenta que esta versión beta no está disponible en los siguientes proveedores de la nube:
 >
 >* Traer su propia clave para Amazon Web Service
 >* Azure
@@ -52,7 +52,7 @@ Puede editar los filtros de informe una vez que los haya aplicado a un panel de 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Configuraciones de nivel de acceso</p></td> 
-   <td><p>Editar el acceso a Informes, Paneles y Calendarios</p>
+   <td><p>Editar el acceso a Informes, Paneles de control y Calendarios</p>
   </td> 
   </tr>  
         <tr> 
@@ -79,7 +79,7 @@ Debe agregar un filtro a un informe para poder editarlo.
 
 {{step1-to-dashboards}}
 
-1. En el panel izquierdo, haga clic en **Paneles de lienzo**.
+1. En el panel izquierdo, haga clic en **Paneles de control de lienzo**.
 
 1. En la página **Paneles de lienzo**, haga clic en el icono **Más** ![Más](assets/more-icon.png) en la esquina superior derecha del informe que contiene el filtro que desea editar y, a continuación, seleccione **Editar**.
 
