@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 298473d4-7d7d-4401-80bf-899a01f570a6
-source-git-commit: e835f3721f8d732780ab199fd6da47f563004077
+source-git-commit: ab70d832c7c03f116d68f8bad394f44f5ecca8cf
 workflow-type: tm+mt
-source-wordcount: '1905'
+source-wordcount: '1901'
 ht-degree: 18%
 
 ---
@@ -30,7 +30,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
 >
 >| Versión mensual | Versión trimestral |
 >|----|----|
->| <ul><li>25.8 (agosto de 2025)</li><li>25.9 (septiembre de 2025)</li><li>25.10 (octubre de 2025)</li></ul> | <ul><li>25.10 (octubre de 2025)</li></ul> |
+>| <ul><li>25.8 (14 de agosto de 2025)</li><li>25.9 (11 de septiembre de 2025)</li><li>25.10 (16 de octubre de 2025)</li></ul> | <ul><li>25.10 (16 de octubre de 2025)</li></ul> |
 >
 >Tenga en cuenta que, para la versión final de cada trimestre (25.10 este trimestre), los usuarios de la programación de versiones rápidas recibirán la versión un día antes.
 >
@@ -398,7 +398,7 @@ Para ofrecer integraciones más estables y escalables, estamos adoptando un enfo
 * Workfront para Salesforce.
 
 Recomendamos utilizar la automatización e integración de Workfront para las necesidades de integración de su organización con Google Workspace.
-Para obtener una descripción general de la automatización e integración de Workfront, consulte [Información general de Adobe Workfront Fusion](https://experienceleague.adobe.com/es/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+Para obtener una descripción general de la automatización e integración de Workfront, consulte [Información general de Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 
 ### Versión 20 de la API
 
