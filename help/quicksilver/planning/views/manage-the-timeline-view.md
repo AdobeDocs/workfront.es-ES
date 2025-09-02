@@ -6,7 +6,7 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 10fec10e1bb885ac20e1ef9526cfa8a59086d874
+source-git-commit: 976810c8cedc5d3c5afd8333fdbace4fe8d0ccda
 workflow-type: tm+mt
 source-wordcount: '3872'
 ht-degree: 45%
@@ -27,7 +27,7 @@ Para obtener información sobre las vistas de registros, consulte [Administrar v
 
 ## Requisitos de acceso
 
-+++ Amplíe para ver los requisitos de acceso.
++++ Amplíe para ver los requisitos de acceso. 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -93,7 +93,7 @@ Para obtener información sobre las vistas de registros, consulte [Administrar v
 
 *Para obtener más información sobre los requisitos de acceso de Workfront, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-+++
++++     
 
 ## Administrar una vista de línea de tiempo {#manage-a-timeline-view}
 
@@ -119,6 +119,12 @@ Tenga en cuenta lo siguiente:
 * Puede crear y editar registros en la vista de cronología. Para obtener más información, consulte [Crear registros](/help/quicksilver/planning/records/create-records.md).
 
 </div>
+
+<!--move this bullet under the same div as above OR add a span or another div tag?? ??
+
+* You can resize the records' bars in the timeline view. Resizing the records' bars updates their start and end dates immediately. For information, see [Edit records](/help/quicksilver/planning/records/edit-records.md).
+
+-->
 
 Para administrar una vista de línea de tiempo:
 

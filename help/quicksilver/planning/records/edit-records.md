@@ -6,7 +6,7 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: b291525db0105081b5ff3dd65d9d2b3267a2f60c
+source-git-commit: 976810c8cedc5d3c5afd8333fdbace4fe8d0ccda
 workflow-type: tm+mt
 source-wordcount: '2192'
 ht-degree: 12%
@@ -107,8 +107,8 @@ Para obtener información sobre cómo crear registros, vea [Crear registros](/he
    * La página de detalles del registro
    * En línea, en una vista de tabla.
 <!--* You can edit a record's dates from the following areas:
-    * All areas listed above
-    * <span class="preview">In a timeline view, by resizing the record bars or dragging and dropping the record in the timeline</span>
+        * All areas listed above
+        * <span class="preview">In a timeline view, by resizing the record bars or dragging and dropping the record in the timeline</span>
         For information, see [Create records](/help/quicksilver/planning/records/create-records.md). -->
 
 * Cuando un usuario edita un registro en una vista, los cambios son visibles inmediatamente en todas las vistas y las páginas de registros para todos los demás usuarios.

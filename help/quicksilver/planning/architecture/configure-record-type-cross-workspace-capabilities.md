@@ -4,10 +4,10 @@ description: Puede habilitar un tipo de registro para que se agregue a otro espa
 hidefromtoc: true
 hide: true
 exl-id: d36ab9fb-0275-483d-97be-0a88e170f8e0
-source-git-commit: 4569b5bd004a93396257f3f1f8964831f69399dc
+source-git-commit: 976810c8cedc5d3c5afd8333fdbace4fe8d0ccda
 workflow-type: tm+mt
-source-wordcount: '1021'
-ht-degree: 12%
+source-wordcount: '1052'
+ht-degree: 9%
 
 ---
 
@@ -65,7 +65,7 @@ Para obtener más información, consulte uno de los siguientes artículos:
 
 ## Requisitos de acceso
 
-+++ Amplíe para ver los requisitos de acceso.  
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
 <table style="table-layout:auto"> 
 <col> 
@@ -74,52 +74,32 @@ Para obtener más información, consulte uno de los siguientes artículos:
 </col> 
 <tbody> 
     <tr> 
+<tr>
+
+</tr>   
 <tr> 
-<td> 
-   <p> Productos</p> </td> 
+   <td role="rowheader"><p>Paquete Adobe Workfront*</p></td> 
    <td> 
-   <ul><li><p> Adobe Workfront</p></li> 
-   <li><p> Planificación de Adobe Workfront<p></li></ul></td> 
-  </tr>   
-<tr> 
-   <td role="rowheader"><p>Plan de Adobe Workfront*</p></td> 
-   <td> 
-<p>Cualquiera de los siguientes planes de Workfront:</p> 
-<ul><li>Seleccionar</li> 
-<li>Prime</li> 
-<li>Ultimate</li></ul> 
-<p>Workfront Planning no está disponible para planes Workfront heredados</p> 
-   </td> 
-<tr> 
-   <td role="rowheader"><p>Paquete de planificación de Adobe Workfront*</p></td> 
-   <td> 
-<p>Cualquiera </p> 
+<ul><li><p>Cualquier paquete de Workfront</p></li>
+Y
+<li><p>Paquete Planning Plus</p></li></ul>
+O
+<ul><li><p>Cualquier paquete de flujo de trabajo</p> </li>
+Y
+<li><p>Planificación del paquete de Prime o Ultimate</p></li></ul>
 <p>Para obtener más información sobre qué se incluye en cada plan de Workfront Planning, póngase en contacto con su administrador de cuentas de Workfront. </p> 
-   </td> 
- <tr> 
-   <td role="rowheader"><p>plataforma de Adobe Workfront</p></td> 
-   <td> 
-<p>La instancia de Workfront de su organización debe incorporarse a Adobe Unified Experience para poder acceder a Workfront Planning.</p> 
-<p>Para obtener más información, consulte <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience para Workfront</a>. </p> 
-   </td> 
-   </tr> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><p>Licencia de Adobe Workfront*</p></td> 
-   <td><p> Estándar</p>
-   <p>Workfront Planning no está disponible para licencias de Workfront heredadas</p> 
-  </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><p>Configuración de nivel de acceso</p></td> 
-   <td> <p>No hay controles de nivel de acceso para Adobe Workfront Planning</p>   
-</td> 
-  </tr> 
+   </td>
+
 <tr> 
+   <td role="rowheader"><p>Licencia de Adobe Workfront</p></td> 
+   <td><p>Estándar</p>
+   </td> 
+  </tr> 
+  <tr> 
    <td role="rowheader"><p>Permisos de objeto</p></td> 
    <td>   <p>Permisos de administración en un espacio de trabajo</a> </p>  
    <p>Los administradores del sistema tienen permisos para todos los espacios de trabajo, incluidos los que no crearon</p>  </td> 
-  </tr> 
+  </tr>  
 </tbody> 
 </table>
 
@@ -130,12 +110,15 @@ Para obtener más información, consulte uno de los siguientes artículos:
 ## Configuración de tipos de registros centralizados
 
 <!--this is a UI term; don't change the title of this section-->
+<!--IMPORTANT: not sure if we can call these centralized yet - checking with Lilit as of Sept 2; you might need to revert this to what the screen shot shows below?????-->
 
-Como administrador de espacio de trabajo, puede configurar un tipo de registro para que se agregue a otros espacios de trabajo al crear o editar un tipo de registro.
+Como administrador de espacio de trabajo, puede configurar un tipo de registro para que sea un tipo de registro centralizado. Se puede añadir un tipo de registro centralizado a otros espacios de trabajo.
 
-Al configurar la adición de un tipo de registro a otros espacios de trabajo, un administrador de espacios de trabajo puede importar el tipo de registro y toda su información a uno de los espacios de trabajo que administra.
+Un gestor de espacio de trabajo puede añadir un tipo de registro centralizado a un espacio de trabajo que gestione. También se agregan los campos originales del tipo de registro.
 
-Para configurar la adición de un tipo de registro a otro espacio de trabajo al editar el tipo de registro:
+Los usuarios pueden agregar registros a un tipo de registro centralizado desde cualquier espacio de trabajo al que tengan acceso para contribuir donde se agregue dicho tipo de registro, incluido su espacio de trabajo principal. Solo pueden ver los registros del espacio de trabajo para el que tienen permisos de visualización.
+
+Para configurar la adición de un tipo de registro como tipo de registro centralizado:
 
 {{step1-to-planning}}
 
@@ -181,12 +164,15 @@ O
      El campo Workspace muestra el espacio de trabajo desde el que se ha creado cada registro.
 
      Este campo es de solo lectura y no se puede eliminar.
+1. (Opcional) Vaya a otro espacio de trabajo y cree un tipo de registro utilizando un tipo de registro existente. Seleccione el tipo de registro que ha activado en los pasos anteriores.
+
+   Para obtener más información, vea [Agregar tipos de registros existentes](/help/quicksilver/planning/architecture/add-cross-workspace-record-types.md).
 
 ## Configurar tipos de registros conectables
 
 <!--this is a UI term; don't change the title of this section-->
 
-Puede configurar un tipo de registro al que conectarse desde otros espacios de trabajo al crear o editar el tipo de registro.
+Puede configurar un tipo de registro para que se conecte desde otros espacios de trabajo al crear o editar el tipo de registro.
 
 Para configurar un tipo de registro al que conectarse desde otros espacios de trabajo al editar el tipo de registro:
 
@@ -222,6 +208,9 @@ O
    * La tarjeta de tipo de registro muestra un icono de conexión entre espacios de trabajo ![icono de conexión entre espacios de trabajo](assets/connect-from-other-workspaces-icon.png) para indicar que el tipo de registro está disponible para conectarse desde cualquier espacio de trabajo que haya designado en su configuración.
 
    El tipo de registro está disponible para conectarse desde los espacios de trabajo designados.
+1. (Opcional) Vaya a otro espacio de trabajo y añada una conexión al tipo de registro que ha activado para la conectividad entre espacios de trabajo en los pasos anteriores.
+
+   Para obtener más información, consulte [Conectar tipos de registros](/help/quicksilver/planning/architecture/connect-record-types.md).
 
 
 
