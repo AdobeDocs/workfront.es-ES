@@ -4,10 +4,10 @@ description: Este es un artículo interno para que nuestro equipo mantenga un in
 author: Alina
 hide: true
 hidefromtoc: true
-source-git-commit: f56aa32e9fb40523be9caec3b01bedcae8f37dd0
+source-git-commit: faefa0fef0a0fd65f9eda91f52b8eea57353b5a7
 workflow-type: tm+mt
-source-wordcount: '752'
-ht-degree: 44%
+source-wordcount: '822'
+ht-degree: 45%
 
 ---
 
@@ -344,4 +344,34 @@ Expanda para ver los requisitos de acceso para la funcionalidad en este artícul
 </table>
 
 Para obtener más información, consulte [Requisitos de acceso a la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
+## Ejemplo de requisitos de acceso para Administración de recursos
+
+Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td>paquete de Adobe Workfront</td> 
+   <td><p>Cualquiera</p></td>
+  </tr> 
+  <tr> 
+   <td>Licencia de Adobe Workfront</td> 
+   <td><p>Ligero o superior para un proyecto; Estándar para varios proyectos</p>
+       <p>Revisar o superior para un proyecto; planificar para varios proyectos</p></td>
+  </tr> 
+  <tr> 
+   <td>Configuraciones de nivel de acceso</td> 
+   <td> <p>Acceso de visualización o superior a la Administración de recursos</p> </td> 
+  </tr> 
+  <tr> 
+   <td>Permisos de objeto</td> 
+   <td> <p>Permisos de visualización para proyectos y usuarios </p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
