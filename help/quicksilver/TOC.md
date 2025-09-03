@@ -3,7 +3,7 @@ user-guide-title: Guía de Workfront
 user-guide-description: Utilice los siguientes documentos, tutoriales y recursos adicionales para aprender a implementar y utilizar Adobe Workfront de forma eficaz en su organización.
 role: User
 feature-set: Workfront
-source-git-commit: 9b09452cbde87f0903283eca2021e9aef4b67e59
+source-git-commit: ae8ef9f24b8c641f4e4f456d4a05107a10dd7cb1
 workflow-type: tm+mt
 source-wordcount: '13469'
 ht-degree: 59%
@@ -398,9 +398,9 @@ ht-degree: 59%
    * Programas Beta {#beta}
       * [Programas Beta](product-announcements/betas/betas.md)
       * Paneles de lienzo beta {#canvas-dashboards-beta}
-         * [Información beta de los paneles de lienzo](product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md)
+         * [Información beta de los paneles de control de lienzo](product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md)
          * [Resumen de lienzo de informes beta](product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md)
-         * [Paneles de lienzo beta: actividad de lanzamiento](product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-release-activity.md)
+         * [Paneles de control de lienzo beta: actividad de lanzamiento](product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-release-activity.md)
       * Nueva experiencia de comentarios beta {#new-commenting-experience-beta}
          * [Nuevos comentarios sobre la información de experiencia beta](product-announcements/betas/new-commenting-experience-beta/new-commenting-beta-experience-information.md)
          * [Nueva experiencia de comentarios](product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md)
@@ -945,7 +945,7 @@ ht-degree: 59%
       * [Compartir un programa](workfront-basics/grant-and-request-access-to-objects/share-a-program.md)
       * [Compartir un documento](workfront-basics/grant-and-request-access-to-objects/document-permissions.md)
       * [Compartir una carpeta de documentos](workfront-basics/grant-and-request-access-to-objects/share-a-document-folder.md)
-      * [Uso compartido de informes, paneles y calendarios](workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md)
+      * [Uso compartido de informes, paneles de control y calendarios](workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md)
       * [Quitar permisos de objetos](workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md)
    * Administrar su cuenta y perfil {#manage-account-profile}
       * [Administrar su cuenta y perfil](workfront-basics/manage-your-account-and-profile/manage-your-account-and-profile.md)
@@ -1010,7 +1010,7 @@ ht-degree: 59%
       * [Introducción a los tableros: índice de artículos](agile/get-started-with-boards/get-started-with-boards.md)
       * [Demostraciones en vídeo de Workfront Boards](/help/quicksilver/agile/get-started-with-boards/boards-video-demonstrations.md)
       * [Inclusión de funciones anticipadas en el tablero](agile/get-started-with-boards/boards-early-feature-opt-in.md)
-      * [Uso del panel de tableros](agile/get-started-with-boards/use-boards-page.md)
+      * [Uso del panel de control Tableros](agile/get-started-with-boards/use-boards-page.md)
       * [Crear o editar un tablero](agile/get-started-with-boards/create-edit-board.md)
       * [Eliminar o archivar un tablero](agile/get-started-with-boards/delete-archive-board.md)
       * [Añadir o quitar miembros de un tablero](agile/get-started-with-boards/add-members-to-board.md)
@@ -1512,14 +1512,14 @@ ht-degree: 59%
 * Informes {#reporting}
    * [Informes y paneles: índice de artículos](reports-and-dashboards/reports-and-dashboards-overview.md)
    * Paneles de control de lienzo {#canvas-dashboards}
-      * [Información general sobre paneles de lienzo](reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md)
-      * Creación de paneles {#create-dashboards}
+      * [Información general sobre paneles de control de lienzo](reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md)
+      * Creación de paneles de control {#create-dashboards}
          * [Crear paneles de lienzo: índice de artículos](/help/quicksilver/reports-and-dashboards/canvas-dashboards/create-dashboards/create-dashboards-article-index.md)
          * [Crear un panel de lienzo](/help/quicksilver/reports-and-dashboards/canvas-dashboards/create-dashboards/create-dashboards.md)
       * Añadir informes {#add-reports}
          * [Agregar informes: índice de artículos](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/add-reports-toc.md)
-         * [Añadir un informe existente a un panel de lienzo](reports-and-dashboards/canvas-dashboards/add-reports/add-existing-report.md)
-         * [Generar un informe de KPI en un panel de lienzo](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-kpi-report.md)
+         * [Añadir un informe existente a un panel de control de lienzo](reports-and-dashboards/canvas-dashboards/add-reports/add-existing-report.md)
+         * [Generar un informe de KPI en un panel de control de lienzo](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-kpi-report.md)
          * [Creación de un informe de gráfico en un panel de control de lienzo](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-chart-report.md)
          * [Generar un informe de tabla en un panel de control del lienzo](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-table-report.md)
       * Administrar paneles de lienzo {#manage-canvas-dashboards}
@@ -1710,16 +1710,16 @@ ht-degree: 59%
          * [Mensaje de error al ejecutar un informe: “Actualmente no ha iniciado sesión”.](reports-and-dashboards/reports/tips-tricks-and-troubleshooting/error-running-report.md)
          * [La edición en línea de fechas desplaza la visualización del calendario fuera del cuadro](reports-and-dashboards/reports/tips-tricks-and-troubleshooting/date-edits-shift-calendar.md)
          * [Los datos de las columnas compartidas no se muestran en los informes del panel de control](reports-and-dashboards/reports/tips-tricks-and-troubleshooting/shared-columns-not-displayed-in-report-dashboard.md)
-   * Paneles {#dashboards}
-      * [Paneles](reports-and-dashboards/dashboards/dashboards-overview.md)
-      * Conocimiento de los paneles {#understand-dashboards}
-         * [Conocimiento de los paneles](reports-and-dashboards/dashboards/understanding-dashboards/understand-dashboards.md)
+   * Paneles de control {#dashboards}
+      * [Paneles de control](reports-and-dashboards/dashboards/dashboards-overview.md)
+      * Conocimiento de los paneles de control {#understand-dashboards}
+         * [Conocimiento de los paneles de control](reports-and-dashboards/dashboards/understanding-dashboards/understand-dashboards.md)
          * [Introducción a los paneles de control](reports-and-dashboards/dashboards/understanding-dashboards/get-started-dashboards.md)
-         * [Conocer cómo se muestran los informes en un panel](reports-and-dashboards/dashboards/understanding-dashboards/understand-how-reports-display-dashboard.md)
+         * [Conocer cómo se muestran los informes en un panel de control](reports-and-dashboards/dashboards/understanding-dashboards/understand-how-reports-display-dashboard.md)
       * Crear y administrar paneles de control {#create-dashboards}
          * [Crear y administrar paneles de control](reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-and-manage-dashboards.md)
-         * [Creación de un panel](reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md)
-         * [Añadir un informe a un panel](reports-and-dashboards/dashboards/creating-and-managing-dashboards/add-report-dashboard.md)
+         * [Creación de un panel de control](reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md)
+         * [Añadir un informe a un panel de control](reports-and-dashboards/dashboards/creating-and-managing-dashboards/add-report-dashboard.md)
          * [Copiar un tablero](reports-and-dashboards/dashboards/creating-and-managing-dashboards/copy-dashboard.md)
          * [Eliminación de un panel de control](reports-and-dashboards/dashboards/creating-and-managing-dashboards/delete-dashboard.md)
          * [Edición de un tablero](reports-and-dashboards/dashboards/creating-and-managing-dashboards/edit-dashboard.md)
@@ -1729,7 +1729,7 @@ ht-degree: 59%
          * [Imprimir un panel de control](reports-and-dashboards/dashboards/creating-and-managing-dashboards/print-dashboard.md)
          * [Compartir un panel de control](reports-and-dashboards/dashboards/creating-and-managing-dashboards/share-dashboard.md)
          * [Eliminación de una página externa de un panel](reports-and-dashboards/dashboards/creating-and-managing-dashboards/remove-external-page-from-dashboard.md)
-         * [Información general sobre paneles de lienzo](reports-and-dashboards/dashboards/creating-and-managing-dashboards/canvas-dashboards-overview.md)
+         * [Información general sobre paneles de control de lienzo](reports-and-dashboards/dashboards/creating-and-managing-dashboards/canvas-dashboards-overview.md)
    * Workfront Data Connect {#data-lake}
       * [Información general sobre Workfront Data Connect](reports-and-dashboards/data-lake/data-lake-overview.md)
       * [Crear una cuenta de lector o una conexión para Snowflake](reports-and-dashboards/data-lake/create-a-reader-account.md)
@@ -1952,10 +1952,10 @@ ht-degree: 59%
          * [Revisar un PowerPoint con un vídeo incrustado](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/powerpoint-with-video.md)
          * [Las versiones de prueba no se pueden descargar ni previsualizar cuando se agrega una prueba interactiva como una nueva versión](/help/quicksilver/review-and-approve-work/proofing/tips-tricks-and-troubleshooting/static-and-web-proof-downloads.md)
    * Integraciones nativas {#native-integrations}
-   * [Revisar y aprobar integraciones nativas: índice de artículos](/help/quicksilver/review-and-approve-work/native-integrations/review-approva-native-integrations-toc.md)
-   * [Introducción a la integración de pruebas y GenStudio for Performance Marketing](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-genstudio.md)
-   * [Introducción a las pruebas y Creative Cloud Express](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-express.md)
-   * [Introducción a la integración de Frame.io](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/get-started-with-frame-integration.md)
+      * [Revisar y aprobar integraciones nativas: índice de artículos](/help/quicksilver/review-and-approve-work/native-integrations/review-approva-native-integrations-toc.md)
+      * [Introducción a la integración de pruebas y GenStudio for Performance Marketing](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-genstudio.md)
+      * [Introducción a las pruebas y Creative Cloud Express](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-express.md)
+      * [Introducción a la integración de Frame.io](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/get-started-with-frame-integration.md)
    * Sugerencias, trucos y solución de problemas para aprobaciones {#ttt-approvals}
       * [Sugerencias, trucos y solución de problemas para aprobaciones: índice de artículos](review-and-approve-work/tips-tricks-troubleshooting-approvals/tips-tricks-troubleshooting-approvals.md)
       * [Ver el número de decisiones de la revisión y el documento para todos los usuarios](review-and-approve-work/tips-tricks-troubleshooting-approvals/view-number-of-decisions-for-users.md)
