@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 976810c8cedc5d3c5afd8333fdbace4fe8d0ccda
+source-git-commit: 4e295b4fdbbde7439567ef2a4f4383ad8dea738c
 workflow-type: tm+mt
-source-wordcount: '2192'
+source-wordcount: '2332'
 ht-degree: 12%
 
 ---
@@ -108,8 +108,16 @@ Para obtener información sobre cómo crear registros, vea [Crear registros](/he
    * En línea, en una vista de tabla.
 <!--* You can edit a record's dates from the following areas:
         * All areas listed above
-        * <span class="preview">In a timeline view, by resizing the record bars or dragging and dropping the record in the timeline</span>
+        * <span class="preview">In a timeline view, by resizing the record bars</span>
+         * <span class="preview">In a calendar monthly view, by resizing the record bars</span>
         For information, see [Create records](/help/quicksilver/planning/records/create-records.md). -->
+
+<!-- when drag and drop is available replace the last 2 points with this:
+
+* <span class="preview">In a timeline view, by resizing the record bars or dragging and dropping the record bars in a new position</span>
+* <span class="preview">In a calendar view, by resizing the record bars when viewing it by month, or by dragging and dropping the record bars in a new position</span>
+    For information, see [Create records](/help/quicksilver/planning/records/create-records.md).
+-->
 
 * Cuando un usuario edita un registro en una vista, los cambios son visibles inmediatamente en todas las vistas y las páginas de registros para todos los demás usuarios.
 
@@ -127,10 +135,16 @@ Para obtener información sobre cómo crear registros, vea [Crear registros](/he
 
 Puede editar un registro desde las siguientes áreas:
 
-* [La vista de tabla de un tipo de registro](#edit-a-record-inline-in-the-table-view-of-a-record-type)
+* [La vista de tabla](#edit-a-record-inline-in-the-table-view-of-a-record-type)
+* [La vista de cronología](#edit-a-record-in-the-timeline-view-of-a-record-type)
+* [La vista de calendario](#edit-a-record-in-the-calendar-view-of-a-record-type)
 * [Vista previa del registro en una vista](#edit-a-record-from-the-records-preview-in-a-view)
 * [La página del registro](#edit-a-record-from-the-records-page)
 * [Un objeto Workfront en la sección Planning](#edit-a-record-from-a-workfront-object-in-the-planning-section)
+
+Para editar las fechas de los registros, haga lo siguiente:
+
+* [Cambiar el tamaño de las barras de los registros en la vista de calendario y escala de tiempo]
 
 ### Editar un registro en línea en la vista de tabla de un tipo de registro
 
@@ -221,6 +235,39 @@ Para obtener más información, consulte [Crear registros](/help/quicksilver/pla
    >    Puede utilizar los métodos abreviados de teclado varias veces seguidas para deshacer varios cambios.
 
 1. (Opcional) Agregue una miniatura a un registro. Para obtener más información, consulte [Añadir una miniatura a un registro](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
+
+
+### Editar un registro en la vista de cronología de un tipo de registro
+
+<!--add another step about drag and drop here when that is available-->
+
+1. Abra la página de tipo de registro en una vista de cronología. Para obtener más información, consulte [Administrar la vista de línea de tiempo](/help/quicksilver/planning/views/manage-the-timeline-view.md).
+<!--
+1. <span class="preview">Hover over the ends of a record's bar, click, drag and drop its margin to another date. This automatically updates either the start or end date of the record.</span>  
+
+    <span class="preview">![Left-end bar on timeline view to resize](assets/left-end-bar-handle-to-resize-timeline-view.png)</span>
+
+-->
+
+1. Haga clic en la barra de un registro para abrir su área de detalles y editar todos los campos.
+
+   Para obtener más información, consulte la sección [Editar un registro desde la vista previa del registro en una vista](#edit-a-record-from-the-records-preview-in-a-view) de este artículo.
+
+### Editar un registro en la vista de calendario de un tipo de registro
+
+<!--add another step about drag and drop here when that is available-->
+
+1. Abra la página de tipo de registro en una vista de calendario. Para obtener más información, vea [Administrar la vista de calendario](/help/quicksilver/planning/views/manage-the-calendar-view.md).
+<!--
+1. (Conditional) Select **Month** in the upper-right dropdown menu.
+1. <span class="preview">Hover over the ends of a record's bar, click, drag and drop its margin to another date. This automatically updates either the start or end date of the record.</span>  
+
+    <span class="preview">![Left-end bar on calendar view to resize](assets/left-end-bar-handle-to-resize-calendar-monthly-view.png)</span>
+-->
+
+1. Haga clic en la barra de un registro para abrir su área de detalles y editar todos los campos.
+
+   Para obtener más información, consulte la sección [Editar un registro desde la vista previa del registro en una vista](#edit-a-record-from-the-records-preview-in-a-view) de este artículo.
 
 ### Editar un registro desde la vista previa del registro en una vista
 

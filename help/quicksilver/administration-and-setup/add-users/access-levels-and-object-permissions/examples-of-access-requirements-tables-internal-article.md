@@ -4,9 +4,9 @@ description: Este es un artículo interno para que nuestro equipo mantenga un in
 author: Alina
 hide: true
 hidefromtoc: true
-source-git-commit: faefa0fef0a0fd65f9eda91f52b8eea57353b5a7
+source-git-commit: 4e295b4fdbbde7439567ef2a4f4383ad8dea738c
 workflow-type: tm+mt
-source-wordcount: '822'
+source-wordcount: '827'
 ht-degree: 45%
 
 ---
@@ -249,9 +249,13 @@ Expanda para ver los requisitos de acceso para la funcionalidad en este artícul
    <td role="rowheader"><p>Paquetes de Adobe Workfront</p></td> 
    <td>
 
-<ul><li><p>Cualquier paquete de flujo de trabajo o Workfront</p></li>
-Y
-<li><p>Un paquete de Prime o Ultimate Planning</p></li></ul>
+<ul><li><p>Cualquier paquete de Workfront</p></li>
+  Y
+  <li><p>Paquete Planning Plus</p></li></ul>
+  O
+  <ul><li><p>Cualquier paquete de flujo de trabajo</p> </li>
+  Y
+  <li><p>Planificación del paquete de Prime o Ultimate</p></li></ul>
    </td> </tr>
 
 </tr> 
