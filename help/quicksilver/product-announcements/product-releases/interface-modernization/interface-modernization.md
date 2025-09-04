@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 31cc110fb4fba38a530406acc1f42a89159e029b
+source-git-commit: 09c41ed117660c67c3890ebbaabae73c60cd4a9a
 workflow-type: tm+mt
-source-wordcount: '7469'
+source-wordcount: '7542'
 ht-degree: 2%
 
 ---
@@ -23,6 +23,13 @@ Esta página lista las actualizaciones de la interfaz que estamos realizando a t
 Para ver todos los demás cambios en Adobe Workfront, consulte [Versiones del producto](/help/quicksilver/product-announcements/product-releases/product-releases.md).
 
 ## Administración y configuración
+
+### Actualizaciones de la interfaz para las casillas Nuevo y Copiar informe de valoración
+
+**Versión preliminar: 4 de septiembre de 2025; versión de producción: 11 de septiembre de 2025**
+
+Hemos actualizado el aspecto de los cuadros Nuevo y Copiar informe de valoración para que coincidan con el diseño de otras áreas de la aplicación. Puede ver el diseño actualizado al crear o copiar un cuadro de mandos en el área de Configuración de Workfront.\
+Para obtener más información, consulte [Crear un cuadro de mandos](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md).
 
 ### Actualizaciones de la interfaz de la lista de plantillas de diseño de un grupo
 
@@ -217,7 +224,7 @@ Para obtener más información, consulte [Administrar gastos del proyecto](/help
 
 >[!NOTE]
 >
->Se eliminó temporalmente de la vista previa y producción
+>Disponible en vista previa y estará disponible en producción en un despliegue gradual a partir del 4 de septiembre de 2025.
 
 Hemos actualizado el aspecto del cuadro Registrar tiempo al registrar el tiempo de un proyecto, tarea o problema en la sección Horas para que coincida con el diseño de otras áreas de Workfront.
 
@@ -654,7 +661,7 @@ Para obtener más información, consulte [Copiar una plantilla de proyecto](/hel
 +++
 
 
-### Informes y paneles
+### Informes y paneles de control
 
 +++Amplíe para ver las actualizaciones de la interfaz de Informes y paneles realizadas en el tercer trimestre
 
@@ -1086,7 +1093,7 @@ Para obtener más información, vea [Crear una ruta de hitos](/help/quicksilver/
 +++
 
 
-### Informes y paneles
+### Informes y paneles de control
 
 +++Amplíe para ver las actualizaciones de la interfaz de Informes y paneles realizadas en el segundo trimestre
 
