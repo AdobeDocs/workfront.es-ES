@@ -4,9 +4,9 @@ description: Las extensiones de la interfaz de usuario de Workfront, con tecnolo
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 2ed75053-8199-474c-afb4-fa9bbd3750f8
-source-git-commit: dcdae47ffd4a02ac9a0bbd3cd9bd1418f6c59e1a
+source-git-commit: 6355bbbabf233a6e3b577c45084236b4a46144e5
 workflow-type: tm+mt
-source-wordcount: '1693'
+source-wordcount: '2178'
 ht-degree: 1%
 
 ---
@@ -26,7 +26,7 @@ Las extensiones de IU de Workfront ofrecen varias ventajas clave:
 * Mejora en la adopción de usuarios: Una experiencia de usuario optimizada puede mejorar significativamente la adopción de software. Los elementos de la IU personalizados diseñados para coincidir con las preferencias del usuario pueden mejorar las tasas de adopción y la satisfacción general.
 * Al aprovechar las extensiones de la interfaz de usuario de Workfront, las empresas pueden crear experiencias de usuario adaptadas que mejoren la eficacia, la integración y la satisfacción del usuario.
 
-Una vez creada una aplicación en el App Builder de Adobe, un administrador de Workfront puede agregarla al menú principal de Workfront y al panel de navegación izquierdo con plantillas de diseño. Un usuario con la plantilla de diseño que haga clic en la aplicación verá la aplicación incrustada en Workfront, en lugar de tener que abrirla por separado.
+Una vez creada una aplicación en el App Builder de Adobe, un administrador de Workfront puede agregarla al menú principal de Workfront y al panel de navegación izquierdo con plantillas de diseño. Un usuario con la plantilla de diseño que hace clic en la aplicación ve la aplicación incrustada en Workfront, en lugar de tener que abrirla por separado.
 
 En este artículo se describe cómo acceder a App Builder y utilizar una plantilla para crear una aplicación.
 
@@ -87,19 +87,19 @@ Encontrará más instrucciones en el [sitio de Adobe Developer](https://develope
 
    >[!IMPORTANT]
    >
-   >Si no ve la opción de crear un proyecto a partir de una plantilla, significa que no está configurado correctamente en Admin Console y no tiene acceso al catálogo del creador de aplicaciones. Esta opción solo se muestra cuando tiene acceso a AppBuilder.
+   >Si no ve la opción de crear un proyecto a partir de una plantilla, significa que no está configurado correctamente en Admin Console y no tiene acceso al catálogo de App Builder. Esta opción solo se muestra cuando tiene acceso a AppBuilder.
 
    ![Crear a partir de plantilla](assets/create-from-template.png)
 
 1. Seleccione **App Builder**.
 
-1. Escriba un **título de proyecto** y **nombre de aplicación**. Ambos tienen valores predeterminados, pero será más fácil identificar el proyecto que desee más adelante si personaliza el valor.
+1. Escriba un **título de proyecto** y **nombre de aplicación**. Ambos tienen valores predeterminados, pero es más fácil identificar el proyecto que desea más adelante si personaliza el valor.
 
 1. Deje seleccionado **Incluir tiempo de ejecución**.
 
 1. Haga clic en **Guardar**.
 
-## Utilizar CLI de Adobe IO (aio)
+## Utilizar CLI de Adobe Developer (aio)
 
 Adobe proporciona una CLI de código abierto que puede utilizar para crear la aplicación de App Builder.
 
@@ -125,7 +125,7 @@ Encontrará instrucciones adicionales en GitHub y en el sitio de Adobe Developer
    * Asigne un nombre a la extensión.
    * Proporcione un resumen descriptivo de la funcionalidad de la extensión.
    * Seleccione un número de versión inicial para empezar.
-   * La plantilla creará el código para un botón de navegación principal si selecciona &quot;Añadir un botón personalizado al elemento del menú principal&quot; cuando se le solicite &quot;¿Qué desea hacer a continuación?&quot;.
+   * La plantilla crea el código para un botón de navegación principal si selecciona &quot;Añadir un botón personalizado al elemento del menú principal&quot; cuando se le solicita &quot;¿Qué desea hacer a continuación?&quot;.
 
    ![seleccionar hecho](assets/5-select-done.png)
 
@@ -134,6 +134,8 @@ Encontrará instrucciones adicionales en GitHub y en el sitio de Adobe Developer
 1. Espere hasta que vea un mensaje que indique que la inicialización de la aplicación ha finalizado. A continuación, puede abrir el proyecto en un IDE (se recomienda Visual Studio Code) y tener acceso a la carpeta src.
 
    Para obtener más información sobre las carpetas y los archivos del proyecto, consulte el [sitio para desarrolladores de Adobe](https://developer.adobe.com/app-builder/docs/get_started/app_builder_get_started/first-app#anatomy-of-an-app-builder-application).
+
+Para obtener más información sobre las carpetas y los archivos del proyecto, consulte el [sitio de Adobe Developer](https://developer.adobe.com/app-builder/docs/get_started/app_builder_get_started/first-app#anatomy-of-an-app-builder-application).
 
 ## Cree las extensiones en VSCode.
 
@@ -152,13 +154,13 @@ Para permitir aplicaciones personalizadas en el menú principal de Workfront:
 En la función ExtensionRegistration, debería ver el siguiente código. Este código se creó automáticamente mediante la plantilla. Este código se puede añadir para crear elementos de menú adicionales. Asegúrese de reemplazar los ID y las direcciones URL.
 
     &quot;
-    mainMenu: &lbrace;
+    mainMenu: {
     
-    getItems() &lbrace;
+    getItems() {
     
-    return &lbrack;
+    return [
     
-    &lbrace;
+    {
     
     id: &#39;main-menu-label&#39;,
     
@@ -168,13 +170,13 @@ En la función ExtensionRegistration, debería ver el siguiente código. Este c�
     
     icon: icon1,
     
-    &rbrace;,
+    },
     
-    &rbrack;;
+    ];
     
-    &rbrace;,
+    },
     
-    &rbrace;
+    }
     &quot;
 
 1. Agregue el siguiente fragmento de código:
@@ -218,6 +220,165 @@ Para permitir aplicaciones personalizadas en la navegación del panel izquierdo 
 
 1. Guarde el trabajo.
 
+### Incrustar una aplicación mediante un formulario personalizado de Workfront
+
+El punto de extensión del widget de formularios es una capacidad de extensión de la interfaz de usuario en Adobe Workfront que le permite crear widgets personalizados que se pueden incrustar en formularios personalizados de Workfront. A diferencia de otros puntos de extensión que agregan elementos de navegación u opciones de menú, los widgets proporcionan una forma de mostrar contenido personalizado en paneles dedicados dentro de campos de formulario personalizados.
+
+Los widgets son componentes modulares de la interfaz de usuario que se pueden agregar a formularios personalizados de Workfront como campos de formulario. Proporcionan una forma de mostrar funcionalidad personalizada, visualizaciones de datos o contenido externo directamente en interfaces de formulario personalizadas, lo que permite a los usuarios interactuar con la lógica personalizada mientras rellenan los formularios.
+
+#### Configuración de una extensión de widget
+
+Al igual que los puntos de extensión de la interfaz de usuario para el menú principal y la navegación secundaria, el punto de extensión &quot;widgets&quot; se configura dentro del objeto de métodos del componente `ExtensionRegistration`, normalmente en el campo `ExtensionRegistration.js`. Esto significa que el uso del widget de formularios solo requiere agregar un elemento &quot;widget&quot; en `extesionregistration` con una ruta válida en su app.js:
+
+```
+javascript 
+
+
+Apply to ExtensionReg... 
+
+widgets: { 
+
+  getItems() { 
+
+    return [ 
+
+      { 
+
+        id: "test2", 
+
+        url: "/index.html#/widgets1", 
+
+        label: "Test Widget with dimensions", 
+
+        dimensions: { 
+
+          height: 450, 
+
+          width: 300, 
+
+          maxHeight: 600, 
+
+          maxWidth: 400, 
+
+        }, 
+
+      }, 
+
+      { 
+
+        id: "test", 
+
+        url: "/index.html#/widgets1", 
+
+        label: "Test Widget without dimensions", 
+
+      }, 
+
+    ]; 
+
+  }, 
+
+}, 
+```
+
+#### Propiedades de configuración del widget
+
+**Propiedades requeridas**
+
+* id (cadena): Identificador único del widget. Debe ser único en todos los widgets de la extensión.
+
+* url (cadena): La ruta URL al contenido del widget. Esto debe apuntar a una ruta en la extensión que procese el componente Widget.
+
+* label (cadena): Nombre para mostrar del widget que aparece en la interfaz de selección de campos de formulario personalizados.
+
+**Propiedades opcionales**
+
+* dimensions (objeto): especifica las dimensiones de visualización del widget. Todas las propiedades son opcionales y estas son las únicas dimensiones posibles:
+
+* altura (número): altura del widget en píxeles
+
+* anchura (número): anchura del widget en píxeles
+
+* maxHeight (number): altura máxima del widget en píxeles
+
+* maxWidth (número): Ancho máximo del widget en píxeles
+
+**Propiedades de Dimension**
+
+El objeto de dimensiones permite controlar las restricciones de tamaño y diseño del widget:
+
+* altura y anchura: establezca el tamaño inicial o preferido del widget
+
+* maxHeight y maxWidth: establezca límites superiores para evitar que el widget se vuelva demasiado grande
+
+* Comportamiento interactivo: los widgets pueden ser interactivos dentro de estas restricciones
+
+* Integración de formularios: las dimensiones ayudan a garantizar que el widget se ajuste bien a los diseños de los campos de formulario
+
+#### Ejemplo de configuraciones de Dimension
+
+```
+// Fixed size widget 
+
+dimensions: { 
+
+  height: 300, 
+
+  width: 250, 
+
+} 
+
+// Flexible height with width constraint 
+
+dimensions: { 
+
+  width: 300, 
+
+  maxHeight: 500, 
+
+} 
+
+// Height constraint only 
+
+dimensions: { 
+
+  height: 400, 
+
+  maxWidth: 350, 
+
+} 
+
+// No dimensions - uses default sizing 
+
+{} 
+```
+
+#### Datos de contexto
+
+Los widgets tienen acceso al mismo contexto compartido que otros puntos de extensión, incluidos los siguientes:
+
+* auth: información de autenticación, incluido el token de IMS
+
+* objCode: código de tipo de objeto (TAREA, PROYECTO, PROBLEMA, etc.)
+
+* objID: identificador de objeto
+
+* nombre de host: nombre de host de instancia de Workfront
+
+* protocol: protocolo de conexión
+
+* user: Información del usuario actual
+
+* isLoginAs: Indica si el usuario ha iniciado sesión como otro usuario
+
+* isInBulkEditing: si el formulario se encuentra actualmente en modo de edición por lotes. Si es así, el contexto incluye varios valores para el ID de objeto.
+
+#### Agregar un widget a un formulario personalizado de Workfront
+
+Una aplicación se puede incrustar en un formulario personalizado de Workfront mediante el tipo de campo &quot;Extensiones de interfaz de usuario&quot;. Una vez agregado el campo, seleccione un widget de formularios y la lista de widgets se basará en las aplicaciones activas de su organización de IMS o en la aplicación activa localmente al `extensionoverride=TRUE`.
+
+![Campo de extensiones de IU en un formulario personalizado](assets/ui-extensions-field.png)
+
 ### Configurar App.js
 
 1. Vaya a App.js.
@@ -239,9 +400,10 @@ Para permitir aplicaciones personalizadas en la navegación del panel izquierdo 
 
 Para obtener más información sobre cómo desarrollar y ejecutar la aplicación, consulte el [sitio para desarrolladores de Adobe](https://developer.adobe.com/app-builder/docs/get_started/app_builder_get_started/first-app#develop-the-application).
 
+
 ## Contexto compartido
 
-El contexto compartido se utiliza para compartir datos de Workfront con una extensión de interfaz de usuario. Los datos disponibles a través del contexto compartido incluyen los datos de usuario y el contexto de la aplicación.
+El contexto compartido se utiliza para compartir datos de Workfront con una extensión de la interfaz de usuario. Los datos disponibles a través del contexto compartido incluyen los datos de usuario y el contexto de la aplicación.
 
 
 ### Usuario
@@ -262,14 +424,14 @@ A continuación, se muestra un ejemplo para obtener el contexto de la aplicació
 
 Al desarrollar la aplicación de App Builder para Workfront, es posible que tenga que probarla en Workfront sin publicarla.
 
-En su aplicación de App Builder, puede iniciar `aio app run` para el desarrollo local. Esto le proporcionará una dirección URL, normalmente algo así como `https://localhost:9080`. También puede ejecutar `aio app deploy` para obtener un dominio estático de Adobe. Asegúrese de tener en cuenta estas direcciones URL para su uso futuro.
+En su aplicación de App Builder, puede iniciar `aio app run` para el desarrollo local. Esto le proporciona una dirección URL, normalmente algo así como `https://localhost:9080`. También puede ejecutar `aio app deploy` para obtener un dominio estático de Adobe. Asegúrese de tener en cuenta estas direcciones URL para su uso futuro.
 
-A continuación, vaya a la página específica con la que desee desarrollar en el explorador. Abra las herramientas para desarrolladores y acceda al almacenamiento local para workfront.com o workfront.adobe.com. Aquí, debe agregar una entrada. Use `extensionOverride` como clave y el valor de la URL del creador de aplicaciones indicada anteriormente.
+A continuación, vaya a la página específica con la que desee desarrollar en el explorador. Abra las herramientas para desarrolladores y acceda al almacenamiento local para workfront.com o workfront.adobe.com. Aquí, debe agregar una entrada. Use `extensionOverride` como clave y la URL de App Builder anotada anteriormente como valor.
 
 Si la configuración se ha completado correctamente, al volver a cargar la página de la plantilla de diseño en Workfront, verá los botones de la aplicación de App Builder. Añada los botones de la aplicación al menú principal y al panel izquierdo de un objeto y compruebe que aparecen correctamente en esas áreas.
 
-Puede encontrar más instrucciones en el sitio para desarrolladores de Adobe, con un ejemplo de AEM: https://developer.adobe.com/uix/docs/guides/preview-extension-locally/
+Encontrará instrucciones adicionales en el sitio de Adobe Developer, con un ejemplo de AEM: https://developer.adobe.com/uix/docs/guides/preview-extension-locally/
 
 ## Publicación de solicitudes y aprobación del envío
 
-Para publicar la aplicación y aprobarla, siga las instrucciones del [sitio para desarrolladores de Adobe](https://developer.adobe.com/uix/docs/guides/publication/).
+Para publicar la aplicación y aprobarla, siga las instrucciones del [sitio de Adobe Developer](https://developer.adobe.com/uix/docs/guides/publication/).
