@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 298473d4-7d7d-4401-80bf-899a01f570a6
-source-git-commit: ab70d832c7c03f116d68f8bad394f44f5ecca8cf
+source-git-commit: 7eef99ed854beb8b737238ff9c08313e057ef5ac
 workflow-type: tm+mt
-source-wordcount: '1901'
+source-wordcount: '1951'
 ht-degree: 18%
 
 ---
@@ -39,6 +39,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
 ## Mejoras de Adobe Workfront
 
 * [Mejoras en el administrador](#administrator-enhancements)
+* [Mejoras de paneles](#dashboards)
 * [Mejoras de documentos y revisiones](#document-and-proofing-enhancements)
 * [Mejoras en el Inicio](#home-enhancements)
 * [Mejoras en el proyecto](#project-enhancements)
@@ -93,6 +94,27 @@ The <add release> release webinar will be held on <date>. You can [register for 
   </tbody>
 </table>
 
+### Mejoras de paneles
+
+<table style="table-layout:auto">
+  <tbody>
+   <tr>
+        <td><strong>Función</strong>
+        </td>
+        <td><strong>Vista previa</strong></td>
+        <td><strong>Liberación rápida</strong></td>
+        <td><strong>Trimestralmente</strong></td>
+    </tr>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-dashboards.md" class="MCXref xref" xrefformat="{para}">Nuevos paneles de lienzo abiertos en la versión beta</a>
+            <p>La nueva función Paneles de lienzo le ayuda a visualizar fácilmente los datos de Adobe Workfront al agregar tipos de informes a un lienzo que ofrece muchas opciones de diseño flexibles, como cambiar el tamaño, arrastrar y soltar, etc.</p>
+        </td>
+        <td>miércoles, 26 de agosto de 2025</td>
+        <td>miércoles, 26 de agosto de 2025</td>
+        <td>miércoles, 26 de agosto de 2025</td>
+    </tr> 
+</table>
 
 ### Mejoras de documentos y revisiones
 
@@ -398,7 +420,7 @@ Para ofrecer integraciones más estables y escalables, estamos adoptando un enfo
 * Workfront para Salesforce.
 
 Recomendamos utilizar la automatización e integración de Workfront para las necesidades de integración de su organización con Google Workspace.
-Para obtener una descripción general de la automatización e integración de Workfront, consulte [Información general de Adobe Workfront Fusion](https://experienceleague.adobe.com/es/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+Para obtener una descripción general de la automatización e integración de Workfront, consulte [Información general de Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 
 ### Versión 20 de la API
 
