@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 0343fe74-1be4-43e2-9e3d-8aa1f7ea26fa
-source-git-commit: c7b91828e5a4f961fc48e857eb63756b9b38f664
+source-git-commit: 50c3cddbd11f2fe9d9bb30f66d8e690f88390f33
 workflow-type: tm+mt
-source-wordcount: '3430'
+source-wordcount: '3425'
 ht-degree: 70%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 70%
 >
 >The procedure described on this page applies only to organizations that have not yet been onboarded to the Admin Console. If your organization has been onboarded to the Adobe Admin Console, you must perform this action through the Adobe Admin Console.
 >
->For instructions on editing a user's profile in the Adobe Admin Console, see the section "Edit user details" in the article [Manage users individually](https://helpx.adobe.com/es/enterprise/using/manage-users-individually.html) or contact your Adobe Admin Console Administrator.
+>For instructions on editing a user's profile in the Adobe Admin Console, see the section "Edit user details" in the article [Manage users individually](https://helpx.adobe.com/enterprise/using/manage-users-individually.html) or contact your Adobe Admin Console Administrator.
 >
 >For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Admin Console, see [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 -->
@@ -75,7 +75,7 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
 
    Aparece el cuadro Editar usuario.
 
-1. En el cuadro **Editar usuario**, cambie la información en cualquiera de las secciones y haga clic en **Guardar cambios** <span class="preview">o **Guardar**</span> en cualquier momento.
+1. En el cuadro **Editar usuario**, cambie la información en cualquiera de las secciones y haga clic en **Guardar** en cualquier momento.
 
 ### Información personal
 
@@ -94,7 +94,7 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
 
   Si su organización se ha migrado a Adobe Admin Console, no puede editar la dirección de correo electrónico de un usuario en Workfront. La dirección de correo electrónico del usuario se establece en Adobe Admin Console.
 
-* **Restablecer contraseña** / <span class="preview">**Cambiar contraseña**</span>: haga clic en este vínculo para restablecer la contraseña del usuario. Debe introducir su propia contraseña para poder restablecer la contraseña de otro usuario.
+* **Cambiar contraseña**: haga clic en este botón para restablecer la contraseña del usuario. Debe introducir su propia contraseña para poder restablecer la contraseña de otro usuario.
 
   Para restablecer la contraseña de otro usuario, debe ser administrador de Workfront o de grupos.
 
@@ -107,7 +107,7 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
   No puede restablecer la contraseña de un administrador de Workfront.
 
 * **Nombre de usuario de &lt;Configuración de SSO>**: si el administrador de Workfront ha habilitado una integración de SSO con Workfront, el nombre de usuario de SSO se mostrará en este campo. El tipo de configuración de SSO habilitada para la instancia de Workfront se puede ver en este campo.
-* **Permitir solo la autenticación de &lt;configuración de SSO>**: si el administrador de Workfront ha habilitado una integración de SSO con Workfront y ha actualizado todos los usuarios para SSO, este campo está seleccionado de forma predeterminada. El tipo de configuración de SSO habilitada para la instancia de Workfront se puede ver en este campo.
+*  **Permitir solo la autenticación de &lt;configuración de SSO>**: si el administrador de Workfront ha habilitado una integración de SSO con Workfront y ha actualizado todos los usuarios para SSO, este campo está seleccionado de forma predeterminada. El tipo de configuración de SSO habilitada para la instancia de Workfront se puede ver en este campo.
 
   Cuando se selecciona este campo, el usuario debe iniciar sesión en Workfront con sus credenciales de SSO. Si lo desmarca, podrán iniciar sesión en Workfront con sus credenciales de Workfront.
 
@@ -121,7 +121,7 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
   >
   >Si es administrador de grupos y tiene habilitado el permiso Administrador de usuarios (todos los usuarios) en su nivel de acceso, puede editar los campos de &lt;Configuración de SSO> para todos los usuarios.
 
-* **Fotografía del perfil**: Haz clic en **Cargar fotografía** / <span class="preview">**Cargar nueva**</span> para cargar la fotografía del perfil del usuario. Puede cargar un archivo JPG, GIF o PNG. El límite de tamaño de archivo es de 4 MB.
+* **Foto de perfil**: Haz clic en **Cargar nuevo** para cargar la imagen de perfil del usuario. Puede cargar un archivo JPG, GIF o PNG. El límite de tamaño de archivo es de 4 MB.
 
   La imagen de perfil se convierte en el avatar del usuario y es visible en todo el sistema Workfront, independientemente de dónde se muestre el nombre del usuario.
 
@@ -148,7 +148,7 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
   >
   >Esta actualización solo está disponible en los entornos de vista previa y zona protegida. Las notificaciones por correo electrónico están habilitadas en el entorno de producción de forma predeterminada.
 
-<!--* **Send work I assign to myself to my Working On tab**: This setting refers to a deprecated feature that has been removed from Workfront.-->
+* **Enviar trabajo que me asigne a mí mismo a mi ficha Trabajando en**: cuando se selecciona esta opción, el trabajo que el usuario autoasigna se establece automáticamente como En curso en lugar de Nuevo. <!--This setting refers to a deprecated feature that has been removed from Workfront.-->
 
 * **Generar revisiones automáticamente al cargar documentos**: marque esta opción si quiere que los documentos que el usuario carga generen inmediatamente una revisión.
 
@@ -162,7 +162,7 @@ Para obtener más información, consulte [Configurar notificaciones de eventos p
 
 ### Acceso
 
-* **Está activo** / <span class="preview">**El usuario está activo**</span>: Habilite esta opción para indicar que el usuario está activo.  Los usuarios activos utilizan una licencia de Workfront. Al deshabilitar el campo, se desactiva el usuario y se impide que inicie sesión en Workfront.
+* **El usuario está activo**: Habilite esta opción para indicar que el usuario está activo.  Los usuarios activos utilizan una licencia de Workfront. Al deshabilitar el campo, se desactiva el usuario y se impide que inicie sesión en Workfront.
 
 * **Nivel de acceso**: seleccione el nivel de acceso que desea asignar a este usuario.
 
@@ -199,7 +199,7 @@ Para obtener más información, consulte [Configurar notificaciones de eventos p
 * **Subordinados directos**: Si especificó una compañía para el usuario, también puede especificar los subordinados directos del usuario. Un usuario puede tener varios informes directos. Este campo no se muestra si el usuario no está asociado primero con una compañía.
 * **Equipo de inicio**: especifique el equipo de inicio del usuario. Los usuarios solo pueden tener un equipo de inicio. El equipo de inicio es importante a la hora de asignar una plantilla de diseño o al definir el botón Trabajar en ello para las tareas y problemas asignados al usuario.
 * **Otros equipos**: los usuarios pueden pertenecer a varios equipos. Un usuario puede ver los elementos de trabajo asignados a cualquiera de sus equipos en el área de Inicio.
-* **Grupo de inicio** / <span class="preview">**Grupo de inicio actual**</span>: seleccione un grupo apropiado para asignar al usuario. Esto ofrece al usuario la posibilidad de acceder a los objetos compartidos con el grupo. También puede compartir plantillas de diseño con el grupo de inicio del usuario.
+* **Grupo de inicio actual**: seleccione un grupo apropiado para asignar al usuario. Esto ofrece al usuario la posibilidad de acceder a los objetos compartidos con el grupo. También puede compartir plantillas de diseño con el grupo de inicio del usuario.
 
   Este campo es obligatorio. Todos los usuarios deben estar asociados a un grupo de inicio. Si no selecciona uno, el grupo de inicio se asignará como el grupo de inicio del nuevo usuario.
 
@@ -237,8 +237,8 @@ Para obtener más información, consulte [Configurar notificaciones de eventos p
   >
   >Establezca el valor Tiempo de trabajo en 1 para indicar que el usuario está disponible para el trabajo relacionado con el proyecto en su equivalente a jornada completa
 
-* **Programar desactivación** / <span class="preview">**Establecer fecha de desactivación**</span>: marque esta casilla / <span class="preview">haga clic en este botón</span> si desea programar la desactivación de este usuario en una fecha determinada y a una hora determinada.
-* **Fecha programada de desactivación** / <span class="preview">**Fecha de desactivación**</span>: La fecha y la hora en que se desactiva el usuario. Para obtener información sobre cómo programar usuarios para la desactivación, consulte [Programar usuarios para la desactivación](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md#schedule-users-for-deactivation) en [Desactivar o reactivar un usuario](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md).
+* **Establecer fecha de desactivación**: haga clic en este botón si desea programar la desactivación de este usuario en una fecha y a una hora determinadas.
+* **Fecha de desactivación**: La fecha y hora en que se desactiva el usuario. Para obtener información sobre cómo programar usuarios para la desactivación, consulte [Programar usuarios para la desactivación](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md#schedule-users-for-deactivation) en [Desactivar o reactivar un usuario](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md).
 * **Función principal**: la función principal que el usuario puede cumplir en Workfront. Todas las tareas y problemas que se le asignan al usuario también se asignan a esta función. Las funciones de trabajo son esenciales en la administración de recursos. Solo puede actualizar este campo si dispone de una licencia Standard o Plan con acceso de usuario administrativo o si es administrador de Workfront. Para obtener más información sobre la configuración de usuarios con acceso de usuario administrativo, consulte [Conceder acceso a usuarios](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
 
   En la lista solo se muestran las funciones activas.
@@ -256,11 +256,7 @@ Para obtener más información, consulte [Configurar notificaciones de eventos p
 
   Si otras funciones tienen una disponibilidad de FTE del 0 %, no se muestran en el Planificador de recursos, a menos que los usuarios estén asignados a tareas de estas funciones.
 
-  <span class="preview">En vista previa:</span>
   ![Funciones de usuario y ETC](assets/user-roles-fte-2025.png)
-
-  En producción:
-  ![Funciones de usuario y ETC](assets/user-settings-roles-and-dte-boxes-rp-story.png)
 
   La suma de todos los **porcentajes de disponibilidad de FTE** para todas las funciones debe ser igual a 100 %. Cada porcentaje de disponibilidad de FTE calcula las horas disponibles para cada función por usuario en el Planificador de recursos. Las horas disponibles para cada función por usuario dependen del tiempo disponible para el usuario.
 
@@ -328,11 +324,7 @@ Para obtener más información, consulte [Configurar notificaciones de eventos p
 
   Algunas fechas se añaden automáticamente. Por ejemplo, si la tarifa de facturación 1 no tiene una fecha de finalización y añade una segunda con una fecha de inicio del 1 de mayo de 2023, se añade la fecha de finalización del 30 de abril de 2023 a la tarifa de facturación 1 para que no existan brechas.
 
-  <span class="preview">En vista previa:</span>
   ![Costos de usuario y tarifas de facturación](assets/user-cost-billing-rates-2025.png)
-
-  En producción:
-  ![Costos de usuario y tarifas de facturación](assets/edit-user-cost-billing-rate-2.png)
 
 ### Formularios personalizados
 

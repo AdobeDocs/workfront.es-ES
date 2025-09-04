@@ -6,16 +6,14 @@ description: Tu perfil  [!DNL Adobe Workfront] contiene información sobre ti mi
 author: Lisa, Courtney
 feature: Get Started with Workfront
 exl-id: 0199bf74-0611-48f0-9c05-da6afac85033
-source-git-commit: eda5a2b283d87bccbbff1edff6744556f25ac6e0
+source-git-commit: 50c3cddbd11f2fe9d9bb30f66d8e690f88390f33
 workflow-type: tm+mt
-source-wordcount: '3288'
+source-wordcount: '3317'
 ht-degree: 5%
 
 ---
 
 # Configurar mis ajustes
-
-{{highlighted-preview}}
 
 <!-- Audited: 01/2024 -->
 
@@ -248,7 +246,7 @@ Puede cambiar cualquiera de las siguientes opciones en esta subsección:
    <td> Actualice su dirección de correo electrónico. Este campo es obligatorio. Tenga en cuenta que su dirección de correo electrónico también es su nombre de usuario para [!DNL Workfront].</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!UICONTROL Restablecer contraseña]</strong> / <span class="preview"><strong>Cambiar contraseña</strong></span></td> 
+   <td role="rowheader"><strong>[!UICONTROL Cambiar contraseña]</strong></td> 
    <td>Restablezca la contraseña en esta sección. Para obtener más información sobre cómo restablecer la contraseña, consulte <a href="../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/reset-your-password.md" class="MCXref xref">Restablecer la contraseña</a>.</td> 
   </tr> 
   <tr> 
@@ -343,6 +341,9 @@ Puede cambiar cualquiera de las siguientes opciones en esta subsección:
    <td role="rowheader"><strong>[!UICONTROL Email Locale]</strong> </td> 
    <td><p>Especifique su idioma preferido aquí. Controla el idioma, la fecha y el formato de número utilizado en los mensajes de correo electrónico salientes.</p>
    <p><strong>NOTA:</strong> Cuando su organización se encuentra en la experiencia unificada de Adobe, las preferencias de idioma se almacenan en su perfil de Adobe y no se utiliza la configuración regional de correo electrónico. Para obtener más información, consulte <a href="/help/quicksilver/workfront-basics/supported-languages-in-workfront.md#change-the-adobe-experience-cloud-language">Cambiar el idioma de Adobe Experience Cloud</a> en el artículo <a href="/help/quicksilver/workfront-basics/supported-languages-in-workfront.md">Idiomas compatibles en Adobe Workfront</a>.</p></td> 
+  </tr>
+  <tr><td><strong>[!UICONTROL Enviar trabajo que me asigne a mí mismo a mi ficha Trabajando en]</strong> </td>
+  <td>Seleccione esta opción si desea que el estado del trabajo que se asigna a sí mismo se establezca automáticamente como En curso en lugar de Nuevo.</td>
   </tr>
   <tr> 
    <td role="rowheader"><strong>(Condicional) Generar automáticamente pruebas al cargar documentos</strong></td> 
@@ -456,8 +457,8 @@ Utilice cualquiera de las siguientes opciones en esta sección:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!UICONTROL Programar desactivación]</strong> / <span class="preview"><strong>Establecer fecha de desactivación</strong></span></td> 
-   <td><p>Marque esta casilla / <span class="preview">haga clic en este botón</span> si desea programar la desactivación de su cuenta después de un período de tiempo. En la <strong>[!UICONTROL Fecha programada de desactivación]</strong> que aparece, especifique la fecha después de la cual se desactivará su cuenta. Para obtener información sobre cómo desactivar usuarios, consulte <a href="../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md#schedule-users-for-deactivation" class="MCXref xref">Programar usuarios para la desactivación</a> en <a href="../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md" class="MCXref xref">Desactivar o reactivar un usuario</a>. </p><p>Puede editar los campos de desactivación de su cuenta si dispone de una licencia de [!UICONTROL Standard] o [!UICONTROL Plan] o si es el administrador de [!DNL Workfront]. </p></td> 
+   <td role="rowheader"><strong>[!UICONTROL Establecer fecha de desactivación]</strong></td>
+   <td><p>Haga clic en este botón si desea programar la desactivación de la cuenta después de un periodo de tiempo. En la <strong>[!UICONTROL Fecha programada de desactivación]</strong> que aparece, especifique la fecha después de la cual se desactivará su cuenta. Para obtener información sobre cómo desactivar usuarios, consulte <a href="../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md#schedule-users-for-deactivation" class="MCXref xref">Programar usuarios para la desactivación</a> en <a href="../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md" class="MCXref xref">Desactivar o reactivar un usuario</a>. </p><p>Puede editar los campos de desactivación de su cuenta si dispone de una licencia de [!UICONTROL Standard] o [!UICONTROL Plan] o si es el administrador de [!DNL Workfront]. </p></td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!UICONTROL Función principal]</strong></td> 
@@ -497,7 +498,7 @@ Utilice cualquiera de las siguientes opciones en esta sección:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!UICONTROL FTE]</strong> </td> 
-   <td> <p>El número que especifique aquí se tiene en cuenta para calcular su disponibilidad según el horario predeterminado sólo cuando las [!UICONTROL Preferencias de administración de recursos] en el nivel del sistema están establecidas en <strong>[!UICONTROL Horario predeterminado]</strong>.</p> <p>Por ejemplo, si el valor de FTE es 0,5 y el horario predeterminado de  es 40 horas, puede trabajar durante 20 horas a la semana.</p> <p>Si las [!UICONTROL Preferencias de administración de recursos] en el nivel del sistema están establecidas en <strong>[!UICONTROL Horario del usuario]</strong>, el valor que especifique aquí se omitirá y podrá trabajar según lo especificado en su horario. En este caso, el valor de FTE para [!UICONTROL Resource Planner] se calcula mediante la fórmula siguiente: </p> <p><code style="font-style: normal;">[!UICONTROL User Available FTE] = [!UICONTROL Hours from the Schedule of the User/ Default Schedule Hours]</code> </p> <p>Para obtener más información sobre el cálculo de FTE de usuario, vea <a href="../../../resource-mgmt/resource-planning/calculate-hours-fte-for-users-roles-resource-planner.md" class="MCXref xref">Información general sobre el cálculo de horas y FTE para usuarios y roles en el Planificador de recursos</a>.</p> <p>Para obtener más información acerca de la creación de programaciones en [!DNL Workfront], vea <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">Crear una programación</a>.</p> <p>Para obtener más información acerca de cómo configurar las preferencias de administración de recursos, vea <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md" class="MCXref xref">Configurar las preferencias de administración de recursos</a>.</p> </td> 
+   <td> <p>El número que especifique aquí se tiene en cuenta para calcular su disponibilidad según el horario predeterminado sólo cuando las [!UICONTROL Preferencias de administración de recursos] en el nivel del sistema están establecidas en <strong>[!UICONTROL Horario predeterminado]</strong>.</p> <p>Por ejemplo, si el valor de FTE es 0,5 y el horario predeterminado de [!UICONTROL] es 40 horas, puede trabajar durante 20 horas a la semana.</p> <p>Si las [!UICONTROL Preferencias de administración de recursos] en el nivel del sistema están establecidas en <strong>[!UICONTROL Horario del usuario]</strong>, el valor que especifique aquí se omitirá y podrá trabajar según lo especificado en su horario. En este caso, el valor de FTE para [!UICONTROL Resource Planner] se calcula mediante la fórmula siguiente: </p> <p><code style="font-style: normal;">[!UICONTROL User Available FTE] = [!UICONTROL Hours from the Schedule of the User/ Default Schedule Hours]</code> </p> <p>Para obtener más información sobre el cálculo de FTE de usuario, vea <a href="../../../resource-mgmt/resource-planning/calculate-hours-fte-for-users-roles-resource-planner.md" class="MCXref xref">Información general sobre el cálculo de horas y FTE para usuarios y roles en el Planificador de recursos</a>.</p> <p>Para obtener más información acerca de la creación de programaciones en [!DNL Workfront], vea <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">Crear una programación</a>.</p> <p>Para obtener más información acerca de cómo configurar las preferencias de administración de recursos, vea <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md" class="MCXref xref">Configurar las preferencias de administración de recursos</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!UICONTROL Costo por hora]</strong> </td> 

@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: aba243ba-46c2-4eb7-b704-4368bf0ae3cc
-source-git-commit: c7b91828e5a4f961fc48e857eb63756b9b38f664
+source-git-commit: 1a81c1becfc0866b92dbd1358af23671e5302266
 workflow-type: tm+mt
-source-wordcount: '1116'
+source-wordcount: '1104'
 ht-degree: 9%
 
 ---
@@ -22,8 +22,6 @@ ht-degree: 9%
 >title="Desactivar un usuario"
 >abstract="Al desactivar un usuario, se elimina de Workfront y Frame.io. Los usuarios desactivados se pueden reactivar más adelante."
 
-{{highlighted-preview}}
-
 <!--Audited 5/2025-->
 
 <!--
@@ -32,7 +30,7 @@ ht-degree: 9%
 >
 >The procedure described on this page applies only to organizations that have not yet been onboarded to the Admin Console. If your organization has been onboarded to the Adobe Admin Console, you must perform this action through the Adobe Admin Console.
 >
->For instructions on deactivating a user in the Adobe Admin Console, see the section "Remove users" in the article [Manage users individually](https://helpx.adobe.com/es/enterprise/using/manage-users-individually.html) or contact your Adobe Admin Console Administrator.
+>For instructions on deactivating a user in the Adobe Admin Console, see the section "Remove users" in the article [Manage users individually](https://helpx.adobe.com/enterprise/using/manage-users-individually.html) or contact your Adobe Admin Console Administrator.
 >
 >For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Admin Console, see [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
@@ -129,9 +127,9 @@ Para programar la desactivación de un usuario:
 
 1. Haga clic en el icono **Editar** ![Editar icono](assets/edit-icon.png).
 1. En el panel izquierdo del cuadro **Editar usuario**, haga clic en **Planificación de recursos**.
-1. Seleccione la casilla de verificación **Programar desactivación**, <span class="preview"> o haga clic en **Establecer fecha de desactivación**</span>.
+1. Haga clic en **Establecer fecha de desactivación**.
 
-1. Seleccione la fecha y la hora de la **fecha programada de desactivación** / <span class="preview">**fecha de desactivación**</span>.
+1. Seleccione la fecha y la hora de la **fecha de desactivación**.
 
    >[!NOTE]
    >
@@ -139,7 +137,7 @@ Para programar la desactivación de un usuario:
    >* Si selecciona una hora para el día actual que ha pasado, Workfront programará la desactivación para el día siguiente a las 12:00 a. m.
    >* La hora seleccionada coincide con la zona horaria del equipo del usuario que está programando la desactivación.
 
-1. Haga clic en **Guardar cambios** <span class="preview">o **Guardar**</span>.
+1. Haga clic en **Guardar**.
 
 El usuario se desactiva en el día seleccionado en algún momento después de la hora seleccionada. Si ha seleccionado varios usuarios para desactivarlos de forma masiva, todos los usuarios seleccionados se desactivarán el día seleccionado en algún momento después de la hora seleccionada.
 

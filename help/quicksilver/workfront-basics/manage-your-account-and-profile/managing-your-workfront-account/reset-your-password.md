@@ -6,10 +6,10 @@ description: Puede restablecer su contraseña de  [!DNL Adobe Workfront] . Como 
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 571cd77d-4f63-40c2-8a21-9646e924e75e
-source-git-commit: 0df2a474fe1c29faca580088289d04ce9d1ef7f5
+source-git-commit: 1a81c1becfc0866b92dbd1358af23671e5302266
 workflow-type: tm+mt
-source-wordcount: '258'
-ht-degree: 83%
+source-wordcount: '235'
+ht-degree: 74%
 
 ---
 
@@ -27,7 +27,7 @@ Puede restablecer su contraseña de [!DNL Adobe Workfront]. Como medida de segur
 
 ## Requisitos de acceso
 
-+++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo. 
 
 Debe tener lo siguiente:
 
@@ -63,17 +63,17 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 
 ## Restablecer la contraseña en [!DNL Adobe Workfront]
 
-1. Haga clic en el icono **[!UICONTROL Menú principal]** ![Icono del menú principal](assets/main-menu-icon.png) en la esquina superior derecha de [!DNL Adobe Workfront] y, a continuación, haga clic en el nombre de usuario que aparece junto a la imagen de perfil.
+{{step1-click-profile-pic}}
 
-   ![Abra el menú principal y seleccione su nombre de usuario.](assets/main-menu-options-350x481.png)
+![Abra el menú principal y seleccione su nombre de usuario.](assets/main-menu-options-350x481.png)
 
 1. Haga clic en el **[!UICONTROL menú Más]** ![icono Más](assets/more-icon.png) y, a continuación, haga clic en **[!UICONTROL Editar]**.
 
-1. En el cuadro **[!UICONTROL Editar persona]** que aparece en **[!UICONTROL Información personal]**, haga clic en **[!UICONTROL Restablecer contraseña]**.
+1. En el cuadro **[!UICONTROL Editar persona]** que aparece en **[!UICONTROL Información personal]**, haga clic en **[!UICONTROL Cambiar contraseña]**.
 
-   ![Editar persona](assets/edit-person-box-350x196.jpg)
+   ![Haga clic en Cambiar contraseña](assets/edit-user-change-password.png)
 
-   Si su organización ha integrado [!DNL Workfront] con una solución SSO, es posible que se le dirija a restablecer sus contraseñas a través de su sistema SSO cuando haga clic en **[!UICONTROL Restablecer contraseña]**. De este modo se restablece la contraseña de SSO, lo que afecta al inicio de sesión en todas las demás aplicaciones dentro de la organización.
+   Si su organización ha integrado [!DNL Workfront] con una solución SSO, es posible que se le enrute para restablecer sus contraseñas a través de su sistema SSO al hacer clic en **[!UICONTROL Cambiar contraseña]**. De este modo se restablece la contraseña de SSO, lo que afecta al inicio de sesión en todas las demás aplicaciones dentro de la organización.
 
 1. Escriba la contraseña anterior y, a continuación, escriba dos veces la nueva contraseña que desee.
 
@@ -86,4 +86,4 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 
    Las reglas de contraseña pueden ser más estrictas, según las opciones de configuración establecidas por el administrador de [!DNL Workfront].
 
-1. Haga clic en **[!UICONTROL Guardar cambios]**.
+1. Haga clic en **[!UICONTROL Guardar]**.
