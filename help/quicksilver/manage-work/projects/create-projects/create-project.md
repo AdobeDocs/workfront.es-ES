@@ -6,10 +6,10 @@ description: Un proyecto es una gran unidad de trabajo en Adobe Workfront. Puede
 author: Alina
 feature: Work Management
 exl-id: d4e28fa6-25f9-4765-b051-8960c8873d5a
-source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
+source-git-commit: a00776ecd9f8dc14b9dce14ce9463c2bb709a363
 workflow-type: tm+mt
-source-wordcount: '1390'
-ht-degree: 85%
+source-wordcount: '1263'
+ht-degree: 92%
 
 ---
 
@@ -19,9 +19,9 @@ ht-degree: 85%
 
 <!-- Audited: 12/2023 -->
 
-<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después de las versiones mensuales en Production, las mismas funciones también están disponibles en el entorno Production para los clientes que habilitaron versiones rápidas. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 Los proyectos representan una gran cantidad de trabajo que debe realizarse en Adobe Workfront.
 
@@ -116,16 +116,11 @@ Puede crear un proyecto en Workfront mediante uno de los métodos siguientes:
 
 * Publique una iniciativa desde un escenario en Adobe Workfront Scenario Planner.
 
-  El planificador de escenarios requiere una de las siguientes opciones:
+  Para obtener información sobre el Planificador de escenarios de Workfront, consulte [Información general sobre el Planificador de escenarios](../../../scenario-planner/scenario-planner-overview.md).
 
-   * Licencia adicional para la estructura de licencias actual de Workfront.
-   * Licencia de Ultimate para la nueva estructura de licencias de Workfront.
+  Para obtener información acerca de cómo crear proyectos a partir de iniciativas de publicación, consulte [Actualizar o crear proyectos mediante la publicación de iniciativas en el Planificador de escenarios](../../../scenario-planner/publish-scenarios-update-projects.md).
 
-  Para obtener información sobre el Planificador de escenarios de Workfront, consulte [Información general sobre el Planificador de escenarios](../../../scenario-planner/scenario-planner-overview.md). Para obtener información acerca de cómo crear proyectos a partir de iniciativas de publicación, consulte [Actualizar o crear proyectos mediante la publicación de iniciativas en el Planificador de escenarios](../../../scenario-planner/publish-scenarios-update-projects.md).
-
-* Agregue proyectos a medida que los conecte desde un tipo de registro en Workfront Planning. En el entorno Producción, solo se pueden crear proyectos sin plantillas desde Workfront Planning. <span class="preview">Puede crear proyectos utilizando una plantilla en el entorno de vista previa.</span>
-
-  Debe tener una nueva licencia de Workfront y una licencia adicional de Workfront Planning para Workfront Planning.
+* Agregue proyectos a medida que los conecte desde un tipo de registro en Workfront Planning.
 
   Para obtener información sobre el acceso a Workfront Planning, consulte [Información general sobre el acceso](/help/quicksilver/planning/access/access-overview.md).
 
@@ -196,7 +191,7 @@ Tenga en cuenta lo siguiente:
 
    El encabezado de la página del proyecto muestra una descripción general rápida del estado y el progreso actuales de un proyecto. La información del encabezado del proyecto cambia a medida que se actualiza la información del proyecto.
 
-1. Pulse **Añadir la adición de tareas**.
+1. Haga clic en **Añadir la adición de tareas**.
 
    O
 

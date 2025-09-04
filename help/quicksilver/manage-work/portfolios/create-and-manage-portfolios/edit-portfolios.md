@@ -6,22 +6,22 @@ description: Puede editar la información de los portafolios que ha creado o que
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 0a2e18c3-1722-4fc6-8442-19e80eca9d47
-source-git-commit: 7f719c903ad4079470a6dbd046dce445ba227a5b
+source-git-commit: a00776ecd9f8dc14b9dce14ce9463c2bb709a363
 workflow-type: tm+mt
-source-wordcount: '1125'
-ht-degree: 65%
+source-wordcount: '1047'
+ht-degree: 68%
 
 ---
 
 # Editar portafolios
 
-<div class="preview">
+<!--<div class="preview"> 
 
-La información resaltada en esta página hace referencia a funcionalidades que aún no están disponibles de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Las mismas funciones también estarán disponibles en el entorno de producción para todos los clientes una semana después de la versión de vista previa.
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release.      
 
-Para obtener más información, vea [Modernización de la interfaz](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
 
-</div>
+</div>-->
 
 Puede editar la información de los portafolios que ha creado o que otros usuarios han creado si los han compartido con usted.
 
@@ -109,9 +109,9 @@ Puede editar un portafolio en la página del portafolio o editar portafolios en 
    <!--
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this might have to be split in two sections if the single edit and the bulk edit won't come at the same time for portfolios)</p>
    -->
-   <span class="preview">Se muestra el cuadro **[!UICONTROL Editar Portfolio]**.</span>
+   Se muestra el cuadro **[!UICONTROL Editar Portfolio]**.
 
-   <span class="preview">![Editar cuadro de portafolio](assets/edit-portfolio-box-classic-350x224.png)</span>
+   ![Editar cuadro de portafolio](assets/edit-portfolio-box-classic-350x224.png)
 
    Todos los campos del portafolio están disponibles en el cuadro [!UICONTROL Editar portafolio] y se agrupan por las áreas enumeradas en el panel izquierdo.
 
@@ -164,20 +164,17 @@ Puede editar un portafolio en la página del portafolio o editar portafolios en 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL **Está Activo**]</td> 
-      <td> <p> Seleccione esta casilla de verificación si desea que el portafolio esté activo. Otros usuarios pueden encontrar portafolios activos y adjuntarlos a proyectos al crear o editar proyectos. Los portafolios inactivos no se pueden adjuntar a los proyectos. Esta opción está activada de forma predeterminada.</p> </td> 
+      <td> <p> Seleccione esta casilla de verificación si desea que el portafolio esté activo. Otros usuarios pueden encontrar portafolios activos y adjuntarlos a proyectos al crear o editar proyectos. Los portafolios inactivos no se pueden adjuntar a los proyectos. Esta opción está habilitada de forma predeterminada.</p> </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. Haga clic en **[!UICONTROL Guardar cambios]** <span class="preview">o [!UICONTROL **Guardar**]</span> y continúe editando las secciones siguientes.
+1. Haga clic en [!UICONTROL **Guardar**] y continúe editando las secciones siguientes.
 
 ### Formularios personalizados
 
 1. Empiece a editar el portafolio como se ha descrito anteriormente.
-1. Haga clic en el menú desplegable **[!UICONTROL Añadir formularios]** para seleccionar formularios personalizados y añadirlos al portafolio.
-
-   O
-   <span class="preview">Empiece a escribir el nombre de un formulario en el campo [!UICONTROL **Agregar formulario personalizado**].</span>
+1. Empiece a escribir el nombre de un formulario en el campo [!UICONTROL **Agregar formulario personalizado**].
 
    Debe crear formularios personalizados de portafolio antes de que estén disponibles para añadirlos.
 
@@ -185,16 +182,16 @@ Puede editar un portafolio en la página del portafolio o editar portafolios en 
    >
    >Según la forma en que el administrador de [!DNL Workfront] haya establecido los permisos para las secciones del formulario personalizado, no todos los usuarios podrán ver o editar los mismos campos en un formulario personalizado determinado. Los permisos para editar campos dentro de una sección de un formulario personalizado dependen de los permisos que tenga el usuario en el propio portafolio. Para obtener información sobre cómo establecer permisos en secciones de un formulario personalizado, consulte [Crear un formulario personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
-1. Haga clic en **[!UICONTROL Guardar cambios]** <span class="preview">o [!UICONTROL **Guardar**]</span> y continúe editando las secciones siguientes.
+1. Haga clic en [!UICONTROL **Guardar**] y continúe editando las secciones siguientes.
 
 ### Comentario {#comment}
 
 1. Comience a editar un portafolio como se ha descrito anteriormente.
 1. Haga clic en **[!UICONTROL Comentar]**.
 
-   <span class="preview">![Editar cuadro de comentarios del portafolio](assets/comment-box-edit-portfolio-classic-350x227.png)</span>
+   ![Editar cuadro de comentarios del portafolio](assets/comment-box-edit-portfolio-classic-350x227.png)
 
-1. <span class="preview">Agregar un comentario en el campo **[!UICONTROL Agregar una actualización al portafolio]**.</span>
+1. Agregar un comentario en el campo **[!UICONTROL Agregar una actualización al portafolio]**.
 1. (Opcional) Haga clic en el icono **[!UICONTROL Personas]** para añadir un usuario o equipo al comentario.
 1. (Opcional) Haga clic en el icono **[!UICONTROL Bloquear]** para bloquear el comentario y hacer que sea privado solo para los usuarios de su compañía.
-1. Haga clic en **[!UICONTROL Guardar cambios]** <span class="preview">o [!UICONTROL **Guardar**]</span>.
+1. Haga clic en [!UICONTROL **Guardar**].

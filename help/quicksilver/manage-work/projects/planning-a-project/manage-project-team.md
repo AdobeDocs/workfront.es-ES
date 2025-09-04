@@ -2,15 +2,15 @@
 product-area: projects;agile-and-teams
 navigation-topic: plan-a-project
 title: Administrar el equipo del proyecto
-description: El equipo del proyecto está formado por usuarios asociados al proyecto. Los miembros del equipo del proyecto aparecen en la sección Personas del proyecto o en la sección Personas de la plantilla que podrían usarse para crear un proyecto.
+description: El equipo del proyecto está formado por usuarios asociados al proyecto. Los miembros del equipo del proyecto se muestran en la sección Personas del proyecto o en la sección Personas de la plantilla que se puede utilizar para crear un proyecto.
 author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: 6e8036fc-feda-4277-9502-0b973028fccb
-source-git-commit: bb2479b936a9064a4df34ac3e840dd78cae297b6
+source-git-commit: a00776ecd9f8dc14b9dce14ce9463c2bb709a363
 workflow-type: tm+mt
-source-wordcount: '1193'
-ht-degree: 26%
+source-wordcount: '1399'
+ht-degree: 37%
 
 ---
 
@@ -32,9 +32,9 @@ El equipo del proyecto está formado por usuarios asociados al proyecto. Para m�
 
 Los miembros del equipo del proyecto se muestran en la sección Personas del proyecto.
 
-Los usuarios que se muestran en la sección Personas de un proyecto plantilla se convertirán en el equipo del proyecto después de que el proyecto se cree desde el plantilla.
+Los usuarios que se muestran en la sección Personas de una plantilla de proyecto se convertirán en el equipo del proyecto una vez creado el proyecto a partir de la plantilla.
 
-Los siguientes usuarios se añaden automáticamente al equipo del proyecto, tanto para proyectos como para plantillas:
+Los siguientes usuarios se agregan automáticamente al equipo del proyecto, tanto para proyectos como para plantillas:
 
 * Propietario
 * Patrocinador
@@ -107,41 +107,41 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-*To find out what plan, license type, or access you have, contact your Workfront administrator.
+*To find out what plan, license type, or access you have, contact your Workfront administrator.-->
 
-## Add users to a Project Team
+## Agregar usuarios al equipo del proyecto
 
-When you add users to the project team, they gain View permissions on the project and the tasks, issues, and documents of the project. For more information, see the article [Project Team overview](../../../manage-work/projects/planning-a-project/project-team-overview.md).
+Cuando agregue usuarios al equipo del proyecto, esos usuarios recibirán permisos de visualización en el proyecto y en las tareas, problemas y documentos del proyecto. Para obtener más información, consulte el artículo [Infomación general sobre el equipo del proyecto](../../../manage-work/projects/planning-a-project/project-team-overview.md).
 
 >[!TIP]
 >
->Users on the Project Team are not automatically added to the resource management tools for the project.
+>Los usuarios del equipo del proyecto no se agregan automáticamente a las herramientas de administración de recursos del proyecto.
 
-You can add users to the project team in the following ways:
+Puede agregar usuarios al equipo del proyecto de las siguientes maneras:
 
-* [Automatically add users to a Project Team](#automatically-add-users-to-a-project-team) 
-* [Manually add users to a Project Team](#manually-add-users-to-a-project-team)
+* [Agregar usuarios automáticamente a un equipo del proyecto](#automatically-add-users-to-a-project-team)
+* [Agregar usuarios manualmente a un equipo del proyecto](#manually-add-users-to-a-project-team)
 
-### Automatically add users to a Project Team {#automatically-add-users-to-a-project-team}
+### Agregar usuarios automáticamente a un equipo del proyecto {#automatically-add-users-to-a-project-team}
 
-The users that fulfill the following roles on the project are automatically added to the project team and appear  in the People section when the project is created:
+Los usuarios que cumplen las siguientes funciones en el proyecto se agregan automáticamente al equipo del proyecto y aparecen en la sección Personas cuando se crea el proyecto:
 
-* The creator of the project
-* The project owner
-* The project sponsor
+* El creador del proyecto
+* El propietario del proyecto
+* El patrocinador del proyecto
 
-Users are also automatically added to the project team when they are assigned to the following:
+Los usuarios también se agregan automáticamente al equipo del proyecto cuando se les asigna lo siguiente:
 
-* Tasks
-* Issues
+* Tareas
+* Problemas
 
-### Manually add users to a Project Team {#manually-add-users-to-a-project-team}
+### Agregar usuarios manualmente a un equipo del proyecto {#manually-add-users-to-a-project-team}
 
-If users that don't fulfill any role on the project want to be notified about certain updates or changes during the life of the project, you can manually add them to the project team. 
+Si los usuarios que no cumplen ninguna función en el proyecto desean que se les notifiquen determinadas actualizaciones o cambios durante la duración del proyecto, puede agregarlos manualmente al equipo del proyecto.
 
- For more information about what notifications can be enabled for users on the project team, see [Event notification types](../../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md). 
+Para obtener más información sobre las notificaciones que se pueden habilitar para los usuarios del equipo del proyecto, consulte [Tipos de notificaciones de eventos](../../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
 
- <!--drafted - this used to be the case, in the note below but this limitation was removed on Jan 5, 2023 - as a patch, not a release feature:
+<!--drafted - this used to be the case, in the note below but this limitation was removed on Jan 5, 2023 - as a patch, not a release feature:
 
 >[!IMPORTANT]
 >
@@ -149,15 +149,15 @@ If users that don't fulfill any role on the project want to be notified about ce
 
 -->
 
-## Gestionar personas en un proyecto
+## Administración de personas en un proyecto
 
-1. Vaya al proyecto para el que desea administrar el proyecto equipo.
+1. Vaya al proyecto para el que desea administrar el equipo del proyecto.
 
    >[!TIP]
    >
-   >Debe tener usuarios asignados a tareas, problemas o como partes interesadas en el proyecto para que se muestren en la sección Personas.
+   >Debe tener usuarios asignados a tareas, problemas o partes interesadas en el proyecto para que se muestren en la sección Personas.
 
-1. Haga clic **en Personas** en el panel izquierdo.
+1. Haga clic en **Personas** en el panel izquierdo.
 
 1. Haga clic en **Agregar usuarios**.
 
@@ -174,19 +174,19 @@ If users that don't fulfill any role on the project want to be notified about ce
    >* No puede agregar usuarios agregando sus equipos, grupos, compañías o funciones.
    >* A medida que añada usuarios, fíjese en su avatar, su función principal y su dirección de correo electrónico para distinguir entre usuarios con nombres idénticos. Los usuarios deben estar asociados con al menos una función para verla a medida que los añade.
    >
-   >  Debe tener activada la configuración Ver información de contacto en su nivel de acceso para que los usuarios vean los correos electrónicos de los usuarios. Para obtener más información, consulte [Conceder acceso a los usuarios](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
+   >  Debe tener habilitada la configuración Ver información de contacto en su nivel de acceso para que los usuarios vean los correos electrónicos de los usuarios. Para obtener más información, consulte [Conceder acceso a los usuarios](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
 
 1. Haga clic en **Añadir**.
 
    Los usuarios obtienen permisos de visualización del proyecto y reciben notificaciones sobre el proyecto como parte del equipo del proyecto.
 
-1. (Opcional) Si desea que un usuario reciba un notificación cuando su función de trabajo se agrega a una aprobación de tarea, problema o proyecto, haga clic dentro de la columna Rol **de** trabajo para el usuario y seleccione un función de trabajo que se asociará con la aprobación.
+1. (Opcional) Si desea que un usuario reciba una notificación cuando su rol se agregue a una tarea, problema o aprobación de proyecto, haga clic dentro de la columna **Rol** para el usuario y seleccione un rol que se asociará con la aprobación.
 
-   Los usuarios recibirán notificaciones relacionadas con las aprobaciones asignadas al función de trabajo seleccionado.
+   Los usuarios recibirán notificaciones relacionadas con las aprobaciones asignadas al rol seleccionado.
 
-   Para obtener más información, consulte la sección &quot;Aprobaciones basadas en funciones&quot; en el artículo Información general[ del equipo del proyecto](/help/quicksilver/manage-work/projects/planning-a-project/project-team-overview.md).
+   Para obtener más información, consulte la sección &quot;Aprobaciones basadas en roles&quot; en el artículo [Información general del equipo del proyecto](/help/quicksilver/manage-work/projects/planning-a-project/project-team-overview.md).
 
-1. Seleccione uno o varios usuarios en la lista y, a continuación, haga clic en el icono **de** Quitar![ Quitar](assets/remove-icon.png) icono para eliminarlos del equipo.
+1. Seleccione uno o varios usuarios en la lista y luego haga clic en el icono **Quitar** ![Quitar icono](assets/remove-icon.png) para quitarlos del equipo.
 
 1. Haga clic en **Sí, quitar usuarios seleccionados** para confirmar y quitar los usuarios.
 
@@ -215,11 +215,11 @@ If users that don't fulfill any role on the project want to be notified about ce
    * Etiquete usuarios adicionales para recibir la misma actualización.
    * Haga clic en **Enviar**.
 
-   La actualización se agrega a la **sección Actualizaciones** del proyecto y todos los usuarios seleccionados se muestran como usuarios etiquetado.
+   La actualización se agrega a la sección **Actualizaciones** del proyecto y todos los usuarios seleccionados se muestran como usuarios etiquetados.
 
-   Los usuarios pueden recibir un notificación correo electrónico, si están habilitados para ellos, y recibir un notificación en la aplicación sobre la nueva actualización.
+   Los usuarios pueden recibir una notificación por correo electrónico, si están habilitados para ellos, y una notificación dentro de la aplicación sobre la nueva actualización.
 
-1. (Opcional) Haga clic en el **icono** Exportar![ icono Exportar](assets/export-icon.png) para exportar el lista de usuarios a un archivo
+1. (Opcional) Haga clic en el icono **Exportar** ![Icono de exportar](assets/export-icon.png) para exportar la lista de usuarios a un archivo
 
    O
 
@@ -227,17 +227,17 @@ If users that don't fulfill any role on the project want to be notified about ce
 
 ## Administrar personas en una plantilla
 
-1. Vaya a la plantilla desea administrar el proyecto equipo.
+1. Vaya a la plantilla para la que desea administrar el equipo del proyecto.
 
    >[!TIP]
    >
    >Debe tener usuarios asignados a tareas o como partes interesadas en la plantilla para que se muestren en la sección Personas.
 
-1. Haga clic **en Personas** en el panel izquierdo.
+1. Haga clic en **Personas** en el panel izquierdo.
 
-1. Seleccione uno o varios usuarios en la lista y, a continuación, haga clic en el icono Quitar **&#x200B;**&#x200B;para eliminarlos del equipo.
+1. Seleccione uno o varios usuarios en la lista y luego haga clic en el icono **Quitar** para quitarlos del equipo.
 
-1. Haga clic en **Sí, Quitar usuarios** seleccionados para confirmar y eliminar los usuarios.
+1. Haga clic en **Sí, quitar usuarios seleccionados** para confirmar y quitar los usuarios.
 
    Los usuarios se eliminan y se anula su asignación de las tareas de plantilla.
 
@@ -262,21 +262,21 @@ If users that don't fulfill any role on the project want to be notified about ce
    * Seleccione la opción **Privado para mi compañía** de para que la actualización sea privada para los usuarios de su compañía.
    * Haga clic en **Enviar**.
 
-   La actualización se agrega a la **sección Actualizaciones** de cada etiquetado perfil del usuario.
+   La actualización se agrega a la sección **Actualizaciones** del perfil de cada usuario etiquetado.
 
-   Los usuarios pueden recibir un notificación correo electrónico, si están habilitados para ellos, y recibir un notificación en la aplicación sobre la nueva actualización.
+   Los usuarios pueden recibir una notificación por correo electrónico, si están habilitados para ellos, y una notificación dentro de la aplicación sobre la nueva actualización.
 
 1. Haga clic en el icono **Exportar** ![icono Exportar](assets/export-icon.png) para exportar la lista de usuarios a un archivo
 
    O
 
-   Seleccione usuarios y, a continuación, haga clic en el **icono Exportar** para exportar solo usuarios específicos.
+   Seleccione usuarios y luego haga clic en el icono **Exportar** para exportar solo usuarios específicos.
 
-## Consideraciones para eliminar usuarios de un equipo de proyecto
+## Consideraciones para quitar usuarios de un equipo del proyecto
 
 Al quitar usuarios de sus funciones en el proyecto, siguen formando parte del equipo del proyecto.
 
-Debe eliminarlos de la equipo del proyecto, de la sección Personas del proyecto, para que dejen de recibir notificaciones enviadas al equipo del proyecto.
+Debe eliminarlos del equipo del proyecto, de la sección Personas del proyecto, para que dejen de recibir notificaciones enviadas al equipo del proyecto.
 
 Si quita un usuario del equipo del proyecto y el usuario está asignado a tareas o problemas del proyecto, se le quita la asignación de las tareas y problemas que no se hayan completado. En este caso, las tareas y los problemas vuelven al área Trabajo no asignado del Distribuidor de cargas de trabajo.
 

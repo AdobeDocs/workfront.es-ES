@@ -6,22 +6,22 @@ description: Cuando una tarea de un proyecto requiere un esfuerzo mayor en compl
 author: Alina
 feature: Work Management
 exl-id: a45f0af4-1768-4f20-80d4-912e6fe0fc03
-source-git-commit: 7f719c903ad4079470a6dbd046dce445ba227a5b
+source-git-commit: a00776ecd9f8dc14b9dce14ce9463c2bb709a363
 workflow-type: tm+mt
-source-wordcount: '1244'
-ht-degree: 80%
+source-wordcount: '1190'
+ht-degree: 84%
 
 ---
 
 # Convertir una tarea en un proyecto
 
-<div class="preview">
+<!--<div class="preview"> 
 
-La información resaltada en esta página hace referencia a funcionalidades que aún no están disponibles de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Las mismas funciones también estarán disponibles en el entorno de producción para todos los clientes una semana después de la versión de vista previa.
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release.      
 
-Para obtener más información, vea [Modernización de la interfaz](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
 
-</div>
+</div>-->
 
 Cuando una tarea de un proyecto requiere un esfuerzo mayor en completarse que el planificado originalmente, puede convertirla en un proyecto.
 
@@ -203,4 +203,4 @@ Cuando una tarea de un proyecto requiere un esfuerzo mayor en completarse que el
      >
      >Si utiliza una plantilla para la conversión y un formulario personalizado adjunto a la plantilla contiene un campo personalizado que también se encuentra en un formulario personalizado adjunto a la tarea, se utiliza el valor de campo de la tarea para el nuevo proyecto. Sin embargo, si el campo personalizado está vacío en la tarea, se utiliza el valor de la plantilla.
 
-1. Haga clic en **Guardar cambios** <span class="preview">o **Convertir en proyecto**.</span>
+1. Haga clic en **Convertir en proyecto**.

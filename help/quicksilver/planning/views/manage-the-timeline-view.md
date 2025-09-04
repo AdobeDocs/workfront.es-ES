@@ -6,10 +6,10 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 4e295b4fdbbde7439567ef2a4f4383ad8dea738c
+source-git-commit: a00776ecd9f8dc14b9dce14ce9463c2bb709a363
 workflow-type: tm+mt
-source-wordcount: '3872'
-ht-degree: 45%
+source-wordcount: '3910'
+ht-degree: 44%
 
 ---
 
@@ -117,14 +117,9 @@ Tenga en cuenta lo siguiente:
 <div class="preview">
 
 * Puede crear y editar registros en la vista de cronología. Para obtener más información, consulte [Crear registros](/help/quicksilver/planning/records/create-records.md).
+* Puede cambiar el tamaño de las barras de los registros en la vista de escala de tiempo haciendo clic en y arrastrando y soltando los márgenes en una nueva posición. Al cambiar el tamaño de las barras de los registros, se actualizan inmediatamente las fechas de inicio y finalización. Para obtener más información, consulte [Editar registros](/help/quicksilver/planning/records/edit-records.md).
 
 </div>
-
-<!--move this bullet under the same div as above OR add a span or another div tag?? ??
-
-* You can resize the records' bars in the timeline view by clicking, then dragging and dropping their margins in a new position. Resizing the records' bars updates their start and end dates immediately. For information, see [Edit records](/help/quicksilver/planning/records/edit-records.md).
-
--->
 
 Para administrar una vista de línea de tiempo:
 
