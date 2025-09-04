@@ -7,9 +7,9 @@ feature: Get Started with Workfront
 exl-id: e4d200c6-7f35-4919-96d3-2880a655ed62
 hide: true
 hidefromtoc: true
-source-git-commit: 420ddfa1f12f21332f460f9dc5fd1393cfc6e435
+source-git-commit: 97b2118b1897f75dea0e45758e3d7f7c3409b234
 workflow-type: tm+mt
-source-wordcount: '1822'
+source-wordcount: '1862'
 ht-degree: 2%
 
 ---
@@ -68,14 +68,18 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
 
 Para utilizar Project Health, su organización debe tener habilitado el Asistente para IA.
 
-Para habilitar el Asistente de IA para su organización, debe aplicar lo siguiente:
+Para habilitar el Asistente de IA y el Estado del proyecto para su organización, deben aplicarse todas las siguientes condiciones:
 
 * Su organización debe haber migrado a Adobe IMS (sistema Identity Management).
+* Su organización debe tener un plan Select, Prime o Ultimate Workfront
 * La experiencia unificada de Adobe debe estar habilitada.
 * Adobe debe tener registrado un acuerdo de Adobe Gen AI.
 * El administrador de Workfront debe habilitar el Asistente de IA para los usuarios de su organización. El asistente de IA se habilita mediante niveles de acceso.
+* Las opciones Habilitar IA y Estado del proyecto deben estar seleccionadas en la sección Preferencias de IA en Configuración > Preferencias.
 
-Para obtener más información, consulte [Descripción general del Asistente de IA](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md).
+  ![Sección de preferencias de IA](assets/ai-preferences.png)
+
+Para obtener más información, consulte [Descripción general del asistente de IA](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md) y [Configurar las preferencias del sistema](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md).
 
 ## Lista de peticiones del Asistente de IA
 
@@ -286,7 +290,7 @@ Hay muchas opciones de configuración disponibles para crear un informe de tabla
 
 {{step1-to-dashboards}}
 
-1. En el panel izquierdo, haga clic en **Paneles de lienzo**.
+1. En el panel izquierdo, haga clic en **Paneles de control de lienzo**.
 1. En la esquina superior derecha, haga clic en **Nuevo panel**.
 1. En el cuadro **Crear tablero**, escriba el **Nombre** y la **Descripción** del tablero.
 1. Haga clic en **Crear**.
