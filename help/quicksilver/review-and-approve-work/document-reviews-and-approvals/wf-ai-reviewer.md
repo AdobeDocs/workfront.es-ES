@@ -7,9 +7,9 @@ author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 0f4fd3a7-9578-4fda-b10f-9b4be147f1de
-source-git-commit: 945fa710e98b094a37258d5c94f7b1a2eb056abb
+source-git-commit: e20e26ef11046ed252725f8c5431469642845b52
 workflow-type: tm+mt
-source-wordcount: '620'
+source-wordcount: '638'
 ht-degree: 6%
 
 ---
@@ -51,9 +51,11 @@ El revisor de IA puede revisar los siguientes tipos de archivos:
 * WEBP (.webp)
 * GIF no animado (.gif)
 
+Si carga un tipo de archivo no compatible, la opción AI Reviewer no aparece al crear una aprobación.
+
 ## Configurar directrices de marca
 
-El revisor de IA de Workfront utiliza las directrices de marca configuradas en Genstudio Foundations al revisar el contenido. Actualmente, solo puede configurar directrices de marca para imágenes. Para obtener más información, consulte [Introducción a Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/es/docs/genstudio-for-performance-marketing/user-guide/get-started).
+El revisor de IA de Workfront utiliza las directrices de marca configuradas en Genstudio Foundations al revisar el contenido. Actualmente, solo puede configurar directrices de marca para imágenes. Para obtener más información, consulte [Introducción a Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started).
 
 
 ## Crear revisores de IA

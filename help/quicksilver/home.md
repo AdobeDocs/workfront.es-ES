@@ -3,10 +3,10 @@ title: Documentación de [!DNL Adobe Workfront]
 description: Documentación sobre  [!DNL Adobe Workfront].
 feature: Get Started with Workfront
 exl-id: 337efdc8-ee1e-4223-a211-2cb1dcecfafa
-source-git-commit: 4558180667d3812f3b4089b7d599158327a683bf
+source-git-commit: 0a90da6978fc9b380d237dab74af1f14eabb857a
 workflow-type: tm+mt
-source-wordcount: '410'
-ht-degree: 86%
+source-wordcount: '426'
+ht-degree: 83%
 
 ---
 
@@ -47,11 +47,11 @@ Le damos la bienvenida a la página de inicio y a la documentación técnica de 
 
 >[!TAB Versiones beta]
 
-* [Información general sobre paneles de lienzo](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/canvas-dashboards-overview.md)
+* [Información general sobre paneles de control de lienzo](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/canvas-dashboards-overview.md)
 
 >[!TAB Problemas conocidos]
 
-* [Problemas conocidos](https://experienceleague.adobe.com/es/docs/workfront-known-issues/issues/overview)
+* [Problemas conocidos](https://experienceleague.adobe.com/en/docs/workfront-known-issues/issues/overview)
 
 
 >[!ENDTABS]
@@ -70,7 +70,8 @@ Le damos la bienvenida a la página de inicio y a la documentación técnica de 
     <td>
     <ul>
     <li><a href="/help/quicksilver/administration-and-setup/get-started-wf-administration/get-started-with-wf-administration.md">Introducción a la administración de Workfront</a></li>
-    <li><a href="https://experienceleague.adobe.com/es/docs/workfront-fusion/using/get-started-with-fusion/get-started-fusion-toc">Introducción a Workfront Fusion</li>
+    <li><a href="https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/get-started-fusion-toc">Introducción a Workfront Fusion</li>
+    <li><a href="/help/quicksilver/app-builder/install-apps-on-exchange.md">Adquirir e instalar aplicaciones desde Adobe Exchange</a></li>
     </ul>
  </td>
     <td>
@@ -91,6 +92,7 @@ Le damos la bienvenida a la página de inicio y a la documentación técnica de 
         <li><a href="/help/quicksilver/wf-api/general/api-basics.md">Conceptos básicos de API</a></li>
         <li><a href="https://developer.adobe.com/workfront/api-explorer/">Explorador de API</a></li>
         <li><a href="/help/quicksilver/workfront-integrations-and-apps/workfront-integrations.md">Integraciones de Workfront</a></li>
+        <li><a href="/help/quicksilver/app-builder/app-builder.md">Creación de aplicaciones personalizadas para Workfront con Adobe App Builder</a></li>
         </ul></td>
   </tr>
 </table>
@@ -108,9 +110,9 @@ La búsqueda de documentación puede ser más eficaz con algunos enfoques estrat
 
 ### Exploración de las secciones de aprendizaje y formación
 
-* **Materiales de formación**: vaya a la página [Formación de Workfront](https://experienceleague.adobe.com/es/browse/workfront) para consultar la biblioteca de vídeos y artículos de formación diseñados para ayudarle a comprender mejor las características y la configuración de Workfront. También puede acceder a materiales de aprendizaje de pago en [learning.adobe.com](https://learning.adobe.com/).
-* **Cursos**: encuentre [cursos de aprendizaje estructurados](https://experienceleague.adobe.com/home?lang=es&Solution=Workfront#courses) que le guíen a través del uso de varias características de Workfront en una secuencia lógica.
+* **Materiales de formación**: vaya a la página [Formación de Workfront](https://experienceleague.adobe.com/en/browse/workfront) para consultar la biblioteca de vídeos y artículos de formación diseñados para ayudarle a comprender mejor las características y la configuración de Workfront. También puede acceder a materiales de aprendizaje de pago en [learning.adobe.com](https://learning.adobe.com/).
+* **Cursos**: encuentre [cursos de aprendizaje estructurados](https://experienceleague.adobe.com/home?Solution=Workfront#courses) que le guíen a través del uso de varias características de Workfront en una secuencia lógica.
 
 ### Encontrar respuestas en los foros de la comunidad
 
-* **Formulación de preguntas**: si la documentación no responde a su pregunta, pruebe a publicar en los [foros de la comunidad de Workfront](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront?profile.language=es), donde otros usuarios y expertos pueden ofrecerle ayuda.
+* **Formulación de preguntas**: si la documentación no responde a su pregunta, pruebe a publicar en los [foros de la comunidad de Workfront](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront?profile.language=en), donde otros usuarios y expertos pueden ofrecerle ayuda.
