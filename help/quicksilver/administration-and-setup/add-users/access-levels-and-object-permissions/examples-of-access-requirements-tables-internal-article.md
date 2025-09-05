@@ -4,10 +4,10 @@ description: Este es un artículo interno para que nuestro equipo mantenga un in
 author: Alina
 hide: true
 hidefromtoc: true
-source-git-commit: a00776ecd9f8dc14b9dce14ce9463c2bb709a363
+source-git-commit: 4745b93e02c9de087afbee752e0303280e52d688
 workflow-type: tm+mt
-source-wordcount: '1063'
-ht-degree: 36%
+source-wordcount: '1071'
+ht-degree: 35%
 
 ---
 
@@ -406,6 +406,8 @@ Expanda para ver los requisitos de acceso para la funcionalidad en este artícul
 
 Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
+## Requisitos de acceso para la automatización e integración de Adobe Workfront
+
 <p>Basado en conectores (heredado): Workfront Fusion para la automatización e integración del trabajo </p>
    </td> 
   </tr> 
@@ -418,9 +420,10 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
  </tbody> 
 </table>
 
-Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación](https://experienceleague.adobe.com/es/docs/workfront-fusion/using/references/licenses-and-roles/access-level-requirements-in-documentation).
+Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/licenses-and-roles/access-level-requirements-in-documentation).
 
-Para obtener información sobre las licencias de Adobe Workfront Fusion, consulte [licencias de Adobe Workfront Fusion](https://experienceleague.adobe.com/es/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration).
+
+Para obtener información sobre las licencias de Adobe Workfront Fusion, consulte [licencias de Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration).
 
 ## Controles empresariales avanzados
 
