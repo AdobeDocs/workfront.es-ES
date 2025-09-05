@@ -5,10 +5,10 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 298473d4-7d7d-4401-80bf-899a01f570a6
-source-git-commit: 7eef99ed854beb8b737238ff9c08313e057ef5ac
+source-git-commit: 8eba03938e4e6e97afd2bc4b3a65db1c39d16b8c
 workflow-type: tm+mt
-source-wordcount: '1951'
-ht-degree: 18%
+source-wordcount: '1952'
+ht-degree: 17%
 
 ---
 
@@ -32,7 +32,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
 >|----|----|
 >| <ul><li>25.8 (14 de agosto de 2025)</li><li>25.9 (11 de septiembre de 2025)</li><li>25.10 (16 de octubre de 2025)</li></ul> | <ul><li>25.10 (16 de octubre de 2025)</li></ul> |
 >
->Tenga en cuenta que, para la versión final de cada trimestre (25.10 este trimestre), los usuarios de la programación de versiones rápidas recibirán la versión un día antes.
+>Tenga en cuenta que, para la versión final de cada trimestre (25.10 este trimestre), los usuarios con la programación de versiones rápidas recibirán la versión un día antes (15 de octubre de 2025).
 >
 >Para obtener más información sobre el proceso de versiones rápidas, consulte [Habilitar o deshabilitar el proceso de versiones rápidas](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
 
@@ -420,7 +420,7 @@ Para ofrecer integraciones más estables y escalables, estamos adoptando un enfo
 * Workfront para Salesforce.
 
 Recomendamos utilizar la automatización e integración de Workfront para las necesidades de integración de su organización con Google Workspace.
-Para obtener una descripción general de la automatización e integración de Workfront, consulte [Información general de Adobe Workfront Fusion](https://experienceleague.adobe.com/es/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+Para obtener una descripción general de la automatización e integración de Workfront, consulte [Información general de Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 
 ### Versión 20 de la API
 
