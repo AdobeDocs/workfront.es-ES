@@ -42,7 +42,7 @@ Para obtener información general acerca de la integración de GenStudio con Wor
 >[!IMPORTANT]
 >
 >Los pasos descritos en este artículo ilustran cómo se puede actualizar el espacio de trabajo de GenStudio desde Workfront Planning cuando se tiene permisos de administración.
->> No todas las funciones están disponibles si tiene permisos de contribución en el espacio de trabajo de GenStudio.
+>&#x200B;> No todas las funciones están disponibles si tiene permisos de contribución en el espacio de trabajo de GenStudio.
 >
 >Si su empresa tiene varias instancias de Workfront, todos los usuarios obtienen permisos de contribución en el espacio de trabajo de GenStudio en Workfront Planning.
 
