@@ -5,9 +5,9 @@ description: Como parte del caso empresarial, puede crear un conjunto de metas p
 author: Alina
 feature: Work Management
 exl-id: c5f4c095-ea21-4205-a747-e8923de7030f
-source-git-commit: 14b6b9c4a184131cfdc33b6156c578218ed9119a
+source-git-commit: 724c507dd5ee09b3364fc2037380a8cb18be08f2
 workflow-type: tm+mt
-source-wordcount: '441'
+source-wordcount: '445'
 ht-degree: 53%
 
 ---
@@ -81,9 +81,10 @@ Tenga en cuenta lo siguiente al crear metas de caso empresarial para sus proyect
 {{step1-to-projects}}
 
 1. En la lista de proyectos, seleccione el proyecto para el que desea definir los objetivos del caso empresarial.
+
 1. En el panel izquierdo, haga clic en **Caso comercial**. Se muestra la sección **Caso comercial**.
 
-   <!--![Business case info](assets/business-case-page-info-goals-expenses-nwe-350x123.png)-->
+   ![Información de caso comercial](assets/business-case-info.png)
 
 1. En la sección **Metas**, haga clic en **Editar metas**.
 
@@ -97,11 +98,11 @@ Tenga en cuenta lo siguiente al crear metas de caso empresarial para sus proyect
    * Bajo
    * Mínimo
 
-     <!--![Importance](assets/g1-350x76.png)-->
+   ![Importancia](assets/goals-section.png)
 
-     >[!NOTE]
-     >
-     >No se pueden personalizar los niveles de importancia de los objetivos.
+   >[!NOTE]
+   >
+   >No se pueden personalizar los niveles de importancia de los objetivos.
 
 1. (Opcional) Para agregar otra meta, haga clic en **Agregar otra meta** y repita los pasos del 5 al 6.
 

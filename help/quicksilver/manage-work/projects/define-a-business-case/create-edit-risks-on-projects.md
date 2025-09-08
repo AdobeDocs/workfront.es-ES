@@ -6,10 +6,10 @@ description: Los riesgos son eventos posibles o factores que impiden que un proy
 author: Alina
 feature: Work Management
 exl-id: 6125c477-c0d8-43b4-88d8-35b0c2412468
-source-git-commit: 14b6b9c4a184131cfdc33b6156c578218ed9119a
+source-git-commit: 724c507dd5ee09b3364fc2037380a8cb18be08f2
 workflow-type: tm+mt
-source-wordcount: '1107'
-ht-degree: 62%
+source-wordcount: '1103'
+ht-degree: 53%
 
 ---
 
@@ -37,7 +37,7 @@ Los riesgos pueden estar asociados con el coste, pero el coste de riesgos real n
 
 Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
-+++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -86,18 +86,18 @@ Para crear o editar un riesgo en el caso empresarial:
 1. En la sección **Riesgos**, haga clic en **Editar riesgos**.
 1. Introduzca o edite la siguiente información:
 
-   * **Descripción:** describa el riesgo.
+   * **Descripción:** Describa el riesgo.
 
-   * **Coste potencial**: indique el coste estimado en caso de producirse el riesgo.
+   * **Costo potencial**: Especifique el costo estimado si se presenta el riesgo.
 
-   * **Probabilidad**: indique la probabilidad de que el riesgo se manifieste como un valor porcentual.
+   * **Probabilidad**: escriba la probabilidad de que el riesgo ocurra como un valor porcentual.
 
-   * **Tipo**: indique a qué categoría pertenece el riesgo.
+   * **Tipo:** Seleccione en qué categoría se encuentra el riesgo.
    * **Plan de mitigación**: actualice la descripción del plan para mitigar el riesgo.
 
-   * **Coste de mitigación**: indique el coste del plan de mitigación que se debe establecer para evitar que se produzca el riesgo.
+   * **Costo de mitigación**: escriba el costo del plan de mitigación que debe establecer para evitar que se produzca el riesgo.
 
-   <!--![Risks](assets/crp1-350x117.png)-->
+   ![Riesgos](assets/edit-risk.png)
 
 1. (Opcional) Haga clic en **Añadir otro riesgo** para añadir riesgos adicionales.
 1. Haga clic en **Guardar**.
@@ -115,13 +115,11 @@ Puede crear y editar riesgos en la sección Riesgos de un proyecto o una plantil
 
    ![Sección Riesgos de la tarea](assets/risks-section-on-project-2022.png)
 
-1. Haga clic en **Comenzar a agregar riesgos** y cree riesgos editando en línea su información. **Descripción** es un campo obligatorio
+1. Haga clic en **Comenzar a añadir riesgos** y cree riesgos editando en línea la información.
 
    O
 
-   Haga clic en **Nuevo riesgo**.
-
-   Se abre el cuadro **Nuevo riesgo**.
+   Haga clic en **Nuevo riesgo** para abrir el cuadro **Nuevo riesgo**.
 
    ![Nuevo cuadro de riesgo](assets/new-risk-box.png)
 
@@ -149,9 +147,9 @@ Puede crear y editar riesgos en la sección Riesgos de un proyecto o una plantil
 
 ### Edición de riesgos en el área Riesgos {#edit-risks-in-the-risks-area}
 
-Es posible editar los riesgos durante la duración de un proyecto. Por ejemplo: al producirse cambios en la probabilidad, coste potencial o estado.
+Puede editar los riesgos durante la duración de un proyecto o cuando se produzcan cambios (por ejemplo, un cambio en su probabilidad, coste potencial o estado).
 
-Edite los riesgos de uno en uno o varios de forma masiva.
+Puede editar un riesgo a la vez o editar varios riesgos de forma masiva.
 
 Para editar riesgos:
 
@@ -172,7 +170,7 @@ Para editar riesgos:
    Considere la posibilidad de editar los campos siguientes:
 
    * **Descripción**: edite la descripción del riesgo.
-   * **Tipo de riesgo**: indique en qué categoría se encuentra el riesgo.
+   * **Tipo de riesgo**: Actualice en qué categoría se encuentra el riesgo.
    * **Probabilidad**: indique la probabilidad de que el riesgo se presente como un valor porcentual.
    * **Costo potencial**: Indique el costo estimado si el riesgo se presenta.
    * **Costo de mitigación**: indique el costo del plan de mitigación que debe establecer para evitar que se produzca el riesgo.

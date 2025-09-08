@@ -5,9 +5,9 @@ description: Una vez completado y enviado el caso empresarial para una solicitud
 author: Alina
 feature: Work Management
 exl-id: 60abb054-5cb0-4dd6-9091-c9dcd635a630
-source-git-commit: 14b6b9c4a184131cfdc33b6156c578218ed9119a
+source-git-commit: 724c507dd5ee09b3364fc2037380a8cb18be08f2
 workflow-type: tm+mt
-source-wordcount: '692'
+source-wordcount: '690'
 ht-degree: 17%
 
 ---
@@ -80,15 +80,15 @@ Para generar un informe para los proyectos que están pendientes de la aprobaci�
 
 1. Seleccione la ficha **Ver** del informe y, a continuación, haga clic en **Agregar columna**.
 
-1. Empiece a escribir &quot;Estado&quot; en el campo **Mostrar en esta columna** y seleccione este campo cuando aparezca en la lista.
+1. Empiece a escribir *Status* en el campo **Mostrar en esta columna** y seleccione este campo cuando aparezca en la lista.
 
    Esta columna muestra el estado de los proyectos.
 
 1. Seleccione la ficha **Filtros** del informe y, a continuación, haga clic en **Agregar una regla de filtro**.
 
-1. Empiece a escribir &quot;Estado&quot; en **Mostrar solo los proyectos en los que el campo ...** y selecciónelo cuando aparezca en la lista.
+1. Empiece a escribir *Status* en **Mostrar solo los proyectos en los que el campo ...** y selecciónelo cuando aparezca en la lista.
 1. Seleccione **Equal** para el modificador de filtro.
-1. Empiece a escribir &quot;Solicitado&quot; en el campo disponible.
+1. Empiece a escribir *Solicitado* en el campo disponible.
 
    Esto garantiza que el informe incluya solo los proyectos que están en el estado Solicitado.
 
@@ -126,15 +126,15 @@ Para generar un informe para los proyectos que están pendientes de la aprobaci�
 1. Haga clic en **Caso empresarial** en el panel de la izquierda.
 1. Haga clic en **Aprobar** o **Rechazar** en el área Resumen de caso comercial para aprobar o rechazar el caso comercial.
 
-   &lt;!—![Caso comercial](assets/business-case-summary-with-rp-information--1-.png)—>
+<!-- ![Business case](assets/business-case-summary-with-rp-information--1-.png) -->
 
-   El estado del proyecto cambia a **Aprobado** si se aprueba el caso comercial.
+El estado del proyecto cambia a **Aprobado** si se aprueba el caso comercial.
 
-   El estado del proyecto se cambia a **Rechazado** si se rechaza el caso empresarial.
+El estado del proyecto se cambia a **Rechazado** si se rechaza el caso empresarial.
 
-   >[!NOTE]
-   >
-   >No hay notificaciones que avisen al usuario que envió la aprobación del caso empresarial sobre si su solicitud de proyecto se aprobó o rechazó.
+>[!NOTE]
+>
+>No hay notificaciones que avisen al usuario que envió la aprobación del caso empresarial sobre si su solicitud de proyecto se aprobó o rechazó.
 
 ## Aprobar el caso empresarial accediendo a los proyectos solicitados en un portafolio
 

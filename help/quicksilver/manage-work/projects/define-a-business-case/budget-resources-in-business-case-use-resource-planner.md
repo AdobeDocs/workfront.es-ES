@@ -5,9 +5,9 @@ description: Como parte de la planificación de recursos, puede utilizar el Plan
 author: Alina
 feature: Work Management
 exl-id: 51ebb940-111c-442f-a8a6-287a04d2db68
-source-git-commit: 14b6b9c4a184131cfdc33b6156c578218ed9119a
+source-git-commit: 724c507dd5ee09b3364fc2037380a8cb18be08f2
 workflow-type: tm+mt
-source-wordcount: '1229'
+source-wordcount: '1224'
 ht-degree: 14%
 
 ---
@@ -28,7 +28,7 @@ También puede presupuestar recursos en el caso empresarial mediante Adobe Workf
 
 ## Requisitos de acceso
 
-+++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -106,13 +106,13 @@ Para aplicar conjuntos de recursos y presupuestar recursos de proyecto en el cas
 
 1. (Opcional y condicional) Si la información del proyecto se ha publicado a partir de una iniciativa en el Scenario Planner, realice una de las siguientes acciones:
 
-   * Seleccione Planificador de recursos en el campo **Elija qué horas usar para calcular el costo de mano de obra presupuestado del proyecto** y luego haga clic en **Elegir > Editar presupuesto de recursos**.
+   * Seleccione Planificador de recursos en el campo **Elija qué horas usar para calcular el costo de mano de obra presupuestado del proyecto** y luego haga clic en **Elegir** > **Editar presupuesto de recursos**.
 
-     <!--![Business case in Resource Planner](assets/business-case-rp-selected-with-choose-button-350x120.png)-->
+   <!-- ![Business case in Resource Planner](assets/business-case-rp-selected-with-choose-button-350x120.png)-->
 
    * Si se seleccionó el Planificador de escenarios para presupuestar recursos para el proyecto, haga clic en **Cambiar** > **Editar presupuesto de recursos**.
 
-     <!--![Business case in Scenario Planner](assets/business-case-sp-selected-change-option-to-switch-to-rp-highlighted-350x88.png)-->
+     <!-- ![Business case in Scenario Planner](assets/business-case-sp-selected-change-option-to-switch-to-rp-highlighted-350x88.png)-->
 
    Utiliza las horas presupuestadas del proyecto para calcular el costo de mano de obra presupuestado del proyecto.
 
@@ -156,9 +156,9 @@ Para aplicar conjuntos de recursos y presupuestar recursos de proyecto en el cas
 
     
 
-1. Haga clic en **Hoy** para regresar al lapso de tiempo de hoy.
-1. (Opcional) Haga clic en **Semana**, **Mes** o **Trimestre** para mostrar información del proyecto en diferentes lapsos de tiempo.
-1. (Opcional) Haga clic en el menú desplegable **Horas** y seleccione **Horas**,**ETC** o **Costo** para cambiar la forma en que se muestra la información en el Planificador de recursos. Las horas se muestran de forma predeterminada.
+1. Haga clic en **Hoy** para regresar al periodo de tiempo de hoy.
+1. (Opcional) Haga clic en **Semana**, **Mes** o **Trimestre** para mostrar información del proyecto en diferentes periodos de tiempo.
+1. (Opcional) Haga clic en el menú desplegable **Horas** y seleccione **Horas**, **ETC** o **Costo** para cambiar la forma en que se muestra la información en el Planificador de recursos. Las horas se muestran de forma predeterminada.
 
 1. (Opcional) Haga clic en **Exportar** para exportar el Planificador de recursos a un archivo de Excel.
 
@@ -172,7 +172,7 @@ Para aplicar conjuntos de recursos y presupuestar recursos de proyecto en el cas
 
    * Calcule manualmente la cantidad de horas, los valores de ETC o de costo para los roles, los usuarios o el proyecto.
 
-     O
+     o
 
    * Haga clic en el icono **Opciones** del proyecto o de los roles y seleccione una opción para presupuestar automáticamente las horas de los roles, los usuarios o el proyecto.
 
@@ -180,9 +180,9 @@ Para aplicar conjuntos de recursos y presupuestar recursos de proyecto en el cas
 
    >[!NOTE]
    >
-   >Puede presupuestar horas, ETC o costos para sus recursos para cualquier lapso de tiempo mostrado en el área de Presupuestación de recursos, independientemente de la cronología del proyecto. Por ejemplo, si desea indicar que los recursos podrían no estar disponibles durante la escala de tiempo del proyecto (cuando estén asociados con horas planificadas), pero podrían estar disponibles durante otro período, puede presupuestarlos para períodos de tiempo en los que las horas planificadas sean cero, si es entonces cuando estarán disponibles para trabajar.
+   >Puede presupuestar horas, ETC o costos para sus recursos para cualquier periodo de tiempo mostrado en el área de Presupuestación de recursos, independientemente de la cronología del proyecto. Por ejemplo, si desea indicar que los recursos podrían no estar disponibles durante la escala de tiempo del proyecto (cuando estén asociados con horas planificadas), pero podrían estar disponibles durante otro período, puede presupuestarlos para períodos de tiempo en los que las horas planificadas sean cero, si es entonces cuando estarán disponibles para trabajar.
 
-1. (Opcional) Para saber si puede mover las horas, los jornadas completas o los costos presupuestados a otro lapso de tiempo, haga clic en el icono **Opciones** y después en **Ajustar fechas de presupuesto**.
+1. (Opcional) Para saber si puede mover las horas, los jornadas completas o los costos presupuestados a otro periodo de tiempo, haga clic en el icono **Opciones** y, a continuación, en **Ajustar fechas de presupuesto**.
 
    Para obtener más información acerca del ajuste de fechas presupuestadas, vea [Ajustar fechas de presupuesto en el Planificador de recursos](../../../resource-mgmt/resource-planning/adjust-budgeting-dates.md).
 

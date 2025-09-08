@@ -5,10 +5,10 @@ description: Los formularios personalizados se utilizan para recopilar informaci
 author: Alina
 feature: Work Management
 exl-id: f781fd00-968c-4e5d-b82c-a74acedb2734
-source-git-commit: 14b6b9c4a184131cfdc33b6156c578218ed9119a
+source-git-commit: 724c507dd5ee09b3364fc2037380a8cb18be08f2
 workflow-type: tm+mt
-source-wordcount: '327'
-ht-degree: 92%
+source-wordcount: '332'
+ht-degree: 67%
 
 ---
 
@@ -70,19 +70,19 @@ Para obtener información para adjuntar formularios personalizados a objetos, co
 
 ## Adjuntar formularios personalizados al caso empresarial
 
-Para añadir un formulario personalizado a un caso empresarial, el administrador de Workfront debe seleccionar esta opción en Configuración. Para obtener más información sobre la habilitación de los formularios personalizados en la configuración, consulte la sección [Configurar las preferencias del proyecto de todo el sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) en el artículo [Configurar las preferencias del proyecto de todo el sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+Para añadir un formulario personalizado a un caso empresarial, el administrador de Workfront debe seleccionar esta opción en Configuración. Para obtener más información sobre cómo habilitar formularios personalizados en la configuración, consulte [Configurar las preferencias de proyecto en todo el sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
 Para adjuntar un formulario personalizado:
 
-1. Vaya al proyecto al que desea adjuntar el formulario y, a continuación, haga clic en **Caso empresarial** en el panel izquierdo.
+1. Vaya al proyecto al que desee adjuntar el formulario y, a continuación, haga clic en **Caso comercial** en el panel izquierdo. Se muestra el caso empresarial.
 
-   Se muestra el caso empresarial.
+1. En la sección **Formulario personalizado**, seleccione el formulario personalizado que desee adjuntar en el menú desplegable. El formulario personalizado aparece en la sección **Formularios agregados** a continuación.
 
-1. En la sección **Formulario personalizado**, seleccione el formulario personalizado que desea adjuntar en el menú desplegable.
+1. (Opcional) Para expandir los detalles del formulario personalizado, haga clic en la flecha a la izquierda del nombre del formulario personalizado.
 
-   <!--![Custom forms dropdown](assets/custom-forms-drop-down-menu.png)-->
+   ![Expandir detalles del formulario personalizado](assets/expand-custom-form-details.png)
 
-1. (Opcional) Seleccione **Editar formulario personalizado**.\
-   <!--![Edit custom form](assets/acf1-350x122.png)-->
+<!--1. (Optional) Select&nbsp;**Edit Custom Form**.  
+  ![Edit custom form](assets/acf1-350x122.png)
 
-1. (Opcional) Especifique la información en los campos del formulario personalizado y, a continuación, haga clic en **Guardar**
+1. (Optional) Specify information in the fields of the custom form, then click&nbsp;**Save** . -->
