@@ -4,10 +4,10 @@ description: Este es un artículo interno para que nuestro equipo mantenga un in
 author: Alina
 hide: true
 hidefromtoc: true
-source-git-commit: 4745b93e02c9de087afbee752e0303280e52d688
+source-git-commit: 12b7638472b2138896a283283d368b4092a1e67b
 workflow-type: tm+mt
-source-wordcount: '1071'
-ht-degree: 35%
+source-wordcount: '1138'
+ht-degree: 38%
 
 ---
 
@@ -420,10 +420,10 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
  </tbody> 
 </table>
 
-Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación](https://experienceleague.adobe.com/es/docs/workfront-fusion/using/references/licenses-and-roles/access-level-requirements-in-documentation).
+Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/licenses-and-roles/access-level-requirements-in-documentation).
 
 
-Para obtener información sobre las licencias de Adobe Workfront Fusion, consulte [licencias de Adobe Workfront Fusion](https://experienceleague.adobe.com/es/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration).
+Para obtener información sobre las licencias de Adobe Workfront Fusion, consulte [licencias de Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration).
 
 ## Controles empresariales avanzados
 
@@ -450,3 +450,37 @@ Controles empresariales avanzados:
 * Asignar administradores de grupo en subgrupos
 * Permitir que los administradores de grupo creen subgrupos
 
+## Requisitos de acceso para revisión
+
+## Requisitos de acceso
+
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td> <p>Cualquiera</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Licencia de Adobe Workfront*</td> 
+   <td>  <p>Estándar</p>
+   <p>Trabajo o plan</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Perfil de permiso de prueba </td> 
+   <td>Administrador o superior</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Función de prueba</td> 
+   <td>Revisor, Revisor y aprobador, Moderador, Autor</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Configuraciones de nivel de acceso*</td> 
+   <td> <p>Acceso de edición a documentos</p> <p>Para obtener información sobre cómo solicitar acceso adicional, consulte <a href="../../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a los objetos </a>.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+&#42;Para saber qué plan, función o perfil de permiso de revisión tiene, póngase en contacto con su administrador de Workfront o de Workfront Proof.
