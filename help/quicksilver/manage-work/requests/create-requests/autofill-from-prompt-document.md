@@ -5,10 +5,10 @@ description: Puede utilizar IA para rellenar automáticamente los campos de soli
 author: Becky
 feature: Get Started with Workfront
 exl-id: 4a22f9ea-c9ee-4947-8683-9989c54903b1
-source-git-commit: b8c29ecb30dda449bc604f585a06b5a6663994f9
+source-git-commit: 3351a928ba20d1509f99a63c98b3e106c58fb43f
 workflow-type: tm+mt
-source-wordcount: '1144'
-ht-degree: 11%
+source-wordcount: '1336'
+ht-degree: 10%
 
 ---
 
@@ -121,41 +121,54 @@ Para utilizar sugerencias basadas en un mensaje de texto pegado:
 
 Estos ejemplos muestran solicitudes de varias formas en las que la IA puede hacer referencia a otros proyectos.
 
-* Referencia a una campaña de clientes anterior
+#### Referencia a una campaña de clientes anterior
 
-  ```
-  Create a similar campaign request as we did for (Client Company)'s Q2 launch, but this time for their Automotive division. Keep the same deliverable set and audience profile.
-  ```
+>[!BEGINSHADEBOX]
 
-* Creación de un proyecto existente
+Cree una solicitud de campaña similar a la que hicimos para el lanzamiento del segundo trimestre de (Client Company), pero esta vez para su división de Automoción. Mantenga el mismo conjunto de entregables y perfil de audiencia.
 
-  ```
-  Use the same setup we had in the (Client Company) project kickoff last spring. I want to run a digital ad campaign targeting the same executive audience, but with updated dates for this quarter.
-  ```
+>[!ENDSHADEBOX]
 
-* Reutilización de un estilo de un resultado anterior
+#### Creación de un proyecto existente
 
-  ```
-  Prepare a request similar to the (Client Company) summer promotion campaign we ran last year. Focus on social media assets, keep Spanish as the primary language, and adjust the budget to $75,000.
-  ```
+>[!BEGINSHADEBOX]
 
-* Ampliación de un tipo de campaña anterior
+Utilice la misma configuración que tuvimos en el lanzamiento del proyecto (Compañía del cliente) la primavera pasada. Quiero ejecutar una campaña de publicidad digital dirigida a la misma audiencia ejecutiva, pero con fechas actualizadas para este trimestre.
 
-  ```
-  Take the (Client Company) webinar series campaign from Q1 as a reference. I want the same registration workflow and assets, but this time the topic is 'AI in Financial Planning' and the audience is young professionals.
-  ```
+>[!ENDSHADEBOX]
 
-* Repetición de una solicitud para un producto diferente
+#### Reutilización de un estilo de un resultado anterior
 
-  ```
-  Set up a campaign request just like the (Client Company) rebranding project we handled, but replace with (New Client Company) as the client. Keep all deliverables aligned to corporate branding.
-  ```
+>[!BEGINSHADEBOX]
 
-* Estilo narrativo con referencias implícitas
+Prepare una solicitud similar a la campaña de promoción de verano de (Compañía del cliente) que ejecutamos el año pasado. Céntrese en los activos de las redes sociales, mantenga el español como idioma principal y ajuste el presupuesto a $75,000.
 
-  ```
-  We're planning a campaign similar to the holiday social ads we ran last year. Budget should be about 50k, goal is lead generation, and deliverables should include Instagram and TikTok assets.
-  ```
+>[!ENDSHADEBOX]
+
+#### Ampliación de un tipo de campaña anterior
+
+>[!BEGINSHADEBOX]
+
+Tome como referencia la campaña de la serie de seminarios web (Compañía del cliente) del primer trimestre. Quiero el mismo flujo de trabajo de registro y activos, pero esta vez el tema es &quot;IA en la planificación financiera&quot; y la audiencia son profesionales jóvenes.
+
+>[!ENDSHADEBOX]
+
+#### Repetición de una solicitud para un producto diferente
+
+>[!BEGINSHADEBOX]
+
+Configure una solicitud de campaña como el proyecto de cambio de marca (Compañía del cliente) que gestionamos, pero reemplace por (Nueva compañía del cliente) como cliente. Mantenga todos los entregables alineados con la marca corporativa.
+
+>[!ENDSHADEBOX]
+
+#### Estilo narrativo con referencias implícitas
+
+>[!BEGINSHADEBOX]
+
+Estamos planeando una campaña similar a los anuncios sociales de las fiestas que publicamos el año pasado. El presupuesto debe ser de unos 50 000, el objetivo es la generación de posibles clientes y las entregas deben incluir recursos de Instagram y TikTok.
+
+>[!ENDSHADEBOX]
+
 
 ## Obtener sugerencias basadas en un documento que cargue
 
