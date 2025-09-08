@@ -6,7 +6,7 @@ description: Puede asignar elementos de trabajo mediante el Distribuidor de carg
 author: Lisa
 feature: Resource Management
 exl-id: caffcde8-3953-44a4-b945-76f2de84f4c6
-source-git-commit: 69ac06c36440d9fbbf0c8c9f3e019374da2e2f91
+source-git-commit: bf1a8e4384360554c6245b455650f30976e82ce1
 workflow-type: tm+mt
 source-wordcount: '991'
 ht-degree: 69%
@@ -23,7 +23,7 @@ Para obtener información general acerca de cómo asignar trabajo a los usuarios
 
 ## Requisitos de acceso
 
-+++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo. 
 
 Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
@@ -95,7 +95,7 @@ Puede asignar a un usuario un elemento desde el área Trabajo sin asignar o reas
    >* La opción Mostrar todos los usuarios solo está disponible en el Distribuidor de cargas de trabajo de un proyecto.
    >* Utilice los filtros para mostrar solo los usuarios que le resultan importantes. Por ejemplo, utilice un filtro para mostrar solo los usuarios de sus equipos o grupos.
 
-1. Haga clic en la barra de un elemento de trabajo <span class="preview">o de una asignación de rol</span> que indique la escala de tiempo planeada o proyectada y arrástrela sobre el nombre de un usuario en el área **Asignado**.
+1. Haga clic en la barra de un elemento de trabajo <span class="preview">o de una asignación de rol</span> que indique la escala de tiempo planeada o proyectada y arrástrela sobre las horas de un usuario en el área **Asignado**.
 
    El usuario por encima del cual pasa el puntero para soltar el elemento de trabajo queda resaltado.
 
