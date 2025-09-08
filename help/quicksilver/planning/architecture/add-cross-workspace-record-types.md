@@ -4,10 +4,10 @@ description: Los tipos de registro son los tipos de objetos de Adobe Workfront P
 hidefromtoc: true
 hide: true
 exl-id: b977d5dd-8975-42c4-9968-a7ac357972e6
-source-git-commit: 976810c8cedc5d3c5afd8333fdbace4fe8d0ccda
+source-git-commit: 9b95b5a52576327a3df8d6955925b96c2e45848f
 workflow-type: tm+mt
-source-wordcount: '584'
-ht-degree: 9%
+source-wordcount: '651'
+ht-degree: 6%
 
 ---
 
@@ -33,6 +33,8 @@ Puede designar un tipo de registro como centralizado al crearlo o editarlo, al d
 
 Para obtener más información, vea [Configurar las capacidades entre espacios de trabajo para los tipos de registro](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md).
 
+Antes de agregar registros a un área de trabajo desde un tipo de registro centralizado, vea el artículo [Información general sobre los tipos de registros centralizados](/help/quicksilver/planning/architecture/centralized-record-types-overview.md).
+
 ## Requisitos de acceso
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
@@ -48,7 +50,7 @@ Para obtener más información, vea [Configurar las capacidades entre espacios d
 
 </tr>   
 <tr> 
-   <td role="rowheader"><p>Paquete Adobe Workfront*</p></td> 
+   <td role="rowheader"><p>paquete de Adobe Workfront</p></td> 
    <td> 
 <ul><li><p>Cualquier paquete de Workfront</p></li>
 Y
@@ -73,24 +75,9 @@ Y
 </tbody> 
 </table>
 
-*Para obtener más información sobre los requisitos de acceso de Workfront, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información acerca de los requisitos de acceso de Workfront, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++   
-
-## Descripción general de los tipos de registros centralizados
-
-Consideraciones al agregar tipos de registros existentes desde otro espacio de trabajo
-
-* Cuando no hay ningún tipo de registro configurado para añadirse a otro espacio de trabajo, no se muestra la opción de importarlo desde otro espacio de trabajo al crear un tipo de registro. <!--add this a tip in the steps below, and/ or add a Conditional step that this is possible only when these record types are first enabled-->
-* Después de agregar el tipo de registro desde otro espacio de trabajo, también se agrega la siguiente información desde el tipo de registro existente:
-
-   * Campos
-   * Registrar conexiones
-
-* Solo se pueden ver los registros añadidos desde otros espacios de trabajo si se dispone de permisos para dichos espacios de trabajo.
-
-* Sólo puede editar el tipo de registro, incluidos sus campos, en su espacio de trabajo original. No puede editarlo desde los espacios de trabajo en los que se añadió.
-* Los registros añadidos desde todos los espacios de trabajo serán visibles para todos los usuarios que accedan a ellos desde todos los espacios de trabajo, incluso si se crean en un espacio de trabajo en el que no tienen permisos.
 
 ## Crear un tipo de registro a partir de un tipo de registro existente
 
@@ -101,21 +88,41 @@ Consideraciones al agregar tipos de registros existentes desde otro espacio de t
 1. Haga clic en **Continuar**.
 1. En el cuadro **Elegir tipo de registro**, haga clic en la tarjeta del tipo de registro que desee agregar desde un área de trabajo existente y, a continuación, haga clic en **Agregar**.
 
-   El tipo de registro se añade al espacio de trabajo seleccionado y se producen las siguientes situaciones:
+   El tipo de registro se añade al espacio de trabajo seleccionado.
 
-   * El icono **tipo de registro entre espacios de trabajo** ![icono de conexión entre espacios de trabajo](assets/global-icon.png) se agrega a la tarjeta del tipo de registro importado.
-   * El campo **Workspace** de solo lectura se agrega al tipo de registro importado. El campo muestra en qué espacio de trabajo se creó cada registro.
+   >[!TIP]
+   >
+   >Cuando no hay ningún tipo de registro configurado para añadirse a otro espacio de trabajo, no se muestra la opción de importarlo desde otro espacio de trabajo al crear un tipo de registro.
+
+   Ocurren lo siguiente:
+
+   * También se agrega la siguiente información del tipo de registro centralizado existente:
+
+      * Todos los campos originales
+      * Todas las conexiones de registros
+   * Solo puede ver los registros añadidos desde otros espacios de trabajo si tiene al menos permisos de visualización en dichos espacios de trabajo.
+   * El icono **tipo de registro centralizado** ![icono de tipo de registro centralizado](assets/global-icon.png) se agrega a la tarjeta del tipo de registro importado.
+   * El campo **Workspace** de solo lectura se agrega a la vista de tabla de tipo de registro importado. El campo muestra en qué espacio de trabajo se creó cada registro.
 
      >[!NOTE]
      >
-     >* No se puede editar el tipo de registro importado ni sus campos. Puede editar el tipo de registro y sus campos desde el espacio de trabajo original.
+     >* No se puede editar el aspecto, la configuración avanzada o los campos originales del tipo de registro importado. Sólo se puede editar el tipo de registro y todos sus campos y configuraciones originales desde el espacio de trabajo original.
+
+1. (Opcional) Haga clic en y, a continuación, arrastre y suelte el tipo de registro recién añadido en cualquier sección del espacio de trabajo.
+
+1. (Opcional) Haga clic en el menú **Más** ![Más menú](assets/more-menu.png) en la tarjeta del tipo de registro importado, o a la derecha del nombre del tipo de registro en su página, luego haga clic en **Compartir** para compartirlo con otros usuarios en el mismo área de trabajo.
 
 1. (Opcional) Haga clic en el menú **Más** ![Más menú](assets/more-menu.png) en la tarjeta del tipo de registro importado, o a la derecha del nombre del tipo de registro en su página, luego haga clic en **Eliminar**.
 1. (Condicional) Escriba **delete** en el campo proporcionado y luego haga clic en **Eliminar permanentemente**.
 
-   Quita el tipo de registro importado del espacio de trabajo seleccionado. El tipo de registro original y sus campos permanecen en su espacio de trabajo original.
+   Ocurren lo siguiente:
 
-   <!--**************************ASK LILIT ON THIS ONE, NOT SURE IF THIS IS TRUE: Any records added in the current workspace are saved in the original workspace.**********-->
+   * El tipo de registro creado a partir de un tipo de registro centralizado se elimina del espacio de trabajo seleccionado.
+   * El tipo de registro original y sus campos permanecen en su espacio de trabajo original.
+   * Todos los demás tipos de registros importados del mismo registro centralizado permanecen en sus espacios de trabajo.
+   * Se eliminan los registros agregados al tipo de registro del área de trabajo actual. Se conservan todos los demás registros agregados desde espacios de trabajo adicionales en los que se agregó el tipo de registro centralizado.
+
+
 
 
 

@@ -4,10 +4,10 @@ description: Puede habilitar un tipo de registro para que se agregue a otro espa
 hidefromtoc: true
 hide: true
 exl-id: d36ab9fb-0275-483d-97be-0a88e170f8e0
-source-git-commit: 976810c8cedc5d3c5afd8333fdbace4fe8d0ccda
+source-git-commit: 9b95b5a52576327a3df8d6955925b96c2e45848f
 workflow-type: tm+mt
-source-wordcount: '1052'
-ht-degree: 9%
+source-wordcount: '1131'
+ht-degree: 7%
 
 ---
 
@@ -78,7 +78,7 @@ Para obtener más información, consulte uno de los siguientes artículos:
 
 </tr>   
 <tr> 
-   <td role="rowheader"><p>Paquete Adobe Workfront*</p></td> 
+   <td role="rowheader"><p>paquete de Adobe Workfront</p></td> 
    <td> 
 <ul><li><p>Cualquier paquete de Workfront</p></li>
 Y
@@ -103,7 +103,7 @@ Y
 </tbody> 
 </table>
 
-*Para obtener más información sobre los requisitos de acceso de Workfront, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información acerca de los requisitos de acceso de Workfront, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++   
 
@@ -116,7 +116,9 @@ Como administrador de espacio de trabajo, puede configurar un tipo de registro p
 
 Un gestor de espacio de trabajo puede añadir un tipo de registro centralizado a un espacio de trabajo que gestione. También se agregan los campos originales del tipo de registro.
 
-Los usuarios pueden agregar registros a un tipo de registro centralizado desde cualquier espacio de trabajo al que tengan acceso para contribuir donde se agregue dicho tipo de registro, incluido su espacio de trabajo principal. Solo pueden ver los registros del espacio de trabajo para el que tienen permisos de visualización.
+Los usuarios pueden agregar registros a un tipo de registro centralizado desde cualquier espacio de trabajo para el que tengan permisos de contribución y donde se agregue el tipo de registro centralizado, incluido su espacio de trabajo original. Pueden ver registros del espacio de trabajo para el que solo tienen permisos de visualización.
+
+Para obtener más información, vea [Información general sobre los tipos de registros centralizados](/help/quicksilver/planning/architecture/centralized-record-types-overview.md)
 
 Para configurar la adición de un tipo de registro como tipo de registro centralizado:
 
@@ -134,18 +136,29 @@ O
 
    ![Más opciones de menú de la tarjeta de tipo de registro](assets/more-menu-options-from-record-type-card.png)
 
+   >[!TIP]
+   >
+   >Si un tipo de registro ya se ha designado como tipo de registro centralizado y se ha añadido a otros espacios de trabajo, la opción Editar aparece atenuada.
+
 1. En el cuadro **Editar tipo de registro**, seleccione la ficha **Configuración avanzada**.
 1. Habilite la opción **Permitir agregar este tipo de registro a otros espacios de trabajo**.
 
    ![Editar la configuración avanzada del tipo de registro con Agregar a otros espacios de trabajo habilita](assets/edit-record-type-advanced-settings-add-to-other-workspaces-enabled.png)
 
-1. En el campo **Seleccione quién puede agregar este tipo de registro a los espacios de trabajo que administra**, agregue los usuarios a los que desea permitir que agreguen este tipo de registro a los espacios de trabajo que administran.
+   >[!TIP]
+   >
+   >Después de agregar un tipo de registro centralizado a otro espacio de trabajo, esta configuración ya no se puede deshabilitar.
+
+1. En el campo **Seleccione quién puede agregar este tipo de registro a los espacios de trabajo que administra**, agregue las entidades que desee permitir para agregar este tipo de registro a los espacios de trabajo que administra.
 
    Su nombre se añade automáticamente en el campo.
 
    Puede agregar usuarios individuales o grupos, equipos, roles o empresas a cuyos usuarios desee permitir que agreguen este tipo de registro a los espacios de trabajo que administran.
 
+   Debe designar al menos una entidad (usuario, equipo, grupo, función o compañía) para poder habilitar esta configuración.
+
    Puede editar este campo después de guardar el tipo de registro.
+
 1. (Opcional) Elimine su nombre del campo **Seleccione quién puede agregar este tipo de registro a los espacios de trabajo que administran**.
 
 1. Haga clic en **Guardar**.
@@ -156,12 +169,12 @@ O
 
    >[!NOTE]
    >
-   >Sólo se puede editar el tipo de registro y sus campos desde el espacio de trabajo original.
+   >Sólo se puede editar el aspecto y la configuración del tipo de registro y sus campos originales desde el espacio de trabajo original.
 
-   * La tarjeta de tipo de registro muestra un icono global ![icono de tipo de registro global](assets/global-icon.png) para indicar que el tipo de registro está disponible para agregarse a cualquier área de trabajo cuyo administrador haya designado en la configuración.
-   * Se agrega un campo **Workspace** generado por el sistema al tipo de registro.
+   * La tarjeta de tipo de registro muestra un icono centralizado ![Icono de tipo de registro centralizado](assets/global-icon.png) para indicar que el tipo de registro está disponible para agregarse a otros espacios de trabajo.
+   * Un campo **Workspace** generado por el sistema se agrega a la vista de tabla del tipo de registro y los detalles de sus registros.
 
-     El campo Workspace muestra el espacio de trabajo desde el que se ha creado cada registro.
+     El campo Workspace muestra el espacio de trabajo desde el que se crea cada registro.
 
      Este campo es de solo lectura y no se puede eliminar.
 1. (Opcional) Vaya a otro espacio de trabajo y cree un tipo de registro utilizando un tipo de registro existente. Seleccione el tipo de registro que ha activado en los pasos anteriores.
@@ -178,7 +191,7 @@ Para configurar un tipo de registro al que conectarse desde otros espacios de tr
 
 {{step1-to-planning}}
 
-1. Haga clic en el espacio de trabajo cuyos tipos de registro desee editar.
+1. Haga clic en el área de trabajo cuyos tipos de registro desee editar.
 
    Se abre la página del espacio de trabajo y se muestran los tipos de registro.
 1. Realice una de las siguientes acciones:
@@ -194,20 +207,20 @@ O
 
    ![Editar pestaña de configuración avanzada de tipo de registro con la conexión habilitada desde otros espacios de trabajo](assets/edit-record-type-advanced-settings-connect-from-other-workspaces-enabled.png)
 
-   Cuando está habilitado, el tipo de registro es accesible y se puede conectar desde otros espacios de trabajo.
+   Cuando está habilitado, el tipo de registro es accesible y se puede conectar a desde otros espacios de trabajo.
 
 1. Elija desde qué espacios de trabajo se puede acceder al tipo de registro. Elija entre las siguientes opciones:
 
    * **En todo el sistema**: los usuarios pueden conectarse a este tipo de registro desde todos los espacios de trabajo donde tengan permisos de administración.
    * **Espacios de trabajo específicos**: agregue los nombres de los espacios de trabajo a los que los administradores de espacios de trabajo pueden conectarse para este tipo de registro.
-1. Haga clic en **Editar**.
+1. Haga clic en **Guardar**.
 
    Ocurren lo siguiente:
 
    * El tipo de registro y sus campos ya están disponibles para conectarse desde los espacios de trabajo designados.
    * La tarjeta de tipo de registro muestra un icono de conexión entre espacios de trabajo ![icono de conexión entre espacios de trabajo](assets/connect-from-other-workspaces-icon.png) para indicar que el tipo de registro está disponible para conectarse desde cualquier espacio de trabajo que haya designado en su configuración.
 
-   El tipo de registro está disponible para conectarse desde los espacios de trabajo designados.
+   El tipo de registro está disponible para conectarse a desde los espacios de trabajo designados.
 1. (Opcional) Vaya a otro espacio de trabajo y añada una conexión al tipo de registro que ha activado para la conectividad entre espacios de trabajo en los pasos anteriores.
 
    Para obtener más información, consulte [Conectar tipos de registros](/help/quicksilver/planning/architecture/connect-record-types.md).
