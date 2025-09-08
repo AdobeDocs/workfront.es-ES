@@ -4,10 +4,11 @@ description: Otras mejoras durante el periodo de lanzamiento del cuarto trimestr
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: f7dcae5e6bcc8674ef37ef94282c50dc9ffe951d
+exl-id: 357b5a80-424a-475c-9163-82cffbbd253e
+source-git-commit: e3c69f893785a1a09aaca3743f8538525e900d5d
 workflow-type: tm+mt
-source-wordcount: '158'
-ht-degree: 25%
+source-wordcount: '155'
+ht-degree: 26%
 
 ---
 
@@ -25,9 +26,8 @@ Para obtener una lista de todos los cambios disponibles en este punto del ciclo 
 >* Versión rápida de producción: 11 de septiembre de 2025
 >* Producción para todos los clientes: viernes, 16 de octubre de 2025
 
-Con nuestro diseño de listas avanzadas, puede utilizar filtros y agrupaciones para mostrar su trabajo y mantenerlo mejor organizado. Ahora aparece un indicador de punto azul encima de un widget para saber cuándo se ha aplicado un filtro o una agrupación a una lista en las siguientes áreas:
+Con nuestro diseño de listas avanzadas, puede utilizar filtros y agrupaciones para mostrar su trabajo y mantenerlo mejor organizado. Ahora aparece un indicador de punto azul encima de un widget para informarle cuando se ha aplicado un filtro o una agrupación a una lista en las siguientes áreas:
 
-* Tasas de cambio en la configuración
 * Widget de Mis solicitudes
 * Prioridades
 
