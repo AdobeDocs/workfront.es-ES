@@ -1,25 +1,25 @@
 ---
 product-area: Canvas Dashboards
 navigation-topic: canvas-dashboards-beta
-title: Información beta de los paneles de lienzo
-description: Información general de la versión beta de paneles de lienzo
+title: Información beta de los paneles de control de lienzo
+description: Información general de la versión beta de paneles de control de lienzo
 author: Jenny
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 5fbcd807-e152-4e93-a895-2028ed089f72
-source-git-commit: 8fdf48c5b17a17e4dd1ef2e441659155ae0b9905
+source-git-commit: db08403c62cc85d6ccb705bb84c9c277e94f8635
 workflow-type: tm+mt
-source-wordcount: '467'
-ht-degree: 32%
+source-wordcount: '538'
+ht-degree: 27%
 
 ---
 
-# Información beta de los paneles de lienzo
+# Información beta de los paneles de control de lienzo
 
 >[!IMPORTANT]
 >
 >Actualmente, la función Paneles de lienzo solo está disponible para los usuarios que participan en la fase beta. Es posible que algunas partes de la función no estén completas o que no funcionen según lo previsto durante esta fase. Envíe cualquier comentario sobre su experiencia siguiendo las instrucciones de la sección [Proporcionar comentarios](#provide-feedback) que aparece a continuación.<br>
->&#x200B;>Tenga en cuenta que esta versión beta no está disponible en los siguientes proveedores de la nube:
+>>Tenga en cuenta que esta versión beta no está disponible en los siguientes proveedores de la nube:
 >
 >* Traer su propia clave para Amazon Web Service
 >* Azure
@@ -55,7 +55,7 @@ Para obtener más información, consulte [Información general sobre paneles de 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Configuraciones de nivel de acceso</p></td> 
-   <td><p>Editar el acceso a Informes, Paneles y Calendarios</p>
+   <td><p>Acceso de administrador del sistema para habilitar paneles de lienzo</p>
   </td> 
   </tr>  
 </tbody> 
@@ -67,23 +67,29 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
 
 ## Inscripción en la versión beta
 
-1. Haga clic en el icono **[!UICONTROL Menú principal]** ![Menú principal](/help/_includes/assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront o (si está disponible), haga clic en el icono **[!UICONTROL Menú principal]** ![Menú principal](/help/_includes/assets/main-menu-icon-left-nav.png) en la esquina superior izquierda y, a continuación, haga clic en **Paneles**.
+1. Haga clic en el icono **[!UICONTROL Menú principal]**![Menú principal](/help/_includes/assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront o (si está disponible), haga clic en el icono **[!UICONTROL Menú principal]**![Menú principal](/help/_includes/assets/main-menu-icon-left-nav.png) en la esquina superior izquierda y, a continuación, haga clic en **Paneles de control**.
 
 1. En la esquina superior derecha de la página, haga clic en el botón **Unirse a la versión beta de los paneles de lienzo**.
 
    >[!NOTE]
    >
-   > El botón **Unirse a la versión beta de los paneles de lienzo** solo estará disponible si su organización ha sido invitada a la versión beta.
+   > El botón **Unirse a los paneles de lienzo beta** solo es accesible para los administradores del sistema. Todos los demás usuarios verán este botón en estado desactivado.
 
 1. Revise los términos del cuadro **acuerdo de Beta** y, a continuación, haga clic en **Aceptar**. Ahora está inscrito en la versión beta. Tenga en cuenta que es posible que los datos de Workfront tarden unos minutos en ser totalmente accesibles en los paneles de lienzo.
+
+   >[!NOTE]
+   >
+   >Una vez aceptados los términos beta, las funciones del panel de lienzo están habilitadas para todos los usuarios en el entorno de Workfront. Cualquier usuario con acceso de Ver y Administrar en los paneles podrá ver y editar los paneles de lienzo según su nivel de acceso.<br>
+   >Tenga en cuenta que la visibilidad de la página de aterrizaje de los paneles de lienzo se controla mediante la plantilla de diseño asignada al usuario. Para obtener más información, consulte [Crear y administrar plantillas de diseño](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
+
 
 ## Proporcionar comentarios
 
 Agradeceremos sus comentarios a medida que desarrollemos esta herramienta en el transcurso de la versión beta. Siga las instrucciones a continuación para compartir su experiencia con nosotros.
 
-1. Haga clic en el icono **[!UICONTROL Menú principal]** ![Menú principal](/help/_includes/assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront o (si está disponible), haga clic en el icono **[!UICONTROL Menú principal]** ![Menú principal](/help/_includes/assets/main-menu-icon-left-nav.png) en la esquina superior izquierda y, a continuación, haga clic en **Paneles**.
+1. Haga clic en el icono **[!UICONTROL Menú principal]**![Menú principal](/help/_includes/assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront o (si está disponible), haga clic en el icono **[!UICONTROL Menú principal]**![Menú principal](/help/_includes/assets/main-menu-icon-left-nav.png) en la esquina superior izquierda y, a continuación, haga clic en **Paneles de control**.
 
-1. En el panel izquierdo, haga clic en **Paneles de lienzo**.
+1. En el panel izquierdo, haga clic en **Paneles de control de lienzo**.
 
 1. Haga clic en el botón **Dejar comentarios** del encabezado de la página.
 
