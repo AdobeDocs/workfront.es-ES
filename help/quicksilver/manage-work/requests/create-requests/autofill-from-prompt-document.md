@@ -5,7 +5,7 @@ description: Puede utilizar IA para rellenar automáticamente los campos de soli
 author: Becky
 feature: Get Started with Workfront
 exl-id: 4a22f9ea-c9ee-4947-8683-9989c54903b1
-source-git-commit: 3351a928ba20d1509f99a63c98b3e106c58fb43f
+source-git-commit: 6aab36ee2839fdf32f5606d2070d1e52d7f44753
 workflow-type: tm+mt
 source-wordcount: '1336'
 ht-degree: 10%
@@ -125,7 +125,7 @@ Estos ejemplos muestran solicitudes de varias formas en las que la IA puede hace
 
 >[!BEGINSHADEBOX]
 
-Cree una solicitud de campaña similar a la que hicimos para el lanzamiento del segundo trimestre de (Client Company), pero esta vez para su división de Automoción. Mantenga el mismo conjunto de entregables y perfil de audiencia.
+Cree una solicitud de campaña similar a la que hicimos para el lanzamiento del segundo trimestre de (empresa del cliente), pero esta vez para su división de Automoción. Mantenga el mismo conjunto de entregables y perfil de audiencia.
 
 >[!ENDSHADEBOX]
 
@@ -133,7 +133,7 @@ Cree una solicitud de campaña similar a la que hicimos para el lanzamiento del 
 
 >[!BEGINSHADEBOX]
 
-Utilice la misma configuración que tuvimos en el lanzamiento del proyecto (Compañía del cliente) la primavera pasada. Quiero ejecutar una campaña de publicidad digital dirigida a la misma audiencia ejecutiva, pero con fechas actualizadas para este trimestre.
+Utilice la misma configuración que tuvimos en el inicio del proyecto (nombre del proyecto) la primavera pasada. Quiero ejecutar una campaña de publicidad digital dirigida a la misma audiencia ejecutiva, pero con fechas actualizadas para este trimestre.
 
 >[!ENDSHADEBOX]
 
@@ -141,7 +141,7 @@ Utilice la misma configuración que tuvimos en el lanzamiento del proyecto (Comp
 
 >[!BEGINSHADEBOX]
 
-Prepare una solicitud similar a la campaña de promoción de verano de (Compañía del cliente) que ejecutamos el año pasado. Céntrese en los activos de las redes sociales, mantenga el español como idioma principal y ajuste el presupuesto a $75,000.
+Prepare una solicitud similar a la campaña de promoción de verano (de la compañía del cliente) que ejecutamos el año pasado. Céntrese en los activos de las redes sociales, mantenga el español como idioma principal y ajuste el presupuesto a $75,000.
 
 >[!ENDSHADEBOX]
 
@@ -149,7 +149,7 @@ Prepare una solicitud similar a la campaña de promoción de verano de (Compañ�
 
 >[!BEGINSHADEBOX]
 
-Tome como referencia la campaña de la serie de seminarios web (Compañía del cliente) del primer trimestre. Quiero el mismo flujo de trabajo de registro y activos, pero esta vez el tema es &quot;IA en la planificación financiera&quot; y la audiencia son profesionales jóvenes.
+Tome como referencia la campaña de la serie de seminarios web (nombre de la campaña) del primer trimestre. Quiero el mismo flujo de trabajo de registro y activos, pero esta vez el tema es &quot;IA en la planificación financiera&quot; y la audiencia son profesionales jóvenes.
 
 >[!ENDSHADEBOX]
 
@@ -157,7 +157,7 @@ Tome como referencia la campaña de la serie de seminarios web (Compañía del c
 
 >[!BEGINSHADEBOX]
 
-Configure una solicitud de campaña como el proyecto de cambio de marca (Compañía del cliente) que gestionamos, pero reemplace por (Nueva compañía del cliente) como cliente. Mantenga todos los entregables alineados con la marca corporativa.
+Configure una solicitud de campaña como el proyecto de cambio de marca (de la empresa del cliente) que gestionamos, pero reemplace por (nueva empresa del cliente) como cliente. Mantenga todos los entregables alineados con la marca corporativa.
 
 >[!ENDSHADEBOX]
 
