@@ -6,10 +6,10 @@ description: Puede eliminar un informe desde un panel de lienzo.
 author: Courtney and Jenny
 feature: Reports and Dashboards
 exl-id: 98d26160-a097-473d-8d66-e6d619cb2908
-source-git-commit: 68a4a9d1c3980fd947b5fefef19cdfa09591e849
+source-git-commit: 56d0b9281387cc7b35055461e7868c7e4a194f81
 workflow-type: tm+mt
-source-wordcount: '292'
-ht-degree: 17%
+source-wordcount: '317'
+ht-degree: 16%
 
 ---
 
@@ -18,7 +18,8 @@ ht-degree: 17%
 >[!IMPORTANT]
 >
 >Actualmente, la función Paneles de lienzo solo está disponible para los usuarios que participan en la fase beta. Es posible que algunas partes de la función no estén completas o que no funcionen según lo previsto durante esta fase. Envíe cualquier comentario sobre su experiencia siguiendo las instrucciones de la sección [Proporcionar comentarios](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) del artículo Información general sobre la versión beta de los paneles de lienzo.<br>
->&#x200B;>Tenga en cuenta que esta versión beta no está disponible en los siguientes proveedores de la nube:
+>>Si tiene comentarios acerca de un posible error o problema técnico, envíe un ticket al equipo de asistencia de Workfront. Para obtener más información, consulte [Póngase en contacto con Atención al cliente](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
+>>Tenga en cuenta que esta versión beta no está disponible en los siguientes proveedores de la nube:
 >
 >* Traer su propia clave para Amazon Web Service
 >* Azure
@@ -54,7 +55,7 @@ La eliminación de un informe es permanente. Si necesita volver a agregar un inf
   </tr> 
   <tr> 
    <td role="rowheader"><p>Configuraciones de nivel de acceso</p></td> 
-   <td><p>Editar el acceso a Informes, Paneles y Calendarios</p>
+   <td><p>Editar el acceso a Informes, Paneles de control y Calendarios</p>
   </td> 
   </tr>  
       <tr> 
@@ -82,7 +83,7 @@ Para obtener más información, consulte [Crear un panel de lienzo](/help/quicks
 
 {{step1-to-dashboards}}
 
-1. En el panel izquierdo, haga clic en **Paneles de lienzo**.
+1. En el panel izquierdo, haga clic en **Paneles de control de lienzo**.
 
 1. En la página **Paneles de lienzo**, seleccione el panel que contiene el informe que desea eliminar.
 

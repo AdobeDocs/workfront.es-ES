@@ -2,13 +2,13 @@
 product-area: Canvas Dashboards
 navigation-topic: report-types
 title: Creación de un informe de gráfico en un panel de control de lienzo
-description: Se puede añadir a un panel de lienzo un informe de gráfico que visualice los datos como un gráfico de barras, de columnas, de líneas o circular.
+description: Se puede añadir a un panel de control de lienzo un informe de gráfico que visualice los datos como un gráfico de barras, de columnas, de líneas o circular.
 author: Courtney and Jenny
 feature: Reports and Dashboards
 exl-id: 4262cae8-602f-416d-94b9-409eb9d6241c
-source-git-commit: d76ad0d51f28191cbd04af950e10a2247414830e
+source-git-commit: 56d0b9281387cc7b35055461e7868c7e4a194f81
 workflow-type: tm+mt
-source-wordcount: '1352'
+source-wordcount: '1377'
 ht-degree: 7%
 
 ---
@@ -18,7 +18,8 @@ ht-degree: 7%
 >[!IMPORTANT]
 >
 >Actualmente, la función Paneles de lienzo solo está disponible para los usuarios que participan en la fase beta. Es posible que algunas partes de la función no estén completas o que no funcionen según lo previsto durante esta fase. Envíe cualquier comentario sobre su experiencia siguiendo las instrucciones de la sección [Proporcionar comentarios](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) del artículo Información general sobre la versión beta de los paneles de lienzo.<br>
->&#x200B;>Tenga en cuenta que esta versión beta no está disponible en los siguientes proveedores de la nube:
+>>Si tiene comentarios acerca de un posible error o problema técnico, envíe un ticket al equipo de asistencia de Workfront. Para obtener más información, consulte [Póngase en contacto con Atención al cliente](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
+>>Tenga en cuenta que esta versión beta no está disponible en los siguientes proveedores de la nube:
 >
 >* Traer su propia clave para Amazon Web Service
 >* Azure
@@ -54,7 +55,7 @@ Puede crear y agregar un informe de gráfico a un panel de lienzo para visualiza
   </tr> 
   <tr> 
    <td role="rowheader"><p>Configuraciones de nivel de acceso</p></td> 
-   <td><p>Editar el acceso a Informes, Paneles y Calendarios</p>
+   <td><p>Editar el acceso a Informes, Paneles de control y Calendarios</p>
   </td> 
   </tr>  
 </tbody> 
@@ -73,7 +74,7 @@ Hay muchas opciones de configuración disponibles para crear un informe de gráf
 
 {{step1-to-dashboards}}
 
-1. En el panel izquierdo, haga clic en **Paneles de lienzo**.
+1. En el panel izquierdo, haga clic en **Paneles de control de lienzo**.
 
 1. Haga clic en **Nuevo panel** en la esquina superior derecha.
 
@@ -149,7 +150,7 @@ En esta sección, veremos los pasos para crear un gráfico de columnas que muest
 
 {{step1-to-dashboards}}
 
-1. En el panel izquierdo, haga clic en **Paneles de lienzo**.
+1. En el panel izquierdo, haga clic en **Paneles de control de lienzo**.
 
 1. Haga clic en **Nuevo panel** en la esquina superior derecha.
 

@@ -1,24 +1,25 @@
 ---
 product-area: Canvas Dashboards
 navigation-topic: report-types
-title: Generar un informe de KPI en un panel de lienzo
-description: Se puede añadir a un panel de lienzo un informe de KPI que muestre de forma destacada un único KPI agregado.
+title: Generar un informe de KPI en un panel de control de lienzo
+description: Se puede añadir a un panel de control de lienzo un informe de KPI que muestre de forma destacada un único KPI agregado.
 author: Courtney and Jenny
 feature: Reports and Dashboards
 exl-id: e1c68ac3-112e-4f9e-b644-f44bb0778b92
-source-git-commit: d76ad0d51f28191cbd04af950e10a2247414830e
+source-git-commit: 56d0b9281387cc7b35055461e7868c7e4a194f81
 workflow-type: tm+mt
-source-wordcount: '1106'
-ht-degree: 9%
+source-wordcount: '1131'
+ht-degree: 8%
 
 ---
 
-# Generar un informe de KPI en un panel de lienzo
+# Generar un informe de KPI en un panel de control de lienzo
 
 >[!IMPORTANT]
 >
 >Actualmente, la función Paneles de lienzo solo está disponible para los usuarios que participan en la fase beta. Es posible que algunas partes de la función no estén completas o que no funcionen según lo previsto durante esta fase. Envíe cualquier comentario sobre su experiencia siguiendo las instrucciones de la sección [Proporcionar comentarios](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) del artículo Información general sobre la versión beta de los paneles de lienzo.<br>
->&#x200B;>Tenga en cuenta que esta versión beta no está disponible en los siguientes proveedores de la nube:
+>>Si tiene comentarios acerca de un posible error o problema técnico, envíe un ticket al equipo de asistencia de Workfront. Para obtener más información, consulte [Póngase en contacto con Atención al cliente](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
+>>Tenga en cuenta que esta versión beta no está disponible en los siguientes proveedores de la nube:
 >
 >* Traer su propia clave para Amazon Web Service
 >* Azure
@@ -54,7 +55,7 @@ Puede crear y agregar un informe de KPI a un panel de lienzo que represente visu
   </tr> 
   <tr> 
    <td role="rowheader"><p>Configuraciones de nivel de acceso</p></td> 
-   <td><p>Editar el acceso a Informes, Paneles y Calendarios</p>
+   <td><p>Editar el acceso a Informes, Paneles de control y Calendarios</p>
   </td> 
   </tr>  
 </tbody> 
@@ -67,13 +68,13 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
 
 Debe crear un tablero para poder generar un informe de KPI.
 
-## Generar un informe de KPI en un panel de lienzo
+## Generar un informe de KPI en un panel de control de lienzo
 
 Hay muchas opciones de configuración disponibles para crear un informe de KPI. En esta sección, le guiaremos a través del proceso general de creación de uno.
 
 {{step1-to-dashboards}}
 
-1. En el panel izquierdo, haga clic en **Paneles de lienzo**.
+1. En el panel izquierdo, haga clic en **Paneles de control de lienzo**.
 
 1. Haga clic en **Nuevo panel** en la esquina superior derecha.
 
@@ -140,7 +141,7 @@ Para obtener más información sobre ejemplos de informes KPI, consulte [Crear u
 
 {{step1-to-dashboards}}
 
-1. En el panel izquierdo, haga clic en **Paneles de lienzo**.
+1. En el panel izquierdo, haga clic en **Paneles de control de lienzo**.
 
 1. Haga clic en **Nuevo panel** en la esquina superior derecha.
 

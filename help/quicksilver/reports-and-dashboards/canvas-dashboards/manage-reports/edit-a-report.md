@@ -6,10 +6,10 @@ description: Puede editar un informe de panel de lienzo una vez que se haya crea
 author: Courtney and Jenny
 feature: Reports and Dashboards
 exl-id: fd659f56-d67f-4a0f-8735-b214934903ac
-source-git-commit: d76ad0d51f28191cbd04af950e10a2247414830e
+source-git-commit: 56d0b9281387cc7b35055461e7868c7e4a194f81
 workflow-type: tm+mt
-source-wordcount: '499'
-ht-degree: 12%
+source-wordcount: '524'
+ht-degree: 11%
 
 ---
 
@@ -18,7 +18,8 @@ ht-degree: 12%
 >[!IMPORTANT]
 >
 >Actualmente, la función Paneles de lienzo solo está disponible para los usuarios que participan en la fase beta. Es posible que algunas partes de la función no estén completas o que no funcionen según lo previsto durante esta fase. Envíe cualquier comentario sobre su experiencia siguiendo las instrucciones de la sección [Proporcionar comentarios](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) del artículo Información general sobre la versión beta de los paneles de lienzo.<br>
->&#x200B;>Tenga en cuenta que esta versión beta no está disponible en los siguientes proveedores de la nube:
+>>Si tiene comentarios acerca de un posible error o problema técnico, envíe un ticket al equipo de asistencia de Workfront. Para obtener más información, consulte [Póngase en contacto con Atención al cliente](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
+>>Tenga en cuenta que esta versión beta no está disponible en los siguientes proveedores de la nube:
 >
 >* Traer su propia clave para Amazon Web Service
 >* Azure
@@ -53,7 +54,7 @@ Cualquier cambio realizado en un informe afectará a todos los usuarios que teng
   </tr> 
   <tr> 
    <td role="rowheader"><p>Configuraciones de nivel de acceso</p></td> 
-   <td><p>Editar el acceso a Informes, Paneles y Calendarios</p>
+   <td><p>Editar el acceso a Informes, Paneles de control y Calendarios</p>
   </td> 
   </tr>  
         <tr> 
@@ -77,7 +78,7 @@ Para obtener más información, consulte [Crear un panel de lienzo](/help/quicks
 
 {{step1-to-dashboards}}
 
-1. En el panel izquierdo, haga clic en **Paneles de lienzo**.
+1. En el panel izquierdo, haga clic en **Paneles de control de lienzo**.
 
 1. En la página **Paneles de lienzo**, haga clic en el icono **Más** ![Más icono](assets/more-icon.png) en la esquina superior derecha del informe que desea editar y, a continuación, seleccione **Editar**.
 
@@ -124,7 +125,7 @@ Para obtener más información, vea [Agregar un informe existente a un panel de 
 
 {{step1-to-dashboards}}
 
-1. En el panel izquierdo, haga clic en **Paneles de lienzo**.
+1. En el panel izquierdo, haga clic en **Paneles de control de lienzo**.
 
 1. En la página **Paneles de lienzo**, haga clic en el icono **Más** ![Más icono](assets/more-icon.png) en la esquina superior derecha del informe que desea editar y, a continuación, seleccione **Editar**.
 

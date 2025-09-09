@@ -6,10 +6,10 @@ description: Con los paneles de lienzo, puede crear y agregar informes a un pane
 author: Courtney and Jenny
 feature: Reports and Dashboards
 exl-id: bd31e426-7c4a-4ff8-9432-c95dc8ee3743
-source-git-commit: d76ad0d51f28191cbd04af950e10a2247414830e
+source-git-commit: 56d0b9281387cc7b35055461e7868c7e4a194f81
 workflow-type: tm+mt
-source-wordcount: '398'
-ht-degree: 15%
+source-wordcount: '423'
+ht-degree: 14%
 
 ---
 
@@ -18,7 +18,8 @@ ht-degree: 15%
 >[!IMPORTANT]
 >
 >Actualmente, la función Paneles de lienzo solo está disponible para los usuarios que participan en la fase beta. Es posible que algunas partes de la función no estén completas o que no funcionen según lo previsto durante esta fase. Envíe cualquier comentario sobre su experiencia siguiendo las instrucciones de la sección [Proporcionar comentarios](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) del artículo Información general sobre la versión beta de los paneles de lienzo.<br>
->&#x200B;>Tenga en cuenta que esta versión beta no está disponible en los siguientes proveedores de la nube:
+>>Si tiene comentarios acerca de un posible error o problema técnico, envíe un ticket al equipo de asistencia de Workfront. Para obtener más información, consulte [Póngase en contacto con Atención al cliente](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
+>>Tenga en cuenta que esta versión beta no está disponible en los siguientes proveedores de la nube:
 >
 >* Traer su propia clave para Amazon Web Service
 >* Azure
@@ -52,7 +53,7 @@ Con los paneles de lienzo, puede crear y agregar informes a un panel personaliza
   </tr> 
   <tr> 
    <td role="rowheader"><p>Configuraciones de nivel de acceso</p></td> 
-   <td><p>Editar el acceso a Informes, Paneles y Calendarios</p>
+   <td><p>Editar el acceso a Informes, Paneles de control y Calendarios</p>
   </td> 
   </tr>  
 </tbody> 
@@ -65,13 +66,13 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
 
 Los paneles de lienzo deben habilitarse en la configuración de la plantilla de diseño de los elementos de navegación de la izquierda de la página de los paneles.
 
-## Creación de un panel
+## Creación de un panel de control
 
 Los paneles de lienzo ofrecen una amplia variedad de opciones y configuraciones que puede utilizar al crear un panel. En esta sección, le guiaremos por el proceso general de creación de un panel.
 
 {{step1-to-dashboards}}
 
-1. En el panel izquierdo, haga clic en **Paneles de lienzo**.
+1. En el panel izquierdo, haga clic en **Paneles de control de lienzo**.
 
 1. Haga clic en **Nuevo panel** en la esquina superior derecha.
 
@@ -79,7 +80,7 @@ Los paneles de lienzo ofrecen una amplia variedad de opciones y configuraciones 
 
 1. Haga clic en **Crear**. Se abre **Agregar cuadro de informe**. Desde aquí, puede crear un nuevo informe o agregar uno existente al panel.
 
-## Añadir un informe a un panel
+## Añadir un informe a un panel de control
 
 Una vez creado un tablero, el siguiente paso es agregarle los informes. Para ello, puede crear un informe desde cero en la sección Paneles de lienzo o agregar uno existente.
 
