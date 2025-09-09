@@ -19,8 +19,8 @@ ht-degree: 26%
 >[!IMPORTANT]
 >
 >Actualmente, la función Paneles de lienzo solo está disponible para los usuarios que participan en la fase beta. Es posible que algunas partes de la función no estén completas o que no funcionen según lo previsto durante esta fase. Envíe cualquier comentario sobre su experiencia siguiendo las instrucciones de la sección [Proporcionar comentarios](#provide-feedback) que aparece a continuación.<br>
->>Si tiene comentarios acerca de un posible error o problema técnico, envíe un ticket al equipo de asistencia de Workfront. Para obtener más información, consulte [Póngase en contacto con Atención al cliente](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
->>Tenga en cuenta que esta versión beta no está disponible en los siguientes proveedores de la nube:
+>&#x200B;>Si tiene comentarios acerca de un posible error o problema técnico, envíe un ticket al equipo de asistencia de Workfront. Para obtener más información, consulte [Póngase en contacto con Atención al cliente](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
+>&#x200B;>Tenga en cuenta que esta versión beta no está disponible en los siguientes proveedores de la nube:
 >
 >* Traer su propia clave para Amazon Web Service
 >* Azure
