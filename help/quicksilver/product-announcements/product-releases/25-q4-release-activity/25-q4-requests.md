@@ -5,7 +5,7 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: bd73b7df-ad4e-43dc-8ddf-23e0da24ec0f
-source-git-commit: c7c958b09caf7e15f128a729f6b327f6c3fa21e8
+source-git-commit: 9be63f4242db71b2e08ae528f39d639f8f59c75c
 workflow-type: tm+mt
 source-wordcount: '263'
 ht-degree: 18%
@@ -26,7 +26,7 @@ Para obtener una lista de todos los cambios disponibles en este punto del ciclo 
 >* Versión rápida de producción: 11 de septiembre de 2025
 >* Producción para todos los clientes: viernes, 16 de octubre de 2025
 
-Para simplificar la experiencia de solicitud unificada, la columna Estado ahora muestra el estado de la solicitud y el estado de aprobación, lo que se aplique a una solicitud determinada.
+Para simplificar la experiencia de solicitud unificada, la columna Estado ahora muestra tanto el estado de la solicitud como el estado de aprobación, lo que se aplique a una solicitud determinada.
 
 Para obtener más información sobre la creación de solicitudes, consulte:
 

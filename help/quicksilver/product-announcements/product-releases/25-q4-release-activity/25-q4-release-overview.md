@@ -5,7 +5,7 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 298473d4-7d7d-4401-80bf-899a01f570a6
-source-git-commit: e3c69f893785a1a09aaca3743f8538525e900d5d
+source-git-commit: 9be63f4242db71b2e08ae528f39d639f8f59c75c
 workflow-type: tm+mt
 source-wordcount: '1949'
 ht-degree: 17%
@@ -291,7 +291,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-requests.md" class="MCXref xref" xrefformat="{para}">Nueva columna de estado combinada en la lista de solicitudes unificadas</a><p></p>
-            <p>Para simplificar la experiencia de solicitud unificada, la columna Estado ahora muestra el estado de la solicitud y el estado de aprobación, lo que se aplique a una solicitud determinada.</p>
+            <p>Para simplificar la experiencia de solicitud unificada, la columna Estado ahora muestra tanto el estado de la solicitud como el estado de aprobación, lo que se aplique a una solicitud determinada.</p>
         </td>
         <td>viernes, 28 de agosto de 2025</td>
         <td>viernes, 11 de septiembre de 2025</td>
@@ -419,7 +419,7 @@ Para ofrecer integraciones más estables y escalables, estamos adoptando un enfo
 * Workfront para Salesforce.
 
 Recomendamos utilizar la automatización e integración de Workfront para las necesidades de integración de su organización con Google Workspace.
-Para obtener una descripción general de la automatización e integración de Workfront, consulte [Información general de Adobe Workfront Fusion](https://experienceleague.adobe.com/es/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+Para obtener una descripción general de la automatización e integración de Workfront, consulte [Información general de Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 
 ### Versión 20 de la API
 
