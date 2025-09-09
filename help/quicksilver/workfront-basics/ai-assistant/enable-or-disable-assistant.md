@@ -5,10 +5,10 @@ description: Puede controlar qué niveles de acceso de su organización tienen a
 author: Becky
 feature: Get Started with Workfront
 exl-id: eec9f484-e29b-4256-b9ef-b45eb2e78eac
-source-git-commit: d5693657695b2c0e89a69afc8cf90b34d2036f3e
+source-git-commit: d929599ccdbfb90d731a3dfb9d83d3eb54d345ea
 workflow-type: tm+mt
-source-wordcount: '250'
-ht-degree: 56%
+source-wordcount: '218'
+ht-degree: 65%
 
 ---
 
@@ -60,6 +60,3 @@ Para habilitar el asistente de IA para un nivel de acceso determinado:
 1. Haga clic en **Guardar**.
 1. Repita los pasos del 3 al 5 para cada nivel de acceso para el que desee habilitar el Asistente de IA.
 
->[!NOTE]
->
->A medida que se añadan funciones de IA a Workfront, algunas de ellas se convertirán en fundamentales para el funcionamiento de Workfront. Es probable que la capacidad de deshabilitar todas las funciones de IA quede obsoleta en un futuro próximo.
