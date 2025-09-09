@@ -182,7 +182,7 @@ Para obtener más información sobre cómo crear manualmente una hoja de horas, 
     </tbody> 
     </table>
 
-1. <!--In the Production environment, or when creating group-level timesheet profiles,--> Haga clic en la ficha **Asignar personas** para asociar el perfil de hoja de horas con usuarios, grupos o equipos específicos (si es administrador de Workfront). <!--Keep the reference to the group upon release to Prod-->
+1. &#x200B;<!--In the Production environment, or when creating group-level timesheet profiles,--> Haga clic en la ficha **Asignar personas** para asociar el perfil de hoja de horas con usuarios, grupos o equipos específicos (si es administrador de Workfront). <!--Keep the reference to the group upon release to Prod-->
 
    <!--<span class="preview">In the Preview environment when creating timesheet profiles for the system, scroll towards the bottom of the page to find the Assign People section.</span>--> <!--Keep the reference to the system when releasing to Prod-->
 

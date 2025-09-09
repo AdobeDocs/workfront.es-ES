@@ -240,7 +240,7 @@ Para configurar si se muestran los iconos de estado del proyecto y el porcentaje
 1. Haga clic en el menú desplegable **Vista** y luego haga clic en **Hito**.
    <!--No longer available: If you are viewing a list of projects inside a Portfolio or a Program, select the **Milestone** subtab.  -->
 
-1. <!--In the Production environment,--> Haga clic en **Opciones** en la esquina superior derecha de la vista de hito.
+1. &#x200B;<!--In the Production environment,--> Haga clic en **Opciones** en la esquina superior derecha de la vista de hito.
 
    <!--<div class="preview">In the Preview environment, select from the options in the next step, from the upper-right corner of the Milestone view.</div>-->
 
@@ -277,6 +277,6 @@ Para ajustar el porcentaje completado de una tarea en la vista de hito:
 
 1. (Condicional) Si los porcentajes de finalización no se muestran actualmente en la vista Hito, habilite la vista Porcentaje completado de tareas y proyectos, tal como se describe en la sección [Configurar la información que se muestra en la vista Hito](#configure-what-information-displays-in-the-milestone-view) de este artículo.
 
-1. <!--In the Production environment,--> Haga clic en el porcentaje de finalización debajo de una tarea, especifique un nuevo porcentaje y pulse Intro.
+1. &#x200B;<!--In the Production environment,--> Haga clic en el porcentaje de finalización debajo de una tarea, especifique un nuevo porcentaje y pulse Intro.
 
    <!--<div class="preview">In the Preview environment, move the Percent Complete slide to the new percent complete to update it. </div>-->
