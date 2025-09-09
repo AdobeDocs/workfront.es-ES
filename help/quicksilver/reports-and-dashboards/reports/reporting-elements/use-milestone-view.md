@@ -3,19 +3,31 @@ product-area: reporting
 navigation-topic: reporting-elements
 title: Uso de la vista de hito
 description: Puede aplicar la vista de Hito a una lista de proyectos o a un informe. Puede utilizar la vista de Hito para ver todos los hitos asociados con las tareas de los proyectos que está viendo.
-author: Nolan
+author: Courtney, Alina
 feature: Reports and Dashboards
 exl-id: c55e53b5-5559-4b6a-a8d7-5028be6af30f
-source-git-commit: f3f33d870859408db5ec3dc306cf1d4209c126a3
+source-git-commit: 5590477efa2beb6590581ce9e5e33e264fb95390
 workflow-type: tm+mt
-source-wordcount: '1360'
-ht-degree: 90%
+source-wordcount: '1420'
+ht-degree: 67%
 
 ---
 
 # Uso de la vista de hito
 
 <!-- Audited: 11/2024 -->
+
+<!--remove Preview and Production mentions from the article when this comes out live-->
+
+<!--
+<div class="preview"> 
+
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release.      
+
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
+
+</div> 
+-->
 
 Puede aplicar la vista de Hito a una lista de proyectos o a un informe. Puede utilizar la vista de Hito para ver todos los hitos asociados con las tareas de los proyectos que está viendo.
 
@@ -83,7 +95,7 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
 
 ## Información general de vista de hito {#milestone-view-overview}
 
-La vista de hito está disponible en listas de proyectos e informes de proyectos. Esta vista permite ver rápidamente todos los hitos asociados con las tareas de los proyectos que está viendo.
+La vista de hito está disponible en listas de proyectos e informes de proyectos. Puede ver rápidamente todos los hitos asociados con las tareas de los proyectos que está viendo.
 
 
 >[!NOTE]
@@ -92,8 +104,9 @@ La vista de hito está disponible en listas de proyectos e informes de proyectos
 >
 >* Plantillas de horas, en la lista de proyectos al añadir un proyecto.
 
-
 Para obtener información acerca de cómo cambiar a la vista de hito, consulte la sección [Cambiar a la vista de hito](#switch-to-the-milestone-view) en este artículo.
+
+<!--add new screen shot-->
 
 ![Proyecto con vista de hito](assets/project-with-milestone-view-with-complete.png)
 
@@ -116,18 +129,30 @@ Al aplicar la vista de hito a una lista de proyectos, estos se muestran en las s
 Cuando se visualiza una lista de proyectos o un informe de proyectos en la vista de hito, está disponible la siguiente información:
 
 * **Fechas planificadas o fechas proyectadas:** especifique si desea mostrar las fechas planificadas o proyectadas en la vista de hito.\
-  Se muestran las fechas de inicio y finalización, así como de cada hito dentro de la ruta de hitos.\
-  Si está viendo fechas planificadas y también tiene acceso de gestión al proyecto, puede editar las siguientes fechas directamente desde la vista de hito: (si está viendo fechas proyectadas, las fechas no se pueden editar porque las fechas proyectadas se calculan y no se pueden cambiar manualmente).
+  Se muestran las fechas para las fechas de inicio y finalización del proyecto, así como para la finalización de cada tarea de Hito en la Ruta de hitos.
 
-   * **Fechas de inicio del proyecto:** si un proyecto está programado a partir de la fecha de inicio, puede cambiar manualmente la fecha de inicio del proyecto y, a continuación, se calcula la fecha de finalización.
-   * **Fechas de finalización del proyecto:** si un proyecto está programado a partir de la fecha de finalización, puede cambiar manualmente la fecha de finalización del proyecto y, a continuación, se calcula la fecha de inicio.
-   * **Fechas de finalización de la tarea:** puede actualizar manualmente la finalización de las tareas directamente desde la vista de hito.
+  Si está viendo Fechas proyectadas, las fechas no se pueden editar. Workfront calcula las fechas proyectadas, que no se pueden cambiar de forma manual.
 
-* **Porcentaje completado:** muestra el porcentaje de finalización de cada tarea y proyecto.\
-  Puede deshabilitar que se muestre el porcentaje de finalización, tal como se describe en la sección [Configurar la información que se muestra en la vista de hito](#configure-what-information-displays-in-the-milestone-view) de este artículo.\
+  Si está viendo Fechas planificadas y también tiene acceso de Administración al proyecto, puede editar las siguientes fechas directamente desde la vista de Hito:
+
+   * **Fechas de inicio del proyecto:** Si un proyecto está programado a partir de la fecha de inicio, puede cambiar manualmente la fecha planificada de inicio del proyecto y, a continuación, se calcula la fecha planificada de finalización.
+   * **Fechas de finalización del proyecto:** Si un proyecto está programado a partir de la fecha planificada de finalización, puede cambiar manualmente la fecha planificada de finalización del proyecto y, a continuación, se calcula la fecha planificada de inicio.
+   * **Fechas de finalización de la tarea:** Puede actualizar manualmente la fecha planificada de finalización de las tareas directamente desde la vista Hito.
+
+* **Porcentaje completado:** muestra el porcentaje de finalización de cada tarea y proyecto.
+
+  Puede deshabilitar que se muestre el porcentaje de finalización, tal como se describe en la sección [Configurar la información que se muestra en la vista de hito](#configure-what-information-displays-in-the-milestone-view) de este artículo.
+
   Puede ajustar el porcentaje de finalización directamente desde la vista de hito, tal como se describe en la sección [Ajustar porcentaje completado para las tareas de la vista de hito](#adjust-percent-complete-for-tasks-in-the-milestone-view) de este artículo.
 
-* **Iconos de estado de la tarea:** se muestra un icono de estado junto a cada proyecto y tarea en la vista de hito.
+* **Iconos de estado de progreso de la tarea:** Se muestra un icono de estado junto a cada proyecto y tarea en la vista Hito. <!--get new screen shots or hide them - could not display all in devtest; idea: use color dots from Task Details tab - New status is blue; Some concerns condition is yellow etc-->
+
+  <!--A progress status icon in the shape of a colored circle displays next to each project and task in the Milestone view. The possible statuses and circle colors are: 
+   * On Time - green
+   * Behind - yellow
+   * At Risk - blue
+   * Late - red-->
+
 
    * A tiempo\
      ![Icono de Tiempo de activación](assets/gantt-ontime.png)
@@ -141,7 +166,8 @@ Cuando se visualiza una lista de proyectos o un informe de proyectos en la vista
    * Retrasado\
      ![Icono de retraso](assets/gantt-late.png)
 
-  Puede deshabilitar la visualización de estos iconos de estado, tal como se describe en la sección [Configurar la información que se muestra en la vista de hito](#configure-what-information-displays-in-the-milestone-view) de este artículo.\
+  Puede deshabilitar la visualización de estos iconos de estado, tal como se describe en la sección [Configurar la información que se muestra en la vista de hito](#configure-what-information-displays-in-the-milestone-view) de este artículo.
+
   Para obtener información más detallada sobre cada tipo de estado, consulte el artículo [Información general del estado del progreso de la tarea](../../../manage-work/tasks/task-information/task-progress-status.md).
 
 * **Sombreado de estado de tarea para tareas completadas**: después de marcar una tarea como Completada, el fondo de la tarea se sombrea en la vista de hito para indicar si la tarea se completó a tiempo o con retraso:
@@ -158,18 +184,43 @@ Cuando se visualiza una lista de proyectos o un informe de proyectos en la vista
 
       * **Sombreado verde para la columna Inicio del proyecto**: el fondo de la columna Inicio del proyecto es verde cuando el estado del progreso del proyecto es **A tiempo**.
 
+     >[!TIP]
+     >
+     >Debe ir a la página Detalles del proyecto para ver la fecha de inicio real del proyecto.
+
    * **Columna de finalización del proyecto**: el fondo de la columna Finalización del proyecto aparece en rojo o en verde cuando se rellena la fecha real de finalización:
 
       * **Sombreado rojo para la columna de finalización del proyecto**: el fondo de la columna Finalización del proyecto aparece en rojo cuando el estado del progreso del proyecto es **Retrasado**.
 
       * **Sombreado verde para la columna de finalización del proyecto**: el fondo de la columna Finalización del proyecto es verde cuando el estado de progreso del proyecto es **A tiempo**.
 
+     >[!TIP]
+     >
+     >Debe ir a la página Detalles del proyecto para ver la fecha real de finalización del proyecto.
+
    * No se asigna ningún sombreado de color a las columnas Inicio y Finalización cuando las tareas tienen un estado de progreso de En riesgo o Retrasado.
+
+  <!--add new screen shot-->
 
   ![Vista de hito con sombreado](assets/milestone-view-with-shading.png)
 
 * **Nombre del proyecto**: el nombre del proyecto se muestra con un vínculo al proyecto.
-* **Icono de condición del proyecto**: se muestra un icono junto al nombre del proyecto que indica la condición del proyecto.
+* **Icono de condición del proyecto**: aparece un icono junto al nombre del proyecto que indica la condición del proyecto.
+
+  <!--
+   <div class="preview">
+   A condition icon in the shape of a colored circle displays next to each project in the Milestone view. The possible project conditions and circle colors are: 
+   * On Target - green
+   * At Risk - yellow
+   * In Trouble - red
+   </div>
+   -->
+
+  La condición del proyecto puede ser una de las siguientes:
+
+   * Bien encaminado
+   * En riesgo
+   * Con problemas
 
 ## Configurar la información que se muestra en la vista de hito {#configure-what-information-displays-in-the-milestone-view}
 
@@ -178,18 +229,23 @@ Puede configurar si se muestran los siguientes elementos en la vista de hito:
 * Iconos de estado de progreso
 * Porcentaje completado de proyectos y tareas
 
-De forma predeterminada, se muestran los iconos de estado del proyecto y el porcentaje completado de los proyectos.
+De forma predeterminada, se muestran los iconos de estado de progreso y el porcentaje completado de los proyectos y las tareas.
 
-Los cambios que realice en estas opciones sólo se aplicarán a usted; los demás usuarios no se verán afectados. Los cambios que realice se conservarán la próxima vez que inicie sesión en Adobe Workfront.
+Los cambios que realice en estas opciones sólo se aplicarán a usted; los demás usuarios no se verán afectados. Los cambios que realice se conservarán la próxima vez que inicie sesión en Workfront.
 
 Para configurar si se muestran los iconos de estado del proyecto y el porcentaje de finalización de los proyectos:
 
 {{step1-to-projects}}
 
-1. Haga clic en el menú desplegable **Vista** y luego haga clic en **Hito**.\
-   Si está viendo una lista de proyectos dentro de un portafolio o un programa, seleccione la subpestaña **Hito**.
+1. Haga clic en el menú desplegable **Vista** y luego haga clic en **Hito**.
+   <!--No longer available: If you are viewing a list of projects inside a Portfolio or a Program, select the **Milestone** subtab.  -->
 
-1. Haga clic en **Opciones** en la esquina superior derecha de la vista de hito.\
+1. <!--In the Production environment,--> Haga clic en **Opciones** en la esquina superior derecha de la vista de hito.
+
+   <!--<div class="preview">In the Preview environment, select from the options in the next step, from the upper-right corner of the Milestone view.</div>-->
+
+   <!--at Prod release, replace this screen shot and adjust the Production/ Preview text above-->
+
    ![milestone_view_options.png](assets/milestone-view-options-350x141.png)
 
 1. Seleccione entre las siguientes opciones:
@@ -211,7 +267,7 @@ Para configurar si se muestran los iconos de estado del proyecto y el porcentaje
 
 ## Ajustar el porcentaje completado de las tareas de la vista de hito {#adjust-percent-complete-for-tasks-in-the-milestone-view}
 
-Puede ajustar el porcentaje completado para las tareas en la vista de hito. No podrá ajustar el porcentaje completado para una tarea principal (una tarea que contiene subtareas).
+Puede ajustar el porcentaje completado para las tareas en la vista de hito. No se puede ajustar el porcentaje completado de una tarea principal (una tarea que contiene subtareas) o de un proyecto.
 
 Para ajustar el porcentaje completado de una tarea en la vista de hito:
 
@@ -219,6 +275,8 @@ Para ajustar el porcentaje completado de una tarea en la vista de hito:
 
 1. Haga clic en el menú desplegable **Vista** y luego haga clic en **Hito**.
 
-1. (Condicional) Si los porcentajes de finalización no se muestran actualmente en la vista de hito, haga clic en **Opciones** en la esquina superior derecha de la vista de hito y, a continuación, asegúrese de que el **Porcentaje completado** esté habilitado.
+1. (Condicional) Si los porcentajes de finalización no se muestran actualmente en la vista Hito, habilite la vista Porcentaje completado de tareas y proyectos, tal como se describe en la sección [Configurar la información que se muestra en la vista Hito](#configure-what-information-displays-in-the-milestone-view) de este artículo.
 
-1. Haga clic en el porcentaje de finalización debajo de una tarea, especifique un nuevo porcentaje y pulse Intro.
+1. <!--In the Production environment,--> Haga clic en el porcentaje de finalización debajo de una tarea, especifique un nuevo porcentaje y pulse Intro.
+
+   <!--<div class="preview">In the Preview environment, move the Percent Complete slide to the new percent complete to update it. </div>-->

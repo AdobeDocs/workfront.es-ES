@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 5027d611-916e-492d-9a44-841bdde11c94
-source-git-commit: 7f719c903ad4079470a6dbd046dce445ba227a5b
+source-git-commit: 3667359ba2c6ea0aab3ce6845f1a537183f304ec
 workflow-type: tm+mt
 source-wordcount: '889'
 ht-degree: 40%
@@ -112,6 +112,18 @@ Para obtener más información, consulte la sección “Fórmula” en el artíc
 
   Para obtener más información, consulte la sección &quot;Fórmula&quot; en el artículo [Crear campos](/help/quicksilver/planning/fields/create-fields.md).
 * Puede hacer referencia a los campos de fórmula en las fórmulas nuevas. Una vez que el valor se actualiza en un campo al que se hace referencia en un campo de fórmula, todos los campos subsiguientes que hagan referencia a ese campo o a los campos de fórmula que contengan ese campo se actualizarán automáticamente.
+
+<!--
+<div class="preview">
+
+* When you update a formula field or a field that could impact it, an alert notifies you of the impact of your change. The alert displays in the following cases:   
+
+   * When you update a formula field (excluding name and description changes) when that field has dependent formula or lookup fields. The alert lists those dependent fields and asks you whether you want to continue. 
+
+   * When you delete a field that is used in a formula expression or as a lookup field. The alert lists the dependent formula and lookup fields and asks you whether you want to continue with the deletion.
+
+</div>
+-->
 
 
 <div class="preview">
