@@ -6,14 +6,16 @@ description: Además de utilizar los borradores disponibles que Workfront le sug
 author: Alina
 feature: Work Management
 exl-id: 664004e7-04c8-4a1f-b682-7b82d349643d
-source-git-commit: 0ffae8ed285f6e9164a239552feb90465bea3cca
+source-git-commit: 2c2ccbadd6470773808bbd5a205310fbb1e1944e
 workflow-type: tm+mt
-source-wordcount: '599'
-ht-degree: 26%
+source-wordcount: '687'
+ht-degree: 25%
 
 ---
 
 # Crear solicitudes a partir de borradores
+
+<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después de las versiones mensuales en Production, las mismas funciones también están disponibles en el entorno Production para los clientes que habilitaron versiones rápidas. </span>
 
 Además de utilizar los borradores disponibles que Workfront le sugiere al introducir una nueva solicitud, también puede acceder a una solicitud de borrador desde la sección Borradores y terminar de enviarla desde allí.
 
@@ -105,3 +107,9 @@ Debe hacer lo siguiente para poder crear una solicitud a partir de un borrador:�
      ![](assets/nwe-submit-close-discard-draft-buttons-on-new-request-350x340.png)
 
      Al enviar la solicitud, el borrador se eliminará y no se podrá restaurar.
+
+   >[!NOTE]
+   >
+   >* <span class="preview">En la nueva experiencia de solicitud, los borradores están en la misma lista que las solicitudes enviadas.</span>
+   ><span class="preview">Para obtener más información sobre cómo crear solicitudes en la nueva experiencia, consulte [Crear solicitudes y generar borradores en la aplicación web de Workfront](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md#create-requests-and-generate-drafts-in-the-workfront-web-app) en el artículo Crear y enviar solicitudes.</span>
+

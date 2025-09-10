@@ -6,10 +6,10 @@ description: En Adobe Workfront, el trabajo planificado se representa mediante p
 author: Alina
 feature: Work Management
 exl-id: 8b023a3d-326d-4d63-9e1e-8171553a9e23
-source-git-commit: b24b1e481bbe726aaf9810124fcf55bdac866cb0
+source-git-commit: 2c2ccbadd6470773808bbd5a205310fbb1e1944e
 workflow-type: tm+mt
-source-wordcount: '2841'
-ht-degree: 77%
+source-wordcount: '2856'
+ht-degree: 76%
 
 ---
 
@@ -163,6 +163,7 @@ Para crear una solicitud en la aplicación web de Workfront:
    >* <span class="preview">La lista incluye tanto colas de solicitud de Workfront como formularios de solicitud de Workfront Planning.</span>
    >* <span class="preview">Puede filtrar la lista por tipo de objeto.</span>
    >* <span class="preview">Para mostrar solo las colas de solicitud de Workfront, filtre por `Issue` tipos de objetos.</span>
+   >* <span class="preview">En la nueva experiencia de solicitud, los borradores se encuentran en la misma lista que las solicitudes enviadas.</span>
 
 1. (Condicional) Si ha cambiado a la nueva experiencia que incluye Workfront Planning, seleccione los grupos de temas y los temas de la cola y continúe actualizando el formulario.
 
