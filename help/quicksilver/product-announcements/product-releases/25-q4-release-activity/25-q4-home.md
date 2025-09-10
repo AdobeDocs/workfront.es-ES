@@ -5,10 +5,10 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 2d8c5d2b-a026-4741-b907-aac4c0eac98f
-source-git-commit: 2fe55f61bd24ebb3ecfe09fff29c4aad2ca33608
+source-git-commit: f9e1bfc5670754a8fc4aafb360b41c2721de4154
 workflow-type: tm+mt
-source-wordcount: '188'
-ht-degree: 29%
+source-wordcount: '219'
+ht-degree: 25%
 
 ---
 
@@ -34,4 +34,8 @@ Para crear una experiencia más fluida entre Workfront y Workfront Planning, hem
 
 Debe tener la nueva experiencia de solicitud habilitada para ver el nuevo widget. Puede activar la nueva experiencia de solicitud en el área de solicitudes.
 
+El nuevo widget Mis solicitudes muestra solo las solicitudes creadas en la nueva experiencia de solicitud.
+
 Para obtener más información sobre el nuevo widget Mis solicitudes, consulte [Usar el widget Mis solicitudes](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md).
+
+Para ver la nota de la versión con respecto a la nueva experiencia solicitante, consulte [Actualizaciones en la solicitud de experiencia](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-requests.md#updates-to-requesting-experience).

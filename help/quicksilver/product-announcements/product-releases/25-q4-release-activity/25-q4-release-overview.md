@@ -5,10 +5,10 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 298473d4-7d7d-4401-80bf-899a01f570a6
-source-git-commit: 9be63f4242db71b2e08ae528f39d639f8f59c75c
+source-git-commit: f9e1bfc5670754a8fc4aafb360b41c2721de4154
 workflow-type: tm+mt
-source-wordcount: '1949'
-ht-degree: 17%
+source-wordcount: '1966'
+ht-degree: 16%
 
 ---
 
@@ -189,6 +189,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
                 <li>Integración con Workfront Planning para una mejor visibilidad de la asignación de recursos</li>
             </ul>
             </p>
+            <p>El nuevo widget Mis solicitudes muestra solo las solicitudes creadas en la nueva experiencia de solicitud.</p>
         </td>
         <td>viernes, 21 de agosto de 2025</td>
         <td>viernes, 11 de septiembre de 2025</td>
@@ -419,7 +420,7 @@ Para ofrecer integraciones más estables y escalables, estamos adoptando un enfo
 * Workfront para Salesforce.
 
 Recomendamos utilizar la automatización e integración de Workfront para las necesidades de integración de su organización con Google Workspace.
-Para obtener una descripción general de la automatización e integración de Workfront, consulte [Información general de Adobe Workfront Fusion](https://experienceleague.adobe.com/es/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+Para obtener una descripción general de la automatización e integración de Workfront, consulte [Información general de Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 
 ### Versión 20 de la API
 
