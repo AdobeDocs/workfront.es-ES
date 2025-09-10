@@ -4,9 +4,9 @@ description: El espacio de trabajo de GenStudio for Performance Marketing está 
 hide: true
 hidefromtoc: true
 exl-id: d6140b05-26c3-4298-a2f9-53695aa021cb
-source-git-commit: 9b95b5a52576327a3df8d6955925b96c2e45848f
+source-git-commit: 38c397594449856a0f1404848a527b86083654b8
 workflow-type: tm+mt
-source-wordcount: '1337'
+source-wordcount: '1335'
 ht-degree: 4%
 
 ---
@@ -42,7 +42,7 @@ Para obtener información general acerca de la integración de GenStudio con Wor
 >[!IMPORTANT]
 >
 >Los pasos descritos en este artículo ilustran cómo se puede actualizar el espacio de trabajo de GenStudio desde Workfront Planning cuando se tiene permisos de administración.
->&#x200B;> No todas las funciones están disponibles si tiene permisos de contribución en el espacio de trabajo de GenStudio.
+>> No todas las funciones están disponibles si tiene permisos de contribución en el espacio de trabajo de GenStudio.
 >
 >Si su empresa tiene varias instancias de Workfront, todos los usuarios obtienen permisos de contribución en el espacio de trabajo de GenStudio en Workfront Planning.
 
@@ -78,8 +78,8 @@ Para obtener información general acerca de la integración de GenStudio con Wor
 <tr> 
    <td role="rowheader"><p>Funciones de usuario de Adobe GenStudio for Performance Marketing</p></td> 
    <td><p><ul><li>Cualquier función de usuario de GenStudio para acceder a campañas, productos y personas</li>
-   <li>GenStudio System Manager para acceder a Activaciones y Eventos</li></ul>
-   Para obtener más información, consulte <a href="https://experienceleague.adobe.com/es/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">Funciones de usuario y permisos</a>. 
+   <li>GenStudio System Manager para acceder a las activaciones <!--and Events--></li></ul>
+   Para obtener más información, consulte <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">Funciones de usuario y permisos</a>. 
    </p>
   </td> 
   </tr>   

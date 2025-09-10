@@ -4,7 +4,7 @@ description: Puede habilitar un tipo de registro para que se agregue a otro espa
 hidefromtoc: true
 hide: true
 exl-id: d36ab9fb-0275-483d-97be-0a88e170f8e0
-source-git-commit: 9b95b5a52576327a3df8d6955925b96c2e45848f
+source-git-commit: 38c397594449856a0f1404848a527b86083654b8
 workflow-type: tm+mt
 source-wordcount: '1131'
 ht-degree: 7%
@@ -25,7 +25,7 @@ recommendations: noDisplay, noCatalog
 
 
 <!--this article is linked to the UI - do not delete or change the URL-->
-<!--add more info here about permissions, how users gain permissions from the original record type, per Lilit: users who add this to another space gain View permissions on that space when they add records to this imported record type - this info is in the UI - this is what she sent in figma:
+<!--add more info here about permissions, how users gain permissions from the original record type, per Lilit: users who add this to another space gain View permissions on that space when they add records to this added record type - this info is in the UI - this is what she sent in figma:
 
 Hey, Alina, Lusine. As this page contains not only the "global record types" but also cross-workspace connectivity setting, we shouldn't have this message that's highlighting only the global rt features. I think we should have explanation for each setting both in enabled and disabled states. 
 
@@ -54,7 +54,7 @@ Las siguientes son funciones de varios espacios de trabajo de los tipos de regis
 * Puede designar un tipo de registro como centralizado. Los usuarios pueden agregar tipos de registros centralizados a otros espacios de trabajo que pueden administrar.
 * Puede designar un tipo de registro como conectable. Los usuarios pueden conectarse a este tipo de registro desde otros espacios de trabajo.
 
-Primero debe definir las capacidades de un tipo de registro entre espacios de trabajo para que los administradores de espacios de trabajo puedan conectarlo o importarlo a otros espacios de trabajo.
+Primero debe definir las capacidades de un tipo de registro entre espacios de trabajo para que los administradores de espacios de trabajo puedan conectarlo desde o agregarlo a otros espacios de trabajo.
 
 Las funciones entre espacios de trabajo de un tipo de registro se definen al crear o editar un tipo de registro.
 

@@ -6,7 +6,7 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: a00776ecd9f8dc14b9dce14ce9463c2bb709a363
+source-git-commit: 38c397594449856a0f1404848a527b86083654b8
 workflow-type: tm+mt
 source-wordcount: '2688'
 ht-degree: 11%
@@ -246,6 +246,8 @@ Para obtener más información, consulte [Crear registros](/help/quicksilver/pla
 1. <span class="preview">Pase el ratón sobre los extremos de la barra de un registro, haga clic, arrastre y suelte su margen en otra fecha. Esto actualiza automáticamente la fecha de inicio o de finalización del registro.</span>
 
    <span class="preview">![Barra izquierda en la vista de escala de tiempo para cambiar el tamaño](assets/left-end-bar-handle-to-resize-timeline-view.png)</span>
+
+<!--1. <span class="preview">Click a record bar, then drag and drop it in another position to update its timeline and dates. The Start and End dates of the record update automatically.</span>-->
 
 1. Haga clic en la barra de un registro para abrir su área de detalles y editar todos los campos.
 

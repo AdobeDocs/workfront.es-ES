@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: a00776ecd9f8dc14b9dce14ce9463c2bb709a363
+source-git-commit: 38c397594449856a0f1404848a527b86083654b8
 workflow-type: tm+mt
-source-wordcount: '3910'
+source-wordcount: '3920'
 ht-degree: 44%
 
 ---
@@ -114,13 +114,6 @@ Tenga en cuenta lo siguiente:
    * Cuando las fechas de inicio y finalización no tienen valor
    * Cuando la fecha de inicio es posterior a la fecha de finalización
 
-<div class="preview">
-
-* Puede crear y editar registros en la vista de cronología. Para obtener más información, consulte [Crear registros](/help/quicksilver/planning/records/create-records.md).
-* Puede cambiar el tamaño de las barras de los registros en la vista de escala de tiempo haciendo clic en y arrastrando y soltando los márgenes en una nueva posición. Al cambiar el tamaño de las barras de los registros, se actualizan inmediatamente las fechas de inicio y finalización. Para obtener más información, consulte [Editar registros](/help/quicksilver/planning/records/edit-records.md).
-
-</div>
-
 Para administrar una vista de línea de tiempo:
 
 1. Vaya a la página del tipo de registro cuya línea de tiempo desea ver.
@@ -203,6 +196,20 @@ Para administrar una vista de línea de tiempo:
 1. (Opcional) Haga clic en **Desglose** para mostrar los registros conectados en la cronología.
 
    Para obtener más información, vea la sección [Use la característica Desglose para mostrar los registros conectados en la vista de escala de tiempo](#break-down-connected-records-in-the-timeline-view) en este artículo.
+1. <span class="preview">Para crear registros en la vista de escala de tiempo o editar sus fechas, siga uno de estos procedimientos:</span>
+
+   * <span class="preview">Haga doble clic en cualquier lugar de la escala de tiempo para crear un registro. </span>
+
+     <span class="preview">Para obtener más información, consulte [Crear registros](/help/quicksilver/planning/records/create-records.md).</span>
+
+   * <span class="preview">Haga clic al final de una barra de registros y arrástrela y suéltela en una nueva posición. Al cambiar el tamaño de las barras de los registros, se actualizan inmediatamente las fechas de inicio y finalización. </span>
+
+     <span class="preview">Para obtener más información, consulte [Editar registros](/help/quicksilver/planning/records/edit-records.md).</span>
+
+   <!--* <span class="preview">Drag and drop records to update their position and dates in the timeline.</span>
+        <span class="preview">For information, see [Edit records](/help/quicksilver/planning/records/edit-records.md).</span>-->
+
+
 
 ### Añadir filtros
 

@@ -6,7 +6,7 @@ description: Puede aplicar la vista de Hito a una lista de proyectos o a un info
 author: Courtney, Alina
 feature: Reports and Dashboards
 exl-id: c55e53b5-5559-4b6a-a8d7-5028be6af30f
-source-git-commit: 5590477efa2beb6590581ce9e5e33e264fb95390
+source-git-commit: 38c397594449856a0f1404848a527b86083654b8
 workflow-type: tm+mt
 source-wordcount: '1420'
 ht-degree: 67%
@@ -106,7 +106,7 @@ La vista de hito está disponible en listas de proyectos e informes de proyectos
 
 Para obtener información acerca de cómo cambiar a la vista de hito, consulte la sección [Cambiar a la vista de hito](#switch-to-the-milestone-view) en este artículo.
 
-<!--add new screen shot-->
+<!--add new screen shot for preview or prod release-->
 
 ![Proyecto con vista de hito](assets/project-with-milestone-view-with-complete.png)
 
@@ -145,7 +145,7 @@ Cuando se visualiza una lista de proyectos o un informe de proyectos en la vista
 
   Puede ajustar el porcentaje de finalización directamente desde la vista de hito, tal como se describe en la sección [Ajustar porcentaje completado para las tareas de la vista de hito](#adjust-percent-complete-for-tasks-in-the-milestone-view) de este artículo.
 
-* **Iconos de estado de progreso de la tarea:** Se muestra un icono de estado junto a cada proyecto y tarea en la vista Hito. <!--get new screen shots or hide them - could not display all in devtest; idea: use color dots from Task Details tab - New status is blue; Some concerns condition is yellow etc-->
+* **Iconos de estado de progreso de la tarea:** Se muestra un icono de estado junto a cada proyecto y tarea en la vista Hito. <!--get new screen shots or hide them for preview or prod - could not display all in devtest; idea: use color dots from Task Details tab - New status is blue; Some concerns condition is yellow etc-->
 
   <!--A progress status icon in the shape of a colored circle displays next to each project and task in the Milestone view. The possible statuses and circle colors are: 
    * On Time - green
@@ -200,7 +200,7 @@ Cuando se visualiza una lista de proyectos o un informe de proyectos en la vista
 
    * No se asigna ningún sombreado de color a las columnas Inicio y Finalización cuando las tareas tienen un estado de progreso de En riesgo o Retrasado.
 
-  <!--add new screen shot-->
+  <!--add new screen shot for preview or prod release-->
 
   ![Vista de hito con sombreado](assets/milestone-view-with-shading.png)
 
@@ -240,7 +240,7 @@ Para configurar si se muestran los iconos de estado del proyecto y el porcentaje
 1. Haga clic en el menú desplegable **Vista** y luego haga clic en **Hito**.
    <!--No longer available: If you are viewing a list of projects inside a Portfolio or a Program, select the **Milestone** subtab.  -->
 
-1. &#x200B;<!--In the Production environment,--> Haga clic en **Opciones** en la esquina superior derecha de la vista de hito.
+1. <!--In the Production environment,--> Haga clic en **Opciones** en la esquina superior derecha de la vista de hito.
 
    <!--<div class="preview">In the Preview environment, select from the options in the next step, from the upper-right corner of the Milestone view.</div>-->
 
@@ -277,6 +277,6 @@ Para ajustar el porcentaje completado de una tarea en la vista de hito:
 
 1. (Condicional) Si los porcentajes de finalización no se muestran actualmente en la vista Hito, habilite la vista Porcentaje completado de tareas y proyectos, tal como se describe en la sección [Configurar la información que se muestra en la vista Hito](#configure-what-information-displays-in-the-milestone-view) de este artículo.
 
-1. &#x200B;<!--In the Production environment,--> Haga clic en el porcentaje de finalización debajo de una tarea, especifique un nuevo porcentaje y pulse Intro.
+1. <!--In the Production environment,--> Haga clic en el porcentaje de finalización debajo de una tarea, especifique un nuevo porcentaje y pulse Intro.
 
    <!--<div class="preview">In the Preview environment, move the Percent Complete slide to the new percent complete to update it. </div>-->

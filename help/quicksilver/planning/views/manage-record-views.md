@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: a4bb3582eb476acbefa5d11db1f2c06eafc13cdd
+source-git-commit: 38c397594449856a0f1404848a527b86083654b8
 workflow-type: tm+mt
-source-wordcount: '1211'
+source-wordcount: '1216'
 ht-degree: 51%
 
 ---
@@ -52,7 +52,7 @@ Para obtener más información sobre la administración de vistas de registros d
 
 ## Requisitos de acceso
 
-+++ Amplíe para ver los requisitos de acceso.
++++ Amplíe para ver los requisitos de acceso. 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -119,7 +119,7 @@ Para obtener más información sobre la administración de vistas de registros d
 
 *Para obtener más información sobre los requisitos de acceso de Workfront, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-+++
++++   
 
 ## Consideraciones al trabajar con vistas de registros
 
@@ -170,6 +170,7 @@ En la tabla siguiente se muestran las similitudes y diferencias entre las vistas
 | Mostrar registros por semana |           |               | ✓ |
 | Exportación de información desde una vista | ✓ |               |    |
 | <span class="preview">Pantalla completa</span> | ✓ | ✓ | ✓ |
+| <span class="preview">Crear registros en la vista</span> | ✓ | ✓ | ✓ |
 
 ## Crear o editar vistas {#create-or-edit-views}
 
@@ -187,6 +188,12 @@ En la tabla siguiente se muestran las similitudes y diferencias entre las vistas
    De forma predeterminada, todos los registros del tipo seleccionado se muestran en la vista de tabla.
 
 1. Haga clic en **+ Vista** para añadir una vista nueva.
+
+   <!--at preview release, replace the step above with this one: 
+    1. Depending on which environment you use, do the following: 
+    * In the Production environment, click the **+View** tab. 
+    * <span class="preview">In the Preview environment, click the drop-down icon ![Dropdown icon](assets/drop-down-icon.png) next to the current view name, then click **+New view**.</span>-->
+
 1. Seleccione entre los siguientes tipos de vistas:
 
    * Tabla
@@ -206,6 +213,8 @@ En la tabla siguiente se muestran las similitudes y diferencias entre las vistas
 >
 >De lo contrario, las opciones Línea de tiempo y Calendario aparecen atenuadas.
 >
+
+<!-- replace screen shot at production??-->
 
 ![Lista desplegable de tipos de vista de la lista de tipos de registro](assets/view-types-drop-down-from-record-type-list.png)
 

@@ -4,9 +4,9 @@ description: El espacio de trabajo de GenStudio for Performance Marketing está 
 hide: true
 hidefromtoc: true
 exl-id: 3b2fc764-f384-41bb-9d88-b2b88434ffc6
-source-git-commit: 3667359ba2c6ea0aab3ce6845f1a537183f304ec
+source-git-commit: 38c397594449856a0f1404848a527b86083654b8
 workflow-type: tm+mt
-source-wordcount: '1899'
+source-wordcount: '1906'
 ht-degree: 2%
 
 ---
@@ -34,7 +34,7 @@ recommendations: noDisplay, noCatalog
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
-Las organizaciones que utilizan Adobe Workfront Planning y Adobe GenStudio for Performance Marketing suelen definir los conceptos de marketing como Campañas, Productos y Personas con más detalle que lo que GenStudio admite de forma predeterminada.
+Las organizaciones que utilizan Adobe Workfront Planning y Adobe GenStudio for Performance Marketing suelen definir conceptos de marketing como Campañas, Productos, Activaciones y Personas con más detalle de lo que GenStudio admite de forma predeterminada.
 
 Existe una integración nativa entre GenStudio for Performance Marketing y Workfront Planning. Esta integración permite a los usuarios de Workfront Planning administrar las campañas, los productos, las personas, las activaciones, los canales y las regiones utilizados en GenStudio. También les permite configurar GenStudio para que haga referencia a los tipos de registros existentes de Workfront Planning, lo que crea un flujo de trabajo de marketing más conectado y coherente.
 
@@ -47,8 +47,8 @@ Con la integración entre Workfront Planning y GenStudio for Performance Marketi
 <!--check this list and ensure it's accurate and add/ remove some of the benefits-->
 
 * Vea el espacio de trabajo de GenStudio en Workfront Planning.
-* Modifique sus campañas en GenStudio for Performance Marketing y tenga actualizaciones en tiempo real de la misma información en Workfront Planning.
-* Modifique sus campañas en Workfront Planning y tenga actualizaciones en tiempo real de la misma información en GenStudio for Performance Marketing.
+* Modifique sus campañas, productos, personalidades y activaciones en GenStudio for Performance Marketing y tenga actualizaciones en tiempo real de la misma información en Workfront Planning.
+* Modifique sus campañas, productos, personalidades y activaciones en Workfront Planning y tenga actualizaciones en tiempo real de la misma información en GenStudio for Performance Marketing.
 * Evite la entrada de datos duplicados.
 * Mantenga la alineación entre los esfuerzos de planificación y activación.
 
@@ -102,8 +102,8 @@ Su organización debe cumplir los siguientes requisitos para que exista la integ
 <tr> 
    <td role="rowheader"><p>Funciones de usuario de Adobe GenStudio for Performance Marketing</p></td> 
    <td><p><ul><li>Cualquier función de usuario de GenStudio para acceder a campañas, productos y personas</li>
-   <li>GenStudio System Manager para acceder a Activaciones y Eventos</li></ul>
-   Para obtener más información, consulte <a href="https://experienceleague.adobe.com/es/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">Funciones de usuario y permisos</a>. 
+   <li>GenStudio System Manager para acceder a las activaciones <!--and Events--></li></ul>
+   Para obtener más información, consulte <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">Funciones de usuario y permisos</a>. 
    </p>
   </td> 
   </tr>   
