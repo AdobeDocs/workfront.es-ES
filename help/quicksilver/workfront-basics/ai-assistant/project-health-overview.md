@@ -7,10 +7,10 @@ feature: Get Started with Workfront
 exl-id: e4d200c6-7f35-4919-96d3-2880a655ed62
 hide: true
 hidefromtoc: true
-source-git-commit: 97b2118b1897f75dea0e45758e3d7f7c3409b234
+source-git-commit: 16e8213197e881d4d7b1a4b1bf8d3a43438ab938
 workflow-type: tm+mt
-source-wordcount: '1862'
-ht-degree: 2%
+source-wordcount: '1488'
+ht-degree: 4%
 
 ---
 
@@ -121,18 +121,47 @@ A continuación se muestran las condiciones disponibles que el Asistente de inte
     <tr>
         <td><b>Condición del proyecto</b></td>
         <td><b>Estado de progreso del proyecto</b></td>
+        <td><b>Factores de condición del proyecto</b></td>
     </tr>
     <tr>
         <td>Bien encaminado</td>
-        <td>Cuando el estado del progreso del proyecto es A tiempo, la condición del proyecto es A tiempo.</td>
+        <td>Este análisis se asigna cuando el nivel de riesgo medio de los siguientes factores se encuentra dentro del umbral adecuado.
+        </td>
+        <td> 
+        <ul><li>Desviación del alcance</li>
+        <li>Faltan campos</li>
+        <li>Programar cambios</li>
+        <li>Trabajo subestimado</li>
+        <li>Progreso del proyecto</li>
+        <li>Tareas vencidas</li>
+        <li>Presupuesto</li>
+        </ul></td>
     </tr>
     <tr>
         <td>En riesgo</td>
-        <td>Cuando el estado del progreso del proyecto es Retrasado o En riesgo, la condición del proyecto es En riesgo.</td>
+        <td>Este análisis se asigna cuando el nivel de riesgo medio de los siguientes factores cae justo por debajo del umbral adecuado.</td>
+        <td>
+        <ul><li>Desviación del alcance</li>
+        <li>Faltan campos</li>
+        <li>Programar cambios</li>
+        <li>Trabajo subestimado</li>
+        <li>Progreso del proyecto</li>
+        <li>Tareas vencidas</li>
+        <li>Presupuesto</li>
+        </ul></td>
     </tr>
     <tr>
         <td>Con problemas</td>
-        <td>Cuando el estado del progreso del proyecto es Retrasado, la condición del proyecto es En riesgo.</td>
+        <td>Este análisis se asigna cuando el nivel de riesgo medio de los factores siguientes cae por debajo del umbral adecuado.</td>
+        <td>
+        <ul><li>Desviación del alcance</li>
+        <li>Faltan campos</li>
+        <li>Programar cambios</li>
+        <li>Trabajo subestimado</li>
+        <li>Progreso del proyecto</li>
+        <li>Tareas vencidas</li>
+        <li>Presupuesto</li>
+        </ul></td>
     </tr>
     </tr>
    </table>
@@ -264,57 +293,60 @@ Un proyecto solo se incluirá en la evaluación combinada del estado del proyect
 
 1. Después de revisar los detalles de estado de los proyectos, haga clic en el icono **Cerrar** ![Cerrar icono](assets/close-icon.png) en la esquina superior derecha del Ayudante de IA para cerrarlo.
 
+<!--
 
-## Crear un informe de tabla de estado de proyecto en un panel de lienzo
+## Build a Project Health table report in a Canvas Dashboard
 
 >[!IMPORTANT]
 >
->Actualmente, la función Paneles de lienzo solo está disponible para los usuarios que participan en la fase beta. Para obtener más información, consulte [Información beta de paneles de lienzo](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md).
+>The Canvas Dashboards feature is currently only available for users participating in the beta stage. For more information, see [Canvas Dashboards beta information](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md). 
 
-Puede agregar un informe de tabla a un panel de lienzo para visualizar fácilmente los datos del estado del proyecto en formato de tabla.
+You can add a table report to a Canvas Dashboard in order to easily visualize your Project Health data in a table format.  
 
-### Requisitos previos
+### Prerequisites 
 
-Debe crear un tablero para poder crear un informe de tabla.
+You must create a dashboard before you can build a table report. 
 
-Para obtener más información, consulte [Crear un panel de lienzo](/help/quicksilver/reports-and-dashboards/canvas-dashboards/create-dashboards/create-dashboards.md).
+For more, see [Create a Canvas Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/create-dashboards/create-dashboards.md).
 
-### Generar un informe de tabla Estado del proyecto
+### Build a Project Health table report 
 
-Hay muchas opciones de configuración disponibles para crear un informe de tabla Estado del proyecto. En esta sección, le guiaremos por el proceso de creación de uno que muestre las siguientes columnas:
+There are many configuration options available for building a Project Health table report. In this section, we'll walk you through the process of creating one that displays the following columns: 
 
-* **Nombre**: contiene el nombre del proyecto.
-* **Análisis del estado del proyecto**: contiene un resumen de la evaluación del estado del proyecto.
-* **Se creó el estado del proyecto a las**: contiene la fecha y la hora en que se generó por última vez la evaluación del estado del proyecto.
-* **Etiqueta de mantenimiento del proyecto**: contiene la etiqueta del proyecto (p. ej. En el objetivo, en riesgo o con problemas).
+* **Name**: Contains the project name. 
+* **Project Health Analysis**: Contains a summary of the Project Health assessment. 
+* **Project Health Created At**: Contains the date/time when the Project Health assessment was last generated. 
+* **Project Health Label**: Contains the project's label (e.g. On Target, At Risk, or In Trouble).
 
 {{step1-to-dashboards}}
 
-1. En el panel izquierdo, haga clic en **Paneles de control de lienzo**.
-1. En la esquina superior derecha, haga clic en **Nuevo panel**.
-1. En el cuadro **Crear tablero**, escriba el **Nombre** y la **Descripción** del tablero.
-1. Haga clic en **Crear**.
-1. En el cuadro **Agregar informe**, seleccione **Crear informe**.
-1. En el lado izquierdo, seleccione **Tabla**.
-1. En la esquina superior derecha, haga clic en **Crear informe**.
-1. (Opcional) Siga los pasos a continuación para configurar la sección **Detalles** ![Icono de detalles](assets/details-icon.png):
-   1. Escriba un informe **Nombre**.
-   1. Escriba un informe **Descripción**.
-1. Siga los pasos a continuación para configurar la sección **Generar tabla** ![icono de generación de tabla](assets/drilldown-column.png):
-   1. En el panel izquierdo, haga clic en el icono **Columnas de tabla**.
-   1. Haga clic en **Agregar columna** y luego seleccione **Proyecto** > **Nombre**.
-   1. Haga clic en **Agregar columna** y, a continuación, seleccione **Proyecto** > **Estado del proyecto** > **Análisis de estado**.
-   1. Haga clic en **Agregar columna** y, a continuación, seleccione **Proyecto** > **Estado del proyecto** > **Creado a las**.
-   1. Haga clic en **Agregar columna** y, a continuación, seleccione **Proyecto** > **Estado del proyecto** > **Etiqueta de estado**.
+1. In the left panel, click **Canvas Dashboards**. 
+1. In the upper-right corner, click **New Dashboard**. 
+1. In the **Create dashboard** box, enter the dashboard's **Name** and **Description**. 
+1. Click **Create**. 
+1. In the **Add report** box, select **Create report**. 
+1. On the left side, select **Table**. 
+1. In the upper-right corner, click **Create report**. 
+1. (Optional) Follow the steps below to configure the **Details** ![Details icon](assets/details-icon.png) section: 
+    1. Enter a report **Name**. 
+    1. Enter a report **Description**. 
+1. Follow the steps below to configure the **Build table** ![Build table icon](assets/drilldown-column.png) section: 
+    1. In the left panel, click the **Table columns** icon. 
+    1. Click **Add column**, then select **Project** > **Name**. 
+    1. Click **Add column**, then select **Project** > **Project Health** > **Health Analysis**. 
+    1. Click **Add column**, then select **Project** > **Project Health** > **Created At**. 
+    1. Click **Add column**, then select **Project** > **Project Health** > **Health Label**. 
 
-1. Siga los pasos a continuación para configurar la sección **Filtro** ![Icono de filtro](assets/filter-icon.png):
-   1. En el panel izquierdo, haga clic en el icono **Filtro**.
-   1. Seleccione **Editar filtro**.
-   1. Haga clic en **Agregar condición** y, a continuación, especifique el campo por el que desea filtrar y el modificador que define qué tipo de condición debe cumplir el campo. La columna aparece en la sección de vista previa de la derecha.
-   1. (Opcional) Haga clic en **Agregar grupo de filtros** para agregar otro conjunto de criterios de filtrado. El operador predeterminado entre los conjuntos es Y. Haga clic en el operador para cambiarlo a OR.
+1. Follow the steps below to configure the **Filter** ![Filter icon](assets/filter-icon.png) section: 
+    1. In the left panel, click the **Filter** icon. 
+    1. Select **Edit filter**. 
+    1. Click **Add condition** and then specify the field you want to filter by and the modifier that defines what kind of condition the field must meet. The column appears in the preview section on the right.
+    1. (Optional) Click **Add filter group** to add another set of filtering criteria. The default operator between the sets is AND. Click the operator to change it to OR. 
 
-1. Siga los pasos a continuación para configurar la sección **Configuración del grupo de desglose** ![Configuración del grupo](assets/drilldown-group-icon.png):
-   1. En el panel izquierdo, haga clic en el icono **Configuración de grupo**.
-   1. Haga clic en el botón **Agregar agrupación** y, a continuación, seleccione el campo que desee crear como agrupación. La columna de agrupación aparece en la sección de vista previa de la derecha.
+1. Follow the steps below to configure the **Drilldown Group Settings** ![Group settings](assets/drilldown-group-icon.png) section: 
+    1. In the left panel, click the **Group Settings** icon. 
+    1. Click the **Add grouping** button and then select the field you want to create as a grouping. The grouping column appears in the preview section on the right. 
 
-1. Haga clic en **Guardar** para crear el informe.
+1. Click **Save** to create the report.
+
+-->
