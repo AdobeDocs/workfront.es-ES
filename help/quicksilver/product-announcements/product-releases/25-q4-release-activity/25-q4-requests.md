@@ -5,10 +5,10 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: bd73b7df-ad4e-43dc-8ddf-23e0da24ec0f
-source-git-commit: f9e1bfc5670754a8fc4aafb360b41c2721de4154
+source-git-commit: a6aa03157d44da8267faaa77bed83f07a03a24b3
 workflow-type: tm+mt
-source-wordcount: '318'
-ht-degree: 15%
+source-wordcount: '341'
+ht-degree: 14%
 
 ---
 
@@ -52,7 +52,7 @@ Esta actualización también incluye cambios en el aspecto de la página.
 
 Tenga en cuenta lo siguiente al utilizar la nueva experiencia de solicitud:
 
-* Los borradores ahora se encuentran en la misma lista que las solicitudes enviadas
+* Actualmente solo puede encontrar borradores en la experiencia de solicitud heredada. En la nueva experiencia, solo puede ver borradores cuando está en una cola de flujo de trabajo si tiene un borrador en la misma ruta.
 * Actualmente, la nueva experiencia solo muestra solicitudes creadas en los últimos 1,5 meses. Para ver solicitudes anteriores, puede deshabilitar temporalmente la nueva experiencia y acceder a las solicitudes anteriores a través de la experiencia anterior.
 
 Anteriormente, las solicitudes de Workfront y Workfront Planning estaban en pestañas independientes y los filtros no se podían personalizar.
