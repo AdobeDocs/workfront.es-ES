@@ -84,7 +84,7 @@ Para poder vincular elementos entre [!DNL Workfront] y [!DNL Jira], debe
 
   Para obtener instrucciones sobre la instalación de [!DNL Workfront for Jira], consulte [Instalar [!DNL Adobe Workfront for Jira]](../../workfront-integrations-and-apps/use-workfront-with-jira/install-workfront-for-jira.md).
 
-## Acceder al registro de actividad [!UICONTROL [!DNL Jira] ]:
+## Acceder al registro de actividad [!UICONTROL [!DNL Jira] &#x200B;]:
 
 1. Inicie sesión en Jira como administrador del sistema.
 1. Haga clic en **[!UICONTROL Configuración]** en el menú principal de [!DNL Jira].
