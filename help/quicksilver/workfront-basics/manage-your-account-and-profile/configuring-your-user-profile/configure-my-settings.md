@@ -6,9 +6,9 @@ description: Tu perfil  [!DNL Adobe Workfront] contiene información sobre ti mi
 author: Lisa, Courtney
 feature: Get Started with Workfront
 exl-id: 0199bf74-0611-48f0-9c05-da6afac85033
-source-git-commit: 5ecf925ce1fdf5da75b0736d226b11ce6cbaf3fd
+source-git-commit: de7432c66d9d71a4c1b0b4b6c43b306d0fae9fef
 workflow-type: tm+mt
-source-wordcount: '3149'
+source-wordcount: '3317'
 ht-degree: 5%
 
 ---
@@ -249,19 +249,16 @@ Puede cambiar cualquiera de las siguientes opciones en esta subsección:
    <td role="rowheader"><strong>[!UICONTROL Cambiar contraseña]</strong></td> 
    <td>Restablezca la contraseña en esta sección. Para obtener más información sobre cómo restablecer la contraseña, consulte <a href="../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/reset-your-password.md" class="MCXref xref">Restablecer la contraseña</a>.</td> 
   </tr> 
- </tbody> 
-</table>
-
-<!--
   <tr> 
-   <td role="rowheader"><strong>(Conditional) &lt;SSO Configuration> [!UICONTROL Username]</strong></td> 
-   <td> If your [!DNL Workfront] administrator enabled an SSO integration with [!DNL Workfront], your SSO Username displays in this field. The type of SSO configuration enabled for your [!DNL Workfront] instance is visible in this field.</td> 
+   <td role="rowheader"><strong>(Condicional) &lt;Configuración de SSO&gt; [!UICONTROL Nombre de usuario]</strong></td> 
+   <td> Si el administrador de [!DNL Workfront] habilitó una integración de SSO con [!DNL Workfront], en este campo se mostrará el nombre de usuario de SSO. El tipo de configuración de SSO habilitada para la instancia [!DNL Workfront] se puede ver en este campo.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>(Conditional) [!UICONTROL Only Allow &lt;SSO Configuration> Authentication]</strong></td> 
-   <td> <p> If your [!DNL Workfront] administrator enabled an SSO integration with [!DNL Workfront] and has updated users for SSO, this field is selected by default. The type of SSO configuration enabled for your [!DNL Workfront] instance is visible in this field.</p> <p>When this field is selected, you are required you to log into [!DNL Workfront] with your SSO credentials. Unchecking it will allow you to log in to [!DNL Workfront] with your [!DNL Workfront] credentials.</p> <p>For more information about configuring [!DNL Workfront] with an SSO solution, see <a href="../../../administration-and-setup/add-users/single-sign-on/single-sign-on.md" class="MCXref xref">Single sign-on in [!DNL Workfront]: article index</a>. For more information about updating users for SSO, see <a href="../../../administration-and-setup/add-users/single-sign-on/update-users-sso.md" class="MCXref xref">Update users for single sign-on</a>.</p> </td> 
+   <td role="rowheader"><strong>(Condicional) [!UICONTROL Solamente permitir autenticación &lt;SSO Configuration&gt;]</strong></td> 
+   <td> <p> Si el administrador de [!DNL Workfront] habilitó una integración de SSO con [!DNL Workfront] y actualizó a los usuarios para SSO, este campo está seleccionado de manera predeterminada. El tipo de configuración de SSO habilitada para la instancia [!DNL Workfront] se puede ver en este campo.</p> <p>Cuando se selecciona este campo, es necesario que inicie sesión en [!DNL Workfront] con sus credenciales de SSO. Si lo desmarca, podrá iniciar sesión en [!DNL Workfront] con sus credenciales de [!DNL Workfront].</p> <p>Para obtener más información acerca de cómo configurar [!DNL Workfront] con una solución SSO, vea <a href="../../../administration-and-setup/add-users/single-sign-on/single-sign-on.md" class="MCXref xref">Inicio de sesión único en [!DNL Workfront]: índice de artículo</a>. Para obtener más información sobre cómo actualizar usuarios para SSO, consulte <a href="../../../administration-and-setup/add-users/single-sign-on/update-users-sso.md" class="MCXref xref">Actualizar usuarios para el inicio de sesión único</a>.</p> </td> 
   </tr>
--->
+ </tbody> 
+</table>
 
 #### [!UICONTROL Información de trabajo]
 
@@ -344,6 +341,9 @@ Puede cambiar cualquiera de las siguientes opciones en esta subsección:
    <td role="rowheader"><strong>[!UICONTROL Email Locale]</strong> </td> 
    <td><p>Especifique su idioma preferido aquí. Controla el idioma, la fecha y el formato de número utilizado en los mensajes de correo electrónico salientes.</p>
    <p><strong>NOTA:</strong> Cuando su organización se encuentra en la experiencia unificada de Adobe, las preferencias de idioma se almacenan en su perfil de Adobe y no se utiliza la configuración regional de correo electrónico. Para obtener más información, consulte <a href="/help/quicksilver/workfront-basics/supported-languages-in-workfront.md#change-the-adobe-experience-cloud-language">Cambiar el idioma de Adobe Experience Cloud</a> en el artículo <a href="/help/quicksilver/workfront-basics/supported-languages-in-workfront.md">Idiomas compatibles en Adobe Workfront</a>.</p></td> 
+  </tr>
+  <tr><td><strong>[!UICONTROL Enviar trabajo que me asigne a mí mismo a mi ficha Trabajando en]</strong> </td>
+  <td>Seleccione esta opción si desea que el estado del trabajo que se asigna a sí mismo se establezca automáticamente como En curso en lugar de Nuevo.</td>
   </tr>
   <tr> 
    <td role="rowheader"><strong>(Condicional) Generar automáticamente pruebas al cargar documentos</strong></td> 
@@ -506,7 +506,7 @@ Utilice cualquiera de las siguientes opciones en esta sección:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!UICONTROL FTE]</strong> </td> 
-   <td> <p>El número que especifique aquí se tiene en cuenta para calcular su disponibilidad según el horario predeterminado sólo cuando las [!UICONTROL Preferencias de administración de recursos] en el nivel del sistema están establecidas en <strong>[!UICONTROL Horario predeterminado]</strong>.</p> <p>Por ejemplo, si el valor de FTE es 0,5 y el horario predeterminado de  es 40 horas, puede trabajar durante 20 horas a la semana.</p> <p>Si las [!UICONTROL Preferencias de administración de recursos] en el nivel del sistema están establecidas en <strong>[!UICONTROL Horario del usuario]</strong>, el valor que especifique aquí se omitirá y podrá trabajar según lo especificado en su horario. En este caso, el valor de FTE para [!UICONTROL Resource Planner] se calcula mediante la fórmula siguiente: </p> <p><code style="font-style: normal;">[!UICONTROL User Available FTE] = [!UICONTROL Hours from the Schedule of the User/ Default Schedule Hours]</code> </p> <p>Para obtener más información sobre el cálculo de FTE de usuario, vea <a href="../../../resource-mgmt/resource-planning/calculate-hours-fte-for-users-roles-resource-planner.md" class="MCXref xref">Información general sobre el cálculo de horas y FTE para usuarios y roles en el Planificador de recursos</a>.</p> <p>Para obtener más información acerca de la creación de programaciones en [!DNL Workfront], vea <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">Crear una programación</a>.</p> <p>Para obtener más información acerca de cómo configurar las preferencias de administración de recursos, vea <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md" class="MCXref xref">Configurar las preferencias de administración de recursos</a>.</p> </td> 
+   <td> <p>El número que especifique aquí se tiene en cuenta para calcular su disponibilidad según el horario predeterminado sólo cuando las [!UICONTROL Preferencias de administración de recursos] en el nivel del sistema están establecidas en <strong>[!UICONTROL Horario predeterminado]</strong>.</p> <p>Por ejemplo, si el valor de FTE es 0,5 y el horario predeterminado de [!UICONTROL] es 40 horas, puede trabajar durante 20 horas a la semana.</p> <p>Si las [!UICONTROL Preferencias de administración de recursos] en el nivel del sistema están establecidas en <strong>[!UICONTROL Horario del usuario]</strong>, el valor que especifique aquí se omitirá y podrá trabajar según lo especificado en su horario. En este caso, el valor de FTE para [!UICONTROL Resource Planner] se calcula mediante la fórmula siguiente: </p> <p><code style="font-style: normal;">[!UICONTROL User Available FTE] = [!UICONTROL Hours from the Schedule of the User/ Default Schedule Hours]</code> </p> <p>Para obtener más información sobre el cálculo de FTE de usuario, vea <a href="../../../resource-mgmt/resource-planning/calculate-hours-fte-for-users-roles-resource-planner.md" class="MCXref xref">Información general sobre el cálculo de horas y FTE para usuarios y roles en el Planificador de recursos</a>.</p> <p>Para obtener más información acerca de la creación de programaciones en [!DNL Workfront], vea <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">Crear una programación</a>.</p> <p>Para obtener más información acerca de cómo configurar las preferencias de administración de recursos, vea <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md" class="MCXref xref">Configurar las preferencias de administración de recursos</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!UICONTROL Costo por hora]</strong> </td> 
