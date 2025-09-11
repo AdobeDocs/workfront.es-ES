@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 5027d611-916e-492d-9a44-841bdde11c94
-source-git-commit: 3667359ba2c6ea0aab3ce6845f1a537183f304ec
+source-git-commit: d7af8c5888147e847b4e239b629373b4b72541f7
 workflow-type: tm+mt
-source-wordcount: '889'
-ht-degree: 40%
+source-wordcount: '990'
+ht-degree: 35%
 
 ---
 
@@ -113,17 +113,16 @@ Para obtener más información, consulte la sección “Fórmula” en el artíc
   Para obtener más información, consulte la sección &quot;Fórmula&quot; en el artículo [Crear campos](/help/quicksilver/planning/fields/create-fields.md).
 * Puede hacer referencia a los campos de fórmula en las fórmulas nuevas. Una vez que el valor se actualiza en un campo al que se hace referencia en un campo de fórmula, todos los campos subsiguientes que hagan referencia a ese campo o a los campos de fórmula que contengan ese campo se actualizarán automáticamente.
 
-<!--
 <div class="preview">
 
-* When you update a formula field or a field that could impact it, an alert notifies you of the impact of your change. The alert displays in the following cases:   
+* Al actualizar un campo de fórmula o un campo que pueda afectarlo, una alerta le notifica el impacto del cambio. La alerta se muestra en los siguientes casos:
 
-   * When you update a formula field (excluding name and description changes) when that field has dependent formula or lookup fields. The alert lists those dependent fields and asks you whether you want to continue. 
+   * Cuando se actualiza un campo de fórmula (sin incluir los cambios de nombre y descripción) cuando ese campo tiene campos de fórmula o búsqueda dependientes. La alerta muestra esos campos dependientes y le pregunta si desea continuar.
 
-   * When you delete a field that is used in a formula expression or as a lookup field. The alert lists the dependent formula and lookup fields and asks you whether you want to continue with the deletion.
+   * Cuando se elimina un campo que se utiliza en una expresión de fórmula o como campo de búsqueda. La alerta muestra los campos de fórmula y búsqueda dependientes y le pregunta si desea continuar con la eliminación.
 
 </div>
--->
+
 
 
 <div class="preview">
