@@ -6,7 +6,7 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 38c397594449856a0f1404848a527b86083654b8
+source-git-commit: ff5bc262a5ed2a22099c058ebdb61bc32485b201
 workflow-type: tm+mt
 source-wordcount: '3920'
 ht-degree: 44%
@@ -187,12 +187,6 @@ Para administrar una vista de línea de tiempo:
 
    1. <span class="preview">(Opcional) Haga clic en el icono **Pantalla completa** ![Abrir icono de pantalla completa](assets/open-full-screen-icon.png) para abrir la vista en pantalla completa y, a continuación, en el icono **Salir de pantalla completa** ![Salir del icono de pantalla completa](assets/exit-full-screen-icon.png) o Escape del teclado para salir de la pantalla completa.  </span>
 
-1. Actualice los siguientes elementos de vista como se describe en las subsecciones siguientes:
-   * [Filtros](#add-filters)
-   * [Agrupación](#add-grouping)
-   * [Configuración](#edit-the-timeline-view-settings)
-     <!--* [Sort](#add-sort) not yet in timeline; also check the anchor and make sure it's correct-->
-
 1. (Opcional) Haga clic en **Desglose** para mostrar los registros conectados en la cronología.
 
    Para obtener más información, vea la sección [Use la característica Desglose para mostrar los registros conectados en la vista de escala de tiempo](#break-down-connected-records-in-the-timeline-view) en este artículo.
@@ -209,7 +203,11 @@ Para administrar una vista de línea de tiempo:
    <!--* <span class="preview">Drag and drop records to update their position and dates in the timeline.</span>
         <span class="preview">For information, see [Edit records](/help/quicksilver/planning/records/edit-records.md).</span>-->
 
-
+1. Actualice los siguientes elementos de vista como se describe en las subsecciones siguientes:
+   * [Filtros](#add-filters)
+   * [Agrupación](#add-grouping)
+   * [Configuración](#edit-the-timeline-view-settings)
+     <!--* [Sort](#add-sort) not yet in timeline; also check the anchor and make sure it's correct-->
 
 ### Añadir filtros
 

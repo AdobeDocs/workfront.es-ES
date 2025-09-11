@@ -4,9 +4,9 @@ description: Puede habilitar un tipo de registro para que se agregue a otro espa
 hidefromtoc: true
 hide: true
 exl-id: d36ab9fb-0275-483d-97be-0a88e170f8e0
-source-git-commit: 38c397594449856a0f1404848a527b86083654b8
+source-git-commit: ff5bc262a5ed2a22099c058ebdb61bc32485b201
 workflow-type: tm+mt
-source-wordcount: '1131'
+source-wordcount: '1134'
 ht-degree: 7%
 
 ---
@@ -118,7 +118,7 @@ Un gestor de espacio de trabajo puede añadir un tipo de registro centralizado a
 
 Los usuarios pueden agregar registros a un tipo de registro centralizado desde cualquier espacio de trabajo para el que tengan permisos de contribución y donde se agregue el tipo de registro centralizado, incluido su espacio de trabajo original. Pueden ver registros del espacio de trabajo para el que solo tienen permisos de visualización.
 
-Para obtener más información, vea [Información general sobre los tipos de registros centralizados](/help/quicksilver/planning/architecture/centralized-record-types-overview.md)
+Para obtener más información, vea [Información general sobre los tipos de registros entre espacios de trabajo](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md)
 
 Para configurar la adición de un tipo de registro como tipo de registro centralizado:
 
@@ -179,7 +179,7 @@ O
      Este campo es de solo lectura y no se puede eliminar.
 1. (Opcional) Vaya a otro espacio de trabajo y cree un tipo de registro utilizando un tipo de registro existente. Seleccione el tipo de registro que ha activado en los pasos anteriores.
 
-   Para obtener más información, vea [Agregar tipos de registros existentes](/help/quicksilver/planning/architecture/add-cross-workspace-record-types.md).
+   Para obtener más información, vea [Agregar tipos de registros existentes desde otro área de trabajo](/help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md).
 
 ## Configurar tipos de registros conectables
 

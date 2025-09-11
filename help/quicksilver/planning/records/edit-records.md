@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 38c397594449856a0f1404848a527b86083654b8
+source-git-commit: ff5bc262a5ed2a22099c058ebdb61bc32485b201
 workflow-type: tm+mt
-source-wordcount: '2688'
+source-wordcount: '2701'
 ht-degree: 11%
 
 ---
@@ -97,7 +97,6 @@ Para obtener información sobre cómo crear registros, vea [Crear registros](/he
 
 +++   
 
-
 ## Consideraciones acerca de la edición de registros
 
 * Puede editar los registros que haya creado o los creados por otros usuarios si dispone de permisos para el espacio de trabajo.
@@ -106,18 +105,7 @@ Para obtener información sobre cómo crear registros, vea [Crear registros](/he
    * Vista previa del registro en una vista de registros
    * La página de detalles del registro
    * En línea, en una vista de tabla.
-<!--* You can edit a record's dates from the following areas:
-        * All areas listed above
-        * <span class="preview">In a timeline view, by resizing the record bars</span>
-         * <span class="preview">In a calendar monthly view, by resizing the record bars</span>
-        For information, see [Create records](/help/quicksilver/planning/records/create-records.md). -->
-
-<!-- when drag and drop is available replace the last 2 points with this:
-
-* <span class="preview">In a timeline view, by resizing the record bars or dragging and dropping the record bars in a new position</span>
-* <span class="preview">In a calendar view, by resizing the record bars when viewing it by month, or by dragging and dropping the record bars in a new position</span>
-    For information, see [Create records](/help/quicksilver/planning/records/create-records.md).
--->
+   * <span class="preview"> Vista de calendario y escala de tiempo al cambiar el tamaño de <!--or dragging and dropping--> los registros. Esto actualiza las fechas de los registros.</span>
 
 * Cuando un usuario edita un registro en una vista, los cambios son visibles inmediatamente en todas las vistas y las páginas de registros para todos los demás usuarios.
 
@@ -258,10 +246,17 @@ Para obtener más información, consulte [Crear registros](/help/quicksilver/pla
 <!--add another step about drag and drop here when that is available-->
 
 1. Abra la página de tipo de registro en una vista de calendario. Para obtener más información, vea [Administrar la vista de calendario](/help/quicksilver/planning/views/manage-the-calendar-view.md).
-1. (Condicional) Seleccione **Mes** en el menú desplegable superior derecho.
-1. <span class="preview">Pase el ratón sobre los extremos de la barra de un registro, haga clic, arrastre y suelte sus márgenes en otra fecha. Esto actualiza automáticamente la fecha de inicio o de finalización del registro.</span>
+1. <span class="preview"> (Condicional) Pase el ratón sobre los extremos de la barra de un registro en la vista mensual del calendario y, a continuación, haga clic, arrastre y suelte sus márgenes en otra fecha. Esto actualiza automáticamente la fecha de inicio o de finalización del registro.</span>  <!--when the calendar weekly resize is released to Preview, take out "monthly" from the sentence above-->
 
    <span class="preview">![Barra izquierda en la vista de calendario para cambiar el tamaño](assets/left-end-bar-handle-to-resize-calendar-monthly-view.png)</span>
+
+   <!--At preview release, add one of the following depending on which one is releasing: 
+    Scenario one: only drag and drop in the weekly view is releasing:
+    1. <span class="preview">Click a record bar in the calendar weekly view, then drag and drop it in another position to update its timeline and dates. The Start and End dates of the record update automatically.</span>
+    Scenario two: only drag and drop in the monthly view is releasing:
+    1. <span class="preview">Click a record bar in the calendar monthly view, then drag and drop it in another position to update its timeline and dates. The Start and End dates of the record update automatically.</span>
+    Scenario 3: both the weekly and monthly drag and drop are releasing at the same time:
+    1. <span class="preview">Click a record bar, then drag and drop it in another position to update its timeline and dates. The Start and End dates of the record update automatically.</span>-->
 
 1. Haga clic en la barra de un registro para abrir su área de detalles y editar todos los campos.
 

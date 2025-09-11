@@ -3,9 +3,9 @@ user-guide-title: Guía de Workfront
 user-guide-description: Utilice los siguientes documentos, tutoriales y recursos adicionales para aprender a implementar y utilizar Adobe Workfront de forma eficaz en su organización.
 role: User
 feature-set: Workfront
-source-git-commit: 464700fc84ee3d687d903a0c1f677ebbef11be60
+source-git-commit: ff5bc262a5ed2a22099c058ebdb61bc32485b201
 workflow-type: tm+mt
-source-wordcount: '13494'
+source-wordcount: '13497'
 ht-degree: 59%
 
 ---
@@ -2078,9 +2078,9 @@ ht-degree: 59%
       * [Información general de tipos de registro](planning/architecture/overview-of-record-types.md)
       * [Crear tipos de registro](planning/architecture/create-record-types.md)
       * [Crear tipos de registro importando información desde un archivo CSV o de Excel](planning/architecture/import-file-to-create-record-types.md)
-      * [Resumen de tipos de registros centralizados](planning/architecture/centralized-record-types-overview.md)
+      * [Información general sobre tipos de registros entre espacios de trabajo](planning/architecture/cross-workspace-record-types-overview.md)
       * [Configuración de funciones entre espacios de trabajo para tipos de registros](planning/architecture/configure-record-type-cross-workspace-capabilities.md)
-      * [Agregar tipos de registros existentes](planning/architecture/add-cross-workspace-record-types.md)
+      * [Agregar tipos de registros existentes desde otro espacio de trabajo](planning/architecture/add-existing-record-types-from-another-workspace.md)
       * [Información general sobre tipos de registros Connect](planning/architecture/connect-record-types-overview.md)
       * [Conectar tipos de registro](planning/architecture/connect-record-types.md)
       * [Editar tipos de registro](planning/architecture/edit-record-types.md)
