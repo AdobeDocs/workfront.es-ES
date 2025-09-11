@@ -5,10 +5,10 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: d560a3b7-81a0-41b2-a40e-81c784a42bf6
-source-git-commit: 2bcba734ebfa8efbef8f401394a576c59ae22d5d
+source-git-commit: dcdd74e8293a5e695600f08536c8fc2ad36c3a31
 workflow-type: tm+mt
-source-wordcount: '408'
-ht-degree: 17%
+source-wordcount: '473'
+ht-degree: 16%
 
 ---
 
@@ -17,6 +17,18 @@ ht-degree: 17%
 Esta página describe las mejoras realizadas por el administrador con la versión del cuarto trimestre de 2025 en el entorno de vista previa. Estas mejoras estarán disponibles en el entorno de producción, como se ha indicado.
 
 Para obtener una lista de todos los cambios disponibles en este punto del ciclo de lanzamiento del cuarto trimestre de 2025, consulte [Información general de la versión del cuarto trimestre de 2025](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-release-overview.md).
+
+## Nueva vista de administración de tableros
+
+>[!NOTE]
+>
+>* Vista previa: 11 de septiembre de 2025
+>* Versión rápida de producción: 15 de octubre de 2025
+>* Producción para todos los clientes: viernes, 16 de octubre de 2025
+
+La vista Administrador de tableros contiene una lista de todos los tableros de su cuenta que los administradores del sistema pueden utilizar para obtener una instantánea rápida de los detalles generales de los tableros, incluyendo cuándo se actualizaron por última vez, cuántas tarjetas tiene cada uno y más.
+
+Para obtener más información, consulte [Administrar la vista de administración de tableros](/help/quicksilver/agile/get-started-with-boards/manage-boards-admin-view.md).
 
 ## Habilitar las funciones de AI Beta para su organización
 

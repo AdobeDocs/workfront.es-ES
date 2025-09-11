@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 09c41ed117660c67c3890ebbaabae73c60cd4a9a
+source-git-commit: abe76998e8d98bf47e45e01ff6b27610955177c5
 workflow-type: tm+mt
-source-wordcount: '7542'
+source-wordcount: '7673'
 ht-degree: 2%
 
 ---
@@ -23,6 +23,16 @@ Esta página lista las actualizaciones de la interfaz que estamos realizando a t
 Para ver todos los demás cambios en Adobe Workfront, consulte [Versiones del producto](/help/quicksilver/product-announcements/product-releases/product-releases.md).
 
 ## Administración y configuración
+
+### Actualizaciones de la interfaz al añadir o editar perfiles de plantilla de horas en el área de Configuración
+
+**Versión preliminar: 11 de septiembre de 2025; versión de producción: 18 de septiembre de 2025**
+
+Hemos actualizado el aspecto de la página Perfil de hoja de horas al editar o agregar un perfil de hoja de horas de todo el sistema.
+
+Para ver estos cambios, vaya a Configuración > Plantilla de horas y Perfiles de plantilla de horas y añada un perfil nuevo o edite uno existente.
+
+Para obtener más información, consulte [Creación, edición y asignación de perfiles de plantilla de horas](/help/quicksilver/timesheets/create-and-manage-timesheets/create-timesheet-profiles.md).
 
 ### Actualizaciones de la interfaz para las casillas Nuevo y Copiar informe de valoración
 
@@ -153,6 +163,14 @@ Hemos introducido actualizaciones en la interfaz al editar portafolios en el cua
 Para obtener más información, consulte [Editar portafolios](/help/quicksilver/manage-work/portfolios/create-and-manage-portfolios/edit-portfolios.md).
 
 ## Proyectos
+
+### Actualizaciones de interfaz para una lista de proyectos o un informe al aplicar la vista de Hito
+
+**Versión preliminar: 11 de septiembre de 2025; versión de producción: 18 de septiembre de 2025**
+
+Hemos actualizado el aspecto de una lista de proyectos o un informe al aplicarles la vista Hito.
+
+La lista de proyectos o el informe ahora coinciden con el diseño de otras áreas de Workfront. Para obtener más información, vea [Usar la vista de Hito](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-milestone-view.md).
 
 ### Cambios en la interfaz para la tarea Convertir una tarea en un proyecto sin plantilla
 
@@ -357,6 +375,18 @@ Para obtener más información, consulte
 * [Crear reglas de enrutamiento](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-routing-rules.md).
 
 ## Usuarios
+
+<!--
+### Interface updates for the New User dialog
+
+**Preview release: September 11, 2025; Production release: September 18, 2025**
+
+We have updated the look and feel of the New User dialog to match the design in other areas of the application.
+
+To view this change, go to Users > New User > New User.
+
+For information, see [Add users](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/add-users.md) and [Updates to the Workfront user profile](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md#updates-to-the-workfront-user-profile) on the [Fourth Quarter 2025 Administrator enhancements page](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md).
+-->
 
 ### Actualizaciones de la interfaz del cuadro de diálogo Importar usuarios
 

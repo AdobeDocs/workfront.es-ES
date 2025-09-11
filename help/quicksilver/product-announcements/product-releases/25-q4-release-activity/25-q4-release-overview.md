@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 298473d4-7d7d-4401-80bf-899a01f570a6
-source-git-commit: 2bcba734ebfa8efbef8f401394a576c59ae22d5d
+source-git-commit: dcdd74e8293a5e695600f08536c8fc2ad36c3a31
 workflow-type: tm+mt
-source-wordcount: '1976'
+source-wordcount: '2077'
 ht-degree: 16%
 
 ---
@@ -58,6 +58,15 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td><strong>Liberación rápida</strong></td>
         <td><strong>Trimestralmente</strong></td>
     </tr>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Nueva vista de administrador de tableros</a><p></p>
+            <p>La vista Administrador de tableros contiene una lista de todos los tableros de su cuenta que los administradores del sistema pueden utilizar para obtener una instantánea rápida de los detalles generales de los tableros, incluyendo cuándo se actualizaron por última vez, cuántas tarjetas tiene cada uno y más.</p>
+        </td>
+        <td>viernes, 11 de septiembre de 2025</td>
+        <td>jueves, 15 de octubre de 2025</td>
+        <td>viernes, 16 de octubre de 2025</td>
+    </tr> 
     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Habilitar características de AI Beta para su organización</a><p></p>
@@ -219,6 +228,16 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td>September 11, 2025</td>
         <td>October 16, 2025</td>
     </tr> -->
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-project.md" class="MCXref xref" xrefformat="{para}">Nuevo estado del proyecto beta</a>
+            <p>La nueva función Project Health utiliza la potencia de AI Assistant para ofrecerle instantáneamente una evaluación del rendimiento de sus proyectos y de las áreas que requieren su atención.</p>
+            <p>El Asistente de inteligencia artificial puede generar una evaluación del estado del proyecto para un proyecto, un programa y varios proyectos.</p>
+        </td>
+        <td>viernes, 11 de septiembre de 2025</td>
+        <td>viernes, 11 de septiembre de 2025</td>
+        <td>viernes, 11 de septiembre de 2025</td>
+    </tr> 
   <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-project.md" class="MCXref xref" xrefformat="{para}">Se agregaron nuevas expresiones a los campos de fórmula en Planning y a los campos personalizados calculados en Workfront</a><p><p>[!BADGE Off schedule]{type=Neutral}</p></p>
@@ -421,7 +440,7 @@ Para ofrecer integraciones más estables y escalables, estamos adoptando un enfo
 * Workfront para Salesforce.
 
 Recomendamos utilizar la automatización e integración de Workfront para las necesidades de integración de su organización con Google Workspace.
-Para obtener una descripción general de la automatización e integración de Workfront, consulte [Información general de Adobe Workfront Fusion](https://experienceleague.adobe.com/es/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+Para obtener una descripción general de la automatización e integración de Workfront, consulte [Información general de Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 
 ### Versión 20 de la API
 
