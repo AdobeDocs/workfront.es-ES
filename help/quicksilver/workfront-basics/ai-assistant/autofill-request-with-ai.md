@@ -5,9 +5,9 @@ description: Puede utilizar IA para rellenar automáticamente los campos de soli
 author: Becky
 feature: Get Started with Workfront
 exl-id: d053e604-5a28-4fd3-8f89-4467b6e46f02
-source-git-commit: b3d025be9d6ae8fef15157435bf462c3368c686f
+source-git-commit: 2c46145ef24c6870239edc1e5fa96f88f4cb2fd7
 workflow-type: tm+mt
-source-wordcount: '127'
+source-wordcount: '135'
 ht-degree: 0%
 
 ---
@@ -24,8 +24,8 @@ Los usuarios no reciben sugerencias de datos a los que no tienen acceso de otro 
 
 Para obtener instrucciones, consulte lo siguiente:
 
-* [Rellenar automáticamente una solicitud de datos anteriores](/help/quicksilver/manage-work/requests/create-requests/autofill-suggestions-from-previous.md)
-* [Rellenar automáticamente una solicitud utilizando indicaciones o documentos](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md)
+* [Completar automáticamente una solicitud con datos de solicitudes anteriores](/help/quicksilver/manage-work/requests/create-requests/autofill-suggestions-from-previous.md)
+* [Utilizar el relleno de formulario AI para rellenar una solicitud utilizando indicaciones o documentos](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md)
 
   Para utilizar el rellenado automático de mensajes o documentos, su organización debe cumplir los requisitos para utilizar el asistente de IA de Workfront. Para obtener más información, consulte [Requisitos previos para el asistente de IA](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant).
 

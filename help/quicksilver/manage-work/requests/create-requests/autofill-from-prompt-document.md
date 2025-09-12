@@ -1,18 +1,18 @@
 ---
-title: Rellenar automáticamente una solicitud utilizando indicaciones o documentos
+title: Utilizar el relleno de formulario AI para rellenar una solicitud utilizando indicaciones o documentos
 content-type: reference
 description: Puede utilizar IA para rellenar automáticamente los campos de solicitud introduciendo una solicitud o suministrando un documento.
 author: Becky
 feature: Get Started with Workfront
 exl-id: 4a22f9ea-c9ee-4947-8683-9989c54903b1
-source-git-commit: 6aab36ee2839fdf32f5606d2070d1e52d7f44753
+source-git-commit: 2c46145ef24c6870239edc1e5fa96f88f4cb2fd7
 workflow-type: tm+mt
-source-wordcount: '1336'
-ht-degree: 10%
+source-wordcount: '1368'
+ht-degree: 9%
 
 ---
 
-# Rellenar automáticamente una solicitud utilizando indicaciones o documentos
+# Utilizar el relleno de formulario AI para rellenar una solicitud utilizando indicaciones o documentos
 
 >[!NOTE]
 >
@@ -23,9 +23,9 @@ ht-degree: 10%
 >
 >* Para utilizar esta funcionalidad, su organización debe cumplir los requisitos para utilizar Workfront AI Assistant. Para obtener más información, consulte [Requisitos previos para el asistente de IA](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant).
 
-AI puede ayudarle a rellenar automáticamente los campos de solicitud en función de la solicitud que introduzca. También puede rellenar campos basados en texto como correos electrónicos o documentos cargados. Puede aprobar o rechazar estas sugerencias antes de enviar la solicitud.
+Rellenar formularios de IA puede ayudarle a rellenar automáticamente los campos de solicitud en función de una solicitud que haya introducido. También puede rellenar campos basados en texto como correos electrónicos o documentos cargados. Puede aprobar o rechazar estas sugerencias antes de enviar la solicitud.
 
-El relleno automático no sobrescribe los campos que ya haya rellenado.
+El relleno de formulario de IA no sobrescribe los campos que ya haya rellenado.
 
 Los usuarios no reciben sugerencias de datos a los que no tienen acceso de otro modo.
 
@@ -67,7 +67,7 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
 
 ## Requisitos previos
 
-Para rellenar automáticamente las solicitudes utilizando un aviso o un documento, se deben aplicar **todas** las siguientes condiciones:
+Para usar el Relleno de formulario AI para rellenar solicitudes con un aviso o documento, se deben aplicar **todas** las siguientes condiciones:
 
 * Su organización debe haber migrado a Adobe IMS (sistema Identity Management)
 * La experiencia unificada de Adobe debe estar habilitada
@@ -81,11 +81,11 @@ Para rellenar automáticamente las solicitudes utilizando un aviso o un document
 
 ## Obtener sugerencias de un mensaje de texto
 
-El relleno automático puede sugerir valores de campo basados en texto como correos electrónicos. Se pega en un bloque de texto y Workfront procesa el texto para sugerir valores de campo basados en el texto.
+El relleno de formulario AI puede sugerir valores de campo basados en texto como correos electrónicos. Se pega en un bloque de texto y Workfront procesa el texto para sugerir valores de campo basados en el texto.
 
-Por ejemplo, si el correo electrónico incluye &quot;Vence el 1 de junio&quot; y el formulario de solicitud tiene un campo para la fecha de vencimiento, Workfront sugeriría el 1 de junio para ese valor de campo.
+Por ejemplo, si el correo electrónico incluye &quot;Vence el 1 de junio&quot; y el formulario de solicitud tiene un campo para la fecha de vencimiento, el rellenado del formulario de IA sugeriría el 1 de junio para ese valor de campo.
 
-Este tipo de sugerencia también comprueba las solicitudes anteriores para contextos similares. Por ejemplo, si el mensaje indica que la solicitud es para un cliente determinado, Workfront puede localizar e introducir la dirección de facturación de ese cliente automáticamente, en función de solicitudes anteriores.
+Al rellenar un formulario, Workfront también comprueba las solicitudes anteriores de contextos similares. Por ejemplo, si el mensaje indica que la solicitud es para un cliente determinado, Workfront puede localizar e introducir la dirección de facturación de ese cliente automáticamente, en función de solicitudes anteriores.
 
 Puede pegar el texto para aplicarlo a todo el formulario o a una sola sección del formulario.
 
@@ -263,11 +263,11 @@ Los tipos de campo de Workfront afectan a si un campo determinado se puede relle
 
 #### Otras prácticas recomendadas
 
-Tenga en cuenta lo siguiente al cargar un documento para el relleno automático de la solicitud:
+Tenga en cuenta lo siguiente al cargar un documento en un relleno de formulario AI:
 
-* El relleno automático está optimizado actualmente para el alfabeto latino.
+* El relleno de formulario AI está optimizado actualmente para el alfabeto latino.
 * Se recomienda utilizar un tamaño de texto de 8 puntos o superior.
-* El relleno automático puede tener dificultades con las imágenes del documento, como imágenes rotadas o distorsionadas, gráficos y recuentos o usos de motivos espaciales en los objetos de las imágenes.
+* El relleno de formulario de IA puede tener dificultades con las imágenes del documento, como imágenes rotadas o distorsionadas, gráficos y recuentos o usos de motivos espaciales en los objetos de las imágenes.
 * Como siempre, recomendamos comprobar la precisión de los resultados antes de enviar la solicitud.
 
 ### Cargar un documento para rellenar automáticamente una solicitud

@@ -1,18 +1,18 @@
 ---
-title: Rellenar automáticamente una solicitud de datos anteriores
+title: Completar automáticamente una solicitud con datos de solicitudes anteriores
 content-type: reference
-description: Puede utilizar IA para rellenar automáticamente los campos de solicitud utilizando datos de solicitudes anteriores.
+description: Puede utilizar IA para completar automáticamente los campos de solicitud utilizando datos de solicitudes anteriores.
 author: Becky
 feature: Get Started with Workfront
 exl-id: a0cd1fbf-d3c6-454c-a85a-ceca4b1e8a7b
-source-git-commit: fd42ac97be05df9499ea3214642099738ccc69b1
+source-git-commit: 1c2e382908ed8fead7c2222e8d46988656df29c4
 workflow-type: tm+mt
-source-wordcount: '346'
+source-wordcount: '350'
 ht-degree: 27%
 
 ---
 
-# Rellenar automáticamente una solicitud de datos anteriores
+# Completar automáticamente una solicitud con datos de solicitudes anteriores
 
 >[!NOTE]
 >
@@ -21,9 +21,9 @@ ht-degree: 27%
 >   * Versión mensual: 11 de septiembre de 2025
 >   * Versión trimestral: 16 de octubre de 2025
 
-AI puede ayudarle a rellenar automáticamente los campos de solicitud en función de solicitudes anteriores. Puede aprobar o rechazar estas sugerencias antes de enviar la solicitud.
+AI puede ayudarle a completar automáticamente los campos de solicitud en función de solicitudes anteriores. Puede aprobar o rechazar estas sugerencias antes de enviar la solicitud.
 
-El relleno automático no sobrescribe los campos que ya haya rellenado.
+El completado automático no sobrescribe los campos que ya haya rellenado.
 
 Los usuarios no reciben sugerencias de datos a los que no tienen acceso de otro modo.
 
@@ -65,7 +65,7 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
 
 ## Obtener sugerencias al rellenar el formulario
 
-El relleno automático puede sugerir valores de campo mientras rellena el formulario. A medida que introduce valores en los campos de solicitud, Workfront compara esos valores con las solicitudes anteriores. Si el valor introducido se correlaciona estrechamente con otros valores de campo en contextos similares en solicitudes anteriores, Workfront sugiere esos valores.
+El completado automático puede sugerir valores de campo mientras rellena el formulario. A medida que introduce valores en los campos de solicitud, Workfront compara esos valores con las solicitudes anteriores. Si el valor introducido se correlaciona estrechamente con otros valores de campo en contextos similares en solicitudes anteriores, Workfront sugiere esos valores.
 
 Por ejemplo, si una clínica siempre utiliza el mismo código de facturación, Workfront sugeriría ese código de facturación en el campo apropiado cuando se introduzca el nombre de la clínica.
 
