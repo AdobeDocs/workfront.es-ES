@@ -3,9 +3,9 @@ title: Información general sobre tipos de registros entre espacios de trabajo
 description: Los tipos de registros centralizados se pueden agregar a varios espacios de trabajo desde un espacio de trabajo central o principal en Adobe Workfront Planning.
 hidefromtoc: true
 hide: true
-source-git-commit: ff5bc262a5ed2a22099c058ebdb61bc32485b201
+source-git-commit: bfb0fd2956ffb9384a09882864668d5dba33a53b
 workflow-type: tm+mt
-source-wordcount: '1320'
+source-wordcount: '1356'
 ht-degree: 0%
 
 ---
@@ -25,6 +25,13 @@ En Adobe Workfront Planning, puede habilitar las funciones entre espacios de tra
 Las siguientes son funciones de varios espacios de trabajo de los tipos de registro:
 
 * Puede designar un tipo de registro como centralizado. Los usuarios pueden agregar tipos de registros centralizados a otros espacios de trabajo que pueden administrar.
+
+  >[!IMPORTANT]
+  >
+  >Debe tener un paquete Workfront Planning Plus, además de un paquete Workfront para utilizar tipos de registros centralizados.
+  >
+  >Para obtener más información sobre lo que se incluye en cada paquete de Workfront Planning, póngase en contacto con su administrador de cuentas de Workfront.
+
 * Puede designar un tipo de registro como conectable. Los usuarios pueden conectarse a este tipo de registro desde otros espacios de trabajo.
 
 Este artículo le ofrece una descripción general de los tipos de registros de espacio de trabajo cruzado. Para obtener información acerca de cómo definir las capacidades entre espacios de trabajo de un tipo de registro, vea [Configurar las capacidades entre espacios de trabajo para los tipos de registros](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md).

@@ -6,7 +6,7 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: ff5bc262a5ed2a22099c058ebdb61bc32485b201
+source-git-commit: bfb0fd2956ffb9384a09882864668d5dba33a53b
 workflow-type: tm+mt
 source-wordcount: '2701'
 ht-degree: 11%
@@ -246,7 +246,7 @@ Para obtener más información, consulte [Crear registros](/help/quicksilver/pla
 <!--add another step about drag and drop here when that is available-->
 
 1. Abra la página de tipo de registro en una vista de calendario. Para obtener más información, vea [Administrar la vista de calendario](/help/quicksilver/planning/views/manage-the-calendar-view.md).
-1. <span class="preview"> (Condicional) Pase el ratón sobre los extremos de la barra de un registro en la vista mensual del calendario y, a continuación, haga clic, arrastre y suelte sus márgenes en otra fecha. Esto actualiza automáticamente la fecha de inicio o de finalización del registro.</span>  <!--when the calendar weekly resize is released to Preview, take out "monthly" from the sentence above-->
+1. <span class="preview"> (Condicional) Pase el ratón sobre los extremos de la barra de un registro en la vista mensual del calendario y, a continuación, haga clic, arrastre y suelte sus márgenes en otra fecha. Esto actualiza automáticamente la fecha de inicio o de finalización del registro.</span>  <!--when the calendar weekly resize is released to Preview, take out "monthly" from the sentence above, at preview release-->
 
    <span class="preview">![Barra izquierda en la vista de calendario para cambiar el tamaño](assets/left-end-bar-handle-to-resize-calendar-monthly-view.png)</span>
 

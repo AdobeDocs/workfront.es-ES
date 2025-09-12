@@ -6,10 +6,10 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
+source-git-commit: bfb0fd2956ffb9384a09882864668d5dba33a53b
 workflow-type: tm+mt
-source-wordcount: '2499'
-ht-degree: 56%
+source-wordcount: '2512'
+ht-degree: 48%
 
 ---
 
@@ -44,7 +44,7 @@ Para ver un ejemplo de conexión de tipos de registros y registros, consulte [Ej
 
 ## Requisitos de acceso
 
-+++ Amplíe para ver los requisitos de acceso.
++++ Amplíe para ver los requisitos de acceso. 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -159,61 +159,78 @@ Para ver un ejemplo de conexión de tipos de registros y registros, consulte [Ej
 
      ![Selección de conexión de AEM Assets](assets/aem-assets-connection-selection.png)
 
-1. Actualice la siguiente información:
+     Se abrirá una ficha Nueva conexión para el tipo de objeto o registro seleccionado.
 
-   * **Nombre**: nombre del campo conectado, tal como aparecerá en la vista de tabla o en la página de registro del tipo de registro original. Esto crea la columna de registro vinculado en la vista de tabla del tipo de registro original o el campo de registro vinculado para los registros originales. De forma predeterminada, el nombre del campo es el nombre del registro u objeto al que se conecta.
+1. Actualice el campo **Name** con el nombre del nuevo campo conectado, tal como aparecerá en la vista de tabla o en la página de registro del tipo de registro original. Esto crea la columna (o campo) del registro conectado en la vista de tabla del tipo de registro original. De forma predeterminada, el nombre del campo es el nombre del registro u objeto al que se conecta.
 
    >[!TIP]
    >
    >Puede tener varias conexiones al mismo registro o tipo de objeto. Si no se edita el nombre del campo conectado, Workfront añade un número después del nombre del registro conectado para indicar el número de tipos de registros conectados con el mismo nombre.
 
-   * **Descripción**: información adicional acerca del campo de registro conectado. La descripción de un campo se muestra cuando se pasa el puntero por encima de la columna de campo de una tabla.
-   * **Permitir varios registros**: seleccione esta opción para indicar que permite a los usuarios agregar varios registros cuando el campo de tipo de registro vinculado se muestra en los registros originales. Esta opción está seleccionada de forma predeterminada.
+1. Actualice el campo **Descripción** agregando información sobre el campo de registro conectado. La descripción de un campo se muestra cuando se pasa el puntero por encima de la columna de campo de una tabla.
+1. (Condicional) Cuando conecte tipos de registros de dos espacios de trabajo diferentes o un registro y un objeto de recurso de Adobe Experience Manager, seleccione **Permitir varios registros**. Al seleccionarlo, indica que permite a los usuarios agregar varios registros cuando el campo de tipo de registro conectado aparece en los registros originales. Esta opción está seleccionada de forma predeterminada.
 
-     Esta opción solo está disponible cuando se conectan registros de dos espacios de trabajo diferentes o un registro y un objeto de recurso de Adobe Experience Manager.
+   ![Nueva conexión para permitir el cuadro de registros múltiples](assets/new-connection-allow-multiple-records-box.png)
 
-     ![Nueva conexión para permitir el cuadro de registros múltiples](assets/new-connection-allow-multiple-records-box.png)
+1. (Condicional) Cuando conecte tipos de registros del mismo área de trabajo o un tipo de registro de Planning con un tipo de objeto de Workfront, seleccione una de las siguientes opciones de **Tipo de conexión** para indicar cuántos registros pueden conectar los usuarios desde y hacia:
 
-   * **Tipo de conexión**: seleccione una de las siguientes opciones para indicar cuántos registros pueden conectar con y desde:
+   * Muchos a muchos
+   * Uno a muchos
+   * Muchos a uno
+   * Uno a uno
 
-      * Muchos a muchos
-      * Uno a muchos
-      * Muchos a uno
-      * Uno a uno
+   ![Selector de conexión de varios a varios](assets/many-to-many-connection-picker.png)
 
-     Esta opción sólo está disponible cuando se conectan registros del mismo espacio de trabajo o un registro y un tipo de objeto de Workfront.
+   Para obtener más información acerca de los tipos de conexión, vea [Información general sobre los tipos de registros conectados](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
 
-     ![Selector de conexión de varios a varios](assets/many-to-many-connection-picker.png)
-
-     Para obtener más información acerca de los tipos de conexión, vea [Información general sobre los tipos de registros conectados](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
-
-     >[!NOTE]
-     >
-     > Si selecciona Uno a varios o Uno a uno para el tipo Conexión y posteriormente desea conectar un registro o un objeto que ya está conectado en otro lugar, recibirá una advertencia indicando que conectarlo de nuevo lo quitará de la conexión original. Puede permitir la eliminación o seleccionar otro registro.
-
-   * **Seleccionar campos de búsqueda**: seleccione esta opción para añadir campos desde el tipo de registro seleccionado. Los campos de búsqueda son campos asociados al tipo de registro u objeto al que se está vinculando. Al vincularlos, se muestra información del registro u objeto con el que se está vinculando en el registro desde el que se está vinculando. Esta opción está seleccionada de forma predeterminada.
-
-   >[!TIP]
+   >[!NOTE]
    >
-   >* No puede agregar campos de escritura anticipada de Workfront (incluidos campos como Propietario del proyecto o Patrocinador del proyecto) como campos de búsqueda.
-   >
-   >* La información del campo de fecha de los objetos de Workfront se muestra en formato de 24 horas en Workfront Planning, independientemente de cómo se muestre en Workfront.
-   >
-   >   Por ejemplo, si la fecha planificada de inicio de un proyecto se muestra como las 3:00 p.m. en Workfront, se mostrará como 15:00 en Workfront Planning en un campo de búsqueda importado.
+   > Si selecciona Uno a varios o Uno a uno para el tipo Conexión y posteriormente desea conectar un registro o un objeto que ya está conectado en otro lugar, recibirá una advertencia indicando que conectarlo de nuevo lo quitará de la conexión original. Puede permitir la eliminación o seleccionar otro registro.
 
-1. (Condicional y opcional) Si seleccionó conectar un objeto de Workfront, seleccione un **formulario personalizado** de la sección **Vincule solo los objetos que cumplan estos criterios**. Solo los objetos que tienen los formularios personalizados adjuntos seleccionados pueden vincularse al tipo de registro seleccionado. Pueden seleccionarse varios formularios.
+
+   <!-- 
+        at the release to preview, replace the step above with this step; be careful with the numbering and ensure it keeps the correct step number in the preview window in MKD; there are spaces to be added between paragraphs too, when you make this live: 
+    1. (Conditional) When you connect record types from the same workspace, or a Planning record type with a Workfront object type, do one of the following, depending on which environment you are using: 
+        * In the Production environment, select one of the following **Connection type** options to indicate how many records users can connect to and from:
+            * Many to many
+            * One to many
+            * Many to one
+            * One to one      
+            ![Many to many connection picker](assets/many-to-many-connection-picker.png)
+        <div class="preview">
+        * In the Preview environment, do the following: 
+            1. Select one of the following:
+                * **Multi-select**: Select this to allow one record from the current record type to connect with multiple records from the connection record type.
+                * **Single-select**: Select this to allow one record from the current record type to connect with one record from the connection record type.
+            2. Enable the **Create corresponding field on linked record type**. When enabled, a connection field is created on the record type you are connected to, in addition to the connection field added to the current record type. This is disabled by default.
+                    >[!TIP]
+                    >
+                    >There is a limit of 500 connections for one record type. We recommend to keep this setting off, especially for taxonomical record types, to avoid reaching this limit. 
+            3. (Conditional) If you enabled **Create corresponding field on linked record type**, choose from the following options to indicate how many records users can connect to and from:
+                * Many to many
+                * One to many
+                * Many to one
+                * One to one  
+            </div>       
+             For more information about connection types, see [Connected record types overview](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
+                >[!NOTE]
+                >
+                >If you select One to many or One to one for the Connection type and you later want to connect a record or an object that is already connected elsewhere, you will receive a warning that connecting it again will remove it from the original connection. You can allow the removal or select another record.-->
+
+1. (Condicional y opcional) Cuando seleccione conectar un objeto de Workfront, elija un **formulario personalizado** en la sección **Vincular solo objetos que coincidan con estos criterios**. Solo los objetos que tienen los formularios personalizados adjuntos seleccionados pueden vincularse al tipo de registro seleccionado. Pueden seleccionarse varios formularios.
 
    >[!NOTE]
    >
    > Debe crear formularios personalizados en Workfront para los objetos seleccionados antes de que se muestren en esta lista.
 
-1. (Condicional) Si ha seleccionado conectarse a Experience Manager Assets, seleccione un repositorio en el menú desplegable **Repositorio de Experience Manager** de la sección **Vincular recursos del repositorio siguiente**. Este campo es obligatorio. En este campo solo se muestran los repositorios a los que tiene acceso en Experience Manager Assets.
+1. (Condicional) Cuando seleccione conectarse a Experience Manager Assets, elija un repositorio en el menú desplegable **Repositorio de Experience Manager** en la sección **Vincular recursos del siguiente repositorio**. Este campo es obligatorio. En este campo solo se muestran los repositorios a los que tiene acceso en Experience Manager Assets.
 
    >[!NOTE]
    >
-   >El administrador de Workfront puede asignar campos de Workfront Planning a campos de Experience Manager Assets a través de la asignación de metadatos en Workfront. Para obtener más información, consulte [Configuración de la asignación de metadatos de recursos entre Adobe Workfront y Experience Manager Assets](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
+   >El administrador de Workfront puede asignar campos de Workfront Planning a campos de Experience Manager Assets a través de la asignación de metadatos en Workfront. Para obtener más información, consulte [Configuración de la asignación de metadatos de recursos entre Adobe Workfront y Experience Manager Assets](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
 
-1. (Condicional) Si ha seleccionado conectarse a Experience Manager Assets o a un tipo de registro de Workfront Planning, seleccione una de las siguientes opciones en el área **Apariencia del registro**:
+
+1. (Condicional) Cuando seleccione conectarse a Experience Manager Assets o a un tipo de registro de Workfront Planning, elija una de las siguientes opciones en el área **Apariencia del registro**:
 
    * **Nombre e imagen**: tanto el nombre como la miniatura o el icono de los registros conectados se mostrarán en el campo de registro conectado. Esta es la opción predeterminada.
    * **Nombre**: solo se mostrará el nombre de los registros conectados en el campo de registro conectado.
@@ -230,6 +247,16 @@ Para ver un ejemplo de conexión de tipos de registros y registros, consulte [Ej
    >* La selección de una apariencia de registro no está disponible al seleccionar tipos de objetos de Workfront.
    >
    >* Lo que seleccione en el área de Apariencia del registro determina cómo se muestran los registros en las conexiones de cualquier parte del sistema, incluidas todas las vistas y páginas de detalles.
+
+1. Seleccione **Seleccionar campos de búsqueda** para agregar campos desde el tipo de registro al que se está conectando. Los campos de búsqueda son campos asociados al tipo de registro u objeto al que se está vinculando. Al vincularlos, se muestra información del registro u objeto con el que se está vinculando en el registro desde el que se está vinculando. Esta opción está seleccionada de forma predeterminada.
+
+   >[!TIP]
+   >
+   >* No puede agregar campos de escritura anticipada de Workfront (incluidos campos como Propietario del proyecto o Patrocinador del proyecto) como campos de búsqueda.
+   >
+   >* La información del campo de fecha de los objetos de Workfront se muestra en formato de 24 horas en Workfront Planning, independientemente de cómo se muestre en Workfront.
+   >
+   >   Por ejemplo, si la fecha planificada de inicio de un proyecto se muestra como las 3:00 p.m. en Workfront, se mostrará como 15:00 en Workfront Planning en un campo de búsqueda importado.
 
 1. Haga clic en **Crear**.
 
@@ -318,13 +345,15 @@ Para ver un ejemplo de conexión de tipos de registros y registros, consulte [Ej
 
      Por ejemplo, si ha vinculado un tipo de registro de campaña con un tipo de registro de programa y ha asignado al campo de registro vinculado de programa el nombre &quot;Información del programa&quot;, seleccionado a continuación para mostrar también el campo Presupuesto del programa en la vista de tabla de la campaña, el campo vinculado se denomina automáticamente `Budget (from Program information)` en la vista de tabla de la campaña.
 
-   * Cuando se vinculan tipos de registros entre sí, también se añade un campo de registro vinculado en el tipo de registro al que se está vinculando. El nombre del campo de registro vinculado en el tipo de registro vinculado es el nombre del tipo de registro desde el que se establece el vínculo.
+   * Cuando se vinculan tipos de registros entre sí, también se agrega un campo de registro vinculado en el tipo de registro al que se está vinculando, <!--<span class="preview">only when you enable the Create corresponding field on linked record type setting.</span>--> El nombre del campo de registro vinculado en el tipo de registro vinculado es el nombre del tipo de registro desde el que se establece el vínculo.
 
      Por ejemplo, si vincula el tipo de registro &quot;Producto&quot; desde el tipo de registro &quot;Campaña&quot; y asigna al campo conectado de la campaña el nombre &quot;Producto vinculado&quot;, se crea un campo de registro vinculado &quot;Campaña&quot; para el tipo de registro Producto.
 
      >[!TIP]
      >
-     > No se crea un campo de registro vinculado para los objetos de otra aplicación con el tipo de registro desde el que se está vinculando en Planificación de Workfront.
+     > No se crea un campo de registro vinculado para los objetos de otra aplicación con el tipo de registro desde el que se está vinculando en Workfront Planning. <!--<span class="preview">We recommend not creating links on taxonomical record types, as there is a 500 connection field limit for every record type.</span>-->
+
+   <!--see the span preview text in the TIP above; it might not show up in green-->
 
 1. (Opcional y condicional) Desde el tipo de registro original o la vista de tabla del tipo de registro vinculado, haga clic en la flecha hacia abajo en el encabezado de los campos de registro vinculados y, a continuación, haga clic en una de las siguientes opciones:
 

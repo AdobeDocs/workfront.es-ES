@@ -6,7 +6,7 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 441a53d1-ad39-41b7-93fe-2ae1836476c9
-source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
+source-git-commit: bfb0fd2956ffb9384a09882864668d5dba33a53b
 workflow-type: tm+mt
 source-wordcount: '356'
 ht-degree: 41%
@@ -32,7 +32,7 @@ La duplicación de vistas es idéntica para todos los tipos de vistas en Workfro
 
 ## Requisitos de acceso
 
-+++ Amplíe para ver los requisitos de acceso.
++++ Amplíe para ver los requisitos de acceso. 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -92,7 +92,7 @@ La duplicación de vistas es idéntica para todos los tipos de vistas en Workfro
 
 *Para obtener más información sobre los requisitos de acceso de Workfront, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-+++
++++   
 
 ## Duplicación de una vista de registros
 
@@ -111,5 +111,8 @@ De forma predeterminada, todos los registros del tipo seleccionado se muestran e
 
    ![Menú Ver más en una vista de registro](assets/view-more-menu-with-duplicate-option.png)
 
-
+   <!--at preview release, replace the step above with this one: 
+    1. Depending on which environment you use, do the following: 
+    * In the Production environment, hover over one the of the view's names in the view tab, then click **More** ![More menu](assets/more-menu.png) to the left of the view name, then click **Duplicate**. 
+    * <span class="preview">In the Preview environment, click the dropdown icon ![Dropdown icon](assets/drop-down-icon.png) next to the current view name, hover over the name of a view, click **More**, then **Duplicate**.</span>-->
    La vista está duplicada y el nombre de la nueva vista sigue el siguiente patrón: `Original view's name (Copy)`. La nueva ficha de vista se muestra al final de todas las fichas de vista.
