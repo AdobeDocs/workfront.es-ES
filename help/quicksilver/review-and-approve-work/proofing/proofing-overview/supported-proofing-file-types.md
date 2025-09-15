@@ -137,7 +137,7 @@ Workfront tiene los límites siguientes:
 
   >[!NOTE]
   >
-  >Hay un problema conocido con los archivos de presentación de PowerPoint que no se pueden cargar en este momento. Si experimenta este problema, convierta el archivo a PDF y cargue el PDF en su lugar. Para obtener más información, consulte [Pruebas: no se puede generar una prueba a partir de un archivo de PowerPoint](https://experienceleague.adobe.com/en/docs/workfront-known-issues/issues/new-workfront-experience/wf-current/wf-proofs-cannot-generate-from-pptx).
+  >Hay un problema conocido con los archivos de presentación de PowerPoint que no se pueden cargar en este momento. Si experimenta este problema, convierta el archivo a PDF y cargue el PDF en su lugar. Para obtener más información, consulte [Pruebas: no se puede generar una prueba a partir de un archivo de PowerPoint](https://experienceleague.adobe.com/es/docs/workfront-known-issues/issues/new-workfront-experience/wf-current/wf-proofs-cannot-generate-from-pptx).
 
 * PS - Archivo de PostScript
 * PSD: Photoshop
