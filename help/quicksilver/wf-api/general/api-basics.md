@@ -331,7 +331,7 @@ Para obtener una lista de posibles referencias de campo, consulte la [API Explor
 Es posible buscar objetos anidados. De forma predeterminada, los objetos anidados solo se devuelven con el nombre y el ID. Por ejemplo, para obtener todos los problemas junto con sus propietarios, utilice la siguiente solicitud:
 <pre>/attask/api/v15.0/issue/search?fields=owner</pre>Si se requiere más información, es posible solicitar un campo anidado mediante la sintaxis de dos puntos. Por ejemplo, la siguiente solicitud busca todos los problemas junto con el nombre, ID, título y número de teléfono del propietario
 <pre>/attask/api/v15.0/issue/search?fields=owner:title,owner:phoneNumber</pre>y devuelve lo siguiente: 
-<pre>{{<br>    "name": "an important issue",<br>    "ID": "4c78285f00000908ea8cfd66e084939f",<br>    "owner": {<br>        "title": "Operations Specialist",<br>        "phoneNumber": "555-1234",<br>        "name": "Admin User",<br>        "ID": "4c76ed7a0000054c172b2c2d9f7f81c3" <br>    } <br>}</pre>
+<pre>&lbrace;{<br>    "name": "an important issue",<br>    "ID": "4c78285f00000908ea8cfd66e084939f",<br>    "owner": {<br>        "title": "Operations Specialist",<br>        "phoneNumber": "555-1234",<br>        "name": "Admin User",<br>        "ID": "4c76ed7a0000054c172b2c2d9f7f81c3" <br>    } <br>}</pre>
 
 #### Recuperación de colecciones anidadas
 
@@ -367,7 +367,7 @@ Es posible usar `count` para devolver el número de resultados que coincida con 
 
 Es posible realizar una solicitud de informe donde solo se desee el acumulado de algún campo con una o más agrupaciones. Tal y como se muestra en el ejemplo siguiente, la sintaxis del informe es la misma que la de la API de SOAP:
 <pre>GET /attask/api/v15.0/hour/report?project:name_1_GroupBy=true&amp;hours_AggFunc=sum</pre>que devuelve el siguiente resultado
-<pre>{{<br>    "First Project": { <br>        "sum_hours": 15 <br>    }, <br>     "Second Project": { <br>        "sum_hours": 30 <br>    } <br>}</pre>Si se añade el parámetro $$ROLLUP=true, se incluirá un total en cada nivel de agrupación:
+<pre>&lbrace;{<br>    "First Project": { <br>        "sum_hours": 15 <br>    }, <br>     "Second Project": { <br>        "sum_hours": 30 <br>    } <br>}</pre>Si se añade el parámetro $$ROLLUP=true, se incluirá un total en cada nivel de agrupación:
 <pre>{<br>    "First Project": { <br>        "sum_hours": 15 <br>    }, <br>    "Second Project": { <br>        "sum_hours": 30 <br>    }, <br>    "$$ROLLUP": { <br>        "sum_hours": 45 <br>    } <br>}</pre>
 
 ### Ordenar los resultados de consulta en la API
@@ -494,7 +494,7 @@ Las actualizaciones de objetos siempre se realizan mediante el ID. utilizando el
 Como se muestra en el ejemplo siguiente, puede utilizar el parámetro de solicitud de actualizaciones para especificar los campos que se actualizarán con la sintaxis JSON:
 <pre>PUT /attask/api/v15.0/project/4c7...?updates= <br>{<br>     name: "New Project Name", <br>     status: "CUR", <br>     ... <br>}</pre>
 
-###  Realización de actualizaciones anidadas
+### Realización de actualizaciones anidadas
 
 Algunos objetos tienen colecciones de propiedad privada que se pueden actualizar. Por ejemplo, en el siguiente ejemplo se muestra cómo sobrescribir las asignaciones existentes de una tarea determinada:
 <pre>PUT /attask/api/v15.0/task/4c7...?updates= <br>{<br>    assignments: [ <br>        { <br>            assignedToID: "2222...54d0, <br>            assignmentPercent: 50.0 <br>        },{ <br>            roleID: "1111...54d0"<br>        } <br>    ] <br>}</pre>
@@ -504,7 +504,7 @@ Algunos objetos tienen colecciones de propiedad privada que se pueden actualizar
 >Aunque las actualizaciones realizadas en el nivel superior son dispersas, las actualizaciones de una colección o de un objeto anidado reemplazan por completo a la colección existente. Para editar una única asignación en una tarea sin afectar a los objetos, utilice PUT en la asignación en lugar de en la tarea.
 
 El siguiente ejemplo convierte un proyecto en una cola del servicio de asistencia público. Tenga en cuenta que las propiedades de cola existentes se reemplazan.
-<pre>PUT /attask/api/v15.0/project/4c7...?updates= <br>{ <br>    queueDef: { <br>        isPublic: 1 <br>    } <br></pre>
+<pre>PUT /attask/api/v15.0/project/4c7...?updates= <br>&lbrace; <br>    queueDef: { <br>        isPublic: 1 <br>    } <br></pre>
 
 ### Uso del parámetro de solicitud de acción
 
