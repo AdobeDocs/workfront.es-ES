@@ -1,21 +1,21 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: Funcionalidad disponible para la revisión y aprobación de recursos y documentos
+title: Funcionalidad disponible para aprobaciones de documentos unificadas
 description: Descripción general de los sistemas disponibles para su revisión y aprobación en Workfront.
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 37745149-b369-445d-bb39-f5ed790d2fae
-source-git-commit: 7f24186c8803237a6f5116293b3c6a5fd1ea90f6
+source-git-commit: c55af795069a05de3eb3d0d8599ab61f00168ddc
 workflow-type: tm+mt
-source-wordcount: '356'
+source-wordcount: '367'
 ht-degree: 1%
 
 ---
 
-# Funcionalidad disponible para la revisión y aprobación de recursos y documentos
+# Funcionalidad disponible para aprobaciones de documentos unificadas
 
-Actualmente hay tres sistemas diferentes disponibles en Workfront para la revisión y aprobación de recursos y documentos:
+Actualmente hay tres sistemas diferentes disponibles en Workfront para las aprobaciones de documentos unificados:
 
 * [Aprobaciones de documentos heredados](#legacy-document-approvals)
 
@@ -61,6 +61,8 @@ Para obtener más información sobre los informes, consulte [Crear un tablero de
 * Crear varias aprobaciones de etapa [!BADGE Próximamente]{type=Informative}
 
 * Acceda a las solicitudes de revisión y aprobación en el widget Mis aprobaciones del área de Inicio
+
+* Utilice el Revisor de IA para automatizar las revisiones de cumplimiento de marca. Para obtener más información, consulte [Introducción al Revisor de IA de Workfront](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md).
 
 
 ## Aprobaciones de revisión

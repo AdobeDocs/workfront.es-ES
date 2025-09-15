@@ -1,15 +1,15 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: Resumen de aprobaciones de documentos unificados
+title: Resumen de aprobaciones unificadas
 description: Puede añadir aprobadores o revisores adicionales a un documento que ya tenga aprobaciones pendientes.
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 32cb95c2-8d12-492b-ad89-b38e2a337fc5
-source-git-commit: 6da80f55fd4314c661c52bb2327ae8fa6c7e55b6
+source-git-commit: c55af795069a05de3eb3d0d8599ab61f00168ddc
 workflow-type: tm+mt
-source-wordcount: '575'
-ht-degree: 9%
+source-wordcount: '324'
+ht-degree: 17%
 
 ---
 
@@ -49,30 +49,33 @@ Con las aprobaciones unificadas, puede
 
 ## Uso de aprobaciones unificadas
 
-Para los usuarios que buscan crear o administrar aprobaciones de documentos, vea los artículos enumerados en [Configurar y administrar aprobaciones de recursos y documentos: índice de artículos](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/set-up-and-manage-doc-asset-approvals-toc.md)
+Para los usuarios que buscan crear o administrar aprobaciones de documentos, vea los artículos enumerados en [Configurar y administrar aprobaciones unificadas: índice de artículos](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/set-up-and-manage-doc-asset-approvals-toc.md)
 
 Para los usuarios que buscan revisar o aprobar documentos para los que han recibido una solicitud, vea los artículos enumerados en [Aprobar y revisar documentos: índice de artículos](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-documents-toc.md).
 
-## Nuevas funciones y objetivos de diseño
+<!--
 
->[!VIDEO](https://video.tv.adobe.com/v/3420544/)
+## New features and design goals
 
-* **Participación inclusiva de las partes interesadas**\
-    Las aprobaciones unificadas permiten la inclusión de colaboradores individuales y equipos completos en el proceso de aprobación. Facilitar esta participación más amplia garantiza la participación integral de las partes interesadas y fomenta un entorno de toma de decisiones más informado y colaborativo.
+>[!VIDEO](https://video.tv.adobe.com/v/3420544/)  
 
-* **Funciones de revisión y aprobación diferenciadas**\
-     Las aprobaciones unificadas están diseñadas para reconocer y respetar las distintas funciones dentro del proceso de aprobación. Al proporcionar la capacidad de identificar y designar revisores (usuarios a los que se notifica que proporcionen comentarios pero que no tienen autoridad para tomar decisiones), se mejora la calidad de los comentarios al tiempo que se mantiene la claridad de la autoridad de aprobación final.
+* **Inclusive stakeholder participation**\
+    Unified Approvals allow the inclusion of both individual contributors and entire teams in the approval process. Facilitating this broader participation ensures comprehensive stakeholder engagement and fosters a more informed and collaborative decision-making environment.
 
-* **Aprobaciones específicas de la versión**\
-    La naturaleza iterativa del desarrollo de documentos suele llevar a varias versiones del mismo documento. Las aprobaciones unificadas se adaptan a esta realidad al proporcionar cadenas de aprobación únicas para cada versión de un documento. Esto permite a los usuarios cargar una nueva versión y añadir nuevos aprobadores o revisores según sea necesario, asegurándose de que los comentarios y la aprobación son específicos de la versión del documento y eliminando posibles confusiones.
+* **Differentiated review and approval roles**\
+     Unified Approvals is designed to recognize and respect the varying roles within the approval process. By providing the ability to identify and designate reviewers—users who are notified to provide feedback but do not have decision-making authority—the quality of feedback is enhanced while maintaining clarity of final approval authority.
 
-* **Pistas de auditoría**\
-    Con las aprobaciones unificadas, se mantiene una pista de auditoría de todas las actividades de aprobación en el flujo de actividades, lo que proporciona un valioso recurso para referencias y conformidad futuras.
+* **Version-specific approvals**\
+    The iterative nature of document development often leads to multiple versions of the same document. Unified Approvals accommodates this reality by providing unique approval chains for each version of a document. This allows users to upload a new version and add new approvers or reviewers as needed, ensuring that feedback and approval are specific to the document version and eliminating potential confusion.
 
-## Plan de lanzamiento
+* **Audit trails**\
+    With Unified Approvals, an audit trail of all approval activities is maintained in the activity stream, providing a valuable resource for future reference and compliance.
 
-Estamos poniendo las aprobaciones unificadas a disposición de los usuarios a lo largo de varias versiones. Además de añadir nuevas funciones, también ampliaremos el número de cuentas para las que hay aprobaciones unificadas disponibles con cada versión.
+## Release plan
 
-Si desea que las aprobaciones unificadas estén habilitadas en su entorno de producción, póngase en contacto con su administrador de éxito de clientes o de cuentas estratégicas.
+We are making Unified Approvals available to users over the course of several releases. In addition to adding new features, we will also expand the number of accounts for which Unified Approvals are available with each release.
+
+If you would like to have Unified Approvals enabled in your production environment, please reach out to your Customer Success or Strategic Account Manager.
 
 
+-->

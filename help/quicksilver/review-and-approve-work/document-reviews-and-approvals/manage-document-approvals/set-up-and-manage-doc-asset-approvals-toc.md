@@ -2,20 +2,20 @@
 content-type: reference
 product-area: projects
 navigation-topic: projects-navigation-topic
-title: 'Configuración y administración de aprobaciones de recursos y documentos: índice de artículos'
-description: Esta sección contiene artículos sobre la administración de aprobaciones de recursos y documentos en Workfront.
+title: 'Configurar y administrar aprobaciones unificadas: índice de artículos'
+description: Esta sección contiene artículos sobre la administración de aprobaciones unificadas en Workfront.
 author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 242910b9-f251-49c3-a6ad-de3039bdd2f5
-source-git-commit: 300de02b81bc6abc8be9bdceb2bd028b0c4aabfe
+source-git-commit: 9cdd3f9b46b36728a8825713fe50f3f2fe1ef90b
 workflow-type: tm+mt
-source-wordcount: '95'
-ht-degree: 52%
+source-wordcount: '89'
+ht-degree: 33%
 
 ---
 
-# Configuración y administración de aprobaciones de recursos y documentos: índice de artículos
+# Configurar y administrar aprobaciones unificadas: índice de artículos
 
 Esta sección contiene los siguientes artículos:
 
