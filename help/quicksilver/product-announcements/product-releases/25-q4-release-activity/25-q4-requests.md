@@ -5,10 +5,10 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: bd73b7df-ad4e-43dc-8ddf-23e0da24ec0f
-source-git-commit: a6aa03157d44da8267faaa77bed83f07a03a24b3
+source-git-commit: 3c21d2ac594d4dfe309ed4227e46a9cb535f0501
 workflow-type: tm+mt
-source-wordcount: '341'
-ht-degree: 14%
+source-wordcount: '367'
+ht-degree: 12%
 
 ---
 
@@ -41,7 +41,11 @@ Para obtener más información sobre la creación de solicitudes, consulte:
 >* Versión rápida de producción: 11 de septiembre de 2025
 >* Producción para todos los clientes: viernes, 16 de octubre de 2025
 
-Para crear una mejor experiencia de usuario al realizar solicitudes en Workfront y Workfront Planning, hemos actualizado la experiencia de solicitud. Ahora puede hacer lo siguiente:
+Para crear una mejor experiencia de usuario al realizar solicitudes en Workfront y Workfront Planning, hemos actualizado la experiencia de solicitud.
+
+Para utilizar la nueva experiencia de solicitud, en el área Solicitudes, active la opción Usar nueva experiencia en la esquina superior derecha de la pantalla.
+
+En la nueva experiencia, puede:
 
 * Ver solicitudes de Workfront y Workfront Planning en una sola lista.
 * Filtrar las solicitudes enviadas según los criterios especificados.

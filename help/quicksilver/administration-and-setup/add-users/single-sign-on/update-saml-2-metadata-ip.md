@@ -8,16 +8,20 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 75cd0ab5-8d76-40a4-96a8-00e9f0f4fec6
-source-git-commit: d585b698b6c7900d861a30dc6b5e0bff6bd6d13a
+source-git-commit: 93f4c1691210d88531fcc269bd40ee7ed8633309
 workflow-type: tm+mt
-source-wordcount: '1000'
-ht-degree: 97%
+source-wordcount: '1050'
+ht-degree: 95%
 
 ---
 
 # Actualización de metadatos de SAML 2.0 en su proveedor de identidad
 
-{{important-admin-console-onboard}}
+>[!IMPORTANT]
+>
+>El procedimiento descrito en esta página se aplica solo a las organizaciones que aún no se han incorporado a Adobe Admin Console.
+>
+>Para asignar atributos de usuario en organizaciones que se han incorporado a Adobe Admin Console, consulte [Asignar atributos de usuario en la experiencia unificada de Adobe](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/map-user-attributes.md#map-user-attributes-in-the-adobe-unified-experience) en el artículo Asignar atributos de usuario.
 
 En las secciones siguientes se describe cómo actualizar los metadatos del Lenguaje de marcado para confirmaciones de seguridad (SAML) 2.0 cuando se usan los Servicios de federación de Active Directory (ADFS) como proveedor de identidad.
 

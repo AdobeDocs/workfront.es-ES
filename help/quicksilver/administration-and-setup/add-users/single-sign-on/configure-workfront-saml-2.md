@@ -2,20 +2,20 @@
 user-type: administrator
 product-area: system-administration;setup
 navigation-topic: single-sign-on-in-workfront
-title: Configuración de Adobe Workfront con SAML 2.0
-description: Como administrador de Adobe Workfront, puede configurar las aplicaciones web y móviles de Workfront para que se integren con una solución de lenguaje de marcado de aserción de seguridad (SAML) 2.0 para el inicio de sesión único (SSO).
+title: Configurar Adobe Workfront con SAML 2.0
+description: Como administrador de Adobe Workfront, puede configurar las aplicaciones web y móviles de Workfront para integrarlas con una solución de Security Assertion Markup Language (SAML) 2.0 para inicio de sesión único (SSO).
 author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: cf09859c-7d6f-4bf0-9b7f-c57096233c94
-source-git-commit: 4cab7bed6cb4c25d96e70ccce2ece7f6d156f435
+source-git-commit: 93f4c1691210d88531fcc269bd40ee7ed8633309
 workflow-type: tm+mt
-source-wordcount: '1011'
-ht-degree: 7%
+source-wordcount: '1061'
+ht-degree: 97%
 
 ---
 
-# Configuración de Adobe Workfront con SAML 2.0
+# Configurar Adobe Workfront con SAML 2.0
 
 <!--
 **DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.** </p>
@@ -23,9 +23,15 @@ ht-degree: 7%
 
 <!-- Audited: 12/2023 -->
 
-{{important-admin-console-onboard}}
 
-Como administrador de Adobe Workfront, puede configurar las aplicaciones web y móviles de Workfront para que se integren con una solución de lenguaje de marcado de aserción de seguridad (SAML) 2.0 para el inicio de sesión único (SSO).
+
+>[!IMPORTANT]
+>
+>El procedimiento descrito en esta página se aplica solo a las organizaciones que aún no se han incorporado a Adobe Admin Console.
+>
+>Para asignar atributos de usuario en organizaciones que se han incorporado a Adobe Admin Console, consulte [Asignar atributos de usuario en la experiencia unificada de Adobe](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/map-user-attributes.md#map-user-attributes-in-the-adobe-unified-experience) en el artículo Asignar atributos de usuario.
+
+Como administrador de Adobe Workfront, puede configurar las aplicaciones web y móviles de Workfront para integrarlas con una solución de Security Assertion Markup Language (SAML) 2.0 para inicio de sesión único (SSO).
 
 Después de configurar SAML 2.0 en Workfront, como se describe en las secciones siguientes, puede mantener la configuración, tal como se describe en [Actualizar los metadatos de SAML 2.0 en su proveedor de identidad](../../../administration-and-setup/add-users/single-sign-on/update-saml-2-metadata-ip.md).
 
@@ -40,7 +46,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plan de Adobe Workfront</td> 
+   <td role="rowheader">Plan de Adobe Workfront</td> 
    <td>Cualquiera</td> 
   </tr> 
   <tr> 
@@ -57,7 +63,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  </tbody> 
 </table>
 
-Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -81,7 +87,7 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
     <tbody>
      <tr>
       <td role="rowheader">Identificador de proveedor de servicios </td>
-      <td> Esta dirección URL, que ya se ha rellenado automáticamente, identifica a Workfront con su proveedor de identidad. Por ejemplo: <code>&lt;yourcompany&gt;.com/SAML2</code>.</td>
+      <td> Esta dirección URL, que ya se ha rellenado automáticamente, identifica a Workfront con su proveedor de identidad. Por ejemplo, <code>&lt;yourcompany&gt;.com/SAML2</code></td>
      </tr>
      <tr>
       <td role="rowheader">Tipo de enlace</span> </td>
@@ -93,15 +99,15 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
      </tr>
      <tr>
       <td role="rowheader">Completar campos a partir de metadatos del proveedor de identidad </td> 
-      <td>En su solución de proveedor de identidad de SAML 2.0, exporte un archivo XML de metadatos de proveedor de servicios y guárdelo en una ubicación temporal de su equipo. Seleccione <strong>Elegir archivo</strong> y, a continuación, busque y seleccione el archivo que guardó para agregarlo a la configuración de Workfront.</td> 
+      <td>En su solución de proveedor de identidad de SAML 2.0, exporte un archivo XML de metadatos de proveedor de servicios y guárdelo en una ubicación temporal de su equipo. Seleccione <strong>Elegir archivo</strong> y, a continuación, busque y seleccione el archivo que guardó para añadirlo a la configuración de Workfront.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">URL de portal de inicio de sesión</span> </td> 
-      <td>Introduzca el portal de inicio de sesión común de su organización. Dirección URL donde los usuarios inician sesión para acceder a Workfront y a todas las demás aplicaciones integradas con SAML 2.0.</td> 
+      <td>Introduzca el portal de inicio de sesión común de su organización. Esta es la dirección URL donde los usuarios inician sesión para acceder a Workfront y a todas las demás aplicaciones integradas con SAML 2.0.</td> 
      </tr>
      <tr>
-      <td role="rowheader">URL de cierre de sesión </span> </td> 
-      <td> <p>Introduzca la URL de cierre de sesión del servidor IDP. Workfront envía una solicitud HTTP a esta dirección URL antes de cerrar sesión en Workfront. Esto cierra la sesión del usuario en el servidor remoto cuando se cierra la sesión de Workfront.</p> <p><b>NOTA</b>: solo se le redirigirá a la dirección URL de cierre de sesión si tiene habilitada la opción <strong>Permitir solo la autenticación SAML 2.0</strong> en su perfil de usuario.</p> </td>
+      <td role="rowheader">URL de cierre de sesión</span> </td> 
+      <td> <p>Introduzca la URL de cierre de sesión del servidor IDP. Workfront envía una solicitud HTTP a esta dirección URL antes de cerrar sesión en Workfront. Esto cierra la sesión del usuario en el servidor remoto cuando se cierra la sesión de Workfront.</p> <p><b>NOTA</b>: Solo se le redirigirá a la dirección URL de cierre de sesión si tiene habilitada la opción <strong>Permitir solo la autenticación SAML 2.0</strong> en su perfil de usuario.</p> </td>
      </tr>
      <tr>
       <td role="rowheader">Cambiar URL de contraseña </td> 
@@ -126,9 +132,9 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
        <p>Al seleccionar la casilla de verificación, se muestran las siguientes opciones:</p> 
        <p> <img src="assets/saml-2.0-auto-provision-users-ui.png"> </p> 
        <p>Seleccione el atributo de usuario de Workfront que desee asignar en la lista desplegable y, a continuación, especifique el atributo de directorio correspondiente en el directorio de usuario.</p> 
-       <p>El campo <strong>Atributo de directorio</strong> debe contener el Nombre de atributo de directorio de la tabla de atributos de usuario que guardó al probar correctamente la configuración de SAML 2.0.</p> 
+       <p>El campo <strong>Atributo de Directorio</strong> debe contener el Nombre del Atributo de Directorio de la tabla de Atributos de Usuario que guardó al probar exitosamente su configuración de SAML 2.0.</p> 
        <p>Puede establecer un valor Workfront predeterminado en el campo <strong>Valor predeterminado</strong>. También puede establecer reglas basadas en los valores de su proveedor de identidad de SAML 2.0.</p> 
-       <p><b>ADVERTENCIA</b>: Workfront intenta asignar los atributos que se enumeran a continuación cada vez que un usuario inicia sesión en el sistema. Debido a esto, no se recomienda asignar niveles de acceso. Puede eliminar fácilmente el acceso administrativo si un atributo se asigna incorrectamente. Haga clic en <strong>Agregar asignación</strong> para agregar reglas adicionales.
+       <p><b>ADVERTENCIA</b>: Workfront intenta asignar los atributos que se enumeran a continuación cada vez que un usuario inicia sesión en el sistema. Debido a esto, no se recomienda asignar niveles de acceso. Puede eliminar sin complicaciones el acceso administrativo si se asigna mal un atributo. Haga clic en <strong>Añadir asignación</strong> para añadir reglas adicionales.
        </p> 
        <p>Puede asignar los siguientes atributos de Workfront:</p> 
       <ul> 
@@ -166,10 +172,10 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
       <td role="rowheader">Exención de administrador </td> 
       <td> <p>Permite a los administradores de Workfront acceder a Workfront mediante el inicio de sesión en Workfront. Si no se selecciona esta opción, los administradores de Workfront deben utilizar su nombre de usuario y contraseña de SAML 2.0.</p> 
       <p>En primer lugar, Workfront intenta iniciar sesión en Workfront a través de SAML 2.0 para los usuarios con nivel de acceso de administrador del sistema de Workfront. Si la autenticación SAML 2.0 falla, Workfront utiliza la autenticación local para los administradores de Workfront.</p> 
-      <p>Le recomendamos que siempre tenga seleccionada esta opción para que su administrador de Workfront pueda iniciar sesión en Workfront si su proveedor de SAML 2.0 alguna vez no está disponible temporalmente.</p> </td> 
+      <p>Recomendamos que siempre tenga esta opción seleccionada para que su administrador de Workfront pueda iniciar sesión en Workfront si su proveedor de SAML 2.0 no está disponible temporalmente.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Activar </td> 
+      <td role="rowheader">Habilitar </td> 
       <td> <p>Activa el SSO en el sistema de Workfront. Asegúrese de haber comunicado las instrucciones de inicio de sesión a los usuarios.</p> <p>Después de habilitar la configuración de SSO en Workfront, debe habilitar la opción <strong>Permitir solo la autenticación SAML 2.0</strong> para todos los usuarios para que puedan usar SSO.</p> <p>Para obtener más información sobre cómo actualizar usuarios para SSO, consulte <a href="../../../administration-and-setup/add-users/single-sign-on/update-users-sso.md" class="MCXref xref">Actualizar usuarios para el inicio de sesión único</a>.</p> <p>Para obtener más información acerca de la configuración de usuario, consulte <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">Editar el perfil de un usuario</a>.</p> </td> 
      </tr> 
      <tr> 
