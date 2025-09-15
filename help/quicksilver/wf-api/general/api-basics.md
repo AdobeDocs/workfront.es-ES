@@ -7,10 +7,10 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: d8c27915-8e1b-4804-9ef8-3a2efd57caac
-source-git-commit: a660fa9fedaf05582760029e062abb3d728106bd
+source-git-commit: 084f19973941b391d3d7e62c4901eee8ec975527
 workflow-type: tm+mt
-source-wordcount: '4383'
-ht-degree: 99%
+source-wordcount: '4396'
+ht-degree: 98%
 
 ---
 
@@ -29,7 +29,7 @@ Para entornos de producción, previsualización y pruebas de unidades, las solic
 
 ### Descargo de responsabilidad
 
-Cualquier uso de la API debe probarse en un entorno beta de Workfront antes de ejecutarse en el entorno de producción. Si algún cliente utiliza la API para un proceso que Workfront considera razonablemente intenso para el software bajo demanda (es decir, el proceso causa un efecto sustancialmente negativo en el rendimiento del software para otros clientes), Workfront se reserva el derecho de solicitar que el cliente interrumpa ese proceso. Si el cliente no cumple y el problema persiste, Workfront se reserva el derecho de finalizar el proceso.
+Cualquier uso de la API debe probarse en un entorno beta de Workfront antes de ejecutarse en el entorno de producción. Si algún cliente utiliza la API para un proceso que Workfront considera razonablemente intenso para el software bajo demanda (es decir, el proceso causa un efecto sustancialmente negativo en el rendimiento del software para otros clientes), Workfront se reserva el derecho de solicitar que el cliente interrumpa ese proceso. Si el cliente no cumple y el problema persiste, Workfront se reserva el derecho de terminar el proceso.
 
 ## URL de la API de Workfront
 
@@ -331,7 +331,7 @@ Para obtener una lista de posibles referencias de campo, consulte la [API Explor
 Es posible buscar objetos anidados. De forma predeterminada, los objetos anidados solo se devuelven con el nombre y el ID. Por ejemplo, para obtener todos los problemas junto con sus propietarios, utilice la siguiente solicitud:
 <pre>/attask/api/v15.0/issue/search?fields=owner</pre>Si se requiere más información, es posible solicitar un campo anidado mediante la sintaxis de dos puntos. Por ejemplo, la siguiente solicitud busca todos los problemas junto con el nombre, ID, título y número de teléfono del propietario
 <pre>/attask/api/v15.0/issue/search?fields=owner:title,owner:phoneNumber</pre>y devuelve lo siguiente: 
-<pre>&lbrace;{<br>    "name": "an important issue",<br>    "ID": "4c78285f00000908ea8cfd66e084939f",<br>    "owner": {<br>        "title": "Operations Specialist",<br>        "phoneNumber": "555-1234",<br>        "name": "Admin User",<br>        "ID": "4c76ed7a0000054c172b2c2d9f7f81c3" <br>    } <br>}</pre>
+<pre>{{<br>    "name": "an important issue",<br>    "ID": "4c78285f00000908ea8cfd66e084939f",<br>    "owner": {<br>        "title": "Operations Specialist",<br>        "phoneNumber": "555-1234",<br>        "name": "Admin User",<br>        "ID": "4c76ed7a0000054c172b2c2d9f7f81c3" <br>    } <br>}</pre>
 
 #### Recuperación de colecciones anidadas
 
@@ -367,7 +367,7 @@ Es posible usar `count` para devolver el número de resultados que coincida con 
 
 Es posible realizar una solicitud de informe donde solo se desee el acumulado de algún campo con una o más agrupaciones. Tal y como se muestra en el ejemplo siguiente, la sintaxis del informe es la misma que la de la API de SOAP:
 <pre>GET /attask/api/v15.0/hour/report?project:name_1_GroupBy=true&amp;hours_AggFunc=sum</pre>que devuelve el siguiente resultado
-<pre>&lbrace;{<br>    "First Project": { <br>        "sum_hours": 15 <br>    }, <br>     "Second Project": { <br>        "sum_hours": 30 <br>    } <br>}</pre>Si se añade el parámetro $$ROLLUP=true, se incluirá un total en cada nivel de agrupación:
+<pre>{{<br>    "First Project": { <br>        "sum_hours": 15 <br>    }, <br>     "Second Project": { <br>        "sum_hours": 30 <br>    } <br>}</pre>Si se añade el parámetro $$ROLLUP=true, se incluirá un total en cada nivel de agrupación:
 <pre>{<br>    "First Project": { <br>        "sum_hours": 15 <br>    }, <br>    "Second Project": { <br>        "sum_hours": 30 <br>    }, <br>    "$$ROLLUP": { <br>        "sum_hours": 45 <br>    } <br>}</pre>
 
 ### Ordenar los resultados de consulta en la API
@@ -494,7 +494,7 @@ Las actualizaciones de objetos siempre se realizan mediante el ID. utilizando el
 Como se muestra en el ejemplo siguiente, puede utilizar el parámetro de solicitud de actualizaciones para especificar los campos que se actualizarán con la sintaxis JSON:
 <pre>PUT /attask/api/v15.0/project/4c7...?updates= <br>{<br>     name: "New Project Name", <br>     status: "CUR", <br>     ... <br>}</pre>
 
-### Realización de actualizaciones anidadas
+###  Realización de actualizaciones anidadas
 
 Algunos objetos tienen colecciones de propiedad privada que se pueden actualizar. Por ejemplo, en el siguiente ejemplo se muestra cómo sobrescribir las asignaciones existentes de una tarea determinada:
 <pre>PUT /attask/api/v15.0/task/4c7...?updates= <br>{<br>    assignments: [ <br>        { <br>            assignedToID: "2222...54d0, <br>            assignmentPercent: 50.0 <br>        },{ <br>            roleID: "1111...54d0"<br>        } <br>    ] <br>}</pre>
@@ -504,7 +504,7 @@ Algunos objetos tienen colecciones de propiedad privada que se pueden actualizar
 >Aunque las actualizaciones realizadas en el nivel superior son dispersas, las actualizaciones de una colección o de un objeto anidado reemplazan por completo a la colección existente. Para editar una única asignación en una tarea sin afectar a los objetos, utilice PUT en la asignación en lugar de en la tarea.
 
 El siguiente ejemplo convierte un proyecto en una cola del servicio de asistencia público. Tenga en cuenta que las propiedades de cola existentes se reemplazan.
-<pre>PUT /attask/api/v15.0/project/4c7...?updates= <br>&lbrace; <br>    queueDef: { <br>        isPublic: 1 <br>    } <br></pre>
+<pre>PUT /attask/api/v15.0/project/4c7...?updates= <br>{ <br>    queueDef: { <br>        isPublic: 1 <br>    } <br></pre>
 
 ### Uso del parámetro de solicitud de acción
 
@@ -535,7 +535,7 @@ DELETE elimina un objeto. En todos los casos, el URI puede incluir el parámetro
 ## Actualizaciones masivas
 
 Una instrucción de actualización en lote actualiza varios objetos al mismo tiempo dentro de una sola llamada de API. Una llamada de API en lote se crea de forma similar a una llamada de actualización normal, tal como se muestra en los ejemplos siguientes:
-<pre>PUT /attask/api/v15.0/proj?updates=[{"name":"Test_Project_1"},{"name":"Test_Project_2"}]&amp;method=POST&amp;apiKey=123ab-cxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</pre>que da como resultado un resultado similar al siguiente:
+<pre>PUT /attask/api/v15.0/proj?updates=[{"name":"Test_Project_1"},{"name":"Test_Project_2"}]&amp;method=POST&amp;apiKey=123ab-cxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</pre>o <pre>PUSH /attask/api/v15.0/proj?updates=[{"name":"Test_Project_1"},{"name":"Test_Project_2"}]&amp;method=POST&amp;apiKey=123ab-cxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</pre>que da como resultado un resultado similar al siguiente:
 <pre>data: [{<br>    ID: "53ff8d3d003b438b57a8a784df38f6b3",<br>    name: "Test_Project_1",<br>    objCode: "PROJ",<br>    percentComplete: 0,<br>    plannedCompletionDate: "2014-08-28T11:00:00:000-0400",<br>    plannedStartDate: "2014-08-28T11:00:00:000-0400",<br>    priority: 0,<br>    projectedCompletionDate: "2014-08-28T16:12:00:000-0400",<br>    status: "CUR"<br>},<br>{<br>    ID: "53ff8d49003b43a2562aa34eea3b6b10",<br>    name: "Test_Project_2",<br>    objCode: "PROJ",<br>    percentComplete: 0usi,<br>    plannedCompletionDate: "2014-08-28T11:00:00:000-0400",<br>    plannedStartDate: "2014-08-28T11:00:00:000-0400",<br>    priority: 0,<br>    projectedCompletionDate: "2014-08-28T16:12:00:000-0400",<br>    status: "CUR"<br>}]</pre>También puede realizar una actualización masiva similar a la siguiente:
 <pre>PUT /attask/api/v15.0/proj?Umethod=PUT&amp;updates=[{"ID":"123abcxxxxxxxxxxxxxxxxxxxxxxxxxx","name":"Test_Project_1_ Edit"},{"ID":"123abcxxxxxxxxxxxxxxxxxxxxxxxxxx","name":"Test_Project_2_Edit"}]&amp;apiKey=123abcxxxxxxxxxxxxxxxxxxxxxxxxxx</pre>que da como resultado un resultado similar al siguiente:
 <pre>data: [ {<br>     ID: "53ff8e15003b461d4560f7f65a440078",<br>     name: "Test_Project_1_Edit",<br>     objCode: "PROJ",<br>     percentComplete: 0,<br>     plannedCompletionDate: "2014-08-28T11:00:00:000-0400",<br>     plannedStartDate: "2014-08-28T11:00:00:000-0400",<br>     priority: 0,<br>     projectedCompletionDate: "2014-08-28T16:16:00:000-0400",<br>     status: "CUR"<br>},<br>{<br>    ID: "53ff8e19003b46238a58d303608de502",<br>    name: "Test_Project_2_Edit",<br>    objCode: "PROJ",<br>    percentComplete: 0,<br>    plannedCompletionDate: "2014-08-28T11:00:00:000-0400",<br>    plannedStartDate: "2014-08-28T11:00:00:000-0400",<br>    priority: 0,<br>    projectedCompletionDate: "2014-08-28T16:16:00:000-0400",<br>    status: "CUR"<br>}]</pre>Si desea que todas las operaciones se realicen en la misma transacción, añada "atomic=true" a la llamada de API por lotes como parámetro de solicitud. De este modo, si alguna de las operaciones falla, todas las operaciones se revierten.
