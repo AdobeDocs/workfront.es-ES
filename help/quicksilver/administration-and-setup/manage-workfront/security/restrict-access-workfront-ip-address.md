@@ -8,18 +8,19 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: aed65b42-d534-453a-885d-f922114987bc
-source-git-commit: 65121fae364683373d2bc9abbe6672755d0cd09c
+source-git-commit: 03c17f2a09f4b2e00a4a03a177ce241b38b9ea7e
 workflow-type: tm+mt
-source-wordcount: '477'
-ht-degree: 92%
+source-wordcount: '447'
+ht-degree: 93%
 
 ---
 
 # Restringir el acceso a Adobe Workfront por dirección IP
 
+<!--
 >[!IMPORTANT]
 >
->Actualmente, esta funcionalidad no está disponible para las organizaciones que se han incorporado a Adobe Admin Console. Estará disponible en Adobe Admin Console en una versión futura.
+>This functionality is not currently available to organizations that have been onboarded to the Adobe Admin Console. It will be available in the Adobe Admin Console in a future release. -->
 
 Puede configurar una lista de permitidos IP de Adobe Workfront que limite el acceso a Workfront a 75 direcciones IP o intervalos de direcciones IP que especifique. Esto proporciona un nivel adicional de seguridad para la aplicación de Workfront.
 
@@ -45,7 +46,7 @@ Para realizar los pasos de este artículo, debe tener lo siguiente:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso</td> 
-   <td> <p>Debe ser administrador de Workfront.</p> <p><b>NOTA</b>: Si todavía no tiene acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
+   <td> <p>Debe ser administrador de Workfront.</p> <p><b>Nota</b>: Si todavía no tienes acceso, pregunta al administrador de Workfront si ha establecido restricciones adicionales en tu nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
