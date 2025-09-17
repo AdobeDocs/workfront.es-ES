@@ -3,9 +3,9 @@ user-guide-title: Guía de Workfront
 user-guide-description: Utilice los siguientes documentos, tutoriales y recursos adicionales para aprender a implementar y utilizar Adobe Workfront de forma eficaz en su organización.
 role: User
 feature-set: Workfront
-source-git-commit: 5b34ea50fbf4718512a604191202b4ae9521ba86
+source-git-commit: 190481ed57485a5c93a0086cda207a270d05ac23
 workflow-type: tm+mt
-source-wordcount: '13500'
+source-wordcount: '13502'
 ht-degree: 59%
 
 ---
@@ -1823,7 +1823,7 @@ ht-degree: 59%
       * [Resumen de aprobaciones unificadas](review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)
       * [Información general del estado de decisión del documento](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md)
       * [Introducción al revisor de IA de Workfront](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md)
-      * [Información general sobre Adobe Enterprise Storage Management](/help/quicksilver/review-and-approve-work/esm-overview.md)
+      * [información general sobre el almacenamiento empresarial de Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md)
       * Configuración y administración de aprobaciones de recursos y documentos {#manage-asset-review-and-approval}
          * [Configurar y administrar aprobaciones unificadas: índice de artículos](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/set-up-and-manage-doc-asset-approvals-toc.md)
          * [Crear revisores de IA](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/set-up-ai-reviewer.md)
@@ -1957,6 +1957,7 @@ ht-degree: 59%
          * [Las versiones de prueba no se pueden descargar ni previsualizar cuando se agrega una prueba interactiva como una nueva versión](/help/quicksilver/review-and-approve-work/proofing/tips-tricks-and-troubleshooting/static-and-web-proof-downloads.md)
    * Integraciones nativas {#native-integrations}
       * [Revisar y aprobar integraciones nativas: índice de artículos](/help/quicksilver/review-and-approve-work/native-integrations/review-approva-native-integrations-toc.md)
+      * [Información general sobre la integración de Frame.io](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/frame-int-overview.md)
       * [Introducción a la integración de pruebas y GenStudio for Performance Marketing](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-genstudio.md)
       * [Introducción a las pruebas y Creative Cloud Express](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-express.md)
       * [Introducción a la integración de Frame.io](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/get-started-with-frame-integration.md)

@@ -8,9 +8,9 @@ feature: Work Management, Digital Content and Documents
 hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 701f3fc2c885363b5f61fb9d77049c7d4c41963d
+source-git-commit: c4e1961092883f523d04adaacd58129a0379783d
 workflow-type: tm+mt
-source-wordcount: '617'
+source-wordcount: '647'
 ht-degree: 0%
 
 ---
@@ -20,18 +20,18 @@ ht-degree: 0%
 
 La integración de Workfront y Frame.io permite a los coordinadores de proyectos administrar proyectos y planificar el trabajo en Workfront, mientras que los creativos, los especialistas en marketing y las partes interesadas pueden revisar y aprobar los recursos en Frame.io.
 
-## Basado en Adobe Enterprise Storage Management
+## Basado en el almacenamiento empresarial de Adobe
 
-El núcleo de esta integración es Adobe Enterprise Storage Management (ESM), una solución de almacenamiento basada en la nube que sirve como repositorio central para los activos de los productos empresariales de Adobe, incluidos Workfront y Frame.io.
+El núcleo de esta integración es el almacenamiento empresarial de Adobe, una solución de almacenamiento basada en la nube que sirve como repositorio central para los recursos de los productos empresariales de Adobe, incluidos Workfront, Frame.io y Creative Cloud.
 
-Entre las ventajas clave de la gestión de almacenamiento empresarial de Adobe se incluyen:
+Entre las ventajas clave del almacenamiento empresarial de Adobe se incluyen:
 
 * Capa de almacenamiento unificada para recursos creativos y de administración de trabajo
 * Permisos centralizados a través de Adobe IMS para el control de acceso seguro
 * Visibilidad completa de los recursos en las aplicaciones de Workfront, Frame.io y Creative Cloud <!--coming soon?-->
 * Almacenamiento escalable y administración de cuotas para las necesidades empresariales
 
-Para obtener más información, consulte [Información general sobre la administración de almacenamiento empresarial de Adobe](help/quicksilver/review-and-approve-work/esm-overview.md).
+Para obtener más información, consulte [Información general sobre el almacenamiento empresarial de Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 ## Revisión y aprobación unificadas
 
@@ -58,9 +58,13 @@ La integración también se conecta con el visor Frame.io. El visor Frame.io pro
 
 Para obtener más información, consulte [Introducción a la integración de Frame.io](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/get-started-with-frame-integration.md).
 
-#### Limitaciones de revisión de vídeo
+#### Límites de revisión de vídeo
 
-<!--need to confirm these-->
+Las solicitudes de revisión de vídeo tienen un límite anual establecido en el 10 % del total de licencias de usuario Workfront pagadas de una organización (estándar y básica). Este límite se aplica en el nivel de organización.
+
+Los administradores de Workfront recibirán notificaciones cuando el uso alcance el 80 % y el 100 % del límite.
+
+Este límite no se aplica a los clientes de Frame.io Enterprise.
 
 #### Tipos de archivo compatibles con el visor Frame.io
 
@@ -70,7 +74,7 @@ El visor Frame.io es compatible con todos los tipos comunes de vídeo, imagen, a
 
 El visor Frame.io está disponible para todos los usuarios de Workfront con una licencia de pago. No se requiere ninguna licencia Frame.io adicional para utilizar el visor Frame.io para revisiones y aprobaciones con esta integración.
 
-Si su organización desea aprovechar las ventajas de la funcionalidad Frame.io adicional, como cargar recursos directamente en proyectos en Frame.io, puede adquirir una licencia empresarial de Frame.io. <!--link to Frame.io enterprise license info or who to contacT?-->
+Si su organización desea aprovechar las ventajas de la funcionalidad Frame.io adicional, como cargar recursos directamente en proyectos en Frame.io, puede adquirir una licencia empresarial de Frame.io. Póngase en contacto con su representante de cuentas de Adobe para programar una demostración y explorar las ventajas de la solución Frame.io completa.
 
 La funcionalidad de revisión de Workfront no está disponible con esta integración.
 
@@ -78,7 +82,7 @@ La funcionalidad de revisión de Workfront no está disponible con esta integrac
 
 Con la integración de Workfront y Frame.io, los coordinadores de proyectos pueden aprovechar las potentes capacidades de administración de proyectos de Workfront para planificar, rastrear y administrar el trabajo.
 
-Para obtener más información acerca de la administración de proyectos en Workfront, vea [Proyectos: índice de artículos](/help/quicksilver/manage-work/projects/projects-toc.md).
+Para obtener más información acerca de la administración de proyectos en Workfront, vea [Proyectos: índice de artículos](/help/quicksilver/manage-work/projects/create-projects/create-project.md).
 
 ### Convenciones de nomenclatura y estructura forzadas
 
@@ -106,21 +110,21 @@ Debido a que esta integración se crea mediante ESM, existen algunas limitacione
 
 En esta integración no se incluirán las siguientes capacidades:
 
-* Proveedores de documentos externos
+<!--* External document providers-->
 * Acceso a pruebas
 * Visualizador de documentos en Workfront
-
-
-#### Limitaciones temporales
-
-Por ahora, las siguientes capacidades no están disponibles:
-
 * Documentos favoritos
 * Solicitar documentos
-* Envío de documentos a Adobe Experience Manager Assets
-* Aprobaciones en varias etapas
-* Cargar documentos a comentarios o actualizaciones en Workfront
-* Cargar documentos a tareas o problemas en Workfront
+
+
+<!--#### Temporary limitations
+
+For now, the following capabilities are not available:
+
+* Send documents to Adobe Experience Manager Assets
+* Multi-stage approvals
+* Upload documents to comments or updates in Workfront
+* Upload documents to tasks or issues in Workfront-->
 
 
 

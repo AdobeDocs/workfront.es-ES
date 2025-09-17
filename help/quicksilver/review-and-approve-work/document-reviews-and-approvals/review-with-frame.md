@@ -8,10 +8,10 @@ feature: Work Management, Digital Content and Documents
 hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 19003988a8e164db225f8511f567d38e6eeaf627
+source-git-commit: 601285fdbf26365dcaea14f990904d049816af21
 workflow-type: tm+mt
-source-wordcount: '606'
-ht-degree: 14%
+source-wordcount: '570'
+ht-degree: 15%
 
 ---
 
@@ -81,8 +81,6 @@ Los comentarios y el marcado de recursos solo son visibles en el visor de Frame.
 Como aprobador, puede agregar comentarios y marcar como recursos. Debe tomar la decisión de adelantar el proceso de aprobación.
 
 El documento no pasa a un estado aprobado hasta que todos los aprobadores asignados eligen &quot;aprobado&quot;.
-
-Si algún aprobador elige &quot;Necesita trabajo&quot;, el estado del documento cambia inmediatamente a Necesita trabajo. El documento debe revisarse y cargarse como una nueva versión con un nuevo flujo de trabajo de aprobación.
 
 Para tomar una decisión sobre un documento:
 
