@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 298473d4-7d7d-4401-80bf-899a01f570a6
-source-git-commit: dcdd74e8293a5e695600f08536c8fc2ad36c3a31
+source-git-commit: 30e5358549291e5d04d42ab470dccd444521ecb8
 workflow-type: tm+mt
-source-wordcount: '2077'
+source-wordcount: '2073'
 ht-degree: 16%
 
 ---
@@ -79,7 +79,6 @@ The <add release> release webinar will be held on <date>. You can [register for 
      <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Actualizaciones en el perfil de usuario de Workfront</a><p>[!BADGE Off schedule]{type=Neutral}</p>
-            <p><i>Esta actualización se ha eliminado temporalmente de la vista previa y la producción.</i></p>
             <p>Hemos actualizado el aspecto del perfil de usuario de Workfront a un diseño moderno que es coherente con otras áreas de Workfront. Estas actualizaciones se aplican tanto a un administrador que edita un único perfil como a un administrador que edita varios perfiles en lote, o a un usuario que edita su propio perfil.</p>
             <p>Existen algunas pequeñas diferencias de funcionalidad con respecto al perfil de usuario actual, que incluyen:</p>
             <ul>
@@ -88,8 +87,8 @@ The <add release> release webinar will be held on <date>. You can [register for 
             </ul>
         </td>
         <td>viernes, 28 de agosto de 2025</td>
-        <td>viernes, 04 de septiembre de 2025</td>
-        <td>viernes, 04 de septiembre de 2025</td>
+        <td>Despliegue gradual a partir del 18 de septiembre de 2025</td>
+        <td>Despliegue gradual a partir del 18 de septiembre de 2025</td>
     </tr>  
     <tr>
         <td>
@@ -440,7 +439,7 @@ Para ofrecer integraciones más estables y escalables, estamos adoptando un enfo
 * Workfront para Salesforce.
 
 Recomendamos utilizar la automatización e integración de Workfront para las necesidades de integración de su organización con Google Workspace.
-Para obtener una descripción general de la automatización e integración de Workfront, consulte [Información general de Adobe Workfront Fusion](https://experienceleague.adobe.com/es/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+Para obtener una descripción general de la automatización e integración de Workfront, consulte [Información general de Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 
 ### Versión 20 de la API
 
