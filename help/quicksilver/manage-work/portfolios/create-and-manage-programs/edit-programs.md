@@ -6,14 +6,16 @@ description: Puede editar información sobre los programas que ha creado o que o
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 7dcdfc5a-3fc1-48a8-ae28-a6a0a458732e
-source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
+source-git-commit: 5edda5b6d084c6c4df62f21e430ce9cd0c1cc8a4
 workflow-type: tm+mt
-source-wordcount: '1034'
-ht-degree: 87%
+source-wordcount: '1059'
+ht-degree: 81%
 
 ---
 
 # Editar programas
+
+{{highlighted-preview}}
 
 Puede editar información sobre los programas que ha creado o que otros usuarios han creado si los han compartido con usted.
 
@@ -104,6 +106,10 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
    Aparece el cuadro de diálogo **[!UICONTROL Editar programa]**.
 
+   <span class="preview">Imagen de muestra en el entorno de vista previa:</span>
+   ![Editar cuadro de programa](assets/edit-program-0925.png)
+
+   Imagen de muestra en el entorno de producción:
    ![Editar cuadro de programa](assets/edit-program-box-nwe-350x236.png)
 
    Todos los campos de programa están disponibles en el cuadro [!UICONTROL Editar programa] y se agrupan por las áreas enumeradas en el panel izquierdo.
@@ -148,16 +154,16 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Group]</td> 
-      <td> <p>Añada el nombre de un solo grupo si este está asociado al programa o si tiene la responsabilidad de completarlo. </p> <p>Sugerencia:  <p>Al acceder al campo [!UICONTROL Group] desde la página [!UICONTROL Program Details], haga lo siguiente: </p> <p>Para asegurarse de que está seleccionando el grupo correcto, pase el puntero sobre él y haga clic en el icono de [!UICONTROL information] <img src="assets/info-icon.png"> que aparece junto a él. Esta acción muestra la ayuda contextual con información sobre el grupo, como la jerarquía de los grupos que tiene por encima y sus administradores.</p> <p> <img src="assets/group-details-widget-programs-350x268.png" style="width: 350;height: 268;"> </p> <p>Esta opción no está disponible en el cuadro [!UICONTROL Edit Program]. </p> </p> </td> 
+      <td> <p>Añada el nombre de un solo grupo si este está asociado al programa o si tiene la responsabilidad de completarlo. </p> <p>Sugerencia:  <p>Al acceder al campo [!UICONTROL Group] desde la página [!UICONTROL Program Details], haga lo siguiente: </p> <p>Para asegurarse de que esté seleccionando el grupo correcto, pase el puntero por encima de él y haga clic en el icono de [!UICONTROL information] <img src="assets/info-icon.png"> que aparece junto a él. Esta acción muestra la ayuda contextual con información sobre el grupo, como la jerarquía de los grupos que tiene por encima y sus administradores.</p> <p> <img src="assets/group-details-widget-programs-350x268.png" style="width: 350;height: 268;"> </p> <p>Esta opción no está disponible en el cuadro [!UICONTROL Edit Program]. </p> </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Is Active]</td> 
-      <td> <p> Seleccione esta casilla de verificación si desea que el programa esté activo. Otros usuarios pueden encontrar programas activos y adjuntarlos a proyectos o añadirlos a portafolios. Los programas inactivos no se pueden adjuntar a proyectos o portafolios. Esta opción está activada de forma predeterminada.</p> </td> 
+      <td> <p> Seleccione esta casilla de verificación si desea que el programa esté activo. Otros usuarios pueden encontrar programas activos y adjuntarlos a proyectos o añadirlos a portafolios. Los programas inactivos no se pueden adjuntar a proyectos o portafolios. Esta opción está habilitada de forma predeterminada.</p> </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. Haga clic en **[!UICONTROL Guardar cambios]** o continúe editando las secciones siguientes.
+1. Haga clic en <span class="preview">**Guardar**</span> o **[!UICONTROL Guardar cambios]**, o continúe editando las secciones siguientes.
 
 ### [!UICONTROL Formularios personalizados]
 
@@ -170,17 +176,17 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
    >
    >Según la forma en que el administrador de [!DNL Workfront] haya establecido los permisos para las secciones del formulario personalizado, no todos podrán ver o editar los mismos campos en un formulario personalizado determinado. Los permisos para editar campos dentro de una sección de un formulario personalizado dependen de los permisos que tenga en el propio programa. Para obtener información sobre cómo establecer permisos en secciones de un formulario personalizado, consulte [Crear un formulario personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
-1. Actualice los campos de los formularios personalizados y, a continuación, haga clic en **[!UICONTROL Save Changes]** o continúe con la siguiente sección.
+1. Actualice los campos de los formularios personalizados y, a continuación, haga clic en <span class="preview">**Guardar**</span> o **[!UICONTROL Guardar cambios]**, o bien continúe con la siguiente sección.
 
 ### [!UICONTROL Comment] {#comment}
 
 1. Empiece a editar un programa como se ha descrito anteriormente.
-1. Haga clic en **[!UICONTROL Comment]**.
-
-   ![Cuadro de comentarios en el cuadro de edición de programa](assets/comment-box-in-program-edit-box-classic-350x195.png)
-
-1. Añada un comentario en el campo **[!UICONTROL Publicar una actualización en el programa]**.
+1. Haga clic en **[!UICONTROL Aceptar]**.
+1. Agregar un comentario en **[!UICONTROL Publicar una actualización en el programa]** / <span class="preview">**Agregar una actualización a cada campo de programa**</span>.
 1. (Opcional) Haga clic en el icono **[!UICONTROL Personas]** para añadir un usuario o equipo al comentario.
-1. (Opcional) Haga clic en el icono **[!UICONTROL Bloquear]** para bloquear el comentario y hacer que sea privado solo para los usuarios de su compañía.
+1. (Opcional) Haga clic en el icono **[!UICONTROL Bloquear]** <span class="preview">o seleccione [!UICONTROL **Privado para mi empresa**]</span> para bloquear el comentario y hacerlo privado solo para los usuarios de su empresa.
 
    Después de guardar los cambios, el comentario que añada se mostrará en la ficha [!UICONTROL Actualizaciones] del programa y enviará un correo electrónico a los usuarios incluidos en él.
+
+
+   <!--THIS IMAGE GOES AFTER "CLICK COMMENT." I had to move it to get rid of blank lines. Lisa ![Comment box in edit program box](assets/comment-box-in-program-edit-box-classic-350x195.png)-->
