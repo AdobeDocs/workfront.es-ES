@@ -55,7 +55,7 @@ Si carga un tipo de archivo no compatible, la opción AI Reviewer no aparece al 
 
 ## Configurar directrices de marca
 
-El revisor de IA de Workfront utiliza las directrices de marca configuradas en Genstudio Foundation al revisar el contenido. Actualmente, solo puede configurar directrices de marca para imágenes. Para obtener más información, consulte [Introducción a Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started).
+El revisor de IA de Workfront utiliza las directrices de marca configuradas en Genstudio Foundation al revisar el contenido. Actualmente, solo puede configurar directrices de marca para imágenes. Para obtener más información, consulte [Introducción a Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/es/docs/genstudio-for-performance-marketing/user-guide/get-started).
 
 
 ## Crear revisores de IA

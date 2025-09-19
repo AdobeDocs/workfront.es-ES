@@ -57,7 +57,7 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
 
 Antes de empezar, debe configurar las directrices de marca de imagen en GenStudio Foundation.
 
-Para obtener más información acerca de las directrices de marca de imagen, consulte [Introducción a Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started).
+Para obtener más información acerca de las directrices de marca de imagen, consulte [Introducción a Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/es/docs/genstudio-for-performance-marketing/user-guide/get-started).
 
 ## Añadir un revisor de IA
 
