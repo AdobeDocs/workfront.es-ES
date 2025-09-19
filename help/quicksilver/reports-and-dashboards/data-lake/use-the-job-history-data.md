@@ -6,7 +6,7 @@ description: Con Data Connect, los administradores de Workfront pueden acceder a
 author: Jenny
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
-source-git-commit: 79e8b2b1dd3b7374173c2a930abdf8a0bca2cda6
+source-git-commit: 05cf34fe6659c50da76d2478c6e79352346dc9a5
 workflow-type: tm+mt
 source-wordcount: '448'
 ht-degree: 0%
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 En la vista Historial de trabajos, los administradores de Workfront pueden acceder a registros detallados de cada trabajo de actualización de datos. Estos registros proporcionan insight valioso en los trabajos que mantienen los datos actualizados y le ayudan a establecer marcos de tiempo ideales sobre cuándo ejecutar procesos y actualizar las visualizaciones empresariales.
 
-![Vista del historial de trabajos](assets/job-history-tab.png)
+![Vista del historial de trabajos](assets/job-history-overview.png)
 
 Las columnas de la vista Historial de trabajos contienen la siguiente información:
 
