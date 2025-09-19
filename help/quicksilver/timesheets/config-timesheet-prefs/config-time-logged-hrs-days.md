@@ -1,19 +1,19 @@
 ---
 product-area: timesheets;setup
 navigation-topic: configure-timesheet-preferences
-title: Configurar si se registran horas y días
+title: Configurar si se registra en horas o días
 description: Como usuario con una licencia de planificación, puede configurar si registra tiempo en Adobe Workfront en horas o días. Los administradores del sistema pueden configurar esta opción para usuarios individuales o para varios usuarios de su organización. De forma predeterminada, los usuarios registran el tiempo en horas.
 author: Alina
 feature: Timesheets
 exl-id: 4f801a13-182d-4e06-98ea-f6863f6a8edf
-source-git-commit: b4ab350af22afa44774f06d82daf1c3fb266d2b9
+source-git-commit: 106ef838bfee5e496cae864eca5c19fd12fdd18e
 workflow-type: tm+mt
-source-wordcount: '451'
-ht-degree: 1%
+source-wordcount: '455'
+ht-degree: 16%
 
 ---
 
-# Configurar si se registran horas y días
+# Configurar si se registra en horas o días
 
 Como usuario con una licencia de Planner, puede configurar si registra tiempo en Adobe Workfront en horas o días. Los administradores del sistema pueden configurar esta opción para usuarios individuales o para varios usuarios de su organización. De forma predeterminada, los usuarios registran el tiempo en horas. Para obtener información acerca de cómo registrar tiempo en Workfront, vea [Registrar tiempo](../../timesheets/create-and-manage-timesheets/log-time.md).
 
@@ -32,7 +32,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plan Adobe Workfront*</td> 
+   <td role="rowheader">Plan de Adobe Workfront*</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
@@ -46,7 +46,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  </tbody> 
 </table>
 
-&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de Workfront.
+&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su administrador de Workfront.
 
 1. Realice una de las siguientes acciones, según el objetivo y el nivel de acceso del sistema:
 
@@ -56,7 +56,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 1. En el cuadro de diálogo resultante, en la sección **Planificación de recursos**, busque la opción **Registrar tiempo en**.
 
-   ![](assets/new-timesheet-log-hours-350x249.png)
+   ![Registrar tiempo en opciones](assets/user-profile-log-time-options.png)
 
 1. (Condicional) Si es administrador del sistema y edita varios usuarios simultáneamente, seleccione **Registrar tiempo en**.
 1. Seleccione entre las siguientes opciones para registrar el tiempo:
