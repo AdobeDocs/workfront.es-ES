@@ -7,7 +7,7 @@ author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 0f4fd3a7-9578-4fda-b10f-9b4be147f1de
-source-git-commit: e20e26ef11046ed252725f8c5431469642845b52
+source-git-commit: d088b40cd8d46a986998fde2176646aa1660cb6b
 workflow-type: tm+mt
 source-wordcount: '638'
 ht-degree: 6%
@@ -55,12 +55,12 @@ Si carga un tipo de archivo no compatible, la opción AI Reviewer no aparece al 
 
 ## Configurar directrices de marca
 
-El revisor de IA de Workfront utiliza las directrices de marca configuradas en Genstudio Foundations al revisar el contenido. Actualmente, solo puede configurar directrices de marca para imágenes. Para obtener más información, consulte [Introducción a Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/es/docs/genstudio-for-performance-marketing/user-guide/get-started).
+El revisor de IA de Workfront utiliza las directrices de marca configuradas en Genstudio Foundation al revisar el contenido. Actualmente, solo puede configurar directrices de marca para imágenes. Para obtener más información, consulte [Introducción a Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started).
 
 
 ## Crear revisores de IA
 
-Una vez que hay al menos una marca configurada en GenStudio Foundations, los administradores de Workfront pueden empezar a crear revisores de IA en el área de Configuración. Estos revisores de IA se pueden asignar a plantillas de aprobación y a solicitudes de revisión y aprobación individuales. En este momento, los revisores de IA solo pueden revisar las directrices de marca de imagen.
+Una vez que haya al menos una marca configurada en GenStudio Foundation, los administradores de Workfront pueden empezar a crear revisores de IA en el área de configuración. Estos revisores de IA se pueden asignar a plantillas de aprobación y a solicitudes de revisión y aprobación individuales. En este momento, los revisores de IA solo pueden revisar las directrices de marca de imagen.
 
 Para obtener más información, consulte [Crear revisores de IA](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/set-up-ai-reviewer.md).
 
