@@ -3,9 +3,9 @@ user-guide-title: Guía de Workfront
 user-guide-description: Utilice los siguientes documentos, tutoriales y recursos adicionales para aprender a implementar y utilizar Adobe Workfront de forma eficaz en su organización.
 role: User
 feature-set: Workfront
-source-git-commit: 79e8b2b1dd3b7374173c2a930abdf8a0bca2cda6
+source-git-commit: 74bdbaa0dd4df7b11a96105ad4258b06317b2510
 workflow-type: tm+mt
-source-wordcount: '13511'
+source-wordcount: '13516'
 ht-degree: 59%
 
 ---
@@ -886,6 +886,7 @@ ht-degree: 59%
       * [Información general del asistente de IA](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md)
       * [Resumir con el asistente de IA](/help/quicksilver/workfront-basics/ai-assistant/summarize-this.md)
       * [Obtener ayuda del Asistente de IA](/help/quicksilver/workfront-basics/ai-assistant/use-ai-to-retrieve-instructions.md)
+      * [El asistente de IA solicita prácticas recomendadas](/help/quicksilver/workfront-basics/ai-assistant/ai-prompts-best-practices.md)
       * [Revisión de fórmulas de campos calculados con el asistente de IA](/help/quicksilver/workfront-basics/ai-assistant/use-ai-assistant-to-check-formulas.md)
       * [Usar el Asistente de IA para trabajar con proyectos, tareas y problemas](/help/quicksilver/workfront-basics/ai-assistant/work-with-pti-through-ai-assisant.md)
       * [Habilitar o deshabilitar el Asistente de IA](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md)
