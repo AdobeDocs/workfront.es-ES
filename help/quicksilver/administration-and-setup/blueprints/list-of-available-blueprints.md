@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: a5cdcb89-71c0-43f0-a5cf-dc99fac542ba
-source-git-commit: 48de4553478fc42d88d81ea953440337f6684e50
+source-git-commit: bea983292d33a50bbe27bd116a74aba33e4c69dd
 workflow-type: tm+mt
-source-wordcount: '2057'
-ht-degree: 83%
+source-wordcount: '2082'
+ht-degree: 82%
 
 ---
 
@@ -20,6 +20,8 @@ ht-degree: 83%
 <!-- Audited: 5/2025 -->
 
 Los administradores del sistema tienen disponibles los siguientes [!DNL Adobe Workfront] modelos para instalarlos. Para obtener más información sobre los modelos, consulte [Información general sobre los modelos](/help/quicksilver/administration-and-setup/blueprints/blueprints-overview.md).
+
+**Informes activos de análisis de usuarios (NUEVO)** Este modelo contiene un tablero para ayudar a los administradores a validar la configuración del usuario, identificar desajustes y garantizar que las configuraciones admitan el uso previsto de la aplicación&#x200B;
 
 **[!UICONTROL Añadir lista de comprobación de TI para empleados nuevos]**
 Este modelo contiene una plantilla que la organización de Professional services de [!DNL Workfront] ha utilizado durante años en los compromisos de implementación con los equipos de TI corporativa para organizar las actividades de incorporación de nuevos empleados. El uso de esta plantilla permite a los equipos de TI operar de forma eficiente, lo que conduce a una experiencia positiva para los nuevos empleados y a un camino más rápido hacia la productividad.
