@@ -2,14 +2,14 @@
 product-area: projects;templates
 navigation-topic: manage-projects
 title: Guardar un proyecto como plantilla
-description: Guardar un proyecto como plantilla “Guardar como plantilla” en el nivel de proyecto, para que los usuarios lo vean en la interfaz de usuario; este artículo está vinculado con otro artículo que trata esto en más profundidad (paso a paso). Esta funcionalidad debe permanecer en las áreas de proyectos Y plantillas.
+description: Guarde un proyecto como plantilla en el nivel de proyecto, para que los usuarios lo vean en la interfaz de usuario; hay otro artículo al que este vincula más en profundidad (paso a paso). Esta funcionalidad debe permanecer en las áreas de proyectos Y plantillas.)
 author: Alina
 feature: Work Management
 exl-id: 4b5dfe12-f984-47c6-8e19-78b549f19159
-source-git-commit: f7cb314067d105d5534f4be356024aea8e8f9a28
+source-git-commit: 13621c29f32a514af46489fb58397f3e96f640ce
 workflow-type: tm+mt
-source-wordcount: '489'
-ht-degree: 64%
+source-wordcount: '487'
+ht-degree: 55%
 
 ---
 
@@ -35,7 +35,7 @@ Si decide que un proyecto se va a repetir en algún momento futuro, puede crear 
 
 ## Requisitos de acceso
 
-+++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo. 
 
 <table style="table-layout:auto"> 
  <col> 
