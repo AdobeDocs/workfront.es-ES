@@ -4,17 +4,19 @@ product-area: user-management
 navigation-topic: configure-your-user-profile
 title: Configurar los días libres personales
 description: Es importante indicar en Adobe Workfront cuándo tienen lugar los días libres aprobados, ya que esto afecta a la programación y repercute en las fechas de finalización previstas de las tareas que tiene asignadas.
-author: Courtney
+author: Becky
 feature: Get Started with Workfront
 exl-id: e7710495-c418-47b1-8598-725580054fc5
-source-git-commit: fa5a59c15395f825ad73d889d4d877224a676891
+source-git-commit: e0f6078cfab1b325302dbda8a656d2a65ee0b95c
 workflow-type: tm+mt
-source-wordcount: '428'
+source-wordcount: '444'
 ht-degree: 92%
 
 ---
 
 # Configurar los días libres personales
+
+{{highlighted-preview}}
 
 <!-- Audited: 12/2023 -->
 
@@ -74,10 +76,13 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
 >
 >![perfil de workfront](assets/aue-profile.png)
 
-
 1. En el panel izquierdo, haga clic en **[!UICONTROL Días libres]**.
 1. Seleccione la fecha que desee para sus días libres personales.
 
+   <span class="preview">Imagen de muestra en el entorno de vista previa:</span>
+   ![Calendario personal de días libres](assets/personal-time-off-calendar-0925.png)
+
+   Imagen de muestra en el entorno de producción:
    ![Calendario personal de días libres](assets/personal-time-off-calendar.png)
 
 1. Seleccione **[!UICONTROL Todo el día]**, si se toma un día libre completo.

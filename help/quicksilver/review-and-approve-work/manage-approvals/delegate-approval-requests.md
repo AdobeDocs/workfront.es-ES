@@ -6,10 +6,10 @@ description: La delegación de solicitudes de aprobación le permite asignar a o
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 01b76dd5-98cb-4f0d-97ff-7e665f843a9c
-source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
+source-git-commit: e0f6078cfab1b325302dbda8a656d2a65ee0b95c
 workflow-type: tm+mt
 source-wordcount: '1209'
-ht-degree: 80%
+ht-degree: 76%
 
 ---
 
@@ -97,7 +97,7 @@ Tenga en cuenta lo siguiente al delegar aprobaciones:
 * Puede delegar aprobaciones a un solo usuario; no puede delegarlas a varios usuarios al mismo tiempo.\
   Todas las aprobaciones de todos los proyectos, tareas y problemas se delegan al usuario que designe.
 * Un máximo de 5 usuarios puede delegar aprobaciones al mismo usuario al mismo tiempo. En otras palabras, un solo usuario no puede designarse como aprobador temporal para más de 5 usuarios al mismo tiempo.
-* La actividad relativa a las aprobaciones se muestra en la pestaña Actualizaciones. Debe tener activada la opción Mostrar actualizaciones del sistema. Tanto el usuario que delega la aprobación como el usuario al que se delegan las aprobaciones reciben una notificación por correo electrónico en relación con la actividad de aprobación.
+* La actividad relativa a las aprobaciones se muestra en la pestaña Actualizaciones. Debe tener habilitada la opción Mostrar actualizaciones del sistema. Tanto el usuario que delega la aprobación como el usuario al que se delegan las aprobaciones reciben una notificación por correo electrónico en relación con la actividad de aprobación.
 
 ### Delegar aprobaciones desde el área de Inicio
 
@@ -120,7 +120,7 @@ Para delegar aprobaciones a otro usuario:
    * **Fecha de inicio**: seleccione la fecha para que las aprobaciones comiencen a reenviarse. El reenvío comienza a las 12:00 a.m. en la fecha que seleccione.\
      La Fecha de inicio debe ser la fecha actual o una fecha futura.
    * **Fecha de finalización**: realice una de las siguientes acciones:
-      * Seleccione la fecha para que las aprobaciones dejen de reenviarse. El reenvío finaliza a las 23:59 en la fecha que seleccione.
+      * Seleccione la fecha para que las aprobaciones dejen de reenviarse. El reenvío finaliza a las 11:59 p.m. en la fecha que usted seleccione.
       * Seleccione **Sin fecha de finalización** para configurar Workfront para delegar aprobaciones indefinidamente.
 
 1. Haga clic en **Guardar**.
@@ -133,13 +133,14 @@ Para delegar aprobaciones a otro usuario:
    >[!NOTE]
    >
    >Los administradores de Workfront pueden deshabilitar las delegaciones de aprobación desde el área de configuración. Si las delegaciones de aprobación están desactivadas, no verá el botón Delegar aprobaciones.
+
 1. Especifique la siguiente información en la sección Delegar mis aprobaciones:
 
    * **Nombre**: empiece a escribir el nombre del usuario al que desea delegar las aprobaciones y, a continuación, haga clic en el nombre cuando aparezca en el menú desplegable.
    * **Fecha de inicio**: seleccione la fecha para que las aprobaciones comiencen a reenviarse. El reenvío comienza a las 12:00 a.m. en la fecha que seleccione.\
      La Fecha de inicio debe ser la fecha actual o una fecha futura.
    * **Fecha de finalización**: realice una de las siguientes acciones:
-      * Seleccione la fecha para que las aprobaciones dejen de reenviarse. El reenvío finaliza a las 23:59 en la fecha que seleccione.
+      * Seleccione la fecha para que las aprobaciones dejen de reenviarse. El reenvío finaliza a las 11:59 p.m. en la fecha que usted seleccione.
       * Seleccione **Sin fecha de finalización** para configurar Workfront para delegar aprobaciones indefinidamente.
 
 ## Actualización o detención de una delegación de aprobación {#update-or-stop-an-approval-delegation}
