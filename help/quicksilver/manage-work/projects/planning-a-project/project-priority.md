@@ -7,10 +7,10 @@ description: Existen varias formas de utilizar las prioridades para los proyecto
 author: Alina
 feature: Work Management
 exl-id: b1e0b6c5-f2a7-455b-836b-6c0ead85e3ad
-source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
+source-git-commit: 7db80f5bacf52b7bbe540f4e38e88853af86a5e2
 workflow-type: tm+mt
-source-wordcount: '663'
-ht-degree: 97%
+source-wordcount: '668'
+ht-degree: 96%
 
 ---
 
@@ -132,7 +132,7 @@ Tenga en cuenta lo siguiente al seleccionar una prioridad para sus proyectos:
    * Alto
    * Urgente
 
-   ![](assets/project-priority-picker-list-on-project-details-nwe-350x192.png)
+   ![Lista de prioridades en un proyecto](assets/project-priority-picker-list.png)
 
 1. Haga clic en **Guardar cambios**.
 

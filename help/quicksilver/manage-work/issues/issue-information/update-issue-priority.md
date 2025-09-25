@@ -6,18 +6,18 @@ description: Puede definir una prioridad para un problema para indicar la import
 author: Alina
 feature: Work Management
 exl-id: eff5c9e8-1908-4654-9629-e20c0ce2a225
-source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
+source-git-commit: 7db80f5bacf52b7bbe540f4e38e88853af86a5e2
 workflow-type: tm+mt
 source-wordcount: '371'
-ht-degree: 99%
+ht-degree: 93%
 
 ---
 
 # Actualizar prioridad del problema
 
-Puede definir una prioridad para un problema para indicar la importancia del mismo.
+Puede definir una prioridad para un problema para indicar la importancia del mismo.
 
-Debe tener permisos de administración en el problema para modificar su prioridad.  [Actualizar la prioridad de un problema](#update-the-priority-of-an-issue).
+Debe tener permisos de administración en el problema para modificar la prioridad del problema. [Actualizar la prioridad de un problema](#update-the-priority-of-an-issue).
 
 ## Requisitos de acceso
 
@@ -103,7 +103,7 @@ Consulte la siguiente tabla para comprender cada etiqueta de prioridad predeterm
 
 1. Haga clic en el campo **Prioridad** en el área **Información básica**.
 
-   ![Prioridad de problemas](assets/nwe-issue-priority-field-in-details-highlighted-350x126.png)
+   ![Prioridad de problemas](assets/issue-priority-field.png)
 
 1. Seleccione un valor para el campo **Prioridad**.
 
