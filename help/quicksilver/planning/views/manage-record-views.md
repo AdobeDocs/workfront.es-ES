@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: bfb0fd2956ffb9384a09882864668d5dba33a53b
+source-git-commit: f32b2f9e5a511b83e5793299e47b9c1c12857bd8
 workflow-type: tm+mt
-source-wordcount: '1216'
-ht-degree: 51%
+source-wordcount: '1260'
+ht-degree: 49%
 
 ---
 
@@ -187,13 +187,12 @@ En la tabla siguiente se muestran las similitudes y diferencias entre las vistas
 
    De forma predeterminada, todos los registros del tipo seleccionado se muestran en la vista de tabla.
 
-1. Haga clic en **+ Vista** para añadir una vista nueva.
+1. Según el entorno que utilice, haga lo siguiente:
 
-   <!--at preview release, replace the step above with this one: 
-    1. Depending on which environment you use, do the following: 
-    * In the Production environment, click the **+View** tab. 
-    * <span class="preview">In the Preview environment, click the drop-down icon ![Dropdown icon](assets/drop-down-icon.png) next to the current view name, then click **+New view**.</span>-->
-   <!--1. <span class="preview">From the view dropdown menu, drag and drop views in order of your preference.</span>-->
+   * En el entorno Producción, haga clic en la ficha **+Ver**.
+   * <span class="preview">En el entorno de vista previa, haga clic en el icono desplegable ![icono desplegable](assets/drop-down-icon.png) junto al nombre de la vista actual y, a continuación, haga clic en **+Nueva vista**.</span>
+
+1. <span class="preview">En el menú desplegable de vista, arrastre y suelte las vistas según sus preferencias.</span>
 1. Seleccione entre los siguientes tipos de vistas:
 
    * Tabla
