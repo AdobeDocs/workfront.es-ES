@@ -6,7 +6,7 @@ description: Puede asociar una gravedad a problemas en Adobe Workfront. Las tare
 author: Alina
 feature: Work Management
 exl-id: 81302e9c-8861-4a08-b8b3-c4eeac54524e
-source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
+source-git-commit: 1fa62033f83a96ea5c1036598b832dd2ebfa19c4
 workflow-type: tm+mt
 source-wordcount: '335'
 ht-degree: 99%
@@ -70,7 +70,7 @@ Para actualizar la gravedad de un problema en el área Detalles del problema de 
 
 1. Haga clic en el campo **Gravedad** en el área **Información básica**.
 
-   ![Gravedad del problema](assets/nwe-issue-severity-field-in-details-highlighted-350x112.png)
+   ![Gravedad del problema](assets/issue-severity-field.png)
 
 1. Seleccione la **gravedad** adecuada en el menú desplegable.
 

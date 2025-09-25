@@ -8,14 +8,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 0331be3c-a2d8-4788-a41a-5e971fb4bbe1
-source-git-commit: 0bc2817255b8879de377c3916bb36be760f28f4c
+source-git-commit: 1fa62033f83a96ea5c1036598b832dd2ebfa19c4
 workflow-type: tm+mt
-source-wordcount: '565'
-ht-degree: 5%
+source-wordcount: '665'
+ht-degree: 66%
 
 ---
 
 # Crear o personalizar la gravedad de los problemas
+
+{{highlighted-preview}}
 
 <!--
 DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.
@@ -40,7 +42,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plan de Adobe Workfront</td> 
+   <td role="rowheader">Plan de Adobe Workfront</td> 
    <td>Cualquiera</td> 
   </tr> 
   <tr> 
@@ -53,12 +55,12 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso</td> 
-   <td>[!UICONTROL Administrador del sistema]</td>
+   <td>[!UICONTROL System Administrator]</td>
   </tr> 
  </tbody> 
 </table>
 
-Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -72,20 +74,21 @@ Workfront tiene cinco gravedades de problemas integradas:
 * Error sin solución
 * Error fatal
 
-<p>Puede editar lo siguiente para estas gravedades:</p>
+Puede editar lo siguiente para estas gravedades:
 
 * Nombre
 * Color
 
-  El color de una gravedad se conserva en un informe de gráfico si se agrupan los resultados por Gravedad del problema. Para obtener información sobre los informes de gráficos, consulte [Agregar un gráfico a un informe](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md).
+  El color de una gravedad se conserva en un informe de gráfico si se agrupan los resultados por Gravedad del problema. Para obtener información sobre los informes de gráficos, consulte [Añadir un gráfico a un informe](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md).
 
 * Qué gravedad es la predeterminada
 
-  Para obtener más información acerca de las gravedades predeterminadas, vea [Crear o editar una gravedad de problema](#create-or-edit-an-issue-severity) en este artículo.
+  Para obtener más información acerca de las gravedades predeterminadas, consulte [Crear o editar una gravedad de problema](#create-or-edit-an-issue-severity) en este artículo.
+
 * Descripción
 * Si una gravedad está oculta en Workfront
 
-  Para obtener más información acerca de cómo ocultar una gravedad, vea [Crear o editar una gravedad de problema](#create-or-edit-an-issue-severity")
+  Para obtener más información acerca de cómo ocultar una gravedad, vea [Crear o editar una gravedad de problema](#create-or-edit-an-issue-severity) en este artículo.
 
 * Eliminar una gravedad
 
@@ -99,48 +102,49 @@ Como administrador de Workfront, puede crear y editar gravedades de problemas pa
 
 1. En el panel izquierdo, haga clic en **Preferencias del proyecto** > **Gravedades**.
 
-1. Si está creando una gravedad nueva, haga clic en **Agregar una gravedad nueva**.
-1. Configure las siguientes opciones para la nueva gravedad o edítelas para una existente:
+1. Si está creando una nueva gravedad, haga clic en <span class="preview">**Nueva fila** en la parte inferior de la tabla</span> o en **Agregar nueva gravedad**.
+1. Configure las siguientes opciones para la nueva gravedad o edítelas para una gravedad existente:
 
-   <table style="table-layout:auto"> 
-    <col> 
-    <col> 
-    <tbody> 
-     <tr> 
-      <td role="rowheader">Nombre de gravedad</td> 
-      <td>Escriba un nombre para la gravedad</td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Importancia</td> 
-      <td>Aumente o reduzca el nivel de gravedad, asignado originalmente por Workfront, para la gravedad.
-      <p>El número de importancia de cada gravedad debe ser único. El número más alto corresponde al nivel más alto de gravedad.</p> <p>No puede editar este número después de guardar la gravedad.</p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Color</td> 
-      <td> <p>Elija un color para la gravedad.</p> 
-      <p>El color de la gravedad se utiliza en los informes de gráficos al agrupar los resultados por gravedad del problema. Para obtener información sobre los informes de gráficos, consulte <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md" class="MCXref xref">Agregar un gráfico a un informe</a>.</p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Gravedad predeterminada</td> 
-      <td>Seleccione la gravedad en la que desea que Workfront seleccione automáticamente todos los problemas recién creados.</p>
-      <p>La gravedad cosmética es la predeterminada para los problemas en Workfront.</p></td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Descripción</td> 
-      <td>Escriba una descripción de la gravedad para explicar su función.</td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Ocultar</td> 
-      <td> Oculte una gravedad que ya no sea necesaria. 
-      <p>Una gravedad oculta no se muestra en ninguna parte de Workfront, por lo que los usuarios no pueden elegirla para sus problemas.</p> 
-      <p><b>IMPORTANTE</b>: En lugar de eliminar gravedades que ya no desea usar, le sugerimos que las oculte. De este modo, se conservan todos los datos históricos de los objetos ya completados con la gravedad, al tiempo que se evita que las personas utilicen la gravedad en el futuro.</p> </td> 
-     </tr> 
-    </tbody> 
-   </table>
+   * **Nombre de gravedad**: escriba un nombre para la gravedad.
+   * **Importancia**: aumente o reduzca el nivel de gravedad asignado originalmente por Workfront para la gravedad.
 
-1. (Opcional) Para cambiar el orden en que aparecen las gravedades, arrastre y suelte las gravedades en el orden que desee.
+     El número de importancia de cada gravedad debe ser único. El número más alto corresponde al nivel más alto de gravedad.
 
-   Esto cambia el orden en que se muestran para los problemas. No cambia el número **Importance**.
+     No puede editar este número después de guardar la gravedad.
+
+   * **Color**: elija un color para la gravedad.
+
+     El color de la gravedad se utiliza en los informes de gráficos al agrupar los resultados por gravedad del problema. Para obtener información sobre los informes de gráficos, consulte [Añadir un gráfico a un informe](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md).
+
+   * **Gravedad predeterminada**: seleccione la gravedad que desea que Workfront aplique automáticamente a todos los problemas recién creados.
+
+     **Cosmético** es la gravedad predeterminada para los problemas en Workfront.
+
+     No puede convertir una gravedad oculta en la predeterminada.
+
+     <div class="preview">
+
+     La gravedad predeterminada se indica con un icono ![Icono de gravedad predeterminada](assets/default-icon.png). Para elegir un nuevo valor predeterminado, siga uno de estos procedimientos:
+
+      * Seleccione la casilla de verificación situada junto al nombre de la gravedad y seleccione **Establecer como predeterminado** en la barra de acciones de la parte inferior de la pantalla.
+      * Pase el ratón sobre el nombre de la gravedad y haga clic en el menú **Más** que aparece. A continuación, seleccione **Establecer como predeterminado**.
+
+        La nueva gravedad predeterminada se etiqueta con el icono.
+
+     </div>
+
+   * **Descripción**: escriba una descripción de la gravedad para explicar su función.
+   * <span class="preview">**Ocultar opción**</span> o **Ocultar**: <span class="preview">Elija **Sí**</span> o active la casilla de verificación para ocultar una gravedad que ya no sea necesaria.
+
+     Una gravedad oculta no aparecerá en ninguna parte de Workfront, por lo que los usuarios no pueden elegirla para sus problemas.
+
+     >[!IMPORTANT]
+     >
+     >En lugar de eliminar gravedades que ya no desee utilizar, le sugerimos que las oculte. De este modo, se conservan todos los datos históricos de los objetos ya completados con la gravedad, mientras que se evita que los usuarios utilicen la gravedad en el futuro.
+
+1. (Opcional) Para cambiar el orden en que aparecen las gravedades, arrastre y suéltelas en el orden que desee.
+
+   Esto cambia el orden en el que se muestran en los problemas. No cambia el número **Importancia**.
 
 1. Haga clic en **Guardar**.
 
