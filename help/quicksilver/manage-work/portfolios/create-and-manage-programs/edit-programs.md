@@ -6,16 +6,14 @@ description: Puede editar información sobre los programas que ha creado o que o
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 7dcdfc5a-3fc1-48a8-ae28-a6a0a458732e
-source-git-commit: 5edda5b6d084c6c4df62f21e430ce9cd0c1cc8a4
+source-git-commit: b47c87a1a3d7516f7b1fed6e1abf84a84c453609
 workflow-type: tm+mt
-source-wordcount: '1059'
-ht-degree: 81%
+source-wordcount: '1033'
+ht-degree: 82%
 
 ---
 
 # Editar programas
-
-{{highlighted-preview}}
 
 Puede editar información sobre los programas que ha creado o que otros usuarios han creado si los han compartido con usted.
 
@@ -106,11 +104,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
    Aparece el cuadro de diálogo **[!UICONTROL Editar programa]**.
 
-   <span class="preview">Imagen de muestra en el entorno de vista previa:</span>
    ![Editar cuadro de programa](assets/edit-program-0925.png)
-
-   Imagen de muestra en el entorno de producción:
-   ![Editar cuadro de programa](assets/edit-program-box-nwe-350x236.png)
 
    Todos los campos de programa están disponibles en el cuadro [!UICONTROL Editar programa] y se agrupan por las áreas enumeradas en el panel izquierdo.
 
@@ -163,7 +157,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
     </tbody> 
    </table>
 
-1. Haga clic en <span class="preview">**Guardar**</span> o **[!UICONTROL Guardar cambios]**, o continúe editando las secciones siguientes.
+1. Haga clic en **[!UICONTROL Guardar]** o continúe editando las secciones siguientes.
 
 ### [!UICONTROL Formularios personalizados]
 
@@ -176,17 +170,18 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
    >
    >Según la forma en que el administrador de [!DNL Workfront] haya establecido los permisos para las secciones del formulario personalizado, no todos podrán ver o editar los mismos campos en un formulario personalizado determinado. Los permisos para editar campos dentro de una sección de un formulario personalizado dependen de los permisos que tenga en el propio programa. Para obtener información sobre cómo establecer permisos en secciones de un formulario personalizado, consulte [Crear un formulario personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
-1. Actualice los campos de los formularios personalizados y, a continuación, haga clic en <span class="preview">**Guardar**</span> o **[!UICONTROL Guardar cambios]**, o bien continúe con la siguiente sección.
+1. Actualice los campos de los formularios personalizados y, a continuación, haga clic en **[!UICONTROL Guardar]** o continúe con la siguiente sección.
 
 ### [!UICONTROL Comment] {#comment}
 
 1. Empiece a editar un programa como se ha descrito anteriormente.
 1. Haga clic en **[!UICONTROL Aceptar]**.
-1. Agregar un comentario en **[!UICONTROL Publicar una actualización en el programa]** / <span class="preview">**Agregar una actualización a cada campo de programa**</span>.
+
+   ![Cuadro de comentarios en el cuadro Editar programa](assets/comment-box-on-edit-program.png)
+
+1. Agregue un comentario en el campo **[!UICONTROL Agregar una actualización a cada programa]**.
 1. (Opcional) Haga clic en el icono **[!UICONTROL Personas]** para añadir un usuario o equipo al comentario.
-1. (Opcional) Haga clic en el icono **[!UICONTROL Bloquear]** <span class="preview">o seleccione [!UICONTROL **Privado para mi empresa**]</span> para bloquear el comentario y hacerlo privado solo para los usuarios de su empresa.
+1. (Opcional) Seleccione [!UICONTROL **Privado para mi empresa**] para bloquear el comentario y hacerlo privado solo para los usuarios de su empresa.
 
    Después de guardar los cambios, el comentario que añada se mostrará en la ficha [!UICONTROL Actualizaciones] del programa y enviará un correo electrónico a los usuarios incluidos en él.
 
-
-   <!--THIS IMAGE GOES AFTER "CLICK COMMENT." I had to move it to get rid of blank lines. Lisa ![Comment box in edit program box](assets/comment-box-in-program-edit-box-classic-350x195.png)-->
