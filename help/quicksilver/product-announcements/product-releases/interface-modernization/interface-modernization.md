@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: c17723aed4057e744d3c3dc967990163316d82f5
+source-git-commit: bfece1075b137f9fcbaf6046e626952b5f2bde2f
 workflow-type: tm+mt
-source-wordcount: '7834'
+source-wordcount: '8092'
 ht-degree: 2%
 
 ---
@@ -23,6 +23,40 @@ Esta página lista las actualizaciones de la interfaz que estamos realizando a t
 Para ver todos los demás cambios en Adobe Workfront, consulte [Versiones del producto](/help/quicksilver/product-announcements/product-releases/product-releases.md).
 
 ## Administración y configuración
+
+<!--### Interface updates when adding or editing group timesheet profiles
+
+**Preview release: September 25, 2025; Production release: October 2, 2025**
+
+We have updated the look and feel of the Timesheet Profile page when editing or adding a group timesheet profile.
+
+To view these changes, go to Setup > Groups > select a group name > Timesheet Profiles and either add a new profile, or edit an existing one.
+
+For more information, see [Create, edit, and assign timesheet profiles](/help/quicksilver/timesheets/create-and-manage-timesheets/create-timesheet-profiles.md). -->
+
+### Actualizaciones de la interfaz para el área Gravedades en Configuración
+
+**Versión preliminar: 25 de septiembre de 2025; versión de producción: 2 de octubre de 2025**
+
+Hemos actualizado la página Gravedades con un diseño más moderno y coherente con otras áreas de Workfront.
+
+Un cambio visible en la interfaz es que, para convertir una gravedad en la predeterminada o eliminarla, debe seleccionar la casilla de verificación situada junto al nombre de la gravedad y elegir una opción en la barra de acciones de la parte inferior de la pantalla.
+
+Para ver estos cambios, vaya a Configuración > Preferencias del proyecto > Gravedades.
+
+Para obtener más información, consulte [Crear o personalizar gravedades de problemas](/help/quicksilver/administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-issue-severities.md).
+
+### Actualizaciones de la interfaz para el área Prioridades en Configuración
+
+**Versión preliminar: 25 de septiembre de 2025; versión de producción: 2 de octubre de 2025**
+
+Hemos actualizado la página Prioridades con un diseño más moderno y coherente con otras áreas de Workfront.
+
+Un cambio visible en la interfaz es que, para que una prioridad sea la predeterminada o para eliminarla, debe seleccionar la casilla de verificación situada junto al nombre de la prioridad y elegir una opción en la barra de acciones de la parte inferior de la pantalla.
+
+Para ver estos cambios, vaya a Configuración > Preferencias del proyecto > Prioridades.
+
+Para obtener más información, consulte [Crear y personalizar prioridades](/help/quicksilver/administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md).
 
 ### Actualizaciones de la interfaz al añadir o editar perfiles de plantilla de horas en el área de Configuración
 
@@ -392,7 +426,27 @@ Para obtener más información, consulte
 * [Crear grupos de temas](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-topic-groups.md).
 * [Crear reglas de enrutamiento](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-routing-rules.md).
 
+
+
 ## Usuarios
+
+<!--### Interface updates for the User Details page
+
+**Preview release: September 25, 2025; Production release: October 2, 2025**
+
+We have updated the look and feel of the User Details page to match other areas of the application.
+
+You can view the updated design by going to Users, selecting a user, and clicking Details in the left panel.-->
+
+### Actualizaciones de la interfaz para días libres personales
+
+**Versión preliminar: 25 de septiembre de 2025; versión de producción: 2 de octubre de 2025**
+
+Hemos actualizado el aspecto del calendario personal de días libres, incluida la capacidad de delegar aprobaciones, para que coincida con otras áreas de la aplicación.
+
+Para ver estos cambios, ve a tu perfil de usuario y haz clic en **Tiempo libre** en el panel izquierdo.
+
+Para obtener más información, consulte [Configurar tiempo libre personal](/help/quicksilver/workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md) y [Delegar solicitud de aprobación](/help/quicksilver/review-and-approve-work/manage-approvals/delegate-approval-requests.md).
 
 ### Actualizaciones de interfaz para el cuadro de diálogo Nuevo usuario
 
