@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: bfece1075b137f9fcbaf6046e626952b5f2bde2f
+source-git-commit: 681d83661aff2c0484521ee11c8899dca14e65ed
 workflow-type: tm+mt
-source-wordcount: '8092'
+source-wordcount: '8031'
 ht-degree: 2%
 
 ---
@@ -216,13 +216,13 @@ Hemos actualizado el aspecto del cuadro Editar plantillas al editar plantillas d
 
 Para obtener más información, consulte [Editar plantillas de proyecto](/help/quicksilver/manage-work/projects/create-and-manage-templates/edit-templates.md).
 
-### Actualizaciones de interfaz para una lista de proyectos o un informe al aplicar la vista de Hito
+<!--### Interface updates for a project list or report when applying the Milestone view
 
-**Versión preliminar: 11 de septiembre de 2025; versión de producción: 18 de septiembre de 2025**
+**Preview release: September 11, 2025; Production release: September 18, 2025**
 
-Hemos actualizado el aspecto de una lista de proyectos o un informe al aplicarles la vista Hito.
+We have updated the look and feel of a project list or report when you apply the Milestone view to them.
 
-La lista de proyectos o el informe ahora coinciden con el diseño de otras áreas de Workfront. Para obtener más información, vea [Usar la vista de Hito](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-milestone-view.md).
+The project list or report now matches the design of other areas of Workfront. For information, see [Use the Milestone view](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-milestone-view.md).-->
 
 ### Cambios en la interfaz para la tarea Convertir una tarea en un proyecto sin plantilla
 
