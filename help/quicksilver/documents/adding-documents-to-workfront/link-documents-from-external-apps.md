@@ -6,10 +6,10 @@ description: Puede vincular documentos y carpetas a Adobe Workfront desde fuente
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 97823f70-6544-445a-9a81-abe1e2f3de55
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: a005c7114388e1c20a4847b3da3229667be0ded7
 workflow-type: tm+mt
-source-wordcount: '2620'
-ht-degree: 96%
+source-wordcount: '2568'
+ht-degree: 94%
 
 ---
 
@@ -39,19 +39,16 @@ Puede vincular documentos y carpetas a Adobe Workfront desde las siguientes fuen
   </tr> 
   <tr> 
    <td role="rowheader">Revisión de Workfront </td> 
-   <td>Puede hacer que las pruebas creadas originalmente en Workfront Proof estén disponibles en Workfront. Para utilizar esta función con las licencias actuales, se requiere un plan Pro o superior de Workfront. Con las nuevas licencias, todos los planes incluyen esta función. Para obtener más información sobre los diversos planes disponibles, consulte <a href="https://business.adobe.com/products/workfront/pricing.html">Planes de Workfront</a>.</td> 
+   <td>Puede hacer que las pruebas creadas originalmente en Workfront Proof estén disponibles en Workfront.</td> 
   </tr> 
   <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
    <td role="rowheader">Experience Manager Assets Essentials </td> 
    <td>Puede vincular documentos a Workfront desde Experience Manager Assets Essentials. Para obtener más información, consulte <a href="../../documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md" class="MCXref xref">Adobe Workfront para Experience Manager Assets Essentials</a>.</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Workfront DAM </td> 
-   <td>Esto requiere una compra adicional. </td> 
-  </tr> 
-  <tr> 
+  </tr>
+
+<tr> 
    <td role="rowheader">Otros proveedores de documentos (mediante integraciones de documentos personalizadas)</td> 
-   <td> <p class="workfront_plans">Para utilizar esta función con las licencias actuales, se requiere un plan Pro o superior de Workfront. Con las nuevas licencias, todos los planes incluyen esta función. Para obtener más información sobre los diversos planes disponibles, consulte <a href="https://business.adobe.com/products/workfront/pricing.html">planes de Workfront</a>.</p> </td>
+   <td> <p class="workfront_plans">Estas integraciones se pueden configurar en el área de Configuración.</p> </td>
   </tr> 
  </tbody> 
 </table>
@@ -93,12 +90,19 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
 
 ## Almacenamiento de documentos
 
-Los documentos vinculados a Workfront desde una aplicación externa se almacenan con el proveedor de la nube externo, no en Workfront.
+Los documentos vinculados a Workfront desde una aplicación externa se almacenan con el proveedor externo de servicios en la nube, no en Workfront.
 
 Se aplican las siguientes excepciones:
 
 * Cuando lo proporciona el servicio de documentos, las miniaturas y las imágenes de vista previa se pueden almacenar en servidores de Workfront.
 * Al utilizar la revisión en Workfront, el documento se copia y se añade a los servidores de revisión.
+
+## Límites de tamaño de los archivos
+
+Proveedores de nube de terceros:
+
+* Un solo archivo: 5 GB o menos
+* Varios archivos: 1 GB o menos (total de todos los archivos)
 
 ## Vinculación de un documento de una aplicación externa a Workfront
 
@@ -144,7 +148,7 @@ Puede vincular documentos a Workfront desde una aplicación externa como Google 
 
 1. Haga clic en **Vincular**.
 
-   En Workfront, el icono del proveedor de la nube aparece junto a los documentos.
+   En Workfront, el icono del proveedor de servicios en la nube aparece junto a los documentos.
 
    >[!NOTE]
    >
