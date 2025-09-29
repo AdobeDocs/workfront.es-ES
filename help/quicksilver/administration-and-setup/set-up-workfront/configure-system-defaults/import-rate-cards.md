@@ -4,17 +4,19 @@ description: Puede utilizar un archivo de plantilla para crear las tarjetas de t
 author: Lisa
 hide: true
 hidefromtoc: true
-source-git-commit: 1deb72953599c24fa40eb7a5d77214f6576fec1e
+exl-id: debe90e7-08c2-4385-96fb-8d349dec6741
+source-git-commit: e94cbfd9c503936539dbe011e787533222896202
 workflow-type: tm+mt
-source-wordcount: '1153'
+source-wordcount: '1168'
 ht-degree: 4%
 
 ---
 
-
 # Importación de tarjetas de tasa desde una plantilla
 
 Puede utilizar un archivo de plantilla para crear las tarjetas de tarifas en Excel e importarlas en Adobe Workfront, en lugar de agregar todos los roles y tarifas manualmente.
+
+Para ver las tarjetas de tasa de ejemplo descritas en este artículo, descargue el [archivo de muestra](https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/set-up-wf/configure-system-defaults/import-rate-cards/assets/rate-cards-sample.zip).
 
 ## Reglas importantes para trabajar con el archivo de plantilla
 
@@ -179,6 +181,3 @@ Seguir estos pasos evitará problemas innecesarios y garantizará una importaci�
 1. Si el archivo contiene problemas, aparece un mensaje de error. Haga clic en **Ver problemas** para ver los problemas en una pantalla independiente.
 
    Debe corregir los problemas en el archivo de Excel e importarlo de nuevo antes de que las tarjetas de tarifas existan en Workfront.
-
-
-
