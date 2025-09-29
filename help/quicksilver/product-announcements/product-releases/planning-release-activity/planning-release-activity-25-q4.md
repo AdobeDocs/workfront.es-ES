@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 4e1761f9-bf73-4355-925a-9136f2787a3f
-source-git-commit: 2fd35bef86be0728b346cb116f8f37662f84bc77
+source-git-commit: 4146dd1d11b54155ad5510625c761d66dd649245
 workflow-type: tm+mt
-source-wordcount: '2076'
+source-wordcount: '2235'
 ht-degree: 7%
 
 ---
@@ -27,8 +27,8 @@ Para obtener una lista de todas las características publicadas para Adobe Workf
 >[!NOTE]
 >
 >Vista previa: 25 de septiembre de 2025
->&#x200B;>Versión rápida de producción: 15 de octubre de 2025
->&#x200B;>Producción total: 16 de octubre de 2025
+>>Versión rápida de producción: 15 de octubre de 2025
+>>Producción total: 16 de octubre de 2025
 
 Ahora puede editar en línea objetos conectados de Workfront en la página Registros conectados. También puede cambiar el orden de los objetos conectados, copiar y pegar filas y otras funciones de una vista de tabla.
 
@@ -101,6 +101,30 @@ Esta funcionalidad ya existe en la vista mensual del calendario.
 
 Para obtener más información, consulte [Editar registros](/help/quicksilver/planning/records/edit-records.md).
 
+## Nueva configuración para evitar la creación de una conexión bidireccional a partir de un tipo de registro
+
+>[!NOTE]
+>
+>* Vista previa: 18 de septiembre de 2025
+>* Versión rápida de producción: 15 de octubre de 2025
+>* Producción total: 16 de octubre de 2025
+
+Para evitar la creación de demasiados campos de conexión y afectar potencialmente al rendimiento, hemos introducido una nueva configuración para permitir a los administradores de espacio de trabajo crear de forma opcional los campos conectados correspondientes en un tipo de registro conectado. Cuando están habilitadas, las conexiones cuentan con ambos registros, lo que aumenta las posibilidades de alcanzar el límite de 500 conexiones. Para evitarlo, se recomienda mantener esta configuración desactivada, especialmente al vincularla a tipos de registros taxonómicos.
+
+Las siguientes capacidades forman parte de esta mejora:
+
+* Se ha agregado una nueva configuración para &quot;Crear campo correspondiente en el tipo de registro vinculado&quot; a la pestaña Nueva conexión.
+
+* Se ha rediseñado el área Tipo de conexión de la pestaña Nueva conexión.
+
+* Hay un límite de 500 conexiones para cada tipo de registro.
+
+* La nueva configuración se puede cambiar después de crear y guardar una nueva conexión.
+
+
+
+Para obtener más información, consulte [Conectar tipos de registro](/help/quicksilver/planning/architecture/connect-record-types.md).
+
 ## Se muestra un nuevo cuadro de información al cambiar o eliminar un campo
 
 >[!NOTE]
@@ -122,8 +146,8 @@ Para obtener más información, vea [Información general sobre los campos de f�
 >[!NOTE]
 >
 >Vista previa: 11 de septiembre de 2025
->&#x200B;>Producción para todos los clientes: viernes, 11 de septiembre de 2025
->&#x200B;>[!BADGE Fuera del horario]{type=Neutral}
+>>Producción para todos los clientes: viernes, 11 de septiembre de 2025
+>>[!BADGE Fuera del horario]{type=Neutral}
 
 Si su organización utiliza Adobe Workfront Planning y Adobe GenStudio for Performance Marketing, es posible que desee definir conceptos de marketing como Campañas, Productos y Personas con más detalle de lo que GenStudio admite de forma predeterminada.
 
@@ -288,8 +312,8 @@ Para obtener más información, vea [Información general sobre los campos de f�
 >[!NOTE]
 >
 >Vista previa: 7 de agosto de 2025
->&#x200B;>Producción para todos los clientes: agosto de 2025
->&#x200B;>[!BADGE Fuera del horario]{type=Neutral}
+>>Producción para todos los clientes: agosto de 2025
+>>[!BADGE Fuera del horario]{type=Neutral}
 
 Se han agregado nuevas expresiones con el siguiente uso a los campos de fórmula en Workfront Planning y a los campos personalizados calculados en Workfront:
 
@@ -304,8 +328,8 @@ Para obtener más información, consulte [Información general de expresiones de
 >[!NOTE]
 >
 >Vista previa: 31 de julio de 2025
->&#x200B;>Producción para todos los clientes: viernes, 31 de julio de 2025
->&#x200B;>[!BADGE Fuera del horario]{type=Neutral}
+>>Producción para todos los clientes: viernes, 31 de julio de 2025
+>>[!BADGE Fuera del horario]{type=Neutral}
 
 Se ha agregado un botón Maximizar para ampliar el campo Fórmula al crear o editar el campo en una vista de tabla de registros. Además, hemos agregado un botón Minimizar en la nueva ventana ampliada para volver al cuadro de creación de campos.
 
@@ -354,8 +378,8 @@ For more information on creating requests see:
 >[!NOTE]
 >
 >Vista previa: 24 de julio de 2025
->&#x200B;>Versión rápida de producción: 14 de agosto de 2025
->&#x200B;>Producción para todos los clientes: viernes, 16 de octubre de 2025
+>>Versión rápida de producción: 14 de agosto de 2025
+>>Producción para todos los clientes: viernes, 16 de octubre de 2025
 
 Ahora puede crear registros en la vista de escala de tiempo de un tipo de registro haciendo doble clic en cualquier lugar de la escala de tiempo.
 
@@ -370,8 +394,8 @@ Para obtener más información, consulte [Crear registros](/help/quicksilver/pla
 >[!NOTE]
 >
 >Vista previa: 24 de julio de 2025
->&#x200B;>Versión rápida de producción: 14 de agosto de 2025
->&#x200B;>Producción para todos los clientes: viernes, 16 de octubre de 2025
+>>Versión rápida de producción: 14 de agosto de 2025
+>>Producción para todos los clientes: viernes, 16 de octubre de 2025
 
 Ahora puede compartir un tipo de registro desde el menú Más de la tarjeta de tipo de registro de la página del espacio de trabajo. Antes de esta mejora, la opción Compartir solo estaba disponible dentro de la página de tipo de registro.
 
@@ -382,8 +406,8 @@ Para obtener más información, vea [Compartir tipos de registros](/help/quicksi
 >[!NOTE]
 >
 >Vista previa: 24 de julio de 2025
->&#x200B;>Versión rápida de producción: 14 de agosto de 2025
->&#x200B;>Producción para todos los clientes: viernes, 16 de octubre de 2025
+>>Versión rápida de producción: 14 de agosto de 2025
+>>Producción para todos los clientes: viernes, 16 de octubre de 2025
 
 Ahora puede mostrar todas las vistas de Workfront Planning (tabla, cronología y calendario) en modo de pantalla completa. La funcionalidad de vista se conserva y también puede cambiar la vista mientras está en pantalla completa.
 
@@ -396,8 +420,8 @@ Para obtener más información, consulte [Administrar vistas de registros](/help
 >[!NOTE]
 >
 >Vista previa: 22 de julio de 2025
->&#x200B;>Producción para la versión rápida: 14 de agosto de 2025
->&#x200B;>Producción para todos los clientes: viernes, 16 de octubre de 2025
+>>Producción para la versión rápida: 14 de agosto de 2025
+>>Producción para todos los clientes: viernes, 16 de octubre de 2025
 
 Para que el proceso de aprobación sea más flexible, se ha agregado la capacidad de agregar equipos como aprobadores en los formularios de solicitud de Planning. Ahora puede introducir y seleccionar nombres de equipo al configurar aprobadores. Cualquiera de los integrantes del equipo puede tomar una decisión, que cuenta como decisión de aprobación para todo el equipo.
 
@@ -410,8 +434,8 @@ Para obtener más información, consulte [Agregar una aprobación a un formulari
 >[!NOTE]
 >
 >Vista previa: 17 de julio de 2025
->&#x200B;>Producción para la versión rápida: 14 de agosto de 2025
->&#x200B;>Producción para todos los clientes: viernes, 16 de octubre de 2025
+>>Producción para la versión rápida: 14 de agosto de 2025
+>>Producción para todos los clientes: viernes, 16 de octubre de 2025
 
 Presentamos los siguientes campos para capturar la información de aprobación de los registros creados al enviar una solicitud con una aprobación:
 
@@ -425,8 +449,8 @@ Para obtener más información, consulte [Crear campos](/help/quicksilver/planni
 >[!NOTE]
 >
 >Vista previa: 10 de julio de 2025
->&#x200B;>Versión rápida de producción: 14 de agosto de 2025
->&#x200B;>Producción para todos los clientes: viernes, 16 de octubre de 2025
+>>Versión rápida de producción: 14 de agosto de 2025
+>>Producción para todos los clientes: viernes, 16 de octubre de 2025
 
 
 Ahora, cuando tenga agrupaciones aplicadas a una vista de tabla, al agregar un registro a la tabla se rellenarán automáticamente los campos asociados con las agrupaciones a las que agregue el registro.
