@@ -6,9 +6,9 @@ description: Tu perfil  [!DNL Adobe Workfront] contiene información sobre ti mi
 author: Lisa, Courtney
 feature: Get Started with Workfront
 exl-id: 0199bf74-0611-48f0-9c05-da6afac85033
-source-git-commit: de7432c66d9d71a4c1b0b4b6c43b306d0fae9fef
+source-git-commit: 4ec069376c398aa67ecfd6fad6973ad364f6a6a2
 workflow-type: tm+mt
-source-wordcount: '3317'
+source-wordcount: '3318'
 ht-degree: 5%
 
 ---
@@ -342,7 +342,7 @@ Puede cambiar cualquiera de las siguientes opciones en esta subsección:
    <td><p>Especifique su idioma preferido aquí. Controla el idioma, la fecha y el formato de número utilizado en los mensajes de correo electrónico salientes.</p>
    <p><strong>NOTA:</strong> Cuando su organización se encuentra en la experiencia unificada de Adobe, las preferencias de idioma se almacenan en su perfil de Adobe y no se utiliza la configuración regional de correo electrónico. Para obtener más información, consulte <a href="/help/quicksilver/workfront-basics/supported-languages-in-workfront.md#change-the-adobe-experience-cloud-language">Cambiar el idioma de Adobe Experience Cloud</a> en el artículo <a href="/help/quicksilver/workfront-basics/supported-languages-in-workfront.md">Idiomas compatibles en Adobe Workfront</a>.</p></td> 
   </tr>
-  <tr><td><strong>[!UICONTROL Enviar trabajo que me asigne a mí mismo a mi ficha Trabajando en]</strong> </td>
+  <tr><td><strong>[!UICONTROL Establece automáticamente el estado de la tarea a En curso cuando las tareas se asignan automáticamente]</strong> </td>
   <td>Seleccione esta opción si desea que el estado del trabajo que se asigna a sí mismo se establezca automáticamente como En curso en lugar de Nuevo.</td>
   </tr>
   <tr> 
@@ -352,14 +352,6 @@ Puede cambiar cualquiera de las siguientes opciones en esta subsección:
   </tr> 
  </tbody> 
 </table>
-
-<!--
-  <tr><td><strong>[!UICONTROL Send work I assign to myself to my Working On tab]</strong> </td>
-  <td>Select this option if you want the status of work you assign to yourself to automatically be set to In Progress instead of New.</td>
-
-  <strong>[!UICONTROLAutomatically set the task status to In Progress when tasks are self-assigned]</strong>: When this option is selected, work that you assign to yourself is automatically set to In Progress status instead of New.
-  </tr>
--->
 
 ### [!UICONTROL Notificaciones]
 
@@ -506,7 +498,7 @@ Utilice cualquiera de las siguientes opciones en esta sección:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!UICONTROL FTE]</strong> </td> 
-   <td> <p>El número que especifique aquí se tiene en cuenta para calcular su disponibilidad según el horario predeterminado sólo cuando las [!UICONTROL Preferencias de administración de recursos] en el nivel del sistema están establecidas en <strong>[!UICONTROL Horario predeterminado]</strong>.</p> <p>Por ejemplo, si el valor de FTE es 0,5 y el horario predeterminado de  es 40 horas, puede trabajar durante 20 horas a la semana.</p> <p>Si las [!UICONTROL Preferencias de administración de recursos] en el nivel del sistema están establecidas en <strong>[!UICONTROL Horario del usuario]</strong>, el valor que especifique aquí se omitirá y podrá trabajar según lo especificado en su horario. En este caso, el valor de FTE para [!UICONTROL Resource Planner] se calcula mediante la fórmula siguiente: </p> <p><code style="font-style: normal;">[!UICONTROL User Available FTE] = [!UICONTROL Hours from the Schedule of the User/ Default Schedule Hours]</code> </p> <p>Para obtener más información sobre el cálculo de FTE de usuario, vea <a href="../../../resource-mgmt/resource-planning/calculate-hours-fte-for-users-roles-resource-planner.md" class="MCXref xref">Información general sobre el cálculo de horas y FTE para usuarios y roles en el Planificador de recursos</a>.</p> <p>Para obtener más información acerca de la creación de programaciones en [!DNL Workfront], vea <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">Crear una programación</a>.</p> <p>Para obtener más información acerca de cómo configurar las preferencias de administración de recursos, vea <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md" class="MCXref xref">Configurar las preferencias de administración de recursos</a>.</p> </td> 
+   <td> <p>El número que especifique aquí se tiene en cuenta para calcular su disponibilidad según el horario predeterminado sólo cuando las [!UICONTROL Preferencias de administración de recursos] en el nivel del sistema están establecidas en <strong>[!UICONTROL Horario predeterminado]</strong>.</p> <p>Por ejemplo, si el valor de FTE es 0,5 y el horario predeterminado de [!UICONTROL] es 40 horas, puede trabajar durante 20 horas a la semana.</p> <p>Si las [!UICONTROL Preferencias de administración de recursos] en el nivel del sistema están establecidas en <strong>[!UICONTROL Horario del usuario]</strong>, el valor que especifique aquí se omitirá y podrá trabajar según lo especificado en su horario. En este caso, el valor de FTE para [!UICONTROL Resource Planner] se calcula mediante la fórmula siguiente: </p> <p><code style="font-style: normal;">[!UICONTROL User Available FTE] = [!UICONTROL Hours from the Schedule of the User/ Default Schedule Hours]</code> </p> <p>Para obtener más información sobre el cálculo de FTE de usuario, vea <a href="../../../resource-mgmt/resource-planning/calculate-hours-fte-for-users-roles-resource-planner.md" class="MCXref xref">Información general sobre el cálculo de horas y FTE para usuarios y roles en el Planificador de recursos</a>.</p> <p>Para obtener más información acerca de la creación de programaciones en [!DNL Workfront], vea <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">Crear una programación</a>.</p> <p>Para obtener más información acerca de cómo configurar las preferencias de administración de recursos, vea <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md" class="MCXref xref">Configurar las preferencias de administración de recursos</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!UICONTROL Costo por hora]</strong> </td> 

@@ -5,10 +5,10 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: d560a3b7-81a0-41b2-a40e-81c784a42bf6
-source-git-commit: aec301a72ce0864faaf61754552ab8b4ba9bfb49
+source-git-commit: 4ec069376c398aa67ecfd6fad6973ad364f6a6a2
 workflow-type: tm+mt
-source-wordcount: '591'
-ht-degree: 13%
+source-wordcount: '601'
+ht-degree: 12%
 
 ---
 
@@ -44,7 +44,7 @@ Hemos actualizado el aspecto del perfil de usuario de Workfront a un diseño mod
 Existen algunas pequeñas diferencias de funcionalidad con respecto al perfil de usuario actual, que incluyen:
 
 * Algunas casillas de verificación (como marcar al usuario como activo) se han cambiado a alternancias o botones.
-* La opción &quot;Enviar trabajo que me asigne a mí mismo a mi ficha Trabajando en&quot; en Preferencias se ha eliminado porque hace referencia a una función obsoleta.
+* El nombre de la opción &quot;Enviar trabajo que me asigne a mí mismo a mi ficha Trabajando en&quot; en Preferencias ha cambiado a &quot;Establecer automáticamente el estado de la tarea a En curso cuando las tareas se asignan automáticamente&quot; para reflejar su propósito.
 
 Para obtener más información, consulte [Editar el perfil de un usuario](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 

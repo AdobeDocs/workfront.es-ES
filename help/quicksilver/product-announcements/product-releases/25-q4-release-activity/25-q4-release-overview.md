@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 298473d4-7d7d-4401-80bf-899a01f570a6
-source-git-commit: 3a976c2d2254ba92c0bd28d7037ea2ced09098d8
+source-git-commit: 4ec069376c398aa67ecfd6fad6973ad364f6a6a2
 workflow-type: tm+mt
-source-wordcount: '2204'
+source-wordcount: '2214'
 ht-degree: 16%
 
 ---
@@ -92,7 +92,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
             <p>Existen algunas pequeñas diferencias de funcionalidad con respecto al perfil de usuario actual, que incluyen:</p>
             <ul>
                 <li>Algunas casillas de verificación (como marcar al usuario como activo) se han cambiado a alternancias o botones.</li>
-                <li>La opción "Enviar trabajo que me asigne a mí mismo a mi ficha Trabajando en" en Preferencias se ha eliminado porque hace referencia a una función obsoleta.</li>
+                <li>El nombre de la opción "Enviar trabajo que me asigne a mí mismo a mi ficha Trabajando en" en Preferencias ha cambiado a "Establecer automáticamente el estado de la tarea a En curso cuando las tareas se asignan automáticamente" para reflejar su propósito.</li>
             </ul>
         </td>
         <td>viernes, 28 de agosto de 2025</td>
@@ -456,7 +456,7 @@ Para ofrecer integraciones más estables y escalables, estamos adoptando un enfo
 * Workfront para Salesforce.
 
 Recomendamos utilizar la automatización e integración de Workfront para las necesidades de integración de su organización con Google Workspace.
-Para obtener una descripción general de la automatización e integración de Workfront, consulte [Información general de Adobe Workfront Fusion](https://experienceleague.adobe.com/es/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+Para obtener una descripción general de la automatización e integración de Workfront, consulte [Información general de Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 
 ### Versión 20 de la API
 

@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 0343fe74-1be4-43e2-9e3d-8aa1f7ea26fa
-source-git-commit: de7432c66d9d71a4c1b0b4b6c43b306d0fae9fef
+source-git-commit: 4ec069376c398aa67ecfd6fad6973ad364f6a6a2
 workflow-type: tm+mt
-source-wordcount: '3425'
+source-wordcount: '3426'
 ht-degree: 70%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 70%
 >
 >The procedure described on this page applies only to organizations that have not yet been onboarded to the Admin Console. If your organization has been onboarded to the Adobe Admin Console, you must perform this action through the Adobe Admin Console.
 >
->For instructions on editing a user's profile in the Adobe Admin Console, see the section "Edit user details" in the article [Manage users individually](https://helpx.adobe.com/es/enterprise/using/manage-users-individually.html) or contact your Adobe Admin Console Administrator.
+>For instructions on editing a user's profile in the Adobe Admin Console, see the section "Edit user details" in the article [Manage users individually](https://helpx.adobe.com/enterprise/using/manage-users-individually.html) or contact your Adobe Admin Console Administrator.
 >
 >For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Admin Console, see [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 -->
@@ -107,7 +107,7 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
   No puede restablecer la contraseña de un administrador de Workfront.
 
 * **Nombre de usuario de &lt;Configuración de SSO>**: si el administrador de Workfront ha habilitado una integración de SSO con Workfront, el nombre de usuario de SSO se mostrará en este campo. El tipo de configuración de SSO habilitada para la instancia de Workfront se puede ver en este campo.
-* **Permitir solo la autenticación de &lt;configuración de SSO>**: si el administrador de Workfront ha habilitado una integración de SSO con Workfront y ha actualizado todos los usuarios para SSO, este campo está seleccionado de forma predeterminada. El tipo de configuración de SSO habilitada para la instancia de Workfront se puede ver en este campo.
+*  **Permitir solo la autenticación de &lt;configuración de SSO>**: si el administrador de Workfront ha habilitado una integración de SSO con Workfront y ha actualizado todos los usuarios para SSO, este campo está seleccionado de forma predeterminada. El tipo de configuración de SSO habilitada para la instancia de Workfront se puede ver en este campo.
 
   Cuando se selecciona este campo, el usuario debe iniciar sesión en Workfront con sus credenciales de SSO. Si lo desmarca, podrán iniciar sesión en Workfront con sus credenciales de Workfront.
 
@@ -148,9 +148,7 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
   >
   >Esta actualización solo está disponible en los entornos de vista previa y zona protegida. Las notificaciones por correo electrónico están habilitadas en el entorno de producción de forma predeterminada.
 
-<!--* **Automatically set the task status to In Progress when tasks are self-assigned**: When this option is selected, work that the user self-assigns is automatically set to In Progress status instead of New.-->
-
-* **Enviar trabajo que me asigne a mí mismo a mi ficha Trabajando en**: cuando se selecciona esta opción, el trabajo que el usuario autoasigna se establece automáticamente como En curso en lugar de Nuevo. <!--This setting refers to a deprecated feature that has been removed from Workfront.-->
+* **Establecer automáticamente el estado de la tarea en En curso cuando las tareas se asignan automáticamente**: cuando se selecciona esta opción, el trabajo que el usuario asigna automáticamente se establece en Estado en curso en lugar de Nuevo.
 
 * **Generar revisiones automáticamente al cargar documentos**: marque esta opción si quiere que los documentos que el usuario carga generen inmediatamente una revisión.
 
