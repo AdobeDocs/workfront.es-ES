@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: fe51ded26c57e3b7137e42ad2218d79adf032b85
+source-git-commit: 03c1f17504846fc4b8c4114ddc32df687281bc07
 workflow-type: tm+mt
-source-wordcount: '2241'
-ht-degree: 38%
+source-wordcount: '2308'
+ht-degree: 37%
 
 ---
 
@@ -40,7 +40,7 @@ Para obtener más información, consulte los siguientes artículos:
 
 ## Requisitos de acceso
 
-+++ Amplíe para ver los requisitos de acceso.
++++ Amplíe para ver los requisitos de acceso. 
 
 <table style="table-layout:auto">
  <col>
@@ -264,16 +264,16 @@ Tenga en cuenta lo siguiente al agregar una página Registros conectados a un re
 
 * Puede agregar una página Registros conectados a un registro después de conectar tipos de registro u objeto al tipo de registro desde la vista de tabla de un tipo de registro.
 
-* En el entorno Producción, no se puede agregar una página Registros conectados al área de vista previa de un registro.
+* En el entorno Producción, no se puede agregar una página Registros conectados desde la vista previa de un registro.
 
-  <span class="preview">Puede agregar una página Registros conectados al área de vista previa de un registro en el entorno de vista previa.</span>
+  <span class="preview">Puede agregar una página Registros conectados desde la vista previa de un registro en el entorno de vista previa.</span>
 
 * Las páginas Registros conectados muestran sólo los objetos o registros conectados de un tipo de objeto o registro en una vista de tabla. La página no muestra todos los registros de ese tipo en la vista de tabla.
 
 * Según el entorno que utilice, es posible que observe lo siguiente:
 
    * En el entorno Producción, después de agregar una página Registros conectados a un registro, la ficha de página es visible desde el área de vista previa del registro, pero está vacía. Debe ir a la página completa para ver la vista de tabla del registro conectado.
-   * <span class="preview">En el entorno de vista previa, la página Registros conectados es visible desde el área de vista previa del registro y desde la ficha del explorador independiente.</span>
+   * <span class="preview">En el entorno de vista previa, la página Registros conectados es visible desde el área de vista previa del registro y desde la ficha del explorador.</span>
 
 * Puede agregar páginas Registros conectados para los siguientes tipos de registros u objetos conectados:
 
@@ -332,7 +332,7 @@ Todos los campos del registro conectado se muestran en la vista de tabla de la f
 
      Para obtener información acerca de cómo editar registros en la vista de tabla, vea [Editar registros](/help/quicksilver/planning/records/edit-records.md).
 
-   * Edite en línea cualquiera de los registros de la tabla en la página Registros conectados. Los objetos de Workfront se muestran en una vista de tabla de solo lectura y no se pueden editar.
+   * Edite en línea cualquiera de los registros de la tabla en la página Registros conectados. En el entorno Producción, todos los objetos de Workfront se muestran en una vista de tabla de solo lectura y no se pueden editar. <span class="preview">Puede editar en línea proyectos de Workfront en el entorno de vista previa.</span>
 
 1. (Opcional) Haga doble clic en el nombre de la ficha de la página Registros conectados
 
@@ -353,7 +353,12 @@ Todos los campos del registro conectado se muestran en la vista de tabla de la f
    >   No puede crear, editar ni eliminar campos en la vista de tabla de la ficha de un registro conectado.
    >
 
-1. Haga clic en **Conectar** para agregar o quitar registros. Para obtener más información, consulte [Conectar registros](/help/quicksilver/planning/records/connect-records.md)
+1. (Condicional) Para conectar más registros u objetos, siga uno de estos procedimientos:
+
+   * Haga clic en **Conectar** en la parte inferior de la tabla para agregar o quitar registros u objetos de Workfront <span class="preview">excepto proyectos.</span>
+   * <span class="preview">En el entorno de vista previa, haga clic en **Conectar registros** en la esquina superior derecha de la página de registros conectados o en **Nueva fila** en la parte inferior de la tabla para agregar o quitar proyectos.</span>
+
+   Para obtener más información, consulte [Conectar registros](/help/quicksilver/planning/records/connect-records.md).
 1. (Opcional) Pase el ratón sobre el nombre de la ficha de la página Registros conectados, haga clic en **Más** ![Menú más](assets/more-menu.png) y, a continuación, haga clic en **Eliminar** para quitar a la ficha.
 
 

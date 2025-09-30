@@ -6,15 +6,17 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: f32b2f9e5a511b83e5793299e47b9c1c12857bd8
+source-git-commit: 03c1f17504846fc4b8c4114ddc32df687281bc07
 workflow-type: tm+mt
-source-wordcount: '1260'
-ht-degree: 49%
+source-wordcount: '1287'
+ht-degree: 47%
 
 ---
 
 
 # Administrar vistas de registros
+
+<!-- take preview and production references out at production-->
 
 <span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después de las versiones mensuales en Production, las mismas funciones también están disponibles en el entorno Production para los clientes que habilitaron versiones rápidas. </span>
 
@@ -192,30 +194,32 @@ En la tabla siguiente se muestran las similitudes y diferencias entre las vistas
    * En el entorno Producción, haga clic en la ficha **+Ver**.
    * <span class="preview">En el entorno de vista previa, haga clic en el icono desplegable ![icono desplegable](assets/drop-down-icon.png) junto al nombre de la vista actual y, a continuación, haga clic en **+Nueva vista**.</span>
 
-1. <span class="preview">En el menú desplegable de vista, arrastre y suelte las vistas según sus preferencias.</span>
 1. Seleccione entre los siguientes tipos de vistas:
 
    * Tabla
    * Cronología
    * Calendario
 
-   Se crea una nueva ficha con la vista seleccionada.
+   En el entorno Producción, se crea una nueva pestaña con la vista seleccionada.
 
    Según la anchura de la pantalla, es posible que se muestren vistas adicionales en el menú **Más** ![Menú más](assets/more-menu.png).
 
+   >[!TIP]
+   >
+   >Al crear un tipo de registro, la vista de tabla también se crea de forma predeterminada.
+   >
+   >Para crear una vista de línea de tiempo o de calendario, el tipo de registro para el que genere la vista debe tener al menos dos campos de fecha.
+   >
+   >De lo contrario, las opciones Línea de tiempo y Calendario aparecen atenuadas.
+   >
 
->[!TIP]
->
->Al crear un tipo de registro, la vista de tabla también se crea de forma predeterminada.
->
->Para crear una vista de línea de tiempo o de calendario, el tipo de registro para el que genere la vista debe tener al menos dos campos de fecha.
->
->De lo contrario, las opciones Línea de tiempo y Calendario aparecen atenuadas.
->
+   <span class="preview">En el entorno de vista previa, elija un tipo de vista y luego haga clic en **Crear**. Se añade una nueva vista al menú desplegable. </span>
 
-<!-- replace screen shot at production??-->
+   <span class="preview">![Crear cuadro de vista](assets/create-view-box.png)</span>
 
-![Lista desplegable de tipos de vista de la lista de tipos de registro](assets/view-types-drop-down-from-record-type-list.png)
+1. <span class="preview">En el menú desplegable de vista, arrastre y suelte las vistas según sus preferencias.</span>
+
+   <span class="preview">![Lista desplegable de tipos de vista de la lista de tipos de registro](assets/view-types-drop-down-from-record-type-list.png)</span>
 
 1. (Condicional) Haga clic en **Siguiente** al crear una vista de línea de tiempo o de calendario.
 

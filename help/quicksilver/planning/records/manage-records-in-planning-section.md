@@ -6,10 +6,10 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: d86cf3f9-cacc-4457-acb3-a5122ae91be8
-source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
+source-git-commit: 03c1f17504846fc4b8c4114ddc32df687281bc07
 workflow-type: tm+mt
-source-wordcount: '1734'
-ht-degree: 5%
+source-wordcount: '1878'
+ht-degree: 7%
 
 ---
 
@@ -18,9 +18,9 @@ ht-degree: 5%
 
 # Administrar conexiones de registro desde objetos de Workfront
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después de las versiones mensuales en Production, las mismas funciones también están disponibles en el entorno Production para los clientes que habilitaron versiones rápidas. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>-->
+<span class="preview">Para obtener información acerca de las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
 {{planning-important-intro}}
 
@@ -31,7 +31,7 @@ Puede mostrar registros de Workfront Planning en Workfront en las siguientes ár
 
 ## Requisitos de acceso
 
-+++ Amplíe para ver los requisitos de acceso.
++++ Amplíe para ver los requisitos de acceso. 
 
 <table style="table-layout:auto">
  <col>
@@ -127,6 +127,9 @@ Tenga en cuenta lo siguiente cuando vea los registros de Workfront Planning desd
    * [Conectar tipos de registro](/help/quicksilver/planning/architecture/connect-record-types.md)
    * [Conectar registros](/help/quicksilver/planning/records/connect-records.md)
 * Puede ver la sección de Planning desde un objeto de Workfront, incluso cuando no haya registros asociados al objeto de Workfront.
+* <span class="preview">Un tipo de registro sólo se muestra en el área de Planning de un objeto Workfront cuando se habilita la opción Crear campo correspondiente en el tipo de registro vinculado al crear la conexión entre dos tipos de registro.</span>
+
+  Para obtener más información, consulte [Conectar tipos de registros](/help/quicksilver/planning/architecture/connect-record-types.md).
 
 ### Administrar conexiones de registro desde la sección de Planning
 
@@ -214,6 +217,9 @@ Tenga en cuenta lo siguiente cuando vea los registros de Workfront Planning desd
 
   Por ejemplo, puede adjuntar un formulario personalizado con un campo de conexión de Planning a las tareas, pero no puede conectar objetos de Workfront Planning a las tareas.
 * No se puede editar un campo de conexión de Planning al editar objetos de Workfront de forma masiva.
+* <span class="preview">Un tipo de registro sólo se muestra en un campo personalizado de conexión de Planning de un objeto Workfront cuando se habilita la opción Crear campo correspondiente en el tipo de registro vinculado al crear la conexión entre dos tipos de registro.</span>
+
+  Para obtener más información, consulte [Conectar tipos de registros](/help/quicksilver/planning/architecture/connect-record-types.md).
 
 ### Administrar conexiones de registro desde el tipo de campo Conexión de Planning
 

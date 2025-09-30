@@ -6,10 +6,10 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 10fec10e1bb885ac20e1ef9526cfa8a59086d874
+source-git-commit: 03c1f17504846fc4b8c4114ddc32df687281bc07
 workflow-type: tm+mt
 source-wordcount: '3494'
-ht-degree: 69%
+ht-degree: 68%
 
 ---
 
@@ -34,7 +34,7 @@ Para obtener información acerca de cómo exportar la vista de tabla a un archiv
 
 ## Requisitos de acceso
 
-+++ Amplíe para ver los requisitos de acceso.
++++ Amplíe para ver los requisitos de acceso. 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -100,7 +100,7 @@ Para obtener información acerca de cómo exportar la vista de tabla a un archiv
 
 *Para obtener más información sobre los requisitos de acceso de Workfront, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-+++
++++   
 
 ## Editar registros mediante la vista de tabla
 
@@ -114,9 +114,9 @@ Al crear una vista de tabla, todos los registros del tipo seleccionado se muestr
 
 Para administrar una vista de tabla:
 
-1. Cree una vista de tabla, tal como se describe en el artículo [Administrar vistas de registros](/help/quicksilver/planning/views/manage-record-views.md).
+1. <span class="preview">Cree una vista de tabla, tal como se describe en el artículo [Administrar vistas de registros](/help/quicksilver/planning/views/manage-record-views.md).</span>
 
-   ![Ejemplo de vista de tabla](assets/table-view-example.png)
+   <span class="preview">![Ejemplo de vista de tabla](assets/table-view-example.png)</span>
 
 1. (Opcional) Haga clic en **Altura de la fila** y, a continuación, seleccione una de las siguientes opciones para modificar la altura de las filas de la tabla:
    * Baja
@@ -159,7 +159,11 @@ Puede añadir hasta 500 campos (o columnas) en una vista de tabla.
 
    * Haga clic en **Campos** en la barra de herramientas de la tabla, arrastre y suelte los campos en el orden deseado y, a continuación, haga clic fuera del cuadro **Visibilidad y orden de los campos** para cerrarlo.
 
+     <div class="preview">
+
      ![Campos configurando la barra de herramientas de la vista de tabla expandida](assets/fields-setting-table-view-toolbar-expanded.png)
+
+     </div>
 
 
      >[!TIP]
@@ -199,13 +203,13 @@ Puede añadir hasta 500 campos (o columnas) en una vista de tabla.
    >El número de campos ocultos se muestra a la izquierda del icono Campos de la barra de herramientas.
 
 
-1. Haga clic en el icono **Campos** y active la opción asociada a los campos que desea mostrar en las columnas de la tabla. Todos los campos se mostrarán de forma predeterminada.
+1. Haga clic en el icono **Campos** y habilite la opción asociada a los campos que desea mostrar en las columnas de la tabla. Todos los campos se mostrarán de forma predeterminada.
 
 1. Haga lo siguiente para buscar rápidamente registros que coincidan con una palabra clave:
 
-   1. Haga clic en el icono **Buscar** ![Icono de búsqueda](assets/search-icon.png) y empiece a escribir una palabra clave asociada a cualquier campo de un registro que se muestra en la pantalla. El número de coincidencias correctas se mostrará junto al elemento de búsqueda y el campo con la coincidencia correcta quedará resaltado.
+   1. <span class="preview">En el cuadro **Buscar** ![Icono de búsqueda](assets/search-icon.png) y empiece a escribir una palabra clave asociada a cualquier campo de un registro que se muestra en la pantalla.</span>: el número de coincidencias correctas se muestra junto al elemento de búsqueda y el campo con la coincidencia correcta está resaltado.
 
-      ![Cuadro de búsqueda con contorno azul de resultados en la vista de tabla](assets/search-box-with-results-blue-outline-table-view.png)
+      <span class="preview">![Cuadro de búsqueda con contorno azul de resultados en la vista de tabla](assets/search-box-with-results-blue-outline-table-view.png)</span>
 
       Puede utilizar cualquier palabra o carácter especial que esté visible en la pantalla.
 
@@ -459,9 +463,13 @@ para añadir una agrupación:
 
 1. (Opcional) Haga clic en **Añadir condición** y repita los pasos anteriores para añadir hasta 3 agrupaciones.
 
+   <div class="preview">
+
    El número de campos seleccionados para la agrupación se muestra junto al icono de Agrupación.
 
    ![Agrupación aplicada en la vista de tabla](assets/grouping-applied-in-table-view.png)
+
+   </div>
 
 1. (Opcional) Dentro del cuadro **Agrupar registros por**, haga clic en el icono **x** a la derecha de un campo seleccionado para la agrupación para quitar la agrupación
 
