@@ -6,14 +6,16 @@ description: Puede crear, editar y asignar perfiles de hojas de horas que genere
 author: Lisa
 feature: Timesheets
 exl-id: 8f4826bd-82b4-4157-a7d4-a7c94b8fc879
-source-git-commit: 764200970aeb8d121cd99a8d4239e0b9853670a9
+source-git-commit: 939407f56b39617441f669d11b9439e445ceaf6e
 workflow-type: tm+mt
-source-wordcount: '1635'
-ht-degree: 79%
+source-wordcount: '1641'
+ht-degree: 77%
 
 ---
 
 # Crear, editar y asignar perfiles de plantillas de horas
+
+{{highlighted-preview}}
 
 <!--Audited: 06/2025-->
 
@@ -85,8 +87,7 @@ Para obtener más información sobre cómo crear manualmente una hoja de horas, 
 
    Se muestra la página de perfil de hoja de horas nueva o existente.
 
-
-1. Haga clic en la ficha **Establecer detalles** y, a continuación, actualice la siguiente información: <!-- at the Production release, change the order of some of these rows, as they changed in the unshimmed UI-->
+1. Actualice la siguiente información:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -112,7 +113,7 @@ Para obtener más información sobre cómo crear manualmente una hoja de horas, 
      <ul> 
       <li> <p>Si está creando un perfil de plantilla de horas para un grupo que administra, identifique el grupo aquí.</p> <p>Esto no asigna el perfil de plantilla de horas a los usuarios del grupo; solo permite a los administradores del grupo modificar el perfil de plantilla de horas. Asignará el perfil a los usuarios en el paso 6.</p>
 
-   <p><b>NOTA</b>: cuando los usuarios fuera del grupo están adjuntando perfiles de plantilla de horas a otros usuarios, no podrán ver ni adjuntar este perfil de plantilla de horas.</p> </li> 
+   <p><b>NOTA</b>: Cuando los usuarios fuera del grupo adjunten perfiles de hojas de horas a otros usuarios, no podrán ver ni adjuntar este perfil de hojas de horas.</p> </li> 
       </ul> </p> </td> 
      </tr> 
      <tr> 
@@ -155,6 +156,10 @@ Para obtener más información sobre cómo crear manualmente una hoja de horas, 
    <b>NOTA</b>: Una vez que envíe una hoja de horas para su aprobación, ya no podrá editar las horas. Para devolver una plantilla de horas enviada a un estado editable, recupere la plantilla de horas o solicite al aprobador que la rechace. Para obtener más información, consulte <a href="../../timesheets/create-and-manage-timesheets/submit-timesheet-for-approval.md">Enviar hoja de horas para su aprobación</a> y <a href="../../timesheets/create-and-manage-timesheets/timesheet-approvals.md">Aprobar una hoja de horas</a>.</p> </p> </td>
    </tr> 
      <tr> 
+      <td role="rowheader"><strong>Horas extra</strong> </td> 
+      <td>Puede elegir ocultar el cuadro Horas extra en las plantillas de horas. Esta opción está desactivada de forma predeterminada.</td> 
+     </tr> 
+     <tr> 
       <td role="rowheader"><strong>Tipos de horas disponibles</strong> </td> 
       <td><p>Esta configuración solo hace referencia a tipos de horas generales y no a tipos de horas específicos del proyecto. </p>
       <p>De forma predeterminada, los usuarios ven todas las horas generales en una hoja de horas. Sin embargo, si su organización desea que solo se muestren horas generales específicas para un conjunto determinado de usuarios, puede seleccionar las horas generales que necesitan ver en sus plantillas de horas seleccionándolas en el perfil de plantilla de horas en este campo. Si desea deshabilitar todas las horas generales, anule la selección de todos los tipos de horas para generar la plantilla de horas sin una sección para las horas generales.</p></td> 
@@ -165,14 +170,9 @@ Para obtener más información sobre cómo crear manualmente una hoja de horas, 
       <td> <p> Añada una notificación de recordatorio. Workfront enviará recordatorios a los usuarios para pedirles que completen o aprueben sus plantillas de horas. Debe crear notificaciones de recordatorio antes de poder asociarlas a un perfil de hoja de horas.  </p> </td> 
      </tr>
 
-   <tr data-mc-conditions=""> 
-      <td role="rowheader"><span style="font-weight: bold;">Horas extra</span> </td> 
-      <td>Puede elegir ocultar el cuadro Horas extra en las plantillas de horas. Esta opción está desactivada de forma predeterminada.</td> 
-     </tr> 
-    </tbody> 
-    </table>
+1. Al crear perfiles de hojas de horas de nivel de grupo en Producción, haga clic en la ficha **Asignar personas** para asociar el perfil de hojas de horas con usuarios, grupos o equipos específicos (si es administrador de Workfront). <!--Keep the reference to the group upon release to Prod, for now, until they unshim the group Timesheet Profiles-->
 
-1. Al crear perfiles de hojas de horas de nivel de grupo, haga clic en la ficha **Asignar personas** para asociar el perfil de hojas de horas con usuarios, grupos o equipos específicos (si es administrador de Workfront). <!--Keep the reference to the group upon release to Prod, for now, until they unshim the group Timesheet Profiles-->
+   <span class="preview">Al crear perfiles de hojas de horas de nivel de grupo en Vista previa, desplácese hacia la parte inferior de la página y busque la sección **Asignar personas**.</span>
 
    Al crear perfiles de hojas de horas para el sistema, desplácese hacia la parte inferior de la página y busque la sección **Asignar personas**. <!--Keep the reference to the system when releasing to Prod, until they unshim the group Timesheet Profile-->
 
@@ -188,13 +188,13 @@ Para obtener más información sobre cómo crear manualmente una hoja de horas, 
 
 1. Haga clic en **Guardar**.
 
-1. En la parte superior de la lista de perfiles de hojas de horas, haga clic en el icono **Más** ![Icono de más](assets/more-icon.png) para perfiles de hojas de horas de nivel de sistema o en **Más** para perfiles de hojas de horas de grupo y, a continuación, haga clic en **Generar hojas de horas**.
+1. En la parte superior de la lista de perfiles de hojas de horas, haga clic en el icono **Más** ![Icono de Más](assets/more-icon.png) y luego haga clic en **Generar hojas de horas**.
 
    En la parte inferior de la pantalla aparece una confirmación de que las plantillas de horas se han generado correctamente. Se generan nuevas plantillas de horas en función de los nuevos perfiles que haya creado.
 
    Para obtener más información, consulte [Generar hojas de horas manualmente](/help/quicksilver/timesheets/create-and-manage-timesheets/manually-generate-timesheets.md).
 
-   La primera vez que el perfil de plantilla de horas genera plantillas de horas, se crean 2 plantillas de horas para cada usuario, tanto para el periodo de tiempo que incluye la hora actual como para el siguiente periodo de tiempo.
+   La primera vez que el perfil de plantilla de horas genera plantillas de horas, se crean dos plantillas de horas para cada usuario, tanto para el periodo de tiempo que incluye la hora actual como para el siguiente periodo de tiempo.
 
    Después, cada vez que genera nuevas plantillas de horas, se crea una por usuario.
 
