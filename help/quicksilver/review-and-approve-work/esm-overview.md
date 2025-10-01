@@ -5,16 +5,14 @@ title: información general sobre el almacenamiento empresarial de Adobe
 description: información general sobre el almacenamiento empresarial de Adobe
 author: Courtney
 feature: Work Management, Digital Content and Documents
-hide: true
-hidefromtoc: true
 recommendations: noDisplay, noCatalog
-source-git-commit: d24773df7eede3140eeecdea7f1c33b8466e887a
+exl-id: 16c564a9-abd7-4b07-be3e-9c823f40177d
+source-git-commit: e908d0ffd1a3397dead5909942b2b0bedb91ae1c
 workflow-type: tm+mt
-source-wordcount: '319'
+source-wordcount: '332'
 ht-degree: 0%
 
 ---
-
 
 # información general sobre el almacenamiento empresarial de Adobe
 
@@ -26,7 +24,7 @@ Esto también allana el camino para futuras integraciones de administración de 
 
 * **Nivel de almacenamiento unificado**: El almacenamiento empresarial de Adobe actúa como servidor de almacenamiento compartido para Workfront, Frame.io, Document Cloud y Creative Cloud. Esto permite una colaboración y administración de recursos fluidas en todas estas plataformas.
 
-* **Habilitación de la cadena de suministro de contenido**: El almacenamiento empresarial de Adobe es un componente fundamental para la visión de la cadena de suministro de contenido de Adobe, que permite a los equipos administrar los recursos en curso sin necesidad de descargas manuales o volver a cargarlos en varias aplicaciones de Adobe.
+* **Habilitación de supply chain de contenido**: el almacenamiento empresarial de Adobe es un componente básico para la visión de Supply chain de contenido de Adobe, que permite a los equipos administrar recursos de trabajo en curso sin necesidad de descargas manuales o volver a cargar en varias aplicaciones de Adobe.
 
 * **Permisos y acceso centralizados**: el almacenamiento empresarial de Adobe admite controles de acceso de nivel empresarial, integrándose con Adobe IMS (Identity Management System) para obtener permisos de usuario seguros y escalables.
 
@@ -40,4 +38,4 @@ Esto también allana el camino para futuras integraciones de administración de 
 
 La integración de Workfront y Frame.io aprovecha el almacenamiento empresarial de Adobe para proporcionar una experiencia unificada de revisión y aprobación. Esta integración permite a los coordinadores de proyectos gestionar proyectos y planificar el trabajo en Workfront, mientras que los creativos, los especialistas en marketing y las partes interesadas pueden revisar y aprobar los recursos en Frame.io. Esto garantiza que todas las partes interesadas tengan acceso a las versiones más recientes de los recursos y que los comentarios estén centralizados en un solo lugar.
 
-<!--For more information about the Workfront and Frame.io integration, see [Frame.io integration overview](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/frame-int-overview.md).-->
+Para obtener más información sobre la integración de Workfront y Frame.io, consulte [Descripción general de la integración de Frame.io](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/frame-int-overview.md).

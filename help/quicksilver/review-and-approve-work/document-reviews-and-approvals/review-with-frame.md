@@ -5,16 +5,14 @@ title: Revisión y aprobación con el visor Frame.io
 description: Obtenga información sobre cómo revisar y aprobar documentos con el visor Frame.io.
 author: Courtney
 feature: Work Management, Digital Content and Documents
-hide: true
-hidefromtoc: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 601285fdbf26365dcaea14f990904d049816af21
+exl-id: 3190ad18-180e-42e5-aa10-bdad74303d3d
+source-git-commit: 9825f095a7be7debb5150ca4bd50f7cf6fd12295
 workflow-type: tm+mt
-source-wordcount: '570'
-ht-degree: 15%
+source-wordcount: '487'
+ht-degree: 0%
 
 ---
-
 
 # Revisión y aprobación con el visor Frame.io
 
@@ -22,11 +20,12 @@ Puede revisar y aprobar documentos en Workfront mediante el visor Frame.io.
 
 La revisión de documentos de Workfront con el visor Frame.io le permite dejar comentarios o marcar secciones específicas de un documento, imagen o vídeo para colaborar eficazmente con su equipo y garantizar que los comentarios sean claros y procesables.
 
-<!--For more information on the Frame.io integration with Workfront, see [Frame.io integration overview](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/frame-int-overview.md).-->
+Para obtener más información sobre la integración de Frame.io con Workfront, consulte [Información general sobre la integración de Frame.io](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/frame-int-overview.md).
 
-## Requisitos de acceso
 
-+++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
+<!--## Access requirements
+
++++ Expand to view access requirements for the functionality in this article.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -35,28 +34,28 @@ La revisión de documentos de Workfront con el visor Frame.io le permite dejar c
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
-   <td> <p> Cualquiera</p> </td> 
+   <td role="rowheader">Adobe Workfront package</td> 
+   <td> <p> Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licencias de Adobe Workfront*</td> 
-   <td> <p>Solicitud o superior</p>
-   <p>Colaborador o superior</p> </td> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td> <p>Request or higher</p>
+   <p>Contributor or higher</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Configuraciones de nivel de acceso</td> 
-   <td> <p>Acceso de edición a documentos</p> <p>Nota: Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, consulte <a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>Edit access to Documents</p>  </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Editar acceso al objeto asociado con el documento</p> <p>Para obtener información sobre cómo solicitar acceso adicional, consulte <a href="/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/grant-and-request-access-to-objects.md" class="MCXref xref">Solicitar acceso a objetos </a>.</p> </td> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>Edit access to the object associated with the document</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-+++
++++ -->
 
 ## Revisar un documento
 
@@ -71,7 +70,7 @@ Vaya a la página de inicio de Workfront, busque el widget Mis aprobaciones y ha
    >Es posible que tenga que agregar el widget Mis aprobaciones a la página de inicio. Para obtener más información, consulte [Agregar, editar o quitar widgets en Inicio](/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md).
 
 1. En Frame.io, utilice las herramientas de comentarios para dejar comentarios o hacer preguntas.
-Los comentarios y el marcado de recursos solo son visibles en el visor de Frame.io. Para obtener más información sobre el uso del visor Frame.io, consulte [Comentarios sobre el contenido](https://help.frame.io/en/articles/9105251-commenting-on-your-media).
+Los comentarios y el marcado de recursos solo son visibles en el visor de Frame.io. Los comentarios no se muestran en Workfront. Para obtener más información sobre el uso del visor Frame.io, consulte [Comentarios sobre el contenido](https://help.frame.io/en/articles/9105251-commenting-on-your-media).
 1. Una vez que esté satisfecho con el documento, vuelva a la página de detalles del documento en Workfront y marque la revisión como completada.
 
    ![Marcar revisión como completada](assets/mark-review-complete.png)
@@ -93,8 +92,7 @@ Vaya a la página de inicio de Workfront, busque el widget Mis aprobaciones y ha
    >Es posible que tenga que agregar el widget Mis aprobaciones a la página de inicio. Para obtener más información, consulte [Agregar, editar o quitar widgets en Inicio](/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md).
 
 
-1. En Frame.io, utilice las herramientas de comentarios para dejar comentarios o hacer preguntas.
-Los comentarios y el marcado de recursos solo son visibles en el visor de Frame.io. Para obtener más información sobre el uso del visor Frame.io, consulte [Comentarios sobre el contenido](https://help.frame.io/en/articles/9105251-commenting-on-your-media).
+1. En Frame.io, utilice las herramientas de comentarios para dejar comentarios o hacer preguntas. Los comentarios y el marcado de recursos solo son visibles en el visor de Frame.io. Para obtener más información sobre el uso del visor Frame.io, consulte [Comentarios sobre el contenido](https://help.frame.io/en/articles/9105251-commenting-on-your-media).
 1. Una vez que esté satisfecho con el documento, puede elegir una de las siguientes decisiones en el visor de Frame.io:
 
    * **Aprobar**: el recurso no necesita cambios y está listo para usarse.
@@ -109,4 +107,3 @@ Los comentarios y el marcado de recursos solo son visibles en el visor de Frame.
 
 
 <!--is document owner the correct term?-->
-

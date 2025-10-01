@@ -8,9 +8,9 @@ feature: Work Management
 hide: true
 hidefromtoc: true
 exl-id: 230d8e62-a3c9-4e38-9b26-5ba1c4f56391
-source-git-commit: a25eb28800ca8bbeeffedb521b3d72c8df71c697
+source-git-commit: 321449202f629f75464870bea7fa3db8b4c0e0cb
 workflow-type: tm+mt
-source-wordcount: '1180'
+source-wordcount: '1168'
 ht-degree: 99%
 
 ---
@@ -68,7 +68,6 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
 * Configure la cuenta predeterminada de Frame.io en el área de configuración de Workfront
 * Habilite usuarios de Frame.io en el perfil de usuario de Workfront
 
-Para obtener más información sobre los requisitos previos anteriores, consulte [Configurar la  [!DNL Workfront] integración de  [!DNL Frame.io]  y](/help/quicksilver/administration-and-setup/configure-integrations/configure-wf-and-frame.md).
 
 
 ## Creación de una nueva plantilla de proyecto
