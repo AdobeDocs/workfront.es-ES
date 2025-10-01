@@ -1,14 +1,14 @@
 ---
 title: Asistente de IA en Workfront
 content-type: reference
-description: Obtenga información sobre el asistente de IA en Adobe Workfront
+description: Obtenga información sobre el Asistente de IA en Adobe Workfront
 author: Becky
 feature: Get Started with Workfront
 exl-id: e5f2408b-2c29-4257-8bdc-bf20880de265
 source-git-commit: 657c2aa75d088f87f8e05b5089fccae2577842ee
 workflow-type: tm+mt
 source-wordcount: '831'
-ht-degree: 7%
+ht-degree: 8%
 
 ---
 
