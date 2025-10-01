@@ -9,10 +9,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e5c02b8c-854e-4c42-a599-f680443f425d
-source-git-commit: d585b698b6c7900d861a30dc6b5e0bff6bd6d13a
+source-git-commit: 8df1889997937b2a4238862eb2f86aeda84ed104
 workflow-type: tm+mt
-source-wordcount: '1302'
-ht-degree: 93%
+source-wordcount: '1310'
+ht-degree: 92%
 
 ---
 
@@ -191,3 +191,5 @@ Para el entorno de vista previa, el cálculo nocturno está deshabilitado y las 
 * Cualquier interrupción en un entorno de vista previa de [!DNL Workfront] durante el horario laboral normal será una primera prioridad inmediatamente después de que se resuelva cualquier problema de producción, si existe.
 
 * Cualquier interrupción en un entorno de vista previa de [!DNL Workfront] los fines de semana (sábados y domingos) se solucionará para que el entorno funcione durante el horario laboral los lunes.
+
+* La revisión no está disponible en los entornos de vista previa.
