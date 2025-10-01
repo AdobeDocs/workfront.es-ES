@@ -6,10 +6,10 @@ description: En Adobe Workfront, el trabajo planificado se representa mediante p
 author: Alina
 feature: Work Management
 exl-id: 8b023a3d-326d-4d63-9e1e-8171553a9e23
-source-git-commit: 2c2ccbadd6470773808bbd5a205310fbb1e1944e
+source-git-commit: 71149623643b1f08b88fdf8f5aaeb5d9b284d53f
 workflow-type: tm+mt
-source-wordcount: '2856'
-ht-degree: 76%
+source-wordcount: '2840'
+ht-degree: 77%
 
 ---
 
@@ -147,13 +147,13 @@ Para crear una solicitud en la aplicación web de Workfront:
 
    Se abre el cuadro **Nueva solicitud**.
 
-1. (Condicional) Si ha cambiado a la nueva experiencia que incluye Workfront Planning y se encuentra en el entorno de producción, el cuadro **Nueva solicitud** muestra lo siguiente:</span>
+1. (Condicional) Si cambió a la nueva experiencia y está en el entorno de producción, el cuadro **Nueva solicitud** mostrará lo siguiente:</span>
 
    <ul><li>Las 6 colas de solicitud de Workfront a las que se ha accedido más recientemente y los formularios de solicitud de Planning se muestran en la sección Reciente. </li>
     <li>Todos los formularios de solicitud adicionales de Workfront y Planning <b>Todos los formularios de solicitud</b>. Puede buscar formularios de solicitud que no se muestren de forma predeterminada. </li>
     <li>Todas las rutas de cola de solicitudes adicionales de Workfront y Planning se muestran en la sección <b>Todas las rutas de solicitud</b>. Puede buscar una cola de solicitudes que no se muestre de forma predeterminada.</li></ul>
    Haga clic en una de las rutas o formularios de la cola de solicitudes de Workfront o busque uno y, a continuación, haga clic en él cuando se muestre en la lista.
-1. <span class="preview">(Condicional) Si ha cambiado a la nueva experiencia que incluye Workfront Planning, seleccione una de las rutas o formularios de cola de solicitudes de Workfront o haga clic en la barra de búsqueda. </span>
+1. <span class="preview">(Condicional) Si cambió a la nueva experiencia, seleccione una de las rutas o formularios de la cola de solicitudes de Workfront o haga clic en la barra de búsqueda. </span>
 
    <span class="preview">Al hacer clic en la barra de búsqueda, aparece una lista desplegable que muestra primero las colas y los formularios utilizados más recientemente. Seleccione uno de la lista o empiece a escribir y seleccione la cola o lista cuando aparezca.</span>
 
@@ -165,7 +165,7 @@ Para crear una solicitud en la aplicación web de Workfront:
    >* <span class="preview">Para mostrar solo las colas de solicitud de Workfront, filtre por `Issue` tipos de objetos.</span>
    >* <span class="preview">En la nueva experiencia de solicitud, los borradores se encuentran en la misma lista que las solicitudes enviadas.</span>
 
-1. (Condicional) Si ha cambiado a la nueva experiencia que incluye Workfront Planning, seleccione los grupos de temas y los temas de la cola y continúe actualizando el formulario.
+1. (Condicional) Si ha cambiado a la nueva experiencia, seleccione los grupos de temas y los temas de la cola y continúe actualizando el formulario.
 
    De lo contrario, haga clic dentro del campo **Tipo de solicitud** y realice una de las siguientes acciones:
 
@@ -348,7 +348,7 @@ Para crear una solicitud en la aplicación web de Workfront:
 
    Al enviar la solicitud, el borrador se eliminará automáticamente y no se podrá restaurar.
 
-   Las solicitudes enviadas se enumeran en la sección **Enviadas** del área de solicitudes. Si está usando la nueva experiencia que incluye Workfront Planning, las solicitudes enviadas por Workfront se mostrarán en la pestaña **Workfront** del área de Solicitudes.
+   Las solicitudes enviadas se enumeran en la sección **Enviadas** del área de solicitudes. Si está usando la nueva experiencia, las solicitudes enviadas por Workfront se mostrarán en la ficha **Workfront** del área de Solicitudes.
 
    Para obtener información acerca de cómo direccionar las solicitudes de entrada, consulte el artículo [Administración de solicitudes de trabajo y equipo](../../../people-teams-and-groups/work-with-team-requests/manage-work-and-team-requests.md).
 
