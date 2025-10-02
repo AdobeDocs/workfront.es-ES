@@ -6,7 +6,7 @@ description: En Adobe Workfront, el trabajo planificado se representa mediante p
 author: Alina
 feature: Work Management
 exl-id: 8b023a3d-326d-4d63-9e1e-8171553a9e23
-source-git-commit: 71149623643b1f08b88fdf8f5aaeb5d9b284d53f
+source-git-commit: 70f6200fc94bc923c651d614dfd0aba68ceda334
 workflow-type: tm+mt
 source-wordcount: '2840'
 ht-degree: 77%
@@ -155,7 +155,7 @@ Para crear una solicitud en la aplicación web de Workfront:
    Haga clic en una de las rutas o formularios de la cola de solicitudes de Workfront o busque uno y, a continuación, haga clic en él cuando se muestre en la lista.
 1. <span class="preview">(Condicional) Si cambió a la nueva experiencia, seleccione una de las rutas o formularios de la cola de solicitudes de Workfront o haga clic en la barra de búsqueda. </span>
 
-   <span class="preview">Al hacer clic en la barra de búsqueda, aparece una lista desplegable que muestra primero las colas y los formularios utilizados más recientemente. Seleccione uno de la lista o empiece a escribir y seleccione la cola o lista cuando aparezca.</span>
+   <span class="preview">Al hacer clic en la barra de búsqueda, aparece una lista desplegable que muestra primero las colas y los formularios utilizados más recientemente. Seleccione uno de la lista o empiece a escribir y seleccione la cola o el formulario cuando aparezca.</span>
 
    >[!NOTE]
    >
