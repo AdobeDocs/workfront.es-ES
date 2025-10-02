@@ -5,7 +5,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 6e7952cf-f07a-412b-9f9a-623cdba46849
-source-git-commit: 7db80f5bacf52b7bbe540f4e38e88853af86a5e2
+source-git-commit: 7cb1eed72b0f5ce4abd83013b7a2f224dbb2c229
 workflow-type: tm+mt
 source-wordcount: '761'
 ht-degree: 46%
@@ -136,7 +136,7 @@ Además de las prioridades predeterminadas proporcionadas en Workfront, puede a�
      </div>
 
    * **Descripción**: escriba una descripción para la prioridad para explicar su función.
-   * <span class="preview">**Ocultar opción**</span> o **Ocultar**: <span class="preview">Elija **Sí**</span> o active la casilla de verificación para ocultar una prioridad que ya no sea necesaria.
+   * <span class="preview">**Ocultar opción**</span> o **Ocultar**: <span class="preview">Seleccione **Sí**</span> o active la casilla de verificación para ocultar una prioridad que ya no sea necesaria.
 
      Una prioridad oculta no se muestra en ninguna parte de Workfront, por lo que los usuarios no pueden elegirla para sus proyectos, tareas o problemas.
 

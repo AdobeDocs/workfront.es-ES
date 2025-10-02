@@ -6,18 +6,18 @@ description: Puede crear, editar y asignar perfiles de hojas de horas que genere
 author: Lisa
 feature: Timesheets
 exl-id: 8f4826bd-82b4-4157-a7d4-a7c94b8fc879
-source-git-commit: 939407f56b39617441f669d11b9439e445ceaf6e
+source-git-commit: 611c3c947855610cf86cdcbf96d1e9d847e34f38
 workflow-type: tm+mt
-source-wordcount: '1641'
-ht-degree: 77%
+source-wordcount: '1668'
+ht-degree: 66%
 
 ---
 
 # Crear, editar y asignar perfiles de plantillas de horas
 
-{{highlighted-preview}}
-
 <!--Audited: 06/2025-->
+
+<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa de espacio aislado y se va a lanzar en un despliegue gradual en Producción.</span>
 
 Puede crear, editar y asignar perfiles de hojas de horas que generen hojas de horas recurrentes para sus usuarios sin ninguna intervención por su parte. Esto le permite ahorrar tiempo y garantiza la coherencia de los siguientes elementos entre los usuarios:
 
@@ -89,92 +89,73 @@ Para obtener más información sobre cómo crear manualmente una hoja de horas, 
 
 1. Actualice la siguiente información:
 
-   <table style="table-layout:auto"> 
-    <col> 
-    <col> 
-    <tbody> 
-     <tr> 
-      <td role="rowheader"><strong>Nombre</strong> </td> 
-      <td> <p> Añada un nombre para el perfil de la plantilla de horas. Podría ser el nombre de un equipo o un grupo cuyas personas compartan el mismo periodo de tiempo para sus plantillas de horas. </p> <p>Es un campo obligatorio.</p> </td> 
-     </tr>
+   * **Nombre**: agregue un nombre para el perfil de hoja de horas. Podría ser el nombre de un equipo o un grupo cuyas personas compartan el mismo periodo de tiempo para sus plantillas de horas. Este campo es obligatorio.
+   * **Descripción**: agrega más información sobre el perfil de hoja de horas.
+   * **Grupo con acceso de administración**: Si está creando un perfil de hoja de horas de nivel de sistema, deje este campo en blanco.
 
-   <tr> 
-      <td role="rowheader"><strong>Descripción</strong> </td> 
-      <td> <p> Añada más información sobre el perfil de la plantilla de horas.     
-      </p> </td> 
-     </tr>
+     Cualquier usuario que pueda editar cuentas de usuario puede adjuntar una plantilla de horas a nivel de sistema a otros usuarios.
 
-   <tr> 
-   <td role="rowheader"><strong>Grupo con acceso de administración</strong> </td> 
-      <td> <p> 
-      <ul> 
-      <li> <p>Si está creando un perfil de plantilla de horas a nivel de sistema, deje este campo en blanco.</p> <p>Cualquier usuario que pueda editar cuentas de usuario puede adjuntar una plantilla de horas a nivel de sistema a otros usuarios.</p> <p>Solamente un administrador de Workfront puede editar un perfil de plantilla de horas a nivel de sistema.</p> </li> 
-      </ul> 
-     <ul> 
-      <li> <p>Si está creando un perfil de plantilla de horas para un grupo que administra, identifique el grupo aquí.</p> <p>Esto no asigna el perfil de plantilla de horas a los usuarios del grupo; solo permite a los administradores del grupo modificar el perfil de plantilla de horas. Asignará el perfil a los usuarios en el paso 6.</p>
+     Solamente un administrador de Workfront puede editar un perfil de plantilla de horas a nivel de sistema.
 
-   <p><b>NOTA</b>: Cuando los usuarios fuera del grupo adjunten perfiles de hojas de horas a otros usuarios, no podrán ver ni adjuntar este perfil de hojas de horas.</p> </li> 
-      </ul> </p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"><strong>Crear hojas de horas</strong> </td> 
-      <td> <p> <p>Especifique cuándo el perfil de la plantilla de horas debe generar las hojas de horas. Se puede configurar una hoja de horas para que se genere automáticamente de forma semanal, quincenal, semestral o mensual. Seleccione el día de la semana en el que desea que se genere la plantilla de horas.</p>
-      <p>Una plantilla de horas semanal comienza en la fecha en que se genera. Por ejemplo, si crea plantillas de horas semanales todos los jueves, el primer día de la semana en la plantilla de horas es el jueves.</p>
+     Si está creando un perfil de plantilla de horas para un grupo que administra, identifique el grupo aquí.
 
+     Esto no asigna el perfil de plantilla de horas a los usuarios del grupo; solo permite a los administradores del grupo modificar el perfil de plantilla de horas. Asignará el perfil a los usuarios en el paso 6.
 
-   <p><b>NOTA</b>: Workfront siempre crea dos hojas de horas a la vez: la primera hoja de horas siempre incluye la fecha actual y la segunda hoja de horas comienza cuando finaliza el lapso de tiempo de la primera.</p> </p> </td> 
-   </tr> 
-     <tr> 
-      <td role="rowheader"><p><strong>Aprobadores</strong></p> </td> 
-      <td> <p> <p>Los aprobadores aprueban la plantilla de horas de los usuarios asociados con ella. Puede identificar hasta siete usuarios como aprobadores en una plantilla de horas. La identificación de varios usuarios resulta útil para garantizar que un aprobador esté disponible cuando alguien esté fuera de la oficina. Se notifica a todos los aprobadores cuando un usuario envía la plantilla de horas para su aprobación. Solo se requiere un usuario para aprobar la plantilla de horas.</p> <p>Solo los usuarios con derechos administrativos de plantilla de horas pueden establecerse como aprobadores. Para obtener más información sobre los derechos administrativos de la plantilla de horas, consulte <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Conceder a los usuarios acceso administrativo a determinadas áreas</a>.</p> <p>Utilice el menú desplegable para seleccionar el aprobador de la plantilla de horas (si se requiere un aprobador). Puede seleccionar entre las siguientes opciones:</p> 
-      <ul> 
-      <li><strong>Ninguno</strong>: no es necesario aprobar la plantilla de horas.</li> 
-      <li><strong>Su administrador</strong>: este es el aprobador predeterminado, establecido por el sistema. En este caso, el usuario designado como su responsable aprueba la plantilla de horas cuando se envía para su aprobación.</li> 
-      <li><strong>Personas específicas:</strong> puede designar a usuarios específicos, por su nombre, como aprobadores de plantillas de horas. Puede tener varios aprobadores en una plantilla de horas. En este caso, una vez que uno de los aprobadores aprueba la plantilla de horas, esta se marca como <strong>Cerrada</strong> y desaparece de la lista de aprobaciones de plantillas de horas de todos los aprobadores restantes.</li> 
-       </ul> </p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"><strong>Puede editar el tiempo</strong> </td> 
-      <td> <p> <p>Seleccione esta opción para permitir que los aprobadores editen las horas en la plantilla de horas.
+     >[!NOTE]
+     >
+     >Cuando los usuarios fuera del grupo adjunten perfiles de plantilla de horas a otros usuarios, no podrán ver ni adjuntar este perfil de plantilla de horas.
 
-   <p>Esta opción funciona junto con la configuración **Restringir la edición de plantillas de horas a propietarios y administradores** en el área Configuración &gt; Plantilla de horas y horas &gt; Preferencias. Para obtener más información, consulte <a href="../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md">Configurar preferencias de plantillas de horas y de horas</a>.</p>
+   * **Crear hojas de horas**: especifique cuándo el perfil de la hoja de horas debe generar las hojas de horas. Se puede configurar una hoja de horas para que se genere automáticamente de forma semanal, quincenal, semestral o mensual. Seleccione el día de la semana en el que desea que se genere la plantilla de horas.
 
-   <p>Se dan los siguientes escenarios: </p>
+     Una plantilla de horas semanal comienza en la fecha en que se genera. Por ejemplo, si crea plantillas de horas semanales todos los jueves, el primer día de la semana en la plantilla de horas es el jueves.
 
-   <ul>
-      <li>Cuando la opción <b>Restringir la edición de plantillas de horas a propietarios y administradores</b> está habilitada:</li>
-      <ul><li>Los aprobadores solo pueden aprobar y rechazar plantillas de horas, independientemente de si <b>Puede editar el tiempo</b> está habilitado o no. </li>
-      <li>Los administradores de propietarios de plantillas de horas solo pueden ver las plantillas de horas de sus informes directos.</li></ul>
-      <li>Cuando la opción <b>Restringir la edición de plantillas de horas a propietarios y administradores</b> está deshabilitada:</li>
-    <ul><li>Cuando la opción <b>Puede editar el tiempo</b> está habilitada, los aprobadores pueden enviar, reabrir o cerrar la plantilla de horas, así como editar el tiempo.</li>
-      <li>Cuando la opción <b>Puede editar el tiempo</b> está deshabilitada, los aprobadores no pueden enviar, reabrir o cerrar la plantilla de horas, ni editar la hora. Los aprobadores solo pueden aprobar o rechazar la plantilla de horas. </li>
-      <li>Los administradores de los propietarios de las plantillas de horas pueden enviar, recuperar, volver a abrir y editar las plantillas de horas de sus informes directos.</li></ul>
-      </ul>
+     >[!NOTE]
+     >
+     >Workfront siempre crea dos plantillas de horas a la vez: la primera incluye siempre la fecha actual y la segunda comienza cuando termina el lapso de tiempo de la primera.
 
-   <p>
+   * **Aprobadores**: Los aprobadores son usuarios que aprueban la hoja de horas para los usuarios asociados con la hoja de horas. Puede identificar hasta siete usuarios como aprobadores en una plantilla de horas. La identificación de varios usuarios resulta útil para garantizar que un aprobador esté disponible cuando alguien esté fuera de la oficina. Se notifica a todos los aprobadores cuando un usuario envía la plantilla de horas para su aprobación. Solo se requiere un usuario para aprobar la plantilla de horas.
 
-   <b>NOTA</b>: Una vez que envíe una hoja de horas para su aprobación, ya no podrá editar las horas. Para devolver una plantilla de horas enviada a un estado editable, recupere la plantilla de horas o solicite al aprobador que la rechace. Para obtener más información, consulte <a href="../../timesheets/create-and-manage-timesheets/submit-timesheet-for-approval.md">Enviar hoja de horas para su aprobación</a> y <a href="../../timesheets/create-and-manage-timesheets/timesheet-approvals.md">Aprobar una hoja de horas</a>.</p> </p> </td>
-   </tr> 
-     <tr> 
-      <td role="rowheader"><strong>Horas extra</strong> </td> 
-      <td>Puede elegir ocultar el cuadro Horas extra en las plantillas de horas. Esta opción está desactivada de forma predeterminada.</td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"><strong>Tipos de horas disponibles</strong> </td> 
-      <td><p>Esta configuración solo hace referencia a tipos de horas generales y no a tipos de horas específicos del proyecto. </p>
-      <p>De forma predeterminada, los usuarios ven todas las horas generales en una hoja de horas. Sin embargo, si su organización desea que solo se muestren horas generales específicas para un conjunto determinado de usuarios, puede seleccionar las horas generales que necesitan ver en sus plantillas de horas seleccionándolas en el perfil de plantilla de horas en este campo. Si desea deshabilitar todas las horas generales, anule la selección de todos los tipos de horas para generar la plantilla de horas sin una sección para las horas generales.</p></td> 
-     </tr>
+     Solo los usuarios con derechos administrativos de plantilla de horas pueden establecerse como aprobadores. Para obtener más información sobre los derechos administrativos sobre las plantillas de horas, consulte [Conceder a los usuarios acceso administrativo a determinadas áreas](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
 
-   <tr> 
-      <td role="rowheader"><strong>Notificaciones de recordatorio</strong> </td> 
-      <td> <p> Añada una notificación de recordatorio. Workfront enviará recordatorios a los usuarios para pedirles que completen o aprueben sus plantillas de horas. Debe crear notificaciones de recordatorio antes de poder asociarlas a un perfil de hoja de horas.  </p> </td> 
-     </tr>
+     Utilice el menú desplegable para seleccionar el aprobador de la plantilla de horas (si se requiere un aprobador). Puede seleccionar entre las siguientes opciones:
 
-1. Al crear perfiles de hojas de horas de nivel de grupo en Producción, haga clic en la ficha **Asignar personas** para asociar el perfil de hojas de horas con usuarios, grupos o equipos específicos (si es administrador de Workfront). <!--Keep the reference to the group upon release to Prod, for now, until they unshim the group Timesheet Profiles-->
+      * **Ninguno**: no es necesario aprobar la hoja de horas.
+      * **Su administrador**: este es el aprobador predeterminado, establecido por el sistema. En este caso, el usuario designado como su responsable aprueba la plantilla de horas cuando se envía para su aprobación.
+      * **Personas específicas**: puede designar a usuarios específicos, por su nombre, como aprobadores de hojas de horas. Puede tener varios aprobadores en una plantilla de horas. En este caso, una vez que uno de los aprobadores apruebe la plantilla de horas, esta se marcará como **Cerrada** y desaparecerá de la lista de aprobaciones de plantillas de horas de todos los aprobadores restantes.
+
+   * **Puede editar el tiempo**: seleccione esta opción para permitir que los aprobadores editen las horas en la hoja de horas.
+
+     Esta opción funciona junto con **Restringir la edición de plantillas de horas a propietarios y administradores** del área Configuración > Plantilla de horas y horas > Preferencias. Para obtener más información, consulte [Configurar preferencias de plantillas de horas y de horas](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+
+     Se dan los siguientes escenarios:
+
+     Cuando la opción **Restringir la edición de plantillas de horas a propietarios y administradores** está habilitada:
+
+      * Los aprobadores solo pueden aprobar y rechazar plantillas de horas, independientemente de si la opción Puede editar las horas está activada o no.
+      * Los administradores de propietarios de plantillas de horas solo pueden ver las plantillas de horas de sus informes directos.
+
+     Cuando la opción **Restringir la edición de plantillas de horas a propietarios y administradores** está deshabilitada:
+
+      * Cuando **Puede editar la hora** está habilitada, los aprobadores pueden enviar, reabrir o cerrar la hoja de horas y pueden editar la hora.
+      * Si **Puede editar la hora** está deshabilitada, los aprobadores no podrán enviar, volver a abrir ni cerrar la hoja de horas y no podrán editar la hora. Los aprobadores solo pueden aprobar o rechazar la plantilla de horas.
+      * Los administradores de los propietarios de las plantillas de horas pueden enviar, recuperar, volver a abrir y editar las plantillas de horas de sus informes directos.
+
+     >[!NOTE]
+     >
+     >Una vez enviada una plantilla de horas para su aprobación, ya no se pueden editar las horas. Para devolver una plantilla de horas enviada a un estado editable, recupere la plantilla de horas o solicite al aprobador que la rechace. Para obtener más información, consulte [Enviar una plantilla de horas para su aprobación](/help/quicksilver/timesheets/create-and-manage-timesheets/submit-timesheet-for-approval.md) y [Aprobar una plantilla de horas](/help/quicksilver/timesheets/create-and-manage-timesheets/timesheet-approvals.md).
+
+   * **Horas extra**: puede elegir ocultar el cuadro Horas extra en las hojas de horas. Esta opción está desactivada de forma predeterminada.
+   * **Tipos de horas disponibles**: esta configuración solo hace referencia a tipos de horas generales y no a tipos de horas específicos de proyectos.
+
+     De forma predeterminada, los usuarios ven todas las horas generales en una hoja de horas. Sin embargo, si su organización desea que solo se muestren horas generales específicas para un conjunto determinado de usuarios, puede seleccionar las horas generales que necesitan ver en sus plantillas de horas seleccionándolas en el perfil de plantilla de horas en este campo. Si desea deshabilitar todas las horas generales, anule la selección de todos los tipos de horas para generar la plantilla de horas sin una sección para las horas generales.
+
+   * **Notificaciones de recordatorio**: agregue una notificación de recordatorio. Workfront enviará recordatorios a los usuarios para pedirles que completen o aprueben sus plantillas de horas. Debe crear notificaciones de recordatorio antes de poder asociarlas a un perfil de hoja de horas.
+
+1. Al crear perfiles de hojas de horas de nivel de grupo en Producción, haga clic en la ficha **Asignar personas** para asociar el perfil de hojas de horas con usuarios, grupos o equipos específicos (si es administrador de Workfront). <!--To associate the timesheet profile with specific users, groups, or (if you are a Workfront administrator) teams, scroll towards the bottom of the page and find the **Assign People** section.-->
 
    <span class="preview">Al crear perfiles de hojas de horas de nivel de grupo en Vista previa, desplácese hacia la parte inferior de la página y busque la sección **Asignar personas**.</span>
 
-   Al crear perfiles de hojas de horas para el sistema, desplácese hacia la parte inferior de la página y busque la sección **Asignar personas**. <!--Keep the reference to the system when releasing to Prod, until they unshim the group Timesheet Profile-->
+   Al crear perfiles de hojas de horas para el sistema, desplácese hacia la parte inferior de la página y busque la sección **Asignar personas**.
 
    Empiece a escribir el nombre del usuario, grupo o equipo y, a continuación, haga clic en él cuando aparezca en la lista desplegable.
 
@@ -224,3 +205,88 @@ Puede tener más de un perfil de plantilla de horas para su organización si tie
 * Requisitos horarios generales únicos para distintos grupos de usuarios
 
 No se puede asociar a un usuario con más de un perfil de plantilla de horas a la vez.
+
+<!--
+<table style="table-layout:auto"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader"><strong>Name</strong> </td> 
+      <td> <p> Add a name for the timesheet profile. It could be the name of a team or a group whose people share the same timeframe for their timesheets. </p> <p>This ia a required field.</p> </td> 
+     </tr> 
+
+   <tr> 
+      <td role="rowheader"><strong>Description</strong> </td> 
+      <td> <p> Add more information about the timesheet profile.     
+      </p> </td> 
+     </tr>
+
+   <tr> 
+   <td role="rowheader"><strong>Group with Administration Access</strong> </td> 
+      <td> <p> 
+      <ul> 
+      <li> <p>If you are creating a system-level timesheet profile, leave this field blank.</p> <p>Any user who can edit user accounts can attach a system-level timesheet to other users.</p> <p>Only a Workfront administrator can edit a system-level timesheet profile.</p> </li> 
+      </ul> 
+     <ul> 
+      <li> <p>If you are creating a timesheet profile for a group you administer, identify the group here.</p> <p>This does not assign the timesheet profile to the users in the group; it only allows the group's administrators to modify the timesheet profile. You will assign the profile to users in Step 6.</p>
+
+   <p><b>NOTE</b>: When users outside the group are attaching timesheet profiles to other users, they won't be able to see or attach this timesheet profile.</p> </li> 
+      </ul> </p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><strong>Create timesheets</strong> </td> 
+      <td> <p> <p>Specify when the timesheet profile should generate the timesheets. A timesheet can be set to automatically generate on a weekly, bi-weekly, semi-monthly, or monthly basis. Select the day of the week when you want the timesheet to be produced.</p>
+      <p>A weekly timesheet begins on the date it is generated. For example, if you create weekly timesheets every Thursday, the first day of the week on the timesheet is Thursday.</p>
+    
+      
+   <p><b>NOTE</b>: Workfront always creates two timesheets at a time: the first timesheet always includes the current date, and the second timesheet starts when the time frame of the first one ends.</p> </p> </td> 
+   </tr> 
+     <tr> 
+      <td role="rowheader"><p><strong>Approvers</strong></p> </td> 
+      <td> <p> <p>Approvers are users who approve the timesheet for the users associated with the timesheet. You can identify up to 7 users as approvers on a timesheet. Identifying multiple users is useful to ensure an approver is available when someone is out of the office. All approvers are notified when a user submits the timesheet for approval. Only one user is required to approve the timesheet in order for it to be approved.</p> <p>Only users with timesheet administrative rights can be set as approvers. For more information about timesheet administrative rights, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Grant users administrative access to certain areas</a>.</p> <p>Use the drop-down menu&nbsp;to select&nbsp;the approver&nbsp;for the timesheet (if an approver is required). You can select from the following options:</p> 
+      <ul> 
+      <li><strong>None</strong>: The timesheet does not need to&nbsp;be approved.</li> 
+      <li><strong>Their Manager</strong>: This is the default approver, set by the system. In this case, the user designated as their manager approves the timesheet when it is submitted for approval.</li> 
+      <li><strong>Specific People:</strong>&nbsp;You can designate specific users, by name, as timesheet approvers. You can have multiple approvers on a timesheet. In this case, after&nbsp;one of the approvers approves the timesheet, the timesheet is marked as <strong>Closed</strong> and it disappears from the timesheet approvals list of all the remaining approvers.</li> 
+       </ul> </p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><strong>Can edit time </strong> </td> 
+      <td> <p> <p>Select this option to allow the approvers to edit hours on the timesheet. 
+
+   <p>This option works together with the **Restrict timesheet editing to owners and admins** setting in the Setup > Timesheet & Hours > Preferences area. For more information, see <a href="../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md">Configure timesheet and hour preferences</a>.</p>
+
+   <p>The following scenarios exist: </p>
+
+   <ul>
+      <li>When the <b>Restrict timesheet editing to owners and admins</b> option is enabled:</li>
+      <ul><li>Approvers can only approve and reject timesheet, regardless of whether the <b>Can edit time</b> is enabled or not. </li>
+      <li>Timesheet owners' managers can only view their direct reports' timesheets.</li></ul>
+      <li>When the <b>Restrict timesheet editing to owners and admins</b> option is disabled:</li>
+    <ul><li>When the <b>Can edit time</b> is enabled, approvers can submit, reopen, or close the timesheet and can edit the time.</li>
+      <li>When the <b>Can edit time</b> is disabled, approvers cannot submit, reopen, or close the timesheet and cannot edit the time. Approvers can only approve or reject the timesheet. </li>
+      <li>Timesheet owners' managers can submit, recall, reopen, and edit their direct reports' timesheets.</li></ul>
+      </ul>
+
+   <p>
+
+   <b>NOTE</b>: Once you submit a timesheet for approval, you can no longer edit the hours. To return a submitted timesheet to an editable state, recall the timesheet or have the approver reject the timesheet. For more information, see <a href="../../timesheets/create-and-manage-timesheets/submit-timesheet-for-approval.md">Submit a timesheet for approval</a> and <a href="../../timesheets/create-and-manage-timesheets/timesheet-approvals.md">Approve a timesheet</a>.</p> </p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><strong>Overtime</strong> </td> 
+      <td>You can choose to hide the Overtime box in timesheets. This option is disabled by default.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><strong>Available Hour Types</strong> </td> 
+      <td><p>This setting refers only to General Hour Types, and not to project-specific hour types. </p>
+      <p>By default, users see all general hours on a timesheet. However, if your organization wants only specific general hours to be shown for a particular set of users, you can select the general hours that they need to see in their timesheets by selecting them in their timesheet profile in this field. If you want to disable all general hours, deselect all hour types to generate the timesheet without a section for general hours.</p></td> 
+     </tr> 
+
+   <tr> 
+      <td role="rowheader"><strong>Reminder notifications</strong> </td> 
+      <td> <p> Add a reminder notification. Workfront will send reminders to users to ask them to complete or approve their timesheets. You must create reminder notifications before you can associate them with a timesheet profile.  </p> </td> 
+     </tr>
+    </tbody> 
+   </table>
+-->

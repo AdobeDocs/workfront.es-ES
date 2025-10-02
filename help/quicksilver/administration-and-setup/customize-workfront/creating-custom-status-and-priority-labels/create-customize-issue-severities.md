@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 0331be3c-a2d8-4788-a41a-5e971fb4bbe1
-source-git-commit: 1fa62033f83a96ea5c1036598b832dd2ebfa19c4
+source-git-commit: 7cb1eed72b0f5ce4abd83013b7a2f224dbb2c229
 workflow-type: tm+mt
 source-wordcount: '665'
 ht-degree: 66%
@@ -134,7 +134,7 @@ Como administrador de Workfront, puede crear y editar gravedades de problemas pa
      </div>
 
    * **Descripción**: escriba una descripción de la gravedad para explicar su función.
-   * <span class="preview">**Ocultar opción**</span> o **Ocultar**: <span class="preview">Elija **Sí**</span> o active la casilla de verificación para ocultar una gravedad que ya no sea necesaria.
+   * <span class="preview">**Ocultar opción**</span> o **Ocultar**: <span class="preview">Seleccione **Sí**</span> o active la casilla de verificación para ocultar una gravedad que ya no sea necesaria.
 
      Una gravedad oculta no aparecerá en ninguna parte de Workfront, por lo que los usuarios no pueden elegirla para sus problemas.
 

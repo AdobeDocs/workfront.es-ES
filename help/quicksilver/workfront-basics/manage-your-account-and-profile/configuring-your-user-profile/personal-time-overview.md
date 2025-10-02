@@ -7,18 +7,18 @@ description: Es importante indicar en Adobe Workfront cuándo tienen lugar los d
 author: Becky
 feature: Get Started with Workfront
 exl-id: e7710495-c418-47b1-8598-725580054fc5
-source-git-commit: e0f6078cfab1b325302dbda8a656d2a65ee0b95c
+source-git-commit: ce2f1ebe7ea97f3c25ac6a7ef33fd3c066727220
 workflow-type: tm+mt
-source-wordcount: '444'
-ht-degree: 92%
+source-wordcount: '476'
+ht-degree: 88%
 
 ---
 
 # Configurar los días libres personales
 
-{{highlighted-preview}}
-
 <!-- Audited: 12/2023 -->
+
+<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa de espacio aislado y se va a lanzar en un despliegue gradual en Producción.</span>
 
 [!DNL Adobe Workfront] no está diseñado para replicar o reemplazar los sistemas existentes de su organización para administrar, acumular o rastrear los días libres personales.
 
