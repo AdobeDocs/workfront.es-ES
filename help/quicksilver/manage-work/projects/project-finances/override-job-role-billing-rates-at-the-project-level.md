@@ -6,14 +6,16 @@ description: Como gerente del proyecto, puede especificar cuál es la tarifa de 
 author: Lisa
 feature: Work Management
 exl-id: b7a33459-6929-4611-8546-06ca979e5dbe
-source-git-commit: eb3db3b056cea359f77e56f77d6e9520954e2abb
+source-git-commit: 5e2c2a29c822150377882006bd6bc15068ff8702
 workflow-type: tm+mt
-source-wordcount: '850'
+source-wordcount: '866'
 ht-degree: 31%
 
 ---
 
 # Anular tarifas de facturación de funciones a nivel de proyecto
+
+{{highlighted-preview}}
 
 Como gerente del proyecto, puede especificar cuál es la tarifa de facturación de una función en un proyecto específico. Esta tarifa de facturación en el nivel de proyecto anula la tarifa de facturación en el nivel de sistema para esta función. Workfront utiliza la tarifa de facturación en el nivel de proyecto de la función de trabajo para calcular los ingresos, en lugar de utilizar la tarifa de facturación en el nivel de sistema.
 
@@ -89,8 +91,6 @@ Para sustituir una tarifa de facturación para un proyecto:
 
 1. En el campo **Rol**, seleccione el rol para el cual desea cambiar la tarifa de facturación.
 
-   ![Anular tarifa de facturación en el proyecto](assets/override-billing-rate-on-project-nwe-350x310.png)
-
    El campo **Tarifa de facturación predeterminada** muestra la tarifa a nivel del sistema para este rol.
 
 1. En el campo **Tasas de facturación 1**, ingrese la anulación de tarifa de facturación única y luego haga clic en **Guardar** para anular la tarifa de facturación una vez
@@ -105,7 +105,11 @@ Para sustituir una tarifa de facturación para un proyecto:
    * **Fecha de inicio**: esta es la fecha en la que finaliza la tarifa predeterminada.
    * **Fecha de finalización**: la fecha en la que finaliza la nueva anulación de tarifa de facturación.
 
-   ![new_billing_rate_with_adjustment_dates.png](assets/new-billing-rate-with-adjustment-dates-350x266.png)
+   <span class="preview">Imagen de muestra en el entorno de vista previa:</span>
+   ![Tarifas de facturación con fechas de anulación](assets/billing-rates-093025.png)
+
+   Imagen de muestra en el entorno de producción:
+   ![Tarifas de facturación con fechas de anulación](assets/new-billing-rate-with-adjustment-dates-350x266.png)
 
 1. La zona horaria de las fechas que seleccione se mostrará en la parte inferior del cuadro Nueva tarifa de facturación. Esta es la zona horaria asociada a la instancia de Workfront, como se muestra en el área de Información del cliente de la Configuración. Para obtener más información, consulte [Configurar información básica para el sistema](../../../administration-and-setup/get-started-wf-administration/configure-basic-info.md).
 1. Workfront aplica la tasa de rol de reemplazo a las horas que ocurren durante los lapsos de tiempo especificados al calcular los ingresos en el proyecto.
