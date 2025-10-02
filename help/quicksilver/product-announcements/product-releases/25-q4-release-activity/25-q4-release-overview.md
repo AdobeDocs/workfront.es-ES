@@ -5,10 +5,10 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 298473d4-7d7d-4401-80bf-899a01f570a6
-source-git-commit: e32f759218a3addf63dad7aa207ccdde8acb1975
+source-git-commit: f75f44c3c5ea4c281c0c9fe916ea8261d3500fb0
 workflow-type: tm+mt
-source-wordcount: '2219'
-ht-degree: 16%
+source-wordcount: '2245'
+ht-degree: 15%
 
 ---
 
@@ -317,15 +317,24 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td><strong>Liberación rápida</strong></td>
         <td><strong>Trimestralmente</strong></td>
     </tr>
-    <tr>
+     <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-requests.md" class="MCXref xref" xrefformat="{para}">Nueva columna de estado combinada en la lista de solicitudes unificadas</a><p></p>
-            <p>Para simplificar la experiencia de solicitud unificada, la columna Estado ahora muestra tanto el estado de la solicitud como el estado de aprobación, lo que se aplique a una solicitud determinada.</p>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-requests.md" class="MCXref xref" xrefformat="{para}">Cree y guarde vistas en el área de solicitudes</a><p></p>
+            <p>Para facilitar la visualización de la información que necesita, hemos añadido la capacidad de crear y guardar vistas en el área de Solicitudes. Ahora puede guardar una vista, incluidos los filtros y las configuraciones de columna, y cambiar entre vistas. Un administrador de Workfront puede agregar la nueva vista a las plantillas de diseño.</p>
         </td>
-        <td>viernes, 28 de agosto de 2025</td>
-        <td>viernes, 11 de septiembre de 2025</td>
+        <td>viernes, 02 de octubre de 2025</td>
+        <td>jueves, 15 de octubre de 2025</td>
         <td>viernes, 16 de octubre de 2025</td>
-    </tr>     
+    </tr> 
+    <!--<tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-requests.md" class="MCXref xref" xrefformat="{para}">New combined Status column in unified Request list</a><p></p>
+            <p>To simplify the unified request experience, the Status column now displays both Request Status and Approval Status, whichever applies to a given request.</p>
+        </td>
+        <td>August 28, 2025</td>
+        <td>September 11, 2025</td>
+        <td>October 16, 2025</td>
+    </tr>  -->   
     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-requests.md" class="MCXref xref" xrefformat="{para}">Actualizaciones para solicitar experiencia</a><p></p>
@@ -456,7 +465,7 @@ Para ofrecer integraciones más estables y escalables, estamos adoptando un enfo
 * Workfront para Salesforce.
 
 Recomendamos utilizar la automatización e integración de Workfront para las necesidades de integración de su organización con Google Workspace.
-Para obtener una descripción general de la automatización e integración de Workfront, consulte [Información general de Adobe Workfront Fusion](https://experienceleague.adobe.com/es/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+Para obtener una descripción general de la automatización e integración de Workfront, consulte [Información general de Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 
 ### Versión 20 de la API
 

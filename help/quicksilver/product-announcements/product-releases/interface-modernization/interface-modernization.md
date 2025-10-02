@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 681d83661aff2c0484521ee11c8899dca14e65ed
+source-git-commit: f75f44c3c5ea4c281c0c9fe916ea8261d3500fb0
 workflow-type: tm+mt
-source-wordcount: '8031'
+source-wordcount: '8402'
 ht-degree: 2%
 
 ---
@@ -24,19 +24,39 @@ Para ver todos los demás cambios en Adobe Workfront, consulte [Versiones del pr
 
 ## Administración y configuración
 
-<!--### Interface updates when adding or editing group timesheet profiles
+### Nueva interfaz y funcionalidad para los cuadros Nueva y Editar ruta de hitos
 
-**Preview release: September 25, 2025; Production release: October 2, 2025**
+**Versión de vista previa: 2 de octubre de 2025; versión de producción: a partir del 9 de octubre de 2025**
 
-We have updated the look and feel of the Timesheet Profile page when editing or adding a group timesheet profile.
+Los cuadros Nueva y Editar ruta de hitos ahora tienen una nueva interfaz. La lista de trayectoria del hito tiene un nuevo aspecto y algunas funcionalidades de esta área pueden haber cambiado.
 
-To view these changes, go to Setup > Groups > select a group name > Timesheet Profiles and either add a new profile, or edit an existing one.
+Para obtener más información, vea [Crear una ruta de hitos](/help/quicksilver/administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md).
 
-For more information, see [Create, edit, and assign timesheet profiles](/help/quicksilver/timesheets/create-and-manage-timesheets/create-timesheet-profiles.md). -->
+### Actualizaciones de la interfaz al añadir o editar perfiles de plantilla de horas de grupo
+
+**Versión preliminar: 30 de septiembre de 2025; versión de producción: a partir del 2 de octubre de 2025**
+
+Hemos actualizado el aspecto de la página Perfil de plantilla de horas al editar o agregar un perfil de plantilla de horas de grupo.
+
+Para ver estos cambios, vaya a Configuración > Grupos > seleccione un nombre de grupo > Perfiles de plantilla de horas y añada un perfil nuevo o edite uno existente.
+
+Para obtener más información, consulte [Creación, edición y asignación de perfiles de plantilla de horas](/help/quicksilver/timesheets/create-and-manage-timesheets/create-timesheet-profiles.md).
+
+
+### Actualizaciones de la interfaz para las listas de estado
+
+**Versión preliminar: 2 de octubre de 2025; versión de producción: 9 de octubre de 2025**
+
+Hemos actualizado el aspecto de las listas de Estado para que coincidan con el diseño de otras áreas de la aplicación.
+
+Esta actualización afecta a:
+
+* El área Estados en Configuración > Preferencias de proyecto
+* Los estados son cuando se visualiza un grupo
 
 ### Actualizaciones de la interfaz para el área Gravedades en Configuración
 
-**Versión preliminar: 25 de septiembre de 2025; versión de producción: 2 de octubre de 2025**
+**Versión preliminar: 25 de septiembre de 2025; versión de producción: 9 de octubre de 2025**
 
 Hemos actualizado la página Gravedades con un diseño más moderno y coherente con otras áreas de Workfront.
 
@@ -48,7 +68,7 @@ Para obtener más información, consulte [Crear o personalizar gravedades de pro
 
 ### Actualizaciones de la interfaz para el área Prioridades en Configuración
 
-**Versión preliminar: 25 de septiembre de 2025; versión de producción: 2 de octubre de 2025**
+**Versión preliminar: 25 de septiembre de 2025; versión de producción: 9 de octubre de 2025**
 
 Hemos actualizado la página Prioridades con un diseño más moderno y coherente con otras áreas de Workfront.
 
@@ -208,6 +228,38 @@ Para obtener más información, consulte [Editar programas](/help/quicksilver/ma
 
 ## Proyectos
 
+### Actualizaciones de interfaz para Tarifas de facturación
+
+**Versión de vista previa: 2 de octubre de 2025; versión de producción: a partir del 9 de octubre de 2025**
+
+Hemos actualizado el aspecto de la página Tarifas de facturación de un proyecto para que coincida con otras áreas de la aplicación. También se han actualizado los cuadros de diálogo para agregar y editar tarifas de facturación.
+
+Para ver este cambio, vaya a un proyecto > Tarifas de facturación.
+
+Para obtener más información, consulte [Anular tarifas de facturación de rol en el nivel de proyecto](/help/quicksilver/manage-work/projects/project-finances/override-job-role-billing-rates-at-the-project-level.md).
+
+### Actualizaciones de interfaz para una lista de proyectos o un informe al aplicar la vista de Hito
+
+**Versión de vista previa: 2 de octubre de 2025; versión de producción: a partir del 9 de octubre de 2025**
+
+Hemos actualizado el aspecto de una lista de proyectos o un informe al aplicarles la vista Hito.
+
+La lista de proyectos o el informe ahora coinciden con el diseño de otras áreas de Workfront. Para obtener más información, vea [Usar la vista de Hito](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-milestone-view.md).
+
+<!--### Interface updates for the Edit Tasks box
+
+**Preview release: October 2, 2025; Production release: Starting the week of October 9, 2025**
+
+ We have updated the look and feel of the Edit Tasks box when editing tasks in bulk. The Edit Tasks box now matches the design of a single-task Edit box.   
+
+The following changes are included in this update: 
+
+*There is a new experience for assigning resources to tasks, when editing a single task and when editing tasks in bulk.  
+
+*The Resource Scope field has been removed from the Edit task box.  
+
+For information, see [Edit tasks](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md).-->
+
 ### Actualización de la interfaz al editar plantillas por lotes
 
 **Versión preliminar: 18 de septiembre de 2025; versión de producción: 25 de septiembre de 2025**
@@ -215,14 +267,6 @@ Para obtener más información, consulte [Editar programas](/help/quicksilver/ma
 Hemos actualizado el aspecto del cuadro Editar plantillas al editar plantillas de forma masiva desde una lista de plantillas. La organización de la información del cuadro Editar plantillas ahora coincide con el cuadro de edición de una sola plantilla.
 
 Para obtener más información, consulte [Editar plantillas de proyecto](/help/quicksilver/manage-work/projects/create-and-manage-templates/edit-templates.md).
-
-<!--### Interface updates for a project list or report when applying the Milestone view
-
-**Preview release: September 11, 2025; Production release: September 18, 2025**
-
-We have updated the look and feel of a project list or report when you apply the Milestone view to them.
-
-The project list or report now matches the design of other areas of Workfront. For information, see [Use the Milestone view](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-milestone-view.md).-->
 
 ### Cambios en la interfaz para la tarea Convertir una tarea en un proyecto sin plantilla
 
@@ -427,16 +471,15 @@ Para obtener más información, consulte
 * [Crear reglas de enrutamiento](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-routing-rules.md).
 
 
-
 ## Usuarios
 
-<!--### Interface updates for the User Details page
+### Actualizaciones de la interfaz de la página Detalles del Usuario
 
-**Preview release: September 25, 2025; Production release: October 2, 2025**
+**Versión preliminar: 2 de octubre de 2025; versión de producción: 9 de octubre de 2025**
 
-We have updated the look and feel of the User Details page to match other areas of the application.
+Hemos actualizado el aspecto de la página Detalles del usuario para que coincida con otras áreas de la aplicación.
 
-You can view the updated design by going to Users, selecting a user, and clicking Details in the left panel.-->
+Para ver el diseño actualizado, vaya a Usuarios, seleccione un usuario y haga clic en Detalles en el panel izquierdo.
 
 ### Actualizaciones de la interfaz para días libres personales
 
@@ -791,7 +834,7 @@ Para obtener más información, consulte [Crear un informe personalizado](/help/
 
 ### Las direcciones URL con /tile o /qstile ya no se admiten en los paneles de Workfront
 
-**Versión preliminar: 13 de mayo; versión de producción: por anunciar**
+**Versión preliminar: 13 de mayo; versión de producción: a partir del 20 de mayo de 2025**
 
 Si tiene una página externa en un panel con una dirección URL de Workfront que contiene `/tile` o `/qstile`, esa página ya no se cargará.
 
