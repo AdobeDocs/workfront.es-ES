@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 03c1f17504846fc4b8c4114ddc32df687281bc07
+source-git-commit: 5b9b1f397c76afa2e2ae550e0ce62a6038b8bd86
 workflow-type: tm+mt
-source-wordcount: '3935'
+source-wordcount: '3962'
 ht-degree: 42%
 
 ---
@@ -198,12 +198,10 @@ Para administrar una vista de línea de tiempo:
 
      <span class="preview">Para obtener más información, consulte [Crear registros](/help/quicksilver/planning/records/create-records.md).</span>
 
-   * <span class="preview">Haga clic al final de una barra de registros y arrástrela y suéltela en una nueva posición. Al cambiar el tamaño de las barras de los registros, se actualizan inmediatamente las fechas de inicio y finalización. </span>
+   * <span class="preview">Haga clic en el margen izquierdo o derecho de una barra de registros y, a continuación, arrástrela y suéltela en una nueva posición. Al cambiar el tamaño de las barras de los registros, se actualizan inmediatamente las fechas de inicio y finalización. </span>
 
+   * <span class="preview">Arrastre y suelte los registros para actualizar su posición y fechas en la cronología. Al mover las barras de los registros, se actualizan las fechas de inicio y finalización inmediatamente.</span>
      <span class="preview">Para obtener más información, consulte [Editar registros](/help/quicksilver/planning/records/edit-records.md).</span>
-
-   <!--* <span class="preview">Drag and drop records to update their position and dates in the timeline.</span>
-        <span class="preview">For information, see [Edit records](/help/quicksilver/planning/records/edit-records.md).</span>-->
 
 1. Actualice los siguientes elementos de vista como se describe en las subsecciones siguientes:
    * [Filtros](#add-filters)

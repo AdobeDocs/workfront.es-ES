@@ -8,10 +8,10 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: c1e2f374-576c-4f1c-b502-281e8ee9e7df
-source-git-commit: 6e2e337969fccba88ea7089fe9a6d9db605343f7
+source-git-commit: 5b9b1f397c76afa2e2ae550e0ce62a6038b8bd86
 workflow-type: tm+mt
-source-wordcount: '816'
-ht-degree: 64%
+source-wordcount: '889'
+ht-degree: 53%
 
 ---
 
@@ -26,6 +26,14 @@ NOTE: DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THR
 <!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+
+<div class="preview">
+
+La información resaltada en esta página hace referencia a funcionalidades que aún no están disponibles de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Las mismas funciones también estarán disponibles en el entorno de producción para todos los clientes a partir de una semana desde la versión de vista previa.
+
+Para obtener más información, vea [Modernización de la interfaz](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).
+
+</div>
 
 Como administrador de Adobe Workfront, puede crear rutas de hitos que luego se pueden aplicar a cualquier proyecto del sistema. Los cambios que realice en las rutas de hitos en esta área afectarán a todo el sistema de Workfront.
 
@@ -45,14 +53,18 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
   <tr> 
    <td role="rowheader">Licencia de Adobe Workfront</td> 
-   <td>Plan</td> 
+   <td><p>Estándar</p>
+   <p>Plan</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso</td> 
-   <td> <p>Debe ser administrador de Workfront.</p> <p><b>NOTA</b>: Si todavía no tiene acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
+   <td> <p>Debe ser administrador de Workfront.</p></td> 
   </tr> 
  </tbody> 
 </table>
+
+*Para obtener información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -72,7 +84,18 @@ Para obtener más información sobre cómo asociar una ruta de hitos a un proyec
 
 1. Haga clic en **Procesos** > **Rutas de hitos**.
 1. Haga clic en **Nueva ruta de hitos.**
-1. Especifique la siguiente información en el área **Información básica**:
+
+   <div class="preview">
+
+   Se abre el cuadro Nueva ruta de hitos.
+
+   ![Nuevo cuadro de ruta de hitos](assets/new-milestone-path-box.png)
+
+   </div>
+
+1. Haga clic en **Información básica** en el panel izquierdo.
+
+   Actualice la siguiente información:
 
    <table style="table-layout:auto">
     <tr>
@@ -85,7 +108,7 @@ Para obtener más información sobre cómo asociar una ruta de hitos a un proyec
     </tr>
     <tr>
        <td>Activo</td>
-      <td>Seleccione esta casilla de verificación si desea que la ruta de hitos esté activa. Otros usuarios pueden encontrar esta ruta y adjuntarla a proyectos al crearlos o editarlos. Las rutas de hitos inactivas no se pueden adjuntar a los proyectos. Esta opción está activada de forma predeterminada.</td>
+      <td>Seleccione esta casilla de verificación si desea que la ruta de hitos esté activa. Otros usuarios pueden encontrar esta ruta y adjuntarla a proyectos al crearlos o editarlos. Las rutas de hitos inactivas no se pueden adjuntar a los proyectos. Esta opción está habilitada de forma predeterminada.</td>
     </tr>
     <tr>
       <td>Grupos</td>
@@ -93,7 +116,10 @@ Para obtener más información sobre cómo asociar una ruta de hitos a un proyec
     </tr>
    </table>
 
-1. Especifique la siguiente información en el área **Hitos**:
+1. Haga clic en **Hitos** en el panel izquierdo.
+1.En el entorno Producción, haga clic en **Agregar hito** para agregar hitos a la ruta.
+   <span class="preview">En el entorno de vista previa, haga clic en **Nueva fila** para agregar hitos a la ruta de acceso.</span>
+1. Actualice la siguiente información:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -114,15 +140,14 @@ Para obtener más información sobre cómo asociar una ruta de hitos a un proyec
     </tbody> 
    </table>
 
-1. Haga clic en **Añadir hito** y continúe añadiendo hitos según sea necesario hasta que finalice la ruta.
-
+1. (Opcional) Arrastre y suelte cada hito para reordenarlos.
 1. Haga clic en **Crear ruta de hitos** para guardar los cambios.
 
    La ruta de hitos está lista para asociarse a un proyecto.
 
    Para obtener más información sobre cómo asociar rutas de hitos a proyectos e hitos a tareas, consulte [Asociar hitos a tareas](../../../manage-work/tasks/manage-tasks/associate-milestones-with-tasks.md).
 
-
+1. (Opcional) En la lista Rutas de hitos, seleccione un hito y, a continuación, haga clic en el icono **Editar** ![Editar icono](assets/edit-icon.png) para abrir la ruta del hito y editar su información.
 1. (Opcional) Haga clic en el icono **Exportar** ![Icono de exportar](assets/export-icon.png) y, a continuación, seleccione uno de los siguientes formatos para exportar la lista de rutas de hitos a un archivo:
 
    * PDF
@@ -130,10 +155,12 @@ Para obtener más información sobre cómo asociar una ruta de hitos a un proyec
    * Excel (xlsx)
    * Delimitado por tabulaciones
 
-1. (Opcional) Seleccione un hito en la lista de hitos y, a continuación, haga clic en el icono **Editar** ![Editar icono](assets/edit-icon.png) para editar la información del hito.
-1. (Opcional) Seleccione un hito en la lista de hitos y, a continuación, haga clic en el icono **Eliminar** ![Eliminar icono](assets/delete-icon.png) para eliminarlo.
-1. Haga clic en **Sí, eliminarlo**.
-El hito se elimina y no se puede recuperar. También se elimina cualquier información de proyecto asociada al hito y cualquier información de tarea asociada a las rutas de hitos.
+1. (Opcional) Seleccione uno o varios hitos en la lista de hitos y, a continuación, haga clic en el icono **Eliminar** ![Eliminar icono](assets/delete-icon.png) para eliminarlo.
+1. Haga clic en **Sí, eliminar**.
+
+   El hito se elimina y no se puede recuperar. La trayectoria del hito se elimina de cualquier proyecto asociado anteriormente a él y todos los hitos se eliminan de las tareas asociadas a ellos.
+
+   Los hitos eliminados no se pueden recuperar.
 
 
 ## Ver detalles de ruta de hitos en un informe de proyecto

@@ -4,10 +4,10 @@ description: Los tipos de registro son los tipos de objetos de Adobe Workfront P
 hidefromtoc: true
 hide: true
 exl-id: b977d5dd-8975-42c4-9968-a7ac357972e6
-source-git-commit: bfb0fd2956ffb9384a09882864668d5dba33a53b
+source-git-commit: eacc6b26bd30ac7da363c6aa1d759a65a20cd9f4
 workflow-type: tm+mt
-source-wordcount: '620'
-ht-degree: 6%
+source-wordcount: '744'
+ht-degree: 5%
 
 ---
 
@@ -25,15 +25,18 @@ recommendations: noDisplay, noCatalog
 
 <span class="preview">Para obtener información sobre las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
-Como administrador de área de trabajo, puede agregar un tipo de registro que exista en un área de trabajo a un área de trabajo que administre en Adobe Workfront Planning.
+Como administrador de espacio de trabajo, puede agregar un tipo de registro que exista en otro espacio de trabajo a un espacio de trabajo que administre en Adobe Workfront Planning.
 
-Primero debe designar un tipo de registro como centralizado antes de que los administradores de espacio de trabajo puedan agregarlo a otros espacios de trabajo como un tipo de registro existente.
+Este artículo describe cómo se puede agregar un tipo de registro de uno existente y cómo se puede eliminar, si ya no es necesario.
 
-Puede designar un tipo de registro como centralizado al crearlo o editarlo, al definir su configuración de espacio de trabajo cruzado.
+Un gestor de espacio de trabajo debe designar primero un tipo de registro como centralizado antes de añadirlo a los espacios de trabajo que gestione como tipo de registro existente.
+
+Puede designar un tipo de registro como centralizado al crearlo o editarlo, al tiempo que define su configuración avanzada.
 
 Para obtener más información, vea [Configurar las capacidades entre espacios de trabajo para los tipos de registro](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md).
 
 Antes de agregar registros a un área de trabajo desde un tipo de registro centralizado, vea el artículo [Información general sobre los tipos de registros entre áreas de trabajo](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md).
+
 
 ## Requisitos de acceso
 
@@ -53,8 +56,10 @@ Antes de agregar registros a un área de trabajo desde un tipo de registro centr
    <td role="rowheader"><p>paquete de Adobe Workfront</p></td> 
    <td> 
 <ul><li><p>Cualquier paquete de Workfront</p></li>
-Y
-<li><p>Paquete Planning Plus</p></li></ul>
+<p>Y</p>
+<li><p>Cualquier paquete de Planning para crear tipos de registros conectables</p></li>
+<li><p>Paquete de Planning Plus para crear tipos de registros centralizados</p></li>
+</ul>
 <!--Or:
 <ul><li><p>Any Workflow package</p> </li>
 And
@@ -92,7 +97,7 @@ Para obtener más información acerca de los requisitos de acceso de Workfront, 
 
    >[!TIP]
    >
-   >Cuando no hay ningún tipo de registro configurado para agregarse a otro espacio de trabajo, no se muestra la opción de agregarlo desde otro espacio de trabajo al crear un tipo de registro.
+   >Cuando no hay ningún tipo de registro configurado para añadirse a otro espacio de trabajo, no se muestra la opción para añadirlos desde otro espacio de trabajo.
 
    Ocurren lo siguiente:
 
@@ -100,19 +105,27 @@ Para obtener más información acerca de los requisitos de acceso de Workfront, 
 
       * Todos los campos originales
       * Todas las conexiones de registros
-   * Solo puede ver los registros añadidos desde otros espacios de trabajo si tiene al menos permisos de visualización en dichos espacios de trabajo.
+   * Solo puede ver los registros añadidos desde otros espacios de trabajo que utilicen el mismo tipo de registro centralizado si tiene al menos permisos de visualización en dichos espacios de trabajo.
    * El icono **tipo de registro centralizado** ![icono de tipo de registro centralizado](assets/global-icon.png) se agrega a la tarjeta del nuevo tipo de registro.
    * El campo **Workspace** de solo lectura se agrega a la nueva vista de tabla de tipo de registro. El campo muestra en qué espacio de trabajo se creó cada registro.
 
      >[!NOTE]
      >
-     >* No puede editar el aspecto, la configuración avanzada o los campos originales del nuevo tipo de registro. Sólo se puede editar el tipo de registro y todos sus campos y configuraciones originales desde el espacio de trabajo original.
+     >No puede editar el aspecto, la configuración avanzada o los campos originales del nuevo tipo de registro. Sólo se puede editar el tipo de registro y todos sus campos y configuraciones originales desde el espacio de trabajo original.
 
 1. (Opcional) Haga clic en y, a continuación, arrastre y suelte el tipo de registro recién añadido en cualquier sección del espacio de trabajo.
 
 <!--This will be released later with another epic: 1. (Optional) Click the **More** menu ![More menu](assets/more-menu.png) in the new record type's card, or to the right of the record type's name on its page, then click **Share** to share it with other users in the same workspace, or adjust their permissions to the record type.-->
 
-1. (Opcional) Haga clic en el menú **Más** ![Más menú](assets/more-menu.png) en la tarjeta del nuevo tipo de registro, o a la derecha del nombre del tipo de registro en su página, y luego haga clic en **Eliminar**.
+## Eliminar un tipo de registro centralizado de un espacio de trabajo secundario
+
+Puede eliminar un tipo de registro que haya añadido desde otro espacio de trabajo si ya no es necesario. Al eliminarla, solo se eliminará del espacio de trabajo secundario y se eliminarán los registros agregados de ese espacio de trabajo. El tipo de registro original permanece en su espacio de trabajo original y en otros espacios de trabajo en los que se ha agregado.
+
+Para suprimir un tipo de registro centralizado de un espacio de trabajo secundario:
+
+1. Vaya al tipo de registro centralizado en el espacio de trabajo secundario.
+
+1. (Opcional) Haga clic en el menú **Más** ![Más menú](assets/more-menu.png) de la tarjeta del tipo de registro o a la derecha del nombre del tipo de registro en su página y, a continuación, haga clic en **Eliminar**.
 1. (Condicional) Escriba **delete** en el campo proporcionado y luego haga clic en **Eliminar permanentemente**.
 
    Ocurren lo siguiente:

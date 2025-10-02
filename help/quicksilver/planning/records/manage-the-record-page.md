@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 03c1f17504846fc4b8c4114ddc32df687281bc07
+source-git-commit: 5b9b1f397c76afa2e2ae550e0ce62a6038b8bd86
 workflow-type: tm+mt
-source-wordcount: '2308'
-ht-degree: 37%
+source-wordcount: '2434'
+ht-degree: 36%
 
 ---
 
@@ -332,7 +332,22 @@ Todos los campos del registro conectado se muestran en la vista de tabla de la f
 
      Para obtener información acerca de cómo editar registros en la vista de tabla, vea [Editar registros](/help/quicksilver/planning/records/edit-records.md).
 
-   * Edite en línea cualquiera de los registros de la tabla en la página Registros conectados. En el entorno Producción, todos los objetos de Workfront se muestran en una vista de tabla de solo lectura y no se pueden editar. <span class="preview">Puede editar en línea proyectos de Workfront en el entorno de vista previa.</span>
+   * Edite en línea cualquiera de los registros de la tabla en la página Registros conectados.
+
+     En el entorno Producción, todos los objetos de Workfront se muestran en una vista de tabla de solo lectura y no se pueden editar.
+
+     <span class="preview">En el entorno de vista previa, puede editar proyectos en línea en la página de registros conectados.</span>
+
+1. <span class="preview">(Condicional) Al ver una lista de proyectos conectados, realice una de las siguientes acciones:</span>
+
+   * <span class="preview">Haga clic en **Conectar registros** en la esquina superior derecha de la página de registros conectada para conectar proyectos existentes.</span>
+   * <span class="preview">Editar en línea la información del proyecto en la tabla.</span>
+   * <span class="preview">Haga clic en **Nueva fila** para crear un proyecto sin plantilla.</span>
+
+     Para obtener más información, vea [Crear objetos de Workfront desde Workfront Planning a medida que los conecta a registros](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md)
+   * <span class="preview">Pase el ratón sobre un proyecto y haga clic en el menú **Más** [Menú más](assets/more-menu.png); a continuación, haga clic en una de las siguientes opciones:</span>
+      * <span class="preview">**Eliminar** para eliminar el proyecto. Al eliminar un proyecto, se desconecta del registro y se mueve a la papelera de reciclaje de Workfront. </span>
+      * <span class="preview">**Desconectar** para desconectar el proyecto del registro. Desconectando un proyecto</span>
 
 1. (Opcional) Haga doble clic en el nombre de la ficha de la página Registros conectados
 
@@ -356,7 +371,7 @@ Todos los campos del registro conectado se muestran en la vista de tabla de la f
 1. (Condicional) Para conectar más registros u objetos, siga uno de estos procedimientos:
 
    * Haga clic en **Conectar** en la parte inferior de la tabla para agregar o quitar registros u objetos de Workfront <span class="preview">excepto proyectos.</span>
-   * <span class="preview">En el entorno de vista previa, haga clic en **Conectar registros** en la esquina superior derecha de la página de registros conectados o en **Nueva fila** en la parte inferior de la tabla para agregar o quitar proyectos.</span>
+   * <span class="preview">En el entorno de vista previa, haga clic en **Conectar registros** en la esquina superior derecha de la página de registros conectados para conectar proyectos existentes o haga clic en **Nueva fila** en la parte inferior de la tabla para crear proyectos y conectarlos automáticamente al registro actual.</span>
 
    Para obtener más información, consulte [Conectar registros](/help/quicksilver/planning/records/connect-records.md).
 1. (Opcional) Pase el ratón sobre el nombre de la ficha de la página Registros conectados, haga clic en **Más** ![Menú más](assets/more-menu.png) y, a continuación, haga clic en **Eliminar** para quitar a la ficha.

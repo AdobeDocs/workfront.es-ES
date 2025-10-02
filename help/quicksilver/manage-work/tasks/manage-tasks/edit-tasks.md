@@ -7,10 +7,10 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 572c6008-3a67-47ae-8f5d-6b871ef1f37b
-source-git-commit: f98dd9c4bbb342e20ef77690ef20b0b14f5e9b6b
+source-git-commit: eacc6b26bd30ac7da363c6aa1d759a65a20cd9f4
 workflow-type: tm+mt
-source-wordcount: '3723'
-ht-degree: 97%
+source-wordcount: '3810'
+ht-degree: 95%
 
 ---
 
@@ -26,12 +26,22 @@ ht-degree: 97%
 </div>
 -->
 
+<!--
+<div class="preview"> 
+
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
+
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
+
+</div> 
+-->
+
 
 Puede editar información sobre las tareas que ha creado o para las que tiene permisos de aportación o de administración. 
 
 ## Requisitos de acceso
 
-+++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -43,8 +53,8 @@ Puede editar información sobre las tareas que ha creado o para las que tiene pe
   </tr> 
   <tr> 
    <td role="rowheader">Licencia de Adobe Workfront*</td> 
-   <td> <p>Nuevo: estándar</p>
-   <p>Actual: Trabajo o superior</p> </td> 
+   <td> <p>Estándar</p>
+   <p>Trabajo o superior</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Nivel de acceso</td> 
@@ -183,6 +193,7 @@ Puede editar una tarea mediante las áreas Editar tarea o Detalles de la tarea. 
    * [Formularios personalizados](#Custom%C2%A0F)
    * [Finanzas](#finance)
    * [Configuración](#settings)
+   * [Comentario](#comment)
 
    >[!NOTE]
    >
@@ -605,9 +616,23 @@ Puede definir formularios personalizados predeterminados que se adjuntarán auto
    </table>
     </li>
 
-1. Haga clic en **Guardar**.
+1. Haga clic en **Guardar** o continúe con la siguiente sección.
 
 <!--notes from the table: <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this bullet stays here although the sections it might appear in are QS only, so we can use the snippet for both Qs and classic)</p>       -->
+
+### Comentario
+
+1. Empiece a editar la tarea tal como se describe en la sección [Editar tareas](#Edit2) de este artículo.
+1. Haga clic en **Comentario** en el panel izquierdo.
+
+   ![Sección de comentarios en el cuadro de tareas de edición](assets/comment-section-on-edit-task-box.png)
+
+1. Añada una actualización en el espacio proporcionado.
+1. (Opcional) Añada una de las siguientes opciones a la actualización:
+
+   * Agregue usuarios o equipos a su actualización en el área de **Etiquetar personas** o use @ para incluirlos en su actualización.
+   * Seleccione la casilla de verificación **Privado para mi compañía** para que la actualización siga siendo privada para los usuarios de su compañía.
+1. Haga clic en **Guardar**.
 
 ## Editar una tarea en el encabezado de la tarea (limitada)
 

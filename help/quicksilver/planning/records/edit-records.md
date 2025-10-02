@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: f32b2f9e5a511b83e5793299e47b9c1c12857bd8
+source-git-commit: 5b9b1f397c76afa2e2ae550e0ce62a6038b8bd86
 workflow-type: tm+mt
-source-wordcount: '2700'
+source-wordcount: '2756'
 ht-degree: 11%
 
 ---
@@ -235,7 +235,7 @@ Para obtener más información, consulte [Crear registros](/help/quicksilver/pla
 
    <span class="preview">![Barra izquierda en la vista de escala de tiempo para cambiar el tamaño](assets/left-end-bar-handle-to-resize-timeline-view.png)</span>
 
-<!--1. <span class="preview">Click a record bar, then drag and drop it in another position to update its timeline and dates. The Start and End dates of the record update automatically.</span>-->
+1. <span class="preview">Haga clic en una barra de registro y, a continuación, arrástrela y suéltela en otra posición para actualizar su escala de tiempo y fechas. Las fechas de inicio y finalización del registro se actualizan automáticamente.</span>
 
 1. Haga clic en la barra de un registro para abrir su área de detalles y editar todos los campos.
 
@@ -246,17 +246,11 @@ Para obtener más información, consulte [Crear registros](/help/quicksilver/pla
 <!--add another step about drag and drop here when that is available-->
 
 1. Abra la página de tipo de registro en una vista de calendario. Para obtener más información, vea [Administrar la vista de calendario](/help/quicksilver/planning/views/manage-the-calendar-view.md).
-1. <span class="preview"> (Condicional) Pase el ratón sobre los extremos de la barra de un registro en la vista de calendario, luego haga clic, arrastre y suelte sus márgenes en otra fecha. Esto actualiza automáticamente la fecha de inicio o de finalización del registro.</span>  <!--when the calendar weekly resize is released to Preview, take out "monthly" from the sentence above, at preview release DONE Sep 25 2025-->
+1. <span class="preview"> (Condicional) Pase el ratón sobre los extremos de la barra de un registro en la vista de calendario, luego haga clic, arrastre y suelte sus márgenes en otra fecha. Esto actualiza automáticamente la fecha de inicio o de finalización del registro.</span>
 
    <span class="preview">![Barra izquierda en la vista de calendario para cambiar el tamaño](assets/left-end-bar-handle-to-resize-calendar-monthly-view.png)</span>
 
-   <!--At preview release, add one of the following depending on which one is releasing: 
-    Scenario one: only drag and drop in the weekly view is releasing:
-    1. <span class="preview">Click a record bar in the calendar weekly view, then drag and drop it in another position to update its timeline and dates. The Start and End dates of the record update automatically.</span>
-    Scenario two: only drag and drop in the monthly view is releasing:
-    1. <span class="preview">Click a record bar in the calendar monthly view, then drag and drop it in another position to update its timeline and dates. The Start and End dates of the record update automatically.</span>
-    Scenario 3: both the weekly and monthly drag and drop are releasing at the same time:
-    1. <span class="preview">Click a record bar, then drag and drop it in another position to update its timeline and dates. The Start and End dates of the record update automatically.</span>-->
+1. <span class="preview">Haga clic en una barra de registro y, a continuación, arrástrela y suéltela en otra posición para actualizar su escala de tiempo y fechas. Las fechas de inicio y finalización del registro se actualizan automáticamente.</span>
 
 1. Haga clic en la barra de un registro para abrir su área de detalles y editar todos los campos.
 
