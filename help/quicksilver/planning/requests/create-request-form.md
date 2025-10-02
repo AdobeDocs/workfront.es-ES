@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 359131cef04fdb46def64428a7a693c3f00b2cd4
+source-git-commit: de42feb0d5a349e6b4b403b790b4759f693f7f4c
 workflow-type: tm+mt
-source-wordcount: '2568'
-ht-degree: 7%
+source-wordcount: '3138'
+ht-degree: 6%
 
 ---
 
@@ -135,11 +135,15 @@ Para obtener información sobre cómo enviar solicitudes de Workfront Planning, 
    * Los campos de fórmula que hacen referencia a los campos Moneda muestran los valores sin tener en cuenta los tipos de cambio.
    * Los valores de los campos de párrafo muestran un valor &quot;N/A&quot; en el formulario de solicitud y muestran etiquetas html en lugar del texto con formato en la página de detalles de la solicitud.
 
-## Empezar a crear un formulario de solicitud
+## Creación de un formulario de solicitud
+
+Para crear un formulario de solicitud, debe empezar a crearlo, configurar los detalles del formulario y terminar publicándolo y compartiéndolo.
+
+### Empezar a crear un formulario de solicitud
 
 Puede crear un formulario de solicitud a partir del tipo de registro asociado al formulario <span class="preview"> o del área de solicitudes de Workfront.</span>
 
-### Creación de un formulario de solicitud a partir de un tipo de registro
+#### Creación de un formulario de solicitud a partir de un tipo de registro
 
 {{step1-to-planning}}
 
@@ -168,7 +172,7 @@ Puede crear un formulario de solicitud a partir del tipo de registro asociado al
 
 <div class="preview">
 
-### Cree un formulario de solicitud desde el área Solicitudes de Workfront
+#### Cree un formulario de solicitud desde el área Solicitudes de Workfront
 
 1. Haga clic en el icono **[!UICONTROL Menú principal]** ![Menú principal](/help/_includes/assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront o (si está disponible), haga clic en el icono **[!UICONTROL Menú principal]** ![Menú principal](/help/_includes/assets/main-menu-icon-left-nav.png) en la esquina superior izquierda y, a continuación, haga clic en **Solicitudes**.
 1. En la esquina superior derecha de la pantalla, haga clic en **Solicitar formularios**.
@@ -186,16 +190,21 @@ Puede crear un formulario de solicitud a partir del tipo de registro asociado al
 1. Haga clic en **Crear**.
 
    El formulario de solicitud del tipo de registro seleccionado se abre en la pestaña Formulario.
-1. Continúe a [Configurar el formulario](#configure-the-form).
+1. Continúe con [Configurar detalles para el formulario de solicitud](#set-up-details-for-the-request-form).
 
 </div>
 
-## Configuración del formulario
+### Configuración de detalles para el formulario de solicitud
 
-1. Comience a crear o editar un formulario de solicitud, tal como se describe en una de las siguientes secciones:
+Los detalles del formulario se dividen en pestañas.
 
-   * [Creación de un formulario de solicitud a partir de un tipo de registro](#create-a-request-form-from-a-record-type)
-   * <span class="preview">[Crear un formulario de solicitud desde el área de solicitudes de Workfront](#create-a-request-form-from-the-requests-area-of-workfront)</span>
+* La pestaña **Formulario** le permite agregar campos y elementos de contenido al formulario
+* La ficha **Configuración** le permite establecer un proceso de aprobación para el formulario <span class="preview">y establecer opciones de finalización de solicitudes</span>.
+* <span class="preview">La ficha **Automatizaciones** le permite automatizar lo que ocurrirá en función de las características de la solicitud realizada con el formulario.</span>
+
+#### Configuración de detalles del formulario
+
+1. Comience a crear o editar un formulario de solicitud, tal como se describe en la sección [Comience a crear un formulario de solicitud](#begin-creating-a-request-form).
 
    El formulario de solicitud del tipo de registro seleccionado se abre en la pestaña Formulario.
 
@@ -248,6 +257,16 @@ Puede crear un formulario de solicitud a partir del tipo de registro asociado al
    Para obtener más información sobre cómo crear un formulario personalizado, consulte [Crear un formulario personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 1. (Opcional) Haga clic en **Vista previa** para ver cómo se mostrará el formulario para otros usuarios cuando lo usen para enviar un nuevo registro.
+1. Continúe con [Configurar detalles de configuración](#set-up-configuration-details) si desea configurar más detalles para el formulario o vaya a [Completar la creación del formulario de solicitud](#complete-request-form-creation).
+
+#### Configurar los detalles de configuración
+
+En la pestaña Configuración, puede establecer el proceso de aprobación <span class="preview"> y configurar cuándo una solicitud creada a partir de este formulario se marcará como Completada</span>.
+
+1. Comience a crear o editar un formulario de solicitud, tal como se describe en la sección [Comience a crear un formulario de solicitud](#begin-creating-a-request-form).
+
+   El formulario de solicitud del tipo de registro seleccionado se abre en la pestaña Formulario.
+1. (Opcional) Configure cualquier detalle del formulario, tal como se describe en [Configurar detalles del formulario](#set-up-form-details).
 
 1. (Opcional) Haga clic en la ficha **Configuración** y, a continuación, agregue al menos un usuario <span class="preview">o equipo</span>al campo **Aprobadores** para aprobar nuevas solicitudes para este formulario de registro.
 
@@ -263,6 +282,39 @@ Puede crear un formulario de solicitud a partir del tipo de registro asociado al
 
      Para obtener más información sobre cómo agregar aprobaciones a los formularios de solicitud, consulte [Agregar aprobación a un formulario de solicitud](/help/quicksilver/planning/requests/add-approval-to-request-form.md).
 
+1. <span class="preview">(Condicional) Si desea que el registro se cree después de que cualquiera de los aprobadores lo haya aprobado, marque la casilla de verificación **Solo se requiere una decisión**.</span>
+
+1. <span class="preview">Seleccione si desea que una solicitud creada a partir de este formulario se marque como completada cuando se cree el objeto solicitado o cuando se complete el objeto solicitado.</span>
+1. <span class="preview">(Condicional) Si ha seleccionado que la solicitud se marque como completada cuando se complete el objeto solicitado, seleccione el campo y el valor que indican cuándo se completa el objeto. Por ejemplo, puede seleccionar el campo Estado y el valor Completado para completar la solicitud cuando el estado del objeto creado se establezca en Completado.</span>
+1. Continúe con [Configurar detalles de automatizaciones](#set-up-configuration-details) si desea configurar más detalles para el formulario o vaya a [Completar la creación del formulario de solicitud](#complete-request-form-creation).
+
+<div class="preview">
+
+#### Configuración de automatizaciones
+
+Puede configurar automatizaciones en Adobe Workfront Planning que, cuando estén activadas, creen objetos en Workfront o registros en Workfront Planning cuando se activen desde un registro de Planning.
+
+Para obtener información sobre cómo crear automatizaciones en otras áreas de Workfront Planning, consulte [Configurar automatizaciones de Adobe Workfront Planning](/help/quicksilver/planning/records/configure-automations-to-create-records.md).
+
+1. En la página de detalles de la automatización, actualice los campos siguientes en la sección **Déclencheur**:
+
+   * **Déclencheur**: seleccione la acción que almacenará en déclencheur la automatización. Actualmente, el único déclencheur disponible para la automatización de formularios de solicitud es `When request object status equals pending creation`.
+
+1. Actualice los campos siguientes en la sección **Acciones**: <!--submitted bugs for these fields - see if they need changing here-->
+   * **Acciones**: seleccione la acción que desea que realice Workfront al activar la automatización. Este campo es obligatorio.
+Actualmente, la única acción disponible para la automatización de formularios de solicitud es `Create record`.
+
+     >[!TIP]
+     >
+     >Una vez guardada la automatización, ya no puede cambiar la acción seleccionada en este campo.
+1. Continuar a [Completar la creación del formulario de solicitud](#complete-request-form-creation).
+
+
+</div>
+
+### Completar creación de formulario de solicitud
+
+1. Cree y configure el formulario como se describe en [Comience a crear un formulario de solicitud](#begin-creating-a-request-form) y [configure los detalles del formulario de solicitud](#set-up-details-for-the-request-form).
 1. (Opcional) Haga clic en el menú **Más** ![Menú más](assets/more-menu.png) que se encuentra a la derecha del nombre del formulario en el encabezado y, a continuación, haga clic en **Editar** para actualizar el nombre del formulario.
 
 1. Haga clic en **Publicar** para publicar el formulario y obtener un vínculo único para él.
@@ -280,6 +332,21 @@ Puede crear un formulario de solicitud a partir del tipo de registro asociado al
 1. Haga clic en la flecha que señala a la izquierda del nombre del formulario en el encabezado para cerrar el formulario.
 
    Se abre la vista de tabla **Formularios de solicitud** y se agrega el formulario.
+
+## Administrar formularios de solicitud existentes
+
+
+1. Haga clic en el espacio de trabajo donde desee administrar los formularios de solicitud.
+
+   El espacio de trabajo se abre y los tipos de registro se muestran como tarjetas.
+
+1. Haga clic en una tarjeta de tipo de registro. Para obtener información acerca de cómo crear un tipo de registro, consulte [Crear tipos de registros](/help/quicksilver/planning/architecture/create-record-types.md).
+
+   La página de tipo de registro se abre en la vista a la que se accedió por última vez. De forma predeterminada, se abre una página de tipo de registro en la vista de tabla.
+
+1. Haga clic en el menú **Más** ![Menú más](assets/more-menu.png) que se encuentra a la derecha del nombre del tipo de registro en el encabezado de la página y, a continuación, haga clic en **Administrar formularios de solicitud**.
+
+   Todos los formularios de solicitud asociados al tipo de registro se muestran en una vista de tabla.
 
 1. (Opcional) Pase el ratón sobre el nombre de un formulario de solicitud en la vista de tabla, luego haga clic en el menú **Más** ![Menú Más](assets/more-menu.png) a la derecha del nombre del formulario y haga clic en una de las siguientes opciones:
 

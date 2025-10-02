@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: df8c4926-e258-49c0-ab9d-563ccaf7a6aa
-source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
+source-git-commit: 793a856a963060cbade33a1c29f002cecf7f7e47
 workflow-type: tm+mt
-source-wordcount: '863'
-ht-degree: 26%
+source-wordcount: '864'
+ht-degree: 25%
 
 ---
 
@@ -30,7 +30,7 @@ También puede cambiar las entidades con las que comparte un formulario de solic
 
 ## Requisitos de acceso
 
-+++ Amplíe para ver los requisitos de acceso.
++++ Amplíe para ver los requisitos de acceso. 
 
 Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
@@ -117,7 +117,7 @@ Para cambiar el uso compartido de un formulario de solicitud:
 
 {{step1-to-planning}}
 
-1. Haga clic en el espacio de trabajo donde desee añadir registros.
+1. Haga clic en el área de trabajo donde desee compartir un formulario.
 
    El espacio de trabajo se abre y los tipos de registro se muestran como tarjetas.
 
