@@ -5,9 +5,9 @@ description: La función Project Health utiliza el poder del Asistente de IA par
 author: Jenny
 feature: Get Started with Workfront
 exl-id: e4d200c6-7f35-4919-96d3-2880a655ed62
-source-git-commit: 1b0d47178085b6d971342a6a77d3341776ef62e6
+source-git-commit: 81f2787a5a9dd4f3737f3494c824502fe4abe59d
 workflow-type: tm+mt
-source-wordcount: '1488'
+source-wordcount: '1487'
 ht-degree: 4%
 
 ---
@@ -128,7 +128,7 @@ A continuación se muestran las condiciones disponibles que el Asistente de inte
         <td> 
         <ul><li>Desviación del alcance</li>
         <li>Faltan campos</li>
-        <li>Programar cambios</li>
+        <li>Cambios en la programación</li>
         <li>Trabajo subestimado</li>
         <li>Progreso del proyecto</li>
         <li>Tareas vencidas</li>
@@ -141,7 +141,7 @@ A continuación se muestran las condiciones disponibles que el Asistente de inte
         <td>
         <ul><li>Desviación del alcance</li>
         <li>Faltan campos</li>
-        <li>Programar cambios</li>
+        <li>Cambios en la programación</li>
         <li>Trabajo subestimado</li>
         <li>Progreso del proyecto</li>
         <li>Tareas vencidas</li>
@@ -154,7 +154,7 @@ A continuación se muestran las condiciones disponibles que el Asistente de inte
         <td>
         <ul><li>Desviación del alcance</li>
         <li>Faltan campos</li>
-        <li>Programar cambios</li>
+        <li>Cambios en la programación</li>
         <li>Trabajo subestimado</li>
         <li>Progreso del proyecto</li>
         <li>Tareas vencidas</li>
@@ -178,7 +178,7 @@ Una configuración de mantenimiento del proyecto contiene criterios específicos
 
 1. En la esquina superior derecha de la página, seleccione **Nueva configuración**.
 
-1. (Opcional) En la página de detalles de las configuraciones, reemplace *Configuración sin título* por una nueva configuración **Name**.
+1. (Opcional) En la página de detalles de las configuraciones, reemplace *Configuración sin título* por una nueva configuración **Nombre**.
 
 1. En la sección **Qué factores desea incluir en el estado del proyecto**, anule la selección de cualquier factor que no desee incluir al determinar los criterios de estado del proyecto:
    * **Cambio de ámbito**: Cuánto se ha ampliado el ámbito del proyecto desde que se inició.
