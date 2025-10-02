@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 5b9b1f397c76afa2e2ae550e0ce62a6038b8bd86
+source-git-commit: fbf902196c9f5b55ddd1e20516e4237309dff2ed
 workflow-type: tm+mt
-source-wordcount: '2434'
-ht-degree: 36%
+source-wordcount: '2458'
+ht-degree: 35%
 
 ---
 
@@ -342,12 +342,12 @@ Todos los campos del registro conectado se muestran en la vista de tabla de la f
 
    * <span class="preview">Haga clic en **Conectar registros** en la esquina superior derecha de la página de registros conectada para conectar proyectos existentes.</span>
    * <span class="preview">Editar en línea la información del proyecto en la tabla.</span>
-   * <span class="preview">Haga clic en **Nueva fila** para crear un proyecto sin plantilla.</span>
+   * <span class="preview">Haga clic en **Nueva fila** para crear un proyecto sin plantilla. El nuevo proyecto está conectado inmediatamente al registro actual.</span>
 
      Para obtener más información, vea [Crear objetos de Workfront desde Workfront Planning a medida que los conecta a registros](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md)
    * <span class="preview">Pase el ratón sobre un proyecto y haga clic en el menú **Más** [Menú más](assets/more-menu.png); a continuación, haga clic en una de las siguientes opciones:</span>
       * <span class="preview">**Eliminar** para eliminar el proyecto. Al eliminar un proyecto, se desconecta del registro y se mueve a la papelera de reciclaje de Workfront. </span>
-      * <span class="preview">**Desconectar** para desconectar el proyecto del registro. Desconectando un proyecto</span>
+      * <span class="preview">**Desconectar** para desconectar el proyecto del registro. Al desconectar un proyecto, éste y todos los valores de sus campos de búsqueda se eliminan del registro actual. </span>
 
 1. (Opcional) Haga doble clic en el nombre de la ficha de la página Registros conectados
 

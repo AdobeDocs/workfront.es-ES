@@ -6,9 +6,9 @@ description: Puede editar las plantillas de proyecto para reflejar los cambios e
 author: Alina
 feature: Work Management
 exl-id: da0fca31-6a50-4862-ad9a-a453ef968773
-source-git-commit: 221113266624a94fbecd04af46a5c602a4d33334
+source-git-commit: fbf902196c9f5b55ddd1e20516e4237309dff2ed
 workflow-type: tm+mt
-source-wordcount: '5658'
+source-wordcount: '5655'
 ht-degree: 88%
 
 ---
@@ -652,8 +652,6 @@ Editing templates in bulk differs depending on which environment you are using.
 
 *****************and hide the first line below************ -->
 
-Para editar plantillas de forma masiva:
-
 {{step1-to-templates}}
 
 1. Seleccione varias plantillas en la lista.
@@ -671,12 +669,11 @@ Para editar plantillas de forma masiva:
 
    * Información general
    * Finanzas
-   * Portafolio
-   * Configuración
-   * Acceso
    * Formularios personalizados
-   * Tareas
-   * Problemas
+   * Configuración de plantillas
+   * Configuración de tarea
+   * Configuración de problema
+   * Acceso
    * Comentario
 
 1. Haga clic en **Guardar**.

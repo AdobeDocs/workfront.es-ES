@@ -8,7 +8,7 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: c1e2f374-576c-4f1c-b502-281e8ee9e7df
-source-git-commit: 5b9b1f397c76afa2e2ae550e0ce62a6038b8bd86
+source-git-commit: fbf902196c9f5b55ddd1e20516e4237309dff2ed
 workflow-type: tm+mt
 source-wordcount: '889'
 ht-degree: 53%
@@ -117,7 +117,8 @@ Para obtener más información sobre cómo asociar una ruta de hitos a un proyec
    </table>
 
 1. Haga clic en **Hitos** en el panel izquierdo.
-1.En el entorno Producción, haga clic en **Agregar hito** para agregar hitos a la ruta.
+
+1. En el entorno Producción, haga clic en **Agregar hito** para agregar hitos a la ruta.
    <span class="preview">En el entorno de vista previa, haga clic en **Nueva fila** para agregar hitos a la ruta de acceso.</span>
 1. Actualice la siguiente información:
 

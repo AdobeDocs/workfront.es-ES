@@ -6,7 +6,7 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 45b5be81-703c-45d5-a08c-60cb8ec5b103
-source-git-commit: 5b9b1f397c76afa2e2ae550e0ce62a6038b8bd86
+source-git-commit: fbf902196c9f5b55ddd1e20516e4237309dff2ed
 workflow-type: tm+mt
 source-wordcount: '1895'
 ht-degree: 42%
@@ -116,9 +116,13 @@ Para administrar una vista de calendario:
 1. Vaya a la página del tipo de registro cuyo calendario desea ver.
 1. Cree una vista de calendario, tal como se describe en el artículo [Administrar vistas de registros](/help/quicksilver/planning/views/manage-record-views.md).
 
+   <div class="preview">
+
    ![Ejemplo de vista de calendario](assets/calendar-view-example.png)
 
    Los registros asociados al tipo de registro seleccionado se muestran como barras en un calendario. El color de las barras coincide con el color del icono de registro de forma predeterminada.
+
+   </div>
 
 1. Realice una de las siguientes acciones para navegar por el calendario:
 

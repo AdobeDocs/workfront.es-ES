@@ -6,18 +6,20 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 441a53d1-ad39-41b7-93fe-2ae1836476c9
-source-git-commit: bfb0fd2956ffb9384a09882864668d5dba33a53b
+source-git-commit: fbf902196c9f5b55ddd1e20516e4237309dff2ed
 workflow-type: tm+mt
-source-wordcount: '356'
-ht-degree: 41%
+source-wordcount: '454'
+ht-degree: 35%
 
 ---
 
 # Duplicar vistas de registros
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--remove preview and production references-->
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después de las versiones mensuales en Production, las mismas funciones también están disponibles en el entorno Production para los clientes que habilitaron versiones rápidas. </span>
+
+<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 
 {{planning-important-intro}}
@@ -107,12 +109,11 @@ La duplicación de vistas es idéntica para todos los tipos de vistas en Workfro
    Se abre la página de tipo de registro.
 De forma predeterminada, todos los registros del tipo seleccionado se muestran en la vista de tabla.
 
-1. Pase el ratón sobre la pestaña de la vista que quiera duplicar y haga clic en el menú **Más** ![Menú más](assets/more-menu.png), a la derecha del nombre de la vista; a continuación, haga clic en **Duplicar**.
+1. Según el entorno que utilice, haga lo siguiente:
 
-   ![Menú Ver más en una vista de registro](assets/view-more-menu-with-duplicate-option.png)
+   * En el entorno Producción, pase el ratón sobre uno de los nombres de la vista en la pestaña Vista, luego haga clic en **Más** ![Menú más](assets/more-menu.png) a la izquierda del nombre de la vista y, a continuación, haga clic en **Duplicar**.
+   * <span class="preview">En el entorno de vista previa, haz clic en el icono desplegable ![Icono desplegable](assets/drop-down-icon.png) junto al nombre de la vista actual, pasa el ratón sobre el nombre de una vista, haz clic en **Más** y luego en **Duplicado**.</span>
 
-   <!--at preview release, replace the step above with this one: 
-    1. Depending on which environment you use, do the following: 
-    * In the Production environment, hover over one the of the view's names in the view tab, then click **More** ![More menu](assets/more-menu.png) to the left of the view name, then click **Duplicate**. 
-    * <span class="preview">In the Preview environment, click the dropdown icon ![Dropdown icon](assets/drop-down-icon.png) next to the current view name, hover over the name of a view, click **More**, then **Duplicate**.</span>-->
-   La vista está duplicada y el nombre de la nueva vista sigue el siguiente patrón: `Original view's name (Copy)`. La nueva ficha de vista se muestra al final de todas las fichas de vista.
+     ![Menú más a la vista con opciones](assets/more-menu-for-views-expanded-with-delete-option.png)
+
+     La vista está duplicada y el nombre de la nueva vista sigue el siguiente patrón: `Original view's name (Copy)`. La nueva ficha de vista se muestra al final de todas las fichas de vista.

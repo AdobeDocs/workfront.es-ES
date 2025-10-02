@@ -6,19 +6,21 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 673dd888-3135-48b0-8198-c8d6d6706ddf
-source-git-commit: a92c85ad5f58700138d7750423cc3d134d980a9e
+source-git-commit: fbf902196c9f5b55ddd1e20516e4237309dff2ed
 workflow-type: tm+mt
-source-wordcount: '1869'
-ht-degree: 45%
+source-wordcount: '1971'
+ht-degree: 43%
 
 ---
 
 
 # Compartir vistas
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--take out preview and production references at production-->
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después de las versiones mensuales en Production, las mismas funciones también están disponibles en el entorno Production para los clientes que habilitaron versiones rápidas. </span>
+
+<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -38,7 +40,7 @@ This article describes how you can share a view with others. For information abo
 
 ## Requisitos de acceso
 
-+++ Amplíe para ver los requisitos de acceso.
++++ Amplíe para ver los requisitos de acceso. 
 
 <!--at GA, check that the Workfront plans article linked below has Planning info-->
 
@@ -141,9 +143,13 @@ Puede compartir las vistas que ha creado o las vistas en las que tiene permiso d
 
    Se abre la página de tipo de registro.
 
-1. En la pestaña Ver, realice una de las siguientes acciones:
+1. En la pestaña de la vista, realice una de las siguientes acciones:
 
-   * Pase el ratón sobre el nombre de la ficha de la vista que quiera compartir y haga clic en el menú **Más** ![Menú más](assets/more-menu.png) que se encuentra a la derecha del nombre de la vista; a continuación, haga clic en **Compartir**.
+   * Según el entorno desde el que acceda a la vista, haga lo siguiente:
+
+      * En el entorno Producción, pase el ratón sobre el nombre de la ficha de la vista que quiera compartir y haga clic en el menú **Más** ![Más menú](assets/more-menu.png) a la derecha del nombre de la vista; a continuación, haga clic en **Compartir**.
+
+      * <span class="preview"> En el entorno de vista previa, haga clic en la ficha de la vista, pase el cursor sobre la vista en el menú desplegable, haga clic en el menú **Más** ![Menú más](assets/more-menu.png) y, a continuación, haga clic en **Compartir**.</span>
 
      ![Menú más para una vista](assets/more-menu-for-views-expanded-with-share-option.png)
 
@@ -272,10 +278,8 @@ Los usuarios que acceden a un vínculo a una vista para la que no tienen permiso
 1. (Condicional) Si es el administrador de una vista, es posible que otro usuario le solicite el acceso a la vista en las áreas siguientes:
 
    * Una notificación en la aplicación
-
      ![Notificación en la aplicación para solicitud de acceso de vista](assets/in-app-notification-for-access-request-for-view.png)
    * Una notificación por correo electrónico
-
      ![Notificación en la aplicación para solicitud de acceso de vista](assets/in-app-notification-for-access-request-for-view.png)
 1. (Condicional) En el área de notificación de Workfront, haga clic en la notificación dentro de la aplicación
 O

@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 5b9b1f397c76afa2e2ae550e0ce62a6038b8bd86
+source-git-commit: fbf902196c9f5b55ddd1e20516e4237309dff2ed
 workflow-type: tm+mt
-source-wordcount: '2756'
+source-wordcount: '2764'
 ht-degree: 11%
 
 ---
@@ -235,7 +235,7 @@ Para obtener más información, consulte [Crear registros](/help/quicksilver/pla
 
    <span class="preview">![Barra izquierda en la vista de escala de tiempo para cambiar el tamaño](assets/left-end-bar-handle-to-resize-timeline-view.png)</span>
 
-1. <span class="preview">Haga clic en una barra de registro y, a continuación, arrástrela y suéltela en otra posición para actualizar su escala de tiempo y fechas. Las fechas de inicio y finalización del registro se actualizan automáticamente.</span>
+1. <span class="preview">Haga clic y mantenga presionada una barra de registro y, a continuación, arrástrela y suéltela en otra posición para actualizar su escala de tiempo y fechas. Las fechas de inicio y finalización del registro se actualizan automáticamente.</span>
 
 1. Haga clic en la barra de un registro para abrir su área de detalles y editar todos los campos.
 
@@ -250,7 +250,7 @@ Para obtener más información, consulte [Crear registros](/help/quicksilver/pla
 
    <span class="preview">![Barra izquierda en la vista de calendario para cambiar el tamaño](assets/left-end-bar-handle-to-resize-calendar-monthly-view.png)</span>
 
-1. <span class="preview">Haga clic en una barra de registro y, a continuación, arrástrela y suéltela en otra posición para actualizar su escala de tiempo y fechas. Las fechas de inicio y finalización del registro se actualizan automáticamente.</span>
+1. <span class="preview">Haga clic y mantenga presionada una barra de registro y, a continuación, arrástrela y suéltela en otra posición para actualizar su escala de tiempo y fechas. Las fechas de inicio y finalización del registro se actualizan automáticamente.</span>
 
 1. Haga clic en la barra de un registro para abrir su área de detalles y editar todos los campos.
 
@@ -378,11 +378,11 @@ Para obtener más información, consulte [Administrar conexiones de registro des
 
 <div class="preview">
 
-## Editar información sobre campos de selección única o múltiple
+## Editar la configuración de campos de selección única o múltiple al actualizar sus valores
 
 <!--some of this information is also available in Edit fields article - update both when necessary-->
 
-Al editar información en un campo de selección única o múltiple, puede agregar nuevas opciones al campo, sin tener que editarlo.
+Cuando se actualiza la información en un campo de selección única o múltiple, se pueden agregar nuevas opciones al campo sin tener que editarlo.
 
 >[!IMPORTANT]
 >

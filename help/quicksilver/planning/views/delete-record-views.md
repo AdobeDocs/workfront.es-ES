@@ -6,18 +6,18 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: f86971bc-e807-459e-9fa8-dc34967bc069
-source-git-commit: bfb0fd2956ffb9384a09882864668d5dba33a53b
+source-git-commit: fbf902196c9f5b55ddd1e20516e4237309dff2ed
 workflow-type: tm+mt
-source-wordcount: '312'
-ht-degree: 32%
+source-wordcount: '422'
+ht-degree: 27%
 
 ---
 
 # Eliminar vistas de registros
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después de las versiones mensuales en Production, las mismas funciones también están disponibles en el entorno Production para los clientes que habilitaron versiones rápidas. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 
 {{planning-important-intro}}
@@ -104,18 +104,20 @@ La vista se elimina para todos los usuarios que tienen permisos para acceder a e
 
    De forma predeterminada, todos los registros del tipo seleccionado se muestran en la vista de tabla.
 
-1. Pase el ratón sobre uno de los nombres de la vista en la pestaña de la vista, luego haga clic en **Más** ![Menú más](assets/more-menu.png) a la izquierda del nombre de la vista y luego haga clic en **Eliminar**.
 
-   ![Menú Ver más en una vista de registro](assets/view-more-menu-with-duplicate-option.png)
+1. En la pestaña de la vista, realice una de las siguientes acciones:
 
-   >[!TIP]
-   >
-   >Es posible que tenga que hacer clic en **Más** a la derecha de la última pestaña para encontrar la vista que desea eliminar.
+   * Según el entorno desde el que acceda a la vista, haga lo siguiente:
 
-   <!--at preview release, replace the step above with this one: 
-    1. Depending on which environment you use, do the following: 
-    * In the Production environment, hover over one the of the view's names in the view tab, then click **More** ![More menu](assets/more-menu.png) to the left of the view name, then click **Delete**. 
-    * <span class="preview">In the Preview environment, click the dropdown icon ![Dropdown icon](assets/drop-down-icon.png) next to the current view name, hover over the name of a view, click **More**, then **Delete**.</span>-->
+      * En el entorno Producción, pase el ratón sobre el nombre de la ficha de la vista que quiera compartir y haga clic en el menú **Más** ![Más menú](assets/more-menu.png) a la derecha del nombre de la vista; a continuación, haga clic en **Eliminar**.
+
+     >[!TIP]
+     >
+     >Es posible que tenga que hacer clic en **Más** a la derecha de la última pestaña para encontrar la vista que desea eliminar.
+
+      * <span class="preview"> En el entorno de vista previa, haga clic en la ficha de la vista, pase el cursor sobre la vista en el menú desplegable, haga clic en el menú **Más** ![Menú más](assets/more-menu.png) y, a continuación, haga clic en **Eliminar**.</span>
+
+     ![Menú más con opciones](assets/more-menu-for-views-expanded-with-delete-option.png)
 
 1. Haga clic en **Eliminar** para confirmar. <!--ensure there is not another saving step here?!-->
 
