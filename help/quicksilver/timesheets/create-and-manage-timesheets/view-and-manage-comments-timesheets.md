@@ -6,10 +6,10 @@ description: Puede realizar comentarios en las plantillas de horas, los elemento
 author: Alina
 feature: Timesheets
 exl-id: 6260d176-3cfb-4bc2-93cb-00687e030248
-source-git-commit: c53e7d2229032c59710a8f955de53cfbd7fc6df4
+source-git-commit: 3b5452c51c19edfafc9244c2cfd58d7174732375
 workflow-type: tm+mt
-source-wordcount: '901'
-ht-degree: 19%
+source-wordcount: '920'
+ht-degree: 18%
 
 ---
 
@@ -27,7 +27,7 @@ Puede mostrar las actualizaciones desde una plantilla de horas o desde entradas 
 
 ## Requisitos de acceso
 
-+++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo. 
 
 Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
@@ -96,6 +96,10 @@ Puede realizar comentarios generales sobre la plantilla de horas. Comentar la pl
 1. Empiece a agregar nuevos comentarios o responda a los existentes, tal como se describe en [Trabajo de actualización](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 1. (Opcional) Agregue personas o equipos en el campo **Etiquetar personas o equipos** para incluir a otros en la actualización. Para obtener más información, consulte [Etiquetar a los usuarios en las actualizaciones](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
 1. (Opcional) Seleccione la opción **Privado para mi compañía** si desea que solamente personas de su compañía vean la actualización.
+
+   >[!TIP]
+   >
+   >La configuración de **Privado para mi compañía** solo está disponible cuando su perfil de Workfront está asociado con una compañía.
 1. Escriba su comentario y haga clic en **Enviar**.
 
    Su comentario se muestra en la sección [!UICONTROL Actualizaciones] de la hoja de horas, en la pestaña Comentarios.

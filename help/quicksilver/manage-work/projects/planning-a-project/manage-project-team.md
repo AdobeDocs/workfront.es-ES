@@ -7,10 +7,10 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: 6e8036fc-feda-4277-9502-0b973028fccb
-source-git-commit: a00776ecd9f8dc14b9dce14ce9463c2bb709a363
+source-git-commit: 3b5452c51c19edfafc9244c2cfd58d7174732375
 workflow-type: tm+mt
-source-wordcount: '1399'
-ht-degree: 37%
+source-wordcount: '1418'
+ht-degree: 36%
 
 ---
 
@@ -261,6 +261,10 @@ Para obtener más información sobre las notificaciones que se pueden habilitar 
    * Haga clic en **Etiquetar personas** para etiquetar a usuarios adicionales y recibir la misma actualización.
    * Seleccione la opción **Privado para mi compañía** de para que la actualización sea privada para los usuarios de su compañía.
    * Haga clic en **Enviar**.
+
+     >[!TIP]
+     >
+     >La configuración de **Privado para mi compañía** solo está disponible cuando su perfil de Workfront está asociado con una compañía.
 
    La actualización se agrega a la sección **Actualizaciones** del perfil de cada usuario etiquetado.
 

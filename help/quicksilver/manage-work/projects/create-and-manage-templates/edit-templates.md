@@ -6,9 +6,9 @@ description: Puede editar las plantillas de proyecto para reflejar los cambios e
 author: Alina
 feature: Work Management
 exl-id: da0fca31-6a50-4862-ad9a-a453ef968773
-source-git-commit: fbf902196c9f5b55ddd1e20516e4237309dff2ed
+source-git-commit: 3b5452c51c19edfafc9244c2cfd58d7174732375
 workflow-type: tm+mt
-source-wordcount: '5655'
+source-wordcount: '5674'
 ht-degree: 88%
 
 ---
@@ -640,6 +640,10 @@ For instructions on editing Linked folders, see [Edit workflow values in a proje
 
    ![Editar sección de comentarios del cuadro de plantilla](assets/edit-template-box-comment-section.png)
 1. Agregue un comentario sobre la actualización que está realizando, etiquete a usuarios adicionales o marque la casilla **Privado para mi empresa** para que la actualización sea privada para los usuarios de su empresa y luego haga clic en **Guardar**.
+
+   >[!TIP]
+   >
+   >La configuración de **Privado para mi compañía** solo está disponible cuando su perfil de Workfront está asociado con una compañía.
 
 ## Editar plantillas de forma masiva
 

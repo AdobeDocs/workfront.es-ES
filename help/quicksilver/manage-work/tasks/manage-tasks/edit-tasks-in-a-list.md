@@ -2,14 +2,14 @@
 product-area: projects
 navigation-topic: manage-tasks
 title: Edición de tareas en una lista
-description: Puede editar la información de las tareas en una lista de tareas editando los campos mostrados en la lista.
+description: Puede editar la información de las tareas en una lista de tareas editando los campos mostrados en la lista. Debe definir el modo de planificación en una lista de tareas para indicar cómo desea que se guarden los cambios en Workfront. Puede guardar los cambios de forma manual o automática.
 author: Alina
 feature: Work Management
 exl-id: 2af81907-3657-459e-b780-65983e224ca8
-source-git-commit: 42243c1f09b9d7eaa6705a0722fd3650bbc95266
+source-git-commit: 3b5452c51c19edfafc9244c2cfd58d7174732375
 workflow-type: tm+mt
-source-wordcount: '2756'
-ht-degree: 75%
+source-wordcount: '2822'
+ht-degree: 70%
 
 ---
 
@@ -50,7 +50,7 @@ Puede editar la información de las tareas en una lista de tareas editando los c
 
 Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-+++
++++ 
 
 ## Consideraciones sobre la edición de tareas en una lista {#considerations-about-editing-tasks-in-a-list}
 
@@ -84,15 +84,20 @@ Tenga en cuenta lo siguiente al editar tareas en una lista:
      >
      >De forma predeterminada, Workfront guarda automáticamente los cambios realizados en las tareas en la sección Subtareas o en un informe de tareas.
 
-* Puede controlar cuándo Workfront guarda los cambios realizados en las tareas de una lista. Los cambios se pueden guardar automáticamente o puede guardarlos manualmente.
+* Puede controlar cuándo Workfront guarda los cambios realizados en las tareas de una lista definiendo el modo de planificación antes de empezar a editar las tareas.
 
-  Para obtener información acerca de cómo configurar cuándo Workfront guarda los cambios realizados en las tareas de una lista, consulte la sección [Seleccionar una opción de guardado al editar tareas en una lista](#select-a-save-option-when-editing-tasks-in-a-list) de este artículo.
+  Puede decidir si Workfront guarda los cambios que realiza de la siguiente manera:
+
+      * Automáticamente, después de cada cambio
+     * Manualmente, solo después de hacer clic en Guardar.
+  
+  Para obtener información acerca de cómo configurar cuándo Workfront guarda los cambios realizados en las tareas de una lista, consulte la sección [Modificar modo de plan antes de editar las tareas de una lista](#modify-plan-mode-before-editing-tasks-in-a-list) en este artículo.
 
 * Otros usuarios deben actualizar sus páginas para poder ver las actualizaciones que realice en una tarea.
 
-## Seleccione una opción de guardado al editar tareas en una lista {#select-a-save-option-when-editing-tasks-in-a-list}
+## Modificar el modo de planificación antes de editar tareas en una lista
 
-Puede decidir si los cambios realizados en las tareas de una lista se guardan automáticamente a medida que se producen o si desea guardar manualmente cada cambio.
+Puede decidir si los cambios realizados en las tareas de una lista se guardan automáticamente a medida que se producen o si desea guardar manualmente cada cambio. Para ello, debe modificar el modo de planificación en una lista de tareas antes de editar las tareas.
 
 >[!IMPORTANT]
 >
@@ -100,17 +105,17 @@ Puede decidir si los cambios realizados en las tareas de una lista se guardan au
 
 Al guardar los cambios en una lista para un proyecto que tiene seleccionada la opción Automático o Automático y al cambiar como Tipo de actualización, Workfront actualiza la cronología del proyecto, junto con todas las dependencias dentro del proyecto y entre proyectos. Los cálculos de cronología pueden llevar mucho tiempo si el proyecto es grande o si hay muchas dependencias. Algunos métodos de edición de una lista de tareas pueden ser más rápidos que otros, según el método que seleccione para guardar los cambios.
 
-Puede controlar cuándo Workfront guarda los cambios realizados en las tareas de una lista. Se dan los siguientes escenarios: 
+Puede controlar cuándo Workfront guarda los cambios realizados en las tareas de una lista. Se dan los siguientes escenarios:
 
 * Puede hacer que Workfront guarde automáticamente los cambios después de cada actualización.
 
-  Para obtener más información, consulte la sección [Editar tareas en una lista y guardar automáticamente los cambios](#edit-tasks-in-a-list-and-automatically-save-changes) en este artículo.
+  Para obtener más información, consulte la sección [Definir el modo de planificación para guardar automáticamente los cambios](#set-the-plan-mode-to-automatically-save-changes) en este artículo.
 
 * Puede controlar cuándo se aplican varios cambios a la vez manualmente con un botón Guardar.
 
-  Para obtener más información, consulte la sección [Editar tareas en una lista y guardar manualmente los cambios](#edit-tasks-in-a-list-and-manually-save-changes) en este artículo.
+  Para obtener más información, consulte la sección [Configurar el modo de planificación para guardar manualmente los cambios](#set-the-plan-mode-to-manually-save-changes) en este artículo.
 
-### Editar tareas en una lista y guardar automáticamente los cambios {#edit-tasks-in-a-list-and-automatically-save-changes}
+### Configure el modo de planificación para guardar automáticamente los cambios
 
 >[!TIP]
 >
@@ -192,7 +197,7 @@ Para editar tareas en una lista y guardar cambios automáticamente:
     </tbody> 
    </table>
 
-### Editar tareas en una lista y guardar cambios manualmente {#edit-tasks-in-a-list-and-manually-save-changes}
+### Configure el modo de planificación para guardar los cambios manualmente {#edit-tasks-in-a-list-and-manually-save-changes}
 
 Puede guardar manualmente los cambios realizados en las tareas de una lista. Al guardar los cambios de esta forma, tiene la flexibilidad de revertirlos antes de guardarlos.
 
@@ -239,7 +244,7 @@ Para editar tareas de una lista al seleccionar la opción estándar Guardar de f
 
 1. En el panel izquierdo, haga clic en la sección **Tareas**.
 
-1. Haga clic en el icono **Modo de plan** ![Icono de modo de plan](assets/plan-mode-icon.png) en la parte superior de la lista.
+1. Haga clic en el icono **Modo de plan** ![Modo de plan](assets/plan-mode-icon.png) en la parte superior de la lista.
 
 1. En el cuadro de diálogo **Modo de plan**, seleccione **Guardar de forma manual** y, a continuación, haga clic en **Estándar**.
 
@@ -327,7 +332,7 @@ Para editar tareas en una lista al utilizar la opción Guardar planificación de
 
 1. En el panel izquierdo, haga clic en la sección **Tareas**.
 
-1. Haga clic en el icono **Modo de plan** ![Icono de modo de plan](assets/plan-mode-icon.png) en la parte superior de la lista.
+1. Haga clic en el icono **Modo de plan** ![Modo de plan](assets/plan-mode-icon.png) en la parte superior de la lista.
 
 1. En el cuadro de diálogo **Modo de planificación**, seleccione **Guardar de forma manual** y, a continuación, haga clic en **Planificación de la cronología**.
 
@@ -347,7 +352,7 @@ Para editar tareas en una lista al utilizar la opción Guardar planificación de
       * Nombre de la tarea
       * Tipo de restricción
       * Duración
-      * Fecha planificada de inicio
+      * Fecha de inicio planificada
       * Fecha planificada de finalización
       * Predecesoras
       * Asignaciones
