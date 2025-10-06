@@ -7,7 +7,7 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 572c6008-3a67-47ae-8f5d-6b871ef1f37b
-source-git-commit: 3b5452c51c19edfafc9244c2cfd58d7174732375
+source-git-commit: ea0ae13abe9373bef7a1d146ca1951c8c383f994
 workflow-type: tm+mt
 source-wordcount: '3829'
 ht-degree: 95%
@@ -633,9 +633,10 @@ Puede definir formularios personalizados predeterminados que se adjuntarán auto
    * Agregue usuarios o equipos a su actualización en el área de **Etiquetar personas** o use @ para incluirlos en su actualización.
    * Seleccione la casilla de verificación **Privado para mi compañía** para que la actualización siga siendo privada para los usuarios de su compañía.
 
-     >[!TIP]
-     >
-     >La configuración de **Privado para mi compañía** solo está disponible cuando su perfil de Workfront está asociado con una compañía.
+   >[!TIP]
+   >
+   >La configuración de **Privado para mi compañía** solo está disponible cuando su perfil de Workfront está asociado con una compañía.
+
 1. Haga clic en **Guardar**.
 
 ## Editar una tarea en el encabezado de la tarea (limitada)
