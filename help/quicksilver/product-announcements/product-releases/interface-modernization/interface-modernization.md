@@ -5,7 +5,7 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: f75f44c3c5ea4c281c0c9fe916ea8261d3500fb0
+source-git-commit: 2d7022eae32d3266966ef6f424b1cff176622f86
 workflow-type: tm+mt
 source-wordcount: '8402'
 ht-degree: 2%
@@ -240,7 +240,7 @@ Para obtener más información, consulte [Anular tarifas de facturación de rol 
 
 ### Actualizaciones de interfaz para una lista de proyectos o un informe al aplicar la vista de Hito
 
-**Versión de vista previa: 2 de octubre de 2025; versión de producción: a partir del 9 de octubre de 2025**
+**Versión de vista previa: 2 de octubre de 2025; versión de producción: a partir del 6 de octubre de 2025**
 
 Hemos actualizado el aspecto de una lista de proyectos o un informe al aplicarles la vista Hito.
 
