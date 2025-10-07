@@ -4,10 +4,11 @@ description: Mejoras en la integración del cuarto trimestre de 2024
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: f5db7d32242ca11bf9e13dcd49b7e93369c03cab
+exl-id: 1559312e-2e51-4075-b9a9-923211abd125
+source-git-commit: f5044d457ebf203269e8007075e98ba4c136660f
 workflow-type: tm+mt
-source-wordcount: '136'
-ht-degree: 0%
+source-wordcount: '127'
+ht-degree: 100%
 
 ---
 
@@ -21,8 +22,6 @@ Para obtener una lista de todos los cambios disponibles en este punto del ciclo 
 
 >[!NOTE]
 >
->Versión preliminar: 6 de agosto de 2024; versión de producción: 6 de agosto de 2024
+>Versión de vista previa: 6 de agosto de 2024; versión de producción: 6 de agosto de 2024
 
 La experiencia de inicio de sesión para la integración con Outlook se ha optimizado para que todos los clientes vean el mismo botón para iniciar sesión en Workfront, independientemente de si están habilitados para IMS o no. Los pasos de inicio de sesión siguientes siguen siendo diferentes para las instancias de IMS y no de IMS, pero la página inicial es la misma para todos los usuarios.
-
-Para obtener más información, consulte [Configurar Adobe Workfront para Outlook](/help/quicksilver/workfront-integrations-and-apps/using-workfront-with-outlook/set-up-workfront-for-outlook.md).

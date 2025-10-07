@@ -6,10 +6,10 @@ description: En Adobe Workfront, el trabajo planificado se representa mediante p
 author: Alina
 feature: Work Management
 exl-id: 8b023a3d-326d-4d63-9e1e-8171553a9e23
-source-git-commit: 70f6200fc94bc923c651d614dfd0aba68ceda334
+source-git-commit: f5044d457ebf203269e8007075e98ba4c136660f
 workflow-type: tm+mt
-source-wordcount: '2840'
-ht-degree: 77%
+source-wordcount: '2790'
+ht-degree: 76%
 
 ---
 
@@ -369,12 +369,6 @@ El texto del cuerpo del correo electrónico se añade como descripción de la so
 >El formato de HTML se elimina cuando la solicitud entra en Workfront, pero las firmas y el contenido del hilo Responder a existente no se eliminan y aparecen en la descripción de la solicitud.
 
 Para obtener información acerca de cómo habilitar una cola de solicitudes para recibir solicitudes por correo electrónico, consulte [Permitir que los usuarios envíen un problema por correo electrónico a un proyecto de cola de solicitudes](../../../manage-work/requests/create-requests/enable-email-issues-into-projects.md).
-
-## Creación de solicitudes con el cliente de Outlook
-
-Puede enviar solicitudes utilizando el cliente de Outlook. Puede crear una nueva solicitud o convertir un correo electrónico en una solicitud.
-
-Para obtener información sobre cómo enviar solicitudes con el cliente de Outlook, consulte el artículo [Creación de una solicitud de Adobe Workfront a partir de un correo electrónico de Outlook](../../../workfront-integrations-and-apps/using-workfront-with-outlook/create-a-wf-request-from-an-outlook-email.md).
 
 ## Creación de solicitudes con la aplicación móvil de Workfront
 
