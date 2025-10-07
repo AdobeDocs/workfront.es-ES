@@ -7,10 +7,10 @@ description: Esta página contiene información sobre la estructura y el conteni
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 57985404-554e-4289-b871-b02d3427aa5c
-source-git-commit: 5a7f61b9b5237e282c1a61fb49b85533497836e3
+source-git-commit: 8df633f7f0946f81d6e81578a3d47719f6d8975e
 workflow-type: tm+mt
-source-wordcount: '8114'
-ht-degree: 7%
+source-wordcount: '8733'
+ht-degree: 10%
 
 ---
 
@@ -22,23 +22,23 @@ Esta página contiene información sobre la estructura y el contenido de los dat
 >
 >Los datos de Data Connect se actualizan cada cuatro horas, por lo que es posible que los cambios recientes no se reflejen inmediatamente.
 
-## Tipos de tabla
+## Tipos de vista
 
-Existen varios tipos de tablas que puede utilizar en Data Connect para ver los datos de Workfront de una manera que le proporcione la mayor cantidad de insight.
+Existen varios tipos de vistas que puede utilizar en Data Connect para ver los datos de Workfront de una manera que le proporcione la mayor cantidad de insight.
 
-* **Tabla actual**
+* **Vista actual**
 
-  La tabla Actual refleja los datos de forma similar a como existe en Workfront, cada objeto y su estado actual. Sin embargo, se puede navegar con una latencia mucho menor que dentro de Workfront.
+  La vista Actual refleja los datos de forma similar a como existe en Workfront, cada objeto y su estado actual. Sin embargo, se puede navegar con una latencia mucho menor que dentro de Workfront.
 
-* **Tabla de eventos**
+* **Vista de eventos**
 
-  La tabla Evento rastrea cada registro de cambios en Workfront: es decir, cada vez que un objeto cambia de estado, se crea un registro que muestra cuándo se produjo el cambio, quién lo hizo y qué se cambió. Por lo tanto, esta tabla es útil para comparaciones puntuales. Esta tabla sólo incluye registros de los últimos tres años.
+  La vista Evento rastrea cada registro de cambios en Workfront: es decir, cada vez que un objeto cambia de estado, se crea un registro que muestra cuándo se produjo el cambio, quién lo hizo y qué se cambió. Por lo tanto, esta vista es útil para comparaciones puntuales. Esta vista solo incluye registros de los últimos tres años.
 
-* **Tabla de historial diario**
+* **Vista de historial diario**
 
-  La tabla Historial diario ofrece una versión abreviada de la tabla Evento, ya que muestra el estado de cada objeto diariamente en lugar de cuando se produjo cada evento individual. Como tal, esta tabla es útil para el análisis de tendencias.
+  La vista Historial diario ofrece una versión abreviada de la vista Evento, ya que muestra el estado de cada objeto diariamente en lugar de cuando se produjo cada evento individual. Como tal, esta vista es útil para el análisis de tendencias.
 
-<!-- Custom table -->
+<!-- Custom view -->
 
 ## Diagrama de relación de entidad
 
@@ -48,20 +48,25 @@ Los objetos de Workfront (y, por lo tanto, de su repositorio de datos de Data Co
 
 >[!IMPORTANT]
 >
->El diagrama de relación de entidades es un trabajo en curso; como tal, es solo para fines de referencia y está sujeto a cambios.
+>El diagrama de relación de entidades es un trabajo en curso. Como tal, es solo para fines de referencia y está sujeto a cambios.
 
 ## Tipos de fecha
 
 Existen varios objetos de fecha que proporcionan información sobre cuándo se producen eventos específicos.
 
 * `DL_LOAD_TIMESTAMP`: esta fecha se actualiza una vez que se ha completado correctamente una actualización de datos e incluye la marca de tiempo de cuándo comenzó el trabajo de actualización que proporcionó la última versión de un registro.
-* `CALENDAR_DATE`: esta fecha solo está presente en la tabla Historial diario. Esta tabla proporciona un registro del aspecto de los datos a las 11:59 UTC para cada fecha especificada en `CALENDAR_DATE`.
-* `BEGIN_EFFECTIVE_TIMESTAMP`: esta fecha está presente en las tablas Evento e Historial diario y registra exactamente cuándo un registro cambió _a_ el valor que tiene en la fila actual.
-* `END_EFFECTIVE_TIMESTAMP`: esta fecha está presente en las tablas Evento e Historial diario y registra exactamente cuándo un registro cambió _de_ el valor de la fila actual a un valor de una fila diferente. Para permitir el intervalo entre consultas en `BEGIN_EFFECTIVE_TIMESTAMP` y `END_EFFECTIVE_TIMESTAMP`, este valor nunca es nulo, aunque no haya ningún valor nuevo. En el caso de que un registro siga siendo válido (es decir, el valor no haya cambiado), `END_EFFECTIVE_TIMESTAMP` tendrá el valor 2300-01-01.
+* `CALENDAR_DATE`: esta fecha solo está presente en la vista Historial diario. La vista Historial diario proporciona un registro del aspecto de los datos a las 11:59 UTC para cada fecha especificada en `CALENDAR_DATE`.
+* `BEGIN_EFFECTIVE_TIMESTAMP`: esta fecha está presente en las vistas Evento e Historial diario y representa la hora en que un registro se convierte en el valor actual en la aplicación.
+* `END_EFFECTIVE_TIMESTAMP`: esta fecha está presente en las vistas Evento e Historial diario y registra exactamente cuándo un registro cambió _de_ el valor de la fila actual a un valor de una fila diferente. Para permitir el intervalo entre consultas en `BEGIN_EFFECTIVE_TIMESTAMP` y `END_EFFECTIVE_TIMESTAMP`, este valor nunca es nulo, aunque no haya ningún valor nuevo. En el caso de que un registro siga siendo válido (es decir, el valor no haya cambiado), `END_EFFECTIVE_TIMESTAMP` tendrá el valor 2300-01-01.
 
 ## Tabla de terminología
 
-La siguiente tabla correlaciona los nombres de objetos en Workfront (así como sus nombres en la interfaz y la API) con sus nombres equivalentes en Data Connect.
+La siguiente tabla correlaciona los nombres de objeto en Workfront (así como sus nombres en la interfaz y la API) con sus nombres equivalentes en Data Connect, e incluye campos de referencia para cada objeto con otros objetos de Workfront.
+
+>[!NOTE]
+>
+>Se pueden añadir nuevos campos a las vistas de objetos sin previo aviso para satisfacer las cambiantes necesidades de datos de la aplicación de Workfront. Advertimos que no se deben utilizar consultas &quot;SELECT&quot; en las que el destinatario de datos descendente no esté preparado para gestionar columnas adicionales a medida que se agregan.<br>
+>>Si es necesario cambiar el nombre de una columna o eliminarla, notificaremos estos cambios con antelación.
 
 ### Nivel de acceso
 
@@ -70,7 +75,7 @@ La siguiente tabla correlaciona los nombres de objetos en Workfront (así como s
         <tr>
             <th>Nombre de entidad de Workfront</th>
             <th>Referencias de interfaz</th>
-            <th>Referencia de API</th>
+            <th>Referencia de la API</th>
             <th>Etiqueta de API</th>
             <th>Vistas del lago de datos</th>
         </tr>
@@ -138,7 +143,7 @@ La siguiente tabla correlaciona los nombres de objetos en Workfront (así como s
         <tr>
             <th>Nombre de entidad de Workfront</th>
             <th>Referencias de interfaz</th>
-            <th>Referencia de API</th>
+            <th>Referencia de la API</th>
             <th>Etiqueta de API</th>
             <th>Vistas del lago de datos</th>
         </tr>
@@ -208,7 +213,7 @@ La siguiente tabla correlaciona los nombres de objetos en Workfront (así como s
         <tr>
             <th>Nombre de entidad de Workfront</th>
             <th>Referencias de interfaz</th>
-            <th>Referencia de API</th>
+            <th>Referencia de la API</th>
             <th>Etiqueta de API</th>
             <th>Vistas del lago de datos</th>
         </tr>
@@ -277,7 +282,7 @@ La siguiente tabla correlaciona los nombres de objetos en Workfront (así como s
         <tr>
             <th>Nombre de entidad de Workfront</th>
             <th>Referencias de interfaz</th>
-            <th>Referencia de API</th>
+            <th>Referencia de la API</th>
             <th>Etiqueta de API</th>
             <th>Vistas del lago de datos</th>
         </tr>
@@ -335,7 +340,7 @@ La siguiente tabla correlaciona los nombres de objetos en Workfront (así como s
         <tr>
             <th>Nombre de entidad de Workfront</th>
             <th>Referencias de interfaz</th>
-            <th>Referencia de API</th>
+            <th>Referencia de la API</th>
             <th>Etiqueta de API</th>
             <th>Vistas del lago de datos</th>
         </tr>
@@ -387,7 +392,7 @@ La siguiente tabla correlaciona los nombres de objetos en Workfront (así como s
         <tr>
             <th>Nombre de entidad de Workfront</th>
             <th>Referencias de interfaz</th>
-            <th>Referencia de API</th>
+            <th>Referencia de la API</th>
             <th>Etiqueta de API</th>
             <th>Vistas del lago de datos</th>
         </tr>
@@ -499,7 +504,7 @@ La siguiente tabla correlaciona los nombres de objetos en Workfront (así como s
         <tr>
             <th>Nombre de entidad de Workfront</th>
             <th>Referencias de interfaz</th>
-            <th>Referencia de API</th>
+            <th>Referencia de la API</th>
             <th>Etiqueta de API</th>
             <th>Vistas del lago de datos</th>
         </tr>
@@ -554,6 +559,12 @@ La siguiente tabla correlaciona los nombres de objetos en Workfront (así como s
              <td>CLASSIFIER_CURRENT</td>
              <td>CLASSIFIERID</td>
         </tr>
+      <tr>
+             <td>LASTUPDATEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
         <tr>
              <td>OPTASKID</td>
              <td>FK</td>
@@ -600,7 +611,7 @@ La siguiente tabla correlaciona los nombres de objetos en Workfront (así como s
         <tr>
             <th>Nombre de entidad de Workfront</th>
             <th>Referencias de interfaz</th>
-            <th>Referencia de API</th>
+            <th>Referencia de la API</th>
             <th>Etiqueta de API</th>
             <th>Vistas del lago de datos</th>
         </tr>
@@ -723,7 +734,7 @@ La siguiente tabla correlaciona los nombres de objetos en Workfront (así como s
         <tr>
             <th>Nombre de entidad de Workfront</th>
             <th>Referencias de interfaz</th>
-            <th>Referencia de API</th>
+            <th>Referencia de la API</th>
             <th>Etiqueta de API</th>
             <th>Vistas del lago de datos</th>
         </tr>
@@ -781,7 +792,7 @@ La siguiente tabla correlaciona los nombres de objetos en Workfront (así como s
         <tr>
             <th>Nombre de entidad de Workfront</th>
             <th>Referencias de interfaz</th>
-            <th>Referencia de API</th>
+            <th>Referencia de la API</th>
             <th>Etiqueta de API</th>
             <th>Vistas del lago de datos</th>
         </tr>
@@ -851,7 +862,7 @@ La siguiente tabla correlaciona los nombres de objetos en Workfront (así como s
         <tr>
             <th>Nombre de entidad de Workfront</th>
             <th>Referencias de interfaz</th>
-            <th>Referencia de API</th>
+            <th>Referencia de la API</th>
             <th>Etiqueta de API</th>
             <th>Vistas del lago de datos</th>
         </tr>
@@ -969,7 +980,7 @@ La siguiente tabla correlaciona los nombres de objetos en Workfront (así como s
         <tr>
             <th>Nombre de entidad de Workfront</th>
             <th>Referencias de interfaz</th>
-            <th>Referencia de API</th>
+            <th>Referencia de la API</th>
             <th>Etiqueta de API</th>
             <th>Vistas del lago de datos</th>
         </tr>
@@ -1044,7 +1055,7 @@ La siguiente tabla correlaciona los nombres de objetos en Workfront (así como s
         <tr>
             <th>Nombre de entidad de Workfront</th>
             <th>Referencias de interfaz</th>
-            <th>Referencia de API</th>
+            <th>Referencia de la API</th>
             <th>Etiqueta de API</th>
             <th>Vistas del lago de datos</th>
         </tr>
@@ -1150,7 +1161,7 @@ La siguiente tabla correlaciona los nombres de objetos en Workfront (así como s
         <tr>
             <th>Nombre de entidad de Workfront</th>
             <th>Referencias de interfaz</th>
-            <th>Referencia de API</th>
+            <th>Referencia de la API</th>
             <th>Etiqueta de API</th>
             <th>Vistas del lago de datos</th>
         </tr>
@@ -1220,7 +1231,7 @@ La siguiente tabla correlaciona los nombres de objetos en Workfront (así como s
         <tr>
             <th>Nombre de entidad de Workfront</th>
             <th>Referencias de interfaz</th>
-            <th>Referencia de API</th>
+            <th>Referencia de la API</th>
             <th>Etiqueta de API</th>
             <th>Vistas del lago de datos</th>
         </tr>
@@ -1278,7 +1289,7 @@ La siguiente tabla correlaciona los nombres de objetos en Workfront (así como s
         <tr>
             <th>Nombre de entidad de Workfront</th>
             <th>Referencias de interfaz</th>
-            <th>Referencia de API</th>
+            <th>Referencia de la API</th>
             <th>Etiqueta de API</th>
             <th>Vistas del lago de datos</th>
         </tr>
@@ -1342,7 +1353,7 @@ La siguiente tabla correlaciona los nombres de objetos en Workfront (así como s
         <tr>
             <th>Nombre de entidad de Workfront</th>
             <th>Referencias de interfaz</th>
-            <th>Referencia de API</th>
+            <th>Referencia de la API</th>
             <th>Etiqueta de API</th>
             <th>Vistas del lago de datos</th>
         </tr>
@@ -1406,7 +1417,7 @@ La siguiente tabla correlaciona los nombres de objetos en Workfront (así como s
         <tr>
             <th>Nombre de entidad de Workfront</th>
             <th>Referencias de interfaz</th>
-            <th>Referencia de API</th>
+            <th>Referencia de la API</th>
             <th>Etiqueta de API</th>
             <th>Vistas del lago de datos</th>
         </tr>
@@ -1470,7 +1481,7 @@ La siguiente tabla correlaciona los nombres de objetos en Workfront (así como s
         <tr>
             <th>Nombre de entidad de Workfront</th>
             <th>Referencias de interfaz</th>
-            <th>Referencia de API</th>
+            <th>Referencia de la API</th>
             <th>Etiqueta de API</th>
             <th>Vistas del lago de datos</th>
         </tr>
@@ -1546,7 +1557,7 @@ La siguiente tabla correlaciona los nombres de objetos en Workfront (así como s
         <tr>
             <th>Nombre de entidad de Workfront</th>
             <th>Referencias de interfaz</th>
-            <th>Referencia de API</th>
+            <th>Referencia de la API</th>
             <th>Etiqueta de API</th>
             <th>Vistas del lago de datos</th>
         </tr>
@@ -1592,7 +1603,7 @@ La siguiente tabla correlaciona los nombres de objetos en Workfront (así como s
         <tr>
             <th>Nombre de entidad de Workfront</th>
             <th>Referencias de interfaz</th>
-            <th>Referencia de API</th>
+            <th>Referencia de la API</th>
             <th>Etiqueta de API</th>
             <th>Vistas del lago de datos</th>
         </tr>
@@ -1667,7 +1678,7 @@ La siguiente tabla correlaciona los nombres de objetos en Workfront (así como s
         <tr>
             <th>Nombre de entidad de Workfront</th>
             <th>Referencias de interfaz</th>
-            <th>Referencia de API</th>
+            <th>Referencia de la API</th>
             <th>Etiqueta de API</th>
             <th>Vistas del lago de datos</th>
         </tr>
@@ -1831,7 +1842,7 @@ La siguiente tabla correlaciona los nombres de objetos en Workfront (así como s
         <tr>
             <th>Nombre de entidad de Workfront</th>
             <th>Referencias de interfaz</th>
-            <th>Referencia de API</th>
+            <th>Referencia de la API</th>
             <th>Etiqueta de API</th>
             <th>Vistas del lago de datos</th>
         </tr>
@@ -1903,7 +1914,7 @@ Disponibilidad limitada del cliente
         <tr>
             <th>Nombre de entidad de Workfront</th>
             <th>Referencias de interfaz</th>
-            <th>Referencia de API</th>
+            <th>Referencia de la API</th>
             <th>Etiqueta de API</th>
             <th>Vistas del lago de datos</th>
         </tr>
@@ -1974,7 +1985,7 @@ Disponibilidad limitada del cliente
         <tr>
             <th>Nombre de entidad de Workfront</th>
             <th>Referencias de interfaz</th>
-            <th>Referencia de API</th>
+            <th>Referencia de la API</th>
             <th>Etiqueta de API</th>
             <th>Vistas del lago de datos</th>
         </tr>
@@ -2035,7 +2046,7 @@ Disponibilidad limitada del cliente
         <tr>
             <th>Nombre de entidad de Workfront</th>
             <th>Referencias de interfaz</th>
-            <th>Referencia de API</th>
+            <th>Referencia de la API</th>
             <th>Etiqueta de API</th>
             <th>Vistas del lago de datos</th>
         </tr>
@@ -2130,7 +2141,7 @@ Disponibilidad limitada del cliente
         <tr>
             <th>Nombre de entidad de Workfront</th>
             <th>Referencias de interfaz</th>
-            <th>Referencia de API</th>
+            <th>Referencia de la API</th>
             <th>Etiqueta de API</th>
             <th>Vistas del lago de datos</th>
         </tr>
@@ -2248,7 +2259,7 @@ Disponibilidad limitada del cliente
         <tr>
             <th>Nombre de entidad de Workfront</th>
             <th>Referencias de interfaz</th>
-            <th>Referencia de API</th>
+            <th>Referencia de la API</th>
             <th>Etiqueta de API</th>
             <th>Vistas del lago de datos</th>
         </tr>
@@ -2294,7 +2305,7 @@ Disponibilidad limitada del cliente
         <tr>
             <th>Nombre de entidad de Workfront</th>
             <th>Referencias de interfaz</th>
-            <th>Referencia de API</th>
+            <th>Referencia de la API</th>
             <th>Etiqueta de API</th>
             <th>Vistas del lago de datos</th>
         </tr>
@@ -2352,7 +2363,7 @@ Disponibilidad limitada del cliente
         <tr>
             <th>Nombre de entidad de Workfront</th>
             <th>Referencias de interfaz</th>
-            <th>Referencia de API</th>
+            <th>Referencia de la API</th>
             <th>Etiqueta de API</th>
             <th>Vistas del lago de datos</th>
         </tr>
@@ -2398,7 +2409,7 @@ Disponibilidad limitada del cliente
         <tr>
             <th>Nombre de entidad de Workfront</th>
             <th>Referencias de interfaz</th>
-            <th>Referencia de API</th>
+            <th>Referencia de la API</th>
             <th>Etiqueta de API</th>
             <th>Vistas del lago de datos</th>
         </tr>
@@ -2495,7 +2506,7 @@ Disponibilidad limitada del cliente
         <tr>
             <th>Nombre de entidad de Workfront</th>
             <th>Referencias de interfaz</th>
-            <th>Referencia de API</th>
+            <th>Referencia de la API</th>
             <th>Etiqueta de API</th>
             <th>Vistas del lago de datos</th>
         </tr>
@@ -2553,7 +2564,7 @@ Disponibilidad limitada del cliente
         <tr>
             <th>Nombre de entidad de Workfront</th>
             <th>Referencias de interfaz</th>
-            <th>Referencia de API</th>
+            <th>Referencia de la API</th>
             <th>Etiqueta de API</th>
             <th>Vistas del lago de datos</th>
         </tr>
@@ -2671,7 +2682,7 @@ Disponibilidad limitada del cliente
         <tr>
             <th>Nombre de entidad de Workfront</th>
             <th>Referencias de interfaz</th>
-            <th>Referencia de API</th>
+            <th>Referencia de la API</th>
             <th>Etiqueta de API</th>
             <th>Vistas del lago de datos</th>
         </tr>
@@ -2728,7 +2739,7 @@ Disponibilidad limitada del cliente
         <tr>
             <th>Nombre de entidad de Workfront</th>
             <th>Referencias de interfaz</th>
-            <th>Referencia de API</th>
+            <th>Referencia de la API</th>
             <th>Etiqueta de API</th>
             <th>Vistas del lago de datos</th>
         </tr>
@@ -2815,7 +2826,7 @@ Disponibilidad limitada del cliente
         <tr>
             <th>Nombre de entidad de Workfront</th>
             <th>Referencias de interfaz</th>
-            <th>Referencia de API</th>
+            <th>Referencia de la API</th>
             <th>Etiqueta de API</th>
             <th>Vistas del lago de datos</th>
         </tr>
@@ -2955,7 +2966,7 @@ Self</td>
         <tr>
             <th>Nombre de entidad de Workfront</th>
             <th>Referencias de interfaz</th>
-            <th>Referencia de API</th>
+            <th>Referencia de la API</th>
             <th>Etiqueta de API</th>
             <th>Vistas del lago de datos</th>
         </tr>
@@ -3012,7 +3023,7 @@ Self</td>
         <tr>
             <th>Nombre de entidad de Workfront</th>
             <th>Referencias de interfaz</th>
-            <th>Referencia de API</th>
+            <th>Referencia de la API</th>
             <th>Etiqueta de API</th>
             <th>Vistas del lago de datos</th>
         </tr>
@@ -3088,7 +3099,7 @@ Self</td>
         <tr>
             <th>Nombre de entidad de Workfront</th>
             <th>Referencias de interfaz</th>
-            <th>Referencia de API</th>
+            <th>Referencia de la API</th>
             <th>Etiqueta de API</th>
             <th>Vistas del lago de datos</th>
         </tr>
@@ -3274,7 +3285,7 @@ Self</td>
         <tr>
             <th>Nombre de entidad de Workfront</th>
             <th>Referencias de interfaz</th>
-            <th>Referencia de API</th>
+            <th>Referencia de la API</th>
             <th>Etiqueta de API</th>
             <th>Vistas del lago de datos</th>
         </tr>
@@ -3343,7 +3354,7 @@ Self</td>
         <tr>
             <th>Nombre de entidad de Workfront</th>
             <th>Referencias de interfaz</th>
-            <th>Referencia de API</th>
+            <th>Referencia de la API</th>
             <th>Etiqueta de API</th>
             <th>Vistas del lago de datos</th>
         </tr>
@@ -3401,7 +3412,7 @@ Self</td>
         <tr>
             <th>Nombre de entidad de Workfront</th>
             <th>Referencias de interfaz</th>
-            <th>Referencia de API</th>
+            <th>Referencia de la API</th>
             <th>Etiqueta de API</th>
             <th>Vistas del lago de datos</th>
         </tr>
@@ -3459,7 +3470,7 @@ Self</td>
         <tr>
             <th>Nombre de entidad de Workfront</th>
             <th>Referencias de interfaz</th>
-            <th>Referencia de API</th>
+            <th>Referencia de la API</th>
             <th>Etiqueta de API</th>
             <th>Vistas del lago de datos</th>
         </tr>
@@ -3535,7 +3546,7 @@ Self</td>
         <tr>
             <th>Nombre de entidad de Workfront</th>
             <th>Referencias de interfaz</th>
-            <th>Referencia de API</th>
+            <th>Referencia de la API</th>
             <th>Etiqueta de API</th>
             <th>Vistas del lago de datos</th>
         </tr>
@@ -3611,7 +3622,7 @@ Self</td>
         <tr>
             <th>Nombre de entidad de Workfront</th>
             <th>Referencias de interfaz</th>
-            <th>Referencia de API</th>
+            <th>Referencia de la API</th>
             <th>Etiqueta de API</th>
             <th>Vistas del lago de datos</th>
         </tr>
@@ -3675,7 +3686,7 @@ Self</td>
         <tr>
             <th>Nombre de entidad de Workfront</th>
             <th>Referencias de interfaz</th>
-            <th>Referencia de API</th>
+            <th>Referencia de la API</th>
             <th>Etiqueta de API</th>
             <th>Vistas del lago de datos</th>
         </tr>
@@ -3882,7 +3893,6 @@ Self</td>
         </tr>
 
 
-    &lt;/tbody>
 </table>
 
 ### Integración de objetos
@@ -3892,7 +3902,7 @@ Self</td>
         <tr>
             <th>Nombre de entidad de Workfront</th>
             <th>Referencias de interfaz</th>
-            <th>Referencia de API</th>
+            <th>Referencia de la API</th>
             <th>Etiqueta de API</th>
             <th>Vistas del lago de datos</th>
         </tr>
@@ -3941,7 +3951,6 @@ Self</td>
              <td colspan="2">No es una relación; se utiliza con fines de aplicación interna</td>
         </tr>
 
-    &lt;/tbody>
 </table>
 
 ### Categoría de objetos
@@ -3951,7 +3960,7 @@ Self</td>
         <tr>
             <th>Nombre de entidad de Workfront</th>
             <th>Referencias de interfaz</th>
-            <th>Referencia de API</th>
+            <th>Referencia de la API</th>
             <th>Etiqueta de API</th>
             <th>Vistas del lago de datos</th>
         </tr>
@@ -4009,7 +4018,7 @@ Self</td>
         <tr>
             <th>Nombre de entidad de Workfront</th>
             <th>Referencias de interfaz</th>
-            <th>Referencia de API</th>
+            <th>Referencia de la API</th>
             <th>Etiqueta de API</th>
             <th>Vistas del lago de datos</th>
         </tr>
@@ -4196,7 +4205,7 @@ Self</td>
         <tr>
             <th>Nombre de entidad de Workfront</th>
             <th>Referencias de interfaz</th>
-            <th>Referencia de API</th>
+            <th>Referencia de la API</th>
             <th>Etiqueta de API</th>
             <th>Vistas del lago de datos</th>
         </tr>
@@ -4253,7 +4262,7 @@ Self</td>
         <tr>
             <th>Nombre de entidad de Workfront</th>
             <th>Referencias de interfaz</th>
-            <th>Referencia de API</th>
+            <th>Referencia de la API</th>
             <th>Etiqueta de API</th>
             <th>Vistas del lago de datos</th>
         </tr>
@@ -4305,7 +4314,7 @@ Self</td>
         <tr>
             <th>Nombre de entidad de Workfront</th>
             <th>Referencias de interfaz</th>
-            <th>Referencia de API</th>
+            <th>Referencia de la API</th>
             <th>Etiqueta de API</th>
             <th>Vistas del lago de datos</th>
         </tr>
@@ -4357,7 +4366,7 @@ Self</td>
         <tr>
             <th>Nombre de entidad de Workfront</th>
             <th>Referencias de interfaz</th>
-            <th>Referencia de API</th>
+            <th>Referencia de la API</th>
             <th>Etiqueta de API</th>
             <th>Vistas del lago de datos</th>
         </tr>
@@ -4479,7 +4488,7 @@ Self</td>
         <tr>
             <th>Nombre de entidad de Workfront</th>
             <th>Referencias de interfaz</th>
-            <th>Referencia de API</th>
+            <th>Referencia de la API</th>
             <th>Etiqueta de API</th>
             <th>Vistas del lago de datos</th>
         </tr>
@@ -4547,7 +4556,7 @@ Self</td>
         <tr>
             <th>Nombre de entidad de Workfront</th>
             <th>Referencias de interfaz</th>
-            <th>Referencia de API</th>
+            <th>Referencia de la API</th>
             <th>Etiqueta de API</th>
             <th>Vistas del lago de datos</th>
         </tr>
@@ -4621,7 +4630,7 @@ Self</td>
         <tr>
             <th>Nombre de entidad de Workfront</th>
             <th>Referencias de interfaz</th>
-            <th>Referencia de API</th>
+            <th>Referencia de la API</th>
             <th>Etiqueta de API</th>
             <th>Vistas del lago de datos</th>
         </tr>
@@ -4679,7 +4688,7 @@ Self</td>
         <tr>
             <th>Nombre de entidad de Workfront</th>
             <th>Referencias de interfaz</th>
-            <th>Referencia de API</th>
+            <th>Referencia de la API</th>
             <th>Etiqueta de API</th>
             <th>Vistas del lago de datos</th>
         </tr>
@@ -4760,7 +4769,7 @@ Self</td>
         <tr>
             <th>Nombre de entidad de Workfront</th>
             <th>Referencias de interfaz</th>
-            <th>Referencia de API</th>
+            <th>Referencia de la API</th>
             <th>Etiqueta de API</th>
             <th>Vistas del lago de datos</th>
         </tr>
@@ -4811,7 +4820,7 @@ Self</td>
         <tr>
             <th>Nombre de entidad de Workfront</th>
             <th>Referencias de interfaz</th>
-            <th>Referencia de API</th>
+            <th>Referencia de la API</th>
             <th>Etiqueta de API</th>
             <th>Vistas del lago de datos</th>
         </tr>
@@ -4893,7 +4902,7 @@ Self</td>
         <tr>
             <th>Nombre de entidad de Workfront</th>
             <th>Referencias de interfaz</th>
-            <th>Referencia de API</th>
+            <th>Referencia de la API</th>
             <th>Etiqueta de API</th>
             <th>Vistas del lago de datos</th>
         </tr>
@@ -5109,7 +5118,7 @@ Self</td>
         <tr>
             <th>Nombre de entidad de Workfront</th>
             <th>Referencias de interfaz</th>
-            <th>Referencia de API</th>
+            <th>Referencia de la API</th>
             <th>Etiqueta de API</th>
             <th>Vistas del lago de datos</th>
         </tr>
@@ -5172,7 +5181,7 @@ Self</td>
         <tr>
             <th>Nombre de entidad de Workfront</th>
             <th>Referencias de interfaz</th>
-            <th>Referencia de API</th>
+            <th>Referencia de la API</th>
             <th>Etiqueta de API</th>
             <th>Vistas del lago de datos</th>
         </tr>
@@ -5236,7 +5245,7 @@ Self</td>
         <tr>
             <th>Nombre de entidad de Workfront</th>
             <th>Referencias de interfaz</th>
-            <th>Referencia de API</th>
+            <th>Referencia de la API</th>
             <th>Etiqueta de API</th>
             <th>Vistas del lago de datos</th>
         </tr>
@@ -5303,7 +5312,6 @@ Self</td>
              <td colspan="2">No es una relación; se utiliza con fines de aplicación interna</td>
         </tr>
 
-    &lt;/tbody>
 </table>
 
 ### Carpeta de informe
@@ -5313,7 +5321,7 @@ Self</td>
         <tr>
             <th>Nombre de entidad de Workfront</th>
             <th>Referencias de interfaz</th>
-            <th>Referencia de API</th>
+            <th>Referencia de la API</th>
             <th>Etiqueta de API</th>
             <th>Vistas del lago de datos</th>
         </tr>
@@ -5359,7 +5367,7 @@ Self</td>
         <tr>
             <th>Nombre de entidad de Workfront</th>
             <th>Referencias de interfaz</th>
-            <th>Referencia de API</th>
+            <th>Referencia de la API</th>
             <th>Etiqueta de API</th>
             <th>Vistas del lago de datos</th>
         </tr>
@@ -5411,7 +5419,7 @@ Self</td>
         <tr>
             <th>Nombre de entidad de Workfront</th>
             <th>Referencias de interfaz</th>
-            <th>Referencia de API</th>
+            <th>Referencia de la API</th>
             <th>Etiqueta de API</th>
             <th>Vistas del lago de datos</th>
         </tr>
@@ -5475,7 +5483,7 @@ Self</td>
         <tr>
             <th>Nombre de entidad de Workfront</th>
             <th>Referencias de interfaz</th>
-            <th>Referencia de API</th>
+            <th>Referencia de la API</th>
             <th>Etiqueta de API</th>
             <th>Vistas del lago de datos</th>
         </tr>
@@ -5533,7 +5541,7 @@ Self</td>
         <tr>
             <th>Nombre de entidad de Workfront</th>
             <th>Referencias de interfaz</th>
-            <th>Referencia de API</th>
+            <th>Referencia de la API</th>
             <th>Etiqueta de API</th>
             <th>Vistas del lago de datos</th>
         </tr>
@@ -5597,7 +5605,7 @@ Self</td>
         <tr>
             <th>Nombre de entidad de Workfront</th>
             <th>Referencias de interfaz</th>
-            <th>Referencia de API</th>
+            <th>Referencia de la API</th>
             <th>Etiqueta de API</th>
             <th>Vistas del lago de datos</th>
         </tr>
@@ -5655,7 +5663,7 @@ Self</td>
         <tr>
             <th>Nombre de entidad de Workfront</th>
             <th>Referencias de interfaz</th>
-            <th>Referencia de API</th>
+            <th>Referencia de la API</th>
             <th>Etiqueta de API</th>
             <th>Vistas del lago de datos</th>
         </tr>
@@ -5701,7 +5709,7 @@ Self</td>
         <tr>
             <th>Nombre de entidad de Workfront</th>
             <th>Referencias de interfaz</th>
-            <th>Referencia de API</th>
+            <th>Referencia de la API</th>
             <th>Etiqueta de API</th>
             <th>Vistas del lago de datos</th>
         </tr>
@@ -5752,7 +5760,7 @@ Self</td>
         <tr>
             <th>Nombre de entidad de Workfront</th>
             <th>Referencias de interfaz</th>
-            <th>Referencia de API</th>
+            <th>Referencia de la API</th>
             <th>Etiqueta de API</th>
             <th>Vistas del lago de datos</th>
         </tr>
@@ -5834,7 +5842,7 @@ Self</td>
         <tr>
             <th>Nombre de entidad de Workfront</th>
             <th>Referencias de interfaz</th>
-            <th>Referencia de API</th>
+            <th>Referencia de la API</th>
             <th>Etiqueta de API</th>
             <th>Vistas del lago de datos</th>
         </tr>
@@ -5880,7 +5888,7 @@ Self</td>
         <tr>
             <th>Nombre de entidad de Workfront</th>
             <th>Referencias de interfaz</th>
-            <th>Referencia de API</th>
+            <th>Referencia de la API</th>
             <th>Etiqueta de API</th>
             <th>Vistas del lago de datos</th>
         </tr>
@@ -5949,7 +5957,7 @@ Self</td>
         <tr>
             <th>Nombre de entidad de Workfront</th>
             <th>Referencias de interfaz</th>
-            <th>Referencia de API</th>
+            <th>Referencia de la API</th>
             <th>Etiqueta de API</th>
             <th>Vistas del lago de datos</th>
         </tr>
@@ -6006,6 +6014,178 @@ Self</td>
     </tbody>
 </table>
 
+### Plan de asignación de personal
+
+Disponibilidad limitada del cliente
+
+<table>
+    <thead>
+        <tr>
+            <th>Nombre de entidad de Workfront</th>
+            <th>Referencias de interfaz</th>
+            <th>Referencia de la API</th>
+            <th>Etiqueta de API</th>
+            <th>Vistas del lago de datos</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Plan de asignación de personal</td>
+            <td>Plan de asignación de personal</td>
+            <td>STAFFP</td>
+            <td>Plan de asignación de personal</td>
+            <td>STAFFING_PLAN_CURRENT<br>STAFFING_PLAN_DAILY_HISTORY<br>STAFFING_PLAN_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Clave principal/externa</th>
+            <th>Tipo</th>
+            <th>Tabla relacionada</th>
+            <th>Campo relacionado</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>ATTACHEDRATECARDID</td>
+             <td>FK</td>
+             <td>RATECARD_CURRENT</td>
+             <td>RATECARDID</td>
+        </tr>
+        <tr>
+             <td>CATEGORYID</td>
+             <td>FK</td>
+             <td>CATEGORIES_CURRENT </td>
+             <td>CATEGORYID</td>
+        </tr>
+        <tr>
+             <td>COMPANYID</td>
+             <td>FK</td>
+             <td>COMPANIES_CURRENT</td>
+             <td>COMPANYID</td>
+        </tr>        
+        <tr>
+             <td>GROUPID</td>
+             <td>FK</td>
+             <td>GROUPS_CURRENT</td>
+             <td>GROUPID</td>
+        </tr>        
+        <tr>
+             <td>LASTUPDATEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>        
+        <tr>
+             <td>OWNERID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>       
+         <tr>
+             <td>PRIVATERATECARDID</td>
+             <td>FK</td>
+             <td>RATECARD_CURRENT</td>
+             <td>RATECARDID
+</td>
+        </tr>        
+        <tr>
+             <td>SCHEDULEID</td>
+             <td>FK</td>
+             <td>SCHEDULES_CURRENT</td>
+             <td>SCHEDULEID
+</td>
+        </tr>        
+        <tr>
+             <td>STAFFINGPLANID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+    </tbody>
+</table>
+
+### Recurso del plan de asignación de personal
+
+Disponibilidad limitada del cliente
+
+<table>
+    <thead>
+        <tr>
+            <th>Nombre de entidad de Workfront</th>
+            <th>Referencias de interfaz</th>
+            <th>Referencia de la API</th>
+            <th>Etiqueta de API</th>
+            <th>Vistas del lago de datos</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Recurso del plan de asignación de personal</td>
+            <td>Recurso del plan de asignación de personal</td>
+            <td>PERSONAL</td>
+            <td>Recurso del plan de asignación de personal</td>
+            <td>STAFFING_PLAN_RESOURCE_CURRENT<br>STAFFING_PLAN_RESOURCE_DAILY_HISTORY<br>STAFFING_PLAN_RESOURCE_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Clave principal/externa</th>
+            <th>Tipo</th>
+            <th>Tabla relacionada</th>
+            <th>Campo relacionado</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>ASSIGNEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>ASSIGNEDTOID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>CATEGORYID</td>
+             <td>FK</td>
+             <td>CATEGORIES_CURRENT</td>
+             <td>CATEGORYID</td>
+        </tr>        
+        <tr>
+             <td>LASTUPDATEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>        
+        <tr>
+             <td>ROLEID</td>
+             <td>FK</td>
+             <td>ROLES_ACTUALES</td>
+             <td>ROLEID</td>
+        </tr>        
+        <tr>
+             <td>STAFFINGPLANID</td>
+             <td>FK</td>
+             <td>STAFFING_PLAN_CURRENT</td>
+             <td>STAFFINGPLANID</td>
+        </tr>       
+         <tr>
+             <td>STAFFINGPLANRESOURCEID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>        
+    </tbody>
+</table>
+
 ### Aprobador de paso
 
 <table>
@@ -6013,7 +6193,7 @@ Self</td>
         <tr>
             <th>Nombre de entidad de Workfront</th>
             <th>Referencias de interfaz</th>
-            <th>Referencia de API</th>
+            <th>Referencia de la API</th>
             <th>Etiqueta de API</th>
             <th>Vistas del lago de datos</th>
         </tr>
@@ -6083,7 +6263,7 @@ Self</td>
         <tr>
             <th>Nombre de entidad de Workfront</th>
             <th>Referencias de interfaz</th>
-            <th>Referencia de API</th>
+            <th>Referencia de la API</th>
             <th>Etiqueta de API</th>
             <th>Vistas del lago de datos</th>
         </tr>
@@ -6277,7 +6457,7 @@ Self</td>
         <tr>
             <th>Nombre de entidad de Workfront</th>
             <th>Referencias de interfaz</th>
-            <th>Referencia de API</th>
+            <th>Referencia de la API</th>
             <th>Etiqueta de API</th>
             <th>Vistas del lago de datos</th>
         </tr>
@@ -6335,7 +6515,7 @@ Self</td>
         <tr>
             <th>Nombre de entidad de Workfront</th>
             <th>Referencias de interfaz</th>
-            <th>Referencia de API</th>
+            <th>Referencia de la API</th>
             <th>Etiqueta de API</th>
             <th>Vistas del lago de datos</th>
         </tr>
@@ -6428,7 +6608,7 @@ Self</td>
         <tr>
             <th>Nombre de entidad de Workfront</th>
             <th>Referencias de interfaz</th>
-            <th>Referencia de API</th>
+            <th>Referencia de la API</th>
             <th>Etiqueta de API</th>
             <th>Vistas del lago de datos</th>
         </tr>
@@ -6486,7 +6666,7 @@ Self</td>
         <tr>
             <th>Nombre de entidad de Workfront</th>
             <th>Referencias de interfaz</th>
-            <th>Referencia de API</th>
+            <th>Referencia de la API</th>
             <th>Etiqueta de API</th>
             <th>Vistas del lago de datos</th>
         </tr>
@@ -6550,7 +6730,7 @@ Self</td>
         <tr>
             <th>Nombre de entidad de Workfront</th>
             <th>Referencias de interfaz</th>
-            <th>Referencia de API</th>
+            <th>Referencia de la API</th>
             <th>Etiqueta de API</th>
             <th>Vistas del lago de datos</th>
         </tr>
@@ -6684,7 +6864,7 @@ Self</td>
         <tr>
             <th>Nombre de entidad de Workfront</th>
             <th>Referencias de interfaz</th>
-            <th>Referencia de API</th>
+            <th>Referencia de la API</th>
             <th>Etiqueta de API</th>
             <th>Vistas del lago de datos</th>
         </tr>
@@ -6777,7 +6957,7 @@ Self</td>
         <tr>
             <th>Nombre de entidad de Workfront</th>
             <th>Referencias de interfaz</th>
-            <th>Referencia de API</th>
+            <th>Referencia de la API</th>
             <th>Etiqueta de API</th>
             <th>Vistas del lago de datos</th>
         </tr>
@@ -6905,7 +7085,7 @@ Self</td>
         <tr>
             <th>Nombre de entidad de Workfront</th>
             <th>Referencias de interfaz</th>
-            <th>Referencia de API</th>
+            <th>Referencia de la API</th>
             <th>Etiqueta de API</th>
             <th>Vistas del lago de datos</th>
         </tr>
@@ -6956,6 +7136,146 @@ Self</td>
     </tbody>
 </table>
 
+### KPI de fase temporal combinado
+
+Disponibilidad limitada del cliente
+
+<table>
+    <thead>
+        <tr>
+            <th>Nombre de entidad de Workfront</th>
+            <th>Referencias de interfaz</th>
+            <th>Referencia de la API</th>
+            <th>Etiqueta de API</th>
+            <th>Vistas del lago de datos</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>KPI de fase temporal combinado</td>
+            <td>KPI de fase temporal</td>
+            <td>TMPH</td>
+            <td>TimePhasedKPI</td>
+            <td>TIMEPHASED_COMBINED_CURRENT<br>TIMEPHASED_COMBINED_DAILY_HISTORY<br>TIMEPHASED_COMBINED_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Clave principal/externa</th>
+            <th>Tipo</th>
+            <th>Tabla relacionada</th>
+            <th>Campo relacionado</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>ASSIGNMENTID</td>
+             <td>FK</td>
+             <td>ASSIGNMENTS_CURRENT</td>
+             <td>ASSIGNMENTID</td>
+        </tr>
+                <tr>
+             <td>EVENT_ID    </td>
+             <td>PK</td>
+             <td>Es una clave natural para la entrada de KPI de fase temporal</td>
+             <td>-</td>
+        </tr>
+                        <tr>
+             <td>GROUPID</td>
+             <td>FK</td>
+             <td>GROUPS_CURRENT</td>
+             <td>GROUPID</td>
+        </tr>
+                        <tr>
+             <td>LOCATIONID</td>
+             <td>FK</td>
+             <td>CLASSIFIER_CURRENT</td>
+             <td>CLASSIFIERID</td>
+        </tr>
+                        <tr>
+             <td>METADATAID</td>
+             <td>FK</td>
+             <td>No se ha proporcionado la tabla METADATA</td>
+             <td>-</td>
+        </tr>
+                        <tr>
+             <td>OPTASKID</td>
+             <td>FK</td>
+             <td>OPTASKS_CURRENT</td>
+             <td>OPTASKID</td>
+        </tr>
+                        <tr>
+             <td>PORTAFOLIOIDE</td>
+             <td>FK</td>
+             <td>PORTFOLIOS_CURRENT</td>
+             <td>PORTAFOLIOIDE</td>
+        </tr>
+                        <tr>
+             <td>PROGRAMID</td>
+             <td>FK</td>
+             <td>PROGRAMS_CURRENT</td>
+             <td>PROGRAMID</td>
+        </tr>
+                        <tr>
+             <td>PROJECTID</td>
+             <td>FK</td>
+             <td>PROJECTS_CURRENT</td>
+             <td>PROJECTID</td>
+        </tr>
+                        <tr>
+             <td>REFERENCEID</td>
+             <td>FK</td>
+             <td>Variable basada en OBJCODE</td>
+             <td>La clave principal/ID del objeto identificado en el campo OBJCODE
+</td>
+        </tr>
+                        <tr>
+             <td>ROLEID</td>
+             <td>FK</td>
+             <td>ROLES_ACTUALES</td>
+             <td>ROLEID</td>
+        </tr>
+                        <tr>
+             <td>SCHEMAID</td>
+             <td>FK</td>
+             <td>No se ha proporcionado la tabla SCHEMA; el valor de esta tabla se proporciona en la columna SCHEMANAME. SCHEMANAME identifica el KPI (por ejemplo, plannedHours, estimatedHours y actualHours) al que está conectado el registro.</td>
+             <td>-</td>
+        </tr>
+                                <tr>
+             <td>SOURCETASKID</td>
+             <td>FK</td>
+             <td>TASKS_CURRENT</td>
+             <td>TASKID</td>
+        </tr>
+                                <tr>
+             <td>STAFFINGPLANID</td>
+             <td>FK</td>
+             <td>STAFFING_PLAN_CURRENT</td>
+             <td>STAFFINGPLANID</td>
+        </tr>
+                                <tr>
+             <td>STAFFINGPLANRESOURCEID</td>
+             <td>FK</td>
+             <td>STAFFING_PLAN_RESOURCE_CURRENT</td>
+             <td>STAFFINGPLANRESOURCEID</td>
+        </tr>
+                                <tr>
+             <td>TASKID</td>
+             <td>FK</td>
+             <td>TASKS_CURRENT</td>
+             <td>TASKID</td>
+        </tr>
+                                <tr>
+             <td>USERID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+    </tbody>
+</table>
+
 ### Moneda de KPI de fase temporal
 
 Disponibilidad limitada del cliente
@@ -6965,7 +7285,7 @@ Disponibilidad limitada del cliente
         <tr>
             <th>Nombre de entidad de Workfront</th>
             <th>Referencias de interfaz</th>
-            <th>Referencia de API</th>
+            <th>Referencia de la API</th>
             <th>Etiqueta de API</th>
             <th>Vistas del lago de datos</th>
         </tr>
@@ -7008,6 +7328,12 @@ Disponibilidad limitada del cliente
              <td>CLASSIFIER_CURRENT</td>
              <td>CLASSIFIERID</td>
         </tr>
+                <tr>
+             <td>METADATAID</td>
+             <td>FK</td>
+             <td>No se ha proporcionado la tabla METADATA</td>
+             <td>-</td>
+        </tr>
         <tr>
              <td>OPTASKID</td>
              <td>FK</td>
@@ -7047,7 +7373,7 @@ Disponibilidad limitada del cliente
         <tr>
              <td>SCHEMAID</td>
              <td>FK</td>
-             <td>Se añadirá en breve</td>
+             <td>No se ha proporcionado la tabla SCHEMA; el valor de esta tabla se proporciona en la columna SCHEMANAME. SCHEMANAME identifica el KPI (por ejemplo, plannedRevenueRate, plannedCostRate, actualRevenue, etc.) al que está conectado el registro.</td>
              <td>SCHEMAID</td>
         </tr>
         <tr>
@@ -7055,6 +7381,18 @@ Disponibilidad limitada del cliente
              <td>FK</td>
              <td>TASKS_CURRENT</td>
              <td>TASKID</td>
+        </tr>
+                <tr>
+             <td>STAFFINGPLANID</td>
+             <td>FK</td>
+             <td>STAFFING_PLAN_CURRENT</td>
+             <td>STAFFINGPLANID</td>
+        </tr>
+          <tr>
+             <td>STAFFINGPLANRESOURCEID</td>
+             <td>FK</td>
+             <td>STAFFING_PLAN_RESOURCE_CURRENT</td>
+             <td>STAFFINGPLANRESOURCEID</td>
         </tr>
         <tr>
              <td>SYSID</td>
@@ -7091,7 +7429,7 @@ Disponibilidad limitada del cliente
         <tr>
             <th>Nombre de entidad de Workfront</th>
             <th>Referencias de interfaz</th>
-            <th>Referencia de API</th>
+            <th>Referencia de la API</th>
             <th>Etiqueta de API</th>
             <th>Vistas del lago de datos</th>
         </tr>
@@ -7134,6 +7472,12 @@ Disponibilidad limitada del cliente
              <td>CLASSIFIER_CURRENT</td>
              <td>CLASSIFIERID</td>
         </tr>
+                <tr>
+             <td>METADATAID</td>
+             <td>FK</td>
+             <td>No se ha proporcionado la tabla METADATA</td>
+             <td>-</td>
+        </tr>
         <tr>
              <td>OPTASKID</td>
              <td>FK</td>
@@ -7173,7 +7517,7 @@ Disponibilidad limitada del cliente
         <tr>
              <td>SCHEMAID</td>
              <td>FK</td>
-             <td>Se añadirá en breve</td>
+             <td>No se ha proporcionado la tabla SCHEMA; el valor de esta tabla se proporciona en la columna SCHEMANAME. SCHEMANAME identifica el KPI (por ejemplo, plannedHours, estimatedHours y actualHours) al que está conectado el registro.</td>
              <td>SCHEMAID</td>
         </tr>
         <tr>
@@ -7181,6 +7525,18 @@ Disponibilidad limitada del cliente
              <td>FK</td>
              <td>TASKS_CURRENT</td>
              <td>TASKID</td>
+        </tr>
+                <tr>
+             <td>STAFFINGPLANID </td>
+             <td>FK</td>
+             <td>STAFFING_PLAN_CURRENT</td>
+             <td>STAFFINGPLANID</td>
+        </tr>
+           <tr>
+             <td>STAFFINGPLANRESOURCEID</td>
+             <td>FK</td>
+             <td>STAFFING_PLAN_RESOURCE_CURRENT</td>
+             <td>STAFFINGPLANRESOURCEID</td>
         </tr>
         <tr>
              <td>SYSID</td>
@@ -7208,6 +7564,151 @@ Disponibilidad limitada del cliente
     </tbody>
 </table>
 
+### Números KPI de fase temporal
+
+Disponibilidad limitada del cliente
+
+<table>
+    <thead>
+        <tr>
+            <th>Nombre de entidad de Workfront</th>
+            <th>Referencias de interfaz</th>
+            <th>Referencia de la API</th>
+            <th>Etiqueta de API</th>
+            <th>Vistas del lago de datos</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Números KPI de fase temporal</td>
+            <td>KPI de fase temporal</td>
+            <td>TMPH</td>
+            <td>TimePhasedKPI</td>
+            <td>TIMEPHASED_NUMBERS_CURRENT<br>TIMEPHASED_NUMBERS_DAILY_HISTORY<br>EVENTO_NÚMEROS_DE_FASE_TEMPORAL</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Clave principal/externa</th>
+            <th>Tipo</th>
+            <th>Tabla relacionada</th>
+            <th>Campo relacionado</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>ASSIGNMENTID</td>
+             <td>FK</td>
+             <td>ASSIGNMENTS_CURRENT</td>
+             <td>ASSIGNMENTID</td>
+        </tr>
+        <tr>
+             <td>EVENT_ID</td>
+             <td>PK</td>
+             <td>Es una clave natural para la entrada de KPI de fase temporal</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>GROUPID</td>
+             <td>FK</td>
+             <td>GROUPS_CURRENT</td>
+             <td>GROUPID</td>
+        </tr>
+        <tr>
+             <td>LOCATIONID</td>
+             <td>FK</td>
+             <td>CLASSIFIER_CURRENT</td>
+             <td>CLASSIFIERID</td>
+        </tr>
+        <tr>
+             <td>METADATAID</td>
+             <td>FK</td>
+             <td>No se ha proporcionado la tabla METADATA</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>OPTASKID</td>
+             <td>FK</td>
+             <td>OPTASKS_CURRENT</td>
+             <td>OPTASKID</td>
+        </tr>
+        <tr>
+             <td>PORTAFOLIOIDE</td>
+             <td>FK</td>
+             <td>PORTFOLIOS_CURRENT</td>
+             <td>PORTAFOLIOIDE</td>
+        </tr>
+                <tr>
+             <td>PROGRAMID</td>
+             <td>FK</td>
+             <td>PROGRAMS_CURRENT</td>
+             <td>PROGRAMID</td>
+        </tr>
+                <tr>
+             <td>PROJECTID</td>
+             <td>FK</td>
+             <td>PROJECTS_CURRENT</td>
+             <td>PROJECTID</td>
+        </tr>
+                <tr>
+             <td>REFERENCEID</td>
+             <td>FK</td>
+             <td>Variable basada en OBJCODE</td>
+             <td>La clave principal/ID del objeto identificado en el campo OBJCODE</td>
+        </tr>
+                <tr>
+             <td>ROLEID</td>
+             <td>FK</td>
+             <td>ROLES_ACTUALES</td>
+             <td>ROLEID</td>
+        </tr>
+                <tr>
+             <td>SCHEMAID</td>
+             <td>FK</td>
+             <td>No se ha proporcionado la tabla SCHEMA; el valor de esta tabla se proporciona en la columna SCHEMANAME. SCHEMANAME identifica el KPI (por ejemplo, plannedHours, estimatedHours y actualHours) al que está conectado el registro.</td>
+             <td>-</td>
+        </tr>
+                <tr>
+             <td>SOURCETASKID</td>
+             <td>FK</td>
+             <td>TASKS_CURRENT</td>
+             <td>TASKID</td>
+        </tr>
+                <tr>
+             <td>STAFFINGPLANID</td>
+             <td>FK</td>
+             <td>STAFFING_PLAN_CURRENT</td>
+             <td>STAFFINGPLANID</td>
+        </tr>
+                <tr>
+             <td>STAFFINGPLANRESOURCEID</td>
+             <td>FK</td>
+             <td>STAFFING_PLAN_RESOURCE_CURRENT</td>
+             <td>STAFFINGPLANRESOURCEID</td>
+        </tr>
+                <tr>
+             <td>TASKID</td>
+             <td>FK</td>
+             <td>TASKS_CURRENT</td>
+             <td>TASKID</td>
+        </tr>
+                <tr>
+             <td>TIMEPHASEDNUMBERSID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+                <tr>
+             <td>USERID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+    </tbody>
+</table>
+
 ### Plantilla de horas
 
 <table>
@@ -7215,7 +7716,7 @@ Disponibilidad limitada del cliente
         <tr>
             <th>Nombre de entidad de Workfront</th>
             <th>Referencias de interfaz</th>
-            <th>Referencia de API</th>
+            <th>Referencia de la API</th>
             <th>Etiqueta de API</th>
             <th>Vistas del lago de datos</th>
         </tr>
@@ -7291,7 +7792,7 @@ Disponibilidad limitada del cliente
         <tr>
             <th>Nombre de entidad de Workfront</th>
             <th>Referencias de interfaz</th>
-            <th>Referencia de API</th>
+            <th>Referencia de la API</th>
             <th>Etiqueta de API</th>
             <th>Vistas del lago de datos</th>
         </tr>
@@ -7355,7 +7856,7 @@ Disponibilidad limitada del cliente
         <tr>
             <th>Nombre de entidad de Workfront</th>
             <th>Referencias de interfaz</th>
-            <th>Referencia de API</th>
+            <th>Referencia de la API</th>
             <th>Etiqueta de API</th>
             <th>Vistas del lago de datos</th>
         </tr>
@@ -7430,7 +7931,7 @@ Disponibilidad limitada del cliente
         <tr>
             <th>Nombre de entidad de Workfront</th>
             <th>Referencias de interfaz</th>
-            <th>Referencia de API</th>
+            <th>Referencia de la API</th>
             <th>Etiqueta de API</th>
             <th>Vistas del lago de datos</th>
         </tr>
@@ -7505,7 +8006,7 @@ Disponibilidad limitada del cliente
         <tr>
             <th>Nombre de entidad de Workfront</th>
             <th>Referencias de interfaz</th>
-            <th>Referencia de API</th>
+            <th>Referencia de la API</th>
             <th>Etiqueta de API</th>
             <th>Vistas del lago de datos</th>
         </tr>
@@ -7569,7 +8070,7 @@ Disponibilidad limitada del cliente
         <tr>
             <th>Nombre de entidad de Workfront</th>
             <th>Referencias de interfaz</th>
-            <th>Referencia de API</th>
+            <th>Referencia de la API</th>
             <th>Etiqueta de API</th>
             <th>Vistas del lago de datos</th>
         </tr>
@@ -7644,7 +8145,7 @@ Disponibilidad limitada del cliente
         <tr>
             <th>Nombre de entidad de Workfront</th>
             <th>Referencias de interfaz</th>
-            <th>Referencia de API</th>
+            <th>Referencia de la API</th>
             <th>Etiqueta de API</th>
             <th>Vistas del lago de datos</th>
         </tr>
@@ -7823,7 +8324,7 @@ Disponibilidad limitada del cliente
         <tr>
             <th>Nombre de entidad de Workfront</th>
             <th>Referencias de interfaz</th>
-            <th>Referencia de API</th>
+            <th>Referencia de la API</th>
             <th>Etiqueta de API</th>
             <th>Vistas del lago de datos</th>
         </tr>
@@ -7881,7 +8382,7 @@ Disponibilidad limitada del cliente
         <tr>
             <th>Nombre de entidad de Workfront</th>
             <th>Referencias de interfaz</th>
-            <th>Referencia de API</th>
+            <th>Referencia de la API</th>
             <th>Etiqueta de API</th>
             <th>Vistas del lago de datos</th>
         </tr>
@@ -7939,7 +8440,7 @@ Disponibilidad limitada del cliente
         <tr>
             <th>Nombre de entidad de Workfront</th>
             <th>Referencias de interfaz</th>
-            <th>Referencia de API</th>
+            <th>Referencia de la API</th>
             <th>Etiqueta de API</th>
             <th>Vistas del lago de datos</th>
         </tr>
@@ -7997,7 +8498,7 @@ Disponibilidad limitada del cliente
         <tr>
             <th>Nombre de entidad de Workfront</th>
             <th>Referencias de interfaz</th>
-            <th>Referencia de API</th>
+            <th>Referencia de la API</th>
             <th>Etiqueta de API</th>
             <th>Vistas del lago de datos</th>
         </tr>
@@ -8061,7 +8562,7 @@ Disponibilidad limitada del cliente
         <tr>
             <th>Nombre de entidad de Workfront</th>
             <th>Referencias de interfaz</th>
-            <th>Referencia de API</th>
+            <th>Referencia de la API</th>
             <th>Etiqueta de API</th>
             <th>Vistas del lago de datos</th>
         </tr>
@@ -8113,7 +8614,7 @@ Disponibilidad limitada del cliente
         <tr>
             <th>Nombre de entidad de Workfront</th>
             <th>Referencias de interfaz</th>
-            <th>Referencia de API</th>
+            <th>Referencia de la API</th>
             <th>Etiqueta de API</th>
             <th>Vistas del lago de datos</th>
         </tr>
@@ -8171,7 +8672,7 @@ Disponibilidad limitada del cliente
         <tr>
             <th>Nombre de entidad de Workfront</th>
             <th>Referencias de interfaz</th>
-            <th>Referencia de API</th>
+            <th>Referencia de la API</th>
             <th>Etiqueta de API</th>
             <th>Vistas del lago de datos</th>
         </tr>
@@ -8223,7 +8724,7 @@ Disponibilidad limitada del cliente
         <tr>
             <th>Nombre de entidad de Workfront</th>
             <th>Referencias de interfaz</th>
-            <th>Referencia de API</th>
+            <th>Referencia de la API</th>
             <th>Etiqueta de API</th>
             <th>Vistas del lago de datos</th>
         </tr>
