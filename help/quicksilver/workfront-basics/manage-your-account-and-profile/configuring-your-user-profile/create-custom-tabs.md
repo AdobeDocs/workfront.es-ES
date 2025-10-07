@@ -1,30 +1,31 @@
 ---
 product-area: user-management
 navigation-topic: configure-your-user-profile
-title: Crear secciones personalizadas
+title: Agregar un panel en el panel izquierdo de un objeto o área de Workfront
 description: La información que ve en la aplicación web de  [!DNL Workfront]  se muestra a menudo en las secciones del panel izquierdo de forma predeterminada. Cada sección contiene información diferente sobre un área u objeto de  [!DNL Workfront] .
-author: Becky
+author: Becky and Lisa
 feature: Get Started with Workfront
 exl-id: 68f4b83b-a8b4-4304-930f-62551cb06a92
-source-git-commit: ccaf637601c53e5d92dd3357fb07e84b5fd69166
+source-git-commit: 0efbc6051443d8e0ed96512b72d0949b288f7c2d
 workflow-type: tm+mt
-source-wordcount: '680'
-ht-degree: 99%
+source-wordcount: '646'
+ht-degree: 73%
 
 ---
 
-# Crear secciones personalizadas
+# Agregar un tablero en el panel izquierdo de un objeto o área de Workfront
 
 ## Secciones de [!DNL Adobe Workfront] 
 
-La información que ve en la aplicación web [!DNL Workfront] se muestra a menudo en las secciones del panel izquierdo de forma predeterminada. Cada sección contiene información diferente acerca de un área u objeto de [!DNL Workfront].\
+La información que ve en la aplicación web [!DNL Workfront] se muestra a menudo en las secciones del panel izquierdo de forma predeterminada. Cada sección contiene información diferente acerca de un área u objeto de [!DNL Workfront].
+
 Para obtener más información sobre las áreas predeterminadas de [!DNL Workfront], consulte el artículo [Acerca del diseño predeterminado [!DNL Adobe Workfront] .](../../../administration-and-setup/customize-workfront/use-layout-templates/about-the-default-wf-layout.md)
 
 Además de las secciones que se incluyen con [!DNL Workfront] de manera predeterminada, es posible añadir un panel de control en el que se puede mostrar información relacionada con el flujo de trabajo. No se puede añadir un panel de control a todas las áreas y objetos.
 
-La siguiente tabla enumera todas las áreas y objetos de [!DNL Workfront] que contienen secciones en el panel izquierdo y cuáles se pueden personalizar:
+La siguiente tabla enumera todas las [!DNL Workfront] áreas y objetos que contienen secciones en el panel izquierdo y cuáles de ellos se pueden personalizar con un panel:
 
-| Área u objeto de **[!DNL Workfront]** | **Secciones predeterminadas del sistema** | **Secciones personalizadas** |
+| Área u objeto de **[!DNL Workfront]** | **Secciones predeterminadas del sistema** | **Paneles de control** |
 |---|---|---|
 | Área de proyectos de  | ✓ | ✓ |
 | [!UICONTROL Equipo] | ✓ |   |
@@ -74,17 +75,19 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 ## Añadir un panel de control en el panel izquierdo de un objeto o área de [!DNL Workfront]
 
-Para poder añadir un panel de control, debe crearlo con toda la información que desee mostrar en él. También puede crear una página externa.\
-Para obtener más información acerca de la creación de paneles de control, consulte el artículo [Crear un panel de control](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md).\
+Para poder añadir un panel de control, debe crearlo con toda la información que desee mostrar en él. También puede crear una página externa.
+
+Para obtener más información acerca de la creación de paneles de control, consulte el artículo [Crear un panel de control](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md).
+
 Para obtener más información acerca de la creación de páginas externas, consulte el artículo [Incrustar una página web externa en un panel de control](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md).
 
 Después de crear el panel de control o la página externa, puede añadirlos al panel izquierdo.
 
-1. Vaya a una de las áreas u objetos de [!DNL Workfront] donde puede añadir una sección personalizada en el panel izquierdo.\
-   O
-1. Vaya a un objeto donde pueda añadir un [!UICONTROL panel de control] en el panel izquierdo.\
-   Para obtener más información sobre las áreas y los objetos a los que puede añadir secciones personalizadas, consulte el apartado [[!DNL Adobe Workfront] secciones](#adobe-workfront-sections).
-1. Haga clic en **[!UICONTROL Añadir al panel de control]** en el panel izquierdo.
+1. Vaya a una de las [!DNL Workfront] áreas u objetos donde puede agregar un tablero en el panel izquierdo.
+
+   Para obtener más información sobre las áreas y los objetos a los que puede agregar paneles, consulte [[!DNL Adobe Workfront] secciones](#adobe-workfront-sections).
+
+1. Haga clic en **[!UICONTROL Agregar tablero]** en el panel izquierdo.
 1. Escriba un nombre para el panel de control en el campo **[!UICONTROL Nombre del vínculo rápido]**. Esto solo es visible para el propio usuario.
 1. Empiece a escribir el nombre de un panel de control existente o de una página externa en el campo **[!UICONTROL Elegir un panel de control]** y, a continuación, seleccione el panel de control cuando se muestre en la lista.
 1. Haga clic en **[!UICONTROL Añadir]**.
@@ -92,13 +95,13 @@ Después de crear el panel de control o la página externa, puede añadirlos al 
 
    La sección superior es la sección predeterminada de la página.
 
-   Las secciones creadas para objetos individuales se muestran al acceder a todos los objetos del mismo tipo y solo están disponibles para el usuario.
+   Los paneles que ha agregado solo están disponibles para usted.
 
 ## Mostrar paneles de control en el panel izquierdo de objetos
 
 Para obtener más información sobre cómo añadir un panel de control debajo de un objeto, consulte la sección [[!UICONTROL Añadir un panel de control] en el panel izquierdo de un objeto o área de Workfront](#add-a-dashboard-in-the-left-panel-of-a-workfront-object-or-area) de este artículo.
 
-Cuando se añade un panel de control a una sección personalizada debajo de un objeto, el objeto actúa como filtro para el panel de control. Por ejemplo, si añade un informe de tareas a un panel de control y añade el panel de control a un proyecto, la sección personalizada que contiene el panel de control del proyecto solo muestra las tareas del proyecto que está consultando.
+Cuando se agrega un tablero de mandos al panel izquierdo de un objeto, el objeto actúa como filtro para el tablero de mandos. Por ejemplo, si agrega un informe de tareas a un panel y agrega el panel a un proyecto, el panel solo muestra las tareas del proyecto que está viendo.
 
 Los objetos siguientes se filtran para el objeto bajo el que se muestran, si dicho objeto es superior en jerarquía a ellos:
 
@@ -115,4 +118,4 @@ Para obtener más información acerca de la jerarquía y la interdependencia de 
 
 Al añadir paneles de control a la instancia de [!DNL Workfront], estos solo son visibles para usted.
 
-Puede personalizar las secciones de [!DNL Workfront] y compartir el nuevo diseño con varios usuarios en una plantilla de diseño. Solamente un administrador de sistema o de grupo puede compartirlos con otros usuarios en una plantilla de diseño. Para obtener más información sobre cómo personalizar el panel izquierdo con una plantilla de diseño, consulte [Personalizar el panel izquierdo con una plantilla de diseño](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md).
+Solamente un administrador de sistema o de grupo puede compartir tableros con otros usuarios en una plantilla de diseño. Para obtener más información sobre cómo personalizar el panel izquierdo con una plantilla de diseño, consulte [Personalizar el panel izquierdo con una plantilla de diseño](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md).

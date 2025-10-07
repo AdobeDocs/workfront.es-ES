@@ -6,7 +6,7 @@ description: Puede compartir el Distribuidor de cargas de trabajo con otros usua
 author: Lisa
 feature: Resource Management
 exl-id: e2d6b1f8-bdc9-4a34-bdc3-b56f7aa2e7a5
-source-git-commit: 23c6d9335b0adcafc4e2ecdd8ef2d0ab09709fa8
+source-git-commit: 58567104d88e7e1363d4196aec8a36ee0566b95a
 workflow-type: tm+mt
 source-wordcount: '697'
 ht-degree: 14%
@@ -130,10 +130,10 @@ Necesita el siguiente acceso para ver información en el Distribuidor de cargas 
 1. Realice una de las siguientes acciones para compartir el vínculo con otros usuarios:
 
    * Péguelo en un mensaje de correo electrónico, un mensaje de chat o cualquier otra aplicación y compártalo con otros usuarios.
-   * Añádala a una sección personalizada como página externa, añada la sección personalizada al perfil de un usuario o a una plantilla de diseño y, a continuación, comparta la plantilla de diseño con usuarios, equipos, funciones o grupos.
+   * Añádalo a un tablero como una página externa, añada el tablero al perfil de un usuario o a una plantilla de diseño y, a continuación, comparta la plantilla de diseño con usuarios, equipos, funciones o grupos.
 
-     Para obtener información acerca de cómo crear una página externa, vea [Incrustar una página web externa en un panel](../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md). Para obtener información sobre cómo agregar secciones personalizadas a una plantilla de diseño, consulte [Personalizar el panel izquierdo con una plantilla de diseño](../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md).
+     Para obtener información acerca de cómo crear una página externa, vea [Incrustar una página web externa en un panel](../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md). Para obtener información sobre cómo agregar paneles a una plantilla de diseño, consulte [Personalizar el panel izquierdo con una plantilla de diseño](../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md).
 
      >[!IMPORTANT]
      >
-     >Cuando se agrega el Distribuidor de cargas de trabajo a la sección personalizada de un objeto, la información del Distribuidor de cargas de trabajo no se filtra con el objeto. El Distribuidor de cargas de trabajo muestra la información filtrada por los filtros aplicados originalmente.
+     >Cuando se agrega el Distribuidor de cargas de trabajo como un panel a la izquierda de un objeto, la información del Distribuidor de cargas de trabajo no se filtra con el objeto. El Distribuidor de cargas de trabajo muestra la información filtrada por los filtros aplicados originalmente.

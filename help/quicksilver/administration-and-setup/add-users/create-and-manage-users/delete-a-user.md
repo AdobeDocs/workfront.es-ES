@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: da57dea3-082b-4a86-ae13-5bf55401122e
-source-git-commit: d585b698b6c7900d861a30dc6b5e0bff6bd6d13a
+source-git-commit: 58567104d88e7e1363d4196aec8a36ee0566b95a
 workflow-type: tm+mt
-source-wordcount: '872'
-ht-degree: 94%
+source-wordcount: '831'
+ht-degree: 93%
 
 ---
 
@@ -33,7 +33,7 @@ Cuando un usuario abandona la organización, puede eliminarlo de Adobe Workfront
 >
 >Deleting a user from the [!DNL Adobe Admin Console] deactivates the user in [!DNL Workfront], but does not delete them from [!DNL Workfront].
 >
->  For instructions on deleting a user in the Adobe Admin Console, see the section "Permanently delete users" in the article [Manage users individually](https://helpx.adobe.com/es/enterprise/using/manage-users-individually.html) or contact your Adobe Admin Console Administrator.
+>  For instructions on deleting a user in the Adobe Admin Console, see the section "Permanently delete users" in the article [Manage users individually](https://helpx.adobe.com/enterprise/using/manage-users-individually.html) or contact your Adobe Admin Console Administrator.
 >
 >  For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Admin Console, see [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 >
@@ -84,7 +84,7 @@ Al desactivar un usuario, sucede lo siguiente:
 * Su asociación con los siguientes objetos permanece intacta:
 
    * Tareas, problemas, proyectos, portafolios
-   * Paneles
+   * Paneles de control
 
      >[!NOTE]
      >
@@ -107,12 +107,14 @@ Al eliminar un usuario, sucede lo siguiente:
 * Se elimina la asociación del usuario con los siguientes objetos:
 
    * Tareas, problemas, proyectos, portafolios
-   * Paneles
+   * Paneles de control
 
+  <!--
      >[!NOTE]
      >
-     >También pierde acceso a las secciones personalizadas que contenían paneles asociados al usuario eliminado.\
-     >Para obtener más información, consulte [¿Cómo puedo acceder a un tablero que contiene un informe que pertenece a un usuario eliminado?Sección ](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md#how) del artículo [Preguntas más frecuentes sobre informes](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md).
+     >You also lose access to custom sections that contained dashboards associated to the deleted user.  
+     >To learn more, see the [How do I access a dashboard that contains a report owned by a deleted user?](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md#how) section of the [Reports FAQs](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md) article.
+     -->
 
    * Actualizaciones
    * Horas

@@ -7,10 +7,10 @@ description: Preguntas frecuentes sobre informes
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 5e267d45-7922-4c0f-8530-59a8c152f625
-source-git-commit: 957c6e6955a828aa40ac996490d66e9c46f594bc
+source-git-commit: 58567104d88e7e1363d4196aec8a36ee0566b95a
 workflow-type: tm+mt
-source-wordcount: '1510'
-ht-degree: 87%
+source-wordcount: '1509'
+ht-degree: 86%
 
 ---
 
@@ -26,7 +26,7 @@ Las siguientes son las preguntas más frecuentes sobre los informes.
 
 ## Requisitos de acceso
 
-+++ Amplíe para ver los requisitos de acceso.
++++ Amplíe para ver los requisitos de acceso. 
 
 Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
@@ -47,7 +47,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso</td> 
-   <td> <p>Acceso de Edición a informes, paneles y calendarios</p>  </td> 
+   <td> <p>Acceso de Edición a informes, paneles de control y calendarios</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
@@ -170,17 +170,17 @@ Sin embargo, determinados factores pueden impedir que se muestren estos vínculo
 
 ![Divisa del proyecto](assets/nwe-project-original-currency-350x229.png)
 
-## ¿La información de mi informe o panel se actualiza automáticamente?
+## ¿La información de mi informe o panel de control se actualiza automáticamente?
 
 ### Respuesta
 
-La información de los informes o paneles no se actualiza automáticamente.
+La información de los informes o paneles de control no se actualiza automáticamente.
 
 La información se puede actualizar manualmente en un informe almacenado en caché.\
 Para obtener más información sobre la actualización de un informe almacenado en caché, consulte [Ejecutar un informe](../../../reports-and-dashboards/reports/creating-and-managing-reports/run-report.md).
 
-La información se puede actualizar manualmente en un panel almacenado en caché.\
-Para obtener más información acerca de la actualización de un panel en caché, consulte la sección [Paneles de visualización](../../../reports-and-dashboards/dashboards/understanding-dashboards/get-started-dashboards.md#running-dashboards) en el artículo [Introducción a los paneles](../../../reports-and-dashboards/dashboards/understanding-dashboards/get-started-dashboards.md).
+La información se puede actualizar manualmente en un panel de control almacenado en caché.\
+Para obtener más información acerca de la actualización de un panel de control en caché, consulte la sección [Paneles de visualización](../../../reports-and-dashboards/dashboards/understanding-dashboards/get-started-dashboards.md#running-dashboards) en el artículo [Introducción a los paneles de control](../../../reports-and-dashboards/dashboards/understanding-dashboards/get-started-dashboards.md).
 
 ## ¿Puedo cambiar el propietario de un informe?
 
@@ -189,7 +189,7 @@ Para obtener más información acerca de la actualización de un panel en caché
 No se puede cambiar el propietario de un informe. Sin embargo, el usuario que ha creado el informe puede permitir que otros usuarios lo editen. La forma de permitir que los usuarios editen un informe depende del tipo de usuario.
 
 * Los administradores del sistema pueden permitir que los usuarios con licencia Plan editen los informes configurando la opción Editar en la fila Informes para incluir el acceso a Crear un informe.\
-  Para obtener más información, consulte [Conceder acceso a informes, paneles y calendarios](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md).
+  Para obtener más información, consulte [Conceder acceso a informes, paneles de control y calendarios](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md).
 
 * Cualquier usuario final con acceso para crear y compartir informes puede permitir que otros editen informes individuales compartiéndolos y concediendo a otros usuarios permisos de administración.\
   Para obtener más información, consulte [Compartir un informe en Adobe Workfront](../../../reports-and-dashboards/reports/creating-and-managing-reports/share-report.md).
@@ -204,14 +204,13 @@ En ocasiones, el propietario del informe también es el usuario especificado en 
 
 Para obtener más información acerca del campo **Ejecutar este informe con los derechos de acceso de:**, consulte [Ejecutar y entregar un informe con los derechos de acceso de otro usuario](../../../reports-and-dashboards/reports/creating-and-managing-reports/run-deliver-report-access-rights-another-user.md). Para obtener información sobre cómo identificar todos los informes que pertenecen a usuarios desactivados, consulte [Crear un informe sobre las actividades de creación de informes](../../../reports-and-dashboards/reports/report-usage/create-report-reporting-activities.md).
 
-## ¿Cómo puedo acceder a un panel que contiene un informe que pertenece a un usuario eliminado?
+## ¿Cómo puedo acceder a un panel de control que contiene un informe que pertenece a un usuario eliminado?
 
 ### Respuesta
 
-Cuando elimine un usuario, aún podrá acceder a los informes que este haya creado; sin embargo, también se eliminarán los paneles que incluye el informe. Esto significa que ya no puede acceder a lo siguiente:
+Cuando elimine un usuario, aún podrá acceder a los informes que este haya creado; sin embargo, también se eliminarán los paneles de control que incluye el informe. Esto significa que ya no puede acceder a lo siguiente:
 
-* Panel que contiene el informe
-* Sección personalizada que contiene un panel del informe
+* Un tablero que contiene el informe, incluidos los tableros del panel izquierdo de un objeto
 
 Para obtener más información sobre las implicaciones de eliminar un usuario, consulte [Eliminar usuarios](../../../administration-and-setup/add-users/create-and-manage-users/delete-a-user.md).
 
@@ -220,5 +219,5 @@ Si tiene acceso de visualización del informe, puede hacer lo siguiente:
 1. Crear una copia del informe.\
    Para aprender a crear una copia de un informe, vea [Crear una copia de un informe](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md).
 
-1. Actualizar el panel para incluir el informe copiado.\
-   Para obtener información sobre cómo editar un panel, consulte [Editar un panel](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/edit-dashboard.md).
+1. Actualizar el panel de control para incluir el informe copiado.\
+   Para obtener información sobre cómo editar un panel de control, consulte [Editar un panel de control](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/edit-dashboard.md).

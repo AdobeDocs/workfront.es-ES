@@ -3,13 +3,13 @@ content-type: overview
 navigation-topic: the-new-workfront-experience
 title: Navegación izquierda en  [!DNL Adobe Workfront]
 description: El panel de navegación izquierdo en  [!DNL Workfront]  facilita la navegación por el sistema.
-author: Courtney
+author: Lisa
 feature: Get Started with Workfront
 exl-id: 18aae496-b4ec-4056-a7f1-9600b5fb5421
-source-git-commit: 297a8bc1a59fab42d96ec3479451c2f82f5c3dc1
+source-git-commit: 58567104d88e7e1363d4196aec8a36ee0566b95a
 workflow-type: tm+mt
-source-wordcount: '1385'
-ht-degree: 98%
+source-wordcount: '1375'
+ht-degree: 83%
 
 ---
 
@@ -26,7 +26,7 @@ La mayoría de las áreas y objetos de WF utilizan un panel de navegación senci
 
   Para obtener más información, consulte la siguiente sección en este artículo: [Usar el panel de navegación izquierdo](#use-the-left-navigation-panel).
 
-* Puede personalizar el panel izquierdo añadiendo un panel.
+* Puede personalizar el panel izquierdo añadiendo un panel de control.
 
 ## Requisitos de acceso
 
@@ -74,38 +74,38 @@ El panel izquierdo está disponible para los siguientes objetos:
 
 >[!IMPORTANT]
 >
->Si el panel izquierdo muestra solo una sección de forma predeterminada, como **[!UICONTROL Todos los proyectos]** en el área de **[!UICONTROL Proyectos]**, un administrador de [!DNL Workfront] debe añadir al menos una sección personalizada a esta área al crear una plantilla de diseño y asignársela antes de que el panel izquierdo se muestre en esa área.\
->Para obtener información sobre cómo un administrador de [!DNL Workfront] personaliza el panel izquierdo en una plantilla de diseño, consulte [Personalizar el panel izquierdo mediante una plantilla de diseño](../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md).
+>Si el panel izquierdo muestra solo una sección de forma predeterminada, como **[!UICONTROL Todos los proyectos]** en el área de **[!UICONTROL Proyectos]**, un administrador de [!DNL Workfront] debe agregar al menos un panel a esta área al crear una plantilla de diseño y asignarle a esa plantilla antes de que el panel izquierdo se muestre en esa área.
+>>Para obtener información sobre cómo un administrador de [!DNL Workfront] personaliza el panel izquierdo en una plantilla de diseño, consulte [Personalizar el panel izquierdo mediante una plantilla de diseño](../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md).
 
 El panel izquierdo está disponible para las siguientes áreas:
 
-* [Secciones predeterminadas en el área [!UICONTROL Paneles]](#default-sections-in-the-dashboards-area)
+* [Secciones predeterminadas en el área [!UICONTROL Paneles de control]](#default-sections-in-the-dashboards-area)
 * [Secciones predeterminadas en el área [!UICONTROL Solicitudes]](#default-sections-in-the-requests-area)
 * [Secciones predeterminadas en el área [!UICONTROL Recursos]](#default-sections-in-the-resourcing-area)
 * [Secciones predeterminadas en el área [!UICONTROL Proyectos]](#default-sections-in-the-projects-area)
 * [Secciones predeterminadas en el área [!UICONTROL Plantillas de horas]](#default-sections-in-the-timesheets-area)
 * [Secciones predeterminadas en el área  [!DNL Goals] ](#default-sections-in-the-goals-area)
 
-### Secciones predeterminadas en el área [!UICONTROL Paneles]
+### Secciones predeterminadas en el área [!UICONTROL Paneles de control]
 
-Las siguientes secciones se muestran en el panel izquierdo del área **[!UICONTROL Paneles]**:
+Las siguientes secciones se muestran en el panel izquierdo del área **[!UICONTROL Paneles de control]**:
 
 <table style="table-layout:auto">
     <tr>
         <td><strong>[!UICONTROL My Dashboards]</strong></td>
-        <td>Mis paneles: muestra los paneles que ha creado.</td>
+        <td>Mis paneles de control: muestra los paneles de control que ha creado.</td>
     </tr>
     <tr>
         <td><strong>[!UICONTROL Shared Dashboards]</strong></td>
-        <td>Paneles compartidos: muestra los paneles que otros usuarios han creado y compartido con usted.</td>
+        <td>Paneles de control compartidos: muestra los paneles de control que otros usuarios han creado y compartido con usted.</td>
     </tr>
     <tr>
         <td><strong>[!UICONTROL All Dashboards]</strong></td>
-        <td>Muestra los paneles que usted y otros usuarios han creado y para los que tiene permisos al menos para Ver.</td>
+        <td>Muestra los paneles de control que usted y otros usuarios han creado y para los que tiene permisos al menos para Ver.</td>
     </tr>
 </table>
 
-Para aprender a usar el panel izquierdo en el área de Paneles, consulte la sección [Usar el panel de navegación izquierdo](#use-the-left-navigation-panel) en este artículo.
+Para aprender a usar el panel izquierdo en el área de Paneles de control, consulte la sección [Usar el panel de navegación izquierdo](#use-the-left-navigation-panel) en este artículo.
 
 ### Secciones predeterminadas en el área [!UICONTROL Solicitudes]
 
@@ -163,8 +163,8 @@ Las siguientes secciones se muestran en el panel izquierdo del área **[!UICONTR
         <td>Muestra todos los proyectos a los que tiene acceso de visualización. Utilice el menú desplegable [!UICONTROL Filter] para cambiar los proyectos que desea ver</td>
     </tr>
     <tr>
-        <td><strong>[!UICONTROL Custom sections]</strong></td>
-        <td>Puede ver todas las secciones personalizadas que el administrador de [!DNL Workfront] ha añadido al panel izquierdo del área de [!UICONTROL Projects] en su plantilla de diseño. Las secciones personalizadas tienen nombres que se han personalizado para su entorno.</td>
+        <td><strong>[!UICONTROL Dashboards]</strong></td>
+        <td>Puede ver todos los paneles que el administrador de [!DNL Workfront] ha agregado al panel izquierdo del área de [!UICONTROL Proyectos] en su plantilla de diseño. Estos paneles tienen nombres que se han personalizado para su entorno.</td>
     </tr>
 </table>
 
@@ -239,14 +239,16 @@ Buscar y editar información en el panel izquierdo es similar para estos objetos
 
 Para saber qué secciones están disponibles para áreas específicas, consulte [[!UICONTROL Secciones predeterminadas] en el panel de navegación izquierdo](#default-sections-in-the-left-navigation-panel).
 
-1. Haga clic en el icono **[!UICONTROL Menú principal]** ![](assets/main-menu-icon-16x12.png) y, a continuación, haga clic en el nombre de un objeto para acceder a él.
+{{step1-click-main-menu}}
+
+1. Haga clic en el nombre de un objeto para acceder a él.
 
    Se muestra la página del objeto.
 
 1. (Condicional) Si ha seleccionado un área que contiene una lista de objetos, como **[!UICONTROL Proyectos]** o **[!UICONTROL Portafolios]**, debe hacer lo siguiente para acceder a la navegación del panel izquierdo:
 
    1. Haga clic en un objeto de la lista.
-   1. (Opcional) En el panel de navegación izquierdo, puede seleccionar otro objeto (como **[!UICONTROL Tareas]** o **[!UICONTROL Problemas]** dentro de un proyecto), en el panel izquierdo, para acceder a una lista de objetos y, a continuación, hacer clic en el nombre del objeto específico.\
+   1. (Opcional) En el panel de navegación izquierdo, puede seleccionar otro objeto (como **[!UICONTROL Tareas]** o **[!UICONTROL Problemas]** dentro de un proyecto) en el panel izquierdo para acceder a una lista de objetos y, a continuación, hacer clic en el nombre del objeto específico.
 
       Se muestra la página del objeto.
 
@@ -254,9 +256,9 @@ Para saber qué secciones están disponibles para áreas específicas, consulte 
 
    Debe tener permisos para editar el objeto antes de poder editar la información.
 
-   ![Secciones del panel izquierdo](assets/NWE-left-navigation-panel.png)
+   ![Secciones del panel izquierdo](assets/left-navigation-panel.png)
 
-1. (Opcional) Para añadir un vínculo rápido al panel, haga clic en **[!UICONTROL añadir panel]** en la parte inferior del panel izquierdo y, a continuación, haga lo siguiente:
+1. (Opcional) Para agregar un vínculo rápido al panel, haga clic en **[!UICONTROL Agregar un panel]** en la parte inferior del panel izquierdo y, a continuación, haga lo siguiente:
 
    1. Escriba un nombre para el tablero en el campo **[!UICONTROL Nombre de vínculo rápido]**.
    1. Empiece a escribir el nombre de un panel existente en el campo **[!UICONTROL Elegir un panel]** y, a continuación, haga clic en el panel cuando se muestre en la lista.
@@ -267,9 +269,9 @@ Para saber qué secciones están disponibles para áreas específicas, consulte 
 
 1. (Opcional) Para quitar un vínculo rápido del panel, pase el ratón sobre el panel en el panel de navegación izquierdo y, a continuación, haga clic en el icono **Quitar** ![Quitar icono](assets/remove-dashboard-from-left.png) cuando aparezca.
 
-1. (Opcional) Para cambiar el orden de una sección en el panel izquierdo, haga clic en el icono **[!UICONTROL Arrastrar]** ![](assets/drag-icon.png) situado a la derecha de una sección y arrástrela hacia arriba o hacia abajo.
+1. (Opcional) Para cambiar el orden de una sección en el panel izquierdo, haga clic en el icono **[!UICONTROL Arrastrar]** ![](assets/drag-icon.png) junto a una sección y arrástrela hacia arriba o hacia abajo.
 
-   ![Arrastrar una sección](assets/drag-section-right.png)
+   ![Arrastrar una sección](assets/drag-section.png)
 
 1. (Opcional) Para cerrar el panel izquierdo, haga clic en el icono **[!UICONTROL Contraer]** ![](assets/left-panel-collapse-icon.png).
 

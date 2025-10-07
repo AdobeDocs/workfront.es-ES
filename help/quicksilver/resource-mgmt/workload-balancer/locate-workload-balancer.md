@@ -7,10 +7,10 @@ description: El Distribuidor de cargas de trabajo está disponible para varios p
 author: Lisa
 feature: Resource Management
 exl-id: 88029c9d-b588-4d33-801a-04f49b12a6e8
-source-git-commit: a63c53652491a25b909b7563990d4375d8f5885f
+source-git-commit: 58567104d88e7e1363d4196aec8a36ee0566b95a
 workflow-type: tm+mt
-source-wordcount: '841'
-ht-degree: 78%
+source-wordcount: '868'
+ht-degree: 64%
 
 ---
 
@@ -23,7 +23,7 @@ Puede utilizar el Distribuidor de cargas de trabajo para programar los recursos 
 Puede acceder al Distribuidor de cargas de trabajo de las siguientes maneras:
 
 * Desde varias áreas predefinidas por Adobe Workfront
-* Añadiéndolo a una sección personalizada
+* Añadiéndolo al panel izquierdo como un panel
 
 Este artículo describe las áreas a las que puede acceder al Distribuidor de cargas de trabajo.
 
@@ -138,7 +138,7 @@ Se muestra la página de su equipo de inicio.
 
      >[!TIP]
      >
-     >Puede mostrar todos los usuarios del sistema en lugar de solo los del proyecto (en el área de Trabajo asignado) activando la opción Mostrar todos los usuarios. Para obtener más información, consulte [Navegar por el Distribuidor de cargas de trabajo](../workload-balancer/navigate-the-workload-balancer.md).
+     >Puede mostrar todos los usuarios del sistema en lugar de solo los del proyecto (en el área de Trabajo asignado) habilitando la opción Mostrar todos los usuarios. Para obtener más información, consulte [Navegar por el Distribuidor de cargas de trabajo](../workload-balancer/navigate-the-workload-balancer.md).
 
 <div class="preview">
 
@@ -162,11 +162,11 @@ Todos los ajustes de visualización están disponibles para el Distribuidor de c
 
 </div>
 
-## Añadir el Distribuidor de cargas de trabajo a una sección personalizada
+## Añada el Distribuidor de cargas de trabajo al panel izquierdo como panel
 
-Puede agregar el Distribuidor de cargas de trabajo a cualquier sección personalizada.
+Puede agregar el Distribuidor de cargas de trabajo como un panel de control al panel izquierdo de objetos que permiten la personalización.
 
-La mayoría de las personalizaciones que ya se han aplicado al Distribuidor de cargas de trabajo se conservan al añadirlo a una sección personalizada.
+La mayoría de las personalizaciones que ya se han aplicado al Distribuidor de cargas de trabajo se conservan al agregarlo al panel izquierdo.
 
 1. Acceda al Distribuidor de cargas de trabajo en cualquiera de las siguientes áreas:
 
@@ -175,21 +175,21 @@ La mayoría de las personalizaciones que ya se han aplicado al Distribuidor de c
    * Un proyecto
 
 1. Obtenga un vínculo que se puede compartir y cópielo en el portapapeles tal como se describe en [Compartir el Distribuidor de cargas de trabajo con un vínculo](../../resource-mgmt/workload-balancer/share-link-for-workload-balancer.md).
-1. Cree un panel con una página externa como se describe en [Incrustar una página web externa en un panel](../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md). Utilice el vínculo que se puede compartir obtenido en el paso 2 para la página externa.
+1. Cree un panel de control con una página externa como se describe en [Incrustar una página web externa en un panel de control](../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md). Utilice el vínculo que se puede compartir obtenido en el paso 2 para la página externa.
 
    <!--
       (NOTE: ensure this stays correct)
       -->
 
-1. Cree una sección personalizada tal como se describe en [Crear fichas o secciones personalizadas](../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md) para colocar el panel en la ficha personalizada.
+1. Agregue un tablero al panel de navegación izquierdo de un objeto, tal como se describe en [Agregue un tablero al panel izquierdo de un objeto o área de Workfront](../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md) para colocar el tablero en la ficha personalizada.
 
-   Al acceder al Distribuidor de cargas de trabajo desde la sección personalizada, puede verlo como si estuviera accediendo directamente desde una de sus áreas originales enumeradas en el paso 1.
+   Al acceder al Distribuidor de cargas de trabajo desde el panel, puede verlo como si estuviera accediendo directamente desde una de sus áreas originales enumeradas en el paso 1.
 
    <!--
       (NOTE: ensure this stays correct)
      -->
 
-1. (Opcional) Comparta la pestaña personalizada en una plantilla de diseño como se describe en [Personalizar el panel izquierdo con una plantilla de diseño](../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md) .
+1. (Opcional) Comparta el tablero en una plantilla de diseño como se describe en [Personalice el panel izquierdo con una plantilla de diseño](../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md)
 
 
 <!--

@@ -3,9 +3,9 @@ user-guide-title: Guía de Workfront
 user-guide-description: Utilice los siguientes documentos, tutoriales y recursos adicionales para aprender a implementar y utilizar Adobe Workfront de forma eficaz en su organización.
 role: User
 feature-set: Workfront
-source-git-commit: f5b9f7eac2dd5bdc1f9634777b91737a8cc7fc53
+source-git-commit: 30b99255a2178f972f9a9f3f7eda5f2929a24978
 workflow-type: tm+mt
-source-wordcount: '13436'
+source-wordcount: '13446'
 ht-degree: 59%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 59%
          * [Mejoras de proyecto del cuarto trimestre de 2025](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-project.md)
          * [Mejoras en las solicitudes del cuarto trimestre de 2025](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-requests.md)
          * [Mejoras en la gestión de recursos del cuarto trimestre de 2025](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-resource-mgmt.md)
-         * [Otras mejoras del cuarto trimestre de 2025 &#x200B;](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-other.md)
+         * [Otras mejoras del cuarto trimestre de 2025 ](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-other.md)
          * [Actualizaciones de aspecto durante el periodo de tiempo de la versión del cuarto trimestre de 2025](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-look-and-feel-updates.md)
       * Versión del tercer trimestre de 2025 {#release-25-q3}
          * [Resumen de la versión del tercer trimestre de 2025](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-release-overview.md)
@@ -842,7 +842,7 @@ ht-degree: 59%
       * [Información general sobre las rutas de exploración](workfront-basics/the-new-workfront-experience/breadcrumb-overview.md)
       * [Información general sobre encabezados de objetos](workfront-basics/the-new-workfront-experience/new-object-headers.md)
       * [Anclar páginas para personalizar el espacio de trabajo](workfront-basics/the-new-workfront-experience/pin-pages.md)
-      * [Crear secciones personalizadas](workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md)
+      * [Agregar un tablero en el panel izquierdo de un objeto o área de Workfront](workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md)
       * [Acceso a la ayuda de Adobe Workfront](workfront-basics/navigate-workfront/workfront-navigation/access-workfront-help.md)
       * [Información general sobre los objetos de [!DNL Adobe Workfront]](workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)
       * [Comprender la navegación de un usuario con licencia de trabajo](workfront-basics/navigate-workfront/workfront-navigation/worker-global-navigation-bar.md)
@@ -1760,7 +1760,7 @@ ht-degree: 59%
    * [Administrar recursos: índice de artículos](resource-mgmt/manage-resources.md)
    * Administración de recursos {#resource-management}
       * [Administración de recursos: índice de artículos](resource-mgmt/resource-mgmt-overview/resource-management-overview.md)
-      * [Introducción a la Administración de recursos &#x200B;](resource-mgmt/resource-mgmt-overview/get-started-resource-management.md)
+      * [Introducción a la Administración de recursos ](resource-mgmt/resource-mgmt-overview/get-started-resource-management.md)
    * Planificación de recursos en Adobe Workfront {#resource-planning-in-adobe-workfront}
       * [Planificación de recursos: índice de artículos](resource-mgmt/resource-planning/resource-planning-overview.md)
       * Conjuntos de recursos {#resource-pools}

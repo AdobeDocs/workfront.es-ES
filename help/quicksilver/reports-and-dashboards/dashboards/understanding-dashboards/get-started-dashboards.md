@@ -7,10 +7,10 @@ description: El propósito de un panel de control es proporcionar un acceso ráp
 author: Nolan
 feature: Reports and Dashboards
 exl-id: b0e73f2d-bb50-4476-bb24-f0378807b2fe
-source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
+source-git-commit: 58567104d88e7e1363d4196aec8a36ee0566b95a
 workflow-type: tm+mt
-source-wordcount: '689'
-ht-degree: 97%
+source-wordcount: '694'
+ht-degree: 89%
 
 ---
 
@@ -75,7 +75,7 @@ Puede rellenar un tablero con hasta 25 de los siguientes elementos en Adobe Work
   Para obtener más información sobre la creación de calendarios, consulte [Información general sobre los informes de calendario](../../../reports-and-dashboards/reports/calendars/calendar-reports-overview.md).
 
 * Páginas externas\
-  Para obtener más información sobre la creación de páginas externas, consulte [Incrustar una página web externa en un panel](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md).
+  Para obtener más información sobre la creación de páginas externas, consulte [Incrustar una página web externa en un panel de control](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md).
 
 Para obtener más información sobre cómo crear un panel de control, consulte [Crear un panel de control](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md).
 
@@ -86,8 +86,8 @@ Puede compartir un panel de control con los usuarios de las siguientes maneras:
 * Compartirlo de forma individual.\
   Para obtener más información sobre cómo compartir tableros, consulte [Compartir informes, paneles de control y calendarios](../../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md) y [Compartir un panel de control](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/share-dashboard.md).
 
-* Añadir un panel de control a cualquier área u objeto de Workfront con una sección personalizada.\
-  Para obtener más información sobre cómo crear secciones personalizadas, consulte [Navegación izquierda en Adobe Workfront](../../../workfront-basics/the-new-workfront-experience/simplified-left-navigation.md).
+* Agregue un tablero a cualquier área u objeto de Workfront en el panel izquierdo.\
+  Para obtener más información sobre cómo agregar paneles al panel izquierdo, consulte [Navegación izquierda en Adobe Workfront](../../../workfront-basics/the-new-workfront-experience/simplified-left-navigation.md).
 
 * Colocar los paneles de control en plantillas de diseño, que puede compartir con los usuarios.\
   Para obtener más información sobre cómo compartir paneles de control mediante plantillas de diseño, consulte [Personalizar el panel izquierdo con una plantilla de diseño](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md).
@@ -108,17 +108,17 @@ Al compartir un panel de control con los usuarios, todos los informes, calendari
 
 Puede mostrar un panel de control de las siguientes maneras:
 
-* Acceda a la sección personalizada donde se coloca el panel de control.\
-  Para obtener más información sobre cómo colocar paneles de control en secciones personalizadas, consulte [Navegación izquierda en Adobe Workfront](../../../workfront-basics/the-new-workfront-experience/simplified-left-navigation.md).
+* Acceda al tablero a través del panel izquierdo de un objeto.
+Para obtener más información sobre cómo colocar paneles en el panel izquierdo, consulte [Navegación izquierda en Adobe Workfront](../../../workfront-basics/the-new-workfront-experience/simplified-left-navigation.md).
 
 * Busque el panel de control y acceda manualmente a él.
 
 ## Añadir un panel de control
 
-1. Haga clic en el icono **[!UICONTROL Main Menu]** ![Main Menu](/help/_includes/assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront o (si está disponible), haga clic en el icono **[!UICONTROL Main Menu]** ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) en la esquina superior izquierda y, a continuación, haga clic en **Paneles de control**.
+1. Haga clic en el icono **[!UICONTROL Main Menu]**![Main Menu](/help/_includes/assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront o (si está disponible), haga clic en el icono **[!UICONTROL Main Menu]**![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) en la esquina superior izquierda y, a continuación, haga clic en **Paneles de control**.
 1. Pase el puntero por encima de la barra lateral izquierda y seleccione una de las siguientes opciones:
 
-   * **Mis paneles de control**: los paneles que ha creado se enumeran aquí.
+   * **Mis paneles de control**: los paneles de control que ha creado se enumeran aquí.
 
      >[!TIP]
      >

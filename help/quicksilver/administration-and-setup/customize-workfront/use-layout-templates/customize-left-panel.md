@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: b100ea35-e045-4021-b5be-2c9071b381da
-source-git-commit: 80bdc2f2c1bedbc5a894b5a474425c5544c039fd
+source-git-commit: 58567104d88e7e1363d4196aec8a36ee0566b95a
 workflow-type: tm+mt
-source-wordcount: '1162'
-ht-degree: 59%
+source-wordcount: '1120'
+ht-degree: 52%
 
 ---
 
@@ -21,9 +21,9 @@ ht-degree: 59%
 
 En una plantilla de diseño, puede personalizar lo que los usuarios ven en el área del panel izquierdo en [!DNL Adobe Workfront].
 
-Por ejemplo, puede determinar cuál de los siguientes elementos ven los usuarios en el panel de navegación izquierdo al ver una tarea:
+Por ejemplo, puede determinar cuál de los siguientes elementos ven los usuarios en el panel izquierdo al ver un proyecto:
 
-![Panel izquierdo de marca](assets/left-panel-adobe-branding.png)
+![Panel izquierdo de un proyecto](assets/left-panel-in-project.png)
 
 >[!IMPORTANT]
 >
@@ -146,8 +146,8 @@ Para realizarlos para un grupo, debe ser administrador de ese grupo.</p> </td>
      </tr> 
      <tr> 
       <td>[!UICONTROL Dashboards]</td> 
-      <td>El nombre de un panel</td> 
-      <td>[!UICONTROL My Dashboards], [!UICONTROL Shared Dashboards], [!UICONTROL All Dashboards]<p><b>NOTA</b>: si creó pestañas personalizadas para el área de [!UICONTROL Reports] usando una plantilla de diseño en [!DNL Adobe Workfront Classic], se muestran en la parte inferior de esta lista. Para los usuarios, se muestran en la parte inferior del panel izquierdo del área de [!UICONTROL Dashboards].</p> </td> 
+      <td>El nombre de un panel de control</td> 
+      <td>[!UICONTROL My Dashboards], [!UICONTROL Shared Dashboards], [!UICONTROL All Dashboards]</td> 
      </tr> 
      <tr> 
       <td>[!UICONTROL Scrum Team]</td> 
@@ -227,15 +227,17 @@ Para realizarlos para un grupo, debe ser administrador de ese grupo.</p> </td>
    >* [Personalización de la marca Adobe  [!DNL Workfront]  usando una plantilla de diseño](../../../administration-and-setup/customize-workfront/use-layout-templates/brand-wf-using-a-layout-template.md)
 
 
-1. (Opcional) Si desea añadir un elemento del panel izquierdo que se vincule a uno de los paneles de su organización, haga clic en **[!UICONTROL Añadir sección personalizada]**, escriba un **[!UICONTROL título de sección personalizada]** para el elemento y, a continuación, añada el panel.
+1. (Opcional) Si desea agregar un elemento del panel izquierdo que se vincule a uno de los paneles de su organización, haga clic en **[!UICONTROL Agregar panel]**, escriba el **[!UICONTROL nombre del vínculo rápido]** para el elemento y, a continuación, elija el panel.
 
-   Los elementos del panel aparecen en la parte inferior del panel izquierdo. Los usuarios ven el título de la sección personalizada que escriba junto al elemento de panel cuando pasan el ratón por encima en el panel izquierdo.
+   Debe generar el tablero antes de que aparezca en la lista.
+
+   Los elementos del panel aparecen en la parte inferior del panel izquierdo.
 
    >[!NOTE]
    >
-   >Los usuarios pueden añadir elementos de panel personalizados a su propio panel izquierdo. Cuando se agregan elementos de panel personalizados a una plantilla de diseño, los elementos se muestran además de los que agregan, sin sobrescribirlos ni restablecerlos. Esto también se aplica si asigna usuarios a una nueva plantilla de diseño con elementos de panel personalizados. Para obtener información acerca de cómo personalizar el panel izquierdo, consulte [Crear pestaña o secciones personalizadas](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md).
+   >Los usuarios pueden añadir elementos de panel de control personalizados a su propio panel izquierdo. Cuando se agregan elementos de panel personalizados a una plantilla de diseño, los elementos se muestran además de los que agregan, sin sobrescribirlos ni restablecerlos. Esto también se aplica si asigna usuarios a una nueva plantilla de diseño con elementos de panel de control personalizados. Para obtener información acerca de cómo los usuarios pueden personalizar el panel izquierdo, vea [Agregar un panel en el panel izquierdo de un objeto o área de Workfront](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md).
    >
-   >Para obtener información sobre los paneles, consulte [Paneles](../../../reports-and-dashboards/dashboards/dashboards-overview.md).
+   >Para obtener información sobre los paneles de control, consulte [Paneles de control](../../../reports-and-dashboards/dashboards/dashboards-overview.md).
 
 1. Siga personalizando la plantilla de diseño.
 
