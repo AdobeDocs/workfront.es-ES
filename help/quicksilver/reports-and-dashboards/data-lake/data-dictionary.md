@@ -66,7 +66,7 @@ La siguiente tabla correlaciona los nombres de objeto en Workfront (así como su
 >[!NOTE]
 >
 >Se pueden añadir nuevos campos a las vistas de objetos sin previo aviso para satisfacer las cambiantes necesidades de datos de la aplicación de Workfront. Advertimos que no se deben utilizar consultas &quot;SELECT&quot; en las que el destinatario de datos descendente no esté preparado para gestionar columnas adicionales a medida que se agregan.<br>
->>Si es necesario cambiar el nombre de una columna o eliminarla, notificaremos estos cambios con antelación.
+>&#x200B;>Si es necesario cambiar el nombre de una columna o eliminarla, notificaremos estos cambios con antelación.
 
 ### Nivel de acceso
 
