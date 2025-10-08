@@ -6,10 +6,10 @@ description: Las actualizaciones son de un objeto que incluye un botón que util
 author: Becky
 feature: Get Started with Workfront
 exl-id: d0c26f90-a01b-4226-b6a0-647808f71e08
-source-git-commit: 769cacc12f35b019f8c97c243681f4adb3a3c0c9
+source-git-commit: 440d9af6915184b7e91ca257e02be4a234fb91e0
 workflow-type: tm+mt
-source-wordcount: '379'
-ht-degree: 0%
+source-wordcount: '378'
+ht-degree: 17%
 
 ---
 
@@ -34,8 +34,8 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plan de Adobe Workfront</td> 
-   <td><p>Nuevo: Cualquiera</p>
+   <td role="rowheader">Plan de Adobe Workfront</td> 
+   <td><p>Nuevo: cualquiera</p>
        <p>o</p>
        <p>Actual: no disponible</p></td>
   </tr> 
@@ -57,7 +57,7 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
   Para obtener más información, consulte [Requisitos previos para el asistente de IA](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant) en el artículo Información general del asistente de IA.
 * El administrador de Workfront debe haber habilitado el asistente de IA para su nivel de acceso.
 
-  Para obtener más información, consulte [Habilitar o deshabilitar el Asistente para IA](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md).s
+  Para obtener más información, consulte [Habilitar o deshabilitar el asistente de IA](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md).
 
 ## Resumir con el botón Resumir contenido
 
@@ -78,7 +78,7 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
 Para ver un resumen de un objeto:
 
 1. Desplácese hasta el objeto para el que desee ver un resumen.
-1. Haga clic en el icono **Asistente de IA** ![Icono del Asistente de IA](assets/ai-assistant-icon.png) cerca de la esquina superior derecha de la pantalla.
+1. Haga clic en el icono **Asistente de IA** ![icono Asistente de IA](assets/ai-assistant-icon.png) cerca de la esquina superior derecha de la pantalla.
 1. En el panel Asistente de IA, introduzca un mensaje de solicitud como:
 
    * Proporcione un resumen en tres frases
