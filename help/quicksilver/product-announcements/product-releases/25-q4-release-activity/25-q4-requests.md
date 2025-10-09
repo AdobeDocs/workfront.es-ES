@@ -23,8 +23,8 @@ Para obtener una lista de todos los cambios disponibles en este punto del ciclo 
 >[!NOTE]
 >
 >Vista previa: 2 de octubre de 2025
->>Versión rápida de producción: 15 de octubre de 2025
->>Producción para todos: 16 de octubre de 2025
+>&#x200B;>Versión rápida de producción: 15 de octubre de 2025
+>&#x200B;>Producción para todos: 16 de octubre de 2025
 
 Para facilitar la visualización de la información que necesita, hemos añadido la capacidad de crear y guardar vistas en el área de Solicitudes. Ahora puede guardar una vista, incluidos los filtros y las configuraciones de columna, y cambiar entre vistas. Un administrador de Workfront puede agregar la nueva vista a las plantillas de diseño.
 
