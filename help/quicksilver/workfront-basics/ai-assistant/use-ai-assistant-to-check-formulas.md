@@ -1,80 +1,86 @@
 ---
-title: Revisión de fórmulas de campos calculados con el Asistente de IA
+title: Revisión de fórmulas de campos calculados con el asistente de IA
 content-type: reference
-description: Puede utilizar el Asistente de IA para resolver errores en las expresiones personalizadas no válidas en los campos calculados.
+description: Puede utilizar el asistente de IA para resolver errores en las expresiones personalizadas no válidas en campos calculados.
 author: Becky
 feature: Get Started with Workfront
 exl-id: 5f144a6f-5c2a-42fc-a961-ab9066432d93
-source-git-commit: bec1318d83938964697d76b83062ef11745802e3
+source-git-commit: 46fdc768adade4872d636014c0e215c5f129d1de
 workflow-type: tm+mt
-source-wordcount: '340'
-ht-degree: 0%
+source-wordcount: '46'
+ht-degree: 50%
 
 ---
 
 # Generar o revisar fórmulas de campos calculados con el Asistente de IA
 
-Puede utilizar el Ayudante de IA para generar fórmulas basadas en una solicitud proporcionada. También puede resolver errores en las expresiones personalizadas no válidas en los campos calculados.
+>[!IMPORTANT]
+>
+>La funcionalidad para generar fórmulas con el Asistente de IA se ha eliminado de Adobe Workfront.
 
-## Requisitos de acceso
 
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
+<!-- You can use AI Assistant to generate formulas based on a prompt you provide. You can also resolve errors in your invalid custom expressions in calculated fields.
+
+## Access requirements
+
+You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plan de Adobe Workfront</td> 
-   <td><p>Nuevo: Prime o Ultimate</p>
-       <p>o</p>
-       <p>Actual: no disponible</p></td>
+   <td role="rowheader">Adobe Workfront plan</td> 
+   <td><p>New: Prime or Ultimate</p>
+       <p>or</p>
+       <p>Current: Not available</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Licencia de Adobe Workfront</td> 
-   <td><p>Nuevo: estándar</p>
-       <p>o</p>
-       <p>Actual: no disponible</p></td>
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td><p>New: Standard</p>
+       <p>or</p>
+       <p>Current: Not available</p></td>
   </tr> 
  </tbody> 
 </table>
 
-Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-## Requisitos previos
+## Prerequisites
 
-* El administrador de Workfront debe haber habilitado el Asistente de IA para su organización.
+* Your Workfront administrator must have enabled AI Assistant for your organization.
 
-  Para obtener más información, consulte [Requisitos previos para el asistente de IA](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant) en el artículo Información general del asistente de IA.
-* El administrador de Workfront debe haber habilitado el asistente de IA para su nivel de acceso.
+    For more information, see [Prerequisites to AI Assistant](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant) in the article AI Assistant overview.
+* Your Workfront administrator must have enabled AI Assistant for your access level.
 
-  Para obtener más información, consulte [Habilitar o deshabilitar el Asistente para IA](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md).
+   For more information, see [Enable or disable AI Assistant](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md).
 
 <!--## Generate a calculated field expression-->
 
-## Revisión de una expresión de campo calculado
+<!-- ## Revise a calculated field expression
 
-Al crear el campo calculado en el generador de formularios personalizado, aparece un mensaje de error debajo del campo si la fórmula no es válida.
+When you are creating the calculated field in the custom form builder, an error message appears under the field if the formula is invalid.
 
-![Error de expresión no válido](assets/invalid-expression.png)
+![Invalid expression error](assets/invalid-expression.png)
 
-El Asistente de IA puede ayudarle a revisar la fórmula para convertirla en una expresión de campo calculado válida.
+AI Assistant can help you revise your formula into a valid calculated field expression.
 
-Para revisar una expresión de campo calculado no válida:
+To revise an invalid calculated field expression:
 
-1. Haga clic en el icono **Asistente de IA** ![Icono del Asistente de IA](assets/ai-assistant-icon.png) cerca de la esquina superior derecha de la pantalla.
-1. en el área de solicitud cerca de la parte inferior del panel Asistente de IA, introduzca una solicitud como:
-   `Rewrite this formula to remove the invalid expression error`
-1. Copie la expresión no válida del creador de formularios personalizados y péguela en el área de solicitud.
-1. Presione **Intro**.
+1. Click the **AI Assistant** icon ![AI Assistant icon](assets/ai-assistant-icon.png) near the upper-right corner of the screen.
+1. in the prompt area near the bottom of the AI Assistant panel, enter a prompt such as:
+`Rewrite this formula to remove the invalid expression error`
+1. Copy the invalid expression from the custom form builder, and paste it into the prompt area.
+1. Press **Enter**.
 
-   El Asistente de IA puede tardar unos momentos en generar la fórmula revisada, según su tamaño o complejidad.
-1. Vea la fórmula revisada en el panel Asistente para IA.
-1. (Opcional) Copie la fórmula revisada del panel Asistente de IA y péguela en el campo calculado del creador de formularios personalizados.
+   AI Assistant may take a few moments to generate the revised formula, depending on how large or complex the formula is.
+1. View the revised formula in the AI Assistant panel.
+1. (Optional) Copy the revised formula from the AI Assistant panel, and paste it into the calculated field in the custom form builder.
 
 >[!NOTE]
 >
->Se recomienda probar el campo calculado para asegurarse de que recupera el resultado esperado.
+>We recommend testing the calculated field to ensure that it retrieves the expected result.
 
-Para obtener más información sobre los campos calculados en Workfront, consulte [Agregar campos calculados a un formulario](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
+For more information on calculated fields in Workfront, see [Add calculated fields to a form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
 
+-->
