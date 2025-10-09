@@ -1,25 +1,38 @@
 ---
 navigation-topic: betas
 title: Programas Beta
-description: Obtenga información acerca de las versiones Beta actuales en Adobe Workfront.
+description: Obtenga información acerca de las nuevas funciones de Adobe Workfront que actualmente están disponibles para todos los clientes o un número limitado de ellos en una versión beta.
 author: Alina
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: c46e625f-b3d5-4bdd-827b-5b16493cdc6b
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: e717e095f1995dbed0232789616d42492156d843
 workflow-type: tm+mt
-source-wordcount: '55'
-ht-degree: 100%
+source-wordcount: '112'
+ht-degree: 16%
 
 ---
 
 # Programas Beta
 
-Los artículos vinculados desde esta página describen los programas beta disponibles actualmente en Adobe Workfront. Es posible que las funciones disponibles en la versión beta no estén disponibles para todos los clientes.
+Los artículos vinculados desde esta página describen los programas beta actuales disponibles en Adobe Workfront.
 
-Los siguientes artículos contienen información sobre las funciones que se encuentran actualmente en la versión beta:
+Es posible que los programas de Beta que se ejecutan en versiones limitadas y se administran de forma privada no aparezcan en esta página.
 
-* [Información beta de los paneles de lienzo](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md)
+Es posible que las funciones disponibles en la versión beta no estén disponibles para todos los clientes.
+
+Las siguientes funciones están disponibles actualmente en la versión beta:
+
+* Tablero de lienzo
+
+  Para obtener más información, consulte [Información beta de paneles de lienzo](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md).
+
+* Estado del proyecto
+
+  Para obtener más información, consulte [Resumen de mantenimiento del proyecto](/help/quicksilver/workfront-basics/ai-assistant/project-health-overview.md).
+
+* El revisor de IA de Workfront
+Para obtener más información, consulte [Introducción al Revisor de IA de Workfront](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md).
 
 
 <!--

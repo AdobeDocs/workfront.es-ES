@@ -8,10 +8,10 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: c1e2f374-576c-4f1c-b502-281e8ee9e7df
-source-git-commit: fbf902196c9f5b55ddd1e20516e4237309dff2ed
+source-git-commit: e717e095f1995dbed0232789616d42492156d843
 workflow-type: tm+mt
-source-wordcount: '889'
-ht-degree: 53%
+source-wordcount: '820'
+ht-degree: 57%
 
 ---
 
@@ -27,13 +27,13 @@ NOTE: DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THR
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
-<div class="preview">
+<!--<div class="preview"> 
 
-La información resaltada en esta página hace referencia a funcionalidades que aún no están disponibles de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Las mismas funciones también estarán disponibles en el entorno de producción para todos los clientes a partir de una semana desde la versión de vista previa.
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
 
-Para obtener más información, vea [Modernización de la interfaz](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
 
-</div>
+</div> -->
 
 Como administrador de Adobe Workfront, puede crear rutas de hitos que luego se pueden aplicar a cualquier proyecto del sistema. Los cambios que realice en las rutas de hitos en esta área afectarán a todo el sistema de Workfront.
 
@@ -85,13 +85,9 @@ Para obtener más información sobre cómo asociar una ruta de hitos a un proyec
 1. Haga clic en **Procesos** > **Rutas de hitos**.
 1. Haga clic en **Nueva ruta de hitos.**
 
-   <div class="preview">
-
    Se abre el cuadro Nueva ruta de hitos.
 
    ![Nuevo cuadro de ruta de hitos](assets/new-milestone-path-box.png)
-
-   </div>
 
 1. Haga clic en **Información básica** en el panel izquierdo.
 
@@ -118,8 +114,7 @@ Para obtener más información sobre cómo asociar una ruta de hitos a un proyec
 
 1. Haga clic en **Hitos** en el panel izquierdo.
 
-1. En el entorno Producción, haga clic en **Agregar hito** para agregar hitos a la ruta.
-   <span class="preview">En el entorno de vista previa, haga clic en **Nueva fila** para agregar hitos a la ruta de acceso.</span>
+1. Haga clic en **Nueva fila** para agregar hitos a la ruta.
 1. Actualice la siguiente información:
 
    <table style="table-layout:auto"> 

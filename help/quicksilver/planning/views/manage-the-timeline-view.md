@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 5b9b1f397c76afa2e2ae550e0ce62a6038b8bd86
+source-git-commit: e717e095f1995dbed0232789616d42492156d843
 workflow-type: tm+mt
-source-wordcount: '3962'
+source-wordcount: '3985'
 ht-degree: 42%
 
 ---
@@ -198,10 +198,19 @@ Para administrar una vista de línea de tiempo:
 
      <span class="preview">Para obtener más información, consulte [Crear registros](/help/quicksilver/planning/records/create-records.md).</span>
 
+   <!--Andrea verifying>[!TIP]
+    >
+    ><span class="preview">Double-clicking to create records in the timeline is not possible inside of a grouping.</span>-->
+
    * <span class="preview">Haga clic en el margen izquierdo o derecho de una barra de registros y, a continuación, arrástrela y suéltela en una nueva posición. Al cambiar el tamaño de las barras de los registros, se actualizan inmediatamente las fechas de inicio y finalización. </span>
 
    * <span class="preview">Arrastre y suelte los registros para actualizar su posición y fechas en la cronología. Al mover las barras de los registros, se actualizan las fechas de inicio y finalización inmediatamente.</span>
      <span class="preview">Para obtener más información, consulte [Editar registros](/help/quicksilver/planning/records/edit-records.md).</span>
+
+   >[!TIP]
+   >
+   ><span class="preview"> No es posible cambiar el tamaño y arrastrar y soltar registros en la cronología para los tipos de objetos de Workfront y AEM Assets mostrados en el desglose.</span>
+
 
 1. Actualice los siguientes elementos de vista como se describe en las subsecciones siguientes:
    * [Filtros](#add-filters)

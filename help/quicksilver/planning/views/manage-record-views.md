@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: 03c1f17504846fc4b8c4114ddc32df687281bc07
+source-git-commit: e717e095f1995dbed0232789616d42492156d843
 workflow-type: tm+mt
-source-wordcount: '1287'
-ht-degree: 47%
+source-wordcount: '1308'
+ht-degree: 46%
 
 ---
 
@@ -217,6 +217,7 @@ En la tabla siguiente se muestran las similitudes y diferencias entre las vistas
 
    <span class="preview">![Crear cuadro de vista](assets/create-view-box.png)</span>
 
+1. <span class="preview">Para editar una vista existente, escriba el nombre de una vista en el campo **Buscar** y presione Entrar en el teclado.</span>
 1. <span class="preview">En el menú desplegable de vista, arrastre y suelte las vistas según sus preferencias.</span>
 
    <span class="preview">![Lista desplegable de tipos de vista de la lista de tipos de registro](assets/view-types-drop-down-from-record-type-list.png)</span>
