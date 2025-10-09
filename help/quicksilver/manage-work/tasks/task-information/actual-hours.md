@@ -7,10 +7,10 @@ description: Las horas que inicie sesión en los elementos de trabajo en Adobe W
 author: Alina
 feature: Work Management
 exl-id: c4b0e431-1765-416d-89f5-6ac663ac1d4f
-source-git-commit: de42974a9a5c4c346ef3ae1cce09968befd1381c
+source-git-commit: d577fb1f84c2a91c7b4a37be271235ffa338c9fd
 workflow-type: tm+mt
-source-wordcount: '1178'
-ht-degree: 32%
+source-wordcount: '1253'
+ht-degree: 30%
 
 ---
 
@@ -75,11 +75,14 @@ Según el área de Workfront desde la que acceda a las horas reales, podrían ha
      >
      >El costo real del proyecto utiliza las horas reales heredadas para calcular.
 
+* En el área de detalles del proyecto, tarea o problema, las horas reales se podrían mostrar en los siguientes campos:
 
-* En el área Detalles del proyecto, tarea o problema:
+   * **Horas reales**: en la pestaña Detalles, se trata de horas registradas para proyectos, tareas o problemas posteriores a mayo de 2021. Se almacenan en la base de datos de Workfront en horas y su campo de valor es `actualWorkRequiredDouble`.
+   * **Horas reales**: en un formulario personalizado de proyecto, tarea o problema, cuando se accede a ellas mediante un campo personalizado de referencia de campo nativo que hace referencia al campo nativo Horas reales. Son horas registradas para proyectos, tareas o problemas posteriores a mayo de 2021. Se almacenan en la base de datos de Workfront en horas y su campo de valor es `actualWorkRequiredDouble`.
 
-   * **Horas reales**: Horas registradas para proyectos, tareas o problemas después de mayo de 2021. Se almacenan en la base de datos de Workfront en horas y su campo de valor es `actualWorkRequiredDouble`.
-   * **Horas reales**: cuando se tiene acceso a ellas mediante un campo personalizado de referencia de campo nativo en un formulario personalizado de proyecto, tarea o problema.
+>[!NOTE]
+>
+>Se recomienda utilizar el campo Horas reales siempre que sea posible, ya que el campo Horas reales heredadas podría mostrar horas imprecisas debido a la forma en que se redondean los incrementos.
 
 ## Horas reales en tareas y problemas frente a horas reales en proyectos
 
