@@ -6,10 +6,10 @@ description: El Hogar te ayuda a administrar tu trabajo. Puede personalizar este
 author: Courtney
 feature: Get Started with Workfront
 exl-id: eddb2db0-88c5-40f9-ba05-14839a3dfc7f
-source-git-commit: 884ade1102e685ec01af2790b17acb50c2114ca7
+source-git-commit: 1cb165e826ee57483989474c095553a08e33bc9a
 workflow-type: tm+mt
-source-wordcount: '1093'
-ht-degree: 74%
+source-wordcount: '1106'
+ht-degree: 73%
 
 ---
 
@@ -57,7 +57,7 @@ A continuación se muestran los 11 widgets disponibles actualmente para elegir, 
 * **Mis solicitudes**\
     Muestra todas las solicitudes enviadas, un filtro para mostrar solo las solicitudes abiertas y un botón que abre el panel de resumen de una solicitud.
 
-  <span class="preview">En el entorno de vista previa, este widget muestra todas las solicitudes que ha enviado, un filtro para mostrar solamente las solicitudes que cumplen los criterios especificados y un botón que permite reorganizar las columnas del widget.</span>
+  <span class="preview">En el entorno de vista previa, este widget muestra todas las solicitudes que ha enviado, un filtro para mostrar solamente las solicitudes que cumplen con los criterios especificados y un botón que le permite reorganizar las columnas en el widget. Si tiene acceso a Workfront Planning, sus solicitudes de Planning también aparecerán aquí.</span>
 
 
 * **Solicitudes de equipo**\
