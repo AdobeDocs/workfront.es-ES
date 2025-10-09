@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: bd73b7df-ad4e-43dc-8ddf-23e0da24ec0f
-source-git-commit: f75f44c3c5ea4c281c0c9fe916ea8261d3500fb0
+source-git-commit: 94e81f50ca38ab8139684887c58e0f00353587d7
 workflow-type: tm+mt
-source-wordcount: '388'
+source-wordcount: '386'
 ht-degree: 10%
 
 ---
@@ -23,8 +23,8 @@ Para obtener una lista de todos los cambios disponibles en este punto del ciclo 
 >[!NOTE]
 >
 >Vista previa: 2 de octubre de 2025
->&#x200B;>Versión rápida de producción: 15 de octubre de 2025
->&#x200B;>Producción para todos: 16 de octubre de 2025
+>>Versión rápida de producción: 15 de octubre de 2025
+>>Producción para todos: 16 de octubre de 2025
 
 Para facilitar la visualización de la información que necesita, hemos añadido la capacidad de crear y guardar vistas en el área de Solicitudes. Ahora puede guardar una vista, incluidos los filtros y las configuraciones de columna, y cambiar entre vistas. Un administrador de Workfront puede agregar la nueva vista a las plantillas de diseño.
 
@@ -71,7 +71,7 @@ Esta actualización también incluye cambios en el aspecto de la página.
 Tenga en cuenta lo siguiente al utilizar la nueva experiencia de solicitud:
 
 * Actualmente solo puede encontrar borradores en la experiencia de solicitud heredada. En la nueva experiencia, solo puede ver borradores cuando está en una cola de flujo de trabajo si tiene un borrador en la misma ruta.
-* Actualmente, la nueva experiencia solo muestra solicitudes creadas en los últimos 1,5 meses. Para ver solicitudes anteriores, puede deshabilitar temporalmente la nueva experiencia y acceder a las solicitudes anteriores a través de la experiencia anterior.
+* Actualmente, la nueva experiencia solo muestra solicitudes creadas después de julio de 2025. Para ver solicitudes anteriores, puede deshabilitar temporalmente la nueva experiencia y acceder a las solicitudes anteriores a través de la experiencia anterior.
 
 Anteriormente, las solicitudes de Workfront y Workfront Planning estaban en pestañas independientes y los filtros no se podían personalizar.
 
