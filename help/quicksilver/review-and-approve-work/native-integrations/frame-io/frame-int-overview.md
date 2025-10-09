@@ -7,9 +7,9 @@ author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: b5f0150b-40b5-4386-98bc-374e7ca65b74
-source-git-commit: f8d81996846f7b719bf3e5e8aaa2ad9ba1805cff
+source-git-commit: 07fa7207960f424cc8580eb46fe13bd5af4e56a8
 workflow-type: tm+mt
-source-wordcount: '751'
+source-wordcount: '815'
 ht-degree: 0%
 
 ---
@@ -20,17 +20,14 @@ La integración de Workfront y Frame.io permite a los coordinadores de proyectos
 
 ## Requisitos de integración
 
-Adobe Professional Services debe habilitar la integración de Workfront y Frame.io.
+* Workfront y Frame.io deben implementarse en la misma organización de Identity Management system (IMS).
 
-<!--
-* Workfront and Frame.io must be deployed to the same Identity Management system (IMS) organization.
+* Los usuarios solo pueden pertenecer a una instancia de Workfront dentro de la organización IMS.
 
-* Users can belong to only one Workfront instance within the IMS organization.
+* La instancia de Workfront debe habilitarse en la experiencia unificada de Adobe y en el almacenamiento empresarial de Adobe.
 
-* The Workfront instance must be enabled on the Adobe Unified Experience.
+* Adobe Professional Services debe configurar la integración.
 
-* The integration is configured by Adobe Professional Services. 
--->
 
 ## Basado en el almacenamiento empresarial de Adobe
 
@@ -39,7 +36,7 @@ El núcleo de esta integración es el almacenamiento empresarial de Adobe, una s
 Entre las ventajas clave del almacenamiento empresarial de Adobe se incluyen:
 
 * Capa de almacenamiento unificada para recursos creativos y de administración de trabajo
-* Permisos centralizados a través de Adobe IMS para el control de acceso seguro
+* Permisos centralizados a través del sistema Adobe Identity Management (IMS) para el control de acceso seguro
 * Visibilidad completa de recursos entre Workfront y Frame.io <!--, and Creative Cloud apps -->
 * Almacenamiento escalable y administración de cuotas para las necesidades empresariales
 
@@ -80,7 +77,7 @@ Este límite no se aplica a los clientes de Frame.io Enterprise.
 
 #### Tipos de archivo compatibles con el visor Frame.io
 
-El visor Frame.io es compatible con todos los tipos comunes de vídeo, imagen, audio, PDF y MS® Office. Para obtener una lista detallada de los archivos compatibles, consulte [Tipos en Frame.io](https://help.frame.io/en/articles/9436564-supported-file-types-on-frame-io).
+El visor Frame.io es compatible con todos los tipos comunes de vídeo, imagen, audio, PDF y MS® Office. Para obtener una lista detallada de los archivos compatibles, consulte [Tipos de archivo compatibles en Frame.io](https://help.frame.io/en/articles/9436564-supported-file-types-on-frame-io).
 
 #### Acceso y licencias para el visor Frame.io
 
@@ -98,11 +95,13 @@ Para obtener más información acerca de la administración de proyectos en Work
 
 ### Convenciones de nomenclatura y estructura forzadas
 
-Debido a que esta integración se crea mediante ESM, existen algunas convenciones de estructura y nomenclatura obligatorias que se deben tener en cuenta al administrar proyectos y documentos.
+Debido a que esta integración se crea mediante Adobe Enterprise Storage, existen algunas convenciones de estructura y nomenclatura obligatorias que se deben tener en cuenta al administrar proyectos y documentos.
 
 * Los nombres de objeto deben ser únicos y no se pueden duplicar
-* ESM requiere nombres únicos para los objetos del mismo nivel con el mismo elemento principal en el árbol de jerarquías
+* Adobe Enterprise Storage requiere nombres únicos para objetos del mismo nivel con el mismo elemento principal en el árbol de jerarquías
 * Los documentos no pueden tener el mismo nombre si pertenecen al mismo proyecto
+* Los nombres de documento no pueden contener ninguno de los siguientes caracteres especiales: \ / : * ? &quot; | &lt; >
+* Los nombres de documento están limitados a un máximo de 255 caracteres
 
 Teniendo en cuenta estas limitaciones, Workfront cambia automáticamente el nombre de los objetos o documentos según sea necesario para evitar conflictos.
 
