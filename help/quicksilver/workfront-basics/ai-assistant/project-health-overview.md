@@ -5,9 +5,9 @@ description: La función Project Health utiliza el poder del Asistente de IA par
 author: Jenny
 feature: Get Started with Workfront
 exl-id: e4d200c6-7f35-4919-96d3-2880a655ed62
-source-git-commit: 81f2787a5a9dd4f3737f3494c824502fe4abe59d
+source-git-commit: d1ded406b8c4da975e2ff4d6825954cabd483ed2
 workflow-type: tm+mt
-source-wordcount: '1487'
+source-wordcount: '1488'
 ht-degree: 4%
 
 ---
@@ -73,7 +73,7 @@ Para habilitar el Asistente de IA y el Estado del proyecto para su organización
 * La experiencia unificada de Adobe debe estar habilitada.
 * Adobe debe tener registrado un acuerdo de Adobe Gen AI.
 * El administrador de Workfront debe habilitar el Asistente de IA para los usuarios de su organización. El asistente de IA se habilita mediante niveles de acceso.
-* Las opciones Habilitar IA y Estado del proyecto deben estar seleccionadas en la sección Preferencias de IA en Configuración > Preferencias.
+* Las opciones Habilitar IA y Estado del proyecto deben estar seleccionadas en la sección Preferencias de IA en Configuración > Sistema > Preferencias.
 
   ![Sección de preferencias de IA](assets/ai-preferences.png)
 
