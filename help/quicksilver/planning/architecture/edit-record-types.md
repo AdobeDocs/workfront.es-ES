@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7d6de742-9657-4286-968c-1fc78ebbb94e
-source-git-commit: a4bb3582eb476acbefa5d11db1f2c06eafc13cdd
+source-git-commit: 393f858ba3711b367cf06ad846ea60be0d6d9034
 workflow-type: tm+mt
 source-wordcount: '692'
-ht-degree: 34%
+ht-degree: 33%
 
 ---
 
@@ -26,7 +26,7 @@ Los tipos de registro son los tipos de objetos de Adobe Workfront Planning. Pued
 
 ## Requisitos de acceso
 
-+++ Amplíe para ver los requisitos de acceso.
++++ Amplíe para ver los requisitos de acceso. 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -88,13 +88,13 @@ Los tipos de registro son los tipos de objetos de Adobe Workfront Planning. Pued
 
 *Para obtener más información sobre los requisitos de acceso de Workfront, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-+++
++++   
 
 ## Editar tipos de registro
 
 {{step1-to-planning}}
 
-1. Haga clic en el espacio de trabajo cuyos tipos de registro desee editar.
+1. Haga clic en el área de trabajo cuyos tipos de registro desee editar.
 
    Se abre la página del espacio de trabajo y se muestran los tipos de registro.
 1. Realice una de las siguientes acciones:
@@ -127,7 +127,7 @@ O
          * **Specific workspaces**: Add the names of the workspaces where workspace managers can connect to this record type.-->
 
 
-1. (Opcional y condicional) Si es administrador del sistema, haga clic en **Configuración avanzada** y actualice la siguiente información en la sección **Capacidad entre espacios de trabajo**: <!--the info here is duplicated in the Create record types article-->
+1. (Opcional y condicional) Si es administrador del sistema, haga clic en **Configuración avanzada** y actualice la siguiente información en la sección **Capacidad entre espacios de trabajo**: <!--take this info out and replace it with a link to this article: help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md-->
    * Habilitar la configuración **Permitir la conexión a este tipo de registro en otros espacios de trabajo**: permite a los administradores de espacios de trabajo conectarse a este tipo de registro desde otros espacios de trabajo.\
      Puede designar desde qué espacios de trabajo se puede conectar este tipo de registro. Puede ponerlo a disposición de todos los espacios de trabajo o designar espacios específicos donde pueda importarlo.
 Para obtener más información, vea [Configurar las capacidades entre espacios de trabajo para los tipos de registro](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md).

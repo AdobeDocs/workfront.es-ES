@@ -6,14 +6,16 @@ description: Puede ver los problemas asociados a un proyecto, tarea o iteración
 author: Alina
 feature: Work Management
 exl-id: b6791c8f-b356-4235-8b0e-952e29a88952
-source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
+source-git-commit: 393f858ba3711b367cf06ad846ea60be0d6d9034
 workflow-type: tm+mt
-source-wordcount: '1038'
-ht-degree: 98%
+source-wordcount: '1027'
+ht-degree: 97%
 
 ---
 
 # Ver problemas
+
+<!--Audited: 10/2025-->
 
 Puede ver los problemas asociados a un proyecto, tarea o iteración.
 
@@ -138,11 +140,14 @@ Para acceder a un problema y ver información sobre él:
 
 ## Ver qué proyectos y tareas tienen problemas
 
-Puede añadir iconos en la vista de un informe o lista de proyectos o tareas para mostrar si tienen problemas adjuntos. Añadir iconos a la vista de un informe o lista es similar para proyectos y tareas.
+Puede agregar iconos en la vista de un informe o lista de proyectos o tareas para mostrar si tienen problemas adjuntos.
+
+Añadir iconos a la vista de un informe o lista es similar para proyectos y tareas.
 
 Para añadir iconos que muestren si un proyecto tiene problemas en un informe de proyecto:
 
-1. Haga clic en el icono **Menú principal** ![Icono del menú principal](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront.
+{{step1-click-main-menu}}
+
 1. Haga clic en **Informes** > **Nuevo informe** > **Informe del proyecto**.
 1. En el campo **Mostrar en esta columna**, empiece a escribir **Iconos de estado** y, a continuación, selecciónelo cuando aparezca en la lista.
 
@@ -150,4 +155,4 @@ Para añadir iconos que muestren si un proyecto tiene problemas en un informe de
 
    Los iconos de problemas se muestran en los proyectos que tienen problemas en la columna **Iconos de estado**.
 
-   ![project_list_with_issue_icon.png](assets/project-list-with-issue-icon-350x132.png)
+   ![Lista de proyectos con icono de problema](assets/project-list-with-issue-icon-350x132.png)
