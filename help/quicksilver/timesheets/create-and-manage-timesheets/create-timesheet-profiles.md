@@ -6,18 +6,16 @@ description: Puede crear, editar y asignar perfiles de hojas de horas que genere
 author: Lisa
 feature: Timesheets
 exl-id: 8f4826bd-82b4-4157-a7d4-a7c94b8fc879
-source-git-commit: 611c3c947855610cf86cdcbf96d1e9d847e34f38
+source-git-commit: 395a7788ddfda71264b7b964953435affd7761e9
 workflow-type: tm+mt
-source-wordcount: '1668'
-ht-degree: 66%
+source-wordcount: '1597'
+ht-degree: 68%
 
 ---
 
 # Crear, editar y asignar perfiles de plantillas de horas
 
 <!--Audited: 06/2025-->
-
-<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa de espacio aislado y se va a lanzar en un despliegue gradual en Producción.</span>
 
 Puede crear, editar y asignar perfiles de hojas de horas que generen hojas de horas recurrentes para sus usuarios sin ninguna intervención por su parte. Esto le permite ahorrar tiempo y garantiza la coherencia de los siguientes elementos entre los usuarios:
 
@@ -151,13 +149,11 @@ Para obtener más información sobre cómo crear manualmente una hoja de horas, 
 
    * **Notificaciones de recordatorio**: agregue una notificación de recordatorio. Workfront enviará recordatorios a los usuarios para pedirles que completen o aprueben sus plantillas de horas. Debe crear notificaciones de recordatorio antes de poder asociarlas a un perfil de hoja de horas.
 
-1. Al crear perfiles de hojas de horas de nivel de grupo en Producción, haga clic en la ficha **Asignar personas** para asociar el perfil de hojas de horas con usuarios, grupos o equipos específicos (si es administrador de Workfront). <!--To associate the timesheet profile with specific users, groups, or (if you are a Workfront administrator) teams, scroll towards the bottom of the page and find the **Assign People** section.-->
-
-   <span class="preview">Al crear perfiles de hojas de horas de nivel de grupo en Vista previa, desplácese hacia la parte inferior de la página y busque la sección **Asignar personas**.</span>
-
-   Al crear perfiles de hojas de horas para el sistema, desplácese hacia la parte inferior de la página y busque la sección **Asignar personas**.
+1. Para asociar el perfil de hoja de horas con usuarios, grupos o equipos específicos (si es administrador de Workfront), desplácese hacia la parte inferior de la página y busque la sección **Asignar personas**.
 
    Empiece a escribir el nombre del usuario, grupo o equipo y, a continuación, haga clic en él cuando aparezca en la lista desplegable.
+
+   <!--To associate the timesheet profile with specific users, groups, or (if you are a Workfront administrator) teams, scroll towards the bottom of the page and find the **Assign People** section.-->
 
    Si es administrador de un grupo, puede asignar el perfil de la plantilla de horas a los grupos que administre, pero no a los equipos. Para obtener más información, consulte [Limitaciones para un administrador de grupo que asigna un perfil de plantilla de horas](#limitations-for-a-group-administrator-assigning-a-timesheet-profile) en este artículo.
 
