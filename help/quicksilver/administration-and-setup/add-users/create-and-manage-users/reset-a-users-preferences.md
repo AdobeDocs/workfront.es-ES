@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: abe026d0-3584-49f3-a6db-ef88b3aab186
-source-git-commit: 4a7362ae663b73ce48f049556145b4de3e6a6ac9
+source-git-commit: 7dd278fdf07824edd3336597d20209e25cad88d8
 workflow-type: tm+mt
 source-wordcount: '404'
 ht-degree: 89%
@@ -146,7 +146,7 @@ Al restablecer las preferencias de usuario, algunas se revierten al valor predet
 1. Presione **Intro**.
 1. Para restablecer todas las preferencias de usuario, seleccione **Restablecer**.
 
-<!--When this is unshimmed, adjust the comment tags to hide these last two lines, because the Reset Tabs button is going away.-->
+   <!--When this is unshimmed, adjust the comment tags to hide these last two lines, because the Reset Tabs button is going away.-->
 O
 
-Para restablecer solamente las pestañas personalizadas, seleccione **Restablecer pestañas**.
+   Para restablecer solamente las pestañas personalizadas, seleccione **Restablecer pestañas**.
