@@ -43,7 +43,7 @@ El panel de control contiene lo siguiente:
 
 ![Panel](assets/dashboard-350x495.png)
 
-Puede personalizar la marca de su cuenta para mostrar el logotipo de su propia organización, los colores, los vínculos personalizados y mucho más. Para obtener más información, consulte [Personalizar la marca del sitio de  [!DNL Workfront Proof] ](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site.md).
+Puede personalizar la marca de su cuenta para mostrar el logotipo de su propia organización, los colores, los vínculos personalizados y mucho más. Para obtener más información, consulte [Personalizar la marca del sitio de  [!DNL Workfront Proof] &#x200B;](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site.md).
 
 Si no personaliza la marca de su cuenta, aparecerán el logotipo y los colores estándar de [!DNL Workfront Proof].
 

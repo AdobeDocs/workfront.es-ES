@@ -392,7 +392,7 @@ Obtenga más información sobre soluciones de reemplazo para cada herramienta es
 
 ### Seminario web sobre la versión 21.1 {#21-1-release-webinar}
 
-El seminario web sobre la versión 21.1 de Workfront se presentará el 3 de febrero a las 11:00 h EDT/16:00 h BST. Regístrese para el seminario web [aquí](https://event.on24.com/eventRegistration/EventLobbyServlet?target=reg20.jsp&amp;partnerref=ac&amp;eventid=2934272&amp;sessionid=1&amp;key=5C231B3385686D1E224A49EBE0BF0E37&amp;regTag=&amp;V2=false&amp;sourcepage=register).
+El seminario web sobre la versión 21.1 de Workfront se presentará el 3 de febrero a las 11:00 h EDT/16:00 h BST. Regístrese para el seminario web [aquí](https://event.on24.com/eventRegistration/EventLobbyServlet?target=reg20.jsp&partnerref=ac&eventid=2934272&sessionid=1&key=5C231B3385686D1E224A49EBE0BF0E37&regTag=&V2=false&sourcepage=register).
 
 ### Cambio en la cadencia de la versión de vista previa {#change-in-preview-release-cadence}
 

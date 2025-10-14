@@ -29,4 +29,4 @@ Esta sección contiene las siguientes subsecciones:
 * [Administrar la seguridad](../../workfront-proof/wp-acct-admin/managing-security/manage-security.md)
 * [Cuentas de socio en  [!DNL Workfront Proof]](../../workfront-proof/wp-acct-admin/partner-accounts/partner-accounts.md)
 * [Cuentas satélite en  [!DNL Workfront Proof]](../../workfront-proof/wp-acct-admin/satellite-accounts/satellite-accounts.md)
-* [Sugerencias, trucos y solución de problemas para la administración de la cuenta de  [!DNL Workfront Proof] ](../../workfront-proof/wp-acct-admin/tips-tricks-and-troubleshooting/tips-tricks-and-troubleshooting.md)
+* [Sugerencias, trucos y solución de problemas para la administración de la cuenta de  [!DNL Workfront Proof] &#x200B;](../../workfront-proof/wp-acct-admin/tips-tricks-and-troubleshooting/tips-tricks-and-troubleshooting.md)

@@ -61,7 +61,7 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
 
    O
 
-   Haga clic en el menú **[!UICONTROL Más]** ![Más ](assets/more-icon-spectrum.png) de la tarjeta y seleccione **[!UICONTROL Mover]**. A continuación, en el cuadro **[!UICONTROL Mover elemento]**, elija otra columna y seleccione **[!UICONTROL Mover]**.
+   Haga clic en el menú **[!UICONTROL Más]** ![Más &#x200B;](assets/more-icon-spectrum.png) de la tarjeta y seleccione **[!UICONTROL Mover]**. A continuación, en el cuadro **[!UICONTROL Mover elemento]**, elija otra columna y seleccione **[!UICONTROL Mover]**.
 
    ![Mover tarjeta](assets/boards-move-card-350x217.png)
 

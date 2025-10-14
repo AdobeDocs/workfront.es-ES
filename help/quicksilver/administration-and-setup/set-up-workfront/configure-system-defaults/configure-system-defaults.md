@@ -27,7 +27,7 @@ Esta sección contiene los siguientes artículos:
 * [Configuración de tipos de solicitud](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-request-types.md)
 * [Personalizar los tipos de problemas predeterminados](../../../administration-and-setup/set-up-workfront/configure-system-defaults/customize-default-issue-types.md)
 * [Crear, editar y compartir filtros, vistas y agrupaciones de todo el sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-and-share-default-fvgs.md)
-* [Configuración de las preferencias de administración de recursos de ](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md)
+* [Configuración de las preferencias de administración de recursos de &#x200B;](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md)
 * [Editar y crear tipos de riesgo](../../../administration-and-setup/set-up-workfront/configure-system-defaults/edit-create-risk-types.md)
 * [Crear tipos de gastos personalizados](../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-custom-expense-types.md)
 * [Crear cuadro de resultados](../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md)

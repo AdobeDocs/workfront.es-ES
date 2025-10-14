@@ -25,6 +25,6 @@ ht-degree: 4%
 Esta sección contiene los siguientes artículos:
 
 * [Introducción a la integración de  [!DNL Workfront Proof] y [!DNL Box] n](../../../workfront-proof/wp-integrations/box/introduction-to-box.md)
-* [Crear una revisión a través de su cuenta  [!DNL Box] ](../../../workfront-proof/wp-integrations/box/create-proof-box-account.md)
+* [Crear una revisión a través de su cuenta  [!DNL Box] &#x200B;](../../../workfront-proof/wp-integrations/box/create-proof-box-account.md)
 * [Sincronizar  [!DNL Box] carpetas con [!DNL Workfront Proof]](../../../workfront-proof/wp-integrations/box/sycn-box-folder.md)
 * [Ver el archivo original de una revisión en  [!DNL Box]](../../../workfront-proof/wp-integrations/box/view-proof-original-file-box.md)

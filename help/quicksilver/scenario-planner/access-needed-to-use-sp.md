@@ -18,7 +18,7 @@ ht-degree: 98%
 
 <!--Audited: 04/2024-->
 
-[!DNL Scenario Planner] tiene requisitos de licencia adicionales. Para obtener información sobre [!DNL Workfront Scenario Planner], consulte [Información general del [!DNL Scenario Planner] ](../scenario-planner/scenario-planner-overview.md).
+[!DNL Scenario Planner] tiene requisitos de licencia adicionales. Para obtener información sobre [!DNL Workfront Scenario Planner], consulte [Información general del [!DNL Scenario Planner] &#x200B;](../scenario-planner/scenario-planner-overview.md).
 
 <!--
 might need to add information about the permissions to plans/ initiatives if those will be coming later?

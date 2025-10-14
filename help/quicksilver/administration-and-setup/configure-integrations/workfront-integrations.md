@@ -21,8 +21,8 @@ ht-degree: 5%
 Esta sección contiene los siguientes artículos:
 
 * [[!DNL Adobe Workfront] integraciones](../../administration-and-setup/configure-integrations/workfront-integrations-1.md)
-* [Configurar la integración de  [!DNL Experience Manager Assets as a Cloud Service] ](../../administration-and-setup/configure-integrations/configure-aacs-integration.md)
-* [Configurar la integración de  [!DNL Experience Manager Assets Essentials] ](../../documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md)
+* [Configurar la integración de  [!DNL Experience Manager Assets as a Cloud Service] &#x200B;](../../administration-and-setup/configure-integrations/configure-aacs-integration.md)
+* [Configurar la integración de  [!DNL Experience Manager Assets Essentials] &#x200B;](../../documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md)
 * [[!DNL Workfront] y [!DNL Experience Manager Assets] integraciones](../../documents/workfront-and-experience-manager-integrations/wf-experience-manager-integrations.md)
 * [Configurar [!DNL Workfront] con [!DNL Adobe Experience Manager] conector heredado](../../administration-and-setup/configure-integrations/configure-workfront-aem.md)
 * [Habilitar [!UICONTROL Adobe Workfront para Outlook]](../../administration-and-setup/configure-integrations/enable-workfront-for-outlook.md)
@@ -40,4 +40,4 @@ Esta sección contiene los siguientes artículos:
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../administration-and-setup/configure-integrations/manage-custom-oauth2-apps.md" class="MCXref xref" xrefformat="{para}">View and manage custom OAuth2 applications</a> </li>
   -->
 
-* [Configurar la integración de  [!DNL JumpSeat] ](/help/quicksilver/administration-and-setup/configure-integrations/configure-jumpseat.md)
+* [Configurar la integración de  [!DNL JumpSeat] &#x200B;](/help/quicksilver/administration-and-setup/configure-integrations/configure-jumpseat.md)

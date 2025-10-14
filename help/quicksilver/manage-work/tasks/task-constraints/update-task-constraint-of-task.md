@@ -58,16 +58,16 @@ Debe tener lo siguiente para cambiar la restricción de tarea de una tarea:
 
    | Fechas fijas | Para obtener más información, vea [Introducción a la restricción de tarea: Fechas fijas](../../../manage-work/tasks/task-constraints/fixed-dates.md). |
    |---|---|
-   | Debe iniciarse el | Para obtener más información, vea [Introducción a la restricción de tarea: debe comenzar el ](../../../manage-work/tasks/task-constraints/must-start-on.md). |
-   | Debe finalizarse el | Para obtener más información, vea [Introducción a la restricción de tarea: debe finalizar el ](../../../manage-work/tasks/task-constraints/must-finish-on.md). |
+   | Debe iniciarse el | Para obtener más información, vea [Introducción a la restricción de tarea: debe comenzar el &#x200B;](../../../manage-work/tasks/task-constraints/must-start-on.md). |
+   | Debe finalizarse el | Para obtener más información, vea [Introducción a la restricción de tarea: debe finalizar el &#x200B;](../../../manage-work/tasks/task-constraints/must-finish-on.md). |
    | Lo antes posible | Para obtener más información, vea [Introducción a la restricción de tarea: Lo antes posible](../../../manage-work/tasks/task-constraints/as-soon-as-possible.md). |
    | Lo más tarde posible | Para obtener más información, vea [Introducción a la restricción de tarea: Lo más tarde posible](../../../manage-work/tasks/task-constraints/as-late-as-possible.md). |
    | Lo más temprano disponible | Para obtener más información, vea [Introducción a la restricción de tarea: Lo más temprano disponible](../../../manage-work/tasks/task-constraints/earliest-available-time.md). |
    | Última hora disponible | Para obtener más información, vea [Introducción a la restricción de tarea: Última hora disponible](../../../manage-work/tasks/task-constraints/latest-available-time.md). |
-   | No iniciar después del | Para obtener más información, vea [Introducción a la restricción de tarea: No iniciar después de ](../../../manage-work/tasks/task-constraints/start-no-later-than.md). |
-   | No iniciar antes del | Para obtener más información, vea [Introducción a la restricción de tarea: No iniciar antes del ](../../../manage-work/tasks/task-constraints/start-no-earlier-than.md). |
-   | No terminar después de | Para obtener más información, vea [Introducción a la restricción de tarea: No finalizar después de ](../../../manage-work/tasks/task-constraints/finish-no-later-than.md). |
-   | No terminar antes del | Para obtener más información, vea [Introducción a la restricción de tarea: No finalizar antes del ](../../../manage-work/tasks/task-constraints/finish-no-earlier-than.md). |
+   | No iniciar después del | Para obtener más información, vea [Introducción a la restricción de tarea: No iniciar después de &#x200B;](../../../manage-work/tasks/task-constraints/start-no-later-than.md). |
+   | No iniciar antes del | Para obtener más información, vea [Introducción a la restricción de tarea: No iniciar antes del &#x200B;](../../../manage-work/tasks/task-constraints/start-no-earlier-than.md). |
+   | No terminar después de | Para obtener más información, vea [Introducción a la restricción de tarea: No finalizar después de &#x200B;](../../../manage-work/tasks/task-constraints/finish-no-later-than.md). |
+   | No terminar antes del | Para obtener más información, vea [Introducción a la restricción de tarea: No finalizar antes del &#x200B;](../../../manage-work/tasks/task-constraints/finish-no-earlier-than.md). |
 
    {style="table-layout:auto"}
 

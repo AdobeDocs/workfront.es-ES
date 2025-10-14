@@ -76,7 +76,7 @@ Para obtener más información acerca de estos perfiles y permisos, vea [Perfile
 1. En una vista de lista o en el panel, seleccione el elemento o elementos para los que desea crear o administrar etiquetas.
 1. Haga clic en **[!UICONTROL Etiquetas]** > **[!UICONTROL Administrar etiquetas]** justo encima de la lista.
 
-1. En la ficha [!UICONTROL Etiquetas] que aparece, administre sus etiquetas como se describe anteriormente en [Creación, edición o eliminación de una ficha.](https://support.workfront.com/knowledge/articles/115004379508/en-us?brand_id=662728&amp;return_to=%2Fhc%2Fen-us%2Farticles%2F115004379508#CreatingEditingDeletingTag)\
+1. En la ficha [!UICONTROL Etiquetas] que aparece, administre sus etiquetas como se describe anteriormente en [Creación, edición o eliminación de una ficha.](https://support.workfront.com/knowledge/articles/115004379508/en-us?brand_id=662728&return_to=%2Fhc%2Fen-us%2Farticles%2F115004379508#CreatingEditingDeletingTag)\
    Se aplica una etiqueta a todos los elementos seleccionados cuando la casilla de verificación situada junto a la etiqueta es de color gris oscuro. Si es gris claro, solo algunos de los elementos de un lote seleccionado están etiquetados con él. Si desea quitar una etiqueta de todos los elementos seleccionados, asegúrese de que la casilla de verificación situada junto a la etiqueta esté vacía.\
    ![Tags_menu_-_Dark_and_light_check.png](assets/tags-menu---dark-and-light-checks-350x217.png)
 

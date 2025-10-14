@@ -82,7 +82,7 @@ Después de configurar [Configuración de la cuenta](https://support.workfront.c
 >
 >Completar estos pasos es más fácil si tiene la sesión [!DNL Basecamp] abierta en una ventana del explorador y la sesión [!DNL Workfront Proof] abierta en otra ventana.
 
-* [Recuperando su token de API  [!DNL Basecamp] ](#retrieving-your-basecamp-api-token)
+* [Recuperando su token de API  [!DNL Basecamp] &#x200B;](#retrieving-your-basecamp-api-token)
 * [Agregando tu token de API  [!DNL Basecamp] a tu configuración personal](#adding-your-basecamp-api-token-to-your-personal-settings)
 
 ### Recuperando su token de API [!DNL Basecamp]

@@ -73,7 +73,7 @@ Los administradores de [!DNL Adobe Admin Console] también pueden crear paquetes
 
 Puede instalar el complemento de [!DNL Adobe Workfront for Photoshop] usted mismo desde [!DNL Adobe Exchange].
 
-1. Vaya a la [página de instalación de Adobe Workfront para Photoshop](https://adobe.com/go/cc_plugins_discover_plugin?pluginId=37722a55&amp;workflow=share) en Adobe Exchange.
+1. Vaya a la [página de instalación de Adobe Workfront para Photoshop](https://adobe.com/go/cc_plugins_discover_plugin?pluginId=37722a55&workflow=share) en Adobe Exchange.
 1. En el cuadro de diálogo que aparece, haga clic en **Abrir la aplicación de escritorio de [!DNL Adobe Creative Cloud]**.
 1. Una vez que se abra el administrador de complementos de [!DNL Adobe Photoshop], haga clic en **[!UICONTROL Instalar]**.
 1. Lea la información del cuadro de diálogo y, a continuación, haga clic en **[!UICONTROL Aceptar]**.

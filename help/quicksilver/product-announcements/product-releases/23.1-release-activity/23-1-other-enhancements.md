@@ -33,7 +33,7 @@ Los administradores también pueden [crear un paquete con los complementos](http
 
 ## La experiencia de filtrado mejorada suele estar disponible en Adobe Workfront
 
-En agosto de 2022 se publicó una actualización de la experiencia de filtro en versión beta pública de las listas de proyectos, tareas y problemas. La mayoría de las listas ahora ofrecen los filtros mejorados. (Para revisar todas estas listas, consulte la [nota de la versión de actualizaciones de aspecto y presentación de ](/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-look-and-feel-updates.md).)
+En agosto de 2022 se publicó una actualización de la experiencia de filtro en versión beta pública de las listas de proyectos, tareas y problemas. La mayoría de las listas ahora ofrecen los filtros mejorados. (Para revisar todas estas listas, consulte la [nota de la versión de actualizaciones de aspecto y presentación de &#x200B;](/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-look-and-feel-updates.md).)
 
 Como continuación rápida de la versión 23.1, la experiencia de filtrado mejorada estará disponible de forma general y se convertirá en el generador de filtros estándar en el periodo de tiempo de febrero/marzo de 2023.
 

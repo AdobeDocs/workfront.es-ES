@@ -57,7 +57,7 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
 
    O
 
-   Haga clic en el menú **[!UICONTROL Más]** ![Más ](assets/more-icon-spectrum.png) de la tarjeta y seleccione **[!UICONTROL Editar]**.
+   Haga clic en el menú **[!UICONTROL Más]** ![Más &#x200B;](assets/more-icon-spectrum.png) de la tarjeta y seleccione **[!UICONTROL Editar]**.
 
    Cualquier subtarea existente para esta tarea aparecerá en la tarjeta de la sección Subtarea, encima de los elementos de la lista de comprobación. Haga clic en el icono [!UICONTROL **Buscar**] para buscar una subtarea.
 

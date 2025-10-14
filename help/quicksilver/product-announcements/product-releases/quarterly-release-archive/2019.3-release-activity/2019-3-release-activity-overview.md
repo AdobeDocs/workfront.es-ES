@@ -467,4 +467,4 @@ A continuación se muestra la cronología de eliminación de estas opciones de S
 
 ### Seminario web de roadmap del producto del tercer trimestre {#q3-product-roadmap-webinar}
 
-Obtenga más información sobre lo que vendrá durante el [Seminario web de hoja de ruta T3](https://event.on24.com/eventRegistration/EventLobbyServlet?target=reg20.jsp&amp;partnerref=Product&amp;eventid=2040896&amp;sessionid=1&amp;key=EFBB434E2FDF446E010DA62D1C27E9E5&amp;regTag=&amp;sourcepage=register) el 1 de agosto a las 9:00 a.m. MST.
+Obtenga más información sobre lo que vendrá durante el [Seminario web de hoja de ruta T3](https://event.on24.com/eventRegistration/EventLobbyServlet?target=reg20.jsp&partnerref=Product&eventid=2040896&sessionid=1&key=EFBB434E2FDF446E010DA62D1C27E9E5&regTag=&sourcepage=register) el 1 de agosto a las 9:00 a.m. MST.

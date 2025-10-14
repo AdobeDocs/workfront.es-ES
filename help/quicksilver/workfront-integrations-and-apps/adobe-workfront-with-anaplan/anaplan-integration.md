@@ -32,7 +32,7 @@ La integración de [!DNL Adobe Workfront] con [!DNL Anaplan] ofrece los siguient
 ### Flujos de trabajo para vincular solicitudes de presupuesto
 
 * [Crear un  [!DNL Anaplan] elemento de lista a partir de una [!DNL Adobe Workfront] solicitud de presupuesto](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/create-an-anaplan-list-item-from-a-workfront-budget-request.md)
-* [Aplicar una asignación de presupuesto  [!DNL Anaplan] a un proyecto [!DNL Adobe Workfront] ](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-projects.md)
+* [Aplicar una asignación de presupuesto  [!DNL Anaplan] a un proyecto [!DNL Adobe Workfront] &#x200B;](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-projects.md)
 
 ### Flujos de trabajo para vincular solicitudes de campaña
 

@@ -318,4 +318,4 @@ Los administradores y los de facturación pueden editar los perfiles de permiso 
 >* El registro de perfil del usuario (accesible solo para ese usuario)
 >
 
-Para obtener más información sobre los registros de actividad, consulte [Explicación del seguimiento de auditoría de actividad de  [!DNL Workfront Proof] ](../../../workfront-proof/wp-work-proofsfiles/basic-features/activity-audit-trail.md).
+Para obtener más información sobre los registros de actividad, consulte [Explicación del seguimiento de auditoría de actividad de  [!DNL Workfront Proof] &#x200B;](../../../workfront-proof/wp-work-proofsfiles/basic-features/activity-audit-trail.md).

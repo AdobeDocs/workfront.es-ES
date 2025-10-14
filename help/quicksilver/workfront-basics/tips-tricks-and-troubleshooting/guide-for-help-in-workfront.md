@@ -140,9 +140,9 @@ Para obtener más información, consulte el artículo [El Laboratorio de innovac
 
 Los siguientes recursos pueden ayudarle a obtener más información sobre la API de [!DNL Workfront] y otras integraciones:
 
-| Integraciones de [[!DNL Adobe Workfront] ](../../administration-and-setup/configure-integrations/workfront-integrations-1.md) | Puede integrar [!DNL Workfront] con aplicaciones de terceros. Las integraciones pueden ampliar la utilidad de [!DNL Workfront] y adaptarla a las necesidades de su organización. Este artículo de la Base de conocimiento cubre las opciones de integración y le señala los siguientes pasos. |
+| Integraciones de [[!DNL Adobe Workfront] &#x200B;](../../administration-and-setup/configure-integrations/workfront-integrations-1.md) | Puede integrar [!DNL Workfront] con aplicaciones de terceros. Las integraciones pueden ampliar la utilidad de [!DNL Workfront] y adaptarla a las necesidades de su organización. Este artículo de la Base de conocimiento cubre las opciones de integración y le señala los siguientes pasos. |
 |---|---|
-| Integraciones integradas de [[!DNL Workfront] ](https://business.adobe.com/products/workfront/integrations.html) | Las integraciones integradas gratuitas de Workfront le permiten a usted y a su equipo lograr una transición fluida a la plataforma Workfront manteniendo los mismos flujos de trabajo y procesos. |
+| Integraciones integradas de [[!DNL Workfront] &#x200B;](https://business.adobe.com/products/workfront/integrations.html) | Las integraciones integradas gratuitas de Workfront le permiten a usted y a su equipo lograr una transición fluida a la plataforma Workfront manteniendo los mismos flujos de trabajo y procesos. |
 | [[!DNL Adobe Workfront Fusion]](https://experienceleague.adobe.com/es/docs/workfront-fusion/using/home) | Conecta [!DNL Workfront] a más de 100 aplicaciones, lo que facilita la automatización de los procesos esenciales para la empresa sin necesidad de código. |
 
 {style="table-layout:auto"}
@@ -151,7 +151,7 @@ Los siguientes recursos pueden ayudarle a obtener más información sobre la API
 
 Suscríbase a [status.adobe.com](https://status.adobe.com/es/) para mantenerse al día de los mantenimientos programados y los problemas de interrupción del servicio.
 
-Para obtener más información sobre el sitio de estado de [!DNL Workfront], consulte [el sitio de estado de  [!DNL Adobe Workfront] ](../../workfront-basics/tips-tricks-and-troubleshooting/understand-the-status-site.md).
+Para obtener más información sobre el sitio de estado de [!DNL Workfront], consulte [el sitio de estado de  [!DNL Adobe Workfront] &#x200B;](../../workfront-basics/tips-tricks-and-troubleshooting/understand-the-status-site.md).
 
 Para saber qué se ha corregido en una actualización de mantenimiento semanal, consulte [Actualizaciones de mantenimiento](https://experienceleague.adobe.com/es/docs/workfront-known-issues/releases/current-updates).
 

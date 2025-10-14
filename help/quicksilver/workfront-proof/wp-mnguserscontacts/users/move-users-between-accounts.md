@@ -33,7 +33,7 @@ Si es administrador de [!DNL Workfront] Proof y tiene una o más cuentas satéli
 1. Seleccione una cuenta de destino de la lista cuentas conectadas (2).
 1. Asigne el permiso de perfil (3) que este usuario debe tener en la nueva cuenta.
 1. Seleccione un usuario (4) que sea propietario de los elementos que no se moverán.
-Esto incluye los elementos que decidirá dejar en la cuenta antigua y los elementos que no se pueden mover (consulte [Elementos que no se pueden mover](https://support.workfront.com/knowledge/articles/115004087708/en-us?brand_id=662728&amp;return_to=%2Fhc%2Fen-us%2Farticles%2F115004087708#Items-that-can&#39;t-be-moved) a continuación).
+Esto incluye los elementos que decidirá dejar en la cuenta antigua y los elementos que no se pueden mover (consulte [Elementos que no se pueden mover](https://support.workfront.com/knowledge/articles/115004087708/en-us?brand_id=662728&return_to=%2Fhc%2Fen-us%2Farticles%2F115004087708#Items-that-can&#39;t-be-moved) a continuación).
 
 1. Marque las casillas de verificación si desea mover las pruebas (5) y los archivos (6) junto con el usuario.
 1. Cree un nombre para la carpeta (7) en la que se colocarán todos los elementos movidos en la nueva cuenta.

@@ -36,7 +36,7 @@ Entre las ventajas de las integraciones integradas se pueden incluir las siguien
 >
 >Con [!DNL Workfront for Microsoft Teams integration], puede recibir notificaciones en [!DNL Microsoft Teams] sobre sus elementos de trabajo de [!DNL Workfront]. Sin salir de [!DNL Microsoft Teams], puede realizar acciones como aprobar, comentar o cambiar el estado de los elementos de trabajo. Cualquier cambio que realice en los elementos de trabajo desde [!DNL Microsoft Teams] también se reflejará en [!DNL Workfront].
 
-Para obtener más información sobre las integraciones integradas, incluida una lista de las integraciones integradas disponibles actualmente, consulte [[!DNL Adobe Workfront] Información general sobre integraciones integradas de ](../workfront-integrations-and-apps/built-in-integrations-non-admin.md).
+Para obtener más información sobre las integraciones integradas, incluida una lista de las integraciones integradas disponibles actualmente, consulte [[!DNL Adobe Workfront] Información general sobre integraciones integradas de &#x200B;](../workfront-integrations-and-apps/built-in-integrations-non-admin.md).
 
 ## Aplicaciones OAuth2 personalizadas
 

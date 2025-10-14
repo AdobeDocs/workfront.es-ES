@@ -57,7 +57,7 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
 
    O
 
-   Haga clic en el menú **[!UICONTROL Más]** ![Más ](assets/more-icon-spectrum.png) de la tarjeta y seleccione **[!UICONTROL Editar]**.
+   Haga clic en el menú **[!UICONTROL Más]** ![Más &#x200B;](assets/more-icon-spectrum.png) de la tarjeta y seleccione **[!UICONTROL Editar]**.
 
 1. Para agregar un nuevo elemento, haga clic en **[!UICONTROL Agregar elemento de lista de comprobación]**. A continuación, escriba el título del elemento y presione Entrar. Se agrega otro elemento automáticamente. Siga introduciendo títulos para añadir más elementos.
 
@@ -85,7 +85,7 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
 
    O
 
-   Haga clic en el menú **[!UICONTROL Más]** ![Más ](assets/more-icon-spectrum.png) de la tarjeta y seleccione **[!UICONTROL Editar]**.
+   Haga clic en el menú **[!UICONTROL Más]** ![Más &#x200B;](assets/more-icon-spectrum.png) de la tarjeta y seleccione **[!UICONTROL Editar]**.
 
 1. Active la casilla de verificación situada junto al elemento que se ha completado.
 

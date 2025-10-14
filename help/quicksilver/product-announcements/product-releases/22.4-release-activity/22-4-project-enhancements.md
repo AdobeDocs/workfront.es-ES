@@ -112,7 +112,7 @@ El modo Texto permanece disponible para la edición avanzada de filtros y los ad
 
 ### Queremos sus comentarios.
 
-Con este Beta público, los usuarios tienen la oportunidad de enviar comentarios directamente al equipo que trabaja en la experiencia de los filtros haciendo clic en el botón de comentarios. Esperamos recibir noticias suyas y de sus usuarios sobre la nueva experiencia de filtrado en la versión beta pública. Si su equipo desea reunirse directamente con el producto para proporcionar comentarios adicionales, no dude en programar una reunión aquí: https://calendly.com/wf-product-and-design-research/filtersfeedbackpublicbeta?month=2022-08&amp;date=2022-08-25
+Con este Beta público, los usuarios tienen la oportunidad de enviar comentarios directamente al equipo que trabaja en la experiencia de los filtros haciendo clic en el botón de comentarios. Esperamos recibir noticias suyas y de sus usuarios sobre la nueva experiencia de filtrado en la versión beta pública. Si su equipo desea reunirse directamente con el producto para proporcionar comentarios adicionales, no dude en programar una reunión aquí: https://calendly.com/wf-product-and-design-research/filtersfeedbackpublicbeta?month=2022-08&date=2022-08-25
 
 ### ¿Cuál es el siguiente paso?
 

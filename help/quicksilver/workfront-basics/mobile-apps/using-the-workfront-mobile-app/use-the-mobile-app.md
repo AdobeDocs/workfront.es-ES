@@ -49,9 +49,9 @@ En la aplicación móvil, puede completar elementos de trabajo y ver informació
 Para obtener más información sobre la aplicación móvil [!DNL Adobe Workfront], consulte los siguientes artículos:
 
 * [[!DNL Adobe Workfront] para  [!DNL Android]](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-android.md)
-* [Ser un probador beta de  [!DNL Android] ](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/android-beta-tester.md)
+* [Ser un probador beta de  [!DNL Android] &#x200B;](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/android-beta-tester.md)
 * [[!DNL Adobe Workfront] para  [!DNL iOS]](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md)
-* [Ser un probador beta de  [!DNL iOS] ](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/ios-beta-tester.md)
+* [Ser un probador beta de  [!DNL iOS] &#x200B;](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/ios-beta-tester.md)
 * [Widgets del área [!UICONTROL Inicio]](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/home-area-widgets-mobile.md)
 * [[!UICONTROL Mi trabajo] en la aplicación móvil](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/my-work-section-mobile.md)
 * [[!DNL Adobe Workfront] [!UICONTROL Tableros] para dispositivos móviles](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/mobile-boards.md)

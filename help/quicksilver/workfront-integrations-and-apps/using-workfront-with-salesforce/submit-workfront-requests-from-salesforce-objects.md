@@ -56,7 +56,7 @@ Para enviar una solicitud de [!DNL Workfront] desde una oportunidad o cuenta de 
    Para obtener más información sobre la instalación de [!DNL Workfront for Salesforce], consulte [Instalar  [!DNL Adobe Workfront for Salesforce]](../../workfront-integrations-and-apps/using-workfront-with-salesforce/install-workfront-for-salesforce.md)
 
 * El administrador de [!DNL Workfront] ha añadido la sección [!DNL Workfront] a los diseños de página [!UICONTROL Oportunidad] y [!UICONTROL Cuenta].\
-   Para obtener más información sobre cómo añadir la sección [!DNL Workfront] a un diseño de página, consulte [Configurar la sección  [!DNL Adobe Workfront]  para los usuarios de  [!DNL Salesforce] ](../../workfront-integrations-and-apps/using-workfront-with-salesforce/configure-wf-section-for-salesforce-users.md).
+   Para obtener más información sobre cómo añadir la sección [!DNL Workfront] a un diseño de página, consulte [Configurar la sección  [!DNL Adobe Workfront]  para los usuarios de  [!DNL Salesforce] &#x200B;](../../workfront-integrations-and-apps/using-workfront-with-salesforce/configure-wf-section-for-salesforce-users.md).
 
 * Tiene una cuenta de [!DNL Workfront] y puede iniciar sesión en ella desde la sección [!DNL Workfront] dentro de su oportunidad o cuenta.\
    Una vez que inicie sesión, verá la pestaña [!UICONTROL Nuevas solicitudes], donde podrá empezar a escribir solicitudes.
@@ -77,7 +77,7 @@ Para enviar una solicitud de [!DNL Workfront] desde una oportunidad o cuenta de 
    >
    >La carga de un documento mediante el complemento de [!DNL Workfront] en [!DNL Salesforce] no está disponible temporalmente.
 
-   Siga los pasos que se describen en [Crear y enviar solicitudes de  [!DNL Adobe Workfront] ](../../manage-work/requests/create-requests/create-submit-requests.md).
+   Siga los pasos que se describen en [Crear y enviar solicitudes de  [!DNL Adobe Workfront] &#x200B;](../../manage-work/requests/create-requests/create-submit-requests.md).
 
 1. Haga clic en **[!UICONTROL Enviar]**.
 

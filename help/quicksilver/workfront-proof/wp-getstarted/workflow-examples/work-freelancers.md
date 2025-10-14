@@ -37,7 +37,7 @@ Para obtener información sobre cómo agregar un freelancer a tu equipo, consult
 
 >[!NOTE]
 >
->Cualquier freelancer añadido a su cuenta como usuario tendrá visibilidad de su cuenta y también podrá ver los detalles del cliente (según su perfil de usuario). Esto puede no ser lo que deseas, así que quizás configurar una cuenta Satellite para tus freelancers sería una opción más adecuada; consulta [Configurar una cuenta Satellite para tus freelancers](https://support.workfront.com/knowledge/articles/115004259868/en-us?brand_id=662728&amp;return_to=%2Fhc%2Fen-us%2Farticles%2F115004259868#Option-B---set-up-a-satellite-account-for-your-freelancers) a continuación.
+>Cualquier freelancer añadido a su cuenta como usuario tendrá visibilidad de su cuenta y también podrá ver los detalles del cliente (según su perfil de usuario). Esto puede no ser lo que deseas, así que quizás configurar una cuenta Satellite para tus freelancers sería una opción más adecuada; consulta [Configurar una cuenta Satellite para tus freelancers](https://support.workfront.com/knowledge/articles/115004259868/en-us?brand_id=662728&return_to=%2Fhc%2Fen-us%2Farticles%2F115004259868#Option-B---set-up-a-satellite-account-for-your-freelancers) a continuación.
 
 ## Crea una cuenta satélite para tus freelancers
 

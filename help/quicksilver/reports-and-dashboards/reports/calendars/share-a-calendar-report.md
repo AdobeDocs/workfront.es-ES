@@ -114,5 +114,5 @@ Puede compartir un vínculo de calendario privado con usuarios de [!DNL Workfron
 
    >[!NOTE]
    >
-   >Los usuarios de [!DNL Workfront] deben tener acceso al calendario para tener acceso a él con el vínculo. Para conceder acceso, consulte [Compartir un calendario con los usuarios de  [!DNL Workfront] ](#share-a-calendar-with-workfront-users).\
+   >Los usuarios de [!DNL Workfront] deben tener acceso al calendario para tener acceso a él con el vínculo. Para conceder acceso, consulte [Compartir un calendario con los usuarios de  [!DNL Workfront] &#x200B;](#share-a-calendar-with-workfront-users).\
    >Si los usuarios no tienen acceso, pueden solicitarlo después de pegar el vínculo en el explorador.

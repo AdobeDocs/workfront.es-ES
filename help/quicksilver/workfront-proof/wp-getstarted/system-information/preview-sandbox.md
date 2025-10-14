@@ -36,7 +36,7 @@ La zona protegida de vista previa contiene los datos de producción reales. Los 
 De forma predeterminada, como administrador del sistema, tiene acceso al entorno de vista previa de espacio aislado. Si no puede acceder al entorno de vista previa de espacio aislado como se describe en esta sección, póngase en contacto con su administrador de [!DNL Workfront] o con nuestro equipo de asistencia.
 
 * [Acceder a la vista previa de espacio aislado como cliente independiente [!DNL Workfront Proof] s](#accessing-the-preview-sandbox-as-a-stand-alone-workfront-proof-customer)
-* [Acceder a la vista previa de espacio aislado como cliente de  [!DNL Workfront]+[!DNL Workfront Proof] ](#accessing-the-preview-sandbox-as-a-workfrontworkfront-proof-customer)
+* [Acceder a la vista previa de espacio aislado como cliente de  [!DNL Workfront]+[!DNL Workfront Proof] &#x200B;](#accessing-the-preview-sandbox-as-a-workfrontworkfront-proof-customer)
 
 ### Acceder a la vista previa de espacio aislado como cliente independiente de [!DNL Workfront Proof]
 

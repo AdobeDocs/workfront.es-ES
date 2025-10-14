@@ -43,7 +43,7 @@ Al hacer clic en el icono numerado ![Icono de notificaciones](assets/notificatio
 
 >[!NOTE]
 >
->Las notificaciones dentro de la aplicación para actividades laborales no están vinculadas a las notificaciones por correo electrónico en [!DNL Workfront]. Para obtener más información, consulte notificaciones de [[!DNL Adobe Workfront] ](../../workfront-basics/using-notifications/wf-notifications.md).
+>Las notificaciones dentro de la aplicación para actividades laborales no están vinculadas a las notificaciones por correo electrónico en [!DNL Workfront]. Para obtener más información, consulte notificaciones de [[!DNL Adobe Workfront] &#x200B;](../../workfront-basics/using-notifications/wf-notifications.md).
 
 * [[!UICONTROL Rutas de aprobación]](#approvals)
 * [[!UICONTROL Solicitudes]](#requests)

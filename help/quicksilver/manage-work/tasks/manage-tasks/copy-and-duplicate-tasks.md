@@ -240,7 +240,7 @@ Además de copiar tareas en una lista de tareas, también puede copiar una tarea
 
    La tarea se muestra en la lista.
 
-   ![Seleccione la tarea principal al mover una tarea con la funcionalidad de búsqueda ](assets/select-parent-when-moving-tasks-with-search-functionality-nwe-350x110.png)
+   ![Seleccione la tarea principal al mover una tarea con la funcionalidad de búsqueda &#x200B;](assets/select-parent-when-moving-tasks-with-search-functionality-nwe-350x110.png)
 
 1. Seleccione el botón de opción del elemento principal, una vez encontrado.
 

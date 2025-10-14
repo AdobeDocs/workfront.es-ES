@@ -213,7 +213,7 @@ Se añade un comentario a la **[!DNL Workfront]** pestaña en [!DNL Jira] y a la
 La hora también se muestra en la pestaña **[!UICONTROL Horas]** del elemento [!DNL Workfront].
 
 * [Registrar tiempo para  [!DNL Jira] vinculados y [!DNL Workfront] elementos](#log-time-for-linked-jira-and-workfront-items)
-* [Registrar tiempo desde [!DNL Jira] hasta un elemento [!DNL Workfront] ](#log-time-from-jira-to-a-workfront-item)
+* [Registrar tiempo desde [!DNL Jira] hasta un elemento [!DNL Workfront] &#x200B;](#log-time-from-jira-to-a-workfront-item)
 
 ### Registrar tiempo para [!DNL Jira] vinculados y elementos [!DNL Workfront]
 

@@ -28,7 +28,7 @@ Se puede acceder directamente al resumen de comentarios desde las siguientes ár
 
 * [El Visualizador de pruebas](#the-proof-viewer)
 * [La página Detalles de prueba](#the-proof-details-page)
-* [El menú Acciones de  [!DNL Proof] ](#the-proof-actions-menu)
+* [El menú Acciones de  [!DNL Proof] &#x200B;](#the-proof-actions-menu)
 
 ### El Visualizador de pruebas {#the-proof-viewer}
 
