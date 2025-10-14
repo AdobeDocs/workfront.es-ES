@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7d6de742-9657-4286-968c-1fc78ebbb94e
-source-git-commit: 393f858ba3711b367cf06ad846ea60be0d6d9034
+source-git-commit: 7d37481fc5b468f6f8ea1fce6ccd7ae064f00251
 workflow-type: tm+mt
-source-wordcount: '692'
+source-wordcount: '686'
 ht-degree: 33%
 
 ---
@@ -100,14 +100,15 @@ Los tipos de registro son los tipos de objetos de Adobe Workfront Planning. Pued
 1. Realice una de las siguientes acciones:
 
    * Pase el ratón sobre la tarjeta de un tipo de registro y haga clic en el menú **Más** ![Menú más](assets/more-menu.png) en la esquina superior derecha de la tarjeta de tipo de registro; a continuación, haga clic en **Editar**
+     <!--<span class="preview">or **Settings**</span>-->
 O
-   * <span class="preview">Haga clic en una tarjeta de tipo de registro para abrir la página de tipo de registro, haga clic en el menú **Más** ![Menú Más](assets/more-menu.png) a la derecha del nombre del tipo de registro y, a continuación, haga clic en **Editar**. </span>
+   * <span class="preview">Haga clic en una tarjeta de tipo de registro para abrir la página de tipo de registro, haga clic en el menú **Más** ![Menú Más](assets/more-menu.png) a la derecha del nombre del tipo de registro y, a continuación, haga clic en **Editar**<!--<span class="preview">or **Settings**</span>. </span>-->
 
-   <span class="preview">![Más opciones de menú de la tarjeta de tipo de registro](assets/more-menu-options-from-record-type-card.png)</span>
+   <!--<span class="preview">![More menu options from record type card](assets/more-menu-options-from-record-type-card.png)</span>-->
 
-1. En el cuadro **Editar tipo de registro**, la ficha **Apariencia** se abre de forma predeterminada.
+1. En el cuadro **Editar tipo de registro**, la ficha **Apariencia** se abre de forma predeterminada. <!--update screen shot below at preview-->
 
-   ![Editar ficha de apariencia del cuadro de tipo de registro &#x200B;](assets/edit-record-type-box-appearance-tab.png)
+   ![Editar ficha de apariencia del cuadro de tipo de registro ](assets/edit-record-type-box-appearance-tab.png)
 
    Actualice la siguiente información en la ficha **Apariencia**:
 
@@ -117,37 +118,26 @@ O
       * Seleccione un color para identificar el tipo de registro. Es el color del icono de tipo de registro.
       * Seleccione un icono de la lista o empiece a escribir el nombre de un icono para describir lo que representa y, a continuación, selecciónelo cuando se muestre. Este es el icono del tipo de registro. De forma predeterminada, se selecciona un icono de archivo.
 
-   <!--old info: 
-   1. (Conditional) If you are a system administrator, click the **Advanced settings** tab in the **Edit record type** box. 
-      ![Edit record type box advanced settings tab](assets/edit-record-type-box-advanced-settings-tab.png)
-   1. (Conditional) Update the following information in the **Advanced settings** tab: 
-      * Enable the **Connect from other workspace** setting. When enabled, the record type is accessible and can be connected from other workspaces. 
-      * Choose from which workspaces the record type can be accessed. Choose from the following options:
-         * **System wide**: Users can connect to this record type from all workspaces where they have manage permissions. 
-         * **Specific workspaces**: Add the names of the workspaces where workspace managers can connect to this record type.-->
 
-
-1. (Opcional y condicional) Si es administrador del sistema, haga clic en **Configuración avanzada** y actualice la siguiente información en la sección **Capacidad entre espacios de trabajo**: <!--take this info out and replace it with a link to this article: help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md-->
+1. (Opcional y condicional) Si es administrador del sistema, haga clic en **Configuración avanzada** y actualice la siguiente información en la sección **Capacidad entre espacios de trabajo**: <!--the info here is duplicated in the Create record types article-->
    * Habilitar la configuración **Permitir la conexión a este tipo de registro en otros espacios de trabajo**: permite a los administradores de espacios de trabajo conectarse a este tipo de registro desde otros espacios de trabajo.\
      Puede designar desde qué espacios de trabajo se puede conectar este tipo de registro. Puede ponerlo a disposición de todos los espacios de trabajo o designar espacios específicos donde pueda importarlo.
 Para obtener más información, vea [Configurar las capacidades entre espacios de trabajo para los tipos de registro](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md).
 
-   ![Ficha Editar configuración avanzada del cuadro de tipo de registro](assets/edit-record-type-box-advanced-settings-tab.png)
 
-   <!--replace last point with this when we release dynamic record types:
-      1. (Optional and conditional) If you are a system administrator, click **Advanced settings** and update the following information in the **Cross-workspace capability** section: **** the info here is duplicated in the Edit record types article ***
-         * Enable the **Allow adding this record type to other workspaces** setting: This allows workspace managers to add this record type to other workspaces. 
-               You can designate specific users who can add this record type to other workspaces. 
-         * Enable the **Allow connecting to this record type in other workspaces** setting: This allows workspace managers to connect to this record type from other workspaces.  
-               You can designate which workspaces this record type can be connected from. You can make it available for all workspaces or designate specific ones where you can import it.
-         For more information, see [Configure cross-workspace capabilities for record types](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md).  
-         ******** replace screen shot below **********
-         ![Create record type box on advanced settings tab](assets/create-record-type-box-advanced-settings-tab.png) 
-      -->
+   ![Cuadro Crear tipo de registro en la ficha Configuración avanzada](assets/create-record-type-box-advanced-settings-tab.png)
+
+   <!--replace last point with this when we release global record types; the preview tags might need to be edited, too:
+    1. <span class="preview">(Optional and conditional) If you are a system administrator, update the information in the **Cross-workspace settings** tab.</span>
+    <span class="preview">For more information, see [Configure cross-workspace capabilities for record types](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md).</span>
+    ***********Add screenshot***********
+    -->
 
 1. Haga clic en **Guardar**.
 
    La tarjeta de tipo de registro del área de trabajo muestra un icono de conectividad ![Conectar desde el icono de otras áreas de trabajo](assets/connect-from-other-workspaces-icon.png) en la esquina superior derecha para indicar que ahora se puede obtener acceso al registro desde otras áreas de trabajo.
+
+   <!--replace the blurb above after "Save" with this: <span class="preview">If you configured the cross-workspace capabilities for the record, the **connectable record type** icon ![Connectable record type icon](assets/connect-from-other-workspaces-icon.png) and the **global record type** icon ![Global record type icon](assets/global-icon.png) also display on the card. </span>-->
 
 1. (Opcional) Haga clic en la tarjeta de tipo de registro del área de trabajo para abrir la página del tipo de registro y, a continuación, cambie el nombre del tipo de registro en el encabezado.
 

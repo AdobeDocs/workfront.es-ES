@@ -6,15 +6,17 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ed1c4954-b338-4865-a7a9-5ba0192e7b37
-source-git-commit: ff5bc262a5ed2a22099c058ebdb61bc32485b201
+source-git-commit: 7d37481fc5b468f6f8ea1fce6ccd7ae064f00251
 workflow-type: tm+mt
-source-wordcount: '1102'
+source-wordcount: '1115'
 ht-degree: 19%
 
 ---
 
 
 <!--this is linked to the UI in an empty workspace screen-->
+
+<!--keep the yellow for cross-workspace functionality till Jan 2026-->
 
 # Crear tipos de registro
 
@@ -116,7 +118,7 @@ Para obtener más información acerca de los tipos de registros, vea [Informaci�
         Este artículo describe cómo crear tipos de registros desde cero.
 
      <!--
-        * <span class="preview">By importing them from another workspace or adding cross-workspace record types</span>
+        * <span class="preview">By adding them from another workspace</span>
             <span class="preview">For information, see [Add existing record types from another workspace](/help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md). </span>-->
 
 
@@ -126,16 +128,16 @@ Para obtener más información acerca de los tipos de registros, vea [Informaci�
 
 Puede crear tipos de registros automáticamente al crear un espacio de trabajo con una plantilla de Workfront Planning. Cada plantilla contiene tipos de registro de ejemplo.
 
+Para obtener información acerca de cómo crear espacios de trabajo, vea [Crear espacios de trabajo](/help/quicksilver/planning/architecture/create-workspaces.md).
+
+Para obtener información sobre los tipos de registros que se incluyen en cada plantilla, vea [Lista de plantillas de área de trabajo](/help/quicksilver/planning/architecture/workspace-templates.md).
+
 Al crear un espacio de trabajo a partir de una plantilla, los tipos de registro se agrupan en las siguientes secciones:
 
 * Tipos de registros operativos
 * Taxonomías
 
-Puede añadir manualmente tipos de registros en las secciones Tipos de registros operativos y Taxonomías.
-
-Para obtener información acerca de cómo crear espacios de trabajo, vea [Crear espacios de trabajo](/help/quicksilver/planning/architecture/create-workspaces.md).
-
-Para obtener información sobre los tipos de registros que se incluyen en cada plantilla, vea [Lista de plantillas de área de trabajo](/help/quicksilver/planning/architecture/workspace-templates.md).
+Puede añadir manualmente tipos de registros en las secciones Tipos de registros operativos y Taxonomías. Para obtener más información, vea la sección [Crear un registro desde cero](#create-a-record-type-from-scratch) en este artículo.
 
 ## Crear un tipo de registro desde cero
 
@@ -149,8 +151,7 @@ Para obtener información sobre los tipos de registros que se incluyen en cada p
 1. (Opcional) Haga clic en **Agregar sección** para agregar una nueva sección al área de trabajo.
 1. Haga clic en **Agregar tipo de registro** y luego en **Agregar manualmente**.
 
-   Se abre el cuadro Agregar tipo de registro.
-   <!--1. (Conditional) When creating record types by importing an Excel or CSV file is enabled, click **From scratch**. Otherwise, the **Add record type** box opens. -->
+   Se abre el cuadro Agregar tipo de registro. <!--update screen shot for preview-->
 
    ![Agregar cuadro de tipo de registro con opciones de apariencia](assets/add-record-type-box-with-appearance-options.png)
 
@@ -162,15 +163,6 @@ Para obtener información sobre los tipos de registros que se incluyen en cada p
       * Seleccione un color para identificar el nuevo tipo de registro. Este es el color del icono de tipo de registro. Gris está seleccionado de forma predeterminada.
       * Seleccione un icono de la lista o empiece a escribir el nombre de un icono para describir lo que representa y, a continuación, selecciónelo cuando se muestre. Este es el icono del tipo de registro. De forma predeterminada, se selecciona un icono de archivo.
 
-
-   <!--old setting:
-    1. (Optional and conditional) If you are a system administrator, click **Advanced settings** and update the following information in the **Connectivity scope** section: 
-        * Enable the **Connect from other workspace** setting. When enabled, the record type is accessible and can be connected from other workspaces. 
-        * Choose from which workspaces the record type can be accessed. Choose from the following options:
-            * **System wide**: Users can connect to this record type from all workspaces where they have manage permissions. 
-            * **Specific workspaces**: Add the names of the workspaces where workspace managers can connect to this record type. 
-    -->
-
 1. (Opcional y condicional) Si es administrador del sistema, haga clic en **Configuración avanzada** y actualice la siguiente información en la sección **Capacidad entre espacios de trabajo**: <!--the info here is duplicated in the Edit record types article-->
    * Habilitar la configuración **Permitir la conexión a este tipo de registro en otros espacios de trabajo**: permite a los administradores de espacios de trabajo conectarse a este tipo de registro desde otros espacios de trabajo.\
      Puede designar desde qué espacios de trabajo se puede conectar este tipo de registro. Puede ponerlo a disposición de todos los espacios de trabajo o designar espacios específicos donde pueda importarlo.
@@ -179,17 +171,11 @@ Para obtener más información, vea [Configurar las capacidades entre espacios d
 
    ![Cuadro Crear tipo de registro en la ficha Configuración avanzada](assets/create-record-type-box-advanced-settings-tab.png)
 
-   <!--replace last point with this when we release dynamic record types; the preview tags might need to be edited, too:
-        <div class="preview">
-        1. (Optional and conditional) If you are a system administrator, click **Advanced settings** and update the following information in the **Cross-workspace capability** section: **** the info here is duplicated in the Edit record types article ***
-            * Enable the **Allow adding this record type to other workspaces** setting: This allows workspace managers to add this record type to other workspaces. 
-                You can designate specific users who can add this record type to other workspaces. 
-            * Enable the **Allow connecting to this record type in other workspaces** setting: This allows workspace managers to connect to this record type from other workspaces.  
-                You can designate which workspaces this record type can be connected from. You can make it available for all workspaces or designate specific ones where you can import it.
-            For more information, see [Configure cross-workspace capabilities for record types](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md).  </div>
-            ******** replace screen shot below **********
-            ![Create record type box on advanced settings tab](assets/create-record-type-box-advanced-settings-tab.png) 
-        -->
+   <!--replace last point with this when we release global record types; the preview tags might need to be edited, too:
+    1. <span class="preview">(Optional and conditional) If you are a system administrator, update the information in the **Cross-workspace settings** tab.</span>
+    <span class="preview">For more information, see [Configure cross-workspace capabilities for record types](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md).</span>
+    ***********Add screenshot***********
+    -->
 
 1. Haga clic en **Guardar**.
 
@@ -200,9 +186,17 @@ La descripción del tipo de registro se muestra en la tarjeta.
 
    Si seleccionó conectar este registro desde otros espacios de trabajo, se mostrará el icono **conectar desde otros espacios** ![Conectar desde otros espacios](assets/connect-from-other-workspaces-icon.png) en la tarjeta de registro.
 
-   <!--<span class="preview">If you configured the cross-workspace capabilities for the record, the **connect from other spaces** icon ![Connect record type from other spaces icon](assets/connect-from-other-workspaces-icon.png) and the **add to other workspaces** icon ![Add record type to other workspaces](assets/global-icon.png) also display on the card. </span>-->
+   <!--<span class="preview">If you configured the cross-workspace capabilities for the record, the **connectable record type** icon ![Connectable record type icon](assets/connect-from-other-workspaces-icon.png) and the **global record type** icon ![Global record type icon](assets/global-icon.png) also display on the card. </span>-->
 
 1. (Opcional) Pase el ratón sobre la tarjeta de tipo de registro, haga clic en el icono **Más** ![Menú Más](assets/more-menu.png) en la esquina superior derecha y, a continuación, haga clic en **Editar** para modificar la información sobre el tipo de registro.
+
+   <!--replace the last point with this at the preview release of global record types:
+    <span class="preview">(Optional) Hover over the record type card, click the **More** icon ![More menu](assets/more-menu.png) in the upper-right corner, then click **Edit** or **Settings** to modify information about the record type. </span>
+    >[!TIP]
+    >
+    ><span class="preview">You can access the **Edit** and **Settings** options from the **More** menu of a record type in the record type page.</span>
+    -->
+
 1. (Opcional) Haga clic en la tarjeta de tipo de registro para abrir la página de tipo de registro.
 
    ![Tipo de registro operativo en blanco](assets/operational-record-type-blank.png)
@@ -255,9 +249,9 @@ Para obtener más información, vea [Crear tipos de registros importando informa
 
 <div class="preview">
 
-## Create record types by importing them from another workspace 
+## Create record types by adding existing ones from another workspace 
 
-You can add record types to a workspace by importing them from another workspace. You can only add record types that have been configured as centralized record types. 
+You can add record types to a workspace by adding existing ones from another workspace. You can only add record types that have been configured as global record types. 
 
 For information, see [Add existing record types from another workspace](/help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md).
 
