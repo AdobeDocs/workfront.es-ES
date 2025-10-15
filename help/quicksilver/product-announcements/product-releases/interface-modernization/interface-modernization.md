@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: d7f91e17294981c2c31681ca7f4732f9a79d4c61
+source-git-commit: 21293cdd7a1c8f76149ee2e224fa8701e25e970e
 workflow-type: tm+mt
-source-wordcount: '8483'
+source-wordcount: '8497'
 ht-degree: 2%
 
 ---
@@ -334,6 +334,10 @@ Para obtener más información, vea [Crear temas de colas](/help/quicksilver/man
 ### Actualización de la interfaz del cuadro Editar gasto de un proyecto
 
 **Versión preliminar: 28 de agosto de 2025; versión de producción: 4 de septiembre de 2025**
+
+>[!NOTE]
+>
+>Esta función se eliminó temporalmente de los entornos de Previsualización y Producción el 15 de octubre de 2025.
 
 Hemos actualizado el cuadro de diálogo para editar un gasto de proyecto, para que coincida con otras áreas de la aplicación. El cuadro de diálogo actualizado está disponible al editar gastos en proyectos o plantillas.
 
