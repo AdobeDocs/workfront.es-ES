@@ -23,7 +23,7 @@ ht-degree: 99%
 
 ## ¿Cómo abro una nueva cuenta de [!DNL Workfront Proof]?
 
-Para abrir una cuenta nueva, vaya a la [página de registro de prueba](https://business.adobe.com/products/workfront/proofing-approvals.html) y abra una cuenta de prueba. Un miembro de nuestro equipo se pondrá en contacto con usted para ayudarle a empezar con [!DNL Workfront Proof].
+Para abrir una cuenta nueva, vaya a la [página de registro de prueba](https://business.adobe.com/es/products/workfront/proofing-approvals.html) y abra una cuenta de prueba. Un miembro de nuestro equipo se pondrá en contacto con usted para ayudarle a empezar con [!DNL Workfront Proof].
 
 Si ya conoce el sistema y desea suscribirse a un plan de pago, vaya a *[!UICONTROL Configuración]* *>* *[!UICONTROL Facturación]* y actualice su cuenta a uno de nuestros planes de pago.
 

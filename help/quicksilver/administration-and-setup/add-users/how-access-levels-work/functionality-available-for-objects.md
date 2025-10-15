@@ -28,7 +28,7 @@ También indica qué acciones pueden deshabilitar o habilitar los administradore
 >[!NOTE]
 >
 >* En este artículo se describe la funcionalidad disponible para los niveles de acceso en el nuevo modelo de plan de Workfront. Para ver la funcionalidad disponible en el modelo de plan actual, consulte [Funcionalidad disponible para cada tipo de objeto para varios niveles de acceso](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md).
->* Para obtener una lista de las funcionalidades disponibles para los distintos planes del nuevo modelo de plan, consulte [Precios y paquetes de Adobe Workfront](https://business.adobe.com/products/workfront/pricing.html).
+>* Para obtener una lista de las funcionalidades disponibles para los distintos planes del nuevo modelo de plan, consulte [Precios y paquetes de Adobe Workfront](https://business.adobe.com/es/products/workfront/pricing.html).
 
 ## Proyectos
 

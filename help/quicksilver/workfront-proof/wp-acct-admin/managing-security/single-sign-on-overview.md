@@ -21,7 +21,7 @@ ht-degree: 99%
 >
 >Este artículo hace referencia a la funcionalidad del producto independiente [!DNL Workfront Proof]. Para obtener información sobre la revisión dentro de [!DNL Adobe Workfront], consulte [Revisión](../../../review-and-approve-work/proofing/proofing.md).
 
-Se requiere un plan de [!UICONTROL empresa] [!DNL Workfront] para utilizar esta característica. Para obtener más información sobre los diversos planes disponibles, consulte [Planes de Workfront](https://business.adobe.com/products/workfront/pricing.html).
+Se requiere un plan de [!UICONTROL empresa] [!DNL Workfront] para utilizar esta característica. Para obtener más información sobre los diversos planes disponibles, consulte [Planes de Workfront](https://business.adobe.com/es/products/workfront/pricing.html).
 
 El inicio de sesión único (SSO) permite a sus usuarios iniciar sesión en [!DNL Workfront Proof] con el nombre de usuario y la contraseña existentes en su organización.
 
