@@ -19,7 +19,7 @@ ht-degree: 14%
 >[!IMPORTANT]
 >
 >Este artículo describe el nuevo widget Mis solicitudes. Debe tener la nueva experiencia de solicitud habilitada para ver el nuevo widget.
->>Puede activar el nuevo experiencia solicitante en el área Solicitudes.
+>&#x200B;>Puede activar el nuevo experiencia solicitante en el área Solicitudes.
 
 El widget Mis solicitudes muestra las solicitudes que se han enviado a su organización. Puede filtrar las solicitudes, búsqueda para solicitudes específicas o ajustar el orden y la visibilidad de las columnas. También puede crear una nueva solicitud desde el widget Mis solicitudes.
 
@@ -75,7 +75,7 @@ El widget Mis solicitudes cuenta con un filtro personalizable que permite contro
 
 Para configurar el filtro en la utilidad Mis solicitudes:
 
-1. Haz clic en el icono del **[!UICONTROL menú]** ![principal en la esquina superior derecha y, a continuación, haz clic en ](assets/main-menu-icon.png)Inicio **[!UICONTROL .]**
+1. Haz clic en el icono del **[!UICONTROL menú]** ![principal en la esquina superior derecha y, a continuación, haz clic en &#x200B;](assets/main-menu-icon.png)Inicio **[!UICONTROL .]**
 1. (Condicional) Para agregar el **widget Mis solicitudes** a la pantalla principal. Haga clic en **Personalizar** y busque **Mis solicitudes**.
 1. En la utilidad Mis solicitudes, haga clic en **Filtrar**.
 1. En el campo situado más a la izquierda, seleccione por qué desea filtrar. Entre las opciones disponibles se encuentran:
@@ -117,7 +117,7 @@ Las columnas disponibles incluyen:
 
 Para ajustar las columnas en el widget Mis solicitudes:
 
-1. Haz clic en el icono del **[!UICONTROL menú]** ![principal en la esquina superior derecha y, a continuación, haz clic en ](assets/main-menu-icon.png)Inicio **[!UICONTROL .]**
+1. Haz clic en el icono del **[!UICONTROL menú]** ![principal en la esquina superior derecha y, a continuación, haz clic en &#x200B;](assets/main-menu-icon.png)Inicio **[!UICONTROL .]**
 1. (Condicional) Para agregar el widget **Mis solicitudes** a la pantalla de inicio. Haga clic en **Personalizar** y busque **Mis solicitudes**.
 1. En el widget Mis solicitudes, haga clic en **Columnas**.
 1. (Opcional) Para reordenar las columnas, haga clic en el controlador de arrastre ![controlador de arrastre](assets/drag-handle.png) de la columna que desee mover y arrástrela a las ubicaciones que desee. La columna situada en la parte superior de la lista aparece en el widget Mis solicitudes como la columna situada más a la izquierda.
@@ -129,7 +129,7 @@ Las preferencias de columna se guardan automáticamente.
 
 Para búsqueda solicitudes específicas en el widget Mis solicitudes:
 
-1. Haz clic en el icono del **[!UICONTROL menú]** ![principal en la esquina superior derecha y, a continuación, haz clic en ](assets/main-menu-icon.png)Inicio **[!UICONTROL .]**
+1. Haz clic en el icono del **[!UICONTROL menú]** ![principal en la esquina superior derecha y, a continuación, haz clic en &#x200B;](assets/main-menu-icon.png)Inicio **[!UICONTROL .]**
 1. (Condicional) Para agregar el **widget Mis solicitudes** a la pantalla principal. Haga clic en **Personalizar** y busque **Mis solicitudes**.
 1. En la barra de búsqueda cerca de la parte superior derecha del widget Mis solicitudes, introduzca el término que desea buscar.
 
