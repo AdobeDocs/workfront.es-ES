@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 0da08e30-51a8-4163-ae1e-821a099fac3b
-source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
+source-git-commit: 2fb95d37c32984e248767993c4858038d27e0590
 workflow-type: tm+mt
-source-wordcount: '201'
-ht-degree: 90%
+source-wordcount: '226'
+ht-degree: 80%
 
 ---
 
@@ -40,14 +40,14 @@ Los artículos de las secciones siguientes describen cómo se pueden configurar 
 * [Editar espacios de trabajo](/help/quicksilver/planning/architecture/edit-workspaces.md)
 * [Eliminar tipos de registro](/help/quicksilver/planning/architecture/delete-record-types.md)
 
-<!--*[Configure the Settings area of a record type](/help/quicksilver/planning/architecture/configure-record-type-settings.md)-->
+<div class="preview">
 
-<!--* <span class="preview">[Configure cross-workspace capabilities for record types](help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md)</span>
+* [Información general sobre tipos de registros entre espacios de trabajo](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md)
+* [Configuración de funciones entre espacios de trabajo para tipos de registros](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md)
+* [Agregar tipos de registros existentes desde otro espacio de trabajo](/help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md)
+* [Configuración del área Configuración de un tipo de registro](/help/quicksilver/planning/architecture/configure-record-type-settings.md)
 
-* <span class="preview">[Add existing record types from another workspace](/help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md)</span>
--->
-
-<!--* <span class="preview">[Cross-workspace record types overview](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md)</span>-->
+</div>
 
 <!--* [Create workspace hierarchies](/help/quicksilver/planning/architecture/create-workspace-hierarchies.md)-->
 

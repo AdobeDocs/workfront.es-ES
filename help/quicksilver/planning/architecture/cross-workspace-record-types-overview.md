@@ -1,25 +1,24 @@
 ---
 title: Información general del tipo de registro entre espacios de trabajo
-description: Los tipos de registros globales se pueden agregar a varios espacios de trabajo desde un espacio de trabajo central o principal en Adobe Workfront Planning.
-hidefromtoc: true
-hide: true
-exl-id: aeedd871-dcd3-4fb3-bfc5-99db3e7c9296
-source-git-commit: 95474ea813f4ea575942eea733caf2952b2daa75
-workflow-type: tm+mt
-source-wordcount: '1453'
-ht-degree: 0%
-
----
-
-<!-- add these to the metadata, when making this public: 
-
+description: Puede habilitar los tipos de registro para que sean globales o conectables. Los tipos de registros globales se pueden agregar a varios espacios de trabajo desde un espacio de trabajo central o principal en Adobe Workfront Planning, mientras que los tipos de registros conectables se pueden conectar a desde otros espacios de trabajo que no sean los suyos propios.
 feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
--->
+exl-id: aeedd871-dcd3-4fb3-bfc5-99db3e7c9296
+source-git-commit: 2fb95d37c32984e248767993c4858038d27e0590
+workflow-type: tm+mt
+source-wordcount: '1534'
+ht-degree: 2%
+
+---
+
 
 # Información general sobre el tipo de registro entre espacios de trabajo
+
+<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después de las versiones mensuales en Production, las mismas funciones también están disponibles en el entorno Production para los clientes que habilitaron versiones rápidas. </span>
+
+<span class="preview">Para obtener información acerca de las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
 {{planning-important-intro}}
 
@@ -32,11 +31,13 @@ Puede habilitar las funciones entre espacios de trabajo para un tipo de registro
 
 Las siguientes son funciones de varios espacios de trabajo de los tipos de registro:
 
-* **Tipos de registros globales**: los usuarios pueden agregar tipos de registros globales a otros espacios de trabajo que administren.
+* <span class="preview">**Tipos de registros globales**: los usuarios pueden agregar tipos de registros globales a otros espacios de trabajo que administren.</span>
 
 * **Tipos de registros conectables**: los usuarios pueden conectarse a este tipo de registro desde otros espacios de trabajo.
 
 Este artículo le ofrece una descripción general de los tipos de registros de espacio de trabajo cruzado. Para obtener información acerca de cómo definir las capacidades entre espacios de trabajo de un tipo de registro, vea [Configurar las capacidades entre espacios de trabajo para los tipos de registros](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md).
+
+<div class="preview">
 
 ## Información general sobre los tipos de registros globales
 
@@ -118,11 +119,12 @@ El tipo de registro configurado para ser global tiene las siguientes propiedades
     * Add request forms to it
     * Add automations to it-->
 
-* Ningún usuario puede realizar las siguientes acciones en el tipo de registro añadido desde un tipo de registro global en un espacio de trabajo secundario:
+* Ningún usuario puede realizar las siguientes acciones en un tipo de registro global en un espacio de trabajo secundario:
 
    * Edítela
 
      No se puede editar su aspecto, sus funciones entre espacios de trabajo ni los campos añadidos desde el espacio de trabajo original.
+   * Compartirlo
    * Creación y administración de formularios de solicitud
    * Creación y administración de automatizaciones
 
@@ -151,6 +153,8 @@ Se dan los siguientes casos:
 * Si el usuario tiene acceso, el registro se crea en el espacio de trabajo original de los tipos de registro global.
 
 * Si el usuario no tiene acceso, recibe el error de que no tiene acceso al espacio de trabajo original del tipo de registro global y debe proporcionar el ID del espacio de trabajo donde tenga acceso para crear registros.
+
+</div>
 
 ## Información general sobre los tipos de registros conectables
 

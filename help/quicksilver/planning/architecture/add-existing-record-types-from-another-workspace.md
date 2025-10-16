@@ -1,23 +1,18 @@
 ---
 title: Agregar tipos de registros existentes desde otro Workspace
 description: Los tipos de registro son los tipos de objetos de Adobe Workfront Planning. En Workfront Planning, puede agregar un tipo de registro existente creado en otro espacio de trabajo.
-hidefromtoc: true
-hide: true
-exl-id: b977d5dd-8975-42c4-9968-a7ac357972e6
-source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
-workflow-type: tm+mt
-source-wordcount: '619'
-ht-degree: 5%
-
----
-
-<!-- add these to the metadata, when making this public: 
-
 feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
--->
+exl-id: b977d5dd-8975-42c4-9968-a7ac357972e6
+source-git-commit: 2fb95d37c32984e248767993c4858038d27e0590
+workflow-type: tm+mt
+source-wordcount: '630'
+ht-degree: 5%
+
+---
+
 
 # Agregar tipos de registros existentes desde otro espacio de trabajo
 
@@ -56,7 +51,7 @@ Antes de agregar registros a un área de trabajo desde un tipo de registro globa
    <td> 
 <ul><li><p>Cualquier paquete Workfront y un paquete Planning Plus</p></li>
 <p>O</p>
-<li><p>Flujo de trabajo y planificación de paquetes de Prime y Ultimate</p></p></li></ul>
+<li><p>Cualquier flujo de trabajo y un paquete de Planning Prime o Ultimate</p></p></li></ul>
 <p>Para obtener más información sobre lo que se incluye en cada paquete de Workfront Planning, póngase en contacto con su representante de cuentas de Workfront. </p> 
    </td> 
   <tr> 
@@ -120,6 +115,8 @@ And
 >[!NOTE]
 >
 >Asegúrese de que haya al menos un tipo de registro designado para ser global en al menos otro espacio de trabajo.
+>
+>Para obtener más información, vea [Configurar las capacidades entre espacios de trabajo para los tipos de registro](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md).
 
 1. Comience a crear un tipo de registro, tal como se describe en el artículo [Crear tipos de registros](/help/quicksilver/planning/architecture/create-record-types.md), luego haga clic en **Agregar tipos de registros existentes**. <!--check this - the option might have been renamed in the UI-->
 

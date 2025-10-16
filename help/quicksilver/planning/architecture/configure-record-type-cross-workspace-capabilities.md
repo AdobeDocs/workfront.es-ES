@@ -1,41 +1,28 @@
 ---
 title: Configuración de funciones de varios espacios de trabajo para tipos de registro
 description: Puede habilitar un tipo de registro para que se agregue a otro espacio de trabajo o para que se conecte desde otro espacio de trabajo en Adobe Workfront Planning.
-hidefromtoc: true
-hide: true
-exl-id: d36ab9fb-0275-483d-97be-0a88e170f8e0
-source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
-workflow-type: tm+mt
-source-wordcount: '1337'
-ht-degree: 5%
-
----
-
-<!-- add these to the metadata, when making this public: 
-
 feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
+exl-id: d36ab9fb-0275-483d-97be-0a88e170f8e0
+source-git-commit: 2fb95d37c32984e248767993c4858038d27e0590
+workflow-type: tm+mt
+source-wordcount: '1654'
+ht-degree: 5%
 
--->
+---
+
 
 <!--*******************REPLACE THE "ADVANCED SETTINGS" SECTION IN THE "EDIT RECORD TYPES" ARTICLE WITH A LINK TO THIS ARTICLE INSTEAD AND REMOVE THE STEPS FROM THE "EDIT RECORD TYPES" ARTICLE ON HOW TO ALLOW CROSS-WORKSPACE SETTINGS FOR RECORD TYPES*************-->
 
-
-<!--this article is linked to the UI - do not delete or change the URL-->
-
-<!--THIS MIGHT ALREADY BE ADDED TO THE "OVERVIEW" ARTICLE, BUT CHECK: add more info here about permissions, how users gain permissions from the original record type, per Lilit: users who add this to another space gain View permissions on that space when they add records to this added record type.
-
--->
-
 # Configuración de funciones entre espacios de trabajo para tipos de registros
+
+<!--this article is linked to the UI in the Advanced settings/ Cross-workspace settings tab - do not delete or change the URL-->
 
 {{planning-important-intro}}
 
-<!--this is linked to the UI in the info icon when you enable a record to be either global or connectable-->
-
-<span class="preview">La información de esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después de las versiones mensuales en Production, las mismas funciones también están disponibles en el entorno Production para los clientes que habilitaron versiones rápidas. </span>
+<span class="preview">La información resaltada en esta página hace referencia a funcionalidades que aún no están disponibles de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después de las versiones mensuales en Production, las mismas funciones también están disponibles en el entorno Production para los clientes que habilitaron versiones rápidas. </span>
 
 <span class="preview">Para obtener información sobre las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
@@ -43,7 +30,7 @@ Puede configurar los tipos de registros para que funcionen en varios espacios de
 
 Puede designar un tipo de registro como uno de los siguientes:
 
-* **Un tipo de registro global**: los usuarios pueden agregar tipos de registros globales a otros espacios de trabajo que puedan administrar.
+* <span class="preview">**Un tipo de registro global**: los usuarios pueden agregar tipos de registro global a otros espacios de trabajo que puedan administrar.</span>
 * **Un tipo de registro conectable**: los usuarios pueden conectarse a este tipo de registro desde otros espacios de trabajo.
 
 Primero debe definir las capacidades de un tipo de registro entre espacios de trabajo para que los administradores de espacios de trabajo puedan agregarlo o conectarlo desde otros espacios de trabajo.
@@ -75,15 +62,18 @@ Para obtener más información, consulte uno de los siguientes artículos:
 <ul> 
 <li><p>Cualquier paquete Workfront y cualquier paquete Planning</p></li>
 <p>O</p>
-<li><p>Flujo de trabajo y planificación de paquetes de Prime y Ultimate</p></li></ul>
+<li><p>Cualquier flujo de trabajo y un paquete de Planning Prime o Ultimate</p></li></ul>
 
+<div class="preview">
 <p>Para configurar tipos de registros globales:</p>
 
 <ul> 
 <li><p>Cualquier paquete Workfront y un paquete Planning Plus</p></li>
 <p>O</p>
-<li><p>Flujo de trabajo y planificación de paquetes de Prime y Ultimate</p></li></ul>
-<p>Para obtener más información sobre lo que se incluye en cada paquete de Workfront Planning, póngase en contacto con su representante de cuentas de Workfront. </p> 
+<li><p>Cualquier flujo de trabajo y un paquete de Planning Prime o Ultimate</p></li></ul>
+<p>Para obtener más información sobre lo que se incluye en cada paquete de Workfront Planning, póngase en contacto con su representante de cuentas de Workfront. </p>
+
+</div> 
    </td> 
   <tr> 
    <td role="rowheader"><p>Licencia de Adobe Workfront</p></td> 
@@ -139,9 +129,11 @@ And
    <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>  </td> 
   </tr>  
 </tbody> 
-</table> -- >
+</table> -->
 
-## Configure global record types
+<div class="preview">
+
+## Configuración de tipos de registros globales
 
 <!--this is a UI term; don't change the title of this section-->
 
@@ -224,6 +216,7 @@ Para configurar un tipo de registro como global:
 
    ![Espacios de trabajo donde se usa este tipo de registro](assets/workspaces-where-this-record-type-is-used.png)
 
+</div>
 
 ## Configurar tipos de registros conectables
 
@@ -231,7 +224,9 @@ Para configurar un tipo de registro como global:
 
 Puede configurar un tipo de registro para que se conecte desde otros espacios de trabajo al crear o editar el tipo de registro.
 
-Para configurar un tipo de registro como conectable:
+La configuración de un tipo de registro para que sea conectable difiere según el entorno que elija para la configuración.
+
+### Configurar tipos de registros conectables en el entorno de producción
 
 {{step1-to-planning}}
 
@@ -242,7 +237,49 @@ Para configurar un tipo de registro como conectable:
 
    * Pase el ratón sobre la tarjeta de un tipo de registro y haga clic en el menú **Más** ![Menú Más](assets/more-menu.png) en la esquina superior derecha de la tarjeta de tipo de registro
 
-     ![Más opciones de menú de la tarjeta de tipo de registro](assets/more-menu-options-from-record-type-card.png) <!--add new screen shot without Share for now-->
+     ![Más opciones de menú de la tarjeta de tipo de registro](assets/more-menu-options-from-record-type-card.png)
+
+   * Haga clic en una tarjeta de tipo de registro para abrir la página de tipo de registro y, a continuación, haga clic en el menú **Más** ![Menú Más](assets/more-menu.png) a la derecha del nombre del tipo de registro y, a continuación, haga clic en **Editar**.
+
+1. Haga clic en la ficha **Configuración avanzada**.
+
+1. Habilite la opción **Permitir la conexión a este tipo de registro desde otros espacios de trabajo**.
+
+   ![Editar ficha de configuración avanzada de registro con la conexión habilitada desde otros espacios de trabajo](assets/edit-record-type-advanced-settings-connect-from-other-workspaces-enabled.png)
+
+   Cuando está habilitado, el tipo de registro se vuelve conectable y se puede acceder a él desde otros espacios de trabajo.
+
+1. Elija desde qué espacios de trabajo se puede acceder al tipo de registro. Elija entre las siguientes opciones:
+
+   <!--check names of the setting: System wide?? OR All workspaces??-->
+
+   * **En todo el sistema**: los usuarios pueden conectarse a este tipo de registro desde todos los espacios de trabajo donde tengan permisos de administración.
+   * **Espacios de trabajo específicos**: en el menú desplegable, agregue los nombres de los espacios de trabajo donde los administradores de espacios de trabajo pueden conectarse a este tipo de registro.
+1. (Condicional) Haga clic en **Guardar** en el cuadro **Editar tipo de registro** para guardar los cambios.
+
+   Ocurren lo siguiente:
+
+   * El tipo de registro y sus campos ya están disponibles para conectarse desde los espacios de trabajo designados.
+   * La tarjeta de tipo de registro muestra un icono de tipo de registro conectable ![Icono de tipo de registro conectable](assets/connect-from-other-workspaces-icon.png) para indicar que el tipo de registro está disponible para conectarse desde cualquier área de trabajo designada en su configuración.
+
+1. (Opcional) Vaya a otro espacio de trabajo y añada una conexión al tipo de registro que ha activado para la conectividad entre espacios de trabajo en los pasos anteriores.
+
+   Para obtener más información, consulte [Conectar tipos de registros](/help/quicksilver/planning/architecture/connect-record-types.md).
+
+<div class="preview">
+
+### Configuración de tipos de registros conectables en el entorno de vista previa
+
+{{step1-to-planning}}
+
+1. Haga clic en el espacio de trabajo cuyos tipos de registros desee configurar como conectables.
+
+   Se abre la página del espacio de trabajo y se muestran los tipos de registro.
+1. Realice una de las siguientes acciones:
+
+   * Pase el ratón sobre la tarjeta de un tipo de registro y haga clic en el menú **Más** ![Menú Más](assets/more-menu.png) en la esquina superior derecha de la tarjeta de tipo de registro
+
+     ![Más opciones de menú de la tarjeta de tipo de registro con Configuración](assets/more-menu-options-from-record-type-card-with-settings-link.png)
 
    * Haga clic en una tarjeta de tipo de registro para abrir la página de tipo de registro y, a continuación, haga clic en el menú **Más** ![Menú Más](assets/more-menu.png) situado a la derecha del nombre del tipo de registro.
 1. Haga clic en **Editar** o en **Configuración**.
@@ -255,7 +292,7 @@ Para configurar un tipo de registro como conectable:
 
    <!-- add new screen shot with new tab name-->
 
-   ![Editar tipo de registro en la ficha Configuración entre espacios de trabajo con la conexión habilitada desde otros espacios de trabajo](assets/edit-record-type-advanced-settings-connect-from-other-workspaces-enabled.png)
+   ![Editar tipo de registro en la ficha Configuración entre espacios de trabajo con la conexión habilitada desde otros espacios de trabajo](assets/edit-record-type-box-cross-workspace-settings-connectable-record-type-enabled.png)
 
    Cuando está habilitado, el tipo de registro es accesible y se puede conectar a desde otros espacios de trabajo.
 
@@ -275,6 +312,8 @@ Para configurar un tipo de registro como conectable:
 1. (Opcional) Vaya a otro espacio de trabajo y añada una conexión al tipo de registro que ha activado para la conectividad entre espacios de trabajo en los pasos anteriores.
 
    Para obtener más información, consulte [Conectar tipos de registros](/help/quicksilver/planning/architecture/connect-record-types.md).
+
+</div>
 
 
 
