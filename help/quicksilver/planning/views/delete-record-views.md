@@ -6,18 +6,18 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: f86971bc-e807-459e-9fa8-dc34967bc069
-source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
+source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
 workflow-type: tm+mt
-source-wordcount: '359'
-ht-degree: 19%
+source-wordcount: '222'
+ht-degree: 25%
 
 ---
 
 # Eliminar vistas de registros
 
-<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después de las versiones mensuales en Production, las mismas funciones también están disponibles en el entorno Production para los clientes que habilitaron versiones rápidas. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 
 {{planning-important-intro}}
@@ -42,11 +42,10 @@ La vista se elimina para todos los usuarios que tienen permisos para acceder a e
 <tr> 
    <td role="rowheader"><p>paquete de Adobe Workfront</p></td> 
    <td> 
-<ul> 
-<li><p>Cualquier Workfront y cualquier paquete de Planning</p></li>
-O
-<li><p>Cualquier flujo de trabajo y cualquier paquete de Planning</p></li></ul>
-<p>Para obtener más información sobre lo que se incluye en cada paquete de Workfront Planning, póngase en contacto con su representante de cuentas de Workfront. </p> 
+   <p>Cualquier Workfront y cualquier paquete de Planning</p>
+
+<p>Cualquier flujo de trabajo y cualquier paquete de Planning</p>
+   <p>Para obtener más información sobre lo que se incluye en cada paquete de Workfront Planning, póngase en contacto con su representante de cuentas de Workfront. </p> 
    </td> 
   <tr> 
    <td role="rowheader"><p>Licencia de Adobe Workfront</p></td> 
@@ -139,20 +138,10 @@ Para obtener más información acerca de los requisitos de acceso de Workfront, 
    De forma predeterminada, todos los registros del tipo seleccionado se muestran en la vista de tabla.
 
 
-1. En la pestaña de la vista, realice una de las siguientes acciones:
+1. En la pestaña de la vista, haga clic en la pestaña de la vista, pase el ratón sobre la vista en el menú desplegable, haga clic en el menú **Más** ![Menú más](assets/more-menu.png) y, a continuación, haga clic en **Eliminar**.</span>
 
-   * Según el entorno desde el que acceda a la vista, haga lo siguiente:
+   ![Menú más con opciones](assets/more-menu-for-views-expanded-with-delete-option.png)
 
-      * En el entorno Producción, pase el ratón sobre el nombre de la ficha de la vista que quiera compartir y haga clic en el menú **Más** ![Más menú](assets/more-menu.png) a la derecha del nombre de la vista; a continuación, haga clic en **Eliminar**.
-
-     >[!TIP]
-     >
-     >Es posible que tenga que hacer clic en **Más** a la derecha de la última pestaña para encontrar la vista que desea eliminar.
-
-      * <span class="preview"> En el entorno de vista previa, haga clic en la ficha de la vista, pase el cursor sobre la vista en el menú desplegable, haga clic en el menú **Más** ![Menú más](assets/more-menu.png) y, a continuación, haga clic en **Eliminar**.</span>
-
-     ![Menú más con opciones](assets/more-menu-for-views-expanded-with-delete-option.png)
-
-1. Haga clic en **Eliminar** para confirmar. <!--ensure there is not another saving step here?!-->
+1. Haga clic en **Eliminar** para confirmar.
 
    La vista se elimina para todos los usuarios que pueden acceder al área de registros.

@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 940945df-391c-4672-9d9d-180d5028509b
-source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
+source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
 workflow-type: tm+mt
-source-wordcount: '886'
+source-wordcount: '826'
 ht-degree: 6%
 
 ---
@@ -16,9 +16,11 @@ ht-degree: 6%
 
 # Crear registros importando información desde un archivo CSV o de Excel
 
-<span class="preview">La información de esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después de las versiones mensuales en Production, las mismas funciones también están disponibles en el entorno Production para los clientes que habilitaron versiones rápidas. </span>
+<!--
 
-<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -42,10 +44,7 @@ Para obtener más información sobre cómo crear registros, vea [Crear registros
 <tr> 
    <td role="rowheader"><p>paquete de Adobe Workfront</p></td> 
    <td> 
-<ul> 
-<li><p>Cualquier Workfront y cualquier paquete de Planning</p></li>
-O
-<li><p>Cualquier flujo de trabajo y cualquier paquete de Planning</p></li></ul>
+<p>Cualquier Workfront y cualquier paquete de Planning</p> <p>Cualquier flujo de trabajo y cualquier paquete de Planning</p>
 <p>Para obtener más información sobre lo que se incluye en cada paquete de Workfront Planning, póngase en contacto con su representante de cuentas de Workfront. </p> 
    </td> 
   <tr> 
@@ -146,7 +145,7 @@ Para obtener más información acerca de los requisitos de acceso de Workfront, 
    * Campos de fórmula
    * Fecha de creación, Creado por
    * Fecha de la última modificación, Última modificación por
-   * <span class="preview">Fecha de aprobación, aprobada por</span>
+   * Fecha de aprobación, Aprobado por
    * Personas
    * Si se importa un campo de selección múltiple o única y tiene más opciones que un campo similar en Planning, las opciones adicionales se crean durante la importación. Solo los usuarios con permisos de Administrar en el espacio de trabajo pueden importar nuevas opciones.
 

@@ -6,16 +6,15 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
+source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
 workflow-type: tm+mt
-source-wordcount: '1145'
+source-wordcount: '1144'
 ht-degree: 48%
 
 ---
 
 
 # Administrar vistas de registros
-
 
 <!--
 
@@ -70,10 +69,8 @@ Para obtener más información sobre la administración de vistas de registros d
 <tr> 
    <td role="rowheader"><p>paquete de Adobe Workfront</p></td> 
    <td> 
-<ul> 
-<li><p>Cualquier Workfront y cualquier paquete de Planning</p></li>
-O
-<li><p>Cualquier flujo de trabajo y cualquier paquete de Planning</p></li></ul>
+<p>Cualquier Workfront y cualquier paquete de Planning</p>
+<p>Cualquier flujo de trabajo y cualquier paquete de Planning</p>
 <p>Para obtener más información sobre lo que se incluye en cada paquete de Workfront Planning, póngase en contacto con su representante de cuentas de Workfront. </p> 
    </td> 
   <tr> 

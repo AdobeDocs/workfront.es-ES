@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 6c35c313-d6ed-428b-b70d-2ea242da4e8f
-source-git-commit: 2fb95d37c32984e248767993c4858038d27e0590
+source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
 workflow-type: tm+mt
-source-wordcount: '980'
+source-wordcount: '979'
 ht-degree: 47%
 
 ---
@@ -46,10 +46,7 @@ En este artículo se describe cómo editar la configuración de los campos de Wo
 <tr> 
    <td role="rowheader"><p>paquete de Adobe Workfront</p></td> 
    <td> 
-<ul> 
-<li><p>Cualquier Workfront y cualquier paquete de Planning</p></li>
-O
-<li><p>Cualquier flujo de trabajo y cualquier paquete de Planning</p></li></ul>
+<p>Cualquier Workfront y cualquier paquete de Planning</p> <p>Cualquier flujo de trabajo y cualquier paquete de Planning</p>
 <p>Para obtener más información sobre lo que se incluye en cada paquete de Workfront Planning, póngase en contacto con su representante de cuentas de Workfront. </p> 
    </td> 
   <tr> 
@@ -150,7 +147,7 @@ Debe tener en cuenta lo siguiente antes de realizar cambios en la configuración
   >No se muestra ninguna notificación a otros usuarios de que la configuración del campo haya cambiado.
 
 * Puede editar los campos de búsqueda existentes de los registros conectados.
-* Además de editar el campo como se describe en la sección [Editar configuración de campo](#edit-field-settings-1) de este artículo, <span class="preview">puede editar las opciones de un campo de selección única o múltiple cuando edita un registro en la vista de tabla, a medida que actualiza los valores de los campos. Para obtener más información, vea la sección [Agregar nuevas opciones a un campo de selección existente al editar registros en la vista de tabla](#add-new-choices-to-an-existing-select-field-when-editing-records-in-the-table-view) de este artículo.</span>
+* Además de editar el campo como se describe en la sección [Editar configuración de campo](#edit-field-settings-1) de este artículo, puede editar las opciones de un campo de selección única o múltiple cuando edita un registro en la vista de tabla, a medida que actualiza los valores de los campos. Para obtener más información, vea la sección [Agregar nuevas opciones a un campo de selección existente al editar registros en la vista de tabla](#add-new-choices-to-an-existing-select-field-when-editing-records-in-the-table-view) de este artículo.
 
 <!--at production - April 10, 2025 - remove the last bullet altogether-->
 

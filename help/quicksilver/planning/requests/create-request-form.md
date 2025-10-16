@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 1a56846647e443cf3f5f09eed8c3084434de5ddb
+source-git-commit: c06baa45e52d77463f9f886b6f6eae4ff68e4ccd
 workflow-type: tm+mt
 source-wordcount: '2686'
 ht-degree: 6%
@@ -82,8 +82,8 @@ Para obtener información sobre cómo enviar solicitudes de Workfront Planning, 
 
    * No se pueden agregar campos de los siguientes tipos a un formulario de solicitud:
 
-      * Creado por, modificado por última vez por, <span class="preview">Aprobado por</span>
-      * Fecha de creación, Fecha de la última modificación, <span class="preview">Fecha de aprobación</span>
+      * Creado por, Última modificación por, Aprobado por
+      * Fecha de creación, Fecha de la última modificación, Fecha de aprobación
       * Campos de búsqueda de objetos Workfront
       * Campos de búsqueda de registros conectados de Workfront Planning
 

@@ -6,18 +6,20 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
+source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
 workflow-type: tm+mt
-source-wordcount: '3431'
-ht-degree: 68%
+source-wordcount: '3370'
+ht-degree: 70%
 
 ---
 
 # Administrar la vista de tabla
 
-<span class="preview">La información resaltada en esta página hace referencia a funcionalidades que aún no están disponibles de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después de las versiones mensuales en Production, las mismas funciones también están disponibles en el entorno Production para los clientes que habilitaron versiones rápidas. </span>
+<!--
 
-<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span> -->
 
 {{planning-important-intro}}
 
@@ -48,10 +50,8 @@ Para obtener información acerca de cómo exportar la vista de tabla a un archiv
 <tr> 
    <td role="rowheader"><p>paquete de Adobe Workfront</p></td> 
    <td> 
-<ul> 
-<li><p>Cualquier Workfront y cualquier paquete de Planning</p></li>
-O
-<li><p>Cualquier flujo de trabajo y cualquier paquete de Planning</p></li></ul>
+<p>Cualquier Workfront y cualquier paquete de Planning</p>
+<p>Cualquier flujo de trabajo y cualquier paquete de Planning</p>
 <p>Para obtener más información sobre lo que se incluye en cada paquete de Workfront Planning, póngase en contacto con su representante de cuentas de Workfront. </p> 
    </td> 
   <tr> 
@@ -153,16 +153,16 @@ Al crear una vista de tabla, todos los registros del tipo seleccionado se muestr
 
 Para administrar una vista de tabla:
 
-1. <span class="preview">Cree una vista de tabla, tal como se describe en el artículo [Administrar vistas de registros](/help/quicksilver/planning/views/manage-record-views.md).</span>
+1. Cree una vista de tabla, tal como se describe en el artículo [Administrar vistas de registros](/help/quicksilver/planning/views/manage-record-views.md).
 
-   <span class="preview">![Ejemplo de vista de tabla](assets/table-view-example.png)</span>
+   ![Ejemplo de vista de tabla](assets/table-view-example.png)
 
 1. (Opcional) Haga clic en **Altura de la fila** y, a continuación, seleccione una de las siguientes opciones para modificar la altura de las filas de la tabla:
    * Baja
    * Media
    * Alta
 
-1. <span class="preview">(Opcional) Haga clic en el icono **Pantalla completa** ![Abrir icono de pantalla completa](assets/open-full-screen-icon.png) para abrir la vista en pantalla completa y, a continuación, en el icono **Salir de pantalla completa** ![Salir del icono de pantalla completa](assets/exit-full-screen-icon.png) o Escape del teclado para salir de la pantalla completa.  </span>
+1. (Opcional) Haga clic en el icono **Pantalla completa** ![Abrir icono de pantalla completa](assets/open-full-screen-icon.png) para abrir la vista en pantalla completa y, a continuación, en el icono **Salir de pantalla completa** ![Salir del icono de pantalla completa](assets/exit-full-screen-icon.png) o Escape del teclado para salir de la pantalla completa.
 
 1. Actualice los siguientes elementos de vista como se describe en las subsecciones siguientes:
    * [Columnas (o campos)](#add-columns-or-fields)
@@ -198,12 +198,7 @@ Puede añadir hasta 500 campos (o columnas) en una vista de tabla.
 
    * Haga clic en **Campos** en la barra de herramientas de la tabla, arrastre y suelte los campos en el orden deseado y, a continuación, haga clic fuera del cuadro **Visibilidad y orden de los campos** para cerrarlo.
 
-     <div class="preview">
-
      ![Campos configurando la barra de herramientas de la vista de tabla expandida](assets/fields-setting-table-view-toolbar-expanded.png)
-
-     </div>
-
 
      >[!TIP]
      >
@@ -246,9 +241,9 @@ Puede añadir hasta 500 campos (o columnas) en una vista de tabla.
 
 1. Haga lo siguiente para buscar rápidamente registros que coincidan con una palabra clave:
 
-   1. <span class="preview">En el cuadro **Buscar** ![Icono de búsqueda](assets/search-icon.png) y empiece a escribir una palabra clave asociada a cualquier campo de un registro que se muestra en la pantalla.</span>: el número de coincidencias correctas se muestra junto al elemento de búsqueda y el campo con la coincidencia correcta está resaltado.
+   1. En el cuadro **Buscar** ![Icono de búsqueda](assets/search-icon.png) y empiece a escribir una palabra clave asociada a cualquier campo de un registro que se muestra en la pantalla. El número de coincidencias correctas se mostrará junto al elemento de búsqueda y el campo con la coincidencia correcta quedará resaltado.
 
-      <span class="preview">![Cuadro de búsqueda con contorno azul de resultados en la vista de tabla](assets/search-box-with-results-blue-outline-table-view.png)</span>
+      ![Cuadro de búsqueda con contorno azul de resultados en la vista de tabla](assets/search-box-with-results-blue-outline-table-view.png)
 
       Puede utilizar cualquier palabra o carácter especial que esté visible en la pantalla.
 
@@ -502,13 +497,11 @@ para añadir una agrupación:
 
 1. (Opcional) Haga clic en **Añadir condición** y repita los pasos anteriores para añadir hasta 3 agrupaciones.
 
-   <div class="preview">
-
    El número de campos seleccionados para la agrupación se muestra junto al icono de Agrupación.
 
    ![Agrupación aplicada en la vista de tabla](assets/grouping-applied-in-table-view.png)
 
-   </div>
+
 
 1. (Opcional) Dentro del cuadro **Agrupar registros por**, haga clic en el icono **x** a la derecha de un campo seleccionado para la agrupación para quitar la agrupación
 

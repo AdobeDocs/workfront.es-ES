@@ -6,20 +6,18 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 441a53d1-ad39-41b7-93fe-2ae1836476c9
-source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
+source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
 workflow-type: tm+mt
-source-wordcount: '391'
-ht-degree: 29%
+source-wordcount: '286'
+ht-degree: 35%
 
 ---
 
 # Duplicar vistas de registros
 
-<!--remove preview and production references-->
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después de las versiones mensuales en Production, las mismas funciones también están disponibles en el entorno Production para los clientes que habilitaron versiones rápidas. </span>
-
-<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 
 {{planning-important-intro}}
@@ -48,10 +46,9 @@ La duplicación de vistas es idéntica para todos los tipos de vistas en Workfro
 <tr> 
    <td role="rowheader"><p>paquete de Adobe Workfront</p></td> 
    <td> 
-<ul> 
-<li><p>Cualquier Workfront y cualquier paquete de Planning</p></li>
-O
-<li><p>Cualquier flujo de trabajo y cualquier paquete de Planning</p></li></ul>
+<p>Cualquier Workfront y cualquier paquete de Planning</p>
+
+<p>Cualquier flujo de trabajo y cualquier paquete de Planning</p>
 <p>Para obtener más información sobre lo que se incluye en cada paquete de Workfront Planning, póngase en contacto con su representante de cuentas de Workfront. </p> 
    </td> 
   <tr> 
@@ -141,11 +138,8 @@ Para obtener más información acerca de los requisitos de acceso de Workfront, 
    Se abre la página de tipo de registro.
 De forma predeterminada, todos los registros del tipo seleccionado se muestran en la vista de tabla.
 
-1. Según el entorno que utilice, haga lo siguiente:
+1. Haga clic en el icono desplegable ![Icono desplegable](assets/drop-down-icon.png) junto al nombre de la vista actual, pase el ratón sobre el nombre de una vista, haga clic en **Más** y luego en **Duplicado**.
 
-   * En el entorno Producción, pase el ratón sobre uno de los nombres de la vista en la pestaña Vista, luego haga clic en **Más** ![Menú más](assets/more-menu.png) a la izquierda del nombre de la vista y, a continuación, haga clic en **Duplicar**.
-   * <span class="preview">En el entorno de vista previa, haz clic en el icono desplegable ![Icono desplegable](assets/drop-down-icon.png) junto al nombre de la vista actual, pasa el ratón sobre el nombre de una vista, haz clic en **Más** y luego en **Duplicado**.</span>
+   ![Menú más a la vista con opciones](assets/more-menu-for-views-expanded-with-delete-option.png)
 
-     ![Menú más a la vista con opciones](assets/more-menu-for-views-expanded-with-delete-option.png)
-
-     La vista está duplicada y el nombre de la nueva vista sigue el siguiente patrón: `Original view's name (Copy)`. La nueva ficha de vista se muestra al final de todas las fichas de vista.
+   La vista está duplicada y el nombre de la nueva vista sigue el siguiente patrón: `Original view's name (Copy)`. La nueva ficha de vista se muestra al final de todas las fichas de vista.
