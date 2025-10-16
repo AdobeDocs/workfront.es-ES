@@ -8,14 +8,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 479dfb9d-0e47-4790-a33a-336b415fbf6e
-source-git-commit: 15063d937a5ba9b5285c66a0987e8deea6cc6d74
+source-git-commit: 30b61b32add4c6d062b5b524773d309008c9563d
 workflow-type: tm+mt
 source-wordcount: '333'
-ht-degree: 64%
+ht-degree: 63%
 
 ---
 
 # Desactivación o reactivación de una compañía
+
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment, and is being released in a phased rollout to Production.</span>-->
 
 Puede desactivar una compañía que ya no utilice y conservar a la vez todos sus datos históricos asociados. Si desactiva una compañía que ya está en uso en algún lugar del sistema, seguirá funcionando como siempre lo ha hecho. No se elimina ni se bloquea.
 
@@ -67,8 +69,8 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 1. En el panel izquierdo, haga clic en **[!UICONTROL Compañías]** ![Icono de Compañías](assets/companies-icon-left-panel.png).
 
 1. Seleccione una o varias compañías que desea desactivar o reactivar.
-1. Haga clic en **[!UICONTROL Editar]**.
-1. Para una sola compañía, deshabilite la opción **[!UICONTROL Está activo]** para desactivarla o habilite la opción para activarla.
+1. Haga clic en **[!UICONTROL Editar]**.<!--MAKE THIS A SEPARATE NUMBERED LINE<span class="preview">In the Preview environment, disable the **[!UICONTROL Is Active]** option to deactivate it, or enable the option to activate it.</span>-->
+1. <!--In the Production environment, -->Para una sola compañía, deshabilite la opción **[!UICONTROL Está activo]** para desactivarla o habilite la opción para activarla.
 
    O
 
