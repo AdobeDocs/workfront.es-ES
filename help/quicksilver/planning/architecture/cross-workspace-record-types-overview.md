@@ -4,9 +4,9 @@ description: Los tipos de registros globales se pueden agregar a varios espacios
 hidefromtoc: true
 hide: true
 exl-id: aeedd871-dcd3-4fb3-bfc5-99db3e7c9296
-source-git-commit: 7d37481fc5b468f6f8ea1fce6ccd7ae064f00251
+source-git-commit: 95474ea813f4ea575942eea733caf2952b2daa75
 workflow-type: tm+mt
-source-wordcount: '1362'
+source-wordcount: '1453'
 ht-degree: 0%
 
 ---
@@ -79,18 +79,23 @@ El tipo de registro configurado para ser global tiene las siguientes propiedades
    * Edítela
 
      La edición de un tipo de registro global incluye la edición de su aspecto, las funciones entre espacios de trabajo y todos los campos creados en el espacio de trabajo original.
-   * Creación de formularios de solicitud
-   * Administrar formularios de solicitud
+   * Creación y administración de formularios de solicitud
+   * Creación y administración de automatizaciones
 
 * Sólo se puede eliminar un tipo de registro global si no se ha agregado a un espacio de trabajo secundario. Primero debe eliminarlo (eliminándolo) de los espacios de trabajo secundarios para poder eliminarlo del espacio de trabajo original.
+
+  Para obtener más información, vea [Eliminar tipos de registros](/help/quicksilver/planning/architecture/delete-record-types.md).
 * Los registros que agregue a un tipo de registro global sólo son visibles para los usuarios que tienen permisos de Vista en el área de trabajo donde se agregaron.
 * Los registros que agregue desde un espacio de trabajo secundario se acumulan y se muestran en el espacio de trabajo original. Todos los miembros del espacio de trabajo original obtienen permisos de visualización para ellos.
-* Si el tipo de registro global original se agrega a varios espacios de trabajo secundarios, sólo podrá ver los registros agregados a otros espacios de trabajo desde el espacio de trabajo original o desde los espacios de trabajo en los que tenga al menos permisos para Ver.
+* Cuando se agrega el tipo de registro global original a varios espacios de trabajo secundarios, se presentan los siguientes escenarios:
+
+   * Los miembros del espacio de trabajo original obtienen automáticamente permisos de Vista para todos los registros agregados desde cualquier espacio de trabajo, incluso si no son miembros de dichos espacios de trabajo.
+   * Los miembros del área de trabajo secundaria sólo pueden ver registros de áreas de trabajo en las que son miembros.
 * Los tipos de registro conectados de un tipo de registro global estarán disponibles para la conexión desde los espacios de trabajo donde se agregue este tipo de registro.
 
   Por ejemplo, si tiene un tipo de registro global de campaña que tiene una conexión con un tipo de registro de regiones y agrega el tipo de registro de campaña a un espacio de trabajo secundario, las regiones se podrán conectar entre espacios de trabajo desde el espacio de trabajo secundario. Los miembros del espacio de trabajo secundario ahora pueden crear campañas y vincularlas a regiones.
 
-* Los campos creados para un tipo de registro global desde el espacio de trabajo original son visibles desde todos los espacios de trabajo donde se agrega el tipo de registro. La configuración de campo de un espacio de trabajo original es de sólo lectura en los espacios de trabajo secundarios.
+* Los campos creados para un tipo de registro global desde el espacio de trabajo original son visibles desde todos los espacios de trabajo donde se agrega el tipo de registro. Solo se puede editar la configuración de campo desde el espacio de trabajo original. La configuración de los campos creados en el espacio de trabajo original es de sólo lectura en los espacios de trabajo secundarios para todos los miembros, independientemente de sus permisos en el espacio de trabajo secundario. Los administradores del espacio de trabajo secundario no pueden modificar la configuración de campos de los campos configurados en el espacio de trabajo original. Sólo los administradores del espacio de trabajo original pueden modificar la configuración de campos del espacio de trabajo original.
 
 ### Consideraciones sobre los tipos de registros globales en un espacio de trabajo secundario
 
@@ -103,6 +108,8 @@ El tipo de registro configurado para ser global tiene las siguientes propiedades
    * Elimínelo.
 
      Al eliminar el tipo de registro de un espacio de trabajo secundario, solo se elimina de este. También se eliminan los registros y campos que se le hayan agregado desde el espacio de trabajo secundario. Esto no elimina el tipo de registro de su espacio de trabajo original ni de ningún otro espacio de trabajo secundario donde se haya agregado.
+
+     Para obtener más información, vea [Eliminar tipos de registros](/help/quicksilver/planning/architecture/delete-record-types.md).
 
   <!--These two capabilities will come later - and edit some of the bullets below after these capabilities are released:
     * Add new fields
@@ -128,7 +135,7 @@ El tipo de registro configurado para ser global tiene las siguientes propiedades
 * Los siguientes escenarios existen para registros creados en espacios de trabajo secundarios:
 
    * Si tiene permisos de Administración en el espacio de trabajo original y no tiene permisos en espacios de trabajo secundarios, puede ver los registros agregados desde los espacios de trabajo secundarios en el espacio de trabajo original, pero no puede administrarlos desde el espacio de trabajo original.
-   * Si tiene permisos de Administración en el espacio de trabajo secundario, puede administrar los registros en el espacio de trabajo original del tipo de registro global o desde el espacio de trabajo donde se agregaron.
+   * Si tiene permisos de Administración en el espacio de trabajo secundario, puede administrar los registros tanto del espacio de trabajo original del tipo de registro global como del espacio de trabajo secundario donde se agregaron.
    * Puede ver los registros en espacios de trabajo secundarios adicionales en los que el tipo de registro global se agrega sólo si tiene permisos de visualización en dichos espacios de trabajo.
 
 ### Acceso a las conexiones de un tipo de registro global

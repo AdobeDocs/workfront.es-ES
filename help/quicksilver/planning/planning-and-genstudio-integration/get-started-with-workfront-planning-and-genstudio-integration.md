@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 3b2fc764-f384-41bb-9d88-b2b88434ffc6
-source-git-commit: e717e095f1995dbed0232789616d42492156d843
+source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
 workflow-type: tm+mt
-source-wordcount: '1906'
+source-wordcount: '1950'
 ht-degree: 2%
 
 ---
@@ -76,6 +76,8 @@ Su organización debe cumplir los siguientes requisitos para que exista la integ
 
 ## Requisitos de acceso
 
+En la tabla siguiente se describen los requisitos de acceso y permisos para utilizar Adobe Workfront Planning con Adobe GenStudio for Performance Marketing:
+
 <table style="table-layout:auto"> 
 <col> 
 </col> 
@@ -83,12 +85,17 @@ Su organización debe cumplir los siguientes requisitos para que exista la integ
 </col> 
 <tbody> 
     <tr> 
-    <td role="rowheader"><p>paquete de Adobe Workfront</p></td> 
+<tr> 
+</tr>   
+<tr> 
+   <td role="rowheader"><p>paquete de Adobe Workfront</p></td> 
    <td> 
-<p>Cualquier paquete de Workfront</p>
-<p>Cualquier paquete de Planning</p>
-
-</td> </tr>
+<ul> 
+<li><p>Cualquier Workfront y cualquier paquete de Planning</p></li>
+O
+<li><p>Cualquier flujo de trabajo y cualquier paquete de Planning</p></li></ul>
+<p>Para obtener más información sobre lo que se incluye en cada paquete de Workfront Planning, póngase en contacto con su representante de cuentas de Workfront. </p> 
+   </td> 
    <tr> 
 <td> 
    <p> Productos adicionales</p> </td> 
@@ -97,15 +104,14 @@ Su organización debe cumplir los siguientes requisitos para que exista la integ
   </tr>
   <tr> 
    <td role="rowheader"><p>Licencia de Adobe Workfront</p></td> 
-   <td><p> Estándar</p>
-  </td> 
-  </tr>
-
-<tr> 
+   <td><p>Estándar</p>
+   </td> 
+  </tr> 
+  <tr> 
    <td role="rowheader"><p>Funciones de usuario de Adobe GenStudio for Performance Marketing</p></td> 
    <td><p><ul><li>Cualquier función de usuario de GenStudio para acceder a campañas, productos y personas</li>
    <li>GenStudio System Manager para acceder a las activaciones <!--and Events--></li></ul>
-   Para obtener más información, consulte <a href="https://experienceleague.adobe.com/es/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">Funciones de usuario y permisos</a>. 
+   Para obtener más información, consulte <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">Funciones de usuario y permisos</a>. 
    </p>
   </td> 
   </tr>   
@@ -122,14 +128,65 @@ Su organización debe cumplir los siguientes requisitos para que exista la integ
    <ul>
    <li><p> Cualquier permiso de Adobe GenStudio for Performance Marketing</p></li>
    <li><p> Crear permisos en Adobe GenStudio for Performance Marketing para crear elementos</p></li></ul>
-   </td> 
-  </tr> 
+   </td>  
 </tbody> 
 </table>
 
 Para obtener información sobre el acceso a Adobe Workfront Planning, consulte [Información general sobre el acceso a Adobe Workfront Planning](/help/quicksilver/planning/access/access-overview.md).
 
 Para obtener más información sobre Adobe GenStudio for Performance Marketing, consulte [Guía del usuario de Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/es/docs/genstudio-for-performance-marketing/user-guide/home).
+
+<!--Old:
+<table style="table-layout:auto"> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+    <tr> 
+    <td role="rowheader"><p>Adobe Workfront package</p></td> 
+   <td> 
+<p>Any Workfront package</p>
+<p>Any Planning package</p>  
+
+   </td> </tr>
+   <tr> 
+<td> 
+   <p> Additional products</p> </td> 
+   <td> 
+   <p> Adobe GenStudio for Performance Marketing</p></td> 
+  </tr>
+  <tr> 
+   <td role="rowheader"><p>Adobe Workfront license</p></td> 
+   <td><p> Standard</p>
+  </td> 
+  </tr> 
+   
+  <tr> 
+   <td role="rowheader"><p>Adobe GenStudio for Performance Marketing user roles</p></td> 
+   <td><p><ul><li>Any GenStudio user role to access Campaigns, Products, and Personas</li>
+   <li>GenSudio System Manager to access Activations ****and Events****</li></ul>
+   For information, see <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
+   </p>
+  </td> 
+  </tr>   
+<tr> 
+   <td role="rowheader"><p>Object permissions</p></td> 
+   <td>  
+   <p>In Workfront Planning: </p>
+   <ul>
+   <li><p>Manage permissions to the GenStudio workspace to add new fields or record types to the GenStudio workspace</p></li>
+   <li><p>Contribute permissions to the GenStudio workspace to add, update, or delete records in the GenStudio workspace</p> </li>  
+   </ul>
+   <p>No users can remove GenStudio for Performance Marketing record types or fields from the GenStudio workspace in Workfront Planning</p>
+   <p>In Adobe GenStudio for Performance Marketing: <p>
+   <ul>
+   <li><p> Any permissions in Adobe GenStudio for Performance Marketing</p></li>
+   <li><p> Create permissions in Adobe GenStudio for Performance Marketing to create items</p></li></ul>
+   </td> 
+  </tr> 
+</tbody> 
+</table> -->
 
 
 ## Descripción general de las funciones de integración de Workfront Planning y GenStudio for Performance Marketing

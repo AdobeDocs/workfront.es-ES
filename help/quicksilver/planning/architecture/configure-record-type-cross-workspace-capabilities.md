@@ -4,9 +4,9 @@ description: Puede habilitar un tipo de registro para que se agregue a otro espa
 hidefromtoc: true
 hide: true
 exl-id: d36ab9fb-0275-483d-97be-0a88e170f8e0
-source-git-commit: 7d37481fc5b468f6f8ea1fce6ccd7ae064f00251
+source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
 workflow-type: tm+mt
-source-wordcount: '1329'
+source-wordcount: '1337'
 ht-degree: 5%
 
 ---
@@ -66,22 +66,24 @@ Para obtener más información, consulte uno de los siguientes artículos:
 </col> 
 <tbody> 
     <tr> 
-<tr>
-
+<tr> 
 </tr>   
 <tr> 
    <td role="rowheader"><p>paquete de Adobe Workfront</p></td> 
    <td> 
-<ul><li><p>Cualquier paquete de Workfront</p></li>
-<p>Y</p>
-<li><p>Cualquier paquete de Planning para crear tipos de registros conectables</p></li>
-<li><p>Un paquete de Planning Plus para crear tipos de registros globales</p></li>
-</ul>
-O
-<ul><li><p>Un paquete de flujo de trabajo de Prime o Ultimate</p> </li>
-Y
-<li><p>Un paquete de Planning Prime o Ultimate</p></li></ul>
-<p>Para obtener más información sobre lo que se incluye en cada paquete de Workfront Planning, póngase en contacto con su administrador de cuentas de Workfront. </p> 
+<p>Para configurar tipos de registros conectables: </p>
+<ul> 
+<li><p>Cualquier paquete Workfront y cualquier paquete Planning</p></li>
+<p>O</p>
+<li><p>Flujo de trabajo y planificación de paquetes de Prime y Ultimate</p></li></ul>
+
+<p>Para configurar tipos de registros globales:</p>
+
+<ul> 
+<li><p>Cualquier paquete Workfront y un paquete Planning Plus</p></li>
+<p>O</p>
+<li><p>Flujo de trabajo y planificación de paquetes de Prime y Ultimate</p></li></ul>
+<p>Para obtener más información sobre lo que se incluye en cada paquete de Workfront Planning, póngase en contacto con su representante de cuentas de Workfront. </p> 
    </td> 
   <tr> 
    <td role="rowheader"><p>Licencia de Adobe Workfront</p></td> 
@@ -90,7 +92,7 @@ Y
   </tr> 
   <tr> 
    <td role="rowheader"><p>Permisos de objeto</p></td> 
-   <td>   <p>Administrar permisos en un área de trabajo y en el tipo de registro </a> </p>  
+   <td>   <p>Administración de permisos en un espacio de trabajo</p>  
    <p>Los administradores del sistema tienen permisos para todos los espacios de trabajo, incluidos los que no crearon</p>  </td> 
   </tr>  
 </tbody> 
@@ -100,7 +102,46 @@ Para obtener más información acerca de los requisitos de acceso de Workfront, 
 
 +++   
 
-## Configuración de tipos de registros globales
+<!--Old:
+
+<table style="table-layout:auto"> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+    <tr> 
+<tr> 
+
+  </tr>   
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront package</p></td> 
+   <td> 
+<ul><li><p>Any Workfront package</p></li>
+<p>And</p>
+<li><p>Any Planning package to create connectable record types</p></li>
+<li><p>A Planning Plus package to create global record types</p></li>
+</ul>
+Or:
+<ul><li><p>A Workflow Prime or Ultimate package</p> </li>
+And
+<li><p>A Planning Prime or Ultimate package</p></li></ul>
+<p>For more information about what is included in each Workfront Planning package, contact your Workfront account manager. </p> 
+   </td> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Workfront license</p></td> 
+   <td><p>Standard</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Object permissions</p></td> 
+   <td>   <p>Manage permissions to a workspace and to the record type</a> </p>  
+   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>  </td> 
+  </tr>  
+</tbody> 
+</table> -- >
+
+## Configure global record types
 
 <!--this is a UI term; don't change the title of this section-->
 
@@ -121,7 +162,7 @@ Para configurar un tipo de registro como global:
    Se abre la página del espacio de trabajo y se muestran los tipos de registro.
 1. Realice una de las siguientes acciones:
 
-   * Pase el ratón sobre la tarjeta de un tipo de registro y haga clic en el menú **Más** ![Menú Más](assets/more-menu.png) en la esquina superior derecha de la tarjeta de tipo de registro
+   * Pase el ratón sobre la tarjeta de un tipo de registro y haga clic en el menú **Más** ![Menú Más](assets/more-menu.png) en la esquina superior derecha de la tarjeta de tipo de registro. <!--add new screen shot without Share for now-->
 
      ![Más opciones de menú de la tarjeta de tipo de registro](assets/more-menu-options-from-record-type-card.png)
 
@@ -179,7 +220,7 @@ Para configurar un tipo de registro como global:
 
    El tipo de registro agregado de un tipo de registro global en el área de trabajo secundaria también muestra un icono de **tipo de registro global** ![icono de tipo de registro global](assets/global-icon.png).
 1. (Opcional) Vuelva al espacio de trabajo original donde creó el tipo de registro global y edite el tipo de registro siguiendo los pasos del 1 al 4 anteriores a <!--ensure this stays accurate-->
-1. (Opcional) Revise la lista de espacios de trabajo donde se ha agregado el registro global en los **espacios de trabajo donde se usa este tipo de registro en la sección**.
+1. (Opcional) Revise la lista de espacios de trabajo donde se ha agregado el registro global en los **espacios de trabajo donde se usa este tipo de registro en la sección**. El propietario del espacio de trabajo también aparece junto al nombre del espacio de trabajo.
 
    ![Espacios de trabajo donde se usa este tipo de registro](assets/workspaces-where-this-record-type-is-used.png)
 
@@ -201,7 +242,7 @@ Para configurar un tipo de registro como conectable:
 
    * Pase el ratón sobre la tarjeta de un tipo de registro y haga clic en el menú **Más** ![Menú Más](assets/more-menu.png) en la esquina superior derecha de la tarjeta de tipo de registro
 
-     ![Más opciones de menú de la tarjeta de tipo de registro](assets/more-menu-options-from-record-type-card.png)
+     ![Más opciones de menú de la tarjeta de tipo de registro](assets/more-menu-options-from-record-type-card.png) <!--add new screen shot without Share for now-->
 
    * Haga clic en una tarjeta de tipo de registro para abrir la página de tipo de registro y, a continuación, haga clic en el menú **Más** ![Menú Más](assets/more-menu.png) situado a la derecha del nombre del tipo de registro.
 1. Haga clic en **Editar** o en **Configuración**.

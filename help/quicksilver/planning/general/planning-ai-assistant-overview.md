@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 53f57953-fb9f-47ef-be18-a7164c844682
-source-git-commit: a36968bdae5756f0f8283da04a2afca83b4dd94a
+source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
 workflow-type: tm+mt
-source-wordcount: '720'
-ht-degree: 68%
+source-wordcount: '784'
+ht-degree: 67%
 
 ---
 
@@ -26,6 +26,41 @@ ht-degree: 68%
 Puede utilizar el asistente de IA para generar, actualizar o eliminar registros en función del contexto de página y la estructura de registros actual. 
 
 Los comandos del usuario y la ejecución por parte de la IA de esos comandos funcionan juntos para garantizar que los cambios realizados por la IA se reflejen con precisión en su entorno.
+
+## Requisitos de acceso
+
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo. 
+
+<table style="table-layout:auto"> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+<tr> 
+   <td role="rowheader"><p>Paquetes de Adobe Workfront</p></td> 
+   <td> 
+<p>Cualquier paquete de Workfront y Planning</p>
+<p>Cualquier paquete de flujo de trabajo y planificación</p>
+   </td> </tr>
+
+</tr> 
+  <tr> 
+   <td role="rowheader"><p>Licencia de Adobe Workfront</p></td> 
+   <td><p>Estándar</p> 
+  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Permisos de objeto</p></td> 
+   <td>   <p>Permisos de administración en un espacio de trabajo</a> </p>  
+   <p>Los administradores del sistema tienen permisos para todos los espacios de trabajo, incluidos los que no crearon</p>  </td> 
+  </tr>  
+</tbody> 
+</table>
+
+Para obtener más información acerca de los requisitos de acceso de Workfront, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Consideraciones sobre el asistente de IA
 

@@ -6,22 +6,24 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: e717e095f1995dbed0232789616d42492156d843
+source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
 workflow-type: tm+mt
-source-wordcount: '1308'
-ht-degree: 46%
+source-wordcount: '1145'
+ht-degree: 48%
 
 ---
 
 
 # Administrar vistas de registros
 
-<!-- take preview and production references out at production-->
 
-<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después de las versiones mensuales en Production, las mismas funciones también están disponibles en el entorno Production para los clientes que habilitaron versiones rápidas. </span>
+<!--
 
-<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
+-->
 
 {{planning-important-intro}}
 
@@ -54,7 +56,7 @@ Para obtener más información sobre la administración de vistas de registros d
 
 ## Requisitos de acceso
 
-+++ Amplíe para ver los requisitos de acceso. 
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo. 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -64,48 +66,23 @@ Para obtener más información sobre la administración de vistas de registros d
 <tbody> 
     <tr> 
 <tr> 
-<td> 
-   <p> Productos</p> </td> 
-   <td> 
-   <ul><li><p> Adobe Workfront</p></li> 
-   <li><p> Planificación de Adobe Workfront<p></li></ul></td> 
-  </tr>   
+</tr>   
 <tr> 
-   <td role="rowheader"><p>Plan de Adobe Workfront*</p></td> 
+   <td role="rowheader"><p>paquete de Adobe Workfront</p></td> 
    <td> 
-<p>Cualquiera de los siguientes planes de Workfront:</p> 
-<ul><li>Seleccionar</li> 
-<li>Prime</li> 
-<li>Ultimate</li></ul> 
-<p>Workfront Planning no está disponible para planes Workfront heredados</p> 
+<ul> 
+<li><p>Cualquier Workfront y cualquier paquete de Planning</p></li>
+O
+<li><p>Cualquier flujo de trabajo y cualquier paquete de Planning</p></li></ul>
+<p>Para obtener más información sobre lo que se incluye en cada paquete de Workfront Planning, póngase en contacto con su representante de cuentas de Workfront. </p> 
    </td> 
-<tr> 
-   <td role="rowheader"><p>Paquete de planificación de Adobe Workfront*</p></td> 
-   <td> 
-<p>Cualquiera </p> 
-<p>Para obtener más información sobre qué se incluye en cada plan de Workfront Planning, póngase en contacto con su administrador de cuentas de Workfront. </p> 
-   </td> 
- <tr> 
-   <td role="rowheader"><p>plataforma de Adobe Workfront</p></td> 
-   <td> 
-<p>La instancia de Workfront de su organización debe incorporarse a Adobe Unified Experience para poder acceder a Workfront Planning.</p> 
-<p>Para obtener más información, consulte <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience para Workfront</a>. </p> 
-   </td> 
-   </tr> 
-  </tr> 
   <tr> 
-   <td role="rowheader"><p>Licencia de Adobe Workfront*</p></td> 
+   <td role="rowheader"><p>Licencia de Adobe Workfront</p></td> 
    <td><p> Estándar para crear y eliminar vistas</p>
    <p>Colaborador o superior para actualizar los elementos de vista</p>
-   <p>Workfront Planning no está disponible para licencias de Workfront heredadas</p> 
   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Configuración de nivel de acceso</p></td> 
-   <td> <p>No hay controles de nivel de acceso para Adobe Workfront Planning</p>   
-</td> 
-  </tr> 
-<tr> 
    <td role="rowheader"><p>Permisos de objeto</p></td> 
    <td>   <p>Permisos de administración de una vista</p>  
    <p>Ver permisos en una vista para cambiar temporalmente la configuración de la vista o para duplicarla</p> </td> 
@@ -115,13 +92,78 @@ Para obtener más información sobre la administración de vistas de registros d
    <td> A los usuarios con una licencia Light o Contributor se les debe asignar una plantilla de diseño que incluya Planning.
    <p>Los usuarios estándar y los administradores del sistema tienen las áreas de Planning habilitadas de forma predeterminada.</p></div></li></ul>
 </td>
-  </tr>
+  </tr> 
 </tbody> 
 </table>
 
-*Para obtener más información sobre los requisitos de acceso de Workfront, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información acerca de los requisitos de acceso de Workfront, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-+++   
++++
+
+
+<!--Old:
+<table style="table-layout:auto"> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+    <tr> 
+<tr> 
+<td> 
+   <p> Products</p> </td> 
+   <td> 
+   <ul><li><p> Adobe Workfront</p></li> 
+   <li><p> Adobe Workfront Planning<p></li></ul></td> 
+  </tr>   
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront plan*</p></td> 
+   <td> 
+<p>Any of the following Workfront plans:</p> 
+<ul><li>Select</li> 
+<li>Prime</li> 
+<li>Ultimate</li></ul> 
+<p>Workfront Planning is not available for legacy Workfront plans</p> 
+   </td> 
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront Planning package*</p></td> 
+   <td> 
+<p>Any </p> 
+<p>For more information about what is included in each Workfront Planning plan, contact your Workfront account manager. </p> 
+   </td> 
+ <tr> 
+   <td role="rowheader"><p>Adobe Workfront platform</p></td> 
+   <td> 
+<p>Your organization's instance of Workfront must be onboarded to the Adobe Unified Experience to be able to access Workfront Planning.</p> 
+<p>For more information, see <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p> 
+   </td> 
+   </tr> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Workfront license*</p></td> 
+   <td><p> Standard to create and delete views</p>
+   <p>Contributor or higher to update view elements</p>
+   <p>Workfront Planning is not available for legacy Workfront licenses</p> 
+  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Access level configuration</p></td> 
+   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
+</td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>Object permissions</p></td> 
+   <td>   <p>Manage permissions to a view</p>  
+   <p>View permissions to a view to temporarily change the view settings or to duplicate it</p> </td> 
+  </tr> 
+<tr>
+   <td role="rowheader"><p>Layout template</p></td>
+   <td> Users with a Light or Contributor license must be assigned a layout template that includes Planning.
+   <p>Standard users and System Administrators have the Planning areas enabled by default.</p></div></li></ul>
+</td>
+  </tr>
+</tbody> 
+</table>-->
 
 ## Consideraciones al trabajar con vistas de registros
 
@@ -171,8 +213,8 @@ En la tabla siguiente se muestran las similitudes y diferencias entre las vistas
 | Mostrar registros por mes |           | ✓ | ✓ |
 | Mostrar registros por semana |           |               | ✓ |
 | Exportación de información desde una vista | ✓ |               |    |
-| <span class="preview">Pantalla completa</span> | ✓ | ✓ | ✓ |
-| <span class="preview">Crear registros en la vista</span> | ✓ | ✓ | ✓ |
+| Mostrar en pantalla completa | ✓ | ✓ | ✓ |
+| Creación de registros en la vista | ✓ | ✓ | ✓ |
 
 ## Crear o editar vistas {#create-or-edit-views}
 
@@ -189,10 +231,7 @@ En la tabla siguiente se muestran las similitudes y diferencias entre las vistas
 
    De forma predeterminada, todos los registros del tipo seleccionado se muestran en la vista de tabla.
 
-1. Según el entorno que utilice, haga lo siguiente:
-
-   * En el entorno Producción, haga clic en la ficha **+Ver**.
-   * <span class="preview">En el entorno de vista previa, haga clic en el icono desplegable ![icono desplegable](assets/drop-down-icon.png) junto al nombre de la vista actual y, a continuación, haga clic en **+Nueva vista**.</span>
+1. Haga clic en el icono desplegable ![Icono desplegable](assets/drop-down-icon.png) junto al nombre de la vista actual y, a continuación, haga clic en **+Nueva vista**.
 
 1. Seleccione entre los siguientes tipos de vistas:
 
@@ -200,9 +239,7 @@ En la tabla siguiente se muestran las similitudes y diferencias entre las vistas
    * Cronología
    * Calendario
 
-   En el entorno Producción, se crea una nueva pestaña con la vista seleccionada.
-
-   Según la anchura de la pantalla, es posible que se muestren vistas adicionales en el menú **Más** ![Menú más](assets/more-menu.png).
+1. Elija un tipo de vista y luego haga clic en **Crear**. Se añade una nueva vista al menú desplegable.
 
    >[!TIP]
    >
@@ -211,16 +248,14 @@ En la tabla siguiente se muestran las similitudes y diferencias entre las vistas
    >Para crear una vista de línea de tiempo o de calendario, el tipo de registro para el que genere la vista debe tener al menos dos campos de fecha.
    >
    >De lo contrario, las opciones Línea de tiempo y Calendario aparecen atenuadas.
-   >
+   >  
 
-   <span class="preview">En el entorno de vista previa, elija un tipo de vista y luego haga clic en **Crear**. Se añade una nueva vista al menú desplegable. </span>
+   ![Crear cuadro de vista](assets/create-view-box.png)
 
-   <span class="preview">![Crear cuadro de vista](assets/create-view-box.png)</span>
+1. (Opcional) Para editar una vista existente, haga clic en el menú desplegable a la derecha del nombre de la vista actual, luego escriba el nombre de una vista en el campo **Buscar** y presione Entrar en el teclado.
+1. (Opcional) En el menú desplegable de vista, arrastre y suelte las vistas en orden de sus preferencias.
 
-1. <span class="preview">Para editar una vista existente, escriba el nombre de una vista en el campo **Buscar** y presione Entrar en el teclado.</span>
-1. <span class="preview">En el menú desplegable de vista, arrastre y suelte las vistas según sus preferencias.</span>
-
-   <span class="preview">![Lista desplegable de tipos de vista de la lista de tipos de registro](assets/view-types-drop-down-from-record-type-list.png)</span>
+   ![Lista desplegable de tipos de vista de la lista de tipos de registro](assets/view-types-drop-down-from-record-type-list.png)
 
 1. (Condicional) Haga clic en **Siguiente** al crear una vista de línea de tiempo o de calendario.
 
@@ -254,7 +289,7 @@ En la tabla siguiente se muestran las similitudes y diferencias entre las vistas
 
    Haga doble clic en el nombre de la vista y empiece a escribir el nuevo nombre. <!--ensure there is not another saving step here?!-->
 
-1. <span class="preview">(Opcional) Haga clic en el icono **Pantalla completa** ![Abrir icono de pantalla completa](assets/open-full-screen-icon.png) para abrir cualquier vista en pantalla completa y, a continuación, en el icono **Salir de pantalla completa** ![Salir del icono de pantalla completa](assets/exit-full-screen-icon.png) o Escape del teclado para salir de la pantalla completa.  </span>
+1. (Opcional) Haga clic en el icono **Pantalla completa** ![Abrir icono de pantalla completa](assets/open-full-screen-icon.png) para abrir cualquier vista en pantalla completa y, a continuación, en el icono **Salir de pantalla completa** ![Salir del icono de pantalla completa](assets/exit-full-screen-icon.png) o Escape del teclado para salir de la pantalla completa.
 
 1. (Opcional) Para administrar un tipo de vista específico, consulte los siguientes artículos:
 

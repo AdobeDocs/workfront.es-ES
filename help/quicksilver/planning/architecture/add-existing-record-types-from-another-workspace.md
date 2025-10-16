@@ -4,10 +4,10 @@ description: Los tipos de registro son los tipos de objetos de Adobe Workfront P
 hidefromtoc: true
 hide: true
 exl-id: b977d5dd-8975-42c4-9968-a7ac357972e6
-source-git-commit: 7d37481fc5b468f6f8ea1fce6ccd7ae064f00251
+source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
 workflow-type: tm+mt
-source-wordcount: '856'
-ht-degree: 4%
+source-wordcount: '619'
+ht-degree: 5%
 
 ---
 
@@ -33,7 +33,7 @@ Un administrador de espacio de trabajo debe designar primero un tipo de registro
 
 Para obtener más información, vea [Configurar las capacidades entre espacios de trabajo para los tipos de registro](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md).
 
-Este artículo describe cómo se puede agregar un tipo de registro de uno existente y cómo se puede eliminar, si ya no es necesario.
+Este artículo describe cómo agregar un tipo de registro de uno existente.
 
 Antes de agregar registros a un área de trabajo desde un tipo de registro global, vea también el artículo [Información general sobre los tipos de registros entre áreas de trabajo](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md).
 
@@ -49,32 +49,24 @@ Antes de agregar registros a un área de trabajo desde un tipo de registro globa
 </col> 
 <tbody> 
     <tr> 
-<tr>
-
+<tr> 
 </tr>   
 <tr> 
    <td role="rowheader"><p>paquete de Adobe Workfront</p></td> 
    <td> 
-<ul><li><p>Cualquier paquete de Workfront</p></li>
-<p>Y</p>
-<li><p>Cualquier paquete de Planning para crear tipos de registros conectables</p></li>
-<li><p>Un paquete de Planning Plus para crear tipos de registros globales</p></li>
-</ul>
-O
-<ul><li><p>Un paquete de flujo de trabajo de Prime o Ultimate</p> </li>
-Y
-<li><p>Un paquete de Planning Prime o Ultimate</p></li></ul>
-<p>Para obtener más información sobre lo que se incluye en cada paquete de Workfront Planning, póngase en contacto con su administrador de cuentas de Workfront. </p> 
-   </td>
-
-<tr> 
+<ul><li><p>Cualquier paquete Workfront y un paquete Planning Plus</p></li>
+<p>O</p>
+<li><p>Flujo de trabajo y planificación de paquetes de Prime y Ultimate</p></p></li></ul>
+<p>Para obtener más información sobre lo que se incluye en cada paquete de Workfront Planning, póngase en contacto con su representante de cuentas de Workfront. </p> 
+   </td> 
+  <tr> 
    <td role="rowheader"><p>Licencia de Adobe Workfront</p></td> 
    <td><p>Estándar</p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Permisos de objeto</p></td> 
-   <td>   <p>Administrar permisos en un área de trabajo y en el tipo de registro </a> </p>  
+   <td>   <p>Administración de permisos en un espacio de trabajo</p>  
    <p>Los administradores del sistema tienen permisos para todos los espacios de trabajo, incluidos los que no crearon</p>  </td> 
   </tr>  
 </tbody> 
@@ -83,6 +75,45 @@ Y
 Para obtener más información acerca de los requisitos de acceso de Workfront, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++   
+
+<!--Old:
+<table style="table-layout:auto"> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+    <tr> 
+<tr> 
+
+  </tr>   
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront package</p></td> 
+   <td> 
+<ul><li><p>Any Workfront package</p></li>
+<p>And</p>
+<li><p>Any Planning package to create connectable record types</p></li>
+<li><p>A Planning Plus package to create global record types</p></li>
+</ul>
+Or:
+<ul><li><p>A Prime or Ultimate Workflow package</p> </li>
+And
+<li><p>A Planning Prime or Ultimate package</p></li></ul>
+<p>For more information about what is included in each Workfront Planning package, contact your Workfront account manager. </p> 
+   </td> 
+
+  <tr> 
+   <td role="rowheader"><p>Adobe Workfront license</p></td> 
+   <td><p>Standard</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Object permissions</p></td> 
+   <td>   <p>Manage permissions to a workspace and to the record type</a> </p>  
+   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>  </td> 
+  </tr>  
+</tbody> 
+</table>-->
 
 ## Crear un tipo de registro agregando uno existente de otro espacio de trabajo
 
@@ -117,6 +148,9 @@ Para obtener más información acerca de los requisitos de acceso de Workfront, 
      >No puede editar el aspecto, la configuración adicional ni los campos originales del nuevo tipo de registro. Sólo se puede editar el tipo de registro y todos sus campos y configuraciones originales desde el espacio de trabajo original.
 
 1. (Opcional) Haga clic en y, a continuación, arrastre y suelte el tipo de registro recién añadido en cualquier sección del espacio de trabajo.
+1. (Opcional) Haga clic en el menú **Más** de la tarjeta del nuevo tipo de registro o a la derecha del nombre del tipo de registro en su página y, a continuación, haga clic en **Eliminar**.
+
+   Para obtener más información, vea la sección &quot;Eliminar tipos de registros globales&quot; en el artículo [Eliminar tipos de registros](/help/quicksilver/planning/architecture/delete-record-types.md).
 
 <!--This will be released later with another epic: 
 1. In the table view, click the **+** icon in the upper-right corner to add new fields. For information, see [Create fields](/help/quicksilver/planning/fields/create-fields.md).
@@ -125,34 +159,7 @@ Para obtener más información acerca de los requisitos de acceso de Workfront, 
 
 &lt;!—consultar con Lilit si podemos añadir automatizaciones o formularios de solicitud a RT globales secundarios??—añadir paso con enlaces a esos artículos si/ cuando sí—>
 
-## Eliminar un tipo de registro global de un espacio de trabajo secundario
 
-Puede eliminar un tipo de registro que haya añadido desde otro espacio de trabajo si ya no es necesario. Al eliminarla, solo se eliminará del espacio de trabajo secundario.
-
-Al eliminar un tipo de registro global de un espacio de trabajo secundario, también se eliminan los siguientes elementos:
-
-* Los registros añadidos desde el espacio de trabajo secundario.
-* Los campos añadidos desde el espacio de trabajo secundario.
-
-Los tipos de registros globales eliminados de sus espacios de trabajo secundarios no se pueden recuperar.
-
-El tipo de registro original permanece en su espacio de trabajo original, así como en otros espacios de trabajo en los que se ha agregado.
-
-Para suprimir un tipo de registro global de un espacio de trabajo secundario:
-
-1. Vaya al tipo de registro global en el espacio de trabajo secundario.
-
-1. (Opcional) Haga clic en el menú **Más** ![Más menú](assets/more-menu.png) de la tarjeta del tipo de registro o a la derecha del nombre del tipo de registro en su página y, a continuación, haga clic en **Eliminar**.
-1. (Condicional) Escriba **delete** en el campo proporcionado y luego haga clic en **Eliminar permanentemente**.
-
-   ![Eliminar cuadro de confirmación de tipo de registro global secundario](assets/delete-secondary-global-record-type.png)
-
-   Ocurren lo siguiente:
-
-   * El tipo de registro creado a partir de un tipo de registro global se quita del espacio de trabajo seleccionado.
-   * El tipo de registro original y sus campos permanecen en su espacio de trabajo original.
-   * El tipo de registro permanece en todos los demás espacios de trabajo en los que se ha añadido.
-   * Se eliminan los registros y campos agregados al tipo de registro del espacio de trabajo actual. Se conservan todos los demás registros agregados desde espacios de trabajo adicionales donde se agregó el tipo de registro global. Los campos se conservan en los espacios de trabajo en los que se añadieron.
 
 
 

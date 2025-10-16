@@ -3,13 +3,13 @@ title: Creación de jerarquías de Workspace
 description: Puede crear varias jerarquías de espacio de trabajo entre los tipos de registro de un espacio de trabajo.
 hide: true
 hidefromtoc: true
-source-git-commit: 6d02397a15b0b06c3c60fb5d71dfeb3cb0b0a30d
+exl-id: 2f83c427-4439-499d-a0b2-fc8630552cae
+source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
 workflow-type: tm+mt
-source-wordcount: '85'
-ht-degree: 20%
+source-wordcount: '117'
+ht-degree: 19%
 
 ---
-
 
 <!--update the metadata with real information when making this available in TOC and in the left nav:
 
@@ -34,6 +34,8 @@ Puede crear varias jerarquías de espacio de trabajo entre los tipos de registro
 
 <!--check the access to see if you oversimplified???-->
 
+<!--Update the TOC for this to publish-->
+
 +++ Expanda para ver los requisitos de acceso para realizar los pasos de este artículo:  
 
 <table style="table-layout:auto"> 
@@ -41,27 +43,32 @@ Puede crear varias jerarquías de espacio de trabajo entre los tipos de registro
 </col> 
 <col> 
 </col> 
-<tbody>
-
+<tbody> 
+    <tr> 
 <tr> 
-   <td role="rowheader"><p>Paquetes de Adobe Workfront</p></td> 
+</tr>   
+<tr> 
+   <td role="rowheader"><p>paquete de Adobe Workfront</p></td> 
    <td> 
-<p>Cualquier paquete de flujo de trabajo de Workfront</p> 
-<p>Cualquier paquete de Workfront Planning</p> 
+<ul> 
+<li><p>Cualquier Workfront y cualquier paquete de Planning</p></li>
+<p>O</p>
+<li><p>Cualquier flujo de trabajo y cualquier paquete de Planning</p></li></ul>
+<p>Para obtener más información sobre lo que se incluye en cada paquete de Workfront Planning, póngase en contacto con su representante de cuentas de Workfront. </p> 
    </td> 
-  </tr> 
   <tr> 
    <td role="rowheader"><p>Licencia de Adobe Workfront</p></td> 
    <td><p>Estándar</p>
-  </td> 
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Permisos de objeto</p></td> 
-   <td><p>Recibirá permisos de Administración en los espacios de trabajo que cree. </p> </td> 
-  </tr> 
+   <td>   <p>Administración de permisos en un espacio de trabajo</p>  
+   <p>Los administradores del sistema tienen permisos para todos los espacios de trabajo, incluidos los que no crearon</p>  </td> 
+  </tr>  
 </tbody> 
 </table>
 
 Para obtener más información acerca de los requisitos de acceso de Workfront, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-+++   
++++

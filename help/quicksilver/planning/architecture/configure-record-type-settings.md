@@ -1,12 +1,12 @@
 ---
-title: Configuración del tipo de registro
+title: Configuración del área de configuración de un tipo de registro
 description: Puede editar los tipos de registros una vez guardados en la página Configuración.
 hide: true
 hidefromtoc: true
-source-git-commit: 393f858ba3711b367cf06ad846ea60be0d6d9034
+source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
 workflow-type: tm+mt
-source-wordcount: '436'
-ht-degree: 12%
+source-wordcount: '443'
+ht-degree: 11%
 
 ---
 
@@ -22,7 +22,7 @@ recommendations: noDisplay, noCatalog
 
 -->
 
-# Configuración del tipo de registro
+# Configuración del área Configuración de un tipo de registro
 
 <span class="preview">La información de esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después de las versiones mensuales en Production, las mismas funciones también están disponibles en el entorno Production para los clientes que habilitaron versiones rápidas. </span>
 
@@ -66,10 +66,8 @@ En función de las funciones que desee definir para un tipo de registro, puede e
 <li><p>Cualquier paquete de Planning para crear tipos de registros conectables</p></li>
 <li><p>Paquete de Planning Plus para crear tipos de registros centralizados</p></li>
 </ul>
-O
-<ul><li><p>Cualquier paquete de flujo de trabajo</p> </li>
-Y
-<li><p>Planificación del paquete de Prime o Ultimate</p></li></ul>
+<p>O</p>
+<ul><li><p>Un flujo de trabajo y planificación para Prime o Ultimate</p> </li></ul>
 <p>Para obtener más información sobre lo que se incluye en cada paquete de Workfront Planning, póngase en contacto con su administrador de cuentas de Workfront. </p> 
    </td>
 

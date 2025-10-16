@@ -6,10 +6,10 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: e717e095f1995dbed0232789616d42492156d843
+source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
 workflow-type: tm+mt
-source-wordcount: '3985'
-ht-degree: 42%
+source-wordcount: '3876'
+ht-degree: 43%
 
 ---
 
@@ -17,9 +17,12 @@ ht-degree: 42%
 
 <!--remove preview and production references at production-->
 
-<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después de las versiones mensuales en Production, las mismas funciones también están disponibles en el entorno Production para los clientes que habilitaron versiones rápidas. </span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
+-->
 
 {{planning-important-intro}}
 
@@ -29,7 +32,7 @@ Para obtener información sobre las vistas de registros, consulte [Administrar v
 
 ## Requisitos de acceso
 
-+++ Amplíe para ver los requisitos de acceso. 
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo. 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -39,47 +42,23 @@ Para obtener información sobre las vistas de registros, consulte [Administrar v
 <tbody> 
     <tr> 
 <tr> 
-<td> 
-   <p> Productos</p> </td> 
-   <td> 
-   <ul><li><p> Adobe Workfront</p></li> 
-   <li><p> Planificación de Adobe Workfront<p></li></ul></td> 
-  </tr>   
+</tr>   
 <tr> 
-   <td role="rowheader"><p>Plan de Adobe Workfront*</p></td> 
+   <td role="rowheader"><p>paquete de Adobe Workfront</p></td> 
    <td> 
-<p>Cualquiera de los siguientes planes de Workfront:</p> 
-<ul><li>Seleccionar</li> 
-<li>Prime</li> 
-<li>Ultimate</li></ul> 
-<p>Workfront Planning no está disponible para planes Workfront heredados</p> 
+<ul> 
+<li><p>Cualquier Workfront y cualquier paquete de Planning</p></li>
+O
+<li><p>Cualquier flujo de trabajo y cualquier paquete de Planning</p></li></ul>
+<p>Para obtener más información sobre lo que se incluye en cada paquete de Workfront Planning, póngase en contacto con su representante de cuentas de Workfront. </p> 
    </td> 
-<tr> 
-   <td role="rowheader"><p>Paquete de planificación de Adobe Workfront*</p></td> 
-   <td> 
-<p>Cualquiera </p> 
-<p>Para obtener más información sobre qué se incluye en cada plan de Workfront Planning, póngase en contacto con su administrador de cuentas de Workfront. </p> 
-   </td> 
- <tr> 
-   <td role="rowheader"><p>plataforma de Adobe Workfront</p></td> 
-   <td> 
-<p>La instancia de Workfront de su organización debe incorporarse a Adobe Unified Experience para poder acceder a Workfront Planning.</p> 
-<p>Para obtener más información, consulte <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience para Workfront</a>. </p> 
-   </td> 
-   </tr> 
-  </tr> 
-    <td role="rowheader"><p>Licencia de Adobe Workfront*</p></td> 
+  <tr> 
+   <td role="rowheader"><p>Licencia de Adobe Workfront</p></td> 
    <td><p> Estándar para crear y eliminar vistas</p>
    <p>Colaborador o superior para actualizar los elementos de vista</p>
-   <p>Workfront Planning no está disponible para licencias de Workfront heredadas</p> 
   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Configuración de nivel de acceso</p></td> 
-   <td> <p>No hay controles de nivel de acceso para Adobe Workfront Planning</p>   
-</td> 
-  </tr> 
-<tr> 
    <td role="rowheader"><p>Permisos de objeto</p></td> 
    <td>   <p>Permisos de administración de una vista</p>  
    <p>Ver permisos en una vista para cambiar temporalmente la configuración de la vista o para duplicarla</p> </td> 
@@ -89,13 +68,76 @@ Para obtener información sobre las vistas de registros, consulte [Administrar v
    <td> A los usuarios con una licencia Light o Contributor se les debe asignar una plantilla de diseño que incluya Planning.
    <p>Los usuarios estándar y los administradores del sistema tienen las áreas de Planning habilitadas de forma predeterminada.</p></div></li></ul>
 </td>
-  </tr>
+  </tr> 
 </tbody> 
 </table>
 
-*Para obtener más información sobre los requisitos de acceso de Workfront, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información acerca de los requisitos de acceso de Workfront, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-+++     
++++ 
+
+<!--Old:
+<table style="table-layout:auto"> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+    <tr> 
+<tr> 
+<td> 
+   <p> Products</p> </td> 
+   <td> 
+   <ul><li><p> Adobe Workfront</p></li> 
+   <li><p> Adobe Workfront Planning<p></li></ul></td> 
+  </tr>   
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront plan*</p></td> 
+   <td> 
+<p>Any of the following Workfront plans:</p> 
+<ul><li>Select</li> 
+<li>Prime</li> 
+<li>Ultimate</li></ul> 
+<p>Workfront Planning is not available for legacy Workfront plans</p> 
+   </td> 
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront Planning package*</p></td> 
+   <td> 
+<p>Any </p> 
+<p>For more information about what is included in each Workfront Planning plan, contact your Workfront account manager. </p> 
+   </td> 
+ <tr> 
+   <td role="rowheader"><p>Adobe Workfront platform</p></td> 
+   <td> 
+<p>Your organization's instance of Workfront must be onboarded to the Adobe Unified Experience to be able to access Workfront Planning.</p> 
+<p>For more information, see <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p> 
+   </td> 
+   </tr> 
+  </tr> 
+    <td role="rowheader"><p>Adobe Workfront license*</p></td> 
+   <td><p> Standard to create and delete views</p>
+   <p>Contributor or higher to update view elements</p>
+   <p>Workfront Planning is not available for legacy Workfront licenses</p> 
+  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Access level configuration</p></td> 
+   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
+</td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>Object permissions</p></td> 
+   <td>   <p>Manage permissions to a view</p>  
+   <p>View permissions to a view to temporarily change the view settings or to duplicate it</p> </td> 
+  </tr> 
+<tr>
+   <td role="rowheader"><p>Layout template</p></td>
+   <td> Users with a Light or Contributor license must be assigned a layout template that includes Planning.
+   <p>Standard users and System Administrators have the Planning areas enabled by default.</p></div></li></ul>
+</td>
+  </tr>
+</tbody> 
+</table> -->
 
 ## Administrar una vista de línea de tiempo {#manage-a-timeline-view}
 
@@ -119,9 +161,9 @@ Tenga en cuenta lo siguiente:
 Para administrar una vista de línea de tiempo:
 
 1. Vaya a la página del tipo de registro cuya línea de tiempo desea ver.
-1. <span class="preview">Cree una vista de escala de tiempo, tal como se describe en el artículo [Administrar vistas de registros](/help/quicksilver/planning/views/manage-record-views.md). </span>
+1. Cree una vista de línea de tiempo, tal como se describe en el artículo [Administrar vistas de registros](/help/quicksilver/planning/views/manage-record-views.md).
 
-   <span class="preview">![Ejemplo de vista de escala de tiempo](assets/timeline-view-example.png)</span>
+   ![Ejemplo de vista de escala de tiempo](assets/timeline-view-example.png)
 
    Los registros asociados al tipo de registro seleccionado se muestran como barras en una línea de tiempo y se ordenan en orden cronológico según su fecha de inicio de forma predeterminada.
 
@@ -175,9 +217,9 @@ Para administrar una vista de línea de tiempo:
 
 1. Haga lo siguiente para buscar rápidamente registros que coincidan con una palabra clave:
 
-   1. <span class="preview">Haga clic en el icono **Buscar** ![Icono de búsqueda](assets/search-icon.png) y empiece a escribir una palabra clave asociada a cualquier campo de un registro que se muestra en la pantalla. El número de coincidencias correctas se muestra junto al elemento de búsqueda y el registro con la coincidencia correcta se resalta. </span>
+   1. Haga clic en el icono **Buscar** ![Icono de búsqueda](assets/search-icon.png) y empiece a escribir una palabra clave asociada a cualquier campo de un registro que se muestra en la pantalla. El número de coincidencias correctas se muestra junto al elemento de búsqueda y el registro con la coincidencia correcta se resalta.
 
-      <span class="preview">![Vista de cuadro de búsqueda y escala de tiempo de resultados](assets/search-box-and-results-timeline-view.png)</span>
+      ![Vista de cuadro de búsqueda y escala de tiempo de resultados](assets/search-box-and-results-timeline-view.png)
 
       Puede utilizar cualquier palabra o carácter especial que esté visible en la pantalla.
 
@@ -187,30 +229,30 @@ Para administrar una vista de línea de tiempo:
    1. (Opcional) Si hay más de una coincidencia, haga clic en las flechas arriba y abajo situadas a la derecha de la palabra clave de búsqueda para encontrar todas las coincidencias de la tabla.
    1. Haga clic en el icono **x** en el cuadro de búsqueda para borrar la palabra clave de búsqueda.
 
-   1. <span class="preview">(Opcional) Haga clic en el icono **Pantalla completa** ![Abrir icono de pantalla completa](assets/open-full-screen-icon.png) para abrir la vista en pantalla completa y, a continuación, en el icono **Salir de pantalla completa** ![Salir del icono de pantalla completa](assets/exit-full-screen-icon.png) o Escape del teclado para salir de la pantalla completa.  </span>
+   1. (Opcional) Haga clic en el icono **Pantalla completa** ![Abrir icono de pantalla completa](assets/open-full-screen-icon.png) para abrir la vista en pantalla completa y, a continuación, en el icono **Salir de pantalla completa** ![Salir del icono de pantalla completa](assets/exit-full-screen-icon.png) o Escape del teclado para salir de la pantalla completa.
 
 1. (Opcional) Haga clic en **Desglose** para mostrar los registros conectados en la cronología.
 
    Para obtener más información, vea la sección [Use la característica Desglose para mostrar los registros conectados en la vista de escala de tiempo](#break-down-connected-records-in-the-timeline-view) en este artículo.
-1. <span class="preview">Para crear registros en la vista de escala de tiempo o editar sus fechas, siga uno de estos procedimientos:</span>
+1. Para crear registros en la vista de escala de tiempo o editar sus fechas, realice una de las siguientes acciones:
 
-   * <span class="preview">Haga doble clic en cualquier lugar de la escala de tiempo para crear un registro. </span>
+   * Haga doble clic en cualquier lugar de la cronología para crear un registro.
 
-     <span class="preview">Para obtener más información, consulte [Crear registros](/help/quicksilver/planning/records/create-records.md).</span>
-
-   <!--Andrea verifying>[!TIP]
-    >
-    ><span class="preview">Double-clicking to create records in the timeline is not possible inside of a grouping.</span>-->
-
-   * <span class="preview">Haga clic en el margen izquierdo o derecho de una barra de registros y, a continuación, arrástrela y suéltela en una nueva posición. Al cambiar el tamaño de las barras de los registros, se actualizan inmediatamente las fechas de inicio y finalización. </span>
-
-   * <span class="preview">Arrastre y suelte los registros para actualizar su posición y fechas en la cronología. Al mover las barras de los registros, se actualizan las fechas de inicio y finalización inmediatamente.</span>
-     <span class="preview">Para obtener más información, consulte [Editar registros](/help/quicksilver/planning/records/edit-records.md).</span>
+     Para obtener más información, consulte [Crear registros](/help/quicksilver/planning/records/create-records.md).
 
    >[!TIP]
    >
-   ><span class="preview"> No es posible cambiar el tamaño y arrastrar y soltar registros en la cronología para los tipos de objetos de Workfront y AEM Assets mostrados en el desglose.</span>
+   >No es posible hacer doble clic para crear registros en la cronología dentro de una agrupación.
 
+   * Haga clic en el margen izquierdo o derecho de una barra de registros y, a continuación, arrástrela y suéltela en una nueva posición. Al cambiar el tamaño de las barras de los registros, se actualizan inmediatamente las fechas de inicio y finalización.
+
+   * Arrastre y suelte los registros para actualizar su posición y fechas en la cronología. Al mover las barras de los registros, se actualizan las fechas de inicio y finalización inmediatamente.
+
+     Para obtener más información, consulte [Editar registros](/help/quicksilver/planning/records/edit-records.md).
+
+   >[!TIP]
+   >
+   >No es posible cambiar el tamaño de los registros ni arrastrarlos y soltarlos en la cronología para los tipos de objetos de Workfront y AEM Assets que se muestran en el desglose.
 
 1. Actualice los siguientes elementos de vista como se describe en las subsecciones siguientes:
    * [Filtros](#add-filters)
@@ -362,9 +404,9 @@ Tenga en cuenta lo siguiente al trabajar con agrupaciones en la vista de línea 
 Para añadir una agrupación en la vista de línea de tiempo:
 
 1. Cree una vista de línea de tiempo para un tipo de registro, tal y como se describe en el artículo [Administración de vistas de registros](/help/quicksilver/planning/views/manage-record-views.md).
-1. <span class="preview">Haga clic en **Agrupación** en la esquina superior derecha de la vista de escala de tiempo.</span>
+1. Haga clic en **Agrupación** en la esquina superior derecha de la vista de línea de tiempo.
 
-   <span class="preview">![Vista de línea de tiempo de IU de agrupación con campos vinculados](assets/grouping-ui-timeline-view-with-linked-fields.png)</span>
+   ![Vista de línea de tiempo de IU de agrupación con campos vinculados](assets/grouping-ui-timeline-view-with-linked-fields.png)
 
 1. Haga clic en uno de los campos sugeridos o haga clic en **Elegir un campo diferente**, busque un campo diferente y, a continuación, haga clic en él cuando se muestre en la lista.
 
@@ -372,9 +414,9 @@ Para añadir una agrupación en la vista de línea de tiempo:
 
 1. (Opcional) Repita los pasos anteriores para añadir hasta 3 agrupaciones.
 
-   <span class="preview">El número de campos seleccionados para la agrupación se muestra junto al icono Agrupación.</span>
+   El número de campos seleccionados para la agrupación se muestra junto al icono de Agrupación.
 
-   <span class="preview">![Agrupación aplicada en la vista de escala de tiempo](assets/grouping-applied-in-timeline-view.png)</span>
+   ![Agrupación aplicada en la vista de escala de tiempo](assets/grouping-applied-in-timeline-view.png)
 
 1. En el cuadro **Agrupar registros por**, arrastre y suelte las agrupaciones en el orden correcto.
 
@@ -537,11 +579,7 @@ Puede mostrar los registros conectados en la vista de escala de tiempo de un reg
 1. En los modos **Estándar** o **Compacto**, haga clic en **Desglose** en la esquina superior derecha de la vista de la escala de tiempo.
 1. Expanda el cuadro **Seleccionar un tipo de registro vinculado** y seleccione un tipo de registro conectado. <!--add a new screen shot - submitted a bug to remove the "the"-->
 
-   <div class="preview">
-
    ![Selector de desglose y botón en la vista de cronología](assets/breakdown-picker-and-button-on-timeline.png)
-
-   </div>
 
    >[!TIP]
    >

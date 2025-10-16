@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: 5b9b1f397c76afa2e2ae550e0ce62a6038b8bd86
+source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
 workflow-type: tm+mt
-source-wordcount: '3397'
+source-wordcount: '3352'
 ht-degree: 45%
 
 ---
@@ -58,7 +58,61 @@ Puede conectar lo siguiente:
 
 ## Requisitos de acceso
 
-+++ Amplíe para ver los requisitos de acceso.
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo. 
+
+<table style="table-layout:auto"> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+    <tr> 
+<tr> 
+</tr>   
+<tr> 
+   <td role="rowheader"><p>paquete de Adobe Workfront</p></td> 
+   <td> 
+<ul> 
+<li><p>Cualquier Workfront y cualquier paquete de Planning</p></li>
+O
+<li><p>Cualquier flujo de trabajo y cualquier paquete de Planning</p></li></ul>
+<p>Para obtener más información sobre lo que se incluye en cada paquete de Workfront Planning, póngase en contacto con su representante de cuentas de Workfront. </p> 
+   </td> 
+<tr> 
+<td> 
+   <p> Productos adicionales</p> </td> 
+   <td> 
+    <p>Además de Adobe Workfront, debe tener una licencia de Adobe Experience Manager Assets y una integración entre AEM Assets y Workfront para conectar los recursos de AEM con los registros de Planning.</p>
+    <p>Para obtener más información, consulte <a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">Adobe Workfront para Experience Manager Assets y Assets Essentials: índice de artículo</a>. </p>
+   </td> 
+  </tr>   
+<tr> 
+  <tr> 
+   <td role="rowheader"><p>Licencia de Adobe Workfront</p></td> 
+   <td><p>Estándar</p>
+   </td> 
+  </tr> 
+   <tr> 
+   <td role="rowheader"><p>Configuración de nivel de acceso</p></td> 
+   <td> <p>No hay controles de nivel de acceso para Adobe Workfront Planning</p> 
+   <p>Acceso superior o de visualización para los tipos de objeto a los que desea conectarse en Workfront y AEM Assets. </p>  
+</td> 
+  </tr>
+  <tr> 
+   <td role="rowheader"><p>Permisos de objeto</p></td> 
+   <td>   <p>Permisos de contribución o superiores a un espacio de trabajo y tipo de registro para conectar registros. </p>  
+   <p>Permite ver o aumentar los permisos de un espacio de trabajo y tipo de registro para ver todas las conexiones a objetos y campos desde otras aplicaciones, independientemente del acceso que tenga en la otra aplicación. </p>
+   <p>Permisos de visualización superiores a los objetos que desea vincular desde Workfront o Experience Manager Assets. </p>
+   <p>Los administradores del sistema tienen permisos para todos los espacios de trabajo, incluidos los que no crearon.</p> </td> 
+  </tr>   
+</tbody> 
+</table>
+
+Para obtener más información acerca de los requisitos de acceso de Workfront, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++   
+
+<!--Old:
 
 <table style="table-layout:auto"> 
 <col> 
@@ -69,64 +123,60 @@ Puede conectar lo siguiente:
     <tr> 
 <tr> 
 <td> 
-   <p> Productos</p> </td> 
+   <p> Products</p> </td> 
    <td> 
    <ul><li><p> Adobe Workfront</p></li> 
-   <li><p> Planificación de Adobe Workfront<p></li>
-   <li><p>Adobe Experience Manager Assets, si desea conectar recursos de AEM con registros de Planning<p>
-   <p>Debe tener una licencia de Adobe Experience Manager Assets y una integración entre AEM Assets y Workfront.
-    Para obtener más información, consulte <a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">Adobe Workfront para Experience Manager Assets y Assets Essentials: índice de artículo</a>. </p>
+   <li><p> Adobe Workfront Planning<p></li>
+   <li><p>Adobe Experience Manager Assets, if you want to connect AEM assets with Planning records<p>
+   <p>You must have an Adobe Experience Manager Assets license and an integration between AEM Assets and Workfront.
+    For information, see <a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">Adobe Workfront for Experience Manager Assets and Assets Essentials: article index</a>. </p>
    </li>  
    </ul></td> 
   </tr>   
 <tr> 
-   <td role="rowheader"><p>Plan de Adobe Workfront*</p></td> 
+   <td role="rowheader"><p>Adobe Workfront plan*</p></td> 
    <td> 
-<p>Cualquiera de los siguientes planes de Workfront:</p> 
-<ul><li>Seleccionar</li> 
+<p>Any of the following Workfront plans:</p> 
+<ul><li>Select</li> 
 <li>Prime</li> 
 <li>Ultimate</li></ul> 
-<p>Workfront Planning no está disponible para planes Workfront heredados</p> 
+<p>Workfront Planning is not available for legacy Workfront plans</p> 
    </td> 
 <tr> 
-   <td role="rowheader"><p>Paquete de planificación de Adobe Workfront*</p></td> 
+   <td role="rowheader"><p>Adobe Workfront Planning package*</p></td> 
    <td> 
-<p>Cualquiera </p> 
-<p>Para obtener más información sobre qué se incluye en cada plan de Workfront Planning, póngase en contacto con su administrador de cuentas de Workfront. </p> 
+<p>Any </p> 
+<p>For more information about what is included in each Workfront Planning plan, contact your Workfront account manager. </p> 
    </td> 
  <tr> 
-   <td role="rowheader"><p>plataforma de Adobe Workfront</p></td> 
+   <td role="rowheader"><p>Adobe Workfront platform</p></td> 
    <td> 
-<p>La instancia de Workfront de su organización debe incorporarse a Adobe Unified Experience para poder acceder a Workfront Planning.</p> 
-<p>Para obtener más información, consulte <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience para Workfront</a>. </p> 
+<p>Your organization's instance of Workfront must be onboarded to the Adobe Unified Experience to be able to access Workfront Planning.</p> 
+<p>For more information, see <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p> 
    </td> 
    </tr> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Licencia de Adobe Workfront*</p></td> 
-   <td> Estándar
-   <p>Workfront Planning no está disponible para licencias de Workfront heredadas</p> 
+   <td role="rowheader"><p>Adobe Workfront license*</p></td> 
+   <td> Standard
+   <p>Workfront Planning is not available for legacy Workfront licenses</p> 
   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Configuración de nivel de acceso</p></td> 
-   <td> <p>No hay controles de nivel de acceso para los objetos de Adobe Workfront Planning</p> 
-   <p>Permite ver o permisos superiores a los tipos de objeto que desea vincular desde Workfront.</p>   
+   <td role="rowheader"><p>Access level configuration</p></td> 
+   <td> <p>There are no access level controls for Adobe Workfront Planning objects</p> 
+   <p>View or higher permissions to the object types you want to link from Workfront.</p>   
 </td> 
   </tr> 
 <tr> 
-   <td role="rowheader"><p>Permisos de objeto</p></td> 
-   <td>   <p>Permisos de contribución o superiores a un espacio de trabajo y tipo de registro para conectar registros </p>  
-   <p>Permite ver o aumentar los permisos de un espacio de trabajo y tipo de registro para ver todas las conexiones a objetos y campos desde otras aplicaciones, independientemente del acceso que tenga en la otra aplicación. </p>
-   <p>Permisos de visualización superiores a los objetos que desea vincular desde Workfront o Experience Manager Assets. </p>
-   <p>Los administradores del sistema tienen permisos para todos los espacios de trabajo, incluidos los que no crearon.</p> </td> 
+   <td role="rowheader"><p>Object permissions</p></td> 
+   <td>   <p>Contribute or higher permissions to a workspace and record type to connect records </p>  
+   <p>View or higher permissions to a workspace and record type to view all connections to objects and fields from other applications, regardless of your access in the other application. </p>
+   <p>View or higher permissions to the objects you want to link from Workfront or Experience Manager Assets. </p>
+   <p>System Administrators have permissions to all workspaces, including the ones they did not create.</p> </td> 
   </tr> 
 </tbody> 
-</table>
-
-*Para obtener más información sobre los requisitos de acceso de Workfront, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
-
-+++
+</table> -->
 
 ## Consideraciones para conectar registros
 
@@ -337,7 +387,7 @@ Después de crear una conexión entre un tipo de registro y Adobe Experience Man
 
 >[!NOTE]
 >
->Se puede acceder a los registros de planificación y a sus campos desde Experience Manager Assets cuando el administrador de Workfront configura la asignación de metadatos mediante la integración entre Workfront y Adobe Experience Manager Assets. Para obtener más información, consulte [Configuración de la asignación de metadatos de recursos entre Adobe Workfront y Experience Manager Assets](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
+>Se puede acceder a los registros de planificación y a sus campos desde Experience Manager Assets cuando el administrador de Workfront configura la asignación de metadatos mediante la integración entre Workfront y Adobe Experience Manager Assets. Para obtener más información, consulte [Configuración de la asignación de metadatos de recursos entre Adobe Workfront y Experience Manager Assets](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
 
 Para conectar registros con recursos de Experience Manager:
 
