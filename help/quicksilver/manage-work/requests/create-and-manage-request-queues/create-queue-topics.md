@@ -7,18 +7,16 @@ author: Becky
 feature: Work Management, Requests
 role: User, Admin
 exl-id: 65a74698-011f-4caa-9739-d7510faeb66f
-source-git-commit: 4a0cb96f5888819747f63472712f91c685621cf1
+source-git-commit: 1a56846647e443cf3f5f09eed8c3084434de5ddb
 workflow-type: tm+mt
-source-wordcount: '1013'
-ht-degree: 76%
+source-wordcount: '964'
+ht-degree: 79%
 
 ---
 
 # Crear temas de la cola
 
 <!-- Audited: 12/2023 -->
-
-<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa de espacio aislado.</span>
 
 Los temas de la cola funcionan junto con las reglas de enrutamiento para asignar automáticamente el trabajo entrante a un usuario, función o equipo, o para colocarlo en un proyecto. Los temas de la cola definen las condiciones que deben darse para que se implemente la regla de enrutamiento.
 
@@ -179,8 +177,7 @@ Para editar un tema de la cola existente:
 
 1. Vaya al proyecto o plantilla que contiene el tema de la cola que desea editar.
 1. Haga clic en **Temas de cola** en el panel izquierdo.
-1. En el entorno Producción, seleccione el Tema de la cola que desee editar. En la página Detalles que se abre, haga clic en **Editar tema de cola**.
-1. <span class="preview">En el entorno de vista previa, haga clic en el tema de la cola que desee editar.
+1. Haga clic en el tema de la cola que desee editar.
 
 Para obtener información acerca de las opciones de edición disponibles, vea [Crear un tema de cola](#create-a-queue-topic) en este artículo.
 

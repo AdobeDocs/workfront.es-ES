@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 479dfb9d-0e47-4790-a33a-336b415fbf6e
-source-git-commit: 30b61b32add4c6d062b5b524773d309008c9563d
+source-git-commit: 8fb17d1008b00bc0701ce6e2f06c59d020510e90
 workflow-type: tm+mt
 source-wordcount: '333'
-ht-degree: 63%
+ht-degree: 57%
 
 ---
 
@@ -44,7 +44,7 @@ Puede desactivar una compañía que ya no utilice y conservar a la vez todos sus
     <ul> 
      <li> <p>Nivel de acceso de [!UICONTROL System Administrator], que permite editar cualquier compañía del sistema.</p> </li> 
      <li> <p>Acceso administrativo para gestionar empresas, que permite editar cualquier empresa del sistema.</p> </li> 
-    </ul> <p><b>NOTA</b>:  
+    </ul> <p><b>NOTA</b>:
      <ul> 
       <li> <p>También puede administrar compañías asociadas a cualquier grupo en el que esté asignado como administrador de grupos.</p> </li> 
       <li> <p>Para agregar y quitar usuarios del sistema [!DNL Workfront], debe tener uno de los siguientes elementos:</p> 
@@ -70,7 +70,7 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 
 1. Seleccione una o varias compañías que desea desactivar o reactivar.
 1. Haga clic en **[!UICONTROL Editar]**.<!--MAKE THIS A SEPARATE NUMBERED LINE<span class="preview">In the Preview environment, disable the **[!UICONTROL Is Active]** option to deactivate it, or enable the option to activate it.</span>-->
-1. &#x200B;<!--In the Production environment, -->Para una sola compañía, deshabilite la opción **[!UICONTROL Está activo]** para desactivarla o habilite la opción para activarla.
+1. Para una sola compañía, deshabilite la opción **[!UICONTROL Está activo]** para desactivarla o habilite la opción para activarla. <!--ADD TO THE FRONT OF THIS SENTENCE In the Production environment, -->
 
    O
 

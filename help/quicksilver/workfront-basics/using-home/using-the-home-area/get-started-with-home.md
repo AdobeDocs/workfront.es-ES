@@ -6,10 +6,10 @@ description: El Hogar te ayuda a administrar tu trabajo. Puede personalizar este
 author: Courtney
 feature: Get Started with Workfront
 exl-id: eddb2db0-88c5-40f9-ba05-14839a3dfc7f
-source-git-commit: 1cb165e826ee57483989474c095553a08e33bc9a
+source-git-commit: 1a56846647e443cf3f5f09eed8c3084434de5ddb
 workflow-type: tm+mt
-source-wordcount: '1106'
-ht-degree: 73%
+source-wordcount: '1030'
+ht-degree: 77%
 
 ---
 
@@ -20,8 +20,6 @@ ht-degree: 73%
 >[!IMPORTANT]
 >
 >El contenido de este artículo se ha sustituido por el contenido del nuevo artículo Introducción a la página de inicio. La nueva página de inicio ahora se denominará Página de inicio.
-
-<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después de las versiones mensuales en Production, las mismas funciones también están disponibles en el entorno Production para los clientes que habilitaron versiones rápidas. </span>
 
 La experiencia de la nueva página Inicio en Adobe Workfront tiene como objetivo mejorar la experiencia de inicio actual y, al mismo tiempo, proporcionar una forma más flexible de centrarse en el trabajo adecuado.
 
@@ -55,9 +53,7 @@ A continuación se muestran los 11 widgets disponibles actualmente para elegir, 
     Muestra los problemas que se le han asignado en una lista. Puede utilizar filtros, vistas o agrupaciones existentes para personalizar la lista, o puede crear un problema directamente desde el widget. Este widget solo incluye problemas cuyos proyectos asociados están configurados en Actual y no incluye proyectos completados. También puede delegar los problemas mientras está fuera de la oficina.
 
 * **Mis solicitudes**\
-    Muestra todas las solicitudes enviadas, un filtro para mostrar solo las solicitudes abiertas y un botón que abre el panel de resumen de una solicitud.
-
-  <span class="preview">En el entorno de vista previa, este widget muestra todas las solicitudes que ha enviado, un filtro para mostrar solamente las solicitudes que cumplen con los criterios especificados y un botón que le permite reorganizar las columnas en el widget. Si tiene acceso a Workfront Planning, sus solicitudes de Planning también aparecerán aquí.</span>
+    Muestra todas las solicitudes enviadas, un filtro para mostrar solo las solicitudes que cumplen los criterios especificados y un botón que permite reorganizar las columnas en el widget. Si tiene acceso a Workfront Planning, sus solicitudes de Planning también aparecerán aquí.
 
 
 * **Solicitudes de equipo**\

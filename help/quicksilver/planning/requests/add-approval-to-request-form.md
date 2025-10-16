@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 058148db-1795-4d39-be87-271008ae3d47
-source-git-commit: e69209f449ba1643667135c3a0137b93c6171ef8
+source-git-commit: 1a56846647e443cf3f5f09eed8c3084434de5ddb
 workflow-type: tm+mt
 source-wordcount: '690'
 ht-degree: 7%
@@ -90,11 +90,11 @@ Para obtener más información acerca de los requisitos de acceso de Workfront, 
    Se muestra el área **Configuración**.
 
    ![Ficha de configuración](assets/configuration-tab.png)
-1. En el campo **Aprobadores**, haga clic en el icono desplegable y seleccione uno o varios usuarios <span class="preview">o equipos</span> en la lista
+1. En el campo **Aprobadores**, haga clic en el icono desplegable y seleccione uno o varios usuarios o equipos en la lista
 
    O
 
-   Empiece a escribir el nombre de un usuario <span class="preview">o equipo</span> que desee establecer como aprobador y selecciónelo cuando se muestre en la lista.
+   Comience a escribir el nombre de un usuario o equipo que desee establecer como aprobador y, a continuación, selecciónelo cuando aparezca en la lista.
 
    <!--most of the Note below is duplicated in the Create a request form article-->
 
@@ -109,7 +109,7 @@ Para obtener más información acerca de los requisitos de acceso de Workfront, 
    >
    >* Todos los aprobadores deben tomar una decisión antes de aprobar o rechazar una solicitud.
    >
-   >* <span class="preview">Si un equipo se establece como aprobador, solo se requiere una decisión del equipo.</span>
+   >* Si un equipo se establece como aprobador, solo se requiere una decisión del equipo.
 
 
 1. (Opcional) Haga clic en **Publicar** si nunca antes había compartido el formulario de solicitud

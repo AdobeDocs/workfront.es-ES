@@ -6,10 +6,10 @@ description: En Adobe Workfront, el trabajo planificado se representa mediante p
 author: Becky
 feature: Work Management
 exl-id: 8b023a3d-326d-4d63-9e1e-8171553a9e23
-source-git-commit: 1b7964b533093c4eee20d69a74512a145e207e29
+source-git-commit: 1a56846647e443cf3f5f09eed8c3084434de5ddb
 workflow-type: tm+mt
-source-wordcount: '2767'
-ht-degree: 76%
+source-wordcount: '2580'
+ht-degree: 81%
 
 ---
 
@@ -25,9 +25,6 @@ ht-degree: 76%
 </div>
 -->
 
-<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después de las versiones mensuales en Production, las mismas funciones también están disponibles en el entorno Production para los clientes que habilitaron versiones rápidas. </span>
-
-<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 En Adobe Workfront, el trabajo planificado se representa mediante proyectos y tareas. Sin embargo, es posible que se trabaje en un entorno en el que el trabajo no planificado, en forma de solicitudes, pueda llegar en cualquier momento. Workfront proporciona un flujo de trabajo para dar cabida a este tipo de entorno mediante el uso de colas de solicitudes.
 
@@ -144,23 +141,16 @@ Para crear una solicitud en la aplicación web de Workfront:
 
    Se abre el cuadro **Nueva solicitud**.
 
-1. (Condicional) Si cambió a la nueva experiencia y está en el entorno de producción, el cuadro **Nueva solicitud** mostrará lo siguiente:</span>
+1. (Condicional) Si ha cambiado a la nueva experiencia, , seleccione una de las rutas o formularios de la cola de solicitudes de Workfront o haga clic en la barra de búsqueda.
 
-   <ul><li>Las 6 colas de solicitud de Workfront a las que se ha accedido más recientemente y los formularios de solicitud de Planning se muestran en la sección Reciente. </li>
-    <li>Todos los formularios de solicitud adicionales de Workfront y Planning <b>Todos los formularios de solicitud</b>. Puede buscar formularios de solicitud que no se muestren de forma predeterminada. </li>
-    <li>Todas las rutas de cola de solicitudes adicionales de Workfront y Planning se muestran en la sección <b>Todas las rutas de solicitud</b>. Puede buscar una cola de solicitudes que no se muestre de forma predeterminada.</li></ul>
-   Haga clic en una de las rutas o formularios de la cola de solicitudes de Workfront o busque uno y, a continuación, haga clic en él cuando se muestre en la lista.
-1. <span class="preview">(Condicional) Si cambió a la nueva experiencia, seleccione una de las rutas o formularios de la cola de solicitudes de Workfront o haga clic en la barra de búsqueda. </span>
-
-   <span class="preview">Al hacer clic en la barra de búsqueda, aparece una lista desplegable que muestra primero las colas y los formularios utilizados más recientemente. Seleccione uno de la lista o empiece a escribir y seleccione la cola o el formulario cuando aparezca.</span>
+   Al hacer clic en la barra de búsqueda, aparece una lista desplegable que muestra primero las colas y los formularios utilizados más recientemente. Seleccione uno de la lista o empiece a escribir y seleccione la cola o el formulario cuando aparezca.
 
    >[!NOTE]
    >
-   ><span class="preview">Tenga en cuenta lo siguiente con respecto a la nueva experiencia de solicitud disponible actualmente en Vista previa:</span>
-   >* <span class="preview">La lista incluye tanto colas de solicitud de Workfront como formularios de solicitud de Workfront Planning.</span>
-   >* <span class="preview">Puede filtrar la lista por tipo de objeto.</span>
-   >* <span class="preview">Para mostrar solo las colas de solicitud de Workfront, filtre por `Issue` tipos de objetos.</span>
-   >* <span class="preview">En la nueva experiencia de solicitud, los borradores se encuentran en la misma lista que las solicitudes enviadas.</span>
+   >Considere lo siguiente con respecto a la nueva experiencia solicitante:
+   >* La lista incluye tanto las colas de solicitud de Workfront como los formularios de solicitud de Workfront Planning.
+   >* Puede filtrar la lista por tipo de objeto.
+   >* En la nueva experiencia solicitante, los borradores se encuentran en la misma lista que las solicitudes enviadas.
 
 1. (Condicional) Si ha cambiado a la nueva experiencia, seleccione los grupos de temas y los temas de la cola y continúe actualizando el formulario.
 

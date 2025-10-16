@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
-source-git-commit: 1b7964b533093c4eee20d69a74512a145e207e29
+source-git-commit: 1a56846647e443cf3f5f09eed8c3084434de5ddb
 workflow-type: tm+mt
-source-wordcount: '1996'
+source-wordcount: '1933'
 ht-degree: 5%
 
 ---
@@ -144,15 +144,7 @@ Si habilita esta configuración, los formularios de solicitud de Workfront Plann
    * Las 6 colas de solicitud de Workfront a las que se ha accedido más recientemente y los formularios de solicitud de Planning se muestran en la sección Reciente.
    * 50 colas de solicitudes de Workfront adicionales y formularios de solicitudes de Planning se muestran en orden alfabético en la sección **Todos los formularios de solicitudes**. Puede buscar una cola de solicitudes que no se muestre de forma predeterminada.
 
-1. En el entorno Producción, realice una de las siguientes acciones:
-
-   * Seleccione los formularios de solicitud de Planning en las secciones Formularios de solicitud recientes o Todos
-   * Comience a escribir el nombre de un formulario de solicitud de Planning en el cuadro de búsqueda y, a continuación, haga clic en la tarjeta cuando se muestre en la lista.
-
-   Se abrirá el formulario de solicitud.
-
-<!-- Put preview section here-->
-1. <span class="preview">En el entorno de vista previa, seleccione un formulario o cola de solicitud en el área de formularios de solicitud a los que se ha accedido recientemente, o empiece a escribir el nombre del formulario o cola en la lista y, a continuación, selecciónelo cuando aparezca.
+1. Seleccione un formulario de solicitud o una cola del área de formularios de solicitud a los que se ha accedido recientemente, o empiece a escribir el nombre del formulario o la cola en la lista y, a continuación, selecciónelo cuando aparezca.
 
 1. Actualice los campos disponibles en el formulario de solicitud. Los campos con un asterisco rojo son obligatorios.
 1. Haga clic en **Enviar**.
@@ -221,16 +213,9 @@ La lista de solicitudes se filtra automáticamente a medida que se añaden las c
 
    Se abre la página de detalles de la solicitud.
 
-   ![Página de detalles de solicitud](assets/request-details-page.png)
-
-   <div class="preview">
-      En la previsualización:
-
    ![Solicitar página con comentario](assets/new-request-page-with-comment.png)
 
-   </div>
-
-1. <span class="preview">(Opcional) Escriba un comentario en el área Comentarios.
+1. (Opcional) Introduzca un comentario en el área Comentarios.
 1. (Condicional) Si el formulario de solicitud no está asociado a una aprobación, o si la solicitud se ha aprobado, haga clic en el nombre de la solicitud y, a continuación, haga clic en el nombre del registro en el campo **Registro**.
 
    La página del registro se abre en Workfront Planning.
@@ -292,16 +277,11 @@ La lista de solicitudes se filtra automáticamente a medida que se añaden las c
 
    Se abre la página de detalles de la solicitud.
 
-   ![Página de detalles de solicitud](assets/request-details-page.png)
-
-   <div class="preview">
-   En la previsualización:
-
    ![Solicitar página con comentario](assets/new-request-page-with-comment.png)
 
-   </div>
 
-1. <span class="preview">(Opcional) Escriba un comentario en el área Comentarios.
+
+1. (Opcional) Introduzca un comentario en el área Comentarios.
 1. (Condicional) Si el formulario de solicitud no está asociado a una aprobación, o si la solicitud se ha aprobado, haga clic en el nombre de la solicitud y, a continuación, haga clic en el nombre del registro en el campo **Registro**.
 
    La página del registro se abre en Workfront Planning.
