@@ -70,7 +70,7 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 
 1. Seleccione una o varias compañías que desea desactivar o reactivar.
 1. Haga clic en **[!UICONTROL Editar]**.<!--MAKE THIS A SEPARATE NUMBERED LINE<span class="preview">In the Preview environment, disable the **[!UICONTROL Is Active]** option to deactivate it, or enable the option to activate it.</span>-->
-1. <!--In the Production environment, -->Para una sola compañía, deshabilite la opción **[!UICONTROL Está activo]** para desactivarla o habilite la opción para activarla.
+1. &#x200B;<!--In the Production environment, -->Para una sola compañía, deshabilite la opción **[!UICONTROL Está activo]** para desactivarla o habilite la opción para activarla.
 
    O
 
