@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 81e74a70-ea7e-4ed8-8b30-f01df0e73645
-source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
+source-git-commit: 20ebcb74c79aea67ea7cb1ba083dfea623fe7c16
 workflow-type: tm+mt
-source-wordcount: '469'
-ht-degree: 21%
+source-wordcount: '446'
+ht-degree: 17%
 
 ---
 
@@ -25,31 +25,27 @@ Para obtener información acerca de cómo crear problemas en [!DNL Workfront], v
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
-   <td>Cualquiera</td> 
+   <td>[!DNL Adobe Workfront] paquete</td> 
+   <td><p>Cualquiera</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licencia</td> 
-   <td><p>Nuevo: [!UICONTROL Standard]</p>
-   O
-   <p>Actual: [!UICONTROL Plan]</p>
-   </td> 
-  </tr>
+   <td>[!DNL Adobe Workfront] licencia</td> 
+   <td><p>[!UICONTROL Standard]</p>
+       <p>[!UICONTROL Plan]</p></td>
+  </tr> 
   <tr> 
-   <td role="rowheader">Configuraciones de nivel de acceso</td> 
-   <td>[!UICONTROL System Administrator]</td>
+   <td>Configuraciones de nivel de acceso</td> 
+   <td>[!UICONTROL System Administrator]</td> 
   </tr> 
  </tbody> 
 </table>
 
-Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

@@ -5,10 +5,10 @@ description: Adobe Workfront envía notificaciones sobre los elementos que tiene
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 5eee62b8-d72e-4263-a0c5-749047bc6812
-source-git-commit: 6a1152bb86a856d60585db7d6ffd43a59a212a72
+source-git-commit: 770e20cf9e32ac9884f5eb320f7067fcf162c63d
 workflow-type: tm+mt
-source-wordcount: '1603'
-ht-degree: 91%
+source-wordcount: '1556'
+ht-degree: 90%
 
 ---
 
@@ -34,7 +34,7 @@ Para obtener más información sobre cómo trabajar con suscripciones, consulte 
 
 ## Requisitos de acceso
 
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -43,16 +43,18 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Plan [!UICONTROL Adobe Workfront]*</strong></td> 
+   <td role="rowheader"><strong>Paquete de [!UICONTROL Adobe Workfront]</strong></td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licencia*</strong></td> 
-   <td> <p>[!UICONTROL Request] o superior</p> </td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] licencia</strong></td> 
+   <td> 
+   <p>Colaborador o superior</p>
+   <p>Solicitud o superior</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Configuraciones de nivel de acceso*</strong></td> 
-   <td> <p>Si el administrador de [!DNL Workfront] ha habilitado <strong>[!UICONTROL View only updates in which they have been included in the conversation]</strong> en su nivel de acceso, no podrá suscribirse a los elementos de [!DNL Workfront].</p> <p>Nota: si sigue sin tener acceso, pregunte al administrador de [!UICONTROL Workfront] si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de [!UICONTROL Workfront] puede cambiar su nivel de acceso, consulte <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
+   <td role="rowheader"><strong>Configuraciones de nivel de acceso</strong></td> 
+   <td> <p>Si el administrador de [!DNL Workfront] ha habilitado <strong>[!UICONTROL View only updates in which they have been included in the conversation]</strong> en su nivel de acceso, no podrá suscribirse a los elementos de [!DNL Workfront].</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Permisos de objeto</strong></td> 
@@ -61,7 +63,9 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  </tbody> 
 </table>
 
-Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de [!DNL Workfront].
+Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Suscribirse a un elemento
 
@@ -145,7 +149,7 @@ Todos los suscriptores tienen permisos de [!UICONTROL visualización] para el el
 
 No se notifica la suscripción al suscriptor, pero se añade una entrada sobre la suscripción a las actualizaciones del sistema del elemento.
 
-Cuando alguien añade un comentario a la ficha [!UICONTROL Actualizaciones] del elemento, el suscriptor recibe una notificación dentro de la aplicación. Según las funciones que haya activado el administrador de Workfront, el suscriptor también puede recibir notificaciones en el móvil y por correo electrónico del elemento.
+Cuando alguien añade un comentario a la ficha [!UICONTROL Actualizaciones] del elemento, el suscriptor recibe una notificación dentro de la aplicación. Según las funciones que haya habilitado el administrador de Workfront, el suscriptor también puede recibir notificaciones en el móvil y por correo electrónico del elemento.
 
 ### Cancelar la suscripción de un elemento a otra persona
 
@@ -195,7 +199,7 @@ Para ver quién está suscrito a un elemento:
 
 1. Desplácese hasta el elemento cuyos suscriptores desee ver.
 
-   Si hay suscriptores para el elemento, el número de suscriptores se muestra junto a la campana. Puede pasar el ratón por encima del número para mostrar una lista de los usuarios que se suscriben al elemento. Los primeros 25 suscriptores se muestran en orden alfabético.
+   Si hay suscriptores para el elemento, el número de suscriptores se muestra junto a la campana. Puede pasar el puntero por encima del número para mostrar una lista de los usuarios que se suscriben al elemento. Los primeros 25 suscriptores se muestran en orden alfabético.
 
    ![Ver suscriptores](assets/bell-hover-for-list-qs-350x90.png)
 

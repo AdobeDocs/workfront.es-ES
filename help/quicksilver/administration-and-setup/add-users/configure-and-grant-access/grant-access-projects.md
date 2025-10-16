@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: ba6a9e68-68a1-4152-b024-cd39e06d556f
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: 2a83e5a415ff254cf5525d6f44ecb0e447e7e70a
 workflow-type: tm+mt
-source-wordcount: '650'
-ht-degree: 94%
+source-wordcount: '634'
+ht-degree: 93%
 
 ---
 
@@ -29,25 +29,21 @@ Para obtener información acerca del uso de niveles de acceso personalizados par
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Plan de Adobe Workfront</td> 
+   <td role="rowheader">paquete de Adobe Workfront</td> 
    <td>Cualquiera</td> 
   </tr> 
     <tr> 
    <td role="rowheader">Licencia de Adobe Workfront</td> 
-   <td> <p>Nuevo: estándar </p>
- <p>o</p> 
-<p>Actual: plan </p> 
+   <td> <p>Estándar</p>
+   <p>Plan</p>
 </td> 
-  </tr>
-
-<tr> 
+  </tr> 
+  <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso</td> 
    <td> <p>Debe ser administrador de Workfront.</p> </td> 
   </tr> 
@@ -94,7 +90,7 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
 
    Una vez creado el nivel de acceso, puede asignarlo a un usuario. Para obtener más información, consulte [Editar el perfil de un usuario](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
-## Acceso a informes, paneles y calendarios por tipo de licencia
+## Acceso a informes, paneles de control y calendarios por tipo de licencia
 
 Para obtener información acerca de lo que los usuarios de cada nivel de acceso pueden hacer con los problemas, consulte la sección [Proyectos](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md#projects) en el artículo [Funcionalidad disponible para cada tipo de objeto](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md).
 

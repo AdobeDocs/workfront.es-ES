@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: b59b1491-9a78-49c0-89c9-ab1ce0099e0b
-source-git-commit: 008f96d52632f5f05554d63ae1c38cc37d21544b
+source-git-commit: a42a167447d2f11b5502e4a0953b5e7eec2e67b1
 workflow-type: tm+mt
-source-wordcount: '659'
-ht-degree: 62%
+source-wordcount: '636'
+ht-degree: 60%
 
 ---
 
@@ -27,32 +27,27 @@ Sin embargo, normalmente los administradores de grupos administran grupos y subg
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Plan de Adobe Workfront</td> 
-   <td>Cualquiera</td> 
+   <td>paquete de Adobe Workfront</td> 
+   <td><p>Cualquiera</p></td> 
   </tr> 
   <tr> 
+   <td>Licencia de Adobe Workfront</td> 
+   <td><p>Estándar</p>
+       <p>Plan</p></td>
+  </tr>
   <tr> 
-   <td role="rowheader">Licencia de Adobe Workfront</td> 
-   <td><p>Nuevo: estándar</p>
-       <p>O</p>
-       <p>Actual: plan</p></td>
-  </tr> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Configuraciones de nivel de acceso</td> 
+   <td>Configuraciones de nivel de acceso</td> 
    <td>Debe ser administrador de grupo del grupo o administrador del sistema.</td>
-  </tr> 
+  </tr>
  </tbody> 
 </table>
 
-Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

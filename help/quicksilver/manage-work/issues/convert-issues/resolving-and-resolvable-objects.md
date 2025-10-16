@@ -7,16 +7,16 @@ description: Un objeto solucionable es un problema cuya resolución está vincul
 author: Alina
 feature: Work Management
 exl-id: 2ff034ec-6116-42af-a55f-1fb24fc12b2f
-source-git-commit: 3827e834a71084f14a99cb27aadefd97327b02d7
+source-git-commit: 0542587bb3254dec5664de493c1c321528cf7f3e
 workflow-type: tm+mt
-source-wordcount: '1761'
+source-wordcount: '1760'
 ht-degree: 3%
 
 ---
 
 # Información general sobre la resolución y los objetos solucionables
 
-<!-- Audited: 5/2025 -->
+<!-- Audited: 08/2025 -->
 
 Un objeto solucionable es un problema cuya resolución está vinculada a un objeto de resolución. Un objeto de resolución es un proyecto, una tarea u otro problema.
 
@@ -76,7 +76,7 @@ The default status of the issue is controlled by the status of the project or ta
 
 ## Controlar el objeto solucionable durante la conversión en un proyecto o una tarea
 
-Según la forma en que el administrador de Workfront o del grupo haya configurado las preferencias de problemas a nivel de sistema o de grupo, es posible que pueda gestionar el objeto solucionable durante la conversión de un problema en un proyecto o una tarea.
+Según la forma en que el administrador de Workfront o del grupo haya configurado las Preferencias de problema de nivel de sistema o de grupo, es posible que pueda gestionar el objeto solucionable durante la conversión de un problema en un proyecto o una tarea.
 
 Se dan los siguientes escenarios:
 

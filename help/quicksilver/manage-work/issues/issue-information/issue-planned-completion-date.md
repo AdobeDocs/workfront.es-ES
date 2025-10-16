@@ -6,14 +6,16 @@ description: La fecha planificada de finalización de un problema es la fecha en
 author: Alina
 feature: Work Management
 exl-id: bdb206dc-18f8-4f8a-862b-e881408a8408
-source-git-commit: 1e69d715f343bfef1e5aee658a1dff12abfc61a0
+source-git-commit: 0542587bb3254dec5664de493c1c321528cf7f3e
 workflow-type: tm+mt
 source-wordcount: '592'
-ht-degree: 0%
+ht-degree: 11%
 
 ---
 
 # Resumen de la fecha planificada de finalización del problema
+
+<!--Audited: 08/2025-->
 
 La fecha planificada de finalización de un problema es la fecha en la que se espera que se resuelva el problema.
 
@@ -27,10 +29,10 @@ Las Fechas planificadas de finalización de los problemas no afectan a la fecha 
 >
 >* La fecha de confirmación es la fecha en la que la persona asignada a la incidencia calcula manualmente que habrá finalizado la incidencia. Para obtener más información, consulte los siguientes artículos:
 >
->   * [Resumen de fecha de confirmación](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md)
+>   * [Información general sobre la fecha de confirmación](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md)
 >   * [Interacciones entre la fecha de confirmación y la fecha planificada de finalización](../../../manage-work/projects/updating-work-in-a-project/interactions-between-commit-and-planned-completion-dates.md).
 >
->* La fecha proyectada de finalización es una fecha calculada por Workfront que tiene en cuenta factores externos para determinar una fecha real en la que se puede completar el problema de forma realista. Para obtener más información, vea [Información general sobre la fecha proyectada de finalización de proyectos, tareas y problemas](../../../manage-work/projects/planning-a-project/project-projected-completion-date.md).
+>* La fecha proyectada de finalización es una fecha calculada por Workfront que tiene en cuenta factores externos para determinar una fecha real en la que se puede completar el problema de forma realista. Para obtener más información, consulte [Información general sobre la fecha proyectada de finalización para proyectos, tareas y problemas](../../../manage-work/projects/planning-a-project/project-projected-completion-date.md).
 >
 
 ## Establecer manualmente la fecha planificada de finalización de un problema
@@ -40,7 +42,7 @@ Debe tener acceso de edición a Problemas y permisos de administración sobre el
 Puede establecer manualmente la fecha planificada de finalización de un problema en las siguientes áreas de Workfront:
 
 * En el cuadro Editar problema o en el área Detalles del problema al crear o editar un problema. Para obtener más información, consulte [Editar problemas](../../../manage-work/issues/manage-issues/edit-issues.md).
-* En el área de Inicio si la fecha planificada de finalización se muestra en el panel de resumen de un problema. Para obtener más información, vea [Actualizar o editar un elemento de trabajo en el área de inicio](../../../workfront-basics/using-home/using-the-home-area/update-and-edit-work-item-home.md).
+* En el área de Inicio si la fecha planificada de finalización se muestra en el panel de resumen de un problema. Para obtener más información, consulte [Actualizar o editar un elemento de trabajo en el área de inicio](../../../workfront-basics/using-home/using-the-home-area/update-and-edit-work-item-home.md).
 * En el encabezado del problema. Para obtener más información, consulte [Nuevos encabezados de objeto](../../../workfront-basics/the-new-workfront-experience/new-object-headers.md).
 * En una lista de problemas o un informe cuando el campo Fecha planificada de finalización se muestra en la vista.
 
@@ -50,11 +52,11 @@ Puede establecer manualmente la fecha planificada de finalización de un problem
 
 Cuando Workfront calcula la fecha planificada de finalización de un problema automáticamente, la fecha puede verse afectada por lo siguiente:
 
-* Fecha planificada de inicio
+* Fecha de inicio planificada
 
   La fecha de entrada y la fecha planificada de inicio deben coincidir en un problema la primera vez que lo cree.
 
-* Duración predeterminada según se ha configurado en la sección Detalles de cola del proyecto. Para obtener más información, vea [Crear una cola de solicitudes](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+* Duración predeterminada según se ha configurado en la sección Detalles de cola del proyecto. Para obtener más información, consulte [Crear una cola de solicitudes](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
   Si la duración predeterminada es 0 días, la fecha planificada de finalización coincide con la fecha planificada de inicio del problema.
 

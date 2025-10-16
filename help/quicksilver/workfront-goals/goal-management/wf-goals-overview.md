@@ -7,10 +7,10 @@ description: Workfront Goals le ayuda a definir, comunicar y lograr resultados e
 author: Alina
 feature: Workfront Goals
 exl-id: bc0451ba-d729-4e8a-bde3-a2609c667d50
-source-git-commit: 4e1558b47f6041501aa4e4fbfa6317dec8aee571
+source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
 workflow-type: tm+mt
-source-wordcount: '512'
-ht-degree: 97%
+source-wordcount: '487'
+ht-degree: 84%
 
 ---
 
@@ -18,22 +18,34 @@ ht-degree: 97%
 
 <!--Audited: 4/2025-->
 
+>[!NOTE]
+>
+>Su empresa puede optar por seguir utilizando los objetivos de Adobe Workfront si compró este paquete anteriormente. Debe hablar con el representante de su cuenta para obtener más detalles.
+>
+>Adobe Workfront Goals ya no se puede adquirir.
+>
+>Para obtener información adicional sobre el acceso a Workfront Goals, consulte [Requisitos para usar Workfront Goals](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
+
+<!--Old: 
+
 >[!IMPORTANT]
 >
->Su organización debe tener lo siguiente para utilizar la funcionalidad descrita en este artículo:
+>Your organization must have the following to use the functionality described in this article:
 >
->* Para la nueva estructura de plan y licencias:
+>* For the new plan and license structure:
 >
->   * El plan Ultimate Workfront
+>   * The Ultimate Workfront plan 
 >    
->* Para la estructura actual de plan y licencias:
+>* For the current plan and license structure: 
 >
->   * Un plan Pro o superior de Workfront
->   * Una licencia de Adobe Workfront Goals además de una licencia de Workfront.
+>   * A Pro or higher Workfront plan
+>   * An Adobe Workfront Goals license in addition to a Workfront license.
 >
->Póngase en contacto con el administrador de cuentas de Workfront para obtener más información sobre una licencia de Workfront Goals.
+>Contact your Workfront account manager to learn about a Workfront Goals license.    
 > 
->Para obtener información adicional sobre el acceso a Workfront Goals, consulte [Requisitos para usar Workfront Goals](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
+>For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).   
+
+-->
 
 Workfront Goals le ayuda a definir, comunicar y lograr resultados estratégicos conectando la estrategia con la ejecución y el envío del trabajo. Puede enfocar los esfuerzos de todos en lo que realmente importa, hacer que el progreso sea mensurable y permitir que los equipos logren resultados sorprendentes. Las personas pueden hacer su mejor trabajo sabiendo que sus contribuciones tienen un impacto significativo.
 
@@ -43,7 +55,9 @@ Para obtener más información sobre las prácticas recomendadas para usar Workf
 
 >[!IMPORTANT]
 >
->Las metas estratégicas que administra con Workfront Goals no deben confundirse con las metas a nivel de proyecto que forman parte del caso empresarial del proyecto. Para obtener información sobre las metas a nivel de proyecto, consulte [Crear metas de casos empresariales](../../manage-work/projects/define-a-business-case/create-business-case-goals.md).
+>No debe confundir las metas estratégicas que administra mediante Workfront Goals con las metas de nivel de proyecto que forman parte del caso comercial del proyecto.
+>
+>Para obtener información sobre las metas a nivel de proyecto, consulte [Crear metas de casos empresariales](../../manage-work/projects/define-a-business-case/create-business-case-goals.md).
 
 ## Funcionalidades de Workfront Goals
 

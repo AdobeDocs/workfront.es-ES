@@ -8,45 +8,16 @@ description: Puede desactivar la capacidad de compartir una prueba con una URL p
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 73f08e12-f70d-4347-8a5b-441f94d24590
-source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
+source-git-commit: 385f4a6663cacfdcf519bf5699fc1840c2cb2adc
 workflow-type: tm+mt
-source-wordcount: '334'
-ht-degree: 93%
+source-wordcount: '221'
+ht-degree: 89%
 
 ---
 
 # Deshabilitar el uso compartido de la prueba mediante una dirección URL pública o código incrustado
 
 Puede desactivar la capacidad de compartir una prueba con una URL pública o código incrustado para cada prueba o para usuarios individuales.
-
-## Requisitos de acceso
-
-+++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
-
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Plan de Adobe Workfront*</td> 
-   <td> <p>Plan actual: pro o superior</p> <p>o</p> <p>Plan heredado: select o premium</p> <p>Para obtener más información sobre el acceso de revisión con los diferentes planes, consulte <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Acceso a la funcionalidad de revisión en Workfront</a>.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Licencia de Adobe Workfront*</td> 
-   <td> <p>Plan actual: trabajo o plan</p> <p>Plan heredado: cualquiera (debe tener la revisión habilitada para el usuario)</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Configuraciones de nivel de acceso*</td> 
-   <td> <p>Acceso de edición a documentos</p> <p>Para obtener información sobre cómo solicitar acceso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a los objetos </a>.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-&#42;Para saber qué plan, función o perfil de permiso de revisión tiene, póngase en contacto con su administrador de Workfront o de Workfront Proof.
-
-+++
 
 ## Deshabilitar por prueba
 

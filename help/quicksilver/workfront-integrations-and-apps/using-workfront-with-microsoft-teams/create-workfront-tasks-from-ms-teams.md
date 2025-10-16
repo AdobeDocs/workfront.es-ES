@@ -6,10 +6,10 @@ description: Puede crear tareas personales en Adobe [!DNL Workfront] desde Micro
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 31b86c8d-967a-446a-86f2-3d38e44c45e1
-source-git-commit: 940cbfb34f12eacd5ba698f60fb7a3e67eb62b22
+source-git-commit: 4cf780aa1b1221cd6ff8e6ce58fbb7d3621f7fa9
 workflow-type: tm+mt
-source-wordcount: '447'
-ht-degree: 77%
+source-wordcount: '443'
+ht-degree: 76%
 
 ---
 
@@ -21,26 +21,31 @@ ht-degree: 77%
 >
 >La integración actualizada de Workfront ya está disponible y es totalmente compatible con la experiencia Nuevos equipos. En la mayoría de los casos, Workfront aparecerá automáticamente una vez que los usuarios hayan realizado la transición. Si no es así, la integración se puede instalar manualmente desde Microsoft Teams App Store. Para instalar o comprobar la integración de Workfront en el cliente New Teams, consulte [Instalar [!DNL Adobe Workfront] para Microsoft Teams](/help/quicksilver/workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md).
 
+
+
 ## Requisitos de acceso
 
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
+   <td role="rowheader">paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licencia*</td> 
-   <td> <p>[!UICONTROL Work], [!UICONTROL Plan]</p> </td> 
-  </tr>
+   <td role="rowheader">Licencia de Adobe Workfront</td> 
+   <td> <p>Estándar</p>
+   <p>Trabajo o superior</p> </td> 
+  </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de [!DNL Workfront].
+Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Requisitos previos
 

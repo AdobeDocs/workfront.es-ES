@@ -7,10 +7,10 @@ description: 'Puede asociar notificaciones de recordatorio con varios tipos de o
 author: Lisa
 feature: Get Started with Workfront
 exl-id: ea04d807-1a9f-4a23-96de-cd83f0821ba0
-source-git-commit: 6a1152bb86a856d60585db7d6ffd43a59a212a72
+source-git-commit: 770e20cf9e32ac9884f5eb320f7067fcf162c63d
 workflow-type: tm+mt
-source-wordcount: '290'
-ht-degree: 32%
+source-wordcount: '229'
+ht-degree: 13%
 
 ---
 
@@ -24,7 +24,7 @@ Los pasos para adjuntar notificaciones de recordatorio son los mismos, independi
 
 ## Requisitos de acceso
 
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -33,25 +33,25 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront plan*]</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront package]</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licencia*</strong></td> 
-   <td> <p>[!UICONTROL Work] </p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] licencia</td> 
+   <td> 
+   <p>Estándar</p>
+   <p>Trabajo o superior</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Configuraciones de nivel de acceso*</strong></td> 
-   <td> <p>[!UICONTROL Worker] o superior</p> <p>Nota: Si todavía no tiene acceso, pregunte al administrador de [!DNL Workfront] si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de [!DNL Workfront] puede modificar su nivel de acceso, consulte <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><strong>Permisos de objeto</strong></td> 
-   <td> <p>Administrar el acceso al objeto</p> <p>Para obtener información sobre cómo solicitar acceso adicional, consulte <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a objetos </a>.</p> </td> 
+   <td role="rowheader">Permisos de objeto</td> 
+   <td> <p>Administrar el acceso al objeto</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de [!DNL Workfront].
+Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Adjuntar notificaciones de recordatorio a un objeto
 

@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: e95dbc32-915b-4ea7-a5ad-e1da99edfbe3
-source-git-commit: d585b698b6c7900d861a30dc6b5e0bff6bd6d13a
+source-git-commit: f8d04790caefd12c9811ea3ed94e1f892311d031
 workflow-type: tm+mt
-source-wordcount: '1299'
-ht-degree: 78%
+source-wordcount: '1276'
+ht-degree: 77%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 78%
 >   Para obtener una lista de procedimientos que difieren según si su organización se ha incorporado a Adobe Admin Console, consulte [Diferencias de administración basadas en la plataforma (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 >
 >* **Si su organización utiliza el inicio de sesión único (SSO)**, le recomendamos que cree usuarios y los asigne a Workfront en Adobe Admin Console. Es posible crear estos usuarios en Workfront, pero puede haber problemas para transferir esa información a Adobe Admin Console, según la configuración de Admin Console de su organización.
->  &#x200B;>   Después de crear el usuario en Adobe Admin Console, puede configurar su información en Workfront, como la asignación de funciones, grupos, equipos y niveles de acceso.
+>  >   Después de crear el usuario en Adobe Admin Console, puede configurar su información en Workfront, como la asignación de funciones, grupos, equipos y niveles de acceso.
 >* **Si su organización no utiliza el inicio de sesión único (SSO)**, puede agregar usuarios que no sean administradores del sistema directamente en Workfront. Es posible añadir usuarios en Adobe Admin Console, pero añadirlos en Workfront le permite establecer su nivel de acceso mientras los crear, lo que le puede ahorrar tiempo.
 
 
@@ -48,22 +48,20 @@ As an Adobe administrator, you can add users in Adobe Workfront by adding them t
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Plan de Adobe Workfront</td> 
-   <td>Cualquiera</td> 
+   <td>paquete de Adobe Workfront</td> 
+   <td><p>Cualquiera</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licencia de Adobe Workfront</td> 
-   <td><p>Nuevo: estándar</p><p>O</p><p>Actual: plan</p></td> 
+   <td>Licencia de Adobe Workfront</td> 
+   <td><p>Estándar</p><p>Plan</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraciones de nivel de acceso</td> 
+   <td>Configuraciones de nivel de acceso</td> 
    <td> <p>Debe tener uno de los siguientes elementos:</p> 
     <ul> 
      <li> <p>El nivel de acceso del administrador del sistema. </li> 
@@ -73,7 +71,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  </tbody> 
 </table>
 
-Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

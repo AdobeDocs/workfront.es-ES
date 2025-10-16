@@ -4,10 +4,10 @@ product-area: reporting
 navigation-topic: calculate-custom-data-reports
 title: Información general de las expresiones de datos calculados
 description: Puede utilizar expresiones de datos para definir campos de datos personalizados calculados en Adobe Workfront. Las expresiones calculadas conectan los campos de Workfront existentes en las instrucciones que generan un nuevo campo.
-author: Courtney, Lisa
+author: Jenny, Lisa
 feature: Reports and Dashboards
 exl-id: cfb3ace9-76c3-4006-878f-e2ad25ffa03b
-source-git-commit: 36cd1c23dfb6e01dc1016a6a12ae47e4f9172d20
+source-git-commit: a1ead6d0c1c85bfbe6d7302506743db8d8b3e205
 workflow-type: tm+mt
 source-wordcount: '2551'
 ht-degree: 88%

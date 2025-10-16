@@ -6,10 +6,10 @@ description: Puede vincular problemas de  [!DNL Jira]  a tareas o problemas de  
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 1c37f361-e866-4ac6-b672-408848a80ed6
-source-git-commit: 064418302767ad20e176080ba9a12db548750f3c
+source-git-commit: b1b55b8046aa771abb2cceda333940ccf827356a
 workflow-type: tm+mt
-source-wordcount: '1324'
-ht-degree: 53%
+source-wordcount: '1378'
+ht-degree: 52%
 
 ---
 
@@ -23,9 +23,9 @@ ht-degree: 53%
 >
 >Recomendamos utilizar la automatización e integración de Workfront para las necesidades de integración de su organización con Jira.
 >
->Para obtener una descripción general de la automatización e integración de Workfront, consulte [Información general de Adobe Workfront Fusion](https://experienceleague.adobe.com/es/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+>Para obtener una descripción general de la automatización e integración de Workfront, consulte [Información general de Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 >
->Para obtener información sobre las capacidades específicas de los módulos de integración y automatización de Workfront para Jira, consulte [Módulos de software de Jira](https://experienceleague.adobe.com/es/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/jira-software-modules).
+>Para obtener información sobre las capacidades específicas de los módulos de integración y automatización de Workfront para Jira, consulte [Módulos de software de Jira](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/jira-software-modules).
 
 <!--
 
@@ -37,9 +37,9 @@ ht-degree: 53%
 >
 >Eight ready-to-use Workfront Automation and Integration templates for Jira will be available by August to help replicate common workflows and accelerate implementation. Templates are fully customizable to meet specific business needs and can be extended as requirements evolve. 
 > 
->For an overview of Workfront Automation and Integration, see [Adobe Workfront Fusion overview](https://experienceleague.adobe.com/es/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview). 
+>For an overview of Workfront Automation and Integration, see [Adobe Workfront Fusion overview](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview). 
 >
->For information about the specific capabilities of the Workfront Automation and Integration modules for Jira, see [Jira Software modules](https://experienceleague.adobe.com/es/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/jira-software-modules). 
+>For information about the specific capabilities of the Workfront Automation and Integration modules for Jira, see [Jira Software modules](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/jira-software-modules). 
 
 -->
 
@@ -49,8 +49,6 @@ Solo se puede vincular un elemento de [!DNL Workfront] a un elemento de [!DNL Ji
 
 ## Requisitos de acceso
 
-Debe tener lo siguiente:
-
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
 <table style="table-layout:auto"> 
@@ -58,35 +56,51 @@ Debe tener lo siguiente:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://business.adobe.com/es/products/workfront/pricing.html" target="_blank">[!DNL [!DNL Adobe Workfront] plan]</a></td> 
-   <td> <p>[!UICONTROL Pro] o superior</p> </td> 
+   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td><p>Cualquiera</p>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Información general sobre las licencias de [!DNL Workfront]</a></td> 
-   <td> 
-   <p>Nuevo: estándar<p>
-   <p>O</p>
-   <p>Actual: plan </p>
-    </td> 
+   <td role="rowheader">Licencia de Adobe Workfront</td> 
+   <td><p>Estándar </p>
+       <p>Plan </p>
+   </td>
   </tr> 
   <tr> 
    <td role="rowheader">Acceso a Jira</td> 
-   <td> <p>Acceso de administrador del sistema</p> <p><b>IMPORTANTE</b>
-
-Recomendamos que cree cuentas de administrador del sistema separadas en [!DNL Jira] y [!DNL Workfront] para dedicar a esta integración, en lugar de usar cuentas existentes que puedan estar asociadas a usuarios.</p> </td>
-</tr> 
+   <td> <p>Acceso de administrador del sistema</p> <p>Importante: Se recomienda crear cuentas de administrador del sistema independientes en Jira y Workfront para dedicarlas a esta integración, en lugar de utilizar las existentes que podrían adjuntarse a los usuarios.</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso</td> 
-   <td> <p>Debe ser administrador de [!DNL Workfront]. Para obtener información sobre [!DNL Workfront] administradores, consulte <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Conceder acceso administrativo completo a un usuario</a>.</p> <p><b>NOTA</b>
-
-Si todavía no tiene acceso, pregunte al administrador de [!DNL Workfront] si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de [!DNL Workfront] puede modificar su nivel de acceso, consulte <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creación o modificación de niveles de acceso personalizados</a>.</p> </td>
-</tr> 
+   <td> <p>Debe ser administrador de Workfront.</p> </td> 
+  </tr> 
  </tbody> 
 </table>
 
-Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
+
+## Instalación de [!DNL Workfront] para [!DNL Jira]
+
+Instalar [!DNL Workfront] para [!DNL Jira] OnDemand es idéntico a instalarlo en una instancia de [!DNL Jira] Server.
+
+Debe ser administrador de [!DNL Jira] para instalar el complemento de [!DNL Workfront].
+
+Si no es administrador de [!DNL Jira], puede buscar el complemento de [!DNL Workfront] y solicitar que se lo instalen. Su solicitud se envía al administrador de [!DNL Jira] para su aprobación e instalación.
+
+Para obtener más información sobre la solicitud de instalación de un complemento en la aplicación [!DNL Jira], consulte [Administrar solicitudes de usuario para complementos.](https://confluence.atlassian.com/upm/managing-user-requests-for-add-ons-781394968.html?lang=es)
+
+Para instalar [!DNL Workfront for Jira]:
+
+1. Inicie sesión en [!DNL Jira] como administrador de [!DNL Jira].
+1. Busque el complemento de **[!DNL Workfront for Jira]** en [[!DNL Atlassian Marketplace]](https://marketplace.atlassian.com/apps/1218653/workfront-for-jira?hosting=cloud&tab=overview).
+
+1. Haga clic en **[!UICONTROL Obtenerlo ahora]** para instalarlo.
+
+   Una vez finalizada la instalación, puede iniciar sesión en [!DNL Workfront] desde [!DNL Jira] y configurar la integración.
+
+   Para obtener más información, consulte [Configuración de Adobe Workfront para Jira](../../workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md).
 
 ## Requisitos previos
 

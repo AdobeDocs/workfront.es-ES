@@ -5,10 +5,10 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: edd2c58a-f912-4638-b6a3-ff3b1b622f48
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: a42a167447d2f11b5502e4a0953b5e7eec2e67b1
 workflow-type: tm+mt
-source-wordcount: '627'
-ht-degree: 1%
+source-wordcount: '604'
+ht-degree: 40%
 
 ---
 
@@ -20,56 +20,35 @@ Puede ver y editar la página Detalles del grupo para un grupo o subgrupo que ad
 * Nombres del coordinador empresarial y de los administradores del grupo
 * Una opción que le permite convertir el grupo y sus subgrupos en públicos o privados
 
-  <!--
-  <li>An option that allows you to deactivate or reactivate a group and its subgroups.
-  DRAFTED IN FLARE:
-  Make this change when Callisto adds the
-  <b>Is active</b>
-   option to the Details pag
-  </li>
-  -->
-
 Para obtener información acerca de otras formas de administrar un grupo, vea [Crear un grupo](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md).
 
 Para obtener información acerca de cómo desactivar o reactivar un grupo, vea [Desactivar o reactivar un grupo](../../../administration-and-setup/manage-groups/create-and-manage-groups/deactivate-or-reactivate-a-group.md).
 
-<!--
-DRAFTED IN FLARE:
-Delete this paragraph when Callisto adds the
-<b>Is active</b>
- option to the Details pag
--->
-
 ## Requisitos de acceso
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
-
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plan de Adobe Workfront</td> 
-   <td>Cualquiera</td> 
+   <td>paquete de Adobe Workfront</td> 
+   <td><p>Cualquiera</p></td> 
   </tr> 
   <tr> 
+   <td>Licencia de Adobe Workfront</td> 
+   <td><p>Estándar</p>
+       <p>Plan</p></td>
+  </tr>
   <tr> 
-   <td role="rowheader">Licencia de Adobe Workfront</td> 
-   <td><p>Nuevo: estándar</p>
-       <p>O</p>
-       <p>Actual: plan</p></td>
-  </tr> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Configuraciones de nivel de acceso</td> 
+   <td>Configuraciones de nivel de acceso</td> 
    <td>Debe ser administrador de grupo del grupo o administrador del sistema.</td>
-  </tr> 
+  </tr>
  </tbody> 
 </table>
 
-Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -95,11 +74,11 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">Activo</td> 
-      <td> <p>(Habilitado de forma predeterminada) Activa el grupo en la instancia de Workfront.</p> <p>En campos de escritura anticipada como el que se muestra a continuación, cuando los usuarios normales buscan un grupo para adjuntarlo a un objeto o compartirlo, solo se muestran en la lista los grupos activos.</p> <p> <img src="assets/group-type-aheads.jpg"> </p> <p>Para optimizar esto para los usuarios, puede deshabilitar la opción Está activo para los grupos que no están en uso actualmente.</p> <p>Puede ver, filtrar y agrupar fácilmente la lista Grupos en función del estado activo o inactivo mediante este campo. Para obtener información acerca del uso de vistas, filtros y agrupaciones en listas, vea <a href="../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md" class="MCXref xref">Elementos de informes: filtros, vistas y agrupaciones</a>.</p> <p>Para obtener información acerca de los grupos inactivos, vea la sección <a href="../../../administration-and-setup/manage-groups/create-and-manage-groups/deactivate-or-reactivate-a-group.md#inactive" class="MCXref xref">Consideraciones para grupos inactivos</a> en el artículo <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/delete-or-deactivate-a-custom-form.md" class="MCXref xref">Eliminar o desactivar un formulario personalizado</a>.</p> </td> 
+      <td> <p>(Habilitado de forma predeterminada) Activa el grupo en la instancia de Workfront.</p> <p>En campos de escritura anticipada como el que se muestra a continuación, cuando los usuarios normales buscan un grupo para adjuntarlo a un objeto o compartirlo, solo aparecen en la lista los grupos activos.</p> <p> <img src="assets/group-type-aheads.jpg"> </p> <p>Para facilitar esta tarea a los usuarios, puede deshabilitar la opción Está activo para los grupos que no se estén utilizando en ese momento.</p> <p>Puede ver, filtrar y agrupar fácilmente la lista Grupos en función del estado activo o inactivo mediante este campo. Para obtener información acerca del uso de vistas, filtros y agrupaciones en listas, consulte <a href="../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md" class="MCXref xref">Elementos para la creación de informes: filtros, vistas y agrupaciones</a>.</p> <p>Para obtener información acerca de los grupos inactivos, vea la sección <a href="../../../administration-and-setup/manage-groups/create-and-manage-groups/deactivate-or-reactivate-a-group.md#inactive" class="MCXref xref">Consideraciones para grupos inactivos</a> en el artículo <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/delete-or-deactivate-a-custom-form.md" class="MCXref xref">Eliminar o desactivar un formulario personalizado</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Accesibilidad del grupo</td> 
-      <td> <p>(Disponible únicamente si visualiza los detalles de un grupo, no de un subgrupo). Habilite o deshabilite la opción <strong>Convertir este grupo y los subgrupos en privados</strong>.</p> <p>En el caso de los grupos públicos, cualquier usuario (dentro o fuera del grupo) que tenga acceso de usuario de edición puede agregar el grupo al perfil de otros usuarios. No pueden hacerlo para un grupo privado.</p> <p>Solo puede editar esta opción en el grupo principal superior de una jerarquía de grupos que tenga más de un nivel. Todos los subgrupos del grupo principal heredan su configuración.</p> </td> 
+      <td> <p>(Disponible únicamente si visualiza los detalles de un grupo, no de un subgrupo). Habilite o deshabilite la opción <strong>Convertir este grupo y los subgrupos en privados</strong>.</p> <p>En el caso de los grupos públicos, cualquier usuario (dentro o fuera del grupo) que tenga acceso de usuario de edición puede añadir el grupo al perfil de otros usuarios. No pueden hacerlo para un grupo privado.</p> <p>Solo puede editar esta opción en el grupo principal superior de una jerarquía de grupos que tenga más de un nivel. Todos los subgrupos del grupo principal heredan su configuración.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Partes interesadas del grupo</td> 

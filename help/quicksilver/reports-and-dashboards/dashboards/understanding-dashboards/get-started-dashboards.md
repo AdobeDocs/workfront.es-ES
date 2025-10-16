@@ -7,10 +7,10 @@ description: El propósito de un panel de control es proporcionar un acceso ráp
 author: Nolan
 feature: Reports and Dashboards
 exl-id: b0e73f2d-bb50-4476-bb24-f0378807b2fe
-source-git-commit: 58567104d88e7e1363d4196aec8a36ee0566b95a
+source-git-commit: c8b7ad473b0c2120ef5ea52374b3501ad6f553f1
 workflow-type: tm+mt
-source-wordcount: '694'
-ht-degree: 89%
+source-wordcount: '693'
+ht-degree: 88%
 
 ---
 
@@ -24,43 +24,34 @@ El propósito de un panel de control es proporcionar un acceso rápido a la info
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
-Debe tener lo siguiente:
 
-<table style="table-layout:auto">
+<table style="table-layout:auto"> 
  <col> 
- </col> 
  <col> 
- </col> 
  <tbody> 
   <tr> 
-   <td> <p><strong>Plan de Adobe Workfront</strong></p> </td> 
-   <td>Cualquiera</td> 
+   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Licencia de Adobe Workfront</strong></p> </td> 
-      <td> 
-      <p>Nuevo:</p>
-         <ul>
-         <li><p>Colaborador o superior</p></li>
-         </ul>
-      <p>Actual:</p>
-         <ul>
-         <li><p>Revisión o superior</p></li>
-         </ul>
+   <td role="rowheader">Licencia de Adobe Workfront</td> 
+   <td> 
+      <p>Colaborador o superior</p>
+      <p>Revisión o superior</p>
    </td> 
   </tr> 
   <tr> 
-   <td><strong>Nivel de acceso</strong> </td> 
-   <td> <p>Acceso de visualización o superior a informes, paneles de control y calendarios</p> </td> 
-  </tr> 
+   <td role="rowheader">Configuraciones de nivel de acceso</td> 
+   <td> <p>Acceso de visualización a informes, paneles de control y calendarios</p></td> 
+  </tr>  
   <tr> 
-   <td> <p><strong>Permisos de objeto</strong> </p> </td> 
-   <td> <p>Permisos de visualización al panel de control</p>  </td> 
+   <td role="rowheader">Permisos de objeto</td> 
+   <td> <p>Permisos de visualización al panel de control</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

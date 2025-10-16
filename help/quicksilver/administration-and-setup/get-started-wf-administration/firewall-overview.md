@@ -9,10 +9,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 172999e7-fb05-49a6-ad57-84b59e80a28e
-source-git-commit: 1c11be2d6de471bf456107b5c86a599766583f74
+source-git-commit: 46e072d40cc881c3a903c8fd51475dc185f1f849
 workflow-type: tm+mt
 source-wordcount: '717'
-ht-degree: 97%
+ht-degree: 89%
 
 ---
 
@@ -53,11 +53,11 @@ Proporcione al administrador de red la siguiente información:
   </tr> 
   <tr> 
    <td role="rowheader">Su clúster</td> 
-   <td>Para localizar el clúster de su organización, consulte <a href="#view-your-organization-s-cluster-and-workfront-plan" class="MCXref xref">Ver el clúster de su organización y el plan de Workfront</a>.</td> 
+   <td>Para localizar el clúster de su organización, consulte <a href="#view-your-organization-s-cluster-and-workfront-package" class="MCXref xref">Ver el clúster de su organización y el paquete de Workfront</a>.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Su plan en Workfront</td> 
-   <td> <p>Para encontrar el plan de su organización, consulte <a href="#view-your-organization-s-cluster-and-workfront-plan" class="MCXref xref">Ver el clúster de su organización y el plan de Workfront.</a></p> </td> 
+   <td role="rowheader">Su paquete de Workfront</td> 
+   <td> <p>Para encontrar el paquete de su organización, consulte <a href="#view-your-organization-s-cluster-and-workfront-package" class="MCXref xref">Ver el clúster de su organización y el paquete de Workfront.</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Su dominio</td> 
@@ -93,7 +93,7 @@ Proporcione al administrador de red la siguiente información:
 >
 >Si añade cualquiera de estos productos, integraciones o funcionalidades en una fecha posterior, debe ponerse en contacto con el administrador de red para que pueda ajustar la lista de permitidos.
 
-### Ver el clúster de su organización y el plan de Workfront {#view-your-organization-s-cluster-and-workfront-plan}
+### Vea el clúster y el paquete de Workfront de su organización {#view-your-organization-s-cluster-and-workfront-package}
 
 {{step-1-to-setup}}
 
@@ -104,8 +104,8 @@ Proporcione al administrador de red la siguiente información:
 
    ![Localizar clúster](assets/locate-cluster.png)
 
-1. Para ver su plan de Workfront, seleccione **Licencias**.
+1. Para ver el paquete de Workfront, seleccione **Licencias**.
 
-   El plan se muestra cerca de la esquina superior derecha de la página.
+   El paquete se muestra cerca de la esquina superior derecha de la página.
 
    ![Buscar plan](assets/locate-plan.png)

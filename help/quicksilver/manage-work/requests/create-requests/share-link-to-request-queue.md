@@ -1,14 +1,14 @@
 ---
 title: Compartir un vínculo en una cola de solicitudes
 description: Puede compartir un vínculo a una cola de solicitudes, a un grupo de temas o a un tema de la cola mientras envía la solicitud.
-author: Alina
+author: Becky
 draft: Probably
 feature: Work Management
 exl-id: 91e456ae-a192-4f3a-afff-b3c48854e295
-source-git-commit: 0ffae8ed285f6e9164a239552feb90465bea3cca
+source-git-commit: 9cdf3d78e1d19f3d581f8d527919a608c5cc0ddc
 workflow-type: tm+mt
-source-wordcount: '311'
-ht-degree: 24%
+source-wordcount: '288'
+ht-degree: 16%
 
 ---
 
@@ -24,21 +24,18 @@ Puede compartir un vínculo a una cola de solicitudes, a un grupo de temas o a u
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Plan de Adobe Workfront</td> 
+   <td role="rowheader">paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licencia de Adobe Workfront</td> 
-   <td> <p>Nuevo: colaborador o superior</p>
-   O
-   <p>Actual: solicitud o superior</p>
+   <td> <p>Colaborador o superior</p>
+   <p>Solicitud o superior</p>
     </td> 
   </tr> 
   <tr> 
@@ -52,7 +49,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  </tbody> 
 </table>
 
-Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

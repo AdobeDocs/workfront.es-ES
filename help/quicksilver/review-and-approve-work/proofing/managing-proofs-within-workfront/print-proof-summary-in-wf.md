@@ -6,10 +6,10 @@ description: Puede imprimir un resumen de prueba, guardarlo como PDF o exportarl
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 129c8e6b-5c66-445b-a5d0-7b1460aeabd6
-source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
+source-git-commit: ac714bd5a5259d6f995ac445efbd0125e07022cb
 workflow-type: tm+mt
-source-wordcount: '772'
-ht-degree: 93%
+source-wordcount: '670'
+ht-degree: 91%
 
 ---
 
@@ -21,32 +21,33 @@ Puede imprimir un resumen de prueba, guardarlo como PDF o exportarlo como archiv
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Plan de Adobe Workfront*</td> 
-   <td> <p>Plan actual: pro o superior</p> <p>o</p> <p>Plan heredado: select o premium</p> <p>Para obtener más información sobre el acceso de revisión con los diferentes planes, consulte <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Acceso a la funcionalidad de revisión en Workfront</a>.</p> </td> 
+   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licencia de Adobe Workfront*</td> 
-   <td> <p>Plan actual: trabajo o plan</p> <p>Plan heredado: cualquiera (debe tener la revisión habilitada para el usuario)</p> </td> 
+   <td role="rowheader">Licencia de Adobe Workfront</td> 
+   <td> 
+   <p>Estándar</p>
+   <p>Trabajo o plan</p>
+    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Perfil de permiso de prueba </td> 
    <td>Administrador o superior</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraciones de nivel de acceso*</td> 
-   <td> <p>Acceso de edición a documentos</p> <p>Nota: Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creación o modificación de niveles de acceso personalizados</a>.</p> </td> 
+   <td role="rowheader">Configuraciones de nivel de acceso</td> 
+   <td> <p>Acceso de edición a documentos</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qué plan, función o perfil de permiso de revisión tiene, póngase en contacto con su administrador de Workfront o de Workfront Proof.
+Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -59,7 +60,7 @@ Puede imprimir un resumen de prueba directamente desde la lista de documentos.
 >* No se admiten resúmenes de más de 1 GB.
 >* No se pueden imprimir varios resúmenes de prueba al mismo tiempo desde la lista de documentos.
 
-1. En la lista de documentos que contiene la prueba, pase el ratón sobre la fila que contiene el documento y haga clic en **Resumen de impresión**.
+1. En la lista de documentos que contiene la prueba, pase el puntero por encima de la fila que contiene el documento y haga clic en **Resumen de impresión**.
 
    ![proof_printsummary.png](assets/proof-printsummary-350x166.png)
 
@@ -120,7 +121,7 @@ Puede imprimir un resumen de prueba directamente desde la lista de documentos.
 
 Puede exportar un resumen de prueba para contenido estático como archivo XLS o como archivo PDF. Las exportaciones de prueba solo incluyen el contenido de la prueba.
 
-1. En la lista de documentos que contiene la prueba, pase el ratón sobre la fila que contiene el documento y haga clic en **Resumen de impresión**.
+1. En la lista de documentos que contiene la prueba, pase el puntero por encima de la fila que contiene el documento y haga clic en **Resumen de impresión**.
 
    ![proof_printsummary.png](assets/proof-printsummary-350x166.png)
 

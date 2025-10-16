@@ -8,10 +8,10 @@ feature: System Setup and Administration
 role: Admin
 author: Lisa
 exl-id: 149c08de-fd3a-465a-afd1-0b53012d30d8
-source-git-commit: dc820b4012fec494ce5ebb1baefb4ee0df214916
+source-git-commit: dadee63c9c7bfb418566d19ee559f1f2a222cb05
 workflow-type: tm+mt
-source-wordcount: '650'
-ht-degree: 56%
+source-wordcount: '626'
+ht-degree: 54%
 
 ---
 
@@ -44,32 +44,27 @@ La forma en que se configuran los tipos de cambio afecta a la posibilidad de que
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Plan de Adobe Workfront</td> 
-   <td>Cualquiera</td> 
+   <td>paquete de Adobe Workfront</td> 
+   <td><p>Cualquiera</p></td> 
   </tr> 
   <tr> 
-  <tr> 
-   <td role="rowheader">Licencia de Adobe Workfront</td> 
-   <td><p>Nuevo: estándar</p>
-       <p>O</p>
-       <p>Actual: plan</p></td>
-  </tr> 
+   <td>Licencia de Adobe Workfront</td> 
+   <td><p>Estándar</p>
+       <p>Plan</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraciones de nivel de acceso</td> 
-   <td>[!UICONTROL System Administrator]</td>
+   <td>Configuraciones de nivel de acceso</td> 
+   <td>Administrador del sistema</td> 
   </tr> 
  </tbody> 
 </table>
 
-Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

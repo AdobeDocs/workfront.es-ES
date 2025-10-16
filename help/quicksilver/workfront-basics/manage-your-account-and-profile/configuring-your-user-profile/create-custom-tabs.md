@@ -6,10 +6,10 @@ description: La información que ve en la aplicación web de  [!DNL Workfront]  
 author: Becky and Lisa
 feature: Get Started with Workfront
 exl-id: 68f4b83b-a8b4-4304-930f-62551cb06a92
-source-git-commit: 0efbc6051443d8e0ed96512b72d0949b288f7c2d
+source-git-commit: fb555df123701c62e9a0f2d451ad6dcd16586595
 workflow-type: tm+mt
-source-wordcount: '646'
-ht-degree: 73%
+source-wordcount: '638'
+ht-degree: 72%
 
 ---
 
@@ -44,34 +44,32 @@ La siguiente tabla enumera todas las [!DNL Workfront] áreas y objetos que conti
 
 ## Requisitos de acceso
 
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
-<table style="table-layout:auto"> 
+<table style="table-layout:auto">
  <col> 
- </col> 
- <col> 
- </col> 
+ <col>
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
-   <td> <p>Cualquiera</p> </td> 
+   <td>paquete de Adobe Workfront</td> 
+   <td><p>Cualquiera</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licencia*</td> 
-   <td> <p>[!UICONTROL Review] o superior</p> </td> 
+   <td>Licencia de Adobe Workfront</td> 
+   <td>
+   <p>Ligero o superior</p>
+   <p>Revisión o superior</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraciones de nivel de acceso*</td> 
-   <td>[!UICONTROL Reviewer] o superior</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Permisos de objeto</td> 
-   <td>Ver acceso al tipo de objeto</td> 
+   <td>Permisos de objeto</td> 
+   <td><p>Ver acceso al tipo de objeto</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qué plan o tipo de licencia tiene, póngase en contacto con el administrador de [!DNL Workfront].
+Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Añadir un panel de control en el panel izquierdo de un objeto o área de [!DNL Workfront]
 

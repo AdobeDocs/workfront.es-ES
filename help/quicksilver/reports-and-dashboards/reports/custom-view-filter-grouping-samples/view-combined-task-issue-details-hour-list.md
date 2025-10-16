@@ -2,19 +2,19 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Ver: detalles combinados de tareas y problemas en una lista de horas"
-description: Esta vista de horas combina las columnas Nombre de tarea y Nombre de problema, así como las Horas planificadas de tarea y problema usando la etiqueta sharecol. Dado que una entrada de hora solo puede pertenecer a una tarea o a un problema, ambos objetos no pueden aparecer en la misma columna al mismo tiempo. Cada línea de la vista se rellena con la información de una tarea o de un problema.
+title: 'Ver: Detalles combinados de tareas y problemas en una lista de horas'
+description: Esta vista de horas combina las columnas de nombre de tarea y nombre de problema, así como las Horas planificadas de tarea y problema usando la etiqueta sharecol. Dado que una entrada de hora solo puede pertenecer a una tarea o a un problema, ambos objetos no pueden aparecer en la misma columna al mismo tiempo. Cada línea de la vista se rellena con la información de una tarea o de un problema.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: cf1137fd-c26a-4907-afe9-2373d3434631
-source-git-commit: ecce7484423419823effa2cb41da892ba3fb207c
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '340'
-ht-degree: 0%
+source-wordcount: '326'
+ht-degree: 65%
 
 ---
 
-# Ver: detalles combinados de tareas y problemas en una lista de horas
+# Vista: detalles combinados de tareas y problemas en una lista de horas
 
 <!--Audited:11/2024-->
 
@@ -26,49 +26,42 @@ Para obtener más información sobre la etiqueta `sharecol`, consulte [Ver: comb
 
 ## Requisitos de acceso
 
-+++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
-
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plan de Adobe Workfront</td> 
+   <td role="rowheader">paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licencia de Adobe Workfront*</td> 
+   <td role="rowheader">Licencia de Adobe Workfront</td> 
    <td> 
-    <p>Nuevo:</p>
-   <ul><li><p>Colaborador para modificar un filtro </p></li>
-   <li><p>Estándar para modificar un informe</p></li> </ul>
-
-<p>Actual:</p>
-   <ul><li><p>Solicitud para modificar un filtro </p></li>
-   <li><p>Plan para modificar un informe</p></li> </ul></td> 
+   <p>Colaborador o solicitud para modificar un filtro </p>
+   <p>Estándar o Plan para modificar un informe</p>
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso</td> 
-   <td> <p>Editar el acceso a Informes, Tableros y Calendarios para modificar un informe</p> <p>Editar el acceso a filtros, vistas y agrupaciones para modificar un filtro</p> </td> 
+   <td> <p>Editar el acceso a Informes, Paneles de control y Calendarios para modificar un informe</p> <p>Acceso de edición a filtros, vistas y agrupaciones para modificar un filtro</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Administración de permisos de un informe</p>  </td> 
+   <td> <p>Permisos de administración para un informe</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Ver los detalles combinados de tareas y problemas en una lista de horas
+## Ver detalles combinados de tareas y problemas en una lista de horas
 
-1. Ir a una lista de horas.
-1. En el menú desplegable **Vista**, haz clic en **Nueva vista**.
-1. En el área **Vista previa de columna**, elimine todas las columnas excepto una.
+1. Vaya a una lista de horas.
+1. En el menú desplegable **Vista**, haga clic en **Nueva vista**.
+1. En el área **Vista previa de columnas**, elimine todas las columnas excepto una.
 1. Haga clic en el encabezado de la columna restante y, a continuación, haga clic en **Cambiar al modo de texto** > **Editar modo de texto**.
 1. Elimine el texto que encuentre en el cuadro **Editar modo de texto** y reemplácelo por el siguiente código:
 

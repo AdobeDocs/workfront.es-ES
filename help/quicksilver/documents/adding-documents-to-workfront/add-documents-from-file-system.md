@@ -6,10 +6,10 @@ description: Puede agregar documentos a proyectos, tareas o problemas en varias 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 0a5f82b2-f86e-4ffa-b3a6-18221dd0e158
-source-git-commit: a69193eb7a98949222f71561b44d8fecea4dd496
+source-git-commit: 430751f0e38c6c45145c965398990ee3652f36fe
 workflow-type: tm+mt
-source-wordcount: '763'
-ht-degree: 18%
+source-wordcount: '715'
+ht-degree: 12%
 
 ---
 
@@ -31,28 +31,28 @@ Si necesita información sobre cómo cargar nuevas versiones de un documento en 
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
-Debe tener lo siguiente:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Plan de Adobe Workfront*</td> 
+   <td role="rowheader">paquete de Adobe Workfront</td> 
    <td> <p> Cualquiera</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licencias de Adobe Workfront*</td> 
-   <td> <p>Solicitud o superior</p> </td> 
+   <td> 
+   <p>Colaborador o superior</p> 
+   <p>Solicitud o superior</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraciones de nivel de acceso*</td> 
-   <td> <p>Acceso de edición a documentos</p> <p>Nota: Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, consulte <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
+   <td role="rowheader">Configuraciones de nivel de acceso</td> 
+   <td> <p>Acceso de edición a documentos</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de Workfront.
+Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

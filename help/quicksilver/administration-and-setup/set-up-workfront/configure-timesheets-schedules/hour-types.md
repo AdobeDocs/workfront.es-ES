@@ -9,10 +9,10 @@ author: Alina, Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: ad0d141b-3e56-4bb1-be24-4dd9203e7881
-source-git-commit: 0c45c768be1dda579e507f5f6ff4b127021a5f73
+source-git-commit: e8c89b68a022ae1c0cf5da20257cd8bc36e94d4c
 workflow-type: tm+mt
-source-wordcount: '1129'
-ht-degree: 4%
+source-wordcount: '1127'
+ht-degree: 5%
 
 ---
 
@@ -57,29 +57,29 @@ Para obtener información sobre cómo registrar horas y asociarlas a tipos de ho
 
 ## Requisitos de acceso
 
-+++ Amplíe para ver los requisitos de acceso.
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Plan de Adobe Workfront</td> 
-   <td>Cualquiera</td> 
+   <td>[!DNL Adobe Workfront] paquete</td> 
+   <td><p>Cualquiera</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licencia de Adobe Workfront*</td> 
-   <td> <p>Estándar o Plan</p>
-   </td> 
+   <td>[!DNL Adobe Workfront] licencia</td> 
+   <td><p>[!UICONTROL Standard]</p>
+       <p>[!UICONTROL Plan]</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Nivel de acceso</td> 
-   <td>Administrador del sistema</td>
+   <td>Configuraciones de nivel de acceso</td> 
+   <td>[!UICONTROL System Administrator]</td> 
   </tr> 
  </tbody> 
 </table>
 
-*Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

@@ -2,15 +2,15 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Ver: Detalles de la predecesora"
+title: 'Ver: Detalles de predecesoras'
 description: Esta vista de tareas muestra detalles de las tareas predecesoras de las tareas mediante una vista de colección. En una vista de colección, puede mostrar información sobre objetos que están en una relación "uno a varios". En este caso, cada tarea (una) puede tener varias predecesoras (muchas). La vista muestra el nombre de las tareas, así como los nombres de sus predecesoras, los nombres de proyecto de sus predecesoras, las fechas planificadas de finalización de sus predecesoras y los estados de sus predecesoras.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 0187da94-4895-47b1-914f-284fed9e0fd0
-source-git-commit: 6405c01c8b1d842a4175f9caa18a7ed31316a3a1
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '318'
-ht-degree: 0%
+source-wordcount: '297'
+ht-degree: 30%
 
 ---
 
@@ -28,53 +28,42 @@ Para obtener información acerca de las referencias a colecciones en los informe
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plan de Adobe Workfront</td> 
+   <td role="rowheader">paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licencia de Adobe Workfront</td> 
-   <td> <p> Actual: 
-   <ul>
-   <li>Solicitud para modificar una vista</li> 
-   <li>Plan para modificar un informe</li>
-   </ul>
-     </p>
-     <p> Nuevo: 
-   <ul>
-   <li>Colaborador para modificar una vista</li> 
-   <li>Estándar para modificar un informe</li>
-   </ul>
-     </p>
-    </td> 
+   <td> 
+   <p>Colaborador o solicitud para modificar una vista </p>
+   <p>Estándar o Plan para modificar un informe</p>
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraciones de nivel de acceso*</td> 
-   <td> <p>Editar el acceso a Informes, Tableros y Calendarios para modificar un informe</p> <p>Editar el acceso a filtros, vistas y agrupaciones para modificar una vista</p> </td> 
+   <td role="rowheader">Configuraciones de nivel de acceso</td> 
+   <td> <p>Editar el acceso a Informes, Paneles de control y Calendarios para modificar un informe</p> <p>Edición del acceso a Filtros, Vistas y Agrupaciones para modificar una vista</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Administración de permisos de un informe</p> </td> 
+   <td> <p>Permisos de administración para un informe</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
 
 +++
 
-## Ver detalles del predecesor
+## Ver detalles de la predecesora
 
-1. Ir a una lista de tareas.
+1. Vaya a una lista de tareas.
 1. En el menú desplegable **Vista**, seleccione **Nueva vista**.
 
-1. En el área **Vista previa de columna**, elimine todas las columnas excepto una.
+1. En el área **Vista previa de columnas**, elimine todas las columnas excepto una.
 1. Haga clic en el encabezado de la columna restante y haga clic en **Cambiar al modo de texto** > **Editar modo de texto**.
 1. Elimine el texto que encuentre en el cuadro **Editar modo de texto** y reemplácelo por el siguiente código:
 

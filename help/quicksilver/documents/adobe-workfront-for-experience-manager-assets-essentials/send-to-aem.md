@@ -6,10 +6,10 @@ description: Es posible enviar documentos desde Workfront a Experience Manager A
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 7942e77b-9466-4dff-9737-97b17647ac48
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 430751f0e38c6c45145c965398990ee3652f36fe
 workflow-type: tm+mt
-source-wordcount: '919'
-ht-degree: 99%
+source-wordcount: '868'
+ht-degree: 98%
 
 ---
 
@@ -31,37 +31,40 @@ Los campos de metadatos se asignan por primera vez al enviar un recurso desde Wo
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
-Es necesario tener el siguiente acceso para completar los pasos de este artículo:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://business.adobe.com/es/products/workfront/pricing.html" target="_blank">Plan de Adobe Workfront</a>*</td> 
+   <td role="rowheader">paquete de Adobe Workfront</td> 
    <td> <p> Cualquiera</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Información general sobre licencias heredadas</a>*</td> 
-   <td> <p>Solicitud o superior</p> </td> 
+   <td role="rowheader">Licencias de Adobe Workfront</td> 
+   <td> 
+   <p>Colaborador o superior</p> 
+   <p>Solicitud o superior</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Producto</td> 
-   <td>Debe tener Experience Manager as a Cloud Service o Assets Essentials, además de estar añadido al producto como usuario en Admin Console.
-</td> 
+   <td role="rowheader">Productos adicionales</td> 
+   <td>Debe tener Experience Manager as a Cloud Service o Assets Essentials, además de estar añadido al producto como usuario en Admin Console.</td> 
   </tr> 
+   <tr> 
+    <td role="rowheader">Permisos de Experience Manager</td> 
+    <td>Debe tener acceso de escritura a la carpeta.</td> 
+   </tr>
   <tr> 
-   <td role="rowheader">Configuraciones de nivel de acceso*</td> 
-   <td> <p>Acceso de edición a documentos</p> <p>Nota: Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, consulte <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
+   <td role="rowheader">Configuraciones de nivel de acceso</td> 
+   <td> <p>Acceso de edición a documentos</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Acceso de visualización o superior en Documentos</p> <p>Para obtener información sobre cómo solicitar acceso adicional, consulte <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a objetos </a>.</p> </td> 
+   <td> <p>Acceso de visualización o superior</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su administrador de Workfront.
+Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

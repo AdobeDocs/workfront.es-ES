@@ -6,10 +6,10 @@ description: Puede desactivar los equipos que ya no utilice y conservar los dato
 author: Lisa
 feature: People Teams and Groups
 exl-id: 634e4c0f-aa1d-4197-92e3-54f414344ac0
-source-git-commit: 79da9f7ed5149ca33f6eaeac347188149f410695
+source-git-commit: dd47158a4c2e1b7372af6c9450b2d277d1ca8c6f
 workflow-type: tm+mt
-source-wordcount: '460'
-ht-degree: 0%
+source-wordcount: '444'
+ht-degree: 68%
 
 ---
 
@@ -28,13 +28,13 @@ Puede desactivar los equipos que ya no utilice y conservar los datos históricos
     </ul> 
     <ul> 
      <li> <p>Cuadro de diálogo Compartir para objetos</p> </li> 
-     <li> <p>[!UICONTROL Perfil de usuario]*</p> </li> 
+     <li> <p>[!UICONTROL User Profile]*</p> </li> 
     </ul> </td> 
    <td> 
     <ul> 
      <li> <p>Menú desplegable de selección principal en el área de [!UICONTROL Teams]</p> </li> 
-     <li> <p>[!UICONTROL Asignaciones] typeforward</p> </li> 
-     <li> <p>Cuadro de diálogo Agregar al panel  en un proyecto</p> </li> 
+     <li> <p>Escritura anticipada de [!UICONTROL Assignments]</p> </li> 
+     <li> <p>Cuadro de diálogo del tablero [!UICONTROL Add to Kanban] en un proyecto</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -46,23 +46,20 @@ Los equipos desactivados no aparecen cuando buscas un equipo, pero se mostrarán
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">plan de Adobe Workfront</td> 
+   <td role="rowheader"> <p>paquete de Adobe Workfront</p> </td> 
    <td>Cualquiera</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licencia de Adobe Workfront</td> 
    <td>
-   <p>Nuevo: estándar</p>
-   <p>o</p>
-   <p>Actual: plan</p></td>
-  </tr>
+   <p>Estándar</p>
+   <p>Plan</p></td>
+  </tr> 
   <tr>
    <td>Configuraciones de nivel de acceso</td>
    <td><p>Para desactivar un equipo, no se requiere ninguna configuración.</p>
@@ -71,7 +68,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  </tbody> 
 </table>
 
-Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -83,12 +80,12 @@ Cualquier trabajo asignado al equipo antes de la desactivación permanece asigna
 >
 >Puede crear un informe para filtrar por cualquier tarea o problema en el que el equipo desactivado aún esté asignado.
 
-Al utilizar colas de solicitudes, si desactiva un equipo asignado como equipo por defecto en una regla de enrutamiento, el equipo permanece y las solicitudes se siguen redirigiendo al equipo desactivado. Se recomienda actualizar las reglas de enrutamiento con los equipos activos antes de desactivar el equipo.
+Al utilizar colas de solicitudes, si desactiva un equipo asignado como equipo predeterminado en una regla de enrutamiento, el equipo permanece y las solicitudes se siguen redirigiendo al equipo desactivado. Se recomienda actualizar las reglas de enrutamiento con los equipos activos antes de desactivar el equipo.
 
 {{step1-to-team}}
 
 1. Haga clic en el icono **[!DNL Switch team]** y, a continuación, seleccione un nuevo equipo en el menú desplegable o busque un equipo en la barra de búsqueda.
-1. Haga clic en el menú **[!UICONTROL Más]** y luego seleccione **[!UICONTROL Editar]**.
+1. Haga clic en el menú **[!UICONTROL More]** y luego seleccione **[!UICONTROL Editar]**.
 
    ![](assets/edit-team-settings.png)
 

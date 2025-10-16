@@ -6,10 +6,10 @@ description: La configuración predeterminada de Adobe Workfront incluye un bot�
 author: Lisa
 feature: People Teams and Groups
 exl-id: 9387c5ae-2835-4d8f-80ec-22fcd16c5b6e
-source-git-commit: 79da9f7ed5149ca33f6eaeac347188149f410695
+source-git-commit: dd47158a4c2e1b7372af6c9450b2d277d1ca8c6f
 workflow-type: tm+mt
-source-wordcount: '794'
-ht-degree: 0%
+source-wordcount: '778'
+ht-degree: 15%
 
 ---
 
@@ -27,27 +27,24 @@ Puede reemplazar el botón [!DNL Work On It] por un botón [!UICONTROL Iniciar] 
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>plan de Adobe Workfront</p> </td> 
+   <td role="rowheader"> <p>paquete de Adobe Workfront</p> </td> 
    <td>Cualquiera</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licencia de Adobe Workfront</td> 
    <td>
-   <p>Nuevo: estándar</p>
-   <p>o</p>
-   <p>Actual: plan</p></td>
+   <p>Estándar</p>
+   <p>Plan</p></td>
   </tr> 
  </tbody> 
 </table>
 
-Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

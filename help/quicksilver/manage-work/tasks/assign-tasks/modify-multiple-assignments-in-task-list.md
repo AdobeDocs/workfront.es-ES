@@ -7,10 +7,10 @@ author: Lisa
 feature: Work Management, Tasks, Resource Management
 role: User
 exl-id: 04f7761f-da94-4858-85c5-8dc97bd78bee
-source-git-commit: 1211a441b542df49480d933d4c25b0c31ef0883d
+source-git-commit: d0be569333b0454e26f4d0de1078b0425cf81707
 workflow-type: tm+mt
-source-wordcount: '966'
-ht-degree: 99%
+source-wordcount: '945'
+ht-degree: 98%
 
 ---
 
@@ -34,33 +34,32 @@ Para obtener información sobre la asignación de una tarea a un recurso de una 
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Plan de Adobe Workfront</td> 
+   <td>paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licencia de Adobe Workfront</td> 
-   <td> <p>Nuevo: estándar</p>
-   <p>Actual: Trabajo o superior</p> </td> 
+   <td>Licencia de Adobe Workfront</td> 
+   <td> <p>Estándar</p>
+   <p>Trabajo o superior</p>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraciones de nivel de acceso</td> 
-   <td> <p>Editar acceso a proyectos y tareas</p> <p>Acceso de visualización o superior a los usuarios</p>  </td> 
+   <td>Configuraciones de nivel de acceso</td> 
+   <td> <p>Editar acceso a proyectos y tareas</p> <p>Acceso de visualización o superior a los usuarios</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Permisos de aportación o superiores a las tareas</p>  </td> 
-  </tr> 
- </tbody> 
+   <td>Permisos de objeto</td>
+   <td>Aportar o permisos superiores a las tareas</td>
+  </tr>
+ </tbody>
 </table>
 
-Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -140,7 +139,7 @@ When assigning users to work, their availability according to their schedules af
      >
      > * Puede asignar varios usuarios, funciones o equipos. Solo puede asignar usuarios, funciones y equipos activos.
      >   
-     > * Al añadir una asignación de usuario, observe el avatar, la función principal del usuario o su dirección de correo electrónico para distinguir entre usuarios con nombres idénticos. Los usuarios deben estar asociados con al menos una función para verla a medida que los añade. Debe tener activada la configuración Ver información de contacto en su nivel de acceso para que los usuarios vean los correos electrónicos de los usuarios. Para obtener más información, consulte [Conceder acceso a los usuarios](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
+     > * Al añadir una asignación de usuario, observe el avatar, la función principal del usuario o su dirección de correo electrónico para distinguir entre usuarios con nombres idénticos. Los usuarios deben estar asociados con al menos una función para verla a medida que los añade. Debe tener habilitada la configuración Ver información de contacto en su nivel de acceso para que los usuarios vean los correos electrónicos de los usuarios. Para obtener más información, consulte [Conceder acceso a los usuarios](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
      > 
      >   Si se asignó un usuario, una función o un equipo antes de desactivarlos, permanecen asignados al elemento de trabajo. En este caso, se recomienda lo siguiente:
      >   

@@ -6,10 +6,10 @@ description: De forma predeterminada, los usuarios solo pueden ver los objetos d
 author: Nolan
 feature: Reports and Dashboards
 exl-id: e5e2b683-876c-45b4-ab61-07b1ad0b5650
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '1193'
-ht-degree: 20%
+source-wordcount: '1185'
+ht-degree: 19%
 
 ---
 
@@ -30,43 +30,36 @@ Si ejecuta un informe con los derechos de acceso de otro usuario con acceso supe
 
 ## Requisitos de acceso
 
-+++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
-
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Plan de Adobe Workfront*</td> 
+   <td role="rowheader">paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licencia de Adobe Workfront*</td> 
-      <td> 
-      <p>Nuevo:</p>
-         <ul>
-         <li><p>Estándar</p></li>
-         </ul>
-      <p>Actual:</p>
-         <ul>
-         <li><p>Plan</p></li>
-         </ul>
+   <td role="rowheader">Licencia de Adobe Workfront</td> 
+   <td> 
+      <p>Estándar</p>
+      <p>Plan</p>
    </td>
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraciones de nivel de acceso*</td> 
-   <td> <p>Acceso de edición a informes, paneles y calendarios</p> <p>Acceso de edición a filtros, vistas y agrupaciones</p></td> 
+   <td role="rowheader">Configuraciones de nivel de acceso</td> 
+   <td> <p>Acceso de Edición a informes, paneles de control y calendarios</p> <p>Acceso de edición a filtros, vistas y agrupaciones</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Ver los permisos de un informe (para ver el informe enviado)</p><p>Administración de permisos de un informe (para ejecutar el informe)</p></td> 
+     <td> <p>Ver los permisos de un informe para ver el informe enviado</p>
+     <p>Administración de permisos de un informe para ejecutar el informe</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-*Para obtener información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

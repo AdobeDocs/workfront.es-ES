@@ -5,9 +5,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 46bcb65a-1cb7-443b-88ba-6d0e516e3050
-source-git-commit: d585b698b6c7900d861a30dc6b5e0bff6bd6d13a
+source-git-commit: 2a83e5a415ff254cf5525d6f44ecb0e447e7e70a
 workflow-type: tm+mt
-source-wordcount: '1550'
+source-wordcount: '1542'
 ht-degree: 94%
 
 ---
@@ -38,20 +38,18 @@ Como administrador de Adobe Workfront, puede crear otro administrador de Workfro
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Plan de Adobe Workfront</td> 
+   <td role="rowheader">paquete de Adobe Workfront</td> 
    <td>Cualquiera</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licencia de Adobe Workfront*</td> 
-   <td> <p>Nuevo: estándar</p>
-   <p>Actual: plan</p></td> 
+   <td role="rowheader">Licencia de Adobe Workfront</td> 
+   <td> <p>Estándar</p>
+   <p>Plan</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso</td> 
@@ -60,7 +58,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  </tbody> 
 </table>
 
-*Para obtener información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 +++
 
 ## Conceder acceso completo de administrador del sistema a un solo usuario
@@ -367,7 +365,7 @@ Los usuarios con una licencia de planificación que pueden editar la funcionalid
    <td>Administre los calendarios que crean y los que se han compartido con ellos.</td> 
   </tr> 
   <tr> 
-   <td>Paneles</td> 
+   <td>Paneles de control</td> 
    <td>Acceso total</td> 
    <td>Administre los paneles de control que crean y los que se han compartido con ellos.</td> 
   </tr> 

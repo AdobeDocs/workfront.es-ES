@@ -6,10 +6,10 @@ description: Es posible que desee cambiar el orden en el que se muestran los art
 author: Lisa
 feature: Agile
 exl-id: 7d6142d2-4e6e-4f9f-81a8-bcc666757bad
-source-git-commit: 452f8ddc5268a0d67e32090d166199f2fad7dbc7
+source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
 workflow-type: tm+mt
-source-wordcount: '273'
-ht-degree: 0%
+source-wordcount: '253'
+ht-degree: 30%
 
 ---
 
@@ -31,8 +31,6 @@ Cuando reordena columnas en el tablero [!DNL Kanban], se guardan los cambios que
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -40,29 +38,26 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
+   <td role="rowheader">paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licencia</td> 
-   <td> <p>Nuevo: [!UICONTROL Standard]</p> 
-   o
-   <p>Actual: [!UICONTROL Work] o superior</p> </td> 
+   <td role="rowheader">Licencia de Adobe Workfront</td> 
+   <td> <p>Estándar</p> 
+   <p>Trabajo o superior</p> </td> 
   </tr>
  </tbody> 
 </table>
 
-Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Reordenar historias en el tablero [!UICONTROL Kanban]
 
-Para cambiar el orden de las historias:
-
 {{step1-to-team}}
 
-1. (Opcional) Haga clic en el icono **[!UICONTROL Cambiar equipo]** ![Cambiar icono de equipo](assets/switch-team-icon.png) y, a continuación, seleccione un nuevo equipo [!UICONTROL Kanban] en el menú desplegable o busque un equipo en la barra de búsqueda.
+1. (Opcional) Haga clic en el icono **[!UICONTROL Cambiar de equipo]** ![icono Cambiar de equipo](assets/switch-team-icon.png) y, a continuación, seleccione un nuevo equipo [!UICONTROL Kanban] en el menú desplegable o busque un equipo en la barra de búsqueda.
 
 1. Vaya al tablero [!UICONTROL Kanban] que contiene las historias que desea reordenar.
 1. Arrastre un mosaico de artículo a la ubicación vertical deseada dentro de una columna de estado en el tablero [!UICONTROL Kanban].

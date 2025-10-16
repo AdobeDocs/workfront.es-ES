@@ -5,10 +5,10 @@ description: Puede anclar su trabajo más importante en  [!DNL Adobe Workfront] 
 feature: Get Started with Workfront
 author: Courtney
 exl-id: c391dabc-8dc4-4c4b-b0fc-7ccc4244cb8a
-source-git-commit: c79d030ff2d05487e5f7e3457bf98df591822a80
+source-git-commit: d7b8d7285d23d14f5390c9de1001de553c2b796f
 workflow-type: tm+mt
-source-wordcount: '423'
-ht-degree: 65%
+source-wordcount: '400'
+ht-degree: 64%
 
 ---
 
@@ -24,8 +24,6 @@ Es posible que se le asigne una plantilla de diseño que ya tenga páginas ancla
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -33,20 +31,19 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] paquete</strong></td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] licencia</strong></td> 
-   <td> <p>Nuevo: colaborador</p> 
-   <p>O</p>
-     <p>Actual: Solicitud</p>
+   <td> <p>Colaborador</p> 
+     <p>Solicitud</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

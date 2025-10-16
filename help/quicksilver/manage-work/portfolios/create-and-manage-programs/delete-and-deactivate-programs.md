@@ -5,10 +5,10 @@ title: Eliminar y desactivar programas
 description: Un programa representa una colección de proyectos que comparten una estrategia, objetivo o meta común que trasciende los límites de los proyectos. Los programas son una subdivisión de portafolios y no pueden existir fuera de un portafolio. Los programas suelen compartir los mismos recursos que otros programas dentro del mismo portafolio. Puede eliminar o desactivar un programa cuando resulte irrelevante.
 author: Alina
 feature: Work Management, Strategic Planning
-source-git-commit: 03c1f17504846fc4b8c4114ddc32df687281bc07
+source-git-commit: 85ccee879fd4ba5a80b6e885458839901f83d26e
 workflow-type: tm+mt
 source-wordcount: '430'
-ht-degree: 35%
+ht-degree: 34%
 
 ---
 
@@ -32,7 +32,7 @@ Se recomienda desactivar un portafolio, en lugar de eliminarlo, para conservar l
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan</td>
+   <td role="rowheader">[!DNL Adobe Workfront] paquete</td>
 
 <td> <p>Cualquiera</p> </td> 
   </tr> 

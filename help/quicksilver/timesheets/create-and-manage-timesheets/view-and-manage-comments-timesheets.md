@@ -3,13 +3,13 @@ product-area: timesheets
 navigation-topic: create-and-manage-timesheets
 title: Ver y administrar comentarios en una hoja de horas
 description: Puede realizar comentarios en las plantillas de horas, los elementos de trabajo incluidos en las mismas y en todas las entradas de horas que registre.
-author: Alina
+author: Lisa
 feature: Timesheets
 exl-id: 6260d176-3cfb-4bc2-93cb-00687e030248
-source-git-commit: ea0ae13abe9373bef7a1d146ca1951c8c383f994
+source-git-commit: 18c39c5b1959c31b6fd0018476b48643b4b15021
 workflow-type: tm+mt
-source-wordcount: '920'
-ht-degree: 18%
+source-wordcount: '889'
+ht-degree: 15%
 
 ---
 
@@ -29,33 +29,31 @@ Puede mostrar las actualizaciones desde una plantilla de horas o desde entradas 
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo. 
 
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Plan de Adobe Workfront</td> 
+   <td>paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licencia de Adobe Workfront*</td> 
-   <td> <p>Nuevo: Light o superior </p>
-   <p>Actual: revisión o superior</p> </td> 
+   <td>Licencia de Adobe Workfront</td> 
+   <td> <p>Ligero o superior </p>
+   <p>Revisión o superior</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuración de nivel de acceso</td> 
+   <td>Configuración de nivel de acceso</td> 
    <td> <p>Acceso de visualización o superior a tareas y problemas</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Permisos de objeto</td> 
+   <td>Permisos de objeto</td> 
    <td> <p>Vista o permisos superiores a tareas y problemas</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su administrador de Workfront. Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

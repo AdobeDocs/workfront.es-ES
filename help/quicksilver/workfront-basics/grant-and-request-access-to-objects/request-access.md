@@ -6,9 +6,9 @@ description: La visibilidad de los objetos en Adobe Workfront depende del acceso
 author: Becky
 feature: Get Started with Workfront
 exl-id: ad1c525c-42a8-4fb7-a2cd-7792e1c280ab
-source-git-commit: 18b96a6d57dc358bfe52e813bc98d8eb19f37dba
+source-git-commit: 4ae96f67b15838403ffce32317d871d6904d6d95
 workflow-type: tm+mt
-source-wordcount: '1338'
+source-wordcount: '1327'
 ht-degree: 64%
 
 ---
@@ -36,23 +36,20 @@ Puede solicitar acceso inicial a los objetos si alguien comparte un vínculo con
 
 ## Requisitos de acceso
 
-+++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
-
-Se necesita tener lo siguiente para compartir objetos:
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Plan de Adobe Workfront</td> 
-   <td> <p>Cualquiera </p> </td> 
+   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licencia de Adobe Workfront</td> 
-   <td> <p>Nuevo: estándar</p> 
-   <p>O</p>
-   <p>Actual: Trabajo o superior</p> 
+   <td> <p>Estándar</p> 
+   <p>Trabajo o superior</p> 
    </td> 
   </tr> 
   <tr> 
@@ -62,7 +59,7 @@ Se necesita tener lo siguiente para compartir objetos:
  </tbody> 
 </table>
 
-Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -183,7 +180,7 @@ El propietario de un objeto se define de la siguiente manera:
    <td>El propietario es el Propietario del documento (el usuario que lo ha cargado) o, si falta o no tiene el acceso necesario, el propietario del objeto en el que reside el documento.</td> 
   </tr> 
   <tr> 
-   <td>Informes y paneles</td> 
+   <td>Informes y paneles de control</td> 
    <td>El propietario es el creador del informe o panel. </td> 
   </tr> 
   <tr> 

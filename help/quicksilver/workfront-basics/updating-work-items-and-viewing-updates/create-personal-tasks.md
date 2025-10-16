@@ -1,15 +1,15 @@
 ---
 product-area: projects
 navigation-topic: update-work-items-and-view-updates
-title: Crear tareas personales
-description: Las tareas personales son anuncios solicitudes de trabajo hoc que envía a un usuario, a usted mismo o a los elementos de tareas que crea para usted en el área de su hogar. Workfront ahorra solicitudes de trabajo anuncios hoc y tareas como tareas personales.
+title: Creación de tareas personales
+description: Las tareas personales son solicitudes de trabajo ad hoc que se envían a un usuario, a sí mismo o elementos pendientes que crea para sí mismo en el área de Inicio. Workfront guarda las solicitudes de trabajo ad hoc y las tareas pendientes como tareas personales.
 author: Lisa
 feature: Get Started with Workfront
 exl-id: b40d6b10-19c7-4e11-a74f-a8af3ebafb65
-source-git-commit: a1081b7ce0877b08f9546ab57cfac3f2a580ea76
+source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
 workflow-type: tm+mt
-source-wordcount: '680'
-ht-degree: 7%
+source-wordcount: '655'
+ht-degree: 5%
 
 ---
 
@@ -17,15 +17,15 @@ ht-degree: 7%
 
 <!--Audited: 10/2024-->
 
-Las tareas personales son anuncios solicitudes de trabajo hoc que envía a un usuario o envía o agrega para usted.
+Las tareas personales son solicitudes de trabajo ad hoc que se envían a un usuario o que se agregan o se envían por sí mismos.
 
-Adobe Systems Workfront guarda solicitudes de trabajo anuncios hoc y hace elementos como tareas personales en el proyecto personal de un usuario que Wprfront crea automáticamente para cada usuario.
+Adobe Workfront guarda las solicitudes de trabajo ad hoc y las tareas pendientes como tareas personales en un proyecto personal del usuario que Wprfront crea automáticamente para cada usuario.
 
 Las siguientes son características del proyecto personal de un usuario:
 
-* Todos los usuarios de Workfront tienen un proyecto personal denominado &quot;&lt; User&#39;s full name>&#39;s Tasks&quot;. Por ejemplo, &quot;Las tareas de John Smith&quot;.
-* El proyecto personal de cada usuario no se muestra en las búsquedas y es oculta.
-* Un proyecto personal no se puede eliminar, igualado si se han desactivado los usuarios.
+* Todos los usuarios de Workfront tienen un proyecto personal llamado &quot;Tareas de &lt; nombre completo del usuario>&quot;. Por ejemplo, &quot;Tareas de John Smith&quot;.
+* El proyecto personal de cada usuario no se muestra en las búsquedas y está oculto.
+* Un proyecto personal no se puede eliminar aunque se hayan desactivado los usuarios.
 * El estado de un proyecto personal siempre es Actual. Los proyectos personales no se pueden completar ni cancelar.
 * Todas las tareas personales se almacenan en el proyecto personal del usuario.
 * Si es necesario, puede mover tareas personales a otro proyecto.
@@ -47,8 +47,6 @@ Independientemente de cómo agregue una tarea personal, puede encontrarla en las
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -56,28 +54,56 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Plan de Adobe Workfront</strong></td> 
+   <td role="rowheader"><strong>paquete de Adobe Workfront</strong></td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Licencia de Adobe Workfront*</strong></td> 
+   <td role="rowheader"><strong>Licencia de Adobe Workfront</strong></td> 
    <td> 
-   <p>Nuevo: Estándar para enviar solicitudes a otros usuarios. Todos los usuarios pueden crear una solicitud de trabajo por sí mismos.</p> 
-   <p>Actual: plan para enviar solicitudes a otros usuarios. Todos los usuarios pueden crear una solicitud de trabajo por sí mismos.</p>
+   <p>Estándar<p>
+   <p>Plan</p>
+   <p>Esta es la licencia necesaria para enviar solicitudes a otros usuarios. Todos los usuarios pueden crear una solicitud de trabajo por sí mismos.</p> 
     </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Configuraciones de nivel de acceso</strong></td> 
-   <td> <p>Editar acceso a los Usuarios para crear una solicitud de trabajo para ellos. Ver acceso para crear un solicitud de trabajo personal para usted. </p>
+   <td> <p>Edite el acceso a los usuarios para crear una solicitud de trabajo para ellos. Ver el acceso para crear una solicitud de trabajo personal para usted. </p>
    </td> 
   </tr>
 
 </tbody> 
 </table>
 
-*Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
+
+<!--Old:
+<table style="table-layout:auto"> 
+ <col> 
+ </col> 
+ <col> 
+ </col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader"><strong>Adobe Workfront plan</strong></td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><strong>Adobe Workfront license*</strong></td> 
+   <td> 
+   <p>New: Standard to send requests to other users. All users can create a work request for themselves.</p> 
+   <p>Current: Plan to send requests to other users. All users can create a work request for themselves.</p>
+    </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><strong>Access level configurations</strong></td> 
+   <td> <p>Edit access to Users to create a work request for them. View access to create a personal work request for yourself. </p>
+   </td> 
+  </tr> 
+ 
+ </tbody> 
+</table>-->
 
 
 ## Crear una solicitud de trabajo personal
@@ -90,7 +116,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 1. Haga clic en el **menú Más** ![](assets/more-menu.png) que se encuentra a la derecha del nombre del usuario en el encabezado.
 1. Haga clic en **Enviar solicitud de trabajo**.
-Se muestra el **cuadro Enviar usuario una solicitud** de trabajo.
+Aparece el cuadro **Enviar al usuario una solicitud de trabajo**.
 
    ![](assets/personal-task-box.png)
 1. Actualice la siguiente información:
@@ -98,12 +124,12 @@ Se muestra el **cuadro Enviar usuario una solicitud** de trabajo.
    * **Nombre de tarea**: Este es el nombre de la solicitud de trabajo ad hoc para la tarea personal.
    * **Descripción**: agregue una descripción para la tarea.
    * **Asignar a**: el nombre del usuario seleccionado se muestra de forma predeterminada. Puede agregar más usuarios o equipos.
-   * **Fecha** de vencimiento: Esta es la fecha en la que gustar que se completara este tarea. De forma predeterminada, es la fecha de hoy. No se puede seleccionar una fecha que ya haya pasado
-   * **Tiempo**: Este es el tiempo en el que gustar que se completara este tarea. De forma predeterminada, es la hora actual.
+   * **Fecha de vencimiento**: Es la fecha en la que desea completar esta tarea. De forma predeterminada, es la fecha de hoy. No se puede seleccionar una fecha del pasado
+   * **Hora**: Este es el tiempo en que desea que se complete esta tarea. De forma predeterminada, es la hora actual.
 
-1. Haga clic en **Enviar solicitud** para guardar el trabajo solicitud.
+1. Haga clic en **Enviar solicitud** para guardar la solicitud de trabajo.
 
-   El solicitud trabajo se guarda como un tarea personal en Workfront y se agrega al widget de tareas pendientes del usuario en su área Inicio. Si te envías el solicitud de trabajo a ti mismo, se muestra en el widget Tareas pendientes de Inicio.
+   La solicitud de trabajo se guarda como una tarea personal en Workfront y se agrega al widget Tareas pendientes del usuario en el área de Inicio. Si se envía la solicitud de trabajo a sí mismo, se mostrará en el widget Tareas pendientes en Inicio.
 
 
 ## Localizar tareas personales

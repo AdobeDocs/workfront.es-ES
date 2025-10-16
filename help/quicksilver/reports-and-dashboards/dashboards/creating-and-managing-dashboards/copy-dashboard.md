@@ -6,9 +6,9 @@ description: Es posible copiar un tablero y todo su contenido (informes, calenda
 author: Nolan
 feature: Reports and Dashboards
 exl-id: a88cc171-2bb1-40f0-a778-8dac7eecb718
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: c8b7ad473b0c2120ef5ea52374b3501ad6f553f1
 workflow-type: tm+mt
-source-wordcount: '898'
+source-wordcount: '889'
 ht-degree: 98%
 
 ---
@@ -21,43 +21,35 @@ Es posible copiar un tablero y todo su contenido (informes, calendarios y págin
 
 ## Requisitos de acceso
 
-+++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
-
-Debe tener lo siguiente:
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Plan de Adobe Workfront*</strong></td> 
+   <td role="rowheader">paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Licencia de Adobe Workfront*</strong></td> 
-    <td> 
-      <p>Nuevo:</p>
-         <ul>
-         <li><p>Estándar</p></li>
-         </ul>
-      <p>Actual:</p>
-         <ul>
-         <li><p>Plan</p></li>
-         </ul>
+   <td role="rowheader">Licencia de Adobe Workfront</td> 
+   <td> 
+      <p>Estándar</p>
+      <p>Plan</p>
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Configuraciones de nivel de acceso*</strong></td> 
-   <td> <p>Editar el acceso a Informes, Paneles y Calendarios</p></td> 
-  </tr> 
+   <td role="rowheader">Configuraciones de nivel de acceso</td> 
+   <td> <p>Editar el acceso a Informes, Paneles de control y Calendarios</p></td> 
+  </tr>  
   <tr> 
-   <td role="rowheader"><strong>Permisos de objeto</strong></td> 
-   <td> <p>Ver el acceso a un tablero</p> <p>Obtendrá acceso de administración al panel copiado</p></td> 
+   <td role="rowheader">Permisos de objeto</td> 
+   <td> <p>Ver el acceso a un tablero</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -69,7 +61,7 @@ Para obtener información sobre cómo crear tableros, consulte [Creación de tab
 
 ## Copiar un tablero
 
-1. Haga clic en el icono **[!UICONTROL Menú principal]** ![Menú principal](/help/_includes/assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront o (si está disponible), haga clic en el icono **[!UICONTROL Menú principal]** ![Menú principal](/help/_includes/assets/main-menu-icon-left-nav.png) en la esquina superior izquierda y, a continuación, haga clic en **[!UICONTROL Paneles]**.
+1. Haga clic en el icono **[!UICONTROL Menú principal]**![Menú principal](/help/_includes/assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront o (si está disponible), haga clic en el icono **[!UICONTROL Menú principal]**![Menú principal](/help/_includes/assets/main-menu-icon-left-nav.png) en la esquina superior izquierda y, a continuación, haga clic en **[!UICONTROL Paneles de control]**.
 
 1. Seleccione el tablero que quiera copiar y luego haga clic en **Copiar** ![Icono de copiar](assets/copy-icon.png).\
    O\

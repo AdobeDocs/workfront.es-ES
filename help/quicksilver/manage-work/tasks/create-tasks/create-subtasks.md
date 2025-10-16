@@ -6,10 +6,10 @@ description: En Adobe Workfront, las tareas pueden tener relaciones principal-se
 author: Alina
 feature: Work Management
 exl-id: 3d970794-b5ea-422f-bc92-51846cb7db35
-source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
+source-git-commit: c1b8af0d8a95714bb597db7a429794773358cf05
 workflow-type: tm+mt
-source-wordcount: '566'
-ht-degree: 84%
+source-wordcount: '542'
+ht-degree: 83%
 
 ---
 
@@ -23,36 +23,62 @@ En Adobe Workfront, las tareas pueden tener relaciones principal-secundario. Las
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td> <p>Cualquiera</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Licencia de Adobe Workfront</td> 
+   <td> <p>Estándar</p> 
+   <p>Trabajo o superior</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Configuraciones de nivel de acceso</td> 
+   <td> <p>Editar el acceso a Tareas y Proyectos</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Permisos de objeto</td> 
+   <td> <p>Permisos de aportación para el proyecto con capacidad para Añadir tareas o superior</p> 
+   <p>Al crear una tarea, recibe automáticamente permisos de administración para dicha tarea</p> 
+    </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
+<!--Old:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Plan de Adobe Workfront</td> 
-   <td> <p>Cualquiera</p> </td> 
+   <td role="rowheader">Adobe Workfront plan</td> 
+   <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licencia de Adobe Workfront</td> 
+   <td role="rowheader">Adobe Workfront license</td> 
    <td> 
-   <p>Nuevo: estándar</p>
-   <p>Actual: Trabajo o superior</p> </td> 
+   <p>New: Standard</p>
+   <p>Current: Work or higher</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraciones de nivel de acceso*</td> 
-   <td> <p>Editar el acceso a Tareas y Proyectos</p>  </td> 
+   <td role="rowheader">Access level configurations*</td> 
+   <td> <p>Edit access to Tasks and Projects</p>  </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Permisos de Aportar para el proyecto y la tarea principal con capacidad para Añadir tareas o superior</p> <p>Una vez creada la tarea, recibirá automáticamente permisos de administración.</p>  </td> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>Contribute permissions to the project and the parent task with ability to Add Tasks or higher</p> <p>You automatically receive Manage permissions to the task after you create it.</p>  </td> 
   </tr> 
  </tbody> 
-</table>
-
-Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
-
-+++
+</table>-->
 
 ## Creación de subtareas
 

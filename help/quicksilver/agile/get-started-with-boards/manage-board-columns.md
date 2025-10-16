@@ -6,9 +6,9 @@ description: Un tablero nuevo contiene tres columnas de forma predeterminada. Pu
 author: Lisa
 feature: Agile
 exl-id: a736cdfe-5ddc-4bf4-82a1-a78d16c0d70b
-source-git-commit: 97b2118b1897f75dea0e45758e3d7f7c3409b234
+source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
 workflow-type: tm+mt
-source-wordcount: '1094'
+source-wordcount: '1081'
 ht-degree: 96%
 
 ---
@@ -27,8 +27,6 @@ Para obtener más información sobre cómo ordenar las tarjetas en columnas, vea
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -36,14 +34,15 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
+   <td role="rowheader">paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licencia</td> 
-   <td> <p>Nuevo: colaborador o superior </p>
-        <p>o</p> 
-        <p>Actual: [!UICONTROL Request] o superior </p></td> 
+   <td role="rowheader">Licencia de Adobe Workfront</td> 
+   <td> 
+   <p>Colaborador o superior</p> 
+   <p>Solicitud o superior</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>

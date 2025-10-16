@@ -6,10 +6,10 @@ description: Puede editar una agrupación en una lista o informe utilizando el m
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 2eeecc16-ea6d-4a56-8ea3-e213706e89bf
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
 source-wordcount: '1539'
-ht-degree: 12%
+ht-degree: 11%
 
 ---
 
@@ -25,30 +25,22 @@ Puede editar una agrupación en una lista o informe utilizando el modo de texto 
 
 ## Requisitos de acceso
 
-+++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
-
-Debe tener lo siguiente:
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Plan de Adobe Workfront</td> 
+   <td role="rowheader">paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licencia de Adobe Workfront</td> 
    <td> 
-      <p>Nuevo:</p>
-         <ul>
-         <li><p>Estándar</p></li>
-         </ul>
-      <p>Actual:</p>
-         <ul>
-         <li><p>Plan</p></li>
-         </ul>
-   </td>
+     <p>Estándar</p>
+     <p>Plan</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso</td> 
@@ -57,11 +49,11 @@ Debe tener lo siguiente:
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
    <td> <p>Administrar permisos en un informe para editar agrupaciones en un informe</p> <p>Administración de permisos en una agrupación para editarla</p></td> 
-  </tr> 
+  </tr>
  </tbody> 
 </table>
 
-Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

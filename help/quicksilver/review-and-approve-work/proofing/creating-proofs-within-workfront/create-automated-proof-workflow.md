@@ -6,9 +6,9 @@ description: Un flujo de trabajo automatizado facilita la administración del pr
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 977fe1bc-458f-4301-8056-dc51c61edb6c
-source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
+source-git-commit: ac714bd5a5259d6f995ac445efbd0125e07022cb
 workflow-type: tm+mt
-source-wordcount: '1838'
+source-wordcount: '1783'
 ht-degree: 99%
 
 ---
@@ -23,19 +23,18 @@ Un flujo de trabajo automatizado facilita la administración del proceso de revi
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Plan de Adobe Workfront</td> 
-   <td> <p>Nuevo: cualquiera</p><p>Plan actual: Pro o superior</p><p>Plan heredado: Select o superior</p> <p>Para obtener más información sobre el acceso de revisión en los diferentes planes, consulte <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Acceso a la funcionalidad de revisión en Workfront</a>.</p> </td> 
+   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licencia de Adobe Workfront</td> 
-   <td> <p>Nuevo: estándar</p><p>Plan actual: Trabajo o Plan</p> <p>Plan heredado: cualquiera (debe tener la revisión habilitada para el usuario)</p> </td> 
+   <td> Estándar</p>
+   <p>Trabajo o plan</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Perfil de permiso de prueba </td> 
@@ -204,7 +203,7 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
      </tr> 
      <tr> 
       <td role="rowheader">Descargar archivo original</td> 
-      <td>Cuando se selecciona esta opción, los revisores pueden descargar el archivo original desde el que se creó la prueba.<br>Cuando esta opción no está seleccionada, el icono Descargar ya no es visible.<br>Esta opción está desactivada de forma predeterminada.</td> 
+      <td>Cuando se selecciona esta opción, los revisores pueden descargar el archivo original desde el que se creó la prueba.<br>Cuando esta opción no está seleccionada, el icono Descargar ya no es visible.<br>Esta opción está deshabilitada de forma predeterminada.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Permitir que se comparta la prueba mediante una dirección URL pública o código incrustado</td> 

@@ -1,19 +1,21 @@
 ---
 product-area: portfolios
 navigation-topic: portfolios-overview
-title: Navegación dentro de un portafolio
+title: Navegación dentro de un Portfolio
 description: Navegación dentro de un portafolio
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 6c1795ab-422f-419c-b5e9-1f1323800b39
-source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
+source-git-commit: d7600a55b3dffb242957234de9d85a0deb1ad2e3
 workflow-type: tm+mt
-source-wordcount: '608'
-ht-degree: 83%
+source-wordcount: '601'
+ht-degree: 73%
 
 ---
 
 # Navegación dentro de un portafolio
+
+<!--Audited: 08/2025-->
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: This article will need to be further revised and maybe merged into Understanding Portfolios?! (other?!).)</p>
@@ -21,31 +23,29 @@ ht-degree: 83%
 
 En [!DNL Adobe Workfront], un portafolio es una colección de proyectos que se completan para los mismos recursos, presupuesto, programación y prioridad. El objetivo principal del portafolio es ayudar a los ejecutivos y gestores de proyectos en su selección para trabajar en los proyectos que proporcionen el mayor beneficio a una organización.
 
-Para obtener más información sobre portafolios, consulte [Información general sobre portafolios en  [!DNL Adobe Workfront]](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md).
+Para obtener más información sobre los portafolios, consulte [Comprender la metodología de portafolios](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md).
 
 ## Requisitos de acceso
 
 
-+++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
-
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
-   <td> <p>Cualquiera </p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] paquete</td> 
+   <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licencia*</td> 
-   <td> <p>Nuevo: [!UICONTROL Standard] </p>
-   <p>Actual: [!UICONTROL Plan] </p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] licencia</td> 
+   <td> <p>[!UICONTROL Standard] </p>
+   <p>[!UICONTROL Plan] </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso</td> 
-   <td> <p>Acceso [!UICONTROL Edit] a proyectos y portafolio</p>  </td> 
+   <td> <p>Acceso de [!UICONTROL Edit] a [!UICONTROL Projects] y [!UICONTROL Portfolios]</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
@@ -57,6 +57,34 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 *Para obtener información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
+   <td> <p>Any </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
+   <td> <p>New: [!UICONTROL Standard] </p>
+   <p>Current: [!UICONTROL Plan] </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>[!UICONTROL Edit] access to Projects and Portfolios</p>  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>[!UICONTROL Manage] permissions to the portfolio</p> <p>View or higher permissions to the projects</p>  </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).-->
 
 ## Navegación dentro de un portafolio
 
@@ -113,9 +141,12 @@ Para obtener información sobre los programas, consulte la sección [Crear y adm
 
    >[!IMPORTANT]
    >
-   >La compañía debe tener un plan [!UICONTROL Empresa] o superior [!DNL Workfront] para tener acceso al [!UICONTROL Optimizador de portafolios].
+   >Su compañía debe tener los siguientes paquetes para tener acceso a [!UICONTROL Portfolio Optimizer]:
+   >
+   >[!UICONTROL Prime] o superior [!DNL Workfront]\
+   >[!UICONTROL Empresa] o superior [!DNL Workfront]
 
-   Para obtener información sobre el uso del Optimizador de portafolios, consulte la sección [Administración de proyectos en el Optimizador de portafolios](../../../manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md).
+   Para obtener información sobre el uso de Portfolio Optimizer, consulte la sección [Administrar proyectos en Portfolio Optimizer: índice de artículo](../../../manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md).
 
 1. (Opcional) Haga clic en **Documentos**, en el panel izquierdo, para adjuntar documentos al portafolio.
 1. (Opcional) Haga clic en **[!UICONTROL Actualizaciones]**, en el panel izquierdo, para añadir comentarios al flujo de actualización del portafolio. Para obtener más información, consulte [Actualizar trabajo](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).

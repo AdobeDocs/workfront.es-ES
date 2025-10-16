@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 2f8dd132-1086-4980-9b56-993a68231e96
-source-git-commit: 6068c9c53568d3ebec9fae294bfee1cbd365714b
+source-git-commit: f8d04790caefd12c9811ea3ed94e1f892311d031
 workflow-type: tm+mt
-source-wordcount: '738'
+source-wordcount: '714'
 ht-degree: 63%
 
 ---
@@ -48,31 +48,31 @@ Some users, such as executives, need to be able to control which administrators 
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Plan de Adobe Workfront</td> 
-   <td>Cualquiera</td> 
+   <td>paquete de Adobe Workfront</td> 
+   <td><p>Cualquiera</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Licencia de Adobe Workfront</td> 
-   <td> <p>Nuevo: estándar</p>
-   <p>O</p>
-   <p>Actual: plan</p></td> 
-  </tr> 
+   <td>Licencia de Adobe Workfront</td> 
+   <td><p>Estándar</p>
+       <p>Plan</p></td> 
+  </tr>
   <tr> 
-   <td role="rowheader">Configuraciones de nivel de acceso</td> 
-   <td> <p>Con el nivel de acceso de administrador del sistema, puede iniciar sesión como cualquier persona.</p> <p>Con un nivel de acceso Estándar o Planificador, puede iniciar sesión como un usuario con un nivel de licencia inferior si la opción Usuarios en el nivel de acceso está configurada para Editar acceso, con Crear y al menos una de las dos opciones de Administración de usuarios habilitada en Ajustar la configuración <img src="assets/gear-icon-in-access-levels.png">. </p> 
-   <p>NOTA: De estas dos opciones, si la opción Administración de usuarios (usuarios del grupo) está activada, debe ser administrador de un grupo al que pertenezca el usuario.</p></td>
+   <td>Configuraciones de nivel de acceso</td> 
+   <td> <p>Debe tener uno de los siguientes elementos:</p> 
+    <ul> 
+     <li> <p>El nivel de acceso de administrador del sistema. Esto le permite iniciar sesión como cualquier persona.</li> 
+     <li> <p>Configuración de <b>usuarios</b> en su nivel de acceso configurado para el acceso de <b>Editar</b>, con <b>Crear</b> y al menos una de las dos opciones de <b>Administrador de usuarios</b> habilitadas en <b>Ajustar la configuración</b> <img src="assets/gear-icon-in-access-levels.png">. Esto le permite iniciar sesión como un usuario con un nivel de licencia inferior. </p> <p>De estas dos opciones, si <b>Administrador de usuarios (usuarios de grupo)</b> está habilitado, debe ser administrador de grupo de un grupo al que pertenezca el usuario.</p> </li> 
+    </ul> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

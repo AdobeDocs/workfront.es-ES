@@ -6,10 +6,10 @@ description: Las iteraciones son un componente clave para los equipos ágiles de
 author: Lisa
 feature: Agile
 exl-id: a25cdd4a-f2e3-4b8a-a7f4-3757940b635e
-source-git-commit: e24c97e78b210fc385052b573fe69d092b521a90
+source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
 workflow-type: tm+mt
-source-wordcount: '1036'
-ht-degree: 80%
+source-wordcount: '1022'
+ht-degree: 79%
 
 ---
 
@@ -21,8 +21,6 @@ Las iteraciones son un componente clave para los equipos ágiles de Scrum a la h
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -30,14 +28,13 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
+   <td role="rowheader">paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licencia</td> 
-   <td> <p>Nuevo: [!UICONTROL Light] o superior</p> 
-   o
-   <p>Actual: [!UICONTROL Review] o superior</p> </td> 
+   <td role="rowheader">Licencia de Adobe Workfront</td> 
+   <td> <p>Ligero o superior</p> 
+   <p>Revisión o superior</p> </td> 
   </tr>
  </tbody> 
 </table>
@@ -160,9 +157,9 @@ Utilice la función [!UICONTROL Planificar iteración] para crear una iteración
 
 ## Comprender cómo se calculan las fechas de inicio de las tareas cuando se añaden a una iteración {#understand-how-task-start-dates-are-calculated-when-added-to-an-iteration}
 
-Cuando añade una tarea como una historia a una iteración, se usa la restricción [!UICONTROL Debe finalizar en la tarea] para cada historia. En la mayoría de los casos, la fecha planificada de inicio de la tarea se calcula según la siguiente fórmula:
+Cuando añade una tarea como una historia a una iteración, se usa la restricción [!UICONTROL Debe finalizar en la tarea] para cada historia. En la mayoría de los casos, la fecha de inicio planificada de la tarea se calcula según la siguiente fórmula:
 
-[!UICONTROL Fecha de finalización de la iteración] menos (-) [!UICONTROL Duración de la tarea] es igual a (=) [!UICONTROL Fecha planificada de inicio de la tarea]
+[!UICONTROL Fecha de finalización de la iteración] menos (-) [!UICONTROL Duración de la tarea] es igual a (=) [!UICONTROL Fecha de inicio planificada de la tarea]
 
 Se utiliza [!UICONTROL Fecha de finalización del proyecto] en lugar de la Fecha de finalización de la iteración si la fecha de inicio del proyecto es posterior a la fecha de inicio de la iteración y la fecha de finalización del proyecto es posterior a la fecha de finalización de la iteración.
 

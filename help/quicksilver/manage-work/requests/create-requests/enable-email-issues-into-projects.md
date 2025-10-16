@@ -3,13 +3,13 @@ product-area: requests
 navigation-topic: create-requests
 title: Permitir que los usuarios envíen por correo electrónico un problema a un proyecto de cola de solicitudes
 description: Puede configurar un proyecto para permitir que los usuarios agreguen problemas al proyecto por correo electrónico.
-author: Alina, Courtney
+author: Becky
 feature: Work Management
 exl-id: 556775e8-7ac9-482d-8c1c-863678584aa4
-source-git-commit: bca543ad2ee8ead26cfa662900eb513af36f743c
+source-git-commit: 1b7964b533093c4eee20d69a74512a145e207e29
 workflow-type: tm+mt
-source-wordcount: '812'
-ht-degree: 87%
+source-wordcount: '789'
+ht-degree: 86%
 
 ---
 
@@ -27,21 +27,18 @@ Puede configurar un proyecto para permitir que los usuarios agreguen problemas a
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Plan de Adobe Workfront</td> 
+   <td role="rowheader">paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licencia de Adobe Workfront</td> 
-   <td> <p>Nuevo: colaborador o superior</p>
-   O
-   <p>Actual: solicitud o superior</p>
+   <td> <p>Colaborador o superior</p>
+   <p>Solicitud o superior</p>
     </td> 
   </tr> 
   <tr> 
@@ -55,7 +52,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  </tbody> 
 </table>
 
-Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -79,7 +76,7 @@ Se requieren las siguientes condiciones para configurar un proyecto de modo que 
 >* Workfront permite un correo electrónico único por cola de solicitudes en todos los clústeres. Si decide deshabilitar su cola de solicitudes, conservará la dirección de correo electrónico que creó siempre que aún esté en el cuadro de Dirección de correo de entrada. Si decide dejar de usar el correo de entrada, debe eliminarlo del campo de Dirección de correo de entrada para que esté disponible para uso futuro.
 >
 >* Si la cola de solicitudes tiene varios temas o grupos de temas, Workfront seleccionará al azar el tema de la cola al que se enviarán las solicitudes por correo electrónico, lo que dificulta la gestión de dichas solicitudes.
->  &#x200B;>Recomendamos que el proyecto que configure para recibir solicitudes por correo electrónico no tenga más de un tema de cola. Si las solicitudes enviadas están destinadas a diferentes recursos o proyectos, debe redirigirlas o moverlas manualmente una vez que se hayan enviado.
+>  >Recomendamos que el proyecto que configure para recibir solicitudes por correo electrónico no tenga más de un tema de cola. Si las solicitudes enviadas están destinadas a diferentes recursos o proyectos, debe redirigirlas o moverlas manualmente una vez que se hayan enviado.
 
 1. Vaya al proyecto que desea habilitar para recibir problemas por correo electrónico.
 1. Haga clic en **Detalles de cola** en el panel izquierdo.

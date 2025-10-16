@@ -1,15 +1,15 @@
 ---
 product-previous: workfront-goals
 navigation-topic: goal-management
-title: Administrar comentarios de objetivos en Objetivos de Adobe Systems Workfront
+title: Administrar comentarios de metas en Adobe Workfront Goals
 description: Puede añadir comentarios a todas las metas que puede ver en Adobe Workfront Goals.
 author: Alina
 feature: Workfront Goals
 exl-id: 6cf2d2d2-5ba5-40f2-a803-01359c338541
-source-git-commit: 6e2e337969fccba88ea7089fe9a6d9db605343f7
+source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
 workflow-type: tm+mt
-source-wordcount: '297'
-ht-degree: 71%
+source-wordcount: '238'
+ht-degree: 47%
 
 ---
 
@@ -30,13 +30,17 @@ After the monthly releases to Production, the same features are also available i
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)</span>  
 -->
 
-Puede agregar comentarios a todos los objetivos que puede vista en Adobe Systems Objetivos de Workfront.
+Puede agregar comentarios a todas las metas que puede ver en Adobe Workfront Goals.
 
 ## Requisitos de acceso
 
-+++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
+>[!NOTE]
+>
+>Su empresa puede optar por seguir utilizando los objetivos de Adobe Workfront si compró este paquete anteriormente. Debe hablar con el representante de su cuenta para obtener más detalles.
+>
+>Adobe Workfront Goals ya no se puede adquirir.
 
-Debe tener el siguiente acceso para realizar las acciones descritas en este artículo:
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
 <table style="table-layout:auto">
 <col>
@@ -44,45 +48,32 @@ Debe tener el siguiente acceso para realizar las acciones descritas en este art�
 <col>
 </col>
 <tbody>
- <tr> 
-   <td role="rowheader">Plan de Adobe Workfront*</td> 
+ <tr>
+  <td> <p>paquete de Adobe Workfront</p> </td> 
    <td> 
-   <p>Para la nueva estructura de plan y licencias:
-  <ul><li>Un plan Ultimate </li></ul>
-   </p>
-<p>Para la estructura actual de plan y licencias: 
-<ul><li> Pro o superior </li>
-  <li>Una licencia de Adobe Workfront Goals además de una licencia de Workfront.</li></ul></p>
+   <p>Adobe Workfront Ultimate</p>
    </td> 
   </tr>
  <tr>
  <td role="rowheader">Licencia de Adobe Workfront</td>
  <td>
- <p>Cualquiera</td>
+ <p>Cualquiera</p></td>
  </tr>
- <tr>
- <td role="rowheader">Producto*</td>
- <td>
- <p> Nuevo requisito del producto: Workfront</p>
- O
- <p>Requisitos actuales del producto: Además de una licencia de Workfront, debe comprar una licencia para Adobe Systems objetivos de Workfront. </p> <p>Para obtener más información, consulte <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requisitos para usar Workfront Goals</a>. </p> </td>
- </tr>
- <tr>
+  <tr>
  <td role="rowheader">Configuración de nivel de acceso</td>
- <td> <p>Acceso de visualización o superior a Goals</p> </td>
+ <td> <p>Acceso de visualización o superior a Goals</p> 
+ </td>
  </tr>
- <tr data-mc-conditions="">
+ <tr>
  <td role="rowheader">Permisos de objeto</td>
  <td>
   <div>
   <p>Acceso de visualización o superior a la meta</p>
-  <p>De forma predeterminada, los usuarios no tienen acceso a las metas </p>
- <p>Para obtener información acerca de cómo compartir metas, consulte <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Compartir una meta en Workfront Goals</a>. </p>
   </div> </td>
  </tr>
  <tr>
    <td role="rowheader"><p>Plantilla de diseño</p></td>
-   <td> <p>A todos los usuarios, incluidos los administradores de Workfront, se les debe asignar una plantilla de diseño que incluya el área Metas en el menú principal. </p>  
+   <td> <p>A todos los usuarios, incluidos los administradores del sistema, se les debe asignar una plantilla de diseño que incluya el área Objetivos en el menú principal. </p>  
 </td>
   </tr>
 </tbody>
@@ -92,16 +83,67 @@ Debe tener el siguiente acceso para realizar las acciones descritas en este art�
 
 +++
 
+<!--Old:
+<table style="table-layout:auto">
+<col>
+</col>
+<col>
+</col>
+<tbody>
+ <tr> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td> 
+   <p>For the new plan and license structure:
+  <ul><li>An Ultimate plan </li></ul>
+   </p>
+<p>For the current plan and license structure: 
+<ul><li> A Pro or higher </li>
+  <li>An Adobe Workfront Goals license in addition to a Workfront license.</li></ul></p>
+   </td> 
+  </tr>
+ <tr>
+ <td role="rowheader">Adobe Workfront license</td>
+ <td>
+ <p>Any</td>
+ </tr>
+ <tr>
+ <td role="rowheader">Product*</td>
+ <td>
+ <p> New product requirement: Workfront</p>
+ Or
+ <p>Current product requirement: In addition to a Workfront license, you must purchase a license for Adobe Workfront Goals. </p> <p>For information, see <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requirements to use Workfront Goals</a>. </p> </td>
+ </tr>
+ <tr>
+ <td role="rowheader">Access level configuration</td>
+ <td> <p>View or higher access to Goals</p> </td>
+ </tr>
+ <tr data-mc-conditions="">
+ <td role="rowheader">Object permissions</td>
+ <td>
+  <div>
+  <p>View or higher permissions to the goal</p>
+  <p>By default, users get No Access to goals </p>
+ <p>For information about sharing goals, see <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Share a goal in Workfront Goals</a>. </p>
+  </div> </td>
+ </tr>
+ <tr>
+   <td role="rowheader"><p>Layout template</p></td>
+   <td> <p>All users, including Workfront administrators,  must be assigned a layout template that includes the Goals area in the Main Menu. </p>  
+</td>
+  </tr>
+</tbody>
+</table>-->
+
 ## Administrar comentarios de metas
 
 Puede añadir comentarios a las metas en la sección Actualizaciones de la página de una meta.
 
-1. Haz clic en el icono![&#128279;](assets/main-menu-icon.png) del menú principal en la esquina superior derecha o en el icono ![del **menú** principal Líneas](assets/lines-main-menu.png) del menú principal en la esquina superior izquierda, si están disponibles, y haz clic en **Objetivos**&#x200B;**&#x200B;**
+1. Haga clic en el icono **Menú principal** ![Icono del menú principal](assets/main-menu-icon.png) en la esquina superior derecha, o en el icono **Menú principal** ![Líneas del menú principal](assets/lines-main-menu.png) en la esquina superior izquierda, si está disponible, y luego haga clic en **Metas**.
 Se abrirá la lista de metas.
 1. Busque la meta a la que desee añadir comentarios y, a continuación, haga clic en su nombre para abrir la página de la meta.
 1. Haga clic en **Actualizaciones** en el panel izquierdo. 
 
-   Para obtener más información acerca de la administración de comentarios para objetos Workfront, consulte Actualización [del trabajo](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+   Para obtener más información acerca de la administración de comentarios para objetos de Workfront, vea [Actualizar el trabajo](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 <!--   
 1. (Optional) To locate an existing comment, start typing a keyword (*****or a user's name********) in the **Search** box in the upper-right corner of the **Comments** tab. 

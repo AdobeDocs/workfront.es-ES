@@ -6,10 +6,10 @@ description: Puede compartir el Distribuidor de cargas de trabajo con otros usua
 author: Lisa
 feature: Resource Management
 exl-id: e2d6b1f8-bdc9-4a34-bdc3-b56f7aa2e7a5
-source-git-commit: 58567104d88e7e1363d4196aec8a36ee0566b95a
+source-git-commit: 18c39c5b1959c31b6fd0018476b48643b4b15021
 workflow-type: tm+mt
-source-wordcount: '697'
-ht-degree: 14%
+source-wordcount: '674'
+ht-degree: 10%
 
 ---
 
@@ -21,25 +21,21 @@ Puede compartir el Distribuidor de cargas de trabajo con otros usuarios que podr
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Plan de Adobe Workfront</td> 
-   <td> <p>Cualquiera </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Licencia de Adobe Workfront</td> 
-   <td><p>Nuevo: estándar</p>
-       <p>o</p>
-       <p>Actual: Planificar, al usar el Distribuidor de cargas de trabajo en el área de Recursos;</br>
-       Trabaje con el Distribuidor de cargas de trabajo de un equipo o proyecto</p></td>
+   <td>paquete de Adobe Workfront</td> 
+   <td><p>Cualquiera</p></td>
   </tr>
   <tr> 
-   <td role="rowheader">Configuraciones de nivel de acceso</td> 
+   <td>Licencia de Adobe Workfront</td> 
+   <td><p>Estándar</p>
+       <p>Planificar, al utilizar el Distribuidor de cargas de trabajo en el área de Recursos; Trabajar, al utilizar el Distribuidor de cargas de trabajo de un equipo o proyecto</p></td>
+  </tr>
+  <tr> 
+   <td>Configuraciones de nivel de acceso</td> 
    <td> <p>Acceso de visualización o superior a lo siguiente:</p> 
     <ul> 
      <li>Administración de recursos</li> 
@@ -50,13 +46,13 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Permisos de objeto</td> 
+   <td>Permisos de objeto</td> 
    <td>Ver o permisos superiores en los proyectos, tareas y problemas</td> 
   </tr> 
  </tbody> 
 </table>
 
-Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

@@ -6,10 +6,10 @@ description: Como administrador de recursos, puede asignar trabajo a los usuario
 author: Lisa
 feature: Resource Management
 exl-id: 9649e482-af24-4516-9a69-ef12b2f1d579
-source-git-commit: d588380201aa8bcc9e358d516b7e52ed5f60b78d
+source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
 workflow-type: tm+mt
-source-wordcount: '2886'
-ht-degree: 94%
+source-wordcount: '2864'
+ht-degree: 92%
 
 ---
 
@@ -23,25 +23,21 @@ Como administrador de recursos, puede asignar trabajo a los usuarios y administr
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Plan de Adobe Workfront</td> 
-   <td> <p>Cualquiera </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Licencia de Adobe Workfront</td> 
-   <td><p>Nuevo: estándar</p>
-       <p>o</p>
-       <p>Actual: Planificar, al usar el Distribuidor de cargas de trabajo en el área de Recursos;</br>
-       Trabaje con el Distribuidor de cargas de trabajo de un equipo o proyecto</p></td>
+   <td>paquete de Adobe Workfront</td> 
+   <td><p>Cualquiera</p></td>
   </tr>
   <tr> 
-   <td role="rowheader">Configuraciones de nivel de acceso</td> 
+   <td>Licencia de Adobe Workfront</td> 
+   <td><p>Estándar</p>
+       <p>Planificar, al utilizar el Distribuidor de cargas de trabajo en el área de Recursos; Trabajar, al utilizar el Distribuidor de cargas de trabajo de un equipo o proyecto</p></td>
+  </tr>
+  <tr> 
+   <td>Configuraciones de nivel de acceso</td> 
    <td> <p>Acceso de edición a los siguientes elementos:</p> 
     <ul> 
      <li>Administración de recursos</li> 
@@ -52,13 +48,13 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Permisos de objeto</td> 
+   <td>Permisos de objeto</td> 
    <td> <p>Permisos de aportación o superiores que incluyen realizar asignaciones a las tareas y problemas para los que desea administrar asignaciones. </p> <p>O </p> <p>Permisos de administración de las tareas para las que desea actualizar las horas planificadas, además de actualizar las asignaciones. Para obtener información sobre cómo actualizar las horas planificadas en el equilibrador de carga de trabajo, consulte la sección <a href="#update-task-planned-hours-when-managing-user-allocations">Actualizar las horas planificadas de una tarea al administrar asignaciones de usuario</a> en este artículo.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -94,7 +90,7 @@ Tenga en cuenta lo siguiente a la hora de localizar asignaciones diarias, semana
 
   >[!INFO]
   >
-  > Por ejemplo, una tarea puede tener una duración de 2 días y 2 horas planificadas y tiene una hora de inicio planificada de 12:00 p. m. en el primer día de la duración con un usuario y una programación de proyecto que termina a las 5 p. m. La capacidad del usuario para el primer día es de 5 horas. La capacidad del usuario para el segundo día es de 8 horas (si la programación empieza a las 9 de la mañana).
+  > Por ejemplo, una tarea puede tener una duración de 2 días y 2 horas planificadas y tiene una hora de inicio planificada de 12:00 p.m. en el primer día de la duración con un usuario y una programación de proyecto que termina a las 5 p.m. La capacidad del usuario para el primer día es de 5 horas. La capacidad del usuario para el segundo día es de 8 horas (si la programación empieza a las 9 de la mañana).
   >
   >Workfront calcula la asignación de las dos horas durante los dos días de la duración mediante la fórmula siguiente:
   >

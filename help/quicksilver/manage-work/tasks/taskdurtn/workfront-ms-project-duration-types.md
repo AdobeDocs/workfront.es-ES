@@ -2,19 +2,19 @@
 content-type: tips-tricks-troubleshooting
 product-area: projects
 navigation-topic: tips-tricks-and-troubleshooting-projects
-title: Tipos de duración en proyectos de Adobe Workfront y Microsoft
+title: Tipos de duración en Adobe Workfront y Microsoft Project
 description: Los tipos de duración disponibles en Adobe Workfront son diferentes a sus equivalentes en Microsoft Project, que se denominan Tipos de tareas. Esto puede resultar confuso a veces al exportar o importar proyectos entre Workfront y Microsoft Project.
 author: Alina
 feature: Work Management
 exl-id: 986ecf91-693d-4ee1-bc56-355a2819ae41
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: c1b8af0d8a95714bb597db7a429794773358cf05
 workflow-type: tm+mt
 source-wordcount: '256'
-ht-degree: 2%
+ht-degree: 17%
 
 ---
 
-# Tipos de duración en proyectos de Adobe Workfront y Microsoft
+# Tipos de duración en Adobe Workfront y Microsoft Project
 
 Los tipos de duración disponibles en Adobe Workfront son diferentes a sus equivalentes en Microsoft Project, que se denominan Tipos de tareas. Esto puede resultar confuso a veces al exportar o importar proyectos entre Workfront y Microsoft Project.
 
@@ -46,7 +46,7 @@ Al exportar proyectos de Workfront a un proyecto de Microsoft, las tareas impuls
 
 ## El tipo de duración cambia al importar de MS Project a Workfront
 
-Al importar proyectos desde un proyecto de Microsoft en Workfront, las unidades fijas pasan a depender del esfuerzo. Trabajo fijo y Duración fija reciben el tipo de duración predeterminado que el administrador de Workfront seleccionó para su sistema. Para obtener más información, consulte [Configurar las preferencias de tareas y problemas en todo el sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+Al importar proyectos desde un proyecto de Microsoft en Workfront, las unidades fijas pasan a depender del esfuerzo. Trabajo fijo y Duración fija reciben el tipo de duración predeterminado que el administrador de Workfront seleccionó para su sistema. Para obtener más información, consulte [Configurar las preferencias de tareas y problemas de todo el sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 
 <!--
 <note type="warning">

@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: bf4a37ee-9435-4c1c-b18c-a7338a548ab7
-source-git-commit: c887569d59c7751210671cab97c492ee1752fffc
+source-git-commit: 2a83e5a415ff254cf5525d6f44ecb0e447e7e70a
 workflow-type: tm+mt
-source-wordcount: '816'
-ht-degree: 0%
+source-wordcount: '780'
+ht-degree: 99%
 
 ---
 
@@ -28,26 +28,29 @@ Como administrador de Adobe Workfront, puede definir el acceso de un usuario a l
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plan de Adobe Workfront</td> 
+   <td role="rowheader">paquete de Adobe Workfront</td> 
    <td>Cualquiera</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licencia de Adobe Workfront</td> 
-   <td>Plan</td> 
+   <td>
+    <p>Estándar</p>
+   <p>Plan</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso</td> 
-   <td> <p>Debe ser administrador de Workfront.</p> <p><b>NOTA</b>: Si todavía no tiene acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, vea <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref" data-mc-variable-override="">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
+   <td> <p>Debe ser administrador de Workfront.</p> </td> 
   </tr> 
  </tbody> 
 </table>
+
+Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -55,7 +58,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 Tenga en cuenta lo siguiente al conceder a los usuarios acceso a los datos financieros en Workfront:
 
-* Un usuario cuyo nivel de acceso no permite el acceso a los datos financieros no puede crear un riesgo para un proyecto. Para obtener más información, vea [Crear y editar riesgos en proyectos](../../../manage-work/projects/define-a-business-case/create-edit-risks-on-projects.md).
+* Un usuario cuyo nivel de acceso no permite el acceso a los datos financieros no puede crear un riesgo para un proyecto. Para obtener más información, consulte [Crear y editar riesgos en proyectos](../../../manage-work/projects/define-a-business-case/create-edit-risks-on-projects.md).
 * También puede utilizar un nivel de acceso para determinar qué actividades de Administración de recursos puede utilizar un usuario para presupuestar o ver la asignación de recursos. Para obtener más información, consulte [Conceder acceso a Administración de recursos](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md).
 
 ## Configuración del acceso de los usuarios a los datos financieros mediante un nivel de acceso personalizado
@@ -73,7 +76,7 @@ Tenga en cuenta lo siguiente al conceder a los usuarios acceso a los datos finan
     <tbody> 
      <tr> 
       <td role="rowheader">Tipos de cambio</td> 
-      <td> <p>Añada una nueva moneda en Workfront.</p> <p>Sin este acceso, el usuario solo puede agregar una moneda existente a un proyecto que cree.</p> </td> 
+      <td> <p>Añada una nueva moneda en Workfront.</p> <p>Sin este acceso, el usuario solo puede añadir una moneda existente a un proyecto que cree.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Gastos</td> 
@@ -110,7 +113,7 @@ Cuando comparte cualquier objeto con otro usuario, los derechos del destinatario
 
 ## Acceso a la información financiera por tipo de licencia
 
-Para obtener información acerca de lo que los usuarios de cada nivel de acceso pueden hacer con la información financiera, vea la sección [Datos financieros](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md#financia) en el artículo [Funcionalidad disponible para cada tipo de objeto](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md).
+Para obtener información acerca de lo que los usuarios de cada nivel de acceso pueden hacer con la información financiera, consulte la sección [Datos financieros](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md#financia) en el artículo [Funcionalidad disponible para cada tipo de objeto](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md).
 
 ## Acceso a la información financiera mediante la configuración
 
@@ -121,44 +124,44 @@ La siguiente información puede ayudarle a comprender cómo utilizar la configur
 Un usuario sin acceso a datos financieros no tiene acceso a lo siguiente:
 
 * Sección Finanzas bajo Objetos de proyecto y tarea
-* Caso comercial
+* Caso empresarial
 * Tarifas de facturación y registros de facturación
-* <span class="preview">Tarjetas de tarifa</span>
+* <span class="preview">Tarjetas de tarifas</span>
 * Coste por hora y facturación por hora según las preferencias del usuario
 
-  Puede configurarlo con el icono de engranaje ![](assets/gear-icon-settings.png) en el botón Ver del paso 4 anterior.
+  Esto se puede configurar con el icono de engranaje ![](assets/gear-icon-settings.png) en el botón Ver del paso 4.
 
-* Coste por hora y facturación por hora en Funciones del puesto
+* Coste por hora y facturación por hora en Funciones
 
-  Puede configurarlo con el icono de engranaje ![](assets/gear-icon-settings.png) en el botón Ver del paso 4 anterior.
+  Esto se puede configurar con el icono de engranaje ![](assets/gear-icon-settings.png) en el botón Ver del paso 4.
 
-### Ver acceso
+### Acceso de visualización
 
-Un usuario con acceso de visualización de datos financieros puede ver (no editar) lo siguiente:
+Un usuario con acceso de visualización a datos financieros puede ver (no editar) lo siguiente:
 
 * Sección Finanzas bajo Objetos de proyecto y tarea
-* Caso comercial
+* Caso empresarial
 * Tarifas de facturación y registros de facturación
 * Coste por hora y facturación por hora según las preferencias del usuario
 
-  Puede configurarlo con el icono de engranaje ![](assets/gear-icon-settings.png) en el botón Ver del paso 4 anterior.
+  Esto se puede configurar con el icono de engranaje ![](assets/gear-icon-settings.png) en el botón Ver del paso 4.
 
-* Coste por hora y facturación por hora en Funciones del puesto
+* Coste por hora y facturación por hora en Funciones
 
-  Puede configurarlo con el icono de engranaje ![](assets/gear-icon-settings.png) en el botón Ver del paso 4 anterior.
+  Esto se puede configurar con el icono de engranaje ![](assets/gear-icon-settings.png) en el botón Ver del paso 4.
 
-### Editar acceso
+### Acceso de edición
 
-Un usuario con acceso de edición de datos financieros puede ver y editar lo siguiente:
+Un usuario con acceso de edición a datos financieros puede ver y editar lo siguiente:
 
 * Sección Finanzas bajo Objetos de proyecto y tarea
-* Caso comercial
+* Caso empresarial
 * Tarifas de facturación y registros de facturación
-* <span class="preview">Tarjetas de tarifa</span>
+* <span class="preview">Tarjetas de tarifas</span>
 * Coste por hora y facturación por hora según las preferencias del usuario
 
-  Puede configurarlo con el icono de engranaje ![](assets/gear-icon-settings.png) en el botón Editar del paso 4 anterior.
+  Esto se puede configurar con el icono de engranaje ![](assets/gear-icon-settings.png) en el botón Editar del paso 4.
 
-* Coste por hora y facturación por hora en Funciones del puesto
+* Coste por hora y facturación por hora en Funciones
 
-  Puede configurarlo con el icono de engranaje ![](assets/gear-icon-settings.png) en el botón Editar del paso 4 anterior.
+  Esto se puede configurar con el icono de engranaje ![](assets/gear-icon-settings.png) en el botón Editar del paso 4.

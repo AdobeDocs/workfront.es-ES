@@ -6,10 +6,10 @@ description: La mayoría de los proyectos de Adobe Workfront y Microsoft Project
 author: Alina
 feature: Work Management
 exl-id: 381eb6ad-8084-406b-90f9-44460b58a04c
-source-git-commit: c566eb094e96abca6073554433434822c567bc34
+source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
 workflow-type: tm+mt
 source-wordcount: '396'
-ht-degree: 3%
+ht-degree: 97%
 
 ---
 
@@ -17,14 +17,14 @@ ht-degree: 3%
 
 La mayoría de los proyectos de Adobe Workfront y Microsoft Project son compatibles. Con las dos aplicaciones, puede hacer lo siguiente:
 
-* Exportar proyectos de Microsoft Project e importarlos en Workfront
-* Exporte proyectos desde Workfront e impórtelos a Microsoft Project. 
+* Exportar proyectos de Microsoft Project e importarlos a Workfront
+* Exportar proyectos de Workfront e importarlos a Microsoft Project 
 
-Para obtener más información sobre cómo importar proyectos desde un proyecto de Microsoft en Workfront, vea [Importar un proyecto desde un proyecto de Microsoft](../../../manage-work/projects/create-projects/import-project-from-ms-project.md).
+Para obtener más información sobre cómo importar proyectos de Microsoft Project a Workfront, consulte [Importar un proyecto de Microsoft Project](../../../manage-work/projects/create-projects/import-project-from-ms-project.md).
 
-Para obtener más información sobre cómo exportar un proyecto desde Workfront para importarlo en un proyecto de Microsoft, vea [Exportar un proyecto a un proyecto de Microsoft](../../../manage-work/projects/manage-projects/export-project-to-ms-project.md).
+Para obtener más información sobre cómo exportar un proyecto de Workfront para importarlo a Microsoft Project, consulte [Exportar un proyecto a Microsoft Project](../../../manage-work/projects/manage-projects/export-project-to-ms-project.md).
 
-Al realizar estas importaciones de datos, es importante comprender cómo se traduce la información de una aplicación a otra. La mayoría de las veces, tendrá que realizar algunas modificaciones manuales en el proyecto, una vez completada la importación. 
+Al realizar estas importaciones de datos, es importante comprender cómo se traduce la información de una aplicación a otra. La mayoría de las veces, tendrá que realizar algunas modificaciones manuales en el proyecto una vez completada la importación. 
 
 ## Información general de asignación de campos
 
@@ -32,25 +32,25 @@ Al realizar estas importaciones de datos, es importante comprender cómo se trad
 >
 >Las fechas planificadas no siempre se corresponden entre ambos sistemas. Las discrepancias se pueden contabilizar a través de la programación y las diferencias en las preferencias del sistema entre Workfront y Microsoft Project. Estas discrepancias de fechas también pueden provocar diferencias en el esfuerzo, la duración y el porcentaje completado.
 
-| **Campo de proyecto de Microsoft** | **Campo de Workfront** |
+| **Campo de Microsoft Project** | **Campo de Workfront** |
 |---|---|
 | Título del proyecto | Nombre del proyecto |
-| Fechas de inicio y finalización | Fechas planificadas de inicio y finalización |
+| Fecha de inicio y finalización | Fechas planificadas de inicio y finalización |
 | Nombre de la tarea | Nombre de la tarea |
 | Duración de la tarea | Duración planificada de la tarea |
-| Trabajo de tarea | Horas planificadas para la tarea |
-| % de tarea finalizada | % de tarea completada (según la duración de la tarea) |
-| Trabajo de tarea % completado | Porcentaje completado de la tarea (según las horas planificadas de la tarea) |
-| Inicio y fin programados | Fechas planificadas de inicio y finalización |
-| Comienzo y fin reales | Fechas reales de inicio y finalización |
-| Nombre del medio | Asignación de tareas |
-| Unidades de asignación | Porcentaje de asignación de asignación |
-| Nota de tarea | Descripción de tarea |
+| Trabajo de tarea | Horas planificadas de la tarea |
+| Porcentaje completado de la tarea | Porcentaje completado de la tarea (según la duración de la tarea) |
+| Porcentaje completado del trabajo de la tarea | Porcentaje completado de la tarea (según las horas planificadas de la tarea) |
+| Inicio y finalización planificados | Fechas planificadas de inicio y finalización |
+| Inicio y finalización reales | Fechas reales de inicio y finalización |
+| Nombre del recurso | Asignación de una tarea |
+| Unidades de asignación | Porcentaje de asignación |
+| Nota de la tarea | Descripción de la tarea |
 | Predecesora | Predecesora |
 
 ## Información general sobre los datos no incluidos
 
-Hay varios campos de proyecto que no se importan ni exportan desde Workfront.
+Hay varios campos del proyecto que no se importan ni exportan de Workfront.
 
 Estos campos incluyen, entre otros, los siguientes:
 
@@ -58,9 +58,9 @@ Estos campos incluyen, entre otros, los siguientes:
 * Campos personalizados (en los niveles de proyecto o tarea)
 * Notas de Workfront
 * Problemas
-* Retraso negativo en tareas con una relación predecesora de Comienzo/Fin (las tareas se importan sin el retardo)
+* Retraso negativo en tareas con una relación predecesora de Inicio/Fin (las tareas se importan sin el retardo)
 * Asignaciones
-* Restricciones de tarea
+* Restricciones de tareas
 
   >[!NOTE]
   >

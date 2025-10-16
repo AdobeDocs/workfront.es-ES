@@ -6,10 +6,10 @@ description: Puede añadir programas existentes a un portafolio. Como los progra
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 73dbe277-12d2-4041-8a02-91ccf5f8b465
-source-git-commit: 78b4724ca8d5df15ed76e9e882179e3cb127282c
+source-git-commit: d7600a55b3dffb242957234de9d85a0deb1ad2e3
 workflow-type: tm+mt
-source-wordcount: '259'
-ht-degree: 63%
+source-wordcount: '245'
+ht-degree: 57%
 
 ---
 
@@ -27,23 +27,21 @@ Puede añadir programas existentes a un portafolio. Como los programas no pueden
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] paquete</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licencia*</td> 
-   <td> <p>Nuevo: [!UICONTROL Standard] </p><p>O </p><p>Actual: [!UICONTROL Plan] </p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] licencia</td> 
+   <td> <p>[!UICONTROL Standard]</p><p>[!UICONTROL Plan]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso</td> 
-   <td> <p>Acceso de [!UICONTROL Edit] a portafolio y programas </p> </td> 
+   <td> <p>Acceso de [!UICONTROL Edit] a [!UICONTROL Portafolios] y [!UICONTROL Programas] </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
@@ -55,6 +53,31 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 *Para obtener información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
+   <td> <p>New: [!UICONTROL Standard] </p><p>Or </p><p>Current: [!UICONTROL Plan] </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>[!UICONTROL Edit] access to Portfolios and Programs </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>[!UICONTROL Manage] permissions to the portfolio and the program</p> </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## Añadir un programa existente a un portafolio
 

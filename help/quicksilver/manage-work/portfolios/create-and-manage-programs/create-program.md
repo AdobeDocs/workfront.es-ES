@@ -6,10 +6,10 @@ description: Un programa representa una colección de proyectos que comparten un
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 6ec353c2-2241-47c2-8c59-1d8ddc43781e
-source-git-commit: 05512c4cfdc094e90abea471b5356337955119be
+source-git-commit: d7600a55b3dffb242957234de9d85a0deb1ad2e3
 workflow-type: tm+mt
-source-wordcount: '1288'
-ht-degree: 89%
+source-wordcount: '1272'
+ht-degree: 88%
 
 ---
 
@@ -32,20 +32,19 @@ Por ejemplo, puede tener un portafolio del año fiscal de marketing 2024 que con
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan</td>
+   <td role="rowheader">[!DNL Adobe Workfront] paquete</td>
 
 <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licencia</td> 
-   <td> <p>Nuevo: [!UICONTROL Standard] </p><p>O </p><p>Actual: [!UICONTROL Plan] </p> </td> 
+   <td> <p>[!UICONTROL Standard]</p>
+   <p>[!UICONTROL Plan]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso</td> 
@@ -61,6 +60,32 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
+
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] license</td> 
+   <td> <p>New: [!UICONTROL Standard] </p><p>Or </p><p>Current: [!UICONTROL Plan] </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>[!UICONTROL Edit] access to Portfolios and Programs </p>  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>[!UICONTROL Manage] permissions to the portfolio</p> <p>After you create a program, you have [!UICONTROL Manage] permissions to it, by default.</p>  </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## Formas de crear programas
 
@@ -130,7 +155,7 @@ Puede especificar la siguiente información:
     <tbody> 
      <tr> 
       <td role="rowheader">[!UICONTROL Description]</td> 
-      <td> <p>Especifique una descripción para el programa.</p> <p>La descripción se muestra en la página de aterrizaje del programa.</p> </td> 
+      <td> <p>Especifique una descripción para el programa.</p> <p>La descripción se muestra en la página de destino del programa.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Program Manager]</td> 

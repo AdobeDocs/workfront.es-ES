@@ -6,7 +6,7 @@ description: El objetivo del tablero es proporcionar un acceso rápido a la info
 author: Nolan
 feature: Reports and Dashboards
 exl-id: de15ab45-4bcd-4638-b3d7-fc70a0866d2d
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: c8b7ad473b0c2120ef5ea52374b3501ad6f553f1
 workflow-type: tm+mt
 source-wordcount: '497'
 ht-degree: 35%
@@ -25,7 +25,7 @@ El objetivo del tablero es proporcionar un acceso rápido a la información. Pue
 
 * Páginas externas
 
-  Para obtener más información sobre la creación de páginas externas, consulte [Incrustar una página web externa en un panel](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md).
+  Para obtener más información sobre la creación de páginas externas, consulte [Incrustar una página web externa en un panel de control](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md).
 
 Después de crear estos elementos y agregarlos a un panel, puede editar el panel para agregarle más elementos, quitar elementos existentes del mismo o editar la información del panel.
 
@@ -35,43 +35,36 @@ Al compartir un tablero con los usuarios, todos los informes y las páginas exte
 
 ## Requisitos de acceso
 
-+++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo. 
 
-Debe tener lo siguiente:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Plan de Adobe Workfront</strong></td> 
+   <td role="rowheader">paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Licencia de Adobe Workfront</strong></td> 
+   <td role="rowheader">Licencia de Adobe Workfront</td> 
    <td> 
-      <p>Nuevo:</p>
-         <ul>
-         <li><p>Estándar</p></li>
-         </ul>
-      <p>Actual:</p>
-         <ul>
-         <li><p>Plan</p></li>
-         </ul>
+      <p>Estándar</p>
+      <p>Plan</p>
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Configuraciones de nivel de acceso</strong></td> 
-   <td> <p>Editar el acceso a Informes, Paneles y Calendarios</p></td> 
-  </tr> 
+   <td role="rowheader">Configuraciones de nivel de acceso</td> 
+   <td> <p>Editar el acceso a Informes, Paneles de control y Calendarios</p></td> 
+  </tr>  
   <tr> 
-   <td role="rowheader"><strong>Permisos de objeto</strong></td> 
-   <td> <p>Administrar permisos en el panel</p></td> 
+   <td role="rowheader">Permisos de objeto</td> 
+   <td> <p>Administrar permisos en el panel de control</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

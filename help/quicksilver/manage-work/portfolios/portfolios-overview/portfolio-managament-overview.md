@@ -6,9 +6,9 @@ description: La administración de portafolios o de portafolios de proyectos (PP
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 26fb28ce-0957-4db6-a275-174b1d149180
-source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
+source-git-commit: fbe17e50ff161156a0b4b2a8b468b4eb844cae59
 workflow-type: tm+mt
-source-wordcount: '650'
+source-wordcount: '648'
 ht-degree: 86%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 86%
 
 Portfolio o Project Portfolio Management (PPM) es el proceso de priorizar y administrar una lista de proyectos para lograr objetivos comerciales específicos.
 
-En este artículo se describen los conceptos generales de administración de portafolios. Para obtener información general sobre la administración de portafolios en Adobe Workfront, consulte [Información general de Portfolio en Adobe Workfront](/help/quicksilver/manage-work/portfolios/portfolios-overview/portfolio-overview.md).
+En este artículo se describen los conceptos generales de administración de portafolios. Para obtener información general sobre la administración de portafolios en Adobe Workfront, consulte [Comprender la metodología de portafolios](/help/quicksilver/manage-work/portfolios/portfolios-overview/portfolio-overview.md).
 
 Un portafolio es una colección de proyectos con objetivos empresariales comunes. El resultado de una metodología de PPM eficaz permite a los ejecutivos efectuar lo siguiente:
 
@@ -63,7 +63,7 @@ Para obtener más información sobre cómo crear un caso empresarial y una solic
 
 Después de enviar la solicitud del proyecto, el administrador de portafolios o un equipo ejecutivo la revisan y deciden si aprueban o no el proyecto. Si aprueban el proyecto, se selecciona el proyecto como portafolio de proyectos de la compañía.
 
-Para obtener más información sobre los portafolios, consulte [Información general de Portfolio en [!DNL Adobe Workfront]](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md). Para obtener más información sobre cómo aprobar un caso empresarial, vea [Aprobar un caso empresarial](../../../manage-work/projects/define-a-business-case/approve-business-case.md).
+Para obtener más información sobre los portafolios, consulte [Comprender la metodología de portafolios](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md). Para obtener más información sobre cómo aprobar un caso empresarial, vea [Aprobar un caso empresarial](../../../manage-work/projects/define-a-business-case/approve-business-case.md).
 
 ### Optimización del portafolio {#portfolio-optimization}
 

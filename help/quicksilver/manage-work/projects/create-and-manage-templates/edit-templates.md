@@ -6,9 +6,9 @@ description: Puede editar las plantillas de proyecto para reflejar los cambios e
 author: Alina
 feature: Work Management
 exl-id: da0fca31-6a50-4862-ad9a-a453ef968773
-source-git-commit: ea0ae13abe9373bef7a1d146ca1951c8c383f994
+source-git-commit: 00e693fc8b35a59f6ed212bc30da7f85cc78c845
 workflow-type: tm+mt
-source-wordcount: '5674'
+source-wordcount: '5672'
 ht-degree: 88%
 
 ---
@@ -48,27 +48,25 @@ Puede editar las plantillas de una en una o editarlas de forma masiva.
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Plan de Adobe Workfront</td> 
-   <td> <p>Cualquiera </p> </td> 
+   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licencias de Adobe Workfront*</td> 
+   <td role="rowheader">Licencias de Adobe Workfront</td> 
    <td>
-      <p>Nuevo: estándar</p>
-      <p>O</p>
-      <p>Actual: plan</p>
+      <p>Estándar</p>
+      <p>Plan</p>
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Nivel de acceso</td> 
+   <td role="rowheader">Configuraciones de nivel de acceso</td> 
    <td> <p>Acceso de edición a las plantillas</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
    <td> 
-    <ul> 
-     <li> <p>Permisos de colaboración de una plantilla para editarla en la pestaña Detalles de la plantilla</p> </li> 
-     <li> <p>Administre los permisos de una plantilla para editarla en el cuadro Editar plantilla</p> </li> 
+    <p>Permisos de colaboración de una plantilla para editarla en la pestaña Detalles de la plantilla</p> 
+     <p>Administre los permisos de una plantilla para editarla en el cuadro Editar plantilla</p>
    </td> 
   </tr> 
  </tbody> 
@@ -77,6 +75,39 @@ Puede editar las plantillas de una en una o editarlas de forma masiva.
 *Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan</td> 
+   <td> <p>Any </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront licenses*</td> 
+   <td>
+      <p>New: Standard</p>
+      <p>Or</p>
+      <p>Current: Plan</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level</td> 
+   <td> <p>Edit access to Templates</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> 
+    <ul> 
+     <li> <p>Contribute permissions to a template to edit it in the Template Details tab</p> </li> 
+     <li> <p>Manage permissions to a template to edit it in the Edit Template box</p> </li> 
+   </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## Editar una plantilla {#edit-a-template}
 

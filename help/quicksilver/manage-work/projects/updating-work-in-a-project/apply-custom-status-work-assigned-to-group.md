@@ -6,10 +6,10 @@ description: Si un proyecto está asociado a un grupo, puede aplicar tanto los e
 author: Alina
 feature: Work Management
 exl-id: 7564ab6a-8ddf-4e76-8e45-d59f9cf8d38b
-source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
+source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
 workflow-type: tm+mt
-source-wordcount: '361'
-ht-degree: 95%
+source-wordcount: '303'
+ht-degree: 90%
 
 ---
 
@@ -27,8 +27,37 @@ Si un proyecto está asociado a un grupo, puede aplicar tanto los estados de niv
 
 ## Requisitos de acceso
 
-<!--drafted for P&P:
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo. 
 
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td> <p>Cualquiera</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Licencia de Adobe Workfront</td> 
+   <td> <p>Estándar</p>
+   <p>Plan</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Configuraciones de nivel de acceso</td> 
+   <td> <p>Acceso de edición a proyectos</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Permisos de objeto</td> 
+   <td> <p>Administrar permisos del proyecto</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
+<!--Old:
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -39,10 +68,7 @@ Si un proyecto está asociado a un grupo, puede aplicar tanto los estados de niv
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Current license: Standard </p> 
-   Or
-   <p>Legacy license: Plan </p> 
-   </td> 
+   <td> <p>Plan </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
@@ -55,37 +81,7 @@ Si un proyecto está asociado a un grupo, puede aplicar tanto los estados de niv
    <td> <p>Manage permissions to the project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>
--->
-
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Plan de Adobe Workfront*</td> 
-   <td> <p>Cualquiera</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Licencia de Adobe Workfront*</td> 
-   <td> <p>Plan </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Configuraciones de nivel de acceso*</td> 
-   <td> <p>Acceso de edición a proyectos</p> <p><b>NOTA</b>
-
-Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td>
-</tr> 
-  <tr> 
-   <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Administrar permisos del proyecto</p> <p>Para obtener información sobre cómo solicitar acceso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a objetos </a>.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su administrador de Workfront.
+</table>-->
 
 ## Actualizar grupo y estado del proyecto
 
@@ -103,7 +99,7 @@ Al actualizar el grupo de un proyecto, las opciones disponibles para el estado d
    >Si selecciona un grupo diferente en el menú desplegable **Grupo**, los estados personalizados en el menú **Estado** cambian automáticamente para correlacionarse con el nuevo grupo.
    >
    >
-   >![Se ha ampliado la lista desplegable de estado con los estados personalizados del proyecto](assets/status-drop-down-expanded-with-custom-statuses-for-project-nwe.png)   >
+   >![Se ha ampliado la lista desplegable de estado con los estados personalizados del proyecto](assets/status-drop-down-expanded-with-custom-statuses-for-project-nwe.png)
    >
 
 1. Seleccione el estado del proyecto. Los estados personalizados que ha creado y aplicado a ese grupo se muestran en la lista.

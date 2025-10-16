@@ -3,47 +3,44 @@ user-type: administrator
 product-area: system-administration;reporting
 navigation-topic: configure-reports-administration
 title: Ocultar Informes Integrados
-description: Adobe Workfront tiene una extensa lista de informes integrados predeterminados a los que los usuarios pueden acceder y ver. Como administrador de Workfront, puede modificar el nivel de acceso de un usuario para ocultar los informes incorporados de modo que los usuarios no tengan acceso a ellos.
+description: Adobe Workfront tiene una extensa lista de informes integrados predeterminados a los que los usuarios pueden acceder y ver. Como administrador de Workfront, puede modificar el nivel de acceso de un usuario para ocultar los informes integrados de modo que los usuarios no tengan acceso a ellos.
 feature: System Setup and Administration
 role: Admin
 author: Nolan, Lisa
 exl-id: d48b0dd7-933e-4e91-a2f1-8d64b1c6dbb3
-source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
+source-git-commit: ebdc4cef2d7054cd14002910872a1fc3deadad91
 workflow-type: tm+mt
-source-wordcount: '194'
-ht-degree: 96%
+source-wordcount: '177'
+ht-degree: 94%
 
 ---
 
 # Ocultar informes integrados
 
-Adobe Workfront tiene una extensa lista de informes integrados predeterminados a los que los usuarios pueden acceder y ver. Como administrador de Workfront, puede modificar el nivel de acceso de un usuario para ocultar los informes incorporados de modo que los usuarios no tengan acceso a ellos.
+Adobe Workfront tiene una extensa lista de informes integrados predeterminados a los que los usuarios pueden acceder y ver. Como administrador de Workfront, puede modificar el nivel de acceso de un usuario para ocultar los informes integrados de modo que los usuarios no tengan acceso a ellos.
 
 ## Requisitos de acceso
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
-
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Plan de Adobe Workfront</td> 
+   <td role="rowheader">paquete de Adobe Workfront</td> 
    <td>Cualquiera</td> 
   </tr> 
   <tr> 
   <tr> 
    <td role="rowheader">Licencia de Adobe Workfront</td> 
-   <td><p>Nuevo: estándar</p>
-       <p>O</p>
-       <p>Actual: plan</p></td>
+   <td><p>Estándar</p>
+       <p>Plan</p></td>
   </tr> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso</td> 
-   <td>[!UICONTROL System Administrator]</td>
+   <td>Administrador del sistema</td>
   </tr> 
  </tbody> 
 </table>

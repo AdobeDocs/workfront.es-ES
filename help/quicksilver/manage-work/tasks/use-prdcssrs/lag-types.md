@@ -2,15 +2,15 @@
 content-type: overview
 product-area: projects
 navigation-topic: use-predecessors
-title: Información general sobre los tipos de retardo
+title: Información general sobre tipos de retardo
 description: El retardo es la cantidad de tiempo que debe transcurrir tras la finalización de una predecesora forzada hasta que la tarea dependiente pueda iniciarse (Retardo positivo) o la cantidad de tiempo que una tarea dependiente podría iniciarse antes de que lo haga la predecesora (Retardo negativo).
 author: Alina
 feature: Work Management
 exl-id: 9b3cac9a-1b8d-4697-b5d4-a2d669c790a9
-source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
+source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
 workflow-type: tm+mt
-source-wordcount: '1452'
-ht-degree: 100%
+source-wordcount: '1444'
+ht-degree: 99%
 
 ---
 
@@ -31,29 +31,55 @@ Las fechas planificadas, proyectadas y estimadas de las tareas sucesoras se calc
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Plan de Adobe Workfront</td> 
+   <td role="rowheader">paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licencia de Adobe Workfront*</td> 
-   <td><p>Nuevo: estándar</p>
-       <p>o</p>
-       <p>Actual: plan </p> </td>
+   <td role="rowheader">Licencia de Adobe Workfront</td> 
+   <td><p>Estándar</p> 
+   <p>Plan</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Nivel de acceso</td> 
+   <td role="rowheader">Configuraciones de nivel de acceso</td> 
    <td> <p>Editar el acceso a Tareas y Proyectos</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Administrar permisos para las tareas y el proyecto</p> </td> 
+   <td> <p>Administrar permisos para las tareas y el proyecto</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-*Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td><p>New: Standard</p>
+       <p>or</p>
+       <p>Current: Plan </p> </td>
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level</td> 
+   <td> <p>Edit access to Tasks and Projects</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>Manage permissions to the tasks and the project</p> </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## Tipos de retardo {#lag-types}
 
@@ -77,7 +103,7 @@ La siguiente tabla ilustra los tipos de retardo y cómo indicar la cantidad de t
   </tr> 
   <tr> 
    <td> <p>Días naturales (c o ce)</p> </td> 
-   <td> <p>El retraso entre dos tareas se mide en días naturales, incluidos festivos y fines de semana. </p> <p>Nota: Aunque este tipo de retardo cuenta los días no laborables como parte del retardo, una tarea dependiente nunca puede iniciarse en un día no laborable. Si este tipo de retardo hace que la tarea dependiente se inicie en un día no laborable, la fecha planificada de inicio de la tarea dependiente se programará para el siguiente día laborable. </p> <p>Por ejemplo, si hay una dependencia finalización-inicio con un retardo de 2 días naturales y la tarea predecesora finaliza el jueves, la tarea dependiente se iniciará el lunes en lugar del domingo. </p> </td> 
+   <td> <p>El retraso entre dos tareas se mide en días naturales, incluidos festivos y fines de semana. </p> <p>Nota: Aunque este tipo de retardo cuenta los días no laborables como parte del retardo, una tarea dependiente nunca puede iniciarse en un día no laborable. Si este tipo de retardo hace que la tarea dependiente se inicie en un día no laborable, la fecha de inicio planificada de la tarea dependiente se programará para el siguiente día laborable. </p> <p>Por ejemplo, si hay una dependencia finalización-inicio con un retardo de 2 días naturales y la tarea predecesora finaliza el jueves, la tarea dependiente se iniciará el lunes en lugar del domingo. </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Porcentaje (p o pe)</p> </td> 
@@ -96,11 +122,11 @@ La siguiente tabla ilustra los tipos de retardo y cómo indicar la cantidad de t
      <li>Jueves=5</li> 
      <li>Viernes=6</li> 
      <li>Sábado=7</li> 
-    </ul> <p>Si desea indicar que la fecha planificada de inicio de la tarea sucesora debe ser un martes de la semana actual y que el martes es anterior a la fecha planificada de finalización de la tarea predecesora, debe codificar la tarea sucesora con la fórmula siguiente: </p> <p><code style="font-style: normal;">4fs-3w</code> </p>
+    </ul> <p>Si desea indicar que la fecha de inicio planificada de la tarea sucesora debe ser un martes de la semana actual y que el martes es anterior a la fecha de finalización planificada de la tarea predecesora, debe codificar la tarea sucesora con la fórmula siguiente: </p> <p><code style="font-style: normal;">4fs-3w</code> </p>
 
 <p><b>NOTA</b></p>
 
-Si se calcula que la fecha de inicio de la tarea sucesora es un martes determinado y que ese día ha transcurrido durante la semana actual, la fecha de inicio planificada de la tarea sucesora es el mismo día (martes) de la semana siguiente, si está disponible. </p> <p>Si desea indicar que el retraso debe caer en un sábado de la semana actual, y el sábado es después de la fecha planificada de finalización de la tarea predecesora, debe codificar la tarea sucesora con la siguiente fórmula:</p> <p><code>4fs+7w</code> </p> <p>Si sábado es un día no laborable, se selecciona el siguiente día disponible después del sábado (para indicar un retraso positivo) como la fecha planificada de inicio de la tarea sucesora. </p>
+Si se calcula que la fecha de inicio de la tarea sucesora es un martes determinado y que ese día ha transcurrido durante la semana actual, la fecha de inicio planificada de la tarea sucesora es el mismo día (martes) de la semana siguiente, si está disponible. </p> <p>Si desea indicar que el retraso debe caer en un sábado de la semana actual, y el sábado es después de la fecha planificada de finalización de la tarea predecesora, debe codificar la tarea sucesora con la siguiente fórmula:</p> <p><code>4fs+7w</code> </p> <p>Si sábado es un día no laborable, se selecciona el siguiente día disponible después del sábado (para indicar un retraso positivo) como la fecha de inicio planificada de la tarea sucesora. </p>
 
 <p>Esto no se aplica a las excepciones de programación. En caso de que una fecha también sea una excepción de programación y la fecha de inicio de la tarea sucesora se calcule en ese día, el sistema intenta encontrar la fecha disponible más cercana, que es el día de la semana especificado en la expresión predecesora.</p>
 

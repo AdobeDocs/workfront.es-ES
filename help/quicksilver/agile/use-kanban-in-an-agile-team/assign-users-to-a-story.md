@@ -6,10 +6,10 @@ description: Puede asignar usuarios a historias directamente en el panel Kanban.
 author: Lisa
 feature: Agile
 exl-id: ed727302-68c7-4e00-b05c-a5ed238bcc2d
-source-git-commit: 452f8ddc5268a0d67e32090d166199f2fad7dbc7
+source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
 workflow-type: tm+mt
-source-wordcount: '228'
-ht-degree: 0%
+source-wordcount: '214'
+ht-degree: 84%
 
 ---
 
@@ -21,8 +21,6 @@ Puede asignar usuarios a historias directamente en el panel Kanban.
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -30,19 +28,18 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
+   <td role="rowheader">paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licencia</td> 
-   <td> <p>Nuevo: [!UICONTROL Standard]</p> 
-   o
-   <p>Actual: [!UICONTROL Work] o superior</p> </td> 
+   <td role="rowheader">Licencia de Adobe Workfront</td> 
+   <td> <p>Estándar</p> 
+   <p>Trabajo o superior</p> </td> 
   </tr>
  </tbody> 
 </table>
 
-Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -50,14 +47,14 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
 
 {{step1-to-team}}
 
-1. (Opcional) Haga clic en el icono **[!UICONTROL Cambiar equipo]** ![Cambiar icono de equipo](assets/switch-team-icon.png) y, a continuación, seleccione un nuevo equipo Kanban en el menú desplegable o busque un equipo en la barra de búsqueda.
+1. (Opcional) Haga clic en el icono **[!UICONTROL Cambiar de equipo]** ![icono Cambiar de equipo](assets/switch-team-icon.png) y, a continuación, seleccione un nuevo equipo Kanban en el menú desplegable o busque un equipo en la barra de búsqueda.
 
-1. Vaya al panel ágil [!UICONTROL Kanban] donde desee asignar usuarios.
-1. Vaya al mosaico de la historia del tablero [!UICONTROL Kanban] en el que desea agregar un usuario.
-1. Haga clic en el avatar del equipo en el mosaico de la historia (o en un avatar de usuario si ya se ha asignado uno), empiece a escribir el nombre del usuario que desea asignar a la historia y, a continuación, haga clic en el nombre cuando aparezca. También puede elegir un usuario sugerido.
+1. Vaya al tablero [!UICONTROL Kanban] de Agile donde desee asignar usuarios.
+1. Vaya al mosaico de la historia del tablero [!UICONTROL Kanban] en el que desea añadir un usuario.
+1. Haga clic en el avatar del equipo en el mosaico de la historia (o en un avatar de usuario si ya se ha asignado uno), empiece a escribir el nombre del usuario que desea asignar a la historia y, a continuación, haga clic en el nombre cuando aparezca. También puede elegir un usuario diferente.
 
    >[!TIP]
    >
-   >También puede asignar un rol a una historia. Solo puede asignar usuarios y funciones activos.
+   >También puede asignar una función a una historia. Solo puede asignar usuarios activos y funciones activas.
 
-   ![Agregar asignación a la tarjeta de historia](assets/addassignmenttostorycard-350x472.png)
+   ![Añadir asignación a la tarjeta de historia](assets/addassignmenttostorycard-350x472.png)

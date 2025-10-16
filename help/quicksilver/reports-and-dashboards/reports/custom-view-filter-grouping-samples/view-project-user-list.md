@@ -2,19 +2,19 @@
 content-type: reference
 product-area: reporting;projects;user-management
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Ver: Lista de usuarios del proyecto con funciones de trabajo"
+title: 'Ver: Lista de usuarios del proyecto con roles'
 description: Puede aplicar esta vista en una lista de proyectos o un informe para mostrar una lista de los usuarios asociados al proyecto, así como una lista de las funciones que desempeñan en el proyecto.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: a3f59f69-7f39-4814-bd2f-7734d620081e
-source-git-commit: 6405c01c8b1d842a4175f9caa18a7ed31316a3a1
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '356'
-ht-degree: 0%
+source-wordcount: '335'
+ht-degree: 77%
 
 ---
 
-# Vista: lista de usuarios del proyecto con funciones del puesto
+# Vista: lista de usuarios del proyecto con funciones
 
 <!--Audited: 11/2024-->
 
@@ -24,7 +24,7 @@ La información de este informe también se puede encontrar en el área Personas
 
 >[!TIP]
 >
->Si no se enumeran funciones del puesto para los usuarios, pero sabe que están asociados a funciones del puesto en sus perfiles de usuario, puede que esto signifique que están asignados a tareas y problemas, pero es posible que no estén asociados a una función del puesto en la tarea o el problema, o que los usuarios enumerados en el informe no sean los asignados a tareas y problemas, pero cumplan otras funciones en el proyecto (por ejemplo, Propietario o Patrocinador).
+>Si no se enumeran funciones para los usuarios, pero sabe que están asociados a funciones en sus perfiles de usuario, puede que esto signifique que están asignados a tareas y problemas, pero es posible que no estén asociados a una función en la tarea o el problema, o que los usuarios enumerados en el informe no sean los asignados a tareas y problemas, pero cumplan otras funciones en el proyecto (por ejemplo, Propietario o Patrocinador).
 
 ![project_with_user_and_role_information_report.png](assets/project-with-user-and-role-information-report-350x100.png)
 
@@ -32,49 +32,38 @@ La información de este informe también se puede encontrar en el área Personas
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plan de Adobe Workfront</td> 
+   <td role="rowheader">paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licencia de Adobe Workfront</td> 
-   <td> <p> Actual: 
-   <ul>
-   <li>Solicitud para modificar una vista</li> 
-   <li>Plan para modificar un informe</li>
-   </ul>
-     </p>
-     <p> Nuevo: 
-   <ul>
-   <li>Colaborador para modificar una vista</li> 
-   <li>Estándar para modificar un informe</li>
-   </ul>
-     </p>
-    </td> 
+   <td> 
+   <p>Colaborador o solicitud para modificar una vista </p>
+   <p>Estándar o Plan para modificar un informe</p>
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraciones de nivel de acceso*</td> 
-   <td> <p>Editar el acceso a Informes, Tableros y Calendarios para modificar un informe</p> <p>Editar el acceso a filtros, vistas y agrupaciones para modificar una vista</p> </td> 
+   <td role="rowheader">Configuraciones de nivel de acceso</td> 
+   <td> <p>Editar el acceso a Informes, Paneles de control y Calendarios para modificar un informe</p> <p>Edición del acceso a Filtros, Vistas y Agrupaciones para modificar una vista</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Administración de permisos de un informe</p> </td> 
+   <td> <p>Permisos de administración para un informe</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
 
 +++
 
 
-## Ver una lista de usuarios del proyecto con roles
+## Ver una lista de usuarios del proyecto con funciones
 
 1. Ir a una lista de proyectos.
 1. En el menú desplegable **Vista**, seleccione **Nueva vista**.

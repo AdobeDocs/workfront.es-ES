@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration, [!DNL Workfront] Integrations and Apps, Digital Content and Documents
 role: Admin
 exl-id: fd45e1bc-9a35-4960-a73a-ff845216afe4
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 711812d9fd4bf48bb7612c0339cee2cdbe08ef10
 workflow-type: tm+mt
-source-wordcount: '1729'
-ht-degree: 7%
+source-wordcount: '1711'
+ht-degree: 6%
 
 ---
 
@@ -47,28 +47,26 @@ Esta integración solamente es compatible con [!DNL SharePoint Online]. No se ad
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
-Para realizar los pasos de este artículo, debe tener lo siguiente:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
-   <td>Cualquiera</td> 
+   <td role="rowheader">paquete de Workfront</td> 
+   <td><p>Cualquiera</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licencia</td> 
-   <td>Nuevo: estándar <p>O</p><p>Actual: plan</p></td> 
+   <td role="rowheader">Licencia de Adobe Workfront</td> 
+   <td><p>Estándar</p> <p>Plan</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraciones de nivel de acceso*</td> 
-   <td>Debe ser administrador de [!DNL Workfront]. </td> 
+   <td role="rowheader">Configuraciones de nivel de acceso</td> 
+   <td>Debe ser administrador de Workfront. </td> 
   </tr> 
  </tbody> 
 </table>
 
-Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -172,7 +170,7 @@ La reconfiguración de la integración heredada de [!DNL SharePoint] permite a l
 
 1. Haga clic en el icono **[!UICONTROL Main Menu]** ![Menú principal](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront o, si está disponible, haga clic en el icono **[!UICONTROL Main Menu]** ![Menú principal](/help/_includes/assets/main-menu-icon-left-nav.png) en la esquina superior izquierda y, a continuación, haga clic en **[!UICONTROL Setup]** ![Icono de Configuración](/help/_includes/assets/gear-icon-setup.png).
 1. Seleccione **[!UICONTROL Documentos]** en el panel de navegación izquierdo y luego seleccione **[!UICONTROL Proveedores de nube]**.
-1. Asegúrese de que la opción **[!DNL SharePoint]** y la opción **[!UICONTROL [!DNL SharePoint] (API de gráficos)]** estén habilitadas.
+1. Asegúrese de que la opción **[!DNL SharePoint]** y la opción **[!UICONTROL [!DNL SharePoint](API de gráficos)]** estén habilitadas.
 1. Haga clic en **[!UICONTROL Guardar]**.
 1. Seleccione **[!UICONTROL Documentos]** en el panel de navegación izquierdo, luego seleccione **[!UICONTROL [!DNL SharePoint]Integración]**.
 1. Seleccione la marca de verificación de la izquierda de la lista para todas las integraciones existentes y luego seleccione **[!UICONTROL Deshabilitar]**.
@@ -185,7 +183,7 @@ El secreto de cliente de [!DNL SharePoint] caduca una vez al año. Para garantiz
 
 >[!IMPORTANT]
 >
-> Dado que [!DNL Microsoft] administra los secretos de cliente de [!DNL SharePoint], las características y los procedimientos de los secretos de cliente pueden cambiar según las actualizaciones de [!DNL SharePoint] realizadas por [!DNL Microsoft]. Consulte siempre la documentación de [!DNL Microsoft] para obtener la información más reciente acerca de los procedimientos y características de [!DNL SharePoint].
+> Dado que [!DNL SharePoint] administra los secretos de cliente de [!DNL Microsoft], las características y los procedimientos de los secretos de cliente pueden cambiar según las actualizaciones de [!DNL SharePoint] realizadas por [!DNL Microsoft]. Consulte siempre la documentación de [!DNL Microsoft] para obtener la información más reciente acerca de los procedimientos y características de [!DNL SharePoint].
 
 <!--1. Go to the site that your [!DNL SharePoint] integration uses. This may be a site that you created when setting up the integrations, or it may be your organization's root site.
 

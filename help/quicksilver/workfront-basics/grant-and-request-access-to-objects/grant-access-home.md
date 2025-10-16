@@ -6,10 +6,10 @@ description: Los usuarios pueden solicitar acceso a los objetos dentro de Adobe 
 author: Alina
 feature: Get Started with Workfront
 exl-id: e0a69ed5-57c3-47ac-bb7a-65495f93b3e3
-source-git-commit: 2c94dd423cfffc7685f24699fa73fb6a48cf2806
+source-git-commit: 4ae96f67b15838403ffce32317d871d6904d6d95
 workflow-type: tm+mt
-source-wordcount: '488'
-ht-degree: 62%
+source-wordcount: '479'
+ht-degree: 60%
 
 ---
 
@@ -25,22 +25,21 @@ Si es el propietario de un objeto, puede conceder o denegar el acceso a los elem
 
 ## Requisitos de acceso
 
-+++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
-
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Plan de Adobe Workfront</td> 
-   <td> <p>Cualquiera</p> </td> 
+   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td> <p>Cualquiera </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licencia de Adobe Workfront*</td> 
-   <td> <p>Nuevo: estándar</p> 
-   <p>Actual: Trabajo o superior</p> </td> 
+   <td role="rowheader">Licencia de Adobe Workfront</td> 
+   <td> <p>Estándar</p> 
+   <p>Trabajo o superior</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso</td> 
@@ -53,7 +52,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  </tbody> 
 </table>
 
-*Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -89,7 +88,7 @@ Puede configurar si desea recibir notificaciones por correo electrónico para la
 1. Para ir al perfil de usuario, siga uno de estos procedimientos:
 
    * Haga clic en el **menú principal** ![](assets/dots-main-menu.png) en la esquina superior derecha de la pantalla y, a continuación, haga clic en su nombre.
-   * Haga clic en el **icono de perfil![&#128279;](assets/adobe-blue-main-menu.png) del menú principal** de Adobe en la esquina superior derecha, si está disponible, y luego haga clic en **Perfil de Workfront**.
+   * Haga clic en el **icono de perfil** del ![menú principal](assets/adobe-blue-main-menu.png) de Adobe en la esquina superior derecha, si está disponible, y luego haga clic en **Perfil de Workfront**.
 
 1. Haga clic en el icono **Más** del menú ![más](assets/more-icon.png) a la derecha de su nombre en el encabezado y, a continuación, haga clic en **Editar**.
 1. Haga clic en **Notificaciones** y seleccione o anule la selección de **Alguien me solicita acceso** en la sección **Acción necesaria**, dependiendo de si desea recibir notificaciones por correo electrónico cuando otro usuario solicite o no acceso.

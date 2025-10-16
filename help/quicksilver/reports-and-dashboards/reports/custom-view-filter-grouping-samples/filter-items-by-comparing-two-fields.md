@@ -7,10 +7,10 @@ description: Puede filtrar elementos de una lista comparando dos de sus campos. 
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 6a41db8e-1456-4031-bf2a-ca6d4111ad44
-source-git-commit: e8acdf8f7b3859385237e788dfda34ee62ee11d1
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '248'
-ht-degree: 83%
+source-wordcount: '233'
+ht-degree: 77%
 
 ---
 
@@ -22,28 +22,21 @@ Puede filtrar elementos de una lista comparando dos de sus campos. Por ejemplo, 
 
 ## Requisitos de acceso
 
-+++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
-
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Plan de Adobe Workfront</td> 
+   <td role="rowheader">paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licencia de Adobe Workfront*</td> 
+   <td role="rowheader">Licencia de Adobe Workfront</td> 
    <td> 
-    <p>Nuevo:</p>
-   <ul><li><p>Colaborador para modificar un filtro </p></li>
-   <li><p>Estándar para modificar un informe</p></li> </ul>
-
-<p>Actual:</p>
-   <ul><li><p>Solicitud para modificar un filtro </p></li>
-   <li><p>Plan para modificar un informe</p></li> </ul></td> 
+   <p>Colaborador o solicitud para modificar un filtro </p>
+   <p>Estándar o Plan para modificar un informe</p>
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso</td> 
@@ -56,7 +49,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  </tbody> 
 </table>
 
-*Para obtener información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -65,7 +58,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 1. Vaya a una lista de tareas.
 1. En el menú desplegable **Filtro**, seleccione **Nuevo filtro**.
 
-1. Agregar un filtro para **Tarea: Fecha real de finalización** > **Mayor que** > **Seleccione una fecha**.
+1. Agregue un filtro para **Fecha de finalización de la tarea:Actual** > **Más que** > **Seleccione una fecha**.
 
    >[!TIP]
    >

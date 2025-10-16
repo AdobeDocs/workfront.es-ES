@@ -7,10 +7,10 @@ author: Alina
 feature: Work Management
 exl-id: a0e80c4d-29a8-4bf8-aa19-0c2d493236c6
 recommendations: noDisplay, noCatalog
-source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
+source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
 workflow-type: tm+mt
-source-wordcount: '895'
-ht-degree: 95%
+source-wordcount: '878'
+ht-degree: 94%
 
 ---
 
@@ -28,36 +28,59 @@ Puede eliminar un proyecto en una lista de proyectos o a nivel de proyecto.
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td> <p>paquete de Adobe Workfront</p> </td> 
+   <td>Cualquiera</td> 
+  </tr> 
+  <tr> 
+   <td> <p>Licencia de Adobe Workfront</p> </td> 
+   <td> <p>Estándar</p>
+   <p>Plan</p> 
+   </td> 
+  </tr> 
+    <td>Configuraciones de nivel de acceso</td> 
+   <td> <p>Acceso de edición a los proyectos con la posibilidad de crear y eliminar proyectos</p> </td> 
+  </tr> 
+    <td> <p>Permisos de objeto</p> </td> 
+   <td> <p>Acceso de edición a proyectos, tareas, problemas con la posibilidad de eliminar proyectos, tareas y problemas</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
+<!--Old:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td> <p>Plan de Adobe Workfront</p> </td> 
-   <td>Cualquiera</td> 
+   <td> <p>Adobe Workfront plan</p> </td> 
+   <td>Any</td> 
   </tr> 
   <tr> 
-   <td> <p>Licencia de Adobe Workfront*</p> </td> 
-   <td> <p>Nueva licencia: estándar </p>
-   <p>Licencia actual: plan </p> 
+   <td> <p>Adobe Workfront license*</p> </td> 
+   <td> <p>New license: Standard </p>
+   <p>Current license: Plan </p> 
    </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>Configuración de nivel de acceso</td> 
-   <td> <p>Acceso de edición a los proyectos con la posibilidad de crear y eliminar proyectos</p> </td> 
+   <td>Access level configuration</td> 
+   <td> <p>Edit access to Projects with ability to Create and Delete projects</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p>Permisos de objeto </p> </td> 
-   <td> <p>Acceso de edición a proyectos, tareas, problemas con la posibilidad de eliminar proyectos, tareas y problemas</p> </td> 
+   <td> <p>Object permissions </p> </td> 
+   <td> <p>Edit access to Projects, Tasks, Issues with ability to Delete projects, tasks, and issues</p> </td> 
   </tr> 
  </tbody> 
-</table>
-
-*Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
-
-+++
+</table>-->
 
 ## Comprender el proceso de eliminación de proyectos
 

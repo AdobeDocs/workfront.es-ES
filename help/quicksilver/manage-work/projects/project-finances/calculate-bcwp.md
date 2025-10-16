@@ -7,9 +7,9 @@ description: También conocido como Valor acumulado, el Coste presupuestado del 
 author: Lisa
 feature: Work Management
 exl-id: 203709a7-e522-4875-b3eb-40b967a938ec
-source-git-commit: b983a780198743a2b87b4b48cf4d6afdf1cee437
+source-git-commit: 23a4d055871c9138818e70fa1cd936581dbd7552
 workflow-type: tm+mt
-source-wordcount: '594'
+source-wordcount: '571'
 ht-degree: 98%
 
 ---
@@ -38,35 +38,32 @@ Tenga en cuenta lo siguiente cuando revise los valores del CPTR de una tarea o p
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Plan de Adobe Workfront</td> 
+   <td>paquete de Adobe Workfront</td> 
    <td>Cualquiera</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licencia de Adobe Workfront</td> 
+   <td>Licencia de Adobe Workfront</td> 
    <td>
-   <p>Nuevo: estándar</p>
-   <p>o</p>
-   <p>Actual: plan</p></td> 
+   <p>Estándar</p>
+   <p>Plan</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraciones de nivel de acceso</td> 
+   <td>Configuraciones de nivel de acceso</td> 
    <td>Acceso de edición a proyectos</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Permisos de objeto</td> 
+   <td>Permisos de objeto</td> 
    <td>Administrar permisos del proyecto</td> 
   </tr> 
  </tbody> 
 </table>
 
-Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

@@ -6,10 +6,10 @@ description: Para encontrar de forma eficaz los elementos de trabajo y centrarse
 author: Lisa
 feature: Resource Management
 exl-id: f8ffb40e-4e71-45fe-bcae-801d45d75a21
-source-git-commit: fc82ce4b5abb2cd7411d62ac8bb428bc5337386f
+source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
 workflow-type: tm+mt
-source-wordcount: '2458'
-ht-degree: 51%
+source-wordcount: '2437'
+ht-degree: 50%
 
 ---
 
@@ -36,27 +36,21 @@ Este artículo contiene información sobre los filtros del Distribuidor de carga
 
 ## Requisitos de acceso
 
-+++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
-
 <table style="table-layout:auto"> 
  <col> 
- </col> 
- <col> 
- </col> 
+ <col>
  <tbody> 
   <tr> 
-   <td role="rowheader">Plan de Adobe Workfront</td> 
-   <td> <p>Cualquiera</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Licencia de Adobe Workfront</td> 
-   <td><p>Nuevo: estándar</p>
-       <p>Actual: Planificar (al utilizar el Distribuidor de cargas de trabajo en el área de Recursos)</p>
-       <p>O</p>
-       <p>Trabajo (cuando se utiliza el Distribuidor de cargas de trabajo de un equipo o proyecto)</p></td>
+   <td>paquete de Adobe Workfront</td> 
+   <td><p>Cualquiera</p></td>
   </tr>
   <tr> 
-   <td role="rowheader">Configuraciones de nivel de acceso</td> 
+   <td>Licencia de Adobe Workfront</td> 
+   <td><p>Estándar</p>
+       <p>Planificar, al utilizar el Distribuidor de cargas de trabajo en el área de Recursos; Trabajar, al utilizar el Distribuidor de cargas de trabajo de un equipo o proyecto</p></td>
+  </tr>
+  <tr> 
+   <td>Configuraciones de nivel de acceso</td> 
    <td> <p>Acceso de visualización o superior a lo siguiente:</p> 
     <ul> 
      <li>Administración de recursos</li> 
@@ -68,7 +62,7 @@ Este artículo contiene información sobre los filtros del Distribuidor de carga
     <p>Editar el acceso a filtros, vistas y agrupaciones al crear o editar filtros </p> </td>
   </tr> 
   <tr> 
-   <td role="rowheader">Permisos de objeto</td> 
+   <td>Permisos de objeto</td> 
    <td> <p>Permisos de visualización o superiores para proyectos, tareas y problemas</p>
    <p>Permisos de administración para los filtros que desee editar o eliminar</p>
    </td> 
@@ -76,7 +70,7 @@ Este artículo contiene información sobre los filtros del Distribuidor de carga
  </tbody> 
 </table>
 
-Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -359,7 +353,7 @@ Para compartir un filtro:
 
 1. (Opcional) Habilite o deshabilite los permisos adicionales para una entidad mediante uno de los procedimientos siguientes:
 
-   1. Haga clic en **Visualización** y deshabilite la opción **Compartir**. Esta opción está activada de forma predeterminada.
+   1. Haga clic en **Visualización** y deshabilite la opción **Compartir**. Esta opción está habilitada de forma predeterminada.
 
    1. Haga clic en **Administrar** y habilite la opción **Compartir** o **Eliminar**.
 

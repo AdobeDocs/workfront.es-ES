@@ -3,39 +3,51 @@ content-type: reference
 product-previous: workfront-goals
 navigation-topic: workfront-goals-navigation-topic
 title: Configuración de Adobe Workfront Goals
-description: Obtenga información acerca de las notificaciones relacionadas con objetivos y cómo compartir un objetivo en Adobe Workfront Goals en los siguientes artículos.
+description: Obtenga información sobre las notificaciones relacionadas con las metas y cómo compartir una meta en Adobe Workfront Goals en los siguientes artículos.
 author: Alina
 feature: Workfront Goals
 recommendations: noDisplay, noCatalog
 exl-id: 7cdef9d5-e37b-4f1f-9293-39c79781590a
-source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
+source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
 workflow-type: tm+mt
-source-wordcount: '123'
-ht-degree: 0%
+source-wordcount: '110'
+ht-degree: 50%
 
 ---
 
 # Configuración de Adobe Workfront Goals
 
+<!--Audited for P&P only: 10/2025-->
+
+>[!NOTE]
+>
+>Su empresa puede optar por seguir utilizando los objetivos de Adobe Workfront si compró este paquete anteriormente. Debe hablar con el representante de su cuenta para obtener más detalles.
+>
+>Adobe Workfront Goals ya no se puede adquirir.
+>
+>Para obtener información adicional sobre el acceso a Workfront Goals, consulte [Requisitos para usar Workfront Goals](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
+
+<!--Old:
+
 >[!IMPORTANT]
 >
->Su organización debe tener lo siguiente para utilizar la funcionalidad descrita en este artículo:
+>Your organization must have the following to use the functionality described in this article:
 >
->* Para el nuevo plan y la estructura de licencias:
+>* For the new plan and license structure:
 >
->   * El plan Ultimate Workfront
+>   * The Ultimate Workfront plan 
 >    
->* Para el plan y la estructura de licencias actuales:
+>* For the current plan and license structure: 
 >
->   * Un plan Pro o superior de Workfront
->   * Una licencia de Adobe Workfront Goals además de una licencia de Workfront.
+>   * A Pro or higher Workfront plan
+>   * An Adobe Workfront Goals license in addition to a Workfront license.
 >
->Póngase en contacto con el administrador de cuentas de Workfront para obtener más información sobre una licencia de Workfront Goals.
+>Contact your Workfront account manager to learn about a Workfront Goals license.    
 > 
->Para obtener información adicional sobre el acceso a las metas de Workfront, consulte [Requisitos para usar las metas de Workfront](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
+>For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).  -->
 
-Esta sección contiene los siguientes artículos:
+Obtenga información acerca de las notificaciones relacionadas con objetivos y cómo compartir un objetivo en Adobe Workfront Goals en los siguientes artículos:
 
 * [Habilitar notificaciones de Adobe Workfront Goals](../../workfront-goals/workfront-goals-settings/wf-goals-notifications.md)
 * [Compartir una meta en Workfront Goals](../../workfront-goals/workfront-goals-settings/share-a-goal.md)
-* [Personalizar terminología de Adobe Workfront Goals](../workfront-goals-settings/customize-wf-goals-terminology.md)
+* [Personalizar la terminología de Adobe Workfront Goals](../workfront-goals-settings/customize-wf-goals-terminology.md)

@@ -6,9 +6,9 @@ description: Puede vincular documentos y carpetas a Adobe Workfront desde fuente
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 97823f70-6544-445a-9a81-abe1e2f3de55
-source-git-commit: a005c7114388e1c20a4847b3da3229667be0ded7
+source-git-commit: 430751f0e38c6c45145c965398990ee3652f36fe
 workflow-type: tm+mt
-source-wordcount: '2568'
+source-wordcount: '2545'
 ht-degree: 94%
 
 ---
@@ -61,21 +61,18 @@ Puede revisar y aprobar documentos vinculados a un proveedor de servicios en la 
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Plan de Adobe Workfront</td>
+   <td role="rowheader">paquete de Adobe Workfront</td>
    <td> <p> Cualquiera</p> </td>
   </tr> 
   <tr> 
    <td role="rowheader">Licencia de Adobe Workfront</td>
-   <td><p>Nuevo: colaborador o superior</p>
-    <p>o</p>
-    <p>Actual: solicitud o superior</p> </td>
+   <td><p>Colaborador o superior</p>
+    <p>Solicitud o superior</p> </td>
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso</td> 
@@ -84,7 +81,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  </tbody> 
 </table>
 
-Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

@@ -6,9 +6,9 @@ description: Puede recibir notificaciones de  [!DNL Adobe Workfront] acerca de l
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 7771a7d7-7e20-4b3d-95e7-1050aeb3af67
-source-git-commit: 940cbfb34f12eacd5ba698f60fb7a3e67eb62b22
+source-git-commit: 4cf780aa1b1221cd6ff8e6ce58fbb7d3621f7fa9
 workflow-type: tm+mt
-source-wordcount: '1438'
+source-wordcount: '1434'
 ht-degree: 92%
 
 ---
@@ -30,26 +30,31 @@ Estas notificaciones contienen [!DNL Workfront] acciones que puede realizar en [
 >[!DNL Microsoft Teams] ya no admite [!DNL Internet Explorer]. Para usar [!DNL Adobe Workfront for Microsoft Teams integration], debe usar un explorador web que no sea [!DNL Internet Explorer].
 
 
+
+
 ## Requisitos de acceso
 
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
+   <td role="rowheader">paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licencia*</td> 
-   <td> <p>[!UICONTROL Work], [!UICONTROL Plan]</p> </td> 
+   <td role="rowheader">Licencia de Adobe Workfront</td> 
+   <td> <p>Estándar</p>
+   <p>Trabajo o superior</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de [!DNL Workfront].
+Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Requisitos previos para recibir notificaciones de [!DNL Workfront] en [!DNL Microsoft Teams]
 

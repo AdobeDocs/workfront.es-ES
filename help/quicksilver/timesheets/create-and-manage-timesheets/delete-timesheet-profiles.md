@@ -3,13 +3,13 @@ product-area: timesheets
 navigation-topic: create-and-manage-timesheets
 title: Eliminar perfiles de plantilla de horas
 description: Puede eliminar un perfil de hoja de horas que ya no sea relevante.
-author: Alina
+author: Lisa
 feature: Timesheets
 exl-id: 1fb39f74-205b-485e-9e8b-a2ab3f9f1ac4
-source-git-commit: a94f358e7d4b8a23ff37d1adc0644f4e3ee6f013
+source-git-commit: 69cd5fb1d089b81b7a1673609b92537137b6b68e
 workflow-type: tm+mt
 source-wordcount: '289'
-ht-degree: 28%
+ht-degree: 27%
 
 ---
 
@@ -25,30 +25,30 @@ Para obtener información sobre los perfiles de plantilla de horas, consulte [Cr
 
 ## Requisitos de acceso
 
-+++ Amplíe para ver los requisitos de acceso. 
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
-<table style="table-layout:auto"> 
+<table style="table-layout:auto">
  <col> 
- <col> 
+ <col>
  <tbody> 
   <tr> 
-   <td role="rowheader">Plan de Adobe Workfront</td> 
-   <td> <p>Cualquiera</p> </td> 
+   <td>paquete de Adobe Workfront</td> 
+   <td><p>Cualquiera</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licencia de Adobe Workfront*</td> 
-   <td> <p>Nuevo: estándar</p>
-   O
-   <p>Actual: plan </p> </td> 
+   <td>Licencia de Adobe Workfront</td> 
+   <td>
+   <p>Estándar</p>
+   <p>Plan</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraciones de nivel de acceso</td> 
-   <td> <p>Debe tener acceso administrativo a las plantillas de horas. </p>  </td> 
+   <td>Configuraciones de nivel de acceso</td> 
+   <td><p>Acceso administrativo a hojas de horas</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Para obtener información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

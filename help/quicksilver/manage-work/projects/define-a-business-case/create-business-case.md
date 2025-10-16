@@ -2,12 +2,12 @@
 navigation-topic: business-case-and-scorecards
 title: Creación de un caso empresarial para un proyecto
 description: Puede utilizar el caso empresarial para solicitar un proyecto y definir el propósito, el presupuesto y el beneficio potencial del proyecto. El administrador de Portafolios o el patrocinador del proyecto utilizan la información del caso empresarial para analizar y priorizar el proyecto antes de aprobarlo.
-author: Alina
+author: Becky
 feature: Work Management
 exl-id: db69b3bf-04e3-49b4-ae0d-ab6145389db5
-source-git-commit: f97c989f57d864252adf6e24f8e6b03f56d26901
+source-git-commit: fa0b4322b9f7c1d506cf194645c7ae50ad8c0f0b
 workflow-type: tm+mt
-source-wordcount: '784'
+source-wordcount: '777'
 ht-degree: 64%
 
 ---
@@ -27,17 +27,16 @@ Puede utilizar el caso empresarial para solicitar un proyecto y definir el prop�
  <col> 
  <tbody> 
  <tr> 
-   <td role="rowheader"><p>Plan de Adobe Workfront*</p></td> 
+   <td role="rowheader"><p>Plan de Adobe Workfront</p></td> 
    <td> 
-   <p>Actual: Prime o superior</p> 
-   <p>Heredado: Pro o superior</p> 
+   <p>Prime o superior</p> 
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Licencia de Adobe Workfront*</p></td> 
+   <td role="rowheader"><p>Licencia de Adobe Workfront</p></td> 
    <td> 
-   <p>Actual: Estándar </p> 
-   <p>Heredado: plan </p> </td> 
+   <p>Estándar </p> 
+   <p>Plan </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Configuraciones de nivel de acceso</p></td> 
@@ -50,7 +49,7 @@ Puede utilizar el caso empresarial para solicitar un proyecto y definir el prop�
  </tbody> 
 </table>
 
-*Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

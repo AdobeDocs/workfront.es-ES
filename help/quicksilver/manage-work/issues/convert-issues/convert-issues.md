@@ -1,27 +1,29 @@
 ---
 product-area: projects
 navigation-topic: convert-issues
-title: Información general sobre la conversión de problemas en Adobe Workfront
+title: Información general sobre los problemas de conversión en Adobe Workfront
 description: Si es necesario trabajar más para completar un problema después de enviarlo, puede convertir el problema en un proyecto o en una tarea.
 author: Alina
 feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 97c83b65-208b-4e3f-b4cc-681237d82aa3
-source-git-commit: 55c714436fe59c84251c7f4e2a46614feae92cd6
+source-git-commit: 0542587bb3254dec5664de493c1c321528cf7f3e
 workflow-type: tm+mt
-source-wordcount: '1506'
-ht-degree: 95%
+source-wordcount: '1497'
+ht-degree: 92%
 
 ---
 
 # Información general sobre la conversión de problemas en Adobe Workfront
 
+<!--Audited: 08/2025-->
+
 Si es necesario trabajar más para completar un problema después de enviarlo, puede convertir el problema en un proyecto o en una tarea.
 
-Para obtener información sobre la conversión de problemas en tareas, consulte [Convertir un problema en una tarea en Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issue-to-task.md).
+Para obtener información acerca de cómo convertir problemas en tareas, vea [Convertir un problema en una tarea](../../../manage-work/issues/convert-issues/convert-issue-to-task.md).
 
-Para obtener información sobre la conversión de problemas en proyectos, consulte [Convertir un problema en un proyecto en Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issue-to-project.md).
+Para obtener información acerca de cómo convertir problemas en proyectos, vea [Convertir un problema en un proyecto](../../../manage-work/issues/convert-issues/convert-issue-to-project.md).
 
 ## Consideraciones al convertir problemas
 
@@ -62,7 +64,7 @@ Para obtener información sobre la conversión de problemas en proyectos, consul
 
 Al convertir un problema en un proyecto, puede convertirlo en un proyecto en blanco o utilizar una plantilla.
 
-Para obtener más información, consulte [Convertir un problema en un proyecto en Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issue-to-project.md).
+Para obtener más información, vea [Convertir un problema en un proyecto](../../../manage-work/issues/convert-issues/convert-issue-to-project.md).
 
 Al utilizar una plantilla, algunos campos que se rellenan en la plantilla se transfieren al proyecto creado desde el problema convertido. Otros campos se transfieren al proyecto desde el problema convertido.
 

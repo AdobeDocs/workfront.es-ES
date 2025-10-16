@@ -6,10 +6,10 @@ description: Puede restablecer su contraseña de  [!DNL Adobe Workfront] . Como 
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 571cd77d-4f63-40c2-8a21-9646e924e75e
-source-git-commit: 1a81c1becfc0866b92dbd1358af23671e5302266
+source-git-commit: 80897b9b7752283ec985611e349e4180e48b224a
 workflow-type: tm+mt
-source-wordcount: '235'
-ht-degree: 74%
+source-wordcount: '232'
+ht-degree: 73%
 
 ---
 
@@ -27,32 +27,21 @@ Puede restablecer su contraseña de [!DNL Adobe Workfront]. Como medida de segur
 
 ## Requisitos de acceso
 
-+++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo. 
-
-Debe tener lo siguiente:
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
 <table style="table-layout:auto"> 
  <col> 
- </col> 
- <col> 
- </col> 
+ </col>
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan</strong></td> 
+   <td>paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licencia</strong></td> 
+   <td>Licencia de Adobe Workfront</td> 
    <td> 
-      <p>Nuevo:</p>
-         <ul>
-         <li><p>Colaborador o superior</p></li>
-         </ul>
-      <p>Actual:</p>
-         <ul>
-         <li><p>Solicitud o superior</p></li>
-         </ul>
-   </td>
+   <p>Colaborador o superior</p>
+   <p>Solicitud o superior</p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -1,15 +1,15 @@
 ---
 product-area: workfront-integrations;setup
 navigation-topic: adobe-workfront-for-creative-cloud
-title: XD Cargar tableros de trabajo de la como documentos a Workfront
+title: Cargar mesas de trabajo de XD como documentos a Workfront
 description: Puede cargar las mesas de trabajo como documentos para su rápida revisión y aprobación, o simplemente para almacenarlos en Adobe Workfront.
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: 710035f7-339c-457c-b9b0-e51bc0e0061d
-source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
+source-git-commit: a65a4568c6428768ee6bc60a59a8499efdbec9f8
 workflow-type: tm+mt
-source-wordcount: '596'
-ht-degree: 45%
+source-wordcount: '530'
+ht-degree: 38%
 
 ---
 
@@ -22,42 +22,42 @@ Puede cargar las mesas de trabajo como documentos para revisarlos y aprobarlos r
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <!-- <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
-   <td> <p>[!UICONTROL Pro] or higher</p> </td> 
+   <!-- <td role="rowheader">[!DNL Adobe Workfront] package</td> 
+   <td> <p>Any</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
-   <td> <p>[!UICONTROL Work] or [!UICONTROL Plan]</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] license</td> 
+   <td> 
+   <p>Standard</p>
+   <p>Work or higher</p> </td> 
   </tr> 
   <tr> -->
-   <td role="rowheader">Producto</td> 
-   <td>Debe tener una licencia de [!DNL Adobe Creative Cloud] además de una licencia de [!DNL Workfront].</td> 
+   <td role="rowheader">Productos adicionales</td> 
+   <td>Debe tener una licencia [!DNL Adobe Creative Cloud] además de una licencia [!DNL Workfront].</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraciones de nivel de acceso*</td> 
-   <td> <p>Editar acceso a [!UICONTROL Documents]</p> <p>Nota: Si sigue sin tener acceso, pregunte al administrador de [!DNL Workfront] si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de [!DNL Workfront] puede modificar su nivel de acceso, consulte <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
+   <td role="rowheader">Configuraciones de nivel de acceso</td> 
+   <td> <p>Editar acceso a [!UICONTROL Documents]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Acceso de [!UICONTROL View] o superior al objeto donde desea cargar un documento.</p> <p>Para obtener información sobre cómo solicitar acceso adicional, consulte <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a objetos</a>.</p> </td> 
+   <td> <p>Acceso de [!UICONTROL View] o superior al objeto donde desea cargar un documento.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de [!DNL Workfront].
+Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Requisitos previos
 
-* XD Debe instalar el complemento [!DNL Adobe Workfront for XD] para poder cargar tableros de arte como documentos en Workfront para poder cargar los tableros de arte de la.
+* Debe instalar el complemento [!DNL Adobe Workfront for XD] para poder cargar tableros de arte de XD como documentos en Workfront.
 
 Para obtener instrucciones, consulte [Instalar [!DNL Adobe Workfront for XD]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-install.md).
 
@@ -92,15 +92,15 @@ Para obtener instrucciones, consulte [Instalar [!DNL Adobe Workfront for XD]](/h
      </tr>
      <tr>
       <td role="rowheader">JPG</td>
-      <td>JPG Las mesas de trabajo se cargan como un a la ficha [!UICONTROL Documents] del elemento de trabajo en [!DNL Workfront]. <br></td>
+      <td>Las mesas de trabajo se cargan como un JPG en la ficha [!UICONTROL Documents] del elemento de trabajo en [!DNL Workfront]. <br></td>
      </tr>
      <tr>
       <td role="rowheader">SVG</td>
-      <td>Las mesas de trabajo se cargan como un SVG a la ficha [!UICONTROL Documents] del elemento de trabajo en [!DNL Workfront]. </td>
+      <td>Las mesas de trabajo se cargan como un SVG en la ficha [!UICONTROL Documents] del elemento de trabajo en [!DNL Workfront]. </td>
      </tr>
      <tr>
       <td role="rowheader">PDF</td>
-      <td>Elija si desea que las mesas de trabajo seleccionadas se carguen como <strong>archivo de un solo PDF</strong> o <strong>varios archivos de PDF</strong>. Las mesas de trabajo se cargan como un PDF a la ficha [!UICONTROL Documents] del elemento de trabajo en [!DNL Workfront].</td>
+      <td>Elija si desea que las mesas de trabajo seleccionadas se carguen como <strong>un solo archivo de PDF</strong> o <strong>varios archivos de PDF</strong>. Las mesas de trabajo se cargan como un PDF en la ficha [!UICONTROL Documents] del elemento de trabajo de [!DNL Workfront].</td>
      </tr>
     </tbody>
    </table>
@@ -124,7 +124,7 @@ Para obtener instrucciones, consulte [Instalar [!DNL Adobe Workfront for XD]](/h
 
    >[!NOTE]
    >
-   >Si desea cargar una nueva versión de un SVG, PNG o un JPG, solo puede cargar una mesa de trabajo.
+   >Si desea cargar una nueva versión de un SVG, PNG o JPG, solo puede cargar una mesa de trabajo.
 
 1. (Opcional) Escriba un comentario en el área de **[!UICONTROL Actualizaciones]**.
 
@@ -143,15 +143,15 @@ Para obtener instrucciones, consulte [Instalar [!DNL Adobe Workfront for XD]](/h
      </tr>
      <tr>
       <td role="rowheader">JPG</td>
-      <td>JPG La mesa de trabajo se cargará como un a la ficha [!UICONTROL Documents] del elemento de trabajo en [!DNL Workfront]. <br></td>
+      <td>La mesa de trabajo se carga como un JPG en la ficha [!UICONTROL Documents] del elemento de trabajo de [!DNL Workfront]. <br></td>
      </tr>
      <tr>
       <td role="rowheader">SVG</td>
-      <td>La mesa de trabajo se carga como SVG a la ficha [!UICONTROL Documents] del elemento de trabajo en [!DNL Workfront]. </td>
+      <td>La mesa de trabajo se carga como un SVG en la ficha [!UICONTROL Documents] del elemento de trabajo de [!DNL Workfront]. </td>
      </tr>
      <tr>
       <td role="rowheader">PDF</td>
-      <td><p>Las mesas de trabajo se cargan como PDF a la ficha [!UICONTROL Documents] del elemento de trabajo en [!DNL Workfront].</p>
+      <td><p>Las mesas de trabajo se cargan como un PDF en la ficha [!UICONTROL Documents] del elemento de trabajo en [!DNL Workfront].</p>
       <p><strong>Nota</strong>: solo puede cargar una mesa de trabajo para una nueva versión del documento.</p>
       </td>
      </tr>

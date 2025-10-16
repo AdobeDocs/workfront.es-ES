@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: bad5e700-79a6-49ed-bcf9-f0b5b3eaa909
-source-git-commit: 83d236a4d50c0eef7062f161757d2f9fe6bc4e06
+source-git-commit: 15ea03bf586054f7ef421f8cacede6f42835a6e4
 workflow-type: tm+mt
-source-wordcount: '829'
-ht-degree: 13%
+source-wordcount: '805'
+ht-degree: 10%
 
 ---
 
@@ -27,30 +27,26 @@ Como parte de la configuración del sistema de Adobe Workfront, puede administra
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
-
-<table style="table-layout:auto"> <col> 
+<table style="table-layout:auto"> 
+ <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Plan de Adobe Workfront</td> 
-   <td>Cualquiera</td> 
+   <td role="rowheader">paquete de Workfront</td> 
+   <td><p>Cualquiera</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licencia de Adobe Workfront</td> 
-   <td>
-   <p>Nuevo: estándar</p>
-   O
-   <p>Actual: plan</p></td> 
+   <td><p>Estándar</p> <p>Plan</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso</td> 
-   <td> <p>Debe ser administrador de Workfront.</p></td> 
+   <td>Debe ser administrador de Workfront. </td> 
   </tr> 
  </tbody> 
 </table>
 
-Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

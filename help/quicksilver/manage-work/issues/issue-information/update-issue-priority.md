@@ -6,10 +6,10 @@ description: Puede definir una prioridad para un problema para indicar la import
 author: Alina
 feature: Work Management
 exl-id: eff5c9e8-1908-4654-9629-e20c0ce2a225
-source-git-commit: 7db80f5bacf52b7bbe540f4e38e88853af86a5e2
+source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
 workflow-type: tm+mt
-source-wordcount: '371'
-ht-degree: 93%
+source-wordcount: '295'
+ht-degree: 88%
 
 ---
 
@@ -17,36 +17,37 @@ ht-degree: 93%
 
 Puede definir una prioridad para un problema para indicar la importancia del mismo.
 
-Debe tener permisos de administración en el problema para modificar la prioridad del problema. [Actualizar la prioridad de un problema](#update-the-priority-of-an-issue).
-
 ## Requisitos de acceso
 
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Plan de Adobe Workfront*</td> 
-   <td> <p>Cualquiera </p> </td> 
+   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licencia de Adobe Workfront*</td> 
-   <td> <p>Solicitud o superior</p> </td> 
+   <td role="rowheader">Licencia de Adobe Workfront</td> 
+   <td><p>Colaborador o superior</p> 
+   <p>Solicitud o superior</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraciones de nivel de acceso*</td> 
-   <td> <p>Editar acceso a Problemas</p> <p>Nota: Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
+   <td role="rowheader">Configuraciones de nivel de acceso</td> 
+   <td> <p>Editar acceso a Problemas</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Permisos de administración para el problema</p> <p>Para obtener información sobre cómo solicitar acceso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a objetos </a>.</p> </td> 
+   <td> <p>Permisos de administración para el problema</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su administrador de Workfront.
+Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Información general de las prioridades de los problemas
 
@@ -55,7 +56,7 @@ Cada etiqueta de prioridad tiene un número asociado que no se puede modificar.
 Los administradores de Adobe Workfront pueden modificar las etiquetas de prioridad dentro de Workfront o pueden crear nuevas prioridades. Como resultado, las opciones que puede tener para el campo Prioridad en la instancia de Workfront pueden diferir de las que se enumeran a continuación.
 
 Debe familiarizarse con la secuencia de numeración de las prioridades utilizadas en su organización.\
-Por ejemplo, su organización puede utilizar el número 1 para hacer referencia a tareas urgentes si se ha modificado la etiqueta de la prioridad.
+Por ejemplo, su organización puede utilizar el número 1 para hacer referencia a tareas urgentes siempre que se haya modificado la etiqueta de la prioridad.
 
 Para obtener más información acerca de cómo personalizar los nombres de las prioridades en su instancia, vea [Crear y personalizar prioridades](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md).
 

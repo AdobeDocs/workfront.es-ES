@@ -1,26 +1,30 @@
 ---
 content-type: overview
 navigation-topic: gantt-chart
-title: Resumen del gráfico Gantt
-description: Encuentre información sobre el gráfico [!UICONTROL Gantt] en los siguientes artículos.
+title: 'Gráfico Gantt: Índice de artículos'
+description: Los diagramas de Gantt de Adobe Workfront proporcionan una representación visual de la cronología de una lista de tareas o proyectos. Encontrará información sobre el gráfico [!UICONTROL Gantt] en los siguientes artículos.
 author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: b4dc991e-d89c-4167-ac9c-54bda23d08d8
-source-git-commit: b08377e539b04e896e84d17f46d2c941b0f66731
+source-git-commit: c8987d036e1c1324618cb53ebcbb8fd7e4bcc6a4
 workflow-type: tm+mt
-source-wordcount: '62'
-ht-degree: 0%
+source-wordcount: '104'
+ht-degree: 53%
 
 ---
 
-# Resumen de [!UICONTROL gráfico Gantt]
+# [!UICONTROL Gráfico Gantt]: índice de artículo
+
+<!--Audited: 08/2025-->
+
+Los diagramas de Gantt de Adobe Workfront proporcionan una representación visual de la cronología de una lista de tareas o proyectos.
 
 Esta sección contiene los siguientes artículos:
 
-* [Introducción al [!UICONTROL gráfico Gantt]](../../../manage-work/gantt-chart/use-the-gantt-chart/get-started-with-gantt.md)
+* [Empezar a usar el [!UICONTROL gráfico Gantt]](../../../manage-work/gantt-chart/use-the-gantt-chart/get-started-with-gantt.md)
 * [Configurar cómo se muestra la información en el [!UICONTROL gráfico Gantt]](../../../manage-work/gantt-chart/use-the-gantt-chart/configure-info-on-gantt-chart.md)
-* [Ver información en [!UICONTROL gráfico Gantt]](../../../manage-work/gantt-chart/use-the-gantt-chart/view-info-in-gantt.md)
-* [Actualizar información en la lista de tareas [!UICONTROL Diagrama de Gantt]](../../../manage-work/gantt-chart/use-the-gantt-chart/update-info-task-list-gantt.md)
+* [Ver información en el [!UICONTROL gráfico Gantt]](../../../manage-work/gantt-chart/use-the-gantt-chart/view-info-in-gantt.md)
+* [Actualizar información en el [!UICONTROL gráfico Gantt] de lista de tareas](../../../manage-work/gantt-chart/use-the-gantt-chart/update-info-task-list-gantt.md)
 * [Nivelar recursos en el [!UICONTROL gráfico Gantt]](../../../manage-work/gantt-chart/use-the-gantt-chart/level-resources-in-gantt.md)
-* [Exportar el [!UICONTROL gráfico Gantt] al PDF](../../../manage-work/gantt-chart/use-the-gantt-chart/export-gantt-chart-to-pdf.md)
+* [Exportar el [!UICONTROL gráfico Gantt] a PDF](../../../manage-work/gantt-chart/use-the-gantt-chart/export-gantt-chart-to-pdf.md)

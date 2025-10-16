@@ -6,10 +6,10 @@ description: Puede eliminar una iteración para su equipo ágil si ya no es nece
 author: Lisa
 feature: Agile
 exl-id: db7fbafd-9d22-4035-a130-60ec2e4ad347
-source-git-commit: 95208e0f396d8eab9a71ca156c616891a7f56f7a
+source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
 workflow-type: tm+mt
-source-wordcount: '189'
-ht-degree: 71%
+source-wordcount: '175'
+ht-degree: 68%
 
 ---
 
@@ -27,19 +27,16 @@ Al eliminar una iteración, los artículos de la iteración se mueven al registr
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
-
 <table style="table-layout:auto"> 
  <tbody> 
-  <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
+   <tr> 
+   <td role="rowheader">paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licencia</td> 
-   <td> <p>Nuevo: [!UICONTROL Standard]</p> 
-   o
-   <p>Actual: [!UICONTROL Work] o superior</p> </td> 
+   <td role="rowheader">Licencia de Adobe Workfront</td> 
+   <td> <p>Estándar</p> 
+   <p>Trabajo o superior</p> </td> 
   </tr>
    <tr> 
    <td role="rowheader">Permisos de objeto</td> 

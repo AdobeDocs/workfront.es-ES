@@ -2,22 +2,22 @@
 product-area: projects
 navigation-topic: create-tasks
 title: Información general sobre Crear tareas
-description: Sólo puede crear tareas en un proyecto una vez creado el proyecto.
+description: Solo puede crear tareas en un proyecto una vez creado el proyecto.
 author: Alina
 feature: Work Management
 exl-id: 7bd6578e-9288-4793-ba07-a0c126c479b9
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: c1b8af0d8a95714bb597db7a429794773358cf05
 workflow-type: tm+mt
-source-wordcount: '889'
-ht-degree: 0%
+source-wordcount: '885'
+ht-degree: 9%
 
 ---
 
 # Información general sobre Crear tareas
 
-Sólo puede crear tareas en un proyecto una vez creado el proyecto.
+Solo puede crear tareas en un proyecto una vez creado el proyecto.
 
-Por ejemplo, después de crear un proyecto, puede que desee agregar tareas y modificarlas para organizar el plan del proyecto. Para obtener más información sobre cómo crear un proyecto, vea [Crear un proyecto](../../../manage-work/projects/create-projects/create-project.md). Para obtener información sobre cómo crear tareas, vea [Crear tareas en un proyecto](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md).
+Por ejemplo, después de crear un proyecto, puede que desee añadir tareas y modificarlas para organizar el plan del proyecto. Para obtener más información sobre cómo crear un proyecto, vea [Crear un proyecto](../../../manage-work/projects/create-projects/create-project.md). Para obtener información sobre cómo crear tareas, vea [Crear tareas en un proyecto](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md).
 
 Este artículo describe las consideraciones, limitaciones y valores predeterminados que se aplican al crear tareas.
 
@@ -33,7 +33,7 @@ Puede crear tareas en un proyecto de las siguientes maneras:
 
 Cuando tenga los permisos y el acceso correctos, podrá crear tareas en un proyecto. Sin embargo, los siguientes son casos en los que es posible que no pueda crear tareas:
 
-* El administrador de Adobe Workfront o de un grupo debe habilitar la adición de tareas a un proyecto que se encuentre en estado completo o muerto en el área de Preferencias del proyecto. Para obtener información sobre cómo establecer las preferencias del proyecto, consulte [Configurar las preferencias de proyecto de todo el sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+* El administrador de Adobe Workfront o de un grupo debe habilitar la adición de tareas a un proyecto que se encuentre en estado completo o muerto en el área de Preferencias del proyecto. Para obtener información sobre cómo establecer las preferencias del proyecto, consulte [Configurar las preferencias de proyecto en todo el sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 * No puede agregar tareas a un proyecto que tenga Aprobación pendiente.
 
 ## Número máximo de tareas permitidas en un proyecto
@@ -81,13 +81,13 @@ Al definir la información predeterminada que se asociará con las tareas agrega
 
 * Al copiar el proyecto, la configuración predeterminada de la tarea se transfiere al nuevo proyecto.
 
-  Para obtener información sobre cómo copiar un proyecto, vea [Copiar un proyecto](../../../manage-work/projects/manage-projects/copy-project.md).
+  Para obtener información sobre la copia de un proyecto, consulte [Copiar un proyecto](../../../manage-work/projects/manage-projects/copy-project.md).
 
 * Cuando se copian tareas de un proyecto a otro y el proyecto de destino tiene una configuración predeterminada diferente para las tareas, las tareas copiadas conservan la configuración predeterminada del proyecto original, a menos que se borren en el proceso de copia.
 * Al duplicar una tarea en el mismo proyecto, los formularios personalizados y el proceso de aprobación se transfieren a la tarea duplicada.
 
-  Para obtener información sobre cómo copiar y duplicar tareas, vea [&#128279;](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md) [Copiar y duplicar tareas](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md).
+  Para obtener información sobre cómo copiar y duplicar tareas, consulte [Copiar y duplicar tareas](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md).
 
 * Al mover la tarea a otro proyecto, la configuración predeterminada de la tarea se guarda en las tareas del proyecto original, independientemente de la configuración predeterminada de la tarea en el nuevo proyecto.
 
-  Para obtener información acerca de cómo mover tareas, vea [Mover tareas](../../../manage-work/tasks/manage-tasks/move-tasks.md).
+  Para obtener información sobre cómo mover tareas, consulte [Mover tareas](../../../manage-work/tasks/manage-tasks/move-tasks.md).

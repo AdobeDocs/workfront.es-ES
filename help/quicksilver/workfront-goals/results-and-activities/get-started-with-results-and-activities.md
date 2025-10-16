@@ -7,31 +7,43 @@ description: Debe agregar resultados, actividades o metas alineadas a una meta p
 author: Alina
 feature: Workfront Goals
 exl-id: 64fa0aef-cb92-465a-9b74-d863fc232fd1
-source-git-commit: 1c11be2d6de471bf456107b5c86a599766583f74
+source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
 workflow-type: tm+mt
-source-wordcount: '855'
-ht-degree: 22%
+source-wordcount: '830'
+ht-degree: 15%
 
 ---
 
 # Introducción a resultados y actividades en Adobe Workfront Goals
 
+<!--Audited for P& P only: 10/2025-->
+
+>[!NOTE]
+>
+>Su empresa puede optar por seguir utilizando los objetivos de Adobe Workfront si compró este paquete anteriormente. Debe hablar con el representante de su cuenta para obtener más detalles.
+>
+>Adobe Workfront Goals ya no se puede adquirir.
+>
+>Para obtener información adicional sobre el acceso a Workfront Goals, consulte [Requisitos para usar Workfront Goals](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
+
+<!--Old:
+
 >[!IMPORTANT]
 >
->Su organización debe tener lo siguiente para utilizar la funcionalidad descrita en este artículo:
+>Your organization must have the following to use the functionality described in this article:
 >
->* Para la nueva estructura de plan y licencias:
+>* For the new plan and license structure:
 >
->   * El plan Ultimate Workfront
+>   * The Ultimate Workfront plan 
 >    
->* Para la estructura actual de plan y licencias:
+>* For the current plan and license structure: 
 >
->   * Un plan Pro o superior de Workfront
->   * Una licencia de Adobe Workfront Goals además de una licencia de Workfront.
+>   * A Pro or higher Workfront plan
+>   * An Adobe Workfront Goals license in addition to a Workfront license.
 >
->Póngase en contacto con el administrador de cuentas de Workfront para obtener más información sobre una licencia de Workfront Goals.
+>Contact your Workfront account manager to learn about a Workfront Goals license.    
 > 
->Para obtener información adicional sobre el acceso a Workfront Goals, consulte [Requisitos para usar Workfront Goals](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
+>For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).   -->
 
 Cuando se crea una meta, esta tiene el estado Borrador. Para obtener información sobre cómo crear metas, consulte [Crear metas en Adobe Workfront Goals](../../workfront-goals/goal-management/create-goals.md).
 
@@ -189,7 +201,7 @@ La siguiente tabla muestra las similitudes y diferencias entre los resultados, l
    <td>✔</td> 
    <td>✔</td> 
   </tr> 
-  <tr> 
+  <tr> ****
    <td>Ofrecen una serie de valores entre los valores inicial y final que ilustran lo cerca que está de alcanzarlos. La proximidad al valor final calcula un valor de Progreso para el objetivo. </td> 
    <td>✔</td> 
    <td>✔</td> 

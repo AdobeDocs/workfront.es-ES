@@ -5,10 +5,10 @@ description: En  [!DNL Adobe Workfront], puede personalizar el modo en que se mu
 feature: Get Started with Workfront
 author: Nolan
 exl-id: 3ef7ff03-7293-4b56-9481-e89e1a47a904
-source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
+source-git-commit: f0b3b8aa64fa0b03a196bbcc2bdd037eeeb0f89e
 workflow-type: tm+mt
-source-wordcount: '721'
-ht-degree: 9%
+source-wordcount: '706'
+ht-degree: 6%
 
 ---
 
@@ -34,28 +34,22 @@ Para obtener información sobre cómo modificar la información que aparece en l
 
 ## Requisitos de acceso
 
-+++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
-
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Plan de Adobe Workfront</td> 
+   <td role="rowheader">paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licencia de Adobe Workfront*</td> 
+   <td role="rowheader">Licencia de Adobe Workfront</td> 
    <td> 
-    <p>Nuevo:</p>
-   <ul><li><p>Colaborador o superior </p></li>
-   </ul>
-
-<p>Actual:</p>
-   <ul><li><p>Solicitud o superior</p></li>
-    </ul></td> 
+   <p>Colaborador o superior </p>
+   <p>Solicitud o superior</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso</td> 
@@ -68,7 +62,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  </tbody> 
 </table>
 
-*Para obtener información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

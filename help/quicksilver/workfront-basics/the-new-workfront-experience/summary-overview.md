@@ -5,9 +5,9 @@ description: Puede usar el Panel de resumen para revisar y actualizar la informa
 feature: Get Started with Workfront
 author: Nolan
 exl-id: 5e4026b2-5f2f-45c1-bef1-04e20c62ed8a
-source-git-commit: 66fc75ed9a7fca4b44ac776c314a6e08a6fbd450
+source-git-commit: d7b8d7285d23d14f5390c9de1001de553c2b796f
 workflow-type: tm+mt
-source-wordcount: '986'
+source-wordcount: '893'
 ht-degree: 93%
 
 ---
@@ -103,36 +103,6 @@ Para obtener información sobre cómo obtener acceso al [!UICONTROL Resumen] en 
 
 Para obtener información sobre cómo acceder al [!UICONTROL Resumen] para documentos, consulte la información general del [[!UICONTROL Resumen] para documentos](../../documents/managing-documents/summary-for-documents.md).
 
-## Requisitos de acceso
-
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan</strong></td> 
-   <td> <p>Cualquiera</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licencia*</strong></td> 
-   <td> <p>Nuevo: colaborador o superior</p>
-   O
-   <p>Actual:[!UICONTROL Request] o superior</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><strong>Configuración de nivel de acceso</strong></td> 
-   <td> <p>[!UICONTROL View] o acceso superior a tareas, problemas o documentos</p> <p>[!UICONTROL View] o acceso superior a cualquier objeto para el que desee ver documentos [!UICONTROL Summary]</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><strong>Permisos de objeto</strong></td> 
-   <td> <p>[!UICONTROL View] o permisos superiores para una tarea, problema o documento</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-*Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de [!DNL Workfront]. Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Ver el panel [!UICONTROL Resumen] en una lista de tareas o problemas
 

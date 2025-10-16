@@ -1,15 +1,14 @@
 ---
 title: Sugerencias, trucos y solución de problemas para tareas
-description: Sugerencias, trucos y solución de problemas para tareas
+description: Esta sección contiene artículos que le ayudan a abordar algunas de las preguntas más frecuentes o a solucionar errores comunes al trabajar con tareas en Adobe Workfront.
 author: Alina
-draft: Probably
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: c93388d2-3166-4beb-9156-e309041ed109
-source-git-commit: b08377e539b04e896e84d17f46d2c941b0f66731
+source-git-commit: c1b8af0d8a95714bb597db7a429794773358cf05
 workflow-type: tm+mt
-source-wordcount: '33'
-ht-degree: 0%
+source-wordcount: '52'
+ht-degree: 40%
 
 ---
 
@@ -18,4 +17,4 @@ ht-degree: 0%
 Esta sección contiene los siguientes artículos:
 
 * [Preguntas frecuentes sobre tareas](../../../manage-work/tasks/tips-tricks-and-troubleshooting/tasks-faqs.md)
-* [La duración proyectada no coincide con la duración planificada](../../../manage-work/tasks/tips-tricks-and-troubleshooting/projected-and-planned-durations-dont-match.md)
+* [La duración prevista no coincide con la duración planificada](../../../manage-work/tasks/tips-tricks-and-troubleshooting/projected-and-planned-durations-dont-match.md)

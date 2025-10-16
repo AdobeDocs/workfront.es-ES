@@ -3,19 +3,19 @@ product-area: timesheets;setup
 navigation-topic: configure-timesheet-preferences
 title: Configurar si se registra en horas o días
 description: Como usuario con una licencia de planificación, puede configurar si registra tiempo en Adobe Workfront en horas o días. Los administradores del sistema pueden configurar esta opción para usuarios individuales o para varios usuarios de su organización. De forma predeterminada, los usuarios registran el tiempo en horas.
-author: Alina
+author: Lisa
 feature: Timesheets
 exl-id: 4f801a13-182d-4e06-98ea-f6863f6a8edf
-source-git-commit: 106ef838bfee5e496cae864eca5c19fd12fdd18e
+source-git-commit: b0a3a11a3c04a0969bee99f8e1cea231911f0e6a
 workflow-type: tm+mt
-source-wordcount: '455'
+source-wordcount: '457'
 ht-degree: 16%
 
 ---
 
 # Configurar si se registra en horas o días
 
-Como usuario con una licencia de Planner, puede configurar si registra tiempo en Adobe Workfront en horas o días. Los administradores del sistema pueden configurar esta opción para usuarios individuales o para varios usuarios de su organización. De forma predeterminada, los usuarios registran el tiempo en horas. Para obtener información acerca de cómo registrar tiempo en Workfront, vea [Registrar tiempo](../../timesheets/create-and-manage-timesheets/log-time.md).
+Como usuario con una licencia estándar o de planificación, puede configurar si inicia sesión en Adobe Workfront en horas o días. Los administradores del sistema pueden configurar esta opción para usuarios individuales o para varios usuarios de su organización. De forma predeterminada, los usuarios registran el tiempo en horas. Para obtener información acerca de cómo registrar tiempo en Workfront, consulte [Registrar tiempo](../../timesheets/create-and-manage-timesheets/log-time.md).
 
 >[!NOTE]
 >
@@ -23,34 +23,36 @@ Como usuario con una licencia de Planner, puede configurar si registra tiempo en
 
 ## Requisitos de acceso
 
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
-<table style="table-layout:auto"> 
+<table style="table-layout:auto">
  <col> 
- </col> 
- <col> 
- </col> 
+ <col>
  <tbody> 
   <tr> 
-   <td role="rowheader">Plan de Adobe Workfront*</td> 
-   <td> <p>Cualquiera</p> </td> 
+   <td>paquete de Adobe Workfront</td> 
+   <td><p>Cualquiera</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licencia de Adobe Workfront*</td> 
-   <td> <p>Plan </p> </td> 
+   <td>Licencia de Adobe Workfront</td> 
+   <td>
+   <p>Estándar</p>
+   <p>Plan</p></td>
   </tr> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader">Configuraciones de nivel de acceso*</td> 
-   <td> <p>Los planificadores pueden configurar el tiempo por sí mismos. Solo un administrador de Workfront puede configurar el tiempo para otros usuarios.</p> </td> 
+  <tr> 
+   <td>Configuraciones de nivel de acceso</td> 
+   <td><p>Los usuarios de Standard y Plan pueden configurar el tiempo ellos mismos. Solo un administrador de Workfront puede configurar el tiempo para otros usuarios.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su administrador de Workfront.
+Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 1. Realice una de las siguientes acciones, según el objetivo y el nivel de acceso del sistema:
 
-   * **Usuario del planificador que configura el registro de tiempo para usted mismo:** Haga clic en el icono **Menú principal** ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront y, a continuación, haga clic en su nombre de usuario junto a la imagen de perfil. A continuación, haga clic en el icono **Más** junto a su nombre y seleccione **Editar**.
+   * **Usuario estándar o planificado que configura el registro de tiempo para usted:** Haga clic en el icono de **[!UICONTROL Menú principal]** ![Menú principal](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront y, a continuación, haga clic en el nombre de usuario que aparece junto a la imagen de perfil. O (si está disponible), haz clic en tu imagen de perfil en el área de navegación superior y luego haz clic en **[!UICONTROL Perfil de Workfront]**. A continuación, haga clic en el icono **Más** junto a su nombre y seleccione **Editar**.
 
    * **Administrador del sistema configurando el registro de tiempo para otros:** Empiece a editar una o más cuentas de usuario, tal como se describe en [Editar el perfil de un usuario](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
@@ -58,7 +60,6 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
    ![Registrar tiempo en opciones](assets/user-profile-log-time-options.png)
 
-1. (Condicional) Si es administrador del sistema y edita varios usuarios simultáneamente, seleccione **Registrar tiempo en**.
 1. Seleccione entre las siguientes opciones para registrar el tiempo:
 
    | Opción | Descripción |

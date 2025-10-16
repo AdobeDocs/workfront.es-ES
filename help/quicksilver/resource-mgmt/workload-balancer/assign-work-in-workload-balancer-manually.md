@@ -7,10 +7,10 @@ author: Lisa
 feature: Resource Management
 role: User
 exl-id: 445cb250-53a4-488b-911d-3afca3a02c23
-source-git-commit: d93bdaec834f5a66e663c7edc7d9ffa42ffa5918
+source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
 workflow-type: tm+mt
-source-wordcount: '770'
-ht-degree: 82%
+source-wordcount: '747'
+ht-degree: 81%
 
 ---
 
@@ -26,25 +26,21 @@ Para obtener información general acerca de cómo asignar trabajo a los usuarios
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Plan de Adobe Workfront</td> 
-   <td> <p>Cualquiera </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Licencia de Adobe Workfront</td> 
-   <td><p>Nuevo: estándar</p>
-       <p>o</p>
-       <p>Actual: Planificar, al usar el Distribuidor de cargas de trabajo en el área de Recursos;</br>
-       Trabaje con el Distribuidor de cargas de trabajo de un equipo o proyecto</p></td>
+   <td>paquete de Adobe Workfront</td> 
+   <td><p>Cualquiera</p></td>
   </tr>
   <tr> 
-   <td role="rowheader">Configuraciones de nivel de acceso</td> 
+   <td>Licencia de Adobe Workfront</td> 
+   <td><p>Estándar</p>
+       <p>Planificar, al utilizar el Distribuidor de cargas de trabajo en el área de Recursos; Trabajar, al utilizar el Distribuidor de cargas de trabajo de un equipo o proyecto</p></td>
+  </tr>
+  <tr> 
+   <td>Configuraciones de nivel de acceso</td> 
    <td> <p>Acceso de edición a los siguientes elementos:</p> 
     <ul> 
      <li>Administración de recursos</li> 
@@ -55,13 +51,13 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Permisos de objeto</td> 
+   <td>Permisos de objeto</td> 
    <td>Permisos de contribuir o superiores para los proyectos, tareas y problemas que incluyan asignar tareas</td> 
   </tr> 
  </tbody> 
 </table>
 
-Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -104,7 +100,7 @@ Puede asignar elementos de trabajo que aún no se hayan asignado a un usuario o 
    >
    >Los usuarios deben estar asociados con al menos una función para verla a medida que los añade.
    >
-   > Debe tener activada la configuración Ver información de contacto en su nivel de acceso para que los usuarios vean los correos electrónicos de los usuarios. Para obtener más información, consulte [Conceder acceso a usuarios](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
+   > Debe tener habilitada la configuración Ver información de contacto en su nivel de acceso para que los usuarios vean los correos electrónicos de los usuarios. Para obtener más información, consulte [Conceder acceso a usuarios](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
 
 
    ![Asignaciones avanzadas](assets/assignments-box-with-advanced-assignments-delegations-wb.png)

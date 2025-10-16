@@ -3,12 +3,12 @@ product-area: projects
 navigation-topic: manage-issues
 title: Modificar asignaciones de usuarios para varios problemas en una lista
 description: Modificar asignaciones de usuarios para varios problemas en una lista
-author: Alina
+author: Lisa
 feature: Work Management
 exl-id: e1e75027-1847-44cf-afeb-b19394dc3ea5
-source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
+source-git-commit: 7aa420946115fc612ad1d9e310583e5453ae0678
 workflow-type: tm+mt
-source-wordcount: '751'
+source-wordcount: '749'
 ht-degree: 97%
 
 ---
@@ -33,33 +33,33 @@ Para obtener información general sobre la asignación de problemas, consulte [I
 
 ## Requisitos de acceso
 
-+++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Plan de Adobe Workfront</td> 
-   <td> <p>Cualquiera </p> </td> 
+   <td>paquete de Adobe Workfront</td> 
+   <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licencias de Adobe Workfront*</td> 
-   <td> <p>Nuevo: estándar </p>
-   <p>Actual: solicitud o superior</p> </td> 
+   <td>Licencia de Adobe Workfront</td> 
+   <td> <p>Estándar</p>
+   <p>Solicitud o superior</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraciones de nivel de acceso</td> 
+   <td>Configuraciones de nivel de acceso</td> 
    <td> <p>Editar acceso a Problemas</p> <p>Acceso de visualización o superior a proyectos y tareas para asignar un problema</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Permisos de objeto</td> 
+   <td>Permisos de objeto</td> 
    <td> <p>Permisos de administración para el problema</p> <p>Permisos de contribución o superiores para el proyecto o la tarea donde se encuentra el problema, al asignar varios problemas.</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Para obtener información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

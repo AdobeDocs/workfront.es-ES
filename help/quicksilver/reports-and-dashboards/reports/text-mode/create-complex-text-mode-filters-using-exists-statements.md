@@ -6,7 +6,7 @@ description: Puede crear filtros complejos de modo de texto mediante instruccion
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 106f7c9d-46cc-46c5-ae34-93fd13a36c14
-source-git-commit: af4a82ad11b57c7a7457d5d7ee74ee18494a1dc0
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
 source-wordcount: '2668'
 ht-degree: 97%
@@ -92,27 +92,19 @@ Tenga en cuenta las siguientes reglas al utilizar instrucciones EXISTS en un fil
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
-Debe tener lo siguiente:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Plan de Adobe Workfront</td> 
+   <td role="rowheader">paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licencia de Adobe Workfront</td> 
    <td> 
-      <p>Nuevo:</p>
-         <ul>
-         <li><p>Estándar</p></li>
-         </ul>
-      <p>Actual:</p>
-         <ul>
-         <li><p>Plan</p></li>
-         </ul>
+     <p>Estándar</p>
+     <p>Plan</p>
    </td> 
   </tr> 
   <tr> 
@@ -121,12 +113,12 @@ Debe tener lo siguiente:
   </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Permisos de administración para un informe para editar filtros en un informe</p> <p>Permisos de administración para un filtro para editarlo</p></td> 
+   <td><p>Permisos de administración para un informe para editar filtros en un informe</p> <p>Permisos de administración para un filtro para editarlo</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

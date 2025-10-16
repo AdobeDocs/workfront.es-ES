@@ -6,10 +6,10 @@ description: Puede editar la configuración de un informe para definir cómo se 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 6fbbc557-65da-4ffe-968a-9c8db6a45811
-source-git-commit: 394eb1aed6508399b6459430acec7c0729036edc
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '620'
-ht-degree: 99%
+source-wordcount: '612'
+ht-degree: 98%
 
 ---
 
@@ -21,43 +21,35 @@ Puede editar la configuración de un informe para definir cómo se muestra a los
 
 ## Requisitos de acceso
 
-+++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
-
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Plan de Adobe Workfront*</td> 
+   <td role="rowheader">paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licencia de Adobe Workfront*</td> 
-      <td> 
-      <p>Nuevo:</p>
-         <ul>
-         <li><p>Estándar</p></li>
-         </ul>
-      <p>Actual:</p>
-         <ul>
-         <li><p>Plan</p></li>
-         </ul>
-   </td> 
+   <td role="rowheader">Licencia de Adobe Workfront</td> 
+   <td> 
+      <p>Estándar</p>
+      <p>Plan</p>
+   </td>
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraciones de nivel de acceso*</td> 
-   <td> <p>Acceso de edición a informes, paneles y calendarios</p> <p>Acceso de edición a filtros, vistas y agrupaciones</p></td> 
+   <td role="rowheader">Configuración de nivel de acceso</td> 
+   <td> <p>Acceso de Edición a informes, paneles de control y calendarios</p> <p>Acceso de edición a filtros, vistas y agrupaciones</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Permisos de administración para un informe</p></td> 
+ <td> <p>Permisos de administración para un informe</p></td>  
   </tr> 
  </tbody> 
 </table>
 
-*Para obtener información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -94,7 +86,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
      </tr> 
      <tr> 
       <td role="rowheader">Cuando se cargue el informe en un panel de control, mostrar ... elementos</td> 
-      <td>Especifique el número de elementos que se muestran para todos los usuarios cuando el informe se carga en un panel. El valor predeterminado es 15 elementos y el número máximo de elementos es 200.</td> 
+      <td>Especifique el número de elementos que se muestran para todos los usuarios cuando el informe se carga en un panel de control. El valor predeterminado es 15 elementos y el número máximo de elementos es 200.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Mostrar la vista Cuadrícula de recursos en la ficha Detalles</td> 
@@ -110,7 +102,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
      </tr> 
      <tr> 
       <td role="rowheader">Mostrar este informe en una vista Gantt de forma predeterminada</td> 
-      <td>(Solo informe de proyecto e informe de tareas) Seleccione esta opción para que la vista Gantt se active automáticamente cuando los usuarios vean la ficha Detalles en este informe.<br>Para obtener más información acerca de cómo ver el gráfico Gantt en los informes de proyectos y tareas, consulte la sección “Ver información de tareas en la lista de proyectos del gráfico Gantt” en el artículo <a href="../../../manage-work/gantt-chart/use-the-gantt-chart/view-info-in-gantt.md" class="MCXref xref">Ver información en el gráfico Gantt </a>.</td> 
+      <td>(Solo informe de proyecto e informe de tareas) Seleccione esta opción para que la vista Gantt se habilite automáticamente cuando los usuarios vean la ficha Detalles en este informe.<br>Para obtener más información acerca de cómo ver el gráfico Gantt en los informes de proyectos y tareas, consulte la sección “Ver información de tareas en la lista de proyectos del gráfico Gantt” en el artículo <a href="../../../manage-work/gantt-chart/use-the-gantt-chart/view-info-in-gantt.md" class="MCXref xref">Ver información en el gráfico Gantt </a>.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Permitir cambiar la vista en el informe</td> 

@@ -6,10 +6,10 @@ description: Los usuarios deben añadirse al tablero como miembros para poder ve
 author: Lisa
 feature: Agile
 exl-id: 8a46846c-f9b8-45cb-9923-e7596854557b
-source-git-commit: 03768a0d3a63c7f6adcd11a6cd2e4d093b24f214
+source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
 workflow-type: tm+mt
-source-wordcount: '494'
-ht-degree: 63%
+source-wordcount: '481'
+ht-degree: 60%
 
 ---
 
@@ -23,22 +23,19 @@ El creador de un tablero es el propietario de forma predeterminada. El propietar
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront]</td> 
+   <td role="rowheader">paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licencia</td> 
+   <td role="rowheader">Licencia de Adobe Workfront</td> 
    <td> 
-   <p>Nuevo: [!UICONTROL Contributor] o superior</p> 
-   <p>o</p>
-   <p>Actual: [!UICONTROL Request] o superior</p>
+   <p>Colaborador o superior</p> 
+   <p>Solicitud o superior</p>
    </td> 
   </tr> 
  </tbody> 

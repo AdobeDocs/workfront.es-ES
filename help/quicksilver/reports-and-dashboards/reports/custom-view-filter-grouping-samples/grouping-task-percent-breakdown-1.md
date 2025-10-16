@@ -2,15 +2,15 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Agrupación: desglose de porcentaje de tarea 1"
-description: '"En esta agrupación de proyectos personalizada, puede mostrar los proyectos agrupados por un intervalo de sus valores de porcentaje completado. Los desgloses muestran un valor de porcentaje completado de incrementos de 25 puntos porcentuales: 0-25 %, 25-50 %, etc.'''
+title: 'Agrupación: desglose de porcentaje de tarea 1'
+description: 'En esta agrupación de proyectos personalizada, puede mostrar los proyectos agrupados por un intervalo de sus valores de porcentaje completado. Los desgloses muestran un valor de porcentaje completado de incrementos de 25 puntos porcentuales: 0-25 %, 25-50 %, etc.'
 author: Nolan
 feature: Reports and Dashboards
 exl-id: ddb9496c-9347-4dc9-a4ce-b9017abd0bb2
-source-git-commit: a6874c3a2dfda02b8a25f78056767d8c59c888e9
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '255'
-ht-degree: 0%
+source-wordcount: '241'
+ht-degree: 80%
 
 ---
 
@@ -29,45 +29,38 @@ La siguiente agrupación organiza las tareas según el valor de porcentaje compl
 * 76-99 %
 * 100 %
 
-![task_25__desglose_grouping.png](assets/task-25--breakdown-grouping-350x412.png)
+![task_25__breakdown_grouping.png](assets/task-25--breakdown-grouping-350x412.png)
 
 ## Requisitos de acceso
 
-+++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
-
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plan de Adobe Workfront</td> 
+   <td role="rowheader">paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licencia de Adobe Workfront*</td> 
+   <td role="rowheader">Licencia de Adobe Workfront</td> 
    <td> 
-    <p>Nuevo:</p>
-   <ul><li><p>Colaborador para modificar un filtro </p></li>
-   <li><p>Estándar para modificar un informe</p></li> </ul>
-
-<p>Actual:</p>
-   <ul><li><p>Solicitud para modificar un filtro </p></li>
-   <li><p>Plan para modificar un informe</p></li> </ul></td> 
+   <p>Colaborador o solicitud para modificar un filtro </p>
+   <p>Estándar o Plan para modificar un informe</p>
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso</td> 
-   <td> <p>Editar el acceso a Informes, Tableros y Calendarios para modificar un informe</p> <p>Editar el acceso a filtros, vistas y agrupaciones para modificar un filtro</p> </td> 
+   <td> <p>Editar el acceso a Informes, Paneles de control y Calendarios para modificar un informe</p> <p>Acceso de edición a filtros, vistas y agrupaciones para modificar un filtro</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Administración de permisos de un informe</p>  </td> 
+   <td> <p>Permisos de administración para un informe</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -75,13 +68,13 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 Para aplicar esta agrupación:
 
-1. Ir a una lista de tareas.
+1. Vaya a una lista de tareas.
 1. En el menú desplegable **Agrupación**, seleccione **Nueva agrupación**.
 1. Haga clic en **Agregar agrupación**.
 
-1. Haga clic **Cambiar al modo de texto**.
+1. Haga clic en **Cambiar a modo de texto**.
 1. Quitar el texto del área **Agrupar por**.
-1. Reemplace el texto con el siguiente código:
+1. Reemplace el texto por el código siguiente :
 
    ```
    group.0.linkedname=direct

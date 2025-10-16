@@ -6,10 +6,10 @@ description: Puede crear plantillas de aprobación para optimizar el proceso de 
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: c18d6c6d-1a09-47c5-af4e-027f7cc48cd7
-source-git-commit: 8270a107ba2501eddbb27f52c843c337aa1f8a99
+source-git-commit: 7572dd64a7f23d6f8dcae374a327d67f2d6738c5
 workflow-type: tm+mt
-source-wordcount: '226'
-ht-degree: 86%
+source-wordcount: '210'
+ht-degree: 83%
 
 ---
 
@@ -25,21 +25,18 @@ En el área Configuración de Workfront, los usuarios con una licencia Estándar
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Plan de Adobe Workfront*</td> 
+   <td role="rowheader">paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licencia de Adobe Workfront*</td> 
-   <td> <p>Nuevo: estándar</p> 
-   <p>o</p>
-   <p>Actual: plan</p>
+   <td role="rowheader">Licencia de Adobe Workfront</td> 
+   <td> <p>Estándar</p> 
+   <p>Plan</p>
    </td> 
   </tr> 
  </tbody> 

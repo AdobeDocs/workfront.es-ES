@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d2a73d24-51d3-42e2-9c09-7f4bc30b2caa
-source-git-commit: 674c46b699ba445abba06bec3e4da4a710c60d63
+source-git-commit: 2a83e5a415ff254cf5525d6f44ecb0e447e7e70a
 workflow-type: tm+mt
-source-wordcount: '1521'
-ht-degree: 94%
+source-wordcount: '1505'
+ht-degree: 93%
 
 ---
 
@@ -34,21 +34,18 @@ Como administrador de Adobe Workfront, puede crear niveles de acceso personaliza
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Plan de Adobe Workfront</td> 
+   <td role="rowheader">paquete de Adobe Workfront</td> 
    <td>Cualquiera</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licencia de Adobe Workfront</td> 
-   <td>Nuevo: estándar
-   <p>o</p>
-   <p>Actual: plan</p></td> 
+   <td><p>Estándar</p>
+   <p>Plan</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso</td> 
@@ -66,7 +63,7 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
 {{step-1-to-setup}}
 
 1. Haga clic en **Niveles de acceso** en el panel izquierdo.
-1. &#x200B;
+1. 
    * En el entorno de producción:
 Seleccione el nivel de acceso que quiera copiar y personalizar y luego haga clic en **Copiar**.
 
@@ -226,7 +223,7 @@ Seleccione el nivel de acceso que quiera copiar y personalizar y luego haga clic
 
 ## Usuarios Estándar o Planificador con acceso administrativo a las funciones {#planner-users}
 
-Si concede a un usuario Estándar o Planificador acceso administrativo a las funciones, la configuración Editar tarifas de facturación y de costes de funciones se activa automáticamente para el usuario.
+Si concede a un usuario Estándar o Planificador acceso administrativo a las funciones, la configuración Editar tarifas de facturación y de costes de funciones se habilita automáticamente para el usuario.
 
 Posteriormente, si deshabilita el acceso administrativo a las funciones para el usuario, las funciones aún serán visibles para el usuario porque la opción Editar tarifas de facturación y de costes de funciones aún está habilitada.
 

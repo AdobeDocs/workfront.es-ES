@@ -6,9 +6,9 @@ description: Si se configuraron varios tipos de cambio en Adobe Workfront, es po
 author: Nolan
 feature: Reports and Dashboards
 exl-id: a0837c70-8330-4c38-98dc-8cf2e7e2e4bd
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '984'
+source-wordcount: '976'
 ht-degree: 98%
 
 ---
@@ -29,49 +29,41 @@ Si hubiera proyectos con una sola moneda en el informe, las sumas de las agrupac
 
 ## Requisitos de acceso
 
-+++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
-
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Plan de Adobe Workfront*</td> 
+   <td role="rowheader">paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licencia de Adobe Workfront*</td> 
+   <td role="rowheader">Licencia de Adobe Workfront</td> 
    <td> 
-      <p>Nuevo:</p>
-         <ul>
-         <li><p>Estándar</p></li>
-         </ul>
-      <p>Actual:</p>
-         <ul>
-         <li><p>Plan</p></li>
-         </ul>
+      <p>Estándar</p>
+      <p>Plan</p>
    </td>
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraciones de nivel de acceso*</td> 
-   <td> <p>Acceso de edición a informes, paneles y calendarios</p> <p>Acceso de edición a filtros, vistas y agrupaciones</p></td> 
+   <td role="rowheader">Configuración de nivel de acceso</td> 
+   <td> <p>Acceso de Edición a informes, paneles de control y calendarios</p> <p>Acceso de edición a filtros, vistas y agrupaciones</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Permisos de objeto*</td> 
-   <td> <p>Permisos de administración para un informe</p></td> 
+   <td role="rowheader">Permisos de objeto</td> 
+   <td> <p>Permisos de administración para un informe</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Requisitos previos
 
-Para poder ver monedas alternativas como se describe en esta sección, el administrador de Workfront deberá activar y configurar primero varias monedas en el área de configuración de Workfront. Para obtener más información, consulte [Configuración de tipos de cambio](../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md).
+Para poder ver monedas alternativas como se describe en esta sección, el administrador de Workfront deberá habilitar y configurar primero varias monedas en el área de configuración de Workfront. Para obtener más información, consulte [Configuración de tipos de cambio](../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md).
 
 ## Aplicar valores financieros a un informe {#apply-financial-values-to-a-report}
 

@@ -6,9 +6,9 @@ description: Puede personalizar el tipo de información que se muestra en la pan
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 8fcd6320-c939-4195-8972-5c31575f78cb
-source-git-commit: d98998627ac5161fd12bb2d86f65555550c82a48
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '1721'
+source-wordcount: '1713'
 ht-degree: 84%
 
 ---
@@ -25,44 +25,35 @@ En este artículo se describe cómo crear y editar vistas estándar para listas 
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Plan de Adobe Workfront</strong></td> 
+   <td role="rowheader">paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Licencia de Adobe Workfront*</strong></td> 
+   <td role="rowheader">Licencia de Adobe Workfront</strong></td> 
    <td> 
-      <p>Nuevo:</p>
-         <ul>
-         <li><p>Colaborador o superior</p></li>
-         </ul>
-      <p>Actual:</p>
-         <ul>
-         <li><p>Solicitud o superior</p></li>
-         </ul>
+    <p>Colaborador o superior</p>
+    <p>Solicitud o superior</p>
    </td>
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Configuraciones de nivel de acceso*</strong></td> 
-   <td> <p>Acceso de edición a filtros, vistas y agrupaciones</p> <p>Editar el acceso a Informes, Tableros y Calendarios para crear una vista en un informe</p>
+   <td role="rowheader">Configuraciones de nivel de acceso</td> 
+   <td> <p>Acceso de edición a filtros, vistas y agrupaciones</p> <p>Editar el acceso a Informes, Paneles de control y Calendarios para crear una vista en un informe</p>
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Permisos de objeto*</strong></td> 
+   <td role="rowheader">Permisos de objeto</td> 
    <td> <p>Gestionar permisos de un informe para crear o editar una vista en un informe</p> <p>Permisos de administración de una vista para editarla</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Para obtener información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
-
+Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 +++
 
 ## Creación o personalización de una vista
@@ -90,7 +81,6 @@ Se muestra el cuadro de diálogo **Personalizar vista**.
    * Ajuste el orden en que aparecen las columnas arrastrando el título de la columna a una nueva ubicación.
 
    * En el área **Configuración de columna**, haga clic en **Resumir esta columna por** y elija cómo desea que se muestren los datos en la columna. Esta opción está disponible para los siguientes tipos de columna:
-
      <table style="table-layout:auto"> 
          <col> 
          <col> 
@@ -146,7 +136,7 @@ Se muestra el cuadro de diálogo **Personalizar vista**.
           </tr> 
           <tr> 
            <td role="rowheader"><strong>Mostrar esta columna en panel de control</strong></td> 
-           <td><p>Seleccione esta opción para mostrar esta columna en un panel de control cuando el informe se muestre en paralelo con otro informe. Cuando esta opción no está seleccionada, esta columna no se muestra al ver el informe en un panel en el que los informes se muestran uno al lado del otro.</p></td> 
+           <td><p>Seleccione esta opción para mostrar esta columna en un panel de control cuando el informe se muestre en paralelo con otro informe. Cuando esta opción no está seleccionada, esta columna no se muestra al ver el informe en un panel de control en el que los informes se muestran uno al lado del otro.</p></td> 
           </tr> 
           <tr> 
            <td role="rowheader"><strong>Reglas de columna</strong></td> 

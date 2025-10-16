@@ -1,23 +1,46 @@
 ---
 product-area: workfront-integrations
 navigation-topic: workfront-for-slack
-title: Acceder [!DNL Adobe Workfront] desde [!DNL Slack]
-description: Integrar [!DNL Adobe Workfront] con [!DNL Slack] te permite acceder a [!DNL Workfront] desde el Slack o realizar ciertas acciones en [!DNL Workfront] usando un comando de barra diagonal. La integración se puede usar desde cualquier  [!DNL Slack] entorno, incluida la [!DNL Slack] aplicación móvil.
+title: Acceder a  [!DNL Adobe Workfront]  desde  [!DNL Slack]
+description: Integrar  [!DNL Adobe Workfront]  con  [!DNL Slack]  permite acceder a  [!DNL Workfront] desde Slack o realizar ciertas acciones en  [!DNL Workfront]  usando un comando de barra diagonal. La integración se puede usar desde cualquier entorno de  [!DNL Slack] , incluida la aplicación móvil de  [!DNL Slack] .
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 5f531217-3bd6-4156-8b9f-eabc95d4df10
-source-git-commit: 65bfeafe67a10c72e87a02e0ece285df619fcb81
+source-git-commit: 6178cabbf021fbf92bd8795c5c2bd0346801d64d
 workflow-type: tm+mt
-source-wordcount: '1077'
-ht-degree: 1%
+source-wordcount: '1106'
+ht-degree: 99%
 
 ---
 
 # Acceder a [!DNL Adobe Workfront] desde [!DNL Slack]
 
-La integración de [!DNL Adobe Workfront] con [!DNL Slack] le permite obtener acceso a [!DNL Workfront] desde [!DNL Slack] o realizar determinadas acciones en [!DNL Workfront] mediante un comando de barra diagonal. La integración se puede usar desde cualquier entorno de [!DNL Slack], incluida la aplicación móvil [!DNL Slack].
+La integración de [!DNL Adobe Workfront] con [!DNL Slack] le permite obtener acceso a [!DNL Workfront] desde [!DNL Slack] o realizar determinadas acciones en [!DNL Workfront] mediante un comando de barra diagonal. La integración se puede usar desde cualquier entorno de [!DNL Slack], incluida la [!DNL Slack] aplicación móvil.
 
-Usted o su administrador de [!DNL Slack] deben instalar la aplicación [!DNL Workfront] en su instancia de [!DNL Slack] para poder usar [!DNL Workfront] desde [!DNL Slack]. Para obtener más información, consulte [Configuración de Adobe Workfront para el Slack](../../workfront-integrations-and-apps/using-workfront-with-slack/configure-workfront-for-slack.md).
+Usted o su administrador de [!DNL Slack] deben instalar la aplicación [!DNL Workfront] en su instancia de [!DNL Slack] para poder usar [!DNL Workfront] desde [!DNL Slack]. Para obtener más información, consulte [Configuración de Adobe Workfront para Slack](../../workfront-integrations-and-apps/using-workfront-with-slack/configure-workfront-for-slack.md).
+
+## Requisitos de acceso
+
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td> <p>Cualquiera</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Licencia de Adobe Workfront</td> 
+   <td> <p>Cualquiera</p>
+  </tr> 
+ </tbody> 
+</table>
+
+Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Comandos de barra diagonal {#about-slash-commands}
 
@@ -28,16 +51,16 @@ Puede obtener acceso a la instancia de [!DNL Workfront] desde [!DNL Slack] escri
 Recuerde lo siguiente cuando use un comando de barra oblicua en [!DNL Slack] para tener acceso a [!DNL Workfront]:
 
 * Los comandos de barra diagonal distinguen entre mayúsculas y minúsculas.
-* Los comandos de [!DNL Workfront] sólo son visibles para usted, independientemente del canal en el que los esté escribiendo.
+* Los comandos de [!DNL Workfront] solo son visibles para usted, independientemente del canal en el que los esté escribiendo.
 * El comando siempre debe comenzar con `/workfront` o `/wf`, seguido de un espacio y el nombre de una acción que desee realizar en [!DNL Workfront].
 
   Esto indica que el comando está diseñado para la aplicación [!DNL Workfront]. Los comandos de [!DNL Workfront] solo funcionan si ya ha configurado la aplicación [!DNL Workfront] con la instancia [!DNL Slack].
 
-Para obtener una lista de todos los comandos que puede ejecutar desde el Slack para [!DNL Workfront], vea [Acceso [!DNL Workfront] desde un comando de barra diagonal en [!DNL Slack]](#access-workfront-from-a-slash-command-in-slack-access-workfront-from-a-slash-command-in-slack).
+Para obtener una lista de todos los comandos que puede ejecutar desde el Slack para [!DNL Workfront], consulte [Acceso [!DNL Workfront] desde un comando de barra diagonal en [!DNL Slack]](#access-workfront-from-a-slash-command-in-slack-access-workfront-from-a-slash-command-in-slack).
 
-## Iniciar sesión en [!DNL Workfront] desde [!DNL Slack] {#log-in-to-workfront-from-slack}
+## Inicia sesión en [!DNL Workfront] desde [!DNL Slack] {#log-in-to-workfront-from-slack}
 
-Cuando escriba cualquier comando en el campo de mensaje del Slack, se le pedirá que inicie sesión primero en [!DNL Workfront].\
+Cuando escriba cualquier comando en el campo de mensaje de Slack, se le pedirá que inicie sesión primero en [!DNL Workfront].\
 Para obtener una lista completa de [!DNL Workfront] comandos de [!DNL Slack], consulte la sección [Acceder [!DNL Workfront] desde un comando de barra diagonal en [!DNL Slack]](#access-workfront-from-a-slash-command-in-slack-access-workfront-from-a-slash-command-in-slack) en este artículo.
 
 Para iniciar sesión en [!DNL Workfront] desde [!DNL Slack]:
@@ -53,11 +76,11 @@ Para iniciar sesión en [!DNL Workfront] desde [!DNL Slack]:
 1. Haga clic en el vínculo [!DNL Workfront] **[!UICONTROL Iniciar sesión]** que se muestra en la respuesta.\
    Se abre una nueva pestaña con campos para las credenciales de [!DNL Workfront].
 
-1. Siga las indicaciones para iniciar sesión en [!DNL Workfront] mediante la autenticación mejorada, OAuth 2.0 o su URL de lenguaje de marcado de aserción de seguridad (SAML).
+1. Sigue las indicaciones para iniciar sesión en [!DNL Workfront] utilizando la Autenticación Mejorada, OAuth 2.0 o tu URL de Security Assertion Markup Language (SAML).
 
    >[!NOTE]
    >
-   >* Cuando se le pida que introduzca el host de su cuenta de [!DNL Workfront], escríbalo con este formato: *yourCompany&#39;sDomain.my.workfront.com*. El dominio de su empresa suele ser el nombre de su empresa.
+   >* Cuando se solicite ingresar el host de su cuenta de [!DNL Workfront], escríbalo utilizando este formato: *yourCompany&#39;sDomain.my.workfront.com*. El dominio de su empresa suele ser el nombre de su empresa.
    >* La autenticación mejorada no está disponible hasta que un administrador de [!DNL Workfront] la habilite para esta integración.
 
 
@@ -65,9 +88,9 @@ Para iniciar sesión en [!DNL Workfront] desde [!DNL Slack]:
 
 1. (Opcional) Deshabilite las [!DNL Workfront] notificaciones que no desee recibir en [!DNL Slack].
 
-   Para obtener información acerca de la configuración de [!DNL Workfront] para [!DNL Slack], vea la sección [Configurar opciones](#configure-settings-configure-settings) en este artículo
+   Para obtener información acerca de la configuración de [!DNL Workfront] para [!DNL Slack], consulte la sección [Configurar opciones](#configure-settings-configure-settings) en este artículo
 
-1. Vuelva al canal [!DNL Slack].
+1. Vuelva al canal de [!DNL Slack].
 
    Ha iniciado sesión en [!DNL Workfront] desde su instancia de [!DNL Slack].
 
@@ -101,49 +124,49 @@ Para iniciar sesión en [!DNL Workfront] desde [!DNL Slack]:
 
      Incluya el nombre de la tarea tal como aparecerá en la interfaz [!DNL Workfront].
 
-     Agrega una tarea a [!DNL Workfront].
+     Añadir una tarea a [!DNL Workfront].
 
-     Para obtener más información acerca de cómo agregar tareas a [!DNL Workfront] desde el Slack, vea la sección &quot;Creando tareas a partir de [!DNL Slack]&quot; en [Crear tareas y problemas a partir de  [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/create-tasks-and-issues-from-slack.md).
+     Para obtener más información acerca de cómo añadir tareas a [!DNL Workfront] desde Slack, vea la sección “Creando tareas a partir de [!DNL Slack]” en [Crear tareas y problemas a partir de  [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/create-tasks-and-issues-from-slack.md).
 
    * `/wf add issue <Issue Name>`
 
      Incluya el nombre del problema tal como aparecerá en la interfaz [!DNL Workfront].
 
-     Agrega un problema a [!DNL Workfront]
+     Añada un problema a [!DNL Workfront]
 
-     Para obtener más información sobre cómo agregar problemas a [!DNL Workfront] desde [!DNL Slack], consulte la sección &quot;Creando problemas a partir de [!DNL Slack]&quot; en [Crear tareas y problemas a partir de  [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/create-tasks-and-issues-from-slack.md).
+     Para obtener más información sobre cómo añadir problemas a [!DNL Workfront] desde [!DNL Slack], consulte la sección “Creando problemas a partir de [!DNL Slack]” en [Crear tareas y problemas a partir de  [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/create-tasks-and-issues-from-slack.md).
 
    * `/wf favorites`
 
      Muestra la lista de favoritos de [!DNL Workfront].
 
-     Para obtener más información sobre cómo obtener acceso a tus favoritos desde [!DNL Slack], consulta la sección [Obtener acceso a tu lista de [!UICONTROL favoritos] desde [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-favorites-and-recent-items-from-slack.md#accessing-favorites) en el artículo [Obtener acceso a tus favoritos y a los elementos recientes desde [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-favorites-and-recent-items-from-slack.md).
+     Para obtener más información sobre cómo acceder a tus Favoritos desde [!DNL Slack], consulte la sección [Acceder a tu lista de [!UICONTROL Favoritos] desde [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-favorites-and-recent-items-from-slack.md#accessing-favorites) en el artículo [Acceder a tus Favoritos y Elementos Recientes desde [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-favorites-and-recent-items-from-slack.md).
 
    * `/wf recent`
 
-     Muestra la lista de los elementos a los que se ha tenido acceso más recientemente en [!DNL Workfront].
+     Muestra la lista de los elementos a los que se accedió recientemente en [!DNL Workfront].
 
-     Para obtener más información sobre el acceso a los elementos recientes de [!DNL Slack], consulte el artículo [Acceso a la lista de [!UICONTROL elementos recientes] de [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-favorites-and-recent-items-from-slack.md#accessing-recent-items) section in the [[!UICONTROL Access your favorites] y [!UICONTROL elementos recientes de [!DNL Slack]]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-favorites-and-recent-items-from-slack.md).
+     Para obtener más información sobre cómo acceder a Elementos recientes desde [!DNL Slack], consulte la sección [Acceder a su lista de [!UICONTROL Elementos recientes] desde [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-favorites-and-recent-items-from-slack.md#accessing-recent-items) section in the [[!UICONTROL Access your favorites]  y el artículo [!UICONTROL elementos recientes desde [!DNL Slack]]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-favorites-and-recent-items-from-slack.md).
 
    * `wf tasks`
 
      Muestra una lista de las tareas.
 
-     Para obtener más información sobre la administración de tareas de [!DNL Slack], consulte la sección &quot;Administración de tareas de [!DNL Slack]&quot; en [Administración del trabajo y las aprobaciones de [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/manage-your-work-and-approvals-from-slack.md).
+     Para obtener más información sobre la administración de tareas de [!DNL Slack], consulte la sección “Administración de tareas de [!DNL Slack]” en [Administración del trabajo y las aprobaciones de [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/manage-your-work-and-approvals-from-slack.md).
 
    * `/wf issues`
 
      Muestra una lista de sus problemas.
 
-     Para obtener más información sobre la administración de los problemas de [!DNL Slack], consulte la sección &quot;Administrar los problemas de [!DNL Slack]&quot; en [Administrar el trabajo y las aprobaciones de [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/manage-your-work-and-approvals-from-slack.md).
+     Para obtener más información sobre la administración de los problemas de [!DNL Slack], consulte la sección “Administrar los problemas de [!DNL Slack]” en [Administrar el trabajo y las aprobaciones de [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/manage-your-work-and-approvals-from-slack.md).
 
    * `/wf approvals` muestra sus [!DNL Workfront] aprobaciones.\
 
-     Para obtener más información sobre la administración de las aprobaciones de [!DNL Slack], consulte la sección &quot;Administrar las aprobaciones de [!DNL Slack]&quot; en [Administrar el trabajo y las aprobaciones de [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/manage-your-work-and-approvals-from-slack.md).
+     Para obtener más información sobre cómo gestionar sus aprobaciones desde [!DNL Slack], consulte la sección “Gestionar tus aprobaciones desde [!DNL Slack]” en [Gestionar su trabajo y aprobaciones desde [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/manage-your-work-and-approvals-from-slack.md).
 
    * `/wf search <keyword>`
 
-     Palabra clave Include.
+     Incluya la palabra clave.
 
      Busque una palabra clave específica. Puede buscar los siguientes tipos de objetos:
 
@@ -155,24 +178,24 @@ Para iniciar sesión en [!DNL Workfront] desde [!DNL Slack]:
       * Plantilla
       * Documento
       * Portafolio
-      * Programar
+      * Programa
       * Panel de control
       * Compañía
-      * Nota \
+      * Nota  \
 
-        Para obtener más información sobre la búsqueda en [!DNL Slack], consulte [Buscar  [!DNL Adobe Workfront] elementos del Slack](../../workfront-integrations-and-apps/using-workfront-with-slack/search-for-wf-items-from-slack.md).
+        Para obtener más información sobre cómo buscar en [!DNL Slack], consulte [Buscar  [!DNL Adobe Workfront] elementos desde Slack](../../workfront-integrations-and-apps/using-workfront-with-slack/search-for-wf-items-from-slack.md).
    * `/wf log in`
 
-     Inicia sesión en [!DNL Workfront] desde [!DNL Slack].
+     Inicie sesión en [!DNL Workfront] desde [!DNL Slack].
 
    * `/wf log out `
 
-     Cierra la sesión de [!DNL Workfront] desde [!DNL Slack]. Permanece conectado a [!DNL Workfront] si tiene una instancia de [!DNL Workfront] independiente abierta en otra ficha del explorador en otra aplicación.
+     Cierre la sesión de [!DNL Workfront] desde [!DNL Slack]. Permanece conectado a [!DNL Workfront] si tiene una instancia de [!DNL Workfront] independiente abierta en otra pestaña del explorador en otra aplicación.
    * `/wf settings`
 
      Le permite configurar su configuración de [!DNL Workfront] en [!DNL Slack].
 
-     Para obtener información acerca de la configuración de [!DNL Workfront] en el Slack, vea [Configurar opciones](#configure-settings-configure-settings).
+     Para obtener información acerca de la configuración de [!DNL Workfront] en Slack, consulte [Configurar opciones](#configure-settings-configure-settings).
 
    * `/wf help`
 Muestra una lista completa de comandos para [!DNL Workfront].
@@ -181,7 +204,7 @@ Muestra una lista completa de comandos para [!DNL Workfront].
    * `Visit Workfront Help`: abre la sección [!UICONTROL Slack] en el sitio de ayuda de [!DNL Workfront] en una nueva pestaña del explorador.
 
 
-1. (Opcional) Para eliminar el mensaje de cualquier comando, pase el ratón sobre la esquina superior derecha del mensaje del Slack que contiene el comando y haga clic en&#x200B;**[!UICONTROL Mostrar acciones del mensaje]** y, a continuación, haga clic en **[!UICONTROL Eliminar mensaje]**.
+1. (Opcional) Para eliminar el mensaje de cualquier comando, coloque el cursor en la esquina superior derecha del mensaje de Slack que contiene el comando y haga clic en **[!UICONTROL Mostrar acciones del mensaje]**, luego, en **[!UICONTROL Eliminar mensaje]**.
 
 1. (Opcional y condicional) Haga clic en **[!UICONTROL Eliminar]** para confirmar que desea eliminar este mensaje.
 
@@ -189,7 +212,7 @@ Muestra una lista completa de comandos para [!DNL Workfront].
 
 Puede tener acceso a [!DNL Workfront] objetos desde un vínculo a esos objetos que se compartió con usted en [!DNL Slack].
 
-Para obtener más información sobre cómo tener acceso a [!DNL Workfront] desde un vínculo compartido, vea [Tener acceso a [!DNL Adobe Workfront] objetos desde un vínculo compartido en [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-wf-objects-from-shared-linked-in-slack.md).
+Para obtener más información sobre cómo tener acceso a [!DNL Workfront] desde un vínculo compartido, consulte [Tener acceso a [!DNL Adobe Workfront] objetos desde un vínculo compartido en [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-wf-objects-from-shared-linked-in-slack.md).
 
 ## Configurar opciones {#configure-settings}
 
@@ -201,15 +224,15 @@ Para obtener más información sobre cómo tener acceso a [!DNL Workfront] desde
 
    `/wf settings`
 
-   Todos los ajustes están activados de forma predeterminada.
+   Todos los ajustes están habilitados de forma predeterminada.
 
 1. Anule la selección de las siguientes opciones para deshabilitar la configuración de Workfront:
 
-   * En el área de **[!UICONTROL Configuración general]**, deshabilite **[!UICONTROL Al pegar una URL de [!DNL Workfront] en un canal de [!DNL Slack], muestre una descripción adicional, una fecha de vencimiento o un nombre de solicitante]** si no desea que [!DNL Slack] agregue información adicional sobre los objetos de [!DNL Workfront] cuando comparta una URL con el objeto en [!UICONTROL Slack].
+   * En el área de **[!UICONTROL Configuración General]**, desactiva la opción **[!UICONTROL Al pegar una [!DNL Workfront]URL[!DNL Slack] en un canal, mostrar descripción adicional, fecha de vencimiento o nombre del solicitante]**, si no desea que [!DNL Slack] añada información adicional sobre sus objetos de [!DNL Workfront] cuando comparta una URL del objeto en [!UICONTROL Slack].
 
    * En el área **[!UICONTROL Configuración de notificaciones]**, deshabilite las notificaciones que desee que dejen de recibirse de Workfront.\
 
-     Para obtener información acerca de cómo recibir [!DNL Workfront] notificaciones en [!DNL Slack], vea [Recibir [!DNL Adobe Workfront] notificaciones en [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/receive-workfront-notifications-in-slack.md).
+     Para obtener información acerca de cómo recibir [!DNL Workfront] notificaciones en [!DNL Slack], consulte [Recibir [!DNL Adobe Workfront] notificaciones en [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/receive-workfront-notifications-in-slack.md).
 
 ## Cerrar sesión de [!DNL Workfront] desde [!DNL Slack]
 
@@ -217,4 +240,4 @@ Para obtener más información sobre cómo tener acceso a [!DNL Workfront] desde
    `/workfront log out` O\
    `/wf log out`\
    Recibirá una confirmación de que ha cerrado la sesión de [!DNL Workfront].\
-   Permanece conectado a [!DNL Workfront] si tiene una instancia de [!DNL Workfront] independiente abierta en otra ficha del explorador en otra aplicación.
+   Permanece conectado a [!DNL Workfront] si tiene una instancia de [!DNL Workfront] independiente abierta en otra pestaña del explorador en otra aplicación.

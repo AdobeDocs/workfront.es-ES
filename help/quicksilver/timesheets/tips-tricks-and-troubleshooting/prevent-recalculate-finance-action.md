@@ -4,13 +4,13 @@ product-area: timesheets
 navigation-topic: tips-tricks-and-troubleshooting-timesheets
 title: Evitar que la acción Recalcular finanzas afecte a las horas históricas cuando cambian las tarifas
 description: Debe actualizar el coste por hora de un usuario o rol (debido a un aumento u otra circunstancia), pero no desea que este cambio afecte a las horas que se han registrado anteriormente en los proyectos o desea que afecte solo a una parte de las horas históricas.
-author: Alina
+author: Lisa
 feature: Timesheets
 exl-id: 29d3124b-cf7a-4a47-95c4-cd5379489810
-source-git-commit: 7786d899841cb82cc4d3832fb083c6e2bda2e197
+source-git-commit: 69cd5fb1d089b81b7a1673609b92537137b6b68e
 workflow-type: tm+mt
 source-wordcount: '188'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 

@@ -3,15 +3,15 @@ product-area: requests
 navigation-topic: create-and-manage-request-queues
 title: Crear grupos de temas
 description: Los grupos de temas están asociados a las colas de solicitudes. Permiten clasificar las colas de solicitudes en varias categorías según la naturaleza de las solicitudes.
-author: Alina
+author: Becky
 feature: Work Management, Requests
 topic: Collaboration
 role: User, Admin
 exl-id: 7c5959f4-f33f-4f5e-b031-748dbe1a24a5
-source-git-commit: 0da05d048d0dab1c2f06870e589c1349c48ccc58
+source-git-commit: 9cdf3d78e1d19f3d581f8d527919a608c5cc0ddc
 workflow-type: tm+mt
-source-wordcount: '486'
-ht-degree: 84%
+source-wordcount: '463'
+ht-degree: 83%
 
 ---
 
@@ -25,22 +25,19 @@ Los grupos de temas están asociados a las colas de solicitudes. Las colas de so
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Plan de Adobe Workfront</td> 
+   <td role="rowheader">paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p role="rowheader">Licencia de Adobe Workfront</p> </td> 
    <td>   
-      <p>Nuevo: estándar</p>
-      <p>O</p> 
-      <p>Actual: plan</p>
+      <p>Estándar</p>
+      <p>Plan</p>
  </td> 
   </tr> 
   <tr> 
@@ -54,7 +51,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  </tbody> 
 </table>
 
-Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

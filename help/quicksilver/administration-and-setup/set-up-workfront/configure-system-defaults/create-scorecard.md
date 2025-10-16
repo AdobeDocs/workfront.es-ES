@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 89c9b450-72a6-4b72-98d1-22956696543a
-source-git-commit: 7f719c903ad4079470a6dbd046dce445ba227a5b
+source-git-commit: 22ae8b489c63ba6eea1472cf415f95e375a94773
 workflow-type: tm+mt
-source-wordcount: '718'
+source-wordcount: '716'
 ht-degree: 73%
 
 ---
@@ -47,26 +47,21 @@ Puede crear un informe de valoración de la siguiente manera:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
-   <td> <p>Nuevo: Ultimate</p>
-   <p>Actual: [!UICONTROL Business] o superior</p> 
-   </td> 
+   <td role="rowheader">paquete de Workfront</td> 
+   <td><p>Cualquiera</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licencia*</td> 
-   <td><p>Nuevo: [!UICONTROL Standard]</p>
-   <p>Actual: [!UICONTROL Plan]</p>
-   </td> 
+   <td role="rowheader">Licencia de Adobe Workfront</td> 
+   <td><p>Estándar</p> <p>Plan</p></td> 
   </tr> 
-   <tr> 
-   <td role="rowheader"><p>Nivel de acceso</p></td> 
-   <td><p>Administrador del sistema</p>
-   </td> 
-  </tr>
+  <tr> 
+   <td role="rowheader">Configuraciones de nivel de acceso</td> 
+   <td>Debe ser administrador de Workfront. </td> 
+  </tr> 
  </tbody> 
 </table>
 
-*Para obtener información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

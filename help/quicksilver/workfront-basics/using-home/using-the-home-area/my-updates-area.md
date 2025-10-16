@@ -6,9 +6,9 @@ description: Puede usar el área [!UICONTROL Mis actualizaciones] para revisar d
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 809605a0-8c24-4873-b98f-504a158be022
-source-git-commit: 4448d2fc6d0230ef2f53ad0ea7ae0f10f52fcac4
+source-git-commit: 41f58261d4f2e6075187886b371a23eb5e97d823
 workflow-type: tm+mt
-source-wordcount: '811'
+source-wordcount: '779'
 ht-degree: 88%
 
 ---
@@ -33,21 +33,18 @@ Si posee un tipo de licencia diferente al de Revisión, el administrador de [!DN
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront plan]</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront package]</strong></td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licencia*</strong></td> 
-   <td> <p>Nuevo: colaborador o superior</p>
-   O   
-   <p>Actual: [!UICONTROL Request] o superior</p> </td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] licencia</strong></td> 
+   <td> <p>Colaborador o superior</p>
+   <p>Solicitud o superior</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Configuración de nivel de acceso</strong></td> 
@@ -60,7 +57,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  </tbody> 
 </table>
 
-*Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de [!DNL Workfront]. Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

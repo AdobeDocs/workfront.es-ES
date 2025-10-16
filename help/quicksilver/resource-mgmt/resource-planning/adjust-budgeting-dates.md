@@ -6,10 +6,10 @@ description: Si observa que hay sobreasignaciones de los recursos después de ha
 author: Lisa
 feature: Resource Management
 exl-id: bc49d45a-73a5-4b02-9054-9c9dbb54224d
-source-git-commit: a3b2ac192e1f37e0c3d16d059ed96e8d5cadf8be
+source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
 workflow-type: tm+mt
-source-wordcount: '515'
-ht-degree: 98%
+source-wordcount: '486'
+ht-degree: 97%
 
 ---
 
@@ -23,36 +23,31 @@ Las sobreasignaciones pueden aparecer cuando el valor de horas presupuestadas, F
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Plan de Adobe Workfront</td> 
-    <td><p>Nuevo: cualquiera</p>
-       <p>o</p>
-       <p>Actual: pro o superior</p> </td> 
+   <td>paquete de Adobe Workfront</td> 
+   <td><p>Cualquiera</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Licencia de Adobe Workfront</td> 
-   <td><p>Nuevo: estándar</p>
-       <p>o</p>
-       <p>Actual: plan</p></td> 
+   <td>Licencia de Adobe Workfront</td> 
+   <td><p>Estándar</p>
+       <p>Plan</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraciones de nivel de acceso</td> 
+   <td>Configuraciones de nivel de acceso</td> 
    <td> <p>Acceso de edición a la administración de recursos que incluye acceso a Editar prioridades y horas presupuestadas en el Planificador de recursos</p> <p>Acceso de edición a datos financieros, proyectos y usuarios</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Permisos de objeto</td> 
+   <td>Permisos de objeto</td> 
    <td> <p>Permisos de administración a los proyectos para los que desea presupuestar información con capacidad de Administrar finanzas</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -76,7 +71,7 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
 1. Elimine las horas presupuestadas de la escala de tiempo existente del proyecto y agréguelas a la escala de tiempo que muestre la mayor disponibilidad.
 1. Haga clic en **Guardar**.
 1. (Condicional y opcional) Si los lapsos de tiempo sin conflictos de presupuesto están fuera de la escala de tiempo del proyecto, haga clic en el nombre del proyecto para acceder a él.
-1. (Condicional y opcional) Haga clic en **Editar proyecto** y, a continuación, modifique la **Fecha planificada de inicio** o la **Fecha planificada de finalización** para modificar la escala de tiempo del proyecto para el lapso de tiempo sin conflictos de presupuesto.\
+1. (Condicional y opcional) Haga clic en **Editar proyecto** y, a continuación, modifique la **Fecha de inicio planificada** o la **Fecha de finalización planificada** para modificar la escala de tiempo del proyecto para el lapso de tiempo sin conflictos de presupuesto.\
    Para obtener más información sobre la edición de proyectos, consulte el artículo [Editar proyectos](../../manage-work/projects/manage-projects/edit-projects.md).
 
 1. (Condicional y opcional) Haga clic en **Guardar cambios**.

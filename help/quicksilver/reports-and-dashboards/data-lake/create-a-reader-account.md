@@ -7,10 +7,10 @@ description: Para acceder a los datos de Data Connect, primero debe crear una cu
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 70d83a10-f926-4229-ac10-7659f2ca5e7a
-source-git-commit: ea9c674b798c48927c7a0a542d36d5ded15ea3f1
+source-git-commit: 7764e512a3fb30a89e6645a4d8544a5fcffee231
 workflow-type: tm+mt
-source-wordcount: '654'
-ht-degree: 25%
+source-wordcount: '629'
+ht-degree: 23%
 
 ---
 
@@ -18,41 +18,33 @@ ht-degree: 25%
 
 Para acceder a los datos de Data Connect, primero debe crear una cuenta de Snowflake Reader (o servicio) para su organización y, a continuación, crear una nueva conexión para cada usuario o herramienta que desee que tenga acceso a Data Connect.
 
-Después de crear una conexión, puede encontrar su URL y nombre de usuario asociados haciendo clic en ella en la página **Conexión de datos** (**Menú principal** > **Configuración** > **Sistema** > **Conexión de datos**) en la pestaña **Conexiones existentes**.
+Después de crear una conexión, puede encontrar su URL y nombre de usuario asociados haciendo clic en ella en la página Data Connect (menú principal > Configuración > Sistema > Data Connect) en la pestaña Existing Connections.
 
 Para obtener información sobre cómo usar una conexión recién creada con un producto externo, consulte [Establecer una conexión con Workfront Data Connect](/help/quicksilver/reports-and-dashboards/data-lake/share-data-externally.md).
 
 ## Requisitos de acceso
 
-+++ Amplíe para ver los requisitos de acceso.
-
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
++++ Amplíe para ver los requisitos de acceso. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Plan de Adobe Workfront</td> 
-   <td><p>Incluido en los siguientes planes:</p>
-    <ul>
-        <li>Ultimate</li> 
-    </ul>    
-   <!--<p>Can be purchased as an add-on to the following plans:</p> 
-    <ul>
-        <li>Select</li> 
-        <li>Prime</li>
-    </ul>--> 
-    <p>Workfront Data Connect no está disponible para los planes Workfront heredados.</p> 
+   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td><p>Ultimate</p>
+    <p>Workflow Ultimate</p>
    </td>
   </tr> 
   <tr> 
    <td role="rowheader">Licencia de Adobe Workfront</td> 
-   <td><p>Plan</p></td> 
+   <td>
+   <p>Estándar</p>
+   <p>Plan</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso</td> 
-   <td> <p>Debe ser administrador de Workfront.</p></td> 
+   <td> <p>Debe ser administrador de Workfront</p></td> 
   </tr> 
  </tbody> 
 </table>

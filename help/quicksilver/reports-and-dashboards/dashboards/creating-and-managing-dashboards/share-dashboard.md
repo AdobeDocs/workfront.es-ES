@@ -6,10 +6,10 @@ description: El administrador de Adobe Workfront concede a los usuarios acceso p
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 21bd531f-8732-4d6c-b91f-990887285447
-source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
+source-git-commit: c8b7ad473b0c2120ef5ea52374b3501ad6f553f1
 workflow-type: tm+mt
-source-wordcount: '503'
-ht-degree: 33%
+source-wordcount: '501'
+ht-degree: 32%
 
 ---
 
@@ -31,41 +31,33 @@ Los permisos son específicos de un elemento de Workfront y definen qué accione
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
-Se necesita tener lo siguiente para compartir objetos:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Plan de Adobe Workfront</strong></td> 
-   <td> <p>Cualquiera </p> </td> 
+   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Licencia de Adobe Workfront</strong></td> 
+   <td role="rowheader">Licencia de Adobe Workfront</td> 
     <td> 
-      <p>Nuevo:</p>
-         <ul>
-         <li><p>Ligero o superior</p></li>
-         </ul>
-      <p>Actual:</p>
-         <ul>
-         <li><p>Revisión o superior</p></li>
-         </ul>
+   <p>Ligero o superior</p>
+   <p>Revisión o superior</p>
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Configuraciones de nivel de acceso</strong></td> 
+   <td role="rowheader">Configuraciones de nivel de acceso</td> 
    <td> <p>Ver el acceso o superior a Informes, Paneles, Calendarios</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Permisos de objeto</strong></td> 
-   <td> <p>Ver permisos o superior en el tablero</p> </td> 
+   <td role="rowheader">Permisos de objeto</td> 
+   <td> <p>Ver permisos o superiores en el panel</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

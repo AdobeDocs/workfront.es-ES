@@ -6,10 +6,10 @@ description: Puede cargar ajustes preestablecidos de documento fotográfico como
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: cbb12ee7-949e-44a1-9340-3ef93c003b21
-source-git-commit: 9cbf1706e6c535ff7f52627d2c6e13de65ec76d0
+source-git-commit: a65a4568c6428768ee6bc60a59a8499efdbec9f8
 workflow-type: tm+mt
-source-wordcount: '717'
-ht-degree: 73%
+source-wordcount: '648'
+ht-degree: 70%
 
 ---
 
@@ -19,7 +19,7 @@ Puede cargar ciertos tipos de ajustes preestablecidos de documentos de Photoshop
 
 >[!IMPORTANT]
 >
->El archivo debe ser un ajuste preestablecido de documento fotográfico como se describe en [Plantillas y ajustes preestablecidos en Photoshop](https://helpx.adobe.com/es/photoshop/using/create-documents.html).
+>El archivo debe ser un ajuste preestablecido de documento fotográfico como se describe en [Plantillas y ajustes preestablecidos en Photoshop](https://helpx.adobe.com/photoshop/using/create-documents.html).
 
 
 
@@ -27,22 +27,22 @@ Puede cargar ciertos tipos de ajustes preestablecidos de documentos de Photoshop
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
-   <td> <p>Plan actual: [!UICONTROL Pro] o superior</p> <p>o</p> <p>Plan heredado: [!UICONTROL Premium]</p> <p>Para obtener más información sobre el acceso de revisión con los diferentes planes, consulte .</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] paquete</td> 
+   <td> Cualquiera</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licencia*</td> 
-   <td> <p>Plan actual: [!UICONTROL Work] o [!UICONTROL Proof]</p> <p>Plan heredado: cualquiera (debe tener la revisión habilitada para el usuario)</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] licencia</td> 
+   <td> 
+   <p>Estándar</p>
+   <p>Trabajo o superior</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Producto</td> 
+   <td role="rowheader">Productos adicionales</td> 
    <td>Debe tener una licencia [!DNL Adobe Creative Cloud] además de una licencia [!DNL Workfront].</td> 
   </tr> 
   <tr> 
@@ -51,12 +51,12 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Editar acceso a [!UICONTROL Documents]</p> <p>Para obtener información sobre cómo solicitar acceso adicional, consulte <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a objetos </a>.</p> </td> 
+   <td> <p>Editar acceso a [!UICONTROL Documents]</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qué plan, función o perfil de permiso de prueba tiene, póngase en contacto con su administrador de Workfront o de Workfront Proof.
+Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -137,7 +137,7 @@ Puede cargar una nueva versión de una prueba. El complemento recuerda el flujo 
 1. Haga clic en **[!UICONTROL Nueva versión]** cerca de la parte inferior del panel [!DNL Workfront].
 1. Habilite el conmutador **[!UICONTROL Crear una revisión]**.
 
-1. En la sección *[!UICONTROL *Aprobaciones de revisión]&#x200B;**, elija &#x200B;** [!UICONTROL Básico] **&#x200B; o &#x200B;** [!UICONTROL Automatizado]**.
+1. En la sección *[!UICONTROL *Aprobaciones de revisión]**, elija **[!UICONTROL Básico]** o **[!UICONTROL Automatizado]**.
 
 1. Añada **[!UICONTROL Revisores]** o una **[!UICONTROL Plantilla de flujo de trabajo]** según el tipo de aprobación que seleccionó en el paso 7.
 

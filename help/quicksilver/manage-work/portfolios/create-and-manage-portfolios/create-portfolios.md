@@ -1,21 +1,21 @@
 ---
 product-area: portfolios
 navigation-topic: create-and-manage-portfolios
-title: Crear un portafolio
+title: Crear un Portfolio
 description: Un portafolio es una colección de proyectos que se completan para los mismos recursos, presupuesto y programación. Los proyectos de un portafolio son lo suficientemente similares como para utilizar el mismo conjunto de recursos y medirse con el mismo cuadro de resultados.
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: fdaed68d-d9cc-4514-8f80-b169cdd739bd
-source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
+source-git-commit: fbe17e50ff161156a0b4b2a8b468b4eb844cae59
 workflow-type: tm+mt
-source-wordcount: '671'
-ht-degree: 81%
+source-wordcount: '667'
+ht-degree: 79%
 
 ---
 
 # Crear un portafolio
 
-<!--Audited: 7/2024-->
+<!--Audited: 08/2025-->
 
 Un portafolio es una colección de proyectos que se completan para los mismos recursos, presupuesto y programación. Los proyectos de un portafolio son lo suficientemente similares como para utilizar el mismo conjunto de recursos y medirse con el mismo cuadro de resultados.
 
@@ -23,20 +23,20 @@ Puede utilizar portafolios para agrupar proyectos que pertenezcan a las mismas l
 
 ## Requisitos de acceso
 
-+++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] paquete</td> 
    <td> <p>Cualquiera</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licencia*</td> 
-   <td> <p>Nuevo: [!UICONTROL Standard]</p>
-   <p>Current:[!UICONTROL Plan] </p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] licencia</td> 
+   <td> <p>[!UICONTROL Standard]</p>
+   <p>[!UICONTROL Plan] </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso</td> 
@@ -44,14 +44,42 @@ Puede utilizar portafolios para agrupar proyectos que pertenezcan a las mismas l
   </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Después de crear un portafolio, tiene permisos de administración sobre él de forma predeterminada</p>  </td> 
+   <td> <p>Después de crear un portafolio, tiene permisos de administración</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Para obtener información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
+   <td> <p>Any</p></td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
+   <td> <p>New: [!UICONTROL Standard]</p>
+   <p>Current:[!UICONTROL Plan] </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>[!UICONTROL Edit] access to Portfolios</p>  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>After you create a portfolio, you have Manage permissions to it, by default</p>  </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). -->
 
 ## Formas de crear portafolios
 
@@ -107,7 +135,7 @@ Puede crear portafolios en Workfront mediante uno de los métodos siguientes:
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">Grupo </td> 
-      <td> <p>Añada el nombre de un solo grupo si éste es propietario del portafolio o tiene la responsabilidad de completarlo. </p> <p>Para asegurarse de que está seleccionando el grupo correcto, pase el puntero por encima de él y haga clic en el icono de [!UICONTROL information] <img src="assets/info-icon.png"> que aparece junto a él. Esta acción muestra la ayuda contextual con información sobre el grupo, como la jerarquía de los grupos que tiene por encima y sus administradores.</p> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/group-details-widget-portfolios-350x250.png" style="width: 350;height: 250;"> </p> </td> 
+      <td> <p>Añada el nombre de un solo grupo si éste es propietario del portafolio o tiene la responsabilidad de completarlo. </p> <p>Para asegurarse de que esté seleccionando el grupo correcto, pase el puntero por encima de él y haga clic en el icono de [!UICONTROL information] <img src="assets/info-icon.png"> que aparece junto a él. Esta acción muestra la ayuda contextual con información sobre el grupo, como la jerarquía de los grupos que tiene por encima y sus administradores.</p> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/group-details-widget-portfolios-350x250.png" style="width: 350;height: 250;"> </p> </td> 
      </tr> 
     </tbody> 
    </table>

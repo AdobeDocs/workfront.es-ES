@@ -2,65 +2,58 @@
 content-type: reference
 product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Filtrar: mostrar elementos por estados del mismo nombre cuando los estados están asociados a grupos diferentes"
-description: Puede tener un estado de tarea asignado al grupo A denominado Nuevo estado con la clave de 3 letras NST. Es posible que tenga otro estado de tarea asignado al Grupo B, también denominado Nuevo estado con la clave de 3 letras NES. Aunque los nombres de los dos estados pueden ser idénticos, el código de 3 letras siempre es único. Para obtener más información sobre los estados de grupo, consulte Crear o editar un estado de grupo.
+title: 'Filtrar: Muestra los elementos por estados del mismo nombre cuando los estados están asociados a grupos diferentes'
+description: Puede tener un estado de tarea asignado al grupo A denominado Nuevo estado con la clave de tres letras NST. Es posible que tenga otro estado de tarea asignado al grupo B, también denominado Nuevo estado con la clave de tres letras NES. Aunque los nombres de los dos estados pueden ser idénticos, el código de tres letras siempre es único. Para obtener más información sobre los estados de grupo, consulte Crear o editar un estado de grupo.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 8ddcd8b1-44a9-4341-80c7-76ba70d2953b
-source-git-commit: 7b25d3b5fe69f610e245db5ada116ea967f22c7b
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '486'
-ht-degree: 0%
+source-wordcount: '472'
+ht-degree: 63%
 
 ---
 
-# Filtrar: muestra los elementos por estados del mismo nombre cuando los estados están asociados con grupos diferentes
+# Filtro: mostrar elementos por estados del mismo nombre cuando los estados están asociados con grupos diferentes
 
 <!--Audited: 10/2024-->
 
-Puede asignarse un estado de tarea al grupo A denominado *Nuevo estado* con la clave de 3 letras *NST*. Es posible que tenga otro estado de tarea asignado al Grupo B también denominado *Nuevo estado* con la clave de 3 letras *NES.* Aunque los nombres de los dos estados pueden ser idénticos, el código de 3 letras siempre es único.
+Puede asignarse un estado de tarea al grupo A denominado *Nuevo estado* con la clave de tres letras *NST*. Es posible que tenga otro estado de tarea asignado al grupo B también denominado *Nuevo estado* con la clave de tres letras *NES.* Aunque los nombres de los dos estados pueden ser idénticos, el código de tres letras siempre es único.
 
 Para obtener más información acerca de los estados de grupo, vea [Crear o editar un estado de grupo](../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md).
 
-Con el generador de filtros, no se puede identificar entre los 2 estados que tienen el mismo nombre. Debe utilizar el modo Texto en un filtro personalizado para distinguir entre los 2 estados.
+Con el generador de filtros, no se puede identificar entre los dos estados que tienen el mismo nombre. Debe utilizar el modo Texto en un filtro personalizado para distinguir entre los 2 estados.
 
 ## Requisitos de acceso
 
-+++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
-
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plan de Adobe Workfront</td> 
+   <td role="rowheader">paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licencia de Adobe Workfront*</td> 
+   <td role="rowheader">Licencia de Adobe Workfront</td> 
    <td> 
-    <p>Nuevo:</p>
-   <ul><li><p>Colaborador para modificar un filtro </p></li>
-   <li><p>Estándar para modificar un informe</p></li> </ul>
-
-<p>Actual:</p>
-   <ul><li><p>Solicitud para modificar un filtro </p></li>
-   <li><p>Plan para modificar un informe</p></li> </ul></td> 
+   <p>Colaborador o solicitud para modificar un filtro </p>
+   <p>Estándar o Plan para modificar un informe</p>
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso</td> 
-   <td> <p>Editar el acceso a Informes, Tableros y Calendarios para modificar un informe</p> <p>Editar el acceso a filtros, vistas y agrupaciones para modificar un filtro</p> </td> 
+   <td> <p>Editar el acceso a Informes, Paneles de control y Calendarios para modificar un informe</p> <p>Acceso de edición a filtros, vistas y agrupaciones para modificar un filtro</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Administración de permisos de un informe</p>  </td> 
+   <td> <p>Permisos de administración para un informe</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -85,9 +78,9 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
    >[!NOTE]
    >
-   >Aquí solo se muestra un estado. La línea de estado muestra una de las claves de 3 letras para uno de los estados.
+   >Aquí solo se muestra un estado. La línea de estado muestra una de las claves de tres letras para uno de los estados.
 
-1. Agregue las dos líneas de código siguientes para añadir el estado que falta en el filtro:
+1. Añada las dos líneas de código siguientes para añadir el estado que falta en el filtro:
 
    <pre>OR:2:status=NES<br>OR:2:status_Mod=in</pre>
 

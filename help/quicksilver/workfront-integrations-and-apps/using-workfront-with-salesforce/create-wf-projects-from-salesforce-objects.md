@@ -6,9 +6,9 @@ description: Después de instalar [!DNL Adobe Workfront] for Salesforce, puede d
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: b38c91ae-342b-4002-a947-7a0ab1aaca93
-source-git-commit: f9af669b023309abc132421f35a2ece974e796b0
+source-git-commit: 6178cabbf021fbf92bd8795c5c2bd0346801d64d
 workflow-type: tm+mt
-source-wordcount: '1581'
+source-wordcount: '1573'
 ht-degree: 10%
 
 ---
@@ -21,32 +21,35 @@ ht-degree: 10%
 >
 >Recomendamos utilizar la automatización e integración de Workfront para las necesidades de integración de su organización con Salesforce.
 >
->Para obtener una descripción general de la automatización e integración de Workfront, consulte [Información general de Adobe Workfront Fusion](https://experienceleague.adobe.com/es/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+>Para obtener una descripción general de la automatización e integración de Workfront, consulte [Información general de Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 >
->Para obtener información sobre las capacidades específicas de los módulos de integración y automatización de Workfront para Salesforce, consulte [módulos de Salesforce](https://experienceleague.adobe.com/es/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/salesforce-modules).
+>Para obtener información sobre las capacidades específicas de los módulos de integración y automatización de Workfront para Salesforce, consulte [módulos de Salesforce](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/salesforce-modules).
 
 Después de instalar [!DNL Adobe Workfront] para Salesforce, puede definir déclencheur que creen [!DNL Workfront] proyectos cuando se cumplan ciertos criterios en [!DNL Salesforce] [!UICONTROL Oportunidades] y [!UICONTROL Cuentas].
 
 ## Requisitos de acceso
 
-Debe tener el siguiente acceso para utilizar la funcionalidad que se describe en este artículo:
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
-   <td> <p>[!UICONTROL Pro] o superior</p> </td> 
+   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licencia*</td> 
-   <td> <p>[!UICONTROL Plan]</p> </td> 
+   <td role="rowheader">Licencia de Adobe Workfront</td> 
+   <td> <p>Estándar</p>
+   <p>Plan</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con la persona con la función de administrador de [!DNL Workfront].
+Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Requisitos previos
 
@@ -58,7 +61,7 @@ asegúrese de que dispone de lo siguiente en su entorno:
 
 * El administrador de [!DNL Workfront] ha agregado la sección [!DNL Workfront] a su [!UICONTROL oportunidad] y cuenta
 diseños de página.\
-   Para obtener más información sobre cómo añadir la sección [!DNL Workfront] a un diseño de página, consulte [Configurar la sección  [!DNL Adobe Workfront]  para los usuarios de  [!DNL Salesforce] &#x200B;](../../workfront-integrations-and-apps/using-workfront-with-salesforce/configure-wf-section-for-salesforce-users.md).
+   Para obtener más información sobre cómo añadir la sección [!DNL Workfront] a un diseño de página, consulte [Configurar la sección  [!DNL Adobe Workfront]  para los usuarios de  [!DNL Salesforce] ](../../workfront-integrations-and-apps/using-workfront-with-salesforce/configure-wf-section-for-salesforce-users.md).
 
 * Tiene una cuenta de [!DNL Workfront] y puede iniciar sesión en ella desde la sección [!DNL Workfront] dentro de su [!UICONTROL oportunidad] o cuenta
 .
@@ -168,7 +171,7 @@ Para configurar déclencheur en [!UICONTROL Salesforce]:
    1. Seleccione un **[!UICONTROL Tipo]** del menú desplegable **[!UICONTROL Tipo]**.
 
       Cuando cualquier **Cuenta
-**&#x200B; se designa como &#x200B;** [!UICONTROL Tipo] **&#x200B; especificado aquí en [!DNL Salesforce], se crea un &#x200B;** [!UICONTROL Proyecto]** en [!DNL Workfront].
+** se designa como **[!UICONTROL Tipo]** especificado aquí en [!DNL Salesforce], se crea un **[!UICONTROL Proyecto]** en [!DNL Workfront].
 
       Este campo es obligatorio.
 

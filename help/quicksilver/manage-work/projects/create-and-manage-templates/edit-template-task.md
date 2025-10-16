@@ -7,9 +7,9 @@ description: Después de crear una plantilla, puede editar la información sobre
 author: Alina
 feature: Work Management
 exl-id: 2df8522e-7eee-4440-be0f-f7483c5acdb0
-source-git-commit: 5bdf1bd285023d29ee6c61f16a4bd6a622d964d8
+source-git-commit: d7600a55b3dffb242957234de9d85a0deb1ad2e3
 workflow-type: tm+mt
-source-wordcount: '2491'
+source-wordcount: '2498'
 ht-degree: 85%
 
 ---
@@ -28,26 +28,25 @@ Puede editar las tareas de plantilla o puede editar las tareas de plantilla de f
 >
 >No podrá editar de forma masiva tareas de plantilla que pertenezcan a distintas plantillas. Solo puede editar las tareas de plantilla que pertenezcan a la misma plantilla
 
-
 ## Requisitos de acceso
 
-+++ Amplíe para ver los requisitos de acceso. 
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Plan de Adobe Workfront</td> 
+   <td role="rowheader">paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licencia de Adobe Workfront*</td> 
-   <td> <p>Estándar </p>
-   <p>Plan </p> </td> 
+   <td role="rowheader">Licencia de Adobe Workfront</td> 
+   <td> <p>Estándar</p>
+   <p>Plan </p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Nivel de acceso</td> 
+   <td role="rowheader">Configuración de nivel de acceso</td> 
    <td> <p>Acceso de edición a las plantillas</p>  </td> 
   </tr> 
   <tr> 
@@ -57,9 +56,35 @@ Puede editar las tareas de plantilla o puede editar las tareas de plantilla de f
  </tbody> 
 </table>
 
-*Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Standard </p>
+   <p>Plan </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level</td> 
+   <td> <p>Edit access to Templates</p>  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions </td> 
+   <td> <p>Manage permissions for a template. </p> <p>You cannot share a template task. </p> </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## Requisitos previos
 

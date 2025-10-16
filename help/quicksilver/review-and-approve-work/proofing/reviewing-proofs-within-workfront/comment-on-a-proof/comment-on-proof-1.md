@@ -6,10 +6,10 @@ description: Los comentarios le permiten proporcionar comentarios sobre el conte
 author: Courtney
 feature: Digital Content and Documents
 exl-id: b0386786-7f90-4d1c-bd3a-1cd545430de1
-source-git-commit: a9dbfe21337be9cd9929f4e982e4979265ca14e1
+source-git-commit: a117b4e671490a380518cb987b897ca17e54cb16
 workflow-type: tm+mt
-source-wordcount: '779'
-ht-degree: 21%
+source-wordcount: '702'
+ht-degree: 12%
 
 ---
 
@@ -28,19 +28,19 @@ Al etiquetar a los usuarios en comentarios de una prueba, es posible que los usu
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Plan de Adobe Workfront*</td> 
-   <td> <p>Plan actual: pro o superior</p> <p>o</p> <p>Plan heredado: select o premium</p> <p>Para obtener más información sobre el acceso de revisión con los diferentes planes, consulte <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Acceso a la funcionalidad de revisión en Workfront</a>.</p> </td> 
+   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licencia de Adobe Workfront*</td> 
-   <td> <p>Plan actual: trabajo o plan</p> <p>Plan heredado: cualquiera (debe tener la revisión habilitada para el usuario)</p> </td> 
+   <td role="rowheader">Licencia de Adobe Workfront</td> 
+   <td>
+   <p>Cualquiera</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Perfil de permiso de prueba </td> 
@@ -51,13 +51,13 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
    <td>Revisor, Revisor y aprobador, Moderador, Autor</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraciones de nivel de acceso*</td> 
-   <td> <p>Acceso de edición a documentos</p> <p>Para obtener información sobre cómo solicitar acceso adicional, consulte <a href="../../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a los objetos </a>.</p> </td> 
+   <td role="rowheader">Configuraciones de nivel de acceso</td> 
+   <td> <p>Acceso de edición a documentos</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qué plan, función o perfil de permiso de revisión tiene, póngase en contacto con su administrador de Workfront o de Workfront Proof.
+Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

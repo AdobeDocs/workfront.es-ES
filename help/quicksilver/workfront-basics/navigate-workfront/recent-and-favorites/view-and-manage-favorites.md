@@ -6,10 +6,10 @@ description: El menú Favoritos le permite tener acceso rápidamente a los eleme
 feature: Get Started with Workfront
 author: Courtney
 exl-id: bf9dc447-751c-4802-9e6a-ecd31538dba4
-source-git-commit: a9dbfe21337be9cd9929f4e982e4979265ca14e1
+source-git-commit: f0b3b8aa64fa0b03a196bbcc2bdd037eeeb0f89e
 workflow-type: tm+mt
-source-wordcount: '382'
-ht-degree: 71%
+source-wordcount: '370'
+ht-degree: 69%
 
 ---
 
@@ -23,8 +23,6 @@ El menú [!UICONTROL Favorites] le permite tener acceso a los elementos rápidam
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -32,15 +30,14 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
+   <td role="rowheader">paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licencia</td> 
+   <td role="rowheader">Licencia de Adobe Workfront</td> 
    <td> <p>
-      <p>Nuevo: colaborador o superior<p>
-      <p>O</p>
-      <p>Actual: solicitud o superior</p> </td> 
+      <p>Colaborador o superior<p>
+      <p>Solicitud o superior</td> 
   </tr> 
  </tbody> 
 </table>

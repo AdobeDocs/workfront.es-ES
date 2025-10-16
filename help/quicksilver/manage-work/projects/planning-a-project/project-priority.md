@@ -2,15 +2,15 @@
 content-type: overview
 product-area: projects
 navigation-topic: plan-a-project
-title: Comprensión y actualización de las prioridades del proyecto
+title: Comprender y actualizar las prioridades del proyecto
 description: Existen varias formas de utilizar las prioridades para los proyectos y no se comunican entre sí. Le recomendamos que seleccione una de las prioridades de los proyectos que coincida con sus necesidades y que se refiera a ella al categorizar la importancia de sus proyectos.
 author: Alina
 feature: Work Management
 exl-id: b1e0b6c5-f2a7-455b-836b-6c0ead85e3ad
-source-git-commit: 7db80f5bacf52b7bbe540f4e38e88853af86a5e2
+source-git-commit: 00e693fc8b35a59f6ed212bc30da7f85cc78c845
 workflow-type: tm+mt
-source-wordcount: '668'
-ht-degree: 96%
+source-wordcount: '610'
+ht-degree: 94%
 
 ---
 
@@ -20,7 +20,37 @@ Existen varias formas de utilizar las prioridades para los proyectos y no se com
 
 ## Requisitos de acceso
 
-<!--drafted for P&P:
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo. 
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td> <p>Cualquiera</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Licencia de Adobe Workfront</td> 
+   <td><p>Estándar</p> 
+   <p>Plan</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Configuraciones de nivel de acceso</td> 
+   <td> <p>Acceso de edición a proyectos</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Permisos de objeto</td> 
+   <td> <p>Administrar permisos del proyecto</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
+<!--Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -32,9 +62,7 @@ Existen varias formas de utilizar las prioridades para los proyectos y no se com
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Current license: Standard </p>
-   Or
-   <p>Legacy license: Plan </p> </td> 
+   <td> <p>Plan </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
@@ -47,36 +75,7 @@ Existen varias formas de utilizar las prioridades para los proyectos y no se com
    <td> <p>Manage permissions to the project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>
--->
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Plan de Adobe Workfront*</td> 
-   <td> <p>Cualquiera</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Licencia de Adobe Workfront*</td> 
-   <td> <p>Plan </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Configuraciones de nivel de acceso*</td> 
-   <td> <p>Acceso de edición a proyectos</p> <p><b>NOTA</b>
-
-Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td>
-</tr> 
-  <tr> 
-   <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Administrar permisos del proyecto</p> <p>Para obtener información sobre cómo solicitar acceso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a objetos </a>.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de Workfront.
+</table>-->
 
 ## Tipos de prioridad del proyecto en Adobe Workfront
 

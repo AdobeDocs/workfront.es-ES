@@ -3,13 +3,13 @@ product-area: timesheets
 navigation-topic: create-and-manage-timesheets
 title: Generar manualmente hojas de horas
 description: Para permitir que los cambios realizados en los perfiles de plantilla de horas se reflejen en las plantillas de horas actuales, primero debe eliminar las plantillas de horas existentes y luego generar manualmente las nuevas. Puede generar manualmente plantillas de horas desde el área Plantillas de horas o el área Diagnóstico en Configuración, tal como se explica en este artículo.
-author: Alina
+author: Lisa
 feature: Timesheets
 exl-id: 316c270a-c64e-4d83-a035-4128abe33f87
-source-git-commit: 311816df863d3c03a54d43c8fa3cac69d2d6d7d4
+source-git-commit: 69cd5fb1d089b81b7a1673609b92537137b6b68e
 workflow-type: tm+mt
-source-wordcount: '467'
-ht-degree: 22%
+source-wordcount: '430'
+ht-degree: 16%
 
 ---
 
@@ -21,28 +21,30 @@ Para obtener instrucciones sobre cómo eliminar hojas de horas, consulte [Elimin
 
 ## Requisitos de acceso
 
-+++ Amplíe para ver los requisitos de acceso.
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
-<table style="table-layout:auto"> 
+<table style="table-layout:auto">
  <col> 
- <col> 
+ <col>
  <tbody> 
   <tr> 
-   <td role="rowheader">Plan de Adobe Workfront</td> 
-   <td> <p>Cualquiera</p> </td> 
+   <td>paquete de Adobe Workfront</td> 
+   <td><p>Cualquiera</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licencia de Adobe Workfront</td> 
-   <td> <p>Plan </p> </td> 
+   <td>Licencia de Adobe Workfront</td> 
+   <td>
+   <p>Estándar</p>
+   <p>Plan</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraciones de nivel de acceso*</td> 
-   <td> <p>Debe ser administrador de Workfront o, si está trabajando en perfiles de plantilla de horas para un grupo, debe ser administrador de grupo (o administrador de Workfront). Para obtener más información, consulte <a href="../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Administradores de grupos</a>.</p> <p>Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, consulte <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
+   <td>Configuraciones de nivel de acceso</td> 
+   <td><p>Debe ser administrador de Workfront o, si está trabajando en perfiles de plantilla de horas para un grupo, debe ser administrador de grupo (o administrador de Workfront).</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Para obtener información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

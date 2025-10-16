@@ -6,10 +6,10 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: d24ad7d1-3a88-479e-beaf-69f8264c9a6b
-source-git-commit: b886284eb44c2154987019655ff07cdeb0e1ae22
+source-git-commit: 0940e4c89de6cd3518cd98a1e06dc726f434846b
 workflow-type: tm+mt
-source-wordcount: '524'
-ht-degree: 15%
+source-wordcount: '522'
+ht-degree: 13%
 
 ---
 
@@ -37,14 +37,14 @@ Realice fácilmente un seguimiento de su trabajo con un calendario claro y visua
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Plan de Adobe Workfront</td> 
+   <td role="rowheader">paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licencia de Adobe Workfront</td> 
    <td> 
-   <p>Actual: Revisor o superior</p>
-   <p>Nuevo: Light o superior</p> 
+   <p>Revisor o superior</p>
+   <p>Ligero o superior</p> 
    </td> 
   </tr> 
   <tr> 

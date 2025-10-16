@@ -6,10 +6,10 @@ description: El administrador de Adobe Workfront concede a los usuarios acceso p
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 225e815a-0354-493d-bbcf-59304ef77570
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '823'
-ht-degree: 74%
+source-wordcount: '817'
+ht-degree: 72%
 
 ---
 
@@ -29,43 +29,35 @@ Los permisos son específicos de un elemento de Workfront y definen qué accione
 
 ## Requisitos de acceso
 
-+++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
-
-Se necesita tener lo siguiente para compartir objetos:
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Plan de Adobe Workfront*</td> 
-   <td> <p>Cualquiera </p> </td> 
+   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licencia de Adobe Workfront*</td> 
-      <td> 
-      <p>Nuevo:</p>
-         <ul>
-         <li><p>Ligero o superior</p></li>
-         </ul>
-      <p>Actual:</p>
-         <ul>
-         <li><p>Revisión o superior</p></li>
-         </ul>
+   <td role="rowheader">Licencia de Adobe Workfront</td> 
+   <td> 
+      <p>Ligero</p>
+      <p>Revisar</p>
    </td>
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraciones de nivel de acceso*</td> 
-   <td> <p>Ver el acceso o superior a Informes, Paneles de control, Calendarios</p></td> 
+   <td role="rowheader">Configuraciones de nivel de acceso</td> 
+   <td> <p>Ver el acceso o superior a Informes, Paneles, Calendarios</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Ver permisos o superiores en el informe</p></td> 
+   <td> <p>Ver permisos o superiores al informe</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-*Para obtener información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -92,7 +84,7 @@ Compartir uno o varios informes de una lista es lo mismo.
 
    O
 
-   Haga clic en el nombre de un informe y, a continuación, haga clic en **Acciones de informe >**&#x200B;**Uso compartido**.
+   Haga clic en el nombre de un informe y, a continuación, haga clic en **Acciones de informe >****Uso compartido**.
 
    ![](assets/unshimmed-report-actions-sharing.png)
 

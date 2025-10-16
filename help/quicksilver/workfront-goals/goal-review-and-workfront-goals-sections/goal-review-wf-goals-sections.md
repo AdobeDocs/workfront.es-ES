@@ -7,35 +7,46 @@ description: En los siguientes artículos obtendrá información sobre cómo rev
 author: Alina
 feature: Workfront Goals
 exl-id: 81f531f7-3390-4f85-9a96-480f4e84295e
-source-git-commit: a64f6e507d74201cba1455fbbc6af77c2b7ba058
+source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
 workflow-type: tm+mt
-source-wordcount: '156'
-ht-degree: 87%
+source-wordcount: '145'
+ht-degree: 47%
 
 ---
 
 # Revisión de objetivos y secciones de Objetivos de Adobe Workfront: índice de artículos
 
-<!--Audited: 4/2025-->
+<!--Audited: 10/2025-->
+
+>[!NOTE]
+>
+>Su empresa puede optar por seguir utilizando los objetivos de Adobe Workfront si compró este paquete anteriormente. Debe hablar con el representante de su cuenta para obtener más detalles.
+>
+>Adobe Workfront Goals ya no se puede adquirir.
+>
+>Para obtener información adicional sobre el acceso a Workfront Goals, consulte [Requisitos para usar Workfront Goals](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
+
+<!--Old:
 
 >[!IMPORTANT]
 >
->Su organización debe tener lo siguiente para utilizar la funcionalidad descrita en este artículo:
+>Your organization must have the following to use the functionality described in this article:
 >
->* Para la nueva estructura de plan y licencias:
+>* For the new plan and license structure:
 >
->   * El plan Ultimate Workfront
+>   * The Ultimate Workfront plan 
 >    
->* Para la estructura actual de plan y licencias:
+>* For the current plan and license structure: 
 >
->   * Un plan Pro o superior de Workfront
->   * Una licencia de Adobe Workfront Goals además de una licencia de Workfront.
+>   * A Pro or higher Workfront plan
+>   * An Adobe Workfront Goals license in addition to a Workfront license.
 >
->Póngase en contacto con el administrador de cuentas de Workfront para obtener más información sobre una licencia de Workfront Goals.
+>Contact your Workfront account manager to learn about a Workfront Goals license.    
 > 
->Para obtener información adicional sobre el acceso a Workfront Goals, consulte [Requisitos para usar Workfront Goals](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
+>For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).   
+-->
 
-Esta sección contiene los siguientes artículos:
+Obtenga información sobre cómo revisar los objetivos y comprenda las secciones en las que puede administrarlos en Adobe Workfront en los siguientes artículos:
 
 * [Información general sobre las secciones de Adobe Workfront Goals](../../workfront-goals/goal-review-and-workfront-goals-sections/overview-of-wf-goals-sections.md)
 * [Administrar metas en la lista de metas de Adobe Workfront Goals](../../workfront-goals/goal-review-and-workfront-goals-sections/manage-goals-in-goal-list.md)

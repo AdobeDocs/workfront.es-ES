@@ -9,10 +9,10 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 9ddb75bf-1c7b-4f4b-b80b-a9512192920d
-source-git-commit: 4a4efe7d8a354bc9ec22a607fe6e75040e7cca24
+source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
 workflow-type: tm+mt
-source-wordcount: '688'
-ht-degree: 3%
+source-wordcount: '677'
+ht-degree: 14%
 
 ---
 
@@ -40,7 +40,7 @@ Por ejemplo, durante un proyecto de TI, es probable que deba realizarse un backu
 
 Tenga en cuenta lo siguiente al crear tareas recurrentes en Workfront:
 
-* No puede agregar tareas recurrentes a una plantilla.
+* No puede añadir tareas recurrentes a una plantilla.
 * No puede agregar una frecuencia de periodicidad a una tarea existente.
 * Las tareas recurrentes aparecen como subtareas o tareas secundarias para la ocurrencia principal que aparece como la tarea principal.
 * No puede adjuntar una aprobación a una tarea principal recurrente.
@@ -61,7 +61,7 @@ Tenga en cuenta lo siguiente al crear tareas recurrentes en Workfront:
 
       * Simple
       * Condicionada por el esfuerzo
-* La Duración y las Horas planificadas indicadas para una nueva tarea recurrente son la Duración y las Horas planificadas de cada ocurrencia. La duración de la tarea principal es el tiempo entre la fecha planificada de inicio de la tarea más temprana y la fecha planificada de finalización de la tarea más reciente. Las horas planificadas de la tarea principal son el total de todas las horas planificadas de todas las ocurrencias.
+* La duración y las horas planificadas indicadas para una nueva tarea recurrente son la duración y las horas planificadas de cada ocurrencia. La duración de la tarea principal es el tiempo entre la fecha de inicio planificada de la tarea más temprana y la fecha planificada de finalización de la tarea más reciente. Las horas planificadas de la tarea principal son el total de horas planificadas de todas las ocurrencias.
 
 ## Consideraciones para editar tareas recurrentes
 

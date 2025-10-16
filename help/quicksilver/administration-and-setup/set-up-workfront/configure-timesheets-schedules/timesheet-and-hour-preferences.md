@@ -8,10 +8,10 @@ author: Alina and Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 8cc49dc2-b23f-4899-85dd-bd53d5242dbe
-source-git-commit: 594f224e11b0e7708ed555410b7c331741113791
+source-git-commit: e8c89b68a022ae1c0cf5da20257cd8bc36e94d4c
 workflow-type: tm+mt
-source-wordcount: '1414'
-ht-degree: 96%
+source-wordcount: '1411'
+ht-degree: 95%
 
 ---
 
@@ -44,20 +44,18 @@ Cualquier cambio que realice en las hojas de horas afectará a todas las que se 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
-   <td>Cualquiera</td> 
+   <td>[!DNL Adobe Workfront] paquete</td> 
+   <td><p>Cualquiera</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licencia</td> 
-   <td><p>Current:[!UICONTROL Plan]</p>
-   O
-   <p>Nuevo: estándar</p>
-   </td> 
+   <td>[!DNL Adobe Workfront] licencia</td> 
+   <td><p>[!UICONTROL Standard]</p>
+       <p>[!UICONTROL Plan]</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraciones de nivel de acceso</td> 
-   <td>[!UICONTROL System Administrator]</td>
-</tr> 
+   <td>Configuraciones de nivel de acceso</td> 
+   <td>[!UICONTROL System Administrator]</td> 
+  </tr> 
  </tbody> 
 </table>
 

@@ -2,18 +2,22 @@
 product-area: resource-management
 navigation-topic: use-the-gantt-chart
 title: Redistribuir recursos en el [!UICONTROL gráfico Gantt]
-description: Información sobre cómo redistribuir recursos en el gráfico Gantt.
+description: Si el mismo recurso está asignado a dos tareas diferentes, puede utilizar la redistribución de recursos para ajustar la cronología de las tareas de modo que no se produzcan al mismo tiempo. Este artículo proporciona información sobre cómo redistribuir recursos en el diagrama de Gantt.
 author: Alina
 feature: Work Management
 exl-id: ba96c01d-03b8-4728-b5e3-b10d227f51b0
-source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
+source-git-commit: c8987d036e1c1324618cb53ebcbb8fd7e4bcc6a4
 workflow-type: tm+mt
-source-wordcount: '598'
-ht-degree: 98%
+source-wordcount: '620'
+ht-degree: 81%
 
 ---
 
-# Redistribuir recursos en el [!UICONTROL gráfico Gantt]
+# Nivelar recursos en el [!UICONTROL gráfico Gantt]
+
+<!--Audited: 08/2025-->
+
+Puede utilizar la redistribución de recursos para ajustar la escala de tiempo de las tareas de modo que no se produzcan al mismo tiempo, en caso de que los mismos recursos se asignen a varias tareas al mismo tiempo.
 
 La redistribución de los recursos en un proyecto tiene dos propósitos:
 
@@ -22,7 +26,37 @@ La redistribución de los recursos en un proyecto tiene dos propósitos:
 
 ## Requisitos de acceso
 
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo. 
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] paquete</td> 
+   <td> <p>Cualquiera</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!DNL Workfront] licencia</td> 
+   <td> <p>[!UICONTROL Standard]</p>
+   <p>[!UICONTROL Plan]</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Configuraciones de nivel de acceso</td> 
+   <td> <p>Acceso [!UICONTROL Edit] a proyectos</p></td>
+</tr> 
+  <tr> 
+   <td role="rowheader">Permisos de objeto</td> 
+   <td> <p>Acceso de [!UICONTROL Manage] al proyecto</p>
+</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+<!--Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -30,26 +64,24 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
-   <td> <p>Cualquiera </p> </td> 
+   <td> <p>Any </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Workfront] licencia*</td> 
+   <td role="rowheader">[!DNL Workfront] license*</td> 
    <td> <p>[!UICONTROL Plan] </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraciones de nivel de acceso*</td> 
-   <td> <p>Acceso [!UICONTROL Edit] a proyectos</p> <p><b>NOTA</b>
+   <td role="rowheader">Access level configurations*</td> 
+   <td> <p>[!UICONTROL Edit] access to Projects</p> <p><b>NOTE</b>
 
-Si todavía no tiene acceso, pregunte al administrador de [!DNL Workfront] si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de [!DNL Workfront] puede modificar su nivel de acceso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creación o modificación de niveles de acceso personalizados</a>.</p> </td>
+If you still don't have access, ask your [!DNL Workfront] administrator if they set additional restrictions in your access level. For information on how a [!DNL Workfront] administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td>
 </tr> 
   <tr> 
-   <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Acceso de [!UICONTROL Manage] al proyecto</p> <p>Para obtener información sobre cómo solicitar acceso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a objetos</a>.</p> </td> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>[!UICONTROL Manage] access to the project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>
-
-&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de [!DNL Workfront].
+</table> -->
 
 ## Información general sobre la redistribución de recursos
 
@@ -98,7 +130,7 @@ Puede usar la Lista de tareas [!UICONTROL gráfico Gantt] para redistribuir los 
    >
    >Es posible que los recursos se sobreasignen si se asignan a varias tareas que se producen durante el mismo lapso de tiempo.
 
-1. (Opcional y condicional) Si ha deshabilitado la opción de guardado automático, haga clic en los iconos **[!UICONTROL Deshacer]** o&#x200B;**[!UICONTROL Rehacer]** si desea cancelar o duplicar cualquiera de los cambios.
+1. (Opcional y condicional) Si ha deshabilitado la opción de guardado automático, haga clic en los iconos **[!UICONTROL Deshacer]** o **[!UICONTROL Rehacer]** si desea cancelar o duplicar cualquiera de los cambios.
 
    >[!TIP]
    >

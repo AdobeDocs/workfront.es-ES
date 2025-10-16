@@ -7,9 +7,9 @@ author: Jenny
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 5fbcd807-e152-4e93-a895-2028ed089f72
-source-git-commit: 56d0b9281387cc7b35055461e7868c7e4a194f81
+source-git-commit: 1059950dd3b20e0959c626e580f958bed5076541
 workflow-type: tm+mt
-source-wordcount: '563'
+source-wordcount: '567'
 ht-degree: 26%
 
 ---
@@ -19,8 +19,8 @@ ht-degree: 26%
 >[!IMPORTANT]
 >
 >Actualmente, la función Paneles de lienzo solo está disponible para los usuarios que participan en la fase beta. Es posible que algunas partes de la función no estén completas o que no funcionen según lo previsto durante esta fase. Envíe cualquier comentario sobre su experiencia siguiendo las instrucciones de la sección [Proporcionar comentarios](#provide-feedback) que aparece a continuación.<br>
->&#x200B;>Si tiene comentarios acerca de un posible error o problema técnico, envíe un ticket al equipo de asistencia de Workfront. Para obtener más información, consulte [Póngase en contacto con Atención al cliente](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
->&#x200B;>Tenga en cuenta que esta versión beta no está disponible en los siguientes proveedores de la nube:
+>>Si tiene comentarios acerca de un posible error o problema técnico, envíe un ticket al equipo de asistencia de Workfront. Para obtener más información, consulte [Póngase en contacto con Atención al cliente](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
+>>Tenga en cuenta que esta versión beta no está disponible en los siguientes proveedores de la nube:
 >
 >* Traer su propia clave para Amazon Web Service
 >* Azure
@@ -32,7 +32,7 @@ Para obtener más información, consulte [Información general sobre paneles de 
 
 ## Requisitos de acceso
 
-+++ Amplíe para ver los requisitos de acceso. 
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo. 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -41,7 +41,7 @@ Para obtener más información, consulte [Información general sobre paneles de 
 </col> 
 <tbody> 
 <tr> 
-   <td role="rowheader"><p>Plan de Adobe Workfront</p></td> 
+   <td role="rowheader"><p>paquete de Adobe Workfront</p></td> 
    <td> 
 <p>Cualquiera </p> 
    </td> 
@@ -49,8 +49,8 @@ Para obtener más información, consulte [Información general sobre paneles de 
  <tr> 
    <td role="rowheader"><p>Licencia de Adobe Workfront</p></td> 
    <td> 
-<p>Actual: plan </p> 
-<p>Nuevo: estándar</p> 
+<p>Estándar </p> 
+<p>Plan</p> 
    </td> 
    </tr> 
   </tr> 

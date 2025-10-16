@@ -6,10 +6,10 @@ description: Por razones de seguridad, es importante cerrar la sesión de  [!DNL
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 3b457a44-53a1-44c5-99ce-445ab1463303
-source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
+source-git-commit: c6272c7631941720e3ab1e1c80ed7d304a67d34b
 workflow-type: tm+mt
-source-wordcount: '221'
-ht-degree: 91%
+source-wordcount: '220'
+ht-degree: 89%
 
 ---
 
@@ -35,26 +35,28 @@ Por motivos de seguridad, es importante cerrar la sesión de [!DNL Adobe Workfro
 
 ## Requisitos de acceso
 
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
 <table style="table-layout:auto"> 
  <col> 
- </col> 
- <col> 
- </col> 
+ </col>
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
+   <td>paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licencia*</strong></td> 
-   <td> <p>[!UICONTROL Request] o superior</p> </td> 
+   <td>Licencia de Adobe Workfront</td> 
+   <td> 
+   <p>Colaborador o superior</p>
+   <p>Solicitud o superior</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qué plan o tipo de licencia tiene, póngase en contacto con el administrador de [!DNL Workfront].
+Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Cerrar sesión en su cuenta de [!DNL Workfront]
 

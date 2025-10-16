@@ -3,14 +3,14 @@ product-area: requests
 navigation-topic: create-and-manage-request-queues
 title: Crear reglas de enrutamiento
 description: Las reglas de enrutamiento controlan lo que Adobe Workfront hace con los problemas cuando se envían a una cola de solicitudes.
-author: Alina
+author: Becky
 feature: Work Management, Requests
 topic: Collaboration
 role: User, Admin
 exl-id: 640f9054-f2f8-4594-9311-e93518f58453
-source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
+source-git-commit: 9cdf3d78e1d19f3d581f8d527919a608c5cc0ddc
 workflow-type: tm+mt
-source-wordcount: '506'
+source-wordcount: '494'
 ht-degree: 86%
 
 ---
@@ -34,14 +34,13 @@ Una vez creadas, las reglas de enrutamiento no se pueden mover de un proyecto a 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><p>Plan de Adobe Workfront</p></td> 
+   <td role="rowheader"><p>Paquetes de Adobe Workfront</p></td> 
    <td> <p>Cualquiera </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licencia de Adobe Workfront*</td> 
-   <td> <p>Nueva licencia: estándar </p> 
-   O
-   <p>Licencia actual: plan </p> </td> 
+   <td role="rowheader">Licencia de Adobe Workfront</td> 
+   <td> <p>Estándar</p> 
+   <p>Plan</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso</td> 
@@ -54,7 +53,7 @@ Una vez creadas, las reglas de enrutamiento no se pueden mover de un proyecto a 
  </tbody> 
 </table>
 
-*Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

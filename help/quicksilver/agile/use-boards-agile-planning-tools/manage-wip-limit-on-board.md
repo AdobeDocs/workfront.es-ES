@@ -7,10 +7,10 @@ description: Puede configurar un límite de trabajo en curso (WIP) para cada col
 author: Lisa
 feature: Agile
 exl-id: 7901c6e7-75a4-41e4-b288-d527c4a6d031
-source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
+source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
 workflow-type: tm+mt
-source-wordcount: '262'
-ht-degree: 0%
+source-wordcount: '249'
+ht-degree: 20%
 
 ---
 
@@ -24,28 +24,25 @@ El límite de trabajo en curso es simplemente una advertencia visual y no le imp
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront]</td> 
+   <td role="rowheader">paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licencia</td> 
+   <td role="rowheader">Licencia de Adobe Workfront</td> 
    <td> 
-   <p>Nuevo: [!UICONTROL Contributor] o superior</p> 
-   <p>o</p>
-   <p>Actual: [!UICONTROL Request] o superior</p>
+   <p>Colaborador o superior</p> 
+   <p>Solicitud o superior</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -62,7 +59,7 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
 1. En [!UICONTROL Directivas de columna], habilite la directiva **[!UICONTROL Trabajo en curso] límite** para limitar el número de tarjetas que se pueden agregar a la columna.
 1. Escriba el número de límite en el campo **[!UICONTROL Establecer límite]**.
 
-   ![Límite de trabajo en curso para la columna](assets/boards-wip-limit-in-column.png)
+   ![WIP limit for column](assets/boards-wip-limit-in-column.png)
 
    El número de tarjetas y el límite se muestran en la parte superior de la columna. Si la columna contiene más tarjetas que el límite, el contador se vuelve rojo.
 

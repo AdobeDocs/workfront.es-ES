@@ -7,7 +7,7 @@ description: Como parte de la planificación de un proyecto, debe determinar los
 author: Alina
 feature: Work Management
 exl-id: 96d77d9f-3d5f-457e-a4ad-10edc371a991
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
 workflow-type: tm+mt
 source-wordcount: '578'
 ht-degree: 1%

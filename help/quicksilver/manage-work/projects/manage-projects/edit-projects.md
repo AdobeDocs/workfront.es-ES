@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
-source-git-commit: 7f24186c8803237a6f5116293b3c6a5fd1ea90f6
+source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
 workflow-type: tm+mt
-source-wordcount: '7643'
+source-wordcount: '7642'
 ht-degree: 95%
 
 ---
@@ -47,14 +47,13 @@ Lo ideal es editar un proyecto cuando se encuentra en estado de Planificación. 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Plan de Adobe Workfront</td> 
+   <td role="rowheader">paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licencia de Adobe Workfront*</td> 
-   <td><p>Nuevo: estándar </p> 
-   O
-   <p>Actual: plan </p> </td> 
+   <td role="rowheader">Licencia de Adobe Workfront</td> 
+   <td><p>Estándar</p> 
+   <p>Plan</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso</td> 
@@ -63,7 +62,7 @@ Lo ideal es editar un proyecto cuando se encuentra en estado de Planificación. 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
    <td> 
-     <p>Administración de permisos en un proyecto </p> 
+     <p>Administración de permisos en un proyecto</p> 
      </td> 
   </tr> 
  </tbody> 
@@ -72,6 +71,37 @@ Lo ideal es editar un proyecto cuando se encuentra en estado de Planificación. 
 Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td><p>New: Standard </p> 
+   Or
+   <p>Current: Plan </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>Edit access to Projects</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> 
+     <p>Manage permissions to a project </p> 
+     </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+*For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).-->
 
 ## Limitaciones para editar proyectos
 
@@ -305,7 +335,7 @@ Para obtener información sobre cómo crear un proyecto a partir de una plantill
    >
    >Los usuarios deben estar asociados con al menos una función para verla a medida que los añade.
    >
-   >Debe tener activada la configuración Ver información de contacto en su nivel de acceso para que los usuarios vean los correos electrónicos de los usuarios. Para obtener más información, consulte [Conceder acceso a usuarios](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
+   >Debe tener habilitada la configuración Ver información de contacto en su nivel de acceso para que los usuarios vean los correos electrónicos de los usuarios. Para obtener más información, consulte [Conceder acceso a usuarios](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
 
 1. (Opcional) Siga editando las secciones siguientes, según la información que desee modificar
 
@@ -403,7 +433,7 @@ Para editar campos en el área Finanzas:
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Beneficio planificado</strong> </td> 
-      <td> <p>Estime cuál es el beneficio planificado del proyecto. Se utiliza en el Caso empresarial del proyecto y en Optimizador de portafolios. Para obtener más información sobre el beneficio planificado de un proyecto, consulte <a href="../../../manage-work/projects/project-finances/project-planned-benefit.md" class="MCXref xref">Información general sobre el beneficio planificado del proyecto</a>. El Beneficio planificado de un proyecto se tiene en cuenta cuando se calcula el valor neto de un proyecto. </p> <p>Para obtener más información, consulte <a href="../../../manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md" class="MCXref xref">Administrar proyectos en Optimizador de portafolios</a> .<br></p> </td> 
+      <td> <p>Estime cuál es el beneficio planificado del proyecto. Se utiliza en el Caso empresarial del proyecto y en Optimizador de portafolios. Para obtener más información sobre el beneficio planificado de un proyecto, consulte <a href="../../../manage-work/projects/project-finances/project-planned-benefit.md" class="MCXref xref">Información general sobre el beneficio planificado del proyecto</a>. El Beneficio planificado de un proyecto se tiene en cuenta cuando se calcula el valor neto de un proyecto. </p> <p>Para obtener más información, consulte <a href="../../../manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md" class="MCXref xref">Administrar proyectos en Portfolio Optimizer: índice de artículos</a> .<br></p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Beneficio real</strong> </td> 
@@ -477,7 +507,7 @@ Para editar campos en el área Finanzas:
        <td> <p>Determina si los días libres de la Usuario asignado principal de una tarea ajusta las fechas planificadas de la tarea en el proyecto. </p><p>El administrador de Workfront<span> o un administrador de grupo</span> selecciona el valor predeterminado de esta configuración para el sistema <span>o para el grupo</span>. Para obtener información sobre cómo establecer los valores predeterminados del proyecto, consulte <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configurar las preferencias de proyecto de todo el sistema</a>. </p><p>Seleccione entre las siguientes opciones:<br>- <strong>Considere los días libres del usuario en las duraciones de las tareas</strong>: Al seleccionar esta opción, las fechas planificadas de las tareas se ajustan según los días libres de la Usuario asignado principal de la tarea, si los días libres se producen durante la duración de la tarea. </p><p>Por ejemplo, si una tarea con una restricción de Lo antes posible está programada para comenzar el 1 de junio y finalizar el 3 de junio, y la Persona principal asignada tiene el 2 de junio marcado como Día libre, cuando esta selección está habilitada, las fechas planificadas para la tarea son del 1 de junio al 4 de junio. Dependiendo de la Restricción de tarea, existen los siguientes escenarios: </p> 
        <ul> 
        <li>Para las restricciones de tareas relacionadas con la planificación desde una fecha de inicio (Lo antes posible, La primera hora disponible, No comenzar antes del, No comenzar después del, Debe comenzar el), la fecha de inicio planificada no cambia, pero la fecha planificada de finalización cambia.</li> 
-       <li>Para las delimitaciones de tareas relacionadas con la planificación a partir de una fecha de finalización (Lo más tarde posible, Última hora disponible, No finalizar antes del, No finalizar después del, Debe finalizar el), la Fecha planificada de finalización no cambia, pero la Fecha planificada de inicio cambia.</li> 
+       <li>Para las delimitaciones de tareas relacionadas con la planificación a partir de una fecha de finalización (Lo más tarde posible, Última hora disponible, No finalizar antes del, No finalizar después del, Debe finalizar el), la Fecha de finalización planificada no cambia, pero la Fecha de inicio planificada cambia.</li> 
        <li>En las tareas con una restricción de Fechas fijas, no cambia la Fecha planificada de inicio ni la Fecha de finalización. </li> 
        </ul><p>La duración de la tarea no cambia al seleccionar esta configuración. Solo cambian las fechas planificadas, dependiendo de la Restricción de tarea. Para obtener información acerca de la restricción de tareas, vea <a href="../../../manage-work/tasks/task-constraints/task-constraint-overview.md" class="MCXref xref">Información general sobre la restricción de tareas</a>. </p><p>- <strong>Ignorar días libres del usuario en las duraciones de las tareas</strong>: al seleccionar esta opción, las fechas planificadas de las tareas en el proyecto permanecen tal como se planeó originalmente, incluso si la Usuario asignado principal de la tarea tiene días libres durante la duración de la tarea. </p><p>Tenga en cuenta lo siguiente al seleccionar opciones para esta configuración:</p> 
        <ul> 
@@ -803,7 +833,7 @@ Para obtener más información acerca de cómo editar el área Configuración de
 1. Haga clic en **Acceso** para editar la configuración de acceso de todos los proyectos seleccionados.
 Para obtener más información acerca de cómo editar el área de acceso, vea la sección [Acceso](#access) en este artículo.
 1. Haga clic en **Comentario** y, a continuación, agregue un comentario en el espacio proporcionado. Workfront agrega el comentario en el área **Actualizaciones** de cada proyecto. Para obtener información sobre cómo actualizar el trabajo, vea [Actualizar trabajo](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
-1. (Opcional) Para eliminar cualquier información que haya añadido en el cuadro Editar proyectos, pase el puntero sobre un campo editado y, a continuación, haga clic en el icono de descartar **x** que hay en la parte superior derecha del campo.
+1. (Opcional) Para eliminar cualquier información que haya añadido en el cuadro Editar proyectos, pase el puntero por encima de un campo editado y, a continuación, haga clic en el icono de descartar **x** que hay en la parte superior derecha del campo.
 
    ![Descartar icono para editar proyectos de campo de forma masiva](assets/discard-icon-for-field-edit-projects-in-bulk-unshimmed.png)
 

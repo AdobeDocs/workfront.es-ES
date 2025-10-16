@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 10dee6f9-06ff-435a-81a4-2125642fab59
-source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
+source-git-commit: c879d06cfe7ba76df3e974c160a7349f1503f17f
 workflow-type: tm+mt
-source-wordcount: '647'
-ht-degree: 36%
+source-wordcount: '644'
+ht-degree: 34%
 
 ---
 
@@ -46,22 +46,24 @@ Tenga en cuenta lo siguiente al trabajar con permisos de tipo de registro:
 * Los usuarios no pueden tener permisos para un tipo de registro superiores a los que tienen para el espacio de trabajo al que pertenece el tipo de registro.
 * Al quitar los permisos de los usuarios a un tipo de registro, no se quita el acceso de Ver a todos los tipos de registros del espacio de trabajo, ya que no se quitan los permisos del espacio de trabajo.
 
-| Tipo de licencia de Adobe Workfront* | Permisos más altos permitidos en Adobe Workfront Planning |
+| Tipo de licencia de Adobe Workfront | Permisos más altos permitidos en Adobe Workfront Planning |
 |------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Estándar | <p>Los usuarios pueden administrar espacios de trabajo, tipos de registros y vistas. Pueden crear, editar o eliminar espacios de trabajo, tipos de registros, registros, campos y vistas.</p> <br> <p>Los administradores del sistema tienen permisos de administración en todos los espacios de trabajo, incluidos los que no han creado.</p> |
 | Ligero o colaborador | <p>Los usuarios pueden ver los espacios de trabajo compartidos con ellos, así como los tipos de registro, registros y campos de dichos espacios de trabajo.</p> <br> <p>Los usuarios pueden ver las vistas que se han compartido con ellos, pero no pueden crear las suyas. </p><br> <p>Los usuarios no pueden crear, editar ni eliminar espacios de trabajo, tipos de registros, registros o campos.</p> |
 
-*Workfront Planning no está disponible para licencias de Workfront heredadas.
-Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+<!--Old: 
+*Workfront Planning is not available for legacy Workfront licenses. 
+For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).-->
 
 
 ### Tipos de licencias y permisos para espacios de trabajo y tipos de registros
 
 Solo los usuarios con una licencia estándar pueden tener permisos de contribución o administración para espacios de trabajo y tipos de registros. Los permisos de Contribute y Manage para espacios de trabajo y tipos de registros también se transfieren a registros y campos.
 
+Los administradores del sistema pueden ver todos los espacios de trabajo del sistema, incluidos los que no han creado.
+
 Los usuarios con todos los demás tipos de licencia pueden tener permisos de visualización en espacios de trabajo y tipos de registro compartidos con ellos, así como en sus registros y campos.
 
-Los administradores del sistema pueden ver todos los espacios de trabajo del sistema, incluidos los que no han creado.
 
 >[!INFO]
 >
@@ -76,7 +78,11 @@ Los administradores del sistema pueden ver todos los espacios de trabajo del sis
 
 ### Tipos de licencias y permisos para vistas
 
-Solo los usuarios con una licencia Standard pueden tener permisos de administración en las vistas. Los usuarios con todos los demás tipos de licencia pueden tener permisos de visualización para las vistas compartidas con ellos.
+Solo los usuarios con una licencia Standard pueden tener permisos de administración en las vistas.
+
+Los administradores del sistema no pueden acceder a las vistas que no han creado. Deben compartirse con ellos.
+
+Los usuarios con todos los demás tipos de licencia pueden tener permisos de visualización para las vistas compartidas con ellos.
 
 >[!INFO]
 >

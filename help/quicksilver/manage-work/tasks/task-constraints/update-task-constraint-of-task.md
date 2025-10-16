@@ -2,75 +2,103 @@
 product-area: projects
 navigation-topic: task-constraints
 title: Actualizar la restricción de tarea de una tarea
-description: Las restricciones de tarea determinan cuándo debe comenzar y finalizar una tarea en un proyecto. Para obtener más información, vea Información general sobre las restricciones de tarea.
+description: Las restricciones de tarea determinan cuándo debe comenzar y finalizar una tarea en un proyecto. Para más información, consulte Información general sobre la restricción de tarea.
 author: Alina
 feature: Work Management
 exl-id: 54b54892-f8b3-4704-8221-03bbb9f07917
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
 workflow-type: tm+mt
-source-wordcount: '355'
-ht-degree: 8%
+source-wordcount: '298'
+ht-degree: 96%
 
 ---
 
 # Actualizar la restricción de tarea de una tarea
 
-Las restricciones de tarea determinan cuándo debe comenzar y finalizar una tarea en un proyecto. Para obtener más información, vea [Información general sobre la restricción de tarea](../../../manage-work/tasks/task-constraints/task-constraint-overview.md).
+Las restricciones de tarea determinan cuándo debe comenzar y finalizar una tarea en un proyecto. Para más información, consulte [Información general sobre la restricción de tarea](../../../manage-work/tasks/task-constraints/task-constraint-overview.md).
 
 ## Requisitos de acceso
 
-Debe tener lo siguiente para cambiar la restricción de tarea de una tarea:
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plan Adobe Workfront*</td> 
-   <td> <p>Cualquiera </p> </td> 
+   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licencia de Adobe Workfront*</td> 
-   <td> <p>Trabajo o superior</p> </td> 
+   <td role="rowheader">Licencia de Adobe Workfront</td> 
+   <td><p>Estándar</p> 
+   <p>Trabajo o superior</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraciones de nivel de acceso*</td> 
-   <td> <p>Acceso de visualización o superior a Proyectos</p> <p>Editar acceso a Tareas</p> <p>Nota: Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, vea <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
+   <td role="rowheader">Configuraciones de nivel de acceso</td> 
+   <td> <p>Acceso de visualización o superior a los proyectos</p> <p>Editar acceso a Tareas</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Administrar el acceso a la tarea </p> <p>Para obtener información sobre cómo solicitar acceso adicional, vea <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a los objetos </a>.</p> </td> 
+   <td> <p>Administrar el acceso a la tarea</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de Workfront.
+Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td> <p>Any </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Work or higher</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations*</td> 
+   <td> <p>View or higher access to Projects</p> <p>Edit access to Tasks</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>Manage access to the task </p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## Actualizar la restricción de tarea de una tarea
 
 1. Haga clic en **Menú principal** > **Proyectos** y, a continuación, haga clic en un proyecto para acceder a él.
-1. Haga clic en la sección **Tareas** del panel izquierdo.
-1. Haga clic en **Detalles de la tarea** en el panel izquierdo y, a continuación, en el área Información general, haga clic en **Restricción de la tarea**.
+1. Haga clic en la sección **Tareas** en el panel izquierdo.
+1. Haga clic en **Detalles de la tarea** en el panel izquierdo y, a continuación, en el área Información general, haga clic en **Restricción de tarea**.
 
    ![](assets/task-constraint-all-options-in-overview-350x254.png)
 
 1. Seleccione entre las siguientes opciones
 
-   | Fechas fijas | Para obtener más información, vea [Introducción a la restricción de tarea: Fechas fijas](../../../manage-work/tasks/task-constraints/fixed-dates.md). |
+   | Fechas fijas | Para obtener más información, consulte [Información general sobre la restricción de tarea: fechas fijas](../../../manage-work/tasks/task-constraints/fixed-dates.md). |
    |---|---|
-   | Debe iniciarse el | Para obtener más información, vea [Introducción a la restricción de tarea: debe comenzar el &#x200B;](../../../manage-work/tasks/task-constraints/must-start-on.md). |
-   | Debe finalizarse el | Para obtener más información, vea [Introducción a la restricción de tarea: debe finalizar el &#x200B;](../../../manage-work/tasks/task-constraints/must-finish-on.md). |
-   | Lo antes posible | Para obtener más información, vea [Introducción a la restricción de tarea: Lo antes posible](../../../manage-work/tasks/task-constraints/as-soon-as-possible.md). |
-   | Lo más tarde posible | Para obtener más información, vea [Introducción a la restricción de tarea: Lo más tarde posible](../../../manage-work/tasks/task-constraints/as-late-as-possible.md). |
-   | Lo más temprano disponible | Para obtener más información, vea [Introducción a la restricción de tarea: Lo más temprano disponible](../../../manage-work/tasks/task-constraints/earliest-available-time.md). |
-   | Última hora disponible | Para obtener más información, vea [Introducción a la restricción de tarea: Última hora disponible](../../../manage-work/tasks/task-constraints/latest-available-time.md). |
-   | No iniciar después del | Para obtener más información, vea [Introducción a la restricción de tarea: No iniciar después de &#x200B;](../../../manage-work/tasks/task-constraints/start-no-later-than.md). |
-   | No iniciar antes del | Para obtener más información, vea [Introducción a la restricción de tarea: No iniciar antes del &#x200B;](../../../manage-work/tasks/task-constraints/start-no-earlier-than.md). |
-   | No terminar después de | Para obtener más información, vea [Introducción a la restricción de tarea: No finalizar después de &#x200B;](../../../manage-work/tasks/task-constraints/finish-no-later-than.md). |
-   | No terminar antes del | Para obtener más información, vea [Introducción a la restricción de tarea: No finalizar antes del &#x200B;](../../../manage-work/tasks/task-constraints/finish-no-earlier-than.md). |
+   | Debe iniciarse el | Para obtener más información, consulte [Información general sobre la restricción de tarea: debe iniciarse el](../../../manage-work/tasks/task-constraints/must-start-on.md). |
+   | Debe finalizarse el | Para obtener más información, consulte [Información general sobre la restricción de tarea: debe finalizarse el](../../../manage-work/tasks/task-constraints/must-finish-on.md). |
+   | Lo antes posible | Para obtener más información, consulte [Información general sobre la restricción de tarea: lo antes posible](../../../manage-work/tasks/task-constraints/as-soon-as-possible.md). |
+   | Lo más tarde posible | Para obtener más información, consulte [Información general sobre la restricción de tarea: lo más tarde posible](../../../manage-work/tasks/task-constraints/as-late-as-possible.md). |
+   | Lo más temprano disponible | Para obtener más información, consulte [Información general sobre la restricción de tarea: lo más temprano disponible](../../../manage-work/tasks/task-constraints/earliest-available-time.md). |
+   | Lo más tarde posible | Para obtener más información, consulte [Información general sobre la restricción de tarea: lo más tarde posible](../../../manage-work/tasks/task-constraints/latest-available-time.md). |
+   | No iniciar después del | Para obtener más información, consulte [Información general sobre la restricción de tarea: no iniciar después del](../../../manage-work/tasks/task-constraints/start-no-later-than.md). |
+   | No iniciar antes del | Para obtener más información, consulte [Información general sobre la restricción de tarea: no iniciar antes del](../../../manage-work/tasks/task-constraints/start-no-earlier-than.md). |
+   | No terminar después de | Para obtener más información, consulte [Información general sobre la restricción de tarea: no terminar después de](../../../manage-work/tasks/task-constraints/finish-no-later-than.md). |
+   | No terminar antes de | Para obtener más información, consulte [Información general sobre la restricción de tarea: no terminar antes de](../../../manage-work/tasks/task-constraints/finish-no-earlier-than.md). |
 
    {style="table-layout:auto"}
 
-1. Haga clic en **Guardar** **Cambios**.
+1. Haga clic en **Guardar** **cambios**.
 
  

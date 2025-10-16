@@ -3,13 +3,13 @@ content-type: tips-tricks-troubleshooting
 product-area: projects
 navigation-topic: tips-tricks-and-troubleshooting-projects
 title: El estado del proyecto no cambiará de completo a actual
-description: (Aunque esto puede añadirse como una pregunta frecuente, lo he dejado como su propio artículo por razones de búsqueda)
+description: Este artículo describe un escenario en el que no se puede actualizar el estado del proyecto de Completo a Actual.
 author: Alina
 feature: Work Management
 exl-id: 774c103f-8785-4d8b-83e9-a074e6518293
-source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
+source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
 workflow-type: tm+mt
-source-wordcount: '185'
+source-wordcount: '182'
 ht-degree: 6%
 
 ---

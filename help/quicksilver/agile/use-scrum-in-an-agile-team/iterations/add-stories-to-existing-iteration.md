@@ -6,10 +6,10 @@ description: Puede añadir historias a una iteración de muchas maneras.
 author: Lisa
 feature: Agile
 exl-id: b016fda1-789a-42b3-9f97-2c61c4ec0917
-source-git-commit: 91dc9946566e15bf32d0d89975e3e6b66b39e873
+source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
 workflow-type: tm+mt
-source-wordcount: '629'
-ht-degree: 88%
+source-wordcount: '614'
+ht-degree: 85%
 
 ---
 
@@ -28,23 +28,20 @@ Puede añadir historias a una iteración de cualquiera de las siguientes maneras
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
-
 <table style="table-layout:auto"> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
+   <td role="rowheader">paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licencia</td> 
-   <td> <p>Nuevo: [!UICONTROL Standard]</p> 
-   o
-   <p>Actual: [!UICONTROL Work] o superior</p> </td> 
+   <td role="rowheader">Licencia de Adobe Workfront</td> 
+   <td> <p>Estándar</p> 
+   <p>Trabajo o superior</p> </td> 
   </tr>
    <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td>Acceso de [!UICONTROL Manage] al proyecto en el que se encuentra la historia </td> 
+   <td>Administrar el acceso al proyecto en el que se encuentra la historia </td> 
   </tr>
  </tbody> 
 </table>
@@ -55,16 +52,16 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
 
 ## Comprender cómo afecta la adición de historias a las fechas de las tareas
 
-De manera predeterminada, cuando añade una tarea existente a una iteración, la [!UICONTROL Fecha planificada de inicio] y la [!UICONTROL Fecha planificada de finalización] de la tarea se establecen de la siguiente manera:
+De manera predeterminada, cuando añade una tarea existente a una iteración, la [!UICONTROL Fecha de inicio planificada] y la [!UICONTROL Fecha de finalización planificada] de la tarea se establecen de la siguiente manera:
 
-### [!UICONTROL Fecha planificada de inicio] de la tarea
+### [!UICONTROL Fecha de inicio planificada] de la tarea
 
 * La tarea utiliza la fecha de inicio de la iteración cuando:
 
-   * El proyecto no tiene una [!UICONTROL fecha planificada de inicio] establecida.
+   * El proyecto no tiene una [!UICONTROL fecha de inicio planificada] establecida.
    * La [!UICONTROL fecha planificada de inicio] del proyecto es *antes de* o *en* la fecha de inicio de la iteración.
 
-* La tarea utiliza la [!UICONTROL fecha planificada de inicio] del proyecto cuando:
+* La tarea utiliza la [!UICONTROL fecha de inicio planificada] del proyecto cuando:
 
    * La [!UICONTROL fecha planificada de inicio] del proyecto es *después* de la fecha de inicio de la iteración.
 

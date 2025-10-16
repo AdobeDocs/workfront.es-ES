@@ -6,9 +6,9 @@ description: Los informes de matriz presentan la información de resumen en un f
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 714f2802-089f-4a41-8205-f397cf474a24
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '1091'
+source-wordcount: '1083'
 ht-degree: 98%
 
 ---
@@ -34,43 +34,35 @@ Sin embargo, otras columnas (como Estado) se pueden seguir mostrando en el infor
 
 ## Requisitos de acceso
 
-+++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
-
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Plan de Adobe Workfront*</td> 
+   <td role="rowheader">paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licencia de Adobe Workfront*</td> 
-      <td> 
-      <p>Nuevo:</p>
-         <ul>
-         <li><p>Estándar</p></li>
-         </ul>
-      <p>Actual:</p>
-         <ul>
-         <li><p>Plan</p></li>
-         </ul>
+   <td role="rowheader">Licencia de Adobe Workfront</td> 
+   <td> 
+      <p>Estándar</p>
+      <p>Plan</p>
    </td>
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraciones de nivel de acceso*</td> 
-   <td><p>Acceso de edición a informes, paneles y calendarios</p> <p>Acceso de edición a filtros, vistas y agrupaciones</p></td> 
+   <td role="rowheader">Configuración de nivel de acceso</td> 
+   <td> <p>Acceso de Edición a informes, paneles de control y calendarios</p> <p>Acceso de edición a filtros, vistas y agrupaciones</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Permisos de administración para un informe</p></td> 
+ <td> <p>Permisos de administración para un informe</p></td>  
   </tr> 
  </tbody> 
 </table>
 
-*Para obtener información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -134,8 +126,9 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
      >   * Los campos de datos personalizados para valores numéricos y de moneda agregan todas las tareas: principales, secundarias, principales de principales y tareas independientes. Si ha creado el informe de matriz para mostrar las horas planificadas o las horas reales en la columna **Valor**, tenga en cuenta que la información de horas o costes de cualquier objeto principal (como las tareas principales) no se muestra en el informe de matriz. Para ver las horas de los objetos principales, debe consultar la pestaña **Detalles**.
      >   
      >   
-     >**Reglas condicionales:** configure cualquier regla de formato para los valores agregados.\
+     >
 
+   **Reglas condicionales:** configure cualquier regla de formato para los valores agregados.\
    Después de añadir una regla, puede definir estilos de campo y de texto para ver cómo se muestran los campos que coinciden con esa regla. Haga clic en **Añadir regla** después de haber terminado de definir la regla y, a continuación, **Listo** para guardarla.
 
 1. Haga clic en la pestaña **Filtros** para definir la información que se mostrará en el informe.

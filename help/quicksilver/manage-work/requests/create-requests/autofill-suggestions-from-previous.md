@@ -5,10 +5,10 @@ description: Puede utilizar IA para completar automáticamente los campos de sol
 author: Becky
 feature: Get Started with Workfront
 exl-id: a0cd1fbf-d3c6-454c-a85a-ceca4b1e8a7b
-source-git-commit: 21039f9ab14529b56935d65e0261dc1ce068918c
+source-git-commit: 1b7964b533093c4eee20d69a74512a145e207e29
 workflow-type: tm+mt
-source-wordcount: '331'
-ht-degree: 29%
+source-wordcount: '308'
+ht-degree: 21%
 
 ---
 
@@ -24,21 +24,18 @@ Los usuarios no reciben sugerencias de datos a los que no tienen acceso de otro 
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Plan de Adobe Workfront</td> 
+   <td role="rowheader">paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licencia de Adobe Workfront</td> 
-   <td> <p>Nuevo: colaborador o superior</p>
-   O
-   <p>Actual: solicitud o superior</p>
+   <td> <p>Colaborador o superior</p>
+   <p>Solicitud o superior</p>
     </td> 
   </tr> 
   <tr> 
@@ -52,7 +49,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  </tbody> 
 </table>
 
-Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

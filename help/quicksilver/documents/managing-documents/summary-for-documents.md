@@ -7,10 +7,10 @@ description: El resumen le permite interactuar con información importante direc
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 7a4a4bd3-ad60-4d84-b4b0-332c2a4eb8fb
-source-git-commit: a9dbfe21337be9cd9929f4e982e4979265ca14e1
+source-git-commit: 4a0448583cbcfd1f1df10d6474fdf4e77e7bff3e
 workflow-type: tm+mt
-source-wordcount: '443'
-ht-degree: 63%
+source-wordcount: '441'
+ht-degree: 62%
 
 ---
 
@@ -35,13 +35,13 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Plan de Adobe Workfront</td> 
+   <td role="rowheader">paquete de Adobe Workfront</td> 
    <td> <p> Cualquiera</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licencias de Adobe Workfront</td> 
-   <td> <p>Nuevo: colaborador o superior</p> 
-   <p>Actual: solicitud o superior</p>
+   <td> <p>Colaborador o superior</p> 
+   <p>Solicitud o superior</p>
    </td> 
   </tr> 
   <tr data-mc-conditions=""> 

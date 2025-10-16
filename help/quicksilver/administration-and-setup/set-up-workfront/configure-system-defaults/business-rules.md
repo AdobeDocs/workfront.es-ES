@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 780c996c-5cf1-42fe-898d-2cc208bbae7b
-source-git-commit: 1cf16fd93de383aae66ba810ad85dd00806b8237
+source-git-commit: 20ebcb74c79aea67ea7cb1ba083dfea623fe7c16
 workflow-type: tm+mt
-source-wordcount: '1341'
+source-wordcount: '1323'
 ht-degree: 77%
 
 ---
@@ -35,15 +35,16 @@ Las reglas empresariales se aplican a la creación, edición y eliminación de o
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
-  <tr> 
-   <td>Plan de Adobe Workfront</td> 
-   <td>Ultimate</td> 
+  <tr>
+   <td>paquete de Adobe Workfront
+   </td>
+   <td> <p>Ultimate</p>
+    <p>Workflow Ultimate</p>
+   </td>
   </tr> 
   <tr> 
    <td>Licencia de Adobe Workfront</td> 
@@ -56,7 +57,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  </tbody> 
 </table>
 
-Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

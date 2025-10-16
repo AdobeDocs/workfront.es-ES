@@ -2,13 +2,13 @@
 navigation-topic: business-case-and-scorecards
 title: Presupuestar recursos en el caso comercial utilizando el Planificador de recursos
 description: Como parte de la planificación de recursos, puede utilizar el Planificador de recursos en el nivel de proyecto para presupuestar los roles de trabajo necesarios para completar el trabajo en un proyecto al crear el caso empresarial.
-author: Alina
+author: Becky
 feature: Work Management
 exl-id: 51ebb940-111c-442f-a8a6-287a04d2db68
-source-git-commit: 724c507dd5ee09b3364fc2037380a8cb18be08f2
+source-git-commit: aa3ae2a5d92420f4adcedb60a4f7404533eaa59b
 workflow-type: tm+mt
-source-wordcount: '1224'
-ht-degree: 14%
+source-wordcount: '1206'
+ht-degree: 15%
 
 ---
 
@@ -35,19 +35,17 @@ También puede presupuestar recursos en el caso empresarial mediante Adobe Workf
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><p>Plan de Adobe Workfront*</p></td> 
-   <td> <p>Actual: Prime o superior</p>
-   <p>Heredado: Pro o superior</p> 
+   <td role="rowheader"><p>Plan de Adobe Workfront</p></td> 
+   <td> <p>Prime o superior</p>
     </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Licencia de Adobe Workfront*</p></td> 
-   <td> <p>Actual: Ligero o superior</p>
-   <p>Heredado: revisión o superior</p>
+   <td role="rowheader"><p>Licencia de Adobe Workfront</p></td> 
+   <td> <p>Ligero o superior</p>
+   <p>Revisión o superior</p>
 
 <p><b>IMPORTANTE:</b></p> 
-   <p>Actual: Debe tener una licencia estándar para modificar la información de presupuesto de recursos. </p> 
-   <p>Heredado: Debe tener una licencia de planificación para modificar la información de presupuesto de recursos. </p>
+   <p>Debe tener una licencia estándar o de planificación para modificar la información de presupuesto de recursos. </p> 
    </td> 
   </tr> 
   <tr> 
@@ -66,7 +64,7 @@ También puede presupuestar recursos en el caso empresarial mediante Adobe Workf
  </tbody> 
 </table>
 
-*Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

@@ -6,10 +6,10 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 2d76077d-2913-40b8-9596-4e201d12ec1a
-source-git-commit: b886284eb44c2154987019655ff07cdeb0e1ae22
+source-git-commit: 985f1aa11ad1d5efc8d043907d60ad5f5c1bba13
 workflow-type: tm+mt
-source-wordcount: '305'
-ht-degree: 21%
+source-wordcount: '290'
+ht-degree: 16%
 
 ---
 
@@ -23,8 +23,6 @@ Prioridades muestra los elementos de trabajo que tiene asignados. No puede ver l
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -32,14 +30,14 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Plan de Adobe Workfront</strong></td> 
+   <td role="rowheader"><strong>paquete de Adobe Workfront</strong></td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Licencia de Adobe Workfront*</strong></td> 
+   <td role="rowheader"><strong>Licencia de Adobe Workfront</strong></td> 
    <td> 
-   <p>Actual: Solicitud o superior para problemas; Trabajo o superior para tareas</p>
-   <p>Nuevo: Colaborador o superior o problemas; Ligero o superior para tareas</p> 
+   <p>Solicitud o superior para problemas; Trabajo o superior para tareas</p>
+   <p>Colaborador o superior o problemas; Ligero o superior para tareas</p> 
    </td> 
   </tr> 
   <tr> 
@@ -53,7 +51,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  </tbody> 
 </table>
 
-*Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -73,7 +71,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 1. Haga clic en el nombre de un elemento de trabajo para abrir la página **Información general**.
 1. En la sección **Vínculos rápidos**, busque el vínculo que desea copiar.
-1. Haga clic en el icono **Copiar**![&#x200B; Icono Copiar](assets/copy-icon.png).
+1. Haga clic en el icono **Copiar**![ Icono Copiar](assets/copy-icon.png).
    ![Copiar vínculo](assets/copy-link.png)
 
 ## Abrir un vínculo rápido

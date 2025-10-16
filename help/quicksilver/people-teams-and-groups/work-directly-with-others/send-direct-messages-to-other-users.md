@@ -7,10 +7,10 @@ description: Adobe Workfront permite enviar rápida y fácilmente mensajes que n
 author: Lisa
 feature: People Teams and Groups
 exl-id: 82a1c304-176a-48c5-809d-40663ee768b7
-source-git-commit: 3b5452c51c19edfafc9244c2cfd58d7174732375
+source-git-commit: 18c39c5b1959c31b6fd0018476b48643b4b15021
 workflow-type: tm+mt
-source-wordcount: '589'
-ht-degree: 46%
+source-wordcount: '563'
+ht-degree: 45%
 
 ---
 
@@ -29,32 +29,28 @@ El usuario al que envía el mensaje recibe los siguientes tipos de notificacione
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader">Plan de Adobe Workfront</td> 
-   <td>Cualquiera</td> 
+  <tr> 
+   <td>paquete de Adobe Workfront</td> 
+   <td><p>Cualquiera</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licencia de Adobe Workfront</td> 
+   <td>Licencia de Adobe Workfront</td> 
    <td>
-   <p>Para enviar un mensaje desde la página de perfil del usuario, debe tener:<br>
-   Nuevo: claro o superior<br>
-   o<br>
-   Actual: revisar o superior</p>
-   <p>Para enviar un mensaje desde la lista de usuarios, debe tener:<br>
-   Nuevo: estándar<br>
-   o<br>
-   Actual: Trabajo o superior</p></td>
+   <p>Para enviar un mensaje desde la página de perfil del usuario, debe tener:</P>
+   <p>Ligero o superior</p>
+   <p>Revisión o superior</p>
+   <p>Para enviar un mensaje desde la lista de usuarios, debe tener:</p>
+   <p>Estándar</p>
+   <p>Trabajo o superior</p></td>
   </tr> 
  </tbody> 
 </table>
 
-Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

@@ -1,23 +1,25 @@
 ---
 product-area: projects
 navigation-topic: use-the-gantt-chart
-title: Actualización de la información en el gráfico Gantt de la lista de tareas
-description: El gráfico Gantt de la lista de tareas muestra detalles sobre las tareas de un proyecto o plantilla.
+title: Actualizar información en el gráfico Gantt de lista de tareas
+description: El diagrama de Gantt de una lista de tareas de Adobe Workfront muestra detalles sobre las tareas que se encuentran en un proyecto o una plantilla.
 author: Alina
 feature: Work Management
 exl-id: 0a8e6fd5-985c-49e5-842d-67ade29ee1c9
-source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
+source-git-commit: c8987d036e1c1324618cb53ebcbb8fd7e4bcc6a4
 workflow-type: tm+mt
-source-wordcount: '1041'
-ht-degree: 98%
+source-wordcount: '1006'
+ht-degree: 91%
 
 ---
 
-# Actualizar información en el [!UICONTROL gráfico Gantt] de la lista de tareas
+# Actualizar información en el [!UICONTROL gráfico Gantt] de lista de tareas
 
-El [!UICONTROL gráfico Gantt] de la lista de tareas muestra detalles acerca de las tareas de un proyecto o plantilla.
+<!--Audited: 08/2025-->
 
-En una plantilla, el [!UICONTROL gráfico Gantt] de la lista de tareas refleja las actualizaciones realizadas en la lista de tareas de la plantilla en el nivel de tarea. No es posible editar el [!UICONTROL gráfico Gantt] asociado a una plantilla.
+El [!UICONTROL gráfico Gantt] de una lista de tareas de Adobe Workfront muestra detalles sobre las tareas que se encuentran en un proyecto o una plantilla.
+
+En una plantilla, la lista de tareas [!UICONTROL Diagrama de Gantt] refleja las actualizaciones realizadas en la lista de tareas de la plantilla en el nivel de tarea de plantilla. No es posible editar el [!UICONTROL gráfico Gantt] asociado a una plantilla.
 
 En un proyecto, es posible actualizar la información de la tarea directamente en el [!UICONTROL gráfico Gantt] de la lista de tareas.
 
@@ -31,7 +33,37 @@ En este artículo se describen las siguientes acciones, que se pueden realizar d
 
 ## Requisitos de acceso
 
-Debe tener lo siguiente para seguir los pasos de este artículo:
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo. 
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] paquete</td> 
+   <td> <p>Cualquiera</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] licencia</td> 
+   <td> <p>[!UICONTROL Standard]</p>
+   <p>[!UICONTROL Plan]</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Configuraciones de nivel de acceso</td> 
+   <td> <p>Acceso de [!UICONTROL Edit] a proyectos y tareas</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Permisos de objeto</td> 
+   <td> <p>Acceso de [!UICONTROL Manage] al proyecto y a las tareas</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++ 
+
+<!--Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -39,24 +71,22 @@ Debe tener lo siguiente para seguir los pasos de este artículo:
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
-   <td> <p>Cualquiera </p> </td> 
+   <td> <p>Any </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licencia*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
    <td> <p>[!UICONTROL Plan] </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraciones de nivel de acceso*</td> 
-   <td> <p>Acceso de [!UICONTROL Edit] a proyectos y tareas</p> <p>Nota: Si todavía no tiene acceso, pregunte al administrador de [!DNL Workfront] si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de [!DNL Workfront] puede modificar su nivel de acceso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
+   <td role="rowheader">Access level configurations*</td> 
+   <td> <p>[!UICONTROL Edit] access to Projects and Tasks</p> <p>Note: If you still don't have access, ask your [!DNL Workfront] administrator if they set additional restrictions in your access level. For information on how a [!DNL Workfront] administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Acceso de [!UICONTROL Manage] al proyecto y a las tareas </p> <p>Para obtener información sobre cómo solicitar acceso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a objetos </a>.</p> </td> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>[!UICONTROL Manage] access to the project and tasks </p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>
-
-&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de [!DNL Workfront].
+</table>-->
 
 ## Modificar la duración de la tarea
 
@@ -137,7 +167,7 @@ Debe tener lo siguiente para seguir los pasos de este artículo:
 
    ![Configuración manual habilitada](assets/manual-standard-setting-enabled-quicksilver-task-list-350x493.png)
 
-1. Pase el puntero del ratón por encima del centro de la tarea y busque la flecha multidireccional.
+1. Pase el puntero por encima del centro de la tarea y busque la flecha multidireccional.
 1. Haga clic en la tarea y arrástrela a la fecha deseada.
 
    ![Change_start_end_date.png](assets/change-start-end-date.png)

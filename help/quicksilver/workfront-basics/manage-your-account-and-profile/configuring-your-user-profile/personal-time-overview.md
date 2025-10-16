@@ -7,10 +7,10 @@ description: Es importante indicar en Adobe Workfront cuándo tienen lugar los d
 author: Becky
 feature: Get Started with Workfront
 exl-id: e7710495-c418-47b1-8598-725580054fc5
-source-git-commit: f10b0a4897d6250f0c4decf1fad069c598536a38
+source-git-commit: 95cc394c3e1aa0ee5713e981030a96e27dd1f183
 workflow-type: tm+mt
-source-wordcount: '428'
-ht-degree: 92%
+source-wordcount: '433'
+ht-degree: 74%
 
 ---
 
@@ -38,33 +38,33 @@ Las herramientas de administración de recursos también utilizan sus días libr
 
 ## Requisitos de acceso
 
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
 <table style="table-layout:auto"> 
  <col> 
- </col> 
- <col> 
- </col> 
+ </col>
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
-   <td>Cualquiera</td> 
+   <td> paquete de Adobe Workfront</td> 
+   <td><p>Cualquiera</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licencia</td> 
-   <td> <p>Nuevo: Estándar (para configurar sus días libres personales)</p>
-        <p>o</p>
-        <p>Actual: Trabajo o superior (para configurar sus días libres personales)</p> </td>
+   <td>Licencia de Adobe Workfront</td> 
+   <td> <p>Para configurar su tiempo libre personal, debe tener:</p>
+        <p>Estándar (para configurar su tiempo libre personal)</p>
+        <p>Trabaje o superior (para configurar su tiempo libre personal)</p> </td>
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraciones de nivel de acceso</td> 
-   <td>[!UICONTROL Manager] con acceso de [!UICONTROL Edit User] (para realizar cambios en el calendario de días libres de otros usuarios)<br>
- <strong>NOTA:</strong> si un administrador edita el calendario personal de días libres de otro usuario, todas las entradas se mostrarán en la zona horaria del usuario y no en la del administrador.</td> 
+   <td>Configuraciones de nivel de acceso</td> 
+   <td><p>Para realizar cambios en el calendario de días libres de otro usuario, debe ser el administrador de ese usuario y tener acceso de Editar usuario.</p>
+   <p><strong>NOTA:</strong> Si un administrador edita el calendario personal de días libres de otro usuario, todas las entradas se mostrarán en la zona horaria del usuario y no en la del administrador.</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Configurar los días libres personales en [!DNL Workfront]
 

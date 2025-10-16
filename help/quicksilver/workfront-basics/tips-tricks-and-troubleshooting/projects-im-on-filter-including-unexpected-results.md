@@ -6,37 +6,45 @@ description: Lea este artículo para solucionar los problemas del filtro Proyect
 feature: Get Started with Workfront
 author: Nolan
 exl-id: 4701464a-4cf5-4be1-bcc0-0892019986ec
-source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
+source-git-commit: 85ccee879fd4ba5a80b6e885458839901f83d26e
 workflow-type: tm+mt
-source-wordcount: '169'
-ht-degree: 1%
+source-wordcount: '184'
+ht-degree: 25%
 
 ---
 
-# El filtro Proyectos en los que estoy incluye resultados inesperados
+# El filtro proyectos en los que estoy incluye resultados inesperados
 
 ## Requisitos de acceso
 
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan</strong></td> 
-   <td> <p>Cualquiera</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><strong>Licencia de Adobe [!DNL Workfront]</strong></td> 
-   <td> <p>[!UICONTROL Plan] </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><strong>Configuraciones de nivel de acceso</strong></td> 
-   <td> <p>[!UICONTROL Administrador del sistema]</p> </td> 
-  </tr> 
- </tbody> 
+<table>
+  <tr>
+   <td>paquete de Adobe Workfront
+   </td>
+   <td> <p>PRIME o ULTIMATE</p>
+    <p>Workflow Ultimate</p>
+   </td>
+  </tr>
+  <tr>
+   <td>Licencias de Adobe Workfront
+   </td>
+   <td><p>Estándar</p>
+   <p>Plan</p>
+   </td>
+  </tr>
+   <tr>
+   <td>Configuraciones de nivel de acceso
+   </td>
+   <td>Debe ser administrador de [!DNL Workfront].
+   </td>
+  </tr>
 </table>
+
+Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
+
 
 ## Problema
 

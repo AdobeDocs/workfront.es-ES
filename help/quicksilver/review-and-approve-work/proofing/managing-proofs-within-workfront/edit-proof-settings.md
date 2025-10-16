@@ -6,10 +6,10 @@ description: Puede editar la configuración de una prueba en cualquier momento d
 author: Courtney
 feature: Digital Content and Documents
 exl-id: ee30ce2c-e3dc-4863-a69b-cbc1b8747362
-source-git-commit: a036a99c13d80a2ba2305ebcdc799ad6e5b62b39
+source-git-commit: ac714bd5a5259d6f995ac445efbd0125e07022cb
 workflow-type: tm+mt
-source-wordcount: '633'
-ht-degree: 100%
+source-wordcount: '533'
+ht-degree: 98%
 
 ---
 
@@ -21,19 +21,20 @@ Puede editar la configuración de una prueba en cualquier momento después de cr
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Plan de Adobe Workfront*</td> 
-   <td> <p>Plan actual: pro o superior</p> <p>o</p> <p>Plan heredado: Premium</p> <p>Para obtener más información sobre el acceso de revisión en los diferentes planes, consulte <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Acceso a la funcionalidad de revisión en Workfront</a>.</p> </td> 
+   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licencia de Adobe Workfront*</td> 
-   <td> <p>Plan actual: trabajo o plan</p> <p>Plan heredado: cualquiera (debe tener la revisión habilitada para el usuario)</p> </td> 
+   <td role="rowheader">Licencia de Adobe Workfront</td> 
+   <td> 
+   <p>Estándar</p>
+   <p>Trabajo o plan</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Perfil de permiso de prueba </td> 
@@ -44,13 +45,13 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
    <td>Autor o moderador</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraciones de nivel de acceso*</td> 
-   <td> <p>Acceso de edición a documentos</p> <p>Nota: Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creación o modificación de niveles de acceso personalizados</a>.</p> </td> 
+   <td role="rowheader">Configuraciones de nivel de acceso</td> 
+   <td> <p>Acceso de edición a documentos</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qué plan, función o perfil de permiso de revisión tiene, póngase en contacto con su administrador de Workfront o de Workfront Proof.
+Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -81,7 +82,7 @@ Algunas configuraciones pueden bloquearse si el administrador de Workfront las d
      </tr> 
      <tr> 
       <td role="rowheader">Permitir la descarga del archivo original</td> 
-      <td> <p>Puede permitir que los revisores de una revisión descarguen el archivo original desde el que se creó la revisión. Esta opción está activada de forma predeterminada.</p> </td> 
+      <td> <p>Puede permitir que los revisores de una revisión descarguen el archivo original desde el que se creó la revisión. Esta opción está habilitada de forma predeterminada.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Permitir que se comparta la revisión mediante una dirección URL pública o código incrustado</td> 

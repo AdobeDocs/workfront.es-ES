@@ -3,12 +3,12 @@ product-area: timesheets
 navigation-topic: create-and-manage-timesheets
 title: Crear hoja de horas de un solo uso
 description: Puede crear manualmente una plantilla de horas de un solo uso si desea una plantilla de horas que no sea recurrente. Cuando llegue la fecha de finalización de la plantilla de horas y necesite más plantillas, debe crear otras nuevas.
-author: Alina
+author: Lisa
 feature: Timesheets
 exl-id: b293dd50-a9b8-448b-afc1-8c7c7c79183b
-source-git-commit: 594f224e11b0e7708ed555410b7c331741113791
+source-git-commit: 69cd5fb1d089b81b7a1673609b92537137b6b68e
 workflow-type: tm+mt
-source-wordcount: '1078'
+source-wordcount: '1062'
 ht-degree: 90%
 
 ---
@@ -38,29 +38,28 @@ Para obtener información sobre la generación manual de hojas de horas para tod
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
-Para realizar los pasos de este artículo, debe tener lo siguiente:
-
-<table style="table-layout:auto"> 
+<table style="table-layout:auto">
  <col> 
- <col> 
+ <col>
  <tbody> 
   <tr> 
-   <td role="rowheader">Plan de Adobe Workfront</td> 
-   <td> <p>Cualquiera</p> </td> 
+   <td>paquete de Adobe Workfront</td> 
+   <td><p>Cualquiera</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licencia de Adobe Workfront*</td> 
-   <td> <p>Nuevo: estándar </p>
-   <p>Actual: plan </p> </td> 
+   <td>Licencia de Adobe Workfront</td> 
+   <td>
+   <p>Estándar</p>
+   <p>Plan</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Nivel de acceso</td> 
-   <td> <p>Debe tener acceso administrativo a las plantillas de horas. </p>  </td> 
+   <td>Configuraciones de nivel de acceso</td> 
+   <td><p>Acceso administrativo a hojas de horas</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Para obtener más información, consulte [Requisitos de acceso a la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

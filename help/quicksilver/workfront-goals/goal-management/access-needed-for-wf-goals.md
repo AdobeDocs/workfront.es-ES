@@ -7,10 +7,10 @@ description: El administrador de Adobe Workfront debe asegurarse de que se cumpl
 author: Alina
 feature: Workfront Goals
 exl-id: 3c7c832b-3e00-4ced-8829-8b1c23fa3871
-source-git-commit: 4e1558b47f6041501aa4e4fbfa6317dec8aee571
+source-git-commit: dacfd8ef7475b197ac6ce5dd598c99df97037479
 workflow-type: tm+mt
-source-wordcount: '716'
-ht-degree: 84%
+source-wordcount: '644'
+ht-degree: 71%
 
 ---
 
@@ -20,21 +20,28 @@ ht-degree: 84%
 
 El administrador de Adobe Workfront debe asegurarse de que se cumplan todas las condiciones siguientes antes de que pueda acceder a Adobe Workfront Goals:
 
-* Su organización debe adquirir la licencia correcta para Workfront Goals.  Para obtener más información, consulte la sección [Obtener acceso a la organización de Workfront Goals](#obtain-workfront-goals-organization-access) en este artículo.
+* Su organización ha comprado un paquete de Objetivos de Adobe Workfront en el pasado. Adobe Workfront Goals ya no se puede adquirir.
+
+  Para obtener más información, consulte la sección [Obtener acceso a la organización de Workfront Goals](#obtain-workfront-goals-organization-access) en este artículo.
 
 * Asigne el tipo correcto de licencia de Workfront. Para obtener información acerca de la asignación de tipos de licencia y niveles de acceso, consulte la sección [Actualizar tipos de licencia y configuración de nivel de acceso](#update-license-types-and-access-level-settings) en este artículo.
 
->[!NOTE]
->
->Los usuarios con un tipo de licencia externa no pueden acceder a Workfront Goals.
+  >[!NOTE]
+  >
+  >Los usuarios con un tipo de licencia externa no pueden acceder a Workfront Goals.
 
 * Proporcionarle acceso a Goals en su nivel de acceso. Para obtener más información, consulte [Conceder acceso a Adobe Workfront Goals](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md)
+
+  >[!NOTE]
+  >
+  >De forma predeterminada, los usuarios no tienen acceso a los objetivos de su nivel de acceso.
+
 
 * Asigne la plantilla de diseño que incluya el área Metas en el menú principal.
 
   >[!NOTE]
   >
-  >A todos los usuarios, incluidos los administradores de Workfront, se les debe asignar una plantilla de diseño que incluya el área Metas en el menú principal.
+  >A todos los usuarios, incluidos los administradores del sistema, se les debe asignar una plantilla de diseño que incluya el área Objetivos en el menú principal.
 
   Para obtener información, consulte la sección [Añadir Workfront Goals a una plantilla de diseño](#add-workfront-goals-to-a-layout-template) en este artículo.
 
@@ -44,35 +51,50 @@ El administrador de Adobe Workfront debe asegurarse de que se cumplan todas las 
 
 ## Obtener acceso a la organización de Workfront Goals {#obtain-workfront-goals-organization-access}
 
+El último paquete de Adobe Workfront que incluyó los objetivos de Workfront fue Adobe Workfront Ultimate.
+Los objetivos de Workfront ya no se pueden adquirir en paquetes más recientes.
+Hable con el representante de su cuenta para consultar sobre los objetivos de Workfront.
 
-Dependiendo del plan de Workfront en el que se encuentre actualmente su compañía, se dan los siguientes escenarios:
+<!--Old: >
+Depending on which Workfront plan your company is currently on, the following scenarios exist: 
 
-* **Un nuevo plan Workfront**: debe tener un plan Ultimate Workfront. Workfront Goals solo se incluye en este plan.
+* **A new Workfront plan**: You must have an Ultimate Workfront plan. Workfront Goals are included only in this plan. 
 
-* **Un plan Workfront actual**: su organización debe adquirir una licencia adicional, además de la licencia de Workfront.
+* **A current Workfront plan**: Your organization must purchase an additional license, in addition to the Workfront license.
 
-  Una vez que su organización ha adquirido la licencia adicional, Workfront habilita Workfront Goals en su cuenta. Para obtener información sobre cómo adquirir una licencia para Workfront Goals, póngase en contacto con el administrador de cuentas de Workfront.
+  After your organization purchases the additional license, Workfront enables Workfront Goals for your account. For information about purchasing a license for Workfront Goals contact your Workfront account manager.
 
-Para obtener información acerca de los requisitos de acceso de Workfront, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+For information about Workfront access requirements, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). -->
 
 ## Actualizar tipos de licencia y configuración de nivel de acceso  {#update-license-types-and-access-level-settings}
 
-Dependiendo del plan de Workfront en el que se encuentre actualmente su compañía, se dan los siguientes escenarios:
+Si su empresa tiene acceso a las metas de Workfront de una compra anterior, su administrador de Workfront debe concederle lo siguiente para acceder a las metas de Workfront:
 
-* **El nuevo modelo de nivel de acceso**: El administrador de Workfront debe otorgarle uno de los siguientes tipos de licencia de Workfront para acceder a los objetivos de Workfront:
+1. Una de las siguientes licencias:
 
-   * Colaborador
-   * Ligero
-   * Estándar
+   * Colaborador o superior
+   * Solicitud o superior
 
-* **Modelo de nivel de acceso actual**: El administrador de Workfront debe otorgarle uno de los siguientes tipos de licencia de Workfront para acceder a los objetivos de Workfront:
+<!--Old: 
+* **The new access level model**: Your Workfront administrator must grant you one of the following Workfront license types to access Workfront Goals: 
 
-   * Plan
-   * Trabajo
-   * Revisar
-   * Solicitud
+  * Contributor
+  * Light
+  * Standard
 
-Una vez que el administrador de Workfront le concede uno de estos tipos de licencia, también debe darle acceso a las metas en su nivel de acceso. Para obtener información sobre el acceso a las metas, consulte [Conceder acceso a Adobe Workfront Goals](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md).
+* **The current access level model**: Your Workfront administrator must grant you one of the following Workfront license types to access Workfront Goals:
+
+  * Plan
+  * Work 
+  * Review
+  * Request
+-->
+
+1. El siguiente nivel de acceso:
+
+   * Vea o aumente el acceso a los Objetivos en su nivel de acceso.
+
+   Para obtener información sobre el acceso a las metas, consulte [Conceder acceso a Adobe Workfront Goals](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md).
 
 Como administrador de Workfront, puede revisar el número de licencias de Workfront Goals que hay en su sistema y saber cuántas están habilitadas actualmente. Para obtener más información, consulte [Administrar las licencias disponibles en el sistema](../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md).
 
@@ -89,14 +111,14 @@ El administrador de Workfront o de grupo debe asignarle una plantilla de diseño
 El administrador de Workfront o del grupo también puede añadir lo siguiente a la plantilla de diseño para que pueda acceder fácilmente a Workfront Goals:
 
 * Una pestaña anclada
-* Convierta el área Metas en su página de aterrizaje
+* Convierta el área Metas en su página de destino
 
 Para obtener información sobre la actualización de la plantilla de diseño, consulte los siguientes artículos:
 
 * [Crear y administrar plantillas de diseño](../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)
 * [Personalizar el menú principal con una plantilla de diseño](../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md)
 * [Personalizar las páginas ancladas con una plantilla de diseño](../../administration-and-setup/customize-workfront/use-layout-templates/customize-pinned-pages.md)
-* [Personalizar la página de aterrizaje mediante una plantilla de diseño](../../administration-and-setup/customize-workfront/use-layout-templates/customize-landing-page.md)
+* [Personalizar la página de destino mediante una plantilla de diseño](../../administration-and-setup/customize-workfront/use-layout-templates/customize-landing-page.md)
 * [Asignar usuarios a una plantilla de diseño](../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md)
 
 ## Compartir metas individuales con otros usuarios {#share-individual-goals-with-other-users}

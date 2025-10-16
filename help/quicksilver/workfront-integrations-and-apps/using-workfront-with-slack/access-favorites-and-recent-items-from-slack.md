@@ -6,10 +6,10 @@ description: Una vez que hayas instalado y configurado  [!DNL Adobe Workfront] p
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 4bf62192-66fe-42a7-b8c0-23b7bdef45e8
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 6178cabbf021fbf92bd8795c5c2bd0346801d64d
 workflow-type: tm+mt
-source-wordcount: '324'
-ht-degree: 40%
+source-wordcount: '326'
+ht-degree: 39%
 
 ---
 
@@ -21,20 +21,26 @@ Para obtener más información sobre la configuración de [!DNL Workfront with S
 
 ## Requisitos de acceso
 
-Debe tener lo siguiente:
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://business.adobe.com/es/products/workfront/pricing.html" target="_blank">[!DNL [!DNL Adobe Workfront] plan]</a>*</td> 
-   <td> <p>[!UICONTROL Pro] o superior</p> </td> 
+   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td> <p>Cualquiera</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Licencia de Adobe Workfront</td> 
+   <td> <p>Cualquiera</p>
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de [!DNL Workfront].\
+Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Requisitos previos
 

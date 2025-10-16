@@ -6,10 +6,10 @@ author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 2f39a091-aec2-4013-a835-0ab1c8789dc3
-source-git-commit: 3c8438fef3333c5f7ceab7b19b6755d4e4246cb9
+source-git-commit: e34abb5ff1068de99eaba33dc95287164e556742
 workflow-type: tm+mt
-source-wordcount: '614'
-ht-degree: 14%
+source-wordcount: '575'
+ht-degree: 11%
 
 ---
 
@@ -35,8 +35,6 @@ Algunas notificaciones de eventos tienen varias líneas de asunto, lo que signif
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -44,21 +42,24 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Plan de Adobe Workfront*</td> 
+   <td role="rowheader">paquete de Adobe Workfront</td> 
    <td>Cualquiera</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licencia de Adobe Workfront*</td> 
-   <td>Plan</td> 
+   <td role="rowheader">Licencia de Adobe Workfront</td> 
+   <td>
+   <p>Estándar</p>
+   <p>Plan</p>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraciones de nivel de acceso*</td> 
-   <td> <p>Planificador o superior, con acceso administrativo a las notificaciones de recordatorio</p> <p>Para obtener información sobre cómo otorgar acceso administrativo a un usuario del plan, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Conceder acceso administrativo a usuarios de ciertas áreas</a>.</p> </td> 
+   <td role="rowheader">Configuraciones de nivel de acceso</td> 
+   <td> <p>Planificador o superior, con acceso administrativo a las notificaciones de recordatorio</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su administrador de Workfront.
+Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -86,7 +87,7 @@ Por ejemplo, &quot;Alguien me incluye en una actualización dirigida&quot; tiene
 
 Si se incluye a un usuario en una conversación sobre la tarea, el problema, la tarea de plantilla o el documento, se generará un mensaje de correo electrónico con la primera línea de asunto. La línea de asunto contiene &quot;referenceObject:name&quot; y el sistema define el objeto y muestra el nombre adecuado en el campo de asunto. La línea de asunto del correo electrónico tendría un aspecto similar al siguiente: &quot;Comentario sobre la tarea 123 del proyecto ABC&quot;.
 
-Si se añade a una conversación de proyecto, se generará un correo electrónico con el segundo asunto. En este caso, la línea de asunto contiene &quot;topReferenceObject:name&quot; y, de nuevo, Workfront identifica a qué objeto se hace referencia y devuelve ese nombre de objeto en lugar de &quot;topReferenceObject:name&quot; en el asunto. La línea de asunto del correo electrónico tendría un aspecto similar al siguiente: &quot;Comentario sobre el proyecto ABC&quot;.
+Si se añade a una conversación de proyecto, se generará un correo electrónico con el segundo asunto. En este caso, la línea de asunto contiene &quot;topReferenceObject:name&quot; y, de nuevo, Workfront identifica a qué objeto se hizo referencia y devuelve ese nombre de objeto en lugar de &quot;topReferenceObject:name&quot; en el asunto. La línea de asunto del correo electrónico tendría un aspecto similar al siguiente: &quot;Comentario sobre el proyecto ABC&quot;.
 
 Para editar las líneas de asunto del correo electrónico y agregar campos adicionales a las líneas de asunto, consulte [Personalizar las líneas de asunto del correo electrónico para las notificaciones de eventos](#customize-email-subject-lines-for-event-notifications) en este artículo.
 

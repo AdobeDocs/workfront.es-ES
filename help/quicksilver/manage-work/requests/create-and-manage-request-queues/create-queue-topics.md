@@ -3,14 +3,14 @@ product-area: requests
 navigation-topic: create-and-manage-request-queues
 title: Crear temas de la cola
 description: Los temas de la cola funcionan junto con las reglas de enrutamiento para asignar automáticamente el trabajo entrante a un usuario, función o equipo, o para colocarlo en un proyecto. Los temas de la cola definen las condiciones que deben darse para que se implemente la regla de enrutamiento.
-author: Alina
+author: Becky
 feature: Work Management, Requests
 role: User, Admin
 exl-id: 65a74698-011f-4caa-9739-d7510faeb66f
-source-git-commit: 613904bd75aabe3062c5ab50f28cf44eb62919e8
+source-git-commit: 4a0cb96f5888819747f63472712f91c685621cf1
 workflow-type: tm+mt
-source-wordcount: '1036'
-ht-degree: 77%
+source-wordcount: '1013'
+ht-degree: 76%
 
 ---
 
@@ -60,22 +60,19 @@ Una vez creados, no se pueden mover los temas de la cola de un proyecto o planti
 </table>
 -->
 
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Plan de Adobe Workfront</td> 
+   <td role="rowheader">paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licencia de Adobe Workfront</td> 
    <td>
-    <p>Nuevo: estándar</p>
-    <p>o</p>
-    <p>Actual: plan</p></td>  
+    <p>Estándar</p>
+    <p>Plan</p></td>  
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso</td> 
@@ -88,7 +85,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  </tbody> 
 </table>
 
-Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

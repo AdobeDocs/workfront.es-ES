@@ -7,18 +7,18 @@ description: Una iteración es una cantidad de tiempo establecida reservada para
 author: Lisa
 feature: Agile
 exl-id: 37b8810d-8439-4a7a-89d5-7c2560422ace
-source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
+source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
 workflow-type: tm+mt
-source-wordcount: '412'
-ht-degree: 0%
+source-wordcount: '399'
+ht-degree: 19%
 
 ---
 
-# Creación de una iteración en un flujo de trabajo
+# Crear una iteración en un flujo de trabajo
 
 >[!IMPORTANT]
 >
->Los flujos de trabajo solo están disponibles para un grupo específico de clientes.
+>Las secuencias de trabajo solo están disponibles para un grupo específico de clientes.
 
 Una iteración es una cantidad de tiempo establecida reservada para completar el trabajo. Algunos equipos Agile pueden referirse a una iteración como un sprint.
 
@@ -26,36 +26,33 @@ Una iteración es una cantidad de tiempo establecida reservada para completar el
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront]</td> 
+   <td role="rowheader">paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licencia</td> 
+   <td role="rowheader">Licencia de Adobe Workfront</td> 
    <td> 
-   <p>Nuevo: [!UICONTROL Contributor] o superior</p> 
-   <p>o</p>
-   <p>Actual: [!UICONTROL Request] o superior</p>
+   <p>Colaborador o superior</p> 
+   <p>Solicitud o superior</p>
    </td> 
-  </tr> 
+  </tr>  
  </tbody> 
 </table>
 
-Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Creación de una iteración en un flujo de trabajo
+## Crear una iteración en un flujo de trabajo
 
 {{step1-to-boards}}
 
-1. Abra el flujo de trabajo en el que desee añadir la iteración. Para abrir un flujo de trabajo, haga clic en [!UICONTROL **Ver flujo de trabajo**].
+1. Abra el flujo de trabajo en el que desee añadir la iteración. Para abrir una secuencia de trabajo, haga clic en [!UICONTROL **Ver secuencia de trabajo**].
 1. Cree una iteración utilizando uno de estos métodos:
 
    * En la ficha Lista de tarjetas, en la vista de iteración, haga clic en [!UICONTROL **Crear iteración**].
@@ -75,7 +72,7 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
       <td>La duración de la iteración, en días, semanas o meses.</td> 
      </tr>
      <tr> 
-      <td><strong>[!UICONTROL Fecha de inicio]</strong></td> 
+      <td><strong>[!UICONTROL Start date]</strong></td> 
       <td>La fecha en la que comienza la iteración. La fecha de finalización se introduce automáticamente en función de la duración de la iteración.</td> 
      </tr> 
     </tbody> 
@@ -89,7 +86,7 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
 
 ## Editar una iteración existente
 
-1. Para abrir un flujo de trabajo, haga clic en [!UICONTROL **Ver flujo de trabajo**].
+1. Para abrir una secuencia de trabajo, haga clic en [!UICONTROL **Ver secuencia de trabajo**].
 1. Abra la iteración utilizando uno de estos métodos:
 
    * En la ficha Lista de tarjetas, en la vista de iteración, haga clic en el icono [!UICONTROL **Detalles de iteración**] ![Detalles de iteración](assets/iteration-details-button.png).
@@ -121,7 +118,7 @@ Use the [!UICONTROL Next Iteration] column to move cards from the current iterat
 </div>
 -->
 
-## Eliminación de una iteración
+## Eliminar una iteración
 
 1. Haga clic en la ficha [!UICONTROL **Lista de tarjetas**] del flujo de trabajo y abra la vista de iteración.
 1. Haga clic en el icono **Eliminar** ![Eliminar icono](assets/delete.png) junto a la iteración.

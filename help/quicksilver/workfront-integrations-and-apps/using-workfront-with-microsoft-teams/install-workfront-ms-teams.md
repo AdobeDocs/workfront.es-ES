@@ -6,10 +6,10 @@ description: La aplicación  [!DNL Adobe Workfront for Microsoft Teams] te permi
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: a8d4e48c-1ccc-4e6e-a0a0-9b68748590c0
-source-git-commit: 940cbfb34f12eacd5ba698f60fb7a3e67eb62b22
+source-git-commit: 4cf780aa1b1221cd6ff8e6ce58fbb7d3621f7fa9
 workflow-type: tm+mt
-source-wordcount: '728'
-ht-degree: 20%
+source-wordcount: '709'
+ht-degree: 17%
 
 ---
 
@@ -31,29 +31,29 @@ La aplicación [!DNL Adobe Workfront for Microsoft Teams] le permite realizar ac
 >[!DNL Microsoft Teams] ya no admite [!DNL Internet Explorer]. Para usar [!DNL Adobe Workfront for Microsoft Teams integration], debe usar un explorador web que no sea [!DNL Internet Explorer].
 
 
+
+
 ## Requisitos de acceso
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
-
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
+   <td role="rowheader">paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licencia</td> 
-   <td><p>Nuevo: estándar</p>
-    <p>Actual: [!UICONTROL Work], [!UICONTROL Plan]</p> </td> 
+   <td role="rowheader">Licencia de Adobe Workfront</td> 
+   <td> <p>Estándar</p>
+   <p>Trabajo o superior</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

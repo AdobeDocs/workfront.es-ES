@@ -1,21 +1,21 @@
 ---
 content-type: reference
 product-area: reporting
-keywords: auditoría, seguimiento, personalizado, campo
+keywords: audit,trail,custom,field
 navigation-topic: calculate-custom-data-reports
-title: "Ejemplo de campo personalizado calculado: mostrar el historial de edición de un campo"
+title: 'Ejemplo de campo personalizado calculado: mostrar el historial de ediciones de un campo'
 description: Si los usuarios actualizan los campos personalizados de forma regular y desea capturar un registro de todos los cambios realizados en un campo, así como una fecha en la que se produzcan los cambios, puede capturar esta información en un campo personalizado calculado.
-author: Nolan
+author: Jenny
 feature: Reports and Dashboards
 exl-id: e233ef28-c95a-42a1-b2eb-448dad5feddb
-source-git-commit: ecafbd693237427d727b15dd22afd485b4e59c72
+source-git-commit: a1ead6d0c1c85bfbe6d7302506743db8d8b3e205
 workflow-type: tm+mt
-source-wordcount: '656'
-ht-degree: 0%
+source-wordcount: '612'
+ht-degree: 54%
 
 ---
 
-# Ejemplo de campo personalizado calculado: mostrar el historial de edición de un campo
+# Ejemplo de campo personalizado calculado: mostrar el historial de ediciones de un campo
 
 Si los usuarios actualizan los campos personalizados de forma regular y desea capturar un registro de todos los cambios realizados en un campo, así como una fecha en la que se produzcan los cambios, puede capturar esta información en un campo personalizado calculado.
 
@@ -35,46 +35,49 @@ Esto hace lo siguiente:
 
 ## Requisitos de acceso
 
-Debe tener lo siguiente:
+## Requisitos de acceso
+
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
 <table style="table-layout:auto"> 
- <caption style="text-align: left;"> 
-  <p>*Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su administrador de Workfront.</p> 
- </caption> 
  <col> 
- </col> 
  <col> 
- </col> 
  <tbody> 
   <tr> 
-   <td> <p>plan Adobe Workfront*</p> </td> 
-   <td>Cualquiera</td> 
+   <td> <p>paquete de Adobe Workfront</p> </td> 
+   <td><p>Cualquiera</p></td> 
   </tr> 
   <tr> 
-   <td> <p>Licencia de Workfront*</p> </td> 
-   <td> <p>Plan </p> </td> 
+   <td> <p>Licencia de Adobe Workfront</p> </td> 
+   <td>
+      <p>Estándar</p>
+      <p>Plan</p></td>
   </tr> 
   <tr> 
-   <td><strong>Configuraciones de nivel de acceso*</strong> </td> 
-   <td> <p>Acceso administrativo a Forms personalizado</p> <p>Nota: Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede cambiar su nivel de acceso, vea <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
+   <td><p>Configuraciones de nivel de acceso</p></td> 
+   <td> <p>Acceso administrativo a Forms personalizado</p> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Permisos de objeto</strong> </p> </td> 
-   <td> <p>Administrar permisos en los formularios personalizados </p> <p>Para obtener más información, vea <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md" class="MCXref xref">Compartir un formulario personalizado</a>.<br></p> </td> 
+   <td> <p>Permisos de objeto</p> </td> 
+   <td> <p>Permisos de administración de los formularios personalizados</p></td> 
   </tr> 
  </tbody> 
 </table>
 
+Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
 ## Requisitos previos
 
-Para agregar un campo calculado que muestre el historial de edición de un campo a un formulario personalizado, primero debe:
+Para añadir un campo calculado que muestre el historial de ediciones de un campo a un formulario personalizado, primero deberá hacer lo siguiente:
 
-* Creación del formulario personalizado
-* Agregue el campo cuyo historial desee capturar al formulario personalizado
+* Crear el formulario personalizado
+* Añadir el campo cuyo historial desea capturar al formulario personalizado
 
-## Mostrar el historial de edición de un campo
+## Mostrar el historial de ediciones de un campo
 
-1. Vaya a un formulario personalizado en el que desee agregar el campo calculado.
+1. Vaya a un formulario personalizado en el que desee añadir el campo calculado.
 
 1. Para crear el campo personalizado de texto de una sola línea, por ejemplo, haga lo siguiente:
 
@@ -82,12 +85,12 @@ Para agregar un campo calculado que muestre el historial de edición de un campo
    1. Especifique una **Etiqueta** para el campo personalizado. Por ejemplo, puede llamarlo &quot;Instrucciones&quot;.
    1. Haga clic en **Aplicar**.
 
-1. Haga clic en **Calculado** para agregar un campo personalizado calculado al formulario.
+1. Haga clic en **Calculado** para añadir un campo personalizado calculado al formulario.
 1. Especifique una **Etiqueta** para el campo personalizado calculado. Por ejemplo, puede llamarlo &quot;Instrucciones Editar historial&quot;.
 
    Este es el campo que captura los cambios realizados en el primer campo creado (&quot;Instrucciones&quot;).
 
-1. Haga clic en **Guardar y cerrar**.
+1. Haga clic en **Guardar y Cerrar**.
 1. Haga clic en el nombre del formulario en el que ahora ha añadido dos campos para volver a abrirlo.
 1. Haga clic en el campo personalizado calculado **Instrucciones Editar historial** y, a continuación, copie y pegue lo siguiente en el cuadro **Cálculo**:
 
@@ -95,13 +98,13 @@ Para agregar un campo calculado que muestre el historial de edición de un campo
    LEFT(IF(LEFT({DE:Instructions Edit History},LEN(IF(ISBLANK({DE:Instructions}),"-",{DE:Instructions})))={DE:Instructions},{DE:Instructions Edit History},CONCAT(IF(ISBLANK({DE:Instructions}),"-",{DE:Instructions})," (",$$NOW,") | ",{DE:Instructions Edit History})),2000)
    ```
 
-1. (Recomendado) Pegue el mismo cálculo en el campo **Instructions** del campo calculado en el formulario.
+1. (Recomendado) Pegue el mismo cálculo en el campo **Instrucciones** en el campo calculado en el formulario.
 1. Asegúrese de que **Texto** está seleccionado en el campo **Formato** para dar formato de texto al campo personalizado calculado.
 
-   Esta es la opción predeterminada.
+   Es la opción predeterminada.
 
-1. Haga clic en **Guardar y cerrar**.
+1. Haga clic en **Guardar y Cerrar**.
 
    Ahora, cuando adjunta el formulario personalizado a un objeto y alguien cambia la información en el campo **Instrucciones**, el campo **Instrucciones Editar historial** muestra el valor más reciente, seguido de la fecha actual entre paréntesis y una barra vertical. Si se realizan más cambios, se añaden a esta información del mismo modo.
 
-   En el cálculo anterior, puede reemplazar *Instrucciones* con el nombre exacto del campo de texto de una sola línea cuyo historial desee rastrear, y **Instrucciones Editar historial** con el nombre exacto del campo calculado.
+   En el cálculo anterior, puede reemplazar *Instrucciones* por el nombre exacto del campo de texto de una sola línea cuyo historial desee rastrear, e **Historial de ediciones de instrucciones** por el nombre exacto del campo calculado.

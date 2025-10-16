@@ -2,25 +2,25 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Vista: Problemas con la resolución de detalles del objeto"
-description: Esta vista de problema muestra el nombre y el porcentaje completado del objeto de resolución del problema, lo que permite que el creador del problema tenga una perspectiva del progreso del problema incluso sin acceso a la tarea o al proyecto de resolución.
+title: 'Ver: Problemas con la resolución de detalles del objeto'
+description: Esta vista del problema muestra el nombre y el porcentaje completado del objeto de resolución del problema, lo que permite que el que ha originado el problema tenga una perspectiva del progreso, incluso sin tener acceso a la tarea o al proyecto de resolución.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 7f4c923a-01e4-4896-9f54-1f0c66d64bb5
-source-git-commit: 6405c01c8b1d842a4175f9caa18a7ed31316a3a1
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '300'
-ht-degree: 0%
+source-wordcount: '278'
+ht-degree: 69%
 
 ---
 
-# Ver: problemas con la resolución de detalles de objetos
+# Vista: problemas con la resolución de detalles de objetos
 
 <!--Audited: 11/2024-->
 
-Esta vista de problema muestra el nombre y el porcentaje completado del objeto de resolución del problema, lo que permite que el creador del problema tenga una perspectiva del progreso del problema incluso sin acceso a la tarea o al proyecto de resolución.
+Esta vista del problema muestra el nombre y el porcentaje completado del objeto de resolución del problema, lo que permite que el que ha originado el problema tenga una perspectiva del progreso, incluso sin tener acceso a la tarea o al proyecto de resolución.
 
-Esta vista usa la etiqueta `sharecol=true` para combinar varios campos bajo el mismo encabezado de columna. Para obtener más información sobre la etiqueta `sharecol`, consulte [Ver: combinar información de varias columnas en una columna compartida](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-merge-columns.md).
+Esta vista usa la etiqueta `sharecol=true` para combinar varios campos bajo el mismo encabezado de columna. Para obtener más información sobre la etiqueta `sharecol`, consulte [Vista: combinar información de varias columnas en una columna compartida](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-merge-columns.md).
 
 ![issue_custom_view_with_resolve_object_name_and_percent_complete.png](assets/issue-custom-view-350x77.png)
 
@@ -28,41 +28,42 @@ Esta vista usa la etiqueta `sharecol=true` para combinar varios campos bajo el m
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plan de Adobe Workfront</td> 
+   <td role="rowheader">paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licencia de Adobe Workfront</td> 
-   <td> <p>Nuevo:<ul><li>Colaborador para modificar una vista</li><li>Estándar para modificar un informe</li></ul></p><p>O</p>Actual:<ul><li>Solicitud para modificar una vista</li><li>Plan para modificar un informe</li></ul></p> </td> 
+   <td> 
+   <p>Colaborador o solicitud para modificar una vista </p>
+   <p>Estándar o Plan para modificar un informe</p>
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso</td> 
-   <td> <p>Editar el acceso a Informes, Tableros y Calendarios para modificar un informe</p> <p>Editar el acceso a filtros, vistas y agrupaciones para modificar una vista</p> </td> 
-  </tr>  
+   <td> <p>Editar el acceso a Informes, Paneles de control y Calendarios para modificar un informe</p> <p>Edición del acceso a Filtros, Vistas y Agrupaciones para modificar una vista</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Administración de permisos de un informe</p> </td> 
+   <td> <p>Permisos de administración para un informe</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
 
 +++
 
-## Ver problemas con la resolución de detalles del objeto
+## Vista de problemas con la resolución de detalles del objeto
 
 1. Ir a una lista de problemas.
 1. En el menú desplegable **Vista**, seleccione **Nueva vista**.
 
-1. En el área **Vista previa de columna**, elimine todas las columnas excepto una.
+1. En el área **Vista previa de columnas**, elimine todas las columnas excepto una.
 1. Haga clic en el encabezado de la columna restante, haga clic en **Cambiar al modo de texto** y, a continuación, haga clic en **Editar modo de texto**.
 1. Elimine el texto que encuentre en el cuadro **Editar modo de texto** y reemplácelo por el siguiente código:
 

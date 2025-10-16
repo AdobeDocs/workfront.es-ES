@@ -7,10 +7,10 @@ author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 4673049e-119e-4315-95f0-f10d8b286856
-source-git-commit: d088b40cd8d46a986998fde2176646aa1660cb6b
+source-git-commit: 7572dd64a7f23d6f8dcae374a327d67f2d6738c5
 workflow-type: tm+mt
 source-wordcount: '250'
-ht-degree: 24%
+ht-degree: 23%
 
 ---
 
@@ -35,11 +35,11 @@ Una vez que tenga al menos una marca configurada en GenStudio Foundation, puede 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Plan de Adobe Workfront*</td> 
+   <td role="rowheader">paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licencia de Adobe Workfront*</td> 
+   <td role="rowheader">Licencia de Adobe Workfront</td> 
    <td> <p>Estándar</p> </td> 
   </tr> 
   <tr> 
@@ -57,7 +57,7 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
 
 Antes de empezar, debe configurar las directrices de marca de imagen en GenStudio Foundation.
 
-Para obtener más información acerca de las directrices de marca de imagen, consulte [Introducción a Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/es/docs/genstudio-for-performance-marketing/user-guide/get-started).
+Para obtener más información acerca de las directrices de marca de imagen, consulte [Introducción a Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started).
 
 ## Añadir un revisor de IA
 

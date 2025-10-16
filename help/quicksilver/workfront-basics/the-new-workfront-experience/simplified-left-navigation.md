@@ -6,9 +6,9 @@ description: El panel de navegación izquierdo en  [!DNL Workfront]  facilita la
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 18aae496-b4ec-4056-a7f1-9600b5fb5421
-source-git-commit: 58567104d88e7e1363d4196aec8a36ee0566b95a
+source-git-commit: 0fbbf7fccee0158cc0630703ed1b663cf42725dd
 workflow-type: tm+mt
-source-wordcount: '1375'
+source-wordcount: '1370'
 ht-degree: 83%
 
 ---
@@ -30,7 +30,7 @@ La mayoría de las áreas y objetos de WF utilizan un panel de navegación senci
 
 ## Requisitos de acceso
 
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
++++Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -39,17 +39,22 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] paquete</strong></td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licencia*</strong></td> 
-   <td> <p>[!UICONTROL Request] o superior</p> </td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] licencia</strong></td> 
+   <td>
+   <p>Colaborador o superior</p>
+   <p>Solicitud o superior</p> 
+   </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qué plan o tipo de licencia tiene, póngase en contacto con el administrador de [!DNL Workfront].
+Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Secciones predeterminadas en el panel de navegación izquierdo
 
@@ -75,7 +80,7 @@ El panel izquierdo está disponible para los siguientes objetos:
 >[!IMPORTANT]
 >
 >Si el panel izquierdo muestra solo una sección de forma predeterminada, como **[!UICONTROL Todos los proyectos]** en el área de **[!UICONTROL Proyectos]**, un administrador de [!DNL Workfront] debe agregar al menos un panel a esta área al crear una plantilla de diseño y asignarle a esa plantilla antes de que el panel izquierdo se muestre en esa área.
->&#x200B;>Para obtener información sobre cómo un administrador de [!DNL Workfront] personaliza el panel izquierdo en una plantilla de diseño, consulte [Personalizar el panel izquierdo mediante una plantilla de diseño](../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md).
+>>Para obtener información sobre cómo un administrador de [!DNL Workfront] personaliza el panel izquierdo en una plantilla de diseño, consulte [Personalizar el panel izquierdo mediante una plantilla de diseño](../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md).
 
 El panel izquierdo está disponible para las siguientes áreas:
 
@@ -84,7 +89,7 @@ El panel izquierdo está disponible para las siguientes áreas:
 * [Secciones predeterminadas en el área [!UICONTROL Recursos]](#default-sections-in-the-resourcing-area)
 * [Secciones predeterminadas en el área [!UICONTROL Proyectos]](#default-sections-in-the-projects-area)
 * [Secciones predeterminadas en el área [!UICONTROL Plantillas de horas]](#default-sections-in-the-timesheets-area)
-* [Secciones predeterminadas en el área  [!DNL Goals] &#x200B;](#default-sections-in-the-goals-area)
+* [Secciones predeterminadas en el área  [!DNL Goals] ](#default-sections-in-the-goals-area)
 
 ### Secciones predeterminadas en el área [!UICONTROL Paneles de control]
 

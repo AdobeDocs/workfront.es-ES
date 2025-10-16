@@ -5,10 +5,11 @@ title: Crear y administrar elementos pendientes en Inicio
 description: Puede crear elementos personales pendientes desde el área [!UICONTROL Inicio].
 author: Courtney
 feature: Get Started with Workfront, Work Management
-source-git-commit: 0289e2d0a3f75827b9c799b72fdc4e9ca1c59949
+exl-id: 247085a7-bb9e-4468-b496-d81e02f2de00
+source-git-commit: 29c82cd8265f3d05f4ae241c5c723a4ab09a6504
 workflow-type: tm+mt
-source-wordcount: '426'
-ht-degree: 25%
+source-wordcount: '368'
+ht-degree: 13%
 
 ---
 
@@ -24,35 +25,34 @@ Usted y otros usuarios pueden ver sus tareas personales en un informe de tareas 
 
 ## Requisitos de acceso
 
-+++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
-
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront plan*]</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront package]</strong></td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licencia*</strong></td> 
-   <td> <p>[!UICONTROL Work] o superior</p> </td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] licencia</strong></td> 
+   <td> 
+   <p>Estándar</p>
+   <p>Trabajo o superior</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Configuraciones de nivel de acceso*</strong></td> 
-   <td> <p>[!UICONTROL Worker]</p> <p><b>NOTA</b></p> 
-   <p>Si todavía no tiene acceso, pregunte al administrador de [!DNL Workfront] si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de [!DNL Workfront] puede modificar su nivel de acceso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creación o modificación de niveles de acceso personalizados</a>.</p> </td> 
+   <td role="rowheader"><strong>Configuraciones de nivel de acceso</strong></td> 
+   <td> <p>Acceso de visualización o edición para el objeto en el que se encuentra la actualización</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Permisos de objeto</strong></td> 
-   <td> <p>Acceso a [!UICONTROL Edit] o superior en tareas</p> <p>Para obtener información sobre cómo solicitar acceso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a objetos</a>.</p> </td> 
+   <td> <p>Acceso a [!UICONTROL Edit] o superior en tareas</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de [!DNL Workfront].
+Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

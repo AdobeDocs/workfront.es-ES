@@ -6,10 +6,10 @@ description: Puedes acceder a [!DNL Adobe Workfront] desde [!DNL Microsoft Teams
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: a12277e8-2c2e-4b53-990f-6ee9a6541492
-source-git-commit: 940cbfb34f12eacd5ba698f60fb7a3e67eb62b22
+source-git-commit: 4cf780aa1b1221cd6ff8e6ce58fbb7d3621f7fa9
 workflow-type: tm+mt
-source-wordcount: '549'
-ht-degree: 81%
+source-wordcount: '516'
+ht-degree: 80%
 
 ---
 
@@ -43,27 +43,23 @@ Los comandos que utiliza desde [!DNL Microsoft Teams] para realizar estas accion
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
+   <td role="rowheader">paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licencia*</td> 
-   <td> <p>Nuevo: [!UICONTROL Standard]</p>
-   <p>Actual: [!UICONTROL Work], [!UICONTROL Plan]</p> </td> 
+   <td role="rowheader">Licencia de Adobe Workfront</td> 
+   <td> <p>Estándar</p>
+   <p>Trabajo o superior</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de [!DNL Workfront].
-
-*Para obtener más información sobre los requisitos de acceso de Workfront, consulte [Información general sobre los requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

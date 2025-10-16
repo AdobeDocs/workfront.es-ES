@@ -7,10 +7,10 @@ description: Puede crear una carpeta vinculada a Experience Manager Assets o a A
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: eb2b3b21-bc0b-45d3-85fa-1715cf927cb7
-source-git-commit: e9c6a01e80d34bc873c9a06ae0782dc65afb2445
+source-git-commit: 430751f0e38c6c45145c965398990ee3652f36fe
 workflow-type: tm+mt
-source-wordcount: '439'
-ht-degree: 89%
+source-wordcount: '436'
+ht-degree: 87%
 
 ---
 
@@ -24,23 +24,23 @@ Si se elimina o mueve un recurso de una carpeta vinculada dentro de Experience M
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
-Debe tener lo siguiente:
-
 <table>
   <tr>
-   <td><strong>Plan* de Adobe Workfront</strong>
+   <td><strong>paquete de Adobe Workfront</strong>
    </td>
    <td>Cualquiera
    </td>
   </tr>
   <tr>
-   <td><strong>Licencias* de Adobe Workfront</strong>
+   <td><strong>licencias de Adobe Workfront</strong>
    </td>
-   <td>Plan
+   <td>
+   <p>Estándar</p>
+   <p>Plan</p>
    </td>
   </tr>
   <tr>
-   <td><strong>Producto</strong>
+   <td><strong>Productos adicionales</strong>
    </td>
    <td>Debe tener Experience Manager Assets as a Cloud Service o Assets Essentials y se le debe añadir al producto como usuario.
    </td>
@@ -59,8 +59,7 @@ Debe tener lo siguiente:
   </tr>
 </table>
 
-
-*Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su administrador de Workfront.
+Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

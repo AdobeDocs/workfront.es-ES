@@ -6,10 +6,10 @@ description: Con un flujo de trabajo básico, puede asignar varios revisores a u
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 4f5d0c0e-e070-4f32-89c4-3b511a3b7fdc
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: ac714bd5a5259d6f995ac445efbd0125e07022cb
 workflow-type: tm+mt
-source-wordcount: '1858'
-ht-degree: 73%
+source-wordcount: '1793'
+ht-degree: 72%
 
 ---
 
@@ -23,24 +23,21 @@ Con un flujo de trabajo básico, puede asignar varios revisores a una prueba, pe
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Plan de Adobe Workfront*</td> 
+   <td role="rowheader">paquete de Adobe Workfront</td> 
    <td>
-   <p>Nuevo: cualquiera</p>
-    <p>Plan actual: Pro o superior</p>
-   <p>Plan heredado: Select o superior</p> <p>Para obtener más información sobre el acceso de revisión en los diferentes planes, consulte <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Acceso a la funcionalidad de revisión en Workfront</a>.</p> </td> 
+   <p>Cualquiera</p>
+    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licencia de Adobe Workfront</td> 
    <td>
-   <p>Nuevo: estándar</p>
-    <p>Actual: Trabajo o Plan</p> <p>Plan heredado: cualquiera (debe tener la revisión habilitada para el usuario)</p> </td> 
+   <p>Estándar</p>
+    <p>Trabajo o plan</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Perfil de permiso de prueba </td> 
@@ -53,7 +50,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  </tbody> 
 </table>
 
-&#42;Para saber qué plan, función o perfil de permiso de prueba tiene, póngase en contacto con su administrador de Workfront o de Workfront Proof.
+Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -321,7 +318,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
      </tr> 
      <tr> 
       <td role="rowheader">Descargar archivo original</td> 
-      <td>Cuando se selecciona esta opción, los revisores pueden descargar el archivo original desde el que se creó la prueba.<br>Cuando esta opción no está seleccionada, el icono Descargar ya no es visible.<br>Esta opción está desactivada de forma predeterminada.</td> 
+      <td>Cuando se selecciona esta opción, los revisores pueden descargar el archivo original desde el que se creó la prueba.<br>Cuando esta opción no está seleccionada, el icono Descargar ya no es visible.<br>Esta opción está deshabilitada de forma predeterminada.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Permitir que se comparta la prueba mediante una dirección URL pública o código incrustado</td> 

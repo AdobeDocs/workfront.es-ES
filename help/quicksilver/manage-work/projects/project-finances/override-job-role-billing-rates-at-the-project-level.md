@@ -6,10 +6,10 @@ description: Como gerente del proyecto, puede especificar cuál es la tarifa de 
 author: Lisa
 feature: Work Management
 exl-id: b7a33459-6929-4611-8546-06ca979e5dbe
-source-git-commit: 4b2bf1205951de13cb09d31f54f890a74bdf7d98
+source-git-commit: 18c39c5b1959c31b6fd0018476b48643b4b15021
 workflow-type: tm+mt
-source-wordcount: '898'
-ht-degree: 32%
+source-wordcount: '875'
+ht-degree: 30%
 
 ---
 
@@ -33,35 +33,32 @@ Para obtener más información sobre qué rol se usa para calcular los ingresos 
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Plan de Adobe Workfront</td> 
+   <td>paquete de Adobe Workfront</td> 
    <td>Cualquiera</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licencia de Adobe Workfront</td> 
+   <td>Licencia de Adobe Workfront</td> 
    <td>
-   <p>Nuevo: estándar</p>
-   <p>o</p>
-   <p>Actual: plan</p></td> 
+   <p>Estándar</p>
+   <p>Plan</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraciones de nivel de acceso</td> 
+   <td>Configuraciones de nivel de acceso</td> 
    <td> <p>Acceso de edición a proyectos y datos financieros</p> <p>Acceso administrativo para funciones del puesto</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Permisos de objeto</td> 
+   <td>Permisos de objeto</td> 
    <td>Administrar permisos para el proyecto que incluye Editar datos financieros </td> 
   </tr> 
  </tbody> 
 </table>
 
-Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

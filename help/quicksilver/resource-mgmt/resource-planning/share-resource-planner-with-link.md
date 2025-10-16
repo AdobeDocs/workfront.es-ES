@@ -2,20 +2,20 @@
 product-area: resource-management
 navigation-topic: resource-planning
 title: Compartir la vista de usuario del Planificador de recursos con un vínculo
-description: Adobe Workfront puede generar una URL única para la vista de usuario del planificador de recursos, que puedes incorporar en un panel como una página externa o abrirla por separado en una nueva pestaña del explorador. Esto resulta útil cuando se comparte la información del Planificador de recursos con usuarios que podrían no tener acceso directo al área de Recursos.
+description: Adobe Workfront puede generar una URL única para la vista de usuario del planificador de recursos, que puedes incrustar en un panel de control como una página externa o abrirla por separado en una nueva pestaña del explorador. Esto resulta útil cuando se comparte la información del Planificador de recursos con usuarios que podrían no tener acceso directo al área de Recursos.
 author: Lisa
 feature: Resource Management
 exl-id: feb2ec26-f1a6-4581-9e1d-be948a2170c3
-source-git-commit: af0f1b9baef20c5910b13a52207531887a8524c5
+source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
 workflow-type: tm+mt
-source-wordcount: '666'
+source-wordcount: '637'
 ht-degree: 95%
 
 ---
 
 # Compartir la vista de usuario del Planificador de recursos con un vínculo
 
-Adobe Workfront puede generar una URL única para la vista de usuario del planificador de recursos, que puedes incorporar en un panel como una página externa o abrirla por separado en una nueva pestaña del explorador. Esto resulta útil cuando se comparte la información del Planificador de recursos con usuarios que podrían no tener acceso directo al área de Recursos.
+Adobe Workfront puede generar una URL única para la vista de usuario del planificador de recursos, que puedes incrustar en un panel de control como una página externa o abrirla por separado en una nueva pestaña del explorador. Esto resulta útil cuando se comparte la información del Planificador de recursos con usuarios que podrían no tener acceso directo al área de Recursos.
 
 ![Vista de usuario con vínculo](assets/rp-user-view-with-link-highlight-350x49.png)
 
@@ -23,36 +23,32 @@ Adobe Workfront puede generar una URL única para la vista de usuario del planif
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Plan de Adobe Workfront</td> 
-    <td><p>Nuevo: cualquiera</p>
-       <p>o</p>
-       <p>Actual: pro o superior</p> </td> 
+  <tr> 
+   <td>paquete de Adobe Workfront</td> 
+   <td><p>Cualquiera</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Licencia de Adobe Workfront</td> 
-   <td><p>Nuevo: estándar</p>
-       <p>o</p>
-       <p>Actual: plan</p></td> 
+   <td>Licencia de Adobe Workfront</td> 
+   <td><p>Estándar</p>
+       <p>Plan</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraciones de nivel de acceso</td> 
+   <td>Configuraciones de nivel de acceso</td> 
    <td> <p>Acceso de visualización o superior a Administración de recursos, Proyectos y Usuarios</p> <p>Ver acceso a datos financieros para ver información de costes</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Permisos de objeto</td> 
+   <td>Permisos de objeto</td> 
    <td> <p>Ver los permisos superiores a los proyectos que desea mostrar en el planificador de recursos</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -94,7 +90,7 @@ Para obtener una dirección URL única en la vista de usuario del Planificador d
 
    * Pegue la dirección URL en otra aplicación para enviarla a otro usuario.\
      El usuario debe iniciar sesión en Workfront para ver el Planificador de recursos en la vista de usuario.
-   * Abra una nueva pestaña o ventana del navegador y pegue el vínculo que copió, luego presione intro en tu teclado para abrir el Planificador de recursos en una nueva pestaña o ventana.
+   * Abra una nueva pestaña o ventana del navegador y pegue el vínculo que copió, luego haga clic en Intro en tu teclado para abrir el Planificador de recursos en una nueva pestaña o ventana.
    * Haga lo siguiente:
 
      <!--   
@@ -103,14 +99,14 @@ Para obtener una dirección URL única en la vista de usuario del Planificador d
      </MadCap:conditionalText>   
      -->
 
-      1. Vaya a **Informes**>**Paneles**>**Nuevo panel**>**Añadir página externa.**
+      1. Vaya a **Informes**>**Paneles de control**>**Nuevo panel de control**>**Añadir página externa.**
 
       1. Pegue el vínculo que ha copiado en el portapapeles en el campo **URL**.
       1. Haga clic en **Guardar**, luego en **Guardar + Cerrar**.\
-         Esto incrusta la dirección URL en el panel y la vista de usuario del Planificador de recursos se muestra en un panel independiente.
+         Esto incrusta la dirección URL en el panel de control y la vista de usuario del Planificador de recursos se muestra en un panel de control independiente.
 
-1. (Opcional) Si incrustaste la URL en un panel, considera añadirla a una plantilla de diseño o compartirla con otros usuarios que podrían no tener acceso al área de Gestión de Recursos.\
+1. (Opcional) Si incrustaste la URL en un panel de control, considera añadirla a una plantilla de diseño o compartirla con otros usuarios que podrían no tener acceso al área de Gestión de Recursos.\
    Para obtener información sobre cómo añadir tableros a una plantilla de diseño, consulte [Crear y administrar plantillas de diseño](../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).\
-   Para obtener información acerca de cómo compartir paneles, consulte [Compartir un panel](../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/share-dashboard.md).\
+   Para obtener información acerca de cómo compartir paneles de control, consulte [Compartir un panel de control](../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/share-dashboard.md).\
    Al ver la dirección URL compartida, los usuarios pueden ver la información con la configuración que aplicó originalmente al Planificador de recursos. Deben iniciar sesión en Workfront para ver la URL compartida.\
    ![Panel de muestra con el Planificador de recursos mostrado](assets/user-view-dashoard-from-unique-url-350x85.png)

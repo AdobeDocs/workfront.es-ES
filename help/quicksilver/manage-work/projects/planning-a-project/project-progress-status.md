@@ -2,15 +2,15 @@
 content-type: overview
 product-area: projects
 navigation-topic: plan-a-project
-title: Información general sobre el estado de progreso del proyecto
+title: Resumen del estado del progreso del proyecto
 description: Adobe Workfront determina el estado de progreso de un proyecto mirando la progresión del proyecto en su línea de tiempo. Puede configurar Workfront para determinar la condición de un proyecto en función del valor de estado de progreso de las tareas. Obtenga más información acerca del estado del progreso del proyecto en este artículo.
 author: Alina
 feature: Work Management
 exl-id: 922ca4cf-c526-4704-9966-de67b0c36a2a
-source-git-commit: d85ccb9dbef343ecc8808412e89264b3ea6ab25e
+source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
 workflow-type: tm+mt
 source-wordcount: '390'
-ht-degree: 95%
+ht-degree: 94%
 
 ---
 

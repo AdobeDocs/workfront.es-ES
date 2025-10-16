@@ -6,9 +6,9 @@ description: Utilice el Distribuidor de cargas de trabajo para comprender la dis
 author: Lisa
 feature: Resource Management
 exl-id: 60dabfc5-6a2e-4368-9dac-db48d0307895
-source-git-commit: a63c53652491a25b909b7563990d4375d8f5885f
+source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
 workflow-type: tm+mt
-source-wordcount: '4371'
+source-wordcount: '4348'
 ht-degree: 8%
 
 ---
@@ -23,31 +23,27 @@ Utilice el Distribuidor de cargas de trabajo en Adobe Workfront para asignar tra
 
 El Distribuidor de cargas de trabajo está disponible en varias áreas de Adobe Workfront. La navegación es similar en todas las áreas.
 
-Para obtener más información sobre dónde se encuentra el Distribuidor de cargas de trabajo, consulte [Localizar el Distribuidor de cargas de trabajo](https://experienceleague.adobe.com/es/docs/workfront/using/manage-resources/the-workload-balancer/locate-workload-balancer).
+Para obtener más información sobre dónde se encuentra el Distribuidor de cargas de trabajo, consulte [Localizar el Distribuidor de cargas de trabajo](https://experienceleague.adobe.com/en/docs/workfront/using/manage-resources/the-workload-balancer/locate-workload-balancer).
 
 ## Requisitos de acceso
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
-
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Plan de Adobe Workfront</td> 
-   <td> <p>Cualquiera </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Licencia de Adobe Workfront</td> 
-   <td><p>Nuevo: estándar</p>
-       <p>o</p>
-       <p>Actual: Planificar, al usar el Distribuidor de cargas de trabajo en el área de Recursos;</br>
-       Trabaje con el Distribuidor de cargas de trabajo de un equipo o proyecto</p></td>
+   <td>paquete de Adobe Workfront</td> 
+   <td><p>Cualquiera</p></td>
   </tr>
   <tr> 
-   <td role="rowheader">Configuraciones de nivel de acceso</td> 
+   <td>Licencia de Adobe Workfront</td> 
+   <td><p>Estándar</p>
+       <p>Planificar, al utilizar el Distribuidor de cargas de trabajo en el área de Recursos; Trabajar, al utilizar el Distribuidor de cargas de trabajo de un equipo o proyecto</p></td>
+  </tr>
+  <tr> 
+   <td>Configuraciones de nivel de acceso</td> 
    <td> <p>Acceso de visualización o superior a lo siguiente:</p> 
     <ul> 
      <li>Administración de recursos</li> 
@@ -58,13 +54,13 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Permisos de objeto</td> 
+   <td>Permisos de objeto</td> 
    <td>Ver o permisos superiores en los proyectos, tareas y problemas</td> 
   </tr> 
  </tbody> 
 </table>
 
-Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -109,8 +105,8 @@ Para obtener más información sobre la visualización de información en el Dis
 
 Para obtener información sobre la administración de recursos mediante el Distribuidor de cargas de trabajo, consulte también los siguientes artículos:
 
-* [Información general sobre la asignación de trabajo en el Distribuidor de cargas de trabajo](https://experienceleague.adobe.com/es/docs/workfront/using/manage-resources/the-workload-balancer/assign-work-in-workload-balancer)
-* [Administrar asignaciones de usuario en el Distribuidor de cargas de trabajo](https://experienceleague.adobe.com/es/docs/workfront/using/manage-resources/the-workload-balancer/manage-user-allocations-workload-balancer)
+* [Información general sobre la asignación de trabajo en el Distribuidor de cargas de trabajo](https://experienceleague.adobe.com/en/docs/workfront/using/manage-resources/the-workload-balancer/assign-work-in-workload-balancer)
+* [Administrar asignaciones de usuario en el Distribuidor de cargas de trabajo](https://experienceleague.adobe.com/en/docs/workfront/using/manage-resources/the-workload-balancer/manage-user-allocations-workload-balancer)
 
 
 ## Vaya al Distribuidor de cargas de trabajo para varios proyectos en el área de Recursos
@@ -265,7 +261,7 @@ El área de Trabajo no asignado no muestra ningún elemento de trabajo de forma 
      >
      >Tenga en cuenta que los elementos de trabajo se muestran en el Distribuidor de cargas de trabajo cuando sus escalas de tiempo planificadas o proyectadas (no necesariamente ambas al mismo tiempo) se producen durante el lapso de tiempo seleccionado.
 
-   * **Mostrar trabajo completado**: cuando esté habilitado, las tareas y problemas completados se mostrarán en el área Trabajo asignado. Esta opción está activada de forma predeterminada.
+   * **Mostrar trabajo completado**: cuando esté habilitado, las tareas y problemas completados se mostrarán en el área Trabajo asignado. Esta opción está habilitada de forma predeterminada.
 
      Cuando se completan, aparece un icono de marca de verificación verde en la esquina superior derecha de una tarea o barra de problemas. El mismo icono se muestra para un proyecto cuando se completan las tareas o problemas del lapso de tiempo seleccionado.
    * **Mostrar tiempo restante**: cuando está habilitada, Workfront muestra la diferencia entre el tiempo diario durante el cual el usuario está disponible para trabajar en función de sus programaciones y las horas para las que está asignado en el área Trabajo asignado para los usuarios. Esta opción está desactivada de forma predeterminada y el tiempo asignado se muestra de forma predeterminada.

@@ -2,15 +2,15 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Agrupación: Proyectos por fecha de entrada"
+title: 'Agrupación: Proyectos por fecha de entrada'
 description: En esta agrupación de proyectos personalizada, puede mostrar los proyectos agrupados por sus valores de Fecha de entrada.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 511faad5-b5bd-4e2d-8daa-3fcde49a502c
-source-git-commit: a6874c3a2dfda02b8a25f78056767d8c59c888e9
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '234'
-ht-degree: 0%
+source-wordcount: '220'
+ht-degree: 77%
 
 ---
 
@@ -23,46 +23,39 @@ En esta agrupación de proyectos personalizada, puede mostrar los proyectos agru
 Cada agrupación muestra los proyectos con una fecha de entrada en:
 
 * Los últimos 30 días
-* 30 a 60 días
+* entre 30 y 60 días
 * 60 días o más
 
 ## Requisitos de acceso
 
-+++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
-
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plan de Adobe Workfront</td> 
+   <td role="rowheader">paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licencia de Adobe Workfront*</td> 
+   <td role="rowheader">Licencia de Adobe Workfront</td> 
    <td> 
-    <p>Nuevo:</p>
-   <ul><li><p>Colaborador para modificar un filtro </p></li>
-   <li><p>Estándar para modificar un informe</p></li> </ul>
-
-<p>Actual:</p>
-   <ul><li><p>Solicitud para modificar un filtro </p></li>
-   <li><p>Plan para modificar un informe</p></li> </ul></td> 
+   <p>Colaborador o solicitud para modificar un filtro </p>
+   <p>Estándar o Plan para modificar un informe</p>
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso</td> 
-   <td> <p>Editar el acceso a Informes, Tableros y Calendarios para modificar un informe</p> <p>Editar el acceso a filtros, vistas y agrupaciones para modificar un filtro</p> </td> 
+   <td> <p>Editar el acceso a Informes, Paneles de control y Calendarios para modificar un informe</p> <p>Acceso de edición a filtros, vistas y agrupaciones para modificar un filtro</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Administración de permisos de un informe</p>  </td> 
+   <td> <p>Permisos de administración para un informe</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -71,12 +64,12 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 Para aplicar esta agrupación:
 
 1. Vaya a un informe de proyecto existente o cree un nuevo informe de proyecto.\
-   Para obtener más información acerca de cómo crear un informe, vea el artículo [Crear un informe personalizado](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+   Para obtener más información acerca de cómo crear un informe, consulte el artículo [Crear un informe personalizado](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 1. Haga clic en **Acciones de informe** > **Editar**.
-1. En la ficha **Agrupación**, haga clic en **Agregar agrupación**.
-1. Haga clic en **Cambiar al modo de texto**.
+1. En la pestaña **Agrupación**, haga clic en **Añadir agrupación**.
+1. Haga clic en **Cambiar a modo texto**.
 1. Quitar el texto del área **Agrupar por**.
-1. Reemplace el texto con el siguiente código:
+1. Reemplace el texto por el código siguiente :
 
 
    ```

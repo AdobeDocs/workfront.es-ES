@@ -5,10 +5,10 @@ description: Si desea recibir notificaciones por correo electrónico desde el en
 author: Lisa
 feature: Get Started with Workfront
 exl-id: e5c7e387-d08d-42f6-a9e6-f44e514ef902
-source-git-commit: 6a1152bb86a856d60585db7d6ffd43a59a212a72
+source-git-commit: 770e20cf9e32ac9884f5eb320f7067fcf162c63d
 workflow-type: tm+mt
-source-wordcount: '522'
-ht-degree: 95%
+source-wordcount: '463'
+ht-degree: 88%
 
 ---
 
@@ -33,7 +33,7 @@ Puede hacerlo por su cuenta o mediante cualquier usuario al que tenga acceso de 
 
 ## Requisitos de acceso
 
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -42,25 +42,32 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront plan*]</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront package]</strong></td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licencia*</strong></td> 
-   <td> <p>[!UICONTROL Request] o superior para cambiar su propia configuración</p> <p>[!UICONTROL Plan] para editar la configuración para otros usuarios</p> </td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] licencia</strong></td> 
+   <td> 
+   <p>Colaborador o superior para cambiar su propia configuración</p> <p>Estándar para editar la configuración para otros usuarios</p> 
+   O
+   <p> Solicite o superior que cambie su propia configuración</p> <p>Planee editar la configuración para otros usuarios</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Configuraciones de nivel de acceso*</strong></td> 
+   <td role="rowheader"><strong>Configuraciones de nivel de acceso</strong></td> 
    <td> <p>Debe tener uno de los siguientes elementos:</p> 
     <ul> 
-     <li> <p>Nivel de acceso de [!UICONTROL System Administrator].</p> <p> Para obtener información acerca de este nivel de acceso, consulte <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Conceder acceso administrativo completo a un usuario</a>. </p> </li> 
-     <li> <p>En su nivel de acceso, [!UICONTROL Edit] debe estar seleccionado para la configuración [!UICONTROL Users]. Y, para la configuración de [!UICONTROL Users], en [!UICONTROL Fine-tune your settings] <img src="assets/gear-icon-in-access-levels.png"> , la opción [!UICONTROL Create] y al menos una de las dos opciones de [!UICONTROL User Admin] deben estar habilitadas. </p> <p>Si utiliza la opción [!UICONTROL User Admin (Group Users)], debe ser administrador de un grupo del que sea miembro el usuario.</p> <p> <img src="assets/access-req-users-350x101.png" style="width: 350;height: 101;"> </p> <p>Para obtener información acerca de la configuración de [!UICONTROL Users] en un nivel de acceso, consulta <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Conceder acceso a los usuarios</a>.</p> </li> 
-    </ul> <p>Nota: si todavía no tiene acceso, pregunte al administrador de [!DNL Workfront] si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de [!DNL Workfront] puede modificar su nivel de acceso, vea <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
+     <li> <p>Nivel de acceso de [!UICONTROL System Administrator].</p> </li> 
+     <li> <p>En su nivel de acceso, [!UICONTROL Edit] debe estar seleccionado para la configuración [!UICONTROL Users]. Y, para la configuración de [!UICONTROL Users], en [!UICONTROL Fine-tune your settings] <img src="assets/gear-icon-in-access-levels.png"> , la opción [!UICONTROL Create] y al menos una de las dos opciones de [!UICONTROL User Admin] deben estar habilitadas. </li> 
+     <li>Si utiliza la opción [!UICONTROL User Admin (Group Users)], debe ser administrador de un grupo del que sea miembro el usuario.</li> 
+    </ul> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de [!DNL Workfront].
+
+Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Habilitación del envío de correos electrónicos desde el entorno de zona protegida de vista previa
 

@@ -5,9 +5,9 @@ description: La función Project Health utiliza el poder del Asistente de IA par
 author: Jenny
 feature: Get Started with Workfront
 exl-id: e4d200c6-7f35-4919-96d3-2880a655ed62
-source-git-commit: d1ded406b8c4da975e2ff4d6825954cabd483ed2
+source-git-commit: dce36c38a626b4d3799fb1d1f673bdc49d81e274
 workflow-type: tm+mt
-source-wordcount: '1488'
+source-wordcount: '1508'
 ht-degree: 4%
 
 ---
@@ -28,7 +28,8 @@ El Asistente de inteligencia artificial puede generar una evaluación del estado
 
 Para obtener más información sobre el Asistente de IA, consulte [Descripción general del Asistente de IA](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md).
 
-+++ Amplíe para ver los requisitos de acceso. 
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
+
 <table style="table-layout:auto"> 
 <col> 
 </col> 
@@ -36,9 +37,10 @@ Para obtener más información sobre el Asistente de IA, consulte [Descripción 
 </col> 
 <tbody> 
 <tr> 
-   <td role="rowheader"><p>Plan de Adobe Workfront</p></td> 
+   <td role="rowheader"><p>paquete de Adobe Workfront</p></td> 
    <td> 
-<p>Seleccionar, Prime o Ultimate </p> 
+<p>Seleccionar o superior </p> 
+<p>Selección de flujo de trabajo o superior</p>
    </td> 
 <tr> 
  <tr> 
@@ -50,9 +52,9 @@ Para obtener más información sobre el Asistente de IA, consulte [Descripción 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Configuraciones de nivel de acceso</p></td> 
-   <td><p>Administrador para administrar las configuraciones de estado del proyecto </p>
-   <p>Editar para aplicar configuraciones de estado del proyecto </p>
-     <p>Ver para ver las configuraciones de estado del proyecto </p>
+   <td><p>Debe ser administrador del sistema para administrar las configuraciones de estado del proyecto </p>
+   <p>Editar el acceso a los proyectos para aplicar las configuraciones de estado del proyecto </p>
+     <p>Ver el acceso a los proyectos para ver las configuraciones del estado del proyecto </p>
   </td> 
   </tr>  
     </tr>  

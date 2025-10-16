@@ -5,10 +5,10 @@ author: Lisa
 feature: Work Management
 role: User
 exl-id: 97c33c5a-e42d-4015-841f-69dc44a0599d
-source-git-commit: 485f2985c70b1bb095e31323b7b4698bcb7a04cf
+source-git-commit: 23a4d055871c9138818e70fa1cd936581dbd7552
 workflow-type: tm+mt
-source-wordcount: '400'
-ht-degree: 97%
+source-wordcount: '377'
+ht-degree: 93%
 
 ---
 
@@ -34,35 +34,32 @@ Para obtener información general acerca de cómo anular las tarifas de facturac
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Plan de Adobe Workfront</td> 
+   <td>paquete de Adobe Workfront</td> 
    <td>Cualquiera</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licencia de Adobe Workfront</td> 
+   <td>Licencia de Adobe Workfront</td> 
    <td>
-   <p>Nuevo: estándar</p>
-   <p>o</p>
-   <p>Actual: plan</p></td> 
+   <p>Estándar</p>
+   <p>Plan</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraciones de nivel de acceso</td> 
+   <td>Configuraciones de nivel de acceso</td> 
    <td> <p>Acceso de edición a proyectos y datos financieros</p> <p>Acceso administrativo para funciones del puesto</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Permisos de objeto</td> 
-   <td>Permisos de administración para el proyecto con permisos para administrar finanzas </td> 
+   <td>Permisos de objeto</td> 
+   <td>Administrar permisos para el proyecto que incluye Editar datos financieros </td> 
   </tr> 
  </tbody> 
 </table>
 
-Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

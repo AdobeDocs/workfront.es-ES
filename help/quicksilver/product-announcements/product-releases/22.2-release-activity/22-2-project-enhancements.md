@@ -6,10 +6,10 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 43ea91db-d6f2-4218-9261-580a7e5b31d0
-source-git-commit: 8425f8be7d30d36986ac1c062603e680c69902c6
+source-git-commit: 0542587bb3254dec5664de493c1c321528cf7f3e
 workflow-type: tm+mt
-source-wordcount: '1093'
-ht-degree: 63%
+source-wordcount: '1090'
+ht-degree: 62%
 
 ---
 
@@ -120,11 +120,11 @@ Para obtener más información, consulte los siguientes artículos:
 
 ## Mantener a los usuarios en el tablero, la lista o el informe después de convertir el problema en un proyecto
 
-Para aumentar la eficacia y eliminar el número de clics, se publicó una mejora al convertir problemas en proyectos desde una lista, informe o panel.
+Para aumentar la eficacia y eliminar el número de clics, se publicó una mejora al convertir problemas en proyectos desde una lista, informe o panel de control.
 
-Los usuarios permanecen en la lista, informe o panel después de convertir un problema en un proyecto en lugar de ser redirigidos a la página del proyecto. Una vez completada la conversión, se mostrará una notificación de confirmación de éxito con el vínculo al proyecto para permitirle navegar fácilmente al proyecto, si fuera necesario.
+Los usuarios permanecen en la lista, informe o panel de control después de convertir un problema en un proyecto en lugar de ser redirigidos a la página del proyecto. Una vez completada la conversión, se mostrará una notificación de confirmación de éxito con el vínculo al proyecto para permitirle navegar fácilmente al proyecto, si fuera necesario.
 
-Para obtener más información, consulte [Convertir un problema en un proyecto en Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issue-to-project.md).
+Para obtener más información, consulte [Convertir un problema en un proyecto](../../../manage-work/issues/convert-issues/convert-issue-to-project.md).
 
 ## Las horas de asignación ya no se eliminarán al realizar cambios en las asignaciones
 

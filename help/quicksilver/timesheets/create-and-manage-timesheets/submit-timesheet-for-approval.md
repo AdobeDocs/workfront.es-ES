@@ -3,13 +3,13 @@ product-area: timesheets
 navigation-topic: create-and-manage-timesheets
 title: Enviar hoja de horas para su aprobación
 description: Enviar su hoja de horas para su aprobación le da a su gerente visibilidad de sus horas de trabajo. Los aprobadores pueden verificar que todo el tiempo registrado se ha asignado en las áreas correctas y que se ha registrado un número suficiente de horas para el período de tiempo.
-author: Alina
+author: Lisa
 feature: Timesheets
 exl-id: 253e20c8-58f8-4b23-a769-b0e36557066a
-source-git-commit: 9debb7c6d9df0f9f4962f3e66f146e5f605d20f0
+source-git-commit: 69cd5fb1d089b81b7a1673609b92537137b6b68e
 workflow-type: tm+mt
-source-wordcount: '855'
-ht-degree: 0%
+source-wordcount: '839'
+ht-degree: 33%
 
 ---
 
@@ -23,39 +23,37 @@ Enviar su hoja de horas para su aprobación le da a su gerente visibilidad de su
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plan de Adobe Workfront</td> 
+   <td>paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licencia de Adobe Workfront*</td> 
-   <td> <p>Nuevo: claro o superior </p>
-   <p>Actual: revisar o superior </p>
+   <td>Licencia de Adobe Workfront</td> 
+   <td> <p>Ligero o superior </p>
+   <p>Revisión o superior </p>
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraciones de nivel de acceso</td> 
-   <td> <p>Ver o acceso superior a tareas y problemas </p> </td> 
+   <td>Configuraciones de nivel de acceso</td> 
+   <td> <p>Acceso de visualización o superior a tareas y problemas </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Permisos de objeto</td> 
+   <td>Permisos de objeto</td> 
    <td> <p>Ver los permisos o superiores de la plantilla de horas</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Enviar hoja de horas para su aprobación
 
-* [Enviar hoja de horas para su aprobación](#submit-a-timesheet-for-approval)
+* [Enviar plantilla de horas para su aprobación](#submit-a-timesheet-for-approval)
 * [Ver el estado de una hoja de horas enviada](#view-the-status-of-a-submitted-timesheet)
 
 ### Enviar hoja de horas para su aprobación
@@ -89,28 +87,28 @@ Sin estas notificaciones, puede obtener más información sobre el estado de las
 
 Para ver el estado de una plantilla de horas:
 
-1. Haga clic en el icono **Menú principal** ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront.
-1. Haga clic en **Plantillas de horas**. El filtro **Todos** está seleccionado de manera predeterminada.
+1. Haga clic en el icono de **Menú principal** ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront.
+1. Haga clic en **Plantilla de horas**. El filtro **Todos** está seleccionado de manera predeterminada.
 
    ![](assets/timesheet-list-one-timesheet-selected-nwe-350x70.png)
 
 1. (Opcional) Realice una de las siguientes acciones para actualizar el filtro en la lista de plantillas de horas:
 
-   * Seleccione **Mis aprobaciones de hojas de horas** en la esquina superior derecha de la página para ver solamente las hojas de horas que usted apruebe
+   * Seleccione **Aprobaciones de Mis plantillas de horas** en la esquina superior derecha de la página para ver solamente las plantillas de horas que usted apruebe
 
      O
 
-     Seleccione **Mis hojas de horas** para ver solamente sus hojas de horas.
+     Seleccione **Mis plantillas de horas** para ver solamente sus plantillas de horas.
 
-     Esto aplica los filtros Mis aprobaciones de hojas de horas o Mis hojas de horas a la lista de hojas de horas.
+     Esto es válido para los filtros Aprobaciones de Mis hojas de horas o de Mis hojas de horas a la lista de hojas de horas.
 
      ![](assets/my-timesheet-approvals-my-timesheets-pills-on-timesheets-list-nwe-350x58.png)
 
-   * Haga clic en el icono Filtro ![](assets/filter-nwepng.png) para aplicar un filtro diferente o crear uno nuevo. Para obtener información sobre cómo crear o actualizar filtros, consulte [Crear o editar filtros en Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-filters.md).
+   * Haga clic en el icono de Filtro ![](assets/filter-nwepng.png) para aplicar un filtro diferente o crear uno nuevo. Para obtener información sobre cómo crear o actualizar filtros, consulte [Crear o editar filtros en Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-filters.md).
 
    >[!NOTE]
    >
-   >Las opciones Mis aprobaciones de hojas de horas y Mis hojas de horas no se muestran en la parte superior de la lista de hojas de horas ni en la lista de filtros si el administrador de Workfront o de un grupo ha eliminado los filtros Mis aprobaciones de hojas de horas y Mis hojas de horas de los controles de Lista en el área Configuración o de la plantilla Diseño. Para obtener más información, consulte los siguientes artículos:
+   >Las opciones Aprobaciones de Mis hojas de horas y Mis hojas de horas no se muestran en la parte superior de la lista de hojas de horas ni en la lista de filtros si su administrador de Workfront o su administrador de grupos ha eliminado los filtros Aprobaciones de Mis hojas de horas y Mis hojas de horas de Controles de Lista en el área Configuración o de la Plantilla de diseño. Para obtener más información, consulte los siguientes artículos:
    >
    >   
    >   
@@ -136,7 +134,7 @@ Para ver el estado de una plantilla de horas:
      </tr> 
      <tr> 
       <td role="rowheader">Cerrado</td> 
-      <td> <p>Existen los siguientes escenarios:</p> 
+      <td> <p>Se dan los siguientes escenarios:</p> 
        <ul> 
         <li> <p>Si la plantilla de horas no tiene aprobador, ha guardado el tiempo y lo ha cerrado.</p> </li> 
         <li> <p>Si la hoja de horas tiene un aprobador, la ha enviado para su aprobación y se ha aprobado.</p> </li> 

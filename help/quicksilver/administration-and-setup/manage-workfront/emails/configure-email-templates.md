@@ -8,9 +8,9 @@ author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 2ebc3be5-2734-4012-9277-86176c070137
-source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
+source-git-commit: e34abb5ff1068de99eaba33dc95287164e556742
 workflow-type: tm+mt
-source-wordcount: '828'
+source-wordcount: '808'
 ht-degree: 98%
 
 ---
@@ -32,21 +32,18 @@ Las plantillas de correo electrónico se pueden asociar con notificaciones de re
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Plan de Adobe Workfront</td> 
+   <td role="rowheader">paquete de Adobe Workfront</td> 
    <td>Cualquiera</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licencia de Adobe Workfront*</td> 
-   <td><p>Nuevo: estándar</p>
-   O
-   <p>Actual: plan</p>
+   <td role="rowheader">Licencia de Adobe Workfront</td> 
+   <td><p>Estándar</p>
+   <p>Plan</p>
    </td> 
   </tr> 
   <tr> 
@@ -56,7 +53,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  </tbody> 
 </table>
 
-*Para obtener más información sobre los requisitos de acceso, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -93,7 +90,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
    </tr>
      <tr> 
       <td role="rowheader">Descripción</td> 
-      <td>Añada más información sobre la plantilla de correo electrónico, su propósito y la audiencia a la que va dirigida.</td> 
+      <td>Añada más información sobre la plantilla de correo electrónico, su propósito y el público al que va dirigido.</td> 
      </tr>
 
    <tr> 

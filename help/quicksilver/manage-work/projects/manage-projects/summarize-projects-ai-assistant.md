@@ -6,10 +6,10 @@ description: El encabezado del proyecto incluye un botón que utiliza el Ayudant
 author: Becky
 feature: Get Started with Workfront
 exl-id: e0ac2a50-a75b-4453-8edf-850b8de74327
-source-git-commit: 769cacc12f35b019f8c97c243681f4adb3a3c0c9
+source-git-commit: a24180f95c89c76605eaa735467a791102254645
 workflow-type: tm+mt
-source-wordcount: '367'
-ht-degree: 1%
+source-wordcount: '356'
+ht-degree: 16%
 
 ---
 
@@ -27,35 +27,31 @@ Puede utilizar el botón Resumen del proyecto para generar un resumen o puede in
 
 ## Requisitos de acceso
 
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plan de Adobe Workfront</td> 
-   <td><p>Nuevo: Cualquiera</p>
-       <p>o</p>
-       <p>Actual: no disponible</p></td>
+   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td><p>Cualquiera</p>
   </tr> 
   <tr> 
    <td role="rowheader">Licencia de Adobe Workfront</td> 
-   <td><p>Nuevo: estándar</p>
-       <p>o</p>
-       <p>Actual: no disponible</p></td>
+   <td><p>Estándar</p>
   </tr> 
   <tr> 
-   <td role="rowheader">Licencia de Adobe Workfront</td> 
-   <td><p>Nuevo: estándar</p>
-       <p>o</p>
-       <p>Actual: no disponible</p></td>
+   <td role="rowheader">Permisos de objeto</td> 
+   <td><p>Debe tener acceso de visualización en el proyecto</p>
   </tr> 
  </tbody> 
  </tbody> 
 </table>
 
 Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Requisitos previos
 
@@ -64,7 +60,7 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
   Para obtener más información, consulte [Requisitos previos para el asistente de IA](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant) en el artículo Información general del asistente de IA.
 * El administrador de Workfront debe haber habilitado el asistente de IA para su nivel de acceso.
 
-  Para obtener más información, consulte [Habilitar o deshabilitar el Asistente para IA](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md).
+  Para obtener más información, consulte [Habilitar o deshabilitar el asistente de IA](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md).
 
 
 
@@ -85,7 +81,7 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
 Para ver un resumen de un objeto:
 
 1. Desplácese hasta el objeto para el que desee ver un resumen.
-1. Haga clic en el icono **Asistente de IA** ![Icono del Asistente de IA](assets/ai-assistant-icon.png) cerca de la esquina superior derecha de la pantalla.
+1. Haga clic en el icono **Asistente de IA** ![icono Asistente de IA](assets/ai-assistant-icon.png) cerca de la esquina superior derecha de la pantalla.
 1. En el panel Asistente de IA, introduzca un mensaje de solicitud como:
 
    * Proporcione un resumen en tres frases

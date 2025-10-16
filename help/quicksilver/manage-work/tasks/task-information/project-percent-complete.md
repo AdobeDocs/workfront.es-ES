@@ -2,15 +2,15 @@
 content-type: overview
 product-area: projects
 navigation-topic: task-information
-title: Información general de porcentaje completado del proyecto
+title: Resumen de porcentaje completado del proyecto
 description: El valor de porcentaje completado de un proyecto se calcula en función de la duración planificada o de las horas planificadas de las tareas del proyecto. El administrador de Adobe Workfront o de un grupo define qué valor se tiene en cuenta al calcular el porcentaje completado en el sistema cuando configuran información en el área Preferencias del proyecto. Para obtener información sobre la configuración de preferencias de proyecto, consulte Configuración de preferencias de proyecto para todo el sistema.
 author: Alina
 feature: Work Management
 exl-id: d2395569-9fe5-42e7-a392-cff49eb519d9
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
 workflow-type: tm+mt
 source-wordcount: '778'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 

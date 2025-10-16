@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 94603393-bdea-4673-9256-08da14f6916e
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: 17aaf70977aa6ce0276676c6a30fd6c951be956c
 workflow-type: tm+mt
-source-wordcount: '905'
-ht-degree: 98%
+source-wordcount: '881'
+ht-degree: 97%
 
 ---
 
@@ -59,32 +59,27 @@ También puede cambiar la imagen de fondo y el color de la pantalla de inicio de
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Plan de Adobe Workfront</td> 
-   <td>Cualquiera</td> 
+   <td>paquete de Adobe Workfront</td> 
+   <td><p>Cualquiera</p></td> 
   </tr> 
   <tr> 
-  <tr> 
-   <td role="rowheader">Licencia de Adobe Workfront</td> 
-   <td><p>Nuevo: estándar</p>
-       <p>O</p>
-       <p>Actual: plan</p></td>
-  </tr> 
+   <td>Licencia de Adobe Workfront</td> 
+   <td><p>Estándar</p>
+       <p>Plan</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraciones de nivel de acceso</td> 
-   <td>[!UICONTROL System Administrator]</td>
+   <td>Configuraciones de nivel de acceso</td> 
+   <td>Administrador del sistema</td> 
   </tr> 
  </tbody> 
 </table>
 
-Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -121,7 +116,7 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
       <td> 
        <ol style="list-style-type: lower-alpha;"> 
         <li value="1"> <p> En el área de <strong>Pantalla de inicio de sesión</strong>, en <strong>Imagen de fondo</strong>, haga clic en el cuadro y, a continuación, busque y seleccione su imagen o imágenes de JPG o PNG (hasta 20). </p> <p>Se muestran varias imágenes de fondo en orden aleatorio, que cambian cada vez que los usuarios actualizan su página de inicio de sesión. Recomendamos imágenes de no más de 2 MB.</p> </li> 
-        <li value="2"> <p>Pase el ratón sobre cada imagen de fondo que haya cargado, haga clic en el icono de Configuración (engranaje) y utilice cualquiera de las siguientes opciones para especificar dónde y cómo desea que aparezca la imagen en el fondo de la pantalla de inicio de sesión:</p> 
+        <li value="2"> <p>Pase el puntero por encima de cada imagen de fondo que haya cargado, haga clic en el icono de Configuración (engranaje) y utilice cualquiera de las siguientes opciones para especificar dónde y cómo desea que aparezca la imagen en el fondo de la pantalla de inicio de sesión:</p> 
          <ul> 
           <li> <p><strong>Llenar pantalla</strong>: ajusta la imagen al fondo de la pantalla de inicio de sesión, lo que puede aumentar el tamaño de la imagen. Utilice una imagen de alta resolución (hasta 2 MB) para obtener los mejores resultados.</p> <p>Al utilizar esta opción, el banner de Workfront, que no se puede personalizar, oscurece parte de la imagen.</p> </li> 
           <li> <p><strong>Mosaico</strong>: coloca la imagen en mosaico en el área de fondo de la pantalla de inicio de sesión, en su tamaño original. Esto resulta útil para crear un patrón. Seleccione una opción de alineación azul para iniciar el mosaico desde la esquina superior izquierda, superior central o superior derecha del área de fondo.</p> </li> 

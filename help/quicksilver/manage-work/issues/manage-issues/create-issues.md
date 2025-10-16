@@ -8,16 +8,16 @@ feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 2a4488fb-fe2f-422a-887c-996f6367afc5
-source-git-commit: 609396b2eb6413c8f6e84361757f00c2cc5e3ad6
+source-git-commit: 0542587bb3254dec5664de493c1c321528cf7f3e
 workflow-type: tm+mt
-source-wordcount: '1477'
+source-wordcount: '1461'
 ht-degree: 89%
 
 ---
 
 # Crear problemas
 
-<!--Audited: 03/2025-->
+<!--Audited: 08/2025-->
 
 <!--
 
@@ -41,23 +41,21 @@ También puede añadir problemas a proyectos como solicitudes. Para obtener más
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Plan de Adobe Workfront</td> 
+   <td role="rowheader">paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licencia de Adobe Workfront*</td> 
-   <td> <p>Nueva licencia:</p>
+   <td role="rowheader">Licencia de Adobe Workfront</td> 
+   <td>
    <ul><li>Colaborador o superior</li>
    <li>Ligero o superior para editar problemas en la sección Problemas de una tarea o proyecto</li></ul>
-   <p>Licencia actual:</p>
-  <ul><li>Solicitud o superior</li> <li>Revise o superior para editar problemas en la sección Problemas de una tarea o proyecto</li></ul> </td> 
+   O
+   <ul><li>Solicitud o superior</li> <li>Revise o superior para editar problemas en la sección Problemas de una tarea o proyecto</li></ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso</td> 
@@ -73,6 +71,37 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 *Para obtener información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>New license:</p>
+   <ul><li>Contributor or higher</li>
+   <li>Light or higher to edit issues in the Issues section of a task or project</li></ul>
+   <p>Current license:</p>
+  <ul><li>Request or higher</li> <li>Review or higher to edit issues in the Issues section of a task or a project</li></ul> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>Edit access to Issues</p> <p>View or higher access to Projects and Tasks</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>Contribute or higher permissions with ability to Add Issues to the task or project where you create the issue</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). -->
 
 <!--
 (NOTE: in NWE Requestors CAN see the Issues tab on a project but in classic they cannot! However, even when they DO see it, they cannot enter the issues - logged this issue for it but they might decide not to fix it: https://hub.workfront.com/issue/60181e28000058980cce29597185b2d6/updates?email-source=comm)</p>

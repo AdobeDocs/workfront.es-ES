@@ -2,12 +2,12 @@
 navigation-topic: business-case-and-scorecards
 title: Presupuestar recursos en el caso empresarial con el Scenario Planner
 description: Como parte de la planificación de recursos, puede utilizar el Planificador de escenarios de Adobe Workfront para presupuestar las funciones de trabajo necesarias para completar el trabajo en un proyecto al crear el caso empresarial.
-author: Alina
+author: Becky
 feature: Work Management
 exl-id: d5f3e348-dc7d-4265-a5ce-8eef152db410
-source-git-commit: 14b6b9c4a184131cfdc33b6156c578218ed9119a
+source-git-commit: fa0b4322b9f7c1d506cf194645c7ae50ad8c0f0b
 workflow-type: tm+mt
-source-wordcount: '964'
+source-wordcount: '959'
 ht-degree: 19%
 
 ---
@@ -35,7 +35,7 @@ También puede presupuestar recursos en el caso comercial utilizando el Planific
 
 ## Requisitos de acceso
 
-+++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -44,14 +44,13 @@ También puede presupuestar recursos en el caso comercial utilizando el Planific
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><p>Plan de Adobe Workfront*</p></td> 
-   <td><p>Actual: Ultimate</p> 
-   <p>Heredado: Empresa o superior</p> </td> 
+   <td role="rowheader"><p>paquete de Adobe Workfront</p></td> 
+   <td><p>Prime o superior</p> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Licencia de Adobe Workfront*</p></td> 
-   <td><p>Actual: Ligero o superior 
-   <p>Heredado: revisión o superior</p> </td> 
+   <td><p>Ligero o superior 
+   <p>Revisión o superior</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Producto</p></td> 

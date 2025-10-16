@@ -8,9 +8,9 @@ feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 author: Becky
 exl-id: 158430e5-8857-4bd8-86a6-2ba106b1638c
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: 711812d9fd4bf48bb7612c0339cee2cdbe08ef10
 workflow-type: tm+mt
-source-wordcount: '669'
+source-wordcount: '640'
 ht-degree: 92%
 
 ---
@@ -33,30 +33,26 @@ Como [!DNL Adobe Workfront] administrador, puedes ver y gestionar las aplicacion
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
-   <td> <p>[!DNL Pro] o superior</p> </td> 
+   <td role="rowheader">paquete de Workfront</td> 
+   <td><p>Cualquiera</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licencia*</td> 
-   <td> <p>[!UICONTROL Plan] o superior</p> </td> 
+   <td role="rowheader">Licencia de Adobe Workfront</td> 
+   <td><p>Estándar</p> <p>Plan</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraciones de nivel de acceso*</td> 
-   <td> Debe ser administrador de [!DNL Workfront]. </p>
-    <p>Para información sobre [!DNL Workfront] administradores, consulta <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Conceder a un usuario acceso administrativo completo</a>.</p>
-     </td> 
+   <td role="rowheader">Configuraciones de nivel de acceso</td> 
+   <td>Debe ser administrador de Workfront. </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de [!DNL Workfront] .
+Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -108,7 +104,7 @@ Para obtener más información, consulte [Crear aplicaciones OAuth2 para  [!DNL 
 {{step-1-to-setup}}
 
 1. En el panel de navegación izquierdo, haz clic en **[!UICONTROL Sistema]**, y luego selecciona **[!UICONTROL Aplicaciones OAuth]**.
-1. Pasa el cursor sobre la aplicación y haz clic en el icono de **[!UICONTROL Editar]** cuando aparezca en el extremo derecho.
+1. Pase el puntero por encima de la aplicación y haga clic en el icono de **[!UICONTROL Editar]** cuando aparezca en el extremo derecho.
 1. Vea los detalles en el área Secreto del cliente:
 
    * Fecha de creación
@@ -123,7 +119,7 @@ Para obtener más información, consulte [Crear aplicaciones OAuth2 para  [!DNL 
 
 1. En el panel de navegación izquierdo, haga clic en **[!UICONTROL Sistema]**, y luego seleccione **[!UICONTROL Aplicaciones OAuth]**.
 1. Haz clic en **[!UICONTROL Crear integración de aplicaciones]**.
-1. Pasa el cursor sobre la aplicación y haz clic en el icono de **[!UICONTROL Editar]** cuando aparezca en el extremo derecho.
+1. Pase el puntero por encima de la aplicación y haga clic en el icono de **[!UICONTROL Editar]** cuando aparezca en el extremo derecho.
 1. Busque el Secreto de cliente para el que desea agregar o editar una nota.
 1. Haga clic en el cuadro que contiene los detalles del Secreto del cliente.
 
@@ -141,6 +137,6 @@ Para obtener más información, consulte [Crear aplicaciones OAuth2 para  [!DNL 
 
 1. En el panel de navegación izquierdo, haga clic en **[!UICONTROL Sistema]**, y luego seleccione **[!UICONTROL Aplicaciones OAuth]**.
 1. Haz clic en **[!UICONTROL Crear integración de aplicaciones]**.
-1. Pasa el cursor sobre la aplicación y haz clic en el icono de **[!UICONTROL Editar]** cuando aparezca en el extremo derecho.
+1. Pase el puntero por encima de la aplicación y haga clic en el icono de **[!UICONTROL Editar]** cuando aparezca en el extremo derecho.
 1. Busque el Secreto de cliente que desea eliminar.
 1. Haga clic en el icono **[!UICONTROL Eliminar]** ![Eliminar](assets/delete.png) que está junto al Secreto del cliente.

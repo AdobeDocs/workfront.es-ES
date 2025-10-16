@@ -2,14 +2,14 @@
 product-area: projects
 navigation-topic: manage-projects
 title: Requerir tiempo de aprobación de un proyecto
-description: Requerir tiempo de aprobación de un proyecto
+description: Puede configurar el proyecto para requerir que el propietario del proyecto apruebe las horas registradas en el proyecto. Cuando se configura de esta manera, el propietario del proyecto debe aprobar primero las horas para que puedan utilizarse en un registro de facturación.
 author: Alina
 feature: Work Management
 exl-id: e4a27640-9f5c-4a9f-82cc-3384694594af
-source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
+source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
 workflow-type: tm+mt
-source-wordcount: '754'
-ht-degree: 81%
+source-wordcount: '785'
+ht-degree: 80%
 
 ---
 
@@ -26,30 +26,30 @@ Para obtener más información sobre los registros de facturación, consulte el 
 
 ## Requisitos de acceso
 
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Plan de Adobe Workfront*</td> 
+   <td role="rowheader">paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licencia de Adobe Workfront*</td> 
+   <td role="rowheader">Licencia de Adobe Workfront</td> 
    <td> <p>Para requerir tiempo para aprobarse en el proyecto:</p>
-   <ul><li>Nuevo: estándar</li>
-   <li>Actual: plan</li></ul>
+   <ul><li><p>Estándar</p></li>
+   <li><p>Plan</p></li></ul>
 
 <p>Para aprobar horas registradas en un proyecto:</p>
-   <ul><li>Nuevo: Light o superior</li>
-   <li>Revisión o superior</li>
+   <ul><li><p>Ligero o superior</p></li>
+   <li><p>Revisión o superior</p></li>
     </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraciones de nivel de acceso*</td> 
-   <td> <p>Acceso de edición a Proyectos o superior</p>  </td> 
+   <td role="rowheader">Configuraciones de nivel de acceso</td> 
+   <td> <p>Acceso de edición a proyectos</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
@@ -73,7 +73,56 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  </tbody> 
 </table>
 
-*Para obtener información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>To require time to be approved on the project:</p>
+   <ul><li>New: Standard</li>
+   <li>Current: Plan</li></ul>
+   
+   <p>To approve hours logged on a project:</p>
+   <ul><li>New: Light or higher</li>
+   <li>Review or higher</li>
+    </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations*</td> 
+   <td> <p>Edit access to Projects or higher</p>  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>View permissions to the project or higher</p>
+  </tr> 
+  <tr> 
+   <td role="rowheader">Additional access</td> 
+   <td> <p>You must meet at least one of the following conditions to approve time on a project:</p> 
+    <ul> 
+     <li>You are the Project Owner with the access and permissions specified above. In this case, you can do the following if one of the conditions below exists: 
+      <ul>
+       <li>If you have Manage permissions on the project, you can approve or reject hours logged on the project by any other user.</li>
+       <li> If you have Contribute or View access to the project you will be able to approve or reject only the hours logged by you or any other user that reports you.<br></li>
+      </ul></li> 
+     <li>You have a Plan license with administrative access to Timesheets &amp; Hours. In this case:
+      <ul>
+       <li>You can approve or reject any hours on the projects you have at least permissions to View. </li>
+      </ul></li> 
+    </ul> </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## Requerir tiempo de aprobación de un proyecto
 

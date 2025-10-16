@@ -7,10 +7,10 @@ description: El administrador de Adobe Workfront concede a los usuarios acceso p
 author: Courtney
 feature: Get Started with Workfront
 exl-id: c83a3184-4af0-4897-985b-29f7ee3a0b73
-source-git-commit: 48c0f5c617f41a4ce51ea45c17817aa869ba5adb
+source-git-commit: 4ae96f67b15838403ffce32317d871d6904d6d95
 workflow-type: tm+mt
-source-wordcount: '1392'
-ht-degree: 22%
+source-wordcount: '1387'
+ht-degree: 21%
 
 ---
 
@@ -34,21 +34,18 @@ Los usuarios también pueden compartir documentos que han cargado o a los que ti
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo. 
 
-Se necesita tener lo siguiente para compartir objetos:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Plan de Adobe Workfront</td> 
+   <td role="rowheader">paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licencia de Adobe Workfront</td> 
-   <td> <p>Nuevo: estándar</p> 
-   O
-   <p>Actual: Trabajo o superior</p>
+   <td> <p>Estándar</p> 
+   <p>Trabajo o superior</p>
    </td> 
   </tr> 
   <tr> 
@@ -62,7 +59,7 @@ Se necesita tener lo siguiente para compartir objetos:
  </tbody> 
 </table>
 
-Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

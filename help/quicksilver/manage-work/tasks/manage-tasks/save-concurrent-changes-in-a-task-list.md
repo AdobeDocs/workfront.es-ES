@@ -2,43 +2,43 @@
 product-area: projects
 navigation-topic: manage-tasks
 title: Información general sobre cómo guardar cambios simultáneos en una lista de tareas
-description: Cuando edita tareas en una lista, puede utilizar una configuración de guardado independiente para indicar si desea que los cambios se guarden automáticamente o manualmente al editar tareas en una lista.
+description: Al editar tareas en una lista, puede utilizar una configuración de guardado independiente para indicar si desea que los cambios se guarden automática o manualmente.
 author: Alina
 feature: Work Management
 exl-id: dff52425-4711-40a8-8f40-205d75c506ef
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
 workflow-type: tm+mt
 source-wordcount: '497'
-ht-degree: 0%
+ht-degree: 98%
 
 ---
 
 # Información general sobre cómo guardar cambios simultáneos en una lista de tareas
 
-Cuando edita tareas en una lista, puede utilizar una configuración de guardado independiente para indicar si desea que los cambios se guarden automáticamente o manualmente al editar tareas en una lista.
+Al editar tareas en una lista, puede utilizar una configuración de guardado independiente para indicar si desea que los cambios se guarden automática o manualmente.
 
-Para obtener información acerca de la edición de tareas en una lista de tareas, vea el artículo [Editar tareas en una lista](../../../manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md).
+Para obtener información acerca de la edición de tareas en una lista de tareas, consulte el artículo [Editar tareas en una lista](../../../manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md).
 
 A veces, pueden aparecer conflictos si dos usuarios realizan cambios en las mismas tareas.
 
 Tenga en cuenta lo siguiente al editar tareas en una lista de tareas:
 
-* Adobe Workfront guarda los cambios que realice en las tareas inmediatamente cuando selecciona guardar los cambios automáticamente si el tipo de actualización del proyecto es Automática, Automática o Al cambiar. Para obtener información acerca del tipo de actualización del proyecto, vea [Seleccionar el tipo de actualización del proyecto](../../../manage-work/projects/manage-projects/select-project-update-type.md).
-* Workfront actualiza la información de la lista en la que está trabajando cada minuto con los cambios que otros usuarios podrían realizar en cualquier otra parte del sistema. Esto garantiza que siempre obtenga la información más reciente sobre las tareas.
+* Adobe Workfront guardará de inmediato los cambios que realice en las tareas cuando seleccione guardar los cambios automáticamente si el tipo de actualización del proyecto es Automático, o Automático, o al cambiar. Para obtener información acerca del tipo de actualización del proyecto, consulte [Seleccionar el tipo de actualización del proyecto](../../../manage-work/projects/manage-projects/select-project-update-type.md).
+* Workfront actualizará cada minuto la información de la lista en la que esté trabajando con los cambios que otros usuarios puedan realizar en cualquier otra parte del sistema. Así se garantiza que siempre obtenga la información más reciente sobre las tareas.
 
-Cuando varios usuarios están editando las mismas tareas, se producen los siguientes escenarios:
+Cuando varios usuarios editan las mismas tareas, se producen los siguientes escenarios:
 
-* **Un usuario guarda los cambios en una lista de tareas automáticamente y otro manualmente**: Si un usuario (usuario A) guarda los cambios manualmente mientras el usuario B está editando las mismas tareas pero está guardando sus cambios automáticamente, los cambios activos realizados por el usuario B se actualizan en la lista del usuario A cada minuto. Si hay conflictos entre los cambios realizados por los dos usuarios, el usuario que guarda manualmente (usuario A) ve un mensaje de advertencia antes de que pueda guardar sus cambios. El mensaje de advertencia muestra los elementos que tienen los cambios en conflicto. En este momento, el usuario A puede elegir si debe mantener sus cambios (que sobrescriben los cambios realizados por el usuario B) o descartarlos (que mantiene los cambios realizados por el usuario B).
+* **Un usuario guarda los cambios en una lista de tareas automáticamente y otro manualmente**: si un usuario (usuario A) guarda los cambios manualmente mientras el usuario B edita las mismas tareas, pero los guarda automáticamente, los cambios activos realizados por el usuario B se actualizarán en la lista del usuario A cada minuto. Si hay conflictos entre los cambios realizados por los dos usuarios, el usuario que los guarda manualmente (usuario A) ve un mensaje de advertencia antes de poder guardar sus cambios. El mensaje de advertencia muestra los elementos que contienen los cambios en conflicto. En este momento, el usuario A puede elegir si debe conservar sus cambios (lo que sobrescribe los cambios realizados por el usuario B) o descartarlos (lo que conserva los cambios realizados por el usuario B).
 
 >[!NOTE]
 >
->Cuando selecciona descartar los cambios realizados, esto se aplica a todos los cambios y no solo a aquellos que tienen conflictos con las ediciones realizadas por otro usuario.
+>Cuando seleccione descartar los cambios realizados, esto se aplicará a todos los cambios y no solo a aquellos que entren en conflicto con las modificaciones realizadas por otro usuario.
 
-* **Varios usuarios están guardando los cambios en una lista de tareas manualmente**: Si varios usuarios que están realizando cambios en tareas de una lista están guardando manualmente al mismo tiempo, Workfront guarda los cambios realizados por el usuario que guarda primero. Guardar estos cambios no debería encontrar ningún conflicto. A continuación, Workfront compara los cambios realizados por todos los demás usuarios con la información que ya ha guardado y muestra una advertencia sobre los cambios en conflicto que se han producido en los demás usuarios para que puedan guardar su información.
+* **Varios usuarios guardan los cambios en una lista de tareas manualmente**: si varios usuarios que están realizando cambios en tareas de una lista los guardan manualmente al mismo tiempo, Workfront guardará los cambios realizados por el usuario que los guarde primero. Guardar estos cambios no debería producir ningún conflicto. A continuación, Workfront comparará los cambios realizados por todos los demás usuarios con la información que ya ha guardado y mostrará una advertencia sobre los cambios en conflicto a los demás usuarios para que puedan guardar su información.
 
 >[!IMPORTANT]
 >
->Cuando selecciona mantener los cambios sobre todos los demás cambios, se guardan todos los cambios, a menos que otro usuario elimine las tareas a las que realizó cambios. En este caso, el mensaje de advertencia le informa de que se pierden los cambios realizados en las tareas eliminadas.
+>Cuando seleccione conservar los cambios sobre todos los demás, se guardarán todos sus cambios, a menos que otro usuario elimine las tareas en las que ha realizado cambios. En este caso, el mensaje de advertencia le informará de que los cambios realizados en las tareas eliminadas se han perdido.
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode"> 

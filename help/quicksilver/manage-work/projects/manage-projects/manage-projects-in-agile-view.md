@@ -3,13 +3,13 @@ product-area: projects;agile-and-teams
 navigation-topic: manage-projects
 title: Administrar un proyecto en la vista de Agile
 description: Puede aprovechar la funcionalidad Agile para su proyecto sin los desafíos administrativos que normalmente acompañan a las prácticas Agile (como administrar un registro de asuntos pendientes del equipo o crear iteraciones).
-author: Alina and Lisa
+author: Alina, Courtney
 feature: Work Management
 exl-id: fc633fd6-35b4-4949-8045-22c775002436
-source-git-commit: 37c75806c268af034cf801ae62fcab546fdf5dc9
+source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
 workflow-type: tm+mt
-source-wordcount: '279'
-ht-degree: 23%
+source-wordcount: '277'
+ht-degree: 20%
 
 ---
 
@@ -32,16 +32,17 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Plan de Adobe Workfront</td> 
+   <td role="rowheader">paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licencia de Adobe Workfront</td> 
-   <td> <p>Actual: revisión o superior</p> 
-   <p>Nuevo: colaborador o superior</p> </td> 
+   <td> <p>Ligero o superior</p>
+   <p>Revisión o superior</p> 
+    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuración de nivel de acceso</td> 
+   <td role="rowheader">Configuraciones de nivel de acceso</td> 
    <td> <p>Edite el acceso a las siguientes áreas:</p> 
     <ul> 
      <li> <p>Proyectos</p> </li> 
@@ -59,6 +60,37 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
+
+<!--old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td> <p>Current: Review or higher</p> 
+   <p>New: Contributor or higher</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configuration</td> 
+   <td> <p>Edit access to the following areas:</p> 
+    <ul> 
+     <li> <p>Projects</p> </li> 
+     <li> <p>Reports, Dashboards, Calendars</p> </li> 
+     <li> <p>Filters, Views,&nbsp;Groupings</p> </li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>View permissions to the project</p>  </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 
 ## Ver un proyecto en la vista de Agile

@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 1a1affed-1b06-442c-98b2-9f360eee767b
-source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
+source-git-commit: 20ebcb74c79aea67ea7cb1ba083dfea623fe7c16
 workflow-type: tm+mt
-source-wordcount: '2693'
+source-wordcount: '2670'
 ht-degree: 93%
 
 ---
@@ -34,31 +34,27 @@ Como administrador de [!DNL Adobe Workfront], puede configurar las preferencias 
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><p>[!DNL Adobe Workfront] plan</p></td> 
-   <td>Cualquiera</td> 
+   <td>[!DNL Adobe Workfront] paquete</td> 
+   <td><p>Cualquiera</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licencia</td> 
-   <td><p>Nuevo: [!UICONTROL Standard]</p>
-   O
-   <p>Actual: [!UICONTROL Plan]</p>
-   </td> 
+   <td>[!DNL Adobe Workfront] licencia</td> 
+   <td><p>[!UICONTROL Standard]</p>
+       <p>[!UICONTROL Plan]</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraciones de nivel de acceso</td> 
+   <td>Configuraciones de nivel de acceso</td> 
    <td>[!UICONTROL System Administrator]</td> 
   </tr> 
  </tbody> 
 </table>
 
-Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -143,7 +139,7 @@ Configure cualquiera de las siguientes preferencias para proyectos recién cread
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL Estimate at Completion &#x200B;]</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Estimate at Completion ]</p> </td> 
    <td> <p>Determine los datos que utiliza [!DNL Workfront] para calcular el [!UICONTROL Estimate at Completion] (EAC), que representa el coste proyectado total de un proyecto.</p> 
     <ul> 
      <li><strong>[!UICONTROL Calculate at project level]</strong>: el EAC de la tarea principal y el proyecto se determinan introduciendo las [!UICONTROL Actual Hours] o el [!UICONTROL Actual Labor Cost] en las fórmulas de EAC. El cálculo incluye las [!UICONTROL Actual Hours] o los [!UICONTROL Costs and Expenses] añadidos directamente a la tarea principal o el proyecto.</li> 
@@ -180,7 +176,7 @@ Configure cualquiera de las siguientes preferencias para proyectos recién cread
      <li>Al cambiar esta configuración, solo los proyectos y las plantillas creados después del cambio heredan la configuración actualizada. </li> 
      <li> <p>El valor Restricción de tarea de la tarea determina qué fechas de tareas planificadas se deben ajustar: </p> 
       <ul> 
-       <li>Fecha planificada de inicio</li> 
+       <li>Fecha de inicio planificada</li> 
        <li>Fecha planificada de finalización</li> 
        <li>Ambas fechas</li> 
        <li>Ninguna fecha. </li> 

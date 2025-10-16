@@ -8,10 +8,10 @@ author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: e13e3479-391f-4aec-b998-e9b6057f256b
-source-git-commit: dccbd5a036e1b148bc8f3e41fac3a67babe6dc9a
+source-git-commit: e34abb5ff1068de99eaba33dc95287164e556742
 workflow-type: tm+mt
-source-wordcount: '936'
-ht-degree: 17%
+source-wordcount: '945'
+ht-degree: 18%
 
 ---
 
@@ -53,12 +53,14 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Plan de Adobe Workfront</td> 
+   <td role="rowheader">paquete de Adobe Workfront</td> 
    <td>Cualquiera</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licencia de Adobe Workfront</td> 
-   <td>Plan</td> 
+   <td>
+   <p>Estándar</p>
+   <p>Plan</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso</td> 
@@ -66,6 +68,8 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
  </tbody> 
 </table>
+
+Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

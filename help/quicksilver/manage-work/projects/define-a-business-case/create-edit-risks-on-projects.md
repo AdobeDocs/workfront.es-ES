@@ -3,12 +3,12 @@ product-area: projects
 navigation-topic: business-case-and-scorecards
 title: Crear y editar riesgos en proyectos
 description: Los riesgos son eventos posibles o factores que impiden que un proyecto finalice a tiempo o dentro del presupuesto. Puede registrar los riesgos del proyecto como parte de la creación del caso empresarial de un proyecto o utilizando la pestaña Riesgos. Puede agregar riesgos a proyectos y plantillas. No es posible asociar riesgos con tareas o problemas.
-author: Alina
+author: Becky
 feature: Work Management
 exl-id: 6125c477-c0d8-43b4-88d8-35b0c2412468
-source-git-commit: fbf902196c9f5b55ddd1e20516e4237309dff2ed
+source-git-commit: 1b7964b533093c4eee20d69a74512a145e207e29
 workflow-type: tm+mt
-source-wordcount: '1080'
+source-wordcount: '1059'
 ht-degree: 52%
 
 ---
@@ -35,8 +35,6 @@ Los riesgos pueden estar asociados con el coste, pero el coste de riesgos real n
 
 ## Requisitos de acceso
 
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
-
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo. 
 
 <table style="table-layout:auto"> 
@@ -44,17 +42,15 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><p>Plan de Adobe Workfront*</p></td> 
-   <td> <p>Planes actuales:</p>
+   <td role="rowheader"><p>paquete de Adobe Workfront</p></td> 
    <ul><li>Cualquier plan para agregar riesgos en el área de Riesgos del proyecto</p></li>
    <li><p>Prime o superior, para agregar riesgos en el caso comercial del proyecto</p></li></ul>
-   <p>Planes heredados: cualquier plan</p>
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Licencia de Adobe Workfront*</p></td> 
-   <td> <p>Actual: Estándar </p>
-   <p>Heredado: plan </p> </td> 
+   <td role="rowheader"><p>Licencia de Adobe Workfront</p></td> 
+   <td> <p>Estándar </p>
+   <p>Plan </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Configuraciones de nivel de acceso</p></td> 
@@ -67,7 +63,8 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  </tbody> 
 </table>
 
-*Para obtener información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
 
 +++
 

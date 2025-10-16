@@ -2,19 +2,19 @@
 content-type: reference
 product-area: reporting;user-management
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Ver: Detalles del usuario ampliados"
+title: 'Ver: Detalles del usuario ampliados'
 description: Esta vista de usuario muestra información sobre los usuarios. Además del nombre, los niveles de acceso y la compañía, también muestra listas de sus grupos, equipos y roles.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 6a978b43-4718-43fb-80b8-844b35e09d06
-source-git-commit: 6405c01c8b1d842a4175f9caa18a7ed31316a3a1
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '237'
-ht-degree: 0%
+source-wordcount: '215'
+ht-degree: 72%
 
 ---
 
-# Ver: detalles del usuario expandidos
+# Ver: detalles ampliados del usuario
 
 <!--Audited: 11/2024-->
 
@@ -26,43 +26,43 @@ Esta vista de usuario muestra información sobre los usuarios. Además del nombr
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plan de Adobe Workfront</td> 
+   <td role="rowheader">paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licencia de Adobe Workfront</td> 
-   <td> <p>Nuevo:<ul><li>Colaborador para modificar una vista</li><li>Estándar para modificar un informe</li></ul></p><p>O</p>Actual:<ul><li>Solicitud para modificar una vista</li><li>Plan para modificar un informe</li></ul></p> </td> 
+   <td> 
+   <p>Colaborador o solicitud para modificar una vista </p>
+   <p>Estándar o Plan para modificar un informe</p>
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso</td> 
-   <td> <p>Editar el acceso a Informes, Tableros y Calendarios para modificar un informe</p> <p>Editar el acceso a filtros, vistas y agrupaciones para modificar una vista</p> </td> 
-  </tr>  
+   <td> <p>Editar el acceso a Informes, Paneles de control y Calendarios para modificar un informe</p> <p>Edición del acceso a Filtros, Vistas y Agrupaciones para modificar una vista</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Administración de permisos de un informe</p> </td> 
+   <td> <p>Permisos de administración para un informe</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Ver detalles expandidos del usuario
+## Ver: detalles ampliados del usuario
 
-Para aplicar esta vista:
+Para aplicar este vista:
 
 1. Vaya a una lista de usuarios.
 1. En el menú desplegable **Vista**, seleccione **Nueva vista**.
 
-1. En el área **Vista previa de columna**, elimine todas las columnas excepto una.
+1. En el área **Vista previa de columnas**, elimine todas las columnas excepto una.
 1. Haga clic en el encabezado de la columna restante y, a continuación, haga clic en **Cambiar al modo de texto** > **Editar modo de texto**.
 1. Elimine el texto que encuentre en el cuadro **Editar modo de texto** y reemplácelo por el siguiente código:
 

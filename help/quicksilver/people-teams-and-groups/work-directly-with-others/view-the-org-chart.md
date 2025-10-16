@@ -6,10 +6,10 @@ description: La función de organigrama le permite ver el organigrama asociado a
 author: Lisa
 feature: People Teams and Groups
 exl-id: 10c1fc55-8df4-4c2a-9251-ee6db9ee6c0d
-source-git-commit: 379772f6bd1ed9448e6fd5feee956a931f65f69e
+source-git-commit: 722295463c1338a70ff42c26acf69b09cf33f725
 workflow-type: tm+mt
-source-wordcount: '143'
-ht-degree: 39%
+source-wordcount: '124'
+ht-degree: 22%
 
 ---
 
@@ -21,27 +21,24 @@ La característica de organigrama le permite ver el organigrama asociado a un us
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
-
-<table style="table-layout:auto"> 
+<table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>Plan de Adobe Workfront</p> </td> 
-   <td>Cualquiera</td> 
+  <tr> 
+   <td>paquete de Adobe Workfront</td> 
+   <td><p>Cualquiera</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licencia de Adobe Workfront</td> 
+   <td>Licencia de Adobe Workfront</td> 
    <td>
-   <p>Nuevo: Light o superior</p>
-   <p>o</p>
-   <p>Actual: revisión o superior</p></td>
+   <p>Ligero o superior</p>
+   <p>Revisión o superior</p></td>
   </tr> 
  </tbody> 
 </table>
 
-Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -51,3 +48,5 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
 
 1. En el panel izquierdo, haga clic en **[!UICONTROL Organigrama]**.
    ![Organigrama](assets/org-chart-2025.png)
+
+   Aparecerá el organigrama.

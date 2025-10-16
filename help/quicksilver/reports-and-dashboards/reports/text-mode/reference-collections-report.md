@@ -6,7 +6,7 @@ description: Colecciones de referencia en un informe
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 18ba3f4b-ae03-4694-a2fe-fdbeeb576ea9
-source-git-commit: 6bd9dc626befc4dfa4054760e7ec7d677f6da6e5
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
 source-wordcount: '2615'
 ht-degree: 5%
@@ -25,32 +25,24 @@ Para obtener más información sobre cómo generar un informe en Workfront, cons
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
-Debe tener lo siguiente:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Plan de Adobe Workfront</td> 
+   <td role="rowheader">paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licencia de Adobe Workfront</td> 
    <td> 
-      <p>Nuevo:</p>
-         <ul>
-         <li><p>Estándar</p></li>
-         </ul>
-      <p>Actual:</p>
-         <ul>
-         <li><p>Plan</p></li>
-         </ul>
-   </td>
+     <p>Estándar</p>
+     <p>Plan</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso</td> 
-   <td> <p>Acceso de edición a filtros, vistas y agrupaciones</p> <p>Acceso de edición a informes, paneles y calendarios</p> </td> 
+   <td> <p>Acceso de edición a filtros, vistas y agrupaciones</p> <p>Acceso de Edición a informes, paneles de control y calendarios</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
@@ -59,7 +51,7 @@ Debe tener lo siguiente:
  </tbody> 
 </table>
 
-Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -274,7 +266,7 @@ Las líneas de una vista de modo de texto de una colección se describen en la s
   </tr> 
   <tr> 
    <td><code>listdelimiter=&lt;p&gt;</code> </td> 
-   <td> <p>Este es el delimitador que se utiliza para separar los valores de la lista.<br>Recomendamos usar <code>&lt;p&gt;</code>, que agrega un salto de línea entre los valores.</p> <p>También puede utilizar lo siguiente:</p> <p><code>&zwj;</code> (carpintero de anchura cero). Los valores de la colección no tienen separación entre ellos.<br><strong>,</strong> =separador de comas. Los valores de la colección están separados por una coma seguidos de sin espacio.<br><strong>/</strong> = separador de barras. Los valores de la colección están separados por una barra diagonal.<br><strong>-</strong> = separador de guiones. Los valores de la colección están separados por un guión.<br>Si deja vacía esta línea, se agrega una coma seguida de un espacio entre los valores de la colección, de manera predeterminada.</p> </td> 
+   <td> <p>Este es el delimitador que se utiliza para separar los valores de la lista.<br>Recomendamos usar <code>&lt;p&gt;</code>, que agrega un salto de línea entre los valores.</p> <p>También puede utilizar lo siguiente:</p> <p><code>&amp;zwj;</code> (carpintero de anchura cero). Los valores de la colección no tienen separación entre ellos.<br><strong>,</strong> =separador de comas. Los valores de la colección están separados por una coma seguidos de sin espacio.<br><strong>/</strong> = separador de barras. Los valores de la colección están separados por una barra diagonal.<br><strong>-</strong> = separador de guiones. Los valores de la colección están separados por un guión.<br>Si deja vacía esta línea, se agrega una coma seguida de un espacio entre los valores de la colección, de manera predeterminada.</p> </td> 
   </tr> 
   <tr> 
    <td><code>displayname=</code><em>Nombre de columna</em> </td> 
@@ -403,7 +395,7 @@ Para agregar una referencia a una colección en la petición de datos personaliz
 1. Haga clic en **Indicadores de informe**.
 1. Haga clic en **Agregar solicitud**.
 1. Haga clic en **Mensaje personalizado**.
-1. Especifique el nombre de la solicitud en el campo **Field**&#x200B;**name**.
+1. Especifique el nombre de la solicitud en el campo **Field****name**.
 
 1. Especifique una **etiqueta de elemento desplegable**.
 1. Especifique lo siguiente en el campo **Condición**:

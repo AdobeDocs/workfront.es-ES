@@ -5,10 +5,11 @@ title: Administrar la vista de administración de tableros
 description: La vista Administrador de tableros contiene una lista de todos los tableros de su cuenta que los administradores del sistema pueden utilizar para obtener una instantánea rápida de los detalles generales de los tableros.
 author: Jenny
 feature: Agile
-source-git-commit: 56263c3f868e7abdaf973c5c03411a2e63ba645d
+exl-id: 4a7f2f68-14d2-4532-8c76-2ba78b45deac
+source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
 workflow-type: tm+mt
 source-wordcount: '618'
-ht-degree: 7%
+ht-degree: 6%
 
 ---
 
@@ -33,7 +34,7 @@ Desde esta área, puede realizar las siguientes acciones:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Plan de Adobe Workfront</td> 
+   <td role="rowheader">paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 

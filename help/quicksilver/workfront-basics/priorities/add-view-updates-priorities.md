@@ -6,10 +6,10 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: a7237746-0a18-408b-b932-8a608fd72eee
-source-git-commit: b886284eb44c2154987019655ff07cdeb0e1ae22
+source-git-commit: 985f1aa11ad1d5efc8d043907d60ad5f5c1bba13
 workflow-type: tm+mt
-source-wordcount: '540'
-ht-degree: 12%
+source-wordcount: '529'
+ht-degree: 9%
 
 ---
 
@@ -23,8 +23,6 @@ Prioridades muestra los elementos de trabajo que tiene asignados. No puede ver l
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -32,14 +30,14 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Plan de Adobe Workfront</strong></td> 
+   <td role="rowheader"><strong>paquete de Adobe Workfront</strong></td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Licencia de Adobe Workfront*</strong></td> 
+   <td role="rowheader"><strong>Licencia de Adobe Workfront</strong></td> 
    <td> 
-   <p>Actual: Solicitud o superior para problemas <!--and documents-->; Revisar o superior para todos los demás objetos</p>
-   <p>Nuevo: Colaborador o superior para problemas <!--and documents-->: Ligero o superior para todos los demás objetos</p> 
+   <p>Solicitud o superior para problemas y documentos; Revisar o superior para todos los demás objetos</p>
+   <p>Colaborador o superior para problemas y documentos: Ligero o superior para todos los demás objetos</p> 
    </td> 
   </tr> 
   <tr> 
@@ -53,7 +51,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  </tbody> 
 </table>
 
-*Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

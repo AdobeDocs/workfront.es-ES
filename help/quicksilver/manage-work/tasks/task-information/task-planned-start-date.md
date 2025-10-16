@@ -7,20 +7,20 @@ description: La fecha de inicio planificada de una tarea es la fecha en la que u
 author: Alina
 feature: Work Management
 exl-id: 2ac6327f-4a13-4fb8-ad8e-03d032221483
-source-git-commit: 0ff02569d3c7fb532a2faafc46fe4235ce77acd4
+source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
 workflow-type: tm+mt
 source-wordcount: '617'
-ht-degree: 62%
+ht-degree: 60%
 
 ---
 
-# Información general sobre la fecha planificada de inicio de la tarea
+# Información general sobre la fecha de inicio planificada de la tarea
 
 <!-- Audited: 6/2025 -->
 
 La fecha de inicio planificada de una tarea es la fecha en la que usted, como creador de la tarea, decide que debe empezar el trabajo sobre la tarea. Las fechas de las tareas planificadas influyen en las fechas y en la línea de tiempo del proyecto. Para obtener información sobre la fecha de inicio planificada del proyecto, consulte [Información general sobre la fecha de inicio planificada del proyecto](../../../manage-work/projects/planning-a-project/project-planned-start-date.md).
 
-## Fecha planificada de inicio de una tarea
+## Fecha de inicio planificada de una tarea
 
 Puede especificar la fecha planificada de inicio de la tarea o dejar que Adobe Workfront la calcule en función de determinados criterios. 
 

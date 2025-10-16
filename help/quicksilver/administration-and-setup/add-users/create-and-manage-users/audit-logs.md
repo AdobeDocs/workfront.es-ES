@@ -8,7 +8,7 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 6adb4146-42fd-4eda-b46f-c61d7ff71df6
-source-git-commit: aeb55124fa76192a5c39b504964fe9acc16c31d8
+source-git-commit: c8987d036e1c1324618cb53ebcbb8fd7e4bcc6a4
 workflow-type: tm+mt
 source-wordcount: '1522'
 ht-degree: 6%
@@ -17,7 +17,7 @@ ht-degree: 6%
 
 # Resumen de registros de auditoría
 
-<!--Audited: 01/2024-->
+<!--Audited: 08/2025-->
 
 Como administrador de Adobe Workfront, puede realizar un seguimiento de los cambios de usuario activados en el sistema durante los últimos 90 días mediante los registros de auditoría que se describen a continuación.
 

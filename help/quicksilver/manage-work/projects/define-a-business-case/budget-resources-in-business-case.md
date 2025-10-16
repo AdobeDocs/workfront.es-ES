@@ -2,10 +2,10 @@
 navigation-topic: business-case-and-scorecards
 title: Presupuestar recursos en el caso empresarial
 description: Como parte de la planificación de recursos, puede presupuestar las funciones necesarias para completar el trabajo en un proyecto cuando genera el caso empresarial. Para obtener más información sobre la creación de un caso empresarial, consulte Creación de un caso empresarial para un proyecto
-author: Alina
+author: Becky
 feature: Work Management
 exl-id: 85aa13c7-e48d-4b8c-89f7-1ba7f66670b0
-source-git-commit: f97c989f57d864252adf6e24f8e6b03f56d26901
+source-git-commit: fa0b4322b9f7c1d506cf194645c7ae50ad8c0f0b
 workflow-type: tm+mt
 source-wordcount: '261'
 ht-degree: 100%

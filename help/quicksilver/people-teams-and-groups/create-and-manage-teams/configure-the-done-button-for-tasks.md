@@ -6,10 +6,10 @@ description: El botón Listo puede establecer automáticamente el estado de una 
 author: Lisa
 feature: People Teams and Groups
 exl-id: 55cc5562-13d5-4089-8937-f33d0cde3cac
-source-git-commit: a19668ac2238448010b5a177120f936ef7ba5bba
+source-git-commit: dd47158a4c2e1b7372af6c9450b2d277d1ca8c6f
 workflow-type: tm+mt
-source-wordcount: '775'
-ht-degree: 1%
+source-wordcount: '759'
+ht-degree: 92%
 
 ---
 
@@ -26,34 +26,31 @@ El botón [!UICONTROL Listo] puede establecer automáticamente el estado de una 
 Los usuarios con ciertos permisos pueden configurar el botón [!UICONTROL Listo] para asociarlo con ciertos estados del sistema. Hay dos maneras diferentes en que el botón [!UICONTROL Listo] funciona para las tareas de [!UICONTROL Workfront]:
 
 * Si el usuario tiene un equipo de inicio asignado, un administrador de [!DNL Workfront] o un usuario con una licencia de [!UICONTROL Plan] puede configurar el botón [!UICONTROL Listo] para reflejar ciertos estados para los integrantes del equipo. Consulte [Configurar el botón [!UICONTROL Listo] para un equipo](#configure-the-uicontrol-done-button-for-a-team) en este artículo.
-* Si el usuario no tiene un [!UICONTROL equipo de inicio], pero tiene [!UICONTROL otros equipos] en su perfil, Workfront busca la configuración del botón [!UICONTROL Listo] en cualquiera de los equipos asociados con el usuario. La selección es aleatoria y se utiliza el estado asociado con cualquiera de los equipos para la tarea.
+* Si el usuario no tiene un [!UICONTROL Equipo de inicio], pero tiene [!UICONTROL Otros equipos] en su perfil, Workfront busca la configuración del botón [!UICONTROL Listo] en cualquiera de los equipos asociados con el usuario. La selección es aleatoria y se utiliza el estado asociado con cualquiera de los equipos para la tarea.
 * Si el usuario no tiene un equipo de inicio asignado, el botón [!UICONTROL Listo] de las tareas estará vinculado a un estado completo. No hay opciones de configuración disponibles en este escenario. El botón [!UICONTROL Listo] toma automáticamente este estado como valor predeterminado.
 
 ## Requisitos de acceso
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>plan de Adobe Workfront</p> </td> 
+   <td role="rowheader"> <p>paquete de Adobe Workfront</p> </td> 
    <td>Cualquiera</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licencia de Adobe Workfront</td> 
    <td>
-   <p>Nuevo: estándar</p>
-   <p>o</p>
-   <p>Actual: plan</p></td>
-  </tr> 
+   <p>Estándar</p>
+   <p>Plan</p></td>
+  </tr>  
  </tbody> 
 </table>
 
-Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -73,8 +70,8 @@ Puede cambiar el estado aplicado al elemento de trabajo con el botón [!UICONTRO
    >
    >Tenga en cuenta lo siguiente al seleccionar estados para tareas o problemas:
    >
-   >* Cuando selecciona un estado para cada tipo de elemento de trabajo, el estado de la tarea o del problema se establece en ese estado cuando un usuario hace clic en [!UICONTROL Listo] en su elemento. Si establece varios estados para cada tipo de elemento de trabajo, se agrega un menú desplegable al botón [!UICONTROL Listo] y el usuario debe elegir un estado para cambiar el estado del elemento de trabajo.
-   >* Solo puede asociar estados de nivel de sistema con el botón [!UICONTROL Listo]. No puede asociar estados específicos de grupo con estados de elementos de trabajo.
+   >* Cuando selecciona un estado para cada tipo de elemento de trabajo, el estado de la tarea o del problema se establece en ese estado cuando un usuario hace clic en [!UICONTROL Listo] en su elemento. Si establece varios estados para cada tipo de elemento de trabajo, se añade un menú desplegable al botón [!UICONTROL Listo] y el usuario debe elegir un estado para cambiar el estado del elemento de trabajo.
+   >* Solo puede asociar estados de nivel de sistema con el botón [!UICONTROL Listo]. No puede asociar estados específicos de grupo a estados de elementos de trabajo.
    >* Cuando un usuario asignado al elemento coloca el elemento en el estado asociado con el botón [!UICONTROL Listo], el elemento se muestra como [!UICONTROL Listo] para ese usuario, independientemente de si el estado que seleccione es un estado [!UICONTROL Completado] o [!UICONTROL Cerrado] o un estado de trabajo.
    >   
    >   
@@ -89,7 +86,7 @@ Puede cambiar el estado aplicado al elemento de trabajo con el botón [!UICONTRO
    >   * [!UICONTROL Solicitud de cambio]
    >   * [!UICONTROL Informe de errores]
 
-   Si la tarea o el problema están asignados a varios usuarios, verá la opción &quot;[!UICONTROL Listo con mi parte]&quot; en el menú desplegable, además de los múltiples estados seleccionados para su equipo.
+   Si la tarea o el problema están asignados a varios usuarios, verá la opción “[!UICONTROL Terminé mi parte]” en el menú desplegable, además de los múltiples estados seleccionados para su equipo.
 
 1. Haga clic en **[!UICONTROL Guardar cambios]**.
 

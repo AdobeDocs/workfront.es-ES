@@ -7,10 +7,10 @@ description: Workfront Data Connect le permite utilizar los datos de Workfront d
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 8348f5ff-c1f8-4608-b683-15f6407c6128
-source-git-commit: ea9c674b798c48927c7a0a542d36d5ded15ea3f1
+source-git-commit: 7764e512a3fb30a89e6645a4d8544a5fcffee231
 workflow-type: tm+mt
-source-wordcount: '595'
-ht-degree: 55%
+source-wordcount: '570'
+ht-degree: 54%
 
 ---
 
@@ -43,35 +43,27 @@ La mayoría de los productos necesitarán la siguiente información sobre su lag
 
 ## Requisitos de acceso
 
-+++ Amplíe para ver los requisitos de acceso.
-
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
++++ Amplíe para ver los requisitos de acceso. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Plan de Adobe Workfront</td> 
-   <td><p>Incluido en los siguientes planes:</p>
-    <ul>
-        <li><p>Ultimate</p></li> 
-    </ul>    
-   <!--<p>Can be purchased as an add-on to the following plans:</p> 
-    <ul>
-        <li>Select</li> 
-        <li>Prime</li>
-    </ul>--> 
-    <p>Workfront Data Connect no está disponible para los planes Workfront heredados.</p> 
-   </td> </td> 
+   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td><p>Ultimate</p>
+    <p>Workflow Ultimate</p>
+   </td>
   </tr> 
   <tr> 
    <td role="rowheader">Licencia de Adobe Workfront</td> 
-   <td><p>Plan</p></td> 
+   <td>
+   <p>Estándar</p>
+   <p>Plan</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso</td> 
-   <td> <p>Debe ser administrador de Workfront.</p></td> 
+   <td> <p>Debe ser administrador de Workfront</p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -90,7 +82,7 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
 
 1. Escriba un nombre de la dirección IP en **Descripción de la dirección IP** e introduzca la dirección IP (o bloque CIDR) para la herramienta que desea utilizar en **Dirección IP**; a continuación, haga clic en **Añadir IP a la Lista de permitidos**.
 
-   ![Añadir dirección IP](/help/quicksilver/reports-and-dashboards/data-lake/assets/add-IP-allowlist.png) {width="500"}
+   ![Agregar dirección IP](/help/quicksilver/reports-and-dashboards/data-lake/assets/add-IP-allowlist.png) {width="500"}
 
 ## Eliminar una dirección IP de la lista de permitidos
 

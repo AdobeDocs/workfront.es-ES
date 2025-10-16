@@ -6,10 +6,10 @@ description: Un informe de calendario es un informe dinámico que proporciona un
 author: Lisa
 feature: Reports and Dashboards
 exl-id: 27bf6f03-2f6b-4556-a715-75c4a21bfbbb
-source-git-commit: 5c0278607faf65b58abeb9b813e403f97032a965
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '622'
-ht-degree: 93%
+source-wordcount: '606'
+ht-degree: 90%
 
 ---
 
@@ -29,8 +29,6 @@ Un informe de calendario es un informe dinámico que proporciona una representac
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -38,22 +36,21 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront plan]</td> 
+   <td role="rowheader">paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licencia</td> 
-   <td><p>Nuevo: estándar</p>
-       <p>o</p>
-       <p>Actual: plan</p></td> 
+   <td role="rowheader">Licencia de Adobe Workfront</td> 
+   <td><p>Estándar</p>
+       <p>Plan</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso</td> 
-   <td> <p>Acceso [!UICONTROL Edit] a [!UICONTROL Reports], [!UICONTROL Dashboards] y [!UICONTROL Calendars]</p></td> 
+   <td> <p>Editar el acceso a Informes, Paneles y Calendarios</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td>Acceso [!UICONTROL Manage] al informe de calendario</td> 
+   <td>Administrar el acceso al informe de calendario</td> 
   </tr> 
  </tbody> 
 </table>
@@ -74,7 +71,7 @@ Haga clic en **[!UICONTROL + Nuevo calendario]** y escriba el nombre del calenda
 
    >[!NOTE]
    >
-   >Para crear un informe de calendario, debe tener acceso de edición a los informes, paneles y calendarios de su nivel de acceso.
+   >Para crear un informe de calendario, debe tener acceso de edición a los informes, paneles de control y calendarios de su nivel de acceso.
 
 1. A la izquierda, haga clic en **[!UICONTROL Añadir al calendario]** y luego haga clic en **[!UICONTROL Añadir elementos avanzados]**.
 
@@ -96,8 +93,8 @@ Haga clic en **[!UICONTROL + Nuevo calendario]** y escriba el nombre del calenda
       <td role="rowheader"><strong>[!UICONTROL Date Field]</strong></td>
       <td><p>Elija <strong>[!UICONTROL Planned dates]</strong>. Para obtener más información sobre las fechas planificadas, consulte </p>
        <ul>
-        <li><a href="../../../manage-work/projects/planning-a-project/project-planned-start-date.md" class="MCXref xref">Información general sobre la fecha planificada de inicio del proyecto</a></li>
-        <li><a href="../../../manage-work/tasks/task-information/task-planned-start-date.md" class="MCXref xref">Información general sobre la fecha planificada de inicio de la tarea</a></li>
+        <li><a href="../../../manage-work/projects/planning-a-project/project-planned-start-date.md" class="MCXref xref">Información general sobre la fecha de inicio planificada del proyecto</a></li>
+        <li><a href="../../../manage-work/tasks/task-information/task-planned-start-date.md" class="MCXref xref">Información general sobre la fecha de inicio planificada de la tarea</a></li>
         <li><a href="../../../manage-work/tasks/task-information/task-planned-completion-date.md" class="MCXref xref">Información general sobre la fecha planificada de finalización de la tarea</a></li>
         <li><a href="../../../manage-work/projects/planning-a-project/project-planned-completion-date.md" class="MCXref xref">Establecer la fecha planificada de finalización del proyecto</a><br></li>
        </ul></td>

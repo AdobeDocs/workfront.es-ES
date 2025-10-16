@@ -6,10 +6,10 @@ description: Puede incrustar una página web externa en un panel de control para
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 04b623b5-38b0-4c32-b54e-204f1d422e45
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: c8b7ad473b0c2120ef5ea52374b3501ad6f553f1
 workflow-type: tm+mt
-source-wordcount: '1030'
-ht-degree: 91%
+source-wordcount: '1017'
+ht-degree: 87%
 
 ---
 
@@ -29,16 +29,16 @@ Por ejemplo, si su organización tiene un repositorio de documentos basado en we
 >
 >
 >* Las páginas de panel de control ya no se admiten como páginas externas incrustadas en los paneles de control. Aunque los tableros existentes no se modificarán automáticamente para eliminar estas páginas externas, cualquier modificación en un panel de control que incluya una referencia de este tipo no podrá guardarse hasta que se elimine o cambie la referencia.
-> En concreto, los subdominios Workfront.com que ya no se admiten son los siguientes:
+>  > En concreto, los subdominios Workfront.com que ya no se admiten son los siguientes:
 >
 >     * /dashboards
->     * /dashboard/:ID
->     * /portfolio/:ID/content-dashboard__:dashboardID
->     * /program/:ID/content-dashboard__:dashboardID
->     * /project/:ID/content-dashboard__:dashboardID
->     * /task/:ID/content-dashboard__:dashboardID
->     * /template/:ID/content-dashboard__:dashboardID
->     * /templatetask/:ID/content-dashboard__:dashboardID
+>     * /dashboard/:ID&#x200B;
+>     * /portfolio/:ID/content-dashboard__:dashboardID&#x200B;
+>     * /program/:ID/content-dashboard__:dashboardID&#x200B;
+>     * /project/:ID/content-dashboard__:dashboardID&#x200B;
+>     * /task/:ID/content-dashboard__:dashboardID&#x200B;
+>     * /template/:ID/content-dashboard__:dashboardID&#x200B;
+>     * /templatetask/:ID/content-dashboard__:dashboardID&#x200B;
 >     * /resourcemanagement/:ID/
 >     * content-dashboard__:dashboardID&#x200B;
 >     * /team/:ID/content-dashboard__:dashboardID&#x200B;
@@ -53,41 +53,34 @@ Por ejemplo, si su organización tiene un repositorio de documentos basado en we
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
-Debe tener lo siguiente:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Plan de Adobe Workfront</strong></td> 
+   <td role="rowheader">paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Licencia de Adobe Workfront</strong></td> 
+   <td role="rowheader">Licencia de Adobe Workfront</td> 
    <td> 
-      <p>Nuevo:</p>
-         <ul>
-         <li><p>Estándar</p></li>
-         </ul>
-      <p>Actual:</p>
-         <ul>
-         <li><p>Plan</p></li>
-         </ul>
-   </td>
+      <p>Estándar</p>
+      <p>Plan</p>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Configuraciones de nivel de acceso</strong></td> 
-   <td> <p>Editar el acceso a Informes, Paneles y Calendarios</p> </td> 
-  </tr> 
+   <td role="rowheader">Configuraciones de nivel de acceso</td> 
+   <td> <p>Editar el acceso a Informes, Paneles de control y Calendarios</p></td> 
+  </tr>  
   <tr> 
-   <td role="rowheader"><strong>Permisos de objeto</strong></td> 
+   <td role="rowheader">Permisos de objeto</td> 
    <td> <p>Editar acceso al panel</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
 
 +++
 
@@ -153,7 +146,7 @@ Debe haber iniciado sesión en el sitio web especificado para visualizar la pág
 
    La página se agrega automáticamente al panel de control.
 
-   Si crea paneles de control adicionales, puede buscar esta página externa y agregarla a otros paneles. Puede encontrar todas las páginas externas existentes en la lista de Informes y calendarios disponibles al crear o editar un panel de control.
+   Si crea paneles de control adicionales, puede buscar esta página externa y agregarla a otros paneles de control. Puede encontrar todas las páginas externas existentes en la lista de Informes y calendarios disponibles al crear o editar un panel de control.
 
    <!--
     *** This is linked to: Creating Dashboards, and Editing Dashboards.

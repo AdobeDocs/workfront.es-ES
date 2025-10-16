@@ -1,15 +1,15 @@
 ---
 product-area: projects;templates
 navigation-topic: plan-a-project
-title: Designar administradores de recursos para un proyecto o una plantilla
+title: Designar gerentes de recursos para un proyecto o plantilla
 description: Puede designar administradores de recursos para un proyecto con el fin de indicar quién es el responsable de administrar los recursos del proyecto.
 author: Alina
 feature: Work Management
 exl-id: ae2a89e7-8049-4ee6-9b28-ce247d3f2a6f
-source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
+source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
 workflow-type: tm+mt
-source-wordcount: '829'
-ht-degree: 98%
+source-wordcount: '748'
+ht-degree: 96%
 
 ---
 
@@ -39,7 +39,39 @@ Designating Resource Managers for a project is a prerequisite for using the Sche
 
 ## Requisitos de acceso
 
-<!--drafted for P&P:
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td> <p>Cualquiera</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Licencia de Adobe Workfront</td> 
+   <td><p>Estándar</p> 
+   <p>Plan</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Configuraciones de nivel de acceso</td> 
+   <td> <p>Acceso de edición a proyectos y plantillas</p></td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Permisos de objeto</td> 
+   <td> <p>Permisos de administración sobre el proyecto o la plantilla</p>
+
+</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
+<!--Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -51,10 +83,7 @@ Designating Resource Managers for a project is a prerequisite for using the Sche
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Current license: Standard </p> 
-   Or
-   <p>Legacy license: Plan </p>
-   </td> 
+   <td> <p>Plan </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
@@ -71,41 +100,7 @@ Designating Resource Managers for a project is a prerequisite for using the Sche
    Users who are added as Resource Managers to a project or a template immediately gain Manage permissions on the project or the template</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>
--->
-
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Plan de Adobe Workfront*</td> 
-   <td> <p>Cualquiera</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Licencia de Adobe Workfront*</td> 
-   <td> <p>Plan </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Configuraciones de nivel de acceso*</td> 
-   <td> <p>Acceso de edición a proyectos y plantillas</p> <p><b>NOTA</b>
-
-Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td>
-</tr> 
-  <tr> 
-   <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Permisos de administración sobre el proyecto o la plantilla</p>
-
-<p><b>NOTA</b>
-
-Los usuarios que se añaden como administradores de recursos a un proyecto o una plantilla obtienen inmediatamente permisos de administración sobre el proyecto o la plantilla</p> <p>Para obtener información sobre cómo solicitar acceso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a los objetos </a>.</p> </td>
-</tr> 
- </tbody> 
-</table>
-
-*Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su administrador de Workfront.
+</table>-->
 
 ## Consideraciones sobre los administradores de recursos
 

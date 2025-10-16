@@ -2,19 +2,19 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Ver: detalles del problema de origen para tareas y proyectos"
-description: Cuando un problema se convierte en una tarea o un proyecto, se establece una relación de objeto de resolución entre la tarea o el proyecto y el problema. Esta vista muestra los campos del problema que se resuelve automáticamente al finalizar la tarea o el proyecto.
+title: 'Ver: detalles del problema original para tareas y proyectos'
+description: Cuando un problema se convierte en una tarea o un proyecto, se establece una relación de objeto de resolución entre la tarea o el proyecto y el problema. Esta vista muestra los campos del problema que se completa automáticamente al finalizar la tarea o el proyecto.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 5fefb174-3a18-408f-aa12-3f4aff23acfa
-source-git-commit: 6405c01c8b1d842a4175f9caa18a7ed31316a3a1
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '310'
-ht-degree: 3%
+source-wordcount: '289'
+ht-degree: 66%
 
 ---
 
-# Ver: detalles del problema de origen para tareas y proyectos.
+# Ver: detalles del problema de origen de tareas y proyectos.
 
 <!--Audited: 11/2024-->
 
@@ -25,8 +25,8 @@ Cuando un problema se convierte en una tarea o un proyecto, se establece una rel
 * Fecha planificada de finalización
 * Fecha real de finalización
 * Tipo de solicitud
-* Nombre del creador
-* Asignado a usuario
+* Nombre del generador
+* Usuario “Asignado a”
 
 ![task_with_resolve_issue_fields.png](assets/task-with-resolving-issue-fields-350x38.png)
 
@@ -36,52 +36,41 @@ Para obtener más información, vea [Ver: mostrar información original del prob
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plan de Adobe Workfront</td> 
+   <td role="rowheader">paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licencia de Adobe Workfront</td> 
-   <td> <p> Actual: 
-   <ul>
-   <li>Solicitud para modificar una vista</li> 
-   <li>Plan para modificar un informe</li>
-   </ul>
-     </p>
-     <p> Nuevo: 
-   <ul>
-   <li>Colaborador para modificar una vista</li> 
-   <li>Estándar para modificar un informe</li>
-   </ul>
-     </p>
-    </td> 
+   <td> 
+   <p>Colaborador o solicitud para modificar una vista </p>
+   <p>Estándar o Plan para modificar un informe</p>
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraciones de nivel de acceso*</td> 
-   <td> <p>Editar el acceso a Informes, Tableros y Calendarios para modificar un informe</p> <p>Editar el acceso a filtros, vistas y agrupaciones para modificar una vista</p> </td> 
+   <td role="rowheader">Configuraciones de nivel de acceso</td> 
+   <td> <p>Editar el acceso a Informes, Paneles de control y Calendarios para modificar un informe</p> <p>Edición del acceso a Filtros, Vistas y Agrupaciones para modificar una vista</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Administración de permisos de un informe</p> </td> 
+   <td> <p>Permisos de administración para un informe</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
 
 +++
 
 ## Ver detalles del problema de origen de tareas y proyectos
 
-1. Ir a una lista de tareas o de proyectos.
+1. Vaya a una lista de tareas o a una de proyectos.
 1. En el menú desplegable **Vista**, seleccione **Nueva vista**.
-1. En el área **Vista previa de columna**, elimine todas las columnas excepto una.
+1. En el área **Vista previa de columnas**, elimine todas las columnas excepto una.
 1. Haga clic en el encabezado de la columna restante y haga clic en **Cambiar al modo de texto** y, a continuación, en **Editar modo de texto**.
 1. Elimine el texto que encuentre en el cuadro **Editar modo de texto** y reemplácelo por el siguiente código:
 

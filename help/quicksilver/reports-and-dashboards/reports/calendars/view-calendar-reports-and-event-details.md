@@ -6,10 +6,10 @@ description: Puede ver informes de calendario y detalles de eventos que haya cre
 author: Lisa
 feature: Reports and Dashboards
 exl-id: db016e91-43e4-400c-ac9d-1639c7f94479
-source-git-commit: a411c1ddf0c6d19dc7f6e181cceeebba5504530c
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '592'
-ht-degree: 69%
+source-wordcount: '576'
+ht-degree: 67%
 
 ---
 
@@ -21,8 +21,6 @@ Puede ver informes de calendario y detalles de eventos que haya creado o que se 
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -30,22 +28,21 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront plan]</td> 
+   <td role="rowheader">paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licencia</td> 
-   <td><p>Nuevo: colaborador</p>
-       <p>o</p>
-       <p>Actual: Solicitud</p></td> 
+   <td role="rowheader">Licencia de Adobe Workfront</td> 
+   <td><p>Colaborador</p>
+       <p>Solicitud</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso</td> 
-   <td> <p>[!UICONTROL Ver] o acceso superior a [!UICONTROL Informes], [!UICONTROL Paneles] y [!UICONTROL Calendarios]</p></td> 
+   <td> <p>Acceso de visualización o superior a informes, tableros y calendarios</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td>[!UICONTROL View] o permisos superiores para el informe de calendario</td> 
+   <td>Ver los permisos superiores al informe de calendario</td> 
   </tr> 
  </tbody> 
 </table>

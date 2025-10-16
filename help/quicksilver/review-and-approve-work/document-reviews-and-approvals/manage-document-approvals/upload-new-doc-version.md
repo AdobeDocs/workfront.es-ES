@@ -6,10 +6,10 @@ description: Puede cargar una nueva versión del documento y solicitar la aproba
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 0eb8cfba-2317-419c-b28f-da2e7a99401c
-source-git-commit: 42fbb40cb8a0f3c70e22fd04bd3d0ce625f58fec
+source-git-commit: b615236d2666ebcc6db0d1f796fb0baaf362e0f2
 workflow-type: tm+mt
-source-wordcount: '488'
-ht-degree: 22%
+source-wordcount: '455'
+ht-degree: 13%
 
 ---
 
@@ -38,17 +38,19 @@ Si se elimina la versión más reciente del documento, las versiones anteriores 
    <td> <p> Cualquiera</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licencias de Adobe Workfront*</td> 
+   <td role="rowheader">Licencias de Adobe Workfront</td> 
    <td> <p>Solicitud o superior</p>
-   <p>Colaborador o superior</p> </td> 
+   <p>Colaborador o superior</p>
+   <p>Si utiliza la integración de Frame.io, debe tener una licencia Standard para crear flujos de trabajo de aprobación.</p>
+    </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Configuraciones de nivel de acceso</td> 
-   <td> <p>Acceso de edición a documentos</p> <p>Nota: Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, consulte <a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
+   <td> <p>Acceso de edición a documentos</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Editar acceso al objeto asociado con el documento</p> <p>Para obtener información sobre cómo solicitar acceso adicional, consulte <a href="/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/grant-and-request-access-to-objects.md" class="MCXref xref">Solicitar acceso a objetos </a>.</p> </td> 
+   <td> <p>Editar acceso al objeto asociado con el documento</p> </td> 
   </tr> 
  </tbody> 
 </table>

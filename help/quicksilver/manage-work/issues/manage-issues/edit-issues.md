@@ -8,9 +8,9 @@ feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 1449374a-ab0d-4c98-83cd-4e511467633a
-source-git-commit: b291525db0105081b5ff3dd65d9d2b3267a2f60c
+source-git-commit: 460090a1102465c34e92433e52c0beb240d8e9b9
 workflow-type: tm+mt
-source-wordcount: '2618'
+source-wordcount: '2602'
 ht-degree: 27%
 
 ---
@@ -27,23 +27,20 @@ Puede editar un solo problema o editar problemas de una lista. Para obtener info
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo. 
 
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Plan de Adobe Workfront</td> 
-   <td> <p>Cualquiera </p> </td> 
+   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licencia de Adobe Workfront*</td> 
-   <td> <p>Nueva licencia:</p>
-   <ul><li>Colaborador o superior</li>
+   <td role="rowheader">Licencia de Adobe Workfront</td> 
+   <td> <ul><li>Colaborador o superior</li>
    <li>Ligero o superior para editar problemas en la sección Problemas de una tarea o proyecto</li></ul>
-   <p>Licencia actual:</p>
-  <ul><li>Solicitud o superior</li> <li>Revise o superior para editar problemas en la sección Problemas de una tarea o proyecto</li></ul> </td> 
+   O
+   <ul><li>Solicitud o superior</li> <li>Revise o superior para editar problemas en la sección Problemas de una tarea o proyecto</li></ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Nivel de acceso</td> 
@@ -65,6 +62,42 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 *Para obtener información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
+
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan</td> 
+   <td> <p>Any </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>New license:</p>
+   <ul><li>Contributor or higher</li>
+   <li>Light or higher to edit issues in the Issues section of a task or project</li></ul>
+   <p>Current license:</p>
+  <ul><li>Request or higher</li> <li>Review or higher to edit issues in the Issues section of a task or a project</li></ul> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level</td> 
+   <td> <p>Edit access to Issues</p>  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>Contribute permissions to an issue to edit the following fields in the Details area: </p>
+   <ul>
+   <li>Description</li>
+   <li>Status</li>
+   <li>Severity</li>
+   </ul>
+   <p>Manage permissions to an issue to edit all the fields in the Details area or in the Edit Issue box</p> <p> For information about granting permissions to issues, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Share an issue </a></p> <p>For information on requesting additional permissions, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## Limitaciones al editar problemas
 
@@ -228,7 +261,7 @@ Puede editar un problema mediante las áreas Editar problema o Detalles del prob
    <b>SUGERENCIA</b>
 
    <p>Al agregar un usuario de Contacto principal, observe el avatar, la función principal del usuario y su dirección de correo electrónico para distinguir entre usuarios con nombres idénticos. Los usuarios deben estar asociados con al menos una función para verla a medida que los añade.</p>
-      <p> Debe tener activada la configuración Ver información de contacto en su nivel de acceso para que los usuarios vean los correos electrónicos de los usuarios. Para obtener más información, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md">Conceder acceso a usuarios</a>.</p>
+      <p> Debe tener habilitada la configuración Ver información de contacto en su nivel de acceso para que los usuarios vean los correos electrónicos de los usuarios. Para obtener más información, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md">Conceder acceso a usuarios</a>.</p>
 
 
    </td> 

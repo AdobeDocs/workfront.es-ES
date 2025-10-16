@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 51018635-cd9a-402d-a136-c5bec4707cda
-source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
+source-git-commit: fb555df123701c62e9a0f2d451ad6dcd16586595
 workflow-type: tm+mt
-source-wordcount: '685'
-ht-degree: 86%
+source-wordcount: '662'
+ht-degree: 85%
 
 ---
 
@@ -33,32 +33,30 @@ Si hay grupos por encima del grupo que administra, sus administradores también 
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Plan de Adobe Workfront</td> 
+   <td>paquete de Adobe Workfront</td> 
    <td>Cualquiera</td> 
   </tr> 
   <tr> 
   <tr> 
-   <td role="rowheader">Licencia de Adobe Workfront</td> 
-   <td><p>Nuevo: estándar</p>
-       <p>O</p>
-       <p>Actual: plan</p></td>
+   <td>Licencia de Adobe Workfront</td> 
+   <td>
+   <p>Estándar</p>
+   <p>Plan</p></td>
   </tr> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraciones de nivel de acceso</td> 
+   <td>Configuraciones de nivel de acceso</td> 
    <td>Debe ser administrador de grupo del grupo o administrador del sistema.</td>
   </tr> 
  </tbody> 
 </table>
 
-Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -105,7 +103,7 @@ Para obtener más información, consulte [Cómo heredan los grupos los estados](
 
 ## Cuando un estado predeterminado está oculto
 
-Si oculta un estado predeterminado (activando la opción Ocultar estado), el sistema intenta establecer otro estado del tipo equivalente como predeterminado en su lugar.
+Si oculta un estado predeterminado (habilitando la opción Ocultar estado), el sistema intenta establecer otro estado del tipo equivalente como predeterminado en su lugar.
 
 Si no hay ningún estado disponible del tipo equivalente, el tipo de estado se mostrará como **Oculto** y no estará disponible para los elementos de trabajo.
 

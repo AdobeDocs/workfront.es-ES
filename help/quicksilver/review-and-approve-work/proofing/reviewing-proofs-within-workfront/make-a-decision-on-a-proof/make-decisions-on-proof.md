@@ -1,65 +1,63 @@
 ---
 product-area: documents
 navigation-topic: review-proofs-within-workfront
-title: Tome una decisión sobre una prueba en el visualizador de pruebas
-description: Puede tomar una decisión sobre una prueba directamente en el visualizador de pruebas.
+title: Tome una decisión sobre una prueba en el visor de corrección
+description: Puede tomar una decisión sobre una prueba directamente en el visor de corrección.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: cf74ac54-b8c1-4404-b35f-2aa94831ecad
-source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
+source-git-commit: fe269b088c82e7045ffbb5155d54432e0b413cbe
 workflow-type: tm+mt
-source-wordcount: '402'
-ht-degree: 2%
+source-wordcount: '325'
+ht-degree: 99%
 
 ---
 
-# Tome una decisión sobre una prueba en el visualizador de pruebas
+# Tome una decisión sobre una prueba en el visor de corrección
 
-Puede tomar una decisión sobre una prueba directamente en el visualizador de pruebas.
+Puede tomar una decisión sobre una prueba directamente en el visor de corrección.
 
 ## Requisitos de acceso
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
-
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plan Adobe Workfront*</td> 
-   <td> <p>Plan actual: Pro o Superior</p> <p>o</p> <p>Plan heredado: Select o Premium</p> <p>Para obtener más información sobre cómo revisar el acceso con los diferentes planes, consulte <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Acceso a la funcionalidad de revisión en Workfront</a>.</p> </td> 
+   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licencia de Adobe Workfront*</td> 
-   <td> <p>Plan actual: Trabajo o Plan</p> <p>Plan heredado: Cualquiera (debe tener la revisión habilitada para el usuario)</p> </td> 
+   <td role="rowheader">Licencia de Adobe Workfront</td> 
+   <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Perfil de permiso de revisión </td> 
-   <td>Responsable o superior</td> 
+   <td role="rowheader">Perfil de permiso de prueba </td> 
+   <td>Administrador o superior</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Función de prueba</td> 
    <td>Aprobador, Revisor y aprobador, Autor, Moderador</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraciones de nivel de acceso*</td> 
-   <td> <p>Editar acceso a documentos</p> <p>Para obtener información sobre cómo solicitar acceso adicional, vea <a href="../../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a los objetos </a>.</p> </td> 
+   <td role="rowheader">Configuraciones de nivel de acceso</td> 
+   <td> <p>Acceso de edición a documentos</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qué plan, función o perfil de permiso de revisión tiene, póngase en contacto con su administrador de Workfront o de Workfront Proof.
+Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Tome una decisión sobre una prueba en el visualizador de pruebas
+## Tome una decisión sobre una prueba en el visor de corrección
 
 1. Vaya al proyecto, tarea o problema que contiene el documento y, a continuación, seleccione **Documentos**.
 1. Busque la revisión que necesita y haga clic en **Abrir revisión**.
 
-1. Haga clic en **Tomar decisión** en la parte superior central del visor de revisión.
+1. Haga clic en **Tomar decisión** en la parte superior central del visor de corrección.
 
 1. En el cuadro **Decisión de la revisión** que aparece, haga clic en una de las siguientes decisiones:
 
@@ -81,7 +79,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
      </tr> 
      <tr> 
       <td role="rowheader">No es relevante</td> 
-      <td>La prueba no es relevante para usted y no necesita tomar una decisión.</td> 
+      <td>La prueba no es relevante para usted y no necesita tomar ninguna decisión.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Decisión personalizada</td> 
@@ -90,9 +88,9 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
     </tbody> 
    </table>
 
-1. (Condicional) Si el administrador de Adobe Workfront o de Workfront Proof ha agregado una sección Motivos, seleccione los motivos aplicables para su decisión. Para obtener más información sobre cómo los administradores pueden configurar motivos de decisión, consulte  [Configurar opciones de decisión de aprobación en Workfront Proof](../../../../workfront-proof/wp-acct-admin/account-settings/configure-approval-decision-in-wp.md).
+1. (Condicional) Si el administrador de Adobe Workfront o de Workfront Proof ha añadido una sección Motivos, seleccione los motivos aplicables para su decisión. Para obtener más información sobre cómo los administradores pueden configurar motivos de decisión, consulte  [Configurar opciones de decisión de aprobación en Workfront Proof](../../../../workfront-proof/wp-acct-admin/account-settings/configure-approval-decision-in-wp.md).
 1. (Opcional) Seleccione **Enviarme una confirmación por correo electrónico** para recibir una confirmación por correo electrónico de su decisión.
-1. Haga clic en **Tomar decisión**.
+1. Haga clic en **Tomar una decisión**.
 
 <!--
 <h2 data-mc-conditions="QuicksilverOrClassic.Draft mode">Make a decision when the proof is configured with an approval process</h2>

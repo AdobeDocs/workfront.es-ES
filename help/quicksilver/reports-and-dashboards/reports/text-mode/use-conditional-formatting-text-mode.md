@@ -6,7 +6,7 @@ description: Uso del formato condicional en el modo Texto
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 48fc8450-35c6-4d59-89d3-0feffe662b25
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
 source-wordcount: '1734'
 ht-degree: 5%
@@ -26,28 +26,20 @@ Para obtener más información acerca de cómo aplicar formato condicional a una
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
-Debe tener lo siguiente:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Plan de Adobe Workfront</td> 
+   <td role="rowheader">paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licencia de Adobe Workfront</td> 
    <td> 
-      <p>Nuevo:</p>
-         <ul>
-         <li><p>Estándar</p></li>
-         </ul>
-      <p>Actual:</p>
-         <ul>
-         <li><p>Plan</p></li>
-         </ul>
-   </td>
+     <p>Estándar</p>
+     <p>Plan</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso</td> 
@@ -56,11 +48,11 @@ Debe tener lo siguiente:
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
    <td> <p>Permisos de administración de un informe para editar vistas en un informe</p> <p>Permisos de administración de una vista para editarla</p> </td> 
-  </tr> 
+  </tr>
  </tbody> 
 </table>
 
-Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -86,7 +78,7 @@ Para agregar formato condicional a una vista en la interfaz de modo de texto:
 
 1. Ir a una lista de objetos.
 1. Expanda el menú desplegable de una vista a la que desee agregar formato condicional.
-1. Pulse **Guardar vista**.
+1. Haga clic en **Guardar vista**.
 1. Haga clic en la columna de la vista a la que desee aplicar el formato condicional.
 1. Haga clic en **Cambiar al modo de texto**.
 1. En el área **Mostrar en esta columna:**, haga clic en **Haga clic para editar el texto**.

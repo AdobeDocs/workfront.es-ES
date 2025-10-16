@@ -7,7 +7,7 @@ description: Si lo desea, puede añadir una columna de entrada al tablero que re
 author: Courtney
 feature: Agile
 exl-id: 4991f4f7-6f3d-4e15-ae8d-96433ed46557
-source-git-commit: 0ff02569d3c7fb532a2faafc46fe4235ce77acd4
+source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
 workflow-type: tm+mt
 source-wordcount: '1033'
 ht-degree: 69%
@@ -57,15 +57,14 @@ Para obtener más información sobre las columnas, consulte [Administrar columna
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront]</td> 
+   <td role="rowheader">paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licencia</td> 
+   <td role="rowheader">Licencia de Adobe Workfront</td> 
    <td> 
-   <p>Nuevo: [!UICONTROL Contributor] o superior</p> 
-   <p>o</p>
-   <p>Actual: [!UICONTROL Request] o superior</p>
+   <p>Colaborador o superior</p> 
+   <p>Solicitud o superior</p>
    </td> 
   </tr> 
  </tbody> 

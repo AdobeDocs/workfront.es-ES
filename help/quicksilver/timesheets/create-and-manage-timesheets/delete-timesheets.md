@@ -6,10 +6,10 @@ description: Los cambios que realice en un perfil de plantilla de horas no entra
 author: Alina
 feature: Timesheets
 exl-id: c6a86c1b-8580-4896-8933-d4e2818e98ed
-source-git-commit: 210ca2e82286ff904bc7defb7b8c9c2559489d66
+source-git-commit: 69cd5fb1d089b81b7a1673609b92537137b6b68e
 workflow-type: tm+mt
-source-wordcount: '810'
-ht-degree: 0%
+source-wordcount: '751'
+ht-degree: 40%
 
 ---
 
@@ -24,7 +24,7 @@ Los cambios que realice en un perfil de hoja de horas no entrarán en vigor de i
 Los administradores de Adobe Workfront o de grupos pueden generar plantillas de horas para todos los miembros del sistema. Para obtener más información sobre la generación manual de plantillas de horas, consulte:
 
 * [Generar manualmente hojas de horas](../../timesheets/create-and-manage-timesheets/manually-generate-timesheets.md)
-* [Crear y administrar perfiles de hojas de horas de un grupo](../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-timesheet-profiles.md)
+* [Crear y administrar los perfiles de plantillas de horas de un grupo](../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-timesheet-profiles.md)
 
 >[!IMPORTANT]
 >
@@ -35,54 +35,58 @@ Los administradores de Adobe Workfront o de grupos pueden generar plantillas de 
 
 ## Requisitos de acceso
 
-Debe tener lo siguiente para realizar los pasos de este artículo:
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
-<table style="table-layout:auto"> 
+<table style="table-layout:auto">
  <col> 
- <col> 
+ <col>
  <tbody> 
   <tr> 
-   <td role="rowheader">plan de Adobe Workfront</td> 
-   <td> <p>Cualquiera</p> </td> 
+   <td>paquete de Adobe Workfront</td> 
+   <td><p>Cualquiera</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licencia de Adobe Workfront</td> 
-   <td> <p>Plan </p> </td> 
+   <td>Licencia de Adobe Workfront</td> 
+   <td>
+   <p>Estándar</p>
+   <p>Plan</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraciones de nivel de acceso*</td> 
-   <td> <p>Debe tener acceso administrativo a las hojas de horas. </p> <p>Para obtener más información, consulte <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Conceder a los usuarios acceso administrativo a ciertas áreas</a>.</p> <p>Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, vea <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
+   <td>Configuraciones de nivel de acceso</td> 
+   <td><p>Acceso administrativo a hojas de horas</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su administrador de Workfront.
+Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Eliminación de plantillas de horas de una lista
 
-1. Haga clic en el icono **Menú principal** ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront.
+1. Haga clic en el icono de **Menú principal** ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront.
 
-1. Haga clic en **Plantillas de horas**. El filtro **Todos** está seleccionado de manera predeterminada y muestra todas las hojas de horas que puede ver.
+1. Haga clic en **Plantilla de horas**. El filtro **Todos** está seleccionado de manera predeterminada y muestra todas las hojas de horas que puede ver.
 
    ![](assets/timesheet-list-one-timesheet-selected-nwe-350x70.png)
 
 1. (Opcional) Realice una de las siguientes acciones para actualizar el filtro en la lista de plantillas de horas:
 
-   * Seleccione **Mis aprobaciones de hojas de horas** en la esquina superior derecha de la página para ver solamente las hojas de horas que usted apruebe
+   * Seleccione **Aprobaciones de Mis plantillas de horas** en la esquina superior derecha de la página para ver solamente las plantillas de horas que usted apruebe
 
      O
 
-     Seleccione **Mis hojas de horas** para ver solamente sus hojas de horas.
+     Seleccione **Mis plantillas de horas** para ver solamente sus plantillas de horas.
 
-     Esto aplica los filtros Mis aprobaciones de hojas de horas o Mis hojas de horas a la lista de hojas de horas.
+     Esto aplica los filtros Mis aprobaciones de plantillas de horas o Mis plantillas de horas a la lista de plantillas de horas.
 
      ![](assets/my-timesheet-approvals-my-timesheets-pills-on-timesheets-list-nwe-350x58.png)
 
-   * Haga clic en el icono Filtro ![](assets/filter-nwepng.png) para aplicar un filtro diferente o crear uno nuevo. Para obtener información sobre cómo crear o actualizar filtros, consulte [Crear o editar filtros en Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-filters.md).
+   * Haga clic en el icono de Filtro ![](assets/filter-nwepng.png) para aplicar un filtro diferente o crear uno nuevo. Para obtener información sobre cómo crear o actualizar filtros, consulte [Crear o editar filtros en Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-filters.md).
 
    >[!NOTE]
    >
-   >Las opciones Mis aprobaciones de hojas de horas y Mis hojas de horas no se muestran en la parte superior de la lista de hojas de horas ni en la lista de filtros si el administrador de Workfront o de un grupo ha eliminado los filtros Mis aprobaciones de hojas de horas y Mis hojas de horas de los controles de Lista en el área Configuración o de la plantilla Diseño. Para obtener más información, consulte los siguientes artículos:
+   >Las opciones Mis aprobaciones de plantillas de horas y Mis plantillas de horas no se muestran en la parte superior de la lista de plantillas de horas ni en la lista de filtros si el administrador de Workfront o de un grupo ha eliminado estos filtros de los Controles de lista en el área Configuración o de la Plantilla de diseño.Para obtener más información, consulte los siguientes artículos:
    >
    >   
    >   
@@ -100,17 +104,17 @@ Debe tener lo siguiente para realizar los pasos de este artículo:
 
 1. Seleccione una o varias hojas de horas que desee eliminar y haga clic en el icono **Eliminar** ![](assets/delete.png) en la parte superior de la lista de hojas de horas.
 
-1. Haga clic en **Eliminar**.
+1. Haga clic **eliminar**.
 
    Las hojas de horas seleccionadas se eliminan y no se pueden recuperar.
 
    Para generar nuevas plantillas de horas, asegúrese de que los usuarios estén asociados a un perfil de plantilla de horas y pida al administrador de Workfront o a un administrador de grupo que genere nuevas plantillas de horas.
 
-   Para obtener más información, consulte lo siguiente:
+   Para obtener más información, consulte los artículos:
 
-   * [Crear, editar y asignar perfiles de hojas de horas](../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md)
-   * [Generar hojas de horas manualmente](../../timesheets/create-and-manage-timesheets/manually-generate-timesheets.md)
-   * [Crear y administrar perfiles de hojas de horas de un grupo](../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-timesheet-profiles.md)
+   * [Crear, editar y asignar perfiles de plantillas de horas](../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md)
+   * [Generar plantillas de horas manualmente](../../timesheets/create-and-manage-timesheets/manually-generate-timesheets.md)
+   * [Crear y administrar los perfiles de plantillas de horas de un grupo](../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-timesheet-profiles.md)
 
 ## Eliminar una plantilla de horas de la página de plantilla
 

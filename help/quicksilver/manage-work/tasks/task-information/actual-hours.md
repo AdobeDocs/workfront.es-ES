@@ -7,10 +7,10 @@ description: Las horas que inicie sesión en los elementos de trabajo en Adobe W
 author: Alina
 feature: Work Management
 exl-id: c4b0e431-1765-416d-89f5-6ac663ac1d4f
-source-git-commit: d577fb1f84c2a91c7b4a37be271235ffa338c9fd
+source-git-commit: 055228fd15d670a214039575dc076ab36f6e99eb
 workflow-type: tm+mt
-source-wordcount: '1253'
-ht-degree: 30%
+source-wordcount: '1220'
+ht-degree: 28%
 
 ---
 
@@ -30,37 +30,62 @@ Para obtener más información sobre cómo permitir que los usuarios registren t
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Plan de Adobe Workfront</td> 
+   <td role="rowheader">paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licencia de Adobe Workfront*</td> 
+   <td role="rowheader">Licencia de Adobe Workfront</td> 
    <td> 
-   <p>Nuevo: estándar<p>
-   <p>O</p>
-   <p>Actual: Trabajo o superior</p> </td> 
+   <p>Estándar<p>
+   <p>Trabajo o superior</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso</td> 
-   <td> <p>Acceso de visualización o superior a tareas, proyectos o problemas</p> </td> 
+   <td> <p>Ver o aumentar el acceso a Tareas, Proyectos o Problemas</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Permisos de visualización o superiores a una tarea, proyecto o problema</p> <p>Para obtener información sobre cómo solicitar acceso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a objetos </a>.</p> </td> 
+   <td> <p>Permisos de visualización o superiores a una tarea, proyecto o problema</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-*Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
+
+<!--Old:
+ 
+ <table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> 
+   <p>New: Standard<p>
+   <p>Or</p>
+   <p>Current: Work or higher</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>View or higher access to Tasks,&nbsp;Projects, or Issues</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>View or higher permissions to a task, a project, or an issue</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## Horas reales vs. Horas reales heredadas
 

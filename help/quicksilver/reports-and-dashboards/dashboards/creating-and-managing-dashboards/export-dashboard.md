@@ -6,10 +6,10 @@ description: Puede exportar un tablero a un archivo .pdf utilizando las opciones
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 6c8dc5be-6adb-400a-b86a-a7f7e84d0ba7
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: c8b7ad473b0c2120ef5ea52374b3501ad6f553f1
 workflow-type: tm+mt
 source-wordcount: '375'
-ht-degree: 91%
+ht-degree: 90%
 
 ---
 
@@ -22,47 +22,39 @@ Puede exportar un tablero a un archivo .pdf utilizando las opciones de impresió
 >[!NOTE]
 >
 >Al imprimir contenido desde una página web, el formato del contenido puede verse afectado.\
->Por ejemplo, el encabezado de un informe en un panel puede quedar cortado de las filas de una lista de informes.
+>Por ejemplo, el encabezado de un informe en un panel de control puede quedar cortado de las filas de una lista de informes.
 
 ## Requisitos de acceso
 
-+++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
-
-Debe tener lo siguiente:
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Plan de Adobe Workfront</strong></td> 
+   <td role="rowheader">paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Licencia de Adobe Workfront</strong></td> 
-    <td> 
-      <p>Nuevo:</p>
-         <ul>
-         <li><p>Estándar</p></li>
-         </ul>
-      <p>Actual:</p>
-         <ul>
-         <li><p>Trabajo o superior</p></li>
-         </ul>
-   </td>
+   <td role="rowheader">Licencia de Adobe Workfront</td> 
+   <td> 
+      <p>Estándar</p>
+      <p>Trabajo o superior</p>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Configuraciones de nivel de acceso</strong></td> 
-   <td> <p>Acceso de visualización a informes, paneles de control y calendarios</p> </td> 
-  </tr> 
+   <td role="rowheader">Configuraciones de nivel de acceso</td> 
+   <td> <p>Editar el acceso a Informes, Paneles de control y Calendarios</p></td> 
+  </tr>  
   <tr> 
-   <td role="rowheader"><strong>Permisos de objeto</strong></td> 
+   <td role="rowheader">Permisos de objeto</td> 
    <td> <p>Permisos de visualización al panel de control</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

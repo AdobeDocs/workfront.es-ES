@@ -6,10 +6,11 @@ title: Eliminar una tarea de plantilla
 description: Puede eliminar una plantilla en tareas que ya no la necesite. Las tareas de plantilla eliminadas no se pueden recuperar. Las tareas de proyecto creadas a partir de la tarea de plantilla no se eliminan ni modifican.
 author: Alina
 feature: Work Management
-source-git-commit: bbf2d987bf3267117ab61b123141dd2cb2f82fc3
+exl-id: dd733e9f-8045-4b65-828b-fe6aa40d973f
+source-git-commit: d7600a55b3dffb242957234de9d85a0deb1ad2e3
 workflow-type: tm+mt
-source-wordcount: '268'
-ht-degree: 19%
+source-wordcount: '275'
+ht-degree: 23%
 
 ---
 
@@ -24,7 +25,7 @@ Puede eliminar una plantilla en tareas que ya no la necesite. Las tareas de proy
 
 ## Requisitos de acceso
 
-+++ Amplíe para ver los requisitos de acceso. 
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -35,12 +36,12 @@ Puede eliminar una plantilla en tareas que ya no la necesite. Las tareas de proy
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Licencia de Adobe Workfront*</p></td> 
-   <td> <p>Estándar </p>
-   <p>Plan </p> </td> 
+   <td role="rowheader"><p>Licencia de Adobe Workfront</p></td> 
+   <td> <p>Estándar</p>
+   <p>Plan</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Nivel de acceso</p></td> 
+   <td role="rowheader"><p>Configuración de nivel de acceso</p></td> 
    <td> <p>Acceso de edición a las plantillas</p>  </td> 
   </tr> 
   <tr> 
@@ -50,9 +51,35 @@ Puede eliminar una plantilla en tareas que ya no la necesite. Las tareas de proy
  </tbody> 
 </table>
 
-*Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Workfront package</p></td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Workfront license*</p></td> 
+   <td> <p>Standard </p>
+   <p>Plan </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Access level</p></td> 
+   <td> <p>Edit access to Templates</p>  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Object permissions</p> </td> 
+   <td> <p>Manage permissions for a template.</p> <p>You cannot share a template task.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## Eliminar una tarea de plantilla
 
@@ -76,7 +103,3 @@ Puede eliminar una o varias tareas de plantilla de forma masiva.
 >Puede hacer clic en las secciones Predecesoras o Subtareas del panel izquierdo de una tarea de plantilla para eliminar una predecesora o una subtarea.
 >
 >Repita los pasos anteriores para eliminar las tareas predecesoras o subtareas de plantilla.
-
-
-
-

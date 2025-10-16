@@ -6,9 +6,9 @@ description: Puede quitar un filtro, una vista o una agrupación de listas e inf
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 422d262e-e19d-4070-85f1-77ecb7430342
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '811'
+source-wordcount: '801'
 ht-degree: 95%
 
 ---
@@ -21,46 +21,37 @@ Puede quitar un filtro, una vista o una agrupación de listas e informes si los 
 
 ## Requisitos de acceso
 
-+++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
-
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo. 
 
 <table style="table-layout:auto"> 
  <col> 
- </col> 
  <col> 
- </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Plan de Adobe Workfront*</strong></td> 
-   <td> <p>Cualquiera </p> </td> 
+   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Licencia de Adobe Workfront*</strong></td> 
+   <td role="rowheader">Licencia de Adobe Workfront</strong></td> 
    <td> 
-      <p>Nuevo:</p>
-         <ul>
-         <li><p>Colaborador o superior</p></li>
-         </ul>
-      <p>Actual:</p>
-         <ul>
-         <li><p>Solicitud o superior</p></li>
-         </ul>
+    <p>Colaborador o superior</p>
+    <p>Solicitud o superior</p>
    </td>
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Configuraciones de nivel de acceso*</strong></td> 
-   <td><p>Acceso de visualización o superior a filtros, vistas y agrupaciones</p></td> 
+   <td role="rowheader">Configuraciones de nivel de acceso</td> 
+   <td> <p>Acceso de edición a filtros, vistas y agrupaciones</p>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Permisos de objeto</strong></td> 
-   <td><p>Ver los permisos con acceso para compartir en el filtro, vista o agrupación que desee quitar</p>
+   <td role="rowheader">Permisos de objeto</td> 
+    <td> <p>Ver los permisos con acceso para compartir en el filtro, vista o agrupación que desee quitar</p></td> 
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Para obtener información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -84,14 +75,14 @@ Cuando se quita o elimina un filtro con el generador estándar, se dan los sigui
 
 1. Vaya a una lista de proyectos, tareas, problemas, portafolios, programas, usuarios, plantillas o grupos.
 1. Haga clic en el icono **Filtro** ![Icono de filtro](assets/filter-nwepng.png).
-1. Pase el ratón sobre un filtro en **Compartido conmigo**, haga clic en el menú **Más** ![Icono de más](assets/more-icon-spectrum.png) y, a continuación, haga clic en **Quitar**.
+1. Pase el puntero por encima de un filtro en **Compartido conmigo**, haga clic en el menú **Más**![Icono de más](assets/more-icon-spectrum.png) y, a continuación, haga clic en **Quitar**.
 1. Seleccione **Quitar** en el mensaje de confirmación para quitar el filtro de forma permanente.
 
 ### Elimine un filtro mediante el generador estándar
 
 1. Vaya a una lista de proyectos, tareas, problemas, portafolios, programas, usuarios, plantillas o grupos.
 1. Haga clic en el icono **Filtro** ![Icono de filtro](assets/filter-nwepng.png).
-1. Pase el ratón sobre un filtro para el que tenga permisos para eliminarlo, haga clic en el menú **Más** ![Icono de más](assets/more-icon-spectrum.png) y, a continuación, haga clic en **Eliminar**.
+1. Pase el puntero por encima de un filtro para el que tenga permisos para eliminarlo, haga clic en el menú **Más**![Icono de más](assets/more-icon-spectrum.png) y, a continuación, haga clic en **Eliminar**.
 
    ![Eliminar filtro](assets/new-filters-more-menu-options-with-delete.png)
 

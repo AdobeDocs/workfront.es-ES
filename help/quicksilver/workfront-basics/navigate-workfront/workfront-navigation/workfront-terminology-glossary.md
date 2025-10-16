@@ -6,7 +6,7 @@ description: El [!DNL Adobe Workfront] glosario enumera términos de uso común 
 author: Alina
 feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
-source-git-commit: 6d02397a15b0b06c3c60fb5d71dfeb3cb0b0a30d
+source-git-commit: fbe17e50ff161156a0b4b2a8b468b4eb844cae59
 workflow-type: tm+mt
 source-wordcount: '21167'
 ht-degree: 96%
@@ -365,7 +365,7 @@ La siguiente tabla es una lista de los términos más utilizados en Adobe Workfr
        </tr> 
        <tr> 
         <td>[!UICONTROL Bud. Hours]</td> 
-        <td> <p>Informe de [!UICONTROL Budgeted Hour]</p><p>El objeto [!UICONTROL Budgeted Hour] del informe de Hora presupuestada hace referencia a información relacionada con una herramienta de administración de recursos obsoleta. Solo el campo "[!UICONTROL . Hours]" en este informe hace referencia a las horas presupuestadas en el área de [!UICONTROL Resource Planner] o [!UICONTROL Resource Budgeting] del [!UICONTROL Business Case] del proyecto. </p> <p>Para obtener más información acerca de cómo crear un informe, consulte el artículo <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md" class="MCXref xref">Crear un informe personalizado</a>.</p> </td> 
+        <td> <p>Informe de [!UICONTROL Budgeted Hour]</p><p>El objeto [!UICONTROL Budgeted Hour] del informe de Hora presupuestada hace referencia a información relacionada con una herramienta de administración de recursos obsoleta. Solo el campo "[!UICONTROL. Hours]" en este informe hace referencia a las horas presupuestadas en el área de [!UICONTROL Resource Planner] o [!UICONTROL Resource Budgeting] del [!UICONTROL Business Case] del proyecto. </p> <p>Para obtener más información acerca de cómo crear un informe, consulte el artículo <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md" class="MCXref xref">Crear un informe personalizado</a>.</p> </td> 
        </tr> 
        <tr> 
         <td>[!UICONTROL Resource Planner Budgeted Hours] </td> 
@@ -1688,7 +1688,7 @@ Las entradas de horas pueden tener uno de los siguientes estados en Workfront:
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Ad hoc"> 
    <td>[!UICONTROL Portfolio]</td> 
-   <td> <p>Colección de proyectos con características comunes. Estos proyectos suelen competir por los mismos recursos, presupuesto o franja horaria. Puede dividir Portafolio en Programas y asociar los proyectos con los Programas antes de añadirlos a un Portafolio.</p> <p>Para obtener más información sobre portafolios, consulte <a href="../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md">Información general al portafolio en [!DNL Adobe Workfront]</a>.</p> 
+   <td> <p>Colección de proyectos con características comunes. Estos proyectos suelen competir por los mismos recursos, presupuesto o franja horaria. Puede dividir Portafolio en Programas y asociar los proyectos con los Programas antes de añadirlos a un Portafolio.</p> <p>Para obtener más información sobre los portafolios, consulte <a href="../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md">Comprender la metodología de portafolios</a>.</p> 
    </td> 
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Integrated"> 
@@ -2069,7 +2069,7 @@ Las entradas de horas pueden tener uno de los siguientes estados en Workfront:
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Optimized"> 
    <td>[!UICONTROL Scenario] (en [!DNL Workfront Fusion]) </td> 
-   <td> <p>Un escenario consiste en una serie de pasos (módulos) que indican cómo se deben transferir y transformar los datos entre aplicaciones y servicios.</p> <p>Para obtener información acerca de los escenarios de [!DNL Workfront Fusion], consulte Información general sobre escenarios de <a href="https://experienceleague.adobe.com/es/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/scenario-overview">[!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>Un escenario consiste en una serie de pasos (módulos) que indican cómo se deben transferir y transformar los datos entre aplicaciones y servicios.</p> <p>Para obtener información acerca de los escenarios de [!DNL Workfront Fusion], consulte Información general sobre escenarios de <a href="https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/scenario-overview">[!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Scenario] (en el [!DNL Workfront Scenario Planner]) </td> 
@@ -2504,7 +2504,7 @@ Debe utilizar la línea de código <code>[!UICONTROL usewidths=true]</code> adic
     <p>Un jefe de proyecto puede decidir utilizar este campo en lugar de [!UICONTROL Planned Hours] para estimar el esfuerzo necesario para completar una tarea. Este campo solo está visible cuando se cumplen las siguientes condiciones:</p> 
      <ul> 
       <li> <p>La tarea tiene un [!UICONTROL Simple Duration Type]. </p> <p><b>Sugerencia</b></p> <p> Si actualiza la tarea [!UICONTROL Duration Type] a cualquier otro tipo, este campo se oculta. </p> </li> 
-      <li>El jefe de proyecto ha activado el campo [!UICONTROL Use Work Effort] para calcular automáticamente la tarea [!UICONTROL Planned Hours] en el proyecto. </li> 
+      <li>El jefe de proyecto ha habilitado el campo [!UICONTROL Use Work Effort] para calcular automáticamente la tarea [!UICONTROL Planned Hours] en el proyecto. </li> 
      </ul> 
      <p>Para obtener información sobre el uso de [!UICONTROL Work Effort] en lugar de [!UICONTROL Planned Hours] para estimar el esfuerzo de la tarea, consulte <a href="../../../manage-work/tasks/task-information/work-effort.md" class="MCXref xref">Información general del esfuerzo de trabajo</a>. </p> 
      <p>Puede mostrar este campo en informes de tareas y listas.</p> 

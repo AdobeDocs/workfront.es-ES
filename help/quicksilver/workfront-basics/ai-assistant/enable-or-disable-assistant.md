@@ -5,10 +5,10 @@ description: Puede controlar qué niveles de acceso de su organización tienen a
 author: Becky
 feature: Get Started with Workfront
 exl-id: eec9f484-e29b-4256-b9ef-b45eb2e78eac
-source-git-commit: d929599ccdbfb90d731a3dfb9d83d3eb54d345ea
+source-git-commit: 8a0923bbdc8731652e59647409ef9b32e802e895
 workflow-type: tm+mt
-source-wordcount: '218'
-ht-degree: 65%
+source-wordcount: '201'
+ht-degree: 66%
 
 ---
 
@@ -18,32 +18,31 @@ Como administrador de Workfront, puede controlar qué usuarios de su organizaci�
 
 ## Requisitos de acceso
 
-Debe tener el siguiente acceso para habilitar o deshabilitar el Asistente para IA:
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Plan de Adobe Workfront</td> 
-   <td><p>Nuevo: cualquiera</p>
-       <p>o</p>
-       <p>Actual: no disponible</p></td>
+   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td> <p>Cualquiera </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licencia de Adobe Workfront</td> 
-   <td><p>Nuevo: estándar</p>
-       <p>o</p>
-       <p>Actual: no disponible</p></td>
+   <td><p>Estándar</p>
+   <p>Plan</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso</td> 
-   <td> <p>Debe ser administrador de Workfront.</p> </td> 
+   <td> <p>Debe ser administrador de Workfront</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Habilitar o deshabilitar el asistente de IA en Workfront
 

@@ -5,9 +5,9 @@ description: Puede localizar fácilmente elementos en  [!DNL Adobe Workfront]  b
 feature: Get Started with Workfront
 author: Lisa
 exl-id: 7c856349-c79f-40d8-9c96-b32bfb6d5417
-source-git-commit: a9dbfe21337be9cd9929f4e982e4979265ca14e1
+source-git-commit: f0b3b8aa64fa0b03a196bbcc2bdd037eeeb0f89e
 workflow-type: tm+mt
-source-wordcount: '1569'
+source-wordcount: '1570'
 ht-degree: 63%
 
 ---
@@ -33,17 +33,14 @@ Debe tener permisos para ver un objeto antes de poder encontrarlo en una búsque
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
+   <td role="rowheader">paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licencia</td> 
-   <td> <p>Nuevo: colaborador o superior<p>
-   <p>O</p>
-   <p>Actual: solicitud o superior </p>
-
-
-</td> 
+   <td role="rowheader">Licencia de Adobe Workfront</td> 
+   <td> <p>Colaborador o superior<p>
+   <p>Solicitud o superior </p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso</td> 
@@ -75,7 +72,7 @@ Puede buscar los siguientes objetos en Workfront:
 * Documentos
 * Portafolios
 * Programas
-* Paneles
+* Paneles de control
 * Compañías
 * Notas
 

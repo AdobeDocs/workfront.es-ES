@@ -6,10 +6,10 @@ description: Aprobación del trabajo
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 6e43edbb-14dd-493d-a76b-84be6c3bef82
-source-git-commit: 300de02b81bc6abc8be9bdceb2bd028b0c4aabfe
+source-git-commit: 628f668f0c5df34eb967729224d91a28cebbb17c
 workflow-type: tm+mt
-source-wordcount: '913'
-ht-degree: 19%
+source-wordcount: '846'
+ht-degree: 12%
 
 ---
 
@@ -29,57 +29,57 @@ Para obtener información acerca de cómo asociar aprobaciones con trabajo en Wo
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Plan de Adobe Workfront*</td> 
+   <td role="rowheader">paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licencia de Adobe Workfront*</td> 
-   <td> <p>Revisión o superior</p> </td> 
+   <td role="rowheader">Licencia de Adobe Workfront</td> 
+   <td> 
+   <p>Colaborador o superior</p>
+   <p>Revisión o superior</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraciones de nivel de acceso*</td> 
-   <td> <p>Vista o acceso superior a los objetos asociados con las aprobaciones</p> <p>Nota: Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, consulte <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
+   <td role="rowheader">Configuraciones de nivel de acceso</td> 
+   <td> <p>Vista o acceso superior a los objetos asociados con las aprobaciones</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Vista o permisos superiores a los objetos asociados a aprobaciones</p> <p>Para obtener información sobre cómo solicitar acceso adicional, consulte <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a los objetos </a>.</p> </td> 
+   <td> <p>Vista o permisos superiores a los objetos asociados a aprobaciones</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de Workfront.
+Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Localización de aprobaciones en Adobe Workfront
 
-Puede vista y administrar aprobaciones en varias áreas de Workfront.
+Puede ver y administrar las aprobaciones en varias áreas de Workfront.
 
-Para obtener más información sobre cómo ver elementos en espera de aprobación o elementos que usted mismo ha enviado para su aprobación, consulte [Ver aprobaciones](../../review-and-approve-work/manage-approvals/view-approvals.md).
+Para obtener más información sobre cómo ver los elementos que esperan aprobaciones o los elementos que usted mismo envió para su aprobación, consulte [Ver aprobaciones](../../review-and-approve-work/manage-approvals/view-approvals.md).
 
-## Aprobar el trabajo desde el área Inicio
+## Aprobar trabajo desde el área de Inicio
 
 1. Haga clic en el **[!UICONTROL Menú principal]** ![icono del menú principal](assets/main-menu-icon.png) en la esquina superior derecha y, a continuación, haga clic en **[!UICONTROL Inicio]**.
 1. (Condicional) Haga clic en **Personalizar** para agregar el widget **Mis aprobaciones**.
-1. (Condicional) Haga clic en el **menú desplegable Filtrar** y seleccione **Todas** para ver las aprobaciones asignadas y delegadas en usted.
+1. (Condicional) Haga clic en el menú desplegable **Filtro** y, a continuación, seleccione **Todos** para ver las aprobaciones que se le han asignado y delegado.
 
    >[!NOTE]
    >
-   >Las aprobaciones asignadas a funciones o grupos de trabajo no se muestran en la página principal. Las aprobaciones asignadas a Teams se muestran en el widget Mis aprobaciones para cada miembro del equipo.
+   >Las aprobaciones asignadas a roles o grupos de trabajos no se muestran en Inicio. Las aprobaciones asignadas a los equipos se muestran en el widget Mis aprobaciones para cada miembro del equipo.
 
 
-1. Seleccione el elemento en el que desee tomar una decisión de aprobación.
+1. Seleccione el elemento en el que desea tomar una decisión de aprobación.
 
-   ![Widget Mis aprobaciones](assets/my-approvals-widget.png)
+   ![Widget de mis aprobaciones](assets/my-approvals-widget.png)
 
-1. Haga clic en una de las opciones disponibles al tomar una decisión de aprobación en el panel derecho. Las siguientes opciones se muestran en la esquina superior derecha de la Página, según el tipo de elemento que apruebe:
+1. Haga clic en una de las opciones disponibles al tomar una decisión de aprobación en el panel derecho. Las siguientes opciones se muestran en la esquina superior derecha de la página, según el tipo de elemento que apruebe:
 
    <table>
    <tr>
@@ -99,7 +99,7 @@ Para obtener más información sobre cómo ver elementos en espera de aprobació
    <tr>
       <td>
        <ul>
-      <li>Subvención</li>
+      <li>Conceder</li>
       <li>Ignorar</li>
       </ul>
       Si lo desea, puede ajustar el nivel de acceso en el menú desplegable <b>Cambiar acceso</b>.
@@ -107,7 +107,7 @@ Para obtener más información sobre cómo ver elementos en espera de aprobació
       <td>
          <ul>
          <li>Aprobar</li>
-         <li>Rechazar</li>
+         <li>Reject</li>
          </ul>
       Puede dejar un comentario con su decisión haciendo clic en el menú desplegable del botón de decisión.
       </td>
@@ -122,13 +122,13 @@ Para obtener más información sobre cómo ver elementos en espera de aprobació
          <ul>
          <li>Completar mi revisión</li>
          </ul>
-      Las opciones de esta columna solo se aplican a las aprobaciones unificadas. Las aprobaciones de documento heredadas tienen el mismo aspecto que las aprobaciones de elementos de trabajo. 
+      Las opciones de esta columna se aplican únicamente a las aprobaciones unificadas. Las aprobaciones de documentos heredados aparecen igual que las aprobaciones de elementos de trabajo. 
       </td>
       <td>
          <ul>
-         <li>Ir a prueba</li>
+         <li>Ir a la revisión</li>
          </ul>
-         Usted toma su decisión en el prueba visualizador. Para obtener información sobre la revisión de un prueba, consulte <a href="../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md">Revisión de pruebas en Adobe Systems Workfront</a>.
+         La decisión se toma en el visualizador de pruebas. Para obtener información acerca de cómo revisar una revisión, vea <a href="../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md">Revisar pruebas en Adobe Workfront</a>.
       </td>
    </tr>
    </table>
@@ -148,7 +148,7 @@ Para aprobar trabajo directamente desde un proyecto, tarea o problema:
 
    ![Proceso de aprobación actual en el encabezado del proyecto](assets/current-approval-process-in-project-header-with-stages-nwe-350x92.png)
 
-   Está disponible la siguiente información de aprobación:
+   Está disponible la siguiente información sobre la aprobación:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -156,28 +156,28 @@ Para aprobar trabajo directamente desde un proyecto, tarea o problema:
     <tbody> 
      <tr> 
       <td role="rowheader">Estado</td> 
-      <td>Estado actual del proyecto, tarea o problema. Este es el estado actual del elemento que está pendiente de aprobación. El estado se aprueba después de aprobar cada fase del proceso de aprobación.</td> 
+      <td>El estado actual del proyecto, tarea o problema. Este es el estado actual del elemento que está pendiente de aprobación. El estado se aprueba después de aprobar cada fase del proceso de aprobación.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Fases de aprobación</td> 
-      <td>Las etapas del proceso de aprobación. <br>El fase actual que está pendiente de aprobación se muestra como Pendiente . Las etapas que ya han sido aprobadas se muestran como Aprobadas; Las fases que aún no se han aprobado se muestran como No iniciadas.</td> 
+      <td>Las fases del proceso de aprobación. <br>La fase actual que está pendiente de aprobación se muestra como Pendiente Las fases que ya se han aprobado se muestran como Aprobadas ; las fases que aún no se han aprobado se muestran como No iniciadas</td> 
      </tr> 
     </tbody> 
    </table>
 
 1. Haga clic en **Aprobar** o **Rechazar**, dependiendo de si desea aprobar o rechazar el proceso de aprobación.\
-   El fase de aprobación que estaba pendiente de aprobación ahora se aprueba y el proceso de aprobación pasa al siguiente fase. El estado se aprueba una vez aprobadas todas las etapas.
+   La fase de aprobación que estaba pendiente de aprobación ahora se aprueba y el proceso de aprobación pasa a la siguiente fase. El estado se aprueba después de que se hayan aprobado todas las etapas.
 
 ## Aprobar un documento directamente desde un documento
 
 1. Vaya al área de documentos que contiene el documento que requiere su aprobación.
-1. Seleccione el documento y, a continuación, haga clic en **Aprobar**, **Cambios** o **Rechazar**.\
+1. Seleccione el documento y haga clic en **Aprobar**, **Cambios** o **Rechazar**.\
    ![Aprobar documento](assets/approval-approve-document-350x215.png)\
-   ![Aprobación de documentos](assets/document-approval-350x199.png)
+   ![Aprobación de documento](assets/document-approval-350x199.png)
 
-1. (Opcional) Si se ha generado un prueba para el documento, puede aprobar el documento dentro de la interfaz de corrección, tal como se describe en [Aprobar un documento de un prueba](#approve-a-document-from-a-proof).
+1. (Opcional) Si se ha generado una prueba para el documento, puede aprobarlo en la interfaz de revisión, tal como se describe en [Aprobar un documento a partir de una revisión](#approve-a-document-from-a-proof).
 
-## Aprobar un documento de una aprobación notificación correo electrónico
+## Aprobar un documento a partir de un correo electrónico de notificación de aprobación
 
 Según la configuración de las notificaciones, puede recibir correos electrónicos que le notifiquen documentos para los que otros usuarios necesitan que tome una decisión de aprobación. Cuando reciba un correo electrónico que contenga un botón **Tomar decisión sobre la aprobación**, puede iniciar el proceso de aprobación directamente desde el correo electrónico:
 
@@ -191,9 +191,9 @@ Según la configuración de las notificaciones, puede recibir correos electróni
      <span style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">[Andrzej, does it make sense to leave this here if it's s document approval?&nbsp;Would there never be a proof in that situation?]</span>   
      -->
 
-     Para obtener información sobre la revisión de pruebas, consulte Revisión [de pruebas en Adobe Systems Workfront](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md).
+     Para obtener información acerca de la revisión de pruebas, vea [Revisar pruebas en Adobe Workfront](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md).
 
-1. Haga clic en la opción Decisión **&#x200B;**&#x200B;en la esquina superior derecha para aprobar, aprobar con cambios o rechazar el documento.
+1. Haga clic en una opción **Decisión** en la esquina superior derecha para aprobar, aprobar con cambios o rechazar el documento.
 
 ## Aprobar un documento a partir de una prueba {#approve-a-document-from-a-proof}
 

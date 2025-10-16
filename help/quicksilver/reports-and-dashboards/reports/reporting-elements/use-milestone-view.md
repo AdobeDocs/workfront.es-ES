@@ -6,10 +6,10 @@ description: Puede aplicar la vista de Hito a una lista de proyectos o a un info
 author: Courtney, Alina
 feature: Reports and Dashboards
 exl-id: c55e53b5-5559-4b6a-a8d7-5028be6af30f
-source-git-commit: 5b9b1f397c76afa2e2ae550e0ce62a6038b8bd86
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '1638'
-ht-degree: 57%
+source-wordcount: '1623'
+ht-degree: 56%
 
 ---
 
@@ -41,38 +41,30 @@ La vista Hito está disponible cuando se visualiza una lista de proyectos o un i
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
-
 <table style="table-layout:auto"> 
  <col> 
- </col> 
  <col> 
- </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Plan de Adobe Workfront</strong></td> 
+   <td role="rowheader">paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Licencia de Adobe Workfront</strong></td> 
+   <td role="rowheader">Licencia de Adobe Workfront</strong></td> 
    <td> 
-      <p>Nuevo:</p>
-         <ul>
-         <li><p>Estándar</p></li>
-         </ul>
-      <p>Actual:</p>
-         <ul>
-         <li><p>Trabajo o superior</p></li>
-         </ul>
+    <p>Estándar</p>
+    <p>Trabajo o superior</p>
    </td>
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Configuraciones de nivel de acceso*</strong></td> 
-   <td> <p>Acceso de visualización o superior a informes, paneles de control, calendarios</p></td> 
+   <td role="rowheader">Configuraciones de nivel de acceso</td> 
+   <td> <p>Acceso de visualización o superior a informes, paneles de control, calendarios</p>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Permisos de objeto</strong></td> 
-   <td> <p>Ver permisos de un informe de proyecto para aplicar la vista de hito a un informe</p> </td> 
+   <td role="rowheader">Permisos de objeto</td> 
+    <td> <p>Ver permisos de un informe de proyecto para aplicar la vista de hito a un informe</p></td> 
+   </td> 
   </tr> 
  </tbody> 
 </table>

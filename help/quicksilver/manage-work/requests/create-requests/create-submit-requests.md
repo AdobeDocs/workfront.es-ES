@@ -3,12 +3,12 @@ product-area: requests
 navigation-topic: create-requests
 title: Creación y envío de solicitudes
 description: En Adobe Workfront, el trabajo planificado se representa mediante proyectos y tareas. Sin embargo, es posible que se trabaje en un entorno en el que el trabajo no planificado (en forma de solicitudes aleatorias) pueda llegar en cualquier momento. Workfront proporciona un flujo de trabajo para dar cabida a este tipo de entorno mediante el uso de colas de solicitudes.
-author: Alina
+author: Becky
 feature: Work Management
 exl-id: 8b023a3d-326d-4d63-9e1e-8171553a9e23
-source-git-commit: f5044d457ebf203269e8007075e98ba4c136660f
+source-git-commit: 1b7964b533093c4eee20d69a74512a145e207e29
 workflow-type: tm+mt
-source-wordcount: '2790'
+source-wordcount: '2767'
 ht-degree: 76%
 
 ---
@@ -52,22 +52,19 @@ Puede crear una solicitud de Workfront Planning desde cero para crear registros 
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Plan de Adobe Workfront</td> 
+   <td role="rowheader">paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licencia de Adobe Workfront</td> 
-   <td> <p>Nuevo: colaborador o superior</p>
-   O
-   <p>Actual: solicitud o superior</p>
+   <td> <p>Colaborador o superior</p>
+   <p>Solicitud o superior</p>
     </td> 
   </tr> 
   <tr> 
@@ -81,7 +78,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  </tbody> 
 </table>
 
-Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

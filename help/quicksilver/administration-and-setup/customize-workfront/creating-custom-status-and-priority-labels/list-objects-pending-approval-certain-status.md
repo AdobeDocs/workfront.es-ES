@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 52dd8750-9a6f-4ac6-9779-ba4ea9b6f4e0
-source-git-commit: 0bc2817255b8879de377c3916bb36be760f28f4c
+source-git-commit: 366043a786c94f1bc40ad3b20af175bb84c94742
 workflow-type: tm+mt
-source-wordcount: '523'
-ht-degree: 0%
+source-wordcount: '500'
+ht-degree: 14%
 
 ---
 
@@ -23,36 +23,33 @@ Si intenta eliminar un estado, un mensaje de error puede indicarle que no se pue
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plan de Adobe Workfront</td> 
-   <td>Cualquiera</td> 
+   <td>paquete de Adobe Workfront</td> 
+   <td><p>Cualquiera</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licencia de Adobe Workfront</td> 
+   <td>Licencia de Adobe Workfront</td> 
    <td>
-     <p>Nuevo: estándar</p>
-     <p>o</p>
-     <p>Actual: plan</p>
+     <p>Estándar</p>
+     <p>Plan</p>
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraciones de nivel de acceso</td> 
-   <td><p>Editar acceso a informes, tableros y calendarios</p><p>Editar acceso a filtros, vistas y agrupaciones</p></td>
+   <td>Configuraciones de nivel de acceso</td> 
+   <td><p>Acceso de Edición a informes, paneles de control y calendarios</p><p>Acceso de edición a filtros, vistas y agrupaciones</p></td>
   </tr>
   <tr> 
-   <td role="rowheader">Permisos de objeto</td> 
+   <td>Permisos de objeto</td> 
    <td>Puede obtener permisos de administración para los informes que cree.</td>
   </tr>
  </tbody> 
 </table>
 
-Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -93,7 +90,7 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
    `approvalProcess:groupID_Mod=isblank`
 
    Puede ver la clave en la lista de estados, como se muestra en estos artículos:
-   * [Acceso a la lista de estados de proyectos del sistema](project-statuses.md)
+   * [Acceder a la lista de estados de proyectos del sistema](project-statuses.md)
    * [Acceso a la lista de estados de tareas del sistema](task-statuses.md)
    * [Acceso a la lista de estados de problemas del sistema](issue-statuses.md)
 

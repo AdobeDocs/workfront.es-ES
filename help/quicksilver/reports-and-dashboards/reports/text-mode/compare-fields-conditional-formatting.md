@@ -6,9 +6,9 @@ description: Puede utilizar el formato condicional para comparar dos campos dife
 author: Nolan
 feature: Reports and Dashboards
 exl-id: da4447ba-6e76-4701-88ee-87a30393bed9
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '469'
+source-wordcount: '468'
 ht-degree: 15%
 
 ---
@@ -21,29 +21,21 @@ Puede utilizar el formato condicional para comparar dos campos diferentes en una
 
 ## Requisitos de acceso
 
-+++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
-
-Debe tener lo siguiente:
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Plan de Adobe Workfront</td> 
+   <td role="rowheader">paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licencia de Adobe Workfront</td> 
    <td> 
-      <p>Nuevo:</p>
-         <ul>
-         <li><p>Estándar</p></li>
-         </ul>
-      <p>Actual:</p>
-         <ul>
-         <li><p>Plan</p></li>
-         </ul>
+     <p>Estándar</p>
+     <p>Plan</p>
    </td> 
   </tr> 
   <tr> 
@@ -57,7 +49,7 @@ Debe tener lo siguiente:
  </tbody> 
 </table>
 
-Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -97,7 +89,7 @@ Para comparar la fecha planificada de inicio y la fecha real de inicio de la tar
 
    >[!NOTE]
    >
-   >Si está comparando un campo nativo de Workfront, utilice la sintaxis en minúscula para el nombre del campo. Si está comparando un campo personalizado, use **DE:Nombre real del campo** para el campo de nombre que está comparando con el primer campo.\
+   >Si está comparando un campo nativo de Workfront, utilice la sintaxis en minúscula para el nombre del campo. Si está comparando un campo personalizado, use **DE:Actual Nombre del campo** para el campo de nombre que está comparando con el primer campo.\
    >Por ejemplo, si está comparando la **Fecha real de inicio** con un campo personalizado denominado **Fecha de entrega**, agregue la siguiente instrucción al código de modo de texto:
    >
    >`styledef.case.0.comparison.rightmethod=DE:Delivery Date`

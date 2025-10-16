@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 94dfa36a-801a-4eef-bcf5-4a3fecc5a3d0
-source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
+source-git-commit: c879d06cfe7ba76df3e974c160a7349f1503f17f
 workflow-type: tm+mt
-source-wordcount: '629'
-ht-degree: 13%
+source-wordcount: '519'
+ht-degree: 9%
 
 ---
 
@@ -40,9 +40,7 @@ Para obtener información sobre la concesión de permisos a vistas y espacios de
 
 ## Requisitos de acceso
 
-+++ Amplíe para ver los requisitos de acceso.
-
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo. 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -52,41 +50,16 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 <tbody> 
     <tr> 
 <tr> 
-<td> 
-   <p> Productos</p> </td> 
+   <td role="rowheader"><p>paquete de Adobe Workfront</p></td> 
    <td> 
-   <ul><li><p> Adobe Workfront</p></li> 
-   <li><p> Planificación de Adobe Workfront<p></li></ul></td> 
-  </tr>   
+<p>Cualquier paquete de Workfront y Planning</p> 
+O
+<p>Cualquier paquete de flujo de trabajo y planificación</p> 
+ </tr>
+
 <tr> 
-   <td role="rowheader"><p>Plan de Adobe Workfront*</p></td> 
-   <td> 
-<p>Cualquiera de los siguientes planes de Workfront:</p> 
-<ul><li>Seleccionar</li> 
-<li>Prime</li> 
-<li>Ultimate</li></ul> 
-<p>Workfront Planning no está disponible para planes Workfront heredados</p> 
-   </td> 
-<tr> 
-   <td role="rowheader"><p>Paquete de planificación de Adobe Workfront*</p></td> 
-   <td> 
-<p>Cualquiera </p> 
-<p>Para obtener más información sobre qué se incluye en cada plan de Workfront Planning, póngase en contacto con su administrador de cuentas de Workfront. </p> 
-   </td> 
- <tr> 
-   <td role="rowheader"><p>plataforma de Adobe Workfront</p></td> 
-   <td> 
-<p>La instancia de Workfront de su organización debe incorporarse a Adobe Unified Experience para poder acceder a Workfront Planning.</p> 
-<p><b>IMPORTANTE</b></p>
-<p>Los usuarios de su organización solo pueden solicitar permisos para vistas y espacios de trabajo cuando su organización está integrada en la experiencia unificada de Adobe. </p>
-<p>Para obtener más información, consulte <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience para Workfront</a>. </p> 
-   </td> 
-   </tr> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><p>Licencia de Adobe Workfront*</p></td> 
-   <td><p> Estándar, Ligero o Colaborador</p>
-   <p>Workfront Planning no está disponible para licencias de Workfront heredadas</p> 
+   <td role="rowheader"><p>Licencia de Adobe Workfront</p></td> 
+   <td><p>Cualquiera</p> 
   </td> 
   </tr> 
   <tr> 
@@ -98,7 +71,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
    <td role="rowheader"><p>Permisos de objeto</p></td> 
    <td>  <p>Una vez concedida la solicitud de permiso, puede obtener los siguientes permisos:</p>
    <ul><li><p>Ver o administrar para una vista</p></li>
-   <li><p>Ver, contribuir o administrar en un espacio de trabajo</p></li></ul>  
+   <li><p>Ver, contribuir o administrar para un espacio de trabajo</p></li></ul>  
    <p>Solo los usuarios con permisos de Administración de un espacio de trabajo y una vista pueden compartir una vista públicamente.</p></td> 
   </tr> 
 <tr>
@@ -112,9 +85,79 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 </tbody> 
 </table>
 
-*Para obtener más información sobre los requisitos de acceso de Workfront, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información acerca de los requisitos de acceso de Workfront, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
+
+<!--Old:
+ 
+ <table style="table-layout:auto"> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+    <tr> 
+<tr> 
+<td> 
+   <p> Products</p> </td> 
+   <td> 
+   <ul><li><p> Adobe Workfront</p></li> 
+   <li><p> Adobe Workfront Planning<p></li></ul></td> 
+  </tr>   
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront plan*</p></td> 
+   <td> 
+<p>Any of the following Workfront plans:</p> 
+<ul><li>Select</li> 
+<li>Prime</li> 
+<li>Ultimate</li></ul> 
+<p>Workfront Planning is not available for legacy Workfront plans</p> 
+   </td> 
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront Planning package*</p></td> 
+   <td> 
+<p>Any </p> 
+<p>For more information about what is included in each Workfront Planning plan, contact your Workfront account manager. </p> 
+   </td> 
+ <tr> 
+   <td role="rowheader"><p>Adobe Workfront platform</p></td> 
+   <td> 
+<p>Your organization's instance of Workfront must be onboarded to the Adobe Unified Experience to be able to access Workfront Planning.</p> 
+<p><b>IMPORTANT</b></p>
+<p>The users in your organization can request permissions for views and workspaces only when your organization is onboarded to the Adobe Unified Experience. </p>
+<p>For more information, see <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p> 
+   </td> 
+   </tr> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Workfront license*</p></td> 
+   <td><p> Standard, Light, or Contributor</p>
+   <p>Workfront Planning is not available for legacy Workfront licenses</p> 
+  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Access level configuration</p></td> 
+   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
+</td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>Object permissions</p></td> 
+   <td>  <p>After your request for permission is granted, you could gain the following permissions:</p>
+   <ul><li><p>View or Manage for a view</p></li>
+   <li><p>View, Contribute, or Manage to a workspace</p></li></ul>  
+   <p>Only users with Manage permissions to a workspace and a view can share a view publicly.</p></td> 
+  </tr> 
+<tr>
+   <td role="rowheader"><p>Layout template</p></td>
+   <td> Users with a Light or Contributor license must be assigned a layout template that includes Planning.
+   <p>Standard users and System Administrators have the Planning areas enabled by default.</p></div></li></ul>
+  
+</td>
+  </tr>
+ 
+</tbody> 
+</table> -->
 
 
 ## Solicitar permisos para una vista o espacio de trabajo
@@ -135,10 +178,8 @@ Cuando alguien comparte con usted un vínculo a un espacio de trabajo o una vist
 
    Todos los usuarios con permisos de Administración de la vista o del espacio de trabajo reciben las siguientes notificaciones para la solicitud de acceso:
    * Una notificación en la aplicación
-
      ![Notificación en la aplicación para solicitud de acceso](assets/in-app-notification-for-access-request.png)
    * Una notificación por correo electrónico
-
      ![Notificación por correo electrónico de la solicitud de acceso](assets/email-notification-for-access-request.png)
 
 1. (Condicional) Cuando el administrador de la vista o del espacio de trabajo le concede permisos para la vista o el espacio de trabajo, recibe una notificación por correo electrónico y una notificación en la aplicación con una confirmación de que el permiso se ha concedido. <!--check this - I was not able to test this, but Isk confirmed.-->

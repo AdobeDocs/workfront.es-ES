@@ -6,10 +6,10 @@ description: Puede cambiar el tamaño o contraer el gráfico de evolución para 
 author: Lisa
 feature: Agile
 exl-id: ad7ea883-987a-4278-8d24-7c1dd4e542a3
-source-git-commit: 91dc9946566e15bf32d0d89975e3e6b66b39e873
+source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
 workflow-type: tm+mt
-source-wordcount: '258'
-ht-degree: 41%
+source-wordcount: '244'
+ht-degree: 38%
 
 ---
 
@@ -23,8 +23,6 @@ Cualquier cambio que realice en el tamaño o la visibilidad del gráfico de evol
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -32,14 +30,13 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
+   <td role="rowheader">paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licencia</td> 
-   <td> <p>Nuevo: [!UICONTROL Light] o superior</p> 
-   o
-   <p>Actual: [!UICONTROL Review] o superior</p> </td> 
+   <td role="rowheader">Licencia de Adobe Workfront</td> 
+   <td> <p>Ligero o superior</p> 
+   <p>Revisión o superior</p> </td> 
   </tr>
  </tbody> 
 </table>

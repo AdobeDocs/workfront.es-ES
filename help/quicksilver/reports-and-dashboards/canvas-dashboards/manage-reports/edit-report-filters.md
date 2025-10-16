@@ -6,9 +6,9 @@ description: Puede editar los filtros de informe después de aplicarlos a un pan
 author: Courtney and Jenny
 feature: Reports and Dashboards
 exl-id: 5205c342-7f63-438e-97c8-e74f7dfecfd0
-source-git-commit: 56d0b9281387cc7b35055461e7868c7e4a194f81
+source-git-commit: 1059950dd3b20e0959c626e580f958bed5076541
 workflow-type: tm+mt
-source-wordcount: '1048'
+source-wordcount: '1052'
 ht-degree: 44%
 
 ---
@@ -18,8 +18,8 @@ ht-degree: 44%
 >[!IMPORTANT]
 >
 >Actualmente, la función Paneles de lienzo solo está disponible para los usuarios que participan en la fase beta. Es posible que algunas partes de la función no estén completas o que no funcionen según lo previsto durante esta fase. Envíe cualquier comentario sobre su experiencia siguiendo las instrucciones de la sección [Proporcionar comentarios](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) del artículo Información general sobre la versión beta de los paneles de lienzo.<br>
->&#x200B;>Si tiene comentarios acerca de un posible error o problema técnico, envíe un ticket al equipo de asistencia de Workfront. Para obtener más información, consulte [Póngase en contacto con Atención al cliente](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
->&#x200B;>Tenga en cuenta que esta versión beta no está disponible en los siguientes proveedores de la nube:
+>>Si tiene comentarios acerca de un posible error o problema técnico, envíe un ticket al equipo de asistencia de Workfront. Para obtener más información, consulte [Póngase en contacto con Atención al cliente](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
+>>Tenga en cuenta que esta versión beta no está disponible en los siguientes proveedores de la nube:
 >
 >* Traer su propia clave para Amazon Web Service
 >* Azure
@@ -29,7 +29,7 @@ Puede editar los filtros de informe una vez que los haya aplicado a un panel de 
 
 ## Requisitos de acceso
 
-+++ Amplíe para ver los requisitos de acceso. 
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
 <table style="table-layout:auto"> 
 <col> 
@@ -38,7 +38,7 @@ Puede editar los filtros de informe una vez que los haya aplicado a un panel de 
 </col> 
 <tbody> 
 <tr> 
-   <td role="rowheader"><p>Plan de Adobe Workfront</p></td> 
+   <td role="rowheader"><p>paquete de Adobe Workfront</p></td> 
    <td> 
 <p>Cualquiera </p> 
    </td> 
@@ -46,8 +46,8 @@ Puede editar los filtros de informe una vez que los haya aplicado a un panel de 
  <tr> 
    <td role="rowheader"><p>Licencia de Adobe Workfront</p></td> 
    <td> 
-<p>Actual: plan </p> 
-<p>Nuevo: estándar</p> 
+<p>Estándar</p> 
+<p>Plan</p> 
    </td> 
    </tr> 
   </tr> 

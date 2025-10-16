@@ -2,22 +2,24 @@
 product-area: projects
 navigation-topic: manage-issues
 title: Eliminar problemas
-description: Puede eliminar problemas o solicitudes en Adobe Workfront si tiene el acceso y los permisos correctos para hacerlo.
+description: Puede eliminar problemas o solicitudes en Adobe Workfront si dispone del acceso y los permisos correctos para hacerlo y cuando descubra que ya no son necesarios. Se recomienda cerrarlos, en lugar de eliminarlos, para que pueda conservar la precisión de sus proyectos.
 author: Alina
 feature: Work Management
 exl-id: 31cc802f-7fa6-420c-8494-a45313df1f10
-source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
+source-git-commit: 0542587bb3254dec5664de493c1c321528cf7f3e
 workflow-type: tm+mt
-source-wordcount: '712'
-ht-degree: 79%
+source-wordcount: '757'
+ht-degree: 67%
 
 ---
 
 # Eliminar problemas
 
-<!--Audited: 05/2025-->
+<!--Audited: 08/2025-->
 
-Puede eliminar problemas o solicitudes en Adobe Workfront si tiene el acceso y los permisos correctos para hacerlo.
+Puede eliminar problemas o solicitudes en Adobe Workfront si dispone del acceso y los permisos correctos para hacerlo y cuando descubra que ya no son necesarios. Se recomienda cerrarlos, en lugar de eliminarlos, para que pueda conservar la precisión de sus proyectos.
+
+Los administradores de Workfront pueden restaurar los problemas eliminados.
 
 >[!TIP]
 >
@@ -25,22 +27,20 @@ Puede eliminar problemas o solicitudes en Adobe Workfront si tiene el acceso y l
 
 ## Requisitos de acceso
 
-+++ Amplíe para ver los requisitos de acceso.
-
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
++++ Amplíe para ver los requisitos de acceso. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Plan de Adobe Workfront</td> 
+   <td role="rowheader">paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licencia de Adobe Workfront*</td> 
-   <td> <p>Nuevo: colaborador o superior</p>
-   <p>Actual: solicitud o superior</p>
+   <td role="rowheader">Licencia de Adobe Workfront</td> 
+   <td> <p>Colaborador o superior</p>
+   <p>Solicitud o superior</p>
  </td> 
   </tr> 
   <tr> 

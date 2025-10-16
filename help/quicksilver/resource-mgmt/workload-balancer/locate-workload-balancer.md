@@ -7,10 +7,10 @@ description: El Distribuidor de cargas de trabajo está disponible para varios p
 author: Lisa
 feature: Resource Management
 exl-id: 88029c9d-b588-4d33-801a-04f49b12a6e8
-source-git-commit: 58567104d88e7e1363d4196aec8a36ee0566b95a
+source-git-commit: 18c39c5b1959c31b6fd0018476b48643b4b15021
 workflow-type: tm+mt
-source-wordcount: '868'
-ht-degree: 64%
+source-wordcount: '845'
+ht-degree: 62%
 
 ---
 
@@ -42,25 +42,21 @@ Este artículo describe las áreas a las que puede acceder al Distribuidor de ca
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Plan de Adobe Workfront</td> 
-   <td> <p>Cualquiera </p> </td> 
+   <td>paquete de Adobe Workfront</td> 
+   <td><p>Cualquiera</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Licencia de Adobe Workfront</td> 
-   <td><p>Nuevo: estándar</p>
-       <p>o</p>
-       <p>Actual: Planificar, al usar el Distribuidor de cargas de trabajo en el área de Recursos;</br>
-       Trabaje con el Distribuidor de cargas de trabajo de un equipo o proyecto</p>
+   <td>Licencia de Adobe Workfront</td> 
+   <td><p>Estándar</p>
+       <p>Planificar, al utilizar el Distribuidor de cargas de trabajo en el área de Recursos; Trabajar, al utilizar el Distribuidor de cargas de trabajo de un equipo o proyecto</p>
        <p><span class="preview">Nota: Todos los usuarios pueden acceder al Distribuidor de cargas de trabajo en sus propios perfiles de usuario, sin ningún requisito de licencia.</span></p></td>
   </tr> 
-   <td role="rowheader">Configuraciones de nivel de acceso</td> 
+   <td>Configuraciones de nivel de acceso</td> 
    <td> <p>Acceso de visualización o superior a lo siguiente:</p> 
     <ul> 
      <li>Administración de recursos</li> 
@@ -70,13 +66,13 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Permisos de objeto</td> 
+   <td>Permisos de objeto</td> 
    <td>Permisos de visualización o superiores a proyectos, tareas y problemas</td> 
   </tr> 
  </tbody> 
 </table>
 
-Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

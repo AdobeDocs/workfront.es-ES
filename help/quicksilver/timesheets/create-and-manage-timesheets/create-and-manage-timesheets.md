@@ -3,11 +3,11 @@ product-area: timesheets
 navigation-topic: configure-timesheet-preferences
 title: 'Crear y administrar plantillas de horas: índice de artículos'
 description: Puede crear plantillas de horas en Adobe Workfront y realizar un seguimiento del tiempo que dedica a completar el trabajo. Consulte los siguientes artículos para obtener más información sobre la creación, edición y administración de plantillas de horas.
-author: Alina
+author: Lisa
 feature: Timesheets
 recommendations: noDisplay, noCatalog
 exl-id: 605d47e4-fcb7-4635-a4c9-bbb34e1f73b1
-source-git-commit: fedb0328450896d212081715df4cde7644b169bc
+source-git-commit: 69cd5fb1d089b81b7a1673609b92537137b6b68e
 workflow-type: tm+mt
 source-wordcount: '106'
 ht-degree: 100%

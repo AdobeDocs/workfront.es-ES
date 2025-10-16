@@ -7,10 +7,10 @@ description: Puede agregar un formulario personalizado existente a cualquiera de
 author: Alina
 feature: Get Started with Workfront
 exl-id: c06666a7-ab78-4311-8fcb-1d1a68034133
-source-git-commit: 7b9989b73f7be46690073f323203ae2d9ca1a4b5
+source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
 workflow-type: tm+mt
-source-wordcount: '821'
-ht-degree: 2%
+source-wordcount: '730'
+ht-degree: 11%
 
 ---
 
@@ -41,38 +41,64 @@ Puede agregar un formulario personalizado solo a los tipos de objetos para los q
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
-Debe tener el siguiente acceso para realizar las acciones descritas en este artículo:
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td> <p>Cualquiera</p> </td> 
+  </tr> 
+<tr> 
+  <td role="rowheader">Licencia de Adobe Workfront</td> 
+  <td> <p>Colaborador o superior</p>
+ <p>Solicitud o superior</p> 
+</td> 
+ </tr> 
+  <tr> 
+   <td role="rowheader">Configuraciones de nivel de acceso</td> 
+   <td> <p>Acceso de edición a los objetos para los que administra los formularios personalizados</p>
+    </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Permisos de objeto</td> 
+   <td> <p>Administre permisos al objeto para el que desea adjuntar un formulario personalizado.</p> <p>Ver o permisos superiores en el formulario personalizado, con permiso para <b>Adjuntar a datos personalizados</b> objetos (proyectos, tareas y problemas).</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
+<!--Old:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plan de Adobe Workfront</td> 
-   <td> <p>Cualquiera </p> </td> 
+   <td role="rowheader">Adobe Workfront plan</td> 
+   <td> <p>Any </p> </td> 
   </tr> 
 <tr> 
-  <td role="rowheader">Licencia de Adobe Workfront</td> 
-  <td> <p>Nuevo: Colaborador o superior </p>
- <p>o</p> 
-<p>Actual: Solicitud o superior </p> 
+  <td role="rowheader">Adobe Workfront license</td> 
+  <td> <p>New: Contributor or higher </p>
+ <p>or</p> 
+<p>Current: Request or higher </p> 
 </td> 
  </tr> 
   <tr> 
-   <td role="rowheader">Configuraciones de nivel de acceso*</td> 
-   <td> <p>Editar el acceso a los objetos para los que administra formularios personalizados</p>
+   <td role="rowheader">Access level configurations*</td> 
+   <td> <p>Edit access to the objects for which you manage custom forms</p>
     </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Administre permisos al objeto para el que desea adjuntar un formulario personalizado.</p> <p>Ver o permisos superiores en el formulario personalizado, con permiso para <b>Adjuntar a datos personalizados</b> objetos (proyectos, tareas y problemas). Para obtener más información, vea <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md" class="MCXref xref">Compartir un formulario personalizado</a>.</p> <p>Importante: Si no cuenta con una licencia de planificación con acceso administrativo a Forms personalizado, debe tener permisos específicos para ver al menos el formulario personalizado, como se describe en <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md" class="MCXref xref">Compartir un formulario personalizado</a>. Se le deben otorgar estos permisos incluso si el formulario es visible en todo el sistema. </p> <p>Para obtener información sobre cómo solicitar acceso adicional, consulte <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a objetos</a>.</p> </td> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>Manage permissions to the object for which you want to attach a custom form.</p> <p>View or higher permissions to the custom form, with permission to <b>Attach to Custom Data</b> objects (projects, tasks, and issues). For more information, see <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md" class="MCXref xref">Share a custom form</a>.</p> <p>Important: If you do not have a Plan license with administrative access to&nbsp;Custom&nbsp;Forms, you must have specific permissions to at least view the custom form, as described in <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md" class="MCXref xref">Share a custom form</a>. These permissions must be granted to you even if the form is visible system-wide. </p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects</a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>
-
-Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
-
-+++
+</table>-->
 
 ## Requisitos previos
 
@@ -126,7 +152,7 @@ drafted for bulk-editing projects. When it releases to Prod for projects, take "
 >
 >Agregar formularios personalizados a objetos es idéntico para todos los objetos, excepto para los proyectos.
 >
->Para obtener información sobre cómo agregar formularios personalizados a proyectos en lotes, consulte el artículo [Editar proyectos](../../manage-work/projects/manage-projects/edit-projects.md).
+>Para obtener información sobre cómo añadir formularios personalizados a proyectos de forma masiva, consulte el artículo [Editar proyectos](../../manage-work/projects/manage-projects/edit-projects.md).
 
 
 1. Navegue hasta una lista de objetos.
@@ -137,7 +163,7 @@ drafted for bulk-editing projects. When it releases to Prod for projects, take "
    O
 
    Haga clic en el icono **Editar** ![](assets/edit-icon.png) en la parte superior de la lista.
-1. Haga clic en **Forms personalizado** en el panel izquierdo.
+1. Haga clic en **Formularios personalizados** en el panel izquierdo. 
 1. en el menú desplegable **Realizar una selección**, seleccione el formulario que desee asociar con todos los objetos seleccionados.
 
    >[!NOTE]

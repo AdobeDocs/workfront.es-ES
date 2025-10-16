@@ -8,16 +8,16 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: c1e2f374-576c-4f1c-b502-281e8ee9e7df
-source-git-commit: e717e095f1995dbed0232789616d42492156d843
+source-git-commit: b392446704211bf32ed5ec6ab78e670710d92b7d
 workflow-type: tm+mt
-source-wordcount: '820'
-ht-degree: 57%
+source-wordcount: '810'
+ht-degree: 56%
 
 ---
 
 # Crear ruta de hitos
 
-<!--Audited: 07/2024-->
+<!--Audited: 08/2025-->
 
 <!--
 NOTE: DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.
@@ -41,32 +41,59 @@ Como administrador de Adobe Workfront, puede crear rutas de hitos que luego se p
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Plan de Adobe Workfront</td> 
-   <td>Cualquiera</td> 
+   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td><p>Cualquiera</p></td> 
   </tr> 
+  <tr> 
   <tr> 
    <td role="rowheader">Licencia de Adobe Workfront</td> 
    <td><p>Estándar</p>
-   <p>Plan</p>
-   </td> 
+       <p>Plan</p></td>
+  </tr> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso</td> 
-   <td> <p>Debe ser administrador de Workfront.</p></td> 
+   <td><p>Administrador del sistema</p></td>
   </tr> 
  </tbody> 
 </table>
 
-*Para obtener información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
+
+<!--Old: 
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan</td> 
+   <td>Any</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td><p>Standard</p>
+   <p>Plan</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>You must be a Workfront administrator.</p></td> 
+  </tr> 
+ </tbody> 
+</table>
+
+*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+
++++-->
 
 ## Hitos y rutas de hitos
 

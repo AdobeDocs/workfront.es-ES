@@ -2,52 +2,52 @@
 content-type: reference;how-to-procedural
 product-area: projects
 navigation-topic: task-constraints
-title: "Resumen de restricción de tarea: debe comenzar el"
-description: Utilice la Restricción de tarea Debe comenzar el (MSO) para programar una tarea para que comience exactamente en una fecha específica.
+title: 'Información general sobre la restricción de tarea: debe comenzar el'
+description: Utilice la restricción de tarea Debe iniciarse el (MSO) para programar que una tarea comience exactamente en una fecha específica.
 author: Alina
 feature: Work Management
 exl-id: 09062d46-2b80-4758-946e-d6dec0f7a7c0
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
 workflow-type: tm+mt
 source-wordcount: '395'
-ht-degree: 0%
+ht-degree: 98%
 
 ---
 
-# Información general sobre la restricción de tarea: debe comenzar el
+# Información general sobre la restricción de tarea: Debe iniciarse el
 
-Utilice la Restricción de tarea Debe comenzar el (MSO) para programar una tarea para que comience exactamente en una fecha específica.
+Utilice la restricción de tarea Debe iniciarse el (MSO) para programar que una tarea comience exactamente en una fecha específica.
 
-La delimitación Debe comenzar el programa una tarea para que comience exactamente a la hora y fecha especificadas en el campo **Fecha planificada de inicio**.
+Lo que hace la restricción Debe iniciarse el es programar una tarea para que comience exactamente a la hora y fecha especificadas en el campo **Fecha de inicio planificada**.
 
 >[!TIP]
 >
->Al actualizar manualmente la fecha planificada de inicio de una tarea, se cambia la delimitación de la tarea a Debe comenzar el.
+>Al actualizar manualmente la fecha de inicio planificada de una tarea, la restricción de tarea cambia a Debe iniciarse el.
 
-## Información general sobre la restricción Debe comenzar en la tarea
+## Información general sobre la restricción de tarea Debe iniciarse el
 
-Tenga en cuenta lo siguiente al programar una tarea con una delimitación Debe comenzar el:
+Tenga en cuenta lo siguiente al programar una tarea con una restricción Debe iniciarse el:
 
-* Las relaciones de predecesoras no fuerzan la reprogramación de esta tarea. Workfront ignora las relaciones de predecesoras de la tarea con esta restricción.
-* La tarea no muestra **En riesgo** si las predecesoras comienzan a retrasarse o retrasarse.
+* Las relaciones de predecesoras no fuerzan la reprogramación de esta tarea. Básicamente, con esta restricción Workfront ignora las relaciones de predecesoras de la tarea.
+* La tarea no muestra **En riesgo** si las predecesoras comienzan a ir con cierto retraso o a retrasarse.
 
-* Cuando se mueve o copia una tarea con una delimitación MSO a otro proyecto, la delimitación de la tarea o las fechas del proyecto pueden cambiar dependiendo de cuáles sean las fechas de delimitación y cuáles sean las fechas de inicio y finalización del proyecto. Existen los siguientes escenarios:
+* Cuando se mueve o copia una tarea con una restricción MSO a otro proyecto, la restricción de tarea o las fechas del proyecto pueden cambiar dependiendo de cuáles sean las fechas de restricción y cuáles las de inicio y finalización del proyecto. Se dan los siguientes escenarios:
 
-   * Cuando el proyecto de destino está programado desde el inicio:
+   * Cuando el proyecto de destino se programa desde el inicio:
 
-      * Cuando la fecha de delimitación de la tarea es anterior a la fecha planificada de inicio del proyecto, la delimitación de la tarea cambia a Lo antes posible.
-      * Cuando la fecha de delimitación de la tarea es posterior a la fecha planificada de finalización del proyecto, la fecha planificada de finalización del proyecto cambia para coincidir con la fecha de delimitación de finalización de la tarea.
+      * Cuando la fecha de restricción de tarea es anterior a la fecha de inicio planificada del proyecto, la restricción de tarea cambia a Lo antes posible.
+      * Cuando la fecha de restricción de tarea es posterior a la fecha planificada de finalización del proyecto, la fecha planificada de finalización del proyecto cambia para coincidir con la fecha de restricción de finalización de la tarea.
 
-      * Cuando se programa el proyecto de destino desde la finalización:
+      * Cuando se programa el proyecto de destino a partir de la finalización:
 
-         * Cuando la fecha de delimitación de la tarea es posterior a la fecha de finalización del proyecto, la delimitación de la tarea cambia a Lo más tarde posible.
-         * Cuando la fecha de delimitación de la tarea es anterior a la fecha planificada de inicio del proyecto, la fecha planificada de inicio del proyecto cambia para coincidir con la fecha de delimitación de inicio de la tarea.
+         * Cuando la fecha de restricción de tarea es posterior a la fecha de finalización del proyecto, la restricción de tarea cambia a Lo más tarde posible.
+         * Cuando la fecha de restricción de tarea es anterior a la fecha de inicio planificada del proyecto, la fecha de inicio planificada del proyecto cambia para coincidir con la fecha de restricción de inicio de la tarea.
 
-      * Independientemente de la programación del proyecto, cuando la fecha de delimitación de la tarea se encuentra dentro de las Fechas de inicio y finalización del proyecto, no hay cambios en las fechas de delimitación de la tarea o del proyecto.
+      * Independientemente de la programación del proyecto, cuando la fecha de restricción de tarea se encuentra dentro de las fechas de inicio y finalización del proyecto, no hay cambios en las fechas de restricción de tarea o del proyecto.
 
-  Para obtener información acerca de cómo mover tareas, vea [Mover tareas](../../../manage-work/tasks/manage-tasks/move-tasks.md). Para obtener información acerca de cómo copiar tareas, vea [Copiar y duplicar tareas](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md).
+  Para obtener información sobre cómo mover tareas, consulte [Mover tareas](../../../manage-work/tasks/manage-tasks/move-tasks.md). Para obtener más información acerca de cómo copiar tareas, vea [Copiar y duplicar tareas](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md).
 
-Para obtener información sobre cómo actualizar la restricción de tarea en una tarea, vea [Actualizar la restricción de tarea de una tarea](../../../manage-work/tasks/task-constraints/update-task-constraint-of-task.md).
+Para obtener más información sobre cómo actualizar la restricción de tarea en una tarea, vea [Actualizar la restricción de tarea de una tarea](../../../manage-work/tasks/task-constraints/update-task-constraint-of-task.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

@@ -6,9 +6,9 @@ description: Puede emplear el [!UICONTROL Optimizador de portafolios] para prior
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 25debc5b-5d7d-453f-ab0a-9bf3fba05693
-source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
+source-git-commit: d7600a55b3dffb242957234de9d85a0deb1ad2e3
 workflow-type: tm+mt
-source-wordcount: '490'
+source-wordcount: '468'
 ht-degree: 87%
 
 ---
@@ -19,7 +19,7 @@ Puede utilizar el [!UICONTROL Optimizador de portafolios] para priorizar sus pro
 
 ## Requisitos de acceso
 
-+++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo. 
 
 Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
@@ -28,23 +28,23 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
-   <td> Cualquiera</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] paquete</td> 
+   <td> <p>Workfront Prime o superior</p>
+      <p>Flujo de trabajo Prime o superior</p>
+    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licencias de Adobe Workfront*</td> 
-   <td> <p>Nuevo: [!UICONTROL Standard] </p>
-   <p>Actual: [!UICONTROL Plan] </p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] licencia</td> 
+   <td> <p>[!UICONTROL Standard]</p>
+   <p>[!UICONTROL Plan]</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraciones de nivel de acceso*</td> 
-   <td> <p>Acceso [!UICONTROL Edit] a proyectos y portafolio</p> </td> 
-  </tr> 
+   <td role="rowheader">Configuraciones de nivel de acceso</td> 
+   <td> <p>Acceso de [!UICONTROL Edit] a [!UICONTROL Portfolios] y [!UICONTROL Proyectos]</p>  </td>
+</tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Permisos de [!UICONTROL Manage] al portafolio</p> <p>Contribute o permisos superiores para los proyectos</p> 
-   <p>Debe tener permisos de administración en todos los proyectos de la lista para poder usar <b>Establecer prioridad de proyecto</b>.</p>
-    </td> 
+   <td> <p>Permisos de [!UICONTROL Manage] al portafolio</p>  </td> 
   </tr> 
  </tbody> 
 </table>
@@ -52,6 +52,33 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 *Para obtener más información, consulte [Requisitos de acceso para la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
+
+<!--Old
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
+   <td> Any</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront licenses*</td> 
+   <td> <p>New: [!UICONTROL Standard] </p>
+   <p>Current: [!UICONTROL Plan] </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations*</td> 
+   <td> <p>[!UICONTROL Edit] access to Projects and Portfolios</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>[!UICONTROL Manage] permissions to the portfolio</p> <p>Contribute or higher permissions to the projects</p> 
+   <p>You must have Manage permissions to all the projects in the list to be able to use <b>Set project priority</b>.</p>
+    </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## Optimización de proyectos en el Optimizador de portafolios
 

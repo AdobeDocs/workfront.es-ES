@@ -8,10 +8,10 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: 996398c5-de92-445e-8e86-36b2efdcf6b5
-source-git-commit: fedb0328450896d212081715df4cde7644b169bc
+source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
 workflow-type: tm+mt
-source-wordcount: '591'
-ht-degree: 79%
+source-wordcount: '523'
+ht-degree: 75%
 
 ---
 
@@ -27,25 +27,60 @@ La fecha planificada de finalización de un proyecto se puede establecer de form
 
 ## Requisitos de acceso
 
-<!--drafted for P&P:
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>Any</p> </td> 
+   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Current license: Standard </p>
-   Or
-   <p>Legacy license: Plan </p>
+   <td role="rowheader">Licencia de Adobe Workfront</td> 
+   <td><p>Estándar</p>
+   <p>Plan</p>
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Access level configurations*</td> 
+   <td role="rowheader">Configuraciones de nivel de acceso</td> 
+   <td> <p>Acceso de edición a proyectos</p>  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Permisos de objeto</td> 
+   <td> <p>Administrar permisos del proyecto</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td><p>
+   New: Standard
+
+   Or
+
+   Current: Plan </p>
+   
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
    <td> <p>Edit access to Projects</p> <p><b>NOTE</b>
    
    If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
@@ -55,48 +90,7 @@ La fecha planificada de finalización de un proyecto se puede establecer de form
    <td> <p>Manage permissions to the project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>
--->
-
-+++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
-
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Plan de Adobe Workfront</td> 
-   <td> <p>Cualquiera</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Licencia de Adobe Workfront</td> 
-   <td><p>
-   Nuevo: estándar
-
-O
-
-Actual: plan </p>
-
-</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Configuraciones de nivel de acceso</td> 
-   <td> <p>Acceso de edición a proyectos</p> <p><b>NOTA</b>
-
-Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td>
-</tr> 
-  <tr> 
-   <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Administrar permisos del proyecto</p> <p>Para obtener información sobre cómo solicitar acceso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a los objetos </a>.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
-
-+++
+</table>-->
 
 ## Establecer manualmente la fecha planificada de finalización de un proyecto
 
@@ -104,14 +98,14 @@ Debe establecer manualmente la fecha planificada de finalización de un proyecto
 
 >[!NOTE]
 >
->Cuando se establece manualmente la fecha planificada de finalización de un proyecto, Workfront calcula automáticamente la fecha planificada de inicio del proyecto en función de la duración de todas las tareas.
+>Cuando se establece manualmente la fecha de finalización planificada de un proyecto, Workfront calcula automáticamente la fecha de inicio planificada del proyecto en función de la duración de todas las tareas.
 
 
 Para programar un proyecto desde la fecha de finalización:
 
 {{step1-to-projects}}
 
-1. Haga clic en **Nuevo proyecto** y, a continuación, seleccione **Nuevo proyecto** en la lista desplegable que aparece.
+1. Haga clic en **Nuevo proyecto** y, a continuación, seleccione **Nuevo proyecto** en el menú desplegable.
 
    Para obtener más información sobre la creación de proyectos, consulte el artículo [Crear un proyecto](../../../manage-work/projects/create-projects/create-project.md).
 
@@ -124,7 +118,7 @@ Para programar un proyecto desde la fecha de finalización:
 1. Especifique la **fecha planificada de finalización** del proyecto.
 1. Haga clic en **Guardar cambios**.
 
-   A medida que comienza a añadir tareas al proyecto, la **fecha planificada de inicio** del proyecto se calcula según la duración total de todas las tareas. 
+   A medida que comienza a añadir tareas al proyecto, la **fecha de inicio planificada** del proyecto se calcula según la duración total de todas las tareas. 
 
 ## Establecer automáticamente la fecha planificada de finalización de un proyecto
 
@@ -144,7 +138,7 @@ Para programar un proyecto a partir de la fecha de inicio:
 
 1. En la sección **Fechas del proyecto**, haga clic en el campo **Modo de horario** y, a continuación, seleccione **Fecha de inicio**.
 
-1. Especifique la **Fecha planificada de inicio** del proyecto.
+1. Especifique la **Fecha de inicio planificada** del proyecto.
 1. Haga clic en **Guardar cambios**.
 
    A medida que comienza a añadir tareas al proyecto, la **fecha planificada de finalización** del proyecto se calcula según la duración total de todas las tareas. 

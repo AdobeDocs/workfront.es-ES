@@ -8,16 +8,16 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 54fc3f77-57d1-47f1-8e16-73626a6733ec
-source-git-commit: 4fafdcea97874e791104260375617e3989af1870
+source-git-commit: c8987d036e1c1324618cb53ebcbb8fd7e4bcc6a4
 workflow-type: tm+mt
-source-wordcount: '933'
+source-wordcount: '930'
 ht-degree: 50%
 
 ---
 
 # Configurar las actualizaciones del sistema
 
-<!-- Audited: 6/2025 -->
+<!-- Audited: 08/2025 -->
 
 <!--
 
@@ -55,19 +55,18 @@ Por ejemplo, puede hacer que [!DNL Workfront] realice un seguimiento de todos lo
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
-   <td>Cualquiera</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] paquete</td> 
+   <td><p>Cualquiera</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licencia*</td> 
-   <td><p>Nuevo: [!UICONTROL Standard]</p>
-   O
-   <p>Actual: [!UICONTROL Plan]</p>
+   <td role="rowheader">[!DNL Adobe Workfront] licencia</td> 
+   <td><p>[!UICONTROL Standard]</p>
+   <p>[!UICONTROL Plan]</p>
    </td> 
   </tr>  
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso</td> 
-   <td>[!UICONTROL System Administrator]</td>
+   <td><p>[!UICONTROL System Administrator]</p></td>
   </tr> 
  </tbody> 
 </table>
@@ -75,6 +74,29 @@ Por ejemplo, puede hacer que [!DNL Workfront] realice un seguimiento de todos lo
 *Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
+
+<!--Old:
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
+   <td>Any</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
+   <td><p>New: [!UICONTROL Standard]</p>
+   Or
+   <p>Current: [!UICONTROL Plan]</p>
+   </td> 
+  </tr>  
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td>[!UICONTROL System Administrator]</td>
+  </tr> 
+ </tbody> 
+</table> -->
 
 ## Determine en qué campos realiza un seguimiento [!DNL Workfront] para un tipo de objeto.
 

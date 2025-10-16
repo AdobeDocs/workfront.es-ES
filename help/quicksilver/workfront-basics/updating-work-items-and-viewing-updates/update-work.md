@@ -6,10 +6,10 @@ description: Puede agregar una actualización a un objeto de Adobe Workfront (pr
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: c06f25de917474ffae9a7de3a00033fdf9c84b58
+source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
 workflow-type: tm+mt
-source-wordcount: '3234'
-ht-degree: 15%
+source-wordcount: '3201'
+ht-degree: 14%
 
 ---
 
@@ -70,8 +70,6 @@ Para obtener información adicional sobre cómo comentar tarjetas, objetivos y r
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -79,15 +77,21 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Plan de Adobe Workfront</strong></td> 
+   <td role="rowheader"><strong>paquete de Adobe Workfront</strong></td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Licencia de Adobe Workfront*</strong></td> 
-   <td> 
-   <p>Nuevo: Colaborador o superior para problemas y documentos: Ligero o superior para todos los demás objetos</p>
-   <p>Actual: Solicitud o superior para problemas y documentos; revisión o superior para todos los demás objetos</p>
-   </td> 
+   <td role="rowheader"><strong>Licencia de Adobe Workfront</strong></td> 
+   <td> <p>Para problemas y documentos:</p>
+
+<ul><li><p>Colaborador o superior</p></li>
+   <li><p>Solicitud o superior</p></li></ul>
+
+<p>Para todos los demás objetos:</p>
+   <ul><li><p>Ligero o superior</p></li>
+   <li><p>Revisión o superior</p></li></ul>
+
+</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Configuraciones de nivel de acceso</strong></td> 
@@ -100,9 +104,39 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  </tbody> 
 </table>
 
-*Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
+
+<!--Old:
+<table style="table-layout:auto"> 
+ <col> 
+ </col> 
+ <col> 
+ </col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader"><strong>Adobe Workfront plan</strong></td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><strong>Adobe Workfront license*</strong></td> 
+   <td> 
+   <p>New: Contributor or higher for issues and documents: Light or higher for all other objects</p>
+   <p>Current: Request or higher for issues and documents; Review or higher for all other objects</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><strong>Access level configurations</strong></td> 
+   <td> <p>View or Edit access for the object the update is on</p></td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><strong>Object permissions</strong></td> 
+   <td> <p>View access to the object</p></td> 
+  </tr> 
+ </tbody> 
+</table>
+-->
 
 ## Consideraciones sobre los comentarios en objetos
 
@@ -250,8 +284,8 @@ La ficha **Comentarios** está seleccionada de forma predeterminada.
    >Si sale de la sección Actualizaciones antes de terminar de escribir y enviar un comentario, el comentario en la página se mantiene en modo de borrador incluso después de cerrar la sesión y volver a iniciarla. Todas las imágenes que se añadan al comentario también se guardarán en el borrador. Los borradores se guardan durante 7 días, tras los cuales se descartan y no pueden recuperarse. Los comentarios redactados solo son visibles para el usuario que los escribe.
 
 1. (Opcional) Para deshacer o rehacer un cambio, utilice las siguientes teclas de método abreviado:
-   * CTRL + Z (⌘ + z para Mac) para deshacer un cambio
-   * CTRL + Y (⌘ + y para Mac) para rehacer un cambio
+   * CTRL + Z (⌘+z para Mac) para deshacer un cambio
+   * CTRL + Y (⌘+y para Mac) para rehacer un cambio
 
 1. <span class="preview">(Opcional) En el área **Etiquetar personas o equipos**, empiece a escribir el nombre o el correo electrónico de un usuario o equipo que desee incluir en este comentario, o selecciónelo cuando se muestre en la lista. </span>
 1. (Opcional) Utilice las opciones de la barra de herramientas Texto enriquecido para dar formato al texto, añadir emojis, vínculos o imágenes a la actualización para mejorar el contenido. Para obtener más información, consulte la sección [Usar texto enriquecido en una actualización de Workfront](#use-rich-text-in-a-workfront-update) en este artículo.
@@ -329,12 +363,12 @@ Puede mejorar los comentarios mediante Texto enriquecido o agregándole varios e
 
    | **Atributo** | **Botón Barra de herramientas** | **Teclas de método abreviado de Mac** | **Teclas de método abreviado de Windows** |
    |---|---|---|---|
-   | Negrita | ![Icono en negrita](assets/mceclip10.png) | ⌘ + b | Ctrl + B |
-   | Cursiva | ![Icono en cursiva](assets/mceclip9.png) | ⌘ + i | Ctrl + I |
-   | Subrayado | ![Icono de subrayado](assets/mceclip8.png) | ⌘ + u | Ctrl + U |
+   | Negrita | ![Icono en negrita](assets/mceclip10.png) | ⌘+b | Ctrl + B |
+   | Cursiva | ![Icono en cursiva](assets/mceclip9.png) | ⌘+i | Ctrl + I |
+   | Subrayado | ![Icono de subrayado](assets/mceclip8.png) | ⌘+u | Ctrl + U |
    | Hipervínculo | ![Icono de hipervínculo](assets/mceclip7.png) | <br>Para abrir el cuadro Agregar vínculos: ⌘+K</br> <br>Para pegar un vínculo sobre el texto seleccionado: ⌘+V</br> | <br>Para abrir el cuadro Agregar vínculos: Ctrl+K</br> <br>Para pegar un vínculo sobre el texto seleccionado: Ctrl+V</br> |
-   | Lista con viñetas | ![Icono de lista con viñetas](assets/mceclip6.png) | ⌘ + Mayús + 8 | Ctrl + Mayús + 8 |
-   | Lista numerada | ![Icono de lista numerada](assets/mceclip5.png) | ⌘ + Mayús + 7 | Ctrl + Mayús + 7 |
+   | Lista con viñetas | ![Icono de lista con viñetas](assets/mceclip6.png) | ⌘+Mayús+8 | Ctrl + Mayús + 8 |
+   | Lista numerada | ![Icono de lista numerada](assets/mceclip5.png) | ⌘+Mayús+7 | Ctrl + Mayús + 7 |
 
    <!--| Block Quote | ![](assets/block-quote-icon-large.png)|⌘+Shift+9 |<br>Ctrl+Shift+9</br> <br>This is not available in the new commenting experience. </br> |-->
 
@@ -406,7 +440,7 @@ Puede mejorar los comentarios mediante Texto enriquecido o agregándole varios e
    >* El tamaño máximo de archivo de imagen es de 7 MB. Los tipos de archivo de imagen admitidos son .jpg, .gif y .png.
    >* Se puede acceder a las imágenes desde la sección Actualizaciones de un objeto y también están disponibles en el área Documentos del menú principal.
    >Puede copiar una captura de pantalla del equipo mediante una combinación de teclas o, por ejemplo, la función Imprimir pantalla (en equipos con Windows).
-   >* Puede pegar la imagen haciendo clic con el botón secundario en el nuevo comentario y luego haciendo clic en **Pegar**, o presionando CTRL+V para Windows (o ⌘+V para Mac) en el teclado.
+   >* Puede pegar la imagen haciendo clic con el botón secundario en el nuevo comentario y luego haciendo clic en **Pegar**, o presionando CTRL+V para Windows (o ⌘ + V para Mac) en el teclado.
    >* Puede enviar una actualización con una imagen y sin texto.
    >* Cuando elimina un comentario que contiene una imagen, la imagen se quita de la sección Actualizaciones y del área Documentos. La imagen también se elimina del área Documentos cuando edita un comentario y elimina la imagen.
    >* Cuando alguien elimina una imagen adjunta a un comentario del área Documentos, también se elimina del comentario.

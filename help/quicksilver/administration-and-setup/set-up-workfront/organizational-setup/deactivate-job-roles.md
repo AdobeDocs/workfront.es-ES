@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 934cef1a-8157-45db-b000-24a08a94dd18
-source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
+source-git-commit: 15063d937a5ba9b5285c66a0987e8deea6cc6d74
 workflow-type: tm+mt
-source-wordcount: '664'
+source-wordcount: '643'
 ht-degree: 98%
 
 ---
@@ -23,33 +23,31 @@ También puede reactivar las funciones que se han desactivado anteriormente.
 
 ## Requisitos de acceso
 
-+++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
+## Requisitos de acceso
 
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
-   <td> <p>Cualquiera </p> </td> 
+   <td>[!DNL Adobe Workfront] paquete</td> 
+   <td><p>Cualquiera</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licencia</td> 
-   <td>
-   <p>Nuevo: [!UICONTROL Standard]</p>
-   <p>O</p>
-   <p>Actual: [!UICONTROL Plan]</p></td> 
+   <td>[!DNL Adobe Workfront] licencia</td> 
+   <td><p>[!UICONTROL Standard]</p>
+       <p>[!UICONTROL Plan]</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraciones de nivel de acceso</td> 
-   <td>Acceso administrativo a los roles</td> 
+   <td>Configuraciones de nivel de acceso</td> 
+   <td>Acceso administrativo a los roles</td>
   </tr> 
  </tbody> 
 </table>
 
-Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -72,7 +70,7 @@ Si desactiva una función, ya no se mostrará en las siguientes áreas:
 * Cuadro de diálogo [!UICONTROL Añadir asignación al tablero Kanban] en un proyecto
 * El campo [!UICONTROL Función] de un plan o una iniciativa cuando alguien está usando [!DNL Adobe Workfront Scenario Planner].
 
-  El [!DNL Scenario Planner] solo está disponible en la nueva experiencia de [!DNL Adobe Workfront] y requiere una licencia adicional. Para obtener información sobre el [!DNL Workfront Scenario Planner], consulte [Información general sobre el  [!DNL Scenario Planner] &#x200B;](../../../scenario-planner/scenario-planner-overview.md).
+  El [!DNL Scenario Planner] solo está disponible en la nueva experiencia de [!DNL Adobe Workfront] y requiere una licencia adicional. Para obtener información sobre el [!DNL Workfront Scenario Planner], consulte [Información general sobre el  [!DNL Scenario Planner] ](../../../scenario-planner/scenario-planner-overview.md).
 
 >[!TIP]
 >

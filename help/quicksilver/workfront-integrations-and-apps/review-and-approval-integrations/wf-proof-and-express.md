@@ -8,10 +8,10 @@ author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 2eef36a6-8c61-4e7e-9760-23114f942250
-source-git-commit: dce2d9413b3a363d6508cabec0147c260817ed98
+source-git-commit: a65a4568c6428768ee6bc60a59a8499efdbec9f8
 workflow-type: tm+mt
-source-wordcount: '510'
-ht-degree: 7%
+source-wordcount: '504'
+ht-degree: 5%
 
 ---
 
@@ -39,7 +39,7 @@ Utilice Workfront Proof con Adobe Express para lo siguiente
  <col> 
  <tbody> 
  <tr> 
-   <td role="rowheader">Plan de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> 
    <p>Cualquiera</p> 
    </td> 
@@ -51,15 +51,14 @@ Utilice Workfront Proof con Adobe Express para lo siguiente
   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Producto</td> 
+   <td role="rowheader">Productos adicionales</td> 
    <td> 
    <p> Debe tener Adobe Express y se le debe añadir al producto como usuario en Admin Console. </p> </td> 
   </tr>
-
-</tbody> 
+ </tbody> 
 </table>
 
-Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -90,7 +89,7 @@ Cuando se remezcla una plantilla Express, se requiere una aprobación antes de l
 
 Los usuarios deben tener una licencia de Workfront estándar para solicitar la aprobación de Adobe Express.
 
-Aprenda a [obtener aprobación de diseños](https://helpx.adobe.com/es/express/web/share-and-publish/share-and-collaborate/request-approval.html).
+Aprenda a [obtener aprobación de diseños](https://helpx.adobe.com/express/web/share-and-publish/share-and-collaborate/request-approval.html).
 
 
 ## Combinar plantillas rápidas y enviar para su revisión y aprobación

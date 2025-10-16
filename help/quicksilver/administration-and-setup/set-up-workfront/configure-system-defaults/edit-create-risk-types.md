@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: f929806f-9087-4b64-be4b-70bbceaaeab0
-source-git-commit: a8d2447eea4ca8d814035d183f40921cad49a0d8
+source-git-commit: 20ebcb74c79aea67ea7cb1ba083dfea623fe7c16
 workflow-type: tm+mt
-source-wordcount: '658'
-ht-degree: 37%
+source-wordcount: '575'
+ht-degree: 36%
 
 ---
 
@@ -20,10 +20,6 @@ ht-degree: 37%
 <!--Audited: 03/2025-->
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
-
-<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después de las versiones mensuales en Production, las mismas funciones también están disponibles en el entorno Production para los clientes que habilitaron versiones rápidas. </span>
-
-<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 Adobe Workfront tiene una serie de tipos de riesgo predeterminados que puede asociar con proyectos en la fase de planificación para identificar posibles obstáculos antes de la aprobación de cualquier trabajo.
 
@@ -37,31 +33,27 @@ Puede asociar tipos de riesgos con riesgos de proyecto para identificar el tipo 
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
-   <td>Cualquiera</td> 
+   <td>[!DNL Adobe Workfront] paquete</td> 
+   <td><p>Cualquiera</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licencia*</td> 
-   <td><p>Nuevo: [!UICONTROL Standard]</p>
-   O
-   <p>Actual: [!UICONTROL Plan]</p>
-   </td> 
+   <td>[!DNL Adobe Workfront] licencia</td> 
+   <td><p>[!UICONTROL Standard]</p>
+       <p>[!UICONTROL Plan]</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraciones de nivel de acceso</td> 
-   <td>[!UICONTROL System Administrator]</td>
+   <td>Configuraciones de nivel de acceso</td> 
+   <td>[!UICONTROL System Administrator]</td> 
   </tr> 
  </tbody> 
 </table>
 
-*Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -93,13 +85,13 @@ Puede hacer lo siguiente para mejorar el número de tipos de riesgo en la instan
 1. Seleccione el tipo de riesgo que desea editar.
 1. Haga clic en el icono **[!UICONTROL Editar]** ![Editar icono](assets/edit-icon.png).
 
-   <span class="preview">Se abre el cuadro [!UICONTROL **Editar tipo de riesgo**].</span>
+   Se abre el cuadro [!UICONTROL **Editar tipo de riesgo**].
 
    ![Editar cuadro de tipo de riesgo](assets/edit-risk-type-box.png)
 
    >[!TIP]
    >
-   >   Puede editar la información de tipo de riesgo en línea, al hacer doble clic en el Nombre o la Descripción de un tipo de riesgo en una lista de tipos de riesgo.
+   >Puede editar la información de tipo de riesgo en línea, al hacer doble clic en el Nombre o la Descripción de un tipo de riesgo en una lista de tipos de riesgo.
 
 1. (Opcional) Cambie el nombre y la descripción del tipo de riesgo.
 
@@ -120,7 +112,6 @@ Puede hacer lo siguiente para mejorar el número de tipos de riesgo en la instan
    >
    >   Primero puede seleccionar un número limitado de tipos de riesgo y luego exportarlos para una lista más pequeña.
 
-
 ### Crear tipos de riesgos {#create-risk-types}
 
 Puede crear tipos de riesgo, además de los predeterminados.
@@ -135,10 +126,9 @@ Puede crear tipos de riesgo, además de los predeterminados.
 
    Haga clic en [!UICONTROL **Agregar más tipos de riesgos**] en la esquina inferior izquierda de la lista de tipos de riesgos para agregar tipos de riesgos en línea.
 
-   <span class="preview">Se abre el cuadro **Nuevo tipo de riesgo**. <span>
+   Se abre el cuadro **Nuevo tipo de riesgo**.
 
    ![Nuevo cuadro de tipo de riesgo](assets/new-risk-type-box.png)
-
 
 1. Agregue un **[!UICONTROL Nombre]** (obligatorio) y una **[!UICONTROL Descripción]** (opcional) para el tipo de riesgo.
 

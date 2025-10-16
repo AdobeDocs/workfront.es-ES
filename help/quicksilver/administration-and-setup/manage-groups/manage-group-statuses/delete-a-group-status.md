@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: bfce0325-fe6e-459f-96ca-9a5c94c61ed3
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: 1554c067afcc548c7f7abd03dbc3a49404e3c89c
 workflow-type: tm+mt
-source-wordcount: '564'
+source-wordcount: '541'
 ht-degree: 96%
 
 ---
@@ -32,32 +32,27 @@ Si hay grupos por encima del grupo que administra, sus administradores también 
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Plan de Adobe Workfront</td> 
-   <td>Cualquiera</td> 
+   <td>paquete de Adobe Workfront</td> 
+   <td><p>Cualquiera</p></td> 
   </tr> 
   <tr> 
+   <td>Licencia de Adobe Workfront</td> 
+   <td><p>Estándar</p>
+       <p>Plan</p></td>
+  </tr>
   <tr> 
-   <td role="rowheader">Licencia de Adobe Workfront</td> 
-   <td><p>Nuevo: estándar</p>
-       <p>O</p>
-       <p>Actual: plan</p></td>
-  </tr> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Configuraciones de nivel de acceso</td> 
+   <td>Configuraciones de nivel de acceso</td> 
    <td>Debe ser administrador de grupo del grupo o administrador del sistema.</td>
-  </tr> 
+  </tr>
  </tbody> 
 </table>
 
-Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -68,7 +63,7 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
 1. En el panel izquierdo, haga clic en **Grupos**.
 1. Haga clic en el nombre del grupo de nivel superior.
 1. En el panel izquierdo, haga clic en **Estados**.
-1. En la lista de estados que se muestra, pase el ratón sobre el estado que quiera eliminar y luego haga clic en **Eliminar** cuando aparezca en el extremo derecho.
+1. En la lista de estados que se muestra, pase el puntero por encima del estado que quiera eliminar y luego haga clic en **Eliminar** cuando aparezca en el extremo derecho.
 
    ![Eliminar](assets/hover-click-delete.jpg)
 

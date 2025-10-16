@@ -3,41 +3,41 @@ content-type: overview;how-to-procedural
 product-area: projects
 keywords: analytics, métricas, proyecto, tareas, asignado, completo, estado, vencido, próximo
 navigation-topic: manage-projects
-title: Información general de las métricas del proyecto
+title: Comprender las métricas del proyecto
 description: Las métricas del proyecto le proporcionan una visualización de lo que está sucediendo en un proyecto, lo que le permite evaluar rápidamente las necesidades y el estado de un proyecto. Averigüe cómo se interpreta el área Métricas del panel izquierdo de un proyecto.
 author: Alina
 feature: Work Management
 exl-id: 54c2a59d-9f6b-4126-9526-5169aeda8517
-source-git-commit: 78b4724ca8d5df15ed76e9e882179e3cb127282c
+source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
 workflow-type: tm+mt
-source-wordcount: '1163'
-ht-degree: 99%
+source-wordcount: '1161'
+ht-degree: 98%
 
 ---
 
-# Información general de las métricas del proyecto
+# Comprender las métricas del proyecto
 
 Las métricas del proyecto proporcionan una vista general en formato de gráfico sobre el rendimiento de un proyecto.
 
 ## Requisitos de acceso
 
-+++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Plan de Workfront</td> 
+   <td role="rowheader">paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licencia de Workfront*</td> 
-   <td> <p>Nuevo: Light o superior </p>
-   <p>Actual: revisión o superior </p> </td> 
+   <td role="rowheader">Licencia de Adobe Workfront</td> 
+   <td> <p>Ligero o superior</p>
+   <p>Revisión o superior</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuración de nivel de acceso</td> 
+   <td role="rowheader">Configuraciones de nivel de acceso</td> 
    <td> <p>Ver acceso a proyectos</p>  </td> 
   </tr> 
   <tr> 
@@ -50,6 +50,32 @@ Las métricas del proyecto proporcionan una vista general en formato de gráfico
 *Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Workfront plan</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Workfront license*</td> 
+   <td> <p>New: Light or higher </p>
+   <p>Current: Review or higher </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configuration</td> 
+   <td> <p>View access to Projects</p>  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>View permissions to a project</p> </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## Requisitos previos
 
@@ -193,4 +219,4 @@ Puede interactuar con los gráficos en el área Métricas para ver diferentes as
 
    >[!TIP]
    >
-   >Al exportar el panel, el archivo exportado incluye solo lo que se muestra actualmente en la vista general. Para incluir determinados elementos en el archivo exportado, es posible que tenga que desplazarse hacia arriba o hacia abajo de la página o ajustar la configuración del Zoom del explorador.
+   >Al exportar el panel de control, el archivo exportado incluye solo lo que se muestra actualmente en la vista general. Para incluir determinados elementos en el archivo exportado, es posible que tenga que desplazarse hacia arriba o hacia abajo de la página o ajustar la configuración del Zoom del explorador.

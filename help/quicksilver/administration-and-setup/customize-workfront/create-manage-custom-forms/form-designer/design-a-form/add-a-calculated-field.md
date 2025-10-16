@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 407aae49-4bc3-4364-a794-7e170a57a6d3
-source-git-commit: 0c2a54406ceb690e638cdc0376a3dc01a7c2df76
+source-git-commit: 15ac51cc13eeb57d2de194a9a6ceec7683acfbe6
 workflow-type: tm+mt
-source-wordcount: '2434'
+source-wordcount: '2412'
 ht-degree: 80%
 
 ---
@@ -47,31 +47,27 @@ Un campo personalizado calculado puede contener:
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
-Para realizar los pasos de este artículo, debe tener lo siguiente:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>Plan de Adobe Workfront</p> </td> 
-   <td>Cualquiera</td> 
+  <tr> 
+   <td>paquete de Adobe Workfront</td> 
+   <td><p>Cualquiera</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licencia de Adobe Workfront</td> 
-   <td>
-   <p>Nuevo: estándar</p>
-   <p>o</p>
-   <p>Actual: plan</p></td>
+   <td>Licencia de Adobe Workfront</td> 
+   <td><p>Estándar</p>
+       <p>Plan</p></td>
   </tr> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader">Configuraciones de nivel de acceso</td> 
+  <tr> 
+   <td>Configuraciones de nivel de acceso</td> 
    <td> <p>Acceso administrativo a formularios personalizados</p> </td> 
-  </tr> 
+  </tr>  
  </tbody> 
 </table>
 
-Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -182,7 +178,7 @@ Un cálculo suele comenzar con una expresión, seguida de paréntesis que contie
 
       Cada campo debe estar comprendido entre corchetes. Cuando empiece a escribir el nombre de un campo, el sistema realiza sugerencias y puede seleccionar una para insertarla en el cálculo.
 
-+++ **Ampliar para ver la sintaxis requerida en los campos personalizados calculados**
+      +++ **Ampliar para ver la sintaxis requerida en los campos personalizados calculados**
 
       Cada campo debe utilizar la sintaxis que se explica a continuación, con corchetes entre cada nombre de campo. Cuando empiece a escribir el nombre de un campo, el sistema realiza sugerencias y puede seleccionar una para insertarla en el cálculo. Si introduce datos incorrectamente en un cálculo, un mensaje de advertencia le avisará. No puede guardar el formulario a menos que edite el cálculo para que contenga campos válidos y una expresión calculada válida.
 
@@ -282,7 +278,7 @@ Un cálculo suele comenzar con una expresión, seguida de paréntesis que contie
            >
            ><div>En un formulario personalizado adjunto a un objeto, las instrucciones de fecha y hora de los campos personalizados calculados se calculan y guardan a partir de la hora universal coordinada (UTC), no mediante las configuraciones de zona horaria establecidas para la instancia de su organización y el perfil de usuario. Los cálculos de un formulario personalizado se generan en función de las zonas horarias individuales de cada usuario.</div>
 
-+++
+        +++
 
    1. Haga clic en el cuadro de texto grande y, a continuación, haga clic en **Expresiones** y **Campos** que están disponibles para añadirlos al cálculo.
 
@@ -292,7 +288,7 @@ Un cálculo suele comenzar con una expresión, seguida de paréntesis que contie
 
       Si escribe un paréntesis de apertura, el paréntesis de cierre se añade automáticamente.
 
-+++ **Amplíe para ver sugerencias útiles**
+      +++ **Amplíe para ver sugerencias útiles**
 
       >[!TIP]
       >
@@ -309,7 +305,7 @@ Un cálculo suele comenzar con una expresión, seguida de paréntesis que contie
       >  ![Cálculo de vista previa](assets/preview-calc.jpg)
       >* Expresiones de referencia en un cálculo largo utilizando los números de línea que se muestran a la izquierda.
 
-+++
+      +++
    1. Haga clic en **Minimizar** cuando termine de crear el cálculo para el campo personalizado calculado.
 
    1. (Opcional) Utilice cualquiera de las siguientes opciones para configurar aún más el campo personalizado calculado:

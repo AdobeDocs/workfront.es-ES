@@ -6,10 +6,10 @@ description: Puede crear una historia Agile en una iteración de varias formas. 
 author: Lisa
 feature: Agile
 exl-id: d16ee940-3551-44da-8fe6-093f4fcac070
-source-git-commit: 9a363dc0c591985c7ae8edb4a511fd648b486f1c
+source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
 workflow-type: tm+mt
-source-wordcount: '710'
-ht-degree: 24%
+source-wordcount: '695'
+ht-degree: 21%
 
 ---
 
@@ -25,8 +25,6 @@ Para obtener información acerca de cómo administrar la historia después de ag
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -34,18 +32,17 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
+   <td role="rowheader">paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licencia</td> 
-   <td> <p>Nuevo: [!UICONTROL Standard]</p> 
-   o
-   <p>Actual: [!UICONTROL Work] o superior</p> </td> 
+   <td role="rowheader">Licencia de Adobe Workfront</td> 
+   <td> <p>Estándar</p> 
+   <p>Trabajo o superior</p> </td> 
   </tr>
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td>Acceso de [!UICONTROL Manage] al proyecto en el que se encuentra la historia </td> 
+   <td>Administrar el acceso al proyecto en el que se encuentra la historia </td> 
   </tr> 
  </tbody> 
 </table>

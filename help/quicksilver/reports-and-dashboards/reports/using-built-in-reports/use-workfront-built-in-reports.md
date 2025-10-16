@@ -6,9 +6,9 @@ description: Adobe Workfront tiene una extensa lista de informes integrados que 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 32a47c25-192a-4e97-9016-42e6b6e201b9
-source-git-commit: e8acdf8f7b3859385237e788dfda34ee62ee11d1
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '2986'
+source-wordcount: '2978'
 ht-degree: 97%
 
 ---
@@ -23,31 +23,23 @@ Los administradores de Workfront pueden ocultar los informes integrados para que
 
 ## Requisitos de acceso
 
-+++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
-
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Plan de Adobe Workfront</td> 
+   <td role="rowheader">paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licencia de Adobe Workfront*</td> 
+   <td role="rowheader">Licencia de Adobe Workfront</td> 
    <td> 
-      <p>Nuevo:</p>
-         <ul>
-         <li><p>Colaborador o superior</p></li>
-         </ul>
-      <p>Actual:</p>
-         <ul>
-         <li><p>Solicitud o superior</p></li>
-         </ul>
+      <p>Colaborador o superior</p>
+      <p>Solicitud o superior</p>
    </td>
-  </tr> 
+  </tr>
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso</td> 
    <td> <p>Acceso de edición a filtros, vistas y agrupaciones</p> <p>Acceso de visualización o superior a informes, paneles de control y calendarios</p> </td> 
@@ -59,7 +51,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  </tbody> 
 </table>
 
-*Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -229,7 +221,7 @@ Los siguientes informes se incluyen con el paquete Workfront. Los informes está
   </tr> 
   <tr> 
    <td>Mis tareas sin asignación</td> 
-   <td>Informe de tarea que muestra las tareas no completadas asignadas a cualquiera de las funciones del usuario que ha iniciado sesión y que no están asignadas a ese usuario. El informe muestra los siguientes campos: Duración planificada, Nombre del proyecto, Usuario asignado principal, Fecha planificada de inicio, Fecha planificada de finalización, Porcentaje completado y Prioridad de las tareas.</td> 
+   <td>Informe de tarea que muestra las tareas no completadas asignadas a cualquiera de las funciones del usuario que ha iniciado sesión y que no están asignadas a ese usuario. El informe muestra los siguientes campos: Duración planificada, Nombre del proyecto, Usuario asignado principal, Fecha de inicio planificada, Fecha de finalización planificada, Porcentaje completado y Prioridad de las tareas.</td> 
   </tr> 
   <tr> 
    <td>Mis próximas tareas</td> 
@@ -277,7 +269,7 @@ Los siguientes informes se incluyen con el paquete Workfront. Los informes está
   </tr> 
   <tr> 
    <td>Costos de portafolio agrupados por programa y por mes</td> 
-   <td>Informe de proyecto en matriz que muestra el coste planificado, el coste presupuestado y el coste real de los proyectos. El informe se agrupa por el nombre del portafolio, el nombre del programa y el mes de la fecha planificada de inicio de los proyectos.</td> 
+   <td>Informe de proyecto en matriz que muestra el coste planificado, el coste presupuestado y el coste real de los proyectos. El informe se agrupa por el nombre del portafolio, el nombre del programa y el mes de la fecha de inicio planificada de los proyectos.</td> 
   </tr> 
   <tr> 
    <td>Proyectos de portafolio por estado agrupados por programa</td> 
@@ -293,7 +285,7 @@ Los siguientes informes se incluyen con el paquete Workfront. Los informes está
   </tr> 
   <tr> 
    <td>Ingresos de portafolio agrupados por programa y por mes</td> 
-   <td>Informe de proyecto en matriz que muestra los ingresos planificados, los ingresos reales, el nombre del portafolio y el nombre del programa. El informe se agrupa por el nombre del portafolio, el nombre del programa y el mes de la fecha planificada de inicio de los proyectos.</td> 
+   <td>Informe de proyecto en matriz que muestra los ingresos planificados, los ingresos reales, el nombre del portafolio y el nombre del programa. El informe se agrupa por el nombre del portafolio, el nombre del programa y el mes de la fecha de inicio planificada de los proyectos.</td> 
   </tr> 
   <tr> 
    <td>Costes e ingresos del proyecto por estado de tarea</td> 

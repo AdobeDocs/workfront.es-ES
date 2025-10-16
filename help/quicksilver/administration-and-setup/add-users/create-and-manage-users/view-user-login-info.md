@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 7b37c34a-d628-4d9b-9688-e4b9f89c666b
-source-git-commit: 1c11be2d6de471bf456107b5c86a599766583f74
+source-git-commit: f8d04790caefd12c9811ea3ed94e1f892311d031
 workflow-type: tm+mt
-source-wordcount: '578'
-ht-degree: 92%
+source-wordcount: '555'
+ht-degree: 91%
 
 ---
 
@@ -23,22 +23,20 @@ Puede ver la frecuencia con la que los usuarios inician sesión en Adobe Workfro
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Plan de Adobe Workfront</td> 
-   <td>Cualquiera</td> 
+   <td>paquete de Adobe Workfront</td> 
+   <td><p>Cualquiera</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licencia de Adobe Workfront</td> 
-   <td><p>Nuevo: estándar</p><p>O</p><p>Actual: plan</p></td> 
+   <td>Licencia de Adobe Workfront</td> 
+   <td><p>Estándar</p><p>Plan</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraciones de nivel de acceso</td> 
+   <td>Configuraciones de nivel de acceso</td> 
    <td> <p>Debe tener uno de los siguientes elementos:</p> 
     <ul> 
      <li> <p>El nivel de acceso del administrador del sistema. </li> 
@@ -48,7 +46,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  </tbody> 
 </table>
 
-Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -89,5 +87,5 @@ Para mostrar la información de uso en la vista de una lista de usuarios:
 
 1. (Opcional) Haga clic en **Opciones avanzadas** y, a continuación, seleccione un **Formato de campo** en el menú desplegable para incluir la hora o el día de la semana del último inicio de sesión en su columna.
 
-1. Pulse **Guardar vista**.\
+1. Haga clic en **Guardar vista**.\
    La vista incluye información sobre cuántas veces han iniciado sesión los usuarios y cuándo iniciaron sesión por última vez.

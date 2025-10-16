@@ -3,13 +3,13 @@ product-area: timesheets;system-administration
 navigation-topic: create-and-manage-timesheets
 title: Definir tipos de horas y disponibilidad
 description: Un tipo de hora es una etiqueta que le permite categorizar la entrada de una hora. Según los requisitos de informes de su organización en cuanto a horas, esto puede ser una parte esencial de la hora de registro.
-author: Alina
+author: Lisa
 feature: Timesheets
 exl-id: 3c07a6b0-4751-4fce-ac28-6a83084025d4
-source-git-commit: 594f224e11b0e7708ed555410b7c331741113791
+source-git-commit: 69cd5fb1d089b81b7a1673609b92537137b6b68e
 workflow-type: tm+mt
-source-wordcount: '1488'
-ht-degree: 49%
+source-wordcount: '1479'
+ht-degree: 48%
 
 ---
 
@@ -36,32 +36,30 @@ Una vez configurados los tipos de horas adecuados, puede registrar el tiempo des
 
 <table style="table-layout:auto"> 
  <col> 
- </col> 
- <col> 
- </col> 
+ </col>
  <tbody> 
   <tr> 
-   <td role="rowheader">Plan de Adobe Workfront</td> 
+   <td>paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licencia de Adobe Workfront*</td> 
-   <td> <p>Nuevo: estándar</p> 
-   <p>Actual: plan</p>
+   <td>Licencia de Adobe Workfront</td> 
+   <td> <p>Estándar</p> 
+   <p>Plan</p>
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraciones de nivel de acceso</td> 
+   <td>Configuraciones de nivel de acceso</td> 
    <td> <p>Acceso de administrador del sistema para definir tipos de horas de todo el sistema y editar todos los usuarios</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Permisos de objeto</td> 
+   <td>Permisos de objeto</td> 
    <td>Administrar el acceso al proyecto para definir los tipos de horas de un proyecto</td> 
   </tr> 
  </tbody> 
 </table>
 
-*Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

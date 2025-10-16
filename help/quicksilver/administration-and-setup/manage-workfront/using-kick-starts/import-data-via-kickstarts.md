@@ -9,10 +9,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 25813946-e338-4dd9-b02c-d20fa18c539c
-source-git-commit: aa2bef064df3ff7dd9e4fd896ac7482df3c55e32
+source-git-commit: 156341072c291b5c03432da399a509d9772b73ea
 workflow-type: tm+mt
-source-wordcount: '2851'
-ht-degree: 92%
+source-wordcount: '2828'
+ht-degree: 91%
 
 ---
 
@@ -34,31 +34,27 @@ Cada uno de estos procedimientos se describe en el orden adecuado en este artíc
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Plan de Adobe Workfront</td> 
-   <td>Cualquiera</td> 
+   <td>paquete de Adobe Workfront</td> 
+   <td><p>Cualquiera</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licencia de Adobe Workfront</td> 
-   <td>
-   <p> Nuevo: estándar</p>
-   o
-   <p>Actual: plan</p></td> 
+   <td>Licencia de Adobe Workfront</td> 
+   <td><p>Estándar</p>
+       <p>Plan</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraciones de nivel de acceso</td> 
-   <td>[!UICONTROL System Administrator]</td> 
+   <td>Configuraciones de nivel de acceso</td> 
+   <td>Administrador del sistema</td> 
   </tr> 
  </tbody> 
 </table>
 
-Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -104,7 +100,7 @@ Para exportar una plantilla de Kick-Start:
     </thead> 
     <tbody> 
      <tr> 
-      <td scope="col"> <p>Panel de control</p> <p>Todos los tableros del sistema que se comparten públicamente están disponibles para la exportación. Los tableros que no se comparten en todo el sistema no se pueden exportar. Puede seleccionar hasta 100 paneles específicos en una sola exportación.</p> </td> 
+      <td scope="col"> <p>Panel de control</p> <p>Todos los tableros del sistema que se comparten públicamente están disponibles para la exportación. Los tableros que no se comparten en todo el sistema no se pueden exportar. Puede seleccionar hasta 100 paneles de control específicos en una sola exportación.</p> </td> 
       <td scope="col">Exportar como archivo ZIP</td> 
       <td scope="col"> <p>Parámetro</p> <p>Texto descriptivo</p><p>Opción del parámetro</p> <p>Grupo de parámetros</p> <p>Parámetro de categoría</p> <p>Categoría</p> <p>Informe</p> <p>Sección de la ficha de portal</p> <p>Panel de control</p> <p>Preferencias</p> </td> 
      </tr> 
@@ -295,7 +291,7 @@ Para exportar una plantilla de Kick-Start:
 >
 >Para comprender mejor cómo tendrá que dar formato a la información de cada columna al rellenar la plantilla de Kick-Start, considere la posibilidad de realizar una ejecución de práctica exportando un Kick-Start con datos de Workfront existentes en los objetos que está intentando importar. Para obtener instrucciones, consulte [Exportar datos de Adobe Workfront mediante Kick-Starts](../../../administration-and-setup/manage-workfront/using-kick-starts/export-data-from-wf-via-kick-starts.md).
 
-Al abrir una plantilla de Kick-Starts en blanco, hay varias pestañas (hojas de datos) disponibles. Dependen de los objetos seleccionados para la descarga. Cada uno representa un objeto en la aplicación, como proyecto, tareas, horas, panel y usuarios:
+Al abrir una plantilla de Kick-Starts en blanco, hay varias pestañas (hojas de datos) disponibles. Dependen de los objetos seleccionados para la descarga. Cada uno representa un objeto en la aplicación, como proyecto, tareas, horas, panel de control y usuarios:
 
 Al abrir una de estas pestañas, la fila 2 muestra los campos de cada objeto que se puede establecer durante una importación. En un encabezado de columna, después de la palabra &quot;set&quot;, el nombre del campo se muestra tal y como aparece en la base de datos. Estos campos actúan como encabezados de columna.
 
@@ -360,7 +356,7 @@ Cada fila de la hoja corresponde a un objeto único.
    * En la columna **setCategoryID**, escriba el GUID del formulario personalizado existente en el que reside este campo personalizado. Este campo es obligatorio al importar datos personalizados.
    * Si necesita añadir varios valores de datos en el campo personalizado (como botones de opción, casillas de verificación o listas), utilice el delimitador de datos personalizados de barra vertical &quot;|&quot; que aparece en la pestaña Preferencias para separar los valores.
 
-     **Ejemplo:** escriba A|D en la columna DE: Departamentos para rellenar los departamentos A y D en el formulario personalizado.
+     **Ejemplo:** escriba A|D en la columna DE:Departments para rellenar los departamentos A y D en el formulario personalizado.
 
      >[!NOTE]
      >
@@ -378,11 +374,11 @@ Workfront puede procesar casi todos los formatos de fecha. Sin embargo, debe ase
 
 Workfront también acepta valores de tiempo como parte de la fecha.
 
-Por ejemplo: 07/10/2022 01:30 o 07/10/2022 1 p. m.
+Por ejemplo: 10/07/2022 01:30 o 10/07/2022 1:00 PM.
 
 Si se omite una hora en la fecha, Workfront realiza una de las siguientes acciones:
 
-* Asume que la hora es 12 a. m. Para ver la fecha que espera, la zona horaria del sistema debe coincidir con la suya.
+* Asume que la hora es 12:00 a.m. Para ver la fecha que espera, la zona horaria del sistema debe coincidir con la suya.
 * Si se encuentra en un objeto asociado a una programación, la hora cambia a la más temprana que la programación permita.
 
 >[!NOTE]
@@ -407,7 +403,7 @@ Al rellenar la plantilla de hoja de cálculo de Kick-Start, puede utilizar los s
  <tbody> 
   <tr> 
    <td> <p>$$TODAY</p> </td> 
-   <td> <p>Cuando se usa en un campo <strong>setDate</strong>, este comodín establece como fecha la medianoche del día en que se importa el Kick-Start.</p> <p>Puede modificar el comodín utilizando la sintaxis estándar permitida con el comodín en un filtro.</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Ejemplo: </b></span></span>si desea que un proyecto comience el lunes de la semana en que se importa, independientemente del día en que se realice la importación, puede usar <strong>$$TODAYbw</strong>. Esto establece la fecha planificada de inicio del proyecto como el domingo a las 12 a. m. Dado que el horario del proyecto probablemente no permita trabajar a esa hora, este comenzará el lunes a las 9 a. m.</p> </td> 
+   <td> <p>Cuando se usa en un campo <strong>setDate</strong>, este comodín establece como fecha la medianoche del día en que se importa el Kick-Start.</p> <p>Puede modificar el comodín utilizando la sintaxis estándar permitida con el comodín en un filtro.</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Ejemplo: </b></span></span>si desea que un proyecto comience el lunes de la semana en que se importa, independientemente del día en que se realice la importación, puede usar <strong>$$TODAYbw</strong>. Esto establece la fecha de inicio planificada del proyecto como el domingo a las 12 a. m. Dado que el horario del proyecto probablemente no permita trabajar a esa hora, este comenzará el lunes a las 9 a. m.</p> </td> 
   </tr> 
   <tr> 
    <td> <p>$$NOW</p> </td> 

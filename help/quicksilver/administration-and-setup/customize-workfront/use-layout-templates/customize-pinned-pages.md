@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 55cc75c5-8b8c-48e7-b114-b41fe3d545d8
-source-git-commit: 0e7000597e2347bff0bc626d21aa9a6c9a839c0b
+source-git-commit: 76e32fa6b87583d2b8c296045da731afdb6d1f9a
 workflow-type: tm+mt
-source-wordcount: '545'
-ht-degree: 66%
+source-wordcount: '538'
+ht-degree: 65%
 
 ---
 
@@ -33,33 +33,24 @@ Después de configurar una plantilla de diseño, debe asignarla a usuarios para 
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
-Debe tener lo siguiente:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Plan de Adobe Workfront</td> 
-   <td>Cualquiera</td> 
+   <td>paquete de Adobe Workfront</td> 
+   <td><p>Cualquiera</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licencia de Adobe Workfront</td> 
-   <td> 
-      <p>Nuevo:</p>
-         <ul>
-         <li><p>Estándar</p></li>
-         </ul>
-      <p>Actual:</p>
-         <ul>
-         <li><p>Plan</p></li>
-         </ul>
-   </td>
+   <td>Licencia de Adobe Workfront</td> 
+   <td><p>Estándar</p>
+       <p>Plan</p></td>
+  </tr> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraciones de nivel de acceso</td> 
-   <td> <p>Para realizar estos pasos en el sistema, necesita el nivel de acceso de administrador del sistema.
-Para realizarlos para un grupo, debe ser administrador de ese grupo.</p> </td> 
+   <td>Configuraciones de nivel de acceso</td> 
+   <td> <p>Para realizar estos pasos en el sistema, necesita el nivel de acceso de administrador del sistema.</p>
+        <p>Para realizarlos para un grupo, debe ser administrador de ese grupo.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -78,7 +69,7 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
    * Seleccione entre las siguientes áreas:
 
       * Calendarios
-      * Paneles
+      * Paneles de control
       * Documentos
       * Metas
       * Inicio

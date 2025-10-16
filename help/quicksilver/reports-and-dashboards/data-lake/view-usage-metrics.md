@@ -7,10 +7,10 @@ description: Con la pestaña Métricas de Workfront Data Connect, puede ver las 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 29185bd1-e058-4b42-a508-53406fb9ddd2
-source-git-commit: ea9c674b798c48927c7a0a542d36d5ded15ea3f1
+source-git-commit: 7764e512a3fb30a89e6645a4d8544a5fcffee231
 workflow-type: tm+mt
-source-wordcount: '334'
-ht-degree: 25%
+source-wordcount: '309'
+ht-degree: 21%
 
 ---
 
@@ -20,35 +20,27 @@ Con la pestaña [!DNL Workfront Data Connect] [!UICONTROL Métricas], puede ver 
 
 ## Requisitos de acceso
 
-+++ Amplíe para ver los requisitos de acceso.
-
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
++++ Amplíe para ver los requisitos de acceso. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Plan de Adobe Workfront</td> 
-   <td><p>Incluido en los siguientes planes:</p>
-    <ul>
-        <li>Ultimate</li> 
-    </ul>    
-   <!--<p>Can be purchased as an add-on to the following plans:</p> 
-    <ul>
-        <li>Select</li> 
-        <li>Prime</li>
-    </ul>--> 
-    <p>Workfront Data Connect no está disponible para los planes Workfront heredados.</p> 
-   </td> </td> 
+   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td><p>Ultimate</p>
+    <p>Workflow Ultimate</p>
+   </td>
   </tr> 
   <tr> 
    <td role="rowheader">Licencia de Adobe Workfront</td> 
-   <td><p>Plan</p></td> 
+   <td>
+   <p>Estándar</p>
+   <p>Plan</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso</td> 
-   <td> <p>Debe ser administrador de Workfront.</p></td> 
+   <td> <p>Debe ser administrador de Workfront</p></td> 
   </tr> 
  </tbody> 
 </table>

@@ -7,10 +7,10 @@ description: Puede eliminar o archivar un tablero en Workfront. Eliminar un tabl
 author: Lisa
 feature: Agile
 exl-id: 214a83f6-ecc1-4e4d-aba5-d6483dcabd27
-source-git-commit: 3e33ba722ff066fd7fec8c7762c63e8c8d3fc4b8
+source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
 workflow-type: tm+mt
-source-wordcount: '324'
-ht-degree: 29%
+source-wordcount: '311'
+ht-degree: 24%
 
 ---
 
@@ -24,22 +24,19 @@ Solo el propietario del tablero puede eliminar el tablero.
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront]</td> 
+   <td role="rowheader">paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licencia</td> 
+   <td role="rowheader">Licencia de Adobe Workfront</td> 
    <td> 
-   <p>Nuevo: [!UICONTROL Contributor] o superior</p> 
-   <p>o</p>
-   <p>Actual: [!UICONTROL Request] o superior</p>
+   <p>Colaborador o superior</p> 
+   <p>Solicitud o superior</p>
    </td> 
   </tr> 
  </tbody> 
@@ -55,7 +52,7 @@ Al eliminar un tablero, se quita de forma permanente de [!DNL Workfront] y no se
 
 {{step1-to-boards}}
 
-1. En el panel, seleccione el tablero que desea abrir.
+1. En el panel de control, seleccione el tablero que desea abrir.
 1. Haga clic en el menú **[!UICONTROL Más]** ![[!UICONTROL Más]](assets/more-icon-spectrum.png) junto al nombre del tablero y seleccione **[!UICONTROL Eliminar]**. A continuación, haga clic en **[!UICONTROL Eliminar tablero]** en el mensaje de confirmación.
 
    >[!NOTE]
@@ -70,7 +67,7 @@ Los tableros archivados conservan todas las tarjetas y asignaciones. Cualquier u
 
 {{step1-to-boards}}
 
-1. En el panel, seleccione el tablero que desea abrir.
+1. En el panel de control, seleccione el tablero que desea abrir.
 1. Haga clic en el menú **[!UICONTROL Más]** ![[!UICONTROL Menú más]](assets/more-icon-spectrum.png) que está junto al nombre del tablero y seleccione **[!UICONTROL Archivo]**.
 
    ![Menú Más del tablero](assets/boards-board-more-menu.png)

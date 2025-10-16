@@ -6,10 +6,10 @@ description: Si ha creado un calendario, puede copiarlo y utilizarlo como punto 
 author: Lisa
 feature: Reports and Dashboards
 exl-id: f72cf896-294f-4166-b731-eaec0c2156b1
-source-git-commit: 5c0278607faf65b58abeb9b813e403f97032a965
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '325'
-ht-degree: 80%
+source-wordcount: '309'
+ht-degree: 74%
 
 ---
 
@@ -25,8 +25,6 @@ Además, si tiene acceso de [!UICONTROL administración] a un calendario del que
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -34,22 +32,21 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront plan]</td> 
+   <td role="rowheader">paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licencia</td> 
-   <td><p>Nuevo: estándar</p>
-       <p>o</p>
-       <p>Actual: plan</p></td> 
+   <td role="rowheader">Licencia de Adobe Workfront</td> 
+   <td><p>Estándar</p>
+       <p>Plan</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso</td> 
-   <td> <p>Acceso [!UICONTROL Edit] a [!UICONTROL Reports], [!UICONTROL Dashboards] y [!UICONTROL Calendars]</p></td> 
+   <td> <p> Editar el acceso a Informes, Paneles y Calendarios</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td>Acceso [!UICONTROL Manage] al informe de calendario</td> 
+   <td>Administrar el acceso al informe de calendario</td> 
   </tr> 
  </tbody> 
 </table>

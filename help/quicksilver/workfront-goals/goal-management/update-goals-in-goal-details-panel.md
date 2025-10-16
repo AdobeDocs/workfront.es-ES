@@ -6,16 +6,16 @@ description: Puede actualizar la información de las metas individuales accedien
 author: Alina
 feature: Workfront Goals
 exl-id: e9df0d98-05a1-4977-b7f1-426b8f5b3eae
-source-git-commit: 4e1558b47f6041501aa4e4fbfa6317dec8aee571
+source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
 workflow-type: tm+mt
-source-wordcount: '630'
-ht-degree: 25%
+source-wordcount: '576'
+ht-degree: 11%
 
 ---
 
 # Actualice las metas en la sección Detalles de las metas de Adobe Workfront Goals
 
-<!--Audited for P&P only: 4/2025-->
+<!--Audited for P&P only: 10/2025-->
 
 Puede actualizar la información de las metas individuales accediendo al panel Detalles de las metas.
 
@@ -25,9 +25,13 @@ Puede actualizar la información de las metas individuales accediendo al panel D
 
 ## Requisitos de acceso
 
-+++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
+>[!NOTE]
+>
+>Su empresa puede optar por seguir utilizando los objetivos de Adobe Workfront si compró este paquete anteriormente. Debe hablar con el representante de su cuenta para obtener más detalles.
+>
+>Adobe Workfront Goals ya no se puede adquirir.
 
-Debe tener lo siguiente:
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo. 
 
 <table style="table-layout:auto">
 <col>
@@ -35,33 +39,20 @@ Debe tener lo siguiente:
 <col>
 </col>
 <tbody>
- <tr> 
-   <td role="rowheader">Plan de Adobe Workfront*</td> 
+ <tr>
+  <td> <p>paquete de Adobe Workfront</p> </td> 
    <td> 
-   <p>Para la nueva estructura de plan y licencias:
-  <ul><li>Un plan Ultimate </li></ul>
-   </p>
-<p>Para la estructura actual de plan y licencias: 
-<ul><li> Pro o superior </li>
-  <li>Una licencia de Adobe Workfront Goals además de una licencia de Workfront.</li></ul></p>
+   <p>Adobe Workfront Ultimate</p>
    </td> 
   </tr>
  <tr>
- <td role="rowheader">Licencia de Adobe Workfront*</td>
+ <td role="rowheader">Licencia de Adobe Workfront</td>
  <td>
- <p>Nueva licencia: Contributor o superior</p>
- O
- <p>Licencia actual: Request o superior</p> <p>Para obtener más información, consulte <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Información general sobre las licencias de Adobe Workfront</a>.</p> </td>
+ <p>Colaborador o superior</p>
+<p>Solicitud o superior</p></td>
  </tr>
- <tr>
- <td role="rowheader">Producto*</td>
- <td>
-  <p> Nuevo requisito de producto: Workfront</p>
-  O
-  <p>Requisito actual del producto: además de una licencia de Workfront, debe adquirir una licencia para Adobe Workfront Goals. </p> <p>Para obtener más información, consulte <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requisitos para usar Workfront Goals</a>. </p> </td>
- </tr>
- <tr>
- <td role="rowheader">Nivel de acceso*</td>
+  <tr>
+ <td role="rowheader">Configuración de nivel de acceso</td>
  <td> <p>Editar acceso a Goals</p> </td>
  </tr>
  <tr data-mc-conditions="">
@@ -70,20 +61,72 @@ Debe tener lo siguiente:
   <div>
   <p>Permisos Ver o superiores para la meta que desea ver</p>
   <p>Permisos de administración para la meta y poder editarla</p>
-  <p>Para obtener información acerca de cómo compartir metas, consulte <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Compartir una meta en Workfront Goals</a>. </p>
   </div> </td>
  </tr>
- <tr>
+<tr>
    <td role="rowheader"><p>Plantilla de diseño</p></td>
-   <td> <p>A todos los usuarios, incluidos los administradores de Workfront, se les debe asignar una plantilla de diseño que incluya el área Metas en el menú principal. </p>  
+   <td> <p>A todos los usuarios, incluidos los administradores del sistema, se les debe asignar una plantilla de diseño que incluya el área Objetivos en el menú principal. </p>  
 </td>
   </tr>
 </tbody>
 </table>
 
-*Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
+
+<!--Old:
+<table style="table-layout:auto">
+<col>
+</col>
+<col>
+</col>
+<tbody>
+ <tr> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td> 
+   <p>For the new plan and license structure:
+  <ul><li>An Ultimate plan </li></ul>
+   </p>
+<p>For the current plan and license structure: 
+<ul><li> A Pro or higher </li>
+  <li>An Adobe Workfront Goals license in addition to a Workfront license.</li></ul></p>
+   </td> 
+  </tr>
+ <tr>
+ <td role="rowheader">Adobe Workfront license*</td>
+ <td>
+ <p>New license: Contributor or higher</p>
+ Or
+ <p>Current license: Request or higher</p> <p>For more information, see <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p> </td>
+ </tr>
+ <tr>
+ <td role="rowheader">Product*</td>
+ <td>
+  <p> New product requirement: Workfront</p>
+  Or
+  <p>Current product requirement: In addition to a Workfront license, you must purchase a license for Adobe Workfront Goals. </p> <p>For information, see <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requirements to use Workfront Goals</a>. </p> </td>
+ </tr>
+ <tr>
+ <td role="rowheader">Access level*</td>
+ <td> <p>Edit access to Goals</p> </td>
+ </tr>
+ <tr data-mc-conditions="">
+ <td role="rowheader">Object permissions</td>
+ <td>
+  <div>
+  <p>View or higher permissions to the goal to view it</p>
+  <p>Manage permissions to the goal to edit it</p>
+  <p>For information about sharing goals, see <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Share a goal in Workfront Goals</a>. </p>
+  </div> </td>
+ </tr>
+ <tr>
+   <td role="rowheader"><p>Layout template</p></td>
+   <td> <p>All users, including Workfront administrators,  must be assigned a layout template that includes the Goals area in the Main Menu. </p>  
+</td>
+  </tr>
+</tbody>
+</table>-->
 
 ## Actualizar metas en la sección Detalles de las metas
 

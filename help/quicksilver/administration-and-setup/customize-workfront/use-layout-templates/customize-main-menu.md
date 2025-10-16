@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: d4f02102-0378-472f-9ebb-753502ec048b
-source-git-commit: f9455b5aa57585a0e037f024807c19d48296d518
+source-git-commit: 39b3ecde744625c070a5c4378938e297f50feeaa
 workflow-type: tm+mt
-source-wordcount: '681'
-ht-degree: 41%
+source-wordcount: '661'
+ht-degree: 39%
 
 ---
 
@@ -37,34 +37,30 @@ Después de configurar una plantilla de diseño, debe asignarla a usuarios para 
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Plan de Adobe Workfront</strong></td> 
+   <td>paquete de Adobe Workfront</td> 
    <td><p>Cualquiera</p>
-
-<p>Añadir aplicaciones personalizadas al menú principal solo está disponible para organizaciones con licencia para Adobe App Builder.</p></td> 
+       <p>Añadir aplicaciones personalizadas al menú principal solo está disponible para organizaciones con licencia para Adobe App Builder.</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Licencia de Adobe Workfront*</strong></td> 
-   <td><p>Actual: plan</p>
-   O
-   <p>Nuevo: estándar</p></td> 
+   <td>Licencia de Adobe Workfront</td> 
+   <td><p>Estándar</p>
+       <p>Plan</p></td>
+  </tr> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Configuración de nivel de acceso</strong></td> 
+   <td>Configuraciones de nivel de acceso</td> 
    <td> <p>Para realizar estos pasos en el sistema, necesita el nivel de acceso de administrador del sistema.</p>
-    <p>Para realizarlos para un grupo, debe ser administrador de ese grupo.</p> 
-     </td> 
+        <p>Para realizarlos para un grupo, debe ser administrador de ese grupo.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Para obtener más información sobre los requisitos de acceso, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

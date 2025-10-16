@@ -8,10 +8,10 @@ author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 413e3051-fcb5-44d7-b6bd-6b05d39935e8
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: 15ea03bf586054f7ef421f8cacede6f42835a6e4
 workflow-type: tm+mt
-source-wordcount: '620'
-ht-degree: 15%
+source-wordcount: '566'
+ht-degree: 6%
 
 ---
 
@@ -27,26 +27,26 @@ Para obtener información sobre cómo ver los anuncios, consulte [Ver y administ
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Plan de Adobe Workfront</td> 
-   <td>Cualquiera</td> 
+   <td role="rowheader">paquete de Workfront</td> 
+   <td><p>Cualquiera</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licencia de Adobe Workfront</td> 
-   <td>Plan</td> 
+   <td><p>Estándar</p> <p>Plan</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso</td> 
-   <td> <p>Debe ser administrador de Workfront. Para obtener más información, consulte <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Conceder acceso administrativo completo a un usuario</a>.</p> <p><b>NOTA</b>: Si todavía no tiene acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo los administradores de Workfront pueden modificar su nivel de acceso, consulte <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creación o modificación de niveles de acceso personalizados</a>.</p> </td> 
+   <td>Debe ser administrador de Workfront. </td> 
   </tr> 
  </tbody> 
 </table>
+
+Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

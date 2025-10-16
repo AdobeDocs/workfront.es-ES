@@ -6,9 +6,9 @@ description: Puede acceder a su Lista de trabajos en Inicio, revisar y aceptar t
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 802a2f16-d827-455e-9e49-f58f4c5fc482
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 6178cabbf021fbf92bd8795c5c2bd0346801d64d
 workflow-type: tm+mt
-source-wordcount: '906'
+source-wordcount: '907'
 ht-degree: 99%
 
 ---
@@ -25,20 +25,26 @@ Para obtener más información sobre la configuración de [!DNL Workfront] con [
 
 ## Requisitos de acceso
 
-Debe tener lo siguiente:
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Plan <a href="https://business.adobe.com/es/products/workfront/pricing.html" target="_blank">[!DNL Adobe Workfront]</a>*</td> 
-   <td> <p>[!UICONTROL Pro] o superior</p> </td> 
+   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td> <p>Cualquiera</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Licencia de Adobe Workfront</td> 
+   <td> <p>Cualquiera</p>
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de Workfront.
+Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Requisitos previos
 

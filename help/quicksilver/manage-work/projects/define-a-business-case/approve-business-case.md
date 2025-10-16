@@ -2,12 +2,12 @@
 navigation-topic: business-case-and-scorecards
 title: Aprobar un caso comercial
 description: Una vez completado y enviado el caso empresarial para una solicitud de proyecto, el caso empresarial debe aprobarse. Esto depende del flujo de trabajo de su organización. Un proyecto puede iniciarse sin que sea necesario aprobar el caso empresarial, pero es posible que el administrador de Adobe Workfront y los propietarios del proyecto no lo consideren ideal.
-author: Alina
+author: Becky
 feature: Work Management
 exl-id: 60abb054-5cb0-4dd6-9091-c9dcd635a630
-source-git-commit: 724c507dd5ee09b3364fc2037380a8cb18be08f2
+source-git-commit: aa3ae2a5d92420f4adcedb60a4f7404533eaa59b
 workflow-type: tm+mt
-source-wordcount: '690'
+source-wordcount: '682'
 ht-degree: 17%
 
 ---
@@ -29,18 +29,16 @@ Para obtener más información sobre cómo completar y enviar un caso empresaria
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><p>Plan de Adobe Workfront*</p></td> 
+   <td role="rowheader"><p>paquete de Adobe Workfront</p></td> 
    <td> 
-   <p>Actual: Prime o superior</p>
-   <p>o</p>
-   <p>Heredado: Empresa o superior</p> 
+   <p>Prime o superior</p>
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licencia de Adobe Workfront*</td> 
+   <td role="rowheader">Licencia de Adobe Workfront</td> 
    <td> 
-   <p>Actual: Estándar </p> 
-   <p>Heredado: plan </p> </td> 
+   <p>Estándar </p> 
+   <p>Plan </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso</td> 
@@ -53,7 +51,7 @@ Para obtener más información sobre cómo completar y enviar un caso empresaria
  </tbody> 
 </table>
 
-*Para obtener información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

@@ -5,10 +5,10 @@ author: Alina, Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 6c0fa8af-cd89-4941-a6f6-aa4e84a7dc67
-source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
+source-git-commit: e34abb5ff1068de99eaba33dc95287164e556742
 workflow-type: tm+mt
-source-wordcount: '1232'
-ht-degree: 7%
+source-wordcount: '1209'
+ht-degree: 5%
 
 ---
 
@@ -35,21 +35,18 @@ An example of how this can be used would be helpful here and/or in the section <
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Plan de Adobe Workfront*</td> 
+   <td role="rowheader">paquete de Adobe Workfront</td> 
    <td>Cualquiera</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licencia de Adobe Workfront</td> 
-   <td> <p>Nuevo: estándar </p>
- <p>o</p> 
-<p>Actual: plan</p> 
+   <td> <p>Estándar </p>
+<p>Plan</p> 
 </td> 
   </tr> 
   <tr> 
@@ -59,13 +56,13 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  </tbody> 
 </table>
 
-*Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Personalizar el correo electrónico del recordatorio
 
-Puede personalizar el asunto, el cuerpo y el HTML en el correo electrónico de notificación de recordatorio.
+Puede personalizar el asunto, el cuerpo y HTML en el correo electrónico de notificación de recordatorio.
 
 O bien, puede utilizar el correo electrónico predeterminado incluido con la notificación de recordatorio. El correo electrónico predeterminado utiliza el nombre de la notificación de recordatorio como asunto del correo electrónico y el nombre del objeto en el cuerpo del correo electrónico, incluido el evento que activó la notificación.
 

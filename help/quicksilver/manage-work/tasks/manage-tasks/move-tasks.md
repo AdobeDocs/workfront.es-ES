@@ -6,10 +6,10 @@ description: Puede mover tareas a diferentes proyectos o a diferentes tareas pri
 author: Alina
 feature: Work Management
 exl-id: 93295d70-a6cf-46ca-b621-228fa6c983f5
-source-git-commit: 0792651822fd85cb3bfbb754aaf949c4fc4038a1
+source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
 workflow-type: tm+mt
-source-wordcount: '1380'
-ht-degree: 49%
+source-wordcount: '1371'
+ht-degree: 48%
 
 ---
 
@@ -36,21 +36,20 @@ Puede mover una sola tarea o mover varias tareas a la vez desde una lista de tar
 
 ## Requisitos de acceso
 
-+++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Plan de Adobe Workfront</td> 
+   <td role="rowheader">paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licencia de Adobe Workfront</td> 
-   <td> <p>Nuevo: estándar </p> 
- <p>o</p>  
-<p>Actual: Trabajo o superior </p> </td> 
+   <td> <p>Estándar </p> 
+ <p>Trabajo o superior</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso</td> 
@@ -63,9 +62,36 @@ Puede mover una sola tarea o mover varias tareas a la vez desde una lista de tar
  </tbody> 
 </table>
 
-Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td> <p>New: Standard </p> 
+ <p>or</p>  
+<p>Current: Work or higher </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>Edit access to Tasks and Projects</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>Manage permissions to the tasks</p> <p>Contribute or higher permissions to the project with ability to Add Tasks</p>  </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## Consideraciones a la hora de mover tareas
 
@@ -239,7 +265,7 @@ Además de mover tareas de una lista de tareas, puede mover una tarea al nivel d
 
    La tarea se muestra en la lista.
 
-   ![Seleccione la tarea principal al mover una tarea con la funcionalidad de búsqueda &#x200B;](assets/select-parent-when-moving-tasks-with-search-functionality-nwe-350x110.png)
+   ![Seleccione la tarea principal al mover una tarea con la funcionalidad de búsqueda ](assets/select-parent-when-moving-tasks-with-search-functionality-nwe-350x110.png)
 
    >[!NOTE]
    >

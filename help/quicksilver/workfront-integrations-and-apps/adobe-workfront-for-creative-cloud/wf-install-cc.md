@@ -6,10 +6,10 @@ description: Puede instalar [!DNL Adobe Workfront for design and video] desde Ad
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: f4fbae93-b54b-4d08-82c3-72a9a760c317
-source-git-commit: 9473926f1b90f4e76c82b7e5dd15c50a667102df
+source-git-commit: a65a4568c6428768ee6bc60a59a8499efdbec9f8
 workflow-type: tm+mt
-source-wordcount: '643'
-ht-degree: 83%
+source-wordcount: '616'
+ht-degree: 81%
 
 ---
 
@@ -41,28 +41,30 @@ Puede instalar [!DNL Adobe Workfront for design and video] desde [!DNL Adobe Mar
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
-
 <table style="table-layout:auto"> 
  <col> 
+ </col> 
  <col> 
+ </col> 
  <tbody> 
  <!-- <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
-   <td> <p>[!UICONTROL Pro] or higher</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] package/td> 
+   <td> <p>Any</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
-   <td> <p>[!UICONTROL Work] or [!UICONTROL Plan]</p> </td> 
+   <td>
+   <p>Standard</p>
+    <p>Work or higher</p> </td> 
   </tr> -->
   <tr> 
-   <td role="rowheader">Producto</td> 
-   <td><p>Debe tener una licencia de [!DNL Adobe Creative Cloud] además de una licencia de [!DNL Workfront].</p><p>Para obtener más información, consulte <a href="https://helpx.adobe.com/es/support/programs/cc-support-policy.html#cce" class="MCXref xref" xrefformat="{para}">Política de soporte de Creative Cloud</a>.</p></td> 
+   <td role="rowheader">Productos adicionales</td> 
+   <td><p>Debe tener una licencia [!DNL Adobe Creative Cloud] además de una licencia [!DNL Workfront].</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de [!DNL Workfront].
+Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

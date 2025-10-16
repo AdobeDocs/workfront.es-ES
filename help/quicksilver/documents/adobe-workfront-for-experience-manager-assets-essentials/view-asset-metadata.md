@@ -3,74 +3,70 @@ content-type: reference
 product-area: documents;workfront-integrations
 navigation-topic: documents-navigation-topic
 title: Ver metadatos asignados para Experience Manager Assets o Assets Essentials
-description: Puede ver una vista en tiempo real de los metadatos asignados en el panel Detalles del documento y resumen de los documentos.
+description: Puede ver una vista en tiempo real de los metadatos asignados en el panel Detalles del documento y Resumen de los documentos.
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: cfad5855-033c-4a15-b5a2-7ff32ed65fe9
-source-git-commit: b87839d6c6dbfe978a3e14ef4b448560742f95c3
+source-git-commit: 4a0448583cbcfd1f1df10d6474fdf4e77e7bff3e
 workflow-type: tm+mt
-source-wordcount: '375'
-ht-degree: 0%
+source-wordcount: '324'
+ht-degree: 96%
 
 ---
 
 # Ver metadatos asignados para Experience Manager Assets o Assets Essentials
 
-Puede ver una vista en tiempo real de los metadatos asignados en el panel Detalles del documento y resumen de los documentos. Los campos de metadatos se asignan por primera vez al enviar un recurso desde Workfront a Experience Manager Assets o a los Assets Essentials. Si el administrador de Workfront ha activado la sincronización de metadatos de objeto, los campos permanecen actualizados si se cambian en alguna de las aplicaciones.
+Puede ver una vista en tiempo real de los metadatos asignados en el panel Detalles del documento y Resumen de los documentos. Los campos de metadatos se asignan por primera vez al enviar un recurso desde Workfront a Experience Manager Assets o a Assets Essentials. Si el administrador de Workfront ha habilitado la sincronización de metadatos de objetos, los campos permanecen actualizados si se modifican en alguna de las aplicaciones.
 
 ## Requisitos de acceso
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
-Debe tener lo siguiente:
-
 <table>
   <tr>
-   <td><strong>plan Adobe Workfront*</strong>
+   <td><strong>paquete de Adobe Workfront</strong>
    </td>
    <td>Cualquiera
    </td>
   </tr>
   <tr>
-   <td><strong>licencias de Adobe Workfront*</strong>
+   <td><strong>licencias de Adobe Workfront</strong>
    </td>
-   <td>Solicitud o superior
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Producto</strong>
-   </td>
-   <td>Debe tener Assets Essentials as a Cloud Service de Experience Manager Assets y se le debe agregar al producto como usuario en el Admin Console.
+   <td>
+   <p>Colaborador o superior</p>
+   <p>Solicitud o superior</p>
    </td>
   </tr>
   <tr>
-   <td><strong>Configuraciones de nivel de acceso*</strong>
+   <td><strong>Productos adicionales</strong>
    </td>
-   <td>Editar acceso a documentos
-<p>
-<strong>Nota: </strong>Si todavía no tiene acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, vea <strong>Crear o modificar niveles de acceso personalizados</strong>.
+   <td>Debe tener Experience Manager Assets as a Cloud Service o Assets Essentials, y debe estar añadido al producto como usuario en la Admin Console.
+   </td>
+  </tr>
+  <tr>
+   <td><strong>Configuraciones de nivel de acceso</strong>
+   </td>
+   <td><p>Acceso de edición a documentos</p>
    </td>
   </tr>
   <tr>
    <td><strong>Permisos de objeto</strong>
    </td>
-   <td>Ver acceso o superior
-<p>
-Para obtener información sobre cómo solicitar acceso adicional, vea <strong>Solicitar acceso a los objetos </strong>.
+   <td>Acceso de visualización o superior
    </td>
   </tr>
 </table>
 
 
-*Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su administrador de Workfront.
+Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Requisitos previos
 
-Antes de empezar,
+Antes de comenzar,
 
-* El administrador de Workfront debe configurar una integración de Experience Manager. Para obtener más información, consulte [Configuración de la integración as a Cloud Service de Experience Manager Assets](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md) o [Configuración de la integración de Experience Manager Assets Essentials](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
+* El administrador de Workfront debe configurar una integración de Experience Manager. Para obtener más información, consulte [Configuración de la integración de Experience Manager Assets as a Cloud Service](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md) o [Configuración de la integración de Experience Manager Assets Essentials](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
 
 
 ## Detalles del documento
@@ -78,7 +74,7 @@ Antes de empezar,
 Para abrir el panel Metadatos en Detalles del documento:
 
 1. Vaya al proyecto, tarea o problema que contiene el documento y, a continuación, seleccione **Documentos**.
-1. Pase el ratón sobre el documento que necesita y luego seleccione **Detalles del documento**.
+1. Pase el puntero por encima del documento que necesita y luego seleccione **Detalles del documento**.
 1. Busque y expanda la sección **Metadatos**.
 
    >[!NOTE]
@@ -94,7 +90,7 @@ Para abrir el panel Metadatos en el panel Resumen:
 
 1. Vaya al proyecto, tarea o problema que contiene el documento y, a continuación, seleccione **Documentos**.
 1. Busque el documento que necesita.
-1. Haga clic en el **icono de resumen** ![icono de resumen](assets/summary-panel-icon.png) y, a continuación, expanda la sección **Metadatos**.
+1. Haga clic en el **Icono de resumen** ![Icono de resumen](assets/summary-panel-icon.png) y, a continuación, expanda la sección **Metadatos**.
 
    >[!NOTE]
    >

@@ -3,14 +3,14 @@ product-area: requests
 navigation-topic: create-and-manage-request-queues
 title: Creación de colas de solicitudes
 description: Es posible configurar colas de solicitudes en las que los usuarios introduzcan solicitudes ocasionales que no estén planificadas como trabajo de un proyecto. Por ejemplo, se podría configurar una cola de solicitudes del servicio de asistencia para capturar todas las solicitudes de usuarios que lleguen a un departamento de TI.
-author: Alina
+author: Becky
 feature: Work Management, Requests
 topic: Collaboration
 role: User, Admin
 exl-id: 385420aa-0962-4b67-9d0d-b153dcf302cf
-source-git-commit: ce611ec0c91b114f1a10977970e42fa753f62f22
+source-git-commit: 9cdf3d78e1d19f3d581f8d527919a608c5cc0ddc
 workflow-type: tm+mt
-source-wordcount: '2868'
+source-wordcount: '2843'
 ht-degree: 65%
 
 ---
@@ -54,22 +54,19 @@ Para obtener información sobre cómo configurar un formulario de solicitud en W
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Plan de Adobe Workfront</td> 
+   <td role="rowheader">paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licencia de Adobe Workfront</td> 
    <td> 
-   <p>Nueva licencia: estándar </p>
-   O
-   <p>Licencia actual: plan </p> </td> 
+   <p>Estándar </p>
+   <p>Plan </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso</td> 
@@ -82,7 +79,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  </tbody> 
 </table>
 
-Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -365,7 +362,7 @@ Para crear una cola de solicitudes, haga lo siguiente:
 
    * Utilice las siguientes opciones para proporcionar acceso directo a la cola de solicitudes y a los formularios asociados a ella a los usuarios fuera de Workfront o a los usuarios de Workfront que utilicen una página externa incrustada.
 
-   Para obtener información acerca de cómo incrustar una cola de solicitudes en un panel como página externa, consulte [Incrustar una cola de solicitudes en un panel](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-request-queue-dashboard.md).
+   Para obtener información acerca de cómo incrustar una cola de solicitudes en un panel de control como página externa, consulte [Incrustar una cola de solicitudes en un panel de control](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-request-queue-dashboard.md).
 
    Los usuarios deben tener primero permisos en la cola de solicitudes para obtener acceso directo. El uso de cualquiera de las opciones descritas aquí no concede acceso automáticamente a los usuarios.
 
@@ -379,7 +376,7 @@ Para crear una cola de solicitudes, haga lo siguiente:
 
      >[!NOTE]
      >
-     >Puede mostrar una cola de solicitudes en un panel como una página externa. En este caso, la cola de solicitudes está preseleccionada, pero puede seleccionar cualquier otra cola de solicitudes del campo Tipo de solicitud. Los usuarios que envíen la solicitud pueden seleccionar otro tipo de solicitud. También se muestran los grupos de temas y los temas de colas.
+     >Puede mostrar una cola de solicitudes en un panel de control como una página externa. En este caso, la cola de solicitudes está preseleccionada, pero puede seleccionar cualquier otra cola de solicitudes del campo Tipo de solicitud. Los usuarios que envíen la solicitud pueden seleccionar otro tipo de solicitud. También se muestran los grupos de temas y los temas de colas.
 
    * **Código incrustado:** utilice este código de HTML para incrustar el formulario de cola de solicitudes como un iframe en cualquier página de HTML.\
      Si los usuarios no están autenticados en Workfront cuando ven la página donde está incrustado el código, se muestra el cuadro de diálogo de inicio de sesión de Workfront. Cuando los usuarios inician sesión, se muestra el formulario Cola de solicitudes.

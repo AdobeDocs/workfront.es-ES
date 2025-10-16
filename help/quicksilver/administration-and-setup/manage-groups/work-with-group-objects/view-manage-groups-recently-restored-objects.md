@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 8ec06363-080e-4f1d-8a50-fc14f06ad323
-source-git-commit: 379772f6bd1ed9448e6fd5feee956a931f65f69e
+source-git-commit: 7eaff1c74cd880bde062e6fdf169c73d6eeb7f75
 workflow-type: tm+mt
-source-wordcount: '333'
-ht-degree: 71%
+source-wordcount: '310'
+ht-degree: 68%
 
 ---
 
@@ -30,34 +30,31 @@ Para obtener más información acerca de los elementos restaurados, consulte [Re
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Plan de Adobe Workfront</td> 
-   <td>Cualquiera</td> 
+   <td>paquete de Adobe Workfront</td> 
+   <td><p>Cualquiera</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licencia de Adobe Workfront</td>
-   <td><p>Nuevo: estándar</p>
-       <p>O</p>
-       <p>Actual: plan</p></td>
+   <td>Licencia de Adobe Workfront</td> 
+   <td><p>Estándar</p>
+       <p>Plan</p></td>
+  </tr>
   <tr> 
-   <td role="rowheader">Configuraciones de nivel de acceso</td> 
+   <td>Configuraciones de nivel de acceso</td> 
    <td>Debe ser administrador de grupo del grupo o administrador del sistema.</td>
   </tr>
   <tr> 
-   <td role="rowheader">Permisos de objeto</td>
+   <td>Permisos de objeto</td>
    <td>Los elementos restaurados deben estar asociados al grupo o a cualquiera de sus subgrupos.</td> 
-  </tr> 
   </tr> 
  </tbody> 
 </table>
 
-Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

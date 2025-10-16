@@ -6,10 +6,10 @@ description: Puede añadir rápidamente una tarjeta ad hoc a un tablero y asigna
 author: Lisa
 feature: Agile
 exl-id: 9bc1f92a-85b0-44fd-b5de-09a69af6def5
-source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
+source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
 workflow-type: tm+mt
-source-wordcount: '892'
-ht-degree: 0%
+source-wordcount: '879'
+ht-degree: 35%
 
 ---
 
@@ -25,28 +25,25 @@ Puede añadir rápidamente una tarjeta a un tablero y asignarla a un miembro del
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront]</td> 
+   <td role="rowheader">paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licencia</td> 
+   <td role="rowheader">Licencia de Adobe Workfront</td> 
    <td> 
-   <p>Nuevo: [!UICONTROL Contributor] o superior</p> 
-   <p>o</p>
-   <p>Actual: [!UICONTROL Request] o superior</p>
+   <p>Colaborador o superior</p> 
+   <p>Solicitud o superior</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -72,7 +69,7 @@ Una tarjeta ad hoc no está conectada a un elemento de trabajo en [!DNL Adobe Wo
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL Nombre]</strong> </td> 
+      <td role="rowheader"><strong>[!UICONTROL Name]</strong> </td> 
       <td>Nombre de la tarjeta.</td> 
      </tr> 
      <tr> 
@@ -84,37 +81,37 @@ Una tarjeta ad hoc no está conectada a un elemento de trabajo en [!DNL Adobe Wo
       <td>Seleccione la columna de la tarjeta. Si deja en blanco el campo <strong>[!UICONTROL Column]</strong>, la tarjeta se coloca en la primera columna de la izquierda del tablero.</td>
      </tr>
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL Estado]</strong> </td> 
+      <td role="rowheader"><strong>[!UICONTROL Status]</strong> </td> 
       <td>Seleccione un estado para la tarjeta. Si hace clic en <strong>[!UICONTROL Mark Complete]</strong> en la parte superior de la tarjeta, el estado cambiará automáticamente a [!UICONTROL Complete].</td> 
      </tr>
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL Fecha de vencimiento]</strong></td> 
+      <td role="rowheader"><strong>[!UICONTROL Due date]</strong></td> 
       <td>Seleccione una fecha límite para la tarjeta. </td>
      </tr>
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL Estimación]</strong></td> 
-      <td>Escriba el número estimado de horas para completar la tarjeta. Esto es solo una entrada manual.</td>
+      <td role="rowheader"><strong>[!UICONTROL Estimation]</strong></td> 
+      <td>Escriba el número estimado de horas para completar la tarjeta. Esta entrada es solo manual.</td>
      </tr>
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Asignaciones]</strong> </td> 
-      <td>Para asignar la tarjeta, haga clic en <strong>[!UICONTROL Agregar asignación]</strong> y empiece a escribir un nombre en el campo de búsqueda. A continuación, selecciónelo cuando se muestre en la lista de resultados. Puede agregar personas y equipos, así como asignar más de una persona o equipo a una tarjeta.</td>
+      <td>Para asignar la tarjeta, haga clic en <strong>[!UICONTROL Agregar asignación]</strong> y empiece a escribir un nombre en el campo de búsqueda. A continuación, selecciónelo cuando se muestre en la lista de resultados. Puede añadir personas y equipos, así como asignar más de una persona o equipo a una tarjeta.</td>
      </tr>     
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL Etiquetas]</strong></td> 
-      <td>Busque y seleccione etiquetas para la tarjeta. Para obtener información sobre cómo crear nuevas etiquetas, consulte <a href="../../agile/get-started-with-boards/add-tags.md" class="MCXref xref">Agregar etiquetas</a>.</td> 
+      <td role="rowheader"><strong>[!UICONTROL Tags]</strong></td> 
+      <td>Busque y seleccione etiquetas para la tarjeta. Para obtener información sobre cómo crear nuevas etiquetas, consulte <a href="../../agile/get-started-with-boards/add-tags.md" class="MCXref xref">Añadir etiquetas</a>.</td> 
      </tr>
      <tr>
-      <td role="rowheader"><strong>[!UICONTROL Conexión]</strong> </td>
+      <td role="rowheader"><strong>[!UICONTROL Connection]</strong> </td>
       <td>Puede conectar una tarjeta ad hoc a una tarea o problema de [!DNL Workfront]. Para obtener más información, consulte "Convertir una tarjeta ad hoc en una tarjeta conectada" en el artículo <a href="/help/quicksilver/agile/get-started-with-boards/connected-cards.md">Usar tarjetas conectadas en tableros</a>.</td>
      </tr>
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Lista de comprobación]</strong> </td> 
-      <td> <p>Haga clic en <strong>[!UICONTROL Agregar elemento de lista de comprobación]</strong>. A continuación, escriba el título del elemento y presione Entrar. Se agrega otro elemento automáticamente. Siga introduciendo títulos para añadir más elementos.</p> <p>El contador de la parte superior de la lista de comprobación muestra el número de elementos completados y el número total de elementos.</p> <p>Para obtener más información acerca de los elementos de la lista de comprobación, vea <a href="/help/quicksilver/agile/get-started-with-boards/manage-checklist-items.md">Administrar elementos de la lista de comprobación en tarjetas</a>.</p> </td> 
+      <td> <p>Haga clic en <strong>[!UICONTROL Add checklist item]</strong>. A continuación, escriba el título del elemento y pulse Intro. Se añade otro elemento automáticamente. Siga introduciendo títulos para añadir más elementos.</p> <p>El contador de la parte superior de la lista de comprobación muestra el número de elementos completados y el número total de elementos.</p> <p>Para obtener más información acerca de los elementos de la lista de comprobación, consulte <a href="/help/quicksilver/agile/get-started-with-boards/manage-checklist-items.md">Administrar elementos de listas de comprobación en tarjetas</a>.</p> </td> 
      </tr>
      <tr>
-      <td role="rowheader"><strong>[!UICONTROL Comentarios]</strong></td>
-      <td><p>Haga clic en el campo <strong>[!UICONTROL Nuevo comentario]</strong> y escriba el comentario. Utilice las herramientas de formato para dar formato al texto. (Las imágenes no están disponibles en los comentarios de tarjetas ad hoc). Para etiquetar a una persona o equipo, utilice el cuadro de búsqueda situado en la parte inferior del área de comentarios. El usuario no tiene que ser miembro del tablero.</p><p><strong>NOTA:</strong> En este momento, los usuarios etiquetados en comentarios en tarjetas ad hoc no reciben una notificación por correo electrónico.
-      </p><p>Haga clic en <strong>[!UICONTROL Enviar]</strong> para agregar el comentario a la tarjeta.</p>
+      <td role="rowheader"><strong>[!UICONTROL Comments]</strong></td>
+      <td><p>Haga clic en el campo <strong>[!UICONTROL New comment]</strong> y escriba el comentario. Utilice las herramientas de formato para dar formato al texto. (Las imágenes no están disponibles en los comentarios de tarjetas ad hoc). Para etiquetar a una persona o equipo, utilice el cuadro de búsqueda situado en la parte inferior del área de comentarios. El usuario no tiene que ser miembro del tablero.</p><p><strong>NOTA:</strong> En este momento, los usuarios etiquetados en comentarios en tarjetas ad hoc no reciben una notificación por correo electrónico.
+      </p><p>Haga clic en <strong>[!UICONTROL Submit]</strong> para añadir el comentario a la tarjeta.</p>
       <p>Para obtener más información sobre los comentarios, consulte <a href="/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md">Actualizar trabajo</a>.</p></td>
      </tr>
     </tbody> 
@@ -122,7 +119,7 @@ Una tarjeta ad hoc no está conectada a un elemento de trabajo en [!DNL Adobe Wo
 
    ![Detalles de la tarjeta Ad hoc](assets/ad-hoc-card-details-with-comments.png)
 
-   Utilice el panel de navegación izquierdo para desplazarse entre secciones de campos de los detalles de la tarjeta.
+   Utilice el panel de navegación izquierdo para desplazarse entre las secciones de los campos de los datos de la tarjeta.
 
 1. Haga clic en **[!UICONTROL Cerrar]** para agregar la tarjeta al tablero.
 
@@ -150,8 +147,8 @@ Puede añadir tarjetas ad hoc con un solo título para rellenar rápidamente el 
 
    O
 
-   Haga clic en el menú **[!UICONTROL Más]** ![[!UICONTROL Más &#x200B;]](assets/more-icon-spectrum.png) de la tarjeta y seleccione **[!UICONTROL Editar]**.
+   Haga clic en el menú **[!UICONTROL Más]** ![[!UICONTROL menú Más ]](assets/more-icon-spectrum.png) de la tarjeta y seleccione **[!UICONTROL Editar]**.
 
 1. En el cuadro [!UICONTROL Detalles de la tarjeta], actualice la información según sea necesario y haga clic en **[!UICONTROL Cerrar]** para volver al tablero.
 
-   Si tiene habilitadas las directivas de columna para actualizar valores de campo, al cambiar el estado de la tarjeta se mueve automáticamente la tarjeta a la columna correspondiente. Para obtener más información, consulte &quot;Definir configuración y directivas de columna&quot; en el artículo [Administrar columnas del tablero](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md).
+   Si tiene habilitadas las directivas de columna para actualizar valores de campo, al cambiar el estado de la tarjeta, esta se desplaza automáticamente a la columna correspondiente. Para obtener más información, consulte “Definición de la configuración y las directivas de columna” en el artículo [Administrar columnas de tablero](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md).

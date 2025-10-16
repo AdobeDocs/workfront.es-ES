@@ -6,10 +6,10 @@ description: Puede utilizar el Planificador de recursos para administrar la asig
 author: Lisa
 feature: Resource Management
 exl-id: 0de749df-5af9-4124-8539-06b82dca2ec4
-source-git-commit: a3b2ac192e1f37e0c3d16d059ed96e8d5cadf8be
+source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
 workflow-type: tm+mt
-source-wordcount: '506'
-ht-degree: 91%
+source-wordcount: '471'
+ht-degree: 92%
 
 ---
 
@@ -25,38 +25,31 @@ Puede utilizar el Planificador de recursos para administrar la asignación de su
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Plan de Adobe Workfront</td> 
-   <td><p>Nuevo: cualquiera</p>
-       <p>o</p>
-       <p>Actual: pro o superior</p> </td> 
+   <td>paquete de Adobe Workfront</td> 
+   <td><p>Cualquiera</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Licencia de Adobe Workfront</td> 
-   <td><p>Nuevo: Claro o superior;</br>
-          Estándar para localizar el Planificador de recursos en el menú principal</p>
-       <p>o</p>
-       <p>Actual: revisión o superior;</br>
-       Planifique la ubicación del Planificador de recursos en el menú principal</p></td>
+   <td>Licencia de Adobe Workfront</td> 
+   <td><p>Ligero o superior para un proyecto; Estándar para varios proyectos</p>
+       <p>Revisar o superior para un proyecto; planificar para varios proyectos</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraciones de nivel de acceso</td> 
+   <td>Configuraciones de nivel de acceso</td> 
    <td> <p>Acceso de visualización o superior a la Administración de recursos</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Permisos de objeto</td> 
+   <td>Permisos de objeto</td> 
    <td> <p>Permisos de visualización para proyectos y usuarios </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -67,10 +60,6 @@ Asegúrese de que se cumplen todos los requisitos previos para acceder al Planif
 Para obtener información sobre los requisitos previos del Planificador de recursos, consulte [Introducción a la planificación de recursos](../../resource-mgmt/resource-planning/get-started-resource-planning.md).
 
 ## Localizar el Planificador de recursos
-
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(this was moved from the get-started-resource-planner article)</p>
--->
 
 Puede ubicar el Planificador de recursos en dos áreas de Workfront, en función de si desea presupuestar los recursos para varios proyectos o para un solo proyecto.
 

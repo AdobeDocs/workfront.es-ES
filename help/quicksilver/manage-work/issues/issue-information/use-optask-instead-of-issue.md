@@ -1,19 +1,21 @@
 ---
 product-area: projects
 navigation-topic: issue-information
-title: Utilice “opTask” y “issue” al hacer referencia a problemas
+title: Usar "opTask" y "issue" al hacer referencia a problemas
 description: El nombre de un problema aparece como opTask en la base de datos de Adobe Workfront. Aunque hay ocasiones en que necesita utilizar el nombre del campo del problema para hacer referencia a problemas, la mayoría de las veces debe utilizar el nombre del campo opTask en lugar del problema al hacer referencia a problemas.
 author: Alina
 feature: Work Management
 exl-id: 91107c04-616c-49b2-aa78-10e373d11f6b
-source-git-commit: a00776ecd9f8dc14b9dce14ce9463c2bb709a363
+source-git-commit: 0542587bb3254dec5664de493c1c321528cf7f3e
 workflow-type: tm+mt
 source-wordcount: '250'
-ht-degree: 98%
+ht-degree: 95%
 
 ---
 
 # Utilice “opTask” y “issue” al hacer referencia a problemas
+
+<!--Audited: 08/2025-->
 
 El nombre de un problema aparece como `opTask` en la base de datos de Adobe Workfront. Aunque hay ocasiones en las que necesita usar el nombre de campo `issue` para hacer referencia a problemas, la mayoría de las veces debe usar el nombre de campo `opTask` en lugar de `issue` al hacer referencia a problemas.
 

@@ -6,10 +6,10 @@ description: Puede agregar cualquier tarea o problema a un tablero de Adobe Work
 author: Lisa
 feature: Agile
 exl-id: 5e6fd681-8068-4091-9f42-0364b17e0465
-source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
+source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
 workflow-type: tm+mt
-source-wordcount: '600'
-ht-degree: 0%
+source-wordcount: '585'
+ht-degree: 12%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Los flujos de trabajo solo están disponibles para un grupo específico de clientes.
+>Las secuencias de trabajo solo están disponibles para un grupo específico de clientes.
 
 Puede agregar cualquier tarea o problema a un tablero o flujo de trabajo en [!DNL Adobe Workfront] desde una vista de lista o informe, o desde los detalles del objeto.
 
@@ -25,32 +25,29 @@ Puede agregar cualquier tarea o problema a un tablero o flujo de trabajo en [!DN
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
-
 <table style="table-layout:auto">
  <col>
  <col>
  <tbody>
   <tr>
-   <td role="rowheader">[!DNL Adobe Workfront] plan</td>
+   <td role="rowheader">paquete de Adobe Workfront</td>
    <td> <p>Cualquiera</p> </td>
   </tr>
   <tr>
-   <td role="rowheader">[!DNL Adobe Workfront] licencia</td>
+   <td role="rowheader">Licencia de Adobe Workfront</td>
    <td>
-   <p>Nuevo: [!UICONTROL Standard]</p> 
-   <p>o</p>
-   <p>Actual: [!UICONTROL Work] o superior</p>
+   <p>Estándar</p> 
+   <p>Trabajo o superior</p>
    </td>
   </tr>
   <tr>
    <td role="rowheader">Permisos de objeto</td>
-   <td>[!UICONTROL View] o permisos superiores para la tarea o el problema </td>
+   <td>Ver o permisos superiores de la tarea o el problema </td>
   </tr>
  </tbody>
 </table>
 
-Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -60,7 +57,7 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
 
 1. Elija una de las siguientes opciones: **[!UICONTROL Proyectos]**, **[!UICONTROL Informes]** o **[!UICONTROL Paneles]**.
 1. Vaya al proyecto, informe o panel que contiene la tarea o el problema que desea agregar al tablero o flujo de trabajo.
-1. Seleccione una o varias tareas o problemas.
+1. Seleccione una o más tareas o problemas.
 
    Si selecciona una subtarea, también se agregará como una tarjeta en el tablero.
 
@@ -69,7 +66,7 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
 
    En el caso de las placas, solo están disponibles las placas independientes, no las que forman parte de los flujos de trabajo.
 
-1. Haga clic en [!UICONTROL **Agregar**].
+1. Haga clic en [!UICONTROL **Add**].
 
    Para un tablero: la tarea o el problema se añaden al tablero como una tarjeta. Si el tablero tiene políticas de columna aplicadas para el estado, la tarjeta se añade en la columna correspondiente a su estado. De lo contrario, aparece en la primera columna de la izquierda, sin incluir la columna de entrada.
 
@@ -89,7 +86,7 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
 
    En el caso de las placas, solo están disponibles las placas independientes, no las que forman parte de los flujos de trabajo.
 
-1. Haga clic en [!UICONTROL **Agregar**].
+1. Haga clic en [!UICONTROL **Add**].
 
    Para un tablero: la tarea o el problema se añaden al tablero como una tarjeta. Si el tablero tiene políticas de columna aplicadas para el estado, la tarjeta se añade en la columna correspondiente a su estado. De lo contrario, aparece en la primera columna de la izquierda, sin incluir la columna de entrada.
 

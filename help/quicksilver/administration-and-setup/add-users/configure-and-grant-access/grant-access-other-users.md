@@ -5,10 +5,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 5e87cad4-4a5d-4cb2-848f-7c97ff11d0e8
-source-git-commit: d585b698b6c7900d861a30dc6b5e0bff6bd6d13a
+source-git-commit: 2a83e5a415ff254cf5525d6f44ecb0e447e7e70a
 workflow-type: tm+mt
-source-wordcount: '767'
-ht-degree: 29%
+source-wordcount: '731'
+ht-degree: 25%
 
 ---
 
@@ -21,26 +21,27 @@ Como administrador de Adobe Workfront, puede utilizar un nivel de acceso para de
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Plan de Adobe Workfront</td> 
+   <td role="rowheader">paquete de Adobe Workfront</td> 
    <td>Cualquiera</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licencia de Adobe Workfront</td> 
-   <td>Plan</td> 
+   <td><p>Estándar</p>
+   <p>Plan</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso</td> 
-   <td> <p>Debe ser administrador de Workfront.</p> <p><b>NOTA</b>: Si todavía no tiene acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo los administradores de Workfront pueden modificar su nivel de acceso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref" data-mc-variable-override="">Creación o modificación de niveles de acceso personalizados</a>.</p> </td> 
+   <td> <p>Debe ser administrador de Workfront.</p> </td> 
   </tr> 
  </tbody> 
 </table>
+
+Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -81,13 +82,13 @@ Puede administrar la información que los usuarios pueden ver y editar para otro
     <tbody> 
      <tr> 
       <td role="rowheader"><strong>Crear</strong> </td> 
-      <td> <p>Permite a los usuarios crear usuarios.<br>Esta opción está desactivada de forma predeterminada.</p> 
+      <td> <p>Permite a los usuarios crear usuarios.<br>Esta opción está deshabilitada de forma predeterminada.</p> 
      <p><b>NOTA</b>: Esto no está disponible si su organización se ha incorporado a Adobe Admin Console. Consulte al administrador de red o de TI si necesita más información.</p>
         </td>  
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Eliminar</strong> </td> 
-      <td> <p> Permite a los usuarios eliminar los usuarios que ellos mismos han creado.<br>Esta opción está desactivada de forma predeterminada.</p> <p><b>NOTA</b>: Esto no está disponible si su organización se ha incorporado a Adobe Admin Console. Consulte al administrador de red o de TI si necesita más información.</p> </td> 
+      <td> <p> Permite a los usuarios eliminar los usuarios que ellos mismos han creado.<br>Esta opción está deshabilitada de forma predeterminada.</p> <p><b>NOTA</b>: Esto no está disponible si su organización se ha incorporado a Adobe Admin Console. Consulte al administrador de red o de TI si necesita más información.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Administrador de usuarios (todos los usuarios)</strong> </td> 

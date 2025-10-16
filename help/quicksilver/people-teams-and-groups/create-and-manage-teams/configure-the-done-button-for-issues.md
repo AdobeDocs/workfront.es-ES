@@ -2,20 +2,20 @@
 product-area: agile-and-teams;setup
 navigation-topic: create-and-manage-teams
 title: Configurar el botón Listo para problemas
-description: El botón Listo puede establecer automáticamente el estado de una tarea o un problema. De forma predeterminada, Adobe Workfront marca un problema como Resuelto cuando un usuario asignado hace clic en Listo en su elemento de trabajo.
+description: El botón Listo puede establecer automáticamente el estado de una tarea o un problema. De forma predeterminada, Adobe Workfront marca un problema como Resuelto cuando un asignado hace clic en Listo en su elemento de trabajo.
 author: Lisa
 feature: People Teams and Groups
 exl-id: 2e72854a-2d49-4665-b307-b88f660b141e
-source-git-commit: a19668ac2238448010b5a177120f936ef7ba5bba
+source-git-commit: dd47158a4c2e1b7372af6c9450b2d277d1ca8c6f
 workflow-type: tm+mt
-source-wordcount: '1183'
-ht-degree: 1%
+source-wordcount: '1167'
+ht-degree: 96%
 
 ---
 
 # Configurar el botón [!UICONTROL Listo] para problemas
 
-El botón [!UICONTROL Listo] puede establecer automáticamente el estado de una tarea o un problema. De manera predeterminada, [!DNL Adobe Workfront] marca un problema como [!UICONTROL Resuelto] cuando un usuario asignado hace clic en [!UICONTROL Listo] en su elemento de trabajo.
+El botón [!UICONTROL Listo] puede establecer automáticamente el estado de una tarea o un problema. De manera predeterminada, [!DNL Adobe Workfront] marca un problema como [!UICONTROL Resuelto] cuando un asignado hace clic en [!UICONTROL Listo] en su elemento de trabajo.
 
 >[!NOTE]
 >
@@ -23,33 +23,30 @@ El botón [!UICONTROL Listo] puede establecer automáticamente el estado de una 
 
 ## Información general
 
-Los usuarios con ciertos permisos pueden configurar el botón [!UICONTROL Listo] para reflejar ciertos estados en el sistema. Hay tres maneras diferentes en que el botón [!UICONTROL Listo] funciona para los problemas en [!DNL Workfront]:
+Los usuarios con determinados permisos pueden configurar el botón [!UICONTROL Listo] para reflejar determinados estados en el sistema. Hay tres maneras diferentes de funcionamiento del botón [!UICONTROL Listo] para los problemas en [!DNL Workfront]:
 
-* Si el usuario tiene un [!UICONTROL Equipo de inicio] asignado, un administrador de [!DNL Workfront] o un usuario con una licencia de [!UICONTROL Plan] puede configurar el botón [!UICONTROL Listo] para reflejar ciertos estados para los integrantes del equipo. Consulte [Configurar el botón [!UICONTROL Listo] para un equipo](#configure-the-uicontrol-done-button-for-a-team) en este artículo.
-* Si el usuario no tiene un [!UICONTROL equipo de inicio], pero tiene [!UICONTROL otros equipos] en su perfil, Workfront busca la configuración del botón [!UICONTROL Listo] en cualquiera de los equipos asociados con el usuario. La selección es aleatoria y el estado asociado a cualquiera de los equipos se utiliza para el problema.
-* Si el usuario no tiene un [!UICONTROL Equipo de inicio] asignado, el botón [!UICONTROL Listo] para los problemas está vinculado a un estado [!UICONTROL Resuelto] generado por el sistema que tiene el código de tres letras [!UICONTROL RLV]. No hay opciones de configuración disponibles en este escenario. El botón [!UICONTROL Listo] toma automáticamente este estado como valor predeterminado.
-* Si se elimina el estado [!UICONTROL Resuelto] ([!UICONTROL RLV]) y el usuario que marca el problema como [!UICONTROL Listo] no tiene [!UICONTROL Equipo de inicio], el estado predeterminado del problema estará vinculado al que esté establecido como predeterminado para [!UICONTROL Cerrado] para el grupo asignado al proyecto al que pertenece el problema. El administrador de Workfront puede establecer una configuración predeterminada para todo el sistema para el grupo. Ver [Configurar el botón [!UICONTROL Listo] cuando el estado [!UICONTROL Resuelto] se haya eliminado](#configure-the-uicontrol-done-button-when-the-uicontrol-resolved-status-has-been-deleted) en este artículo.
+* Si el usuario tiene un [!UICONTROL Equipo de inicio] asignado, un administrador de [!DNL Workfront] o un usuario con una licencia de [!UICONTROL Plan] puede configurar el botón [!UICONTROL Listo] para reflejar determinados estados para los integrantes del equipo. Consulte [Configurar el botón [!UICONTROL Listo] para un equipo](#configure-the-uicontrol-done-button-for-a-team) en este artículo.
+* Si el usuario no tiene un [!UICONTROL equipo de inicio], pero tiene [!UICONTROL otros equipos] en su perfil, Workfront busca la configuración del botón [!UICONTROL Listo] en cualquiera de los equipos asociados al usuario. La selección es aleatoria y el estado asociado a cualquiera de los equipos se utiliza para el problema.
+* Si el usuario no tiene un [!UICONTROL Equipo de inicio] asignado, el botón [!UICONTROL Listo] para los problemas está vinculado a un estado [!UICONTROL Resuelto] generado por el sistema que tiene el código de tres letras [!UICONTROL RLV]. No hay opciones de configuración disponibles en este escenario. El botón [!UICONTROL Listo] adopta automáticamente este estado como valor predeterminado.
+* Si se elimina el estado [!UICONTROL Resuelto] ([!UICONTROL RLV]) y el usuario que marca el problema como [!UICONTROL Listo] no tiene ningún [!UICONTROL Equipo de inicio], el estado predeterminado del problema estará vinculado al que esté establecido como predeterminado para [!UICONTROL Cerrado] para el grupo asignado al proyecto al que pertenece el problema. El administrador de Workfront puede establecer una configuración predeterminada en todo el sistema para el grupo. Consulte [Configurar el botón [!UICONTROL Listo] cuando el estado [!UICONTROL Resuelto] se haya eliminado](#configure-the-uicontrol-done-button-when-the-uicontrol-resolved-status-has-been-deleted) en este artículo.
 
 ## Requisitos de acceso
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
-
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>plan de Adobe Workfront</p> </td> 
+   <td role="rowheader"> <p>paquete de Adobe Workfront</p> </td> 
    <td>Cualquiera</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licencia de Adobe Workfront</td> 
    <td>
-   <p>Nuevo: estándar</p>
-   <p>o</p>
-   <p>Actual: plan</p></td>
+   <p>Estándar</p>
+   <p>Plan</p></td>
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Configuraciones de nivel de acceso</td> 
@@ -58,7 +55,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  </tbody> 
 </table>
 
-Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -78,12 +75,12 @@ Puede cambiar el estado aplicado al elemento de trabajo con el botón [!UICONTRO
    >
    >Tenga en cuenta lo siguiente al seleccionar estados para tareas o problemas:
    >
-   >* Cuando selecciona un estado para cada tipo de elemento de trabajo, el estado de la tarea o del problema se establece en ese estado cuando un usuario hace clic en [!UICONTROL Listo] en su elemento. Si establece varios estados para cada tipo de elemento de trabajo, se agrega un menú desplegable al botón [!UICONTROL Listo] y el usuario debe elegir un estado para cambiar el estado del elemento de trabajo.
-   >* Solo puede asociar estados de nivel de sistema con el botón [!UICONTROL Listo]. No puede asociar estados específicos de grupo con estados de elementos de trabajo.
-   >* Cuando un usuario asignado al elemento coloca el elemento en el estado asociado con el botón [!UICONTROL Listo], el elemento se muestra como [!UICONTROL Listo] para ese usuario, independientemente de si el estado que seleccione es un estado [!UICONTROL Completado] o [!UICONTROL Cerrado] o un estado de trabajo.
+   >* Cuando selecciona un estado para cada tipo de elemento de trabajo, el estado de la tarea o del problema se establece en ese estado cuando un usuario hace clic en [!UICONTROL Listo] en su elemento. Si establece varios estados para cada tipo de elemento de trabajo, se añade un menú desplegable al botón [!UICONTROL Listo] y el usuario debe elegir un estado para cambiar el estado del elemento de trabajo.
+   >* Solo puede asociar estados de nivel de sistema con el botón [!UICONTROL Listo]. No puede asociar estados específicos de grupo a estados de elementos de trabajo.
+   >* Cuando un usuario asignado al elemento coloca el elemento en el estado asociado al botón [!UICONTROL Listo], el elemento se muestra como [!UICONTROL Listo] para ese usuario, independientemente de si el estado que seleccione tiene un estado [!UICONTROL Completado] o [!UICONTROL Cerrado] o un estado de trabajo.
    >   
    >   
-   >  Por ejemplo, si se asocia el botón [!UICONTROL Listo] con En curso, el elemento de trabajo se mostrará como [!UICONTROL Listo] para el usuario que cambia el estado de Nuevo a En curso.
+   >  Por ejemplo, si se asocia el botón [!UICONTROL Listo] a En curso, el elemento de trabajo se mostrará como [!UICONTROL Listo] para el usuario cuyo estado cambia de Nuevo a En curso.
    >   
    >* Los tipos de problemas se pueden personalizar y pueden tener nombres diferentes a los que se enumeran a continuación en su entorno.\
    >  A continuación se muestran las tareas y los tipos de problemas predeterminados:
@@ -94,7 +91,7 @@ Puede cambiar el estado aplicado al elemento de trabajo con el botón [!UICONTRO
    >   * [!UICONTROL Solicitud de cambio]
    >   * [!UICONTROL Informe de errores]
 
-   Si la tarea o el problema están asignados a varios usuarios, verá la opción &quot;[!UICONTROL Listo con mi parte]&quot; en el menú desplegable, además de los múltiples estados seleccionados para su equipo.
+   Si la tarea o el problema están asignados a varios usuarios, verá la opción “[!UICONTROL Terminé mi parte]” en el menú desplegable, además de los múltiples estados seleccionados para su equipo.
 
 1. Haga clic en **[!UICONTROL Guardar cambios]**.
 
@@ -114,19 +111,19 @@ Para asociar usuarios a un equipo de inicio:
 
 1. Haga clic en **[!UICONTROL Guardar cambios]**.\
    Los usuarios que ha seleccionado ahora están asociados a un equipo de inicio.
-Cualquier configuración del equipo, incluidos los estados asociados con el botón [!UICONTROL Listo], ahora es visible para estos usuarios.
+Cualquier configuración del equipo, incluidos los estados asociados con el botón [!UICONTROL Listo], ahora son visibles para estos usuarios.
 
 ## Configurar el botón [!UICONTROL Listo] cuando se haya eliminado el estado [!UICONTROL Resuelto]
 
 Si un usuario no tiene un equipo de inicio y se ha eliminado el valor predeterminado en todo el sistema para [!UICONTROL Resuelto] ([!UICONTROL RLV]), un administrador de [!DNL Workfront] puede configurar el estado [!UICONTROL Cerrado] para el grupo en el proyecto. [!DNL Workfront] selecciona este estado para un problema cerrado cuando el usuario hace clic en el botón [!DNL Done].
 
-### Buscar el grupo asociado con el proyecto
+### Buscar el grupo asociado al proyecto
 
-Cuando un usuario crea un proyecto, su grupo de inicio se asigna automáticamente al proyecto. Los usuarios con acceso para [!UICONTROL Administrar] en el proyecto pueden cambiar este grupo en la sección [!UICONTROL Detalles del proyecto] en cualquier momento. Para saber qué estado usa [!DNL Workfront] para un problema resuelto en este caso, debe saber en qué grupo está asociado el problema con el proyecto y cuál es el estado predeterminado de [!UICONTROL Cerrado] este grupo con problemas.
+Cuando un usuario crea un proyecto, su grupo de inicio se asigna automáticamente al proyecto. Los usuarios con acceso para [!UICONTROL Administrar] en el proyecto pueden cambiar este grupo en la sección [!UICONTROL Detalles del proyecto] en cualquier momento. Para saber qué estado usa [!DNL Workfront] para un problema completado en este caso, debe saber qué grupo está asociado al proyecto en el que está el problema y cuál es el estado predeterminado de [!UICONTROL Cerrado] que tiene este grupo para los problemas.
 
 Para buscar el grupo asociado al proyecto:
 
-1. Vaya a un proyecto.
+1. Vaya a un proyecto. 
 1. En el lado izquierdo de la página, haga clic en **[!UICONTROL Detalles del proyecto]**.
 1. Busque la sección **[!UICONTROL Asociación del proyecto]** y, a continuación, busque **[!UICONTROL Grupo]**.\
    Es el nombre del grupo que debe utilizar para comprobar el estado en el área de Configuración. Consulte la siguiente sección para obtener instrucciones sobre cómo actualizar el estado predeterminado de un grupo específico.
@@ -135,7 +132,7 @@ Para buscar el grupo asociado al proyecto:
 
 Como administrador de [!UICONTROL Workfront], puede actualizar el estado de un grupo específico:
 
-1. Haga clic en el icono **[!UICONTROL Menú principal]** ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront y, a continuación, haga clic en **[!UICONTROL Configurar]** ![](assets/gear-icon-settings.png).
+1. Haga clic en el icono de **[!UICONTROL Menú principal]** ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront y, a continuación, haga clic en **[!UICONTROL Configurar]** ![](assets/gear-icon-settings.png).
 1. En el panel izquierdo, haga clic en **[!UICONTROL Preferencias del proyecto]** y, a continuación, en **[!UICONTROL Estados]**.
 
 1. Haga clic en **[!UICONTROL Problemas]** y, a continuación, escriba el nombre del grupo en el cuadro de búsqueda **[!UICONTROL Estados del sistema]** situado a la derecha.

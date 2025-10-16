@@ -2,12 +2,12 @@
 navigation-topic: business-case-and-scorecards
 title: Crear metas de caso empresarial
 description: Como parte del caso empresarial, puede crear un conjunto de metas para definir los objetivos de un proyecto. Las metas del caso empresarial se utilizan para comunicar al administración del portafolio o al patrocinador del proyecto el propósito de completar un proyecto.
-author: Alina
+author: Becky
 feature: Work Management
 exl-id: c5f4c095-ea21-4205-a747-e8923de7030f
-source-git-commit: 724c507dd5ee09b3364fc2037380a8cb18be08f2
+source-git-commit: aa3ae2a5d92420f4adcedb60a4f7404533eaa59b
 workflow-type: tm+mt
-source-wordcount: '445'
+source-wordcount: '431'
 ht-degree: 53%
 
 ---
@@ -50,15 +50,14 @@ Tenga en cuenta lo siguiente al crear metas de caso empresarial para sus proyect
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><p>Plan de Adobe Workfront*</p></td> 
-   <td> <p>Actual: Prime o superior</p>
-   <p>Heredado: Pro o superior</p>  </td> 
+   <td role="rowheader"><p>paquete de Adobe Workfront</p></td> 
+   <td> <p>Prime o superior</p>
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Licencia de Adobe Workfront*</p></td>
+   <td role="rowheader"><p>Licencia de Adobe Workfront</p></td>
    <td> 
-   <p>Actual: Estándar</p> 
-   <p>Heredado: plan </p> 
+   <p>Estándar</p> 
+   <p>Plan </p> 
    </td> 
   </tr> 
   <tr> 
@@ -72,7 +71,7 @@ Tenga en cuenta lo siguiente al crear metas de caso empresarial para sus proyect
  </tbody> 
 </table>
 
-*Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

@@ -3,13 +3,13 @@ product-area: requests;user-management
 navigation-topic: create-and-manage-request-queues
 title: Proporcionar acceso a las colas de solicitudes
 description: Al proporcionar acceso a una cola de solicitudes, se determina quién de la organización puede ver la cola en el área Solicitudes de Adobe Workfront.
-author: Alina
+author: Becky
 feature: Work Management
 exl-id: eb88c32a-f8b8-42d3-9a3a-72c62fd1dc3a
-source-git-commit: abf5f21281b05dedfecbe71c6ffbf54ee69e2460
+source-git-commit: 9cdf3d78e1d19f3d581f8d527919a608c5cc0ddc
 workflow-type: tm+mt
-source-wordcount: '483'
-ht-degree: 53%
+source-wordcount: '474'
+ht-degree: 51%
 
 ---
 
@@ -32,14 +32,14 @@ Esto resulta útil en organizaciones que invitan a partes interesadas externas a
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Plan de Adobe Workfront</td> 
+   <td role="rowheader">paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licencia de Adobe Workfront</td> 
    <td> 
-   <p>Nuevo: estándar </p>
-   <p>Actual: plan </p> </td> 
+   <p>Estándar </p>
+   <p>Plan </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso</td> 
@@ -52,7 +52,7 @@ Esto resulta útil en organizaciones que invitan a partes interesadas externas a
  </tbody> 
 </table>
 
-Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

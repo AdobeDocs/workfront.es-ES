@@ -9,10 +9,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: fe213fe7-5bb8-479c-926b-761cbdd7ba4e
-source-git-commit: 8fe93796b2bc89352ac2c924d6a5e3bf25551ff0
+source-git-commit: 7ca27795ec115a112acb55113bfade4a5fee15ad
 workflow-type: tm+mt
-source-wordcount: '953'
-ht-degree: 95%
+source-wordcount: '946'
+ht-degree: 94%
 
 ---
 
@@ -33,26 +33,26 @@ Debe tener lo siguiente:
 
 <table>
   <tr>
-   <td>Plan de <strong>[!DNL Adobe Workfront] </strong>
+   <td>paquete de Adobe Workfront
    </td>
-   <td> Prime o Ultimate (solo planes nuevos)
+   <td> <p>PRIME o ULTIMATE</p>
    </td>
   </tr>
   <tr>
-   <td>Licencias de <strong>[!DNL Adobe Workfront] </strong>
+   <td><strong>licencias de Workfront</strong>
    </td>
-   <td> [!UICONTROL Standard]
+   <td> <p>Estándar</p>&gt;
    </td>
   </tr>
    <tr>
    <td>Configuraciones de nivel de acceso
    </td>
-   <td>Debe ser administrador de [!DNL Workfront].
+   <td><p>Debe ser administrador de Workfront.</p>
    </td>
   </tr>
 </table>
 
-Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Requisitos previos
 

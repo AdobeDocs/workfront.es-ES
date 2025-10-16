@@ -2,13 +2,13 @@
 product-area: projects;templates
 navigation-topic: manage-projects
 title: Guardar un proyecto como plantilla
-description: Guarde un proyecto como plantilla en el nivel de proyecto, para que los usuarios lo vean en la interfaz de usuario; hay otro artículo al que este vincula más en profundidad (paso a paso). Esta funcionalidad debe permanecer en las áreas de proyectos Y plantillas.)
+description: Guardar un proyecto como plantilla "Guardar como plantilla" en el nivel de proyecto, para que los usuarios lo vean en la interfaz de usuario; hay otro artículo al que este vincula más en profundidad (paso a paso).
 author: Alina
 feature: Work Management
 exl-id: 4b5dfe12-f984-47c6-8e19-78b549f19159
-source-git-commit: 13621c29f32a514af46489fb58397f3e96f640ce
+source-git-commit: 00e693fc8b35a59f6ed212bc30da7f85cc78c845
 workflow-type: tm+mt
-source-wordcount: '487'
+source-wordcount: '475'
 ht-degree: 55%
 
 ---
@@ -42,14 +42,13 @@ Si decide que un proyecto se va a repetir en algún momento futuro, puede crear 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Plan de Adobe Workfront</td> 
-   <td> <p>Cualquiera </p> </td> 
+   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licencia de Adobe Workfront*</td> 
-   <td> <p>Nuevo: estándar </p>
-   O 
-   <p>Actual: plan </p> 
+   <td role="rowheader">Licencia de Adobe Workfront</td> 
+   <td> <p>Estándar</p>
+   <p>Plan</p> 
    </td> 
   </tr> 
   <tr> 
@@ -63,9 +62,37 @@ Si decide que un proyecto se va a repetir en algún momento futuro, puede crear 
  </tbody> 
 </table>
 
-*Para obtener información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan</td> 
+   <td> <p>Any </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>New: Standard </p>
+   Or 
+   <p>Current: Plan </p> 
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>Edit access to Templates</p> /td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>View or higher permissions to a project </p> <p>You obtain Manage permissions to the template after you save the project as a template</p> </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## Guardar un proyecto como plantilla
 

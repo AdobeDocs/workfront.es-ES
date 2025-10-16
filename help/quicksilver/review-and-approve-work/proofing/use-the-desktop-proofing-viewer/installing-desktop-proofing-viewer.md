@@ -6,10 +6,10 @@ description: El Visor de corrección de escritorio, diseñado principalmente par
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 4441cf7f-13c7-4bd5-a971-2c9c0302d309
-source-git-commit: 2d75f74c7281a3ea288c892db6895754a697e198
+source-git-commit: 385f4a6663cacfdcf519bf5699fc1840c2cb2adc
 workflow-type: tm+mt
-source-wordcount: '569'
-ht-degree: 99%
+source-wordcount: '550'
+ht-degree: 98%
 
 ---
 
@@ -32,15 +32,14 @@ Esta aplicación es compatible con los siguientes sistemas operativos:
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Plan de Adobe Workfront</td> 
-   <td> <p>Nuevo: cualquiera</p> <p>o</p> <p>Actual: Pro o Superior</p> </td> 
+   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td> <p>Cualquiera</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licencia de Adobe Workfront</td> 

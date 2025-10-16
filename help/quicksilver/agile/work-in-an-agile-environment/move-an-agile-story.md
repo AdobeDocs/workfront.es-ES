@@ -6,10 +6,10 @@ description: Puede mover una historia Agile a una iteración diferente (para equ
 author: Lisa
 feature: Agile
 exl-id: 0058792e-66b8-4e54-8ce3-50171adff875
-source-git-commit: 68aafe63ff8b60a542ed9dd0900b3742c26a1e4f
+source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
 workflow-type: tm+mt
-source-wordcount: '364'
-ht-degree: 75%
+source-wordcount: '349'
+ht-degree: 72%
 
 ---
 
@@ -21,8 +21,6 @@ Puede mover una historia Agile a una iteración diferente (para equipos de Scrum
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -30,18 +28,17 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
+   <td role="rowheader">paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licencia</td> 
-   <td> <p>Nuevo: [!UICONTROL Standard]</p> 
-   o
-   <p>Actual: [!UICONTROL Work] o superior</p> </td> 
+   <td role="rowheader">Licencia de Adobe Workfront</td> 
+   <td> <p>Estándar</p> 
+   <p>Trabajo o superior</p> </td> 
   </tr>
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td>Acceso de [!UICONTROL Manage] a la historia</td> 
+   <td>Administrar el acceso a la historia</td> 
   </tr> 
  </tbody> 
 </table>
@@ -84,6 +81,6 @@ Puede mover una historia a una iteración diferente para su equipo de Scrum si e
 
    >[!NOTE]
    >
-   >Los elementos de trabajo [!UICONTROL Fecha planificada de inicio] y [!UICONTROL Fecha planificada de finalización] se ven afectados por un ajuste de la página [!UICONTROL Editar equipo]. Para obtener más información, consulte la sección [[!UICONTROL Configurar] cómo se aplican las fechas al añadir elementos de trabajo a una iteración](../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configure-how-dates-are-applied-when-adding-work-items-to-an-iteration) en el artículo [Configurar Scrum](../../agile/get-started-with-agile-in-workfront/configure-scrum.md).
+   >Los elementos de trabajo [!UICONTROL Fecha de inicio planificada] y [!UICONTROL Fecha de finalización planificada] se ven afectados por un ajuste de la página [!UICONTROL Editar equipo]. Para obtener más información, consulte la sección [[!UICONTROL Configurar] cómo se aplican las fechas al añadir elementos de trabajo a una iteración](../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configure-how-dates-are-applied-when-adding-work-items-to-an-iteration) en el artículo [Configurar Scrum](../../agile/get-started-with-agile-in-workfront/configure-scrum.md).
 
 1. Haga clic en **[!UICONTROL Mover]**.

@@ -7,10 +7,10 @@ description: Una predecesora es la tarea de la que depende otra tarea (denominad
 author: Alina
 feature: Work Management
 exl-id: b2020a50-0921-4ed2-8a34-1a0411992b99
-source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
+source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
 workflow-type: tm+mt
-source-wordcount: '1180'
-ht-degree: 100%
+source-wordcount: '1179'
+ht-degree: 99%
 
 ---
 
@@ -112,7 +112,7 @@ Cuando vea tareas predecesoras en una lista de tareas, puede que vea cualquiera 
   >
   >Debe añadir el valor obligatorio (**e**) al retraso y no a la tarea predecesora.
 
-* **4515:2** el número de tarea predecesora es 2. - Se trata de una dependencia de tipo Fin a inicio no forzada con la tarea predecesora del proyecto con el número de referencia **4515**.
+* **4515:2** El número de tarea predecesora es 2. - Se trata de una dependencia de tipo Fin a inicio no forzada con la tarea predecesora del proyecto con el número de referencia **4515**.
 
 ## Ver información de predecesora
 

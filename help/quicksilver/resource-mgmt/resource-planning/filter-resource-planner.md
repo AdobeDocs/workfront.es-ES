@@ -6,10 +6,10 @@ description: Mediante los filtros, puede modificar la información que se muestr
 author: Lisa
 feature: Resource Management
 exl-id: 7186cae5-1e16-421e-b26d-afb50aa7f6eb
-source-git-commit: a3b2ac192e1f37e0c3d16d059ed96e8d5cadf8be
+source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
 workflow-type: tm+mt
-source-wordcount: '2390'
-ht-degree: 97%
+source-wordcount: '2361'
+ht-degree: 96%
 
 ---
 
@@ -25,36 +25,32 @@ Mediante los filtros, puede modificar la información que se muestra en el Plani
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Plan de Adobe Workfront</td> 
-   <td><p>Nuevo: cualquiera</p>
-       <p>o</p>
-       <p>Actual: pro o superior</p> </td> 
+  <tr> 
+   <td>paquete de Adobe Workfront</td> 
+   <td><p>Cualquiera</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Licencia de Adobe Workfront</td> 
-   <td><p>Nuevo: Light o superior</p>
-       <p>o</p>
-       <p>Actual: revisión o superior</p></td>
+   <td>Licencia de Adobe Workfront</td> 
+   <td><p>Ligero o superior</p>
+       <p>Revisión o superior</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraciones de nivel de acceso</td> 
-   <td> <p>Ver el acceso o superior a Proyectos, Usuarios y Administración de recursos</p> </td> 
+   <td>Configuraciones de nivel de acceso</td> 
+   <td> <p>Ver el acceso o superior a Proyectos, Usuarios y Administración de recursos</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Permisos de visualización o superiores para proyectos</p> </td> 
+   <td>Permisos de objeto</td> 
+   <td> <p>Ver o permisos superiores para proyectos</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -87,7 +83,7 @@ Tenga en cuenta lo siguiente al utilizar el filtro predeterminado:
 * El filtro predeterminado recupera información solo de proyectos con lo siguiente:
 
    * Una fecha planificada de finalización que es posterior a la primera fecha del mes actual
-   * Una fecha planificada de inicio que se produce antes del último día del cuarto mes a partir de la fecha actual
+   * Una fecha de inicio planificada que se produce antes del último día del cuarto mes a partir de la fecha actual
    * Estado del proyecto = Actual o Planificación
 
   >[!IMPORTANT]
@@ -250,7 +246,7 @@ Puede cambiar la información que incluye en un filtro sin cambiar su nombre. Le
 Puede duplicar un filtro existente. Los criterios de filtrado originales siguen siendo los mismos en el filtro duplicado y puede guardar el nuevo filtro con un nombre nuevo.
 
 1. Vaya al Planificador de recursos y expanda el menú desplegable **Filtro** en la esquina superior izquierda.
-1. Pase el ratón sobre el nombre del filtro guardado que desea duplicar.
+1. Pase el puntero por encima del nombre del filtro guardado que desea duplicar.
 1. Haga clic en el icono **Duplicar**.
 
    ![Filtro duplicado](assets/rp-filter-options---duplicate-350x154.png)\
@@ -300,7 +296,7 @@ Para obtener información sobre la duplicación de filtros, consulte la sección
 
 1. Vaya al Planificador de recursos.
 1. Expanda el menú desplegable **Filtro**.
-1. Busque el filtro que desea compartir y pase el ratón sobre su nombre.
+1. Busque el filtro que desea compartir y pase el puntero por encima de su nombre.
 1. Seleccione el icono **Compartir filtro** junto al nombre del filtro.
 
    ![Compartir filtro](assets/rp-filter-options---share-350x154.png)

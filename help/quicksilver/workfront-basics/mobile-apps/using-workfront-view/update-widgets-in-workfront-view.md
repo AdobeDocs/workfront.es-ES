@@ -6,10 +6,10 @@ description: Puede ver información adicional sobre el [!UICONTROL proyecto] des
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 593dc4a2-20aa-44d3-b819-1d4b160095ed
-source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
+source-git-commit: f9b9381b4b38796dbf7dfd9eddffc50fb9e5c24c
 workflow-type: tm+mt
-source-wordcount: '520'
-ht-degree: 99%
+source-wordcount: '517'
+ht-degree: 98%
 
 ---
 
@@ -19,7 +19,7 @@ Puede ver información adicional sobre el [!UICONTROL proyecto] después de habe
 
 ## Requisitos de acceso
 
-Debe tener el acceso siguiente en [!DNL Workfront] para realizar los pasos de este artículo:
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -28,17 +28,21 @@ Debe tener el acceso siguiente en [!DNL Workfront] para realizar los pasos de es
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
+   <td role="rowheader"><strong>paquete de Adobe Workfront</strong></td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licencia*</strong></td> 
-   <td> <p>[!UICONTROL Review] o superior</p> </td> 
+   <td role="rowheader"><strong>Licencia de Adobe Workfront</strong></td> 
+   <td> 
+   <p>Colaborador o superior</p>
+   <p>Revisión o superior</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de [!DNL Workfront].
+Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Actualizar los widgets en la vista [!UICONTROL Detalles del proyecto]
 

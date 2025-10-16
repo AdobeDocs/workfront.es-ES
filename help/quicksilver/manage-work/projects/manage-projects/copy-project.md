@@ -7,10 +7,10 @@ author: Alina
 feature: Projects, Work Management
 role: User
 exl-id: 1bb133a8-eb76-46b8-969f-37f57f9453b4
-source-git-commit: 3827e834a71084f14a99cb27aadefd97327b02d7
+source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
 workflow-type: tm+mt
-source-wordcount: '715'
-ht-degree: 63%
+source-wordcount: '712'
+ht-degree: 62%
 
 ---
 
@@ -52,36 +52,6 @@ Tenga en cuenta que no puede copiar proyectos de forma masiva.
 
 ## Requisitos de acceso
 
-<!-- drafted for P&P:
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td> <p>Adobe Workfront plan*</p> </td> 
-   <td>Any</td> 
-  </tr> 
-  <tr> 
-   <td> <p>Adobe Workfront license*</p> </td> 
-   <td> <p>Current license: Standard </p> 
-   Or
-   <p>Legacy license: Plan </p>
-   </td> 
-  </tr> 
-  <tr data-mc-conditions=""> 
-   <td><strong>Access level configurations*</strong> </td> 
-   <td> <p>Edit access to Projects with ability to Create <span>and Copy</span> projects</p> <p><b>NOTE</b>
-   
-   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
-  </tr> 
-  <tr data-mc-conditions=""> 
-   <td> <p><strong>Object permissions</strong> </p> </td> 
-   <td> <p>View permissions or higher to the project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
--->
-
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
@@ -90,23 +60,20 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  <col> 
  <tbody> 
   <tr> 
-   <td> <p>Plan de Adobe Workfront</p> </td> 
+   <td> <p>paquete de Adobe Workfront</p> </td>  
    <td>Cualquiera</td> 
   </tr> 
   <tr> 
    <td> <p>Licencia de Adobe Workfront</p> </td> 
-   <td> <p>Nuevo: estándar </p> 
-   <p>O</p>
-   <p>Actual: plan </p>
+   <td> <p>Estándar</p> 
+   <p>Plan</p>
+      </td> 
+  </tr> 
+     <td>Configuraciones de nivel de acceso </td> 
+   <td> <p>Editar el acceso a los proyectos con capacidad para crear y copiar proyectos</p> </td> 
+  </tr>
 
-</td> 
-  </tr> 
-  <tr data-mc-conditions=""> 
-   <td>Configuraciones de nivel de acceso </td> 
-   <td> <p>Acceso de edición a los proyectos con la posibilidad de crear <span>y copiar</span> proyectos</p> </td> 
-  </tr> 
-  <tr data-mc-conditions=""> 
-   <td> <p>Permisos de objeto </p> </td> 
+<td> <p>Permisos de objeto </p> </td> 
    <td> <p>Permisos de visualización o superiores del proyecto</p>  </td> 
   </tr> 
  </tbody> 
@@ -115,6 +82,35 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
+
+<!--Old:
+ 
+ <table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td> <p>Adobe Workfront plan</p> </td> 
+   <td>Any</td> 
+  </tr> 
+  <tr> 
+   <td> <p>Adobe Workfront license</p> </td> 
+   <td> <p>New: Standard </p> 
+   <p>Or</p>
+   <p>Current: Plan </p>
+   
+   </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>Access level configurations </td> 
+   <td> <p>Edit access to Projects with ability to Create <span>and Copy</span> projects</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td> <p>Object permissions </p> </td> 
+   <td> <p>View permissions or higher to the project</p>  </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## Copiar un solo proyecto
 

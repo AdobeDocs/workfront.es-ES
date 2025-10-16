@@ -6,10 +6,10 @@ description: El porcentaje de asignación representa la cantidad de tiempo que u
 author: Lisa
 feature: Work Management
 exl-id: 82238dff-b95e-42e4-8e72-6247934b504d
-source-git-commit: 1211a441b542df49480d933d4c25b0c31ef0883d
+source-git-commit: d0be569333b0454e26f4d0de1078b0425cf81707
 workflow-type: tm+mt
-source-wordcount: '451'
-ht-degree: 24%
+source-wordcount: '429'
+ht-degree: 23%
 
 ---
 
@@ -25,33 +25,33 @@ El porcentaje de asignación representa la cantidad de tiempo que un recurso asi
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Plan de Adobe Workfront</td> 
+   <td>paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licencia de Adobe Workfront</td> 
-   <td> <p>Nuevo: estándar</p> 
-   <p>Actual: Trabajo o superior</p> </td> 
+   <td>Licencia de Adobe Workfront</td> 
+   <td> <p>Estándar</p>
+   <p>Trabajo o superior</p>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraciones de nivel de acceso</td> 
-   <td> <p>Editar acceso a Tareas</p> </td> 
+   <td>Configuraciones de nivel de acceso</td> 
+   <td>Editar acceso a Tareas</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Contribuir o permisos superiores para la tarea</p> <p>Editar permisos para actualizar el porcentaje de asignación en el cuadro Editar tarea</p>  </td> 
-  </tr> 
- </tbody> 
+   <td>Permisos de objeto</td>
+   <td><p>Contribuir o permisos superiores para la tarea</p>
+   <p>Editar permisos para actualizar el porcentaje de asignación en el cuadro Editar tarea</p></td>
+  </tr>
+ </tbody>
 </table>
 
-Para obtener más información sobre esta tabla, consulte [Requisitos de acceso para la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

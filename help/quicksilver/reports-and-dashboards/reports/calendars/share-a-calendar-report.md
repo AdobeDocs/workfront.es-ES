@@ -6,10 +6,10 @@ description: Puede compartir un calendario con otros usuarios y ponerlo a dispos
 author: Lisa
 feature: Reports and Dashboards
 exl-id: 77eed0fe-2d47-40c4-a03d-590f7fa17dbe
-source-git-commit: 0606dab832753543ceef4b5b505413967176aec4
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '606'
-ht-degree: 82%
+source-wordcount: '590'
+ht-degree: 80%
 
 ---
 
@@ -22,8 +22,6 @@ Puede compartir un calendario con otros usuarios y ponerlo a disposición del p�
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -31,22 +29,21 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront plan]</td> 
+   <td role="rowheader">paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licencia</td> 
-   <td><p>Nuevo: claro</p>
-       <p>o</p>
-       <p>Actual: Revisar</p></td> 
+   <td role="rowheader">Licencia de Adobe Workfront</td> 
+   <td><p>Ligero</p>
+       <p>Revisar</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso</td> 
-   <td> <p>[!UICONTROL Ver] o acceso superior a [!UICONTROL Informes], [!UICONTROL Paneles] y [!UICONTROL Calendarios]</p></td> 
+   <td> <p> Acceso de visualización o superior a informes, tableros y calendarios</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td>[!UICONTROL View] o permisos superiores para el informe de calendario, con acceso para compartir</td> 
+   <td>Ver o permisos superiores del informe de calendario, con acceso para compartir</td> 
   </tr> 
  </tbody> 
 </table>
@@ -114,5 +111,5 @@ Puede compartir un vínculo de calendario privado con usuarios de [!DNL Workfron
 
    >[!NOTE]
    >
-   >Los usuarios de [!DNL Workfront] deben tener acceso al calendario para tener acceso a él con el vínculo. Para conceder acceso, consulte [Compartir un calendario con los usuarios de  [!DNL Workfront] &#x200B;](#share-a-calendar-with-workfront-users).\
+   >Los usuarios de [!DNL Workfront] deben tener acceso al calendario para tener acceso a él con el vínculo. Para conceder acceso, consulte [Compartir un calendario con los usuarios de  [!DNL Workfront] ](#share-a-calendar-with-workfront-users).\
    >Si los usuarios no tienen acceso, pueden solicitarlo después de pegar el vínculo en el explorador.

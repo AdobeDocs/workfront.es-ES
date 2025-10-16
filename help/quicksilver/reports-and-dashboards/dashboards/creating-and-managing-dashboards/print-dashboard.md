@@ -6,9 +6,9 @@ description: Puede imprimir o exportar un panel de control a un archivo PDF. Par
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 30f3481b-23b6-4dc9-be0d-9cffd5d4dfed
-source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
+source-git-commit: c8b7ad473b0c2120ef5ea52374b3501ad6f553f1
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: '460'
 ht-degree: 98%
 
 ---
@@ -25,43 +25,35 @@ Puede imprimir o exportar un panel de control a un archivo PDF. Para imprimir un
 
 ## Requisitos de acceso
 
-+++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
-
-Debe tener lo siguiente:
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Plan de Adobe Workfront</strong></td> 
+   <td role="rowheader">paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Licencia de Adobe Workfront</strong></td> 
-      <td> 
-      <p>Nuevo:</p>
-         <ul>
-         <li><p>Estándar</p></li>
-         </ul>
-      <p>Actual:</p>
-         <ul>
-         <li><p>Trabajo o superior</p></li>
-         </ul>
-   </td>
+   <td role="rowheader">Licencia de Adobe Workfront</td> 
+   <td> 
+      <p>Estándar</p>
+      <p>Trabajo o superior</p>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Configuraciones de nivel de acceso</strong></td> 
-   <td> <p>Acceso de visualización a informes, paneles de control y calendarios</p> </td> 
-  </tr> 
+   <td role="rowheader">Configuraciones de nivel de acceso</td> 
+   <td> <p>Editar el acceso a Informes, Paneles de control y Calendarios</p></td> 
+  </tr>  
   <tr> 
-   <td role="rowheader"><strong>Permisos de objeto</strong>/td&gt; 
+   <td role="rowheader">Permisos de objeto</td> 
    <td> <p>Permisos de visualización al panel de control</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -113,7 +105,7 @@ La siguiente información no se incluye en el archivo de panel de control impres
 1. En el campo **Destino**, seleccione una de las diversas opciones de impresión disponibles.\
    Las opciones de impresión varían según la versión del explorador y del navegador que utilice.
 
-1. (Opcional) Guarde el panel como archivo .PDF y, a continuación, haga clic en **Guardar** para guardar el PDF.\
-   Para obtener información sobre cómo guardar el panel como archivo PDF, consulte [Exportar un panel](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/export-dashboard.md).
+1. (Opcional) Guarde el panel de control como archivo .PDF y, a continuación, haga clic en **Guardar** para guardar el PDF.\
+   Para obtener información sobre cómo guardar el panel de control como archivo PDF, consulte [Exportar un panel de control](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/export-dashboard.md).
 
 1. Haga clic en **Imprimir**.

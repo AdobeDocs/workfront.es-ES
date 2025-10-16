@@ -8,10 +8,10 @@ author: Courtney, Becky
 feature: System Setup and Administration, Workfront Integrations and Apps, Digital Content and Documents
 role: Admin
 exl-id: cf5c4e3d-b45f-46cd-a938-22e412d1c491
-source-git-commit: ec0e2be036ce1298e285ce85cdeddae97cd1f144
+source-git-commit: 85ccee879fd4ba5a80b6e885458839901f83d26e
 workflow-type: tm+mt
-source-wordcount: '1199'
-ht-degree: 11%
+source-wordcount: '1114'
+ht-degree: 9%
 
 ---
 
@@ -33,32 +33,34 @@ Como administrador de [!DNL Adobe Workfront], puede configurar integraciones de 
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
-Para realizar los pasos de este artículo, debe tener lo siguiente:
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
-   <td>Cualquiera</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licencia</td> 
-   <td><p>Nuevo: [!UICONTROL Standard]</p>
-       <p>o</p>
-       <p>Actual: [!UICONTROL Plan]</p></td>
-  </tr> 
-  <tr> 
-   <td role="rowheader">Configuraciones de nivel de acceso</td> 
-   <td> <p>Debe ser administrador de [!DNL Workfront].</p> </td> 
-  </tr> 
- </tbody> 
+<table>
+  <tr>
+   <td>paquete de Adobe Workfront
+   </td>
+   <td> <p>PRIME o ULTIMATE</p>
+    <p>Workflow Ultimate</p>
+   </td>
+  </tr>
+    <tr>
+   <td>Licencias de Adobe Workfront
+   </td>
+   <td>Estándar
+   <p>Plan</p>
+   </td>
+  </tr>
+   <tr>
+   <td>Configuraciones de nivel de acceso
+   </td>
+   <td>Debe ser administrador de [!DNL Workfront].
+   </td>
+  </tr>
 </table>
 
 Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
+
+
 
 ## Integraciones compatibles
 
@@ -74,7 +76,7 @@ Puede configurar las siguientes integraciones para administrar documentos:
 
 * [!DNL Workfront Proof]
 
-  Vincular pruebas de [!DNL Workfront Proof] le permite hacer que las pruebas creadas originalmente en [!DNL Workfront Proof] estén disponibles en [!DNL Workfront]. Para los planes actuales, se requiere un plan [!UICONTROL Pro] [!DNL Workfront] o superior para usar esta característica. Para los nuevos planes, esta función está disponible con todos los planes. Para obtener más información sobre los diversos planes disponibles, consulte [Planes de Workfront](https://business.adobe.com/es/products/workfront/pricing.html).
+  Vincular pruebas de [!DNL Workfront Proof] le permite hacer que las pruebas creadas originalmente en [!DNL Workfront Proof] estén disponibles en [!DNL Workfront].
 
 * [!DNL Microsoft SharePoint]
 
@@ -96,8 +98,6 @@ Puede configurar las siguientes integraciones para administrar documentos:
   >Puede revisar y aprobar documentos enlazados desde un proveedor de nube externo de la misma manera que revisa y aprueba documentos cargados directamente en [!DNL Workfront].
 
 * Otros proveedores de documentos (mediante integraciones de documentos personalizadas).
-
-  Para los planes actuales, se requiere un plan [!UICONTROL Pro] [!DNL Workfront] o superior para usar esta característica. Para los nuevos planes, esta función está disponible con todos los planes. Para obtener más información sobre los diversos planes disponibles, consulte [Planes de Workfront](https://business.adobe.com/es/products/workfront/pricing.html).
 
 Además, puede mejorar su experiencia con documentos de [!DNL Workfront] con integraciones DAM de terceros. Los administradores deben habilitar estas características para que los usuarios puedan vincular el servicio a su cuenta de [!DNL Workfront].
 

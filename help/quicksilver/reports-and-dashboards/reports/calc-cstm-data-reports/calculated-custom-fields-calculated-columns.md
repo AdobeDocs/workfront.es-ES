@@ -4,10 +4,10 @@ product-area: reporting
 navigation-topic: calculate-custom-data-reports
 title: Campos personalizados calculados frente a columnas calculadas
 description: Para agregar varios campos en Adobe Workfront y mostrar ese valor agregado en un nuevo campo, puede crear un campo personalizado calculado en un formulario personalizado o una columna calculada en una vista.
-author: Nolan
+author: Jenny
 feature: Reports and Dashboards
 exl-id: 17ac554d-0c90-4592-946e-a89f1784571d
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: a1ead6d0c1c85bfbe6d7302506743db8d8b3e205
 workflow-type: tm+mt
 source-wordcount: '817'
 ht-degree: 98%

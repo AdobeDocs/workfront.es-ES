@@ -1,21 +1,21 @@
 ---
 product-area: portfolios;projects
 navigation-topic: create-and-manage-portfolios
-title: Añadir proyectos a un portafolio
+title: Añadir proyectos a un Portfolio
 description: Le recomendamos que cuando inicie proyectos, los añada a un portafolio. Sin embargo, puede añadirlos a un portafolio en cualquier momento durante su vida útil.
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 97f36c18-3ac8-45ac-b5bc-dfe8b1363faf
-source-git-commit: 78b4724ca8d5df15ed76e9e882179e3cb127282c
+source-git-commit: fbe17e50ff161156a0b4b2a8b468b4eb844cae59
 workflow-type: tm+mt
-source-wordcount: '417'
-ht-degree: 75%
+source-wordcount: '416'
+ht-degree: 74%
 
 ---
 
 # Añadir proyectos a un portafolio
 
-<!--Audited: 5/2025-->
+<!--Audited: 08/2025-->
 
 <!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release. </span>   
 
@@ -30,24 +30,24 @@ Al añadir proyectos a un portafolio, tenga en cuenta lo siguiente:
 
 ## Requisitos de acceso
 
-+++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] paquete</td> 
    <td> <p>Cualquiera</p>
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licencia*</td> 
-   <td><p>Nuevo: estándar</p> 
-   <p>Actual: [!UICONTROL Plan] </p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] licencia</td> 
+   <td><p>Estándar</p> 
+   <p>[!UICONTROL Plan] </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Nivel de acceso</td> 
+   <td role="rowheader">Configuración de nivel de acceso</td> 
    <td> <p>Acceso [!UICONTROL Edit] a portafolios</p> <p>Acceso [!UICONTROL Edit] a proyectos</p> </td> 
   </tr> 
   <tr> 
@@ -60,6 +60,33 @@ Al añadir proyectos a un portafolio, tenga en cuenta lo siguiente:
 *Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
+   <td> <p>Any</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
+   <td><p>New: Standard</p> 
+   <p>Current: [!UICONTROL Plan] </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level</td> 
+   <td> <p>[!UICONTROL Edit] access Portfolios</p> <p>[!UICONTROL Edit] access to Projects</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>[!UICONTROL Manage] permissions to the portfolio</p> <p>[!UICONTROL Manage] permissions to the projects</p>  </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## Añadir un proyecto a un portafolio
 

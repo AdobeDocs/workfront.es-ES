@@ -4,16 +4,16 @@ content-type: how-to-procedural
 product-area: system-administration
 navigation-topic: workfront-testing-environments
 title: Revertir un paquete de promoción de entorno
-description: La capacidad de promoción de entornos está diseñada para proporcionar la capacidad de mover objetos relacionados con la configuración de un entorno a otro. Obtenga información sobre cómo revertir un paquete de promoción instalado desde un entorno de destino.
+description: La capacidad de promoción del entorno está pensada para ofrecer la posibilidad de mover objetos relacionados con la configuración de un entorno a otro. Obtenga información sobre cómo revertir un paquete de promoción instalado desde un entorno de destino.
 author: Becky
 feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 70f7e2a8-bb27-4546-afb7-53e0eec30bf1
-source-git-commit: 7e15301dae4b761d19c85a3581bfdb4540ed40fd
+source-git-commit: 7ca27795ec115a112acb55113bfade4a5fee15ad
 workflow-type: tm+mt
-source-wordcount: '397'
-ht-degree: 1%
+source-wordcount: '384'
+ht-degree: 20%
 
 ---
 
@@ -31,26 +31,26 @@ Debe tener lo siguiente:
 
 <table>
   <tr>
-   <td><strong>[!DNL Adobe Workfront] plan</strong>
+   <td>paquete de Adobe Workfront
    </td>
-   <td> <p>Nuevo: Prime o Ultimate</p><p>O</p><p>Actual: no disponible</p>
+   <td> <p>PRIME o ULTIMATE</p>
    </td>
   </tr>
   <tr>
-   <td><strong>[!DNL Adobe Workfront] licencias</strong>
+   <td><strong>licencias de Workfront</strong>
    </td>
-   <td> <p>[!UICONTROL Standard]</p><p>O</p><p>Actual: no disponible</p>
+   <td> <p>Estándar</p>&gt;
    </td>
   </tr>
    <tr>
    <td>Configuraciones de nivel de acceso
    </td>
-   <td>Debe ser administrador de [!DNL Workfront].
+   <td><p>Debe ser administrador de Workfront.</p>
    </td>
   </tr>
 </table>
 
-Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Requisitos previos
 
@@ -72,7 +72,7 @@ Para saber si se puede revertir una implementación de paquete específica, teng
 ## Revertir un paquete de promoción de entorno instalado
 
 1. Vaya al entorno en el que se instaló el paquete.
-1. Haga clic en el icono **[!UICONTROL Menú principal]** ![Menú principal](/help/_includes/assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront o (si está disponible), haga clic en el icono **[!UICONTROL Menú principal]** ![Menú principal](/help/_includes/assets/main-menu-icon-left-nav.png) en la esquina superior izquierda y, a continuación, haga clic en **[!UICONTROL Configurar]** ![Icono de configuración](/help/_includes/assets/gear-icon-setup.png).
+1. Haga clic en el icono **[!UICONTROL Main Menu]** ![Menú principal](/help/_includes/assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront o, si está disponible, haga clic en el icono **[!UICONTROL Main Menu]** ![Menú principal](/help/_includes/assets/main-menu-icon-left-nav.png) en la esquina superior izquierda y, a continuación, haga clic en **[!UICONTROL Setup]** ![Icono de Configuración](/help/_includes/assets/gear-icon-setup.png).
 1. Seleccione **Promoción de entorno** en el panel de navegación izquierdo.
 1. Seleccione el paquete que desea revertir y haga clic en **Implementaciones**.
 1. Pase el ratón sobre la implementación (instalación) que desee revertir y, a continuación, haga clic en Revertir cuando aparezca a la derecha de la línea de esa implementación.

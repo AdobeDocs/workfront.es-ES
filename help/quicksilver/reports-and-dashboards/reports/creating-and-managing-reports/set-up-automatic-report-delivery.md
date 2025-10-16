@@ -6,10 +6,10 @@ description: Programar una entrega automática de informes
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 5b8e382c-bfe8-43aa-aa09-a2aa0c4d56cc
-source-git-commit: 62f56486ccc590921b7dc8227d46cdede84df32d
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '1309'
-ht-degree: 66%
+source-wordcount: '1293'
+ht-degree: 65%
 
 ---
 
@@ -27,35 +27,32 @@ Para obtener más información, incluidas las limitaciones de tamaño que pueden
 
 ## Requisitos de acceso
 
-+++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
-
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Plan de Adobe Workfront</td> 
+   <td role="rowheader">paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licencia de Adobe Workfront</td> 
-      <td> 
-      <p>Nuevo: estándar</p>
-      <p>O</p>
-
-<p>Actual: plan</p>
-
-</td>
+   <td> 
+      <p>Estándar</p>
+      <p>Plan</p>
+   </td>
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso</td> 
-   <td> <p>Acceso de edición a informes, paneles y calendarios</p> <p>Acceso de edición a filtros, vistas y agrupaciones</p> </td> 
+   <td> <p>Acceso de Edición a informes, paneles de control y calendarios</p>
+   <p>Acceso de edición a filtros, vistas y agrupaciones</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Permisos de administración para un informe</p></td> 
+     <td> <p>Permisos de administración para un informe</p></td> 
   </tr> 
  </tbody> 
 </table>

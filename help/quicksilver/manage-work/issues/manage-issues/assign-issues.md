@@ -3,13 +3,13 @@ product-area: projects
 navigation-topic: manage-issues
 title: Asignar problemas
 description: Puede asignar problemas a usuarios, funciones y equipos para indicar quién es el responsable de completar los problemas. Para obtener información general sobre la asignación de problemas, consulte Información general sobre la modificación de asignaciones de problemas.
-author: Alina
+author: Lisa
 feature: Work Management
 role: User
 exl-id: e2dce29e-7370-4580-8326-99c4437998bf
-source-git-commit: a0b635953245cf307b558d343ad234a27c96da94
+source-git-commit: 7aa420946115fc612ad1d9e310583e5453ae0678
 workflow-type: tm+mt
-source-wordcount: '1433'
+source-wordcount: '1432'
 ht-degree: 45%
 
 ---
@@ -47,35 +47,33 @@ La asignación de problemas y tareas es similar en Adobe Workfront. Para obtener
 
 ## Requisitos de acceso
 
-+++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo. 
 
 <table style="table-layout:auto"> 
  <col> 
- </col> 
- <col> 
- </col> 
+ </col>
  <tbody> 
   <tr> 
-   <td role="rowheader">Plan de Adobe Workfront</td> 
+   <td>paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licencia de Adobe Workfront*</td> 
-   <td> <p>Nuevo: colaborador o superior</p>
-   <p>Actual: revisión o superior</p> </td> 
+   <td>Licencia de Adobe Workfront</td> 
+   <td> <p>Colaborador o superior</p>
+   <p>Revisión o superior</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Nivel de acceso</td> 
+   <td>Configuraciones de nivel de acceso</td> 
    <td> <p>Editar acceso a Problemas</p> <p>Acceso de visualización o superior a proyectos y tareas para asignar un problema</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Permisos de objeto</td> 
+   <td>Permisos de objeto</td> 
    <td> <p>Permisos de administración para el problema</p> <p> Ver permisos o superiores al proyecto o tarea donde se encuentra el problema, al asignar un problema</p><p>Permisos de contribución o superiores para el proyecto o la tarea donde se encuentra el problema, al asignar varios problemas.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -139,7 +137,7 @@ Tenga en cuenta lo siguiente al asignar varios recursos a un elemento de trabajo
      >
      >Los usuarios deben estar asociados con al menos una función para verla a medida que los añade.
      >
-     >Debe tener activada la configuración Ver información de contacto en su nivel de acceso para que los usuarios vean los correos electrónicos de los usuarios. Para obtener más información, consulte [Conceder acceso a usuarios](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md)
+     >Debe tener habilitada la configuración Ver información de contacto en su nivel de acceso para que los usuarios vean los correos electrónicos de los usuarios. Para obtener más información, consulte [Conceder acceso a usuarios](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md)
      >
 
      <!-- this doesn't apply to issues; if it does, add this to the TIP above: 
@@ -184,7 +182,7 @@ Para asignar problemas en una lista:
    >
    >Los usuarios deben estar asociados con al menos una función para verla a medida que los añade.
    >
-   >Debe tener activada la configuración Ver información de contacto en su nivel de acceso para que los usuarios vean los correos electrónicos de los usuarios. Para obtener más información, consulte [Conceder acceso a usuarios](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
+   >Debe tener habilitada la configuración Ver información de contacto en su nivel de acceso para que los usuarios vean los correos electrónicos de los usuarios. Para obtener más información, consulte [Conceder acceso a usuarios](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
 
 1. (Condicional) En el campo Asignaciones, haga clic en <span class="preview">**Avanzadas**</span> o en el **icono Personas** ![Icono Personas](assets/teams.png) en la esquina superior derecha del cuadro Asignaciones para abrir el cuadro Asignaciones avanzadas y crear asignaciones avanzadas. Para obtener más información, consulte [Crear asignaciones avanzadas](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md).
 

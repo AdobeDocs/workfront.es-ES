@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 75018e0e-ff74-4afb-9a99-34bbb39b6e14
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: 1554c067afcc548c7f7abd03dbc3a49404e3c89c
 workflow-type: tm+mt
-source-wordcount: '1344'
+source-wordcount: '1321'
 ht-degree: 97%
 
 ---
@@ -33,32 +33,27 @@ Para obtener información general sobre los estados, consulte [Información gene
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Plan de Adobe Workfront</td> 
-   <td>Cualquiera</td> 
+   <td>paquete de Adobe Workfront</td> 
+   <td><p>Cualquiera</p></td> 
   </tr> 
   <tr> 
+   <td>Licencia de Adobe Workfront</td> 
+   <td><p>Estándar</p>
+       <p>Plan</p></td>
+  </tr>
   <tr> 
-   <td role="rowheader">Licencia de Adobe Workfront</td> 
-   <td><p>Nuevo: estándar</p>
-       <p>O</p>
-       <p>Actual: plan</p></td>
-  </tr> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Configuraciones de nivel de acceso</td> 
+   <td>Configuraciones de nivel de acceso</td> 
    <td>Debe ser administrador de grupo del grupo o administrador del sistema.</td>
-  </tr> 
+  </tr>
  </tbody> 
 </table>
 
-Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -143,12 +138,12 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
      </tr> 
      <tr> 
       <td role="rowheader">Ocultar estado</td> 
-      <td> <p>(Solo estados de proyecto y tarea)</p> <p>Active esta opción si desea que el estado se oculte a los usuarios. Cuando está desactivada (la configuración predeterminada), todos los subgrupos por debajo del grupo pueden utilizar el estado.</p> <p>Sugerencia: para ocultar el estado de un problema, desactive los cuatro tipos de problemas (Informe de errores, Solicitud de cambio, Problema, Solicitud).</p> </td> 
+      <td> <p>(Solo estados de proyecto y tarea)</p> <p>Habilite esta opción si desea que el estado se oculte a los usuarios. Cuando está desactivada (la configuración predeterminada), todos los subgrupos por debajo del grupo pueden utilizar el estado.</p> <p>Sugerencia: para ocultar el estado de un problema, desactive los cuatro tipos de problemas (Informe de errores, Solicitud de cambio, Problema, Solicitud).</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Bloquear para todos los grupos</td> 
       <td> 
-       <p>Si deja esta opción activada, los usuarios del grupo y sus subgrupos podrán ver y utilizar el estado, y los administradores de grupos no podrán personalizarlo para los subgrupos inferiores.</p> 
+       <p>Si deja esta opción habilitada, los usuarios del grupo y sus subgrupos podrán ver y utilizar el estado, y los administradores de grupos no podrán personalizarlo para los subgrupos inferiores.</p> 
        <p>Cuando esta opción está desactivada, los administradores de grupos pueden personalizar el estado de los subgrupos inferiores.</p> 
        <p><b>NOTA</b>: Puede usar tanto los estados bloqueado como desbloqueado en un proceso de aprobación de grupo. Si crea un proceso de aprobación de grupo con un estado de grupo desbloqueado, los usuarios pueden adjuntar el proceso de aprobación a cualquier proyecto, tarea o problema asociado al grupo.</p> 
        <p>Para obtener más información sobre los estados de bloqueo, consulte <a href="../../../administration-and-setup/manage-groups/manage-group-statuses/lock-or-unlock-a-custom-group-status.md" class="MCXref xref">Estados de grupos bloqueados y desbloqueados</a>.</p> 

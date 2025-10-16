@@ -6,9 +6,9 @@ description: Puede ver la utilización de sus recursos en el informe Utilizació
 author: Lisa
 feature: Resource Management
 exl-id: 785ee3e9-1b2d-4180-bc78-c41e71c5244d
-source-git-commit: 485f2985c70b1bb095e31323b7b4698bcb7a04cf
+source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
 workflow-type: tm+mt
-source-wordcount: '7285'
+source-wordcount: '7259'
 ht-degree: 99%
 
 ---
@@ -46,26 +46,22 @@ Puede ver la utilización de sus recursos en el informe Utilización.
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
-Debe cumplir los siguientes requisitos para acceder al informe Utilización:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Plan de Adobe Workfront</td> 
-   <td><p>Nuevo: cualquiera</p>
-       <p>O</p>
-       <p>Actual: pro o superior</p> </td> 
+  <tr> 
+   <td>paquete de Adobe Workfront</td> 
+   <td><p>Cualquiera</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Licencia de Adobe Workfront</td> 
-   <td><p>Nuevo: estándar</p>
-       <p>O</p>
-       <p>Actual: plan</p> </td> 
+   <td>Licencia de Adobe Workfront</td> 
+   <td><p>Estándar</p>
+       <p>Plan</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraciones de nivel de acceso</td> 
+   <td>Configuraciones de nivel de acceso</td> 
    <td> <p>Acceso de visualización o superior a lo siguiente:</p> 
     <ul> 
      <li> <p>Administración de recursos </p> </li> 
@@ -76,13 +72,13 @@ Debe cumplir los siguientes requisitos para acceder al informe Utilización:
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Permisos de objeto</td> 
+   <td>Permisos de objeto</td> 
    <td> <p>Acceso de visualización para proyectos, portafolios y programas, y poder acceder a la sección Utilización en el área Asignando recursos</p> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/nwe-utilization-section-highloighted-350x145.png" style="width: 350;height: 145;"> </p> <p>Acceso de administración para un proyecto y poder acceder a la sección Utilización del proyecto</p> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/nwe-utilization-section-on-project-highloighted-350x289.png" style="width: 350;height: 289;"> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -330,8 +326,8 @@ Si tiene una tarea de ingresos fijos y no hay horas planificadas para la tarea, 
 
 A diferencia de otras áreas de Workfront, el informe Utilización calcula los ingresos planificados, dividiendo los ingresos fijos de forma uniforme por el número de horas planificadas de la tarea. </p> <p>Se dan los siguientes casos: </p>
 <ul>
-<li> <p><strong>Función por hora más fijo:</strong> los ingresos de la tarea se calculan usando la tarifa de facturación establecida para una función específica, multiplicada por el número de horas planificadas asociadas con la función. Además, se añade a la tarifa de usuario una cantidad fija especificada en la tarea. Workfront utiliza la fórmula siguiente:</p> <p><code>Función por hora más ingresos planificados fijos = [SUMA(Horas planificadas de la función en todas las tareas) * Tasa de facturación de la función] + SUMA(Importe máximo o fijo de la tarea/Horas planificadas de la tarea)</code> </p> </li>
-<li> <p><strong>Usuario por hora más fijos:</strong> la tarifa de facturación establecida para un usuario específico, multiplicada por el número de horas planificadas en la tarea de ese usuario. Además, se añade a la tarifa de usuario una cantidad fija especificada en la tarea. Workfront utiliza la fórmula siguiente:</p> <p><code>Usuario por hora más ingresos planificados fijos = [SUMA(Horas planificadas del usuario en todas las tareas) * Tarifa de facturación del usuario] + SUMA(Importe máximo o fijo de la tarea/Horas planificadas de la tarea)</code> </p> </li>
+<li> <p><strong>Función por hora más fijo:</strong> los ingresos de la tarea se calculan usando la tarifa de facturación establecida para una función específica, multiplicada por el número de horas planificadas asociadas con la función. Además, se añade a la tarifa de usuario una cantidad fija especificada en la tarea. Workfront utiliza la fórmula siguiente:</p> <p><code>Función por hora más ingresos planificados fijos = [SUMA(Horas planificadas de la función en todas las tareas) * Tasa de facturación de la función] + SUMA(Importe límite o fijo de la tarea/Horas planificadas de la tarea)</code> </p> </li>
+<li> <p><strong>Usuario por hora más fijos:</strong> la tarifa de facturación establecida para un usuario específico, multiplicada por el número de horas planificadas en la tarea de ese usuario. Además, se añade a la tarifa de usuario una cantidad fija especificada en la tarea. Workfront utiliza la fórmula siguiente:</p> <p><code>Usuario por hora más ingresos planificados fijos = [SUMA(Horas planificadas del usuario en todas las tareas) * Tarifa de facturación del usuario] + SUMA(Importe límite o fijo de la tarea/Horas planificadas de la tarea)</code> </p> </li>
 </ul> <p><b>Función o usuario por hora con límite</b> </p> <p><b>IMPORTANTE</b>
 
 A diferencia de otras áreas de Workfront, si los ingresos planificados superan el límite, el importe por encima del importe del límite se considera ingresos fijos. Los ingresos planificados se calculan dividiendo los ingresos fijos de forma equitativa por el número de horas planificadas en la tarea y, a continuación, añadiéndole el importe del límite y los ingresos por hora del usuario o función. <br></p> <p>Se dan los siguientes casos: </p>
@@ -352,8 +348,8 @@ Si tiene una tarea de ingresos fijos y no hay horas reales en la tarea, los ingr
 
 A diferencia de otras áreas de Workfront, el informe Utilización calcula los ingresos reales dividiendo los ingresos fijos de forma uniforme por el número de horas registradas en la tarea. </p> <p>Se dan los siguientes casos: </p>
 <ul>
-<li> <p><strong>Función por hora más fijos:</strong> la tarifa de facturación establecida para una función específica, multiplicada por el número de horas registradas en la tarea de un usuario con esa función. Además, se añade a la tarifa de usuario una cantidad fija especificada en la tarea. </p> <p>Workfront utiliza la fórmula siguiente:</p> <p><code>Función por hora más ingresos reales fijos = [SUMA(Horas reales de la función en todas las tareas) * Tarifa de facturación de la función] + SUMA(Importe máximo o fijo de la tarea/Horas reales de la tarea)</code> </p> </li>
-<li> <p><strong>Usuario por hora más fijos:</strong> la tarifa de facturación establecida para un usuario específico, multiplicada por el número de horas registradas en la tarea de ese usuario. Además, se añade a la tarifa de usuario una cantidad fija especificada en la tarea. </p> <p>Workfront utiliza la fórmula siguiente:</p> <p><code>Usuario por hora más ingresos reales fijos = [SUMA(Horas reales de la función en todas las tareas) * Tarifa de facturación del usuario] + SUMA(Importe máximo o fijo de la tarea/Horas del usuario de la tarea)</code> </p> </li>
+<li> <p><strong>Función por hora más fijos:</strong> la tarifa de facturación establecida para una función específica, multiplicada por el número de horas registradas en la tarea de un usuario con esa función. Además, se añade a la tarifa de usuario una cantidad fija especificada en la tarea. </p> <p>Workfront utiliza la fórmula siguiente:</p> <p><code>Función por hora más ingresos reales fijos = [SUMA(Horas reales de la función en todas las tareas) * Tarifa de facturación de la función] + SUMA(Importe límite o fijo de la tarea/Horas reales de la tarea)</code> </p> </li>
+<li> <p><strong>Usuario por hora más fijos:</strong> la tarifa de facturación establecida para un usuario específico, multiplicada por el número de horas registradas en la tarea de ese usuario. Además, se añade a la tarifa de usuario una cantidad fija especificada en la tarea. </p> <p>Workfront utiliza la fórmula siguiente:</p> <p><code>Usuario por hora más ingresos reales fijos = [SUMA(Horas reales de la función en todas las tareas) * Tarifa de facturación del usuario] + SUMA(Importe límite o fijo de la tarea/Horas del usuario de la tarea)</code> </p> </li>
 </ul> <p><b>Función o usuario por hora con límite</b> </p> <p><b>IMPORTANTE</b>
 
 A diferencia de otras áreas de Workfront, si los ingresos planificados superan el límite, el importe por encima del importe del límite se considera ingresos fijos. Los ingresos planificados se calculan dividiendo los ingresos fijos de forma equitativa por el número de horas planificadas en la tarea y, a continuación, añadiéndole el importe del límite y los ingresos por hora del usuario o función. <br></p> <p>Se dan los siguientes casos:</p>

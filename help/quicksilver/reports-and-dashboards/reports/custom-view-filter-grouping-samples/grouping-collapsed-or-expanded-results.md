@@ -2,19 +2,19 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Agrupación: indique si los resultados de una agrupación deben contraerse o expandirse en modo de texto"
-description: "Agrupación: indique si los resultados de una agrupación deben contraerse o expandirse mediante el modo de texto"
+title: 'Agrupación: Indique Si los resultados de una agrupación deben contraerse o expandirse en el modo Texto'
+description: 'Agrupación: indica si los resultados de una agrupación deben contraerse o expandirse mediante el modo de texto'
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 2880e06f-34f3-47b1-9462-5a15a20d6fee
-source-git-commit: 7b25d3b5fe69f610e245db5ada116ea967f22c7b
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '343'
-ht-degree: 0%
+source-wordcount: '329'
+ht-degree: 46%
 
 ---
 
-# Grouping: indica si los resultados de una agrupación deben contraerse o expandirse mediante el modo de texto
+# Agrupación: indica si los resultados de una agrupación deben contraerse o expandirse mediante el modo de texto
 
 <!--Audited: 10/2024-->
 
@@ -22,7 +22,7 @@ ht-degree: 0%
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this article: NWE only; not possible in classic) </p>
 -->
 
-Se puede indicar si los resultados de una agrupación deben mostrarse contraídos o expandidos en una lista o informe con Report Builder estándar. De forma predeterminada, los resultados de una visualización de agrupación se expanden. Para obtener información sobre cómo crear una agrupación, consulte [Crear agrupaciones en Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/create-groupings.md).
+Se puede indicar si los resultados de una agrupación deben mostrarse contraídos o expandidos en una lista o informe con Report Builder estándar. De forma predeterminada, los resultados de una visualización de agrupación se expanden.  Para obtener información sobre cómo crear una agrupación, consulte [Crear agrupaciones en Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/create-groupings.md).
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: the tips repeat in the Create groupings to organize results article, Understanding text mode, Edit groupings to organize reports, Create a Custom Report; create a snippet when convenient)</p>
@@ -38,41 +38,34 @@ También puede indicar si una agrupación debe mostrarse expandida o contraída 
 
 ## Requisitos de acceso
 
-+++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
-
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plan de Adobe Workfront</td> 
+   <td role="rowheader">paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licencia de Adobe Workfront*</td> 
+   <td role="rowheader">Licencia de Adobe Workfront</td> 
    <td> 
-    <p>Nuevo:</p>
-   <ul><li><p>Colaborador para modificar un filtro </p></li>
-   <li><p>Estándar para modificar un informe</p></li> </ul>
-
-<p>Actual:</p>
-   <ul><li><p>Solicitud para modificar un filtro </p></li>
-   <li><p>Plan para modificar un informe</p></li> </ul></td> 
+   <p>Colaborador o solicitud para modificar un filtro </p>
+   <p>Estándar o Plan para modificar un informe</p>
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso</td> 
-   <td> <p>Editar el acceso a Informes, Tableros y Calendarios para modificar un informe</p> <p>Editar el acceso a filtros, vistas y agrupaciones para modificar un filtro</p> </td> 
+   <td> <p>Editar el acceso a Informes, Paneles de control y Calendarios para modificar un informe</p> <p>Acceso de edición a filtros, vistas y agrupaciones para modificar un filtro</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Administración de permisos de un informe</p>  </td> 
+   <td> <p>Permisos de administración para un informe</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -93,5 +86,5 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
    `group.0.iscollapsed=false`
 
-1. Haga clic en **Listo** y luego en **Guardar agrupación**.
+1. Haga clic en **Listo** y, a continuación, en **Guardar Agrupación**.
 1. (opcional) Actualice el nombre de la agrupación y, a continuación, haga clic en **Guardar agrupación**.

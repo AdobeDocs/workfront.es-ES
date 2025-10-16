@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e18c005b-e6ff-4a1e-a589-63132f3a8ad2
-source-git-commit: 945fa710e98b094a37258d5c94f7b1a2eb056abb
+source-git-commit: 7ca27795ec115a112acb55113bfade4a5fee15ad
 workflow-type: tm+mt
-source-wordcount: '1763'
+source-wordcount: '1719'
 ht-degree: 92%
 
 ---
@@ -42,21 +42,24 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Workfront] plan</td> 
-   <td> <p>[!UICONTROL Business] o superior</p> </td> 
+   <td role="rowheader">paquete de Workfront</td> 
+   <td> <p>PRIME o ULTIMATE</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p role="rowheader">[!DNL Workfront] licencia</p> </td> 
-   <td> <p>[!UICONTROL Plan] </p> <p>Debe ser administrador de [!DNL Workfront]. Para obtener información sobre los administradores de [!DNL Workfront], consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Conceder a un usuario acceso administrativo completo</a>.</p> </td> 
+   <td role="rowheader"> Licencia de Workfront</td> 
+   <td> <p>Estándar</p><p>Plan</p>  </td> 
   </tr> 
-  <tr> 
-   <td role="rowheader">Paquete de soporte</td> 
-   <td> <p>[!UICONTROL Plus], [!UICONTROL Preferred] o [!UICONTROL Enterprise]</p> <p>El paquete de soporte estándar no tiene acceso a la zona protegida de actualización personalizada, pero sí tiene acceso a la de vista previa.</p> </td> 
-  </tr> 
+  </tr>
+   <tr>
+   <td>Configuraciones de nivel de acceso
+   </td>
+   <td><p>Debe ser administrador de Workfront.</p>
+   </td>
+  </tr>
  </tbody> 
 </table>
 
-Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

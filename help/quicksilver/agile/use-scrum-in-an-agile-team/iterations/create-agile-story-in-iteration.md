@@ -6,10 +6,10 @@ description: Este artículo describe cómo crear una nueva historia Agile cuando
 author: Lisa
 feature: Agile
 exl-id: 9712e065-5fbf-4deb-a39f-36e0e918ed12
-source-git-commit: d660707dd69fab78095eed1414092a7c909ba174
+source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
 workflow-type: tm+mt
-source-wordcount: '524'
-ht-degree: 0%
+source-wordcount: '509'
+ht-degree: 26%
 
 ---
 
@@ -21,28 +21,25 @@ Este artículo describe cómo crear una nueva historia Agile cuando ya está en 
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
-
 <table style="table-layout:auto"> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
+   <td role="rowheader">paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licencia</td> 
-   <td> <p>Nuevo: [!UICONTROL Standard]</p> 
-   o
-   <p>Actual: [!UICONTROL Work] o superior</p> </td> 
+   <td role="rowheader">Licencia de Adobe Workfront</td> 
+   <td> <p>Estándar</p> 
+   <p>Trabajo o superior</p> </td> 
   </tr>
    <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td>Acceso de [!UICONTROL Manage] al proyecto en el que se encuentra la historia </td> 
+   <td>Administrar el acceso al proyecto en el que se encuentra la historia </td> 
   </tr>
  </tbody> 
 </table>
 
-Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -52,9 +49,9 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
 
    {{step1-to-team}}
 
-   1. (Opcional) Haga clic en el icono **[!UICONTROL Cambiar de equipo]** ![Cambiar de icono de equipo](assets/switch-team-icon.png) y, a continuación, seleccione un nuevo equipo de Scrum en el menú desplegable o busque un equipo en la barra de búsqueda.
+   1. (Opcional) Haga clic en el icono **[!UICONTROL Cambiar de equipo]** ![icono Cambiar de equipo](assets/switch-team-icon.png) y, a continuación, seleccione un nuevo equipo de Scrum en el menú desplegable o busque un equipo en la barra de búsqueda.
 
-   1. En el panel izquierdo, seleccione **[!UICONTROL Iteraciones]**.
+   1. En el panel izquierdo, seleccione **[!UICONTROL Iterations]**.
    1. Haga clic en el nombre de la iteración específica en la que desea crear un artículo.
    1. En el panel izquierdo, seleccione **[!UICONTROL Historias]**.
 
@@ -70,7 +67,7 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
       <td>Escriba un nombre para la historia.</td>
      </tr>
      <tr>
-      <td role="rowheader"><strong>[!UICONTROL Descripción]</strong></td>
+      <td role="rowheader"><strong>[!UICONTROL Description]</strong></td>
       <td>Escriba una descripción para la historia.</td>
      </tr>
      <tr>
@@ -79,14 +76,14 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Estimar] (puntos)</strong></td>
-      <td>Especifique la estimación para la historia. Si su equipo Agile está configurado para estimar las historias en puntos, por defecto 1 punto es igual a 8 horas. Las estimaciones se agregan como [!UICONTROL Horas planificadas] en la historia.<br>Por ejemplo, si estima una historia como 3 puntos, el comportamiento predeterminado es agregar 24 horas planificadas a la historia.<br>Si un artículo contiene subtareas, recuerde que las estimaciones combinadas de todas las subtareas determinan la estimación del artículo principal. Para obtener más información, vea <a href="../../../agile/use-scrum-in-an-agile-team/scrum-board/add-a-subtask-to-an-existing-story-scrum.md" class="MCXref xref">Agregar una subtarea a una historia existente en el tablero [!UICONTROL Scrum]</a>.</td>
+      <td>Especifique la estimación para la historia. Si su equipo Agile está configurado para estimar las historias en puntos, de forma predeterminada 1 punto equivale a 8 horas. Las estimaciones se añaden como [!UICONTROL Planned Hours] en la historia.<br>Por ejemplo, si estima una historia como 3 puntos, el comportamiento predeterminado es agregar 24 horas planificadas a la historia.<br>Si un artículo contiene subtareas, recuerde que las estimaciones combinadas de todas las subtareas determinan la estimación del artículo principal. Para obtener más información, vea <a href="../../../agile/use-scrum-in-an-agile-team/scrum-board/add-a-subtask-to-an-existing-story-scrum.md" class="MCXref xref">Agregar una subtarea a una historia existente en el tablero [!UICONTROL Scrum]</a>.</td>
      </tr>
      <tr>
-      <td role="rowheader"><strong>[!UICONTROL Proyecto principal]</strong></td>
+      <td role="rowheader"><strong>[!UICONTROL Parent Project]</strong></td>
       <td>Empiece a escribir el nombre del proyecto con el que se asociará esta historia.<br>De manera predeterminada, el color de la historia se muestra con el mismo color que otras historias de este proyecto.<br>El estado del proyecto debe establecerse en [!UICONTROL Actual]. Si el estado del proyecto es cualquier cosa excepto [!UICONTROL Actual], no se muestra en el menú desplegable.</td>
      </tr>
      <tr>
-      <td role="rowheader"><strong>[!UICONTROL Tarea principal]</strong></td>
+      <td role="rowheader"><strong>[!UICONTROL Parent Task]</strong></td>
       <td>Después de elegir un proyecto principal, tiene la opción de elegir una tarea principal. Al seleccionar una tarea principal, el artículo se crea como una subtarea de la tarea principal en el proyecto seleccionado.<br>Empiece a escribir el nombre de la tarea principal de la historia y, a continuación, haga clic en ella cuando aparezca en la lista desplegable.</td>
      </tr>
      <tr>

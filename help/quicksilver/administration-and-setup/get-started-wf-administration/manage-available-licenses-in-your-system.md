@@ -8,9 +8,9 @@ author: Lisa, Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: ea580dd0-efb7-4f56-beb3-07ad044efc8a
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: 15ea03bf586054f7ef421f8cacede6f42835a6e4
 workflow-type: tm+mt
-source-wordcount: '1216'
+source-wordcount: '1178'
 ht-degree: 99%
 
 ---
@@ -25,31 +25,27 @@ Como administrador de Adobe Workfront, puede acceder a información sobre su cue
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
-
-<table style="table-layout:auto">
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Plan de Adobe Workfront</td> 
-   <td>Cualquiera</td> 
+   <td role="rowheader">paquete de Workfront</td> 
+   <td><p>Cualquiera</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licencia de Adobe Workfront</td> 
-   <td>
-    <p>Nuevo: estándar</p>
-    <p>o</p>
-    <p>Actual: plan</p></td> 
+   <td><p>Estándar</p> <p>Plan</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso</td> 
-   <td> <p>Debe ser administrador del sistema o de grupos. El administrador de grupos tiene una vista limitada de la información de la licencia.</p> </td> 
+   <td>Debe ser administrador de Workfront. </td> 
   </tr> 
  </tbody> 
 </table>
 
-Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
 
 >[!NOTE]
 >
@@ -126,7 +122,7 @@ If an organization has other paid add-on products, their license information als
 
 >[!IMPORTANT]
 >
->Los límites de decisión de la revisión y de documentos se aplican solamente a los usuarios con las nuevas licencias. Para más información, consulte [Información general sobre nuevas licencias &#x200B;](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md).
+>Los límites de decisión de la revisión y de documentos se aplican solamente a los usuarios con las nuevas licencias. Para más información, consulte [Información general sobre nuevas licencias ](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md).
 
 Las decisiones de revisiones y documentos son limitadas para todas las licencias de Workfront que no son de pago. Los límites se restablecen por usuario cada mes.
 

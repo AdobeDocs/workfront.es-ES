@@ -9,7 +9,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: a68bca5e-1cec-432d-bb38-14b426a9c051
-source-git-commit: 76797ce2afb6a6a929531f02ed3a3b3f75240602
+source-git-commit: 76e32fa6b87583d2b8c296045da731afdb6d1f9a
 workflow-type: tm+mt
 source-wordcount: '614'
 ht-degree: 43%
@@ -18,7 +18,7 @@ ht-degree: 43%
 
 # Acerca del diseño predeterminado de Adobe Workfront
 
-El diseño predeterminado es la disposición del menú principal ![Icono del menú principal](assets/main-menu-icon.png) o del menú principal ![Icono del menú principal](assets/main-menu-icon.png), si está disponible, el panel izquierdo y las vistas, agrupaciones y filtros antes de que un administrador de Adobe Workfront realice cambios mediante una plantilla de diseño.
+El diseño predeterminado es la disposición del menú principal ![Icono del menú principal](assets/main-menu-icon.png) o del menú principal ![Icono del menú principal](assets/main-menu-icon-left-nav.png), si está disponible, el panel izquierdo y las vistas, agrupaciones y filtros antes de que un administrador de Adobe Workfront realice cambios mediante una plantilla de diseño.
 
 Para obtener información sobre cómo un administrador de Workfront puede modificar el diseño predeterminado de un usuario asignándole una plantilla de diseño, consulte [Asignar usuarios a una plantilla de diseño](../../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md).
 
@@ -106,7 +106,7 @@ La siguiente tabla muestra los elementos predeterminados del menú principal y l
     <td class="tg-0lax"></td>
   </tr>
   <tr>
-    <td class="tg-0lax">Paneles</td>
+    <td class="tg-0lax">Paneles de control</td>
     <td class="tg-0lax">Mis paneles<br>Paneles compartidos<br>Todos los paneles<br>Paneles de lienzo*</td>
     <td class="tg-0lax">✔</td>
     <td class="tg-0lax">✔</td>
@@ -321,7 +321,7 @@ La siguiente tabla muestra los elementos predeterminados del menú principal y l
     <td class="tg-0pky"></td>
   </tr>
   <tr>
-    <td class="tg-0pky">Paneles</td>
+    <td class="tg-0pky">Paneles de control</td>
     <td class="tg-0pky">Mis paneles<br>Paneles compartidos<br>Todos los paneles<br>Paneles de lienzo*</td>
     <td class="tg-0pky">✔</td>
     <td class="tg-0pky">✔</td>

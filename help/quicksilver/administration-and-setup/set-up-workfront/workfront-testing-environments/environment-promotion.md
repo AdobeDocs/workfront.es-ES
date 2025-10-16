@@ -4,15 +4,15 @@ content-type: overview;how-to-procedural
 product-area: system-administration
 navigation-topic: workfront-testing-environments
 title: Mover objetos de un entorno a otro
-description: La función Promoción de entornos está diseñada para proporcionar la capacidad de mover objetos relacionados con la configuración de un entorno a otro. No admite la capacidad de mover objetos transaccionales (con excepciones limitadas).
+description: La capacidad de promoción del entorno está pensada para ofrecer la posibilidad de mover objetos relacionados con la configuración de un entorno a otro. No admite la posibilidad de mover objetos transaccionales (salvo algunas excepciones limitadas).
 author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: dd3c29df-4583-463a-b27a-bbfc4dda8184
-source-git-commit: e9df34c206dd65ccc2edec00087248eb4ed16f54
+source-git-commit: 7ca27795ec115a112acb55113bfade4a5fee15ad
 workflow-type: tm+mt
-source-wordcount: '2095'
-ht-degree: 2%
+source-wordcount: '2088'
+ht-degree: 11%
 
 ---
 
@@ -23,7 +23,7 @@ La capacidad Promoción de entornos permite mover objetos relacionados con la co
 Para obtener instrucciones sobre cómo mover objetos entre entornos mediante la aplicación de Workfront, consulte:
 
 * [Crear o editar un paquete de promoción de entorno](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-create-package.md)
-* [Instalación de un paquete de promoción de entorno](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-install-package.md)
+* [Instalación de un paquete de promoción del entorno](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-install-package.md)
 
 
 ## Requisitos de acceso
@@ -32,26 +32,26 @@ Debe tener lo siguiente:
 
 <table>
   <tr>
-   <td><strong>[!DNL Adobe Workfront] plan</strong>
+   <td>paquete de Adobe Workfront
    </td>
-   <td> Prime o Ultimate (solo planes nuevos)
+   <td> <p>PRIME o ULTIMATE</p>
    </td>
   </tr>
   <tr>
-   <td><strong>[!DNL Adobe Workfront] licencias</strong>
+   <td><strong>licencias de Workfront</strong>
    </td>
-   <td> [!UICONTROL Standard]
+   <td> <p>Estándar</p>&gt;
    </td>
   </tr>
    <tr>
    <td>Configuraciones de nivel de acceso
    </td>
-   <td>Debe ser administrador de [!DNL Workfront].
+   <td><p>Debe ser administrador de Workfront.</p>
    </td>
   </tr>
 </table>
 
-Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Requisitos previos
 
@@ -59,19 +59,19 @@ El punto final Crear paquete promocional supone que ya ha configurado el entorno
 
 ## Objetos compatibles para la promoción del entorno
 
-La función Promoción de entornos está diseñada para proporcionar la capacidad de mover objetos relacionados con la configuración de un entorno a otro. No admite la capacidad de mover objetos transaccionales (con excepciones limitadas).
+La capacidad de promoción del entorno está pensada para ofrecer la posibilidad de mover objetos relacionados con la configuración de un entorno a otro. No admite la posibilidad de mover objetos transaccionales (salvo algunas excepciones limitadas).
 
 Para obtener una lista de objetos promocionales y sus subobjetos promocionales incluidos, consulte [Objetos admitidos para la promoción de entornos](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md#supported-objects-for-environment-promotion) en el artículo [Información general sobre cómo mover objetos entre entornos de Workfront](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md).
 
 ## Autenticación
 
-La API autentica cada solicitud para garantizar que el cliente tenga acceso para ver o modificar un objeto solicitado.
+La API autentica todas las solicitudes para garantizar que el cliente tenga acceso para ver o modificar el objeto solicitado.
 
 La autenticación se realiza pasando un ID de sesión o una clave de API, que se pueden proporcionar mediante el siguiente método:
 
-### Autenticación de encabezado de solicitud
+### Autenticación del encabezado de la solicitud
 
-El método de autenticación preferido es pasar un encabezado de solicitud denominado SessionID que contenga el token de sesión. Esto tiene la ventaja de estar a salvo de [ataques de falsificación de solicitudes entre sitios (CSRF)](https://en.wikipedia.org/wiki/Cross-site_request_forgery) y de no interferir con el URI con fines de almacenamiento en caché.
+El método de autenticación preferido es pasar un encabezado de solicitud denominado SessionID que contenga el token de sesión. Esto tiene la ventaja de estar protegido contra ataques de [falsificación de solicitud en sitios múltiples (CSRF)](https://en.wikipedia.org/wiki/Cross-site_request_forgery) y de no interferir con el URI con fines de almacenamiento en caché.
 
 A continuación se muestra un ejemplo de encabezado de solicitud:
 
@@ -82,7 +82,7 @@ SessionID: abc1234
 
 ## Extremos de API
 
-* [Creación de un paquete](#create-a-package)
+* [Crear un paquete](#create-a-package)
 * [Obtener una lista de paquetes](#get-a-list-of-packages)
 * [Obtención de un paquete por ID](#get-a-package-by-id)
 * [Actualización de propiedades específicas de un paquete](#update-specific-properties-of-a-package)
@@ -92,7 +92,7 @@ SessionID: abc1234
 * [Obtener una lista de instalaciones para un paquete específico](#get-a-list-of-installations-for-a-specific-package)
 * [Obtener los detalles de instalación de una instalación](#get-the-installation-details-for-an-installation)
 
-### Creación de un paquete
+### Crear un paquete
 
 <table style="table-layout:auto"> 
  <col> 
@@ -107,7 +107,7 @@ Esta llamada ejecuta un proceso de varios pasos.
 
 El primer paso resulta en la creación de un paquete de promoción vacío con el estado &quot;ENSAMBLANDO&quot;.
 
-El segundo paso utiliza la matriz `objectCollections` proporcionada en el cuerpo del POST para ensamblar los registros solicitados de Workfront. Este paso puede tardar varios minutos en completarse, según la cantidad de registros solicitados y la configuración de Workfront. Al final de este proceso, el paquete de promoción vacío se actualiza con `packageEntities` y el estado se establece automáticamente como &quot;BORRADOR&quot;.
+El segundo paso utiliza la matriz `objectCollections` proporcionada en el cuerpo de POST para ensamblar los registros solicitados de Workfront. Este paso puede tardar varios minutos en completarse, según la cantidad de registros solicitados y la configuración de Workfront. Al final de este proceso, el paquete de promoción vacío se actualiza con `packageEntities` y el estado se establece automáticamente como &quot;BORRADOR&quot;.
 
 
 >[!NOTE]
@@ -364,7 +364,7 @@ _Vacío_
   </tbody> 
 </table>
 
-Esta llamada actualiza cualquiera de los contenidos del paquete promocional que se proporcionan en el cuerpo del PATCH.
+Esta llamada actualiza cualquiera de los contenidos del paquete promocional que se proporcionan en el cuerpo de PATCH.
 
 Los atributos editables son:
 
@@ -522,7 +522,7 @@ Para cada objeto de promoción, se establecerá uno de los `actions` siguientes:
  <col> 
  <tbody> 
   <tr> 
-   <td>CREAR</td> 
+   <td>CREATE</td> 
    <td><p>Cuando no se encuentra un registro correspondiente en el entorno de destino, la acción se establece en CREATE.</p><p>Cuando esta acción se establece en <code>translationmap</code> que se proporciona al extremo <code>/install</code>, el servicio de instalación creará el registro.</p></td> 
   </tr> 
   <tr> 
@@ -691,7 +691,7 @@ O
   </tbody> 
 </table>
 
-Esta llamada inicia un intento de instalación de un paquete promocional en el entorno de destino identificado en la dirección URL del POST.
+Esta llamada inicia un intento de instalación de un paquete de promoción en el entorno de destino identificado en la URL de POST.
 
 #### URL
 

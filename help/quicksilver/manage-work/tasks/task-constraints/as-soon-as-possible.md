@@ -2,31 +2,31 @@
 content-type: reference;how-to-procedural
 product-area: projects
 navigation-topic: task-constraints
-title: "Resumen de la restricción de tareas: lo antes posible"
-description: Lo antes posible es una restricción de tarea que sitúa la hora de inicio de la tarea lo más cerca posible del comienzo del proyecto.
+title: 'Información General Sobre La Restricción De Tareas: Lo Antes Posible'
+description: Lo antes posible es una restricción de tareas que sitúa la hora de inicio de la tarea lo más cerca posible del comienzo del proyecto.
 author: Alina
 feature: Work Management
 exl-id: 9cb232fe-bc74-4433-afac-88be69514c88
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
 workflow-type: tm+mt
 source-wordcount: '391'
-ht-degree: 0%
+ht-degree: 98%
 
 ---
 
-# Información general sobre la restricción de tarea: lo antes posible
+# Información general sobre la restricción de tareas: lo antes posible
 
-Lo antes posible es una restricción de tarea que sitúa la hora de inicio de la tarea lo más cerca posible del comienzo del proyecto.
+Lo antes posible es una restricción de tareas que sitúa la hora de inicio de la tarea lo más cerca posible del comienzo del proyecto.
 
-## Consideraciones para utilizar la restricción Lo antes posible
+## Consideraciones de uso de la restricción Lo antes posible
 
-* Lo antes posible es la delimitación predeterminada si un proyecto utiliza un modo de horario a partir de la fecha de inicio y si la fecha de inicio predeterminada del sistema para una nueva tarea está establecida en Basado en la fecha planificada del proyecto.
+* Lo antes posible es la restricción predeterminada en caso de que un proyecto use un modo de programación de Programar desde la fecha de inicio y en caso de que la fecha de inicio predeterminada del sistema para una nueva tarea se establezca en Basada en la fecha de planificación del proyecto.
 
-* Si un proyecto utiliza un modo de programación de Programar desde la fecha de inicio y si la fecha de inicio predeterminada del sistema o del grupo para una nueva tarea está establecida en Hoy, la restricción de tarea predeterminada es No comenzar antes del.
+* En caso de que un proyecto use un modo de programación de Programar desde la fecha de inicio y en caso de que la fecha de inicio predeterminada del sistema o del grupo para una nueva tarea se establezca en Hoy, la restricción de tarea predeterminada será No comenzar antes del.
 
-  Para obtener información sobre dónde establecer la restricción predeterminada para una tarea nueva, consulte [Configurar las preferencias de tareas y problemas en todo el sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+  Para obtener información sobre dónde establecer la restricción predeterminada de una tarea nueva, consulte [Configuración de preferencias de tareas y problemas en todo el sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 
-Para obtener información sobre cómo actualizar la restricción de tarea en una tarea, vea [Actualizar la restricción de tarea de una tarea](../../../manage-work/tasks/task-constraints/update-task-constraint-of-task.md).
+Para obtener información sobre cómo actualizar la restricción de la tarea de una tarea, consulte [Actualizar la restricción de la tarea de una tarea](../../../manage-work/tasks/task-constraints/update-task-constraint-of-task.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -42,24 +42,24 @@ Para obtener información sobre cómo actualizar la restricción de tarea en una
 </div>
 -->
 
-## La diferencia entre Lo antes posible y Lo antes posible
+## Diferencia entre Lo más temprano disponible y Lo antes posible
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: [! This section is duplicated in "Earliest Available Time"])&nbsp;</p>
 -->
 
-La restricción Lo antes posible difiere de la restricción Lo antes posible cuando existen todos los criterios siguientes:
+La restricción Lo más temprano disponible difiere de la restricción Lo antes posible cuando se cumplen todos los criterios siguientes:
 
-* Se ha programado el proyecto desde la finalización.
-* Las tareas del proyecto tienen una relación de predecesoras.
+* Se programó el proyecto desde la finalización.
+* Las tareas del proyecto tienen una relación predecesora.
 * La tarea predecesora tiene una restricción de tarea flexible.
 
 En esta situación:
 
-* **Hora disponible más temprana:** Si se utiliza la restricción de la primera hora disponible en la tarea sucesora, se da prioridad a la restricción flexible de la predecesora.
+* **Lo más temprano disponible:** en caso de utilizar la restricción Lo más temprano disponible en la tarea sucesora, se dará prioridad a la restricción flexible de la predecesora.
 
-  Por ejemplo, supongamos que la Tarea A es la predecesora de la Tarea B. La Tarea B tiene la restricción de la primera hora disponible y la Tarea A tiene la restricción de la mayor demora posible. En este caso, la tarea se programa lo más cerca posible de la finalización del proyecto.
+  Por ejemplo, supongamos que la Tarea A fuera la predecesora de la Tarea B. La Tarea B tiene la restricción Lo más temprano disponible y la Tarea A tiene la restricción Lo más tarde posible. En este caso, la tarea se programará lo más cerca posible de la finalización del proyecto.
 
-* **Lo antes posible:** En este escenario, el uso de la restricción Lo antes posible en la tarea sucesora da prioridad a la tarea sucesora.
+* **Lo antes posible:** en este escenario, el uso de la restricción Lo antes posible en la tarea sucesora dará prioridad a la tarea sucesora.
 
-  Por ejemplo, supongamos que la Tarea A es predecesora de la Tarea B. La Tarea B tiene la restricción Lo antes posible y la Tarea A tiene la restricción Lo más tarde posible. En este caso, la tarea se programa lo más cerca posible del comienzo del proyecto.
+  Por ejemplo, supongamos que la Tarea A fuera predecesora de la Tarea B. La Tarea B tiene la restricción Lo antes posible y la Tarea A tiene la restricción Lo más tarde posible. En este caso, la tarea se programará lo más cerca posible del inicio del proyecto.

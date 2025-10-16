@@ -6,10 +6,10 @@ description: Puede enviar solicitudes en el widget Mis solicitudes. También pue
 author: Becky
 feature: Get Started with Workfront
 exl-id: 2b994f44-2404-4aa3-8c38-0686a0c287b7
-source-git-commit: 2fe55f61bd24ebb3ecfe09fff29c4aad2ca33608
+source-git-commit: 41f58261d4f2e6075187886b371a23eb5e97d823
 workflow-type: tm+mt
-source-wordcount: '825'
-ht-degree: 17%
+source-wordcount: '793'
+ht-degree: 13%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 17%
 >[!IMPORTANT]
 >
 >Este artículo describe el nuevo widget Mis solicitudes. Debe tener la nueva experiencia de solicitud habilitada para ver el nuevo widget.
->&#x200B;>Puede activar la nueva experiencia de solicitud en el área de solicitudes.
+>>Puede activar la nueva experiencia de solicitud en el área de solicitudes.
 
 El widget Mis solicitudes muestra las solicitudes que se han enviado a su organización. Puede filtrar las solicitudes, buscar solicitudes específicas o ajustar el orden y la visibilidad de las columnas. También puede crear una nueva solicitud desde el widget Mis solicitudes.
 
@@ -34,27 +34,24 @@ El widget Mis solicitudes muestra las solicitudes que se han enviado a su organi
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Product]</strong></td> 
-   <td> <ul><li>Adobe Workfront</li><li>Debe tener Adobe Workfront Planning para ver solicitudes de Planning o formularios de solicitud</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront plan]</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront package]</strong></td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licencia*</strong></td> 
-   <td> <p>Nuevo: colaborador o superior</p>
-   O   
-   <p>Actual: [!UICONTROL Request] o superior</p> </td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] licencia</strong></td> 
+   <td> <p>Colaborador o superior</p>
+   <p>Solicitud o superior</p> </td> 
   </tr> 
   <tr> 
+    <tr> 
+   <td role="rowheader"><strong>Productos adicionales</strong></td> 
+   <td> Debe tener Adobe Workfront Planning para ver solicitudes de Planning o formularios de solicitud</td> 
+  </tr> 
    <td role="rowheader"><strong>Configuración de nivel de acceso</strong></td> 
    <td> <p>Ver el acceso o superior a cualquier objeto para el que esté etiquetado en una conversación o para el que necesite resolver una aprobación (proyectos, tareas, problemas, documentos)</p> </td> 
   </tr> 
@@ -65,7 +62,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  </tbody> 
 </table>
 
-*Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de [!DNL Workfront]. Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

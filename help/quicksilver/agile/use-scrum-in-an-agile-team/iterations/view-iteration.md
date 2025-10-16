@@ -6,10 +6,10 @@ description: Puede ver todas las iteraciones de un equipo determinado o puede ve
 author: Lisa
 feature: Agile
 exl-id: 1ee14c40-8047-4885-96f0-cddfc2617028
-source-git-commit: 556a2b89f2e380d3a0725f0d53251d3e1e3c7ca7
+source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
 workflow-type: tm+mt
-source-wordcount: '236'
-ht-degree: 91%
+source-wordcount: '222'
+ht-degree: 90%
 
 ---
 
@@ -21,8 +21,6 @@ Puede ver todas las iteraciones de un equipo determinado o puede ver una iteraci
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -30,14 +28,13 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
+   <td role="rowheader">paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licencia</td> 
-   <td> <p>Nuevo: [!UICONTROL Light] o superior</p> 
-   o
-   <p>Actual: [!UICONTROL Review] o superior</p> </td> 
+   <td role="rowheader">Licencia de Adobe Workfront</td> 
+   <td> <p>Ligero o superior</p> 
+   <p>Revisión o superior</p> </td> 
   </tr>
  </tbody> 
 </table>

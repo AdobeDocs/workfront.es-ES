@@ -6,10 +6,10 @@ description: El acceso a [!DNL Workfront] a través de Adobe Experience Cloud le
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 458631a2-d77d-46d6-8d6b-7008237e5154
-source-git-commit: a25eb28800ca8bbeeffedb521b3d72c8df71c697
+source-git-commit: 29083931a4910c99027edb856ab200c8a4345679
 workflow-type: tm+mt
-source-wordcount: '696'
-ht-degree: 68%
+source-wordcount: '683'
+ht-degree: 67%
 
 ---
 
@@ -30,25 +30,23 @@ Si su organización está en la experiencia unificada de Adobe, la dirección UR
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo. 
 
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
+   <td role="rowheader"><strong>paquete de Adobe Workfront</strong></td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licencia*</strong></td> 
-   <td> <p>Nuevo: [!UICONTROL Contributor] o superior</p> 
-   <p>Actual: [!UICONTROL Request] o superior</p> </td> 
+   <td role="rowheader"><strong>Licencia de Adobe Workfront</strong></td> 
+   <td> <p>Colaborador o superior</p> 
+   <p>Solicitud o superior</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -125,7 +123,7 @@ En caso de que la organización utilice una aplicación independiente para admin
 
 En caso de que [!DNL Adobe] administre la contraseña, cámbiela en la cuenta de Adobe.
 
-[Consulte este artículo para cambiar la contraseña de Adobe.](https://helpx.adobe.com/es/manage-account/using/change-or-reset-password.html){target="_blank"}
+[Consulte este artículo para cambiar la contraseña de Adobe.](https://helpx.adobe.com/manage-account/using/change-or-reset-password.html){target="_blank"}
 
 Para obtener más información sobre cómo cambiar la contraseña, póngase en contacto con el administrador.
 

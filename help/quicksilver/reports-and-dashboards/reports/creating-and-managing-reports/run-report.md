@@ -6,10 +6,10 @@ description: Puede ejecutar cualquier informe al que tenga acceso de visualizaci
 author: Nolan
 feature: Reports and Dashboards
 exl-id: bd2202a7-040c-4291-ad02-ba8929a37e2b
-source-git-commit: 12e8bc389c42510b5adbb0190eb71c9f6a9f52a7
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '505'
-ht-degree: 85%
+source-wordcount: '497'
+ht-degree: 83%
 
 ---
 
@@ -28,45 +28,35 @@ After a report is cached, it is available for the next 12 hours. Any user who ru
 
 ## Requisitos de acceso
 
-+++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
-
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo. 
 
 <table style="table-layout:auto"> 
  <col> 
- </col> 
  <col> 
- </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Plan de Adobe Workfront*</td> 
+   <td role="rowheader">paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licencia de Adobe Workfront*</td> 
-      <td> 
-      <p>Nuevo:</p>
-         <ul>
-         <li><p>Estándar</p></li>
-         </ul>
-      <p>Actual:</p>
-         <ul>
-         <li><p>Plan</p></li>
-         </ul>
+   <td role="rowheader">Licencia de Adobe Workfront</td> 
+   <td> 
+      <p>Estándar</p>
+      <p>Plan</p>
    </td>
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraciones de nivel de acceso*</td> 
-   <td> <p>Acceso de visualización a informes, paneles de control y calendarios</p></td> 
+   <td role="rowheader">Configuraciones de nivel de acceso</td> 
+   <td> <p>Ver acceso a informes, tableros y calendarios</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Permisos de visualización para un informe</p></td> 
+     <td> <p>Permisos de visualización para un informe</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-*Para obtener información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -103,6 +93,6 @@ Es posible que el informe se almacene en caché si se ha mostrado en el explorad
 * Edite la configuración del informe y guárdelo.
 * Cambie la vista, el grupo o el filtro.
 * Haga clic en el **icono Recargar** ![icono Recargar](assets/unshimmed-report-refresh-icon.png)
-Esta opción está disponible en la esquina superior derecha de la página, dentro del cuadro de mensaje que indica la hora en que se guardó el informe, o bien está disponible en la esquina superior derecha del panel en el que se coloca el informe. Para obtener más información sobre cómo volver a cargar los paneles, consulte la sección &quot;Mostrar paneles&quot; en el artículo [Introducción a los paneles](../../../reports-and-dashboards/dashboards/understanding-dashboards/get-started-dashboards.md).
+Esta opción está disponible en la esquina superior derecha de la página, dentro del cuadro de mensaje que indica la hora en que se guardó el informe, o bien está disponible en la esquina superior derecha del panel en el que se coloca el informe. Para obtener más información sobre cómo volver a cargar los paneles de control, consulte la sección &quot;Mostrar paneles de control&quot; en el artículo [Introducción a los paneles de control](../../../reports-and-dashboards/dashboards/understanding-dashboards/get-started-dashboards.md).
 
 * Para acceder a cualquier página del informe que no sea la primera página, vaya a las pestañas Resumen, Matriz o Gráfico.

@@ -2,43 +2,18 @@
 product-area: user-management
 navigation-topic: manage-your-workfront-account
 title: Recibir invitaciones por correo electrónico y crear una contraseña para  [!DNL Adobe Workfront]
-description: Cuando un administrador de  [!DNL Workfront]  cree un nuevo usuario, este último recibirá un correo electrónico de invitación en función de varios factores.
+description: Cuando un administrador de  [!DNL Workfront] crea un nuevo usuario, el nuevo usuario puede recibir un correo electrónico de invitación que le invita a crear una contraseña.
 author: Courtney
 feature: Get Started with Workfront
 exl-id: a13dbe33-f283-4732-a7f2-5a94a37855f0
-source-git-commit: a25eb28800ca8bbeeffedb521b3d72c8df71c697
+source-git-commit: c6272c7631941720e3ab1e1c80ed7d304a67d34b
 workflow-type: tm+mt
-source-wordcount: '321'
-ht-degree: 100%
+source-wordcount: '320'
+ht-degree: 91%
 
 ---
 
 # Recibir invitaciones por correo electrónico y crear una contraseña para [!DNL Adobe Workfront]
-
-## Requisitos de acceso
-
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
-
-<table style="table-layout:auto"> 
- <col> 
- </col> 
- <col> 
- </col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
-   <td> <p>Cualquiera</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licencia*</strong></td> 
-   <td> <p>[!UICONTROL Request] o superior</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-Para saber qué plan o tipo de licencia tiene, póngase en contacto con el administrador de [!DNL Workfront].
-
-## Recibir invitaciones por correo electrónico
 
 Cuando un administrador de [!DNL Workfront] cree un nuevo usuario, este último recibirá un correo electrónico de invitación en función de varios factores:
 
@@ -50,6 +25,31 @@ Cuando un administrador de [!DNL Workfront] cree un nuevo usuario, este último 
 Para obtener más información sobre cómo un administrador de [!DNL Workfront] envía invitaciones por correo electrónico al crear usuarios nuevos, consulte [Administración de invitaciones por correo electrónico para usuarios nuevos](../../../administration-and-setup/manage-workfront/emails/manage-email-invitations.md).
 
 Para obtener más información sobre cómo los administradores de Workfront añaden nuevos usuarios a [!DNL Adobe Workfront], consulte [Añadir usuarios](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md).
+
+## Requisitos de acceso
+
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
+
+<table style="table-layout:auto"> 
+ <col> 
+ </col>
+ <tbody> 
+  <tr> 
+   <td>paquete de Adobe Workfront</td> 
+   <td> <p>Cualquiera</p> </td> 
+  </tr> 
+  <tr> 
+   <td>Licencia de Adobe Workfront</td> 
+   <td> 
+   <p>Colaborador o superior</p>
+   <p>Solicitud o superior</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Crear una contraseña para [!DNL Workfront]
 

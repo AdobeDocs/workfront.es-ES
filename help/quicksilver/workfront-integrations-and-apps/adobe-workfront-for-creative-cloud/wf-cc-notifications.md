@@ -1,23 +1,23 @@
 ---
 product-area: workfront-integrations;setup
 navigation-topic: adobe-workfront-for-creative-cloud
-title: Ver y administrar  [!DNL Adobe Workfront] notificaciones en Adobe Creative Cloud
-description: Puede recibir notificaciones en Adobe Creative Cloud de  [!DNL Adobe Workfront] acerca de los elementos que necesita aprobar, las asignaciones que se le han asignado o los comentarios y cambios realizados en los elementos con los que está asociado.
+title: Ver y administrar notificaciones de  [!DNL Adobe Workfront]  en Adobe Creative Cloud
+description: Puede recibir notificaciones en Adobe Creative Cloud de  [!DNL Adobe Workfront]  acerca de los elementos que necesita aprobar, las asignaciones que se le han asignado o los comentarios y cambios realizados en los elementos a los que está asociado.
 author: Courtney,Becky
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: b07474c0-ba41-4382-8374-040f633a47ed
-source-git-commit: 4256e1ecd16179d0a2aa8e623b05be754d8bbd2d
+source-git-commit: a65a4568c6428768ee6bc60a59a8499efdbec9f8
 workflow-type: tm+mt
-source-wordcount: '321'
-ht-degree: 0%
+source-wordcount: '303'
+ht-degree: 99%
 
 ---
 
-# Ver y administrar [!DNL Adobe Workfront] notificaciones de [!DNL Adobe Creative Cloud]
+# Ver y administrar notificaciones de [!DNL Adobe Workfront] desde [!DNL Adobe Creative Cloud]
 
 Puede recibir notificaciones en Adobe Creative Cloud de [!DNL Adobe Workfront] acerca de los elementos que necesita aprobar, las asignaciones que se le han asignado o los comentarios y cambios realizados en los elementos con los que está asociado.
 
-Estas notificaciones contienen [!DNL Workfront] acciones que puede realizar sin salir de Adobe Creative Cloud.
+Estas notificaciones contienen acciones de [!DNL Workfront] que puede realizar sin salir de Adobe Creative Cloud.
 
 Las notificaciones están disponibles en las siguientes aplicaciones de Adobe Creative Cloud:
 
@@ -27,8 +27,6 @@ Las notificaciones están disponibles en las siguientes aplicaciones de Adobe Cr
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -37,20 +35,22 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  <tbody> 
   <tr> 
    <!--<td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
-   <td> <p>[!UICONTROL Pro] or higher</p> </td> 
+   <td> Any</td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
-   <td> <p>[!UICONTROL Work] or [!UICONTROL Plan]</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] license</td> 
+   <td> 
+   <p>Standard</p>
+   <p>Work or higher</p> </td> 
   </tr> -->
   <tr> 
-   <td role="rowheader">Product</td> 
+   <td role="rowheader">Productos adicionales</td> 
    <td>Debe tener una licencia [!DNL Adobe Creative Cloud] además de una licencia [!DNL Workfront].</td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de [!DNL Workfront].
+Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -58,12 +58,12 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 {{cc-install-prereq}}
 
-* Ha habilitado las notificaciones instantáneas en [!DNL Workfront]. Para obtener información sobre cómo habilitar las notificaciones instantáneas, consulte [Modificar tus propias notificaciones por correo electrónico](/help/quicksilver/workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+* Ha habilitado las notificaciones instantáneas en [!DNL Workfront]. Para obtener información sobre cómo habilitar las notificaciones instantáneas, consulte [Modificar sus propias notificaciones por correo electrónico](/help/quicksilver/workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
-## Ver y administrar [!DNL Workfront] notificaciones en Adobe Creative Cloud
+## Ver y administrar notificaciones de [!DNL Workfront] en Adobe Creative Cloud
 
-1. Haga clic en el icono **[!UICONTROL Notificaciones]** ![Icono de notificaciones](assets/cc-plugin-notifications-icon.png) cerca de la parte superior del panel del complemento. Un punto azul en el icono indica que tiene notificaciones sin leer.
-1. (Opcional) Para marcar todas las notificaciones como vistas, haga clic en **[!UICONTROL Marcar todas como vistas]**.
+1. Haga clic en el icono **[!UICONTROL Notifications]** ![Icono de Notificaciones](assets/cc-plugin-notifications-icon.png) cerca de la parte superior del panel de complementos. Un punto azul en el icono indica que tiene notificaciones sin leer.
+1. (Opcional) Para marcar todas las notificaciones como vistas, haga clic en **[!UICONTROL Mark all as seen]**.
 
    Esto marca las notificaciones como se ve en el complemento y en Workfront. Las notificaciones vistas ya no están visibles en la lista de notificaciones del complemento.
 
@@ -75,8 +75,8 @@ Las siguientes notificaciones están disponibles en el complemento:
 
 
 * Alguien le incluyó en una actualización dirigida
-* Alguien incluyó a su equipo en una actualización dirigida (@teamname)
-* Alguien agregó un comentario a su perfil de usuario
-* Alguien agregó un comentario a una actualización en la que usted está incluido
-* Alguien agregó un comentario a su elemento de trabajo o a algo que usted hizo
-* Su documento se ha aprobado/aprobado con cambios/rechazado
+* Alguien le incluyó a su equipo en una actualización dirigida (@teamname)
+* Alguien añadió un comentario en su perfil de usuario
+* Alguien añadió un comentario en una actualización en la que usted se encuentra
+* Alguien añadió un comentario en su elemento de trabajo o en algo que usted hizo
+* Su documento se ha aprobado / aprobado con cambios / rechazado

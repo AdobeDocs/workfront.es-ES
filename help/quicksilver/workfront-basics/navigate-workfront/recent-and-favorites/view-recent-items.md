@@ -6,10 +6,10 @@ description: El menú [!UICONTROL Recientes] se encuentra en la barra de navegac
 feature: Get Started with Workfront
 author: Lisa
 exl-id: 531b6b77-bf54-4ab3-a757-5c59fc0586a6
-source-git-commit: 4bd88c0e4a3d27e30580fefea993224fe5446e32
+source-git-commit: f0b3b8aa64fa0b03a196bbcc2bdd037eeeb0f89e
 workflow-type: tm+mt
-source-wordcount: '210'
-ht-degree: 0%
+source-wordcount: '216'
+ht-degree: 80%
 
 ---
 
@@ -19,7 +19,7 @@ El menú [!UICONTROL Recientes] se encuentra en la barra de navegación superior
 
 ## Requisitos de acceso
 
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -28,17 +28,22 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
+   <td role="rowheader">paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licencia*</strong></td> 
-   <td> <p>[!UICONTROL Request] o superior</p> </td> 
+   <td role="rowheader">Licencia de Adobe Workfront</td> 
+   <td> 
+   <p>Colaborador o superior</p> 
+   <p>Solicitud o superior</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qué plan o tipo de licencia tiene, póngase en contacto con el administrador de [!DNL Workfront].
+Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
 
 ## Ver elementos recientes
 
@@ -51,4 +56,4 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 1. (Opcional) Para expandir la lista de elementos recientes, haga clic en **[!UICONTROL Ver más]** justo debajo del último elemento bajo un tipo de objeto para mostrar los 10 elementos anteriores vistos. Puede expandir la lista para mostrar hasta 20 elementos por tipo de objeto.
 1. Haga clic en la X de la parte superior derecha para cerrar la lista.
 
-Para obtener información sobre cómo marcar elementos recientes como favoritos, vea [Ver y administrar favoritos](../../../workfront-basics/navigate-workfront/recent-and-favorites/view-and-manage-favorites.md).
+Para obtener información sobre cómo marcar elementos recientes como favoritos, consulte [Ver y administrar favoritos](../../../workfront-basics/navigate-workfront/recent-and-favorites/view-and-manage-favorites.md).

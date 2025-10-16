@@ -1,55 +1,53 @@
 ---
 product-area: timesheets
 navigation-topic: create-and-manage-timesheets
-title: Exportación de una lista de plantillas de horas
-description: Como administrador de personas o aprobador de hojas de horas, es posible que tenga que descargar una lista de hojas de horas para ver rápidamente información sobre las hojas de horas de las personas de las que es responsable. Para ello, exporte una lista de plantillas de horas.
-author: Alina
+title: Exportar una lista de plantillas de horas
+description: Como administrador de personas o aprobador de plantillas de horas, es posible que tenga que descargar una lista de plantillas de horas para ver rápidamente información sobre las plantillas de las personas de las que es responsable. Para ello, exporte una lista de plantillas de horas.
+author: Lisa
 feature: Timesheets
 exl-id: cb5b1c6c-7800-48f4-ae2c-c4007a161a6c
-source-git-commit: d5d517a0c9a1292c37e66db07f7ed17d0a9a59e1
+source-git-commit: 69cd5fb1d089b81b7a1673609b92537137b6b68e
 workflow-type: tm+mt
-source-wordcount: '487'
-ht-degree: 2%
+source-wordcount: '466'
+ht-degree: 98%
 
 ---
 
-# Exportación de una lista de plantillas de horas
+# Exportar una lista de plantillas de horas
 
 <!--Audited: 8/2024-->
 
-Como administrador de personas o aprobador de hojas de horas, es posible que tenga que descargar una lista de hojas de horas para ver rápidamente información sobre las hojas de horas de las personas de las que es responsable. Para ello, exporte una lista de plantillas de horas.
+Como administrador de personas o aprobador de plantillas de horas, es posible que tenga que descargar una lista de plantillas de horas para ver rápidamente información sobre las plantillas de las personas de las que es responsable. Para ello, exporte una lista de plantillas de horas.
 
 ## Requisitos de acceso
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
-
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plan de Adobe Workfront</td> 
+   <td>paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licencia de Adobe Workfront</td> 
-   <td> <p>Nuevo: claro o superior </p>
-   <p>Actual: revisar o superior </p>
+   <td>Licencia de Adobe Workfront</td> 
+   <td> <p>Ligero o superior </p>
+   <p>Revisión o superior</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraciones de nivel de acceso</td> 
-   <td> <p>Ver o acceso superior a tareas y problemas </p> </td> 
+   <td>Configuración de nivel de acceso</td> 
+   <td> <p>Acceso de visualización o superior a tareas y problemas</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Ver los permisos o superiores de la plantilla de horas</p> </td> 
+   <td>Permisos de objeto</td> 
+   <td> <p>Vista o permisos superiores a tareas y problemas</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -80,7 +78,7 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
 
 *To find out what plan or license type you have, contact your Workfront administrator.-->
 
-## Exportación de una lista de plantillas de horas
+## Exportar una lista de plantillas de horas
 
 {{step1-to-timesheets}}
 
@@ -89,25 +87,25 @@ Se abre el área **Plantillas de horas**.
 
 ![](assets/timesheet-list-one-timesheet-selected-nwe-350x70.png)
 
-1. (Opcional) Haga clic en el icono **buscar** ![](assets/search-icon.png), escriba una palabra clave y busque una hoja de horas específica. Por ejemplo, puede buscar un lapso de tiempo del huso horario o un nombre de propietario.
+1. (Opcional) Haga clic en el icono **buscar** ![](assets/search-icon.png), escriba una palabra clave y busque una plantilla de horas específica. Por ejemplo, puede buscar el lapso de tiempo o el nombre de propietario de una plantilla de horas.
 
 1. (Opcional) Realice una de las siguientes acciones para actualizar el filtro en la lista de plantillas de horas:
 
-   * Seleccione **Mis aprobaciones de hojas de horas** en la esquina superior derecha de la página para ver solamente las hojas de horas que usted apruebe
+   * Seleccione **Aprobaciones de Mis plantillas de horas** en la esquina superior derecha de la página para ver solamente las plantillas de horas que usted apruebe
 
      O
 
-     Seleccione **Mis hojas de horas** para ver solamente sus hojas de horas.
+     Seleccione **Mis plantillas de horas** para ver solamente sus plantillas de horas.
 
-     Esto aplica los filtros Mis aprobaciones de hojas de horas o Mis hojas de horas a la lista de hojas de horas.
+     Esto aplica los filtros Mis aprobaciones de plantillas de horas o Mis plantillas de horas a la lista de plantillas de horas.
 
      ![](assets/my-timesheet-approvals-my-timesheets-pills-on-timesheets-list-nwe-350x58.png)
 
-   * Haga clic en el icono Filtro ![](assets/filter-nwepng.png) para aplicar un filtro diferente o crear uno nuevo. Para obtener información sobre cómo crear o actualizar filtros, consulte [Crear o editar filtros en Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-filters.md).
+   * Haga clic en el icono de Filtro ![](assets/filter-nwepng.png) para aplicar un filtro diferente o crear uno nuevo. Para obtener información sobre cómo crear o actualizar filtros, consulte [Crear o editar filtros en Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-filters.md).
 
    >[!NOTE]
    >
-   >Las opciones Mis aprobaciones de hojas de horas y Mis hojas de horas no se muestran en la parte superior de la lista de hojas de horas ni en la lista de filtros si el administrador de Workfront o de un grupo ha eliminado los filtros Mis aprobaciones de hojas de horas y Mis hojas de horas de los controles de Lista en el área Configuración o de la plantilla Diseño. Para obtener más información, consulte los siguientes artículos:
+   >Las opciones Mis aprobaciones de plantillas de horas y Mis plantillas de horas no se muestran en la parte superior de la lista de plantillas de horas ni en la lista de filtros si el administrador de Workfront o de un grupo ha eliminado estos filtros de los Controles de lista en el área Configuración o de la Plantilla de diseño.Para obtener más información, consulte los siguientes artículos:
    >
    >   
    >   
@@ -123,7 +121,7 @@ Se abre el área **Plantillas de horas**.
    * [Crear o editar vistas en Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-edit-views.md)
    * [Creación de agrupaciones en Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-groupings.md)
 
-1. Seleccione las hojas de horas que desee exportar y, a continuación, haga clic en el icono **Exportar** ![](assets/export-38x15.png).
+1. Seleccione las plantillas de horas que desee exportar y, a continuación, haga clic en el icono **Exportar** ![](assets/export-38x15.png).
 
    ![](assets/all-timesheets-list-with-export-button-nwe-350x262.png)
 
@@ -131,7 +129,7 @@ Se abre el área **Plantillas de horas**.
 
    * PDF horizontal
    * PDF vertical
-   * PDF Otros tamaños
+   * PDF de otros tamaños
    * Excel
    * Excel (xlsx)
    * Delimitado por tabulaciones

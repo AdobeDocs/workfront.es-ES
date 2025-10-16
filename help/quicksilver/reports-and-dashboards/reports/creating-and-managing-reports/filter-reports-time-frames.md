@@ -6,9 +6,9 @@ description: Puede filtrar un informe por el periodo de tiempo de una fecha que 
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 7dea484c-d38e-4786-85d0-f4c106cfa46f
-source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '963'
+source-wordcount: '947'
 ht-degree: 69%
 
 ---
@@ -23,28 +23,24 @@ Puede filtrar un informe por el periodo de tiempo de una fecha que exista en un 
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Plan de Adobe Workfront</td> 
+   <td role="rowheader">paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licencia de Adobe Workfront</td> 
-      <td> 
-      <p>Nuevo: estándar</p>
-       <p> O</p>
-      <p>Actual: plan</p>
+   <td> 
+      <p>Estándar</p>
+      <p>Plan</p>
    </td>
-
-</tr> 
+  </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso</td> 
-   <td> <p>Acceso de Edición a informes, paneles y calendarios</p> <p>Acceso de edición a filtros, vistas y agrupaciones</p></td> 
+   <td> <p>Acceso de Edición a informes, paneles de control y calendarios</p> <p>Acceso de edición a filtros, vistas y agrupaciones</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
@@ -186,7 +182,7 @@ Por ejemplo, si está generando un informe de horas y desea mostrar las horas in
   </tr> 
   <tr> 
    <td role="rowheader">Último trimestre</td> 
-   <td> <p>Muestra las horas en las que la fecha de entrada es una fecha del trimestre anterior al actual, donde los trimestres se han definido anteriormente.</p> <p>Nota: Si el administrador de Workfront ha activado y definido trimestres personalizados para el sistema, los filtros integrados para trimestres se sustituyen por la información de trimestre personalizada. Para obtener más información acerca de cómo habilitar trimestres personalizados, vea <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md" class="MCXref xref">Habilitar trimestres personalizados</a>.</p> </td> 
+   <td> <p>Muestra las horas en las que la fecha de entrada es una fecha del trimestre anterior al actual, donde los trimestres se han definido anteriormente.</p> <p>Nota: Si el administrador de Workfront ha habilitado y definido trimestres personalizados para el sistema, los filtros integrados para trimestres se sustituyen por la información de trimestre personalizada. Para obtener más información acerca de cómo habilitar trimestres personalizados, vea <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md" class="MCXref xref">Habilitar trimestres personalizados</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Este año</td> 

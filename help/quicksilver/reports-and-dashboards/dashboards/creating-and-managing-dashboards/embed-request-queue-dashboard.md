@@ -6,10 +6,10 @@ description: Puede incrustar una nueva cola de solicitudes en un panel de contro
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 2d129095-c7ee-45b1-94ce-055d1d91e2fe
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: c8b7ad473b0c2120ef5ea52374b3501ad6f553f1
 workflow-type: tm+mt
-source-wordcount: '1150'
-ht-degree: 98%
+source-wordcount: '1143'
+ht-degree: 97%
 
 ---
 
@@ -19,49 +19,42 @@ ht-degree: 98%
 
 Puede incrustar una nueva cola de solicitudes en un panel de control para proporcionar a los usuarios acceso directo a la cola de solicitudes sin tener que ir al área de solicitudes.
 
-Por ejemplo, si tiene una cola de solicitudes abierta a toda la organización, como una cola del servicio de asistencia o una cola de solicitudes de PTO a la que todos deben tener acceso de forma regular, puede que sea conveniente insertar la cola de solicitudes directamente en uno de sus paneles para tener un acceso rápido y sencillo. El proceso de configuración es similar a la creación de una página externa en un panel de control.
+Por ejemplo, si tiene una cola de solicitudes abierta a toda la organización, como una cola del servicio de asistencia o una cola de solicitudes de PTO a la que todos deben tener acceso de forma regular, puede que sea conveniente insertar la cola de solicitudes directamente en uno de sus paneles de control para tener un acceso rápido y sencillo. El proceso de configuración es similar a la creación de una página externa en un panel de control.
 
 En primer lugar, debe obtener una dirección URL para la cola de solicitudes. En segundo lugar, puede incrustar la dirección URL en un panel de control añadiendo una página externa.
 
 ## Requisitos de acceso
 
-+++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
-
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Plan de Adobe Workfront</strong></td> 
+   <td role="rowheader">paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Licencia de Adobe Workfront</strong></td> 
+   <td role="rowheader">Licencia de Adobe Workfront</td> 
    <td> 
-      <p>Nuevo:</p>
-         <ul>
-         <li><p>Estándar</p></li>
-         </ul>
-      <p>Actual:</p>
-         <ul>
-         <li><p>Plan</p></li>
-         </ul>
+      <p>Estándar</p>
+      <p>Plan</p>
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Configuraciones de nivel de acceso</strong></td> 
-   <td> <p>Acceso de Edición a informes, paneles y calendarios</p> </td> 
-  </tr> 
+   <td role="rowheader">Configuraciones de nivel de acceso</td> 
+   <td> <p>Editar el acceso a Informes, Paneles de control y Calendarios</p></td> 
+  </tr>  
   <tr> 
-   <td role="rowheader"><strong>Permisos de objeto</strong></td> 
-   <td> <p>Administrar permisos en el panel</p> </td> 
+   <td role="rowheader">Permisos de objeto</td> 
+   <td> <p>Administrar permisos en el panel de control</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
 
 +++
 

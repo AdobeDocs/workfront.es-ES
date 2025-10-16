@@ -6,10 +6,10 @@ description: Es posible quitar los permisos de otros usuarios en los objetos a l
 author: Alina
 feature: Get Started with Workfront
 exl-id: 8e191b5e-31df-4291-8b9d-9ca69be27561
-source-git-commit: ce7b475dbd11f9cfd7fcf9879c0f34bf993f9113
+source-git-commit: 4ae96f67b15838403ffce32317d871d6904d6d95
 workflow-type: tm+mt
-source-wordcount: '825'
-ht-degree: 85%
+source-wordcount: '767'
+ht-degree: 82%
 
 ---
 
@@ -23,31 +23,21 @@ Consideraciones similares a las del uso compartido de objetos se aplican a la el
 
 ## Requisitos de acceso
 
-+++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
-
-
-Se necesita tener lo siguiente para compartir objetos:
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Plan de Adobe Workfront</td> 
+   <td role="rowheader">paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licencia de Workfront*</td> 
-   <td> <p>Nueva licencia: colaborador o superior</p>
-   O  
-   <p>Licencia actual: Request o superior</p>
-   <p><b>NOTA</b></p>
-
-<p>Algunos objetos requieren un acceso superior al de solicitud. </p>
-
-<p>Por ejemplo, para la nueva licencia, un colaborador puede compartir problemas, pero solo los usuarios con licencia Estándar podrán compartir proyectos.</p>
-
-<p>Para la licencia actual, un solicitante podrá compartir problemas, pero solo los trabajadores o los planificadores podrán compartir proyectos.</p> 
+   <td role="rowheader">Licencia de Adobe Workfront</td> 
+   <td> <p>Colaborador o superior</p> 
+   <p>Solicitud o superior</p>
+   <p><strong>Nota</strong>: algunos objetos requieren un acceso mayor que el de Solicitud.</p>
    </td> 
   </tr> 
   <tr> 
@@ -57,11 +47,11 @@ Se necesita tener lo siguiente para compartir objetos:
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
    <td> <p>Permisos de visualización o superiores sobre los objetos que desea compartir</p> <p>Administración de permisos para eliminar permisos heredados en objetos</p>  </td> 
-  </tr> 
+  </tr>
  </tbody> 
 </table>
 
-*Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su administrador de Workfront. Para obtener más información, consulte [Requisitos de acceso para la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

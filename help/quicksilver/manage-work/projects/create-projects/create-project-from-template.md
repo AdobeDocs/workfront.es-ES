@@ -6,10 +6,10 @@ description: Puede utilizar las plantillas como un marco de trabajo para crear p
 author: Alina
 feature: Work Management
 exl-id: 622cbfe0-b8c0-4045-bef2-9e21d45bfda0
-source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
+source-git-commit: d7600a55b3dffb242957234de9d85a0deb1ad2e3
 workflow-type: tm+mt
-source-wordcount: '1180'
-ht-degree: 96%
+source-wordcount: '1159'
+ht-degree: 94%
 
 ---
 
@@ -45,29 +45,24 @@ Tiene las siguientes opciones para crear un proyecto a partir de una plantilla:
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Plan de Adobe Workfront</td> 
-   <td> <p>Cualquiera </p> </td> 
+   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licencia de Workfront*</td> 
-   <td> <p>Nuevo: estándar</p>
-        <p>o</p>
-        <p>Actual: plan </p> </td> 
+   <td role="rowheader">Licencia de Workfront</td> 
+   <td> <p>Estándar</p>
+        <p>Plan</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Nivel de acceso</td> 
+   <td role="rowheader">Configuración de nivel de acceso</td> 
    <td> <p>Editar el acceso a Proyectos y Plantillas</p>
-
-<p>editar el acceso a Portafolio y Programas, si la plantilla utilizada contiene un Portafolio y un Programa</p>
-
-</td> 
+   <p>Editar el acceso a Portafolios y Programas, si la plantilla utilizada contiene un Portfolio y un Programa</p>  
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
@@ -78,9 +73,42 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  </tbody> 
 </table>
 
-*Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan</td> 
+   <td> <p>Any </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Workfront license*</td> 
+   <td> <p>New: Standard</p>
+        <p>or</p>
+        <p>Current: Plan </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level</td> 
+   <td> <p>Edit access to Projects and to Templates</p>
+   
+   <p>edit access to Portfolios and Programs, if the template you use contains a Portfolio and a Program</p>
+   
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>View permissions to a template</p> 
+  <p>If the template you use contains a Portfolio and a Program, you must have Manage permissions to the portfolio and program to create the project </p> 
+   <p>When you create a project, you automatically receive Manage permissions to the project.</p></td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## Crear un proyecto a partir de una plantilla en el área Proyectos
 

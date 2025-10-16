@@ -2,15 +2,15 @@
 content-type: overview
 product-area: projects
 navigation-topic: task-duration
-title: 'Información general del tipo de duración: Asignación calculada'
+title: 'Información general de tipo de duración: asignación calculada'
 description: La asignación calculada es un tipo de duración que puede establecer para una tarea en Adobe Workfront. Para obtener información general sobre los tipos de duración en Workfront, consulte Información general sobre la duración de la tarea y el tipo de duración.
 author: Alina
 feature: Work Management
 exl-id: 5f1f6109-5d54-4c3f-9aa5-dc6ce165a1cd
-source-git-commit: 0792651822fd85cb3bfbb754aaf949c4fc4038a1
+source-git-commit: c1b8af0d8a95714bb597db7a429794773358cf05
 workflow-type: tm+mt
 source-wordcount: '481'
-ht-degree: 90%
+ht-degree: 89%
 
 ---
 

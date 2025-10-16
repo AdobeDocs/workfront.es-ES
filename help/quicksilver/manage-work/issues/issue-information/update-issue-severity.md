@@ -6,23 +6,25 @@ description: Puede asociar una gravedad a problemas en Adobe Workfront. Las tare
 author: Alina
 feature: Work Management
 exl-id: 81302e9c-8861-4a08-b8b3-c4eeac54524e
-source-git-commit: 1fa62033f83a96ea5c1036598b832dd2ebfa19c4
+source-git-commit: 00e693fc8b35a59f6ed212bc30da7f85cc78c845
 workflow-type: tm+mt
-source-wordcount: '335'
-ht-degree: 99%
+source-wordcount: '286'
+ht-degree: 84%
 
 ---
 
 # Actualizar gravedad del problema
 
+<!--Audited: 08/2025-->
+
 Puede asociar una gravedad a problemas en Adobe Workfront. Las tareas y los proyectos no tienen gravedades.
 
-Los problemas son eventos inesperados que pueden impedir que los proyectos finalicen a tiempo o dentro del presupuesto.Puede utilizar gravedades para indicar la gravedad de un problema. 
+Los problemas son eventos inesperados que pueden impedir que los proyectos finalicen a tiempo o dentro del presupuesto. Puede usar gravedades para indicar la gravedad de un problema.
 
 El administrador de Workfront define las gravedades disponibles en Workfront. Cuando las establece, están disponibles para que usted las asocie a un problema.\
 Para obtener más información sobre la creación de gravedades en Workfront, consulte [Crear o personalizar la gravedad de los problemas](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-issue-severities.md).
 
-Debe tener permisos de aportación en un problema para poder actualizar su gravedad. 
+Debe tener permisos de aportación en un problema para poder actualizar su gravedad.
 
 Puede actualizar la gravedad de los problemas en las siguientes áreas de Workfront:
 
@@ -32,32 +34,35 @@ Puede actualizar la gravedad de los problemas en las siguientes áreas de Workfr
 
 ## Requisitos de acceso
 
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Plan de Adobe Workfront*</td> 
-   <td> <p>Cualquiera </p> </td> 
+   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licencia de Adobe Workfront*</td> 
-   <td> <p>Solicitud o superior</p> </td> 
+   <td role="rowheader">Licencia de Adobe Workfront</td> 
+   <td><p>Colaborador o superior</p> 
+   <p>Solicitud o superior</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraciones de nivel de acceso*</td> 
-   <td> <p>Editar acceso a Problemas</p> <p>Nota: Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
+   <td role="rowheader">Configuraciones de nivel de acceso</td> 
+   <td> <p>Editar acceso a Problemas</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Permisos de administración para el problema</p> <p>Para obtener información sobre cómo solicitar acceso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a objetos </a>.</p> </td> 
+   <td> <p>Permisos de administración para el problema</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de Workfront.
+Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Actualizar gravedad del problema
 

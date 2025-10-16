@@ -6,10 +6,10 @@ description: Puede editar información sobre los programas que ha creado o que o
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 7dcdfc5a-3fc1-48a8-ae28-a6a0a458732e
-source-git-commit: 3b5452c51c19edfafc9244c2cfd58d7174732375
+source-git-commit: 00e693fc8b35a59f6ed212bc30da7f85cc78c845
 workflow-type: tm+mt
-source-wordcount: '1089'
-ht-degree: 63%
+source-wordcount: '1077'
+ht-degree: 62%
 
 ---
 
@@ -23,15 +23,12 @@ Puede editar un programa en la página del programa o editar uno o varios progra
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
-
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] paquete</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
@@ -40,7 +37,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
    <p>[!UICONTROL Plan]</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Nivel de acceso</td> 
+   <td role="rowheader">Configuraciones de nivel de acceso</td> 
    <td> <p>Acceso de [!UICONTROL Edit] a programas</p>  </td> 
   </tr> 
   <tr> 
@@ -149,7 +146,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Group]</td> 
-      <td> <p>Añada el nombre de un solo grupo si este está asociado al programa o si tiene la responsabilidad de completarlo. </p> <p><b>Sugerencia</b></p>  <p>Al acceder al campo [!UICONTROL Group] desde la página Detalles del programa , haga lo siguiente para asegurarse de que está seleccionando el grupo correcto: </p> <p>Pase el ratón sobre el nombre del grupo y haga clic en el icono de [!UICONTROL information] <img src="assets/info-icon.png"> que hay junto a él. Esta acción muestra la ayuda contextual con información sobre el grupo, como la jerarquía de los grupos que tiene por encima y sus administradores.</p> <p> <img src="assets/group-details-widget-programs-350x268.png" style="width: 350;height: 268;"> </p> <p>Esta opción no está disponible en el cuadro [!UICONTROL Edit Program]. </p> </p> </td> 
+      <td> <p>Añada el nombre de un solo grupo si este está asociado al programa o si tiene la responsabilidad de completarlo. </p> <p><b>Sugerencia</b></p>  <p>Al acceder al campo [!UICONTROL Group] desde la página Detalles del programa [!UICONTROL], haga lo siguiente para asegurarse de que está seleccionando el grupo correcto: </p> <p>Pase el ratón sobre el nombre del grupo y haga clic en el icono de [!UICONTROL information] <img src="assets/info-icon.png"> que hay junto a él. Esta acción muestra la ayuda contextual con información sobre el grupo, como la jerarquía de los grupos que tiene por encima y sus administradores.</p> <p> <img src="assets/group-details-widget-programs-350x268.png" style="width: 350;height: 268;"> </p> <p>Esta opción no está disponible en el cuadro [!UICONTROL Edit Program]. </p> </p> </td> 
      </tr> 
     </tbody> 
    </table>

@@ -2,16 +2,16 @@
 content-type: overview
 product-area: projects
 navigation-topic: manage-projects
-title: Administrar información en el área Información general del proyecto
-description: Administrar información en el área Información general del proyecto
+title: Administrar información en el área de Información general del proyecto
+description: Puede ver o editar la información de un proyecto accediendo al área Información general de la sección Detalles del proyecto. Hay un número limitado de campos que puede ver o editar en esta área.
 author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: 6113bc62-18f2-4558-bc2f-986b1e7d1a83
-source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
+source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
 workflow-type: tm+mt
-source-wordcount: '1453'
-ht-degree: 96%
+source-wordcount: '1404'
+ht-degree: 93%
 
 ---
 
@@ -25,35 +25,64 @@ Puede ver o editar la información de un proyecto accediendo al área Informaci�
 
 ## Requisitos de acceso
 
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Plan de Adobe Workfront*</td> 
+   <td role="rowheader">paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p role="rowheader">Licencia de Adobe Workfront*</p> </td> 
-   <td> <p>Revisión o superior</p> </td> 
+   <td role="rowheader"> <p role="rowheader">Licencia de Adobe Workfront</p> </td> 
+   <td><p>Ligero o superior</p> 
+   <p>Revisión o superior</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraciones de nivel de acceso*</td> 
-   <td> <p>Acceso de visualización o superior a Proyectos </p>
-
-<p>Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede cambiar su nivel de acceso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
+   <td role="rowheader">Configuraciones de nivel de acceso</td> 
+   <td> <p>Acceso de visualización o superior a Proyectos</p>
+</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Acceso de visualización al proyecto para ver información limitada sobre este</p> 
-   <p>Acceso de administración al proyecto para editar la información sobre este</p> <p>Para obtener información sobre cómo solicitar acceso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a objetos </a>.</p> </td> 
+   <td> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su administrador de Workfront.
+Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p role="rowheader">Adobe Workfront license*</p> </td> 
+   <td> <p>Review or higher</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations*</td> 
+   <td> <p>View access or higher to Projects </p>
+   
+   <p>If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>View access to the project to view limited information about the project</p> 
+   <p>Manage access to the project to edit information about the project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## Acceso a la sección Información general
 
@@ -130,7 +159,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
      </tr> 
      <tr> 
       <td role="rowheader">Grupo</td> 
-      <td> <p>El grupo asociado al proyecto.</p> <p>Para asegurarse de que está seleccionando el grupo correcto, pase el puntero sobre él y haga clic en el icono de información <img src="assets/info-icon.png"> que se muestra al lado. Esta acción muestra la ayuda contextual con información sobre el grupo, como la jerarquía de los grupos que tiene por encima y sus administradores.</p> <p> <img src="assets/group-details-widget-350x351.png" style="width: 350;height: 351;"> </p> 
+      <td> <p>El grupo asociado al proyecto.</p> <p>Para asegurarse de que está seleccionando el grupo correcto, pase el puntero por encima de él y haga clic en el icono de información <img src="assets/info-icon.png"> que se muestra al lado. Esta acción muestra la ayuda contextual con información sobre el grupo, como la jerarquía de los grupos que tiene por encima y sus administradores.</p> <p> <img src="assets/group-details-widget-350x351.png" style="width: 350;height: 351;"> </p> 
       De forma predeterminada, uno de los siguientes grupos se asociará automáticamente a un proyecto cuando se crea, a menos que se especifique un grupo diferente:
         <ul> 
          <li> <p><span>Cuando se crea el proyecto a partir del área de proyectos, el grupo de inicio del creador del proyecto se asocia al proyecto.</span> </p> </li> 
@@ -162,7 +191,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
    >
    >Los usuarios deben estar asociados con al menos una función para verla a medida que los añade.
    > 
-   >Debe tener activada la configuración Ver información de contacto en su nivel de acceso para que los usuarios vean los correos electrónicos de los usuarios. Para obtener más información, consulte [Conceder acceso a usuarios](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
+   >Debe tener habilitada la configuración Ver información de contacto en su nivel de acceso para que los usuarios vean los correos electrónicos de los usuarios. Para obtener más información, consulte [Conceder acceso a usuarios](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
 
 
 1. Revise los campos siguientes en la sección Información general. No se pueden editar los campos siguientes:

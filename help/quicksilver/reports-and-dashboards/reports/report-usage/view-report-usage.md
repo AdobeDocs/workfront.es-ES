@@ -6,10 +6,10 @@ description: Ver uso del informe
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 51d9067c-8c55-433e-b560-7da241ef33ae
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '1011'
-ht-degree: 23%
+source-wordcount: '960'
+ht-degree: 19%
 
 ---
 
@@ -39,32 +39,36 @@ Para obtener más información sobre los campos por los que puede filtrar un inf
 
 ## Requisitos de acceso
 
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Plan de Adobe Workfront*</td> 
+   <td role="rowheader">paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licencia de Adobe Workfront*</td> 
-   <td> <p>Plan </p> </td> 
+   <td role="rowheader">Licencia de Adobe Workfront</td> 
+   <td> 
+   <p>Estándar</p>
+   <p>Plan </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraciones de nivel de acceso*</td> 
-   <td> <p>Acceso de edición a informes, paneles y calendarios</p> <p>Acceso de edición a filtros, vistas y agrupaciones</p> <p>Nota: Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
+   <td role="rowheader">Configuraciones de nivel de acceso</td> 
+   <td> <p>Acceso de Edición a informes, paneles de control y calendarios</p> <p>Acceso de edición a filtros, vistas y agrupaciones</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Permisos de administración para un informe</p> <p>Para obtener información sobre cómo solicitar acceso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a los objetos </a>.</p> </td> 
+   <td> <p>Permisos de administración para un informe</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su administrador de Workfront.
+Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Mostrar la información de uso del informe en la lista Vista de un informe
 
@@ -88,12 +92,12 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
    * **Última visualización por**: muestra información sobre el usuario que vio el informe por última vez
    * **Fecha de la última visualización**: Muestra la fecha en la que se vio el informe por última vez
 
-1. Pulse **Guardar vista**.\
+1. Haga clic en **Guardar vista**.\
    La información de uso sobre el informe se muestra en las columnas que agregó a la vista.\
    También puede crear un informe para el objeto de informe y utilizar esta vista en el informe.\
    Para obtener más información sobre cómo generar un informe, consulte el artículo [Creación de un informe personalizado](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).\
    Debe tener acceso de edición a los informes en su nivel de acceso para crear un informe.\
-   Para obtener más información acerca del acceso a los informes, consulte el artículo [Conceder acceso a informes, paneles y calendarios](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md).
+   Para obtener más información acerca del acceso a los informes, consulte el artículo [Conceder acceso a informes, paneles de control y calendarios](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md).
 
 ## Filtrado de una lista de informes por información de uso {#filter-a-report-list-by-usage-information}
 
@@ -118,7 +122,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
    Muestra una lista de informes que cumplen con la información de uso definida.\
    También puede crear un informe para el objeto de informe y utilizar este filtro en el informe.\
    Para obtener más información sobre cómo generar un informe, consulte el artículo [Crear un informe personalizado](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md). Debe tener acceso de edición a los informes en su nivel de acceso para crear un informe.\
-   Para obtener más información acerca del acceso a los informes, consulte el artículo [Conceder acceso a informes, paneles y calendarios](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md).
+   Para obtener más información acerca del acceso a los informes, consulte el artículo [Conceder acceso a informes, paneles de control y calendarios](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md).
 
 ## Excepciones al ver la información de uso del informe
 

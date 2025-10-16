@@ -6,9 +6,9 @@ description: Los proyectos se muestran en orden de prioridad en el Planificador 
 author: Lisa
 feature: Resource Management
 exl-id: fe9c8cf9-f1e0-4cd5-9299-0f04893d71a5
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
 workflow-type: tm+mt
-source-wordcount: '1308'
+source-wordcount: '1279'
 ht-degree: 98%
 
 ---
@@ -21,36 +21,31 @@ Los proyectos se muestran en orden de prioridad en el Planificador de recursos, 
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Plan de Adobe Workfront</td> 
-    <td><p>Nuevo: cualquiera</p>
-       <p>o</p>
-       <p>Actual: pro o superior</p> </td> 
+   <td>paquete de Adobe Workfront</td> 
+   <td><p>Cualquiera</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Licencia de Adobe Workfront</td> 
-   <td><p>Nuevo: estándar</p>
-       <p>o</p>
-       <p>Actual: plan</p></td> 
+   <td>Licencia de Adobe Workfront</td> 
+   <td><p>Estándar</p>
+       <p>Plan</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraciones de nivel de acceso</td> 
+   <td>Configuraciones de nivel de acceso</td> 
    <td> <p>Acceso de edición a la administración de recursos que incluye acceso a Editar prioridades y horas presupuestadas en el Planificador de recursos</p> <p>Acceso de edición a datos financieros, proyectos y usuarios</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Permisos de administración a los proyectos para los que desea presupuestar información con capacidad de Administrar finanzas</p></td> 
+   <td>Permisos de objeto</td> 
+   <td> <p>Permisos de administración a los proyectos para los que desea presupuestar información con capacidad de Administrar finanzas</p></td>
   </tr> 
  </tbody> 
 </table>
 
-Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -96,7 +91,7 @@ Para editar la prioridad de planificación del proyecto:
 1. Haga clic dentro del campo a la izquierda del nombre del proyecto que contiene un número e introduzca un número para cambiar la prioridad de planificación y, a continuación, pulse Entrar.\
    ![Cambiar prioridad de planificación](assets/mceclip4.png)\
    O\
-   Pase el ratón sobre el nombre del proyecto y haga clic en el indicador a la izquierda del nombre del proyecto, arrástrelo y suéltelo en el lugar correcto para cambiar la prioridad.
+   Pase el puntero por encima del nombre del proyecto y haga clic en el indicador a la izquierda del nombre del proyecto, arrástrelo y suéltelo en el lugar correcto para cambiar la prioridad.
 
    ![drag_and_drop_projects_RP__1_.png](assets/drag-and-drop-projects-rp--1--350x184.png)
 
@@ -112,7 +107,7 @@ Para editar la prioridad de planificación del proyecto:
 >
 >Su empresa debe tener un plan empresarial o superior de Workfront para priorizar los proyectos en Optimizador de portafolios.
 >
->Para obtener más información sobre los planes de Workfront, consulte [Nuestros planes](https://business.adobe.com/es/products/workfront/pricing.html).
+>Para obtener más información sobre los planes de Workfront, consulte [Nuestros planes](https://business.adobe.com/products/workfront/pricing.html).
 >
 >Para obtener información sobre cómo priorizar proyectos en Optimizador de portafolios, consulte [Priorizar proyectos en Optimizador de portafolios](../../manage-work/portfolios/portfolio-optimizer/prioritize-projects-in-portfolio-optimizer.md).
 
@@ -133,7 +128,7 @@ Para editar la prioridad de planificación del proyecto:
    Si tiene proyectos que pertenecen a más de un portafolio, puede ver varios proyectos con la misma prioridad de portafolio en el Planificador de recursos. En este caso, los proyectos con la misma prioridad de portafolio se enumeran según los siguientes criterios, en este orden:
 
    1. Puntuación de alineación
-   1. Fecha planificada de inicio
+   1. Fecha de inicio planificada
    1. Nombre del proyecto
 
    ![Prioridad de Portfolio ordenada](assets/rp-portfolio-priority-ordered-350x198.png)

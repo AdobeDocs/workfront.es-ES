@@ -10,7 +10,7 @@ feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: b43b8583-41cb-4a96-8e61-77208eaa219a
-source-git-commit: 4448d2fc6d0230ef2f53ad0ea7ae0f10f52fcac4
+source-git-commit: c8987d036e1c1324618cb53ebcbb8fd7e4bcc6a4
 workflow-type: tm+mt
 source-wordcount: '122'
 ht-degree: 89%
@@ -19,7 +19,7 @@ ht-degree: 89%
 
 # Fuentes de actualizaciones rastreadas por el sistema: índice de artículos
 
-<!--Audited: April, 2024-->
+<!--Audited: 04/2024-->
 
 Adobe Workfront registra automáticamente como una actualización del sistema la actividad que tiene lugar en ciertos objetos en la sección [!UICONTROL Actualizaciones]. La actualización del sistema incluye una breve nota que describe el tipo de cambio que se ha producido en el objeto. Los administradores de [!DNL Workfront] pueden definir qué tipo de cambios debe rastrear el sistema en la sección [!UICONTROL Actualizaciones].
 

@@ -4,13 +4,13 @@ product-area: projects
 navigation-topic: manage-issues
 title: Información general sobre la modificación de asignaciones de problemas
 description: Puede asignar o cancelar la asignación de problemas de usuarios, equipos o roles. Puede asignar varios recursos al mismo tiempo o solo un recurso. Puede asignar un problema a la vez o varios problemas de forma masiva.
-author: Alina
+author: Lisa
 feature: Work Management
 exl-id: ff7a7bcc-553e-4425-b80d-741c9150aed0
-source-git-commit: daba001c28df268721c87df7d2516ffb76e535d9
+source-git-commit: 7aa420946115fc612ad1d9e310583e5453ae0678
 workflow-type: tm+mt
 source-wordcount: '424'
-ht-degree: 0%
+ht-degree: 20%
 
 ---
 
@@ -20,7 +20,7 @@ Puede asignar o cancelar la asignación de problemas de usuarios, equipos o role
 
 >[!TIP]
 >
->Puede asignar varios usuarios, roles o equipos. Solo puede asignar usuarios activos, roles y equipos.
+>Puede asignar varios usuarios, funciones o equipos. Solo puede asignar usuarios, funciones y equipos activos.
 >
 >Si un usuario, un rol o un equipo se han asignado antes de que se desactiven, permanecerán asignados al elemento de trabajo. En este caso, se recomienda lo siguiente:
 >

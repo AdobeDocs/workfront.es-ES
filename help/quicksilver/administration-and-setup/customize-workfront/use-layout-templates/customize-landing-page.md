@@ -1,5 +1,5 @@
 ---
-title: Personalizar la página de aterrizaje con una plantilla de diseño
+title: Personalizar la página de destino con una plantilla de diseño
 user-type: administrator
 product-area: system-administration;templates;setup
 navigation-topic: layout-templates
@@ -8,14 +8,14 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 57a1046a-434a-4453-a101-c5f0a16e079e
-source-git-commit: 76797ce2afb6a6a929531f02ed3a3b3f75240602
+source-git-commit: 76e32fa6b87583d2b8c296045da731afdb6d1f9a
 workflow-type: tm+mt
-source-wordcount: '414'
-ht-degree: 89%
+source-wordcount: '398'
+ht-degree: 87%
 
 ---
 
-# Personalizar la página de aterrizaje con una plantilla de diseño
+# Personalizar la página de destino con una plantilla de diseño
 
 Como administrador de Adobe Workfront, puede utilizar una plantilla de diseño para especificar el área que desea que los usuarios vean cada vez que inician sesión en Workfront.
 
@@ -32,49 +32,47 @@ Después de configurar una plantilla de diseño, debe asignarla a usuarios para 
 
 >[!NOTE]
 >
->Cuando Solicitudes está configurada como la página de aterrizaje, los usuarios colaboradores o solicitantes asignados a la plantilla de diseño ven la página de inicio como la página de aterrizaje. Es recomendable elegir una página de aterrizaje distinta de Solicitudes para las plantillas de diseño destinadas a usuarios colaboradores o solicitantes.
+>Cuando Solicitudes está configurada como la página de destino, los usuarios colaboradores o solicitantes asignados a la plantilla de diseño ven la página de inicio como la página de destino. Es recomendable elegir una página de destino distinta de Solicitudes para las plantillas de diseño destinadas a usuarios colaboradores o solicitantes.
 
 ## Requisitos de acceso
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
-
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Plan de Adobe Workfront</td> 
-   <td>Cualquiera</td> 
+   <td>paquete de Adobe Workfront</td> 
+   <td><p>Cualquiera</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licencia de Adobe Workfront*</td> 
-   <td><p>Nuevo: estándar</p>
-  <p> Actual: plan</p>
-   </td> 
+   <td>Licencia de Adobe Workfront</td> 
+   <td><p>Estándar</p>
+       <p>Plan</p></td>
+  </tr> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraciones de nivel de acceso</td> 
-   <td> <p>Para realizar estos pasos en el sistema, necesita el nivel de acceso de administrador del sistema.
-Para realizarlos para un grupo, debe ser administrador de ese grupo.</p> </td> 
+   <td>Configuraciones de nivel de acceso</td> 
+   <td> <p>Para realizar estos pasos en el sistema, necesita el nivel de acceso de administrador del sistema.</p>
+        <p>Para realizarlos para un grupo, debe ser administrador de ese grupo.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Personalizar la página de aterrizaje
+## Personalizar la página de destino
 
 1. Empiece a trabajar en una plantilla de diseño, tal como se describe en [Crear y administrar plantillas de diseño](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
-1. En el **área de navegación superior**, haga clic en **Seleccionar página de aterrizaje** y, a continuación, seleccione el área que desea que los usuarios vean cuando inicien sesión.
+1. En el **área de navegación superior**, haga clic en **Seleccionar página de destino** y, a continuación, seleccione el área que desea que los usuarios vean cuando inicien sesión.
 
    Seleccione entre las siguientes áreas o agregue un panel personalizado:
 
    * Calendarios
-   * Paneles
+   * Paneles de control
    * Documentos
    * Metas
    * Inicio

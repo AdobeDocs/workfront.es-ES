@@ -6,16 +6,16 @@ description: Una línea de base es una instantánea del proyecto que representa 
 author: Alina
 feature: Work Management
 exl-id: 422bd7a5-d7a0-4c24-8624-bd0fe6e79d7b
-source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
+source-git-commit: d7600a55b3dffb242957234de9d85a0deb1ad2e3
 workflow-type: tm+mt
-source-wordcount: '750'
-ht-degree: 100%
+source-wordcount: '742'
+ht-degree: 99%
 
 ---
 
 # Crear líneas de base del proyecto
 
-<!-- Audited: 12/2023 -->
+<!-- Audited: 08/2025 -->
 
 Una línea de base es una instantánea del proyecto que representa información clave incluida en el plan inicial del proyecto o en cualquier momento dado durante la duración del proyecto.
 
@@ -25,54 +25,21 @@ Puede utilizar la línea de base para comparar la información del plan actual c
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
-<!--
-drafted for P&P:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>Any</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Current license: Standard </p> 
-   Or
-   <p>Legacy license: Plan </p> 
-   </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Access level*</td> 
-   <td> <p>Edit access to Projects</p> <p><b>NOTE</b>
-   
-   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information about access to projects, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md" class="MCXref xref">Grant access to projects</a>. For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Object permissions</td> 
-   <td> <p>View permissions to the project or higher to view baselines</p> <p>Manage permissions to the project to create baselines</p> <p> For information about project permissions, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Share a project in Adobe Workfront</a>.</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
--->
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Plan de Adobe Workfront</td> 
+   <td role="rowheader">paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licencia de Adobe Workfront*</td> 
-    <td><p>Nuevo: estándar</p>
-        <p>o</p>
-        <p>Actual: plan </p> </td> 
+   <td role="rowheader">Licencia de Adobe Workfront</td> 
+    <td><p>Estándar</p>
+        <p>Plan</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Nivel de acceso</td> 
+   <td role="rowheader">Configuración de nivel de acceso</td> 
    <td> <p>Acceso de edición a proyectos</p> </td> 
   </tr> 
   <tr> 
@@ -82,9 +49,36 @@ drafted for P&P:
  </tbody> 
 </table>
 
-*Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+    <td><p>New: Standard</p>
+        <p>or</p>
+        <p>Current: Plan </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level</td> 
+   <td> <p>Edit access to Projects</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>View permissions to the project or higher to view baselines</p> <p>Manage permissions to the project to create baselines</p> </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## Consideraciones a la hora de trabajar con líneas de base
 
@@ -127,7 +121,7 @@ Para crear una línea de base:
 
    * Nombre de la línea de base
    * Fecha de entrada de la línea de base
-   * Fecha planificada de inicio del proyecto en la que se creó la línea de base
+   * Fecha de inicio planificada del proyecto en la que se creó la línea de base
    * Fecha proyectada de inicio del proyecto en que se creó la línea de base
    * Duración real del proyecto cuando se creó la línea de base
    * % Finalizado del proyecto cuando se creó la línea de base

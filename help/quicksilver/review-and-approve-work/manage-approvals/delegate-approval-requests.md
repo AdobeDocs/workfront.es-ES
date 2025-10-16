@@ -6,9 +6,9 @@ description: La delegación de solicitudes de aprobación le permite asignar a o
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 01b76dd5-98cb-4f0d-97ff-7e665f843a9c
-source-git-commit: e0f6078cfab1b325302dbda8a656d2a65ee0b95c
+source-git-commit: 14360a82b0de65587a9413b58d9c69abb55fa29d
 workflow-type: tm+mt
-source-wordcount: '1209'
+source-wordcount: '1193'
 ht-degree: 76%
 
 ---
@@ -37,8 +37,6 @@ No puede delegar aprobaciones de hojas de horas, documentos o pruebas.
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -46,17 +44,20 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><p>Plan de Adobe Workfront*</p></td> 
+   <td role="rowheader"><p>paquete de Adobe Workfront</p></td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Licencia de Adobe Workfront*</p></td> 
-   <td> <p>Revisión o superior</p> </td> 
+   <td role="rowheader"><p>Licencia de Adobe Workfront</p></td> 
+   <td>
+   <p>Contribute o superior</p>
+   <p>Revisión o superior</p> 
+   </td> 
   </tr> 
  </tbody> 
 </table>
 
-Para saber qué plan o tipo de licencia tiene, póngase en contacto con su administrador de Workfront.
+Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

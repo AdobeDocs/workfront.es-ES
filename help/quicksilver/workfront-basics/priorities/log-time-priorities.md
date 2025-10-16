@@ -6,10 +6,10 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 5457f516-c213-4b82-b033-bc8db943a217
-source-git-commit: b886284eb44c2154987019655ff07cdeb0e1ae22
+source-git-commit: 0940e4c89de6cd3518cd98a1e06dc726f434846b
 workflow-type: tm+mt
-source-wordcount: '511'
-ht-degree: 44%
+source-wordcount: '509'
+ht-degree: 43%
 
 ---
 
@@ -30,13 +30,13 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo y regis
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Plan de Adobe Workfront</td> 
+   <td role="rowheader">paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licencia de Adobe Workfront</td> 
-   <td> <p>Nuevo: ligero o superior para registrar horas en una tarea o un problema</p>
-   <p>Actual: Trabajo o superior para registrar horas en una tarea o un problema</p> </td> 
+   <td> <p>Ligero o superior para registrar horas en una tarea o un problema</p>
+   <p>Trabajo o superior para registrar horas en una tarea o un problema</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso</td> 

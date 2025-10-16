@@ -6,16 +6,16 @@ description: Para ver todas las actualizaciones que cualquiera de los usuarios h
 author: Alina
 feature: Get Started with Workfront
 exl-id: fa5b91e4-b88c-42f0-860c-6864105b4652
-source-git-commit: abf5f21281b05dedfecbe71c6ffbf54ee69e2460
+source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
 workflow-type: tm+mt
-source-wordcount: '396'
-ht-degree: 15%
+source-wordcount: '373'
+ht-degree: 10%
 
 ---
 
 # Ver todas las actualizaciones en un informe de notas
 
-<!-- Audited: 6/2025 -->
+<!-- Audited: 10/2025 -->
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Alina: ***This is a report and it is in the Getting Started/ Updates section because I think it makes more sense to be in this area, where people want to view updates. - added this to this section from Reporting on 7/3/2018 ) </p>
@@ -29,7 +29,7 @@ El área Actualizaciones de un objeto muestra un número máximo de 200 actualiz
 
 ## Requisitos de acceso
 
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -38,31 +38,65 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Plan de Adobe Workfront</td> 
+   <td role="rowheader">paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licencia de Adobe Workfront</td> 
-   <td> <p>Nuevo: estándar </p>
-   <p>Actual: plan</p> </td> 
+   <td> <p>Estándar</p>
+   <p>Plan</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso</td> 
-   <td> <p>Acceso de edición a:</p> 
+   <td> <p>Editar acceso con capacidad para crear lo siguiente:</p> 
     <ul> 
-     <li> <p>Creación de informes, paneles de control y calendarios</p> </li> 
-     <li> <p>Creación de filtros, vistas y agrupaciones</p> </li> 
+     <li> <p>Informes, paneles de control y calendarios</p> </li> 
+     <li> <p>Filtros, vistas y agrupaciones</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Ver</p>
-    <p>Nota: Si no tiene permiso de visualización o superior para un objeto, la información de ese objeto no se muestra en el informe.</p>  </td> 
+   <td> <p>Ver los permisos de los objetos en el informe</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
 
-Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
+<!--Old:
+<table style="table-layout:auto"> 
+ <col> 
+ </col> 
+ <col> 
+ </col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td> <p>New: Standard </p>
+   <p>Current: Plan</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>Edit access to:</p> 
+    <ul> 
+     <li> <p>Create Reports, Dashboards, and Calendars</p> </li> 
+     <li> <p>Create Filters, Views, and Groupings</p> </li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>View</p>
+    <p>Note: If you do not have View permission or higher to an object, information for that object doesn't display in the report.</p>  </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## Creación de un informe de notas
 

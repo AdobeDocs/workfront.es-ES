@@ -8,10 +8,10 @@ author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 9905a522-9913-49c0-8c80-a8b46221fcbb
-source-git-commit: 6d02397a15b0b06c3c60fb5d71dfeb3cb0b0a30d
+source-git-commit: a65a4568c6428768ee6bc60a59a8499efdbec9f8
 workflow-type: tm+mt
-source-wordcount: '554'
-ht-degree: 9%
+source-wordcount: '546'
+ht-degree: 7%
 
 ---
 
@@ -25,7 +25,7 @@ Con la integración entre GenStudio for Performance Marketing y Workfront Proof,
 
 * Ver decisiones de revisión en GenStudio for Performance Marketing para su aprobación y publicación finales
 
-Para obtener más información acerca de la revisión y aprobación en GenStudio for Performance Marketing, consulte [Integración de Workfront Proof con GenStudio for Performance Marketing](https://experienceleague.adobe.com/es/docs/genstudio-for-performance-marketing/user-guide/approve/proof-integration).
+Para obtener más información acerca de la revisión y aprobación en GenStudio for Performance Marketing, consulte [Integración de Workfront Proof con GenStudio for Performance Marketing](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/approve/proof-integration).
 
 
 ## Requisitos de acceso
@@ -37,7 +37,7 @@ Para obtener más información acerca de la revisión y aprobación en GenStudio
  <col> 
  <tbody> 
  <tr> 
-   <td role="rowheader">Plan de Adobe Workfront</td> 
+   <td role="rowheader">paquete de Adobe Workfront</td> 
    <td> 
    <p>Cualquiera</p> 
    </td> 
@@ -45,11 +45,11 @@ Para obtener más información acerca de la revisión y aprobación en GenStudio
   <tr> 
    <td role="rowheader">Licencia de Adobe Workfront</td> 
    <td> 
-   <p>Actual: Estándar </p> 
-   <p>Heredado: plan </p></td> 
+   <p>Estándar </p> 
+   <p>Plan </p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Producto</td> 
+   <td role="rowheader">Productos adicionales</td> 
    <td> 
    <p> Debe tener GenStudio for Performance Marketing y se le debe añadir al producto como usuario en Admin Console. </p> </td> 
   </tr> 
@@ -60,7 +60,7 @@ Para obtener más información acerca de la revisión y aprobación en GenStudio
  </tbody> 
 </table>
 
-Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -102,7 +102,7 @@ Para obtener más información sobre la creación de plantillas y flujos de trab
 
 Cuando un usuario inicia una revisión en GenStudio for Performance Marketing, simplemente elige la plantilla que necesita. Los usuarios pueden cambiar fácilmente cualquier plantilla de flujo de trabajo de prueba y agregar o eliminar revisores y fases en cualquier momento.
 
-Para obtener más información, vea [Solicitar revisión y aprobación](https://experienceleague.adobe.com/es/docs/genstudio-for-performance-marketing/user-guide/approve/request-review).
+Para obtener más información, vea [Solicitar revisión y aprobación](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/approve/request-review).
 
 ## Revise y apruebe el contenido de borrador de GenStudio for Performance Marketing en el visualizador de pruebas de Workfront
 
@@ -114,7 +114,7 @@ Con el visualizador de pruebas, puede
 * Borrador de marcado para mostrar lo que debe cambiar
 * Tomar una decisión
 
-Para obtener más información, vea [Revisar y editar contenido](https://experienceleague.adobe.com/es/docs/genstudio-for-performance-marketing/user-guide/approve/review-and-edit).
+Para obtener más información, vea [Revisar y editar contenido](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/approve/review-and-edit).
 
 
 >[!IMPORTANT]
@@ -126,4 +126,4 @@ Para obtener más información, vea [Revisar y editar contenido](https://experie
 
 Una vez que el recurso ha pasado por el proceso de revisión y aprobación, puede ver la decisión de revisión y publicar el contenido directamente desde GenStudio for Performance Marketing.
 
-Para obtener más información, consulte [Publicar contenido aprobado](https://experienceleague.adobe.com/es/docs/genstudio-for-performance-marketing/user-guide/approve/publish-content).
+Para obtener más información, consulte [Publicar contenido aprobado](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/approve/publish-content).

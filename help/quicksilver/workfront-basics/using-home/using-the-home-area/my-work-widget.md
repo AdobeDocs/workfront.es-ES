@@ -6,10 +6,10 @@ description: El widget Mi trabajo muestra todas las tareas, problemas y solicitu
 author: Courtney
 feature: Get Started with Workfront
 exl-id: e110f0f6-4ecb-419b-a368-c3f802de5920
-source-git-commit: fddb927f2c9639b4c26d590bbea7dba684ed2b6c
+source-git-commit: 41f58261d4f2e6075187886b371a23eb5e97d823
 workflow-type: tm+mt
-source-wordcount: '744'
-ht-degree: 12%
+source-wordcount: '722'
+ht-degree: 9%
 
 ---
 
@@ -25,8 +25,6 @@ El widget Mi trabajo muestra todas las tareas, problemas y solicitudes asignados
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -34,16 +32,16 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront plan]</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront package]</strong></td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] licencia</strong></td> 
-   <td> <p>Actual: Contribute</p>
-   <p>O</p> 
-   <p>Nuevo:[!UICONTROL Light] o superior<p> 
+   <td> 
+      <p>Ligero o superior</p>
+   <p>Contribute o superior</p>
   </td> 
-  </tr> </ul>
+  </tr>
   <tr> 
    <td role="rowheader"><strong>Configuraciones de nivel de acceso</strong></td> 
    <td> <p>[!UICONTROL View] o acceso superior a Proyectos, Tareas, Problemas y Documentos</p> </td> 
@@ -55,7 +53,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  </tbody> 
 </table>
 
-Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

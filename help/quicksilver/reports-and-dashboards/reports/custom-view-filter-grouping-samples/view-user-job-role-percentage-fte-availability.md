@@ -2,15 +2,15 @@
 content-type: reference
 product-area: reporting;user-management
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Ver: Porcentaje de rol de usuario de disponibilidad de FTE"
+title: 'Ver: Porcentaje de rol de usuario de disponibilidad de FTE'
 description: Puede agregar una columna a la vista de una lista de usuarios para mostrar una lista de los roles a los que está asociado el usuario, así como el porcentaje de disponibilidad de FTE para cada rol, tal como se define en el perfil de usuario.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: d479b0b1-8ad5-47d6-8ef8-80261b46ecea
-source-git-commit: 66de6c952272f52876f8e912c96d1526575b6f0b
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '297'
-ht-degree: 0%
+source-wordcount: '276'
+ht-degree: 24%
 
 ---
 
@@ -28,44 +28,33 @@ Para obtener información acerca de cómo definir el porcentaje de disponibilida
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plan de Adobe Workfront</td> 
+   <td role="rowheader">paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licencia de Adobe Workfront</td> 
-   <td> <p> Actual: 
-   <ul>
-   <li>Solicitud para modificar una vista</li> 
-   <li>Plan para modificar un informe</li>
-   </ul>
-     </p>
-     <p> Nuevo: 
-   <ul>
-   <li>Colaborador para modificar una vista</li> 
-   <li>Estándar para modificar un informe</li>
-   </ul>
-     </p>
-    </td> 
+   <td> 
+   <p>Colaborador o solicitud para modificar una vista </p>
+   <p>Estándar o Plan para modificar un informe</p>
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraciones de nivel de acceso*</td> 
-   <td> <p>Editar el acceso a Informes, Tableros y Calendarios para modificar un informe</p> <p>Editar el acceso a filtros, vistas y agrupaciones para modificar una vista</p> </td> 
+   <td role="rowheader">Configuraciones de nivel de acceso</td> 
+   <td> <p>Editar el acceso a Informes, Paneles de control y Calendarios para modificar un informe</p> <p>Edición del acceso a Filtros, Vistas y Agrupaciones para modificar una vista</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Administración de permisos de un informe</p> </td> 
+   <td> <p>Permisos de administración para un informe</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
 
 +++
 

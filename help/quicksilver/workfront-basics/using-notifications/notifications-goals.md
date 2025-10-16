@@ -6,10 +6,10 @@ description: 'Notificaciones: metas'
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 12e66711-4438-4fcf-af79-7fcc2c3b1522
-source-git-commit: 585a65c497211c84cffafeeaa5016218fd66acd2
+source-git-commit: 770e20cf9e32ac9884f5eb320f7067fcf162c63d
 workflow-type: tm+mt
-source-wordcount: '436'
-ht-degree: 94%
+source-wordcount: '388'
+ht-degree: 92%
 
 ---
 
@@ -23,39 +23,34 @@ Puede habilitar las notificaciones por correo electrónico de los eventos que se
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: because there are conditions for who sees this, I added this from the How To articles/ template although this is not a How To. But I like the format, so I thought keeping it consistent might help users. We may decide to update this when we have access and prereq for overview-type articles)</p>
 -->
 
-+++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
-
-Debe tener lo siguiente:
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront plan*]</strong></td> 
-   <td> <p>[!UICONTROL Pro] o superior</p> </td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront package]</strong></td> 
+   <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licencia*</strong></td> 
-   <td> <p>[!UICONTROL Request] o superior</p> </td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] licencia</strong></td> 
+   <td>
+   <p>Colaborador o superior</p>
+    <p>Solicitud o superior</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Producto</strong></td> 
+   <td role="rowheader"><strong>Productos adicionales</strong></td> 
    <td>[!DNL Workfront Goals] <p>Para obtener información acerca de [!DNL Workfront Goals], consulte <a href="../../workfront-goals/goal-management/wf-goals-overview.md" class="MCXref xref">[!DNL Adobe Workfront Goals] Información general</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Configuraciones de nivel de acceso*</strong></td> 
-   <td> <p>Acceso de [!UICONTROL View] a [!DNL Goals] o superior</p> <p>Nota: si todavía no tiene acceso, pregunte al administrador de [!DNL Workfront] si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de [!DNL Workfront] puede cambiar el nivel de acceso, consulte <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creación y modificación de niveles de acceso personalizados</a>.</p> </td> 
-  </tr> <!--
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td role="rowheader">Object permissions</td> 
-    <td> <p>[Insert permissions needed]</p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
-   </tr>
-  --> 
+   <td> <p>Acceso de [!UICONTROL View] a [!DNL Goals] o superior</p></td> 
+  </tr>
  </tbody> 
 </table>
 
-&#42;Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con el administrador de [!DNL Workfront].
+Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -72,7 +67,7 @@ Las notificaciones enumeradas en la siguiente tabla le avisan de los eventos que
 
 >[!NOTE]
 >
->Las notificaciones instantáneas de [!DNL Goals] están deshabilitadas de manera predeterminada. No puede activar o desactivar las notificaciones diarias y no recibe correos electrónicos de resumen diario para los eventos de esta categoría. Puede habilitar o deshabilitar notificaciones instantáneas individuales para la categoría [!DNL Goals].
+>Las notificaciones instantáneas de [!DNL Goals] están deshabilitadas de manera predeterminada. No puede habilitar o deshabilitar las notificaciones diarias y no recibe correos electrónicos de resumen diario para los eventos de esta categoría. Puede habilitar o deshabilitar notificaciones instantáneas individuales para la categoría [!DNL Goals].
 
 Consulte también [Notificaciones de eventos](../../workfront-basics/using-notifications/event-notifications.md).
 

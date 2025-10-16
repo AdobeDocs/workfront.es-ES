@@ -6,10 +6,10 @@ description: Para instalar la aplicación antes de que esté disponible en AppEx
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 4fea9d8f-7729-4fee-86d3-1a986be29f74
-source-git-commit: f9af669b023309abc132421f35a2ece974e796b0
+source-git-commit: 6178cabbf021fbf92bd8795c5c2bd0346801d64d
 workflow-type: tm+mt
-source-wordcount: '1092'
-ht-degree: 92%
+source-wordcount: '1070'
+ht-degree: 91%
 
 ---
 
@@ -23,9 +23,9 @@ ht-degree: 92%
 >
 >Recomendamos utilizar la automatización e integración de Workfront para las necesidades de integración de su organización con Salesforce.
 >
->Para obtener una descripción general de la automatización e integración de Workfront, consulte [Información general de Adobe Workfront Fusion](https://experienceleague.adobe.com/es/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+>Para obtener una descripción general de la automatización e integración de Workfront, consulte [Información general de Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 >
->Para obtener información sobre las capacidades específicas de los módulos de integración y automatización de Workfront para Salesforce, consulte [módulos de Salesforce](https://experienceleague.adobe.com/es/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/salesforce-modules).
+>Para obtener información sobre las capacidades específicas de los módulos de integración y automatización de Workfront para Salesforce, consulte [módulos de Salesforce](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/salesforce-modules).
 
 Como administrador de [!DNL Salesforce] y [!DNL Adobe Workfront], puede instalar [!DNL Workfront for Salesforce] para permitir que los usuarios de [!DNL Salesforce] envíen solicitudes de [!DNL Workfront] y creen automáticamente proyectos sin salir de Salesforce.
 
@@ -38,23 +38,23 @@ Para obtener información general sobre lo que cabe esperar de la instalación d
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
-Debe tener el siguiente acceso para utilizar la funcionalidad que se describe en este artículo:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
-   <td> <p>Cualquiera</p></td> 
+   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licencia</td> 
-   <td> <p>Nuevo: [!UICONTROL Standard]</p><p>O</p><p>Actual: [!UICONTROL Plan]</p> </td> 
-  </tr>  </tbody> 
+   <td role="rowheader">Licencia de Adobe Workfront</td> 
+   <td> <p>Estándar</p>
+   <p>Plan</p> </td> 
+  </tr> 
+ </tbody> 
 </table>
 
-Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -74,8 +74,8 @@ Debe ser administrador del sistema de [!DNL Salesforce] y [!DNL Workfront] para 
 Las siguientes subsecciones describen cómo instalar [!DNL Workfront] para su entorno de producción de [!DNL Salesforce]. Puede seguir los mismos pasos para instalar [!DNL Workfront] en su entorno de zona protegida de [!DNL Salesforce].
 
 * [Instalando  [!DNL Workfront for Salesforce] antes de que esté disponible en  [!DNL AppExchange] Marketplace](#installing-workfront-for-salesforce-before-it-becomes-available-in-the-appexchange-marketplace)
-* [Instalando  [!DNL Workfront for Salesforce]  en el marco de trabajo de  [!DNL Salesforce Classic] &#x200B;](#installing-workfront-for-salesforce-in-the-salesforce-classic-framework)
-* [Instalando  [!DNL Workfront for Salesforce]  en el marco de trabajo de  [!DNL Salesforce Lightning Experience] &#x200B;](#installing-workfront-for-salesforce-in-the-salesforce-lightning-experience-framework)
+* [Instalando  [!DNL Workfront for Salesforce]  en el marco de trabajo de  [!DNL Salesforce Classic] ](#installing-workfront-for-salesforce-in-the-salesforce-classic-framework)
+* [Instalando  [!DNL Workfront for Salesforce]  en el marco de trabajo de  [!DNL Salesforce Lightning Experience] ](#installing-workfront-for-salesforce-in-the-salesforce-lightning-experience-framework)
 
 ### Instalando [!DNL Workfront for Salesforce] antes de que esté disponible en [!DNL AppExchange]Marketplace {#installing-workfront-for-salesforce-before-it-becomes-available-in-the-appexchange-marketplace}
 
@@ -202,7 +202,7 @@ Por ejemplo, *yourDomain.my.workfront.com*.
    La aplicación de [!DNL Workfront] se ha instalado en la instancia de [!DNL Salesforce] y el componente **[!DNL Workfront]** se ha añadido al entorno.
 
    Los usuarios de [!UICONTROL Salesforce] pueden usar la aplicación [!DNL Workfront] una vez que añada la sección [!DNL Workfront] a sus diseños de página [!UICONTROL Oportunidad] o [!UICONTROL Cuenta].\
-   Para obtener información sobre cómo configurar la sección [!DNL Workfront] para los usuarios, consulte [Configurar la sección [!DNL Adobe Workfront] para los usuarios de [!DNL Salesforce] &#x200B;](../../workfront-integrations-and-apps/using-workfront-with-salesforce/configure-wf-section-for-salesforce-users.md).
+   Para obtener información sobre cómo configurar la sección [!DNL Workfront] para los usuarios, consulte [Configurar la sección [!DNL Adobe Workfront] para los usuarios de [!DNL Salesforce] ](../../workfront-integrations-and-apps/using-workfront-with-salesforce/configure-wf-section-for-salesforce-users.md).
 
 ## Configurar permisos para la integración de Workfront para Salesforce
 

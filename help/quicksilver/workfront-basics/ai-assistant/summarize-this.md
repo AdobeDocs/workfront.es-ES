@@ -1,14 +1,14 @@
 ---
 title: Resumir con el asistente de IA
 content-type: reference
-description: Puede resumir rápidamente elementos de trabajo y documentos mediante la función Resumir esta.
+description: Puede resumir rápidamente elementos de trabajo y documentos mediante la funcionalidad Resumir.
 author: Becky
 feature: Get Started with Workfront
 exl-id: b7d4d9a5-cdc5-43a6-a58f-57480f702034
-source-git-commit: 59c74b6530df09cb664e146b611d246465cf0116
+source-git-commit: e9a9e45720c8b9ad25e3fa9340c813a73989fb4a
 workflow-type: tm+mt
-source-wordcount: '415'
-ht-degree: 1%
+source-wordcount: '396'
+ht-degree: 19%
 
 ---
 
@@ -31,30 +31,30 @@ El asistente de IA puede resumir los siguientes objetos:
 >
 >Para obtener información sobre el Panel de resumen en Workfront, consulte [Resumen general](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md).
 
+
+
 ## Requisitos de acceso
 
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plan de Adobe Workfront</td> 
-   <td><p>Nuevo: Cualquiera</p>
-       <p>o</p>
-       <p>Actual: no disponible</p></td>
+   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td> <p>Cualquiera </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licencia de Adobe Workfront</td> 
-   <td><p>Nuevo: estándar</p>
-       <p>o</p>
-       <p>Actual: no disponible</p></td>
+   <td><p>Estándar</p>
   </tr> 
  </tbody> 
 </table>
 
-Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Requisitos previos
 
@@ -63,7 +63,7 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
   Para obtener más información, consulte [Requisitos previos para el asistente de IA](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant) en el artículo Información general del asistente de IA.
 * El administrador de Workfront debe haber habilitado el asistente de IA para su nivel de acceso.
 
-  Para obtener más información, consulte [Habilitar o deshabilitar el Asistente para IA](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md).
+  Para obtener más información, consulte [Habilitar o deshabilitar el asistente de IA](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md).
 
 ## Resumir mediante los botones de resumen
 
@@ -90,7 +90,7 @@ Para utilizar el botón Resumir proyecto o Resumir comentarios:
 Para ver un resumen de un objeto:
 
 1. Desplácese hasta el objeto para el que desee ver un resumen.
-1. Haga clic en el icono **Asistente de IA** ![Icono del Asistente de IA](assets/ai-assistant-icon.png) cerca de la esquina superior derecha de la pantalla.
+1. Haga clic en el icono **Asistente de IA** ![icono Asistente de IA](assets/ai-assistant-icon.png) cerca de la esquina superior derecha de la pantalla.
 1. En el panel Asistente de IA, introduzca un mensaje de solicitud como:
 
    * Proporcione un resumen en tres frases

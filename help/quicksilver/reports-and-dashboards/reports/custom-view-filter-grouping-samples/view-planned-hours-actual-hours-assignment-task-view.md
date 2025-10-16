@@ -2,77 +2,66 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Ver: Horas planificadas vs. Horas reales por asignación en una vista de tareas"
+title: 'Vista: Horas planificadas vs. Horas reales por asignación en una vista de tareas'
 description: Esta vista de tarea muestra el total de horas planificadas de una tarea, el número de horas planificadas asignadas a cada usuario asignado (cuando la tarea está asignada a varios usuarios), el total de horas reales de la tarea y el número de horas reales registradas por cada usuario asignado.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: f249ff57-50c7-4aa9-a563-cb7f5562b96a
-source-git-commit: 6405c01c8b1d842a4175f9caa18a7ed31316a3a1
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '290'
-ht-degree: 0%
+source-wordcount: '269'
+ht-degree: 41%
 
 ---
 
-# Vista: Horas planificadas vs. Horas reales por asignación en una vista de tareas
+# Vista: Horas planificadas frente a horas reales por asignación en una vista de tareas
 
 <!--Audited: 11/2024-->
 
 Esta vista de tarea muestra el total de horas planificadas de una tarea, el número de horas planificadas asignadas a cada usuario asignado (cuando la tarea está asignada a varios usuarios), el total de horas reales de la tarea y el número de horas reales registradas por cada usuario asignado.
 
-![presupuesto_de_asignación_múltiple_frente_real_para_tareas.png](assets/multi-assignment-budget-vs-actual-for-tasks-350x66.png)
+![multi_assignment_budget_vs_actual_for_tasks.png](assets/multi-assignment-budget-vs-actual-for-tasks-350x66.png)
 
 ## Requisitos de acceso
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
-
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plan de Adobe Workfront</td> 
+   <td role="rowheader">paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licencia de Adobe Workfront</td> 
-   <td> <p> Actual: 
-   <ul>
-   <li>Solicitud para modificar una vista</li> 
-   <li>Plan para modificar un informe</li>
-   </ul>
-     </p>
-     <p> Nuevo: 
-   <ul>
-   <li>Colaborador para modificar una vista</li> 
-   <li>Estándar para modificar un informe</li>
-   </ul>
-     </p>
-    </td> 
+   <td> 
+   <p>Colaborador o solicitud para modificar una vista </p>
+   <p>Estándar o Plan para modificar un informe</p>
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraciones de nivel de acceso*</td> 
-   <td> <p>Editar el acceso a Informes, Tableros y Calendarios para modificar un informe</p> <p>Editar el acceso a filtros, vistas y agrupaciones para modificar una vista</p> </td> 
+   <td role="rowheader">Configuraciones de nivel de acceso</td> 
+   <td> <p>Editar el acceso a Informes, Paneles de control y Calendarios para modificar un informe</p> <p>Edición del acceso a Filtros, Vistas y Agrupaciones para modificar una vista</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Administración de permisos de un informe</p> </td> 
+   <td> <p>Permisos de administración para un informe</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
 
 +++
 
-## Ver horas planificadas vs. horas reales por asignación en una tarea Ver
+## Vista de Horas planificadas vs. Horas reales por asignación en una vista de tareas
 
-1. Ir a una lista de tareas.
+1. Vaya a una lista de tareas.
 1. En el menú desplegable **Vista**, seleccione **Nueva vista**.
 
-1. En el área **Vista previa de columna**, elimine todas las columnas excepto una.
+1. En el área **Vista previa de columnas**, elimine todas las columnas excepto una.
 1. Haga clic en el encabezado de la columna restante y haga clic en **Cambiar al modo de texto** > **Editar modo de texto**.
 1. Elimine el texto que encuentre en el cuadro **Editar modo de texto** y reemplácelo por el siguiente código:
 

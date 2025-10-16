@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: f0efd985-76e3-435e-bf19-87008f6a5e9d
-source-git-commit: 705fc990f2d90ff2102233fc68947fdbe1eb6946
+source-git-commit: 15063d937a5ba9b5285c66a0987e8deea6cc6d74
 workflow-type: tm+mt
-source-wordcount: '879'
-ht-degree: 31%
+source-wordcount: '839'
+ht-degree: 19%
 
 ---
 
@@ -25,45 +25,40 @@ Para obtener información acerca de cómo crear una nueva compañía, vea [Crear
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
-
 <table style="table-layout:auto">
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>[!DNL Workfront] plan</p> </td> 
-   <td><p>Actual: [!UICONTROL Equipo] o superior</p>
-   <p>O</p>
-   <p>Nuevo: cualquiera</p>
+   <td> <p>[!DNL Workfront] paquete</p> </td> 
+   <td><p>Cualquiera</p>
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!DNL Adobe Workfront] licencia</p> </td> 
-   <td><p>Actual: [!UICONTROL Plan]</p>
-   <p>O</p>
-   <p>Nuevo: [!UICONTROL Standard]</p>
+   <td> <p>[!DNL Adobe Workfront] licencia</p> </td> 
+   <td><p>[!UICONTROL Plan]</p>
+   <p>[!UICONTROL Standard]</p>
    </td> 
   </tr>
-  <tr data-mc-conditions=""> 
-   <td role="rowheader"><strong>Configuraciones de nivel de acceso</strong> </td> 
-   <td> <p>Uno de los siguientes:</p> 
+  <tr> 
+   <td>Configuraciones de nivel de acceso</td> 
+  <td> <p>Debe tener uno de los siguientes elementos:</p> 
     <ul> 
      <li> <p>Nivel de acceso de [!UICONTROL System Administrator], que permite editar cualquier compañía del sistema.</p> </li> 
      <li> <p>Acceso administrativo para gestionar empresas, que permite editar cualquier empresa del sistema.</p> </li> 
     </ul> <p><b>NOTA</b>:  
      <ul> 
       <li> <p>También puede administrar compañías asociadas a cualquier grupo en el que esté asignado como administrador de grupos.</p> </li> 
-      <li> <p>Para añadir y quitar usuarios del sistema [!DNL Workfront], debe tener uno de los siguientes niveles de acceso:</p> 
+      <li> <p>Para agregar y quitar usuarios del sistema [!DNL Workfront], debe tener uno de los siguientes elementos:</p> 
        <ul> 
-        <li> <p>Nivel de acceso de [!UICONTROL System Administrator].</p> </li> 
-        <li> <p>En su nivel de acceso, [!UICONTROL Edit] debe estar seleccionado para la configuración [!UICONTROL Users]. Además, para la configuración de [!UICONTROL Users], en [!UICONTROL Fine-tune your settings] <img src="assets/gear-icon-in-access-levels.png">, la opción [!UICONTROL Create] y al menos una de las dos opciones de [!UICONTROL User Admin] deben estar habilitadas. </p> <p> <img src="assets/access-req-users.png"> </p> <p>Si utiliza la opción [!UICONTROL User Admin (Group Users)], debe ser administrador de un grupo del que sea miembro el usuario.</p> </li> 
+        <li> <p>Nivel de acceso de [!UICONTROL System Administrator]. </p> </li> 
+        <li> <p>Configuración de <b>[!UICONTROL Usuarios]</b> en su nivel de acceso configurado a <b>[!UICONTROL Editar]</b> acceso, con <b>[!UICONTROL Crear]</b> y al menos una de las dos opciones de <b>[!UICONTROL Administrador de usuario]</b> habilitadas en <b>[!UICONTROL Ajustar la configuración]</b> <img src="assets/gear-icon-in-access-levels.png">. </p> <p> <img src="assets/access-req-users.png"> </p> <p>De estas dos opciones, si <b>[!UICONTROL User Admin (Usuarios del grupo)]</b> está habilitado, debe ser administrador de un grupo del que sea miembro el usuario.</p> </li> 
        </ul>
        </li> 
-     </ul> </p> </td> 
+     </ul> </p> </td>
   </tr> 
  </tbody> 
 </table>
 
-Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

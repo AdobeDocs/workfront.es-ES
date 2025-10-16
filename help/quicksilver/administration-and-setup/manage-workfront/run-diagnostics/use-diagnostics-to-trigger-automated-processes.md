@@ -8,10 +8,10 @@ feature: System Setup and Administration
 role: Admin
 author: Lisa
 exl-id: 9243ee60-006b-4628-bde7-5b037dde7511
-source-git-commit: 379772f6bd1ed9448e6fd5feee956a931f65f69e
+source-git-commit: 156341072c291b5c03432da399a509d9772b73ea
 workflow-type: tm+mt
-source-wordcount: '350'
-ht-degree: 94%
+source-wordcount: '326'
+ht-degree: 92%
 
 ---
 
@@ -27,32 +27,27 @@ Puede utilizar Diagnósticos para activar manualmente procesos automatizados, co
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Plan de Adobe Workfront</td> 
-   <td>Cualquiera</td> 
+   <td>paquete de Adobe Workfront</td> 
+   <td><p>Cualquiera</p></td> 
   </tr> 
   <tr> 
-  <tr> 
-   <td role="rowheader">Licencia de Adobe Workfront</td> 
-   <td><p>Nuevo: estándar</p>
-       <p>O</p>
-       <p>Actual: plan</p></td>
-  </tr> 
+   <td>Licencia de Adobe Workfront</td> 
+   <td><p>Estándar</p>
+       <p>Plan</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraciones de nivel de acceso</td> 
-   <td>[!UICONTROL System Administrator]</td>
+   <td>Configuraciones de nivel de acceso</td> 
+   <td>Administrador del sistema</td> 
   </tr> 
  </tbody> 
 </table>
 
-Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -84,11 +79,11 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
       <td>Comprueba nuevos mensajes de correo electrónico que se enviaron a cuentas POP vinculadas a Workfront.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Volver a calcular las escalas de tiempo</td> 
+      <td role="rowheader">Volver a calcular las cronologías</td> 
       <td> <p>Vuelve a calcular la línea de tiempo de todos los proyectos de Workfront que están en estado Actual. </p> <p>Para obtener más información sobre cómo calcular la línea de tiempo de los proyectos de forma automática o manual, proyecto por proyecto, consulte <a href="../../../manage-work/projects/manage-projects/recalculate-project-timeline.md" class="MCXref xref">Recalcular líneas de tiempo del proyecto</a>.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Restaurar informes de clientes personalizados</td> 
+      <td role="rowheader">Restaurar informes de clientes predeterminados</td> 
       <td>Restaura los informes predeterminados que se entregaron originalmente con Workfront, de modo que estén visibles en la sección <strong>Informes</strong> para todos los usuarios.</td> 
      </tr> 
      <tr> 

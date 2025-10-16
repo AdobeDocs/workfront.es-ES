@@ -1,40 +1,38 @@
 ---
 product-area: templates
 navigation-topic: templates-navigation-topic
-title: Quitar información de plantilla de un proyecto
-description: No se puede quitar una plantilla de un proyecto. Solo puede quitar manualmente la información que se agregó al proyecto después de adjuntar una plantilla al proyecto. Para obtener información sobre cómo adjuntar plantillas, consulte Adjuntar una plantilla a un proyecto.
+title: Eliminación de información de plantilla de un proyecto
+description: No se puede quitar una plantilla de un proyecto. Solo puede quitar manualmente la información que se añadió al proyecto después de adjuntar una plantilla al proyecto. Para obtener información sobre cómo adjuntar plantillas, consulte Adjuntar una plantilla a un proyecto.
 author: Alina
 feature: Work Management
 exl-id: a8b6055a-7fac-4f9b-a880-10b2b85299b7
-source-git-commit: 2ccf2775a858371aacdb6e8637fd5a30a212a82d
+source-git-commit: d7600a55b3dffb242957234de9d85a0deb1ad2e3
 workflow-type: tm+mt
-source-wordcount: '410'
-ht-degree: 1%
+source-wordcount: '395'
+ht-degree: 99%
 
 ---
 
-# Quitar información de plantilla de un proyecto
+# Eliminación de información de plantilla de un proyecto
 
-No se puede quitar una plantilla de un proyecto. Solo puede quitar manualmente la información que se agregó al proyecto después de adjuntar una plantilla al proyecto. Para obtener información acerca de cómo adjuntar plantillas, vea [Adjuntar una plantilla a un proyecto](../../../manage-work/projects/create-and-manage-templates/attach-template-to-project.md).
+No se puede quitar una plantilla de un proyecto. Solo puede quitar manualmente la información que se añadió al proyecto después de adjuntar una plantilla al proyecto. Para obtener información acerca de cómo adjuntar plantillas, consulte [Adjuntar una plantilla a un proyecto](../../../manage-work/projects/create-and-manage-templates/attach-template-to-project.md).
 
 ## Requisitos de acceso
 
-+++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
-
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plan de Adobe Workfront</td> 
+   <td role="rowheader">paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licencia de Adobe Workfront*</td> 
-   <td> <p>Nuevo: estándar</p>
-   <p>Actual: Trabajo o superior</p> </td> 
+   <td role="rowheader">Licencia de Adobe Workfront</td> 
+   <td> <p>Estándar</p>
+   <p>Trabajo o superior</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso</td> 
@@ -42,32 +40,58 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Administrar el acceso a las tareas </p> <p>Contribute o acceso superior al proyecto </p>  </td> 
+   <td> <p>Administrar el acceso a las tareas </p> <p>Contribución o un acceso superior al proyecto</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Opciones para quitar información de plantilla de un proyecto
+<!--Old:
 
-Para quitar la información de plantilla agregada al proyecto, puede realizar una de las siguientes acciones:
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>New: Standard</p>
+   <p>Current: Work or higher</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>Edit access to Tasks</p>  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>Manage access to tasks </p> <p>Contribute or higher access to the project </p>  </td> 
+  </tr> 
+ </tbody> 
+</table>-->
+
+## Opciones para quitar información de la plantilla de un proyecto
+
+Para quitar la información de la plantilla añadida al proyecto, puede realizar una de las siguientes acciones:
 
 * Elimine manualmente la información del proyecto después de adjuntar la plantilla.
 
   Para obtener más información, consulte [Editar proyectos](../../../manage-work/projects/manage-projects/edit-projects.md).
 
-* Elimine las tareas del proyecto que se agregaron con la plantilla.
+* Elimine las tareas del proyecto que se añadieron con la plantilla.
 
   Para obtener más información, consulte la sección [Eliminar tareas creadas a partir de una plantilla](#delete-tasks-created-from-a-template) en este artículo.
 
-* Elimine la plantilla de Workfront. Al eliminar la plantilla de Workfront, no se eliminan de los proyectos las tareas agregadas desde la plantilla.
+* Elimine la plantilla de Workfront. Al eliminar la plantilla de Workfront, no se eliminan de los proyectos las tareas añadidas desde la plantilla.
 
-  Para obtener más información, consulte [Eliminar plantillas de proyecto](../../../manage-work/projects/create-and-manage-templates/delete-templates.md).
+  Para obtener más información, consulte [Eliminar plantillas del proyecto](../../../manage-work/projects/create-and-manage-templates/delete-templates.md).
 
-## Eliminar tareas creadas a partir de una plantilla {#delete-tasks-created-from-a-template}
+## Eliminación de tareas creadas a partir de una plantilla {#delete-tasks-created-from-a-template}
 
 1. Vaya a la sección **Tareas** del proyecto.
 1. Realice una de las siguientes acciones:
@@ -86,6 +110,6 @@ Para quitar la información de plantilla agregada al proyecto, puede realizar un
 
      Al aplicar la vista, las tareas que contienen información en las columnas Identificador de tarea de plantilla o Nombre de tarea de plantilla se crearon mediante una plantilla.
 
-     Para obtener información acerca de cómo crear una vista, vea [Información general sobre vistas en Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+     Para obtener información acerca de cómo crear una vista, consulte [Información general sobre vistas en Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
-1. Seleccione todas las tareas identificadas en el paso 2 como creadas a partir de una plantilla, luego haga clic en **el icono Eliminar**&#x200B;**> Sí, eliminarla**. Para obtener más información, consulte [Eliminar tareas](../../../manage-work/tasks/manage-tasks/delete-tasks.md).
+1. Seleccione todas las tareas identificadas en el paso 2 como creadas a partir de una plantilla, luego haga clic en **el icono Eliminar****> Sí, elimínala**. Para obtener más información, consulte [Eliminar tareas](../../../manage-work/tasks/manage-tasks/delete-tasks.md).

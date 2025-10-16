@@ -1,15 +1,15 @@
 ---
 product-area: enterprise-scenario-planner-product-area
 navigation-topic: enterprise-scenario-planner-navigation-topic
-title: Importación de proyectos a planes en el Planificador de escenarios
+title: Importar proyectos a planes en el Scenario Planner
 description: Puede importar proyectos existentes en un plan. Los proyectos importados se convierten en iniciativas y puede administrarlos dentro del plan como lo haría con una nueva iniciativa. El proyecto original sigue estando vinculado a la nueva iniciativa.
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 20429bb1-c158-433b-9790-325cd577248e
-source-git-commit: 7cfe82eb703e2a043c264cf86c0e5424d1e33d78
+source-git-commit: aa2e9a012a60ab10e2d027dedae520b5e06686c7
 workflow-type: tm+mt
-source-wordcount: '1710'
-ht-degree: 6%
+source-wordcount: '1677'
+ht-degree: 3%
 
 ---
 
@@ -27,8 +27,43 @@ Puede importar proyectos existentes en un plan. Los proyectos importados se conv
 
 ## Requisitos de acceso
 
-+++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo. 
 
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td> <p>[!DNL Adobe Workfront] paquete</p> </td> 
+   <td> 
+   <p>Workfront Ultimate</p>
+<p><b>NOTA</b></p>
+<p>Hable con su representante de Workfront si tiene un paquete de Workfront diferente.</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td> <p>[!DNL Adobe Workfront] licencia</p> </td> 
+   <td> <p>[!UICONTROL Light] o superior</p> 
+   <p>[!UICONTROL Review] o superior</p> </td> 
+  </tr> 
+    <tr> 
+   <td>Configuraciones de nivel de acceso</td> 
+   <td> <p>Acceso de [!UICONTROL Edit] al [!DNL Scenario Planner]</p> <p>Acceso de visualización o superior a Proyectos.</p></td> 
+  </tr> 
+  <tr> 
+   <td> <p>Permisos de objeto </p> </td> 
+   <td> <p>Permisos de [!UICONTROL Manage] para un plan</p> <p>Ver permisos superiores a los proyectos.</p></td> 
+  </tr> 
+ </tbody> 
+</table>
+
+Para obtener más información sobre el acceso al Scenario Planner, consulte [Acceso necesario para usar el [!DNL Scenario Planner]](../scenario-planner/access-needed-to-use-sp.md).
+
+Para obtener información acerca de los requisitos de acceso de Workfront, consulte [Requisitos de acceso a la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
+<!--Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -37,38 +72,36 @@ Puede importar proyectos existentes en un plan. Los proyectos importados se conv
   <tr> 
    <td> <p>[!DNL Adobe Workfront] plan*</p> </td> 
    <td> <ul></li>
-   <li><p>Nuevo: Ultimate </p></li>
-   <p>El Scenario Planner no está disponible para los nuevos planes Workfront Select o Workfront Prime. </p>
-   <li><p>Actual: [!UICONTROL Business] o superior</p></ul>
+   <li><p>New: Ultimate </p></li>
+   <p>The Scenario Planner is not available for the new Workfront Select or Workfront Prime plans. </p>
+   <li><p>Current: [!UICONTROL Business] or higher</p></ul>
    </td> 
   </tr> 
   <tr> 
-   <td> <p>[!DNL Adobe Workfront] licencia*</p> </td> 
-   <td> <p>Nuevo: Light o superior</p> 
-   <p>Actual: [!UICONTROL Review] o superior</p> </td> 
+   <td> <p>[!DNL Adobe Workfront] license*</p> </td> 
+   <td> <p>New: Light or higher</p> 
+   <p>Current: [!UICONTROL Review] or higher</p> </td> 
   </tr> 
   <tr> 
-   <td>Producto* </td> 
-   <td> <ul><li><p>Para los nuevos planes de Workfront:</p><p> Adobe Workfront</li></p>
-   <li><p>Para los planes actuales de Workfront: </p>
-   <p>Adobe Workfront</p> <p>Planificador de escenarios de Adobe Workfront</p></li></ul>
-
-<p>Para obtener más información, consulte <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Acceso necesario para utilizar [!DNL Scenario Planner]</a>. </p> </td> 
+   <td>Product* </td> 
+   <td> <ul><li><p>For the new Workfront plans:</p><p> Adobe Workfront</li></p>
+   <li><p>For the current Workfront plans: </p>
+   <p>Adobe Workfront</p> <p>Adobe Workfront Scenario Planner</p></li></ul>
+   
+   <p>For more information, see <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Access needed to use the [!DNL Scenario Planner]</a>. </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>Nivel de acceso </td> 
-   <td> <p>Acceso de [!UICONTROL Edit] al [!DNL Scenario Planner]</p> <p>Acceso de visualización o superior a Proyectos.</p> </td> 
+   <td>Access level </td> 
+   <td> <p>[!UICONTROL Edit] access to the [!DNL Scenario Planner]</p> <p>View or higher access to Projects.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p>Permisos de objeto </p> </td> 
-   <td> <p>Permisos de [!UICONTROL Manage] para un plan</p> <p>Ver permisos superiores a los proyectos.</p><p>Para obtener información sobre cómo solicitar acceso adicional a un plan, consulte <a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref">Solicitar acceso a un plan en [!DNL Scenario Planner]</a>.</p> </td> 
+   <td> <p>Object permissions </p> </td> 
+   <td> <p>[!UICONTROL Manage] permissions to a plan</p> <p>View or higher permissions to projects.</p><p>For information on requesting additional access to a plan, see <a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref">Request access to a plan in the [!DNL Scenario Planner]</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Para obtener más información, consulte [Requisitos de acceso a la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
-
-+++
+*For information, see [Access requirements to Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). -->
 
 ## Consideraciones sobre la importación de proyectos en planes como nuevas iniciativas
 

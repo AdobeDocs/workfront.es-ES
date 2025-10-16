@@ -3,13 +3,13 @@ product-area: projects
 navigation-topic: business-case-and-scorecards
 title: Exportar el caso comercial de un proyecto
 description: Puede exportar el caso empresarial a un archivo PDF, en caso de que necesite imprimirlo o adjuntarlo a un mensaje de correo electrónico en un formato más conciso.
-author: Alina
+author: Becky
 feature: Work Management
 exl-id: 834c56c4-ca11-4aff-b67e-0eac9fa23403
-source-git-commit: 724c507dd5ee09b3364fc2037380a8cb18be08f2
+source-git-commit: aa3ae2a5d92420f4adcedb60a4f7404533eaa59b
 workflow-type: tm+mt
-source-wordcount: '183'
-ht-degree: 51%
+source-wordcount: '176'
+ht-degree: 53%
 
 ---
 
@@ -26,14 +26,14 @@ Puede exportar el caso empresarial a un archivo PDF en caso de que necesite impr
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><p>Plan de Adobe Workfront*</p></td> 
-   <td> <p>Actual: Prime o superior </p> <p>Heredado: Pro o superior </p> </td> 
+   <td role="rowheader"><p>paquete de Adobe Workfront</p></td> 
+   <td> <p>Prime o superior </p>  </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Licencia de Adobe Workfront*</p></td> 
+   <td role="rowheader"><p>Licencia de Adobe Workfront</p></td> 
    <td> 
-   <p>Actual: Ligero o superior</p>
-   <p>Heredado: revisión o superior</p> </td> 
+   <p>Ligero o superior</p>
+   <p>Revisión o superior</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso</td> 
@@ -46,7 +46,7 @@ Puede exportar el caso empresarial a un archivo PDF en caso de que necesite impr
  </tbody> 
 </table>
 
-*Para obtener información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

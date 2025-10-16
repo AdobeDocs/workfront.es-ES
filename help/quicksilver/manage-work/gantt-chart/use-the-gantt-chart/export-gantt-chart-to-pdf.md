@@ -5,35 +5,35 @@ description: Puede exportar el diagrama de Gantt a una PDF. Después, puede impr
 author: Alina
 feature: Work Management
 exl-id: 91aad9e0-25c9-4eae-aa66-8aab763d3b76
-source-git-commit: 0792651822fd85cb3bfbb754aaf949c4fc4038a1
+source-git-commit: c8987d036e1c1324618cb53ebcbb8fd7e4bcc6a4
 workflow-type: tm+mt
 source-wordcount: '979'
-ht-degree: 41%
+ht-degree: 40%
 
 ---
 
 # Exportar el [!UICONTROL gráfico Gantt] a PDF
 
-<!--Audited: 5/2025-->
+<!--Audited: 08/2025-->
 
 Puede exportar el [!UICONTROL gráfico Gantt] a una PDF. Después, puede imprimirlo o adjuntarlo a un correo electrónico para compartirlo con otros usuarios.
 
 ## Requisitos de acceso
 
-+++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plan de [!UICONTROL Adobe Workfront]</td> 
-   <td> <p>Cualquiera </p> </td> 
+   <td role="rowheader">Paquete de [!UICONTROL Adobe Workfront]</td> 
+   <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licencia de [!UICONTROL Adobe Workfront]</td> 
-   <td> <p>Nuevo:[!UICONTROL Light] o superior</p>
-   <p>Actual:[!UICONTROL Review] o superior</p> </td> 
+   <td> <p>[!UICONTROL Light] o superior</p>
+   <p>[!UICONTROL Review] o superior</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso</td> 
@@ -41,7 +41,7 @@ Puede exportar el [!UICONTROL gráfico Gantt] a una PDF. Después, puede imprimi
   </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>[!UICONTROL View] o acceso superior al proyecto</p> </td> 
+   <td> <p>[!UICONTROL View] o acceso superior al proyecto y las tareas</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -49,6 +49,34 @@ Puede exportar el [!UICONTROL gráfico Gantt] a una PDF. Después, puede imprimi
 Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Adobe Workfront] plan</td> 
+   <td> <p>Any </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Adobe Workfront] license</td> 
+   <td> <p>New:[!UICONTROL Light] or higher</p>
+   <p>Current:[!UICONTROL Review] or higher</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>[!UICONTROL View] or higher access to Projects and Tasks</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>[!UICONTROL View] or higher access to the project</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+-->
 
 ## Exportar el [!UICONTROL gráfico Gantt]
 

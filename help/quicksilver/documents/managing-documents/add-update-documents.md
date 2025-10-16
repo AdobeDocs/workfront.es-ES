@@ -6,10 +6,10 @@ description: Puede añadir o responder a las actualizaciones de un documento par
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 8ecf8281-7fbd-446e-80e4-f9f0a864ad65
-source-git-commit: 85a2f154b3b561cdf53c68d50e66b8945f9f9823
+source-git-commit: 4a0448583cbcfd1f1df10d6474fdf4e77e7bff3e
 workflow-type: tm+mt
-source-wordcount: '381'
-ht-degree: 91%
+source-wordcount: '365'
+ht-degree: 89%
 
 ---
 
@@ -23,20 +23,19 @@ Puede añadir o responder a las actualizaciones de un documento para comunicarse
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
-Debe tener lo siguiente:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Plan de Adobe Workfront</td> 
+   <td role="rowheader">paquete de Adobe Workfront</td> 
    <td> <p> Cualquiera</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licencias de Adobe Workfront*</td> 
-   <td> <p>Nuevo: colaborador o superior</p> 
-   <p>Actual: solicitud o superior</p>
+   <td role="rowheader">Licencias de Adobe Workfront</td> 
+   <td> <p>Colaborador o superior</p> 
+   <p>Solicitud o superior</p>
    </td> 
   </tr> 
   <tr> 
@@ -51,7 +50,7 @@ Debe tener lo siguiente:
  </tbody> 
 </table>
 
-*Para saber qué plan, tipo de licencia o acceso tiene, póngase en contacto con su administrador de Workfront. Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -61,7 +60,7 @@ Debe tener lo siguiente:
 1. Busque el documento que necesita y realice una de las siguientes acciones:
 
    * Haga clic en el documento de la lista, haga clic en el icono **Abrir resumen** ![Abrir icono de resumen](assets/qs-summary-in-new-toolbar-small.png) en la esquina superior derecha y, a continuación, agregue un nuevo comentario, o haga clic en **Responder** para agregar una respuesta a un comentario existente. Para obtener información sobre el resumen, consulte [Resumen de la información general de documentos](../../documents/managing-documents/summary-for-documents.md).
-   * Pase el ratón sobre el documento, haga clic en **Detalles del documento** y, a continuación, en **Actualizaciones** en el panel izquierdo.
+   * Pase el puntero por encima del documento, haga clic en **Detalles del documento** y, a continuación, en **Actualizaciones** en el panel izquierdo.
 Para obtener más información sobre cómo añadir actualizaciones a objetos, consulte [Actualizar trabajo](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
    Las actualizaciones y respuestas se añaden al documento y a los objetos mejor situados. Para obtener más información, consulte [Información general sobre la sección Actualizar](../../workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).

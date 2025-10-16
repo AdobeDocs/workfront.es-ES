@@ -6,10 +6,10 @@ description: El proceso de creación y administración de gastos es el mismo par
 author: Lisa
 feature: Work Management
 exl-id: 80c41b08-3618-4d6e-8d07-1736b2f824ea
-source-git-commit: e1884aa7975018a737538d909954319e6feee318
+source-git-commit: 23a4d055871c9138818e70fa1cd936581dbd7552
 workflow-type: tm+mt
-source-wordcount: '504'
-ht-degree: 41%
+source-wordcount: '495'
+ht-degree: 36%
 
 ---
 
@@ -30,27 +30,27 @@ La cantidad total de los gastos de todas las tareas y proyectos que contribuye a
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Plan de Adobe Workfront</td> 
+   <td>paquete de Adobe Workfront</td> 
    <td>Cualquiera</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licencia de Adobe Workfront</td> 
+   <td>Licencia de Adobe Workfront</td> 
    <td>
-   <p>Nuevo: estándar</p>
-   <p>Actual: Trabajo o superior</p></td> 
+   <p>Estándar</p>
+   <p>Trabajo o superior</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraciones de nivel de acceso</td> 
+   <td>Configuraciones de nivel de acceso</td> 
    <td>Acceso de edición a proyectos y datos financieros</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Permisos de objeto</td> 
-   <td>Permisos de contribución o superiores para el proyecto con permisos de Ver o Administrar finanzas</td> 
+   <td>Permisos de objeto</td> 
+   <td>Aportar o permisos superiores al proyecto, con permisos para Ver o Administrar finanzas</td> 
   </tr> 
  </tbody> 
 </table>
 
-Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

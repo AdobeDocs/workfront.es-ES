@@ -2,15 +2,15 @@
 product-area: enterprise-scenario-planner-product-area
 keywords: publicar,planes,proyectos,escenario,escenarios
 navigation-topic: enterprise-scenario-planner-navigation-topic
-title: Actualizar o crear proyectos mediante la publicación de iniciativas en el Planificador de escenarios
+title: Actualizar o crear proyectos publicando iniciativas en el Scenario Planner
 description: Puede crear proyectos a partir de iniciativas existentes, así como actualizar proyectos previamente vinculados a iniciativas mediante la publicación de escenarios en el Planificador de escenarios de Adobe Workfront.
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 46d3666a-4454-4a84-8c02-a79f3947a18f
-source-git-commit: 7cfe82eb703e2a043c264cf86c0e5424d1e33d78
+source-git-commit: aa2e9a012a60ab10e2d027dedae520b5e06686c7
 workflow-type: tm+mt
-source-wordcount: '1729'
-ht-degree: 84%
+source-wordcount: '1696'
+ht-degree: 82%
 
 ---
 
@@ -23,7 +23,47 @@ Al publicar un escenario desde [!DNL Adobe Workfront Scenario Planner] se logra 
 
 ## Requisitos de acceso
 
-+++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo. 
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td> <p>[!DNL Adobe Workfront] paquete</p> </td> 
+   <td> 
+   <p>Workfront Ultimate</p>
+<p><b>NOTA</b></p>
+<p>Hable con su representante de Workfront si tiene un paquete de Workfront diferente.</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td> <p>[!DNL Adobe Workfront] licencia</p> </td> 
+   <td> <p>[!UICONTROL Light] o superior</p> 
+   <p>[!UICONTROL Review] o superior</p> </td> 
+  </tr> 
+    <tr> 
+   <td>Configuraciones de nivel de acceso</td> 
+   <td> <p>Acceso de [!UICONTROL Edit] para [!DNL Scenario Planner] y [!UICONTROL Projects]</p></td> 
+  </tr> 
+  <tr> 
+   <td> <p>Permisos de objeto </p> </td> 
+   <td> <ul> 
+     <li>Permisos de [!UICONTROL Manage] para el plan </li> 
+     <li>Permisos de [!UICONTROL Manage] para proyectos publicados</li> 
+    </ul>  </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+Para obtener más información sobre el acceso al Scenario Planner, consulte [Acceso necesario para usar el [!DNL Scenario Planner]](../scenario-planner/access-needed-to-use-sp.md).
+
+Para obtener información acerca de los requisitos de acceso de Workfront, consulte [Requisitos de acceso a la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
+
+<!--Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -32,41 +72,38 @@ Al publicar un escenario desde [!DNL Adobe Workfront Scenario Planner] se logra 
   <tr> 
    <td> <p>[!DNL Adobe Workfront] plan*</p> </td> 
    <td> <ul></li>
-   <li><p>Nuevo: Ultimate </p></li>
-   <p>El Scenario Planner no está disponible para los nuevos planes Workfront Select o Workfront Prime. </p>
-   <li><p>Actual: [!UICONTROL Business] o superior</p></ul>
+   <li><p>New: Ultimate </p></li>
+   <p>The Scenario Planner is not available for the new Workfront Select or Workfront Prime plans. </p>
+   <li><p>Current: [!UICONTROL Business] or higher</p></ul>
    </td> 
   </tr> 
   <tr> 
-   <td> <p>[!DNL Adobe Workfront] licencia*</p> </td> 
-   <td> <p>Nuevo: Light o superior</p> 
-   <p>Actual: [!UICONTROL Review] o superior</p> </td> 
+   <td> <p>[!DNL Adobe Workfront] license*</p> </td> 
+   <td> <p>New: Light or higher</p> 
+   <p>Current: [!UICONTROL Review] or higher</p> </td> 
   </tr> 
   <tr> 
-   <td>Producto* </td> 
-   <td> <ul><li><p>Para los nuevos planes de Workfront:</p><p> Adobe Workfront</li></p>
-   <li><p>Para los planes actuales de Workfront: </p>
-   <p>Adobe Workfront</p> <p>Planificador de escenarios de Adobe Workfront</p></li></ul>
-
-<p>Para obtener más información, consulte <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Acceso necesario para utilizar [!DNL Scenario Planner]</a>. </p> </td> 
+   <td>Product* </td> 
+   <td> <ul><li><p>For the new Workfront plans:</p><p> Adobe Workfront</li></p>
+   <li><p>For the current Workfront plans: </p>
+   <p>Adobe Workfront</p> <p>Adobe Workfront Scenario Planner</p></li></ul>
+   
+   <p>For more information, see <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Access needed to use the [!DNL Scenario Planner]</a>. </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>Nivel de acceso </td> 
-   <td> <p>Acceso de [!UICONTROL Edit] para [!DNL Scenario Planner] y [!UICONTROL Projects]</p></td> 
+   <td>Access level </td> 
+   <td> <p>[!UICONTROL Edit] access for the [!DNL Scenario Planner] and [!UICONTROL Projects]</p></td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p>Permisos de objeto </p> </td> 
+   <td> <p>Object permissions </p> </td> 
    <td>  <ul> 
-     <li>Permisos de [!UICONTROL Manage] para el plan </li> 
-     <li>Permisos de [!UICONTROL Manage] para proyectos publicados</li> 
-    </ul> <p>Para obtener información sobre cómo solicitar acceso adicional a un plan, consulte <a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref">Solicitar acceso a un plan en [!DNL Scenario Planner]</a>.</p> </td> 
+     <li>[!UICONTROL Manage] permissions for the plan </li> 
+     <li>[!UICONTROL Manage] permissions for published projects</li> 
+    </ul> <p>For information on requesting additional access to a plan, see <a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref">Request access to a plan in the [!DNL Scenario Planner]</a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>
+</table>-->
 
-*Para obtener más información, consulte [Requisitos de acceso a la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
-
-+++
 
 ## Requisitos previos
 

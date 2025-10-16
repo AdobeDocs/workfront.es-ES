@@ -6,10 +6,10 @@ description: Después de haber vinculado un recurso desde Experience Manager Ass
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: abd641a1-081b-4b86-95ee-f0ed030d704c
-source-git-commit: 5d818b2e3c3314c6af076df46f7f806214f97bab
+source-git-commit: 430751f0e38c6c45145c965398990ee3652f36fe
 workflow-type: tm+mt
-source-wordcount: '506'
-ht-degree: 84%
+source-wordcount: '441'
+ht-degree: 81%
 
 ---
 
@@ -23,36 +23,32 @@ Después de haber vinculado un recurso desde Experience Manager Assets Essential
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
-Debe tener lo siguiente:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Plan de Adobe Workfront</td> 
+   <td role="rowheader">paquete de Adobe Workfront</td> 
    <td> <p> Cualquiera</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licencias de Adobe Workfront</td> 
    <td> 
-   <p>Nuevo: estándar</p>
-   <p>O</p>
-   <p>Actual: Trabajo o superior</p>
-   <p>Debe tener la revisión habilitada para el usuario.</p>
+   <p>Estándar</p>
+   <p>Trabajo o superior</p>
     </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Producto</td> 
+   <td role="rowheader">Productos adicionales</td> 
    <td>Debe tener Experience Manager as a Cloud Service o Assets Essentials, además de estar añadido al producto como usuario en Admin Console. </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso</td> 
-   <td> <p>Acceso de edición a documentos</p> <p>Nota: Si sigue sin tener acceso, pregunte al administrador de Workfront si ha establecido restricciones adicionales en su nivel de acceso. Para obtener información sobre cómo un administrador de Workfront puede modificar su nivel de acceso, consulte <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crear o modificar niveles de acceso personalizados</a>.</p> </td> 
+   <td> <p>Acceso de edición a documentos</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Acceso de visualización o superior</p> <p>Para obtener información sobre cómo solicitar acceso adicional, consulte <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acceso a objetos </a>.</p> </td> 
+   <td> <p>Acceso de visualización o superior</p>  </td> 
   </tr> 
  </tbody> 
 </table>

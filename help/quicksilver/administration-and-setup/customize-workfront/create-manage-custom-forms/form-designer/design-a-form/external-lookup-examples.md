@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 13880fcb-8523-45d2-9ac6-38453e8e2391
-source-git-commit: b3a4945cf2db1ba11b42742f0da685b32a6d0dd9
+source-git-commit: 15ac51cc13eeb57d2de194a9a6ceec7683acfbe6
 workflow-type: tm+mt
-source-wordcount: '1438'
-ht-degree: 81%
+source-wordcount: '1414'
+ht-degree: 79%
 
 ---
 
@@ -27,31 +27,27 @@ Para obtener más información sobre cómo agregar un campo de búsqueda externa
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader">Plan de Adobe Workfront </td> 
-   <td>Cualquiera</td> 
+  <tr> 
+   <td>paquete de Adobe Workfront</td> 
+   <td><p>Cualquiera</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licencia de Adobe Workfront</td> 
-   <td>
-   <p>Nuevo: estándar</p>
-   <p>o</p>
-   <p>Actual: plan</p></td> 
+   <td>Licencia de Adobe Workfront</td> 
+   <td><p>Estándar</p>
+       <p>Plan</p></td>
   </tr> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader">Configuraciones de nivel de acceso</td> 
-   <td>Acceso administrativo a formularios personalizados </td> 
+  <tr> 
+   <td>Configuraciones de nivel de acceso</td> 
+   <td> <p>Acceso administrativo a formularios personalizados</p> </td> 
   </tr>  
  </tbody> 
 </table>
 
-Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -131,11 +127,11 @@ Este ejemplo muestra cómo llamar a la API de Workfront e introducir datos de un
    `$.data[*].parameterValues.["DE:Combo Colors"]`
 
    * &quot;parameterValues&quot; hace referencia a cualquier campo personalizado de Workfront para el objeto en el que se encuentra.
-   * Para este ejemplo, &quot;DE: Colores combinados&quot; es el campo personalizado específico que contiene los valores que desea recuperar.
+   * Para este ejemplo, &quot;DE:Combo Colores&quot; es el campo personalizado específico que contiene los valores que desea recuperar.
 
    >[!NOTE]
    >
-   >No se necesita información de **Encabezado** para llamar a la misma instancia de Workfront.
+   >No se necesita información del **Encabezado** para llamar a la misma instancia de Workfront.
 
 1. Haga clic en **Aplicar**.
 

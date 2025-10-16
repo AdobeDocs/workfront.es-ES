@@ -2,22 +2,22 @@
 content-type: reference
 product-area: timesheets
 navigation-topic: timesheets-navigation-topic
-title: "Detalles de la hoja de horas: índice del artículo"
-description: Obtenga más información acerca de las plantillas de horas y su diseño en los siguientes artículos.
-author: Alina
+title: 'Detalles sobre la plantilla de horas: índice de artículos'
+description: Obtenga más información sobre las plantillas de horas y su diseño en los siguientes artículos.
+author: Lisa
 feature: Timesheets
 recommendations: noDisplay, noCatalog
 exl-id: 59ddd607-5e99-43b4-aea5-c6cb0d6aa13d
-source-git-commit: c49b545938a78716084296ef1b4e7c0fc075ef95
+source-git-commit: 69cd5fb1d089b81b7a1673609b92537137b6b68e
 workflow-type: tm+mt
 source-wordcount: '30'
-ht-degree: 6%
+ht-degree: 100%
 
 ---
 
-# Detalles de hoja de horas: índice de artículos
+# Detalles sobre la plantilla de horas: índice de artículos
 
 Esta sección contiene los siguientes artículos:
 
 * [Información general de hojas de horas](../../timesheets/timesheets/timesheets-overview.md)
-* [Resumen del diseño de hoja de horas](../../timesheets/timesheets/timesheet-layout.md)
+* [Información general sobre el diseño de la plantilla de horas](../../timesheets/timesheets/timesheet-layout.md)

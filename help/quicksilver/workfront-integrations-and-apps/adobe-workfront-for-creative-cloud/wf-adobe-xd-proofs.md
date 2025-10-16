@@ -6,10 +6,10 @@ description: Puede cargar las mesas de trabajo como pruebas directamente en Adob
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: d6699fd7-f130-4231-8713-0cfa8dc3c910
-source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
+source-git-commit: a65a4568c6428768ee6bc60a59a8499efdbec9f8
 workflow-type: tm+mt
-source-wordcount: '1055'
-ht-degree: 94%
+source-wordcount: '1000'
+ht-degree: 93%
 
 ---
 
@@ -21,22 +21,20 @@ Puede cargar las mesas de trabajo como pruebas directamente en [!DNL Adobe Workf
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
-  <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
-   <td> <p>Plan actual: [!UICONTROL Pro] o superior</p> <p>o</p> <p>Plan heredado: [!UICONTROL Premium]</p> <p>Para obtener más información sobre el acceso de revisión con los diferentes planes, consulte .</p> </td> 
+ <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] paquete</td> 
+   <td>Cualquiera </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licencia*</td> 
-   <td> <p>Plan actual: [!UICONTROL Work] o [!UICONTROL Proof]</p> <p>Plan heredado: cualquiera (debe tener la revisión habilitada para el usuario)</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] licencia</td> 
+   <td> <p>Estándar</p> <p>Trabajo o superior</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Producto</td> 
+   <td role="rowheader">Productos adicionales</td> 
    <td>Debe tener una licencia [!DNL Adobe Creative Cloud] además de una licencia [!DNL Workfront].</td> 
   </tr> 
   <tr> 
@@ -50,7 +48,8 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  </tbody> 
 </table>
 
-&#42;Para saber qué plan, función o perfil de permiso de revisión tiene, comuníquese con el administrador de [!DNL Workfront] o [!DNL Workfront Proof].
+Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
 
 +++
 
@@ -108,7 +107,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 1. (Opcional) Escriba un comentario en el área de **[!UICONTROL Actualizaciones]**.
 
-   XD ![Aprobaciones de revisión en la fecha de aprobación de la prueba](assets/proof-approvals-xd-350x396.png)
+   ![Aprobaciones de revisión en XD](assets/proof-approvals-xd-350x396.png)
 
 1. Elija el formato de exportación en el menú desplegable **[!UICONTROL Tipo de recurso]**.
 
@@ -117,7 +116,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 1. (Opcional) Asigne un nombre al PDF.
 
-   ![opciones de PDF](assets/pdf-options.png)
+   ![Opciones de PDF](assets/pdf-options.png)
 
 1. Haga clic en **[!UICONTROL Cargar]**\
    El documento aparece en el área de [!UICONTROL Documentos] del complemento y de la aplicación de escritorio.
@@ -184,10 +183,10 @@ Puede crear una prueba interactiva para las mesas de trabajo con el complemento 
 
 1. (Opcional) Escriba un comentario en el área de **[!UICONTROL Actualizaciones]**.
 
-   XD ![Aprobaciones de revisión en la fecha de aprobación de la prueba](assets/proof-approvals-xd-350x396.png)
+   ![Aprobaciones de revisión en XD](assets/proof-approvals-xd-350x396.png)
 
 1. En el menú desplegable **[!UICONTROL Tipo de recurso]**, elija el vínculo que acaba de crear en la pestaña **Vínculos compartidos**. Para obtener más información, consulte [Crear un vínculo interactivo para la mesa de trabajo](#create-an-interactive-link-for-your-artboard).\
-   XD ![Vínculos compartidos en el espacio de trabajo de &lbrace;100](assets/shared-links-xd-350x870.png)
+   ![Vínculos compartidos en XDS](assets/shared-links-xd-350x870.png)
 
 1. Haga clic en **[!UICONTROL Cargar]**
 
@@ -243,17 +242,17 @@ Puede cargar una nueva versión de una prueba. El complemento recuerda el flujo 
 
 1. Elija el formato de exportación en el menú desplegable **[!UICONTROL Tipo de recurso]**.
 
-   XD ![Crear una prueba en el](assets/create-a-proof-xd-350x202.png)
+   ![Crear una revisión en XD](assets/create-a-proof-xd-350x202.png)
 
 1. (Opcional) Escriba un comentario en el área de **[!UICONTROL Actualizaciones]**.
 
-   XD ![Aprobaciones de revisión en la fecha de aprobación de la prueba](assets/proof-approvals-xd-350x396.png)
+   ![Aprobaciones de revisión en XD](assets/proof-approvals-xd-350x396.png)
 
 1. (Opcional) Si selecciona PDF como tipo de recurso y tiene más de una mesa de trabajo seleccionada, elija si desea exportar las mesas de trabajo como un **[!UICONTROL solo archivo PDF]** o **[!UICONTROL varios archivos PDF]**.
 
 1. (Opcional) Asigne un nombre al PDF.
 
-   Opciones del PDF
+   Opciones de PDF
 
 1. Haga clic en **[!UICONTROL Cargar]**\
    El documento aparece en el área [!UICONTROL Documentos] en el complemento y en la aplicación de escritorio.

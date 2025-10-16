@@ -6,10 +6,10 @@ description: Puede cargar sus tableros de arte como documentos para una revisió
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: ee3dc446-6886-4285-a942-4f44f5c0ac31
-source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
+source-git-commit: a65a4568c6428768ee6bc60a59a8499efdbec9f8
 workflow-type: tm+mt
-source-wordcount: '695'
-ht-degree: 92%
+source-wordcount: '640'
+ht-degree: 91%
 
 ---
 
@@ -21,22 +21,21 @@ Puede cargar sus tableros de arte como pruebas directamente a [!DNL Adobe Workfr
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
  <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
-   <td> <p>Plan actual: [!UICONTROL Pro] o superior</p> <p>o</p> <p>Plan heredado: [!UICONTROL Premium]</p> <p>Para obtener más información sobre el acceso de revisión con los diferentes planes, consulte .</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] paquete</td> 
+   <td>Cualquiera </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licencia*</td> 
-   <td> <p>Plan actual: [!UICONTROL Work] o [!UICONTROL Proof]</p> <p>Plan heredado: cualquiera (debe tener la revisión habilitada para el usuario)</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] licencia</td> 
+   <td> <p>Estándar</p> <p>Trabajo o superior</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Producto</td> 
+   <td role="rowheader">Productos adicionales</td> 
    <td>Debe tener una licencia [!DNL Adobe Creative Cloud] además de una licencia [!DNL Workfront].</td> 
   </tr> 
   <tr> 
@@ -50,7 +49,8 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  </tbody> 
 </table>
 
-&#42;Para saber qué plan, función o perfil de permiso de revisión tiene, comuníquese con el administrador de [!DNL Workfront] o [!DNL Workfront Proof].
+Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
 
 +++
 
@@ -131,7 +131,7 @@ Puede cargar una nueva versión de una prueba. El complemento recuerda el flujo 
 1. Haga clic en **[!UICONTROL Nueva versión]** cerca de la parte inferior del complemento.
 1. Habilite el conmutador **[!UICONTROL Crear una revisión]**.
 
-1. En la sección *[!UICONTROL *Aprobaciones de revisión]&#x200B;**, elija &#x200B;** [!UICONTROL Básico] **&#x200B; o &#x200B;** [!UICONTROL Automatizado]**.
+1. En la sección *[!UICONTROL *Aprobaciones de revisión]**, elija **[!UICONTROL Básico]** o **[!UICONTROL Automatizado]**.
 
 1. Añada **[!UICONTROL Revisores]** o una **[!UICONTROL Plantilla de flujo de trabajo]** según el tipo de aprobación que seleccionó en el paso 7.
 

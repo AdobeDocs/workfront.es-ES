@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 3dd99d01-a32f-4af8-90e3-f8c0e9027651
-source-git-commit: 0239cad2d9173da20770934e6132b29301117cdf
+source-git-commit: f8d04790caefd12c9811ea3ed94e1f892311d031
 workflow-type: tm+mt
-source-wordcount: '503'
-ht-degree: 71%
+source-wordcount: '480'
+ht-degree: 69%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 71%
 >
 >The procedure described on this page applies only to organizations that have not yet been onboarded to the Admin Console. If your organization has been onboarded to the Adobe Admin Console, you must perform this action through the Adobe Admin Console.
 >
->For instructions on editing a user's profile in the Adobe Admin Console, see the section "Add users" in the article [Bulk Upload Users](https://helpx.adobe.com/es/enterprise/using/bulk-upload-users.html) or contact your Adobe Admin Console Administrator.
+>For instructions on editing a user's profile in the Adobe Admin Console, see the section "Add users" in the article [Bulk Upload Users](https://helpx.adobe.com/enterprise/using/bulk-upload-users.html) or contact your Adobe Admin Console Administrator.
 >
 >For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Admin Console, see [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
@@ -37,22 +37,20 @@ Antes de crear un nuevo usuario, asegúrese primero de que ha creado todos los o
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Plan de Adobe Workfront</td> 
-   <td>Cualquiera</td> 
+   <td>paquete de Adobe Workfront</td> 
+   <td><p>Cualquiera</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licencia de Adobe Workfront</td> 
-   <td><p>Nuevo: estándar</p><p>O</p><p>Actual: plan</p></td> 
+   <td>Licencia de Adobe Workfront</td> 
+   <td><p>Estándar</p><p>Plan</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraciones de nivel de acceso</td> 
+   <td>Configuraciones de nivel de acceso</td> 
    <td> <p>Debe tener uno de los siguientes elementos:</p> 
     <ul> 
      <li> <p>El nivel de acceso del administrador del sistema. </li> 
@@ -62,7 +60,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  </tbody> 
 </table>
 
-Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -88,7 +86,7 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
 
    * **ID de inicio de sesión SSO**
 
-     Este campo se incluye únicamente si el SSO está activado en el sistema. Debe añadir el ID de federación en este campo para cada usuario. Cuando crea un usuario desde la pestaña Personas, puede configurar una contraseña para el usuario si desea permitir que los usuarios inicien sesión sin SSO. Sin embargo, la función de importación no permite dejar en blanco el ID de inicio de sesión de SSO.
+     Este campo se incluye únicamente si el SSO está habilitado en el sistema. Debe añadir el ID de federación en este campo para cada usuario. Cuando crea un usuario desde la pestaña Personas, puede configurar una contraseña para el usuario si desea permitir que los usuarios inicien sesión sin SSO. Sin embargo, la función de importación no permite dejar en blanco el ID de inicio de sesión de SSO.
 
    * Asegúrese de que no haya espacios adicionales antes o después de la dirección de correo electrónico de un usuario.
 
@@ -118,4 +116,4 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
 > 
 >Si un usuario no abandona el estado de Desactivado y Aprobación pendiente en unos minutos, y una actualización de pantalla no elimina el distintivo de Aprobación pendiente, puede añadir el lote de usuarios directamente a Adobe Admin Console.
 >
->Para obtener instrucciones, consulte [Administrar varios usuarios | Carga masiva de CSV](https://helpx.adobe.com/es/enterprise/using/bulk-upload-users.html) en la documentación de Adobe.
+>Para obtener instrucciones, consulte [Administrar varios usuarios | Carga masiva de CSV](https://helpx.adobe.com/enterprise/using/bulk-upload-users.html) en la documentación de Adobe.

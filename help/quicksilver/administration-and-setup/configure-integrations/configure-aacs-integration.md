@@ -6,9 +6,9 @@ description: Puede conectar su trabajo con su contenido en  [!DNL Experience Man
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: bc58cc77-a177-417f-a5a4-eec51e305219
-source-git-commit: d585b698b6c7900d861a30dc6b5e0bff6bd6d13a
+source-git-commit: 85ccee879fd4ba5a80b6e885458839901f83d26e
 workflow-type: tm+mt
-source-wordcount: '1708'
+source-wordcount: '1702'
 ht-degree: 94%
 
 ---
@@ -39,34 +39,35 @@ Puede conectar su trabajo con el contenido en [!DNL Experience Manager Assets]:
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
-Debe tener el siguiente acceso para realizar los pasos de este artículo:
-
 <table>
   <tr>
-   <td>[!DNL Adobe Workfront] plan
+   <td>paquete de Adobe Workfront
    </td>
-   <td>Cualquiera
+   <td> <p>PRIME o ULTIMATE</p>
+    <p>Workflow Ultimate</p>
+   </td>
+  </tr>
+    <tr>
+   <td>Licencias de Adobe Workfront
+   </td>
+   <td>Estándar
+   <p>Plan</p>
+   </td>
+  </tr>
+  </tr>
+    <tr>
+   <td>Licencias de Adobe Experience Manager
+   </td>
+   <td>Estándar
    </td>
   </tr>
   <tr>
-   <td>[!DNL Adobe Workfront] licencia
-   </td>
-   <td><p>Actual: [!UICONTROL Plan]</p>
-   <p>Nuevo: [!UICONTROL Standard]</p></td>
-  </tr>
-  <tr>
-   <td>[!DNL Experience Manager] licencia
-   </td>
-   <td>[!UICONTROL Standard]
-   </td>
-  </tr>
-  <tr>
-   <td>Producto
+   <td>Productos adicionales
    </td>
    <td>Debe tener [!DNL Experience Manager Assets as a Cloud Service] y se le debe añadir al producto como usuario.
    </td>
   </tr>
-  <tr>
+   <tr>
    <td>Configuraciones de nivel de acceso
    </td>
    <td>Debe ser administrador de [!DNL Workfront].
@@ -121,7 +122,7 @@ Antes de empezar a asignar campos de metadatos, debe configurarlos tanto en Work
 
 Para configurar campos de metadatos:
 
-1. Configure un esquema de metadatos en [!DNL Experience Manager Assets] como se explica en [Configurar la asignación de metadatos de recursos entre Adobe [!DNL Workfront]  y  [!DNL Experience Manager Assets]](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
+1. Configure un esquema de metadatos en [!DNL Experience Manager Assets] como se explica en [Configurar la asignación de metadatos de recursos entre Adobe [!DNL Workfront]  y  [!DNL Experience Manager Assets]](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
 
 
 1. Configure campos de formulario personalizados en Workfront. [!DNL Workfront] tiene muchos campos personalizados integrados que puede utilizar. Sin embargo, también puede crear sus propios campos personalizados, tal como se explica en [Crear un formulario personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
@@ -151,7 +152,7 @@ Puede asignar cualquier campo compatible con Workfront a una etiqueta de Experie
 
 Una vez creadas las etiquetas en Experience Manager Assets, aparecerán en la lista desplegable Etiquetas de la sección Metadatos. Para vincular un campo a una etiqueta, seleccione `xcm:keywords` en la lista desplegable de campos de Experience Manager Assets en el área de asignación de metadatos.
 
-Para obtener más información sobre las etiquetas en Experience Manager Assets, incluyendo cómo crear y administrar etiquetas, consulte [Administración de etiquetas](https://experienceleague.adobe.com/es/docs/experience-manager-64/administering/contentmanagement/tags).
+Para obtener más información sobre las etiquetas en Experience Manager Assets, incluyendo cómo crear y administrar etiquetas, consulte [Administración de etiquetas](https://experienceleague.adobe.com/en/docs/experience-manager-64/administering/contentmanagement/tags).
 
 **Campos de esquema de metadatos personalizados de Experience Manager Assets**
 
