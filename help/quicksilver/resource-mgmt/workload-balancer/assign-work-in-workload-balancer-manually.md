@@ -7,7 +7,7 @@ author: Lisa
 feature: Resource Management
 role: User
 exl-id: 445cb250-53a4-488b-911d-3afca3a02c23
-source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
+source-git-commit: e1580f7b9065fce7bb31ab0c7edb00fd2856e1df
 workflow-type: tm+mt
 source-wordcount: '747'
 ht-degree: 81%
@@ -15,8 +15,6 @@ ht-degree: 81%
 ---
 
 # Asignar trabajo manualmente mediante el Distribuidor de cargas de trabajo
-
-{{preview-fast-release-general}}
 
 Puede asignar manualmente elementos de trabajo a los usuarios mediante el Distribuidor de cargas de trabajo de Adobe Workfront.
 
@@ -69,7 +67,7 @@ Puede asignar elementos de trabajo que aún no se hayan asignado a un usuario o 
 
    Puede asignar trabajo a los usuarios mediante el Distribuidor de cargas de trabajo en el área de Recursos, en el proyecto o en el nivel de equipo. Para obtener más información sobre dónde se encuentra el Distribuidor de cargas de trabajo en Workfront, consulte [Buscar el Distribuidor de cargas de trabajo](../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
 
-1. (Opcional) Vaya al área de **Trabajo sin asignar** y aplique un filtro para ver tareas, problemas, <span class="preview">o asignaciones de roles</span>.
+1. (Opcional) Vaya al área **Trabajo sin asignar** y aplique un filtro para ver tareas, problemas o asignaciones de funciones.
 
    O
 
@@ -77,9 +75,9 @@ Puede asignar elementos de trabajo que aún no se hayan asignado a un usuario o 
 
    >[!NOTE]
    >
-   ><span class="preview">Las asignaciones de rol se muestran en elementos de trabajo en el área de trabajo no asignado cuando la opción Mostrar asignaciones de rol está habilitada. Para obtener más información, consulte [Personalizar la vista](/help/quicksilver/resource-mgmt/workload-balancer/navigate-the-workload-balancer.md#customize-the-view) en [Desplazarse por el Distribuidor de cargas de trabajo](/help/quicksilver/resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).</span>
+   >Las asignaciones de roles se muestran en elementos de trabajo en el área Trabajo no asignado cuando la opción Mostrar asignaciones de roles está activada. Para obtener más información, consulte [Personalizar la vista](/help/quicksilver/resource-mgmt/workload-balancer/navigate-the-workload-balancer.md#customize-the-view) en [Navegar por el Distribuidor de cargas de trabajo](/help/quicksilver/resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
 
-1. Haga clic en el **menú Más** ![menú Más](assets/qs-more-menu.png) que se encuentra a la izquierda del nombre de un elemento de trabajo <span class="preview">o de la asignación de funciones</span> y, a continuación, haga clic en **Asignar esto a**.
+1. Haga clic en el **menú Más** ![menú Más](assets/qs-more-menu.png) que se encuentra a la izquierda del nombre de un elemento de trabajo o de la asignación de funciones y, a continuación, haga clic en **Asignar esto a**.
 
    ![Asignar esto a](assets/assign-this-to-link-from-task-wb-nwe-350x104.png)
 

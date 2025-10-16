@@ -6,16 +6,14 @@ description: Puede asignar elementos de trabajo mediante el Distribuidor de carg
 author: Lisa
 feature: Resource Management
 exl-id: caffcde8-3953-44a4-b945-76f2de84f4c6
-source-git-commit: 2a52b1e401eae79c55076afd352cc83e1829140a
+source-git-commit: e1580f7b9065fce7bb31ab0c7edb00fd2856e1df
 workflow-type: tm+mt
-source-wordcount: '964'
+source-wordcount: '945'
 ht-degree: 68%
 
 ---
 
 # Asignar trabajo en el Distribuidor de cargas de trabajo arrastrándolo y soltándolo
-
-{{preview-fast-release-general}}
 
 Puede asignar elementos de trabajo mediante el Distribuidor de cargas de trabajo de Adobe Workfront arrastrando elementos de trabajo y soltándolos en los usuarios correctos.
 
@@ -68,7 +66,7 @@ Puede asignar a un usuario un elemento desde el área Trabajo sin asignar o reas
 
    Puede asignar trabajo a los usuarios mediante el Distribuidor de cargas de trabajo en el área de Recursos, en el proyecto o en el nivel de equipo. Para obtener más información sobre dónde se encuentra el Distribuidor de cargas de trabajo en Workfront, consulte [Buscar el Distribuidor de cargas de trabajo](../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
 
-1. (Opcional) Vaya al área de **Trabajo sin asignar** y aplique un filtro para ver las tareas, problemas, <span class="preview">y asignaciones de roles</span> que no estén asignados a los usuarios
+1. (Opcional) Vaya al área de **Trabajo sin asignar** y aplique un filtro para ver las tareas, los problemas y las asignaciones de funciones que no están asignadas a los usuarios
 
    O
 
@@ -76,7 +74,7 @@ Puede asignar a un usuario un elemento desde el área Trabajo sin asignar o reas
 
    >[!NOTE]
    >
-   ><span class="preview">Las asignaciones de rol se muestran en elementos de trabajo en el área de trabajo no asignado cuando la opción Mostrar asignaciones de rol está habilitada. Para obtener más información, consulte [Personalizar la vista](/help/quicksilver/resource-mgmt/workload-balancer/navigate-the-workload-balancer.md#customize-the-view) en [Desplazarse por el Distribuidor de cargas de trabajo](/help/quicksilver/resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).</span>
+   >Las asignaciones de roles se muestran en elementos de trabajo en el área Trabajo no asignado cuando la opción Mostrar asignaciones de roles está activada. Para obtener más información, consulte [Personalizar la vista](/help/quicksilver/resource-mgmt/workload-balancer/navigate-the-workload-balancer.md#customize-the-view) en [Navegar por el Distribuidor de cargas de trabajo](/help/quicksilver/resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
 
 1. (Condicional) En el Distribuidor de cargas de trabajo de un proyecto, haga clic en el icono **Mostrar todos los usuarios** ![Mostrar todos los usuarios](assets/show-all-users-icon-project-workload-balancer.png) para mostrar todos los usuarios de Workfront.
 
@@ -91,25 +89,21 @@ Puede asignar a un usuario un elemento desde el área Trabajo sin asignar o reas
    >* La opción Mostrar todos los usuarios solo está disponible en el Distribuidor de cargas de trabajo de un proyecto.
    >* Utilice los filtros para mostrar solo los usuarios que le resultan importantes. Por ejemplo, utilice un filtro para mostrar solo los usuarios de sus equipos o grupos.
 
-1. Haga clic en la barra de un elemento de trabajo <span class="preview">o de una asignación de rol</span> que indique la escala de tiempo planeada o proyectada y arrástrela sobre las horas de un usuario en el área **Asignado**.
+1. Haga clic en la barra de un elemento de trabajo o asignación de rol que indique la escala de tiempo planificada o proyectada y arrástrela sobre las horas de un usuario en el área **Asignado**.
 
    El usuario por encima del cual pasa el puntero para soltar el elemento de trabajo queda resaltado.
 
-   <span class="preview">Al arrastrar y soltar asignaciones de roles, el usuario se resalta en naranja si su rol actual no coincide con la asignación de roles. Aún puede asignar el trabajo al usuario cuando los roles no coincidan.</span>
+   Al arrastrar y soltar asignaciones de roles, el usuario se resalta en naranja si su rol actual no coincide con la asignación de roles. Puede asignar el trabajo al usuario cuando las funciones no coincidan.
 
    >[!TIP]
    >
    >Las horas planificadas del usuario por encima del cual pasa el puntero se actualizan en tiempo real con el número de horas planificadas diarias desde el elemento de trabajo para indicar cómo impacta a su asignación general la inclusión de un nuevo elemento.
 
-   <span class="preview">Imagen de muestra en el entorno de vista previa:</span>
    ![Soltar elemento para asignarlo a un usuario](assets/wb-drag-drop-role-or-task-to-user.png)
 
-   Imagen de muestra en el entorno de producción:
-   ![Soltar elemento para asignarlo a un usuario](assets/drag-drop-item-from-unassigned-to-assigned-wb-nwe-350x152.png)
+1. Cuando esté listo, suelte el elemento de trabajo o la asignación de rol seleccionados en la misma línea que el nombre del usuario en el área asignada. El elemento se asignará y las horas planificadas asignadas al usuario se actualizarán con las nuevas horas del elemento de trabajo.
 
-1. Cuando esté listo, suelte el elemento de trabajo seleccionado <span class="preview">o la asignación de rol</span> en la misma línea que el nombre del usuario en el área asignada. El elemento se asignará y las horas planificadas asignadas al usuario se actualizarán con las nuevas horas del elemento de trabajo.
-
-   <span class="preview">Si la opción Mostrar asignaciones de rol no está habilitada</span> y el elemento de trabajo se asignó a un rol que el usuario no puede cumplir, el elemento se mostrará bajo el nombre del usuario en el área Trabajo asignado. También permanece en el área de Trabajo no asignado para indicar que el rol asociado a él aún no ha sido reemplazado por un usuario.
+   Si la opción Mostrar asignaciones de roles no está habilitada y el elemento de trabajo se asignó a un rol que el usuario no puede cumplir, el elemento se muestra bajo el nombre del usuario en el área Trabajo asignado. También permanece en el área de Trabajo no asignado para indicar que el rol asociado a él aún no ha sido reemplazado por un usuario.
 
    >[!TIP]
    >

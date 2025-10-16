@@ -7,16 +7,14 @@ author: Lisa
 feature: Work Management, Tasks
 role: User
 exl-id: 611b136e-2c3f-4eac-9d75-e8c12e06148d
-source-git-commit: d0be569333b0454e26f4d0de1078b0425cf81707
+source-git-commit: e1580f7b9065fce7bb31ab0c7edb00fd2856e1df
 workflow-type: tm+mt
-source-wordcount: '1814'
+source-wordcount: '1820'
 ht-degree: 95%
 
 ---
 
 # Asignar tareas
-
-{{preview-fast-release-general}}
 
 <!--Audited: 07/2024-->
 
@@ -206,7 +204,7 @@ Para asignar tareas de una lista:
      <!--<span class="preview">When adding a job role assignment, you can search for the job role or location. Select a Job role to use the default billing rate for the assignment, or select a Rate Card job role to use the billing rate from the rate card. For more information on rate cards, see [Manage rate cards](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).</span>-->
 
 
-1. (Condicional) En el campo Asignaciones, haga clic en <span class="preview">**Avanzadas**</span> o en el **icono Personas** ![Icono Personas](assets/teams.png) en la esquina superior derecha del cuadro Asignaciones para abrir el cuadro **Asignaciones avanzadas** y crear asignaciones avanzadas.
+1. (Condicional) En el campo Asignaciones, haga clic en **Avanzadas** al final de la lista o en el **icono Personas** ![Icono Personas](assets/teams.png) en la esquina superior derecha del cuadro Asignaciones, para abrir el cuadro **Asignaciones avanzadas** y crear asignaciones avanzadas.
 
    Para obtener más información, consulte [Crear asignaciones avanzadas](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md).
 

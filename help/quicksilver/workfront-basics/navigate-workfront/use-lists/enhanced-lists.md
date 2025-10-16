@@ -5,7 +5,7 @@ description: Las listas mejoradas utilizan un formato de tabla para mostrar los 
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 4c25ed54-b147-4fd3-8d00-6f1ba61bbd38
-source-git-commit: dc820b4012fec494ce5ebb1baefb4ee0df214916
+source-git-commit: ad9739ac670f723203f1e5e9148c446b6356c126
 workflow-type: tm+mt
 source-wordcount: '1124'
 ht-degree: 7%
@@ -13,8 +13,6 @@ ht-degree: 7%
 ---
 
 # Uso de listas mejoradas
-
-{{preview-fast-release-general}}
 
 Las listas mejoradas están disponibles en algunas áreas de Adobe Workfront. Estas listas utilizan un formato de tabla para mostrar los elementos de la lista, y tienen un aspecto diferente al de las listas estándar. También se mejora la administración de vistas, incluidos el filtrado, la agrupación, la administración de columnas y la búsqueda.
 
@@ -126,7 +124,7 @@ Algunas listas mejoradas permiten ocultar y mostrar columnas y reordenarlas.
    >
    >El icono junto al nombre de un campo muestra el tipo de campo, como el campo de texto o de fecha.
 
-   <span class="preview">Aparece un indicador en el botón **Columnas** cuando las columnas están ocultas. El indicador no aparece al reordenar las columnas.</span>
+   Aparece un indicador en el botón **Columnas** cuando las columnas están ocultas. El indicador no aparece cuando se reordenan las columnas.
 
    ![Indicador de columnas ocultas](assets/glist-columns-hidden-indicator.png)
 
@@ -149,7 +147,7 @@ Los filtros le ayudan a reducir la cantidad de información que se muestra en la
 1. Haga clic en **Agregar condición** para agregar otra condición al filtro como una instrucción OR.
 1. Cuando se aplique el filtro, puede volver a abrir las opciones de **Filter** para cambiar las opciones de filtro o borrar todos los filtros.
 
-   <span class="preview">Aparece un indicador en el botón **Filtro** cuando se aplica un filtro a la lista.</span>
+   Aparece un indicador en el botón **Filter** cuando se aplica un filtro a la lista.
 
    ![Indicador de filtro aplicado](assets/glist-filter-applied-indicator.png)
 
@@ -164,7 +162,7 @@ Los filtros le ayudan a reducir la cantidad de información que se muestra en la
 
    ![Agrupación en listas mejoradas](assets/glist-group-by-due-date-priorities.png)
 
-   <span class="preview">Aparece un indicador en el botón **Grupo** cuando se aplica una agrupación a la lista.</span>
+   Aparece un indicador en el botón **Grupo** cuando se aplica una agrupación a la lista.
 
    ![Indicador aplicado de agrupación](assets/glist-grouping-applied-indicator.png)
 

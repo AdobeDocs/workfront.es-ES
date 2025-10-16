@@ -6,16 +6,14 @@ description: Utilice el Distribuidor de cargas de trabajo para comprender la dis
 author: Lisa
 feature: Resource Management
 exl-id: 60dabfc5-6a2e-4368-9dac-db48d0307895
-source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
+source-git-commit: e1580f7b9065fce7bb31ab0c7edb00fd2856e1df
 workflow-type: tm+mt
-source-wordcount: '4348'
+source-wordcount: '4334'
 ht-degree: 8%
 
 ---
 
 # Navegar por el equilibrador de carga de trabajo
-
-{{preview-fast-release-general}}
 
 <!--Audited: 12/2024-->
 
@@ -23,7 +21,7 @@ Utilice el Distribuidor de cargas de trabajo en Adobe Workfront para asignar tra
 
 El Distribuidor de cargas de trabajo está disponible en varias áreas de Adobe Workfront. La navegación es similar en todas las áreas.
 
-Para obtener más información sobre dónde se encuentra el Distribuidor de cargas de trabajo, consulte [Localizar el Distribuidor de cargas de trabajo](https://experienceleague.adobe.com/es/docs/workfront/using/manage-resources/the-workload-balancer/locate-workload-balancer).
+Para obtener más información sobre dónde se encuentra el Distribuidor de cargas de trabajo, consulte [Localizar el Distribuidor de cargas de trabajo](https://experienceleague.adobe.com/en/docs/workfront/using/manage-resources/the-workload-balancer/locate-workload-balancer).
 
 ## Requisitos de acceso
 
@@ -78,7 +76,7 @@ Tenga en cuenta lo siguiente al ver el Distribuidor de cargas de trabajo:
   >* Los elementos de trabajo asignados a un rol o a un equipo, y también asignados a un usuario, se muestran en el área de Trabajo no asignado y bajo el nombre del usuario asignado en el área de Trabajo asignado.
   >* Los elementos de trabajo asignados a un usuario y a un rol, donde el rol está seleccionado como el principal asignado del elemento, se muestran en el área de Trabajo no asignado.
   >* Los elementos de trabajo asignados a más de un usuario se muestran con todos los nombres de usuarios asignados en el área Trabajo asignado.
-  >* <span class="preview">Las asignaciones de rol se muestran en elementos de trabajo en el área de trabajo no asignado cuando la opción Mostrar asignaciones de rol está habilitada. Para obtener más información, consulte la sección [Personalizar la vista](#customize-the-view) en este artículo.</span>
+  >* Las asignaciones de roles se muestran en elementos de trabajo en el área Trabajo no asignado cuando la opción Mostrar asignaciones de roles está activada. Para obtener más información, consulte la sección [Personalizar la vista](#customize-the-view) en este artículo.
 
   Para obtener más información, consulte [Áreas de asignación en el Distribuidor de cargas de trabajo](/help/quicksilver/resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md#assignment-areas-in-the-workload-balancer) en [Información general sobre la asignación de trabajo en el Distribuidor de cargas de trabajo](/help/quicksilver/resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
 
@@ -105,9 +103,8 @@ Para obtener más información sobre la visualización de información en el Dis
 
 Para obtener información sobre la administración de recursos mediante el Distribuidor de cargas de trabajo, consulte también los siguientes artículos:
 
-* [Información general sobre la asignación de trabajo en el Distribuidor de cargas de trabajo](https://experienceleague.adobe.com/es/docs/workfront/using/manage-resources/the-workload-balancer/assign-work-in-workload-balancer)
-* [Administrar asignaciones de usuario en el Distribuidor de cargas de trabajo](https://experienceleague.adobe.com/es/docs/workfront/using/manage-resources/the-workload-balancer/manage-user-allocations-workload-balancer)
-
+* [Información general sobre la asignación de trabajo en el Distribuidor de cargas de trabajo](https://experienceleague.adobe.com/en/docs/workfront/using/manage-resources/the-workload-balancer/assign-work-in-workload-balancer)
+* [Administrar asignaciones de usuario en el Distribuidor de cargas de trabajo](https://experienceleague.adobe.com/en/docs/workfront/using/manage-resources/the-workload-balancer/manage-user-allocations-workload-balancer)
 
 ## Vaya al Distribuidor de cargas de trabajo para varios proyectos en el área de Recursos
 
@@ -138,7 +135,7 @@ El área de Trabajo no asignado no muestra ningún elemento de trabajo de forma 
 
         Para obtener información sobre el uso de filtros, consulte [Información sobre filtros en el Distribuidor de cargas de trabajo](../workload-balancer/filter-information-workload-balancer.md).
 
-      * <span class="preview">Las asignaciones de roles en los elementos de trabajo solo se muestran cuando habilita la opción Mostrar asignaciones de roles. Para obtener más información, consulte la sección [Personalizar la vista](#customize-the-view) en este artículo.</span>
+      * Las asignaciones de roles en elementos de trabajo solo se muestran cuando se activa la opción Mostrar asignaciones de roles. Para obtener más información, consulte la sección [Personalizar la vista](#customize-the-view) en este artículo.
 
       * Los proyectos solo se muestran cuando se habilita la configuración Agrupar por proyecto. Para obtener más información, consulte la sección [Personalizar la vista](#customize-the-view) en este artículo.
 
@@ -240,11 +237,7 @@ El área de Trabajo no asignado no muestra ningún elemento de trabajo de forma 
 
    El panel Configuración se muestra a la derecha.
 
-   <span class="preview">Imagen de muestra en el entorno de vista previa:</span>
    ![Panel de configuración del Distribuidor de cargas de trabajo](assets/workload-balancer-settings.png)
-
-   Imagen de muestra en el entorno de producción:
-   ![Panel de configuración](assets/settings-box-options-global-with-color-theme-and-percentage-wb-nwe.png)
 
    Seleccione entre las opciones que se enumeran a continuación para actualizar la información que visualiza en el Distribuidor de cargas de trabajo y, a continuación, haga clic en el icono **X** en la parte superior derecha del cuadro Configuración para cerrarlo.
 
@@ -265,7 +258,7 @@ El área de Trabajo no asignado no muestra ningún elemento de trabajo de forma 
 
      Cuando se completan, aparece un icono de marca de verificación verde en la esquina superior derecha de una tarea o barra de problemas. El mismo icono se muestra para un proyecto cuando se completan las tareas o problemas del lapso de tiempo seleccionado.
    * **Mostrar tiempo restante**: cuando está habilitada, Workfront muestra la diferencia entre el tiempo diario durante el cual el usuario está disponible para trabajar en función de sus programaciones y las horas para las que está asignado en el área Trabajo asignado para los usuarios. Esta opción está desactivada de forma predeterminada y el tiempo asignado se muestra de forma predeterminada.
-   * <span class="preview">**Mostrar asignaciones de roles**: cuando esté habilitada, las asignaciones de roles se mostrarán en el área de Trabajo no asignado debajo de los elementos de trabajo asignados. Esto está habilitado de manera predeterminada.</span>
+   * **Mostrar asignaciones de roles**: cuando esté habilitada, las asignaciones de roles se mostrarán en el área de Trabajo no asignado debajo de los elementos de trabajo asignados. Esta opción está habilitada de forma predeterminada.
 
    * En la sección **Seleccionar tema de color**, seleccione el color que desee para las barras de proyecto y de tareas.
 
@@ -316,7 +309,7 @@ El área de Trabajo no asignado no muestra ningún elemento de trabajo de forma 
    ![Detalles de tiempo asignado](assets/overallocation-vs-capacity-tooltip-wb-nwe.png)
 
 1. (Opcional) Haga clic en el icono **Ocultar asignaciones** ![Mostrar asignaciones](assets/show-allocations-icon-small.png) para mostrar el nombre de las tareas y los problemas en las barras de los elementos de trabajo.
-1. Haga clic en el icono de **menú Más** ![icono Más](assets/more-icon.png) a la derecha del nombre de una tarea, un problema, <span class="preview">o un rol</span> y, a continuación, haga clic en una de las opciones siguientes.
+1. Haga clic en el icono de **menú Más** ![icono Más](assets/more-icon.png) a la derecha del nombre de una tarea, un problema o un rol y, a continuación, haga clic en una de las opciones siguientes.
 
    ![Menú Más](assets/more-menu-right-of-task-350x104.png)
 
@@ -333,7 +326,7 @@ El área de Trabajo no asignado no muestra ningún elemento de trabajo de forma 
 
      >[!NOTE]
      >
-     ><span class="preview">Las asignaciones de rol solamente se muestran en elementos de trabajo en el área de trabajo no asignado cuando la opción de configuración Mostrar asignaciones de rol está habilitada. Para obtener más información, consulte la sección [Personalizar la vista](#customize-the-view) en este artículo. Las asignaciones de roles solo tienen la opción **Asignar esto a** en el **menú Más**.</span>
+     >Las asignaciones de rol sólo se muestran en elementos de trabajo en el área Trabajo no asignado cuando la opción Mostrar asignaciones de rol está habilitada. Para obtener más información, consulte la sección [Personalizar la vista](#customize-the-view) en este artículo. Las asignaciones de roles solamente tienen la opción **Asignar esto a** en el **menú Más**.
 
      >[!TIP]
      >
@@ -423,7 +416,7 @@ La página de su equipo de inicio se muestra de forma predeterminada.
 
    El Distribuidor de cargas de trabajo de un equipo muestra la siguiente información de forma predeterminada:
 
-   * En el área **Trabajo sin asignar**: elementos de trabajo asignados al equipo o a los roles de equipo y trabajo y que no están asignados a usuarios. <span class="preview">Las asignaciones de roles se muestran en elementos de trabajo en el área de trabajo no asignado cuando la opción Mostrar asignaciones de roles está habilitada.</span>
+   * En el área **Trabajo sin asignar**: elementos de trabajo asignados al equipo o a los roles de equipo y trabajo y que no están asignados a usuarios. Las asignaciones de roles se muestran en elementos de trabajo en el área Trabajo no asignado cuando la opción Mostrar asignaciones de roles está activada.
    * En el área **Trabajo asignado**: los elementos de trabajo asignados a los usuarios se muestran bajo los nombres de los usuarios.
 
 1. Continúe navegando por el Distribuidor de cargas de trabajo de un equipo como se describe en [Navegar por el Distribuidor de cargas de trabajo para varios proyectos en el área de Recursos](#navigate-the-workload-balancer-for-multiple-projects-in-the-resourcing-area) sección de este artículo.
@@ -439,7 +432,7 @@ La página de su equipo de inicio se muestra de forma predeterminada.
 
    El Distribuidor de cargas de trabajo del proyecto muestra la siguiente información de forma predeterminada:
 
-   * En el área **Trabajo sin asignar**: elementos de trabajo del proyecto que están asignados a roles o equipos y no están asignados a usuarios. <span class="preview">Las asignaciones de roles se muestran en elementos de trabajo en el área de trabajo no asignado cuando la opción Mostrar asignaciones de roles está habilitada.</span>
+   * En el área **Trabajo sin asignar**: elementos de trabajo del proyecto que están asignados a roles o equipos y no están asignados a usuarios. Las asignaciones de roles se muestran en elementos de trabajo en el área Trabajo no asignado cuando la opción Mostrar asignaciones de roles está activada.
    * En el área **Trabajo asignado**: elementos de trabajo en el proyecto que estén asignados al menos a un usuario.
 
    Se recomienda utilizar filtros para mostrar solo los usuarios que son importantes para usted.
@@ -480,8 +473,6 @@ La página de su equipo de inicio se muestra de forma predeterminada.
 
 1. Continúe navegando por el Distribuidor de cargas de trabajo de un proyecto como se describe en la sección [Navegar por el Distribuidor de cargas de trabajo para varios proyectos](#navigate-the-workload-balancer-for-multiple-projects-in-the-resourcing-area) de este artículo.
 
-<div class="preview">
-
 ### Navegación por el Distribuidor de cargas de trabajo de un usuario
 
 Puede acceder al Distribuidor de cargas de trabajo en su propio perfil de usuario.
@@ -504,7 +495,6 @@ Puede acceder al Distribuidor de cargas de trabajo en su propio perfil de usuari
 
 1. Continúe navegando por el Distribuidor de cargas de trabajo de un usuario, tal como se describe en la sección [Navegar por el Distribuidor de cargas de trabajo para varios proyectos](#navigate-the-workload-balancer-for-multiple-projects-in-the-resourcing-area) de este artículo.
 
-</div>
 
 <!--old content below - this used to be a one-large-procedure article - outdated, and rewrote it above with several smaller procedures: 
 

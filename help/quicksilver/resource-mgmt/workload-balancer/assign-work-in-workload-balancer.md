@@ -6,7 +6,7 @@ description: Como administrador de recursos, puede utilizar el Distribuidor de c
 author: Lisa
 feature: Resource Management
 exl-id: 98779b67-b975-4501-8426-63e255b1d7df
-source-git-commit: 6db33763294bc9fa343bb010b318fbcceccfff4c
+source-git-commit: ad9739ac670f723203f1e5e9148c446b6356c126
 workflow-type: tm+mt
 source-wordcount: '1058'
 ht-degree: 86%
@@ -14,8 +14,6 @@ ht-degree: 86%
 ---
 
 # Información general sobre la asignación de trabajo en el Distribuidor de cargas de trabajo
-
-{{preview-fast-release-general}}
 
 <!-- Audited: 5/2025 -->
 
@@ -146,7 +144,7 @@ En la tabla siguiente se describen los elementos que se muestran en cada área e
  </tbody> 
 </table>
 
-&#42;Cuando se asigna un elemento de trabajo a un usuario y a un rol, solo se muestra en el área de Trabajo no asignado cuando el rol es la persona asignada principal. <span class="preview">Las asignaciones de roles se muestran en elementos de trabajo en el área de trabajo no asignado cuando la opción **Mostrar asignaciones de roles** está habilitada.</span>
+&#42;Cuando se asigna un elemento de trabajo a un usuario y a un rol, solo se muestra en el área de Trabajo no asignado cuando el rol es la persona asignada principal. Las asignaciones de roles se muestran en elementos de trabajo en el área de trabajo no asignado cuando la opción **Mostrar asignaciones de roles** está habilitada.
 
 &#42;&#42;Al asignar un elemento de trabajo a un usuario y a otra entidad, solo se mostrará en el área Trabajo asignado cuando el usuario sea la persona asignada principal.
 

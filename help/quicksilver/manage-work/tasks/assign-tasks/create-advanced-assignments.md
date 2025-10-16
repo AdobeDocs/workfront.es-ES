@@ -7,16 +7,14 @@ author: Lisa
 feature: Work Management, Resource Management
 role: User
 exl-id: 09780f78-4eb8-404d-859b-d066d462776d
-source-git-commit: d0be569333b0454e26f4d0de1078b0425cf81707
+source-git-commit: e1580f7b9065fce7bb31ab0c7edb00fd2856e1df
 workflow-type: tm+mt
-source-wordcount: '1121'
-ht-degree: 81%
+source-wordcount: '1118'
+ht-degree: 79%
 
 ---
 
 # Crear asignaciones avanzadas
-
-{{preview-fast-release-general}}
 
 <!-- Audited: 07/2024-->
 
@@ -85,11 +83,8 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 
    >[!TIP]
    >
-   >Puede realizar asignaciones avanzadas directamente en la lista de tareas o problemas. Haga clic dentro del campo **Asignaciones** en la misma línea que la tarea o el problema y, a continuación, haga clic en <span class="preview">**Avanzadas**</span> o en el icono **Personas** para abrir la ventana Asignaciones avanzadas. Vaya al paso 5 para continuar creando asignaciones avanzadas.
-   ><span class="preview">Imagen de muestra en el entorno de vista previa:</span>
+   >Puede realizar asignaciones avanzadas directamente en la lista de tareas o problemas. Haga clic dentro del campo **Asignaciones** en la misma línea que la tarea o el problema y, a continuación, haga clic en **Avanzadas** en la parte inferior de la lista o en el **icono Personas** en la esquina superior derecha del cuadro de asignaciones para abrir la ventana Asignaciones avanzadas. Vaya al paso 5 para continuar creando asignaciones avanzadas.
    >![Haga clic en Avanzadas o en el icono Personas](assets/access-aa-from-lists.png)
-   >Imagen de muestra en el entorno de producción:
-   >![Haga clic en el icono Personas](assets/nwe-advanced-assignments-350x55.png)
 
 1. Haga clic en **Asignar a** en el campo **Asignaciones** del encabezado de la tarea o el problema
 

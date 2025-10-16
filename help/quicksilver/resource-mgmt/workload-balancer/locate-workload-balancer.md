@@ -7,7 +7,7 @@ description: El Distribuidor de cargas de trabajo está disponible para varios p
 author: Lisa
 feature: Resource Management
 exl-id: 88029c9d-b588-4d33-801a-04f49b12a6e8
-source-git-commit: 18c39c5b1959c31b6fd0018476b48643b4b15021
+source-git-commit: e1580f7b9065fce7bb31ab0c7edb00fd2856e1df
 workflow-type: tm+mt
 source-wordcount: '845'
 ht-degree: 62%
@@ -15,8 +15,6 @@ ht-degree: 62%
 ---
 
 # Buscar el Distribuidor de cargas de trabajo
-
-{{preview-fast-release-general}}
 
 Puede utilizar el Distribuidor de cargas de trabajo para programar los recursos para el trabajo o revisar su disponibilidad y las asignaciones actuales.
 
@@ -136,8 +134,6 @@ Se muestra la página de su equipo de inicio.
      >
      >Puede mostrar todos los usuarios del sistema en lugar de solo los del proyecto (en el área de Trabajo asignado) habilitando la opción Mostrar todos los usuarios. Para obtener más información, consulte [Navegar por el Distribuidor de cargas de trabajo](../workload-balancer/navigate-the-workload-balancer.md).
 
-<div class="preview">
-
 ### Acceso al Distribuidor de cargas de trabajo para un usuario
 
 Todos los usuarios tienen acceso para ver el Distribuidor de cargas de trabajo en sus propios perfiles. Los datos del Distribuidor de cargas de trabajo de un usuario son de solo lectura. No puede asignar trabajo, anular la asignación de trabajo ni ajustar asignaciones en el nivel de usuario.
@@ -155,8 +151,6 @@ Todos los ajustes de visualización están disponibles para el Distribuidor de c
    El Distribuidor de cargas de trabajo de un usuario muestra lo siguiente a modo de información de forma predeterminada:
 
    * **Trabajo asignado**: las tareas y problemas asignados al usuario específico.
-
-</div>
 
 ## Añada el Distribuidor de cargas de trabajo al panel izquierdo como panel
 
