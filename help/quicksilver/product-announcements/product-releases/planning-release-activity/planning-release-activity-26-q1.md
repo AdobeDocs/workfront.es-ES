@@ -6,7 +6,7 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: fdfb1ecb61fd85fa927fc7c3443c2a7f23409873
+source-git-commit: ac079ad7cb4b696cb54ff5ad8ff34940d0d62913
 workflow-type: tm+mt
 source-wordcount: '491'
 ht-degree: 2%
@@ -27,8 +27,8 @@ Para obtener una lista de todas las características publicadas para Adobe Workf
 >[!NOTE]
 >
 >Vista previa: 16 de octubre de 2025
->&#x200B;>Versión rápida de producción: 13 de noviembre de 2025
->&#x200B;>Producción para todos: 15 de enero de 2026
+>>Versión rápida de producción: 13 de noviembre de 2025
+>>Producción para todos: 15 de enero de 2026
 
 Al implementar Workfront Planning para una organización de varios equipos con flujos de trabajo comunes, es posible que necesite definir una estructura y metadatos coherentes para los tipos de registro clave (como Campañas o Entregables) que se pueden agregar a los espacios de trabajo de cada equipo para capturar y administrar su trabajo.
 
@@ -51,8 +51,8 @@ Para obtener más información, consulte los siguientes artículos:
 >[!NOTE]
 >
 >Vista previa: 16 de octubre de 2025
->&#x200B;>Versión rápida de producción: 13 de noviembre de 2025
->&#x200B;>Producción para todos: 15 de enero de 2026
+>>Versión rápida de producción: 13 de noviembre de 2025
+>>Producción para todos: 15 de enero de 2026
 
 Hemos introducido un límite de 30 campos de conexión para cada tipo de registro.
 
@@ -65,8 +65,8 @@ Para obtener más información, vea [Información general sobre los tipos de reg
 >[!NOTE]
 >
 >Vista previa: 16 de octubre de 2025
->&#x200B;>Versión rápida de producción: 13 de noviembre de 2025
->&#x200B;>Producción para todos: 15 de enero de 2026
+>>Versión rápida de producción: 13 de noviembre de 2025
+>>Producción para todos: 15 de enero de 2026
 
 Al agregar opciones de campo a un campo de selección única o múltiple, Workfront ahora asigna valores descriptivos únicos a cada opción. Antes de esta mejora, Workfront generaba un ID alfanumérico difícil de comprender y utilizar en las llamadas a la API y otras integraciones.
 
