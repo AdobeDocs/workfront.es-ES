@@ -129,7 +129,7 @@ Puede cargar una nueva versión de una prueba. El complemento recuerda el flujo 
 1. Haga clic en **[!UICONTROL Nueva versión]** cerca de la parte inferior del complemento.
 1. Habilite el conmutador **[!UICONTROL Crear una revisión]**.
 
-1. En la sección *[!UICONTROL *Aprobaciones de revisión]**, elija **[!UICONTROL Básico]** o **[!UICONTROL Automatizado]**.
+1. En la sección *[!UICONTROL *Aprobaciones de revisión]&#x200B;**, elija &#x200B;** [!UICONTROL Básico] **&#x200B; o &#x200B;** [!UICONTROL Automatizado]**.
 
 1. Añada **[!UICONTROL Revisores]** o una **[!UICONTROL Plantilla de flujo de trabajo]** según el tipo de aprobación que seleccionó en el paso 7.
 

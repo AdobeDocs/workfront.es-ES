@@ -112,4 +112,4 @@ Para quitar la información de la plantilla añadida al proyecto, puede realizar
 
      Para obtener información acerca de cómo crear una vista, consulte [Información general sobre vistas en Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
-1. Seleccione todas las tareas identificadas en el paso 2 como creadas a partir de una plantilla, luego haga clic en **el icono Eliminar****> Sí, elimínala**. Para obtener más información, consulte [Eliminar tareas](../../../manage-work/tasks/manage-tasks/delete-tasks.md).
+1. Seleccione todas las tareas identificadas en el paso 2 como creadas a partir de una plantilla, luego haga clic en **el icono Eliminar**&#x200B;**> Sí, elimínala**. Para obtener más información, consulte [Eliminar tareas](../../../manage-work/tasks/manage-tasks/delete-tasks.md).

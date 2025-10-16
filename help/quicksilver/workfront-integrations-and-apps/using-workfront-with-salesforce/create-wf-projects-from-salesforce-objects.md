@@ -61,7 +61,7 @@ asegúrese de que dispone de lo siguiente en su entorno:
 
 * El administrador de [!DNL Workfront] ha agregado la sección [!DNL Workfront] a su [!UICONTROL oportunidad] y cuenta
 diseños de página.\
-   Para obtener más información sobre cómo añadir la sección [!DNL Workfront] a un diseño de página, consulte [Configurar la sección  [!DNL Adobe Workfront]  para los usuarios de  [!DNL Salesforce] ](../../workfront-integrations-and-apps/using-workfront-with-salesforce/configure-wf-section-for-salesforce-users.md).
+   Para obtener más información sobre cómo añadir la sección [!DNL Workfront] a un diseño de página, consulte [Configurar la sección  [!DNL Adobe Workfront]  para los usuarios de  [!DNL Salesforce] &#x200B;](../../workfront-integrations-and-apps/using-workfront-with-salesforce/configure-wf-section-for-salesforce-users.md).
 
 * Tiene una cuenta de [!DNL Workfront] y puede iniciar sesión en ella desde la sección [!DNL Workfront] dentro de su [!UICONTROL oportunidad] o cuenta
 .
@@ -171,7 +171,7 @@ Para configurar déclencheur en [!UICONTROL Salesforce]:
    1. Seleccione un **[!UICONTROL Tipo]** del menú desplegable **[!UICONTROL Tipo]**.
 
       Cuando cualquier **Cuenta
-** se designa como **[!UICONTROL Tipo]** especificado aquí en [!DNL Salesforce], se crea un **[!UICONTROL Proyecto]** en [!DNL Workfront].
+**&#x200B; se designa como &#x200B;** [!UICONTROL Tipo] **&#x200B; especificado aquí en [!DNL Salesforce], se crea un &#x200B;** [!UICONTROL Proyecto]** en [!DNL Workfront].
 
       Este campo es obligatorio.
 

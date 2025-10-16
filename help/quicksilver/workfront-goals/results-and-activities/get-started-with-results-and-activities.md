@@ -201,7 +201,7 @@ La siguiente tabla muestra las similitudes y diferencias entre los resultados, l
    <td>✔</td> 
    <td>✔</td> 
   </tr> 
-  <tr> ****
+  <tr> **&#x200B;**
    <td>Ofrecen una serie de valores entre los valores inicial y final que ilustran lo cerca que está de alcanzarlos. La proximidad al valor final calcula un valor de Progreso para el objetivo. </td> 
    <td>✔</td> 
    <td>✔</td> 

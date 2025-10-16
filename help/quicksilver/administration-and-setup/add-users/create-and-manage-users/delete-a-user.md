@@ -87,7 +87,7 @@ Al desactivar un usuario, sucede lo siguiente:
      >[!NOTE]
      >
      >Si desactiva un usuario y ya no puede ver los informes o tableros asociados con un usuario, es posible que deba actualizar el campo **Ejecutar este informe con los derechos de acceso de:**.\
-     >Para obtener más información, consulte [¿Por qué no puedo acceder a un informe que pertenece a un usuario desactivado?Sección ](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md#why) del artículo [Preguntas más frecuentes sobre informes](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md).
+     >Para obtener más información, consulte [¿Por qué no puedo acceder a un informe que pertenece a un usuario desactivado?Sección &#x200B;](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md#why) del artículo [Preguntas más frecuentes sobre informes](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md).
 
    * Documentos
    * Actualizaciones

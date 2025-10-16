@@ -94,7 +94,7 @@ Las etiquetas de una secuencia de trabajo están disponibles para todos los tabl
 
    O
 
-   Haga clic en el menú **[!UICONTROL Más]** ![[!UICONTROL menú Más ]](assets/more-icon-spectrum.png) de la tarjeta y seleccione **[!UICONTROL Editar]**.
+   Haga clic en el menú **[!UICONTROL Más]** ![[!UICONTROL menú Más &#x200B;]](assets/more-icon-spectrum.png) de la tarjeta y seleccione **[!UICONTROL Editar]**.
 
 1. En el cuadro **[!UICONTROL Etiquetas]**, escriba el nombre de una etiqueta existente y selecciónela en los resultados de búsqueda.\
    O\

@@ -212,7 +212,7 @@ Se añade un comentario a la **[!DNL Workfront]** pestaña en [!DNL Jira] y a la
 La hora también se muestra en la pestaña **[!UICONTROL Horas]** del elemento [!DNL Workfront].
 
 * [Registrar tiempo para  [!DNL Jira] vinculados y [!DNL Workfront] elementos](#log-time-for-linked-jira-and-workfront-items)
-* [Registrar tiempo desde [!DNL Jira] hasta un elemento [!DNL Workfront] ](#log-time-from-jira-to-a-workfront-item)
+* [Registrar tiempo desde [!DNL Jira] hasta un elemento [!DNL Workfront] &#x200B;](#log-time-from-jira-to-a-workfront-item)
 
 ### Registrar tiempo para [!DNL Jira] vinculados y elementos [!DNL Workfront]
 
@@ -220,7 +220,7 @@ Puede registrar el tiempo desde un problema de [!DNL Jira] vinculado hasta un el
 
 >[!IMPORTANT]
 >
->Si el usuario que registra la hora en [!DNL Jira] no existe en [!DNL Workfront], la integración crea un nuevo usuario activo en Workfront si **[!UICONTROL Cree automáticamente un usuario en [!DNL Workfront]si el [!DNL Jira] usuario no tiene una *[!DNL Workfront]cuenta]** se establece en**[!UICONTROL  Siempre ]**. Este usuario no ocupa una licencia de [!DNL Workfront]. Puede asignar usuarios activos a elementos de trabajo en [!DNL Workfront], pero no puede incluirlos en las actualizaciones. Para obtener información acerca de cómo configurar la creación automática de [!DNL Workfront] usuarios de [!DNL Jira], consulte [Configurar [!DNL Workfront for Jira]](../../workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md).
+>Si el usuario que registra la hora en [!DNL Jira] no existe en [!DNL Workfront], la integración crea un nuevo usuario activo en Workfront si **[!UICONTROL Cree automáticamente un usuario en [!DNL Workfront]si el [!DNL Jira] usuario no tiene una *[!DNL Workfront]cuenta]** se establece en&#x200B;**[!UICONTROL &#x200B; Siempre &#x200B;]**. Este usuario no ocupa una licencia de [!DNL Workfront]. Puede asignar usuarios activos a elementos de trabajo en [!DNL Workfront], pero no puede incluirlos en las actualizaciones. Para obtener información acerca de cómo configurar la creación automática de [!DNL Workfront] usuarios de [!DNL Jira], consulte [Configurar [!DNL Workfront for Jira]](../../workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md).
 
 Para registrar el tiempo de un elemento en [!DNL Jira] y que se registre tanto en [!DNL Jira] como en [!DNL Workfront]:
 

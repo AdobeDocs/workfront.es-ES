@@ -63,7 +63,7 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
 {{step-1-to-setup}}
 
 1. Haga clic en **Niveles de acceso** en el panel izquierdo.
-1. 
+1. &#x200B;
    * En el entorno de producción:
 Seleccione el nivel de acceso que quiera copiar y personalizar y luego haga clic en **Copiar**.
 

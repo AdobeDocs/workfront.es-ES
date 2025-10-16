@@ -29,7 +29,7 @@ Por ejemplo, si su organización tiene un repositorio de documentos basado en we
 >
 >
 >* Las páginas de panel de control ya no se admiten como páginas externas incrustadas en los paneles de control. Aunque los tableros existentes no se modificarán automáticamente para eliminar estas páginas externas, cualquier modificación en un panel de control que incluya una referencia de este tipo no podrá guardarse hasta que se elimine o cambie la referencia.
->  > En concreto, los subdominios Workfront.com que ya no se admiten son los siguientes:
+>  &#x200B;> En concreto, los subdominios Workfront.com que ya no se admiten son los siguientes:
 >
 >     * /dashboards
 >     * /dashboard/:ID&#x200B;

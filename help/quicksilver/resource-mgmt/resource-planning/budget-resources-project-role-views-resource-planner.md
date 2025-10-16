@@ -104,7 +104,7 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 
    * Haga clic en el menú **Más** del proyecto y, a continuación, haga clic en **Establecer horas planificadas de roles según lo presupuestado**.\
      Las horas presupuestadas de cada rol se calculan con la siguiente fórmula:\
-     *
+     &#x200B;*
 
      `Role Budgeted Hours = Role Planned Hours`
 
@@ -153,7 +153,7 @@ Debe tener acceso de edición a los permisos de administración de recursos y da
 
 Para obtener información sobre el acceso necesario para los recursos de presupuesto, consulte el artículo [Acceso necesario para presupuestar recursos en Adobe Workfront](../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md).
 
-Para presupuestar asignaciones en el Planificador de recursos en la vista **** roles:
+Para presupuestar asignaciones en el Planificador de recursos en la vista **&#x200B;**&#x200B;roles:
 
 1. Haga clic en el icono **Menú principal** ![Icono del menú principal](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront.
 
@@ -174,8 +174,8 @@ Para presupuestar asignaciones en el Planificador de recursos en la vista **** r
    * En la columna **BDG**, especifique manualmente un número de horas presupuestadas, ETC o costo para los roles.\
      Esto distribuye las horas presupuestadas de función a las horas presupuestadas de proyecto de los proyectos a los que tiene acceso para administrar.
 
-   * Haga clic en el menú **Más** para el rol y luego haga clic en **Establecer horas planificadas de proyectos según lo presupuestado&quot;.**Las horas presupuestadas de la función se calculan con la siguiente fórmula:\
-     *
+   * Haga clic en el menú **Más** para el rol y luego haga clic en **Establecer horas planificadas de proyectos según lo presupuestado&quot;.**&#x200B;Las horas presupuestadas de la función se calculan con la siguiente fórmula:\
+     &#x200B;*
 
      `Role Budgeted Hours = SUM(Project Budgeted Hours)`
 

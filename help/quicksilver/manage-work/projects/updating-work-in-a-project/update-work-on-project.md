@@ -29,6 +29,6 @@ Para obtener información sobre cómo actualizar el trabajo en un proyecto, cons
 * [Ver y actualizar el porcentaje completado de las tareas](../../../manage-work/projects/updating-work-in-a-project/view-update-percent-complete-for-tasks.md)
 * [Información general sobre la fecha de confirmación](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md)
 * [Actualizar las fechas de confirmación de tareas y problemas](../../../manage-work/projects/updating-work-in-a-project/update-commit-date-on-tasks-and-issues.md)
-* [Interacciones entre las fechas de confirmación y las de finalización planificadas ](../../../manage-work/projects/updating-work-in-a-project/interactions-between-commit-and-planned-completion-dates.md)
+* [Interacciones entre las fechas de confirmación y las de finalización planificadas &#x200B;](../../../manage-work/projects/updating-work-in-a-project/interactions-between-commit-and-planned-completion-dates.md)
 * [Actualizar una condición para tareas y problemas](../../../manage-work/projects/updating-work-in-a-project/update-condition-for-tasks-and-issues.md)
 * [Actualizar la condición de un proyecto](../../../manage-work/projects/updating-work-in-a-project/update-condition-on-project.md)

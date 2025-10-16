@@ -123,4 +123,4 @@ Para guardar los siguientes valores de un campo de texto enriquecido mediante la
 1. Utilice el método stringify en el JSON descrito anteriormente para realizar una petición PUT y enviar actualizaciones.
 
    <!-- [Copy](javascript:void(0);) -->
-   <pre><OBJ Code><OBJ ID></pre>
+   <pre>&lt;OBJ Code>&lt;OBJ ID></pre>

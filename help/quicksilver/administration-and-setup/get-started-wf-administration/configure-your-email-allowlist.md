@@ -31,7 +31,7 @@ Esto resulta útil si la directiva de seguridad de su organización impide que l
 >Todo el correo electrónico de Workfront se envía desde esa dirección para aumentar el éxito de la entrega de correo electrónico y para eliminar la suplantación de correos electrónicos. Esto incluye tanto alertas automatizadas como la comunicación de usuario a usuario.
 >
 >Por ejemplo, la línea “De” en un correo electrónico de Workfront que recibe de un usuario llamado Joan Harris tendría este aspecto:
->>`Joan Harris <notifications@my.workfront.com>`
+>&#x200B;>`Joan Harris <notifications@my.workfront.com>`
 
 Para obtener información sobre la configuración del cortafuegos de su organización para abrir la comunicación entre su entorno y los servidores de Adobe Workfront, consulte [Configurar la lista de permitidos del cortafuegos](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
 

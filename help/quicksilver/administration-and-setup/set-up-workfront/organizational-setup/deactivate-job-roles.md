@@ -70,7 +70,7 @@ Si desactiva una función, ya no se mostrará en las siguientes áreas:
 * Cuadro de diálogo [!UICONTROL Añadir asignación al tablero Kanban] en un proyecto
 * El campo [!UICONTROL Función] de un plan o una iniciativa cuando alguien está usando [!DNL Adobe Workfront Scenario Planner].
 
-  El [!DNL Scenario Planner] solo está disponible en la nueva experiencia de [!DNL Adobe Workfront] y requiere una licencia adicional. Para obtener información sobre el [!DNL Workfront Scenario Planner], consulte [Información general sobre el  [!DNL Scenario Planner] ](../../../scenario-planner/scenario-planner-overview.md).
+  El [!DNL Scenario Planner] solo está disponible en la nueva experiencia de [!DNL Adobe Workfront] y requiere una licencia adicional. Para obtener información sobre el [!DNL Workfront Scenario Planner], consulte [Información general sobre el  [!DNL Scenario Planner] &#x200B;](../../../scenario-planner/scenario-planner-overview.md).
 
 >[!TIP]
 >

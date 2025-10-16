@@ -76,7 +76,7 @@ Se requieren las siguientes condiciones para configurar un proyecto de modo que 
 >* Workfront permite un correo electrónico único por cola de solicitudes en todos los clústeres. Si decide deshabilitar su cola de solicitudes, conservará la dirección de correo electrónico que creó siempre que aún esté en el cuadro de Dirección de correo de entrada. Si decide dejar de usar el correo de entrada, debe eliminarlo del campo de Dirección de correo de entrada para que esté disponible para uso futuro.
 >
 >* Si la cola de solicitudes tiene varios temas o grupos de temas, Workfront seleccionará al azar el tema de la cola al que se enviarán las solicitudes por correo electrónico, lo que dificulta la gestión de dichas solicitudes.
->  >Recomendamos que el proyecto que configure para recibir solicitudes por correo electrónico no tenga más de un tema de cola. Si las solicitudes enviadas están destinadas a diferentes recursos o proyectos, debe redirigirlas o moverlas manualmente una vez que se hayan enviado.
+>  &#x200B;>Recomendamos que el proyecto que configure para recibir solicitudes por correo electrónico no tenga más de un tema de cola. Si las solicitudes enviadas están destinadas a diferentes recursos o proyectos, debe redirigirlas o moverlas manualmente una vez que se hayan enviado.
 
 1. Vaya al proyecto que desea habilitar para recibir problemas por correo electrónico.
 1. Haga clic en **Detalles de cola** en el panel izquierdo.

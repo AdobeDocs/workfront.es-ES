@@ -56,13 +56,13 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
 {{step1-to-boards}}
 
 1. Acceda a un tablero. Para obtener más información, consulte [Crear o editar un tablero](../../agile/get-started-with-boards/create-edit-board.md).
-1. Haga clic en el menú **[!UICONTROL Más]** ![Más ](assets/more-icon-spectrum.png) de la tarjeta y seleccione **[!UICONTROL Eliminar]**.
+1. Haga clic en el menú **[!UICONTROL Más]** ![Más &#x200B;](assets/more-icon-spectrum.png) de la tarjeta y seleccione **[!UICONTROL Eliminar]**.
 1. Haga clic en **[!UICONTROL Eliminar]** en el mensaje de confirmación.
 
 ## Archivar una tarjeta de un tablero
 
 1. Acceda al tablero.
-1. Haga clic en el menú **[!UICONTROL Más]** ![Más ](assets/more-icon-spectrum.png) de la tarjeta y seleccione **[!UICONTROL Archivar]**.
+1. Haga clic en el menú **[!UICONTROL Más]** ![Más &#x200B;](assets/more-icon-spectrum.png) de la tarjeta y seleccione **[!UICONTROL Archivar]**.
 
    Las tarjetas archivadas se ocultan del tablero a menos que aplique un filtro para mostrarlas. Para obtener más información, consulte [Filtrar un tablero para mostrar tarjetas archivadas](#filter-a-board-to-show-archived-cards) en este artículo.
 

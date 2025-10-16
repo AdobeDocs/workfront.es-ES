@@ -71,7 +71,7 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 
 1. Haga clic en el nombre de un elemento de trabajo para abrir la página **Información general**.
 1. En la sección **Vínculos rápidos**, busque el vínculo que desea copiar.
-1. Haga clic en el icono **Copiar**![ Icono Copiar](assets/copy-icon.png).
+1. Haga clic en el icono **Copiar**![&#x200B; Icono Copiar](assets/copy-icon.png).
    ![Copiar vínculo](assets/copy-link.png)
 
 ## Abrir un vínculo rápido

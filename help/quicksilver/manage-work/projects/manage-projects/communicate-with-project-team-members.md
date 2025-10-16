@@ -89,7 +89,7 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 
    O
 
-   Para actualizar a ciertos miembros del equipo del proyecto, seleccione uno o varios usuarios de la lista y haga clic en **Enviar actualización al usuario******.\
+   Para actualizar a ciertos miembros del equipo del proyecto, seleccione uno o varios usuarios de la lista y haga clic en **Enviar actualización al usuario**&#x200B;**&#x200B;**.\
    ![Comentando_1.png](assets/commenting-1-350x352.png)
 
 1. Escriba su actualización en el campo **Publicar una actualización en este proyecto**.

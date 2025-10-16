@@ -80,7 +80,7 @@ El panel izquierdo está disponible para los siguientes objetos:
 >[!IMPORTANT]
 >
 >Si el panel izquierdo muestra solo una sección de forma predeterminada, como **[!UICONTROL Todos los proyectos]** en el área de **[!UICONTROL Proyectos]**, un administrador de [!DNL Workfront] debe agregar al menos un panel a esta área al crear una plantilla de diseño y asignarle a esa plantilla antes de que el panel izquierdo se muestre en esa área.
->>Para obtener información sobre cómo un administrador de [!DNL Workfront] personaliza el panel izquierdo en una plantilla de diseño, consulte [Personalizar el panel izquierdo mediante una plantilla de diseño](../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md).
+>&#x200B;>Para obtener información sobre cómo un administrador de [!DNL Workfront] personaliza el panel izquierdo en una plantilla de diseño, consulte [Personalizar el panel izquierdo mediante una plantilla de diseño](../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md).
 
 El panel izquierdo está disponible para las siguientes áreas:
 
@@ -89,7 +89,7 @@ El panel izquierdo está disponible para las siguientes áreas:
 * [Secciones predeterminadas en el área [!UICONTROL Recursos]](#default-sections-in-the-resourcing-area)
 * [Secciones predeterminadas en el área [!UICONTROL Proyectos]](#default-sections-in-the-projects-area)
 * [Secciones predeterminadas en el área [!UICONTROL Plantillas de horas]](#default-sections-in-the-timesheets-area)
-* [Secciones predeterminadas en el área  [!DNL Goals] ](#default-sections-in-the-goals-area)
+* [Secciones predeterminadas en el área  [!DNL Goals] &#x200B;](#default-sections-in-the-goals-area)
 
 ### Secciones predeterminadas en el área [!UICONTROL Paneles de control]
 

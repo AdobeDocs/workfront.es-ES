@@ -150,7 +150,7 @@ Aunque no es posible ver información sobre tareas en el Planificador de recurso
 
 Existen los siguientes escenarios al calcular el coste planificado de usuarios, funciones y proyectos:
 
-* Cuando **Tipo de coste** sea **Usuario por hora **y no haya **ninguna asignación** en la tarea:
+* Cuando **Tipo de coste** sea **Usuario por hora &#x200B;** y no haya **ninguna asignación** en la tarea:
 
    * **Coste planificado por función y usuario**:
 

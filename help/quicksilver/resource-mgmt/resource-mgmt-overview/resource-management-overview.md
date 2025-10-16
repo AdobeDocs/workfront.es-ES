@@ -25,7 +25,7 @@ Aunque puede comenzar en el nivel de función, eventualmente la Administración 
 
 Esta sección contiene los siguientes artículos y subsecciones:
 
-* [Introducción a la Administración de recursos ](../../resource-mgmt/resource-mgmt-overview/get-started-resource-management.md)
+* [Introducción a la Administración de recursos &#x200B;](../../resource-mgmt/resource-mgmt-overview/get-started-resource-management.md)
 * [Planificación de recursos: índice de artículos](/help/quicksilver/resource-mgmt/resource-planning/resource-planning-overview.md)
 * [El Distribuidor de cargas de trabajo: índice de artículos](/help/quicksilver/resource-mgmt/workload-balancer/workload-balancer.md)
 * [Utilización de recursos](/help/quicksilver/resource-mgmt/resource-utilization/resource-utilization.md)

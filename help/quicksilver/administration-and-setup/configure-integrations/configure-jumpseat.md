@@ -82,7 +82,7 @@ Para configurar la integración de [!DNL JumpSeat]:
 {{step-1-to-setup}}
 
 1. En el panel izquierdo, haga clic en **[!UICONTROL Sistema]** > Integración de **[!UICONTROL [!DNL JumpSeat]]**.
-1. Introduzca la URL ]**de**[!UICONTROL [!DNL JumpSeat], que se encuentra en el icono de extensión en [!DNL JumpSeat].
+1. Introduzca la URL **de**&#x200B;[!DNL JumpSeat], que se encuentra en el icono de extensión en [!DNL JumpSeat].
 
 >[!BEGINSHADEBOX]
 
@@ -90,11 +90,11 @@ Para configurar la integración de [!DNL JumpSeat]:
 
 https://{mycompanyname}.jumpseat.io
 
->>
+&#x200B;>>
 
 >[!ENDSHADEBOX]
 
-1. Introducir token ]**de integración de**[!UICONTROL [!DNL JumpSeat]. Lo puede encontrar en la página **[!UICONTROL Configuración]** en [!DNL JumpSeat].
+1. Introducir token **de integración de**&#x200B;[!DNL JumpSeat]. Lo puede encontrar en la página **[!UICONTROL Configuración]** en [!DNL JumpSeat].
 
    **Ejemplo:** $2y$10$BevsKeQ8...OYR.LurSg2U64O
 

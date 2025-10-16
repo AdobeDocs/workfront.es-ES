@@ -93,8 +93,8 @@ De manera predeterminada, las escalas de tiempo de los proyectos se recalculan a
 >* Si la escala de tiempo de un proyecto supera los 15 años, el recálculo automático se desactiva para ese proyecto y solo puede seleccionar un tipo de actualización manual. Si cambia las fechas del proyecto a menos de 15 años, debe recalcular manualmente la escala de tiempo una vez antes de que se calcule automáticamente.
 >* Para los entornos de vista previa y espacio aislado de actualización personalizado, el recálculo nocturno está deshabilitado y las escalas de tiempo del proyecto no se recalculan automáticamente. Debe recalcular manualmente la cronología del proyecto para los entornos de Vista previa y de la Zona protegida de actualización personalizada.
 >* Si un proyecto es complejo, es posible que no se recalcule la escala de tiempo automáticamente.
->  > Un ejemplo de proyecto complejo puede ser un proyecto con varias dependencias, un gran número de tareas, varias tareas predecesoras entre proyectos o varias sangrías de tareas.
->  > Workfront coloca una advertencia a la derecha del nombre del proyecto en la página del proyecto para advertir a los usuarios de que la cronología del proyecto debe recalcularse manualmente. Solo los usuarios con permisos de Administración del proyecto pueden recalcular manualmente la cronología.
+>  &#x200B;> Un ejemplo de proyecto complejo puede ser un proyecto con varias dependencias, un gran número de tareas, varias tareas predecesoras entre proyectos o varias sangrías de tareas.
+>  &#x200B;> Workfront coloca una advertencia a la derecha del nombre del proyecto en la página del proyecto para advertir a los usuarios de que la cronología del proyecto debe recalcularse manualmente. Solo los usuarios con permisos de Administración del proyecto pueden recalcular manualmente la cronología.
 >
 >   ![](assets/project-warning-to-manually-recalculate-timeline.png)
 >
