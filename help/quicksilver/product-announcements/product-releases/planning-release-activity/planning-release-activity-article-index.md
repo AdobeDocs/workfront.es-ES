@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: b3f1002b-e3b4-48e5-9a64-467d4f7a15b2
-source-git-commit: 7815fd0f84170cb92eef1bafa8aa90abe5365c04
+source-git-commit: 6708a22841bb20bd7bb62c76699276df9315611a
 workflow-type: tm+mt
-source-wordcount: '128'
+source-wordcount: '137'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,7 @@ Este artículo contiene una lista de los artículos de actividades de la versió
 
 Para obtener información sobre la actividad actual de la versión de Workfront Planning, consulte el siguiente artículo:
 
+* [Actividad de la versión del primer trimestre de 2026 para Adobe Workfront Planning](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q1.md)
 * [Actividad de la versión del cuarto trimestre de 2025 para Adobe Workfront Planning](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q4.md)
 
 >[!ENDSHADEBOX]
