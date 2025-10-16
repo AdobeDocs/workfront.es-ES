@@ -19,7 +19,7 @@ Puede cargar ciertos tipos de ajustes preestablecidos de documentos de Photoshop
 
 >[!IMPORTANT]
 >
->El archivo debe ser un ajuste preestablecido de documento fotográfico como se describe en [Plantillas y ajustes preestablecidos en Photoshop](https://helpx.adobe.com/photoshop/using/create-documents.html).
+>El archivo debe ser un ajuste preestablecido de documento fotográfico como se describe en [Plantillas y ajustes preestablecidos en Photoshop](https://helpx.adobe.com/es/photoshop/using/create-documents.html).
 
 
 
