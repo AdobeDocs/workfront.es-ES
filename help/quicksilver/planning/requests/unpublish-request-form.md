@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: df8c4926-e258-49c0-ab9d-563ccaf7a6aa
-source-git-commit: 1a56846647e443cf3f5f09eed8c3084434de5ddb
+source-git-commit: df0686038adb1278339e872e122a311884cb6d29
 workflow-type: tm+mt
-source-wordcount: '663'
-ht-degree: 21%
+source-wordcount: '680'
+ht-degree: 20%
 
 ---
 
@@ -45,13 +45,10 @@ También puede cambiar las entidades con las que comparte un formulario de solic
 <tr> 
    <td role="rowheader"><p>Paquetes de Adobe Workfront</p></td> 
    <td> 
-<ul><li><p>Cualquier paquete de Workfront</p></li>
-Y
-<li><p>Cualquier paquete de Planning</p></li></ul>
+<p>Cualquier paquete Workfront y cualquier paquete Planning</p>
 O
-<ul><li><p>Cualquier paquete de flujo de trabajo</p></li>
-Y
-<li><p>Cualquier paquete de Planning</p></li></ul>
+<p>Cualquier paquete de flujo de trabajo y cualquier paquete de Planning</p>
+<p>Para obtener más información sobre lo que se incluye en cada paquete de Workfront Planning, póngase en contacto con su representante de cuentas de Workfront.</p>
    </td> </tr>
 
 </tr> 

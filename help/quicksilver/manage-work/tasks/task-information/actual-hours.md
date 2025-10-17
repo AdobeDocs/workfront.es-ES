@@ -7,10 +7,10 @@ description: Las horas que inicie sesión en los elementos de trabajo en Adobe W
 author: Alina
 feature: Work Management
 exl-id: c4b0e431-1765-416d-89f5-6ac663ac1d4f
-source-git-commit: 055228fd15d670a214039575dc076ab36f6e99eb
+source-git-commit: df0686038adb1278339e872e122a311884cb6d29
 workflow-type: tm+mt
-source-wordcount: '1220'
-ht-degree: 28%
+source-wordcount: '1231'
+ht-degree: 27%
 
 ---
 
@@ -202,11 +202,13 @@ Con la siguiente versión de la API de Workfront programada para su lanzamiento 
 * **Horas reales**: Horas registradas para el proyecto, las tareas o los problemas después de mayo de 2021. Se almacenan en la base de datos de Workfront en horas y su campo de valor es `actualWorkRequiredDouble`.
 * **Horas reales heredadas**: Horas registradas para proyectos, tareas o problemas en cualquier momento, incluso antes de mayo de 2021. Se almacenan en la base de datos de Workfront en minutos y su valor es `actualWorkRequired`.
 
-  >[!IMPORTANT]
-  >
-  >El costo real del proyecto utiliza las horas reales heredadas para calcular.
+Para obtener información sobre las versiones de API, consulte [Versiones de API y programación de soporte](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
 
-  Para obtener información sobre cómo usar las horas reales en columnas o campos calculados, consulte [Preguntas más frecuentes sobre informes](/help/quicksilver/reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md).
+>[!IMPORTANT]
+>
+>El costo real del proyecto utiliza las horas reales heredadas para calcular.
+
+Para obtener información sobre cómo usar las horas reales en columnas o campos calculados, consulte [Preguntas más frecuentes sobre informes](/help/quicksilver/reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md).
 
 ## Hora de registro
 

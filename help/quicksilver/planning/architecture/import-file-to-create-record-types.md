@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 2afd6d57-d658-4065-86f5-2324d3818d1f
-source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
+source-git-commit: df0686038adb1278339e872e122a311884cb6d29
 workflow-type: tm+mt
 source-wordcount: '796'
 ht-degree: 9%
@@ -39,10 +39,9 @@ Los tipos de registro son los tipos de objetos de Adobe Workfront Planning. En W
 <tr> 
    <td role="rowheader"><p>paquete de Adobe Workfront</p></td> 
    <td> 
-<ul> 
-<li><p>Cualquier Workfront y cualquier paquete de Planning</p></li>
+<p>Cualquier Workfront y cualquier paquete de Planning</p>
 <p>O</p>
-<li><p>Cualquier flujo de trabajo y cualquier paquete de Planning</p></li></ul>
+<p>Cualquier flujo de trabajo y cualquier paquete de Planning</p>
 <p>Para obtener más información sobre lo que se incluye en cada paquete de Workfront Planning, póngase en contacto con su representante de cuentas de Workfront. </p> 
    </td> 
   <tr> 

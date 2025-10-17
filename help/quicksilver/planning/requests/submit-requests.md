@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
-source-git-commit: 1a56846647e443cf3f5f09eed8c3084434de5ddb
+source-git-commit: df0686038adb1278339e872e122a311884cb6d29
 workflow-type: tm+mt
-source-wordcount: '1933'
+source-wordcount: '1950'
 ht-degree: 5%
 
 ---
@@ -52,13 +52,10 @@ Para obtener información sobre cómo un administrador del área de trabajo pued
 <tr> 
    <td role="rowheader"><p>Paquetes de Adobe Workfront</p></td> 
    <td> 
-<ul><li><p>Cualquier paquete de Workfront</p></li>
-Y
-<li><p>Cualquier paquete de Planning</p></li></ul>
+<p>Cualquier paquete Workfront y cualquier paquete Planning</p>
 O
-<ul><li><p>Cualquier paquete de flujo de trabajo</p></li>
-Y
-<li><p>Cualquier paquete de Planning</p></li></ul>
+<p>Cualquier paquete de flujo de trabajo y cualquier paquete de Planning</p>
+<p>Para obtener más información sobre lo que se incluye en cada paquete de Workfront Planning, póngase en contacto con su representante de cuentas de Workfront.</p>
    </td> </tr>
 
 </tr> 

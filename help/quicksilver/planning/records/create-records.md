@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
+source-git-commit: df0686038adb1278339e872e122a311884cb6d29
 workflow-type: tm+mt
-source-wordcount: '3130'
+source-wordcount: '3147'
 ht-degree: 21%
 
 ---
@@ -330,7 +330,12 @@ Para obtener información acerca de cómo crear una vista de escala de tiempo, v
    Se abre la casilla **Nuevo registro**. <!--might need a new screen shot for Production - might add a title etc-->
 
    ![Nuevo cuadro de registro en la cronología con barra de registros sin nombre](assets/new-record-small-box-on-timeline.png)
+
+   >[!NOTE]
+   >
+   >No se pueden crear registros en la vista de escala de tiempo cuando las barras de registros se muestran en una agrupación con nombre.
 1. Actualice la siguiente información:
+
 
    * **Nombre**: escriba el nombre del registro. Si lo deja vacío, Workfront lo nombra **Sin título** de manera predeterminada.
 

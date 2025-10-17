@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: aca9b313-3420-43f6-8f6c-dd74888bd120
-source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
+source-git-commit: df0686038adb1278339e872e122a311884cb6d29
 workflow-type: tm+mt
-source-wordcount: '796'
-ht-degree: 6%
+source-wordcount: '813'
+ht-degree: 5%
 
 ---
 
@@ -60,13 +60,10 @@ Le recomendamos que también vea los siguientes artículos:
 <tr> 
    <td role="rowheader"><p>Paquetes de Adobe Workfront</p></td> 
    <td> 
-<ul><li><p>Cualquier paquete de Workfront</p></li>
-Y
-<li><p>Cualquier paquete de Planning</p></li></ul>
+<p>Cualquier paquete Workfront y cualquier paquete Planning</p>
 O
-<ul><li><p>Cualquier paquete de flujo de trabajo</p></li>
-Y
-<li><p>Cualquier paquete de Planning</p></li></ul>
+<p>Cualquier paquete de flujo de trabajo y cualquier paquete de Planning</p>
+<p>Para obtener más información sobre lo que se incluye en cada paquete de Workfront Planning, póngase en contacto con su representante de cuentas de Workfront.</p>
    </td> </tr>
 
 </tr> 

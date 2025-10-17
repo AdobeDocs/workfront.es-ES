@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
+source-git-commit: df0686038adb1278339e872e122a311884cb6d29
 workflow-type: tm+mt
-source-wordcount: '3875'
+source-wordcount: '3874'
 ht-degree: 43%
 
 ---
@@ -250,7 +250,7 @@ Para administrar una vista de línea de tiempo:
 
    >[!TIP]
    >
-   >No es posible cambiar el tamaño de los registros ni arrastrarlos y soltarlos en la cronología para los tipos de objetos de Workfront y AEM Assets que se muestran en el desglose.
+   >No es posible cambiar el tamaño de los registros ni arrastrarlos y soltarlos en la cronología para los tipos de objetos de Workfront y AEM Assets que se muestran en los desgloses.
 
 1. Actualice los siguientes elementos de vista como se describe en las subsecciones siguientes:
    * [Filtros](#add-filters)
