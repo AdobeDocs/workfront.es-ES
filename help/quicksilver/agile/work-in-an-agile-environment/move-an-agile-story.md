@@ -3,10 +3,10 @@ product-area: agile-and-teams;projects
 navigation-topic: work-in-an-agile-environment
 title: Mover una historia de Agile
 description: Puede mover una historia Agile a una iteración diferente (para equipos de Scrum) o al registro de asuntos pendientes (para equipos de Kanban y Scrum).
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: 0058792e-66b8-4e54-8ce3-50171adff875
-source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '349'
 ht-degree: 72%

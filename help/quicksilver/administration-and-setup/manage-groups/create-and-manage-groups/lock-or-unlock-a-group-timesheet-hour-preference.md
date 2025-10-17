@@ -4,11 +4,11 @@ product-area: system-administration;user-management;setup
 navigation-topic: create-and-manage-groups
 title: Bloquear o desbloquear una hoja de horas de grupo y una preferencia de hora
 description: Si es administrador de un grupo, puede configurar y bloquear una plantilla de horas y preferencias de hora para su grupo después de que un administrador de Workfront la desbloquee en el sistema.
-author: Lisa
+author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 5b36106f-d521-4cc1-9f1f-647415c282b4
-source-git-commit: a42a167447d2f11b5502e4a0953b5e7eec2e67b1
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '600'
 ht-degree: 49%

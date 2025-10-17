@@ -4,11 +4,11 @@ product-area: calendars
 navigation-topic: reports
 title: 'Calendarios: Índice de artículos'
 description: Un informe de calendario es un informe dinámico que proporciona una representación visual del trabajo. Puede mostrar información de fecha en un informe de calendario para proyectos, tareas y problemas. Revise estos artículos para comprender mejor los informes de calendario en Adobe Workfront.
-author: Lisa
+author: Jenny
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: b46834db-358e-4ee2-9512-f7419351de30
-source-git-commit: d90459cb4f6fb1960552f0ab174e963582312b5c
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '147'
 ht-degree: 55%

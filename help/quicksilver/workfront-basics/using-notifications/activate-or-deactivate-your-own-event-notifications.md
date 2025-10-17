@@ -4,10 +4,10 @@ navigation-topic: notifications
 keywords: modificar,correo electrónico,notificación,configuración
 title: Modificar sus propias notificaciones por correo electrónico
 description: Este artículo describe cómo administrar las notificaciones por correo electrónico en el perfil de usuario.
-author: Lisa
+author: Courtney, Becky
 feature: Get Started with Workfront
 exl-id: 3d1f877e-6bb4-494e-b08e-c18ec87dd001
-source-git-commit: 770e20cf9e32ac9884f5eb320f7067fcf162c63d
+source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
 workflow-type: tm+mt
 source-wordcount: '613'
 ht-degree: 95%

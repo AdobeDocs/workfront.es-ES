@@ -4,11 +4,11 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-conditions
 description: Si el tipo de condición de un proyecto se establece en Estado de progreso en lugar de en Manual, Adobe Workfront muestra automáticamente una de las tres condiciones predeterminadas integradas en el proyecto (como destino, en riesgo o con problemas) a medida que avanza, como se explica en Información general sobre la condición y el tipo de condición del proyecto.
-author: Lisa
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: dba052ed-83a2-44d2-b025-d970783c4151
-source-git-commit: 366043a786c94f1bc40ad3b20af175bb84c94742
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '298'
 ht-degree: 12%

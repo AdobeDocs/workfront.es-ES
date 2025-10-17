@@ -5,11 +5,11 @@ product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
 title: Cambiar la contraseña de un usuario aprovisionado automáticamente
 description: Le recomendamos que cambie el nombre de usuario del usuario nuevo a su dirección de correo de Workfront y que, a continuación, le permita cambiar la contraseña.
-author: Lisa
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 14124911-e5e1-4a4f-9b25-8b4fab0329e1
-source-git-commit: f8d04790caefd12c9811ea3ed94e1f892311d031
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '448'
 ht-degree: 94%

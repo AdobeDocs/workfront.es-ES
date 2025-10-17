@@ -5,11 +5,11 @@ keywords: grupo,proyectos
 navigation-topic: work-with-a-groups-objects
 title: Creación y modificación de proyectos de un grupo
 description: Cuando visualice un grupo que administre en el área Grupos, puede crear, editar, exportar, copiar y eliminar los proyectos del grupo.
-author: Lisa
+author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: db90cf52-7c8f-4972-b67f-401657ba9b13
-source-git-commit: 7eaff1c74cd880bde062e6fdf169c73d6eeb7f75
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '443'
 ht-degree: 15%

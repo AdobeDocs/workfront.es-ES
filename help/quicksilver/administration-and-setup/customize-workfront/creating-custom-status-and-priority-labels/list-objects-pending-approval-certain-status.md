@@ -4,11 +4,11 @@ product-area: system-administration
 navigation-topic: create-custom-status-and-priority-labels
 title: Enumerar objetos con un proceso de aprobación pendiente que usa un estado determinado
 description: Si intenta eliminar un estado, un mensaje de error puede indicarle que no se puede eliminar porque se está utilizando en procesos de aprobación pendientes en objetos del sistema. Si desea buscar y revisar esos objetos para decidir lo que debe hacer, puede ejecutar un informe que los enumere.
-author: Lisa
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 52dd8750-9a6f-4ac6-9779-ba4ea9b6f4e0
-source-git-commit: 366043a786c94f1bc40ad3b20af175bb84c94742
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '500'
 ht-degree: 14%

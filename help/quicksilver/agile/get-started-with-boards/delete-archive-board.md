@@ -4,10 +4,10 @@ product-area: agile-and-teams
 navigation-topic: get-started-with-boards
 title: Eliminar o archivar un tablero
 description: Puede eliminar o archivar un tablero en Workfront. Eliminar un tablero lo elimina permanentemente de Workfront, mientras que archivar un tablero retiene todas las tarjetas y permite restaurarlo más adelante.
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: 214a83f6-ecc1-4e4d-aba5-d6483dcabd27
-source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '311'
 ht-degree: 24%

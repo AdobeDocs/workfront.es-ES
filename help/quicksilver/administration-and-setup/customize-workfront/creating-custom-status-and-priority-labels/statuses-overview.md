@@ -5,14 +5,14 @@ product-area: system-administration;projects
 navigation-topic: create-custom-status-and-priority-labels
 title: Resumen de estados
 description: Para saber cuál es el estado actual de desarrollo de un proyecto, tarea o problema, un usuario puede ver su estado.
-author: Lisa
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 0fa2f445-be8e-405f-864a-dbc4726d096b
-source-git-commit: c3bfaf666fb0ceb43bcabda13949b27b567b5d08
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '321'
-ht-degree: 0%
+ht-degree: 12%
 
 ---
 
@@ -34,7 +34,7 @@ Debe tener los siguientes permisos y acceso a un proyecto, tarea o problema para
 Para cambiar manualmente el estado de un proyecto, tarea o problema, debe tener los siguientes permisos y acceso:
 
 * Editar el acceso en su nivel de acceso a Proyectos, Tareas y Problemas
-* Contribute o permisos superiores en la tarea o el problema
+* Aportar o permisos superiores en la tarea o el problema
 * Administrar permisos en el proyecto.
 
 Cambiar el estado de un proyecto, tarea o problema suele ser un proceso manual. Sin embargo, hay ocasiones en que el estado de un problema cambia automáticamente, según otros factores que sucedan en el sistema.
@@ -51,4 +51,4 @@ Además de los estados predeterminados que vienen con Workfront, un administrado
 
 ## Estados de grupo
 
-Los administradores de grupos pueden crear estados personalizados de nivel de grupo para satisfacer las necesidades de sus grupos. Para obtener más información, consulte [Administrar estados de grupo](../../../administration-and-setup/manage-groups/manage-group-statuses/manage-group-statuses.md).
+Los administradores de grupos pueden crear estados personalizados de nivel de grupo para satisfacer las necesidades de sus grupos. Para obtener más información, consulte [Administrar los estados de un grupo](../../../administration-and-setup/manage-groups/manage-group-statuses/manage-group-statuses.md).

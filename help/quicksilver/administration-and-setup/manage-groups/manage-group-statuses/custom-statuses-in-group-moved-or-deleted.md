@@ -4,11 +4,11 @@ product-area: system-administration;user-management
 navigation-topic: manage-group-statuses
 title: Estados personalizados en un grupo que se mueve o se elimina
 description: Este artículo explica qué sucede con los estados personalizados de grupo cuando se mueve o elimina un grupo.
-author: Lisa
+author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 83885d86-eb00-46cc-93e9-e3364b6125e8
-source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '849'
 ht-degree: 0%
@@ -71,7 +71,7 @@ Si uno de los estados del grupo eliminado también estaba siendo utilizado por e
 
 >[!INFO]
 >
->**EJEMPLO:**
+>**Ejemplo:**
 >
 >El administrador del grupo A cambia el nombre de un estado de nivel de sistema desbloqueado para su grupo. El administrador de un grupo B también cambia el nombre de ese estado para su grupo. Aunque el estado tiene nombres diferentes en los dos grupos, tiene la misma clave.
 >

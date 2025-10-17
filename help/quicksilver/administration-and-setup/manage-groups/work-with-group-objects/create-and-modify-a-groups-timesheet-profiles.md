@@ -4,11 +4,11 @@ product-area: system-administration;user-management
 navigation-topic: work-with-a-groups-objects
 title: Creación y administración de perfiles de hojas de horas de un grupo
 description: Cuando visualiza un grupo que administra en el área Grupos, puede ver y trabajar con los perfiles de plantillas de horas para los que los administradores del grupo o uno de sus subgrupos tienen acceso administrativo.
-author: Lisa
+author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 5c895e77-bd88-435f-a903-37c2325eab45
-source-git-commit: 7eaff1c74cd880bde062e6fdf169c73d6eeb7f75
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '344'
 ht-degree: 90%

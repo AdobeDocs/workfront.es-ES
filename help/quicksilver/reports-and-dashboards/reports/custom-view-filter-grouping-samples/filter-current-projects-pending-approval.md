@@ -4,10 +4,10 @@ product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Filtro: mostrar los proyectos actuales con aprobación pendiente'
 description: 'El siguiente filtro de proyecto muestra los proyectos en el estado Actual: aprobación pendiente, donde el usuario que ha iniciado sesión es el Patrocinador del proyecto o el Administrador de portafolios.'
-author: Lisa and Nolan
+author: Lisa and Jenny
 feature: Reports and Dashboards
 exl-id: 32045aec-acc5-44d2-bad5-7759dc797414
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '197'
 ht-degree: 78%

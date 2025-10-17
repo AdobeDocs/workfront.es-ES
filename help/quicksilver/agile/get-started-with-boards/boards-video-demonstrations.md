@@ -4,13 +4,13 @@ content-type: reference
 navigation-topic: boards
 title: Demostraciones en vídeo de los tableros de Workfront
 description: Estos vídeos le muestran los diferentes tipos de tableros disponibles en Adobe Workfront y muestran ejemplos de cómo puede utilizar los tableros en su trabajo diario.
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: 54a5fe37-7a0a-45b1-a0bb-c5e345d3f34d
-source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '345'
-ht-degree: 1%
+ht-degree: 97%
 
 ---
 
@@ -24,15 +24,15 @@ Estos vídeos le muestran los diferentes tipos de tableros disponibles en Adobe 
 
 ### Tablero básico
 
-Un tablero básico, o simple, le permite empezar rápidamente a usar tableros para rastrear el trabajo. La plantilla incluye columnas predeterminadas y puede agregar tarjetas y asignar trabajo.
+Un tablero básico, o simple, le permite empezar rápidamente a usar tableros para rastrear el trabajo. La plantilla incluye columnas predeterminadas y puede añadir tarjetas y asignar trabajo.
 
 [Ver un vídeo de demostración de un tablero básico.](https://video.tv.adobe.com/v/3416382/){target=_blank}
 
 ### Tablero Kanban
 
-Un panel kanban puede contener un registro de asuntos pendientes, o una columna de entrada, que se configura con filtros para incorporar tareas y problemas de Workfront al panel.
+Un tablero Kanban puede contener un registro de asuntos pendientes, o una columna de entrada, que se configura con filtros para incorporar tareas y problemas de Workfront al tablero.
 
-[Ver un vídeo de demostración de un panel kanban.](https://video.tv.adobe.com/v/3416383/){target=_blank}
+[Ver un vídeo de demostración de un tablero Kanban.](https://video.tv.adobe.com/v/3416383/){target=_blank}
 
 ### Tablero dinámico
 
@@ -44,17 +44,17 @@ Un tablero dinámico le permite rellenar automáticamente un tablero con tarjeta
 
 Los tableros están disponibles en la aplicación móvil de Adobe Workfront. Al actualizar las tarjetas en la aplicación móvil, esas actualizaciones se sincronizan con Workfront.
 
-[Ver un vídeo de demostración de una placa móvil.](https://video.tv.adobe.com/v/3416379/){target=_blank}
+[Ver un vídeo de demostración de un tablero móvil.](https://video.tv.adobe.com/v/3416379/){target=_blank}
 
 ## Ejemplos del uso de tableros
 
-### Tablero que muestra &quot;mis tareas&quot;
+### Tablero que muestra “mis tareas”
 
 Puede utilizar la columna de entrada para ver las tareas que se le han asignado en un solo lugar. A medida que se asignan nuevas tareas en Workfront, se añaden automáticamente a la columna de entrada.
 
-[Ver un vídeo de demostración de un tablero de &quot;mis tareas&quot;.](https://video.tv.adobe.com/v/3416378/){target=_blank}
+[Ver un vídeo de demostración de un tablero de “mis tareas”.](https://video.tv.adobe.com/v/3416378/){target=_blank}
 
-### Consejo de planificación
+### Tablero de planificación
 
 Los tableros pueden ayudarle a planificar el trabajo para usted o para su equipo durante un período de tiempo.
 

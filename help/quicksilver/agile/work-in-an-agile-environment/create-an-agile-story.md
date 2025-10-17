@@ -3,10 +3,10 @@ product-area: agile-and-teams;projects
 navigation-topic: work-in-an-agile-environment
 title: Crear una historia de Agile
 description: Puede crear una historia Agile en una iteración de varias formas. Después de crear una historia Agile, puede agregar subtareas a la historia.
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: d16ee940-3551-44da-8fe6-093f4fcac070
-source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '695'
 ht-degree: 21%

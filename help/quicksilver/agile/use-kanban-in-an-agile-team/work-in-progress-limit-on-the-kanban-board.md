@@ -3,10 +3,10 @@ product-area: agile-and-teams
 navigation-topic: use-kanban-in-an-agile-team
 title: Administrar el límite de trabajo en curso (WIP) en el panel Kanban
 description: Puede configurar un límite de trabajo en curso (WIP) para cada columna del tablero Kanban. El límite de trabajo en curso es simplemente una advertencia visual y no impide que su equipo tenga más elementos en cada columna de estado que el límite establecido.
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: 540880ad-46af-416b-8e0b-5df869555424
-source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '327'
 ht-degree: 88%

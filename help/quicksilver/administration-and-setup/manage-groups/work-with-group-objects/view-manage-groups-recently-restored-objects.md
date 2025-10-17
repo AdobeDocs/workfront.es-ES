@@ -4,11 +4,11 @@ product-area: system-administration;user-management
 navigation-topic: work-with-a-groups-objects
 title: Ver y administrar los elementos restaurados recientemente de un grupo
 description: Cuando vea un grupo que administra en el área Grupos, puede ver, filtrar, agrupar y restaurar los elementos de trabajo, documentos y plantillas restaurados recientemente.
-author: Lisa
+author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 8ec06363-080e-4f1d-8a50-fc14f06ad323
-source-git-commit: 7eaff1c74cd880bde062e6fdf169c73d6eeb7f75
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '310'
 ht-degree: 68%

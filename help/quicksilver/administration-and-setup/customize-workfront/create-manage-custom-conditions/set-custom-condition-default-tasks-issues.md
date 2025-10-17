@@ -4,11 +4,11 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-conditions
 description: Cuando un usuario hace clic en Trabajar en ello o añada un comentario de actualización a una nueva tarea asignada (sin configurar manualmente una condición para la tarea), Adobe Workfront muestra la condición predeterminada de las tareas, lo que se establece en Configuración. Lo mismo ocurre con los problemas.
-author: Lisa
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 40b426f4-0a9c-49a6-91c7-b5f8aa48bd37
-source-git-commit: 366043a786c94f1bc40ad3b20af175bb84c94742
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '348'
 ht-degree: 97%

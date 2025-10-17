@@ -3,10 +3,10 @@ product-area: agile-and-teams
 navigation-topic: get-started-with-boards
 title: Administrar tarjetas
 description: Puede mover una tarjeta a cualquier columna del tablero o copiarla.
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: 83dab74f-903f-41b4-97b4-142f13e654e0
-source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '312'
 ht-degree: 97%
@@ -58,7 +58,7 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
 
    O
 
-   Haga clic en el menú **[!UICONTROL Más]** ![menú Más &#x200B;](assets/more-icon-spectrum.png) de la tarjeta y seleccione **[!UICONTROL Mover]**. A continuación, en el cuadro **[!UICONTROL Mover elemento]**, elija otra columna y seleccione **[!UICONTROL Mover]**.
+   Haga clic en el menú **[!UICONTROL Más]** ![menú Más ](assets/more-icon-spectrum.png) de la tarjeta y seleccione **[!UICONTROL Mover]**. A continuación, en el cuadro **[!UICONTROL Mover elemento]**, elija otra columna y seleccione **[!UICONTROL Mover]**.
 
    ![Mover tarjeta](assets/boards-move-card-350x217.png)
 

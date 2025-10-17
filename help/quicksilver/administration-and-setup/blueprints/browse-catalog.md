@@ -4,10 +4,10 @@ product-area: system-administration;workfront-integrations
 navigation-topic: templates-navigation-topic
 title: Examinar el catálogo de modelos y solicitar la instalación de modelos
 description: Los modelos proporcionan componentes básicos que le ayudarán a crear un sistema de administración del trabajo que evolucione con usted. Todos los usuarios de  [!DNL Adobe Workfront]  pueden examinar el catálogo de modelos. Además, puede solicitar que su administrador de  [!DNL Workfront]  le instale un modelo específico, si su administrador ha habilitado las solicitudes de modelos.
-author: Becky, Lisa
+author: Jenny
 feature: System Setup and Administration, Work Management
 exl-id: 932072e4-4d52-4b4b-a045-0cd38cb882d3
-source-git-commit: 85ccee879fd4ba5a80b6e885458839901f83d26e
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '369'
 ht-degree: 95%

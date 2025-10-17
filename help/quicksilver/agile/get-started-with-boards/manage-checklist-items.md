@@ -3,10 +3,10 @@ product-area: agile-and-teams
 navigation-topic: get-started-with-boards
 title: Administrar elementos de listas de comprobación en tarjetas
 description: El uso de listas de comprobación en tarjetas permite desglosar el trabajo en incrementos más pequeños o añadir notas a las tarjetas. Los elementos de la lista de comprobación están disponibles tanto en tarjetas ad hoc como en tarjetas conectadas.
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: 60e47a0a-36fb-4a86-8ec7-b135f9725b79
-source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '423'
 ht-degree: 97%
@@ -82,7 +82,7 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
 
    O
 
-   Haga clic en el menú **[!UICONTROL Más]** ![Menú más &#x200B;](assets/more-icon-spectrum.png) de la tarjeta y seleccione **[!UICONTROL Editar]**.
+   Haga clic en el menú **[!UICONTROL Más]** ![Menú más ](assets/more-icon-spectrum.png) de la tarjeta y seleccione **[!UICONTROL Editar]**.
 
 1. Active la casilla de verificación situada junto al elemento completado.
 

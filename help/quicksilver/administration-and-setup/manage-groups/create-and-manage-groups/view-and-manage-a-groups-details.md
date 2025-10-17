@@ -1,11 +1,11 @@
 ---
 title: Ver y administrar los detalles de un grupo
 description: Puede ver y editar la página Detalles del grupo para un grupo o subgrupo que administre.
-author: Lisa
+author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: edd2c58a-f912-4638-b6a3-ff3b1b622f48
-source-git-commit: a42a167447d2f11b5502e4a0953b5e7eec2e67b1
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '604'
 ht-degree: 40%

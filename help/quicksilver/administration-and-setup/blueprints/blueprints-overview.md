@@ -5,11 +5,11 @@ product-area: system-administration;workfront-integrations
 navigation-topic: best-practices-catalog
 title: Información general de modelos
 description: Los modelos son conjuntos de objetos de Workfront que abordan casos de uso comunes en Workfront. Puede descargar e instalar un modelo y, a continuación, configurar los objetos para su caso de uso específico.
-author: Becky
+author: Jenny
 feature: System Setup and Administration
 role: Admin
 exl-id: 4c487598-2066-4507-8dfe-1a54d38f5eea
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '834'
 ht-degree: 99%
@@ -43,7 +43,7 @@ Los modelos son conjuntos de objetos de Workfront que abordan casos de uso comun
 >Para revisar los modelos actuales, consulte [Lista de modelos disponibles](/help/quicksilver/administration-and-setup/blueprints/list-of-available-blueprints.md).
 
 
-Los modelos proporcionan componentes básicos que le ayudarán a crear un sistema de administración del trabajo que evolucione con usted. Los administradores del sistema pueden examinar el catálogo de modelos e instalar plantillas de proyecto, paneles y estructuras organizativas listos para usar. Otros usuarios pueden examinar el catálogo y solicitar la instalación de un modelo. Para obtener más información, consulte [Examinar el catálogo de modelos y solicitar la instalación de modelos](../../administration-and-setup/blueprints/browse-catalog.md).
+Los modelos proporcionan componentes básicos que le ayudarán a crear un sistema de administración del trabajo que evolucione con usted. Los administradores del sistema pueden examinar el catálogo de modelos e instalar plantillas de proyecto, paneles de control y estructuras organizativas listos para usar. Otros usuarios pueden examinar el catálogo y solicitar la instalación de un modelo. Para obtener más información, consulte [Examinar el catálogo de modelos y solicitar la instalación de modelos](../../administration-and-setup/blueprints/browse-catalog.md).
 
 Cada modelo está dirigido a un departamento y a un nivel de madurez específico para ayudarle a implementar con mayor rapidez en el sistema las prácticas recomendadas de eficacia probada. Los niveles de madurez detallados a continuación se indican en la tarjeta del catálogo de modelos y en los detalles.
 
@@ -63,7 +63,7 @@ Están disponibles los siguientes tipos de modelos:
 
 * **Plantillas de proyecto**: incluye objetos estándar asociados a una plantilla de proyecto (tareas, problemas, funciones y equipos) y algunas preferencias relacionadas con esos objetos. Para obtener más información, consulte [Configurar un modelo](../../administration-and-setup/blueprints/configure-template-package.md).
 * **Estructuras organizativas**: incluye objetos asociados a la estructura de una organización (compañías, grupos, funciones y equipos). Para obtener más información, consulte [Configurar un modelo](../../administration-and-setup/blueprints/configure-template-package.md).
-* **Paneles**: incluye uno o más paneles para un caso de uso específico, como los servicios de implementación.
+* **Paneles de control**: incluye uno o más paneles de control para un caso de uso específico, como los servicios de implementación.
 <!--
 * Request queues: Includes one or more projects configured as request queues.
 * Custom forms: Includes custom forms attached to another object type, such as a project or portfolio.

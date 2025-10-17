@@ -4,11 +4,11 @@ product-area: system-administration;projects
 navigation-topic: create-custom-status-and-priority-labels
 title: Usar estados personalizados como estados predeterminados
 description: Cuando un estado personalizado se establece como estado predeterminado, el nuevo estado predeterminado se utiliza en todo el sistema de varias formas. La forma en que se usa depende de si se establece como estado predeterminado de nivel del sistema o como estado predeterminado de nivel de grupo.
-author: Lisa
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 5b137cee-e03a-4176-a683-b77f2b27f5ce
-source-git-commit: 366043a786c94f1bc40ad3b20af175bb84c94742
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '789'
 ht-degree: 97%

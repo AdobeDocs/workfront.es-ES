@@ -5,11 +5,11 @@ keywords: add,users,group,add,another,assign,administrator,remove,user,view,role
 navigation-topic: create-and-manage-groups
 title: Ver y administrar las suscripciones de un grupo
 description: Como administrador de Adobe Workfront puede ver, añadir, quitar, exportar, activar y desactivar miembros de cualquier grupo que administre. También puede editar y añadir actualizaciones a sus perfiles y asignarlos como administradores del grupo.
-author: Lisa
+author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 219e5fa3-cf25-477d-82f6-046e3ff30989
-source-git-commit: a42a167447d2f11b5502e4a0953b5e7eec2e67b1
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '727'
 ht-degree: 91%

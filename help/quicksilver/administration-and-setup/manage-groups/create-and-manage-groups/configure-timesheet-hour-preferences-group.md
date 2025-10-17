@@ -5,11 +5,11 @@ keywords: grupo,preferencias,tarea,grupos,problema,desbloquear
 navigation-topic: create-and-manage-groups
 title: Configurar las preferencias de horas y hojas de horas para un grupo
 description: En el nivel del sistema, un administrador de Adobe Workfront puede desbloquear la plantilla de horas y las secciones de preferencias de horas Preferencias generales y Rellenar de forma previa las hojas de horas con. Esto permite a los administradores de grupos configurar las opciones de esas secciones de forma independiente para sus propios grupos.
-author: Lisa
+author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 1ee9343e-9452-4e41-a9ff-a6c865d4813b
-source-git-commit: a42a167447d2f11b5502e4a0953b5e7eec2e67b1
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '1336'
 ht-degree: 97%

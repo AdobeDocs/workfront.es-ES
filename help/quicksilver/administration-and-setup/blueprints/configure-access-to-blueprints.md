@@ -4,11 +4,11 @@ product-area: system-administration;workfront-integrations
 navigation-topic: best-practices-catalog
 title: Configuración del acceso a los modelos
 description: Como administrador del sistema, puede habilitar el acceso para que los usuarios soliciten la instalación de modelos configurando una cola de solicitudes para almacenar las solicitudes. Aquí tiene una sola ubicación para rastrear y actualizar solicitudes.
-author: Becky
+author: Jenny
 feature: System Setup and Administration
 role: Admin
 exl-id: d85f363f-2ab4-45cb-b851-a7f33e1ca905
-source-git-commit: 5fd855bec596926a4361fd07a1a763c7956e5e61
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '512'
 ht-degree: 98%

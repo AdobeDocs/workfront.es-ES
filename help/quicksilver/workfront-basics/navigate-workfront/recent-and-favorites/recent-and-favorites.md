@@ -5,13 +5,13 @@ navigation-topic: navigate-workfront
 title: Recientes y favoritos en  [!DNL Adobe Workfront]
 description: Revise los siguientes artículos para obtener más información sobre el uso de favoritos y recientes en Workfront.
 feature: Get Started with Workfront
-author: Lisa
+author: Courtney
 recommendations: noDisplay, noCatalog
 exl-id: 43052270-0b2d-46af-9521-30f0d48d5ddc
-source-git-commit: 34ce6492e14399926aed910bf9ed4d8688904341
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '34'
-ht-degree: 0%
+ht-degree: 50%
 
 ---
 

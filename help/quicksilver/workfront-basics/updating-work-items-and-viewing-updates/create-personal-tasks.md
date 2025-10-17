@@ -3,10 +3,10 @@ product-area: projects
 navigation-topic: update-work-items-and-view-updates
 title: Creación de tareas personales
 description: Las tareas personales son solicitudes de trabajo ad hoc que se envían a un usuario, a sí mismo o elementos pendientes que crea para sí mismo en el área de Inicio. Workfront guarda las solicitudes de trabajo ad hoc y las tareas pendientes como tareas personales.
-author: Lisa
+author: Becky
 feature: Get Started with Workfront
 exl-id: b40d6b10-19c7-4e11-a74f-a8af3ebafb65
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
 workflow-type: tm+mt
 source-wordcount: '655'
 ht-degree: 5%

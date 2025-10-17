@@ -4,11 +4,11 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-conditions
 description: Puede cambiar el orden en que se muestran las condiciones cuando un usuario edita un proyecto o cambia la condición de una tarea o un problema.
-author: Lisa
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: b9a489e8-0ffe-4f52-bbd9-172e7273048c
-source-git-commit: e50afb39f151ae8663ca2903454b475b21aa6f83
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '198'
 ht-degree: 58%

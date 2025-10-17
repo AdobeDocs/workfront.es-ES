@@ -5,14 +5,14 @@ content-type: reference;overview
 product-area: system-administration;user-management
 navigation-topic: group-roles
 description: Es posible que los administradores de Adobe Workfront de una organización grande con muchos departamentos no deseen administrar todos los departamentos y grupos de la organización dentro de esos departamentos. En su lugar, pueden crear un grupo para cada departamento y subgrupos dentro de ese grupo, cada uno administrado por un administrador de grupo.
-author: Lisa
+author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 589cf9fb-f195-4b69-a240-3f73e6ca623e
-source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '1047'
-ht-degree: 0%
+ht-degree: 16%
 
 ---
 
@@ -24,7 +24,7 @@ Es posible que los administradores de Adobe Workfront de una organización grand
 
 Un administrador de grupo puede administrar las necesidades de un grupo, como la pertenencia de usuarios, plantillas de diseño, datos personalizados, estados y preferencias.
 
-Pueden existir hasta 14 niveles de subgrupos en un grupo.
+Pueden existir hasta 14 niveles de subgrupos en un mismo grupo.
 
 >[!NOTE]
 >
@@ -66,7 +66,7 @@ Se recomienda que los administradores de grupo tengan acceso de edición a los u
 >[!IMPORTANT]
 >
 >Los administradores de grupo deben tener un acceso mayor que los que administran; de lo contrario, no podrán ver ni modificar niveles de acceso menores.
->Para obtener instrucciones sobre cómo conceder este acceso, vea [Crear o modificar niveles de acceso personalizados](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+>>Para obtener instrucciones sobre cómo conceder este acceso, vea [Crear o modificar niveles de acceso personalizados](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
 Para un administrador de grupo que necesite asignar perfiles de plantilla de horas a usuarios de sus grupos y subgrupos, también recomendamos acceso administrativo a las plantillas de horas y a las horas. Para obtener instrucciones sobre cómo conceder este acceso, consulte [Conceder acceso administrativo a usuarios en ciertas áreas](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
 
@@ -76,18 +76,18 @@ Como administrador de grupos, puede llevar a cabo las tareas descritas a continu
 
 >[!NOTE]
 >
->En el nuevo modelo de precios y empaquetado, debe tener un plan Prime o superior para realizar lo siguiente:
+>En el nuevo modelo de asignación de precios y empaquetado, debe tener un plan Prime o superior para realizar las siguientes acciones:
 >
 > * Crear notificaciones de eventos de grupo
 > * Configurar las preferencias del proyecto de grupo
 > * Configurar las preferencias de tareas de grupo y problemas
 > * Desbloquear la configuración de las preferencias del subgrupo
-> * Agrupar preferencias de horas y hojas de horas
+> * Plantilla de horas y preferencia de horas del grupo
 > * Desbloquear hoja de horas y preferencia de horas
 
 ### Administrar miembros del grupo {#manage-group-members}
 
-* Cree, edite y elimine subgrupos dentro de los grupos y subgrupos que administra. Para obtener instrucciones, vea [Crear un subgrupo](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/create-a-subgroup.md).
+* Cree, edite y elimine subgrupos dentro de los grupos y subgrupos que administra. Para obtener instrucciones, consulte [Crear un subgrupo](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/create-a-subgroup.md).
 * Añada a sus grupos y subgrupos los usuarios para los que tenga acceso de edición. O bien, puede agregar usuarios a grupos y subgrupos editando sus perfiles.
 
   También puede actualizar los campos del perfil de un miembro del grupo si tiene habilitado el permiso Administración de usuarios (usuarios del grupo) en su nivel de acceso.
@@ -99,24 +99,24 @@ Como administrador de grupos, puede llevar a cabo las tareas descritas a continu
   >Los administradores de Workfront pueden anular los cambios realizados por un administrador de grupo en las pertenencias a grupos.
 
 * Restablezca las contraseñas de los usuarios que sean miembros de los grupos que administre. Para obtener más información, consulte [Editar el perfil de un usuario](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
-* Inicie sesión como usuarios que sean miembros de los grupos que administra. Para obtener más información, vea [Iniciar sesión como otro usuario](../../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md).
+* Inicie sesión como usuarios que sean miembros de los grupos que administra. Para obtener más información, consulte [Iniciar sesión como otro usuario](../../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md).
 * Vea el número de licencias disponibles para su grupo y los subgrupos debajo de él. Para obtener más información, consulte [Administrar licencias disponibles en el sistema](../../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md).
 
 ### Administrar objetos de grupo {#manage-group-objects}
 
 * Cree plantillas de diseño de nivel de grupo y asócielas a los grupos y subgrupos que administre. Para obtener más información, consulte [Crear y administrar plantillas de diseño](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
-* Cree perfiles de hojas de horas a nivel de grupo, asócielos a los usuarios y grupos que administre y genere hojas de horas manualmente. Para obtener más información, consulte [Crear, editar y asignar perfiles de hojas de horas](../../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md).
-* Sin acceso administrativo a los procesos de aprobación, cree y edite los procesos de aprobación para los grupos y subgrupos que administra. Para obtener más información, vea [Crear un proceso de aprobación de elementos de trabajo](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
+* Cree perfiles de hojas de horas a nivel de grupo, asócielos a los usuarios y grupos que administre y genere hojas de horas manualmente. Para obtener más información, consulte [Creación, edición y asignación de perfiles de plantilla de horas](../../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md).
+* Sin acceso administrativo a los procesos de aprobación, cree y edite los procesos de aprobación para los grupos y subgrupos que administra. Para obtener más información, consulte [Crear un proceso de aprobación de elementos de trabajo](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
 
-  Para obtener información acerca del acceso administrativo a los procesos de aprobación, vea [Conceder acceso administrativo a los usuarios a ciertas áreas](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
+  Para obtener información acerca del acceso administrativo a los procesos de aprobación, consulte [Conceder a los usuarios acceso administrativo a determinadas áreas](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
 
-* Cree programaciones y asócielas a un grupo que administre. Para obtener más información, consulte [Crear una programación](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
+* Cree programaciones y asócielas a un grupo que administre. Para obtener más información, consulte [Crear programación](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
 * Gestionar un equipo asignado a un grupo que usted gestione, sin ser miembro del equipo. Además, cree un informe de equipo basado en el campo Grupo para identificar a qué grupo está asignado un equipo determinado. Para obtener más información, consulte [Crear un equipo](../../../people-teams-and-groups/create-and-manage-teams/create-a-team.md).
-* Restaurar un proyecto que esté asociado a un grupo que usted administre, junto con cualquier tarea, problema o documento asociado con el proyecto. Para obtener más información, vea [Restaurar elementos eliminados](../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md).
+* Restaurar un proyecto que esté asociado a un grupo que usted administre, junto con cualquier tarea, problema o documento asociado con el proyecto. Para obtener más información, consulte [Restaurar elementos eliminados](../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md).
 
 ### Administrar las herramientas y preferencias del grupo {#manage-group-preferences-and-tools}
 
-* Cuando la preferencia de un proyecto, una preferencia de tarea o problema o la preferencia de plantillas de horas y horas estén desbloqueadas para grupos en todo el sistema, edite esa preferencia para los grupos que administre. Estas preferencias afectan al comportamiento del proyecto, la tarea y el problema. Para obtener más información, consulte lo siguiente:
+* Cuando la preferencia de un proyecto, una preferencia de tarea o problema o la preferencia de plantillas de horas y horas estén desbloqueadas para grupos en todo el sistema, edite esa preferencia para los grupos que administre. Estas preferencias afectan al comportamiento del proyecto, la tarea y el problema. Para obtener más información, consulte los artículos:
 
    * [Configurar preferencias de proyecto para un grupo](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md)
    * [Configurar las preferencias de tareas y problemas de un grupo](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md)

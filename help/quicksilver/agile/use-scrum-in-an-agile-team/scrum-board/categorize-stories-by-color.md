@@ -3,10 +3,10 @@ product-area: agile-and-teams;projects
 navigation-topic: scrum-board
 title: Categorizar historias por color en el panel de exploración
 description: La asociación de colores predeterminada de las historias del guion gráfico de Scrum difiere según si el guion gráfico se encuentra en una iteración o en un proyecto.
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: 8e351505-73d1-4c8f-b369-53c965b88c95
-source-git-commit: 91dc9946566e15bf32d0d89975e3e6b66b39e873
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '427'
 ht-degree: 22%

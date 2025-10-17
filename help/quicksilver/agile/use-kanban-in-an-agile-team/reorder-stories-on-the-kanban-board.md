@@ -3,10 +3,10 @@ product-area: agile-and-teams
 navigation-topic: use-kanban-in-an-agile-team
 title: Reordenar historias en el Panel Kanban
 description: Es posible que desee cambiar el orden en el que se muestran los artículos dentro de las columnas de estado en el panel Kanban.
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: 7d6142d2-4e6e-4f9f-81a8-bcc666757bad
-source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '253'
 ht-degree: 30%

@@ -4,10 +4,10 @@ product-area: reporting;calendars
 navigation-topic: tips-tricks-and-troubleshooting-reports
 title: La edición en línea de fechas desplaza la visualización del calendario fuera del cuadro
 description: Al editar fechas en línea en una lista de objetos, el calendario muestra más fechas de las que debería. Esto hace que los días se muestren fuera del cuadro de calendario.
-author: Lisa
+author: Jenny
 feature: Reports and Dashboards
 exl-id: 6d053968-1578-4c20-b2a7-43634481696f
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '159'
 ht-degree: 98%

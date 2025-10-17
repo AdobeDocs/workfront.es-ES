@@ -5,11 +5,11 @@ keywords: administrar, subagrupar, editar
 navigation-topic: create-and-manage-subgroups
 title: Administrar un subgrupo
 description: Como administrador de grupo de un subgrupo, puede crear, mover, ver, editar, copiar, cambiar el nombre, exportar y eliminar el subgrupo. También puede convertir un subgrupo en un grupo de nivel superior eliminándolo de su grupo principal.
-author: Lisa
+author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 5186d266-fa9f-445d-9dcc-bc07eb147b60
-source-git-commit: a42a167447d2f11b5502e4a0953b5e7eec2e67b1
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '1386'
 ht-degree: 52%
@@ -180,7 +180,7 @@ Puede convertir un subgrupo en un grupo de nivel superior eliminándolo de su gr
 >[!TIP]
 >
 >Cuando desactiva un grupo que tiene subgrupos debajo de él, esos subgrupos también quedan inactivos. Si desea que uno de ellos esté activo, puede utilizar estas instrucciones para eliminarlo de su grupo principal y luego reactivarlo.
->&#x200B;>Para obtener instrucciones sobre cómo desactivar y reactivar grupos, consulte [Desactivar o reactivar un grupo](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/deactivate-or-reactivate-a-group.md).
+>>Para obtener instrucciones sobre cómo desactivar y reactivar grupos, consulte [Desactivar o reactivar un grupo](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/deactivate-or-reactivate-a-group.md).
 
 {{step-1-to-setup}}
 

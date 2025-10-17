@@ -4,10 +4,10 @@ content-type: reference
 navigation-topic: boards
 title: Uso de grupos en un tablero
 description: Puede agrupar las tarjetas por asignado o etiqueta en un tablero. Cuando se selecciona una opción de agrupación, las tarjetas aparecen en formato de diagrama de flujos.
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: 6f57a20e-0e47-4457-8605-9bce55c013ec
-source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '324'
 ht-degree: 96%

@@ -4,14 +4,14 @@ product-area: system-administration;user-management
 navigation-topic: work-with-a-groups-objects
 title: Procesos de aprobación de nivel de grupo
 description: Cuando visualiza un grupo que administra en el área de Grupos, puede ver y trabajar con los procesos de aprobación para los que los administradores del grupo o uno de sus subgrupos tienen acceso administrativo.
-author: Lisa
+author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: d43e7488-28e5-47d2-9401-e3d20e0d0256
-source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '129'
-ht-degree: 0%
+ht-degree: 97%
 
 ---
 
@@ -21,6 +21,6 @@ Cuando visualiza un grupo que administra en el área de Grupos, puede ver y trab
 
 Si hay grupos por encima del grupo que administra, sus administradores también pueden hacerlo en su grupo. Lo mismo ocurre con los administradores de Workfront (para cualquier grupo).
 
-Para obtener instrucciones, vea [Crear un proceso de aprobación de elementos de trabajo](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
+Para obtener instrucciones, consulte [Crear un proceso de aprobación de elementos de trabajo](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
 
-Para obtener más información acerca de los procesos de aprobación, vea [Introducción al proceso de aprobación](../../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md).
+Para obtener más información acerca de los procesos de aprobación, consulte [Información general sobre el proceso de aprobación](../../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md).

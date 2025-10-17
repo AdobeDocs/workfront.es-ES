@@ -4,10 +4,10 @@ product-area: calendars
 navigation-topic: calendars-navigation-topic
 title: Resumen de informes de calendario
 description: Un informe de calendario es un informe dinámico que proporciona una representación visual del trabajo. Puede visualizar información sobre fechas en un informe de calendario para tareas, problemas y proyectos.
-author: Lisa
+author: Jenny
 feature: Reports and Dashboards
 exl-id: c65cf8ab-e37f-42a4-9a81-70962629e9ba
-source-git-commit: d90459cb4f6fb1960552f0ab174e963582312b5c
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '352'
 ht-degree: 99%
@@ -24,7 +24,7 @@ Un informe de calendario es un informe dinámico que proporciona una representac
 * Problemas
 * Proyectos
 
-Su capacidad para acceder a los informes del calendario en [!DNL Adobe Workfront] se determina a través de su nivel de acceso. Para obtener más información sobre el acceso necesario para ver los informes del calendario, vea [Conceder acceso a informes, paneles y calendarios](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md).
+Su capacidad para acceder a los informes del calendario en [!DNL Adobe Workfront] se determina a través de su nivel de acceso. Para obtener más información sobre el acceso necesario para ver los informes del calendario, vea [Conceder acceso a informes, paneles de control y calendarios](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md).
 
 ## Crear sus propios calendarios
 
@@ -44,7 +44,7 @@ Además, puede crear calendarios y acceder a los calendarios que otros usuarios 
 
 >[!NOTE]
 >
->Debe tener acceso de [!UICONTROL Editar] a [!UICONTROL Informes], [!UICONTROL Paneles] y [!UICONTROL Calendarios] en su nivel de acceso para crear un informe de calendario. Póngase en contacto con el administrador de [!DNL Workfront] para obtener más información.
+>Debe tener acceso de [!UICONTROL Editar] a [!UICONTROL Informes], [!UICONTROL Paneles de control] y [!UICONTROL Calendarios] en su nivel de acceso para crear un informe de calendario. Póngase en contacto con el administrador de [!DNL Workfront] para obtener más información.
 
 ## Agrupar elementos por fechas
 

@@ -3,10 +3,10 @@ content-type: overview
 navigation-topic: notifications
 title: Información general sobre las notificaciones en la aplicación
 description: 'En este artículo se enumeran las notificaciones en la aplicación que puede recibir. Las notificaciones en la aplicación le mantienen informado sobre dos tipos de información: notificaciones de anuncios y notificaciones de elementos de trabajo. Están disponibles tanto desde la aplicación web como desde la aplicación móvil.'
-author: Lisa
+author: Courtney
 feature: Get Started with Workfront
 exl-id: afc8cfe7-d9a7-458a-b437-bd4c75838cb0
-source-git-commit: 6a1152bb86a856d60585db7d6ffd43a59a212a72
+source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
 workflow-type: tm+mt
 source-wordcount: '826'
 ht-degree: 32%
@@ -35,7 +35,7 @@ Notificación de ![[!UICONTROL anuncio]](assets/notification-list-announcement-3
 
 Para obtener información sobre la página [!UICONTROL Anuncios], consulte [Visualización y administración de notificaciones en la aplicación](../../workfront-basics/using-notifications/view-and-manage-in-app-notifications.md).
 
-## Notificaciones del [!UICONTROL &#x200B; elemento de trabajo]
+## Notificaciones del [!UICONTROL  elemento de trabajo]
 
 Al hacer clic en el icono numerado ![Icono de notificaciones](assets/notifications-icon-jewel.jpg) en la esquina superior derecha de [!DNL Workfront] para abrir la lista de notificaciones, se muestra la línea de asunto del mensaje del elemento de trabajo con un icono y una breve descripción para identificar de qué se trata. A continuación se enumeran los tipos de icono y descripción.
 
@@ -43,7 +43,7 @@ Al hacer clic en el icono numerado ![Icono de notificaciones](assets/notificatio
 
 >[!NOTE]
 >
->Las notificaciones dentro de la aplicación para actividades laborales no están vinculadas a las notificaciones por correo electrónico en [!DNL Workfront]. Para obtener más información, consulte notificaciones de [[!DNL Adobe Workfront] &#x200B;](../../workfront-basics/using-notifications/wf-notifications.md).
+>Las notificaciones dentro de la aplicación para actividades laborales no están vinculadas a las notificaciones por correo electrónico en [!DNL Workfront]. Para obtener más información, consulte notificaciones de [[!DNL Adobe Workfront] ](../../workfront-basics/using-notifications/wf-notifications.md).
 
 * [[!UICONTROL Rutas de aprobación]](#approvals)
 * [[!UICONTROL Solicitudes]](#requests)

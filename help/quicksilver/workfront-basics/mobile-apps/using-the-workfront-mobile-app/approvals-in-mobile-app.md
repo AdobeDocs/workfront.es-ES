@@ -1,21 +1,21 @@
 ---
 product-previous: mobile
 navigation-topic: use-the-workfront-mobile-app
-title: Aprobaciones en la  [!DNL Adobe Workfront] aplicación móvil
-description: Puede administrar las aprobaciones que se le hayan asignado o delegado desde el área de [!UICONTROL Aprobaciones] de la aplicación móvil  [!DNL Adobe Workfront] App.
-author: Nolan
+title: 'Aprobaciones en la aplicación móvil de  [!DNL Adobe Workfront] '
+description: Puede administrar las aprobaciones que se le hayan asignado o delegado desde el área [!UICONTROL Approvals] de la aplicación móvil de  [!DNL Adobe Workfront] .
+author: Lisa
 feature: Get Started with Workfront
 exl-id: 92259a17-209b-4bc1-8c14-826969b08a63
-source-git-commit: 854eb3c0e4ee49315c36e00c7012e0baf2d98c37
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '267'
-ht-degree: 2%
+ht-degree: 100%
 
 ---
 
-# Aprobaciones en la aplicación móvil [!DNL Adobe Workfront]
+# Aprobaciones en la aplicación móvil de [!DNL Adobe Workfront]
 
-Puede administrar las aprobaciones que se le hayan asignado o delegado desde el área de [!UICONTROL Aprobaciones] de la aplicación móvil [!DNL Adobe Workfront]. Desde el área [!UICONTROL aprobaciones], puede aprobar:
+Puede administrar las aprobaciones que se le hayan asignado o delegado desde el área [!UICONTROL Approvals] de la aplicación móvil de [!DNL Adobe Workfront]. Desde el área [!UICONTROL approvals], puede aprobar:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -37,13 +37,13 @@ Puede administrar las aprobaciones que se le hayan asignado o delegado desde el 
  </tbody> 
 </table>
 
-Las pruebas siguen un proceso de aprobación independiente. No puede aprobar una prueba a partir de un elemento de trabajo o de la aprobación de un documento. Para obtener información sobre cómo revisar y aprobar pruebas, consulte [Revisar y tomar decisiones sobre pruebas en la [!DNL Adobe Workfront] aplicación móvil](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/work-with-proofs-in-mobile-app.md).
+Las pruebas siguen un proceso de aprobación independiente. No puede aprobar una prueba a partir de un elemento de trabajo o de la aprobación de un documento. Para obtener información sobre cómo revisar y aprobar pruebas, consulte [Revisar y tomar decisiones sobre pruebas en la aplicación móvil de  [!DNL Adobe Workfront] ](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/work-with-proofs-in-mobile-app.md).
 
 ## Revisión de una aprobación
 
-1. Seleccione **[!UICONTROL Mostrar todas las aprobaciones]** en el área de [!UICONTROL Aprobaciones] de [!UICONTROL Mi trabajo].
+1. Seleccione **[!UICONTROL Show all approvals]** en el área [!UICONTROL Approvals] de [!UICONTROL My Work].
 
-   Para obtener información sobre [!UICONTROL Mi trabajo] en la aplicación móvil, consulte la sección [[!UICONTROL Mi trabajo] en la aplicación móvil](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/my-work-section-mobile.md).
+   Para obtener información sobre [!UICONTROL My Work] en la aplicación móvil, consulte la sección [[!UICONTROL My Work] en la aplicación móvil de ](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/my-work-section-mobile.md).
 
 1. Seleccione una aprobación en la lista.
 
@@ -51,9 +51,9 @@ Las pruebas siguen un proceso de aprobación independiente. No puede aprobar una
 
 1. Revise la información asociada con la aprobación, como actualizaciones, documentos y detalles.
 
-   Este ejemplo muestra una aprobación de tarea. Otros tipos de aprobación pueden contener información diferente.
+   Este ejemplo muestra una aprobación de tarea. Otros tipos de aprobaciones pueden contener información diferente.
 
-   ![Aprobación de tarea de muestra](assets/mobile-taskapproval-350x664.png)
+   ![Aprobación de la tarea de muestra](assets/mobile-taskapproval-350x664.png)
 
 ## Tomar una decisión sobre una aprobación
 
@@ -62,13 +62,13 @@ Las pruebas siguen un proceso de aprobación independiente. No puede aprobar una
 
    | Icono | Decisión |
    |---|---|
-   | ![Aprobar revisión de tarea](assets/mobile-approveprooffromtask.png) | [!UICONTROL Aprobar] |
-   | ![Aprobar revisión con cambios de la tarea](assets/mobile-approveproofwithcommentsfromtask.png) | [!UICONTROL Aprobar con cambios] (solo disponible para documentos) |
-   | ![Rechazar revisión de la tarea](assets/mobile-rejectprooffromtask.png) | [!UICONTROL Rechazar] |
+   | ![Aprobar la prueba de la tarea](assets/mobile-approveprooffromtask.png) | [!UICONTROL Approve] |
+   | ![Aprobar la prueba con cambios de la tarea](assets/mobile-approveproofwithcommentsfromtask.png) | [!UICONTROL Approve with changes] (solo disponible para documentos) |
+   | ![Rechazar la prueba de la tarea](assets/mobile-rejectprooffromtask.png) | [!UICONTROL Reject] |
 
    {style="table-layout:auto"}
 
-1. (Opcional) Seleccione **[!UICONTROL Agregar comentario]** en el mensaje de confirmación en la parte inferior de la pantalla para agregar comentarios a la decisión. Estos comentarios aparecen en las actualizaciones para la aprobación.\
-   ![Agregar comentario](assets/mobile-addcommenttoapproval-350x123.png)\
+1. (Opcional) Seleccione **[!UICONTROL Add comment]** en el mensaje de confirmación en la parte inferior de la pantalla para añadir comentarios a la decisión. Estos comentarios aparecen en las actualizaciones para la aprobación.\
+   ![Añadir comentario](assets/mobile-addcommenttoapproval-350x123.png)\
    O\
-   Seleccione la flecha en la parte superior izquierda de la aprobación para volver a la página [!UICONTROL Aprobaciones].
+   Seleccione la flecha en la parte superior izquierda de la aprobación para volver a la página [!UICONTROL Approvals].

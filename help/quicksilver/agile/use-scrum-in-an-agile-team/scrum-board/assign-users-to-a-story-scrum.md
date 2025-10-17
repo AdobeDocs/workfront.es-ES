@@ -2,18 +2,18 @@
 product-area: agile-and-teams;projects;user-management
 navigation-topic: scrum-board
 title: Asignar usuarios a una historia en el panel de exploración
-description: Lea este artículo para aprender a asignar usuarios a una historia en el guion gráfico de Scrum.
-author: Lisa
+description: Lea este artículo para aprender a asignar usuarios a una historia en el tablero de Scrum.
+author: Jenny
 feature: Agile
 exl-id: 57fa28cc-f93d-4938-9d65-3dcf90fdf6a0
-source-git-commit: d660707dd69fab78095eed1414092a7c909ba174
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '241'
-ht-degree: 0%
+ht-degree: 96%
 
 ---
 
-# Asignar usuarios a una historia en el tablero [!UICONTROL Scrum]
+# Asignar usuarios a una historia en el tablero de [!UICONTROL Scrum]
 
 ## Requisitos de acceso
 
@@ -36,22 +36,22 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  </tbody> 
 </table>
 
-Para obtener más información sobre esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Asignar usuarios a una historia en el tablero [!UICONTROL Scrum]
+## Asignar usuarios a una historia en el tablero de [!UICONTROL Scrum]
 
 {{step1-to-team}}
 
-1. (Opcional) Haga clic en el icono **[!UICONTROL Cambiar equipo]** ![Cambiar icono de equipo](assets/switch-team-icon.png) y, a continuación, seleccione un nuevo equipo [!UICONTROL Scrum] en el menú desplegable o busque un equipo en la barra de búsqueda.
+1. (Opcional) Haga clic en el icono **[!UICONTROL Cambiar equipo]** ![Cambiar icono de equipo](assets/switch-team-icon.png) y, a continuación, seleccione un nuevo equipo de [!UICONTROL Scrum] en el menú desplegable o busque un equipo en la barra de búsqueda.
 
-1. Vaya a la iteración Agile o al proyecto que contiene el guion gráfico donde desea asignar usuarios. Para obtener información sobre cómo navegar a una iteración, vea [Ver una iteración](../../../agile/use-scrum-in-an-agile-team/iterations/view-iteration.md).
-1. Vaya al mosaico del guion gráfico en el que desea agregar un usuario.
-1. Haga clic en el avatar del equipo en el mosaico de la historia (o en un avatar de usuario si ya se ha asignado uno), empiece a escribir el nombre del usuario que desea asignar a la historia y, a continuación, haga clic en el nombre cuando aparezca. También puede elegir un usuario sugerido.
+1. Vaya a la iteración Agile o al proyecto que contiene el tablero de historias donde desea asignar usuarios. Para obtener información sobre cómo navegar a una iteración, consulte [Ver una iteración](../../../agile/use-scrum-in-an-agile-team/iterations/view-iteration.md).
+1. Vaya al mosaico de la historia en el tablero de la historia donde desea añadir un usuario.
+1. Haga clic en el avatar del equipo en el mosaico de la historia (o en un avatar de usuario si ya se ha asignado uno), empiece a escribir el nombre del usuario que desea asignar a la historia y, a continuación, haga clic en el nombre cuando aparezca. También puede elegir un usuario diferente.
 
    >[!TIP]
    >
-   >También puede asignar un rol a una historia. Solo puede asignar usuarios y funciones activos.
+   >También puede asignar una función a una historia. Solo puede asignar usuarios activos y funciones activas.
 
-   ![Agregar asignación a la tarjeta de historia](assets/addassignmenttostorycard-350x472.png)
+   ![Añadir asignación a la tarjeta de historia](assets/addassignmenttostorycard-350x472.png)
