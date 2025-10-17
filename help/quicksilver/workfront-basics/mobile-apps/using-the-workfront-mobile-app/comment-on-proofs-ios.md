@@ -53,7 +53,7 @@ En la lista [!UICONTROL comentario], puede realizar diferentes acciones, como re
    * Mantenga presionado un comentario individual para seleccionarlo.
    * Elija **[!UICONTROL Seleccionar]** en la parte superior derecha para mostrar una casilla de verificación junto a cada comentario. A continuación, pulse las casillas de verificación del comentario o elija **[!UICONTROL Seleccionar todo]** en la parte superior izquierda.
 
-1. Para resolver el comentario seleccionado, seleccione el icono](assets/mobile-resolvecomment-icon-30x30.png) ![[!UICONTROL Resolver comentario] en la barra de herramientas inferior.
+1. Para resolver el comentario seleccionado, seleccione el icono![&#128279;](assets/mobile-resolvecomment-icon-30x30.png) [!UICONTROL Resolver comentario] en la barra de herramientas inferior.
 
    Solo se puede resolver un comentario a la vez. El comentario se marca con un icono verde para mostrar que se ha resuelto.
 

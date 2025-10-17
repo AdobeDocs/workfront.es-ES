@@ -66,7 +66,7 @@ Se recomienda que los administradores de grupo tengan acceso de edición a los u
 >[!IMPORTANT]
 >
 >Los administradores de grupo deben tener un acceso mayor que los que administran; de lo contrario, no podrán ver ni modificar niveles de acceso menores.
->>Para obtener instrucciones sobre cómo conceder este acceso, vea [Crear o modificar niveles de acceso personalizados](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+>&#x200B;>Para obtener instrucciones sobre cómo conceder este acceso, vea [Crear o modificar niveles de acceso personalizados](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
 Para un administrador de grupo que necesite asignar perfiles de plantilla de horas a usuarios de sus grupos y subgrupos, también recomendamos acceso administrativo a las plantillas de horas y a las horas. Para obtener instrucciones sobre cómo conceder este acceso, consulte [Conceder acceso administrativo a usuarios en ciertas áreas](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
 
