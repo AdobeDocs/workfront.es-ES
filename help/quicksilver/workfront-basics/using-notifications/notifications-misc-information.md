@@ -38,7 +38,7 @@ Consulte también [Notificaciones de eventos](../../workfront-basics/using-notif
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p><strong>Se envía un mensaje al [!UICONTROL Announcement Center]</strong> </p> <p>Recibirá una notificación por correo electrónico cuando se envíe un nuevo mensaje al [!UICONTROL Announcement Center]. </p> <p>El asunto del correo electrónico de notificación instantánea es: <em>[!UICONTROL [!DNL Adobe Workfront] Announcement]: &lt;Asunto del anuncio&gt;</em></p> </td> 
+   <td> <p><strong>Se envía un mensaje al [!UICONTROL Announcement Center]</strong> </p> <p>Recibirá una notificación por correo electrónico cuando se envíe un nuevo mensaje al [!UICONTROL Announcement Center]. </p> <p>El asunto del correo electrónico de notificación instantánea es: <em>[!UICONTROL [!DNL Adobe Workfront] Announcement]: &lt;Asunto del anuncio&gt;</em></p> </td> 
    <td> Asunto del anuncio<br>Texto del mensaje incluido en el anuncio<br>Documento(s) adjunto(s)<br>Nombre del usuario que envió el anuncio<br>Fecha y hora en que se envió el anuncio </td> 
    <td><strong>Instantáneo</strong> </td> 
   </tr> 
