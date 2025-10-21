@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 94603393-bdea-4673-9256-08da14f6916e
-source-git-commit: 17aaf70977aa6ce0276676c6a30fd6c951be956c
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '881'
 ht-degree: 97%
@@ -48,10 +48,8 @@ También puede cambiar la imagen de fondo y el color de la pantalla de inicio de
 >[!NOTE]
 >
 >* El cambio de la imagen de fondo y el color de inicio de sesión no está disponible si la instancia de Workfront de su organización utiliza un portal SSO personalizado. Consulte al administrador de red o de TI si necesita más información.
-><!--
->or is enabled with Adobe IMS  >
->  >
->-->
+>
+><!-- or is enabled with Adobe IMS -->
 >
 >* Un administrador de Workfront o de grupos también puede personalizar la marca de Workfront para determinados grupos y usuarios mediante una plantilla de diseño. La marca en una plantilla de diseño anula la marca de nivel de sistema explicada en este artículo. Para obtener instrucciones sobre la personalización de marca en una plantilla de diseño, consulte [Personalización de marca en Adobe Workfront mediante una plantilla de diseño](../../../administration-and-setup/customize-workfront/use-layout-templates/brand-wf-using-a-layout-template.md).
 
@@ -134,10 +132,8 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
    >[!NOTE]
    >
    >Esto no está disponible si la instancia de Workfront de su organización utiliza un portal SSO personalizado.
-   ><!--   >
-   >or is enabled with Adobe IMS   >
-   >   >
-   >-->
+   >
+   ><!--  or is enabled with Adobe IMS -->
    >
    >Consulte al administrador de red o de TI si necesita más información.
 

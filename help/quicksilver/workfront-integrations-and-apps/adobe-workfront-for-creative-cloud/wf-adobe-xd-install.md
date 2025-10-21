@@ -6,7 +6,7 @@ description: Puede instalar el complemento de Adobe Workfront para XD desde Adob
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: d4971977-b5bd-4bb4-a1c2-44829a67d32d
-source-git-commit: a65a4568c6428768ee6bc60a59a8499efdbec9f8
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '521'
 ht-degree: 64%
@@ -105,7 +105,7 @@ Puede instalar el complemento de [!DNL Adobe Workfront for XD] usted mismo desde
    >* Para encontrar el dominio, abra un explorador, vaya a la instancia [!DNL Workfront] y copie la primera parte de la dirección URL:\
    >![Localizar dominio](assets/domain-350x50.png)
    >
-   > * Si la instancia de Workfront está integrada con Experience Cloud, pídale a su administrador que le proporcione el dominio de Workfront que se encuentra en Product > Workfront en el Admin Console.
+   >* Si la instancia de Workfront está integrada con Experience Cloud, pídale a su administrador que le proporcione el dominio de Workfront que se encuentra en Product > Workfront en el Admin Console.
 
 1. En el explorador, escriba sus credenciales de [!DNL Workfront] y haga clic en **[!DNL Log in]**. Si su empresa utiliza un inicio de sesión único (SSO), se le redirigirá a la página de su proveedor de SSO para iniciar sesión.
 

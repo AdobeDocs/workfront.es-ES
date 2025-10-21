@@ -8,7 +8,7 @@ feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 2a4488fb-fe2f-422a-887c-996f6367afc5
-source-git-commit: 0542587bb3254dec5664de493c1c321528cf7f3e
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '1461'
 ht-degree: 89%
@@ -173,8 +173,9 @@ Se muestra el cuadro Nuevo problema.
    >[!TIP]
    >
    >Los tipos de solicitud deben habilitarse en Detalles de la cola y al crear el tema de la cola para que se muestre como una selección en el formulario Nuevo problema. Para obtener más información, consulte los siguientes artículos:
+   >
    >* [Creación de una cola de solicitudes](../../requests/create-and-manage-request-queues/create-request-queue.md)
-   >  * [Creación de temas de cola](../../requests/create-and-manage-request-queues/create-queue-topics.md)
+   >* [Creación de temas de cola](../../requests/create-and-manage-request-queues/create-queue-topics.md)
 
 1. Continúe especificando los campos disponibles en el formulario **Nuevo problema**. Para obtener más información acerca de los campos disponibles al introducir un problema nuevo, consulte [Edición de problemas](../../../manage-work/issues/manage-issues/edit-issues.md).
 

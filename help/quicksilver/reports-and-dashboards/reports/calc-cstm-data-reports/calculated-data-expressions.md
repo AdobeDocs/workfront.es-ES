@@ -7,7 +7,7 @@ description: Puede utilizar expresiones de datos para definir campos de datos pe
 author: Jenny, Lisa
 feature: Reports and Dashboards
 exl-id: cfb3ace9-76c3-4006-878f-e2ad25ffa03b
-source-git-commit: a1ead6d0c1c85bfbe6d7302506743db8d8b3e205
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '2551'
 ht-degree: 88%
@@ -59,7 +59,7 @@ Por ejemplo:
 * En un campo personalizado, en un formulario personalizado para tareas, se utilizaría lo siguiente para generar el nombre del proyecto principal de la tarea donde se adjunta el formulario personalizado:
 
 
-  ` {project}.{name}`
+  `{project}.{name}`
 
 
 * En una columna personalizada de un informe, se utilizaría lo siguiente para añadir una columna personalizada Nombre del proyecto en un informe de tareas:

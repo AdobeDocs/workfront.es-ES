@@ -7,7 +7,7 @@ description: También conocido como Valor acumulado, el Coste presupuestado del 
 author: Lisa
 feature: Work Management
 exl-id: 203709a7-e522-4875-b3eb-40b967a938ec
-source-git-commit: 23a4d055871c9138818e70fa1cd936581dbd7552
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '571'
 ht-degree: 98%
@@ -85,7 +85,7 @@ Puede configurar si el CPTR se calcula en horas o costes configurando cómo se c
 
 1. Haga clic en **Guardar cambios**.
 
-El CPTR de las tareas del proyecto se calcula mediante horas o costes.
+   El CPTR de las tareas del proyecto se calcula mediante horas o costes.
 
 ## Calcular CPTR
 

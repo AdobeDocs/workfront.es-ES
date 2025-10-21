@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 89adb9ea-bfde-4c0d-9fec-b1f97e925340
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '333'
-ht-degree: 96%
+ht-degree: 92%
 
 ---
 
@@ -30,10 +30,10 @@ Al establecer grupos de inicio, tenga en cuenta cómo divide su organización a 
 
 >[!NOTE]
 >
->Si necesita reorganizar los grupos de inicio en unidades organizativas, debe:
+>Si necesita reorganizar los grupos de inicio en unidades organizativas, debe
+>
 >1. Crear el nuevo grupo, como se explica en [Crear un grupo](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md).
 >1. Reasignar el nuevo grupo como el grupo de inicio del usuario, como se explica en [Editar el perfil de un usuario](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
->
 
 ## Administración de plantillas de diseño
 

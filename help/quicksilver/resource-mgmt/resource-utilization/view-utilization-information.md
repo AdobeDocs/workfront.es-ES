@@ -6,10 +6,10 @@ description: Puede ver la utilización de sus recursos en el informe Utilizació
 author: Lisa
 feature: Resource Management
 exl-id: 785ee3e9-1b2d-4180-bc78-c41e71c5244d
-source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
-source-wordcount: '7259'
-ht-degree: 99%
+source-wordcount: '7099'
+ht-degree: 98%
 
 ---
 
@@ -339,29 +339,22 @@ A diferencia de otras áreas de Workfront, si los ingresos planificados superan 
   <tr> 
    <td><strong>Ingresos reales</strong> </td>
    <td> <p>Los ingresos reales son los ingresos asociados con las horas reales de las tareas y del proyecto. Para obtener más información sobre los ingresos reales, consulte <a href="/help/quicksilver/manage-work/projects/project-finances/billing-and-revenue-overview.md#track-revenue-amounts">Rastrear importes de ingresos</a> en <a href="/help/quicksilver/manage-work/projects/project-finances/billing-and-revenue-overview.md">Información general sobre facturación e ingresos</a>.</p>
-
-<p>La forma en que el informe Utilización calcula los ingresos reales de los proyectos incluidos difiere según el tipo de ingresos establecido en la tarea, de la siguiente manera:</p> <p><strong>Ingresos fijos:</strong> independientemente de las asignaciones de tareas, los ingresos de la tarea siempre se calculan utilizando el importe fijo especificado en la tarea.</p> <p><b>IMPORTANTE</b>
-
-A diferencia de otras áreas de Workfront, el informe Utilización calcula los ingresos reales dividiendo los ingresos fijos de forma uniforme por el número de horas registradas en la tarea. </p> <p> </p> <p>Por ejemplo, una tarea tiene unos ingresos reales de 200 $. Si hay 4 horas reales en la tarea, cada hora sería 50 $. Esto se distribuye en el nivel de usuario y función. Esta distribución es exclusiva del informe Utilización.</p> <p><b>NOTA</b>
-
-Si tiene una tarea de ingresos fijos y no hay horas reales en la tarea, los ingresos reales no se mostrarán en el informe Utilización porque no hay forma de distribuirlos entre las horas. </p> <p><strong>Función por hora:</strong> los ingresos de la tarea se calculan usando la tarifa de facturación establecida para una función específica, multiplicada por el número de horas reales.</p> <p>Workfront utiliza la fórmula siguiente:</p> <p><code>Función por hora con ingresos reales = SUMA(horas reales de las funciones en todas las tareas) * Tarifa de facturación de función</code> </p> <p><b>NOTA:</b> La tarifa de facturación por hora de la fórmula tiene en cuenta cualquier cambio de la fecha en vigor de la tarifa.</p> <p><strong>Usuario por hora:</strong> los ingresos de la tarea se calculan usando la tarifa de facturación establecida para un usuario específico, multiplicada por el número de horas registradas en la tarea de ese usuario. Workfront utiliza la fórmula siguiente:</p> <p><code>Hora de usuario con ingresos reales = SUMA(horas reales de usuario en todas las tareas) * Tarifa de facturación de usuario</code></p> <p><b>NOTA:</b> La tarifa de facturación por hora de la fórmula tiene en cuenta cualquier cambio de la fecha en vigor de la tarifa.</p> <p><b>Función o usuario por hora más fijos</b> </p> <p><b>IMPORTANTE</b>
-
-A diferencia de otras áreas de Workfront, el informe Utilización calcula los ingresos reales dividiendo los ingresos fijos de forma uniforme por el número de horas registradas en la tarea. </p> <p>Se dan los siguientes casos: </p>
-<ul>
-<li> <p><strong>Función por hora más fijos:</strong> la tarifa de facturación establecida para una función específica, multiplicada por el número de horas registradas en la tarea de un usuario con esa función. Además, se añade a la tarifa de usuario una cantidad fija especificada en la tarea. </p> <p>Workfront utiliza la fórmula siguiente:</p> <p><code>Función por hora más ingresos reales fijos = [SUMA(Horas reales de la función en todas las tareas) * Tarifa de facturación de la función] + SUMA(Importe límite o fijo de la tarea/Horas reales de la tarea)</code> </p> </li>
-<li> <p><strong>Usuario por hora más fijos:</strong> la tarifa de facturación establecida para un usuario específico, multiplicada por el número de horas registradas en la tarea de ese usuario. Además, se añade a la tarifa de usuario una cantidad fija especificada en la tarea. </p> <p>Workfront utiliza la fórmula siguiente:</p> <p><code>Usuario por hora más ingresos reales fijos = [SUMA(Horas reales de la función en todas las tareas) * Tarifa de facturación del usuario] + SUMA(Importe límite o fijo de la tarea/Horas del usuario de la tarea)</code> </p> </li>
-</ul> <p><b>Función o usuario por hora con límite</b> </p> <p><b>IMPORTANTE</b>
-
-A diferencia de otras áreas de Workfront, si los ingresos planificados superan el límite, el importe por encima del importe del límite se considera ingresos fijos. Los ingresos planificados se calculan dividiendo los ingresos fijos de forma equitativa por el número de horas planificadas en la tarea y, a continuación, añadiéndole el importe del límite y los ingresos por hora del usuario o función. <br></p> <p>Se dan los siguientes casos:</p>
-<ul>
-<li> <p><strong>Función por hora con límite:</strong> las tareas se facturan por hora como en Función por hora, pero tienen un límite máximo que puede especificar. Workfront utiliza la fórmula siguiente:</p> <p><code>Función por hora con límite de ingresos reales = [SUMA(Horas reales de la función en todas las tareas y problemas) * Tarifa de facturación de la función] + Importe límite de la tarea + SUMA(Importe que excede del importe límite/Horas reales de la tarea)</code></p> </li>
-<li> <p><strong>Usuario por hora con límite:</strong> las tareas se facturan por hora como en Usuario por hora, pero tienen un límite máximo que puede especificar.</p> <p> Workfront utiliza la fórmula siguiente:</p> <p><code>Usuario por hora con límite de ingresos reales = [SUMA(Horas reales de la función en todas las tareas y problemas) * Tarifa de facturación de usuario] + Importe límite de la tarea + SUMA(Importe que excede del importe límite/Horas reales de la tarea)</code> </p> </li>
-</ul>
-<p><strong>Ingresos del proyecto</strong>: los ingresos asociados con las horas registradas en el proyecto se calculan teniendo en cuenta la cantidad de Facturación por hora de la función principal del usuario que registra el tiempo. No se recomienda registrar el tiempo en el proyecto. </p>
-<p><b>NOTA</b>
-
-Si el usuario no está asociado a una función o si la facturación por hora de la función principal es cero, Workfront calcula los ingresos reales utilizando la cantidad de facturación por hora para el usuario. Si el usuario no tiene un importe de facturación por hora en su perfil, los ingresos reales son cero. </p>
-</td> 
+   <p>La forma en que el informe Utilización calcula los ingresos reales de los proyectos incluidos difiere según el tipo de ingresos establecido en la tarea, de la siguiente manera:</p> <p><strong>Ingresos fijos:</strong> independientemente de las asignaciones de tareas, los ingresos de la tarea siempre se calculan utilizando el importe fijo especificado en la tarea.</p> <p><b>IMPORTANTE</b></p>
+   <p>A diferencia de otras áreas de Workfront, el informe Utilización calcula los ingresos reales dividiendo los ingresos fijos de forma uniforme por el número de horas registradas en la tarea. </p> <p> </p> <p>Por ejemplo, una tarea tiene unos ingresos reales de 200 $. Si hay 4 horas reales en la tarea, cada hora sería 50 $. Esto se distribuye en el nivel de usuario y función. Esta distribución es exclusiva del informe Utilización.</p> <p><b>NOTA</b></p></p>
+   <p>Si tiene una tarea de ingresos fijos y no hay horas reales en la tarea, los ingresos reales no se mostrarán en el informe Utilización porque no hay forma de distribuirlos entre las horas. </p> <p><strong>Función por hora:</strong> los ingresos de la tarea se calculan usando la tarifa de facturación establecida para una función específica, multiplicada por el número de horas reales.</p> <p>Workfront utiliza la fórmula siguiente:</p> <p><code>Role Hourly Actual Revenue = SUM(Actual Hours from role on all tasks) * Role Billing Rate</code> </p> <p><b>NOTA:</b> La tarifa de facturación por hora de la fórmula tiene en cuenta cualquier cambio de la fecha en vigor de la tarifa.</p> <p><strong>Usuario por hora:</strong> los ingresos de la tarea se calculan usando la tarifa de facturación establecida para un usuario específico, multiplicada por el número de horas registradas en la tarea de ese usuario. Workfront utiliza la fórmula siguiente:</p> <p><code>User Hourly Actual Revenue = SUM(Actual Hours from user on all tasks) * User Billing Rate</code></p> <p><b>NOTA:</b> La tarifa de facturación por hora de la fórmula tiene en cuenta cualquier cambio de la fecha en vigor de la tarifa.</p> <p><b>Función o usuario por hora más fijos</b> </p> <p><b>IMPORTANTE</b>
+   <p>A diferencia de otras áreas de Workfront, el informe Utilización calcula los ingresos reales dividiendo los ingresos fijos de forma uniforme por el número de horas registradas en la tarea. </p> <p>Se dan los siguientes casos: </p> </p>
+   <ul> 
+     <li> <p><strong>Función por hora más fijos:</strong> la tarifa de facturación establecida para una función específica, multiplicada por el número de horas registradas en la tarea de un usuario con esa función. Además, se añade a la tarifa de usuario una cantidad fija especificada en la tarea. </p> <p>Workfront utiliza la fórmula siguiente:</p> <p><code>Role Hourly Plus Fixed Actual Revenue = [SUM(Actual Hours from role on all tasks) * Role Billing Rate] + SUM(Cap or Fixed Amount of the task / Actual Hours of the task)</code> </p> </li>
+     <li> <p><strong>Usuario por hora más fijos:</strong> la tarifa de facturación establecida para un usuario específico, multiplicada por el número de horas registradas en la tarea de ese usuario. Además, se añade a la tarifa de usuario una cantidad fija especificada en la tarea. </p> <p>Workfront utiliza la fórmula siguiente:</p> <p><code>User Hourly Plus Fixed Actual Revenue = [SUM(Actual Hours from role on all tasks) * User Billing Rate] + SUM(Cap or Fixed Amount of the task / User Hours of the task)</code> </p> </li> 
+   </ul> <p><b>Función o usuario por hora con límite</b> </p> <p><b>IMPORTANTE</b>
+   <p>A diferencia de otras áreas de Workfront, si los ingresos planificados superan el límite, el importe por encima del importe del límite se considera ingresos fijos. Los ingresos planificados se calculan dividiendo los ingresos fijos de forma equitativa por el número de horas planificadas en la tarea y, a continuación, añadiendo a eso el importe del límite y el rol o los ingresos por hora del usuario. <br></p> <p>Se dan los siguientes casos:</p></p>
+    <ul> 
+     <li> <p><strong>Función por hora con límite:</strong> las tareas se facturan por hora como en Función por hora, pero tienen un límite máximo que puede especificar. Workfront utiliza la fórmula siguiente:</p> <p><code>Role Hourly w/ Cap Actual Revenue = [SUM(Actual Hours from role on all tasks and issues) * Role Billing Rate] + Cap Amount of the task + SUM(Amount over the Cap Amount / Actual Hours of the task)</code></p> </li>
+     <li> <p><strong>Usuario por hora con límite:</strong> las tareas se facturan por hora como en Usuario por hora, pero tienen un límite máximo que puede especificar.</p> <p> Workfront utiliza la fórmula siguiente:</p> <p><code>User Hourly w/ Cap Actual Revenue = [SUM(Actual Hours from role on all tasks and issues) * User Billing Rate] + Cap Amount of the task + SUM(Amount over the Cap Amount / Actual Hours of the task)</code> </p> </li> 
+    </ul>
+     <p><strong>Ingresos del proyecto</strong>: los ingresos asociados con las horas registradas en el proyecto se calculan teniendo en cuenta la cantidad de Facturación por hora de la función principal del usuario que registra el tiempo. No se recomienda registrar el tiempo en el proyecto. </p> 
+     <p><b>NOTA</b>Si el usuario no está asociado con un rol o si la facturación por hora del rol principal es cero, Workfront calcula los ingresos reales usando la cantidad Facturación por hora para el usuario. Si el usuario no tiene un importe de facturación por hora en su perfil, los ingresos reales son cero. </p> 
+   </td> 
   </tr> 
   <tr> 
    <td><strong>Variación presupuestada (para ingresos)</strong> </td> 
@@ -467,7 +460,7 @@ Debe especificar uno o varios proyectos en el filtro antes de ejecutar el inform
 
      {{step1-to-utilization-report}}
 
-      1. Haga clic en **Mostrar**>**Programas**.
+      1. Haga clic en **Mostrar** > **Programas**.
       1. Aplique un filtro al informe de utilización y, a continuación, haga clic en **Ejecutar**.\
          Debe especificar uno o más programas en el filtro antes de ejecutar el informe de utilización. Para obtener información sobre cómo filtrar el informe de utilización, consulte [Filtrar información de utilización](#filter-utilization-information) en este artículo.\
          La información de utilización se muestra para proyectos y programas individuales (los proyectos se agrupan dentro de su programa asociado).
@@ -476,7 +469,7 @@ Debe especificar uno o varios proyectos en el filtro antes de ejecutar el inform
 
      {{step1-to-utilization-report}}
 
-      1. Haga clic en **Mostrar**>**Portafolio**.
+      1. Haga clic en **Mostrar** > **Portafolios**.
       1. Aplique un filtro al informe de utilización y, a continuación, haga clic en **Ejecutar**.\
          Debe especificar uno o más portafolios en el filtro antes de ejecutar el informe de utilización. Para obtener información sobre cómo filtrar el informe de utilización, consulte [Filtrar información de utilización](#filter-utilization-information) en este artículo.\
          La información de utilización se muestra para proyectos, programas y portafolios individuales (los proyectos se agrupan dentro de su programa asociado y los programas se agrupan dentro de su portafolio asociado).
@@ -492,7 +485,8 @@ Debe especificar uno o varios proyectos en el filtro antes de ejecutar el inform
    La opción que seleccione determina qué columnas e información están disponibles en el informe.
    ![Ver opciones](assets/utilization-view-dropdown.png)
 
-1. (Opcional) Seleccione el intervalo de fechas para el que se muestra la información de utilización. Puede mostrar información de una semana o mes determinados a la izquierda de la columna **General**. La información general del proyecto, programa o portafolio siempre se muestra en la columna **General**.\
+1. (Opcional) Seleccione el intervalo de fechas para el que se muestra la información de utilización. Puede mostrar información de una semana o mes determinados a la izquierda de la columna **General**. La información general del proyecto, programa o portafolio siempre se muestra en la columna **General**.
+
    Para obtener más información, consulte [Ajustar el intervalo de fechas para el que se muestra información](#adjust-the-date-range-for-which-information-is-displayed) en este artículo.
 
 1. (Opcional) Haga clic en cualquier título de columna para ordenar el informe de utilización por la información de esa columna. La ordenación solo funciona cuando se incluyen varios elementos en el informe. Por ejemplo, puede ordenar los resultados del informe cuando esté viendo más de un proyecto (o portafolio o programa). No puede ordenar los resultados cuando solo está viendo un proyecto (o un portafolio o un programa) a la vez.
@@ -510,8 +504,9 @@ Al crear un filtro, todos los usuarios de Workfront que tienen acceso al informe
 
 Para crear o modificar un filtro:
 
-1. Abra el informe de utilización.
-Consulte [Seguimiento del progreso, los costes y los ingresos con el informe de utilización](#track-progress-cost-and-revenue-with-the-utilization-report) para hacerlo.
+1. Abra el informe Utilización.
+
+   Consulte [Seguimiento del progreso, los costes y los ingresos con el informe de utilización](#track-progress-cost-and-revenue-with-the-utilization-report) para hacerlo.
 
 1. Haga clic en el icono **Filtro** para mostrar las opciones de filtro.
 1. (Condicional) Para modificar un filtro existente, haga clic en el menú desplegable **Filtro** y, a continuación, seleccione el filtro que desee modificar.

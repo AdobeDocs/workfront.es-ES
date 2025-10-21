@@ -8,7 +8,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 8a55d364-962a-4eef-8968-b2233a71cf31
-source-git-commit: 75fea812b4574191522af4721a013b57aa5d609f
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '376'
 ht-degree: 68%
@@ -30,9 +30,7 @@ Si habilita la autenticación SAML 2.0 y desea que los usuarios puedan iniciar s
 >[!NOTE]
 >
 >Esto no está disponible si la instancia de Workfront de su organización utiliza un portal SSO personalizado.>
-><!--
->or is enabled with Adobe IMS>
->-->
+>
 >Consulte al administrador de red o de TI si necesita más información.
 
 ## Requisitos de acceso

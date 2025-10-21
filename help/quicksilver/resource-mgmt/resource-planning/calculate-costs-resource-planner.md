@@ -6,10 +6,10 @@ description: Puede presupuestar sus recursos en el Planificador de recursos de A
 author: Lisa
 feature: Resource Management
 exl-id: 2f3ca8c2-51b3-4282-af8b-7f433365d386
-source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '1392'
-ht-degree: 99%
+ht-degree: 98%
 
 ---
 
@@ -150,7 +150,7 @@ Aunque no es posible ver información sobre tareas en el Planificador de recurso
 
 Existen los siguientes escenarios al calcular el coste planificado de usuarios, funciones y proyectos:
 
-* Cuando **Tipo de coste** sea **Usuario por hora &#x200B;** y no haya **ninguna asignación** en la tarea:
+* Cuando **Tipo de costo** es **Usuario por hora** y no hay **ninguna asignación** en la tarea:
 
    * **Coste planificado por función y usuario**:
 

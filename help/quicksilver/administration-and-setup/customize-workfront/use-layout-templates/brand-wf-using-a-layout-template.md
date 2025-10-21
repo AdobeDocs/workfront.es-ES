@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: ded9ab1e-c5f4-476b-ac81-0497dbe6b24d
-source-git-commit: 76e32fa6b87583d2b8c296045da731afdb6d1f9a
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '532'
 ht-degree: 96%
@@ -32,9 +32,8 @@ Para obtener información sobre las plantillas de diseño para grupos, consulte 
 >[!NOTE]
 >
 >Un administrador de Workfront puede realizar las mismas personalizaciones de marca para toda la organización a nivel de sistema, tal como se explica en [Personalización de marca de su instancia de Adobe Workfront](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md). Sin embargo, una personalización de marca de una plantilla de diseño anula la personalización de marca del sistema.
-><!--
->Maybe add a section about deleting these 2 settings to revert to default branding?
->-->
+
+<!-- Maybe add a section about deleting these 2 settings to revert to default branding? -->
 
 ## Requisitos de acceso
 

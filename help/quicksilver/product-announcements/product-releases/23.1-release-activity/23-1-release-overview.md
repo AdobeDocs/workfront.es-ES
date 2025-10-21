@@ -6,7 +6,7 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: e86524d3-5f57-45b6-8582-102d2de92be4
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '2462'
 ht-degree: 99%
@@ -26,11 +26,8 @@ El seminario web de la versión 23.1 tuvo lugar el martes 10 de enero de 2023. P
 ## Mejoras de Adobe Workfront
 
 * [Mejoras en la administración de proyectos y recursos](#project-and-resource-management-enhancements)
-
 * [Mejoras de Agile](#agile-enhancements)
-
 * [Mejoras en la aplicación móvil](#mobile-enhancements)
-
 * [Otras mejoras](#other-enhancements)
 
 ### Mejoras en la administración de proyectos y recursos
@@ -208,7 +205,7 @@ El seminario web de la versión 23.1 tuvo lugar el martes 10 de enero de 2023. P
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Buscar y ordenar en el panel de control de tableros</a></p>
-                        <p>Ahora puede ordenar el panel del tablero por nombre o fecha del tablero y buscar un tablero específico en la lista.</p>
+                        <p>Ahora puede ordenar el panel de control de tableros por nombre o fecha del tablero y buscar un tablero específico en la lista.</p>
                     </td>
                     <td><p><b>Disponible en estas fechas:</b></p>
                      <p>
@@ -524,7 +521,7 @@ Para obtener información sobre las versiones de la API, consulte [Versiones de 
 
 ### Actualizaciones de mantenimiento de Workfront 
 
-Para obtener información acerca de las actualizaciones de mantenimiento realizadas durante la versión 22.3, consulte [Actualizaciones de mantenimiento de Workfront](https://experienceleague.adobe.com/es/docs/workfront-known-issues/releases/current-updates).
+Para obtener información acerca de las actualizaciones de mantenimiento realizadas durante la versión 22.3, consulte [Actualizaciones de mantenimiento de Workfront](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates).
 
 ### Actualizaciones de aprendizaje
 
@@ -556,6 +553,7 @@ Algunas funcionalidades de los controles de lista se trasladan a las áreas Conf
 Estamos reemplazando la extensión de [Workfront para Illustrator e InDesign](/help/quicksilver/documents/workfront-for-adobe-creative-cloud/use-wf-adobe-cc.md) con complementos de Creative Cloud actualizados. A partir de finales de 2022, esta extensión ya no estará disponible para instalar en Adobe Exchange.
 
 La funcionalidad de esta extensión, junto con varias mejoras, está disponible en la versión actualizada de Adobe Workfront para complementos de Creative Cloud:
+
 * [Adobe Workfront para Photoshop](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-ps.md)
 * [Adobe Workfront para XD](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-install.md)
 * [Adobe Workfront para diseño y vídeo](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-install-cc.md)

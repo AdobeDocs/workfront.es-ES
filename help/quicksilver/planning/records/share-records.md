@@ -6,7 +6,7 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 83ff53ac-f18e-4b71-bdb2-57e05d69ed29
-source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '579'
 ht-degree: 50%
@@ -157,12 +157,15 @@ Para obtener más información acerca de los requisitos de acceso de Workfront, 
 {{step1-to-planning}}
 
 Se abre el espacio de trabajo al que accedió por última vez.
+
 1. Haga clic en una tarjeta de tipo de registro.
 
    Se abre la página de tipo de registro.
+
 1. (Condicional) En el menú desplegable **Ver** de la esquina superior derecha de la tabla, seleccione una vista de tabla. Esta debe ser la vista predeterminada, a menos que haya visto el tipo de registro en la vista de cronología cuando accedió por última vez.
 
    Los registros asociados al tipo de registro seleccionado se muestran en la vista de tabla.
+
 1. Haga clic con el botón derecho en una fila de registro
 
    O

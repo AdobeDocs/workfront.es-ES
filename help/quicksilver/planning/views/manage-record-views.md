@@ -6,7 +6,7 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '1144'
 ht-degree: 48%
@@ -199,11 +199,11 @@ En la tabla siguiente se muestran las similitudes y diferencias entre las vistas
 | Mostrar registros en una línea de tiempo |            | ✓ |             |
 | Filtrar registros | ✓ | ✓ | ✓ |
 | Mostrar registros en un calendario |           |              | ✓ |
-| Registros de grupo | ✓ | ✓ |
-| Ordenar registros | ✓ |              |
+| Registros de grupo | ✓ | ✓ |  |
+| Ordenar registros | ✓ |              |  |
 | Registros con código de color | ✓ | ✓ | ✓ |
-| Agrupaciones de código de color |           | ✓ |
-| Buscar registros específicos | ✓ | ✓ |
+| Agrupaciones de código de color |           | ✓ |  |
+| Buscar registros específicos | ✓ | ✓ |  |
 | Compartir la vista con otros usuarios | ✓ | ✓ | ✓ |
 | Abra la página del registro desde la vista | ✓ | ✓ |    |
 | Mostrar registros por año y trimestre |           | ✓ |    |

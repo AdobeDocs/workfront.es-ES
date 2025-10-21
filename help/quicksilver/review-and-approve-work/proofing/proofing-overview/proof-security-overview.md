@@ -7,10 +7,10 @@ description: Puede añadir medidas de seguridad adicionales a las pruebas.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 2f6737d5-627d-463f-8127-504755bd0380
-source-git-commit: 157ab840d63388b342db624824db9538d43b70b1
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '294'
-ht-degree: 0%
+ht-degree: 8%
 
 ---
 
@@ -32,14 +32,14 @@ Cuando se habilita la opción de inicio de sesión obligatorio, los revisores de
 
 >[!TIP]
 >
->Para optimizar el proceso de inicio de sesión, se recomienda configurar el SSO en Workfront y Workfront proof. Para obtener más información sobre la activación de SSO, consulte >
+>Para optimizar el proceso de inicio de sesión, se recomienda configurar el SSO en Workfront y Workfront proof. Para obtener más información sobre la activación de SSO, consulte
+>
 >* [Inicio de sesión único en Workfront: índice de artículo](../../../administration-and-setup/add-users/single-sign-on/single-sign-on.md)
 >* [Configurar el inicio de sesión único para usuarios de Workfront Proof](../../../workfront-proof/wp-acct-admin/account-settings/configure-sso-for-wp-users.md)
->
 
 ## Firma electrónica
 
-Las firmas electrónicas le permiten mejorar la seguridad de sus pruebas y cumplir con los estándares de seguridad del sector, como ISO. Puede habilitar las firmas electrónicas para todas las pruebas en el nivel de cuenta o puede habilitarlas para pruebas individuales según sea necesario. Para obtener más información, consulte [Configurar opciones predeterminadas de revisión](/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/configure-default-proof-settings.md).
+Las firmas electrónicas le permiten mejorar la seguridad de sus pruebas y cumplir con los estándares de seguridad del sector, como ISO. Puede habilitar las firmas electrónicas para todas las pruebas en el nivel de cuenta o puede habilitarlas para pruebas individuales según sea necesario. Para obtener más información, consulte [Configuración de valores predeterminados de prueba](/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/configure-default-proof-settings.md).
 
 ## Firmar una prueba electrónicamente
 
@@ -47,6 +47,6 @@ Cuando la configuración de firma electrónica está habilitada en una prueba, u
 
 >[!IMPORTANT]
 >
->Para firmar electrónicamente una prueba con credenciales de SSO, debe configurarlo en Workfront Proof. Para obtener más información sobre la activación de SSO, consulte >
->* [Configurar el inicio de sesión único para usuarios de Workfront Proof](../../../workfront-proof/wp-acct-admin/account-settings/configure-sso-for-wp-users.md)
+>Para firmar electrónicamente una prueba con credenciales de SSO, debe configurarlo en Workfront Proof. Para obtener más información sobre la activación de SSO, consulte
 >
+>* [Configurar el inicio de sesión único para usuarios de Workfront Proof](../../../workfront-proof/wp-acct-admin/account-settings/configure-sso-for-wp-users.md)

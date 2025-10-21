@@ -1,14 +1,16 @@
 ---
+title: Suscripciones de eventos
 content-type: api
 navigation-topic: Event Subscriptions resources
 description: Recursos de suscripciones a eventos
 author: Becky
 feature: Workfront API
 role: Developer
-source-git-commit: 1b09f1d69561bd192c4e26bf48da558ed2e8b626
+exl-id: b604d8fe-3a5b-4217-9a08-df269826f112
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
-source-wordcount: '49'
-ht-degree: 20%
+source-wordcount: '51'
+ht-degree: 19%
 
 ---
 
@@ -25,4 +27,3 @@ A continuación se muestran varios recursos sobre suscripciones a eventos en Ado
 * [Filtrado de mensajes de suscripción a eventos](../../wf-api/api/filter-event-sub-messages.md)
 * [Formato de mensaje saliente para suscripciones a eventos](../../wf-api/api/message-format-event-subs.md)
 * [Preguntas frecuentes: suscripciones a eventos](../../wf-api/general/event-subs-faq.md)
-

@@ -6,7 +6,7 @@ description: Si debe trabajar más para completar un problema una vez enviado, p
 author: Alina
 feature: Work Management
 exl-id: 9d8e50ab-9fed-4ded-83e1-29dc92c37171
-source-git-commit: 0542587bb3254dec5664de493c1c321528cf7f3e
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '1043'
 ht-degree: 88%
@@ -171,8 +171,8 @@ La siguiente tabla ilustra qué campos de problema son visibles desde los proyec
 | Campos de problema | Campo de proyecto o tarea | Lista o informe de proyecto | Área de detalles del proyecto | Lista de tareas o informes | El área Detalles de la tarea |
 |---|---|---|---|---|---|
 | [!UICONTROL Nombre del problema] | [!UICONTROL Nombre de problema convertido] | ✔ | ✔ | ✔ | ✔ |
-| [!UICONTROL Contacto primario] | [!UICONTROL Nombre Generador de problema convertido] | ✔ | ✔ | ✔ |
-| [!UICONTROL Fecha de entrada] | [!UICONTROL Fecha de entrada de problema convertido] | ✔ |  | ✔ |
+| [!UICONTROL Contacto primario] | [!UICONTROL Nombre Generador de problema convertido] | ✔ | ✔ | ✔ |  |
+| [!UICONTROL Fecha de entrada] | [!UICONTROL Fecha de entrada de problema convertido] | ✔ |  | ✔ |  |
 
 
 >[!CAUTION]

@@ -4,7 +4,7 @@ description: Las extensiones de la interfaz de usuario de Workfront, con tecnolo
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 2ed75053-8199-474c-afb4-fa9bbd3750f8
-source-git-commit: 6355bbbabf233a6e3b577c45084236b4a46144e5
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '2178'
 ht-degree: 1%
@@ -112,12 +112,16 @@ Encontrará instrucciones adicionales en GitHub y en el sitio de Adobe Developer
 1. Inicie el terminal e inicie sesión en AIO con el comando: `aio login`. Si tiene problemas al iniciar sesión en la organización de IMS correcta, intente `aio login -f` para forzar una solicitud de inicio de sesión. Utilice `aio where` para ver qué organización ha iniciado sesión en la organización de IMS correcta. para obtener más información, use `aio config`.
 1. Inicie la configuración de la aplicación ejecutando: `aio app init example-app` asegúrese de reemplazar &quot;example-app&quot; por el nombre de la aplicación. Si no está seguro de los nombres de las aplicaciones, puede ver una lista de nombres de aplicaciones con el comando `aio console project list`.
 1. Seleccione la organización y el proyecto en las opciones proporcionadas.
+
    ![resultado del comando](assets/1-command-result.png)
    ![Seleccionar un proyecto](assets/2-select-a-project.png)
 
 1. Examine todas las plantillas disponibles y elija **@adobe/workfront-ui-ext-tpl** para su proyecto.
+
    ![Elegir una plantilla](assets/3-choose-template.png)
+
 1. Seleccione e introduzca el nombre del proyecto que ha creado en Adobe Developer Console.
+
    ![seleccionar e introducir nombre de proyecto](assets/4-select-and-enter-project-name.png)
 
 1. Responda a las indicaciones de la solicitud:
@@ -130,7 +134,9 @@ Encontrará instrucciones adicionales en GitHub y en el sitio de Adobe Developer
    ![seleccionar hecho](assets/5-select-done.png)
 
 1. Confirme la finalización seleccionando He terminado. La generación de código a partir de la plantilla está en curso.
+
    ![generación en proceso](assets/6-generation-in-process.png)
+
 1. Espere hasta que vea un mensaje que indique que la inicialización de la aplicación ha finalizado. A continuación, puede abrir el proyecto en un IDE (se recomienda Visual Studio Code) y tener acceso a la carpeta src.
 
    Para obtener más información sobre las carpetas y los archivos del proyecto, consulte el [sitio para desarrolladores de Adobe](https://developer.adobe.com/app-builder/docs/get_started/app_builder_get_started/first-app#anatomy-of-an-app-builder-application).
@@ -154,13 +160,13 @@ Para permitir aplicaciones personalizadas en el menú principal de Workfront:
 En la función ExtensionRegistration, debería ver el siguiente código. Este código se creó automáticamente mediante la plantilla. Este código se puede añadir para crear elementos de menú adicionales. Asegúrese de reemplazar los ID y las direcciones URL.
 
     &quot;
-    mainMenu: &lbrace;
+    mainMenu: {
     
-    getItems() &lbrace;
+    getItems() {
     
-    return &lbrack;
+    return [
     
-    &lbrace;
+    {
     
     id: &#39;main-menu-label&#39;,
     
@@ -170,18 +176,20 @@ En la función ExtensionRegistration, debería ver el siguiente código. Este c�
     
     icon: icon1,
     
-    &rbrace;,
+    },
     
-    &rbrack;;
+    ];
     
-    &rbrace;,
+    },
     
-    &rbrace;
+    }
     &quot;
 
 1. Agregue el siguiente fragmento de código:
-   ![fragmento de código &#x200B;](assets/7-extension-registration-step1-from-sam.png)
-Este ejemplo muestra un elemento del menú principal. Debe actualizar el ID, la etiqueta, el icono y la URL con los nombres correctos para su aplicación. Al agregar varios elementos, asegúrese de que el ID sea único.
+
+   ![fragmento de código ](assets/7-extension-registration-step1-from-sam.png)
+
+   Este ejemplo muestra un elemento del menú principal. Debe actualizar el ID, la etiqueta, el icono y la URL con los nombres correctos para su aplicación. Al agregar varios elementos, asegúrese de que el ID sea único.
 
 1. Guarde el trabajo.
 
@@ -193,7 +201,7 @@ Para permitir aplicaciones personalizadas en la navegación del panel izquierdo 
 1. En la función ExtensionRegistration, agregue el siguiente fragmento de código:
 
    ```
-   secondaryNav: {  
+   secondaryNav: {
    
    TASK: {  
    
@@ -215,7 +223,6 @@ Para permitir aplicaciones personalizadas en la navegación del panel izquierdo 
    ![registro de extensión](assets/8-extension-registration-file-step2.png)
 
    * Este ejemplo muestra un elemento de navegación del panel izquierdo denominado My Task. Debe actualizar el ID, la etiqueta, el icono y la URL con los nombres correctos para su aplicación.
-
    * Este ejemplo muestra un elemento de navegación del panel izquierdo para el tipo de objeto Project. Debe crear estos elementos por separado para cada objeto donde se admitan en Workfront. Están disponibles los siguientes objetos: proyecto, tarea, problema, portafolio y programa.
 
 1. Guarde el trabajo.
@@ -410,7 +417,7 @@ El contexto compartido se utiliza para compartir datos de Workfront con una exte
 
 Las extensiones de IU de Workfront comparten datos de usuario. El objeto de usuario disponible a través del contexto compartido incluye un ID de usuario de Workfront y la dirección de correo electrónico del usuario.
 
-`user = (conn?.sharedContext?.get("user")); // {ID: '1', email: 'test@aaa.com'} userID = user.ID userEmail = user.email `
+`user = (conn?.sharedContext?.get("user")); // {ID: '1', email: 'test@aaa.com'} userID = user.ID userEmail = user.email`
 
 ### Contexto de aplicación
 
@@ -418,7 +425,7 @@ Al agregar una aplicación personalizada mediante un punto de extensión de nave
 
 A continuación, se muestra un ejemplo para obtener el contexto de la aplicación para los documentos:
 
-`context = conn?.sharedContext; // Using the connection created above, grab the document details from the host tunnel. // conn?.host?.document?.getDocumentDetails().then(setDocDetails); `
+`context = conn?.sharedContext; // Using the connection created above, grab the document details from the host tunnel. // conn?.host?.document?.getDocumentDetails().then(setDocDetails);`
 
 ## Prueba de la aplicación en Workfront
 

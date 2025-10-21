@@ -7,10 +7,10 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 61fe77b6-c6d7-4f23-bfb6-617bccaa1989
-source-git-commit: f9a154fa92217810b762ac48169512bc0bca7305
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '811'
-ht-degree: 100%
+ht-degree: 91%
 
 ---
 
@@ -113,17 +113,14 @@ Si utiliza el servidor de autorización personalizado predeterminado, la direcci
 
 Tenga en cuenta los parámetros que se transfieren:
 
-* `client_id` coincide con el ID de cliente de la aplicación OAuth2 que creó al configurar la aplicación.
+* `client_id` coincide con el ID de cliente de la aplicación OAuth2 que creó en al configurar la aplicación.
 
   Para obtener instrucciones, consulte Creación de una aplicación web de una sola página de OAuth2 mediante PKCE en Creación de aplicaciones de OAuth2 para integraciones de Workfront.
 
 * `response_type` es `code`, porque la aplicación usa el tipo de concesión Código de autorización.
-
-* `redirect_uri` es la ubicación de devolución de llamada a la que se dirige el agente de usuario junto con el `code`. Debe coincidir con una de las direcciones URL de redireccionamiento que especificó al crear la aplicación OAuth2.
-
-* `code_challenge_method` es el método hash que se utiliza para generar el reto, que siempre es `S256` para las aplicaciones Oauth2 de Workfront que utilizan PKCE.
-
-* `code_challenge` es el reto de código utilizado para PKCE.
+* `redirect_uri` es la ubicación de devolución de llamada a la que se dirige el agente de usuario junto con `code`. Debe coincidir con una de las direcciones URL de redireccionamiento que especificó al crear la aplicación OAuth2.
+* `code_challenge_method` es el método hash utilizado para generar el desafío, que siempre es `S256` para las aplicaciones Oauth2 de Workfront que utilizan PKCE.
+* `code_challenge` es el desafío de código utilizado para PKCE.
 
 
 ## Intercambio del código para tokens

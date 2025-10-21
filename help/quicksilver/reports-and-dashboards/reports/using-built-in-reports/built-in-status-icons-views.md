@@ -6,10 +6,10 @@ description: Puede añadir el campo Iconos de estado integrado como una columna 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 7831d5c1-e982-4780-a5a8-54dc6decb3a1
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '1205'
-ht-degree: 98%
+ht-degree: 97%
 
 ---
 
@@ -105,7 +105,7 @@ Para añadir el campo Iconos de estado a una vista personalizada que cree desde 
 
    * *Iconos de estado*
    * *Indicadores*
-   * *Iconos de vista *(solo en vistas de documento).
+   * *Iconos de vista* (solo en vistas de documento).
 
    Los iconos integrados se enumeran con cualquiera de estos nombres.\
    Una vista de plantilla contiene los campos **Iconos de estado** e **Indicadores**. En este caso, las dos columnas contienen iconos idénticos.\

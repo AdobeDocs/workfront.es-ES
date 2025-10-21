@@ -6,10 +6,10 @@ description: Cuando comenta una revisión en el visor de corrección, puede etiq
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 4efbfdeb-3834-48dd-aa5b-515891bac519
-source-git-commit: fe269b088c82e7045ffbb5155d54432e0b413cbe
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '650'
-ht-degree: 98%
+ht-degree: 96%
 
 ---
 
@@ -64,10 +64,10 @@ Los usuarios con el perfil de permiso de revisión o la función de revisión de
 
 >[!NOTE]
 >
->Puede etiquetar a un colaborador externo utilizando su dirección de correo electrónico solo si se cumple alguna de las siguientes condiciones:
+>Puede etiquetar a un colaborador externo utilizando su dirección de correo electrónico solo si se cumple alguna de las condiciones siguientes:
+>
 >* Un usuario de la cuenta de Workfront de su organización ha añadido anteriormente la dirección de correo electrónico del colaborador a una revisión.
 >* El colaborador ha utilizado la dirección de correo electrónico para suscribirse a una revisión en la cuenta de Workfront de su organización anteriormente.
->
 
 Para etiquetar a alguien y compartir una revisión en un comentario:
 

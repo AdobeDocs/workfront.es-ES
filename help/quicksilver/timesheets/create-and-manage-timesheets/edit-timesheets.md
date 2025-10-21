@@ -6,7 +6,7 @@ description: Como usuario con acceso administrativo a las plantillas de horas, p
 author: Lisa
 feature: Timesheets
 exl-id: e6cffe81-ab45-4c34-aafe-2f947f9a67fd
-source-git-commit: 69cd5fb1d089b81b7a1673609b92537137b6b68e
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '757'
 ht-degree: 94%
@@ -112,8 +112,8 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
      <tr> 
       <td role="rowheader"><strong>Fecha de finalización</strong> </td> 
       <td> Esta es la fecha de finalización de la plantilla de horas.</td> 
-     </tr>
-<tr> 
+     </tr> 
+     <tr> 
       <td role="rowheader"><strong>Estado</strong> </td> 
       <td> Este es el estado de la plantilla de horas.
       Las siguientes son posibles opciones de estado de la plantilla de horas: 
@@ -121,7 +121,7 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
       <li><b>Enviada</b>: la plantilla de horas se envía para su aprobación a los aprobadores designados.</li>
       <li><b>Rechazada</b>: la plantilla de horas no fue aprobada por los aprobadores y ahora está disponible nuevamente para que el usuario edite las entradas de tiempo.</li>
       <li><b>Cerrada</b>: la plantilla de horas está cerrada por el usuario o aprobada por el aprobador y, como resultado, ahora está cerrada. No se puede añadir tiempo a una plantilla de horas cerrada.</li>
-   </td> 
+      </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Aprobadores</strong> </td> 

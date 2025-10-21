@@ -6,7 +6,7 @@ description: Un cliente de Workfront que, tal como se define en HIPAA, es un Aso
 feature: Get Started with Workfront
 author: Courtney
 exl-id: e3cdaa03-d523-46a4-954b-8456d5f190e4
-source-git-commit: 15a703e2292883427e371603f77a99765ed9d00a
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '474'
 ht-degree: 0%
@@ -23,7 +23,7 @@ Un cliente de Workfront que, tal como se define en la HIPAA, es un socio comerci
 | **Configuración de seguridad** | **¿Qué Es?** | **Requisito** |
 |----------------------|------------------|------------------|
 | Seguridad mínima de contraseña para acuerdos | ¿Cuál es la seguridad mínima de las contraseñas de acuerdo? | No menos de 8 caracteres |
-| Seguridad mínima de las contraseñas de usuario | ¿Cuál es la seguridad mínima de las contraseñas de los usuarios? | Caracteres de tres de las siguientes categorías:<br>* Letras mayúsculas (alfabeto latino)<br>* Letras minúsculas (alfabeto latino)<br>* Base 10 dígitos<br>* Caracteres no alfanuméricos |
+| Seguridad mínima de las contraseñas de usuario | ¿Cuál es la seguridad mínima de las contraseñas de los usuarios? | Caracteres de tres de las siguientes categorías:<br> Letras mayúsculas (alfabeto latino)<br> Letras minúsculas (alfabeto latino)<br> Base 10 dígitos<br> Caracteres no alfanuméricos |
 | Duración de contraseña | ¿Durante cuánto tiempo se debe permitir que las contraseñas permanezcan sin cambios? | Las contraseñas deben cambiarse al menos cada 90 días |
 | Historial de contraseñas | ¿Cuántas contraseñas pasadas deben recordarse y no permitirse? | No menos de 5 |
 

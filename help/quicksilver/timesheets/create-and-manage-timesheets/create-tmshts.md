@@ -6,7 +6,7 @@ description: Puede crear manualmente una plantilla de horas de un solo uso si de
 author: Lisa
 feature: Timesheets
 exl-id: b293dd50-a9b8-448b-afc1-8c7c7c79183b
-source-git-commit: 69cd5fb1d089b81b7a1673609b92537137b6b68e
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '1062'
 ht-degree: 90%
@@ -26,13 +26,9 @@ Para obtener información sobre la generación manual de hojas de horas para tod
 >[!NOTE]
 >
 >* No se pueden crear plantillas de horas de un solo uso para grupos.
->  <!--
->  <span>Making sure with Lilit that this is correct</span>>
->  -->
 >* Al crear una plantilla de horas de un solo uso, no puede seleccionar tipos de horas generales específicos para incluirlos en la plantilla de horas. Todos los tipos de hora generales que están activados en el sistema se muestran en plantillas de horas creadas manualmente.
 >
->  Si desea seleccionar solo ciertos tipos generales de horas para mostrarlos en sus plantillas de horas, utilice un perfil de plantilla de horas. Para obtener más información sobre los perfiles de plantillas de horas, consulte [Crear, editar y asignar perfiles de plantillas de horas](../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md).
->
+>Si desea seleccionar solo ciertos tipos generales de horas para mostrarlos en sus plantillas de horas, utilice un perfil de plantilla de horas. Para obtener más información sobre los perfiles de plantillas de horas, consulte [Crear, editar y asignar perfiles de plantillas de horas](../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md).
 
 ## Requisitos de acceso
 

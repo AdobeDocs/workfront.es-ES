@@ -6,7 +6,7 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: afb58d04-fa75-4eb7-9c19-2a8c1748fbc2
-source-git-commit: 58d2bf9f14b9a3adf4bacfad58f1b9862aeaf247
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '1009'
 ht-degree: 92%
@@ -349,7 +349,7 @@ Le recomendamos que considere la posibilidad de utilizar respuestas paginadas pa
 
 Por ejemplo, si desea devolver los resultados 2001-4000, puede utilizar la siguiente solicitud. Este ejemplo devuelve 2000 registros que están en estado activo, a partir del resultado 2001:
 
-`POST /v1/records/search `
+`POST /v1/records/search`
 
 
 

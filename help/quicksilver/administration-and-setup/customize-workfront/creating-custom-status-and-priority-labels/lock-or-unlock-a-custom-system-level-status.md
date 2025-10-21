@@ -8,7 +8,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 0e58a1d6-5e0c-4445-a5ac-400dfd4c4948
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '497'
 ht-degree: 98%
@@ -34,9 +34,7 @@ Puede utilizar los estados bloqueado y desbloqueado en un proceso de aprobación
 Los mensajes de advertencia se muestran en los siguientes casos para ayudarle a usted y a los usuarios a asegurarse de que comprenden los resultados de los mismos:
 
 * Un administrador desbloquea un estado de nivel de sistema que se utiliza en un proceso de aprobación. Un mensaje advierte que podrían eliminar el estado desbloqueado de sus grupos, lo que impediría que los miembros del grupo usaran correctamente ese proceso de aprobación para los objetos asignados a su grupo.
-
 * Un usuario comienza a editar un proceso de aprobación que utiliza un estado desbloqueado. Un mensaje alerta al usuario sobre el estado desbloqueado para que pueda evaluar si sería una buena idea volver a bloquearlo o reemplazarlo.
-
 * Un proceso de aprobación de nivel de sistema con un estado desbloqueado está adjunto a un objeto y se eliminó el estado del grupo asignado al objeto. Cuando un miembro del grupo va a la sección Aprobaciones del objeto, un mensaje explica que no se puede iniciar el proceso de aprobación del objeto.
 
 Puede utilizar los estados bloqueado y desbloqueado en un proceso de aprobación de grupo. Si crea un proceso de aprobación de grupo con un estado de grupo desbloqueado, los usuarios pueden adjuntar el proceso de aprobación a cualquier proyecto, tarea o problema asociado al grupo.

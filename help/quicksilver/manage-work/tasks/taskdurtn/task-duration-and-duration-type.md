@@ -3,14 +3,14 @@ content-type: overview
 product-area: projects
 navigation-topic: task-duration
 title: Información general sobre la duración y el tipo de duración de la tarea
-description: La duración de la tarea es la diferencia entre la fecha planificada de finalización y la fecha planificada de inicio de la tarea. La duración indica el lapso de tiempo disponible para que se complete la tarea.
+description: La duración de la tarea es la diferencia entre la fecha de finalización planificada y la fecha de inicio planificada de la tarea. La duración indica el lapso de tiempo disponible para que se complete la tarea.
 author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: c81e485a-7e8c-4907-8e6c-9991681c3541
-source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
-source-wordcount: '1649'
+source-wordcount: '1653'
 ht-degree: 67%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 67%
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
-La duración de la tarea es la diferencia entre la fecha planificada de finalización y la fecha planificada de inicio de la tarea. La duración indica el lapso de tiempo disponible para que se complete la tarea.
+La duración de la tarea es la diferencia entre la fecha de finalización planificada y la fecha de inicio planificada de la tarea. La duración indica el lapso de tiempo disponible para que se complete la tarea.
 
 El tipo de duración de una tarea identifica la relación entre el número de recursos asignados a una tarea, el esfuerzo total y la duración total de la tarea.
 
@@ -103,7 +103,7 @@ Si desea indicar que la duración de una tarea es de 3 días transcurridos, debe
 
 Tenga en cuenta lo siguiente al indicar la duración de una tarea:
 
-* El tiempo transcurrido es una unidad de tiempo de la duración de una tarea. Es el tiempo entre la fecha planificada de inicio y la fecha planificada de finalización de una tarea que incluye días festivos, fines de semana y días libres. En otras palabras, el tiempo transcurrido es el paso de los días del calendario.
+* El tiempo transcurrido es una unidad de tiempo de la duración de una tarea. Es el tiempo entre la fecha de inicio planificada y la fecha de finalización planificada de una tarea que incluye días festivos, fines de semana y días libres. En otras palabras, el tiempo transcurrido es el paso de los días del calendario.
 * Los días representan los días laborables definidos en el sistema y se pueden configurar en el área de Configuración. En la mayoría de los casos, un día consta de 8 horas.
 * El tiempo normal (días o días laborables) tiene en cuenta los días festivos, los fines de semana y los días libres, y los excluye de la duración de la tarea.
 * Cuando se indica la duración de una tarea en semanas, Workfront calcula la duración en días y horas basándose en la configuración de Días laborables habituales por semana y Horas habituales por día laborable establecida por el administrador de Workfront en el área Preferencias de proyecto de Configuración.

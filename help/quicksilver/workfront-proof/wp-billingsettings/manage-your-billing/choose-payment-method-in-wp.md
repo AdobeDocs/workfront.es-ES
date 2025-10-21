@@ -7,10 +7,10 @@ description: Más información sobre los pagos en Workfront Proof.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: cc23012f-ea1a-41e6-b101-877b85605775
-source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '338'
-ht-degree: 0%
+ht-degree: 10%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Este artículo hace referencia a la funcionalidad del producto independiente [!DNL Workfront Proof]. Para obtener información sobre la revisión dentro de [!DNL Adobe Workfront], vea [Revisión](../../../review-and-approve-work/proofing/proofing.md).
+>Este artículo hace referencia a la funcionalidad del producto independiente [!DNL Workfront Proof]. Para obtener información sobre la revisión dentro de [!DNL Adobe Workfront], consulte [Revisión](../../../review-and-approve-work/proofing/proofing.md).
 
 ## Explicación de las opciones de pago
 
@@ -27,7 +27,7 @@ Las siguientes opciones de pago están disponibles:
 | **Suscripciones mensuales** | **Suscripciones anuales** |
 |---|---|
 | tarjeta crédito | tarjeta crédito |
-| transferencia bancaria |
+| transferencia bancaria |  |
 
 {style="table-layout:auto"}
 

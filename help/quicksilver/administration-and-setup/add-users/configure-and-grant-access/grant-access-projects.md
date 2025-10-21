@@ -8,7 +8,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: ba6a9e68-68a1-4152-b024-cd39e06d556f
-source-git-commit: 2a83e5a415ff254cf5525d6f44ecb0e447e7e70a
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '634'
 ht-degree: 93%
@@ -20,6 +20,7 @@ ht-degree: 93%
 <!-- Audited: 12/2023 -->
 
 Como administrador de Adobe Workfront, puede utilizar un nivel de acceso para definir el acceso de un usuario a los proyectos, como se explica en los siguientes artículos:
+
 * [Información general de los niveles de acceso](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md)
 * [Información general sobre nuevos niveles de acceso](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md)
 
