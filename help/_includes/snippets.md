@@ -1,5 +1,5 @@
 ---
-source-git-commit: df0686038adb1278339e872e122a311884cb6d29
+source-git-commit: 0841594c855c39fedf4eab5492994ff4f7acfbdf
 workflow-type: tm+mt
 source-wordcount: '2607'
 ht-degree: 29%
@@ -170,6 +170,7 @@ Para configurar carpetas vinculadas:
 ## Requisitos previos {#cc-install-prereq}
 
 Debe instalar el complemento correcto para la aplicación de Adobe Creative Cloud que está utilizando:
+
 * Para Photoshop, consulte [Instalar Adobe Workfront para Photoshop](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-ps.md)
 * Para XD, consulte [Instalar Adobe Workfront para XD](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-install.md)
 * Para InDesign, Illustrator, Premiere Pro y After Effects, consulte [Instalar Adobe Workfront para diseño y vídeo](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-install-cc.md)
@@ -369,6 +370,7 @@ Debe instalar el complemento correcto para la aplicación de Adobe Creative Clou
 ## Última versión de DPV {#latest-version}
 
 **Última versión**:
+
 * Mac: 2.1.52 a 31/7/2025
 * Windows: 2.1.52 de 31/7/2025
 

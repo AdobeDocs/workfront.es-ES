@@ -7,7 +7,7 @@ description: Puede crear una copia de cualquier informe al que tenga acceso. Pue
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 84737f48-efc5-45f1-acd1-b9f5d353f80f
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 0841594c855c39fedf4eab5492994ff4f7acfbdf
 workflow-type: tm+mt
 source-wordcount: '641'
 ht-degree: 14%
@@ -71,7 +71,7 @@ Si desea realizar una copia de un informe personalizado, haga lo siguiente:
 
    ![Copiar informe](assets/unshimmed-report-actions-copy.png)
 
-   Se crea una copia del informe original con el nombre predeterminado _[Nombre del informe original] (Copiar)_. Por ejemplo, una copia del informe &quot;Tareas completadas en el cuarto trimestre&quot; se llamaría &quot;Tareas completadas en el cuarto trimestre (copia)&quot;.
+   Se crea una copia del informe original con el nombre predeterminado _[Nombre del informe original]_ _(copia)_. Por ejemplo, una copia del informe &quot;Tareas completadas en el cuarto trimestre&quot; se llamaría &quot;Tareas completadas en el cuarto trimestre (copia)&quot;.
 
 1. (Opcional) Para cambiar el nombre del informe, haga clic en **Acciones de informe** y luego en **Editar**. Escriba un nombre nuevo en el cuadro de texto de la esquina superior izquierda y haga clic en **Guardar + Cerrar** cuando termine.
 
