@@ -5,7 +5,7 @@ description: La función Project Health utiliza el poder del Asistente de IA par
 author: Jenny
 feature: Get Started with Workfront
 exl-id: e4d200c6-7f35-4919-96d3-2880a655ed62
-source-git-commit: dce36c38a626b4d3799fb1d1f673bdc49d81e274
+source-git-commit: 5ce0206c8a7e596dac0bfdf836ca51c2cdbd1d0d
 workflow-type: tm+mt
 source-wordcount: '1508'
 ht-degree: 4%
@@ -257,7 +257,7 @@ Para obtener más información, vea la siguiente sección de este artículo: [Ad
    >Si accede al Asistente de IA desde una página diferente en Workfront, escriba *¿Cuál es el estado del proyecto [NOMBRE DEL PROYECTO]?* o *Cuál es el estado del programa [NOMBRE DEL PROGRAMA]?* <br>
    >Para obtener una lista completa de los mensajes actuales que puede especificar, consulte la siguiente sección en este artículo: [Lista de mensajes del Asistente de IA](#ai-assistant-prompts-list).
 
-1. Pulse el icono **Enviar** ![Enviar icono](assets/send-icon.png). La evaluación del estado del proyecto genera y aparece en el panel. Aparece una insignia en la parte superior de cada evaluación de estado del proyecto, que refleja la condición actual del proyecto.
+1. Haga clic en el icono **Enviar** ![Enviar icono](assets/send-icon.png). La evaluación del estado del proyecto genera y aparece en el panel. Aparece una insignia en la parte superior de cada evaluación de estado del proyecto, que refleja la condición actual del proyecto.
 
    ![Evaluación del estado del proyecto](assets/health-assessment.png)
 
@@ -283,7 +283,7 @@ Un proyecto solo se incluirá en la evaluación combinada del estado del proyect
 
    Para obtener una lista completa de los mensajes actuales que puede especificar, consulte la siguiente sección en este artículo: [Lista de mensajes del Asistente de IA](#ai-assistant-prompts-list).
 
-1. Pulse el icono **Enviar** ![Enviar icono](assets/send-icon.png). La evaluación del estado del proyecto genera y aparece en el panel.
+1. Haga clic en el icono **Enviar** ![Enviar icono](assets/send-icon.png). La evaluación del estado del proyecto genera y aparece en el panel.
 
    ![Evaluación de varios proyectos](assets/multiple-projects-assessment.png)
 
