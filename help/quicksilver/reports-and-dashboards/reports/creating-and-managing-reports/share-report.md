@@ -6,10 +6,10 @@ description: El administrador de Adobe Workfront concede a los usuarios acceso p
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 225e815a-0354-493d-bbcf-59304ef77570
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: c8a25bcc8c9b56a649ca7764918c86f9cdd5b3e2
 workflow-type: tm+mt
-source-wordcount: '817'
-ht-degree: 72%
+source-wordcount: '826'
+ht-degree: 51%
 
 ---
 
@@ -65,8 +65,8 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
 
 Además de las consideraciones siguientes, consulte [Compartir informes, paneles de control y calendarios](../../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md).
 
-* Puede compartir informes que cree con otras personas, equipos, grupos, funciones del trabajo o empresas. También puede compartir informes creados por otros y que se compartieron con usted.
-* También puede compartirlos con toda la organización o hacerlos públicos. Al hacer público un informe, se genera una dirección URL que se puede compartir con otros usuarios.
+* Puede compartir informes que cree con otras personas, equipos, grupos, funciones del trabajo o empresas. También puede compartir informes que otros usuarios hayan creado y compartido con usted.
+* Puede compartir informes con toda su organización o hacerlos públicos. Al hacer público un informe, se genera una dirección URL que se puede compartir con otros usuarios.
 * Puede compartir un informe individual o varios informes a partir de una lista de informes.
 
 ## Formas de compartir informes
@@ -74,21 +74,21 @@ Además de las consideraciones siguientes, consulte [Compartir informes, paneles
 Puede compartir informes en Workfront de la siguiente manera:
 
 * Manualmente, tal como se describe en la sección [Compartir un informe](#share-a-report) a continuación.
-* De forma automática, heredando los permisos de Vista de un panel de control que contiene el informe que se ha compartido. Para obtener información acerca de cómo ver permisos heredados en objetos, consulte [Ver permisos heredados en objetos](../../../workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md).
+* De forma automática, heredando los permisos de Vista de un panel que contiene el informe que se ha compartido. Para obtener información acerca de cómo ver permisos heredados en objetos, consulte [Ver permisos heredados en objetos](../../../workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md).
 
 ## Copia de un informe {#share-a-report}
 
 Compartir uno o varios informes de una lista es lo mismo.
 
-1. Vaya a una lista de informes y seleccione uno o varios informes; después, haga clic en **Compartir**.
+1. Vaya a una lista de informes y seleccione uno o varios y, a continuación, haga clic en el icono **Compartir** ![Compartir icono](assets/share-icon.png).
 
    O
 
-   Haga clic en el nombre de un informe y, a continuación, haga clic en **Acciones de informe >**&#x200B;**Uso compartido**.
+   Haga clic en el nombre de un informe y luego haga clic en **Acciones de informe** > **Compartir**. Se abre el cuadro **Compartir [NOMBRE DEL INFORME]**.
 
-   ![](assets/unshimmed-report-actions-sharing.png)
+   ![Opción para compartir](assets/unshimmed-report-actions-sharing.png)
 
-1. En el cuadro que aparece, en el campo **Añadir personas, equipos, funciones, grupos o empresas…**, empiece a escribir el nombre del usuario, equipo, función, grupo o compañía con el que desea compartir el informe y, a continuación, presione **Entrar** cuando aparezca el nombre.
+1. En el campo **Conceder acceso al informe a**, empiece a escribir el nombre del usuario, equipo, rol, grupo o compañía con quien desea compartir el informe y, a continuación, selecciónelo cuando se muestre.
 
 1. Para ajustar el nivel de acceso de un nombre que haya añadido, haga clic en el menú desplegable situado a la derecha del nombre y, a continuación, elija una de las opciones siguientes.
 
@@ -97,12 +97,12 @@ Compartir uno o varios informes de una lista es lo mismo.
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">Verlo</td> 
-      <td> <p>Permite que el destinatario tenga acceso para ver el informe en el área de <strong>Informes</strong> y ejecutarlo.</p> <p>Puede hacer clic en <strong>Configuración avanzada</strong> para especificar si desea que el usuario o los usuarios puedan <strong>compartirlo</strong> con cualquier persona del sistema.</p> </td> 
+      <td role="rowheader">Ver</td> 
+      <td> <p>Permite que el destinatario tenga acceso para ver el informe en el área de <strong>Informes</strong> y ejecutarlo.</p> <p>Puede hacer clic en el icono de <strong>Configuración avanzada</strong> que hay a la derecha para especificar si desea que el usuario o los usuarios puedan <strong>compartirlo</strong> con cualquier persona del sistema.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Administrarlo</td> 
-      <td> <p>Permite que el destinatario tenga acceso completo de edición al informe.</p> <p>Puede hacer clic en <strong>Configuración avanzada</strong> para especificar si desea que el usuario o los usuarios puedan <strong>eliminar</strong> el informe del sistema y <strong>compartirlo</strong> con cualquier persona del sistema.</p> </td> 
+      <td role="rowheader">Administrar</td> 
+      <td> <p>Permite que el destinatario tenga acceso completo de edición al informe.</p> <p>Puede hacer clic en el icono <strong>Configuración avanzada</strong> de la derecha para especificar si desea que el usuario o los usuarios puedan <strong>eliminar</strong> el informe del sistema y <strong>compartirlo</strong> con cualquier persona del sistema.</p> </td> 
      </tr> 
     </tbody> 
    </table>
@@ -110,13 +110,13 @@ Compartir uno o varios informes de una lista es lo mismo.
 1. (Opcional) Repita los dos pasos anteriores para añadir otros nombres a la lista y configurar sus opciones.
 1. (Opcional) Haga clic en el menú desplegable **Solo las personas invitadas pueden acceder a** en el cuadro para compartir y, a continuación, elija entre las siguientes opciones:
 
-   * **Solo las personas invitadas pueden tener acceso** Seleccione esta opción para que solamente los usuarios a los que se les haya concedido acceso al informe puedan verlo.
+   * **Solo las personas invitadas pueden tener acceso**: seleccione esta opción para que solamente los usuarios a los que se les haya concedido acceso al informe puedan verlo.
 
-   * **Todos los usuarios del sistema pueden ver** Seleccione esta opción para que todos los usuarios de Workfront con acceso a los informes puedan ver el informe.
+   * **Todos los usuarios del sistema pueden ver**: seleccione esta opción para que todos los usuarios de Workfront con acceso a los informes puedan ver el informe.
 
 1. (Opcional) Haga clic en el icono **Engranaje** ![Configuración del icono de Engranaje](assets/gear-icon-settings-with-dn-arrow.jpg) en la esquina superior derecha del cuadro para compartir y, a continuación, seleccione opcionalmente la siguiente opción:
 
-   * **Convertir esto en público para usuarios externos** Seleccione esta opción para generar una dirección URL que se pueda compartir con otros usuarios. Cualquier persona con la dirección URL puede acceder al informe sin tener una licencia de Adobe Workfront.
+   * **Convertir esto en público para usuarios externos**: seleccione esta opción para generar una dirección URL que se pueda compartir con otros usuarios. Cualquier persona con la dirección URL puede acceder al informe sin tener una licencia de Adobe Workfront.
 
      >[!CAUTION]
      >
