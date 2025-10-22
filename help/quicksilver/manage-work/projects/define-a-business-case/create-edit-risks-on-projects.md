@@ -6,10 +6,10 @@ description: Los riesgos son eventos posibles o factores que impiden que un proy
 author: Becky
 feature: Work Management
 exl-id: 6125c477-c0d8-43b4-88d8-35b0c2412468
-source-git-commit: 1b7964b533093c4eee20d69a74512a145e207e29
+source-git-commit: 2e86369ae4c8e9fe2678773c20c02f6dbf8d5247
 workflow-type: tm+mt
-source-wordcount: '1059'
-ht-degree: 52%
+source-wordcount: '1062'
+ht-degree: 47%
 
 ---
 
@@ -80,7 +80,7 @@ Para crear o editar un riesgo en el caso empresarial:
 
 1. Vaya al proyecto para el que desea crear riesgos.
 1. Haga clic en **Caso empresarial** en el panel de la izquierda.
-1. En la sección **Riesgos**, haga clic en **Editar riesgos**.
+1. En la sección **Riesgos**, haga clic en el icono **Editar** ![Editar icono](assets/edit-icon.png)
 1. Introduzca o edite la siguiente información:
 
    * **Descripción:** Describa el riesgo.
@@ -96,7 +96,7 @@ Para crear o editar un riesgo en el caso empresarial:
 
    ![Riesgos](assets/edit-risk.png)
 
-1. (Opcional) Haga clic en **Añadir otro riesgo** para añadir riesgos adicionales.
+1. (Opcional) Haga clic en **Agregar otro riesgo** para agregar más riesgos.
 1. Haga clic en **Guardar**.
 
 ## Crear y editar riesgos en el área Riesgos
@@ -104,8 +104,6 @@ Para crear o editar un riesgo en el caso empresarial:
 Además de crear y editar riesgos en el caso empresarial, puede hacerlo en la sección **Riesgos** de un proyecto.
 
 Puede crear y editar riesgos en la sección Riesgos de un proyecto o una plantilla. Crear riesgos para plantillas es idéntico a crear riesgos para proyectos.
-
-### Creación de riesgos en el área Riesgos {#create-risks-in-the-risks-area}
 
 1. Vaya al proyecto para el que quiera crear riesgos.
 1. Haga clic en **Riesgos** en el panel izquierdo.
@@ -146,19 +144,19 @@ Puede editar un riesgo a la vez o editar varios riesgos de forma masiva.
 
 Para editar riesgos:
 
-1. Desplácese hasta un proyecto para el que quiera editar los riesgos existentes.
+1. Vaya a un proyecto para el que desee editar los riesgos existentes.
 1. Haga clic en **Riesgos** en el panel izquierdo.
 1. Comience a editar en línea los campos de los riesgos que vea en la lista para editar los riesgos de uno en uno.
 
    O
 
-   Seleccione uno o varios riesgos y, a continuación, haga clic en **Editar** para editar varios riesgos al mismo tiempo.
+   Seleccione uno o varios riesgos y, a continuación, haga clic en el icono **Editar** ![Editar icono](assets/edit-icon-on-white.png) para editar varios riesgos al mismo tiempo.
 
    >[!NOTE]
    >
    >Se aplica la misma información a todos los riesgos seleccionados al editar varios riesgos al mismo tiempo. La información asociada con cada riesgo antes de los cambios se sobrescribe en una edición masiva.
 
-1. Si ha hecho clic en **Editar**, se abrirá el cuadro **Editar riesgo** o **Editar riesgos**.
+1. Si ha hecho clic en el icono **Editar**, se abrirá el cuadro **Editar riesgo** o **Editar riesgos**.
 
    Actualice los campos siguientes:
 

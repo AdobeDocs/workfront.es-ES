@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: bb597032-3395-4c9a-b622-5c920ba55131
-source-git-commit: 30b61b32add4c6d062b5b524773d309008c9563d
+source-git-commit: 2e86369ae4c8e9fe2678773c20c02f6dbf8d5247
 workflow-type: tm+mt
 source-wordcount: '1399'
 ht-degree: 18%
@@ -105,7 +105,7 @@ Para agregar o editar una compañía:
 
 1. Actualice la siguiente información en la sección **Información básica**:
 
-   * **Nombre de la compañía**<!--<span class="preview">or **Name**</span>-->: escriba un nombre para la compañía.
+   * **Nombre de la compañía**<!--<span class="preview"> or **Name**</span>-->: escriba un nombre para la compañía.
    * **Está activo**: cuando esta opción está habilitada, los usuarios pueden encontrar la compañía y adjuntarla a los proyectos que creen y editen. No se puede adjuntar una empresa inactiva a los proyectos. Esta opción está habilitada de forma predeterminada.
    * **Esta es la compañía primaria**<!--<span class="preview">or **Is Primary**</span>-->: asigna la compañía como compañía primaria de su organización. La compañía principal suele representar su cuenta de Workfront, donde trabaja la mayoría de los usuarios.
 

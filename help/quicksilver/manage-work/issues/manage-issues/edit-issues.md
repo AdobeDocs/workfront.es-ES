@@ -8,16 +8,26 @@ feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 1449374a-ab0d-4c98-83cd-4e511467633a
-source-git-commit: 460090a1102465c34e92433e52c0beb240d8e9b9
+source-git-commit: 6ded38ef130fbcdde8d680f77f6db38fbd81efb4
 workflow-type: tm+mt
-source-wordcount: '2602'
-ht-degree: 27%
+source-wordcount: '2578'
+ht-degree: 26%
 
 ---
 
 # Editar problemas
 
 <!--Audited: 03/2025-->
+
+<!--
+<div class="preview"> 
+
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
+
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
+
+</div> 
+-->
 
 Puede editar la información sobre los problemas que ha creado o que otros usuarios han creado si han compartido los problemas con usted.
 
@@ -238,8 +248,6 @@ Puede editar un problema mediante las áreas Editar problema o Detalles del prob
    </ul> </td> 
      </tr>
 
-
-
    <tr> 
       <td role="rowheader">URL</td> 
       <td> <p>Escriba un vínculo web relacionado con la información sobre el problema.</p> </td> 
@@ -262,7 +270,6 @@ Puede editar un problema mediante las áreas Editar problema o Detalles del prob
 
    <p>Al agregar un usuario de Contacto principal, observe el avatar, la función principal del usuario y su dirección de correo electrónico para distinguir entre usuarios con nombres idénticos. Los usuarios deben estar asociados con al menos una función para verla a medida que los añade.</p>
       <p> Debe tener habilitada la configuración Ver información de contacto en su nivel de acceso para que los usuarios vean los correos electrónicos de los usuarios. Para obtener más información, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md">Conceder acceso a usuarios</a>.</p>
-
 
    </td> 
      </tr> 
@@ -323,7 +330,7 @@ Puede editar un problema mediante las áreas Editar problema o Detalles del prob
 
    ![Sección de asignaciones de problemas](assets/assignments-section-edit-issue-box-nwe-350x230.png)
 
-1. Haga clic en **Buscar personas, roles y equipos** y empiece a escribir el nombre del usuario, rol o equipo que desee asignar a la tarea; a continuación, haga clic en él o presione Intro cuando aparezca en la lista.
+1. Haga clic en **Buscar personas, roles y equipos** y empiece a escribir el nombre del usuario, rol o equipo que desee asignar al problema; a continuación, haga clic en él o presione Entrar cuando aparezca en la lista.
 
    <!--
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: ensure this is still called this; asked Anna to change it to "roles" and add a comma)</p>
@@ -333,9 +340,9 @@ Puede editar un problema mediante las áreas Editar problema o Detalles del prob
    >
    >Si el nombre del usuario contiene un carácter especial, debe incluirlo en el campo de búsqueda.
 
+   Puede asignar varios usuarios, funciones o equipos. Solo puede asignar usuarios, funciones y equipos activos.
+
    >[!TIP]
-   >
-   >Puede asignar varios usuarios, funciones o equipos. Solo puede asignar usuarios, funciones y equipos activos.
    >
    >
    >Si un usuario, un rol o un equipo se han asignado antes de que se desactiven, permanecerán asignados al elemento de trabajo. En este caso, se recomienda lo siguiente:
@@ -343,7 +350,10 @@ Puede editar un problema mediante las áreas Editar problema o Detalles del prob
    >* Reasignar el elemento de trabajo a los recursos activos.
    >* Asocie los usuarios de un equipo desactivado a un equipo activo y reasigne el elemento de trabajo al equipo activo.
 
-1. (Opcional) Indique si un usuario asignado es el principal asignado al problema; para ello, pase el ratón sobre el nombre del usuario asignado y haga clic en **Convertir en principal**. Un equipo no puede ser el principal asignado a un problema.
+   <!--1. (Conditional) Depending on what environment you are editing issues in, do one of the following:
+
+   1. In the Production environment, INDENT THE FOLLOWING STEPS FURTHER AT RELEASE: (Optional) Indicate whether an assignee is the primary assignee on the issue, by hovering over the name of the assignee and clicking **Make Primary**. A team cannot be the primary assignee of an issue. -->
+
 1. Actualice los campos siguientes:
 
    <table style="table-layout:auto"> 
@@ -354,7 +364,7 @@ Puede editar un problema mediante las áreas Editar problema o Detalles del prob
     <tbody> 
      <tr> 
       <td role="rowheader">Horas planificadas</td> 
-      <td> <p>Es la cantidad de tiempo real que tardarían los usuarios asignados del problema en completarlo. Escriba el número de horas planificadas para el problema.<br></p> <p>Nota: Si cambia las horas planificadas del problema, no se cambiará la fecha planificada de finalización del problema. </p> </td> 
+      <td> <p>Es la cantidad de tiempo real que tardarían los usuarios asignados del problema en completarlo. Escriba el número de horas planificadas para el problema.<br></p> <p><b>NOTA</b></p>  <p>Al cambiar las horas planificadas del problema, no se cambiará la fecha planificada de finalización del problema. </p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">Rol de asignado</td> 
@@ -364,6 +374,15 @@ Puede editar un problema mediante las áreas Editar problema o Detalles del prob
    </tr> 
     </tbody> 
    </table>
+
+   <!--
+   <div class="preview">
+   1. (Conditional) In the Preview environment, update the **Planned Hours** field
+      Or 
+      Click **Assign to me** to assign the issue to yourself. (********ADD DEFINITION OF PLANNED HOURS FROM THE TABLE AT PROD RELEASE*********)
+   </div> -->
+
+1. Para quitar asignaciones de todos los problemas, consulte [Asignar problemas](/help/quicksilver/manage-work/issues/manage-issues/assign-issues.md).
 
 1. Haga clic en **Guardar** o continúe editando las secciones siguientes.
 

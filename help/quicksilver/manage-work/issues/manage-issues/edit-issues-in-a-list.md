@@ -6,7 +6,7 @@ description: Puede editar un problema individual o editar problemas en una lista
 author: Alina
 feature: Work Management
 exl-id: a3276d83-c08f-4480-9092-aa47ba76d794
-source-git-commit: 0542587bb3254dec5664de493c1c321528cf7f3e
+source-git-commit: 6ded38ef130fbcdde8d680f77f6db38fbd81efb4
 workflow-type: tm+mt
 source-wordcount: '882'
 ht-degree: 17%
@@ -16,6 +16,18 @@ ht-degree: 17%
 # Editar problemas en una lista
 
 <!--Audited: 08/2025-->
+
+<!--Audited: 03/2025-->
+
+<!--
+<div class="preview"> 
+
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
+
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
+
+</div> 
+-->
 
 Puede editar un problema individual o editar problemas en una lista de problemas o un informe. Este artículo describe cómo editar problemas en listas.
 
@@ -180,7 +192,16 @@ Para editar problemas de forma masiva:
 
    Solo puede editar los campos de los formularios que están adjuntos a todos los problemas seleccionados y para los que tiene permisos de edición.
 
+   <!--1. (Optional and conditional) Depending what environment you use to edit the issues, do one of the following to recalculate custom expressions for all issues:
+   1. In the Production environment, ADD THE SENTENCE FROM THE NEXT STEP HERE:-->
+
 1. (Opcional) En el área **Forms personalizado**, seleccione la opción **Volver a calcular expresiones personalizadas** para asegurarse de que todos los campos personalizados calculados que se encuentran en el Forms personalizado adjunto a los problemas seleccionados estén actualizados.
+
+   <!--  
+   <div class="preview">
+
+   1. In the Preview environment, with all the issues selected in the list, click the **More** menu ![More menu](assets/more-icon.png) at the top of the issue list, then click **Recalculate Expressions**.
+   -->
 
    >[!IMPORTANT]
    >

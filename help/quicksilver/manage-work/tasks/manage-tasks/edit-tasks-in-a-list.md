@@ -6,7 +6,7 @@ description: Puede editar la información de las tareas en una lista de tareas e
 author: Alina
 feature: Work Management
 exl-id: 2af81907-3657-459e-b780-65983e224ca8
-source-git-commit: 00e693fc8b35a59f6ed212bc30da7f85cc78c845
+source-git-commit: 6ded38ef130fbcdde8d680f77f6db38fbd81efb4
 workflow-type: tm+mt
 source-wordcount: '2764'
 ht-degree: 69%
@@ -16,6 +16,16 @@ ht-degree: 69%
 # Edición de tareas en una lista {#edit-tasks-in-a-list}
 
 <!-- Audited: 5/2025 -->
+
+<!--
+<div class="preview"> 
+
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
+
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
+
+</div> 
+-->
 
 Puede editar la información de las tareas en una lista de tareas editando los campos mostrados en la lista. Para obtener información acerca de otras formas de editar tareas, consulte [Editar tareas](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
 
@@ -517,7 +527,17 @@ Puede editar varias tareas a la vez. Asegúrese de tener permisos de administrac
 
    Solo puede editar los campos de los formularios adjuntos a todas las tareas seleccionadas y para los que tiene permisos de edición.
 
+   <!--1. (Optional and conditional) Depending what environment you use to edit the tasks, do one of the following to recalculate custom expressions for all tasks:
+   1. In the Production environment, ADD THE SENTENCE FROM THE NEXT STEP HERE:-->
+
 1. (Opcional) En la sección Formularios personalizados, seleccione la opción **Volver a calcular expresiones personalizadas** para asegurarse de que todos los campos personalizados calculados incluidos en los formularios personalizados adjuntos a las tareas seleccionadas estén actualizados.
+
+   <!--
+   <div class="preview">
+
+   1. In the Preview environment, with all the tasks selected in the list, click the **More** menu ![More menu](assets/more-icon.png) at the top of the task list, then click **Recalculate Expressions**. This is only available when you automatically save your changes. 
+
+   -->
 1. Haga clic en **Guardar cambios**. Todos los cambios que haya realizado estarán ahora visibles en todas las tareas seleccionadas.
 
 Para obtener información sobre la edición en lotes de formularios personalizados, consulte [Administrar formularios personalizados adjuntos a objetos](../../../workfront-basics/work-with-custom-forms/manage-custom-forms-attached-to-objects.md).
