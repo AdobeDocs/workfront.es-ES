@@ -141,11 +141,11 @@ Para agregar o editar una compañía:
 
    Para obtener información sobre cómo crear formularios personalizados, consulte [Crear un formulario personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
-1. (Condicional) Si va a crear una compañía, haga clic en **[!UICONTROL Crear compañía]**<span class="preview">o en** Guardar **.</span>
+1. (Condicional) Si va a crear una compañía, haga clic en **[!UICONTROL Crear compañía]**<span class="preview">o en **&#x200B; Guardar &#x200B;**.</span>
 
    O
 
-   Si está editando una compañía existente, haga clic en **[!UICONTROL Guardar cambios]**<span class="preview">o en** Guardar **.</span>
+   Si está editando una compañía existente, haga clic en **[!UICONTROL Guardar cambios]**<span class="preview">o en **&#x200B; Guardar &#x200B;**.</span>
 
 ## Administrar suscripciones a compañías
 
