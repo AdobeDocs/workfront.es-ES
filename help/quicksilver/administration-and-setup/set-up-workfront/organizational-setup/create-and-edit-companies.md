@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: bb597032-3395-4c9a-b622-5c920ba55131
-source-git-commit: 2e86369ae4c8e9fe2678773c20c02f6dbf8d5247
+source-git-commit: e25ea757129e9645f7b5f0729cd498d5947f49f2
 workflow-type: tm+mt
-source-wordcount: '1399'
-ht-degree: 18%
+source-wordcount: '1440'
+ht-degree: 17%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 18%
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment, and is being released in a phased rollout to Production.</span>-->
+<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa de espacio aislado y se va a lanzar en un despliegue gradual en Producción.</span>
 
 Una compañía es una unidad organizativa de [!DNL Adobe Workfront] que puede representar a su organización, a un departamento dentro de la organización o a un cliente con el que trabaje. Puede agregar compañías a [!DNL Workfront] y utilizarlas para la planificación financiera, la generación de informes, la definición de permisos sobre objetos y la confidencialidad de la información.
 
@@ -105,9 +105,9 @@ Para agregar o editar una compañía:
 
 1. Actualice la siguiente información en la sección **Información básica**:
 
-   * **Nombre de la compañía**<!--<span class="preview"> or **Name**</span>-->: escriba un nombre para la compañía.
+   * **Nombre de empresa**<span class="preview"> o **Nombre**</span>: escriba un nombre para la empresa.
    * **Está activo**: cuando esta opción está habilitada, los usuarios pueden encontrar la compañía y adjuntarla a los proyectos que creen y editen. No se puede adjuntar una empresa inactiva a los proyectos. Esta opción está habilitada de forma predeterminada.
-   * **Esta es la compañía primaria**<!--<span class="preview">or **Is Primary**</span>-->: asigna la compañía como compañía primaria de su organización. La compañía principal suele representar su cuenta de Workfront, donde trabaja la mayoría de los usuarios.
+   * **Esta es la compañía primaria**<span class="preview"> o **Es primaria**</span>: asigna la compañía como compañía primaria de su organización. La compañía principal suele representar su cuenta de Workfront, donde trabaja la mayoría de los usuarios.
 
      Puede tener una compañía o ninguna compañía designada como compañía primaria, pero no puede tener varias compañías designadas como compañías primarias. Para obtener más información, consulte [Crear y modificar niveles de acceso personalizados](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
@@ -141,11 +141,11 @@ Para agregar o editar una compañía:
 
    Para obtener información sobre cómo crear formularios personalizados, consulte [Crear un formulario personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
-1. (Condicional) Si va a crear una compañía, haga clic en **[!UICONTROL Crear compañía]**<!--<span class="preview">or **Save**</span>-->.
+1. (Condicional) Si va a crear una compañía, haga clic en **[!UICONTROL Crear compañía]**<span class="preview">o en** Guardar **.</span>
 
    O
 
-   Si está editando una compañía existente, haga clic en **[!UICONTROL Guardar cambios]**<!--<span class="preview">or **Save**</span>-->.
+   Si está editando una compañía existente, haga clic en **[!UICONTROL Guardar cambios]**<span class="preview">o en** Guardar **.</span>
 
 ## Administrar suscripciones a compañías
 

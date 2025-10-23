@@ -7,10 +7,10 @@ description: Es importante indicar en Adobe Workfront cuándo tienen lugar los d
 author: Becky
 feature: Get Started with Workfront
 exl-id: e7710495-c418-47b1-8598-725580054fc5
-source-git-commit: 95cc394c3e1aa0ee5713e981030a96e27dd1f183
+source-git-commit: e25ea757129e9645f7b5f0729cd498d5947f49f2
 workflow-type: tm+mt
-source-wordcount: '433'
-ht-degree: 74%
+source-wordcount: '481'
+ht-degree: 73%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 74%
 
 <!-- Audited: 12/2023 -->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment, and is being released in a phased rollout to Production.</span>-->
+<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa de espacio aislado y se va a lanzar en un despliegue gradual en Producción.</span>
 
 [!DNL Adobe Workfront] no está diseñado para replicar o reemplazar los sistemas existentes de su organización para administrar, acumular o rastrear los días libres personales.
 
@@ -79,10 +79,10 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 1. En el panel izquierdo, haga clic en **[!UICONTROL Días libres]**.
 1. Seleccione la fecha que desee para sus días libres personales.
 
-   <!--<span class="preview">Sample image in the Preview environment:</span>
-   ![Personal time off calendar](assets/personal-time-off-calendar-0925.png)-->
+   <span class="preview">Imagen de muestra en el entorno de vista previa:</span>
+   ![Calendario personal de días libres](assets/personal-time-off-calendar-0925.png)
 
-   <!--Sample image in the Production environment:-->
+   Imagen de muestra en el entorno de producción:
    ![Calendario personal de días libres](assets/personal-time-off-calendar.png)
 
 1. Seleccione **[!UICONTROL Todo el día]**, si se toma un día libre completo.
