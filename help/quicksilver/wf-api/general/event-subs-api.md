@@ -7,10 +7,10 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
-source-git-commit: 699ce13472ee70149fba7c8c34dde83c7db5f5de
+source-git-commit: f6f3df61286a360324963c872718be224a7ab413
 workflow-type: tm+mt
-source-wordcount: '2739'
-ht-degree: 73%
+source-wordcount: '3054'
+ht-degree: 66%
 
 ---
 
@@ -816,7 +816,7 @@ Este conector hace que el filtro se aplique al nuevo estado o al antiguo estado 
 >[!NOTE]
 >
 >La suscripción siguiente con el filtro especificado solo devolverá mensajes donde el nombre de la tarea contenga `again` en `oldState`, tal como sucedía antes de que se realizara una actualización en la tarea.
->&#x200B;>Un caso de uso para esto sería encontrar los mensajes de objCode que han cambiado de una manera a otra. Por ejemplo, para averiguar todas las tareas que cambiaron de &quot;Investigar Algún nombre&quot; a &quot;Investigar TeamName Algún nombre&quot;
+>>Un caso de uso para esto sería encontrar los mensajes de objCode que han cambiado de una manera a otra. Por ejemplo, para averiguar todas las tareas que cambiaron de &quot;Investigar Algún nombre&quot; a &quot;Investigar TeamName Algún nombre&quot;
 
 ```
 {
@@ -904,6 +904,86 @@ El campo `filterConnector` de la carga útil de suscripción le permite elegir c
     "filterConnector": "AND"
 }
 ```
+
+### Uso de grupos de filtros
+
+Los grupos de filtros le permiten crear condiciones lógicas anidadas (Y/O) dentro de los filtros de suscripción de evento.
+
+Cada grupo de filtros puede tener lo siguiente:
+
+* Su propio conector (AND u OR).
+* Varios filtros, cada uno con la misma sintaxis y el mismo comportamiento que los filtros independientes.
+
+>[!IMPORTANT]
+>
+>Un grupo debe tener un mínimo de 2 filtros.
+
+
+Todos los filtros de un grupo admiten lo siguiente:
+
+* Operadores de comparación: eq, ne, gt, get, lt, lte, contains, notContains, containsOnly, changed.
+* Opciones de estado: newState, oldState.
+* Segmentación de campos: cualquier nombre de campo de objeto válido.
+
+```
+{
+  "objCode": "TASK",
+  "eventType": "UPDATE",
+  "authToken": "token",
+  "url": "https://domain-for-subscription.com/API/endpoint/UpdatedTasks",
+  "filters": [
+    {
+      "fieldName": "percentComplete",
+      "fieldValue": "100",
+      "comparison": "lt"
+    },
+    {
+      "type": "group",
+      "connector": "OR",
+      "filters": [
+        {
+          "fieldName": "status",
+          "fieldValue": "CUR",
+          "comparison": "eq"
+        },
+        {
+          "fieldName": "priority",
+          "fieldValue": "1",
+          "comparison": "eq"
+        }
+      ]
+    }
+  ],
+  "filterConnector": "AND"
+}
+```
+
+El ejemplo anterior contiene los siguientes componentes:
+
+1. El filtro de nivel superior (fuera del grupo):
+   * { &quot;fieldName&quot;: &quot;percentComplete&quot;, &quot;fieldValue&quot;: &quot;100&quot;, &quot;comparison&quot;: &quot;lt&quot; }
+   * Este filtro comprueba si el campo percentComplete de la tarea actualizada es inferior a 100.
+
+1. Grupo de filtros (filtros anidados con OR):
+   * { &quot;type&quot;: &quot;group&quot;, &quot;connector&quot;: &quot;OR&quot;, &quot;filters&quot;: [{ &quot;fieldName&quot;: &quot;status&quot;, &quot;fieldValue&quot;: &quot;CUR&quot;, &quot;comparison&quot;: &quot;eq&quot; }, { &quot;fieldName&quot;: &quot;priority&quot;, &quot;fieldValue&quot;: &quot;1&quot;, &quot;comparison&quot;: &quot;eq&quot; }] }
+   * Este grupo evalúa dos filtros internos:
+      * El primero comprueba si el estado de la tarea es igual a &quot;CUR&quot; (actual).
+      * El segundo comprueba si la prioridad es igual a 1 (prioridad alta).
+   * Como el conector es &quot;OR&quot;, este grupo pasará si alguna de las condiciones es verdadera.
+
+1. Conector de nivel superior (filterConnector: AND):
+   * El conector exterior entre los filtros de nivel superior es &quot;Y&quot;. Esto significa que tanto el filtro de nivel superior como el grupo deben pasar para que coincida el evento.
+
+1. Los déclencheur de suscripción cuando se cumplen las siguientes condiciones:
+   * percentComplete es inferior a 100.
+   * El estado es &quot;CUR&quot; o la prioridad es igual a &quot;1&quot;.
+
+>[!NOTE]
+>
+>Existen límites para garantizar el rendimiento coherente del sistema al utilizar grupos de filtros, que incluyen lo siguiente:<br>
+>* Cada suscripción admite hasta 10 grupos de filtros (y cada grupo contiene varios filtros).
+>* Cada grupo de filtros puede incluir hasta 5 filtros para evitar una posible degradación del rendimiento durante el procesamiento de eventos.
+>* Aunque se admiten hasta 10 grupos de filtros (cada uno con 5 filtros), un gran número de suscripciones activas con una lógica de filtro compleja puede provocar un retraso durante la evaluación del evento.
 
 ## Eliminación de suscripciones a eventos
 
