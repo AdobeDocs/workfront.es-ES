@@ -7,10 +7,10 @@ description: Esta página contiene información sobre la estructura y el conteni
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 57985404-554e-4289-b871-b02d3427aa5c
-source-git-commit: 8df633f7f0946f81d6e81578a3d47719f6d8975e
+source-git-commit: e06db80d752d79157c758b3ecf3a8d4e7040e96d
 workflow-type: tm+mt
-source-wordcount: '8733'
-ht-degree: 10%
+source-wordcount: '8788'
+ht-degree: 9%
 
 ---
 
@@ -48,7 +48,8 @@ Los objetos de Workfront (y, por lo tanto, de su repositorio de datos de Data Co
 
 >[!IMPORTANT]
 >
->El diagrama de relación de entidades es un trabajo en curso. Como tal, es solo para fines de referencia y está sujeto a cambios.
+>El diagrama de relación de entidades (ERD) proporcionado está incompleto a propósito, ya que un ERD completo sería ilegible debido al alto número de relaciones dentro de la aplicación.<br>
+>>Este diagrama proporciona un ejemplo de cómo se pueden utilizar las relaciones documentadas en la tabla de Project de la tabla de terminología [tabla de terminología](#terminology-table) que se muestra a continuación para unir datos de la vista de datos de Project a objetos adyacentes. Se espera que no sea necesario un ERD completo una vez que se comprenda este patrón para las relaciones de objeto del proyecto
 
 ## Tipos de fecha
 
@@ -66,7 +67,7 @@ La siguiente tabla correlaciona los nombres de objeto en Workfront (así como su
 >[!NOTE]
 >
 >Se pueden añadir nuevos campos a las vistas de objetos sin previo aviso para satisfacer las cambiantes necesidades de datos de la aplicación de Workfront. Advertimos que no se deben utilizar consultas &quot;SELECT&quot; en las que el destinatario de datos descendente no esté preparado para gestionar columnas adicionales a medida que se agregan.<br>
->&#x200B;>Si es necesario cambiar el nombre de una columna o eliminarla, notificaremos estos cambios con antelación.
+>>Si es necesario cambiar el nombre de una columna o eliminarla, notificaremos estos cambios con antelación.
 
 ### Nivel de acceso
 
