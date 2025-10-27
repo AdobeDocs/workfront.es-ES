@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: abe026d0-3584-49f3-a6db-ef88b3aab186
-source-git-commit: e25ea757129e9645f7b5f0729cd498d5947f49f2
+source-git-commit: 5706ebd11985b9e67c93686918f8f0327adabdf1
 workflow-type: tm+mt
-source-wordcount: '390'
-ht-degree: 77%
+source-wordcount: '397'
+ht-degree: 75%
 
 ---
 
@@ -148,12 +148,8 @@ Al restablecer las preferencias de usuario, algunas se revierten al valor predet
 
 1. Presione **Intro**.
 
-<div class="preview">
+1. <span class="preview">Para restablecer todas las preferencias de usuario, haga clic en **Restablecer**.</span>
 
-1. Para restablecer todas las preferencias de usuario, haga clic en **Restablecer**.
+   <span class="preview">O</span>
 
-   O
-
-   Para restablecer solamente las fichas personalizadas, haga clic en **Restablecer navegación izquierda**.
-
-</div>
+   <span class="preview">Para restablecer la navegación izquierda del usuario a la configuración original de la plantilla de diseño, haga clic en **Restablecer navegación izquierda**.</span>
