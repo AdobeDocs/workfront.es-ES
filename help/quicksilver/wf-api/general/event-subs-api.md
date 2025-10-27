@@ -7,7 +7,7 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
-source-git-commit: 35fbf2f5792edb844264b15e298411819c0f5081
+source-git-commit: 987eea4d0ad7f8e30b944418836280728ee63812
 workflow-type: tm+mt
 source-wordcount: '3054'
 ht-degree: 66%
@@ -816,7 +816,7 @@ Este conector hace que el filtro se aplique al nuevo estado o al antiguo estado 
 >[!NOTE]
 >
 >La suscripción siguiente con el filtro especificado solo devolverá mensajes donde el nombre de la tarea contenga `again` en `oldState`, tal como sucedía antes de que se realizara una actualización en la tarea.
->&#x200B;>Un caso de uso para esto sería encontrar los mensajes de objCode que han cambiado de una manera a otra. Por ejemplo, para averiguar todas las tareas que cambiaron de &quot;Investigar Algún nombre&quot; a &quot;Investigar TeamName Algún nombre&quot;
+>>Un caso de uso para esto sería encontrar los mensajes de objCode que han cambiado de una manera a otra. Por ejemplo, para averiguar todas las tareas que cambiaron de &quot;Investigar Algún nombre&quot; a &quot;Investigar TeamName Algún nombre&quot;
 
 ```
 {
