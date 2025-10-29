@@ -6,10 +6,10 @@ description: Puede editar un problema individual o editar problemas en una lista
 author: Alina
 feature: Work Management
 exl-id: a3276d83-c08f-4480-9092-aa47ba76d794
-source-git-commit: 6ded38ef130fbcdde8d680f77f6db38fbd81efb4
+source-git-commit: a18b70b20e37f9751fbae2d4aad76e4905f976b2
 workflow-type: tm+mt
-source-wordcount: '882'
-ht-degree: 17%
+source-wordcount: '884'
+ht-degree: 18%
 
 ---
 
@@ -177,8 +177,22 @@ Para editar problemas de forma masiva:
 
    * Información general
    * Configuración
+   * Formularios personalizados
    * Asignaciones
    * Comentario
+
+   <!--at release for unshim, replace the list above with this:
+
+   <div class="preview">
+
+   * Overview
+   * Assignments
+   * Custom Forms 
+   * Settings
+   * Comment
+
+   </div>
+   -->
 
    Para obtener más información sobre cómo editar un problema, consulte [Editar problemas](../../../manage-work/issues/manage-issues/edit-issues.md).
 

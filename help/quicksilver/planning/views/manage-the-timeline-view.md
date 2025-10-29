@@ -6,7 +6,7 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: df0686038adb1278339e872e122a311884cb6d29
+source-git-commit: a18b70b20e37f9751fbae2d4aad76e4905f976b2
 workflow-type: tm+mt
 source-wordcount: '3874'
 ht-degree: 43%
@@ -286,6 +286,8 @@ Para agregar un filtro a una vista de cronología:
 1. Haga clic en **Añadir condición** y añada la siguiente información:
 
    * **Seleccione un campo** por el que desea filtrar <!-- the tip below might change-->
+
+     <!--replace the bullet above with this at preview release: <span class="preview">Search for a field or </span> click the drop-down menu to display a list of fields and select it from the list-->
 
    * **Seleccione una opción** (o un modificador de filtro) para definir qué tipo de condición debe cumplir el campo
 

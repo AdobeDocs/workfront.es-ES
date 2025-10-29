@@ -6,10 +6,10 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
+source-git-commit: a18b70b20e37f9751fbae2d4aad76e4905f976b2
 workflow-type: tm+mt
-source-wordcount: '3370'
-ht-degree: 70%
+source-wordcount: '3401'
+ht-degree: 69%
 
 ---
 
@@ -192,6 +192,8 @@ Puede añadir hasta 500 campos (o columnas) en una vista de tabla.
 
    Las columnas que añada serán visibles para todos los usuarios que tengan acceso al tipo de registro y se añadirán como campos nuevos en la página del registro.
 
+1. (Opcional) Haga clic en el icono **Campos** ![Icono de Campos](assets/fields-icon.png) en la barra de herramientas, busque el campo en la lista <!--or <span class="preview"> search for a field</span>,--> y anule la selección del botón de alternancia a la derecha del nombre del campo para ocultar el campo.
+
 1. Realice una de las siguientes acciones para reordenar las columnas de la tabla:
 
    * Arrastre el encabezado de la columna y suéltelo en la posición deseada. La columna que ha movido se mostrará brevemente con un fondo azul hasta que realice otros ajustes en la tabla.
@@ -311,6 +313,8 @@ Para añadir un filtro a una vista de tabla:
 1. Haga clic en **Añadir condición** y añada la siguiente información:
 
    * **Seleccione un campo** por el que desea filtrar <!-- the tip below might change-->
+
+     <!--replace the bullet above with this at preview release: <span class="preview">Search for a field or </span> click the drop-down menu to display a list of fields and select it from the list-->
 
    * **Seleccione una opción** (o un modificador de filtro) para definir qué tipo de condición debe cumplir el campo
 
@@ -542,6 +546,8 @@ To sort grouped records:
 1. (Opcional) Haga clic en **Colores de fila** para definir las condiciones y elegir configurar diferentes colores para las filas de la tabla.
 
 1. Haga clic en **Agregar color** y, a continuación, **Seleccione un campo** cuyo valor desee determinar el color de una fila.
+
+   <!--replace the text for this step above with this at preview release: Click **Add color**, then <span class="preview">search for a field or </span> click the drop-down menu to display a list of fields and select it from the list. This is the field whose value you want to determine the color of a row.-->
 
    Por ejemplo, para mostrar campañas con el estado Activo en verde, seleccione **Estado** y, a continuación, elija un modificador y un valor para el campo.
 

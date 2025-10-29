@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
+source-git-commit: a18b70b20e37f9751fbae2d4aad76e4905f976b2
 workflow-type: tm+mt
-source-wordcount: '1144'
-ht-degree: 48%
+source-wordcount: '1181'
+ht-degree: 46%
 
 ---
 
@@ -171,8 +171,13 @@ Para obtener más información acerca de los requisitos de acceso de Workfront, 
 * Aunque algunos elementos de vista se pueden aplicar a varias vistas del mismo registro, son únicos en cada vista de registro:
 
    * Filtro
+   * Ordenar (para la vista de tabla)
+   * Colores de fila (para la vista de tabla)
+   * Campos (para la vista de tabla)
+   * Desglose (para la vista de cronología)
    * Agrupación (para las vistas Tabla y Cronología)
    * Apariencia de la barra (para las vistas de calendario y cronología)
+   * Altura de fila (para la tabla y la vista de calendario mensual)
 
   Por ejemplo, al crear un filtro en una vista de tabla, los resultados del filtro sólo son visibles en la vista seleccionada (la vista de tabla) y no en todas las vistas asociadas al tipo de registro.
 
@@ -212,6 +217,7 @@ En la tabla siguiente se muestran las similitudes y diferencias entre las vistas
 | Exportación de información desde una vista | ✓ |               |    |
 | Mostrar en pantalla completa | ✓ | ✓ | ✓ |
 | Creación de registros en la vista | ✓ | ✓ | ✓ |
+| Desglose de registros por sus conexiones |          | ✓ |    |
 
 ## Crear o editar vistas {#create-or-edit-views}
 

@@ -7,16 +7,16 @@ author: Lisa
 feature: Work Management
 role: User
 exl-id: e2dce29e-7370-4580-8326-99c4437998bf
-source-git-commit: 6ded38ef130fbcdde8d680f77f6db38fbd81efb4
+source-git-commit: a18b70b20e37f9751fbae2d4aad76e4905f976b2
 workflow-type: tm+mt
-source-wordcount: '1424'
-ht-degree: 45%
+source-wordcount: '1465'
+ht-degree: 44%
 
 ---
 
 # Asignar problemas
 
-<!--Audited: 07/2024-->
+<!--Audited: 10/2024-->
 
 <!--
 <div class="preview"> 
@@ -116,7 +116,7 @@ Tenga en cuenta lo siguiente al asignar varios recursos a un elemento de trabajo
 </div>
 -->
 
-## Asignar un solo problema
+## Asignar un solo problema en el encabezado del problema
 
 1. Vaya al problema que desee asignar.
 1. Haga clic en **Asignar a** en la esquina superior derecha del encabezado del problema, en el área de **Asignaciones**
@@ -155,7 +155,7 @@ Tenga en cuenta lo siguiente al asignar varios recursos a un elemento de trabajo
 1. Haga clic en **Guardar** para completar la asignación del problema.
 1. (Opcional) Haga clic en el **icono X** junto al nombre de las asignaciones en el área Asignaciones del encabezado del problema para quitar una asignación.
 
-## Asignar un problema en una lista
+## Asignar un problema editándolo en línea en una lista
 
 Puede asignar problemas en una lista o un informe cuando cualquiera de los campos de asignaciones esté visible en la vista de la lista. Esta es una forma más rápida de asignar problemas.
 
@@ -195,6 +195,12 @@ Para asignar problemas en una lista:
    >No puede realizar asignaciones avanzadas desde los campos Asignado a o Asignado.
 
 1. Después de agregar los usuarios asignados al problema, presione Intro o haga clic en cualquier lugar de la página para guardar los cambios.
+
+## Asignar un problema en el cuadro Editar problema
+
+Puede asignar un problema al editarlo en el cuadro Editar problema.
+
+Para obtener más información, consulte la sección &quot;Asignaciones&quot; en el artículo [Editar problemas](/help/quicksilver/manage-work/issues/manage-issues/edit-issues.md).
 
 ## Asignar problemas de forma masiva
 
