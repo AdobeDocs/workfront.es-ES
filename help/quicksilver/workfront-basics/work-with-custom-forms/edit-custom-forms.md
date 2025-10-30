@@ -7,14 +7,16 @@ description: Puede editar la información de un formulario personalizado despué
 author: Alina
 feature: Get Started with Workfront
 exl-id: c2b6afde-91a8-4e17-8e1a-3428b48e500a
-source-git-commit: 6ded38ef130fbcdde8d680f77f6db38fbd81efb4
+source-git-commit: 53269f4932a752a833df8e41891706934214e062
 workflow-type: tm+mt
-source-wordcount: '1039'
+source-wordcount: '1062'
 ht-degree: 10%
 
 ---
 
 # Editar información en campos de formulario personalizados
+
+{{preview-fast-release-general}}
 
 <!--Audited: 10/2025-->
 
@@ -124,6 +126,10 @@ La edición de información en un formulario personalizado adjunto a un objeto e
    * Puede seleccionar una o varias opciones en un campo desplegable de selección múltiple, según la configuración del campo que haya realizado el creador del formulario.
    * Solo se puede aplicar formato a los campos de texto (negrita, cursiva o subrayado) si el usuario que ha creado el formulario los ha configurado como campos de texto con formato. No se puede dar formato a los campos de texto de una sola línea y a los campos de texto de párrafo.
    * Solo se puede actualizar la hora del día en un tipo de campo de fecha si el usuario que ha creado el formulario lo ha incluido al crear el campo.
+
+   >[!NOTE]
+   >
+   ><span class="preview">Los campos que permiten selecciones múltiples pueden limitar la cantidad de opciones que se pueden elegir. Las casillas de verificación y los desplegables de selección múltiple están limitados a 5000 selecciones.</span>
 
    Para obtener información acerca de todos los tipos de campo, vea [Crear un formulario personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
