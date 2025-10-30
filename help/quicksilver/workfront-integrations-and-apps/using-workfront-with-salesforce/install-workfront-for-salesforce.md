@@ -78,8 +78,8 @@ Debe ser administrador del sistema de [!DNL Salesforce] y [!DNL Workfront] para 
 Las siguientes subsecciones describen cómo instalar [!DNL Workfront] para su entorno de producción de [!DNL Salesforce]. Puede seguir los mismos pasos para instalar [!DNL Workfront] en su entorno de zona protegida de [!DNL Salesforce].
 
 * [Instalando  [!DNL Workfront for Salesforce] antes de que esté disponible en  [!DNL AppExchange] Marketplace](#installing-workfront-for-salesforce-before-it-becomes-available-in-the-appexchange-marketplace)
-* [Instalando  [!DNL Workfront for Salesforce]  en el marco de trabajo de  [!DNL Salesforce Classic] ](#installing-workfront-for-salesforce-in-the-salesforce-classic-framework)
-* [Instalando  [!DNL Workfront for Salesforce]  en el marco de trabajo de  [!DNL Salesforce Lightning Experience] ](#installing-workfront-for-salesforce-in-the-salesforce-lightning-experience-framework)
+* [Instalando  [!DNL Workfront for Salesforce]  en el marco de trabajo de  [!DNL Salesforce Classic] &#x200B;](#installing-workfront-for-salesforce-in-the-salesforce-classic-framework)
+* [Instalando  [!DNL Workfront for Salesforce]  en el marco de trabajo de  [!DNL Salesforce Lightning Experience] &#x200B;](#installing-workfront-for-salesforce-in-the-salesforce-lightning-experience-framework)
 
 ### Instalando [!DNL Workfront for Salesforce] antes de que esté disponible en [!DNL AppExchange]Marketplace {#installing-workfront-for-salesforce-before-it-becomes-available-in-the-appexchange-marketplace}
 
@@ -206,7 +206,7 @@ Por ejemplo, *yourDomain.my.workfront.com*.
    La aplicación de [!DNL Workfront] se ha instalado en la instancia de [!DNL Salesforce] y el componente **[!DNL Workfront]** se ha añadido al entorno.
 
    Los usuarios de [!UICONTROL Salesforce] pueden usar la aplicación [!DNL Workfront] una vez que añada la sección [!DNL Workfront] a sus diseños de página [!UICONTROL Oportunidad] o [!UICONTROL Cuenta].\
-   Para obtener información sobre cómo configurar la sección [!DNL Workfront] para los usuarios, consulte [Configurar la sección [!DNL Adobe Workfront] para los usuarios de [!DNL Salesforce] ](../../workfront-integrations-and-apps/using-workfront-with-salesforce/configure-wf-section-for-salesforce-users.md).
+   Para obtener información sobre cómo configurar la sección [!DNL Workfront] para los usuarios, consulte [Configurar la sección [!DNL Adobe Workfront] para los usuarios de [!DNL Salesforce] &#x200B;](../../workfront-integrations-and-apps/using-workfront-with-salesforce/configure-wf-section-for-salesforce-users.md).
 
 ## Configurar permisos para la integración de Workfront para Salesforce
 
