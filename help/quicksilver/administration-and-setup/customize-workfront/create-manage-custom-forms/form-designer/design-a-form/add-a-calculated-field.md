@@ -8,14 +8,16 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 407aae49-4bc3-4364-a794-7e170a57a6d3
-source-git-commit: 15ac51cc13eeb57d2de194a9a6ceec7683acfbe6
+source-git-commit: f6e0329ec63038b33006325701007c564c4126cc
 workflow-type: tm+mt
-source-wordcount: '2412'
-ht-degree: 80%
+source-wordcount: '2446'
+ht-degree: 79%
 
 ---
 
 # Añadir campos calculados a un formulario
+
+{{preview-fast-release-general}}
 
 <!-- Audited: 5/2025 -->
 
@@ -169,6 +171,10 @@ Para reutilizar un campo personalizado calculado existente:
       <p><b>IMPORTANTE</b>: antes de elegir un formato, tenga en cuenta el formato correcto para el nuevo campo. El campo de formato no se puede editar después de guardar el formulario personalizado. Y seleccionar el formato incorrecto podría afectar a futuros cálculos y valores acumulados en las agrupaciones de informes y listas.</p>
       <p><strong>NOTA</strong>: los campos calculados con un formato <strong>Divisa</strong> no deben incluir comillas. (Por ejemplo, use 800,00 y no "800,00"). El uso de comillas puede tener consecuencias inesperadas debido a los matices del formato de idioma para los tipos de moneda.</p></td>
      </tr> 
+     <tr>
+      <td><span class="preview">Activo</span></td>
+      <td><span class="preview"><p>Esta opción está activada de forma predeterminada.<p><p>Cuando se establece un campo como Inactivo, se excluye de los informes, filtros y vistas y ya no está disponible en la biblioteca de campos de formularios personalizados.</p></span></td>
+     </tr>
     </tbody> 
    </table>
 
@@ -278,7 +284,7 @@ Un cálculo suele comenzar con una expresión, seguida de paréntesis que contie
            >
            ><div>En un formulario personalizado adjunto a un objeto, las instrucciones de fecha y hora de los campos personalizados calculados se calculan y guardan a partir de la hora universal coordinada (UTC), no mediante las configuraciones de zona horaria establecidas para la instancia de su organización y el perfil de usuario. Los cálculos de un formulario personalizado se generan en función de las zonas horarias individuales de cada usuario.</div>
 
-      +++
+        +++
 
    1. Haga clic en el cuadro de texto grande y, a continuación, haga clic en **Expresiones** y **Campos** que están disponibles para añadirlos al cálculo.
 

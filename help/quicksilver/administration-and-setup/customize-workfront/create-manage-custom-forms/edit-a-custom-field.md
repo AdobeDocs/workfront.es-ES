@@ -8,18 +8,22 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 8eea97e7-1d05-4145-b1fd-855a6d111107
-source-git-commit: 15ac51cc13eeb57d2de194a9a6ceec7683acfbe6
+source-git-commit: f6e0329ec63038b33006325701007c564c4126cc
 workflow-type: tm+mt
-source-wordcount: '332'
-ht-degree: 18%
+source-wordcount: '367'
+ht-degree: 16%
 
 ---
 
 # Adición o edición de campos personalizados, saltos de sección o widgets
 
+{{preview-fast-release-general}}
+
 Puede agregar un nuevo campo o widget personalizado directamente desde el área Campos de Workfront, sin abrir un formulario personalizado para crear el campo.
 
 También puede editar las propiedades de un campo personalizado, un salto de sección o un widget que se utilizan en los formularios personalizados. Estos incluyen la etiqueta del elemento, el nombre, las instrucciones, etc.
+
+<span class="preview">Al establecer un campo personalizado como Inactivo, se excluye de los informes, filtros y vistas, y ya no está disponible en la biblioteca de campos de formularios personalizados. Todos los campos nuevos se definen como Activos de forma predeterminada. </span>
 
 Si quita un campo personalizado de un formulario personalizado, seguirá existiendo en todos los demás formularios a los que se agregó y podrá editarlo en un formulario o en el área Campos. Para obtener información sobre cómo eliminar un campo, consulte [Eliminar un campo o widget personalizado del sistema](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/delete-a-custom-field.md).
 

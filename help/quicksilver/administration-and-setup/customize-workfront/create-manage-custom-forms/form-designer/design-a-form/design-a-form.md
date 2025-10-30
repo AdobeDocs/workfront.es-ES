@@ -8,20 +8,18 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 559044c44ca8d32d010188445403b4fc1e524002
+source-git-commit: f6e0329ec63038b33006325701007c564c4126cc
 workflow-type: tm+mt
-source-wordcount: '6642'
-ht-degree: 55%
+source-wordcount: '6933'
+ht-degree: 53%
 
 ---
 
 # Crear un formulario personalizado
 
+{{preview-fast-release-general}}
+
 <!-- Audited: 6/2025 -->
-
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
-
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>   -->
 
 Puede diseñar un formulario personalizado con el diseñador de formularios en Adobe Workfront. Puede adjuntar formularios personalizados a diferentes objetos de Workfront para capturar datos sobre esos objetos.
 
@@ -129,7 +127,7 @@ Cada nombre de campo personalizado debe ser único en la instancia de Workfront 
 >[!NOTE]
 >
 >Aunque es posible hacerlo, le recomendamos que no cambie este nombre después de que usted u otros usuarios empiecen a utilizar el formulario personalizado en Workfront. Si lo hace, el sistema ya no reconocerá el campo personalizado, donde ahora se podría hacer referencia a él en otras áreas de Workfront.
->&#x200B;>Por ejemplo, si añade el campo personalizado a un informe y posteriormente cambia su nombre, Workfront no lo reconocerá en el informe y dejará de funcionar correctamente allí a menos que lo vuelva a añadir al informe con el nuevo nombre.
+>>Por ejemplo, si añade el campo personalizado a un informe y posteriormente cambia su nombre, Workfront no lo reconocerá en el informe y dejará de funcionar correctamente allí a menos que lo vuelva a añadir al informe con el nuevo nombre.
 >
 >Se recomienda no escribir un nombre que ya se utilice en los campos integrados de Workfront.
 >
@@ -259,6 +257,15 @@ Para añadir un campo de texto:
     <td>Hipervínculo</td>
     <td> Si desea aplicar un hipervínculo al texto descriptivo que ha escrito, añádalo aquí. El texto descriptivo se muestra como un vínculo en los objetos a los que está adjunto el formulario.</td>
     <td><ul><li>Texto descriptivo</li></ul></td>
+    </tr>
+    <tr>
+     <td><span class="preview">Activo</span></td>
+     <td><span class="preview"><p>Esta opción está activada de forma predeterminada.<p><p>Cuando se establece un campo como Inactivo, se excluye de los informes, filtros y vistas y ya no está disponible en la biblioteca de campos de formularios personalizados.</p></span></td>
+     <td><ul><span class="preview">
+     <li>Texto de línea única</li>
+     <li>Párrafo</li>
+     <li>Texto con formato</li>
+     <li>Texto descriptivo</li></span></ul></td>
     </tr>
     <tr> 
       <td role="rowheader">Cambiar un campo a obligatorio</td>
@@ -408,8 +415,17 @@ Para agregar botones de opción, grupos de casillas de verificación y listas de
     <li>Lista desplegable de selección múltiple</li>
     </ul>
     </td>
-     </tr> 
-          <tr> 
+     </tr>
+    <tr>
+     <td><span class="preview">Activo</span></td>
+     <td><span class="preview"><p>Esta opción está activada de forma predeterminada.<p><p>Cuando se establece un campo como Inactivo, se excluye de los informes, filtros y vistas y ya no está disponible en la biblioteca de campos de formularios personalizados.</p></span></td>
+     <td><ul><span class="preview">
+     <li>Botones de radio</li>
+     <li>Grupo de casillas de verificación</li>
+     <li>Lista desplegable de selección única</li>
+     <li>Lista desplegable de selección múltiple</li></span></ul></td>
+    </tr>
+    <tr> 
     <td role="rowheader">Cambiar un campo a obligatorio</td> 
     <td>Seleccione esta opción si desea que el campo sea obligatorio para que el usuario complete el formulario personalizado. </td> 
     <td><ul>
@@ -541,6 +557,13 @@ Para añadir los campos de fecha y escritura anticipada:
        </ul>
       </td>
      </tr>
+     <tr>
+      <td><span class="preview">Activo</span></td>
+      <td><span class="preview"><p>Esta opción está activada de forma predeterminada.<p><p>Cuando se establece un campo como Inactivo, se excluye de los informes, filtros y vistas y ya no está disponible en la biblioteca de campos de formularios personalizados.</p></span></td>
+      <td><ul><span class="preview">
+      <li>Escritura anticipada</li>
+      <li>Fecha</li></span></ul></td>
+     </tr>
      <tr> 
       <td role="rowheader">Cambiar un campo a obligatorio</td> 
       <td>Seleccione esta opción si desea que el campo sea obligatorio para que el usuario complete el formulario personalizado. </td> 
@@ -628,12 +651,12 @@ Para añadir una búsqueda externa:
       <td role="rowheader">Ruta JSON</td>
       <td><p>Escriba o pegue la ruta JSON para la API.</p> <p>Esta opción permite extraer datos del JSON devuelto por la URL de la API. Sirve para seleccionar qué valores dentro del JSON aparecerán en las opciones desplegables.</p><p>Por ejemplo, si la dirección URL de la API devuelve JSON en el siguiente formato, puede usar "$.data[*].name" para seleccionar EE. UU. y Canadá como opciones desplegables:</br>
       <pre>
-      &lbrace;
-       data: &lbrace;
+      {
+       data: {
          { name: "USA"},
          { name: "Canada"}
-       &rbrace;
-      &rbrace;
+       }
+      }
       </pre>
       </p>
      <p>Para obtener más información sobre la ruta JSON y cómo asegurarse de que escribe la ruta JSON correcta, consulte <a href="https://jsonpath.com/">https://jsonpath.com/</a>.</p></td>
@@ -646,6 +669,9 @@ Para añadir una búsqueda externa:
       <td role="rowheader">Lista desplegable de selección múltiple</td>
       <td><p>Seleccione esta opción para permitir que el usuario seleccione más de un valor en la lista desplegable.</p></td>
      </tr>
+     <tr>
+      <td><span class="preview">Activo</span></td>
+      <td><span class="preview"><p>Esta opción está activada de forma predeterminada.<p><p>Cuando se establece un campo como Inactivo, se excluye de los informes, filtros y vistas y ya no está disponible en la biblioteca de campos de formularios personalizados.</p></span></td>
      </tr>
      <tr> 
       <td role="rowheader">Cambiar un campo a obligatorio</td>
@@ -736,6 +762,10 @@ Para añadir imágenes, PDF o vídeos:
       <td role="rowheader">Instrucciones</td> 
       <td> <p>Escriba cualquier información adicional sobre el widget. Cuando los usuarios rellenan el formulario personalizado, pueden situarse sobre el icono del signo de interrogación para ver una información de objeto que contenga la información que escriba aquí.</p> </td> 
      </tr> 
+     <tr>
+      <td><span class="preview">Activo</span></td>
+      <td><span class="preview"><p>Esta opción está activada de forma predeterminada.<p><p>Cuando se establece un campo como Inactivo, se excluye de los informes, filtros y vistas y ya no está disponible en la biblioteca de campos de formularios personalizados.</p></span></td>
+     </tr>
     </tbody> 
    </table>
 
@@ -869,6 +899,10 @@ Esta tabla enumera los campos nativos disponibles para objetos de Workfront espe
         </ul></p></td> 
       <td>
      </tr>
+     <tr>
+      <td><span class="preview">Activo</span></td>
+      <td><span class="preview"><p>Esta opción está activada de forma predeterminada.<p><p>Cuando se establece un campo como Inactivo, se excluye de los informes, filtros y vistas y ya no está disponible en la biblioteca de campos de formularios personalizados.</p></span></td>
+     </tr>
      <tr> 
       <td role="rowheader">Cambiar un campo a obligatorio</td>
       <td><p>Seleccione esta opción si desea que el campo sea obligatorio para que el usuario complete el formulario personalizado.</p></td>
@@ -921,7 +955,11 @@ Para añadir un archivo Adobe XD:
       <td role="rowheader">Instrucciones</td> 
       <td> <p>Escriba cualquier información adicional sobre el widget. Cuando los usuarios rellenan el formulario personalizado, pueden situarse sobre el icono del signo de interrogación para ver una información de objeto que contenga la información que escriba aquí.
     <img src="assets/instructions-form-designer.png"></p> </td> 
-     </tr> 
+     </tr>
+     <tr>
+      <td><span class="preview">Activo</span></td>
+      <td><span class="preview"><p>Esta opción está activada de forma predeterminada.<p><p>Cuando se establece un campo como Inactivo, se excluye de los informes, filtros y vistas y ya no está disponible en la biblioteca de campos de formularios personalizados.</p></span></td>
+     </tr>
     </tbody> 
    </table>
 
@@ -1017,6 +1055,10 @@ Para agregar un campo de conexión de Planning:
       <td role="rowheader">Campos de tipo de registro</td> 
       <td><p>(Opcional) Seleccione hasta 7 campos de búsqueda del tipo de registro conectado para mostrarlos en el formulario personalizado. El campo principal está seleccionado de forma predeterminada y no se puede editar. </p> <p> Los campos del registro conectado que seleccione se mostrarán en una vista de tabla del formulario personalizado. Cuando el formulario se adjunta a un objeto de Workfront, la vista de tabla es de sólo lectura. </p>  
     <img src="assets/planning-connections-field-with-table-on-form-preview.png"></td> 
+     </tr>
+     <tr>
+      <td><span class="preview">Activo</span></td>
+      <td><span class="preview"><p>Esta opción está activada de forma predeterminada.<p><p>Cuando se establece un campo como Inactivo, se excluye de los informes, filtros y vistas y ya no está disponible en la biblioteca de campos de formularios personalizados.</p></span></td>
      </tr>
       </tbody> 
    </table>
