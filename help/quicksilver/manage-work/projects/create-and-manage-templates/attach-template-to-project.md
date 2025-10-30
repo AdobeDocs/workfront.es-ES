@@ -6,7 +6,7 @@ description: Puede adjuntar una plantilla a un proyecto durante la fase de creac
 author: Alina
 feature: Work Management
 exl-id: bce9af59-5467-4458-b923-01bfa469e2d8
-source-git-commit: d7600a55b3dffb242957234de9d85a0deb1ad2e3
+source-git-commit: 7fef704355fad677f2bdf40e630ea0146a9e1d58
 workflow-type: tm+mt
 source-wordcount: '1057'
 ht-degree: 48%
@@ -15,7 +15,7 @@ ht-degree: 48%
 
 # Adjuntar una plantilla a un proyecto
 
-<!-- Audited: 5/2025 -->
+<!-- Audited: 10/2025 -->
 
 Puede adjuntar una plantilla a un proyecto durante la fase de creación inicial del proyecto o después de crearlo.
 
@@ -115,16 +115,15 @@ Puede adjuntar una plantilla a un proyecto desde la página del proyecto o desde
 
 1. En la página **Proyectos**, seleccione el proyecto al que desee adjuntar una plantilla.
 
-1. Haga clic en el icono **Más** ![Más](assets/qs-more-icon-on-an-object.png) a la derecha del nombre del proyecto.
+1. Haga clic en el icono **Más** ![Más lista desplegable](assets/more-dropdown.png) a la derecha del nombre del proyecto.
 
-   ![Más lista desplegable](assets/more-dropdown.png)
+   ![Icono de más](assets/qs-more-icon-on-an-object.png)
 
    O
 
-   Vaya a una lista de proyectos o a un informe y seleccione un proyecto. Luego, haga clic en el icono **Más** ![Icono de más](assets/qs-more-icon-on-an-object.png) que se encuentra en la parte superior de la lista.
+   Vaya a una lista de proyectos o a un informe y seleccione un proyecto. Luego, haga clic en el icono **Más** ![Más lista desplegable](assets/more-dropdown.png) que se encuentra en la parte superior de la lista.
 
    ![Menú más expandido](assets/more-menu-expanded.png)
-
 
 1. Haga clic en **Adjuntar plantilla**. Se muestra el cuadro **Adjuntar plantilla**.
 

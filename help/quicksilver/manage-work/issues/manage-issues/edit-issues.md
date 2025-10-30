@@ -8,10 +8,10 @@ feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 1449374a-ab0d-4c98-83cd-4e511467633a
-source-git-commit: a18b70b20e37f9751fbae2d4aad76e4905f976b2
+source-git-commit: 7fef704355fad677f2bdf40e630ea0146a9e1d58
 workflow-type: tm+mt
-source-wordcount: '2578'
-ht-degree: 26%
+source-wordcount: '2741'
+ht-degree: 24%
 
 ---
 
@@ -19,15 +19,13 @@ ht-degree: 26%
 
 <!--Audited: 10/2025-->
 
-<!--
-<div class="preview"> 
+<div class="preview">
 
-The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
+La información resaltada en esta página hace referencia a funcionalidades que aún no están disponibles de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Las mismas funciones también estarán disponibles en el entorno de producción para todos los clientes a partir de una semana desde la versión de vista previa.
 
-For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
+Para obtener más información, vea [Modernización de la interfaz](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).
 
-</div> 
--->
+</div>
 
 Puede editar la información sobre los problemas que ha creado o que otros usuarios han creado si han compartido los problemas con usted.
 
@@ -350,41 +348,45 @@ Puede editar un problema mediante las áreas Editar problema o Detalles del prob
    >* Reasignar el elemento de trabajo a los recursos activos.
    >* Asocie los usuarios de un equipo desactivado a un equipo activo y reasigne el elemento de trabajo al equipo activo.
 
-   <!--1. (Conditional) Depending on what environment you are editing issues in, do one of the following:
-   1. In the Production environment, INDENT THE FOLLOWING STEPS FURTHER AT RELEASE: (Optional) Indicate whether an assignee is the primary assignee on the issue, by hovering over the name of the assignee and clicking **Make Primary**. A team cannot be the primary assignee of an issue. -->
+1. (Condicional) Según el entorno en el que esté editando los problemas, realice una de las siguientes acciones:
 
-1. Actualice los campos siguientes:
+   1. En el entorno de producción:
 
-   <table style="table-layout:auto"> 
-    <col> 
-    </col> 
-    <col> 
-    </col> 
-    <tbody> 
-     <tr> 
-      <td role="rowheader">Horas planificadas</td> 
-      <td> <p>Es la cantidad de tiempo real que tardarían los usuarios asignados del problema en completarlo. Escriba el número de horas planificadas para el problema.<br></p> <p><b>NOTA</b></p>  <p>Al cambiar las horas planificadas del problema, no se cambiará la fecha planificada de finalización del problema. </p> </td> 
-     </tr> 
-     <tr data-mc-conditions=""> 
-      <td role="rowheader">Rol de asignado</td> 
-      <td> <p>Seleccione un rol del menú desplegable <strong>Rol de usuario asignado</strong> cuando haya seleccionado una persona como usuario asignado. Esta es la función que el usuario asignado puede desempeñar en este problema. </p> <p><b>Sugerencia</b>
+      1. Indique si un usuario asignado es el principal asignado al problema; para ello, pase el ratón sobre el nombre del usuario asignado y haga clic en **Convertir en principal**. Un equipo no puede ser el principal asignado a un problema.
 
-   En el menú desplegable solo aparecen los roles de trabajo asociados con cada usuario asignado en su perfil.</p> </td>
-   </tr> 
-    </tbody> 
-   </table>
+      1. Actualice los campos siguientes:
 
-   <!--
-   <div class="preview">
-   1. (Conditional) In the Preview environment, do one of the following:
-         * Click **Assign to me** to assign the issue to yourself
-      * Update the **Planned Hours** field.
-         The **Planned Hours** is the amount of hours it would take the assignees of the issue to complete it. 
-         >[!NOTE]
-         >
-         >Changing the Planned Hours of the issue will not change the issue Planned Completion Date. 
-   </div> -->
+         <table style="table-layout:auto"> 
+         <col> 
+         </col> 
+         <col> 
+         </col> 
+         <tbody> 
+         <tr> 
+            <td role="rowheader">Horas planificadas</td> 
+            <td> <p>Es la cantidad de tiempo real que tardarían los usuarios asignados del problema en completarlo. Escriba el número de horas planificadas para el problema.<br></p> <p><b>NOTA</b></p>  <p>Al cambiar las horas planificadas del problema, no se cambiará la fecha planificada de finalización del problema. </p> </td> 
+         </tr> 
+         <tr data-mc-conditions=""> 
+            <td role="rowheader">Rol de asignado</td> 
+            <td> <p>Seleccione un rol del menú desplegable <strong>Rol de usuario asignado</strong> cuando haya seleccionado una persona como usuario asignado. Esta es la función que el usuario asignado puede desempeñar en este problema. </p> <p><b>Sugerencia</b>
 
+         En el menú desplegable solo aparecen los roles de trabajo asociados con cada usuario asignado en su perfil.</p> </td>
+         </tr> 
+         </tbody> 
+         </table>
+
+
+
+   1. <span class="preview">(Condicional) En el entorno de vista previa, realice una de las siguientes acciones:</span>
+
+      * <span class="preview">Haga clic en **Asignármelo** para asignarse el problema a sí mismo </span>
+      * <span class="preview">Actualizar el campo **Horas planificadas**.</span>
+
+        Las **horas planificadas** son la cantidad de horas que los usuarios asignados del problema necesitarían para completarlo.
+
+        >[!NOTE]
+        >
+        >Al cambiar las horas planificadas del problema, no se cambiará la fecha planificada de finalización del problema.
 
 1. Para quitar asignaciones de todos los problemas, consulte [Asignar problemas](/help/quicksilver/manage-work/issues/manage-issues/assign-issues.md).
 

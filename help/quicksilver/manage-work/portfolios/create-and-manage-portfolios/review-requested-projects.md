@@ -6,14 +6,16 @@ description: Las solicitudes de proyecto se muestran como proyectos con un estad
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 1acfb885-0da3-495d-ba66-e80e339e90de
-source-git-commit: fbe17e50ff161156a0b4b2a8b468b4eb844cae59
+source-git-commit: 7fef704355fad677f2bdf40e630ea0146a9e1d58
 workflow-type: tm+mt
 source-wordcount: '427'
-ht-degree: 98%
+ht-degree: 80%
 
 ---
 
 # Revisar proyectos solicitados
+
+<!--Audited: 10/2025-->
 
 Cuando se presentan varias solicitudes de proyectos para su revisión, la oficina de administración de proyectos o el comité de portafolio pueden reunirse para examinar las solicitudes enviadas y determinar las aprobaciones de solicitudes de proyectos. Las solicitudes de proyecto se muestran como proyectos con un estado de [!UICONTROL Solicitado] en [!DNL Adobe Workfront].
 
@@ -89,7 +91,7 @@ Puede revisar los proyectos solicitados en las siguientes áreas de [!DNL Adobe 
 
 Puede generar un informe de proyectos para ver qué proyectos tienen un estado de [!UICONTROL Solicitado].
 
-Para obtener más información sobre cómo aprobar solicitudes de proyecto mediante la generación de un informe de proyecto, consulte la sección [[!UICONTROL Aprobación del caso comercial mediante la creación de un informe de proyecto]](../../../manage-work/projects/define-a-business-case/approve-business-case.md#build-a-report) en [Aprobar un caso comercial](../../../manage-work/projects/define-a-business-case/approve-business-case.md). 
+Para obtener más información sobre cómo aprobar solicitudes de proyecto mediante la generación de un informe de proyecto, vea la sección [[!UICONTROL Aprobación del caso comercial mediante la generación de un informe de proyecto]](../../../manage-work/projects/define-a-business-case/approve-business-case.md#build-a-report) en [Aprobar un caso comercial](../../../manage-work/projects/define-a-business-case/approve-business-case.md).
 
 ## Revisar los proyectos solicitados dentro de un portafolio
 
@@ -101,7 +103,7 @@ Para obtener más información sobre cómo aprobar solicitudes de proyecto media
 
    >[!TIP]
    >
-   > Además de tener un estado de **[!UICONTROL Solicitado]**, los proyectos deben estar asociados al portafolio seleccionado para que se muestren en esta lista.
+   > Además de tener un estado de **[!UICONTROL Solicitado]**, los proyectos deben estar asociados con el Portfolio seleccionado para mostrarlos en esta lista.
 
 1. Haga clic en el nombre de un proyecto de la lista para abrirlo.
 1. Haga clic en **[!UICONTROL Detalles del proyecto]** en el panel izquierdo.
@@ -117,13 +119,13 @@ Para obtener más información sobre cómo aprobar solicitudes de proyecto media
 
      >[!NOTE]
      >
-     >No hay notificaciones que avisen al usuario que envió la aprobación del caso empresarial sobre si su solicitud de proyecto se aprobó o rechazó. 
+     >No hay notificaciones que avisen al usuario que envió la aprobación del caso empresarial sobre si su solicitud de proyecto se aprobó o rechazó.
 
      O
 
    * Cambie el estado del proyecto a cualquier otro estado en el menú desplegable **[!UICONTROL Estado]**.
 
      ![Cambiar el estado del proyecto del menú desplegable](assets/project-status-change-from-drop-down-in-header-nwe-350x294.png)
- 
 
- 
+
+
