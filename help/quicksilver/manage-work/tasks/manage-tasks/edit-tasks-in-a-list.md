@@ -6,7 +6,7 @@ description: Puede editar la información de las tareas en una lista de tareas e
 author: Alina
 feature: Work Management
 exl-id: 2af81907-3657-459e-b780-65983e224ca8
-source-git-commit: 6ded38ef130fbcdde8d680f77f6db38fbd81efb4
+source-git-commit: ac5552f1c235f595b1c0d2558fcf88b1e03f5a8e
 workflow-type: tm+mt
 source-wordcount: '2764'
 ht-degree: 69%
@@ -15,12 +15,12 @@ ht-degree: 69%
 
 # Edición de tareas en una lista {#edit-tasks-in-a-list}
 
-<!-- Audited: 5/2025 -->
+<!-- Audited: 10/2025 -->
 
 <!--
 <div class="preview"> 
 
-The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with a week from the Preview release.      
 
 For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
 
@@ -533,9 +533,7 @@ Puede editar varias tareas a la vez. Asegúrese de tener permisos de administrac
 1. (Opcional) En la sección Formularios personalizados, seleccione la opción **Volver a calcular expresiones personalizadas** para asegurarse de que todos los campos personalizados calculados incluidos en los formularios personalizados adjuntos a las tareas seleccionadas estén actualizados.
 
    <!--
-   <div class="preview">
-
-   1. In the Preview environment, with all the tasks selected in the list, click the **More** menu ![More menu](assets/more-icon.png) at the top of the task list, then click **Recalculate Expressions**. This is only available when you automatically save your changes. 
+   1. <span class="preview">In the Preview environment, with all the tasks selected in the list, click the **More** menu ![More menu](assets/more-icon.png) at the top of the task list, then click **Recalculate Expressions**. This is only available when you automatically save your changes. </span>
 
    -->
 1. Haga clic en **Guardar cambios**. Todos los cambios que haya realizado estarán ahora visibles en todas las tareas seleccionadas.

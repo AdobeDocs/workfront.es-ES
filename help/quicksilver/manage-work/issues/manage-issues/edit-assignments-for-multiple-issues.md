@@ -6,10 +6,10 @@ description: Modificar asignaciones de usuarios para varios problemas en una lis
 author: Lisa
 feature: Work Management
 exl-id: e1e75027-1847-44cf-afeb-b19394dc3ea5
-source-git-commit: 7aa420946115fc612ad1d9e310583e5453ae0678
+source-git-commit: ac5552f1c235f595b1c0d2558fcf88b1e03f5a8e
 workflow-type: tm+mt
-source-wordcount: '749'
-ht-degree: 97%
+source-wordcount: '916'
+ht-degree: 56%
 
 ---
 
@@ -66,11 +66,11 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <h2>When to modify user assignments on issues</h2>
-<p>(NOTE:&nbsp;drafted and moved to the overview article: Modify issue assignments overview)</p>
-<p>You might want to modify the user assignments for multiple issues for a variety of&nbsp;reasons, including the following:</p>
+<p>(NOTE:  drafted and moved to the overview article: Modify issue assignments overview)</p>
+<p>You might want to modify the user assignments for multiple issues for a variety of  reasons, including the following:</p>
 <ul>
-<li>Users join or leave&nbsp;your team</li>
-<li>A user takes a vacation that extends beyond the issue&nbsp;due dates</li>
+<li>Users join or leave  your team</li>
+<li>A user takes a vacation that extends beyond the issue  due dates</li>
 <li>A specific role or user is set as the assignee for multiple issues and you want to quickly modify all items to be assigned to a different user or role</li>
 </ul>
 </div>
@@ -81,40 +81,35 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 1. Vaya a la lista de problemas que contiene los problemas cuyas asignaciones desea modificar.
 1. (Opcional) Cree un filtro para mostrar solo los problemas asignados al usuario asignado que desee modificar.
 
-   Por ejemplo, puede crear un filtro para mostrar solo los problemas con una función específica como usuario asignado. A continuación, puede reemplazar la función por un usuario específico. Haga lo siguiente:
+   Por ejemplo, puede crear un filtro para mostrar solo los problemas con una función específica como usuario asignado.  A continuación, puede reemplazar la función por un usuario específico. Haga lo siguiente:
 
-   1. Haga clic en la lista desplegable **Filtro** y luego haga clic en **Nuevo filtro**.
+   1. Haga clic en la lista desplegable **Filtros** y luego haga clic en **Nuevo filtro**.
 
-      Aparece el cuadro de diálogo Nuevo filtro.
-
-   1. Haga clic en **Añadir una regla de filtro.**
-   1. Para filtrar por una función específica, expanda **Funciones de la asignación,** y luego haga clic en **ID.**
-
-      O
-
-      Para filtrar por un usuario específico, expanda **Usuarios de la asignación,** y luego haga clic en **ID.**
+   1. En el primer campo, empiece a escribir **Roles de asignación** y elija **Roles de asignación: Nombre** en la lista.
+   1. Seleccione **Es cualquiera de** en el menú desplegable de modificadores y, a continuación, empiece a escribir el nombre de un rol y selecciónelo cuando se muestre en la lista. Puede escribir varias funciones.
 
       >[!TIP]
       >
-      >No utilice **Asignado a**, ya que este campo hace referencia solamente al propietario del problema y no a todos los usuarios asignados.
+      >No use **Asignado a** porque este campo hace referencia solamente al Propietario del problema y no a todas las personas asignadas.
 
-   1. En la lista desplegable, seleccione **Igual** como calificador de filtro.
-   1. Empiece a escribir el nombre del usuario o función que desea filtrar y, a continuación, haga clic sobre el nombre cuando aparezca en la lista desplegable.
-   1. Haga clic en **Guardar filtro.**
+      La lista de problemas filtra automáticamente los criterios de filtro.
+   1. (Opcional) Haga clic en **Guardar como nuevo** y después en **Guardar**.
 
 1. Seleccione los problemas para los que desea modificar las asignaciones y, a continuación, haga clic en el icono **Editar** ![Editar icono](assets/qs-edit-icon.png).
 
-   Se muestra la opción **Editar problemas**. Los elementos editados se muestran en la esquina superior izquierda de la página.
+   Se muestra la opción **Editar problemas**. El número de elementos seleccionados se muestra en la esquina superior izquierda de la página.
 
-1. Vaya a la sección **Asignaciones** y, a continuación, seleccione **Usuario asignado**.
+1. (Condicional) En el entorno Producción, haga lo siguiente:
 
-   ![Área de asignaciones](assets/classic-assignmens-area-on-edit-box-350x119.png)
+   1. Vaya a la sección **Asignaciones** y, a continuación, seleccione **Usuario asignado**.
 
-1. Realice una de las siguientes acciones:
+      ![Área de asignaciones](assets/classic-assignmens-area-on-edit-box-350x119.png)
 
-   1. Para añadir un nuevo usuario asignado:
+   1. Realice una de las siguientes acciones:
 
-      1. Empiece a escribir el nombre de un usuario, función o equipo y, a continuación, selecciónelo cuando aparezca en la lista. La asignación se añade y no sustituye a las asignaciones actuales en los problemas seleccionados.
+      1. Para añadir un nuevo usuario asignado:
+
+         1. Empiece a escribir el nombre de un usuario, función o equipo y, a continuación, selecciónelo cuando aparezca en la lista. La asignación se añade y no sustituye a las asignaciones actuales en los problemas seleccionados.
 
          >[!TIP]
          >
@@ -127,25 +122,54 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 
          Se muestra la información común a todos los problemas seleccionados. Por ejemplo, si se asigna el mismo usuario a todos los problemas, ese usuario se muestra en la columna **Usuario asignado**. Si la información no es común a los problemas seleccionados, no se muestra ninguna información.
 
-   1. Para quitar usuarios asignados individuales:
+      1. Para quitar usuarios asignados individuales:
 
-      1. Haga clic en el **icono X** junto al nombre del usuario asignado que desee eliminar si este aparece en la lista Asignaciones.
+         1. Haga clic en el **icono X** junto al nombre del usuario asignado que desee eliminar si este aparece en la lista Asignaciones.
 
-         O
+            O
 
-         (Condicional) Si el usuario asignado que desea quitar no se muestra en la sección Asignaciones porque solo se le ha asignado a algunos de los problemas seleccionados, haga clic en **Quitar usuario asignado** y empiece a escribir el nombre del usuario asignado que desea quitar; a continuación, haga clic en el nombre cuando aparezca en la lista desplegable.
+            Si el usuario asignado que desea eliminar no aparece en la sección Asignaciones porque el usuario asignado solo está asignado a algunos de los problemas que ha seleccionado, haga clic en **Quitar usuario asignado** y empiece a escribir el nombre del usuario asignado que desea eliminar; a continuación, haga clic en el nombre cuando aparezca en la lista desplegable.
 
-      1. Vuelva a hacer clic en **Quitar usuario asignado** para añadir otro que quiera quitar.
+         1. Vuelva a hacer clic en **Quitar usuario asignado** para agregar otro usuario asignado que eliminar.
 
-   1. Para quitar todos los usuarios asignados existentes:
+      1. Para quitar todos los usuarios asignados existentes:
 
-      1. Haga clic en **Quitar todos los usuarios asignados existentes** y, a continuación, en **Sí, eliminar todos los usuarios asignados**.
+         1. Haga clic en **Quitar todos los usuarios asignados existentes** y, a continuación, en **Sí, eliminar todos los usuarios asignados**.
 
-         Esta acción elimina no solo los usuarios asignados comunes (los usuarios asignados que se muestran en el cuadro de diálogo de edición), sino también todos los usuarios asignados de todos los problemas seleccionados.
+            Esto elimina no solo los usuarios asignados comunes (los usuarios asignados que se muestran en el cuadro de diálogo de edición), sino también todos los usuarios asignados de todos los problemas seleccionados.
 
-1. (Opcional) Modifique cualquiera de las siguientes opciones para los usuarios asignados que ha seleccionado para asociar a los problemas:
+         1. (Opcional) Modifique cualquiera de las siguientes opciones para los usuarios asignados que ha seleccionado para asociar a los problemas:
 
-   * **Propietario de problemas:** seleccione el botón de opción para indicar qué usuario asignado se ha designado como propietario de problemas. Si se deja sin seleccionar, Adobe Workfront designa como propietario de problemas al primer usuario asignado. Esto no está disponible para asignaciones de equipo.
-   * **Función de usuario asignado**: seleccione una función de la lista desplegable. Si se deja sin seleccionar, Workfront selecciona automáticamente la función principal del usuario.
+            * **Propietario del problema:** Seleccione el botón de opción para indicar qué usuario asignado está designado como Propietario del problema. Si se deja sin seleccionar, Adobe Workfront designa como propietario de problemas al primer usuario asignado. Esto no está disponible para asignaciones de equipo.
+            * **Función de usuario asignado**: seleccione una función de la lista desplegable. Si se deja sin seleccionar, Workfront selecciona automáticamente la función principal del usuario.
 
-1. Haga clic en **Guardar cambios**.
+      1. Haga clic en **Guardar cambios**.
+
+1. <span class="preview">En el entorno de vista previa, haga lo siguiente:</span>
+
+   1. <span class="preview">Haga clic en **Asignaciones** en el panel izquierdo y, a continuación, haga clic en el icono **x** junto al usuario asignado que desee eliminar. </span>
+
+      >[!TIP]
+      >
+      ><span class="preview">Solo se muestran las personas asignadas a todos los problemas seleccionados en el área de **Asignaciones**. </span>
+
+      ![Área de asignaciones en problemas de edición masiva](assets/assignments-area-on-bulk-edit-issues.png)
+
+   1. <span class="preview">Empiece a escribir el nombre de un usuario, rol o equipo para agregar usuarios asignados a todos los problemas seleccionados. </span>
+
+      >[!TIP]
+      >
+      >Puede asignar varios usuarios, funciones o equipos. Solo puede asignar usuarios, funciones y equipos activos.
+      >
+      >Si se asignó un usuario, una función o un equipo antes de desactivarlos, permanecen asignados al elemento de trabajo. En este caso, se recomienda lo siguiente:
+      >
+      >* Reasignar el elemento de trabajo a los recursos activos.
+      >* Asocie los usuarios de un equipo desactivado a un equipo activo y reasigne el elemento de trabajo al equipo activo.
+
+      <span class="preview">Los usuarios asignados agregados se agregan a los existentes. No reemplazan a los existentes para cada problema seleccionado. </span>
+   1. <span class="preview">(Opcional) Haga clic en **Asignármelo** para asignarse todos los problemas.</span>
+   1. <span class="preview">Haga clic en **Guardar**. </span>
+
+
+
+

@@ -7,16 +7,16 @@ author: Lisa
 feature: Work Management, Tasks
 role: User
 exl-id: 611b136e-2c3f-4eac-9d75-e8c12e06148d
-source-git-commit: 6ded38ef130fbcdde8d680f77f6db38fbd81efb4
+source-git-commit: ac5552f1c235f595b1c0d2558fcf88b1e03f5a8e
 workflow-type: tm+mt
-source-wordcount: '1820'
-ht-degree: 95%
+source-wordcount: '1829'
+ht-degree: 94%
 
 ---
 
 # Asignar tareas
 
-<!--Audited: 07/2024-->
+<!--Audited: 10/2025-->
 
 <!--
 <div class="preview"> 
@@ -175,7 +175,7 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
 1. Haga clic en **Guardar**.
 1. (Opcional y condicional) Si hizo clic en **Opciones avanzadadas**, haga clic en el icono **X** que aparece junto al nombre de la asignación en el panel derecho de la tarea para quitar una asignación.
 
-## Asignar una tarea de una lista
+## Asignar una tarea a una lista al editarla en línea
 
 Puede asignar las tareas de una lista o un informe cuando cualquiera de los campos de asignación esté visible en la vista de la lista. Es una forma más rápida de asignar tareas. Este artículo describe cómo modificar las asignaciones para una tarea de una lista. Para obtener información sobre cómo modificar varias asignaciones para varias tareas de una lista, consulte [Modificar varias asignaciones de usuario en una lista de tareas](../../../manage-work/tasks/assign-tasks/modify-multiple-assignments-in-task-list.md).
 
@@ -224,7 +224,7 @@ Para asignar tareas de una lista:
 
 1. Después de añadir las personas asignadas a la tarea, pulse Intro o haga clic en cualquier lugar de la página para guardar los cambios si selecciona Autoguardar. De lo contrario, haga clic en **Guardar**.
 
-## Asignar varias tareas a un usuario
+## Asignar varias tareas a un usuario de forma masiva desde una lista
 
 <!--Assigning multiple tasks to a user is different, depending on what environment you use to assign the tasks. 
 
