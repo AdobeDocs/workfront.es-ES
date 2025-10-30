@@ -4,18 +4,20 @@ user-type: administrator
 product-area: system-administration;templates;setup
 navigation-topic: layout-templates
 description: Puede utilizar una plantilla de diseño para configurar lo que ven los usuarios al abrir Inicio en Adobe Workfront.
-author: Lisa
+author: Lisa and Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: b9997e79-a893-49dd-8c90-290399b2d2f7
-source-git-commit: 76e32fa6b87583d2b8c296045da731afdb6d1f9a
+source-git-commit: a561620e218cafc0af861d2b157b8dc7c83dd7ed
 workflow-type: tm+mt
-source-wordcount: '828'
-ht-degree: 37%
+source-wordcount: '862'
+ht-degree: 35%
 
 ---
 
-# Personalizar la página de inicio mediante una plantilla de diseño
+# Personalizar el Inicio con una plantilla de diseño
+
+{{preview-fast-release-general}}
 
 Puede utilizar una plantilla de diseño para configurar lo que ven los usuarios la primera vez que abren Inicio.
 
@@ -134,11 +136,11 @@ Para personalizar la página de inicio mediante una plantilla de diseño:
    >
    >* Las opciones Filtro, Columnas y Grupo están vinculadas a las opciones de personalización de la lista de la plantilla de diseño. Los cambios realizados aquí también se aplicarán a esa configuración.
    >* Los usuarios deben tener al menos acceso de creación a vistas para que la configuración de la columna del administrador se aplique correctamente a sus páginas de inicio.
-   ></p>
-   >   <li><p>Defina un filtro o un grupo predeterminado para el widget pasando el puntero sobre una opción y haciendo clic en <b>Establecer como predeterminado</b>. El valor predeterminado actual muestra un distintivo <b>Default</b> azul a la derecha.</p></li>
-   >   <li><p>Agregue un filtro, columna o grupo existente a la lista de opciones disponibles haciendo clic en el botón del signo más situado en la parte inferior de cada lista para agregar una opción a esa lista. Tenga en cuenta que solo los Filtros, Campos (para columnas) o Grupos existentes se pueden agregar de esta manera.</p></li>
-   >   </ul>
-   >   <p>
+   </p>
+      <li><p>Defina un filtro o un grupo predeterminado para el widget pasando el puntero sobre una opción y haciendo clic en <b>Establecer como predeterminado</b>. El valor predeterminado actual muestra un distintivo <b>Default</b> azul a la derecha.</p></li>
+      <li><p>Agregue un filtro, columna o grupo existente a la lista de opciones disponibles haciendo clic en el botón del signo más situado en la parte inferior de cada lista para agregar una opción a esa lista. Tenga en cuenta que solo los Filtros, Campos (para columnas) o Grupos existentes se pueden agregar de esta manera.</p></li>
+      </ul>
+      <p>
 
    >[!NOTE]
    >
@@ -150,7 +152,13 @@ Para personalizar la página de inicio mediante una plantilla de diseño:
       </tbody> 
       </table>
 
-1. Siga personalizando la plantilla de diseño.
+1. <span class="preview">En el entorno de vista previa: continúe personalizando la plantilla de diseño. Puede hacer clic en **Aplicar** en cualquier momento para guardar el progreso.</span>
+
+   <span class="preview">O</span>
+
+   <span class="preview">Si ha terminado de personalizar, haga clic en **Guardar y cerrar**.</span>
+
+1. En el entorno de producción: continúe personalizando la plantilla de diseño.
 
    O
 

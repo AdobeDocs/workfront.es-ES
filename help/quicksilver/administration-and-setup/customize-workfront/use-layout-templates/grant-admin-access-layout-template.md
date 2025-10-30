@@ -8,14 +8,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 066a55ef-1904-4678-8866-c59428f78bc1
-source-git-commit: 76e32fa6b87583d2b8c296045da731afdb6d1f9a
+source-git-commit: a561620e218cafc0af861d2b157b8dc7c83dd7ed
 workflow-type: tm+mt
-source-wordcount: '421'
-ht-degree: 99%
+source-wordcount: '423'
+ht-degree: 94%
 
 ---
 
 # Concesión de acceso administrativo a una plantilla de diseño
+
+{{preview-fast-release-general}}
 
 Como administrador de Adobe Workfront, puede otorgar acceso administrativo a una plantilla de diseño a los administradores de grupo de un grupo en particular para que puedan editar la plantilla. Esto no asigna la plantilla a los usuarios del grupo.
 
@@ -69,4 +71,4 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
    >   
    >* Si no concede acceso administrativo a los administradores del grupo en un grupo determinado, todos los usuarios que puedan editar cuentas de usuario tendrán acceso administrativo a la plantilla de diseño. Algunos administradores de Workfront eligen deliberadamente no conceder acceso administrativo a una plantilla de diseño para convertirla en una plantilla de diseño de nivel del sistema.
 
-1. Puede hacer clic en **Guardar** en cualquier momento para guardar el progreso y luego seguir modificando la plantilla más adelante.
+1. Puede hacer clic en <span class="preview">**Aplicar**</span> o **Guardar** en cualquier momento para guardar el progreso y luego seguir modificando la plantilla más adelante.

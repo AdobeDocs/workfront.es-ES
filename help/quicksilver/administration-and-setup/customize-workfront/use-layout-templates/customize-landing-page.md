@@ -8,14 +8,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 57a1046a-434a-4453-a101-c5f0a16e079e
-source-git-commit: 76e32fa6b87583d2b8c296045da731afdb6d1f9a
+source-git-commit: a561620e218cafc0af861d2b157b8dc7c83dd7ed
 workflow-type: tm+mt
-source-wordcount: '398'
-ht-degree: 87%
+source-wordcount: '432'
+ht-degree: 79%
 
 ---
 
 # Personalizar la página de destino con una plantilla de diseño
+
+{{preview-fast-release-general}}
 
 Como administrador de Adobe Workfront, puede utilizar una plantilla de diseño para especificar el área que desea que los usuarios vean cada vez que inician sesión en Workfront.
 
@@ -101,12 +103,18 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
    >
    >* Para obtener información sobre Workfront Planning, consulte [Información general sobre Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
 
-1. Siga personalizando la plantilla de diseño.
+1. <span class="preview">En el entorno de vista previa: continúe personalizando la plantilla de diseño. Puede hacer clic en **Aplicar** en cualquier momento para guardar el progreso.</span>
+
+   <span class="preview">O</span>
+
+   <span class="preview">Si ha terminado de personalizar, haga clic en **Guardar y cerrar**.</span>
+
+1. En el entorno de producción: continúe personalizando la plantilla de diseño.
 
    O
 
-   Si ha finalizado la personalización, haga clic en **Guardar**.
+   Si ha terminado la personalización, haga clic en **Guardar**.
 
    >[!TIP]
    >
-   >Puede hacer clic en Guardar en cualquier momento para guardar el progreso y seguir modificando la plantilla más adelante.
+   >Puede hacer clic en **Guardar** en cualquier momento para guardar el progreso y luego seguir modificando la plantilla más adelante.

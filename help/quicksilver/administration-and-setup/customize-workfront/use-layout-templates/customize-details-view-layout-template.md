@@ -8,16 +8,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 1474e1dd-9b10-476e-9526-6577efa8d1c2
-source-git-commit: 76e32fa6b87583d2b8c296045da731afdb6d1f9a
+source-git-commit: a561620e218cafc0af861d2b157b8dc7c83dd7ed
 workflow-type: tm+mt
-source-wordcount: '580'
-ht-degree: 74%
+source-wordcount: '614'
+ht-degree: 69%
 
 ---
 
 # Personalizar la vista de detalles con una plantilla de diseño
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers in the Preview environment and for a select group of customers in the Production environment.</span>-->
+{{preview-fast-release-general}}
 
 Como administrador de Adobe Workfront, puede usar una plantilla de diseño para determinar qué información aparece cuando un usuario hace clic en el icono de detalles ![icono de detalles](assets/project-details-icon.png) en el panel izquierdo mientras ve una tarea, un problema, un documento, un programa o un portafolio.
 
@@ -114,12 +114,18 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 
    ![Vista de detalles en la plantilla de diseño](assets/layout-template-details-view.png)
 
-1. Siga personalizando la plantilla de diseño.
+1. <span class="preview">En el entorno de vista previa: continúe personalizando la plantilla de diseño. Puede hacer clic en **Aplicar** en cualquier momento para guardar el progreso.</span>
+
+   <span class="preview">O</span>
+
+   <span class="preview">Si ha terminado de personalizar, haga clic en **Guardar y cerrar**.</span>
+
+1. En el entorno de producción: continúe personalizando la plantilla de diseño.
 
    O
 
-   Si ha finalizado la personalización, haga clic en **Guardar**.
+   Si ha terminado la personalización, haga clic en **Guardar**.
 
    >[!TIP]
    >
-   >Puede hacer clic en Guardar en cualquier momento para guardar el progreso y seguir modificando la plantilla más adelante.
+   >Puede hacer clic en **Guardar** en cualquier momento para guardar el progreso y luego seguir modificando la plantilla más adelante.

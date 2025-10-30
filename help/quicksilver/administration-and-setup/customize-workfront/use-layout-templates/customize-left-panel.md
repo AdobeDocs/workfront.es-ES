@@ -8,14 +8,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: b100ea35-e045-4021-b5be-2c9071b381da
-source-git-commit: 18c39c5b1959c31b6fd0018476b48643b4b15021
+source-git-commit: a561620e218cafc0af861d2b157b8dc7c83dd7ed
 workflow-type: tm+mt
-source-wordcount: '1104'
+source-wordcount: '1132'
 ht-degree: 51%
 
 ---
 
 # Personalizar el panel izquierdo con una plantilla de diseño
+
+{{preview-fast-release-general}}
 
 <!--Audited: 10/2024-->
 
@@ -237,12 +239,18 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
    >
    >Para obtener información sobre los paneles de control, consulte [Paneles de control](../../../reports-and-dashboards/dashboards/dashboards-overview.md).
 
-1. Siga personalizando la plantilla de diseño.
+1. <span class="preview">En el entorno de vista previa: continúe personalizando la plantilla de diseño. Puede hacer clic en **Aplicar** en cualquier momento para guardar el progreso.</span>
+
+   <span class="preview">O</span>
+
+   <span class="preview">Si ha terminado de personalizar, haga clic en **Guardar y cerrar**.</span>
+
+1. En el entorno de producción: continúe personalizando la plantilla de diseño.
 
    O
 
-   Si ha finalizado la personalización, haga clic en **[!UICONTROL Guardar]**.
+   Si ha terminado la personalización, haga clic en **Guardar**.
 
    >[!TIP]
    >
-   >Puede hacer clic en [!UICONTROL **Guardar**] en cualquier momento para guardar el progreso, lo que cierra el editor de plantillas de diseño y, a continuación, seguir modificando la plantilla más adelante.
+   >Puede hacer clic en **Guardar** en cualquier momento para guardar el progreso y luego seguir modificando la plantilla más adelante.

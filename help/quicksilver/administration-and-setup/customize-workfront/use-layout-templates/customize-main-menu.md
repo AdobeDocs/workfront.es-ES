@@ -8,14 +8,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: d4f02102-0378-472f-9ebb-753502ec048b
-source-git-commit: 39b3ecde744625c070a5c4378938e297f50feeaa
+source-git-commit: a561620e218cafc0af861d2b157b8dc7c83dd7ed
 workflow-type: tm+mt
-source-wordcount: '661'
-ht-degree: 39%
+source-wordcount: '695'
+ht-degree: 36%
 
 ---
 
 # Personalizar el menú principal mediante una plantilla de diseño
+
+{{preview-fast-release-general}}
 
 <!--Audited: 01/2024-->
 
@@ -131,7 +133,13 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 
    También puede hacer clic en **Cancelar** en cualquier momento si desea descartar los cambios.
 
-1. Siga personalizando la plantilla de diseño.
+1. <span class="preview">En el entorno de vista previa: continúe personalizando la plantilla de diseño. Puede hacer clic en **Aplicar** en cualquier momento para guardar el progreso.</span>
+
+   <span class="preview">O</span>
+
+   <span class="preview">Si ha terminado de personalizar, haga clic en **Guardar y cerrar**.</span>
+
+1. En el entorno de producción: continúe personalizando la plantilla de diseño.
 
    O
 

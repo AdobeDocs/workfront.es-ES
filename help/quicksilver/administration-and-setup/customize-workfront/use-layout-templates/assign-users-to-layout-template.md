@@ -8,14 +8,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: a2915f3a-071f-4e9f-88c9-338bf765f418
-source-git-commit: 76e32fa6b87583d2b8c296045da731afdb6d1f9a
+source-git-commit: a561620e218cafc0af861d2b157b8dc7c83dd7ed
 workflow-type: tm+mt
-source-wordcount: '857'
+source-wordcount: '861'
 ht-degree: 13%
 
 ---
 
 # Asignar usuarios a una plantilla de diseño
+
+{{preview-fast-release-general}}
 
 Puede asignar una plantilla de diseño que haya creado a cualquier usuario, rol, equipo o grupo que necesite utilizarla.
 
@@ -78,7 +80,7 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 
    Puede asignar hasta 100 usuarios a la vez.
 
-1. Haz clic en **Listo** y luego haz clic en **Guardar** en la esquina inferior izquierda.
+1. Haz clic en **Listo** y luego haz clic en **Guardar** o <span class="preview">**Guardar y cerrar**</span> en la esquina inferior izquierda.
 
    Este paso completa el proceso de creación y asignación de una plantilla de diseño.
 
