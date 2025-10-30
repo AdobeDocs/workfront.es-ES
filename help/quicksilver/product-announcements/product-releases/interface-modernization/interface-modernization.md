@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: bf4764cc1e20bf87fb1069ca432ee6303096313c
+source-git-commit: 7fb12a3fbdad661baf2d0ad472ce8017e178ddef
 workflow-type: tm+mt
-source-wordcount: '8788'
+source-wordcount: '8978'
 ht-degree: 2%
 
 ---
@@ -33,6 +33,54 @@ Hemos actualizado los cuadros de diálogo para agregar y editar compañías con 
 Para obtener más información, consulte [Crear y editar empresas](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md).
 
 ## Proyectos
+
+### Actualización de la interfaz al convertir una tarea en un proyecto mediante una plantilla
+
+**Versión preliminar: 30 de octubre de 2025; versión de producción: a partir del 6 de noviembre de 2025**
+
+Hemos actualizado el cuadro Convertir en proyecto al convertir una tarea en un proyecto mediante una plantilla. El diseño del cuadro ahora coincide con el cuadro Editar proyecto.
+
+Para obtener más información, vea [Convertir una tarea en un proyecto](/help/quicksilver/manage-work/tasks/manage-tasks/convert-task-to-project.md).
+
+<!--### New experience when bulk editing and single- or bulk-assigning tasks
+
+**Preview release: October 30, 2025; Production release: Starting on November 6, 2025**
+
+We have updated the Edit Tasks box when editing single tasks or editing them in bulk. The following changes are included in this update:
+
+* The Recalculate Custom Expressions option has been removed when updating tasks in bulk and has been added to the More menu in a task list, after selecting multiple tasks.
+
+* There is a new experience for assigning resources to tasks. This is now available both when editing one task or editing several tasks in bulk. The following fields have been removed from the Edit tasks box:
+
+* Allocations
+* Owner or Task Owner
+* Assignee's Role
+
+You can still find the removed fields when making advanced assignments on tasks.
+
+You will have a chance to switch between the old and the new experience for editing tasks for a limited time.
+
+For information, see [Edit tasks](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md).-->
+
+### Nueva experiencia al editar por lotes y problemas de asignación individual o por lotes
+
+**Versión preliminar: 30 de octubre de 2025; versión de producción: a partir del 6 de noviembre de 2025**
+
+Hemos actualizado la casilla Editar problemas al editar problemas únicos o editarlos por lotes.
+
+En esta actualización se incluyen los siguientes cambios:
+
+* La opción Recalcular expresiones personalizadas se ha eliminado al actualizar problemas de forma masiva. La opción se ha añadido al menú Más en una lista de problemas, después de seleccionar varios problemas.
+
+* Hay una nueva experiencia para asignar recursos a los problemas. Esto ya está disponible cuando se edita un problema o se editan varios problemas de forma masiva. Los siguientes campos se han eliminado del cuadro Editar problemas:
+
+* Asignaciones
+* Propietario o propietario del problema
+* Rol de asignado
+
+Puede actualizar los campos eliminados al realizar asignaciones avanzadas en problemas.
+
+Para obtener más información, consulte [Editar problemas](/help/quicksilver/manage-work/issues/manage-issues/edit-issues.md).
 
 ### Actualizaciones de la interfaz para el cuadro Nuevo y Editar riesgo en un panel personalizado de un proyecto
 

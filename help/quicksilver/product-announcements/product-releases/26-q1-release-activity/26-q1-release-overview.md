@@ -4,10 +4,10 @@ description: En esta página se ofrece información sobre la funcionalidad inclu
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: faaea3fef9be0fb03c2ed4991bad575f23b08559
+source-git-commit: 1c4f81babf6cdc6579fa633c1a776c151219a6bf
 workflow-type: tm+mt
-source-wordcount: '832'
-ht-degree: 29%
+source-wordcount: '1268'
+ht-degree: 22%
 
 ---
 
@@ -37,6 +37,88 @@ The <add release> release webinar will be held on <date>. You can [register for 
 
 ## Mejoras de Adobe Workfront
 
+* [Mejoras en el administrador](#administrator-enhancements)
+* [Mejoras de documentos y aprobaciones](#documents-and-approvals-enhancements)
+* [Otras mejoras](#other-enhancements)
+
+### Mejoras en el administrador
+
+<table style="table-layout:auto">
+  <tbody>
+   <tr>
+        <td><strong>Característica</strong>
+        </td>
+        <td><strong>Vista previa</strong></td>
+        <td><strong>Liberación rápida</strong></td>
+        <td><strong>Trimestralmente</strong></td>
+    </tr>
+     <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Actualizaciones en los nombres de los botones al editar una plantilla de diseño</a>
+            <p>Para mantener una mayor coherencia con otras áreas de la configuración, como el diseñador de formularios personalizado, los botones que ve al editar una plantilla de diseño han cambiado a Aplicar, Guardar y cerrar y Cancelar. La nueva opción, Aplicar, permite guardar los cambios realizados en la plantilla de diseño y seguir editando. Anteriormente, las opciones disponibles eran Guardar y Cancelar. </p>
+        </td>
+        <td>viernes, 30 de octubre de 2025</td>
+        <td>viernes, 13 de noviembre de 2025</td>
+        <td>viernes, 15 de enero de 2026</td>
+    </tr>  
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-admin-and-setup.md" class="MCXref xref" xrefformat="{para}"> Se mejoró la administración de campos con el indicador Activo en los campos personalizados</a>
+            <p>Cuando hay un gran número de campos personalizados en el sistema, la administración de esos campos en formularios e informes personalizados puede resultar difícil. Ahora puede marcar los campos personalizados como inactivos con la nueva marca <b>Active</b>. Este indicador está disponible cuando se trabaja con un campo en un formulario personalizado o cuando se agrega o edita un campo de la lista Campos. </p>
+        </td>
+        <td>viernes, 30 de octubre de 2025</td>
+        <td>viernes, 13 de noviembre de 2025</td>
+        <td>viernes, 15 de enero de 2026</td>
+    </tr>   
+  </tbody>
+</table>
+
+### Mejoras de documentos y aprobaciones
+
+<table style="table-layout:auto">
+  <tbody>
+   <tr>
+        <td><strong>Función</strong>
+        </td>
+        <td><strong>Vista previa</strong></td>
+        <td><strong>Liberación rápida</strong></td>
+        <td><strong>Trimestralmente</strong></td>
+    </tr>
+     <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-documents-approvals.md" class="MCXref xref" xrefformat="{para}">Adobe Experience Manager ya está disponible con la integración Frame.io <p>[!BADGE Off schedule]{type=Neutral}</p> </a>
+            <p>Ahora puede utilizar Experience Manager Assets​ para administrar y almacenar los recursos digitales que han pasado por el ciclo de revisión y aprobación. Esta integración le permite aprovechar las capacidades de Adobe Experience Manager, Frame.io y Workfront para optimizar los procesos de colaboración y administración de contenido. </p>
+        </td>
+        <td>viernes, 30 de octubre de 2025</td>
+        <td>viernes, 30 de octubre de 2025</td>
+        <td>viernes, 30 de octubre de 2025</td>
+    </tr>   
+  </tbody>
+</table>
+
+### Mejoras en la integración
+
+<table style="table-layout:auto">
+  <tbody>
+   <tr>
+        <td><strong>Característica</strong>
+        </td>
+        <td><strong>Vista previa</strong></td>
+        <td><strong>Liberación rápida</strong></td>
+        <td><strong>Trimestralmente</strong></td>
+    </tr>
+     <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-integrations.md" class="MCXref xref" xrefformat="{para}">Ya está disponible la nueva versión de la integración de Salesforce </a>
+            <p>Para estar al día con los cambios recientes en la API de Workfront, hemos creado una nueva integración de Salesforce. La nueva integración presenta la misma funcionalidad que la versión anterior y se actualizó para evitar perder la funcionalidad obsoleta en la API.</p>
+        </td>
+        <td>viernes, 30 de octubre de 2025</td>
+        <td>viernes, 30 de octubre de 2025</td>
+        <td>viernes, 30 de octubre de 2025</td>
+    </tr>   
+  </tbody>
+</table>
+
 ### Otras mejoras
 
 <table>
@@ -52,7 +134,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
     </tr>   
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">Actualizaciones de aspecto durante el cuarto trimestre de 2025</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-other.md" class="MCXref xref" xrefformat="{para}">Actualizaciones de aspecto durante el cuarto trimestre de 2025</a>
                         <p>En el periodo de tiempo del cuarto trimestre de 2025 se realizarán actualizaciones menores del aspecto de varias áreas de la aplicación de Adobe Workfront. </p>
                     </td>
                     <td><p>Durante el cuarto trimestre de 2025<br /></p>
@@ -61,14 +143,28 @@ The <add release> release webinar will be held on <date>. You can [register for 
                         </ul>
                     </td>
                 </tr>
+                <tr>
+                 <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-other.md" class="MCXref xref" xrefformat="{para}"> límites de selección en campos de selección múltiple</a>
+              <p>Los campos que permiten varias selecciones, como casillas de verificación y listas desplegables de selección múltiple, ahora están limitados a 5000 selecciones cuando un usuario rellena el formulario.</p>
+             </td>
+        <td>viernes, 30 de octubre de 2025</td>
+        <td>viernes, 13 de noviembre de 2025</td>
+        <td>viernes, 15 de enero de 2026</td>
+             </tr>   
             </tbody>
         </table>
 
-<!--
-### Functionality soon to be removed from Workfront
 
-* 
--->
+### Funcionalidad que se eliminará pronto de Workfront
+
+#### Obsolescencia de la moneda de anulación en los roles con la versión 25.11
+
+Como parte de la simplificación del modelo financiero, el 30 de octubre en Vista previa dejaremos de utilizar la moneda de anulación en las funciones del puesto, y en Producción, para todos los clientes, con la versión 25.11. Este cambio afecta a la forma en que se configuran las divisas y las tarifas en los roles del área de Configuración.
+
+* Los campos **Anular moneda** de un rol ya no estarán disponibles.
+* Cada rol tendrá una sola moneda con su costo asociado y tasa de facturación.
+* Se migrarán automáticamente todas las divisas de sustitución existentes y sus valores de tipo de cambio para que se conviertan en la única divisa y tipos de cambio de ese rol.
 
 ## Modernización de interfaces
 
@@ -135,7 +231,7 @@ Para ofrecer integraciones más estables y escalables, estamos adoptando un enfo
 * Workfront para Salesforce.
 
 Recomendamos utilizar la automatización e integración de Workfront para las necesidades de integración de su organización con Google Workspace.
-Para obtener una descripción general de la automatización e integración de Workfront, consulte [Información general de Adobe Workfront Fusion](https://experienceleague.adobe.com/es/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+Para obtener una descripción general de la automatización e integración de Workfront, consulte [Información general de Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 
 
 ### Actualizaciones de mantenimiento de Workfront 
