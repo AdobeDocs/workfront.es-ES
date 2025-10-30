@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 1474e1dd-9b10-476e-9526-6577efa8d1c2
-source-git-commit: a561620e218cafc0af861d2b157b8dc7c83dd7ed
+source-git-commit: e5416fab4f4ad1f2c31edf962554ddd6a4c2f1e5
 workflow-type: tm+mt
-source-wordcount: '614'
+source-wordcount: '631'
 ht-degree: 69%
 
 ---
@@ -98,11 +98,7 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 ## Personalizar lo que ven los usuarios en la vista Detalles
 
 1. Empiece a trabajar en una plantilla de diseño, tal como se describe en [Crear y administrar plantillas de diseño](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
-1. Haga clic en la flecha abajo ![Flecha abajo](assets/dropdown-arrow-12x12.png) bajo **Personalizar lo que ven los usuarios**, luego haga clic en **Proyecto**, **Tarea**, **Problema**, **Programa** o **Portfolio.**
-<!--
-, or billing record
--->
-
+1. Haga clic en la flecha abajo ![Flecha abajo](assets/dropdown-arrow-12x12.png) bajo **Personalizar lo que ven los usuarios**, luego haga clic en **Proyecto**, **Tarea**, **Problema**, **Programa** o **Portfolio.**<!--, or billing record-->
 1. En la sección **Detalles**, realice una de las acciones siguientes para personalizar lo que ven los usuarios en la vista Detalles:
 
    * Arrastre cualquier encabezado de sección ![Icono de mover](assets/move-icon---dots.png) para cambiar su orden.
@@ -112,6 +108,10 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 
      Todos los campos están habilitados de forma predeterminada. Puede activar o desactivar la casilla de verificación **Seleccionar todo** de un área para mostrar u ocultar todos los campos de dicha área.
 
+   <span class="preview">Imagen de muestra en el entorno de vista previa:</span>
+   ![Vista de detalles en la plantilla de diseño](assets/layout-template-details-view-updated-save-buttons.png)
+
+   Imagen de muestra en el entorno de producción:
    ![Vista de detalles en la plantilla de diseño](assets/layout-template-details-view.png)
 
 1. <span class="preview">En el entorno de vista previa: continúe personalizando la plantilla de diseño. Puede hacer clic en **Aplicar** en cualquier momento para guardar el progreso.</span>

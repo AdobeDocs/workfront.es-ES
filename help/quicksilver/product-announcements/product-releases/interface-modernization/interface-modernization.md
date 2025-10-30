@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 7fb12a3fbdad661baf2d0ad472ce8017e178ddef
+source-git-commit: c17a50542553db5b836ff82f3d0c6ed93ae3c3ad
 workflow-type: tm+mt
-source-wordcount: '8978'
+source-wordcount: '8980'
 ht-degree: 2%
 
 ---
@@ -26,7 +26,7 @@ Para ver todos los demás cambios en Adobe Workfront, consulte [Versiones del pr
 
 ### Actualizaciones de la interfaz para los cuadros de diálogo Agregar y editar compañías
 
-**Versión de vista previa: 23 de octubre de 2025; versión de producción: a partir del 30 de octubre de 2025**
+**Versión preliminar: 23 de octubre de 2025; versión de producción: a partir del 6 de noviembre de 2025**
 
 Hemos actualizado los cuadros de diálogo para agregar y editar compañías con un diseño más moderno y coherente con otras áreas de Workfront.
 
