@@ -8,16 +8,14 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 0331be3c-a2d8-4788-a41a-5e971fb4bbe1
-source-git-commit: 5706ebd11985b9e67c93686918f8f0327adabdf1
+source-git-commit: 5c80dca8a9f7dd5a693db9bf22738602da8b521b
 workflow-type: tm+mt
-source-wordcount: '673'
-ht-degree: 63%
+source-wordcount: '629'
+ht-degree: 65%
 
 ---
 
 # Crear o personalizar la gravedad de los problemas
-
-<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa de espacio aislado y se está lanzando en un despliegue gradual a Producción.
 
 <!--
 DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.
@@ -97,7 +95,7 @@ Como administrador de Workfront, puede crear y editar gravedades de problemas pa
 
 1. En el panel izquierdo, haga clic en **Preferencias del proyecto** > **Gravedades**.
 
-1. Si está creando una nueva gravedad, haga clic en <span class="preview">**Nueva fila** en la parte inferior de la tabla</span> o en **Agregar nueva gravedad**.
+1. Si está creando una nueva gravedad, haga clic en **Nueva fila** en la parte inferior de la tabla.
 1. Configure las siguientes opciones para la nueva gravedad o edítelas para una gravedad existente:
 
    * **Nombre de gravedad**: escriba un nombre para la gravedad.
@@ -117,8 +115,6 @@ Como administrador de Workfront, puede crear y editar gravedades de problemas pa
 
      No puede convertir una gravedad oculta en la predeterminada.
 
-     <div class="preview">
-
      La gravedad predeterminada se indica con un icono ![Icono de gravedad predeterminada](assets/default-icon.png). Para elegir un nuevo valor predeterminado, siga uno de estos procedimientos:
 
       * Seleccione la casilla de verificación situada junto al nombre de la gravedad y seleccione **Establecer como predeterminado** en la barra de acciones de la parte inferior de la pantalla.
@@ -126,10 +122,8 @@ Como administrador de Workfront, puede crear y editar gravedades de problemas pa
 
         La nueva gravedad predeterminada se etiqueta con el icono.
 
-     </div>
-
    * **Descripción**: escriba una descripción de la gravedad para explicar su función.
-   * <span class="preview">**Ocultar opción**</span> o **Ocultar**: <span class="preview">Seleccione **Sí**</span> o active la casilla de verificación para ocultar una gravedad que ya no sea necesaria.
+   * **Ocultar opción**: seleccione **Sí** para ocultar una gravedad que ya no sea necesaria.
 
      Una gravedad oculta no aparecerá en ninguna parte de Workfront, por lo que los usuarios no pueden elegirla para sus problemas.
 

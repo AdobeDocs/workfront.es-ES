@@ -5,16 +5,14 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 6e7952cf-f07a-412b-9f9a-623cdba46849
-source-git-commit: 5706ebd11985b9e67c93686918f8f0327adabdf1
+source-git-commit: 5c80dca8a9f7dd5a693db9bf22738602da8b521b
 workflow-type: tm+mt
-source-wordcount: '769'
-ht-degree: 44%
+source-wordcount: '725'
+ht-degree: 45%
 
 ---
 
 # Crear y personalizar prioridades
-
-<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa de espacio aislado y se va a lanzar en un despliegue gradual en Producción.</span>
 
 <!--
 DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.
@@ -99,7 +97,7 @@ Además de las prioridades predeterminadas proporcionadas en Workfront, puede a�
 1. En el panel izquierdo, haga clic en **Preferencias de proyecto** > **Prioridades**.
 
 1. Haga clic en la pestaña del tipo de objeto para el que desea crear una prioridad para (**Proyecto**, **Tarea** o **Problema**).
-1. Haga clic en <span class="preview">**Nueva fila** en la parte inferior de la tabla</span> o en **Agregar nueva prioridad**.
+1. Haga clic en **Nueva fila** en la parte inferior de la tabla.
 1. Configure las siguientes opciones para la prioridad:
 
    * **Nombre de prioridad**: escriba un nombre para la prioridad.
@@ -119,8 +117,6 @@ Además de las prioridades predeterminadas proporcionadas en Workfront, puede a�
 
      No se puede convertir una prioridad oculta en la predeterminada.
 
-     <div class="preview">
-
      La prioridad predeterminada se indica con un icono ![Icono de prioridad predeterminado](assets/default-icon.png). Para elegir un nuevo valor predeterminado, siga uno de estos procedimientos:
 
       * Seleccione la casilla de verificación situada junto al nombre de la prioridad y seleccione **Establecer como predeterminado** en la barra de acciones de la parte inferior de la pantalla.
@@ -128,10 +124,8 @@ Además de las prioridades predeterminadas proporcionadas en Workfront, puede a�
 
         La nueva prioridad predeterminada se etiqueta con el icono.
 
-     </div>
-
    * **Descripción**: escriba una descripción para la prioridad para explicar su función.
-   * <span class="preview">**Ocultar opción**</span> o **Ocultar**: <span class="preview">Seleccione **Sí**</span> o active la casilla de verificación para ocultar una prioridad que ya no sea necesaria.
+   * **Ocultar opción**: selecciona **Sí** para ocultar una prioridad que ya no es necesaria.
 
      Una prioridad oculta no se muestra en ninguna parte de Workfront, por lo que los usuarios no pueden elegirla para sus proyectos, tareas o problemas.
 
