@@ -23,8 +23,8 @@ Para obtener una lista de todos los cambios disponibles en este punto del ciclo 
 >[!NOTE]
 >
 >Vista previa: 30 de octubre de 2025
->>Versión rápida de producción: 13 de noviembre de 2025
->>Producción para todos: 15 de enero de 2026
+>&#x200B;>Versión rápida de producción: 13 de noviembre de 2025
+>&#x200B;>Producción para todos: 15 de enero de 2026
 
 Los campos que permiten varias selecciones, como casillas de verificación y listas desplegables de selección múltiple, ahora están limitados a 5000 selecciones cuando un usuario rellena el formulario.
 

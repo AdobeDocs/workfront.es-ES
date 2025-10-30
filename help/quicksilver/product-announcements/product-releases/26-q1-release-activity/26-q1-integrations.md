@@ -23,7 +23,7 @@ Para obtener una lista de todos los cambios disponibles en este punto del ciclo 
 >[!NOTE]
 >
 >Vista previa: 30 de octubre de 2025
->>Versión rápida de producción: 30 de octubre de 2025\
+>&#x200B;>Versión rápida de producción: 30 de octubre de 2025\
 >Producción para todos: 30 de octubre de 2025
 
 Para estar al día con los cambios recientes en la API de Workfront, hemos creado una nueva integración de Salesforce. La nueva integración presenta la misma funcionalidad que la versión anterior y se actualizó para evitar perder la funcionalidad obsoleta en la API.

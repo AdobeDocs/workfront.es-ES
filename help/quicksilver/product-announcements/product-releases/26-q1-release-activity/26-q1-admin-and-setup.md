@@ -23,8 +23,8 @@ Para obtener una lista de todos los cambios disponibles en este punto del ciclo 
 >[!NOTE]
 >
 >Vista previa: 30 de octubre de 2025
->>Versión rápida de producción: 13 de noviembre de 2025
->>Producción para todos: 15 de enero de 2026
+>&#x200B;>Versión rápida de producción: 13 de noviembre de 2025
+>&#x200B;>Producción para todos: 15 de enero de 2026
 
 Para proporcionar más coherencia con otras áreas de la configuración, como el diseñador de formularios personalizados, los botones que ve al editar una plantilla de diseño han cambiado a **Aplicar**, **Guardar y cerrar** y **Cancelar**. La nueva opción, **Aplicar**, le permite guardar los cambios realizados en la plantilla de diseño y seguir editando. Anteriormente, las opciones disponibles eran **Guardar** y **Cancelar**.
 
@@ -36,8 +36,8 @@ Para obtener más información, consulte [Crear y administrar plantillas de dise
 >[!NOTE]
 >
 >Vista previa: 30 de octubre de 2025
->>Versión rápida de producción: 13 de noviembre de 2025
->>Producción para todos: 15 de enero de 2026
+>&#x200B;>Versión rápida de producción: 13 de noviembre de 2025
+>&#x200B;>Producción para todos: 15 de enero de 2026
 
 Cuando hay un gran número de campos personalizados en el sistema, la administración de esos campos en formularios e informes personalizados puede resultar difícil. Ahora puede marcar los campos personalizados como inactivos con la nueva marca **Active**. Este indicador está disponible cuando se trabaja con un campo en un formulario personalizado o cuando se agrega o edita un campo de la lista Campos.
 

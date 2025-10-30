@@ -23,7 +23,7 @@ Para obtener una lista de todos los cambios disponibles en este punto del ciclo 
 >[!NOTE]
 >
 >Vista previa: 30 de octubre de 2025
->>Versión rápida de producción: 30 de octubre de 2025\
+>&#x200B;>Versión rápida de producción: 30 de octubre de 2025\
 >Producción para todos: 30 de octubre de 2025
 
 Ahora puede utilizar Experience Manager Assets&#x200B; para administrar y almacenar los recursos digitales que han pasado por el ciclo de revisión y aprobación. Esta integración le permite aprovechar las capacidades de Adobe Experience Manager, Frame.io y Workfront para optimizar los procesos de colaboración y administración de contenido.
