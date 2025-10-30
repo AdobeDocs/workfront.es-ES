@@ -8,7 +8,7 @@ author: Courtney
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: 024b8606-a9b7-413a-b393-8e5cdff37dd4
-source-git-commit: 0841594c855c39fedf4eab5492994ff4f7acfbdf
+source-git-commit: 8233bcad8409b6f293d365fe871338e643a410dc
 workflow-type: tm+mt
 source-wordcount: '1855'
 ht-degree: 70%
@@ -50,6 +50,8 @@ Como administrador de [!DNL Adobe Workfront] puede integrar [!DNL Workfront] con
 
 Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
++++
+
 ## [!DNL Workfront for AEM Assets]
 
 [!DNL Workfront for AEM Assets connector] permite que su organización haga lo siguiente:
@@ -71,7 +73,7 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 
 Antes de instalar el conector [!DNL Workfront] para [!UICONTROL AEM Assets], asegúrese de que se cumplan los siguientes requisitos previos:
 
-* [!UICONTROL AEM Assets] está instalado y configurado, versión 6.5 o posterior. Para obtener información sobre la instalación de [!UICONTROL AEM Assets], consulte la [[!DNL Adobe Experience Manager] documentación](https://experienceleague.adobe.com/es/docs/experience-manager).
+* [!UICONTROL AEM Assets] está instalado y configurado, versión 6.5 o posterior. Para obtener información sobre la instalación de [!UICONTROL AEM Assets], consulte la [[!DNL Adobe Experience Manager] documentación](https://experienceleague.adobe.com/en/docs/experience-manager).
 * (Condicional) Si las reglas del cortafuegos no permiten el tráfico tal como esperaba, añada la dirección IP o el dominio del clúster a la lista de permitidos. Para obtener más información, consulte [Configuración de la lista de permitidos del firewall](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
 
 ## Instalar el paquete del conector de [!DNL Workfront for AEM Assets] {#install-the-workfront-for-aem-assets-connector-package}

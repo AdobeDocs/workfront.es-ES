@@ -7,9 +7,9 @@ author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: b9a83bc2-4dd8-4c77-a2e7-385baa809b3b
-source-git-commit: 79851c46848b7897056e9953dc5a5bc004170a02
+source-git-commit: 8233bcad8409b6f293d365fe871338e643a410dc
 workflow-type: tm+mt
-source-wordcount: '857'
+source-wordcount: '921'
 ht-degree: 2%
 
 ---
@@ -122,3 +122,9 @@ Los coordinadores de proyecto pueden monitorizar el progreso de todas las aproba
 * **Tablero personalizado**: cree un tablero de informes en el área Tableros de lienzo para mostrar información detallada y de alto nivel acerca de las revisiones y aprobaciones con la funcionalidad de Aprobaciones unificadas. Para obtener información sobre cómo empezar, consulte [Crear un tablero de informes para revisión y aprobaciones](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md).
 * **Widget de inicio de métricas de aprobación de documento**: muestra 2 gráficos con información sobre el tiempo promedio de aprobación y las decisiones, así como vistas de lista de aprobaciones pendientes y vencidas.
   ![Todas las aprobaciones](assets/all-approvals.png)
+
+## Envío de recursos finalizados a Adobe Experience Manager
+
+Puede usar [!DNL Experience Manager Assets]&#x200B;&#x200B; para administrar y almacenar los recursos digitales que han pasado por el ciclo de revisión y aprobación. Esta integración le permite aprovechar las capacidades de Adobe Experience Manager, Frame.io y Workfront para optimizar los procesos de colaboración y administración de contenido.
+
+Para obtener más información, consulte [Usar Adobe Experience Manager con la integración Frame.io](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md).
