@@ -384,7 +384,7 @@ Puede editar una tarea mediante las áreas Editar tarea o Detalles de la tarea. 
 
    &lt;!Aplica una sangría doble a las viñetas que aparecen debajo una vez más cuando se lanza para mostrar Prod y, a continuación, otra viñeta nueva para Preview:
    1. (Condicional) Según el entorno desde el que acceda a la tarea, haga lo siguiente:
-   1. <!--In the Production environment,AND ADD THIS TO THE STEP BELOW-->
+   1. &#x200B;<!--In the Production environment,AND ADD THIS TO THE STEP BELOW-->
 
 1. Haga clic en **Buscar personas, roles y equipos** y empiece a escribir el nombre del usuario, rol o equipo que desee asignar a la tarea; a continuación, haga clic en él o presione Intro cuando aparezca en la lista.
 
