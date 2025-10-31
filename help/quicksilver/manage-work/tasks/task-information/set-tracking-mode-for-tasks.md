@@ -6,10 +6,10 @@ description: El modo de seguimiento de una tarea determina cómo se actualiza el
 author: Alina
 feature: Work Management
 exl-id: 751071b4-3716-4153-97fe-4fe0ebc7cbb0
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+source-git-commit: 76379d5433cc13ee412c8c1045316ef253b3ee7d
 workflow-type: tm+mt
 source-wordcount: '199'
-ht-degree: 95%
+ht-degree: 79%
 
 ---
 

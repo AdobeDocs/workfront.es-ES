@@ -6,16 +6,16 @@ description: Puede utilizar las plantillas como un marco de trabajo para crear p
 author: Alina
 feature: Work Management
 exl-id: 622cbfe0-b8c0-4045-bef2-9e21d45bfda0
-source-git-commit: d7600a55b3dffb242957234de9d85a0deb1ad2e3
+source-git-commit: 76379d5433cc13ee412c8c1045316ef253b3ee7d
 workflow-type: tm+mt
-source-wordcount: '1159'
-ht-degree: 94%
+source-wordcount: '1150'
+ht-degree: 84%
 
 ---
 
 # Crear un proyecto a partir de una plantilla
 
-<!-- Audited: 01/2024 -->
+<!-- Audited: 10/2025 -->
 
 Puede utilizar las plantillas como un marco de trabajo para crear proyectos en Adobe Workfront. Si tiene proyectos que se repiten con frecuencia, el uso de plantillas para la cronología general del nuevo proyecto evita tener que generar los mismos proyectos repetidamente.
 
@@ -120,7 +120,7 @@ Puede crear un proyecto desde el área Proyectos del menú principal o desde el 
 
 1. Realice una de las siguientes acciones:
 
-   * Haga clic en el icono **[!UICONTROL Menú principal]** ![Menú principal](/help/_includes/assets/main-menu-icon.png) de la esquina superior derecha de Adobe Workfront o (si está disponible), en el icono **[!UICONTROL Menú principal]** ![Menú principal](/help/_includes/assets/main-menu-icon-left-nav.png) de la esquina superior izquierda. Haga clic en **Proyectos** y, a continuación, expanda **Nuevo proyecto**.
+   * Haga clic en el icono **[!UICONTROL Menú principal]** ![Menú principal](/help/_includes/assets/main-menu-icon-left-nav.png) en la esquina superior izquierda, o en el icono **[!UICONTROL Menú principal]** ![Menú principal](/help/_includes/assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront, si está disponible, luego haga clic en **Proyectos** y expanda **Nuevo proyecto**.
    * Vaya a un portafolio y expanda **Nuevo proyecto**.
 
      >[!TIP]
@@ -153,7 +153,7 @@ Puede crear un proyecto desde el área Proyectos del menú principal o desde el 
 
    Haga lo siguiente:
 
-   1. Seleccione **Nuevo proyecto a partir de plantilla**.
+   1. Haga clic en **Nuevo proyecto a partir de plantilla**
    1. En el campo **Buscar plantillas**, empiece a escribir el nombre de una plantilla y haga clic en ella cuando se muestre en la lista.
    1. Revise los detalles de la plantilla a la derecha.
 
@@ -179,19 +179,25 @@ Puede crear un proyecto desde el área Proyectos del menú principal o desde el 
 
       ![Detalles sobre la plantilla](assets/new-project-from-template-small-box-with-template-details-panel.png)
 
+      <!--no longer available, after unshimming - Oct 2025:
       >[!NOTE]
       >
-      >Si ha aplicado la vista de Hito a la lista de proyectos, haga clic en el nombre de una plantilla en la sección **Nuevo a partir de plantilla**.
+      >If you have the Milestone View applied to the list of projects, click the name of a template in the **New from Template section**.
       >
       >
-      >![Vista de hito al crear un proyecto a partir de una plantilla](assets/create-project-from-template-box-from-milestone-view-nwe-350x275.png)
+      >![Milestone view of creating a project from a template](assets/create-project-from-template-box-from-milestone-view-nwe-350x275.png)
       >
+      -->
 
    Se abre el cuadro **Nuevo proyecto**.
 
    ![Cuadro Nuevo proyecto](assets/new-project-from-template-box.png)
 
-1. Si un campo ya se ha rellenado en la plantilla, el campo ya se ha rellenado previamente en el cuadro **Nuevo proyecto**. Puede editar los valores rellenados previamente para que coincidan mejor con su proyecto. Para obtener más información, consulte [Editar proyectos](../../../manage-work/projects/manage-projects/edit-projects.md).
+1. (Condicional) Si un campo ya se ha rellenado en la plantilla, ya se ha rellenado en el cuadro **Nuevo proyecto**.
+
+   Edite los valores rellenados previamente para que coincidan mejor con el proyecto.
+
+   Para obtener más información, consulte [Editar proyectos](../../../manage-work/projects/manage-projects/edit-projects.md).
 1. Haga clic en **Crear proyecto**.
 
    Todos los detalles definidos en la plantilla se asocian automáticamente al proyecto recién creado si no los ha cambiado en el paso anterior.
@@ -203,17 +209,21 @@ En lugar de empezar en el área de Proyectos, puede crear un proyecto a partir d
 {{step1-to-templates}}
 
 1. Haga clic en el nombre de la plantilla que desee utilizar.
-1. Haga clic en el icono **Más** del menú ![Más](assets/more-icon.png) y luego haga clic en **Crear proyecto**.
+1. Haga clic en el icono **Más** del menú ![Más](assets/more-icon.png) a la derecha del nombre de la plantilla en el encabezado, luego haga clic en **Crear proyecto**.
 
    ![Crear proyecto a partir de plantilla](assets/project-sharing-on-template.png)
 
    Se abre el cuadro **Nuevo proyecto**.
 
-1. Introduzca un nombre para el proyecto, revise cada sección y realice los cambios que sean necesarios.
+1. Escriba un nombre para el proyecto. Workfront utiliza el nombre de la plantilla para asignar un nombre al nuevo proyecto.
+
+1. Revise cada sección del cuadro **Nuevo proyecto** y realice los cambios que sean necesarios.
 
    ![Cuadro Nuevo proyecto](assets/new-project-from-template-box.png)
 
-   Si un campo ya se ha rellenado en la plantilla, el campo ya se ha rellenado previamente en el cuadro **Nuevo proyecto**. Puede editar los valores rellenados previamente para que coincidan mejor con su proyecto. Para obtener más información, consulte [Editar proyectos](../../../manage-work/projects/manage-projects/edit-projects.md).
+   Si un campo ya se ha rellenado en la plantilla, el campo ya se ha rellenado previamente en el cuadro **Nuevo proyecto**. Puede editar los valores rellenados previamente para que coincidan mejor con su proyecto.
+
+   Para obtener más información, consulte [Editar proyectos](../../../manage-work/projects/manage-projects/edit-projects.md).
 
 1. Haga clic en **Crear proyecto**.
 

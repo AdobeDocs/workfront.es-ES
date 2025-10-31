@@ -6,16 +6,16 @@ description: Puede crear y eliminar plantillas desde el área Plantillas. Al cre
 author: Alina
 feature: Work Management
 exl-id: 5094ba3f-3cb0-4301-aa7d-88c64d112b78
-source-git-commit: d7600a55b3dffb242957234de9d85a0deb1ad2e3
+source-git-commit: 76379d5433cc13ee412c8c1045316ef253b3ee7d
 workflow-type: tm+mt
-source-wordcount: '566'
-ht-degree: 96%
+source-wordcount: '648'
+ht-degree: 61%
 
 ---
 
 # Crear una plantilla de proyecto
 
-<!-- Audited: 1/2024 -->
+<!-- Audited: 10/2025 -->
 
 Puede crear y eliminar plantillas desde el área Plantillas. Al crear una plantilla nueva, puede introducir la información de todas las tareas y de la configuración futura del proyecto. Esta información se transferirá a cualquier proyecto que cree a partir de la plantilla.
 
@@ -94,7 +94,7 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
 
 ## Creación de una plantilla
 
-1. Haga clic en el icono **[!UICONTROL Menú principal]** ![Menú principal](/help/_includes/assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront o (si está disponible), haga clic en el icono **[!UICONTROL Menú principal]** ![Menú principal](/help/_includes/assets/main-menu-icon-left-nav.png) en la esquina superior izquierda y, a continuación, haga clic en **Plantillas**.
+{{step1-to-templates}}
 
 1. Haga clic en **Nueva plantilla**.
 
@@ -104,33 +104,69 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
 
 1. Especifique un nombre para la nueva plantilla en el encabezado de la plantilla y, a continuación, presione **Intro.**
 1. Haga clic en la sección **Tareas de plantilla** en el panel izquierdo.
-1. Haga clic en **Empezar a añadir tareas de plantillas**.
+1. Haga clic en **Comenzar a agregar tareas de plantilla** para agregar tareas en línea
 
    O
 
-   Haga clic en **Nueva tarea de plantilla** para empezar a añadir tareas a la plantilla.
+   Haga clic en **Nueva tarea de plantilla** para empezar a agregar tareas a su plantilla en el cuadro **Nueva tarea de plantilla**.
 
-   El proceso de añadir tareas de plantilla a una plantilla es idéntico al de añadir tareas a un proyecto.
+   ![Nueva tarea de plantilla](assets/new-template-task-box.png)
 
-   Para obtener más información sobre cómo añadir tareas a un proyecto, consulte [Crear tareas en un proyecto](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md).
+1. Actualice la información en las siguientes áreas:
+
+   * Información general
+   * Finanzas
+   * Configuración
+   * Asignaciones
+   * Formularios personalizados
+   * Adjuntar documento
+
+     Actualizar la información de una tarea de plantilla es similar a editar tareas de un proyecto. Para obtener más información, consulte [Editar tareas](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md).
 
    >[!NOTE]
    >
    >No puede añadir tareas recurrentes a una plantilla.
 
-1. (Opcional) Haga clic en el icono **Gráfico de Gantt** en la esquina superior derecha de la Lista de tareas para ver una representación visual de la lista de tareas de la plantilla.
+1. Haga clic en una de las siguientes opciones:
+
+   * **Guardar tarea de plantilla** para guardar la tarea de plantilla actual y cierra el cuadro Nueva tarea de plantilla.
+   * **Guardar tarea de plantilla e iniciar otra** para guardar la tarea de plantilla actual y abrir otro cuadro Nueva tarea de plantilla para agregar otra tarea.
+   * **Cancelar** para cerrar el cuadro sin guardar la tarea de plantilla.
+1. (Opcional) Después de agregar las tareas de plantilla, en la sección Tareas de plantilla, haga clic en el icono **Diagrama de Gantt** en la esquina superior derecha de la Lista de tareas para ver una representación visual de la lista de tareas de la plantilla.
 
    >[!TIP]
    >
    >No puede editar tareas directamente desde este gráfico Gantt.
 
-1. Para agregar información a la nueva plantilla, haz clic en el **icono Más** del menú ![Más](assets/more-icon.png) y, a continuación, haz clic en **Editar**.
+1. Para agregar información a la nueva plantilla, haga clic en el **icono Más** del menú ![Más](assets/more-icon.png) a la izquierda del nombre de la plantilla en el encabezado y, a continuación, haga clic en **Editar**.
 
    Para obtener información sobre cómo editar una plantilla, consulte [Editar plantillas de proyecto](../../../manage-work/projects/create-and-manage-templates/edit-templates.md).
 
-1. Haga clic en **Guardar cambios**.
-1. (Opcional) Si desea añadir elementos adicionales a la plantilla, consulte la sección [Añadir elementos adicionales a una plantilla](../../../manage-work/projects/create-and-manage-templates/edit-templates.md#add-additional-items-to-a-template) en el artículo [Editar plantillas de proyecto](../../../manage-work/projects/create-and-manage-templates/edit-templates.md).
+   >[!NOTE]
+   >
+   >   La asociación de una plantilla de proyecto con un grupo (o la falta de un grupo) afecta a la forma en que las preferencias de proyecto, tarea y problema determinan ciertas configuraciones en la plantilla.
+   >
+   >Para obtener más información, vea la sección &quot;Cómo se aplican las preferencias a las plantillas y tareas de plantilla&quot; en el artículo [Crear y modificar las plantillas de proyecto de un grupo](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md).
 
-## Configuración de plantilla determinada por asociación de grupo
+1. Haga clic en **Guardar**.
+1. (Opcional) Agregue los siguientes elementos a la plantilla
 
-La asociación de una plantilla de proyecto con un grupo (o la ausencia de un grupo) afecta al modo en que las preferencias del proyecto, la tarea y el problema determinan ciertas configuraciones de la plantilla. Para obtener más información, consulte la sección [Crear y modificar plantillas de proyecto de un grupo](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md#create-and-modify-a-groups-project-templates) en el artículo [Crear y modificar plantillas de proyecto de un grupo](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md).
+   * Documentos
+   * Riesgos
+   * Procesos de aprobación
+   * Tarifas de facturación
+   * Gastos
+   * Detalles de la cola
+   * Grupos de temas y temas de la cola
+
+1. (Opcional) Agregue los siguientes elementos a las tareas de la plantilla:
+
+   * Documentos
+   * Gastos
+   * Rutas de aprobación
+
+   Para obtener más información, consulte la sección &quot;Agregar más elementos a una plantilla&quot; en el artículo [Editar plantillas de proyecto](../../../manage-work/projects/create-and-manage-templates/edit-templates.md).
+
+
+
+

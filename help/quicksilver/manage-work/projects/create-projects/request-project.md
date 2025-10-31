@@ -6,16 +6,16 @@ description: Puede solicitar la aprobación de un proyecto antes de comenzar a t
 author: Alina
 feature: Work Management
 exl-id: 6557a7a5-3d5e-476d-b834-007c9e120397
-source-git-commit: d7600a55b3dffb242957234de9d85a0deb1ad2e3
+source-git-commit: 76379d5433cc13ee412c8c1045316ef253b3ee7d
 workflow-type: tm+mt
-source-wordcount: '570'
+source-wordcount: '557'
 ht-degree: 16%
 
 ---
 
 # Solicitar un proyecto
 
-<!--Audited: April 2024-->
+<!--Audited: 10/2025-->
 
 Puede solicitar la aprobación de un proyecto antes de comenzar a trabajar en él.
 
@@ -114,10 +114,12 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 
    * Siga los mismos pasos que para crear un proyecto al definir un caso empresarial. (Recomendado)
 
-     Para obtener información sobre cómo definir un caso empresarial y solicitar un proyecto, vea [Crear un caso empresarial para un proyecto](../../../manage-work/projects/define-a-business-case/create-business-case.md).
+     Para obtener más información, vea [Crear un caso comercial para un proyecto](../../../manage-work/projects/define-a-business-case/create-business-case.md).
 
    * Cree un proyecto desde cero o use una plantilla y cambie el estado a **Solicitado**.
 
-     Para obtener información sobre cómo crear un proyecto, vea [Crear un proyecto](../../../manage-work/projects/create-projects/create-project.md) o [Crear un proyecto con una plantilla](../../../manage-work/projects/create-projects/create-project-from-template.md).
+     Para obtener más información, consulte [Crear un proyecto](../../../manage-work/projects/create-projects/create-project.md) o [Crear un proyecto con una plantilla](../../../manage-work/projects/create-projects/create-project-from-template.md).
 
-   El proyecto que solicita tiene el estado **Solicitado** y se muestra en la ficha **Proyectos solicitados** de un Portfolio, si lo asoció con un Portfolio. Un administrador de portafolios ahora puede revisarlo y aprobarlo o rechazarlo, en cuyo caso el estado del proyecto cambia a **Aprobado** o **Rechazado**.
+   El proyecto que solicita tiene el estado **Solicitado** y se muestra en la ficha **Proyectos solicitados** de un Portfolio, si lo asoció con un Portfolio.
+
+   Un administrador de portafolios ahora puede revisarlo y aprobarlo o rechazarlo, en cuyo caso el estado del proyecto cambia a **Aprobado** o **Rechazado**.

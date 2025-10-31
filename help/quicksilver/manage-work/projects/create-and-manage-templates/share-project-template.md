@@ -6,7 +6,7 @@ description: Puede compartir una plantilla con los usuarios o puede definir cóm
 author: Alina
 feature: Work Management
 exl-id: 99c6b241-a2c9-4b6c-b605-177bbbc3f21a
-source-git-commit: d7600a55b3dffb242957234de9d85a0deb1ad2e3
+source-git-commit: 76379d5433cc13ee412c8c1045316ef253b3ee7d
 workflow-type: tm+mt
 source-wordcount: '730'
 ht-degree: 93%
@@ -93,7 +93,7 @@ Para compartir una plantilla:
 1. En el icono **Menú principal** ![Icono del menú principal](assets/main-menu-icon.png), haga clic en **Plantillas**.
 
 1. Realice una de las siguientes acciones:\
-   Haga clic en el nombre de una plantilla para abrirla y luego haga clic en el menú **Más** ![Icono de más](assets/qs-more-icon-on-an-object.png), luego en **Uso compartido de plantillas**.
+   Haga clic en el nombre de una plantilla para abrirla y luego haga clic en el menú **Más** ![Icono de más](assets/more-icon.png), luego en **Uso compartido de plantillas**.
 
    O
 
@@ -128,7 +128,7 @@ Con el uso compartido de proyectos de plantilla, puede definir quién tiene perm
 Para compartir proyectos futuros creados a partir de una plantilla con usuarios:
 
 1. Realice una de las siguientes acciones:\
-   Haga clic en el nombre de una plantilla para abrirla y luego haga clic en el menú **Más** ![Icono de más](assets/qs-more-icon-on-an-object.png), luego en **Uso compartido de plantillas**.
+   Haga clic en el nombre de una plantilla para abrirla y luego haga clic en el menú **Más** ![Icono de más](assets/more-icon.png), luego en **Uso compartido de plantillas**.
 
    ![Compartir proyecto a partir de una plantilla](assets/project-sharing-on-template-nwe-2022-350x172.png)
 

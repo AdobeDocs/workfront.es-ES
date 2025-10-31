@@ -6,7 +6,7 @@ description: Puede editar las plantillas de proyecto para reflejar los cambios e
 author: Alina
 feature: Work Management
 exl-id: da0fca31-6a50-4862-ad9a-a453ef968773
-source-git-commit: 00e693fc8b35a59f6ed212bc30da7f85cc78c845
+source-git-commit: 76379d5433cc13ee412c8c1045316ef253b3ee7d
 workflow-type: tm+mt
 source-wordcount: '5672'
 ht-degree: 88%
@@ -126,7 +126,7 @@ Puede editar las plantillas de una en una o editarlas de forma masiva.
    >
    >Para obtener información sobre todos los campos que se muestran en el área de Detalles, continúe editando todos los campos con el cuadro Editar plantilla que aparece a continuación.
 
-1. (Condicional) Para editar toda la información acerca de la plantilla, haga clic en el **Más** menú ![Icono de más](assets/qs-more-icon-on-an-object.png) junto al nombre de la plantilla y, a continuación, haga clic en **Editar**.
+1. (Condicional) Para editar toda la información acerca de la plantilla, haga clic en el **Más** menú ![Icono de más](assets/more-icon.png) junto al nombre de la plantilla y, a continuación, haga clic en **Editar**.
 
    Se abre el cuadro **Editar plantilla**. Las secciones de este cuadro contienen los campos disponibles en la sección Detalles de la plantilla, así como campos adicionales.
 
@@ -820,12 +820,12 @@ Las plantillas desactivadas no afectan a los proyectos existentes que se crearon
 
 Para desactivar una plantilla:
 
-1. Vaya a una plantilla activa, luego haga clic en el menú **Más** ![Icono de más](assets/qs-more-icon-on-an-object.png) junto al nombre de la plantilla y, a continuación, haga clic en **Desactivar**.
+1. Vaya a una plantilla activa, luego haga clic en el menú **Más** ![Icono de más](assets/more-icon.png) junto al nombre de la plantilla y, a continuación, haga clic en **Desactivar**.
 
    ![Desactivar plantilla](assets/deactivate-template-link-in-more-menu.png)
 
    La plantilla dejará de estar activa y los usuarios ya no podrán encontrarla para crear proyectos a partir de ella.
-1. (Opcional) Para activar la plantilla, haga clic en el menú **Más** ![Más iconos](assets/qs-more-icon-on-an-object.png) junto al nombre de la plantilla y, a continuación, haga clic en **Activar**.
+1. (Opcional) Para activar la plantilla, haga clic en el menú **Más** ![Más iconos](assets/more-icon.png) junto al nombre de la plantilla y, a continuación, haga clic en **Activar**.
 
    La plantilla ahora estará activa y ya se puede adjuntar a proyectos o utilizar para crear proyectos.
 
@@ -850,7 +850,7 @@ Editing a template differs depending on what environment you choose.
    >
    >For information about all fields that display in the Details area, continue with editing all fields using the Edit Template box below.
 
-1. (Conditional) To edit all information about the template, click the **More** menu ![More icon](assets/qs-more-icon-on-an-object.png) next to the name of the template, then click **Edit**.
+1. (Conditional) To edit all information about the template, click the **More** menu ![More icon](assets/more-icon.png) next to the name of the template, then click **Edit**.
 
    The **Edit Template** box opens. The sections in this box contain the same fields available in  the Template Details section .
 

@@ -7,14 +7,16 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: 923deab4-205b-4312-9ec4-4471fd6cea26
-source-git-commit: d7600a55b3dffb242957234de9d85a0deb1ad2e3
+source-git-commit: 76379d5433cc13ee412c8c1045316ef253b3ee7d
 workflow-type: tm+mt
-source-wordcount: '442'
-ht-degree: 71%
+source-wordcount: '470'
+ht-degree: 39%
 
 ---
 
 # Crear plantilla a partir de proyecto
+
+<!--Audited: 10/2025-->
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(Note: Keep this article in the Creating and Managing Templates area with the detailed information that this contains. Since this is an article about creating TEMPLATES, this needs to be detailed under Templates; there is a similar article with almost the same title in Managing projects that points to this one - since this functionality is in the UI under Projects, this article must have a presence in that areas as well. Keep both, but make this one the only editable one (iterative))</p>
@@ -89,7 +91,7 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
 ## Crear plantilla a partir de proyecto
 
 1. Vaya al proyecto que desee guardar como plantilla.
-1. Haga clic en el menú **Más** ![Icono de más](assets/qs-more-icon-on-an-object.png) y luego en **Guardar como plantilla**.
+1. Haga clic en el menú **Más** ![Icono de más](assets/more-icon.png) y luego en **Guardar como plantilla**.
 1. Especifique la siguiente información para la plantilla:
 
    <table style="table-layout:auto"> 
@@ -97,7 +99,7 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">Nombre</td> 
+      <td role="rowheader">Nombre de plantilla</td> 
       <td>Especifique un nombre para la plantilla.</td> 
      </tr> 
      <tr> 
@@ -112,29 +114,32 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
         <li><strong>No</strong>: otros usuarios no pueden encontrar la plantilla ni adjuntarla a proyectos.</li> 
        </ul> </td> 
      </tr> 
-     <tr> 
-      <td role="rowheader">Formularios personalizados</td> 
-      <td>Utilice la lista desplegable para seleccionar cualquier formulario personalizado que desee adjuntar a la plantilla. Si ya se han asociado formularios personalizados al proyecto, se muestran todos los campos de datos de esos formularios personalizados.<br>Puede incluir hasta 10 formularios personalizados en una misma plantilla.</td> 
-     </tr> 
     </tbody> 
    </table>
 
-1. Haga clic en **Administrar formularios** para quitar o reordenar los formularios. Para obtener información sobre cómo quitar y reordenar formularios personalizados en la plantilla, consulte [Formularios personalizados](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md).
+1. Haga clic en **Formularios personalizados** en el panel izquierdo. 
+1. Haga clic en el campo **Agregar formulario personalizado** y empiece a escribir el nombre de un formulario personalizado de proyecto o seleccione uno de la lista.
 
-   ![Guardar como plantilla en el primer paso](assets/save-as-template-first-step-350x159.png)
+   Si algún formulario personalizado ya está asociado al proyecto, en los formularios se muestra toda la información de los campos existentes de esos formularios personalizados.
 
-1. Haga clic en **Siguiente paso**.
-1. En la sección **Opciones**, seleccione la casilla de verificación situada junto a la información que desee borrar de la plantilla.
+   Puede incluir hasta 10 formularios personalizados en una sola plantilla.
 
-   ![Guardar como opciones de plantilla](assets/save-as-template-options-step-350x109.png)
+1. Pase el ratón sobre el nombre de un formulario y, a continuación, haga clic para arrastrarlo y soltarlo en un lugar nuevo.
 
-1. Haga clic en **Siguiente paso**.
-1. En la sección **Excluir**, seleccione las tareas que desee excluir del proyecto.
+   ![Guardar proyecto como plantilla de principio del cuadro](assets/save-project-as-template-top-of-the-form.png)
 
-   ![Guardar como plantilla excluir](assets/save-as-template-exclude-350x205.png)
+1. Haga clic en **Opciones** en el panel izquierdo y, a continuación, seleccione los campos o elementos que desee transferir a la plantilla.
+
+   Todos los elementos están seleccionados de forma predeterminada. Los elementos no seleccionados no se transfieren a la plantilla.
+
+   ![Guardar como opciones de plantilla](assets/save-project-as-template-options-area.png)
+
+1. Haga clic en **Excluir** en el panel izquierdo y, a continuación, seleccione las tareas que desee excluir del proyecto.
+
+   ![Guardar como plantilla excluir](assets/save-project-as-template-exclude-area.png)
 
 1. Haga clic en **Finalizar y guardar plantilla**.
 
-   La plantilla ahora aparece en la lista de plantillas disponibles y se puede adjuntar a un proyecto existente o utilizarse para crear uno nuevo.
+   La plantilla ahora aparece en la lista de plantillas disponibles. Los usuarios pueden adjuntar la nueva plantilla a un proyecto existente o utilizarla para crear un proyecto.
 
- 
+

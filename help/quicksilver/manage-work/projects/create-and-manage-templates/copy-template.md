@@ -6,7 +6,7 @@ description: Además de crear una plantilla de proyecto desde cero, también pue
 author: Alina
 feature: Work Management
 exl-id: b2e0878b-8245-4e01-819d-c3746f553d95
-source-git-commit: d7600a55b3dffb242957234de9d85a0deb1ad2e3
+source-git-commit: 76379d5433cc13ee412c8c1045316ef253b3ee7d
 workflow-type: tm+mt
 source-wordcount: '327'
 ht-degree: 46%
@@ -102,7 +102,7 @@ Los siguientes elementos nunca se copian de una plantilla existente a una nueva:
 <!--ensure steps and casing on the fields and buttons is accurate with unshim-->
 
 1. Vaya a la plantilla que desea copiar.
-1. Haga clic en el icono **Más** del menú ![Más](assets/qs-more-icon-on-an-object.png) a la derecha del nombre de la plantilla en el encabezado, luego haga clic en **Copiar**.
+1. Haga clic en el icono **Más** del menú ![Más](assets/more-icon.png) a la derecha del nombre de la plantilla en el encabezado, luego haga clic en **Copiar**.
 
    Se abre el cuadro **Copiar plantilla**.
 
