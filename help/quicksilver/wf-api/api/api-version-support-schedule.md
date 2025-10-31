@@ -7,10 +7,10 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: b072704c-a34c-4a17-aca3-ab93a016dfc8
-source-git-commit: cccef57d9a83fa138282200d85c2851570a4b9b1
+source-git-commit: 62177a9cedcaf3155f95e91fc4ee506d7f6a04aa
 workflow-type: tm+mt
-source-wordcount: '448'
-ht-degree: 19%
+source-wordcount: '481'
+ht-degree: 18%
 
 ---
 
@@ -23,6 +23,10 @@ Adobe Workfront publica regularmente nuevas versiones de la API, generalmente do
 Para obtener más información sobre cómo identificar y usar versiones de API, consulte [Especificar una versión de API en las integraciones](/help/quicksilver/wf-api/api/specify-api-version-integrations.md).
 
 La siguiente tabla muestra la programación de versiones y soporte de la API de Workfront.
+
+>[!NOTE]
+>
+>El conector Workfront heredado utiliza la versión 20 de la API de Workfront, que está programada para dejarse de utilizar con la versión 28.4 (abril de 2028). Los módulos del conector heredado seguirán funcionando hasta ese momento.
 
 <table style="table-layout:auto"> 
  <col> 
