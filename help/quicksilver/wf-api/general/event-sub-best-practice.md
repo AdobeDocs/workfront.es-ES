@@ -7,10 +7,10 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 2c6e3567-d5eb-4528-a393-dbf235958ed2
-source-git-commit: 699ce13472ee70149fba7c8c34dde83c7db5f5de
+source-git-commit: 3a538a15daad5fa0dced8d45bb260d6087be81ff
 workflow-type: tm+mt
 source-wordcount: '355'
-ht-degree: 77%
+ht-degree: 72%
 
 ---
 
@@ -53,6 +53,4 @@ Para crear, consultar o eliminar una suscripción a un evento, el usuario de Wor
 * Un nivel de acceso de **Administrador del sistema**
 Para obtener más información, consulte [Conceder acceso administrativo completo a un usuario](../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md) o [Conceder a un usuario acceso administrativo completo a determinadas áreas](../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
 
-* Se requiere un encabezado `sessionID` para usar la API de suscripciones a eventos
-
-  Para obtener más información, consulte [Autenticación](api-basics.md#authentication) en [Conceptos básicos de la API](api-basics.md).
+* Si su organización utiliza Adobe IMS (Identity Management System), incluya un token de usuario de IMS pasado en el encabezado `X-User-Token`.
