@@ -5,9 +5,9 @@ description: La función Project Health utiliza el poder del Asistente de IA par
 author: Jenny
 feature: Get Started with Workfront
 exl-id: e4d200c6-7f35-4919-96d3-2880a655ed62
-source-git-commit: 8ece3c614febb6f480b352323721bcc9dcc940b6
+source-git-commit: ed5a8725442a0b3de993a4e8f47280bfc7d88160
 workflow-type: tm+mt
-source-wordcount: '1969'
+source-wordcount: '1965'
 ht-degree: 3%
 
 ---
@@ -89,7 +89,7 @@ El Asistente de IA le ofrece una evaluación rápida de la condición general de
 * En riesgo
 * Con problemas
 
-Este estado se calcula usando los componentes del proyecto y del programa, como el progreso del proyecto, el trabajo subestimado y más. Para obtener una lista completa de los componentes que se usan para medir el estado del proyecto, consulte la sección [Lista de estados de proyectos y programas](#project-and-program-states-list).
+Este estado se calcula mediante componentes del proyecto, como el progreso del proyecto, el trabajo subestimado, etc. Para obtener una lista completa de los componentes que se usan para medir el estado del proyecto, consulte la sección [Lista de estados de proyectos y programas](#project-and-program-states-list).
 
 A cada componente del proyecto se le asigna una puntuación de riesgo numérica que va de (0-100), que luego se promedia para crear el estado general del proyecto:
 
@@ -110,7 +110,7 @@ En el primer ejemplo, se evalúan 4 componentes del proyecto y sus puntuaciones 
 * 1 En riesgo (puntuación de riesgo 45)
 * 1 con problemas (puntuación de riesgo 20)
 
-Cuando se obtiene el promedio de estas puntuaciones, el resultado es 61. Utilizando los criterios de estado de mantenimiento del proyecto enumerados anteriormente, este proyecto se encuentra en estado de riesgo.
+Cuando se obtiene el promedio de estas puntuaciones, el resultado es 61. Utilizando los criterios de mantenimiento del proyecto enumerados anteriormente, este proyecto se encuentra en estado de riesgo.
 
 En el siguiente ejemplo, se ha producido un cambio de programación de 1 día al principio de la cronología del proyecto. En esta situación, AI Assistant evalúa el tiempo y el impacto del cambio en relación con la duración total del proyecto:
 
