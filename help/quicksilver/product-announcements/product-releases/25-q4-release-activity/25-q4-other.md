@@ -5,10 +5,10 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 357b5a80-424a-475c-9163-82cffbbd253e
-source-git-commit: 0c8d84cfcc87728e809061c01c56322f3fd1f2f6
+source-git-commit: b78f794ece181da3f4db3a1b9b78e794b16a09ed
 workflow-type: tm+mt
-source-wordcount: '307'
-ht-degree: 35%
+source-wordcount: '470'
+ht-degree: 24%
 
 ---
 
@@ -17,6 +17,34 @@ ht-degree: 35%
 Esta página describe las mejoras realizadas con la versión del cuarto trimestre de 2025 en el entorno de vista previa. Estas mejoras estarán disponibles en el entorno de producción, como se ha indicado.
 
 Para obtener una lista de todos los cambios disponibles en este punto del ciclo de lanzamiento del cuarto trimestre de 2025, consulte [Información general de la versión del cuarto trimestre de 2025](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-release-overview.md).
+
+## Actualizaciones de la pestaña Resumen del informe
+
+>[!NOTE]
+>
+>* Vista previa: 13 de octubre de 2025
+>* Versión rápida de producción: 13 de octubre de 2025
+>* Producción para todos los clientes: martes, 13 de octubre de 2025
+>[!BADGE Fuera del horario]{type=Neutral}
+
+La pestaña Resumen de un informe se ha actualizado con las siguientes mejoras:
+
+* Los nombres de los campos de agrupación que prefieren cada fila se han movido al encabezado de la primera columna.
+
+* La columna de nombre ahora está delimitada por barras (separada por una barra diagonal) cuando se aplican varios niveles de agrupación a un informe.
+
+* El prefijo de tipo de agregación (&quot;Suma: &quot;, &quot;Máx: &quot;, &quot;Mín: &quot;, &quot;Promedio: &quot;) se ha eliminado de cada agregación.
+
+* El tipo de agregación de cada columna ahora se muestra como apéndice del valor del encabezado de la columna.
+
+* Las subagrupaciones (2 o 3 agrupaciones) se muestran como niveles con sangría en la primera columna. Las agrupaciones de nivel superior siguen apareciendo en negrita.
+
+* Ahora puede ajustar los anchos de columna. Las columnas volverán a la distribución de ancho predeterminada cuando se actualice la página.
+
+>[!NOTE]
+>
+>Los cuatro primeros cambios también se aplican a las exportaciones de la pestaña Resumen cuando corresponda. Las sangrías de nivel y la fuente en negrita no se transferirán a un archivo de texto exportado delimitado por tabuladores.
+
 
 ## Adobe Unified Experience ya está disponible para más organizaciones de Workfront
 
