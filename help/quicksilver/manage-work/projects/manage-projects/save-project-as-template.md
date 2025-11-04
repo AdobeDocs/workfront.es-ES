@@ -6,10 +6,10 @@ description: Guardar un proyecto como plantilla "Guardar como plantilla" en el n
 author: Alina
 feature: Work Management
 exl-id: 4b5dfe12-f984-47c6-8e19-78b549f19159
-source-git-commit: 76379d5433cc13ee412c8c1045316ef253b3ee7d
+source-git-commit: 87bf2a4485d3b0c29fcfe8e00dcca57874cdec04
 workflow-type: tm+mt
-source-wordcount: '475'
-ht-degree: 55%
+source-wordcount: '485'
+ht-degree: 54%
 
 ---
 
@@ -159,7 +159,7 @@ Saving a project as a template differs in the Production and the Preview environ
 -->
 
 1. Vaya al proyecto que desee guardar como plantilla.
-1. Haga clic en el menú **Más** ![Icono de más](assets/qs-more-icon-on-an-object.png) y luego en **Guardar como plantilla**.
+1. Haga clic en el icono **Más** del menú ![Más](assets/qs-more-icon-on-an-object.png) a la derecha del nombre del proyecto en el encabezado y, a continuación, **Guardar como plantilla**.
 1. En la sección **Guardar como plantilla**, especifique la siguiente información para la plantilla:
 
    <table style="table-layout:auto"> 

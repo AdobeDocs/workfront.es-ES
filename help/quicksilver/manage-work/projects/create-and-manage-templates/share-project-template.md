@@ -6,10 +6,10 @@ description: Puede compartir una plantilla con los usuarios o puede definir cóm
 author: Alina
 feature: Work Management
 exl-id: 99c6b241-a2c9-4b6c-b605-177bbbc3f21a
-source-git-commit: 76379d5433cc13ee412c8c1045316ef253b3ee7d
+source-git-commit: 87bf2a4485d3b0c29fcfe8e00dcca57874cdec04
 workflow-type: tm+mt
-source-wordcount: '730'
-ht-degree: 93%
+source-wordcount: '720'
+ht-degree: 94%
 
 ---
 
@@ -90,7 +90,7 @@ Puede compartir las plantillas con otros usuarios mediante Distribución de plan
 
 Para compartir una plantilla:
 
-1. En el icono **Menú principal** ![Icono del menú principal](assets/main-menu-icon.png), haga clic en **Plantillas**.
+{{step1-to-templates}}
 
 1. Realice una de las siguientes acciones:\
    Haga clic en el nombre de una plantilla para abrirla y luego haga clic en el menú **Más** ![Icono de más](assets/more-icon.png), luego en **Uso compartido de plantillas**.
