@@ -5,10 +5,10 @@ description: La función Project Health utiliza el poder del Asistente de IA par
 author: Jenny
 feature: Get Started with Workfront
 exl-id: e4d200c6-7f35-4919-96d3-2880a655ed62
-source-git-commit: 5ce0206c8a7e596dac0bfdf836ca51c2cdbd1d0d
+source-git-commit: 8ece3c614febb6f480b352323721bcc9dcc940b6
 workflow-type: tm+mt
-source-wordcount: '1508'
-ht-degree: 4%
+source-wordcount: '1969'
+ht-degree: 3%
 
 ---
 
@@ -81,6 +81,107 @@ Para habilitar el Asistente de IA y el Estado del proyecto para su organización
 
 Para obtener más información, consulte [Descripción general del asistente de IA](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md) y [Configurar las preferencias del sistema](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md).
 
+## Cálculo del estado del proyecto
+
+El Asistente de IA le ofrece una evaluación rápida de la condición general de un proyecto asignándole uno de los estados de salud del proyecto disponibles:
+
+* Bien encaminado
+* En riesgo
+* Con problemas
+
+Este estado se calcula usando los componentes del proyecto y del programa, como el progreso del proyecto, el trabajo subestimado y más. Para obtener una lista completa de los componentes que se usan para medir el estado del proyecto, consulte la sección [Lista de estados de proyectos y programas](#project-and-program-states-list).
+
+A cada componente del proyecto se le asigna una puntuación de riesgo numérica que va de (0-100), que luego se promedia para crear el estado general del proyecto:
+
+* En el destino (75 años o más): el rendimiento del proyecto se encuentra dentro de los umbrales esperados.
+* En riesgo (50-74): se detectan problemas emergentes que pueden afectar el rendimiento del proyecto.
+* En problemas (49 o menos): el rendimiento del proyecto está por debajo de los umbrales aceptables y requiere atención inmediata.
+
+>[!NOTE]
+>
+>* Actualmente, el asistente de IA solo evalúa los datos del proyecto seleccionado.
+>* El cálculo del estado del proyecto aún no incluye el análisis histórico o entre proyectos.
+
+### Ejemplos de cálculo del estado del proyecto para un proyecto
+
+En el primer ejemplo, se evalúan 4 componentes del proyecto y sus puntuaciones de riesgo individuales se calculan de la siguiente manera:
+
+* 2 En Target (puntuación de riesgo 90)
+* 1 En riesgo (puntuación de riesgo 45)
+* 1 con problemas (puntuación de riesgo 20)
+
+Cuando se obtiene el promedio de estas puntuaciones, el resultado es 61. Utilizando los criterios de estado de mantenimiento del proyecto enumerados anteriormente, este proyecto se encuentra en estado de riesgo.
+
+En el siguiente ejemplo, se ha producido un cambio de programación de 1 día al principio de la cronología del proyecto. En esta situación, AI Assistant evalúa el tiempo y el impacto del cambio en relación con la duración total del proyecto:
+
+* Un cambio de horario de 1 día al principio de una cronología de proyecto de 60 días es menor y normalmente se puntúa como En el destino.
+* Un cambio de horario de 1 día cerca de la fecha de finalización de un proyecto es más perturbador y puede calificarse como En riesgo o Con problemas.
+
+Debido a que el cambio fue menor y se produjo al principio de la cronología del proyecto, el proyecto se encuentra en el estado de En destino.
+
+Si se producen varios cambios en la programación dentro de la escala de tiempo de un proyecto, estos cambios se clasifican y, a continuación, se promedian antes de que se apliquen al cálculo del estado del proyecto.
+
+## Comprender la diferencia entre las condiciones del proyecto y el estado del proyecto
+
+Las condiciones del proyecto y el estado del proyecto son conceptos similares en Workfront y tienen los mismos nombres predeterminados para describir la condición o el estado del proyecto (como destino, en riesgo y con problemas), pero sirven para diferentes propósitos.
+
+Las condiciones del proyecto ofrecen una instantánea básica del rendimiento actual de un proyecto, basándose únicamente en las fechas planificadas, proyectadas y estimadas. El propietario del proyecto puede configurarlo manualmente o, de forma automática, Workfront en función de las tareas del proyecto. Como alternativa, el estado del proyecto es más completo y evalúa factores adicionales, lo que le ofrece una comprensión de mayor nivel de su rendimiento.
+
+Para obtener más información sobre las condiciones del proyecto, consulte [Condiciones personalizadas](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-conditions/custom-conditions.md).
+
+## Lista de estados de proyecto y programa
+
+La tabla siguiente contiene un desglose de los estados disponibles que el Asistente de inteligencia artificial asignará al proyecto o programa al generar una evaluación de estado del proyecto.
+
+<table>
+    <tr>
+        <td><b>Estado del proyecto</b></td>
+        <td><b>Definición</b></td>
+        <td><b>Factores</b></td>
+    </tr>
+    <tr>
+        <td>Bien encaminado</td>
+        <td>Se asigna cuando el nivel de riesgo medio de los siguientes factores se encuentra dentro del umbral adecuado.
+        </td>
+        <td> 
+        <ul><li>Desviación del alcance</li>
+        <li>Faltan campos</li>
+        <li>Cambios en la programación</li>
+        <li>Trabajo subestimado</li>
+        <li>Progreso del proyecto</li>
+        <li>Tareas vencidas</li>
+        <li>Presupuesto</li>
+        </ul></td>
+    </tr>
+    <tr>
+        <td>En riesgo</td>
+        <td>Esto se asigna cuando el nivel de riesgo promedio para los siguientes factores cae justo por debajo del umbral adecuado.</td>
+        <td>
+        <ul><li>Desviación del alcance</li>
+        <li>Faltan campos</li>
+        <li>Cambios en la programación</li>
+        <li>Trabajo subestimado</li>
+        <li>Progreso del proyecto</li>
+        <li>Tareas vencidas</li>
+        <li>Presupuesto</li>
+        </ul></td>
+    </tr>
+    <tr>
+        <td>Con problemas</td>
+        <td>Esto se asigna cuando el nivel de riesgo medio de los siguientes factores cae por debajo del umbral adecuado.</td>
+        <td>
+        <ul><li>Desviación del alcance</li>
+        <li>Faltan campos</li>
+        <li>Cambios en la programación</li>
+        <li>Trabajo subestimado</li>
+        <li>Progreso del proyecto</li>
+        <li>Tareas vencidas</li>
+        <li>Presupuesto</li>
+        </ul></td>
+    </tr>
+    </tr>
+   </table>
+
 ## Lista de peticiones del Asistente de IA
 
 A continuación se muestra una lista de preguntas que puede utilizar para solicitar a la evaluación de IA que genere una evaluación de estado del proyecto para un proyecto, programa o todos los proyectos de su cuenta.
@@ -109,60 +210,6 @@ A continuación se muestra una lista de preguntas que puede utilizar para solici
        <tr>
         <td>Cualquier página de Workfront </td>
         <td><em>¿Cuál es el estado del programa [NOMBRE DEL PROGRAMA]?</em></td>
-    </tr>
-   </table>
-
-
-## Lista de condiciones de proyecto y programa
-
-A continuación se muestran las condiciones disponibles que el Asistente de inteligencia artificial asignará a su proyecto o programa al generar una evaluación de estado del proyecto.
-
-<table>
-    <tr>
-        <td><b>Condición del proyecto</b></td>
-        <td><b>Estado de progreso del proyecto</b></td>
-        <td><b>Factores de condición del proyecto</b></td>
-    </tr>
-    <tr>
-        <td>Bien encaminado</td>
-        <td>Este análisis se asigna cuando el nivel de riesgo medio de los siguientes factores se encuentra dentro del umbral adecuado.
-        </td>
-        <td> 
-        <ul><li>Desviación del alcance</li>
-        <li>Faltan campos</li>
-        <li>Cambios en la programación</li>
-        <li>Trabajo subestimado</li>
-        <li>Progreso del proyecto</li>
-        <li>Tareas vencidas</li>
-        <li>Presupuesto</li>
-        </ul></td>
-    </tr>
-    <tr>
-        <td>En riesgo</td>
-        <td>Este análisis se asigna cuando el nivel de riesgo medio de los siguientes factores cae justo por debajo del umbral adecuado.</td>
-        <td>
-        <ul><li>Desviación del alcance</li>
-        <li>Faltan campos</li>
-        <li>Cambios en la programación</li>
-        <li>Trabajo subestimado</li>
-        <li>Progreso del proyecto</li>
-        <li>Tareas vencidas</li>
-        <li>Presupuesto</li>
-        </ul></td>
-    </tr>
-    <tr>
-        <td>Con problemas</td>
-        <td>Este análisis se asigna cuando el nivel de riesgo medio de los factores siguientes cae por debajo del umbral adecuado.</td>
-        <td>
-        <ul><li>Desviación del alcance</li>
-        <li>Faltan campos</li>
-        <li>Cambios en la programación</li>
-        <li>Trabajo subestimado</li>
-        <li>Progreso del proyecto</li>
-        <li>Tareas vencidas</li>
-        <li>Presupuesto</li>
-        </ul></td>
-    </tr>
     </tr>
    </table>
 
@@ -261,7 +308,7 @@ Para obtener más información, vea la siguiente sección de este artículo: [Ad
 
    ![Evaluación del estado del proyecto](assets/health-assessment.png)
 
-   Si está generando una evaluación para un portafolio, se enumerarán varias insignias que mostrarán la condición de cada proyecto en el programa. Para obtener más información sobre las etiquetas de distintivo, consulte la siguiente sección en este artículo: [Lista de condiciones del proyecto y del programa](#project-and-program-conditions-list).
+   Si está generando una evaluación para un portafolio, se enumerarán varias insignias que mostrarán la condición de cada proyecto en el programa. Para obtener más información sobre las etiquetas de distintivo, consulte la siguiente sección en este artículo: [Lista de estados de proyectos y programas](#project-and-program-states-list).
 
 1. (Opcional) Haga clic en uno de los puntos de evaluación para ampliar sus detalles.
 
