@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: bb597032-3395-4c9a-b622-5c920ba55131
-source-git-commit: 5e81e18ef667af3e4d08f4fc8987f7a3b6617971
+source-git-commit: 6fb64986260842c419c61fe386e9ccf1a0da8f14
 workflow-type: tm+mt
-source-wordcount: '1440'
-ht-degree: 17%
+source-wordcount: '1463'
+ht-degree: 16%
 
 ---
 
@@ -141,11 +141,11 @@ Para agregar o editar una compañía:
 
    Para obtener información sobre cómo crear formularios personalizados, consulte [Crear un formulario personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
-1. (Condicional) Si va a crear una compañía, haga clic en **[!UICONTROL Crear compañía]**<span class="preview">o en **&#x200B; Guardar &#x200B;**.</span>
+1. (Condicional) Si va a crear una compañía, haga clic en **[!UICONTROL Crear compañía]** <span class="preview">o en **Guardar**.</span>
 
    O
 
-   Si está editando una compañía existente, haga clic en **[!UICONTROL Guardar cambios]**<span class="preview">o en **&#x200B; Guardar &#x200B;**.</span>
+   Si está editando una compañía existente, haga clic en **[!UICONTROL Guardar cambios]** <span class="preview">o **Guardar**.</span>
 
 ## Administrar suscripciones a compañías
 
@@ -167,9 +167,13 @@ Para obtener más información acerca de cómo compartir objetos, vea [Informaci
 
 Cuando un administrador de [!DNL Workfront] asigna un grupo a una compañía, los administradores del grupo obtienen acceso de [!UICONTROL Administrar] a la compañía en [!UICONTROL Configuración]. Esto incluye acceso a la página [!UICONTROL Compañías] en [!UICONTROL Configuración], donde pueden ver y administrar la compañía asociada con su grupo.
 
-Con este acceso a la página [!UICONTROL Compañías], un administrador de grupo puede asignar un grupo a una compañía, pero debe ser una compañía que el administrador de grupo haya creado. Si el nivel de acceso del administrador del grupo no está configurado con acceso administrativo a las empresas, el campo [!UICONTROL Grupo] es necesario cuando el administrador del grupo crea la empresa; su título en negrita indica lo siguiente:
+Con este acceso a la página [!UICONTROL Compañías], un administrador de grupo puede asignar un grupo a una compañía, pero debe ser una compañía que el administrador de grupo haya creado. Si el nivel de acceso del administrador del grupo no está configurado con acceso administrativo a las compañías, el campo [!UICONTROL Grupo] es necesario cuando el administrador del grupo crea la compañía (su <span class="preview">asterisco</span> o título en negrita lo indica):
 
-![Editar empresa](assets/group-admin-add-company.png)
+<span class="preview">Imagen de muestra en el entorno de vista previa:</span>
+![Se requiere cuadro de diálogo Nueva compañía con grupo](assets/group-admin-add-company-group-required.png)
+
+Imagen de muestra en el entorno de producción:
+Se requiere ![grupo en la compañía](assets/group-admin-add-company.png)
 
 Para obtener información sobre cómo los usuarios obtienen acceso administrativo a las compañías en su nivel de acceso, vea [Conceder acceso administrativo a los usuarios a ciertas áreas](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
 
