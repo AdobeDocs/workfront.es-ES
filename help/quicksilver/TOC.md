@@ -3,9 +3,9 @@ user-guide-title: Guía de Workfront
 user-guide-description: Utilice los siguientes documentos, tutoriales y recursos adicionales para aprender a implementar y utilizar Adobe Workfront de forma eficaz en su organización.
 role: User
 feature-set: Workfront
-source-git-commit: 69d3b6d93ce4ceaf66a7886704023de494cde35d
+source-git-commit: ac24b2486b9fc5a0b8c2944a6ec240140238b908
 workflow-type: tm+mt
-source-wordcount: '13516'
+source-wordcount: '13515'
 ht-degree: 59%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 59%
          * [Mejoras de proyecto del cuarto trimestre de 2025](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-project.md)
          * [Mejoras en las solicitudes del cuarto trimestre de 2025](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-requests.md)
          * [Mejoras en la gestión de recursos del cuarto trimestre de 2025](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-resource-mgmt.md)
-         * [Otras mejoras del cuarto trimestre de 2025 &#x200B;](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-other.md)
+         * [Otras mejoras del cuarto trimestre de 2025 ](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-other.md)
          * [Actualizaciones de aspecto durante el periodo de tiempo de la versión del cuarto trimestre de 2025](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-look-and-feel-updates.md)
       * Versión del tercer trimestre de 2025 {#release-25-q3}
          * [Resumen de la versión del tercer trimestre de 2025](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-release-overview.md)
@@ -1247,7 +1247,7 @@ ht-degree: 59%
          * [Adjuntar una plantilla a un proyecto](manage-work/projects/create-and-manage-templates/attach-template-to-project.md)
          * [Copiar y mover tareas de plantilla](manage-work/projects/create-and-manage-templates/copy-and-move-template-tasks.md)
          * [Editar plantillas del proyecto](manage-work/projects/create-and-manage-templates/edit-templates.md)
-         * [Editar una tarea de plantilla](manage-work/projects/create-and-manage-templates/edit-template-task.md)
+         * [Editar tareas de plantilla](manage-work/projects/create-and-manage-templates/edit-template-task.md)
          * [Eliminar una tarea de plantilla](manage-work/projects/create-and-manage-templates/delete-template-tasks.md)
          * [Crear plantilla a partir de proyecto](manage-work/projects/create-and-manage-templates/create-template-from-project.md)
          * [Compartir plantillas de proyecto](manage-work/projects/create-and-manage-templates/share-project-template.md)
@@ -1768,7 +1768,7 @@ ht-degree: 59%
    * [Administrar recursos: índice de artículos](resource-mgmt/manage-resources.md)
    * Administración de recursos {#resource-management}
       * [Administración de recursos: índice de artículos](resource-mgmt/resource-mgmt-overview/resource-management-overview.md)
-      * [Introducción a la Administración de recursos &#x200B;](resource-mgmt/resource-mgmt-overview/get-started-resource-management.md)
+      * [Introducción a la Administración de recursos ](resource-mgmt/resource-mgmt-overview/get-started-resource-management.md)
    * Planificación de recursos en Adobe Workfront {#resource-planning-in-adobe-workfront}
       * [Planificación de recursos: índice de artículos](resource-mgmt/resource-planning/resource-planning-overview.md)
       * Conjuntos de recursos {#resource-pools}

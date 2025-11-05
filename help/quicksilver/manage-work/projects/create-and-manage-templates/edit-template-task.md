@@ -2,19 +2,19 @@
 product-area: templates
 keywords: tarea,valores predeterminados,automatizar,creación
 navigation-topic: templates-navigation-topic
-title: Editar una tarea de plantilla
+title: Modificar tarea de plantilla
 description: Después de crear una plantilla, puede editar la información sobre las tareas de plantilla. La información que actualiza en una tarea de plantilla se asocia a tareas de proyecto después de utilizar la plantilla para crear un proyecto o de adjuntar la plantilla a un proyecto.
 author: Alina
 feature: Work Management
 exl-id: 2df8522e-7eee-4440-be0f-f7483c5acdb0
-source-git-commit: 46133f435c665dd82d134f18d0b5de4e70bab7d7
+source-git-commit: ac24b2486b9fc5a0b8c2944a6ec240140238b908
 workflow-type: tm+mt
-source-wordcount: '2631'
+source-wordcount: '2629'
 ht-degree: 78%
 
 ---
 
-# Editar una tarea de plantilla
+# Editar tareas de plantilla
 
 <!--Audited: 11/2025-->
 

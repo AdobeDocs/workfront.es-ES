@@ -7,7 +7,7 @@ author: Lisa
 feature: Work Management, Resource Management
 role: User
 exl-id: 09780f78-4eb8-404d-859b-d066d462776d
-source-git-commit: 6ded38ef130fbcdde8d680f77f6db38fbd81efb4
+source-git-commit: ac24b2486b9fc5a0b8c2944a6ec240140238b908
 workflow-type: tm+mt
 source-wordcount: '1118'
 ht-degree: 79%
@@ -16,7 +16,9 @@ ht-degree: 79%
 
 # Crear asignaciones avanzadas
 
-<!-- Audited: 07/2024-->
+<!-- Audited: 11/2025-->
+
+<!--remove the bullet indicated when we get rid of the new/old experience of editing tasks-->
 
 <!--
 <div class="preview"> 
@@ -49,8 +51,7 @@ Este artículo describe cómo acceder a las asignaciones avanzadas en el encabez
 Además, puede realizar asignaciones avanzadas en las siguientes áreas de Workfront:
 
 * En listas e informes cuando el campo Asignaciones aparece en la vista.
-* En la sección Asignaciones al editar una tarea. Para obtener más información, consulte [Editar tareas](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
-  <!--* In the Production environment, in the Assignments section when editing a task. <span class="preview">This has been removed from the Preview environment.</span> For more information, see [Edit tasks](../../../manage-work/tasks/manage-tasks/edit-tasks.md).-->
+* En la sección Asignaciones al editar una tarea. Para obtener más información, consulte [Editar tareas](../../../manage-work/tasks/manage-tasks/edit-tasks.md). <!--When we remove the old/ new experience: take this bullet out completely; in the new Edit Task experience, this is no longer possible-->
 * En el encabezado de la tarea o del problema, en el área Asignaciones.
 * En el Distribuidor de cargas de trabajo. Para obtener más información, consulte [Asignar trabajo manualmente mediante el Distribuidor de cargas de trabajo](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-manually.md).
 

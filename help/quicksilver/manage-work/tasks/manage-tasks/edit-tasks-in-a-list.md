@@ -6,10 +6,10 @@ description: Puede editar la información de las tareas en una lista de tareas e
 author: Alina
 feature: Work Management
 exl-id: 2af81907-3657-459e-b780-65983e224ca8
-source-git-commit: ac5552f1c235f595b1c0d2558fcf88b1e03f5a8e
+source-git-commit: ac24b2486b9fc5a0b8c2944a6ec240140238b908
 workflow-type: tm+mt
-source-wordcount: '2764'
-ht-degree: 69%
+source-wordcount: '2762'
+ht-degree: 65%
 
 ---
 
@@ -509,33 +509,44 @@ Puede editar varias tareas a la vez. Asegúrese de tener permisos de administrac
    >No puede editar tareas de forma masiva al guardar tareas manualmente.
 
 1. Seleccione más de una tarea en la lista de tareas.
-1. Haga clic en el icono **Editar** ![Editar icono](assets/qs-edit-icon.png). Se abrirá el cuadro de diálogo **Editar tareas**.
+   <!--1. <span class="preview">(Optional) Click the **More** menu ![More menu](assets/more-icon.png) at the top of the task list, then **Recalculate Expressions** to update all information in calculated custom fields.</span> -->
+1. Haga clic en el icono **Editar** ![Editar icono](assets/qs-edit-icon.png). Se abre el cuadro de diálogo **Editar tareas** <!--<span class="preview">in the new experience</span>-->.
 
-1. Especifique la información que desee cambiar para todas las tareas seleccionadas.
+   Editar la información de todas las tareas es idéntico a editar la información de una tarea.
+Para obtener más información sobre cómo editar una tarea, consulte [Editar tareas](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
 
-   La edición de la información de todas las tareas es idéntica a la edición de la información de una sola tarea. Si desea editar la duración de la tarea, las tareas seleccionadas deben tener la misma restricción de tarea; de lo contrario, el campo **Duración** no se rellena.
+   <!--<span class="preview">1. In the new experience, do the following:</span> (******keep the below indented******)
+      1. Specify the information you want to change for all the tasks you selected in any of the following areas: 
+      <div class="preview">
+      * Overview
+      * Assignments
+      * Custom Forms
+      * Finance
+      * Settings
+      * Settings
+      * Comment
+      </div>-->
+   <!--<span class="preview">1. Click **Save**.</span>
+   <!--1. <span class="preview">(Optional) Click **Switch back to old experience** at the bottom of the Edit Tasks box.</span>-->
+1. <!--<span class="preview">In the old experience,, do the following:</span> (**********indent the steps below*********)--> Especifique la información que desea cambiar para todas las tareas seleccionadas en cualquiera de las siguientes áreas:
 
-   Para obtener más información sobre cómo editar una tarea, consulte [Editar tareas](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
+   * Información general
+   * Configuración
+   * Asignaciones
+   * Formularios personalizados
+   * Comentario
 
-   >[!NOTE]
-   >
-   >La información que está cambiando en todas las tareas seleccionadas anulará la información existente en las tareas individuales, excepto la del campo **Asignaciones**. Si se añade un nuevo usuario asignado en una edición masiva, se añadirá ese usuario asignado a todas las tareas seleccionadas. Si hay otras personas asignadas a las tareas seleccionadas, permanecerán asignadas además de las que se añadan mediante la edición masiva.
+     <!-- at release, move the below tip under the first set of bullet points, for the new experience-->
 
-1. Haga clic en **Formularios personalizados** para editar los formularios personalizados adjuntos a todas las tareas seleccionadas. En la lista solo se muestran los formularios personalizados activos.
+     >[!NOTE]
+     >
+     >* La información que está cambiando en todas las tareas seleccionadas anulará la información existente en las tareas individuales, excepto la del campo **Asignaciones**. Si se añade un nuevo usuario asignado en una edición masiva, se añadirá ese usuario asignado a todas las tareas seleccionadas. Si hay otras personas asignadas a las tareas seleccionadas, permanecerán asignadas además de las que se añadan mediante la edición masiva.
+     >* Si desea editar la duración de la tarea, las tareas seleccionadas deben tener la misma restricción de tarea. De lo contrario, el campo **Duration** no se rellena.
+     >
+     >* En la lista solo se muestran los formularios personalizados activos. Si las tareas seleccionadas no tienen ningún formulario personalizado en común, no se mostrará ningún formulario en esta sección.
+     >* Solo puede editar los campos de los formularios que están adjuntos a todas las tareas seleccionadas y para los que tiene permisos de edición.  Para obtener información sobre la edición en lotes de formularios personalizados, consulte [Administrar formularios personalizados adjuntos a objetos](../../../workfront-basics/work-with-custom-forms/manage-custom-forms-attached-to-objects.md).
 
-   Si las tareas seleccionadas no tienen ningún formulario personalizado en común, no se mostrará ningún formulario en esta sección.
 
-   Solo puede editar los campos de los formularios adjuntos a todas las tareas seleccionadas y para los que tiene permisos de edición.
-
-   <!--1. (Optional and conditional) Depending what environment you use to edit the tasks, do one of the following to recalculate custom expressions for all tasks:
-   1. In the Production environment, ADD THE SENTENCE FROM THE NEXT STEP HERE:-->
-
-1. (Opcional) En la sección Formularios personalizados, seleccione la opción **Volver a calcular expresiones personalizadas** para asegurarse de que todos los campos personalizados calculados incluidos en los formularios personalizados adjuntos a las tareas seleccionadas estén actualizados.
-
-   <!--
-   1. <span class="preview">In the Preview environment, with all the tasks selected in the list, click the **More** menu ![More menu](assets/more-icon.png) at the top of the task list, then click **Recalculate Expressions**. This is only available when you automatically save your changes. </span>
-
-   -->
+1. (Opcional) En la sección **Forms personalizado**, seleccione la opción **Volver a calcular expresiones personalizadas** para asegurarse de que todos los campos personalizados calculados que están en los formularios personalizados adjuntos a las tareas seleccionadas estén actualizados.
 1. Haga clic en **Guardar cambios**. Todos los cambios que haya realizado estarán ahora visibles en todas las tareas seleccionadas.
 
-Para obtener información sobre la edición en lotes de formularios personalizados, consulte [Administrar formularios personalizados adjuntos a objetos](../../../workfront-basics/work-with-custom-forms/manage-custom-forms-attached-to-objects.md).

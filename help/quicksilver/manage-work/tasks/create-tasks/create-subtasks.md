@@ -6,10 +6,10 @@ description: En Adobe Workfront, las tareas pueden tener relaciones principal-se
 author: Alina
 feature: Work Management
 exl-id: 3d970794-b5ea-422f-bc92-51846cb7db35
-source-git-commit: c1b8af0d8a95714bb597db7a429794773358cf05
+source-git-commit: ac24b2486b9fc5a0b8c2944a6ec240140238b908
 workflow-type: tm+mt
-source-wordcount: '542'
-ht-degree: 83%
+source-wordcount: '572'
+ht-degree: 73%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 83%
 
 <!-- Audited: 01/2025 -->
 
-En Adobe Workfront, las tareas pueden tener relaciones principal-secundario. Las tareas secundarias se denominan subtareas. Puede crear subtareas en la lista de tareas convirtiendo una tarea principal en una subtarea. También se puede convertir una subtarea en una tarea principal.
+En Adobe Workfront, las tareas pueden tener relaciones principal-secundario. Las tareas secundarias se denominan subtareas. Puede crear subtareas en la lista de tareas convirtiendo una tarea principal en una subtarea de otra tarea. También se puede convertir una subtarea en una tarea principal.
 
 ## Requisitos de acceso
 
@@ -84,6 +84,11 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 
 Puede crear subtareas desde la lista de tareas o desde la sección de subtareas de tareas.
 
+>[!TIP]
+>
+>Crear subtareas para un proyecto es similar a crear subtareas de plantilla para crear tareas de plantilla en una plantilla.
+
+
 ### Crear subtareas desde la lista de tareas {#create-subtasks-from-the-task-list}
 
 1. Vaya al proyecto donde desea crear subtareas.
@@ -113,12 +118,14 @@ Puede crear subtareas desde la lista de tareas o desde la sección de subtareas 
 1. Vaya al proyecto donde desea crear subtareas.
 1. Haga clic en la sección **Tareas** en el panel izquierdo.
 1. Haga clic en el nombre de la tarea donde desea crear una subtarea.
-1. Haga clic en la sección **Subtareas** del panel izquierdo, si está presente.
+1. Haga clic en la sección **Subtareas** del panel izquierdo, si está disponible.
 1. Haga clic en **Nueva tarea**
 
-   Siga los pasos del siguiente artículo para continuar creando la subtarea: [Crear tareas en un proyecto](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md).
+   Para obtener información sobre cómo crear tareas, vea [Crear tareas en un proyecto](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md).
 
 1. Haga clic en **Crear tarea.**
+
+   La nueva tarea se crea como una subtarea de la tarea seleccionada en el paso 3. <!--ensure this is accurate-->
 
 ## Hacer de una subtarea una tarea principal
 
