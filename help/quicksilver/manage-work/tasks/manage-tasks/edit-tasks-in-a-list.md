@@ -528,7 +528,7 @@ Para obtener más información sobre cómo editar una tarea, consulte [Editar ta
       </div>-->
    <!--<span class="preview">1. Click **Save**.</span>
    <!--1. <span class="preview">(Optional) Click **Switch back to old experience** at the bottom of the Edit Tasks box.</span>-->
-1. <!--<span class="preview">In the old experience,, do the following:</span> (**********indent the steps below*********)--> Especifique la información que desea cambiar para todas las tareas seleccionadas en cualquiera de las siguientes áreas:
+1. &#x200B;<!--<span class="preview">In the old experience,, do the following:</span> (**********indent the steps below*********)--> Especifique la información que desea cambiar para todas las tareas seleccionadas en cualquiera de las siguientes áreas:
 
    * Información general
    * Configuración
