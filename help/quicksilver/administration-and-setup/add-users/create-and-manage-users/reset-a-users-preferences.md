@@ -8,18 +8,16 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: abe026d0-3584-49f3-a6db-ef88b3aab186
-source-git-commit: 5706ebd11985b9e67c93686918f8f0327adabdf1
+source-git-commit: f1fe1a2fe6e123d8a039e8d7e3547c0b0a8141df
 workflow-type: tm+mt
-source-wordcount: '397'
-ht-degree: 75%
+source-wordcount: '365'
+ht-degree: 79%
 
 ---
 
 # Restablecer preferencias de usuario
 
 <!-- Audited: 12/2023 -->
-
-<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa de espacio aislado y se va a lanzar en un despliegue gradual en Producción.</span>
 
 Como administrador de Adobe Workfront, puede restablecer o quitar la configuración de preferencias de usuario de cualquier usuario del sistema de Workfront. 
 
@@ -106,8 +104,6 @@ Al restablecer las preferencias de usuario, algunas se revierten al valor predet
 
 <!--Display this table and hide the HTML table above, when the unshim is released.-->
 
-<div class="preview">
-
 | Preferencia | Estado tras el restablecimiento |
 | --- | --- |
 | Vistas | Revertido al valor predeterminado del sistema <p>Las vistas existentes no se eliminan. Se pueden volver a seleccionar.</p> |
@@ -116,8 +112,6 @@ Al restablecer las preferencias de usuario, algunas se revierten al valor predet
 | Lista de elementos recientes | Borrado |
 | Lista de favoritos | No afectado |
 | Preferencias de usuario | Revertido al valor predeterminado del sistema <p>Las notificaciones por correo electrónico se revierten a los valores predeterminados del sistema. Las notificaciones predeterminadas se enumeran en [Notificaciones de eventos disponibles en Adobe Workfront](/help/quicksilver/administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).</p> |
-
-</div>
 
 ## Restablecer preferencias de usuario
 
@@ -148,8 +142,8 @@ Al restablecer las preferencias de usuario, algunas se revierten al valor predet
 
 1. Presione **Intro**.
 
-1. <span class="preview">Para restablecer todas las preferencias de usuario, haga clic en **Restablecer**.</span>
+1. Para restablecer todas las preferencias de usuario, haga clic en **Restablecer**.
 
-   <span class="preview">O</span>
+   O
 
-   <span class="preview">Para restablecer la navegación izquierda del usuario a la configuración original de la plantilla de diseño, haga clic en **Restablecer navegación izquierda**.</span>
+   Para restablecer la navegación izquierda del usuario a la configuración original de la plantilla de diseño, haga clic en **Restablecer navegación izquierda**.
