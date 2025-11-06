@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: e9b96508d27da15472506aa36bdaa507ca9831ba
+source-git-commit: 829b3d343286b63922614b3855f9227667ad57a4
 workflow-type: tm+mt
-source-wordcount: '8992'
+source-wordcount: '9336'
 ht-degree: 2%
 
 ---
@@ -34,6 +34,61 @@ Para obtener más información, consulte [Crear y editar empresas](/help/quicksi
 
 ## Proyectos
 
+### Nueva experiencia al trabajar con tareas de plantilla
+
+**Versión preliminar: 6 de noviembre de 2025; versión de producción: a partir del 13 de noviembre de 2025**
+
+Hemos actualizado la experiencia al trabajar con tareas de plantilla.
+
+>[!NOTE]
+>
+>Tendrá la oportunidad de cambiar entre la experiencia antigua y la nueva de agregar o editar tareas de plantilla por un tiempo limitado.
+
+En esta actualización se incluyen los siguientes cambios:
+
+* La lista de tareas de plantilla de la sección Subtareas de una tarea de plantilla ahora coincide con la mayoría de las listas de Workfront
+
+* Los cuadros Nueva y Editar tarea de plantilla tienen un nuevo aspecto
+
+* Ahora puede actualizar los campos personalizados de búsqueda externa al editar tareas de plantilla
+
+* Hay una nueva experiencia para asignar recursos a tareas de plantilla. La nueva experiencia ahora está disponible tanto al editar una tarea como al editar varias tareas de forma masiva. Los campos siguientes se han eliminado del cuadro Editar tareas:
+
+* Asignaciones
+   * Propietario o propietario de tarea
+   * Rol de asignado
+
+Puede seguir encontrando los campos eliminados al realizar asignaciones avanzadas en tareas de plantilla.
+
+Para obtener más información, consulte [Editar tareas de plantilla](/help/quicksilver/manage-work/projects/create-and-manage-templates/edit-template-task.md).
+
+
+### Nueva experiencia al editar por lotes y realizar tareas de asignación única o por lotes
+
+**Versión preliminar: 6 de noviembre de 2025; versión de producción: a partir del 13 de noviembre de 2025**
+
+Hemos actualizado la casilla Editar tareas al editar tareas únicas o editarlas por lotes.
+
+>[!NOTE]
+>
+>Tendrá la oportunidad de cambiar entre la experiencia antigua y la nueva para editar tareas durante un tiempo limitado.
+
+En esta actualización se incluyen los siguientes cambios:
+
+* La opción Recalcular expresiones personalizadas se ha eliminado al actualizar tareas de forma masiva y se ha agregado al menú Más en una lista de tareas, después de seleccionar varias tareas.
+
+* Ahora puede actualizar los campos personalizados de búsqueda externa
+
+* Hay una nueva experiencia para asignar recursos a tareas. Ahora está disponible tanto al editar una tarea como al editar varias tareas de forma masiva. Los campos siguientes se han eliminado del cuadro Editar tareas:
+
+   * Asignaciones
+   * Propietario o propietario de tarea
+   * Rol de asignado
+
+Puede seguir encontrando los campos eliminados al realizar asignaciones avanzadas en tareas.
+
+Para obtener más información, consulte [Editar tareas](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md).
+
 ### Actualización de la interfaz al convertir una tarea en un proyecto mediante una plantilla
 
 **Versión preliminar: 30 de octubre de 2025; versión de producción: a partir del 6 de noviembre de 2025**
@@ -41,26 +96,6 @@ Para obtener más información, consulte [Crear y editar empresas](/help/quicksi
 Hemos actualizado el cuadro Convertir en proyecto al convertir una tarea en un proyecto mediante una plantilla. El diseño del cuadro ahora coincide con el cuadro Editar proyecto.
 
 Para obtener más información, vea [Convertir una tarea en un proyecto](/help/quicksilver/manage-work/tasks/manage-tasks/convert-task-to-project.md).
-
-<!--### New experience when bulk editing and single- or bulk-assigning tasks
-
-**Preview release: October 30, 2025; Production release: Starting on November 6, 2025**
-
-We have updated the Edit Tasks box when editing single tasks or editing them in bulk. The following changes are included in this update:
-
-* The Recalculate Custom Expressions option has been removed when updating tasks in bulk and has been added to the More menu in a task list, after selecting multiple tasks.
-
-* There is a new experience for assigning resources to tasks. This is now available both when editing one task or editing several tasks in bulk. The following fields have been removed from the Edit tasks box:
-
-* Allocations
-* Owner or Task Owner
-* Assignee's Role
-
-You can still find the removed fields when making advanced assignments on tasks.
-
-You will have a chance to switch between the old and the new experience for editing tasks for a limited time.
-
-For information, see [Edit tasks](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md).-->
 
 ### Nueva experiencia al editar por lotes y problemas de asignación individual o por lotes
 
@@ -72,11 +107,13 @@ En esta actualización se incluyen los siguientes cambios:
 
 * La opción Recalcular expresiones personalizadas se ha eliminado al actualizar problemas de forma masiva. La opción se ha añadido al menú Más en una lista de problemas, después de seleccionar varios problemas.
 
+* Ahora puede actualizar los campos personalizados de búsqueda externa al editar problemas.
+
 * Hay una nueva experiencia para asignar recursos a los problemas. Esto ya está disponible cuando se edita un problema o se editan varios problemas de forma masiva. Los siguientes campos se han eliminado del cuadro Editar problemas:
 
-* Asignaciones
-* Propietario o propietario del problema
-* Rol de asignado
+   * Asignaciones
+   * Propietario o propietario del problema
+   * Rol de asignado
 
 Puede actualizar los campos eliminados al realizar asignaciones avanzadas en problemas.
 
