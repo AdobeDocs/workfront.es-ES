@@ -8,10 +8,10 @@ feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 1449374a-ab0d-4c98-83cd-4e511467633a
-source-git-commit: 7fef704355fad677f2bdf40e630ea0146a9e1d58
+source-git-commit: 0358e79bd606d0035959bba2a47256456b529b18
 workflow-type: tm+mt
-source-wordcount: '2741'
-ht-degree: 24%
+source-wordcount: '2532'
+ht-degree: 26%
 
 ---
 
@@ -19,13 +19,13 @@ ht-degree: 24%
 
 <!--Audited: 10/2025-->
 
-<div class="preview">
+<!--<div class="preview"> 
 
-La información resaltada en esta página hace referencia a funcionalidades que aún no están disponibles de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Las mismas funciones también estarán disponibles en el entorno de producción para todos los clientes a partir de una semana desde la versión de vista previa.
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
 
-Para obtener más información, vea [Modernización de la interfaz](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
 
-</div>
+</div>-->
 
 Puede editar la información sobre los problemas que ha creado o que otros usuarios han creado si han compartido los problemas con usted.
 
@@ -135,7 +135,7 @@ Puede editar un problema mediante las áreas Editar problema o Detalles del prob
 
    1. (Opcional) Haga clic en el icono **Contraer todo** en la esquina superior derecha para contraer todas las áreas.
    1. (Opcional y condicional) Cuando un área esté contraída, haga clic en la **flecha que señala a la derecha** ![flecha que señala a la derecha](assets/right-pointing-arrow.png) junto a cada área para expandir el área que desea editar.
-   1. (Opcional) Para adjuntar un formulario personalizado, empiece a escribir el nombre de un formulario en el campo **Agregar formulario personalizado**, selecciónelo cuando se muestre en la lista y, a continuación, haga clic en **Guardar cambios**.
+   1. (Opcional) Para adjuntar un formulario personalizado, empiece a escribir el nombre de un formulario en el campo **Añadir formulario personalizado**, selecciónelo cuando se muestre en la lista y, a continuación, haga clic en **Guardar cambios**.
    1. (Opcional) Haga clic en el icono **Exportar** ![Icono de exportar](assets/export.png) para exportar la información general y de los formularios personalizados a un archivo de PDF y, a continuación, haga clic en **Exportar**. Seleccione entre las siguientes opciones:
 
       * Seleccionar todo (solo se muestra cuando hay al menos un formulario personalizado adjunto)
@@ -276,7 +276,7 @@ Puede editar un problema mediante las áreas Editar problema o Detalles del prob
       <td> <p>Es la fecha en la que el usuario asignado del problema calcula que se resolverá el problema. Solo las personas asignadas pueden editar este campo.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Fecha planificada de inicio</td> 
+      <td role="rowheader">Fecha de inicio planificada</td> 
       <td>De forma predeterminada, la Fecha planificada de inicio es la fecha y la hora en que se creó el problema. Puede actualizar la <strong>fecha planificada de inicio</strong> del problema. </td> 
      </tr> 
      <tr> 
@@ -348,14 +348,9 @@ Puede editar un problema mediante las áreas Editar problema o Detalles del prob
    >* Reasignar el elemento de trabajo a los recursos activos.
    >* Asocie los usuarios de un equipo desactivado a un equipo activo y reasigne el elemento de trabajo al equipo activo.
 
-1. (Condicional) Según el entorno en el que esté editando los problemas, realice una de las siguientes acciones:
-
-   1. En el entorno de producción:
-
-      1. Indique si un usuario asignado es el principal asignado al problema; para ello, pase el ratón sobre el nombre del usuario asignado y haga clic en **Convertir en principal**. Un equipo no puede ser el principal asignado a un problema.
-
-      1. Actualice los campos siguientes:
-
+   <!--1. In the Production environment:
+         1. Indicate whether an assignee is the primary assignee on the issue, by hovering over the name of the assignee and clicking **Make Primary**. A team cannot be the primary assignee of an issue.
+         1. Update the following fields: 
          <table style="table-layout:auto"> 
          <col> 
          </col> 
@@ -363,30 +358,27 @@ Puede editar un problema mediante las áreas Editar problema o Detalles del prob
          </col> 
          <tbody> 
          <tr> 
-            <td role="rowheader">Horas planificadas</td> 
-            <td> <p>Es la cantidad de tiempo real que tardarían los usuarios asignados del problema en completarlo. Escriba el número de horas planificadas para el problema.<br></p> <p><b>NOTA</b></p>  <p>Al cambiar las horas planificadas del problema, no se cambiará la fecha planificada de finalización del problema. </p> </td> 
+            <td role="rowheader">Planned Hours</td> 
+            <td> <p>This is the amount of actual time it would take the assignees of the issue to complete it. Type the number of Planned Hours for the issue.<br></p> <p><b>NOTE</b></p>  <p>Changing the Planned Hours of the issue will not change the issue Planned Completion Date. </p> </td> 
          </tr> 
          <tr data-mc-conditions=""> 
-            <td role="rowheader">Rol de asignado</td> 
-            <td> <p>Seleccione un rol del menú desplegable <strong>Rol de usuario asignado</strong> cuando haya seleccionado una persona como usuario asignado. Esta es la función que el usuario asignado puede desempeñar en este problema. </p> <p><b>Sugerencia</b>
-
-         En el menú desplegable solo aparecen los roles de trabajo asociados con cada usuario asignado en su perfil.</p> </td>
+            <td role="rowheader">Assignee's Role</td> 
+            <td> <p>Select a role from the <strong>Assignee's Role</strong> drop-down menu when you selected a person as an assignee. This is the role that the assignee can fulfill on this issue. </p> <p><b>TIP</b>
+            
+            Only the job roles associated with each assignee in their profile appear in the drop-down menu.</p> </td> 
          </tr> 
          </tbody> 
-         </table>
+         </table>-->
 
 
+1. (Opcional) Haga clic en **Asignármelo** para asignarse el problema a sí mismo.
+1. (Opcional) Actualice el campo **Horas planificadas**.
 
-   1. <span class="preview">(Condicional) En el entorno de vista previa, realice una de las siguientes acciones:</span>
+   Las **horas planificadas** son la cantidad de horas que los usuarios asignados del problema necesitarían para completarlo.
 
-      * <span class="preview">Haga clic en **Asignármelo** para asignarse el problema a sí mismo </span>
-      * <span class="preview">Actualizar el campo **Horas planificadas**.</span>
-
-        Las **horas planificadas** son la cantidad de horas que los usuarios asignados del problema necesitarían para completarlo.
-
-        >[!NOTE]
-        >
-        >Al cambiar las horas planificadas del problema, no se cambiará la fecha planificada de finalización del problema.
+   >[!NOTE]
+   >
+   >Al cambiar las horas planificadas del problema, no se cambiará la fecha planificada de finalización del problema.
 
 1. Para quitar asignaciones de todos los problemas, consulte [Asignar problemas](/help/quicksilver/manage-work/issues/manage-issues/assign-issues.md).
 

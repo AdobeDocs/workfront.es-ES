@@ -6,20 +6,19 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: a18b70b20e37f9751fbae2d4aad76e4905f976b2
+source-git-commit: 0358e79bd606d0035959bba2a47256456b529b18
 workflow-type: tm+mt
-source-wordcount: '3401'
-ht-degree: 69%
+source-wordcount: '3500'
+ht-degree: 67%
 
 ---
 
 # Administrar la vista de tabla
 
-<!--
 
-<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">La información resaltada en esta página hace referencia a funcionalidades que aún no están disponibles de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después de las versiones mensuales en Production, las mismas funciones también están disponibles en el entorno Production para los clientes que habilitaron versiones rápidas. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span> -->
+<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -192,7 +191,7 @@ Puede añadir hasta 500 campos (o columnas) en una vista de tabla.
 
    Las columnas que añada serán visibles para todos los usuarios que tengan acceso al tipo de registro y se añadirán como campos nuevos en la página del registro.
 
-1. (Opcional) Haga clic en el icono **Campos** ![Icono de Campos](assets/fields-icon.png) en la barra de herramientas, busque el campo en la lista <!--or <span class="preview"> search for a field</span>,--> y anule la selección del botón de alternancia a la derecha del nombre del campo para ocultar el campo.
+1. (Opcional) Haga clic en el icono **Campos** ![Icono de campos](assets/fields-icon.png) en la barra de herramientas, busque el campo en la lista o <span class="preview"> busque un campo</span> y anule la selección del botón de alternancia a la derecha del nombre del campo para ocultar el campo.
 
 1. Realice una de las siguientes acciones para reordenar las columnas de la tabla:
 
@@ -312,9 +311,7 @@ Para añadir un filtro a una vista de tabla:
 1. Seleccione una vista de tabla y luego haga clic en **Filtros** en la esquina superior derecha de la tabla.
 1. Haga clic en **Añadir condición** y añada la siguiente información:
 
-   * **Seleccione un campo** por el que desea filtrar <!-- the tip below might change-->
-
-     <!--replace the bullet above with this at preview release: <span class="preview">Search for a field or </span> click the drop-down menu to display a list of fields and select it from the list-->
+   * <span class="preview">Busque un campo o </span> haga clic en el menú desplegable para mostrar una lista de campos y selecciónela en la lista.
 
    * **Seleccione una opción** (o un modificador de filtro) para definir qué tipo de condición debe cumplir el campo
 
@@ -545,9 +542,7 @@ To sort grouped records:
 
 1. (Opcional) Haga clic en **Colores de fila** para definir las condiciones y elegir configurar diferentes colores para las filas de la tabla.
 
-1. Haga clic en **Agregar color** y, a continuación, **Seleccione un campo** cuyo valor desee determinar el color de una fila.
-
-   <!--replace the text for this step above with this at preview release: Click **Add color**, then <span class="preview">search for a field or </span> click the drop-down menu to display a list of fields and select it from the list. This is the field whose value you want to determine the color of a row.-->
+1. Haga clic en **Agregar color** y, a continuación, <span class="preview">busque un campo o </span> haga clic en el menú desplegable para mostrar una lista de campos y seleccionarla en la lista. Este es el campo cuyo valor desea determinar el color de una fila.
 
    Por ejemplo, para mostrar campañas con el estado Activo en verde, seleccione **Estado** y, a continuación, elija un modificador y un valor para el campo.
 

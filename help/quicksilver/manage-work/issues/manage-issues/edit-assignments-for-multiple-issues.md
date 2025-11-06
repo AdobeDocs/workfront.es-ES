@@ -6,10 +6,10 @@ description: Modificar asignaciones de usuarios para varios problemas en una lis
 author: Lisa
 feature: Work Management
 exl-id: e1e75027-1847-44cf-afeb-b19394dc3ea5
-source-git-commit: ac24b2486b9fc5a0b8c2944a6ec240140238b908
+source-git-commit: 0358e79bd606d0035959bba2a47256456b529b18
 workflow-type: tm+mt
-source-wordcount: '968'
-ht-degree: 53%
+source-wordcount: '521'
+ht-degree: 50%
 
 ---
 
@@ -20,13 +20,13 @@ ht-degree: 53%
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: similar article exists for tasks)</p>
 -->
 
-<div class="preview">
+<!--<div class="preview"> 
 
-La información resaltada en esta página hace referencia a funcionalidades que aún no están disponibles de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Las mismas funciones también estarán disponibles en el entorno de producción para todos los clientes a partir de una semana desde la versión de vista previa.
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with a week from the Preview release.      
 
-Para obtener más información, vea [Modernización de la interfaz](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
 
-</div>
+</div> -->
 
 Puede modificar simultáneamente las asignaciones de usuarios a varios problemas. Para obtener información sobre cómo editar problemas o asignarlos de uno en uno, consulte los siguientes artículos:
 
@@ -107,76 +107,59 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 
    Se muestra la opción **Editar problemas**. El número de elementos seleccionados se muestra en la esquina superior izquierda de la página.
 
-1. (Condicional) En el entorno Producción, haga lo siguiente:
+1. Haga clic en **Asignaciones** en el panel izquierdo y, a continuación, haga clic en el icono **x** junto al usuario asignado que desee eliminar.
 
-   1. Vaya a la sección **Asignaciones** y, a continuación, seleccione **Usuario asignado**.
+   >[!TIP]
+   >
+   >Solo se muestran las personas asignadas a todos los problemas seleccionados en el área **Asignaciones**.
 
-      ![Área de asignaciones](assets/classic-assignmens-area-on-edit-box-350x119.png)
+   ![Área de asignaciones en problemas de edición masiva](assets/assignments-area-on-bulk-edit-issues.png)
 
-   1. Realice una de las siguientes acciones:
+1. Empiece a escribir el nombre de un usuario, rol o equipo para agregar usuarios asignados a todos los problemas seleccionados.
 
-      1. Para añadir un nuevo usuario asignado:
+   >[!TIP]
+   >
+   >Puede asignar varios usuarios, funciones o equipos. Solo puede asignar usuarios, funciones y equipos activos.
+   >
+   >Si se asignó un usuario, una función o un equipo antes de desactivarlos, permanecen asignados al elemento de trabajo. En este caso, se recomienda lo siguiente:
+   >
+   >* Reasignar el elemento de trabajo a los recursos activos.
+   >* Asocie los usuarios de un equipo desactivado a un equipo activo y reasigne el elemento de trabajo al equipo activo.
 
-         1. Empiece a escribir el nombre de un usuario, función o equipo y, a continuación, selecciónelo cuando aparezca en la lista. La asignación se añade y no sustituye a las asignaciones actuales en los problemas seleccionados.
+   Los usuarios asignados añadidos se añaden a los existentes. No reemplazan a los existentes para cada problema seleccionado.
 
+1. (Opcional) Haga clic en **Asignármelo** para asignarse a sí mismo todos los problemas.
+1. Haga clic en **Guardar**.
+
+
+   <!--Old functionality for assignments for issues - before November 2025:
+   1. (Conditional) In the Production environment, do the following: 
+   1. Go to the **Assignments** section, then select **Assignee**.
+      ![Assignments area](assets/classic-assignmens-area-on-edit-box-350x119.png)
+   1. Do one of the following:
+      1. To add a new assignee:
+         1. Start typing the name of a user, role, or team, then select it when it displays in the list. The assignment is added and does not replace the current assignments on the selected issues.
          >[!TIP]
          >
-         >Puede asignar varios usuarios, funciones o equipos. Solo puede asignar usuarios, funciones y equipos activos.
+         >You can assign multiple users, job roles, or teams. You can assign only active users, job roles, and teams.
          >
-         >Si se asignó un usuario, una función o un equipo antes de desactivarlos, permanecen asignados al elemento de trabajo. En este caso, se recomienda lo siguiente:
+         >If a user, job role, or a team was assigned before they were deactivated, they remain assigned to the work item. In this case, we recommend the following:
          >
-         >* Reasignar el elemento de trabajo a los recursos activos.
-         >* Asocie los usuarios de un equipo desactivado a un equipo activo y reasigne el elemento de trabajo al equipo activo.
-
-         Se muestra la información común a todos los problemas seleccionados. Por ejemplo, si se asigna el mismo usuario a todos los problemas, ese usuario se muestra en la columna **Usuario asignado**. Si la información no es común a los problemas seleccionados, no se muestra ninguna información.
-
-      1. Para quitar usuarios asignados individuales:
-
-         1. Haga clic en el **icono X** junto al nombre del usuario asignado que desee eliminar si este aparece en la lista Asignaciones.
-
-            O
-
-            Si el usuario asignado que desea eliminar no aparece en la sección Asignaciones porque el usuario asignado solo está asignado a algunos de los problemas que ha seleccionado, haga clic en **Quitar usuario asignado** y empiece a escribir el nombre del usuario asignado que desea eliminar; a continuación, haga clic en el nombre cuando aparezca en la lista desplegable.
-
-         1. Vuelva a hacer clic en **Quitar usuario asignado** para agregar otro usuario asignado que eliminar.
-
-      1. Para quitar todos los usuarios asignados existentes:
-
-         1. Haga clic en **Quitar todos los usuarios asignados existentes** y, a continuación, en **Sí, eliminar todos los usuarios asignados**.
-
-            Esto elimina no solo los usuarios asignados comunes (los usuarios asignados que se muestran en el cuadro de diálogo de edición), sino también todos los usuarios asignados de todos los problemas seleccionados.
-
-         1. (Opcional) Modifique cualquiera de las siguientes opciones para los usuarios asignados que ha seleccionado para asociar a los problemas:
-
-            * **Propietario del problema:** Seleccione el botón de opción para indicar qué usuario asignado está designado como Propietario del problema. Si se deja sin seleccionar, Adobe Workfront designa como propietario de problemas al primer usuario asignado. Esto no está disponible para asignaciones de equipo.
-            * **Función de usuario asignado**: seleccione una función de la lista desplegable. Si se deja sin seleccionar, Workfront selecciona automáticamente la función principal del usuario.
-
-      1. Haga clic en **Guardar cambios**.
-
-1. <span class="preview">En el entorno de vista previa, haga lo siguiente:</span>
-
-   1. <span class="preview">Haga clic en **Asignaciones** en el panel izquierdo y, a continuación, haga clic en el icono **x** junto al usuario asignado que desee eliminar. </span>
-
-      >[!TIP]
-      >
-      ><span class="preview">Solo se muestran las personas asignadas a todos los problemas seleccionados en el área de **Asignaciones**. </span>
-
-      ![Área de asignaciones en problemas de edición masiva](assets/assignments-area-on-bulk-edit-issues.png)
-
-   1. <span class="preview">Empiece a escribir el nombre de un usuario, rol o equipo para agregar usuarios asignados a todos los problemas seleccionados. </span>
-
-      >[!TIP]
-      >
-      >Puede asignar varios usuarios, funciones o equipos. Solo puede asignar usuarios, funciones y equipos activos.
-      >
-      >Si se asignó un usuario, una función o un equipo antes de desactivarlos, permanecen asignados al elemento de trabajo. En este caso, se recomienda lo siguiente:
-      >
-      >* Reasignar el elemento de trabajo a los recursos activos.
-      >* Asocie los usuarios de un equipo desactivado a un equipo activo y reasigne el elemento de trabajo al equipo activo.
-
-      <span class="preview">Los usuarios asignados agregados se agregan a los existentes. No reemplazan a los existentes para cada problema seleccionado. </span>
-   1. <span class="preview">(Opcional) Haga clic en **Asignármelo** para asignarse todos los problemas.</span>
-   1. <span class="preview">Haga clic en **Guardar**. </span>
+         >* Reassign the work item to active resources.
+         >* Associate the users in a deactivated team with an active team and reassign the work item to the active team.
+          Information that is common across all issues selected displays. For example, if the same user is assigned to all issues, that user displays in the **Assignee**  column. If information is not common across the issues selected, no information displays.
+      1. To remove individual assignees:
+         1. Click the **X icon** next to the name of the assignee that you want to remove if the assignee displays in the Assignments list.
+            Or
+            If the assignee that you want to remove does not display in the Assignments section because the assignee is assigned to only some of the issues that you have selected, click **Remove Assignee** and start typing the name of the assignee that you want to remove, then click the name when it appears in the drop-down list.
+         1. Click  **Remove Assignee** again to add another assignee to remove.
+      1. To remove all existing assignees:
+         1. Click **Remove All Existing Assignees**, then click **Yes, Delete All Assignees**.
+            This removes not only common assignees (assignees that are displayed in the edit  dialog box), but also all assignees on all the selected issues.
+         1. (Optional) Modify any of the following options for the assignees you selected to associate with the issues:
+          * **Issue Owner:**  Select the radio button to indicate which assignee is designated as the Issues Owner. If left unselected, Adobe Workfront designates the first assignee as the Issue Owner. This is not available for team assignments. 
+            * **Assignee's Role**: Select a role from the drop-down list. If left unselected, Workfront automatically selects the Primary Role of the user.
+      1. Click **Save Changes**.-->
 
 
 

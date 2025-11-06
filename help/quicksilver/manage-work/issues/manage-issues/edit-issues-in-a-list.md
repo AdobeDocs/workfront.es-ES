@@ -6,10 +6,10 @@ description: Puede editar un problema individual o editar problemas en una lista
 author: Alina
 feature: Work Management
 exl-id: a3276d83-c08f-4480-9092-aa47ba76d794
-source-git-commit: 7fef704355fad677f2bdf40e630ea0146a9e1d58
+source-git-commit: 0358e79bd606d0035959bba2a47256456b529b18
 workflow-type: tm+mt
-source-wordcount: '992'
-ht-degree: 16%
+source-wordcount: '875'
+ht-degree: 18%
 
 ---
 
@@ -18,13 +18,13 @@ ht-degree: 16%
 <!--Audited: 10/2025-->
 
 
-<div class="preview">
+<!--<div class="preview"> 
 
-La información resaltada en esta página hace referencia a funcionalidades que aún no están disponibles de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Las mismas funciones también estarán disponibles en el entorno de producción para todos los clientes a partir de una semana desde la versión de vista previa.
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
 
-Para obtener más información, vea [Modernización de la interfaz](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
 
-</div>
+</div> -->
 
 Puede editar un problema individual o editar problemas en una lista de problemas o un informe. Este artículo describe cómo editar problemas en listas.
 
@@ -172,15 +172,11 @@ Para editar problemas de forma masiva:
 
    La edición de la información sobre todos los problemas es idéntica a la edición de la información sobre un problema al editar las siguientes áreas:
 
-   <div class="preview">
-
    * Información general
    * Asignaciones
    * Formularios personalizados
    * Configuración
    * Comentario
-
-   </div>
 
    Para obtener más información sobre cómo editar un problema, consulte [Editar problemas](../../../manage-work/issues/manage-issues/edit-issues.md).
 
@@ -194,16 +190,16 @@ Para editar problemas de forma masiva:
 
    Solo puede editar los campos de los formularios que están adjuntos a todos los problemas seleccionados y para los que tiene permisos de edición.
 
-1. (Opcional y condicional) Según el entorno que utilice para editar los problemas, realice una de las siguientes acciones para volver a calcular las expresiones personalizadas de todos los problemas:
+   <!--1. In the Production environment, in the **Custom Forms** area, select the **Recalculate Custom Expressions** option to ensure that all Calculated Custom Fields that are on the Custom Forms attached to the issues selected are up to date.-->
 
-   1. En el entorno Producción, en el área **Forms personalizado**, seleccione la opción **Volver a calcular expresiones personalizadas** para asegurarse de que todos los campos personalizados calculados que se encuentran en el Forms personalizado adjunto a los problemas seleccionados estén actualizados.
+1. Haga clic en **Guardar**.
 
-   1. <span class="preview">En el entorno de vista previa, con todos los problemas seleccionados en la lista, haga clic en el menú **Más** ![Menú más](assets/more-icon.png) en la parte superior de la lista de problemas y, a continuación, haga clic en **Volver a calcular expresiones**. </span>
+   Todos los cambios que ha realizado ahora están visibles en todos los problemas seleccionados.
+
+1. (Opcional) Con todos los problemas seleccionados en la lista, haga clic en el menú **Más** ![Menú más](assets/more-icon.png) en la parte superior de la lista de problemas y, a continuación, haga clic en **Volver a calcular expresiones**.
 
    >[!IMPORTANT]
    >
    >Se recomienda no seleccionar más de 500 problemas a la vez cuando se recalculan las expresiones personalizadas.
 
-1. Haga clic en **Guardar cambios**.
 
-   Todos los cambios que ha realizado ahora están visibles en todos los problemas seleccionados.

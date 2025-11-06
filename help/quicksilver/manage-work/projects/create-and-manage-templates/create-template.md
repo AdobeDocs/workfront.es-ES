@@ -6,16 +6,24 @@ description: Puede crear y eliminar plantillas desde el área Plantillas. Al cre
 author: Alina
 feature: Work Management
 exl-id: 5094ba3f-3cb0-4301-aa7d-88c64d112b78
-source-git-commit: 46133f435c665dd82d134f18d0b5de4e70bab7d7
+source-git-commit: 0358e79bd606d0035959bba2a47256456b529b18
 workflow-type: tm+mt
-source-wordcount: '654'
-ht-degree: 59%
+source-wordcount: '779'
+ht-degree: 51%
 
 ---
 
 # Crear una plantilla de proyecto
 
 <!-- Audited: 10/2025 -->
+
+<div class="preview">
+
+La información resaltada en esta página hace referencia a funcionalidades que aún no están disponibles de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Las mismas funciones también estarán disponibles en el entorno de producción para todos los clientes a partir de una semana desde la versión de vista previa.
+
+Para obtener más información, vea [Modernización de la interfaz](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).
+
+</div>
 
 Puede crear y eliminar plantillas desde el área Plantillas. Al crear una plantilla nueva, puede introducir la información de todas las tareas y de la configuración futura del proyecto. Esta información se transferirá a cualquier proyecto que cree a partir de la plantilla.
 
@@ -112,23 +120,32 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
 
    ![Nueva tarea de plantilla](assets/new-template-task-box.png)
 
-   <!--<span class="preview">The Create Template Task opens in the new experience.</span>-->
+   <span class="preview">Se abre el cuadro **Crear tarea de plantilla** en la nueva experiencia.</span>
 
-   <!--
-   1. <span class="preview">(Conditional) Using the new experience, update information in the following areas in the **Create Template Task** box:</span>
+1. <span class="preview">(Condicional) Con la nueva experiencia, actualice la información en las siguientes áreas del cuadro **Crear tarea de plantilla**:</span>
+
    <div class="preview">
-   * Template Task Name
-   * Overview
-   * Assignments
-   * Finance
-   * Custom Forms
-   * Documents
-   * Settings 
+
+   * Nombre de tarea de plantilla
+   * Información general
+   * Asignaciones
+   * Finanzas
+   * Formularios personalizados
+   * Documentos
+   * Configuración
+
    </div>
-   1. Click **Save**
-   Or (*******remove the 1. from the step below and continue with those steps here*********)
-   1. (Optional) Click **Switch back to old experience** at the bottom of the **Create Template Task** box.
-   The **New Template Task** opens. (************add screen shot***********)-->
+
+1. Haga clic en **Crear tarea de plantilla**
+
+   O
+
+   <span class="preview">Haga clic en **Volver a la experiencia anterior** en la parte inferior del cuadro **Crear tarea de plantilla**.</span>
+   <span class="preview">La **nueva tarea de plantilla** se abre en la experiencia anterior.</span>
+
+   >[!TIP]
+   >
+   >En Producción, la experiencia antigua se abre de forma predeterminada.
 
 1. Actualice la información en las áreas siguientes del cuadro **Nueva tarea de plantilla**:
 
@@ -148,7 +165,7 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
 1. Haga clic en una de las siguientes opciones:
 
    * **Guardar tarea de plantilla** para guardar la tarea de plantilla actual y cierra el cuadro Nueva tarea de plantilla.
-   * **Guardar tarea de plantilla e iniciar otra** para guardar la tarea de plantilla actual y abrir otro cuadro Nueva tarea de plantilla para agregar otra tarea.
+   * **Guardar tarea de plantilla e iniciar otra** para guardar la tarea de plantilla actual y abrir otro cuadro **Nueva tarea de plantilla** para agregar otra tarea.
    * **Cancelar** para cerrar el cuadro sin guardar la tarea de plantilla.
 1. (Opcional) Después de agregar las tareas de plantilla, en la sección Tareas de plantilla, haga clic en el icono **Diagrama de Gantt** en la esquina superior derecha de la Lista de tareas para ver una representación visual de la lista de tareas de la plantilla.
 

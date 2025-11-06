@@ -7,10 +7,10 @@ author: Lisa
 feature: Work Management
 role: User
 exl-id: e2dce29e-7370-4580-8326-99c4437998bf
-source-git-commit: 7fef704355fad677f2bdf40e630ea0146a9e1d58
+source-git-commit: 0358e79bd606d0035959bba2a47256456b529b18
 workflow-type: tm+mt
-source-wordcount: '1731'
-ht-degree: 38%
+source-wordcount: '1366'
+ht-degree: 46%
 
 ---
 
@@ -18,13 +18,13 @@ ht-degree: 38%
 
 <!--Audited: 10/2024-->
 
-<div class="preview">
+<!--<div class="preview"> 
 
-La información resaltada en esta página hace referencia a funcionalidades que aún no están disponibles de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Las mismas funciones también estarán disponibles en el entorno de producción para todos los clientes a partir de una semana desde la versión de vista previa.
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
 
-Para obtener más información, vea [Modernización de la interfaz](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
 
-</div>
+</div> -->
 
 Puede asignar problemas a usuarios, funciones y equipos para indicar quién es el responsable de completar los problemas. Para obtener información general sobre la asignación de problemas, consulte [Información general sobre la modificación de asignaciones de problemas](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md).
 
@@ -202,36 +202,39 @@ Para obtener más información, consulte la sección &quot;Asignaciones&quot; en
 
 ## Asignar problemas de forma masiva
 
-La asignación de problemas por lotes es diferente en función del entorno que elija para hacerlo.
+<!--
+Assigning issues in bulk is different depending on what environment you choose to do this. 
 
-### Asignar problemas por lotes en el entorno de producción
+### Assign issues in bulk in the Production environment 
 
-1. Vaya a una lista de problemas que desee asignar de forma masiva.
-1. Seleccione varios problemas en la lista.
-1. Haga clic en el **icono Editar** ![icono Editar](assets/qs-edit-icon.png).
+1. Go to a list of issues that you want to assign in bulk. 
+1. Select several issues in the list. 
+1. Click the **Edit icon** ![Edit icon](assets/qs-edit-icon.png).
 
-   Se abre el cuadro de diálogo **Editar problemas**.
+   The **Edit Issues** dialog box opens.
 
-1. En el área **Asignaciones**, seleccione la casilla **Usuario asignado** y, a continuación, empiece a escribir el nombre de un usuario, rol o equipo que desee asignar a todos los problemas.
+1. In the **Assignments** area, select the **Assignee** box, then start typing the name of a user, job role, or team that you want to assign to all the issues.
 
    >[!IMPORTANT]
    >
-   >Si alguno de los problemas ya está asignado, los recursos que indique aquí se agregan a los problemas en lugar de reemplazar los recursos existentes en los problemas.
+   >If any of the issues is already assigned, the resources you indicate here are added to the issues instead of replacing the existing resources on the issues. 
+   
+1. (Optional) Select the radio button in the **Issue Owner** column to indicate which resource is the primary assignee or the Owner of the issue, when you assign more than one resource to the issue. This is not available for teams. 
+1. (Optional) Select a role that the user should fulfill on the issue from the **Pick a role** drop-down menu in the **Assignee's Role** column when you assign users to issues. If you do not select a role, Workfront automatically selects the user's Primary Role. 
 
-1. (Opcional) Seleccione el botón de opción en la columna **Propietario del problema** para indicar qué recurso es el principal asignado o el propietario del problema, cuando asigne más de un recurso al problema. Esto no está disponible para equipos.
-1. (Opcional) Seleccione un rol que el usuario deba cumplir en el problema desde el menú desplegable **Elegir un rol** en la columna **Rol de asignado** cuando asigne usuarios a los problemas. Si no selecciona ninguna función, Workfront selecciona automáticamente la función principal del usuario.
+1. (Optional) If you want to remove existing assignees from all issues do one of the following:
 
-1. (Opcional) Si desea quitar los usuarios asignados existentes de todos los problemas, realice una de las siguientes acciones:
+   1. Start typing the name of a user, role, or team you want to remove from the issue, then select it when it appears on the list and click **Remove Assignee** to add additional assignees to remove. 
+   1. Click **Remove All Existing Assignees** to remove all assignees from all selected issues.
 
-   1. Empiece a escribir el nombre de un usuario, rol o equipo que desee eliminar del problema y, a continuación, selecciónelo cuando aparezca en la lista y haga clic en **Quitar usuario asignado** para agregar usuarios asignados adicionales que eliminar.
-   1. Haga clic en **Quitar todas las personas asignadas existentes** para quitar todas las personas asignadas de todos los problemas seleccionados.
-
-1. Haga clic en **Guardar cambios**.
-1. (Opcional y condicional) Cuando los campos Asignado a o Asignaciones se muestren en su lista de problemas, haga clic dentro de una de estas columnas para un problema y luego haga clic en el **icono X** junto al nombre de un usuario asignado para quitarlo del problema.
+1. Click **Save Changes**.
+1. (Optional and conditional) When the Assigned to or the Assignments fields display in your list of issues, click inside one of these columns for an issue, then click the **X icon** next to the name of an assignee to remove it from the issue.
 
 <div class="preview">
 
-### Asignar problemas por lotes en el entorno de vista previa
+### Assign issues in bulk in the Preview environment
+
+-->
 
 1. Vaya a una lista de problemas que desee asignar de forma masiva.
 1. Seleccione varios problemas en la lista.
@@ -251,10 +254,9 @@ La asignación de problemas por lotes es diferente en función del entorno que e
 
 1. (Opcional) Si desea quitar los usuarios asignados existentes de todos los problemas, haga clic en **x** junto a su nombre.
 
-1. (Opcional) Actualice el campo Horas planificadas. Para obtener más información, consulte [Editar problemas](/help/quicksilver/manage-work/issues/manage-issues/edit-issues.md).
+1. (Opcional) Actualice el campo P **Horas planificadas**. Para obtener más información, consulte [Editar problemas](/help/quicksilver/manage-work/issues/manage-issues/edit-issues.md).
 
 1. Haga clic en **Guardar**.
-1. (Opcional y condicional) Cuando los campos Asignado a o Asignaciones se muestren en su lista de problemas, haga clic dentro de una de estas columnas para un problema y luego haga clic en el **icono X** junto al nombre de un usuario asignado para quitarlo del problema.
+1. (Opcional y condicional) Cuando los campos **Asignado a** o **Asignaciones** se muestren en su lista de problemas, haga clic dentro de una de estas columnas para un problema y luego haga clic en el **icono X** junto al nombre de un usuario asignado para quitarlo del problema.
 
-</div>
 
