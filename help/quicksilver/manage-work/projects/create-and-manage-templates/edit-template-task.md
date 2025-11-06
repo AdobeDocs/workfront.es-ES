@@ -7,7 +7,7 @@ description: Después de crear una plantilla, puede editar la información sobre
 author: Alina
 feature: Work Management
 exl-id: 2df8522e-7eee-4440-be0f-f7483c5acdb0
-source-git-commit: 0358e79bd606d0035959bba2a47256456b529b18
+source-git-commit: 798e9ee9862b34653730c07acc9c48b901b98e63
 workflow-type: tm+mt
 source-wordcount: '4716'
 ht-degree: 74%
@@ -576,35 +576,35 @@ Después de abrir el cuadro **Editar tarea de plantilla** en la nueva experienci
    Haga clic en **Asignármelo** para asignarse a sí mismo la tarea de plantilla.
 1. Considere la posibilidad de actualizar la siguiente información:
 
-<table style="table-layout:auto"> 
-    <col> 
-    <col> 
-    <tbody>
+   <table style="table-layout:auto"> 
+      <col> 
+      <col> 
+      <tbody>
 
-<tr> 
-      <td role="rowheader"><strong>Tipo de duración</strong> </td> 
-      <td> <p>La tarea futura creada a partir de esta plantilla tendrá este tipo de duración. <br>El tipo de duración identifica la relación entre lo siguiente:</p> 
-      <ul>
-      <li><p>Número de recursos asignados a una tarea</p> </li>
-      <li><p>El esfuerzo total necesario para completar la tarea</p></li> 
-      <li><p>Duración total de la tarea </p></li></ul> <p>Con los tipos de duración, puede establecer asignaciones de recursos coherentes en función de las necesidades de la tarea. Para obtener más información acerca del tipo de duración de una tarea, consulte <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Información general sobre la duración de la tarea y el tipo de duración</a>.</p> <p>Seleccione entre las siguientes opciones:</p> 
-       <ul> 
-        <li> <p style="font-weight: bold;"><span style="font-weight: normal;">Asignación calculada</span> </p> </li> 
-        <li> <p style="font-weight: bold;"><span style="font-weight: normal;">Trabajo calculado</span> </p> </li> 
-        <li> <p style="font-weight: bold;"><span style="font-weight: normal;">Condicionada por el esfuerzo</span> </p> </li> 
-        <li> <p style="font-weight: bold;"><span style="font-weight: normal;">Sencilla</span><br> </p> </li> 
-       </ul> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"><strong>Duración</strong> </td> 
-      <td> <p>Especifique la duración de las tareas futuras, en minutos, horas, días, semanas o meses. La futura tarea creada a partir de esta plantilla tendrá la duración especificada aquí.</p> <p>De forma predeterminada, Workfront mide la duración en días. Cantidad de tiempo que se permite para que la tarea permanezca incompleta antes de que deba completarse. No podrá especificar la duración de una tarea cuando el <strong>tipo de duración</strong> de la tarea sea <strong>Simple</strong> o cuando la <strong>restricción de tarea</strong> sea <strong>Fechas fijas</strong>.</p> <p><b>IMPORTANTE</b></p> <p>La duración suele ser la cantidad de tiempo entre las fechas planificadas de inicio y finalización de una tarea de plantilla y, por este motivo, afecta a la cronología de la plantilla. Esto determina la cronología del futuro proyecto creado a partir de la plantilla. </p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"><strong>Horas planificadas</strong> </td> 
-      <td> <p>Especifique el número de horas planificadas para la futura tarea del proyecto creado con esta plantilla. Es la cantidad de tiempo real que tardarían los usuarios asignados de la tarea en completarla. Solo puede especificar el número de horas planificadas para una tarea cuando el <strong>tipo de duración</strong> esté establecido en <strong>Asignación calculada</strong>. </p> </td> 
-     </tr> 
-  </tbody> 
-   </table>
+   <tr> 
+         <td role="rowheader"><strong>Tipo de duración</strong> </td> 
+         <td> <p>La tarea futura creada a partir de esta plantilla tendrá este tipo de duración. <br>El tipo de duración identifica la relación entre lo siguiente:</p> 
+         <ul>
+         <li><p>Número de recursos asignados a una tarea</p> </li>
+         <li><p>El esfuerzo total necesario para completar la tarea</p></li> 
+         <li><p>Duración total de la tarea </p></li></ul> <p>Con los tipos de duración, puede establecer asignaciones de recursos coherentes en función de las necesidades de la tarea. Para obtener más información acerca del tipo de duración de una tarea, consulte <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Información general sobre la duración de la tarea y el tipo de duración</a>.</p> <p>Seleccione entre las siguientes opciones:</p> 
+         <ul> 
+         <li> <p style="font-weight: bold;"><span style="font-weight: normal;">Asignación calculada</span> </p> </li> 
+         <li> <p style="font-weight: bold;"><span style="font-weight: normal;">Trabajo calculado</span> </p> </li> 
+         <li> <p style="font-weight: bold;"><span style="font-weight: normal;">Condicionada por el esfuerzo</span> </p> </li> 
+         <li> <p style="font-weight: bold;"><span style="font-weight: normal;">Sencilla</span><br> </p> </li> 
+         </ul> </td> 
+      </tr> 
+      <tr> 
+         <td role="rowheader"><strong>Duración</strong> </td> 
+         <td> <p>Especifique la duración de las tareas futuras, en minutos, horas, días, semanas o meses. La futura tarea creada a partir de esta plantilla tendrá la duración especificada aquí.</p> <p>De forma predeterminada, Workfront mide la duración en días. Cantidad de tiempo que se permite para que la tarea permanezca incompleta antes de que deba completarse. No podrá especificar la duración de una tarea cuando el <strong>tipo de duración</strong> de la tarea sea <strong>Simple</strong> o cuando la <strong>restricción de tarea</strong> sea <strong>Fechas fijas</strong>.</p> <p><b>IMPORTANTE</b></p> <p>La duración suele ser la cantidad de tiempo entre las fechas planificadas de inicio y finalización de una tarea de plantilla y, por este motivo, afecta a la cronología de la plantilla. Esto determina la cronología del futuro proyecto creado a partir de la plantilla. </p> </td> 
+      </tr> 
+      <tr> 
+         <td role="rowheader"><strong>Horas planificadas</strong> </td> 
+         <td> <p>Especifique el número de horas planificadas para la futura tarea del proyecto creado con esta plantilla. Es la cantidad de tiempo real que tardarían los usuarios asignados de la tarea en completarla. Solo puede especificar el número de horas planificadas para una tarea cuando el <strong>tipo de duración</strong> esté establecido en <strong>Asignación calculada</strong>. </p> </td> 
+      </tr> 
+   </tbody> 
+      </table>
 
 1. (Opcional) Siga editando las secciones siguientes, según la información que desee modificar.
 

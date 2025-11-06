@@ -7,7 +7,7 @@ author: Lisa
 feature: Work Management, Resource Management
 role: User
 exl-id: 09780f78-4eb8-404d-859b-d066d462776d
-source-git-commit: ac24b2486b9fc5a0b8c2944a6ec240140238b908
+source-git-commit: 798e9ee9862b34653730c07acc9c48b901b98e63
 workflow-type: tm+mt
 source-wordcount: '1118'
 ht-degree: 79%
@@ -20,15 +20,14 @@ ht-degree: 79%
 
 <!--remove the bullet indicated when we get rid of the new/old experience of editing tasks-->
 
-<!--
-<div class="preview"> 
+
+<!--<div class="preview"> 
 
 The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
 
 For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
 
-</div> 
--->
+</div> -->
 
 Puede administrar asignaciones de tareas o problemas mediante Asignaciones avanzadas.
 
@@ -136,7 +135,6 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
     -->
 
 1. Especifique la siguiente información para cada usuario de la columna **Usuario asignado**:
-
 
    * **Propietario**: pase el puntero por encima del nombre del usuario asignado y haga clic en **Convertir en principal** en el campo Propietario si desea marcar al usuario asignado como propietario de la tarea o problema. La casilla de verificación verde indica que el usuario especificado es el contacto principal de la tarea o el problema. Adobe Workfront marca el primer usuario o función que asigna a una tarea o problema como Asignación principal o Propietario. No se puede designar a un equipo como propietario principal de una tarea o un problema.
 

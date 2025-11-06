@@ -6,21 +6,19 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 45b5be81-703c-45d5-a08c-60cb8ec5b103
-source-git-commit: a18b70b20e37f9751fbae2d4aad76e4905f976b2
+source-git-commit: 798e9ee9862b34653730c07acc9c48b901b98e63
 workflow-type: tm+mt
-source-wordcount: '1771'
-ht-degree: 43%
+source-wordcount: '1847'
+ht-degree: 41%
 
 ---
 
 # Administrar la vista de calendario
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después de las versiones mensuales en Production, las mismas funciones también están disponibles en el entorno Production para los clientes que habilitaron versiones rápidas. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
--->
 
 {{planning-important-intro}}
 
@@ -223,9 +221,7 @@ Para agregar un filtro a una vista de calendario:
 1. Seleccione una vista de calendario y luego haga clic en **Filtros** en la barra de herramientas del calendario.
 1. Haga clic en **Añadir condición** y añada la siguiente información:
 
-   * **Seleccione un campo** por el que desea filtrar <!-- the tip below might change-->
-
-     <!--replace the bullet above with this at preview release: <span class="preview">Search for a field or </span> click the drop-down menu to display a list of fields and select it from the list-->
+   * **Seleccione un campo** para <span class="preview">buscar un campo o </span> haga clic en el menú desplegable para mostrar una lista de campos y selecciónela en la lista
 
    * **Seleccione una opción** (o un modificador de filtro) para definir qué tipo de condición debe cumplir el campo
 

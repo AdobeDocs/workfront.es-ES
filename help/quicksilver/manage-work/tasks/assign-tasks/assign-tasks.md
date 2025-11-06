@@ -7,10 +7,10 @@ author: Lisa
 feature: Work Management, Tasks
 role: User
 exl-id: 611b136e-2c3f-4eac-9d75-e8c12e06148d
-source-git-commit: ac24b2486b9fc5a0b8c2944a6ec240140238b908
+source-git-commit: 798e9ee9862b34653730c07acc9c48b901b98e63
 workflow-type: tm+mt
-source-wordcount: '1826'
-ht-degree: 94%
+source-wordcount: '2212'
+ht-degree: 80%
 
 ---
 
@@ -18,15 +18,15 @@ ht-degree: 94%
 
 <!--Audited: 10/2025-->
 
-<!--
-<div class="preview"> 
+<!--remove production/ preview and old/ new experience references at prod-->
 
-The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
+<div class="preview">
 
-For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
+La información resaltada en esta página hace referencia a funcionalidades que aún no están disponibles de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Las mismas funciones también estarán disponibles en el entorno de producción para todos los clientes a partir de una semana desde la versión de vista previa.
 
-</div> 
--->
+Para obtener más información, vea [Modernización de la interfaz](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).
+
+</div>
 
 Puede asignar tareas a usuarios, funciones o equipos para indicar quién es el responsable de completar las tareas. Puede asignar una tarea a varios recursos a la vez.
 
@@ -236,13 +236,20 @@ Para asignar tareas de una lista:
 1. Seleccione varias tareas en la lista de tareas.
 1. Haga clic en **Editar**.
 
-   Se abre el cuadro de diálogo **Editar tareas** <!--<span class="preview">in the new experience</span>-->.
+   El cuadro de diálogo **Editar tareas** se abre <span class="preview">en la nueva experiencia.</span>
 
-   <!--1. Continue assigning the tasks <span class="preview">using the new experience</span>. <span class="preview">For more information, see the section Assign multiple tasks in bulk from a list in the new experience in this article.</span> (^^^^^^^^^^^^add anchor here at release^^^^^^^^^^^^) -->
+1. Continúe asignando las tareas <span class="preview">con la nueva experiencia.</span>
 
-   <!--1. <span class="preview">(Optional) Click **Switch back to old experience** at the bottom of the Edit Tasks box.</span> -->
+   <span class="preview">Para obtener más información, consulte la sección [Asignar varias tareas de forma masiva desde una lista en la nueva experiencia](#assign-multiple-tasks-in-bulk-from-a-list-in-the-new-experience) de este artículo.</span>
 
-1. En el área **Asignaciones**, seleccione el cuadro **Asignado** y, a continuación, empiece a escribir el nombre de un usuario, función o equipo que desee asignar a todas las tareas.
+1. <span class="preview">(Opcional) Haga clic en **Volver a la experiencia anterior** en la parte inferior del cuadro **Editar tareas** para abrir la experiencia anterior.</span>
+
+   >[!TIP]
+   >
+   >La asignación de tareas en el entorno de producción solo está disponible para la experiencia antigua.
+
+
+1. (Condicional) Con la experiencia anterior, en el área **Asignaciones**, seleccione la casilla **Usuario asignado** y, a continuación, empiece a escribir el nombre de un usuario, rol o equipo que desee asignar a todas las tareas.
 
    >[!IMPORTANT]
    >
@@ -271,53 +278,51 @@ Para asignar tareas de una lista:
 1. Haga clic en **Guardar cambios**.
 1. (Opcional y condicional) Cuando los campos Asignado a o Asignaciones se muestren en su lista de tareas, haga clic dentro de una de estas columnas para una tarea y luego haga clic en el **icono X** junto al nombre de un usuario asignado para quitarlo de la tarea.
 
-<!--
+
 <div class="preview">
 
-### Assign multiple tasks in bulk from a list in the new experience
+### Asignar varias tareas por lotes desde una lista en la nueva experiencia
 
-1. Go to a list of tasks that you want to assign in bulk in the Preview environment. 
-1. (Conditional) Ensure that the **Autosave** option is selected if you are on a list of tasks under a project.
-
-   >[!IMPORTANT]
-   >
-   >You cannot edit tasks in bulk when saving tasks manually on a project.
-
-1. Select several tasks in the tasks list. 
-1. Click **Edit**.
-
-   The **Edit Tasks** dialog box opens.
-
-1. In the **Assignments** area, start typing the name of users, teams, or roles in the **Search people, roles, or teams** field provided, then click them when they display in the list
-
-   Or 
-
-   Click **Assign to me** to assign it to yourself.
+1. Vaya a una lista de tareas que desee asignar por lotes en el entorno de vista previa.
+1. (Condicional) Asegúrese de que la opción **Autoguardar** esté seleccionada si está en una lista de tareas de un proyecto.
 
    >[!IMPORTANT]
    >
-   >If any of the tasks is already assigned, the resources you indicate here are added to the tasks instead of replacing the existing resources on the tasks.
+   >No puede editar las tareas en lotes al guardar las tareas manualmente en un proyecto.
 
-1. Click inside the **Duration Type** field and choose a Duration Type. 
+1. Seleccione varias tareas en la lista de tareas.
+1. Haga clic en **Editar**.
 
-   For information about Duration Type on tasks, see [Overview of Task Duration and Duration Type](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
+   Se abre el cuadro de diálogo **Editar tareas**.
 
-1. (Conditional) Depending on what **Duration Type** you selected, update the following fields: 
+1. En el área **Asignaciones**, empiece a escribir el nombre de los usuarios, equipos o roles en el campo **Buscar personas, roles o equipos** proporcionado y, a continuación, haga clic en ellos cuando se muestren en la lista
 
-   * Duration
-   * Planned Hours
+   O
 
-      For more information, see [Edit tasks](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md). 
+   Haz clic en **Asignármelo** para asignártelo a ti mismo.
 
-1. (Optional) If you want to remove existing assignees from all tasks, click the **x** next to their name in the **Search people, roles, or teams** field.
+   >[!IMPORTANT]
+   >
+   >Si alguna de las tareas ya está asignada, los recursos que indique aquí se añaden a las tareas en lugar de reemplazar los recursos existentes en las tareas.
 
-1. Click **Save**.
-1. (Optional and conditional) When the Assigned to or the Assignments fields display in your list of tasks, click inside one of these columns for a task, then click the **X icon** next to the name of an assignee to remove it from the task.
+1. Haga clic dentro del campo **Tipo de duración** y elija un Tipo de duración.
+
+   Para obtener información acerca del tipo de duración de las tareas, consulte [Información general sobre la duración y el tipo de duración de la tarea](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
+
+1. (Condicional) Según el **Tipo de duración** que haya seleccionado, actualice los campos siguientes:
+
+   * Duración
+   * Horas planificadas
+
+     Para obtener más información, consulte [Editar tareas](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md).
+
+1. (Opcional) Si desea quitar los usuarios asignados existentes de todas las tareas, haga clic en **x** junto a su nombre en el campo **Buscar personas, roles o equipos**.
+
+1. Haga clic en **Guardar**.
+1. (Opcional y condicional) Cuando los campos **Asignado a** o **Asignaciones** se muestren en su lista de tareas, haga clic dentro de una de estas columnas para una tarea y luego haga clic en el **icono X** junto al nombre de un usuario asignado para quitarlo de la tarea.
 
 
 </div>
--->
-
 
 
 <!--

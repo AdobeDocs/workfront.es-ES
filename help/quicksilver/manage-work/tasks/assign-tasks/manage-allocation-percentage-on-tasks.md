@@ -6,26 +6,29 @@ description: El porcentaje de asignación representa la cantidad de tiempo que u
 author: Lisa
 feature: Work Management
 exl-id: 82238dff-b95e-42e4-8e72-6247934b504d
-source-git-commit: ac24b2486b9fc5a0b8c2944a6ec240140238b908
+source-git-commit: 798e9ee9862b34653730c07acc9c48b901b98e63
 workflow-type: tm+mt
-source-wordcount: '429'
-ht-degree: 23%
+source-wordcount: '509'
+ht-degree: 17%
 
 ---
 
 # Administrar porcentaje de asignación de usuarios o funciones en tareas
 
-<!--
-<div class="preview"> 
+<!--remove new/old experience references when they remove the New/ Old experience toggle from the Edit Tasks box-->
 
-The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
+<div class="preview">
 
-For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
+La información resaltada en esta página hace referencia a funcionalidades que aún no están disponibles de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Las mismas funciones también estarán disponibles en el entorno de producción para todos los clientes a partir de una semana desde la versión de vista previa.
 
-</div> 
--->
+Para obtener más información, vea [Modernización de la interfaz](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).
+
+</div>
+
 
 El porcentaje de asignación representa la cantidad de tiempo que un recurso asignado está planificado para trabajar en una tarea en un día. Es el porcentaje de un día laborable (según la programación del usuario o proyecto) al que se asigna un recurso a lo largo de la duración de la tarea.
+
+Puede modificar el porcentaje de asignación cuando realice asignaciones avanzadas en una tarea.
 
 >[!NOTE]
 >
@@ -56,7 +59,7 @@ El porcentaje de asignación representa la cantidad de tiempo que un recurso asi
   <tr> 
    <td>Permisos de objeto</td>
    <td><p>Contribuir o permisos superiores para la tarea</p>
-   <p>Editar permisos para actualizar el porcentaje de asignación en el cuadro Editar tarea</p></td>
+   <p>Editar permisos para actualizar el porcentaje de asignación en el cuadro Editar tarea al <span class="preview"> editar tareas utilizando la experiencia anterior. Ya no puede administrar el porcentaje de asignación en el cuadro de diálogo Editar tarea al editar tareas en la nueva experiencia.</span></p> <p>Para obtener más información, consulte <a href="/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md">Editar tareas</a></p>.</td>
   </tr>
  </tbody>
 </table>
@@ -66,9 +69,8 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 +++
 
 <!--
-Change this sentence in the table when unshimmming assignments on Edit task:
-<p>Edit permissions to update allocation percentage in the Edit Task box</p>
-To this:
+Take this piece out of the table above when we remove the new experience/ after production release in the task box: 
+
 <p>Edit permissions to update allocation percentage in the Edit Task box when editing tasks using the old experience. <span class="preview">You can no longer manage allocation percentage in the Edit task box when editing tasks in the new experience.</span></p> <p>For information, see <a href="/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md">Edit tasks</a></p>.
 -->
 
@@ -85,11 +87,7 @@ To this:
 ## Modificar la asignación de porcentaje de usuarios o roles para una tarea
 
 1. Vaya a una tarea para cuyos recursos está cambiando la asignación porcentual.
-1. Haga clic en el menú **Más** ![](assets/qs-more-icon-on-an-object.png) junto al nombre de la tarea y, a continuación, haga clic en **Editar**.
-
-   O
-
-   Haga clic en el área **Asignaciones** del encabezado de la tarea y, a continuación, haga clic en **Avanzadas**.
+1. Haga clic en el área **Asignaciones** del encabezado de la tarea y, a continuación, haga clic en **Avanzadas**.
 
 1. Asegúrese de que el **Tipo de duración** de la tarea sea uno de los siguientes:
 
@@ -101,7 +99,7 @@ To this:
    >* Para el tipo de duración de asignación calculada, Workfront usa la fórmula siguiente para calcular el porcentaje de asignación de cada usuario asignado: `Allocation Percentage = (Work Required / Number of days in the Duration) / Number of hours per work day / Number of assignees`.
    >* Para el tipo de duración simple, puede estimar las horas asignadas a cada recurso, no el porcentaje de asignación.
 
-1. Haga clic en **Asignaciones** y, a continuación, modifique las **Asignaciones** para cada usuario asignado a la tarea.
+1. Modifique el campo **Asignaciones** para cada usuario asignado a la tarea.
 
    Solo puede modificar el porcentaje de asignación para asignaciones de usuarios y funciones.
 
