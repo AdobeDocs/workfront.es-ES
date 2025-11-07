@@ -6,10 +6,10 @@ description: El [!DNL Adobe Workfront] glosario enumera términos de uso común 
 author: Alina
 feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
-source-git-commit: fbe17e50ff161156a0b4b2a8b468b4eb844cae59
+source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
 workflow-type: tm+mt
-source-wordcount: '21167'
-ht-degree: 96%
+source-wordcount: '21526'
+ht-degree: 94%
 
 ---
 
@@ -365,7 +365,7 @@ La siguiente tabla es una lista de los términos más utilizados en Adobe Workfr
        </tr> 
        <tr> 
         <td>[!UICONTROL Bud. Hours]</td> 
-        <td> <p>Informe de [!UICONTROL Budgeted Hour]</p><p>El objeto [!UICONTROL Budgeted Hour] del informe de Hora presupuestada hace referencia a información relacionada con una herramienta de administración de recursos obsoleta. Solo el campo "[!UICONTROL . Hours]" en este informe hace referencia a las horas presupuestadas en el área de [!UICONTROL Resource Planner] o [!UICONTROL Resource Budgeting] del [!UICONTROL Business Case] del proyecto. </p> <p>Para obtener más información acerca de cómo crear un informe, consulte el artículo <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md" class="MCXref xref">Crear un informe personalizado</a>.</p> </td> 
+        <td> <p>Informe de [!UICONTROL Budgeted Hour]</p><p>El objeto [!UICONTROL Budgeted Hour] del informe de Hora presupuestada hace referencia a información relacionada con una herramienta de administración de recursos obsoleta. Solo el campo "[!UICONTROL. Hours]" en este informe hace referencia a las horas presupuestadas en el área de [!UICONTROL Resource Planner] o [!UICONTROL Resource Budgeting] del [!UICONTROL Business Case] del proyecto. </p> <p>Para obtener más información acerca de cómo crear un informe, consulte el artículo <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md" class="MCXref xref">Crear un informe personalizado</a>.</p> </td> 
        </tr> 
        <tr> 
         <td>[!UICONTROL Resource Planner Budgeted Hours] </td> 
@@ -716,8 +716,26 @@ La siguiente tabla es una lista de los términos más utilizados en Adobe Workfr
    <td>[!UICONTROL Cost]</td> 
    <td> <p>La cantidad monetaria que debe gastar al completar un proyecto, tarea o problema. </p> <p>Puede realizar el seguimiento de varios tipos de costes de mano de obra, gastos y riesgos relacionados con el proyecto. Para obtener información sobre el seguimiento de costes en [!DNL Workfront], vea <a href="../../../manage-work/projects/project-finances/track-costs.md">Seguimiento de costes</a>.</p> 
    </td> 
-  </tr> 
-  <tr> 
+  </tr>
+
+<tr> 
+   <td>[!UICONTROL Índice de rendimiento de costos (CPI)]</td> 
+   <td> <p>El [!UICONTROL Índice de rendimiento de costos (CPI)] describe la relación en el nivel de proyecto o tarea entre el costo planificado y el costo real. Los administradores de proyectos revisan esta métrica para identificar las tareas o los proyectos cuyo seguimiento actual sea inferior o superior al coste en un momento determinado. El costo se puede medir en horas o dólares, según el [!UICONTROL Performance Index Method (PIM)].</p> 
+    <p> Para obtener más información, vea <a href="/help/quicksilver/manage-work/projects/project-finances/calculate-cpi.md">Calcular el índice de rendimiento de costos (CPI)</a>.</p>
+
+</td> 
+  </tr>
+
+<tr> 
+   <td>[!UICONTROL Índice de rendimiento de horario de costos (CSI)]</td> 
+   <td> <p>El [!UICONTROL Cost Schedule Performance Index (CSI)] es un cálculo automático que combina el [!UICONTROL Cost Performance Index (CPI)] y el [!UICONTROL Schedule Performance Index (SPI)] en una métrica general que equilibra coste y programación. Al multiplicar estos valores juntos, una sola métrica puede explicar una programación prolongada con un presupuesto más bajo o viceversa. Los jefes de proyecto pueden utilizarlo para determinar el estado general de las tareas o los proyectos cuando el coste se sacrifica para dirigir la programación a mitad del proyecto.</p> 
+    <p> Para obtener más información, vea <a href="/help/quicksilver/manage-work/projects/project-finances/calculate-csi.md">Calcular el índice de rendimiento del horario de costos</a>.</p>
+    </td> 
+  </tr>
+
+
+
+<tr> 
    <td>[!UICONTROL Cost Type]</td> 
    <td>Para una tarea, el [!UICONTROL Cost Type] determina cómo acumulará costes la tarea. Algunos ejemplos son [!UICONTROL Fixed Hourly], [!UICONTROL User Hourly] y [!UICONTROL User Hourly plus Fixed]. </td> 
   </tr> 
@@ -894,8 +912,23 @@ La siguiente tabla es una lista de los términos más utilizados en Adobe Workfr
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Integrated"> 
    <td>[!UICONTROL Enterprise Goals]</td> 
    <td>Metas interdepartamentales que contribuyen a las métricas de los metas de la compañía.</td> 
-  </tr> 
-  <tr> 
+  </tr>
+
+<tr> 
+   <td>[!UICONTROL Estimar al finalizar]</td> 
+   <td><p>Como métrica de rendimiento del proyecto, Estimar al finalizar (EAC) representa el costo total proyectado del proyecto o tarea cuando finaliza.</p>
+   <p>Como configuración de proyecto, le permite definir cómo se debe calcular el valor EAC.</p>
+   <p>Para obtener más información, vea <a href="/help/quicksilver/manage-work/projects/project-finances/calculate-eac.md">Calcular estimación al finalizar (EAC)</a>. </p>
+   </td> 
+  </tr>
+
+<tr> 
+   <td>[!UICONTROL Fecha de vencimiento estimada]</td> 
+   <td>En los informes de proyecto, tarea y problema, la fecha de vencimiento estimada es la fecha en la que Workfront calcula que el artículo debe completarse.</td> 
+  </tr>
+
+
+<tr> 
    <td>[!UICONTROL Event]</td> 
    <td>Cualquier cambio en un proyecto o tarea.</td> 
   </tr> 
@@ -1557,7 +1590,14 @@ Las entradas de horas pueden tener uno de los siguientes estados en Workfront:
    <td>[!UICONTROL Percent Complete]</td> 
    <td> <p>Campo de proyecto, tarea o problema que muestra qué porcentaje del trabajo asociado con la tarea, el proyecto o el problema se ha completado.</p> <p>Puede actualizar este campo manualmente para problemas y tareas de trabajo. </p> <p>Para los proyectos y las tareas principales, este campo es un resumen de todas las tareas de trabajo y no se puede actualizar de forma manual. </p> <p>Para obtener más información, consulte <a href="../../../manage-work/tasks/task-information/project-percent-complete.md" class="MCXref xref">Información general del proyecto [!UICONTROL Percent Complete]</a>.</p> </td> 
   </tr> 
-  <tr> 
+<tr> 
+   <td>[!UICONTROL Método de índice de rendimiento (PIM)]</td> 
+   <td> <p>El [!UICONTROL Método de índice de rendimiento (PIM)] del proyecto controla el método que utiliza Adobe Workfront para calcular métricas de rendimiento del proyecto como el índice de rendimiento de costos (CPI), el índice de rendimiento del horario de costos (CSI), el índice de rendimiento del horario (SPI) y la estimación al finalizar (EAC).</p> 
+   <p>Workfront calcula estos valores mediante horas o coste.</p>
+   <p>Para obtener más información, vea <a href="/help/quicksilver/manage-work/projects/project-finances/set-pim.md">Establecer el método de índice de rendimiento (PIM)</a>.</p>
+   </td> 
+  </tr>
+ <tr> 
    <td>[!UICONTROL Permission]</td> 
    <td> <p>Derechos que se conceden a un usuario sobre un objeto, normalmente otorgados para que pueda completar el trabajo en el elemento o verlo. Puede conceder permisos a:</p> 
     <ul> 
@@ -1606,11 +1646,8 @@ Las entradas de horas pueden tener uno de los siguientes estados en Workfront:
   <tr> 
    <td>[!UICONTROL Planned Cost]</td> 
    <td> <p>Total del [!UICONTROL Planned Labor Cost] y el [!UICONTROL Planned Expense Cost] del proyecto. Esto no incluye el [!UICONTROL Planned Risk Cost] en el proyecto.  </p> </td> 
-  </tr>
-
-
-
-<tr> 
+  </tr> 
+  <tr> 
    <td>[!UICONTROL Planned Date Alignment]</td> 
    <td> <p>Este es un indicador automático de que Workfront asigna proyectos, tareas y problemas para mostrar cuándo se completará un elemento en relación con su fecha planificada de finalización. </p>
    <p>Los siguientes son valores posibles para el indicador Alineación de fechas planificada: </p>
@@ -2069,7 +2106,7 @@ Las entradas de horas pueden tener uno de los siguientes estados en Workfront:
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Optimized"> 
    <td>[!UICONTROL Scenario] (en [!DNL Workfront Fusion]) </td> 
-   <td> <p>Un escenario consiste en una serie de pasos (módulos) que indican cómo se deben transferir y transformar los datos entre aplicaciones y servicios.</p> <p>Para obtener información acerca de los escenarios de [!DNL Workfront Fusion], consulte Información general sobre escenarios de <a href="https://experienceleague.adobe.com/es/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/scenario-overview">[!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>Un escenario consiste en una serie de pasos (módulos) que indican cómo se deben transferir y transformar los datos entre aplicaciones y servicios.</p> <p>Para obtener información acerca de los escenarios de [!DNL Workfront Fusion], consulte Información general sobre escenarios de <a href="https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/scenario-overview">[!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Scenario] (en el [!DNL Workfront Scenario Planner]) </td> 
@@ -2078,6 +2115,13 @@ Las entradas de horas pueden tener uno de los siguientes estados en Workfront:
   <tr> 
    <td>[!UICONTROL Schedule]</td> 
    <td>El horario de trabajo semanal, incluidos los tiempos de trabajo, combinado con los días libres (tales como días festivos) y los días de excepción (tales como un día laborable sábado). Puede asociar programaciones con proyectos y usuarios.</td> 
+  </tr> 
+<tr> 
+   <td>[!UICONTROL Índice de rendimiento de programación (SPI)]</td> 
+   <td><p>El [!UICONTROL Schedule Performance Index (SPI)] describe la relación entre la programación planificada y la programación real. Adobe Workfront calcula el SPI en los niveles de proyecto y tarea. Los jefes de proyecto revisan esta métrica para identificar si las tareas o los proyectos están realizando un seguimiento con antelación o retraso respecto a la programación.</p>
+  <p>Para obtener más información, vea <a href="/help/quicksilver/manage-work/projects/project-finances/calculate-spi.md">Calcular el índice de rendimiento del horario (SPI)</a>
+
+</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Schedule Exemption]</td> 

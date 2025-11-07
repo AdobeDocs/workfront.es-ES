@@ -6,10 +6,10 @@ description: Al asignar usuarios o funciones a una tarea, se les asigna trabajar
 author: Lisa
 feature: Work Management
 exl-id: 2c0cd6ef-8719-4680-aa63-5e229de0f819
-source-git-commit: 798e9ee9862b34653730c07acc9c48b901b98e63
+source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
 workflow-type: tm+mt
 source-wordcount: '625'
-ht-degree: 69%
+ht-degree: 70%
 
 ---
 
@@ -61,7 +61,7 @@ Puede modificar las horas de asignación cuando realice asignaciones avanzadas e
   <tr> 
    <td>Permisos de objeto</td>
    <td><p>Contribuir o permisos superiores para la tarea</p>
-   <p>Edite permisos para actualizar las horas de asignación en el cuadro Editar tarea al editar tareas <span class="preview"> con la experiencia anterior. Ya no puede administrar las horas de asignación en el cuadro de diálogo Editar tarea al editar tareas en la nueva experiencia.</span></p> <p>Para obtener más información, consulte <a href="/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md">Editar tareas</a></p>.</td>
+   <p>Edite permisos para actualizar las horas de asignación en el cuadro Editar tarea al editar tareas <span class="preview"> con la experiencia anterior. Ya no puede administrar las horas de asignación en el cuadro de diálogo Editar tarea al editar tareas en la nueva experiencia.</span></p> <p>Para obtener más información, consulte <a href="/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md">Editar tareas</a>.</p></td>
   </tr>
  </tbody>
 </table>

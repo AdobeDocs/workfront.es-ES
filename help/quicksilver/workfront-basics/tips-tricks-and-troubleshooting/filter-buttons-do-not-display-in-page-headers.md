@@ -4,9 +4,9 @@ navigation-topic: tips-tricks-and-troubleshooting-workfront-basics
 title: Los botones de filtro no se muestran en los encabezados de página
 description: Lea este artículo para solucionar problemas con los botones de filtro que no se muestran en los encabezados de página.
 feature: Get Started with Workfront
-author: Nolan and Alina
+author: Courtney
 exl-id: 327564ed-60df-441a-a38b-a17a8c57adb0
-source-git-commit: 85ccee879fd4ba5a80b6e885458839901f83d26e
+source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
 workflow-type: tm+mt
 source-wordcount: '291'
 ht-degree: 97%
@@ -43,6 +43,8 @@ ht-degree: 97%
 </table>
 
 Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Problema
 

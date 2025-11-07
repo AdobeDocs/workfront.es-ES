@@ -2,20 +2,20 @@
 title: Uso compartido de una plantilla
 product-area: templates
 navigation-topic: grant-and-request-access-to-objects
-description: Como administrador de Adobe Workfront, puede otorgar a los usuarios acceso para ver o editar plantillas al asignar su nivel de acceso. Un usuario debe tener una licencia de planificación para tener acceso a Editar plantillas.
-author: Alina
+description: Como administrador de Adobe Workfront, puede conceder a los usuarios acceso para ver o editar plantillas al asignarles su nivel de acceso. Un usuario debe tener una licencia Plan para tener acceso a la edición de plantillas.
+author: Courtney
 feature: Get Started with Workfront
 exl-id: 19fb0de5-7db5-42a9-9f33-a4570acfeef8
-source-git-commit: b8a2fea8c1eac376f49201dc840f7a4fcc67d759
+source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
 workflow-type: tm+mt
 source-wordcount: '584'
-ht-degree: 19%
+ht-degree: 30%
 
 ---
 
 # Compartir una plantilla
 
-Como administrador de Adobe Workfront, puede otorgar a los usuarios acceso para ver o editar plantillas al asignar su nivel de acceso. Un usuario debe tener una licencia de planificación para tener acceso a Editar plantillas.
+Como administrador de Adobe Workfront, puede conceder a los usuarios acceso para ver o editar plantillas al asignarles su nivel de acceso. Un usuario debe tener una licencia Plan para tener acceso a la edición de plantillas.
 
 Para obtener más información acerca de cómo conceder acceso a las plantillas, vea [Conceder acceso a las plantillas](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-templates.md).
 

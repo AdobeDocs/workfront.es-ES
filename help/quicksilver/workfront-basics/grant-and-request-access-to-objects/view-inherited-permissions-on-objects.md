@@ -3,10 +3,10 @@ product-area: projects
 navigation-topic: grant-and-request-access-to-objects
 title: Ver permisos heredados en objetos
 description: El administrador de Adobe Workfront puede otorgarle acceso para ver o editar objetos al asignarle su nivel de acceso. Para obtener más información, consulte Conceder acceso a proyectos.
-author: Alina
+author: Courtney
 feature: Get Started with Workfront
 exl-id: 7025f097-ea99-41bf-965e-617b0f532ff7
-source-git-commit: 4ae96f67b15838403ffce32317d871d6904d6d95
+source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
 workflow-type: tm+mt
 source-wordcount: '295'
 ht-degree: 98%

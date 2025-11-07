@@ -4,9 +4,9 @@ navigation-topic: get-started-with-workfront
 title: Idiomas admitidos en Adobe Workfront
 description: Puede cambiar el idioma en el que se muestran Adobe Workfront y los correos electrónicos procedentes de Workfront; para ello, ajuste sus preferencias de idioma en el explorador y la configuración regional del correo electrónico predeterminada en Workfront.
 feature: Get Started with Workfront
-author: Nolan
+author: Becky
 exl-id: 0b76175f-5fe2-49df-b605-68e6e66b4366
-source-git-commit: 046c1eada53631c9ab50bb0c8233adb012223bb3
+source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
 workflow-type: tm+mt
 source-wordcount: '1156'
 ht-degree: 75%
@@ -92,7 +92,7 @@ Actualmente, Workfront Fusion solo admite el inglés.
 * Workfront Fusion no admite el uso de caracteres de texto que no estén en inglés en los campos introducidos por el usuario.
 
 Su compañía debe comprar una licencia de Workfront Fusion para poder acceder a Workfront Fusion.\
-Para obtener más información sobre Workfront Fusion, consulte [Información general de Adobe Workfront Fusion](https://experienceleague.adobe.com/es/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+Para obtener más información sobre Workfront Fusion, consulte [Información general de Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 
 ## Cambiar el idioma
 

@@ -6,10 +6,10 @@ description: El porcentaje de asignación representa la cantidad de tiempo que u
 author: Lisa
 feature: Work Management
 exl-id: 82238dff-b95e-42e4-8e72-6247934b504d
-source-git-commit: 798e9ee9862b34653730c07acc9c48b901b98e63
+source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
 workflow-type: tm+mt
 source-wordcount: '509'
-ht-degree: 17%
+ht-degree: 18%
 
 ---
 
@@ -59,7 +59,7 @@ Puede modificar el porcentaje de asignación cuando realice asignaciones avanzad
   <tr> 
    <td>Permisos de objeto</td>
    <td><p>Contribuir o permisos superiores para la tarea</p>
-   <p>Editar permisos para actualizar el porcentaje de asignación en el cuadro Editar tarea al <span class="preview"> editar tareas utilizando la experiencia anterior. Ya no puede administrar el porcentaje de asignación en el cuadro de diálogo Editar tarea al editar tareas en la nueva experiencia.</span></p> <p>Para obtener más información, consulte <a href="/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md">Editar tareas</a></p>.</td>
+   <p>Editar permisos para actualizar el porcentaje de asignación en el cuadro Editar tarea al <span class="preview"> editar tareas utilizando la experiencia anterior. Ya no puede administrar el porcentaje de asignación en el cuadro de diálogo Editar tarea al editar tareas en la nueva experiencia.</span></p> <p>Para obtener más información, consulte <a href="/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md">Editar tareas</a>.</p></td>
   </tr>
  </tbody>
 </table>

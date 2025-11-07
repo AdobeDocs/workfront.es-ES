@@ -3,10 +3,10 @@ content-type: overview
 navigation-topic: grant-and-request-access-to-objects
 title: Información general sobre los permisos de uso compartido en objetos
 description: Es posible compartir o quitar permisos de un objeto que creó o de un objeto compartido con usted.
-author: Alina
+author: Courtney
 feature: Get Started with Workfront
 exl-id: 7c14702e-ac55-4266-88a7-f31618f84218
-source-git-commit: 8df1c288eed04c7330d124e0c32c869a3e5a525b
+source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
 workflow-type: tm+mt
 source-wordcount: '1289'
 ht-degree: 89%

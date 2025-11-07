@@ -3,10 +3,10 @@ title: Compartir permisos financieros en un objeto
 product-area: projects
 navigation-topic: grant-and-request-access-to-objects
 description: El administrador de Adobe Workfront puede otorgarle acceso para ver o editar datos financieros al asignar su nivel de acceso. Para obtener más información, consulte Concesión de acceso a datos financieros.
-author: Alina
+author: Courtney
 feature: Get Started with Workfront
 exl-id: 0d0e13d9-b234-48d3-a818-5b6fb36a4688
-source-git-commit: 4ae96f67b15838403ffce32317d871d6904d6d95
+source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
 workflow-type: tm+mt
 source-wordcount: '504'
 ht-degree: 18%

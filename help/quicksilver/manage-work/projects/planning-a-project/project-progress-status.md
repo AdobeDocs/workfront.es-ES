@@ -7,10 +7,10 @@ description: Adobe Workfront determina el estado de progreso de un proyecto mira
 author: Alina
 feature: Work Management
 exl-id: 922ca4cf-c526-4704-9966-de67b0c36a2a
-source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
+source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
 workflow-type: tm+mt
 source-wordcount: '390'
-ht-degree: 94%
+ht-degree: 81%
 
 ---
 
@@ -28,15 +28,16 @@ A continuación se muestran los estados de progreso de los proyectos en Workfron
  <tbody> 
   <tr> 
    <td>A tiempo</td> 
-   <td> El estado de progreso de un proyecto es <strong>A tiempo</strong> si:<ul><li>Si las fechas de finalización proyectada y estimada son anteriores o iguales a la fecha planificada de finalización del proyecto</li></ul> <p> <img src="assets/project-on-time-progress-status-350x69.png" style="width: 350;height: 69;"> </p> </td> 
+   <td> El estado de progreso de un proyecto es <strong>A tiempo</strong> si:<ul><li>Si las fechas de vencimiento proyectadas y estimadas son anteriores o iguales a la fecha planificada de finalización del proyecto <p> <img src="assets/project-on-time-progress-status-350x69.png" style="width: 350;height: 69;"> </p></li></ul>  </td> 
   </tr> 
   <tr> 
    <td>En riesgo</td> 
-   <td> El estado de progreso de un proyecto es <strong>En riesgo</strong> si se cumplen <strong>todas</strong> las opciones siguientes:<ul><li>Las fechas de finalización estimada y proyectada son futuras</li><li> La fecha estimada de finalización es posterior a la fecha planificada de finalización y a la fecha proyectada de finalización </li></ul><p> <img src="assets/project-at-risk-progress-status-350x67.png" style="width: 350;height: 67;"> </p> </td> 
+   <td> El estado de progreso de un proyecto es <strong>En riesgo</strong> si se cumplen <strong>todas</strong> las opciones siguientes:<ul><li>Las fechas de finalización estimada y proyectada son futuras</li><li> La fecha de vencimiento estimada es posterior a la fecha planificada de finalización y a la fecha proyectada de finalización <p> <img src="assets/project-at-risk-progress-status-350x67.png" style="width: 350;height: 67;"> </p></li></ul> </td> 
   </tr> 
   <tr> 
    <td>Rezagado</td> 
-   <td> El estado de progreso de un proyecto es <strong>Atrasado</strong> si se cumple <strong>todo</strong> lo siguiente:<ul><li>Las fechas de finalización estimada y proyectada son futuras</li><li> Las fechas de finalización estimada y proyectada son posteriores a la fecha planificada de finalización del proyecto</li><li> La fecha de finalización estimada no es posterior a la fecha proyectada de finalización</li></ul> <p> <img src="assets/project-behind-progress-status-350x67.png" style="width: 350;height: 67;"> </p> </td> 
+   <td> El estado de progreso de un proyecto es <strong>Atrasado</strong> si se cumple <strong>todo</strong> lo siguiente:<ul><li>Las fechas de finalización estimada y proyectada son futuras</li><li> Las fechas de finalización estimada y proyectada son posteriores a la fecha planificada de finalización del proyecto</li><li> La fecha de vencimiento estimada no es posterior a la fecha proyectada de finalización
+   <p> <img src="assets/project-behind-progress-status-350x67.png" style="width: 350;height: 67;"> </p></li></ul>  </td> 
   </tr> 
   <tr> 
    <td>Retrasado</td> 
@@ -51,7 +52,7 @@ A continuación se muestran los estados de progreso de los proyectos en Workfron
 Tenga en cuenta lo siguiente:
 
 * La fecha de finalización proyectada del proyecto está controlada por la tarea en la ruta crítica con la última fecha proyectada de finalización.
-* La fecha de finalización estimada del proyecto está controlada por la tarea en la ruta crítica con la última fecha de finalización estimada.
+* La fecha de vencimiento estimada del proyecto está controlada por la tarea en la ruta crítica con la última fecha de vencimiento estimada.
 
 Para obtener información sobre la ruta crítica del proyecto, consulte [Información general sobre la ruta crítica del proyecto](../../../manage-work/tasks/manage-tasks/critical-path.md).
 
