@@ -5,10 +5,10 @@ description: Las listas mejoradas utilizan un formato de tabla para mostrar los 
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 4c25ed54-b147-4fd3-8d00-6f1ba61bbd38
-source-git-commit: ad9739ac670f723203f1e5e9148c446b6356c126
+source-git-commit: ddae871559a756f00ef96e70254e1019964ce882
 workflow-type: tm+mt
-source-wordcount: '1124'
-ht-degree: 7%
+source-wordcount: '1288'
+ht-degree: 6%
 
 ---
 
@@ -59,7 +59,7 @@ A continuación se muestran algunos tipos de listas de objetos de Workfront que 
 |--- |--- |
 | Prioridades | <ul><li>Inicio > seleccione el icono Prioridades en el menú de la izquierda</li><li>Menú principal > Prioridades</li></ul> |
 | Lista de solicitudes | <ul><li>Solicitudes (solo nueva experiencia)</li><li>Widget de Mis solicitudes en Inicio</li></ul> |
-| Lista de tipos de cambio | <ul><li>Configuración > Preferencias del proyecto > Tasas de cambio</li></ul> |
+| Listas de estados, prioridades, gravedades y tasas de cambio en Configuración | <ul><li>Configuración > Preferencias de proyecto > Estados</li><li>Configuración > Preferencias del proyecto > Prioridades</li><li>Configuración > Preferencias del proyecto > Gravedades</li><li>Configuración > Preferencias del proyecto > Tasas de cambio</li></ul> |
 
 ## Adición y edición de elementos en una lista mejorada
 
@@ -93,19 +93,19 @@ Al seleccionar la casilla de verificación situada junto a un elemento de la lis
 
 >[!NOTE]
 >
->Varias listas mejoradas pueden permitir seleccionar un solo elemento, editar de forma masiva (seleccionando más de un elemento) o no seleccionar ningún elemento.
+>Las distintas listas mejoradas pueden permitir seleccionar un solo elemento, editar por lotes (seleccionar más de un elemento) o no seleccionar ningún elemento.
 
 Haga clic en un botón de la barra de acciones para realizar esa acción, como ver el elemento de la lista, eliminarlo o editarlo.
 
 Si no hay acciones disponibles para el elemento seleccionado, la barra de acciones indica &quot;No hay acciones disponibles&quot;.
 
-![Ejemplo de barra de acciones](assets/glist-action-bar-exchange-rates.png)
+![Ejemplo de barra de acciones](assets/glist-action-bar-statuses.png)
 
 El menú **Más** es el menú de tres puntos que aparece junto a un campo principal en un elemento de la lista cuando pasa el ratón por encima. (El campo principal es la columna situada más a la izquierda de la tabla).
 
 Haga clic en el menú para ver acciones adicionales para el elemento. Algunas acciones pueden ser específicas de esa lista y no aparecen en ninguna otra.
 
-![Ejemplo de menú más](assets/glist-more-menu-exchange-rates.png)
+![Ejemplo de menú más](assets/glist-more-menu-priorities.png)
 
 ## Personalización de columnas en una lista mejorada
 
@@ -127,6 +127,23 @@ Algunas listas mejoradas permiten ocultar y mostrar columnas y reordenarlas.
    Aparece un indicador en el botón **Columnas** cuando las columnas están ocultas. El indicador no aparece cuando se reordenan las columnas.
 
    ![Indicador de columnas ocultas](assets/glist-columns-hidden-indicator.png)
+
+## Aplicación de una vista a una lista mejorada
+
+Una vista es un conjunto personalizado de disposiciones de columnas y filtros que se pueden aplicar a una lista. Puede crear vistas nuevas y editar las existentes.
+
+Para aplicar una vista, haga clic en el menú desplegable **Vistas** y seleccione la vista que desee aplicar a la lista.
+
+Para crear una vista nueva:
+
+1. Haga clic en el menú desplegable **Vistas** y seleccione **Nueva vista**.
+1. Escriba un nombre para la vista y haga clic en **Crear**.
+1. (Opcional) Oculte, muestre o reorganice las columnas. Para obtener más información, vea [Personalizar columnas en una lista mejorada](#customize-columns-in-an-enhanced-list).
+1. (Opcional) Filtre y agrupe los elementos de la lista. Para obtener más información, vea [Filtrar y agrupar elementos en una lista mejorada](#filter-and-group-items-in-an-enhanced-list).
+
+   Los cambios realizados en las vistas se guardan automáticamente y todos los usuarios de la vista pueden ver los cambios.
+
+   La próxima vez que aplique esta vista, la configuración de columna y filtro seguirá siendo la misma que la establecida.
 
 ## Filtrar y agrupar elementos en una lista mejorada
 

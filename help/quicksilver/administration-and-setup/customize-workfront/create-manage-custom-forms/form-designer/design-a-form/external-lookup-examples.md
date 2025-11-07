@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 13880fcb-8523-45d2-9ac6-38453e8e2391
-source-git-commit: 15ac51cc13eeb57d2de194a9a6ceec7683acfbe6
+source-git-commit: 3838e355c16275b9e10fb92497f1698ac99c4fa4
 workflow-type: tm+mt
 source-wordcount: '1414'
 ht-degree: 79%
@@ -54,6 +54,8 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 ## Configurar un campo de búsqueda externa para la misma instancia de Workfront
 
 Puede utilizar la búsqueda externa para introducir datos de la instancia de Workfront en el formulario personalizado.
+
+<!--When someone accesses the field in the custom form, they will only see in the list of options what they have permissions to see in Workfront. For example, if you are showing a list of projects, the user would only see projects that are shared with them.-->
 
 ### Utilice valores de campo de Workfront nativos en la búsqueda externa
 
