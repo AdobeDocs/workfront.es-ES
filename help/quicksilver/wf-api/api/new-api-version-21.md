@@ -6,16 +6,22 @@ description: Adobe Workfront publicó la versión 21 de la API el viernes, 23 de
 author: Becky
 feature: Workfront API
 role: Developer
-source-git-commit: 155323314712e020a638619d9bf10d678078645e
+source-git-commit: 040e714c2f81ba764c7895be430446add1250a83
 workflow-type: tm+mt
-source-wordcount: '891'
-ht-degree: 82%
+source-wordcount: '954'
+ht-degree: 77%
 
 ---
 
 # Novedades de la versión 21 de la API
 
 <span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa de espacio aislado.</span>
+
+>[!IMPORTANT]
+>
+>Este cambio de versión de API presenta un cambio radical que puede afectar a sus llamadas de API existentes. Esto se debe a que la versión 21 de la API utiliza la versión 2 de Suscripciones de eventos.
+>
+> Para los campos de selección múltiple, la versión 2 de Suscripciones de eventos siempre envía como una matriz. La versión 1 enviaba una matriz si se seleccionaba más de un valor. Si solo se seleccionaba un valor, se enviaba una cadena.
 
 Adobe Workfront publicó la versión 21 de la API el viernes, 23 de octubre de 2025. La versión 21 de la API incorpora los siguientes cambios con respecto a la versión 20.
 
