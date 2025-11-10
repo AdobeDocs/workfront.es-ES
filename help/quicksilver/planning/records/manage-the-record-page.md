@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
+source-git-commit: 1ed84baeacda2717c4f58058fb754e7a79b48baf
 workflow-type: tm+mt
-source-wordcount: '2262'
+source-wordcount: '2261'
 ht-degree: 36%
 
 ---
@@ -362,10 +362,10 @@ Para agregar una página Registros conectados:
 
      Para obtener información acerca de cómo editar registros en la vista de tabla, vea [Editar registros](/help/quicksilver/planning/records/edit-records.md).
 
-         >[!TIP]
-         >
-         >Puede seleccionar más de un registro u objeto para eliminarlos.
-     
+     >[!TIP]
+     >
+     >Puede seleccionar más de un registro u objeto para eliminarlos.
+
    * Edite en línea cualquiera de los registros de Planning de la tabla de la página Registros conectados.
 
      El resto de los objetos de Workfront se muestran en una vista de tabla de solo lectura y no se pueden editar.

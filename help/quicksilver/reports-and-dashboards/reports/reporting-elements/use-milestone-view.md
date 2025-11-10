@@ -6,10 +6,10 @@ description: Puede aplicar la vista de Hito a una lista de proyectos o a un info
 author: Courtney, Alina
 feature: Reports and Dashboards
 exl-id: c55e53b5-5559-4b6a-a8d7-5028be6af30f
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 1ed84baeacda2717c4f58058fb754e7a79b48baf
 workflow-type: tm+mt
-source-wordcount: '1623'
-ht-degree: 56%
+source-wordcount: '1370'
+ht-degree: 65%
 
 ---
 
@@ -19,13 +19,13 @@ ht-degree: 56%
 
 <!--remove Preview and Production mentions from the article when this comes out live-->
 
-<div class="preview">
+<!--<div class="preview"> 
 
-La información resaltada en esta página hace referencia a funcionalidades que aún no están disponibles de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Las mismas funciones también estarán disponibles en el entorno de producción para todos los clientes a partir de una semana desde la versión de vista previa.
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
 
-Para obtener más información, vea [Modernización de la interfaz](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
 
-</div>
+</div> -->
 
 Puede aplicar la vista de Hito a una lista de proyectos o a un informe. Puede utilizar la vista de Hito para ver todos los hitos asociados con las tareas de los proyectos que está viendo.
 
@@ -85,13 +85,9 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
 
 ## Información general de vista de hito {#milestone-view-overview}
 
-<div class="preview">
-
 La vista de hito está disponible en listas de proyectos e informes de proyectos. Puede ver rápidamente todos los hitos asociados con las tareas de los proyectos que está viendo.
 
 ![Proyecto con vista de hito](assets/project-with-milestone-view-with-complete.png)
-
-</div>
 
 >[!NOTE]
 >
@@ -137,34 +133,23 @@ Cuando se visualiza una lista de proyectos o un informe de proyectos en la vista
 
   Puede ajustar el porcentaje de finalización directamente desde la vista de hito, tal como se describe en la sección [Ajustar porcentaje completado para las tareas de la vista de hito](#adjust-percent-complete-for-tasks-in-the-milestone-view) de este artículo.
 
-* **Iconos de estado de progreso de la tarea:** Según el entorno que utilice para ver la vista de hito, los siguientes son iconos que indican el estado de progreso de la tarea:
+* **Iconos de estado de progreso de la tarea:** Los siguientes son iconos que indican el estado de progreso de la tarea:
 
-   * En el entorno Producción, los siguientes iconos de estado se muestran junto a cada proyecto y tarea en la vista Hito:
+   * Tiempo de activación: verde
+   * Detrás - amarillo
+   * En riesgo: azul
+   * Retrasado: rojo
 
-      * A tiempo\
-        ![Icono de Tiempo de activación](assets/gantt-ontime.png)
-
-      * Rezagado\
-        ![Icono detrás](assets/gantt-behind.png)
-
-      * En riesgo\
-        ![Icono de riesgo](assets/gantt-atrisk.png)
-
-      * Retrasado\
-        ![Icono de retraso](assets/gantt-late.png)
-
-     <!--get new screen shots or hide them for preview or production - could not display all in devtest; idea: use color dots from Task Details tab - New status is blue; Some concerns condition is yellow etc-->
-
-  <div class="preview">
-
-   * En el entorno de vista previa, junto a cada proyecto y tarea en la vista Hito se muestran los siguientes círculos de colores:
-
-      * Tiempo de activación: verde
-      * Detrás - amarillo
-      * En riesgo: azul
-      * Retrasado: rojo
-
-  </div>
+  <!--* In the Production environment, the following status icons display next to each project and task in the Milestone view: 
+      * On Time  
+      ![On time icon](assets/gantt-ontime.png)
+      * Behind  
+      ![Behind icon](assets/gantt-behind.png)
+      * At Risk  
+      ![At risk icon](assets/gantt-atrisk.png)
+      * Late  
+      ![Late icon](assets/gantt-late.png)
+      <!--get new screen shots or hide them for preview or production - could not display all in devtest; idea: use color dots from Task Details tab - New status is blue; Some concerns condition is yellow etc-->
 
   Puede deshabilitar la visualización de estos iconos de estado, tal como se describe en la sección [Configurar la información que se muestra en la vista de hito](#configure-what-information-displays-in-the-milestone-view) de este artículo.
 
@@ -205,23 +190,16 @@ Cuando se visualiza una lista de proyectos o un informe de proyectos en la vista
   ![Vista de hito con sombreado](assets/milestone-view-with-shading.png)
 
 * **Nombre del proyecto**: el nombre del proyecto se muestra con un vínculo al proyecto.
-* **Icono de condición del proyecto**: según el entorno en el que esté accediendo a la vista de Hito desde los siguientes indicadores se muestra la condición del proyecto:
+* **Icono de condición del proyecto**: los siguientes indicadores muestran la condición del proyecto:
 
-   * En el entorno Producción, aparece un icono junto al nombre del proyecto que indica la condición del proyecto. La condición del proyecto puede ser una de las siguientes:
+   * En Target: verde
+   * En riesgo - amarillo
+   * En problemas: rojo
 
-      * Bien encaminado
-      * En riesgo
-      * Con problemas
-
-  <div class="preview">
-
-   * En el entorno de vista previa, junto a cada proyecto se muestra un icono de condición en forma de círculo de color. Las condiciones posibles del proyecto y los colores del círculo son:
-
-      * En Target: verde
-      * En riesgo - amarillo
-      * En problemas: rojo
-
-     </div>
+  <!--* In the Production environment, an icon displays next to the project name, indicating the condition of the project. The Condition of the project might be one of the following:
+      * On Target
+      * At Risk
+      * In Trouble -->
 
 
 ## Configurar la información que se muestra en la vista de hito {#configure-what-information-displays-in-the-milestone-view}
@@ -241,15 +219,6 @@ Para configurar si se muestran los iconos de estado del proyecto y el porcentaje
 
 1. Haga clic en el menú desplegable **Vista** y luego haga clic en **Hito**.
 
-1. En el entorno Producción, haga clic en **Opciones** en la esquina superior derecha de la vista Hito y, a continuación, seleccione una de las opciones en el paso siguiente.
-
-   ![milestone_view_options.png](assets/milestone-view-options-350x141.png)
-
-   <div class="preview">En el entorno de vista previa, seleccione una de las opciones del paso siguiente, en la esquina superior derecha de la vista de Hito.</div>
-
-   <!--at Production release, replace this screen shot and adjust the Production/ Preview text above-->
-
-
 1. Seleccione entre las siguientes opciones:
 
    <table style="table-layout:auto"> 
@@ -267,6 +236,8 @@ Para configurar si se muestran los iconos de estado del proyecto y el porcentaje
     </tbody> 
    </table>
 
+   ![Opciones de vista de hito](assets/milestone-view-options-350x141.png)
+
 ## Ajustar el porcentaje completado de las tareas de la vista de hito {#adjust-percent-complete-for-tasks-in-the-milestone-view}
 
 Puede ajustar el porcentaje completado para las tareas en la vista de hito. No se puede ajustar el porcentaje completado de una tarea principal (una tarea que contiene subtareas) o de un proyecto.
@@ -279,6 +250,6 @@ Para ajustar el porcentaje completado de una tarea en la vista de hito:
 
 1. (Condicional) Si los porcentajes de finalización no se muestran actualmente en la vista Hito, habilite la vista Porcentaje completado de tareas y proyectos, tal como se describe en la sección [Configurar la información que se muestra en la vista Hito](#configure-what-information-displays-in-the-milestone-view) de este artículo.
 
-1. En el entorno Producción, haga clic en el porcentaje de finalización debajo de una tarea, especifique un nuevo porcentaje y, a continuación, presione Entrar.
+1. Mueva la diapositiva **Porcentaje completado** al nuevo porcentaje completado para actualizarla.
 
-   <div class="preview">En el entorno Vista previa, mueva la diapositiva Porcentaje completado al nuevo porcentaje completado para actualizarlo. </div>
+   <!--In the Production environment, click the completion percentage below a task, specify a new percentage, then press Enter.-->
