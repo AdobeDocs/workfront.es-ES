@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 13880fcb-8523-45d2-9ac6-38453e8e2391
-source-git-commit: 3838e355c16275b9e10fb92497f1698ac99c4fa4
+source-git-commit: c6adce09acf993ae00b080ac5177dabd953d69a1
 workflow-type: tm+mt
-source-wordcount: '1414'
-ht-degree: 79%
+source-wordcount: '1461'
+ht-degree: 76%
 
 ---
 
@@ -55,7 +55,7 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 
 Puede utilizar la búsqueda externa para introducir datos de la instancia de Workfront en el formulario personalizado.
 
-<!--When someone accesses the field in the custom form, they will only see in the list of options what they have permissions to see in Workfront. For example, if you are showing a list of projects, the user would only see projects that are shared with them.-->
+Cuando alguien accede al campo en el formulario personalizado, solo ve en la lista de opciones lo que tiene permisos para ver en Workfront. Por ejemplo, si muestra una lista de proyectos, el usuario solo verá los proyectos que se compartan con él.
 
 ### Utilice valores de campo de Workfront nativos en la búsqueda externa
 
