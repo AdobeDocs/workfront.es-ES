@@ -6,10 +6,10 @@ description: Puede instalar el complemento de Adobe Workfront para XD desde Adob
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: d4971977-b5bd-4bb4-a1c2-44829a67d32d
-source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
+source-git-commit: c21e1c1d8e45b7c6407e8741b31055bfed9f4717
 workflow-type: tm+mt
-source-wordcount: '521'
-ht-degree: 64%
+source-wordcount: '497'
+ht-degree: 55%
 
 ---
 
@@ -105,20 +105,19 @@ Puede instalar el complemento de [!DNL Adobe Workfront for XD] usted mismo desde
    >* Para encontrar el dominio, abra un explorador, vaya a la instancia [!DNL Workfront] y copie la primera parte de la dirección URL:\
    >![Localizar dominio](assets/domain-350x50.png)
    >
-   >* Si la instancia de Workfront está integrada con Experience Cloud, pídale a su administrador que le proporcione el dominio de Workfront que se encuentra en Product > Workfront en el Admin Console.
+   >* Si la instancia de Workfront está integrada con Experience Cloud y el dominio comienza por `experience.adobe.com`, pídale al administrador que le proporcione el dominio de Workfront que se encuentra en Producto > Workfront en Admin Console.
 
-1. En el explorador, escriba sus credenciales de [!DNL Workfront] y haga clic en **[!DNL Log in]**. Si su empresa utiliza un inicio de sesión único (SSO), se le redirigirá a la página de su proveedor de SSO para iniciar sesión.
+1. En el explorador, escriba sus credenciales de [!DNL Adobe] y haga clic en **[!DNL Log in]**. Si su empresa utiliza un inicio de sesión único (SSO), se le redirigirá a la página de su proveedor de SSO para iniciar sesión.
 
    >[!NOTE]
    >
    >Es posible que no se le pida que introduzca sus credenciales de [!DNL Workfront] si ha iniciado sesión recientemente.
 
-   Siga las indicaciones para iniciar sesión en [!DNL Workfront].
+1. Siga las indicaciones para iniciar sesión en [!DNL Workfront].
 
    >[!NOTE]
    >
    >* [!DNL Workfront] se conecta a [!DNL Adobe Creative Cloud] mediante OAuth 2.0, un estándar seguro utilizado por la mayoría de las integraciones basadas en la web para la autenticación y autorización de usuarios.
-   >* Cuando se le pida que introduzca el [dominio o host] de su cuenta de [!DNL Workfront], escríbalo con este formato: *yourCompany&#39;sDomain.my.workfront.com*. El dominio de su empresa suele ser el nombre de su empresa.
 
 1. Haz clic en **[!UICONTROL Permitir acceso]** para finalizar el inicio de sesión y vuelve a [!DNL Adobe XD] para ver tu trabajo.
 
