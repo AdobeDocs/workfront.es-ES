@@ -6,10 +6,11 @@ description: Vea los artículos de esta sección.
 author: Jenny
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
-source-git-commit: 8b9676c7ef4efcad1294a9aa786aa6fe52d26cc0
+exl-id: 2ed58b15-098a-4937-86e6-2a8444389c00
+source-git-commit: a48d7691d64a561bdef8a6bad506a3ce0c4f839e
 workflow-type: tm+mt
-source-wordcount: '63'
-ht-degree: 9%
+source-wordcount: '70'
+ht-degree: 8%
 
 ---
 
@@ -23,4 +24,5 @@ Esta sección contiene los siguientes artículos:
 
 * [Edición de un informe en un panel de lienzo](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/edit-a-report.md)
 * [Edición de filtros de informes en un panel de lienzo](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/edit-report-filters.md)
+* [Duplicación de un informe en un panel de lienzo](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/duplicate-a-report)
 * [Eliminación de un informe en un panel de lienzo](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/delete-a-report.md)
