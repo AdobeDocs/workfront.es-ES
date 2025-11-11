@@ -46,7 +46,7 @@ Puede editar un portafolio en la página del portafolio o editar portafolios en 
   </tr> 
   <tr> 
    <td role="rowheader">Nivel de acceso</td> 
-   <td> <p>Acceso de [!UICONTROL Edit] a portafolios de [!UICONTROL]</p>  </td> 
+   <td> <p>Acceso de [!UICONTROL Edit] a portafolios de </p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
