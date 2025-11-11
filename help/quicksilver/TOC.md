@@ -3,7 +3,7 @@ user-guide-title: Guía de Workfront
 user-guide-description: Utilice los siguientes documentos, tutoriales y recursos adicionales para aprender a implementar y utilizar Adobe Workfront de forma eficaz en su organización.
 role: User
 feature-set: Workfront
-source-git-commit: ddbee8110fbfb76a3a6bfe8bca66e1ba1cc40fb4
+source-git-commit: 52c907abde5c96ad50e4ccb031414baf6475186c
 workflow-type: tm+mt
 source-wordcount: '13522'
 ht-degree: 58%
@@ -34,7 +34,7 @@ ht-degree: 58%
          * [Mejoras de proyecto del cuarto trimestre de 2025](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-project.md)
          * [Mejoras en las solicitudes del cuarto trimestre de 2025](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-requests.md)
          * [Mejoras en la gestión de recursos del cuarto trimestre de 2025](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-resource-mgmt.md)
-         * [Otras mejoras del cuarto trimestre de 2025 &#x200B;](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-other.md)
+         * [Otras mejoras del cuarto trimestre de 2025 ](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-other.md)
          * [Actualizaciones de aspecto durante el periodo de tiempo de la versión del cuarto trimestre de 2025](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-look-and-feel-updates.md)
       * Versión del tercer trimestre de 2025 {#release-25-q3}
          * [Resumen de la versión del tercer trimestre de 2025](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-release-overview.md)
@@ -1769,7 +1769,7 @@ ht-degree: 58%
    * [Administrar recursos: índice de artículos](resource-mgmt/manage-resources.md)
    * Administración de recursos {#resource-management}
       * [Administración de recursos: índice de artículos](resource-mgmt/resource-mgmt-overview/resource-management-overview.md)
-      * [Introducción a la Administración de recursos &#x200B;](resource-mgmt/resource-mgmt-overview/get-started-resource-management.md)
+      * [Introducción a la Administración de recursos ](resource-mgmt/resource-mgmt-overview/get-started-resource-management.md)
    * Planificación de recursos en Adobe Workfront {#resource-planning-in-adobe-workfront}
       * [Planificación de recursos: índice de artículos](resource-mgmt/resource-planning/resource-planning-overview.md)
       * Conjuntos de recursos {#resource-pools}
@@ -2025,7 +2025,7 @@ ht-degree: 58%
    * [Actualizar las prioridades de la iniciativa en el planificador de escenarios](scenario-planner/prioritize-initiatives.md)
    * [Actualizar o crear proyectos mediante la publicación de iniciativas en el Planificador de escenarios](scenario-planner/publish-scenarios-update-projects.md)
    * [Información general sobre la conciliación de asignaciones de recursos entre proyectos e iniciativas](scenario-planner/overview-reconcile-allocations-between-projects-initiatives.md)
-   * [Solicitar acceso a un plan en el Scenario Planner](scenario-planner/request-access-to-plan.md)
+   * [Solicitar permisos para un plan en el Scenario Planner](scenario-planner/request-access-to-plan.md)
    * [Resolución de conflictos de iniciativas en el Planificador de escenarios](scenario-planner/resolve-conflicts-in-sp.md)
    * [Compartir un plan en el Planificador de escenarios](scenario-planner/share-a-plan.md)
    * [Mostrar la asignación de las funciones para proyectos e iniciativas en la lista de tareas](scenario-planner/show-role-allocation-task-list-nwe.md)

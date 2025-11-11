@@ -7,10 +7,10 @@ description: Puede editar la información de un formulario personalizado despué
 author: Alina
 feature: Get Started with Workfront
 exl-id: c2b6afde-91a8-4e17-8e1a-3428b48e500a
-source-git-commit: 53269f4932a752a833df8e41891706934214e062
+source-git-commit: 4897f165a7316a52b968601b45f95f7045f63840
 workflow-type: tm+mt
-source-wordcount: '1062'
-ht-degree: 10%
+source-wordcount: '1207'
+ht-degree: 11%
 
 ---
 
@@ -97,27 +97,20 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 
 ## Edición de información en un formulario personalizado
 
-La edición de información en un formulario personalizado adjunto a un objeto es idéntica para todos los objetos. Para obtener información sobre qué objetos pueden tener un formulario personalizado, vea [Información general sobre formularios personalizados](../../administration-and-setup/customize-workfront/create-manage-custom-forms/custom-forms-overview.md).
+La edición de información en un formulario personalizado adjunto a un objeto es similar para la mayoría de los objetos.
 
-1. Vaya a un objeto cuya información desee editar en el formulario personalizado.
-1. Haga clic en **`<Object type>`detalles** en el panel izquierdo.
+Para obtener información sobre qué objetos pueden tener un formulario personalizado, vea [Información general sobre formularios personalizados](../../administration-and-setup/customize-workfront/create-manage-custom-forms/custom-forms-overview.md).
 
-   Por ejemplo, cuando edite información en un formulario personalizado de proyecto, haga clic en **Detalles del proyecto**.
+1. Vaya a cualquier lista de objetos para los que desee editar información en el formulario personalizado, excepto a una lista de iteraciones.
+1. Seleccione uno o varios objetos de la lista y, a continuación, haga clic en el icono **Editar** ![Editar icono](assets/edit-icon.png) que se encuentra en la parte superior de la lista.
+1. Haga clic en **Forms personalizado** en el panel izquierdo, dentro del cuadro **Editar &lt; objeto >**.
 
-1. Desplácese hasta el formulario personalizado. Cuando hay un formulario personalizado adjunto al objeto, el nombre del formulario se muestra como un área en la sección Detalles.
-1. Si es necesario, haga clic en la flecha ![](assets/expand-arrow-right.png) a la izquierda del nombre del formulario personalizado para expandirlo.
-1. Cerca de la esquina superior derecha de la página, haga clic en el icono Editar ![](assets/edit-icon.png).
+   Cuando hay un formulario personalizado adjunto al objeto, el nombre del formulario se muestra como un área en la sección **Forms personalizado**.
 1. Comience a introducir información en cualquier campo al que tenga acceso.
 
-   ![](assets/click-in-field-to-edit-info-350x132.png)
+   ![Cuadro de edición con formularios personalizados en el registro de facturación](assets/edit-box-with-custom-forms-on-billing-record.png)
 
-   O
-
-   Si todavía no se ha especificado información en el formulario, haga clic en **Agregar+** para cualquier campo al que tenga acceso y empiece a escribir información.
-
-   ![](assets/plus-add-to-edit-info-350x180.png)
-
-   Si hay varios formularios personalizados adjuntos al objeto, puede hacerlo para cada formulario.
+   Si hay varios formularios personalizados adjuntos al objeto, hágalo para cada formulario.
 
    Según el tipo de campo en el que trabaje, tenga en cuenta lo siguiente:
 
@@ -133,7 +126,7 @@ La edición de información en un formulario personalizado adjunto a un objeto e
 
    Para obtener información acerca de todos los tipos de campo, vea [Crear un formulario personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
-1. Haga clic en **Guardar cambios**.
+1. Haga clic en **Guardar**.
 
    >[!IMPORTANT]
    >
@@ -147,19 +140,50 @@ La edición de información en un formulario personalizado adjunto a un objeto e
 
    También puede actualizar manualmente todos los campos personalizados calculados para un objeto al editar el objeto de forma masiva junto con otros objetos de una lista. Para obtener instrucciones, vea [Volver a calcular todos los campos personalizados calculados para varios objetos de una lista al editar los objetos](#recalculate-all-calculated-custom-fields-for-multiple-objects-in-a-list-when-editing-the-objects) en este artículo.
 
-## Volver a calcular todos los campos personalizados calculados para un objeto  {#recalculate-all-calculated-custom-fields-for-an-object}
+1. (Condicional) Para actualizar los campos personalizados de un formulario personalizado de iteración, siga estos pasos:
+
+   1. Vaya a una iteración.
+   1. Haga clic en **Formularios personalizados** en el panel izquierdo. 
+   1. Para agregar formularios personalizados, empiece a escribir el nombre de un formulario en el campo **Agregar formulario personalizado** en la esquina superior derecha de la página
+
+      O
+
+      Haga clic en el icono **Editar** en la misma área para comenzar a editar los campos de los formularios adjuntos.
+
+      ![Editar formulario personalizado de iteración](assets/edit-iteration-custom-form.png)
+
+   1. Haga clic en **Guardar cambios**.
+
+## Volver a calcular campos personalizados para objetos
+
+Periódicamente, según los cambios que se puedan producir en los formularios personalizados o en los campos a los que se haga referencia en los campos personalizados, los valores de los campos personalizados calculados pueden quedar obsoletos. En este caso, es posible que tenga que volver a calcular los campos personalizados o las expresiones personalizadas de los objetos.
+
+Las secciones siguientes describen cómo se pueden recalcular las expresiones personalizadas para objetos con formularios personalizados.
+
+>[!NOTE]
+>
+>No se pueden recalcular las expresiones personalizadas para grupos.
+
+### Volver a calcular todos los campos personalizados calculados desde la página de un objeto
 
 >[!IMPORTANT]
 >
 >Debe tener un formulario personalizado con campos calculados adjuntos al objeto antes de poder seguir los pasos de esta sección.
 
+1. Vaya a la página principal de uno de los siguientes objetos cuyos campos personalizados desee volver a calcular:
 
-1. Vaya a la página principal del objeto cuyos campos personalizados desea volver a calcular.
+   * Proyecto
+   * Tarea
+   * Problema
+   * Portafolio
+   * Programa
+   * Documento
+
 1. Haga clic en el menú **Más** ![](assets/more-icon.png) que se encuentra a la derecha del nombre del objeto y, a continuación, haga clic en **Volver a calcular expresiones**.
 
    Esto vuelve a calcular todos los campos personalizados del formulario del objeto.
 
-## Volver a calcular todos los campos personalizados calculados para varios objetos de una lista al editar los objetos {#recalculate-all-calculated-custom-fields-for-multiple-objects-in-a-list-when-editing-the-objects}
+### Volver a calcular todos los campos personalizados calculados para varios objetos de una lista al editar los objetos {#recalculate-all-calculated-custom-fields-for-multiple-objects-in-a-list-when-editing-the-objects}
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this will need to be edited when the bulk edit for objects update in NW)</p>
@@ -172,17 +196,29 @@ Según los objetos para los que desee volver a calcular las expresiones personal
 
 Para volver a calcular manualmente los campos personalizados de varios objetos editándolos por lotes desde una lista o informe:
 
-1. Vaya a una lista de objetos que contienen formularios personalizados con campos calculados.
+1. Vaya a una lista de los siguientes tipos de objetos cuyos objetos contengan formularios personalizados con campos calculados:
+
+   * Usuarios
+   * Compañías
+   * Registros de facturación
+
 1. Seleccione los objetos cuyos campos personalizados calculados desee actualizar.
 1. Haga clic en el **icono Editar**.
 1. Haga clic en **Forms personalizado** en el menú de la izquierda y, a continuación, seleccione **Volver a calcular expresiones personalizadas**.
-1. Haga clic en **Guardar** **cambios**.
+1. Haga clic en **Guardar** o en **Guardar cambios**.
 
    Workfront calcula todos los campos personalizados de todos los objetos seleccionados.
 
 Para volver a calcular las expresiones personalizadas de una lista de objetos:
 
-1. Vaya a un informe o lista de proyectos y seleccione uno o varios proyectos.
+1. Vaya a una lista de proyectos o a un informe y seleccione uno o varios de los siguientes tipos de objetos:
+
+   * Proyectos
+   * Tareas
+   * Problemas
+   * Portafolios
+   * Programas
+   * Gastos
 1. Haga clic en el menú **Más** ![](assets/more-icon.png) y, a continuación, haga clic en **Volver a calcular expresiones personalizadas**.
 
 ![](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
@@ -192,5 +228,7 @@ No todas las listas de todos los objetos tienen esta capacidad.
 
 >[!NOTE]
 >
->Según la complejidad de los proyectos, se recomienda no seleccionar un gran número de proyectos al volver a calcular los campos personalizados calculados de forma masiva para garantizar un rendimiento óptimo. Algunas cosas que podrían hacer que un proyecto sea demasiado complejo podrían ser varias dependencias o asignaciones o un gran número de campos personalizados.
+>Al recalcular las expresiones para varios proyectos, según su complejidad, recomendamos no seleccionar un número demasiado grande de proyectos para garantizar un rendimiento óptimo.
+>
+>Algunas cosas que podrían hacer que un proyecto sea demasiado complejo podrían ser varias dependencias o asignaciones o un gran número de campos personalizados.
 

@@ -7,10 +7,10 @@ description: Puede compartir un plan que haya creado en el Planificador de escen
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: b8bbb533-4384-414c-8574-4e137962b8ca
-source-git-commit: aa2e9a012a60ab10e2d027dedae520b5e06686c7
+source-git-commit: 4897f165a7316a52b968601b45f95f7045f63840
 workflow-type: tm+mt
 source-wordcount: '880'
-ht-degree: 91%
+ht-degree: 89%
 
 ---
 
@@ -118,7 +118,7 @@ Para obtener más información sobre el acceso a [!DNL Scenario Planner] para va
 * No puede ver los planes que no ha creado o que no se han compartido con usted.
 * Solo puede compartir un plan con otros usuarios. No puede compartir las metas con grupos, equipos o compañías. 
 * Debe guardar el plan para poder compartirlo.
-* Puede compartir una dirección URL de un plan con otro usuario. Si el usuario no tiene permisos para ver al menos el plan, puede solicitar acceso al plan a otro usuario cuando reciba la dirección URL. Para obtener información sobre cómo solicitar acceso a un plan, consulte [Solicitar acceso a un plan en el [!DNL Scenario Planner]](../scenario-planner/request-access-to-plan.md).
+* Puede compartir una dirección URL de un plan con otro usuario. Si el usuario no tiene permisos para ver al menos el plan, puede solicitar acceso al plan a otro usuario cuando reciba la dirección URL. Para obtener información sobre cómo solicitar acceso a un plan, consulte [Solicitar permisos para un plan en [!DNL Scenario Planner]](../scenario-planner/request-access-to-plan.md).
 * Cuando comparte varios planes que ya se han compartido con otros, los usuarios con los que comparte no sustituyen a los existentes, sino que se añaden a ellos en cada plan seleccionado.
 
 ## Opciones de permiso de un plan

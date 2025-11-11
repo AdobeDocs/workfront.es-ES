@@ -6,16 +6,16 @@ description: Las predecesoras son tareas de las que dependen otras tareas para s
 author: Alina
 feature: Work Management
 exl-id: c3242b92-9036-4770-a073-2a9c393b97fd
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+source-git-commit: 4897f165a7316a52b968601b45f95f7045f63840
 workflow-type: tm+mt
-source-wordcount: '463'
-ht-degree: 97%
+source-wordcount: '475'
+ht-degree: 94%
 
 ---
 
 # Forzar predecesoras
 
-<!-- Audited: 2/2024 -->
+<!-- Audited: 11/2025 -->
 
 Las predecesoras son tareas de las que dependen otras tareas para su finalización. Las relaciones de predecesora afectan a las fechas de inicio y finalización de las tareas y, en última instancia, afectan a la línea de tiempo del proyecto.
 
@@ -119,4 +119,6 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 1. En la columna **Predecesoras**, empiece a escribir el número de la tarea predecesora seguida de “e”. Por ejemplo, escriba &quot;1e&quot; para añadir la tarea número 1 como predecesora de la tarea seleccionada.
 1. Haga clic en Entrar para guardar la información de predecesoras de la tarea.
 
-   ![predecessor_enforced_in_list.png](assets/predecessor-enforced-in-list-350x308.png)
+   ![Lista forzada de predecesoras](assets/predecessor-enforced-in-list-350x308.png)
+
+   La información sobre el predecesor que se está forzando se guarda inmediatamente.

@@ -6,20 +6,22 @@ description: Puede aprovechar la funcionalidad Agile para su proyecto sin los de
 author: Alina, Courtney
 feature: Work Management
 exl-id: fc633fd6-35b4-4949-8045-22c775002436
-source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
+source-git-commit: 4897f165a7316a52b968601b45f95f7045f63840
 workflow-type: tm+mt
-source-wordcount: '277'
-ht-degree: 20%
+source-wordcount: '311'
+ht-degree: 18%
 
 ---
 
 # Administrar un proyecto en la vista de Agile
 
-<!-- Audited: 2/2024 -->
+<!-- Audited: 11/2025 -->
 
 Puede aprovechar la funcionalidad Agile para su proyecto sin los desafíos administrativos que normalmente acompañan a las prácticas Agile (como administrar un registro de asuntos pendientes del equipo o crear iteraciones).
 
-Si desea trabajar en un entorno Agile que utilice un registro de pendientes de equipo y le permita crear iteraciones a partir de las tareas pendientes, siga las instrucciones de [Trabajar en un entorno Agile](../../../agile/work-in-an-agile-environment/work-in-an-agile-environment.md).
+Puede trabajar en un entorno Agile que utilice un registro de asuntos pendientes del equipo y le permita crear iteraciones a partir de las tareas del registro de asuntos pendientes.
+
+Para obtener más información, vea [Trabajar en un entorno Agile](../../../agile/work-in-an-agile-environment/work-in-an-agile-environment.md).
 
 ## Requisitos de acceso
 
@@ -95,7 +97,9 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
 
 ## Ver un proyecto en la vista de Agile
 
-1. Vaya al proyecto que desee ver en una vista Agile, en la lista de tareas o en la lista de problemas.
+Puede ver las tareas o los problemas de un proyecto en una vista Agile en lugar de en una lista, para aprovechar la funcionalidad Agile y desarrollar proyectos.
+
+1. Vaya al proyecto que desee ver en una vista Agile y, a continuación, haga clic en **Tareas** o en **Problemas** en el panel izquierdo.
 1. Haga clic en el icono **Vista de tablero** ![Icono de tablero](assets/board-icon-for-agile-view.png).
 
    La vista de tablero del proyecto se muestra de forma predeterminada.
@@ -107,4 +111,6 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
 
    Para obtener más información, consulte [Administrar columnas del tablero](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md) y [Personalizar qué campos se muestran en una tarjeta](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md). Tenga en cuenta que no puede definir directivas de columna en la vista de tablero de un proyecto.
 
-1. (Opcional) Para volver a la vista de lista, haga clic en el icono **Lista**.
+1. (Opcional) Para volver a la vista de lista, haga clic en el icono **Lista** ![Icono de lista](assets/list-icon.png).
+
+   Se muestra la lista de tareas o problemas.

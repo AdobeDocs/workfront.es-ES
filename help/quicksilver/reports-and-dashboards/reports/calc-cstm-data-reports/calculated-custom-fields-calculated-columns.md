@@ -7,10 +7,10 @@ description: Para agregar varios campos en Adobe Workfront y mostrar ese valor a
 author: Jenny
 feature: Reports and Dashboards
 exl-id: 17ac554d-0c90-4592-946e-a89f1784571d
-source-git-commit: a1ead6d0c1c85bfbe6d7302506743db8d8b3e205
+source-git-commit: 4897f165a7316a52b968601b45f95f7045f63840
 workflow-type: tm+mt
-source-wordcount: '817'
-ht-degree: 98%
+source-wordcount: '834'
+ht-degree: 93%
 
 ---
 
@@ -87,8 +87,9 @@ Para obtener más información acerca de la sintaxis que debe usar en una column
 
 * En la página principal de un objeto, haga clic en el icono Más ![Icono Más](assets/more-icon.png) y, a continuación, haga clic en **Volver a calcular expresiones**
 
-* Editar de forma masiva varios objetos cuando **Recalcular expresiones personalizadas** está habilitada
-* Editar un formulario personalizado cuando **Actualizar cálculos anteriores** está habilitada para el campo personalizado calculado
+* Edición masiva de varios objetos cuando **Volver a calcular expresiones personalizadas** está habilitado.
+* Edición masiva de varios objetos al hacer clic en **Volver a calcular expresiones** desde el menú Más en una lista de objetos.
+* Editar un formulario personalizado cuando **Actualizar cálculos anteriores** está habilitado para el campo personalizado calculado.
 
 ## Cuándo se deben utilizar columnas calculadas en una vista
 

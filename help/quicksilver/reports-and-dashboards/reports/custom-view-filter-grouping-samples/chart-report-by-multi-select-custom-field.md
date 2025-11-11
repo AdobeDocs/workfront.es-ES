@@ -4,10 +4,10 @@ product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: Trazar un informe con un campo personalizado de selección múltiple
 description: Puede crear un gráfico de un informe mediante un campo personalizado de selección múltiple solo después de crear un campo calculado adicional que capture las opciones seleccionadas en el campo personalizado de selección múltiple.
-author: Nolan
+author: Jenny
 feature: Reports and Dashboards
 exl-id: cda77319-dce6-409d-8f59-53838820cafb
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 4897f165a7316a52b968601b45f95f7045f63840
 workflow-type: tm+mt
 source-wordcount: '1005'
 ht-degree: 11%

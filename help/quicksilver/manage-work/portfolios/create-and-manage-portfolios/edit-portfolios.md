@@ -6,10 +6,10 @@ description: Puede editar la información de los portafolios que ha creado o que
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 0a2e18c3-1722-4fc6-8442-19e80eca9d47
-source-git-commit: cfbd38d9ab8f1976f891164a2572bb929339477d
+source-git-commit: 4897f165a7316a52b968601b45f95f7045f63840
 workflow-type: tm+mt
-source-wordcount: '1048'
-ht-degree: 66%
+source-wordcount: '1080'
+ht-degree: 64%
 
 ---
 
@@ -46,7 +46,7 @@ Puede editar un portafolio en la página del portafolio o editar portafolios en 
   </tr> 
   <tr> 
    <td role="rowheader">Nivel de acceso</td> 
-   <td> <p>Acceso de [!UICONTROL Edit] a portafolios de </p>  </td> 
+   <td> <p>Acceso de [!UICONTROL Edit] a portafolios de [!UICONTROL]</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
@@ -149,6 +149,12 @@ Puede editar un portafolio en la página del portafolio o editar portafolios en 
    * [[!UICONTROL Información general]](#overview)
    * [Formularios personalizados](#custom-forms)
    * [Comentario](#comment)
+
+
+   >[!TIP]
+   >
+   >Para volver a calcular los campos personalizados de varios portafolios a la vez, seleccione varios portafolios en una lista, haga clic en el menú **Más** ![Menú Más](assets/more-icon.png) en la parte superior de la lista y, a continuación, en **Volver a calcular expresiones**.
+
 
 ### [!UICONTROL Información general] {#overview}
 

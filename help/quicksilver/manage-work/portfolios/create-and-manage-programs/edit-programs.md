@@ -6,10 +6,10 @@ description: Puede editar información sobre los programas que ha creado o que o
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 7dcdfc5a-3fc1-48a8-ae28-a6a0a458732e
-source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
+source-git-commit: 4897f165a7316a52b968601b45f95f7045f63840
 workflow-type: tm+mt
-source-wordcount: '1077'
-ht-degree: 62%
+source-wordcount: '1109'
+ht-degree: 60%
 
 ---
 
@@ -112,6 +112,11 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
    * [[!UICONTROL Formularios personalizados]](#Custom%C2%A0F)
    * [[!UICONTROL Comment]](#comment)
 
+
+   >[!TIP]
+   >
+   >Para volver a calcular los campos personalizados de varios programas a la vez, seleccione varios programas en una lista y haga clic en el menú **Más** ![Más menú](assets/more-icon.png) en la parte superior de la lista; a continuación, seleccione **Volver a calcular expresiones**.
+
 ### [!UICONTROL Overview] {#overview}
 
 1. Empiece a editar un programa como se ha descrito anteriormente.
@@ -146,7 +151,7 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Group]</td> 
-      <td> <p>Añada el nombre de un solo grupo si este está asociado al programa o si tiene la responsabilidad de completarlo. </p> <p><b>Sugerencia</b></p>  <p>Al acceder al campo [!UICONTROL Group] desde la página Detalles del programa , haga lo siguiente para asegurarse de que está seleccionando el grupo correcto: </p> <p>Pase el ratón sobre el nombre del grupo y haga clic en el icono de [!UICONTROL information] <img src="assets/info-icon.png"> que hay junto a él. Esta acción muestra la ayuda contextual con información sobre el grupo, como la jerarquía de los grupos que tiene por encima y sus administradores.</p> <p> <img src="assets/group-details-widget-programs-350x268.png" style="width: 350;height: 268;"> </p> <p>Esta opción no está disponible en el cuadro [!UICONTROL Edit Program]. </p> </p> </td> 
+      <td> <p>Añada el nombre de un solo grupo si este está asociado al programa o si tiene la responsabilidad de completarlo. </p> <p><b>Sugerencia</b></p>  <p>Al acceder al campo [!UICONTROL Group] desde la página Detalles del programa [!UICONTROL], haga lo siguiente para asegurarse de que está seleccionando el grupo correcto: </p> <p>Pase el ratón sobre el nombre del grupo y haga clic en el icono de [!UICONTROL information] <img src="assets/info-icon.png"> que hay junto a él. Esta acción muestra la ayuda contextual con información sobre el grupo, como la jerarquía de los grupos que tiene por encima y sus administradores.</p> <p> <img src="assets/group-details-widget-programs-350x268.png" style="width: 350;height: 268;"> </p> <p>Esta opción no está disponible en el cuadro [!UICONTROL Edit Program]. </p> </p> </td> 
      </tr> 
     </tbody> 
    </table>
