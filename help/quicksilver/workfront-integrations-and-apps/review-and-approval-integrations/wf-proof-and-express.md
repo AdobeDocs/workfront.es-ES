@@ -83,7 +83,7 @@ Cuando se remezcla una plantilla Express, se requiere una aprobación antes de l
 
 Los usuarios deben tener una licencia de Workfront estándar para solicitar la aprobación de Adobe Express.
 
-Aprenda a [obtener aprobación de diseños](https://helpx.adobe.com/express/web/share-and-publish/share-and-collaborate/request-approval.html).
+Aprenda a [obtener aprobación de diseños](https://helpx.adobe.com/es/express/web/share-and-publish/share-and-collaborate/request-approval.html).
 
 
 ## Combinar plantillas rápidas y enviar para su revisión y aprobación
