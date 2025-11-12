@@ -4,10 +4,10 @@ description: En esta página se ofrece información sobre la funcionalidad inclu
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: e92910e553f08aea12e9e1b17a17413731c37d2f
+source-git-commit: 5f05c1a13c6c0d0ed1d69b850a0cb07ce53fc271
 workflow-type: tm+mt
-source-wordcount: '1331'
-ht-degree: 21%
+source-wordcount: '1374'
+ht-degree: 20%
 
 ---
 
@@ -84,6 +84,15 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td><strong>Liberación rápida</strong></td>
         <td><strong>Trimestralmente</strong></td>
     </tr>
+     <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-documents-approvals.md" class="MCXref xref" xrefformat="{para}">Compatibilidad entre organizaciones para Adobe Express con Workfront Proofing<p>[!BADGE Off schedule]{type=Neutral}</p> </a>
+            <p>Presentamos la compatibilidad entre organizaciones para Adobe Express con Workfront Proofing. Esta mejora permite a los clientes que operan en varias organizaciones IMS utilizar y administrar sin problemas los flujos de trabajo de revisión.</p>
+        </td>
+        <td>viernes, 13 de noviembre de 2025</td>
+        <td>viernes, 13 de noviembre de 2025</td>
+        <td>viernes, 13 de noviembre de 2025</td>
+    </tr>   
      <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-documents-approvals.md" class="MCXref xref" xrefformat="{para}">Adobe Experience Manager ya está disponible con la integración Frame.io <p>[!BADGE Off schedule]{type=Neutral}</p> </a>
@@ -237,7 +246,7 @@ Para ofrecer integraciones más estables y escalables, estamos adoptando un enfo
 * Workfront para Salesforce.
 
 Recomendamos utilizar la automatización e integración de Workfront para las necesidades de integración de su organización con Google Workspace.
-Para obtener una descripción general de la automatización e integración de Workfront, consulte [Información general de Adobe Workfront Fusion](https://experienceleague.adobe.com/es/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+Para obtener una descripción general de la automatización e integración de Workfront, consulte [Información general de Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 
 
 ### Actualizaciones de mantenimiento de Workfront 

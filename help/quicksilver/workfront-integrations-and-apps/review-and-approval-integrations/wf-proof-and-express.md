@@ -8,10 +8,10 @@ author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 2eef36a6-8c61-4e7e-9760-23114f942250
-source-git-commit: a65a4568c6428768ee6bc60a59a8499efdbec9f8
+source-git-commit: 752c39b90e9206a335435350f8844c746a7127e0
 workflow-type: tm+mt
-source-wordcount: '504'
-ht-degree: 5%
+source-wordcount: '431'
+ht-degree: 6%
 
 ---
 
@@ -64,13 +64,7 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 
 ## Requisitos de integración
 
-* Workfront y Adobe Express deben implementarse en la misma organización de IMS.
-
-* El equipo de productos de Adobe debe habilitar la integración en sus cuentas.
-
-  >[!IMPORTANT]
-  >
-  >La integración de Adobe Express y Workfront Proof estará disponible para los usuarios a lo largo de varias versiones, empezando por las cuentas que tienen Workfront y Adobe Express asociados con el mismo ID de organización en Adobe Admin Console, seguido por los clientes con usuarios que trabajan en organizaciones IMS. Si desea tener la integración habilitada, póngase en contacto con el administrador de éxito del cliente o de cuentas estratégicas.
+* Debe tener derechos para acceder a Adobe Express y, al menos, a un entorno de Workfront con una licencia de Workfront Standard.
 
 * Los usuarios deben instalar [Revisar contenido interactivo con la herramienta de revisión de Adobe Workfront](/help/quicksilver/review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/review-proof-in-web-viewer-extension.md) para poder empezar a revisar borradores en Adobe Express.
 
@@ -89,7 +83,7 @@ Cuando se remezcla una plantilla Express, se requiere una aprobación antes de l
 
 Los usuarios deben tener una licencia de Workfront estándar para solicitar la aprobación de Adobe Express.
 
-Aprenda a [obtener aprobación de diseños](https://helpx.adobe.com/es/express/web/share-and-publish/share-and-collaborate/request-approval.html).
+Aprenda a [obtener aprobación de diseños](https://helpx.adobe.com/express/web/share-and-publish/share-and-collaborate/request-approval.html).
 
 
 ## Combinar plantillas rápidas y enviar para su revisión y aprobación
