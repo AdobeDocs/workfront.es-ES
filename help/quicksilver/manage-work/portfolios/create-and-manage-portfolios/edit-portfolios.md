@@ -6,10 +6,10 @@ description: Puede editar la información de los portafolios que ha creado o que
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 0a2e18c3-1722-4fc6-8442-19e80eca9d47
-source-git-commit: 4897f165a7316a52b968601b45f95f7045f63840
+source-git-commit: ce986a912c2ee231b9dc2e1c7a3e9587b20aa0ba
 workflow-type: tm+mt
 source-wordcount: '1080'
-ht-degree: 64%
+ht-degree: 65%
 
 ---
 
@@ -46,7 +46,7 @@ Puede editar un portafolio en la página del portafolio o editar portafolios en 
   </tr> 
   <tr> 
    <td role="rowheader">Nivel de acceso</td> 
-   <td> <p>Acceso de [!UICONTROL Edit] a portafolios de </p>  </td> 
+   <td> <p>Acceso de [!UICONTROL Edit] a portafolios de [!UICONTROL]</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
@@ -177,28 +177,28 @@ Puede editar un portafolio en la página del portafolio o editar portafolios en 
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[!UICONTROL **Nombre**]</td> 
+      <td role="rowheader">[!UICONTROL Name]</td> 
       <td> <p>Actualice el nombre del portafolio. </p> <p><b>Sugerencia</b></p> 
-      <p>El campo **Nombre** no está disponible cuando selecciona más de un portafolio. </p> </td> 
+      <p>El campo Nombre no está disponible cuando selecciona más de un portafolio. </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL **Descripción**]</td> 
+      <td role="rowheader">[!UICONTROL Description]</td> 
       <td> <p>Escriba una descripción para que el Portafolios indique lo que tiene de único. </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL **Portfolio Manager**]</td> 
+      <td role="rowheader">[!UICONTROL Portfolio Manager]</td> 
       <td> <p>Comience a escribir el nombre de un usuario que desee indicar como administrador del portafolio y, a continuación, selecciónelo cuando aparezca en la lista. Es igual que el [!UICONTROL Portfolio Owner].  Es la persona que puede supervisar el trabajo definido en los proyectos del portafolio y aprobar el caso empresarial.</p> <p>Importante: cuando se designa a alguien como administrador del portafolio, obtiene automáticamente permisos de [!UICONTROL Manage] para el portafolio, los programas y los proyectos del portafolio. </p> <p>Sugerencia: puede actualizar rápidamente el administrador del portafolio en el encabezado del portafolio. </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL **Grupo**]</td> 
+      <td role="rowheader">[!UICONTROL Group]</td> 
       <td> <p>Añada el nombre de un solo grupo si este está asociado al portafolio o si tiene la responsabilidad de completarlo. </p> <p>Sugerencia:  <p>Al acceder al campo [!UICONTROL Group] desde la página [!UICONTROL Portfolio Details], haga lo siguiente: </p> <p>Para asegurarse de que esté seleccionando el grupo correcto, pase el puntero por encima de él y haga clic en el icono de [!UICONTROL information] <img src="assets/info-icon.png"> que aparece junto a él. Esta acción muestra la ayuda contextual con información sobre el grupo, como la jerarquía de los grupos que tiene por encima y sus administradores.</p> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/group-details-widget-portfolios-350x250.png" style="width: 350;height: 250;"> </p> <p>Esta opción no está disponible en el cuadro [!UICONTROL Edit Portfolio]. </p> </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"> <p role="rowheader">[!UICONTROL **Cuadro de resultados de alineación**]</p> </td> 
+      <td role="rowheader"> <p role="rowheader">[!UICONTROL Alignment Scorecard]</p> </td> 
       <td> <p>Seleccione el cuadro de resultados de alineación que desee utilizar en la lista desplegable. Se utiliza un cuadro de resultados para medir la alineación de un proyecto con los criterios establecidos por un portafolio, que a menudo reflejan la misión, los valores y las metas estratégicas de una organización. Para obtener más información, consulte <a href="../../../manage-work/projects/define-a-business-case/apply-scorecard-to-project-to-generate-alignment-score.md" class="MCXref xref">Aplicar un cuadro de resultados a un proyecto y generar una puntuación de alineación</a> y <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md" class="MCXref xref">Crear un cuadro de resultados</a>.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL **Está Activo**]</td> 
+      <td role="rowheader">[!UICONTROL Is Active]</td> 
       <td> <p> Seleccione esta casilla de verificación si desea que el portafolio esté activo. Otros usuarios pueden encontrar portafolios activos y adjuntarlos a proyectos al crear o editar proyectos. Los portafolios inactivos no se pueden adjuntar a los proyectos. Esta opción está habilitada de forma predeterminada.</p> </td> 
      </tr> 
     </tbody> 

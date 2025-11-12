@@ -7,9 +7,9 @@ description: Para agregar varios campos en Adobe Workfront y mostrar ese valor a
 author: Jenny
 feature: Reports and Dashboards
 exl-id: 17ac554d-0c90-4592-946e-a89f1784571d
-source-git-commit: 4897f165a7316a52b968601b45f95f7045f63840
+source-git-commit: ce986a912c2ee231b9dc2e1c7a3e9587b20aa0ba
 workflow-type: tm+mt
-source-wordcount: '834'
+source-wordcount: '844'
 ht-degree: 93%
 
 ---
@@ -90,6 +90,8 @@ Para obtener más información acerca de la sintaxis que debe usar en una column
 * Edición masiva de varios objetos cuando **Volver a calcular expresiones personalizadas** está habilitado.
 * Edición masiva de varios objetos al hacer clic en **Volver a calcular expresiones** desde el menú Más en una lista de objetos.
 * Editar un formulario personalizado cuando **Actualizar cálculos anteriores** está habilitado para el campo personalizado calculado.
+
+Para obtener más información, consulte [Editar información en campos de formulario personalizados](/help/quicksilver/workfront-basics/work-with-custom-forms/edit-custom-forms.md).
 
 ## Cuándo se deben utilizar columnas calculadas en una vista
 
