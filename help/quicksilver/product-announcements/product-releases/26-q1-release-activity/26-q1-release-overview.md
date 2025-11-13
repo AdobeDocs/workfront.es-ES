@@ -4,7 +4,7 @@ description: En esta página se ofrece información sobre la funcionalidad inclu
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: c13c8e2b9b6d50f9abf1d61fad904aa68abb44c5
+source-git-commit: b0fb8f0ca72800c2befe4f1f8194be17c4f75c95
 workflow-type: tm+mt
 source-wordcount: '1450'
 ht-degree: 19%
@@ -152,10 +152,10 @@ The <add release> release webinar will be held on <date>. You can [register for 
     </tr>   
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-other.md" class="MCXref xref" xrefformat="{para}">Actualizaciones de aspecto durante el cuarto trimestre de 2025</a>
-                        <p>En el periodo de tiempo del cuarto trimestre de 2025 se realizarán actualizaciones menores del aspecto de varias áreas de la aplicación de Adobe Workfront. </p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-other.md" class="MCXref xref" xrefformat="{para}">Actualizaciones de aspecto durante el primer trimestre de 2026</a>
+                        <p>Se están realizando actualizaciones menores del aspecto de varias áreas de la aplicación de Adobe Workfront dentro del periodo de tiempo del primer trimestre de 2026. </p>
                     </td>
-                    <td><p>Durante el cuarto trimestre de 2025<br /></p>
+                    <td><p>Durante el primer trimestre de 2026<br /></p>
                     <td colspan="2"><p>Versión rápida: Un mínimo de 1 semana después del lanzamiento a Vista previa (a menos que se especifique lo contrario)</p>
                             </li>
                         </ul>
@@ -255,7 +255,7 @@ Para ofrecer integraciones más estables y escalables, estamos adoptando un enfo
 * Workfront para Salesforce.
 
 Recomendamos utilizar la automatización e integración de Workfront para las necesidades de integración de su organización con Google Workspace.
-Para obtener una descripción general de la automatización e integración de Workfront, consulte [Información general de Adobe Workfront Fusion](https://experienceleague.adobe.com/es/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+Para obtener una descripción general de la automatización e integración de Workfront, consulte [Información general de Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 
 
 ### Actualizaciones de mantenimiento de Workfront 
