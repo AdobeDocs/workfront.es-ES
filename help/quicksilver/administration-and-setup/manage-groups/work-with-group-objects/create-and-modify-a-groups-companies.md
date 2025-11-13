@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 407f6631-ecc1-4ed8-bfec-6d726ae87a3d
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 5d7cc28ebb1c7d7401a60ef4fc383fc90ed20631
 workflow-type: tm+mt
-source-wordcount: '727'
-ht-degree: 87%
+source-wordcount: '784'
+ht-degree: 81%
 
 ---
 
@@ -90,6 +90,10 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
    >Si tiene acceso administrativo a las empresas en tu nivel de acceso, también puede hacer clic en Añadir Más Empresas en la parte inferior de la lista. Esto añade una fila donde puede configurar rápidamente la nueva empresa.
 
 1. (Opcional) Para editar o eliminar empresas, selecciona al menos una y, a continuación, usa los botones de la barra de herramientas para editar el ![icono Editar](assets/edit-icon.png) o eliminar el ![icono Eliminar](assets/delete.png).
+
+   >[!NOTE]
+   >
+   >Si está eliminando una compañía y la compañía está establecida como compañía primaria o está en uso en otro objeto, se le pedirá que elija otra compañía para reemplazar la que está eliminando. La compañía seleccionada se convierte en la compañía primaria o reemplaza a la compañía eliminada en los objetos a los que está asignada la compañía.
 
    Para obtener información sobre cómo editar una empresa, consulte la sección [Crear o editar una empresa en Workfront](../../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md#adding-a-company-to-workfront) en el artículo [Crear y editar empresas](../../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md).
 

@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: bb597032-3395-4c9a-b622-5c920ba55131
-source-git-commit: 6fb64986260842c419c61fe386e9ccf1a0da8f14
+source-git-commit: 5d7cc28ebb1c7d7401a60ef4fc383fc90ed20631
 workflow-type: tm+mt
-source-wordcount: '1463'
+source-wordcount: '1549'
 ht-degree: 16%
 
 ---
@@ -146,6 +146,18 @@ Para agregar o editar una compañía:
    O
 
    Si está editando una compañía existente, haga clic en **[!UICONTROL Guardar cambios]** <span class="preview">o **Guardar**.</span>
+
+## Eliminar compañías
+
+{{step-1-to-setup}}
+
+1. Haga clic en **[!UICONTROL Compañías]**.
+
+   Se muestra una lista de empresas.
+
+1. Haga clic en la casilla de verificación situada junto a la empresa que desee eliminar y, a continuación, haga clic en el icono Eliminar ![Icono Eliminar](assets/delete-icon.png) situado cerca de la parte superior de la página.
+1. Si va a eliminar una empresa que se ha establecido como empresa principal o está en uso en otro objeto, seleccione una empresa para reemplazar a la que está eliminando. La compañía seleccionada se convierte en la compañía primaria o reemplaza a la compañía eliminada en los objetos a los que está asignada la compañía.
+1. Haga clic **eliminar**.
 
 ## Administrar suscripciones a compañías
 
