@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 780c996c-5cf1-42fe-898d-2cc208bbae7b
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: b6731b9877237916259a862863b30c8ef65ad343
 workflow-type: tm+mt
-source-wordcount: '1323'
-ht-degree: 77%
+source-wordcount: '1318'
+ht-degree: 76%
 
 ---
 
@@ -136,18 +136,14 @@ IF(
    * Documento
    * Programa
    * Gasto
-   * Usuario
    * Compañía
    * Iteración
    * Registro de facturación
    * Grupo
+   * Recurso no laboral
    * Riesgo
+   * Tarjeta de tarifas
    * Asignación
-   * Función
-   * Conjunto de recursos
-   * Días libres
-   * Hora
-   * Plantilla
 
 1. Escriba **Name** para la regla de negocio en el cuadro de diálogo del generador de reglas.
 1. En el campo **Está activa**, seleccione si la regla debe estar activa al guardarla.
