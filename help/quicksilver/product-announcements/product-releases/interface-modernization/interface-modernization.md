@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 829b3d343286b63922614b3855f9227667ad57a4
+source-git-commit: f22f00417cd0bfbe53cfee513e8be95a8719f785
 workflow-type: tm+mt
-source-wordcount: '9336'
+source-wordcount: '9416'
 ht-degree: 2%
 
 ---
@@ -23,6 +23,23 @@ Esta página lista las actualizaciones de la interfaz que estamos realizando a t
 Para ver todos los demás cambios en Adobe Workfront, consulte [Versiones del producto](/help/quicksilver/product-announcements/product-releases/product-releases.md).
 
 ## Administración y configuración
+
+### Actualizaciones del cuadro de diálogo al eliminar un elemento que está en uso
+
+**Versión preliminar: 13 de noviembre de 2025; versión de producción: 20 de noviembre de 2025**
+
+Los siguientes objetos ahora tienen un cuadro de diálogo actualizado al eliminar un elemento que está en uso:
+
+* Niveles de acceso
+* Compañías
+* Tipo de gasto
+* Grupo / Perfiles de hoja de horas
+* Tipo de hora
+* Tipo de riesgo
+* Programación
+* Perfil de hoja de horas
+
+El nuevo cuadro de diálogo ahora es coherente con otras áreas de Workfront. No se han realizado cambios en la funcionalidad.
 
 ### Actualizaciones de la interfaz para los cuadros de diálogo Agregar y editar compañías
 
@@ -131,9 +148,8 @@ Para obtener más información, vea [Crear y editar riesgos en proyectos](/help/
 
 ### Actualizaciones de la interfaz para días libres personales
 
-**Versión preliminar: 23 de octubre de 2025; versión de producción para todos los clientes: a partir del 30 de octubre de 2025**
+**Versión preliminar: 23 de octubre de 2025; versión de producción para todos los clientes: a partir del 13 de noviembre de 2025**
 
-<!--This feature was in Preview and Prod starting on Sept 25 and it was removed on Oct 9. It was released to Preview again on Oct 23 and Prod rollout started Oct 30. Then it was removed from Prod again on Nov 4. -->
 
 >[!NOTE]
 >
@@ -476,7 +492,7 @@ Para obtener más información, vea [Crear temas de colas](/help/quicksilver/man
 
 >[!NOTE]
 >
->Esta función se eliminó temporalmente de los entornos de Previsualización y Producción el 15 de octubre de 2025.
+>Esta función se eliminó temporalmente de la vista previa y de la producción el 15 de octubre. Está disponible en Vista previa y en Producción en una implementación gradual a partir del 13 de noviembre de 2025.
 
 Hemos actualizado el cuadro de diálogo para editar un gasto de proyecto, para que coincida con otras áreas de la aplicación. El cuadro de diálogo actualizado está disponible al editar gastos en proyectos o plantillas.
 
