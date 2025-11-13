@@ -7,10 +7,10 @@ description: Después de crear una plantilla, puede editar la información sobre
 author: Alina
 feature: Work Management
 exl-id: 2df8522e-7eee-4440-be0f-f7483c5acdb0
-source-git-commit: 798e9ee9862b34653730c07acc9c48b901b98e63
+source-git-commit: 1f9a0e6064f83c6f0947e3c7ef596e96c934a687
 workflow-type: tm+mt
-source-wordcount: '4716'
-ht-degree: 74%
+source-wordcount: '4633'
+ht-degree: 76%
 
 ---
 
@@ -20,13 +20,13 @@ ht-degree: 74%
 
 <!--take out production and preview references and new/ old experiences at release-->
 
-<div class="preview">
+<!--<div class="preview"> 
 
-La información resaltada en esta página hace referencia a funcionalidades que aún no están disponibles de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Las mismas funciones también estarán disponibles en el entorno de producción para todos los clientes a partir de una semana desde la versión de vista previa.
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with a week from the Preview release.      
 
-Para obtener más información, vea [Modernización de la interfaz](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
 
-</div>
+</div> -->
 
 Después de crear una plantilla, puede editar la información de las tareas de plantilla. La información que actualiza en una tarea de plantilla se asocia a tareas de proyecto después de utilizar la plantilla para crear un proyecto o de adjuntar la plantilla a un proyecto.
 
@@ -138,15 +138,21 @@ Los nombres de los formularios personalizados solo se muestran si hay formulario
 1. (Opcional) Para editar varias tareas de plantilla de forma masiva, seleccione varias tareas de plantilla y luego haga clic en **Editar** en la parte superior de la lista de plantillas.
 1. (Condicional) Para editar toda la información sobre la tarea de plantilla o sobre varias tareas al mismo tiempo, haga clic para seleccionarlas en una lista y, a continuación, haga clic en el icono **Editar** ![Editar icono](assets/edit-icon.png) en la parte superior de la lista.
 
-   Se muestra el cuadro **Editar tarea de plantilla**.
+   El cuadro **Editar tarea de plantilla** se muestra en la nueva experiencia.
+
+   ![Nueva experiencia para Editar tarea de plantilla](assets/edit-template-task-box-unshimmed.png)
 
    >[!TIP]
    >
    >También puede seleccionar una tarea de plantilla en una lista, luego hacer clic en **Editar** a la derecha del nombre de la tarea de plantilla en el encabezado para abrir el cuadro **Editar tarea de plantilla**.
 
+   Continúe editando la tarea de plantilla como se describe en la sección [Editar una tarea de plantilla con la nueva experiencia](#edit-a-template-task-using-the-new-experience) de este artículo.
+
+1. (Opcional) Haga clic en **Volver a la experiencia anterior** en la parte inferior del cuadro **Editar tarea de plantilla** para abrir el cuadro **Editar tarea de plantilla** en la experiencia anterior.
+
    ![Editar tarea de plantilla](assets/edit-template-tasks-box-classic-350x356.png)
 
-1. (Condicional) En el entorno Producción, considere la posibilidad de especificar información en cualquiera de las siguientes secciones:
+1. Considere la posibilidad de especificar información en cualquiera de las siguientes secciones:
 
    * [Información general](#overview)
    * [Finanzas](#finance)
@@ -156,9 +162,6 @@ Los nombres de los formularios personalizados solo se muestran si hay formulario
    * [Comentario](#comment)
 
 1. Continúe editando la tarea de plantilla como se describe en la sección [Editar una tarea de plantilla usando la experiencia antigua](#edit-a-template-task-using-the-old-experience) de este artículo.
-
-1. <span class="preview">(Condicional) En el entorno de vista previa, el cuadro Editar tarea de plantilla se abre en la nueva experiencia. Continúe editando la tarea de plantilla como se describe en la sección [Editar una tarea de plantilla con la nueva experiencia](#edit-a-template-task-using-the-new-experience) de este artículo.</span>
-1. <span class="preview">(Opcional) Haga clic en **Volver a la experiencia anterior** en la parte inferior del cuadro **Editar tarea de plantilla** para abrir el cuadro **Editar tarea de plantilla** en la experiencia anterior. Continúe editando la tarea de plantilla como se describe en la sección [Editar una tarea de plantilla usando la experiencia antigua](#edit-a-template-task-using-the-old-experience) de este artículo.</span>
 
 ### Editar una tarea de plantilla utilizando la experiencia antigua
 
@@ -438,8 +441,6 @@ Los formularios se añaden automáticamente a las tareas creadas a partir de la 
 1. Haga clic en **Guardar cambios**.
 
    Cuando usted u otro usuario crea un proyecto a partir de esta plantilla, todos los ajustes aplicados a las tareas de plantilla se convierten en los ajustes de las tareas de proyecto.
-
-<div class="preview">
 
 ### Editar una tarea de plantilla con la nueva experiencia
 
@@ -767,4 +768,3 @@ Los formularios se añaden automáticamente a las tareas creadas a partir de la 
 
    Cuando usted u otro usuario crea un proyecto a partir de esta plantilla, todos los ajustes aplicados a las tareas de plantilla se convierten en los ajustes de las tareas de proyecto.
 
-</div>

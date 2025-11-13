@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 2afd6d57-d658-4065-86f5-2324d3818d1f
-source-git-commit: df0686038adb1278339e872e122a311884cb6d29
+source-git-commit: 1f9a0e6064f83c6f0947e3c7ef596e96c934a687
 workflow-type: tm+mt
-source-wordcount: '796'
+source-wordcount: '801'
 ht-degree: 9%
 
 ---
@@ -134,8 +134,8 @@ Para obtener más información acerca de los requisitos de acceso de Workfront, 
 * No se admiten hojas vacías.
 * No se admiten los campos de los siguientes tipos y no se pueden asignar a campos de la hoja de importación:
 
-   * Campos de conexión a Workfront y tipos de objeto de AEM Assets.
-   * Campos de búsqueda de registros de Planning conectados u objetos de Workfront y AEM Assets
+   * Campos de conexión a Workfront, tipos de objetos de AEM Assets o GenStudio Brands.
+   * Campos de búsqueda de registros de Planning conectados, Workfront, objetos de AEM Assets o marcas de GenStudio.
    * Campos de fórmula
    * Fecha de creación, Creado por
    * Fecha de la última modificación, Última modificación por
@@ -190,7 +190,7 @@ Para importar tipos de registros mediante un archivo CSV o de Excel:
 
    >[!TIP]
    >
-   >Solo puede asignar a campos desde registros conectados de Workfront Planning. No se puede asignar a campos desde conexiones de Workfront o AEM Assets. Para obtener más información, vea la sección [Consideraciones acerca de la importación de tipos de registros mediante un archivo CSV o de Excel](#considerations-about-importing-record-types-using-an-excel-or-csv-file) en este artículo.
+   >Solo puede asignar a campos desde registros conectados de Workfront Planning. No se puede asignar a campos desde conexiones de Workfront, AEM Assets o GenStudio Brands. Para obtener más información, vea la sección [Consideraciones acerca de la importación de tipos de registros mediante un archivo CSV o de Excel](#considerations-about-importing-record-types-using-an-excel-or-csv-file) en este artículo.
 
 1. (Condicional) Después de actualizar la información del campo, haga clic en **Guardar**.
 

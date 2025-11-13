@@ -6,10 +6,10 @@ description: Puede editar la información de las tareas en una lista de tareas e
 author: Alina
 feature: Work Management
 exl-id: 2af81907-3657-459e-b780-65983e224ca8
-source-git-commit: 798e9ee9862b34653730c07acc9c48b901b98e63
+source-git-commit: 1f9a0e6064f83c6f0947e3c7ef596e96c934a687
 workflow-type: tm+mt
-source-wordcount: '2903'
-ht-degree: 62%
+source-wordcount: '2851'
+ht-degree: 63%
 
 ---
 
@@ -17,13 +17,15 @@ ht-degree: 62%
 
 <!-- Audited: 10/2025 -->
 
-<div class="preview">
+<!--
 
-La información resaltada en esta página hace referencia a funcionalidades que aún no están disponibles de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Las mismas funciones también estarán disponibles en el entorno de producción para todos los clientes a partir de una semana desde la versión de vista previa.
+<div class="preview"> 
 
-Para obtener más información, vea [Modernización de la interfaz](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with a week from the Preview release.      
 
-</div>
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
+
+</div> -->
 
 Puede editar la información de las tareas en una lista de tareas editando los campos mostrados en la lista. Para obtener información acerca de otras formas de editar tareas, consulte [Editar tareas](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
 
@@ -507,18 +509,16 @@ Puede editar varias tareas a la vez. Asegúrese de tener permisos de administrac
    >No puede editar tareas de forma masiva al guardar tareas manualmente.
 
 1. Seleccione más de una tarea en la lista de tareas.
-1. <span class="preview">(Opcional) Haga clic en el menú **Más** ![Menú más](assets/more-icon.png) en la parte superior de la lista de tareas y, a continuación, en **Volver a calcular expresiones** para actualizar toda la información en los campos personalizados calculados.</span>
-1. Haga clic en el icono **Editar** ![Editar icono](assets/qs-edit-icon.png). El cuadro de diálogo **Editar tareas** se abre <span class="preview">en la nueva experiencia</span>.
+1. (Opcional) Haga clic en el menú **Más** ![Menú más](assets/more-icon.png) en la parte superior de la lista de tareas y, a continuación, en **Volver a calcular expresiones** para actualizar toda la información en los campos personalizados calculados.
+1. Haga clic en el icono **Editar** ![Editar icono](assets/qs-edit-icon.png). El cuadro de diálogo **Editar tareas** se abre en la nueva experiencia.
 
    Editar la información de todas las tareas es idéntico a editar la información de una tarea.
 
    Para obtener más información sobre cómo editar una tarea, consulte [Editar tareas](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
 
-1. <span class="preview">(Condicional) En la nueva experiencia, haga lo siguiente:</span>
+1. (Condicional) En la nueva experiencia, haga lo siguiente:
 
    1. Especifique la información que desea cambiar para todas las tareas seleccionadas en cualquiera de las siguientes áreas:
-
-      <div class="preview">
 
       * Información general
       * Asignaciones
@@ -528,9 +528,6 @@ Puede editar varias tareas a la vez. Asegúrese de tener permisos de administrac
       * Configuración
       * Comentario
 
-      </div>
-
-
       >[!NOTE]
       >
       >* La información que está cambiando en todas las tareas seleccionadas anulará la información existente en las tareas individuales, excepto la del campo **Asignaciones**. Si se añade un nuevo usuario asignado en una edición masiva, se añadirá ese usuario asignado a todas las tareas seleccionadas. Si hay otras personas asignadas a las tareas seleccionadas, permanecerán asignadas además de las que se añadan mediante la edición masiva.
@@ -539,10 +536,10 @@ Puede editar varias tareas a la vez. Asegúrese de tener permisos de administrac
       >* En la lista solo se muestran los formularios personalizados activos. Si las tareas seleccionadas no tienen ningún formulario personalizado en común, no se mostrará ningún formulario en esta sección.
       >* Solo puede editar los campos de los formularios que están adjuntos a todas las tareas seleccionadas y para los que tiene permisos de edición.  Para obtener información sobre la edición en lotes de formularios personalizados, consulte [Administrar formularios personalizados adjuntos a objetos](../../../workfront-basics/work-with-custom-forms/manage-custom-forms-attached-to-objects.md).
 
-   1. <span class="preview">Haga clic en **Guardar**.</span>
-   1. <span class="preview">(Opcional) Haga clic en **Volver a la experiencia anterior** en la parte inferior del cuadro Editar tareas.</span>
+   1. Haga clic en **Guardar**.
+   1. (Opcional) Haga clic en **Volver a la experiencia anterior** en la parte inferior del cuadro **Editar tareas**.
 
-1. <span class="preview">(Condicional) En la experiencia anterior, haga lo siguiente:</span>
+1. (Condicional) En la experiencia anterior, haga lo siguiente:
 
    1. Especifique la información que desea cambiar para todas las tareas seleccionadas en cualquiera de las siguientes áreas:
 

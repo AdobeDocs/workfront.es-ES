@@ -7,10 +7,10 @@ author: Lisa
 feature: Work Management, Tasks, Resource Management
 role: User
 exl-id: 04f7761f-da94-4858-85c5-8dc97bd78bee
-source-git-commit: 798e9ee9862b34653730c07acc9c48b901b98e63
+source-git-commit: 1f9a0e6064f83c6f0947e3c7ef596e96c934a687
 workflow-type: tm+mt
-source-wordcount: '1110'
-ht-degree: 81%
+source-wordcount: '1047'
+ht-degree: 87%
 
 ---
 
@@ -18,17 +18,19 @@ ht-degree: 81%
 
 <!--Audited: 11/2025-->
 
+<!--remove the old/new experience references when the toggles are removed-->
+
 <!--
 this article is similar and updates on this one might need to be repeated here: help/quicksilver/manage-work/issues/manage-issues/edit-assignments-for-multiple-issues.md</p>
 -->
 
-<div class="preview">
+<!--<div class="preview"> 
 
-La información resaltada en esta página hace referencia a funcionalidades que aún no están disponibles de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Las mismas funciones también estarán disponibles en el entorno de producción para todos los clientes a partir de una semana desde la versión de vista previa.
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with a week from the Preview release.      
 
-Para obtener más información, vea [Modernización de la interfaz](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
 
-</div>
+</div>-->
 
 Al administrar las asignaciones de tareas, puede modificarlas simultáneamente para varias tareas a la vez mediante la función de edición masiva en una lista de tareas.
 
@@ -125,25 +127,22 @@ When assigning users to work, their availability according to their schedules af
 
 1. Seleccione las tareas para las que desea modificar las asignaciones y, a continuación, haga clic en el icono de **Editar** ![](assets/edit-icon.png).
 
-   El cuadro **Editar tareas** se abre <span class="preview">en la nueva experiencia. Realice una de las siguientes acciones:</span>
-
-   <div class="preview">
+   El cuadro **Editar tareas** se abre en la nueva experiencia. Realice una de las siguientes acciones:
 
    * Para agregar usuarios asignados, empiece a escribir el nombre de un usuario asignado en el campo **Buscar personas, roles o equipos** y, a continuación, selecciónelos cuando se muestren en la lista.
    * Para quitar usuarios asignados, haga clic en el icono **x** a la derecha de su nombre. En la lista solo se muestran las personas asignadas que son comunes a todas las tareas.
    * Haga clic en Asignarme para asignarse las tareas seleccionadas.
 
-   </div>
+1. (Condicional) Cuando uses la nueva experiencia, haz clic en **Guardar**.
 
-1. <span class="preview">(Condicional) Al usar la nueva experiencia, haga clic en **Guardar**.</span>
+1. (Opcional) Haga clic en **Cambiar a la experiencia anterior** en la parte inferior del cuadro **Editar tareas**.
 
-1. <span class="preview">(Opcional) Haga clic en **Cambiar a la experiencia antigua** en la parte inferior del cuadro **Editar tareas**.</span>
+   El cuadro **Editar tareas** se abre en la experiencia anterior.
 
-   <span class="preview">El cuadro **Editar tareas** se abre en la experiencia anterior.</span>
-
+   <!--
    >[!TIP]
    >
-   >La experiencia antigua está disponible de forma predeterminada en el entorno de producción.
+   >The old experience is available by default in the Production environment.-->
 
 1. (Condicional) En la experiencia anterior, haga lo siguiente para modificar los usuarios asignados:
 

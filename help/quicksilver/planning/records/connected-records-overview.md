@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: be51023c-8e11-42e7-aa4f-34484c30eb03
-source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
+source-git-commit: 1f9a0e6064f83c6f0947e3c7ef596e96c934a687
 workflow-type: tm+mt
-source-wordcount: '519'
+source-wordcount: '523'
 ht-degree: 24%
 
 ---
@@ -49,11 +49,11 @@ Para obtener información sobre cómo conectar registros entre sí o con otro ob
 
 Puede conectar registros a otros registros o a objetos de otra aplicación en las áreas siguientes:
 
-* Puede conectar registros de Workfront Planning a objetos de Workfront u objetos de Experience Manager Assets en las siguientes áreas de un registro de Planning:
+* Puede conectar registros de Workfront Planning a objetos de Workfront, objetos de Experience Manager Assets o marcas de GenStudio en las siguientes áreas de un registro de Planning:
 
    * Los campos de registro conectados en la vista de tabla de un tipo de registro en Planning.
-   * Vista previa o página del registro en los campos de registro conectados de la pestaña Detalles.
-   * La página o vista previa del registro en la ficha Conexiones.
+   * La vista previa o la página de detalles del registro en los campos de registro conectados de la pestaña Detalles.
+   * La página de vista previa o de detalles del registro en la ficha Conexiones.
    * La página del registro en la ficha Página de registros conectados de un registro conectado.
 
 * Puede conectar objetos de Workfront a registros de Workfront Planning en las siguientes áreas de Workfront:

@@ -7,10 +7,10 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 572c6008-3a67-47ae-8f5d-6b871ef1f37b
-source-git-commit: 0358e79bd606d0035959bba2a47256456b529b18
+source-git-commit: 1f9a0e6064f83c6f0947e3c7ef596e96c934a687
 workflow-type: tm+mt
-source-wordcount: '4464'
-ht-degree: 91%
+source-wordcount: '4416'
+ht-degree: 92%
 
 ---
 
@@ -28,13 +28,13 @@ ht-degree: 91%
 </div>
 -->
 
-<div class="preview">
+<!--<div class="preview"> 
 
-La información resaltada en esta página hace referencia a funcionalidades que aún no están disponibles de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Las mismas funciones también estarán disponibles en el entorno de producción para todos los clientes a partir de una semana desde la versión de vista previa.
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
 
-Para obtener más información, vea [Modernización de la interfaz](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
 
-</div>
+</div> -->
 
 Puede editar información sobre las tareas que ha creado o para las que tiene permisos de aportación o de administración. 
 
@@ -377,19 +377,17 @@ Puede editar una tarea mediante las áreas Editar tarea o Detalles de la tarea. 
 1. Comience a editar la tarea como se ha descrito anteriormente.
 1. Haga clic en **Asignaciones** en el panel izquierdo.
 
-   <span class="preview">El área Asignaciones se abre en la nueva experiencia.</span>
+   El área Asignaciones se abre en la nueva experiencia.
 
 1. (Condicional) Con la nueva experiencia, haga lo siguiente:
 
-   1. <span class="preview">Empiece a escribir el nombre de un usuario, rol o equipo en el campo **Buscar personas, rol o equipo**, y después selecciónelos cuando se muestren en la lista</span>
+   1. Empiece a escribir el nombre de un usuario, rol o equipo en el campo **Buscar personas, rol o equipo**, y después selecciónelos cuando se muestren en la lista
 
       O
 
-      <span class="preview">Haga clic en **Asignármelo** para asignarse la tarea. </span>
+      Haga clic en **Asignármelo** para asignarse la tarea.
 
-   1. <span class="preview">Actualice la siguiente información:</span>
-
-      <div class="preview">
+   1. Actualice la siguiente información:
 
       <table style="table-layout:auto"> 
          <col> 
@@ -501,7 +499,6 @@ Puede editar una tarea mediante las áreas Editar tarea o Detalles de la tarea. 
          </tbody> 
          </table>
 
-      </div>
 
       <!--<tr> 
       <td role="rowheader">Allocation</td> 
@@ -520,9 +517,9 @@ Puede editar una tarea mediante las áreas Editar tarea o Detalles de la tarea. 
          </tbody> 
          </table>-->
 
-   1. <span class="preview">(Opcional) Haga clic en **Cambiar a la experiencia antigua** en la parte inferior del cuadro **Editar tarea**. </span>
-      <span class="preview">El área Asignaciones se abre en la experiencia antigua. </span>
-      ![](assets/nwe-assignments-section-edit-task-box-350x217.png)
+   1. (Opcional) Haga clic en **Cambiar a la experiencia anterior** en la parte inferior del cuadro **Editar tarea**.
+El área Asignaciones se abre en la experiencia antigua.
+      ![Sección Asignaciones en el cuadro Editar tarea](assets/nwe-assignments-section-edit-task-box-350x217.png)
 
 1. Haga clic en **Buscar personas, roles o equipos** y empiece a escribir el nombre de un usuario, rol o equipo que desee asignar a la tarea; a continuación, haga clic en él o presione Entrar cuando aparezca en la lista.
 
@@ -670,7 +667,7 @@ Puede editar una tarea mediante las áreas Editar tarea o Detalles de la tarea. 
    </tbody>
    </table>
 
-1. Haga clic en **Guardar cambios** <span class="preview"> o **Guardar** </span>, o bien continúe con las siguientes secciones.
+1. Haga clic en **Guardar** o continúe con las siguientes secciones.
 
 ### Formularios personalizados
 

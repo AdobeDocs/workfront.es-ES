@@ -6,10 +6,10 @@ description: Puede crear y eliminar plantillas desde el área Plantillas. Al cre
 author: Alina
 feature: Work Management
 exl-id: 5094ba3f-3cb0-4301-aa7d-88c64d112b78
-source-git-commit: 0358e79bd606d0035959bba2a47256456b529b18
+source-git-commit: 1f9a0e6064f83c6f0947e3c7ef596e96c934a687
 workflow-type: tm+mt
-source-wordcount: '779'
-ht-degree: 51%
+source-wordcount: '734'
+ht-degree: 54%
 
 ---
 
@@ -17,13 +17,15 @@ ht-degree: 51%
 
 <!-- Audited: 10/2025 -->
 
-<div class="preview">
+<!--remove all instances of new/ old experience and redo the steps when the toggle is removed-->
 
-La información resaltada en esta página hace referencia a funcionalidades que aún no están disponibles de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Las mismas funciones también estarán disponibles en el entorno de producción para todos los clientes a partir de una semana desde la versión de vista previa.
+<!--<div class="preview"> 
 
-Para obtener más información, vea [Modernización de la interfaz](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with a week from the Preview release.      
 
-</div>
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
+
+</div> -->
 
 Puede crear y eliminar plantillas desde el área Plantillas. Al crear una plantilla nueva, puede introducir la información de todas las tareas y de la configuración futura del proyecto. Esta información se transferirá a cualquier proyecto que cree a partir de la plantilla.
 
@@ -118,13 +120,11 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
 
    Haga clic en **Nueva tarea de plantilla** para empezar a agregar tareas a su plantilla en el cuadro **Nueva tarea de plantilla**.
 
-   ![Nueva tarea de plantilla](assets/new-template-task-box.png)
+   Se abre el cuadro **Crear tarea de plantilla** en la nueva experiencia.
 
-   <span class="preview">Se abre el cuadro **Crear tarea de plantilla** en la nueva experiencia.</span>
+   ![Nueva experiencia para nueva tarea de plantilla](assets/new-template-task-box-unshimmed.png)
 
-1. <span class="preview">(Condicional) Con la nueva experiencia, actualice la información en las siguientes áreas del cuadro **Crear tarea de plantilla**:</span>
-
-   <div class="preview">
+1. (Condicional) Con la nueva experiencia, actualice la información en las siguientes áreas del cuadro **Crear tarea de plantilla**:
 
    * Nombre de tarea de plantilla
    * Información general
@@ -134,14 +134,15 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
    * Documentos
    * Configuración
 
-   </div>
-
 1. Haga clic en **Crear tarea de plantilla**
 
    O
 
-   <span class="preview">Haga clic en **Volver a la experiencia anterior** en la parte inferior del cuadro **Crear tarea de plantilla**.</span>
-   <span class="preview">La **nueva tarea de plantilla** se abre en la experiencia anterior.</span>
+   Haga clic en **Volver a la experiencia anterior** en la parte inferior del cuadro **Crear tarea de plantilla**.
+
+   La **nueva tarea de plantilla** se abre en la experiencia antigua.
+
+   ![Nueva tarea de plantilla](assets/new-template-task-box.png)
 
    >[!TIP]
    >

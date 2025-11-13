@@ -7,10 +7,10 @@ author: Lisa
 feature: Work Management, Tasks
 role: User
 exl-id: 611b136e-2c3f-4eac-9d75-e8c12e06148d
-source-git-commit: 798e9ee9862b34653730c07acc9c48b901b98e63
+source-git-commit: 1f9a0e6064f83c6f0947e3c7ef596e96c934a687
 workflow-type: tm+mt
-source-wordcount: '2212'
-ht-degree: 80%
+source-wordcount: '2156'
+ht-degree: 83%
 
 ---
 
@@ -20,13 +20,13 @@ ht-degree: 80%
 
 <!--remove production/ preview and old/ new experience references at prod-->
 
-<div class="preview">
+<!--<div class="preview"> 
 
-La información resaltada en esta página hace referencia a funcionalidades que aún no están disponibles de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Las mismas funciones también estarán disponibles en el entorno de producción para todos los clientes a partir de una semana desde la versión de vista previa.
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
 
-Para obtener más información, vea [Modernización de la interfaz](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
 
-</div>
+</div> -->
 
 Puede asignar tareas a usuarios, funciones o equipos para indicar quién es el responsable de completar las tareas. Puede asignar una tarea a varios recursos a la vez.
 
@@ -236,13 +236,13 @@ Para asignar tareas de una lista:
 1. Seleccione varias tareas en la lista de tareas.
 1. Haga clic en **Editar**.
 
-   El cuadro de diálogo **Editar tareas** se abre <span class="preview">en la nueva experiencia.</span>
+   El cuadro de diálogo **Editar tareas** se abre en la nueva experiencia.
 
-1. Continúe asignando las tareas <span class="preview">con la nueva experiencia.</span>
+1. Continúe asignando las tareas con la nueva experiencia.
 
-   <span class="preview">Para obtener más información, consulte la sección [Asignar varias tareas de forma masiva desde una lista en la nueva experiencia](#assign-multiple-tasks-in-bulk-from-a-list-in-the-new-experience) de este artículo.</span>
+   Para obtener más información, consulte la sección [Asignar varias tareas de forma masiva desde una lista en la nueva experiencia](#assign-multiple-tasks-in-bulk-from-a-list-in-the-new-experience) en este artículo.
 
-1. <span class="preview">(Opcional) Haga clic en **Volver a la experiencia anterior** en la parte inferior del cuadro **Editar tareas** para abrir la experiencia anterior.</span>
+1. (Opcional) Haga clic en **Volver a la experiencia anterior** en la parte inferior del cuadro **Editar tareas** para abrir la experiencia anterior.
 
    >[!TIP]
    >
@@ -279,11 +279,9 @@ Para asignar tareas de una lista:
 1. (Opcional y condicional) Cuando los campos Asignado a o Asignaciones se muestren en su lista de tareas, haga clic dentro de una de estas columnas para una tarea y luego haga clic en el **icono X** junto al nombre de un usuario asignado para quitarlo de la tarea.
 
 
-<div class="preview">
-
 ### Asignar varias tareas por lotes desde una lista en la nueva experiencia
 
-1. Vaya a una lista de tareas que desee asignar por lotes en el entorno de vista previa.
+1. Vaya a una lista de tareas que desee asignar en lotes.
 1. (Condicional) Asegúrese de que la opción **Autoguardar** esté seleccionada si está en una lista de tareas de un proyecto.
 
    >[!IMPORTANT]
@@ -319,10 +317,7 @@ Para asignar tareas de una lista:
 1. (Opcional) Si desea quitar los usuarios asignados existentes de todas las tareas, haga clic en **x** junto a su nombre en el campo **Buscar personas, roles o equipos**.
 
 1. Haga clic en **Guardar**.
-1. (Opcional y condicional) Cuando los campos **Asignado a** o **Asignaciones** se muestren en su lista de tareas, haga clic dentro de una de estas columnas para una tarea y luego haga clic en el **icono X** junto al nombre de un usuario asignado para quitarlo de la tarea.
-
-
-</div>
+1. (Opcional y condicional) Cuando los campos **Asignado a** o **Asignaciones** se muestren en su lista de tareas, haga clic dentro de una de estas columnas para una tarea y luego haga clic en el **icono X** junto al nombre de un usuario asignado para quitarlo de la tarea
 
 
 <!--
