@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 1c04c68b-7a7f-46ae-b750-2b1f79855de4
-source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
+source-git-commit: 90d472307ffb6b524154696b4c14d725db44b079
 workflow-type: tm+mt
-source-wordcount: '1973'
-ht-degree: 22%
+source-wordcount: '2020'
+ht-degree: 18%
 
 ---
 
@@ -64,11 +64,17 @@ Tenga en cuenta lo siguiente sobre la conexión de tipos de registros:
       * Imágenes
       * Carpetas
 
+   * Adobe GenStudio for Performance Marketing
+
+      * Marcas
+
      >[!IMPORTANT]
      >
-     >Debe tener una licencia de Adobe Experience Manager Assets y la instancia de Workfront de su organización debe incorporarse a Adobe Business Platform o a Adobe Admin Console para conectar los registros de Planificación de Workfront a Adobe Experience Manager Assets.
-     >
-     >Si tiene preguntas acerca de la incorporación a Adobe Admin Console, consulte las [Preguntas frecuentes sobre Adobe Unified Experience](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md).
+     >Debe tener lo siguiente para conectarse con las marcas Adobe Experience Manager Assets y GenStudio:
+     >* Licencia de Adobe Experience Manager Assets
+     >* Licencia de Adobe GenStudio for Performance Marketing
+     >* La instancia de Workfront de su organización debe incorporarse a Adobe Business Platform o a Adobe Admin Console para conectar los registros de Workfront Planning a Adobe Experience Manager Assets.
+     >Para obtener información sobre Adobe Admin Console, consulte las [Preguntas frecuentes sobre la experiencia unificada de Adobe](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md).
 
 * Después de crear registros para los tipos de registro, puede vincularlos entre sí a través del campo de registro conectado.
 
@@ -93,7 +99,8 @@ Tenga en cuenta lo siguiente sobre la conexión de tipos de registros:
       * No se puede acceder a los campos de registros de planificación desde objetos de Workfront.
       * Los registros de Planning se pueden ver desde la pestaña Planning del objeto Workfront. Para obtener más información, consulte [Administrar conexiones de registro desde objetos de Workfront](/help/quicksilver/planning/records/manage-records-in-planning-section.md).
       * Puede crear un campo personalizado de conexión de Planning y adjuntarlo al formulario personalizado de un objeto de Workfront. Para obtener más información, consulte [Crear un formulario personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
-      * Se puede acceder a los campos de registro de planificación desde los recursos del Experience Manager cuando la persona con la función de administrador de Workfront configura la asignación de metadatos mediante la integración entre Workfront y Adobe Experience Manager Assets. Para obtener más información, consulte [Configurar la asignación de metadatos de recursos entre Adobe Workfront y Experience Manager Assets](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
+      * Se puede acceder a los campos de registro de planificación desde los recursos del Experience Manager cuando la persona con la función de administrador de Workfront configura la asignación de metadatos mediante la integración entre Workfront y Adobe Experience Manager Assets. Para obtener más información, consulte [Configurar la asignación de metadatos de recursos entre Adobe Workfront y Experience Manager Assets](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
+      * No se puede acceder a los campos de registro de planificación desde Marcas en GenStudio for Performance Marketing.
 
 
    * **Cuando se agregan campos de búsqueda desde el registro u objeto al que se conecta**: además de crear un campo de registro vinculado, también puede conectarse a campos desde el registro conectado o el tipo de objeto que se denominan campos de búsqueda. Un campo vinculado (o de búsqueda) con información del registro al que se está conectando se muestra en el registro desde el que se está conectando.
@@ -127,11 +134,13 @@ Después de establecer una conexión entre dos tipos de registro o entre un regi
 
 >[!WARNING]
 >
->Estas opciones no están disponibles al conectar lo siguiente:
+>Las opciones descritas en esta sección no están disponibles al conectar lo siguiente:
 >
 >* Dos registros de diferentes espacios de trabajo
 >
 >* Un tipo de registro y recursos de Experience Manager
+>
+>* Un tipo de registro y una marca Adobe GenStudio
 
 Puede elegir si desea conectar un registro a varios registros a la vez o un registro a la vez entre sí.
 
