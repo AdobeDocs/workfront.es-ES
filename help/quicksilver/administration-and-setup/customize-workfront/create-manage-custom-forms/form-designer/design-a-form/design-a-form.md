@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: f6e0329ec63038b33006325701007c564c4126cc
+source-git-commit: 8cd6c47acf8de313bab5fe7298125eb63cc10faf
 workflow-type: tm+mt
 source-wordcount: '6933'
 ht-degree: 53%
@@ -32,7 +32,7 @@ Puede diseñar un formulario personalizado con el diseñador de formularios en A
  <col> 
  <tbody> 
   <tr> 
-   <td>paquete de Adobe Workfront</td> 
+   <td>Paquete de Adobe Workfront</td> 
    <td><p>Cualquiera</p></td> 
   </tr> 
   <tr> 
@@ -127,7 +127,7 @@ Cada nombre de campo personalizado debe ser único en la instancia de Workfront 
 >[!NOTE]
 >
 >Aunque es posible hacerlo, le recomendamos que no cambie este nombre después de que usted u otros usuarios empiecen a utilizar el formulario personalizado en Workfront. Si lo hace, el sistema ya no reconocerá el campo personalizado, donde ahora se podría hacer referencia a él en otras áreas de Workfront.
->&#x200B;>Por ejemplo, si añade el campo personalizado a un informe y posteriormente cambia su nombre, Workfront no lo reconocerá en el informe y dejará de funcionar correctamente allí a menos que lo vuelva a añadir al informe con el nuevo nombre.
+>Por ejemplo, si añade el campo personalizado a un informe y posteriormente cambia su nombre, Workfront no lo reconocerá en el informe y dejará de funcionar correctamente allí a menos que lo vuelva a añadir al informe con el nuevo nombre.
 >
 >Se recomienda no escribir un nombre que ya se utilice en los campos integrados de Workfront.
 >
@@ -651,12 +651,12 @@ Para añadir una búsqueda externa:
       <td role="rowheader">Ruta JSON</td>
       <td><p>Escriba o pegue la ruta JSON para la API.</p> <p>Esta opción permite extraer datos del JSON devuelto por la URL de la API. Sirve para seleccionar qué valores dentro del JSON aparecerán en las opciones desplegables.</p><p>Por ejemplo, si la dirección URL de la API devuelve JSON en el siguiente formato, puede usar "$.data[*].name" para seleccionar EE. UU. y Canadá como opciones desplegables:</br>
       <pre>
-      &lbrace;
-       data: &lbrace;
+      {
+       data: {
          { name: "USA"},
          { name: "Canada"}
-       &rbrace;
-      &rbrace;
+       }
+      }
       </pre>
       </p>
      <p>Para obtener más información sobre la ruta JSON y cómo asegurarse de que escribe la ruta JSON correcta, consulte <a href="https://jsonpath.com/">https://jsonpath.com/</a>.</p></td>
@@ -985,7 +985,7 @@ Para añadir un archivo Adobe XD:
 >
 >Debe tener lo siguiente para acceder a Workfront Planning:
 >
->* Un nuevo plan y licencia de Workfront. Workfront Planning no está disponible para planes o licencias de Workfront heredados.
+>* Un nuevo paquete y licencia de Workfront. Workfront Planning no está disponible para planes o licencias de Workfront heredados.
 >* Un paquete adicional para Workfront Planning.
 >* La instancia de Workfront de su organización debe incorporarse a la experiencia unificada de Adobe.
 >

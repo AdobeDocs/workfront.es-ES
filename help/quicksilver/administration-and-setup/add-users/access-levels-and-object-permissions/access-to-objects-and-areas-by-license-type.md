@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d8f2a295-c053-4763-bf6e-6e836087a839
-source-git-commit: 97d755c71eb1bdfa8a031fa387741318f9a7f261
+source-git-commit: 8cd6c47acf8de313bab5fe7298125eb63cc10faf
 workflow-type: tm+mt
-source-wordcount: '456'
+source-wordcount: '457'
 ht-degree: 72%
 
 ---
@@ -36,7 +36,7 @@ En la siguiente tabla se indica el nivel más alto de acceso (Editar o Ver) que 
 |   | Plan | Trabajo | Revisar | Solicitud | Externo |
 |---|---|---|---|---|---|
 | Proyectos | Editar | Editar (sin permisos de creación) | Ver | Ver (solo la página Detalles) | Sin acceso |
-| Tareas | Editar | Editar | Ver | Ver | Ver |
+| Tareas | Editar | Editar | Ver | Ver | Sin acceso |
 | Problemas | Editar | Editar | Editar | Editar | Sin acceso |
 | Portafolios | Editar | Ver | Ver | Sin acceso | Sin acceso |
 | Programas | Editar | Ver | Ver | Sin acceso | Sin acceso |
@@ -67,7 +67,7 @@ Puede encontrar información detallada sobre lo que permiten los niveles de acce
 * [Conceder acceso a los documentos](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-documents.md)
 * [Conceder acceso a los portafolios](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-portfolios.md)
 * [Conceder acceso a los programas](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-programs.md)
-* [Conceder acceso a informes, paneles y calendarios](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md)
+* [Conceder acceso a informes, paneles de control y calendarios](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md)
 * [Conceder acceso a filtros, vistas y agrupaciones](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-fvg.md)
 * [Conceder acceso a los usuarios](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md)
 * [Conceder acceso a los equipos](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-teams.md)

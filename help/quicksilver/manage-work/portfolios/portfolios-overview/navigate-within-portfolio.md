@@ -6,9 +6,9 @@ description: Navegación dentro de un portafolio
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 6c1795ab-422f-419c-b5e9-1f1323800b39
-source-git-commit: d7600a55b3dffb242957234de9d85a0deb1ad2e3
+source-git-commit: 8cd6c47acf8de313bab5fe7298125eb63cc10faf
 workflow-type: tm+mt
-source-wordcount: '601'
+source-wordcount: '597'
 ht-degree: 73%
 
 ---
@@ -141,10 +141,8 @@ Para obtener información sobre los programas, consulte la sección [Crear y adm
 
    >[!IMPORTANT]
    >
-   >Su compañía debe tener los siguientes paquetes para tener acceso a [!UICONTROL Portfolio Optimizer]:
+   >Su compañía debe tener un paquete de [!UICONTROL Prime] o superior [!DNL Workfront] para tener acceso a [!UICONTROL Portfolio Optimizer].
    >
-   >[!UICONTROL Prime] o superior [!DNL Workfront]\
-   >[!UICONTROL Empresa] o superior [!DNL Workfront]
 
    Para obtener información sobre el uso de Portfolio Optimizer, consulte la sección [Administrar proyectos en Portfolio Optimizer: índice de artículo](../../../manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md).
 

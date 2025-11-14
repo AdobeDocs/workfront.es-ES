@@ -6,10 +6,10 @@ description: Los proyectos se muestran en orden de prioridad en el Planificador 
 author: Lisa
 feature: Resource Management
 exl-id: fe9c8cf9-f1e0-4cd5-9299-0f04893d71a5
-source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
+source-git-commit: 8cd6c47acf8de313bab5fe7298125eb63cc10faf
 workflow-type: tm+mt
-source-wordcount: '1279'
-ht-degree: 98%
+source-wordcount: '1282'
+ht-degree: 96%
 
 ---
 
@@ -26,7 +26,7 @@ Los proyectos se muestran en orden de prioridad en el Planificador de recursos, 
  <col> 
  <tbody> 
   <tr> 
-   <td>paquete de Adobe Workfront</td> 
+   <td>Paquete de Adobe Workfront</td> 
    <td><p>Cualquiera</p></td>
   </tr> 
   <tr> 
@@ -105,9 +105,9 @@ Para editar la prioridad de planificación del proyecto:
 
 >[!IMPORTANT]
 >
->Su empresa debe tener un plan empresarial o superior de Workfront para priorizar los proyectos en Optimizador de portafolios.
+>Su empresa debe tener un paquete de Prime o superior de Workfront para priorizar los proyectos en Portfolio Optimizer.
 >
->Para obtener más información sobre los planes de Workfront, consulte [Nuestros planes](https://business.adobe.com/es/products/workfront/pricing.html).
+>Para obtener más información sobre los paquetes de Workfront, consulte [Paquetes y precios de Adobe Workfront](https://business.adobe.com/products/workfront/pricing.html).
 >
 >Para obtener información sobre cómo priorizar proyectos en Optimizador de portafolios, consulte [Priorizar proyectos en Optimizador de portafolios](../../manage-work/portfolios/portfolio-optimizer/prioritize-projects-in-portfolio-optimizer.md).
 

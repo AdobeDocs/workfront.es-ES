@@ -6,10 +6,10 @@ description: Al asignar usuarios o funciones a una tarea, se les asigna trabajar
 author: Lisa
 feature: Work Management
 exl-id: 2c0cd6ef-8719-4680-aa63-5e229de0f819
-source-git-commit: 1f9a0e6064f83c6f0947e3c7ef596e96c934a687
+source-git-commit: 8cd6c47acf8de313bab5fe7298125eb63cc10faf
 workflow-type: tm+mt
-source-wordcount: '573'
-ht-degree: 76%
+source-wordcount: '574'
+ht-degree: 77%
 
 ---
 
@@ -45,7 +45,7 @@ Puede modificar las horas de asignación cuando realice asignaciones avanzadas e
  <col> 
  <tbody> 
   <tr> 
-   <td>paquete de Adobe Workfront</td> 
+   <td>Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
@@ -61,7 +61,10 @@ Puede modificar las horas de asignación cuando realice asignaciones avanzadas e
   <tr> 
    <td>Permisos de objeto</td>
    <td><p>Contribuir o permisos superiores para la tarea</p>
-   <p>Edite permisos para actualizar las horas de asignación en el cuadro Editar tarea al editar tareas con la experiencia anterior. Ya no puede administrar las horas de asignación en el cuadro de diálogo Editar tarea al editar tareas en la nueva experiencia.</p> <p>Para obtener más información, consulte <a href="/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md">Editar tareas</a>.</p></td>
+   <p>Edite permisos para actualizar las horas de asignación en el cuadro Editar tarea al editar tareas con la experiencia anterior.</p> 
+   <p><b>NOTA</b></p>
+   <p>
+   Ya no puede administrar las horas de asignación en el cuadro de diálogo Editar tarea al editar tareas en la nueva experiencia.</p> <p>Para obtener más información, consulte <a href="/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md">Editar tareas</a>.</p></td>
   </tr>
  </tbody>
 </table>

@@ -6,10 +6,10 @@ description: El porcentaje de asignación representa la cantidad de tiempo que u
 author: Lisa
 feature: Work Management
 exl-id: 82238dff-b95e-42e4-8e72-6247934b504d
-source-git-commit: 1f9a0e6064f83c6f0947e3c7ef596e96c934a687
+source-git-commit: 8cd6c47acf8de313bab5fe7298125eb63cc10faf
 workflow-type: tm+mt
-source-wordcount: '457'
-ht-degree: 20%
+source-wordcount: '458'
+ht-degree: 21%
 
 ---
 
@@ -43,7 +43,7 @@ Puede modificar el porcentaje de asignación cuando realice asignaciones avanzad
  <col> 
  <tbody> 
   <tr> 
-   <td>paquete de Adobe Workfront</td> 
+   <td>Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
@@ -59,7 +59,9 @@ Puede modificar el porcentaje de asignación cuando realice asignaciones avanzad
   <tr> 
    <td>Permisos de objeto</td>
    <td><p>Contribuir o permisos superiores para la tarea</p>
-   <p>Edite los permisos para actualizar el porcentaje de asignación en el cuadro Editar tarea al editar tareas con la experiencia anterior. Ya no puede administrar el porcentaje de asignación en el cuadro de diálogo Editar tarea al editar tareas en la nueva experiencia.</p> <p>Para obtener más información, consulte <a href="/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md">Editar tareas</a>.</p></td>
+   <p>Edite los permisos para actualizar el porcentaje de asignación en el cuadro Editar tarea al editar tareas con la experiencia anterior.</p>
+   <p><b>NOTA</b></p>
+   <p> Ya no puede administrar el porcentaje de asignación en el cuadro de diálogo Editar tarea al editar tareas en la nueva experiencia.</p> <p>Para obtener más información, consulte <a href="/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md">Editar tareas</a>.</p></td>
   </tr>
  </tbody>
 </table>

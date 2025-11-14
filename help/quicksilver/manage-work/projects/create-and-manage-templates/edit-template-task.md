@@ -7,10 +7,10 @@ description: Después de crear una plantilla, puede editar la información sobre
 author: Alina
 feature: Work Management
 exl-id: 2df8522e-7eee-4440-be0f-f7483c5acdb0
-source-git-commit: 1f9a0e6064f83c6f0947e3c7ef596e96c934a687
+source-git-commit: 8cd6c47acf8de313bab5fe7298125eb63cc10faf
 workflow-type: tm+mt
 source-wordcount: '4633'
-ht-degree: 76%
+ht-degree: 75%
 
 ---
 
@@ -47,7 +47,7 @@ Puede editar las tareas de plantilla de una en una, o puede editar las tareas de
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
@@ -382,14 +382,14 @@ Los nombres de los formularios personalizados solo se muestran si hay formulario
 
 1. Haga clic en **Añadir usuario asignado** para añadir un nuevo usuario asignado a la tarea de plantilla. Puede asignar usuarios, funciones o equipos a una tarea. Puede tener varios usuarios asignados a una tarea. Las tareas futuras tendrán los mismos recursos asignados cuando se creen a partir de esta tarea de plantilla.
 1. (Opcional) Si tiene varios usuarios asignados, seleccione el botón de opción **Propietario** para indicar qué usuario o función se considera el propietario de la tarea o el usuario asignado principal. Workfront marca el primer usuario o función que asigna a una tarea de plantilla como Propietario o Usuario principal asignado.
-1. (Condicional y opcional) Si la restricción de tarea es Trabajo calculado o Condicionado por el esfuerzo, especifique el **% de asignación** (porcentaje de asignación) de cada usuario asignado. Esta es la cantidad de tiempo de la programación del usuario asignado que puede dedicar a esta tarea. Si se cambia el porcentaje de asignación de un usuario asignado, se cambiarán las horas planificadas de una tarea.
-1. (Condicional y opcional) Si la restricción de tarea es simple, especifique las **horas** de cada usuario asignado
+1. (Condicional y opcional) Si **Tipo de duración** es **Trabajo calculado** o **Condicionado por el esfuerzo**, especifique el **Porcentaje de asignación** (porcentaje de asignación) de cada usuario asignado. Esta es la cantidad de tiempo de la programación del usuario asignado que puede dedicar a esta tarea. Si se cambia el porcentaje de asignación de un usuario asignado, se cambiarán las horas planificadas de una tarea.
+1. (Condicional y opcional) Si **Tipo de duración** es **Simple**, especifique las **Horas** de cada usuario asignado
 
    O
 
    Especifique el número total de **horas planificadas** para la tarea de plantilla. Esto distribuye el total de horas equitativamente entre todos los usuarios asignados.
 
-1. (Condicional y opcional) Si la restricción de tarea es simple, especifique la **Duración** de la tarea de plantilla en días. Esta será la duración de la tarea creada a partir de esta plantilla.
+1. (Condicional y opcional) Si **Tipo de duración** es sencillo, especifique la **Duración** de la tarea de plantilla en días. Esta será la duración de la tarea creada a partir de esta plantilla.
 1. (Opcional) Seleccione una función del menú desplegable **Función de usuario asignado**. Esta es la función que el usuario asignado puede desempeñar en esta tarea futura. En el menú desplegable solo aparecen los roles de trabajo asociados con cada usuario asignado en su perfil.
 1. (Opcional) Siga editando las secciones siguientes, según la información que desee modificar.
 
@@ -570,7 +570,7 @@ Después de abrir el cuadro **Editar tarea de plantilla** en la nueva experienci
 
    ![Asignaciones de edición de tarea de plantilla](assets/template-task-edit-assignments.png)
 
-1. En el campo Buscar personas, funciones o equipos, empiece a escribir el nombre de un usuario asignado y, a continuación, selecciónelo cuando se muestre en la lista
+1. En el campo **Buscar personas, roles o equipos**, empiece a escribir el nombre de un usuario asignado y selecciónelo cuando se muestre en la lista
 
    O
 

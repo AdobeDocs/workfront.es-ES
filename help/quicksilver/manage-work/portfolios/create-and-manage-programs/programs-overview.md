@@ -7,10 +7,10 @@ description: Un programa es una colección de proyectos que tienen característi
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 1c64fe00-12e3-49f6-b864-b8f89ed9140d
-source-git-commit: d7600a55b3dffb242957234de9d85a0deb1ad2e3
+source-git-commit: 8cd6c47acf8de313bab5fe7298125eb63cc10faf
 workflow-type: tm+mt
-source-wordcount: '495'
-ht-degree: 15%
+source-wordcount: '491'
+ht-degree: 14%
 
 ---
 
@@ -36,7 +36,7 @@ Debe tener el siguiente acceso para crear y administrar portafolios:
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] paquete</td> 
    <td> <p>Cualquiera</p>
-   <p>[!UICONTROL Business] o superior</p> </td> 
+    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licencia</td> 

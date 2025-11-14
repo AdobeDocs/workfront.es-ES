@@ -6,7 +6,7 @@ description: Puede editar la información de las tareas en una lista de tareas e
 author: Alina
 feature: Work Management
 exl-id: 2af81907-3657-459e-b780-65983e224ca8
-source-git-commit: 1f9a0e6064f83c6f0947e3c7ef596e96c934a687
+source-git-commit: 8cd6c47acf8de313bab5fe7298125eb63cc10faf
 workflow-type: tm+mt
 source-wordcount: '2851'
 ht-degree: 63%
@@ -38,7 +38,7 @@ Puede editar la información de las tareas en una lista de tareas editando los c
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
@@ -124,9 +124,9 @@ Tenga en cuenta lo siguiente al editar tareas en una lista:
 
   Puede decidir si Workfront guarda los cambios que realiza de la siguiente manera:
 
-      * Automáticamente, después de cada cambio
-     * Manualmente, solo después de hacer clic en Guardar.
-  
+   * Automáticamente, después de cada cambio
+   * Manualmente, solo después de hacer clic en Guardar.
+
   Para obtener información acerca de cómo configurar cuándo Workfront guarda los cambios realizados en las tareas de una lista, consulte la sección [Modificar modo de plan antes de editar las tareas de una lista](#modify-plan-mode-before-editing-tasks-in-a-list) en este artículo.
 
 * Otros usuarios deben actualizar sus páginas para poder ver las actualizaciones que realice en una tarea.
