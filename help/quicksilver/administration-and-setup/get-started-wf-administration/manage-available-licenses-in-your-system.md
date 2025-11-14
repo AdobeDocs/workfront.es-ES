@@ -122,7 +122,7 @@ If an organization has other paid add-on products, their license information als
 
 >[!IMPORTANT]
 >
->Los límites de decisión de la revisión y de documentos se aplican solamente a los usuarios con las nuevas licencias. Para más información, consulte [Información general sobre nuevas licencias ](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md).
+>Los límites de decisión de la revisión y de documentos se aplican solamente a los usuarios con las nuevas licencias. Para más información, consulte [Información general sobre nuevas licencias &#x200B;](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md).
 
 Las decisiones de revisiones y documentos son limitadas para todas las licencias de Workfront que no son de pago. Los límites se restablecen por usuario cada mes.
 
