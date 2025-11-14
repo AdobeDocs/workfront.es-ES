@@ -4,14 +4,14 @@ product-area: system-administration;user-management
 navigation-topic: start-with-workfront-administration
 title: Administrar las licencias disponibles en el sistema
 description: Como administrador de Adobe Workfront, puede acceder a información sobre su cuenta de Workfront, incluido el número de licencias adquiridas para su organización, así como el número de dichas licencias actualmente en uso.
-author: Lisa, Becky
+author: Lisa, Jenny
 feature: System Setup and Administration
 role: Admin
 exl-id: ea580dd0-efb7-4f56-beb3-07ad044efc8a
-source-git-commit: 15ea03bf586054f7ef421f8cacede6f42835a6e4
+source-git-commit: 01a80f6140650ca12aaee14115f79449dcfa2a18
 workflow-type: tm+mt
-source-wordcount: '1178'
-ht-degree: 99%
+source-wordcount: '1180'
+ht-degree: 97%
 
 ---
 
@@ -49,15 +49,15 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 
 >[!NOTE]
 >
->Las siguientes afirmaciones se aplican solamente a los nuevos planes.
+>Las siguientes instrucciones se aplican a los paquetes Select, Prime y Ultimate.
 >
->Para el plan Select:
+>Para el paquete Select:
 >
 >1. Los administradores del sistema no pueden establecer límites para los grupos de inicio.
 >2. Los administradores del sistema solo pueden ver el número total de licencias utilizadas en todos los grupos de inicio.
 >3. Los administradores de grupos no pueden acceder a la página Licencias.
 >
->Para los planes Prime y Ultimate:
+>Para los paquetes de Prime y Ultimate:
 >
 >1. Los administradores del sistema pueden añadir Grupos de inicio a la página Licencias para ver el uso de las licencias en esos grupos y también pueden establecer límites de licencias.
 >2. Los administradores de grupos pueden acceder a la página Licencias y ver la utilización de las licencias en los grupos que gestionan y que los administradores del sistema han añadido a la página Licencias.
@@ -122,7 +122,7 @@ If an organization has other paid add-on products, their license information als
 
 >[!IMPORTANT]
 >
->Los límites de decisión de la revisión y de documentos se aplican solamente a los usuarios con las nuevas licencias. Para más información, consulte [Información general sobre nuevas licencias &#x200B;](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md).
+>Los límites de decisión de la revisión y de documentos se aplican solamente a los usuarios con las nuevas licencias. Para más información, consulte [Información general sobre nuevas licencias ](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md).
 
 Las decisiones de revisiones y documentos son limitadas para todas las licencias de Workfront que no son de pago. Los límites se restablecen por usuario cada mes.
 
@@ -133,8 +133,6 @@ Para obtener más información sobre los límites de decisiones de revisiones y 
 ![Asignación mensual de decisiones](assets/monthly-decision-allotment.png)
 
 ## Añadir o quitar un grupo de inicio en la página Licencias {#add-or-remove-a-home-group-to-the-licenses-page}
-
-<!--A Business or Enterprise Workfront Plan is required to use this feature. For more information about the various plans available, see [Workfront Plans.](https://www.workfront.com/plans)-->
 
 A cada usuario se le puede asignar un solo Grupo de inicio. Workfront proporciona un recuento de licencias orientado al grupo calculando cuántas licencias se asignan y utilizan actualmente en cada grupo de inicio.
 
