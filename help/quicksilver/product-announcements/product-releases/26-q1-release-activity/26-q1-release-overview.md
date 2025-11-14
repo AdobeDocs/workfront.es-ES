@@ -4,10 +4,10 @@ description: En esta página se ofrece información sobre la funcionalidad inclu
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: b0fb8f0ca72800c2befe4f1f8194be17c4f75c95
+source-git-commit: 00483638948941c933e5f8bc8cb3edaf8e43fea1
 workflow-type: tm+mt
-source-wordcount: '1450'
-ht-degree: 19%
+source-wordcount: '1680'
+ht-degree: 18%
 
 ---
 
@@ -39,6 +39,8 @@ The <add release> release webinar will be held on <date>. You can [register for 
 
 * [Mejoras en el administrador](#administrator-enhancements)
 * [Mejoras de documentos y aprobaciones](#documents-and-approvals-enhancements)
+* [Mejoras en la integración](#integration-enhancements)
+* [Mejoras en la creación de informes](#reporting-enhancements)
 * [Otras mejoras](#other-enhancements)
 
 ### Mejoras en el administrador
@@ -133,6 +135,69 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td>viernes, 30 de octubre de 2025</td>
         <td>viernes, 30 de octubre de 2025</td>
         <td>viernes, 30 de octubre de 2025</td>
+    </tr>   
+  </tbody>
+</table>
+
+### Mejoras en la creación de informes
+
+<table style="table-layout:auto">
+  <tbody>
+   <tr>
+        <td><strong>Característica</strong>
+        </td>
+        <td><strong>Vista previa</strong></td>
+        <td><strong>Liberación rápida</strong></td>
+        <td><strong>Trimestralmente</strong></td>
+    </tr>
+     <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-reporting.md" class="MCXref xref" xrefformat="{para}">Duplicar un informe en un panel de lienzo</a><p>![INSIGNIA desactivada]{type=Neutral}</p>
+            <p>Ahora puede duplicar un informe de KPI, tabla o gráfico en un panel de lienzo una vez creado. Una vez duplicado, puede editar el informe según sea necesario antes de guardar.</p>
+        </td>
+        <td>viernes, 23 de octubre de 2025</td>
+        <td>viernes, 23 de octubre de 2025</td>
+        <td>viernes, 23 de octubre de 2025</td>
+    </tr>   
+       <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-reporting.md" class="MCXref xref" xrefformat="{para}">Eliminando opciones de campo de los filtros de informe</a>
+            <p>Se han eliminado las siguientes opciones de campo que anteriormente estaban disponibles al aplicar un filtro a un informe:
+            <ul>
+            <li>ID de otros grupos</li>
+            <li>Identificadores de otros roles</li>
+            <li>ID de otros equipos</li>
+            </ul>
+            </p>
+        </td>
+        <td>viernes, 06 de noviembre de 2025</td>
+        <td>viernes, 13 de noviembre de 2025</td>
+        <td>viernes, 15 de enero de 2026</td>
+    </tr>   
+       <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-reporting.md" class="MCXref xref" xrefformat="{para}">Se mejoró la visualización del recuento de agrupación en los paneles de lienzo</a>
+            <p>Cuando un informe de tabla tiene varias páginas de resultados y la tabla está configurada con agrupaciones, la tabla ahora muestra tanto la cantidad de registro de la página actual como el recuento general de registros de todas las páginas. Por ejemplo, si el informe de tabla tiene 7 agrupaciones y la primera página muestra 3, la tabla mostrará 3 de 7.</p>
+        </td>
+       <td>viernes, 06 de noviembre de 2025</td>
+        <td>viernes, 13 de noviembre de 2025</td>
+        <td>viernes, 15 de enero de 2026</td>
+    </tr>   
+       <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-reporting.md" class="MCXref xref" xrefformat="{para}">Nuevas protecciones para mejorar los tiempos de carga en los paneles de lienzo</a>
+            <p>Para evitar demoras en el tiempo de carga y mejorar el rendimiento general en los paneles de lienzo, hemos aplicado límites en la cantidad de componentes de panel que se pueden agregar a un panel:
+            <ul>
+            <li>Informes por tablero: límite de 25</li>
+            <li>Agrupaciones en vistas de tabla: límite de 5</li>
+            <li>Distancia desde el objeto base del informe: límite de 10</li>
+            <li>Columnas en una vista de tabla: límite de 25</li>
+            <li>Mensajes de filtro de nivel de panel: límite de 10</li>
+            </ul></p>
+        </td>
+       <td>viernes, 06 de noviembre de 2025</td>
+        <td>viernes, 13 de noviembre de 2025</td>
+        <td>viernes, 15 de enero de 2026</td>
     </tr>   
   </tbody>
 </table>
@@ -255,7 +320,7 @@ Para ofrecer integraciones más estables y escalables, estamos adoptando un enfo
 * Workfront para Salesforce.
 
 Recomendamos utilizar la automatización e integración de Workfront para las necesidades de integración de su organización con Google Workspace.
-Para obtener una descripción general de la automatización e integración de Workfront, consulte [Información general de Adobe Workfront Fusion](https://experienceleague.adobe.com/es/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+Para obtener una descripción general de la automatización e integración de Workfront, consulte [Información general de Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 
 
 ### Actualizaciones de mantenimiento de Workfront 
