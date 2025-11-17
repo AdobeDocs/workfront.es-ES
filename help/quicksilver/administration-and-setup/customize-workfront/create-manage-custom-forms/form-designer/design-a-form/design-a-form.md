@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: f741cee4fffc3bc4d686709bc35eda2d5954b04e
+source-git-commit: d6a54f22cfae73403278868b9c22727d1cb58e39
 workflow-type: tm+mt
-source-wordcount: '6933'
+source-wordcount: '6897'
 ht-degree: 53%
 
 ---
@@ -651,12 +651,12 @@ Para añadir una búsqueda externa:
       <td role="rowheader">Ruta JSON</td>
       <td><p>Escriba o pegue la ruta JSON para la API.</p> <p>Esta opción permite extraer datos del JSON devuelto por la URL de la API. Sirve para seleccionar qué valores dentro del JSON aparecerán en las opciones desplegables.</p><p>Por ejemplo, si la dirección URL de la API devuelve JSON en el siguiente formato, puede usar "$.data[*].name" para seleccionar EE. UU. y Canadá como opciones desplegables:</br>
       <pre>
-      &lbrace;
-       data: &lbrace;
+      {
+       data: {
          { name: "USA"},
          { name: "Canada"}
-       &rbrace;
-      &rbrace;
+       }
+      }
       </pre>
       </p>
      <p>Para obtener más información sobre la ruta JSON y cómo asegurarse de que escribe la ruta JSON correcta, consulte <a href="https://jsonpath.com/">https://jsonpath.com/</a>.</p></td>
@@ -983,13 +983,9 @@ Para añadir un archivo Adobe XD:
 >
 >La información de esta sección hace referencia a Adobe Workfront Planning, una funcionalidad adicional de Adobe Workfront.
 >
->Debe tener lo siguiente para acceder a Workfront Planning:
+>Debe tener paquetes adicionales para acceder a Workfront Planning.
 >
->* Un nuevo paquete y licencia de Workfront. Workfront Planning no está disponible para planes o licencias de Workfront heredados.
->* Un paquete adicional para Workfront Planning.
->* La instancia de Workfront de su organización debe incorporarse a la experiencia unificada de Adobe.
->
-> Para obtener una lista completa de los requisitos para acceder a Workfront Planning, consulte [Información general sobre el acceso a Adobe Workfront Planning](/help/quicksilver/planning/access/access-overview.md).
+>Para obtener una lista completa de los requisitos para acceder a Workfront Planning, consulte [Información general sobre el acceso a Adobe Workfront Planning](/help/quicksilver/planning/access/access-overview.md).
 > 
 >Para obtener más información sobre Workfront Planning, consulte [Información general sobre Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
 

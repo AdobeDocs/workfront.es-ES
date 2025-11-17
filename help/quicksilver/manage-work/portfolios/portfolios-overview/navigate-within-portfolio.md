@@ -6,10 +6,10 @@ description: Navegación dentro de un portafolio
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 6c1795ab-422f-419c-b5e9-1f1323800b39
-source-git-commit: 8cd6c47acf8de313bab5fe7298125eb63cc10faf
+source-git-commit: 6948f9462c59bad9e6db67d6169e5f9dec4157fe
 workflow-type: tm+mt
-source-wordcount: '597'
-ht-degree: 73%
+source-wordcount: '583'
+ht-degree: 74%
 
 ---
 
@@ -88,9 +88,8 @@ Para obtener más información sobre los portafolios, consulte [Comprender la me
 
 ## Navegación dentro de un portafolio
 
-1. Haga clic en el icono **[!UICONTROL Menú principal]** ![Menú principal](assets/main-menu-icon.png) en la esquina superior derecha de [!DNL Adobe Workfront].
+{{step1-to-portfolios}}
 
-1. Haga clic en [!UICONTROL Portafolios].
 1. En el menú desplegable **[!UICONTROL Filtro]**, seleccione lo siguiente:
 
    * **[!UICONTROL Portafolios propios]**: incluye una lista de portafolios para los que se le ha designado como [!UICONTROL Administrador de portafolios].
