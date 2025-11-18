@@ -7,10 +7,10 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: d27f937b-e179-4f67-aebd-ed351440cb0f
-source-git-commit: a6104204cae2a2d8fb021da254437008d55a43b6
+source-git-commit: 96028446d76f32daf512adf77d3b1c53021821ec
 workflow-type: tm+mt
-source-wordcount: '380'
-ht-degree: 18%
+source-wordcount: '382'
+ht-degree: 15%
 
 ---
 
@@ -40,13 +40,13 @@ Antes de esta mejora, podía seleccionar o deseleccionar la opción Título para
 
 Para obtener más información, consulte [Conectar tipos de registro](/help/quicksilver/planning/architecture/connect-record-types.md).
 
-## Exportar detalles del registro al PDF
+## Exportar detalles del registro a PDF
 
 >[!NOTE]
 >
 >Versión de vista previa: 3 de septiembre de 2024; producción para versión rápida: con la versión 24.9 (12 de septiembre de 2024); producción para versión trimestral: con la versión 24.10 (octubre de 2024)
 
-Ahora puede exportar la página de detalles de un registro o obtener una vista previa de un documento de PDF.
+Ahora puede exportar la página de detalles de un registro o previsualizar un documento de PDF.
 
 Antes de esta mejora, sólo se podía exportar la ficha de detalles de un registro a un archivo de Word (.docx).
 
@@ -68,4 +68,4 @@ A continuación se indican algunas de las funciones principales de Adobe Workfro
 
 * Conéctese a tipos de objetos de otros sistemas, creando un marco de trabajo coherente para todos sus procesos.
 
-Para obtener más información sobre Workfront Planning, consulte [Información general sobre Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
+Para obtener más información sobre Workfront Planning, consulte [Introducción a Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).

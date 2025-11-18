@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 718ed3efd56c532693d26cc067041bedbc71cca0
+source-git-commit: 96028446d76f32daf512adf77d3b1c53021821ec
 workflow-type: tm+mt
-source-wordcount: '7386'
+source-wordcount: '7392'
 ht-degree: 9%
 
 ---
@@ -615,7 +615,7 @@ Parte de la información de la página de aterrizaje incluye lo siguiente:
 
 * Tutorial de introducción para Workfront Planning
 
-Para obtener más información, consulte [Información general sobre Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
+Para obtener más información, consulte [Introducción a Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
 
 ### Nueva experiencia de incorporación para Workfront Planning
 
@@ -663,7 +663,7 @@ Producción: viernes, 30 de mayo de 2024
 
 Vista previa: por determinar
 
-Hemos actualizado el aspecto del icono del área de planificación en el menú principal. Para obtener más información, consulte [Descripción general de Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
+Hemos actualizado el aspecto del icono del área de planificación en el menú principal. Para obtener más información, consulte [Introducción a Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
 
 ### Cambio del nombre del programa de Workfront Planning
 
@@ -800,7 +800,7 @@ Producción: jueves, 08 de mayo de 2024
 
 Vista previa: pendiente de determinación
 
-Si es cliente de Adobe Unified Experience y alguien le agrega a un comentario en la página de registro, recibirá una notificación sobre el comentario en la aplicación y por correo electrónico. Puede administrar las preferencias de notificación en el área Preferencias del perfil de Adobe Experience Cloud. Para obtener más información, consulte [Preferencias y notificaciones de la cuenta](https://experienceleague.adobe.com/es/docs/core-services/interface/features/account-preferences).
+Si es cliente de Adobe Unified Experience y alguien le agrega a un comentario en la página de registro, recibirá una notificación sobre el comentario en la aplicación y por correo electrónico. Puede administrar las preferencias de notificación en el área Preferencias del perfil de Adobe Experience Cloud. Para obtener más información, consulte [Preferencias y notificaciones de la cuenta](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences).
 
 Para obtener más información acerca de las notificaciones de planificación de Workfront, vea [Notificaciones de planificación de Adobe Workfront: Índice de artículos](/help/quicksilver/planning/notifications/notifications-information.md).
 
@@ -918,7 +918,7 @@ Vista previa: por determinar
 
 Hemos cambiado el nombre del área Maestro en el menú principal a Planificación.
 
-Para obtener una descripción general de Adobe Workfront Planning, consulte [Descripción general de Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
+Para obtener una descripción general de Adobe Workfront Planning, consulte [Introducción a Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
 
 ### Nueva experiencia al eliminar un tipo de registro
 

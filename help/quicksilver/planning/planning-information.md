@@ -1,19 +1,22 @@
 ---
-title: 'Información de planificación de Adobe Workfront: índice de artículos'
+title: Información general sobre Adobe Workfront Planning
 description: Como líder de operaciones de marketing, puede utilizar Adobe Workfront Planning para organizar el trabajo en todo el ciclo de vida de marketing para todos sus equipos. Los artículos de esta sección describen cómo puede configurar las funcionalidades de planificación y cómo puede empezar a utilizarlas como parte de las operaciones de administración de campañas.
 author: Alina
 feature: Workfront Planning
 role: User, Admin
 exl-id: 7a65d66e-a578-4016-805e-0cb04caaa18a
 recommendations: noDisplay, noCatalog
-source-git-commit: d7af8c5888147e847b4e239b629373b4b72541f7
+source-git-commit: 96028446d76f32daf512adf77d3b1c53021821ec
 workflow-type: tm+mt
-source-wordcount: '638'
-ht-degree: 69%
+source-wordcount: '529'
+ht-degree: 67%
 
 ---
 
-# Adobe Workfront Planning: índice de artículos
+# Información general sobre Adobe Workfront Planning
+
+<!--DO NOT CHANGE LINK OR CONTENT:  this is linked to an Experience League article that is hard coded by Adobe: https://experienceleague.adobe.com/en/docs/workfront-->
+<!--this articles used to be called "Adobe Workfront Planning: article index"-->
 
 <!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
@@ -26,20 +29,7 @@ Puede utilizar esta página como punto de partida para toda la documentación re
 
 Los artículos de las secciones que se enumeran a continuación describen cómo puede configurar Workfront Planning y empezar a utilizarlo.
 
-<!--consider removing the IMPORTANT below after GA-->
-
->[!IMPORTANT]
->
->La documentación a la que se hace referencia en las secciones siguientes estará disponible un tiempo después de que las funciones se publiquen en el entorno de producción.
-
-## Información general sobre Adobe Workfront Planning
-
-Acceda a los siguientes artículos para obtener información general sobre el nuevo Workfront Planning:
-
-* [Información general de Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md): Información general de alto nivel de Adobe Workfront Planning, que incluye la terminología y los conceptos exclusivos de esta solución. Le recomendamos que comience su recorrido con Workfront Planning aquí.
-* [Información general sobre las limitaciones de objetos de Adobe Workfront Planning](/help/quicksilver/planning/general/limitations-overview.md): Una lista de limitaciones para el número de objetos que puede crear en Workfront Planning.
-* [Actividad de la versión de Adobe Workfront Planning: índice de artículos](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md): Una lista de todas las notas de la versión de Workfront Planning, a partir de la versión del cuarto trimestre de 2024.
-* [Prácticas recomendadas de Adobe Workfront Planning](/help/quicksilver/planning/general/planning-best-practices.md): Una colección de preguntas frecuentes y prácticas recomendadas para usar Workfront Planning.
+Para obtener información general y comprender la terminología de Adobe Workfront Planning, consulte [Introducción a Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md)
 
 ## Arquitectura y funcionalidad de Workfront Planning
 
@@ -57,6 +47,7 @@ Las secciones siguientes contienen artículos que describen en detalle las funci
 
    * Crear, editar y eliminar espacios de trabajo
    * Crear, editar y eliminar tipos de registros
+   * Crear tipos de registros globales
    * Conectar tipos de registros y ejemplos de tipos de registros de conexión
    * Plantillas de espacio de trabajo
 
@@ -96,7 +87,7 @@ Las secciones siguientes contienen artículos que describen en detalle las funci
 
 * [Conceptos básicos de la API de Adobe Workfront Planning](/help/quicksilver/planning/general/planning-api-basics.md): la meta de la API de Planning de Adobe Workfront es simplificar la creación de integraciones con Planning mediante la introducción de una arquitectura REST-ful que funcione a través de HTTP.
 
-* [Módulos de Adobe Workfront Planning para Workfront Fusion](https://experienceleague.adobe.com/es/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules): Con los módulos de Adobe Workfront Planning, puede activar un escenario cuando se produzcan eventos en Workfront Planning. También puede crear, leer, actualizar y eliminar registros, o realizar una llamada de API personalizada a su cuenta de Adobe Workfront Planning.
+* [Módulos de Adobe Workfront Planning para Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules): Con los módulos de Adobe Workfront Planning, puede activar un escenario cuando se produzcan eventos en Workfront Planning. También puede crear, leer, actualizar y eliminar registros, o realizar una llamada de API personalizada a su cuenta de Adobe Workfront Planning.
 
 * [Información general del Asistente de IA de Adobe Workfront Planning](/help/quicksilver/planning/general/planning-ai-assistant-overview.md): con el Asistente de IA de Workfront Planning puede buscar registros o crear, actualizar y eliminar registros mediante comandos y dejar que el asistente haga el trabajo por usted.
 

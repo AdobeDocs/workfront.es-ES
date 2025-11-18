@@ -6,9 +6,9 @@ description: Puede agregar una actualización a un objeto de Adobe Workfront (pr
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: 96028446d76f32daf512adf77d3b1c53021821ec
 workflow-type: tm+mt
-source-wordcount: '3201'
+source-wordcount: '3203'
 ht-degree: 14%
 
 ---
@@ -77,7 +77,7 @@ Para obtener información adicional sobre cómo comentar tarjetas, objetivos y r
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>paquete de Adobe Workfront</strong></td> 
+   <td role="rowheader"><strong>Paquete de Adobe Workfront</strong></td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
@@ -421,7 +421,7 @@ Puede mejorar los comentarios mediante Texto enriquecido o agregándole varios e
    >
    >* Metas
    >* Tarjetas ad hoc en tableros
-   >* Registros en Workfront Planning. Para obtener más información, consulte [Descripción general de Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md)
+   >* Registros en Workfront Planning. Para obtener más información, consulte [Introducción a Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md)
    >
 
    Para adjuntar una imagen a la actualización, realice una de las siguientes acciones:
