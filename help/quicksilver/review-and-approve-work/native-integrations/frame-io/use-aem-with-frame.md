@@ -6,10 +6,10 @@ description: Uso de Adobe Experience Manager con la integración de Frame.io
 author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
-source-git-commit: cb2a17991a5562c6e734eaa0ada781d706dc5a77
+source-git-commit: 8c5202bcdb367266d31a2e056eed9a286f286518
 workflow-type: tm+mt
-source-wordcount: '1614'
-ht-degree: 79%
+source-wordcount: '1615'
+ht-degree: 78%
 
 ---
 
@@ -37,7 +37,7 @@ Puede conectar su trabajo con el contenido en [!DNL Experience Manager Assets]:
 
 <table>
   <tr>
-   <td>paquete de Adobe Workfront
+   <td>Paquete de Adobe Workfront
    </td>
    <td> <p>PRIME o ULTIMATE</p>
     <p>Workflow Ultimate</p>
@@ -121,7 +121,7 @@ Antes de empezar a asignar campos de metadatos, debe configurarlos tanto en Work
 
 Para configurar campos de metadatos:
 
-1. Configure un esquema de metadatos en [!DNL Experience Manager Assets] como se explica en [Configurar la asignación de metadatos de recursos entre Adobe [!DNL Workfront]  y  [!DNL Experience Manager Assets]](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
+1. Configure un esquema de metadatos en [!DNL Experience Manager Assets] como se explica en [Configurar la asignación de metadatos de recursos entre Adobe [!DNL Workfront]  y  [!DNL Experience Manager Assets]](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
 
 
 1. Configure campos de formulario personalizados en Workfront. [!DNL Workfront] tiene muchos campos personalizados integrados que puede utilizar. Sin embargo, también puede crear sus propios campos personalizados, tal como se explica en [Crear un formulario personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
@@ -151,7 +151,7 @@ Puede asignar cualquier campo compatible con Workfront a una etiqueta de Experie
 
 Una vez creadas las etiquetas en Experience Manager Assets, aparecerán en la lista desplegable Etiquetas de la sección Metadatos. Para vincular un campo a una etiqueta, seleccione `xcm:keywords` en la lista desplegable de campos de Experience Manager Assets en el área de asignación de metadatos.
 
-Para obtener más información sobre las etiquetas en Experience Manager Assets, incluyendo cómo crear y administrar etiquetas, consulte [Administración de etiquetas](https://experienceleague.adobe.com/es/docs/experience-manager-64/administering/contentmanagement/tags).
+Para obtener más información sobre las etiquetas en Experience Manager Assets, incluyendo cómo crear y administrar etiquetas, consulte [Administración de etiquetas](https://experienceleague.adobe.com/en/docs/experience-manager-64/administering/contentmanagement/tags).
 
 **Campos de esquema de metadatos personalizados de Experience Manager Assets**
 
@@ -221,7 +221,7 @@ Cuando esta opción está habilitada, cualquier recurso que se haya insertado en
 
 Es posible enviar documentos desde Workfront a Experience Manager Assets o Assets Essentials. Los documentos cargados y enviados desde Workfront a Assets Essentials siguen contando para el almacenamiento general de documentos.
 
-Los recursos que se envíen a Experience Manager mediante esta integración tendrán un límite de tamaño de **5 GB**.
+Assets enviado a Experience Manager mediante esta integración tiene un límite de tamaño de **5o TB**.
 
 <!--In the Preview environment, Assets sent to Experience Manager through this integration have a size limit of **30 GB**.-->
 
