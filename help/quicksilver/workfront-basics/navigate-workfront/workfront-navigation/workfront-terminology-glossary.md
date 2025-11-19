@@ -6,7 +6,7 @@ description: El [!DNL Adobe Workfront] glosario enumera términos de uso común 
 author: Alina
 feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
-source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
+source-git-commit: f88b6ec019963ff6256e35b9c94eb4d1b7e99730
 workflow-type: tm+mt
 source-wordcount: '21526'
 ht-degree: 94%
@@ -365,7 +365,7 @@ La siguiente tabla es una lista de los términos más utilizados en Adobe Workfr
        </tr> 
        <tr> 
         <td>[!UICONTROL Bud. Hours]</td> 
-        <td> <p>Informe de [!UICONTROL Budgeted Hour]</p><p>El objeto [!UICONTROL Budgeted Hour] del informe de Hora presupuestada hace referencia a información relacionada con una herramienta de administración de recursos obsoleta. Solo el campo "[!UICONTROL . Hours]" en este informe hace referencia a las horas presupuestadas en el área de [!UICONTROL Resource Planner] o [!UICONTROL Resource Budgeting] del [!UICONTROL Business Case] del proyecto. </p> <p>Para obtener más información acerca de cómo crear un informe, consulte el artículo <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md" class="MCXref xref">Crear un informe personalizado</a>.</p> </td> 
+        <td> <p>Informe de [!UICONTROL Budgeted Hour]</p><p>El objeto [!UICONTROL Budgeted Hour] del informe de Hora presupuestada hace referencia a información relacionada con una herramienta de administración de recursos obsoleta. Solo el campo "[!UICONTROL. Hours]" en este informe hace referencia a las horas presupuestadas en el área de [!UICONTROL Resource Planner] o [!UICONTROL Resource Budgeting] del [!UICONTROL Business Case] del proyecto. </p> <p>Para obtener más información acerca de cómo crear un informe, consulte el artículo <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md" class="MCXref xref">Crear un informe personalizado</a>.</p> </td> 
        </tr> 
        <tr> 
         <td>[!UICONTROL Resource Planner Budgeted Hours] </td> 
@@ -720,7 +720,7 @@ La siguiente tabla es una lista de los términos más utilizados en Adobe Workfr
 
 <tr> 
    <td>[!UICONTROL Índice de rendimiento de costos (CPI)]</td> 
-   <td> <p>El [!UICONTROL Índice de rendimiento de costos (CPI)] describe la relación en el nivel de proyecto o tarea entre el costo planificado y el costo real. Los administradores de proyectos revisan esta métrica para identificar las tareas o los proyectos cuyo seguimiento actual sea inferior o superior al coste en un momento determinado. El costo se puede medir en horas o dólares, según el [!UICONTROL Performance Index Method (PIM)].</p> 
+   <td> <p>El [!UICONTROL Índice de rendimiento de costos (CPI)] describe la relación en el nivel de proyecto o tarea entre el costo planificado y el costo real. Los administradores de proyectos revisan esta métrica para identificar las tareas o los proyectos cuyo seguimiento actual sea inferior o superior al coste en un momento determinado. El costo se puede medir en horas o moneda, según el [!UICONTROL Performance Index Method (PIM)].</p> 
     <p> Para obtener más información, vea <a href="/help/quicksilver/manage-work/projects/project-finances/calculate-cpi.md">Calcular el índice de rendimiento de costos (CPI)</a>.</p>
 
 </td> 
@@ -2106,7 +2106,7 @@ Las entradas de horas pueden tener uno de los siguientes estados en Workfront:
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Optimized"> 
    <td>[!UICONTROL Scenario] (en [!DNL Workfront Fusion]) </td> 
-   <td> <p>Un escenario consiste en una serie de pasos (módulos) que indican cómo se deben transferir y transformar los datos entre aplicaciones y servicios.</p> <p>Para obtener información acerca de los escenarios de [!DNL Workfront Fusion], consulte Información general sobre escenarios de <a href="https://experienceleague.adobe.com/es/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/scenario-overview">[!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>Un escenario consiste en una serie de pasos (módulos) que indican cómo se deben transferir y transformar los datos entre aplicaciones y servicios.</p> <p>Para obtener información acerca de los escenarios de [!DNL Workfront Fusion], consulte Información general sobre escenarios de <a href="https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/scenario-overview">[!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Scenario] (en el [!DNL Workfront Scenario Planner]) </td> 
