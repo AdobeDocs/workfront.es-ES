@@ -4,10 +4,10 @@ description: Mejoras del administrador en el primer trimestre de 2026
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: f6b46a3c9d3ad792fd55309a5aaf5e23a83e233d
+source-git-commit: eead7c3c22dff242cd2a875381f5a2ac901cc2bd
 workflow-type: tm+mt
-source-wordcount: '355'
-ht-degree: 16%
+source-wordcount: '376'
+ht-degree: 15%
 
 ---
 
@@ -27,6 +27,9 @@ Para obtener una lista de todos los cambios disponibles en este punto del ciclo 
 
 La fecha de entrada y el ID introducido ahora se almacenan en formularios, campos y secciones personalizados. Puede utilizar estas opciones de datos en los informes como filtros, vistas o agrupaciones. Para mostrarlos en la lista de formularios, campos o secciones personalizados en la configuración, agregue Fecha de entrada e Introducido por: Nombre como columnas en una vista nueva o existente.
 
+>[!NOTE]
+>
+>La fecha de entrada y las entradas introducidas por ID solo están disponibles en formularios, campos y secciones personalizados creados el 13 de noviembre de 2025 o posteriormente.
 
 ## Actualizaciones de los nombres de los botones al editar una plantilla de diseño
 
