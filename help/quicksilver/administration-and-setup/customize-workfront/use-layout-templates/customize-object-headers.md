@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: cbeaa0d7-a61a-4806-a871-96663d9ce124
-source-git-commit: a561620e218cafc0af861d2b157b8dc7c83dd7ed
+source-git-commit: 9507e04be7cdd33658b4958f3030b0d3359a9ef1
 workflow-type: tm+mt
-source-wordcount: '548'
-ht-degree: 87%
+source-wordcount: '537'
+ht-degree: 66%
 
 ---
 
@@ -42,7 +42,7 @@ Después de configurar una plantilla de diseño, debe asignarla a usuarios para 
  <col> 
  <tbody> 
   <tr> 
-   <td>paquete de Adobe Workfront</td> 
+   <td>Paquete de Adobe Workfront</td> 
    <td><p>Cualquiera</p></td> 
   </tr> 
   <tr> 
@@ -70,7 +70,7 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 
    <!--when this will be possible for more than 3 objects, at production, make this more general: update the sentence above to say "select an object you want to customize in the Customize what users see drop-down menu). -->
 
-1. En la sección [!UICONTROL Campos de encabezado], pase el ratón sobre los campos mostrados y realice una de las siguientes acciones:
+1. En la sección [!UICONTROL Campos de encabezado], pase el ratón sobre los campos actuales y realice una de las siguientes acciones:
    * Haga clic en el icono **x** para eliminar un campo
 
      O
@@ -83,19 +83,15 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 
 1. Se pueden incluir hasta cinco campos en el encabezado de un objeto.
 Si ya tiene cinco campos seleccionados, debe quitar un campo para poder añadir uno nuevo.
-1. En el cuadro **Añadir campo**, empiece a escribir el nombre del campo de Workfront no editable que desea añadir y, a continuación, selecciónelo cuando se muestre en la lista. El campo se añade inmediatamente a la derecha del cuadro Añadir campo y se muestra como el primer campo en la esquina superior izquierda del encabezado del objeto.
+1. En el cuadro **Agregar campo**, empiece a escribir el nombre de un campo personalizado o de un campo nativo de Workfront que desee agregar y, a continuación, selecciónelo cuando se muestre en la lista. El campo se añade inmediatamente a la derecha del cuadro Agregar campo y se muestra como el primer campo en la esquina superior derecha del encabezado del objeto.
 
    >[!TIP]
    >
-   >* Solo puede añadir campos que se muestren en el área de Información general de la sección Detalles del objeto y que no se puedan editar. Los campos no editables son campos que los usuarios no pueden editar manualmente. Workfront los calcula automáticamente.
-   >
-   >* Puede añadir campos editables que ya formen parte de los encabezados predeterminados (por ejemplo, Propietario del proyecto, Estado, Porcentaje completado, Asignaciones).
+   >* Puede agregar cualquier campo personalizado o nativo disponible en el área Información general de la sección Detalles de un objeto. Por ejemplo, solo los problemas tienen el campo Gravedad y ese campo no está disponible para agregar a proyectos o tareas.
    >
    >* Cuando añade el campo “Resuelto por” al encabezado de un problema, el campo cambia a “Resolviendo problema, tarea o proyecto”, cuando hay un objeto de resolución asociado al problema.
 
-
    ![Agregar campo al encabezado](assets/add-field-to-header-in-lt-list.png)
-
 
 1. (Opcional) Arrastre y suelte los campos en un orden diferente.
 
