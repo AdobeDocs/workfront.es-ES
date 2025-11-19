@@ -1,15 +1,15 @@
 ---
 navigation-topic: notifications
-title: Suscribirse a elementos en Adobe Workfront
+title: Resumen de notificaciones de Experience Cloud
 description: Adobe Workfront ha unificado todos los productos de experiencias digitales (DX) en un único sistema de notificación coherente denominado Notificaciones de Experience Cloud.
 author: Courtney
 feature: Get Started with Workfront
 hide: true
 hidefromtoc: true
-source-git-commit: 49e1bb56c30ec54290a95f0c5eb224d86b9afafc
+source-git-commit: 56f63dad88c9ea7d51297bcad181983dc88acf50
 workflow-type: tm+mt
-source-wordcount: '632'
-ht-degree: 1%
+source-wordcount: '630'
+ht-degree: 0%
 
 ---
 
