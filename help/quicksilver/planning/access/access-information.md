@@ -6,7 +6,7 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 98ca7d04-35c2-420a-a87c-50c00939853c
-source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
+source-git-commit: 15ffe027c281782bcaa4df229badc134d91195a0
 workflow-type: tm+mt
 source-wordcount: '126'
 ht-degree: 59%
@@ -33,5 +33,6 @@ Los siguientes artículos contienen información sobre el acceso que los usuario
 * [Compartir vistas](/help/quicksilver/planning/access/share-views.md)
 * [Compartir espacios de trabajo](/help/quicksilver/planning/access/share-workspaces.md)
 * [Compartir tipos de registros](/help/quicksilver/planning/access/share-record-types.md)
+  <!--* <span class="preview">[Share records](/help/quicksilver/planning/access/share-records.md)</span>-->
 
 
