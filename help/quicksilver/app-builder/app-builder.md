@@ -4,9 +4,9 @@ description: Las extensiones de la interfaz de usuario de Workfront, con tecnolo
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 2ed75053-8199-474c-afb4-fa9bbd3750f8
-source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
+source-git-commit: 1c2422f61e3db6fbe05cd03b9fbc1f17e906ebad
 workflow-type: tm+mt
-source-wordcount: '2178'
+source-wordcount: '2285'
 ht-degree: 1%
 
 ---
@@ -160,13 +160,13 @@ Para permitir aplicaciones personalizadas en el menú principal de Workfront:
 En la función ExtensionRegistration, debería ver el siguiente código. Este código se creó automáticamente mediante la plantilla. Este código se puede añadir para crear elementos de menú adicionales. Asegúrese de reemplazar los ID y las direcciones URL.
 
     &quot;
-    mainMenu: &lbrace;
+    mainMenu: {
     
-    getItems() &lbrace;
+    getItems() {
     
-    return &lbrack;
+    return [
     
-    &lbrace;
+    {
     
     id: &#39;main-menu-label&#39;,
     
@@ -176,18 +176,18 @@ En la función ExtensionRegistration, debería ver el siguiente código. Este c�
     
     icon: icon1,
     
-    &rbrace;,
+    },
     
-    &rbrack;;
+    ];
     
-    &rbrace;,
+    },
     
-    &rbrace;
+    }
     &quot;
 
 1. Agregue el siguiente fragmento de código:
 
-   ![fragmento de código &#x200B;](assets/7-extension-registration-step1-from-sam.png)
+   ![fragmento de código ](assets/7-extension-registration-step1-from-sam.png)
 
    Este ejemplo muestra un elemento del menú principal. Debe actualizar el ID, la etiqueta, el icono y la URL con los nombres correctos para su aplicación. Al agregar varios elementos, asegúrese de que el ID sea único.
 
@@ -438,6 +438,19 @@ A continuación, vaya a la página específica con la que desee desarrollar en e
 Si la configuración se ha completado correctamente, al volver a cargar la página de la plantilla de diseño en Workfront, verá los botones de la aplicación de App Builder. Añada los botones de la aplicación al menú principal y al panel izquierdo de un objeto y compruebe que aparecen correctamente en esas áreas.
 
 Encontrará instrucciones adicionales en el sitio de Adobe Developer, con un ejemplo de AEM: https://developer.adobe.com/uix/docs/guides/preview-extension-locally/
+
+### Deshabilite el indicador para permitir pruebas locales en la versión 142 y posteriores de Chrome
+
+La versión 142 de Chrome introduce restricciones de acceso a redes locales. Estas restricciones pueden interferir con los entornos de prueba locales.
+
+Para resolver el problema, debe deshabilitar la Comprobación de acceso a la red local desactivando la marca correspondiente en la configuración de Chrome: `chrome://flags/#local-network-access-check`.
+
+Para deshabilitar el indicador
+
+1. Abra Chrome, escriba `chrome://flags` en la barra de direcciones y, a continuación, presione **Entrar**.
+1. En la barra de búsqueda situada en la parte superior, escriba **Comprobaciones de acceso a la red local**.
+1. Haga clic en el menú desplegable situado junto al indicador **Comprobaciones de acceso a la red local** y seleccione Deshabilitado.
+1. Haga clic en el botón **Volver a iniciar** que aparece en la parte inferior de la pantalla para aplicar los cambios.
 
 ## Publicación de solicitudes y aprobación del envío
 
