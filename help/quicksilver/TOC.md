@@ -3,9 +3,9 @@ user-guide-title: Guía de Workfront
 user-guide-description: Utilice los siguientes documentos, tutoriales y recursos adicionales para aprender a implementar y utilizar Adobe Workfront de forma eficaz en su organización.
 role: User
 feature-set: Workfront
-source-git-commit: 96028446d76f32daf512adf77d3b1c53021821ec
+source-git-commit: e73965653f1923168ff331dfdf05713f1902ba5a
 workflow-type: tm+mt
-source-wordcount: '13547'
+source-wordcount: '13556'
 ht-degree: 58%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 58%
          * [Mejoras de proyecto del cuarto trimestre de 2025](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-project.md)
          * [Mejoras en las solicitudes del cuarto trimestre de 2025](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-requests.md)
          * [Mejoras en la gestión de recursos del cuarto trimestre de 2025](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-resource-mgmt.md)
-         * [Otras mejoras del cuarto trimestre de 2025 &#x200B;](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-other.md)
+         * [Otras mejoras del cuarto trimestre de 2025 ](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-other.md)
          * [Actualizaciones de aspecto durante el periodo de tiempo de la versión del cuarto trimestre de 2025](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-look-and-feel-updates.md)
       * Versión del tercer trimestre de 2025 {#release-25-q3}
          * [Resumen de la versión del tercer trimestre de 2025](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-release-overview.md)
@@ -921,6 +921,7 @@ ht-degree: 58%
       * [Administrar formularios personalizados adjuntos a objetos](workfront-basics/work-with-custom-forms/manage-custom-forms-attached-to-objects.md)
    * Usar notificaciones {#use-notifications}
       * [Use notifications: índice de artículos](workfront-basics/using-notifications/use-notifications.md)
+      * [Resumen de notificaciones de Experience Cloud](/help/quicksilver/workfront-basics/using-notifications/exp-cloud-notifications-overview.md)
       * [Información general de notificaciones](workfront-basics/using-notifications/wf-notifications.md)
       * [Modificar sus propias notificaciones por correo electrónico](workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)
       * [Suscribirse a elementos en Adobe Workfront](workfront-basics/using-notifications/subscribe-to-items-in-workfront.md)
@@ -1770,7 +1771,7 @@ ht-degree: 58%
    * [Administrar recursos: índice de artículos](resource-mgmt/manage-resources.md)
    * Administración de recursos {#resource-management}
       * [Administración de recursos: índice de artículos](resource-mgmt/resource-mgmt-overview/resource-management-overview.md)
-      * [Introducción a la Administración de recursos &#x200B;](resource-mgmt/resource-mgmt-overview/get-started-resource-management.md)
+      * [Introducción a la Administración de recursos ](resource-mgmt/resource-mgmt-overview/get-started-resource-management.md)
    * Planificación de recursos en Adobe Workfront {#resource-planning-in-adobe-workfront}
       * [Planificación de recursos: índice de artículos](resource-mgmt/resource-planning/resource-planning-overview.md)
       * Conjuntos de recursos {#resource-pools}
@@ -2126,6 +2127,7 @@ ht-degree: 58%
       * [Compartir espacios de trabajo](planning/access/share-workspaces.md)
       * [Compartir tipos de registros](planning/access/share-record-types.md)
       * [Compartir vistas](planning/access/share-views.md)
+      * [Compartir registros](planning/access/share-records.md)
       * [Solicitar permisos para una vista o un espacio de trabajo](planning/access/request-permissions.md)
    * Registros de Adobe Workfront Planning {#adobe-workfront-planning-records}
       * [Registros: índice de artículo](planning/records/records-information.md)
@@ -2136,7 +2138,7 @@ ht-degree: 58%
       * [Editar registros](planning/records/edit-records.md)
       * [Eliminar registros](planning/records/delete-records.md)
       * [Restauración de registros eliminados](planning/records/restore-deleted-records.md)
-      * [Compartir registros](planning/records/share-records.md)
+      * [Uso compartido de registros mediante un vínculo](planning/records/share-records.md)
       * [Duplicar registros](planning/records/copy-or-duplicate-records.md)
       * [Administrar comentarios de registros](planning/records/manage-record-comments.md)
       * [Resumen de la sección Historial](planning/records/history-section-overview.md)
