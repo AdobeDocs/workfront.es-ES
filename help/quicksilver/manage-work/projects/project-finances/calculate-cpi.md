@@ -7,10 +7,10 @@ description: El índice de rendimiento de costes (CPI) describe la relación en 
 author: Lisa
 feature: Work Management
 exl-id: 7f2efe26-7292-482d-986c-2d2077a7ca52
-source-git-commit: 23a4d055871c9138818e70fa1cd936581dbd7552
+source-git-commit: f88b6ec019963ff6256e35b9c94eb4d1b7e99730
 workflow-type: tm+mt
 source-wordcount: '583'
-ht-degree: 90%
+ht-degree: 88%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 90%
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Linked to the product. Do not change link.)</p>
 -->
 
-El índice de rendimiento de costes (CPI) describe la relación en el nivel de proyecto o tarea entre el coste planificado y el coste real. Los administradores de proyectos revisan esta métrica para identificar las tareas o los proyectos cuyo seguimiento actual sea inferior o superior al coste en un momento determinado. El coste se puede medir en horas o dólares, según el método de índice de rendimiento (PIM). Para obtener más información acerca de cómo establecer el método de índice de rendimiento, consulte [Establecer el método de índice de rendimiento (PIM)](../../../manage-work/projects/project-finances/set-pim.md).
+El índice de rendimiento de costes (CPI) describe la relación en el nivel de proyecto o tarea entre el coste planificado y el coste real. Los administradores de proyectos revisan esta métrica para identificar las tareas o los proyectos cuyo seguimiento actual sea inferior o superior al coste en un momento determinado. El costo se puede medir en horas o moneda, según el método de índice de rendimiento (PIM). Para obtener más información acerca de cómo establecer el método de índice de rendimiento, consulte [Establecer el método de índice de rendimiento (PIM)](../../../manage-work/projects/project-finances/set-pim.md).
 
 Solo las organizaciones que requieren la introducción de tiempo pueden utilizar CPI. Además, los valores de PIM basados en costes solo son precisos en organizaciones que han definido tarifas de coste para los usuarios asignados a tareas (funciones o usuarios).
 
@@ -35,7 +35,7 @@ Solo las organizaciones que requieren la introducción de tiempo pueden utilizar
  <col> 
  <tbody> 
   <tr> 
-   <td>paquete de Adobe Workfront</td> 
+   <td>Paquete de Adobe Workfront</td> 
    <td>Cualquiera</td> 
   </tr> 
   <tr> 
