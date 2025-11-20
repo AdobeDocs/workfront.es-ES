@@ -7,10 +7,10 @@ role: User, Admin
 recommendations: noDisplay, noCatalog
 hidefromtoc: true
 hide: true
-source-git-commit: f88b6ec019963ff6256e35b9c94eb4d1b7e99730
+source-git-commit: 0964ad24535bf43a23c740cd63abcf8fea705b8d
 workflow-type: tm+mt
-source-wordcount: '604'
-ht-degree: 0%
+source-wordcount: '743'
+ht-degree: 1%
 
 ---
 
@@ -41,7 +41,9 @@ La versión de prueba gratuita de Workfront Planning ofrece lo siguiente:
 
 Su empresa debe tener lo siguiente para poder unirse a la versión de prueba gratuita de Workfront Planning:
 
-* Cualquier paquete de flujo de trabajo o Adobe Workfront
+* Cualquier nuevo paquete de flujo de trabajo o Adobe Workfront
+La versión de prueba de Workfront Planning no está disponible para los paquetes de Workfront heredados
+Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 * Acceso a Adobe Admin Console
 * Ser parte del sistema de Identity Management (IMS)
 * El acuerdo legal firmado disponible en la instancia de Workfront de su organización
@@ -50,38 +52,58 @@ Su empresa debe tener lo siguiente para poder unirse a la versión de prueba gra
 
 Uno de los administradores de Workfront debe revisar y firmar un acuerdo legal antes de que todos los miembros de su organización reciban acceso a la versión de prueba gratuita de Workfront Planning.
 
-Para revisar y aceptar el acuerdo legal, haga lo siguiente:
+Podrá revisar y firmar el acuerdo antes de que el juicio comience el 1 de marzo de 2026.
 
-1. Inicie sesión en Adobe Workfront como administrador del sistema.
-1. (Condicional) Una vez abierta la versión de prueba, Workfront enviará una invitación en la aplicación a los administradores del sistema para que se unan a la versión de prueba con un vínculo para revisar y aceptar el acuerdo legal.
+<!--check the steps here at release-->
 
-   O
+1. Para revisar y aceptar el acuerdo legal, siga uno de estos procedimientos:
 
-   Vaya a **Configuración** > **Sistema** > **Preferencias**.
-1. Haga clic en **Revisar acuerdo de prueba** en la sección **Otras preferencias**.
-1. Haga clic en **Aceptar**, después de revisar el acuerdo.
+   1. Antes del 1 de marzo de 2026, haga lo siguiente:
+      1. Inicie sesión en Adobe Workfront como administrador del sistema.
+      1. Siga el banner que contiene información sobre la **versión de prueba de Workfront Planning**
 
-   Su organización ahora está inscrita en la versión de prueba de Workfront Planning hasta el 1 de mayo de 2026.
+         O
 
-   Se han concedido los siguientes permisos a los datos disponibles en la ficha **Áreas de trabajo de prácticas recomendadas** del área **Prueba de Planning**:
+         Vaya al área de **Notificaciones de Workfront** en la esquina superior derecha de la pantalla y, a continuación, haga clic en **Todos los anuncios** y busque el mensaje del Centro de anuncios sobre la versión de prueba de Workfront Planning.
+      1. Haga clic en **Revisar acuerdo de prueba**. <!--not sure if this will be available in the email/ banner, or if they can go to System Preferences to do this - might need to adjust the steps here-->
+      1. Haga clic en **Aceptar**, después de revisar el acuerdo.
 
-   * Todos los administradores del sistema tienen permisos de administración.
-   * Todos los demás usuarios tienen permisos de visualización.
-1. (Opcional) Empiece a explorar la pestaña **Espacios de trabajo de prácticas recomendadas** y comparta los espacios de trabajo o su objeto con otros.
+   1. A partir del 1 de marzo de 2026, cuando se inicie la versión de prueba, haga lo siguiente:
 
-   Para obtener más información sobre el uso de Workfront Planning, consulte [Introducción a Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
+      1. Inicie sesión en Adobe Workfront como administrador del sistema.
+      1. Siga el banner que contiene información sobre la **versión de prueba de Workfront Planning**
 
-   Para conocer las prácticas recomendadas sobre el uso de Workfront Planning, consulte [Prácticas recomendadas de Adobe Workfront Planning](/help/quicksilver/planning/general/planning-best-practices.md).
+         O
 
-<!-- finish these steps and check to see if the UI elements are spelled correctly; also if the trial agreement is accessible according to the steps aboe - ???  -->
+         Vaya al área de **Notificaciones de Workfront** en la esquina superior derecha de la pantalla, haga clic en **Todos los anuncios** y busque el mensaje del Centro de anuncios sobre la versión de prueba de Workfront Planning
+
+         O
+
+         Vaya a **Configuración** > **Sistema** > **Preferencias**.
+      1. (Condicional) Si se encuentra en el área **Configuración**, vaya a la sección **Otras preferencias** y, a continuación, haga clic en **Revisar contrato de versión de prueba**.
+      1. Haga clic en **Aceptar**, después de revisar el acuerdo.
+
+         Su organización ahora está inscrita en la versión de prueba de Workfront Planning hasta el 1 de mayo de 2026.
+
+         A partir del 1 de marzo de 2026, se concederán los siguientes permisos a los datos disponibles en la pestaña **Áreas de trabajo de prácticas recomendadas** en el área **Prueba de Planning**:
+
+         * Todos los administradores del sistema tienen permisos de administración.
+         * Todos los demás usuarios tienen permisos de visualización.
+      1. (Condicional) Después del 1 de marzo de 2026, empiece a explorar la pestaña **Espacios de trabajo de prácticas recomendadas** y comparta espacios de trabajo o su objeto con otros.
+
+         Para obtener más información sobre el uso de Workfront Planning, consulte [Introducción a Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
+
+         Para conocer las prácticas recomendadas sobre el uso de Workfront Planning, consulte [Prácticas recomendadas de Adobe Workfront Planning](/help/quicksilver/planning/general/planning-best-practices.md).
+
+<!-- finish these steps and check to see if the UI elements are spelled correctly; also if the trial agreement is accessible according to the steps above - ???  -->
 
 ## Resumen de fechas importantes
 
 Las siguientes son algunas fechas importantes asociadas con la oferta de prueba gratuita de Adobe Workfront Planning:
 
 * **1 de marzo de 2026**: Se inicia la versión de prueba de Workfront Planning.
-* **1 de mayo de 2026**: La versión de prueba de Workfront Planning se cerrará y se eliminará su acceso a Planning. Workfront protege sus datos durante 6 meses después de que finalice la prueba. Si compra Workfront Planning durante este tiempo, recuperará el acceso a Planning y a sus datos.
-* **1 de noviembre de 2026**: Workfront ya no pone sus datos a disposición después de esta fecha. Puede seguir comprando Workfront Planning, pero los datos se eliminarán después de esta fecha.
+* **1 de mayo de 2026**: La versión de prueba de Workfront Planning se cerrará y se eliminará su acceso a Planning. Workfront protege los datos una vez finalizada la prueba y hasta el 30 de noviembre de 2026. Si compra Workfront Planning durante este tiempo, recuperará el acceso a Planning y a sus datos.
+* **30 de noviembre de 2026**: Workfront ya no pone sus datos disponibles después de esta fecha. Puede seguir comprando Workfront Planning, pero los datos se eliminarán después de esta fecha.
 
 <!--## Overview of the access to Workfront Planning -->
 
