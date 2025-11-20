@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: bb597032-3395-4c9a-b622-5c920ba55131
-source-git-commit: 5d7cc28ebb1c7d7401a60ef4fc383fc90ed20631
+source-git-commit: 0d79b04c58d6a0a1c8de7f83d7b941e75b1a88f5
 workflow-type: tm+mt
-source-wordcount: '1549'
+source-wordcount: '1465'
 ht-degree: 16%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 16%
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
 
-<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa de espacio aislado y se va a lanzar en un despliegue gradual en Producción.</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment, and is being released in a phased rollout to Production.</span>-->
 
 Una compañía es una unidad organizativa de [!DNL Adobe Workfront] que puede representar a su organización, a un departamento dentro de la organización o a un cliente con el que trabaje. Puede agregar compañías a [!DNL Workfront] y utilizarlas para la planificación financiera, la generación de informes, la definición de permisos sobre objetos y la confidencialidad de la información.
 
@@ -105,9 +105,9 @@ Para agregar o editar una compañía:
 
 1. Actualice la siguiente información en la sección **Información básica**:
 
-   * **Nombre de la compañía** <span class="preview"> o **Nombre**</span>: escriba un nombre para la compañía.
+   * **Nombre**: escriba un nombre para la compañía.
    * **Está activo**: cuando esta opción está habilitada, los usuarios pueden encontrar la compañía y adjuntarla a los proyectos que creen y editen. No se puede adjuntar una empresa inactiva a los proyectos. Esta opción está habilitada de forma predeterminada.
-   * **Esta es la compañía primaria** <span class="preview">o **Es primaria**</span>: asigna la compañía como compañía primaria de su organización. La compañía principal suele representar su cuenta de Workfront, donde trabaja la mayoría de los usuarios.
+   * **Es principal**: Asigna la compañía como compañía principal de su organización. La compañía principal suele representar su cuenta de Workfront, donde trabaja la mayoría de los usuarios.
 
      Puede tener una compañía o ninguna compañía designada como compañía primaria, pero no puede tener varias compañías designadas como compañías primarias. Para obtener más información, consulte [Crear y modificar niveles de acceso personalizados](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
@@ -141,11 +141,7 @@ Para agregar o editar una compañía:
 
    Para obtener información sobre cómo crear formularios personalizados, consulte [Crear un formulario personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
-1. (Condicional) Si va a crear una compañía, haga clic en **[!UICONTROL Crear compañía]** <span class="preview">o en **Guardar**.</span>
-
-   O
-
-   Si está editando una compañía existente, haga clic en **[!UICONTROL Guardar cambios]** <span class="preview">o **Guardar**.</span>
+1. Haga clic en **Guardar**.
 
 ## Eliminar compañías
 
@@ -179,13 +175,9 @@ Para obtener más información acerca de cómo compartir objetos, vea [Informaci
 
 Cuando un administrador de [!DNL Workfront] asigna un grupo a una compañía, los administradores del grupo obtienen acceso de [!UICONTROL Administrar] a la compañía en [!UICONTROL Configuración]. Esto incluye acceso a la página [!UICONTROL Compañías] en [!UICONTROL Configuración], donde pueden ver y administrar la compañía asociada con su grupo.
 
-Con este acceso a la página [!UICONTROL Compañías], un administrador de grupo puede asignar un grupo a una compañía, pero debe ser una compañía que el administrador de grupo haya creado. Si el nivel de acceso del administrador del grupo no está configurado con acceso administrativo a las compañías, el campo [!UICONTROL Grupo] es necesario cuando el administrador del grupo crea la compañía (su <span class="preview">asterisco</span> o título en negrita lo indica):
+Con este acceso a la página [!UICONTROL Compañías], un administrador de grupo puede asignar un grupo a una compañía, pero debe ser una compañía que el administrador de grupo haya creado. Si el nivel de acceso del administrador del grupo no está configurado con acceso administrativo a las empresas, el campo [!UICONTROL Grupo] es necesario cuando el administrador del grupo crea la empresa (el asterisco indica lo siguiente):
 
-<span class="preview">Imagen de muestra en el entorno de vista previa:</span>
 ![Se requiere cuadro de diálogo Nueva compañía con grupo](assets/group-admin-add-company-group-required.png)
-
-Imagen de muestra en el entorno de producción:
-Se requiere ![grupo en la compañía](assets/group-admin-add-company.png)
 
 Para obtener información sobre cómo los usuarios obtienen acceso administrativo a las compañías en su nivel de acceso, vea [Conceder acceso administrativo a los usuarios a ciertas áreas](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
 
