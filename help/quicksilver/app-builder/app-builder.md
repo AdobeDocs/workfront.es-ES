@@ -160,13 +160,13 @@ Para permitir aplicaciones personalizadas en el menú principal de Workfront:
 En la función ExtensionRegistration, debería ver el siguiente código. Este código se creó automáticamente mediante la plantilla. Este código se puede añadir para crear elementos de menú adicionales. Asegúrese de reemplazar los ID y las direcciones URL.
 
     &quot;
-    mainMenu: {
+    mainMenu: &lbrace;
     
-    getItems() {
+    getItems() &lbrace;
     
-    return [
+    return &lbrack;
     
-    {
+    &lbrace;
     
     id: &#39;main-menu-label&#39;,
     
@@ -176,18 +176,18 @@ En la función ExtensionRegistration, debería ver el siguiente código. Este c�
     
     icon: icon1,
     
-    },
+    &rbrace;,
     
-    ];
+    &rbrack;;
     
-    },
+    &rbrace;,
     
-    }
+    &rbrace;
     &quot;
 
 1. Agregue el siguiente fragmento de código:
 
-   ![fragmento de código ](assets/7-extension-registration-step1-from-sam.png)
+   ![fragmento de código &#x200B;](assets/7-extension-registration-step1-from-sam.png)
 
    Este ejemplo muestra un elemento del menú principal. Debe actualizar el ID, la etiqueta, el icono y la URL con los nombres correctos para su aplicación. Al agregar varios elementos, asegúrese de que el ID sea único.
 
