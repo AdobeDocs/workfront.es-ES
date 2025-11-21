@@ -6,14 +6,16 @@ description: En Adobe Workfront, el trabajo planificado se representa mediante p
 author: Becky
 feature: Work Management
 exl-id: 8b023a3d-326d-4d63-9e1e-8171553a9e23
-source-git-commit: 1a56846647e443cf3f5f09eed8c3084434de5ddb
+source-git-commit: 8851a67e992152b05c44063e67070c0942a463bc
 workflow-type: tm+mt
-source-wordcount: '2580'
-ht-degree: 81%
+source-wordcount: '2607'
+ht-degree: 80%
 
 ---
 
 # Creación y envío de solicitudes
+
+<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa de espacio aislado.</span>
 
 <!--Audited: 12/2023-->
 
@@ -55,7 +57,7 @@ Puede crear una solicitud de Workfront Planning desde cero para crear registros 
  <tbody> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera </p> </td> 
   </tr> 
   <tr> 
@@ -107,7 +109,7 @@ Una persona con la función de administrador de Workfront debe crear los siguien
 
 Al crear una solicitud en la aplicación web de Workfront, Workfront la guarda como borrador antes de enviarla. Workfront crea un borrador en cuanto se selecciona la cola de solicitudes y se empieza a introducir información sobre esta.
 
-Puede seguir enviando la solicitud o puede completar toda la información que tenga disponible y salir de ella para terminarla más tarde. Workfront guarda el borrador de la solicitud que ha iniciado en la carpeta Borradores.
+Puede seguir enviando la solicitud o puede completar toda la información que tenga disponible y salir de ella para terminarla más tarde. Workfront guarda el borrador de la solicitud que inició en la carpeta Borradores <span class="preview"> o en la lista de solicitudes.</span>
 
 >[!IMPORTANT]
 >
@@ -141,7 +143,7 @@ Para crear una solicitud en la aplicación web de Workfront:
 
    Se abre el cuadro **Nueva solicitud**.
 
-1. (Condicional) Si ha cambiado a la nueva experiencia, , seleccione una de las rutas o formularios de la cola de solicitudes de Workfront o haga clic en la barra de búsqueda.
+1. (Condicional) Si ha cambiado a la nueva experiencia, seleccione una de las rutas o formularios de la cola de solicitudes de Workfront o haga clic en la barra de búsqueda.
 
    Al hacer clic en la barra de búsqueda, aparece una lista desplegable que muestra primero las colas y los formularios utilizados más recientemente. Seleccione uno de la lista o empiece a escribir y seleccione la cola o el formulario cuando aparezca.
 
@@ -150,7 +152,7 @@ Para crear una solicitud en la aplicación web de Workfront:
    >Considere lo siguiente con respecto a la nueva experiencia solicitante:
    >* La lista incluye tanto las colas de solicitud de Workfront como los formularios de solicitud de Workfront Planning.
    >* Puede filtrar la lista por tipo de objeto.
-   >* En la nueva experiencia solicitante, los borradores se encuentran en la misma lista que las solicitudes enviadas.
+   >* <span class="preview">En la nueva experiencia de solicitud, los borradores se encuentran en la misma lista que las solicitudes enviadas</span>.
 
 1. (Condicional) Si ha cambiado a la nueva experiencia, seleccione los grupos de temas y los temas de la cola y continúe actualizando el formulario.
 
