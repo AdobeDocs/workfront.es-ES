@@ -6,14 +6,17 @@ feature: Work Management
 role: User
 topic: Collaboration
 exl-id: 3d7581d0-e99c-4204-b1e5-04fde72251bb
-source-git-commit: 9cdf3d78e1d19f3d581f8d527919a608c5cc0ddc
+source-git-commit: 59a53f7355032810a05fce2d3f0dfe30d64bbd40
 workflow-type: tm+mt
-source-wordcount: '1338'
-ht-degree: 98%
+source-wordcount: '1588'
+ht-degree: 85%
 
 ---
 
 # Copiar y enviar solicitudes
+
+
+<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa de espacio aislado.</span>
 
 Cuando envía solicitudes similares con frecuencia, puede copiar una solicitud enviada existente. En este caso, puede copiar una solicitud existente, realizar cambios mínimos en ella y volver a enviarla como una solicitud nueva.
 
@@ -26,7 +29,7 @@ Cuando envía solicitudes similares con frecuencia, puede copiar una solicitud e
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera </p> </td> 
   </tr> 
   <tr> 
@@ -91,7 +94,7 @@ Debe tener una solicitud que usted o alguien de su organización haya enviado an
   >
   >La solicitud copiada no está vinculada a un objeto de resolución.
 
-## Copiar y enviar solicitudes
+## Copiar y enviar solicitudes en la experiencia de solicitud heredada
 
 {{step1-to-requests}}
 
@@ -220,3 +223,44 @@ Debe tener una solicitud que usted o alguien de su organización haya enviado an
 1. Haga clic en **Enviar**.
 
    La solicitud copiada se envía como una nueva solicitud en la cola de solicitudes especificada.
+
+<div class="preview">
+
+## Copiar y enviar solicitudes en la nueva experiencia de solicitud
+
+Puede copiar y enviar solicitudes en el área de Solicitudes de Workfront o desde el widget Mis solicitudes en Inicio.
+
+1. Para acceder a la lista de solicitudes, haga clic en el icono **[!UICONTROL Menú principal]** ![Menú principal](/help/_includes/assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront o (si está disponible), haga clic en el icono **[!UICONTROL Menú principal]** ![Menú principal](/help/_includes/assets/main-menu-icon-left-nav.png) en la esquina superior izquierda y, a continuación, haga clic en **[!UICONTROL Solicitudes]**.
+
+1. Para acceder al widget Mis solicitudes en Inicio:
+
+   1. Haga clic en el icono **[!UICONTROL Menú principal]** ![Menú principal](/help/_includes/assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront o (si está disponible), haga clic en el icono **[!UICONTROL Menú principal]** ![Menú principal](/help/_includes/assets/main-menu-icon-left-nav.png) en la esquina superior izquierda y, a continuación, haga clic en **[!UICONTROL Inicio]**.
+   1. Busque el widget Mis solicitudes.
+
+      Para obtener más información sobre el widget Mis solicitudes, consulte [Usar el widget Mis solicitudes](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md).
+
+1. En la lista Solicitudes o en el widget Mis solicitudes, pase el ratón sobre la solicitud que desee copiar.
+
+   Aparecerá un menú Más de tres puntos.
+   ![](assets/more-menu.png)
+
+1. Haga clic en el menú **Más** a la derecha del nombre de la solicitud y, a continuación, haga clic en **Copiar**.
+
+   O
+
+   Haga clic con el botón derecho en la solicitud seleccionada y luego haga clic en **Copiar**.
+
+   >[!TIP]
+   >
+   >Cuando no tiene acceso para crear problemas, recibe la advertencia de que el administrador le ha restringido la creación de solicitudes.
+
+1. (Opcional) Actualice la información de la solicitud copiada. Los campos disponibles dependen de la cola de solicitud o del formulario de solicitud que se utilice para la solicitud.
+
+   <!--When you enter or change any field values in the copied request, it is saved as a draft.-->
+
+1. Haga clic en **Enviar**.
+
+   La solicitud copiada se envía como una solicitud nueva.
+
+</div>
+
