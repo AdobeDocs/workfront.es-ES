@@ -6,10 +6,10 @@ feature: Product Announcements
 recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
-source-git-commit: 203ff7855649c968c52d74ef0ee7581a1439aa47
+source-git-commit: f38c10a187367570739f65961f945450b7b9b5de
 workflow-type: tm+mt
-source-wordcount: '466'
-ht-degree: 7%
+source-wordcount: '346'
+ht-degree: 10%
 
 ---
 
@@ -27,11 +27,11 @@ Para obtener una lista de todos los cambios disponibles en este punto del ciclo 
 >Versión rápida de producción: 11 de diciembre de 2025\
 >Producción para todos: 16 de enero de 2026
 
-Para facilitar la creación y el envío de solicitudes, se ha añadido la capacidad de guardar borradores a la nueva experiencia de solicitud. Ahora, cuando empiece a rellenar una solicitud y la cierre, esta se guarda en estado de Borrador y se puede encontrar en la lista de solicitudes. A continuación, puede volver a abrir, actualizar y enviar el borrador según le convenga.
+Para facilitar la creación y el envío de solicitudes, se ha añadido la capacidad de guardar borradores a la nueva experiencia de solicitud. Ahora, cuando empiece a rellenar una solicitud y la cierre, esta se guarda en estado de borrador y se puede encontrar en el formulario de solicitud utilizado para crear el borrador. A continuación, puede volver a abrir, actualizar y enviar el borrador según le convenga.
 
 Anteriormente, esta función no estaba disponible en la nueva experiencia de solicitud.
 
-Los borradores creados en la experiencia solicitante heredada están disponibles en la nueva experiencia solicitante. Puede localizarlos en la lista de solicitudes.
+Los borradores creados en la experiencia solicitante heredada están disponibles en la nueva experiencia solicitante.
 
 Para obtener más información sobre los borradores de solicitudes, consulte [Crear solicitudes a partir de borradores](/help/quicksilver/manage-work/requests/create-requests/create-requests-from-drafts.md).
 
@@ -49,19 +49,23 @@ Anteriormente, la eliminación de solicitudes no estaba disponible.
 
 Para obtener información e instrucciones, consulte [Eliminar una solicitud enviada o un borrador de solicitud](/help/quicksilver/manage-work/requests/create-requests/delete-request-draft.md).
 
-## Comparta vistas en el área de Solicitudes y en el widget Mis solicitudes
+<!--
+
+## Share views in the Requests area and the My Requests widget
 
 >[!NOTE]
 >
->Vista previa: 20 de noviembre de 2025
->Versión rápida de producción: 11 de diciembre de 2025\
->Producción para todos: 16 de enero de 2026
+>Preview: November 20, 2025 
+>Production fast release: December 11, 2025  
+>Production for everyone: January 16, 2026  
 
-Para facilitar la tarea de asegurarse de ver la información que necesita, hemos agregado la capacidad de compartir vistas a la nueva experiencia de creación de informes. Ahora puede compartir vistas con otros usuarios, equipos o grupos.
+To make it easier to ensure to see the information you need, we've added the ability to share views to the new reporting experience. Now, you can share views with other users, teams, or groups.
 
-Puede compartir las vistas de la lista de solicitudes desde el área de Solicitudes en Workfront y el widget Mis solicitudes en Inicio. La funcionalidad de uso compartido es idéntica en ambos lugares, y la configuración de vista, incluido el uso compartido, se conserva al moverse entre el widget Mis solicitudes y el área Solicitudes.
+You can share request list views from both the Requests area in Workfront and the My Requests widget in Home. Sharing functionality is identical in both places, and view settings, including sharing, are preserved when moving between the My Requests widget and the Requests area.
 
-Para obtener información sobre las vistas de solicitudes, incluido el uso compartido, consulte [Crear y administrar vistas en el área de solicitudes](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md).
+For information on request views, including sharing, see [Create and manage views in the Requests area](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md).
+
+-->
 
 ## Crear nuevas solicitudes copiando las solicitudes enviadas anteriormente en la nueva experiencia de solicitud
 
