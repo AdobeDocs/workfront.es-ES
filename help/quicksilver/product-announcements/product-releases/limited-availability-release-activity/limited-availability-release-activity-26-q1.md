@@ -8,9 +8,9 @@ role: Admin
 recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
-source-git-commit: bd0c365fcf5431a6b540d302385315d28688e558
+source-git-commit: a335b035e82ebe3daa6a9687b362a9117f348e0e
 workflow-type: tm+mt
-source-wordcount: '130'
+source-wordcount: '128'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Para obtener una lista de todas las características de disponibilidad limitada 
 
 >[!NOTE]
 >
->Fecha de la versión de producción: xx de noviembre de 2025
+>Fecha de la versión de producción: 20 de noviembre de 2025
 
 Ahora puede aplicar cambios basados en porcentajes a una o más tarifas de facturación de rol dentro de una tarjeta de tarifas. En lugar de actualizar manualmente cada tarifa una por una, puede aplicar cambios a todas las tarifas seleccionadas en una sola operación.
 
