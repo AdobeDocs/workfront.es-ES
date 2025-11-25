@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 hide: true
 hidefromtoc: true
-source-git-commit: 0c83d47e21148d2c6234e0c157da3381146a7128
+source-git-commit: 49706e7fd44571742ccf602b7418bb429fddc7f8
 workflow-type: tm+mt
-source-wordcount: '676'
+source-wordcount: '665'
 ht-degree: 0%
 
 ---
@@ -40,9 +40,7 @@ Workfront forma parte del conjunto de productos de experiencia digital de Adobe.
 
 ## ¿Qué es lo mismo?
 
-* Recibirá notificaciones en la aplicación durante la primera fase de la transición y, después, notificaciones tanto en la aplicación como por correo electrónico.
-
-* Las preferencias de notificación existentes se transferirán automáticamente.
+* Recibirá notificaciones en la aplicación durante la primera fase de la transición y notificaciones por correo electrónico más adelante.
 
 * Workfront seguirá almacenando en déclencheur las notificaciones en función de los elementos de trabajo.
 
