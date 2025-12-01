@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 hide: true
 hidefromtoc: true
-source-git-commit: 49706e7fd44571742ccf602b7418bb429fddc7f8
+source-git-commit: 32fc05b24c762fafcb50875fa014c5fe76d584d1
 workflow-type: tm+mt
-source-wordcount: '665'
+source-wordcount: '674'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 # Resumen de notificaciones de Experience Cloud
 
-Adobe Workfront está unificando todos los productos de experiencias digitales (DX) en un único sistema de notificación coherente denominado Notificaciones de Experience Cloud. A partir de febrero de 2026 o en torno a esta fecha, los servicios de notificaciones de Workfront heredados empezarán a migrar automáticamente al sistema de notificaciones centralizado de Adobe.
+Adobe Workfront está unificando todos los productos de experiencias digitales (DX) en un único sistema de notificación coherente denominado Notificaciones de Experience Cloud. A partir de febrero de 2026 o en torno a esta fecha, los servicios de notificación de Workfront heredados se migrarán al sistema de notificación centralizado de Adobe, del que nuestro equipo le informará antes de que se produzca.
 
 Después de esta transición, puede acceder a todas las notificaciones de Adobe Workfront y otras aplicaciones de Adobe DX en un solo lugar, lo que simplifica la forma en que se mantiene informado y gestiona sus preferencias.
 
