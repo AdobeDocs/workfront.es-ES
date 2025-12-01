@@ -7,18 +7,18 @@ description: Es importante indicar en Adobe Workfront cuándo tienen lugar los d
 author: Becky
 feature: Get Started with Workfront
 exl-id: e7710495-c418-47b1-8598-725580054fc5
-source-git-commit: e25ea757129e9645f7b5f0729cd498d5947f49f2
+source-git-commit: 0e37a5a519770d3d48192f1799491aa53a871508
 workflow-type: tm+mt
-source-wordcount: '481'
-ht-degree: 73%
+source-wordcount: '431'
+ht-degree: 75%
 
 ---
 
 # Configurar los días libres personales
 
-<!-- Audited: 12/2023 -->
+<!-- Audited: 12/2025 -->
 
-<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa de espacio aislado y se va a lanzar en un despliegue gradual en Producción.</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment, and is being released in a phased rollout to Production.</span>-->
 
 [!DNL Adobe Workfront] no está diseñado para replicar o reemplazar los sistemas existentes de su organización para administrar, acumular o rastrear los días libres personales.
 
@@ -45,7 +45,7 @@ Las herramientas de administración de recursos también utilizan sus días libr
  </col>
  <tbody> 
   <tr> 
-   <td> paquete de Adobe Workfront</td> 
+   <td> Paquete de Adobe Workfront</td> 
    <td><p>Cualquiera</p></td> 
   </tr> 
   <tr> 
@@ -72,18 +72,17 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 
 >[!NOTE]
 >
->Si se encuentra en la experiencia unificada de Adobe, puede acceder a su perfil de Workfront haciendo clic en el menú de cuenta de Adobe (su imagen de perfil) en el área de navegación superior y, a continuación, seleccionando Perfil de Workfront.
+>Si su organización está en la experiencia unificada de Adobe, haga clic en el menú de cuenta de **Adobe** (su imagen de perfil) en la esquina superior derecha del área de navegación superior y, a continuación, haga clic en **Perfil de Workfront**.
 >
 >![perfil de workfront](assets/aue-profile.png)
 
 1. En el panel izquierdo, haga clic en **[!UICONTROL Días libres]**.
 1. Seleccione la fecha que desee para sus días libres personales.
 
-   <span class="preview">Imagen de muestra en el entorno de vista previa:</span>
    ![Calendario personal de días libres](assets/personal-time-off-calendar-0925.png)
 
-   Imagen de muestra en el entorno de producción:
-   ![Calendario personal de días libres](assets/personal-time-off-calendar.png)
+   <!--Sample image in the Production environment:
+   ![Personal time off calendar](assets/personal-time-off-calendar.png)-->
 
 1. Seleccione **[!UICONTROL Todo el día]**, si se toma un día libre completo.
 
