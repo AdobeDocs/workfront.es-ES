@@ -9,10 +9,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e18c005b-e6ff-4a1e-a589-63132f3a8ad2
-source-git-commit: 7ca27795ec115a112acb55113bfade4a5fee15ad
+source-git-commit: 5b5f9083ed4b60fa6642100cfb9b0da46799dffa
 workflow-type: tm+mt
-source-wordcount: '1719'
-ht-degree: 92%
+source-wordcount: '1741'
+ht-degree: 91%
 
 ---
 
@@ -223,3 +223,8 @@ Para el entorno de espacio aislado de actualización personalizado, el cálculo 
 * Los entornos de zona protegida de actualización personalizada de [!DNL Workfront] están pensados para estar siempre disponibles. Cualquier interrupción en un entorno de zona protegida de actualización personalizada de Workfront durante el horario laboral normal será una prioridad inmediata después de resolver cualquier problema de producción, si existe. Cualquier interrupción en un entorno de zona protegida de actualización personalizada de Workfront los fines de semana (sábados y domingos) se solucionará para que el entorno se ejecute en horario laboral los lunes.
 
 * La revisión no está disponible en los entornos de la zona protegida de actualización personalizada.
+
+* Las siguientes notificaciones no están disponibles para su uso en los entornos de la zona protegida de actualización personalizada:
+
+   * Notificaciones de recordatorio
+   * Notificaciones automáticas de recordatorio tardías o tempranas
