@@ -7,9 +7,9 @@ description: Esta página contiene información sobre la estructura y el conteni
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 57985404-554e-4289-b871-b02d3427aa5c
-source-git-commit: e06db80d752d79157c758b3ecf3a8d4e7040e96d
+source-git-commit: 815bee06ce413005e362d2e38068d591696cad5b
 workflow-type: tm+mt
-source-wordcount: '8788'
+source-wordcount: '8878'
 ht-degree: 9%
 
 ---
@@ -20,7 +20,7 @@ Esta página contiene información sobre la estructura y el contenido de los dat
 
 >[!NOTE]
 >
->Los datos de Data Connect se actualizan cada cuatro horas, por lo que es posible que los cambios recientes no se reflejen inmediatamente.
+>Los datos de Data Connect se actualizan cada 4 horas, por lo que es posible que los cambios recientes no se reflejen inmediatamente.
 
 ## Tipos de vista
 
@@ -49,7 +49,7 @@ Los objetos de Workfront (y, por lo tanto, de su repositorio de datos de Data Co
 >[!IMPORTANT]
 >
 >El diagrama de relación de entidades (ERD) proporcionado está incompleto a propósito, ya que un ERD completo sería ilegible debido al alto número de relaciones dentro de la aplicación.<br>
->&#x200B;>Este diagrama proporciona un ejemplo de cómo se pueden utilizar las relaciones documentadas en la tabla de Project de la tabla de terminología [tabla de terminología](#terminology-table) que se muestra a continuación para unir datos de la vista de datos de Project a objetos adyacentes. Se espera que no sea necesario un ERD completo una vez que se comprenda este patrón para las relaciones de objeto del proyecto
+>Este diagrama proporciona un ejemplo de cómo se pueden utilizar las relaciones documentadas en la tabla de Project de la tabla de terminología [tabla de terminología](#terminology-table) que se muestra a continuación para unir datos de la vista de datos de Project a objetos adyacentes. Se espera que no sea necesario un ERD completo una vez que se comprenda este patrón para las relaciones de objeto del proyecto
 
 ## Tipos de fecha
 
@@ -67,7 +67,7 @@ La siguiente tabla correlaciona los nombres de objeto en Workfront (así como su
 >[!NOTE]
 >
 >Se pueden añadir nuevos campos a las vistas de objetos sin previo aviso para satisfacer las cambiantes necesidades de datos de la aplicación de Workfront. Advertimos que no se deben utilizar consultas &quot;SELECT&quot; en las que el destinatario de datos descendente no esté preparado para gestionar columnas adicionales a medida que se agregan.<br>
->&#x200B;>Si es necesario cambiar el nombre de una columna o eliminarla, notificaremos estos cambios con antelación.
+>Si es necesario cambiar el nombre de una columna o eliminarla, notificaremos estos cambios con antelación.
 
 ### Nivel de acceso
 
@@ -1660,17 +1660,21 @@ La siguiente tabla correlaciona los nombres de objeto en Workfront (así como su
         </tr>
     </tbody>
 </table>
-<div>* El tipo de registro se identifica mediante la propiedad enumClass. Los siguientes son los tipos esperados: <br>
-<ul><li>CONDITION_OPTASK</li>
-<li>CONDITION_PROJ</li>
-<li>CONDITION_TASK</li>
-<li>PRIORITY_OPTASK</li>
-<li>PRIORITY_PROJ</li>
-<li>PRIORITY_TASK</li>
-<li>SEVERITY_OPTASK</li>
-<li>STATUS_OPTASK</li>
-<li>STATUS_PROJ</li>
-<li>STATUS_TASK</li></ul></div>
+
+>[!NOTE]
+>
+>El tipo de registro se identifica mediante la propiedad `enumClass`. Los siguientes son los tipos esperados: <br>
+><ul><li>CONDITION_OPTASK</li>
+&gt;<li>CONDITION_PROJ</li>
+&gt;<li>CONDITION_TASK</li>
+&gt;<li>PRIORITY_OPTASK</li>
+&gt;<li>PRIORITY_PROJ</li>
+&gt;<li>PRIORITY_TASK</li>
+&gt;<li>SEVERITY_OPTASK</li>
+&gt;<li>STATUS_OPTASK</li>
+&gt;<li>STATUS_PROJ</li>
+&gt;<li>STATUS_TASK</li></ul>
+
 
 ### Documento
 
@@ -6601,6 +6605,11 @@ Disponibilidad limitada del cliente
         </tr>
     </tbody>
 </table>
+
+>[!NOTE]
+>
+>Existen tres tipos de equipos que se almacenan en las tablas de objetos Team: PROJECT, TEMPLATE y ADHOC. <br>
+>Cada uno de estos tipos de equipos se representa junto en las vistas del lago de datos de Data Connect. Para aislar el tipo específico de equipo que desea que se devuelva, deberá filtrar la columna `teamtype`. Por ejemplo, si solo desea los equipos tradicionales que forman parte de las estructuras organizativas, que están configurados en el área Equipos de la aplicación, puede tener una consulta similar a la siguiente: <code>seleccionar * de team_current donde teamtype = &#39;ADHOC&#39;;</code>
 
 ### Miembro del equipo
 
