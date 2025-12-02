@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 2a640cd5-f4a8-4ff3-81b6-32f85f6e4535
-source-git-commit: 2fb95d37c32984e248767993c4858038d27e0590
+source-git-commit: 476e10f2962f19fd17705cb5f20619d3b636aaa4
 workflow-type: tm+mt
-source-wordcount: '450'
-ht-degree: 44%
+source-wordcount: '461'
+ht-degree: 43%
 
 ---
 
@@ -31,12 +31,12 @@ En la tabla siguiente se muestran los límites de la cantidad de objetos que se 
 
 | Objeto de Adobe Workfront Planning | Límite |
 |-------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------:|
-| Número de espacios de trabajo de una instancia de Workfront | ilimitado* |
+| Número de espacios de trabajo de una instancia de Workfront | Ilimitado* |
 | Número de secciones de un espacio de trabajo | 50 |
 | Número de tipos de registro para un espacio de trabajo | 100 (incluye los tipos de registro de todas las secciones y los que se crean al utilizar una plantilla de espacio de trabajo) |
 | Número de registros para un tipo de registro | 25.000 |
-| Número de registros de un espacio de trabajo | 25.000 para clientes con Planning <br> 500.000 para clientes con Planning Plus |
-| Número de registros totales de una instancia de Workfront Planning | 500.000 para clientes con Planning <br>2 millones para clientes con Planning Plus |
+| Número de registros de un espacio de trabajo | Selección de planificación: 25 000 <br> Prime de planificación: 500 000 <br> Ultimate de planificación: 1 000 000 |
+| Número de registros totales de una instancia de Workfront Planning | Selección de Planning: 500.000 <br> Prime de Planning: 2.000.000 <br> Ultimate de Planning: Unlimited |
 | Número de campos para un tipo de registro o taxonomía | 500 |
 | Número de caracteres de un campo de texto de una sola línea | 1.000 caracteres |
 | Número de caracteres de un campo de párrafo | 10.000 caracteres |
@@ -51,6 +51,7 @@ En la tabla siguiente se muestran los límites de la cantidad de objetos que se 
 | Número de campos de fórmula para un tipo de registro | 20 |
 | <span class="preview">Número de campos de conexión para un tipo de registro</span> | <span class="preview">30</span> |
 | Número de caracteres en una expresión de campo de fórmula | 50.000 |
+| Número de entidades (usuarios, funciones, equipos, empresas y grupos) con las que puede compartir un objeto de Planning | 100 |
 
 * Recomendamos no tener demasiados espacios de trabajo, ya que podrían resultar difíciles de administrar y los flujos de trabajo podrían estar demasiado fragmentados.
 

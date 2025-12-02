@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
-source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
+source-git-commit: 476e10f2962f19fd17705cb5f20619d3b636aaa4
 workflow-type: tm+mt
-source-wordcount: '1155'
+source-wordcount: '1165'
 ht-degree: 6%
 
 ---
@@ -66,21 +66,6 @@ Puede compartir manualmente los siguientes objetos en Workfront Planning:
 
   Para obtener más información, consulte [Compartir vistas](/help/quicksilver/planning/access/share-views.md).
 
-Internamente, se puede compartir un espacio de trabajo, una vista o un tipo de registro con las siguientes entidades de Workfront:
-
-* Usuarios
-* Grupos
-* Equipos
-* Compañías
-* Roles
-
-Cuando comparte espacios de trabajo y tipos de registros con otros usuarios, el nivel de permiso del tipo de registro se hereda automáticamente a los registros y campos asociados a ellos.
-
->[!IMPORTANT]
->
->Si la instancia de Workfront de su organización se ha incorporado a la experiencia unificada de Adobe, los usuarios con los que desea compartir objetos de Planning deben agregarse a Adobe Admin Console. No puede compartir objetos de Planning con usuarios de Workfront que no se hayan agregado a Adobe Admin Console.
-
-
 ## Consideraciones sobre el uso compartido de objetos en Adobe Workfront Planning
 
 * El tipo de licencia de Adobe Workfront funciona junto con los permisos de Workfront Planning para permitirle acceder para ver, contribuir o administrar espacios de trabajo y sus objetos.
@@ -88,14 +73,30 @@ Cuando comparte espacios de trabajo y tipos de registros con otros usuarios, el 
   Para obtener información acerca de cómo afectan los tipos de licencia a los niveles de permisos de Workfront Planning, vea [Descripción general del tipo de licencia al usar Adobe Workfront Planning](/help/quicksilver/planning/access/license-type-overview.md).
 * Los administradores del sistema pueden administrar todos los espacios de trabajo del sistema, incluidos los que no crearon.
 * Otros usuarios, incluidos los administradores del sistema, solo pueden acceder a las vistas que han creado o que se han compartido con ellos. A los administradores del sistema solo se les pueden otorgar permisos para administrar una vista.
-* Puede compartir un vínculo a un espacio de trabajo o a una vista con otros usuarios.
 
-  Se dan los siguientes escenarios:
-   * Los usuarios que reciban el vínculo a un espacio de trabajo deben ser usuarios activos e iniciar sesión en Workfront para poder acceder al espacio de trabajo.
-   * Los usuarios que reciban el vínculo a una vista pueden acceder a la vista de las siguientes maneras:
+* Cuando comparte espacios de trabajo y tipos de registros con otros usuarios, el nivel de permiso del tipo de registro se hereda automáticamente a los registros y campos asociados a ellos.
 
-      * Deben ser usuarios activos e iniciar sesión en Workfront, si el vínculo a la vista se ha compartido internamente.
-      * Pueden ser usuarios externos de Workfront y acceder a la vista desde un vínculo compartido públicamente, sin iniciar sesión en Workfront.
+  >[!IMPORTANT]
+  >
+  >Si la instancia de Workfront de su organización se ha incorporado a la experiencia unificada de Adobe, los usuarios con los que desea compartir objetos de Planning deben agregarse a Adobe Admin Console. No puede compartir objetos de Planning con usuarios de Workfront que no se hayan agregado a Adobe Admin Console.
+
+* Puede compartir objetos de Planning de las siguientes maneras:
+
+   * Internamente, se puede compartir un espacio de trabajo, una vista o un tipo de registro con las siguientes entidades de Workfront:
+
+      * Usuarios
+      * Grupos
+      * Equipos
+      * Compañías
+      * Roles
+
+     Puede compartir un objeto de Planning con hasta 100 entidades por objeto.
+
+   * Internamente, compartiendo un vínculo a un espacio de trabajo o a una vista con otros usuarios de Planning. Se dan los siguientes escenarios:
+
+      * Los usuarios que reciban el vínculo a un espacio de trabajo deben ser usuarios activos e iniciar sesión en Workfront para acceder al espacio de trabajo.
+      * Los usuarios que reciban un vínculo de uso compartido interno para una vista deben ser usuarios activos e iniciar sesión en Workfront para acceder a la vista.
+   * Externamente, compartiendo un vínculo de uso compartido público a una vista con usuarios externos que no tienen cuenta de Workfront.
 
 ## Permisos de uso compartido para objetos de Adobe Workfront Planning
 
@@ -169,7 +170,7 @@ Se dan los siguientes escenarios:
 
 >[!NOTE]
 >
->*Cuando se quitan permisos de un tipo de registro, los usuarios conservan los permisos de Vista en el espacio de trabajo y en todos los tipos de registros, a menos que se quiten sus permisos del espacio de trabajo.
+>Cuando se quitan permisos de un tipo de registro, los usuarios conservan los permisos de Vista en el espacio de trabajo y en todos los tipos de registros, a menos que se quiten sus permisos del espacio de trabajo.
 
 ### Permisos para registros
 

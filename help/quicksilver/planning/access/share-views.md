@@ -6,23 +6,22 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 673dd888-3135-48b0-8198-c8d6d6706ddf
-source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
+source-git-commit: 476e10f2962f19fd17705cb5f20619d3b636aaa4
 workflow-type: tm+mt
-source-wordcount: '1785'
-ht-degree: 46%
+source-wordcount: '1902'
+ht-degree: 44%
 
 ---
 
 
 # Compartir vistas
 
-<!--
+<!--there are several mentions on how to share public links for global record types in secondary workspaces in this articel; you have to update all of these mentions when something changes-->
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después de las versiones mensuales en Production, las mismas funciones también están disponibles en el entorno Production para los clientes que habilitaron versiones rápidas. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
--->
 
 {{planning-important-intro}}
 
@@ -54,7 +53,7 @@ This article describes how you can share a view with others. For information abo
 <tbody> 
     <tr> 
 <tr> 
-   <td role="rowheader"><p>paquete de Adobe Workfront</p></td> 
+   <td role="rowheader"><p>Paquete de Adobe Workfront</p></td> 
    <td> 
 <p>Cualquier paquete de Workfront y Planning</p> 
 O
@@ -170,6 +169,11 @@ Para obtener más información acerca de los requisitos de acceso de Workfront, 
 
 * Cuando comparte una vista públicamente, cualquier persona de fuera de la compañía puede acceder al vínculo durante un tiempo limitado, como lo indica su fecha de caducidad. No se requiere iniciar sesión para ver la vista compartida.
 
+  >[!NOTE]
+  >
+  ><span class="preview">No puede compartir una vista públicamente desde un tipo de registro global en un área de trabajo secundaria. Para obtener más información, vea [Agregar tipos de registros existentes desde otro área de trabajo](/help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md).</span>
+
+
 * Las personas de fuera de la organización que tienen acceso a una vista no pueden crear otras vistas, editar la vista compartida ni añadir, eliminar o editar la información de registro de la vista.
 
 ## Compartir permisos para una vista internamente
@@ -239,6 +243,8 @@ Puede compartir las vistas que ha creado o las vistas en las que tiene permiso d
 
 Puede compartir las vistas que ha creado o las vistas para las que tiene permisos de administración con personas que no tienen una licencia de Workfront y que pueden ser ajenas a su organización.
 
+<span class="preview">No puede compartir una vista públicamente desde un tipo de registro global en su área de trabajo secundaria. </span>
+
 >[!IMPORTANT]
 >
 >Solo los usuarios con permisos de administración para un espacio de trabajo pueden compartir las vistas del espacio de trabajo públicamente.
@@ -268,6 +274,11 @@ Para compartir una vista públicamente en Workfront Planning:
 1. Habilitar la configuración **Crear vínculo público**.
 
    Aparecerá un vínculo disponible. Este es un vínculo público. Cuando se comparte, cualquier persona que tenga el vínculo, incluidas las personas de fuera de la organización, puede acceder a la página de tipo de registro y ver los registros y campos de la página.
+
+   >[!TIP]
+   >
+   ><span class="preview">La configuración de **Crear vínculo público** está atenuada para un tipo de registro global en su área de trabajo secundaria.</span>
+
 
 1. Haga clic en el icono **Copiar vínculo** ![Copiar vista de vínculo](assets/copy-link-view.png) para copiar el vínculo en el portapapeles.
 

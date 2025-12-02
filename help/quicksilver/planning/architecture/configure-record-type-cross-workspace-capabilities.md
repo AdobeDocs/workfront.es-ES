@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: d36ab9fb-0275-483d-97be-0a88e170f8e0
-source-git-commit: 2fb95d37c32984e248767993c4858038d27e0590
+source-git-commit: 476e10f2962f19fd17705cb5f20619d3b636aaa4
 workflow-type: tm+mt
-source-wordcount: '1654'
+source-wordcount: '1650'
 ht-degree: 5%
 
 ---
@@ -56,20 +56,20 @@ Para obtener más información, consulte uno de los siguientes artículos:
 <tr> 
 </tr>   
 <tr> 
-   <td role="rowheader"><p>paquete de Adobe Workfront</p></td> 
+   <td role="rowheader"><p>Paquete de Adobe Workfront</p></td> 
    <td> 
 <p>Para configurar tipos de registros conectables: </p>
 <ul> 
 <li><p>Cualquier paquete Workfront y cualquier paquete Planning</p></li>
-<p>O</p>
-<li><p>Cualquier flujo de trabajo y un paquete de Planning Prime o Ultimate</p></li></ul>
+O
+<li><p>Cualquier flujo de trabajo y planificación</p></li></ul>
 
 <div class="preview">
 <p>Para configurar tipos de registros globales:</p>
 
 <ul> 
 <li><p>Cualquier paquete Workfront y un paquete Planning Plus</p></li>
-<p>O</p>
+O
 <li><p>Cualquier flujo de trabajo y un paquete de Planning Prime o Ultimate</p></li></ul>
 <p>Para obtener más información sobre lo que se incluye en cada paquete de Workfront Planning, póngase en contacto con su representante de cuentas de Workfront. </p>
 

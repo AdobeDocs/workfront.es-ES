@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: b977d5dd-8975-42c4-9968-a7ac357972e6
-source-git-commit: 2fb95d37c32984e248767993c4858038d27e0590
+source-git-commit: 476e10f2962f19fd17705cb5f20619d3b636aaa4
 workflow-type: tm+mt
-source-wordcount: '630'
+source-wordcount: '647'
 ht-degree: 5%
 
 ---
@@ -47,10 +47,10 @@ Antes de agregar registros a un área de trabajo desde un tipo de registro globa
 <tr> 
 </tr>   
 <tr> 
-   <td role="rowheader"><p>paquete de Adobe Workfront</p></td> 
+   <td role="rowheader"><p>Paquete de Adobe Workfront</p></td> 
    <td> 
 <ul><li><p>Cualquier paquete Workfront y un paquete Planning Plus</p></li>
-<p>O</p>
+O
 <li><p>Cualquier flujo de trabajo y un paquete de Planning Prime o Ultimate</p></p></li></ul>
 <p>Para obtener más información sobre lo que se incluye en cada paquete de Workfront Planning, póngase en contacto con su representante de cuentas de Workfront. </p> 
    </td> 
@@ -114,10 +114,11 @@ And
 
 >[!NOTE]
 >
->Asegúrese de que haya al menos un tipo de registro designado para ser global en al menos otro espacio de trabajo.
+>Asegúrese de que haya al menos un tipo de registro designado para ser global en al menos otro espacio de trabajo principal.
 >
 >Para obtener más información, vea [Configurar las capacidades entre espacios de trabajo para los tipos de registro](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md).
 
+1. Vaya a un espacio de trabajo en el que desee crear un tipo de registro (espacio de trabajo secundario).
 1. Comience a crear un tipo de registro, tal como se describe en el artículo [Crear tipos de registros](/help/quicksilver/planning/architecture/create-record-types.md), luego haga clic en **Agregar tipos de registros existentes**. <!--check this - the option might have been renamed in the UI-->
 
    ![Modal para agregar el tipo de registro con la opción de agregar desde otro espacio de trabajo](assets/add-record-type-from-existing-workspace-option-when-creating-records.png)
@@ -129,7 +130,7 @@ And
 1. Haga clic en **Continuar**.
 1. En el cuadro **Elija el tipo de registro**, haga clic en la tarjeta del tipo de registro que desee agregar desde un área de trabajo existente y, a continuación, haga clic en **Agregar**.
 
-   El tipo de registro se agrega al área de trabajo seleccionada y el icono **tipo de registro global** ![](assets/global-icon.png) se muestra en la tarjeta del tipo de registro.
+   El tipo de registro se agrega al espacio de trabajo secundario que seleccionó y el icono **tipo de registro global** ![](assets/global-icon.png) se muestra en la tarjeta del tipo de registro.
 
    Ocurren lo siguiente:
 

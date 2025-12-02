@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7d6de742-9657-4286-968c-1fc78ebbb94e
-source-git-commit: 2fb95d37c32984e248767993c4858038d27e0590
+source-git-commit: 476e10f2962f19fd17705cb5f20619d3b636aaa4
 workflow-type: tm+mt
 source-wordcount: '634'
-ht-degree: 31%
+ht-degree: 32%
 
 ---
 
@@ -38,7 +38,7 @@ Los tipos de registro son los tipos de objetos de Adobe Workfront Planning. Pued
 <tr> 
 </tr>   
 <tr> 
-   <td role="rowheader"><p>paquete de Adobe Workfront</p></td> 
+   <td role="rowheader"><p>Paquete de Adobe Workfront</p></td> 
    <td> 
 <p>Cualquier paquete de Workfront y Planning</p>
 <p>Cualquier paquete de Workfront y Planning</p>
@@ -46,7 +46,7 @@ Los tipos de registro son los tipos de objetos de Adobe Workfront Planning. Pued
 <p>Para configurar tipos de registros conectables: </p>
 <ul> 
 <li><p>Cualquier paquete Workfront y cualquier paquete Planning</p></li>
-<p>O</p>
+O
 <li><p>Cualquier flujo de trabajo y un paquete de Planning Prime o Ultimate</p></li></ul>
 
 <div class="preview">
@@ -54,7 +54,7 @@ Los tipos de registro son los tipos de objetos de Adobe Workfront Planning. Pued
 
 <ul> 
 <li><p>Cualquier paquete Workfront y un paquete Planning Plus</p></li>
-<p>O</p>
+O
 <li><p>Cualquier flujo de trabajo y un paquete de Planning Prime o Ultimate</p></li></ul>
 <p>Para obtener más información sobre lo que se incluye en cada paquete de Workfront Planning, póngase en contacto con su representante de cuentas de Workfront. </p>
 
@@ -154,7 +154,7 @@ O
 
 1. En el cuadro **Editar tipo de registro**, la ficha **Apariencia** se abre de forma predeterminada. <!--update screen shot below at production-->
 
-   ![Editar ficha de apariencia del cuadro de tipo de registro &#x200B;](assets/edit-record-type-box-appearance-tab.png)
+   ![Editar ficha de apariencia del cuadro de tipo de registro ](assets/edit-record-type-box-appearance-tab.png)
 
    Actualice la siguiente información en la ficha **Apariencia**:
 

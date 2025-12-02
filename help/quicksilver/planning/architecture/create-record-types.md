@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ed1c4954-b338-4865-a7a9-5ba0192e7b37
-source-git-commit: 2fb95d37c32984e248767993c4858038d27e0590
+source-git-commit: 476e10f2962f19fd17705cb5f20619d3b636aaa4
 workflow-type: tm+mt
-source-wordcount: '1140'
-ht-degree: 16%
+source-wordcount: '1199'
+ht-degree: 13%
 
 ---
 
@@ -44,7 +44,7 @@ Para obtener más información acerca de los tipos de registros, vea [Informaci�
 <tr> 
 </tr>   
 <tr> 
-   <td role="rowheader"><p>paquete de Adobe Workfront</p></td> 
+   <td role="rowheader"><p>Paquete de Adobe Workfront</p></td> 
    <td> 
 <p>Cualquier paquete de Workfront y Planning</p>
 <p>Cualquier paquete de flujo de trabajo y planificación</p>
@@ -52,7 +52,7 @@ Para obtener más información acerca de los tipos de registros, vea [Informaci�
 <p>Para configurar tipos de registros conectables: </p>
 <ul> 
 <li><p>Cualquier paquete Workfront y cualquier paquete Planning</p></li>
-<p>O</p>
+O
 <li><p>Cualquier flujo de trabajo y un paquete de Planning Prime o Ultimate</p></li></ul>
 
 <div class="preview">
@@ -60,7 +60,7 @@ Para obtener más información acerca de los tipos de registros, vea [Informaci�
 
 <ul> 
 <li><p>Cualquier paquete Workfront y un paquete Planning Plus</p></li>
-<p>O</p>
+O
 <li><p>Cualquier flujo de trabajo y un paquete de Planning Prime o Ultimate</p></li></ul>
 <p>Para obtener más información sobre lo que se incluye en cada paquete de Workfront Planning, póngase en contacto con su representante de cuentas de Workfront. </p>
 
@@ -163,9 +163,8 @@ Para obtener más información acerca de los requisitos de acceso de Workfront, 
 
         Este artículo describe cómo crear tipos de registros desde cero.
 
-     <!--
-        * <span class="preview">By adding them from another workspace</span>
-            <span class="preview">For information, see [Add existing record types from another workspace](/help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md). </span>-->
+      * <span class="preview">Agregándolos desde otro espacio de trabajo</span>
+        <span class="preview">Para obtener más información, vea [Agregar tipos de registros existentes desde otro área de trabajo](/help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md). </span>
 
 
 * Puede mover tipos de registros dentro de una sección y de una sección de un espacio de trabajo a otra. No se pueden mover tipos de registros de un espacio de trabajo a otro.
@@ -197,7 +196,7 @@ Puede añadir manualmente tipos de registros en las secciones Tipos de registros
 1. (Opcional) Haga clic en **Agregar sección** para agregar una nueva sección al área de trabajo.
 1. Haga clic en **Agregar tipo de registro** y luego en **Agregar manualmente**.
 
-   Se abre el cuadro Agregar tipo de registro. <!--update screen shot for preview-->
+   Se abre el cuadro Agregar tipo de registro.
 
    ![Agregar cuadro de tipo de registro con opciones de apariencia](assets/add-record-type-box-with-appearance-options.png)
 
@@ -207,13 +206,11 @@ Puede añadir manualmente tipos de registros en las secciones Tipos de registros
    * **Descripción**: Agregue más información sobre el tipo de registro.
    * Seleccione un color y una forma para el icono asociado al tipo de registro. Haga lo siguiente:
       * Seleccione un color para identificar el nuevo tipo de registro. Este es el color del icono de tipo de registro. Gris está seleccionado de forma predeterminada.
-      * Seleccione un icono de la lista o empiece a escribir el nombre de un icono para describir lo que representa y, a continuación, selecciónelo cuando se muestre. Este es el icono del tipo de registro. De forma predeterminada, se selecciona un icono de archivo.
+      * Seleccione un icono de la lista o empiece a escribir el nombre de un icono en el campo de búsqueda para describir lo que representa y, a continuación, selecciónelo cuando se muestre. Este es el icono del tipo de registro. De forma predeterminada, se selecciona un icono de archivo.
 
-1. (Opcional y condicional) Si es administrador del sistema, haga clic en la pestaña **Configuración avanzada** <span class="preview">o **Configuración en todo el espacio de trabajo**</span> y actualice la información sobre las capacidades en todo el espacio de trabajo del tipo de registro.
+1. (Opcional y condicional) Si es administrador del sistema, haga clic en la pestaña **Configuración avanzada** <span class="preview">o **Configuración en todo el espacio de trabajo**</span> y <span class="preview">actualice la información sobre las capacidades en todo el espacio de trabajo del tipo de registro.
 
-   Para obtener más información, vea [Configurar las capacidades entre espacios de trabajo para los tipos de registro](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md). <!--update screen shot at production - Jan 2026-->
-
-   ![Editar cuadro de tipo de registro con ficha de configuración avanzada](assets/edit-record-type-box-advanced-settings-tab.png)
+   ![Editar cuadro de tipo de registro con ficha de configuración avanzada](assets/edit-record-type-box-advanced-settings-tab.png) </span>
 
    Para obtener más información, vea [Configurar las capacidades entre espacios de trabajo para los tipos de registro](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md).
 
@@ -280,16 +277,12 @@ Al importar información desde un archivo CSV o de Excel, puede importar lo sigu
 
 Para obtener más información, vea [Crear tipos de registros importando información desde un archivo CSV o de Excel](/help/quicksilver/planning/architecture/import-file-to-create-record-types.md).
 
-<!--
-
 <div class="preview">
 
-## Create record types by adding existing ones from another workspace 
+## Crear tipos de registros agregando los existentes de otro espacio de trabajo
 
-You can add record types to a workspace by adding existing ones from another workspace. You can only add record types that have been configured as global record types. 
+Puede agregar tipos de registros a un espacio de trabajo agregando los existentes desde otro espacio de trabajo. Sólo se pueden agregar tipos de registros que se hayan configurado como tipos de registros globales.
 
-For information, see [Add existing record types from another workspace](/help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md).
+Para obtener más información, vea [Agregar tipos de registros existentes desde otro área de trabajo](/help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md).
 
 </div>
-
--->

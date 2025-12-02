@@ -5,10 +5,10 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: 2fb95d37c32984e248767993c4858038d27e0590
+source-git-commit: 476e10f2962f19fd17705cb5f20619d3b636aaa4
 workflow-type: tm+mt
-source-wordcount: '483'
-ht-degree: 10%
+source-wordcount: '462'
+ht-degree: 11%
 
 ---
 
@@ -49,24 +49,20 @@ En función de las funciones que desee definir para un tipo de registro, puede c
 <tr> 
 </tr>   
 <tr> 
-   <td role="rowheader"><p>paquete de Adobe Workfront</p></td> 
+   <td role="rowheader"><p>Paquete de Adobe Workfront</p></td> 
    <td> 
 <p>Cualquier paquete de Workfront y Planning</p>
-<p>Cualquier paquete de Workfront y Planning</p>
+<p>Cualquier paquete de flujo de trabajo y planificación</p>
+<div class="preview">
 <p><b>NOTA</b></p>
-<p>Para configurar tipos de registros conectables: </p>
-<ul> 
-<li><p>Cualquier paquete Workfront y cualquier paquete Planning</p></li>
-<p>O</p>
-<li><p>Cualquier flujo de trabajo y un paquete de Planning Prime o Ultimate</p></li></ul>
-
 <p>Para configurar tipos de registros globales:</p>
 
 <ul> 
 <li><p>Cualquier paquete Workfront y un paquete Planning Plus</p></li>
-<p>O</p>
-<li><p>Cualquier flujo de trabajo y un paquete de Planning Prime o Ultimate</p></li></ul>
-<p>Para obtener más información sobre lo que se incluye en cada paquete de Workfront Planning, póngase en contacto con su representante de cuentas de Workfront. </p>
+O
+<li><p>Cualquier paquete de flujo de trabajo y un paquete de Planning Prime o Ultimate</p></li></ul>
+<p>Para obtener más información sobre lo que se incluye en cada paquete de Workfront Planning, póngase en contacto con su representante de cuentas de Workfront. </p> 
+</div>
    </td> </tr>
   <tr> 
    <td role="rowheader"><p>Licencia de Adobe Workfront</p></td> 

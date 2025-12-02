@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 70fd3887-3871-45b5-9c21-f57da63662aa
-source-git-commit: 2fb95d37c32984e248767993c4858038d27e0590
+source-git-commit: 476e10f2962f19fd17705cb5f20619d3b636aaa4
 workflow-type: tm+mt
 source-wordcount: '1062'
-ht-degree: 29%
+ht-degree: 30%
 
 ---
 
@@ -46,16 +46,16 @@ Para obtener más información sobre los tipos de registros, consulte [Informaci
 <tr> 
 </tr>   
 <tr> 
-   <td role="rowheader"><p>paquete de Adobe Workfront</p></td> 
+   <td role="rowheader"><p>Paquete de Adobe Workfront</p></td> 
    <td> 
 <ul> 
 <li><p>Cualquier Workfront y cualquier paquete de Planning</p></li>
-<p>O</p>
+O
 <li><p>Cualquier flujo de trabajo y cualquier paquete de Planning</p></li></ul>
 <div class="preview">
 <p>Para eliminar tipos de registros globales:</p>
 <ul><li><p>Cualquier paquete Workfront y un paquete Planning Plus</p></li>
-<p>O</p>
+O
 <li><p>Cualquier flujo de trabajo y un paquete de Planning Prime o Ultimate</p></li></ul>
 </div>
 <p>Para obtener más información sobre lo que se incluye en cada paquete de Workfront Planning, póngase en contacto con su representante de cuentas de Workfront. </p> 

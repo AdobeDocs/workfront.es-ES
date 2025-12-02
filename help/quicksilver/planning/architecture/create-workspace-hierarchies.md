@@ -4,10 +4,10 @@ description: Puede crear varias jerarquías de espacio de trabajo entre los tipo
 hide: true
 hidefromtoc: true
 exl-id: 2f83c427-4439-499d-a0b2-fc8630552cae
-source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
+source-git-commit: 476e10f2962f19fd17705cb5f20619d3b636aaa4
 workflow-type: tm+mt
 source-wordcount: '117'
-ht-degree: 19%
+ht-degree: 22%
 
 ---
 
@@ -48,11 +48,11 @@ Puede crear varias jerarquías de espacio de trabajo entre los tipos de registro
 <tr> 
 </tr>   
 <tr> 
-   <td role="rowheader"><p>paquete de Adobe Workfront</p></td> 
+   <td role="rowheader"><p>Paquete de Adobe Workfront</p></td> 
    <td> 
 <ul> 
 <li><p>Cualquier Workfront y cualquier paquete de Planning</p></li>
-<p>O</p>
+O
 <li><p>Cualquier flujo de trabajo y cualquier paquete de Planning</p></li></ul>
 <p>Para obtener más información sobre lo que se incluye en cada paquete de Workfront Planning, póngase en contacto con su representante de cuentas de Workfront. </p> 
    </td> 

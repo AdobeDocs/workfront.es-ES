@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 374b6d9c-69a9-4a73-8708-51c14a78c7c9
-source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
+source-git-commit: 476e10f2962f19fd17705cb5f20619d3b636aaa4
 workflow-type: tm+mt
 source-wordcount: '645'
 ht-degree: 11%
@@ -44,11 +44,11 @@ Todos los cambios que realice en un espacio de trabajo son visibles para todos l
 <tr> 
 </tr>   
 <tr> 
-   <td role="rowheader"><p>paquete de Adobe Workfront</p></td> 
+   <td role="rowheader"><p>Paquete de Adobe Workfront</p></td> 
    <td> 
 <ul> 
 <li><p>Cualquier Workfront y cualquier paquete de Planning</p></li>
-<p>O</p>
+O
 <li><p>Cualquier flujo de trabajo y cualquier paquete de Planning</p></li></ul>
 <p>Para obtener más información sobre lo que se incluye en cada paquete de Workfront Planning, póngase en contacto con su representante de cuentas de Workfront. </p> 
    </td> 
@@ -139,7 +139,7 @@ Para obtener más información acerca de los requisitos de acceso de Workfront, 
 1. Para editar un espacio de trabajo, realice una de las siguientes acciones:
 
    * Pase el ratón sobre la tarjeta del área de trabajo y luego haga clic en el menú **Más** ![Menú Más](assets/more-menu.png) en la esquina superior derecha de la tarjeta
-O
+O <!--Add this to the next bullet: <span class="preview"> Search for a workspace by name and</span>-->
    * Haga clic en una tarjeta de área de trabajo para abrir el área de trabajo y, a continuación, haga clic en el menú **Más** ![Menú Más](assets/more-menu.png) situado a la derecha del nombre del área de trabajo.
 1. Haga clic en **Editar**.
 

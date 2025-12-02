@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: adec4b8e-2964-479b-8cf0-79d3afa27b2a
-source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
+source-git-commit: 476e10f2962f19fd17705cb5f20619d3b636aaa4
 workflow-type: tm+mt
 source-wordcount: '347'
-ht-degree: 46%
+ht-degree: 47%
 
 ---
 
@@ -42,11 +42,11 @@ Se recomienda volver a crear algunos o todos los tipos de registros, registros, 
 <tr> 
 </tr>   
 <tr> 
-   <td role="rowheader"><p>paquete de Adobe Workfront</p></td> 
+   <td role="rowheader"><p>Paquete de Adobe Workfront</p></td> 
    <td> 
 <ul> 
 <li><p>Cualquier Workfront y cualquier paquete de Planning</p></li>
-<p>O</p>
+O
 <li><p>Cualquier flujo de trabajo y cualquier paquete de Planning</p></li></ul>
 <p>Para obtener más información sobre lo que se incluye en cada paquete de Workfront Planning, póngase en contacto con su representante de cuentas de Workfront. </p> 
    </td> 
@@ -141,7 +141,7 @@ Para obtener más información acerca de los requisitos de acceso de Workfront, 
 1. Para eliminar un espacio de trabajo, realice una de las siguientes acciones:
 
    * Pase el ratón sobre la tarjeta del área de trabajo y luego haga clic en el menú **Más** ![Menú Más](assets/more-menu.png) en la esquina superior derecha de la tarjeta
-O
+O <!--Add this to the bullet below: <span class="preview">Search for a workspace by name and </span>-->
    * Haga clic en una tarjeta de área de trabajo para abrir el área de trabajo y, a continuación, haga clic en el menú **Más** ![Menú Más](assets/more-menu.png) situado a la derecha del nombre del área de trabajo.
 1. Haga clic **eliminar**.
 
