@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 673dd888-3135-48b0-8198-c8d6d6706ddf
-source-git-commit: 476e10f2962f19fd17705cb5f20619d3b636aaa4
+source-git-commit: 0c890cc535c61c5402a334e43ed45b3ec3f9f748
 workflow-type: tm+mt
-source-wordcount: '1902'
+source-wordcount: '1901'
 ht-degree: 44%
 
 ---
@@ -277,7 +277,7 @@ Para compartir una vista públicamente en Workfront Planning:
 
    >[!TIP]
    >
-   ><span class="preview">La configuración de **Crear vínculo público** está atenuada para un tipo de registro global en su área de trabajo secundaria.</span>
+   ><span class="preview">Se ha quitado la ficha **Uso compartido público** para un tipo de registro global en su área de trabajo secundaria.</span>
 
 
 1. Haga clic en el icono **Copiar vínculo** ![Copiar vista de vínculo](assets/copy-link-view.png) para copiar el vínculo en el portapapeles.

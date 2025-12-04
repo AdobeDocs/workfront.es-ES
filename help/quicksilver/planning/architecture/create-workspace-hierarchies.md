@@ -1,13 +1,13 @@
 ---
 title: Creación de jerarquías de Workspace
-description: Puede crear varias jerarquías de espacio de trabajo entre los tipos de registro de un espacio de trabajo.
+description: Como administrador de espacio de trabajo, puede crear varias jerarquías de espacio de trabajo entre los tipos de registro en Adobe Workfront Planning. Después de conectar los tipos de registro en un espacio de trabajo y crear una jerarquía, los tipos de registro se conectan entre sí, con un tipo de registro designado como principal y hasta 6 tipos de registro más configurados como secundarios.
 hide: true
 hidefromtoc: true
 exl-id: 2f83c427-4439-499d-a0b2-fc8630552cae
-source-git-commit: 476e10f2962f19fd17705cb5f20619d3b636aaa4
+source-git-commit: ff9371b639e7684a94c08b8cd6293b632fac9edf
 workflow-type: tm+mt
-source-wordcount: '117'
-ht-degree: 22%
+source-wordcount: '248'
+ht-degree: 10%
 
 ---
 
@@ -28,7 +28,14 @@ hidefromtoc: yes
 
 # Crear jerarquías de Workspace
 
-Puede crear varias jerarquías de espacio de trabajo entre los tipos de registro de un espacio de trabajo.
+Como administrador de espacio de trabajo, puede crear varias jerarquías de espacio de trabajo entre los tipos de registro en Adobe Workfront Planning.
+
+Después de conectar los tipos de registro en un espacio de trabajo y crear una jerarquía, los tipos de registro se conectan entre sí, con un tipo de registro designado como principal y hasta 6 tipos de registro más configurados como secundarios. <!--asking Robert how many we can have in one hierarchy; I think 7 total but not sure-->
+
+Las jerarquías generarán rutas de exploración para los tipos de registros y los registros <!--ensure this is the case: does the breadcrumb show for both the RT and the record??--> que se muestran en sus encabezados. De este modo, los usuarios saben dónde se encuentran en la jerarquía en cualquier fase del flujo de trabajo.
+
+Para obtener información general acerca de jerarquías y rutas de exploración, vea [Información general sobre jerarquías y rutas de exploración](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md).
+
 
 ## Requisitos de acceso
 
@@ -72,3 +79,5 @@ O
 Para obtener más información acerca de los requisitos de acceso de Workfront, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
+
+## Creación de una jerarquía de Workspace

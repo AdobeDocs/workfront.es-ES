@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: aeedd871-dcd3-4fb3-bfc5-99db3e7c9296
-source-git-commit: 476e10f2962f19fd17705cb5f20619d3b636aaa4
+source-git-commit: 0c890cc535c61c5402a334e43ed45b3ec3f9f748
 workflow-type: tm+mt
-source-wordcount: '1569'
+source-wordcount: '1586'
 ht-degree: 2%
 
 ---
@@ -113,7 +113,7 @@ El tipo de registro configurado para ser global tiene las siguientes propiedades
      Para obtener más información, vea [Eliminar tipos de registros](/help/quicksilver/planning/architecture/delete-record-types.md).
    * Comparta las vistas de los tipos de registros.
 
-     No se puede compartir una vista públicamente desde un tipo de registro global en un espacio de trabajo secundario. Solo puede compartir vistas internamente desde un espacio de trabajo secundario.
+     No se puede compartir una vista públicamente desde un tipo de registro global en un espacio de trabajo secundario. Solo puede compartir vistas internamente desde un espacio de trabajo secundario. Puede compartir una vista interna y públicamente para un tipo de registro global en su espacio de trabajo original.
 
      Para obtener más información, consulte [Compartir vistas](/help/quicksilver/planning/access/share-views.md).
 
