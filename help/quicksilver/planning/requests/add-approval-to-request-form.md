@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 058148db-1795-4d39-be87-271008ae3d47
-source-git-commit: df0686038adb1278339e872e122a311884cb6d29
+source-git-commit: de568156315ff9094d938600c91b55e185d53765
 workflow-type: tm+mt
-source-wordcount: '647'
-ht-degree: 6%
+source-wordcount: '688'
+ht-degree: 5%
 
 ---
 
@@ -90,11 +90,8 @@ Para obtener más información acerca de los requisitos de acceso de Workfront, 
    Se muestra el área **Configuración**.
 
    ![Ficha de configuración](assets/configuration-tab.png)
-1. En el campo **Aprobadores**, haga clic en el icono desplegable y seleccione uno o varios usuarios o equipos en la lista
-
-   O
-
-   Comience a escribir el nombre de un usuario o equipo que desee establecer como aprobador y, a continuación, selecciónelo cuando aparezca en la lista.
+1. En el campo **Aprobadores**, empiece a escribir el nombre de un usuario o equipo que desee establecer como aprobador y, a continuación, selecciónelo cuando se muestre en la lista.
+1. (Opcional y condicional) Si ha establecido más de un aprobador y solo necesita un aprobador para tomar una decisión, habilite la opción **Solo se requiere una decisión**.
 
    <!--most of the Note below is duplicated in the Create a request form article-->
 
@@ -103,11 +100,11 @@ Para obtener más información acerca de los requisitos de acceso de Workfront, 
    >
    >* Puede agregar uno o varios aprobadores a un formulario de solicitud.
    >
-   >* Si agrega más de un aprobador, todos los aprobadores deben aprobar la solicitud antes de que Workfront Planning cree un registro.
+   >* Si agrega más de un aprobador y la opción Only one decision is required no está habilitada, todos los aprobadores deben aprobar la solicitud antes de que Workfront Planning cree un registro.
    >
    >* Si al menos un aprobador rechaza la solicitud, esta se rechaza y no se crea el registro. La solicitud permanece en la pestaña Planificación de la sección Enviados del área Solicitudes de Workfront.
    >
-   >* Todos los aprobadores deben tomar una decisión antes de aprobar o rechazar una solicitud.
+   >* Si añade más de un aprobador y la opción Only one decision is required no está activada, todos los aprobadores deben tomar una decisión antes de aprobar o rechazar una solicitud.
    >
    >* Si un equipo se establece como aprobador, solo se requiere una decisión del equipo.
 

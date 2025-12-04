@@ -6,10 +6,10 @@ description: Puede ver o editar la información financiera de un proyecto accedi
 author: Lisa
 feature: Work Management
 exl-id: 147f5d55-a827-4cca-9ab0-afb03a4bcd5a
-source-git-commit: 23a4d055871c9138818e70fa1cd936581dbd7552
+source-git-commit: f01ce9bcbb795097d39e276a734300f5059e35c4
 workflow-type: tm+mt
-source-wordcount: '1274'
-ht-degree: 94%
+source-wordcount: '1275'
+ht-degree: 88%
 
 ---
 
@@ -30,7 +30,7 @@ Puede ver o editar la información financiera de un proyecto accediendo al área
  <col> 
  <tbody> 
   <tr> 
-   <td>paquete de Adobe Workfront</td> 
+   <td>Paquete de Adobe Workfront</td> 
    <td>Cualquiera</td> 
   </tr> 
   <tr> 
@@ -58,7 +58,7 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 
 Tenga en cuenta lo siguiente cuando visualice o edite información en el área Finanzas:
 
-* La información financiera que se encuentra en el área Finanzas de Detalles del proyecto representa valores que pasan al nivel de proyecto a partir de las tareas, así como información introducida directamente en el proyecto. Parte de la información financiera se puede administrar tanto en el nivel de proyecto como en el de tarea.
+* La información financiera que se encuentra en el área Finanzas de Detalles del proyecto representa valores que se acumulan en el nivel de proyecto a partir de las tareas, así como información introducida directamente en el proyecto. Parte de la información financiera se puede administrar tanto en el nivel de proyecto como en el de tarea.
 * Debe tener permisos de visualización en el proyecto y acceso a datos financieros desde su nivel de acceso para poder ver el área de finanzas en un proyecto.
 * Debe tener permisos de administración en el proyecto y acceso a datos financieros desde su nivel de acceso para poder editar la información en el área de finanzas. Sin embargo, recomendamos que solo el propietario del proyecto edite la información de esta área.
 
@@ -153,7 +153,7 @@ Para editar la información de la subpestaña Finanzas del proyecto:
    >Necesita permisos de administración en el proyecto para realizar los siguientes pasos. También se recomienda que solo el propietario del proyecto realice cambios en la subpestaña Finanzas del proyecto.
 
 1. Haga clic en **Detalles del proyecto**, en el panel izquierdo.
-1. Haga clic en el icono **Editar** ![Editar icono](assets/edit-icon.png) en la esquina superior derecha de la sección Detalles y, a continuación, haga clic en **Finanzas** . Se abrirá el área Finanzas para editarla.
+1. Haga clic en el icono **Editar** ![Editar icono](assets/edit-icon.png) en la esquina superior derecha de la sección Detalles y, a continuación, haga clic en **Finanzas**. Se abrirá el área Finanzas para editarla.
 1. Edite cualquier campo que esté disponible para la edición haciendo clic en el mismo o en **+Añadir** para añadir información a un campo vacío.
 
    >[!TIP]

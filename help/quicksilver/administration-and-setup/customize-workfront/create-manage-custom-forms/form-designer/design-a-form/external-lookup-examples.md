@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 13880fcb-8523-45d2-9ac6-38453e8e2391
-source-git-commit: c6adce09acf993ae00b080ac5177dabd953d69a1
+source-git-commit: f01ce9bcbb795097d39e276a734300f5059e35c4
 workflow-type: tm+mt
-source-wordcount: '1461'
-ht-degree: 76%
+source-wordcount: '1462'
+ht-degree: 75%
 
 ---
 
@@ -32,7 +32,7 @@ Para obtener más información sobre cómo agregar un campo de búsqueda externa
  <col> 
  <tbody> 
   <tr> 
-   <td>paquete de Adobe Workfront</td> 
+   <td>Paquete de Adobe Workfront</td> 
    <td><p>Cualquiera</p></td> 
   </tr> 
   <tr> 
@@ -104,7 +104,7 @@ En este ejemplo se muestra cómo llamar a la API de Workfront y rellenar una lis
 
 ### Usar valores de campo personalizados en la búsqueda externa
 
-Este ejemplo muestra cómo llamar a la API de Workfront e introducir datos de un campo personalizado en el campo de búsqueda externa. El campo personalizado de ejemplo se denomina “Colores personalizados”.
+Este ejemplo muestra cómo llamar a la API de Workfront y llevar los datos de un campo personalizado al campo de búsqueda externa. El campo personalizado de ejemplo se denomina “Colores personalizados”.
 
 1. Abra el formulario personalizado.
 1. En el lado izquierdo de la pantalla, busque **Búsqueda externa** y arrástrela a una sección del lienzo.

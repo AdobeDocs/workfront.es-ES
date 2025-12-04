@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: df0686038adb1278339e872e122a311884cb6d29
+source-git-commit: de568156315ff9094d938600c91b55e185d53765
 workflow-type: tm+mt
-source-wordcount: '2643'
+source-wordcount: '2684'
 ht-degree: 5%
 
 ---
@@ -241,13 +241,13 @@ En la pestaña Configuración, puede establecer el proceso de aprobación y conf
 
    <!--below bullet list is duplicated in the Add approval to a request form article-->
 
-   * Al asociar un formulario de solicitud con los aprobadores, cualquier nueva solicitud debe ser aprobada primero por todos los aprobadores antes de que genere un nuevo registro.
    * Puede agregar uno o varios aprobadores a un formulario de solicitud.
-   * Si al menos un aprobador rechaza la solicitud, esta se rechaza y no se crea el registro.
-   * Todos los aprobadores deben tomar una decisión antes de aprobar o rechazar una solicitud.
+   * Si agrega más de un aprobador y la opción Only one decision is required no está habilitada, todos los aprobadores deben aprobar la solicitud antes de que Workfront Planning cree un registro.
+   * Si al menos un aprobador rechaza la solicitud, esta se rechaza y no se crea el registro. La solicitud permanece en la pestaña Planificación de la sección Enviados del área Solicitudes de Workfront.
+   * Si añade más de un aprobador y la opción Only one decision is required no está activada, todos los aprobadores deben tomar una decisión antes de aprobar o rechazar una solicitud.
    * Si un equipo se establece como aprobador, solo se requiere una decisión del equipo.
 
-     Para obtener más información sobre cómo agregar aprobaciones a los formularios de solicitud, consulte [Agregar aprobación a un formulario de solicitud](/help/quicksilver/planning/requests/add-approval-to-request-form.md).
+   Para obtener más información sobre cómo agregar aprobaciones a los formularios de solicitud, consulte [Agregar aprobación a un formulario de solicitud](/help/quicksilver/planning/requests/add-approval-to-request-form.md).
 
 1. (Condicional) Si desea que el registro se cree después de que cualquiera de los aprobadores lo haya aprobado, marque la casilla **Solo se requiere una decisión**.
 
