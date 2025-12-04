@@ -10,10 +10,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d297d8a4-5a4e-418f-983a-19545aeb0668
-source-git-commit: dcc4657d4af4edbbe7971acd385a67b2ad50a058
+source-git-commit: 364d1263070c0249d13290700d705e29eb646012
 workflow-type: tm+mt
-source-wordcount: '1724'
-ht-degree: 98%
+source-wordcount: '1691'
+ht-degree: 96%
 
 ---
 
@@ -263,6 +263,11 @@ Los usuarios con este nivel de acceso integrado:
 * Puede realizar solicitudes y actualizarlas
 * Puede cargar y aprobar documentos
 * Pueden aprobar proyectos, tareas y problemas
+
+  >[!NOTE]
+  >
+  >Los colaboradores pueden participar en las aprobaciones, pero no pueden acceder a la pestaña Aprobaciones para ver o administrar los procesos de aprobación.
+
 * Puede revisar el estado de los problemas que han enviado
 * Pueden ser asignados a elementos de trabajo pero no pueden completarlos
 * Solo pueden acceder a las solicitudes desde el menú principal. Para obtener más información acerca de las colas de solicitudes, consulte [Crear una cola de solicitudes](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
@@ -291,7 +296,7 @@ A continuación se muestran las opciones de acceso más altas disponibles para l
 | Datos financieros | ✓ |   |   |
 | Administración de recursos | ✓ |   |   |
 | Planificador de escenarios | ✓ |   |   |
-| Tableros |   |   | ✓ (Tarjetas simples) |
+| Tableros |   |   | ✓ (tarjetas simples) |
 | Inicio |   | ✓ (Mis actualizaciones) |   |
 | Metas |   |   | ✓ |
 
@@ -320,7 +325,7 @@ No es posible modificar este nivel de acceso.
 
 >[!IMPORTANT]
 >
->El usuario externo solo está disponible si la opción “Colaborar con personas sin cuentas de Workfront mediante el uso de su dirección de correo electrónico” está activada en el área Preferencias del sistema en Configuración. Para obtener más información, consulte [Configurar las preferencias de seguridad del sistema](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md).
+>El usuario externo solo está disponible si la opción “Colaborar con personas sin cuentas de Workfront mediante el uso de su dirección de correo electrónico” está habilitada en el área Preferencias del sistema en Configuración. Para obtener más información, consulte [Configurar las preferencias de seguridad del sistema](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md).
 
 #### **Detalles de acceso**
 
@@ -333,9 +338,9 @@ Las siguientes son las opciones de acceso más altas disponibles para los objeto
 | Problema | ✓ |   |   |
 | Portafolios | ✓ |   |   |
 | Programas | ✓ |   |   |
-| Informes (incluidos informes de paneles de control y calendarios) |   | ✓ (Solo para informes de calendario; no se permite compartir informes) |   |
+| Informes (incluidos informes de paneles de control y calendarios) |   | ✓ (solo para informes de calendario; no se pueden compartir informes) |   |
 | Filtros, vistas y agrupaciones | ✓ |   |   |
-| Documento |   | ✓ (No es posible compartir documentos) |   |
+| Documento |   | ✓ (no se pueden compartir documentos) |   |
 | Usuario |   | ✓ |   |
 | Equipos | ✓ |   |   |
 | Plantilla | ✓ |   |   |
