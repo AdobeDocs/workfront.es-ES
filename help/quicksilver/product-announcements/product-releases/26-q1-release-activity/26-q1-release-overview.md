@@ -4,7 +4,7 @@ description: En esta página se ofrece información sobre la funcionalidad inclu
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: bd2d6fcf9e7a724914e8005cffc455fc6979f611
+source-git-commit: 34e6f4386c768b94c3835d4a4d7e7deadc3fecda
 workflow-type: tm+mt
 source-wordcount: '1930'
 ht-degree: 16%
@@ -223,6 +223,15 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td><strong>Liberación rápida</strong></td>
         <td><strong>Trimestralmente</strong></td>
     </tr>
+    <tr>
+        <!--<td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-1-q1-requests.md" class="MCXref xref" xrefformat="{para}">Share views in the Requests area and the My Requests widget</a>
+            <p>To make it easier to ensure to see the information you need, we've added the ability to share views to the new reporting experience. Now, you can share views with other users, teams, or groups. </p>
+        </td>
+        <td>December 4, 2025</td>
+        <td>December 11, 2025</td>
+        <td>January 15, 2026</td>
+    </tr> -->
      <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-1-q1-requests.md" class="MCXref xref" xrefformat="{para}">Guardar borradores de solicitudes en la nueva experiencia de solicitud</a>
@@ -241,15 +250,6 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td>viernes, 11 de diciembre de 2025</td>
         <td>viernes, 15 de enero de 2026</td>
     </tr>   
-<!--        <tr>
-        <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-1-q1-requests.md" class="MCXref xref" xrefformat="{para}">Share views in the Requests area and the My Requests widget</a>
-            <p>To make it easier to ensure to see the information you need, we've added the ability to share views to the new reporting experience. Now, you can share views with other users, teams, or groups. </p>
-        </td>
-        <td>November 20, 2025</td>
-        <td>December 11, 2025</td>
-        <td>January 15, 2026</td>
-    </tr>   -->
         <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-1-q1-requests.md" class="MCXref xref" xrefformat="{para}">Cree nuevas solicitudes copiando las solicitudes enviadas anteriormente en la nueva experiencia de solicitud</a>
@@ -380,7 +380,7 @@ Para ofrecer integraciones más estables y escalables, estamos adoptando un enfo
 * Workfront para Salesforce.
 
 Recomendamos utilizar la automatización e integración de Workfront para las necesidades de integración de su organización con Google Workspace.
-Para obtener una descripción general de la automatización e integración de Workfront, consulte [Información general de Adobe Workfront Fusion](https://experienceleague.adobe.com/es/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+Para obtener una descripción general de la automatización e integración de Workfront, consulte [Información general de Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 
 
 ### Actualizaciones de mantenimiento de Workfront 

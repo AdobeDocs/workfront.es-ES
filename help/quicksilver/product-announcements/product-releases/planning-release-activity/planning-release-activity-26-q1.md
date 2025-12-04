@@ -6,9 +6,9 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 0964ad24535bf43a23c740cd63abcf8fea705b8d
+source-git-commit: 34e6f4386c768b94c3835d4a4d7e7deadc3fecda
 workflow-type: tm+mt
-source-wordcount: '642'
+source-wordcount: '724'
 ht-degree: 4%
 
 ---
@@ -20,6 +20,21 @@ Este artículo describe las funciones que se lanzarán para Workfront Planning d
 <!--keep the sentence below for all future quarterly release pages-->
 
 Para obtener una lista de todas las características publicadas para Adobe Workfront Planning, consulte [Actividad de la versión de Adobe Workfront Planning: índice de artículo](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+
+## Se ha eliminado el uso compartido público de vistas en un tipo de registro global en un espacio de trabajo secundario
+
+
+>[!NOTE]
+>
+>Vista previa: 3 de diciembre de 2025
+>Versión rápida de producción: 4 de diciembre de 2025
+>Producción para todos: 15 de enero de 2026
+
+
+Se ha eliminado la pestaña Uso compartido público al compartir una vista para un registro global en un espacio de trabajo secundario. No se puede compartir una vista públicamente desde un tipo de registro global agregado a otro espacio de trabajo desde un tipo de registro global existente. Puede compartir una vista de tipo de registro global públicamente desde su espacio de trabajo original.
+
+Para obtener más información, consulte [Compartir vistas](/help/quicksilver/planning/access/share-views.md).
+
 
 ## Conectar marcas GenStudio for Performance Marketing con tipos de registros de Workfront Planning
 

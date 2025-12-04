@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: f22f00417cd0bfbe53cfee513e8be95a8719f785
+source-git-commit: 1ef57b73a77d0c622b3dbd57057c51d0ccbad7db
 workflow-type: tm+mt
-source-wordcount: '9416'
+source-wordcount: '9457'
 ht-degree: 2%
 
 ---
@@ -1415,6 +1415,13 @@ Al acceder a la trayectoria del hito desde una lista de proyectos o un informe, 
 Con esta actualización también hemos añadido información sobre los colores y códigos de color de cada hito.
 
 Para obtener más información, vea [Crear una ruta de hitos](/help/quicksilver/administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md).
+
+
+#### Nueva apariencia de la sección Proyectos de un portafolio
+
+**Vista previa y producción: 18 de marzo de 2025**
+
+Hemos realizado mejoras en la lista de proyectos de la sección Proyectos de un portafolio. La lista ahora coincide con la mayoría de las listas de Workfront.
 
 +++
 
