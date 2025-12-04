@@ -8,9 +8,9 @@ role: Admin
 recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
-source-git-commit: bc222ec76ac94a44c33ee166036d84c164b1da01
+source-git-commit: fb1b5bb34810652e5098f0dcad70062670d7c137
 workflow-type: tm+mt
-source-wordcount: '254'
+source-wordcount: '324'
 ht-degree: 0%
 
 ---
@@ -50,13 +50,19 @@ En la Búsqueda avanzada de asignaciones avanzadas, seleccionar una opción para
 
 El KPI de horas planificadas en la pantalla Asignaciones avanzadas ya no se puede editar cuando la duración de la tarea es 0. Anteriormente, se podían editar las horas planificadas pero los cambios no se guardaban.
 
-<!--### Maintenance Updates week of November 30-December 6, 2025
+### Semana de actualizaciones de mantenimiento del 30 de noviembre al 6 de diciembre de 2025
+
+**Campo de fecha de tipo de cambio oculto cuando no se utilizan tipos de cambio con fecha efectiva**
+
+El campo **Fecha de tipo de cambio** en el área Detalles del proyecto > Finanzas ahora está oculto cuando la casilla de verificación **Usar tipos de cambio con fecha efectiva del sistema** no está seleccionada. Anteriormente, al editar un proyecto, el campo de fecha se mostraba en los detalles del proyecto incluso cuando no se habilitaban las tasas de cambio efectivas por fecha.
+
+<!--### Maintenance Updates week of December 7-13, 2025
 
 **Title**
 
 text
 
-### Maintenance Updates week of December 7-13, 2025
+### Maintenance Updates week of January 4-10, 2026
 
 **Title**
 
