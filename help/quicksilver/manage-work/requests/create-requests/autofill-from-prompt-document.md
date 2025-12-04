@@ -1,18 +1,18 @@
 ---
-title: Utilizar el relleno de formulario AI para rellenar una solicitud utilizando indicaciones o documentos
+title: Utilice Rellenar formulario con tecnología de IA para rellenar una solicitud mediante mensajes o documentos
 content-type: reference
 description: Puede utilizar IA para rellenar automáticamente los campos de solicitud introduciendo una solicitud o suministrando un documento.
 author: Becky
 feature: Get Started with Workfront
 exl-id: 4a22f9ea-c9ee-4947-8683-9989c54903b1
-source-git-commit: aa3ae2a5d92420f4adcedb60a4f7404533eaa59b
+source-git-commit: 3c319ff406ca7705e618f3159edcf87d27d8229e
 workflow-type: tm+mt
-source-wordcount: '1345'
+source-wordcount: '1370'
 ht-degree: 8%
 
 ---
 
-# Utilizar el relleno de formulario AI para rellenar una solicitud utilizando indicaciones o documentos
+# Utilice Rellenar formulario con tecnología de IA para rellenar una solicitud mediante mensajes o documentos
 
 >[!NOTE]
 >
@@ -169,7 +169,7 @@ Estamos planeando una campaña similar a los anuncios sociales de las fiestas qu
 
 ## Obtener sugerencias basadas en un documento que cargue
 
-El relleno automático puede sugerir valores de campo basándose en un documento que cargue.
+Form Fill powered by AI puede rellenar una solicitud utilizando peticiones de datos o documentos que pueden sugerir valores de campo basados en un documento que cargue.
 
 Este tipo de sugerencia también comprueba las solicitudes anteriores para contextos similares. Por ejemplo, si el mensaje indica que la solicitud es para un cliente determinado, Workfront puede localizar e introducir la dirección de facturación de ese cliente automáticamente, en función de solicitudes anteriores.
 
@@ -234,8 +234,8 @@ Los tipos de campo de Workfront afectan a si un campo determinado se puede relle
 
 <table>
 <tr>
-<td><b>El relleno automático de </b><br> compatible puede rellenar</td>
-<td><b>No compatible</b> <br>El relleno automático no se rellena</td>
+<td><b>Se puede rellenar el formulario </b><br> compatible con tecnología de IA</td>
+<td><b>No compatible</b> <br>El relleno de formulario con tecnología de IA no se rellena</td>
 </tr>
 <tr>
 <td>

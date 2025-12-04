@@ -3,9 +3,9 @@ user-guide-title: Guía de Workfront
 user-guide-description: Utilice los siguientes documentos, tutoriales y recursos adicionales para aprender a implementar y utilizar Adobe Workfront de forma eficaz en su organización.
 role: User
 feature-set: Workfront
-source-git-commit: ff9371b639e7684a94c08b8cd6293b632fac9edf
+source-git-commit: 3c319ff406ca7705e618f3159edcf87d27d8229e
 workflow-type: tm+mt
-source-wordcount: '13601'
+source-wordcount: '13609'
 ht-degree: 58%
 
 ---
@@ -36,7 +36,7 @@ ht-degree: 58%
          * [Mejoras de proyecto del cuarto trimestre de 2025](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-project.md)
          * [Mejoras en las solicitudes del cuarto trimestre de 2025](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-requests.md)
          * [Mejoras en la gestión de recursos del cuarto trimestre de 2025](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-resource-mgmt.md)
-         * [Otras mejoras del cuarto trimestre de 2025 &#x200B;](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-other.md)
+         * [Otras mejoras del cuarto trimestre de 2025 ](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-other.md)
          * [Actualizaciones de aspecto durante el periodo de tiempo de la versión del cuarto trimestre de 2025](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-look-and-feel-updates.md)
       * Versión del tercer trimestre de 2025 {#release-25-q3}
          * [Resumen de la versión del tercer trimestre de 2025](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-release-overview.md)
@@ -1496,7 +1496,7 @@ ht-degree: 58%
          * [Eliminar una solicitud enviada o un borrador de solicitud](manage-work/requests/create-requests/delete-request-draft.md)
          * [Copiar y enviar solicitudes](manage-work/requests/create-requests/copy-and-submit-requests.md)
          * [Rellenar automáticamente una solicitud de datos anteriores](/help/quicksilver/manage-work/requests/create-requests/autofill-suggestions-from-previous.md)
-         * [Rellenar automáticamente una solicitud utilizando indicaciones o documentos](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md)
+         * [Utilice Rellenar formulario con tecnología de IA para rellenar una solicitud mediante mensajes o documentos](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md)
          * [Creación de vistas en el área de solicitudes](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md)
    * Delegar trabajo {#delegate-work}
       * [Delegar trabajo](manage-work/delegate-work/delegate-work.md)
@@ -1776,7 +1776,7 @@ ht-degree: 58%
    * [Administrar recursos: índice de artículos](resource-mgmt/manage-resources.md)
    * Administración de recursos {#resource-management}
       * [Administración de recursos: índice de artículos](resource-mgmt/resource-mgmt-overview/resource-management-overview.md)
-      * [Introducción a la Administración de recursos &#x200B;](resource-mgmt/resource-mgmt-overview/get-started-resource-management.md)
+      * [Introducción a la Administración de recursos ](resource-mgmt/resource-mgmt-overview/get-started-resource-management.md)
    * Planificación de recursos en Adobe Workfront {#resource-planning-in-adobe-workfront}
       * [Planificación de recursos: índice de artículos](resource-mgmt/resource-planning/resource-planning-overview.md)
       * Conjuntos de recursos {#resource-pools}
