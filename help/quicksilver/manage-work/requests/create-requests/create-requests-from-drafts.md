@@ -6,9 +6,9 @@ description: Además de utilizar los borradores disponibles que Workfront le sug
 author: Becky
 feature: Work Management
 exl-id: 664004e7-04c8-4a1f-b682-7b82d349643d
-source-git-commit: 38843e2c093d5af9d74d8b4442fd28e194996e8d
+source-git-commit: bc7312a10f1851b9f85b2c1ceac5b01dba078f32
 workflow-type: tm+mt
-source-wordcount: '840'
+source-wordcount: '863'
 ht-degree: 17%
 
 ---
@@ -73,20 +73,15 @@ El procedimiento para crear solicitudes a partir de borradores difiere entre la 
 
 
 
-<!--
-   
-1. Open the draft.
 
-   Drafts can be found in the following locations:
-
-   * In the requests list in the Requests area
-   * In the requests list in the My Requests widget in Home
-   * In the New request dialog (includes only drafts of requests created with the selected form)
-   
--->
 1. Abra el borrador.
 
-   Los borradores se pueden encontrar en el cuadro de diálogo Nueva solicitud (incluye solo borradores de solicitudes creadas con el formulario seleccionado).
+   Los borradores se pueden encontrar en las siguientes ubicaciones:
+
+   * En la lista de solicitudes del área Solicitudes
+   * En la lista de solicitudes del widget Mis solicitudes, en Inicio
+   * En el cuadro de diálogo Nueva solicitud (solo incluye borradores de solicitudes creadas con el formulario seleccionado)
+
 1. Actualice la información de la solicitud tal como se describe en [Crear y enviar solicitudes de Adobe Workfront](../../../manage-work/requests/create-requests/create-submit-requests.md).
 1. (Opcional y condicional) En cualquier momento mientras escribe la solicitud, haga clic en **Descartar** borrador si desea eliminarlo. Esto elimina el borrador.
 
