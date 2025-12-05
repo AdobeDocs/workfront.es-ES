@@ -7,10 +7,10 @@ author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: 23372e16-3933-445d-977c-901f52299cb2
-source-git-commit: 476e10f2962f19fd17705cb5f20619d3b636aaa4
+source-git-commit: fb57f04a4031eaf38f88c3a1b2542d64ee230a8c
 workflow-type: tm+mt
-source-wordcount: '1606'
-ht-degree: 0%
+source-wordcount: '1673'
+ht-degree: 1%
 
 ---
 
@@ -85,27 +85,6 @@ Puede crear varias programaciones en la instancia de Workfront y aplicar una pre
 
 Para obtener más información acerca de Programaciones, consulte el artículo [Crear una programación](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
 
-### Administrar la información adicional necesaria para planificar el proyecto {#manage-additional-information-needed-for-planning-the-project}
-
-Al planificar un proyecto, hay información adicional que debe configurarse antes de que pueda comenzar a trabajar en él.
-
-Considere la posibilidad de hacer las siguientes preguntas:
-
-* ¿Existe una regulación que le ordene mantener un registro de los eventos y procesos? En caso afirmativo, ¿de qué debe hacer un seguimiento?
-
-  Workfront permite registrar ediciones, cambios de ámbito, cambios de estado y acciones para que pueda cumplir con las regulaciones específicas de su sector.\
-  Para obtener más información sobre cómo definir qué actualizaciones rastrear en Workfront, consulte el artículo [Actualizaciones rastreadas por el sistema](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md).
-
-* ¿Hay alguna información que se le pida que rastree que no tenga un campo en Workfront en el que almacenarlo?
-
-  Si es así, cree Forms personalizado para proyectos o tareas en los que pueda almacenar esta información.
-
-  Para obtener más información sobre la creación de formularios personalizados, consulte el artículo [Crear un formulario personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
-
-* ¿Hay algún punto de comprobación de aprobación que deba otorgarse antes de que pueda continuar el trabajo en un proyecto? Si es así, cree procesos de aprobación para proyectos o tareas que pueda utilizar mientras crea el proyecto.
-
-  Para obtener más información acerca de los procesos de aprobación, vea el artículo [Crear un proceso de aprobación para elementos de trabajo](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
-
 ## Crear la cronología del proyecto
 
 Después de determinar los objetivos principales de un proyecto y de decidir si merece la pena ejecutarlo, debe calcular la cronología de cada objetivo. Cada objetivo puede convertirse en una de las tareas del proyecto.
@@ -172,3 +151,32 @@ Al definir tareas, tenga en cuenta lo siguiente:
    * Reasigne las tareas a usuarios que estén disponibles sin otras restricciones.\
      Para obtener más información acerca de cómo planificar los recursos del proyecto, vea el artículo [Planificación de recursos: índice de artículos](../../../resource-mgmt/resource-planning/resource-planning-overview.md).\
      Para obtener más información sobre cómo programar los recursos para que realicen el trabajo en un proyecto, vea [Resumen del Distribuidor de cargas de trabajo](../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
+
+## Administrar la información adicional necesaria para planificar el proyecto {#manage-additional-information-needed-for-planning-the-project}
+
+Al planificar un proyecto, hay información adicional que debe configurarse antes de que pueda comenzar a trabajar en él.
+
+Considere la posibilidad de hacer las siguientes preguntas:
+
+* ¿Existe una regulación que le ordene mantener un registro de los eventos y procesos? En caso afirmativo, ¿de qué debe hacer un seguimiento?
+
+  Workfront permite registrar ediciones, cambios de ámbito, cambios de estado y acciones para que pueda cumplir con las regulaciones específicas de su sector.\
+  Para obtener más información sobre cómo definir qué actualizaciones rastrear en Workfront, consulte el artículo [Actualizaciones rastreadas por el sistema](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md).
+
+* ¿Hay alguna información que se le pida que rastree que no tenga un campo en Workfront en el que almacenarlo?
+
+  Si es así, cree Forms personalizado para proyectos o tareas en los que pueda almacenar esta información.
+
+  Para obtener más información sobre la creación de formularios personalizados, consulte el artículo [Crear un formulario personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+
+* ¿Necesita documentar los procesos y trabajar con recursos que forman parte del trabajo diario o determinar la resolución del proyecto? Si es así, cree un sistema para almacenar documentos.
+
+  Para obtener más información, vea [Documentos: índice de artículos](/help/quicksilver/documents/documents-overview.md).
+
+* ¿Hay algún punto de comprobación de aprobación que deba otorgarse antes de que pueda continuar el trabajo en un proyecto? Si es así, cree procesos de aprobación para proyectos o tareas que pueda utilizar mientras está creando el proyecto y haga un inventario de los documentos o pruebas que deben aprobarse antes de que pueda continuar el trabajo.
+
+  Para obtener más información sobre las aprobaciones, consulte los siguientes artículos:
+
+   * [Crear un proceso de aprobación para elementos de trabajo](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md)
+   * [Revisar y aprobar el trabajo](/help/quicksilver/review-and-approve-work/review-and-approve-work.md)
+   * [Funcionalidad disponible para aprobaciones de documentos unificados](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/asset-review-and-approval.md)

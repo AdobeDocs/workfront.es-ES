@@ -5,10 +5,10 @@ description: La función Project Health utiliza el poder del Asistente de IA par
 author: Jenny
 feature: Get Started with Workfront
 exl-id: e4d200c6-7f35-4919-96d3-2880a655ed62
-source-git-commit: ed5a8725442a0b3de993a4e8f47280bfc7d88160
+source-git-commit: b95be2e0917b53195ac327880a2ea7399c1485de
 workflow-type: tm+mt
-source-wordcount: '1965'
-ht-degree: 3%
+source-wordcount: '2060'
+ht-degree: 4%
 
 ---
 
@@ -37,7 +37,7 @@ Para obtener más información sobre el Asistente de IA, consulte [Descripción 
 </col> 
 <tbody> 
 <tr> 
-   <td role="rowheader"><p>paquete de Adobe Workfront</p></td> 
+   <td role="rowheader"><p>Paquete de Adobe Workfront</p></td> 
    <td> 
 <p>Seleccionar o superior </p> 
 <p>Selección de flujo de trabajo o superior</p>
@@ -55,7 +55,14 @@ Para obtener más información sobre el Asistente de IA, consulte [Descripción 
    <td><p>Debe ser administrador del sistema para administrar las configuraciones de estado del proyecto </p>
    <p>Editar el acceso a los proyectos para aplicar las configuraciones de estado del proyecto </p>
      <p>Ver el acceso a los proyectos para ver las configuraciones del estado del proyecto </p>
+     <p>Ver el acceso a los programas para utilizar Ver el estado del proyecto para todos los proyectos de un programa</p>
   </td> 
+  <tr> 
+   <td role="rowheader"><p>Permisos de objeto</p></td> 
+   <td><p>Administrar permisos en proyectos para aplicar configuraciones de Project Health </p>
+     <p>Ver permisos en proyectos para ver las configuraciones de estado del proyecto </p>
+  </td> 
+  </tr> 
   </tr>  
     </tr>  
 </tbody> 
@@ -66,16 +73,16 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
 
 ## Inscríbase en la versión beta de Project Health
 
-Para utilizar Project Health, su organización debe tener habilitado el Asistente para IA.
+Su organización debe tener habilitado el Asistente para IA para poder usar Project Health.
 
 Para habilitar el Asistente de IA y el Estado del proyecto para su organización, deben aplicarse todas las siguientes condiciones:
 
-* Su organización debe haber migrado a Adobe IMS (sistema Identity Management).
-* Su organización debe tener un plan Select, Prime o Ultimate Workfront
+* Su organización debe haber migrado al sistema Identity Management de Adobe (IMS).
+* Su organización debe tener un paquete Workfront o Workflow Select, Prime o Ultimate.
 * La experiencia unificada de Adobe debe estar habilitada.
 * Adobe debe tener registrado un acuerdo de Adobe Gen AI.
-* El administrador de Workfront debe habilitar el Asistente de IA para los usuarios de su organización. El asistente de IA se habilita mediante niveles de acceso.
-* Las opciones Habilitar IA y Estado del proyecto deben estar seleccionadas en la sección Preferencias de IA en Configuración > Sistema > Preferencias.
+* El administrador de Workfront debe habilitar el asistente de IA para los usuarios de su organización. El asistente de IA se habilita mediante niveles de acceso.
+* Las opciones Habilitar IA y Estado del proyecto deben estar seleccionadas en la sección Preferencias de IA del área Preferencias del sistema en Configuración.
 
   ![Sección de preferencias de IA](assets/ai-preferences.png)
 
@@ -127,9 +134,12 @@ Las condiciones del proyecto y el estado del proyecto son conceptos similares en
 
 Las condiciones del proyecto ofrecen una instantánea básica del rendimiento actual de un proyecto, basándose únicamente en las fechas planificadas, proyectadas y estimadas. El propietario del proyecto puede configurarlo manualmente o, de forma automática, Workfront en función de las tareas del proyecto. Como alternativa, el estado del proyecto es más completo y evalúa factores adicionales, lo que le ofrece una comprensión de mayor nivel de su rendimiento.
 
-Para obtener más información sobre las condiciones del proyecto, consulte [Condiciones personalizadas](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-conditions/custom-conditions.md).
+Para obtener más información sobre las condiciones del proyecto, consulte los siguientes artículos:
 
-## Lista de estados de proyecto y programa
+* [Actualizar la condición de un proyecto](/help/quicksilver/manage-work/projects/updating-work-in-a-project/update-condition-on-project.md)
+* [Condiciones personalizadas](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-conditions/custom-conditions.md).
+
+## Lista de estados de mantenimiento del proyecto y programa
 
 La tabla siguiente contiene un desglose de los estados disponibles que el Asistente de inteligencia artificial asignará al proyecto o programa al generar una evaluación de estado del proyecto.
 
@@ -184,7 +194,7 @@ La tabla siguiente contiene un desglose de los estados disponibles que el Asiste
 
 ## Lista de peticiones del Asistente de IA
 
-A continuación se muestra una lista de preguntas que puede utilizar para solicitar a la evaluación de IA que genere una evaluación de estado del proyecto para un proyecto, programa o todos los proyectos de su cuenta.
+A continuación se muestra una lista de mensajes que puede utilizar para solicitar al Asistente de IA que genere una evaluación del estado del proyecto para un proyecto, programa o todos los proyectos a los que tiene acceso.
 
 <table>
     <tr>
@@ -215,19 +225,21 @@ A continuación se muestra una lista de preguntas que puede utilizar para solici
 
 ## Administrar configuraciones de estado del proyecto
 
-Una configuración de mantenimiento del proyecto contiene criterios específicos que determinan cómo se calcula el estado del proyecto. Después de crear una configuración, puede aplicarla a un proyecto.
+Debe ser administrador del sistema para administrar las configuraciones de estado del proyecto.
 
->[!NOTE]
->
->Debe ser administrador del sistema para administrar las configuraciones de estado del proyecto.
+Una configuración de mantenimiento del proyecto contiene criterios específicos que determinan cómo se calcula el estado del proyecto. Una vez que el administrador de Workfront haya creado una configuración, podrá aplicarla a un proyecto.
+
+Puede tener varias configuraciones de estado del proyecto en el sistema.
 
 {{step-1-to-setup}}
 
-1. Haga clic en **Preferencias del proyecto** en el panel izquierdo y, a continuación, seleccione **Estado del proyecto** en la lista desplegable que aparece.
+1. Haga clic en **Preferencias del proyecto** en el panel izquierdo y, a continuación, seleccione **Estado del proyecto**.
 
-1. En la esquina superior derecha de la página, seleccione **Nueva configuración**.
+1. En la esquina superior derecha de la página, haga clic en **Nueva configuración**.
 
-1. (Opcional) En la página de detalles de las configuraciones, reemplace *Configuración sin título* por una nueva configuración **Nombre**.
+   Se abre la página **Configuración de IA**.
+
+1. (Opcional) Haga clic dentro del título de **Configuración sin título** para cambiar el nombre de la configuración.
 
 1. En la sección **Qué factores desea incluir en el estado del proyecto**, anule la selección de cualquier factor que no desee incluir al determinar los criterios de estado del proyecto:
    * **Cambio de ámbito**: Cuánto se ha ampliado el ámbito del proyecto desde que se inició.
@@ -249,45 +261,48 @@ Una configuración de mantenimiento del proyecto contiene criterios específicos
 
 1. En **¿Cómo calcula el ámbito de trabajo de un proyecto?**, seleccione qué factor de proyecto aumentará a medida que aumente el ámbito del proyecto.
 
-1. En el **¿Qué campos desea comprobar para ver si están completos?**, seleccione uno o más campos que se verificarán para determinar la integridad del proyecto.
+1. En **¿Qué campos obligatorios desea comprobar?**, seleccione uno o varios campos que deben contener un valor para el proyecto.
 
-   ![Campos de finalización del proyecto](assets/project-completeness-fields.png)
+   ![Campos requeridos del proyecto para el estado del proyecto](assets/project-completeness-fields.png)
 
+1. Haga clic en **Agregar** para ver más campos de proyecto o tarea nativos o personalizados.
 
 1. Haz clic en **Guardar** en la esquina superior derecha.
 
 ## Aplicar configuraciones de estado del proyecto
 
-Una vez que un administrador ha creado una configuración de estado del proyecto, los usuarios con acceso de edición pueden aplicarla a un proyecto.
-
+Una vez que el administrador de Workfront ha creado una configuración de estado del proyecto, puede aplicarla a un proyecto si tiene permisos de administración en un proyecto.
 
 {{step1-to-projects}}
 
 1. En la página **Proyectos**, seleccione un proyecto.
 
-1. Haga clic en el icono **Más** ![Más icono](assets/more-icon.png) a la derecha del nombre del proyecto y, a continuación, seleccione **Editar**. Se abre el panel lateral **Editar proyecto**.
+1. Haga clic en el icono **Más** ![Más icono](assets/more-icon.png) a la derecha del nombre del proyecto y, a continuación, seleccione **Editar**. Se abre el cuadro **Editar proyecto**.
 
-1. En el panel izquierdo, seleccione **Configuración del proyecto**.
+1. En el panel izquierdo, haga clic en **Configuración del proyecto**.
 
 1. En el campo **Configuración de mantenimiento del proyecto**, seleccione la configuración que desee aplicar a este proyecto.
 
    ![Campo de configuración de mantenimiento del proyecto](assets/project-health-configurations.png)
 
-1. Haga clic en **Guardar** en la esquina inferior izquierda del panel.
+1. Haga clic en **Guardar** en la esquina inferior izquierda de la página.
 
 ## Generar una evaluación de estado del proyecto para un proyecto o programa
 
-Si tiene acceso de visualización para un proyecto o programa, puede generar su evaluación del estado del proyecto con el asistente de IA.
+Puede generar una evaluación del estado del proyecto desde el Asistente de IA en las siguientes áreas:
 
-Si está generando una evaluación para un proyecto, puede hacerlo desde la página del proyecto o haciendo referencia al nombre del proyecto cuando pregunte al asistente el rendimiento del proyecto.
+* Para un proyecto, puede generar la evaluación desde la página del proyecto o haciendo referencia al nombre del proyecto cuando pregunte al asistente el rendimiento de un proyecto específico.
 
-Si está generando una evaluación para un programa, puede hacerlo desde la página de detalles del programa.
+* Para un programa, puede generar la evaluación en la página Detalles del programa.
 
 >[!NOTE]
 >
->No se puede generar una evaluación de estado del proyecto para un proyecto hasta que se haya iniciado el proyecto. Puede configurar los déclencheur de evento de un proyecto para que comiencen en la configuración del proyecto.
+>* Necesita permisos de visualización en el proyecto o el programa para generar una evaluación.
+>* No se puede generar una evaluación de estado del proyecto para un proyecto hasta que se haya iniciado el proyecto. Puede configurar los déclencheur de evento de un proyecto para que comiencen en Preferencias de proyecto
 
-Para obtener más información, vea la siguiente sección de este artículo: [Administrar configuraciones de estado del proyecto](#manage-project-health-configurations).
+Para obtener más información, consulte la sección [Administrar configuraciones de estado del proyecto](#manage-project-health-configurations) en este artículo.
+
+Para generar una evaluación de estado del proyecto para un proyecto o programa:
 
 1. Desplácese hasta el proyecto o programa para el que desee generar una evaluación de estado del proyecto.
 
@@ -302,17 +317,17 @@ Para obtener más información, vea la siguiente sección de este artículo: [Ad
    >[!NOTE]
    >
    >Si accede al Asistente de IA desde una página diferente en Workfront, escriba *¿Cuál es el estado del proyecto [NOMBRE DEL PROYECTO]?* o *Cuál es el estado del programa [NOMBRE DEL PROGRAMA]?* <br>
-   >Para obtener una lista completa de los mensajes actuales que puede especificar, consulte la siguiente sección en este artículo: [Lista de mensajes del Asistente de IA](#ai-assistant-prompts-list).
+   >Para obtener una lista completa de los mensajes actuales que puede escribir, consulte la sección [Lista de mensajes del Asistente de IA](#ai-assistant-prompts-list) en este artículo.
 
-1. Haga clic en el icono **Enviar** ![Enviar icono](assets/send-icon.png). La evaluación del estado del proyecto genera y aparece en el panel. Aparece una insignia en la parte superior de cada evaluación de estado del proyecto, que refleja la condición actual del proyecto.
+1. Haga clic en el icono **Enviar** ![Enviar icono](assets/send-icon.png). La evaluación del estado del proyecto se genera y se muestra en el panel. Se muestra un distintivo en la parte superior de cada evaluación de estado del proyecto, que refleja la condición actual del proyecto.
 
    ![Evaluación del estado del proyecto](assets/health-assessment.png)
 
-   Si está generando una evaluación para un portafolio, se enumerarán varias insignias que mostrarán la condición de cada proyecto en el programa. Para obtener más información sobre las etiquetas de distintivo, consulte la siguiente sección en este artículo: [Lista de estados de proyectos y programas](#project-and-program-states-list).
+   Si está generando una evaluación para un programa, se enumerarán varias insignias que mostrarán la condición de cada proyecto en el programa. Para obtener más información sobre las etiquetas de distintivo, consulte la sección [Lista de estados de proyectos y programas](#project-and-program-states-list) en este artículo.
 
 1. (Opcional) Haga clic en uno de los puntos de evaluación para ampliar sus detalles.
 
-1. (Opcional) En el modo de detalles expandidos, haga clic en el vínculo de la tarea para abrir los detalles de la tarea.
+1. (Opcional) En el modo de detalles expandidos, haga clic en el vínculo del proyecto para abrir los detalles del proyecto.
 
    ![Detalles ampliados](assets/expanded-details.png)
 
@@ -320,9 +335,9 @@ Para obtener más información, vea la siguiente sección de este artículo: [Ad
 
 ## Generar una evaluación de estado del proyecto para varios proyectos
 
-Puede generar una evaluación combinada del estado del proyecto para todos los proyectos para los que actualmente tiene acceso de visualización (o superior).
+Puede generar una evaluación combinada del estado del proyecto para todos los proyectos para los que actualmente tiene permisos de Vista o superiores.
 
-Un proyecto solo se incluirá en la evaluación combinada del estado del proyecto si el proyecto ha comenzado. Puede configurar los déclencheur de evento de un proyecto para que comiencen en la configuración del proyecto. Para obtener más información, vea la siguiente sección de este artículo: [Administrar configuraciones de estado del proyecto](#manage-project-health-configurations).
+Un proyecto solo se incluirá en la evaluación combinada del estado del proyecto si el proyecto ha comenzado. Puede configurar los déclencheur de evento de un proyecto para que comiencen en la configuración del proyecto. Para obtener más información, consulte la sección [Administrar configuraciones de estado del proyecto](#manage-project-health-configurations) en este artículo.
 
 1. Haga clic en el icono **Asistente de IA** ![Icono del Asistente de IA](assets/ai-assistant-icon.png) en la esquina superior derecha de la pantalla. Se abre el Ayudante de IA.
 
