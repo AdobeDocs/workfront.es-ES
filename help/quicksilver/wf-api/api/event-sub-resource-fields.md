@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 54859930-7619-4b93-8dff-29b10e43d6d5
-source-git-commit: 7960f134874ae2a2587dd2b6cb0ec5740955339d
+source-git-commit: 509b3454344d3775172b899e3bd4559416f54adc
 workflow-type: tm+mt
-source-wordcount: '1047'
+source-wordcount: '1049'
 ht-degree: 75%
 
 ---
@@ -115,7 +115,7 @@ En la tabla siguiente se enumeran los campos disponibles para los recursos de su
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td> Identificador </td> 
+   <td> ID </td> 
   </tr> 
   <tr> 
   <tr> 
@@ -2595,7 +2595,7 @@ En la tabla siguiente se enumeran los campos disponibles para los recursos de su
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>Identificador</td> 
+   <td>ID</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -2816,7 +2816,7 @@ En la tabla siguiente se enumeran los campos disponibles para los recursos de su
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>Identificador</td> 
+   <td>ID</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -3020,6 +3020,11 @@ En la tabla siguiente se enumeran los campos disponibles para los recursos de su
    <td> </td> 
    <td> </td> 
    <td>proyecto: portfolioID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>proyecto:estado</td> 
   </tr> 
   <tr> 
    <td> </td> 
