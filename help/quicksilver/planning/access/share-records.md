@@ -230,7 +230,7 @@ Puede ajustar los permisos a los registros individuales si tiene permiso de admi
 
 1. Comparta el vínculo copiado con otros usuarios. Los usuarios que reciban el vínculo deben ser usuarios activos e iniciar sesión en Workfront para poder acceder a la página de tipo de registro y mostrarla en la vista seleccionada. Deben tener permisos sobre el tipo de registro para poder verlo. Para obtener más información, vea también [Compartir registros mediante un vínculo](/help/quicksilver/planning/records/share-records.md).
 
-## Quitar permisos a un registro (*************** ESTO SE COPIÓ DE LOS TIPOS DE REGISTRO, DEBE EDITARSE PARA LOS REGISTROS, PERO ESPERE A LA RESPUESTA DE SLACK DE LILIT **********)
+## Quitar permisos a un registro (**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;*** ESTO SE COPIÓ DE LOS TIPOS DE REGISTRO, DEBE EDITARSE PARA LOS REGISTROS, PERO ESPERE A LA RESPUESTA DE SLACK DE LILIT &#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**)
 
 Puede quitar los permisos de los usuarios de un registro. Sin embargo, conservarán al menos los permisos de Vista en el espacio de trabajo de registros, que también les otorga al menos permisos de Vista en el tipo de registro. Debe quitar su acceso al espacio de trabajo si desea que no tengan permisos para los tipos de registro del espacio de trabajo.
 
