@@ -10,10 +10,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 5cb42dd8-1557-4fa4-ab3d-8278ce9afd96
-source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
+source-git-commit: 1f1db1c9184a6a8a2abcd3139e4e4e61d2f08bc4
 workflow-type: tm+mt
-source-wordcount: '1715'
-ht-degree: 93%
+source-wordcount: '1654'
+ht-degree: 85%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 93%
 
 >[!NOTE]
 >
->En este artículo se describen los niveles de acceso integrados actuales en Adobe Workfront. Para obtener información acerca de los nuevos niveles de acceso integrados, consulte [Información general sobre los nuevos niveles de acceso](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md).
+>La información de este artículo hace referencia a los niveles de acceso heredados. Para obtener información acerca de los nuevos niveles de acceso, vea [Información general sobre los nuevos niveles de acceso](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md).
 
 
 Cada uno de los seis niveles de acceso integrados actuales está diseñado para un tipo particular de usuario. Estos niveles de acceso le permiten controlar lo que los usuarios pueden editar y ver en el sistema.
@@ -131,7 +131,7 @@ A continuación se muestran las opciones de acceso más altas disponibles para l
 
 | Tipo de objeto de Workfront | Sin acceso | Acceso de visualización | Acceso de edición |
 |---|---|---|---|
-| Proyectos |   |   | ✓ (Limitado: los usuarios solo pueden compartir el proyecto, crear tareas y problemas en él y editar datos en formularios personalizados que ya se hayan adjuntado.) |
+| Proyectos |   |   | ✓ (Limitado: los usuarios solo pueden compartir el proyecto, crear tareas y problemas en él y editar datos en formularios personalizados que ya estén adjuntos a él). |
 | Tareas |   |   | ✓ |
 | Problemas |   |   | ✓ |
 | Portafolios |   | ✓ (La configuración predeterminada es Sin acceso). |   |
@@ -140,7 +140,7 @@ A continuación se muestran las opciones de acceso más altas disponibles para l
 | Filtros, vistas y agrupaciones |   |   | ✓ |
 | Documentos |   |   | ✓ |
 | Usuarios |   |   | ✓ |
-| Equipos |   |   | ✓ (Acceso limitado) |
+| Equipos |   |   | ✓ (acceso limitado) |
 | Plantillas | ✓ |   |   |
 | Datos financieros |   | ✓ (La configuración predeterminada es Sin acceso. La configuración Ver permite al usuario ver solo el área de Finanzas en Detalles del proyecto). |   |
 | Administración de recursos |   | ✓ |   |
@@ -293,8 +293,8 @@ Las siguientes son las opciones de acceso más altas disponibles para los objeto
 
 | Tipo de objeto de Workfront | Sin acceso | Acceso de visualización | Acceso de edición |
 |---|---|---|---|
-| Proyecto |   | ✓ (Solo la página Detalles del proyecto) |   |
-| Tarea |   | ✓ (Solo la página Detalles de la tarea) |   |
+| Proyecto |   | ✓ (solo la página de detalles del proyecto) |   |
+| Tarea |   | ✓(solo la página Detalles de la tarea) |   |
 | Problema |   |   | ✓ |
 | Portafolios | ✓ |   |   |
 | Programas | ✓ |   |   |
@@ -327,7 +327,7 @@ No es posible modificar este nivel de acceso.
 
 >[!IMPORTANT]
 >
->El usuario externo solo está disponible si la opción “Colaborar con personas sin cuentas de Workfront mediante el uso de su dirección de correo electrónico” está activada en el área Preferencias del sistema en Configuración. Para obtener más información, consulte [Configurar las preferencias de seguridad del sistema](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md).
+>El usuario externo solo está disponible si la opción “Colaborar con personas sin cuentas de Workfront mediante el uso de su dirección de correo electrónico” está habilitada en el área Preferencias del sistema en Configuración. Para obtener más información, consulte [Configurar las preferencias de seguridad del sistema](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md).
 
 Aunque esta configuración no está visible en el área de Niveles de acceso para el nivel de acceso del usuario externo, un usuario con este acceso tiene el siguiente acceso más alto a los tipos de objetos de Workfront:
 
@@ -338,7 +338,7 @@ Aunque esta configuración no está visible en el área de Niveles de acceso par
 | Problema | ✓ |   |   |
 | Portafolios | ✓ |   |   |
 | Programas | ✓ |   |   |
-| Informes, paneles de control y calendarios |   | ✓ (Solo para informes de calendario; no se permite compartir informes) |   |
+| Informes, paneles de control y calendarios |   | ✓ (solo para informes de calendario; no se pueden compartir informes) |   |
 | Filtros, vistas y agrupaciones | ✓ |   |   |
 | Documentos |   | ✓ (sin la capacidad de compartir documentos) |   |
 | Usuarios |   | ✓ |   |

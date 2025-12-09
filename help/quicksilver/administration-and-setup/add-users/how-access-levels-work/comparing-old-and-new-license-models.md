@@ -5,21 +5,26 @@ content-type: reference
 product-area: system-administration
 keywords: acceso, nivel, sistema, administrador, estándar, light, colaborador
 navigation-topic: access-levels
-description: Vea una comparación de la funcionalidad disponible para diferentes licencias en el modelo de licencias antiguo y en el nuevo.
+description: Vea una comparación de las funcionalidades disponibles para las distintas licencias en el modelo de licencias nuevo y heredado.
 author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 101a0ce2-dfa6-44ea-a197-22bc85ef50f5
-source-git-commit: a215cf721cc4d517ee39cfa864e29dbbbfeb0a31
+source-git-commit: 1f1db1c9184a6a8a2abcd3139e4e4e61d2f08bc4
 workflow-type: tm+mt
-source-wordcount: '319'
-ht-degree: 44%
+source-wordcount: '349'
+ht-degree: 41%
 
 ---
 
 # Comparar funcionalidad entre modelos de licencia
 
-Esta tabla muestra la funcionalidad disponible para las licencias en el modelo de licencias antiguo y en el nuevo.
+Existen dos tipos de niveles de acceso en Adobe Workfront:
+
+* Nuevos niveles de acceso. Para obtener más información, vea [Información general sobre los nuevos niveles de acceso](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md).
+* Niveles de acceso heredados. Para obtener más información, consulte [Información general sobre los niveles de acceso](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
+
+En la tabla siguiente se muestra la funcionalidad disponible para las licencias en el modelo de licencias antiguo y en el nuevo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -317,7 +322,7 @@ Esta tabla muestra la funcionalidad disponible para las licencias en el modelo d
    <td></td> 
   </tr> 
   <tr> 
-   <td>Creación de plantillas</td> 
+   <td>Crear plantillas</td> 
    <td>✓</td> 
    <td></td> 
    <td></td> 

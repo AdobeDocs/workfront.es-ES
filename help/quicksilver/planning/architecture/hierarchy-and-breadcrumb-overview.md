@@ -3,9 +3,9 @@ title: Información general de jerarquía y ruta
 description: Puede crear varias jerarquías de espacio de trabajo entre los tipos de registro de un espacio de trabajo.
 hide: true
 hidefromtoc: true
-source-git-commit: f345cc0d41dc1bd62e7361fa0755cb7ba72465a0
+source-git-commit: 1f1db1c9184a6a8a2abcd3139e4e4e61d2f08bc4
 workflow-type: tm+mt
-source-wordcount: '405'
+source-wordcount: '612'
 ht-degree: 0%
 
 ---
@@ -28,12 +28,16 @@ hidefromtoc: yes
 
 Como administrador del espacio de trabajo, puede definir jerarquías flexibles pero estructuradas entre tipos de registro y y otros tipos de objetos en Adobe Workfront Planning.
 
+Las jerarquías son conexiones entre tipos de registros. Puede tener hasta 4 tipos de registros y objetos conectados en una jerarquía.
+
+Para obtener información acerca de cómo crear jerarquías, vea [Crear jerarquías de área de trabajo](/help/quicksilver/planning/architecture/create-workspace-hierarchies.md).
+
 Las siguientes son ventajas de utilizar jerarquías en los espacios de trabajo:
 
 * Organizar el trabajo de forma que refleje la forma en que los equipos realmente planean, operan y entregan.
-* Los usuarios entienden dónde están, cómo se conectan los tipos de registros y cómo fluye la estrategia en la ejecución al hacer referencia a un conjunto de rutas de exploración que indican su lugar en el sistema.
-* Ofrezca una mejor navegación y cree claridad y continuidad en todos los flujos de trabajo.
-* Las jerarquías no aplican una estructura rígida definida por el sistema y, en su lugar, le permiten definir flujos que se ajustan a cómo funciona su organización, lo que admite flexibilidad y coherencia en todas las etapas de trabajo.
+* Para que los usuarios entiendan dónde están, cómo se conectan los tipos de registros y cómo fluye la estrategia en la ejecución, consultando un conjunto de rutas de exploración que indican su lugar en el sistema.
+* Para ofrecer una mejor navegación y crear claridad y continuidad en todos los flujos de trabajo.
+* Definir flujos que se adapten al funcionamiento de su organización, que admitan flexibilidad y coherencia en todas las etapas de trabajo.
 
 ## Consideraciones al trabajar con jerarquías
 
@@ -52,11 +56,28 @@ Por ejemplo, la táctica A puede pertenecer tanto a la Campaña X como a la Camp
    * Las jerarquías pueden incluir tipos de registros de Planning y tipos de objetos de Workfront.
 
      Por ejemplo, puede tener un tipo de registro de campaña con Tácticas de planificación y Proyectos de Workfront como elementos secundarios.
-   * Los tipos de registros globales pueden aparecer en varios espacios de trabajo dentro de varias jerarquías.
+
+     <!--asking if ONLY projects are supported here in slack; if yes, make a note to say that only Projects are supported; also add a note about AEM -->
+   * Los tipos de registros globales pueden aparecer en varios espacios de trabajo dentro de varias jerarquías. <!--not sure if this AFTER they were added to another workspace; right now, I can see only the current workspace when building one??-->
    * Los tipos de objetos de Workfront también pueden aparecer en varias jerarquías y en diferentes espacios de trabajo.
-     <!--Not sure what this means: * Shared record can't be part of hierarchies.-->
+   * Los tipos de registros globales no pueden formar parte de jerarquías de espacios de trabajo diferentes.
+
+     Por ejemplo, si una campaña es un tipo de registro global y forma parte de una jerarquía en Workspace 1, se puede agregar como un tipo de registro existente a Workspace 2, pero no puede formar parte de una jerarquía allí. <!--verifying that this is not connectable RT and it is about global ones - checking in slack-->
    * Los tipos de registros con conexiones que no crean un campo correspondiente en sus tipos de registros vinculados también pueden formar parte de jerarquías. Las nuevas conexiones que se crean durante la configuración de la jerarquía siempre crearán un campo correspondiente en los tipos de registros vinculados de forma predeterminada.
 
 ## Consideraciones al ver rutas
+
+Cuando se crean jerarquías entre tipos de registros, se generan rutas de exploración para los registros que pertenecen a esos tipos de registros.
+
+Por ejemplo, si crea una jerarquía y conecta Campañas con Tácticas y, a continuación, Proyectos, cuando navega a un registro de cualquiera de los tipos conectados en la jerarquía, puede ver en qué parte de la jerarquía se coloca el registro.
+
+Tenga en cuenta lo siguiente:
+
+* Si un tipo de registro forma parte de varias jerarquías en varios espacios de trabajo, puede cambiar entre jerarquías desde la ruta de exploración del registro en la página del registro.
+* Las rutas de exploración funcionan en Workfront y Planning.
+
+  Por ejemplo, al ver un proyecto conectado a campañas y tácticas de Planning, así como a portafolios y programas de Workfront, puede cambiar entre las jerarquías de Planning y Workfront desde la ruta de exploración.
+
+  Para obtener más información, vea [Crear jerarquías de área de trabajo](/help/quicksilver/planning/architecture/create-workspace-hierarchies.md).
 
 

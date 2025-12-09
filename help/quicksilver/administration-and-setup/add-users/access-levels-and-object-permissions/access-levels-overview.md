@@ -10,16 +10,21 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 7c323af9-8c33-48ad-9aff-96758e96b40b
-source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
+source-git-commit: 1f1db1c9184a6a8a2abcd3139e4e4e61d2f08bc4
 workflow-type: tm+mt
-source-wordcount: '307'
-ht-degree: 98%
+source-wordcount: '328'
+ht-degree: 82%
 
 ---
 
 # Información general de los niveles de acceso
 
 <!-- Audited: 12/2023 -->
+
+>[!NOTE]
+>
+>La información de este artículo hace referencia a los niveles de acceso heredados. Para obtener información acerca de los nuevos niveles de acceso, vea [Información general sobre los nuevos niveles de acceso](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md).
+
 
 Como administrador de Adobe Workfront, asigna un nivel de acceso a un usuario para dos fines:
 
@@ -57,8 +62,18 @@ Para obtener información sobre temas relacionados con los niveles de acceso, co
    <td> <p>Para obtener instrucciones sobre cómo asignar un nivel de acceso a un usuario, consulte <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">Editar el perfil de un usuario</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td>Niveles de acceso: Estándar, Ligero, Colaborador</td> 
-   <td> <p>Si ve estos niveles de acceso en su entorno en lugar de Plan, Trabajo, Revisión o Solicitud, su organización utiliza el nuevo modelo de nivel de acceso. Para obtener información sobre el nuevo modelo, consulte <a href="../../../administration-and-setup/add-users/how-access-levels-work/access-level-overview.md" class="MCXref xref">Información general de los nuevos niveles de acceso</a>.</p> </td> 
+   <td><b>Tipos de niveles de acceso</b></td> 
+   <td><p>Existen dos tipos de niveles de acceso en Workfront:</p>
+   <ul><li>Niveles de acceso heredados</li>
+   <ul><li>Plan</li>
+   <li>Trabajo</li>
+   <li>Revisar</li>
+   <li>Solicitud</li></ul>
+   <li>Nuevos niveles de acceso:</li>
+   <ul><li>Estándar</li>
+   <li>Ligero</li>
+   <li>Colaborador</li></ul></ul> 
+   <p>Para obtener información sobre los nuevos niveles de acceso, vea <a href="../../../administration-and-setup/add-users/how-access-levels-work/access-level-overview.md" class="MCXref xref">Información general sobre los nuevos niveles de acceso</a>.</p> </td> 
   </tr> 
   <!--
   <tr> 
