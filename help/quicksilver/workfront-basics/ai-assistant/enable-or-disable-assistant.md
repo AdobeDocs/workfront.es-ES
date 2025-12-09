@@ -5,10 +5,10 @@ description: Puede controlar qué niveles de acceso de su organización tienen a
 author: Becky
 feature: Get Started with Workfront
 exl-id: eec9f484-e29b-4256-b9ef-b45eb2e78eac
-source-git-commit: 8a0923bbdc8731652e59647409ef9b32e802e895
+source-git-commit: 184636b0d8df85e75502fc3650900244cfbd0e80
 workflow-type: tm+mt
-source-wordcount: '201'
-ht-degree: 66%
+source-wordcount: '245'
+ht-degree: 55%
 
 ---
 
@@ -25,7 +25,7 @@ Como administrador de Workfront, puede controlar qué usuarios de su organizaci�
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera </p> </td> 
   </tr> 
   <tr> 
@@ -46,10 +46,6 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 
 ## Habilitar o deshabilitar el asistente de IA en Workfront
 
->[!NOTE]
->
->El Asistente de IA está desactivado de forma predeterminada para los usuarios que no son administradores.
-
 Para habilitar el asistente de IA para un nivel de acceso determinado:
 
 1. Haga clic en el icono **[!UICONTROL Main Menu]** ![Menú principal](/help/_includes/assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront o, si está disponible, haga clic en el icono **[!UICONTROL Main Menu]** ![Menú principal](/help/_includes/assets/main-menu-icon-left-nav.png) en la esquina superior izquierda y, a continuación, haga clic en **[!UICONTROL Setup]** ![Icono de Configuración](/help/_includes/assets/gear-icon-setup.png).
@@ -58,4 +54,11 @@ Para habilitar el asistente de IA para un nivel de acceso determinado:
 1. En el área **Establecer restricciones adicionales...** del cuadro **Editar nivel de acceso**, desmarque la casilla de verificación **Deshabilitar el Asistente de IA de Workfront**.
 1. Haga clic en **Guardar**.
 1. Repita los pasos del 3 al 5 para cada nivel de acceso para el que desee habilitar el Asistente de IA.
+
+
+
+>[!NOTE]
+>
+>* El Asistente de IA está desactivado de forma predeterminada para los usuarios que no son administradores.
+>* Si un usuario que no es administrador interactúa con el icono del asistente de IA en Workfront, aparece el acuerdo del asistente de IA en el que se solicita al usuario que no es administrador que acepte los términos y condiciones. Si aceptan el acuerdo, pueden utilizar el Asistente de IA aunque esté deshabilitado en su plantilla de diseño.
 
