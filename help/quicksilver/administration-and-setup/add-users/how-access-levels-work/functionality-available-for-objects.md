@@ -10,7 +10,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: a419e4fe-7781-48ac-8765-bd605fa44bc9
-source-git-commit: 1f1db1c9184a6a8a2abcd3139e4e4e61d2f08bc4
+source-git-commit: 3d0a6932bda338af1e6b3dcba49bfc0ac486d919
 workflow-type: tm+mt
 source-wordcount: '1335'
 ht-degree: 93%
@@ -23,7 +23,7 @@ ht-degree: 93%
 
 >[!NOTE]
 >
->La información de este artículo hace referencia a los nuevos niveles de acceso. Para obtener información acerca de los niveles de acceso heredados, vea [Información general sobre los niveles de acceso](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
+>La información de este artículo hace referencia a los niveles de acceso actuales. Para obtener información acerca de los niveles de acceso heredados, vea [Información general sobre los niveles de acceso](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
 
 En las tablas siguientes se enumeran las funciones disponibles para cada tipo de objeto en los distintos niveles de acceso.
 
@@ -32,7 +32,7 @@ También indica qué acciones pueden deshabilitar o habilitar los administradore
 >[!NOTE]
 >
 >* En este artículo se describe la funcionalidad disponible para los niveles de acceso en el nuevo modelo de plan de Workfront. Para ver la funcionalidad disponible en el modelo de plan actual, consulte [Funcionalidad disponible para cada tipo de objeto para varios niveles de acceso](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md).
->* Para obtener una lista de las funcionalidades disponibles para los distintos planes del nuevo modelo de plan, consulte [Precios y paquetes de Adobe Workfront](https://business.adobe.com/es/products/workfront/pricing.html).
+>* Para obtener una lista de las funcionalidades disponibles para los distintos planes del nuevo modelo de plan, consulte [Precios y paquetes de Adobe Workfront](https://business.adobe.com/products/workfront/pricing.html).
 
 ## Proyectos
 

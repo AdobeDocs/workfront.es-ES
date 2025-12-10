@@ -9,7 +9,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 87fb5673-6e36-4182-958a-d69a56fe7b68
-source-git-commit: 1f1db1c9184a6a8a2abcd3139e4e4e61d2f08bc4
+source-git-commit: 3d0a6932bda338af1e6b3dcba49bfc0ac486d919
 workflow-type: tm+mt
 source-wordcount: '433'
 ht-degree: 90%
@@ -22,7 +22,7 @@ ht-degree: 90%
 
 >[!NOTE]
 >
->La información de este artículo hace referencia a los nuevos niveles de acceso. Para obtener información acerca de los niveles de acceso heredados, vea [Información general sobre los niveles de acceso](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
+>La información de este artículo hace referencia a los niveles de acceso actuales. Para obtener información acerca de los niveles de acceso heredados, vea [Información general sobre los niveles de acceso](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
 
 En la siguiente tabla se indica el nivel más alto de acceso (Editar o Ver) que cada una de las licencias de Adobe Workfront permite para los objetos y áreas en Workfront.
 

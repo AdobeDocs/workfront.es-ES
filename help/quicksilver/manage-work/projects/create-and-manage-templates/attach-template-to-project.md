@@ -6,10 +6,10 @@ description: Puede adjuntar una plantilla a un proyecto durante la fase de creac
 author: Alina
 feature: Work Management
 exl-id: bce9af59-5467-4458-b923-01bfa469e2d8
-source-git-commit: 7fef704355fad677f2bdf40e630ea0146a9e1d58
+source-git-commit: 3d0a6932bda338af1e6b3dcba49bfc0ac486d919
 workflow-type: tm+mt
-source-wordcount: '1057'
-ht-degree: 48%
+source-wordcount: '1126'
+ht-degree: 46%
 
 ---
 
@@ -30,7 +30,7 @@ Para obtener más información sobre cómo crear un proyecto con una plantilla, 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
@@ -159,15 +159,23 @@ Puede adjuntar una plantilla a un proyecto desde la página del proyecto o desde
      </tr> 
      <tr> 
       <td role="rowheader">Las siguientes tareas de plantilla seleccionadas se importan al proyecto. Anule la selección de aquellas que quiera excluir. </td> 
-      <td>Anule la selección de cualquier tarea que desee excluir de la plantilla antes de adjuntarla al proyecto.</td> 
+      <td><p>Anule la selección de cualquier tarea que desee excluir de la plantilla antes de adjuntarla al proyecto.</p>
+      <p><b>Sugerencia</b></p>
+      <p>Solo puede elegir una tarea.</p>
+      </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Seleccione la tarea del proyecto que desee como predecesora para las tareas de esta plantilla.</td> 
-      <td> <p>Haga clic en el campo para mostrar una lista de tareas de proyecto y, a continuación, seleccione qué tarea debe finalizar antes de que puedan comenzar las tareas de plantilla. De forma alternativa, puede omitir este paso y configurar relaciones dentro del proyecto después de adjuntar la plantilla. </p> <p> Seleccione la información de <strong>Tipo de dependencia</strong>, <strong>Tiempo de retardo</strong> y, si desea que se aplique el predecesor, marque la casilla de verificación <strong>Aplicar predecesor</strong>. </p> </td> 
+      <td> <p>Haga clic dentro del cuadro de campo para mostrar una lista de tareas de proyecto y, a continuación, seleccione qué tarea debe finalizar antes de que puedan comenzar las tareas de plantilla. De forma alternativa, puede omitir este paso y configurar relaciones dentro del proyecto después de adjuntar la plantilla. </p> <p> Seleccione la información de <strong>Tipo de dependencia</strong>, <strong>Tiempo de retardo</strong> y, si desea que se aplique el predecesor, marque la casilla de verificación <strong>Aplicar predecesor</strong>. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Seleccione la tarea del proyecto que desee como principal de las tareas de esta plantilla.</td> 
-      <td> Seleccione qué tarea del proyecto desea designar como tarea principal para todas las tareas de la plantilla. Si no realiza ninguna selección, todas las tareas de plantilla aparecerán al final de las tareas del proyecto actual. Puede omitir este paso y mover las tareas en el proyecto después de adjuntar la plantilla.</td> 
+      <td> <p>Seleccione qué tarea del proyecto desea designar como tarea principal para todas las tareas de la plantilla. Si no realiza ninguna selección, todas las tareas de plantilla aparecerán al final de las tareas del proyecto actual. Puede omitir este paso y mover las tareas en el proyecto después de adjuntar la plantilla.</p>
+      <p><b>NOTA</b></p>
+      <p>Si ha seleccionado una tarea de plantilla principal con tareas secundarias adicionales, solo la principal mostrará la tarea del proyecto como su predecesora después de agregarla al proyecto. Las tareas de plantilla secundarias no mostrarán una predecesora.</p>
+      <p>Si ha seleccionado solo una tarea de plantilla secundaria, la tarea del proyecto se mostrará como su predecesora después de agregarla al proyecto. </p>
+
+   </td> 
      </tr> 
      <tr> 
       <td role="rowheader" colspan="2"> <p role="rowheader" colspan="2">Sección Opciones</p> <p role="rowheader" colspan="2"> <img src="assets/attach-template-large-box-options-section-nwe-350x78.png" style="width: 350;height: 78;"> </p> </td> 

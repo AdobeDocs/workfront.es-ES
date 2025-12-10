@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 3b2fc764-f384-41bb-9d88-b2b88434ffc6
-source-git-commit: e6fc6def1553df3faa8e1200f7ec2ca2bb97eb04
+source-git-commit: 3d0a6932bda338af1e6b3dcba49bfc0ac486d919
 workflow-type: tm+mt
-source-wordcount: '2063'
+source-wordcount: '2118'
 ht-degree: 2%
 
 ---
@@ -109,7 +109,7 @@ En la tabla siguiente se describen los requisitos de acceso y permisos para util
    <td role="rowheader"><p>Funciones de usuario de Adobe GenStudio for Performance Marketing</p></td> 
    <td><p><ul><li>Cualquier función de usuario de GenStudio para acceder a campañas, productos y personas</li>
    <li>GenStudio System Manager para acceder a las activaciones <!--and Events--></li></ul>
-   Para obtener más información, consulte <a href="https://experienceleague.adobe.com/es/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">Funciones de usuario y permisos</a>. 
+   Para obtener más información, consulte <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">Funciones de usuario y permisos</a>. 
    </p>
   </td> 
   </tr>   
@@ -164,7 +164,7 @@ Para obtener más información sobre Adobe GenStudio for Performance Marketing, 
    <td role="rowheader"><p>Adobe GenStudio for Performance Marketing user roles</p></td> 
    <td><p><ul><li>Any GenStudio user role to access Campaigns, Products, and Personas</li>
    <li>GenSudio System Manager to access Activations ****and Events****</li></ul>
-   For information, see <a href="https://experienceleague.adobe.com/es/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
+   For information, see <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
    </p>
   </td> 
   </tr>   
@@ -242,6 +242,7 @@ Las secciones siguientes describen lo siguiente:
   ![Tarjeta de GenStudio en Planning](assets/genstudio-card-with-tag-highlighted.png)
 
   Para obtener más información, consulte [Administrar el espacio de trabajo de GenStudio en Adobe Workfront Planning](/help/quicksilver/planning/planning-and-genstudio-integration/manage-gen-studio-workspace-in-planning.md).
+* El espacio de trabajo de GenStudio se comparte automáticamente con todos los usuarios de GenStudio que también tienen acceso a Workfront cuando se crea en Workfront Planning.
 * Cuando tenga permisos de administración en el espacio de trabajo de GenStudio en Planning, podrá:
 
    * Actualizar el espacio de trabajo de GenStudio en Planning (nombre, descripción, icono)
@@ -254,9 +255,8 @@ Las secciones siguientes describen lo siguiente:
      <!--
         >[!NOTE]
         >
-        >You cannot remove GenStudio users from the GenStudio workspace or its record types' sharing. -->
-     <!--check to see this is correct-->
-     <!--* Delete the workspace - check to see if this is possible; the link is there, but???-->
+        >You cannot remove GenStudio users from the GenStudio workspace or its record types'sharing. -->
+  <!--* Delete the workspace - check to see if this is possible; the link is there, but???-->
 
 * Si tiene permisos de contribución en el espacio de trabajo de GenStudio en Planning, no podrá modificarlo desde Workfront Planning.
 
@@ -265,16 +265,18 @@ Las secciones siguientes describen lo siguiente:
 * Los tipos de registro visibles tanto en GenStudio for Performance Marketing como en Planning tienen un indicador GenStudio en Workfront Planning.
 
   ![Tarjeta de tipo de registro de GenStudio en Workfront Planning](assets/genstudio-record-type-with-tag-and-tooltip-highlighted.png)
+* Los tipos de registro del espacio de trabajo de GenStudio se comparten automáticamente con todos los usuarios de GenStudio que también tienen acceso a Workfront cuando el espacio de trabajo se crea en Planning.
 * Cuando tenga permisos de administración en el espacio de trabajo de GenStudio en Planning, puede hacer lo siguiente desde Workfront Planning:
    * Editar información de tipos de registros de GenStudio (su aspecto, configuración avanzada).
    * Compartir tipos de registros de GenStudio con otros usuarios.
    * Crear tipos de registros. Estos tipos de registros permanecen únicamente en Workfront Planning. No se muestran en GenStudio.
-   * Habilite los registros de GenStudio Workspace para conectarse desde otros espacios de trabajo.
-   * Habilite registros de GenStudio Workspace para agregarlos a otros espacios de trabajo.
+   * Habilite los tipos de registros de GenStudio Workspace para conectarse desde otros espacios de trabajo.
+   * Habilite los tipos de registros de GenStudio Workspace para que se agreguen a otros espacios de trabajo.
 * Si tiene permisos de contribución en el espacio de trabajo de GenStudio en Planning, no puede modificar los tipos de registros de GenStudio desde Planning.
 
 ### Registros en GenStudio Workspace
 
+* Todos los registros de GenStudio se comparten automáticamente con todos los usuarios de GenStudio que también tienen acceso a Workfront cuando se crea el espacio de trabajo en Planning.
 * Al editar registros de GenStudio desde GenStudio for Performance Marketing, los cambios son visibles en el espacio de trabajo de GenStudio en todas las instancias de Workfront.
 * No puede crear ni eliminar registros de activación del espacio de trabajo de GenStudio en Workfront Planning.
 * Si tiene permisos de Administración o de Contribución en el espacio de trabajo de GenStudio en Planning, puede hacer lo siguiente desde Workfront Planning:
@@ -313,12 +315,10 @@ Tenga en cuenta lo siguiente sobre los campos de tipo de registro de GenStudio:
 
      >[!TIP]
      >
-     >Los campos creados en Workfront Planning no son visibles en GenStudio.
+     >Los campos creados en Workfront Planning no son visibles en las listas de GenStudio.
 
    * Ocultar campos en la vista de tabla de un tipo de registro de GenStudio en Workfront Planning.
-&lt;!—* Elimine los campos creados en Workfront Planning para los tipos de registros de GenStudio desde Workfront Planning. — esto no es posible, per Iskuhi; el vínculo está allí, pero generará un error—>
-
-  <!--this is not true: You cannot delete fields imported from GenStudio from Workfront Planning.-->
+   * No puede eliminar campos creados en GenStudio desde Workfront Planning.
 
 * Cuando tenga permisos de contribución en el espacio de trabajo de GenStudio en Planning:
 

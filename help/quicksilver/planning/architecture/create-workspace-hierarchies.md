@@ -4,10 +4,10 @@ description: Como administrador de espacio de trabajo, puede crear varias jerarq
 hide: true
 hidefromtoc: true
 exl-id: 2f83c427-4439-499d-a0b2-fc8630552cae
-source-git-commit: ff9371b639e7684a94c08b8cd6293b632fac9edf
+source-git-commit: 3d0a6932bda338af1e6b3dcba49bfc0ac486d919
 workflow-type: tm+mt
-source-wordcount: '248'
-ht-degree: 10%
+source-wordcount: '619'
+ht-degree: 4%
 
 ---
 
@@ -35,7 +35,6 @@ Después de conectar los tipos de registro en un espacio de trabajo y crear una 
 Las jerarquías generarán rutas de exploración para los tipos de registros y los registros <!--ensure this is the case: does the breadcrumb show for both the RT and the record??--> que se muestran en sus encabezados. De este modo, los usuarios saben dónde se encuentran en la jerarquía en cualquier fase del flujo de trabajo.
 
 Para obtener información general acerca de jerarquías y rutas de exploración, vea [Información general sobre jerarquías y rutas de exploración](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md).
-
 
 ## Requisitos de acceso
 
@@ -81,3 +80,58 @@ Para obtener más información acerca de los requisitos de acceso de Workfront, 
 +++
 
 ## Creación de una jerarquía de Workspace
+
+{#step1-to-planning}
+
+1. Haga clic en una tarjeta de Workspace.
+1. Haga clic en el menú **Más** ![Menú más](assets/more-menu.png) que se encuentra a la derecha del nombre del área de trabajo y, a continuación, haga clic en **Configuración**.
+La sección **Jerarquías** se abre de manera predeterminada.
+1. Haga clic en **Nueva jerarquía** en la esquina superior derecha de la página **Jerarquías**.
+1. Haga clic en **Agregar objeto** y seleccione un objeto en el menú desplegable. Va a ser el objeto principal de la jerarquía.
+Puede seleccionar un tipo de registro del espacio de trabajo actual o un proyecto de Workfront.
+1. Haga clic en **Agregar objeto** para agregar un segundo objeto, que es el primer elemento secundario de la jerarquía, y luego seleccione otro objeto en el menú desplegable.
+   ![Nuevo cuadro de jerarquía sin campo seleccionado](assets/new-hierarchy-modal-without-connecte-fielf-selected.png)
+1. Haga clic en **Seleccionar campo conectado** para indicar qué campo conecta los dos objetos.
+1. (Condicional) Si existe un campo conectado entre los dos tipos de objeto, selecciónelo en la lista. De lo contrario, haga clic en **Agregar nueva conexión**.
+
+   >[!WARNING]
+   >
+   >Si el **campo Crear correspondiente en el tipo de registro vinculado** no se seleccionó cuando se creó el campo conectado, debe editar primero el campo para poder continuar.
+
+1. (Condicional) Si va a agregar una nueva conexión, haga lo siguiente:
+
+   1. Agregue un nombre para el campo conectado en el cuadro **Nombre**.
+   1. Seleccione entre los siguientes tipos de conexión:
+
+      * **Varios a varios**
+      * **Uno a varios**
+      * **Varios a uno**
+      * **Uno a uno**
+   1. Seleccione uno de los siguientes tipos de apariciones de registros:
+
+      * **Nombre e imagen**
+      * **Nombre**
+      * **Imagen**
+Para obtener más información, vea [Conectar tipos de registros](/help/quicksilver/planning/architecture/connect-record-types.md).
+   1. Haga clic en **Guardar**.
+1. (Opcional) Siga agregando hasta 4 tipos de objetos a las jerarquías siguiendo los pasos anteriores. Puede agregar primero todos los tipos de objetos y, a continuación, agregar los campos de conexión entre ellos.
+1. (Opcional) Haga clic en el icono **Quitar** ![Quitar icono](assets/minus-icon.png) para quitar una conexión.
+1. Haga clic en **Guardar** para guardar la jerarquía.
+
+   >[!TIP]
+   >
+   >El botón **Guardar** aparece atenuado si no dispone de todos los campos conectados.
+
+   Ocurren lo siguiente:
+
+   * La jerarquía se agrega a la sección **Jerarquías** del área de trabajo.
+   * Los registros que rellenan los campos de conexión muestran todas las conexiones en sus rutas de exploración, cuando va a la página de un registro.
+1. (Opcional) Pase el ratón sobre una jerarquía, haga clic en el menú **Más** y, a continuación, haga clic en una de las siguientes opciones:
+
+   * **Editar**: Se abre el cuadro **Editar jerarquía** donde puede realizar cambios.
+   * **Eliminar**: Esto elimina la jerarquía de forma permanente. Las jerarquías eliminadas no se pueden recuperar. Los campos de conexión no se eliminan.
+
+
+
+
+
