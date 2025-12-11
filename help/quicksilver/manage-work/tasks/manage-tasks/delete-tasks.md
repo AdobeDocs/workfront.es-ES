@@ -6,10 +6,10 @@ description: Puede eliminar tareas que puedan ser duplicadas o que se hayan crea
 author: Alina
 feature: Work Management
 exl-id: aee5c293-e5fa-413e-9d9b-c62528941be7
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+source-git-commit: 0c0ffbeefb0eed8d1ca2a6e68ed19b40080726df
 workflow-type: tm+mt
-source-wordcount: '774'
-ht-degree: 26%
+source-wordcount: '810'
+ht-degree: 25%
 
 ---
 
@@ -28,7 +28,7 @@ Para las tareas que tienen información histórica (actualizaciones, cambios de 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
@@ -98,37 +98,40 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 
 Al eliminar una tarea, se afectan otros objetos vinculados a la tarea.
 
-Los siguientes objetos adjuntos a una tarea también se eliminan al eliminarla:
+Tenga en cuenta lo siguiente:
 
-* Documentos
+* Los siguientes objetos adjuntos a una tarea también se eliminan al eliminarla:
+
+   * Documentos
 
   No se puede eliminar una tarea que tenga un documento desprotegido adjunto. Para obtener más información sobre cómo desproteger documentos, consulte [Desproteger documentos](../../../documents/managing-documents/check-out-documents.md).
 
-* Problemas
-* Subtareas
-* Notas
-* Rutas de aprobación
+   * Problemas
+   * Subtareas
+   * Notas
+   * Rutas de aprobación
 
-Según la forma en que el administrador de Workfront configure las preferencias de eliminación de proyectos, tareas o problemas en las preferencias de plantilla de horas y horas de la instancia de Workfront, las horas registradas para las tareas se gestionan de una de las siguientes maneras al eliminar una tarea:
+* Según la forma en que el administrador de Workfront configure las preferencias de eliminación de proyectos, tareas o problemas en las preferencias de plantilla de horas y horas de la instancia de Workfront, las horas registradas para las tareas se gestionan de una de las siguientes maneras al eliminar una tarea:
 
-* Mover al proyecto y no se restaurará en la tarea, si esta se restaura posteriormente.
-* Se eliminan y se restaurarán en la tarea, si esta se restaura posteriormente.
+   * Mover al proyecto y no se restaurará en la tarea, si esta se restaura posteriormente.
+   * Se eliminan y se restaurarán en la tarea, si esta se restaura posteriormente.
 
   Esto también se aplica cuando se intenta eliminar proyectos que tienen tareas con horas registradas en ellos.
 
-  <!--
+  Para obtener más información acerca de cómo configurar las preferencias de eliminación para los problemas de horas registradas, consulte [Configurar preferencias de plantilla de horas y de horas](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+   * Los gastos de la tarea se moverán al proyecto.
+
+   * Los usuarios asignados a la tarea o a la aprobación de la tarea permanecen en el equipo del proyecto.
+
+  Para obtener más información sobre los equipos del proyecto, consulte [Información general del equipo del proyecto](../../../manage-work/projects/planning-a-project/project-team-overview.md).
+
+* Cuando se elimina una tarea secundaria y se mueve su tarea principal a otro proyecto y, a continuación, se restaura la tarea secundaria eliminada, la tarea se vuelve a agregar al proyecto original como tarea principal.
+
+<!--
   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
   (NOTE: this stays NWE; not possible in classic;)
   </MadCap:conditionalText>
   -->
-
-  Para obtener más información acerca de cómo configurar las preferencias de eliminación para los problemas de horas registradas, consulte [Configurar preferencias de plantilla de horas y de horas](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
-
-* Los gastos de la tarea se moverán al proyecto.
-
-* Los usuarios asignados a la tarea o a la aprobación de la tarea permanecen en el equipo del proyecto.
-
-  Para obtener más información sobre los equipos del proyecto, consulte [Información general del equipo del proyecto](../../../manage-work/projects/planning-a-project/project-team-overview.md).
 
 ## Eliminar tareas
 

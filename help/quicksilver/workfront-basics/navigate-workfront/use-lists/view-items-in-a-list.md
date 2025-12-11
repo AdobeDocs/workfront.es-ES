@@ -5,16 +5,16 @@ description: Puede ver listas de objetos en  [!DNL Adobe Workfront]  para obtene
 feature: Get Started with Workfront
 author: Nolan
 exl-id: d4262b8e-bbe0-4ac2-8f1f-5d32541311c8
-source-git-commit: ca16652aa06b4652d0d1b41156ed1ef96225c49a
+source-git-commit: 0c0ffbeefb0eed8d1ca2a6e68ed19b40080726df
 workflow-type: tm+mt
-source-wordcount: '2405'
-ht-degree: 69%
+source-wordcount: '2301'
+ht-degree: 72%
 
 ---
 
 # Introducción a las listas en [!DNL Adobe Workfront]
 
-<!--Audited: 11/2024-->
+<!--Audited: 12/2025-->
 
 Puede ver listas de objetos en [!DNL Adobe Workfront] para obtener información sobre ellos, como sus fechas de inicio y vencimiento, los usuarios asignados a ellos y otros objetos asociados con ellos.
 
@@ -206,7 +206,7 @@ A continuación se muestran algunos tipos de listas de objetos que se pueden enc
    <td>Lista de plantillas de horas</td> 
    <td> 
     <ul> 
-     <li> <p>[!UICONTROL Timesheet] s  &gt; [!UICONTROL All Timesheets]*</p> </li> 
+     <li> <p>[!UICONTROL Plantillas de horas] &gt; [!UICONTROL Todas las plantillas de horas]*</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -293,7 +293,7 @@ A continuación se muestran algunos tipos de listas de objetos que se pueden enc
  </tbody> 
 </table>
 
-No se puede personalizar la lista en el área especificada. Un administrador de [!DNL Workfront] puede generar una lista personalizada a nivel de sistema, o el usuario puede generar un informe para este objeto si su nivel de acceso le permite tener acceso a la edición de informes.
+* No se puede personalizar la lista en el área especificada. Un administrador de [!DNL Workfront] puede generar una lista personalizada a nivel de sistema, o el usuario puede generar un informe para este objeto si su nivel de acceso le permite tener acceso a la edición de informes.
 
 ## Lista de elementos
 
@@ -649,25 +649,19 @@ La tabla siguiente muestra algunas de las diferencias entre las listas estándar
   </tr> 
   <tr>
   <td> <p>Se muestran <strong>Todos</strong> o hasta <strong>2000</strong> elementos de forma predeterminada</p> </td> 
-   <td> Mostrar hasta 100 elementos de forma predeterminada y hasta 2000 después del desplazamiento </td> 
+   <td> Mostrar todos los elementos de la lista después de desplazarse manualmente </td> 
   </tr>
 
 <tr> 
-   <td>Los iconos de la parte superior de la lista son algo coherentes en todas las listas, independientemente de dónde acceda a ellos. Algunas listas, tareas, problemas o documentos tienen iconos únicos relacionados con la funcionalidad de estos tipos de objetos. </td> 
-   <td>Los iconos de la parte superior de la lista difieren según desde dónde acceda a la lista. Además, hay una barra azul en la parte inferior de la lista que se muestra al seleccionar elementos en la lista.</td> 
+   <td>La interacción con los elementos de la lista es coherente en todos los tipos de objetos y se realiza mediante los iconos de la parte superior de la lista.  </td> 
+   <td>La interacción con los elementos de la lista puede variar según el tipo de objeto y se realiza mediante los iconos de la parte superior de la lista, así como mediante la barra de herramientas azul activada después de seleccionar los elementos de la lista. </td> 
   </tr>
 
-<tr> 
-   <td> <p>Utilice los iconos de la barra de herramientas situada en la parte superior de la lista para interactuar con los elementos de la lista</p> </td> 
-   <td> <p>Realice una de las siguientes acciones para interactuar con los elementos de la lista, según lo que desee actualizar:</p>
-   <ul><li>Utilice los iconos de la barra de herramientas situada en la parte superior para realizar algunas acciones, como buscar, agregar nuevos elementos, ordenar o filtrar</li>
-   <li>Seleccione un elemento de la lista y utilice los iconos de la barra de herramientas azul situada en la parte inferior de la lista para realizar algunas acciones, como eliminar o ver elementos</li></ul> 
-   </tr>   
-   </td> 
+</td> 
   </tr> 
   <tr> 
    <td><p>Puede aplicar cambios de color de celda a los elementos de una lista</p></td>
-   <td><p>Solo puede aplicar cambios de color de celda a los elementos de una lista en Workfront Planning. </p></td>
+   <td><p>No se pueden aplicar cambios de color de celda a los elementos de una lista. </p></td>
    </td> 
    <td></td> 
   </tr> 

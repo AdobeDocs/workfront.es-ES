@@ -6,10 +6,10 @@ description: Puede personalizar el tipo de información que se muestra en la pan
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 8fcd6320-c939-4195-8972-5c31575f78cb
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 0c0ffbeefb0eed8d1ca2a6e68ed19b40080726df
 workflow-type: tm+mt
-source-wordcount: '1713'
-ht-degree: 84%
+source-wordcount: '898'
+ht-degree: 63%
 
 ---
 
@@ -19,7 +19,9 @@ ht-degree: 84%
 
 Puede personalizar el tipo de información que se muestra en la pantalla mediante las vistas. Puede utilizar varios tipos de vistas en Adobe Workfront.
 
-En este artículo se describe cómo crear y editar vistas estándar para listas e informes, y cómo crear vistas de Agile. Para obtener más información, consulte [Información general sobre vistas en Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+Este artículo describe cómo crear y editar vistas estándar para listas e informes.
+
+Para obtener más información, consulte [Información general sobre vistas en Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
 ## Requisitos de acceso
 
@@ -30,7 +32,7 @@ En este artículo se describe cómo crear y editar vistas estándar para listas 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
@@ -58,7 +60,7 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
 
 ## Creación o personalización de una vista
 
-El proceso de creación o personalización de una vista varía en función de si está creando o personalizando una vista estándar o una vista de Agile.
+El proceso de creación o personalización de una vista varía en función de si se está creando o personalizando una vista estándar o una vista Agile o de Tablero.
 
 * [Crear o personalizar una vista estándar](#create-or-customize-a-standard-view)
 * [Crear o personalizar una vista de Agile](#create-or-customize-an-agile-view)
@@ -161,115 +163,116 @@ Se muestra el cuadro de diálogo **Personalizar vista**.
 
 ### Crear o personalizar una vista de Agile {#create-or-customize-an-agile-view}
 
-Puede crear una vista de Agile o personalizar una existente que haya creado anteriormente.
+Las vistas de Agile, también denominadas vistas de Tablero, solo se muestran para listas de tareas y problemas de un proyecto.
 
->[!IMPORTANT]
->
->Las vistas de Agile solo están disponibles cuando se visualiza un proyecto.
+Están preconfigurados, pero puede modificar algunos de sus ajustes.
 
-Para obtener más información acerca de las vistas de Agile, consulte el artículo [Administrar un proyecto en la vista de Agile](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md).
+Para obtener más información acerca de las vistas de Agile o Tablero, vea el artículo [Administrar un proyecto en la vista de Agile](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md).
+
+<!-- Legacy Agile views were deprecated with 25.3. This is old: 
 
 >[!NOTE]
 >
->Este procedimiento solo se aplica a la vista de Agile heredada, no a la vista de tablero de un proyecto.
+>This procedure only applies to the legacy Agile view, not to the board view of a project.
 
-Para crear o personalizar una vista de Agile, haga lo siguiente:
+To create or customize an Agile view:
 
-1. Vaya a la lista de tareas de un proyecto.
-1. Haga clic en el icono **Tablero** ![Icono Tablero](assets/board-icon-for-agile-view.png) y, a continuación, haga clic en **Utilizar el legado de Agile** en la vista del tablero.
+1. Go to the list of tasks on a project.
+1. Click the **Board** icon ![Board icon](assets/board-icon-for-agile-view.png), and then click **Use legacy agile** on the board view.
 
-1. (Condicional) Para personalizar una vista de Agile existente, haga lo siguiente:
+1. (Conditional) To customize an existing Agile view:
 
-   1. Haga clic en el menú desplegable **Vista** y, a continuación, seleccione la vista de Agile que desee personalizar.\
-      No se puede personalizar la vista de Agile predeterminada.
+   1. Click the **View** drop-down menu, then select the Agile view you want to customize.  
+      You cannot customize the default Agile view.
+   
+   1. Click the **View** drop-down menu again, then click **Customize View**.  
+      ![Customize view](assets/view-agile-customize.png)
 
-   1. Vuelva a hacer clic en el menú desplegable **Vista** y, a continuación, haga clic en **Personalizar vista**.\
-      ![Personalizar vista](assets/view-agile-customize.png)
+1. (Conditional) To create a new Agile view, click **New View**.  
+   The **Customize Agile View** dialog box displays.  
 
-1. (Condicional) Para crear una nueva vista de Agile, haga clic en **Nueva vista**.\
-   Se muestra el cuadro de diálogo **Personalizar vista de Agile**.
+1. In the **Customize Agile View** dialog box, specify a name for the Agile view.  
+   We recommend that you include the word "Agile" in your view name, so users know this is an Agile view.  
+   This name is displayed in the **View** drop-down menu when selecting a view.
 
-1. En el cuadro de diálogo **Personalizar vista de Agile**, especifique un nombre para esta.\
-   Se recomienda incluir la palabra “Agile” en el nombre de la vista para que los usuarios sepan que se trata de una vista de Agile.\
-   Este nombre se muestra en el menú desplegable **Vista** al seleccionar una vista.
+1. Define the status columns to display on the story board in the agile view. These are the task statuses that are defined by the Workfront administrator, as described in [Create or edit a status](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
 
-1. Defina las columnas de estado para mostrar en el tablero de historia en la vista de Agile. Estos son los estados de tareas definidos por el administrador de Workfront, tal como se describe en [Crear o editar un estado](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
+   Only system statuses are available to use on the Agile story board. If a status is available only for an individual group you are a member of, the status is not available on the agile story board. Furthermore, tasks that are in a status that is available only to a custom group are not visible when viewing the project in an Agile view.
 
-   Solo los estados del sistema están disponibles para su uso en el tablero de historia de Agile. Si un estado solo está disponible para un grupo individual al que pertenece, el estado no estará disponible en el tablero de historia de Agile. Además, las tareas que se encuentran en un estado que solo está disponible para un grupo personalizado no son visibles cuando se visualiza el proyecto en una vista de Agile.
-
-   Los usuarios pueden mover historias entre estas columnas de estado en el tablero de historias de Agile.\
-   Cuando vaya a definir columnas de estado, puede hacer lo siguiente:
+   Users can move stories among these status columns on the Agile story board.  
+   When defining status columns, you can do the following:
 
    <table style="table-layout:auto"> 
     <col> 
     <col>
     <tbody> 
      <tr> 
-      <td role="rowheader"><strong>Reordenar columnas de estado:</strong> </td> 
-      <td> Arrastre una columna de estado al orden en el que desea que aparezca.<br><img src="assets/agile-project-reorderstatuses-350x141.png" alt="" style="width: 350;height: 141;"></td> 
+      <td role="rowheader"><strong>Reorder status columns:</strong> </td> 
+      <td> Drag a status column to the order where you want it to appear.<br><img src="assets/agile-project-reorderstatuses-350x141.png" alt="" style="width: 350;height: 141;"></td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Quitar columnas de estado:</strong> </td> 
-      <td>Haga clic en el icono (x) de la columna que desee quitar.<br>No puede quitar el estado "Nuevo" a menos que se haya añadido un estado personalizado a la vista y que ese estado personalizado sea igual a "Nuevo".<br>Para obtener información sobre la creación de un estado personalizado, consulte <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md" class="MCXref xref">Crear o editar un estado</a>.</td> 
+      <td role="rowheader"><strong>Remove status columns:</strong> </td> 
+      <td>Click the (x) icon on the column that you want to remove.<br>You cannot remove the "New" status unless a custom status has been added to the view and that custom status equates with "New."<br>For information about creating a custom status, see <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md" class="MCXref xref">Create or edit a status</a>.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Añadir columnas de estado:</strong> </td> 
-      <td> <p>Haga clic en el icono de <strong>Más</strong> y, a continuación, seleccione el estado que desee añadir.<br>Se muestran todos los estados predeterminados del sistema, así como todos los estados personalizados que se han compartido con usted.<br>Puede configurar hasta 10 estados para mostrar.</p></td> 
+      <td role="rowheader"><strong>Add status columns:</strong> </td> 
+      <td> <p>Click the <strong>Plus</strong> icon, then select the status you want to add.<br>All default system statuses are displayed, as well as any custom statuses that have been shared with you.<br>You can configure up to 10 statuses to display.</p></td> 
      </tr> 
     </tbody> 
    </table>
 
-   <!--
-        <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE FOR ADD STATUS COLUMNS: research this and add: [! What if the status has been shared with me or a group I'm in (so I can see it here), but the status hasn't been shared with another user who also has access to a project where I later apply this view? Can that user still see this status on the project?]) </p>
-       -->
+   *********   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE FOR ADD STATUS COLUMNS: research this and add: [! What if the status has been shared with me or a group I'm in (so I can see it here), but the status hasn't been shared with another user who also has access to a project where I later apply this view? Can that user still see this status on the project?]) </p>
+       *************
 
-1. En el área **Asociar el color de tarjeta con**, seleccione una de las siguientes opciones:
+1. In the **Associate Card Color to** area, select from the following options:
 
    <table style="table-layout:auto"> 
     <col> 
     <col>
     <tbody> 
      <tr> 
-      <td role="rowheader"><strong>Historia:</strong> </td> 
-      <td>Cualquier subtarea coincide con el color de la tarea principal, de modo que los colores de todas las historias de cualquier carril especificado son los mismos.<br>Los colores se asignan aleatoriamente a las tareas cuando se crean si la tarea no tiene subtareas o no tiene una tarea principal.</td> 
+      <td role="rowheader"><strong>Story:</strong> </td> 
+      <td>Any subtasks match the color of the parent task, so that the colors of all stories in any given swimlane are the same.<br>Colors are randomly assigned to tasks when they are created if the task does not have any subtasks or does not have a parent task.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Forma libre:</strong> </td> 
-      <td> Todas las tarjetas se muestran en azul de forma predeterminada hasta que un usuario cambie el color manualmente, tal como se describe en el artículo <a href="../../../agile/use-scrum-in-an-agile-team/scrum-board/categorize-stories-by-color.md" class="MCXref xref">Clasificar las historias por el color en el tablero de Scrum</a>. </td> 
+      <td role="rowheader"><strong>Free Form:</strong> </td> 
+      <td> All cards are displayed as blue by default until a user changes the color manually, as described in the article <a href="../../../agile/use-scrum-in-an-agile-team/scrum-board/categorize-stories-by-color.md" class="MCXref xref">Categorize stories by color on the Scrum board</a>. </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Prioridad:</strong> </td> 
-      <td> <p> Los colores se asocian a la prioridad de la historia de la siguiente manera:</p> 
+      <td role="rowheader"><strong>Priority:</strong> </td> 
+      <td> <p> Colors are associated with the story priority, as follows:</p> 
        <ul> 
-        <li>Alta = Rojo</li> 
-        <li>Media = Amarillo</li> 
-        <li>Baja = Verde<br>Si el administrador de Workfront ha configurado prioridades personalizadas para su sistema Workfront, la prioridad más alta es de color rojo, la segunda más alta es amarilla y las restantes son verdes.</li> 
+        <li>High = Red</li> 
+        <li>Medium = Yellow</li> 
+        <li>Low = Green<br>If your Workfront administrator has configured custom priorities for your Workfront system, the highest priority is red, the second-highest is yellow, and the remaining are green.</li> 
        </ul> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Propietario de la tarea:</strong> </td> 
-      <td> Todas las historias con la misma persona principal asignada son del mismo color.<br>La persona asignada principal es el usuario que se asignó por primera vez a la tarea. </td> 
+      <td role="rowheader"><strong>Task Owner:</strong> </td> 
+      <td> All stories with the same primary assignee are the same color.<br>The primary assignee is the user who was first assigned to the task. </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. En el área **Campos adicionales**, haga clic en **Agregar campo** y, a continuación, seleccione el campo que desee agregar a las tarjetas de historia. (Son los mismos campos que puede añadir al crear, personalizar una vista o crear columnas para un informe).\
-   Repita este proceso para añadir hasta tres campos adicionales a las tarjetas de la historia.\
-   Cuando se añaden campos a las tarjetas de historia, los campos se muestran cuando se rellena el campo y son de solo lectura.
+1. In the **Additional Fields** area, click **Add Field**, then select the field you want to add to story cards. (These are the same fields you can add when creating customizing a view or creating columns for a report.)  
+   Repeat this process to add up to three additional fields to the story cards.  
+   When you add fields to story cards, fields are view-only and display only when the field is populated.
 
-   De forma predeterminada, los siguientes tipos de datos se muestran en la tarjeta de la historia:
+   By default, the following types of data is displayed on the story card:
 
-   * Nombre de la historia con un vínculo directamente a la tarea
-   * El nombre del proyecto con un vínculo directamente al proyecto\
-     Este vínculo solo se muestra cuando se utiliza la vista de Agile en una iteración; no se muestra cuando se utiliza una vista de Agile en un proyecto.
-   * La descripción de la tarea
-   * Compromiso actual
-   * Vea y edite el porcentaje completado ajustando el porcentaje completado en sí o ajustando el número de puntos u horas que se han completado
-   * Usuarios asignados
+   * Story name with a link directly to the task
+   * The project name with a link directly to the project  
+     This link is displayed only when using the agile view on an iteration; it is not displayed when using an Agile view on a project.
+   * The task description
+   * Current commitment
+   * View and edit the percent complete either by adjusting the percent complete itself or by adjusting the number of points or hours that are complete
+   * Assigned Users
 
-   Se pueden mostrar datos adicionales (incluidos datos personalizados) en las tarjetas de historias. Es posible que desee mostrar campos adicionales en las tarjetas de historias por varios motivos. Por ejemplo, es posible que desee mostrar el identificador del cliente si está trabajando en historias para varios clientes dentro del proyecto o puede que desee mostrar la fecha de inicio de la tarea.
+   You can display additional data (including custom data) on story cards. You might want to display additional fields on story cards for any number of reasons. For example, you might want to display the Customer ID if you are working on stories for multiple customers within the project, or you might want to display the Task Start Date.
 
-1. Haga clic en **Guardar**.\
-   Su acceso dicta cómo se guarda la vista. Si ha creado la vista originalmente, puede guardar los cambios; de lo contrario, se le pedirá que guarde una versión. Tenga en cuenta que los cambios que realice en la vista afectan a los usuarios con los que se ha compartido la vista.
+1. Click **Save**.  
+   Your access dictates how the view is saved. If you created the view originally, you can save the changes; otherwise, you are prompted to save a version. Keep in mind that changes you make to the view impact users with whom the view has been shared.
 
-1. (Opcional) Haga clic en el icono de **Lista** para regresar a la lista de tareas.
+1. (Optional) Click the **List** icon to return to the list of tasks.
+
+-->
