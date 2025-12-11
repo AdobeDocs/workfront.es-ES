@@ -8,10 +8,10 @@ feature: Requests
 topic: Collaboration
 role: User
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
-source-git-commit: 1a56846647e443cf3f5f09eed8c3084434de5ddb
+source-git-commit: ebdb1803fe57386a84d3d882b02a53ec4344b225
 workflow-type: tm+mt
-source-wordcount: '968'
-ht-degree: 82%
+source-wordcount: '1249'
+ht-degree: 63%
 
 ---
 
@@ -43,7 +43,7 @@ Puede localizar los siguientes tipos de solicitudes que ha enviado u otra person
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera </p> </td> 
   </tr> 
   <tr> 
@@ -73,7 +73,44 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 
 ## Localizar solicitudes enviadas
 
-Para localizar solicitudes que ha enviado u otros usuarios han enviado:
+La ubicación de las solicitudes enviadas difiere según si utiliza la experiencia de solicitud nueva o la heredada.
+
+### Localizar las solicitudes enviadas en la nueva experiencia de solicitud
+
+Para localizar solicitudes que usted u otros usuarios hayan enviado en la nueva experiencia de solicitud:
+
+{{step1-to-requests}}
+
+1. Asegúrese de que la opción **Usar nueva experiencia** esté habilitada en la esquina superior derecha de la pantalla.
+
+   Aparecerá la lista Solicitudes.
+
+1. (Opcional) Para buscar una solicitud, empiece a escribir en la barra de búsqueda situada en la parte superior derecha de la lista. Los resultados de la búsqueda aparecen a medida que escribe.
+1. (Opcional) Haga clic en **Filtros** y empiece a agregar condiciones para las solicitudes que desee localizar.
+
+   Puede filtrar por los siguientes campos:
+
+   * **Workspace**: área de trabajo con la que está asociado el formulario de solicitud.
+   * **Tipo de registro**: Tipo de registro al que está asociado el formulario de solicitud.
+   * **Fecha de entrada**: La fecha en la que se envió la solicitud.
+   * **Formulario de solicitud**: Nombre del formulario de solicitud utilizado para enviar la solicitud.
+   * **Estado**: El estado de la solicitud.
+   * **Ingresado por**: nombre del usuario que agregó la solicitud. Si alguien fuera de Workfront agregó la solicitud, el campo **Ingresado por** muestra `N/A`.
+
+   Puede tener varios filtros unidos por **And** o **Or**.
+La lista de solicitudes se filtra automáticamente a medida que se añaden las condiciones de filtro.
+1. (Opcional) Utilice las vistas para centrarse en las solicitudes que desee localizar.
+
+   Para obtener instrucciones, consulte [Crear o editar vistas en el área de solicitudes](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md).
+
+>[!NOTE]
+>
+>* Si tiene Workfront Planning, las solicitudes de Workfront y Planning aparecen en la misma lista. Las solicitudes de Workfront muestran el valor `Issue` en la columna Tipo de objeto.
+>* La lista Solicitudes aparece con 50 solicitudes mostradas. Para ver más solicitudes, desplácese hasta la parte inferior de la lista.
+
+### Busque las solicitudes enviadas en la experiencia de solicitud heredada
+
+Para localizar solicitudes que usted u otros usuarios hayan enviado en la experiencia de solicitud heredada:
 
 {{step1-to-requests}}
 
