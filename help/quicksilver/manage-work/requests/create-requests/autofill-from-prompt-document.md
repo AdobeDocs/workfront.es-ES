@@ -5,9 +5,9 @@ description: Puede utilizar IA para rellenar automáticamente los campos de soli
 author: Becky
 feature: Get Started with Workfront
 exl-id: 4a22f9ea-c9ee-4947-8683-9989c54903b1
-source-git-commit: 3c319ff406ca7705e618f3159edcf87d27d8229e
+source-git-commit: 59aa98645583fb79a5d61a248dca535a3460956f
 workflow-type: tm+mt
-source-wordcount: '1370'
+source-wordcount: '1351'
 ht-degree: 8%
 
 ---
@@ -16,12 +16,7 @@ ht-degree: 8%
 
 >[!NOTE]
 >
->* Esta funcionalidad estará disponible como una versión beta abierta en la siguiente programación:
->
->   * Versión mensual: 11 de septiembre de 2025
->   * Versión trimestral: 16 de octubre de 2025
->
->* Para utilizar esta funcionalidad, su organización debe cumplir los requisitos para utilizar Workfront AI Assistant. Para obtener más información, consulte [Requisitos previos para el asistente de IA](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant).
+>Para utilizar esta funcionalidad, su organización debe cumplir los requisitos para utilizar Workfront AI Assistant. Para obtener más información, consulte [Requisitos previos para el asistente de IA](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant).
 
 Rellenar formularios de IA puede ayudarle a rellenar automáticamente los campos de solicitud en función de una solicitud que haya introducido. También puede rellenar campos basados en texto como correos electrónicos o documentos cargados. Puede aprobar o rechazar estas sugerencias antes de enviar la solicitud.
 

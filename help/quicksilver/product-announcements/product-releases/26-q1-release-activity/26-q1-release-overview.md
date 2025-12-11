@@ -4,9 +4,9 @@ description: En esta página se ofrece información sobre la funcionalidad inclu
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 34e6f4386c768b94c3835d4a4d7e7deadc3fecda
+source-git-commit: e08ac842214a9bcff0acba3f34316bb5cfa4c4aa
 workflow-type: tm+mt
-source-wordcount: '1930'
+source-wordcount: '2108'
 ht-degree: 16%
 
 ---
@@ -40,6 +40,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
 * [Mejoras en el administrador](#administrator-enhancements)
 * [Mejoras de documentos y aprobaciones](#documents-and-approvals-enhancements)
 * [Mejoras en la integración](#integration-enhancements)
+* [Mejoras en el proyecto](#project-enhancements)
 * [Mejoras en la creación de informes](#reporting-enhancements)
 * [Solicitudes de mejoras](#requests-enhancements)
 * [Otras mejoras](#other-enhancements)
@@ -149,6 +150,29 @@ The <add release> release webinar will be held on <date>. You can [register for 
   </tbody>
 </table>
 
+### Mejoras en el proyecto
+
+<table style="table-layout:auto">
+  <tbody>
+   <tr>
+        <td><strong>Característica</strong>
+        </td>
+        <td><strong>Vista previa</strong></td>
+        <td><strong>Liberación rápida</strong></td>
+        <td><strong>Trimestralmente</strong></td>
+    </tr>
+         <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-projects.md" class="MCXref xref" xrefformat="{para}">Los usuarios ligeros pueden registrar tiempo en los proyectos</a>
+            <p>Los usuarios ligeros ahora pueden registrar tiempo directamente en los proyectos. Anteriormente, solo los usuarios con licencia estándar podían registrar horas en los proyectos.</p>
+        </td>
+        <td>viernes, 11 de diciembre de 2025</td>
+        <td>viernes, 15 de enero de 2026</td>
+        <td>viernes, 15 de enero de 2026</td>
+    </tr>   
+  </tbody>
+</table>
+
 ### Mejoras en la creación de informes
 
 <table style="table-layout:auto">
@@ -224,6 +248,15 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td><strong>Trimestralmente</strong></td>
     </tr>
     <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-1-q1-requests.md" class="MCXref xref" xrefformat="{para}">Relleno de formulario con tecnología de IA ya disponible para solicitudes</a>
+            <p>Para facilitar la creación de solicitudes, se ha creado el relleno de formulario con tecnología de IA. Ahora, puede pegar un mensaje o cargar un documento en un formulario de solicitud, y AI extraerá la información relevante y rellenará el formulario.  </p>
+        </td>
+        <td>viernes, 11 de diciembre de 2025</td>
+        <td>viernes, 11 de diciembre de 2025</td>
+        <td>viernes, 11 de diciembre de 2025</td>
+    </tr> 
+    <tr>
         <!--<td>
             <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-1-q1-requests.md" class="MCXref xref" xrefformat="{para}">Share views in the Requests area and the My Requests widget</a>
             <p>To make it easier to ensure to see the information you need, we've added the ability to share views to the new reporting experience. Now, you can share views with other users, teams, or groups. </p>
@@ -295,6 +328,15 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td>viernes, 13 de noviembre de 2025</td>
         <td>viernes, 15 de enero de 2026</td>
              </tr>   
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-other.md" class="MCXref xref" xrefformat="{para}">Adobe Unified Experience ya está disponible para más organizaciones de Workfront</a><p></p>
+            <p>Para permitir que las organizaciones accedan a las ventajas de la experiencia unificada de Adobe, seguimos poniéndola a disposición de los clientes de Workfront existentes.</p>
+        </td>
+        <td><p>viernes, 11 de diciembre de 2025</p></td>
+        <td><p>viernes, 15 de enero de 2026</p></td>
+        <td><p>viernes, 15 de enero de 2026</p></td>
+    <tr>
             </tbody>
         </table>
 
@@ -330,6 +372,16 @@ No hay actualizaciones para lo siguiente en este punto de la versión:
 * Metas
 
 ## Actualizaciones del visor de corrección de escritorio
+
+### Versión 2.1.54
+
+**Versión de producción para todos los clientes: 11 de diciembre de 2025**
+
+El Visor de pruebas de escritorio se ha actualizado a desde la versión 2.1.52 a la versión 2.1.54. Esta actualización incluyó actualizaciones de las herramientas internas y no afectó a la funcionalidad del usuario final.
+
+La versión 2.1.53 también incluía cambios en las herramientas internas.
+
+Esta actualización es para Mac y Windows.
 
 ### Versión 2.1.52
 
@@ -380,7 +432,7 @@ Para ofrecer integraciones más estables y escalables, estamos adoptando un enfo
 * Workfront para Salesforce.
 
 Recomendamos utilizar la automatización e integración de Workfront para las necesidades de integración de su organización con Google Workspace.
-Para obtener una descripción general de la automatización e integración de Workfront, consulte [Información general de Adobe Workfront Fusion](https://experienceleague.adobe.com/es/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+Para obtener una descripción general de la automatización e integración de Workfront, consulte [Información general de Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 
 
 ### Actualizaciones de mantenimiento de Workfront 

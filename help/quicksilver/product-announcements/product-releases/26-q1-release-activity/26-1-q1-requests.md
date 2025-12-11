@@ -4,10 +4,10 @@ description: Mejoras en las solicitudes del primer trimestre de 2026
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 34e6f4386c768b94c3835d4a4d7e7deadc3fecda
+source-git-commit: 59aa98645583fb79a5d61a248dca535a3460956f
 workflow-type: tm+mt
-source-wordcount: '346'
-ht-degree: 10%
+source-wordcount: '452'
+ht-degree: 7%
 
 ---
 
@@ -16,6 +16,20 @@ ht-degree: 10%
 Esta página describe las mejoras de solicitudes realizadas con la versión del primer trimestre de 2026 en el entorno de vista previa. Estas mejoras estarán disponibles en el entorno de producción, como se ha indicado.
 
 Para obtener una lista de todos los cambios disponibles en este punto del ciclo de la versión del primer trimestre de 2026, consulte [Información general de la versión del primer trimestre de 2026](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md).
+
+## Relleno de formularios con tecnología de IA ahora disponible para solicitudes de
+
+>[!NOTE]
+>
+>Vista previa: 11 de diciembre de 2025
+>Versión rápida de producción: 11 de diciembre de 2025\
+>Producción para todos: 11 de diciembre de 2025
+
+Para facilitar la creación de solicitudes, se ha creado el relleno de formulario con tecnología de IA. Ahora, puede pegar un mensaje o cargar un documento en un formulario de solicitud, y AI extraerá la información relevante y rellenará el formulario.
+
+Su organización debe tener IA habilitada para acceder a esta funcionalidad.
+
+Para obtener más información sobre el rellenado de formularios con tecnología de IA, incluido lo que se necesita para habilitar la IA en su organización, consulte [Usar el rellenado de formularios con tecnología de IA para rellenar una solicitud mediante peticiones de datos o documentos](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md).
 
 <!--## Share views in the Requests area and the My Requests widget
 
@@ -37,8 +51,8 @@ For information on request views, including sharing, see [Create and manage view
 >[!NOTE]
 >
 >Vista previa: 20 de noviembre de 2025
->Versión rápida de producción: 11 de diciembre de 2025\
->Producción para todos: 16 de enero de 2026
+>Versión rápida de producción: 14 de enero de 2026\
+>Producción para todos: 15 de enero de 2026
 
 Para facilitar la creación y el envío de solicitudes, se ha añadido la capacidad de guardar borradores a la nueva experiencia de solicitud. Ahora, cuando empiece a rellenar una solicitud y la cierre, esta se guarda en estado de borrador y se puede encontrar en el formulario de solicitud utilizado para crear el borrador. A continuación, puede volver a abrir, actualizar y enviar el borrador según le convenga.
 
@@ -53,8 +67,8 @@ Para obtener más información sobre los borradores de solicitudes, consulte [Cr
 >[!NOTE]
 >
 >Vista previa: 20 de noviembre de 2025
->Versión rápida de producción: 11 de diciembre de 2025\
->Producción para todos: 16 de enero de 2026
+>Versión rápida de producción: 14 de enero de 2026\
+>Producción para todos: 15 de enero de 2026
 
 Para facilitar la organización y el desorden de sus solicitudes, hemos añadido la capacidad de eliminar solicitudes a la nueva experiencia de solicitud. Ahora puede eliminar las solicitudes que haya enviado. Los administradores de Workfront y de Workfront Planning Workspace también pueden eliminar solicitudes.
 
@@ -69,10 +83,17 @@ Para obtener información e instrucciones, consulte [Eliminar una solicitud envi
 >
 >Vista previa: 20 de noviembre de 2025
 >Versión rápida de producción: 11 de diciembre de 2025\
->Producción para todos: 16 de enero de 2026
+>Producción para todos: 15 de enero de 2026
 
 Para facilitar el envío de solicitudes, se ha añadido la capacidad de copiar solicitudes a la nueva experiencia de solicitud. Ahora puede copiar una solicitud, editar cualquier campo y enviarla como una solicitud nueva.
 
 Anteriormente, esta funcionalidad no estaba disponible en la nueva experiencia de solicitud.
 
 Para obtener información sobre cómo copiar y enviar una solicitud, consulte [Copiar y enviar solicitudes](/help/quicksilver/manage-work/requests/create-requests/copy-and-submit-requests.md).
+
+
+
+
+
+
+
