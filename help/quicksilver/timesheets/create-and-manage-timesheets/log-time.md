@@ -7,27 +7,21 @@ author: Lisa
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 69cd5fb1d089b81b7a1673609b92537137b6b68e
+source-git-commit: 3ebff5f28d4142203c6ce5486ce40484d88f0a5d
 workflow-type: tm+mt
-source-wordcount: '4080'
-ht-degree: 87%
+source-wordcount: '4145'
+ht-degree: 85%
 
 ---
 
 # Hora de registro
 
+{{highlighted-preview}}
+
 <!--Audited: 5/2025-->
 
 <!--remove all preview and production references if any-->
 <!--update screen shots for the general hour entries and the mixed selection of hours at production, if they fixed the bugs -->
-
-<!--<div class="preview">
-
-The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release.     
-
-For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). 
-
-</div>-->
 
 Puede registrar el tiempo de los elementos de trabajo en Adobe Workfront para indicar la cantidad de horas que dedica a trabajar en ellos. También puede registrar el tiempo que no esté relacionado con el trabajo, como vacaciones, tiempo por enfermedad o tiempo que pasa en reuniones. El tiempo que registre se mostrará en la plantilla de horas.
 
@@ -42,13 +36,13 @@ Para obtener más información sobre el tipo de horas que puede iniciar sesión 
  <col> 
  <tbody> 
   <tr> 
-   <td>paquete de Adobe Workfront</td> 
+   <td>Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licencia de Adobe Workfront</td> 
    <td> 
-   <ul><li><p>Ligero o superior para registrar horas en una tarea, un problema o las horas generales en una hoja de horas</p></li>
+   <ul><li><p>Ligero o superior para registrar horas en una tarea, problema, <span class="preview">proyecto</span> u horas generales en una hoja de horas</p></li>
    <li><p>Estándar para registrar horas en los proyectos</p></li></ul>
 
 <p>O </p>
@@ -396,7 +390,7 @@ Puede registrar el tiempo específico de un proyecto, tarea o problema en las si
 
 Para registrar el tiempo en la sección Actualizaciones de un proyecto, tarea o problema, debe tener lo siguiente:
 
-* El acceso y los permisos correctos, tal como se describe en la sección [Requisitos de acceso](#access-requirements) de este artículo.
+* El acceso y los permisos correctos, tal como se describe en la sección [Requisitos de acceso](#access-requirements) de este artículo. <span class="preview">Si su nivel de acceso es Ligero y está registrando horas en un proyecto, también debe tener permisos de Contribución o superiores en el proyecto con acceso a Registrar horas. Para obtener más información acerca de la concesión de permisos en proyectos, vea [Compartir un proyecto](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/share-a-project.md).</span>
 
 * El administrador de Workfront debe habilitar la configuración Tiempo de registro directamente en los proyectos en [!UICONTROL **Plantilla de horas y horas**]> [!UICONTROL **Preferencias**] en el área del sistema si desea registrar el tiempo directamente en un proyecto.
 
@@ -442,7 +436,7 @@ O
 
 Debe tener todo lo siguiente:
 
-* Una licencia de plan con acceso administrativo a plantillas de horas y horas. Para obtener más información sobre la concesión de acceso administrativo a las plantillas de horas y horas, consulte [Conceder a los usuarios acceso administrativo a determinadas áreas](../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
+* Licencia estándar o de planificación con acceso administrativo a hojas de horas y horas, <span class="preview">o licencia básica con acceso de edición en proyectos</span>. Para obtener más información sobre la concesión de acceso administrativo a las hojas de horas y horas, consulte [Conceder acceso administrativo a los usuarios a ciertas áreas](../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md). <span class="preview">El acceso administrativo a las hojas de horas y horas no está disponible para las licencias ligeras.</span>
 * Permisos de contribución o superiores para el proyecto con acceso a registrar horas. Para obtener más información sobre la concesión de permisos en proyectos, consulte [Compartir un proyecto en Adobe Workfront](../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).
 * El administrador de Workfront debe habilitar la opción Tiempo de registro directamente en los proyectos en la sección **Plantilla de horas y horas > Preferencias** del área de configuración, si desea registrar el tiempo directamente en un proyecto. Para obtener más información sobre cómo permitir que los usuarios registren horas directamente en los proyectos, consulte [Configurar la plantilla de horas y las preferencias de horas](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 

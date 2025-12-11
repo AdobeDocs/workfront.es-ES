@@ -9,14 +9,16 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 87fb5673-6e36-4182-958a-d69a56fe7b68
-source-git-commit: 3d0a6932bda338af1e6b3dcba49bfc0ac486d919
+source-git-commit: 3ebff5f28d4142203c6ce5486ce40484d88f0a5d
 workflow-type: tm+mt
-source-wordcount: '433'
-ht-degree: 90%
+source-wordcount: '468'
+ht-degree: 83%
 
 ---
 
 # Acceso a objetos y áreas con nuevas licencias
+
+{{highlighted-preview}}
 
 <!-- Audited: 2/2024 -->
 
@@ -44,7 +46,7 @@ En la siguiente tabla se indica el nivel más alto de acceso (Editar o Ver) que 
     <tr>
         <td>Proyectos</td>
         <td>Editar</td>
-        <td>Ver</td>
+        <td><span class="preview">Editar**</span></td>
         <td>Ver</td>
         <td>Sin acceso</td>
     </tr>
@@ -149,6 +151,8 @@ En la siguiente tabla se indica el nivel más alto de acceso (Editar o Ver) que 
 </table>
 
 &#42; Los usuarios con una licencia de colaborador solamente pueden ver los informes, paneles de control y calendarios que se han compartido con ellos.
+
+<span class="preview">&#42;&#42; Los usuarios con una licencia básica solo pueden registrar tiempo en el nivel de proyecto cuando el acceso de edición está habilitado. No pueden crear, editar, eliminar ni compartir proyectos. El nivel predeterminado para los usuarios de Light es Vista.</span>
 
 >[!NOTE]
 >
