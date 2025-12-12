@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 3c505b3a-cda7-4e7b-b497-28b820e9bb8f
-source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
+source-git-commit: 5404cec0cb02d363154a3696b63aaedaafc82688
 workflow-type: tm+mt
-source-wordcount: '600'
-ht-degree: 23%
+source-wordcount: '586'
+ht-degree: 20%
 
 ---
 
@@ -27,8 +27,8 @@ Puede recibir notificaciones por correo electrónico de Workfront Planning cuand
 * Alguien le etiqueta a usted o a sus equipos en un comentario de registro
 
   Para obtener información sobre cómo etiquetar a otras personas en un comentario de registro, consulte [Administrar comentarios de registro](/help/quicksilver/planning/records/manage-record-comments.md).
-* Alguien le pide permiso para acceder a una vista o a un espacio de trabajo
-* Alguien confirma que se ha concedido su acceso a una vista o a un área de trabajo <!--Isk confirmed that there is nno email for denying access but did not test-->
+* Alguien le pide permiso para obtener acceso a una vista, un área de trabajo o un tipo de registro <!--or <span class="preview">or a record</span>-->
+* Alguien confirma que se ha concedido su acceso a una vista, espacio de trabajo o tipo de registro <!--<span class="preview">or record</span>--> <!--Isk confirmed that there is nno email for denying access but did not test-->
 * Envía una solicitud de Workfront Planning. Para obtener más información, consulte [Crear y administrar un formulario de solicitud en Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md)
 * Alguien aprueba o rechaza una solicitud de Workfront Planning que usted haya enviado. Para obtener más información, consulte [Aprobar una solicitud en Adobe Workfront Planning](/help/quicksilver/planning/requests/approve-request.md)
 * El estado cambia a una solicitud de Workfront Planning que ha enviado.
@@ -47,7 +47,7 @@ Puede recibir notificaciones por correo electrónico de Workfront Planning cuand
 <tr> 
 </tr>   
 <tr> 
-   <td role="rowheader"><p>paquete de Adobe Workfront</p></td> 
+   <td role="rowheader"><p>Paquete de Adobe Workfront</p></td> 
    <td> 
 <p>Cualquier Workfront y cualquier paquete de Planning</p> <p>Cualquier flujo de trabajo y cualquier paquete de Planning</p>
 <p>Para obtener más información sobre lo que se incluye en cada paquete de Workfront Planning, póngase en contacto con su representante de cuentas de Workfront. </p> 
@@ -160,17 +160,17 @@ La página **Notificaciones** se abre en Adobe Experience Cloud. Se muestran tod
 
 ## Administrar notificaciones por correo electrónico al solicitar y conceder permisos
 
-1. (Condicional y opcional) Después de que alguien solicite o le conceda permisos para acceder a una vista o a un espacio de trabajo, vaya al mensaje de correo electrónico que le informa de la solicitud de permiso. El remitente del correo electrónico es Adobe Experience Cloud.
+1. (Condicional y opcional) Después de que alguien solicite o le conceda permisos para acceder a un tipo de objeto de Planning, vaya al mensaje de correo electrónico que le informa de la solicitud de permiso. El remitente del correo electrónico es Adobe Experience Cloud.
 
 1. (Opcional) Haga clic en el mensaje en el cuadro **Workfront** dentro del correo electrónico.
 
-   Se abre la página de detalles de registro en Workfront. Puede realizar actualizaciones en el registro o responder al comentario.
+   El objeto para el que solicitó permisos se abre en Workfront.
 
 1. (Condicional) Si está disponible, haga clic en **Ver todas las notificaciones**.
 La página **Notificaciones** se abre en Adobe Experience Cloud. Se muestran todas las notificaciones de todas las aplicaciones de Adobe Experience Cloud.
 
 
-Para obtener información sobre cómo solicitar, conceder o denegar permisos a una vista o área de trabajo, vea [Solicitar permisos a una vista o área de trabajo](/help/quicksilver/planning/access/request-permissions.md).
+Para obtener información sobre cómo solicitar, conceder o denegar permisos, vea [Solicitar permisos a una vista o área de trabajo](/help/quicksilver/planning/access/request-permissions.md).
 
 Para obtener información sobre cómo administrar las notificaciones de Workfront Planning, consulte [Administrar las preferencias de notificación de Adobe Workfront Planning](/help/quicksilver/planning/notifications/manage-notification-preferences.md).
 

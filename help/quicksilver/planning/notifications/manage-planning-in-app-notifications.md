@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: a6eb8c7c-a34d-4c84-a45c-7e7f050a4302
-source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
+source-git-commit: 5404cec0cb02d363154a3696b63aaedaafc82688
 workflow-type: tm+mt
-source-wordcount: '365'
-ht-degree: 16%
+source-wordcount: '359'
+ht-degree: 17%
 
 ---
 
@@ -23,8 +23,8 @@ Puede recibir notificaciones en la aplicación desde Workfront Planning cuando e
 * Alguien le etiqueta a usted o a sus equipos en un comentario de registro
 
   Para obtener información sobre cómo etiquetar a otras personas en un comentario de registro, consulte [Administrar comentarios de registro](/help/quicksilver/planning/records/manage-record-comments.md).
-* Alguien le pide permiso para acceder a una vista o a un espacio de trabajo
-* Alguien confirma que se ha concedido su acceso a una vista o a un área de trabajo <!--Isk confirmed there is no notification for denying permissions - did not test-->
+* Alguien le pide permiso para tener acceso a una vista o a un área de trabajo <!--<span class="preview">or record</span>-->
+* Alguien confirma que se ha concedido su acceso a una vista o a un área de trabajo <!--<span class="preview">or record</span>--> <!--Isk confirmed there is no notification for denying permissions - did not test-->
 
 ## Requisitos de acceso
 
@@ -40,7 +40,7 @@ Puede recibir notificaciones en la aplicación desde Workfront Planning cuando e
 <tr> 
 </tr>   
 <tr> 
-   <td role="rowheader"><p>paquete de Adobe Workfront</p></td> 
+   <td role="rowheader"><p>Paquete de Adobe Workfront</p></td> 
    <td> 
 <p>Cualquier Workfront y cualquier paquete de Planning</p> <p>Cualquier flujo de trabajo y cualquier paquete de Planning</p>
 <p>Para obtener más información sobre lo que se incluye en cada paquete de Workfront Planning, póngase en contacto con su representante de cuentas de Workfront. </p> 
@@ -155,8 +155,8 @@ OLD:
 
 ## Administración de notificaciones en la aplicación al solicitar y conceder permisos
 
-Recibirá notificaciones en la aplicación cuando alguien solicite o le conceda permisos para una vista o un espacio de trabajo.
+Recibirá notificaciones en la aplicación cuando alguien solicite o le conceda permisos para una vista o un espacio de trabajo. <!--<span class="preview">or record</span>-->
 
-Para obtener información sobre cómo solicitar, conceder o denegar permisos a una vista o área de trabajo, vea [Solicitar permisos a una vista o área de trabajo](/help/quicksilver/planning/access/request-permissions.md).
+Para obtener información sobre cómo solicitar, conceder o denegar permisos, vea [Solicitar permisos a una vista o área de trabajo](/help/quicksilver/planning/access/request-permissions.md).
 
 Para obtener información sobre cómo administrar las notificaciones de Workfront Planning, consulte [Administrar las preferencias de notificación de Adobe Workfront Planning](/help/quicksilver/planning/notifications/manage-notification-preferences.md).

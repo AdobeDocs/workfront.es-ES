@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 475a519d-d3bd-4461-8099-0e296d556d34
-source-git-commit: f2fe6ef78b3032f7a89d4c816cb11b525634c067
+source-git-commit: 5404cec0cb02d363154a3696b63aaedaafc82688
 workflow-type: tm+mt
-source-wordcount: '767'
+source-wordcount: '789'
 ht-degree: 12%
 
 ---
@@ -44,7 +44,7 @@ This article describes how you can share a view with others. For information abo
 </col> 
 <tbody> 
 <tr> 
-   <td role="rowheader"><p>paquete de Adobe Workfront</p></td> 
+   <td role="rowheader"><p>Paquete de Adobe Workfront</p></td> 
    <td> 
 <p>Cualquier paquete de Workfront y Planning</p> 
 O
@@ -210,3 +210,5 @@ En la notificación por correo electrónico, haga clic en **Ver todas las notifi
 1. Haga clic en **Guardar**.
 
    Los usuarios eliminados ya no tendrán acceso al espacio de trabajo ni a sus objetos.
+
+   No hay ninguna notificación para los usuarios que se han eliminado del espacio de trabajo de que ya no tienen estos permisos.

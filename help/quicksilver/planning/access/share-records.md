@@ -7,10 +7,10 @@ author: Alina
 recommendations: noDisplay, noCatalog
 hidefromtoc: true
 hide: true
-source-git-commit: e6fc6def1553df3faa8e1200f7ec2ca2bb97eb04
+source-git-commit: 5404cec0cb02d363154a3696b63aaedaafc82688
 workflow-type: tm+mt
-source-wordcount: '1620'
-ht-degree: 7%
+source-wordcount: '1831'
+ht-degree: 5%
 
 ---
 
@@ -115,7 +115,12 @@ Para obtener más información acerca de los requisitos de acceso de Workfront, 
 <!--checking on the below with Lilit-->
 
 * Puede compartir registros con las siguientes entidades: personas, grupos, equipos, empresas o roles.
-* Cuando comparte un área de trabajo con los usuarios, también reciben los mismos permisos para los registros del área de trabajo de forma predeterminada.
+* Puede conceder los siguientes niveles de permisos a un registro:
+
+   * Ver
+   * Administrar
+* Cuando comparte un espacio de trabajo y un tipo de registro con los usuarios, también reciben los mismos permisos para los registros del espacio de trabajo de forma predeterminada.
+Cuando los usuarios tienen permisos de contribución para un espacio de trabajo o tipo de registro, reciben permisos de administración para los registros de ese tipo de registro.
 * Cuando se quita una entidad de un espacio de trabajo, todos los permisos de uso compartido se quitan de los tipos de registro y de todos los registros que contiene.
 * El acceso de un usuario al registro se determina mediante la combinación de las tres opciones siguientes:
 
@@ -126,10 +131,10 @@ Para obtener más información acerca de los requisitos de acceso de Workfront, 
       * **Todos los usuarios del área de trabajo pueden ver**: esto hace que el registro sea visible para todos los usuarios del área de trabajo <!-- is this OK to say "workspace? should it be "record"??-->
       * **Solo las personas invitadas pueden acceder**: Esta opción está seleccionada de forma predeterminada y permite restringir el acceso al registro a personas específicas.
 
-* Puede conceder los siguientes niveles de permisos a un registro:
+     >[!NOTE]
+     >
+     >Si decide conceder el permiso **Todos los usuarios del área de trabajo pueden ver el permiso** a un tipo de registro o registro, todos los que figuren en la lista de uso compartido de los permisos del área de trabajo tendrán los mismos permisos en el tipo de registro y en el registro, incluso cuando los permisos heredados estén deshabilitados.
 
-   * Ver
-   * Administrar
 
 * Al compartir un registro con un usuario, se agregan con el mismo permiso que tienen en el tipo de registro de forma predeterminada.
 
@@ -138,13 +143,15 @@ Para obtener más información acerca de los requisitos de acceso de Workfront, 
    * Si tienen permisos de visualización en el tipo de registro, obtienen permisos de visualización en el registro
    * Si tiene permisos de tipo Contribuir o Administrar en el tipo de registro, obtiene permisos de Administración en el registro
 
-* Como administrador del espacio de trabajo, puede compartir un registro con un usuario que no forme parte del espacio de trabajo. En este caso, aparece una advertencia junto a la entidad añadida que indica que no tienen acceso al espacio de trabajo. Puede continuar agregando el usuario al registro que también lo agregará al espacio de trabajo o dejar de agregarlo al registro que tampoco lo agregará al espacio de trabajo.
+* Como administrador del espacio de trabajo, puede compartir un registro con un usuario que no tenga permisos para el tipo de registro o el espacio de trabajo. En este caso, aparece una advertencia junto a la entidad añadida que indica que no tienen acceso al espacio de trabajo o al tipo de registro. <!--ensure this is this way, because in devtest the warning only shows record type, but logged a bug to add "workspace" to the warning too--> Puede continuar agregando el usuario al registro, que también lo agregará al tipo de registro y al área de trabajo, o bien cancelar el uso compartido.
 
-* Cuando comparte un registro con usuarios que tienen permisos de Administración en el espacio de trabajo, también obtienen permisos de Administración en el registro de forma predeterminada. El permiso Ver aparece atenuado.
+* Cuando un usuario tiene permisos de Administrar o Contribuir en el espacio de trabajo y el tipo de registro y los añade a los permisos de registro, los permisos de Vista aparecen atenuados. Conservan los mismos permisos para el registro que para el tipo de registro y no se les pueden conceder permisos inferiores para el registro. <!--Lilit is checking on this, it is not working correctly-->
 
-* Si no tiene permisos para agregar personas al espacio de trabajo, solo verá y agregará usuarios, equipos, grupos, funciones y empresas que ya se hayan agregado al espacio de trabajo. No se puede añadir ninguna otra entidad que no forme parte del espacio de trabajo.
+  Cuando tienen permisos de visualización en el espacio de trabajo o el tipo de registro, conservan los permisos de visualización en los registros. Puede otorgarles permisos de administración en el registro desactivando Permisos heredados y seleccionando la configuración Solo las personas invitadas pueden acceder. <!-- I think this is right, but because of the above not working, I can't test-->
 
-* Puede deshabilitar los permisos heredados para un único registro, en cuyo caso puede concederles permisos para registros individuales o pueden obtener permisos si pertenecen a **Todos los usuarios del área de trabajo pueden ver** opción. <!-- is this OK to say "workspace? should it be "record"??-->
+<!-- not sure what this means, confusing, hiding for now: * If you don't have permissions to add people to the workspace, you will only see and add users, teams, groups, roles, and companies that are already added to the workspace. You cannot add any other entity that is not already part of the workspace.-->
+
+* Puede deshabilitar los permisos heredados para un único registro, en cuyo caso puede concederles permisos para registros individuales o pueden obtener permisos si pertenecen a **Todos los usuarios del área de trabajo pueden ver** opción.
 
 * Si se aplican varios permisos de uso compartido para el mismo usuario, recibe el permiso más alto de esos permisos.
 
@@ -163,7 +170,7 @@ If the inherited permissions are disabled, the user gets the maximum of wildcard
 
 ## Compartir permisos de registros
 
-Puede ajustar los permisos a los registros individuales si tiene permiso de administración en el espacio de trabajo.
+Como administrador del espacio de trabajo, puede ajustar permisos a registros individuales.
 
 {{step1-to-planning}}
 
@@ -173,13 +180,14 @@ Puede ajustar los permisos a los registros individuales si tiene permiso de admi
 1. Realice una de las siguientes acciones:
 
    * En la vista de tabla, pase el ratón sobre el nombre de un registro, haga clic en el menú **Más** ![Menú más](assets/more-menu.png) y, a continuación, haga clic en **Compartir**.
+   * En la vista de tabla, seleccione un registro y, a continuación, haga clic en **Compartir** en la barra de herramientas azul situada en la parte inferior de la lista.
    * En cualquier vista, haga clic en el nombre de un registro y, a continuación, haga clic en **Compartir** en la esquina superior derecha de la página de detalles del registro.
 
    Se abre el cuadro **Compartir**.
 
    ![Permisos para registros con permisos heredados en](assets/permissions-for-records-with-inherited-permissions-on.png)
 
-1. (Opcional) En el área **Que tiene acceso**, la opción **Todos los que están en el área de trabajo pueden ver** está seleccionada de forma predeterminada.  Todos los usuarios que tengan permisos de Vista o superiores en el espacio de trabajo y tipo de registro pueden ver el registro.
+1. (Opcional) En el área **Que tiene acceso**, la opción **Todos los que están en el área de trabajo pueden ver** está seleccionada de forma predeterminada.  Todos los usuarios que tienen **View** o permisos superiores en el área de trabajo y el tipo de registro tienen los mismos permisos para el registro.
 
 1. (Opcional) Haga clic en el número de usuarios en la opción **Permisos heredados** para ver los usuarios, equipos, grupos, empresas o roles de trabajo que heredan los permisos del área de trabajo.
 
@@ -187,7 +195,7 @@ Puede ajustar los permisos a los registros individuales si tiene permiso de admi
    >
    >No se pueden quitar entidades individuales de la lista Permisos heredados.
 
-1. (Opcional y condicional) Si desea compartir el tipo de registro con entidades específicas y otorgarles un acceso al tipo de registro diferente del que ya tienen para el espacio de trabajo, haga lo siguiente:
+1. (Opcional y condicional) Si desea compartir el registro con entidades específicas y otorgarles un acceso al tipo de registro diferente del que ya tienen para el espacio de trabajo, haga lo siguiente:
 
    1. Seleccione **Deshabilitar** del menú desplegable **Permisos heredados**.
 
@@ -208,13 +216,13 @@ Puede ajustar los permisos a los registros individuales si tiene permiso de admi
    >[!IMPORTANT]
    >
    >* Además de los equipos, grupos, empresas y funciones del puesto, solo puede compartir con los usuarios que se han añadido a Adobe Admin Console. No puede agregar usuarios solo de Workfront. Para obtener más información, consulte [Administrar usuarios en Adobe Admin Console](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md).
-   >* Si los usuarios tienen permisos de tipo Contribuir o Gestionar en el espacio de trabajo y el tipo de registro, mantendrán los permisos de Gestionar en el registro. El permiso Ver aparece atenuado
-   >* No puede conceder a los usuarios un permiso inferior al registro si tienen Contribute o superior.
+   >* Si los usuarios tienen permisos de tipo Contribuir o Gestionar en el espacio de trabajo y el tipo de registro, mantendrán los permisos de Gestionar en el registro. El permiso Ver aparece atenuado. <!--this is not dimmed at this time, Lilit to check-->
+   >* No puede conceder a los usuarios un permiso inferior al registro si tienen Contribute o superior al tipo de registro.
    > Para obtener más información, consulte [Información general sobre los permisos de uso compartido en Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md).
 
 1. Para que los usuarios que no tengan permisos de acceso al área de trabajo puedan ver un registro, en el campo **Conceder acceso a esta vista**, empiece a escribir el nombre de un usuario, un grupo, un equipo, una empresa o un rol y, a continuación, haga clic en él cuando aparezca en la lista.
 
-   La entidad seleccionada se agrega al registro y al área de trabajo con permisos de **Ver**.
+   La entidad seleccionada se agrega al registro y también al tipo de registro y al área de trabajo con permisos de **Ver**.
 
    Los administradores del sistema siempre reciben permisos de administración para los registros compartidos con ellos y existe una indicación de que un usuario es administrador del sistema.
 
@@ -222,32 +230,37 @@ Puede ajustar los permisos a los registros individuales si tiene permiso de admi
 1. Haga clic en **Guardar**.
 
    El registro ahora se comparte con otros usuarios.
-   <!--Checking with Lilit on this: The users you shared the record with receive both an in-app and email notification about having given permissions to the following entities:
 
-   * The record
-   * The record type, if they never had permissions before
-   * The workspace, if they had not had permissions to the workspace before the record was shared with them. -->
+   Los usuarios con los que compartió el registro reciben una notificación en la aplicación y por correo electrónico en la que se les informa de que se les han concedido permisos para las siguientes entidades:
+
+   * El registro
+   * El tipo de registro, si nunca antes habían tenido permisos
+   * El área de trabajo, si no tenían permisos para el área de trabajo antes de que se compartiera el registro con ellos.
+
+   Para obtener más información, consulte [Notificaciones de Adobe Workfront Planning: índice de artículo](/help/quicksilver/planning/notifications/notifications-information.md).
 
 1. Comparta el vínculo copiado con otros usuarios. Los usuarios que reciban el vínculo deben ser usuarios activos e iniciar sesión en Workfront para poder acceder a la página de tipo de registro y mostrarla en la vista seleccionada. Deben tener permisos sobre el tipo de registro para poder verlo. Para obtener más información, vea también [Compartir registros mediante un vínculo](/help/quicksilver/planning/records/share-records.md).
 
-## Quitar permisos a un registro (**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;*** ESTO SE COPIÓ DE LOS TIPOS DE REGISTRO, DEBE EDITARSE PARA LOS REGISTROS, PERO ESPERE A LA RESPUESTA DE SLACK DE LILIT &#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**)
+## Eliminación de permisos de un registro
 
-Puede quitar los permisos de los usuarios de un registro. Sin embargo, conservarán al menos los permisos de Vista en el espacio de trabajo de registros, que también les otorga al menos permisos de Vista en el tipo de registro. Debe quitar su acceso al espacio de trabajo si desea que no tengan permisos para los tipos de registro del espacio de trabajo.
+Puede quitar los permisos de los usuarios de un registro. Sin embargo, conservarán al menos los permisos de Vista en el espacio de trabajo, que también les otorga al menos permisos de Vista en el tipo de registro. Debe quitar su acceso al espacio de trabajo si desea que no tengan permisos para los tipos de registros o registros del espacio de trabajo.
 
 {{step1-to-planning}}
 
-1. Abra el espacio de trabajo cuyos tipos de registros desee dejar de compartir y, a continuación, haga clic en una tarjeta de tipo de registro. Se abre la página de tipo de registro.
+1. Abra el espacio de trabajo cuyos registros desee dejar de compartir y, a continuación, haga clic en una tarjeta de tipo de registro. Se abre la página de tipo de registro.
+1. Realice una de las siguientes acciones:
 
-1. En la pestaña de cualquier vista, haga clic en **Compartir** en la esquina superior derecha del tipo de registro.
-1. Haga clic en **Compartir el tipo de registro**.
+   * En la vista de tabla, pase el ratón sobre el nombre de un registro, haga clic en el menú **Más** ![Menú más](assets/more-menu.png) y, a continuación, haga clic en **Compartir**.
+   * En la vista de tabla, seleccione un registro y, a continuación, haga clic en **Compartir** en la barra de herramientas azul situada en la parte inferior de la lista.
+   * En cualquier vista, haga clic en el nombre de un registro y, a continuación, haga clic en **Compartir** en la esquina superior derecha de la página de detalles del registro.
 
    Se abre el cuadro **Compartir**.
 1. Busque el usuario, grupo, equipo, empresa o función de trabajo cuyos permisos desee quitar, expanda el menú desplegable de permisos a la derecha de su nombre y, a continuación, haga clic en **Quitar**. <!--check the screen shot below - the UI text for View might not be accurate-->
 
-   ![Quitar opción en la lista desplegable de uso compartido de tipo de registro](assets/remove-option-on-record-type-sharing-drop-down.png)
+   ![Quitar permisos en el registro](assets/remove-option-on-record-sharing-drop-down.png)
 
 1. Haga clic en **Guardar**.
 
-   Las personas ya no tienen los permisos indicados para el tipo de registro. Sin embargo, siguen teniendo permisos en el espacio de trabajo, a menos que también los quite de los permisos del espacio de trabajo.
+   Las personas ya no tienen los permisos indicados para el registro. Sin embargo, aún tienen permisos para el tipo de registro y el espacio de trabajo, a menos que también los quite de esos permisos.
 
-   A los usuarios a los que se les ha retirado el acceso a la vista no se les notifica de ninguna manera que ya no tienen acceso a ella.
+   No hay notificación para los usuarios que se han eliminado del acceso al registro de que ya no tienen estos permisos.

@@ -6,7 +6,7 @@ feature: Workfront Planning
 recommendations: noDisplay, noCatalog
 role: User, Admin
 exl-id: 99fac041-a235-4991-b826-d19944164bc9
-source-git-commit: 96028446d76f32daf512adf77d3b1c53021821ec
+source-git-commit: 5404cec0cb02d363154a3696b63aaedaafc82688
 workflow-type: tm+mt
 source-wordcount: '811'
 ht-degree: 24%
@@ -177,6 +177,7 @@ Puede conceder permisos a las siguientes entidades en Workfront Planning:
 * Espacios de trabajo
 * Tipos de registro
 * Vistas
+  <!--move this above Views: * <span class="preview">Records</span>-->
 
 Para obtener más información, consulte [Información general sobre los permisos de uso compartido en Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md).
 
