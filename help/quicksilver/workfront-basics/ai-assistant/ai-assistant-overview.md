@@ -5,9 +5,9 @@ description: Obtenga información sobre el Asistente de IA en Adobe Workfront
 author: Becky
 feature: Get Started with Workfront
 exl-id: e5f2408b-2c29-4257-8bdc-bf20880de265
-source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
+source-git-commit: 44db621643c76ab1f2c1b51d5e81cb0d1f827a58
 workflow-type: tm+mt
-source-wordcount: '831'
+source-wordcount: '851'
 ht-degree: 8%
 
 ---
@@ -139,6 +139,10 @@ Para solicitar el acuerdo de Adobe Gen AI:
 1. Introduzca el nombre y la dirección de correo electrónico de la persona de su organización que firmará el acuerdo de Adobe Gen AI.
 
    El acuerdo se enviará a esta persona para que lo firme. Una vez firmado y devuelto, Adobe revisa el acuerdo y, a continuación, el asistente de IA está habilitado para su organización.
+
+   >[!NOTE]
+   >
+   >Conceda un margen de 1 a 3 días laborables tras la firma y la devolución del acuerdo para que Adobe revise y habilite el asistente de IA.
 
 ## Sugerencias para crear mensajes en el Asistente de IA
 
