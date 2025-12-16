@@ -4,9 +4,9 @@ description: Como administrador de espacio de trabajo, puede crear varias jerarq
 hide: true
 hidefromtoc: true
 exl-id: 2f83c427-4439-499d-a0b2-fc8630552cae
-source-git-commit: 3d0a6932bda338af1e6b3dcba49bfc0ac486d919
+source-git-commit: 6aba4316228a320cf33e419249a64b3cf56e8f39
 workflow-type: tm+mt
-source-wordcount: '619'
+source-wordcount: '662'
 ht-degree: 4%
 
 ---
@@ -30,7 +30,10 @@ hidefromtoc: yes
 
 Como administrador de espacio de trabajo, puede crear varias jerarquías de espacio de trabajo entre los tipos de registro en Adobe Workfront Planning.
 
-Después de conectar los tipos de registro en un espacio de trabajo y crear una jerarquía, los tipos de registro se conectan entre sí, con un tipo de registro designado como principal y hasta 6 tipos de registro más configurados como secundarios. <!--asking Robert how many we can have in one hierarchy; I think 7 total but not sure-->
+
+Una vez que los tipos de registros están conectados en un espacio de trabajo, puede crear una jerarquía que organice esas conexiones. Las jerarquías organizan los tipos de registros en relaciones principal-secundario y pueden contener hasta cuatro niveles de tipos de objetos.
+
+Si todavía no existe una conexión entre dos tipos de registro, se puede crear a medida que se configura la jerarquía. Una vez definida, la jerarquía establece una ruta estructurada entre los tipos de registros relacionados dentro del espacio de trabajo.
 
 Las jerarquías generarán rutas de exploración para los tipos de registros y los registros <!--ensure this is the case: does the breadcrumb show for both the RT and the record??--> que se muestran en sus encabezados. De este modo, los usuarios saben dónde se encuentran en la jerarquía en cualquier fase del flujo de trabajo.
 
@@ -87,8 +90,8 @@ Para obtener más información acerca de los requisitos de acceso de Workfront, 
 1. Haga clic en el menú **Más** ![Menú más](assets/more-menu.png) que se encuentra a la derecha del nombre del área de trabajo y, a continuación, haga clic en **Configuración**.
 La sección **Jerarquías** se abre de manera predeterminada.
 1. Haga clic en **Nueva jerarquía** en la esquina superior derecha de la página **Jerarquías**.
-1. Haga clic en **Agregar objeto** y seleccione un objeto en el menú desplegable. Va a ser el objeto principal de la jerarquía.
-Puede seleccionar un tipo de registro del espacio de trabajo actual o un proyecto de Workfront.
+1. Haga clic en **Agregar objeto** y seleccione un objeto en el menú desplegable. Va a ser el primer objeto principal de la jerarquía.
+El primer elemento principal sólo puede ser un tipo de registro de Planning. Los proyectos de Workfront no se pueden seleccionar como principales de otros tipos de objeto en una jerarquía.
 1. Haga clic en **Agregar objeto** para agregar un segundo objeto, que es el primer elemento secundario de la jerarquía, y luego seleccione otro objeto en el menú desplegable.
    ![Nuevo cuadro de jerarquía sin campo seleccionado](assets/new-hierarchy-modal-without-connecte-fielf-selected.png)
 1. Haga clic en **Seleccionar campo conectado** para indicar qué campo conecta los dos objetos.

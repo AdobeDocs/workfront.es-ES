@@ -5,9 +5,9 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: 1f1db1c9184a6a8a2abcd3139e4e4e61d2f08bc4
+source-git-commit: 6aba4316228a320cf33e419249a64b3cf56e8f39
 workflow-type: tm+mt
-source-wordcount: '1139'
+source-wordcount: '1513'
 ht-degree: 4%
 
 ---
@@ -27,7 +27,18 @@ Tenga en cuenta lo siguiente al agregar una página Registros conectados a un re
 
 * Puede agregar una página Registros conectados desde el área de vista previa de un registro o desde la página del registro.
 
-* Las páginas Registros conectados muestran sólo los objetos o registros conectados de un tipo de objeto o registro en una vista de tabla. La página no muestra todos los registros de ese tipo.
+* Las páginas Registros conectados sólo muestran los objetos o registros conectados de un tipo de objeto o registro. La página no muestra todos los registros de ese tipo.
+
+* Puede mostrar los objetos en una página de registros conectada en la vista de tabla.
+
+<!--replace the above bullet with this: 
+
+* You can display the objects in a connected records page in the following types of views:
+
+   * Table
+   * <span class="preview">Timeline</span>
+   * <span class="preview">Calendar</span>
+-->
 
 * Puede agregar páginas Registros conectados para los siguientes tipos de registros u objetos conectados:
 
@@ -62,7 +73,7 @@ Tenga en cuenta lo siguiente al agregar una página Registros conectados a un re
    <ul><li><p>Licencia de Adobe Experience Manager Assets e integración entre AEM Assets y Workfront para conectar recursos de AEM con tipos de registros de Planning.</p>
    <p>Para obtener más información, consulte <a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">Adobe Workfront para Experience Manager Assets y Assets Essentials: índice de artículo</a>. </p></li>
    <li><p> Licencia de Adobe GenStudio for Performance Marketing para conectar tipos de registros con marcas de GenStudio</p>
-   <p>Para obtener más información, consulte <a href="https://experienceleague.adobe.com/es/docs/genstudio-for-performance-marketing/user-guide/get-started">Introducción a Adobe GenStudio for Performance Marketing</a>.</p></li></ul>
+   <p>Para obtener más información, consulte <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started">Introducción a Adobe GenStudio for Performance Marketing</a>.</p></li></ul>
    </td> 
   </tr>
 
@@ -85,8 +96,9 @@ Para obtener más información acerca de los requisitos de acceso de Workfront, 
 
 +++   
 
-
 ## Agregar una página Registros conectados a un registro
+
+Primero debe conectar los tipos de registros con otros tipos de registros u objetos antes de agregar una página de registros conectada a un registro.
 
 1. Haga clic en el nombre del registro para abrirlo desde cualquier vista de una página de tipo de registro.
 1. Haga clic en **Agregar página** en una de las siguientes áreas:
@@ -114,15 +126,18 @@ Para obtener más información acerca de los requisitos de acceso de Workfront, 
 
    ![Vista de tabla conectada a la audiencia con detalles de campaña](assets/audience-connected-table-view-under-campaign-details-page.png)
 
-1. (Opcional) Busque o haga clic en el nombre de un tipo de objeto o registro conectado en la lista.
+1. (Opcional) Haga clic en el nombre de un tipo de objeto o registro conectado en la lista o búsquelo y, a continuación, haga clic en él cuando aparezca en la lista.
 
-1. (Opcional y condicional) En la vista de tabla de la página de registros conectados, realice una de las siguientes acciones cuando visualice registros de Planning conectados o cualquier objeto de Workfront excepto los proyectos: <!--or AEM Assets--> <!--AEM is not available yet?? see note below-->
+1. (Opcional y condicional) Si tiene más de un campo conectado que se muestra en la vista de tabla o en la página de detalles del registro, haga clic en el campo cuyos registros desee mostrar en la página de registros conectados.
+
+   La vista de tabla del tipo de registro conectado seleccionado se agrega a la página de registros conectados.
+
+1. (Opcional y condicional) Cuando cree una página de registros conectados para registros conectados de Planning, realice una de las siguientes acciones: <!--or AEM Assets--> <!--AEM is not available yet?? see note below-->
 
    * Haga clic en el nombre de un registro. Se abre la página del registro en una nueva ficha.
+   * Haga clic en **Conectar** en la parte inferior de la vista de tabla para conectar los registros existentes, selecciónelos en el cuadro de conexión y, a continuación, haga clic fuera del cuadro para cerrarlo. Los registros se agregan automáticamente a la tabla. Los registros deben existir antes de que pueda agregarlos.
 
-   * Haga clic en **Conectar** en la parte inferior de la vista de tabla para conectar más registros y, a continuación, haga clic fuera del cuadro de conexión para cerrarlo. Los registros nuevos se agregan automáticamente a la tabla.
-
-     Para obtener más información, consulte [Conectar registros](/help/quicksilver/planning/records/connect-records.md).
+   Para obtener más información, consulte [Conectar registros](/help/quicksilver/planning/records/connect-records.md).
    * Edite cualquier información de los registros conectados en línea en la vista de tabla.
 
    * Pase el ratón sobre el nombre de un registro conectado y luego haga clic en el menú **Más** ![Menú Más](assets/more-menu.png)
@@ -138,17 +153,39 @@ Para obtener más información acerca de los requisitos de acceso de Workfront, 
       * **Inserte un registro por encima o por debajo de** para agregar nuevos registros al tipo de registro conectado. Los registros nuevos agregados aquí también están conectados al registro actual. Esta opción no está disponible en la barra azul al seleccionar un registro de la tabla.
       * **Eliminar** para eliminar el registro. Al eliminar un registro conectado, se elimina de su tipo de registro y de cualquier lugar donde esté conectado.
 
-     Para obtener información acerca de cómo editar registros en la vista de tabla, vea [Editar registros](/help/quicksilver/planning/records/edit-records.md).
+        Para obtener información acerca de cómo editar registros en la vista de tabla, vea [Editar registros](/help/quicksilver/planning/records/edit-records.md).
 
-     >[!TIP]
-     >
-     >Puede seleccionar más de un registro u objeto para eliminarlos.
+        >[!TIP]
+        >
+        >Puede seleccionar más de un registro u objeto para eliminarlos.
 
    * Edite en línea cualquiera de los registros de Planning de la tabla de la página Registros conectados.
 
-     El resto de los objetos de Workfront se muestran en una vista de tabla de solo lectura y no se pueden editar.
+1. (Opcional y condicional) Al crear una página de registros conectada para los siguientes tipos de objetos de Workfront:
 
-1. (Opcional y condicional) En la vista de tabla de la página de registros conectados, realice una de las siguientes acciones cuando visualice proyectos de Workfront conectados:
+   * Portafolios
+   * Programas
+   * Grupos
+   * Compañías
+
+   Realice cualquiera de las siguientes acciones en la vista de tabla de la página de registros conectados:
+
+   * Haga clic en el nombre de un objeto. Se abre la página del objeto en una nueva pestaña.
+   * Haga clic en **Conectar** en la parte inferior de la vista de tabla para conectar objetos existentes, selecciónelos en el cuadro de conexión y, a continuación, haga clic fuera del cuadro para cerrarlo. Los objetos se añaden automáticamente a la tabla. Los objetos deben existir antes de que pueda agregarlos.
+
+   Para obtener más información, consulte [Conectar registros](/help/quicksilver/planning/records/connect-records.md).
+
+   * Seleccione uno de los objetos de la vista de tabla y, a continuación, haga clic en una de las siguientes opciones de la barra azul situada en la parte inferior de la lista:
+
+   * **Ver** para abrir la página de registros en una nueva pestaña
+   * **Copiar vínculo** para copiar un vínculo a la página de registro
+   * **Desconectar** para desconectar el objeto del registro que está viendo.
+
+   >[!TIP]
+   >
+   >Puede seleccionar más de un registro u objeto para desconectarlos.
+
+1. (Opcional y condicional) Al crear una página de registros conectados para proyectos de Workfront conectados:
 
    * Haga clic en **Conectar registros** en la esquina superior derecha de la página de registros conectada para conectar proyectos existentes.
 
@@ -166,6 +203,19 @@ Para obtener más información acerca de los requisitos de acceso de Workfront, 
       * **Eliminar** para eliminar el proyecto. Al eliminar un proyecto, se desconecta del registro y se mueve a la papelera de reciclaje de Workfront.
       * **Desconectar** para desconectar el proyecto del registro. Al desconectar un proyecto, éste y todos los valores de sus campos de búsqueda se eliminan del registro actual.
 
+     >[!TIP]
+     >
+     >Puede seleccionar más de un proyecto para desconectarlos o eliminarlos.
+   * Haga clic en el icono **+** en la esquina superior derecha de la vista de tabla para agregar campos existentes a la tabla. Los campos deben existir antes de poder agregarlos.
+
+     Se abre el cuadro **Administrador de columnas**. Haga lo siguiente:
+
+      1. Busque un campo de objeto existente en la columna **Disponible** y, a continuación, haga clic en **+** a la derecha del nombre del campo para agregarlo a la columna **Seleccionado**.
+
+         Los campos que seleccione se agregarán a la vista de tabla de la página registros conectados.
+      1. Haga clic en **-** a la derecha de un campo en la columna **Seleccionado** para quitarlo de la vista de tabla.
+      1. Haga clic en **Guardar** para guardar la vista de tabla de páginas de registros conectados.
+
 1. (Opcional) Haga doble clic en el nombre de la ficha **Página de registros conectados**
 
    O
@@ -174,10 +224,10 @@ Para obtener más información acerca de los requisitos de acceso de Workfront, 
 1. (Opcional) Utilice cualquiera de los siguientes elementos de vista en la barra de herramientas de una página de registro conectada para administrar la vista de tabla:
 
    * Filtros
-   * Ordenar
-   * Agrupación
-   * Campos, para mostrar, ocultar o reorganizar campos
-   * Altura de la fila
+   * Ordenar. No disponible para proyectos.
+   * Agrupación. No disponible para proyectos.
+   * Columnas, para mostrar, ocultar o reorganizar campos
+   * Alto de fila. No disponible para proyectos.
    * Buscar
 
    Para obtener más información, consulte [Administrar la vista de tabla](/help/quicksilver/planning/views/manage-the-table-view.md).
@@ -195,7 +245,11 @@ Para obtener más información acerca de los requisitos de acceso de Workfront, 
 
 ## Manage multiple views from the connected records page
 
-You can add and manage views from the connected records page of a record. 
+You can add and manage multiple view types from the connected records page of a record. 
+
+The views you create in the Connected records page of a record type are available everywhere in Workfront Planning where that record type page displays. Views created for the same record type anywhere else in Workfront Planning are also accessible in all connected records pages of that record type. 
+
+To manage multiple views from the connected records page: 
 
 1. From the connected records page of a record, click the dropdown menu to the right of the view name, then click **New view** to add a view, then select from the following options: 
 

@@ -3,9 +3,9 @@ title: Información general de jerarquía y ruta
 description: Puede crear varias jerarquías de espacio de trabajo entre los tipos de registro de un espacio de trabajo.
 hide: true
 hidefromtoc: true
-source-git-commit: 3d0a6932bda338af1e6b3dcba49bfc0ac486d919
+source-git-commit: 6aba4316228a320cf33e419249a64b3cf56e8f39
 workflow-type: tm+mt
-source-wordcount: '746'
+source-wordcount: '752'
 ht-degree: 0%
 
 ---
@@ -45,19 +45,17 @@ Las siguientes son ventajas de utilizar jerarquías en los espacios de trabajo:
 * Puede tener hasta 4 tipos de registros y objetos conectados en una jerarquía.
 * Sólo se pueden conectar los tipos de objeto siguientes en una jerarquía de espacio de trabajo:
    * Tipos de registro que pertenecen al espacio de trabajo en el que está creando las jerarquías.
-   * Proyectos de Workfront.
+   * Proyectos de Workfront. Los proyectos de Workfront no se pueden agregar como principales de otros tipos de registro. Siempre son el último elemento secundario de una jerarquía.
 * No se pueden agregar los siguientes tipos de objeto en una jerarquía:
-   * Tipos de registro de otros espacios de trabajo, incluso cuando están configurados como tipos de registro conectables o globales.
+   * Tipos de registro de otros espacios de trabajo, incluso cuando están configurados como tipos de registro conectables o globales. Sólo se pueden agregar tipos de registros globales a jerarquías cuando se han agregado al espacio de trabajo desde el que está generando la jerarquía.
    * Todos los demás objetos de Workfront.
    * AEM Assets
-* Las jerarquías pueden incluir tipos de registros de Planning y tipos de objetos de Workfront al mismo tiempo.
+* Las jerarquías pueden incluir tipos de registros de Planning y proyectos de Workfront al mismo tiempo.
 
       Por ejemplo, puede tener un tipo de registro de campaña con Tácticas de planificación y Proyectos de Workfront como elementos secundarios en la misma jerarquía de área de trabajo.
   * Si ya existe una conexión entre los tipos de registro seleccionados, el sistema vuelve a utilizar la conexión existente.
 * Si no existe ninguna conexión, Workfront creará una como parte de la configuración de jerarquía.
-* La configuración **Crear campo correspondiente en el tipo de registro vinculado** debe estar activada para el campo conectado.
-
-  Los tipos de registro con conexiones que no crean un campo correspondiente en sus tipos de registro vinculados también pueden formar parte de jerarquías, pero cuando se crea una nueva conexión durante la configuración de la jerarquía, siempre tendrá que crear un campo correspondiente en el tipo de registro vinculado.
+* La configuración **Crear campo correspondiente en el tipo de registro vinculado** debe estar activada para el campo conectado de los registros y objetos que desea incluir en una jerarquía.
 * Las siguientes son reglas para la configuración de jerarquías:
    * Un tipo de registro solo puede tener un tipo de registro principal en un espacio de trabajo determinado.
 
@@ -79,7 +77,7 @@ Por ejemplo, la táctica A puede pertenecer tanto a la Campaña X como a la Camp
 
 Cuando se crean jerarquías entre tipos de registros, se generan rutas de exploración para los registros que pertenecen a esos tipos de registros.
 
-Por ejemplo, si crea una jerarquía y conecta Campañas con Tácticas, luego con Programas y, por último, con Proyectos, cuando navega a un registro de cualquiera de los tipos conectados en la jerarquía, puede ver en qué parte de la jerarquía se coloca el registro.
+Por ejemplo, si crea una jerarquía y conecta Campañas con Tácticas, luego con Actividades y después con Proyectos, cuando navega a un registro de cualquiera de los tipos conectados en la jerarquía, puede ver en qué parte de la jerarquía se coloca el registro.
 
 Tenga en cuenta lo siguiente:
 
