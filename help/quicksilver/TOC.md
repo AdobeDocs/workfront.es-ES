@@ -3,7 +3,7 @@ user-guide-title: Guía de Workfront
 user-guide-description: Utilice los siguientes documentos, tutoriales y recursos adicionales para aprender a implementar y utilizar Adobe Workfront de forma eficaz en su organización.
 role: User
 feature-set: Workfront
-source-git-commit: df508366dd8cd1c237ad1beffcf86bfb6392c8bb
+source-git-commit: 95ddfe6139d225527ba5539903ba8ef100589a75
 workflow-type: tm+mt
 source-wordcount: '13623'
 ht-degree: 58%
@@ -37,7 +37,7 @@ ht-degree: 58%
          * [Mejoras de proyecto del cuarto trimestre de 2025](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-project.md)
          * [Mejoras en las solicitudes del cuarto trimestre de 2025](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-requests.md)
          * [Mejoras en la gestión de recursos del cuarto trimestre de 2025](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-resource-mgmt.md)
-         * [Otras mejoras del cuarto trimestre de 2025 &#x200B;](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-other.md)
+         * [Otras mejoras del cuarto trimestre de 2025 ](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-other.md)
          * [Actualizaciones de aspecto durante el periodo de tiempo de la versión del cuarto trimestre de 2025](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-look-and-feel-updates.md)
       * Versión del tercer trimestre de 2025 {#release-25-q3}
          * [Resumen de la versión del tercer trimestre de 2025](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-release-overview.md)
@@ -1777,7 +1777,7 @@ ht-degree: 58%
    * [Administrar recursos: índice de artículos](resource-mgmt/manage-resources.md)
    * Administración de recursos {#resource-management}
       * [Administración de recursos: índice de artículos](resource-mgmt/resource-mgmt-overview/resource-management-overview.md)
-      * [Introducción a la Administración de recursos &#x200B;](resource-mgmt/resource-mgmt-overview/get-started-resource-management.md)
+      * [Introducción a la Administración de recursos ](resource-mgmt/resource-mgmt-overview/get-started-resource-management.md)
    * Planificación de recursos en Adobe Workfront {#resource-planning-in-adobe-workfront}
       * [Planificación de recursos: índice de artículos](resource-mgmt/resource-planning/resource-planning-overview.md)
       * Conjuntos de recursos {#resource-pools}
@@ -1945,11 +1945,11 @@ ht-degree: 58%
             * [Bloquear o desbloquear una prueba](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/lock-or-unlock-proof.md)
             * [Búsqueda de contenido dentro de una prueba](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/search-in-a-proof.md)
             * [Comparar pruebas](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/compare-proofs.md)
-            * [Descarga de una prueba en el visor de corrección](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/download-a-proof-in-viewer.md)
-            * [Métodos abreviados de teclado en el visor de pruebas](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/keyboard-shortcuts-proof.md)
+            * [Descarga de una revisión en el visor de corrección](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/download-a-proof-in-viewer.md)
+            * [Métodos abreviados de teclado en el visor de revisiones](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/keyboard-shortcuts-proof.md)
             * [Configurar la revisión de contenido interactivo en el Visor de revisión web](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/interactive-content-in-web-viewer.md)
-            * [Compartir una prueba desde el visor de corrección](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/share-a-proof-in-proofing-viewer.md)
-            * [Visualización de versiones de prueba anteriores en el visor de corrección](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/view-previous-version.md)
+            * [Compartir una revisión desde el visor de corrección](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/share-a-proof-in-proofing-viewer.md)
+            * [Visualización de versiones de revisión anteriores en el visor de corrección](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/view-previous-version.md)
             * [Cambiar la resolución de revisión interactiva en el visor de corrección](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/view-interactive-content-as-it-appears-in-device.md)
             * [Configurar ajustes del visor de corrección](review-and-approve-work/proofing/reviewing-proofs-within-workfront/configure-proofing-viewer-settings.md)
             * [Revisión del contenido interactivo con la herramienta de revisión de Adobe Workfront](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/review-proof-in-web-viewer-extension.md)
@@ -1966,7 +1966,7 @@ ht-degree: 58%
          * Tomar una decisión sobre una prueba {#make-decision-on-proof}
             * [Tomar una decisión sobre una revisión: índice de artículos](review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decision-on-proof.md)
             * [Aprobar una prueba](review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/approve-proof.md)
-            * [Tome una decisión sobre una prueba en el visor de corrección](review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md)
+            * [Tome una decisión sobre una revisión en el visor de corrección](review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md)
             * [Cambiar una decisión existente en una prueba](review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/change-existing-decision.md)
       * Sugerencias, trucos y solución de problemas para la revisión en Adobe Workfront {#ttt-proofing-in-workfront}
          * [Sugerencias, trucos y resolución de problemas para la revisión en Adobe Workfront: índice de artículos](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-proofing.md)
@@ -2360,10 +2360,10 @@ ht-degree: 58%
          * [Revisar un flujo de trabajo en el visualizador de revisión](workfront-proof/wp-work-proofsfiles/review-proofs-wpv/review-workflow.md)
          * [Revisar una prueba simultáneamente con varios revisores](workfront-proof/wp-work-proofsfiles/review-proofs-wpv/review-proof-with-multiple-reviewers.md)
          * [Ver la actividad de una prueba en el visualizador de revisión](workfront-proof/wp-work-proofsfiles/review-proofs-wpv/view-activity-on-a-proof.md)
-         * [Trabajar con varias pruebas en el visor de corrección](workfront-proof/wp-work-proofsfiles/review-proofs-wpv/work-with-multiple-proofs.md)
+         * [Trabajar con varias revisiones en el visor de corrección](workfront-proof/wp-work-proofsfiles/review-proofs-wpv/work-with-multiple-proofs.md)
          * [Comparar pruebas en el visualizador de revisión](workfront-proof/wp-work-proofsfiles/review-proofs-wpv/compare-proofs.md)
          * [Ver versiones de prueba anteriores en el visualizador de revisión web](workfront-proof/wp-work-proofsfiles/review-proofs-wpv/view-previous-proof-versions.md)
-         * [Descarga de una prueba en el visor de corrección](workfront-proof/wp-work-proofsfiles/review-proofs-wpv/download-proof.md)
+         * [Descarga de una revisión en el visor de corrección](workfront-proof/wp-work-proofsfiles/review-proofs-wpv/download-proof.md)
          * [Métodos abreviados de teclado en el visor de revisión de Workfront Proof](workfront-proof/wp-work-proofsfiles/review-proofs-wpv/keyboard-shortcuts.md)
          * [Visualizador de revisión heredado eliminado](workfront-proof/wp-work-proofsfiles/review-proofs-wpv/lpv-removed.md)
       * Compartir pruebas y archivos {#share-proofs-and-files}
@@ -2484,7 +2484,7 @@ ht-degree: 58%
          * [Creación de una revisión de sitio web estático con Workfront Proof](workfront-proof/wp-tech-corner/proof-types/create-status-web-proof.md)
       * Solución de problemas en Workfront Proof {#troubleshooting-wf-proof}
          * [Solución de problemas en Workfront Proof](workfront-proof/wp-tech-corner/troubleshooting/troubleshooting.md)
-         * [Solución de problemas: fuente de la interfaz corrupta en el visor de pruebas en Mac.](workfront-proof/wp-tech-corner/troubleshooting/corrupted-interface-font-pv-mac.md)
+         * [Solución de problemas: fuente de la interfaz corrupta en el visor de revisiones en Mac.](workfront-proof/wp-tech-corner/troubleshooting/corrupted-interface-font-pv-mac.md)
          * [Descubra cómo la caché y las cookies afectan a Workfront Proof](workfront-proof/wp-tech-corner/troubleshooting/how-cache-cookies-affect-pv.md)
          * [Problemas de velocidad en Workfront Proof](workfront-proof/wp-tech-corner/troubleshooting/speed-issue.md)
          * [Solución de problemas - Visor de pruebas de Workfront Proof](workfront-proof/wp-tech-corner/troubleshooting/proofing-viewer.md)
