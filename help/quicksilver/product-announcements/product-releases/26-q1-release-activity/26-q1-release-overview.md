@@ -4,7 +4,7 @@ description: En esta página se ofrece información sobre la funcionalidad inclu
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: d77568db7ad1af56302c8460db603d242274a8cf
+source-git-commit: 8f126e75845e15ff5d4e0b327abcfafb1dbffd99
 workflow-type: tm+mt
 source-wordcount: '2152'
 ht-degree: 16%
@@ -289,7 +289,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
             <p>Para facilitar la organización y el desorden de sus solicitudes, hemos añadido la capacidad de eliminar solicitudes a la nueva experiencia de solicitud. Ahora puede eliminar las solicitudes que haya enviado. Los administradores de Workfront y de Workfront Planning Workspace también pueden eliminar solicitudes.</p>
         </td>
         <td>viernes, 20 de noviembre de 2025</td>
-        <td>viernes, 11 de diciembre de 2025</td>
+        <td>jueves, 14 de enero de 2026</td>
         <td>viernes, 15 de enero de 2026</td>
     </tr>   
         <tr>
@@ -441,7 +441,7 @@ Para ofrecer integraciones más estables y escalables, estamos adoptando un enfo
 * Workfront para Salesforce.
 
 Recomendamos utilizar la automatización e integración de Workfront para las necesidades de integración de su organización con Google Workspace.
-Para obtener una descripción general de la automatización e integración de Workfront, consulte [Información general de Adobe Workfront Fusion](https://experienceleague.adobe.com/es/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+Para obtener una descripción general de la automatización e integración de Workfront, consulte [Información general de Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 
 
 ### Actualizaciones de mantenimiento de Workfront 
