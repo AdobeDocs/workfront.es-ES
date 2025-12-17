@@ -4,7 +4,7 @@ description: En esta página se ofrece información sobre la funcionalidad inclu
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: b12784a65f435a9e2992995f5ebe17acf11e1705
+source-git-commit: d77568db7ad1af56302c8460db603d242274a8cf
 workflow-type: tm+mt
 source-wordcount: '2152'
 ht-degree: 16%
@@ -280,7 +280,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
             <p>Para facilitar la creación y el envío de solicitudes, se ha añadido la capacidad de guardar borradores a la nueva experiencia de solicitud. Ahora, cuando empiece a rellenar una solicitud y la cierre, esta se guarda en estado de borrador y se puede encontrar en el formulario de solicitud utilizado para crear el borrador. A continuación, puede volver a abrir, actualizar y enviar el borrador según le convenga. </p>
         </td>
         <td>viernes, 20 de noviembre de 2025</td>
-        <td>viernes, 11 de diciembre de 2025</td>
+        <td>jueves, 14 de enero de 2026</td>
         <td>viernes, 15 de enero de 2026</td>
     </tr>  
         <tr>
@@ -441,7 +441,7 @@ Para ofrecer integraciones más estables y escalables, estamos adoptando un enfo
 * Workfront para Salesforce.
 
 Recomendamos utilizar la automatización e integración de Workfront para las necesidades de integración de su organización con Google Workspace.
-Para obtener una descripción general de la automatización e integración de Workfront, consulte [Información general de Adobe Workfront Fusion](https://experienceleague.adobe.com/es/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+Para obtener una descripción general de la automatización e integración de Workfront, consulte [Información general de Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 
 
 ### Actualizaciones de mantenimiento de Workfront 

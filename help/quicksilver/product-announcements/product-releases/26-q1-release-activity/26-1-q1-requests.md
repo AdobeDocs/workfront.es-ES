@@ -4,7 +4,7 @@ description: Mejoras en las solicitudes del primer trimestre de 2026
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: cf4c5888f58cb51c26176eae4aa1c8e011bbecf8
+source-git-commit: d77568db7ad1af56302c8460db603d242274a8cf
 workflow-type: tm+mt
 source-wordcount: '452'
 ht-degree: 7%
@@ -51,7 +51,7 @@ For information on request views, including sharing, see [Create and manage view
 >[!NOTE]
 >
 >Vista previa: 20 de noviembre de 2025
->Versión rápida de producción: 11 de diciembre de 2026\
+>Versión rápida de producción: 14 de enero de 2026\
 >Producción para todos: 15 de enero de 2026
 
 Para facilitar la creación y el envío de solicitudes, se ha añadido la capacidad de guardar borradores a la nueva experiencia de solicitud. Ahora, cuando empiece a rellenar una solicitud y la cierre, esta se guarda en estado de borrador y se puede encontrar en el formulario de solicitud utilizado para crear el borrador. A continuación, puede volver a abrir, actualizar y enviar el borrador según le convenga.
