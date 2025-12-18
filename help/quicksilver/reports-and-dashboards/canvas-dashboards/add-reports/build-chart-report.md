@@ -6,20 +6,22 @@ description: Se puede añadir a un panel de control de lienzo un informe de grá
 author: Courtney and Jenny
 feature: Reports and Dashboards
 exl-id: 4262cae8-602f-416d-94b9-409eb9d6241c
-source-git-commit: 1059950dd3b20e0959c626e580f958bed5076541
+source-git-commit: bb65fa45f6fce762920627ad0fb6fd1d832f23a3
 workflow-type: tm+mt
-source-wordcount: '1381'
-ht-degree: 8%
+source-wordcount: '1713'
+ht-degree: 7%
 
 ---
 
 # Creación de un informe de gráfico en un panel de control de lienzo
 
+<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes.</span>
+
 >[!IMPORTANT]
 >
 >Actualmente, la función Paneles de lienzo solo está disponible para los usuarios que participan en la fase beta. Es posible que algunas partes de la función no estén completas o que no funcionen según lo previsto durante esta fase. Envíe cualquier comentario sobre su experiencia siguiendo las instrucciones de la sección [Proporcionar comentarios](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) del artículo Información general sobre la versión beta de los paneles de lienzo.<br>
->&#x200B;>Si tiene comentarios acerca de un posible error o problema técnico, envíe un ticket al equipo de asistencia de Workfront. Para obtener más información, consulte [Póngase en contacto con Atención al cliente](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
->&#x200B;>Tenga en cuenta que esta versión beta no está disponible en los siguientes proveedores de la nube:
+>Si tiene comentarios acerca de un posible error o problema técnico, envíe un ticket al equipo de asistencia de Workfront. Para obtener más información, consulte [Póngase en contacto con Atención al cliente](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
+>Tenga en cuenta que esta versión beta no está disponible en los siguientes proveedores de la nube:
 >
 >* Traer su propia clave para Amazon Web Service
 >* Azure
@@ -40,7 +42,7 @@ Puede crear y agregar un informe de gráfico a un panel de lienzo para visualiza
 </col> 
 <tbody> 
 <tr> 
-   <td role="rowheader"><p>paquete de Adobe Workfront</p></td> 
+   <td role="rowheader"><p>Paquete de Adobe Workfront</p></td> 
    <td> 
 <p>Cualquiera </p> 
    </td> 
@@ -99,48 +101,90 @@ Hay muchas opciones de configuración disponibles para crear un informe de gráf
       >[!NOTE]
       >
       >Hay un número máximo de 60 series que se pueden mostrar en un gráfico. Cuando se marca esta casilla, cualquier serie por encima del límite se consolida en una agrupación **Other** del gráfico.
+1. Elija el tipo de gráfico que desea crear:
+   * [Gráfico de barras, columnas o líneas](#bar-column-or-line-chart)
+   * [Gráfico circular](#pie-chart)
 
-1. Siga los pasos a continuación para configurar la sección **Gráfico de generación**:
+### Gráfico de barras, columnas o líneas
 
-   1. En el panel izquierdo, haga clic en el icono **Crear gráfico** ![Crear gráfico](assets/build-chart-icon.png).
+>[!NOTE]
+>
+>Puede haber campos adicionales según el tipo de campo que seleccione. Las opciones que se describen a continuación son estándar para todos los tipos de campo.
 
-   1. En la lista desplegable **Tipo de gráfico**, seleccione el tipo de gráfico que desea crear:
 
-      * **Barra**
-      * **Columna**
-      * **Line**
-      * **Circular**
+1. En el panel izquierdo, haga clic en el icono **Crear gráfico** ![Crear gráfico](assets/build-chart-icon.png).
 
-   1. En la lista desplegable **Tipo de columna**, seleccione el tipo de columna:
-      * **Simple**
-      * **Varias series**
-      * **Apiladas**
+1. En la lista desplegable **Tipo de gráfico**, seleccione **Barra**, **Columna** o **Línea**.
+1. En el segundo menú desplegable, seleccione el tipo de barra, columna o línea:
+   * **Simple**
+   * **Varias series**
+   * **Apiladas**
 
-   1. Seleccione el botón **Actualizar campo** en la primera sección, luego busque y seleccione el campo que contiene los datos que se resumirán en el gráfico.
-   1. En la lista desplegable **Tipo de agregación**, seleccione cómo se acumulan los datos para generar el resultado del gráfico.
+1. En la sección **Eje inferior (X)**, seleccione el **campo Actualizar**, luego busque y seleccione el campo que contiene los datos que se resumirán en el gráfico.
+1. En la lista desplegable **Tipo de agregación**, seleccione cómo se acumulan los datos para generar el resultado del gráfico.
+1. <span class="preview">(Opcional) Agregue una etiqueta de eje en el espacio proporcionado.</span>
+1. <span class="preview"> (Opcional) Active **Ocultar eje**. </span>
+1. <span class="preview">(Opcional) Escriba un **Valor de línea de referencia** para establecer un objetivo o umbral en el gráfico.</span>
+1. Elija **Tipo de línea** en el menú desplegable.
+1. Seleccione el botón **Actualizar campo** de la segunda sección y, a continuación, busque y seleccione el segundo campo que desee mostrar en el gráfico.
 
-   1. Seleccione el botón **Actualizar campo** de la segunda sección y, a continuación, busque y seleccione el segundo campo que desee mostrar en el gráfico.
 
-1. Siga los pasos a continuación para configurar la sección **Filter**:
+### Gráfico circular
 
-   1. En el panel izquierdo, haga clic en el icono **Filtro**![&#x200B; Icono de filtro](assets/filter-icon.png).
-   1. Seleccione **Editar filtro**.
-   1. Haga clic en **Agregar condición** y, a continuación, especifique el campo por el que desea filtrar y el modificador que define qué tipo de condición debe cumplir el campo.
-   1. (Opcional) Haga clic en **Agregar grupo de filtros** para agregar otro conjunto de criterios de filtrado. El operador predeterminado entre los conjuntos es Y. Haga clic en el operador para cambiarlo a OR.
+>[!NOTE]
+>
+>Puede haber campos adicionales según el tipo de campo que seleccione. Las opciones que se describen a continuación son estándar para todos los tipos de campo.
 
-1. Siga los pasos a continuación para configurar la sección **Configuración de columna detallada**:
 
-   1. En el panel izquierdo, haga clic en el icono **Columnas de desglose** ![Columnas de desglose](assets/drilldown-column.png). Los campos del gráfico aparecen automáticamente como columnas en la sección de vista previa a la derecha.
+1. En el panel izquierdo, haga clic en el icono **Crear gráfico** ![Crear gráfico](assets/build-chart-icon.png).
 
-   1. (Opcional) Para actualizar cualquiera de las configuraciones de columna existentes, seleccione la columna que desee actualizar en la sección **Columnas actuales** y, a continuación, actualice la información deseada (por ejemplo: etiqueta, estado vinculado y condiciones).
+1. En la lista desplegable **Tipo de gráfico**, seleccione **Barra**.
+1. En la sección **Métrica**, seleccione el **campo de actualización**, luego busque y seleccione el campo que contiene los datos que se resumirán en el gráfico.
+1. En la lista desplegable **Tipo de agregación**, seleccione cómo se acumulan los datos para generar el resultado del gráfico.
+1. En la sección **Segmento**, seleccione **Actualizar campo**, luego busque y seleccione el campo que contiene los segmentos que desea mostrar en el gráfico circular.
+1. <span class="preview"> (Opcional) En la sección **Circular**, active **Mostrar etiquetas de segmento** para mostrar las etiquetas de segmento.</span>
+1. <span class="preview"> (Opcional) Active **Mostrar total** para mostrar el total en medio del gráfico. Cuando está habilitada, hay opciones adicionales para mostrar una etiqueta central y elegir el formato de valor.</span>
 
-   1. Haga clic en **Agregar columna** y, a continuación, seleccione el campo que desee mostrar como columna en la tabla. Repita este proceso para cada columna que desee agregar.
+>[!NOTE]
+>
+>Los tipos de agregación se muestran de la siguiente manera:
+>
+>* Contar tipos de agregación: el valor central mostrado es un recuento de todos los segmentos del gráfico.
+>* Suma de tipos de agregación: el valor central mostrado es el total agregado del valor numérico o de divisa.
+>* Tipos de agregación Average, max y min: el valor central muestra el valor promedio, máximo o mínimo en consecuencia.
 
-1. Siga los pasos a continuación para configurar la sección **Configuración del grupo de desglose**:
+1. <span class="preview">(Opcional) En la sección Leyenda, active **Mostrar leyenda** para mostrar la leyenda del gráfico.</span>
 
-   1. En el panel izquierdo, haga clic en el icono **Configuración de grupo** ![Configuración de grupo](assets/drilldown-group-icon.png).
+1. <span class="preview"> (Opcional) Elija una **posición de leyenda** en el menú desplegable.</span>
 
-   1. Haga clic en el botón **Agregar agrupación** y, a continuación, seleccione el campo que desee crear como agrupación.
+## Configurar opciones adicionales del informe de gráfico
+
+### Filtros
+
+Siga los pasos a continuación para configurar la sección **Filter**:
+
+1. En el panel izquierdo, haga clic en el icono **Filtro**![ Icono de filtro](assets/filter-icon.png).
+1. Seleccione **Editar filtro**.
+1. Haga clic en **Agregar condición** y, a continuación, especifique el campo por el que desea filtrar y el modificador que define qué tipo de condición debe cumplir el campo.
+1. (Opcional) Haga clic en **Agregar grupo de filtros** para agregar otro conjunto de criterios de filtrado. El operador predeterminado entre los conjuntos es Y. Haga clic en el operador para cambiarlo a OR.
+
+### Configuración de desglose
+
+Siga los pasos a continuación para configurar la sección **Configuración de columna detallada**:
+
+1. En el panel izquierdo, haga clic en el icono **Columnas de desglose** ![Columnas de desglose](assets/drilldown-column.png). Los campos del gráfico aparecen automáticamente como columnas en la sección de vista previa a la derecha.
+
+1. (Opcional) Para actualizar cualquiera de las configuraciones de columna existentes, seleccione la columna que desee actualizar en la sección **Columnas actuales** y, a continuación, actualice la información deseada (por ejemplo: etiqueta, estado vinculado y condiciones).
+
+1. Haga clic en **Agregar columna** y, a continuación, seleccione el campo que desee mostrar como columna en la tabla. Repita este proceso para cada columna que desee agregar.
+
+### Configuración del grupo de desglose
+
+Siga los pasos a continuación para configurar la sección **Configuración del grupo de desglose**:
+
+1. En el panel izquierdo, haga clic en el icono **Configuración de grupo** ![Configuración de grupo](assets/drilldown-group-icon.png).
+
+1. Haga clic en el botón **Agregar agrupación** y, a continuación, seleccione el campo que desee crear como agrupación.
 
 1. Haga clic en **Guardar** para crear el informe y agregarlo al tablero.
 
