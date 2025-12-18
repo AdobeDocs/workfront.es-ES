@@ -4,9 +4,9 @@ description: En esta página se ofrece información sobre la funcionalidad inclu
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: bed931281d7d0b3184914ed7649d9cb889bcf39a
+source-git-commit: db74f7a97174ce0bca30684bc0871cca4b6ae4d9
 workflow-type: tm+mt
-source-wordcount: '2888'
+source-wordcount: '2890'
 ht-degree: 13%
 
 ---
@@ -39,6 +39,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
 
 * [Mejoras en el administrador](#administrator-enhancements)
 * [Mejoras de documentos y aprobaciones](#documents-and-approvals-enhancements)
+* [Mejoras en el Inicio](#home-enhancements)
 * [Mejoras en la integración](#integration-enhancements)
 * [Mejoras en el proyecto](#project-enhancements)
 * [Mejoras en la creación de informes](#reporting-enhancements)
@@ -147,7 +148,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
 
 
 
-### Mejoras en la integración
+### Mejoras en el Inicio
 
 <table style="table-layout:auto">
   <tbody>
@@ -183,7 +184,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
     </tr>
          <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-integrations.md" class="MCXref xref" xrefformat="{para}">Elija un proyecto de Workfront al enviar una revisión en Creative Cloud Express</a><p>![INSIGNIA desactivada]{type=Neutral}</p>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-integrations.md" class="MCXref xref" xrefformat="{para}">Elija un proyecto de Workfront al enviar una revisión en Creative Cloud Express</a><p>[!BADGE Off schedule]{type=Neutral}</p>
             <p>Puede elegir un proyecto de Workfront al que enviar una prueba. Esto ayuda a mantener todos los recursos y pruebas relacionados organizados dentro del mismo proyecto. </p>
         </td>
         <td>martes, 15 de diciembre de 2025</td>
@@ -311,7 +312,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
     </tr>   
      <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-reporting.md" class="MCXref xref" xrefformat="{para}">Duplicar un informe en un panel de lienzo</a><p>![INSIGNIA desactivada]{type=Neutral}</p>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-reporting.md" class="MCXref xref" xrefformat="{para}">Duplicar un informe en un panel de lienzo</a><p>[!BADGE Off schedule]{type=Neutral}</p>
             <p>Ahora puede duplicar un informe de KPI, tabla o gráfico en un panel de lienzo una vez creado. Una vez duplicado, puede editar el informe según sea necesario antes de guardar.</p>
         </td>
         <td>viernes, 23 de octubre de 2025</td>
@@ -593,7 +594,7 @@ Para ofrecer integraciones más estables y escalables, estamos adoptando un enfo
 * Workfront para Salesforce.
 
 Recomendamos utilizar la automatización e integración de Workfront para las necesidades de integración de su organización con Google Workspace.
-Para obtener una descripción general de la automatización e integración de Workfront, consulte [Información general de Adobe Workfront Fusion](https://experienceleague.adobe.com/es/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+Para obtener una descripción general de la automatización e integración de Workfront, consulte [Información general de Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 
 
 ### Actualizaciones de mantenimiento de Workfront 
