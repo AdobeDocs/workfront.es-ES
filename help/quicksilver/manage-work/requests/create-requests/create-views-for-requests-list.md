@@ -1,22 +1,28 @@
 ---
 product-area: requests
 navigation-topic: create-requests
-title: Creación de vistas en el área de solicitudes
+title: Creación y administración de vistas en el área de solicitudes
 description: Si utiliza la nueva experiencia de solicitud, puede crear y guardar vistas para el área de solicitudes.
 author: Becky
 feature: Work Management
-source-git-commit: d2e938cabc5123a89335a42ed06bccaa77fcad83
+source-git-commit: 684f7fc62fe341a59b1b7f7ae6c7118a5e511513
 workflow-type: tm+mt
-source-wordcount: '702'
-ht-degree: 8%
+source-wordcount: '1004'
+ht-degree: 6%
 
 ---
 
-# Cree o edite vistas en el área de solicitudes
+# Creación y administración de vistas en el área de solicitudes
 
 <span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa de espacio aislado.</span>
 
 Si utiliza la nueva experiencia de solicitud, puede crear y guardar vistas para el área de solicitudes. Estas vistas incluyen filtros y disposiciones de columnas.
+
+Las vistas se pueden crear y administrar en el área de Solicitudes de Workfront y en el widget Mis solicitudes de Inicio. La configuración de vista se conserva entre el área de solicitudes y el widget.
+
+>[!IMPORTANT]
+>
+>Esta funcionalidad solo está disponible en la nueva experiencia de solicitud.
 
 ## Requisitos de acceso
 
@@ -55,18 +61,18 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
 
 ## Creación de una vista en el área de Solicitudes
 
-{{step1-to-requests}}
+Puede crear una vista en el área de Solicitudes de Workfront o en el widget Mis solicitudes de Inicio.
 
-1. (Opcional y condicional) Seleccione el ajuste **Cambiar a una nueva experiencia** en la parte superior derecha de la pantalla, si se aplican los siguientes puntos a su organización y a su instancia de Workfront:
+1. Para acceder a la lista de solicitudes, haga clic en el icono **[!UICONTROL Menú principal]** ![Menú principal](/help/_includes/assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront o (si está disponible), haga clic en el icono **[!UICONTROL Menú principal]** ![Menú principal](/help/_includes/assets/main-menu-icon-left-nav.png) en la esquina superior izquierda y, a continuación, haga clic en **[!UICONTROL Solicitudes]**.
 
-   * Su organización ha adquirido un paquete de Workfront.
-   * Su organización se ha incorporado a la experiencia unificada de Adobe.
-   * El administrador le ha concedido acceso a Workfront Planning
-   * Tiene al menos permisos de visualización en un espacio de trabajo de Workfront Planning
+1. Para acceder al widget Mis solicitudes en Inicio:
 
-   Para obtener más información, consulte [Enviar solicitudes de Adobe Workfront Planning para crear registros](/help/quicksilver/planning/requests/submit-requests.md)
+   1. Haga clic en el icono **[!UICONTROL Menú principal]** ![Menú principal](/help/_includes/assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront o (si está disponible), haga clic en el icono **[!UICONTROL Menú principal]** ![Menú principal](/help/_includes/assets/main-menu-icon-left-nav.png) en la esquina superior izquierda y, a continuación, haga clic en **[!UICONTROL Inicio]**.
+   1. Busque el widget Mis solicitudes.
 
-1. Haga clic en el menú desplegable **Vistas** ![Menú desplegable de vistas](assets/view-icon-requests.png) y seleccione **Nueva vista**.
+      Para obtener más información sobre el widget Mis solicitudes, consulte [Usar el widget Mis solicitudes](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md).
+
+1. En la lista Solicitudes o en el widget Mis solicitudes, haga clic en el menú desplegable **Vistas** ![Menú desplegable de vistas](assets/view-icon-requests.png) y seleccione **Nueva vista**.
 
    ![Nueva vista](assets/create-new-view.png)
 
@@ -77,16 +83,16 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
 
 Puede editar las vistas existentes, incluidas las que acaba de crear.
 
-{{step1-to-requests}}
+1. Para acceder a la lista de solicitudes, haga clic en el icono **[!UICONTROL Menú principal]** ![Menú principal](/help/_includes/assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront o (si está disponible), haga clic en el icono **[!UICONTROL Menú principal]** ![Menú principal](/help/_includes/assets/main-menu-icon-left-nav.png) en la esquina superior izquierda y, a continuación, haga clic en **[!UICONTROL Solicitudes]**.
 
-1. (Opcional y condicional) Seleccione el ajuste **Cambiar a una nueva experiencia** en la parte superior derecha de la pantalla, si se aplican los siguientes puntos a su organización y a su instancia de Workfront:
+1. Para acceder al widget Mis solicitudes en Inicio:
 
-   * Su organización ha adquirido un paquete de Workfront.
-   * Su organización se ha incorporado a la experiencia unificada de Adobe.
-   * El administrador le ha concedido acceso a Workfront Planning
-   * Tiene al menos permisos de visualización en un espacio de trabajo de Workfront Planning
+   1. Haga clic en el icono **[!UICONTROL Menú principal]** ![Menú principal](/help/_includes/assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront o (si está disponible), haga clic en el icono **[!UICONTROL Menú principal]** ![Menú principal](/help/_includes/assets/main-menu-icon-left-nav.png) en la esquina superior izquierda y, a continuación, haga clic en **[!UICONTROL Inicio]**.
+   1. Busque el widget Mis solicitudes.
 
-   Para obtener más información, consulte [Enviar solicitudes de Adobe Workfront Planning para crear registros](/help/quicksilver/planning/requests/submit-requests.md)1.
+      Para obtener más información sobre el widget Mis solicitudes, consulte [Usar el widget Mis solicitudes](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md).
+
+1. En la lista Solicitudes o en el widget Mis solicitudes, busque la vista que desee editar.
 
 1. (Opcional) Para cambiar el nombre de una vista, haga clic en el menú desplegable **Vistas** ![Menú desplegable de vistas](assets/view-icon-requests.png) y haga clic en el menú de tres puntos situado junto a la vista, seleccione **Cambiar nombre** y, a continuación, escriba el nuevo nombre de la vista.
 1. Haga clic en el menú desplegable **Vistas** ![Menú desplegable de vistas](assets/view-icon-requests.png) y seleccione la vista que desee editar.
@@ -135,3 +141,23 @@ La lista de solicitudes se filtra automáticamente a medida que se añaden las c
 Un administrador de Workfront puede agregar la nueva vista a las plantillas de diseño.
 
 Para obtener instrucciones, vea [Personalizar filtros, vistas y agrupaciones mediante una plantilla de diseño](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md).
+
+## Compartir una vista
+
+Puede compartir vistas que cree con otros usuarios, equipos o grupos.
+
+1. Para acceder a la lista de solicitudes, haga clic en el icono **[!UICONTROL Menú principal]** ![Menú principal](/help/_includes/assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront o (si está disponible), haga clic en el icono **[!UICONTROL Menú principal]** ![Menú principal](/help/_includes/assets/main-menu-icon-left-nav.png) en la esquina superior izquierda y, a continuación, haga clic en **[!UICONTROL Solicitudes]**.
+
+1. Para acceder al widget Mis solicitudes en Inicio:
+
+   1. Haga clic en el icono **[!UICONTROL Menú principal]** ![Menú principal](/help/_includes/assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront o (si está disponible), haga clic en el icono **[!UICONTROL Menú principal]** ![Menú principal](/help/_includes/assets/main-menu-icon-left-nav.png) en la esquina superior izquierda y, a continuación, haga clic en **[!UICONTROL Inicio]**.
+   1. Busque el widget Mis solicitudes.
+
+      Para obtener más información sobre el widget Mis solicitudes, consulte [Usar el widget Mis solicitudes](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md).
+
+1. En la lista Solicitudes o en el widget Mis solicitudes, busque la vista que desee compartir.
+1. Pase el ratón sobre la vista que quiera compartir y luego haga clic en el menú de tres puntos cuando aparezca.
+1. Seleccione **Compartir**.
+1. En el cuadro de diálogo que se abre, escriba los nombres de los usuarios, equipos o grupos con los que desea compartir la vista y, a continuación, selecciónelos en la lista cuando aparezcan.
+1. Haga clic en **Guardar**.
+
