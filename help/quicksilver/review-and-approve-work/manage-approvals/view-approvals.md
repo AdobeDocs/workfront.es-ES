@@ -6,14 +6,16 @@ description: Los procesos de aprobación proporcionan la flexibilidad para crear
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 1071e456-f111-4c52-b13a-ac1113f69cec
-source-git-commit: 2503b6e628e4860a5652c620d8e4d0eea2414443
+source-git-commit: a3ce37193025ff8bb2e0be88ef5556fcadbb542c
 workflow-type: tm+mt
-source-wordcount: '727'
-ht-degree: 82%
+source-wordcount: '752'
+ht-degree: 81%
 
 ---
 
 # Ver aprobaciones
+
+<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa de espacio aislado.</span>
 
 Los procesos de aprobación proporcionan la flexibilidad para crear aprobaciones de varios pasos para proyectos, tareas y problemas. Los administradores de Adobe Workfront definen los procesos de aprobación para proporcionar coherencia en todo el sistema.
 
@@ -30,7 +32,7 @@ Para obtener información acerca de cómo asociar aprobaciones con trabajo en Wo
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
@@ -63,7 +65,7 @@ Puede ver o administrar aprobaciones desde las siguientes áreas:
 
 * En el área de Inicio
 
-   * Todos los proyectos, tareas, problemas, plantillas de horas, documentos y accesos pendientes de su aprobación se muestran en el widget Mis aprobaciones en el área de Inicio.
+   * Todos los proyectos, tareas, problemas, hojas de horas, documentos, accesos y <span class="preview">solicitudes de Workfront Planning</span> que esperan su aprobación se muestran en el widget Mis aprobaciones en el área de Inicio.
    * Las aprobaciones que usted mismo ha enviado también se muestran en el widget Mis aprobaciones del área de Inicio al elegir la opción de filtro Aprobaciones que he enviado. Para obtener más información, consulte la sección [Revisar el trabajo que envía para su aprobación en el área de Inicio](#review-work-you-submit-for-approval-in-the-home-area) de este artículo.
    * Las aprobaciones se eliminan del widget Mis aprobaciones en el área de Inicio cuando el proyecto, tarea o problema asociado está marcado como Resuelto, En espera, Cerrado o Cancelado.
 

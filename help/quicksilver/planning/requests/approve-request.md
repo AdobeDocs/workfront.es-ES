@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: aca9b313-3420-43f6-8f6c-dd74888bd120
-source-git-commit: 5b1993d49ff675b3bab1d470bc756b987fe19d1c
+source-git-commit: a3ce37193025ff8bb2e0be88ef5556fcadbb542c
 workflow-type: tm+mt
-source-wordcount: '885'
+source-wordcount: '1116'
 ht-degree: 4%
 
 ---
@@ -97,7 +97,12 @@ Los aprobadores reciben las siguientes notificaciones sobre una solicitud pendie
 >
 >La instancia de Workfront de su organización debe incorporarse a la experiencia unificada de Adobe para que los usuarios puedan recibir notificaciones por correo electrónico y en la aplicación.
 
-Para aprobar una solicitud:
+Puede aprobar solicitudes para crear registros a partir de la propia solicitud, <span class="preview"> o del widget Mis aprobaciones en Inicio.</span>
+
+* [Aprobar una solicitud de la solicitud en Workfront Planning](#approve-a-request-from-the-request-in-workfront-planning)
+* [Aprobar una solicitud del widget Mis aprobaciones en Inicio](#approve-a-request-from-the-my-approvals-widget-in-home)
+
+### Aprobar una solicitud de la solicitud en Workfront Planning
 
 1. (Condicional) Si utiliza la experiencia de solicitud heredada en Workfront, abra la solicitud siguiendo uno de estos procedimientos:
 
@@ -128,3 +133,31 @@ Para aprobar una solicitud:
    * **Rechazada**: la solicitud es rechazada.
 
    La solicitud permanece en la pestaña Planificación de la sección Enviados del área Solicitudes de Workfront.
+
+<div class="preview">
+
+### Aprobar una solicitud del widget Mis aprobaciones en Inicio
+
+1. Haga clic en el icono **[!UICONTROL Menú principal]** ![Menú principal](/help/_includes/assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront o (si está disponible), haga clic en el icono **[!UICONTROL Menú principal]** ![Menú principal](/help/_includes/assets/main-menu-icon-left-nav.png) en la esquina superior izquierda y, a continuación, haga clic en **[!UICONTROL Inicio]**.
+
+   O
+
+   Haga clic en el icono [!UICONTROL Inicio] ![Icono de inicio](/help/_includes/assets/home-icon-30x29.png) en la esquina superior izquierda de Adobe Workfront.
+
+1. Busque el objeto que desea aprobar o rechazar.
+
+1. (Opcional) Agregue un comentario haciendo clic en la flecha desplegable situada junto a Aprobar o Rechazar, escribiendo en la nota y haciendo clic en Agregar.
+
+1. Seleccione una de las siguientes opciones:
+
+   * **Aprobar**: Esto aprueba la solicitud. Se crea inmediatamente un registro para el tipo de registro asociado al formulario de solicitud después de que todos los aprobadores aprueben la solicitud.
+   * **Rechazar**: Esto rechaza la solicitud, incluso cuando usted es el único aprobador que la rechaza. No se crea ningún registro para el tipo de registro asociado al formulario de solicitud.
+
+   El usuario que ha enviado la solicitud recibe un correo electrónico y notificaciones en una aplicación cuando se aprueba o rechaza su solicitud.
+
+   El estado de la solicitud cambia a lo siguiente, según la decisión de aprobación:
+
+   * **Completada**: la solicitud está aprobada.
+   * **Rechazada**: la solicitud es rechazada.
+
+</div>
