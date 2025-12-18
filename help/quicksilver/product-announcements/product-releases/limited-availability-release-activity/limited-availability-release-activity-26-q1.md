@@ -8,9 +8,9 @@ role: Admin
 recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
-source-git-commit: fb1b5bb34810652e5098f0dcad70062670d7c137
+source-git-commit: 2e75f6aaba089a91a2306ad06a0f0d79a7524f75
 workflow-type: tm+mt
-source-wordcount: '324'
+source-wordcount: '417'
 ht-degree: 0%
 
 ---
@@ -36,6 +36,17 @@ Esta sección incluye las notas de la versión de la nueva funcionalidad.
 
 Ahora puede aplicar cambios basados en porcentajes a una o más tarifas de facturación de rol dentro de una tarjeta de tarifas. En lugar de actualizar manualmente cada tarifa una por una, puede aplicar cambios a todas las tarifas seleccionadas en una sola operación.
 
+### Limitaciones de KPI en la búsqueda avanzada
+
+>[!NOTE]
+>
+>Fecha de la versión de producción: 18 de diciembre de 2025
+
+Para mejorar la facilidad de uso de la búsqueda avanzada en asignaciones avanzadas y planes de personal, la lista de KPI que puede mostrar en las columnas de la tabla ahora es limitada. Mostrar solo las métricas clave ayuda a encontrar la información con mayor rapidez.
+
+* En la búsqueda avanzada de asignaciones avanzadas, el KPI **Capacidad disponible** está disponible. Esta métrica representa la capacidad total base de los usuarios.
+* En la búsqueda avanzada del plan de asignación de personal, está disponible el KPI **Capacidad restante de asignación de personal**. Esta métrica refleja cuánta capacidad sigue disponible después de las asignaciones.
+
 ## Actualizaciones de mantenimiento para funciones de disponibilidad limitada
 
 En esta sección se describen los problemas corregidos en las actualizaciones semanales de Workfront para las funciones de disponibilidad limitada.
@@ -56,13 +67,13 @@ El KPI de horas planificadas en la pantalla Asignaciones avanzadas ya no se pued
 
 El campo **Fecha de tipo de cambio** en el área Detalles del proyecto > Finanzas ahora está oculto cuando la casilla de verificación **Usar tipos de cambio con fecha efectiva del sistema** no está seleccionada. Anteriormente, al editar un proyecto, el campo de fecha se mostraba en los detalles del proyecto incluso cuando no se habilitaban las tasas de cambio efectivas por fecha.
 
-<!--### Maintenance Updates week of December 7-13, 2025
+<!--### Maintenance Updates week of January 4-10, 2026
 
 **Title**
 
 text
 
-### Maintenance Updates week of January 4-10, 2026
+### Maintenance Updates week of January 11-17, 2026
 
 **Title**
 
