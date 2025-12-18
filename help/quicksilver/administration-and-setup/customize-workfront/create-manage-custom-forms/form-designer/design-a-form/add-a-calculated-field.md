@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 407aae49-4bc3-4364-a794-7e170a57a6d3
-source-git-commit: f6e0329ec63038b33006325701007c564c4126cc
+source-git-commit: e95701bdce2388f7f2b249b1fbf5b27d0ded08af
 workflow-type: tm+mt
-source-wordcount: '2446'
-ht-degree: 79%
+source-wordcount: '2506'
+ht-degree: 77%
 
 ---
 
@@ -54,7 +54,7 @@ Un campo personalizado calculado puede contener:
  <col> 
  <tbody> 
   <tr> 
-   <td>paquete de Adobe Workfront</td> 
+   <td>Paquete de Adobe Workfront</td> 
    <td><p>Cualquiera</p></td> 
   </tr> 
   <tr> 
@@ -107,6 +107,10 @@ Para reutilizar un campo personalizado calculado existente:
    ![Biblioteca de campos](assets/field-library.png)
 
 1. Utilice el cuadro de búsqueda o expanda la sección **Calculado** para localizar el campo calculado que necesita y, a continuación, arrastre el campo al lugar donde desea que aparezca en el formulario personalizado.
+
+1. <span class="preview">(Condicional) Haga clic en **Comprobar conflictos** para revisar todos los objetos que podrían verse afectados por el cambio de la fórmula en este campo calculado.</span>
+
+   <span class="preview">Si dos o más formularios que contienen el mismo campo calculado están adjuntos a un objeto, las fórmulas deben ser idénticas en todos los formularios. No se permite editar la fórmula si el cambio podría provocar un conflicto.</span>
 
 1. (Opcional) Repita el paso anterior para añadir otros campos.
 
@@ -276,7 +280,7 @@ Un cálculo suele comenzar con una expresión, seguida de paréntesis que contie
 
         Los campos personalizados calculados en un objeto se vuelven a calcular automáticamente cuando ocurren las siguientes cosas:
 
-         * Algo en el objeto cambia, como un cálculo diario de la línea de tiempo.
+         * Algo en el objeto cambia, como un cálculo diario de la cronología.
          * Alguien edita otro campo al que se hace referencia mediante un campo personalizado calculado en el objeto.
          * La expresión calculada está vacía y el campo contiene un valor; esto establece el valor en nulo.
 
@@ -284,7 +288,7 @@ Un cálculo suele comenzar con una expresión, seguida de paréntesis que contie
            >
            ><div>En un formulario personalizado adjunto a un objeto, las instrucciones de fecha y hora de los campos personalizados calculados se calculan y guardan a partir de la hora universal coordinada (UTC), no mediante las configuraciones de zona horaria establecidas para la instancia de su organización y el perfil de usuario. Los cálculos de un formulario personalizado se generan en función de las zonas horarias individuales de cada usuario.</div>
 
-      +++
+        +++
 
    1. Haga clic en el cuadro de texto grande y, a continuación, haga clic en **Expresiones** y **Campos** que están disponibles para añadirlos al cálculo.
 
