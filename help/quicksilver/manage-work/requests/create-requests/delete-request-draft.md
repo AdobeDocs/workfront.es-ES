@@ -6,10 +6,10 @@ description: Puede eliminar las solicitudes enviadas o los borradores de solicit
 author: Becky
 feature: Work Management
 exl-id: 9098ada7-0e6b-4de2-97ad-5c6e590fbba3
-source-git-commit: 8b08336431d2e4ebfcb078d8329f8748fac66eda
+source-git-commit: d87df92f548b19901374e982d1759efade644e17
 workflow-type: tm+mt
-source-wordcount: '619'
-ht-degree: 20%
+source-wordcount: '772'
+ht-degree: 16%
 
 ---
 
@@ -74,7 +74,7 @@ Puede eliminar solicitudes en el área de Solicitudes de Workfront o en el widge
 * Los administradores del espacio de trabajo de Workfront Planning pueden eliminar las solicitudes <!--and drafts--> en el espacio de trabajo de Planning que administran.
 * Los usuarios pueden eliminar las solicitudes <!--and drafts--> que hayan enviado.
 
-Para eliminar una solicitud o un borrador en la nueva experiencia de solicitud:
+### Eliminar una solicitud del menú de tres puntos
 
 1. Para acceder a la lista de solicitudes, haga clic en el icono **[!UICONTROL Menú principal]** ![Menú principal](/help/_includes/assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront o (si está disponible), haga clic en el icono **[!UICONTROL Menú principal]** ![Menú principal](/help/_includes/assets/main-menu-icon-left-nav.png) en la esquina superior izquierda y, a continuación, haga clic en **[!UICONTROL Solicitudes]**.
 
@@ -103,6 +103,24 @@ Para eliminar una solicitud o un borrador en la nueva experiencia de solicitud:
 1. En el cuadro de diálogo que se abre, haga clic en **Eliminar**.
 
    Se eliminó la solicitud <!--or draft-->.
+
+### Solicitudes de eliminación masiva
+
+1. Para acceder a la lista de solicitudes, haga clic en el icono **[!UICONTROL Menú principal]** ![Menú principal](/help/_includes/assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront o (si está disponible), haga clic en el icono **[!UICONTROL Menú principal]** ![Menú principal](/help/_includes/assets/main-menu-icon-left-nav.png) en la esquina superior izquierda y, a continuación, haga clic en **[!UICONTROL Solicitudes]**.
+
+1. Para acceder al widget Mis solicitudes en Inicio:
+
+   1. Haga clic en el icono **[!UICONTROL Menú principal]** ![Menú principal](/help/_includes/assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront o (si está disponible), haga clic en el icono **[!UICONTROL Menú principal]** ![Menú principal](/help/_includes/assets/main-menu-icon-left-nav.png) en la esquina superior izquierda y, a continuación, haga clic en **[!UICONTROL Inicio]**.
+   1. Busque el widget Mis solicitudes.
+
+      Para obtener más información sobre el widget Mis solicitudes, consulte [Usar el widget Mis solicitudes](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md).
+
+1. En la lista Solicitudes o en el widget Mis solicitudes, haga clic en el cuadro situado a la izquierda de cada solicitud que desee eliminar.
+1. En la barra azul de la parte inferior de la página, haz clic en **Eliminar**.
+
+   >[!NOTE]
+   >
+   >Si la opción Eliminar no está visible en la barra azul, no tiene permiso para eliminar una o más de las solicitudes seleccionadas.
 
 </div>
 
