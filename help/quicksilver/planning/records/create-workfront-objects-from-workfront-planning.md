@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7c3db950-4cd9-424c-a7a7-4fa7dfa995f6
-source-git-commit: 1f9a0e6064f83c6f0947e3c7ef596e96c934a687
+source-git-commit: 57592455c61f0ddd14f6d2bcc033b58a8cdc7028
 workflow-type: tm+mt
-source-wordcount: '1271'
+source-wordcount: '1267'
 ht-degree: 5%
 
 ---
@@ -60,7 +60,7 @@ Tenga en cuenta lo siguiente al conectar y crear objetos de Workfront con regist
 
    * La vista de tabla de un tipo de registro
    * El área Detalles de un registro en el campo de conexión
-   * La página Registro conectado de un registro, en el área Detalles
+   * La página Registro conectado de un registro
 
 * Puede crear portafolios y programas desde las siguientes áreas de Workfront Planning:
 
@@ -83,7 +83,7 @@ Para obtener información acerca de cómo conectar registros de Planning con obj
 <tr> 
 </tr>   
 <tr> 
-   <td role="rowheader"><p>paquete de Adobe Workfront</p></td> 
+   <td role="rowheader"><p>Paquete de Adobe Workfront</p></td> 
    <td> 
 <p>Cualquier Workfront y cualquier paquete de Planning</p> <p>Cualquier flujo de trabajo y cualquier paquete de Planning</p>
 <p>Para obtener más información sobre lo que se incluye en cada paquete de Workfront Planning, póngase en contacto con su representante de cuentas de Workfront. </p> 
