@@ -4,10 +4,10 @@ description: Mejoras en los informes del primer trimestre de 2026
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 00483638948941c933e5f8bc8cb3edaf8e43fea1
+source-git-commit: bed931281d7d0b3184914ed7649d9cb889bcf39a
 workflow-type: tm+mt
-source-wordcount: '384'
-ht-degree: 11%
+source-wordcount: '871'
+ht-degree: 4%
 
 ---
 
@@ -16,6 +16,113 @@ ht-degree: 11%
 Esta página describe las mejoras de los informes realizadas con la versión del primer trimestre de 2026 en el entorno de vista previa. Estas mejoras estarán disponibles en el entorno de producción, como se ha indicado.
 
 Para obtener una lista de todos los cambios disponibles en este punto del ciclo de la versión del primer trimestre de 2026, consulte [Información general de la versión del primer trimestre de 2026](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md).
+
+<!--
+
+## Currency updates in Canvas Dashboards
+
+>[!NOTE]
+>
+>Preview: December 18, 2025 
+>Production fast release: January 14, 2026 
+>Production for everyone: January 15, 2026 
+
+We have made the following updates for currency fields:
+
+* When multiple currencies are defined in Workfront, you can now choose a default currency for the dashboard during creation. 
+
+* When creating a report, you can lock a currency field. This ensures that the dashboard-level currency preference does not affect the display of these values.
+
+* When viewing a dashboard, users can toggle between any defined currencies in Workfront. These changes apply to the entire dashboard with the exception of locked currency fields.
+
+-->
+
+<!--
+
+## Quick search table results in Canvas Dashboards
+
+>[!NOTE]
+>
+>Preview: December 18, 2025 
+>Production fast release: January 14, 2026 
+>Production for everyone: January 15, 2026 
+
+We have added a quick search to Table reports. This search works across all pages, so you can find data even if it's not currently visible.
+
+-->
+
+## Nueva opción Mostrar total para gráficos circulares
+
+>[!NOTE]
+>
+>Vista previa: 18 de diciembre de 2025
+>Versión rápida de producción: 14 de enero de 2026
+>Producción para todos: 15 de enero de 2026
+
+Hemos introducido una nueva opción Mostrar total que convierte los gráficos circulares en gráficos circulares. Esta función permite a los usuarios mostrar un valor central que representa el total de todos los segmentos del gráfico.
+
+* Para contar los tipos de agregación, el valor central mostrado es un recuento de todos los segmentos del gráfico.
+* Para los tipos de agregación de suma, el valor central mostrado es el total agregado del valor numérico o de moneda.
+* Para los tipos de agregación media, máxima y mínima, el valor central muestra el valor promedio, máximo o mínimo en consecuencia.
+
+Los usuarios también tienen la opción de mostrar u ocultar una etiqueta para el total y proporcionar un valor de etiqueta personalizado.
+
+Para obtener más información, consulte [Crear un informe de gráfico en un panel de lienzo](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-chart-report.md).
+
+## Nuevas opciones de configuración para gráficos circulares en paneles de lienzo
+
+>[!NOTE]
+>
+>Vista previa: 18 de diciembre de 2025
+>Versión rápida de producción: 14 de enero de 2026
+>Producción para todos: 15 de enero de 2026
+
+Hemos introducido dos nuevas opciones de configuración para los gráficos circulares:
+
+* Ocultar etiquetas de segmento: Ahora puede elegir ocultar las etiquetas de segmento en un gráfico circular si son demasiado largas y afectan a la legibilidad del gráfico.
+* Ocultar y cambiar la posición de la leyenda del gráfico circular: ahora puede ocultar una leyenda del gráfico circular. También puede establecer la posición del pie de ilustración a la derecha (valor predeterminado), a la izquierda, arriba o abajo del gráfico.
+
+Para obtener más información, consulte [Crear un informe de gráfico en un panel de lienzo](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-chart-report.md).
+
+## Mejoras en el recuento de agrupación de paneles de lienzo
+
+>[!NOTE]
+>
+>Vista previa: 18 de diciembre de 2025
+>Versión rápida de producción: 14 de enero de 2026
+>Producción para todos: 15 de enero de 2026
+
+Hemos actualizado la barra de agrupación en Paneles de lienzo para mostrar el recuento de registros de la página actual y el recuento general de registros de la agrupación en todas las páginas.
+
+Por ejemplo, la barra de agrupación mostrará &quot;3 de 7&quot; u &quot;83 de 21032&quot; para proporcionar una visión clara de la distribución de datos dentro de la agrupación.
+
+Anteriormente, la barra de agrupación no proporcionaba esta información detallada del recuento, lo que dificultaba comprender el número total de registros dentro de una agrupación al navegar por varias páginas.
+
+## Nueva función de líneas de referencia en informes en paneles de lienzo
+
+>[!NOTE]
+>
+>Vista previa: 18 de diciembre de 2025
+>Versión rápida de producción: 14 de enero de 2026
+>Producción para todos: 15 de enero de 2026
+
+Ahora puede definir una Línea de referencia en los gráficos de barras, columnas y líneas para establecer un objetivo o umbral para los cuatro informes basados en series.
+
+Nota: La línea Referencia no es dinámica y no se pueden aplicar varias líneas de referencia. Estamos explorando futuras mejoras, pero no hay planes inmediatos implementados.
+
+Para obtener más información, consulte [Crear un informe de gráfico en un panel de lienzo](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-chart-report.md).
+
+## Personalización de etiquetas de eje en informes de gráfico en paneles de lienzo
+
+>[!NOTE]
+>
+>Vista previa: 18 de diciembre de 2025
+>Versión rápida de producción: 14 de enero de 2026
+>Producción para todos: 15 de enero de 2026
+
+Ahora puede personalizar los rótulos de eje en los informes de gráficos. Esta nueva función le permite introducir una etiqueta de eje de reemplazo para mostrar en lugar del objeto y la ruta de campo predeterminados. Además, puede optar por ocultar completamente los rótulos de eje.
+
+Para obtener más información, consulte [Crear un informe de gráfico en un panel de lienzo](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-chart-report.md).
 
 ## Duplicación de un informe en un panel de lienzo
 
@@ -75,3 +182,7 @@ Para evitar demoras en el tiempo de carga y mejorar el rendimiento general en lo
 * Distancia desde el objeto base del informe: límite de 10
 * Columnas en una vista de tabla: límite de 25
 * Mensajes de filtro de nivel de panel: límite de 10
+
+
+
+

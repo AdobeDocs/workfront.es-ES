@@ -4,10 +4,10 @@ description: En esta página se ofrece información sobre la funcionalidad inclu
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 8f126e75845e15ff5d4e0b327abcfafb1dbffd99
+source-git-commit: bed931281d7d0b3184914ed7649d9cb889bcf39a
 workflow-type: tm+mt
-source-wordcount: '2152'
-ht-degree: 16%
+source-wordcount: '2888'
+ht-degree: 13%
 
 ---
 
@@ -56,6 +56,24 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td><strong>Liberación rápida</strong></td>
         <td><strong>Trimestralmente</strong></td>
     </tr>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Administrar prioridades en la plantilla de diseño</a>
+            <p>Ahora puede habilitar o deshabilitar las prioridades para usuarios específicos en la plantilla de diseño. Si anteriormente tenía las prioridades deshabilitadas para su organización, permanecerá deshabilitada en la plantilla de diseño con este cambio.</p>
+        </td>
+        <td>viernes, 18 de diciembre de 2025</td>
+        <td>miércoles, 14 de enero de 2025</td>
+        <td>jueves, 15 de enero de 2025</td>
+    </tr>  
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Buscar conflictos de varios formularios en los campos personalizados calculados</a>
+            <p>Para proporcionar visibilidad sobre los objetos que pueden verse afectados al editar una expresión en campos personalizados, se ha añadido una opción para comprobar si hay conflictos. Este cuadro de diálogo muestra todos los objetos que pueden verse afectados por el cambio de la fórmula, agrupados por tipo de objeto. Puede desplazarse a los detalles de cada objeto y revisar los campos para decidir si el campo se debe quitar de cualquiera de los formularios o la expresión debe permanecer sin cambios.</p>
+        </td>
+        <td>viernes, 18 de diciembre de 2025</td>
+        <td>miércoles, 14 de enero de 2025</td>
+        <td>jueves, 15 de enero de 2025</td>
+    </tr>  
     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Fecha de entrada e ingresado por identificador almacenado en objetos personalizados</a><p>[!BADGE Off schedule]{type=Neutral}</p>
@@ -127,6 +145,8 @@ The <add release> release webinar will be held on <date>. You can [register for 
   </tbody>
 </table>
 
+
+
 ### Mejoras en la integración
 
 <table style="table-layout:auto">
@@ -137,6 +157,39 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td><strong>Vista previa</strong></td>
         <td><strong>Liberación rápida</strong></td>
         <td><strong>Trimestralmente</strong></td>
+    </tr>
+         <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-home.md" class="MCXref xref" xrefformat="{para}">Actualización del widget Menciones en Inicio</a>
+            <p>Hemos realizado las siguientes mejoras en el widget Menciones de inicio: <ul><li>La misma experiencia en el área de Actualizaciones de la mayoría de los objetos de Workfront ahora también está disponible en el widget Menciones de Inicio. </li><li>El widget Menciones ahora contiene los comentarios que el usuario ha realizado o en los que se ha etiquetado durante las últimas dos semanas</li><ul></p>
+        </td>
+        <td>jueves, 17 de diciembre de 2025</td>
+        <td>jueves, 14 de enero de 2026</td>
+        <td>viernes, 15 de enero de 2026</td>
+    </tr>   
+  </tbody>
+</table>
+
+### Mejoras en la integración
+
+<table style="table-layout:auto">
+  <tbody>
+   <tr>
+        <td><strong>Característica</strong>
+        </td>
+        <td><strong>Vista previa</strong></td>
+        <td><strong>Liberación rápida</strong></td>
+        <td><strong>Trimestralmente</strong></td>
+    </tr>
+         <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-integrations.md" class="MCXref xref" xrefformat="{para}">Elija un proyecto de Workfront al enviar una revisión en Creative Cloud Express</a><p>![INSIGNIA desactivada]{type=Neutral}</p>
+            <p>Puede elegir un proyecto de Workfront al que enviar una prueba. Esto ayuda a mantener todos los recursos y pruebas relacionados organizados dentro del mismo proyecto. </p>
+        </td>
+        <td>martes, 15 de diciembre de 2025</td>
+        <td>martes, 15 de diciembre de 2025</td>
+        <td>martes, 15 de diciembre de 2025</td>
+    </tr>   
     </tr>
          <tr>
         <td>
@@ -193,6 +246,69 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td><strong>Liberación rápida</strong></td>
         <td><strong>Trimestralmente</strong></td>
     </tr>
+ <!--    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-reporting.md" class="MCXref xref" xrefformat="{para}">Currency updates in Canvas Dashboards</a>
+            <p>We have made the following updates for currency fields:<ul><li>When multiple currencies are defined in Workfront, you can now choose a default currency for the dashboard during creation. </li><li>When creating a report, you can lock a currency field. This ensures that the dashboard-level currency preference does not affect the display of these values.</li><li>When viewing a dashboard, users can toggle between any defined currencies in Workfront. These changes apply to the entire dashboard with the exception of locked currency fields</li></ul></p>
+        </td>
+        <td>December 18, 2025</td>
+        <td>January 14, 2026</td>
+        <td>January 15, 2026</td>
+    </tr>-->
+ <!--    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-reporting.md" class="MCXref xref" xrefformat="{para}"> Quick search table results in Canvas Dashboards</a>
+            <p>We have added a quick search to Table reports. This search works across all pages, so you can find data even if it's not currently visible.</p>
+        </td>
+        <td>December 18, 2025</td>
+        <td>January 14, 2026</td>
+        <td>January 15, 2026</td>
+    </tr>-->
+     <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-reporting.md" class="MCXref xref" xrefformat="{para}">Nueva opción Mostrar total para gráficos circulares</a>
+            <p>Hemos introducido una nueva opción Mostrar total que convierte los gráficos circulares en gráficos circulares. Esta función permite a los usuarios mostrar un valor central que representa el total de todos los segmentos del gráfico.</p>
+        </td>
+        <td>viernes, 18 de diciembre de 2025</td>
+        <td>jueves, 14 de enero de 2026</td>
+        <td>viernes, 15 de enero de 2026</td>
+    </tr>
+     <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-reporting.md" class="MCXref xref" xrefformat="{para}">Nuevas opciones de configuración para gráficos circulares en paneles de lienzo</a>
+            <p>Hemos introducido dos nuevas opciones de configuración para los gráficos circulares: <ul><li>Ocultar etiquetas de segmento: Ahora puede elegir ocultar las etiquetas de segmento en un gráfico circular si son demasiado largas y afectan a la legibilidad del gráfico.</li><li>Ocultar y cambiar la posición de la leyenda del gráfico circular: ahora puede ocultar una leyenda del gráfico circular. También puede establecer la posición del pie de ilustración a la derecha (valor predeterminado), a la izquierda, arriba o abajo del gráfico. </li></ul></p>
+        </td>
+        <td>viernes, 18 de diciembre de 2025</td>
+        <td>jueves, 14 de enero de 2026</td>
+        <td>viernes, 15 de enero de 2026</td>
+    </tr>
+     <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-reporting.md" class="MCXref xref" xrefformat="{para}">Mejoras en el recuento de agrupación de paneles de lienzo</a>
+            <p>Hemos actualizado la barra de agrupación en Paneles de lienzo para mostrar el recuento de registros de la página actual y el recuento general de registros de la agrupación en todas las páginas. </p>
+        </td>
+        <td>viernes, 18 de diciembre de 2025</td>
+        <td>jueves, 14 de enero de 2026</td>
+        <td>viernes, 15 de enero de 2026</td>
+    </tr>
+     <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-reporting.md" class="MCXref xref" xrefformat="{para}">Nueva característica de líneas de referencia en los informes de los paneles de lienzo</a>
+            <p>Ahora puede definir una Línea de referencia en los gráficos de barras, columnas y líneas para establecer un objetivo o umbral para los cuatro informes basados en series. </p>
+        </td>
+        <td>viernes, 18 de diciembre de 2025</td>
+        <td>jueves, 14 de enero de 2026</td>
+        <td>viernes, 15 de enero de 2026</td>
+    </tr>
+     <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-reporting.md" class="MCXref xref" xrefformat="{para}">Personalizar etiquetas de eje en informes de gráficos en paneles de lienzo</a>
+            <p>Ahora puede personalizar los rótulos de eje en los informes de gráficos. Esta nueva función le permite introducir una etiqueta de eje de reemplazo para mostrar en lugar del objeto y la ruta de campo predeterminados. Además, puede optar por ocultar completamente los rótulos de eje.</p>
+        </td>
+        <td>viernes, 18 de diciembre de 2025</td>
+        <td>jueves, 14 de enero de 2026</td>
+        <td>viernes, 15 de enero de 2026</td>
+    </tr>   
      <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-reporting.md" class="MCXref xref" xrefformat="{para}">Duplicar un informe en un panel de lienzo</a><p>![INSIGNIA desactivada]{type=Neutral}</p>
@@ -258,6 +374,42 @@ The <add release> release webinar will be held on <date>. You can [register for 
     </tr>
     <tr>
         <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-1-q1-requests.md" class="MCXref xref" xrefformat="{para}">Los vínculos de objetos creados ya están disponibles en el área de solicitudes y en el widget Mis solicitudes</a>
+            <p>Para facilitar la visita al objeto creado por una solicitud específica, se han añadido vínculos a la columna Objeto creado. Ahora puede hacer clic en el enlace de esta columna para llevarlo directamente a la página del objeto creado./p&gt;
+        </td>
+        <td>viernes, 18 de diciembre de 2025</td>
+        <td>jueves, 14 de enero de 2026</td>
+        <td>viernes, 15 de enero de 2026</td>
+    </tr> 
+    <!--<tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-1-q1-requests.md" class="MCXref xref" xrefformat="{para}">Create groupings in the Requests list and My Requests widget</a>
+            <p>To make it easier for you to find the requests you need, we've added groupings to the Requests list and the My Requests widget. Now, you can group requests by any column on the list. These groupings become part of the view that you are using when you create the grouping.</p>
+        </td>
+        <td>December 18, 2025</td>
+        <td>January 14, 2026</td>
+        <td>January 15, 2026</td>
+    </tr> -->
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-1-q1-requests.md" class="MCXref xref" xrefformat="{para}">Agregar campos personalizados a la lista de solicitudes y al widget Mis solicitudes</a>
+            <p>Para facilitarle la visualización de la información que necesita, hemos añadido la capacidad de añadir campos personalizados como columnas a la lista de solicitudes y al widget Mis solicitudes en Inicio. Ahora puede agregar campos de formularios personalizados como una columna, y las solicitudes que tengan información en ese campo mostrarán esa información en la lista o widget.</p><p>Esta funcionalidad solo está disponible en la nueva experiencia Solicitudes.</p>
+        </td>
+        <td>viernes, 18 de diciembre de 2025</td>
+        <td>jueves, 14 de enero de 2026</td>
+        <td>viernes, 15 de enero de 2026</td>
+    </tr> 
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-1-q1-requests.md" class="MCXref xref" xrefformat="{para}">El comodín del usuario actual ya está disponible en el filtro de solicitudes</a>
+            <p>Para facilitar el filtrado de las solicitudes que se le aplican, hemos creado un comodín de usuario actual. Ahora, al filtrar, puede seleccionar "Yo (usuario conectado)". El filtro se aplica al usuario que está viendo la lista de solicitudes.   </p>
+        </td>
+        <td>viernes, 18 de diciembre de 2025</td>
+        <td>jueves, 14 de enero de 2026</td>
+        <td>viernes, 15 de enero de 2026</td>
+    </tr> 
+    <tr>
+        <td>
             <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-1-q1-requests.md" class="MCXref xref" xrefformat="{para}">Relleno de formulario con tecnología de IA ya disponible para solicitudes</a>
             <p>Para facilitar la creación de solicitudes, se ha creado el relleno de formulario con tecnología de IA. Ahora, puede pegar un mensaje o cargar un documento en un formulario de solicitud, y AI extraerá la información relevante y rellenará el formulario.  </p>
         </td>
@@ -266,14 +418,14 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td>viernes, 11 de diciembre de 2025</td>
     </tr> 
     <tr>
-        <!--<td>
-            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-1-q1-requests.md" class="MCXref xref" xrefformat="{para}">Share views in the Requests area and the My Requests widget</a>
-            <p>To make it easier to ensure to see the information you need, we've added the ability to share views to the new reporting experience. Now, you can share views with other users, teams, or groups. </p>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-1-q1-requests.md" class="MCXref xref" xrefformat="{para}">Compartir vistas en el área de solicitudes y el widget Mis solicitudes</a>
+            <p>Para facilitar la tarea de asegurarse de ver la información que necesita, hemos agregado la capacidad de compartir vistas a la nueva experiencia de creación de informes. Ahora puede compartir vistas con otros usuarios, equipos o grupos. </p>
         </td>
-        <td>December 4, 2025</td>
-        <td>December 11, 2025</td>
-        <td>January 15, 2026</td>
-    </tr> -->
+        <td>viernes, 04 de diciembre de 2025</td>
+        <td>jueves, 14 de enero de 2026</td>
+        <td>viernes, 15 de enero de 2026</td>
+    </tr> 
      <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-1-q1-requests.md" class="MCXref xref" xrefformat="{para}">Guardar borradores de solicitudes en la nueva experiencia de solicitud</a>
@@ -441,7 +593,7 @@ Para ofrecer integraciones más estables y escalables, estamos adoptando un enfo
 * Workfront para Salesforce.
 
 Recomendamos utilizar la automatización e integración de Workfront para las necesidades de integración de su organización con Google Workspace.
-Para obtener una descripción general de la automatización e integración de Workfront, consulte [Información general de Adobe Workfront Fusion](https://experienceleague.adobe.com/es/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+Para obtener una descripción general de la automatización e integración de Workfront, consulte [Información general de Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 
 
 ### Actualizaciones de mantenimiento de Workfront 

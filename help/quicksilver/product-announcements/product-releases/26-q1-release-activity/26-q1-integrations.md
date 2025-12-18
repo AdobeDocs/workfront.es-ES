@@ -4,10 +4,10 @@ description: Mejoras en las integraciones del primer trimestre de 2026
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 192df9ef08f75b3a6a6e9a50908b6da6e861bdd6
+source-git-commit: d0434e500daa257ec9070c5bb0279eb30545f64d
 workflow-type: tm+mt
-source-wordcount: '231'
-ht-degree: 15%
+source-wordcount: '297'
+ht-degree: 11%
 
 ---
 
@@ -17,8 +17,22 @@ Esta página describe las mejoras de integraciones realizadas con la versión de
 
 Para obtener una lista de todos los cambios disponibles en este punto del ciclo de la versión del primer trimestre de 2026, consulte [Información general de la versión del primer trimestre de 2026](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md).
 
-## Se ha actualizado el selector de recursos para la integración nativa de Adobe Workfront para Experience Manager Assets
 
+## Elija un proyecto de Workfront al enviar una revisión en Creative Cloud Express
+
+>[!NOTE]
+>
+>Vista previa: 15 de diciembre de 2025
+>Versión rápida de producción: 15 de diciembre de 2025\
+>Producción para todos: 15 de diciembre de 2025
+
+Puede elegir un proyecto de Workfront al que enviar una prueba. Esto ayuda a mantener todos los recursos y pruebas relacionados organizados dentro del mismo proyecto.
+
+Anteriormente, la prueba se agregaba automáticamente a un proyecto específico de Express.
+
+Para obtener más información, consulte [Integración de Adobe Express y Workfront Proof](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-express.md).
+
+## Se ha actualizado el selector de recursos para la integración nativa de Adobe Workfront para Experience Manager Assets
 
 >[!NOTE]
 >
@@ -43,3 +57,4 @@ Hemos actualizado el selector de recursos en la integración de Adobe Workfront 
 Para estar al día con los cambios recientes en la API de Workfront, hemos creado una nueva integración de Salesforce. La nueva integración presenta la misma funcionalidad que la versión anterior y se actualizó para evitar perder la funcionalidad obsoleta en la API.
 
 Para obtener instrucciones y vínculos para descargar e instalar la nueva integración, consulte [Instalar Adobe Workfront para Salesforce](/help/quicksilver/workfront-integrations-and-apps/using-workfront-with-salesforce/install-workfront-for-salesforce.md).
+

@@ -4,10 +4,10 @@ description: Mejoras del administrador en el primer trimestre de 2026
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: eead7c3c22dff242cd2a875381f5a2ac901cc2bd
+source-git-commit: e9e7b76dc8e4b9d1cc91987d0ea63b5e2ee58224
 workflow-type: tm+mt
-source-wordcount: '376'
-ht-degree: 15%
+source-wordcount: '643'
+ht-degree: 12%
 
 ---
 
@@ -16,6 +16,36 @@ ht-degree: 15%
 Esta página describe las mejoras realizadas por el administrador con la versión del primer trimestre de 2026 en el entorno de vista previa. Estas mejoras estarán disponibles en el entorno de producción, como se ha indicado.
 
 Para obtener una lista de todos los cambios disponibles en este punto del ciclo de la versión del primer trimestre de 2026, consulte [Información general de la versión del primer trimestre de 2026](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md).
+
+## Administrar prioridades en la plantilla de diseño
+
+>[!NOTE]
+>
+>Vista previa: 2 de diciembre de 2025
+>Versión rápida de producción: 14 de enero de 2026
+>Producción para todos: 15 de enero de 2026
+
+Ahora puede habilitar o deshabilitar las prioridades para usuarios específicos en la plantilla de diseño. Si anteriormente tenía las prioridades deshabilitadas para su organización, permanecerá deshabilitada en la plantilla de diseño con este cambio.
+
+Las prioridades se incluirán automáticamente para los tipos de licencia que tienen acceso predeterminado a las solicitudes. Por ejemplo, una licencia de colaborador verá Solicitudes, Tableros y Prioridades de forma predeterminada en el Menú principal, mientras que una licencia externa solo verá Documentos y Tableros porque no tiene acceso para ver o enviar solicitudes.
+
+
+Para obtener más información, consulte [Personalizar el menú principal con una plantilla de diseño](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
+
+## Comprobar conflictos de varios formularios para campos personalizados calculados
+
+>[!NOTE]
+>
+>Vista previa: 18 de diciembre de 2025
+>Versión rápida de producción: 14 de enero de 2026
+>Producción para todos: 15 de enero de 2026
+
+El mismo campo calculado puede tener diferentes fórmulas cuando se adjunta a diferentes formularios personalizados. Si dos o más formularios que contienen el mismo campo calculado están adjuntos a un objeto, las fórmulas deben ser idénticas en todos los formularios. No se permite editar la fórmula si el cambio podría provocar un conflicto.
+
+Para proporcionar visibilidad sobre los objetos que pueden verse afectados al editar una expresión en campos personalizados, se ha añadido una opción para comprobar si hay conflictos. Este cuadro de diálogo muestra todos los objetos que pueden verse afectados por el cambio de la fórmula, agrupados por tipo de objeto. Puede desplazarse a los detalles de cada objeto y revisar los campos para decidir si el campo se debe quitar de cualquiera de los formularios o la expresión debe permanecer sin cambios.
+
+Para obtener más información, consulte [Añadir campos calculados a un formulario](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
+
 
 ## Fecha de entrada e ID de Introducido por almacenado en objetos personalizados
 
@@ -61,3 +91,7 @@ Si marca un campo como inactivo:
 * No está disponible en la biblioteca de campos para agregarlo a otros formularios personalizados
 
 Para obtener más información, consulte [Crear un formulario personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+
+
+
+
