@@ -6,7 +6,7 @@ description: El Hogar te ayuda a administrar tu trabajo. Puede personalizar este
 author: Courtney
 feature: Get Started with Workfront
 exl-id: eddb2db0-88c5-40f9-ba05-14839a3dfc7f
-source-git-commit: 1a56846647e443cf3f5f09eed8c3084434de5ddb
+source-git-commit: 5b1993d49ff675b3bab1d470bc756b987fe19d1c
 workflow-type: tm+mt
 source-wordcount: '1030'
 ht-degree: 77%
@@ -16,6 +16,10 @@ ht-degree: 77%
 # Introducción a Inicio
 
 <!--Audited: 12/2023-->
+
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 >[!IMPORTANT]
 >
@@ -66,7 +70,13 @@ A continuación se muestran los 11 widgets disponibles actualmente para elegir, 
         Muestra dos gráficos con información sobre el tiempo promedio de aprobación de documentos y las decisiones, así como vistas de lista de aprobaciones pendientes y vencidas. Debe tener [Aprobaciones unificadas](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md) habilitadas para usar este widget.
 
 * **Menciones**\
-    Muestra los hilos de comentarios recientes de Workfront, de forma similar a la página Mis actualizaciones. Puede utilizar el botón de respuesta para redactar una respuesta en del widget. Este widget también muestra los comentarios realizados sobre las tareas y los problemas que se le han asignado, que ha asignado a otro usuario, que son de su propiedad, del cual es el contacto principal o que ha creado, siempre y cuando la tarea o el problema se haya actualizado en los últimos 30 días.
+    <!--In the Production environment, it--> Muestra los hilos de comentarios recientes de Workfront, de forma similar a la página Mis actualizaciones. Puede utilizar el botón de respuesta para redactar una respuesta en del widget. Este widget también muestra los comentarios realizados sobre las tareas y los problemas que se le han asignado, que ha asignado a otro usuario, que son de su propiedad, del cual es el contacto principal o que ha creado, siempre y cuando la tarea o el problema se haya actualizado en los últimos 30 días.
+
+  <!--<div class="preview">
+
+    In the Preview environment, it displays recent comments that you made or comments where other users tagged you that have been added in the past 2 weeks. You can use the reply button to compose a reply within the widget. 
+
+    </div>-->
 
 * **Tareas pendientes**\
     Este widget único le permite añadir elementos a una lista de comprobación personal que puede editar libremente. Las tareas pendientes se rastrean como tareas en su proyecto personal y permanecen hasta dos semanas después de su finalización.

@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 48bfeb3b950ca1149a919aa204d77db6aa501e01
+source-git-commit: 5b1993d49ff675b3bab1d470bc756b987fe19d1c
 workflow-type: tm+mt
-source-wordcount: '1384'
-ht-degree: 58%
+source-wordcount: '1417'
+ht-degree: 55%
 
 ---
 
@@ -142,9 +142,9 @@ Para obtener más información acerca de los requisitos de acceso de Workfront, 
  </tbody>
 </table>-->
 
-## Consideraciones sobre la edición de páginas de registro
+## Consideraciones acerca de trabajar con páginas de registros
 
-* De forma predeterminada, las páginas de detalles y de vista previa de un registro muestran todos los campos asociados al registro.
+* De forma predeterminada, la página de detalles de un registro muestra todos los campos asociados con el registro.
 
 * No se pueden añadir nuevos campos para un registro en la página de vista previa o de detalles. Debe añadir nuevos campos en la vista de tabla para mostrarlos en las páginas de vista previa y detalles.
 
@@ -154,10 +154,17 @@ Para obtener más información acerca de los requisitos de acceso de Workfront, 
 
    * Reorganización de campos
    * Añadir o quitar secciones
+   * Adición o eliminación de páginas de registros conectados
 
 * Los cambios de visualización que realice en la vista previa del registro se pueden ver inmediatamente en la página de detalles del registro. Los cambios realizados en la página de registro también se pueden ver en el cuadro de vista previa del registro.
 
 * Añadir una imagen de portada o una miniatura a un registro no forma parte del diseño general de la vista previa o la página del registro. Puede añadir imágenes de portada o miniaturas únicas a cada registro. Para obtener más información, consulte [Añadir una imagen de portada a un registro](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md) y [Añadir una miniatura a un registro](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
+
+* Puede agregar páginas adicionales de los siguientes tipos a la página de un registro:
+
+   * Página de registros conectados
+
+     Para obtener más información, consulte la sección [Agregar una página Registros conectados a un registro](#add-a-connected-records-page-to-a-record).
 
 ## Añadir secciones a una vista previa o página de registro
 
