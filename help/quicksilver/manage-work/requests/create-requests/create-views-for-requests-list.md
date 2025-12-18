@@ -5,15 +5,16 @@ title: Creación de vistas en el área de solicitudes
 description: Si utiliza la nueva experiencia de solicitud, puede crear y guardar vistas para el área de solicitudes.
 author: Becky
 feature: Work Management
-source-git-commit: 1a56846647e443cf3f5f09eed8c3084434de5ddb
+source-git-commit: d2e938cabc5123a89335a42ed06bccaa77fcad83
 workflow-type: tm+mt
-source-wordcount: '587'
-ht-degree: 7%
+source-wordcount: '702'
+ht-degree: 8%
 
 ---
 
 # Cree o edite vistas en el área de solicitudes
 
+<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa de espacio aislado.</span>
 
 Si utiliza la nueva experiencia de solicitud, puede crear y guardar vistas para el área de solicitudes. Estas vistas incluyen filtros y disposiciones de columnas.
 
@@ -28,7 +29,7 @@ Si utiliza la nueva experiencia de solicitud, puede crear y guardar vistas para 
  <tbody> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera </p> </td> 
   </tr> 
   <tr> 
@@ -89,6 +90,21 @@ Puede editar las vistas existentes, incluidas las que acaba de crear.
 
 1. (Opcional) Para cambiar el nombre de una vista, haga clic en el menú desplegable **Vistas** ![Menú desplegable de vistas](assets/view-icon-requests.png) y haga clic en el menú de tres puntos situado junto a la vista, seleccione **Cambiar nombre** y, a continuación, escriba el nuevo nombre de la vista.
 1. Haga clic en el menú desplegable **Vistas** ![Menú desplegable de vistas](assets/view-icon-requests.png) y seleccione la vista que desee editar.
+1. <span class="preview">Para agregar un campo personalizado como columna, haga clic en el icono **Agregar columna** ![Agregar columna](assets/add-column.png) cerca de la derecha de la pantalla y haga clic en el icono de signo más situado junto al campo de formulario personalizado que desea agregar como columna a la vista.</span>
+
+   <span class="preview">Los campos personalizados de los formularios adjuntos al objeto de la lista están disponibles para agregarlos como columnas.</span>
+
+   >[!TIP]
+   >
+   >Actualmente, no se pueden agregar columnas en el entorno de producción.
+1. (Opcional) Haga clic en **Columnas** y oculte, muestre o reorganice las columnas en la lista de solicitudes.
+
+   ![Cuadro de columnas](assets/columns-editing-box-in-requests-planning-tab.png)
+
+   >[!TIP]
+   >
+   >Actualmente no se pueden agregar más columnas en el entorno de producción.
+
 1. (Opcional) Haga clic en **Filtros** y empiece a agregar condiciones para las solicitudes que desee ver en la pestaña Planificación.
 
    ![Edición de filtros en la ficha de solicitudes de Planning](assets/filters-editing-box-in-requests-planning-tab.png)
@@ -102,16 +118,12 @@ Puede editar las vistas existentes, incluidas las que acaba de crear.
    * **Estado**: El estado de la solicitud.
    * **Ingresado por**: nombre del usuario que agregó la solicitud. Si alguien fuera de Workfront agregó la solicitud, el campo **Ingresado por** muestra `N/A`.
 
+   <span class="preview">En el entorno de vista previa, también puede filtrar por cualquier campo personalizado que se haya agregado a la vista.</span>
+
    Puede tener varios filtros unidos por **And** o **Or**.
 La lista de solicitudes se filtra automáticamente a medida que se añaden las condiciones de filtro.
 
-1. (Opcional) Haga clic en **Columnas** y oculte, muestre o reorganice las columnas en la lista de solicitudes.
 
-   ![Cuadro de columnas](assets/columns-editing-box-in-requests-planning-tab.png)
-
-   >[!TIP]
-   >
-   >No se pueden añadir más columnas.
 
 >[!IMPORTANT]
 >

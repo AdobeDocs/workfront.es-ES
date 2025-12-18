@@ -6,10 +6,10 @@ description: Puede enviar solicitudes en el widget Mis solicitudes. También pue
 author: Becky
 feature: Get Started with Workfront
 exl-id: 2b994f44-2404-4aa3-8c38-0686a0c287b7
-source-git-commit: 59a53f7355032810a05fce2d3f0dfe30d64bbd40
+source-git-commit: 1acffcc2d3511d70fc7d0b263102335d7234e797
 workflow-type: tm+mt
-source-wordcount: '798'
-ht-degree: 15%
+source-wordcount: '882'
+ht-degree: 13%
 
 ---
 
@@ -98,6 +98,8 @@ Para configurar el filtro en el widget Mis solicitudes:
    * Estado
    * Introducido por
 
+   <span class="preview">En el entorno de vista previa, también puede filtrar por cualquier campo personalizado que se haya agregado como columna      a la vista.</span>
+
 1. En el campo siguiente, seleccione el operador que desee utilizar para esta condición de filtro. Los operadores disponibles dependen del campo elegido.
 1. (Condicional) Si un campo aparece a la derecha del operador, seleccione el valor por el que desea filtrar.
 1. (Opcional) Para agregar otra condición de filtro, haga clic en **Agregar condición** y repita los pasos 4-6.
@@ -112,7 +114,7 @@ El filtro se guarda automáticamente.
 >* Para filtrar solo las solicitudes Workfront, establezca el filtro en **Tipo de objeto** > **Tiene cualquiera de** > **Problemas**.
 >* Para filtrar solo las solicitudes de Workfront Planning, establezca el filtro en **Tipo de objeto** > **No tiene ninguno de** > **Problemas**.
 
-## Ajustar columnas
+## Ajustar o agregar columnas
 
 Puede elegir cuál de las columnas disponibles aparece en el widget Mis solicitudes y establecer su orden.
 
@@ -133,6 +135,9 @@ Para ajustar las columnas en el widget Mis solicitudes:
 1. En el widget Mis solicitudes, haga clic en **Columnas**.
 1. (Opcional) Para reordenar las columnas, haga clic en el controlador de arrastre ![controlador de arrastre](assets/drag-handle.png) de la columna que desee mover y arrástrela a las ubicaciones que desee. La columna situada en la parte superior de la lista aparece en el widget Mis solicitudes como la columna situada más a la izquierda.
 1. (Opcional) Utilice el conmutador para controlar si se muestra una columna en el widget Mis solicitudes.
+1. <span class="preview">Para agregar un campo personalizado como columna, haga clic en el icono **Agregar columna** ![Agregar columna](assets/add-column.png) cerca de la derecha de la pantalla y haga clic en el icono de signo más situado junto al campo de formulario personalizado que desea agregar como columna al widget.</span>
+
+   <span class="preview">Los campos personalizados de los formularios adjuntos al objeto de la lista están disponibles para agregarlos como columnas.</span>
 
 Las preferencias de columna se guardan automáticamente.
 
