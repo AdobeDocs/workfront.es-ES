@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
-source-git-commit: 5b1993d49ff675b3bab1d470bc756b987fe19d1c
+source-git-commit: 99e26d4249162e46da1a73301e68bdf30436a81d
 workflow-type: tm+mt
-source-wordcount: '1945'
+source-wordcount: '1871'
 ht-degree: 5%
 
 ---
@@ -106,7 +106,8 @@ Para poder enviar una solicitud a un formulario de solicitud de Workfront Planni
 * Los registros creados al enviar formularios de solicitud no se pueden diferenciar de los registros agregados mediante ningún otro método en Workfront Planning.
 
   Para obtener más información, consulte [Crear registros](/help/quicksilver/planning/records/create-records.md).
-* Las solicitudes enviadas se muestran en la pestaña Planificación de la sección Enviadas del área Solicitudes de Workfront.
+* Las solicitudes enviadas se muestran en el área Solicitudes de Workfront.
+* Las solicitudes de Planning enviadas solo son visibles en la nueva experiencia de solicitud. No puede ver solicitudes de Planning en la experiencia de solicitudes heredadas.
 * Existen limitaciones en la forma en que se muestran ciertos tipos de campo en un formulario de solicitud o en la página de detalles de la solicitud después de enviar un formulario.
 
   Para obtener más información, consulte [Crear y administrar un formulario de solicitud en Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
@@ -130,19 +131,10 @@ Si habilita esta configuración, los formularios de solicitud de Workfront Plann
    >* Tiene acceso para ver al menos un espacio de trabajo.
    >
 
-<!--Production-->
+1. Haga clic en la barra **Qué solicitud desea enviar** para abrir una lista de formularios de solicitud.
+1. Seleccione un formulario de solicitud de la lista o empiece a escribir su nombre y, a continuación, selecciónelo cuando aparezca en la lista.
 
-1. En el entorno Producción, haga clic en **Nueva solicitud**.
-
-   <!--![New request box with unified Workfront and Planning cards](assets/new-request-box-with-unified-workfront-and-planning-cards.png-->
-
-   El cuadro **Nueva solicitud** se abre con la siguiente información:
-
-   * Las 6 colas de solicitud de Workfront a las que se ha accedido más recientemente y los formularios de solicitud de Planning se muestran en la sección Reciente.
-   * 50 colas de solicitudes de Workfront adicionales y formularios de solicitudes de Planning se muestran en orden alfabético en la sección **Todos los formularios de solicitudes**. Puede buscar una cola de solicitudes que no se muestre de forma predeterminada.
-
-1. Seleccione un formulario de solicitud o una cola del área de formularios de solicitud a los que se ha accedido recientemente, o empiece a escribir el nombre del formulario o la cola en la lista y, a continuación, selecciónelo cuando aparezca.
-
+   Se abrirá una ventana con el nombre del formulario de solicitud en la parte superior.
 1. Actualice los campos disponibles en el formulario de solicitud. Los campos con un asterisco rojo son obligatorios.
 1. Haga clic en **Enviar**.
 
@@ -150,19 +142,13 @@ Si habilita esta configuración, los formularios de solicitud de Workfront Plann
 
    El formulario se enviará y se producirán los siguientes eventos:
 
-   * Si el formulario de solicitud no estaba asociado a una aprobación, la solicitud se agrega a la pestaña Planificación de la sección Enviado del área Solicitudes de Workfront y se agrega un nuevo registro al tipo de registro asociado al formulario.
+   * Si el formulario de solicitud no estaba asociado a una aprobación, esta se agrega a la lista Solicitudes del área Solicitudes de Workfront y al widget Mis solicitudes, y se agrega un nuevo registro al tipo de registro asociado al formulario.
 
-   * Si el formulario de solicitud estaba asociado a una aprobación, la solicitud se agrega a la pestaña Planificación de la sección Enviado del área Solicitudes de Workfront. Un nuevo registro se agrega a la página de tipo de registro sólo después de que todos los aprobadores lo hayan aprobado.
+   * Si el formulario de solicitud estaba asociado a una aprobación, esta se agrega a la lista Solicitudes en el área Solicitudes de Workfront y al widget Mis solicitudes. Un nuevo registro se agrega a la página de tipo de registro sólo después de que los aprobadores lo hayan aprobado.
 
      Para obtener más información, vea [Agregar una aprobación a un formulario de solicitud](/help/quicksilver/planning/requests/add-approval-to-request-form.md).
 
-     ![Área de solicitudes con la opción de pestaña de planificación de flujo de trabajo unificado](assets/requests-area-with-toggle-for-unified-workflow-planning-tab-open.png)
-
-     >[!IMPORTANT]
-     >
-     >Todos los usuarios que tengan acceso al menos a un espacio de trabajo pueden ver la pestaña Planificación en el área Solicitudes. Solo puede ver las solicitudes enviadas por usted o por cualquier otra persona a los espacios de trabajo para los que tiene al menos permisos de Vista. Los administradores de Workfront pueden ver todas las solicitudes enviadas a cualquier espacio de trabajo del sistema.
-
-   * La solicitud solo es visible para el propietario, el aprobador y las personas que tienen al menos permisos de visualización en el espacio de trabajo.
+   * La solicitud solo es visible para el propietario, el aprobador y las personas que tienen al menos permisos de visualización en el espacio de trabajo. Los administradores de Workfront pueden ver todas las solicitudes enviadas a cualquier espacio de trabajo del sistema.
 
    * Recibirá una notificación en la aplicación y por correo electrónico que le avisa de que la solicitud se ha enviado correctamente o que se ha enviado para su revisión.
    * Si el formulario de solicitud estaba asociado a una aprobación, los aprobadores reciben una notificación en la aplicación y por correo electrónico para revisar y aprobar la solicitud.
@@ -174,9 +160,6 @@ Si habilita esta configuración, los formularios de solicitud de Workfront Plann
      >Hay un vínculo a la solicitud en la confirmación de correo electrónico o la notificación de aprobación.
 
 1. (Opcional) Haga clic en **Ver su solicitud** en el mensaje de confirmación, para abrir la solicitud, o haga clic en el icono **X** para cerrar la confirmación.
-
-1. (Opcional) Haga clic en la ficha **Planificación** del área **Solicitudes** para ver sus solicitudes.
-Todas las solicitudes a las que tiene acceso para ver que se enviaron a un formulario de solicitud de Planning se muestran en una lista.
 1. (Opcional) Realice una de las siguientes acciones:
 
    * Haga clic en **Filtros** y empiece a agregar condiciones para las solicitudes que desee ver en la pestaña Planificación.
@@ -243,17 +226,15 @@ La lista de solicitudes se filtra automáticamente a medida que se añaden las c
 
    El formulario se enviará y se producirán los siguientes eventos:
 
-   * Si el formulario de solicitud no estaba asociado a una aprobación, la solicitud se agrega a la pestaña Planificación de la sección Enviado del área Solicitudes de Workfront y se agrega un nuevo registro al tipo de registro asociado al formulario.
+   * Si el formulario de solicitud no estaba asociado a una aprobación, esta se agrega a la lista Solicitudes del área Solicitudes de Workfront y al widget Mis solicitudes, y se agrega un nuevo registro al tipo de registro asociado al formulario.
 
-   * Si el formulario de solicitud estaba asociado a una aprobación, la solicitud se agrega a la pestaña Planificación de la sección Enviado del área Solicitudes de Workfront. Un nuevo registro se agrega a la página de tipo de registro sólo después de que todos los aprobadores lo hayan aprobado.
+   * Si el formulario de solicitud estaba asociado a una aprobación, la solicitud se agrega a la lista Solicitudes en el área Solicitudes de Workfront y al widget Mis solicitudes. Un nuevo registro se agrega a la página de tipo de registro sólo después de que todos los aprobadores lo hayan aprobado.
 
      Para obtener más información, vea [Agregar una aprobación a un formulario de solicitud](/help/quicksilver/planning/requests/add-approval-to-request-form.md).
 
-     ![Pestaña Planificación en las solicitudes](assets/planning-tab-in-requests.png)
-
      >[!IMPORTANT]
      >
-     >Todos los usuarios que tengan acceso al menos a un espacio de trabajo pueden ver la pestaña Planificación en el área Solicitudes. Solo puede ver las solicitudes enviadas por usted o por cualquier otra persona a los espacios de trabajo para los que tiene al menos permisos de Vista. Los administradores de Workfront pueden ver todas las solicitudes enviadas a cualquier espacio de trabajo del sistema. <!--ensure this is correct; asking team in slack-->
+     >Solo puede ver las solicitudes enviadas por usted o por cualquier otra persona a los espacios de trabajo para los que tiene al menos permisos de Vista. Los administradores de Workfront pueden ver todas las solicitudes enviadas a cualquier espacio de trabajo del sistema. <!--ensure this is correct; asking team in slack-->
 
    * Recibirá una notificación en la aplicación y por correo electrónico que le avisa de que la solicitud se ha enviado correctamente o que se ha enviado para su revisión.
    * Si el formulario de solicitud estaba asociado a una aprobación, los aprobadores reciben una notificación en la aplicación y por correo electrónico para revisar y aprobar la solicitud.
@@ -262,7 +243,7 @@ La lista de solicitudes se filtra automáticamente a medida que se añaden las c
      >
      >Las notificaciones por correo electrónico y en la aplicación solo son visibles cuando la instancia de Workfront de su organización está integrada en la experiencia unificada de Adobe.
 
-   * <span class="preview"> Después de aprobar la solicitud y crear el registro, los campos de fecha Aprobado por y Aprobado muestran información sobre la aprobación en el registro.</span>
+   <!-- <span class="preview"> After the request was approved and the record was created, the Approved by and Approved date fields display information about the approval on the record.</span>-->
 
 1. (Opcional) Haga clic en **Ver su solicitud** para abrir la solicitud en Workfront.
 
@@ -293,6 +274,24 @@ La lista de solicitudes se filtra automáticamente a medida que se añaden las c
 
    La página de tipo de registro se abre en Workfront Planning.
 
+<div class="preview">
 
+## Crear una solicitud copiando una solicitud existente
+
+Puede copiar una solicitud en la lista de solicitudes de Workfront, luego editar los detalles y enviarla como una solicitud nueva.
+
+Esto solo está disponible en la nueva experiencia de solicitud.
+
+Para obtener instrucciones, consulte [Copiar y enviar solicitudes](/help/quicksilver/manage-work/requests/create-requests/copy-and-submit-requests.md).
+
+## Crear borradores y solicitudes a partir de borradores existentes
+
+Puede crear un borrador de una solicitud, luego volver al borrador y enviarlo como solicitud más adelante.
+
+Esto solo está disponible en la nueva experiencia de solicitud.
+
+Para obtener instrucciones, consulte [Crear solicitudes a partir de borradores](/help/quicksilver/manage-work/requests/create-requests/create-requests-from-drafts.md).
+
+</div>
 
 

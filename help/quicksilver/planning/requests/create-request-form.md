@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: de568156315ff9094d938600c91b55e185d53765
+source-git-commit: 99e26d4249162e46da1a73301e68bdf30436a81d
 workflow-type: tm+mt
-source-wordcount: '2684'
+source-wordcount: '2678'
 ht-degree: 5%
 
 ---
@@ -173,6 +173,10 @@ Los detalles del formulario se dividen en pestañas.
 
 1. Comience a crear o editar un formulario de solicitud, tal como se describe en la sección [Comience a crear un formulario de solicitud](#begin-creating-a-request-form).
 
+   O
+
+   Busque el formulario de solicitud en la lista Formularios de solicitud, haga clic en el cuadro situado junto al nombre del formulario y, a continuación, haga clic en **Editar formulario** en la barra azul de la parte inferior de la pantalla.
+
    El formulario de solicitud del tipo de registro seleccionado se abre en la pestaña Formulario.
 
    ![Modo de edición del formulario de solicitud de campañas](assets/campaigns-request-form-edit-mode.png)
@@ -195,8 +199,6 @@ Los detalles del formulario se dividen en pestañas.
      Los campos contenidos en el formulario de solicitud serán visibles para todos los que envíen una solicitud a este tipo de registro.
 
 1. (Opcional) Pase el ratón sobre cualquier campo del formulario que quiera quitar y luego haga clic en el icono **x** para quitarlo. Se agregarán a la ficha **Campos** situada a la izquierda del formulario.
-
-   Por ejemplo, quite el campo **Asunto**, ya que esto no es visible en Workfront Planning. <!--remove this example if this becomes visible in Planning?-->
 
 1. (Opcional) Para quitar la **sección predeterminada** del formulario, haga lo siguiente:
 
@@ -235,14 +237,13 @@ En la pestaña Configuración, puede establecer el proceso de aprobación y conf
    El formulario de solicitud del tipo de registro seleccionado se abre en la pestaña Formulario.
 1. (Opcional) Configure cualquier detalle del formulario, tal como se describe en [Configurar detalles del formulario](#set-up-form-details).
 
-1. (Opcional) Haga clic en la ficha **Configuración** y, a continuación, agregue al menos un usuario o equipo al campo **Aprobadores** para aprobar nuevas solicitudes para este formulario de registro.
+1. (Opcional) Si desea agregar aprobadores, haga clic en la ficha **Configuración** y, a continuación, agregue al menos un usuario o equipo al campo **Aprobadores** para aprobar nuevas solicitudes para este formulario de registro.
 
    ![Ficha de configuración](assets/configuration-tab.png)
 
    <!--below bullet list is duplicated in the Add approval to a request form article-->
 
    * Puede agregar uno o varios aprobadores a un formulario de solicitud.
-   * Si agrega más de un aprobador y la opción Only one decision is required no está habilitada, todos los aprobadores deben aprobar la solicitud antes de que Workfront Planning cree un registro.
    * Si al menos un aprobador rechaza la solicitud, esta se rechaza y no se crea el registro. La solicitud permanece en la pestaña Planificación de la sección Enviados del área Solicitudes de Workfront.
    * Si añade más de un aprobador y la opción Only one decision is required no está activada, todos los aprobadores deben tomar una decisión antes de aprobar o rechazar una solicitud.
    * Si un equipo se establece como aprobador, solo se requiere una decisión del equipo.

@@ -6,9 +6,9 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: a58e7da96c43dd308a213c6d7ef74d5085a2e1ba
+source-git-commit: 99e26d4249162e46da1a73301e68bdf30436a81d
 workflow-type: tm+mt
-source-wordcount: '1268'
+source-wordcount: '1263'
 ht-degree: 2%
 
 ---
@@ -31,7 +31,7 @@ Para obtener una lista de todas las características publicadas para Adobe Workf
 
 Para que sea más fácil asegurarse de ver la información que necesita, hemos agregado la capacidad de compartir vistas a la página Registros conectados de proyectos. Ahora puede compartir vistas con otros usuarios, equipos o grupos.
 
-Para obtener información sobre las vistas de solicitudes, incluido el uso compartido, consulte [Crear y administrar vistas en el área de solicitudes](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md).
+Para obtener más información, vea [Agregar la página Registros conectados a un registro](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md).
 
 ## El comodín de usuario actual ya está disponible en los filtros de vista de conexión del proyecto
 
