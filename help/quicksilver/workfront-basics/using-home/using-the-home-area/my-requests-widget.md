@@ -6,10 +6,10 @@ description: Puede enviar solicitudes en el widget Mis solicitudes. También pue
 author: Becky
 feature: Get Started with Workfront
 exl-id: 2b994f44-2404-4aa3-8c38-0686a0c287b7
-source-git-commit: 1acffcc2d3511d70fc7d0b263102335d7234e797
+source-git-commit: ef44dcdc88da66d9cf357be53270ec717c06efe7
 workflow-type: tm+mt
-source-wordcount: '882'
-ht-degree: 13%
+source-wordcount: '957'
+ht-degree: 12%
 
 ---
 
@@ -152,3 +152,18 @@ Para buscar solicitudes específicas en el widget Mis solicitudes:
    Las solicitudes que contienen el término se resaltan en naranja.
 
 1. (Opcional) Para saltar a las solicitudes resaltadas, haga clic en las flechas arriba o abajo de la barra de búsqueda.
+
+<div class="preview">
+
+## Ir a un objeto creado por una solicitud
+
+Puede encontrar objetos creados por una solicitud en el widget Mis solicitudes.
+
+1. Haga clic en el **[!UICONTROL Menú principal]** ![icono del menú principal](assets/main-menu-icon.png) en la esquina superior derecha y, a continuación, haga clic en **[!UICONTROL Inicio]**.
+1. (Condicional) Para agregar el widget **Mis solicitudes** a la pantalla de inicio. Haga clic en **Personalizar** y busque **Mis solicitudes**.
+1. Busque la solicitud que creó el objeto.
+1. Haga clic en el nombre de objeto en la columna **Objeto creado** para esa solicitud.
+
+   Se abre la página del objeto.
+
+</div>
