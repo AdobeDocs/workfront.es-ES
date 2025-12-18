@@ -6,20 +6,22 @@ description: Puede aplicar un filtro a un panel de lienzo una vez que se haya cr
 author: Courtney and Jenny
 feature: Reports and Dashboards
 exl-id: 156e9d3f-49f6-4372-9749-c7124ff5baee
-source-git-commit: 1059950dd3b20e0959c626e580f958bed5076541
+source-git-commit: 39a8d670baa19aa37e29b0312e6c9a296569f44c
 workflow-type: tm+mt
-source-wordcount: '892'
-ht-degree: 8%
+source-wordcount: '1013'
+ht-degree: 9%
 
 ---
 
 # Filtrado de un panel de lienzo
 
+<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes.</span>
+
 >[!IMPORTANT]
 >
 >Actualmente, la función Paneles de lienzo solo está disponible para los usuarios que participan en la fase beta. Es posible que algunas partes de la función no estén completas o que no funcionen según lo previsto durante esta fase. Envíe cualquier comentario sobre su experiencia siguiendo las instrucciones de la sección [Proporcionar comentarios](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) del artículo Información general sobre la versión beta de los paneles de lienzo.<br>
->&#x200B;>Si tiene comentarios acerca de un posible error o problema técnico, envíe un ticket al equipo de asistencia de Workfront. Para obtener más información, consulte [Póngase en contacto con Atención al cliente](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
->&#x200B;>Tenga en cuenta que esta versión beta no está disponible en los siguientes proveedores de la nube:
+>Si tiene comentarios acerca de un posible error o problema técnico, envíe un ticket al equipo de asistencia de Workfront. Para obtener más información, consulte [Póngase en contacto con Atención al cliente](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
+>Tenga en cuenta que esta versión beta no está disponible en los siguientes proveedores de la nube:
 >
 >* Traer su propia clave para Amazon Web Service
 >* Azure
@@ -39,7 +41,7 @@ Puede aplicar un filtro a un panel de lienzo que contenga mensajes. Una solicitu
 </col> 
 <tbody> 
 <tr> 
-   <td role="rowheader"><p>paquete de Adobe Workfront</p></td> 
+   <td role="rowheader"><p>Paquete de Adobe Workfront</p></td> 
    <td> 
 <p>Cualquiera </p> 
    </td> 
@@ -177,3 +179,22 @@ Todos los usuarios con acceso a un tablero pueden aplicar una solicitud de table
    ![Seleccionar condición](assets/prompts-list.png)
 
 1. Haga clic en el icono **Cerrar** ![Cerrar icono](assets/close-icon.png) en la esquina superior derecha para ocultar el panel.
+
+<span class="preview">
+
+## Filtrado de un tablero por tipo de moneda
+
+Puede alternar entre diferentes tipos de moneda en el nivel de panel. Los informes que contienen campos de moneda se actualizarán para reflejar el tipo de moneda seleccionado.
+
+>[!NOTE]
+>
+>Los campos de moneda se pueden bloquear en el nivel de informe. Si un campo de moneda está bloqueado, el tipo de moneda de ese informe no cambiará al cambiar el tipo de moneda del panel.
+
+Para cambiar el tipo de moneda del tablero,
+
+1. Haga clic en el menú desplegable de moneda en la esquina superior derecha de la página de detalles del panel.
+1. Seleccione el tipo de moneda deseado en la lista.
+
+   ![cambiar lista desplegable de moneda](assets/filter-by-currency.png)
+
+</span>

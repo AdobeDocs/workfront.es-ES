@@ -6,16 +6,19 @@ description: Puede crear paneles de control para acceder rápidamente a la infor
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 6a284df4-f011-4b4c-b44c-2e20918f643f
-source-git-commit: c8b7ad473b0c2120ef5ea52374b3501ad6f553f1
+source-git-commit: 39a8d670baa19aa37e29b0312e6c9a296569f44c
 workflow-type: tm+mt
-source-wordcount: '494'
-ht-degree: 83%
+source-wordcount: '549'
+ht-degree: 78%
 
 ---
 
 # Creación de un panel de control
 
 <!--Audited: 01/2025-->
+
+<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes.</span>
+
 
 Puede crear paneles de control para acceder rápidamente a la información en Adobe Workfront. Se pueden agregar hasta 25 informes, calendarios y páginas externas a los paneles que puede compartir con otros para lograr una colaboración óptima.
 
@@ -30,7 +33,7 @@ Para obtener más información sobre los paneles de control, consulte [Introducc
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
@@ -85,6 +88,11 @@ Puede añadir páginas externas existentes a un panel de control o crear una des
      <tr>
       <td role="rowheader"><strong>Descripción (opcional)</strong></td>
       <td>Esta es una descripción del panel de control.</td>
+     </tr>
+      <tr>
+      <td role="rowheader"><strong>Divisa</strong></td>
+      <td><span class="preview">Es el tipo de moneda predeterminado para el panel. <br>
+      <br>Los usuarios pueden alternar entre diferentes tipos de moneda al filtrar el panel. Para obtener más información, vea <a href="/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/filter-canvas-dashboard.md">Filtrar un panel por tipo de moneda</a>.</span></td>
      </tr>
     </tbody>
    </table>

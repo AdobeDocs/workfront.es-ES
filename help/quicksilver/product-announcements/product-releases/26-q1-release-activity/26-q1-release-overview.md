@@ -4,9 +4,9 @@ description: En esta página se ofrece información sobre la funcionalidad inclu
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: db74f7a97174ce0bca30684bc0871cca4b6ae4d9
+source-git-commit: bb07096ce69e7d52c9332b6f9d230440a03c5f59
 workflow-type: tm+mt
-source-wordcount: '2890'
+source-wordcount: '3014'
 ht-degree: 13%
 
 ---
@@ -247,24 +247,24 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td><strong>Liberación rápida</strong></td>
         <td><strong>Trimestralmente</strong></td>
     </tr>
- <!--    <tr>
+ <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-reporting.md" class="MCXref xref" xrefformat="{para}">Currency updates in Canvas Dashboards</a>
-            <p>We have made the following updates for currency fields:<ul><li>When multiple currencies are defined in Workfront, you can now choose a default currency for the dashboard during creation. </li><li>When creating a report, you can lock a currency field. This ensures that the dashboard-level currency preference does not affect the display of these values.</li><li>When viewing a dashboard, users can toggle between any defined currencies in Workfront. These changes apply to the entire dashboard with the exception of locked currency fields</li></ul></p>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-reporting.md" class="MCXref xref" xrefformat="{para}">Actualizaciones de moneda en paneles de lienzo</a>
+            <p>Hemos realizado las siguientes actualizaciones para los campos de moneda:<ul><li>Cuando se definen varias monedas en Workfront, ahora puede elegir una moneda predeterminada para el panel durante la creación. </li><li>Al crear un informe, puede bloquear un campo de moneda. Esto garantiza que la preferencia de moneda en el nivel de panel no afecte a la visualización de estos valores.</li><li>Al ver un panel, los usuarios pueden alternar entre cualquier moneda definida en Workfront. Estos cambios se aplican a todo el tablero, excepto a los campos de moneda bloqueados</li></ul></p>
         </td>
-        <td>December 18, 2025</td>
-        <td>January 14, 2026</td>
-        <td>January 15, 2026</td>
-    </tr>-->
- <!--    <tr>
+        <td>viernes, 18 de diciembre de 2025</td>
+        <td>jueves, 14 de enero de 2026</td>
+        <td>viernes, 15 de enero de 2026</td>
+    </tr>
+ <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-reporting.md" class="MCXref xref" xrefformat="{para}"> Quick search table results in Canvas Dashboards</a>
-            <p>We have added a quick search to Table reports. This search works across all pages, so you can find data even if it's not currently visible.</p>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-reporting.md" class="MCXref xref" xrefformat="{para}"> resultados de tabla de búsqueda rápida en paneles de lienzo</a>
+            <p>Hemos añadido una búsqueda rápida a los informes de Tabla. Esta búsqueda funciona en todas las páginas, por lo que puede encontrar datos aunque no estén visibles actualmente.</p>
         </td>
-        <td>December 18, 2025</td>
-        <td>January 14, 2026</td>
-        <td>January 15, 2026</td>
-    </tr>-->
+        <td>viernes, 18 de diciembre de 2025</td>
+        <td>jueves, 14 de enero de 2026</td>
+        <td>viernes, 15 de enero de 2026</td>
+    </tr>
      <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-reporting.md" class="MCXref xref" xrefformat="{para}">Nueva opción Mostrar total para gráficos circulares</a>
@@ -594,7 +594,7 @@ Para ofrecer integraciones más estables y escalables, estamos adoptando un enfo
 * Workfront para Salesforce.
 
 Recomendamos utilizar la automatización e integración de Workfront para las necesidades de integración de su organización con Google Workspace.
-Para obtener una descripción general de la automatización e integración de Workfront, consulte [Información general de Adobe Workfront Fusion](https://experienceleague.adobe.com/es/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+Para obtener una descripción general de la automatización e integración de Workfront, consulte [Información general de Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 
 
 ### Actualizaciones de mantenimiento de Workfront 

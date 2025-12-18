@@ -4,9 +4,9 @@ description: Mejoras en los informes del primer trimestre de 2026
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: bed931281d7d0b3184914ed7649d9cb889bcf39a
+source-git-commit: bb07096ce69e7d52c9332b6f9d230440a03c5f59
 workflow-type: tm+mt
-source-wordcount: '871'
+source-wordcount: '1009'
 ht-degree: 4%
 
 ---
@@ -17,39 +17,35 @@ Esta página describe las mejoras de los informes realizadas con la versión del
 
 Para obtener una lista de todos los cambios disponibles en este punto del ciclo de la versión del primer trimestre de 2026, consulte [Información general de la versión del primer trimestre de 2026](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md).
 
-<!--
 
-## Currency updates in Canvas Dashboards
 
->[!NOTE]
->
->Preview: December 18, 2025 
->Production fast release: January 14, 2026 
->Production for everyone: January 15, 2026 
-
-We have made the following updates for currency fields:
-
-* When multiple currencies are defined in Workfront, you can now choose a default currency for the dashboard during creation. 
-
-* When creating a report, you can lock a currency field. This ensures that the dashboard-level currency preference does not affect the display of these values.
-
-* When viewing a dashboard, users can toggle between any defined currencies in Workfront. These changes apply to the entire dashboard with the exception of locked currency fields.
-
--->
-
-<!--
-
-## Quick search table results in Canvas Dashboards
+## Actualizaciones de moneda en paneles de lienzo
 
 >[!NOTE]
 >
->Preview: December 18, 2025 
->Production fast release: January 14, 2026 
->Production for everyone: January 15, 2026 
+>Vista previa: 18 de diciembre de 2025
+>Versión rápida de producción: 14 de enero de 2026
+>Producción para todos: 15 de enero de 2026
 
-We have added a quick search to Table reports. This search works across all pages, so you can find data even if it's not currently visible.
+Hemos realizado las siguientes actualizaciones para los campos de moneda:
 
--->
+* Cuando se definen varias monedas en Workfront, ahora puede elegir una moneda predeterminada para el panel durante la creación.
+
+* Al crear un informe, puede bloquear un campo de moneda. Esto garantiza que la preferencia de moneda en el nivel de panel no afecte a la visualización de estos valores.
+
+* Al ver un panel, los usuarios pueden alternar entre cualquier moneda definida en Workfront. Estos cambios se aplican a todo el tablero, excepto a los campos de moneda bloqueados.
+
+
+## Resultados de tabla de búsqueda rápida en paneles de lienzo
+
+>[!NOTE]
+>
+>Vista previa: 18 de diciembre de 2025
+>Versión rápida de producción: 14 de enero de 2026
+>Producción para todos: 15 de enero de 2026
+
+Hemos añadido una búsqueda rápida a los informes de Tabla. Esta búsqueda funciona en todas las páginas, por lo que puede encontrar datos aunque no estén visibles actualmente.
+
 
 ## Nueva opción Mostrar total para gráficos circulares
 
