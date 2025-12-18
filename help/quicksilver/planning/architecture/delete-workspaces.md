@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: adec4b8e-2964-479b-8cf0-79d3afa27b2a
-source-git-commit: 57592455c61f0ddd14f6d2bcc033b58a8cdc7028
+source-git-commit: ba5089fd02ca099d25ce0d3c2c2c039c2c6e2fe2
 workflow-type: tm+mt
-source-wordcount: '428'
-ht-degree: 38%
+source-wordcount: '444'
+ht-degree: 37%
 
 ---
 
@@ -134,7 +134,12 @@ Para obtener más información acerca de los requisitos de acceso de Workfront, 
 
 {{step1-to-planning}}
 
-1. (Condicional) Si es administrador de Workfront, haga clic en **Espacios de trabajo en los que participo** para obtener acceso a los espacios de trabajo que creó, o en **Otros espacios de trabajo** para obtener acceso a los espacios de trabajo que otros compartieron con usted.
+1. (Condicional) Si es administrador de Workfront, haga clic en una de las siguientes opciones:
+
+   * **Espacios de trabajo en los que participo** para acceder a los espacios de trabajo que ha creado
+   * **Otros espacios de trabajo** para acceder a los espacios de trabajo que otros compartieron con usted
+O
+     <span class="preview">**Todos los espacios de trabajo** para tener acceso a los espacios de trabajo compartidos con usted o creados</span>
 
 1. (Opcional) Haga clic en **Mostrar todo** para mostrar espacios de trabajo adicionales. El vínculo **Mostrar todo** solo se muestra cuando tiene más de dos filas de tarjetas de área de trabajo.
 1. (Opcional) Haga clic en **Mostrar menos** para limitar el número de espacios de trabajo que se muestran en la pantalla.

@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 2a640cd5-f4a8-4ff3-81b6-32f85f6e4535
-source-git-commit: 476e10f2962f19fd17705cb5f20619d3b636aaa4
+source-git-commit: ba5089fd02ca099d25ce0d3c2c2c039c2c6e2fe2
 workflow-type: tm+mt
-source-wordcount: '461'
-ht-degree: 43%
+source-wordcount: '467'
+ht-degree: 37%
 
 ---
 
@@ -41,8 +41,8 @@ En la tabla siguiente se muestran los límites de la cantidad de objetos que se 
 | Número de caracteres de un campo de texto de una sola línea | 1.000 caracteres |
 | Número de caracteres de un campo de párrafo | 10.000 caracteres |
 | Número de campos de párrafo para un tipo de registro | 20 campos de párrafo |
-| Tamaño del archivo que puede pegar en una tabla de tipo de registro | 1 MB |
-| Tamaño del archivo que puede importar mediante la API para una tabla de tipo de registro | 1,5 MB |
+| Tamaño del archivo que puede utilizar para importar información en una tabla de tipo de registro | 1 MB |
+| Tamaño del archivo que puede utilizar para importar información en una tabla de tipo de registro a través de la API | 1,5 MB |
 | Velocidad a la que se pueden realizar solicitudes de API | 200 solicitudes por minuto |
 | Número de vistas que un usuario puede crear para un tipo de registro | 100 |
 | Tamaño del archivo CSV de Excel que puede importar para crear tipos de registros | 5 MB |

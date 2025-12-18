@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: bf49db73-09f1-417e-836b-16c6062740d4
-source-git-commit: 5404cec0cb02d363154a3696b63aaedaafc82688
+source-git-commit: ba5089fd02ca099d25ce0d3c2c2c039c2c6e2fe2
 workflow-type: tm+mt
-source-wordcount: '1514'
+source-wordcount: '1538'
 ht-degree: 4%
 
 ---
@@ -212,6 +212,11 @@ Puede ajustar los permisos a los tipos de registro individuales de un espacio de
    ![Permisos para tipos de registros con permisos heredados en](assets/permissions-for-record-types-with-inherited-permissions-on.png)
 
 1. (Opcional) En el área **Que tiene acceso**, la opción **Todos los que están en el área de trabajo pueden ver** está seleccionada de forma predeterminada.  Todos los usuarios que tengan permisos de Vista o superiores en el espacio de trabajo pueden ver el tipo de registro.
+
+   >[!WARNING]
+   >
+   >No puede compartir tipos de registros con usuarios individuales. Si agrega usuarios individuales al tipo de registro, también se agregarán al espacio de trabajo.
+
 
 1. (Opcional) Haga clic en el número de usuarios en la opción **Permisos heredados** para ver los usuarios, equipos, grupos, empresas o roles de trabajo que heredan los permisos del área de trabajo.
 

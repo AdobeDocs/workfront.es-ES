@@ -7,10 +7,10 @@ author: Alina
 feature: Work Management
 exl-id: a0e80c4d-29a8-4bf8-aa19-0c2d493236c6
 recommendations: noDisplay, noCatalog
-source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
+source-git-commit: ba5089fd02ca099d25ce0d3c2c2c039c2c6e2fe2
 workflow-type: tm+mt
-source-wordcount: '878'
-ht-degree: 94%
+source-wordcount: '1067'
+ht-degree: 79%
 
 ---
 
@@ -33,7 +33,7 @@ Puede eliminar un proyecto en una lista de proyectos o a nivel de proyecto.
  <col> 
  <tbody> 
   <tr> 
-   <td> <p>paquete de Adobe Workfront</p> </td> 
+   <td> <p>Paquete de Adobe Workfront</p> </td> 
    <td>Cualquiera</td> 
   </tr> 
   <tr> 
@@ -174,6 +174,34 @@ Puede eliminar proyectos de una lista de proyectos.
 1. Haga clic en **Sí, eliminar**.
 
    El proyecto se elimina y se almacena en la Papelera de reciclaje durante 30 días. El administrador de Workfront puede restaurarlo de la Papelera de reciclaje durante este tiempo.
+
+## Eliminar un proyecto de la página de registros conectados de un registro de Workfront Planning
+
+>[!NOTE]
+>
+>La información de esta sección hace referencia a Adobe Workfront Planning, una funcionalidad adicional de Adobe Workfront.
+>
+>Para obtener una lista de los requisitos para acceder a Workfront Planning, consulte [Información general sobre el acceso a Adobe Workfront Planning](/help/quicksilver/planning/access/access-overview.md).
+> 
+>Para obtener información general sobre Workfront Planning, consulte [Introducción a Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
+
+Debe tener lo siguiente para poder acceder y eliminar proyectos de una página de registros conectados de Workfront Planning:
+
+* Tipos de registros de planificación conectados a proyectos de Workfront. Para obtener más información, consulte [Conectar tipos de registros](/help/quicksilver/planning/architecture/connect-record-types.md).
+* Registros de planificación. Para obtener más información, consulte [Crear registros](/help/quicksilver/planning/records/create-records.md).
+* Página de registros conectados que muestra los proyectos conectados a un registro de Planning. Para obtener más información, vea [Agregar la página Registros conectados a un registro](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md).
+
+Para eliminar un registro de una página de registros conectada:
+
+1. En la página de registros conectados que muestra los proyectos conectados a un registro, pase el ratón sobre el nombre de un proyecto y haga clic en el icono **Más** ![Más iconos](assets/more-icon.png)
+
+   O
+
+   Seleccione uno o varios proyectos en la lista. Fíjese en la barra azul que aparece en la parte inferior de la lista de proyectos.
+
+1. Haga clic en **Eliminar** y luego en **Eliminar** para confirmar.
+
+   Los proyectos se eliminan y se colocan en la papelera de reciclaje de Workfront.
 
 ## Restauración de proyectos eliminados
 
