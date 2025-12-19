@@ -6,9 +6,9 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 066f678d4b13371eeca6aced586e1853a973cc03
+source-git-commit: 46f3be50925d2e830c572ce9bbad0d3b320f6a95
 workflow-type: tm+mt
-source-wordcount: '1497'
+source-wordcount: '1501'
 ht-degree: 2%
 
 ---
@@ -142,6 +142,7 @@ Para obtener más información, consulte [Edición de espacios de trabajo](/help
 >Vista previa: 11 de diciembre de 2025
 >Versión rápida de producción: 11 de diciembre de 2025
 >Producción para todos: 11 de diciembre de 2025
+>[!BADGE Fuera del horario]{type=Neutral}
 
 El campo de conexión con la marca GenStudio for Performance Marketing ahora se agrega de forma predeterminada a los tipos de registro Productos y Personas en el espacio de trabajo de GenStudio de Workfront Planning.
 
@@ -158,6 +159,7 @@ Para obtener más información, consulte [Introducción a la integración de Ado
 >Vista previa: 11 de diciembre de 2025
 >Versión rápida de producción: 11 de diciembre de 2025
 >Producción para todos: 11 de diciembre de 2025
+>[!BADGE Fuera del horario]{type=Neutral}
 
 Se ha agregado una protección que impide eliminar los permisos de los usuarios de GenStudio for Performance Marketing de los objetos de Workfront Planning. Con esta mejora, ya no puede quitar usuarios de GenStudio del espacio de trabajo de GenStudio en Planning, ni puede deshabilitar los permisos heredados para tipos de registro en el espacio de trabajo de GenStudio, si esos permisos incluyen usuarios de GenStudio. Antes de esta mejora, cuando eliminaba estos usuarios del espacio de trabajo de GenStudio en Planning, también perdían permisos para tipos de registros en GenStudio.
 
