@@ -6,10 +6,10 @@ description: El acceso a [!DNL Workfront] a través de Adobe Experience Cloud le
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 458631a2-d77d-46d6-8d6b-7008237e5154
-source-git-commit: 29083931a4910c99027edb856ab200c8a4345679
+source-git-commit: 5304f25ecb198f45c024b71185747f47fa8307d4
 workflow-type: tm+mt
-source-wordcount: '683'
-ht-degree: 67%
+source-wordcount: '718'
+ht-degree: 64%
 
 ---
 
@@ -35,7 +35,7 @@ Si su organización está en la experiencia unificada de Adobe, la dirección UR
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>paquete de Adobe Workfront</strong></td> 
+   <td role="rowheader"><strong>Paquete de Adobe Workfront</strong></td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
@@ -108,6 +108,9 @@ Este menú le permite:
 
 * Elegir el formato **[!UICONTROL Tema oscuro]** para [!DNL Adobe Experience Cloud].
 * Establecer **[!UICONTROL preferencias]** para [!DNL Adobe Experience Cloud], incluidas las preferencias de idioma principal y secundario.
+  >[!NOTE]
+  >
+  >La configuración de la fecha se basa en la configuración de idioma principal. Por ejemplo, si selecciona **Inglés (Estados Unidos)**, las fechas se mostrarán en formato MM/DD/AAAA, mientras que si selecciona **Inglés (Reino Unido)**, las fechas se mostrarán en formato DD/MM/AAAA.
 * Acceder a su perfil **[!UICONTROL [!DNL Workfront]]**. Una vez que esté en el perfil, haga clic en el menú **[!UICONTROL Más]** ![Menú más](assets/more-icon.png) y seleccione **[!UICONTROL Editar]**. Para obtener más información sobre el perfil, consulte [Configuración de Mis opciones](/help/quicksilver/workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md).
 * **[!UICONTROL Cerrar sesión]** de Adobe Experience Cloud.
 
@@ -123,7 +126,7 @@ En caso de que la organización utilice una aplicación independiente para admin
 
 En caso de que [!DNL Adobe] administre la contraseña, cámbiela en la cuenta de Adobe.
 
-[Consulte este artículo para cambiar la contraseña de Adobe.](https://helpx.adobe.com/es/manage-account/using/change-or-reset-password.html){target="_blank"}
+[Consulte este artículo para cambiar la contraseña de Adobe.](https://helpx.adobe.com/manage-account/using/change-or-reset-password.html){target="_blank"}
 
 Para obtener más información sobre cómo cambiar la contraseña, póngase en contacto con el administrador.
 

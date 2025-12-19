@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 1176d899-0585-430d-87f2-0823bda2f1be
-source-git-commit: 6b2d93d2573d72e4390761038d8078f47d96d55e
+source-git-commit: 87d3443c7b08c59d435e852c6a17df297e7023d6
 workflow-type: tm+mt
-source-wordcount: '1293'
-ht-degree: 91%
+source-wordcount: '1356'
+ht-degree: 92%
 
 ---
 
@@ -19,6 +19,21 @@ ht-degree: 91%
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.</p>
 -->
+
+
+
+>[!IMPORTANT]
+>
+>Workfront ya no recomienda el uso del punto final ni de las claves API `/login`. En lugar de ello, utilice uno de los siguientes métodos de autenticación:
+>
+>* Autenticación de servidor con JWT
+>* Autenticación de usuario con OAuth2
+>
+>Para obtener instrucciones sobre cómo configurar estos métodos de autenticación, consulte [Crear aplicaciones OAuth2 para integraciones de Workfront](/help/quicksilver/administration-and-setup/configure-integrations/create-oauth-application.md)
+>
+>Para obtener instrucciones sobre el uso de la autenticación de servidor en Workfront, consulte [Configuración y uso de las aplicaciones OAuth 2 personalizadas de su organización mediante el flujo JWT](/help/quicksilver/wf-api/api/oauth-app-jwt-flow.md)
+>
+>Para obtener instrucciones sobre el uso de la autenticación de usuarios en Workfront, consulte [Configuración y uso de las aplicaciones OAuth 2 personalizadas de su organización mediante el flujo del código de autorización](/help/quicksilver/wf-api/api/oauth-app-code-token-flow.md)
 
 Para minimizar las vulnerabilidades de seguridad de la API, los administradores de Adobe Workfront pueden administrar las claves de API utilizadas para que las aplicaciones puedan acceder a Workfront en nombre de un usuario.
 
@@ -42,7 +57,7 @@ Algunos ejemplos de aplicaciones que aprovechan la API de Workfront son los sigu
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td><p>Cualquiera</p></td> 
   </tr> 
   <tr> 
@@ -73,10 +88,6 @@ Los administradores de Workfront también tienen una clave de API única. Cuando
 ## Administración de una clave de API de administrador
 
 Puede generar, restablecer o eliminar la clave de API de su cuenta de usuario de administrador.
-
->[!NOTE]
->
->También puede generar una clave de API a través de la API. Para obtener más información, consulte la sección [API de suscripción a eventos](../../../wf-api/general/event-subs-api.md) en [API de suscripción a eventos](../../../wf-api/general/event-subs-api.md).
 
 {{step-1-to-setup}}
 
