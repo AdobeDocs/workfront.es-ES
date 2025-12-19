@@ -406,7 +406,7 @@ Para administrar varias vistas desde la página de registros conectada:
    * **Cronología**. Para obtener más información, consulte [Administrar la vista de cronología](/help/quicksilver/planning/views/manage-the-timeline-view.md).
    * **Calendario**. Para obtener más información, consulte [Administrar la vista de calendario](/help/quicksilver/planning/views/manage-the-calendar-view.md).
 
-1. (Opcional) Pase el ratón sobre el nombre de una vista en la página Registros conectados, luego haga clic en el menú **Más** ![Menú más](assets/more-menu.png) y, a continuación, haga clic en una de las siguientes opciones: ************* compruebe que todas son posibles *********
+1. (Opcional) Pase el ratón sobre el nombre de una vista en la página Registros conectados, luego haga clic en el menú **Más** ![Menú más](assets/more-menu.png) y, a continuación, haga clic en una de las siguientes opciones: **&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;*** compruebe que todas son posibles **&#x200B;**&#x200B;**&#x200B;***
 
    * **Cambiar nombre**
    * **Compartir**. Para obtener más información, consulte [Compartir vistas](/help/quicksilver/planning/access/share-views.md).
