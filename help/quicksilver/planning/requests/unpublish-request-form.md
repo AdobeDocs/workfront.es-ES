@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: df8c4926-e258-49c0-ab9d-563ccaf7a6aa
-source-git-commit: df0686038adb1278339e872e122a311884cb6d29
+source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
 workflow-type: tm+mt
-source-wordcount: '680'
-ht-degree: 20%
+source-wordcount: '676'
+ht-degree: 21%
 
 ---
 
@@ -133,4 +133,4 @@ El vínculo o botón **Cancelar la publicación** cambia a **Publicar**.
 
    Cualquier registro agregado anteriormente mediante el formulario de solicitud permanece en la página de tipo de registro.
 
-   Todas las solicitudes agregadas anteriormente permanecen en el área Solicitudes de Workfront, en la pestaña Planificación.
+   Todas las solicitudes agregadas anteriormente permanecen en el área Solicitudes de Workfront.

@@ -6,16 +6,16 @@ description: Puede crear una historia Agile en una iteración de varias formas. 
 author: Jenny
 feature: Agile
 exl-id: d16ee940-3551-44da-8fe6-093f4fcac070
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
 workflow-type: tm+mt
 source-wordcount: '695'
-ht-degree: 21%
+ht-degree: 17%
 
 ---
 
-# Crear una historia Agile
+# Crear una historia de Agile
 
-Puede crear una historia Agile en una iteración de varias formas. Después de crear una historia Agile, puede agregar subtareas a la historia.
+Puede crear una historia de Agile en una iteración de varias formas. Después de crear una historia de Agile, puede agregar subtareas a la historia.
 
 Cuando agrega una historia o subtarea en una iteración, el tipo de duración se establece en [!UICONTROL Simple] y la restricción de tarea se establece en Fechas fijas, con las fechas bloqueadas dentro de la iteración. No se puede modificar el tipo de duración ni la restricción de tarea en una iteración. Además, la duración de la tarea debe ser mayor que 0 minutos.
 
@@ -32,7 +32,7 @@ Para obtener información acerca de cómo administrar la historia después de ag
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
@@ -51,7 +51,7 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
 
 +++
 
-## Crear una historia Agile en una iteración
+## Crear una historia de Agile en una iteración
 
 1. Vaya a la iteración Agile en la que desea crear la historia:
 
@@ -85,7 +85,7 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Estimar] (puntos)</strong></td>
-      <td>Especifique la estimación para la historia. Si su equipo Agile está configurado para estimar las historias en puntos, de forma predeterminada 1 punto equivale a 8 horas. Las estimaciones se añaden como [!UICONTROL Planned Hours] en la historia.<br>Por ejemplo, si calcula una historia como 3 puntos, el comportamiento predeterminado es agregar 24 [!UICONTROL Horas planificadas] a la historia.<br>Si un artículo contiene subtareas, recuerde que las estimaciones combinadas de todas las subtareas determinan la estimación del artículo principal. Para obtener más información, consulte <a href="../../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md" class="MCXref xref">Añadir historias a una iteración existente</a>.</td>
+      <td>Especifique la estimación para la historia. Si su equipo de Agile está configurado para estimar las historias en puntos, por defecto 1 punto es igual a 8 horas. Las estimaciones se añaden como [!UICONTROL Planned Hours] en la historia.<br>Por ejemplo, si calcula una historia como 3 puntos, el comportamiento predeterminado es agregar 24 [!UICONTROL Horas planificadas] a la historia.<br>Si un artículo contiene subtareas, recuerde que las estimaciones combinadas de todas las subtareas determinan la estimación del artículo principal. Para obtener más información, consulte <a href="../../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md" class="MCXref xref">Añadir historias a una iteración existente</a>.</td>
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Parent Project]</strong></td>
@@ -104,17 +104,17 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
 
 1. Haga clic en **[!UICONTROL Guardar historia]**.
 
-## Crear una historia Agile en el registro de pendientes
+## Crear una historia de Agile en el registro de pendientes
 
-Puede crear una historia Agile a partir del registro de pendientes Agile, tal como se describe en la sección [Crear nuevas historias en el registro de pendientes](../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md#creating-new-stories) del artículo [[!UICONTROL Administrar] el registro de pendientes Agile](../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md).
+Puede crear una historia Agile a partir del registro de pendientes Agile, tal como se describe en la sección [Crear nuevas historias en el registro de asuntos pendientes](../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md#creating-new-stories) del artículo [[!UICONTROL Administrar] el registro de asuntos pendientes Agile](../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md).
 
-## Agregar una tarea o un problema como una historia ágil
+## Agregar una tarea o un problema como historia de Agile
 
 Puede agregar una tarea o un problema existente como artículo a una iteración. Para obtener más información, consulte [Agregar historias a una iteración existente](../../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md) o [Agregar historias y problemas del tablero [!UICONTROL Scrum]](../../agile/use-scrum-in-an-agile-team/scrum-board/add-story-from-scrum-board.md).
 
-## Creación de subtareas para una historia ágil
+## Crear subtareas en una historia de Agile
 
-Puede crear una subtarea en una historia Agile mediante cualquiera de los siguientes métodos:
+Puede crear una subtarea en un artículo de Agile mediante cualquiera de los métodos siguientes:
 
 * Utilizando la ficha **[!UICONTROL Subtareas]**, tal como se describe en [Crear subtareas](../../manage-work/tasks/create-tasks/create-subtasks.md#creating-subtasks) en [Crear subtareas](../../manage-work/tasks/create-tasks/create-subtasks.md).
 

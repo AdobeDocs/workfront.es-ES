@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: df0686038adb1278339e872e122a311884cb6d29
+source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
 workflow-type: tm+mt
-source-wordcount: '3147'
+source-wordcount: '3143'
 ht-degree: 21%
 
 ---
@@ -40,7 +40,7 @@ Para crear registros, siga uno de estos procedimientos:
 * [Importar información desde un archivo CSV o de Excel](#create-records-by-importing-records-from-a-csv-or-excel-file)
 * [Usar automatizaciones](#create-records-by-using-automations)
 
-Para obtener información acerca de la administración de registros en las vistas de tabla o línea de tiempo, consulte los siguientes artículos:
+Para obtener información acerca de la administración de registros en las vistas de tabla o cronología, consulte los siguientes artículos:
 
 * [Administrar la vista de tabla](/help/quicksilver/planning/views/manage-the-table-view.md)
 * [Administrar la vista de cronología](/help/quicksilver/planning/views/manage-the-timeline-view.md)
@@ -59,7 +59,7 @@ Para obtener información acerca de la administración de registros en las vista
 <tr> 
 </tr>   
 <tr> 
-   <td role="rowheader"><p>paquete de Adobe Workfront</p></td> 
+   <td role="rowheader"><p>Paquete de Adobe Workfront</p></td> 
    <td> 
 <p>Cualquier Workfront y cualquier paquete de Planning</p> <p>Cualquier flujo de trabajo y cualquier paquete de Planning</p>
 <p>Para obtener más información sobre lo que se incluye en cada paquete de Workfront Planning, póngase en contacto con su representante de cuentas de Workfront. </p> 
@@ -208,7 +208,7 @@ Se abre el formulario de solicitud del tipo de registro.
 
    * Se agregará un nuevo registro al tipo de registro, a menos que elija agregarlo mediante un formulario de solicitud con un proceso de aprobación. Todos los aprobadores deben conceder la aprobación antes de crear el registro.
    * Si ha agregado registros mediante una hoja de cálculo CSV o de Excel, se agregarán varios registros al tipo de registro.
-   * Se añade una nueva solicitud en la pestaña Planificación del área de Solicitudes de Workfront si ha añadido la solicitud enviando un formulario de solicitud.
+   * Se añade una nueva solicitud en el área de Solicitudes de Workfront si ha añadido la solicitud enviando un formulario de solicitud.
 
 <!-- this is not possible anymore: 
 

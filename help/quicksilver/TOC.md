@@ -3,7 +3,7 @@ user-guide-title: Guía de Workfront
 user-guide-description: Utilice los siguientes documentos, tutoriales y recursos adicionales para aprender a implementar y utilizar Adobe Workfront de forma eficaz en su organización.
 role: User
 feature-set: Workfront
-source-git-commit: 66dd7354f3723e266b77cb2f367b09c022e8c95e
+source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
 workflow-type: tm+mt
 source-wordcount: '13631'
 ht-degree: 58%
@@ -38,7 +38,7 @@ ht-degree: 58%
          * [Mejoras de proyecto del cuarto trimestre de 2025](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-project.md)
          * [Mejoras en las solicitudes del cuarto trimestre de 2025](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-requests.md)
          * [Mejoras en la gestión de recursos del cuarto trimestre de 2025](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-resource-mgmt.md)
-         * [Otras mejoras del cuarto trimestre de 2025 &#x200B;](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-other.md)
+         * [Otras mejoras del cuarto trimestre de 2025 ](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-other.md)
          * [Actualizaciones de aspecto durante el periodo de tiempo de la versión del cuarto trimestre de 2025](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-look-and-feel-updates.md)
       * Versión del tercer trimestre de 2025 {#release-25-q3}
          * [Resumen de la versión del tercer trimestre de 2025](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-release-overview.md)
@@ -1111,9 +1111,9 @@ ht-degree: 58%
          * [Ver y editar la información de la historia en el panel Scrum](agile/use-scrum-in-an-agile-team/scrum-board/view-and-edit-story-info.md)
    * Trabajar en un entorno Agile {#work-in-agile-environment}
       * [Trabajar en un entorno Agile](agile/work-in-an-agile-environment/work-in-an-agile-environment.md)
-      * [Crear una historia Agile](agile/work-in-an-agile-environment/create-an-agile-story.md)
-      * [Administrar el registro de asuntos pendientes Agile](agile/work-in-an-agile-environment/manage-the-agile-backlog.md)
-      * [Mover una historia Agile](agile/work-in-an-agile-environment/move-an-agile-story.md)
+      * [Crear una historia de Agile](agile/work-in-an-agile-environment/create-an-agile-story.md)
+      * [Administrar el registro de pendientes de Agile](agile/work-in-an-agile-environment/manage-the-agile-backlog.md)
+      * [Mover una historia de Agile](agile/work-in-an-agile-environment/move-an-agile-story.md)
    * Sugerencias, trucos y solución de problemas para Agile {#tips-tricks-agile}
       * [Sugerencias, trucos y solución de problemas para Agile](agile/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-agile.md)
       * [Los estados personalizados no aparecen en el panel de historias Agile](agile/tips-tricks-and-troubleshooting/custom-status-does-not-show.md)
@@ -1241,7 +1241,7 @@ ht-degree: 58%
          * [Quitar usuarios de proyectos](manage-work/projects/manage-projects/remove-users-from-projects.md)
          * [Programación de recursos para proyectos](manage-work/projects/manage-projects/schedule-resources-for-projects.md)
          * [Comunicarse con los miembros del equipo del proyecto](manage-work/projects/manage-projects/communicate-with-project-team-members.md)
-         * [Administrar un proyecto de Agile en la vista de tablero](manage-work/projects/manage-projects/manage-projects-in-agile-view.md)
+         * [Administración de un proyecto de Agile en la vista de tablero](manage-work/projects/manage-projects/manage-projects-in-agile-view.md)
          * [Comprender las métricas del proyecto](manage-work/projects/manage-projects/project-metrics.md)
          * [Resumen de límites del proyecto](manage-work/projects/manage-projects/project-maximums.md)
          * [Resumir actualizaciones con el asistente de IA](/help/quicksilver/manage-work/projects/manage-projects/summarize-projects-ai-assistant.md)
@@ -1778,7 +1778,7 @@ ht-degree: 58%
    * [Administrar recursos: índice de artículos](resource-mgmt/manage-resources.md)
    * Administración de recursos {#resource-management}
       * [Administración de recursos: índice de artículos](resource-mgmt/resource-mgmt-overview/resource-management-overview.md)
-      * [Introducción a la Administración de recursos &#x200B;](resource-mgmt/resource-mgmt-overview/get-started-resource-management.md)
+      * [Introducción a la Administración de recursos ](resource-mgmt/resource-mgmt-overview/get-started-resource-management.md)
    * Planificación de recursos en Adobe Workfront {#resource-planning-in-adobe-workfront}
       * [Planificación de recursos: índice de artículos](resource-mgmt/resource-planning/resource-planning-overview.md)
       * Conjuntos de recursos {#resource-pools}

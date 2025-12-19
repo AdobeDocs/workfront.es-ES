@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
-source-git-commit: 66dd7354f3723e266b77cb2f367b09c022e8c95e
+source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
 workflow-type: tm+mt
-source-wordcount: '1869'
+source-wordcount: '1875'
 ht-degree: 5%
 
 ---
@@ -186,7 +186,7 @@ La lista de solicitudes se filtra automáticamente a medida que se añaden las c
      >
      >No se puede mostrar el campo **Asunto**.
 
-     ![](assets/columns-editing-box-in-requests-planning-tab.png)
+     ![Cuadro de edición de columnas en el área de solicitudes](assets/columns-editing-box-in-requests-planning-tab.png)
 
 
 1. Haga clic en el nombre de una solicitud en la lista.

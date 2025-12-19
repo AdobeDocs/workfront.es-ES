@@ -7,7 +7,7 @@ description: Revise este artículo para comprender mejor cómo funciona el Panel
 author: Jenny
 feature: Agile
 exl-id: d7daa6c1-dae2-4e5c-a765-6a6ebdfaa331
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
 workflow-type: tm+mt
 source-wordcount: '486'
 ht-degree: 47%
@@ -22,13 +22,13 @@ Las siguientes secciones le permiten comprender mejor cómo funciona el tablero 
 
 Para obtener una descripción de la metodología K[!UICONTROL anban], consulte [Crear un equipo Agile](/help/quicksilver/agile/get-started-with-agile-in-workfront/create-an-agile-team.md).
 
-Si está interesado en migrar de un tablero de equipo Agile [!UICONTROL Kanban] a [!DNL Workfront] [!UICONTROL Tableros], vea las tarjetas de [Migrar equipo Agile [!UICONTROL Kanban] a [!DNL Workfront] tableros](/help/quicksilver/agile/use-boards-agile-planning-tools/migrate-kanban-cards-to-boards.md).
+Si está interesado en migrar de un panel [!UICONTROL Kanban] de equipo Agile a [!DNL Workfront] [!UICONTROL Tableros], vea las tarjetas de [Migrar tarjetas del equipo Agile [!UICONTROL Kanban] a [!DNL Workfront] tableros](/help/quicksilver/agile/use-boards-agile-planning-tools/migrate-kanban-cards-to-boards.md).
 
 ## Diseño y funciones del tablero [!UICONTROL Kanban]
 
 El tablero [!UICONTROL Kanban] consta de los siguientes elementos:
 
-**Columna de registro de pendientes**: Muestra todas las tareas que están actualmente en el registro de pendientes. Esta columna no se muestra de forma predeterminada. Para obtener más información sobre el registro de pendientes, incluido cómo mostrarlo en el tablero [!UICONTROL Kanban], consulte [Administrar el registro de pendientes Agile](../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md).
+**Columna de registro de pendientes**: Muestra todas las tareas que están actualmente en el registro de pendientes. Esta columna no se muestra de forma predeterminada. Para obtener más información sobre el registro de pendientes, incluido cómo mostrarlo en el tablero [!UICONTROL Kanban], consulte [Administrar el registro de pendientes de Agile](../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md).
 
 **Estados de la historia**: indica el progreso de una historia en función de la columna de estado en la que se encuentra.
 

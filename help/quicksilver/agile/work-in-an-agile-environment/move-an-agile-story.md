@@ -2,20 +2,20 @@
 product-area: agile-and-teams;projects
 navigation-topic: work-in-an-agile-environment
 title: Mover una historia de Agile
-description: Puede mover una historia Agile a una iteración diferente (para equipos de Scrum) o al registro de asuntos pendientes (para equipos de Kanban y Scrum).
+description: Puede mover una historia de Agile a una iteración diferente (para equipos de Scrum) o al registro de pendientes (para equipos de Kanban y Scrum).
 author: Jenny
 feature: Agile
 exl-id: 0058792e-66b8-4e54-8ce3-50171adff875
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
 workflow-type: tm+mt
 source-wordcount: '349'
-ht-degree: 72%
+ht-degree: 58%
 
 ---
 
-# Mover una historia Agile
+# Mover una historia de Agile
 
-Puede mover una historia Agile a una iteración diferente (para equipos de Scrum) o al registro de asuntos pendientes (para equipos de Kanban y Scrum).
+Puede mover una historia de Agile a una iteración diferente (para equipos de Scrum) o al registro de pendientes (para equipos de Kanban y Scrum).
 
 ## Requisitos de acceso
 
@@ -28,7 +28,7 @@ Puede mover una historia Agile a una iteración diferente (para equipos de Scrum
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 

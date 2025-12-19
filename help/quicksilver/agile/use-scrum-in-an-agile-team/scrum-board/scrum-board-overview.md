@@ -7,10 +7,10 @@ description: El tablero de historias de Agile de Scrum se muestra junto con el e
 author: Jenny
 feature: Agile
 exl-id: 584288bb-2d98-4b69-8deb-d3b8e54d328c
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
 workflow-type: tm+mt
 source-wordcount: '803'
-ht-degree: 77%
+ht-degree: 76%
 
 ---
 
@@ -73,4 +73,4 @@ Por ejemplo, supongamos que la historia A contiene la subtarea 1 y la subtarea 2
 
 Esta misma lógica se aplica a las subtareas de segundo nivel (subtareas de subtareas). Si una subtarea tiene una o más subtareas de segundo nivel asignadas al mismo equipo Agile y pertenecen a la iteración, solamente se muestra la subtarea de segundo nivel en el registro de asuntos pendientes.
 
-Para obtener más información sobre el registro de asuntos pendientes, consulte [Administrar el registro de asuntos pendientes de Agile](../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md).
+Para obtener más información sobre el registro de pendientes, consulte [Administrar el registro de pendientes de Agile](../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md).

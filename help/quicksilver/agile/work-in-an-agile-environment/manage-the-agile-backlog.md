@@ -6,19 +6,19 @@ description: Las tareas y los problemas se pueden asignar a un equipo Agile y ag
 author: Jenny
 feature: Agile
 exl-id: 59660840-7ab8-482e-8b43-96b4a1ecc538
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
 workflow-type: tm+mt
 source-wordcount: '1334'
 ht-degree: 7%
 
 ---
 
-# Administrar el registro de asuntos pendientes Agile
+# Administrar el registro de pendientes de Agile
 
 Los siguientes elementos de trabajo se pueden asignar a un equipo Agile y añadirse al registro de asuntos pendientes de ese equipo como historias, según la metodología Agile que utilice el equipo:
 
-* **[!UICONTROL Equipos Agile de Scrum]:** Las tareas y problemas se pueden asignar al equipo Agile y agregarse al registro de pendientes.
-* **[!UICONTROL Equipos Agile Kanban]:** Se pueden asignar tareas al equipo Agile y agregarlas al registro de pendientes. Los usuarios pueden ver el registro de pendientes directamente desde el panel de historias Agile, tal como se describe en [[!UICONTROL Agregar el registro de pendientes] al panel Kanban](../../agile/use-kanban-in-an-agile-team/view-the-backlog-on-the-kanban-board.md). El equipo utiliza este registro de pendientes para priorizar y administrar su cola de trabajos.
+* **[!UICONTROL Equipos de Scrum Agile]:** Las tareas y problemas se pueden asignar al equipo de Agile y agregarse al registro de pendientes.
+* **[!UICONTROL Equipos Agile Kanban]:** Se pueden asignar tareas al equipo Agile y agregarlas al registro de pendientes. Los usuarios pueden ver el registro de pendientes directamente desde el panel de historias de Agile, tal como se describe en [[!UICONTROL Agregar el registro de pendientes] al panel Kanban](../../agile/use-kanban-in-an-agile-team/view-the-backlog-on-the-kanban-board.md). El equipo utiliza este registro de pendientes para priorizar y administrar su cola de trabajos.
 
 Las tareas o problemas se pueden asignar al equipo (y posteriormente se agregarán al registro de asuntos pendientes del equipo) desde cualquier lugar de [!DNL Adobe Workfront]. Por ejemplo, a un solo equipo se le podrían asignar asignaciones de trabajo de varios proyectos.
 
@@ -37,7 +37,7 @@ Las tareas o problemas se pueden asignar al equipo (y posteriormente se agregar�
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
@@ -66,12 +66,12 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
 
 Puede reordenar las historias en la lista de trabajos pendientes mediante el método de arrastrar y soltar.
 
-1. Vaya al registro de pendientes Agile donde desee reordenar las historias.
+1. Vaya al registro de pendientes de Agile donde desee reordenar las historias.
 1. En el menú desplegable **[!UICONTROL Vista]**, seleccione la vista **[!UICONTROL Registro de pendientes]** o una vista personalizada que contenga la columna **[!UICONTROL Pedido]**.
 
    >[!NOTE]
    >
-   >Si una tarea o un problema tiene un equipo Agile asignado y el proyecto no está en un estado equivalente a Actual, no se muestran en el registro de pendientes. Sin embargo, sí afectan al recuento de trabajos pendientes en la columna Pedido.
+   >Si una tarea o un problema tiene asignado un equipo Agile y el proyecto no está en un estado equivalente a Actual, no se muestran en el registro de pendientes. Sin embargo, sí afectan al recuento de trabajos pendientes en la columna Pedido.
 
 1. Seleccione uno o varios artículos y, a continuación, arrastre los artículos al orden en que desee que aparezcan en el registro de pendientes.
    ![Arrastrar y soltar elementos de registro de pendientes](assets/agile-backlog-drag-and-drop.png)
@@ -105,7 +105,7 @@ Puede editar historias directamente desde las pestañas [!UICONTROL Historias] o
 
 ## Crear nuevas historias en el registro de pendientes {#create-new-stories-on-the-backlog}
 
-Puede crear nuevas historias en el registro de pendientes creando la historia directamente a partir del registro de pendientes o asignando una tarea o problema existente a un equipo Agile.
+Puede crear nuevas historias en el registro de pendientes creando la historia directamente a partir del registro de pendientes o asignando una tarea o problema existente a un equipo de Agile.
 
 * [Crear una historia a partir del registro de pendientes](#create-a-story-from-the-backlog)
 * [Asignar una tarea o un problema a un equipo Agile](#assign-a-task-or-issue-to-an-agile-team)
@@ -172,7 +172,7 @@ Para crear una historia a partir del registro de pendientes:
 
 Puede asignar una tarea o un problema a un equipo Agile. Una vez asignada, la tarea o el problema aparecen como una nueva historia en el registro de asuntos pendientes del equipo.
 
-Para asignar una tarea o un problema a un equipo Agile:
+Para asignar una tarea o un problema a un equipo de Agile:
 
 1. Vaya al proyecto que contiene la tarea que desea asignar.
 1. Seleccione la tarea o el problema en la lista.
@@ -180,7 +180,7 @@ Para asignar una tarea o un problema a un equipo Agile:
 1. Haga clic en **[!UICONTROL Asignaciones]**.
 1. (Opcional) Elimine los usuarios asignados existentes.
 1. Haga clic en **[!UICONTROL Agregar usuario asignado]**.
-1. Comience a escribir el nombre del equipo Agile que desea que se le asigne a la tarea o al problema y, a continuación, haga clic en el nombre del equipo cuando aparezca en la lista desplegable.
+1. Empiece escribiendo el nombre del equipo Agile que desea que se le asigne a la tarea o al problema y, a continuación, haga clic en el nombre del equipo cuando aparezca en la lista desplegable.
 1. Haga clic en **[!UICONTROL Guardar cambios]**.
 La tarea o el problema ya están disponibles en el registro de pendientes del equipo.
 
@@ -192,7 +192,7 @@ La tarea o el problema ya están disponibles en el registro de pendientes del eq
 
 ### Mover historias del registro de pendientes a una iteración o tablero
 
-1. Vaya al registro de pendientes del equipo Agile.
+1. Vaya al registro de pendientes del equipo de Agile.
 1. Seleccione las historias que desee mover a una iteración o panel Kanban y, a continuación, haga clic en **[!UICONTROL Más]** > **[!UICONTROL Mover a]**.
 Si se mueve la historia al tablero [!UICONTROL Kanban], se mostrará la historia [!UICONTROL Mover historia al tablero Kanban].
 Si se mueve la historia a una iteración, aparecerá el cuadro de diálogo [!UICONTROL Mover historia a una iteración].
@@ -210,7 +210,7 @@ Si se mueve la historia a una iteración, aparecerá el cuadro de diálogo [!UIC
 
 Si decide que su equipo aún no está listo para trabajar en una historia, puede mover la historia al registro de pendientes.
 
-Para obtener más información, consulte [Mover una historia Agile](../../agile/work-in-an-agile-environment/move-an-agile-story.md).
+Para obtener más información, consulte [Mover una historia de Agile](../../agile/work-in-an-agile-environment/move-an-agile-story.md).
 
 ### Exportar historias del registro de pendientes {#export-stories-from-the-backlog}
 

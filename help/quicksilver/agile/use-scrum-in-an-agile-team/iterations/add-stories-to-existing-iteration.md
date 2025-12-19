@@ -6,10 +6,10 @@ description: Puede añadir historias a una iteración de muchas maneras.
 author: Jenny
 feature: Agile
 exl-id: b016fda1-789a-42b3-9f97-2c61c4ec0917
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
 workflow-type: tm+mt
 source-wordcount: '614'
-ht-degree: 85%
+ht-degree: 81%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 85%
 
 Puede añadir historias a una iteración de cualquiera de las siguientes maneras:
 
-* Del registro de asuntos pendientes una vez creada la iteración, tal como se describe en la sección [Mover historias del registro de pendientes a una iteración o tablero [!UICONTROL Kanban]](../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md#move-stories-from-the-backlog-to-an-iteration-or--board) en [Administrar el registro de asuntos pendientes Agile](../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md)
+* Del registro de pendientes una vez creada la iteración, como se describe en la sección [Mover historias del registro de pendientes a una iteración o [!UICONTROL Panel Kanban]](../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md#move-stories-from-the-backlog-to-an-iteration-or--board) de [Administrar el registro de pendientes Agile](../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md)
 
 * Desde la página [!UICONTROL Detalles] de la tarea o problema individual
 * Desde una lista de tareas o problemas
@@ -31,7 +31,7 @@ Puede añadir historias a una iteración de cualquiera de las siguientes maneras
 <table style="table-layout:auto"> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 

@@ -7,10 +7,10 @@ description: Puede personalizar el tipo de información que se muestra en una li
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 18016417-e24d-4797-9422-00915db47bb9
-source-git-commit: 66dd7354f3723e266b77cb2f367b09c022e8c95e
+source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
 workflow-type: tm+mt
 source-wordcount: '591'
-ht-degree: 69%
+ht-degree: 67%
 
 ---
 
@@ -38,8 +38,8 @@ Los siguientes son tipos de vistas que se pueden aplicar en listas o informes en
 
 <table style="table-layout:auto">
     <tr>
-        <td><strong>Vistas estándar</strong></td>
-        <td>Pueden aplicarse a cualquier lista o informe de objetos. Las vistas estándar son altamente personalizables. Puede personalizar y compartir una vista estándar con otros usuarios. Para obtener más información, consulte <a href="/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md">Creación o edición de vistas en Adobe Workfront</a>.</td>
+        <td><strong>Vista estándar</strong></td>
+        <td>Se puede aplicar a cualquier lista o informe de objetos. Las vistas estándar son altamente personalizables. Puede personalizar y compartir una vista estándar con otros usuarios. Para obtener más información, consulte <a href="/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md">Creación o edición de vistas en Adobe Workfront</a>.</td>
     </tr>
     <tr>
         <td><strong>Vista del tablero</strong></td>

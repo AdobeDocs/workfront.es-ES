@@ -6,10 +6,10 @@ description: Puede mostrar la columna [!UICONTROL Registro de asuntos pendientes
 author: Jenny
 feature: Agile
 exl-id: 77c7f7c7-66d9-4aec-9a0c-bfdc470a58d7
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
 workflow-type: tm+mt
 source-wordcount: '250'
-ht-degree: 96%
+ht-degree: 92%
 
 ---
 
@@ -28,7 +28,7 @@ Puede mostrar una columna [!UICONTROL Registro de asuntos pendientes] directamen
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
@@ -58,4 +58,4 @@ De manera predeterminada, la columna [!UICONTROL Registro de asuntos pendientes]
 >
 >Si añade varios equipos a un elemento de registro de asuntos pendientes, la tarea o el problema solo se mostrarán en el registro de asuntos pendientes del equipo principal. El equipo principal es el equipo que se ha asignado en primer lugar.
 
-Para obtener más información sobre el registro de asuntos pendientes, consulte [Administrar el registro de asuntos pendientes Agile](../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md).
+Para obtener más información sobre el registro de pendientes, consulte [Administrar el registro de pendientes de Agile](../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md).

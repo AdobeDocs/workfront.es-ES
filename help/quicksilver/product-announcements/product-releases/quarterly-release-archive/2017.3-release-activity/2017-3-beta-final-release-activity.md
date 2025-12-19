@@ -7,10 +7,10 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 880828f4-3908-4ef0-ab1f-774f8dee72b6
-source-git-commit: f5044d457ebf203269e8007075e98ba4c136660f
+source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
 workflow-type: tm+mt
 source-wordcount: '3791'
-ht-degree: 100%
+ht-degree: 91%
 
 ---
 
@@ -96,19 +96,19 @@ Para obtener más información, consulte “Personalización del inicio” en �
 
 Los equipos de Agile ahora pueden utilizar una metodología Kanban dentro de Workfront, además de la metodología Scrum Agile ya compatible.
 
-Las metodologías Agile de Scrum y Kanban en Workfront difieren en los siguientes aspectos:
+Las metodologías Scrum y Kanban Agile en Workfront difieren en los siguientes aspectos:
 
 **Ventajas de usar Kanban en Workfront**
 
-* Mostrar el Registro de asuntos pendientes en el tablero de historias ágil Kanban.
+* Mostrar el registro de pendientes en el panel de historias de Kanban Agile.
 
   Para obtener más información, consulte.
 
-* Configura los elementos del Registro de asuntos pendientes para que se añadan automáticamente al tablero de historias ágil Kanban cuando otros elementos se muevan a un estado que equivalga a Completado.
+* Configure los elementos del registro de pendientes para que se añadan automáticamente al panel de historias de Kanban Agile cuando otros elementos se muevan a un estado que sea igual a Completado.
 
   Para obtener más información, consulte [Configurar historias para que se añadan automáticamente desde el registro de asuntos pendientes](../../../../agile/get-started-with-agile-in-workfront/configure-kanban.md#configur5) en [Configurar Kanban](../../../../agile/get-started-with-agile-in-workfront/configure-kanban.md).
 
-* Configure un límite de trabajo en curso (WIP) para que se muestre en el panel de historias ágil de Kanban.
+* Configure un límite de trabajo en curso (WIP) para que se muestre en el panel de Kanban Agile.
 
   Para obtener más información, consulte [Configurar el límite de trabajo en curso (WIP)](../../../../agile/get-started-with-agile-in-workfront/configure-kanban.md#configur4) en [Configurar Kanban](../../../../agile/get-started-with-agile-in-workfront/configure-kanban.md).
 
@@ -116,7 +116,7 @@ Las metodologías Agile de Scrum y Kanban en Workfront difieren en los siguiente
 
 * Agregue un conjunto de historias a una iteración Agile y cree un guion gráfico para esa iteración.
 * Incluir problemas en el guion gráfico de Scrum.
-* Incluye problemas en el registro de pendientes de un equipo ágil.
+* Incluye problemas en el registro de pendientes de un equipo Agile.
 
   Para obtener más información, consulte [Configurar cómo se aplican las fechas al añadir elementos de trabajo a una iteración](../../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur5) en [Configurar Scrum](../../../../agile/get-started-with-agile-in-workfront/configure-scrum.md).
 
@@ -125,7 +125,7 @@ Las metodologías Agile de Scrum y Kanban en Workfront difieren en los siguiente
 
   Para obtener más información, consulte [Información general del gráfico de evolución Agile](../../../../agile/use-scrum-in-an-agile-team/burndown/burndown-chart-overview.md).
 
-Para obtener más información sobre cómo habilitar y configurar Kanban para un equipo ágil, consulte [Decidir sobre una metodología ágil](../../../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md#deciding) en [Crear un equipo ágil](../../../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md).
+Para obtener más información sobre cómo habilitar y configurar Kanban para un equipo Agile, consulte [Decidir sobre una metodología Agile](../../../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md#deciding) en [Crear un equipo Agile](../../../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md).
 
 ## Incluir problemas en el registro de asuntos pendientes de Scrum para un equipo ágil {#include-issues-on-the-scrum-backlog-for-an-agile-team}
 
@@ -133,15 +133,15 @@ Para obtener más información sobre cómo habilitar y configurar Kanban para un
 >
 >Esta funcionalidad se eliminó del entorno de producción el 14 de noviembre de 2017. Está previsto que se vuelva a introducir en el entorno de vista previa a principios de 2018 con un diseño mejorado y una mayor estabilidad. Estará disponible en el entorno de producción con la versión 2018.1.
 
-Ahora puedes incluir problemas en el registro de asuntos pendientes de tu equipo ágil cuando usas la metodología ágil Scrum (los problemas no se muestran en el registro de asuntos pendientes de un equipo ágil cuando se usa la metodología Kanban). Los equipos de Scrum agile existentes deben habilitar esta funcionalidad para que se incluyan los problemas. Los problemas se incluyen automáticamente en el registro de pendientes para los equipos de Scrum Agile creados después de la versión 2017.3.
+Ahora puede incluir problemas en el registro de asuntos pendientes de su equipo de Agile al utilizar la metodología Scrum Agile (los problemas no se muestran en el registro de asuntos pendientes de un equipo de Agile al utilizar la metodología Kanban). Los equipos existentes de Scrum Agile deben habilitar esta funcionalidad para que se incluyan los problemas. Los problemas se incluyen automáticamente en el registro de pendientes para los equipos de Scrum Agile creados después de la versión 2017.3.
 
 Antes de este cambio, solo se podían agregar tareas al registro de pendientes. Si desea agregar un problema, primero tenía que convertirlo en una tarea antes de que se pudiera agregar.
 
 Dado que ahora tiene acceso a algo más que a las tareas del registro de asuntos pendientes, todas las vistas de tareas personalizadas que antes estaban disponibles en el registro de asuntos pendientes se copian y se agregan al registro de asuntos pendientes como vistas de elementos de trabajo pendientes personalizadas.
 
-Para obtener información sobre el uso de los problemas en el registro de pendientes, consulte [Administrar el registro de pendientes Agile](../../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md).
+Para obtener información sobre el uso de los problemas en el registro de pendientes, consulte  [Administrar el registro de pendientes de Agile](../../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md).
 
-Para obtener información sobre cómo habilitar la disponibilidad de problemas en el registro de pendientes de un equipo de Agile Scrum, consulte [Configurar cómo se aplican las fechas al añadir elementos de trabajo a una iteración](../../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur5) en [Configurar Scrum](../../../../agile/get-started-with-agile-in-workfront/configure-scrum.md).
+Para obtener información sobre cómo habilitar la disponibilidad de problemas en el registro de pendientes de un equipo de Agile Scrum, consulte  [Configure cómo se aplican las fechas al agregar elementos de trabajo a una iteración](../../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur5) en [Configurar Scrum](../../../../agile/get-started-with-agile-in-workfront/configure-scrum.md).
 
 ## Incluir problemas en el panel de historias de Scrum Agile {#include-issues-on-the-scrum-agile-story-board}
 
@@ -149,9 +149,9 @@ Para obtener información sobre cómo habilitar la disponibilidad de problemas e
 >
 >Esta funcionalidad se eliminó del entorno de producción el 14 de noviembre de 2017. Está previsto que se vuelva a introducir en el entorno de vista previa a principios de 2018 con un diseño mejorado y una mayor estabilidad. Estará disponible en el entorno de producción con la versión 2018.1.
 
-Ahora puede incluir problemas en el guion gráfico al utilizar la metodología Scrum agile.
+Ahora puede incluir problemas en el guion gráfico al utilizar la metodología Scrum Agile.
 
-Para obtener más información, consulte [Configurar columnas de estado en el panel de historias ágiles](../../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur2) en [Configurar Scrum](../../../../agile/get-started-with-agile-in-workfront/configure-scrum.md).
+Para obtener más información, consulte [Configurar columnas de estado en el panel de historias de Agile](../../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur2) en [Configurar Scrum](../../../../agile/get-started-with-agile-in-workfront/configure-scrum.md).
 
 ## Aplicar agrupaciones y filtros al registro de pendientes para un equipo ágil {#apply-groupings-and-filters-to-the-backlog-for-an-agile-team}
 
@@ -161,9 +161,9 @@ Para obtener más información, consulte [Configurar columnas de estado en el pa
 
 Las opciones de Agrupación y Filtro ahora están disponibles en el registro de asuntos pendientes de Agile, lo que le permite organizar el registro de asuntos pendientes por agrupaciones, así como filtrar por tareas y problemas específicos.
 
-Antes de este cambio, podía aplicar en las vistas al registro de pendientes de Agile.
+Antes de este cambio, podía aplicar en las vistas al registro de asuntos pendientes de Agile.
 
-Para obtener más información, consulte [Administrar el registro de pendientes Agile](../../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md) en [Administrar el registro de pendientes Agile](../../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md).
+Para obtener más información, consulte  [Administrar el registro de pendientes de Agile](../../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md) en  [Administrar el registro de pendientes de Agile](../../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md).
 
 ## Formato de texto enriquecido para actualizaciones y correos electrónicos {#rich-text-formatting-for-updates-and-emails}
 
@@ -267,12 +267,12 @@ Esta es la función predeterminada a la que se asignan los usuarios en una prueb
 
 ## Mejoras de revisión tanto en Workfront Proof como en Workfront {#proofing-enhancements-within-both-workfront-proof-and-workfront}
 
-* [Reiniciar y omitir en el visualizador de pruebas de vídeo de HTML5 (métodos abreviados del teclado)](#restart-and-skip-in-html5-video-proofing-viewer-keyboard-shortcuts)
+* [Reiniciar y omitir en el visualizador de revisiones de vídeo de HTML5 (métodos abreviados del teclado)](#restart-and-skip-in-html5-video-proofing-viewer-keyboard-shortcuts)
 * [Actualizaciones del visor de revisión de HTML5](#html5-proofing-viewer-updates)
 
-### Reiniciar y omitir en el visualizador de pruebas de vídeo de HTML5 (métodos abreviados del teclado) {#restart-and-skip-in-html5-video-proofing-viewer-keyboard-shortcuts}
+### Reiniciar y omitir en el visualizador de revisiones de vídeo de HTML5 (métodos abreviados del teclado) {#restart-and-skip-in-html5-video-proofing-viewer-keyboard-shortcuts}
 
-Ahora existen métodos abreviados de teclado en el visualizador de pruebas de HTML5 para vídeo que le permiten reiniciar el vídeo desde el principio y saltar al final del vídeo.
+Ahora existen métodos abreviados de teclado en el visualizador de revisiones de HTML5 para vídeo que le permiten reiniciar el vídeo desde el principio y saltar al final del vídeo.
 
 Para obtener más información sobre los métodos abreviados de teclado disponibles, consulte [Métodos abreviados de teclado en el visor de revisión de Workfront Proof](../../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/keyboard-shortcuts.md).
 
@@ -295,7 +295,7 @@ El visualizador de HTML incluye las siguientes funciones nuevas al revisar el co
    * Panorámica del contenido
 
 * Especifique valores personalizados en la herramienta Medición
-* Al anotar texto dentro de una prueba en el visor de pruebas en Workfront Proof, puedes incluir opciones para indicar que el texto debe estar en negrita, cursiva o subrayado.
+* Al anotar texto dentro de una revisión en el visor de revisiones en Workfront Proof, puedes incluir opciones para indicar que el texto debe estar en negrita, cursiva o subrayado.
 
 El visor de HTML5 todavía no admite todas las funciones disponibles actualmente en el visor de Flash existente. Las siguientes funciones no están disponibles actualmente, pero se incluirán en una versión futura:
 
@@ -309,7 +309,7 @@ El visor de HTML5 todavía no admite todas las funciones disponibles actualmente
 
 Para obtener más información sobre la revisión de pruebas estáticas en el visor de HTML5, consulte.
 
-Como administrador de Workfront en Workfront Proof, puede determinar si los usuarios de su organización tienen acceso al nuevo visor de pruebas de HTML5 para pruebas de vídeo.
+Como administrador de Workfront en Workfront Proof, puede determinar si los usuarios de su organización tienen acceso al nuevo visor de revisiones de HTML5 para revisiones de vídeo.
 
 ## Nuevo rediseño del gráfico Gantt {#new-gantt-chart-redesign}
 

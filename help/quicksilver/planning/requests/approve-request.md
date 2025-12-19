@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: aca9b313-3420-43f6-8f6c-dd74888bd120
-source-git-commit: 99e26d4249162e46da1a73301e68bdf30436a81d
+source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
 workflow-type: tm+mt
-source-wordcount: '1122'
+source-wordcount: '1103'
 ht-degree: 4%
 
 ---
@@ -37,7 +37,7 @@ Le recomendamos que también vea los siguientes artículos:
 
 ## Consideraciones sobre la aprobación de solicitudes
 
-* Las solicitudes enviadas se muestran en la pestaña Planificación de la sección Enviadas del área Solicitudes de Workfront con uno de los siguientes estados de solicitud:
+* Las solicitudes enviadas se muestran en el área Solicitudes de Workfront con uno de los siguientes estados de solicitud:
 
    * **Revisión pendiente**: Este estado se muestra cuando ninguno de los aprobadores ha abierto el objeto de solicitud.
    * **En revisión**: El estado de **Revisión pendiente** cambia a **En revisión** cuando al menos un aprobador abre el objeto de solicitud. El estado de la solicitud permanece **en revisión** hasta que todos los aprobadores hayan aprobado la solicitud.
@@ -118,7 +118,7 @@ Puede aprobar solicitudes para crear registros a partir de la propia solicitud, 
    La página de solicitud se abre en modo de solo lectura.
 
    ![Página de solicitud de solo lectura en el estado de revisión](assets/read-only-reqeust-page-in-review-status.png)
-1. Si está usando la nueva experiencia de solicitud en Workfront, haga clic en **Menú principal** ![Menú principal de puntos](assets/dots-menu.png) en la esquina superior derecha de la pantalla, o en el **Menú principal** ![Menú principal de líneas](assets/lines-menu.png) en la esquina superior izquierda, si está disponible, luego haga clic en **Solicitudes** y luego haga clic en la solicitud que desee aprobar con el estado de **Revisión pendiente** o **En revisión**.
+1. Si está usando la nueva experiencia de solicitud en Workfront, haga clic en **Menú principal** ![Menú principal de puntos](assets/dots-menu.png) en la esquina superior derecha de la pantalla, o en **Menú principal** ![Menú principal de líneas](assets/lines-menu.png) en la esquina superior izquierda, si está disponible, luego haga clic en **Solicitudes** y luego haga clic en la solicitud que desee aprobar con el estado **Revisión pendiente**.
 1. (Opcional) Haga clic en el icono **Aprobaciones** ![Icono de aprobaciones](assets/approvals-icon.png) en la esquina superior derecha de la solicitud para ver los aprobadores.
 1. Haga clic en **Revisar y aprobar**, y después elija una de las siguientes opciones:
 
@@ -132,7 +132,7 @@ Puede aprobar solicitudes para crear registros a partir de la propia solicitud, 
    * **Completada**: la solicitud está aprobada.
    * **Rechazada**: la solicitud es rechazada.
 
-   La solicitud permanece en la pestaña Planificación de la sección Enviados del área Solicitudes de Workfront.
+   La solicitud permanece en el área de solicitudes de Workfront.
 
 <div class="preview">
 
