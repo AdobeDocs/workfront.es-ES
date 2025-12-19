@@ -6,9 +6,9 @@ description: Se puede añadir a un panel de control de lienzo un informe de grá
 author: Courtney and Jenny
 feature: Reports and Dashboards
 exl-id: 4262cae8-602f-416d-94b9-409eb9d6241c
-source-git-commit: bb65fa45f6fce762920627ad0fb6fd1d832f23a3
+source-git-commit: 56af1b6c8e4ae7bb990288d9e6a4326ffd18c2c9
 workflow-type: tm+mt
-source-wordcount: '1713'
+source-wordcount: '1838'
 ht-degree: 7%
 
 ---
@@ -163,7 +163,7 @@ Hay muchas opciones de configuración disponibles para crear un informe de gráf
 
 Siga los pasos a continuación para configurar la sección **Filter**:
 
-1. En el panel izquierdo, haga clic en el icono **Filtro**![&#x200B; Icono de filtro](assets/filter-icon.png).
+1. En el panel izquierdo, haga clic en el icono **Filtro**![ Icono de filtro](assets/filter-icon.png).
 1. Seleccione **Editar filtro**.
 1. Haga clic en **Agregar condición** y, a continuación, especifique el campo por el que desea filtrar y el modificador que define qué tipo de condición debe cumplir el campo.
 1. (Opcional) Haga clic en **Agregar grupo de filtros** para agregar otro conjunto de criterios de filtrado. El operador predeterminado entre los conjuntos es Y. Haga clic en el operador para cambiarlo a OR.
@@ -283,6 +283,16 @@ En esta sección, veremos los pasos para crear un gráfico de columnas que muest
 1. Haga clic en **Guardar** para crear el informe y agregarlo al tablero.
 
 ## Consideraciones al crear un informe de gráfico
+
+### Informes con datos financieros
+
+Los usuarios con acceso de Vista o Edición en los datos financieros en su nivel de acceso seguirán viendo los datos financieros en las visualizaciones del Panel de lienzo, incluso si el permiso de Ver finanzas se elimina en el nivel de tarea o proyecto.
+
+* Los usuarios sin derechos de datos financieros en el nivel de acceso no verán los datos financieros en los informes.
+* Los usuarios que sí ven datos financieros se limitan a registros para los que ya tienen permiso de visualización (proyectos, tareas, problemas, etc.). No verán los valores financieros de los registros a los que no pueden acceder.
+* Los creadores de informes deben tener cuidado al incluir datos financieros en los paneles y tener en cuenta con quién comparten los paneles para evitar el acceso no deseado.
+
+Se trata de un límite conocido y tenemos previsto abordarlo lo antes posible.
 
 ### Uso del selector de campos
 

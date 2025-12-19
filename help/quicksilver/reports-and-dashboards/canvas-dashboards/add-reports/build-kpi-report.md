@@ -6,10 +6,10 @@ description: Se puede añadir a un panel de control de lienzo un informe de KPI 
 author: Courtney and Jenny
 feature: Reports and Dashboards
 exl-id: e1c68ac3-112e-4f9e-b644-f44bb0778b92
-source-git-commit: 1059950dd3b20e0959c626e580f958bed5076541
+source-git-commit: d7caaa0871263fb8ef4224a9c298778f3ee2454a
 workflow-type: tm+mt
-source-wordcount: '1135'
-ht-degree: 9%
+source-wordcount: '1260'
+ht-degree: 8%
 
 ---
 
@@ -18,8 +18,8 @@ ht-degree: 9%
 >[!IMPORTANT]
 >
 >Actualmente, la función Paneles de lienzo solo está disponible para los usuarios que participan en la fase beta. Es posible que algunas partes de la función no estén completas o que no funcionen según lo previsto durante esta fase. Envíe cualquier comentario sobre su experiencia siguiendo las instrucciones de la sección [Proporcionar comentarios](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) del artículo Información general sobre la versión beta de los paneles de lienzo.<br>
->&#x200B;>Si tiene comentarios acerca de un posible error o problema técnico, envíe un ticket al equipo de asistencia de Workfront. Para obtener más información, consulte [Póngase en contacto con Atención al cliente](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
->&#x200B;>Tenga en cuenta que esta versión beta no está disponible en los siguientes proveedores de la nube:
+>Si tiene comentarios acerca de un posible error o problema técnico, envíe un ticket al equipo de asistencia de Workfront. Para obtener más información, consulte [Póngase en contacto con Atención al cliente](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
+>Tenga en cuenta que esta versión beta no está disponible en los siguientes proveedores de la nube:
 >
 >* Traer su propia clave para Amazon Web Service
 >* Azure
@@ -40,7 +40,7 @@ Puede crear y agregar un informe de KPI a un panel de lienzo que represente visu
 </col> 
 <tbody> 
 <tr> 
-   <td role="rowheader"><p>paquete de Adobe Workfront</p></td> 
+   <td role="rowheader"><p>Paquete de Adobe Workfront</p></td> 
    <td> 
 <p>Cualquiera </p> 
    </td> 
@@ -186,6 +186,16 @@ Para obtener más información sobre ejemplos de informes KPI, consulte [Crear u
 1. Haz clic en **Guardar** en la esquina superior derecha de la pantalla.
 
 ## Consideraciones al crear un informe de KPI
+
+### Informes con datos financieros
+
+Los usuarios con acceso de Vista o Edición en los datos financieros en su nivel de acceso seguirán viendo los datos financieros en las visualizaciones del Panel de lienzo, incluso si el permiso de Ver finanzas se elimina en el nivel de tarea o proyecto.
+
+* Los usuarios sin derechos de datos financieros en el nivel de acceso no verán los datos financieros en los informes.
+* Los usuarios que sí ven datos financieros se limitan a registros para los que ya tienen permiso de visualización (proyectos, tareas, problemas, etc.). No verán los valores financieros de los registros a los que no pueden acceder.
+* Los creadores de informes deben tener cuidado al incluir datos financieros en los paneles y tener en cuenta con quién comparten los paneles para evitar el acceso no deseado.
+
+Se trata de un límite conocido y tenemos previsto abordarlo lo antes posible.
 
 ### Uso del selector de campos
 
