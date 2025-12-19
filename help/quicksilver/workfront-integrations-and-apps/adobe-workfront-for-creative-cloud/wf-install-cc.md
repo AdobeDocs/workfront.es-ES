@@ -6,10 +6,10 @@ description: Puede instalar [!DNL Adobe Workfront for design and video] desde Ad
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: f4fbae93-b54b-4d08-82c3-72a9a760c317
-source-git-commit: 58ee0356a68dae35a1c77847f92e9e6a3d706ce6
+source-git-commit: 281733f00654911e2c1114485fca018b6a0feec1
 workflow-type: tm+mt
-source-wordcount: '601'
-ht-degree: 74%
+source-wordcount: '585'
+ht-degree: 76%
 
 ---
 
@@ -159,7 +159,7 @@ Para solucionar este problema,
 
    >[!TIP]
    >
-   >En un Mac, vaya a Finder y presione **Comando+Mayús+.** para mostrar las carpetas ocultas, vaya a **/Users/username/Library/Application Support** y, a continuación, elimine la carpeta **Workfront**. Debe reemplazar `username` con su nombre de usuario de Mac.
+   >En un Mac, vaya a Finder, presione **Comando+Mayús+G** y navegue hasta  `~/Library/Application Support/Workfront` y luego elimine la carpeta **Workfront**.
 
 
 1. Vuelva al complemento e introduzca su dominio de Workfront. El dominio debe ser `company-name.my.workfront.com` y no `experience.adobe.com`.

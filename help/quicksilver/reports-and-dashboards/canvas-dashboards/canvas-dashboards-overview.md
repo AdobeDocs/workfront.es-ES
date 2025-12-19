@@ -7,9 +7,9 @@ author: Courtney and Jenny
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: d82bb8a2-a2a6-43d6-a62e-e90f69229533
-source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
+source-git-commit: 96be3dbf57e87da19cef79426b1c8cd2290f60df
 workflow-type: tm+mt
-source-wordcount: '522'
+source-wordcount: '528'
 ht-degree: 16%
 
 ---
@@ -40,6 +40,10 @@ Con los paneles de lienzo, puede informar sobre las funciones de Workfront reci�
 * El administrador de Workfront debe otorgarle acceso de edición a los paneles de su nivel de acceso para crear o editar un panel de lienzo. Para obtener información acerca de cómo conceder acceso de edición, vea [Conceder acceso a informes, paneles y calendarios](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md).
 
 ## Artículos de panel de lienzo
+
+* Usar paneles de lienzo
+
+   * [Usar paneles de lienzo](/help/quicksilver/reports-and-dashboards/canvas-dashboards/use-canvas-dashboards.md)
 
 * Paneles de lienzo beta
 
