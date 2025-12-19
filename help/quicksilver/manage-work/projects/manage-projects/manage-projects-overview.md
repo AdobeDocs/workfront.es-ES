@@ -8,10 +8,10 @@ author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: a63ec4e0-ba39-42c1-8061-c29350ef4bbb
-source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
+source-git-commit: 66dd7354f3723e266b77cb2f367b09c022e8c95e
 workflow-type: tm+mt
-source-wordcount: '130'
-ht-degree: 90%
+source-wordcount: '131'
+ht-degree: 84%
 
 ---
 
@@ -26,7 +26,7 @@ Esta sección contiene los siguientes artículos:
 * [Recuperar un proyecto eliminado](../../../manage-work/projects/manage-projects/recover-project.md)
 * [Exportar un proyecto a un proyecto de Microsoft](../../../manage-work/projects/manage-projects/export-project-to-ms-project.md)
 * [Asignar campos de proyecto de Microsoft a proyectos de Adobe Workfront](../../../manage-work/projects/manage-projects/map-ms-project-fields-to-workfront.md)
-* [Recalcular las líneas de tiempo del proyecto](../../../manage-work/projects/manage-projects/recalculate-project-timeline.md)
+* [Recalcular las cronologías del proyecto](../../../manage-work/projects/manage-projects/recalculate-project-timeline.md)
 * [Cambiar el estado de un proyecto](../../../manage-work/projects/manage-projects/change-project-status.md)
 * [Seleccionar el tipo de actualización del proyecto](../../../manage-work/projects/manage-projects/select-project-update-type.md)
 * [Requerir tiempo de aprobación de este proyecto](../../../manage-work/projects/manage-projects/require-time-approval-for-projects.md)
@@ -36,7 +36,7 @@ Esta sección contiene los siguientes artículos:
 * [Quitar usuarios del proyecto](../../../manage-work/projects/manage-projects/remove-users-from-projects.md)
 * [Programar recursos para un proyecto](../../../manage-work/projects/manage-projects/schedule-resources-for-projects.md)
 * [Comunicarse con los miembros del equipo del proyecto](../../../manage-work/projects/manage-projects/communicate-with-project-team-members.md)
-* [Administrar un proyecto en la vista de Agile](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md)
+* [Administrar un proyecto Agile en la vista del tablero](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md)
 * [Información general de los límites del proyecto](../../../manage-work/projects/manage-projects/project-maximums.md)
 * [Comprender las métricas del proyecto](../../../manage-work/projects/manage-projects/project-metrics.md)
 * [Resumir actualizaciones con el asistente de IA](/help/quicksilver/manage-work/projects/manage-projects/summarize-projects-ai-assistant.md)

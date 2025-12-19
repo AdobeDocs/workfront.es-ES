@@ -6,10 +6,10 @@ description: Puede personalizar el tipo de información que se muestra en la pan
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 8fcd6320-c939-4195-8972-5c31575f78cb
-source-git-commit: 0c0ffbeefb0eed8d1ca2a6e68ed19b40080726df
+source-git-commit: 66dd7354f3723e266b77cb2f367b09c022e8c95e
 workflow-type: tm+mt
-source-wordcount: '898'
-ht-degree: 63%
+source-wordcount: '893'
+ht-degree: 61%
 
 ---
 
@@ -60,10 +60,7 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
 
 ## Creación o personalización de una vista
 
-El proceso de creación o personalización de una vista varía en función de si se está creando o personalizando una vista estándar o una vista Agile o de Tablero.
-
-* [Crear o personalizar una vista estándar](#create-or-customize-a-standard-view)
-* [Crear o personalizar una vista de Agile](#create-or-customize-an-agile-view)
+El proceso de creación o personalización de una vista varía en función de si se está creando o personalizando una vista estándar o una vista de tablero.
 
 ### Creación o personalización de una vista estándar {#create-or-customize-a-standard-view}
 
@@ -161,13 +158,15 @@ Se muestra el cuadro de diálogo **Personalizar vista**.
 
    Su acceso dicta cómo se guarda la vista. Si ha creado la vista originalmente, puede guardar los cambios; de lo contrario, se le pedirá que guarde una versión. Tenga en cuenta que los cambios que realice en la vista afectan a los usuarios con los que se ha compartido la vista.
 
-### Crear o personalizar una vista de Agile {#create-or-customize-an-agile-view}
+### Creación o personalización de una vista de tablero {#create-or-customize-an-agile-view}
 
-Las vistas de Agile, también denominadas vistas de Tablero, solo se muestran para listas de tareas y problemas de un proyecto.
+Puede administrar proyectos siguiendo una metodología Agile mediante una vista de tablero.
+
+Las vistas de tablero solo están disponibles para listas de tareas y problemas de un proyecto.
 
 Están preconfigurados, pero puede modificar algunos de sus ajustes.
 
-Para obtener más información acerca de las vistas de Agile o Tablero, vea el artículo [Administrar un proyecto en la vista de Agile](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md).
+Para obtener más información acerca de las vistas de Agile o Tablero, vea el artículo [Administrar un proyecto Agile en la vista Tablero](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md).
 
 <!-- Legacy Agile views were deprecated with 25.3. This is old: 
 

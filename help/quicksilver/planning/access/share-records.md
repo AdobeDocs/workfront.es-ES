@@ -7,9 +7,9 @@ author: Alina
 recommendations: noDisplay, noCatalog
 hidefromtoc: true
 hide: true
-source-git-commit: ba5089fd02ca099d25ce0d3c2c2c039c2c6e2fe2
+source-git-commit: 66dd7354f3723e266b77cb2f367b09c022e8c95e
 workflow-type: tm+mt
-source-wordcount: '1772'
+source-wordcount: '1838'
 ht-degree: 5%
 
 ---
@@ -117,6 +117,9 @@ Para obtener más información acerca de los requisitos de acceso de Workfront, 
 <!--checking on the below with Lilit-->
 
 * Puede compartir registros con las siguientes entidades: personas, grupos, equipos, empresas o roles.
+* Cuando comparte un registro, los usuarios tienen el mismo acceso en todas partes donde aparezca ese registro en el sistema.
+* Si restringe los permisos a un registro, los usuarios ya no podrán ver ese registro y los valores de sus campos de búsqueda en ningún lugar del sistema donde se agregue ese registro.
+* Workfront comprueba los permisos de registro en conexiones de hasta 5 registros de profundidad, lo que garantiza que los usuarios solo vean los registros compartidos con ellos.
 * Puede conceder los siguientes niveles de permisos a un registro:
 
    * Ver

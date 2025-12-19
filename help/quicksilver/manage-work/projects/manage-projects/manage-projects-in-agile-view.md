@@ -1,23 +1,23 @@
 ---
 product-area: projects;agile-and-teams
 navigation-topic: manage-projects
-title: Administrar un proyecto en la vista de Agile
-description: Puede aprovechar la funcionalidad Agile para su proyecto sin los desafíos administrativos que normalmente acompañan a las prácticas Agile (como administrar un registro de asuntos pendientes del equipo o crear iteraciones).
+title: Administrar un proyecto de Agile en la vista de tablero
+description: Puede aprovechar la funcionalidad de Agile para su proyecto sin los desafíos administrativos que suelen acompañar a las prácticas de Agile (como administrar un registro de asuntos pendientes del equipo o crear iteraciones).
 author: Alina, Courtney
 feature: Work Management
 exl-id: fc633fd6-35b4-4949-8045-22c775002436
-source-git-commit: 4897f165a7316a52b968601b45f95f7045f63840
+source-git-commit: 66dd7354f3723e266b77cb2f367b09c022e8c95e
 workflow-type: tm+mt
-source-wordcount: '311'
-ht-degree: 18%
+source-wordcount: '314'
+ht-degree: 19%
 
 ---
 
-# Administrar un proyecto en la vista de Agile
+# Administración de un proyecto de Agile en la vista de tablero
 
 <!-- Audited: 11/2025 -->
 
-Puede aprovechar la funcionalidad Agile para su proyecto sin los desafíos administrativos que normalmente acompañan a las prácticas Agile (como administrar un registro de asuntos pendientes del equipo o crear iteraciones).
+Puede aprovechar la funcionalidad de Agile para su proyecto sin los desafíos administrativos que suelen acompañar a las prácticas de Agile (como administrar un registro de asuntos pendientes del equipo o crear iteraciones).
 
 Puede trabajar en un entorno Agile que utilice un registro de asuntos pendientes del equipo y le permita crear iteraciones a partir de las tareas del registro de asuntos pendientes.
 
@@ -34,7 +34,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
@@ -95,11 +95,11 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
 </table>-->
 
 
-## Ver un proyecto en la vista de Agile
+## Ver un proyecto en la vista de tablero
 
-Puede ver las tareas o los problemas de un proyecto en una vista Agile en lugar de en una lista, para aprovechar la funcionalidad Agile y desarrollar proyectos.
+Puede ver las tareas o los problemas de un proyecto en una vista de tablero en lugar de en una lista, para aprovechar la funcionalidad de Agile para el desarrollo de proyectos.
 
-1. Vaya al proyecto que desee ver en una vista Agile y, a continuación, haga clic en **Tareas** o en **Problemas** en el panel izquierdo.
+1. Vaya al proyecto que desee administrar según la metodología Agile y, a continuación, haga clic en **Tareas** o en **Problemas** en el panel izquierdo.
 1. Haga clic en el icono **Vista de tablero** ![Icono de tablero](assets/board-icon-for-agile-view.png).
 
    La vista de tablero del proyecto se muestra de forma predeterminada.

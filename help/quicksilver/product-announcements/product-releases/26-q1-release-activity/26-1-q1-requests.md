@@ -4,9 +4,9 @@ description: Mejoras en las solicitudes del primer trimestre de 2026
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: ac1857f4cf4c6b3823773902ae8be439e2dcd55a
+source-git-commit: 66dd7354f3723e266b77cb2f367b09c022e8c95e
 workflow-type: tm+mt
-source-wordcount: '913'
+source-wordcount: '918'
 ht-degree: 4%
 
 ---
@@ -140,7 +140,7 @@ Para obtener más información sobre los borradores de solicitudes, consulte [Cr
 
 Para facilitar la organización y el desorden de sus solicitudes, hemos añadido la capacidad de eliminar solicitudes a la nueva experiencia de solicitud. Ahora puede eliminar las solicitudes que haya enviado. Los administradores de Workfront y de Workfront Planning Workspace también pueden eliminar solicitudes.
 
-Anteriormente, la eliminación de solicitudes no estaba disponible.
+Anteriormente, esta función no estaba disponible en la nueva experiencia de solicitud.
 
 Para obtener información e instrucciones, consulte [Eliminar una solicitud enviada o un borrador de solicitud](/help/quicksilver/manage-work/requests/create-requests/delete-request-draft.md).
 

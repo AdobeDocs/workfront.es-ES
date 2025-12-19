@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
-source-git-commit: 99e26d4249162e46da1a73301e68bdf30436a81d
+source-git-commit: 66dd7354f3723e266b77cb2f367b09c022e8c95e
 workflow-type: tm+mt
-source-wordcount: '1871'
+source-wordcount: '1869'
 ht-degree: 5%
 
 ---
@@ -82,7 +82,7 @@ Para poder enviar una solicitud a un formulario de solicitud de Workfront Planni
 * Debe existir lo siguiente en Workfront Planning:
 
    * Un espacio de trabajo
-   * Un tipo de registro.
+   * Un tipo de registro
    * Un formulario de solicitud asociado a un tipo de registro.
 
      Para obtener más información, consulte [Crear un formulario de solicitud en Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
@@ -162,7 +162,7 @@ Si habilita esta configuración, los formularios de solicitud de Workfront Plann
 1. (Opcional) Haga clic en **Ver su solicitud** en el mensaje de confirmación, para abrir la solicitud, o haga clic en el icono **X** para cerrar la confirmación.
 1. (Opcional) Realice una de las siguientes acciones:
 
-   * Haga clic en **Filtros** y empiece a agregar condiciones para las solicitudes que desee ver en la pestaña Planificación.
+   * Haga clic en **Filtros** y empiece a agregar condiciones para las solicitudes que desee ver en la lista de solicitudes.
 
      ![Edición de filtros en la ficha de solicitudes de Planning](assets/filters-editing-box-in-requests-planning-tab.png)
 
@@ -251,16 +251,14 @@ La lista de solicitudes se filtra automáticamente a medida que se añaden las c
 
    <!--Click [Submit another request](https://pulsar.devtest.workfront-dev.com/intake/6740a1ff44bf3a5600cf4481/request) to open the request form and add a new request.-->
 
-1. (Opcional) Haga clic en **Menú principal** > **Solicitudes** > la pestaña **Planificación** para ver su solicitud y, a continuación, haga clic en el nombre de la solicitud.
+1. (Opcional) Haga clic en **Menú principal** > **Solicitudes** para ver su solicitud y, a continuación, haga clic en el nombre de la solicitud.
 
    Se abre la página de detalles de la solicitud.
 
    ![Solicitar página con comentario](assets/new-request-page-with-comment.png)
 
-
-
 1. (Opcional) Introduzca un comentario en el área Comentarios.
-1. (Condicional) Si el formulario de solicitud no está asociado a una aprobación, o si la solicitud se ha aprobado, haga clic en el nombre de la solicitud y, a continuación, haga clic en el nombre del registro en el campo **Registro**.
+1. (Condicional) Si el formulario de solicitud no está asociado a una aprobación, o si la solicitud se ha aprobado, haga clic en el nombre de la solicitud y, a continuación, haga clic en el nombre del registro en el campo **Objeto creado**.
 
    La página del registro se abre en Workfront Planning.
 
@@ -270,7 +268,7 @@ La lista de solicitudes se filtra automáticamente a medida que se añaden las c
    >
    >* Si el formulario de solicitud está asociado a una aprobación, esta debe concederse antes de que pueda acceder al registro desde la página de solicitud.
 
-1. (Opcional) Haga clic en el nombre de **Tipo de registro**.
+1. (Opcional) Haga clic en el nombre de **Tipo de objeto**.
 
    La página de tipo de registro se abre en Workfront Planning.
 

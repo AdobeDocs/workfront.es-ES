@@ -7,10 +7,10 @@ description: Puede personalizar el tipo de información que se muestra en una li
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 18016417-e24d-4797-9422-00915db47bb9
-source-git-commit: 0c0ffbeefb0eed8d1ca2a6e68ed19b40080726df
+source-git-commit: 66dd7354f3723e266b77cb2f367b09c022e8c95e
 workflow-type: tm+mt
-source-wordcount: '584'
-ht-degree: 70%
+source-wordcount: '591'
+ht-degree: 69%
 
 ---
 
@@ -42,8 +42,8 @@ Los siguientes son tipos de vistas que se pueden aplicar en listas o informes en
         <td>Pueden aplicarse a cualquier lista o informe de objetos. Las vistas estándar son altamente personalizables. Puede personalizar y compartir una vista estándar con otros usuarios. Para obtener más información, consulte <a href="/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md">Creación o edición de vistas en Adobe Workfront</a>.</td>
     </tr>
     <tr>
-        <td><strong>Vista de Agile</strong></td>
-        <td>Puede aplicar la vista Tablero o Agile a una lista de tareas de la sección Tareas de un proyecto o a una lista de problemas de la sección Problemas del proyecto. Para obtener más información, vea <a href="/help/quicksilver/manage-work/projects/manage-projects/manage-projects-in-agile-view.md">Administrar un proyecto en la vista de Agile</a>.</td>
+        <td><strong>Vista del tablero</strong></td>
+        <td>Puede aplicar la vista del tablero a una lista de tareas de la sección Tareas de un proyecto o a una lista de problemas de la sección Problemas del proyecto para administrar los proyectos mediante una metodología Agile. Para obtener más información, consulte <a href="/help/quicksilver/manage-work/projects/manage-projects/manage-projects-in-agile-view.md">Administrar un proyecto Agile en la vista del tablero</a>.</td>
     </tr>
     <tr>
         <td><strong>Vista Gantt</strong></td>
@@ -66,7 +66,7 @@ Puede compartir los elementos de una vista estándar.
 
 Para obtener información acerca de cómo compartir una vista estándar, vea [Compartir un filtro, una vista o una agrupación](../../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
 
-No puede compartir las vistas Gantt y Agile. Todas las personas con acceso a las áreas en las que se muestran estas vistas pueden ver la misma información.
+No puede compartir las vistas Gantt y de tablero. Todas las personas con acceso a las áreas en las que se muestran estas vistas pueden ver la misma información.
 
 <!-- add something about the enhanced views here, when we have a link-->
 
@@ -74,7 +74,7 @@ No puede compartir las vistas Gantt y Agile. Todas las personas con acceso a las
 
 La posibilidad de quitar una vista funciona de forma distinta en función de si la creó inicialmente o de si la vista se compartió con usted. No se puede quitar una vista predeterminada.
 
-No puede quitar las vistas Gantt o Agile.
+No se pueden quitar las vistas de Gantt o de tablero.
 
 Para obtener más información acerca de cómo quitar una vista estándar, vea [Quitar filtros, vistas y agrupaciones](../../../reports-and-dashboards/reports/reporting-elements/remove-filters-views-groupings.md).
 
