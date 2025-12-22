@@ -89,7 +89,7 @@ Si se asigna un estado a una tarjeta de un tablero, el estado se muestra ahora e
 
 Para obtener más información, consulte [Usar tarjetas conectadas en los tableros](/help/quicksilver/agile/get-started-with-boards/connected-cards.md) y [Administrar elementos de listas de comprobación en tarjetas](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md).
 
-Estado de ![ en la tarjeta](/help/quicksilver/product-announcements/product-releases/assets/boards-connected-card-details-110922.png)
+Estado de ![&#x200B; en la tarjeta](/help/quicksilver/product-announcements/product-releases/assets/boards-connected-card-details-110922.png)
 
 ## Tarjetas enlazables ahora disponibles en tableros
 
