@@ -8,7 +8,7 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 0897b269-c6f3-4b63-8956-b7f9fbe0a553
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '4718'
 ht-degree: 77%
@@ -252,7 +252,7 @@ For specific release dates and times for each cluster, see the [Adobe Workfront 
    <td><strong>Disponible en estas fechas:</strong> <p>Versión de vista previa: 9 de septiembre de 2021<br></p> <p>Versión de producción: con la versión 21.4</p> <p><strong>Disponible en estos entornos:</strong> </p> <p>La nueva experiencia de Adobe Workfront </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/21.4-release-activity/21-4-agile-enhancements.md#changes" class="MCXref xref" xrefformat="{para}">Cambios en la vista Agile en los proyectos</a> </p> <p>Como parte de la versión 21.3, hemos realizado mejoras en el encabezado de la tarjeta Agile y en los paneles de artículos (consulte <a href="../../../product-announcements/product-releases/21.3-release-activity/21-3-project-enhancements.md#agile" class="MCXref xref" xrefformat="{para}">Actualizaciones del encabezado y del panel de artículos de la tarjeta Agile</a>). Estas actualizaciones se aplicaron a iteraciones, así como a la vista Agile en proyectos.</p> <p>Con la versión 21.4, revertimos estas mejoras para la vista Agile en proyectos. No se están realizando cambios en las iteraciones Agile.</p> <p>A continuación se indican los cambios que se están revirtiendo con respecto a la vista Agile en los proyectos:</p> 
+   <td> <p><a href="../../../product-announcements/product-releases/21.4-release-activity/21-4-agile-enhancements.md#changes" class="MCXref xref" xrefformat="{para}">Cambios en la vista de Agile en los proyectos</a> </p> <p>Como parte de la versión 21.3, hemos realizado mejoras en el encabezado de la tarjeta Agile y en los paneles de artículos (consulte <a href="../../../product-announcements/product-releases/21.3-release-activity/21-3-project-enhancements.md#agile" class="MCXref xref" xrefformat="{para}">Actualizaciones del encabezado y del panel de artículos de la tarjeta Agile</a>). Estas actualizaciones se aplicaron a iteraciones, así como a la vista Agile en proyectos.</p> <p>Con la versión 21.4, vamos a revertir estas mejoras para la vista Agile en proyectos. No se están realizando cambios en las iteraciones de Agile.</p> <p>A continuación se indican los cambios que se están revirtiendo con respecto a la vista de Agile en los proyectos:</p> 
     <ul> 
      <li> <p>Las tarjetas de historia y las columnas del tablero tienen anchuras ajustables.</p> </li> 
      <li> <p>Las columnas no tienen sombreado de fondo.</p> </li> 

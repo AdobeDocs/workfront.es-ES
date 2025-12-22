@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 75018e0e-ff74-4afb-9a99-34bbb39b6e14
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '1321'
-ht-degree: 97%
+ht-degree: 92%
 
 ---
 
@@ -25,7 +25,7 @@ Si hay grupos por encima del suyo, sus administradores también pueden hacer est
 
 >[!NOTE]
 >
->Los estados de grupos personalizados no se pueden mostrar en un proyecto cuando se visualiza el proyecto en una vista de Agile. Solo los estados de bloqueados predeterminados y personalizados están visibles al ver un proyecto en una vista de Agile. Para obtener información acerca de cómo personalizar una vista de Agile para un proyecto, consulte la sección [Crear o personalizar una vista de Agile](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md#create-or-customize-an-agile-view) en el artículo [Crear o editar vistas en Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md).
+>Los estados de grupo personalizados no se pueden mostrar en un proyecto cuando se visualiza el proyecto en una vista de Agile. Solo están visibles los estados de bloqueo predeterminados y personalizados al ver un proyecto en una vista de Agile. Para obtener información acerca de cómo personalizar una vista Agile para un proyecto, vea la sección [Crear o personalizar una vista Agile](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md#create-or-customize-an-agile-view) en el artículo [Crear o editar vistas en Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md).
 
 Para obtener información general sobre los estados, consulte [Información general sobre los estados](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/statuses-overview.md).
 
@@ -38,7 +38,7 @@ Para obtener información general sobre los estados, consulte [Información gene
  <col> 
  <tbody> 
   <tr> 
-   <td>paquete de Adobe Workfront</td> 
+   <td>Paquete de Adobe Workfront</td> 
    <td><p>Cualquiera</p></td> 
   </tr> 
   <tr> 

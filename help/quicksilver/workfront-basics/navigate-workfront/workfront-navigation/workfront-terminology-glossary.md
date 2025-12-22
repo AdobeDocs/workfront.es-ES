@@ -6,7 +6,7 @@ description: El [!DNL Adobe Workfront] glosario enumera términos de uso común 
 author: Alina
 feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
-source-git-commit: f88b6ec019963ff6256e35b9c94eb4d1b7e99730
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '21526'
 ht-degree: 94%
@@ -252,11 +252,11 @@ La siguiente tabla es una lista de los términos más utilizados en Adobe Workfr
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL Backlog]</td> 
-   <td>El área en un entorno ágil donde se guardan las nuevas cuestiones hasta que están listas para trabajar en ellas.</td> 
+   <td>El área de un entorno Agile donde se guardan los nuevos problemas hasta que estén listos para trabajar.</td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL Baseline]</td> 
-   <td>Una fuente de datos para medir las iteraciones en un entorno ágil.</td> 
+   <td>Una fuente de datos para medir iteraciones en un entorno Agile.</td> 
   </tr>
 
 <tr data-mc-conditions=""> 
@@ -311,7 +311,7 @@ La siguiente tabla es una lista de los términos más utilizados en Adobe Workfr
    <td> <p>En Workfront Planning, puede mostrar los registros conectados en la vista de escala de tiempo de un registro mediante la función Desglose. </p>
    <p>El desglose de registros por sus conexiones le permite ver las escalas de tiempo de otros registros conectados y comprender cómo pueden afectar al rendimiento y a los plazos de los registros. </p>
    <p>Los registros conectados se muestran anidados en su registro respectivo. </p>
-   <p>Para obtener más información, consulte <a href="/help/quicksilver/planning/views/manage-the-timeline-view.md">Administrar la vista de línea de tiempo</a>. </p>
+   <p>Para obtener más información, consulte <a href="/help/quicksilver/planning/views/manage-the-timeline-view.md">Administrar la vista de cronología</a>. </p>
    </td> 
     </tr>
 
@@ -365,7 +365,7 @@ La siguiente tabla es una lista de los términos más utilizados en Adobe Workfr
        </tr> 
        <tr> 
         <td>[!UICONTROL Bud. Hours]</td> 
-        <td> <p>Informe de [!UICONTROL Budgeted Hour]</p><p>El objeto [!UICONTROL Budgeted Hour] del informe de Hora presupuestada hace referencia a información relacionada con una herramienta de administración de recursos obsoleta. Solo el campo "[!UICONTROL . Hours]" en este informe hace referencia a las horas presupuestadas en el área de [!UICONTROL Resource Planner] o [!UICONTROL Resource Budgeting] del [!UICONTROL Business Case] del proyecto. </p> <p>Para obtener más información acerca de cómo crear un informe, consulte el artículo <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md" class="MCXref xref">Crear un informe personalizado</a>.</p> </td> 
+        <td> <p>Informe de [!UICONTROL Budgeted Hour]</p><p>El objeto [!UICONTROL Budgeted Hour] del informe de Hora presupuestada hace referencia a información relacionada con una herramienta de administración de recursos obsoleta. Solo el campo "[!UICONTROL. Hours]" en este informe hace referencia a las horas presupuestadas en el área de [!UICONTROL Resource Planner] o [!UICONTROL Resource Budgeting] del [!UICONTROL Business Case] del proyecto. </p> <p>Para obtener más información acerca de cómo crear un informe, consulte el artículo <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md" class="MCXref xref">Crear un informe personalizado</a>.</p> </td> 
        </tr> 
        <tr> 
         <td>[!UICONTROL Resource Planner Budgeted Hours] </td> 
@@ -1048,7 +1048,7 @@ The designated full time equivalency for users. A full-time user should have 100
  <tbody> 
   <tr> 
    <td>[!UICONTROL Gantt Chart]</td> 
-   <td> <p>Una línea de tiempo visual de las fechas del proyecto en una vista de calendario basada en las fechas planificadas o proyectadas a medida que las tareas del proyecto están programadas actualmente.</p> </td> 
+   <td> <p>Una cronología visual de las fechas del proyecto en una vista de calendario basada en las fechas planificadas o proyectadas a medida que las tareas del proyecto están programadas actualmente.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL Goal]</td> 
@@ -1365,7 +1365,7 @@ Las entradas de horas pueden tener uno de los siguientes estados en Workfront:
  <tbody> 
   <tr> 
    <td>[!UICONTROL Manual Only]</td> 
-   <td> <p>Uno de los [!UICONTROL Update Types] de [!UICONTROL Project]. Esta configuración permite actualizar las líneas de tiempo de [!UICONTROL Project Projected] y [!UICONTROL Planned] solo cuando se hace clic en “[!UICONTROL Recalculated Timelines]”. Los proyectos configurados de esta manera se omitirán durante el proceso de cálculo nocturno y cuando se actualicen el proyecto o las tareas del proyecto.</p> <p>Para obtener más información, consulte <a href="../../../manage-work/projects/manage-projects/select-project-update-type.md" class="MCXref xref">Seleccionar el [!UICONTROL Update Type] del proyecto </a>.</p> </td> 
+   <td> <p>Uno de los [!UICONTROL Update Types] de [!UICONTROL Project]. Esta configuración permite actualizar las cronologías de [!UICONTROL Project Projected] y [!UICONTROL Planned] solo cuando se hace clic en “[!UICONTROL Recalculated Timelines]”. Los proyectos configurados de esta manera se omitirán durante el proceso de cálculo nocturno y cuando se actualicen el proyecto o las tareas del proyecto.</p> <p>Para obtener más información, consulte <a href="../../../manage-work/projects/manage-projects/select-project-update-type.md" class="MCXref xref">Seleccionar el [!UICONTROL Update Type] del proyecto </a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Me]</td> 
@@ -1659,7 +1659,7 @@ Las entradas de horas pueden tener uno de los siguientes estados en Workfront:
   </tr> 
   <tr> 
    <td>[!UICONTROL Planned Duration]</td> 
-   <td> <p>La [!UICONTROL Planned Duration] de una tarea suele ser la misma que la [!UICONTROL Duration] de la tarea. Representa la diferencia en días entre el [!UICONTROL Planned Start] y las [!UICONTROL Planned Completion Dates] de la tarea. </p> <p>Cuando la tarea tiene un tipo de [!UICONTROL Duration] de [!UICONTROL Effort Driven], la [!UICONTROL Planned Duration] puede diferir de la [!UICONTROL Duration] de la tarea, en función de cuántos recursos le asigne. </p> <p>Por ejemplo, si una tarea con un tipo de [!UICONTROL Duration] de [!UICONTROL Effort Driven] tiene una [!UICONTROL Duration] de 3 días y asigna un recurso con una programación a tiempo completo sobre la tarea, la [!UICONTROL Planned Duration] también será de 3 días. Si asigna tres recursos con una programación a tiempo completo sobre la misma tarea, la [!UICONTROL Duration] sigue siendo de 3 días, pero la [!UICONTROL Planned Duration] pasa a ser de 1 día. La [!UICONTROL Planned Duration] también cambia las fechas de [!UICONTROL Planned Start] y [!UICONTROL Planned Completion] de la tarea para reflejar la nueva [!UICONTROL Planned Duration].  Como resultado, la línea de tiempo del proyecto también se ve afectada. </p> <p>Para obtener más información acerca de la diferencia entre [!UICONTROL Duration] y [!UICONTROL Planned Duration] para tareas, consulte el artículo <a href="../../../manage-work/tasks/task-information/planned-duration-vs-duration-for-tasks.md" class="MCXref xref">Diferencia entre [!UICONTROL Planned Duration] y [!UICONTROL Duration] para tareas</a>.</p> <p>Los proyectos y problemas no tienen una [!UICONTROL Planned Duration]. </p> </td> 
+   <td> <p>La [!UICONTROL Planned Duration] de una tarea suele ser la misma que la [!UICONTROL Duration] de la tarea. Representa la diferencia en días entre el [!UICONTROL Planned Start] y las [!UICONTROL Planned Completion Dates] de la tarea. </p> <p>Cuando la tarea tiene un tipo de [!UICONTROL Duration] de [!UICONTROL Effort Driven], la [!UICONTROL Planned Duration] puede diferir de la [!UICONTROL Duration] de la tarea, en función de cuántos recursos le asigne. </p> <p>Por ejemplo, si una tarea con un tipo de [!UICONTROL Duration] de [!UICONTROL Effort Driven] tiene una [!UICONTROL Duration] de 3 días y asigna un recurso con una programación a tiempo completo sobre la tarea, la [!UICONTROL Planned Duration] también será de 3 días. Si asigna tres recursos con una programación a tiempo completo sobre la misma tarea, la [!UICONTROL Duration] sigue siendo de 3 días, pero la [!UICONTROL Planned Duration] pasa a ser de 1 día. La [!UICONTROL Planned Duration] también cambia las fechas de [!UICONTROL Planned Start] y [!UICONTROL Planned Completion] de la tarea para reflejar la nueva [!UICONTROL Planned Duration].  Como resultado, la cronología del proyecto también se ve afectada. </p> <p>Para obtener más información acerca de la diferencia entre [!UICONTROL Duration] y [!UICONTROL Planned Duration] para tareas, consulte el artículo <a href="../../../manage-work/tasks/task-information/planned-duration-vs-duration-for-tasks.md" class="MCXref xref">Diferencia entre [!UICONTROL Planned Duration] y [!UICONTROL Duration] para tareas</a>.</p> <p>Los proyectos y problemas no tienen una [!UICONTROL Planned Duration]. </p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Planned Duration Minutes]</td> 
@@ -1823,7 +1823,7 @@ Las entradas de horas pueden tener uno de los siguientes estados en Workfront:
   </tr> 
   <tr> 
    <td>[!UICONTROL Project Owner]</td> 
-   <td>Usuario responsable de administrar el ámbito, la línea de tiempo y las asignaciones de un proyecto. Aprobador predeterminado para cambiar pedidos, cambios financieros y entregas.</td> 
+   <td>Usuario responsable de administrar el ámbito, la cronología y las asignaciones de un proyecto. Aprobador predeterminado para cambiar pedidos, cambios financieros y entregas.</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Project Planning]</td> 
@@ -2106,7 +2106,7 @@ Las entradas de horas pueden tener uno de los siguientes estados en Workfront:
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Optimized"> 
    <td>[!UICONTROL Scenario] (en [!DNL Workfront Fusion]) </td> 
-   <td> <p>Un escenario consiste en una serie de pasos (módulos) que indican cómo se deben transferir y transformar los datos entre aplicaciones y servicios.</p> <p>Para obtener información acerca de los escenarios de [!DNL Workfront Fusion], consulte Información general sobre escenarios de <a href="https://experienceleague.adobe.com/es/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/scenario-overview">[!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>Un escenario consiste en una serie de pasos (módulos) que indican cómo se deben transferir y transformar los datos entre aplicaciones y servicios.</p> <p>Para obtener información acerca de los escenarios de [!DNL Workfront Fusion], consulte Información general sobre escenarios de <a href="https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/scenario-overview">[!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Scenario] (en el [!DNL Workfront Scenario Planner]) </td> 
@@ -2271,7 +2271,7 @@ Las entradas de horas pueden tener uno de los siguientes estados en Workfront:
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Optimized"> 
    <td>[!UICONTROL Storyboard]</td> 
-   <td>Un gráfico que representa el estado de las historias (tareas en la metodología ágil) y cómo progresan hacia su finalización.</td> 
+   <td>Gráfico que representa el estado de las historias (tareas de la metodología Agile) y cómo progresan hacia su finalización.</td> 
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Optimized"> 
    <td>[!UICONTROL Story Hours]</td> 

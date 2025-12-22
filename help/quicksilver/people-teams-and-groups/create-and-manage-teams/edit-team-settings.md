@@ -6,10 +6,10 @@ description: Los administradores de Workfront y los usuarios con una licencia de
 author: Jenny
 feature: People Teams and Groups
 exl-id: b6761188-8630-446e-bc70-70fe272881ce
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '479'
-ht-degree: 92%
+ht-degree: 84%
 
 ---
 
@@ -28,7 +28,7 @@ Puede añadir usuarios a un equipo, establecer la plantilla de diseño del equip
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>paquete de Adobe Workfront</p> </td> 
+   <td role="rowheader"> <p>Paquete de Adobe Workfront</p> </td> 
    <td>Cualquiera</td> 
   </tr> 
   <tr> 
@@ -77,9 +77,9 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
 
      Para obtener más información sobre cómo aplicar una plantilla de diseño personalizada a un equipo, consulte la sección “Aplicar una plantilla personalizada a un equipo” en las áreas [!UICONTROL Mi trabajo] y [!UICONTROL Solicitudes de trabajo] con plantillas de diseño.
 
-   * Determine si este equipo es un equipo ágil; para ello, seleccione la opción **[!UICONTROL Este es un equipo ágil]**.
+   * Decida si este equipo es un equipo Agile, seleccionando la opción **[!UICONTROL Este es un equipo Agile]**.
 
-     Para obtener más información sobre los equipos ágiles y cómo administrar el trabajo dentro de un equipo ágil, consulte [Crear un equipo ágil](../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md).
+     Para obtener más información sobre los equipos Agile y cómo administrar el trabajo dentro de un equipo Agile, consulte [Crear un equipo Agile](../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md).
 
    * Cambie el botón [!UICONTROL Trabajar en ello] por el de [!UICONTROL Iniciar]. Para obtener más información sobre cómo configurar el botón [!UICONTROL Iniciar], consulte [Reemplazar el botón Trabajar en ello por un botón [!UICONTROL Iniciar]](../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md).
    * Personalizar el botón **[!UICONTROL Listo]**. Para obtener más información sobre cómo personalizar el botón [!UICONTROL Listo], consulte:

@@ -2,20 +2,20 @@
 product-area: agile-and-teams
 navigation-topic: iterations
 title: Eliminar una iteración
-description: Puede eliminar una iteración para su equipo ágil si ya no es necesaria.
+description: Puede eliminar una iteración para su equipo de Agile si ya no la necesita.
 author: Jenny
 feature: Agile
 exl-id: db7fbafd-9d22-4035-a130-60ec2e4ad347
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '175'
-ht-degree: 68%
+ht-degree: 52%
 
 ---
 
 # Eliminar una iteración
 
-Puede eliminar una iteración para su equipo ágil si ya no es necesaria.
+Puede eliminar una iteración para su equipo de Agile si ya no la necesita.
 
 Al eliminar una iteración, los artículos de la iteración se mueven al registro de pendientes. Las tareas y los problemas también permanecen en sus proyectos.
 
@@ -30,7 +30,7 @@ Al eliminar una iteración, los artículos de la iteración se mueven al registr
 <table style="table-layout:auto"> 
  <tbody> 
    <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
@@ -40,7 +40,7 @@ Al eliminar una iteración, los artículos de la iteración se mueven al registr
   </tr>
    <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td>Debe ser miembro del equipo Agile al que se asigna la iteración</td> 
+   <td>Debe ser miembro del equipo de Agile al que se asigna la iteración</td> 
   </tr>
  </tbody> 
 </table>

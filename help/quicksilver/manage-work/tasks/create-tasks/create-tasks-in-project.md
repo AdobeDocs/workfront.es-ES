@@ -7,10 +7,10 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 96f80e7b-6ad5-40ae-861d-8d97c570f2ac
-source-git-commit: c1b8af0d8a95714bb597db7a429794773358cf05
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '1021'
-ht-degree: 59%
+ht-degree: 57%
 
 ---
 
@@ -55,7 +55,7 @@ También puede crear tareas de las siguientes maneras:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
@@ -116,7 +116,7 @@ Para crear tareas en un proyecto:
 
 1. Vaya al proyecto donde desea crear una tarea.
 1. Haga clic en **Tareas** en el panel izquierdo.
-1. (Condicional) Si está viendo la lista de tareas en una vista Agile, haga clic en el icono **Vista de lista** ![](assets/list-view-in-agile-view-for-tasks.png) en la esquina superior derecha para mostrar la lista de tareas.
+1. (Condicional) Si está viendo la lista de tareas en una vista de Agile, haga clic en el icono **Vista de lista** ![](assets/list-view-in-agile-view-for-tasks.png) en la esquina superior derecha para mostrar la lista de tareas.
 1. (Opcional) Haga clic en el icono **Modo de planificación** ![](assets/nwe-plan-mode-icon-task-list.png) y seleccione **Guardar de forma manual**; a continuación, seleccione **Estándar** o **Planificación de la cronología**. Esto deshabilita la opción **Guardar automáticamente**, que está habilitada de manera predeterminada.
 
    ![Seleccione Guardar de forma manual](assets/manual-save-option.png)

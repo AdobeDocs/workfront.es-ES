@@ -6,7 +6,7 @@ description: Puede mover una historia o un problema del panel de exploración a 
 author: Jenny
 feature: Agile
 exl-id: 72990251-0264-4e68-83ef-1a9cde5b685c
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '477'
 ht-degree: 41%
@@ -17,7 +17,7 @@ ht-degree: 41%
 
 Puede mover una historia o un problema del tablero [!UICONTROL Scrum] a otra iteración o al registro de pendientes, o eliminarlo del tablero [!UICONTROL Scrum]. Cuando elimina una historia o un problema, se mueve a la papelera de reciclaje durante 30 días y solo el administrador del sistema puede recuperarlo.
 
-Para eliminar una tarea o un problema de la iteración sin eliminarlo ni enviarlo al registro de pendientes, vaya al proyecto y elimine el equipo Agile de la columna de asignación. Esto elimina la tarea o el problema del panel de exploración, pero permanece en el proyecto.
+Para eliminar una tarea o un problema de la iteración sin eliminarlo ni enviarlo al registro de pendientes, vaya al proyecto y elimine el equipo de Agile de la columna de asignación. Esto elimina la tarea o el problema del panel de exploración, pero permanece en el proyecto.
 
 ## Requisitos de acceso
 

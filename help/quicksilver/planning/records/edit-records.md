@@ -6,10 +6,10 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 1f9a0e6064f83c6f0947e3c7ef596e96c934a687
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
-source-wordcount: '2731'
-ht-degree: 9%
+source-wordcount: '2940'
+ht-degree: 8%
 
 ---
 
@@ -49,7 +49,7 @@ Para obtener información sobre cómo crear registros, vea [Crear registros](/he
 <tr> 
 </tr>   
 <tr> 
-   <td role="rowheader"><p>paquete de Adobe Workfront</p></td> 
+   <td role="rowheader"><p>Paquete de Adobe Workfront</p></td> 
    <td> 
 <p>Cualquier Workfront y cualquier paquete de Planning</p> <p>Cualquier flujo de trabajo y cualquier paquete de Planning</p>
 <p>Para obtener más información sobre lo que se incluye en cada paquete de Workfront Planning, póngase en contacto con su representante de cuentas de Workfront. </p> 
@@ -142,11 +142,14 @@ Para obtener más información acerca de los requisitos de acceso de Workfront, 
    * Campos vinculados de otros registros
    * Campos de tipo fórmula
    * Campos del sistema (Creado por, Fecha de creación, Última modificación por, Fecha de última modificación)
-* Si los registros que muestra están vinculados a otros registros, la nueva información de los registros que está modificando se reflejará en los registros vinculados.
+* Si los registros que muestra están vinculados a otros registros, la nueva información de los registros que está modificando se reflejará en los registros vinculados de todos los espacios de trabajo en los que esté vinculado ese registro.
 * No puede editar registros de forma masiva. <!--this will probably change-->
 * Las direcciones URL se reconocen como vínculos en tipos de campo de texto de una sola línea solo cuando comienzan con lo siguiente: http://, https://, ftp:// o www. .
 * Puede agregar una imagen de portada a cada registro. La imagen es única para cada registro y no se aplica a todos los registros del mismo tiempo.
 * Puede editar el orden de los campos en una página de registro y agregar una imagen de portada para un registro. Para obtener más información, consulte [Administrar el diseño de la página de registros](/help/quicksilver/planning/records/manage-the-record-page.md).
+* Puede editar las fechas de inicio y finalización de un registro cambiando el tamaño o la posición de los registros en las vistas de calendario y cronología.
+
+  No se puede cambiar el tamaño ni la posición de los registros cuando la fecha de inicio y de finalización elegidas para el registro son de sólo lectura. Por ejemplo, el uso de campos de búsqueda o de fórmula para la fecha de inicio y de fin de un registro no permite cambiar el tamaño del registro ni cambiarle la posición en una vista de calendario y de escala de tiempo. <!--this also repeats below, for the timeline and the calendar views; also update there, if this changes-->
 
 ## Editar registros
 
@@ -258,13 +261,17 @@ Para obtener más información, consulte [Crear registros](/help/quicksilver/pla
 
 <!--add another step about drag and drop here when that is available-->
 
-1. Abra la página de tipo de registro en una vista de cronología. Para obtener más información, consulte [Administrar la vista de línea de tiempo](/help/quicksilver/planning/views/manage-the-timeline-view.md).
+1. Abra la página de tipo de registro en una vista de cronología. Para obtener más información, consulte [Administrar la vista de cronología](/help/quicksilver/planning/views/manage-the-timeline-view.md).
 
 1. Pase el ratón sobre los extremos de la barra de un registro, haga clic, arrastre y suelte su margen en otra fecha. Esto actualiza automáticamente la fecha de inicio o de finalización del registro.
 
    ![Barra izquierda en la vista de escala de tiempo para cambiar el tamaño](assets/left-end-bar-handle-to-resize-timeline-view.png)
 
 1. Haga clic y mantenga presionada una barra de registro y, a continuación, arrástrela y suéltela en otra posición para actualizar su escala de tiempo y sus fechas. Las fechas de inicio y finalización del registro se actualizan automáticamente.
+
+   >[!IMPORTANT]
+   >
+   >No puede arrastrar y soltar los extremos de una barra de registros, ni arrastrar y soltar el registro en otra fecha cuando la fecha de inicio y de finalización elegidas para el registro son de sólo lectura. Por ejemplo, el uso de campos de búsqueda o de fórmula para la fecha Start y End de un registro no permite cambiar el tamaño del registro en una vista de escala de tiempo ni cambiarle la posición. <!--this also repeats in Considerations and in editing in the calendar view; also update there, if this changes-->
 
 1. Haga clic en la barra de un registro para abrir su área de detalles y editar todos los campos.
 
@@ -280,6 +287,10 @@ Para obtener más información, consulte [Crear registros](/help/quicksilver/pla
    ![Barra izquierda en la vista de calendario para cambiar el tamaño](assets/left-end-bar-handle-to-resize-calendar-monthly-view.png)
 
 1. Haga clic y mantenga presionada una barra de registro y, a continuación, arrástrela y suéltela en otra posición para actualizar su escala de tiempo y sus fechas. Las fechas de inicio y finalización del registro se actualizan automáticamente.
+
+   >[!IMPORTANT]
+   >
+   >No puede arrastrar y soltar los extremos de una barra de registros, ni arrastrar y soltar el registro en otra fecha cuando la fecha de inicio y de finalización elegidas para el registro son de sólo lectura. Por ejemplo, el uso de campos de búsqueda o de fórmula para la fecha Start y End de un registro no permite cambiar el tamaño del registro en una vista de calendario ni cambiarle la posición. <!--this also repeats in Considerations and in editing in the timeline view; also update there, if this changes-->
 
 1. Haga clic en la barra de un registro para abrir su área de detalles y editar todos los campos.
 

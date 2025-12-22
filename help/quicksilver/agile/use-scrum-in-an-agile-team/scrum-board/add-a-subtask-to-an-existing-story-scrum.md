@@ -6,10 +6,10 @@ description: Cuando cree subtareas para las historias existentes, tenga en cuent
 author: Jenny
 feature: Agile
 exl-id: 264e66e9-94c7-4904-baad-f733d39b4791
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '610'
-ht-degree: 98%
+ht-degree: 92%
 
 ---
 
@@ -60,9 +60,9 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
 
 {{step1-to-team}}
 
-1. (Opcional) Haga clic en el icono **[!UICONTROL Cambiar de equipo]** ![icono de Cambiar de equipo](assets/switch-team-icon.png) y, a continuación, seleccione un nuevo equipo de Scrum en el menú desplegable o busque un equipo en la barra de búsqueda.
+1. Haga clic en el icono **[!UICONTROL Cambiar equipo]** ![icono Cambiar equipo](assets/switch-team-icon.png) y, a continuación, seleccione un nuevo equipo de Scrum en el menú desplegable o busque un equipo en la barra de búsqueda.
 
-1. Vaya a la iteración Agile o al proyecto que contiene la historia en la que desea añadir una subtarea. Para obtener información sobre cómo navegar a una iteración, consulte [Ver una iteración](../../../agile/use-scrum-in-an-agile-team/iterations/view-iteration.md).
+1. Vaya a la iteración Agile o al proyecto que contiene el artículo donde desea agregar una subtarea. Para obtener información sobre cómo navegar a una iteración, consulte [Ver una iteración](../../../agile/use-scrum-in-an-agile-team/iterations/view-iteration.md).
 1. Vaya al mosaico de la historia en el tablero de historia donde desea añadir una subtarea.
 1. Haga clic en **[!UICONTROL Añadir subtarea]** en la tarjeta de historia principal para crear una subtarea para la historia.
 
@@ -72,7 +72,7 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
 
    Haga clic en **[!UICONTROL Añadir subtarea]** en un mosaico de subtarea para crear una subtarea para la subtarea.
 
-   [!DNL Workfront] admite infinitos niveles de subtareas, pero solo se muestran dos niveles (subtareas de subtareas) en el tablero de historia Agile.
+   [!DNL Workfront] admite infinitos niveles de subtareas, pero sólo se muestran dos niveles (subtareas de subtareas) en el panel de historias de Agile.
 
    ![Añadir subtarea](assets/agile-story-addsubtask2-NWE.png)
 

@@ -6,10 +6,10 @@ description: Puede asignar usuarios a historias directamente en el panel Kanban.
 author: Jenny
 feature: Agile
 exl-id: ed727302-68c7-4e00-b05c-a5ed238bcc2d
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '214'
-ht-degree: 84%
+ht-degree: 79%
 
 ---
 
@@ -28,7 +28,7 @@ Puede asignar usuarios a historias directamente en el panel Kanban.
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 

@@ -6,7 +6,7 @@ description: La asociación de colores predeterminada de las historias del guion
 author: Jenny
 feature: Agile
 exl-id: 8e351505-73d1-4c8f-b369-53c965b88c95
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '427'
 ht-degree: 22%
@@ -19,9 +19,9 @@ ht-degree: 22%
 
 La asociación de colores predeterminada de las historias difiere según si el guion gráfico se encuentra en una iteración o en un proyecto:
 
-* **[!UICONTROL Iteración]**: en una iteración, los mosaicos del guion gráfico tienen un código de color según el proyecto con el que esté asociado el artículo. (A cada proyecto se le asigna arbitrariamente un color en el guion gráfico). Puede cambiar este comportamiento predeterminado para cada equipo Agile. Los colores de las historias Agile en una iteración pueden vincularse al proyecto (predeterminado), a la prioridad de la historia, al propietario o a la forma libre. Para obtener más información, consulte [Configurar cómo se usan los indicadores de color para las historias en el panel de historias Agile](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur4) en el artículo [Configurar Scrum](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md).
+* **[!UICONTROL Iteración]**: en una iteración, los mosaicos del guion gráfico tienen un código de color según el proyecto con el que esté asociado el artículo. (A cada proyecto se le asigna arbitrariamente un color en el guion gráfico). Puede cambiar este comportamiento predeterminado para cada equipo Agile. Los colores de las historias de Agile en una iteración pueden vincularse al proyecto (predeterminado), a la prioridad de la historia, al propietario o a la forma libre. Para obtener más información, consulte [Configurar cómo se usan los indicadores de color para las historias en el panel de historias de Agile](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur4) en el artículo [Configurar Scrum](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md).
 
-* **[!UICONTROL Proyecto]**: en un proyecto, todas las subtareas coinciden con el color de la tarea principal, de modo que los colores de todas las historias de cualquier carril de baño son iguales. Los colores se asignan aleatoriamente a las tareas cuando se crean si la tarea no tiene subtareas o no tiene una tarea principal. Puede cambiar este comportamiento predeterminado modificando la vista Agile. Los colores de las historias Agile de un proyecto se pueden asociar a la historia principal (predeterminada), la prioridad de la historia, el propietario o la forma libre. Para obtener más información, consulte [Crear o personalizar una vista de [!UICONTROL Agile]](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md#customizing-an-agile-view) en [Información general de vistas en [!DNL Adobe Workfront]](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+* **[!UICONTROL Proyecto]**: en un proyecto, todas las subtareas coinciden con el color de la tarea principal, de modo que los colores de todas las historias de cualquier carril de baño son iguales. Los colores se asignan aleatoriamente a las tareas cuando se crean si la tarea no tiene subtareas o no tiene una tarea principal. Puede cambiar este comportamiento predeterminado modificando la vista de Agile. Los colores de las historias de Agile en un proyecto se pueden asociar a la historia principal (predeterminada), la prioridad de la historia, el propietario o la forma libre. Para obtener más información, consulte [Crear o personalizar una vista de [!UICONTROL Agile]](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md#customizing-an-agile-view) en [Información general de vistas en [!DNL Adobe Workfront]](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
 ## Requisitos de acceso
 

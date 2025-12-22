@@ -5,10 +5,10 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 441d84d6-6c40-4a03-967e-836cf78c8fc1
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '2799'
-ht-degree: 99%
+ht-degree: 98%
 
 ---
 
@@ -66,7 +66,7 @@ El seminario web de la versión 23.3 fue el 29 de junio de 2023. Puede [registra
                 </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-admin-enhancements.md" class="MCXref xref" xrefformat="{para}">Activar ciclos de versiones de Workfront más rápidos</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-admin-enhancements.md" class="MCXref xref" xrefformat="{para}">Habilitar ciclos de versiones de Workfront más rápidos</a></p>
                         <p>Para permitirle recibir nuevas funciones y actualizaciones de productos de Workfront más rápidamente, hemos añadido la capacidad de habilitar ciclos de lanzamiento más rápidos. Ahora, puede elegir que su organización reciba las versiones de Workfront con más frecuencia que una vez al trimestre. El ciclo de versiones trimestral seguirá estando disponible para las organizaciones que prefieran versiones menos frecuentes.</p>
                     </td>
                     <td><p><b>Disponible en estas fechas:</b></p>
@@ -281,8 +281,8 @@ El seminario web de la versión 23.3 fue el 29 de junio de 2023. Puede [registra
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Migrar tarjetas Kanban de equipo ágil a Tableros</a></p>
-                        <p>Un nuevo botón <b>Agregar a tableros</b> en los paneles de Kanban de equipo ágil permite agregar todas las tarjetas del panel de Kanban a un panel de Workfront. Puede elegir crear un nuevo tablero de Workfront o añadir las tarjetas a uno existente.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Migrar tarjetas Kanban de equipo Agile a tableros</a></p>
+                        <p>Un nuevo botón <b>Agregar a paneles</b> en los paneles Kanban del equipo Agile permite agregar todas las tarjetas del panel Kanban a un panel Workfront. Puede elegir crear un nuevo tablero de Workfront o añadir las tarjetas a uno existente.</p>
                     </td>
                     <td><p><b>Disponible en estas fechas:</b></p>
                         <ul>
@@ -704,8 +704,8 @@ El seminario web de la versión 23.3 fue el 29 de junio de 2023. Puede [registra
                 </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-release-activity.md" class="MCXref xref" xrefformat="{para}">Nuevas mejoras en la experiencia del panel de lienzo</a></p>
-                        <p>Las mejoras del Panel de lienzo están disponibles dentro del periodo de tiempo de la versión 23.3. Estas mejoras estarán disponibles en el entorno de producción con la versión 23.3, a menos que se especifique lo contrario. 
+                        <a href="/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-release-activity.md" class="MCXref xref" xrefformat="{para}">Nuevas mejoras en la experiencia del panel de control de lienzo</a></p>
+                        <p>Las mejoras del Panel de control de lienzo están disponibles dentro del periodo de tiempo de la versión 23.3. Estas mejoras estarán disponibles en el entorno de producción con la versión 23.3, a menos que se especifique lo contrario. 
  </p>
                     </td>
                     <td><p><b>Disponible en estas fechas:</b></p>
@@ -768,7 +768,7 @@ Para obtener información sobre las versiones de API, consulte [Versiones de la 
 
 ### Actualizaciones de mantenimiento de Workfront 
 
-Para obtener información acerca de las actualizaciones de mantenimiento realizadas durante la versión 22.3, consulte [Actualizaciones de mantenimiento de Workfront](https://experienceleague.adobe.com/es/docs/workfront-known-issues/releases/current-updates).
+Para obtener información acerca de las actualizaciones de mantenimiento realizadas durante la versión 22.3, consulte [Actualizaciones de mantenimiento de Workfront](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates).
 
 ### Actualizaciones de aprendizaje
 

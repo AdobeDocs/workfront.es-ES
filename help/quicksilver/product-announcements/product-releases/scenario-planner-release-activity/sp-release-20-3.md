@@ -3,23 +3,23 @@ product-previous: enterprise-scenario-planner
 content-type: release-notes
 product-area: enterprise-scenario-planner-product-area
 navigation-topic: scenario-planner-release-activity
-title: 'Workfront Scenario Planner con la versión 20.3: 14 de agosto de 2020'
+title: 'Planificador de escenarios de Workfront con la versión 20.3: sábado, 14 de agosto de 2020'
 description: Workfront Scenario Planner solo está disponible con la versión 20.3 para producción con la nueva experiencia Adobe Workfront.
 author: Luke
 feature: Product Announcements, Workfront Scenario Planner
 exl-id: 9f89b6d6-8ca7-4b03-a8fe-fddb4c0c750b
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '264'
-ht-degree: 0%
+ht-degree: 15%
 
 ---
 
-# Workfront Scenario Planner con la versión 20.3: 14 de agosto de 2020
+# Planificador de escenarios de Workfront con la versión 20.3: sábado, 14 de agosto de 2020
 
 Workfront Scenario Planner solo está disponible con la versión 20.3 para producción con la nueva experiencia Adobe Workfront.
 
-Con el planificador de escenarios, cree y compare varios escenarios hipotéticos para elegir la mejor ruta a seguir. Y cuando cambien sus prioridades, vuelva a planificar de forma iterativa sin afectar al trabajo en curso.
+Con el planificador de escenarios, cree y compare varios escenarios hipotéticos para elegir la mejor ruta a seguir. Y cuando cambien sus prioridades, vuelva a planificar de forma iterativa sin que ello afecte al trabajo en curso.
 
 El Planificador de escenarios le permite:
 

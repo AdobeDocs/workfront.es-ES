@@ -6,10 +6,10 @@ description: Cuando crea un equipo, se convierte en el propietario del equipo de
 author: Jenny
 feature: People Teams and Groups
 exl-id: 4bef734c-de86-4c58-a0e8-fbb3c5785f4c
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '471'
-ht-degree: 98%
+ht-degree: 92%
 
 ---
 
@@ -30,7 +30,7 @@ Para obtener información sobre cómo un administrador de [!DNL Adobe Workfront]
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>paquete de Adobe Workfront</p> </td> 
+   <td role="rowheader"> <p>Paquete de Adobe Workfront</p> </td> 
    <td>Cualquiera</td> 
   </tr> 
   <tr> 
@@ -65,9 +65,9 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
      >
      >Cuando se asigna un equipo a un grupo o subgrupo, cualquier administrador de grupos de ese grupo o subgrupo puede administrar el equipo sin ser miembro de él. Los administradores del grupo pueden ir al área de Equipos desde el menú principal y hacer clic en la flecha para cambiar de equipo ![icono Cambiar equipo](assets/switch-team-icon.png) para ver una lista de todos los equipos asignados a los grupos que administran.
 
-   * **[!UICONTROL Este es un equipo ágil]:** seleccione esta opción si desea configurar este nuevo equipo para que sea un equipo ágil.
+   * **[!UICONTROL Este es un equipo Agile]:** Seleccione esta opción si desea configurar este nuevo equipo para que sea un equipo Agile.
 
-     Para obtener más información sobre los equipos ágil, consulte [Crear un equipo ágil](../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md).
+     Para obtener más información sobre los equipos Agile, consulte [Crear un equipo Agile](../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md).
 
    * **[!UICONTROL Miembros del equipo]:** empiece a escribir el nombre de un usuario para añadirlo al equipo y, a continuación, seleccione el nombre cuando aparezca en la lista desplegable.
 

@@ -8,10 +8,10 @@ author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: c81e485a-7e8c-4907-8e6c-9991681c3541
-source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '1653'
-ht-degree: 67%
+ht-degree: 65%
 
 ---
 
@@ -153,7 +153,7 @@ El tipo de duración ayuda a responder a las siguientes preguntas:
   <tr> 
    <th scope="col"> <p><strong>Simple</strong> </p> </th> 
    <td scope="col"> <p>Determina las horas planificadas y la duración (que son las mismas para este tipo de duración) en función del número de horas que se asignan a cada persona asignada. </p> <p>Workfront calcula las horas planificadas sumando las horas asignadas planificadas para cada persona asignada. </p> <p>Tiene la posibilidad de cambiar manualmente la cantidad de horas que se asignan a cada persona, y el número de horas planificadas, y la cantidad de la duración cambian en consecuencia. Si elige una cantidad total de horas asignadas para todos los usuarios asignados, ese número se divide a partes iguales entre cada usuario asignado.</p> <p>Para obtener información más detallada, consulte <a href="../../../manage-work/tasks/taskdurtn/simple-duration-type.md" class="MCXref xref">Información general del tipo de duración: Simple</a>.</p> </td> 
-   <td scope="col"> <p>Las horas se distribuyen equitativamente entre las personas asignadas si elige una cantidad total de horas asignadas. Sin embargo, como jefe de proyecto, puede ajustar manualmente las horas de cada usuario asignado. </p> <p>Puede editar las horas planificadas y la duración de una tarea con un tipo de duración simple en línea o en el nivel de tarea. </p> <p>Si se asigna un equipo agile a una tarea, el tipo de duración se establece automáticamente como Simple y no se puede cambiar. La duración de la tarea para un equipo Agile debe ser mayor que 0 minutos.</p> </td> 
+   <td scope="col"> <p>Las horas se distribuyen equitativamente entre las personas asignadas si elige una cantidad total de horas asignadas. Sin embargo, como jefe de proyecto, puede ajustar manualmente las horas de cada usuario asignado. </p> <p>Puede editar las horas planificadas y la duración de una tarea con un tipo de duración simple en línea o en el nivel de tarea. </p> <p>Si se asigna un equipo Agile a una tarea, el tipo de duración se establece automáticamente como Simple y no se puede cambiar. La duración de la tarea para un equipo Agile debe ser mayor que 0 minutos.</p> </td> 
   </tr> 
  </tbody> 
 </table>

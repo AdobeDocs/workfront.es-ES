@@ -2,30 +2,30 @@
 product-area: agile-and-teams;setup
 navigation-topic: get-started-with-agile-in-workfront
 title: Configurar Scrum
-description: Puede configurar las siguientes opciones para los equipos de Scrum agile durante o después de la creación del equipo.
+description: Puede configurar las siguientes opciones para los equipos de Scrum Agile durante o después de la creación del equipo.
 author: Jenny
 feature: Agile
 exl-id: 7509608e-96af-4601-80d4-791ee29046da
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '1725'
-ht-degree: 94%
+ht-degree: 76%
 
 ---
 
 # Configurar [!UICONTROL Scrum]
 
-Puede crear un equipo ágil en [!DNL Adobe Workfront] tal como se describe en [Crear un equipo ágil](/help/quicksilver/agile/get-started-with-agile-in-workfront/create-an-agile-team.md). Al crear un equipo ágil, puede elegir la metodología que utiliza el equipo para completar su trabajo. Puede elegir entre las siguientes opciones:
+Puede crear un equipo Agile en [!DNL Adobe Workfront] tal como se describe en [Crear un equipo Agile](/help/quicksilver/agile/get-started-with-agile-in-workfront/create-an-agile-team.md). Al crear un equipo Agile, puede elegir la metodología que utiliza el equipo para completar su trabajo. Puede elegir entre las siguientes opciones:
 
 * Scrum
 * Kanban
 
-Este artículo describe cómo configurar los ajustes de un equipo de Scrum. Después de crear un equipo ágil y elegir la metodología Scrum, puede consultar este artículo para actualizar la siguiente configuración:
+Este artículo describe cómo configurar los ajustes de un equipo de Scrum. Después de crear un equipo Agile y elegir la metodología Scrum, puede consultar este artículo para actualizar la siguiente configuración:
 
 * Si las historias se estiman en puntos o en horas
-* Las columnas de estado del panel de historias ágiles para iteraciones y proyectos
-* Campos adicionales para mostrar en tarjetas de historia en el panel de historia ágil
-* Uso de indicadores de color para historias en el panel de historia ágil
+* Las columnas de estado del panel de historias de Agile para iteraciones y proyectos
+* Campos adicionales para mostrar en tarjetas de historia en el panel de historia de Agile
+* Cómo se utilizan los indicadores de color para las historias en el panel de historias de Agile
 * Aplicación de las fechas al añadir elementos de trabajo a una iteración
 
 Para obtener información sobre cómo configurar un equipo Kanban, consulte [Configurar Kanban](/help/quicksilver/agile/get-started-with-agile-in-workfront/configure-kanban.md).
@@ -41,7 +41,7 @@ Para obtener información sobre cómo configurar un equipo Kanban, consulte [Con
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr>
 
@@ -71,12 +71,12 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
 
 Puede configurar las historias para que se estimen mediante puntos o horas.
 
-Para configurar cómo se calculan las historias para su equipo ágil:
+Para configurar cómo se calculan las historias para su equipo de Agile:
 
 {{step1-to-team}}
 
 1. Haga clic en el icono **[!UICONTROL Cambiar de equipo]** y, a continuación, seleccione un nuevo equipo en el menú desplegable o busque un equipo en la barra de búsqueda.
-1. Seleccione el equipo ágil que desea administrar.
+1. Seleccione el equipo de Agile que desee gestionar.
 1. Haga clic en el menú **[!UICONTROL Más]** y, a continuación, seleccione **[!UICONTROL Editar]**.
 
    Solo los miembros del equipo con una licencia de [!UICONTROL Standard], [!UICONTROL Plan] o [!UICONTROL Trabajo] ven esta opción.
@@ -88,24 +88,24 @@ Para configurar cómo se calculan las historias para su equipo ágil:
 
 1. Haga clic en **[!UICONTROL Guardar cambios]**.
 
-## Configurar columnas de estado en el panel de historias ágiles
+## Configurar columnas de estado en el panel de historias de Agile
 
-Puede configurar qué columnas se muestran en el panel de historias ágiles para todas las iteraciones asignadas a su equipo o para un proyecto determinado.
+Puede configurar qué columnas se muestran en el panel de historia de Agile para todas las iteraciones asignadas a su equipo o para un proyecto determinado.
 
 * [Configuración de columnas de estado para iteraciones](#configure-status-columns-for-iterations)
 * [Configurar columnas de estado para proyectos](#configure-status-columns-for-projects)
 
 ### Configuración de columnas de estado para iteraciones {#configure-status-columns-for-iterations}
 
-Puede definir los estados que existen en el panel de historias para el equipo ágil. Estos son los únicos estados que se muestran en el panel de historias.
+Puede definir los estados que existen en el guion gráfico del equipo de Agile. Estos son los únicos estados que se muestran en el panel de historias.
 
-Para definir los estados disponibles para el tablero de historia asociado con el equipo Agile:
+Para definir los estados disponibles para el guion gráfico asociado con el equipo de Agile:
 
 {{step1-to-team}}
 
 1. Haga clic en el icono **[!UICONTROL Cambiar equipo]** ![icono Cambiar equipo](assets/switch-team-icon.png) y, a continuación, seleccione un nuevo equipo en el menú desplegable o busque un equipo en la barra de búsqueda.
 
-1. Seleccione el equipo ágil que desea administrar.
+1. Seleccione el equipo de Agile que desee gestionar.
 1. Haga clic en el menú **[!UICONTROL Más]** y, a continuación, seleccione **[!UICONTROL Editar]**.
 
    Solo los integrantes del equipo con una licencia de [!UICONTROL Plan] o [!UICONTROL Trabajo] ven esta opción.
@@ -137,7 +137,7 @@ Para definir los estados disponibles para el tablero de historia asociado con el
 
 Para obtener información acerca de cómo configurar las columnas de estado de un proyecto, consulte la sección [Crear o personalizar una vista [!UICONTROL Agile]](../../reports-and-dashboards/reports/reporting-elements/create-edit-views.md#customizing-an-agile-view) en el artículo [Crear o editar vistas en [!DNL Adobe Workfront]](../../reports-and-dashboards/reports/reporting-elements/create-edit-views.md).
 
-## Configurar campos adicionales para que se muestren en las tarjetas de historia en el tablero de historia de Agile
+## Configurar campos adicionales para que se muestren en tarjetas de historia en el panel de historia de Agile
 
 Cuando se añaden campos a las tarjetas de historia, los campos son de solo vista y de solo visualización cuando se rellenan.
 
@@ -157,13 +157,13 @@ Se pueden mostrar datos adicionales (incluidos datos personalizados) en las tarj
 >
 >Si utiliza un campo personalizado en una tarjeta de historias, no puede contener un punto en el nombre.
 
-Para configurar las tarjetas de historia asignadas al equipo Agile para que muestren campos adicionales:
+Para configurar las tarjetas de historia asignadas al equipo de Agile para que muestren campos adicionales:
 
 {{step1-to-team}}
 
 1. Haga clic en el icono **[!UICONTROL Cambiar equipo]** ![icono Cambiar equipo](assets/switch-team-icon.png) y, a continuación, seleccione un nuevo equipo en el menú desplegable o busque un equipo en la barra de búsqueda.
 
-1. Seleccione el equipo ágil que desea administrar.
+1. Seleccione el equipo de Agile que desee gestionar.
 1. Haga clic en el menú **[!UICONTROL Más]** y luego seleccione **[!UICONTROL Editar]**.
 Solo los integrantes del equipo con una licencia de [!UICONTROL Plan] o [!UICONTROL Trabajo] ven esta opción.
 
@@ -177,17 +177,17 @@ Solo los integrantes del equipo con una licencia de [!UICONTROL Plan] o [!UICONT
 1. Escriba **[!UICONTROL Nombre para mostrar]** para que el campo se muestre en la historia o en la tarjeta de emisión.
 1. Haga clic en **[!UICONTROL Guardar cambios]**.
 
-## Configurar cómo se utilizan los indicadores de color para las historias en el tablero de historias de Agile
+## Configurar cómo se utilizan los indicadores de color para las historias en el panel de historias de Agile
 
-De forma predeterminada, los mosaicos del tablero de historias de una iteración de Agile se codifican por colores según el proyecto con el que esté asociada la historia. A cada proyecto se le asigna arbitrariamente un color en el tablero de historias. Puede cambiar este comportamiento predeterminado para cada equipo ágil. Los colores de las historias de Agile se pueden asociar a la prioridad de la historia, al propietario, etc.
+De forma predeterminada, los mosaicos del guion gráfico de una iteración de Agile se codifican con colores según el proyecto con el que esté asociado el artículo. A cada proyecto se le asigna arbitrariamente un color en el tablero de historias. Puede cambiar este comportamiento predeterminado para cada equipo Agile. Los colores de las historias de Agile se pueden asociar a la prioridad de la historia, el propietario, etc.
 
-Para cambiar el comportamiento de cómo se asignan los colores a las historias para un equipo ágil:
+Para cambiar el comportamiento de cómo se asignan los colores a las historias para un equipo Agile:
 
 {{step1-to-team}}
 
 1. Haga clic en el icono **[!UICONTROL Cambiar equipo]** ![icono Cambiar equipo](assets/switch-team-icon.png) y, a continuación, seleccione un nuevo equipo en el menú desplegable o busque un equipo en la barra de búsqueda.
 
-1. Seleccione el equipo ágil que desea administrar.
+1. Seleccione el equipo de Agile que desee gestionar.
 1. Haga clic en el menú **[!UICONTROL Más]** y, a continuación, seleccione **[!UICONTROL Editar]**.
 
    Solo los integrantes del equipo con una licencia de [!UICONTROL Plan] o [!UICONTROL Trabajo] ven esta opción.

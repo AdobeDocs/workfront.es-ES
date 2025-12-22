@@ -3,14 +3,14 @@ content-type: reference
 product-area: agile-and-teams
 navigation-topic: boards
 title: Crear una iteración en un flujo de trabajo
-description: Una iteración es una cantidad de tiempo establecida reservada para completar el trabajo. Algunos equipos Agile pueden referirse a una iteración como un sprint.
+description: Una iteración es una cantidad de tiempo establecida reservada para completar el trabajo. Algunos equipos de Agile pueden hacer referencia a una iteración como un sprint.
 author: Jenny
 feature: Agile
 exl-id: 37b8810d-8439-4a7a-89d5-7c2560422ace
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '399'
-ht-degree: 19%
+ht-degree: 20%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 19%
 >
 >Las secuencias de trabajo solo están disponibles para un grupo específico de clientes.
 
-Una iteración es una cantidad de tiempo establecida reservada para completar el trabajo. Algunos equipos Agile pueden referirse a una iteración como un sprint.
+Una iteración es una cantidad de tiempo establecida reservada para completar el trabajo. Algunos equipos de Agile pueden hacer referencia a una iteración como un sprint.
 
 ## Requisitos de acceso
 
@@ -31,7 +31,7 @@ Una iteración es una cantidad de tiempo establecida reservada para completar el
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 

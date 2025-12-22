@@ -6,10 +6,10 @@ description: Los horarios definidos en  [!DNL Adobe Workfront]  afectan al gráf
 author: Jenny
 feature: Agile
 exl-id: 72650c19-434d-463a-8924-49219604ff01
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '306'
-ht-degree: 32%
+ht-degree: 30%
 
 ---
 
@@ -34,7 +34,7 @@ Para obtener más información sobre el uso del gráfico de evolución, consulte
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
@@ -57,7 +57,7 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
 
 1. Haga clic en el icono **[!UICONTROL Cambiar equipo]** ![icono Cambiar equipo](assets/switch-team-icon.png) y, a continuación, seleccione un nuevo equipo de Scrum en el menú desplegable o busque un equipo en la barra de búsqueda.
 
-1. Seleccione el equipo ágil que desea administrar.
+1. Seleccione el equipo de Agile que desee gestionar.
 1. Haga clic en el menú **[!UICONTROL Más]** y, a continuación, seleccione **[!UICONTROL Editar]**.
 
 1. En la sección **[!UICONTROL Agile]**, en el área **[!UICONTROL Schedule]**, seleccione la nueva programación en el menú desplegable.

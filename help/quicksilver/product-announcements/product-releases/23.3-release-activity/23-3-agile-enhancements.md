@@ -5,84 +5,84 @@ author: Lisa
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: a47d2592-0f00-4bcd-bc8e-75f8e707a573
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '1315'
-ht-degree: 0%
+ht-degree: 91%
 
 ---
 
 # 23.3 Mejoras de Agile
 
-Esta página describe todos los tableros y las mejoras Agile realizadas con la versión 23.3. Estas mejoras estaban disponibles en el entorno de producción con la versión 23.3 del 20 y 21 de julio de 2023.
+Esta página describe todas las mejoras de Tableros y Agile realizadas con la versión 23.3. Estas mejoras estaban disponibles en el entorno de producción con la versión 23.3 de 20 y 21 de julio de 2023.
 
-Para obtener una lista de todos los cambios disponibles en este punto del ciclo de la versión 23.3, consulte [Descripción general de la versión 23.3](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
+Para obtener una lista de todos los cambios disponibles en este punto del ciclo de lanzamiento 23.3, consulte [Información general de la versión 23.3](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
 
-Para obtener más información sobre cómo adherirse a las nuevas funciones de los tableros antes de la versión trimestral, consulte [Inclusión anticipada de funciones en los tableros de Adobe Workfront](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).
+Para obtener más información sobre cómo adherirse a las nuevas funciones de los tableros antes de la versión trimestral, consulte [Inclusión anticipada de funciones para tableros de Adobe Workfront](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).
 
-## La Vista de Agile de un proyecto muestra un panel kanban
+## La vista de Agile de un proyecto muestra un tablero Kanban
 
-La vista Agile de un proyecto ahora incluye funcionalidad adicional para filtrar, agrupar y ordenar el trabajo en un panel Kanban. El nuevo diseño flexible de la vista incluye una función de búsqueda sólida y la capacidad de agregar nuevas tareas al proyecto directamente desde el tablero.
+La vista de Agile de un proyecto ahora incluye funcionalidad adicional para filtrar, agrupar y ordenar el trabajo en un tablero Kanban. El nuevo diseño flexible de la vista incluye una función de búsqueda sólida y la capacidad de añadir nuevas tareas al proyecto directamente desde el tablero.
 
 >[!NOTE]
 >
->La vista de Agile solo existe en un único proyecto porque es una vista alternativa del proyecto y no se puede acceder a él desde otras áreas de Workfront, como el panel de tableros.
+>La vista de Agile solo existe en un único proyecto porque es una vista alternativa del proyecto y no se puede acceder a él desde otras áreas de Workfront, como el panel de control Tableros.
 
 Mientras está en el tablero, puede optar por cambiar a la vista de Agile heredada.
 
-Para obtener más información, vea [Administrar un proyecto en la vista de Agile](/help/quicksilver/manage-work/projects/manage-projects/manage-projects-in-agile-view.md).
+Para obtener más información, consulte [Administrar un proyecto en la vista de Agile](/help/quicksilver/manage-work/projects/manage-projects/manage-projects-in-agile-view.md).
 
 [Ver una demostración en vídeo de esta característica.](https://video.tv.adobe.com/v/3421283/){target=_blank}
 
 ## Ordenar por columnas del tablero
 
-Se ha añadido la capacidad de ordenar las tarjetas en las columnas de un tablero. Al seleccionar una opción para ordenar, se ordenan todas las columnas. No puede ordenar una sola columna y la columna de registro de pendientes o de entrada no está ordenada.
+Se ha añadido la capacidad de ordenar las tarjetas en las columnas de un tablero. Al seleccionar una opción para ordenar, se ordenan todas las columnas. No puede ordenar una sola columna y la columna de registro de asuntos pendientes o de entrada no está ordenada.
 
-Puede ordenar en orden ascendente o descendente por nombre de tarjeta, fecha de vencimiento, estimación, estado o conexión (nombre del proyecto). La conexión solo se aplica a las tarjetas conectadas y las demás opciones ordenarán las tarjetas conectadas y las ad hoc en la columna.
+Puede ordenar en orden ascendente o descendente por nombre de tarjeta, fecha de vencimiento, estimación, estado o conexión (nombre del proyecto). La conexión solo se aplica a las tarjetas conectadas. Las demás opciones ordenan las tarjetas conectadas y las ad hoc en la columna.
 
-La opción &quot;orden del usuario&quot; devuelve las tarjetas en el orden en que se establecieron manualmente, antes de que se aplicaran otras opciones de ordenación. Este es el orden predeterminado para las columnas.
+La opción “orden del usuario” devuelve las tarjetas en el orden en que se establecieron manualmente, antes de que se aplicaran otras opciones de ordenación. Este es el orden predeterminado para las columnas.
 
-Para obtener más información, vea [Filtrar y buscar en un tablero](/help/quicksilver/agile/get-started-with-boards/filter-search-in-board.md).
+Para obtener más información, consulte [Filtrar y buscar en un tablero](/help/quicksilver/agile/get-started-with-boards/filter-search-in-board.md).
 
 [Ver una demostración en vídeo de esta característica.](https://video.tv.adobe.com/v/3420932/){target=_blank}
 
 ## El modo oscuro ya está disponible en los tableros de Adobe Workfront
 
-Ahora puede mostrar todos los tableros y flujos de trabajo en modo oscuro. La nueva configuración está disponible a través de las preferencias del panel Tableros.
+Ahora puede visualizar todos los tableros y secuencias de trabajo en modo oscuro. La nueva configuración está disponible en las preferencias del panel de control Tableros.
 
 >[!NOTE]
 >
->Si la instancia de Workfront de su organización se ha incorporado a la experiencia unificada de Adobe, puede habilitar el formato de tema oscuro para todos los Adobe Experience Cloud a través del menú de preferencias (la imagen de perfil) y no verá una opción de modo oscuro independiente para los paneles de Workfront.
+>Si la instancia de Workfront de su organización se ha incorporado a Adobe Unified Experience, puede habilitar el formato de tema oscuro para todo Adobe Experience Cloud a través del menú de preferencias (la imagen de perfil) y no verá una opción de modo oscuro independiente para los tableros de Workfront.
 
-Para obtener más información, consulte [Notificaciones y preferencias por correo electrónico de los tableros](/help/quicksilver/agile/get-started-with-boards/boards-emails.md).
+Para obtener más información, consulte [Notificaciones por correo electrónico sobre preferencias de tableros](/help/quicksilver/agile/get-started-with-boards/boards-emails.md).
 
-## Objetivos disponibles en las iteraciones del flujo de trabajo en los paneles de Adobe Workfront
+## Metas disponibles en iteraciones de la secuencia de trabajo en tableros de Adobe Workfront
 
-Hemos agregado la capacidad de agregar metas a una iteración, sin tener que enumerar las metas en una tarjeta. Los objetivos se añaden en formato de lista de comprobación y se pueden marcar como completados. El área de métricas en la parte superior derecha de la iteración muestra cuántos objetivos existen y cuántos se han completado.
+Hemos añadido la capacidad de añadir metas a una iteración, sin tener que enumerar las metas en una tarjeta. Las metas se añaden en formato de lista de comprobación y se pueden marcar como completadas. El área de métricas en la parte superior derecha de la iteración muestra cuántas metas existen y cuántas se han completado.
 
-Además, la columna Iteración siguiente está ahora disponible en tableros de iteraciones. Cuando se coloca una tarjeta en esta columna, se lleva automáticamente a la siguiente iteración y no vuelve al registro de pendientes. En la siguiente iteración, la tarjeta aparece en la columna que corresponde a su estado.
+Además, la columna Iteración siguiente está ahora disponible en tableros de iteraciones. Cuando se coloca una tarjeta en esta columna, se lleva automáticamente a la siguiente iteración y no vuelve al registro de asuntos pendientes. En la siguiente iteración, la tarjeta aparece en la columna que corresponde a su estado.
 
-Para obtener más información, vea [Crear una iteración en un flujo de trabajo](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md).
+Para obtener más información, consulte [Crear una iteración en una secuencia de trabajo](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md).
 
-## Agregar comentarios a tarjetas en tableros
+## Añadir comentarios a tarjetas en tableros
 
 >[!NOTE]
 >
 >Esta función solo está disponible a través de la inclusión de funciones anticipada para tableros de Workfront.
 
-Ahora puede agregar comentarios a las tarjetas ad hoc y conectadas en los tableros y etiquetar a otros usuarios en los comentarios. Los comentarios están disponibles en los detalles de la tarjeta. La función de comentarios de los tableros utiliza la nueva experiencia de comentarios de Adobe Workfront.
+Ahora puede añadir comentarios a tarjetas ad hoc y conectadas en tableros y etiquetar a otros usuarios en los comentarios. Los comentarios están disponibles en los detalles de la tarjeta. La función de comentarios de los tableros utiliza la nueva experiencia de comentarios de Adobe Workfront.
 
-Para obtener más información, consulte [Agregar una tarjeta ad hoc a un tablero](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md) y [Usar tarjetas conectadas en los tableros](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
+Para obtener más información, consulte [Añadir una tarjeta ad hoc a un tablero](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md) y [Usar tarjetas conectadas en tableros](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
 
-[Ver una demostración en vídeo de esta característica](https://video.tv.adobe.com/v/3420832/){target=_blank}
+[Vea una demostración en vídeo de esta función](https://video.tv.adobe.com/v/3420832/){target=_blank}
 
 ## Mejoras en el administrador de etiquetas de tableros
 
-Se ha mejorado la interfaz del administrador de etiquetas, que le permite crear nuevas etiquetas rápidamente y aplicarlas a las tarjetas. También puede crear etiquetas para flujos de trabajo.
+Se ha mejorado la interfaz del administrador de etiquetas, que le permite crear nuevas etiquetas rápidamente y aplicarlas a las tarjetas. También puede crear etiquetas para secuencias de trabajo.
 
-Para obtener más información, consulte [Agregar etiquetas](/help/quicksilver/agile/get-started-with-boards/add-tags.md).
+Para obtener más información, consulte [Añadir etiquetas](/help/quicksilver/agile/get-started-with-boards/add-tags.md).
 
-## Filtros simples disponibles en las columnas de entrada de la placa
+## Filtros simples disponibles en las columnas de entrada del tablero
 
 >[!NOTE]
 >
@@ -90,9 +90,9 @@ Para obtener más información, consulte [Agregar etiquetas](/help/quicksilver/a
 
 Se han añadido filtros simplificados a la configuración de la columna de entrada para permitirle definir la columna de entrada más rápidamente. Los filtros disponibles son proyectos de Workfront y asignaciones por equipo o usuario. Si lo prefiere, puede cambiar a los filtros avanzados.
 
-Para obtener más información, vea [Agregar una columna de entrada a un tablero](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md).
+Para obtener más información, consulte [Añadir una columna de entrada a un tablero](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md).
 
-[Ver una demostración en vídeo de esta característica](https://video.tv.adobe.com/v/3419420/){target=_blank}
+[Vea una demostración en vídeo de esta función](https://video.tv.adobe.com/v/3419420/){target=_blank}
 
 ## Filtros simples añadidos a la plantilla de tablero dinámico
 
@@ -104,13 +104,13 @@ Los filtros de la plantilla de tablero dinámico se han simplificado para permit
 
 Para obtener más información, consulte [Crear o editar un tablero](/help/quicksilver/agile/get-started-with-boards/create-edit-board.md).
 
-## Plantilla de tablero dinámico
+## Plantilla de tablero dinámica
 
 >[!NOTE]
 >
 >Esta función solo está disponible a través de la inclusión de funciones anticipada para tableros de Workfront.
 
-Una nueva plantilla, el tablero dinámico, ya está disponible para tableros independientes. Esta plantilla no está disponible para tableros dentro de un flujo de trabajo.
+Una nueva plantilla de tablero dinámico, ya está disponible para tableros independientes. Esta plantilla no está disponible para tableros dentro de una secuencia de trabajo.
 
 El tablero dinámico le permite rellenar automáticamente un tablero con tarjetas basadas en un proyecto de Workfront. Mediante filtros, las tarjetas se añaden a las columnas en función de su estado.
 
@@ -120,38 +120,38 @@ Para obtener más información, consulte [Crear o editar un tablero](/help/quick
 
 ## Migración de tarjetas Agile Team Kanban a tableros
 
-Un nuevo botón **Agregar a paneles** en los paneles Kanban del equipo Agile permite agregar todas las tarjetas del panel Kanban a un panel Workfront. Puede elegir crear un nuevo tablero de Workfront o añadir las tarjetas a un tablero existente.
+Un nuevo botón **Agregar a paneles** en los paneles Kanban del equipo Agile permite agregar todas las tarjetas del panel Kanban a un panel Workfront. Puede elegir crear un nuevo tablero de Workfront o añadir las tarjetas a uno existente.
 
-La ubicación de las tarjetas en el tablero de Workfront se basa en las políticas de columna. (Por ejemplo, una directiva podría mover todas las tarjetas con el estado &quot;En curso&quot; a una columna específica). Si no hay directivas o las tarjetas no coinciden con las directivas, las tarjetas se colocan en la columna situada más a la izquierda. En este momento, las tarjetas de la columna Registro de pendientes del tablero heredado no se añaden al tablero de Workfront.
+La ubicación de las tarjetas en el tablero de Workfront se basa en las políticas de columna. (Por ejemplo, una directiva podría mover todas las tarjetas con el estado &quot;En curso&quot; a una columna específica). Si no hay directivas o las tarjetas no coinciden con las directivas, las tarjetas se colocan en la columna situada más a la izquierda. En este momento, las tarjetas de la columna Registro de asuntos pendientes del tablero heredado no se añaden al de Workfront.
 
-Las tarjetas no se eliminan del panel Kanban del equipo Agile y los cambios de estado de las tarjetas se sincronizarán con ambos paneles. Puede mantener ambos tableros activos hasta que esté listo para cambiar a los tableros de Workfront.
+Las tarjetas no se eliminan del panel Kanban del equipo Agile y los cambios de estado de las tarjetas se sincronizarán con ambos paneles. Puede mantener ambos tableros activos hasta que quiera cambiar a los tableros de Workfront.
 
-Para obtener más información, consulte [Migrar tarjetas Agile Team Kanban a los paneles de Workfront](/help/quicksilver/agile/use-boards-agile-planning-tools/migrate-kanban-cards-to-boards.md).
+Para obtener más información, consulte [Migrar tarjetas Kanban de equipo Agile a tableros de Workfront](/help/quicksilver/agile/use-boards-agile-planning-tools/migrate-kanban-cards-to-boards.md).
 
-[Ver una demostración en vídeo de esta característica](https://video.tv.adobe.com/v/3420425/){target=_blank}
+[Vea una demostración en vídeo de esta función](https://video.tv.adobe.com/v/3420425/){target=_blank}
 
-## Se ha añadido la navegación izquierda a los detalles de la tarjeta en los paneles
+## Se ha añadido la navegación izquierda a los detalles de la tarjeta en los tableros
 
 >[!NOTE]
 >
 >Esta función solo está disponible a través de la inclusión de funciones anticipada para tableros de Workfront.
 
-A medida que se añaden más opciones de campo a las tarjetas en los paneles de Workfront, los detalles de las tarjetas han aumentado. Un nuevo panel de navegación a la izquierda de los detalles de la tarjeta le permite seleccionar una sección y desplazarse automáticamente a ese grupo de campos.
+A medida que se añaden más opciones de campo a las tarjetas en los tableros de Workfront, los detalles de las tarjetas aumentan. El nuevo panel de navegación a la izquierda de los detalles de la tarjeta permite seleccionar una sección y desplazarse automáticamente a ese grupo de campos.
 
-Además, ahora puede añadir direcciones URL en el campo Descripción y se convertirán en vínculos en los que se puede hacer clic cuando se guarden los detalles de la tarjeta. Estas actualizaciones se aplican tanto a tarjetas ad hoc como a tarjetas conectadas.
+Además, ahora puede añadir direcciones URL en el campo Descripción y se convierten en vínculos en los que se puede hacer clic cuando se guarden los detalles de la tarjeta. Estas actualizaciones se aplican tanto a tarjetas ad hoc como a tarjetas conectadas.
 
-Para obtener más información, consulte [Agregar una tarjeta ad hoc a un tablero](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md) y [Usar tarjetas conectadas en los tableros](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
+Para obtener más información, consulte [Añadir una tarjeta ad hoc a un tablero](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md) y [Usar tarjetas conectadas en tableros](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
 
-[Ver una demostración en vídeo de esta característica.](https://video.tv.adobe.com/v/3418598/){target=_blank}
+[Vea una demostración en vídeo de esta función.](https://video.tv.adobe.com/v/3418598/){target=_blank}
 
-## Notificaciones y preferencias por correo electrónico de Tableros
+## Notificaciones por correo electrónico sobre preferencias de tableros
 
 >[!NOTE]
 >
->Esta función solo está disponible a través de la inclusión de funciones anticipada para tableros de Workfront. Dado que las notificaciones por correo electrónico no suelen utilizarse en la vista previa, esta función se publicó en Previsualización y producción (solo para clientes de inclusión de funciones anticipadas) al mismo tiempo.
+>Esta función solo está disponible a través de la inclusión de funciones anticipada para tableros de Workfront. Dado que las notificaciones por correo electrónico no suelen utilizarse en la vista previa, esta función se publicó en vista previa y producción al mismo tiempo (solo para clientes de inclusión de funciones anticipadas).
 
-Las notificaciones por correo electrónico ya están disponibles para los paneles de Adobe Workfront. Las notificaciones están activadas de forma predeterminada y puede seleccionar en sus preferencias qué correos electrónicos desea recibir. Recibirá un correo electrónico cuando se le añada a un tablero y cuando se le asigne una tarjeta.
+Las notificaciones por correo electrónico ya están disponibles para los tableros de Adobe Workfront. Las notificaciones están activadas de forma predeterminada y puede seleccionar en sus preferencias qué correos electrónicos desea recibir. Recibe un correo electrónico cuando se le añada a un tablero y cuando se le asigne una tarjeta.
 
-Para obtener más información, consulte [Notificaciones y preferencias por correo electrónico de los tableros](/help/quicksilver/agile/get-started-with-boards/boards-emails.md).
+Para obtener más información, consulte [Notificaciones por correo electrónico sobre preferencias de tableros](/help/quicksilver/agile/get-started-with-boards/boards-emails.md).
 
-[Ver una demostración en vídeo de esta característica](https://video.tv.adobe.com/v/3418597/){target=_blank}
+[Vea una demostración en vídeo de esta función](https://video.tv.adobe.com/v/3418597/){target=_blank}

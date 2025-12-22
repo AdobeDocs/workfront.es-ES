@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 51967cd7-962e-4354-a04b-6df4e31e70c6
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '989'
-ht-degree: 89%
+ht-degree: 87%
 
 ---
 
@@ -34,7 +34,7 @@ Para obtener información sobre cómo un administrador de Workfront puede crear 
  <col> 
  <tbody> 
   <tr> 
-   <td>paquete de Adobe Workfront</td> 
+   <td>Paquete de Adobe Workfront</td> 
    <td><p>Cualquiera</p></td> 
   </tr> 
   <tr> 
@@ -135,7 +135,7 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
        </tr> 
        <tr> 
        <td role="rowheader">Agile</td> 
-       <td>Especifique si se trata de un equipo ágil. Para obtener información sobre los equipos ágiles y cómo administrar su trabajo, consulte <a href="../../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md" class="MCXref xref">Crear un equipo ágil</a>.</td> 
+       <td>Especifique si se trata de un equipo Agile. Para obtener información sobre los equipos Agile y cómo administrar su trabajo, consulte <a href="../../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md" class="MCXref xref">Crear un equipo Agile</a>.</td> 
        </tr> 
        <tr> 
        <td role="rowheader">Trabajar en ello</td> 

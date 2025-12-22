@@ -6,10 +6,10 @@ description: Puede añadir historias a una iteración de muchas maneras.
 author: Jenny
 feature: Agile
 exl-id: b016fda1-789a-42b3-9f97-2c61c4ec0917
-source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '614'
-ht-degree: 81%
+ht-degree: 76%
 
 ---
 
@@ -83,7 +83,7 @@ Puede configurar equipos de Scrum individuales para que utilicen las fechas del 
 Puede añadir cualquier tarea o problema a cualquier iteración si tiene acceso de Administración al proyecto. Tenga en cuenta lo siguiente al mover una tarea o un problema a una iteración:
 
 * Si añade varios equipos, la tarea o el problema solo se pueden mostrar en la iteración de un equipo. Esta es la iteración que elige en el paso tres siguiente.
-* Si la tarea o el problema se asignan a un equipo ágil y se mueven a la iteración de otro equipo, la asignación del equipo no cambia.
+* Si la tarea o el problema se asignan a un equipo Agile y se mueven a la iteración de otro equipo, la asignación del equipo no cambia.
 * Si la tarea o el problema no se han asignado a un equipo, se asignará al equipo propietario de la iteración.
 * No se pueden añadir tareas principales a la iteración. Si añade tareas secundarias, la tarea principal aparece en el tablero de Scrum como un carril.
 
@@ -96,7 +96,7 @@ O
 Vaya al proyecto, informe o panel que contiene la tarea o el problema que desea agregar a una iteración. A continuación, seleccione una o varias tareas o problemas.
 
 1. Haga clic en **[!UICONTROL Más]** ![Icono de más](assets/more-icon.png) > **[!UICONTROL Agregar a la iteración]**.
-No puede asignar tareas o problemas asignados a equipos no ágiles.
+No puede asignar tareas o problemas asignados a equipos que no sean de Agile.
 
 1. En el cuadro **[!UICONTROL Agregar a]**, empiece a escribir el nombre de la iteración y selecciónela cuando aparezca en la lista.
 

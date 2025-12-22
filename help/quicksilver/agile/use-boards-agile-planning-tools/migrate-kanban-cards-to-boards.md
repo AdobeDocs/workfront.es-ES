@@ -2,24 +2,24 @@
 content-type: reference
 navigation-topic: boards
 title: Migración de las tarjetas Agile Team Kanban a los paneles de Workfront
-description: Puede migrar los elementos de trabajo de un tablero Kanban de un equipo Agile a un tablero de Workfront nuevo o existente.
+description: Puede migrar los elementos de trabajo de un panel Kanban de equipo Agile a un panel de Workfront nuevo o existente.
 author: Jenny
 feature: Agile
 exl-id: 72e3902b-af9a-497c-817f-63630c4fb73b
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '367'
-ht-degree: 87%
+ht-degree: 70%
 
 ---
 
-# Migrar tarjetas Kanban de equipo ágil a tableros de Workfront
+# Migración de tarjetas Kanban de equipo Agile a tableros de Workfront
 
-Puede migrar los elementos de trabajo de un tablero Kanban de un equipo Agile a un tablero de Workfront nuevo o existente. Al ejecutar la migración, todas las tarjetas del tablero Kanban se copian en el tablero de Workfront. No se le permite elegir tarjetas específicas.
+Puede migrar los elementos de trabajo de un panel Kanban de equipo Agile a un panel de Workfront nuevo o existente. Al ejecutar la migración, todas las tarjetas del tablero Kanban se copian en el tablero de Workfront. No se le permite elegir tarjetas específicas.
 
 La ubicación de las tarjetas en el tablero de Workfront se basa en las políticas de columna. (Por ejemplo, una directiva podría mover todas las tarjetas con el estado “En curso” a una columna específica. Para obtener más información sobre las directivas de columna, consulte [Administrar columnas del tablero](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md).) Si no hay directivas o las tarjetas no coinciden con las directivas, las tarjetas se colocan en la columna situada más a la izquierda del tablero. En este momento, las tarjetas de la columna Registro de asuntos pendientes del tablero heredado no se añaden al de Workfront.
 
-Las tarjetas no se eliminan del tablero Kanban del equipo ágil. Los cambios de estado de las tarjetas se sincronizan con ambos tableros. Puede mantener ambos tableros activos hasta que quiera cambiar a los tableros de Workfront.
+Las tarjetas no se eliminan del panel Kanban del equipo Agile y los cambios de estado de las tarjetas se sincronizarán con ambos paneles. Puede mantener ambos tableros activos hasta que quiera cambiar a los tableros de Workfront.
 
 ## Requisitos de acceso
 
@@ -30,7 +30,7 @@ Las tarjetas no se eliminan del tablero Kanban del equipo ágil. Los cambios de 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 

@@ -6,7 +6,7 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: b0e2ce08-d9f7-4fb5-b35c-ba979ab9d03e
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '2770'
 ht-degree: 99%
@@ -23,7 +23,7 @@ Para obtener sugerencias sobre cómo prepararse para la próxima versión, consu
 
 En lugar de un seminario web sobre la versión, le invitamos a registrarse para Adobe Summit y ver las siguientes sesiones de Workfront:
 
-[Experiencias de gran impacto: desde la creación de contenidos a la personalización](https://reg.adobe.com/flow/adobe/as23/sessions/page/catalog/session/1661982243928001D5Z9) del 21 de marzo de 2023, para aprender nuevas formas de crear, administrar y personalizar contenidos y ofrecer experiencias de gran impacto con mayor eficiencia. Esta sesión se transmitirá en directo para las audiencias virtuales.
+[Experiencias de gran impacto: desde la creación de contenidos a la personalización](https://reg.adobe.com/flow/adobe/as23/sessions/page/catalog/session/1661982243928001D5Z9) del 21 de marzo de 2023, para aprender nuevas formas de crear, administrar y personalizar contenidos y ofrecer experiencias de gran impacto con mayor eficiencia. Esta sesión se transmitirá en directo para los públicos virtuales.
 
 [El futuro de Adobe Workfront](https://reg.adobe.com/flow/adobe/as23/sessions/page/catalog/session/1661982239896001DoHU) del 23 de marzo de 2023, para conocer la visión de Workfront y su lugar dentro del ecosistema de Adobe y ver un adelanto de la futura hoja de ruta. Esta sesión se grabará y estará disponible más adelante como contenido bajo demanda.
 
@@ -35,7 +35,7 @@ En lugar de un seminario web sobre la versión, le invitamos a registrarse para 
 * [Mejoras de Agile](#agile-enhancements)
 * [Mejoras en la administración de proyectos](#project-management-enhancements)
 * [Mejoras en la administración de recursos](#resource-management-enhancements)
-* [Mejoras en los informes y paneles](#reports-and-dashboards-enhancements)
+* [Mejoras en los informes y paneles de control](#reports-and-dashboards-enhancements)
 * [Mejoras en la aplicación móvil](#mobile-enhancements)
 * [Otras mejoras](#other-enhancements)
 
@@ -270,7 +270,7 @@ En lugar de un seminario web sobre la versión, le invitamos a registrarse para 
                  <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Las colecciones ahora están disponibles en los tableros de Adobe Workfront</a></p>
-                        <p>Ahora puede crear colecciones en el panel de tableros. Una colección es un grupo de tableros para colaborar en un trabajo. Una vez que haya asignado un nombre a la colección, puede añadir tableros a la colección utilizando un conjunto de plantillas que ofrecen configuraciones predefinidas, como nombres de columnas. </p>
+                        <p>Ahora puede crear colecciones en el panel de control de tableros. Una colección es un grupo de tableros para colaborar en un trabajo. Una vez que haya asignado un nombre a la colección, puede añadir tableros a la colección utilizando un conjunto de plantillas que ofrecen configuraciones predefinidas, como nombres de columnas. </p>
                     </td>
                     <td><p><b>Disponible en estas fechas:</b></p>
                         <ul>
@@ -426,7 +426,7 @@ En lugar de un seminario web sobre la versión, le invitamos a registrarse para 
         </table>
 
 
-### Mejoras en los informes y paneles
+### Mejoras en los informes y paneles de control
 
 
 <table>
@@ -446,7 +446,7 @@ En lugar de un seminario web sobre la versión, le invitamos a registrarse para 
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-reports-dashboards.md" class="MCXref xref" xrefformat="{para}">Paneles del lienzo</a></p>
-                        <p>Los paneles de lienzo se han añadido como una función de trabajo en curso para los paneles que se pueden habilitar en las plantillas de diseño. Los paneles de lienzo permitirán combinar las visualizaciones del lienzo de informes con los informes existentes, además de las nuevas opciones de diseño. En la actualidad solo se admiten informes de listas, pero se añadirán más opciones a medida que continúe el desarrollo.</p>
+                        <p>Los paneles de control de lienzo se han añadido como una función de trabajo en curso para los paneles de control que se pueden habilitar en las plantillas de diseño. Los paneles de control de lienzo permitirán combinar las visualizaciones del lienzo de informes con los informes existentes, además de las nuevas opciones de diseño. En la actualidad solo se admiten informes de listas, pero se añadirán más opciones a medida que continúe el desarrollo.</p>
                     </td>
                     <td><p><b>Disponible en estas fechas:</b></p>
                         <ul>
@@ -653,7 +653,7 @@ Para obtener información sobre las versiones de API, consulte [Versiones de la 
 
 ### Actualizaciones de mantenimiento de Workfront 
 
-Para obtener información acerca de las actualizaciones de mantenimiento realizadas durante la versión 23.2, consulte [Actualizaciones de mantenimiento de Workfront](https://experienceleague.adobe.com/es/docs/workfront-known-issues/releases/current-updates).
+Para obtener información acerca de las actualizaciones de mantenimiento realizadas durante la versión 23.2, consulte [Actualizaciones de mantenimiento de Workfront](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates).
 
 ### Actualizaciones de aprendizaje
 

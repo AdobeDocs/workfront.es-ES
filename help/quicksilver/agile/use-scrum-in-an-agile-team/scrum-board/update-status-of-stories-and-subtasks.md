@@ -2,20 +2,20 @@
 product-area: agile-and-teams;projects
 navigation-topic: scrum-board
 title: Actualizar el estado de las historias y subtareas en el panel de exploración
-description: Puede cambiar el estado de una historia directamente desde el tablero de historias de Agile para reflejar cómo progresan las historias a través de la iteración o el proyecto.
+description: Puede cambiar el estado de una historia directamente desde el panel de historias de Agile para reflejar cómo progresan las historias a través de la iteración o el proyecto.
 author: Jenny
 feature: Agile
 exl-id: 3f414901-883c-45ac-b30a-60841e883e35
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '219'
-ht-degree: 94%
+ht-degree: 71%
 
 ---
 
 # Actualizar el estado de las historias y subtareas en el tablero de [!UICONTROL Scrum]
 
-Puede cambiar el estado de una historia directamente desde el tablero de historias de Agile para reflejar cómo progresan las historias a través de la iteración o el proyecto.
+Puede cambiar el estado de una historia directamente desde el panel de historias de Agile para reflejar cómo progresan las historias a través de la iteración o el proyecto.
 
 >[!NOTE]
 >

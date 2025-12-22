@@ -2,20 +2,20 @@
 product-area: agile-and-teams
 navigation-topic: iterations
 title: Crear una iteración
-description: Las iteraciones son un componente clave para los equipos ágiles de Scrum a la hora de planificar la capacidad de trabajo. [!DNL Adobe Workfront]  permite que los equipos ágiles de Scrum administren su trabajo creando múltiples iteraciones para satisfacer las necesidades del equipo.
+description: Las iteraciones son un componente clave para los equipos de Scrum Agile a la hora de planificar la capacidad de trabajo. [!DNL Adobe Workfront] permite que los equipos de Scrum Agile administren su trabajo creando múltiples iteraciones para satisfacer las necesidades del equipo.
 author: Jenny
 feature: Agile
 exl-id: a25cdd4a-f2e3-4b8a-a7f4-3757940b635e
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '1022'
-ht-degree: 79%
+ht-degree: 68%
 
 ---
 
 # Crear una iteración
 
-Las iteraciones son un componente clave para los equipos ágiles de Scrum a la hora de planificar la capacidad de trabajo. [!DNL Adobe Workfront] permite que los equipos ágiles de Scrum administren su trabajo creando múltiples iteraciones para satisfacer las necesidades del equipo.
+Las iteraciones son un componente clave para los equipos de Scrum Agile a la hora de planificar la capacidad de trabajo. [!DNL Adobe Workfront] permite que los equipos de Scrum Agile administren su trabajo creando múltiples iteraciones para satisfacer las necesidades del equipo.
 
 ## Requisitos de acceso
 
@@ -28,7 +28,7 @@ Las iteraciones son un componente clave para los equipos ágiles de Scrum a la h
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
@@ -75,7 +75,7 @@ Puede agregar una iteración en la lista para crear rápidamente una iteración 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL End Date]</strong></td> 
-      <td><p>Introduzca la fecha en la que debe finalizar la iteración. [!DNL Workfront] recomienda establecer una fecha de finalización que no sea superior a 4 semanas desde la fecha de inicio.</p><p>Sugerencia: asegúrese de elegir un día laborable como fecha de finalización. El gráfico de evolución solo utiliza días laborables en sus cálculos.<br>De manera predeterminada, el gráfico de evolución utiliza el horario predeterminado para definir los días laborables (tal como se describe en <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">Crear programación</a>). O bien, para incorporar días no laborables específicos del equipo, los equipos ágiles pueden elegir utilizar un horario alternativo (tal como se describe en “Definición de un horario de equipo alternativo para los gráficos de evolución” en <a href="../../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md" class="MCXref xref">Crear un equipo ágil</a>).</p></td> 
+      <td><p>Introduzca la fecha en la que debe finalizar la iteración. [!DNL Workfront] recomienda establecer una fecha de finalización que no sea superior a 4 semanas desde la fecha de inicio.</p><p>Sugerencia: asegúrese de elegir un día laborable como fecha de finalización. El gráfico de evolución solo utiliza días laborables en sus cálculos.<br>De manera predeterminada, el gráfico de evolución utiliza el horario predeterminado para definir los días laborables (tal como se describe en <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">Crear programación</a>). O bien, para incorporar días no laborables específicos del equipo, los equipos de Agile pueden elegir usar un horario alternativo (como se describe en "Definición de un horario de equipo alternativo para gráficos de evolución" en <a href="../../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md" class="MCXref xref">Crear un equipo Agile</a>).</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Capacity]</strong></td> 
@@ -123,7 +123,7 @@ Utilice la función [!UICONTROL Planificar iteración] para crear una iteración
      </tr> 
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL End Date]</strong> </td> 
-      <td><p>Especifique la fecha de finalización de la iteración. [!DNL Workfront] recomienda establecer una fecha de finalización no superior a 4 semanas desde la fecha de inicio.</p><p>Sugerencia: asegúrese de elegir un día laborable como fecha de finalización. El gráfico de evolución solo utiliza días laborables en sus cálculos.<br>De manera predeterminada, el gráfico de evolución utiliza el horario predeterminado para definir los días laborables (tal como se describe en <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">Crear programación</a>). O bien, para incorporar días no laborables específicos del equipo, los equipos Agile pueden elegir usar un horario alternativo (como se describe en <a href="../../../agile/use-scrum-in-an-agile-team/burndown/use-alt-team-schedule-burndown-charts.md" class="MCXref xref">Usar un horario de equipo alternativo para los gráficos de evolución</a>).</p></td> 
+      <td><p>Especifique la fecha de finalización de la iteración. [!DNL Workfront] recomienda establecer una fecha de finalización no superior a 4 semanas desde la fecha de inicio.</p><p>Sugerencia: asegúrese de elegir un día laborable como fecha de finalización. El gráfico de evolución solo utiliza días laborables en sus cálculos.<br>De manera predeterminada, el gráfico de evolución utiliza el horario predeterminado para definir los días laborables (tal como se describe en <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">Crear programación</a>). O bien, para incorporar días no laborables específicos del equipo, los equipos de Agile pueden elegir usar un horario alternativo (como se describe en <a href="../../../agile/use-scrum-in-an-agile-team/burndown/use-alt-team-schedule-burndown-charts.md" class="MCXref xref">Usar un horario de equipo alternativo para los gráficos de evolución</a>).</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Focus]</strong></td> 

@@ -6,9 +6,9 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 04b09d8f-71bf-4c5b-b2f3-09c714740969
-source-git-commit: f4c1f2170d826b4b6f1e8189e1fecc1edb6e0d97
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
-source-wordcount: '3231'
+source-wordcount: '3232'
 ht-degree: 99%
 
 ---
@@ -150,7 +150,7 @@ Estas mejoras estaban disponibles en el entorno de producción con la versión 2
                 </tr>
                 <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">El editor de cálculo de campos de formulario personalizados muestra información de error
-</a></p></p> <p>Editar cálculos para campos personalizados ahora es más fácil con información de error útil indicada directamente en el cálculo. Mientras crea un campo calculado en un formulario personalizado, los errores se resaltan en rosa. Cuando pasa el puntero encima de la parte resaltada, se muestra información del objeto para describir el problema.</p>
+</a></p></p> <p>Editar cálculos para campos personalizados ahora es más fácil con información de error útil indicada directamente en el cálculo. Mientras crea un campo calculado en un formulario personalizado, los errores se resaltan en rosa. Cuando pasa el puntero por encima de la parte resaltada, se muestra información del objeto para describir el problema.</p>
 </td>
     <td><b>Disponible en estas fechas:</b>
                         <ul>
@@ -678,7 +678,7 @@ Las campañas se lanzaron a la versión beta en vista previa con la versión 22.
                         <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Descripción ampliada del equipo</a></p>
                         <p>En el área Equipos, ya es posible ver la descripción completa del equipo haciendo clic en la descripción para mostrarla en una ventana emergente. Se puede hacer clic en cualquier dirección URL de la descripción en la ventana emergente y hacer clic en el texto de la descripción para editarlo (si tiene acceso para editar la configuración del equipo).</p>
                         <p>Anteriormente, la única manera de ver todo el contenido era desplazarse por la descripción en un área estrecha.</p>
-<p>Esta mejora en la descripción se aplica tanto a los equipos Agile como a los no Agile.</p>
+<p>Esta mejora en la descripción se aplica tanto a los equipos Agile como a los que no lo son.</p>
                     </td>
                     <td><p><b>Disponible en estas fechas:</b></p>
                         <ul>
@@ -705,7 +705,7 @@ Hemos lanzado una nueva versión del Visor de corrección de escritorio. Esta ac
 * Los usuarios de Windows se actualizarán automáticamente a la última versión al iniciar Desktop Proofing Viewer antes del 25 de julio. Si los usuarios de Windows no pueden abrir el visor de corrección de escritorio antes del 25, deberán reinstalar manualmente el visor para obtener la actualización.
 
 
-Con esta actualización, el Visualizador de prueba de escritorio será compatible con la versión 98 de Chrome para lograr una mayor compatibilidad con las pruebas interactivas.
+Con esta actualización, el Visualizador de revisión de escritorio será compatible con la versión 98 de Chrome para lograr una mayor compatibilidad con las revisiones interactivas.
 
 ### Mejoras de Workfront Fusion
 
@@ -733,11 +733,11 @@ Para obtener información sobre las versiones de API, consulte [Versiones de API
 
 ### Actualizaciones de mantenimiento de Workfront 
 
-Para obtener información acerca de las actualizaciones de mantenimiento realizadas durante la versión 22.3, consulte [Actualizaciones de mantenimiento de Workfront](https://experienceleague.adobe.com/es/docs/workfront-known-issues/releases/current-updates).
+Para obtener información acerca de las actualizaciones de mantenimiento realizadas durante la versión 22.3, consulte [Actualizaciones de mantenimiento de Workfront](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates).
 
 ### Seminario web sobre la versión 22.4
 
-El seminario web de la versión 22.4 tendrá lugar el jueves, 22 de septiembre de 2022 a las 9:00 (PDT). Puede [registrarse para el seminario web aquí](https://event.on24.com/wcc/r/3915365/9E496D02A98ECB8C86B1D2D09DDAA443?partnerref=prodmgt).
+El seminario web de la versión 22.4 se celebrará el jueves, 22 de septiembre de 2022 a las 9:00 AM PDT. Puede [registrarse para el seminario web aquí](https://event.on24.com/wcc/r/3915365/9E496D02A98ECB8C86B1D2D09DDAA443?partnerref=prodmgt).
 
 ### Actualizaciones de aprendizaje
 

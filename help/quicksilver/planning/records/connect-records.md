@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: 90d472307ffb6b524154696b4c14d725db44b079
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
-source-wordcount: '3359'
+source-wordcount: '3367'
 ht-degree: 45%
 
 ---
@@ -74,7 +74,7 @@ Puede conectar lo siguiente:
 <tr> 
 </tr>   
 <tr> 
-   <td role="rowheader"><p>paquete de Adobe Workfront</p></td> 
+   <td role="rowheader"><p>Paquete de Adobe Workfront</p></td> 
    <td> 
 <p>Cualquier Workfront y cualquier paquete de Planning</p>
 <p>Cualquier flujo de trabajo y cualquier paquete de Planning</p>
@@ -88,7 +88,7 @@ Puede conectar lo siguiente:
    <ul><li><p>Licencia de Adobe Experience Manager Assets e integración entre AEM Assets y Workfront para conectar recursos de AEM con tipos de Planning.</p>
    <p>Para obtener más información, consulte <a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">Adobe Workfront para Experience Manager Assets y Assets Essentials: índice de artículo</a>. </p></li>
    <li><p> Licencia de Adobe GenStudio for Performance Marketing para conectar tipos de registros con marcas de GenStudio</p>
-   <p>Para obtener más información, consulte <a href="https://experienceleague.adobe.com/es/docs/genstudio-for-performance-marketing/user-guide/get-started">Introducción a Adobe GenStudio for Performance Marketing</a>.</p></li></ul>
+   <p>Para obtener más información, consulte <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started">Introducción a Adobe GenStudio for Performance Marketing</a>.</p></li></ul>
    </td> 
   </tr>   
 <tr> 
@@ -392,7 +392,7 @@ Después de crear una conexión entre un tipo de registro y Adobe Experience Man
 
 >[!NOTE]
 >
->Se puede acceder a los registros de planificación y a sus campos desde Experience Manager Assets cuando el administrador de Workfront configura la asignación de metadatos mediante la integración entre Workfront y Adobe Experience Manager Assets. Para obtener más información, consulte [Configuración de la asignación de metadatos de recursos entre Adobe Workfront y Experience Manager Assets](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
+>Se puede acceder a los registros de planificación y a sus campos desde Experience Manager Assets cuando el administrador de Workfront configura la asignación de metadatos mediante la integración entre Workfront y Adobe Experience Manager Assets. Para obtener más información, consulte [Configuración de la asignación de metadatos de recursos entre Adobe Workfront y Experience Manager Assets](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
 
 Para conectar registros con recursos de Experience Manager:
 
@@ -478,7 +478,8 @@ Para conectar registros con recursos de Experience Manager:
 1. Haga clic en el nombre de un registro.
 
    Se abre la página de vista previa.
-1. (Opcional) Haga clic en el icono **Abrir en ficha nueva** ![Abrir detalles en un icono de ficha nueva](assets/open-details-in-a-new-tab-icon.png) para abrir la página del registro.
+1. (Opcional) Haga clic en el icono **Abrir en ficha nueva** ![Abrir detalles en un icono de ficha nueva](assets/open-details-in-a-new-tab-icon.png) para abrir la página del registro en una nueva ficha del explorador.
+   <!--1. (Optional and conditional) <span class="preview">Click the name of a record type in the breadcrumb of the record page header to access another record type in the same hierarchy. Hierarchies must exist for the record type of the record you are connecting before you can view them in the breadcrumb. For information, see [Create workspace hierarchies](/help/quicksilver/planning/architecture/create-workspace-hierarchies.md). </span>-->
 1. Haga clic en la ficha **Conexiones** de la vista previa o página del registro.
 
    ![Ficha Conexiones registrada en Workfront Planning](assets/connections-tab-on-record-in-workfront-planning.png)
@@ -531,7 +532,7 @@ Los registros y objetos se agregan inmediatamente.
 
    ![Botón de conexión resaltado en la ficha de detalles del registro conectado](assets/connect-button-highlighted-in-connected-record-details-tab.png)
 
-   Para obtener más información, vea [Administrar el diseño de la página de registros](/help/quicksilver/planning/records/manage-the-record-page.md).
+   Para obtener más información, vea [Agregar la página Registros conectados a un registro](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md).
 1. Haga clic en **Nueva fila** en una lista de proyectos para crear un proyecto sin plantilla. Los nuevos proyectos se conectan automáticamente al registro actual.
 1. (Opcional) Si no encuentra un registro conectado, haga clic en **+ Agregar** para crearlo y conectarlo.
 

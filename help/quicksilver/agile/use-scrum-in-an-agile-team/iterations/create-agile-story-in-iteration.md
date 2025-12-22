@@ -2,20 +2,20 @@
 product-area: agile-and-teams;projects
 navigation-topic: iterations
 title: Crear una historia de Agile en una iteración
-description: Este artículo describe cómo crear una nueva historia Agile cuando ya está en la iteración.
+description: Este artículo describe cómo crear una nueva historia de Agile cuando ya está en la iteración.
 author: Jenny
 feature: Agile
 exl-id: 9712e065-5fbf-4deb-a39f-36e0e918ed12
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '509'
-ht-degree: 26%
+ht-degree: 23%
 
 ---
 
-# Crear una historia Agile en una iteración
+# Crear una historia de Agile en una iteración
 
-Este artículo describe cómo crear una nueva historia Agile cuando ya está en la iteración. Para obtener información acerca de cómo crear una historia Agile a partir de una tarea, un problema u otra área de [!DNL Adobe Workfront], vea [Agregar historias a una iteración existente](../../../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md).
+Este artículo describe cómo crear una nueva historia de Agile cuando ya está en la iteración. Para obtener información sobre cómo crear una historia de Agile a partir de una tarea, un problema u otra área de [!DNL Adobe Workfront], vea [Agregar historias a una iteración existente](../../../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md).
 
 ## Requisitos de acceso
 
@@ -24,7 +24,7 @@ Este artículo describe cómo crear una nueva historia Agile cuando ya está en 
 <table style="table-layout:auto"> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
@@ -43,7 +43,7 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
 
 +++
 
-## Crear una historia Agile en una iteración
+## Crear una historia de Agile en una iteración
 
 1. Vaya a la iteración Agile en la que desea crear la historia:
 

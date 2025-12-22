@@ -2,14 +2,14 @@
 product-area: agile-and-teams;setup
 navigation-topic: get-started-with-agile-in-workfront
 title: Configurar Kanban
-description: Puede configurar las siguientes opciones para los equipos Agile de Kanban durante o después de crear el equipo.
+description: Puede configurar las siguientes opciones para los equipos de Agile de Kanban durante o después de crear el equipo.
 author: Jenny
 feature: Agile
 exl-id: b4c417a6-64c8-43e0-bace-b73572247b3e
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '1484'
-ht-degree: 95%
+ht-degree: 77%
 
 ---
 
@@ -17,16 +17,16 @@ ht-degree: 95%
 
 <!--Audited: 12/2023-->
 
-Puede crear un equipo ágil en [!DNL Adobe Workfront] tal como se describe en [Crear un equipo ágil](../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md). Al crear un equipo ágil, puede elegir la metodología que utiliza el equipo para completar su trabajo. Puede elegir entre las siguientes opciones:
+Puede crear un equipo Agile en [!DNL Adobe Workfront] tal como se describe en [Crear un equipo Agile](../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md). Al crear un equipo Agile, puede elegir la metodología que utiliza el equipo para completar su trabajo. Puede elegir entre las siguientes opciones:
 
 * Scrum
 * Kanban
 
-En este artículo se describe cómo configurar los ajustes de un equipo Kanban. Después de crear un equipo ágil y elegir la metodología Kanban, puede consultar este artículo para actualizar la siguiente configuración:
+En este artículo se describe cómo configurar los ajustes de un equipo Kanban. Después de crear un equipo Agile y elegir la metodología Kanban, puede consultar este artículo para actualizar la siguiente configuración:
 
 * Si las historias se estiman en puntos o en horas
-* Las columnas de estado del tablero de historias de Agile
-* Campos adicionales para mostrar en tarjetas de historia en el panel de historia ágil
+* Las columnas de estado del panel de historia de Agile
+* Campos adicionales para mostrar en tarjetas de historia en el panel de historia de Agile
 * Límite de trabajo en curso (WIP)
 * Cómo añadir automáticamente historias desde el registro de asuntos pendientes
 * Cuánto tiempo permanecen las tarjetas en el tablero Kanban
@@ -44,7 +44,7 @@ Para obtener información sobre cómo configurar un equipo de Scrum, consulte [C
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr>
 
@@ -70,12 +70,12 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
 
 Puede configurar las historias para que se estimen mediante puntos o horas.
 
-Para configurar cómo se calculan las historias para su equipo ágil:
+Para configurar cómo se calculan las historias para su equipo de Agile:
 
 {{step1-to-team}}
 
 1. Haga clic en el icono **[!UICONTROL Cambiar de equipo]**![](assets/switch-team-icon.png) y, a continuación, seleccione un nuevo equipo en el menú desplegable o busque un equipo en el cuadro de búsqueda.
-1. Seleccione el equipo ágil que desea administrar.
+1. Seleccione el equipo de Agile que desee gestionar.
 1. Haga clic en el menú **[!UICONTROL Más]** ![](assets/more-menu.png) y luego seleccione **[!UICONTROL Editar]**.
 
    ![Editar equipo](assets/edit-team-settings-350x205.png)
@@ -86,17 +86,17 @@ Para configurar cómo se calculan las historias para su equipo ágil:
 
 1. Haga clic en **[!UICONTROL Guardar cambios]**.
 
-## Configurar columnas de estado en el panel de historias ágiles
+## Configurar columnas de estado en el panel de historias de Agile
 
-Puede definir los estados que existen en el panel de historias para el equipo ágil. Estos son los únicos estados que se muestran en el panel de historias.
+Puede definir los estados que existen en el guion gráfico del equipo de Agile. Estos son los únicos estados que se muestran en el panel de historias.
 
-Para definir los estados disponibles para el tablero de historia asociado con el equipo Agile:
+Para definir los estados disponibles para el guion gráfico asociado con el equipo de Agile:
 
 {{step1-to-team}}
 
 1. Haga clic en el icono **[!UICONTROL Cambiar de equipo]** ![icono Cambiar de equipo](assets/switch-team-icon.png) y, a continuación, seleccione un nuevo equipo en el menú desplegable o busque un equipo en la barra de búsqueda.
 
-1. Seleccione el equipo ágil que desea administrar.
+1. Seleccione el equipo de Agile que desee gestionar.
 1. Haga clic en el menú **[!UICONTROL Más]** y luego seleccione **[!UICONTROL Editar]**.
 
    ![Editar equipo](assets/edit-team-settings-350x205.png)
@@ -118,7 +118,7 @@ Para definir los estados disponibles para el tablero de historia asociado con el
 
 1. Haga clic en **[!UICONTROL Guardar cambios]**.
 
-## Configurar campos adicionales para que se muestren en las tarjetas de historia en el tablero de historia de Agile
+## Configurar campos adicionales para que se muestren en tarjetas de historia en el panel de historia de Agile
 
 Cuando se añaden campos a las tarjetas de historia, los campos se muestran cuando se rellena el campo y son de solo lectura.
 
@@ -138,13 +138,13 @@ Se pueden mostrar datos adicionales (incluidos datos personalizados) en las tarj
 >
 >Si utiliza un campo personalizado en una tarjeta de historia, no puede contener un punto (o una coma) en el nombre.
 
-Para configurar las tarjetas de historia asignadas al equipo Agile para que muestren campos adicionales:
+Para configurar las tarjetas de historia asignadas al equipo de Agile para que muestren campos adicionales:
 
 {{step1-to-team}}
 
 1. Haga clic en el icono **[!UICONTROL Cambiar de equipo]** ![icono Cambiar de equipo](assets/switch-team-icon.png) y, a continuación, seleccione un nuevo equipo en el menú desplegable o busque un equipo en la barra de búsqueda.
 
-1. Seleccione el equipo ágil que desea administrar.
+1. Seleccione el equipo de Agile que desee gestionar.
 1. Haga clic en el menú **[!UICONTROL Más]** y luego seleccione **[!UICONTROL Editar]**.
 
    ![Editar equipo](assets/edit-team-settings-350x205.png)
@@ -161,7 +161,7 @@ Para configurar las tarjetas de historia asignadas al equipo Agile para que mues
 
 Al definir el límite de trabajo en curso de un equipo Kanban, puede controlar el número de elementos en los que trabaja el equipo actualmente, limitando el número de tareas que pueden aparecer en la columna [!UICONTROL Nuevo] o [!UICONTROL En curso] del tablero [!UICONTROL Kanban].
 
-Después de configurar el límite de trabajo en curso para un equipo Kanban, puede ver el límite de trabajo en curso y actualizarlo desde el tablero de historias de Agile de [!UICONTROL Kanban], tal como se describe en [Administrar el límite de trabajo en curso (WIP) en el tablero [!UICONTROL Kanban]](../../agile/use-kanban-in-an-agile-team/work-in-progress-limit-on-the-kanban-board.md).
+Después de configurar el límite de trabajo en curso para un equipo Kanban, puede ver el límite de trabajo en curso y actualizarlo desde el panel de artículos Agile [!UICONTROL Kanban], tal como se describe en [Administrar el límite de trabajo en curso (WIP) en el panel [!UICONTROL Kanban]](../../agile/use-kanban-in-an-agile-team/work-in-progress-limit-on-the-kanban-board.md).
 
 Para limitar el trabajo en curso para el equipo Kanban:
 
@@ -176,8 +176,8 @@ Para limitar el trabajo en curso para el equipo Kanban:
 
 1. En la sección **[!UICONTROL Agile]**, en el apartado **[!UICONTROL Metodología]**, compruebe que Kanban esté seleccionado.
 
-1. En la sección **[!UICONTROL Tablero de historias]**, en el campo **[!UICONTROL Límite de trabajo en curso]**, especifique el número máximo de elementos permitidos en cada columna del tablero de historias de Agile de [!UICONTROL Kanban]. Puede establecer un límite diferente para cada columna. El límite máximo que puede establecer para cada columna es 100.
-Cuando se establece, el límite de trabajo en curso muestra un mensaje de advertencia en el tablero de historias [!UICONTROL Kanban] de Agile cada vez que se supera el límite de cualquier columna del tablero de historias. Este mensaje de advertencia se muestra solo la primera vez que se supera el límite de trabajo en curso. Este mensaje de advertencia no se muestra en ninguna columna cuyo estado sea igual a [!UICONTROL Completado].
+1. En la sección **[!UICONTROL Panel de historias]**, en el campo **[!UICONTROL Límite de trabajo en curso]**, especifique el número máximo de elementos permitidos en cada columna del [!UICONTROL Panel de historias Agile] de {Kanban}. Puede establecer un límite diferente para cada columna. El límite máximo que puede establecer para cada columna es 100.
+Cuando se establece, el límite de trabajo en curso muestra un mensaje de advertencia en el panel de artículos de Agile [!UICONTROL Kanban] cada vez que se supera el límite de cualquier columna del panel de artículos. Este mensaje de advertencia se muestra solo la primera vez que se supera el límite de trabajo en curso. Este mensaje de advertencia no se muestra en ninguna columna cuyo estado sea igual a [!UICONTROL Completado].
 El límite de trabajo en curso es simplemente una advertencia visual y no limita a su equipo para tener más elementos en una sola columna que el límite establecido.
 
    ![Límite del trabajo en curso](assets/wip-limit-350x193.png)

@@ -6,7 +6,7 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 1c04c68b-7a7f-46ae-b750-2b1f79855de4
-source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '2020'
 ht-degree: 18%
@@ -99,9 +99,8 @@ Tenga en cuenta lo siguiente sobre la conexión de tipos de registros:
       * No se puede acceder a los campos de registros de planificación desde objetos de Workfront.
       * Los registros de Planning están visibles desde la sección Planning del objeto Workfront. Para obtener más información, consulte [Administrar conexiones de registro desde objetos de Workfront](/help/quicksilver/planning/records/manage-records-in-planning-section.md).
       * Puede crear un campo personalizado de conexión de Planning y adjuntarlo al formulario personalizado de un objeto de Workfront. Para obtener más información, consulte [Crear un formulario personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
-      * Se puede acceder a los campos de registro de planificación desde los recursos del Experience Manager cuando la persona con la función de administrador de Workfront configura la asignación de metadatos mediante la integración entre Workfront y Adobe Experience Manager Assets. Para obtener más información, consulte [Configurar la asignación de metadatos de recursos entre Adobe Workfront y Experience Manager Assets](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
+      * Se puede acceder a los campos de registro de planificación desde los recursos del Experience Manager cuando la persona con la función de administrador de Workfront configura la asignación de metadatos mediante la integración entre Workfront y Adobe Experience Manager Assets. Para obtener más información, consulte [Configurar la asignación de metadatos de recursos entre Adobe Workfront y Experience Manager Assets](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
       * No se puede acceder a los campos de registro de planificación desde Marcas en GenStudio for Performance Marketing.
-
 
    * **Cuando se agregan campos de búsqueda desde el registro u objeto al que se conecta**: además de crear un campo de registro vinculado, también puede conectarse a campos desde el registro conectado o el tipo de objeto que se denominan campos de búsqueda. Un campo vinculado (o de búsqueda) con información del registro al que se está conectando se muestra en el registro desde el que se está conectando.
 
@@ -126,6 +125,7 @@ Tenga en cuenta lo siguiente sobre la conexión de tipos de registros:
      >La información del campo de fecha de los objetos de Workfront se muestra en formato de 24 horas en Workfront Planning, independientemente de cómo se muestre en Workfront.
      >
      >Por ejemplo, si la fecha planificada de inicio de un proyecto se muestra como las 3:00 p.m. en Workfront, se mostrará como 15:00 en Workfront Planning en un campo de búsqueda importado.
+     <!--* <span class="preview">You must connect record types to be able to create hierarchies in Workfront Planning. When record type connections don't exist, they are automatically created when you create a hierarchy. For information, see [Create workspace hierarchies](/help/quicksilver/planning/architecture/create-workspace-hierarchies.md).</span>-->
 
 
 ## Tipos de conexión

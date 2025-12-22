@@ -7,10 +7,10 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4b54b9e6-d1bf-4802-9d6c-9c3d3b6a6583
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '1705'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -63,7 +63,7 @@ Para más información, consulte en el artículo.
 
 ## Interfaz mejorada para configurar estados para un equipo ágil {#improved-interface-for-configuring-statuses-for-an-agile-team}
 
-La interfaz para configurar los estados de un equipo ágil se ha actualizado con las siguientes mejoras:
+La interfaz para configurar los estados de un equipo Agile se ha actualizado con las siguientes mejoras:
 
 * Nueva apariencia
 * Reordenar columnas de estado mediante arrastrar y soltar 
@@ -145,13 +145,13 @@ Se ha deshabilitado temporalmente la exportación de datos desde el planificador
 
 Para obtener más información sobre cómo exportar los datos del Planificador de recursos a Excel, consulte la sección “Opción de exportación” en [Información general sobre la navegación del Planificador de recursos](../../../../resource-mgmt/resource-planning/resource-planner-navigation.md).
 
-Para participar en nuestro programa beta actual para el Planificador de recursos, consulte [Beta de rendimiento del Planificador de recursos.](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront?profile.language=es)
+Para participar en nuestro programa beta actual para el Planificador de recursos, consulte [Beta de rendimiento del Planificador de recursos.](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront)
 
 ## Configuración del sistema: Información de sesión en páginas externas {#system-setting-session-information-in-external-pages}
 
 El administrador de Workfront ahora puede restringir el uso de información de sesión (por ejemplo, ID de sesión) al crear una página externa.
 
-Antes de este cambio, los usuarios que podían crear páginas externas podían utilizar cualquier información de sesión al incrustar otros sitios en un panel de Workfront. 
+Antes de este cambio, los usuarios que podían crear páginas externas podían utilizar cualquier información de sesión al incrustar otros sitios en un panel de control de Workfront. 
 
 Para obtener más información sobre cómo configurar las preferencias del sistema en Workfront, consulte [Configurar las preferencias de seguridad del sistema](../../../../administration-and-setup/manage-workfront/security/configure-security-preferences.md).
 

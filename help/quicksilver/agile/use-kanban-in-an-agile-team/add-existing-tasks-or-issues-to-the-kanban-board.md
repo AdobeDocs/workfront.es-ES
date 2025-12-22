@@ -6,10 +6,10 @@ description: Puede agregar cualquier tarea o problema a un tablero Kanban si tie
 author: Jenny
 feature: Agile
 exl-id: 5f94a451-8530-478f-85c2-41bc15c22dd1
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '480'
-ht-degree: 31%
+ht-degree: 27%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 31%
 
 Puede agregar cualquier tarea o problema al tablero [!UICONTROL Kanban] si cuenta con acceso de administración al proyecto. Tenga en cuenta lo siguiente al mover una tarea o un problema al tablero [!UICONTROL Kanban]:
 
-* Si la tarea o el problema se asignan a un equipo ágil y se mueven al tablero [!UICONTROL Kanban] de otro equipo, la asignación del equipo no cambia.
+* Si la tarea o el problema se asignan a un equipo Agile y se mueven al tablero [!UICONTROL Kanban] de otro equipo, la asignación del equipo no cambia.
 * Si la tarea o el problema no están asignados a un equipo, se asignan al equipo propietario del panel Kanban.
 
 ## Requisitos de acceso
@@ -33,7 +33,7 @@ Puede agregar cualquier tarea o problema al tablero [!UICONTROL Kanban] si cuent
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 

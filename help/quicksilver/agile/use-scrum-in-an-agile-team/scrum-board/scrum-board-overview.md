@@ -3,14 +3,14 @@ content-type: overview
 product-area: agile-and-teams
 navigation-topic: scrum-board
 title: Información general del panel Scrum
-description: El tablero de historias de Agile de Scrum se muestra junto con el estado de finalización y el gráfico de evolución.
+description: El guion gráfico de Scrum Agile se muestra junto con el estado de finalización y el gráfico de evolución.
 author: Jenny
 feature: Agile
 exl-id: 584288bb-2d98-4b69-8deb-d3b8e54d328c
-source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '803'
-ht-degree: 76%
+ht-degree: 51%
 
 ---
 
@@ -18,10 +18,10 @@ ht-degree: 76%
 
 <!-- Audited: 5/2025 -->
 
-El tablero de historias de Agile de [!UICONTROL Scrum] se muestra junto con el estado de finalización y el gráfico de evolución. Estos componentes de Agile están disponibles en las siguientes situaciones en [!UICONTROL Adobe Workfront]:
+El guion gráfico de Agile [!UICONTROL Scrum] se muestra junto con el estado de finalización y el gráfico de evolución. Estos componentes de Agile están disponibles en las siguientes situaciones en [!UICONTROL Adobe Workfront]:
 
-* En iteraciones de Agile. Para obtener más información sobre el uso del tablero de historias de Agile, el gráfico de evolución y el estado de finalización en un entorno Agile puro (con registros de asuntos pendientes y una iteración), consulte [Trabajar en un entorno Agile](../../../agile/work-in-an-agile-environment/work-in-an-agile-environment.md).
-* Al ver un proyecto en una vista de Agile. Para obtener información sobre cómo aprovechar el tablero de historias de Agile, el gráfico de evolución y el estado de finalización dentro de un proyecto existente, consulte [Administrar un proyecto en la vista de Agile](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md).
+* En iteraciones Agile. Para obtener más información sobre el uso del guion gráfico de Agile, el gráfico de evolución y el estado de finalización en un entorno Agile puro (con trabajos pendientes y una iteración), consulte [Trabajar en un entorno Agile](../../../agile/work-in-an-agile-environment/work-in-an-agile-environment.md).
+* Al ver un proyecto en una vista de Agile. Para obtener información sobre cómo aprovechar el panel de historias de Agile, el gráfico de evolución y el estado de finalización dentro de un proyecto existente, consulte [Administrar un proyecto en la vista de Agile](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md).
 
 ![Iteración de Agile](assets/agile-iteration-with-callouts.png)
 
@@ -44,7 +44,7 @@ El tablero de historias consta de los siguientes elementos:
 
 * **Estados de la tarea**: indique el progreso de una historia en la iteración o proyecto en función de la columna de estado en la que se encuentre la historia.
 
-  Los estados de las tareas se pueden personalizar para el proyecto mediante la modificación de la vista Agile.
+  Los estados de tareas se pueden personalizar para el proyecto mediante la modificación de la vista de Agile.
 
 * **Ruta de natación**: Cuando una historia principal y sus subtareas aparecen en el guion gráfico, se crea una ruta de natación específica para la historia y sus subtareas. Esto proporciona una distinción visual para ver mejor el progreso de las subtareas de una historia en el tablero de historias.
 
@@ -67,10 +67,10 @@ Esta misma lógica se aplica a las subtareas de segundo nivel (subtareas de subt
 
 ## Relación entre el tablero de historias y el registro de asuntos pendientes
 
-El registro de asuntos pendientes de iteración muestra solo las historias o subtareas en las que puede establecer una estimación. Si una historia principal tiene subtareas que se muestran en el tablero de historias (porque están asignadas al mismo equipo Agile y pertenecen a la iteración), la tarea principal no se muestra en el registro de asuntos pendientes. En este caso, solo se muestran las subtareas en el registro de asuntos pendientes, mientras que las subtareas y la historia principal se muestran en el tablero de historias.
+El registro de asuntos pendientes de iteración muestra solo las historias o subtareas en las que puede establecer una estimación. Si un artículo principal tiene subtareas que se muestran en el guion gráfico (porque están asignadas al mismo equipo de Agile y pertenecen a la iteración), la tarea principal no se muestra en el registro de pendientes. En este caso, solo se muestran las subtareas en el registro de asuntos pendientes, mientras que las subtareas y la historia principal se muestran en el tablero de historias.
 
-Por ejemplo, supongamos que la historia A contiene la subtarea 1 y la subtarea 2 (y que ambas subtareas están asignadas al mismo equipo Agile). En esta situación, la historia A se muestra en el tablero de historias en un diagrama de flujo con la subtarea 1 y la subtarea 2. Sin embargo, en el registro de asuntos pendientes solo se muestran las subtareas 1 y 2.
+Por ejemplo, supongamos que el artículo A contiene la subtarea 1 y la subtarea 2 (y que ambas subtareas están asignadas al mismo equipo Agile). En esta situación, la historia A se muestra en el tablero de historias en un diagrama de flujo con la subtarea 1 y la subtarea 2. Sin embargo, en el registro de asuntos pendientes solo se muestran las subtareas 1 y 2.
 
-Esta misma lógica se aplica a las subtareas de segundo nivel (subtareas de subtareas). Si una subtarea tiene una o más subtareas de segundo nivel asignadas al mismo equipo Agile y pertenecen a la iteración, solamente se muestra la subtarea de segundo nivel en el registro de asuntos pendientes.
+Esta misma lógica se aplica a las subtareas de segundo nivel (subtareas de subtareas). Si una subtarea tiene una o más subtareas de segundo nivel asignadas al mismo equipo Agile y pertenecen a la iteración, sólo se mostrará la subtarea de segundo nivel en el registro de asuntos pendientes.
 
 Para obtener más información sobre el registro de pendientes, consulte [Administrar el registro de pendientes de Agile](../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md).

@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: d6140b05-26c3-4298-a2f9-53695aa021cb
-source-git-commit: 78cf61d219cd1214a0846a45e2725fce7a8ebb2c
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
-source-wordcount: '1465'
+source-wordcount: '1488'
 ht-degree: 4%
 
 ---
@@ -83,7 +83,7 @@ Para obtener información general acerca de la integración de GenStudio con Wor
    <td role="rowheader"><p>Funciones de usuario de Adobe GenStudio for Performance Marketing</p></td> 
    <td><p><ul><li>Cualquier función de usuario de GenStudio para acceder a campañas, productos y personas</li>
    <li>GenStudio System Manager para acceder a las activaciones <!--and Events--></li></ul>
-   Para obtener más información, consulte <a href="https://experienceleague.adobe.com/es/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">Funciones de usuario y permisos</a>. 
+   Para obtener más información, consulte <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">Funciones de usuario y permisos</a>. 
    </p>
   </td> 
   </tr>   
@@ -141,7 +141,7 @@ Para obtener más información sobre Adobe GenStudio for Performance Marketing, 
    <td role="rowheader"><p>Adobe GenStudio for Performance Marketing user roles</p></td> 
    <td><p><ul><li>Any GenStudio user role to access Campaigns, Products, and Personas</li>
    <li>GenSudio System Manager to access Activations ****** and Events*********</li></ul>
-   For information, see <a href="https://experienceleague.adobe.com/es/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
+   For information, see <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
    </p>
   </td> 
   </tr>   
@@ -195,6 +195,8 @@ Para obtener más información sobre Adobe GenStudio for Performance Marketing, 
    </table>
 
 * La actualización de la configuración del espacio de trabajo, los tipos de registro, las vistas y los campos de un espacio de trabajo de GenStudio es idéntica a la actualización de un espacio de trabajo de Workfront Planning con sus elementos.
+<!--Is this just preview?? * You can build hierarchies for the record types in the GenStudio workspace. For more information, see [Create workspace hierarchies](/help/quicksilver/planning/architecture/create-workspace-hierarchies.md).
+* You cannot include GenStudio Brands in a hierarchy. -->
 
 <!--
 ## Manage GenStudio workspace from Workfront Planning
@@ -297,10 +299,9 @@ Se copia un vínculo a la vista en el portapapeles.
       * **Exportar la vista actual**
 Para obtener más información, vea [Exportar registros desde la vista de tabla](/help/quicksilver/planning/records/export-records-from-the-table-view.md).
 
-        <!--
-         >[!NOTE]
-         >
-         >You cannot remove GenStudio users from record types in the GenStudio workspace, after you share that workspace or the record types with them.-->
+        >[!NOTE]
+        >
+        >No puede quitar usuarios de GenStudio de los tipos de registros de GenStudio Workspace después de compartir ese espacio de trabajo o los tipos de registros con ellos.
 
 1. Para administrar las vistas de tipo de registro, haga lo siguiente:
 
@@ -393,3 +394,15 @@ Para obtener más información, vea [Exportar registros desde la vista de tabla]
    >* Solo puede editar la configuración de un campo de GenStudio si tiene permisos de administración en GenStudio.
    >* No se puede eliminar un campo de GenStudio.
 
+<!--Is this just Preview?? Or direct to Prod?? 
+
+## Create workspace hierarchies in the GenStudio workspace
+
+Creating hierarchies in the GenStudio workspace is similar to creating hierarchies in any workspace. 
+
+>[!NOTE]
+>
+>You cannot add GenStudio Brands to a hierarchy in the GenStudio workspace.
+
+For information, see [Create workspace hierarchies](/help/quicksilver/planning/architecture/create-workspace-hierarchies.md)
+-->

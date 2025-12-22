@@ -6,10 +6,10 @@ description: El orden en que aparecen las historias en el tablero de historias n
 author: Jenny
 feature: Agile
 exl-id: 326d78e0-06de-4b98-8fa6-102e0fd89d76
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '407'
-ht-degree: 80%
+ht-degree: 73%
 
 ---
 
@@ -57,6 +57,6 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
 
 ## Cambiar el orden de las historias en un proyecto
 
-A diferencia de las iteraciones de Agile, no se puede cambiar el orden de la historia al ver un proyecto en una vista de Agile. Para modificar el orden de las historias de un proyecto, debe ver el proyecto en una vista estándar.
+A diferencia de las iteraciones de Agile, no se puede cambiar el orden de los artículos al ver un proyecto en una vista de Agile. Para modificar el orden de las historias de un proyecto, debe ver el proyecto en una vista estándar.
 
 Para obtener información sobre cómo cambiar la vista del proyecto, consulte [[!UICONTROL Administrar un proyecto] en la vista de [!UICONTROL Agile]](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md). En lugar de seleccionar una vista de Agile, seleccione una vista estándar.

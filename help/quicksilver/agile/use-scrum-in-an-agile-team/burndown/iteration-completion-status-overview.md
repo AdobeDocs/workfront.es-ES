@@ -7,10 +7,10 @@ description: La información de finalización descrita en este artículo se mues
 author: Jenny
 feature: Agile
 exl-id: cc6bebdb-f2aa-4e85-9f9f-15e7753d84cb
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '649'
-ht-degree: 87%
+ht-degree: 84%
 
 ---
 
@@ -37,7 +37,7 @@ La información disponible es la siguiente:
 
   Los puntos y las horas están asociados a las historias. Cuando un caso se marca como [!UICONTROL Completar], los puntos o las horas asociados con dicho caso se marcan como Completar.
 
-  De forma predeterminada, se utilizan puntos. Puede cambiar esto modificando la configuración de su equipo, tal como se describe en [Crear un equipo Agile](../../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md).
+  De forma predeterminada, se utilizan puntos. Puede cambiar esto modificando la configuración de su equipo, tal como se describe en [Crear un equipo ágil](../../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md).
 
 * **[!UICONTROL Puntos / Horas por día]:** (disponible solo en iteraciones) El número promedio de puntos u horas marcados [!UICONTROL Completar] cada día desde el comienzo de la iteración hasta el día actual.
 

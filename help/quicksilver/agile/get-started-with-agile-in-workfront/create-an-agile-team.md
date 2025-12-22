@@ -6,24 +6,24 @@ description: Adobe Workfront permite a los equipos de Agile completar el trabajo
 author: Jenny
 feature: Agile
 exl-id: 3afd16db-7829-4c9c-a981-461990c9dbc8
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '990'
-ht-degree: 13%
+ht-degree: 12%
 
 ---
 
-# Crear un equipo ágil
+# Crear un equipo Agile
 
 <!--Audited: 01/2024-->
 
 [!DNL Adobe Workfront] permite que los equipos de Agile completen el trabajo de forma incremental y organizada.
 
-Cualquier usuario de la organización puede ver el equipo Agile y todos los componentes Agile del equipo, incluidos el registro de pendientes, las iteraciones, el guion gráfico y las historias individuales. Sin embargo, solo los miembros del equipo con acceso de [!UICONTROL Editar] pueden realizar cambios en el trabajo asignado al equipo.
+Cualquier usuario de la organización puede ver el equipo de Agile y todos los componentes de Agile del equipo, incluidos el registro de pendientes, las iteraciones, el guion gráfico y las historias individuales. Sin embargo, solo los miembros del equipo con acceso de [!UICONTROL Editar] pueden realizar cambios en el trabajo asignado al equipo.
 
-[!DNL Workfront] admite las siguientes metodologías Agile:
+[!DNL Workfront] admite las siguientes metodologías de Agile:
 
-* **[!UICONTROL Scrum]**: los equipos tienen un trabajo pendiente que debe completarse. Cuando el equipo está listo para trabajar en una parte específica del trabajo, el trabajo se mueve del registro de pendientes a una iteración. Para obtener información más detallada sobre cómo administrar un equipo de Scrum, consulta [Scrum en un equipo Agile](../../agile/use-scrum-in-an-agile-team/scrum-in-an-agile-team.md).
+* **[!UICONTROL Scrum]**: los equipos tienen un trabajo pendiente que debe completarse. Cuando el equipo está listo para trabajar en una parte específica del trabajo, el trabajo se mueve del registro de pendientes a una iteración. Para obtener información más detallada sobre cómo administrar un equipo de Scrum, consulta [Scrum en un equipo ágil](../../agile/use-scrum-in-an-agile-team/scrum-in-an-agile-team.md).
 
 * **[!UICONTROL Kanban]:** Los equipos mueven el trabajo en la vista Kanban a través de estados predeterminados. Los estados predeterminados son: registro de pendientes, en proceso y listo. Para obtener información más detallada sobre cómo administrar un equipo Kanban, consulte [Kanban en un equipo Agile](../../agile/use-kanban-in-an-agile-team/using-kanban-in-an-agile-team.md).
 
@@ -38,14 +38,14 @@ Cualquier usuario de la organización puede ver el equipo Agile y todos los comp
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licencia de Adobe Workfront</td> 
    <td> <p>Estándar</p>
-   <p>Plan para crear un nuevo equipo Agile</p>
-  <p>Trabaje o superior para convertir un equipo en un equipo ágil</p> </td> 
+   <p>Planifique la creación de un nuevo equipo de Agile</p>
+  <p>Trabaje o superior para convertir un equipo en un equipo Agile</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -54,11 +54,11 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
 
 +++
 
-## Decidir una metodología ágil
+## Decidir una metodología Agile
 
-Puede utilizar una metodología Agile de Scrum o Kanban para su equipo Agile. Cada metodología ofrece varios beneficios. La forma en que trabaja su equipo Agile determina la metodología Agile que elija utilizar.
+Puede utilizar una metodología de Scrum o Kanban Agile para su equipo de Agile. Cada metodología ofrece varios beneficios. La forma en que trabaja su equipo de Agile determina la metodología de Agile que elija utilizar.
 
-Tanto la metodología Agile de Scrum como la de Kanban en [!DNL Workfront] le permiten mover historias a través de un guion gráfico para indicar un cambio de estado y el progreso de la historia.
+Las metodologías Scrum y Kanban Agile en [!DNL Workfront] le permiten mover historias a través de un guion gráfico para indicar un cambio de estado y el progreso de la historia.
 
 Las metodologías Scrum y Kanban Agile en [!DNL Workfront] difieren en los siguientes aspectos:
 
@@ -68,18 +68,18 @@ La metodología Agile [!DNL Kanban] de [!DNL Workfront] le permite mover más f�
 
 La siguiente funcionalidad es compatible con esta metodología:
 
-* Mostrar el registro de pendientes en el panel de historias Agile [!DNL Kanban].
+* Mostrar el registro de pendientes en el panel de historias de Agile [!DNL Kanban].
 Para obtener más información, consulte [Agregar el registro de pendientes al tablero [!UICONTROL Kanban]](../../agile/use-kanban-in-an-agile-team/view-the-backlog-on-the-kanban-board.md).
 
-* Configure los elementos del registro de pendientes para que se agreguen automáticamente al panel de historias ágil [!UICONTROL Kanban] cuando otros elementos se muevan a un estado que sea igual a Completo.
+* Configure los elementos del registro de pendientes para que se agreguen automáticamente al panel de historias de [!UICONTROL Kanban] Agile cuando otros elementos se muevan a un estado equivalente a Completo.
 Para obtener más información, consulte la sección [Configurar historias para que se agreguen automáticamente del registro de pendientes](../../agile/get-started-with-agile-in-workfront/configure-kanban.md#configur5) en el artículo [Configurar Kanban](../../agile/get-started-with-agile-in-workfront/configure-kanban.md).
 
-* Configure un límite de trabajo en curso (WIP) para que se muestre en el [!UICONTROL Panel de historias Agile de Kanban].
+* Configure un límite de trabajo en curso (WIP) para que se muestre en el [!UICONTROL Panel de historias Kanban] Agile.
 Para obtener más información, consulte [Administrar el límite de trabajo en curso (WIP) en el Panel Kanban](../../agile/use-kanban-in-an-agile-team/work-in-progress-limit-on-the-kanban-board.md).
 
 ### Ventajas de usar Scrum en [!DNL Workfront]
 
-La metodología Scrum agile de [!DNL Workfront] le permite agregar un conjunto de historias a una iteración Agile y crear un guion gráfico para esa iteración. La iteración se basa en las fechas de inicio y finalización definidas.
+La metodología Scrum Agile en [!DNL Workfront] le permite agregar un conjunto de historias a una iteración Agile y crear un guion gráfico para esa iteración. La iteración se basa en las fechas de inicio y finalización definidas.
 
 La siguiente funcionalidad es compatible con esta metodología:
 
@@ -89,7 +89,7 @@ La siguiente funcionalidad es compatible con esta metodología:
 * Ver un gráfico de evolución para ver el progreso de las historias durante la iteración
 Para obtener más información, consulte [Resumen del gráfico de evolución de Agile](../../agile/use-scrum-in-an-agile-team/burndown/burndown-chart-overview.md).
 
-## Crear un equipo ágil
+## Crear un equipo Agile
 
 {{step1-to-team}}
 
@@ -122,7 +122,7 @@ Para obtener más información, consulte [Resumen del gráfico de evolución de 
 
    <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
       <td role="rowheader"><strong>[!UICONTROL Group]</strong> </td> 
-      <td> <p>Empiece a escribir el nombre de un grupo para agregarlo al equipo y, a continuación, seleccione el nombre cuando aparezca en la lista desplegable.</p> <p><b>NOTA</b></p> <p> Cuando se asigna un equipo a un grupo o subgrupo, cualquier administrador de grupo de ese grupo o subgrupo puede administrar el equipo sin ser miembro del equipo. Los administradores del grupo pueden ir al área de [!UICONTROL Teams] desde el menú principal de  y hacer clic en la flecha <img src="assets/switch-team-icon.png" alt="Icono Cambiar de equipo"> de [!UICONTROL Switch Teams] para ver una lista de todos los equipos asignados a los grupos que administran.</p> </td> 
+      <td> <p>Empiece a escribir el nombre de un grupo para agregarlo al equipo y, a continuación, seleccione el nombre cuando aparezca en la lista desplegable.</p> <p><b>NOTA</b></p> <p> Cuando se asigna un equipo a un grupo o subgrupo, cualquier administrador de grupo de ese grupo o subgrupo puede administrar el equipo sin ser miembro del equipo. Los administradores del grupo pueden ir al área de [!UICONTROL Teams] desde el menú principal de [!UICONTROL] y hacer clic en la flecha <img src="assets/switch-team-icon.png" alt="Icono Cambiar de equipo"> de [!UICONTROL Switch Teams] para ver una lista de todos los equipos asignados a los grupos que administran.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Miembros del equipo]</strong> </td> 
@@ -131,7 +131,7 @@ Para obtener más información, consulte [Resumen del gráfico de evolución de 
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Descripción]</strong> </td> 
       <td><p>Escriba una descripción para el equipo.</p> <p>La descripción se muestra en la parte superior derecha del área de [!UICONTROL Teams] cuando se selecciona el equipo.</p>
-      <p>Si la descripción es larga, puede hacer clic en ella para mostrar la descripción completa en una ventana emergente. Si tiene acceso para editar la configuración del equipo de , también puede editar la descripción directamente en la ventana emergente.</p></td>
+      <p>Si la descripción es larga, puede hacer clic en ella para mostrar la descripción completa en una ventana emergente. Si tiene acceso para editar la configuración del equipo de [!UICONTROL], también puede editar la descripción directamente en la ventana emergente.</p></td>
      </tr> 
     </tbody> 
    </table>
@@ -159,7 +159,7 @@ Puede convertir un equipo existente en un equipo Agile:
 
 1. En la sección **[!UICONTROL Agile]**, seleccione **[!UICONTROL Este es un equipo Agile]**.
 
-1. En la sección **[!UICONTROL Metodología]**, seleccione si el equipo utilizará una metodología ágil de **[!UICONTROL Scrum]** o **[!UICONTROL Kanban]**.
+1. En la sección **[!UICONTROL Metodología]**, seleccione si el equipo utilizará una metodología Agile de **[!UICONTROL Scrum]** o **[!UICONTROL Kanban]**.
 
 1. Haga clic en **Guardar cambios**.
 

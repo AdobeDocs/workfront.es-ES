@@ -6,7 +6,7 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: e86524d3-5f57-45b6-8582-102d2de92be4
-source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '2462'
 ht-degree: 99%
@@ -123,7 +123,7 @@ El seminario web de la versión 23.1 tuvo lugar el martes 10 de enero de 2023. P
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Planificación de Scrum para tableros de Workfront</a><span style="color: #ff0000;"> Muy pronto</span></p>
-                        <p>Las nuevas funciones de planificación de Scrum en los tableros de Adobe Workfront ofrecen opciones flexibles para administrar sus procesos de Agile. Con estas herramientas, puede hacer lo siguiente:
+                        <p>Las nuevas funciones de planificación de Scrum en los tableros de Adobe Workfront ofrecen opciones flexibles para administrar los procesos de Agile. Con estas herramientas, puede hacer lo siguiente:
                         <ul>
                         <li>Realizar un seguimiento del trabajo en iteraciones o sprints</li>
                         <li>Usar la velocidad para guiar los compromisos del equipo</li>
@@ -521,7 +521,7 @@ Para obtener información sobre las versiones de la API, consulte [Versiones de 
 
 ### Actualizaciones de mantenimiento de Workfront 
 
-Para obtener información acerca de las actualizaciones de mantenimiento realizadas durante la versión 22.3, consulte [Actualizaciones de mantenimiento de Workfront](https://experienceleague.adobe.com/es/docs/workfront-known-issues/releases/current-updates).
+Para obtener información acerca de las actualizaciones de mantenimiento realizadas durante la versión 22.3, consulte [Actualizaciones de mantenimiento de Workfront](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates).
 
 ### Actualizaciones de aprendizaje
 

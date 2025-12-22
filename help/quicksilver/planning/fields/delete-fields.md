@@ -6,10 +6,10 @@ role: User, Admin
 recommendations: noDisplay, noCatalog
 author: Alina
 exl-id: ec48db42-2395-4439-97ae-e4f5242170b7
-source-git-commit: 476e10f2962f19fd17705cb5f20619d3b636aaa4
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
-source-wordcount: '401'
-ht-degree: 58%
+source-wordcount: '644'
+ht-degree: 36%
 
 ---
 
@@ -17,9 +17,9 @@ ht-degree: 58%
 
 # Eliminación de campos
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después de las versiones mensuales en Production, las mismas funciones también están disponibles en el entorno Production para los clientes que habilitaron versiones rápidas. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -28,23 +28,6 @@ En Adobe Workfront Planning, puede crear campos personalizados para almacenar in
 Para obtener información acerca de cómo crear campos personalizados en Workfront Planning, consulte [Crear campos](/help/quicksilver/planning/fields/create-fields.md).
 
 Puede eliminar los campos de Workfront Planning que ya no sean relevantes.
-
-## Consideraciones sobre la eliminación de campos de Workfront Planning:
-
-* Solo puede eliminar un campo en la vista de tabla de tipo de registro.
-* No se puede eliminar el campo principal de un registro.
-* La información almacenada en el campo se elimina y no se puede recuperar.
-* Al eliminar un campo de registro conectado, todos los campos de búsqueda conectados también se eliminan del tipo de registro desde el que se conecta. Los campos de registro conectados de los tipos de registro a los que se conecta también se eliminan del registro al que se conecta.
-
-  Por ejemplo, cuando conecta campañas a otro tipo de registro llamado producto y elimina el campo Producto conectado y el campo de búsqueda Estado del producto de la campaña, se eliminan los siguientes elementos:
-
-   * El campo Product connected de la campaña
-   * El campo de búsqueda Estado del producto de la campaña
-   * El campo conectado a Campaign desde el producto.
-
-  Para obtener más información, consulte [Conectar tipos de registros](/help/quicksilver/planning/architecture/connect-record-types.md).
-
-<!-- this is not possible yet, since fields cannot be shared yet; maybe move this up a bit, in this bullet list: * When you delete a field, it is deleted from all records associated with the field.-->
 
 ## Requisitos de acceso
 
@@ -67,12 +50,10 @@ Puede eliminar los campos de Workfront Planning que ya no sean relevantes.
 O
 <li><p>Cualquier flujo de trabajo y cualquier paquete de Planning</p></li></ul>
 
-<!--
-<p><span class="preview">To delete global record types:</span</p>
-<ul><li><p><span class="preview">Any Workfront package and a Planning Plus package</span></p></li>
-Or
-<li><p><span class="preview">Workflow and Planning Prime and Ultimate packages</span></p></li></ul>
--->
+<p><span class="preview">Para eliminar campos de los tipos de registros globales:</span></p>
+<ul><li><p><span class="preview">Cualquier paquete Workfront y un paquete Planning Plus</span></p></li>
+O
+<li><p><span class="preview">Cualquier paquete de flujo de trabajo y planificación de Prime y Ultimate</span></p></li></ul>
 
 <p>Para obtener más información sobre lo que se incluye en cada paquete de Workfront Planning, póngase en contacto con su representante de cuentas de Workfront. </p> 
    </td> 
@@ -151,6 +132,25 @@ Para obtener más información acerca de los requisitos de acceso de Workfront, 
 </tbody> 
 </table> -->
 
+## Consideraciones sobre la eliminación de campos de Workfront Planning:
+
+* Solo puede eliminar un campo en la vista de tabla de tipo de registro.
+* No se puede eliminar el campo principal de un registro.
+* La información almacenada en el campo se elimina y no se puede recuperar.
+* Al eliminar un campo de registro conectado, todos los campos de búsqueda conectados también se eliminan del tipo de registro desde el que se conecta. Los campos de registro conectados de los tipos de registro a los que se conecta también se eliminan del registro al que se conecta.
+
+  Por ejemplo, cuando conecta Campaigns a otro tipo de registro llamado Product y elimina el campo Product connected y el campo de búsqueda Product&#39;s Status de la campaña, se eliminan los siguientes elementos:
+
+   * El campo Product connected de la campaña
+   * El campo de búsqueda Estado del producto de la campaña
+   * El campo conectado a Campaign desde el producto
+
+  Para obtener más información, consulte [Conectar tipos de registro](/help/quicksilver/planning/architecture/connect-record-types.md).
+
+<!-- this is not possible yet, since fields cannot be shared yet; maybe move this up a bit, in this bullet list: * When you delete a field, it is deleted from all records associated with the field.-->
+
+* <span class="preview">No se pueden eliminar campos de registros globales que se hayan agregado a espacios de trabajo secundarios desde los espacios de trabajo secundarios.</span>
+
 ## Eliminación de campos
 
 <!--When they release the sharing of fields between other records, revise this section.  -->
@@ -177,4 +177,11 @@ Para obtener más información acerca de los requisitos de acceso de Workfront, 
 
 1. Haga clic en **Eliminar** para confirmar.
 
-   El campo se elimina, no se puede recuperar y ya no se puede asociar a ningún registro.
+   Los campos eliminados no se pueden recuperar.
+
+   Dependiendo del tipo de campo que elimine, ocurre lo siguiente:
+
+   * Si elimina un campo que pertenece al registro seleccionado, el campo se elimina y ya no se puede asociar con ningún registro. Si este campo se agrega como un campo de búsqueda en otros registros, esos campos también se eliminan.
+   * Si elimina un campo de conexión, el campo se elimina del registro seleccionado. Además, también se elimina el campo de conexión correspondiente de su registro original.
+   * Si elimina un campo de búsqueda que se agregó desde un registro conectado, el campo se eliminará del tipo de registro seleccionado, pero permanecerá en su tipo de registro original.
+   * <span class="preview">Si elimina un campo de un tipo de registro global en su área de trabajo principal, se eliminará de todos los espacios de trabajo donde se haya agregado ese tipo de registro. No se pueden eliminar campos de los tipos de registros globales de sus espacios de trabajo secundarios.</span>

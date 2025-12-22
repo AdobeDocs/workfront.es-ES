@@ -3,10 +3,10 @@ user-guide-title: Guía de Workfront
 user-guide-description: Utilice los siguientes documentos, tutoriales y recursos adicionales para aprender a implementar y utilizar Adobe Workfront de forma eficaz en su organización.
 role: User
 feature-set: Workfront
-source-git-commit: 7a29fcef1ee9a3010b7efc0713b5bbe9ca48b5cc
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '13634'
-ht-degree: 58%
+ht-degree: 57%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 58%
          * [Mejoras de proyecto del cuarto trimestre de 2025](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-project.md)
          * [Mejoras en las solicitudes del cuarto trimestre de 2025](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-requests.md)
          * [Mejoras en la gestión de recursos del cuarto trimestre de 2025](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-resource-mgmt.md)
-         * [Otras mejoras del cuarto trimestre de 2025 &#x200B;](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-other.md)
+         * [Otras mejoras del cuarto trimestre de 2025 ](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-other.md)
          * [Actualizaciones de aspecto durante el periodo de tiempo de la versión del cuarto trimestre de 2025](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-look-and-feel-updates.md)
       * Versión del tercer trimestre de 2025 {#release-25-q3}
          * [Resumen de la versión del tercer trimestre de 2025](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-release-overview.md)
@@ -1053,7 +1053,7 @@ ht-degree: 58%
       * [Añadir una columna de aceptación a un tablero](agile/use-boards-agile-planning-tools/add-intake-column-to-board.md)
       * [Usar grupos en un tablero](agile/use-boards-agile-planning-tools/group-cards-on-board.md)
       * [Configurar la caída de tarjetas](agile/use-boards-agile-planning-tools/configure-card-falloff.md)
-      * [Migrar tarjetas Kanban de equipo ágil a tableros de Workfront](/help/quicksilver/agile/use-boards-agile-planning-tools/migrate-kanban-cards-to-boards.md)
+      * [Migración de tarjetas Kanban de equipo Agile a tableros de Workfront](/help/quicksilver/agile/use-boards-agile-planning-tools/migrate-kanban-cards-to-boards.md)
       * [Administrar flujos de trabajo](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md)
       * [Usar la lista de tarjetas](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md)
       * [Crear una iteración en un flujo de trabajo](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md)
@@ -1062,11 +1062,11 @@ ht-degree: 58%
    * [Información general sobre Agile](agile/agile-overview.md)
    * Introducción a Agile en Adobe Workfront {#agile-in-workfront}
       * [Introducción a Agile en Adobe Workfront](agile/get-started-with-agile-in-workfront/get-started-with-agile.md)
-      * [Crear un equipo ágil](agile/get-started-with-agile-in-workfront/create-an-agile-team.md)
+      * [Crear un equipo Agile](agile/get-started-with-agile-in-workfront/create-an-agile-team.md)
       * [Configurar Kanban](agile/get-started-with-agile-in-workfront/configure-kanban.md)
       * [Configurar Scrum](agile/get-started-with-agile-in-workfront/configure-scrum.md)
-   * Kanban en un equipo ágil {#kanban}
-      * [Kanban en un equipo ágil](agile/use-kanban-in-an-agile-team/using-kanban-in-an-agile-team.md)
+   * Kanban en un equipo Agile {#kanban}
+      * [Kanban en un equipo Agile](agile/use-kanban-in-an-agile-team/using-kanban-in-an-agile-team.md)
       * [Resumen de Kanban](agile/use-kanban-in-an-agile-team/kanban-overview.md)
       * [Añadir una subtarea a un artículo existente en el tablero Kanban](agile/use-kanban-in-an-agile-team/add-a-subtask-to-an-existing-story.md)
       * [Agregar tareas o problemas existentes al tablero Kanban](agile/use-kanban-in-an-agile-team/add-existing-tasks-or-issues-to-the-kanban-board.md)
@@ -1080,8 +1080,8 @@ ht-degree: 58%
       * [Usar indicadores en las historias del tablero Kanban](agile/use-kanban-in-an-agile-team/use-flags-on-stories.md)
       * [Añadir el registro de asuntos pendientes al tablero Kanban](agile/use-kanban-in-an-agile-team/view-the-backlog-on-the-kanban-board.md)
       * [Eliminar una historia del tablero Kanban](agile/use-kanban-in-an-agile-team/delete-story-from-kanban-board.md)
-   * Scrum en un equipo ágil {#scrum}
-      * [Scrum en un equipo ágil](agile/use-scrum-in-an-agile-team/scrum-in-an-agile-team.md)
+   * Scrum en un equipo Agile {#scrum}
+      * [Scrum en un equipo Agile](agile/use-scrum-in-an-agile-team/scrum-in-an-agile-team.md)
       * Evolución {#burndown}
          * [Evolución](agile/use-scrum-in-an-agile-team/burndown/burndown.md)
          * [Resumen del gráfico de evolución Agile](agile/use-scrum-in-an-agile-team/burndown/burndown-chart-overview.md)
@@ -1093,7 +1093,7 @@ ht-degree: 58%
          * [Iteraciones](agile/use-scrum-in-an-agile-team/iterations/iterations.md)
          * [Información general sobre las iteraciones](agile/use-scrum-in-an-agile-team/iterations/iterations-overview.md)
          * [Crear una iteración](agile/use-scrum-in-an-agile-team/iterations/create-an-iteration.md)
-         * [Crear una historia Agile en una iteración](agile/use-scrum-in-an-agile-team/iterations/create-agile-story-in-iteration.md)
+         * [Crear una historia de Agile en una iteración](agile/use-scrum-in-an-agile-team/iterations/create-agile-story-in-iteration.md)
          * [Añadir usuarios a una iteración existente](agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md)
          * [Ver una iteración](agile/use-scrum-in-an-agile-team/iterations/view-iteration.md)
          * [Eliminar una iteración](agile/use-scrum-in-an-agile-team/iterations/delete-iteration.md)
@@ -1114,9 +1114,9 @@ ht-degree: 58%
       * [Crear una historia de Agile](agile/work-in-an-agile-environment/create-an-agile-story.md)
       * [Administrar el registro de pendientes de Agile](agile/work-in-an-agile-environment/manage-the-agile-backlog.md)
       * [Mover una historia de Agile](agile/work-in-an-agile-environment/move-an-agile-story.md)
-   * Sugerencias, trucos y solución de problemas para Agile {#tips-tricks-agile}
+   * Sugerencias, trucos y solución de problemas de Agile {#tips-tricks-agile}
       * [Sugerencias, trucos y solución de problemas para Agile](agile/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-agile.md)
-      * [Los estados personalizados no aparecen en el panel de historias Agile](agile/tips-tricks-and-troubleshooting/custom-status-does-not-show.md)
+      * [Los estados personalizados no aparecen en el panel de historias de Agile](agile/tips-tricks-and-troubleshooting/custom-status-does-not-show.md)
 * Documentos {#documents}
    * [Documentos: índice de artículos](documents/documents-overview.md)
    * Añadir nuevos documentos a Adobe Workfront {#add-new-documents-to-workfront}
@@ -1779,7 +1779,7 @@ ht-degree: 58%
    * [Administrar recursos: índice de artículos](resource-mgmt/manage-resources.md)
    * Administración de recursos {#resource-management}
       * [Administración de recursos: índice de artículos](resource-mgmt/resource-mgmt-overview/resource-management-overview.md)
-      * [Introducción a la Administración de recursos &#x200B;](resource-mgmt/resource-mgmt-overview/get-started-resource-management.md)
+      * [Introducción a la Administración de recursos ](resource-mgmt/resource-mgmt-overview/get-started-resource-management.md)
    * Planificación de recursos en Adobe Workfront {#resource-planning-in-adobe-workfront}
       * [Planificación de recursos: índice de artículos](resource-mgmt/resource-planning/resource-planning-overview.md)
       * Conjuntos de recursos {#resource-pools}

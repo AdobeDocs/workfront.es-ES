@@ -6,7 +6,7 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: 90d472307ffb6b524154696b4c14d725db44b079
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '2838'
 ht-degree: 40%
@@ -67,7 +67,7 @@ Para ver un ejemplo de conexión de tipos de registros y registros, consulte [Ej
 <tr> 
 </tr> 
 <tr> 
-   <td role="rowheader"><p>paquete de Adobe Workfront</p></td> 
+   <td role="rowheader"><p>Paquete de Adobe Workfront</p></td> 
    <td> 
 <p>Para conectar tipos de registros desde el mismo espacio de trabajo: </p>
 <ul> 
@@ -89,7 +89,7 @@ Para ver un ejemplo de conexión de tipos de registros y registros, consulte [Ej
    <ul><li><p>Licencia de Adobe Experience Manager Assets e integración entre AEM Assets y Workfront para conectar recursos de AEM con tipos de registros de Planning.</p>
    <p>Para obtener más información, consulte <a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">Adobe Workfront para Experience Manager Assets y Assets Essentials: índice de artículo</a>. </p></li>
    <li><p> Licencia de Adobe GenStudio for Performance Marketing para conectar tipos de registros con marcas de GenStudio</p>
-   <p>Para obtener más información, consulte <a href="https://experienceleague.adobe.com/es/docs/genstudio-for-performance-marketing/user-guide/get-started">Introducción a Adobe GenStudio for Performance Marketing</a>.</p></li></ul>
+   <p>Para obtener más información, consulte <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started">Introducción a Adobe GenStudio for Performance Marketing</a>.</p></li></ul>
    </td> 
   </tr> 
   <tr> 
@@ -252,8 +252,9 @@ Para obtener más información acerca de los requisitos de acceso de Workfront, 
 
    >[!TIP]
    >
-   >Además de <span class="preview">el límite de 30 campos de conexión para un tipo de registro</span>, hay un límite de 500 campos para un tipo de registro. Se recomienda mantener esta configuración desactivada, especialmente para los tipos de registros taxonómicos, para evitar alcanzar este límite.
+   >* Además de <span class="preview">el límite de 30 campos de conexión para un tipo de registro</span>, hay un límite de 500 campos para un tipo de registro. Se recomienda mantener esta configuración desactivada, especialmente para los tipos de registros taxonómicos, para evitar alcanzar este límite.
    >
+   > <!--* <span class="preview">Selecting the **Create corresponding field on linked record type** is a prerequisite for creating hierarchies.</span>-_>
 
 1. (Condicional) Si habilitó **Crear campo correspondiente en el tipo de registro vinculado**, elija entre las siguientes opciones para indicar cuántos registros se pueden conectar y desde los que se pueden conectar los usuarios:
 
@@ -278,7 +279,7 @@ Para obtener más información acerca de los requisitos de acceso de Workfront, 
 
    >[!NOTE]
    >
-   >El administrador de Workfront puede asignar campos de Workfront Planning a campos de Experience Manager Assets a través de la asignación de metadatos en Workfront. Para obtener más información, consulte [Configuración de la asignación de metadatos de recursos entre Adobe Workfront y Experience Manager Assets](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
+   >El administrador de Workfront puede asignar campos de Workfront Planning a campos de Experience Manager Assets a través de la asignación de metadatos en Workfront. Para obtener más información, consulte [Configuración de la asignación de metadatos de recursos entre Adobe Workfront y Experience Manager Assets](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
 
 
 1. (Condicional) Cuando seleccione conectarse a Experience Manager Assets, a un tipo de registro de Workfront Planning o a una marca de GenStudio, elija una de las siguientes opciones en el área **Apariencia del registro**:

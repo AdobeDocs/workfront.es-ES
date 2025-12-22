@@ -3,32 +3,32 @@ content-type: overview
 product-area: agile-and-teams
 navigation-topic: agile-navigation-topic
 title: Información general de Agile
-description: Agile es una metodología de trabajo que permite a los equipos completar cantidades pequeñas y manejables de trabajo a una cadencia coherente. En Agile, los equipos administran las historias en un registro de pendientes o tablero de historias y no las tareas de un proyecto. [!DNL Adobe Workfront] proporciona herramientas que ayudan a los equipos a trabajar de manera ágil.
+description: Agile es una metodología de trabajo que permite a los equipos completar cantidades pequeñas y manejables de trabajo a una cadencia coherente. En Agile, los equipos administran las historias en un registro de pendientes o tablero de historias y no las tareas de un proyecto. [!DNL Adobe Workfront] proporciona herramientas que ayudan a los equipos a trabajar de forma ágil.
 author: Jenny
 feature: Agile
 exl-id: 35b329e5-f360-416c-adbb-ec39ab7a50cc
-source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '325'
-ht-degree: 85%
+ht-degree: 44%
 
 ---
 
 # Información general sobre Agile
 
-Agile es una metodología de trabajo que permite a los equipos completar cantidades pequeñas y manejables de trabajo a una cadencia coherente. En Agile, los equipos administran las historias en un registro de pendientes o tablero de historias y no las tareas de un proyecto. [!DNL Adobe Workfront] proporciona herramientas que ayudan a los equipos a trabajar de manera ágil.
+Agile es una metodología de trabajo que permite a los equipos completar cantidades pequeñas y manejables de trabajo a una cadencia coherente. En Agile, los equipos administran las historias en un registro de pendientes o tablero de historias y no las tareas de un proyecto. [!DNL Adobe Workfront] proporciona herramientas que ayudan a los equipos a trabajar de forma ágil.
 
 Los tableros de [!DNL Workfront] son herramientas sencillas pero flexibles para la colaboración en equipo. Para obtener más información sobre tableros, consulte [Información general sobre tableros](../agile/boards-overview.md).
 
-Las herramientas avanzadas adicionales del equipo Agile utilizan Kanban o Scrum. Para obtener más información sobre las metodologías Kanban y Scrum, consulte la sección [Decidir sobre una metodología Agile](../agile/get-started-with-agile-in-workfront/create-an-agile-team.md#deciding) en el artículo [Crear un equipo Agile](../agile/get-started-with-agile-in-workfront/create-an-agile-team.md).
+Las herramientas avanzadas adicionales del equipo de Agile utilizan Kanban o Scrum. Para obtener información sobre las metodologías Kanban y Scrum, consulte la sección [Decidir sobre una metodología Agile](../agile/get-started-with-agile-in-workfront/create-an-agile-team.md#deciding) en el artículo [Crear un equipo Agile](../agile/get-started-with-agile-in-workfront/create-an-agile-team.md).
 
 Para empezar a utilizar Agile avanzado en Workfront:
 
-1. Cree un equipo Agile
+1. Cree un equipo de Agile.
 
    Para obtener más información, consulte la sección [Crear un equipo Agile](../agile/get-started-with-agile-in-workfront/create-an-agile-team.md/#create-an-agile-team-1) o [Convertir un equipo existente en un equipo Agile](../agile/get-started-with-agile-in-workfront/create-an-agile-team.md#converting-an-existing-team-into-an-agaile-team) en el artículo [Crear un equipo Agile](../agile/get-started-with-agile-in-workfront/create-an-agile-team.md).
 
-1. Configure el equipo Agile para que utilice Kanban o Scrum.
+1. Configure el equipo de Agile para que utilice Kanban o Scrum.
 
    Para obtener más información, consulte [Configurar Kanban](../agile/get-started-with-agile-in-workfront/configure-kanban.md) o [Configurar Scrum](../agile/get-started-with-agile-in-workfront/configure-scrum.md).
 
@@ -46,4 +46,4 @@ Para empezar a utilizar Agile avanzado en Workfront:
 
 ## Uso de Agile en un proyecto
 
-Puede aprovechar la funcionalidad Agile para su proyecto sin los desafíos administrativos que normalmente acompañan a las prácticas de Agile (como administrar un registro de asuntos pendientes del equipo, crear iteraciones, etc.). Para obtener más información, consulte [Administrar un proyecto en la vista de Agile](/help/quicksilver/manage-work/projects/manage-projects/manage-projects-in-agile-view.md).
+Puede aprovechar la funcionalidad de Agile para su proyecto sin los desafíos administrativos que suelen acompañar a las prácticas de Agile (como administrar un registro de asuntos pendientes del equipo, crear iteraciones, etc.). Para obtener más información, consulte [Administrar un proyecto en la vista de Agile](/help/quicksilver/manage-work/projects/manage-projects/manage-projects-in-agile-view.md).
