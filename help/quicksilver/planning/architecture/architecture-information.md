@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 0da08e30-51a8-4163-ae1e-821a099fac3b
-source-git-commit: ff9371b639e7684a94c08b8cd6293b632fac9edf
+source-git-commit: 98ef4a4f0a30dc90956132cb715393a29170d715
 workflow-type: tm+mt
-source-wordcount: '226'
-ht-degree: 80%
+source-wordcount: '233'
+ht-degree: 78%
 
 ---
 
@@ -46,9 +46,7 @@ Los artículos de las secciones siguientes describen cómo se pueden configurar 
 * [Configuración de funciones entre espacios de trabajo para tipos de registros](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md)
 * [Agregar tipos de registros existentes desde otro espacio de trabajo](/help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md)
 * [Configuración del área Configuración de un tipo de registro](/help/quicksilver/planning/architecture/configure-record-type-settings.md)
+* [Información general sobre jerarquías y rutas](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md)
+* [Crear jerarquías de Workspace](/help/quicksilver/planning/architecture/create-workspace-hierarchies.md)
 
 </div>
-
-<!--* [Hierarchies and breadcrumb overview](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md)-->
-<!--* [Create workspace hierarchies](/help/quicksilver/planning/architecture/create-workspace-hierarchies.md)-->
-

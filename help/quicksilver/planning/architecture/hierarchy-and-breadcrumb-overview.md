@@ -5,7 +5,7 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: 34921b12ad902ba7390e4ea34825331280e7a8d6
+source-git-commit: 98ef4a4f0a30dc90956132cb715393a29170d715
 workflow-type: tm+mt
 source-wordcount: '1042'
 ht-degree: 0%
@@ -46,8 +46,9 @@ Las siguientes son ventajas de utilizar jerarquías en los espacios de trabajo:
    * AEM Assets.
 * Las jerarquías pueden incluir tipos de registros de Planning y proyectos de Workfront al mismo tiempo.
 
-      Por ejemplo, puede tener un tipo de registro de campaña con Tácticas de planificación y Proyectos de Workfront como elementos secundarios en la misma jerarquía de área de trabajo.
-  * Si ya existe una conexión entre los tipos de registro seleccionados, el sistema vuelve a utilizar la conexión existente.
+  Por ejemplo, puede tener un tipo de registro de campaña con Tácticas de planificación y Proyectos de Workfront como elementos secundarios en la misma jerarquía de espacio de trabajo.
+
+* Si ya existe una conexión entre los tipos de registro seleccionados, el sistema vuelve a utilizar la conexión existente.
 * Si no existe ninguna conexión, Workfront creará una como parte de la configuración de jerarquía.
 * La configuración **Crear campo correspondiente en el tipo de registro vinculado** debe estar activada para el campo conectado para los registros y tipos de objeto que desea incluir en una jerarquía.
 * No puede eliminar un tipo de registro si forma parte de una jerarquía.

@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 2a640cd5-f4a8-4ff3-81b6-32f85f6e4535
-source-git-commit: 34921b12ad902ba7390e4ea34825331280e7a8d6
+source-git-commit: 98ef4a4f0a30dc90956132cb715393a29170d715
 workflow-type: tm+mt
-source-wordcount: '514'
+source-wordcount: '523'
 ht-degree: 34%
 
 ---
@@ -54,7 +54,7 @@ En la tabla siguiente se muestran los límites de la cantidad de objetos que se 
 | Número de entidades (usuarios, funciones, equipos, empresas y grupos) con las que puede compartir un objeto de Planning | 100 |
 | <span class="preview">Número de tipos de registros en una jerarquía</span> | 4 |
 | <span class="preview">Número de jerarquías en un espacio de trabajo</span> | 5 |
-| <span class="preview">Número de registros principales conectados a un secundario en una jerarquía</span> | 10 |
+| <span class="preview">Número de registros de un tipo de registro principal conectados a un registro de un tipo de registro secundario, dentro de una jerarquía</span> | 10 |
 | Número de registros conectados a un registro en un tipo de conexión de selección múltiple, <span class="preview">sin una jerarquía configurada entre los registros</span> | 500 |
 
 * Recomendamos no tener demasiados espacios de trabajo, ya que podrían resultar difíciles de administrar y los flujos de trabajo podrían estar demasiado fragmentados.
