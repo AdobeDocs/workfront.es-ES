@@ -6,9 +6,9 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 46f3be50925d2e830c572ce9bbad0d3b320f6a95
+source-git-commit: d956671b535d5c7a11d0fb17dc003a665a4f0597
 workflow-type: tm+mt
-source-wordcount: '1501'
+source-wordcount: '1798'
 ht-degree: 2%
 
 ---
@@ -20,6 +20,47 @@ Este artículo describe las funciones que se lanzarán para Workfront Planning d
 <!--keep the sentence below for all future quarterly release pages-->
 
 Para obtener una lista de todas las características publicadas para Adobe Workfront Planning, consulte [Actividad de la versión de Adobe Workfront Planning: índice de artículo](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+
+## Creación de jerarquías de tipo de registro en espacios de trabajo
+
+>[!NOTE]
+>
+>Vista previa: 23 de diciembre de 2025
+>Versión rápida de producción: 14 de enero de 2026
+>Producción para todos: 15 de enero de 2026
+
+Ahora puede definir jerarquías flexibles pero estructuradas entre tipos de registros u objetos.
+
+Las jerarquías son conexiones entre tipos de registros. Puede tener hasta 4 tipos de registros y objetos conectados en una jerarquía, y hasta 5 jerarquías en un espacio de trabajo. El primer tipo de registro de la jerarquía es el primer padre.
+
+Puede utilizar jerarquías para organizar el trabajo y visualizar cómo la estrategia fluye hacia la ejecución.
+
+Tenga en cuenta lo siguiente al crear jerarquías:
+
+* Sólo puede conectar tipos de registros de Planning desde un espacio de trabajo y proyectos de Workfront en una jerarquía.
+* Un tipo de registro o proyecto solo puede tener un objeto principal en el mismo espacio de trabajo.
+* Un tipo de registro puede ser el principal en varias jerarquías.
+* Los tipos de registro conectables no se pueden utilizar en jerarquías de espacios de trabajo que no sean los suyos propios.
+* Los tipos de registros globales sólo se pueden utilizar en jerarquías en los espacios de trabajo en los que se crearon o a los que se agregaron.
+
+Para obtener más información, consulte [Información general sobre jerarquía y ruta de exploración](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md).
+
+## Nuevas rutas de exploración unificadas agregadas a las páginas de los registros
+
+>[!NOTE]
+>
+>Vista previa: 23 de diciembre de 2025
+>Versión rápida de producción: 14 de enero de 2026
+>Producción para todos: 15 de enero de 2026
+
+Cuando se crean jerarquías entre tipos de registros, se generan rutas de exploración para los registros que pertenecen a esos tipos de registros.
+
+Registrar rutas de exploración refleja su lugar en una jerarquía. Después de crear jerarquías, puede ver la ruta de exploración de un registro en la parte superior de su página, indicando qué otros objetos principales o secundarios están conectados a él. Las jerarquías son coherentes en Workfront y Planning.
+
+Por ejemplo, puede ver la jerarquía de Planning de un proyecto cuando está conectado a tipos de registros de Planning en su ruta de exploración de Planning y su jerarquía de Workfront cuando está conectado a tipos de objetos de Workfront, como Portafolios o Programas, en Workfront.
+
+Para obtener más información, consulte [Información general sobre jerarquía y ruta de exploración](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md).
+
 
 ## Mejoras en las páginas de registros conectadas
 
@@ -66,54 +107,6 @@ El comodín está disponible en campos donde el valor es un usuario.
 
 Para obtener más información sobre la configuración de vistas de conexión del proyecto, incluidos los filtros, vea [Agregar una página Registros conectados a un registro](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md).
 
-<!--
-
-## Create record type hierarchies in workspaces
-
->[!NOTE]
->
->Preview: December 18, 2025 
->Production fast: January 14, 2026 
->Production all: January 15, 2026 
-
-You can now define flexible but structured hierarchies between record or object types.  
-
-Hierarchies are connections between record types. You can have up to 4 record and object types connected in one hierarchy, and you can have multiple hierarchies in one workspace. The first record type in the hierarchy is a parent, and all the other record or object types are its children objects.  
-
-You can use hierarchies to organize work in a way that reflects how your teams actually plan, operate, and deliver and to visualize how strategy flows into execution. 
-
-Consider the following when building hierarchies: 
-
-* You can have multiple hierarchies in a workspace 
-* You can connect only Planning record types from one workspace and Workfront projects in a hierarchy.  
-* A record type or a project can only have one parent in the same workspace. 
-* A record type can be the parent in multiple hierarchies 
-* Connectable record types cannot be used in hierarchies in other workspaces than their own. 
-* Global record types can be used in hierarchies only in the workspaces that they were created in or have been added to.  
-
-When you create hierarchies between record types, they generate breadcrumbs for records that belong to those record types. 
-
-For more information, see [Hierarchy and breadcrumb overview](help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md).
-
--->
-
-<!--
-
-## New unified breadcrumbs added to records' pages
-
->[!NOTE]
->
->Preview: December 18, 2025 
->Production fast: January 14, 2026 
->Production for all: January 15, 2026 
-
-We have added breadcrumbs to a record's page to reflect its spot in a hierarchy. After you create hierarchies, you can see a record's breadcrumb at the top of its page, indicating what other parent or children objects are connected to it. Hierarchies are consistent across Workfront and Planning.  
-
-For example, you can view a project's Planning hierarchy when it's connected to Planning record types in its Planning breadcrumb, and its Workfront hierarchy when it's connected to Workfront object types, like Portfolios or Programs, in Workfront.  
-
-For information, see [Hierarchy and breadcrumb overview](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md).
-
--->
 
 ## Mejoras en la página principal de Workspace
 
@@ -132,7 +125,6 @@ Se han realizado las siguientes mejoras en la página principal de Workspaces en
 * Se cambió el nombre de la ficha **Otros espacios de trabajo** a **Todos los espacios de trabajo** e incluye todos los espacios de trabajo para los que tiene al menos permisos de Vista, incluidos los que ha creado.
 
 Para obtener más información, consulte [Edición de espacios de trabajo](/help/quicksilver/planning/architecture/edit-workspaces.md).
-
 
 
 ## Adición del campo de conexión Marca a Productos y Personas de forma predeterminada en GenStudio Workspace

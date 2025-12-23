@@ -1,30 +1,18 @@
 ---
 title: Creación de jerarquías de Workspace
-description: Como administrador de espacio de trabajo, puede crear varias jerarquías de espacio de trabajo entre los tipos de registro en Adobe Workfront Planning. Después de conectar los tipos de registro en un espacio de trabajo y crear una jerarquía, los tipos de registro se conectan entre sí, con un tipo de registro designado como principal y hasta 6 tipos de registro más configurados como secundarios.
-hide: true
-hidefromtoc: true
-exl-id: 2f83c427-4439-499d-a0b2-fc8630552cae
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
-workflow-type: tm+mt
-source-wordcount: '917'
-ht-degree: 4%
-
----
-
-<!--update the metadata with real information when making this available in TOC and in the left nav:
-
----
-title: Create Workspace Hierarchies
-description: You can create multiple workspace hierarchies between the record types in a workspace. 
+description: Como administrador de espacio de trabajo, puede crear varias jerarquías de espacio de trabajo entre los tipos de registro en Adobe Workfront Planning. Después de conectar los tipos de registro en un espacio de trabajo y crear una jerarquía, los tipos de registro se conectan entre sí, con un tipo de registro designado como principal y hasta tres tipos de registro configurados como secundarios.
 feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-hide: yes 
-hidefromtoc: yes 
+exl-id: 2f83c427-4439-499d-a0b2-fc8630552cae
+source-git-commit: 34921b12ad902ba7390e4ea34825331280e7a8d6
+workflow-type: tm+mt
+source-wordcount: '953'
+ht-degree: 3%
+
 ---
 
--->
 
 # Crear jerarquías de Workspace
 
@@ -38,13 +26,11 @@ Una vez que los tipos de registros están conectados en un espacio de trabajo, p
 
 Si todavía no existe una conexión entre dos tipos de registro, se puede crear a medida que se configura la jerarquía. Una vez definida, la jerarquía establece una ruta estructurada entre los tipos de registros relacionados dentro del espacio de trabajo.
 
-Las jerarquías generarán rutas de exploración para los tipos de registro y sus registros respectivos <!--ensure this is the case: does the breadcrumb show for both the RT and the record??--> que se muestran en sus encabezados. De este modo, los usuarios saben dónde se encuentran en la jerarquía en cualquier fase del flujo de trabajo.
+Las jerarquías generan rutas de exploración para sus registros respectivos que se muestran en sus encabezados. De este modo, los usuarios saben dónde se encuentran en la jerarquía en cualquier fase del flujo de trabajo.
 
 Para obtener información general acerca de jerarquías y rutas de exploración, vea [Información general sobre jerarquías y rutas de exploración](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md).
 
 ## Requisitos de acceso
-
-<!--check the access to see if you oversimplified???-->
 
 +++ Expanda para ver los requisitos de acceso para realizar los pasos de este artículo:  
 
@@ -84,6 +70,8 @@ Para obtener más información acerca de los requisitos de acceso de Workfront, 
 +++
 
 ## Creación de una jerarquía de Workspace
+
+Se pueden crear hasta cinco jerarquías en un espacio de trabajo.
 
 {#step1-to-planning}
 
@@ -135,7 +123,7 @@ Cada tipo de objeto adicional se convierte en secundario de los tipos de objeto 
 
    1. Haga clic en **Guardar**.
 
-1. (Condicional) Si el campo **Crear correspondiente en el tipo de registro vinculado** no se seleccionó cuando se creó el campo conectado, se producirá un error y deberá hacer lo siguiente primero: <!--check back on these steps; this is supposed to be seamless, but now you have to abandon creating a hierarchy to do this-->
+1. (Condicional) Si el campo **Crear correspondiente en el tipo de registro vinculado** no se seleccionó cuando se creó el campo conectado, se produce un error y debe realizar primero lo siguiente: <!--check back on these steps; this is supposed to be seamless, but now you have to abandon creating a hierarchy to do this-->
 
    1. Haga clic en **Cancelar** en el cuadro **Nueva jerarquía**.
    1. Haga clic en la flecha hacia atrás situada a la izquierda del nombre del espacio de trabajo y, a continuación, haga clic en la tarjeta del tipo de registro que desee elegir como principal.
@@ -155,6 +143,13 @@ Cada tipo de objeto adicional se convierte en secundario de los tipos de objeto 
 
    * La jerarquía se agrega a la sección **Jerarquías** del área de trabajo.
    * Los registros que rellenan los campos de conexión muestran todas las conexiones en sus rutas de exploración, cuando va a la página de un registro.
+
+   >[!NOTE]
+   >
+   >Puede conectar un registro de un tipo de registro secundario hasta 10 registros de un tipo de registro principal.
+   >
+   >Para obtener más información, consulte [Información general sobre jerarquía y ruta de exploración](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md).
+
 1. (Opcional) Pase el ratón sobre una jerarquía y luego haga clic en el menú **Más**.
 
    ![Menú Más de jerarquía expandido](assets/hierarchy-more-menu-expanded.png)

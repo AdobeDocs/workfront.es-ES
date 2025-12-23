@@ -1,28 +1,18 @@
 ---
 title: Información general de jerarquía y ruta
-description: Puede crear varias jerarquías de espacio de trabajo entre los tipos de registro de un espacio de trabajo.
-hide: true
-hidefromtoc: true
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
-workflow-type: tm+mt
-source-wordcount: '887'
-ht-degree: 0%
-
----
-
-<!--update the metadata with real information when making this available in TOC and in the left nav:
-
----
-title: Hierarchy and Breadcrumb Overview
-description: You can create multiple workspace hierarchies between the record types in a workspace. 
+description: Puede crear varias jerarquías de espacio de trabajo entre los tipos de registro de un espacio de trabajo, después de conectar los tipos de registro.
 feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-hide: yes 
-hidefromtoc: yes 
+source-git-commit: 34921b12ad902ba7390e4ea34825331280e7a8d6
+workflow-type: tm+mt
+source-wordcount: '1042'
+ht-degree: 0%
+
 ---
--->
+
+
 
 # Información general de jerarquía y ruta
 
@@ -30,7 +20,7 @@ hidefromtoc: yes
 
 <span class="preview">Para obtener información sobre las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
-Como administrador del espacio de trabajo, puede definir jerarquías flexibles pero estructuradas entre tipos de registro y y otros tipos de objetos en Adobe Workfront Planning.
+Como administrador del espacio de trabajo, puede definir jerarquías flexibles pero estructuradas entre tipos de registros conectados y otros tipos de objetos en Adobe Workfront Planning.
 
 Las jerarquías son conexiones entre tipos de registros o entre tipos de registros y un proyecto de Workfront.
 
@@ -45,7 +35,7 @@ Las siguientes son ventajas de utilizar jerarquías en los espacios de trabajo:
 
 ## Consideraciones al trabajar con jerarquías
 
-* Puede crear varias jerarquías para un espacio de trabajo.
+* Se pueden crear hasta cinco jerarquías para un espacio de trabajo.
 * Puede tener hasta 4 tipos de registros y objetos conectados en una jerarquía.
 * Sólo se pueden conectar los tipos de objeto siguientes en una jerarquía de espacio de trabajo:
    * Tipos de registro que pertenecen al espacio de trabajo en el que está creando las jerarquías.
@@ -60,6 +50,9 @@ Las siguientes son ventajas de utilizar jerarquías en los espacios de trabajo:
   * Si ya existe una conexión entre los tipos de registro seleccionados, el sistema vuelve a utilizar la conexión existente.
 * Si no existe ninguna conexión, Workfront creará una como parte de la configuración de jerarquía.
 * La configuración **Crear campo correspondiente en el tipo de registro vinculado** debe estar activada para el campo conectado para los registros y tipos de objeto que desea incluir en una jerarquía.
+* No puede eliminar un tipo de registro si forma parte de una jerarquía.
+* No puede eliminar un campo de conexión si el tipo de registro al que se hace referencia en el campo forma parte de una jerarquía. Primero debe quitar el tipo de registro de la jerarquía o eliminar la jerarquía antes de poder eliminar el tipo de registro.
+* Puede eliminar un campo de búsqueda de un tipo de registro conectado. No se puede recuperar la información del campo.
 * Las siguientes son reglas para la configuración de jerarquías:
    * Un tipo de registro solo puede tener un tipo de registro principal en un espacio de trabajo determinado.
 
@@ -77,18 +70,22 @@ Las siguientes son ventajas de utilizar jerarquías en los espacios de trabajo:
    * Los tipos de registros globales pueden aparecer en varios espacios de trabajo dentro de varias jerarquías, una vez añadidos a dichos espacios de trabajo.
 
      Por ejemplo, si una campaña es un tipo de registro global y forma parte de una jerarquía en Workspace 1, se puede agregar como un tipo de registro existente a Workspace 2 y puede formar parte de una jerarquía allí. Pero no puede formar parte de una jerarquía en Workspace 2 solo cuando se designa como tipo de registro global en Workspace 1, pero no se agrega a Workspace 2.
+   * Cuando los tipos de registro conectados forman parte de jerarquías, puede conectar un registro de un tipo de registro secundario a un máximo de 10 registros de un tipo de registro principal.
+
+     Por ejemplo, si crea una jerarquía entre Campañas como principal y Persona como registro secundario, puede conectar la misma persona hasta a 10 campañas.
 
 ## Consideraciones al ver rutas
-
-<!-- this might be incomplete, because I have no UI for this yet-->
 
 Cuando se crean jerarquías entre tipos de registros, se generan rutas de exploración para los registros que pertenecen a esos tipos de registros.
 
 Por ejemplo, si crea una jerarquía y conecta Campañas con Tácticas, luego con Actividades y después con Proyectos, cuando navega a un registro de cualquiera de los tipos conectados en la jerarquía, puede ver en qué parte de la jerarquía se coloca el registro.
 
+![Ruta de exploración](assets/breadcrumbs-on-project.png)
+
 Tenga en cuenta lo siguiente:
 
 * Si un tipo de registro forma parte de varias jerarquías, puede cambiar entre jerarquías desde la ruta de exploración del registro en la página del registro.
+* Si el tipo de registro de una jerarquía tiene varios registros, puede seleccionar registros de la ruta de exploración.
 * Las rutas de exploración funcionan en Workfront y Planning.
 
   Por ejemplo, cuando se mira un proyecto que está conectado a campañas y tácticas de Planning, y también a portafolios y programas de Workfront, puede cambiar entre los tipos de objeto de Planning y Workfront de la ruta de exploración.

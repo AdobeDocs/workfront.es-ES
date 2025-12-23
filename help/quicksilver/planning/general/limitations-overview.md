@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 2a640cd5-f4a8-4ff3-81b6-32f85f6e4535
-source-git-commit: ba5089fd02ca099d25ce0d3c2c2c039c2c6e2fe2
+source-git-commit: 34921b12ad902ba7390e4ea34825331280e7a8d6
 workflow-type: tm+mt
-source-wordcount: '467'
-ht-degree: 37%
+source-wordcount: '514'
+ht-degree: 34%
 
 ---
 
@@ -52,6 +52,10 @@ En la tabla siguiente se muestran los límites de la cantidad de objetos que se 
 | <span class="preview">Número de campos de conexión para un tipo de registro</span> | <span class="preview">30</span> |
 | Número de caracteres en una expresión de campo de fórmula | 50.000 |
 | Número de entidades (usuarios, funciones, equipos, empresas y grupos) con las que puede compartir un objeto de Planning | 100 |
+| <span class="preview">Número de tipos de registros en una jerarquía</span> | 4 |
+| <span class="preview">Número de jerarquías en un espacio de trabajo</span> | 5 |
+| <span class="preview">Número de registros principales conectados a un secundario en una jerarquía</span> | 10 |
+| Número de registros conectados a un registro en un tipo de conexión de selección múltiple, <span class="preview">sin una jerarquía configurada entre los registros</span> | 500 |
 
 * Recomendamos no tener demasiados espacios de trabajo, ya que podrían resultar difíciles de administrar y los flujos de trabajo podrían estar demasiado fragmentados.
 

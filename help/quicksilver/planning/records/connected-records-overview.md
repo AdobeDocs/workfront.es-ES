@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: be51023c-8e11-42e7-aa4f-34484c30eb03
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+source-git-commit: 34921b12ad902ba7390e4ea34825331280e7a8d6
 workflow-type: tm+mt
-source-wordcount: '523'
-ht-degree: 24%
+source-wordcount: '586'
+ht-degree: 21%
 
 ---
 
@@ -44,7 +44,8 @@ Para obtener información sobre cómo conectar registros entre sí o con otro ob
 * Todas las personas con acceso a Workfront Planning y View o permisos superiores en el espacio de trabajo y un tipo de registro pueden ver las conexiones que se realizan entre registros o entre registros y objetos de otras aplicaciones. Pueden ver los registros y objetos conectados independientemente de sus permisos en las aplicaciones a las que se conecta.
 * Puede ver y editar las conexiones de todos los demás, si tiene permisos de Administración en el espacio de trabajo y el tipo de registro donde se encuentran los registros conectados.
 * Se puede conectar un registro a uno o varios objetos desde otra aplicación, según el tipo de conexión seleccionado al conectar los tipos de registro. Para obtener más información, consulte la sección &quot;Tipos de conexiones&quot; en el artículo [Información general sobre los tipos de registros conectados](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
-  <!--* <span class="preview">If connected record types are part of hierarchies, you can access any object type within the hierarchy from the records' pages. For information, see [Hierarchy and breadcrumb overview](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md). </span>-->
+* <span class="preview">Si los tipos de registro conectados forman parte de jerarquías, puede tener acceso a cualquier tipo de objeto dentro de la jerarquía desde las páginas de los registros. Para obtener más información, vea [Información general sobre jerarquía y ruta de exploración](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md). </span>
+* <span class="preview">* Cuando los tipos de registro conectados forman parte de jerarquías, puede conectar un registro de un tipo de registro secundario a un máximo de 10 registros de un tipo de registro principal. Para obtener más información, vea [Información general sobre jerarquía y ruta de exploración](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md). </span>
 
 ## Áreas donde se pueden conectar registros
 
