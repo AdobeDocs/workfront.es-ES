@@ -4,10 +4,10 @@ description: En esta página se ofrece información sobre la funcionalidad inclu
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 353b71e59fc2dc2e1f806a560f04076586a32424
+source-git-commit: b9016bc9a5609424b6cd6cdec67ac4d696e7ab45
 workflow-type: tm+mt
-source-wordcount: '2949'
-ht-degree: 13%
+source-wordcount: '2880'
+ht-degree: 14%
 
 ---
 
@@ -333,16 +333,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td>viernes, 06 de noviembre de 2025</td>
         <td>viernes, 13 de noviembre de 2025</td>
         <td>viernes, 15 de enero de 2026</td>
-    </tr>   
-       <tr>
-        <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-reporting.md" class="MCXref xref" xrefformat="{para}">Se mejoró la visualización del recuento de agrupación en los paneles de lienzo</a>
-            <p>Cuando un informe de tabla tiene varias páginas de resultados y la tabla está configurada con agrupaciones, la tabla ahora muestra tanto la cantidad de registro de la página actual como el recuento general de registros de todas las páginas. Por ejemplo, si el informe de tabla tiene 7 agrupaciones y la primera página muestra 3, la tabla mostrará 3 de 7.</p>
-        </td>
-       <td>viernes, 06 de noviembre de 2025</td>
-        <td>viernes, 13 de noviembre de 2025</td>
-        <td>viernes, 15 de enero de 2026</td>
-    </tr>   
+    </tr>    
        <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-reporting.md" class="MCXref xref" xrefformat="{para}">Nuevas protecciones para mejorar los tiempos de carga en los paneles de lienzo</a>
@@ -594,7 +585,7 @@ Para ofrecer integraciones más estables y escalables, estamos adoptando un enfo
 * Workfront para Salesforce.
 
 Recomendamos utilizar la automatización e integración de Workfront para las necesidades de integración de su organización con Google Workspace.
-Para obtener una descripción general de la automatización e integración de Workfront, consulte [Información general de Adobe Workfront Fusion](https://experienceleague.adobe.com/es/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+Para obtener una descripción general de la automatización e integración de Workfront, consulte [Información general de Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 
 
 ### Actualizaciones de mantenimiento de Workfront 
