@@ -4,9 +4,9 @@ description: Mejoras en los informes del primer trimestre de 2026
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: bb07096ce69e7d52c9332b6f9d230440a03c5f59
+source-git-commit: ad16dfe737f33a7d1025d8cef00605595d0476c2
 workflow-type: tm+mt
-source-wordcount: '1009'
+source-wordcount: '933'
 ht-degree: 4%
 
 ---
@@ -151,16 +151,6 @@ Las siguientes opciones de campo están disponibles como alternativas:
 * Otros grupos: ID
 * Otros roles: ID
 * Otros equipos: ID
-
-## Se ha mejorado la visualización del recuento de agrupaciones en los paneles de lienzo
-
->[!NOTE]
->
->Vista previa: 6 de noviembre de 2025
->Versión rápida de producción: 13 de noviembre de 2025
->Producción para todos: 15 de enero de 2026
-
-Cuando un informe de tabla tiene varias páginas de resultados y la tabla está configurada con agrupaciones, la tabla ahora muestra tanto la cantidad de registro de la página actual como el recuento general de registros de todas las páginas. Por ejemplo, si el informe de tabla tiene 7 agrupaciones y la primera página muestra 3, la tabla mostrará 3 de 7.
 
 
 ## Nuevas protecciones para mejorar los tiempos de carga en los paneles de lienzo
