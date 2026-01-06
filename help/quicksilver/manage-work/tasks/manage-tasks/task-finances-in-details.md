@@ -166,4 +166,4 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
     </tbody> 
    </table>
 
-1. (Condicional) Si está editando los campos en la sección Finanzas, haga clic en **Guardar****Cambios**.
+1. (Condicional) Si está editando los campos en la sección Finanzas, haga clic en **Guardar**&#x200B;**Cambios**.
