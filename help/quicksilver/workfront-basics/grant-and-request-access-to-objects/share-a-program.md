@@ -7,10 +7,10 @@ description: El administrador de Adobe Workfront puede otorgarle acceso para ver
 author: Courtney
 feature: Get Started with Workfront
 exl-id: bfa6ce97-24ad-44b3-9c2f-7fac6b748f94
-source-git-commit: 4ae96f67b15838403ffce32317d871d6904d6d95
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '892'
-ht-degree: 47%
+ht-degree: 46%
 
 ---
 
@@ -33,7 +33,7 @@ Los permisos son específicos para cada elemento de Workfront y definen qué acc
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
@@ -77,7 +77,7 @@ Además de las consideraciones siguientes, consulte [Información general sobre 
 
   Para obtener más información sobre la jerarquía de objetos en Workfront, consulte [Comprender los objetos en Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
-* Puede quitar los permisos heredados del programa. Para obtener más información sobre cómo quitar permisos a los objetos, consulte [Eliminación de permisos de objetos](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md).
+* Puede quitar los permisos heredados del programa. Para obtener más información sobre cómo quitar permisos a los objetos, consulte   [Quitar permisos de objetos](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md).
 
 ## Compartir un programa
 
@@ -155,18 +155,18 @@ La siguiente tabla muestra qué permisos puede conceder a los usuarios cuando le
 
 | **Acciones** | **Administrar** | **Vista** |
 |---|---|---|
-| Editar detalles del programa | ✓ |   |
+| Editar detalles del programa | ✓ |   |
 | Ver un programa | ✓ | ✓ |
-| Eliminación de un programa | ✓ |   |
-| Adjuntar un formulario personalizado | ✓ |   |
-| Editar un formulario personalizado | ✓ |   |
-| Añadir o quitar un proyecto&#42; | ✓ |   |
-| Aprobar un proyecto | ✓ |   |
+| Eliminación de un programa | ✓ |   |
+| Adjuntar un formulario personalizado | ✓ |   |
+| Editar un formulario personalizado | ✓ |   |
+| Añadir o quitar un proyecto&#42; | ✓ |   |
+| Aprobar un proyecto | ✓ |   |
 | Añadir una carpeta de documentos&#42; | ✓ | ✓ |
 | Añadir un documento | ✓ | ✓ |
 | Añadir actualizaciones/ comentarios | ✓ | ✓ |
 | Compartir | ✓ | ✓ |
-| Compartir en todo el sistema |   | ✓ |
+| Compartir en todo el sistema |   | ✓ |
 
 *Estos permisos están controlados por el nivel de acceso y los permisos en otros objetos, como proyectos.
 

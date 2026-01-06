@@ -7,10 +7,10 @@ description: Cuando una tarea está lista para empezar, Adobe Workfront añade e
 author: Alina
 feature: Work Management
 exl-id: 158f8370-9717-4c61-99fa-e3b76a9e61cb
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '431'
-ht-degree: 77%
+ht-degree: 71%
 
 ---
 
@@ -33,6 +33,6 @@ Workfront comprueba lo siguiente antes de marcar una tarea como verdadero en el 
 ## Consideraciones acerca de la identificación de tareas listas para iniciarse
 
 * Si el tipo de dependencia entre una tarea y sus predecesoras es de inicio a inicio, la predecesora debe comenzar antes de que se considere resuelta la relación y las tareas sucesoras puedan comenzar. Para obtener información acerca de los tipos de dependencia, consulte [Información general sobre los tipos de dependencia entre tareas](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md).
-* Si una tarea tiene una predecesora entre proyectos, la finalización de esta no activa automáticamente el indicador “puede comenzar” en la tarea sucesora. Se debe recalcular la línea de tiempo del proyecto sucesor manualmente, o permitir que Workfront lo haga de forma automática, antes de que la tarea sucesora aparezca como lista para comenzar. Para obtener más información sobre cómo recalcular las escalas de tiempo de un proyecto, consulte [Recalcular escalas de tiempo de un proyecto](../../../manage-work/projects/manage-projects/recalculate-project-timeline.md).
+* Si una tarea tiene una predecesora entre proyectos, la finalización de esta no activa automáticamente el indicador “puede comenzar” en la tarea sucesora. Debe recalcular manualmente la escala de tiempo del proyecto de la sucesora o Workfront debe recalcularla automáticamente, antes de que la tarea sucesora se muestre como tarea de Puede comenzar. Para obtener más información sobre cómo recalcular las escalas de tiempo de un proyecto, consulte [Recalcular escalas de tiempo de un proyecto](../../../manage-work/projects/manage-projects/recalculate-project-timeline.md).
 
   Para obtener información sobre predecesores de proyectos cruzados, consulte [Crear predecesoras entre proyectos](../../../manage-work/tasks/use-prdcssrs/cross-project-predecessors.md).

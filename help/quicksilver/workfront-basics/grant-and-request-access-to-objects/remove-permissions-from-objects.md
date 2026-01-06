@@ -6,10 +6,10 @@ description: Es posible quitar los permisos de otros usuarios en los objetos a l
 author: Alina
 feature: Get Started with Workfront
 exl-id: 8e191b5e-31df-4291-8b9d-9ca69be27561
-source-git-commit: 4ae96f67b15838403ffce32317d871d6904d6d95
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '767'
-ht-degree: 82%
+ht-degree: 78%
 
 ---
 
@@ -30,7 +30,7 @@ Consideraciones similares a las del uso compartido de objetos se aplican a la el
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera </p> </td> 
   </tr> 
   <tr> 
@@ -115,7 +115,7 @@ You can remove entities (users, job roles, teams, groups, companies) from severa
 1. In the `<User Name>`'s Workfront access will be removed from this drop-down menu, select whether you want their access to be removed just from the objects that you have selected, or from all other children objects associated with it.  
    The following scenarios exist:
 
-   * If you remove the entity only from the object, that entity loses their permissions on the object, and their inherited permissions to the children objects. If they were previously granted permissions to the children items individually, they retain the same permissions on all children objects associated with it when you select this option.&nbsp;
+   * If you remove the entity only from the object, that entity loses their permissions on the object, and their inherited permissions to the children objects. If they were previously granted permissions to the children items individually, they retain the same permissions on all children objects associated with it when you select this option.  
    * If you remove the entity from the object and all the children objects, that entity loses their permissions to the object as well as all children objects, even when they were previously given individual permission on each child object.
 
    **Example:** Select whether to remove permissions to just the tasks you selected in a list, or to the issues and documents attached to the tasks as well.
@@ -132,7 +132,7 @@ You can remove entities (users, job roles, teams, groups, companies) from severa
 
 ## Quitar permisos heredados
 
-Los permisos heredados se pueden eliminar de los objetos, lo que permite a los propietarios identificar específicamente quién tendrá acceso a objetos secundarios, independientemente del acceso que tenga un usuario a un objeto principal.
+Los permisos heredados se pueden eliminar de los objetos, lo que permite a los propietarios identificar específicamente quién tendrá acceso a los objetos secundarios, independientemente del acceso de un usuario a un objeto principal.
 
 >[!IMPORTANT]
 >
@@ -154,7 +154,7 @@ Para quitar permisos heredados:
 
 ## Hacer que un objeto pase a ser privado
 
-Si ha compartido un objeto en todo el sistema o lo ha compartido con usuarios externos haciéndolo público, puede hacerlo privado de nuevo eliminando los permisos públicos o de todo el sistema. 
+Si ha compartido un objeto en todo el sistema o lo ha compartido con usuarios externos haciéndolo público, puede hacerlo privado de nuevo eliminando los permisos públicos o de todo el sistema.
 
 Para obtener más información sobre cómo hacer que un objeto esté disponible en todo el sistema o sea de uso público, vea [Compartir un objeto](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md).
 

@@ -6,10 +6,10 @@ description: Puede ver o editar la información de una tarea accediendo al área
 author: Alina
 feature: Work Management
 exl-id: 4980b28f-914d-4cf9-813f-14983aac660b
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '2102'
-ht-degree: 93%
+ht-degree: 92%
 
 ---
 
@@ -38,7 +38,7 @@ En este artículo se describe cómo ver o editar información en el área Inform
  <col> 
  <tbody> 
   <tr> 
-   <td> <p>paquete de Adobe Workfront</p> </td> 
+   <td> <p>Paquete de Adobe Workfront</p> </td> 
    <td>Cualquiera</td> 
   </tr> 
   <tr> 
@@ -122,7 +122,7 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 1. Edite cualquier campo que esté disponible para la edición haciendo clic en el campo o haga clic en **+Añadir** para añadir información a un campo vacío.
 1. Vea o edite cualquiera de los campos siguientes de la lista.
 
-   No todos los campos son editables.  
+   No todos los campos son editables.
 
    <table style="table-layout:auto"> 
     <col> 
@@ -176,7 +176,7 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
        <div> 
         <div> 
          <p>Es la cantidad de tiempo que permite que una tarea permanezca abierta antes de completarse. </p> 
-         <p>Importante: debido a que la duración de la tarea suele ser la cantidad de tiempo entre las fechas de inicio planificadas y las fechas de finalización planificadas, afectará a la línea de tiempo del proyecto.</p> 
+         <p>Importante: debido a que la duración de la tarea suele ser la cantidad de tiempo entre las fechas de inicio planificadas y las fechas de finalización planificadas, afectará a la cronología del proyecto.</p> 
          <p>Para indicar la duración de la tarea y la unidad de tiempo, haga lo siguiente:</p> 
          <ul> 
           <li> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Escriba la cantidad de tiempo y seleccione una de las unidades de tiempo disponibles en el menú desplegable.</p> </li> </ul>
@@ -199,7 +199,7 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
             <td>H</td> 
            </tr> 
            <tr> 
-            <td>Días.Es la opción predeterminada. </td> 
+            <td>Días. Es la opción predeterminada. </td> 
             <td>D</td> 
            </tr> 
            <tr> 
@@ -271,7 +271,7 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
          <li>Grande</li> 
         </ul> 
         <p><strong>NOTA</strong></p> 
-        <p> Si actualiza la cantidad de esfuerzo, se podrían actualizar las horas planificadas de la tarea. La actualización es inmediata si el tipo de actualización del proyecto es Automática. Cuando el tipo de actualización del proyecto es Manual, debe volver a calcular la línea de tiempo para ver las horas planificadas actualizadas. </p> 
+        <p> Si actualiza la cantidad de esfuerzo, se podrían actualizar las horas planificadas de la tarea. La actualización es inmediata si el tipo de actualización del proyecto es Automática. Cuando el tipo de actualización del proyecto es Manual, debe volver a calcular la cronología para ver las horas planificadas actualizadas. </p> 
         <p>Para obtener información sobre el uso del Esfuerzo laboral en lugar de Horas planificadas para estimar el esfuerzo de la tarea, consulte <a href="../../../manage-work/tasks/task-information/work-effort.md" class="MCXref xref">Información general sobre el esfuerzo laboral</a>. </p> 
        </div> </td> 
      </tr> 
@@ -309,7 +309,7 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
       <td> <p>La fecha “real” de cuando la tarea va a empezar en función del progreso y la finalización de tareas anteriores. Este es un campo calculado y no se puede editar manualmente.</p> <p> La fecha de inicio proyectada y la fecha de inicio planificada son la misma, cuando se planifica un proyecto por primera vez. La fecha de inicio proyectada puede alejarse de la fecha de inicio planificada si el proyecto evoluciona y la tarea aún no se ha iniciado. Para obtener más información sobre las fechas proyectadas de inicio, consulte <a href="../../../manage-work/projects/planning-a-project/project-projected-start-date.md" class="MCXref xref">Información general sobre la fecha de inicio proyectada del proyecto</a>. </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Fecha de inicio real</td> 
+      <td role="rowheader">Fecha real de inicio</td> 
       <td> <p>Especifique una fecha de inicio real para la tarea. El valor predeterminado suele rellenarse automáticamente al cambiar el estado de la tarea a En curso. El jefe de proyecto o el propietario de la tarea también pueden modificar manualmente la fecha de inicio real. </p> </td> 
      </tr> 
      <tr> 
@@ -326,7 +326,7 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
       <td> <p>La fecha “real” de cuando se va a completar la tarea en función del progreso de tareas anteriores y de las actualizaciones de progreso realizadas en la tarea por el asignado. Este es un campo calculado y no se puede editar manualmente.</p> <p> La fecha proyectada de finalización y la fecha planificada de finalización empiezan siendo la misma, cuando se planifica un proyecto por primera vez. La fecha proyectada de finalización puede apartarse de la fecha planificada de finalización si el proyecto evoluciona y la tarea aún no se ha iniciado. Para obtener más información sobre las fechas de finalización proyectadas, consulte <a href="../../../manage-work/projects/planning-a-project/project-projected-completion-date.md" class="MCXref xref">Información general sobre la fecha proyectada de finalización de proyectos, tareas y problemas</a>.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Fecha de finalización real</td> 
+      <td role="rowheader">Fecha real de finalización</td> 
       <td> <p>Especifique la fecha y la hora reales en que se completa la tarea. La fecha y hora predeterminadas en las que se completa una tarea siempre coinciden con la hora real en la que el estado pasa a Completado. El jefe de proyecto o el propietario de la tarea también pueden modificar manualmente la fecha de finalización real. </p> </td> 
      </tr> 
      <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
@@ -343,7 +343,7 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
      </tr> 
      <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
       <td role="rowheader">Fecha de última actualización</td> 
-      <td> <p>Fecha de la última actualización de la tarea. </p> <p>Sugerencia: Workfront registra una fecha actualizada cada vez que alguien edita y guarda una tarea.</p> </td> 
+      <td> <p>Fecha de la última actualización de la tarea. </p> <p>Sugerencia: Workfront registra una fecha de actualización cada vez que alguien edita y guarda una tarea.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Última actualización por</td> 
@@ -365,7 +365,7 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
    -->
 
    <!--
-   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Click <strong>Custom Forms</strong> to add or forms or edit information on the existing custom forms.&nbsp;</p>
+   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Click <strong>Custom Forms</strong> to add or forms or edit information on the existing custom forms. </p>
    -->
 
    <!--
@@ -385,7 +385,7 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
      -->
 
    <!--
-   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Click&nbsp;<strong>Finance</strong>, then <strong>Edit Finance</strong> to view or edit financial information for the task. </p>
+   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Click <strong>Finance</strong>, then <strong>Edit Finance</strong> to view or edit financial information for the task. </p>
    -->
 
    <!--

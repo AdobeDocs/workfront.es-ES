@@ -6,14 +6,14 @@ description: Las metas con un progreso Con problemas corren el peligro de no com
 author: Alina
 feature: Workfront Goals
 exl-id: df2cdc12-9102-4759-9daa-1f8ae68f110b
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '761'
-ht-degree: 88%
+source-wordcount: '748'
+ht-degree: 77%
 
 ---
 
-# Revisar los objetivos con problemas en Adobe Workfront Goals
+# Revisar las metas con problemas en Adobe Workfront Goals
 
 <!--Audited: 4/2025-->
 
@@ -40,7 +40,7 @@ Las metas con un progreso Con problemas corren el peligro de no completarse y se
 </col>
 <tbody>
  <tr>
-  <td> <p>paquete de Adobe Workfront</p> </td> 
+  <td> <p>Paquete de Adobe Workfront</p> </td> 
    <td> 
    <p>Adobe Workfront Ultimate</p>
    </td> 
@@ -128,9 +128,9 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 </tbody>
 </table>-->
 
-## Recomendaciones para evitar que las metas alcancen el progreso Con problemas
+## Recomendaciones para evitar que los objetivos alcancen un progreso de En problemas
 
-Antes de que las metas alcancen el progreso Con problemas, puede monitorizarlas a menudo y ajustar su progreso cuando alcanzan el progreso En riesgo. Las metas En riesgo corren en peligro de convertirse en metas Con problemas. Para obtener más información acerca del progreso de la meta, consulte [Información general sobre el progreso y la condición de la meta en Adobe Workfront Goals](../../workfront-goals/goal-management/calculate-goal-progress.md)
+Antes de que las metas alcancen un progreso de En problemas, puede monitorizarlas a menudo y ajustar su progreso cuando alcanzan un progreso de En riesgo. Los objetivos que están en riesgo corren el riesgo de meterse en problemas. Para obtener más información acerca del progreso de la meta, consulte [Información general sobre el progreso y la condición de la meta en Adobe Workfront Goals](../../workfront-goals/goal-management/calculate-goal-progress.md)
 
 Antes de que sus metas alcancen el progreso Con problemas, le recomendamos lo siguiente:
 
@@ -139,16 +139,13 @@ Antes de que sus metas alcancen el progreso Con problemas, le recomendamos lo si
 
 ## Revise las metas Con problemas en la Lista de metas
 
-Puede revisar las metas en cualquier sección de Workfront Goals. Para obtener información acerca de las secciones de Workfront Goals, consulte [Información general sobre las secciones de Adobe Workfront Goals](../../workfront-goals/goal-review-and-workfront-goals-sections/overview-of-wf-goals-sections.md).
+Puede revisar las metas en cualquier sección de Workfront Goals. Para obtener información acerca de las secciones Objetivos de Workfront, consulte [Información general sobre las secciones Objetivos de Adobe Workfront](../../workfront-goals/goal-review-and-workfront-goals-sections/overview-of-wf-goals-sections.md).
 
 Este artículo describe la revisión de metas en la lista de metas.
 
-1. Haga clic en el icono **Menú principal** ![Icono del menú principal](assets/main-menu-icon.png) > **Metas** en la esquina superior derecha.
+{{step1-to-goals}}
 
-   <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-management/assets/three-line-main-menu-icon.png) in the upper-left corner)
-   -->
-
-   Se abre el área de Workfront Goals y la sección de la lista de metas se muestra de forma predeterminada.
+Se abre el área de Workfront Goals y la sección de la lista de metas se muestra de forma predeterminada.
 
 1. (Recomendado) Ajuste los siguientes filtros en el área de lista de metas para revisar las metas en riesgo:
 

@@ -6,10 +6,10 @@ description: Puede compartir una plantilla con los usuarios o puede definir cóm
 author: Alina
 feature: Work Management
 exl-id: 99c6b241-a2c9-4b6c-b605-177bbbc3f21a
-source-git-commit: 87bf2a4485d3b0c29fcfe8e00dcca57874cdec04
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '720'
-ht-degree: 94%
+source-wordcount: '724'
+ht-degree: 87%
 
 ---
 
@@ -32,7 +32,7 @@ Para obtener información sobre los permisos que puede conceder a los usuarios a
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
@@ -97,7 +97,7 @@ Para compartir una plantilla:
 
    O
 
-   Seleccione una plantilla de la lista, haga clic en el icono Compartir ![](assets/share-icon.png) y, a continuación, haga clic en **Plantilla.**
+   Seleccione una plantilla de la lista, haga clic en el icono Compartir ![Compartir plantilla](assets/share-icon.png) y, a continuación, haga clic en **Plantilla.**
 
    >[!TIP]
    >
@@ -117,7 +117,7 @@ Para compartir una plantilla:
 
    * **Administrar**: los usuarios con estos permisos pueden editar o eliminar la plantilla.
 
-     Para obtener información sobre la configuración avanzada ![](assets/gear-icon-in-access-levels.png) disponible aquí, consulte la sección [Configuración avanzada para distribución de plantilla](../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md#template-permissions) en el artículo [Compartir una plantilla](../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md).
+     Para obtener información sobre la configuración avanzada ![Icono de engranaje](assets/gear-icon-in-access-levels.png) disponible aquí, consulte la sección [Configuración avanzada para compartir plantillas](../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md#template-permissions) en el artículo [Compartir una plantilla](../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md).
 
 1. Haga clic en **Guardar**.
 
@@ -145,9 +145,9 @@ Para compartir proyectos futuros creados a partir de una plantilla con usuarios:
 1. En el menú desplegable de cada entidad, seleccione una de las siguientes opciones:
 
    * **Sin acceso**: puede especificar qué usuarios no tendrán acceso a la plantilla.\
-     Esta opción solo está disponible cuando se comparten proyectos en lote desde plantillas. 
+     Esta opción solo está disponible cuando se comparten proyectos en lote desde plantillas.
    * **Visualizar**: los usuarios con estos permisos pueden ver los proyectos creados a partir de la plantilla.
-   * **Aportar**: los usuarios con estos permisos pueden contribuir a los proyectos creados a partir de la plantilla 
+   * **Contribute**: los usuarios con estos permisos pueden contribuir a proyectos creados a partir de la plantilla
    * **Administrar**: los usuarios con estos permisos pueden administrar o eliminar proyectos creados a partir de esta plantilla.
 
 1. (Opcional) Haga clic en el icono **Opciones** para que los proyectos estén disponibles en todo el sistema.

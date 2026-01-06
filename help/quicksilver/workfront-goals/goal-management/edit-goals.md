@@ -6,10 +6,10 @@ description: Puede editar las metas existentes de cualquier periodo de tiempo y 
 author: Alina
 feature: Workfront Goals
 exl-id: 74db534c-6897-40c2-bea9-a9d30a40f61c
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '574'
-ht-degree: 13%
+source-wordcount: '563'
+ht-degree: 14%
 
 ---
 
@@ -36,7 +36,7 @@ Puede editar las metas existentes de cualquier periodo de tiempo y en cualquier 
 </col>
 <tbody>
  <tr>
-  <td> <p>paquete de Adobe Workfront</p> </td> 
+  <td> <p>Paquete de Adobe Workfront</p> </td> 
    <td> 
    <p>Adobe Workfront Ultimate</p>
    </td> 
@@ -191,8 +191,10 @@ Editing goals differs depending on what environment you use.
 
 -->
 
-1. Haga clic en el icono **Menú principal** ![Icono del menú principal](assets/main-menu-icon.png) y luego haga clic en **Metas**.\
-   Se muestra una lista de objetivos.
+{{step1-to-goals}}
+
+Se muestra una lista de objetivos.
+
 1. Haga clic en una meta.\
    Se muestra la página de objetivo.
 

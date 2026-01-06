@@ -4,10 +4,10 @@ description: Este artículo contiene las preguntas más frecuentes sobre los pro
 author: Alina
 feature: Work Management
 exl-id: be262d72-f4e4-4426-a6bc-23499667fc97
-source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '636'
-ht-degree: 96%
+ht-degree: 93%
 
 ---
 
@@ -50,7 +50,7 @@ No puede cambiar el estado de un proyecto a completado si tiene alguno de los si
 
 ### Respuesta
 
-Si el proyecto tiene el modo de finalización establecido en automático, una vez que se hayan completado todas las tareas y problemas, el estado del proyecto cambiará automáticamente a Completado y no podrá modificarlo a ningún otro estado. El modo de finalización del proyecto debe establecerse en Manual para poder convertir un proyecto completado a En curso. Para obtener más información, consulte [El estado del proyecto no cambiará de Completado a En curso](../../../manage-work/projects/tips-tricks-and-troubleshooting/project-status-does-not-change-from-complete-to-current.md).
+Si el proyecto tiene el modo de finalización establecido en automático, una vez que se hayan completado todas las tareas y problemas, el estado del proyecto cambiará automáticamente a Completado y no podrá modificarlo a ningún otro estado. El modo de finalización del proyecto debe establecerse a Manual para poder convertir un proyecto completo a Actual. Para obtener más información, consulte [El estado del proyecto no cambiará de Completado a En curso](../../../manage-work/projects/tips-tricks-and-troubleshooting/project-status-does-not-change-from-complete-to-current.md).
 
 ## ¿Por qué no puedo añadir un Proyecto a un Portafolio aunque tengo los permisos correctos para hacerlo?
 

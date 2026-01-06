@@ -7,10 +7,10 @@ description: El coste potencial de riesgos de un proyecto tiene en cuenta los po
 author: Lisa
 feature: Work Management
 exl-id: f4dc1950-efd8-4936-83fd-1280ee465923
-source-git-commit: 6afa65f921864403c10541d283ef717dce81aed7
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '302'
-ht-degree: 85%
+ht-degree: 83%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 85%
 
 El coste potencial de riesgos de un proyecto tiene en cuenta los posibles costes de los riesgos del proyecto y su probabilidad de ocurrencia.
 
-## Información general sobre el coste potencial de riesgos de un proyecto
+## Descripción general del costo de riesgo potencial de un proyecto
 
 Adobe Workfront calcula el coste de riesgo potencial de un proyecto mediante la fórmula siguiente:
 

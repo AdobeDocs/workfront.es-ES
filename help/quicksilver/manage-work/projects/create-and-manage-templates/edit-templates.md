@@ -6,7 +6,7 @@ description: Puede editar las plantillas de proyecto para reflejar los cambios e
 author: Alina
 feature: Work Management
 exl-id: da0fca31-6a50-4862-ad9a-a453ef968773
-source-git-commit: 76379d5433cc13ee412c8c1045316ef253b3ee7d
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '5672'
 ht-degree: 88%
@@ -48,7 +48,7 @@ Puede editar las plantillas de una en una o editarlas de forma masiva.
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
@@ -426,9 +426,9 @@ Puede editar las plantillas de una en una o editarlas de forma masiva.
        </tr> 
        <tr> 
        <td role="rowheader"><strong>Tipo de actualización</strong> </td> 
-       <td> <p>Controla cuándo se guardan en el proyecto los cambios realizados en la línea de tiempo del futuro proyecto. </p> 
+       <td> <p>Controla cuándo se guardan en el proyecto los cambios realizados en la cronología del futuro proyecto. </p> 
        <b>EJEMPLO </b> 
-       <p>Los siguientes cambios en el proyecto activan una actualización en la línea de tiempo del proyecto:</p> 
+       <p>Los siguientes cambios en el proyecto activan una actualización en la cronología del proyecto:</p> 
        <ul> 
        <li> <p>actualizar las fechas de las tareas</p> </li> 
        <li> <p>cambiar relaciones de predecesoras<br></p> </li> 
@@ -437,16 +437,16 @@ Puede editar las plantillas de una en una o editarlas de forma masiva.
        </ul> 
        </div> <p>Seleccione entre las siguientes opciones:<br></p> 
        <ul> 
-       <li> <p><strong>Automático y al cambiar</strong> (configuración predeterminada): la línea de tiempo del proyecto futuro se actualiza cada vez que se produce un cambio en el proyecto o en otro proyecto del que depende la línea de tiempo (al cambiar). La cronología del proyecto también se actualiza cada noche (Automática).<br>Esta es la configuración recomendada para este campo porque garantiza que la línea de tiempo del proyecto siempre esté actualizada.<br>Cuando realiza una acción en una tarea o proyecto que activa un recálculo de línea de tiempo, todas las fechas disponibles se muestran inmediatamente, lo que le permite seguir trabajando. En los proyectos con más de 100 tareas, las fechas que requieran recálculos mayores se muestran brevemente como signo de interrogación (entre 1 y 5 segundos, o hasta un minuto en los proyectos grandes). Esto indica que el recálculo aún no ha finalizado y que las fechas están sujetas a cambios.<br></p> </li> 
+       <li> <p><strong>Automático y al cambiar</strong> (configuración predeterminada): la cronología del proyecto futuro se actualiza cada vez que se produce un cambio en el proyecto o en otro proyecto del que depende la cronología (al cambiar). La cronología del proyecto también se actualiza cada noche (Automática).<br>Esta es la configuración recomendada para este campo porque garantiza que la cronología del proyecto siempre esté actualizada.<br>Cuando realiza una acción en una tarea o proyecto que activa un recálculo de cronología, todas las fechas disponibles se muestran inmediatamente, lo que le permite seguir trabajando. En los proyectos con más de 100 tareas, las fechas que requieran recálculos mayores se muestran brevemente como signo de interrogación (entre 1 y 5 segundos, o hasta un minuto en los proyectos grandes). Esto indica que el recálculo aún no ha finalizado y que las fechas están sujetas a cambios.<br></p> </li> 
        </ul> 
        <ul> 
-       <li> <p><strong>Solo al cambiar</strong>: la línea de tiempo del proyecto se actualiza cada vez que se produce un cambio en el proyecto o en otro proyecto del que depende la línea de tiempo. Es posible que desee seleccionar esta opción si los cambios rara vez se producen en el proyecto o en otros proyectos de los que depende la cronología.<br></p> </li> 
+       <li> <p><strong>Solo al cambiar</strong>: la cronología del proyecto se actualiza cada vez que se produce un cambio en el proyecto o en otro proyecto del que depende la cronología. Es posible que desee seleccionar esta opción si los cambios rara vez se producen en el proyecto o en otros proyectos de los que depende la cronología.<br></p> </li> 
        </ul> 
        <ul> 
-       <li> <p><strong>Solo automático</strong>: la línea de tiempo del proyecto se actualiza cada noche; no se actualiza inmediatamente después de realizar los cambios.<br>Es posible que desee seleccionar esta opción si se producen muchos cambios cada día en el proyecto o en otros proyectos de los que depende la línea de tiempo. Sin embargo, tenga en cuenta que ha elegido esta configuración, ya que el proyecto no se actualizará al mismo tiempo que se realizan los cambios.<br></p> </li> 
+       <li> <p><strong>Solo automático</strong>: la cronología del proyecto se actualiza cada noche; no se actualiza inmediatamente después de realizar los cambios.<br>Es posible que desee seleccionar esta opción si se producen muchos cambios cada día en el proyecto o en otros proyectos de los que depende la cronología. Sin embargo, tenga en cuenta que ha elegido esta configuración, ya que el proyecto no se actualizará al mismo tiempo que se realizan los cambios.<br></p> </li> 
        </ul> 
        <ul> 
-       <li> <p><strong>Solo manual</strong>: la línea de tiempo del proyecto solo se actualiza cuando selecciona la opción para recalcular las líneas de tiempo, tal como se describe en <a href="../../../manage-work/projects/manage-projects/recalculate-project-timeline.md" class="MCXref xref">Recalcular las líneas de tiempo del proyecto</a>.<br></p> </li> 
+       <li> <p><strong>Solo manual</strong>: la cronología del proyecto solo se actualiza cuando selecciona la opción para recalcular las cronologías, tal como se describe en <a href="../../../manage-work/projects/manage-projects/recalculate-project-timeline.md" class="MCXref xref">Recalcular las cronologías del proyecto</a>.<br></p> </li> 
        </ul> <p>Es posible que desee seleccionar esta opción si realiza muchos cambios en el proyecto al mismo tiempo y desea que el cálculo de la escala de tiempo se produzca después de realizar todos los cambios (en lugar de después de cada cambio individual).</p> </td> 
        </tr> 
        <tr> 
@@ -1258,7 +1258,7 @@ For information about how these settings affect creating new tasks, see [Create 
 
 1. In the **Task Default Approval Process** box, select the Approval Process you want to associate with all new tasks when you add them to a project created from this template. You must create an Approval Process for tasks before you can associate it with tasks. Only active approval processes display in the list. For more information about creating Approval Processes, see [Creating Approval Processes](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
 1. In the **Task Default Custom Forms** box, select the custom form or forms that you want to associate with all new tasks when you add them to a project created from this template. You must build the custom forms before they are available to select in this field. Only active custom forms display in the list. You can associate up to ten custom forms with a task.
-1. (Optional) **Select Use Work Effort to automatically calculate task Planned Hours** if you want to enable managing task effort by using&nbsp;Work Effort instead of Planned Hours in the project created from the template.
+1. (Optional) **Select Use Work Effort to automatically calculate task Planned Hours** if you want to enable managing task effort by using Work Effort instead of Planned Hours in the project created from the template.
 1. (Conditional and optional) If you selected Use Work Effort to automatically calculate task Planned Hours, click the drop-down menu to update the percentage for each level of Work Effort. The following percentage values are the defaults:
  
    | Work Effort level |Percentage value|

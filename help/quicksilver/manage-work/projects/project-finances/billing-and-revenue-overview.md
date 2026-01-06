@@ -7,10 +7,10 @@ description: Como administrador del proyecto, puede utilizar las tarifas de fact
 author: Lisa
 feature: Work Management
 exl-id: 400abcde-e368-4a70-89a9-05027900ab81
-source-git-commit: e5a87b92bf1f6c2e0485ba8a2eb73e52c422b2fc
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '3691'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -117,7 +117,7 @@ En la tabla siguiente se muestran los tipos de ingresos asociados a las tareas, 
 
 <p>Los ingresos planificados del proyecto que se muestran en el área de Detalles del proyecto y en los informes del proyecto difieren de los ingresos planificados que se muestran en el informe Utilización. </p></li></ul> <p>Los ingresos planificados en el área de Detalles del proyecto reflejan los ingresos de la tarea asociados con las horas planificadas de la tarea, así como los ingresos fijos del proyecto. Los ingresos planificados en el informe Utilización muestran los ingresos planificados asociados únicamente a las horas planificadas de las asignaciones de tareas del proyecto. </p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
-      <p>Si el proyecto tiene 1 tarea con 10 horas asignada a un consultor con una tasa horaria de 20 dólares y el proyecto tiene 100 dólares de ingresos fijos, el informe Utilización muestra 200 dólares para los ingresos planificados (los ingresos planificados asociados con las horas de la tarea). La sección Detalles del proyecto muestra 300 $ (los ingresos planificados de la tarea y los ingresos fijos del proyecto). </p> 
+      <p>Si el proyecto tiene 1 tarea con 10 horas asignada a un consultor con una tasa horaria de 20 dólares y el proyecto tiene 100 dólares de ingresos fijos, el informe Utilización muestra 200 dólares para los ingresos planificados (los ingresos planificados asociados con las horas de la tarea). La sección Detalles del proyecto muestra 300 dólares (los ingresos planificados de la tarea y los ingresos fijos del proyecto). </p> 
      </div> </p> <p>Los ingresos planificados para la tarea se calculan usando las tarifas por hora de facturación de los usuarios o las funciones asignadas a las tareas. El tipo de ingresos de las tareas influye en la tasa (usuario o función) que se utiliza para calcular los ingresos planificados. Para obtener más información, consulte las secciones siguientes de este artículo:</p> 
     <ul> 
      <li> <p><a href="#overview-of-task-revenue-types" class="MCXref xref">Información general sobre tipos de ingresos de tareas</a> </p> </li> 
@@ -176,7 +176,7 @@ Puede aplicar los siguientes tipos de ingresos a sus tareas o proyectos:
  <tbody> 
   <tr> 
    <td> <p>Ingresos fijos</p> </td> 
-   <td> <p>Este tipo se puede utilizar con proyectos y tareas. </p> <p>Al adjuntar una plantilla a un proyecto, los ingresos fijos de la plantilla se añaden a los ingresos fijos del proyecto.Para obtener más información, consulte <a href="../../../manage-work/projects/create-and-manage-templates/attach-template-to-project-overview.md" class="MCXref xref">Información general sobre cómo adjuntar una plantilla a un proyecto</a>. </p> <p>Para las tareas, independientemente de las asignaciones de tareas, los ingresos de la tarea siempre se calculan utilizando el importe fijo especificado en la tarea. </p> <p>Los ingresos fijos de las tareas secundarias se suman a los ingresos de la tarea principal y, a continuación, a los ingresos del proyecto. Si se define un importe fijo en la tarea principal y/o en el proyecto, el importe se añade a los ingresos planificados acumulados de cualquier tarea secundaria.</p> <p>La cantidad de ingresos fijos en las tareas se puede incluir en un Registro de facturación del proyecto.</p> </td> 
+   <td> <p>Este tipo se puede utilizar con proyectos y tareas. </p> <p>Al adjuntar una plantilla a un proyecto, los ingresos fijos de la plantilla se añaden a los ingresos fijos del proyecto. Para obtener más información, vea <a href="../../../manage-work/projects/create-and-manage-templates/attach-template-to-project-overview.md" class="MCXref xref">Información general sobre cómo adjuntar una plantilla a un proyecto</a>. </p> <p>Para las tareas, independientemente de las asignaciones de tareas, los ingresos de la tarea siempre se calculan utilizando el importe fijo especificado en la tarea. </p> <p>Los ingresos fijos de las tareas secundarias se suman a los ingresos de la tarea principal y, a continuación, a los ingresos del proyecto. Si se define un importe fijo en la tarea principal y/o en el proyecto, el importe se añade a los ingresos planificados acumulados de cualquier tarea secundaria.</p> <p>La cantidad de ingresos fijos en las tareas se puede incluir en un Registro de facturación del proyecto.</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Usuario por hora</p> </td> 
@@ -192,7 +192,7 @@ Este es el tipo de ingresos predeterminado cuando crea una tarea.</p> </td>
   </tr> 
   <tr> 
    <td> <p>Usuario por hora con límite</p> </td> 
-   <td> <p>Este tipo solo se puede utilizar para tareas.</p> <p>Las tareas se facturan por hora como en Usuario por hora, pero tienen un importe máximo que puede especificar. <br>Por ejemplo, si la tarifa de facturación de un usuario es de 25 USD, pero el importe límite de la tarea es de 20 USD y el usuario registra una hora, los ingresos reales de la tarea serán de 20 USD. </p> </td> 
+   <td> <p>Este tipo solo se puede utilizar para tareas.</p> <p>Las tareas se facturan por hora como en Usuario por hora, pero tienen un importe límite que puede especificar. <br>Por ejemplo, si la tarifa de facturación de un usuario es de 25 USD, pero el importe límite de la tarea es de 20 USD y el usuario registra una hora, los ingresos reales de la tarea serán de 20 USD. </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Función por hora con límite</p> </td> 

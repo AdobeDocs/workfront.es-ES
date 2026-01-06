@@ -6,10 +6,10 @@ description: Puede revisar y resolver los comentarios existentes en una prueba y
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 5124144e-b613-46c4-8697-b40caf22af04
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '883'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -93,7 +93,7 @@ Puede asociar los comentarios de prueba a un área específica del documento. Ut
    ![Configuración de la herramienta de dibujo](assets/android-drawingtoolsettings-350x328.png)
 
 1. Dibuje la forma en el documento de prueba. Seleccione el icono de **[!UICONTROL Deshacer]** ![Deshacer](assets/android-undo-icon-30x31.png) para deshacer el dibujo.
-1. (Condicional) Seleccione la forma y elija **[!UICONTROL Configuración]** para editar la configuración de la forma o **[!UICONTROL Quitar]** para eliminar la forma.
+1. (Condicional) Seleccione la forma y elija **[!UICONTROL Configuración]** para modificar su configuración o **[!UICONTROL Quitar]** para eliminar la forma.
 
    ![Menú de dibujo](assets/android-drawing-settingsremove-350x166.png)
 

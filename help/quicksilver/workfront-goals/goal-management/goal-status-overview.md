@@ -7,10 +7,10 @@ description: Los estados de la meta indican si una meta está activa y registra 
 author: Alina
 feature: Workfront Goals
 exl-id: dc70dfac-2bdd-41ab-b316-0cd20f749423
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '793'
-ht-degree: 94%
+ht-degree: 90%
 
 ---
 
@@ -58,14 +58,14 @@ ht-degree: 94%
   | Cerrado | No | Sí | No | - |
 
 * Al abrir una meta cerrada también se actualiza su progreso.
-* Ciertas acciones que realiza en una meta también actualizan su estado. Para obtener información sobre cómo actualizar los estados de las metas, consulte los siguientes artículos:
+* Ciertas acciones que realiza en una meta también actualizan su estado. Para obtener información sobre cómo actualizar los estados de objetivos, consulte los siguientes artículos:
 
    * [Crear metas en Adobe Workfront Goals](../../workfront-goals/goal-management/create-goals.md)
    * [Activar metas en Adobe Workfront Goals](../../workfront-goals/goal-management/activate-goals.md)
    * [Eliminar y desactivar metas en Adobe Workfront Goals](../../workfront-goals/goal-management/delete-and-deactivate-goals.md)
    * [Cerrar y volver a abrir metas en Adobe Workfront Goals](../../workfront-goals/goal-management/close-and-reopen-goals.md)
 
-## Información general sobre los estados de las metas en Workfront Goals
+## Información general sobre los estados de objetivos en Workfront Goals
 
 Para obtener información sobre cómo crear metas de Workfront Goals, consulte [Crear metas en Adobe Workfront Goals](../../workfront-goals/goal-management/create-goals.md).
 

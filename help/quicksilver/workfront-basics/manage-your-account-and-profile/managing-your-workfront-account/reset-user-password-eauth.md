@@ -8,10 +8,10 @@ feature: Get Started with Workfront
 hide: true
 hidefromtoc: true
 exl-id: 72f955e9-75ff-4ff7-b434-7a2b2d5ee0e8
-source-git-commit: 1d7d094a682a02b09651023f94e81ee0b330163c
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '217'
-ht-degree: 87%
+source-wordcount: '199'
+ht-degree: 95%
 
 ---
 
@@ -48,9 +48,7 @@ Para saber qué plan, tipo de licencia o acceso tienes, contacta al administrado
 
 ## Restablecer la contraseña de un usuario en un entorno habilitado para eAuth
 
-1. Haga clic en el icono **[!UICONTROL Menú principal]** ![Icono del menú principal](assets/main-menu-icon.png) en la esquina superior derecha de [!DNL Workfront], luego haga clic en **[!UICONTROL Usuarios]** ![Icono de usuarios](assets/users-icon-in-main-menu.png).
-
-
+{{step-1-to-users}}
 
 1. Selecciona al **[!UICONTROL Usuario]** que necesita restablecer la contraseña.
    ![Seleccione al usuario](assets/100520classicnweselectuser-350x105.png)

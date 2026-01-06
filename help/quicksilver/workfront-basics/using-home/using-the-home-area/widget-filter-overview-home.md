@@ -6,7 +6,7 @@ description: Puede elegir entre una serie de widgets para personalizar el conten
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 58f79e81-df6b-456f-9e91-4e00a1c2a8a2
-source-git-commit: 884ade1102e685ec01af2790b17acb50c2114ca7
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '1092'
 ht-degree: 15%
@@ -276,7 +276,7 @@ En el entorno de producción:
       <td> <p>Muestra solicitudes 
       <ul>
       <li>Que ha enviado y que sigue abierto. </li> 
-      <li>Sin una fecha de finalización real o cuyo objeto de resolución no tenga una fecha de finalización real se muestra en la subpestaña Mis solicitudes abiertas. </li> 
+      <li>Sin una fecha de finalización real o cuyo objeto de resolución no tenga una fecha de finalización real se muestra en la subpestaña Mis solicitudes abiertas.  </li> 
       </ul>
       <p><b>NOTA</b> 
       Las solicitudes que no están en un estado equivalente a Cerrado se consideran abiertas.</p> </td> 

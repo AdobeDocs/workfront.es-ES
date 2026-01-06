@@ -6,10 +6,10 @@ description: A veces, puede haber conflictos entre las programaciones de tareas 
 author: Alina
 feature: Work Management
 exl-id: 6695448c-76ce-460c-aa59-63a3d5e2e18d
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '386'
-ht-degree: 98%
+ht-degree: 91%
 
 ---
 
@@ -30,7 +30,7 @@ Si se añade un retraso de redistribución a una tarea, se ajusta la Fecha proye
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
@@ -93,7 +93,7 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
    Seleccione entre las siguientes opciones para unidades de tiempo:
 
    * minutos
-   * Horas.Es la opción predeterminada.
+   * Horas. Es la opción predeterminada.
    * Días
    * Semanas
    * Meses
@@ -107,6 +107,6 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
    >
    >El tiempo transcurrido es una unidad de tiempo de la duración de una tarea. Es el tiempo entre la fecha de inicio planificada y la fecha de finalización planificada de una tarea que incluye días festivos, fines de semana y días libres. En otras palabras, el tiempo transcurrido es el paso de los días del calendario.
 
-1. Haga clic en **Guardar**. 
+1. Haga clic en **Guardar**.
 
- 
+

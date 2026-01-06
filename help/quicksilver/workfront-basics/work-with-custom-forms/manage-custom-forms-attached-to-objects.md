@@ -6,10 +6,10 @@ description: Puede actualizar el orden en que se muestran los formularios person
 author: Alina
 feature: Get Started with Workfront
 exl-id: e5570a09-32cb-43e3-9c1d-4421db42fa24
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '1054'
-ht-degree: 90%
+ht-degree: 87%
 
 ---
 
@@ -28,7 +28,7 @@ Puede actualizar el orden en que se muestran los formularios personalizados adju
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera </p> </td> 
   </tr> 
   <tr> 
@@ -92,7 +92,7 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 1. Arrastre un formulario ![](assets/move-icon---dots.png) a una nueva ubicación de la lista.
 1. Para los formularios personalizados de proyectos, tareas y problemas, haga clic en **Guardar**.
 
-   Para los demás objetos, haga clic en **He terminado de administrar** > **Guardar cambios**.
+   Para los demás objetos, haz clic en **He terminado de administrar** > **Guardar cambios**.
 
 ## Quitar un formulario personalizado de un objeto {#remove-a-custom-form-from-an-object}
 
@@ -180,6 +180,6 @@ Para editar varios formularios personalizados al editar objetos por lotes, haga 
 
    O
 
-   Haga clic en **Expandir formularios** para expandir todos los formularios al mismo tiempo. 
+   Haga clic en **Expandir Forms** para expandir todos los formularios al mismo tiempo.
 
 1. Haga clic en **Guardar cambios**.

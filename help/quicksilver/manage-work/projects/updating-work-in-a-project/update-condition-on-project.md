@@ -6,10 +6,10 @@ description: La condición de un proyecto es un indicador que se coloca para ind
 author: Alina
 feature: Work Management
 exl-id: 1f46386e-e1ae-4845-8cc4-09dd7d39076f
-source-git-commit: 2d8ad8baa6c470fd82b61202cb42443f568b1968
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '526'
-ht-degree: 86%
+ht-degree: 83%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 86%
 
 La condición de un proyecto es un indicador que se coloca para indicar si el trabajo asociado con él se está realizando sin problemas o si se ha encontrado con algún obstáculo. Esto es diferente al estado del proyecto, que indica si está trabajando activamente en él o no.
 
-Puede establecer la condición de un proyecto de forma automática o manual. Para cambiar la condición de un proyecto manualmente, debe ser el propietario del proyecto o tener derechos de administración sobre el mismo.
+Puede establecer la condición de un proyecto de forma automática o manual. Para cambiar la condición de un proyecto manualmente, debe ser el propietario del proyecto o tener derechos de administración sobre él.
 
 El administrador de Adobe Workfront puede crear condiciones personalizadas para su entorno, tal como se describe en [Crear o editar una condición personalizada](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/create-edit-custom-conditions.md).
 
@@ -30,7 +30,7 @@ El administrador de Adobe Workfront puede crear condiciones personalizadas para 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td><p>Cualquiera</p> </td> 
   </tr> 
   <tr> 

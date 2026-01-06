@@ -5,10 +5,10 @@ description: Puede utilizar el caso empresarial para solicitar un proyecto y def
 author: Becky
 feature: Work Management
 exl-id: db69b3bf-04e3-49b4-ae0d-ab6145389db5
-source-git-commit: fa0b4322b9f7c1d506cf194645c7ae50ad8c0f0b
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '777'
-ht-degree: 64%
+ht-degree: 63%
 
 ---
 
@@ -85,7 +85,7 @@ Tenga en cuenta lo siguiente al solicitar un proyecto a través de un caso empre
 
 1. (Condicional) Si ha seleccionado adjuntar una plantilla, continúe adjuntándola al proyecto.
 1. En el panel izquierdo, haga clic en **Caso comercial**.
-1. (Opcional) Para editar la sección **Información del proyecto**, haga clic en **Editar información del proyecto**. 
+1. (Opcional) Para editar la sección **Información del proyecto**, haga clic en **Editar información del proyecto**.
 
    Para obtener más información sobre cómo editar los campos de sección **Información del proyecto**, consulte la sección [Información del proyecto](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md#project-info) en el artículo [Información general sobre las áreas del caso empresarial](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md).
 
@@ -103,7 +103,7 @@ Tenga en cuenta lo siguiente al solicitar un proyecto a través de un caso empre
    >
    >La información que se muestra aquí es la misma que la que aparece en las herramientas de presupuestación de recursos en el sistema.
 
-1. (Opcional) Haga clic en **Editar riesgos** para añadir posibles riesgos a este proyecto. Para obtener información acerca de cómo añadir riesgos al caso empresarial, vea la sección [Riesgos](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md#risks) en el artículo [Información general sobre las áreas del caso empresarial](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md).
+1. (Opcional) Haga clic en **Editar riesgos** para agregar posibles riesgos a este proyecto. Para obtener información acerca de cómo añadir riesgos al caso empresarial, vea la sección [Riesgos](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md#risks) en el artículo [Información general sobre las áreas del caso empresarial](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md).
 1. (Opcional) Seleccione un **informe de valoración** en el menú desplegable **Agregar un informe de valoración a este proyecto**.
 
    Se deben crear cuadros de resultados para poder adjuntarlos a los proyectos.
@@ -123,6 +123,6 @@ Tenga en cuenta lo siguiente al solicitar un proyecto a través de un caso empre
 
 >[!TIP]
 >
-> Después de completar el caso empresarial, puede exportar una copia a un archivo .pdf. Para obtener más información sobre cómo exportar el caso empresarial a un archivo .pdf, vea [Exportar el caso empresarial de un proyecto](/help/quicksilver/manage-work/projects/define-a-business-case/export-business-case.md).
+> Después de completar el caso empresarial, puede exportar una copia a un archivo .pdf. Para obtener más información sobre cómo exportar el caso empresarial a un archivo .pdf, vea [Exportar el caso empresarial de un proyecto](/help/quicksilver/manage-work/projects/define-a-business-case/export-business-case.md).
 
 

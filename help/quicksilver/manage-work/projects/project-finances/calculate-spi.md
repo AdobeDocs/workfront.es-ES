@@ -7,10 +7,10 @@ description: El Índice de rendimiento del horario (SPI) describe la relación e
 author: Lisa
 feature: Work Management
 exl-id: 38259774-f22b-4b69-9e22-5b541118a7de
-source-git-commit: 23a4d055871c9138818e70fa1cd936581dbd7552
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '396'
-ht-degree: 17%
+ht-degree: 21%
 
 ---
 
@@ -31,7 +31,7 @@ El Índice de rendimiento del horario (SPI) describe la relación entre la progr
  <col> 
  <tbody> 
   <tr> 
-   <td>paquete de Adobe Workfront</td> 
+   <td>Paquete de Adobe Workfront</td> 
    <td>Cualquiera</td> 
   </tr> 
   <tr> 
@@ -62,7 +62,7 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 
 ### Lo que muestra el valor SPI {#what-the-spi-value-shows}
 
-Los jefes de proyecto entienden que un valor de SPI de 1 significa que el proyecto está planificado o programado.  Los valores mayores que 1 indican que un proyecto va por delante de la programación y los valores menores que 1 significan que un proyecto está por detrás de la programación.  Cuanto más lejos esté 1, mayor será la desviación con respecto al plan.
+Los jefes de proyecto entienden que un valor de SPI de 1 significa que el proyecto está planificado o programado.  Los valores mayores que 1 indican que un proyecto va por delante de la programación y los valores menores que 1 significan que un proyecto está por detrás de la programación.  Cuanto más se aleje de 1, mayor será la desviación con respecto al plan.
 
 | **Valor SPI** | **Indicación de &quot;según lo programado&quot;** |
 |---|---|
@@ -82,9 +82,9 @@ SPI = (Total Planned Hours x % Complete) / Planned Hours Scheduled to Date*
 
 *&#42;Si las horas planificadas están programadas para la fecha = 0, SPI = 1*.
 
-El horario de horas planificado hasta la fecha se calcula en el minuto en que se realizan los cálculos. Muestra la cantidad de horas planificadas hasta la fecha actual. Se puede recalcular automáticamente cuando cambie los datos financieros para que sean precisos. No hay ningún campo en Workfront que indique este valor.
+El horario de horas planificado hasta la fecha se calcula en el minuto en que se realizan los cálculos. Muestra la cantidad de horas planificadas hasta la fecha actual. Se puede recalcular automáticamente cuando cambie los datos financieros para que sean precisos. No hay ningún campo en Workfront que indique este valor.
 
-Por ejemplo, si tiene un proyecto con una tarea y esta tiene 10 horas planificadas y una duración de 10 días, el horario de horas planificadas hasta la fecha del quinto día es 5. 
+Por ejemplo, si tiene un proyecto con una tarea y esta tiene 10 horas planificadas y una duración de 10 días, el horario de horas planificadas hasta la fecha del quinto día es 5.
 
 ## Localizar SPI en un proyecto o tarea
 

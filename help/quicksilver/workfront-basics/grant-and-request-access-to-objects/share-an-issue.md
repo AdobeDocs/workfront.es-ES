@@ -6,7 +6,7 @@ description: El administrador de Adobe Workfront concede a los usuarios acceso p
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 91ee72e0-20a9-4b06-9f80-a343dd4fbe06
-source-git-commit: 4ae96f67b15838403ffce32317d871d6904d6d95
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '1237'
 ht-degree: 23%
@@ -31,7 +31,7 @@ Los permisos son específicos de un elemento de Workfront y definen qué accione
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
@@ -65,7 +65,7 @@ Además de las consideraciones siguientes, consulte [Información general sobre 
 
 * El creador de un problema tiene permisos de administración de forma predeterminada.
 * Puede compartir problemas individualmente o puede compartir varios de ellos a la vez. Compartir problemas es idéntico a compartir otros elementos en Workfront. Para obtener más información sobre cómo compartir elementos en Workfront, consulte [Buscar un objeto](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md).
-* Puede conceder los siguientes permisos a un problema: 
+* Puede conceder los siguientes permisos a un problema:
 
    * Ver
    * Aportar
@@ -85,7 +85,7 @@ Además de las consideraciones siguientes, consulte [Información general sobre 
    * Especifique los permisos en cualquiera de los objetos principales del problema: proyecto, programa o portafolio. Los problemas heredan los permisos de sus objetos principales. Para obtener información acerca de cómo ver permisos heredados en objetos, consulte [Ver permisos heredados en objetos](../../workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md).
    * Agregue entidades al Uso compartido de proyectos en una plantilla utilizada para crear el proyecto en el que se encuentra el problema. Para obtener información sobre cómo compartir proyectos desde plantillas, consulte [Compartir una plantilla](../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md).
 
-   * Especifique los permisos sobre todos los problemas de un proyecto al editarlo. Para obtener información sobre cómo administrar el acceso a problemas o solicitudes en el proyecto en función de los permisos de un usuario para el proyecto, consulte la sección [&#128279;](../../manage-work/projects/manage-projects/edit-projects.md#access) en el artículo [Editar proyectos](../../manage-work/projects/manage-projects/edit-projects.md).
+   * Especifique los permisos sobre todos los problemas de un proyecto al editarlo. Para obtener información sobre cómo administrar el acceso a problemas o solicitudes en el proyecto en función de los permisos de un usuario para el proyecto, consulte la sección [](../../manage-work/projects/manage-projects/edit-projects.md#access) en el artículo [Editar proyectos](../../manage-work/projects/manage-projects/edit-projects.md).
 
      >[!TIP]
      >
@@ -107,7 +107,7 @@ Además de las consideraciones siguientes, consulte [Información general sobre 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <h2>Automatically share an issue at the project level</h2>
-<p>(NOTE: this info duplicates in Edit projects - linked there instead (above).)&nbsp;</p>
+<p>(NOTE: this info duplicates in Edit projects - linked there instead (above).)  </p>
 <p>As the Project Owner, you can grant permissions automatically to users as the issues are added to a project.</p>
 <ol>
 <li value="1">Go to the project whose issues you want to share automatically.</li>
@@ -117,7 +117,7 @@ Además de las consideraciones siguientes, consulte [Información general sobre 
 <ul>
 <li><strong>View</strong></li>
 <li><strong>Contribute</strong></li>
-<li><strong>Manage</strong><br>Now, when someone is assigned to an issue on the selected project, they are granted the specified permissions to the issue.&nbsp;</li>
+<li><strong>Manage</strong><br>Now, when someone is assigned to an issue on the selected project, they are granted the specified permissions to the issue.  </li>
 </ul></li>
 <li value="5">(Optional) Select the <strong>Also grant ... access to the project</strong> field to also grant View, Contribute, or Manage permissions to the projects to the user assigned to the issue</li>
 <li value="6">In the <strong>When someone submits a REQUEST ...</strong> field, select from the following permissions levels:
@@ -132,7 +132,7 @@ Además de las consideraciones siguientes, consulte [Información general sobre 
 </ul>
 </note></li>
 </ul></li>
-<li value="7"> <p>(Optional) Select the <strong>People from the same company will inherit the same permissions for all requests</strong> field.</p> <p>People from the same company as the user submitting the request are granted the same permissions on the requests as the user.&nbsp;</p> </li>
+<li value="7"> <p>(Optional) Select the <strong>People from the same company will inherit the same permissions for all requests</strong> field.</p> <p>People from the same company as the user submitting the request are granted the same permissions on the requests as the user.  </p> </li>
 <li value="8">Click <strong>Save Changes</strong>.</li>
 </ol>
 </div>
@@ -141,7 +141,7 @@ Además de las consideraciones siguientes, consulte [Información general sobre 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <h2>Automatically share an issue in request queues</h2>
-<p>(NOTE: drafted because it's duplicated from Create a Request Queue which is linked above)&nbsp;</p>
+<p>(NOTE: drafted because it's duplicated from Create a Request Queue which is linked above)  </p>
 <p>As the Project Owner, you can grant permissions automatically to users as the issues are submitted to a request queue.</p>
 <ol>
 <li value="1">Go to the project whose issues you want to share automatically.</li>
@@ -153,7 +153,7 @@ Además de las consideraciones siguientes, consulte [Información general sobre 
 <li><strong>Contribute Access</strong> </li>
 <li> <p><strong>Manage Access</strong> </p> </li>
 </ul> <p>Now, when someone submits a request to the selected project, they are granted the specified permissions to the request.</p> </li>
-<li value="5"> <p>(Optional) Select the <strong>People from the same company will inherit the same permissions for all requests</strong>.</p> <p>People from the same company as the user submitting the request are granted the same permissions on the requests as the user.&nbsp;</p> </li>
+<li value="5"> <p>(Optional) Select the <strong>People from the same company will inherit the same permissions for all requests</strong>.</p> <p>People from the same company as the user submitting the request are granted the same permissions on the requests as the user.  </p> </li>
 <li value="6">Click <strong>Save</strong>.</li>
 </ol>
 </div>
@@ -245,26 +245,26 @@ En la tabla siguiente se muestran los permisos que puede otorgar a los usuarios 
   <tr> 
    <td> <p>Añadir problemas</p> </td> 
    <td>✓</td> 
-   <td> </td> 
-   <td> </td> 
+   <td>  </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
-   <td>Eliminar</td> 
+   <td>Eliminar  </td> 
    <td>✓</td> 
-   <td> </td> 
-   <td> </td> 
+   <td>  </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td>Adjuntar formulario personalizado</td> 
    <td>✓</td> 
-   <td> </td> 
-   <td> </td> 
+   <td>  </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td>Editar campos personalizados</td> 
    <td>✓</td> 
    <td>✓</td> 
-   <td> </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td>Aprobar problema</td> 
@@ -275,8 +275,8 @@ En la tabla siguiente se muestran los permisos que puede otorgar a los usuarios 
   <tr> 
    <td>Añadir un proceso de aprobación</td> 
    <td>✓</td> 
-   <td> </td> 
-   <td> </td> 
+   <td>  </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td>Agregar documentos</td> 
@@ -293,26 +293,26 @@ En la tabla siguiente se muestran los permisos que puede otorgar a los usuarios 
   <tr> 
    <td>Mover problema</td> 
    <td>✓</td> 
-   <td> </td> 
-   <td> </td> 
+   <td>  </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td>Registrar horas</td> 
    <td>✓</td> 
    <td>✓</td> 
-   <td> </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td>Convertir a proyecto*</td> 
    <td>✓</td> 
-   <td> </td> 
-   <td> </td> 
+   <td>  </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td>Aceptar asignación</td> 
    <td>✓</td> 
    <td>✓</td> 
-   <td> </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td>Actualizaciones/comentarios</td> 
@@ -323,14 +323,14 @@ En la tabla siguiente se muestran los permisos que puede otorgar a los usuarios 
   <tr> 
    <td>Modificar fechas planificadas del proyecto</td> 
    <td>✓</td> 
-   <td> </td> 
-   <td> </td> 
+   <td>  </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td>Hacer asignaciones</td> 
    <td>✓</td> 
    <td>✓</td> 
-   <td> </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td>Compartir</td> 
@@ -340,8 +340,8 @@ En la tabla siguiente se muestran los permisos que puede otorgar a los usuarios 
   </tr> 
   <tr> 
    <td>Compartir en todo el sistema</td> 
-   <td> </td> 
-   <td> </td> 
+   <td>  </td> 
+   <td>  </td> 
    <td>✓</td> 
   </tr> 
  </tbody> 

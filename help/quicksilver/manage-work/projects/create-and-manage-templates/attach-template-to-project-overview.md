@@ -8,10 +8,10 @@ description: Al adjuntar una plantilla a un proyecto existente, se modifica part
 author: Alina
 feature: Work Management
 exl-id: 7f0137b6-ce8e-4b66-ad55-e6dc2aae09d9
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '1258'
-ht-degree: 5%
+ht-degree: 11%
 
 ---
 
@@ -26,7 +26,7 @@ Para obtener información sobre cómo adjuntar una plantilla a un proyecto, vea 
 Tenga en cuenta lo siguiente al agregar plantillas a proyectos:
 
 * A los proyectos solo se pueden adjuntar plantillas activas.
-* Puede adjuntar una plantilla a un proyecto cuando el proyecto se encuentra en estado completo, muerto o en estado de aprobación pendiente, solo cuando el administrador de Adobe Workfront o un administrador de grupo hayan habilitado esta funcionalidad en el área de Preferencias del proyecto. Para obtener información sobre cómo establecer las preferencias del proyecto, consulte [Configurar las preferencias de proyecto de todo el sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+* Puede adjuntar una plantilla a un proyecto cuando el proyecto se encuentra en estado completo, muerto o en estado de aprobación pendiente, solo cuando el administrador de Adobe Workfront o un administrador de grupo hayan habilitado esta funcionalidad en el área de Preferencias del proyecto. Para obtener información sobre cómo establecer las preferencias del proyecto, consulte [Configurar las preferencias de proyecto en todo el sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 * A menos que excluya tareas de plantilla específicas del proceso de datos adjuntos, todas las tareas de plantilla se agregan al proyecto existente.
 * La mayoría de las configuraciones de plantilla se añaden al proyecto. Se conservan algunas configuraciones de proyecto. Para obtener más información, consulte la sección [Comprender los cambios en los campos de proyecto al adjuntar una plantilla](#understand-changes-to-project-fields-when-attaching-a-template) en este artículo.
 
@@ -38,7 +38,7 @@ Tenga en cuenta lo siguiente al agregar plantillas a proyectos:
 
 Algunas configuraciones de plantilla se transfieren automáticamente al proyecto, a menos que las marque específicamente para que se excluyan durante el proceso de datos adjuntos de la plantilla. Cuando los marca para que se excluyan, se conservan los valores de los campos de proyecto.
 
-Sin embargo, no todos los campos de proyecto están disponibles para administrar en el proceso de adjuntar una plantilla a un proyecto. Para obtener información, vea [Adjuntar una plantilla a un proyecto](../../../manage-work/projects/create-and-manage-templates/attach-template-to-project.md).
+Sin embargo, no todos los campos de proyecto están disponibles para administrar en el proceso de adjuntar una plantilla a un proyecto. Para obtener información, consulte [Adjuntar una plantilla a un proyecto](../../../manage-work/projects/create-and-manage-templates/attach-template-to-project.md).
 
 En la tabla siguiente se describen los valores predeterminados de lo que sucede con los campos de proyecto al adjuntar una plantilla y los campos que se pueden administrar durante el proceso de datos adjuntos para invalidar el comportamiento predeterminado:
 
@@ -55,167 +55,167 @@ En la tabla siguiente se describen los valores predeterminados de lo que sucede 
   <tr> 
    <td>Descripción</td> 
    <td>Se conserva la información del proyecto</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td> <p>Estado</p> </td> 
    <td>Se conserva la información del proyecto</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>URL</td> 
    <td>Se transfiere desde la plantilla, si el campo está vacío en el proyecto</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Prioridad</td> 
    <td>Se conserva la información del proyecto</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Tipo de condición</td> 
    <td>Se conserva la información del proyecto</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Modo de programación</td> 
    <td>Se conserva la información del proyecto</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Fechas planificadas</td> 
    <td>Puede cambiar según las tareas agregadas</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Fechas reales</td> 
    <td>Puede cambiar según las tareas agregadas</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Portafolio</td> 
    <td>Se conserva la información del proyecto</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
-   <td>Programar</td> 
+   <td>Programa</td> 
    <td>Se conserva la información del proyecto</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Grupo</td> 
    <td>Se conserva la información del proyecto</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Compañía</td> 
    <td>Se transfiere desde la plantilla, si el campo está vacío en el proyecto</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Horas planificadas</td> 
    <td>Puede cambiar según las tareas agregadas</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Propietario del proyecto</td> 
    <td>Se transfiere desde la plantilla, si el campo está vacío en el proyecto</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Patrocinador de proyecto</td> 
    <td>Se transfiere desde la plantilla, si el campo está vacío en el proyecto</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Gerente de recursos</td> 
    <td>Se ha agregado a la lista de administradores de recursos existentes en el proyecto</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
-   <td>Forms personalizado</td> 
+   <td>Formularios personalizados</td> 
    <td>Se agrega al proyecto, además de a los formularios que ya están en el proyecto</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Presupuesto</td> 
    <td>Se conserva la información del proyecto</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Divisa</td> 
    <td>Se conserva la información del proyecto</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>MIR</td> 
    <td>Se conserva la información del proyecto</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>CAE</td> 
    <td>Se conserva la información del proyecto</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Beneficio planificado</td> 
    <td>Se conserva la información del proyecto</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Beneficio real</td> 
    <td>Se conserva la información del proyecto</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Ruta de hitos</td> 
    <td>Se transfiere desde la plantilla, si el campo está vacío en el proyecto</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Modo de finalización</td> 
    <td>Se conserva la información del proyecto</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Modo de finalización de resumen</td> 
    <td>Se conserva la información del proyecto</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Tipo de actualización</td> 
    <td>Se conserva la información del proyecto</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Programación</td> 
    <td>Se conserva la información del proyecto</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
-   <td>Tiempo libre del usuario</td> 
+   <td>Días libres del usuario</td> 
    <td>Se conserva la información del proyecto</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Modo de nivelación de recursos</td> 
    <td>Se conserva la información del proyecto</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Riesgo (campo de proyecto)</td> 
    <td>Se conserva la información del proyecto</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Conjuntos de recursos</td> 
    <td>Se ha añadido a la lista de conjuntos de recursos existentes en el proyecto</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Tipos de horas</td> 
    <td> <p>Si no se selecciona durante el proceso de datos adjuntos, la configuración Tipos de horas del proyecto permanece sin cambios. </p> <p>Si se selecciona, la configuración de la plantilla se transfiere al proyecto. Si el filtro de tipo de hora está establecido en Sí tanto en el proyecto como en la plantilla, los tipos de hora de la plantilla se añaden a los del proyecto.</p> </td> 
-   <td> <p> </p> <p> </p> <p> </p> <p>✓</p> </td> 
+   <td> <p> </p> <p> </p> <p> </p> <p>✓</p> </td> 
   </tr> 
   <tr> 
    <td>Notificaciones de recordatorio</td> 
@@ -228,29 +228,29 @@ En la tabla siguiente se describen los valores predeterminados de lo que sucede 
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td>Forms personalizado predeterminado de tarea</td> 
+   <td>Formularios personalizados predeterminados de tarea</td> 
    <td>Se conserva la información del proyecto</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Esfuerzo de trabajo</td> 
    <td>Se conserva la información del proyecto</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
    <td><span>Permitir que los usuarios agreguen problemas en línea</span> </td> 
    <td><span>Se conserva la información del proyecto</span> </td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Todas las configuraciones</td> 
    <td>La configuración de la plantilla sobrescribe la del proyecto</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Tareas</td> 
    <td>Se agrega al final de la lista de tareas, además de a las tareas de proyecto existentes</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Documentos</td> 
@@ -270,12 +270,12 @@ En la tabla siguiente se describen los valores predeterminados de lo que sucede 
   <tr> 
    <td>Tarifas de facturación</td> 
    <td> <p>Se transfiere desde la plantilla además de las tarifas de facturación existentes en el proyecto. </p> <p>Si existe una tasa diferente para el mismo rol tanto en el proyecto como en la plantilla, la tasa del proyecto permanece sin cambios. </p> </td> 
-   <td> <p> </p> <p>✓</p> </td> 
+   <td> <p> </p> <p>✓</p> </td> 
   </tr> 
   <tr> 
    <td>Registros de facturación</td> 
    <td>Se conserva la información del proyecto</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Gastos</td> 
@@ -284,7 +284,7 @@ En la tabla siguiente se describen los valores predeterminados de lo que sucede 
   </tr> 
   <tr> 
    <td>Información financiera</td> 
-   <td> <p>Si se selecciona en el proceso de anexos, los campos siguientes se transfieren o se añaden al proyecto: </p> 
+   <td> <p>Si se selecciona en el proceso de anexos, los campos siguientes se transfieren o se añaden al proyecto: </p> 
     <ul> 
      <li> <p>Coste fijo</p> <p>Cuando se selecciona la opción, el coste fijo actualizado del proyecto se calcula mediante la siguiente fórmula:</p> <p><code>Updated Project Fixed Cost = Original Project Fixed Cost + Template Fixed Cost</code> </p> </li> 
      <li> <p>Ingresos fijos</p> <p>Cuando se selecciona la opción, los ingresos fijos actualizados del proyecto se calculan con la siguiente fórmula:</p> <p><code>Updated Project Fixed Revenue = Original Project Fixed Revenue + Template Fixed Revenue </code> </p> </li> 
@@ -295,22 +295,22 @@ En la tabla siguiente se describen los valores predeterminados de lo que sucede 
      <li> <p>Se conservan el costo fijo y los ingresos fijos del proyecto.</p> </li> 
      <li> <p>Los tipos de costo e ingresos de las tareas agregadas desde la plantilla se establecen en Sin costo y No facturable</p> </li> 
     </ul> </td> 
-   <td> <p> </p> <p> </p> <p> </p> <p> </p> <p> </p> <p> </p> <p>✓</p> </td> 
+   <td> <p> </p> <p> </p> <p> </p> <p> </p> <p> </p> <p> </p> <p>✓</p> </td> 
   </tr> 
   <tr> 
    <td>Horas</td> 
    <td>Se conserva la información del proyecto</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Detalles de cola, grupos de temas, temas de colas, reglas de enrutamiento</td> 
-   <td> <p>Transferido desde plantilla</p> <p>Si selecciona la opción <strong>Configuración de propiedades y problemas de cola</strong> durante el proceso de datos adjuntos, los detalles de cola de la plantilla sobrescribirán los del proyecto. En este caso, las reglas de enrutamiento, los temas de cola y los grupos de temas de la plantilla se agregan a los del proyecto. <br>Si el proyecto está configurado como cola de solicitudes y la plantilla adjunta al proyecto no está configurada como cola de solicitudes, la información de cola del proyecto se quitará si deja activada la casilla <strong>Configuración de propiedades y problemas de cola</strong>. <br>Si anula la selección del cuadro <strong>Configuración de propiedades y problemas de cola</strong>, se conservará toda la configuración de configuración de cola del proyecto y no se adjuntará ninguna configuración de configuración de cola de la plantilla.</p> </td> 
-   <td> <p> </p> <p> </p> <p> </p> <p> </p> <p> </p> <p> </p> <p> </p> <p>✓</p> </td> 
+   <td> <p>Transferido desde plantilla</p> <p>Si selecciona la opción <strong>Configuración de propiedades y problemas de cola</strong> durante el proceso de datos adjuntos, los detalles de cola de la plantilla sobrescribirán los del proyecto. En este caso, las reglas de enrutamiento, los temas de cola y los grupos de temas de la plantilla se añaden a los del proyecto. <br>Si el proyecto está configurado como cola de solicitudes y la plantilla adjunta al proyecto no está configurada como cola de solicitudes, la información de cola del proyecto se quitará si deja activada la casilla <strong>Configuración de propiedades y problemas de cola</strong>. <br>Si anula la selección del cuadro <strong>Configuración de propiedades y problemas de cola</strong>, se conservará toda la configuración de configuración de cola del proyecto y no se adjuntará ninguna configuración de configuración de cola de la plantilla.</p> </td> 
+   <td> <p> </p> <p> </p> <p> </p> <p> </p> <p> </p> <p> </p> <p> </p> <p>✓</p> </td> 
   </tr> 
   <tr> 
-   <td>Restricciones de tarea</td> 
+   <td>Restricciones de tareas</td> 
    <td> <p>Transferido desde plantilla </p> <p>Si no se selecciona durante el proceso de asociación, las delimitaciones de la tarea se establecen en Lo antes posible o Lo más tarde posible, según la configuración del proyecto Programar desde. </p> </td> 
-   <td> <p> </p> <p> </p> <p style="text-align: center;">✓</p> </td> 
+   <td> <p> </p> <p> </p> <p style="text-align: center;">✓</p> </td> 
   </tr> 
   <tr> 
    <td>Predecesoras de la tarea</td> 
@@ -325,7 +325,7 @@ En la tabla siguiente se describen los valores predeterminados de lo que sucede 
  </tbody> 
 </table>
 
- 
+
 
 <!--WRITER
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -368,17 +368,17 @@ Attaching a template to a project is not the same as creating a project from a t
 <li> <p><b>Access settings</b> </p> </li>
 </ul>
 <ul>
-<li> <p><b>Custom&nbsp;Forms</b>:&nbsp;Template custom forms are added to the project, in addition to existing project custom forms. If the fields from the template custom forms already exist on the project and contain information, they preserve the information already on the project. You cannot edit them during attaching the template. </p> </li>
+<li> <p><b>Custom Forms</b>: Template custom forms are added to the project, in addition to existing project custom forms. If the fields from the template custom forms already exist on the project and contain information, they preserve the information already on the project. You cannot edit them during attaching the template. </p> </li>
 </ul>
 <ul>
-<li> <p><b>Start&nbsp;From</b> </p> </li>
+<li> <p><b>Start From</b> </p> </li>
 </ul>
 <p><strong>Project fields that are populated and they remain unchanged after attaching the template</strong></p>
 <p>The following fields remain unchanged on the project, even if they are also populated on the template, and they cannot be managed during attaching the template: </p>
 <ul>
 <li> <p style="font-weight: bold;">URL</p> </li>
 <li> <p style="font-weight: bold;">Project Owner</p> </li>
-<li> <p style="font-weight: bold;">Project&nbsp;Sponsor</p> </li>
+<li> <p style="font-weight: bold;">Project Sponsor</p> </li>
 <li> <p style="font-weight: bold;">Group</p> </li>
 <li> <p style="font-weight: bold;">Company</p> </li>
 <li> <p style="font-weight: bold;">Currency</p> </li>
@@ -389,8 +389,8 @@ Attaching a template to a project is not the same as creating a project from a t
 <li class="preview" data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <p style="font-weight: bold;">Issue Settings fields</p> </li>
 </ul>
 </div>
-<p>&nbsp;</p>
+<p> </p>
 </div>
 -->
 
- 
+

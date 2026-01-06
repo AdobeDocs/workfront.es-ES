@@ -6,10 +6,10 @@ description: Puede eliminar las solicitudes enviadas o los borradores de solicit
 author: Becky
 feature: Work Management
 exl-id: 9098ada7-0e6b-4de2-97ad-5c6e590fbba3
-source-git-commit: d87df92f548b19901374e982d1759efade644e17
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '772'
-ht-degree: 16%
+source-wordcount: '638'
+ht-degree: 19%
 
 ---
 
@@ -76,11 +76,12 @@ Puede eliminar solicitudes en el área de Solicitudes de Workfront o en el widge
 
 ### Eliminar una solicitud del menú de tres puntos
 
-1. Para acceder a la lista de solicitudes, haga clic en el icono **[!UICONTROL Menú principal]** ![Menú principal](/help/_includes/assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront o (si está disponible), haga clic en el icono **[!UICONTROL Menú principal]** ![Menú principal](/help/_includes/assets/main-menu-icon-left-nav.png) en la esquina superior izquierda y, a continuación, haga clic en **[!UICONTROL Solicitudes]**.
+{{step1-to-requests}}
 
 1. Para acceder al widget Mis solicitudes en Inicio:
 
-   1. Haga clic en el icono **[!UICONTROL Menú principal]** ![Menú principal](/help/_includes/assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront o (si está disponible), haga clic en el icono **[!UICONTROL Menú principal]** ![Menú principal](/help/_includes/assets/main-menu-icon-left-nav.png) en la esquina superior izquierda y, a continuación, haga clic en **[!UICONTROL Inicio]**.
+   {{step1-to-home}}
+
    1. Busque el widget Mis solicitudes.
 
       Para obtener más información sobre el widget Mis solicitudes, consulte [Usar el widget Mis solicitudes](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md).
@@ -106,11 +107,12 @@ Puede eliminar solicitudes en el área de Solicitudes de Workfront o en el widge
 
 ### Solicitudes de eliminación masiva
 
-1. Para acceder a la lista de solicitudes, haga clic en el icono **[!UICONTROL Menú principal]** ![Menú principal](/help/_includes/assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront o (si está disponible), haga clic en el icono **[!UICONTROL Menú principal]** ![Menú principal](/help/_includes/assets/main-menu-icon-left-nav.png) en la esquina superior izquierda y, a continuación, haga clic en **[!UICONTROL Solicitudes]**.
+{{step1-to-requests}}
 
 1. Para acceder al widget Mis solicitudes en Inicio:
 
-   1. Haga clic en el icono **[!UICONTROL Menú principal]** ![Menú principal](/help/_includes/assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront o (si está disponible), haga clic en el icono **[!UICONTROL Menú principal]** ![Menú principal](/help/_includes/assets/main-menu-icon-left-nav.png) en la esquina superior izquierda y, a continuación, haga clic en **[!UICONTROL Inicio]**.
+   {{step1-to-home}}
+
    1. Busque el widget Mis solicitudes.
 
       Para obtener más información sobre el widget Mis solicitudes, consulte [Usar el widget Mis solicitudes](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md).

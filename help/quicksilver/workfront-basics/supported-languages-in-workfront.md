@@ -6,9 +6,9 @@ description: Puede cambiar el idioma en el que se muestran Adobe Workfront y los
 feature: Get Started with Workfront
 author: Becky
 exl-id: 0b76175f-5fe2-49df-b605-68e6e66b4366
-source-git-commit: 5304f25ecb198f45c024b71185747f47fa8307d4
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '1168'
+source-wordcount: '1137'
 ht-degree: 75%
 
 ---
@@ -92,7 +92,7 @@ Actualmente, Workfront Fusion solo admite el inglés.
 * Workfront Fusion no admite el uso de caracteres de texto que no estén en inglés en los campos introducidos por el usuario.
 
 Su compañía debe comprar una licencia de Workfront Fusion para poder acceder a Workfront Fusion.\
-Para obtener más información sobre Workfront Fusion, consulte [Información general de Adobe Workfront Fusion](https://experienceleague.adobe.com/es/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+Para obtener más información sobre Workfront Fusion, consulte [Información general de Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 
 ## Cambiar el idioma
 
@@ -146,7 +146,8 @@ Al cambiar la configuración regional predeterminada del correo electrónico de 
 Para cambiar la configuración regional predeterminada del correo electrónico de Workfront:
 
 1. Inicie sesión en Workfront como administrador de Workfront.
-1. Haga clic en el icono **Menú principal** ![Icono del menú principal](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront y, a continuación, haga clic en **Configuración** ![](assets/gear-icon-settings.png).
+
+{{step-1-to-setup}}
 
 1. Haga clic en **Sistema** > **Información del cliente.**
 
@@ -164,7 +165,9 @@ Al cambiar la configuración regional del correo electrónico del usuario, se mo
 
 Para cambiar la configuración regional del correo electrónico del usuario:
 
-1. Haga clic en el icono **Menú principal** ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront y, a continuación, haga clic en la imagen de perfil de usuario.
+{{step1-click-main-menu}}
+
+1. Haga clic en la imagen de perfil de usuario.
 
 1. Haga clic en el menú Más![](assets/more-icon.png) y luego haga clic en **Editar**.
 

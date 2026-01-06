@@ -8,10 +8,10 @@ author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: c81e485a-7e8c-4907-8e6c-9991681c3541
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '1653'
-ht-degree: 65%
+ht-degree: 64%
 
 ---
 
@@ -69,13 +69,13 @@ A continuación se indican dos escenarios que existen al calcular la duración e
 
 Puede indicar la duración de la tarea tanto en el tiempo normal como en el tiempo transcurrido entre las fechas planificadas de inicio y finalización.
 
-Al actualizar la duración de las tareas de una lista, puede utilizar las siguientes abreviaturas para indicar las unidades de tiempo en Workfront:
+Al actualizar la Duración de las tareas de una lista, puede utilizar las siguientes abreviaturas para indicar las unidades de tiempo en Workfront:
 
 | Unidad de tiempo | Abreviatura |
 |---|---|
 | minutos | L |
 | Horas | H |
-| Días.Es la opción predeterminada. | D |
+| Días. Es la opción predeterminada. | D |
 | Semanas | S |
 | Meses | T, MO |
 | Minutos transcurridos | MT |

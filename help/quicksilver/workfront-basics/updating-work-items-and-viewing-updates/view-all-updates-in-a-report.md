@@ -6,10 +6,10 @@ description: Para ver todas las actualizaciones que cualquiera de los usuarios h
 author: Alina
 feature: Get Started with Workfront
 exl-id: fa5b91e4-b88c-42f0-860c-6864105b4652
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '373'
-ht-degree: 10%
+ht-degree: 11%
 
 ---
 
@@ -38,7 +38,7 @@ El área Actualizaciones de un objeto muestra un número máximo de 200 actualiz
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
@@ -108,9 +108,9 @@ Por ejemplo, para crear un informe de notas para todas las notas de un proyecto:
 
 1. En la esquina superior izquierda de la página, haga clic en **Nuevo informe** y, a continuación, seleccione **Nota**.
 
-1. (Opcional) Haga clic en **(Columnas) Ver**, luego en **Agregar columna** para agregar el **Nombre** del **Proyecto** en la vista del informe. 
+1. (Opcional) Haga clic en **(Columnas) Ver**, luego en **Agregar columna** para agregar el **Nombre** del **Proyecto** en la vista del informe.
 
-1. (Opcional) Si realiza informes sobre varios proyectos al mismo tiempo, haga clic en **Agrupaciones** y, a continuación, en **Agregar agrupación** al grupo por el **Nombre** del **Proyecto**. Esto garantiza que las notas se agrupen por sus respectivos proyectos, lo que facilita la lectura del informe. 
+1. (Opcional) Si realiza informes sobre varios proyectos al mismo tiempo, haga clic en **Agrupaciones** y, a continuación, en **Agregar agrupación** al grupo por el **Nombre** del **Proyecto**. Esto garantiza que las notas se agrupen por sus respectivos proyectos, lo que facilita la lectura del informe.
 
 1. (Opcional) Haga clic en **Filtros** y, a continuación, **Agregar una regla de filtro**.
 1. Agregar un filtro para **Nota** > **Texto de la nota** > **No está en blanco**.

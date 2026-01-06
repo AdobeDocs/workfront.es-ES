@@ -6,7 +6,7 @@ description: Puede delegar temporalmente el trabajo al que esté asignado mientr
 author: Becky
 feature: Work Management
 exl-id: 42b3112f-4f39-4078-aaa0-623559384a12
-source-git-commit: 9cdf3d78e1d19f3d581f8d527919a608c5cc0ddc
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '1547'
 ht-degree: 80%
@@ -55,7 +55,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
@@ -85,7 +85,7 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 +++
 
 <!--note from the table for Object permissions:
-     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Contribute or higher permissions to the projects where you are designated as the Project&nbsp;Owner (NOTE:&nbsp;you cannot delegate projects yet)</p>
+     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Contribute or higher permissions to the projects where you are designated as the Project Owner (NOTE: you cannot delegate projects yet)</p>
     -->
 
 ## Requisitos previos
@@ -154,7 +154,7 @@ Delegar sus tareas y problemas en otras personas:
    * El botón [!UICONTROL **Delegar**] del área [!UICONTROL **Inicio**] cambia a [!UICONTROL **Editar delegación**] para indicar que hay una delegación en su lugar.
      <!--
       <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-      (NOTE: is this shot correct?&nbsp;See UI - this is a mock)
+      (NOTE: is this shot correct? See UI - this is a mock)
       </MadCap:conditionalText>
       -->
 

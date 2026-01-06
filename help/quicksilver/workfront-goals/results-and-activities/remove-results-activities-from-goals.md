@@ -7,10 +7,10 @@ description: Puede quitar resultados, actividades y proyectos de las metas en Ad
 author: Alina
 feature: Workfront Goals
 exl-id: 0e064dbd-6168-47b4-98ab-b5c0481e839e
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '673'
-ht-degree: 83%
+source-wordcount: '646'
+ht-degree: 85%
 
 ---
 
@@ -49,7 +49,7 @@ Puede eliminar la alineación entre las metas si elimina la conexión entre ella
 </col>
 <tbody>
  <tr>
-  <td> <p>paquete de Adobe Workfront</p> </td> 
+  <td> <p>Paquete de Adobe Workfront</p> </td> 
    <td> 
    <p>Adobe Workfront Ultimate</p>
    </td> 
@@ -187,11 +187,9 @@ How you delete results and activities differs depending on the environment you u
 
 -->
 
-1. Haga clic en el icono **Menú principal** ![Icono del menú principal](assets/main-menu-icon.png) en la esquina superior derecha y, a continuación, haga clic en **Metas**.
+{{step1-to-goals}}
 
-   <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../results-and-activities/assets/three-line-main-menu-icon.png) in the upper-left corner)
-   -->
-   Se abre el área de Workfront Goals y la lista de metas se muestra de forma predeterminada.
+Se abre el área de Workfront Goals y la lista de metas se muestra de forma predeterminada.
 
 1. Haga clic en el nombre de una meta de la que desee quitar resultados y actividades.
 
@@ -232,12 +230,9 @@ Dsconnecting projects from goals differs depending on the environment you use.
 -->
 
 
-1. Haga clic en el icono **Menú principal** en la esquina superior derecha y luego haga clic en **Metas**.
+{{step1-to-goals}}
 
-   <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../results-and-activities/assets/three-line-main-menu-icon.png) in the upper-left corner)
-   -->
-
-   Se abre el área de Workfront Goals y la lista de metas se muestra de forma predeterminada.
+Se abre el área de Workfront Goals y la lista de metas se muestra de forma predeterminada.
 
 1. Haga clic en el nombre de una meta de la que desee quitar resultados y actividades.
 

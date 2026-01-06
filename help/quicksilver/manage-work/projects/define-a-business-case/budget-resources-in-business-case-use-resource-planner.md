@@ -5,7 +5,7 @@ description: Como parte de la planificación de recursos, puede utilizar el Plan
 author: Becky
 feature: Work Management
 exl-id: 51ebb940-111c-442f-a8a6-287a04d2db68
-source-git-commit: aa3ae2a5d92420f4adcedb60a4f7404533eaa59b
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '1206'
 ht-degree: 15%
@@ -132,7 +132,7 @@ Para aplicar conjuntos de recursos y presupuestar recursos de proyecto en el cas
 
    Se muestra el Planificador de recursos para el proyecto seleccionado.
 
-   De forma predeterminada, las 20 primeras funciones del puesto asociadas a este proyecto se enumeran en la sección Presupuestación de recursos en orden alfabético. 
+   De forma predeterminada, las 20 primeras funciones del puesto asociadas a este proyecto se enumeran en la sección Presupuestación de recursos en orden alfabético.
 
    Para obtener más información sobre el Planificador de recursos, consulte [Información general del Planificador de recursos](../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
 
@@ -152,7 +152,7 @@ Para aplicar conjuntos de recursos y presupuestar recursos de proyecto en el cas
    >   
    >
 
-    
+
 
 1. Haga clic en **Hoy** para regresar al periodo de tiempo de hoy.
 1. (Opcional) Haga clic en **Semana**, **Mes** o **Trimestre** para mostrar información del proyecto en diferentes periodos de tiempo.

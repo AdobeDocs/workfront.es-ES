@@ -6,9 +6,9 @@ feature: Work Management
 role: User
 topic: Collaboration
 exl-id: 3d7581d0-e99c-4204-b1e5-04fde72251bb
-source-git-commit: bc7312a10f1851b9f85b2c1ceac5b01dba078f32
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '1606'
+source-wordcount: '1539'
 ht-degree: 84%
 
 ---
@@ -133,7 +133,7 @@ Debe tener una solicitud que usted o alguien de su organización haya enviado an
      >
      >Si la ruta cambia de la ruta de la solicitud original, el creador de la cola de solicitudes modificó la cola.
 
-1. (Opcional) Actualice la información de la solicitud copiada. Según los campos que el creador de la cola de solicitudes habilitó en la sección **Nuevos campos de problema** de la subpestaña **Detalles de la cola** del proyecto, podría encontrar cualquiera de los siguientes campos:
+1. (Opcional) Actualice la información de la solicitud copiada. Según los campos que habilitó el creador de la cola de solicitudes en la sección **Nuevos campos de problema** de la subpestaña **Detalles de la cola** del proyecto, podría encontrar cualquiera de los siguientes campos:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -141,7 +141,7 @@ Debe tener una solicitud que usted o alguien de su organización haya enviado an
     <tbody> 
      <tr> 
       <td role="rowheader"><strong>Asunto</strong> </td> 
-      <td>Muestra el nombre de la solicitud original. Actualícelo si es necesario.De lo contrario, Workfront denomina a la solicitud copiada <b>Copia de &lt;Nombre de la solicitud original&gt;</b>. Este campo es obligatorio.</td> 
+      <td>Muestra el nombre de la solicitud original. Actualícelo si es necesario. De lo contrario, Workfront nombra la solicitud copiada <b>Copia de &lt;Nombre de la solicitud original&gt;</b>. Este campo es obligatorio.</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Descripción</strong> </td> 
@@ -153,7 +153,7 @@ Debe tener una solicitud que usted o alguien de su organización haya enviado an
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Prioridad</strong> </td> 
-      <td> <p>Especifique la prioridad de la solicitud. La prioridad debe definir la rapidez con la que cree que se debe resolver esta solicitud. Las opciones predeterminadas son las siguientes:</p> 
+      <td> <p>Especifique la prioridad de la solicitud. La prioridad debe definir la rapidez con la que cree que se debe resolver esta solicitud. Las opciones predeterminadas son:</p> 
        <ul> 
         <li>Ninguno</li> 
         <li>Bajo</li> 
@@ -164,7 +164,7 @@ Debe tener una solicitud que usted o alguien de su organización haya enviado an
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Gravedad</strong> </td> 
-      <td> <p>Especifique la gravedad de la solicitud. La gravedad debe definir el impacto que esta solicitud tiene en su trabajo en caso de que no se resuelva a tiempo. Las opciones predeterminadas son las siguientes:</p> 
+      <td> <p>Especifique la gravedad de la solicitud. La gravedad debe definir el impacto que esta solicitud tiene en su trabajo en caso de que no se resuelva a tiempo. Las opciones predeterminadas son:</p> 
        <ul> 
         <li>Cosmético</li> 
         <li>Causa confusión</li> 
@@ -230,11 +230,12 @@ Debe tener una solicitud que usted o alguien de su organización haya enviado an
 
 Puede copiar y enviar solicitudes en el área de Solicitudes de Workfront o desde el widget Mis solicitudes en Inicio.
 
-1. Para acceder a la lista de solicitudes, haga clic en el icono **[!UICONTROL Menú principal]** ![Menú principal](/help/_includes/assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront o (si está disponible), haga clic en el icono **[!UICONTROL Menú principal]** ![Menú principal](/help/_includes/assets/main-menu-icon-left-nav.png) en la esquina superior izquierda y, a continuación, haga clic en **[!UICONTROL Solicitudes]**.
+{{step1-to-requests}}
 
 1. Para acceder al widget Mis solicitudes en Inicio:
 
-   1. Haga clic en el icono **[!UICONTROL Menú principal]** ![Menú principal](/help/_includes/assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront o (si está disponible), haga clic en el icono **[!UICONTROL Menú principal]** ![Menú principal](/help/_includes/assets/main-menu-icon-left-nav.png) en la esquina superior izquierda y, a continuación, haga clic en **[!UICONTROL Inicio]**.
+   {{step1-to-home}}
+
    1. Busque el widget Mis solicitudes.
 
       Para obtener más información sobre el widget Mis solicitudes, consulte [Usar el widget Mis solicitudes](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md).

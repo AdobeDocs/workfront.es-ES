@@ -6,10 +6,10 @@ description: Puede ver o editar la información financiera de una tarea accedien
 author: Alina
 feature: Work Management
 exl-id: 54ae48e5-bc8c-4e90-8fa1-0015523df4e6
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '830'
-ht-degree: 86%
+ht-degree: 87%
 
 ---
 
@@ -32,7 +32,7 @@ Para obtener información sobre cómo editar toda la información financiera de 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
@@ -70,7 +70,7 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Projects and Tasks</p> <p>View access to&nbsp;Financial&nbsp;Data or higher</p> <p>You must have Edit access to&nbsp;Financial Data to edit financial information on tasks</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>Edit access to Projects and Tasks</p> <p>View access to Financial Data or higher</p> <p>You must have Edit access to Financial Data to edit financial information on tasks</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -139,7 +139,7 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
       <td> <p>Se trata de un cálculo que muestra el coste de la tarea en función de las horas planificadas, el tipo de coste y la tasa por hora de usuarios o funciones. Para obtener más información sobre los costes de seguimiento, consulte <a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">Costes de seguimiento</a>. </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Coste real</td> 
+      <td role="rowheader">Costo real</td> 
       <td> <p> Se trata de un cálculo que muestra el coste de la tarea en función de las horas reales, el tipo de coste y la tarifa por hora de usuarios o funciones. Para obtener más información sobre los costes de seguimiento, consulte <a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">Costes de seguimiento</a>.</p> </td> 
      </tr> 
      <tr> 
@@ -166,4 +166,4 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
     </tbody> 
    </table>
 
-1. (Condicional) Si está editando los campos en la sección Finanzas, haga clic en **Guardar**&#x200B;**Cambios**.
+1. (Condicional) Si está editando los campos en la sección Finanzas, haga clic en **Guardar****Cambios**.

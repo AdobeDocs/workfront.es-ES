@@ -6,10 +6,10 @@ description: Puede ver el estado general de sus metas y su tendencia de progreso
 author: Alina
 feature: Workfront Goals
 exl-id: 8d5f3617-c7bf-44ce-99b0-d4ebda106f25
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '912'
-ht-degree: 89%
+source-wordcount: '899'
+ht-degree: 82%
 
 ---
 
@@ -21,7 +21,7 @@ Puede ver el estado general de sus metas y su tendencia de progreso en el tiempo
 
 >[!IMPORTANT]
 >
->Puede ver un recuento total de sus metas en la sección Gráficos durante un período de tiempo seleccionado. Sin embargo, Workfront Goals solo tiene en cuenta las metas en estado Activo y Cerrado cuando calcula el estado de progreso general de la meta y el porcentaje completado.
+>Puede ver un recuento total de sus objetivos en la sección Gráficos durante un período de tiempo seleccionado. Sin embargo, Workfront Goals solo tiene en cuenta las metas con un estado de Activo y Cerrado cuando calcula el progreso general de la meta y el porcentaje completado.
 
 ## Requisitos de acceso
 
@@ -40,7 +40,7 @@ Puede ver el estado general de sus metas y su tendencia de progreso en el tiempo
 </col>
 <tbody>
  <tr>
-  <td> <p>paquete de Adobe Workfront</p> </td> 
+  <td> <p>Paquete de Adobe Workfront</p> </td> 
    <td> 
    <p>Adobe Workfront Ultimate</p>
    </td> 
@@ -148,8 +148,8 @@ Los siguientes gráficos están disponibles en la sección Gráficos de Workfron
    <td role="rowheader">Gráfico de progreso de la meta</td> 
    <td> <p>Un gráfico de líneas que muestra las actualizaciones realizadas en las metas por incrementos semanales durante la duración de la meta. El gráfico de progreso de la meta muestra lo siguiente:</p> 
     <ul> 
-     <li>El porcentaje completado esperado y real promedio de todas las metas activas y cerradas en el período seleccionado. El progreso de porcentaje completado se desglosa por incrementos semanales marcados mediante nodos. </li> 
-     <li>El porcentaje promedio general de progreso para las metas activas y cerradas desde la semana anterior. </li> 
+     <li>Un porcentaje completado esperado y real promedio de todas las metas activas y cerradas en el período seleccionado. El progreso de porcentaje completado se desglosa por incrementos semanales marcados mediante nodos. </li> 
+     <li>Porcentaje promedio general de progreso para las metas activas y cerradas desde la semana anterior. </li> 
     </ul> <p>Sugerencia: Es posible que el gráfico de progreso de la meta no muestre ninguna información cuando se realicen actualizaciones en las metas fuera del período de tiempo seleccionado. </p> </td> 
   </tr> 
  </tbody> 
@@ -157,12 +157,9 @@ Los siguientes gráficos están disponibles en la sección Gráficos de Workfron
 
 ## Revisión del progreso de la meta en gráficos
 
-1. Haga clic en el icono **Menú principal** ![Icono del menú principal](assets/main-menu-icon.png) > **Metas** en la esquina superior derecha.
+{{step1-to-goals}}
 
-   <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-review-and-workfront-goals-sections/assets/three-line-main-menu-icon.png) in the upper-left corner)
-   -->
-
-   Se abrirá el área Metas de Workfront.
+Se abrirá el área Metas de Workfront.
 
 1. Haga clic en **Gráficos** en el panel izquierdo.
 
@@ -224,4 +221,4 @@ Los siguientes gráficos están disponibles en la sección Gráficos de Workfron
 
    Haga clic en **Línea de base** en la parte inferior del gráfico de progreso para quitar el progreso esperado del gráfico.
 
- 
+

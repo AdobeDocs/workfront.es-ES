@@ -6,10 +6,10 @@ description: Puede adjuntar una plantilla a un proyecto durante la fase de creac
 author: Alina
 feature: Work Management
 exl-id: bce9af59-5467-4458-b923-01bfa469e2d8
-source-git-commit: 3d0a6932bda338af1e6b3dcba49bfc0ac486d919
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '1126'
-ht-degree: 46%
+ht-degree: 43%
 
 ---
 
@@ -73,7 +73,7 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
-   <td> <p>Edit access to Projects </p> <p>For information about project access, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md" class="MCXref xref">Grant access to projects</a>.</p> <p>View access to&nbsp;Templates</p> <p>For information about template permissions, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md" class="MCXref xref">Share a template</a>. </p> <p>For information about template access, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-templates.md" class="MCXref xref">Grant access to templates</a>.</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create and modify custom access levels</a>.</p> </td> 
+   <td> <p>Edit access to Projects </p> <p>For information about project access, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md" class="MCXref xref">Grant access to projects</a>.</p> <p>View access to Templates</p> <p>For information about template permissions, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md" class="MCXref xref">Share a template</a>. </p> <p>For information about template access, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-templates.md" class="MCXref xref">Grant access to templates</a>.</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create and modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -89,7 +89,7 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
 <p>Consider the following when adding templates to projects:</p>
 <ul>
 <li> <p>You can attach only active templates to projects. </p> </li>
-<li> <p>You can attach a template to a project when the project is in a status of Complete, Dead, or in Pending Approval, only when your Adobe Workfront administrator <span>or a group administrator</span> has enabled this functionality in the Project&nbsp;Preferences area. For information about setting project preferences, see <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configure system-wide project preferences</a>. </p> </li>
+<li> <p>You can attach a template to a project when the project is in a status of Complete, Dead, or in Pending Approval, only when your Adobe Workfront administrator <span>or a group administrator</span> has enabled this functionality in the Project Preferences area. For information about setting project preferences, see <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configure system-wide project preferences</a>. </p> </li>
 <li> <p>Unless you exclude specific template tasks from being added in the attachment process, all template tasks are added to the existing project. </p> </li>
 <li> <p>Most template settings are added to the project. </p> </li>
 <li> <p>Some settings from the template automatically transfer to the project, unless you specifically mark them to be excluded. </p>
@@ -97,7 +97,7 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
 <span class="autonumber"><span><b>Example: </b></span></span>
 <p>For example, these settings are added to the project:</p>
 <ul>
-<li>Start&nbsp;From field</li>
+<li>Start From field</li>
 <li>Custom forms and the information on them</li>
 <li>Queue Details </li>
 <li>Financial settings </li>
@@ -158,7 +158,7 @@ Puede adjuntar una plantilla a un proyecto desde la página del proyecto o desde
       <td role="rowheader" colspan="2"> <p role="rowheader" colspan="2">Sección Tareas</p> <p role="rowheader" colspan="2"> <img src="assets/attach-template-large-box-tasks-section-nwe-350x289.png" style="width: 350;height: 289;"> </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Las siguientes tareas de plantilla seleccionadas se importan al proyecto. Anule la selección de aquellas que quiera excluir. </td> 
+      <td role="rowheader">Las tareas de plantilla seleccionadas a continuación se importan al proyecto. Anule la selección de aquellos que quiera excluir. </td> 
       <td><p>Anule la selección de cualquier tarea que desee excluir de la plantilla antes de adjuntarla al proyecto.</p>
       <p><b>Sugerencia</b></p>
       <p>Solo puede elegir una tarea.</p>
@@ -202,7 +202,7 @@ Puede adjuntar una plantilla a un proyecto desde la página del proyecto o desde
    >* Si los campos de los formularios personalizados de la plantilla ya existen en el proyecto y contienen información, conservan la información que ya existe en el proyecto. No se pueden editar al adjuntar la plantilla.
 
 1. Haga clic en **Adjuntar plantilla.**
-1. Haga clic en **Cancelar archivo adjunto** para dejar de adjuntar la plantilla.
+1. Haga clic en **Cancelar datos adjuntos** para dejar de adjuntar la plantilla.
 
    O
 

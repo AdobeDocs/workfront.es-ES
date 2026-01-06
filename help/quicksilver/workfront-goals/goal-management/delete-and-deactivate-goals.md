@@ -6,10 +6,10 @@ description: Cuando empiece a trabajar en una meta y esta se vuelva irrelevante 
 author: Alina
 feature: Workfront Goals
 exl-id: 3089adeb-3e56-492a-82fe-536f57079b73
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '622'
-ht-degree: 77%
+source-wordcount: '590'
+ht-degree: 81%
 
 ---
 
@@ -36,7 +36,7 @@ Cuando empiece a trabajar en una meta y esta se vuelva irrelevante en su organiz
 </col>
 <tbody>
  <tr>
-  <td> <p>paquete de Adobe Workfront</p> </td> 
+  <td> <p>Paquete de Adobe Workfront</p> </td> 
    <td> 
    <p>Adobe Workfront Ultimate</p>
    </td> 
@@ -178,12 +178,10 @@ Deactivating goals differs depending on which environment you use.
 1. Click the **X** icon in the upper-right to close Goal Details.
 -->
 
-1. Haga clic en el icono **Menú principal** ![Icono del menú principal](assets/main-menu-icon.png) en la esquina superior derecha y, a continuación, haga clic en **Metas**.
+{{step1-to-goals}}
 
-   Se muestra la lista de metas.
+Se muestra la lista de metas.
 
-   <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-management/assets/three-line-main-menu-icon.png) in the upper-left corner)
-   -->
 
 1. (Opcional) Modifique los filtros para mostrar solo las metas que están activas.
 
@@ -235,12 +233,10 @@ Deleting  goals differs depending on which environment you use.
    The goal is removed from the Goal List and cannot be recovered.
 -->
 
-1. Haga clic en el icono del menú principal ![Icono del menú principal](assets/main-menu-icon.png) en la esquina superior derecha y, a continuación, haga clic en **Metas**.
+{{step1-to-goals}}
 
-   Se muestra la lista de metas.
+Se muestra la lista de metas.
 
-   <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-management/assets/three-line-main-menu-icon.png) in the upper-left corner)
-   -->
 1. Haga clic en el nombre de una meta. Se abre la página de la meta.
 1. Haga clic en el **icono Más** del menú ![Más](assets/more-icon.png) a la derecha del nombre de la meta, luego haga clic en **Eliminar meta** y después en **Eliminar**.
 

@@ -7,10 +7,10 @@ description: Las horas planificadas asociadas con una tarea, un problema o un pr
 author: Alina
 feature: Work Management
 exl-id: 0b86c760-691a-436e-9beb-31e9ac36440a
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '2815'
-ht-degree: 99%
+ht-degree: 96%
 
 ---
 
@@ -159,7 +159,7 @@ Las siguientes horas planificadas para tareas, problemas y proyectos se muestran
 
 Puede ver la asignación diaria de horas planificadas de cada usuario asignado a una tarea o a un problema en el Distribuidor de cargas de trabajo.
 
-La cantidad diaria de horas planificadas representa una de las siguientes opciones: 
+La cantidad diaria de horas planificadas representa una de las siguientes opciones:
 
 * la cantidad predeterminada distribuida equitativamente por Workfront para cada día de la duración de las tareas, los problemas o el proyecto
 * la asignación diaria ajustada administrada por los administradores de recursos
@@ -195,7 +195,7 @@ Las horas planificadas para el proyecto son las asociadas con las asignaciones d
 
 >[!IMPORTANT]
 >
->Tenga en cuenta que las horas planificadas en el informe de utilización están asociadas con las asignaciones y no con las propias tareas y problemas. Las horas planificadas en el informe de utilización no siempre coinciden con las horas planificadas en las tareas y problemas del proyecto.Sin embargo, las horas planificadas no coinciden con las horas asociadas con las asignaciones de tareas y problemas.
+>Tenga en cuenta que las horas planificadas en el informe de utilización están asociadas con las asignaciones y no con las propias tareas y problemas. Las horas planificadas en el informe Utilización no siempre coinciden con las horas planificadas en las tareas y problemas del proyecto. Sin embargo, las horas planificadas no coinciden con las horas asociadas con las asignaciones de tareas y problemas.
 
 Puede ver los siguientes tipos de horas planificadas en el informe de utilización:
 
@@ -280,7 +280,7 @@ Para obtener información sobre el uso de Esfuerzo laboral para estimar el esfue
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <p>Anna Asatryan</p>
 <p>3/22/2022 At 3:16 PM</p>
-<p>&nbsp;</p>
+<p> </p>
 <p>to Mark Paul, Corrie Butler, Arman Simonyan, Gagik Khalatyan, Alina Wilson, Artur Sargsyan, Vazgen Babayan, Anna Asatryan</p>
 <p>I have done some rough calculations on what the planned hours/revenues should look like Book.xlsx . And if we look, for example at the 2 users highlighted in one of the screenshots their planned hours look way off from what the calculation looks like in the spreadsheet (i.e. equally distributed allocation). When looking at the Workload balancer (the second screenshot), as an example for the user Yashas Mitta, I can see that the allocation has been modified. Obviously the utilization report calculates the allocations based on the modified contouring using the new work per day calculation. The project financial report uses the old, equal distribution of allocation along the full duration of the task. Hence. there is a difference when grouping per periods.</p>
 <p>Vazgen Babayan</p>

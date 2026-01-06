@@ -5,10 +5,10 @@ title: Creación y administración de vistas en el área de solicitudes
 description: Si utiliza la nueva experiencia de solicitud, puede crear y guardar vistas para el área de solicitudes.
 author: Becky
 feature: Work Management
-source-git-commit: 684f7fc62fe341a59b1b7f7ae6c7118a5e511513
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '1004'
-ht-degree: 6%
+source-wordcount: '818'
+ht-degree: 8%
 
 ---
 
@@ -63,11 +63,14 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
 
 Puede crear una vista en el área de Solicitudes de Workfront o en el widget Mis solicitudes de Inicio.
 
-1. Para acceder a la lista de solicitudes, haga clic en el icono **[!UICONTROL Menú principal]** ![Menú principal](/help/_includes/assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront o (si está disponible), haga clic en el icono **[!UICONTROL Menú principal]** ![Menú principal](/help/_includes/assets/main-menu-icon-left-nav.png) en la esquina superior izquierda y, a continuación, haga clic en **[!UICONTROL Solicitudes]**.
+1. Para acceder a la lista de solicitudes:
+
+   {{step1-to-requests}}
 
 1. Para acceder al widget Mis solicitudes en Inicio:
 
-   1. Haga clic en el icono **[!UICONTROL Menú principal]** ![Menú principal](/help/_includes/assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront o (si está disponible), haga clic en el icono **[!UICONTROL Menú principal]** ![Menú principal](/help/_includes/assets/main-menu-icon-left-nav.png) en la esquina superior izquierda y, a continuación, haga clic en **[!UICONTROL Inicio]**.
+   {{step1-to-home}}
+
    1. Busque el widget Mis solicitudes.
 
       Para obtener más información sobre el widget Mis solicitudes, consulte [Usar el widget Mis solicitudes](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md).
@@ -83,11 +86,14 @@ Puede crear una vista en el área de Solicitudes de Workfront o en el widget Mis
 
 Puede editar las vistas existentes, incluidas las que acaba de crear.
 
-1. Para acceder a la lista de solicitudes, haga clic en el icono **[!UICONTROL Menú principal]** ![Menú principal](/help/_includes/assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront o (si está disponible), haga clic en el icono **[!UICONTROL Menú principal]** ![Menú principal](/help/_includes/assets/main-menu-icon-left-nav.png) en la esquina superior izquierda y, a continuación, haga clic en **[!UICONTROL Solicitudes]**.
+1. Para acceder a la lista de solicitudes:
+
+   {{step1-to-requests}}
 
 1. Para acceder al widget Mis solicitudes en Inicio:
 
-   1. Haga clic en el icono **[!UICONTROL Menú principal]** ![Menú principal](/help/_includes/assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront o (si está disponible), haga clic en el icono **[!UICONTROL Menú principal]** ![Menú principal](/help/_includes/assets/main-menu-icon-left-nav.png) en la esquina superior izquierda y, a continuación, haga clic en **[!UICONTROL Inicio]**.
+   {{step1-to-home}}
+
    1. Busque el widget Mis solicitudes.
 
       Para obtener más información sobre el widget Mis solicitudes, consulte [Usar el widget Mis solicitudes](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md).
@@ -146,11 +152,14 @@ Para obtener instrucciones, vea [Personalizar filtros, vistas y agrupaciones med
 
 Puede compartir vistas que cree con otros usuarios, equipos o grupos.
 
-1. Para acceder a la lista de solicitudes, haga clic en el icono **[!UICONTROL Menú principal]** ![Menú principal](/help/_includes/assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront o (si está disponible), haga clic en el icono **[!UICONTROL Menú principal]** ![Menú principal](/help/_includes/assets/main-menu-icon-left-nav.png) en la esquina superior izquierda y, a continuación, haga clic en **[!UICONTROL Solicitudes]**.
+1. Para acceder a la lista de solicitudes:
+
+   {{step1-to-requests}}
 
 1. Para acceder al widget Mis solicitudes en Inicio:
 
-   1. Haga clic en el icono **[!UICONTROL Menú principal]** ![Menú principal](/help/_includes/assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront o (si está disponible), haga clic en el icono **[!UICONTROL Menú principal]** ![Menú principal](/help/_includes/assets/main-menu-icon-left-nav.png) en la esquina superior izquierda y, a continuación, haga clic en **[!UICONTROL Inicio]**.
+   {{step1-to-home}}
+
    1. Busque el widget Mis solicitudes.
 
       Para obtener más información sobre el widget Mis solicitudes, consulte [Usar el widget Mis solicitudes](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md).

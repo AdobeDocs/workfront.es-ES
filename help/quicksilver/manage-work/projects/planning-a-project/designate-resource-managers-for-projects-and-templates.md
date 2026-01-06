@@ -6,10 +6,10 @@ description: Puede designar administradores de recursos para un proyecto con el 
 author: Alina
 feature: Work Management
 exl-id: ae2a89e7-8049-4ee6-9b28-ce247d3f2a6f
-source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '748'
-ht-degree: 96%
+source-wordcount: '731'
+ht-degree: 98%
 
 ---
 
@@ -46,7 +46,7 @@ Designating Resource Managers for a project is a prerequisite for using the Sche
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
@@ -162,9 +162,7 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 
 ## Designar administradores de recursos para una plantilla
 
-1. Haga clic en el icono **Menú principal** ![Icono del menú principal](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront.
-
-1. Haga clic en **Plantillas**.
+{{step1-to-templates}}
 
 1. Realice una de las siguientes acciones:
 

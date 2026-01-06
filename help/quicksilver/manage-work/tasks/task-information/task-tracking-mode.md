@@ -7,7 +7,7 @@ description: Puede ajustar la configuración Modo de seguimiento de una tarea al
 author: Alina
 feature: Work Management
 exl-id: 397b5593-ac01-40cf-b683-fcf671a53d26
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '646'
 ht-degree: 99%
@@ -29,9 +29,9 @@ Para obtener más información sobre el estado de progreso de las tareas, consul
 <p>To set the tracking mode:</p>
 <ol>
 <li value="1">Go to the task you want to set the tracking mode for.</li>
-<li value="2"> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click the <strong>More</strong> icon <img src="assets/qs-more-icon-on-an-object.png">next to the name of the task, then click&nbsp;<strong>Edit</strong>.</p> <p>The Edit Task dialog box opens. </p> </li>
-<li value="3"> <p>In the&nbsp;<strong>Settings</strong> section, use the&nbsp;<strong>Tracking Mode</strong> drop-down menu to select the Tracking Mode for the task.</p> <p>For more information about the tracking mode options, see the <a href="#tracking-mode-options" class="MCXref xref" xrefformat="{para}">Tracking Mode options</a> section in this article. </p> </li>
-<li value="4">Click&nbsp;<strong>Save Changes.</strong></li>
+<li value="2"> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click the <strong>More</strong> icon <img src="assets/qs-more-icon-on-an-object.png">next to the name of the task, then click <strong>Edit</strong>.</p> <p>The Edit Task dialog box opens. </p> </li>
+<li value="3"> <p>In the <strong>Settings</strong> section, use the <strong>Tracking Mode</strong> drop-down menu to select the Tracking Mode for the task.</p> <p>For more information about the tracking mode options, see the <a href="#tracking-mode-options" class="MCXref xref" xrefformat="{para}">Tracking Mode options</a> section in this article. </p> </li>
+<li value="4">Click <strong>Save Changes.</strong></li>
 </ol>
 </div>
 -->
@@ -71,9 +71,9 @@ Existen las siguientes excepciones:
 
 >[!IMPORTANT]
 >
->Si selecciona que las tareas se completen automáticamente, la tarea se completará cuando se recalcule la hora del proyecto. Si el Tipo de actualización del proyecto se establece en Automática o Automática y al cambiar, la línea de tiempo del proyecto se calcula diariamente. Para obtener información acerca de los cálculos de línea de tiempo en los proyectos, consulte [Volver a calcular líneas de tiempo de proyectos](../../../manage-work/projects/manage-projects/recalculate-project-timeline.md).
+>Si selecciona que las tareas se completen automáticamente, la tarea se completará cuando se recalcule la hora del proyecto. Si el Tipo de actualización del proyecto se establece en Automática o Automática y al cambiar, la cronología del proyecto se calcula diariamente. Para obtener información acerca de los cálculos de cronología en los proyectos, consulte [Volver a calcular cronologías de proyectos](../../../manage-work/projects/manage-projects/recalculate-project-timeline.md).
 >
->La hora de la fecha real de finalización es la medianoche del día en que se calcula automáticamente la línea de tiempo. La hora utilizada para generar esta marca de tiempo es la zona horaria del sistema definida por el administrador de Workfront en la sección Información del cliente de la Configuración. Para obtener información sobre cómo establecer la zona horaria del sistema, consulte [Configurar información básica del sistema](../../../administration-and-setup/get-started-wf-administration/configure-basic-info.md).
+>La hora de la fecha real de finalización es la medianoche del día en que se calcula automáticamente la cronología. La hora utilizada para generar esta marca de tiempo es la zona horaria del sistema definida por el administrador de Workfront en la sección Información del cliente de la Configuración. Para obtener información sobre cómo establecer la zona horaria del sistema, consulte [Configurar información básica del sistema](../../../administration-and-setup/get-started-wf-administration/configure-basic-info.md).
 
 ### Predecesora {#predecessor}
 

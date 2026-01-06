@@ -6,10 +6,10 @@ description: Puede eliminar un proyecto de un portafolio y asociarlo a uno difer
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 8982097e-76ee-497a-aa7c-74c6fbd3002d
-source-git-commit: fbe17e50ff161156a0b4b2a8b468b4eb844cae59
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '230'
-ht-degree: 98%
+ht-degree: 96%
 
 ---
 
@@ -86,7 +86,7 @@ También puede eliminar proyectos de un portafolio, lo que también los elimina 
 ## Quitar un proyecto de un portafolio
 
 1. Vaya a un portafolio y haga clic en **[!UICONTROL Proyectos]** en el panel izquierdo.
-1. Seleccione el proyecto que desea quitar. 
+1. Seleccione el proyecto que desea quitar.
 
    ![Botón Quitar proyectos](assets/nwe-remove-projects-button-inside-portfolio-350x141.png)
 

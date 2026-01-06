@@ -6,7 +6,7 @@ description: Puede configurar un proyecto para permitir que los usuarios agregue
 author: Becky
 feature: Work Management
 exl-id: 556775e8-7ac9-482d-8c1c-863678584aa4
-source-git-commit: 1b7964b533093c4eee20d69a74512a145e207e29
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '789'
 ht-degree: 86%
@@ -18,7 +18,7 @@ ht-degree: 86%
 <!-- Audited: 4/2025 -->
 
 <!--
-<p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:&nbsp;When updating POP account information here, also update information in these articles: Allowing users to reply to email notifications, Configuring Email Notifications, Understanding the Queue Details Tab in a Project )</p>
+<p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: When updating POP account information here, also update information in these articles: Allowing users to reply to email notifications, Configuring Email Notifications, Understanding the Queue Details Tab in a Project )</p>
 -->
 
 Puede configurar un proyecto para permitir que los usuarios agreguen problemas al proyecto por correo electrónico. Solo puede permitir que los problemas se envíen por correo electrónico a un proyecto si este está designado como Cola de solicitudes. Para obtener más información acerca de cómo crear un proyecto de cola de solicitudes, vea [Crear una cola de solicitudes](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
@@ -32,7 +32,7 @@ Puede configurar un proyecto para permitir que los usuarios agreguen problemas a
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera </p> </td> 
   </tr> 
   <tr> 
@@ -76,7 +76,7 @@ Se requieren las siguientes condiciones para configurar un proyecto de modo que 
 >* Workfront permite un correo electrónico único por cola de solicitudes en todos los clústeres. Si decide deshabilitar su cola de solicitudes, conservará la dirección de correo electrónico que creó siempre que aún esté en el cuadro de Dirección de correo de entrada. Si decide dejar de usar el correo de entrada, debe eliminarlo del campo de Dirección de correo de entrada para que esté disponible para uso futuro.
 >
 >* Si la cola de solicitudes tiene varios temas o grupos de temas, Workfront seleccionará al azar el tema de la cola al que se enviarán las solicitudes por correo electrónico, lo que dificulta la gestión de dichas solicitudes.
->  &#x200B;>Recomendamos que el proyecto que configure para recibir solicitudes por correo electrónico no tenga más de un tema de cola. Si las solicitudes enviadas están destinadas a diferentes recursos o proyectos, debe redirigirlas o moverlas manualmente una vez que se hayan enviado.
+>Recomendamos que el proyecto que configure para recibir solicitudes por correo electrónico no tenga más de un tema de cola. Si las solicitudes enviadas están destinadas a diferentes recursos o proyectos, debe redirigirlas o moverlas manualmente una vez que se hayan enviado.
 
 1. Vaya al proyecto que desea habilitar para recibir problemas por correo electrónico.
 1. Haga clic en **Detalles de cola** en el panel izquierdo.
@@ -94,7 +94,7 @@ Se requieren las siguientes condiciones para configurar un proyecto de modo que 
    >
    >* Debido a que esta dirección de correo electrónico debe ser única, es posible que no esté disponible en el futuro si se elimina.
    <!--
-   >This was the case previously, but it's not working this way anymore, since August 2022: * Emails forwarded to this email address are not added as issues to the project in&nbsp;Workfront. Only emails created from this email address are added as issues.
+   >This was the case previously, but it's not working this way anymore, since August 2022: * Emails forwarded to this email address are not added as issues to the project in Workfront. Only emails created from this email address are added as issues.
    -->
 
 1. (Opcional) Seleccione **Reenviar todos los problemas que no se puedan enviar por correo electrónico**, luego ingrese una dirección de reenvío en el cuadro de abajo.

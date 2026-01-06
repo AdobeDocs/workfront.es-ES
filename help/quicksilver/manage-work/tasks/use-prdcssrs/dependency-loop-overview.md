@@ -7,20 +7,20 @@ description: Al añadir relaciones de predecesoras a las tareas, puede encontrar
 author: Alina
 feature: Work Management
 exl-id: 142e9637-841c-43d1-b297-e42c28a9e010
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '253'
-ht-degree: 98%
+ht-degree: 70%
 
 ---
 
-# Información general de bucle de dependencia de tareas
+# Información general del bucle de dependencia de tareas
 
 Al añadir relaciones de predecesoras a las tareas, puede encontrar bucles de dependencia. Para obtener información sobre las predecesoras, consulte [Información general sobre las tareas predecesoras](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md).
 
 ## Información general de bucle de dependencia
 
-Los bucles de dependencia se producen cuando tiene dos o más tareas que dependen unas de otras para completarse. Adobe Workfront no permite crear una relación de predecesora entre tareas si crea un bucle de dependencia.
+Los bucles de dependencia se producen cuando tiene dos o más tareas que dependen unas de otras para completarse. Adobe Workfront no permite crear una relación de predecesora entre tareas si crea un bucle de dependencia.
 
 **Ejemplo:** La tarea 2 es predecesora de la tarea 1, lo que significa que debe completar la tarea 2 para poder empezar a trabajar en la tarea 1.
 
@@ -36,4 +36,4 @@ Si intenta hacer que la Tarea 1 sea la predecesora de la Tarea 2, se producirá 
 * También puede producirse un bucle de dependencia si intenta hacer que una tarea principal sea la predecesora de una secundaria.
 * En el caso de un bucle de dependencia, no se pueden guardar las tareas ni el proyecto. Para corregir el bucle de dependencia, debe volver a evaluar la relación de predecesoras entre las tareas enumeradas en el mensaje de error y quitar los conflictos antes de guardar las tareas o el proyecto.
 
- 
+

@@ -6,10 +6,10 @@ description: El administrador de Adobe Workfront puede otorgarle acceso para ver
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 7025f097-ea99-41bf-965e-617b0f532ff7
-source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '295'
-ht-degree: 98%
+ht-degree: 96%
 
 ---
 
@@ -62,7 +62,7 @@ Para obtener más información sobre la jerarquía de objetos en Workfront, cons
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
@@ -107,6 +107,6 @@ Para ver los permisos heredados para un proyecto:
    >
    >Debe tener permisos de administración en un objeto para quitar los permisos heredados.
 
- 
 
- 
+
+

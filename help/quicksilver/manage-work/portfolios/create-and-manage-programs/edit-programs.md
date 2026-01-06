@@ -6,10 +6,10 @@ description: Puede editar información sobre los programas que ha creado o que o
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 7dcdfc5a-3fc1-48a8-ae28-a6a0a458732e
-source-git-commit: 4897f165a7316a52b968601b45f95f7045f63840
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '1109'
-ht-degree: 60%
+ht-degree: 57%
 
 ---
 
@@ -123,7 +123,7 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 1. Haga clic en **[!UICONTROL Overview]** y especifique los campos siguientes:
 
    <!--
-   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:&nbsp;note below drafted for now)</p>
+   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: note below drafted for now)</p>
    -->
 
    <!--
@@ -151,7 +151,7 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Group]</td> 
-      <td> <p>Añada el nombre de un solo grupo si este está asociado al programa o si tiene la responsabilidad de completarlo. </p> <p><b>Sugerencia</b></p>  <p>Al acceder al campo [!UICONTROL Group] desde la página Detalles del programa , haga lo siguiente para asegurarse de que está seleccionando el grupo correcto: </p> <p>Pase el ratón sobre el nombre del grupo y haga clic en el icono de [!UICONTROL information] <img src="assets/info-icon.png"> que hay junto a él. Esta acción muestra la ayuda contextual con información sobre el grupo, como la jerarquía de los grupos que tiene por encima y sus administradores.</p> <p> <img src="assets/group-details-widget-programs-350x268.png" style="width: 350;height: 268;"> </p> <p>Esta opción no está disponible en el cuadro [!UICONTROL Edit Program]. </p> </p> </td> 
+      <td> <p>Añada el nombre de un solo grupo si este está asociado al programa o si tiene la responsabilidad de completarlo. </p> <p><b>Sugerencia</b></p>  <p>Al acceder al campo [!UICONTROL Group] desde la página Detalles del programa [!UICONTROL], haga lo siguiente para asegurarse de que está seleccionando el grupo correcto: </p> <p>Pase el ratón sobre el nombre del grupo y haga clic en el icono de [!UICONTROL information] <img src="assets/info-icon.png"> que hay junto a él. Esta acción muestra la ayuda contextual con información sobre el grupo, como la jerarquía de los grupos que tiene por encima y sus administradores.</p> <p> <img src="assets/group-details-widget-programs-350x268.png" style="width: 350;height: 268;"> </p> <p>Esta opción no está disponible en el cuadro [!UICONTROL Edit Program]. </p> </p> </td> 
      </tr> 
     </tbody> 
    </table>

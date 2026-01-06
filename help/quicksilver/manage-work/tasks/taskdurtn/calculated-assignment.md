@@ -7,10 +7,10 @@ description: La asignación calculada es un tipo de duración que puede establec
 author: Alina
 feature: Work Management
 exl-id: 5f1f6109-5d54-4c3f-9aa5-dc6ce165a1cd
-source-git-commit: c1b8af0d8a95714bb597db7a429794773358cf05
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '481'
-ht-degree: 89%
+ht-degree: 82%
 
 ---
 
@@ -27,7 +27,7 @@ La asignación calculada es un tipo de duración que puede establecer para una t
 -->
 
 * Cuando utilice un tipo de duración de asignación calculada, debe especificar tanto una duración como un número de horas planificadas para la tarea. A continuación, Workfront divide la cantidad de horas planificadas por la cantidad de horas de duración y, a continuación, por el número de recursos asignados a la tarea para calcular el porcentaje de asignación (calcula la asignación) de cada recurso. Cada recurso tendrá igualmente el mismo valor para su porcentaje de asignación. En este caso, no puede modificar los valores de asignación para cada recurso.
-* Su Workfront o un administrador de grupo pueden establecer el tipo de duración predeterminado de su sistema o grupo como asignación calculada.En este caso, todas las tareas nuevas se crearán con este tipo de duración. Para obtener información sobre cómo cambiar las preferencias de tareas y problemas como parte de las preferencias de proyectos de nivel de sistema o de grupo, consulte [Configurar las preferencias de tareas y problemas de todo el sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+* Su Workfront o un administrador de grupo pueden establecer el tipo de duración predeterminado de su sistema o grupo como asignación calculada. En este caso, todas las tareas nuevas se crearán con este tipo de duración. Para obtener información sobre cómo cambiar las preferencias de tareas y problemas como parte de las preferencias de proyectos de nivel de sistema o de grupo, consulte [Configurar las preferencias de tareas y problemas de todo el sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 
   En este caso, la tarea tiene una Duración predeterminada de un día y un valor predeterminado de 0 horas de Horas planificadas. A menos que el gestor del proyecto establezca una duración más precisa y rellene el campo de horas planificadas con una estimación realista, los recursos parecerán infrautilizados.
 

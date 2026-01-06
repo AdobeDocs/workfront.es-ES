@@ -7,10 +7,10 @@ description: Como métrica de rendimiento, Estimar al finalizar (EAC) representa
 author: Lisa
 feature: Work Management
 exl-id: 9061fa56-cff3-4fe2-866e-1fdda9d43efc
-source-git-commit: 23a4d055871c9138818e70fa1cd936581dbd7552
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '825'
-ht-degree: 98%
+ht-degree: 79%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 98%
 
 Como métrica de rendimiento, Estimar al finalizar (EAC) representa el coste total proyectado del proyecto o la tarea cuando finaliza.
 
-Como configuración, le permite definir cómo se debe calcular el valor EAC. 
+Como configuración, le permite definir cómo se debe calcular el valor EAC.
 
 ## Requisitos de acceso
 
@@ -33,7 +33,7 @@ Como configuración, le permite definir cómo se debe calcular el valor EAC. 
  <col> 
  <tbody> 
   <tr> 
-   <td>paquete de Adobe Workfront</td> 
+   <td>Paquete de Adobe Workfront</td> 
    <td>Cualquiera</td> 
   </tr> 
   <tr> 
@@ -59,7 +59,7 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 
 ## Defina cómo calcular el valor EAC
 
-Como parte de las preferencias del sistema del proyecto, el administrador de Adobe Workfront puede definir cómo calcular el valor EAC. EAC se puede calcular de una de las dos maneras siguientes:
+Como parte de las preferencias del sistema del proyecto, el administrador de Adobe Workfront puede definir cómo calcular el EAC. EAC se puede calcular de una de las dos maneras siguientes:
 
 * [Calcular en el nivel de proyecto](#calculate-at-the-project-level)
 * [Resumir a partir de tareas y subtareas](#roll-up-from-tasks-and-subtasks)
@@ -89,7 +89,7 @@ En Workfront, el cálculo de EAC depende del Método de índice de rendimiento (
 EAC = Total Planned Hours / CPI*
 ```
 
-&#42;Si el índice de rendimiento de costos [Calcular índice de rendimiento de costos (CPI)](../../../manage-work/projects/project-finances/calculate-cpi.md) = 0, EAC = Total de horas planificadas + horas reales. Esto ocurre cuando se han capturado horas, pero el proyecto/tarea está al 0% completado.
+&#42;Si el índice de rendimiento de costos [Calcula el índice de rendimiento de costos (CPI)](../../../manage-work/projects/project-finances/calculate-cpi.md) = 0, EAC = Total de horas planificadas + Horas reales. Esto ocurre cuando se han capturado horas, pero el proyecto/tarea está al 0% completado.
 
 Para obtener más información acerca del cálculo del CPI, consulte [Calcular el índice de rendimiento de costos (CPI)](../../../manage-work/projects/project-finances/calculate-cpi.md).
 
@@ -101,9 +101,9 @@ El valor EAC de un proyecto se calcula mediante la siguiente fórmula:
 EAC = EAC Labor + EAC Expense 
 ```
 
-<pre>Mano de obra de EAC =  <em>IF</em> Mano de obra de CPI &lt;&gt; 0 THEN Mano de obra de EAC = Coste planificado de mano de obra / mano de obra de CPI</pre><pre><em>ELSE</em> Mano de obra de EAC  = Coste planificado de mano de obra + Coste real de la mano de obra</pre><pre>Mano de obra de CPI = IF Coste real de la mano de obra &lt;&gt; 0 THEN Mano de obra de CPI = TotalBudgetedCostWorkPerformed / Coste real de la mano de obra</pre><pre>ELSE Mano de obra de CPI = 1 </pre>Los campos siguientes se tienen en cuenta al calcular el valor EAC:
+<pre>Mano de obra EAC = <em>IF</em> IPC Mano de obra &lt;&gt; 0 ENTONCES MANO de obra EAC = Costo de mano de obra planificado / IPC Mano de obra</pre><pre><em>ELSE</em> EAC Mano de Obra = Costo de Mano de Obra Planificado + Costo de Mano de Obra Real</pre><pre>Mano de obra de CPI = IF Coste real de la mano de obra &lt;&gt; 0 THEN Mano de obra de CPI = TotalBudgetedCostWorkPerformed / Coste real de la mano de obra</pre><pre>IRC = Trabajo = 1 </pre>Los campos siguientes se tienen en cuenta al calcular el valor EAC:
 
-* Coste presupuestado total de trabajo realizado (CPTR) = Resultado de multiplicar el coste presupuestado del trabajo planificado (coste presupuestado) y el porcentaje de la tarea que se ha completado hasta el momento.
+* Trabajo presupuestado total realizado (CPTR) = Resultado de multiplicar el costo presupuestado del trabajo planeado (costo presupuestado) y el porcentaje de la tarea que se ha completado hasta el momento.
 
   Para obtener información sobre el coste presupuestado total de trabajo realizado (CPTR), consulte [Calcular el coste presupuestado total de trabajo realizado (CPTR)](../../../manage-work/projects/project-finances/calculate-bcwp.md).
 
@@ -114,26 +114,26 @@ EAC = EAC Labor + EAC Expense
      ```
 
    * **Para una tarea principal:**
-Coste presupuestado total de trabajo realizado = la suma del campo Coste presupuestado total de trabajo realizado para todas las tareas secundarias directas.
+Trabajo presupuestado total realizado = la suma del campo Trabajo presupuestado total realizado para todas las tareas secundarias directas.
 
    * **Para un proyecto:**
-Coste presupuestado total de trabajo realizado = la suma del campo Coste presupuestado total de trabajo realizado para todas las tareas de nivel superior (tareas principales y autónomas). 
+Trabajo presupuestado total realizado = la suma del campo Trabajo presupuestado total realizado para todas las tareas de nivel superior (tareas principales y autónomas).
 
-* Gasto EAC = el resultado de añadir el coste real de gastos incurridos al coste planificado de gastos no incurridos. Se calcula mediante la fórmula siguiente:
+* Gasto EAC = el resultado de agregar el costo de gasto real incurrido al costo de gasto planificado no incurrido. Se calcula mediante la fórmula siguiente:
 
   ```
   EAC Expense = Incurred Actual Expense Cost + Not Incurred Planned Expense
   ```
 
-   * Coste real de gastos incurridos = la suma del campo Importe planificado para todos los gastos donde el campo Importe real es > 0. Por ejemplo, si crea un gasto para la Tarea 1 y especifica 500,00 USD en el campo Importe planificado y un importe > 0 en el campo Importe real (es decir, 600,00 USD), el coste planificado de gastos incurridos para esta tarea es de 500,00 USD.
-   * Gasto planificado no incurrido = la suma del campo Importe planificado para todos los gastos donde el campo Importe real es = 0. Por ejemplo, si crea dos gastos para la Tarea 1 en los que para el primer gasto el valor del campo Importe planificado es de 500,00 USD y el valor del Importe real es de 600,00 USD, y para el segundo gasto el valor del campo Importe planificado es de 300,00 USD y el valor del campo Importe real es de 0,00 USD, el valor del gasto planificado no incurrido para esta tarea es de 300,00 USD. 
+   * Costo de gasto real incurrido = La suma del campo Importe planificado para todos los gastos donde el campo Importe real > 0. Por ejemplo, si crea un gasto para la Tarea 1 y especifica 500,00 USD en el campo Importe planificado y un importe > 0 en el campo Importe real (es decir, 600,00 USD), el coste planificado de gastos incurridos para esta tarea es de 500,00 USD.
+   * Gasto planificado no incurrido = La suma del campo Importe planificado para todos los gastos donde el campo Importe real = 0. Por ejemplo, si crea dos gastos para la Tarea 1 en los que para el primer gasto el valor del campo Importe planificado es de 500,00 USD y el valor del Importe real es de 600,00 USD, y para el segundo gasto el valor del campo Importe planificado es de 300,00 USD y el valor del campo Importe real es de 0,00 USD, el valor del gasto planificado no incurrido para esta tarea es de 300,00 USD.
 
 ## Localizar el EAC en un proyecto o una tarea
 
 1. Vaya al proyecto o tarea donde desee ver el EAC.
 1. Expanda **Detalles del proyecto** o **Detalles de tareas** en el panel izquierdo del proyecto o la tarea, según el lugar donde vea el EAC.
 
-1. Haga clic en **Finanzas**. 
+1. Haga clic en **Finanzas**.
 
    El valor EAC se muestra en el campo **Estimar al finalizar**.
 

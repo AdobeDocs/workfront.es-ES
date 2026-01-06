@@ -6,7 +6,7 @@ description: La información que ve en la aplicación web de  [!DNL Workfront]  
 author: Becky and Lisa
 feature: Get Started with Workfront
 exl-id: 68f4b83b-a8b4-4304-930f-62551cb06a92
-source-git-commit: fb555df123701c62e9a0f2d451ad6dcd16586595
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '638'
 ht-degree: 72%
@@ -28,16 +28,16 @@ La siguiente tabla enumera todas las [!DNL Workfront] áreas y objetos que conti
 | Área u objeto de **[!DNL Workfront]** | **Secciones predeterminadas del sistema** | **Paneles de control** |
 |---|---|---|
 | Área de proyectos de  | ✓ | ✓ |
-| [!UICONTROL Equipo] | ✓ |   |
-| Área de [!UICONTROL solicitudes] | ✓ |   |
-| Área de [!UICONTROL plantillas de horas] | ✓ |   |
+| [!UICONTROL Equipo] | ✓ |    |
+| Área de [!UICONTROL solicitudes] | ✓ |    |
+| Área de [!UICONTROL plantillas de horas] | ✓ |    |
 | [!UICONTROL Portafolio] | ✓ | ✓ |
 | [!UICONTROL Programa] | ✓ | ✓ |
 | [!UICONTROL Proyecto] | ✓ | ✓ |
-| [!UICONTROL Tarea] | ✓ |  ✓ |
-| [!UICONTROL Problema] |  ✓ |  ✓ |
-| [!UICONTROL Usuario] |  ✓ |  ✓ |
-| [!UICONTROL Documento] |  ✓ |  ✓ |
+| [!UICONTROL Tarea] | ✓ | ✓ |
+| [!UICONTROL Problema] | ✓ | ✓ |
+| [!UICONTROL Usuario] | ✓ | ✓ |
+| [!UICONTROL Documento] | ✓ | ✓ |
 | Área de [!UICONTROL recursos] | ✓ | ✓ |
 
 {style="table-layout:auto"}
@@ -51,7 +51,7 @@ La siguiente tabla enumera todas las [!DNL Workfront] áreas y objetos que conti
  <col>
  <tbody> 
   <tr> 
-   <td>paquete de Adobe Workfront</td> 
+   <td>Paquete de Adobe Workfront</td> 
    <td><p>Cualquiera</p></td> 
   </tr> 
   <tr> 

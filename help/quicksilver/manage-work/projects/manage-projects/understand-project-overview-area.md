@@ -8,10 +8,10 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: 6113bc62-18f2-4558-bc2f-986b1e7d1a83
-source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '1404'
-ht-degree: 93%
+ht-degree: 82%
 
 ---
 
@@ -32,7 +32,7 @@ Puede ver o editar la información de un proyecto accediendo al área Informaci�
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
@@ -131,15 +131,15 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
      </tr> 
      <tr> 
       <td role="rowheader">Estado</td> 
-      <td> <p>El estado del proyecto. </p> <p>Sugerencia: No puede completar un proyecto a menos que también se hayan completado todas las tareas y problemas. Si el modo de finalización de un proyecto se establece en Automático, el proyecto no se puede completar manualmente. </p> </td> 
+      <td> <p>El estado del proyecto. </p> <p>Sugerencia: No puede completar un proyecto a menos que también se hayan completado todas las tareas y problemas. Si el modo de finalización del proyecto se establece en automático, no se puede completar manualmente un proyecto. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Tipo de condición</td> 
-      <td>Determina si el administrador establece la condición del proyecto o si lo hace Workfront. Para obtener información acerca de la condición del proyecto, consulte el artículo <a href="../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md" class="MCXref xref">Información general sobre la condición del proyecto y el tipo de condición</a>.</td> 
+      <td>Determina si el administrador establece la condición del proyecto o si Workfront lo hace. Para obtener información acerca de la condición del proyecto, vea el artículo <a href="../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md" class="MCXref xref">Información general sobre la condición del proyecto y el tipo de condición</a>.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Modo de programación</td> 
-      <td>Establece cómo se programa el proyecto. Por ejemplo, si el proyecto está programado desde la fecha de inicio o desde la fecha de finalización. </td> 
+      <td>Establece cómo se programa el proyecto. Por ejemplo, si el proyecto está programado desde la fecha de inicio o desde la fecha de finalización. </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Fecha y hora de inicio planificadas</td> 
@@ -209,7 +209,7 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
    | Introducido por | El nombre del usuario que creó el proyecto. |
    | Fecha de última actualización | Fecha y hora en que se actualizó el proyecto por última vez. |
    | Última actualización por | El nombre del usuario que actualizó el proyecto. |
-   | Plantilla |   |
+   | Plantilla |  |
 
 
 1. Si su empresa ha adquirido una licencia adicional para el Planificador de escenarios de Adobe Workfront y el proyecto tiene información publicada de una iniciativa vinculada, revise la siguiente información de la iniciativa en el área Planificador de escenarios:
@@ -236,15 +236,15 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
      </tr> 
      <tr> 
       <td role="rowheader"><span>Fecha de finalización de la iniciativa</span> </td> 
-      <td><span>Último día del mes de finalización de la iniciativa, cuando el proyecto se vincula una iniciativa.</span> </td> 
+      <td><span>El último día del mes de finalización de la iniciativa, en caso de que el proyecto esté vinculado a una. </span> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><span>Funciones de la iniciativa en FTE y horas</span> </td> 
-      <td> <p>Información sobre las funciones asociadas y sus asignaciones de tiempo para la iniciativa.Esto incluye lo siguiente:</p> 
+      <td role="rowheader"><span>Funciones del puesto de la iniciativa en jornadas completas y horas</span> </td> 
+      <td> <p>Información sobre las funciones asociadas y sus asignaciones de tiempo para la iniciativa. Esto incluye:</p> 
        <ul> 
         <li>Nombre de la función</li> 
         <li>Número de jornadas completas</li> 
-        <li> <p>Número de horas para todos los FTE</p> <p>Puede calcular la cantidad de funciones necesarias para su plan o iniciativa mediante horas o jornadas completas. </p> <p>Para obtener más información, consulte <a href="../../../scenario-planner/create-and-edit-plans.md" class="MCXref xref">Crear y editar planes en el Planificador de escenarios</a>. </p> </li> 
+        <li> <p>Número de horas para todas las jornadas completas</p> <p>Puede calcular la cantidad de funciones necesarias para su plan o iniciativa mediante horas o jornadas completas. </p> <p>Para obtener más información, consulte <a href="../../../scenario-planner/create-and-edit-plans.md" class="MCXref xref">Crear y editar planes en el Planificador de escenarios</a>. </p> </li> 
        </ul> <p>Sugerencia: <span>Si el número de funciones es diferente para cada mes de la iniciativa, este campo muestra la cantidad máxima de funciones necesarias de la iniciativa. Por ejemplo, si necesita un consultor para enero y dos para febrero, la columna muestra dos FTE y la cantidad de horas que les corresponden para dos FTE todos los meses.</span> </p> </td> 
      </tr> 
     </tbody> 

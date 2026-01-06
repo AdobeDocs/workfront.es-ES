@@ -9,7 +9,7 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 9ddb75bf-1c7b-4f4b-b80b-a9512192920d
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '677'
 ht-degree: 14%
@@ -100,4 +100,4 @@ La siguiente tabla ilustra si los cambios realizados en el déclencheur principa
 
 &#42;&#42; Las asignaciones realizadas en la tarea principal se aplican a todas las subtareas de forma recurrente. Cualquier cambio realizado en la asignación de la tarea principal anula cualquier asignación individual de la subtarea. Si la tarea muestra progreso, la asignación no cambia.
 
- 
+

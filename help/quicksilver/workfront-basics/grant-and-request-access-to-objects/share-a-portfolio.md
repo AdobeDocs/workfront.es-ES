@@ -4,10 +4,10 @@ description: Puede compartir un portafolio con otros usuarios si tiene permisos 
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 79643202-2d91-4028-b673-c3443b50d898
-source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '870'
-ht-degree: 45%
+ht-degree: 46%
 
 ---
 
@@ -29,7 +29,7 @@ Los permisos son específicos de un elemento en Workfront y definen qué accione
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
@@ -146,19 +146,19 @@ La siguiente tabla muestra qué permisos puede conceder a los usuarios cuando le
 
 | **Acciones** | **Administrar** | **Vista** |
 |---|---|---|
-| Editar detalles del portafolio | ✓ |   |
+| Editar detalles del portafolio | ✓ |   |
 | Ver un portafolio | ✓ | ✓ |
-| Eliminar un calendario | ✓ |   |
-| Adjuntar un formulario personalizado | ✓ |   |
-| Editar un formulario personalizado | ✓ |   |
-| Añadir o quitar un programa&#42; | ✓ |   |
-| Añadir o quitar un proyecto&#42; | ✓ |   |
-| Aprobar un proyecto | ✓ |   |
-| Optimización del portafolio&#42; | ✓ |   |
+| Eliminar un calendario | ✓ |   |
+| Adjuntar un formulario personalizado | ✓ |   |
+| Editar un formulario personalizado | ✓ |   |
+| Añadir o quitar un programa&#42; | ✓ |   |
+| Añadir o quitar un proyecto&#42; | ✓ |   |
+| Aprobar un proyecto | ✓ |   |
+| Optimización del portafolio&#42; | ✓ |   |
 | Añadir una carpeta de documentos&#42; | ✓ | ✓ |
 | Añadir un documento | ✓ | ✓ |
 | Actualizaciones/comentarios | ✓ | ✓ |
 | Compartir | ✓ | ✓ |
-| Compartir en todo el sistema |   | ✓ |
+| Compartir en todo el sistema |   | ✓ |
 
 *Estos permisos están controlados por el nivel de acceso y los permisos de otros objetos, como proyectos, programas o documentos.

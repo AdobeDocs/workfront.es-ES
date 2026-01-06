@@ -7,10 +7,10 @@ author: Lisa
 feature: Work Management, Resource Management
 role: User
 exl-id: 09780f78-4eb8-404d-859b-d066d462776d
-source-git-commit: 01a80f6140650ca12aaee14115f79449dcfa2a18
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '1118'
-ht-degree: 79%
+ht-degree: 77%
 
 ---
 
@@ -136,7 +136,7 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 
      >[!IMPORTANT]
      >
-     >Según la forma en que el administrador de Workfront o el administrador del grupo hayan configurado las preferencias del proyecto, Workfront podría utilizar la programación del propietario de la tarea para calcular la línea de tiempo de la tarea cuando tenga varios usuarios asignados a la tarea. Para obtener información acerca de los usuarios asignados a varias tareas, consulte la sección “Asignar varios usuarios a una tarea” en el artículo [Asignar tareas](../../../manage-work/tasks/assign-tasks/assign-tasks.md).
+     >Según la forma en que el administrador de Workfront o el administrador del grupo hayan configurado las preferencias del proyecto, Workfront podría utilizar la programación del propietario de la tarea para calcular la cronología de la tarea cuando tenga varios usuarios asignados a la tarea. Para obtener información acerca de los usuarios asignados a varias tareas, consulte la sección “Asignar varios usuarios a una tarea” en el artículo [Asignar tareas](../../../manage-work/tasks/assign-tasks/assign-tasks.md).
 
    * **Asignaciones**: cuando el tipo de duración de una tarea sea Simple, especifique el número de horas que cada usuario o rol debe asignarse a la tarea. La suma de todas las horas asignadas a cada usuario es igual al número que aparece en el campo **Horas planificadas** en la parte inferior de la columna Asignaciones. En todos los demás casos, especifique el porcentaje de tiempo (o asignación) que desea que el usuario asignado dedique a resolver la tarea o el problema.
 

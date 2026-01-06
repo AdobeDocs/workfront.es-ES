@@ -6,10 +6,10 @@ description: Utilice la Sección Alineación de metas para mostrar una vista int
 author: Alina
 feature: Workfront Goals
 exl-id: e79ced31-4680-4af7-b083-3d615c747af8
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '901'
-ht-degree: 88%
+source-wordcount: '883'
+ht-degree: 79%
 
 ---
 
@@ -39,7 +39,7 @@ Para obtener información sobre la alineación de objetivos y cómo conseguirla,
  <col> 
  <tbody> 
   <tr>
-  <td> <p>paquete de Adobe Workfront</p> </td> 
+  <td> <p>Paquete de Adobe Workfront</p> </td> 
    <td> 
    <p>Adobe Workfront Ultimate</p>
    </td> 
@@ -125,9 +125,8 @@ Or
 
 ## Navega por la sección de Alineación de Metas
 
-1. Haz clic en el icono **Menú principal** ![Icono del menú principal](../goal-alignment/assets/dots-main-menu-icon.png) en la esquina superior derecha de tu pantalla, luego haz clic en **Objetivos**.
-   <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-alignment/assets/three-line-main-menu-icon.png) in the upper-left corner)
-   -->
+{{step1-to-goals}}
+
 1. Haga clic en **Alineación de metas** en el panel izquierdo
 1. Utilice los filtros de la esquina superior derecha del gráfico de alineación para seleccionar solo las metas que sean importantes para usted. Para obtener información sobre cómo usar filtros en Workfront Goals, consulte [información de filtros en Adobe Workfront Goals](../../workfront-goals/goal-management/filter-information-wf-goals.md).
 
@@ -149,7 +148,7 @@ Or
      </tr> 
      <tr> 
       <td role="rowheader">Nombre del propietario</td> 
-      <td>El nombre del usuario, equipo, grupo o la organización designada como propietario de la meta. </td> 
+      <td>El nombre del usuario, equipo, grupo u organización designado como Propietario del objetivo. </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Nombre de la meta</td> 
@@ -159,11 +158,11 @@ Or
       <td role="rowheader">Barra de progreso de la meta <span>y progreso</span></td> 
       <td> <p>El progreso de la meta indica qué porcentaje de la meta se ha alcanzado actualmente. Se trata de un cálculo automático de la media del progreso de todas las metas alineadas, resultados y actividades de la meta en función del tiempo transcurrido desde el inicio del período de tiempo de la meta. Para obtener información sobre el cálculo del progreso de las metas, consulte <a href="../../workfront-goals/goal-management/calculate-goal-progress.md" class="MCXref xref">Información general sobre el progreso y la condición de las metas en Adobe Workfront Goals</a>. </p> 
        <div> 
-        <p>El progreso real de la meta por la fecha actual.Los siguientes valores y colores de progreso indican la probabilidad de que la meta se alcance a tiempo: </p> 
+        <p>El progreso real de la meta en la fecha actual. Los siguientes valores y colores de progreso indican la probabilidad de que el objetivo se alcance a tiempo: </p> 
         <ul> 
          <li><span>En destino</span> (indicador verde): la meta está a tiempo y se alcanzará a tiempo.</li> 
-         <li> <span>En riesgo</span> (indicador amarillo): la meta se retrasa y es posible que no se logre a tiempo.</li> 
-         <li> <span>Con problemas</span> (indicador rojo): la meta corre el riesgo de no lograrse a tiempo. </li> 
+         <li> <span>En riesgo</span> (indicador amarillo): el objetivo se retrasa y es posible que no se logre a tiempo.</li> 
+         <li> <span>Con problemas</span> (indicador rojo): el objetivo corre el riesgo de no alcanzarse a tiempo. </li> 
         </ul> 
        </div> </td> 
      </tr> <!--
@@ -195,7 +194,7 @@ Or
 
    ![Se excluyó la meta principal](assets/parent-goal-excluded-by-filter-alignment-section-350x230.png)
 
-1. Haga clic en **Mostrarlas** para mostrar las metas que el filtro ha eliminado actualmente.
+1. Haga clic en **Mostrarlos** para mostrar las metas que el filtro ha eliminado actualmente.
 
    Observe los siguientes cambios en el gráfico de alineación:
 

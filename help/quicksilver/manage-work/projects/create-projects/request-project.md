@@ -6,10 +6,10 @@ description: Puede solicitar la aprobación de un proyecto antes de comenzar a t
 author: Alina
 feature: Work Management
 exl-id: 6557a7a5-3d5e-476d-b834-007c9e120397
-source-git-commit: 76379d5433cc13ee412c8c1045316ef253b3ee7d
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '557'
-ht-degree: 16%
+ht-degree: 17%
 
 ---
 
@@ -41,7 +41,7 @@ Puede solicitar un proyecto al agregar uno nuevo en las siguientes áreas de Ado
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
@@ -101,7 +101,7 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 
 1. Realice una de las siguientes acciones:
 
-   * Haga clic en el **Menú principal** ![Icono del menú principal](assets/main-menu-icon.png) en la esquina superior derecha, o en el **Menú principal** ![Líneas del menú principal](assets/lines-main-menu.png) en la esquina superior izquierda, si está disponible, haga clic en **Proyectos** y expanda **Nuevo proyecto**.
+   * Haga clic en el icono **Menú principal**![Líneas del menú principal](assets/lines-main-menu.png) en la esquina superior izquierda, o en el icono **Menú principal** ![Icono del menú principal](assets/main-menu-icon.png) en la esquina superior derecha, haga clic en **Proyectos** y expanda **Nuevo proyecto**.
    * Vaya a un portafolio y expanda **Nuevo proyecto**.
    * Vaya a un programa y expanda **Nuevo proyecto**.
    * Si es administrador de un grupo, también puede crear un proyecto en la sección Proyectos de un grupo que administre. Para obtener más información, vea [Crear y modificar proyectos de un grupo](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-projects.md).

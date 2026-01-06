@@ -7,10 +7,10 @@ description: '"Condicionada por el esfuerzo" es un tipo de duración que puede e
 author: Alina
 feature: Work Management
 exl-id: 3c8534f7-02d0-4404-a37b-0ef6360e8efc
-source-git-commit: c1b8af0d8a95714bb597db7a429794773358cf05
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '862'
-ht-degree: 99%
+ht-degree: 95%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 99%
 
 ## Descripción general del tipo de duración Condicionada por el esfuerzo
 
-Su Workfront o un administrador de grupo pueden establecer el tipo de duración predeterminado de su sistema o grupo como Condicionada por el esfuerzo.En este caso, todas las tareas nuevas se crearán con este tipo de duración. Para obtener información sobre cómo cambiar las preferencias de tareas y problemas como parte de las preferencias de proyectos de nivel de sistema o de grupo, consulte [Configurar las preferencias de tareas y problemas de todo el sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+Su Workfront o un administrador de grupo pueden establecer el tipo de duración predeterminado de su sistema o grupo como Condicionada por el esfuerzo. En este caso, todas las tareas nuevas se crearán con este tipo de duración. Para obtener información sobre cómo cambiar las preferencias de tareas y problemas como parte de las preferencias de proyectos de nivel de sistema o de grupo, consulte [Configurar las preferencias de tareas y problemas de todo el sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 
 En este escenario, existe el riesgo de acortar arbitrariamente el plan del proyecto, a menos que usted, como jefe de proyecto, se tome el tiempo para considerar si la tarea es en realidad una tarea Condicionada por el esfuerzo.
 

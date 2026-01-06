@@ -6,10 +6,10 @@ description: Puede eliminar tareas que puedan ser duplicadas o que se hayan crea
 author: Alina
 feature: Work Management
 exl-id: aee5c293-e5fa-413e-9d9b-c62528941be7
-source-git-commit: 0c0ffbeefb0eed8d1ca2a6e68ed19b40080726df
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '810'
-ht-degree: 25%
+source-wordcount: '782'
+ht-degree: 23%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 25%
 
 Puede eliminar tareas que puedan ser duplicadas o que se hayan creado por error.
 
-Para las tareas que tienen información histórica (actualizaciones, cambios de programación, estado u otros campos), recomendamos que los cierre o los marque como Inactivos, en lugar de eliminarlos. Esto le ayuda a mantener la información histórica de sus proyectos.
+Para las tareas que tienen información histórica (actualizaciones, cambios de programación, estado u otros campos), recomendamos que los cierre o los marque como Inactivos, en lugar de eliminarlos. Esto le ayuda a mantener la información histórica de sus proyectos.
 
 ## Requisitos de acceso
 
@@ -68,7 +68,7 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Tasks and Projects with access to&nbsp;Delete</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information about access to tasks, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md" class="MCXref xref">Grant access to tasks</a>. For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>. </p> </td> 
+   <td> <p>Edit access to Tasks and Projects with access to Delete</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information about access to tasks, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md" class="MCXref xref">Grant access to tasks</a>. For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>. </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -89,7 +89,7 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 * Si la tarea ha registrado horas, el administrador del grupo o de Workfront debe permitir la eliminación de estas tareas configurando las Preferencias de tareas y problemas en la instancia de Workfront. Esto también se aplica cuando se intenta eliminar proyectos que tienen tareas con horas registradas en ellos.
 
   <!--
-  (NOTE: the last statement is NWE&nbsp;only; not possible in classic)
+  (NOTE: the last statement is NWE only; not possible in classic)
   -->
 
   Para obtener más información acerca de cómo habilitar la eliminación de tareas en las que se registran horas, consulte la sección &quot;Eliminación&quot; en [Configurar las preferencias de tareas y problemas en todo el sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
@@ -140,9 +140,8 @@ Tenga en cuenta lo siguiente:
 
 ### Eliminar varias tareas simultáneamente en un proyecto  {#delete-multiple-tasks-in-a-project-simultaneously}
 
-1. Haga clic en el icono **Menú principal** ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront.
+{{step1-to-projects}}
 
-1. Haga clic en **Proyectos**.
 1. Haga clic en el nombre del proyecto que contiene las tareas que desea eliminar.
 1. Haga clic en **Tareas** en el panel izquierdo.
 1. Realice una de las siguientes acciones:
@@ -170,9 +169,8 @@ Tenga en cuenta lo siguiente:
 
 ### Eliminar una sola tarea {#delete-a-single-task}
 
-1. Haga clic en el icono **Menú principal** ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront.
+{{step1-to-projects}}
 
-1. Haga clic en **Proyectos**.
 1. Haga clic en el nombre del proyecto que contiene la tarea que desea eliminar.
 1. Haga clic en **Tareas** en el panel izquierdo.
 1. Haga clic en el nombre de la tarea que desee eliminar.

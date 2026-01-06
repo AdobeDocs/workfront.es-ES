@@ -7,7 +7,7 @@ description: Lo antes posible es una restricción de tareas que sitúa la hora d
 author: Alina
 feature: Work Management
 exl-id: 9cb232fe-bc74-4433-afac-88be69514c88
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '391'
 ht-degree: 98%
@@ -26,7 +26,7 @@ Lo antes posible es una restricción de tareas que sitúa la hora de inicio de l
 
   Para obtener información sobre dónde establecer la restricción predeterminada de una tarea nueva, consulte [Configuración de preferencias de tareas y problemas en todo el sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 
-Para obtener información sobre cómo actualizar la restricción de la tarea de una tarea, consulte [Actualizar la restricción de la tarea de una tarea](../../../manage-work/tasks/task-constraints/update-task-constraint-of-task.md).
+Para obtener información sobre cómo actualizar la restricción de tarea en una tarea, consulte [Actualizar la restricción de tarea de una tarea](../../../manage-work/tasks/task-constraints/update-task-constraint-of-task.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -45,7 +45,7 @@ Para obtener información sobre cómo actualizar la restricción de la tarea de 
 ## Diferencia entre Lo más temprano disponible y Lo antes posible
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: [! This section is duplicated in "Earliest Available Time"])&nbsp;</p>
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: [! This section is duplicated in "Earliest Available Time"]) </p>
 -->
 
 La restricción Lo más temprano disponible difiere de la restricción Lo antes posible cuando se cumplen todos los criterios siguientes:

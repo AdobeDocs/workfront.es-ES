@@ -8,10 +8,10 @@ description: Las métricas del proyecto le proporcionan una visualización de lo
 author: Alina
 feature: Work Management
 exl-id: 54c2a59d-9f6b-4126-9526-5169aeda8517
-source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '1161'
-ht-degree: 98%
+source-wordcount: '1206'
+ht-degree: 90%
 
 ---
 
@@ -28,7 +28,7 @@ Las métricas del proyecto proporcionan una vista general en formato de gráfico
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
@@ -89,7 +89,7 @@ Para acceder al área Métricas desde el panel izquierdo de un proyecto, debe:
 
 Las métricas del proyecto le proporcionan una visualización de lo que está sucediendo en un proyecto, lo que le permite evaluar rápidamente las necesidades y el estado de un proyecto. 
 
-![](assets/project-metrics-full-screen-350x238.png)
+![Métricas del proyecto](assets/project-metrics-full-screen-350x238.png)
 
 En el área Métricas, puede ver el estado general de un proyecto, así como:
 
@@ -111,7 +111,7 @@ Para obtener más información sobre cómo ver estas tareas o problemas, consult
 
 Los indicadores clave de rendimiento (KPI) se muestran en la parte superior del área Métricas.
 
-![](assets/project-metrics-kpis-350x52.png)
+![Métricas del proyecto](assets/project-metrics-kpis-350x52.png)
 
 Estos KPI se dividen en las siguientes categorías:
 
@@ -124,7 +124,7 @@ Estos KPI se dividen en las siguientes categorías:
 >[!TIP]
 >
 >Para mostrar una lista de elementos de trabajo para un KPI específico, haga clic en ese KPI. En esa lista, puede hacer clic en un elemento de trabajo específico para ver más detalles en una pestaña nueva.\
->![](assets/completed-tasks-dialog-350x75.png)\
+>![Tareas completadas](assets/completed-tasks-dialog-350x75.png)\
 >Para obtener más información, consulte [Ver detalles de métricas](#view-metrics-details).
 
 ## Gráfico de barras de tareas o problemas
@@ -133,23 +133,23 @@ En el gráfico de barras que aparece debajo de los KPI del proyecto, puede ver e
 
 Cuando se selecciona el estado en este gráfico, puede ver todos los estados de las tareas o problemas de un proyecto. Cada estado se agrupa en una barra del gráfico. En este gráfico se muestran todos los estados del sistema, los predeterminados y los personalizados.
 
-![](assets/project-metrics-task-issue-by-status-350x120.png)
+![Problema de tarea por estado](assets/project-metrics-task-issue-by-status-350x120.png)
 
 Cuando se selecciona la prioridad en este gráfico, puede ver todas las prioridades de las tareas o problemas de un proyecto.
 
-![](assets/project-metrics-task-issue-by-priority-350x121.png)
+![Tareas y problemas por prioridad](assets/project-metrics-task-issue-by-priority-350x121.png)
 
 >[!TIP]
 >
 >Para mostrar una lista de elementos de trabajo con un estado o prioridad específicos, haga clic en una barra del gráfico. En esa lista, puede hacer clic en un elemento de trabajo específico para ver más detalles en una pestaña nueva.\
->![](assets/completed-tasks-dialog-350x75.png)\
+>![Cuadro de tareas terminadas](assets/completed-tasks-dialog-350x75.png)\
 >Para obtener más información, consulte [Ver detalles de métricas](#view-metrics-details).
 
 ## Gráfico de anillo
 
 El gráfico de anillo situado debajo de los KPI del proyecto le permite ver la relación de elementos de trabajo completados frente a elementos de trabajo incompletos en un proyecto.
 
-![](assets/tasks-issues-by-complete-status-350x250.png)
+![Tareas o problemas por estado completo](assets/tasks-issues-by-complete-status-350x250.png)
 
 En el menú desplegable situado encima del gráfico, puede seleccionar:
 
@@ -160,14 +160,14 @@ En el menú desplegable situado encima del gráfico, puede seleccionar:
 >[!TIP]
 >
 >Para mostrar una lista de los elementos de trabajo completados o incompletos, haga clic en esa sección del gráfico de anillo. En esa lista, puede hacer clic en un elemento de trabajo específico para ver más detalles en una pestaña nueva.\
->![](assets/completed-tasks-dialog-350x75.png)\
+>![Cuadro de tareas terminadas](assets/completed-tasks-dialog-350x75.png)\
 >Para obtener más información, consulte [Ver detalles de métricas](#view-metrics-details).
 
 ## Gráfico de barras de usuario asignado
 
 El gráfico de barras de usuarios asignados muestra el número de tareas asignadas a cada persona del proyecto. Este número varía en función de la categoría que seleccione en el menú desplegable.
 
-![](assets/tasks-issues-by-assignee-350x104.png)
+![Tareas y problemas por usuario asignado](assets/tasks-issues-by-assignee-350x104.png)
 
 Puede elegir ver las asignaciones de tareas de un proyecto en las siguientes categorías:
 
@@ -180,7 +180,7 @@ Puede elegir ver las asignaciones de tareas de un proyecto en las siguientes cat
 >[!TIP]
 >
 >Para mostrar una lista de los elementos de trabajo de la categoría seleccionada que están asignados a un usuario específico, haga clic en la barra situada junto al nombre del usuario en el gráfico. En esa lista, puede hacer clic en un elemento de trabajo específico para ver más detalles en una pestaña nueva.\
->![](assets/completed-tasks-dialog-350x75.png)\
+>![Cuadro de tareas terminadas](assets/completed-tasks-dialog-350x75.png)\
 >Para obtener más información, consulte [Ver detalles de métricas](#view-metrics-details).
 
 ## Ver detalles de métricas {#view-metrics-details}
@@ -190,9 +190,9 @@ Puede interactuar con los gráficos en el área Métricas para ver diferentes as
 1. Vaya al proyecto cuyas métricas desee ver.
 1. En el panel izquierdo, haga clic en **Métricas**.\
    Los gráficos del área Métricas muestran información sobre las tareas de forma predeterminada.\
-   ![](assets/metrics-section-350x298.png)
+   ![Sección de métricas](assets/metrics-section-350x298.png)
 
-1. (Condicional) Si aparece una flecha desplegable en un gráfico, haga clic en el icono **Flecha desplegable** ![](assets/dropdown-arrow.png) del gráfico y seleccione la opción que desee en el menú.\
+1. (Condicional) Si aparece una flecha desplegable en un gráfico, haga clic en el icono **flecha desplegable** ![flecha desplegable](assets/dropdown-arrow.png) del gráfico y seleccione la opción que desee en el menú.\
    Para obtener información sobre las opciones que aparecen en los menús de cada gráfico, consulte la sección correspondiente más arriba.
 
 1. (Opcional) Para examinar con más detalle las tareas o problemas de cualquier métrica de la página, haga lo siguiente:
@@ -201,7 +201,7 @@ Puede interactuar con los gráficos en el área Métricas para ver diferentes as
 
       Se muestra una lista de tareas o problemas.
 
-      ![](assets/completed-tasks-dialog-350x75.png)
+      ![Cuadro de tareas terminadas](assets/completed-tasks-dialog-350x75.png)
 
    1. Utilice las flechas de la parte inferior de la lista para localizar la tarea o el problema que desea ver.
 
@@ -209,13 +209,13 @@ Puede interactuar con los gráficos en el área Métricas para ver diferentes as
 
       Seleccione un número específico para ver las tareas o problemas de una página específica.
 
-      ![](assets/pagination-300x152.png)
+      ![Paginación](assets/pagination-300x152.png)
 
    1. Seleccione una tarea o problema para ver más detalles.
 
       La tarea o el problema se abre en una nueva pestaña.
 
-1. (Opcional) Para exportar el panel de métricas del proyecto a un archivo .png, haga clic en el icono **Exportar** ![](assets/export.png) y, a continuación, seleccione **Exportar como PNG** en el menú desplegable.
+1. (Opcional) Para exportar el panel de métricas del proyecto a un archivo .png, haga clic en el icono **Exportar** ![Icono de exportar](assets/export.png) y, a continuación, seleccione **Exportar como PNG** en el menú desplegable.
 
    >[!TIP]
    >

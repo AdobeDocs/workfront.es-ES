@@ -6,7 +6,7 @@ description: El administrador de Adobe Workfront puede otorgarle acceso para ver
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 0d0e13d9-b234-48d3-a818-5b6fb36a4688
-source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '504'
 ht-degree: 18%
@@ -41,7 +41,7 @@ Para obtener información acerca de lo que los usuarios de cada nivel de acceso 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>View or higher access to Projects, Tasks, Issues, and Financial&nbsp;Data</p> <p><b>NOTE</b>
+   <td> <p>View or higher access to Projects, Tasks, Issues, and Financial  Data</p> <p><b>NOTE</b>
    
    If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
@@ -60,7 +60,7 @@ Para obtener información acerca de lo que los usuarios de cada nivel de acceso 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
@@ -117,7 +117,7 @@ Para conceder permisos financieros a un objeto:
 
 ## Permiso financiero para todos los niveles de uso compartido
 
-En la tabla siguiente se muestran los permisos financieros que obtienen los usuarios cuando se les conceden permisos de Ver, Contribuir o Administrar en objetos: 
+En la tabla siguiente se muestran los permisos financieros que obtienen los usuarios cuando se les conceden permisos de Ver, Contribuir o Administrar en objetos:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -136,26 +136,26 @@ En la tabla siguiente se muestran los permisos financieros que obtienen los usua
   <tr> 
    <td>Administrar registros de facturación</td> 
    <td>✓</td> 
-   <td> <p> </p> </td> 
-   <td> </td> 
+   <td> <p>  </p> </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td>Administrar/ Ver tarifas de facturación y de costo de rol</td> 
    <td>✓</td> 
-   <td> </td> 
-   <td> </td> 
+   <td>  </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td>Administrar/ Ver tarifas de facturación y de costo de usuario</td> 
    <td>✓</td> 
-   <td> </td> 
-   <td> </td> 
+   <td>  </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td>Ver finanzas</td> 
    <td>✓</td> 
    <td>✓</td> 
-   <td> ✓</td> 
+   <td>  ✓</td> 
   </tr> 
   <tr> 
    <td>Ver información por coste en las herramientas de planificación de recursos</td> 
@@ -166,8 +166,8 @@ En la tabla siguiente se muestran los permisos financieros que obtienen los usua
   <tr> 
    <td>Recursos presupuestarios en las herramientas de planificación de recursos*</td> 
    <td>✓</td> 
-   <td> </td> 
-   <td> </td> 
+   <td>  </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td>Ver recursos en las herramientas de planificación de recursos*</td> 

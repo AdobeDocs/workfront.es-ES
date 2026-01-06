@@ -6,10 +6,10 @@ description: Puede ver la asignación de funciones para todos los roles asignado
 author: Alina, Lisa
 feature: Work Management
 exl-id: 76f70cb6-f707-4a73-bc81-e755e2d0a33d
-source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '476'
-ht-degree: 14%
+source-wordcount: '458'
+ht-degree: 16%
 
 ---
 
@@ -37,7 +37,7 @@ Puede ver la asignación de funciones para todos los roles asignados a elementos
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Adobe Workfront Ultimate</p>
    <p>Adobe Workflow Ultimate</p>
     </td> 
@@ -104,8 +104,9 @@ Debe tener lo siguiente:
 
 ## Ver horas planificadas del proyecto en el panel Asignación de funciones
 
-1. Haga clic en el icono **Menú principal** ![Menú principal](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront y, a continuación, haga clic en **Proyectos**.
-1. Haga clic en el nombre de un proyecto para acceder a él. Se abrirá la página Proyecto.
+{{step1-to-projects}}
+
+1. Haga clic en el nombre de un proyecto para acceder a él. Se abrirá la página Proyecto.
 1. Haga clic en una de las siguientes opciones del panel izquierdo:
 
    * **Tareas**

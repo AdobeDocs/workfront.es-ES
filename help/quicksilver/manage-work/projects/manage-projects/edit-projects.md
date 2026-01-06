@@ -7,10 +7,10 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
-source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '7642'
-ht-degree: 95%
+ht-degree: 94%
 
 ---
 
@@ -47,7 +47,7 @@ Lo ideal es editar un proyecto cuando se encuentra en estado de Planificación. 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
@@ -690,7 +690,7 @@ Para obtener información sobre cómo afecta esta configuración a la creación 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Cuando a una persona se le da acceso a este proyecto: indicar el acceso predeterminado para…</strong></td> 
-      <td><p>Seleccione las opciones de acceso que desea que tengan los usuarios en el proyecto, si el proyecto se comparte con ellos. Seleccione las opciones específicas para su acceso si se les designa como <strong>visualizadores</strong>, <strong>colaboradores</strong> o <strong>administradores</strong> al compartir el proyecto con ellos. </p><p>El acceso de <strong>eliminación</strong> en el nivel de permisos de <strong>administración</strong> determina si los usuarios pueden eliminar el proyecto en sí. Los usuarios con acceso para <strong>administrar</strong> pueden eliminar tareas y problemas dentro del proyecto, independientemente de si está seleccionada esta opción, si tienen permisos para <strong>administrar</strong> las tareas y los problemas. </p></td> 
+      <td><p>Seleccione las opciones de acceso que desea que tengan los usuarios en el proyecto, si el proyecto se comparte con ellos. Seleccione las opciones específicas para su acceso si se les designa como <strong>visualizadores</strong>, <strong>colaboradores</strong> o <strong>administradores</strong> al compartir el proyecto con ellos. </p><p>El acceso de <strong>Delete</strong> en el nivel de permisos de <strong>Manage</strong> determina si los usuarios pueden eliminar el proyecto en sí. Los usuarios con acceso para <strong>Administrar</strong> pueden eliminar tareas y problemas dentro del proyecto independientemente de si está seleccionada esta opción, si tienen permisos para <strong>Administrar</strong> las tareas y los problemas. </p></td> 
      </tr> 
     </tbody> 
    </table>
@@ -884,7 +884,7 @@ To edit projects in bulk:
      For information, continue with step 7 below.
 
      <!--   
-     <p>(NOTE:&nbsp;make sure this stays accurate)</p>   
+     <p>(NOTE: make sure this stays accurate)</p>   
      
 
    * **Tasks**

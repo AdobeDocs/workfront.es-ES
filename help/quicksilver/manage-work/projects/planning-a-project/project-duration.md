@@ -7,10 +7,10 @@ description: Adobe Workfront calcula la duración de un proyecto teniendo en cue
 author: Alina
 feature: Work Management
 exl-id: b558eaad-669b-4079-b61a-07df227edfa2
-source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '253'
-ht-degree: 98%
+ht-degree: 96%
 
 ---
 

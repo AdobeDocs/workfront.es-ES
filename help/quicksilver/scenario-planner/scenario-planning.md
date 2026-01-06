@@ -8,7 +8,7 @@ author: Alina
 feature: Workfront Scenario Planner
 recommendations: noDisplay, noCatalog
 exl-id: 3d942ea6-6860-4463-b610-8c120a109071
-source-git-commit: 4897f165a7316a52b968601b45f95f7045f63840
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '144'
 ht-degree: 89%
@@ -40,4 +40,4 @@ Esta sección contiene los siguientes artículos:
 * [Mostrar la asignación de funciones para proyectos e iniciativas en la lista de tareas](../scenario-planner/show-role-allocation-task-list-nwe.md)
 * [Mostrar la asignación de roles para proyectos e iniciativas en el [!UICONTROL Distribuidor de cargas de trabajo]](../scenario-planner/show-role-allocation-workload-balancer.md)
 
- 
+

@@ -6,9 +6,9 @@ description: Puede compartir una carpeta y su contenido desde el área Documento
 author: Alina
 feature: Get Started with Workfront
 exl-id: c0d318a8-b1cf-4522-b478-acf092687658
-source-git-commit: 4ae96f67b15838403ffce32317d871d6904d6d95
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '854'
+source-wordcount: '839'
 ht-degree: 99%
 
 ---
@@ -68,7 +68,7 @@ Puede compartir una carpeta y su contenido desde el área Documentos.
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
@@ -94,11 +94,11 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
 
 ## Compartir una carpeta
 
-1. Haga clic en el icono **Menú principal** ![](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront y luego haga clic en **Documentos**.
+{{step1-to-documents}}
 
-   O
+O
 
-   Con un objeto de Workfront abierto, haga clic en **Documentos** en el panel izquierdo.
+Con un objeto de Workfront abierto, haga clic en **Documentos** en el panel izquierdo.
 
 1. Seleccione la carpeta y, a continuación, haga clic en el icono Compartir ![](assets/share-icon.png) de la barra de herramientas.
 
@@ -139,7 +139,7 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
 ## Cómo acceden los usuarios al contenido de una carpeta compartida con ellos
 
 <!--
-<p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Delete these 2 paragraphs when the story &nbsp;<a href="https://hub.workfront.com/task/622f8d6f000897c9a4a11bdfd9b2cf34/overview">Handle email notification content when a folder is shared</a> goes to Preview:</p>
+<p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Delete these 2 paragraphs when the story   <a href="https://hub.workfront.com/task/622f8d6f000897c9a4a11bdfd9b2cf34/overview">Handle email notification content when a folder is shared</a> goes to Preview:</p>
 -->
 
 Actualmente, cuando comparte una carpeta, los destinatarios no ven la carpeta en su área de Documentos. Sin embargo, pueden acceder a sus documentos ejecutando un informe de documento.

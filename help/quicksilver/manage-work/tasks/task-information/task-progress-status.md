@@ -7,7 +7,7 @@ description: Adobe Workfront determina el estado de progreso de una tarea mirand
 author: Alina
 feature: Work Management
 exl-id: 38e5f89e-bdfa-433c-9371-3c3003ada3a3
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '777'
 ht-degree: 10%
@@ -39,7 +39,7 @@ Los siguientes criterios determinan el estado de progreso de una tarea:
  </thead> 
  <tbody> 
   <tr valign="top"> 
-   <td scope="col"> <p> </p> <p><strong>On Time</strong> </p> </td> 
+   <td scope="col"> <p> </p> <p><strong>On Time</strong> </p> </td> 
    <td scope="col"> <p>Una tarea se considera <strong>A tiempo</strong> cuando todas las fechas planificadas coinciden con las fechas proyectadas. Este estado de progreso también podría significar que el proyecto está adelantado respecto a la programación y que las fechas proyectadas podrían ser anteriores a las fechas planificadas.</p> <p>Para obtener más información sobre las fechas proyectadas, vea <a href="../../../manage-work/projects/planning-a-project/project-projected-completion-date.md" class="MCXref xref">Información general sobre la fecha proyectada de finalización de proyectos, tareas y problemas</a>.</p> <p>Para obtener más información acerca de la fecha planificada de finalización de la tarea, consulte los siguientes artículos:</p> 
     <ul> 
      <li> <p><a href="../../../manage-work/tasks/task-information/task-planned-start-date.md" class="MCXref xref">Información general sobre la fecha de inicio planificada de la tarea</a> </p> </li> 

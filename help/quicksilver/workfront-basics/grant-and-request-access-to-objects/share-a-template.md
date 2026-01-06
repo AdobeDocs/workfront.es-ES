@@ -6,10 +6,10 @@ description: Como administrador de Adobe Workfront, puede conceder a los usuario
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 19fb0de5-7db5-42a9-9f33-a4570acfeef8
-source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '584'
-ht-degree: 30%
+ht-degree: 27%
 
 ---
 
@@ -42,13 +42,13 @@ Los permisos son específicos de un elemento de Workfront y definen qué accione
       * Ver
       * Administrar
 
-   * Los proyectos futuros que se crean con la plantilla. Puede conceder a los proyectos creados a partir de una plantilla los mismos niveles de permisos que a un proyecto individual. 
+   * Los proyectos futuros que se crean con la plantilla. Puede conceder a los proyectos creados a partir de una plantilla los mismos niveles de permisos que a un proyecto individual.
 
      Para obtener información acerca de cómo compartir un proyecto a partir de una plantilla en el nivel de plantilla, vea [Compartir plantillas de proyecto](../../manage-work/projects/create-and-manage-templates/share-project-template.md).
 
 * Cuando comparte una plantilla o un proyecto creado a partir de la plantilla, los usuarios heredan los mismos permisos para todos los objetos secundarios asociados con la plantilla o el proyecto de forma predeterminada.
 
-  Para obtener más información sobre la jerarquía de objetos en Workfront, consulte [Comprender los objetos en Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+  Para obtener más información sobre la jerarquía de objetos en Workfront, consulte   [Comprender los objetos de Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
 * Cuando comparte una plantilla, todas las tareas y documentos de plantilla, así como los problemas en el futuro proyecto creado a partir de la plantilla, heredan los mismos permisos, a menos que se especifique lo contrario.
 
@@ -61,7 +61,7 @@ Los permisos son específicos de un elemento de Workfront y definen qué accione
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <h2>Share a template</h2>
-<p>(NOTE: drafted because this is also linked above: Share project templates >> which is an article in the Manage Work section>> Templates)&nbsp;</p>
+<p>(NOTE: drafted because this is also linked above: Share project templates >> which is an article in the Manage Work section>> Templates)  </p>
 <ol>
 <li value="1"> <p>Go to the template you want to share with other entities, click <strong>Template Actions</strong>, then <strong>Template Sharing</strong>.<br>Or</p> <p>Navigate to a list of templates, and select multiple templates from the list, then click <strong>Share Template</strong>.</p> <note type="note">
 If you select multiple templates, you cannot view who already has permissions to the individual templates.
@@ -90,9 +90,9 @@ You can share an object only with active users, teams,
 </note> </li>
 <li value="3">From the drop-down menu, select which level of permissions you want to grant.<br>Select from the following:<br>
 <ul>
-<li><strong>No access</strong>: You can specify which users will not have any access to the template.<br>This option is available only when bulk sharing projects from templates.&nbsp;</li>
+<li><strong>No access</strong>: You can specify which users will not have any access to the template.<br>This option is available only when bulk sharing projects from templates.  </li>
 <li><strong>View</strong>: Users with these permissions can view projects created from the template.</li>
-<li><strong>Contribute</strong>: Users with these permissions can contribute to projects created from the template&nbsp;</li>
+<li><strong>Contribute</strong>: Users with these permissions can contribute to projects created from the template  </li>
 <li><strong>Manage</strong>: Users with these permissions can manage or delete projects created from this template.<br><img src="assets/share-project-from-template-350x268.png" alt="share_project_from_template.png" style="width: 350;height: 268;"></li>
 </ul></li>
 <li value="4">(Optional) Click <strong>Advanced Settings</strong> to fine-tune your settings for each level of permissions. </li>
@@ -120,17 +120,17 @@ La siguiente tabla muestra qué permisos puede conceder a los usuarios cuando le
   <tr> 
    <td>Copiar</td> 
    <td>✓</td> 
-   <td> </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td>Eliminar</td> 
    <td>✓</td> 
-   <td> </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td>Editar detalles de plantilla</td> 
    <td>✓</td> 
-   <td> </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td>Ver plantilla</td> 
@@ -144,12 +144,12 @@ La siguiente tabla muestra qué permisos puede conceder a los usuarios cuando le
   </tr> 
   <tr> 
    <td>Compartir en todo el sistema</td> 
-   <td> </td> 
+   <td>  </td> 
    <td>✓</td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p>Agregar documentos</p> <p>Sugerencia: A veces, las personas agregan documentos a una plantilla de proyecto pensando que los están agregando a un proyecto. Puede evitar esto para los destinatarios deshabilitando esta configuración.</p> </td> 
-   <td> </td> 
+   <td>  </td> 
    <td>✓</td> 
   </tr> 
  </tbody> 

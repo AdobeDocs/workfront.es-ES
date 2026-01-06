@@ -5,10 +5,10 @@ description: Puede controlar qué niveles de acceso de su organización tienen a
 author: Becky
 feature: Get Started with Workfront
 exl-id: eec9f484-e29b-4256-b9ef-b45eb2e78eac
-source-git-commit: 184636b0d8df85e75502fc3650900244cfbd0e80
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '245'
-ht-degree: 55%
+source-wordcount: '212'
+ht-degree: 49%
 
 ---
 
@@ -48,7 +48,8 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 
 Para habilitar el asistente de IA para un nivel de acceso determinado:
 
-1. Haga clic en el icono **[!UICONTROL Main Menu]** ![Menú principal](/help/_includes/assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront o, si está disponible, haga clic en el icono **[!UICONTROL Main Menu]** ![Menú principal](/help/_includes/assets/main-menu-icon-left-nav.png) en la esquina superior izquierda y, a continuación, haga clic en **[!UICONTROL Setup]** ![Icono de Configuración](/help/_includes/assets/gear-icon-setup.png).
+{{step-1-to-setup}}
+
 1. Seleccione **Niveles de acceso** en el panel de navegación izquierdo.
 1. Seleccione el nivel de acceso deseado y luego haga clic en el icono **Editar** ![Editar icono](assets/edit-icon.png) situado encima de la lista.
 1. En el área **Establecer restricciones adicionales...** del cuadro **Editar nivel de acceso**, desmarque la casilla de verificación **Deshabilitar el Asistente de IA de Workfront**.

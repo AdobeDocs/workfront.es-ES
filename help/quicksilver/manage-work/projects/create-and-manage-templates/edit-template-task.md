@@ -7,10 +7,10 @@ description: Después de crear una plantilla, puede editar la información sobre
 author: Alina
 feature: Work Management
 exl-id: 2df8522e-7eee-4440-be0f-f7483c5acdb0
-source-git-commit: 8cd6c47acf8de313bab5fe7298125eb63cc10faf
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '4633'
-ht-degree: 75%
+ht-degree: 74%
 
 ---
 
@@ -239,7 +239,7 @@ Los nombres de los formularios personalizados solo se muestran si hay formulario
      </tr> 
      <tr> 
       <td role="rowheader"><span style="font-weight: bold;">Día de inicio</span><span style="font-weight: normal;"> (opcional y condicional)</span> </td> 
-      <td> <p> Puede especificar el día de inicio de una tarea de plantilla solo cuando la restricción de tarea sea una de las siguientes:</p> 
+      <td> <p> Puede especificar el Día de inicio de una tarea de plantilla sólo cuando la restricción de tarea sea una de las siguientes:</p> 
        <ul> 
         <li>Debe iniciarse el</li> 
         <li>No iniciar antes del</li> 
@@ -519,7 +519,7 @@ Después de abrir el cuadro **Editar tarea de plantilla** en la nueva experienci
      </tr> 
      <tr> 
       <td role="rowheader"><span style="font-weight: bold;">Día de inicio</span><span style="font-weight: normal;"> (opcional y condicional)</span> </td> 
-      <td> <p> Puede especificar el día de inicio de una tarea de plantilla solo cuando la restricción de tarea sea una de las siguientes:</p> 
+      <td> <p> Puede especificar el Día de inicio de una tarea de plantilla sólo cuando la restricción de tarea sea una de las siguientes:</p> 
        <ul> 
         <li>Debe iniciarse el</li> 
         <li>No iniciar antes del</li> 

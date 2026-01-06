@@ -7,10 +7,10 @@ description: El valor neto de un proyecto es el valor total esperado del proyect
 author: Lisa
 feature: Work Management
 exl-id: 44e3f211-c816-4ee1-aafc-c40fc8732f1a
-source-git-commit: b983a780198743a2b87b4b48cf4d6afdf1cee437
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '402'
-ht-degree: 95%
+ht-degree: 56%
 
 ---
 
@@ -31,26 +31,26 @@ Los campos siguientes pueden afectar al valor neto de un proyecto:
 * **Beneficio planificado**: Se trata de una entrada manual especificada por el propietario del proyecto al completar el área de **Información del proyecto** del caso empresarial.\
   Para obtener más información sobre el beneficio planificado de un proyecto, consulte la sección [Información del proyecto](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md#project-info) en el artículo [Información general sobre las áreas del caso comercial](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md).
 
-* **Coste presupuestado**: este es el coste total asociado con el proyecto que se estimó al iniciar el proyecto por primera vez.
+* **Costo presupuestado**: Este es el costo total asociado con el proyecto que se estimó al iniciar el proyecto por primera vez.
 
-  El **Coste presupuestado** usa el valor **Coste de mano de obra presupuestado** que se calcula en el área de Presupuestación de recursos del caso empresarial y tiene en cuenta las horas presupuestadas para sus funciones en el Planificador de recursos y la tasa de coste por hora de cada función.\
-  El coste presupuestado afecta el **valor neto** del proyecto. Para obtener más información sobre cómo se calcula el coste presupuestado, consulte [Calcular coste presupuestado](../../../manage-work/projects/project-finances/budgeted-cost.md).
+  El **Costo presupuestado** usa el valor **Costo de mano de obra presupuestado** que se calcula en el área de Presupuestación de recursos del caso empresarial y tiene en cuenta las horas presupuestadas para sus roles en el Planificador de recursos y la tasa de Costo por hora de cada rol.\
+  El costo presupuestado afecta el **valor neto** del proyecto. Para obtener más información sobre cómo se calcula el costo presupuestado, vea [Calcular costo presupuestado](../../../manage-work/projects/project-finances/budgeted-cost.md).
 
 * **Coste potencial de riesgos**: es el coste asociado con cualquier riesgo del proyecto, tal como se define en el caso empresarial o en la ficha Riesgos del proyecto.\
   Para obtener más información acerca del cálculo del coste potencial de riesgos de un proyecto, consulte el artículo [Calcular el coste potencial de riesgos](../../../manage-work/projects/project-finances/potential-risk-cost.md).
 
-   
+
 
 ## Busque el valor neto del proyecto
 
 Puede encontrar el valor neto de un proyecto en las siguientes áreas de Workfront:
 
-* En el área Resumen del caso empresarial del caso empresarial \
-  Para obtener más información acerca del área Resumen de caso empresarial, consulte la sección “Explicación del resumen de caso empresarial” en el artículo [Crear un caso empresarial para un proyecto](../../../manage-work/projects/define-a-business-case/create-business-case.md) [Crear un caso empresarial para un proyecto](../../../manage-work/projects/define-a-business-case/create-business-case.md).
+* En el área Resumen del caso empresarial del caso empresarial\
+  Para obtener más información acerca del área Resumen de caso empresarial, vea la sección &quot;Explicación del resumen de caso empresarial&quot; en el artículo [Crear un caso empresarial para un proyecto](../../../manage-work/projects/define-a-business-case/create-business-case.md) [Crear un caso empresarial para un proyecto](../../../manage-work/projects/define-a-business-case/create-business-case.md).
 
   ![Valor neto en caso empresarial](assets/net-value-on-business-case-summary-highlighted-350x444.png)
 
-* En el Optimizador de portafolios si el proyecto está asociado a un portafolios
+* En Portfolio Optimizer si el proyecto está asociado a un portafolio
 
   >[!TIP]
   >

@@ -6,10 +6,10 @@ description: En este artículo se describe cómo encontrar y administrar objetiv
 author: Alina
 feature: Workfront Goals
 exl-id: a729f334-6ca4-4cf5-a3ef-01a7effb7153
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '392'
-ht-degree: 19%
+source-wordcount: '363'
+ht-degree: 21%
 
 ---
 
@@ -37,7 +37,7 @@ En este artículo se describe cómo encontrar y administrar objetivos estratégi
  </col> 
  <tbody> 
   <tr>
-  <td> <p>paquete de Adobe Workfront</p> </td> 
+  <td> <p>Paquete de Adobe Workfront</p> </td> 
    <td> 
    <p>Adobe Workfront Ultimate</p>
    </td> 
@@ -128,19 +128,16 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 
 ## Acceder a Workfront Goals
 
-1. Haga clic en el icono **Menú principal** ![Icono del menú principal](assets/main-menu-icon.png) en la esquina superior derecha y, a continuación, haga clic en **Metas**.
+{{step1-to-goals}}
 
-   <!-- drafted for Shell release: Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-management/assets/three-line-main-menu-icon.png) in the upper-left corner)
-   -->
-
-   Se muestra la lista de metas.
+Se muestra la lista de metas.
 
 
-   >[!IMPORTANT]
-   >
-   >   Cuando tenga el acceso correcto a las metas de Workfront, podrá ver las metas que usted o cualquier otra persona haya creado en la lista de metas de forma predeterminada.
+>[!IMPORTANT]
+>
+>   Cuando tenga el acceso correcto a las metas de Workfront, podrá ver las metas que usted o cualquier otra persona haya creado en la lista de metas de forma predeterminada.
 
-   <!--   
+<!--   
    (NOTE: This might change when sharing is in place; right now, with sharing in place, they can VIEW all goals in the system but they cannot EDIT the ones others created!)
    -->
 
@@ -196,9 +193,12 @@ To access an individual goal in the Production environment:
 
 Para acceder a un objetivo individual:
 
-1. Haga clic en el icono **Menú principal** en la esquina superior derecha de Workfront y luego haga clic en **Metas** .
+{{step1-to-goals}}
+
 La Lista de objetivos se muestra de forma predeterminada.
-   ![Lista de metas](assets/goal-list-unshimmed.png)
+
+![Lista de metas](assets/goal-list-unshimmed.png)
+
 1. Haga clic en el nombre de una meta en la lista.
 Se muestra la página de la meta.
    ![Página de metas](assets/goal-page-unshimmed.png)

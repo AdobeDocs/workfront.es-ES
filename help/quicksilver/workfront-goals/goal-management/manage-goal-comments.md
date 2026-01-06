@@ -6,10 +6,10 @@ description: Puede añadir comentarios a todas las metas que puede ver en Adobe 
 author: Alina
 feature: Workfront Goals
 exl-id: 6cf2d2d2-5ba5-40f2-a803-01359c338541
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '238'
-ht-degree: 47%
+source-wordcount: '209'
+ht-degree: 55%
 
 ---
 
@@ -49,7 +49,7 @@ Puede agregar comentarios a todas las metas que puede ver en Adobe Workfront Goa
 </col>
 <tbody>
  <tr>
-  <td> <p>paquete de Adobe Workfront</p> </td> 
+  <td> <p>Paquete de Adobe Workfront</p> </td> 
    <td> 
    <p>Adobe Workfront Ultimate</p>
    </td> 
@@ -138,8 +138,10 @@ Puede agregar comentarios a todas las metas que puede ver en Adobe Workfront Goa
 
 Puede añadir comentarios a las metas en la sección Actualizaciones de la página de una meta.
 
-1. Haga clic en el icono **Menú principal** ![Icono del menú principal](assets/main-menu-icon.png) en la esquina superior derecha, o en el icono **Menú principal** ![Líneas del menú principal](assets/lines-main-menu.png) en la esquina superior izquierda, si está disponible, y luego haga clic en **Metas**.
+{{step1-to-goals}}
+
 Se abrirá la lista de metas.
+
 1. Busque la meta a la que desee añadir comentarios y, a continuación, haga clic en su nombre para abrir la página de la meta.
 1. Haga clic en **Actualizaciones** en el panel izquierdo. 
 

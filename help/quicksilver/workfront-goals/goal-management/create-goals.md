@@ -6,10 +6,10 @@ description: Tanto si es un CEO, un administrador o un colaborador individual, p
 author: Alina
 feature: Workfront Goals
 exl-id: 14bf48b6-eb0c-4b00-a1a4-0d070ccc1392
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '651'
-ht-degree: 86%
+source-wordcount: '635'
+ht-degree: 88%
 
 ---
 
@@ -36,7 +36,7 @@ Tanto si es un CEO, un administrador o un colaborador individual, puede crear me
 </col>
 <tbody>
  <tr>
-  <td> <p>paquete de Adobe Workfront</p> </td> 
+  <td> <p>Paquete de Adobe Workfront</p> </td> 
    <td> 
    <p>Adobe Workfront Ultimate</p>
    </td> 
@@ -219,12 +219,10 @@ Creating goals differs depending on what environment you use.
 
 -->
 
-1. Haga clic en el icono **Menú principal** ![Icono del menú principal](assets/main-menu-icon.png) en la esquina superior derecha y, a continuación, haga clic en **Metas**.
+{{step1-to-goals}}
 
-   <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-management/assets/three-line-main-menu-icon.png) in the upper-left corner)
-   -->
+Se muestra la lista de metas.
 
-   Se muestra la lista de metas.
 1. Haga clic en **Nueva meta**.
 
    Se muestra el cuadro Nueva meta.

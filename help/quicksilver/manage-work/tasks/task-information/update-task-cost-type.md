@@ -6,10 +6,10 @@ description: El coste planificado y real de las tareas y sus costes de mano de o
 author: Alina
 feature: Work Management
 exl-id: bc30ecab-7347-4dff-8e06-e8ea3f50d5b3
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '216'
-ht-degree: 94%
+ht-degree: 91%
 
 ---
 
@@ -19,7 +19,7 @@ El coste planificado y real de las tareas y sus costes de mano de obra vienen de
 
 Puede configurar el Tipo de coste para tareas individuales dentro del proyecto. Cada tipo de coste afecta a los valores de Coste planificado y Coste real.
 
-Para obtener información sobre el seguimiento de costes en Adobe Workfront, consulte [Seguimiento de costes](../../../manage-work/projects/project-finances/track-costs.md).
+Para obtener información sobre el seguimiento de costos en Adobe Workfront, vea [Seguimiento de costos](../../../manage-work/projects/project-finances/track-costs.md).
 
 ## Requisitos de acceso
 
@@ -30,7 +30,7 @@ Para obtener información sobre el seguimiento de costes en Adobe Workfront, con
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
@@ -69,7 +69,7 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Projects, Tasks, and Financial&nbsp;Data</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>Edit access to Projects, Tasks, and Financial Data</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 

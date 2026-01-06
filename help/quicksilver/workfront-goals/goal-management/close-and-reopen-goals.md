@@ -6,9 +6,9 @@ description: Puede cerrar un objetivo cuando desee indicar que lo ha completado 
 author: Alina
 feature: Workfront Goals
 exl-id: bbb549c1-aea6-4f5e-8a6b-01fc04cf06ef
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '886'
+source-wordcount: '860'
 ht-degree: 18%
 
 ---
@@ -41,7 +41,7 @@ Puede volver a abrir los objetivos que se han cerrado cuando vuelvan a ser relev
 </col>
 <tbody>
  <tr>
-  <td> <p>paquete de Adobe Workfront</p> </td> 
+  <td> <p>Paquete de Adobe Workfront</p> </td> 
    <td> 
    <p>Adobe Workfront Ultimate</p>
    </td> 
@@ -189,12 +189,9 @@ Closing goals differs depending on what environment you use.
 1. (Optional) Modify your filters again to display only closed goals. The goals you closed display on the screen.
 -->
 
-1. Haga clic en el icono **Menú principal** ![Icono del menú principal](assets/main-menu-icon.png) > **Metas** en la esquina superior derecha.
+{{step1-to-goals}}
 
-   Se abre la Lista de metas.
-
-   <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-management/assets/three-line-main-menu-icon.png) in the upper-left corner)
-   -->
+Se abre la Lista de metas.
 
 1. (Opcional) Modifique los filtros para mostrar solo las metas que están activas.
 
@@ -255,12 +252,9 @@ Reopening goals differs depending on what environment you use.
 
 -->
 
-1. Haga clic en el icono **Menú principal** ![Icono del menú principal](assets/main-menu-icon.png)> **Metas** en la esquina superior derecha.
+{{step1-to-goals}}
 
-   Se abre la Lista de metas.
-
-   <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-management/assets/three-line-main-menu-icon.png) in the upper-left corner)
-   -->
+Se abre la Lista de metas.
 
 1. (Opcional) Modifique los filtros para mostrar solo las metas cerradas.
 

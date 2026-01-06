@@ -6,10 +6,10 @@ description: Las restricciones de tarea determinan cuándo debe comenzar y final
 author: Alina
 feature: Work Management
 exl-id: 54b54892-f8b3-4704-8221-03bbb9f07917
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '298'
-ht-degree: 96%
+ht-degree: 97%
 
 ---
 
@@ -26,7 +26,7 @@ Las restricciones de tarea determinan cuándo debe comenzar y finalizar una tare
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
@@ -76,7 +76,7 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 
 ## Actualizar la restricción de tarea de una tarea
 
-1. Haga clic en **Menú principal** > **Proyectos** y, a continuación, haga clic en un proyecto para acceder a él.
+1. Haga clic en **Menú principal** > **Proyectos** y, a continuación, haga clic en un proyecto para acceder él.
 1. Haga clic en la sección **Tareas** en el panel izquierdo.
 1. Haga clic en **Detalles de la tarea** en el panel izquierdo y, a continuación, en el área Información general, haga clic en **Restricción de tarea**.
 
@@ -99,6 +99,6 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 
    {style="table-layout:auto"}
 
-1. Haga clic en **Guardar** **cambios**.
+1. Haga clic en **Guardar** **cambios**.
 
- 
+

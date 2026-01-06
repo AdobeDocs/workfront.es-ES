@@ -6,10 +6,10 @@ description: Puede priorizar los proyectos en el optimizador de portafolios para
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 54e33746-5995-49de-8e21-bf973f0694a6
-source-git-commit: d7600a55b3dffb242957234de9d85a0deb1ad2e3
+source-git-commit: 714e6e09f1429f0382c36d17d3f2aca95edcfbc6
 workflow-type: tm+mt
-source-wordcount: '508'
-ht-degree: 91%
+source-wordcount: '491'
+ht-degree: 93%
 
 ---
 
@@ -94,9 +94,8 @@ Tenga en cuenta lo siguiente al usar [!UICONTROL Optimizador de portafolios]:
 
 ## Cambiar la prioridad de los proyectos en [!UICONTROL Optimizador de portafolios]
 
-1. Haga clic en el icono **[!UICONTROL Menú principal]** ![Icono del menú principal](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront.
+{{step1-to-portfolios}}
 
-1. Haga clic en **[!UICONTROL Portafolio]**.
 1. (Opcional) Seleccione el filtro correcto en el menú desplegable **[!UICONTROL Filtro]** para ver la lista correcta de portafolios.
 1. Haga clic en el nombre de un portafolio para abrirla.
 1. Haga clic en **[!UICONTROL Optimización de carteras]** en el panel de navegación izquierdo.
