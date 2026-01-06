@@ -1,35 +1,37 @@
 ---
 product-area: requests
 navigation-topic: create-requests
-title: Localizar solicitudes enviadas
-description: Obtenga información sobre las áreas de Adobe Workfront en las que puede localizar solicitudes que ha enviado o que otra persona ha enviado, o solicitudes que nunca ha enviado y que se han guardado como borradores.
+title: Ver solicitudes enviadas
+description: Obtenga información sobre las áreas de Adobe Workfront en las que puede ver solicitudes que usted u otra persona ha enviado o solicitudes que nunca ha enviado y que se han guardado como borradores.
 author: Becky
 feature: Requests
 topic: Collaboration
 role: User
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
-source-git-commit: 9ea9f5741794641409d47ada006e3b9b78025cbd
+source-git-commit: b0060470156728a7ad98838378a7d963e2b5fd01
 workflow-type: tm+mt
-source-wordcount: '1309'
-ht-degree: 60%
+source-wordcount: '1406'
+ht-degree: 53%
 
 ---
 
-# Localizar solicitudes enviadas
+# Vista de solicitudes enviadas
 
 <span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa de espacio aislado.</span>
 
-Puede localizar los siguientes tipos de solicitudes que ha enviado u otra persona ha enviado, o solicitudes que ha iniciado pero que nunca ha terminado de enviar. Puede localizar estas solicitudes en las siguientes áreas de Adobe Workfront:
+Puede ver las solicitudes que usted u otra persona ha enviado, o las solicitudes que ha iniciado pero que nunca ha terminado de enviar. Puede localizar estas solicitudes en las siguientes áreas de Adobe Workfront:
 
-* La pestaña **Workfront** del área de Solicitudes en Workfront: Busque las solicitudes enviadas a las colas de solicitudes de Workfront en las siguientes secciones:
+* La pestaña **Workfront** del área de Solicitudes en Workfront: Ver solicitudes enviadas a colas de solicitudes de Workfront en las siguientes secciones:
    * **Sección Enviado**: todas las solicitudes que ha enviado u otra persona ha enviado, a las que, como mínimo, tenga acceso de visualización.
    * **Sección Borrador**: todas las solicitudes que ha iniciado, pero que nunca ha terminado ni enviado. Para obtener más información sobre las solicitudes de borrador, consulte [Crear y enviar solicitudes de Adobe Workfront](../../../manage-work/requests/create-requests/create-submit-requests.md).
 
-  >[!TIP]
+  >[!NOTE]
   >
-  >Solo puede ver sus propias solicitudes de borrador.
+  >* Solo puede ver sus propias solicitudes de borrador.
+  >* <span class="preview">En la nueva experiencia de solicitud, las solicitudes enviadas y los borradores se encuentran en la misma lista. </span>
+  >* <span class="preview">Los borradores creados en la experiencia heredada no aparecen en la nueva experiencia de solicitud.</span>
 
-* La pestaña **Planning** del área de solicitudes en Workfront: busque las solicitudes enviadas a los formularios de solicitud de Workfront Planning. Su organización debe adquirir un paquete de Workfront Planning. Para obtener más información, consulte los siguientes artículos:
+* La pestaña **Planning** del área de solicitudes en Workfront: vea las solicitudes enviadas a los formularios de solicitud de Workfront Planning. Su organización debe adquirir un paquete de Workfront Planning. Para obtener más información, consulte los siguientes artículos:
 
    * [Creación y administración de un formulario de solicitud en Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md)
    * [Envío de solicitudes de Adobe Workfront Planning para crear registros](/help/quicksilver/planning/requests/submit-requests.md)
@@ -72,18 +74,18 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 
 +++
 
-## Busque las solicitudes enviadas en el área Solicitudes
+## Ver las solicitudes enviadas en el área Solicitudes
 
-La ubicación de las solicitudes enviadas difiere según si utiliza la experiencia de solicitud nueva o la heredada.
+La visualización de las solicitudes enviadas difiere en función de si utiliza la experiencia de solicitud nueva o heredada.
 
-* [Localizar las solicitudes enviadas en la nueva experiencia de solicitud](#locate-submitted-requests-in-the-new-requesting-experience)
-* [Busque las solicitudes enviadas en la experiencia de solicitud heredada](#locate-submitted-requests-in-the-legacy-requesting-experience)
+* [Ver las solicitudes enviadas en la nueva experiencia de solicitud](#view-submitted-requests-in-the-new-requesting-experience)
+* [Ver las solicitudes enviadas en la experiencia de solicitud heredada](#view-submitted-requests-in-the-legacy-requesting-experience)
 
-### Localizar las solicitudes enviadas en la nueva experiencia de solicitud
+### Ver las solicitudes enviadas en la nueva experiencia de solicitud
 
-Puede localizar las solicitudes enviadas en el área de solicitudes, <span class="preview">que incluye vínculos a objetos creados por esas solicitudes.</span>
+Puede ver las solicitudes enviadas en el área Solicitudes, <span class="preview">que incluye vínculos a objetos creados por esas solicitudes.</span>
 
-Para localizar solicitudes que usted u otros usuarios hayan enviado en la nueva experiencia de solicitud:
+Para ver las solicitudes que usted u otros usuarios han enviado en la nueva experiencia de solicitud:
 
 {{step1-to-requests}}
 
@@ -92,7 +94,7 @@ Para localizar solicitudes que usted u otros usuarios hayan enviado en la nueva 
    Aparecerá la lista Solicitudes.
 
 1. (Opcional) Para buscar una solicitud, empiece a escribir en la barra de búsqueda situada en la parte superior derecha de la lista. Los resultados de la búsqueda aparecen a medida que escribe.
-1. (Opcional) Haga clic en **Filtros** y empiece a agregar condiciones para las solicitudes que desee localizar.
+1. (Opcional) Haga clic en **Filtros** y empiece a agregar condiciones para las solicitudes que desee mostrar.
 
    Puede filtrar por los siguientes campos:
 
@@ -105,18 +107,26 @@ Para localizar solicitudes que usted u otros usuarios hayan enviado en la nueva 
 
    Puede tener varios filtros unidos por **And** o **Or**.
 La lista de solicitudes se filtra automáticamente a medida que se añaden las condiciones de filtro.
-1. (Opcional) Utilice las vistas para centrarse en las solicitudes que desee localizar.
+1. (Opcional) Utilice las vistas para centrarse en las solicitudes que desea mostrar.
 
    Para obtener instrucciones, consulte [Crear o editar vistas en el área de solicitudes](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md).
+1. (Opcional) Compruebe el estado de una solicitud en la columna Estado. Los siguientes estados están disponibles en la nueva experiencia solicitante:
+
+   * Borrador: esta solicitud aún no se ha enviado.
+   * Pendiente de revisión
+   * En revisión
+   * Rechazado
+   * En curso
+   * Completar
 
 >[!NOTE]
 >
 >* Si tiene Workfront Planning, las solicitudes de Workfront y Planning aparecen en la misma lista. Las solicitudes de Workfront muestran el valor `Issue` en la columna Tipo de objeto.
 >* La lista Solicitudes aparece con 50 solicitudes mostradas. Para ver más solicitudes, desplácese hasta la parte inferior de la lista.
 
-### Busque las solicitudes enviadas en la experiencia de solicitud heredada
+### Ver las solicitudes enviadas en la experiencia de solicitud heredada
 
-Para localizar solicitudes que usted u otros usuarios hayan enviado en la experiencia de solicitud heredada:
+Para ver las solicitudes que usted u otros usuarios han enviado en la experiencia de solicitud heredada:
 
 {{step1-to-requests}}
 
@@ -253,5 +263,12 @@ Para localizar solicitudes que usted u otros usuarios hayan enviado en la experi
    ![](assets/workfront-planning-tab-submitted-section-in-requests-area.png)
 
    Para obtener más información, consulte [Enviar solicitudes de Adobe Workfront Planning para crear registros](/help/quicksilver/planning/requests/submit-requests.md).
+
+
+1. (Opcional) Compruebe el estado de una solicitud en la columna Estado. Los siguientes estados están disponibles en la nueva experiencia solicitante:
+
+   * Borrador: esta solicitud aún no se ha enviado.
+   * En curso
+   * Completar
 
 
