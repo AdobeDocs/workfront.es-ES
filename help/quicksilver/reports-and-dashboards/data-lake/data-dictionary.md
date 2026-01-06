@@ -7,9 +7,9 @@ description: Esta página contiene información sobre la estructura y el conteni
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 57985404-554e-4289-b871-b02d3427aa5c
-source-git-commit: 815bee06ce413005e362d2e38068d591696cad5b
+source-git-commit: c669086f5954f9e2cf850887f4100e53c0c3e716
 workflow-type: tm+mt
-source-wordcount: '8878'
+source-wordcount: '8904'
 ht-degree: 9%
 
 ---
@@ -40,16 +40,59 @@ Existen varios tipos de vistas que puede utilizar en Data Connect para ver los d
 
 <!-- Custom view -->
 
-## Diagrama de relación de entidad
+## Diagramas de relación de entidad
 
-Los objetos de Workfront (y, por lo tanto, de su repositorio de datos de Data Connect) se definen no solo por sus valores individuales, sino también por sus relaciones con otros objetos. El diagrama de relación de entidades que aparece a continuación proporciona una asignación de alto nivel de las relaciones de objeto en Data Connect. El diagrama se puede ver y descargar mediante el siguiente vínculo:
+Los objetos de Workfront (y, por lo tanto, de su repositorio de datos de Data Connect) se definen no solo por sus valores individuales, sino también por sus relaciones con otros objetos.
 
-[Diagrama de relación de entidad de Data Connect](/help/quicksilver/reports-and-dashboards/data-lake/assets/Workfront-data-lake_entity-relationship-diagram.pdf)
+Los siguientes diagramas de relación de entidades (ERD) proporcionan una asignación de alto nivel de relaciones de objetos en Data Connect para objetos principales de Workfront.
 
 >[!IMPORTANT]
 >
->El diagrama de relación de entidades (ERD) proporcionado está incompleto a propósito, ya que un ERD completo sería ilegible debido al alto número de relaciones dentro de la aplicación.<br>
->Este diagrama proporciona un ejemplo de cómo se pueden utilizar las relaciones documentadas en la tabla de Project de la tabla de terminología [tabla de terminología](#terminology-table) que se muestra a continuación para unir datos de la vista de datos de Project a objetos adyacentes. Se espera que no sea necesario un ERD completo una vez que se comprenda este patrón para las relaciones de objeto del proyecto
+>Los diagramas se centran alrededor de objetos únicos y no representan un diagrama de relación de entidades completo para toda la aplicación de Workfront. <br>
+>Estos diagramas están pensados para proporcionar ejemplos de cómo se pueden utilizar las relaciones para unir datos a objetos adyacentes.
+
+### Ejemplo de diagramas de relación de entidades
+
++++ Expanda para ver los diagramas de ejemplo
+
+>[!TIP]
+>
+>Para ver un diagrama con más detalle, haga clic con el botón derecho en la imagen y seleccione **Abrir imagen en una pestaña nueva**.
+
+
+### Asignaciones
+
+![Diagrama de relación de entidad de asignaciones](assets/Assignment-centered-ERD.png)
+
+
+### Documentos y aprobaciones de documentos
+
+![Diagrama de relación de entidad de documentos y aprobación de documentos](assets/Document-and-Document-Approvals-centered-ERD.png)
+
+### Horas y hojas de horas
+
+![Diagrama de relación de entidad de horas y hojas de horas](assets/Hours-and-Timesheet-centered-ERD.png)
+
+
+### Problemas
+
+![Problemas en el diagrama de relación de entidad](assets/Issue-centered-ERD.png)
+
+### Proyectos
+
+![Diagrama de relación de entidad de proyectos](assets/Project-centered-ERD.png)
+
+
+### Tareas
+
+![Diagrama de relación de entidad de tareas](assets/Task-centered-ERD.png)
+
+
+### Usuarios
+
+![Diagrama de relación de entidad de usuarios](assets/User-centered-ERD.png)
+
++++
 
 ## Tipos de fecha
 
@@ -1665,15 +1708,15 @@ La siguiente tabla correlaciona los nombres de objeto en Workfront (así como su
 >
 >El tipo de registro se identifica mediante la propiedad `enumClass`. Los siguientes son los tipos esperados: <br>
 ><ul><li>CONDITION_OPTASK</li>
->&gt;<li>CONDITION_PROJ</li>
->&gt;<li>CONDITION_TASK</li>
->&gt;<li>PRIORITY_OPTASK</li>
->&gt;<li>PRIORITY_PROJ</li>
->&gt;<li>PRIORITY_TASK</li>
->&gt;<li>SEVERITY_OPTASK</li>
->&gt;<li>STATUS_OPTASK</li>
->&gt;<li>STATUS_PROJ</li>
->&gt;<li>STATUS_TASK</li></ul>
+&gt;<li>CONDITION_PROJ</li>
+&gt;<li>CONDITION_TASK</li>
+&gt;<li>PRIORITY_OPTASK</li>
+&gt;<li>PRIORITY_PROJ</li>
+&gt;<li>PRIORITY_TASK</li>
+&gt;<li>SEVERITY_OPTASK</li>
+&gt;<li>STATUS_OPTASK</li>
+&gt;<li>STATUS_PROJ</li>
+&gt;<li>STATUS_TASK</li></ul>
 
 
 ### Documento
@@ -5572,7 +5615,7 @@ Self</td>
     </thead>
     <tbody>
         <tr>
-             <td>Identificador</td>
+             <td>ID</td>
              <td>PK</td>
              <td>-</td>
              <td>-</td>
@@ -6488,7 +6531,7 @@ Disponibilidad limitada del cliente
     </thead>
     <tbody>
         <tr>
-             <td>Identificador</td>
+             <td>ID</td>
              <td>PK</td>
              <td>-</td>
              <td>-</td>
