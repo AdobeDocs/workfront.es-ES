@@ -4,9 +4,9 @@ description: Mejoras en las solicitudes del primer trimestre de 2026
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 66dd7354f3723e266b77cb2f367b09c022e8c95e
+source-git-commit: 319c45bc6617269f358af1e7b5f6132a8694710b
 workflow-type: tm+mt
-source-wordcount: '918'
+source-wordcount: '904'
 ht-degree: 4%
 
 ---
@@ -125,8 +125,6 @@ Para obtener más información sobre el rellenado de formularios con tecnología
 Para facilitar la creación y el envío de solicitudes, se ha añadido la capacidad de guardar borradores a la nueva experiencia de solicitud. Ahora, cuando empiece a rellenar una solicitud y la cierre, esta se guarda en estado de borrador y se puede encontrar en el formulario de solicitud utilizado para crear el borrador. A continuación, puede volver a abrir, actualizar y enviar el borrador según le convenga.
 
 Anteriormente, esta función no estaba disponible en la nueva experiencia de solicitud.
-
-Los borradores creados en la experiencia solicitante heredada están disponibles en la nueva experiencia solicitante.
 
 Para obtener más información sobre los borradores de solicitudes, consulte [Crear solicitudes a partir de borradores](/help/quicksilver/manage-work/requests/create-requests/create-requests-from-drafts.md).
 

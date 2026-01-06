@@ -6,9 +6,9 @@ description: Además de utilizar los borradores disponibles que Workfront le sug
 author: Becky
 feature: Work Management
 exl-id: 664004e7-04c8-4a1f-b682-7b82d349643d
-source-git-commit: bc7312a10f1851b9f85b2c1ceac5b01dba078f32
+source-git-commit: 319c45bc6617269f358af1e7b5f6132a8694710b
 workflow-type: tm+mt
-source-wordcount: '863'
+source-wordcount: '836'
 ht-degree: 17%
 
 ---
@@ -82,6 +82,10 @@ El procedimiento para crear solicitudes a partir de borradores difiere entre la 
    * En la lista de solicitudes del widget Mis solicitudes, en Inicio
    * En el cuadro de diálogo Nueva solicitud (solo incluye borradores de solicitudes creadas con el formulario seleccionado)
 
+   >[!NOTE]
+   >
+   >Los borradores creados en la experiencia solicitante heredada no están disponibles en la nueva experiencia solicitante.
+
 1. Actualice la información de la solicitud tal como se describe en [Crear y enviar solicitudes de Adobe Workfront](../../../manage-work/requests/create-requests/create-submit-requests.md).
 1. (Opcional y condicional) En cualquier momento mientras escribe la solicitud, haga clic en **Descartar** borrador si desea eliminarlo. Esto elimina el borrador.
 
@@ -112,7 +116,7 @@ El procedimiento para crear solicitudes a partir de borradores difiere entre la 
 1. Revise la información sobre cada borrador en las siguientes columnas de la lista Borradores:
 
    | Asunto | Este es el nombre que le dio a su solicitud cuando empezó a crearla. |
-   |---|---|
+   | --- | --- |
    | Ruta | El nombre de la cola de solicitudes, los grupos de temas y los temas de colas donde originalmente planeó enviar la solicitud. |
    | Fecha de entrada | La fecha en la que inició la creación de la solicitud. |
    | Fecha de última actualización | La última de su última actualización. Si no lo ha actualizado desde que inició la solicitud por primera vez, la fecha de entrada y la fecha de última actualización deben ser las mismas. |
@@ -141,9 +145,4 @@ El procedimiento para crear solicitudes a partir de borradores difiere entre la 
      ![](assets/nwe-submit-close-discard-draft-buttons-on-new-request-350x340.png)
 
      Al enviar la solicitud, el borrador se eliminará y no se podrá restaurar.
-
-   >[!NOTE]
-   >
-   >En la nueva experiencia solicitante, los borradores están en la misma lista que las solicitudes enviadas.
-   >Para obtener más información sobre cómo crear solicitudes en la nueva experiencia, consulte [Crear solicitudes y generar borradores en la aplicación web de Workfront](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md#create-requests-and-generate-drafts-in-the-workfront-web-app) en el artículo Crear y enviar solicitudes.
 
