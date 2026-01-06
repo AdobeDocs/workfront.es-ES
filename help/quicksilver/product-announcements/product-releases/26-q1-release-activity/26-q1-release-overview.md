@@ -4,9 +4,9 @@ description: En esta página se ofrece información sobre la funcionalidad inclu
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: bb07096ce69e7d52c9332b6f9d230440a03c5f59
+source-git-commit: 6b6500b0db40a959d87d97c89d85e3564445cca4
 workflow-type: tm+mt
-source-wordcount: '3014'
+source-wordcount: '3013'
 ht-degree: 13%
 
 ---
@@ -118,7 +118,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
     </tr>
        <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-documents-approvals.md" class="MCXref xref" xrefformat="{para}">Elija un proyecto de Workfront al enviar una revisión en Creative Cloud Express<p>[!BADGE Off schedule]{type=Neutral}</p> </a>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-documents-approvals.md" class="MCXref xref" xrefformat="{para}">Elija un proyecto de Workfront al enviar una revisión en Adobe Express<p>[!BADGE Off schedule]{type=Neutral}</p> </a>
             <p>Puede elegir un proyecto de Workfront al que enviar una prueba. Esto ayuda a mantener todos los recursos y pruebas relacionados organizados dentro del mismo proyecto.</p>
         </td>
         <td>martes, 15 de diciembre de 2025</td>
@@ -594,7 +594,7 @@ Para ofrecer integraciones más estables y escalables, estamos adoptando un enfo
 * Workfront para Salesforce.
 
 Recomendamos utilizar la automatización e integración de Workfront para las necesidades de integración de su organización con Google Workspace.
-Para obtener una descripción general de la automatización e integración de Workfront, consulte [Información general de Adobe Workfront Fusion](https://experienceleague.adobe.com/es/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+Para obtener una descripción general de la automatización e integración de Workfront, consulte [Información general de Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 
 
 ### Actualizaciones de mantenimiento de Workfront 
