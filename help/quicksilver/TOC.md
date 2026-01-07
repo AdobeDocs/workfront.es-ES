@@ -3,9 +3,9 @@ user-guide-title: Guía de Workfront
 user-guide-description: Utilice los siguientes documentos, tutoriales y recursos adicionales para aprender a implementar y utilizar Adobe Workfront de forma eficaz en su organización.
 role: User
 feature-set: Workfront
-source-git-commit: 8cbaa087be44ffd8142bd864e3fb47ffef992372
+source-git-commit: 53596271a838733b858c0b14a4e22b07a7cd20f6
 workflow-type: tm+mt
-source-wordcount: '13645'
+source-wordcount: '13638'
 ht-degree: 57%
 
 ---
@@ -38,7 +38,7 @@ ht-degree: 57%
          * [Mejoras de proyecto del cuarto trimestre de 2025](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-project.md)
          * [Mejoras en las solicitudes del cuarto trimestre de 2025](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-requests.md)
          * [Mejoras en la gestión de recursos del cuarto trimestre de 2025](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-resource-mgmt.md)
-         * [Otras mejoras del cuarto trimestre de 2025 &#x200B;](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-other.md)
+         * [Otras mejoras del cuarto trimestre de 2025 ](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-other.md)
          * [Actualizaciones de aspecto durante el periodo de tiempo de la versión del cuarto trimestre de 2025](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-look-and-feel-updates.md)
       * Versión del tercer trimestre de 2025 {#release-25-q3}
          * [Resumen de la versión del tercer trimestre de 2025](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-release-overview.md)
@@ -1437,7 +1437,6 @@ ht-degree: 57%
          * [Modificar asignaciones de usuarios para varios problemas en una lista](manage-work/issues/manage-issues/edit-assignments-for-multiple-issues.md)
          * [Actualizar automáticamente los estados de los problemas de Esperando comentarios a En curso](manage-work/issues/manage-issues/turn-issue-status-from-awf-to-inp-automatically.md)
    * El gráfico Gantt {#the-gantt-chart}
-      * El gráfico Gantt {#the-gantt-chart}
       * [El gráfico Gantt](manage-work/gantt-chart/the-gantt-chart.md)
       * Información general sobre el gráfico Gantt {#gantt-chart-overview}
          * [Información general sobre el gráfico Gantt](manage-work/gantt-chart/use-the-gantt-chart/gantt-chart-overview.md)
@@ -1780,7 +1779,7 @@ ht-degree: 57%
    * [Administrar recursos: índice de artículos](resource-mgmt/manage-resources.md)
    * Administración de recursos {#resource-management}
       * [Administración de recursos: índice de artículos](resource-mgmt/resource-mgmt-overview/resource-management-overview.md)
-      * [Introducción a la Administración de recursos &#x200B;](resource-mgmt/resource-mgmt-overview/get-started-resource-management.md)
+      * [Introducción a la Administración de recursos ](resource-mgmt/resource-mgmt-overview/get-started-resource-management.md)
    * Planificación de recursos en Adobe Workfront {#resource-planning-in-adobe-workfront}
       * [Planificación de recursos: índice de artículos](resource-mgmt/resource-planning/resource-planning-overview.md)
       * Conjuntos de recursos {#resource-pools}
@@ -2192,7 +2191,6 @@ ht-degree: 57%
    * [Integraciones de Adobe Workfront](workfront-integrations-and-apps/workfront-integrations.md)
    * [Información general sobre las integraciones integradas de Adobe Workfront](workfront-integrations-and-apps/built-in-integrations-non-admin.md)
    * [Métodos de integración de Adobe Workfront](workfront-integrations-and-apps/built-in-vs-api-vs-fusion.md)
-   * Integraciones de revisión y aprobación {#review-approval-integrations}
    * Adobe Workfront para Creative Cloud {#workfront-for-creative-cloud}
       * [Adobe Workfront para Creative Cloud](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-cc.md)
       * Instalación del complemento de Adobe Workfront para aplicaciones de Creative Cloud {#install-wf-cc}

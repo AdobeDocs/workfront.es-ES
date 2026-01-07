@@ -8,7 +8,7 @@ feature: Work Management, Requests
 topic: Collaboration
 role: User, Admin
 exl-id: 385420aa-0962-4b67-9d0d-b153dcf302cf
-source-git-commit: 9cdf3d78e1d19f3d581f8d527919a608c5cc0ddc
+source-git-commit: 53596271a838733b858c0b14a4e22b07a7cd20f6
 workflow-type: tm+mt
 source-wordcount: '2843'
 ht-degree: 65%
@@ -59,7 +59,7 @@ Para obtener información sobre cómo configurar un formulario de solicitud en W
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera </p> </td> 
   </tr> 
   <tr> 
@@ -294,8 +294,8 @@ To create a Request Queue:
 
    * **Show all selected and unselected fields to:** Select which users you want to see all the fields on the new request form. The following options control the access to the fields on the form.
     
-      |Which users can see all fields on the request form | Description|  
-      |---|---| 
+      |Which users can see all fields on the request form | Description|
+      |---|---|
       | All Users (Plan Licenses) |All users who have a Plan license can see the selected as well as the unselected fields. |
       | People with view access to this project (Plan License) |Those users with a Plan license that also have View rights to this project can see the selected as well as the unselected fields. The rest of the users who can submit requests to this project can see just the selected fields. |
       | No Users |No users can see the unselected fields. All users who can submit requests to this project can only see the fields selected.  |
@@ -452,7 +452,7 @@ La duración predeterminada de un problema es la misma que las horas planificada
    Si se deja sin cambios, el valor predeterminado de la duración del problema es de 1 día u 8 horas.
 Si el administrador de Workfront establece las horas típicas por día laborable en menos de 8 horas en el área de configuración, la duración predeterminada de los problemas sigue siendo de 8 horas.
 Por ejemplo, si el valor de Horas típicas por día laborable se establece en 7 horas en el área de Configuración de Workfront, la duración predeterminada de los problemas es de 1,14 días u 8 horas.
-Para obtener más información acerca de cómo configurar el sistema Horas habituales por día laborable, consulte la sección “Cálculos de línea de tiempo” del artículo [Configurar las preferencias de proyecto de todo el sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+Para obtener más información acerca de cómo configurar el sistema Horas habituales por día laborable, consulte la sección “Cálculos de cronología” del artículo [Configurar las preferencias de proyecto de todo el sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
    * **Las personas de la misma compañía heredarán los mismos permisos para todas las solicitudes.**: cuando se seleccionan, todas las solicitudes enviadas a la cola son visibles para los usuarios de la misma compañía. Los usuarios pueden ver estas solicitudes en la sección Todas las solicitudes, ubicada dentro del área Solicitudes. En el momento en que esta opción se habilita o deshabilita, afecta a todas las solicitudes futuras; no afecta de forma retroactiva a la información.
    * **Cuando alguien realiza una solicitud, conceder automáticamente...:** Cuando un usuario realiza una solicitud a la cola de solicitudes, se concede automáticamente al usuario el nivel de permiso que usted elija para esa solicitud. Haga clic en el botón Acceso para seleccionar entre los siguientes niveles de permisos:
@@ -512,7 +512,7 @@ Para obtener más información acerca de cómo configurar el sistema Horas habit
    * **Mostrar todos los campos seleccionados y no seleccionados a:** Seleccione los usuarios que deben ver todos los campos en el nuevo formulario de solicitud. Las siguientes opciones controlan el acceso a los campos del formulario.
 
      | Qué usuarios pueden ver todos los campos del formulario de solicitud | Descripción |
-     |---|---| 
+     |---|---|
      | Todos los usuarios (Licencias Plan) | Todos los usuarios que tengan una licencia Plan pueden ver los campos seleccionados y los no seleccionados. |
      | Personas con acceso de visualización en este proyecto (licencia de planificación) | Los usuarios con una licencia Plan que también tengan derechos de visualización sobre este proyecto pueden ver los campos seleccionados y los no seleccionados. El resto de los usuarios que pueden enviar solicitudes a este proyecto solo pueden ver los campos seleccionados. |
      | Ningún usuario | Ningún usuario puede ver los campos no seleccionados. Todos los usuarios que pueden enviar solicitudes a este proyecto solo pueden ver los campos seleccionados. Esta es la selección predeterminada. |

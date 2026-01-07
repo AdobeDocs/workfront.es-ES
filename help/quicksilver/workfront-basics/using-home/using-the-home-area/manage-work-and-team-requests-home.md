@@ -6,10 +6,10 @@ description: Cuando se le asignan tareas de trabajo y problemas, aparecen enumer
 author: Courtney
 feature: Get Started with Workfront, Work Management
 exl-id: 79826743-eeb9-4849-b46f-cc3f086e3194
-source-git-commit: 41f58261d4f2e6075187886b371a23eb5e97d823
+source-git-commit: 53596271a838733b858c0b14a4e22b07a7cd20f6
 workflow-type: tm+mt
-source-wordcount: '801'
-ht-degree: 14%
+source-wordcount: '790'
+ht-degree: 13%
 
 ---
 
@@ -17,8 +17,6 @@ ht-degree: 14%
 # Administrar elementos de trabajo y solicitudes de equipo en el área [!UICONTROL Inicio]
 
 Cuando se le asignan tareas de trabajo y problemas, aparecen enumerados en los widgets Mi trabajo, Mis tareas y Mis problemas.  Puede ver, trabajar o quitar elementos de trabajo y solicitudes.
-
-+++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
 ## Requisitos de acceso
 

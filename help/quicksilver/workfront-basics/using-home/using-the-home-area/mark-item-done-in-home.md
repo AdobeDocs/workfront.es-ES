@@ -6,9 +6,9 @@ description: Puede marcar una tarea o un problema como Listo si es el usuario as
 author: Courtney
 feature: Get Started with Workfront, Work Management
 exl-id: 4c3638aa-5ee3-422a-9fee-41c4749fe48b
-source-git-commit: 41f58261d4f2e6075187886b371a23eb5e97d823
+source-git-commit: 53596271a838733b858c0b14a4e22b07a7cd20f6
 workflow-type: tm+mt
-source-wordcount: '807'
+source-wordcount: '796'
 ht-degree: 78%
 
 ---
@@ -20,8 +20,6 @@ Puede marcar una tarea o un problema como Listo si es el usuario asignado de la 
 >[!NOTE]
 >
 >No verá el botón [!UICONTROL Listo] salvo que usted sea uno de los recursos asignados a la tarea o al problema.
-
-+++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
 
 ## Requisitos de acceso
 

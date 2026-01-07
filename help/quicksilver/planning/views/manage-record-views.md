@@ -6,7 +6,7 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: a18b70b20e37f9751fbae2d4aad76e4905f976b2
+source-git-commit: 53596271a838733b858c0b14a4e22b07a7cd20f6
 workflow-type: tm+mt
 source-wordcount: '1181'
 ht-degree: 46%
@@ -34,7 +34,7 @@ Después de seleccionar un tipo de registro en el área de Adobe Workfront Plann
 
 * Cronología
 
-  Para obtener más información, consulte [Administrar la vista de línea de tiempo](/help/quicksilver/planning/views/manage-the-timeline-view.md).
+  Para obtener más información, consulte [Administrar la vista de cronología](/help/quicksilver/planning/views/manage-the-timeline-view.md).
 
 * Calendario
 
@@ -67,7 +67,7 @@ Para obtener más información sobre la administración de vistas de registros d
 <tr> 
 </tr>   
 <tr> 
-   <td role="rowheader"><p>paquete de Adobe Workfront</p></td> 
+   <td role="rowheader"><p>Paquete de Adobe Workfront</p></td> 
    <td> 
 <p>Cualquier Workfront y cualquier paquete de Planning</p>
 <p>Cualquier flujo de trabajo y cualquier paquete de Planning</p>
@@ -188,11 +188,11 @@ Para obtener más información acerca de los requisitos de acceso de Workfront, 
 
 ## Similitudes y diferencias entre vistas de registros
 
-En la tabla siguiente se muestran las similitudes y diferencias entre las vistas de tabla, línea de tiempo y calendario:
+En la tabla siguiente se muestran las similitudes y diferencias entre las vistas de tabla, cronología y calendario:
 
 <!--some of these are NOT available right now; if you make this public, comment out the ones not there-->
 
-| Función | Vista de tabla | Vista de línea de tiempo | Vista de calendario |
+| Función | Vista de tabla | Vista de cronología | Vista de calendario |
 |-----------------------------------------------------------------------|------------|---------------|--------------|
 | Mostrar registros en una lista o tabla | ✓ |              | |
 | Mostrar todos los campos como columnas en la tabla de forma predeterminada | ✓ |              |    |
@@ -201,7 +201,7 @@ En la tabla siguiente se muestran las similitudes y diferencias entre las vistas
 | Añadir registros como filas nuevas en la vista | ✓ |               |        |
 | Añadir campos como nuevas columnas en la vista | ✓ |               |         |
 | Copiar filas de una lista externa y pegarlas en una tabla | ✓ |               |          |
-| Mostrar registros en una línea de tiempo |            | ✓ |             |
+| Mostrar registros en una cronología |            | ✓ |             |
 | Filtrar registros | ✓ | ✓ | ✓ |
 | Mostrar registros en un calendario |           |              | ✓ |
 | Registros de grupo | ✓ | ✓ |  |
@@ -248,9 +248,9 @@ En la tabla siguiente se muestran las similitudes y diferencias entre las vistas
    >
    >Al crear un tipo de registro, la vista de tabla también se crea de forma predeterminada.
    >
-   >Para crear una vista de línea de tiempo o de calendario, el tipo de registro para el que genere la vista debe tener al menos dos campos de fecha.
+   >Para crear una vista de cronología o de calendario, el tipo de registro para el que genere la vista debe tener al menos dos campos de fecha.
    >
-   >De lo contrario, las opciones Línea de tiempo y Calendario aparecen atenuadas.
+   >De lo contrario, las opciones Cronología y Calendario aparecen atenuadas.
    >  
 
    ![Crear cuadro de vista](assets/create-view-box.png)
@@ -260,7 +260,7 @@ En la tabla siguiente se muestran las similitudes y diferencias entre las vistas
 
    ![Lista desplegable de tipos de vista de la lista de tipos de registro](assets/view-types-drop-down-from-record-type-list.png)
 
-1. (Condicional) Haga clic en **Siguiente** al crear una vista de línea de tiempo o de calendario.
+1. (Condicional) Haga clic en **Siguiente** al crear una vista de cronología o de calendario.
 
    De forma predeterminada, Workfront asigna a la vista uno de los nombres siguientes:
 
@@ -270,7 +270,7 @@ En la tabla siguiente se muestran las similitudes y diferencias entre las vistas
 
    El número es un incremento generado automáticamente.
 
-1. (Condicional) Seleccione las **fechas de inicio** y **de finalización** para los registros que se mostrarán en la vista de línea de tiempo o de calendario.
+1. (Condicional) Seleccione las **fechas de inicio** y **de finalización** para los registros que se mostrarán en la vista de cronología o de calendario.
 
    >[!NOTE]
    >

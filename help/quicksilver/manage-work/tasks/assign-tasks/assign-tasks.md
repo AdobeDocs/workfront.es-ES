@@ -7,7 +7,7 @@ author: Lisa
 feature: Work Management, Tasks
 role: User
 exl-id: 611b136e-2c3f-4eac-9d75-e8c12e06148d
-source-git-commit: 01a80f6140650ca12aaee14115f79449dcfa2a18
+source-git-commit: 53596271a838733b858c0b14a4e22b07a7cd20f6
 workflow-type: tm+mt
 source-wordcount: '2156'
 ht-degree: 83%
@@ -40,7 +40,7 @@ Puede asignar tareas a usuarios, funciones o equipos para indicar quién es el r
 >* Asocie los usuarios de un equipo desactivado a un equipo activo y reasigne el elemento de trabajo al equipo activo.
 >
 
-El número de usuarios asignados a una tarea y la programación del propietario de la tarea pueden modificar las fechas planificadas de una tarea, lo que se traduce en un cambio de la línea de tiempo del proyecto. Para obtener información sobre el impacto de asignar varios usuarios a una tarea, consulte [Información general sobre la modificación de asignaciones de tareas](../../../manage-work/tasks/assign-tasks/modify-task-assignments-overview.md).
+El número de usuarios asignados a una tarea y la programación del propietario de la tarea pueden modificar las fechas planificadas de una tarea, lo que se traduce en un cambio de la cronología del proyecto. Para obtener información sobre el impacto de asignar varios usuarios a una tarea, consulte [Información general sobre la modificación de asignaciones de tareas](../../../manage-work/tasks/assign-tasks/modify-task-assignments-overview.md).
 
 Además de este artículo, le recomendamos que lea los siguientes artículos para obtener más información sobre la asignación de tareas:
 
@@ -191,7 +191,7 @@ Para asignar tareas de una lista:
 1. (Opcional) Haga clic en el menú desplegable **Autoguardar** y seleccione una de las siguientes opciones:
 
    | Opción | Descripción de opción |
-   |---|---| 
+   |---|---|
    | Autoguardar | Los cambios que realice en las tareas se guardan automáticamente y no puede revertirlos |
    | Guardado manual | Debe guardar manualmente los cambios. Puede revertir los cambios antes de guardarlos. |
    | Planificación de calendario | Debe guardar manualmente los cambios. Puede revertir los cambios antes de guardarlos. Guardar los cambios y todas las dependencias del proyecto es más rápido que cuando selecciona Guardar de forma manual. |

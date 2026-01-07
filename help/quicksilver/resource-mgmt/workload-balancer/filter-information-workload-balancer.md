@@ -6,7 +6,7 @@ description: Para encontrar de forma eficaz los elementos de trabajo y centrarse
 author: Lisa
 feature: Resource Management
 exl-id: f8ffb40e-4e71-45fe-bcae-801d45d75a21
-source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
+source-git-commit: 53596271a838733b858c0b14a4e22b07a7cd20f6
 workflow-type: tm+mt
 source-wordcount: '2437'
 ht-degree: 50%
@@ -41,7 +41,7 @@ Este artículo contiene información sobre los filtros del Distribuidor de carga
  <col>
  <tbody> 
   <tr> 
-   <td>paquete de Adobe Workfront</td> 
+   <td>Paquete de Adobe Workfront</td> 
    <td><p>Cualquiera</p></td>
   </tr>
   <tr> 
@@ -71,8 +71,6 @@ Este artículo contiene información sobre los filtros del Distribuidor de carga
 </table>
 
 Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
-
-+++
 
 ## Información general sobre los filtros en el Distribuidor de cargas de trabajo
 
