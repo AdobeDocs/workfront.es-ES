@@ -8,9 +8,9 @@ role: Admin
 recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
-source-git-commit: 2e75f6aaba089a91a2306ad06a0f0d79a7524f75
+source-git-commit: 387a84c4bf511424a0c15bd65748987c1611cee5
 workflow-type: tm+mt
-source-wordcount: '417'
+source-wordcount: '473'
 ht-degree: 0%
 
 ---
@@ -67,13 +67,13 @@ El KPI de horas planificadas en la pantalla Asignaciones avanzadas ya no se pued
 
 El campo **Fecha de tipo de cambio** en el área Detalles del proyecto > Finanzas ahora está oculto cuando la casilla de verificación **Usar tipos de cambio con fecha efectiva del sistema** no está seleccionada. Anteriormente, al editar un proyecto, el campo de fecha se mostraba en los detalles del proyecto incluso cuando no se habilitaban las tasas de cambio efectivas por fecha.
 
-<!--### Maintenance Updates week of January 4-10, 2026
+### Actualizaciones de mantenimiento semana del 4 al 10 de enero de 2026
 
-**Title**
+**Las tarifas de rol ahora permiten espacios en las fechas efectivas**
 
-text
+Las fechas efectivas en las tasas de rol ahora permiten lagunas, aunque no se permiten fechas superpuestas. Durante un espacio, se utilizan otras áreas de la jerarquía de tarifas de facturación para determinar la tasa de facturación, según el tipo de ingresos de una tarea.
 
-### Maintenance Updates week of January 11-17, 2026
+<!--### Maintenance Updates week of January 11-17, 2026
 
 **Title**
 
