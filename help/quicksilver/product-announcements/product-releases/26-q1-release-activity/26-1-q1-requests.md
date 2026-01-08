@@ -4,9 +4,9 @@ description: Mejoras en las solicitudes del primer trimestre de 2026
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 4061163b8b761bc3922bfb95da6c0110b6ee5871
+source-git-commit: ab0721e11415f4c41b8020a2678c3a483f108cb3
 workflow-type: tm+mt
-source-wordcount: '859'
+source-wordcount: '900'
 ht-degree: 4%
 
 ---
@@ -26,6 +26,8 @@ Para obtener una lista de todos los cambios disponibles en este punto del ciclo 
 >Producción para todos: 15 de enero de 2026
 
 Para facilitar la visita al objeto creado por una solicitud específica, se han añadido vínculos a la columna Objeto creado. Ahora puede hacer clic en el enlace de esta columna para llevarlo directamente a la página del objeto creado.
+
+Este vínculo solo está disponible cuando la propia solicitud ha creado un objeto. Si una solicitud se convierte en un proyecto u otro objeto, un vínculo a ese objeto convertido no estará disponible en la lista de solicitudes de la nueva experiencia solicitante.
 
 Anteriormente, esta columna solo contenía el nombre del objeto y no su vínculo.
 
