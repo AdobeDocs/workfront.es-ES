@@ -6,14 +6,16 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 17767006-2329-43b7-b4b3-0ca323cc41e0
-source-git-commit: fbcdc88701b8b501b68d29e76b0148ddf07e5b52
+source-git-commit: 4e3c2e50bb3dc1c49939a4c2064e6d89d20e4c24
 workflow-type: tm+mt
-source-wordcount: '1041'
+source-wordcount: '1017'
 ht-degree: 7%
 
 ---
 
 # Introducción a [!DNL Priorities]
+
+{{preview-fast-release-general}}
 
 Prioridades es una experiencia intuitiva y optimizada, adaptada a los propietarios de tareas. Las prioridades se implementarán por fases, empezando por la lista de trabajo.
 
@@ -24,6 +26,8 @@ Con Prioridades, puede disfrutar de
 * Funciones personalizadas: benefíciese de funciones diseñadas exclusivamente para propietarios de tareas
 
 La Lista de trabajos de prioridades y el Calendario muestran los elementos de trabajo que tiene asignados. No puede ver los elementos de trabajo asignados a su equipo.
+
+<span class="preview">Un administrador de Workfront puede habilitar las prioridades para el usuario en la plantilla de diseño. Para obtener más información, vea [Personalizar el menú principal mediante una plantilla de diseño](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).</span>
 
 ## Encuentre y organice su trabajo
 
@@ -202,7 +206,8 @@ Para obtener más información, vea [Ponerse al día con el trabajo en Prioridad
 
 Puede ver actualizaciones en tiempo real en la página Detalles de una tarea o un problema. También puede ver si otros usuarios están viendo la página al mismo tiempo que usted con indicadores de presencia en tiempo real.
 
-## Consideraciones
 
-* Los administradores de Workfront no pueden personalizar prioridades a través de la plantilla de diseño en este momento.
-* El acceso a las tareas en Prioridades se realiza entre pestañas. En el futuro, planeamos agregar pestañas adicionales, como Documentos, Subtareas, Aprobaciones, etc. Infórmenos de que necesitas estos artículos enviando comentarios usando el botón **Enviar comentarios**.
+<!--
+## Considerations
+
+* Accessing tasks in Priorities is across tabs. We plan to add additional tabs, like Documents, Subtasks, Approvals, etc, in the future. Let us know you need these items by submitting feedback using the **Give Feedback** button.-->

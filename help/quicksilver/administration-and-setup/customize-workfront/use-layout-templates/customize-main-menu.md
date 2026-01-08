@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: d4f02102-0378-472f-9ebb-753502ec048b
-source-git-commit: 96028446d76f32daf512adf77d3b1c53021821ec
+source-git-commit: 4fdfa1107034a48e149a5414475fbc0d7ce97564
 workflow-type: tm+mt
-source-wordcount: '697'
+source-wordcount: '698'
 ht-degree: 36%
 
 ---
@@ -78,6 +78,8 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
      >
      >De forma predeterminada, el icono Inicio del menú principal muestra el área Mis actualizaciones para los usuarios con licencia de revisión (en el plan de licencia actual), a menos que tengan una plantilla de diseño asociada a su perfil que incluya el área Mis actualizaciones del menú principal, además del área de Inicio.
 
+
+   * <span class="preview">Prioridades</span>
    * Portafolios
    * Programas
    * Proyectos
