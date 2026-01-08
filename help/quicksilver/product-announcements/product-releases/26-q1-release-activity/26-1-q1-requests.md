@@ -4,9 +4,9 @@ description: Mejoras en las solicitudes del primer trimestre de 2026
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 319c45bc6617269f358af1e7b5f6132a8694710b
+source-git-commit: 4061163b8b761bc3922bfb95da6c0110b6ee5871
 workflow-type: tm+mt
-source-wordcount: '904'
+source-wordcount: '859'
 ht-degree: 4%
 
 ---
@@ -59,8 +59,6 @@ For more information on creating views for the Request list and My Requests widg
 >Producción para todos: 15 de enero de 2026
 
 Para facilitarle la tarea de ver la información que necesita, hemos añadido la capacidad de compartir vistas a la nueva experiencia de solicitud. Ahora puede compartir vistas con otros usuarios, equipos o grupos.
-
-Puede compartir las vistas de la lista de solicitudes desde el área de Solicitudes en Workfront y el widget Mis solicitudes en Inicio. La funcionalidad de uso compartido es idéntica en ambos lugares, y la configuración de vista, incluido el uso compartido, se conserva al moverse entre el widget Mis solicitudes y el área Solicitudes.
 
 Para obtener información sobre las vistas de solicitudes, incluido el uso compartido, consulte [Crear y administrar vistas en el área de solicitudes](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md).
 

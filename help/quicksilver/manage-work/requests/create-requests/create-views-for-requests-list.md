@@ -5,10 +5,10 @@ title: Creación y administración de vistas en el área de solicitudes
 description: Si utiliza la nueva experiencia de solicitud, puede crear y guardar vistas para el área de solicitudes.
 author: Becky
 feature: Work Management
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: 4061163b8b761bc3922bfb95da6c0110b6ee5871
 workflow-type: tm+mt
-source-wordcount: '818'
-ht-degree: 8%
+source-wordcount: '706'
+ht-degree: 9%
 
 ---
 
@@ -18,11 +18,12 @@ ht-degree: 8%
 
 Si utiliza la nueva experiencia de solicitud, puede crear y guardar vistas para el área de solicitudes. Estas vistas incluyen filtros y disposiciones de columnas.
 
-Las vistas se pueden crear y administrar en el área de Solicitudes de Workfront y en el widget Mis solicitudes de Inicio. La configuración de vista se conserva entre el área de solicitudes y el widget.
+Las vistas se pueden crear y administrar en el área de solicitudes de Workfront.
 
 >[!IMPORTANT]
 >
->Esta funcionalidad solo está disponible en la nueva experiencia de solicitud.
+>* Esta funcionalidad solo está disponible en la nueva experiencia de solicitud.
+>* La configuración de vista no está disponible en el widget Mis solicitudes de Inicio.
 
 ## Requisitos de acceso
 
@@ -61,21 +62,13 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
 
 ## Creación de una vista en el área de Solicitudes
 
-Puede crear una vista en el área de Solicitudes de Workfront o en el widget Mis solicitudes de Inicio.
+Puede crear una vista en el área de Solicitudes de Workfront,.
 
 1. Para acceder a la lista de solicitudes:
 
    {{step1-to-requests}}
 
-1. Para acceder al widget Mis solicitudes en Inicio:
-
-   {{step1-to-home}}
-
-   1. Busque el widget Mis solicitudes.
-
-      Para obtener más información sobre el widget Mis solicitudes, consulte [Usar el widget Mis solicitudes](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md).
-
-1. En la lista Solicitudes o en el widget Mis solicitudes, haga clic en el menú desplegable **Vistas** ![Menú desplegable de vistas](assets/view-icon-requests.png) y seleccione **Nueva vista**.
+1. En la lista Solicitudes, haga clic en el menú desplegable **Vistas** ![Menú desplegable de vistas](assets/view-icon-requests.png) y seleccione **Nueva vista**.
 
    ![Nueva vista](assets/create-new-view.png)
 
@@ -89,16 +82,7 @@ Puede editar las vistas existentes, incluidas las que acaba de crear.
 1. Para acceder a la lista de solicitudes:
 
    {{step1-to-requests}}
-
-1. Para acceder al widget Mis solicitudes en Inicio:
-
-   {{step1-to-home}}
-
-   1. Busque el widget Mis solicitudes.
-
-      Para obtener más información sobre el widget Mis solicitudes, consulte [Usar el widget Mis solicitudes](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md).
-
-1. En la lista Solicitudes o en el widget Mis solicitudes, busque la vista que desee editar.
+1. En la lista Solicitudes, busque la vista que desee editar.
 
 1. (Opcional) Para cambiar el nombre de una vista, haga clic en el menú desplegable **Vistas** ![Menú desplegable de vistas](assets/view-icon-requests.png) y haga clic en el menú de tres puntos situado junto a la vista, seleccione **Cambiar nombre** y, a continuación, escriba el nuevo nombre de la vista.
 1. Haga clic en el menú desplegable **Vistas** ![Menú desplegable de vistas](assets/view-icon-requests.png) y seleccione la vista que desee editar.
@@ -156,15 +140,7 @@ Puede compartir vistas que cree con otros usuarios, equipos o grupos.
 
    {{step1-to-requests}}
 
-1. Para acceder al widget Mis solicitudes en Inicio:
-
-   {{step1-to-home}}
-
-   1. Busque el widget Mis solicitudes.
-
-      Para obtener más información sobre el widget Mis solicitudes, consulte [Usar el widget Mis solicitudes](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md).
-
-1. En la lista Solicitudes o en el widget Mis solicitudes, busque la vista que desee compartir.
+1. En la lista Solicitudes, busque la vista que desee compartir.
 1. Pase el ratón sobre la vista que quiera compartir y luego haga clic en el menú de tres puntos cuando aparezca.
 1. Seleccione **Compartir**.
 1. En el cuadro de diálogo que se abre, escriba los nombres de los usuarios, equipos o grupos con los que desea compartir la vista y, a continuación, selecciónelos en la lista cuando aparezcan.
