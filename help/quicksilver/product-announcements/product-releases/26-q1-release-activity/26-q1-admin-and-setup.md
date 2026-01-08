@@ -4,9 +4,9 @@ description: Mejoras del administrador en el primer trimestre de 2026
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: a49c8f2ad345f0ea8cdfd38ad79c6c0a5f636e95
+source-git-commit: 5a1af10b7e3e59eb203c0507aeea15db5689e24b
 workflow-type: tm+mt
-source-wordcount: '676'
+source-wordcount: '685'
 ht-degree: 11%
 
 ---
@@ -21,9 +21,11 @@ Para obtener una lista de todos los cambios disponibles en este punto del ciclo 
 
 >[!NOTE]
 >
+>Esta función no está disponible temporalmente en el entorno de vista previa
 >Vista previa: 2 de diciembre de 2025
 >Versión rápida de producción: 14 de enero de 2026
 >Producción para todos: 15 de enero de 2026
+
 
 Ahora puede habilitar o deshabilitar las prioridades para usuarios específicos en la plantilla de diseño. Si anteriormente tenía las prioridades deshabilitadas para su organización, permanecerá deshabilitada en la plantilla de diseño con este cambio.
 

@@ -4,10 +4,10 @@ description: En esta página se ofrece información sobre la funcionalidad inclu
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: b9016bc9a5609424b6cd6cdec67ac4d696e7ab45
+source-git-commit: 2ac2e0421bdd59e4de0e3a02ce7c798d09b55c68
 workflow-type: tm+mt
-source-wordcount: '2880'
-ht-degree: 14%
+source-wordcount: '2940'
+ht-degree: 13%
 
 ---
 
@@ -60,6 +60,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Administrar prioridades en la plantilla de diseño</a>
+            <p><span class="preview">Temporalmente no disponible en el entorno de vista previa</span></p>
             <p>Ahora puede habilitar o deshabilitar las prioridades para usuarios específicos en la plantilla de diseño. Si anteriormente tenía las prioridades deshabilitadas para su organización, permanecerá deshabilitada en la plantilla de diseño con este cambio.</p>
         </td>
         <td>viernes, 18 de diciembre de 2025</td>
@@ -115,6 +116,17 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td><strong>Vista previa</strong></td>
         <td><strong>Liberación rápida</strong></td>
         <td><strong>Trimestralmente</strong></td>
+        </tr>
+       <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-documents-approvals.md" class="MCXref xref" xrefformat="{para}">Configurar marcas para el revisor de IA en Workfront<p>[!BADGE Off schedule]{type=Neutral}</p> </a>
+            <p>Ahora puede configurar marcas para el revisor de IA en el área Configuración de Workfront. Esto le permite personalizar el proceso de revisión de IA en función de las directrices de marca de su organización.</p>
+            <p>El revisor de IA se encuentra en la versión beta.</p>
+        </td>
+        <td>viernes, 08 de enero de 2026</td>
+        <td>viernes, 08 de enero de 2026</td>
+        <td>viernes, 08 de enero de 2026</td>
+    </tr> 
     </tr>
        <tr>
         <td>
@@ -585,7 +597,7 @@ Para ofrecer integraciones más estables y escalables, estamos adoptando un enfo
 * Workfront para Salesforce.
 
 Recomendamos utilizar la automatización e integración de Workfront para las necesidades de integración de su organización con Google Workspace.
-Para obtener una descripción general de la automatización e integración de Workfront, consulte [Información general de Adobe Workfront Fusion](https://experienceleague.adobe.com/es/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+Para obtener una descripción general de la automatización e integración de Workfront, consulte [Información general de Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 
 
 ### Actualizaciones de mantenimiento de Workfront 
