@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 96028446d76f32daf512adf77d3b1c53021821ec
+source-git-commit: f23414b3c4810e47fa084d303e640a289de1f98d
 workflow-type: tm+mt
-source-wordcount: '6899'
+source-wordcount: '6941'
 ht-degree: 53%
 
 ---
@@ -105,6 +105,10 @@ Los formularios personalizados están limitados a 500 campos. Un contador situad
    >
    >
    >Algunos ejemplos de formularios complejos son los formularios con parámetros en cascada, los campos de datos personalizados calculados y varias opciones de valor en un único campo.
+
+   >[!NOTE]
+   >
+   >Si se marca un campo existente como inactivo, no estará disponible para su uso en elementos de informes y formularios personalizados a partir de ese momento. Si el campo inactivo se utiliza actualmente en un informe o un formulario, el campo y sus datos históricos permanecen en su lugar.
 
 1. Para guardar los cambios, haga clic en **Aplicar** y pase a otra sección para seguir creando el formulario.
 
@@ -651,12 +655,12 @@ Para añadir una búsqueda externa:
       <td role="rowheader">Ruta JSON</td>
       <td><p>Escriba o pegue la ruta JSON para la API.</p> <p>Esta opción permite extraer datos del JSON devuelto por la URL de la API. Sirve para seleccionar qué valores dentro del JSON aparecerán en las opciones desplegables.</p><p>Por ejemplo, si la dirección URL de la API devuelve JSON en el siguiente formato, puede usar "$.data[*].name" para seleccionar EE. UU. y Canadá como opciones desplegables:</br>
       <pre>
-      &lbrace;
-       data: &lbrace;
+      {
+       data: {
          { name: "USA"},
          { name: "Canada"}
-       &rbrace;
-      &rbrace;
+       }
+      }
       </pre>
       </p>
      <p>Para obtener más información sobre la ruta JSON y cómo asegurarse de que escribe la ruta JSON correcta, consulte <a href="https://jsonpath.com/">https://jsonpath.com/</a>.</p></td>
