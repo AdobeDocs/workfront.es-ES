@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 8eea97e7-1d05-4145-b1fd-855a6d111107
-source-git-commit: f2c3abc4e47e004faf7ce2a5e7a3bf4edfdaa566
+source-git-commit: 2f7b5c9d3a934708f3128ed9e4efa76b12619913
 workflow-type: tm+mt
-source-wordcount: '400'
+source-wordcount: '409'
 ht-degree: 15%
 
 ---
@@ -27,7 +27,7 @@ También puede editar las propiedades de un campo personalizado, un salto de sec
 
 >[!NOTE]
 >
->La exclusión de informes, filtros, vistas y agrupaciones se realiza después de que el campo quede inactivo. Los elementos de informe existentes que utilicen el campo no se cambian ni eliminan cuando el campo se marca como inactivo.
+>Si se marca un campo existente como inactivo, no estará disponible para su uso en elementos de informes y formularios personalizados a partir de ese momento. Si el campo inactivo se utiliza actualmente en un informe o un formulario, el campo y sus datos históricos permanecen en su lugar.
 
 Si quita un campo personalizado de un formulario personalizado, seguirá existiendo en todos los demás formularios a los que se agregó y podrá editarlo en un formulario o en el área Campos. Para obtener información sobre cómo eliminar un campo, consulte [Eliminar un campo o widget personalizado del sistema](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/delete-a-custom-field.md).
 
