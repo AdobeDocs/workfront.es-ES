@@ -4,10 +4,10 @@ description: En esta página se ofrece información sobre la funcionalidad inclu
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 8d177d1081590f6a6733f29e0d615828394394c7
+source-git-commit: d3f58a1d25b353b45e68e4910a4340052a49c4d4
 workflow-type: tm+mt
-source-wordcount: '2886'
-ht-degree: 13%
+source-wordcount: '2885'
+ht-degree: 14%
 
 ---
 
@@ -379,7 +379,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-1-q1-requests.md" class="MCXref xref" xrefformat="{para}">Los vínculos de objetos creados ya están disponibles en el área de solicitudes y en el widget Mis solicitudes</a>
-            <p>Para facilitar la visita al objeto creado por una solicitud específica, se han añadido vínculos a la columna Objeto creado. Ahora puede hacer clic en el enlace de esta columna para llevarlo directamente a la página del objeto creado./p&gt;
+            <p>Para facilitar la visita al objeto creado por una solicitud específica, se han añadido vínculos a la columna Objeto creado. Ahora puede hacer clic en el enlace de esta columna para llevarlo directamente a la página del objeto creado.</p>
         </td>
         <td>viernes, 18 de diciembre de 2025</td>
         <td>jueves, 14 de enero de 2026</td>
@@ -424,7 +424,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-1-q1-requests.md" class="MCXref xref" xrefformat="{para}">Compartir vistas en el área de solicitudes y el widget Mis solicitudes</a>
-            <p>Para facilitar la tarea de asegurarse de ver la información que necesita, hemos agregado la capacidad de compartir vistas a la nueva experiencia de creación de informes. Ahora puede compartir vistas con otros usuarios, equipos o grupos. </p>
+            <p>Para facilitarle la tarea de ver la información que necesita, hemos añadido la capacidad de compartir vistas a la nueva experiencia de solicitud. Ahora puede compartir vistas con otros usuarios, equipos o grupos. </p>
         </td>
         <td>viernes, 04 de diciembre de 2025</td>
         <td>jueves, 14 de enero de 2026</td>
@@ -597,7 +597,7 @@ Para ofrecer integraciones más estables y escalables, estamos adoptando un enfo
 * Workfront para Salesforce.
 
 Recomendamos utilizar la automatización e integración de Workfront para las necesidades de integración de su organización con Google Workspace.
-Para obtener una descripción general de la automatización e integración de Workfront, consulte [Información general de Adobe Workfront Fusion](https://experienceleague.adobe.com/es/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+Para obtener una descripción general de la automatización e integración de Workfront, consulte [Información general de Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 
 
 ### Actualizaciones de mantenimiento de Workfront 
