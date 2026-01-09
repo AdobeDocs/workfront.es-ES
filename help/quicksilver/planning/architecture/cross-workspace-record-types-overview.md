@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: aeedd871-dcd3-4fb3-bfc5-99db3e7c9296
-source-git-commit: 0c890cc535c61c5402a334e43ed45b3ec3f9f748
+source-git-commit: 40891b0e960e38c4fca55eec428a4e3a6397b316
 workflow-type: tm+mt
-source-wordcount: '1586'
+source-wordcount: '1646'
 ht-degree: 2%
 
 ---
@@ -26,7 +26,23 @@ Puede habilitar las funciones entre espacios de trabajo para un tipo de registro
 
 >[!IMPORTANT]
 >
->Se han mejorado los requisitos de paquetes de Workfront para poder habilitar las funciones entre espacios de trabajo para los tipos de registros del sistema. Para obtener más información, consulte [Información general sobre el acceso a Adobe Workfront Planning](/help/quicksilver/planning/access/access-overview.md).
+>Su organización debe adquirir los siguientes paquetes para poder habilitar las funciones entre espacios de trabajo para los tipos de registros:
+>
+>* Para configurar tipos de registros conectables:
+>
+>   * Cualquier paquete Workfront y cualquier paquete Planning
+>
+>     O
+>
+>   * Cualquier flujo de trabajo y un paquete de Planning Prime o Ultimate
+>* <span class="preview">Para configurar tipos de registros globales:</span>
+>  * <span class="preview">Cualquier paquete Workfront y un paquete Planning Plus</span>
+>     
+>    O
+>
+>  * <span class="preview">Cualquier flujo de trabajo y un paquete de Planning Prime o Ultimate</span>
+>Para obtener más información sobre lo que se incluye en cada paquete de Workfront Planning, póngase en contacto con su representante de cuentas de Workfront.
+>Para obtener más información, consulte [Información general sobre el acceso a Adobe Workfront Planning](/help/quicksilver/planning/access/access-overview.md).
 
 
 Las siguientes son funciones de varios espacios de trabajo de los tipos de registro:
@@ -45,7 +61,7 @@ Los tipos de registros globales se pueden agregar a varios espacios de trabajo d
 
 Al implementar Workfront Planning para una organización de varios equipos con flujos de trabajo comunes, es posible que necesite definir una estructura y metadatos coherentes para los tipos de registro clave (como Campañas o Entregables) que se pueden agregar a los espacios de trabajo de cada equipo para capturar y administrar su trabajo.
 
-Además, es posible que necesite el trabajo de cada equipo para llegar a un nivel central.
+También es posible que necesite el trabajo de cada equipo para llegar a un nivel central.
 
 En un flujo de trabajo de este tipo, puede asegurarse de que los equipos capturan su trabajo de forma coherente y, al mismo tiempo, desbloquean la visibilidad entre equipos, sin necesidad de agregar todo a un espacio de trabajo o a todos los miembros de la organización en cada uno de ellos. Puede utilizar tipos de registros globales para conseguirlo.
 

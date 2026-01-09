@@ -6,15 +6,19 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 1de095b3-78d9-44df-a678-51f4238deb91
-source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
+source-git-commit: 40891b0e960e38c4fca55eec428a4e3a6397b316
 workflow-type: tm+mt
-source-wordcount: '294'
-ht-degree: 63%
+source-wordcount: '384'
+ht-degree: 52%
 
 ---
 
 
 # Información general de tipos de registro
+
+<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después de las versiones mensuales en Production, las mismas funciones también están disponibles en el entorno Production para los clientes que habilitaron versiones rápidas. </span>
+
+<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -47,6 +51,7 @@ Para obtener información acerca de cómo crear tipos de registros, consulte [Cr
 * Cuando crea un tipo de registro, solo usted y los usuarios a los que conceda permiso para acceder al espacio de trabajo podrán ver el tipo de registro.
 * Debe crear un espacio de trabajo para poder crear tipos de registros para ese espacio de trabajo.
 * Para obtener información sobre las limitaciones de cuántos tipos de registros puede haber en un espacio de trabajo o una instancia de Workfront, consulte [Información general sobre las limitaciones de objetos de Adobe Workfront Planning](/help/quicksilver/planning/general/limitations-overview.md).
+* <span class="preview">Puede designar los tipos de registro como globales. Los tipos de registros globales se pueden agregar como tipos de registros existentes a otros espacios de trabajo. Para obtener más información, vea [Configurar las capacidades entre espacios de trabajo para el tipo de registro](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md).</span>
 
 
 <!--
