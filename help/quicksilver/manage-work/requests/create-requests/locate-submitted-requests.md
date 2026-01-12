@@ -8,10 +8,10 @@ feature: Requests
 topic: Collaboration
 role: User
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
-source-git-commit: b0060470156728a7ad98838378a7d963e2b5fd01
+source-git-commit: 3fe7e6f530e15ebdb4a658de89b77c1bf39671fe
 workflow-type: tm+mt
-source-wordcount: '1406'
-ht-degree: 53%
+source-wordcount: '1512'
+ht-degree: 49%
 
 ---
 
@@ -83,7 +83,7 @@ La visualización de las solicitudes enviadas difiere en función de si utiliza 
 
 ### Ver las solicitudes enviadas en la nueva experiencia de solicitud
 
-Puede ver las solicitudes enviadas en el área Solicitudes, <span class="preview">que incluye vínculos a objetos creados por esas solicitudes.</span>
+Puede ver las solicitudes enviadas en el área Solicitudes, <span class="preview">que incluye vínculos a objetos creados por solicitudes de Planning.</span>
 
 Para ver las solicitudes que usted u otros usuarios han enviado en la nueva experiencia de solicitud:
 
@@ -113,11 +113,15 @@ La lista de solicitudes se filtra automáticamente a medida que se añaden las c
 1. (Opcional) Compruebe el estado de una solicitud en la columna Estado. Los siguientes estados están disponibles en la nueva experiencia solicitante:
 
    * Borrador: esta solicitud aún no se ha enviado.
-   * Pendiente de revisión
-   * En revisión
-   * Rechazado
-   * En curso
-   * Completar
+   * Pendiente de revisión: (solo Planning) esta solicitud tiene aprobadores y ninguno de ellos ha abierto la solicitud.
+   * En revisión: (solo Planning) esta solicitud tiene aprobadores y al menos un aprobador ha abierto la solicitud, pero no se ha tomado ninguna decisión.
+   * Rechazada: (Solo Planning) Esta solicitud tiene aprobadores y se ha rechazado.
+   * En curso:
+      * Flujo de trabajo de Workfront: la solicitud se ha convertido y el trabajo está en curso.
+      * Planificación de Workfront: la finalización de la solicitud se asigna a un campo de Planificación específico y el valor del campo aún no coincide con el valor de finalización.
+
+        Para obtener más información, consulte [Configurar detalles de configuración](/help/quicksilver/planning/requests/create-request-form.md#set-up-configuration-details) en el artículo Crear y administrar un formulario de solicitud en Adobe Workfront Planning.
+   * Completar: se completa la solicitud.
 
 >[!NOTE]
 >

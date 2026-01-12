@@ -4,9 +4,9 @@ description: Mejoras en las solicitudes del primer trimestre de 2026
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: ab0721e11415f4c41b8020a2678c3a483f108cb3
+source-git-commit: 3fe7e6f530e15ebdb4a658de89b77c1bf39671fe
 workflow-type: tm+mt
-source-wordcount: '900'
+source-wordcount: '906'
 ht-degree: 4%
 
 ---
@@ -27,7 +27,7 @@ Para obtener una lista de todos los cambios disponibles en este punto del ciclo 
 
 Para facilitar la visita al objeto creado por una solicitud específica, se han añadido vínculos a la columna Objeto creado. Ahora puede hacer clic en el enlace de esta columna para llevarlo directamente a la página del objeto creado.
 
-Este vínculo solo está disponible cuando la propia solicitud ha creado un objeto. Si una solicitud se convierte en un proyecto u otro objeto, un vínculo a ese objeto convertido no estará disponible en la lista de solicitudes de la nueva experiencia solicitante.
+Este vínculo solo está disponible para solicitudes de Planning, en casos en los que la propia solicitud ha creado un objeto. Si una solicitud de Workfront se convierte en un proyecto u otro objeto, un vínculo a ese objeto convertido no estará disponible en la lista de solicitudes de la nueva experiencia de solicitud.
 
 Anteriormente, esta columna solo contenía el nombre del objeto y no su vínculo.
 
