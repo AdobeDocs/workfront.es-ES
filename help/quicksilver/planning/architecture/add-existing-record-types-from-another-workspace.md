@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: b977d5dd-8975-42c4-9968-a7ac357972e6
-source-git-commit: 0c890cc535c61c5402a334e43ed45b3ec3f9f748
+source-git-commit: 895fcc9e8bfc6ef21e82ae6dab4c370b0e267cad
 workflow-type: tm+mt
 source-wordcount: '647'
 ht-degree: 5%
@@ -138,7 +138,7 @@ And
 
       * Todos los campos originales
       * Todas las conexiones de registros
-   * Solo se pueden ver los registros agregados desde otros espacios de trabajo que utilizan el mismo tipo de registro global cuando se tiene al menos permisos de visualización para dichos espacios de trabajo.
+   * Solo se pueden ver los registros agregados desde otros espacios de trabajo que utilizan el mismo tipo de registro global cuando se tiene al menos permisos de visualización para dichos espacios de trabajo. <!--replace this bullet by this with Jan 15 release: You can view records added from the original workspace of the global record type only when you have at least View permissions to that workspace.-->
    * El campo **Workspace** de solo lectura se agrega a la nueva vista de tabla de tipo de registro. El campo muestra el espacio de trabajo donde se creó cada registro.
 
      >[!NOTE]

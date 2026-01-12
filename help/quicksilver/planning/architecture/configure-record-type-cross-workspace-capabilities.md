@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: d36ab9fb-0275-483d-97be-0a88e170f8e0
-source-git-commit: 40891b0e960e38c4fca55eec428a4e3a6397b316
+source-git-commit: 895fcc9e8bfc6ef21e82ae6dab4c370b0e267cad
 workflow-type: tm+mt
-source-wordcount: '1654'
+source-wordcount: '1677'
 ht-degree: 5%
 
 ---
@@ -212,9 +212,10 @@ Para configurar un tipo de registro como global:
 
    El tipo de registro agregado de un tipo de registro global en el área de trabajo secundaria también muestra un icono de **tipo de registro global** ![icono de tipo de registro global](assets/global-icon.png).
 1. (Opcional) Vuelva al espacio de trabajo original donde creó el tipo de registro global y edite el tipo de registro siguiendo los pasos del 1 al 4 anteriores a <!--ensure this stays accurate-->
-1. (Opcional) Revise la lista de espacios de trabajo donde se ha agregado el registro global en los **espacios de trabajo donde se usa este tipo de registro en la sección**. El propietario del espacio de trabajo también aparece junto al nombre del espacio de trabajo.
+1. (Opcional) Revise la lista de espacios de trabajo donde se ha agregado el registro global en la sección **Espacios de trabajo donde se usa este tipo de registro**. El propietario del espacio de trabajo también aparece junto al nombre del espacio de trabajo.
 
    ![Espacios de trabajo donde se usa este tipo de registro](assets/workspaces-where-this-record-type-is-used.png)
+1. (Opcional) Haga clic en el nombre de uno de los espacios de trabajo enumerados en la sección **Espacios de trabajo donde se usa este tipo de registro** para abrir ese espacio de trabajo.
 
 </div>
 

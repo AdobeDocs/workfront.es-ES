@@ -1,5 +1,5 @@
 ---
-title: Descripción general del programa de prueba para Adobe Workfront Planning
+title: Introducción a la prueba gratuita de Adobe Workfront Planning
 description: Adobe Workfront ofrece actualmente una versión de prueba gratuita de 60 días de Adobe Workfront Planning. Este ensayo es su oportunidad para ver cómo Planning conecta la estrategia global con el trabajo diario que la hace realidad. Planning proporciona una visibilidad centralizada del ciclo vital de marketing, lo que permite una mejor colaboración entre equipos, un seguimiento en tiempo real de campañas y flujos de trabajo automatizados. Puede crear espacios de trabajo personalizados y visualizar el trabajo con cronologías y calendarios interactivos. Con esta versión de prueba, verá de primera mano cómo Planning ayuda a alinear el trabajo diario con los objetivos estratégicos, agilizar la ejecución e impulsar resultados mensurables para su organización.
 author: Alina
 feature: Workfront Planning
@@ -7,7 +7,7 @@ role: User, Admin
 recommendations: noDisplay, noCatalog
 hidefromtoc: true
 hide: true
-source-git-commit: 0964ad24535bf43a23c740cd63abcf8fea705b8d
+source-git-commit: 895fcc9e8bfc6ef21e82ae6dab4c370b0e267cad
 workflow-type: tm+mt
 source-wordcount: '743'
 ht-degree: 1%
@@ -23,7 +23,7 @@ El juicio está disponible entre las siguientes fechas: 1 de marzo - 1 de mayo d
 
 >[!NOTE]
 >
->La versión de prueba de Workfront Planning no está disponible para los clientes actuales de Workfront Planning. La prueba es una oportunidad para que los clientes de Workfront que no son clientes de Planning experimenten Workfront Planning y vean cómo puede conectar la estrategia de imagen general con el trabajo diario que la hace posible.
+>La versión de prueba de Workfront Planning no está disponible para los clientes actuales de Workfront Planning. La versión de prueba es una oportunidad para que los clientes de Workfront <!-- is it Workfront or Adobe, or anyone--> que no son clientes de Planning experimenten Workfront Planning y vean cómo puede conectar la estrategia de imagen general con el trabajo diario que lo hace posible.
 
 
 Planning proporciona una visibilidad centralizada del ciclo vital de marketing, lo que permite una mejor colaboración entre equipos, un seguimiento en tiempo real de campañas y flujos de trabajo automatizados. Puede crear espacios de trabajo personalizados y visualizar el trabajo con cronologías y calendarios interactivos.

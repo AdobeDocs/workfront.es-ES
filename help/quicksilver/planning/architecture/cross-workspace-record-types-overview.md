@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: aeedd871-dcd3-4fb3-bfc5-99db3e7c9296
-source-git-commit: 40891b0e960e38c4fca55eec428a4e3a6397b316
+source-git-commit: 895fcc9e8bfc6ef21e82ae6dab4c370b0e267cad
 workflow-type: tm+mt
-source-wordcount: '1646'
+source-wordcount: '1663'
 ht-degree: 2%
 
 ---
@@ -28,19 +28,23 @@ Puede habilitar las funciones entre espacios de trabajo para un tipo de registro
 >
 >Su organización debe adquirir los siguientes paquetes para poder habilitar las funciones entre espacios de trabajo para los tipos de registros:
 >
->* Para configurar tipos de registros conectables:
+>Para configurar tipos de registros conectables:
 >
->   * Cualquier paquete Workfront y cualquier paquete Planning
 >
->     O
+>* Cualquier paquete Workfront y cualquier paquete Planning
 >
->   * Cualquier flujo de trabajo y un paquete de Planning Prime o Ultimate
->* <span class="preview">Para configurar tipos de registros globales:</span>
->  * <span class="preview">Cualquier paquete Workfront y un paquete Planning Plus</span>
+>   O
+>
+>* Cualquier flujo de trabajo y un paquete de Planning Prime o Ultimate
+>
+><span class="preview">Para configurar tipos de registros globales:</span>
+>
+>* <span class="preview">Cualquier paquete Workfront y un paquete Planning Plus</span>
 >     
->    O
+>   O
 >
->  * <span class="preview">Cualquier flujo de trabajo y un paquete de Planning Prime o Ultimate</span>
+>* <span class="preview">Cualquier flujo de trabajo y un paquete de Planning Prime o Ultimate</span>
+>
 >Para obtener más información sobre lo que se incluye en cada paquete de Workfront Planning, póngase en contacto con su representante de cuentas de Workfront.
 >Para obtener más información, consulte [Información general sobre el acceso a Adobe Workfront Planning](/help/quicksilver/planning/access/access-overview.md).
 
@@ -96,23 +100,36 @@ El tipo de registro configurado para ser global tiene las siguientes propiedades
    * Edítela
 
      La edición de un tipo de registro global incluye la edición de su aspecto, las funciones entre espacios de trabajo y todos los campos creados en el espacio de trabajo original.
+   * Compartirlo
+
+     Al compartir un tipo de registro, se agregan usuarios al espacio de trabajo y también se comparten los registros con esos usuarios.
+   * Eliminarlo
+
+     Sólo se puede eliminar un tipo de registro global de su espacio de trabajo original después de eliminar todas las instancias de si de todos los espacios de trabajo secundarios en los que se agregó.
+
+     Para obtener más información, vea [Eliminar tipos de registros](/help/quicksilver/planning/architecture/delete-record-types.md).
+   * Posibilidad de conexión desde otros espacios de trabajo
    * Creación y administración de formularios de solicitud
    * Creación y administración de automatizaciones
 
-* Sólo se puede eliminar un tipo de registro global si no se ha agregado a un espacio de trabajo secundario. Primero debe eliminarlo (eliminándolo) de los espacios de trabajo secundarios para poder eliminarlo del espacio de trabajo original.
-
-  Para obtener más información, vea [Eliminar tipos de registros](/help/quicksilver/planning/architecture/delete-record-types.md).
-* Los registros que agregue a un tipo de registro global sólo son visibles para los usuarios que tienen permisos de Vista en el área de trabajo donde se agregaron.
+* Los registros que agregue a un tipo de registro global sólo son visibles para los usuarios que tienen permisos de Vista en el área de trabajo donde se agregaron. <!-- this needs to be more specific: what does "o the workspace where they were added" mean? - added in which kind of workspaces? secondary or primary; asking Lilit-->
 * Los registros que agregue desde un espacio de trabajo secundario se acumulan y se muestran en el espacio de trabajo original. Todos los miembros del espacio de trabajo original obtienen permisos de visualización para ellos.
 * Cuando se agrega el tipo de registro global original a varios espacios de trabajo secundarios, se presentan los siguientes escenarios:
 
    * Los miembros del espacio de trabajo original obtienen automáticamente permisos de Vista para todos los registros agregados desde cualquier espacio de trabajo, incluso si no son miembros de dichos espacios de trabajo.
-   * Los miembros del área de trabajo secundaria sólo pueden ver registros de áreas de trabajo en las que son miembros.
-* Los tipos de registro conectados de un tipo de registro global estarán disponibles para la conexión desde los espacios de trabajo donde se agregue este tipo de registro.
+   * Los miembros del área de trabajo secundaria sólo pueden ver registros de áreas de trabajo en las que son miembros. <!--change this to: Secondary workspace members can view only records from the workspace the records were added and where they have at least permissions to view the record workspace and the record type.-->
+
+* Los tipos de registro conectados a un tipo de registro global estarán disponibles para la conexión desde los espacios de trabajo donde se agregue este tipo de registro.
 
   Por ejemplo, si tiene un tipo de registro global de campaña que tiene una conexión con un tipo de registro de regiones y agrega el tipo de registro de campaña a un espacio de trabajo secundario, las regiones se podrán conectar entre espacios de trabajo desde el espacio de trabajo secundario. Los miembros del espacio de trabajo secundario ahora pueden crear campañas y vincularlas a regiones.
 
-* Los campos creados para un tipo de registro global desde el espacio de trabajo original son visibles desde todos los espacios de trabajo donde se agrega el tipo de registro. Solo se puede editar la configuración de campo desde el espacio de trabajo original. La configuración de los campos creados en el espacio de trabajo original es de sólo lectura en los espacios de trabajo secundarios para todos los miembros, independientemente de sus permisos en el espacio de trabajo secundario. Los administradores del espacio de trabajo secundario no pueden modificar la configuración de campos de los campos configurados en el espacio de trabajo original. Sólo los administradores del espacio de trabajo original pueden modificar la configuración de campos del espacio de trabajo original.
+* Los campos creados para un tipo de registro global desde el espacio de trabajo original son visibles desde todos los espacios de trabajo donde se agrega el tipo de registro.
+
+  Solo se puede editar la configuración de campo desde el espacio de trabajo original.
+
+  La configuración de los campos creados en el espacio de trabajo original es de sólo lectura en los espacios de trabajo secundarios para todos los miembros, independientemente de sus permisos en el espacio de trabajo secundario.
+
+  Los administradores del espacio de trabajo secundario no pueden modificar la configuración de campos de los campos configurados en el espacio de trabajo original. Sólo los administradores del espacio de trabajo original pueden modificar la configuración de campos del espacio de trabajo original.
 
 ### Consideraciones sobre los tipos de registros globales en un espacio de trabajo secundario
 
@@ -133,23 +150,28 @@ El tipo de registro configurado para ser global tiene las siguientes propiedades
 
      Para obtener más información, consulte [Compartir vistas](/help/quicksilver/planning/access/share-views.md).
 
+<!--Uncomment this at prod on Jan 15: * Share it-->
 
-     <!-- when they will be able to add fields to the secondary space, this bullet will need this extra information: 
-         After adding fields to the global record type in the secondary workspace, shared views might not open for other users in workspaces. The fields exist only in the secondary workspace and they would not be visible in any other workspace. Only fields created in the primary workspace are visible in all secondary workspaces where there the record type is added. -->
+<!--You can share a global record type added to a secondary workspace from the secondary space. By sharing a global record type in a secondary workspace, the following also occur:
 
-  <!--These two capabilities will come later - and edit some of the bullets below after these capabilities are released:
-    * Add new fields
-        Fields added to a global record from a secondary workspace are visible only from the secondary workspace. 
-    * Share it
-    * Add request forms to it
-    * Add automations to it-->
+    * Users are added to the workspace with View permissions.
+    * Users receive the same permissions to all the records of the global record type in the secondary workspace.-->
+
+<!--when they will be able to add fields to the secondary space, this bullet will need this extra information: 
+    After adding fields to the global record type in the secondary workspace, shared views might not open for other users in workspaces. The fields exist only in the secondary workspace and they would not be visible in any other workspace. Only fields created in the primary workspace are visible in all secondary workspaces where there the record type is added.-->
+
+<!--These two capabilities will come later - and edit some of the bullets below after these capabilities are released:
+* Add new fields
+    Fields added to a global record from a secondary workspace are visible only from the secondary workspace. 
+* Add request forms to it
+* Add automations to it-->
 
 * Ningún usuario puede realizar las siguientes acciones en un tipo de registro global en un espacio de trabajo secundario:
 
    * Edítela
 
      No se puede editar su aspecto, sus funciones entre espacios de trabajo ni los campos añadidos desde el espacio de trabajo original.
-   * Compartirlo
+   * Compartirlo <!-- remove this at Prod on Jan 15-->
    * Creación y administración de formularios de solicitud
    * Creación y administración de automatizaciones
 
@@ -159,11 +181,17 @@ El tipo de registro configurado para ser global tiene las siguientes propiedades
    * Espacio de trabajo original del tipo de registro global.
    * Todos los demás espacios de trabajo en los que se agrega el espacio de trabajo global.
 
+  <!--replace he above bullet with this: 
+        * Records added in a secondary workspace are visible from the following workspaces, only if you have View or higher permissions to these workspaces:
+        * The secondary place where they were added
+        * The global record type's original workspace
+    -->
+
 * Los siguientes escenarios existen para registros creados en espacios de trabajo secundarios:
 
    * Si tiene permisos de Administración en el espacio de trabajo original y no tiene permisos en espacios de trabajo secundarios, puede ver los registros agregados desde los espacios de trabajo secundarios en el espacio de trabajo original, pero no puede administrarlos desde el espacio de trabajo original.
    * Si tiene permisos de Administración en el espacio de trabajo secundario, puede administrar los registros tanto del espacio de trabajo original del tipo de registro global como del espacio de trabajo secundario donde se agregaron.
-   * Puede ver los registros en espacios de trabajo secundarios adicionales en los que el tipo de registro global se agrega sólo si tiene permisos de visualización en dichos espacios de trabajo.
+   * Puede ver los registros en espacios de trabajo secundarios adicionales en los que el tipo de registro global se agrega sólo si tiene permisos de visualización en dichos espacios de trabajo. <!-- take this bullet out when we change this functionality on Jan 15-->
 
 ### Acceso a las conexiones de un tipo de registro global
 

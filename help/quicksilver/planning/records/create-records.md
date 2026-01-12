@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
+source-git-commit: 895fcc9e8bfc6ef21e82ae6dab4c370b0e267cad
 workflow-type: tm+mt
-source-wordcount: '3143'
+source-wordcount: '3165'
 ht-degree: 21%
 
 ---
@@ -146,16 +146,26 @@ Para obtener más información acerca de los requisitos de acceso de Workfront, 
 </tbody> 
 </table> -->
 
+## Consideraciones al crear registros
+
+<!--
+* Depending which workspace they are added from, records added to global record types are visible by the following types of users:
+
+    * Records added to the original workspace of a global record type are visible from the original workspace and all secondary workspaces where the record type is added. (***************check with Lilit on this one*************)
+    * Records added to a secondary workspace of a global record type are visible only from the workspace they were created and the original workspace of the global record type. 
+    For more information, see [Cross-workspace record type overview](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md). -->
+
+* Según sus permisos en el espacio de trabajo y los tipos de registro, los usuarios pueden crear registros de las siguientes maneras:
+
+   * Los usuarios con permisos de visualización en el espacio de trabajo y tipo de registro solo pueden crear registros mediante el botón Solicitar registro de la página de tipo de registro.
+   * Los usuarios con permisos de Contribute y Manage para el espacio de trabajo y el tipo de registro pueden crear registros con el botón New record de la página de tipos de registros.
+
+  >[!IMPORTANT]
+  >
+  >Un administrador del espacio de trabajo debe crear un formulario de solicitud para el tipo de registro para que los usuarios con permisos de Vista puedan agregar registros mediante un formulario de solicitud. De lo contrario, los usuarios con permisos de visualización no podrán crear registros.
+
+
 ## Crear registros con el botón Nuevo registro o Solicitar registro desde cualquier vista de tipo de registro
-
-Los usuarios con permisos de visualización en el espacio de trabajo y tipo de registro solo pueden crear registros mediante el botón Solicitar registro de la página de tipo de registro.
-
-Los usuarios con permisos de Contribute y Manage para el espacio de trabajo y el tipo de registro pueden crear registros con el botón New record de la página de tipos de registros.
-
-
->[!IMPORTANT]
->
->Un administrador del espacio de trabajo debe crear un formulario de solicitud para el tipo de registro para que los usuarios con permisos de Vista puedan agregar registros mediante un formulario de solicitud. De lo contrario, los usuarios con permisos de visualización no podrán crear registros.
 
 {{step1-to-planning}}
 
