@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 2a640cd5-f4a8-4ff3-81b6-32f85f6e4535
-source-git-commit: 98ef4a4f0a30dc90956132cb715393a29170d715
+source-git-commit: 9a7ab1928bfd25c197fca65eddfba1bc01977ea7
 workflow-type: tm+mt
-source-wordcount: '523'
-ht-degree: 34%
+source-wordcount: '464'
+ht-degree: 38%
 
 ---
 
@@ -18,9 +18,9 @@ ht-degree: 34%
 
 # Información general sobre las limitaciones de objetos de Adobe Workfront Planning
 
-<span class="preview">La información de esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después de las versiones mensuales en Production, las mismas características también están disponibles en el entorno Production para los clientes que habilitaron versiones rápidas.</span>
+<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases.</span>   
 
-<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -49,13 +49,13 @@ En la tabla siguiente se muestran los límites de la cantidad de objetos que se 
 | Número de filas que puede importar en un archivo CSV o de Excel para crear tipos de registros | 25.000 |
 | Número de columnas que se pueden importar en un archivo CSV o de Excel para crear tipos de registros | 500 |
 | Número de campos de fórmula para un tipo de registro | 20 |
-| <span class="preview">Número de campos de conexión para un tipo de registro</span> | <span class="preview">30</span> |
+| Número de campos de conexión para un tipo de registro | 30 |
 | Número de caracteres en una expresión de campo de fórmula | 50.000 |
 | Número de entidades (usuarios, funciones, equipos, empresas y grupos) con las que puede compartir un objeto de Planning | 100 |
-| <span class="preview">Número de tipos de registros en una jerarquía</span> | 4 |
-| <span class="preview">Número de jerarquías en un espacio de trabajo</span> | 5 |
-| <span class="preview">Número de registros de un tipo de registro principal conectados a un registro de un tipo de registro secundario, dentro de una jerarquía</span> | 10 |
-| Número de registros conectados a un registro en un tipo de conexión de selección múltiple, <span class="preview">sin una jerarquía configurada entre los registros</span> | 500 |
+| Número de tipos de registro en una jerarquía | 4 |
+| Número de jerarquías en un espacio de trabajo | 5 |
+| Número de registros de un tipo de registro principal conectados a un registro de un tipo de registro secundario, dentro de una jerarquía | 10 |
+| Número de registros conectados a un registro en un tipo de conexión de selección múltiple, sin una jerarquía configurada entre los registros | 500 |
 
 * Recomendamos no tener demasiados espacios de trabajo, ya que podrían resultar difíciles de administrar y los flujos de trabajo podrían estar demasiado fragmentados.
 

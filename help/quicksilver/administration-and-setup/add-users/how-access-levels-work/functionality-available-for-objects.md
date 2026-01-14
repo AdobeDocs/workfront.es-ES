@@ -10,7 +10,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: a419e4fe-7781-48ac-8765-bd605fa44bc9
-source-git-commit: 527a5de08a89bdd4d27d508113b8b0f4b2d73089
+source-git-commit: 8f7249e08268a8cb784d4c0ecc8c534542fa80cf
 workflow-type: tm+mt
 source-wordcount: '1334'
 ht-degree: 93%
@@ -32,7 +32,7 @@ También indica qué acciones pueden deshabilitar o habilitar los administradore
 >[!NOTE]
 >
 >* Este artículo describe la funcionalidad disponible para los niveles de acceso en el nuevo modelo de paquete de Workfront. Para ver la funcionalidad disponible en el modelo de paquete actual, consulte [Funcionalidad disponible para cada tipo de objeto para varios niveles de acceso](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md).
->* Para obtener una lista de las funcionalidades disponibles para los diferentes paquetes del modelo más reciente, consulte [Precios y paquetes de Adobe Workfront](https://business.adobe.com/es/products/workfront/pricing.html).
+>* Para obtener una lista de las funcionalidades disponibles para los diferentes paquetes del modelo más reciente, consulte [Precios y paquetes de Adobe Workfront](https://business.adobe.com/products/workfront/pricing.html).
 
 ## Proyectos
 
@@ -65,7 +65,7 @@ También indica qué acciones pueden deshabilitar o habilitar los administradore
 | Editar detalles del proyecto | ✓ |   |   |   |
 | Editar personal | ✓ |   |   |   |
 | Exportar a MS Project | ✓ | ✓ |   |   |
-| Recalcular finanzas/líneas de tiempo | ✓ |   |   |   |
+| Recalcular finanzas/cronologías | ✓ |   |   |   |
 | Establecer propiedades de cola | ✓ |   |   |   |
 
 {style="table-layout:auto"}
@@ -125,7 +125,7 @@ También indica qué acciones pueden deshabilitar o habilitar los administradore
 | Convertir un problema en un proyecto | ✓ |   |   |   |
 | Convertir un problema en una tarea | ✓ |   |   |   |
 | Aceptar asignaciones | ✓ |   |   |   |
-| Hacer asignaciones | ✓ |   |   |   |
+| Hacer asignaciones | ✓ | ✓ | ✓ |   |
 | Añadir actualizaciones y comentarios | ✓ | ✓ | ✓ |   |
 
 {style="table-layout:auto"}

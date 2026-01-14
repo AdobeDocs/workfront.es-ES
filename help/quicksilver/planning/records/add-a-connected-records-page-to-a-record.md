@@ -5,19 +5,19 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
+source-git-commit: 9a7ab1928bfd25c197fca65eddfba1bc01977ea7
 workflow-type: tm+mt
-source-wordcount: '2743'
-ht-degree: 4%
+source-wordcount: '2004'
+ht-degree: 2%
 
 ---
 
 
 # Agregar una página Registros conectados a un registro
 
-<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después de las versiones mensuales en Production, las mismas funciones también están disponibles en el entorno Production para los clientes que habilitaron versiones rápidas. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 Puede ver información de registros u objetos conectados agregando una ficha para una página Registros conectados a un registro en Adobe Workfront Planning. Esto agrega los registros conectados en una vista de tabla a la ficha.
 
@@ -27,19 +27,19 @@ Tenga en cuenta lo siguiente al agregar una página Registros conectados a un re
 
 * Puede agregar una página Registros conectados desde el área de vista previa de un registro o desde la página del registro.
 
-* <span class="preview">Solo puede tener una página de registros conectada para un tipo de registro específico.</span>
+* Sólo puede tener una página de registros conectada para un tipo de registro específico.
 
-  <span class="preview">Por ejemplo, si crea una página de registros conectados para una campaña y desea mostrar sus personalidades conectadas, solo puede tener una página de registros conectados para personalidades.</span>
+  Por ejemplo, si crea una página de registros conectados para una campaña y desea mostrar sus personalidades conectadas, solo puede tener una página de registros conectados para personalidades.
 
 * Las páginas Registros conectados sólo muestran los objetos o registros conectados de un tipo de objeto o registro. La página no muestra todos los registros de ese tipo.
 
 * Según el tipo de objeto o registro que se muestre en la página de registros conectados, se pueden mostrar con las siguientes vistas:
 
-   * Puede mostrar los registros de Planning conectados en las siguientes vistas:
+   * Puede mostrar registros de Planning conectados en los siguientes tipos de vistas:
       * Tabla
-      * <span class="preview">Cronología</span>
-      * <span class="preview">Calendario</span>
-   * Puede mostrar los proyectos de Workfront conectados en la vista de lista.
+      * Cronología
+      * Calendario
+   * Puede mostrar los proyectos de Workfront conectados en una vista de lista.
 
 * Puede agregar páginas Registros conectados para los siguientes tipos de registros u objetos conectados:
 
@@ -76,7 +76,7 @@ Tenga en cuenta lo siguiente al agregar una página Registros conectados a un re
    <ul><li><p>Licencia de Adobe Experience Manager Assets e integración entre AEM Assets y Workfront para conectar recursos de AEM con tipos de registros de Planning.</p>
    <p>Para obtener más información, consulte <a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">Adobe Workfront para Experience Manager Assets y Assets Essentials: índice de artículo</a>. </p></li>
    <li><p> Licencia de Adobe GenStudio for Performance Marketing para conectar tipos de registros con marcas de GenStudio</p>
-   <p>Para obtener más información, consulte <a href="https://experienceleague.adobe.com/es/docs/genstudio-for-performance-marketing/user-guide/get-started">Introducción a Adobe GenStudio for Performance Marketing</a>.</p></li></ul>
+   <p>Para obtener más información, consulte <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started">Introducción a Adobe GenStudio for Performance Marketing</a>.</p></li></ul>
    </td> 
   </tr>
 
@@ -118,7 +118,7 @@ Primero debe conectar los tipos de registros con otros tipos de registros o proy
 
    >[!TIP]
    >
-   ><span class="preview">Puede crear una página de registros conectados por tipo de registro. Si un tipo de registro conectado ya tiene una página, ya no se muestra como una opción.</span>
+   >Puede crear una página de registros conectados por tipo de registro. Si un tipo de registro conectado ya tiene una página, ya no se muestra como opción.
    >
 
 1. (Opcional y condicional) Si se muestra más de un campo conectado del tipo de registro u objeto para el que está creando la página, haga clic en el campo cuyos registros u objetos desee mostrar en la página de registros conectados de la lista **Seleccionar campo de referencia**.
@@ -157,62 +157,62 @@ Para obtener más información, consulte la sección [Administrar la página de 
 
 ### Administrar la página de registros conectados para registros de Planning
 
-La administración de la página de registros conectados para registros de Planning difiere según el entorno que utilice.
+<!--
 
-#### Administrar la página de registros conectados para registros de Planning en el entorno de producción
+#### Manage the connected records page for Planning records in the Production environment
 
-Cuando cree una página de registros conectados para registros de Planning conectados en el entorno Producción, haga lo siguiente: <!--or AEM Assets--> <!--AEM is not available yet?? see note below-->
+When you create a connected records page for  connected Planning records in the Production environment, do the following: (****or AEM Assets - AEM is not available yet?? see note below********)
 
-1. Vaya a una página de tipo de registro y haga clic en el nombre de un registro. Se abre la página de vista previa del registro.
-1. Haga clic en la ficha de una página de registros conectados que muestra registros de Planning.
-Los registros conectados al registro seleccionado se muestran en la vista de tabla.
-1. Haga clic en **Conectar** en la parte inferior de la vista de tabla para conectar los registros existentes, selecciónelos en el cuadro de conexión y, a continuación, haga clic fuera del cuadro para cerrarlo. Los registros se agregan automáticamente a la tabla y se conectan al registro seleccionado. Los registros deben existir antes de que pueda agregarlos.
+1. Go to a record type page and click the name of a record. This opens the record's preview page.
+1. Click the tab for a connected records page that display Planning records.
+   The records connected to the record you selected display in the table view. 
+1. Click **Connect** at the bottom of the table view to connect existing records, select them from the connection box, then click outside the box to close it. The records are automatically added to the table and connected to the record you selected. The records must exist before you can add them.
 
-   Para obtener más información, consulte [Conectar registros](/help/quicksilver/planning/records/connect-records.md).
+   For more information, see [Connect records](/help/quicksilver/planning/records/connect-records.md).
 
-1. Edite cualquier información de los registros conectados en línea en la vista de tabla.
-1. Pase el ratón sobre el nombre de un registro conectado y luego haga clic en el menú **Más** ![Menú Más](assets/more-menu.png)
+1. Edit any information from the connected records inline in the table view. 
+1. Hover over a connected record's name, then click the **More** menu ![More menu](assets/more-menu.png)
 
-   O
+   Or 
+   
+   Select one of the records, then click one of the following options in the blue bar at the bottom of the list: 
 
-   Seleccione uno de los registros y, a continuación, haga clic en una de las siguientes opciones de la barra azul situada en la parte inferior de la lista:
+   * **View** to open the record page in a new tab
+   * **Copy link** to copy a link to the record page
+   * **Edit thumbnail** to open the **Record thumbnail** box and edit the record's thumbnail image
+   * **Duplicate** to duplicate the connected record. The duplicated record is also connected to the current record.
+   * **Insert record above or below** to add new records to the connected record type. New records added here are also connected to the current record. This option is not available in the blue bar when selecting a record in the table.
+   * **Delete** to delete the record. Deleting a connected record deletes it from its record type and from everywhere where the record is connected. The deleted records move to the **Recently deleted** bin of their record type.
 
-   * **Ver** para abrir la página de registros en una nueva pestaña
-   * **Copiar vínculo** para copiar un vínculo a la página de registro
-   * **Editar miniatura** para abrir el cuadro **Grabar miniatura** y editar la imagen en miniatura del registro
-   * **Duplicate** para duplicar el registro conectado. El registro duplicado también está conectado al registro actual.
-   * **Inserte un registro por encima o por debajo de** para agregar nuevos registros al tipo de registro conectado. Los registros nuevos agregados aquí también están conectados al registro actual. Esta opción no está disponible en la barra azul al seleccionar un registro de la tabla.
-   * **Eliminar** para eliminar el registro. Al eliminar un registro conectado, se elimina de su tipo de registro y de cualquier lugar donde esté conectado. Los registros eliminados se mueven al grupo **Eliminados recientemente** de su tipo de registro.
+      For information about editing records in the table view, see [Edit records](/help/quicksilver/planning/records/edit-records.md). 
 
-     Para obtener información acerca de cómo editar registros en la vista de tabla, vea [Editar registros](/help/quicksilver/planning/records/edit-records.md).
+      >[!TIP]
+      >
+      >You can select more than one record or object to delete them.
+      >
 
-     >[!TIP]
-     >
-     >Puede seleccionar más de un registro u objeto para eliminarlos.
-     >
+1. Inline edit any of the records in the table on the connected records page.
+1. Use any of the following view elements in the toolbar of a connected record page to manage the table view:
 
-1. Edite en línea cualquiera de los registros de la tabla de la página de registros conectados.
-1. Utilice cualquiera de los siguientes elementos de vista en la barra de herramientas de una página de registro conectada para administrar la vista de tabla:
+   * **Filters**
+   * **Sort**
+   * **Grouping**
+   * **Fields**, to display, hide, or rearrange fields
+   * **Row height**
+   * **Search**
 
-   * **Filtros**
-   * **Ordenar**
-   * **Agrupación**
-   * **Campos**, para mostrar, ocultar o reorganizar campos
-   * **Altura de fila**
-   * **Búsqueda**
-
-   Para obtener más información, consulte [Administrar la vista de tabla](/help/quicksilver/planning/views/manage-the-table-view.md).
+   For information, see [Manage the table view](/help/quicksilver/planning/views/manage-the-table-view.md). 
 
    >[!NOTE]
    >
-   >No puede crear, editar ni eliminar campos en la vista de tabla de la ficha de un registro conectado.
+   >You cannot create, edit, or delete fields in the table view of a connected record's tab.
    >
 
-<div class="preview">
+#### Manage the connected records page for Planning records in the Preview environment
 
-#### Administrar la página de registros conectados para registros de Planning en el entorno de vista previa
+When you create a connected records page for connected Planning records in the Preview environment, do the following: (***********or AEM Assets -- AEM is not available yet?? see note below**********)
 
-Cuando cree una página de registros conectados para registros de Planning conectados en el entorno de vista previa, haga lo siguiente: <!--or AEM Assets--> <!--AEM is not available yet?? see note below-->
+-->
 
 1. Vaya a una página de tipo de registro y haga clic en el nombre de un registro. Se abre la página de vista previa del registro.
 1. Haga clic en la ficha de una página de registros conectados que muestra registros de Planning.
@@ -259,7 +259,7 @@ Los registros conectados al registro seleccionado se muestran en la vista de tab
    >No puede crear, editar ni eliminar campos en la vista de tabla de la ficha de un registro conectado.
    >
 
-1. Haga clic en el menú desplegable de vistas y, a continuación, haga clic en **Nueva vista** para agregar una nueva vista para la página y, a continuación, haga lo siguiente:
+1. Haga clic en el menú desplegable de vistas en la esquina superior derecha de la página de registros conectada, haga clic en **Nueva vista** para agregar una nueva vista para la página y, a continuación, haga lo siguiente:
 
    1. Agregar **nombre de vista**.
    1. En el área **Tipo de vista**, seleccione uno de los siguientes tipos de vistas:
@@ -282,17 +282,16 @@ Se añade una nueva vista al menú desplegable de vistas.
       * **Compartir**
 
         Para obtener más información, consulte [Compartir vistas](/help/quicksilver/planning/access/share-views.md).
-
-        >[!NOTE]
-        >
-        >No puede compartir una vista de sistema creada por Workfront.
+      * **Exportar**
 
       * **Eliminar**
 Para obtener más información, consulte [Eliminar vistas de registros](/help/quicksilver/planning/views/delete-record-views.md).
 
         ![](assets/view-more-menu-projects-connected-records-page.png)
 
-</div>
+        >[!NOTE]
+        >
+        >No puede eliminar una vista de sistema creada por Workfront.
 
 ### Administrar la página de registros conectados para proyectos de Workfront
 
@@ -328,30 +327,30 @@ Los proyectos conectados al registro seleccionado se muestran en la vista de lis
    1. Agregar **nombre de vista**.
    1. Seleccione **Lista** del área **Tipo de vista**.
    1. Haga clic en **Crear**.
-Se agrega una nueva vista de lista al menú desplegable de vistas.
+Se ha agregado una nueva vista de lista al menú desplegable de vistas en el área de **Mis vistas**.
 
       Para obtener más información, consulte la sección [Administrar varias vistas desde la página de registros conectados](#manage-multiple-views-from-the-connected-records-page) en este artículo.
 
    1. (Opcional) Pase el ratón sobre el nombre de una vista que haya creado, haga clic en el menú **Más** ![Menú más](assets/more-menu.png) y, a continuación, haga clic en una de las siguientes opciones:
       * **Cambiar nombre**, para agregar un nuevo nombre para la vista.
-      * <span class="preview">**Compartir**</span>
+      * **Compartir**
 
         Para obtener más información, consulte [Compartir vistas](/help/quicksilver/planning/access/share-views.md).
-
-        >[!NOTE]
-        >
-        >No puede compartir una vista de sistema creada por Workfront.
 
       * **Eliminar**
 Para obtener más información, consulte [Eliminar vistas de registros](/help/quicksilver/planning/views/delete-record-views.md).
 
         ![](assets/view-more-menu-projects-connected-records-page.png)
 
+        >[!NOTE]
+        >
+        >No puede cambiar el nombre, compartir ni eliminar una vista de sistema creada por Workfront.
+
    1. Haga clic en el icono **Filtro** ![Icono de filtro](assets/filter-icon.png) y use el filtro para mostrar proyectos específicos.
 
       >[!TIP]
       >
-      ><span class="preview">Para campos de tipo personas, como **Propietario** o **Patrocinador**, puede usar un comodín para mostrar proyectos donde el usuario que ha iniciado sesión esté asignado a estos roles.</span>
+      >Para campos de tipo personas, como **Propietario** o **Patrocinador**, puede usar un comodín para mostrar proyectos donde el usuario que inició sesión esté asignado a estos roles.
       >
       >![Filtro con comodín de usuario para la página de registros conectados al proyecto](assets/filter-with-user-wildcard-project-connected-records-page.png)
       >
@@ -367,41 +366,40 @@ Para obtener más información, consulte [Eliminar vistas de registros](/help/qu
       1. Haga clic en **-** a la derecha de un campo en la columna **Seleccionado** para quitarlo de la vista de tabla.
       1. Haga clic en **Guardar** para guardar la vista de tabla de páginas de registros conectados.
 
+<!-- this is repetitive from an earlier section above: 
 
-<div class="preview">
+## Manage multiple views from the connected records page
 
-## Administrar varias vistas desde la página de registros conectada
+You can add and manage multiple view types from the connected records page of a record. 
 
-Puede agregar y administrar varios tipos de vista desde la página de registros conectada de un registro.
+The views you create in the Connected records page of a record type are available everywhere in Workfront Planning where that record type page displays. Views created for the same record type anywhere else in Workfront Planning are also accessible in all connected records pages of that record type. 
 
-Las vistas que cree en la página Registros conectados de un tipo de registro están disponibles en cualquier lugar de Workfront Planning donde se muestre la página de ese tipo de registro. Las vistas creadas para el mismo tipo de registro en cualquier otra parte de Workfront Planning también son accesibles en todas las páginas de registros conectadas de ese tipo de registro.
+To manage multiple views from the connected records page: 
 
-Para administrar varias vistas desde la página de registros conectada:
+1. (Conditional) When displaying Planning records in the connected records page, click the dropdown menu to the right of the view name, then click **New view** to add a view, then select from the following options: 
 
-1. En la página de registros conectados de un registro, haga clic en el menú desplegable situado a la derecha del nombre de la vista, luego haga clic en **Nueva vista** para agregar una vista y, a continuación, seleccione una de las siguientes opciones:
+   * **Table**. For more information, see [Manage the table view](/help/quicksilver/planning/views/manage-the-table-view.md). 
+   * **Timeline**. For more information, see [Manage the timeline view](/help/quicksilver/planning/views/manage-the-timeline-view.md).
+   * **Calendar**. For more information, see [Manage the calendar view](/help/quicksilver/planning/views/manage-the-calendar-view.md). 
 
-   * **Tabla**. Para obtener más información, consulte [Administrar la vista de tabla](/help/quicksilver/planning/views/manage-the-table-view.md).
-   * **Cronología**. Para obtener más información, consulte [Administrar la vista de cronología](/help/quicksilver/planning/views/manage-the-timeline-view.md).
-   * **Calendario**. Para obtener más información, consulte [Administrar la vista de calendario](/help/quicksilver/planning/views/manage-the-calendar-view.md).
+1. (Optional) Hover over the name of a view in the Connected records page, then click the **More** menu ![More menu](assets/more-menu.png), then click one of the following: 
 
-1. (Opcional) Pase el ratón sobre el nombre de una vista en la página Registros conectados, luego haga clic en el menú **Más** ![Menú más](assets/more-menu.png) y, a continuación, haga clic en una de las siguientes opciones:
-
-   * **Cambiar nombre**
-   * **Compartir**. Para obtener más información, consulte [Compartir vistas](/help/quicksilver/planning/access/share-views.md).
+   * **Rename**
+   * **Share**. For more information, see [Share views](/help/quicksilver/planning/access/share-views.md).
 
    >[!TIP]
    >
-   >Al compartir vistas desde las páginas Registros conectados, los usuarios pueden acceder a ellas en todas las áreas de Workfront Planning donde se muestre la vista.
-   >Además, si una vista se comparte desde cualquier otra área de Workfront Planning, también estará disponible para los mismos usuarios en las páginas Registros conectados.
+   >Sharing views from Connected records pages makes them accessible to users in all areas of Workfront Planning where the view displays. 
+   >Also, if a view is shared from any other area of Workfront Planning, it is also available to the same users in Connected records pages. 
 
-   * **Exportar**
-   * **Duplicado**. Para obtener más información, vea [Duplicar vistas de registros](/help/quicksilver/planning/views/duplicate-record-views.md).
+   * **Export** 
+   * **Delete**
 
-     >[!TIP]
-     >
-     >Al duplicar una vista desde las páginas Registros conectados, estará disponible en todas las demás áreas de la planificación de Workfront, al ver los mismos tipos de registros.
+   <!--not possible right now: * **Duplicate**. For more information, see [Duplicate record views](/help/quicksilver/planning/views/duplicate-record-views.md).
+      >[!TIP]
+      >
+      >Duplicating a view from Connected records pages makes it available in all other areas of Workfornt planning, when viewing the same record types. -->
 
-</div>
 
 <!--No longer possible: 1. (Optional and conditional) When you create a connected records page for the following Workfront object types:
          * Portfolios

@@ -6,10 +6,10 @@ description: Modificar asignaciones de usuarios para varios problemas en una lis
 author: Lisa
 feature: Work Management
 exl-id: e1e75027-1847-44cf-afeb-b19394dc3ea5
-source-git-commit: 0358e79bd606d0035959bba2a47256456b529b18
+source-git-commit: 8f7249e08268a8cb784d4c0ecc8c534542fa80cf
 workflow-type: tm+mt
-source-wordcount: '521'
-ht-degree: 50%
+source-wordcount: '523'
+ht-degree: 51%
 
 ---
 
@@ -48,12 +48,12 @@ Para obtener información general sobre la asignación de problemas, consulte [I
  <col> 
  <tbody> 
   <tr> 
-   <td>paquete de Adobe Workfront</td> 
+   <td>Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
    <td>Licencia de Adobe Workfront</td> 
-   <td> <p>Estándar</p>
+   <td> <p>Colaborador o superior</p>
    <p>Solicitud o superior</p> </td> 
   </tr> 
   <tr> 

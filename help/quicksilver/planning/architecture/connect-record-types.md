@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: 98ef4a4f0a30dc90956132cb715393a29170d715
+source-git-commit: 9a7ab1928bfd25c197fca65eddfba1bc01977ea7
 workflow-type: tm+mt
-source-wordcount: '2853'
+source-wordcount: '2877'
 ht-degree: 40%
 
 ---
@@ -38,7 +38,7 @@ Una vez creados los campos de conexión, puede conectar registros individuales e
 
 >[!NOTE]
 >
-><span class="preview">Puede tener hasta 30 campos de conexión para un tipo de registro.</span>
+>Puede tener hasta 30 campos de conexión para un tipo de registro.
 
 En este artículo se describe cómo conectar dos tipos de registros de Workfront Planning o un tipo de registro de Workfront Planning con un objeto de otra aplicación.
 
@@ -89,7 +89,7 @@ Para ver un ejemplo de conexión de tipos de registros y registros, consulte [Ej
    <ul><li><p>Licencia de Adobe Experience Manager Assets e integración entre AEM Assets y Workfront para conectar recursos de AEM con tipos de registros de Planning.</p>
    <p>Para obtener más información, consulte <a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">Adobe Workfront para Experience Manager Assets y Assets Essentials: índice de artículo</a>. </p></li>
    <li><p> Licencia de Adobe GenStudio for Performance Marketing para conectar tipos de registros con marcas de GenStudio</p>
-   <p>Para obtener más información, consulte <a href="https://experienceleague.adobe.com/es/docs/genstudio-for-performance-marketing/user-guide/get-started">Introducción a Adobe GenStudio for Performance Marketing</a>.</p></li></ul>
+   <p>Para obtener más información, consulte <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started">Introducción a Adobe GenStudio for Performance Marketing</a>.</p></li></ul>
    </td> 
   </tr> 
   <tr> 
@@ -204,7 +204,7 @@ Para obtener más información acerca de los requisitos de acceso de Workfront, 
 
      >[!TIP]
      >
-     >La opción **Permitir la conexión a este tipo de registro en otros espacios de trabajo** debe estar habilitada para un tipo de registro en la ficha **Configuración avanzada** <span class="preview">o **Configuración entre espacios de trabajo**</span> del cuadro **Editar tipo de registro**, para que se pueda obtener acceso a un tipo de registro desde otros espacios de trabajo. Si no hay ningún tipo de registro configurado para conectarse desde otros espacios de trabajo, la sección del espacio de trabajo no se muestra.
+     >La opción **Permitir la conexión a este tipo de registro en otros espacios de trabajo** debe estar habilitada para un tipo de registro en la ficha **Configuración avanzada** o **Configuración entre espacios de trabajo** del cuadro **Editar tipo de registro**, para que se pueda obtener acceso a un tipo de registro desde otros espacios de trabajo. Si no hay ningún tipo de registro configurado para conectarse desde otros espacios de trabajo, la sección del espacio de trabajo no se muestra.
      >
      >Para obtener más información, vea [Configurar las capacidades entre espacios de trabajo para los tipos de registro](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md). <!--update screen shot at production-->
      >
@@ -252,9 +252,9 @@ Para obtener más información acerca de los requisitos de acceso de Workfront, 
 
    >[!TIP]
    >
-   >* Además de <span class="preview">el límite de 30 campos de conexión para un tipo de registro</span>, hay un límite de 500 campos para un tipo de registro. Se recomienda mantener esta configuración desactivada, especialmente para los tipos de registros taxonómicos, para evitar alcanzar este límite.
+   >* Además del límite de 30 campos de conexión para un tipo de registro, hay un límite de 500 campos para un tipo de registro. Se recomienda mantener esta configuración desactivada, especialmente para los tipos de registros taxonómicos, para evitar alcanzar este límite.
    >
-   >* <span class="preview">Seleccionar el **Crear campo correspondiente en el tipo de registro vinculado** es un requisito previo para crear jerarquías.</span>
+   >* Seleccionar el **campo correspondiente en el tipo de registro vinculado** es un requisito previo para crear jerarquías.
 
 1. (Condicional) Si habilitó **Crear campo correspondiente en el tipo de registro vinculado**, elija entre las siguientes opciones para indicar cuántos registros se pueden conectar y desde los que se pueden conectar los usuarios:
 
@@ -279,7 +279,7 @@ Para obtener más información acerca de los requisitos de acceso de Workfront, 
 
    >[!NOTE]
    >
-   >El administrador de Workfront puede asignar campos de Workfront Planning a campos de Experience Manager Assets a través de la asignación de metadatos en Workfront. Para obtener más información, consulte [Configuración de la asignación de metadatos de recursos entre Adobe Workfront y Experience Manager Assets](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
+   >El administrador de Workfront puede asignar campos de Workfront Planning a campos de Experience Manager Assets a través de la asignación de metadatos en Workfront. Para obtener más información, consulte [Configuración de la asignación de metadatos de recursos entre Adobe Workfront y Experience Manager Assets](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
 
 
 1. (Condicional) Cuando seleccione conectarse a Experience Manager Assets, a un tipo de registro de Workfront Planning o a una marca de GenStudio, elija una de las siguientes opciones en el área **Apariencia del registro**:
@@ -309,6 +309,8 @@ Para obtener más información acerca de los requisitos de acceso de Workfront, 
    >* La información del campo de fecha de los objetos de Workfront se muestra en formato de 24 horas en Workfront Planning, independientemente de cómo se muestre en Workfront.
    >
    >   Por ejemplo, si la fecha planificada de inicio de un proyecto se muestra como las 3:00 p.m. en Workfront, se mostrará como 15:00 en Workfront Planning en un campo de búsqueda importado.
+   >* En el entorno de producción, no se pueden agregar campos Personas como campos de búsqueda. <span class="preview">Puede agregar campos Personas como campos de búsqueda en el entorno de vista previa.</span>
+   >
 
 1. Haga clic en **Crear**.
 
@@ -407,7 +409,7 @@ Para obtener más información acerca de los requisitos de acceso de Workfront, 
      >[!TIP]
      >
      > No se crea un campo de registro vinculado para los objetos de otra aplicación en sus respectivas aplicaciones.
-     >Se recomienda no crear vínculos a tipos de registros taxonómicos, ya que hay un límite de 500 campos, <span class="preview"> además del límite de 30 campos conectados</span> para cada tipo de registro.
+     >Se recomienda no crear vínculos a tipos de registros taxonómicos, ya que hay un límite de 500 campos, además del límite de 30 campos conectados para cada tipo de registro.
 
    <!--see the span preview text in the TIP above; it might not show up in green-->
 
