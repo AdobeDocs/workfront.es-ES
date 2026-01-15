@@ -152,7 +152,7 @@ O
 
 1. En el cuadro **Editar tipo de registro**, la ficha **Apariencia** se abre de forma predeterminada.
 
-   ![Editar ficha de apariencia del cuadro de tipo de registro ](assets/edit-record-type-box-appearance-tab.png)
+   ![Editar ficha de apariencia del cuadro de tipo de registro &#x200B;](assets/edit-record-type-box-appearance-tab.png)
 
    Actualice la siguiente información en la ficha **Apariencia**:
 
