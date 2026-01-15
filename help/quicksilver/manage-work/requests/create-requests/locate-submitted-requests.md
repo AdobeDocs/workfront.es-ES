@@ -8,9 +8,9 @@ feature: Requests
 topic: Collaboration
 role: User
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
-source-git-commit: b58814d68d582a08457d1d4685d110c2bdd2087c
+source-git-commit: 9e7b94201705ce96dbc38fc6d9246461e4d4d7ea
 workflow-type: tm+mt
-source-wordcount: '1544'
+source-wordcount: '1440'
 ht-degree: 47%
 
 ---
@@ -19,21 +19,14 @@ ht-degree: 47%
 
 Puede ver las solicitudes que usted u otra persona ha enviado, o las solicitudes que ha iniciado pero que nunca ha terminado de enviar. Puede localizar estas solicitudes en las siguientes áreas de Adobe Workfront:
 
-* La pestaña **Workfront** del área de Solicitudes en Workfront: Ver solicitudes enviadas a colas de solicitudes de Workfront en las siguientes secciones:
-   * **Sección Enviado**: todas las solicitudes que ha enviado u otra persona ha enviado, a las que, como mínimo, tenga acceso de visualización.
-   * **Sección Borrador**: todas las solicitudes que ha iniciado, pero que nunca ha terminado ni enviado. Para obtener más información sobre las solicitudes de borrador, consulte [Crear y enviar solicitudes de Adobe Workfront](../../../manage-work/requests/create-requests/create-submit-requests.md).
+* El área Solicitudes de Workfront
+* el widget Mis solicitudes en Inicio
 
   >[!NOTE]
   >
   >* Solo puede ver sus propias solicitudes de borrador.
   >* En la nueva experiencia solicitante, las solicitudes enviadas y los borradores se encuentran en la misma lista.
   >* Los borradores creados en la experiencia heredada no aparecen en la nueva experiencia de solicitud.
-
-* La pestaña **Planning** del área de solicitudes en Workfront: vea las solicitudes enviadas a los formularios de solicitud de Workfront Planning. Su organización debe adquirir un paquete de Workfront Planning. Para obtener más información, consulte los siguientes artículos:
-
-   * [Creación y administración de un formulario de solicitud en Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md)
-   * [Envío de solicitudes de Adobe Workfront Planning para crear registros](/help/quicksilver/planning/requests/submit-requests.md)
-
 
 ## Requisitos de acceso
 

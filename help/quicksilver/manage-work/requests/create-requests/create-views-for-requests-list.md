@@ -5,9 +5,9 @@ title: Creación y administración de vistas en el área de solicitudes
 description: Si utiliza la nueva experiencia de solicitud, puede crear y guardar vistas para el área de solicitudes.
 author: Becky
 feature: Work Management
-source-git-commit: d8e5e6d313eb39c9ac26e7cb60113beac5637890
+source-git-commit: 9e7b94201705ce96dbc38fc6d9246461e4d4d7ea
 workflow-type: tm+mt
-source-wordcount: '717'
+source-wordcount: '693'
 ht-degree: 7%
 
 ---
@@ -93,15 +93,7 @@ Puede editar las vistas existentes, incluidas las que acaba de crear.
    >Actualmente, no se pueden agregar columnas en el entorno de producción.
 1. (Opcional) Haga clic en **Columnas** y oculte, muestre o reorganice las columnas en la lista de solicitudes.
 
-   ![Cuadro de columnas](assets/columns-editing-box-in-requests-planning-tab.png)
-
-   >[!TIP]
-   >
-   >Actualmente no se pueden agregar más columnas en el entorno de producción.
-
-1. (Opcional) Haga clic en **Filtros** y empiece a agregar condiciones para las solicitudes que desee ver en la pestaña Planificación.
-
-   ![Edición de filtros en la ficha de solicitudes de Planning](assets/filters-editing-box-in-requests-planning-tab.png)
+1. (Opcional) Haga clic en **Filtros** y empiece a agregar condiciones para las solicitudes que desee ver.
 
    Puede filtrar por los siguientes campos:
 
