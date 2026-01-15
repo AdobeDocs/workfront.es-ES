@@ -7,7 +7,7 @@ description: Puede editar la información de un formulario personalizado despué
 author: Alina
 feature: Get Started with Workfront
 exl-id: c2b6afde-91a8-4e17-8e1a-3428b48e500a
-source-git-commit: 4897f165a7316a52b968601b45f95f7045f63840
+source-git-commit: 6dce5e15a41587cd9febf82ffc0a62d3b7e121d1
 workflow-type: tm+mt
 source-wordcount: '1207'
 ht-degree: 11%
@@ -15,8 +15,6 @@ ht-degree: 11%
 ---
 
 # Editar información en campos de formulario personalizados
-
-{{preview-fast-release-general}}
 
 <!--Audited: 10/2025-->
 
@@ -31,7 +29,7 @@ Puede editar la información de un formulario personalizado después de adjuntar
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>paquete de Adobe Workfront</p> </td> 
+   <td role="rowheader"> <p>Paquete de Adobe Workfront</p> </td> 
    <td>Cualquiera</td> 
   </tr> 
   <tr> 
@@ -122,7 +120,7 @@ Para obtener información sobre qué objetos pueden tener un formulario personal
 
    >[!NOTE]
    >
-   ><span class="preview">Los campos que permiten selecciones múltiples pueden limitar la cantidad de opciones que se pueden elegir. Las casillas de verificación y los desplegables de selección múltiple están limitados a 5000 selecciones.</span>
+   >Los campos que permiten selecciones múltiples pueden limitar la cantidad de opciones que se pueden elegir. Las casillas de verificación y los desplegables de selección múltiple están limitados a 5000 selecciones.
 
    Para obtener información acerca de todos los tipos de campo, vea [Crear un formulario personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 

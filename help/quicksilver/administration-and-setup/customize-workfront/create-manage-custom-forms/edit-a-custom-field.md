@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 8eea97e7-1d05-4145-b1fd-855a6d111107
-source-git-commit: 2f7b5c9d3a934708f3128ed9e4efa76b12619913
+source-git-commit: 45bc1820e4f6416e3d47139bbcf1a2156c5900dc
 workflow-type: tm+mt
 source-wordcount: '409'
 ht-degree: 15%
@@ -17,13 +17,11 @@ ht-degree: 15%
 
 # Adición o edición de campos personalizados, saltos de sección o widgets
 
-{{preview-fast-release-general}}
-
 Puede agregar un nuevo campo o widget personalizado directamente desde el área Campos de Workfront, sin abrir un formulario personalizado para crear el campo.
 
 También puede editar las propiedades de un campo personalizado, un salto de sección o un widget que se utilizan en los formularios personalizados. Estos incluyen la etiqueta del elemento, el nombre, las instrucciones, etc.
 
-<span class="preview">Al establecer un campo personalizado como Inactivo, se excluye de los informes, filtros y vistas, y ya no está disponible en la biblioteca de campos de formularios personalizados. Todos los campos nuevos se definen como Activos de forma predeterminada. </span>
+Al establecer un campo personalizado como Inactivo, se excluye de los informes, filtros y vistas, y ya no está disponible en la biblioteca de campos de formularios personalizados. Todos los campos nuevos se definen como Activos de forma predeterminada.
 
 >[!NOTE]
 >

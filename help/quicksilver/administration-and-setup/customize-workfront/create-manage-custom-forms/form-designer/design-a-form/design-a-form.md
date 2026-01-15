@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: f23414b3c4810e47fa084d303e640a289de1f98d
+source-git-commit: 45bc1820e4f6416e3d47139bbcf1a2156c5900dc
 workflow-type: tm+mt
 source-wordcount: '6941'
 ht-degree: 53%
@@ -16,8 +16,6 @@ ht-degree: 53%
 ---
 
 # Crear un formulario personalizado
-
-{{preview-fast-release-general}}
 
 <!-- Audited: 6/2025 -->
 
@@ -263,13 +261,13 @@ Para añadir un campo de texto:
     <td><ul><li>Texto descriptivo</li></ul></td>
     </tr>
     <tr>
-     <td><span class="preview">Activo</span></td>
-     <td><span class="preview"><p>Esta opción está activada de forma predeterminada.<p><p>Cuando se establece un campo como Inactivo, se excluye de los informes, filtros y vistas y ya no está disponible en la biblioteca de campos de formularios personalizados.</p></span></td>
-     <td><ul><span class="preview">
+     <td>Activo</td>
+     <td><p>Esta opción está activada de forma predeterminada.<p><p>Cuando se establece un campo como Inactivo, se excluye de los informes, filtros y vistas y ya no está disponible en la biblioteca de campos de formularios personalizados.</p></td>
+     <td><ul>
      <li>Texto de línea única</li>
      <li>Párrafo</li>
      <li>Texto con formato</li>
-     <li>Texto descriptivo</li></span></ul></td>
+     <li>Texto descriptivo</li></ul></td>
     </tr>
     <tr> 
       <td role="rowheader">Cambiar un campo a obligatorio</td>
@@ -421,13 +419,13 @@ Para agregar botones de opción, grupos de casillas de verificación y listas de
     </td>
      </tr>
     <tr>
-     <td><span class="preview">Activo</span></td>
-     <td><span class="preview"><p>Esta opción está activada de forma predeterminada.<p><p>Cuando se establece un campo como Inactivo, se excluye de los informes, filtros y vistas y ya no está disponible en la biblioteca de campos de formularios personalizados.</p></span></td>
-     <td><ul><span class="preview">
+     <td>Activo</td>
+     <td><p>Esta opción está activada de forma predeterminada.<p><p>Cuando se establece un campo como Inactivo, se excluye de los informes, filtros y vistas y ya no está disponible en la biblioteca de campos de formularios personalizados.</p></td>
+     <td><ul>
      <li>Botones de radio</li>
      <li>Grupo de casillas de verificación</li>
      <li>Lista desplegable de selección única</li>
-     <li>Lista desplegable de selección múltiple</li></span></ul></td>
+     <li>Lista desplegable de selección múltiple</li></ul></td>
     </tr>
     <tr> 
     <td role="rowheader">Cambiar un campo a obligatorio</td> 
@@ -562,11 +560,11 @@ Para añadir los campos de fecha y escritura anticipada:
       </td>
      </tr>
      <tr>
-      <td><span class="preview">Activo</span></td>
-      <td><span class="preview"><p>Esta opción está activada de forma predeterminada.<p><p>Cuando se establece un campo como Inactivo, se excluye de los informes, filtros y vistas y ya no está disponible en la biblioteca de campos de formularios personalizados.</p></span></td>
-      <td><ul><span class="preview">
+      <td>Activo</td>
+      <td><p>Esta opción está activada de forma predeterminada.<p><p>Cuando se establece un campo como Inactivo, se excluye de los informes, filtros y vistas y ya no está disponible en la biblioteca de campos de formularios personalizados.</p></td>
+      <td><ul>
       <li>Escritura anticipada</li>
-      <li>Fecha</li></span></ul></td>
+      <li>Fecha</li></ul></td>
      </tr>
      <tr> 
       <td role="rowheader">Cambiar un campo a obligatorio</td> 
@@ -655,12 +653,12 @@ Para añadir una búsqueda externa:
       <td role="rowheader">Ruta JSON</td>
       <td><p>Escriba o pegue la ruta JSON para la API.</p> <p>Esta opción permite extraer datos del JSON devuelto por la URL de la API. Sirve para seleccionar qué valores dentro del JSON aparecerán en las opciones desplegables.</p><p>Por ejemplo, si la dirección URL de la API devuelve JSON en el siguiente formato, puede usar "$.data[*].name" para seleccionar EE. UU. y Canadá como opciones desplegables:</br>
       <pre>
-      &lbrace;
-       data: &lbrace;
+      {
+       data: {
          { name: "USA"},
          { name: "Canada"}
-       &rbrace;
-      &rbrace;
+       }
+      }
       </pre>
       </p>
      <p>Para obtener más información sobre la ruta JSON y cómo asegurarse de que escribe la ruta JSON correcta, consulte <a href="https://jsonpath.com/">https://jsonpath.com/</a>.</p></td>
@@ -674,8 +672,8 @@ Para añadir una búsqueda externa:
       <td><p>Seleccione esta opción para permitir que el usuario seleccione más de un valor en la lista desplegable.</p></td>
      </tr>
      <tr>
-      <td><span class="preview">Activo</span></td>
-      <td><span class="preview"><p>Esta opción está activada de forma predeterminada.<p><p>Cuando se establece un campo como Inactivo, se excluye de los informes, filtros y vistas y ya no está disponible en la biblioteca de campos de formularios personalizados.</p></span></td>
+      <td>Activo</td>
+      <td><p>Esta opción está activada de forma predeterminada.<p><p>Cuando se establece un campo como Inactivo, se excluye de los informes, filtros y vistas y ya no está disponible en la biblioteca de campos de formularios personalizados.</p></td>
      </tr>
      <tr> 
       <td role="rowheader">Cambiar un campo a obligatorio</td>
@@ -767,8 +765,8 @@ Para añadir imágenes, PDF o vídeos:
       <td> <p>Escriba cualquier información adicional sobre el widget. Cuando los usuarios rellenan el formulario personalizado, pueden situarse sobre el icono del signo de interrogación para ver una información de objeto que contenga la información que escriba aquí.</p> </td> 
      </tr> 
      <tr>
-      <td><span class="preview">Activo</span></td>
-      <td><span class="preview"><p>Esta opción está activada de forma predeterminada.<p><p>Cuando se establece un campo como Inactivo, se excluye de los informes, filtros y vistas y ya no está disponible en la biblioteca de campos de formularios personalizados.</p></span></td>
+      <td>Activo</td>
+      <td><p>Esta opción está activada de forma predeterminada.<p><p>Cuando se establece un campo como Inactivo, se excluye de los informes, filtros y vistas y ya no está disponible en la biblioteca de campos de formularios personalizados.</p></td>
      </tr>
     </tbody> 
    </table>
@@ -904,8 +902,8 @@ Esta tabla enumera los campos nativos disponibles para objetos de Workfront espe
       <td>
      </tr>
      <tr>
-      <td><span class="preview">Activo</span></td>
-      <td><span class="preview"><p>Esta opción está activada de forma predeterminada.<p><p>Cuando se establece un campo como Inactivo, se excluye de los informes, filtros y vistas y ya no está disponible en la biblioteca de campos de formularios personalizados.</p></span></td>
+      <td>Activo</td>
+      <td><p>Esta opción está activada de forma predeterminada.<p><p>Cuando se establece un campo como Inactivo, se excluye de los informes, filtros y vistas y ya no está disponible en la biblioteca de campos de formularios personalizados.</p></td>
      </tr>
      <tr> 
       <td role="rowheader">Cambiar un campo a obligatorio</td>
@@ -961,8 +959,8 @@ Para añadir un archivo Adobe XD:
     <img src="assets/instructions-form-designer.png"></p> </td> 
      </tr>
      <tr>
-      <td><span class="preview">Activo</span></td>
-      <td><span class="preview"><p>Esta opción está activada de forma predeterminada.<p><p>Cuando se establece un campo como Inactivo, se excluye de los informes, filtros y vistas y ya no está disponible en la biblioteca de campos de formularios personalizados.</p></span></td>
+      <td>Activo</td>
+      <td><p>Esta opción está activada de forma predeterminada.<p><p>Cuando se establece un campo como Inactivo, se excluye de los informes, filtros y vistas y ya no está disponible en la biblioteca de campos de formularios personalizados.</p></td>
      </tr>
     </tbody> 
    </table>
@@ -1057,8 +1055,8 @@ Para agregar un campo de conexión de Planning:
     <img src="assets/planning-connections-field-with-table-on-form-preview.png"></td> 
      </tr>
      <tr>
-      <td><span class="preview">Activo</span></td>
-      <td><span class="preview"><p>Esta opción está activada de forma predeterminada.<p><p>Cuando se establece un campo como Inactivo, se excluye de los informes, filtros y vistas y ya no está disponible en la biblioteca de campos de formularios personalizados.</p></span></td>
+      <td>Activo</td>
+      <td><p>Esta opción está activada de forma predeterminada.<p><p>Cuando se establece un campo como Inactivo, se excluye de los informes, filtros y vistas y ya no está disponible en la biblioteca de campos de formularios personalizados.</p></td>
      </tr>
       </tbody> 
    </table>
