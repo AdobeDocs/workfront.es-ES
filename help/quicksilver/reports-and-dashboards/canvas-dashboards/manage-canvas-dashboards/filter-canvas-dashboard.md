@@ -6,16 +6,14 @@ description: Puede aplicar un filtro a un panel de lienzo una vez que se haya cr
 author: Courtney and Jenny
 feature: Reports and Dashboards
 exl-id: 156e9d3f-49f6-4372-9749-c7124ff5baee
-source-git-commit: 39a8d670baa19aa37e29b0312e6c9a296569f44c
+source-git-commit: c6458d777726092d74e8b031f5c14dfd58710e11
 workflow-type: tm+mt
-source-wordcount: '1013'
-ht-degree: 9%
+source-wordcount: '989'
+ht-degree: 7%
 
 ---
 
 # Filtrado de un panel de lienzo
-
-<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes.</span>
 
 >[!IMPORTANT]
 >
@@ -180,7 +178,6 @@ Todos los usuarios con acceso a un tablero pueden aplicar una solicitud de table
 
 1. Haga clic en el icono **Cerrar** ![Cerrar icono](assets/close-icon.png) en la esquina superior derecha para ocultar el panel.
 
-<span class="preview">
 
 ## Filtrado de un tablero por tipo de moneda
 
@@ -196,5 +193,3 @@ Para cambiar el tipo de moneda del tablero,
 1. Seleccione el tipo de moneda deseado en la lista.
 
    ![cambiar lista desplegable de moneda](assets/filter-by-currency.png)
-
-</span>

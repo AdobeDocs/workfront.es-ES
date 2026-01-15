@@ -6,16 +6,14 @@ description: Se puede añadir a un panel de control de lienzo un informe de grá
 author: Courtney and Jenny
 feature: Reports and Dashboards
 exl-id: 4262cae8-602f-416d-94b9-409eb9d6241c
-source-git-commit: 56af1b6c8e4ae7bb990288d9e6a4326ffd18c2c9
+source-git-commit: c6458d777726092d74e8b031f5c14dfd58710e11
 workflow-type: tm+mt
-source-wordcount: '1838'
-ht-degree: 7%
+source-wordcount: '1814'
+ht-degree: 6%
 
 ---
 
 # Creación de un informe de gráfico en un panel de control de lienzo
-
-<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes.</span>
 
 >[!IMPORTANT]
 >
@@ -122,9 +120,9 @@ Hay muchas opciones de configuración disponibles para crear un informe de gráf
 
 1. En la sección **Eje inferior (X)**, seleccione el **campo Actualizar**, luego busque y seleccione el campo que contiene los datos que se resumirán en el gráfico.
 1. En la lista desplegable **Tipo de agregación**, seleccione cómo se acumulan los datos para generar el resultado del gráfico.
-1. <span class="preview">(Opcional) Agregue una etiqueta de eje en el espacio proporcionado.</span>
-1. <span class="preview"> (Opcional) Active **Ocultar eje**. </span>
-1. <span class="preview">(Opcional) Escriba un **Valor de línea de referencia** para establecer un objetivo o umbral en el gráfico.</span>
+1. (Opcional) Añada un rótulo de eje en el espacio proporcionado.
+1. (Opcional) Active **Ocultar eje**.
+1. (Opcional) Escriba un **Valor de línea de referencia** para establecer un objetivo o umbral en el gráfico.
 1. Elija **Tipo de línea** en el menú desplegable.
 1. Seleccione el botón **Actualizar campo** de la segunda sección y, a continuación, busque y seleccione el segundo campo que desee mostrar en el gráfico.
 
@@ -142,8 +140,8 @@ Hay muchas opciones de configuración disponibles para crear un informe de gráf
 1. En la sección **Métrica**, seleccione el **campo de actualización**, luego busque y seleccione el campo que contiene los datos que se resumirán en el gráfico.
 1. En la lista desplegable **Tipo de agregación**, seleccione cómo se acumulan los datos para generar el resultado del gráfico.
 1. En la sección **Segmento**, seleccione **Actualizar campo**, luego busque y seleccione el campo que contiene los segmentos que desea mostrar en el gráfico circular.
-1. <span class="preview"> (Opcional) En la sección **Circular**, active **Mostrar etiquetas de segmento** para mostrar las etiquetas de segmento.</span>
-1. <span class="preview"> (Opcional) Active **Mostrar total** para mostrar el total en medio del gráfico. Cuando está habilitada, hay opciones adicionales para mostrar una etiqueta central y elegir el formato de valor.</span>
+1. (Opcional) En la sección **Circular**, active **Mostrar etiquetas de segmento** para mostrar las etiquetas de segmento.
+1. (Opcional) Active **Mostrar total** para mostrar el total en medio del gráfico. Cuando está activada, hay opciones adicionales para mostrar una etiqueta central y elegir el formato de valor.
 
 >[!NOTE]
 >
@@ -153,9 +151,9 @@ Hay muchas opciones de configuración disponibles para crear un informe de gráf
 >* Suma de tipos de agregación: el valor central mostrado es el total agregado del valor numérico o de divisa.
 >* Tipos de agregación Average, max y min: el valor central muestra el valor promedio, máximo o mínimo en consecuencia.
 
-1. <span class="preview">(Opcional) En la sección Leyenda, active **Mostrar leyenda** para mostrar la leyenda del gráfico.</span>
+1. (Opcional) En la sección Leyenda, active **Mostrar leyenda** para mostrar la leyenda del gráfico.
 
-1. <span class="preview"> (Opcional) Elija una **posición de leyenda** en el menú desplegable.</span>
+1. (Opcional) Elija una **Posición de leyenda** en el menú desplegable.
 
 ## Configurar opciones adicionales del informe de gráfico
 
@@ -163,7 +161,7 @@ Hay muchas opciones de configuración disponibles para crear un informe de gráf
 
 Siga los pasos a continuación para configurar la sección **Filter**:
 
-1. En el panel izquierdo, haga clic en el icono **Filtro**![&#x200B; Icono de filtro](assets/filter-icon.png).
+1. En el panel izquierdo, haga clic en el icono **Filtro**![ Icono de filtro](assets/filter-icon.png).
 1. Seleccione **Editar filtro**.
 1. Haga clic en **Agregar condición** y, a continuación, especifique el campo por el que desea filtrar y el modificador que define qué tipo de condición debe cumplir el campo.
 1. (Opcional) Haga clic en **Agregar grupo de filtros** para agregar otro conjunto de criterios de filtrado. El operador predeterminado entre los conjuntos es Y. Haga clic en el operador para cambiarlo a OR.
