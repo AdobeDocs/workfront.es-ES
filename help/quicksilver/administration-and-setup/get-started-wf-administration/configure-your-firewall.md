@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 264eed40-6d90-498b-83cc-2500c8b19c84
-source-git-commit: d890d467dfdade676a5c93f061a5cbeda53556b6
+source-git-commit: 3c680b39685e650dd442adbb49e4091d558d1410
 workflow-type: tm+mt
-source-wordcount: '1609'
+source-wordcount: '1603'
 ht-degree: 15%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 15%
 >
 >El procedimiento descrito en esta página se aplica solo a las organizaciones que aún no se han incorporado a Admin Console. Si su organización se ha incorporado a Adobe Admin Console, debe llevar a cabo esta acción mediante Adobe Admin Console.
 >
->Para configurar la lista de permitidos si su organización se ha incorporado a Adobe Admin Console, consulte [Dominios permitidos para aplicaciones y servicios de Adobe](https://helpx.adobe.com/es/enterprise/kb/network-endpoints.html).
+>Para configurar la lista de permitidos si su organización se ha incorporado a Adobe Admin Console, consulte [Dominios permitidos para aplicaciones y servicios de Adobe](https://helpx.adobe.com/enterprise/kb/network-endpoints.html).
 >
 >Para obtener una lista de procedimientos que difieren según si su organización se ha incorporado a Adobe Admin Console, consulte [Diferencias de administración basadas en la plataforma (Adobe Workfront/Adobe Business Platform)](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
@@ -124,13 +124,16 @@ Si el entorno de producción está en el clúster 1, 2, 3, 5, 7, 8 o 9, debe per
      <li>35 161 82 137</li> 
      <li>52.14.70.114</li> 
      <li>52.15.230.220</li> 
-     <li>54.71.252.65</li> 
-    </ul> <p>Para obtener información sobre las siguientes direcciones IP, consulte <a href="../../product-announcements/announcements/announcement-archive/new-email-ip-21-1.md" class="MCXref xref">Nuevas direcciones IP para el correo electrónico de Adobe Workfront con la versión 21.1</a></p> 
-    <ul> 
+     <li>54.71.252.65</li>
      <li>23.251.237.107</li> 
      <li>23.251.237.108</li> 
      <li>23.251.237.109</li> 
      <li>23.251.237.106</li> 
+     <li>206.55.149.212</li>
+     <li>206.55.149.214</li>
+     <li>206.55.149.215</li>
+     <li>206.55.149.213</li>
+     <li>206.55.149.211</li>
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -161,11 +164,10 @@ Si su entorno de producción está en el clúster 4, agregue las siguientes dire
 * 34.242.62.80/32
 * 46.51.194.192/32
 * 54.229.129.66/32
-
-Para obtener información sobre las siguientes direcciones IP, consulte [Nuevas direcciones IP para el correo electrónico de Adobe Workfront con la versión 21.1](../../product-announcements/announcements/announcement-archive/new-email-ip-21-1.md)
-
 * 23.251.239.98
 * 23.251.239.99
+* 24.110.76.224
+* 24.110.76.223
 
 ### Direcciones IP para permitir el clúster 6 {#ip-addresses-to-allow-for-cluster-6}
 
@@ -187,6 +189,11 @@ Si el entorno de producción está en el clúster 6, agregue las siguientes dire
      <li>34.66.82.65</li> 
      <li>34.66.82.66</li> 
      <li>34 66 82 67</li> 
+    <li>206.55.149.212</li>
+   <li>206.55.149.214</li>
+   <li>206.55.149.215</li>
+   <li>206.55.149.213</li>
+   <li>206.55.149.211</li>
     </ul> </td> 
   </tr> 
   <tr> 
@@ -220,6 +227,13 @@ Si el entorno de producción está en el clúster 6, agregue las siguientes dire
 * 20.36.133.48/28
 * 20.81.156.240/28
 * 172.172.84.48/28
+
+### Direcciones IP para permitir el clúster 11
+
+Para recibir correo electrónico de la aplicación de Workfront en el clúster 11, agregue las siguientes direcciones IP:
+
+* 24.110.76.224
+* 24.110.76.223
 
 ### Direcciones IP para permitir una unidad de prueba
 
