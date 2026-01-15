@@ -8,16 +8,14 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: e9b61da8-2eca-4d88-969b-ae337e402540
-source-git-commit: a561620e218cafc0af861d2b157b8dc7c83dd7ed
+source-git-commit: c037b4f9e5530d8dd796bed25021f7073f16061f
 workflow-type: tm+mt
-source-wordcount: '802'
-ht-degree: 20%
+source-wordcount: '763'
+ht-degree: 18%
 
 ---
 
 # Personalización de filtros, vistas y agrupaciones mediante una plantilla de diseño
-
-{{preview-fast-release-general}}
 
 Como administrador de Adobe Workfront, puede utilizar una plantilla de diseño para especificar qué controles de lista aparecen en los menús desplegables Filtrar, Ver y Agrupar. Estos menús aparecen encima de las listas en Workfront, como la lista de tareas de un proyecto:
 
@@ -38,7 +36,7 @@ Después de configurar una plantilla de diseño, debe asignarla a usuarios para 
  <col> 
  <tbody> 
   <tr> 
-   <td>paquete de Adobe Workfront</td> 
+   <td>Paquete de Adobe Workfront</td> 
    <td><p>Cualquiera</p></td> 
   </tr> 
   <tr> 
@@ -118,18 +116,8 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
     </tbody> 
    </table>
 
-1. <span class="preview">En el entorno de vista previa: continúe personalizando la plantilla de diseño. Puede hacer clic en **Aplicar** en cualquier momento para guardar el progreso.</span>
-
-   <span class="preview">O</span>
-
-   <span class="preview">Si ha terminado de personalizar, haga clic en **Guardar y cerrar**.</span>
-
-1. En el entorno de producción: continúe personalizando la plantilla de diseño.
+1. Siga personalizando la plantilla de diseño. Puede hacer clic en **Aplicar** en cualquier momento para guardar el progreso.
 
    O
 
-   Si ha terminado la personalización, haga clic en **Guardar**.
-
-   >[!TIP]
-   >
-   >Puede hacer clic en **Guardar** en cualquier momento para guardar el progreso y luego seguir modificando la plantilla más adelante.
+   Si ha terminado de personalizar, haga clic en **Guardar y cerrar**.

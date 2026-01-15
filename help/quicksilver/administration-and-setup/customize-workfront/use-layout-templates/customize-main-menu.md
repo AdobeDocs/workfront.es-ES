@@ -8,16 +8,14 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: d4f02102-0378-472f-9ebb-753502ec048b
-source-git-commit: 4fdfa1107034a48e149a5414475fbc0d7ce97564
+source-git-commit: 0f96a4d941eb4595ac60302b579cff31461272a7
 workflow-type: tm+mt
-source-wordcount: '698'
-ht-degree: 36%
+source-wordcount: '659'
+ht-degree: 35%
 
 ---
 
 # Personalizar el menú principal mediante una plantilla de diseño
-
-{{preview-fast-release-general}}
 
 <!--Audited: 01/2024-->
 
@@ -78,8 +76,7 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
      >
      >De forma predeterminada, el icono Inicio del menú principal muestra el área Mis actualizaciones para los usuarios con licencia de revisión (en el plan de licencia actual), a menos que tengan una plantilla de diseño asociada a su perfil que incluya el área Mis actualizaciones del menú principal, además del área de Inicio.
 
-
-   * <span class="preview">Prioridades</span>
+   * Prioridades
    * Portafolios
    * Programas
    * Proyectos
@@ -135,20 +132,10 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 
    También puede hacer clic en **Cancelar** en cualquier momento si desea descartar los cambios.
 
-1. <span class="preview">En el entorno de vista previa: continúe personalizando la plantilla de diseño. Puede hacer clic en **Aplicar** en cualquier momento para guardar el progreso.</span>
-
-   <span class="preview">O</span>
-
-   <span class="preview">Si ha terminado de personalizar, haga clic en **Guardar y cerrar**.</span>
-
-1. En el entorno de producción: continúe personalizando la plantilla de diseño.
+1. Siga personalizando la plantilla de diseño. Puede hacer clic en **Aplicar** en cualquier momento para guardar el progreso.
 
    O
 
-   Si ha terminado la personalización, haga clic en **Guardar**.
-
-   >[!TIP]
-   >
-   >Puede hacer clic en **Guardar** en cualquier momento para guardar el progreso y luego seguir modificando la plantilla más adelante.
+   Si ha terminado de personalizar, haga clic en **Guardar y cerrar**.
 
 Para obtener más información sobre las plantillas de diseño, consulte [Crear y administrar plantillas de diseño](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).

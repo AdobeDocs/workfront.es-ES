@@ -8,22 +8,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 1474e1dd-9b10-476e-9526-6577efa8d1c2
-source-git-commit: e5416fab4f4ad1f2c31edf962554ddd6a4c2f1e5
+source-git-commit: c037b4f9e5530d8dd796bed25021f7073f16061f
 workflow-type: tm+mt
-source-wordcount: '631'
-ht-degree: 69%
+source-wordcount: '575'
+ht-degree: 70%
 
 ---
 
 # Personalizar la vista de detalles con una plantilla de diseño
 
-{{preview-fast-release-general}}
-
 Como administrador de Adobe Workfront, puede usar una plantilla de diseño para determinar qué información aparece cuando un usuario hace clic en el icono de detalles ![icono de detalles](assets/project-details-icon.png) en el panel izquierdo mientras ve una tarea, un problema, un documento, un programa o un portafolio.
-
-<!--
-or billing record
--->
 
 También puede cambiar el orden en que aparece esta información. Por ejemplo, para todas las tareas que ven sus usuarios, puede mover la información de los formularios personalizados a la parte superior de la vista Detalles para todas las tareas que ven sus usuarios.
 
@@ -74,7 +68,7 @@ Para obtener información sobre las plantillas de diseño para grupos, consulte 
  <col> 
  <tbody> 
   <tr> 
-   <td>paquete de Adobe Workfront</td> 
+   <td>Paquete de Adobe Workfront</td> 
    <td><p>Cualquiera</p></td> 
   </tr> 
   <tr> 
@@ -108,24 +102,11 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 
      Todos los campos están habilitados de forma predeterminada. Puede activar o desactivar la casilla de verificación **Seleccionar todo** de un área para mostrar u ocultar todos los campos de dicha área.
 
-   <span class="preview">Imagen de muestra en el entorno de vista previa:</span>
-   ![Vista de detalles en la plantilla de diseño](assets/layout-template-details-view-updated-save-buttons.png)
+     ![Vista de detalles en la plantilla de diseño](assets/layout-template-details-view-updated-save-buttons.png)
 
-   Imagen de muestra en el entorno de producción:
-   ![Vista de detalles en la plantilla de diseño](assets/layout-template-details-view.png)
-
-1. <span class="preview">En el entorno de vista previa: continúe personalizando la plantilla de diseño. Puede hacer clic en **Aplicar** en cualquier momento para guardar el progreso.</span>
-
-   <span class="preview">O</span>
-
-   <span class="preview">Si ha terminado de personalizar, haga clic en **Guardar y cerrar**.</span>
-
-1. En el entorno de producción: continúe personalizando la plantilla de diseño.
+1. Siga personalizando la plantilla de diseño. Puede hacer clic en **Aplicar** en cualquier momento para guardar el progreso.
 
    O
 
-   Si ha terminado la personalización, haga clic en **Guardar**.
+   Si ha terminado de personalizar, haga clic en **Guardar y cerrar**.
 
-   >[!TIP]
-   >
-   >Puede hacer clic en **Guardar** en cualquier momento para guardar el progreso y luego seguir modificando la plantilla más adelante.

@@ -8,16 +8,14 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: cbeaa0d7-a61a-4806-a871-96663d9ce124
-source-git-commit: edc83693ef068e50aed06324f006cd8aa70ac019
+source-git-commit: c037b4f9e5530d8dd796bed25021f7073f16061f
 workflow-type: tm+mt
-source-wordcount: '571'
+source-wordcount: '532'
 ht-degree: 62%
 
 ---
 
 # Personalización de los encabezados de los objetos mediante una plantilla de diseño
-
-{{preview-fast-release-general}}
 
 Como administrador de Adobe Workfront o de un grupo, puede utilizar una plantilla de diseño para configurar los campos que ven los usuarios en el encabezado del objeto cuando abren la página de un objeto.
 
@@ -97,18 +95,9 @@ Si ya tiene cinco campos seleccionados, debe quitar un campo para poder añadir 
 
 1. (Opcional) Arrastre y suelte los campos en un orden diferente.
 
-1. <span class="preview">En el entorno de vista previa: continúe personalizando la plantilla de diseño. Puede hacer clic en **Aplicar** en cualquier momento para guardar el progreso.</span>
-
-   <span class="preview">O</span>
-
-   <span class="preview">Si ha terminado de personalizar, haga clic en **Guardar y cerrar**.</span>
-
-1. En el entorno de producción: continúe personalizando la plantilla de diseño.
+1. Siga personalizando la plantilla de diseño. Puede hacer clic en **Aplicar** en cualquier momento para guardar el progreso.
 
    O
 
-   Si ha terminado la personalización, haga clic en **Guardar**.
+   Si ha terminado de personalizar, haga clic en **Guardar y cerrar**.
 
-   >[!TIP]
-   >
-   >Puede hacer clic en **Guardar** en cualquier momento para guardar el progreso y luego seguir modificando la plantilla más adelante.

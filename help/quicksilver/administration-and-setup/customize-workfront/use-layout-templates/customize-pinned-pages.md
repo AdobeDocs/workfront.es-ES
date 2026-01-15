@@ -8,16 +8,14 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 55cc75c5-8b8c-48e7-b114-b41fe3d545d8
-source-git-commit: 96028446d76f32daf512adf77d3b1c53021821ec
+source-git-commit: c037b4f9e5530d8dd796bed25021f7073f16061f
 workflow-type: tm+mt
-source-wordcount: '574'
+source-wordcount: '535'
 ht-degree: 61%
 
 ---
 
 # Personalización de las páginas ancladas con una plantilla de diseño
-
-{{preview-fast-release-general}}
 
 En una plantilla de diseño, puede anclar las páginas que desea que los usuarios tengan siempre disponibles en la parte superior de Adobe Workfront. Se puede acceder a estas páginas a través del ![icono del menú principal](assets/main-menu-icon.png) o del menú principal ![icono del menú principal](assets/main-menu-icon-left-nav.png) cuando está disponible, o a través de los paneles.
 
@@ -113,18 +111,8 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 
 1. (Opcional) Para eliminar un fijador, pase el ratón sobre el fijador y haga clic en el icono del menú Más ![Icono de Más](assets/more-icon.png) junto al nombre del fijador. A continuación, haga clic en **Eliminar fijador**.
 
-1. <span class="preview">En el entorno de vista previa: continúe personalizando la plantilla de diseño. Puede hacer clic en **Aplicar** en cualquier momento para guardar el progreso.</span>
-
-   <span class="preview">O</span>
-
-   <span class="preview">Si ha terminado de personalizar, haga clic en **Guardar y cerrar**.</span>
-
-1. En el entorno de producción: continúe personalizando la plantilla de diseño.
+1. Siga personalizando la plantilla de diseño. Puede hacer clic en **Aplicar** en cualquier momento para guardar el progreso.
 
    O
 
-   Si ha terminado la personalización, haga clic en **Guardar**.
-
-   >[!TIP]
-   >
-   >Puede hacer clic en **Guardar** en cualquier momento para guardar el progreso y luego seguir modificando la plantilla más adelante.
+   Si ha terminado de personalizar, haga clic en **Guardar y cerrar**.
