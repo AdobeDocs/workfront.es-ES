@@ -4,10 +4,10 @@ description: Esta página proporciona información sobre la funcionalidad que se
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 9e7b94201705ce96dbc38fc6d9246461e4d4d7ea
+source-git-commit: 5e12cf9e34adda0a2fb9e8026f2c94cdfc0b41fd
 workflow-type: tm+mt
-source-wordcount: '622'
-ht-degree: 35%
+source-wordcount: '708'
+ht-degree: 32%
 
 ---
 
@@ -37,10 +37,49 @@ The <add release> release webinar will be held on <date>. You can [register for 
 
 ## Mejoras de Adobe Workfront
 
-
+* [Mejoras en el administrador](#administrator-enhancements)
 * [Otras mejoras](#other-enhancements)
 
+### Mejoras en el administrador
 
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 25%;" />
+            <tbody>
+               <tr>
+        <td><strong>Característica</strong>
+        </td>
+        <td><strong>Vista previa</strong></td>
+        <td><strong>Liberación rápida</strong></td>
+        <td><strong>Trimestralmente</strong></td>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Nuevas direcciones IP para notificaciones por correo electrónico de Workfront</a><p></p>
+            <p>Estamos actualizando las direcciones IP utilizadas para enviar notificaciones por correo electrónico desde Workfront. Si su organización mantiene una lista de permitidos de correo electrónico o firewall, <b>debe</b> agregar las nuevas direcciones IP a continuación para garantizar el envío continuo de notificaciones de Workfront.</p><p>Estas actualizaciones se aplican a todos los correos electrónicos salientes generados por la aplicación Workfront, incluidas las aprobaciones, los recordatorios, las notificaciones de prueba y otros mensajes del sistema.</p>
+            <ul>
+            <li>US:
+            <ul>
+            <li>206.55.149.212</li>
+            <li>206.55.149.214</li>
+            <li>206.55.149.215</li>
+            <li>206.55.149.213</li>
+            <li>206.55.149.211</li>
+            </ul>
+            </li>
+            <li>UE: 
+            <ul>
+            <li>24.110.76.224</li>
+            <li>24 110 76 223</li>
+            </ul>
+            </li>
+            </ul> </p>
+        </td>
+        <td><p>viernes, 15 de enero de 2026</p></td>
+        <td><p>viernes, 15 de enero de 2026</p></td>
+        <td><p>viernes, 15 de enero de 2026</p></td>
+    <tr>
+            </tbody>
+        </table>
 
 ### Otras mejoras
 
@@ -130,7 +169,7 @@ Para ofrecer integraciones más estables y escalables, estamos adoptando un enfo
 * Workfront para Salesforce.
 
 Recomendamos utilizar la automatización e integración de Workfront para las necesidades de integración de su organización con Google Workspace.
-Para obtener una descripción general de la automatización e integración de Workfront, consulte [Información general de Adobe Workfront Fusion](https://experienceleague.adobe.com/es/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+Para obtener una descripción general de la automatización e integración de Workfront, consulte [Información general de Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 
 
 ### Actualizaciones de mantenimiento de Workfront 
