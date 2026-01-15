@@ -7,16 +7,14 @@ author: Lisa
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 3ebff5f28d4142203c6ce5486ce40484d88f0a5d
+source-git-commit: a23708b2534330cf942c5f950c4bee1a90583ea7
 workflow-type: tm+mt
-source-wordcount: '4145'
+source-wordcount: '4139'
 ht-degree: 85%
 
 ---
 
 # Hora de registro
-
-{{highlighted-preview}}
 
 <!--Audited: 5/2025-->
 
@@ -42,8 +40,7 @@ Para obtener más información sobre el tipo de horas que puede iniciar sesión 
   <tr> 
    <td role="rowheader">Licencia de Adobe Workfront</td> 
    <td> 
-   <ul><li><p>Ligero o superior para registrar horas en una tarea, problema, <span class="preview">proyecto</span> u horas generales en una hoja de horas</p></li>
-   <li><p>Estándar para registrar horas en los proyectos</p></li></ul>
+   <p>Ligero o superior para registrar las horas en un proyecto, tarea, problema u horas generales en una plantilla de horas</p>
 
 <p>O </p>
 
@@ -74,7 +71,7 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 * Todas las herramientas que se registran a lo largo del tiempo y que no sean la plantilla de horas aparecen en la plantilla correspondiente al período de tiempo correspondiente.
 * Las tareas y los problemas de un proyecto que no es actual no se rellenan previamente en una plantilla de horas.
 * El tiempo registrado en la plantilla de horas se aplica inmediatamente a la tarea, problema o proyecto.
-* Las plantillas de horas incluyen el tiempo total de todas las fechas registradas. Los fines de semana siempre se incluyen, incluso cuando los cálculos de línea de tiempo se han configurado para excluirlos (tal como se describe en [Configurar las preferencias de proyecto en todo el sistema](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)).
+* Las plantillas de horas incluyen el tiempo total de todas las fechas registradas. Los fines de semana siempre se incluyen, incluso cuando los cálculos de cronología se han configurado para excluirlos (tal como se describe en [Configurar las preferencias de proyecto en todo el sistema](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)).
 * El número máximo de elementos mostrados en una plantilla de horas es 45. Si hay más de 45 elementos cuyas fechas coinciden con el lapso de tiempo de la plantilla de horas, solo se mostrarán los elementos actualizados más recientemente.
 * Las entradas de horas que se incluyen en los registros de facturación facturados aparecen atenuadas y no se pueden editar en la plantilla de horas. Para obtener más información, consulte [Crear registros de facturación](../../manage-work/projects/project-finances/create-billing-records.md).
 * Las tareas personales no se muestran en la plantilla de horas de forma predeterminada. Las tareas personales solo se muestran en la plantilla de horas cuando tienen tiempo registrado. Después de registrar el tiempo de una tarea personal, puede anclar la tarea a la plantilla de horas y permanecerá en ella si permanece anclada. Para obtener más información, vea [Crear elementos de trabajo y proyectos desde el área de inicio](../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md).
@@ -213,7 +210,7 @@ haga clic en **Cancelar** para detener la adición de los elementos seleccionado
    >   * Ctrl + Opción + - para equipos Windows
    >   * Cmd + Opción + - para equipos Mac
 
-1. Especifique la cantidad de tiempo que desea registrar en un día determinado en la sección de línea de tiempo de la plantilla de horas y, a continuación, haga clic fuera del cuadro de hora para guardar la entrada de hora. Las horas se guardan automáticamente. La fila para la que se registra el tiempo se resalta en azul claro y el cuadro de entrada de hora se resalta en azul oscuro.
+1. Especifique la cantidad de tiempo que desea registrar en un día determinado en la sección de cronología de la plantilla de horas y, a continuación, haga clic fuera del cuadro de hora para guardar la entrada de hora. Las horas se guardan automáticamente. La fila para la que se registra el tiempo se resalta en azul claro y el cuadro de entrada de hora se resalta en azul oscuro.
 
    ![Recuadro de registro de tiempo en plantilla de horas](assets/log-time-with-blue-hightlight-redesigned-timesheet.png)
 
@@ -390,7 +387,7 @@ Puede registrar el tiempo específico de un proyecto, tarea o problema en las si
 
 Para registrar el tiempo en la sección Actualizaciones de un proyecto, tarea o problema, debe tener lo siguiente:
 
-* El acceso y los permisos correctos, tal como se describe en la sección [Requisitos de acceso](#access-requirements) de este artículo. <span class="preview">Si su nivel de acceso es Ligero y está registrando horas en un proyecto, también debe tener permisos de Contribución o superiores en el proyecto con acceso a Registrar horas. Para obtener más información acerca de la concesión de permisos en proyectos, vea [Compartir un proyecto](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/share-a-project.md).</span>
+* El acceso y los permisos correctos, tal como se describe en la sección [Requisitos de acceso](#access-requirements) de este artículo. Si su nivel de acceso es Ligero y está registrando tiempo en un proyecto, también debe tener permisos de Contribución o superiores en el proyecto con acceso a Registrar horas. Para obtener más información sobre la concesión de permisos en proyectos, vea [Compartir un proyecto](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/share-a-project.md).
 
 * El administrador de Workfront debe habilitar la configuración Tiempo de registro directamente en los proyectos en [!UICONTROL **Plantilla de horas y horas**]> [!UICONTROL **Preferencias**] en el área del sistema si desea registrar el tiempo directamente en un proyecto.
 
@@ -430,13 +427,13 @@ Para registrar el tiempo en la sección Actualizaciones de un proyecto, tarea o 
 
 #### Sección Horas{#hours-section}
 
-Debe ser administrador de Workfront para registrar tiempo para proyectos, tareas y problemas en la sección Horas,
+Debe ser administrador de Workfront para registrar el tiempo de los proyectos, las tareas y los problemas de la sección Horas.
 
 O
 
 Debe tener todo lo siguiente:
 
-* Licencia estándar o de planificación con acceso administrativo a hojas de horas y horas, <span class="preview">o licencia básica con acceso de edición en proyectos</span>. Para obtener más información sobre la concesión de acceso administrativo a las hojas de horas y horas, consulte [Conceder acceso administrativo a los usuarios a ciertas áreas](../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md). <span class="preview">El acceso administrativo a las hojas de horas y horas no está disponible para las licencias ligeras.</span>
+* Licencia estándar o planificada con acceso administrativo a hojas de horas y horas, o licencia básica con acceso de edición para proyectos. Para obtener más información sobre la concesión de acceso administrativo a las hojas de horas y horas, consulte [Conceder acceso administrativo a los usuarios a ciertas áreas](../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md). El acceso administrativo a las hojas de horas y horas no está disponible para licencias ligeras.
 * Permisos de contribución o superiores para el proyecto con acceso a registrar horas. Para obtener más información sobre la concesión de permisos en proyectos, consulte [Compartir un proyecto en Adobe Workfront](../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).
 * El administrador de Workfront debe habilitar la opción Tiempo de registro directamente en los proyectos en la sección **Plantilla de horas y horas > Preferencias** del área de configuración, si desea registrar el tiempo directamente en un proyecto. Para obtener más información sobre cómo permitir que los usuarios registren horas directamente en los proyectos, consulte [Configurar la plantilla de horas y las preferencias de horas](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 

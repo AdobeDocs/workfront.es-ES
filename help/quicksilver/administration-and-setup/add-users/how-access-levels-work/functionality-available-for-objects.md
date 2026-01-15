@@ -10,7 +10,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: a419e4fe-7781-48ac-8765-bd605fa44bc9
-source-git-commit: 8f7249e08268a8cb784d4c0ecc8c534542fa80cf
+source-git-commit: eec482dceb9a35225cb28cccc13811a91536cc83
 workflow-type: tm+mt
 source-wordcount: '1334'
 ht-degree: 93%
@@ -32,7 +32,7 @@ También indica qué acciones pueden deshabilitar o habilitar los administradore
 >[!NOTE]
 >
 >* Este artículo describe la funcionalidad disponible para los niveles de acceso en el nuevo modelo de paquete de Workfront. Para ver la funcionalidad disponible en el modelo de paquete actual, consulte [Funcionalidad disponible para cada tipo de objeto para varios niveles de acceso](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md).
->* Para obtener una lista de las funcionalidades disponibles para los diferentes paquetes del modelo más reciente, consulte [Precios y paquetes de Adobe Workfront](https://business.adobe.com/es/products/workfront/pricing.html).
+>* Para obtener una lista de las funcionalidades disponibles para los diferentes paquetes del modelo más reciente, consulte [Precios y paquetes de Adobe Workfront](https://business.adobe.com/products/workfront/pricing.html).
 
 ## Proyectos
 
@@ -53,7 +53,7 @@ También indica qué acciones pueden deshabilitar o habilitar los administradore
 | Añadir tareas | ✓ |   |   |   |
 | Proporcionar actualizaciones/comentarios | ✓ | ✓ | ✓ |   |
 | Cambiar estado | ✓ |   |   |   |
-| Registrar horas | ✓ | <span class="preview">✓</span> |   |   |
+| Registrar horas | ✓ | ✓ |   |   |
 | Editar asignaciones | ✓ |   |   |   |
 | Administrar una línea de base | ✓ |   |   |   |
 | Administrar riesgos | ✓ |   |   |   |
