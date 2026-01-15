@@ -5,10 +5,10 @@ description: Las listas mejoradas utilizan un formato de tabla para mostrar los 
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 4c25ed54-b147-4fd3-8d00-6f1ba61bbd38
-source-git-commit: ddae871559a756f00ef96e70254e1019964ce882
+source-git-commit: b935f3013c1be670dea834c041e02165f0e7047c
 workflow-type: tm+mt
-source-wordcount: '1288'
-ht-degree: 6%
+source-wordcount: '1620'
+ht-degree: 5%
 
 ---
 
@@ -31,7 +31,7 @@ Para obtener información sobre las listas estándar, consulte [Introducción a 
  <col>
  <tbody> 
   <tr> 
-   <td>paquete de Adobe Workfront</td> 
+   <td>Paquete de Adobe Workfront</td> 
    <td><p>Cualquiera</p></td> 
   </tr> 
   <tr> 
@@ -89,23 +89,27 @@ Para editar un elemento de la lista, haga doble clic en la celda que desee edita
 
 ## Utilice la barra de acciones y el menú Más en una lista mejorada
 
-Al seleccionar la casilla de verificación situada junto a un elemento de la lista mejorada, la barra de acciones aparece en la parte inferior de la pantalla y muestra las acciones que puede realizar con dicho elemento. Algunas acciones pueden ser específicas de esa lista y no aparecen en ninguna otra.
+La barra de acciones muestra las acciones que se pueden realizar en un elemento de lista. Algunas acciones pueden ser específicas de esa lista y no aparecen en ninguna otra.
 
->[!NOTE]
->
->Las distintas listas mejoradas pueden permitir seleccionar un solo elemento, editar por lotes (seleccionar más de un elemento) o no seleccionar ningún elemento.
+1. Active la casilla de verificación situada junto a un elemento de la lista mejorada.
 
-Haga clic en un botón de la barra de acciones para realizar esa acción, como ver el elemento de la lista, eliminarlo o editarlo.
+   La barra de acciones aparece en la parte inferior de la pantalla.
 
-Si no hay acciones disponibles para el elemento seleccionado, la barra de acciones indica &quot;No hay acciones disponibles&quot;.
+   >[!NOTE]
+   >
+   >Las distintas listas mejoradas pueden permitir seleccionar un solo elemento, editar por lotes (seleccionar más de un elemento) o no seleccionar ningún elemento.
 
-![Ejemplo de barra de acciones](assets/glist-action-bar-statuses.png)
+1. Haga clic en un botón de la barra de acciones para realizar esa acción, como ver el elemento de la lista, eliminarlo o editarlo.
 
-El menú **Más** es el menú de tres puntos que aparece junto a un campo principal en un elemento de la lista cuando pasa el ratón por encima. (El campo principal es la columna situada más a la izquierda de la tabla).
+   Si no hay acciones disponibles para el elemento seleccionado, la barra de acciones indica &quot;No hay acciones disponibles&quot;.
 
-Haga clic en el menú para ver acciones adicionales para el elemento. Algunas acciones pueden ser específicas de esa lista y no aparecen en ninguna otra.
+   ![Ejemplo de barra de acciones](assets/glist-action-bar-statuses.png)
 
-![Ejemplo de menú más](assets/glist-more-menu-priorities.png)
+1. Pase el ratón sobre un campo principal de un elemento de la lista para ver el menú **Más**. (El campo principal es la columna situada más a la izquierda de la tabla).
+
+1. Haga clic en el menú para ver acciones adicionales para el elemento. Algunas acciones pueden ser específicas de esa lista y no aparecen en ninguna otra.
+
+   ![Ejemplo de menú más](assets/glist-more-menu-priorities.png)
 
 ## Personalización de columnas en una lista mejorada
 
@@ -128,9 +132,31 @@ Algunas listas mejoradas permiten ocultar y mostrar columnas y reordenarlas.
 
    ![Indicador de columnas ocultas](assets/glist-columns-hidden-indicator.png)
 
-## Aplicación de una vista a una lista mejorada
+## Agregar y quitar columnas de una lista con el Administrador de columnas
+
+Algunas listas mejoradas ofrecen **Administrador de columnas**, que le permite agregar fácilmente columnas a la lista y quitarlas. Los campos nativos y personalizados están disponibles para seleccionarlos como columnas. Deben existir campos personalizados en el sistema para poder agregarlos como columnas de lista.
+
+Para agregar y quitar columnas:
+
+1. Haga clic en el icono + en la parte superior derecha de la tabla para abrir el cuadro **Administrador de columnas**.
+1. Busque un campo de objeto existente en la columna **Disponible** y, a continuación, haga clic en + a la derecha del nombre del campo para agregarlo a la columna **Seleccionado**.
+1. Haga clic en - a la derecha de un campo en la columna **Seleccionado** para quitarlo de la lista.
+
+   >[!NOTE]
+   >
+   >Algunos campos pueden ser fijos y no se pueden eliminar.
+
+1. Haga clic en **Guardar**.
+
+   ![Administrador de columnas](assets/glist-column-manager.png)
+
+<!-- Add info about Properties and KPIs when something gets released with those options -->
+
+## Visualización de datos con vistas en una lista mejorada
 
 Una vista es un conjunto personalizado de disposiciones de columnas y filtros que se pueden aplicar a una lista. Puede crear vistas nuevas y editar las existentes.
+
+### Aplicación y creación de vistas
 
 Para aplicar una vista, haga clic en el menú desplegable **Vistas** y seleccione la vista que desee aplicar a la lista.
 
@@ -144,6 +170,27 @@ Para crear una vista nueva:
    Los cambios realizados en las vistas se guardan automáticamente y todos los usuarios de la vista pueden ver los cambios.
 
    La próxima vez que aplique esta vista, la configuración de columna y filtro seguirá siendo la misma que la establecida.
+
+### Compartir una vista
+
+En el menú desplegable **Vistas**, es posible que vea tres categorías de vistas:
+
+* **Vistas del sistema**: vistas que le asignó el administrador del sistema.
+* **Vistas compartidas**: Vistas que otros usuarios han compartido con usted.
+* **Mis vistas**: vistas que ha creado y que puede compartir con otros usuarios. Puede compartir vistas con otros usuarios, equipos o grupos.
+
+Para compartir una vista:
+
+1. En el menú desplegable **Vistas**, pasa el ratón sobre la vista de **Mis vistas** que quieras compartir y luego haz clic en el menú de tres puntos cuando aparezca.
+1. Seleccione **Compartir**.
+1. En el cuadro de diálogo Compartir, escriba los nombres de los usuarios, equipos o grupos con los que desea compartir la vista y, a continuación, selecciónelos en la lista cuando aparezcan.
+
+   Puede conceder los siguientes permisos a los destinatarios:
+
+   * **Vista**: los usuarios pueden aplicar la vista a la lista pero no compartirla.
+   * **Administrar**: Los usuarios pueden cambiar el nombre de la vista, compartirla con otros y eliminarla.
+
+1. Haga clic en **Guardar**.
 
 ## Filtrar y agrupar elementos en una lista mejorada
 
@@ -160,6 +207,10 @@ Los filtros le ayudan a reducir la cantidad de información que se muestra en la
    ![Filtrar en listas mejoradas](assets/glist-filter-with-options.png)
 
    El filtro se aplica automáticamente a la lista.
+
+   >[!TIP]
+   >
+   >Para aplicar un comodín de usuario actual, seleccione **Me (usuario conectado)** como valor de campo. El filtro se aplica al usuario que está viendo la lista. Este comodín está disponible en campos donde el valor es un usuario.
 
 1. Haga clic en **Agregar condición** para agregar otra condición al filtro como una instrucción OR.
 1. Cuando se aplique el filtro, puede volver a abrir las opciones de **Filter** para cambiar las opciones de filtro o borrar todos los filtros.
@@ -185,18 +236,26 @@ Los filtros le ayudan a reducir la cantidad de información que se muestra en la
 
 ## Ordenar y buscar en una lista mejorada
 
-Para ordenar columnas individuales, vaya a la columna y haga clic en la flecha hacia abajo. Un icono junto al nombre de una columna indica que la lista está ordenada por los valores de esa columna y la dirección de la ordenación.
+Para ordenar columnas individuales:
 
->[!NOTE]
->
->Es posible que algunas columnas no se puedan ordenar.
+1. Vaya a la columna y haga clic en la flecha hacia abajo.
 
-![Ordenar por una columna](assets/glist-sort-by-column.png)
+   Un icono junto al nombre de una columna indica que la lista está ordenada por los valores de esa columna y la dirección de la ordenación.
 
-Para ordenar el trabajo dentro de una agrupación, abra **Grupo** y seleccione si desea ordenar en orden ascendente o descendente.
+   >[!NOTE]
+   >
+   >Es posible que algunas columnas no se puedan ordenar, según la lista.
 
-![Ordenar en una agrupación](assets/sort-in-groups.png)
+   ![Ordenar por una columna](assets/glist-sort-by-column.png)
 
-Para buscar, escriba el término de búsqueda en el campo de búsqueda situado encima de la lista. Los resultados se resaltan en la lista a medida que escribe.
+Para ordenar el trabajo dentro de una agrupación:
 
-![Término de búsqueda resaltado](assets/glist-search-highlighted.png)
+1. Haga clic en **Grupo** y seleccione si desea ordenar en orden ascendente o descendente.
+
+   ![Ordenar en una agrupación](assets/sort-in-groups.png)
+
+Para buscar:
+
+1. Escriba el término de búsqueda en el campo de búsqueda situado encima de la lista. Los resultados se resaltan en la lista a medida que escribe.
+
+   ![Término de búsqueda resaltado](assets/glist-search-highlighted.png)
