@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 6c35c313-d6ed-428b-b70d-2ea242da4e8f
-source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
+source-git-commit: 5d326776b9c5b4d9d24e802375df4630508c8bd0
 workflow-type: tm+mt
-source-wordcount: '979'
-ht-degree: 47%
+source-wordcount: '919'
+ht-degree: 49%
 
 ---
 
@@ -18,9 +18,9 @@ ht-degree: 47%
 
 <!--leave the choice value information in yellow till January 2026-->
 
-<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después de las versiones mensuales en Production, las mismas funciones también están disponibles en el entorno Production para los clientes que habilitaron versiones rápidas. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -44,7 +44,7 @@ En este artículo se describe cómo editar la configuración de los campos de Wo
 <tr> 
 </tr>   
 <tr> 
-   <td role="rowheader"><p>paquete de Adobe Workfront</p></td> 
+   <td role="rowheader"><p>Paquete de Adobe Workfront</p></td> 
    <td> 
 <p>Cualquier Workfront y cualquier paquete de Planning</p> <p>Cualquier flujo de trabajo y cualquier paquete de Planning</p>
 <p>Para obtener más información sobre lo que se incluye en cada paquete de Workfront Planning, póngase en contacto con su representante de cuentas de Workfront. </p> 
@@ -225,5 +225,5 @@ Para agregar una nueva opción a un campo de selección existente al editar un r
 
    La nueva opción se agrega inmediatamente al campo de selección única.
 
-   <span class="preview">También se agrega un nuevo valor a cada opción. Puede utilizar los valores de opción en llamadas a la API u otras integraciones. Para obtener más información, consulte [Crear campos](/help/quicksilver/planning/fields/create-fields.md).</span>
+   También se agrega un nuevo valor a cada opción. Puede utilizar los valores de opción en llamadas a la API u otras integraciones. Para obtener más información, consulte [Crear campos](/help/quicksilver/planning/fields/create-fields.md).
 

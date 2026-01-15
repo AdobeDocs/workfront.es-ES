@@ -6,15 +6,17 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: 9a7ab1928bfd25c197fca65eddfba1bc01977ea7
+source-git-commit: 5d326776b9c5b4d9d24e802375df4630508c8bd0
 workflow-type: tm+mt
-source-wordcount: '2877'
+source-wordcount: '2873'
 ht-degree: 40%
 
 ---
 
 
 <!--keep the 30 fields limit in yellow till Jan 2026; also the global record type cross-workspace capability information-->
+
+<!--take production and preview references out at prod-->
 
 # Conectar tipos de registro
 
@@ -89,7 +91,7 @@ Para ver un ejemplo de conexión de tipos de registros y registros, consulte [Ej
    <ul><li><p>Licencia de Adobe Experience Manager Assets e integración entre AEM Assets y Workfront para conectar recursos de AEM con tipos de registros de Planning.</p>
    <p>Para obtener más información, consulte <a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">Adobe Workfront para Experience Manager Assets y Assets Essentials: índice de artículo</a>. </p></li>
    <li><p> Licencia de Adobe GenStudio for Performance Marketing para conectar tipos de registros con marcas de GenStudio</p>
-   <p>Para obtener más información, consulte <a href="https://experienceleague.adobe.com/es/docs/genstudio-for-performance-marketing/user-guide/get-started">Introducción a Adobe GenStudio for Performance Marketing</a>.</p></li></ul>
+   <p>Para obtener más información, consulte <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started">Introducción a Adobe GenStudio for Performance Marketing</a>.</p></li></ul>
    </td> 
   </tr> 
   <tr> 
@@ -204,11 +206,11 @@ Para obtener más información acerca de los requisitos de acceso de Workfront, 
 
      >[!TIP]
      >
-     >La opción **Permitir la conexión a este tipo de registro en otros espacios de trabajo** debe estar habilitada para un tipo de registro en la ficha **Configuración avanzada** o **Configuración entre espacios de trabajo** del cuadro **Editar tipo de registro**, para que se pueda obtener acceso a un tipo de registro desde otros espacios de trabajo. Si no hay ningún tipo de registro configurado para conectarse desde otros espacios de trabajo, la sección del espacio de trabajo no se muestra.
+     >La opción **Permitir la conexión a este tipo de registro en otros espacios de trabajo** debe estar habilitada para un tipo de registro en la ficha **Configuración entre espacios de trabajo** del cuadro **Editar tipo de registro**, para que se pueda obtener acceso a un tipo de registro desde otros espacios de trabajo. Si no hay ningún tipo de registro configurado para conectarse desde otros espacios de trabajo, la sección del espacio de trabajo no se muestra.
      >
      >Para obtener más información, vea [Configurar las capacidades entre espacios de trabajo para los tipos de registro](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md). <!--update screen shot at production-->
      >
-     >![Ficha Editar configuración avanzada del cuadro de tipo de registro](assets/edit-record-type-box-advanced-settings-tab.png)
+     >![Ficha Editar configuración de área de trabajo cruzada del cuadro de tipo de registro](assets/edit-record-type-box-advanced-settings-tab.png)
 
      <!--Old:
         [!TIP]
@@ -239,7 +241,7 @@ Para obtener más información acerca de los requisitos de acceso de Workfront, 
    >Puede tener varias conexiones al mismo registro o tipo de objeto. Si no se edita el nombre del campo conectado, Workfront añade un número después del nombre del registro conectado para indicar el número de tipos de registros conectados con el mismo nombre.
 
 1. Actualice el campo **Descripción** agregando información sobre el campo de registro conectado. La descripción de un campo se muestra cuando se pasa el puntero por encima de la columna de campo de una tabla.
-1. (Condicional) Cuando conecta tipos de registros de dos espacios de trabajo diferentes, un tipo de registro y un objeto de recurso de Adobe Experience Manager, o un tipo de registro y una marca de GenStudio, seleccione **Permitir varios registros**. Al seleccionarlo, indica que permite a los usuarios agregar varios registros cuando el campo de tipo de registro conectado aparece en los registros originales. Esta opción está seleccionada de forma predeterminada.
+1. (Condicional) Cuando conecte tipos de registros de dos espacios de trabajo diferentes, un tipo de registro y un objeto de recurso de Adobe Experience Manager o un tipo de registro y una marca de GenStudio, seleccione **Permitir varios registros**. Al seleccionarlo, indica que permite a los usuarios agregar varios registros cuando el campo de tipo de registro conectado aparece en los registros originales. Esta opción está seleccionada de forma predeterminada.
 
    ![Nueva conexión con el tipo de registro de otro espacio de trabajo](assets/new-connection-allow-multiple-records-box.png)
 
@@ -279,7 +281,7 @@ Para obtener más información acerca de los requisitos de acceso de Workfront, 
 
    >[!NOTE]
    >
-   >El administrador de Workfront puede asignar campos de Workfront Planning a campos de Experience Manager Assets a través de la asignación de metadatos en Workfront. Para obtener más información, consulte [Configuración de la asignación de metadatos de recursos entre Adobe Workfront y Experience Manager Assets](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
+   >El administrador de Workfront puede asignar campos de Workfront Planning a campos de Experience Manager Assets a través de la asignación de metadatos en Workfront. Para obtener más información, consulte [Configuración de la asignación de metadatos de recursos entre Adobe Workfront y Experience Manager Assets](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
 
 
 1. (Condicional) Cuando seleccione conectarse a Experience Manager Assets, a un tipo de registro de Workfront Planning o a una marca de GenStudio, elija una de las siguientes opciones en el área **Apariencia del registro**:
@@ -409,9 +411,8 @@ Para obtener más información acerca de los requisitos de acceso de Workfront, 
      >[!TIP]
      >
      > No se crea un campo de registro vinculado para los objetos de otra aplicación en sus respectivas aplicaciones.
-     >Se recomienda no crear vínculos a tipos de registros taxonómicos, ya que hay un límite de 500 campos, además del límite de 30 campos conectados para cada tipo de registro.
+     > Se recomienda no crear vínculos a tipos de registros taxonómicos, ya que hay un límite de 500 campos, además del límite de 30 campos conectados para cada tipo de registro.
 
-   <!--see the span preview text in the TIP above; it might not show up in green-->
 
 1. (Opcional y condicional) Desde el tipo de registro original o la vista de tabla del tipo de registro vinculado, haga clic en la flecha hacia abajo en el encabezado de los campos de registro vinculados y, a continuación, haga clic en una de las siguientes opciones:
 

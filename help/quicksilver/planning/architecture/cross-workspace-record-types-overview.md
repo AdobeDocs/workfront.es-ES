@@ -6,19 +6,19 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: aeedd871-dcd3-4fb3-bfc5-99db3e7c9296
-source-git-commit: 895fcc9e8bfc6ef21e82ae6dab4c370b0e267cad
+source-git-commit: 5d326776b9c5b4d9d24e802375df4630508c8bd0
 workflow-type: tm+mt
-source-wordcount: '1663'
-ht-degree: 2%
+source-wordcount: '1674'
+ht-degree: 1%
 
 ---
 
 
 # Información general sobre el tipo de registro entre espacios de trabajo
 
-<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después de las versiones mensuales en Production, las mismas funciones también están disponibles en el entorno Production para los clientes que habilitaron versiones rápidas. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Para obtener información acerca de las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span> -->
 
 {{planning-important-intro}}
 
@@ -37,27 +37,24 @@ Puede habilitar las funciones entre espacios de trabajo para un tipo de registro
 >
 >* Cualquier flujo de trabajo y un paquete de Planning Prime o Ultimate
 >
-><span class="preview">Para configurar tipos de registros globales:</span>
+>Para configurar tipos de registros globales:
 >
->* <span class="preview">Cualquier paquete Workfront y un paquete Planning Plus</span>
+>* Cualquier paquete Workfront y un paquete Planning Plus
 >     
 >   O
 >
->* <span class="preview">Cualquier flujo de trabajo y un paquete de Planning Prime o Ultimate</span>
+>* Cualquier flujo de trabajo y un paquete de Planning Prime o Ultimate
 >
 >Para obtener más información sobre lo que se incluye en cada paquete de Workfront Planning, póngase en contacto con su representante de cuentas de Workfront.
 >Para obtener más información, consulte [Información general sobre el acceso a Adobe Workfront Planning](/help/quicksilver/planning/access/access-overview.md).
 
-
 Las siguientes son funciones de varios espacios de trabajo de los tipos de registro:
 
-* <span class="preview">**Tipos de registros globales**: los usuarios pueden agregar tipos de registros globales a otros espacios de trabajo que administren.</span>
+* **Tipos de registros globales**: los usuarios pueden agregar tipos de registros globales a otros espacios de trabajo que administren.
 
 * **Tipos de registros conectables**: los usuarios pueden conectarse a este tipo de registro desde otros espacios de trabajo.
 
 Este artículo le ofrece una descripción general de los tipos de registros de espacio de trabajo cruzado. Para obtener información acerca de cómo definir las capacidades entre espacios de trabajo de un tipo de registro, vea [Configurar las capacidades entre espacios de trabajo para los tipos de registros](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md).
-
-<div class="preview">
 
 ## Información general sobre los tipos de registros globales
 
@@ -141,21 +138,22 @@ El tipo de registro configurado para ser global tiene las siguientes propiedades
 
    * Elimínelo.
 
-     Al eliminar el tipo de registro de un espacio de trabajo secundario, solo se elimina de este. También se eliminan los registros y campos que se le hayan agregado desde el espacio de trabajo secundario. Esto no elimina el tipo de registro de su espacio de trabajo original ni de ningún otro espacio de trabajo secundario donde se haya agregado.
+     Al eliminar el tipo de registro de un espacio de trabajo secundario, solo se elimina de este. Los registros y campos que se le han agregado desde el espacio de trabajo secundario también se eliminan del espacio secundario. Los registros añadidos en el espacio secundario permanecen en el espacio de trabajo principal. Esto no elimina el tipo de registro de su espacio de trabajo original ni de ningún otro espacio de trabajo secundario donde se haya agregado.
 
      Para obtener más información, vea [Eliminar tipos de registros](/help/quicksilver/planning/architecture/delete-record-types.md).
+
+   * Compartirlo
+
+     Al compartir un tipo de registro global en un espacio de trabajo secundario, también se produce lo siguiente:
+
+      * Los usuarios se añaden al espacio de trabajo con permisos de Vista.
+      * Los usuarios reciben los mismos permisos para todos los registros del tipo de registro global en el espacio de trabajo secundario.
    * Comparta las vistas de los tipos de registros.
 
      No se puede compartir una vista públicamente desde un tipo de registro global en un espacio de trabajo secundario. Solo puede compartir vistas internamente desde un espacio de trabajo secundario. Puede compartir una vista interna y públicamente para un tipo de registro global en su espacio de trabajo original.
 
      Para obtener más información, consulte [Compartir vistas](/help/quicksilver/planning/access/share-views.md).
 
-<!--Uncomment this at prod on Jan 15: * Share it-->
-
-<!--You can share a global record type added to a secondary workspace from the secondary space. By sharing a global record type in a secondary workspace, the following also occur:
-
-    * Users are added to the workspace with View permissions.
-    * Users receive the same permissions to all the records of the global record type in the secondary workspace.-->
 
 <!--when they will be able to add fields to the secondary space, this bullet will need this extra information: 
     After adding fields to the global record type in the secondary workspace, shared views might not open for other users in workspaces. The fields exist only in the secondary workspace and they would not be visible in any other workspace. Only fields created in the primary workspace are visible in all secondary workspaces where there the record type is added.-->
@@ -171,7 +169,6 @@ El tipo de registro configurado para ser global tiene las siguientes propiedades
    * Edítela
 
      No se puede editar su aspecto, sus funciones entre espacios de trabajo ni los campos añadidos desde el espacio de trabajo original.
-   * Compartirlo <!-- remove this at Prod on Jan 15-->
    * Creación y administración de formularios de solicitud
    * Creación y administración de automatizaciones
 
@@ -192,6 +189,7 @@ El tipo de registro configurado para ser global tiene las siguientes propiedades
    * Si tiene permisos de Administración en el espacio de trabajo original y no tiene permisos en espacios de trabajo secundarios, puede ver los registros agregados desde los espacios de trabajo secundarios en el espacio de trabajo original, pero no puede administrarlos desde el espacio de trabajo original.
    * Si tiene permisos de Administración en el espacio de trabajo secundario, puede administrar los registros tanto del espacio de trabajo original del tipo de registro global como del espacio de trabajo secundario donde se agregaron.
    * Puede ver los registros en espacios de trabajo secundarios adicionales en los que el tipo de registro global se agrega sólo si tiene permisos de visualización en dichos espacios de trabajo. <!-- take this bullet out when we change this functionality on Jan 15-->
+* No se pueden compartir públicamente vistas de un tipo de registro global en un espacio de trabajo secundario.
 
 ### Acceso a las conexiones de un tipo de registro global
 
@@ -206,8 +204,6 @@ Se dan los siguientes casos:
 * Si el usuario tiene acceso, el registro se crea en el espacio de trabajo original de los tipos de registro global.
 
 * Si el usuario no tiene acceso, recibe el error de que no tiene acceso al espacio de trabajo original del tipo de registro global y debe proporcionar el ID del espacio de trabajo donde tenga acceso para crear registros.
-
-</div>
 
 ## Información general sobre los tipos de registros conectables
 

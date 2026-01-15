@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: bf49db73-09f1-417e-836b-16c6062740d4
-source-git-commit: ba5089fd02ca099d25ce0d3c2c2c039c2c6e2fe2
+source-git-commit: 5d326776b9c5b4d9d24e802375df4630508c8bd0
 workflow-type: tm+mt
-source-wordcount: '1538'
+source-wordcount: '1465'
 ht-degree: 4%
 
 ---
@@ -16,13 +16,11 @@ ht-degree: 4%
 
 <!-- take the Remove permissions section out, at the end - this is what Lilit said: Because of "Everyone in the workspace can view" wildcard, currently it's not possible to entirely remove access to a record type. Let's take out this section. -->
 
-<!--keep global record types in yellow till Jan 2026-->
-
 # Compartir tipos de registros
 
-<span class="preview">La información de esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después de las versiones mensuales en Production, las mismas funciones también están disponibles en el entorno Production para los clientes que habilitaron versiones rápidas. </span>
+<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -183,16 +181,11 @@ Para obtener más información acerca de los requisitos de acceso de Workfront, 
 * No puede compartir tipos de registros externamente con usuarios fuera de Workfront.
 * Para conceder a un usuario que no tenga permisos de área de trabajo superiores a los permisos de Vista para un tipo de registro, primero debe compartir el área de trabajo con él con un permiso superior al de Vista. Los permisos superiores para el espacio de trabajo se aplicarán a los tipos de registro.
 
-<div class="preview">
-
-* Cuando se comparten tipos de registros globales, existen los siguientes escenarios:
-
-   * Puede compartir tipos de registros globales desde su área de trabajo original.
-   * No puede compartir tipos de registros globales después de agregarlos a un espacio de trabajo secundario.
+* Puede compartir un tipo de registro global desde su espacio de trabajo original y desde otros espacios de trabajo secundarios en los que se agregó.
 
   Para obtener más información, vea [Información general sobre el tipo de registro entre espacios de trabajo](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md).
 
-</div>
+
 
 ## Permisos de uso compartido para un tipo de registro
 

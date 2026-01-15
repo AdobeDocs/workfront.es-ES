@@ -6,10 +6,10 @@ description: El Hogar te ayuda a administrar tu trabajo. Puede personalizar este
 author: Courtney
 feature: Get Started with Workfront
 exl-id: eddb2db0-88c5-40f9-ba05-14839a3dfc7f
-source-git-commit: ba5089fd02ca099d25ce0d3c2c2c039c2c6e2fe2
+source-git-commit: 5d326776b9c5b4d9d24e802375df4630508c8bd0
 workflow-type: tm+mt
-source-wordcount: '1135'
-ht-degree: 71%
+source-wordcount: '992'
+ht-degree: 74%
 
 ---
 
@@ -17,9 +17,9 @@ ht-degree: 71%
 
 <!--Audited: 12/2023-->
 
-<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después de las versiones mensuales en Production, las mismas funciones también están disponibles en el entorno Production para los clientes que habilitaron versiones rápidas. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 >[!IMPORTANT]
 >
@@ -70,13 +70,10 @@ A continuación se muestran los 11 widgets disponibles actualmente para elegir, 
         Muestra dos gráficos con información sobre el tiempo promedio de aprobación de documentos y las decisiones, así como vistas de lista de aprobaciones pendientes y vencidas. Debe tener [Aprobaciones unificadas](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md) habilitadas para usar este widget.
 
 * **Menciones**\
-    En el entorno de producción, muestra hilos de comentarios recientes de Workfront, similares a la página Mis actualizaciones. Puede utilizar el botón de respuesta para redactar una respuesta en del widget. Este widget también muestra los comentarios realizados sobre las tareas y los problemas que se le han asignado, que ha asignado a otro usuario, que son de su propiedad, del cual es el contacto principal o que ha creado, siempre y cuando la tarea o el problema se haya actualizado en los últimos 30 días.
+        Muestra los comentarios recientes que ha realizado o los comentarios que otros usuarios le han etiquetado y que se han añadido en las últimas 2 semanas. Puede utilizar el botón de respuesta para crear una respuesta dentro del widget.
 
-  <div class="preview">
+  <!--old: In the Production environment, it displays recent comment threads from across Workfront, similar to the My Updates page. You can use the reply button to compose a reply within the widget. This widget also shows comments made on tasks and issues that you are assigned to, that you assigned to another user, that you own, that you are primary contact on, or that you created—as long as the task or issue has been updated in the last 30 days.-->
 
-  En el entorno de vista previa, muestra los comentarios recientes que ha realizado o los comentarios en los que le han etiquetado otros usuarios que se han añadido en las últimas 2 semanas. Puede utilizar el botón de respuesta para crear una respuesta dentro del widget.
-
-  </div>
 
 * **Tareas pendientes**\
     Este widget único le permite añadir elementos a una lista de comprobación personal que puede editar libremente. Las tareas pendientes se rastrean como tareas en su proyecto personal y permanecen hasta dos semanas después de su finalización.

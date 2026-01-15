@@ -6,19 +6,19 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 0358e79bd606d0035959bba2a47256456b529b18
+source-git-commit: 5d326776b9c5b4d9d24e802375df4630508c8bd0
 workflow-type: tm+mt
-source-wordcount: '3500'
-ht-degree: 67%
+source-wordcount: '3418'
+ht-degree: 69%
 
 ---
 
 # Administrar la vista de tabla
 
 
-<span class="preview">La información resaltada en esta página hace referencia a funcionalidades que aún no están disponibles de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después de las versiones mensuales en Production, las mismas funciones también están disponibles en el entorno Production para los clientes que habilitaron versiones rápidas. </span>
+<!--<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -47,7 +47,7 @@ Para obtener información acerca de cómo exportar la vista de tabla a un archiv
 <tr> 
 </tr>   
 <tr> 
-   <td role="rowheader"><p>paquete de Adobe Workfront</p></td> 
+   <td role="rowheader"><p>Paquete de Adobe Workfront</p></td> 
    <td> 
 <p>Cualquier Workfront y cualquier paquete de Planning</p>
 <p>Cualquier flujo de trabajo y cualquier paquete de Planning</p>
@@ -191,7 +191,7 @@ Puede añadir hasta 500 campos (o columnas) en una vista de tabla.
 
    Las columnas que añada serán visibles para todos los usuarios que tengan acceso al tipo de registro y se añadirán como campos nuevos en la página del registro.
 
-1. (Opcional) Haga clic en el icono **Campos** ![Icono de campos](assets/fields-icon.png) en la barra de herramientas, busque el campo en la lista o <span class="preview"> busque un campo</span> y anule la selección del botón de alternancia a la derecha del nombre del campo para ocultar el campo.
+1. (Opcional) Haga clic en el icono **Campos** ![Icono de Campos](assets/fields-icon.png) en la barra de herramientas, busque un campo y, a continuación, anule la selección del botón de alternancia a la derecha del nombre del campo para ocultar el campo.
 
 1. Realice una de las siguientes acciones para reordenar las columnas de la tabla:
 
@@ -291,7 +291,7 @@ Tenga en cuenta lo siguiente cuando utilice filtros en la vista de tabla:
 
 <!-- this list is almost identical to the one for the table view - update both-->
 
-* Los filtros que cree para la vista de tabla funcionan de forma independiente de los filtros de la vista de línea de tiempo cuando se aplican al mismo tipo de registro.
+* Los filtros que cree para la vista de tabla funcionan de forma independiente de los filtros de la vista de cronología cuando se aplican al mismo tipo de registro.
 
 * Los filtros son exclusivos de la vista que seleccione. En dos vistas de tabla con el mismo tipo de registro se pueden aplicar diferentes filtros. Dos usuarios que consulten la misma vista de tabla verán el mismo filtro aplicado en ese momento.
 
@@ -311,7 +311,7 @@ Para añadir un filtro a una vista de tabla:
 1. Seleccione una vista de tabla y luego haga clic en **Filtros** en la esquina superior derecha de la tabla.
 1. Haga clic en **Añadir condición** y añada la siguiente información:
 
-   * <span class="preview">Busque un campo o </span> haga clic en el menú desplegable para mostrar una lista de campos y selecciónela en la lista.
+   * Busque un campo y selecciónelo cuando se muestre en la lista cuando.
 
    * **Seleccione una opción** (o un modificador de filtro) para definir qué tipo de condición debe cumplir el campo
 
@@ -471,7 +471,7 @@ Es posible agrupar registros por información similar al aplicar una agrupación
 
 Tenga en cuenta lo siguiente:
 
-* Es posible aplicar agrupaciones tanto en las vistas de tabla como de línea de tiempo. Las agrupaciones de la vista de tabla son independientes de las de la vista de línea de tiempo del mismo tipo de registro.
+* Es posible aplicar agrupaciones tanto en las vistas de tabla como de cronología. Las agrupaciones de la vista de tabla son independientes de las de la vista de cronología del mismo tipo de registro.
 * Se pueden aplicar 3 niveles de agrupación en una vista. Los registros se agrupan en el orden de agrupaciones que se seleccione.
 &lt;!--* Es posible aplicar hasta 4 niveles de agrupación al utilizar la API. --comprobando este ahora-->
 * Las agrupaciones son únicas para la vista que se seleccione. Dos vistas de tabla del mismo tipo de registro pueden tener diferentes agrupaciones aplicadas. Dos usuarios que vean la misma vista de tabla verán la misma agrupación que se aplique en ese momento.
@@ -487,7 +487,7 @@ Tenga en cuenta lo siguiente:
 
 para añadir una agrupación:
 
-1. Cree una vista de línea de tiempo para un tipo de registro, tal y como se describe en el artículo [Administración de vistas de registros](/help/quicksilver/planning/views/manage-record-views.md).
+1. Cree una vista de cronología para un tipo de registro, tal y como se describe en el artículo [Administración de vistas de registros](/help/quicksilver/planning/views/manage-record-views.md).
 1. Haga clic en **Agrupación**, en la esquina superior derecha de la vista de tabla.
 
    ![Vista de tabla de IU de agrupación con campos vinculados](assets/grouping-ui-table-view-with-linked-fields.png)
@@ -542,7 +542,7 @@ To sort grouped records:
 
 1. (Opcional) Haga clic en **Colores de fila** para definir las condiciones y elegir configurar diferentes colores para las filas de la tabla.
 
-1. Haga clic en **Agregar color** y, a continuación, <span class="preview">busque un campo o </span> haga clic en el menú desplegable para mostrar una lista de campos y seleccionarla en la lista. Este es el campo cuyo valor desea determinar el color de una fila.
+1. Haga clic en **Agregar color**, luego busque un campo y selecciónelo cuando se muestre en la lista. Este es el campo cuyo valor desea determinar el color de una fila.
 
    Por ejemplo, para mostrar campañas con el estado Activo en verde, seleccione **Estado** y, a continuación, elija un modificador y un valor para el campo.
 

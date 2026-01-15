@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+source-git-commit: 5d326776b9c5b4d9d24e802375df4630508c8bd0
 workflow-type: tm+mt
-source-wordcount: '2940'
+source-wordcount: '2899'
 ht-degree: 8%
 
 ---
@@ -16,11 +16,9 @@ ht-degree: 8%
 
 # Editar registros
 
-<!--keep the choice values information in yellow till Jan 2026-->
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después de las versiones mensuales en Production, las mismas funciones también están disponibles en el entorno Production para los clientes que habilitaron versiones rápidas. </span>
-
-<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 
 {{planning-important-intro}}
@@ -141,15 +139,21 @@ Para obtener más información acerca de los requisitos de acceso de Workfront, 
 * Los siguientes tipos de campos se actualizan automáticamente y no se pueden editar sus valores manualmente:
    * Campos vinculados de otros registros
    * Campos de tipo fórmula
-   * Campos del sistema (Creado por, Fecha de creación, Última modificación por, Fecha de última modificación)
+   * Campos del sistema (Creado por, Fecha de creación, Última modificación por, Fecha de última modificación, Fecha de aprobación, Aprobado por)
 * Si los registros que muestra están vinculados a otros registros, la nueva información de los registros que está modificando se reflejará en los registros vinculados de todos los espacios de trabajo en los que esté vinculado ese registro.
 * No puede editar registros de forma masiva. <!--this will probably change-->
 * Las direcciones URL se reconocen como vínculos en tipos de campo de texto de una sola línea solo cuando comienzan con lo siguiente: http://, https://, ftp:// o www. .
-* Puede agregar una imagen de portada a cada registro. La imagen es única para cada registro y no se aplica a todos los registros del mismo tiempo.
-* Puede editar el orden de los campos en una página de registro y agregar una imagen de portada para un registro. Para obtener más información, consulte [Administrar el diseño de la página de registros](/help/quicksilver/planning/records/manage-the-record-page.md).
+* Puede agregar una imagen de portada a cada registro. La imagen es única para cada registro y no se aplica a todos los registros del mismo tiempo. Para obtener más información, vea [Agregar una imagen de portada a un registro](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md).
+* Puede editar el orden de los campos en la página de detalles de un registro. Para obtener más información, consulte [Administrar el diseño de la página de registros](/help/quicksilver/planning/records/manage-the-record-page.md).
 * Puede editar las fechas de inicio y finalización de un registro cambiando el tamaño o la posición de los registros en las vistas de calendario y cronología.
 
-  No se puede cambiar el tamaño ni la posición de los registros cuando la fecha de inicio y de finalización elegidas para el registro son de sólo lectura. Por ejemplo, el uso de campos de búsqueda o de fórmula para la fecha de inicio y de fin de un registro no permite cambiar el tamaño del registro ni cambiarle la posición en una vista de calendario y de escala de tiempo. <!--this also repeats below, for the timeline and the calendar views; also update there, if this changes-->
+  No se puede cambiar el tamaño ni la posición de los registros cuando la fecha de inicio y de finalización elegidas para el registro son de sólo lectura. Por ejemplo, no se puede cambiar el tamaño ni la posición del registro en una vista de escala de tiempo y calendario cuando se utilizan campos de búsqueda o de fórmula para las fechas Start y End de un registro. <!--this also repeats below, for the timeline and the calendar views; also update there, if this changes-->
+
+  Para editar las fechas de los registros, consulte una de las siguientes secciones en este artículo:
+
+   * [Editar un registro en la vista de calendario de un tipo de registro](#edit-a-record-in-the-calendar-view-of-a-record-type)
+   * [Editar un registro en la vista de cronología de un tipo de registro](#edit-a-record-in-the-timeline-view-of-a-record-type)
+
 
 ## Editar registros
 
@@ -161,10 +165,6 @@ Puede editar un registro desde las siguientes áreas:
 * [Vista previa del registro en una vista](#edit-a-record-from-the-records-preview-in-a-view)
 * [La página del registro](#edit-a-record-from-the-records-page)
 * [Un objeto Workfront en la sección Planning](#edit-a-record-from-a-workfront-object-in-the-planning-section)
-
-Para editar las fechas de los registros, haga lo siguiente:
-
-* [Cambiar el tamaño de las barras de los registros en la vista de calendario y escala de tiempo]
 
 ### Editar un registro en línea en la vista de tabla de un tipo de registro
 
@@ -271,15 +271,13 @@ Para obtener más información, consulte [Crear registros](/help/quicksilver/pla
 
    >[!IMPORTANT]
    >
-   >No puede arrastrar y soltar los extremos de una barra de registros, ni arrastrar y soltar el registro en otra fecha cuando la fecha de inicio y de finalización elegidas para el registro son de sólo lectura. Por ejemplo, el uso de campos de búsqueda o de fórmula para la fecha Start y End de un registro no permite cambiar el tamaño del registro en una vista de escala de tiempo ni cambiarle la posición. <!--this also repeats in Considerations and in editing in the calendar view; also update there, if this changes-->
+   >No puede arrastrar y soltar los extremos de una barra de registros, ni arrastrar y soltar el registro en otra fecha cuando la fecha de inicio y de finalización elegidas para el registro son de sólo lectura. Por ejemplo, no se puede cambiar el tamaño ni la posición del registro en una vista de escala de tiempo cuando se utilizan campos de búsqueda o de fórmula para la fecha Start y End de un registro. <!--this also repeats in Considerations and in editing in the calendar view; also update there, if this changes-->
 
 1. Haga clic en la barra de un registro para abrir su área de detalles y editar todos los campos.
 
    Para obtener más información, consulte la sección [Editar un registro desde la vista previa del registro en una vista](#edit-a-record-from-the-records-preview-in-a-view) de este artículo.
 
 ### Editar un registro en la vista de calendario de un tipo de registro
-
-<!--add another step about drag and drop here when that is available-->
 
 1. Abra la página de tipo de registro en una vista de calendario. Para obtener más información, vea [Administrar la vista de calendario](/help/quicksilver/planning/views/manage-the-calendar-view.md).
 1. (Condicional) Pase el ratón sobre los extremos de la barra de un registro en la vista de calendario y, a continuación, haga clic en sus márgenes, arrástrelos y suéltelos en otra fecha. Esto actualiza automáticamente la fecha de inicio o de finalización del registro.
@@ -290,7 +288,7 @@ Para obtener más información, consulte [Crear registros](/help/quicksilver/pla
 
    >[!IMPORTANT]
    >
-   >No puede arrastrar y soltar los extremos de una barra de registros, ni arrastrar y soltar el registro en otra fecha cuando la fecha de inicio y de finalización elegidas para el registro son de sólo lectura. Por ejemplo, el uso de campos de búsqueda o de fórmula para la fecha Start y End de un registro no permite cambiar el tamaño del registro en una vista de calendario ni cambiarle la posición. <!--this also repeats in Considerations and in editing in the timeline view; also update there, if this changes-->
+   >No puede arrastrar y soltar los extremos de una barra de registros, ni arrastrar y soltar el registro en otra fecha cuando la fecha de inicio y de finalización elegidas para el registro son de sólo lectura. Por ejemplo, no se puede cambiar el tamaño ni la posición del registro en una vista de calendario cuando se utilizan campos de búsqueda o de fórmula para las fechas Start y End de un registro. <!--this also repeats in Considerations and in editing in the timeline view; also update there, if this changes-->
 
 1. Haga clic en la barra de un registro para abrir su área de detalles y editar todos los campos.
 
@@ -444,5 +442,5 @@ Para agregar una nueva opción a un campo de selección existente al editar un r
 
    La nueva opción se agrega inmediatamente al campo de selección única.
 
-   <span class="preview">También se agrega un nuevo valor de opción a cada opción. Puede utilizar los valores de opción en llamadas a la API u otras integraciones. Para obtener más información, consulte [Crear campos](/help/quicksilver/planning/fields/create-fields.md). </span>
+   También se agrega un nuevo valor de opción a cada opción. Puede utilizar los valores de opción en llamadas a la API u otras integraciones. Para obtener más información, consulte [Crear campos](/help/quicksilver/planning/fields/create-fields.md).
 

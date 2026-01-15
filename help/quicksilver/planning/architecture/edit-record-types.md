@@ -6,19 +6,19 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7d6de742-9657-4286-968c-1fc78ebbb94e
-source-git-commit: 476e10f2962f19fd17705cb5f20619d3b636aaa4
+source-git-commit: 5d326776b9c5b4d9d24e802375df4630508c8bd0
 workflow-type: tm+mt
-source-wordcount: '634'
-ht-degree: 32%
+source-wordcount: '571'
+ht-degree: 33%
 
 ---
 
 
 # Editar tipos de registro
 
-<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después de las versiones mensuales en Production, las mismas funciones también están disponibles en el entorno Production para los clientes que habilitaron versiones rápidas. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -49,7 +49,7 @@ Los tipos de registro son los tipos de objetos de Adobe Workfront Planning. Pued
 O
 <li><p>Cualquier flujo de trabajo y un paquete de Planning Prime o Ultimate</p></li></ul>
 
-<div class="preview">
+
 <p>Para configurar tipos de registros globales:</p>
 
 <ul> 
@@ -58,8 +58,7 @@ O
 <li><p>Cualquier flujo de trabajo y un paquete de Planning Prime o Ultimate</p></li></ul>
 <p>Para obtener más información sobre lo que se incluye en cada paquete de Workfront Planning, póngase en contacto con su representante de cuentas de Workfront. </p>
 
-</div>
-   </td> </tr>
+</td> </tr>
   <tr> 
    <td role="rowheader"><p>Licencia de Adobe Workfront</p></td> 
    <td><p>Estándar</p>
@@ -145,16 +144,15 @@ Para obtener más información acerca de los requisitos de acceso de Workfront, 
    Se abre la página del espacio de trabajo y se muestran los tipos de registro.
 1. Realice una de las siguientes acciones:
 
-   * Pase el ratón sobre la tarjeta de un tipo de registro y haga clic en el menú **Más** ![Menú más](assets/more-menu.png) en la esquina superior derecha de la tarjeta de tipo de registro; a continuación, haga clic en **Editar**
-     <span class="preview">o **Configuración**</span>
+   * Pase el ratón sobre la tarjeta de un tipo de registro y haga clic en el menú **Más** ![Menú más](assets/more-menu.png) en la esquina superior derecha de la tarjeta de tipo de registro; a continuación, haga clic en **Editar** o en **Configuración**
 O
-   * Haga clic en una tarjeta de tipo de registro para abrir la página de tipo de registro, haga clic en el menú **Más** ![Menú más](assets/more-menu.png) a la derecha del nombre del tipo de registro y, a continuación, haga clic en **Editar** <span class="preview">o en **Configuración**</span>.
+   * Haga clic en una tarjeta de tipo de registro para abrir la página de tipo de registro, haga clic en el menú **Más** ![Menú más](assets/more-menu.png) a la derecha del nombre del tipo de registro y, a continuación, haga clic en **Editar** o en **Configuración**.
 
-   <span class="preview">![Más opciones de menú de la tarjeta de tipo de registro con Configuración](assets/more-menu-options-from-record-type-card-with-settings-link.png)</span>
+   ![Más opciones de menú de la tarjeta de tipo de registro con Configuración](assets/more-menu-options-from-record-type-card-with-settings-link.png)
 
-1. En el cuadro **Editar tipo de registro**, la ficha **Apariencia** se abre de forma predeterminada. <!--update screen shot below at production-->
+1. En el cuadro **Editar tipo de registro**, la ficha **Apariencia** se abre de forma predeterminada.
 
-   ![Editar ficha de apariencia del cuadro de tipo de registro &#x200B;](assets/edit-record-type-box-appearance-tab.png)
+   ![Editar ficha de apariencia del cuadro de tipo de registro ](assets/edit-record-type-box-appearance-tab.png)
 
    Actualice la siguiente información en la ficha **Apariencia**:
 
@@ -164,17 +162,17 @@ O
       * Seleccione un color para identificar el tipo de registro. Es el color del icono de tipo de registro.
       * Seleccione un icono de la lista o empiece a escribir el nombre de un icono para describir lo que representa y, a continuación, selecciónelo cuando se muestre. Este es el icono del tipo de registro. De forma predeterminada, se selecciona un icono de archivo.
 
-1. (Opcional y condicional) Si es administrador del sistema, haga clic en la pestaña **Configuración avanzada** <span class="preview">o **Configuración en todo el espacio de trabajo**</span> y actualice la información sobre las capacidades en todo el espacio de trabajo del tipo de registro.
+1. (Opcional y condicional) Si es administrador del sistema, haga clic en la ficha **Configuración del área de trabajo cruzada** y actualice la información sobre las capacidades del área de trabajo cruzada del tipo de registro.
 
-   Para obtener más información, vea [Configurar las capacidades entre espacios de trabajo para los tipos de registro](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md). <!--update screen shot at production - Jan 2026-->
+   Para obtener más información, vea [Configurar las capacidades entre espacios de trabajo para los tipos de registro](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md).
 
-   ![Editar cuadro de tipo de registro con ficha de configuración avanzada](assets/edit-record-type-box-advanced-settings-tab.png)
+   ![Editar cuadro de tipo de registro con la ficha de configuración entre espacios de trabajo](assets/edit-record-type-box-advanced-settings-tab.png)
 
 1. Haga clic en **Guardar**.
 
    Si seleccionó conectar este registro desde otros espacios de trabajo, se mostrará el icono **Registro conectable** ![Conectarse desde otros espacios](assets/connect-from-other-workspaces-icon.png) en la tarjeta de registro.
 
-   <span class="preview">Si ha seleccionado permitir la adición de este registro a otros espacios de trabajo, se muestra el icono **Registro global** ![Icono de tipo de registro global](assets/global-icon.png) en la tarjeta de registro. </span>
+   Si ha seleccionado permitir la adición de este registro a otros espacios de trabajo, se muestra el icono **Registro global** ![Icono de tipo de registro global](assets/global-icon.png) en la tarjeta de registro.
 
 1. (Opcional) Haga clic en la tarjeta de tipo de registro del área de trabajo para abrir la página del tipo de registro y, a continuación, cambie el nombre del tipo de registro en el encabezado.
 

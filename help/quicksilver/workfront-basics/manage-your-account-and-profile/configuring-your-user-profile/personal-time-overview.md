@@ -7,7 +7,7 @@ description: Es importante indicar en Adobe Workfront cuándo tienen lugar los d
 author: Becky
 feature: Get Started with Workfront
 exl-id: e7710495-c418-47b1-8598-725580054fc5
-source-git-commit: 0e37a5a519770d3d48192f1799491aa53a871508
+source-git-commit: 5d326776b9c5b4d9d24e802375df4630508c8bd0
 workflow-type: tm+mt
 source-wordcount: '431'
 ht-degree: 75%
@@ -18,13 +18,13 @@ ht-degree: 75%
 
 <!-- Audited: 12/2025 -->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment, and is being released in a phased rollout to Production.</span>-->
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment, and is being released in a phased rollout to Production.</span>-->
 
 [!DNL Adobe Workfront] no está diseñado para replicar o reemplazar los sistemas existentes de su organización para administrar, acumular o rastrear los días libres personales.
 
 Sin embargo, es importante indicar cuándo tienen lugar los días libres aprobados, ya que esto afecta a la programación y repercute en las [!UICONTROL fechas de finalización previstas] de las tareas que tiene asignadas.
 
-Por ejemplo, si se le asigna una tarea cuya duración prevista es de dos semanas y tiene previsto tomarse tres días libres durante ese tiempo, [!DNL Workfront] añade tres días a la línea de tiempo de la tarea para tener en cuenta los días libres.
+Por ejemplo, si se le asigna una tarea cuya duración prevista es de dos semanas y tiene previsto tomarse tres días libres durante ese tiempo, [!DNL Workfront] añade tres días a la cronología de la tarea para tener en cuenta los días libres.
 
 Las herramientas de administración de recursos también utilizan sus días libres personales para indicar cuándo está disponible para ser programado para trabajar.
 

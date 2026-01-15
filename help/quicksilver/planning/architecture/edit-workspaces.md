@@ -6,19 +6,19 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 374b6d9c-69a9-4a73-8708-51c14a78c7c9
-source-git-commit: 57592455c61f0ddd14f6d2bcc033b58a8cdc7028
+source-git-commit: 5d326776b9c5b4d9d24e802375df4630508c8bd0
 workflow-type: tm+mt
-source-wordcount: '742'
-ht-degree: 10%
+source-wordcount: '673'
+ht-degree: 11%
 
 ---
 
 
 # Editar espacios de trabajo
 
-<span class="preview">La información de esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después de las versiones mensuales en Production, las mismas funciones también están disponibles en el entorno Production para los clientes que habilitaron versiones rápidas. </span>
+<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -132,9 +132,7 @@ Para obtener más información acerca de los requisitos de acceso de Workfront, 
 1. (Condicional) Si es administrador de Workfront, haga clic en una de las siguientes opciones:
 
    * **Espacios de trabajo en los que participo** para acceder a los espacios de trabajo que ha creado
-   * **Otros espacios de trabajo** para acceder a los espacios de trabajo que otros compartieron con usted
-O
-     <span class="preview">**Todos los espacios de trabajo** para tener acceso a los espacios de trabajo compartidos con usted o creados</span>
+   * **Todos los espacios de trabajo** para tener acceso a los espacios de trabajo compartidos con usted o creados
 
 1. (Opcional) Haga clic en **Mostrar todo** para mostrar espacios de trabajo adicionales. El vínculo **Mostrar todo** solo se muestra cuando tiene más de dos filas de tarjetas de área de trabajo.
 1. (Opcional) Haga clic en **Mostrar menos** para limitar el número de espacios de trabajo que se muestran en la pantalla.
@@ -142,7 +140,7 @@ O
 
    * Pase el ratón sobre la tarjeta del área de trabajo y luego haga clic en el menú **Más** ![Menú Más](assets/more-menu.png) en la esquina superior derecha de la tarjeta
 O
-   * <span class="preview"> Haga clic en el icono **buscar** ![Icono de búsqueda](assets/search-icon.png) en la esquina superior derecha de la página Espacios de trabajo para buscar un área de trabajo por nombre</span>, haga clic en una tarjeta de área de trabajo para abrir el área de trabajo y, a continuación, haga clic en el menú **Más** ![Menú Más](assets/more-menu.png) que se encuentra a la derecha del nombre del área de trabajo.
+   * Haga clic en el icono **search** ![icono de búsqueda](assets/search-icon.png) en la esquina superior derecha de la página de Workspaces para buscar un área de trabajo por nombre y haga clic en una tarjeta de área de trabajo para abrir el área de trabajo; a continuación, haga clic en el menú **Más** ![Menú Más](assets/more-menu.png) situado a la derecha del nombre del área de trabajo.
 1. Haga clic en **Editar**.
 
    Se muestra el cuadro **Editar espacio de trabajo**.

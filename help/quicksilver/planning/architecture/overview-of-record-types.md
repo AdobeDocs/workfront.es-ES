@@ -6,19 +6,19 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 1de095b3-78d9-44df-a678-51f4238deb91
-source-git-commit: 40891b0e960e38c4fca55eec428a4e3a6397b316
+source-git-commit: 5d326776b9c5b4d9d24e802375df4630508c8bd0
 workflow-type: tm+mt
-source-wordcount: '384'
-ht-degree: 52%
+source-wordcount: '352'
+ht-degree: 47%
 
 ---
 
 
 # Información general de tipos de registro
 
-<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después de las versiones mensuales en Production, las mismas funciones también están disponibles en el entorno Production para los clientes que habilitaron versiones rápidas. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -45,13 +45,19 @@ Para obtener información acerca de cómo crear tipos de registros, consulte [Cr
    * **Tipos de registros operativos**: tipos de registros que representan planes estratégicos, iniciativas o trabajo planificado. Por ejemplo, Campaña, Actividad, Táctica u Oportunidad son tipos de registros operativos.
    * **Taxonomías**: tipos de registros que capturan atributos sobre un tipo de registro operativo. Por ejemplo, Región, Dirección y Público son taxonomías.
 
-  Puede cambiar el nombre de estas secciones, eliminarlas o crear más.
+  Puede cambiar el nombre de las secciones y los tipos de registro, eliminarlos o crear más.
 
 * Cuando crea un tipo de registro en un espacio de trabajo que ha creado desde cero, puede colocar el tipo de registro en cualquier sección que cree en el espacio de trabajo.
-* Cuando crea un tipo de registro, solo usted y los usuarios a los que conceda permiso para acceder al espacio de trabajo podrán ver el tipo de registro.
+* Cuando crea un tipo de registro, sólo usted y los usuarios a los que concede permisos para acceder al espacio de trabajo y el tipo de registro pueden acceder a él.
 * Debe crear un espacio de trabajo para poder crear tipos de registros para ese espacio de trabajo.
-* Para obtener información sobre las limitaciones de cuántos tipos de registros puede haber en un espacio de trabajo o una instancia de Workfront, consulte [Información general sobre las limitaciones de objetos de Adobe Workfront Planning](/help/quicksilver/planning/general/limitations-overview.md).
-* <span class="preview">Puede designar los tipos de registro como globales. Los tipos de registros globales se pueden agregar como tipos de registros existentes a otros espacios de trabajo. Para obtener más información, vea [Configurar las capacidades entre espacios de trabajo para el tipo de registro](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md).</span>
+
+  Para obtener información sobre las limitaciones de cuántos tipos de registros puede haber en un espacio de trabajo o una instancia de Workfront, consulte [Información general sobre las limitaciones de objetos de Adobe Workfront Planning](/help/quicksilver/planning/general/limitations-overview.md).
+* Para utilizar tipos de registros en más de un espacio de trabajo, puede designar los tipos de registros como globales o conectables.
+
+   * Los tipos de registros globales se pueden agregar como tipos de registros existentes a otros espacios de trabajo.
+   * Los tipos de registros conectables se pueden conectar a desde otros espacios de trabajo.
+
+  Para obtener más información, vea [Configurar las capacidades entre espacios de trabajo para los tipos de registro](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md).
 
 
 <!--

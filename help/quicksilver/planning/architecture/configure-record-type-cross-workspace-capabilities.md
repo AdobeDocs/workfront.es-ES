@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: d36ab9fb-0275-483d-97be-0a88e170f8e0
-source-git-commit: 895fcc9e8bfc6ef21e82ae6dab4c370b0e267cad
+source-git-commit: 5d326776b9c5b4d9d24e802375df4630508c8bd0
 workflow-type: tm+mt
-source-wordcount: '1677'
+source-wordcount: '1314'
 ht-degree: 5%
 
 ---
@@ -22,15 +22,15 @@ ht-degree: 5%
 
 {{planning-important-intro}}
 
-<span class="preview">La información resaltada en esta página hace referencia a funcionalidades que aún no están disponibles de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después de las versiones mensuales en Production, las mismas funciones también están disponibles en el entorno Production para los clientes que habilitaron versiones rápidas. </span>
+<!--<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 Puede configurar los tipos de registros para que funcionen en varios espacios de trabajo en Adobe Workfront Planning.
 
 Puede designar un tipo de registro como uno de los siguientes:
 
-* <span class="preview">**Un tipo de registro global**: los usuarios pueden agregar tipos de registro global a otros espacios de trabajo que puedan administrar.</span>
+* **Un tipo de registro global**: los usuarios pueden agregar tipos de registros globales a otros espacios de trabajo que puedan administrar.
 * **Un tipo de registro conectable**: los usuarios pueden conectarse a este tipo de registro desde otros espacios de trabajo.
 
 Primero debe definir las capacidades de un tipo de registro entre espacios de trabajo para que los administradores de espacios de trabajo puedan agregarlo o conectarlo desde otros espacios de trabajo.
@@ -64,7 +64,7 @@ Para obtener más información, consulte uno de los siguientes artículos:
 O
 <li>Cualquier flujo de trabajo y un paquete de Planning Prime o Ultimate</p></li></ul>
 
-<div class="preview">
+
 <p>Para configurar tipos de registros globales:</p>
 
 <ul> 
@@ -73,8 +73,7 @@ O
 <li><p>Cualquier flujo de trabajo y un paquete de Planning Prime o Ultimate</p></li></ul>
 <p>Para obtener más información sobre lo que se incluye en cada paquete de Workfront Planning, póngase en contacto con su representante de cuentas de Workfront. </p>
 
-</div> 
-   </td> 
+</td> 
   <tr> 
    <td role="rowheader"><p>Licencia de Adobe Workfront</p></td> 
    <td><p>Estándar</p>
@@ -131,7 +130,6 @@ And
 </tbody> 
 </table> -->
 
-<div class="preview">
 
 ## Configuración de tipos de registros globales
 
@@ -154,7 +152,7 @@ Para configurar un tipo de registro como global:
    Se abre la página del espacio de trabajo y se muestran los tipos de registro.
 1. Realice una de las siguientes acciones:
 
-   * Pase el ratón sobre la tarjeta de un tipo de registro y haga clic en el menú **Más** ![Menú Más](assets/more-menu.png) en la esquina superior derecha de la tarjeta de tipo de registro. <!--add new screen shot without Share for now-->
+   * Pase el ratón sobre la tarjeta de un tipo de registro y haga clic en el menú **Más** ![Menú Más](assets/more-menu.png) en la esquina superior derecha de la tarjeta de tipo de registro.
 
      ![Más opciones de menú de la tarjeta de tipo de registro](assets/more-menu-options-from-record-type-card.png)
 
@@ -163,7 +161,7 @@ Para configurar un tipo de registro como global:
 
    >[!TIP]
    >
-   >Cuando se agrega un tipo de registro a otro espacio de trabajo, se muestra como un tipo de registro global en ese espacio de trabajo. En este caso, las opciones Editar y Configuración aparecen atenuadas.
+   >Cuando se agrega un tipo de registro a otro espacio de trabajo, se muestra como un tipo de registro global en ese espacio de trabajo. En este caso, se eliminan las opciones Editar y Configuración.
 
 1. (Condicional) Si hizo clic en **Editar**, en el cuadro **Editar tipo de registro**, haga clic en la ficha **Configuración entre espacios de trabajo**
 
@@ -190,7 +188,7 @@ Para configurar un tipo de registro como global:
    >
    >Debe designar al menos una entidad (usuario, equipo, grupo, función o compañía) para poder habilitar esta configuración.
 
-1. (Condicional) Haga clic en **Guardar** en el cuadro **Editar tipo de registro** o haga clic en la flecha hacia atrás a la izquierda de **Configuración** en el encabezado de la página para guardar los cambios.
+1. (Condicional) Haga clic en **Guardar** en el cuadro **Editar tipo de registro** o haga clic en la flecha hacia atrás a la izquierda de la sección **Configuración** en el encabezado de la página para guardar los cambios.
 
    Ocurren lo siguiente:
 
@@ -206,7 +204,13 @@ Para configurar un tipo de registro como global:
      El campo Workspace muestra el espacio de trabajo desde el que se crea cada registro.
 
      Este campo es de solo lectura y no se puede eliminar.
+
+     >[!TIP]
+     >
+     >Si el valor de campo del campo **Workspace** está vacío, el registro se creó a partir de un espacio de trabajo secundario donde el tipo de registro global se eliminó después de crearse el registro.
+
 1. (Opcional) Vaya a otro espacio de trabajo y cree un tipo de registro utilizando un tipo de registro existente. Seleccione el tipo de registro que ha activado en los pasos anteriores.
+
 
    Para obtener más información, vea [Agregar tipos de registros existentes desde otro área de trabajo](/help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md).
 
@@ -217,59 +221,10 @@ Para configurar un tipo de registro como global:
    ![Espacios de trabajo donde se usa este tipo de registro](assets/workspaces-where-this-record-type-is-used.png)
 1. (Opcional) Haga clic en el nombre de uno de los espacios de trabajo enumerados en la sección **Espacios de trabajo donde se usa este tipo de registro** para abrir ese espacio de trabajo.
 
-</div>
 
 ## Configurar tipos de registros conectables
 
 <!--this is a UI term; don't change the title of this section-->
-
-Puede configurar un tipo de registro para que se conecte desde otros espacios de trabajo al crear o editar el tipo de registro.
-
-La configuración de un tipo de registro para que sea conectable difiere según el entorno que elija para la configuración.
-
-### Configurar tipos de registros conectables en el entorno de producción
-
-{{step1-to-planning}}
-
-1. Haga clic en el espacio de trabajo cuyos tipos de registros desee configurar como conectables.
-
-   Se abre la página del espacio de trabajo y se muestran los tipos de registro.
-1. Realice una de las siguientes acciones:
-
-   * Pase el ratón sobre la tarjeta de un tipo de registro y haga clic en el menú **Más** ![Menú Más](assets/more-menu.png) en la esquina superior derecha de la tarjeta de tipo de registro
-
-     ![Más opciones de menú de la tarjeta de tipo de registro](assets/more-menu-options-from-record-type-card.png)
-
-   * Haga clic en una tarjeta de tipo de registro para abrir la página de tipo de registro y, a continuación, haga clic en el menú **Más** ![Menú Más](assets/more-menu.png) a la derecha del nombre del tipo de registro y, a continuación, haga clic en **Editar**.
-
-1. Haga clic en la ficha **Configuración avanzada**.
-
-1. Habilite la opción **Permitir la conexión a este tipo de registro desde otros espacios de trabajo**.
-
-   ![Editar ficha de configuración avanzada de registro con la conexión habilitada desde otros espacios de trabajo](assets/edit-record-type-advanced-settings-connect-from-other-workspaces-enabled.png)
-
-   Cuando está habilitado, el tipo de registro se vuelve conectable y se puede acceder a él desde otros espacios de trabajo.
-
-1. Elija desde qué espacios de trabajo se puede acceder al tipo de registro. Elija entre las siguientes opciones:
-
-   <!--check names of the setting: System wide?? OR All workspaces??-->
-
-   * **En todo el sistema**: los usuarios pueden conectarse a este tipo de registro desde todos los espacios de trabajo donde tengan permisos de administración.
-   * **Espacios de trabajo específicos**: en el menú desplegable, agregue los nombres de los espacios de trabajo donde los administradores de espacios de trabajo pueden conectarse a este tipo de registro.
-1. (Condicional) Haga clic en **Guardar** en el cuadro **Editar tipo de registro** para guardar los cambios.
-
-   Ocurren lo siguiente:
-
-   * El tipo de registro y sus campos ya están disponibles para conectarse desde los espacios de trabajo designados.
-   * La tarjeta de tipo de registro muestra un icono de tipo de registro conectable ![Icono de tipo de registro conectable](assets/connect-from-other-workspaces-icon.png) para indicar que el tipo de registro está disponible para conectarse desde cualquier área de trabajo designada en su configuración.
-
-1. (Opcional) Vaya a otro espacio de trabajo y añada una conexión al tipo de registro que ha activado para la conectividad entre espacios de trabajo en los pasos anteriores.
-
-   Para obtener más información, consulte [Conectar tipos de registros](/help/quicksilver/planning/architecture/connect-record-types.md).
-
-<div class="preview">
-
-### Configuración de tipos de registros conectables en el entorno de vista previa
 
 {{step1-to-planning}}
 
@@ -314,7 +269,9 @@ La configuración de un tipo de registro para que sea conectable difiere según 
 
    Para obtener más información, consulte [Conectar tipos de registros](/help/quicksilver/planning/architecture/connect-record-types.md).
 
-</div>
+
+
+
 
 
 
