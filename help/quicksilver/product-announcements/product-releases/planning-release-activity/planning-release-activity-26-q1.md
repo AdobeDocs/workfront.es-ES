@@ -6,10 +6,10 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: d956671b535d5c7a11d0fb17dc003a665a4f0597
+source-git-commit: bbb0399787938033886807d0372e9958ce2fcc00
 workflow-type: tm+mt
-source-wordcount: '1798'
-ht-degree: 2%
+source-wordcount: '2003'
+ht-degree: 1%
 
 ---
 
@@ -20,6 +20,40 @@ Este artículo describe las funciones que se lanzarán para Workfront Planning d
 <!--keep the sentence below for all future quarterly release pages-->
 
 Para obtener una lista de todas las características publicadas para Adobe Workfront Planning, consulte [Actividad de la versión de Adobe Workfront Planning: índice de artículo](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+
+
+## Los tipos de registros globales se pueden compartir desde el espacio de trabajo secundario
+
+>[!NOTE]
+>
+>Vista previa: 15 de enero de 2026
+>Versión rápida de producción: 15 de enero de 2026
+>Producción para todos: 15 de enero de 2026
+>[!BADGE Fuera del horario]{type=Neutral}
+
+Ahora puede compartir tipos de registros globales que agregó a un espacio de trabajo secundario desde ese espacio de trabajo. Los usuarios también recibirán los mismos permisos para todos los registros del espacio de trabajo secundario que esté compartiendo.
+
+>[!NOTE]
+>
+>Los usuarios pueden tener permisos diferentes para el mismo tipo de registro global en el espacio de trabajo principal o en cualquier otro espacio de trabajo secundario en el que se haya agregado el tipo de registro. Los permisos de tipo de registro y Workspace se transfieren a los registros.
+
+Antes de este cambio, sólo se podía compartir el tipo de registro global desde su espacio de trabajo principal original.
+
+Para obtener más información, vea [Información general sobre el tipo de registro entre espacios de trabajo](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md).
+
+
+## Los registros agregados a un tipo de registro global en un espacio de trabajo secundario no son visibles desde otros espacios de trabajo secundarios
+
+>[!NOTE]
+>
+>Vista previa: 15 de enero de 2026
+>Versión rápida de producción: 15 de enero de 2026
+>Producción para todos: 15 de enero de 2026
+>[!BADGE Fuera del horario]{type=Neutral}
+
+Los registros agregados a un tipo de registro global en un espacio de trabajo secundario sólo son visibles desde ese espacio de trabajo o desde el espacio de trabajo principal original del tipo de registro. Antes de esta actualización, los registros añadidos a un espacio de trabajo secundario también eran visibles desde otros espacios de trabajo secundarios en los que podría haber tenido permisos de visualización.
+
+Para obtener más información, vea [Información general sobre el tipo de registro entre espacios de trabajo](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md).
 
 ## Creación de jerarquías de tipo de registro en espacios de trabajo
 

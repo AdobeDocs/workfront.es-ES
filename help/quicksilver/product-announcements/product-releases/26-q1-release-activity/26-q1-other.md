@@ -4,10 +4,10 @@ description: Otras mejoras durante el lapso de tiempo del primer trimestre de 20
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: e08ac842214a9bcff0acba3f34316bb5cfa4c4aa
+source-git-commit: d3db97d2b36bdba955d8cbf6a9bd784dff5a440c
 workflow-type: tm+mt
 source-wordcount: '248'
-ht-degree: 35%
+ht-degree: 44%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 35%
 
 Esta página describe las mejoras realizadas con la versión del primer trimestre de 2026 en el entorno de vista previa. Estas mejoras estarán disponibles en el entorno de producción, como se ha indicado.
 
-Para obtener una lista de todos los cambios disponibles en este punto del ciclo de la versión del cuarto trimestre de 2025, consulte [Información general de la versión del primer trimestre de 2026](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md).
+Para obtener una lista de todos los cambios disponibles en este punto del ciclo de la versión del primer trimestre de 2026, consulte [Información general de la versión del primer trimestre de 2026](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md).
 
 
 ## Límites de selección en campos de selección múltiple
@@ -38,8 +38,8 @@ Para obtener más información, consulte [Editar información en campos de formu
 >[!NOTE]
 >
 >Vista previa: 11 de diciembre de 2025
->Versión rápida de producción: 15 de enero de 2026\
->Producción para todos: 15 de enero de 2026
+>Versión rápida de producción: 11 de febrero de 2026\
+>Producción para todos: 11 de febrero de 2026
 
 Para permitir que las organizaciones accedan a las ventajas de la experiencia unificada de Adobe, seguimos poniéndola a disposición de los clientes de Workfront existentes.
 
