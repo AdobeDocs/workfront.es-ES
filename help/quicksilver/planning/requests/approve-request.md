@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: aca9b313-3420-43f6-8f6c-dd74888bd120
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: ec72e2af00bb5010288eaae725b67ad7dad55486
 workflow-type: tm+mt
 source-wordcount: '1072'
 ht-degree: 4%
@@ -97,7 +97,7 @@ Los aprobadores reciben las siguientes notificaciones sobre una solicitud pendie
 >
 >La instancia de Workfront de su organización debe incorporarse a la experiencia unificada de Adobe para que los usuarios puedan recibir notificaciones por correo electrónico y en la aplicación.
 
-Puede aprobar solicitudes para crear registros a partir de la propia solicitud, <span class="preview"> o del widget Mis aprobaciones en Inicio.</span>
+Puede aprobar solicitudes para crear registros desde la propia solicitud o desde el widget Mis aprobaciones en Inicio.
 
 * [Aprobar una solicitud de la solicitud en Workfront Planning](#approve-a-request-from-the-request-in-workfront-planning)
 * [Aprobar una solicitud del widget Mis aprobaciones en Inicio](#approve-a-request-from-the-my-approvals-widget-in-home)
@@ -134,8 +134,6 @@ Puede aprobar solicitudes para crear registros a partir de la propia solicitud, 
 
    La solicitud permanece en el área de solicitudes de Workfront.
 
-<div class="preview">
-
 ### Aprobar una solicitud del widget Mis aprobaciones en Inicio
 
 {{step1-to-home}}
@@ -160,4 +158,3 @@ Haga clic en el icono [!UICONTROL Inicio] ![Icono de inicio](/help/_includes/ass
    * **Completada**: la solicitud está aprobada.
    * **Rechazada**: la solicitud es rechazada.
 
-</div>

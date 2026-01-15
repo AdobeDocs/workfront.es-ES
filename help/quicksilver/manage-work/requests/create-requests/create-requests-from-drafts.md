@@ -6,16 +6,14 @@ description: Además de utilizar los borradores disponibles que Workfront le sug
 author: Becky
 feature: Work Management
 exl-id: 664004e7-04c8-4a1f-b682-7b82d349643d
-source-git-commit: 319c45bc6617269f358af1e7b5f6132a8694710b
+source-git-commit: b58814d68d582a08457d1d4685d110c2bdd2087c
 workflow-type: tm+mt
-source-wordcount: '836'
-ht-degree: 17%
+source-wordcount: '814'
+ht-degree: 16%
 
 ---
 
 # Crear solicitudes a partir de borradores
-
-<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa de espacio aislado.</span>
 
 Además de utilizar los borradores disponibles que Workfront le sugiere al introducir una nueva solicitud, también puede acceder a una solicitud de borrador desde la sección Borradores y terminar de enviarla desde allí.
 
@@ -64,15 +62,10 @@ Debe hacer lo siguiente para poder crear una solicitud a partir de un borrador:
 
 El procedimiento para crear solicitudes a partir de borradores difiere entre la nueva experiencia solicitante y la experiencia heredada.
 
-* <span class="preview">[Crear solicitudes a partir de borradores en la nueva experiencia de solicitud](#create-requests-from-drafts-in-the-new-requesting-experience)</span>
+* [Crear solicitudes a partir de borradores en la nueva experiencia solicitante](#create-requests-from-drafts-in-the-new-requesting-experience)
 * [Crear solicitudes a partir de borradores en la experiencia de solicitud heredada](#create-requests-from-drafts-in-the-legacy-requesting-experience)
 
-<div class="preview">
-
 ### Crear solicitudes a partir de borradores en la nueva experiencia solicitante
-
-
-
 
 1. Abra el borrador.
 
@@ -98,8 +91,6 @@ El procedimiento para crear solicitudes a partir de borradores difiere entre la 
 1. Después de completar la información de la solicitud, haz clic en **Enviar**.
 
    Al enviar la solicitud, el borrador se eliminará y no se podrá restaurar.
-
-</div>
 
 ### Crear solicitudes a partir de borradores en la experiencia de solicitud heredada
 

@@ -6,16 +6,14 @@ description: Puede eliminar las solicitudes enviadas o los borradores de solicit
 author: Becky
 feature: Work Management
 exl-id: 9098ada7-0e6b-4de2-97ad-5c6e590fbba3
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: b58814d68d582a08457d1d4685d110c2bdd2087c
 workflow-type: tm+mt
-source-wordcount: '638'
-ht-degree: 19%
+source-wordcount: '618'
+ht-degree: 14%
 
 ---
 
 # Eliminar una solicitud enviada o un borrador de solicitud
-
-<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes o en el entorno de producción para los clientes que habilitaron versiones rápidas.</span>
 
 Puede eliminar las solicitudes enviadas o los borradores de solicitud que haya creado en la nueva experiencia de solicitud. Los administradores de Workfront y de Planning Workspace también pueden eliminar solicitudes.
 
@@ -63,16 +61,13 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 
 +++
 
-
-<div class="preview">
-
-## Eliminar solicitudes <!--or request drafts --> en la nueva experiencia de solicitud
+## Eliminar solicitudes o borradores de solicitudes en la nueva experiencia de solicitud
 
 Puede eliminar solicitudes en el área de Solicitudes de Workfront o en el widget Mis solicitudes de Inicio.
 
-* Los administradores de Workfront pueden eliminar las solicitudes <!-- and drafts--> de su organización.
-* Los administradores del espacio de trabajo de Workfront Planning pueden eliminar las solicitudes <!--and drafts--> en el espacio de trabajo de Planning que administran.
-* Los usuarios pueden eliminar las solicitudes <!--and drafts--> que hayan enviado.
+* Los administradores de Workfront pueden eliminar solicitudes y borradores de su organización.
+* Los administradores del espacio de trabajo de Workfront Planning pueden eliminar solicitudes y borradores en el espacio de trabajo de Planning que administran.
+* Los usuarios pueden eliminar las solicitudes y los borradores que hayan enviado.
 
 ### Eliminar una solicitud del menú de tres puntos
 
@@ -86,12 +81,12 @@ Puede eliminar solicitudes en el área de Solicitudes de Workfront o en el widge
 
       Para obtener más información sobre el widget Mis solicitudes, consulte [Usar el widget Mis solicitudes](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md).
 
-1. En la lista Solicitudes o en el widget Mis solicitudes, pase el ratón sobre la solicitud <!--or draft --> que quiera eliminar.
+1. En la lista Solicitudes o en el widget Mis solicitudes, pase el ratón sobre la solicitud o el borrador que desee eliminar.
 
    Aparecerá un menú Más de tres puntos.
    ![](assets/more-menu.png)
 
-1. Haga clic en el menú **Más** a la derecha del nombre de la solicitud <!--or draft--> y, a continuación, haga clic en **Eliminar**.
+1. Haga clic en el menú **Más** a la derecha del nombre de la solicitud o del borrador y, a continuación, haga clic en **Eliminar**.
 
    O
 
@@ -103,7 +98,7 @@ Puede eliminar solicitudes en el área de Solicitudes de Workfront o en el widge
 
 1. En el cuadro de diálogo que se abre, haga clic en **Eliminar**.
 
-   Se eliminó la solicitud <!--or draft-->.
+   Se eliminará la solicitud o el borrador.
 
 ### Solicitudes de eliminación masiva
 

@@ -5,16 +5,14 @@ title: Creación y administración de vistas en el área de solicitudes
 description: Si utiliza la nueva experiencia de solicitud, puede crear y guardar vistas para el área de solicitudes.
 author: Becky
 feature: Work Management
-source-git-commit: 4061163b8b761bc3922bfb95da6c0110b6ee5871
+source-git-commit: d8e5e6d313eb39c9ac26e7cb60113beac5637890
 workflow-type: tm+mt
-source-wordcount: '706'
-ht-degree: 9%
+source-wordcount: '717'
+ht-degree: 7%
 
 ---
 
 # Creación y administración de vistas en el área de solicitudes
-
-<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa de espacio aislado.</span>
 
 Si utiliza la nueva experiencia de solicitud, puede crear y guardar vistas para el área de solicitudes. Estas vistas incluyen filtros y disposiciones de columnas.
 
@@ -86,9 +84,9 @@ Puede editar las vistas existentes, incluidas las que acaba de crear.
 
 1. (Opcional) Para cambiar el nombre de una vista, haga clic en el menú desplegable **Vistas** ![Menú desplegable de vistas](assets/view-icon-requests.png) y haga clic en el menú de tres puntos situado junto a la vista, seleccione **Cambiar nombre** y, a continuación, escriba el nuevo nombre de la vista.
 1. Haga clic en el menú desplegable **Vistas** ![Menú desplegable de vistas](assets/view-icon-requests.png) y seleccione la vista que desee editar.
-1. <span class="preview">Para agregar un campo personalizado como columna, haga clic en el icono **Agregar columna** ![Agregar columna](assets/add-column.png) cerca de la derecha de la pantalla y haga clic en el icono de signo más situado junto al campo de formulario personalizado que desea agregar como columna a la vista.</span>
+1. Para agregar un campo personalizado como columna, haga clic en el icono **Agregar columna** ![Agregar columna](assets/add-column.png) cerca de la derecha de la pantalla y haga clic en el icono de signo más situado junto al campo de formulario personalizado que desea agregar como columna a la vista.
 
-   <span class="preview">Los campos personalizados de los formularios adjuntos al objeto de la lista están disponibles para agregarlos como columnas.</span>
+   >Los campos personalizados de los formularios adjuntos al objeto en la lista están disponibles para agregarlos como columnas.
 
    >[!TIP]
    >
@@ -114,7 +112,7 @@ Puede editar las vistas existentes, incluidas las que acaba de crear.
    * **Estado**: El estado de la solicitud.
    * **Ingresado por**: nombre del usuario que agregó la solicitud. Si alguien fuera de Workfront agregó la solicitud, el campo **Ingresado por** muestra `N/A`.
 
-   <span class="preview">En el entorno de vista previa, también puede filtrar por cualquier campo personalizado que se haya agregado a la vista.</span>
+   También puede filtrar por cualquier campo personalizado que se haya agregado a la vista.
 
    Puede tener varios filtros unidos por **And** o **Or**.
 La lista de solicitudes se filtra automáticamente a medida que se añaden las condiciones de filtro.
@@ -125,6 +123,7 @@ La lista de solicitudes se filtra automáticamente a medida que se añaden las c
 >
 > * Los cambios en las vistas se guardan automáticamente.
 > * Cualquier persona que utilice la vista podrá ver los cambios realizados en las vistas.
+> * Para asegurarse de que la vista se aplique a la persona que está utilizando la vista, independientemente de quién la haya creado, puede utilizar el comodín de filtro &quot;Yo (usuario que ha iniciado sesión)&quot; en cualquier campo que tenga como valor usuarios.
 
 ## Añada la vista a una plantilla de diseño.
 

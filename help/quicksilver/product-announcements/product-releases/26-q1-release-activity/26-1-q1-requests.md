@@ -4,9 +4,9 @@ description: Mejoras en las solicitudes del primer trimestre de 2026
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 3fe7e6f530e15ebdb4a658de89b77c1bf39671fe
+source-git-commit: d8f563bdbde76ae86b5e130a07d2dc66c8d2e034
 workflow-type: tm+mt
-source-wordcount: '906'
+source-wordcount: '900'
 ht-degree: 4%
 
 ---
@@ -31,7 +31,7 @@ Este vínculo solo está disponible para solicitudes de Planning, en casos en lo
 
 Anteriormente, esta columna solo contenía el nombre del objeto y no su vínculo.
 
-Para obtener información sobre cómo localizar estos vínculos, consulte Para obtener instrucciones sobre cómo añadir columnas, consulte:
+Para obtener información sobre cómo localizar estos vínculos, consulte:
 
 * [Localizar solicitudes enviadas](/help/quicksilver/manage-work/requests/create-requests/locate-submitted-requests.md)
 * [Uso del widget Mis solicitudes](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md)

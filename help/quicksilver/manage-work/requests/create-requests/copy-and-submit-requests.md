@@ -6,17 +6,15 @@ feature: Work Management
 role: User
 topic: Collaboration
 exl-id: 3d7581d0-e99c-4204-b1e5-04fde72251bb
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: b58814d68d582a08457d1d4685d110c2bdd2087c
 workflow-type: tm+mt
-source-wordcount: '1539'
-ht-degree: 84%
+source-wordcount: '1517'
+ht-degree: 85%
 
 ---
 
 # Copiar y enviar solicitudes
 
-
-<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa de espacio aislado.</span>
 
 Cuando envía solicitudes similares con frecuencia, puede copiar una solicitud enviada existente. En este caso, puede copiar una solicitud existente, realizar cambios mínimos en ella y volver a enviarla como una solicitud nueva.
 
@@ -224,8 +222,6 @@ Debe tener una solicitud que usted o alguien de su organización haya enviado an
 
    La solicitud copiada se envía como una nueva solicitud en la cola de solicitudes especificada.
 
-<div class="preview">
-
 ## Copiar y enviar solicitudes en la nueva experiencia de solicitud
 
 Puede copiar y enviar solicitudes en el área de Solicitudes de Workfront o desde el widget Mis solicitudes en Inicio.
@@ -263,5 +259,4 @@ Puede copiar y enviar solicitudes en el área de Solicitudes de Workfront o desd
 
    La solicitud copiada se envía como una solicitud nueva.
 
-</div>
 

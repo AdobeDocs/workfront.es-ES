@@ -6,16 +6,14 @@ description: En Adobe Workfront, el trabajo planificado se representa mediante p
 author: Becky
 feature: Work Management
 exl-id: 8b023a3d-326d-4d63-9e1e-8171553a9e23
-source-git-commit: 684f7fc62fe341a59b1b7f7ae6c7118a5e511513
+source-git-commit: 2b4c13babecd3675f82699282c3dd42191c73df1
 workflow-type: tm+mt
-source-wordcount: '2546'
+source-wordcount: '2532'
 ht-degree: 82%
 
 ---
 
 # Creación y envío de solicitudes
-
-<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa de espacio aislado.</span>
 
 <!--Audited: 12/2023-->
 
@@ -109,7 +107,10 @@ Una persona con la función de administrador de Workfront debe crear los siguien
 
 Al crear una solicitud en la aplicación web de Workfront, Workfront la guarda como borrador antes de enviarla. Workfront crea un borrador en cuanto se selecciona la cola de solicitudes y se empieza a introducir información sobre esta.
 
-Puede seguir enviando la solicitud o puede completar toda la información que tenga disponible y salir de ella para terminarla más tarde. Workfront guarda el borrador de la solicitud que inició en la carpeta Borradores <span class="preview"> o en la lista de solicitudes.</span>
+Puede seguir enviando la solicitud o puede completar toda la información que tenga disponible y salir de ella para terminarla más tarde. Workfront guarda el borrador de la solicitud que ha iniciado. Puede encontrarlos en:
+
+* Nueva experiencia de solicitud: la lista de solicitudes
+* Experiencia de solicitud heredada: La carpeta Borradores
 
 >[!IMPORTANT]
 >
@@ -145,7 +146,7 @@ Para crear una solicitud en la aplicación web de Workfront:
    >Considere lo siguiente con respecto a la nueva experiencia solicitante:
    >* La lista incluye tanto las colas de solicitud de Workfront como los formularios de solicitud de Workfront Planning.
    >* Puede filtrar la lista por tipo de objeto.
-   >* <span class="preview">En la nueva experiencia de solicitud, los borradores se encuentran en la misma lista que las solicitudes enviadas</span>.
+   >* En la nueva experiencia solicitante, los borradores se encuentran en la misma lista que las solicitudes enviadas.
 
 1. (Condicional) Si ha cambiado a la nueva experiencia, seleccione los grupos de temas y los temas de la cola y continúe actualizando el formulario.
 

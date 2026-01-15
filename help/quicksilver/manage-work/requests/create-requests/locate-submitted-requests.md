@@ -8,16 +8,14 @@ feature: Requests
 topic: Collaboration
 role: User
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
-source-git-commit: 3fe7e6f530e15ebdb4a658de89b77c1bf39671fe
+source-git-commit: b58814d68d582a08457d1d4685d110c2bdd2087c
 workflow-type: tm+mt
-source-wordcount: '1512'
-ht-degree: 49%
+source-wordcount: '1544'
+ht-degree: 47%
 
 ---
 
 # Vista de solicitudes enviadas
-
-<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa de espacio aislado.</span>
 
 Puede ver las solicitudes que usted u otra persona ha enviado, o las solicitudes que ha iniciado pero que nunca ha terminado de enviar. Puede localizar estas solicitudes en las siguientes áreas de Adobe Workfront:
 
@@ -28,8 +26,8 @@ Puede ver las solicitudes que usted u otra persona ha enviado, o las solicitudes
   >[!NOTE]
   >
   >* Solo puede ver sus propias solicitudes de borrador.
-  >* <span class="preview">En la nueva experiencia de solicitud, las solicitudes enviadas y los borradores se encuentran en la misma lista. </span>
-  >* <span class="preview">Los borradores creados en la experiencia heredada no aparecen en la nueva experiencia de solicitud.</span>
+  >* En la nueva experiencia solicitante, las solicitudes enviadas y los borradores se encuentran en la misma lista.
+  >* Los borradores creados en la experiencia heredada no aparecen en la nueva experiencia de solicitud.
 
 * La pestaña **Planning** del área de solicitudes en Workfront: vea las solicitudes enviadas a los formularios de solicitud de Workfront Planning. Su organización debe adquirir un paquete de Workfront Planning. Para obtener más información, consulte los siguientes artículos:
 
@@ -83,7 +81,11 @@ La visualización de las solicitudes enviadas difiere en función de si utiliza 
 
 ### Ver las solicitudes enviadas en la nueva experiencia de solicitud
 
-Puede ver las solicitudes enviadas en el área Solicitudes, <span class="preview">que incluye vínculos a objetos creados por solicitudes de Planning.</span>
+Puede ver las solicitudes enviadas en el área Solicitudes, que incluye vínculos a objetos creados por solicitudes de Planning.
+
+>[!NOTE]
+>
+>Los vínculos a objetos creados sólo están disponibles en la nueva experiencia de solicitud para solicitudes de Planning, en los casos en que la propia solicitud ha creado un objeto. Si una solicitud de Workfront se convierte en un proyecto u otro objeto, un vínculo a ese objeto convertido no estará disponible en la lista de solicitudes de la nueva experiencia de solicitud.
 
 Para ver las solicitudes que usted u otros usuarios han enviado en la nueva experiencia de solicitud:
 
