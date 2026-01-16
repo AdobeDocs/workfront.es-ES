@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 6adb4146-42fd-4eda-b46f-c61d7ff71df6
-source-git-commit: c8987d036e1c1324618cb53ebcbb8fd7e4bcc6a4
+source-git-commit: 85c6985d27ef0806e9152ecf2cbd90ca63a588c6
 workflow-type: tm+mt
-source-wordcount: '1522'
+source-wordcount: '1523'
 ht-degree: 6%
 
 ---
@@ -236,7 +236,7 @@ El sistema genera una entrada de registro de auditoría de grupo cuando un usuar
    * Agrega o quita usuarios
    * Agrega o quita subgrupos
 
-### s {#job-role}
+### Roles {#job-role}
 
 El sistema genera una entrada de registro de auditoría de funciones de trabajo cuando un usuario realiza una de las siguientes acciones:
 

@@ -8,9 +8,9 @@ author: Jenny
 feature: System Setup and Administration
 role: Admin
 exl-id: a5cdcb89-71c0-43f0-a5cf-dc99fac542ba
-source-git-commit: a31b6f9af4682c64da9e5a887f2bd2e13f259ce3
+source-git-commit: 08305c9e82b7ba56a1a03fa351e643916bbfe44e
 workflow-type: tm+mt
-source-wordcount: '2145'
+source-wordcount: '2143'
 ht-degree: 80%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 80%
 
 Los administradores del sistema tienen disponibles los siguientes [!DNL Adobe Workfront] modelos para instalarlos. Para obtener más información sobre los modelos, consulte [Información general sobre los modelos](/help/quicksilver/administration-and-setup/blueprints/blueprints-overview.md).
 
-[!BADGE Nuevo.]{type=Informative} **[!UICONTROL Informes activos de análisis de usuario]**
+**[!UICONTROL Informes de análisis de usuarios activos]**
 Este modelo contiene un tablero para ayudar a los administradores a validar la configuración del usuario, identificar desajustes y garantizar que las configuraciones admitan el uso previsto de la aplicación&#x200B;
 
 **[!UICONTROL Añadir lista de comprobación de TI para empleados nuevos]**
@@ -30,7 +30,7 @@ Este modelo contiene una plantilla que la organización de Professional services
 **[!UICONTROL Planificación presupuestaria anual]**
 Este modelo contiene una plantilla que la organización de Professional services de [!DNL Workfront] ha utilizado durante años en los compromisos de implementación con los equipos de finanzas para organizar las actividades relacionadas con la planificación presupuestaria anual. La plantilla ayuda a establecer expectativas con líderes de unidades comerciales y les guía en la solicitud y reserva de presupuestos durante el proceso de planificación anual.
 
-[!BADGE Nuevo.]{type=Informative} **[!UICONTROL Panel de línea base]**
+**[!UICONTROL Tablero de línea base]**
 Este modelo contiene un tablero para ayudarle a tomar decisiones de proyecto más inteligentes y rápidas. Las líneas de base le permiten comparar lo que se ha planificado con lo que ha sucedido, lo que le permite identificar las tareas problemáticas, la variación del ámbito y las tendencias del proyecto de un vistazo. El tablero de línea base incluye estos informes: Línea base | Proyectos en curso, línea de base | Proyectos finalizados, línea de base | Tareas en curso y Línea de base | Tareas completadas.
 
 **[!UICONTROL Plan de prestación de servicios contratados]**
