@@ -8,10 +8,10 @@ role: Admin
 recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
-source-git-commit: 387a84c4bf511424a0c15bd65748987c1611cee5
+source-git-commit: 7dca87a4f73fed9597f2a623b969569aa03cf5b3
 workflow-type: tm+mt
-source-wordcount: '71'
-ht-degree: 0%
+source-wordcount: '93'
+ht-degree: 1%
 
 ---
 
@@ -24,15 +24,15 @@ Este artículo contiene una lista de los artículos de actividades de la versió
 
 Para obtener información sobre la actividad actual de la versión de las funciones de disponibilidad limitada de Workfront, consulte el siguiente artículo:
 
-* [Actividad de la versión del primer trimestre de 2026 para funciones de disponibilidad limitada de Adobe Workfront](/help/quicksilver/product-announcements/product-releases/limited-availability-release-activity/limited-availability-release-activity-26-q1.md)
+* [Actividad de la versión del segundo trimestre de 2026 para funciones de disponibilidad limitada de Adobe Workfront](/help/quicksilver/product-announcements/product-releases/limited-availability-release-activity/limited-availability-release-activity-26-q2.md)
 
 >[!ENDSHADEBOX]
 
 <!-- for every new release, add the new release page in the first bullet (above) and move that first note to the list below; update the date of the most recent release in the statement below-->
 
-<!--For information about earlier feature releases, see the following articles:
+Para obtener información acerca de versiones anteriores de funcionalidades, consulte los siguientes artículos:
 
 * 2026
-    * [First Quarter 2026 release activity for Adobe Workfront limited availability features](/help/quicksilver/product-announcements/product-releases/limited-availability-release-activity/limited-availability-release-activity-26-q1.md)-->
+   * [Actividad de la versión del primer trimestre de 2026 para funciones de disponibilidad limitada de Adobe Workfront](/help/quicksilver/product-announcements/product-releases/limited-availability-release-activity/limited-availability-release-activity-26-q1.md)
 
 
