@@ -4,7 +4,7 @@ description: En esta página se ofrece información sobre la funcionalidad inclu
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: d3f58a1d25b353b45e68e4910a4340052a49c4d4
+source-git-commit: d66ff030bbc06436c9212352e53fbd9f8241d8c0
 workflow-type: tm+mt
 source-wordcount: '2885'
 ht-degree: 14%
@@ -499,8 +499,8 @@ The <add release> release webinar will be held on <date>. You can [register for 
             <p>Para permitir que las organizaciones accedan a las ventajas de la experiencia unificada de Adobe, seguimos poniéndola a disposición de los clientes de Workfront existentes.</p>
         </td>
         <td><p>viernes, 11 de diciembre de 2025</p></td>
-        <td><p>viernes, 15 de enero de 2026</p></td>
-        <td><p>viernes, 15 de enero de 2026</p></td>
+        <td><p>jueves, 11 de febrero de 2026</p></td>
+        <td><p>jueves, 11 de febrero de 2026</p></td>
     <tr>
             </tbody>
         </table>
@@ -597,7 +597,7 @@ Para ofrecer integraciones más estables y escalables, estamos adoptando un enfo
 * Workfront para Salesforce.
 
 Recomendamos utilizar la automatización e integración de Workfront para las necesidades de integración de su organización con Google Workspace.
-Para obtener una descripción general de la automatización e integración de Workfront, consulte [Información general de Adobe Workfront Fusion](https://experienceleague.adobe.com/es/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+Para obtener una descripción general de la automatización e integración de Workfront, consulte [Información general de Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 
 
 ### Actualizaciones de mantenimiento de Workfront 
