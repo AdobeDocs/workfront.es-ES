@@ -6,9 +6,9 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: bbb0399787938033886807d0372e9958ce2fcc00
+source-git-commit: d60123df6e18025a886809fa390137bdf9287e6e
 workflow-type: tm+mt
-source-wordcount: '2003'
+source-wordcount: '2014'
 ht-degree: 1%
 
 ---
@@ -143,6 +143,10 @@ Para obtener más información sobre la configuración de vistas de conexión de
 
 
 ## Mejoras en la página principal de Workspace
+
+>[!IMPORTANT]
+>
+>Esto se ha eliminado temporalmente de los entornos de Previsualización y Producción.
 
 >[!NOTE]
 >
