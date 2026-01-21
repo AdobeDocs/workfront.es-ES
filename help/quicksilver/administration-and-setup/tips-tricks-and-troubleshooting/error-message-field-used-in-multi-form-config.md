@@ -9,10 +9,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 43668525-5572-4d82-8eed-0e320249f296
-source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
+source-git-commit: 8b93842d7ce61c7c84b07639b6329bedf4254ffd
 workflow-type: tm+mt
-source-wordcount: '1241'
-ht-degree: 98%
+source-wordcount: '1345'
+ht-degree: 90%
 
 ---
 
@@ -40,6 +40,15 @@ Para resolver este conflicto, debe encontrar el objeto donde se adjuntan varios 
 * En todos los formularios personalizados adjuntos al objeto, añada un nuevo campo personalizado calculado que contenga el cálculo que necesita y marque el antiguo campo personalizado calculado como obsoleto.
 
 Este artículo explica cómo encontrar el objeto y luego resolver el problema de una de estas tres maneras.
+
+>[!NOTE]
+>
+>Si ve el error, pero no puede localizar más de un objeto que contenga el campo personalizado, compruebe la Papelera de reciclaje. Es posible que un objeto de la papelera de reciclaje contenga el campo. Dado que los objetos de la Papelera de reciclaje se pueden restaurar en cualquier momento, el error de conflicto multiformulario seguirá produciéndose hasta que se resuelva el conflicto.
+>
+>Para agregar un campo con una expresión diferente, debe resolver este conflicto mediante uno de los procedimientos siguientes:
+>
+>* Quitar el campo del formulario personalizado en conflicto
+>* Restaure el objeto eliminado, desasocie uno de los formularios personalizados en conflicto y, a continuación, vuelva a eliminar el objeto si es necesario.
 
 ## Busque el objeto donde se adjuntan los formularios personalizados {#find-the-object-where-the-custom-forms-are-attached}
 
