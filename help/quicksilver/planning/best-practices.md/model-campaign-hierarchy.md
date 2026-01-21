@@ -1,5 +1,5 @@
 ---
-title: 'Modelo de éxito: modelado de la jerarquía de campañas'
+title: 'El marco de éxito: modele la jerarquía de campañas'
 description: Aprenda a traducir sus procesos empresariales complejos en una jerarquía de campañas escalable y controlada mediante "Centros de gravedad" y una arquitectura de espacio de trabajo múltiple.
 feature: Workfront Planning
 role: User, Admin
@@ -7,15 +7,15 @@ author: Alina
 recommendations: noDisplay, noCatalog
 hidefromtoc: true
 hide: true
-source-git-commit: 77ef50ebd583f0a46324e5cbdc4feea9d21f4280
+source-git-commit: 1158a49fc0b39ef49f23326935d4635530501687
 workflow-type: tm+mt
-source-wordcount: '1056'
+source-wordcount: '1060'
 ht-degree: 0%
 
 ---
 
 
-# Modelo de éxito: modelado de la jerarquía de campañas
+# El marco para el éxito: modele la jerarquía de la campaña
 
 
 
@@ -31,7 +31,7 @@ A medida que sus operaciones de marketing se escalan, también lo hace la comple
 
 
 
-El &quot;Modelo de éxito&quot; es un marco para modelar la jerarquía de campañas en Workfront Planning (WFP). Le permite pasar del &quot;caos de la hoja de cálculo&quot; a un modelo controlado y orientado a objetos que garantiza que todos los equipos hablen el mismo idioma y, al mismo tiempo, mantiene la agilidad que necesitan para ejecutarse.
+El &quot;modelo de éxito&quot; es un marco para modelar la jerarquía de campañas en Workfront Planning. Le permite pasar del &quot;caos de la hoja de cálculo&quot; a un modelo controlado y orientado a objetos que garantiza que todos los equipos hablen el mismo idioma y, al mismo tiempo, mantiene la agilidad que necesitan para ejecutarse.
 
 
 
@@ -77,7 +77,7 @@ Una vez establecida la ruta principal, las organizaciones pueden elegir añadir 
 
 * **Planes de canal:** Una capa entre *Campañas* y *Tácticas* para agrupar estrategias interfuncionales (por ejemplo, &quot;Estrategia digital&quot;).
 
-* **Actividades del PMA:** En entornos de menor volumen (por lo general, &lt;5.000 entregables/año), algunos equipos prefieren realizar un seguimiento de las &quot;experiencias&quot; individuales como registros del PMA antes de que se conviertan en proyectos.
+* **Actividades de Workfront Planning:** En entornos de menor volumen (normalmente &lt;5.000 entregas/año), algunos equipos prefieren realizar el seguimiento de &quot;experiencias&quot; individuales como registros de Workfront Planning antes de que se conviertan en proyectos.
 
 
 >[!TIP]
@@ -156,9 +156,9 @@ Aunque Workfront Planning es el futuro de la intención estratégica, sus inform
 
 * **La recomendación:** Aún no elimine sus portafolios y programas. En su lugar, use **automatizaciones de Fusion** para crear un puente.
 
-* **Cómo funciona:** Cuando se crea una táctica o campaña en WFP, Fusion puede reflejar automáticamente ese registro en un Portfolio o programa correspondiente en el módulo Flujo de trabajo. Esto le permite:
+* **Cómo funciona:** Cuando se crea una táctica o campaña en Workfront Planning, Fusion puede reflejar automáticamente ese registro en un Portfolio o programa correspondiente en el módulo Flujo de trabajo. Esto le permite:
 
-   1. Disfrute de la excelente **visualización estratégica** del PMA (cronogramas/calendarios).
+   1. Disfrute de la excelente **visualización estratégica** de Workfront Planning (cronologías/calendarios).
 
    2. Mantenga sus **informes heredados** en el módulo de flujo de trabajo para las partes interesadas que aún no estén listas para pasar al lienzo.
 
@@ -170,7 +170,7 @@ Aunque Workfront Planning es el futuro de la intención estratégica, sus inform
 
 * **Designar espacios de trabajo principales.** Asegúrese de que cada tipo de registro tenga un espacio de trabajo &quot;principal&quot; (su centro de gravedad) que actúe como agregador para los informes.
 
-* **Dar prioridad a Forms para la admisión.** Use formularios de registro para grupos con menos sofisticación en WFP para garantizar la integridad de los metadatos. Aunque los usuarios avanzados pueden beneficiarse de la entrada directa de datos en las vistas de tabla, esto debe abordarse con precaución: los cambios masivos en una tabla pueden crear fácilmente problemas de datos para otras partes interesadas.
+* **Dar prioridad a Forms para la admisión.** Use formularios de registro para grupos con menos sofisticación en Workfront Planning para garantizar la integridad de los metadatos. Aunque los usuarios avanzados pueden beneficiarse de la entrada directa de datos en las vistas de tabla, esto debe abordarse con precaución: los cambios masivos en una tabla pueden crear fácilmente problemas de datos para otras partes interesadas.
 
 
 ### No haga lo siguiente:

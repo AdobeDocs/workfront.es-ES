@@ -7,9 +7,9 @@ role: User, Admin
 recommendations: noDisplay, noCatalog
 hidefromtoc: true
 hide: true
-source-git-commit: 895fcc9e8bfc6ef21e82ae6dab4c370b0e267cad
+source-git-commit: 1158a49fc0b39ef49f23326935d4635530501687
 workflow-type: tm+mt
-source-wordcount: '743'
+source-wordcount: '718'
 ht-degree: 1%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 1%
 
 Adobe Workfront ofrece actualmente una versión de prueba gratuita de 60 días de Adobe Workfront Planning.
 
-El juicio está disponible entre las siguientes fechas: 1 de marzo - 1 de mayo de 2026.
+El juicio está disponible entre las siguientes fechas: del 2 de marzo al 1 de mayo de 2026.
 
 >[!NOTE]
 >
@@ -52,13 +52,13 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 
 Uno de los administradores de Workfront debe revisar y firmar un acuerdo legal antes de que todos los miembros de su organización reciban acceso a la versión de prueba gratuita de Workfront Planning.
 
-Podrá revisar y firmar el acuerdo antes de que el juicio comience el 1 de marzo de 2026.
+Podrá revisar y firmar el acuerdo antes de que el juicio comience el 2 de marzo de 2026.
 
 <!--check the steps here at release-->
 
 1. Para revisar y aceptar el acuerdo legal, siga uno de estos procedimientos:
 
-   1. Antes del 1 de marzo de 2026, haga lo siguiente:
+   1. Antes del 2 de marzo de 2026, haga lo siguiente:
       1. Inicie sesión en Adobe Workfront como administrador del sistema.
       1. Siga el banner que contiene información sobre la **versión de prueba de Workfront Planning**
 
@@ -68,7 +68,7 @@ Podrá revisar y firmar el acuerdo antes de que el juicio comience el 1 de marzo
       1. Haga clic en **Revisar acuerdo de prueba**. <!--not sure if this will be available in the email/ banner, or if they can go to System Preferences to do this - might need to adjust the steps here-->
       1. Haga clic en **Aceptar**, después de revisar el acuerdo.
 
-   1. A partir del 1 de marzo de 2026, cuando se inicie la versión de prueba, haga lo siguiente:
+   1. Después del 2 de marzo de 2026, cuando se inicie la versión de prueba, haga lo siguiente:
 
       1. Inicie sesión en Adobe Workfront como administrador del sistema.
       1. Siga el banner que contiene información sobre la **versión de prueba de Workfront Planning**
@@ -85,11 +85,11 @@ Podrá revisar y firmar el acuerdo antes de que el juicio comience el 1 de marzo
 
          Su organización ahora está inscrita en la versión de prueba de Workfront Planning hasta el 1 de mayo de 2026.
 
-         A partir del 1 de marzo de 2026, se concederán los siguientes permisos a los datos disponibles en la pestaña **Áreas de trabajo de prácticas recomendadas** en el área **Prueba de Planning**:
+         A partir del 2 de marzo de 2026, se concederán los siguientes permisos a los datos disponibles en la pestaña **Áreas de trabajo de prácticas recomendadas** en el área **Prueba de Planning**:
 
          * Todos los administradores del sistema tienen permisos de administración.
          * Todos los demás usuarios tienen permisos de visualización.
-      1. (Condicional) Después del 1 de marzo de 2026, empiece a explorar la pestaña **Espacios de trabajo de prácticas recomendadas** y comparta espacios de trabajo o su objeto con otros.
+      1. (Condicional) Después del 2 de marzo de 2026, empiece a explorar la pestaña **Espacios de trabajo de prácticas recomendadas** y comparta espacios de trabajo o su objeto con otros.
 
          Para obtener más información sobre el uso de Workfront Planning, consulte [Introducción a Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
 
@@ -101,9 +101,10 @@ Podrá revisar y firmar el acuerdo antes de que el juicio comience el 1 de marzo
 
 Las siguientes son algunas fechas importantes asociadas con la oferta de prueba gratuita de Adobe Workfront Planning:
 
-* **1 de marzo de 2026**: Se inicia la versión de prueba de Workfront Planning.
+* **2 de marzo de 2026**: Se inicia la versión de prueba de Workfront Planning.
 * **1 de mayo de 2026**: La versión de prueba de Workfront Planning se cerrará y se eliminará su acceso a Planning. Workfront protege los datos una vez finalizada la prueba y hasta el 30 de noviembre de 2026. Si compra Workfront Planning durante este tiempo, recuperará el acceso a Planning y a sus datos.
-* **30 de noviembre de 2026**: Workfront ya no pone sus datos disponibles después de esta fecha. Puede seguir comprando Workfront Planning, pero los datos se eliminarán después de esta fecha.
+<!--Lauren wanted this out: 
+* **November 30, 2026** - Workfront no longer makes your data available after this date. You can still purchase Workfront Planning, but your data is removed after this date. -->
 
 <!--## Overview of the access to Workfront Planning -->
 

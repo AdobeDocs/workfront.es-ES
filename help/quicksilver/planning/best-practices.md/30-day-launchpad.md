@@ -1,15 +1,15 @@
 ---
 title: 'El Launchpad De 30 Días: Desplegando Su Hogar Estratégico'
-description: Aprenda a implementar Workfront Planning (WFP) mediante una estrategia que priorice la seguridad psicológica, minimice las interrupciones y ofrezca ganancias rápidas.
+description: Aprenda a implementar Workfront Planning mediante una estrategia que priorice la seguridad psicológica, minimice las interrupciones y ofrezca ganancias rápidas.
 feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 hidefromtoc: true
 hide: true
-source-git-commit: 77ef50ebd583f0a46324e5cbdc4feea9d21f4280
+source-git-commit: 1158a49fc0b39ef49f23326935d4635530501687
 workflow-type: tm+mt
-source-wordcount: '971'
+source-wordcount: '975'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 ## Meta
 
-Aprenda a implementar Workfront Planning (WFP) mediante una estrategia que priorice la seguridad psicológica, minimice las interrupciones y ofrezca ganancias rápidas.
+Aprenda a implementar Workfront Planning mediante una estrategia que priorice la seguridad psicológica, minimice las interrupciones y ofrezca ganancias rápidas.
 
 
 
@@ -48,9 +48,9 @@ Para activar este cambio evolutivo, elija un equipo piloto que esté listo y dis
 
 
 
-* **Ruta paralela (seguimiento dual):** El equipo mantiene su flujo de trabajo actual mientras modela simultáneamente su próximo ciclo de planificación en WFP. Esto genera &quot;memoria muscular&quot; y confianza sin el riesgo de un solo punto de fallo.
+* **Ruta paralela (seguimiento dual):** El equipo mantiene su flujo de trabajo actual mientras modela simultáneamente su siguiente ciclo de planificación en Workfront Planning. Esto genera &quot;memoria muscular&quot; y confianza sin el riesgo de un solo punto de fallo.
 
-* **Descanso limpio:** Después de un ejercicio de diseño inicial utilizando datos de ejemplo para validar el modelo, el equipo mueve su punto de inicio de planificación &quot;activo&quot; directamente a WFP para su siguiente ciclo.
+* **La pausa para limpiar:** Después de un ejercicio de diseño inicial que utilizó datos de ejemplo para validar el modelo, el equipo mueve su punto de inicio de planificación &quot;activa&quot; directamente a Workfront Planning para su siguiente ciclo.
 
 
 
@@ -82,7 +82,7 @@ Esta arquitectura de **Equipo en primer lugar** le permite:
 
 * **Conectar la estrategia al trabajo:** Habilite el vínculo entre los registros de planificación y el módulo de flujo de trabajo.
 
-* **Reflejar datos actuales:** Utilice las herramientas existentes del equipo (Excel/Core) para rellenar WFP, asegurándose de que los datos resulten familiares y relevantes.
+* **Reflejar datos actuales:** Utilice las herramientas existentes del equipo (Excel/Core) para rellenar Workfront Planning, asegurándose de que los datos resulten familiares y relevantes.
 
 * **Creado para ofrecer flexibilidad:** Recuerde que Workfront Planning está diseñado para evolucionar. Puede comenzar con procesos en el nivel de equipo y elevarlos o migrarlos fácilmente al gobierno en el nivel de empresa cuando la empresa esté lista.
 
@@ -102,7 +102,7 @@ Apunte a su primera victoria importante para el día 15: **creación automatizad
 
 ### Días 16-30: Transición gradual hacia la escala empresarial
 
-Con el &quot;momento del rayo&quot; alcanzado, traslade el punto de inicio del equipo al PMA. A medida que este modelo de **Equipo primero** se ejecuta correctamente, usted comienza la ruta hacia **Escala empresarial** identificando los patrones que funcionan.
+Una vez alcanzado el &quot;momento culminante&quot;, traslade el punto de inicio del equipo a Workfront Planning. A medida que este modelo de **Equipo primero** se ejecuta correctamente, usted comienza la ruta hacia **Escala empresarial** identificando los patrones que funcionan.
 
 
 
@@ -110,7 +110,7 @@ Con el &quot;momento del rayo&quot; alcanzado, traslade el punto de inicio del e
 
 * **Observar y estandarizar:** Utilice el Workspace primario para observar cómo el equipo piloto utiliza la herramienta. Estos ejemplos del mundo real darán forma a su eventual diseño empresarial.
 
-* **Retirar hojas de cálculo heredadas:** Pasar completamente a WFP a medida que el proceso madura.
+* **Retirar hojas de cálculo heredadas:** Moverse completamente a Workfront Planning a medida que el proceso madura.
 
 * **Usuarios avanzados del cambio:** Use la **vista de tabla** para administrar planes directos y de alta velocidad.
 
@@ -126,7 +126,7 @@ Busque estos indicadores tempranos de salud:
 
 * **Eficiencia:** La automatización reduce el tiempo desde la aprobación estratégica hasta el inicio del proyecto.
 
-* **Confianza:** Las partes interesadas utilizan escalas de tiempo de WFP en lugar de tablas de estado manuales para las revisiones.
+* **Confianza:** Las partes interesadas utilizan escalas de tiempo de Workfront Planning en lugar de tablas de estado manuales para las revisiones.
 
 
 
