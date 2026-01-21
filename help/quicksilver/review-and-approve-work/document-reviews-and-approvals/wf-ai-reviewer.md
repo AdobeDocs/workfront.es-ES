@@ -7,9 +7,9 @@ author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 0f4fd3a7-9578-4fda-b10f-9b4be147f1de
-source-git-commit: cf1d4bfeedb94e8607dad47177d804169254ee85
+source-git-commit: b926138cca96849f8c4490ec9550fecfd17da69a
 workflow-type: tm+mt
-source-wordcount: '657'
+source-wordcount: '647'
 ht-degree: 6%
 
 ---
@@ -60,7 +60,7 @@ Si carga un tipo de archivo no compatible, la opción AI Reviewer no aparece al 
 
 ## Configurar directrices de marca
 
-Workfront AI Reviewer utiliza las directrices de marca al revisar el contenido. Los administradores de Workfront pueden configurar las directrices de marca en el área Configuración de Workfront. &lt;!: las marcas creadas en GenStudio Foundation también están disponibles en Workfront.
+Workfront AI Reviewer utiliza las directrices de marca al revisar el contenido. Los administradores de Workfront pueden configurar las directrices de marca en el área Configuración de Workfront. <!--Brands created in GenStudio Foundation are also available in Workfront.-->
 
 Para obtener más información, consulte [Configurar marcas para el revisor de IA](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-a-brand.md).
 
