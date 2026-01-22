@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 70fd3887-3871-45b5-9c21-f57da63662aa
-source-git-commit: 5d326776b9c5b4d9d24e802375df4630508c8bd0
+source-git-commit: 5bccad02f90fd99135b50c5a929913b16cc5b809
 workflow-type: tm+mt
-source-wordcount: '1075'
+source-wordcount: '1071'
 ht-degree: 28%
 
 ---
@@ -221,15 +221,15 @@ Tenga en cuenta lo siguiente:
 
 * Al eliminar un tipo de registro global de un espacio de trabajo secundario, también se eliminan los siguientes elementos:
 
-   * Los registros añadidos desde el espacio de trabajo secundario se eliminan del espacio de trabajo secundario y no se pueden recuperar.
-
-     Los registros agregados en el espacio de trabajo secundario permanecen en el espacio de trabajo principal del tipo de registro global. El campo **Workspace** está vacío para estos registros en el espacio de trabajo principal del tipo de registro global. <!--checking on this with Lilit-->
+   * Los registros añadidos desde el espacio de trabajo secundario se eliminan del espacio de trabajo secundario y del espacio de trabajo original, y no se pueden recuperar.
 
   <!--Coming later: * The fields added from the secondary workspace.-->
 
 * Los tipos de registros globales eliminados de sus espacios de trabajo secundarios no se pueden recuperar.
 
 * El tipo de registro original permanece en su espacio de trabajo original, así como en otros espacios de trabajo en los que se ha agregado.
+
+* Las vistas agregadas al tipo de registro en el espacio de trabajo secundario se conservan y son visibles en otros espacios de trabajo, si se comparten con usted.
 
 Para suprimir un tipo de registro global de un espacio de trabajo secundario:
 

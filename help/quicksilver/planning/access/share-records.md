@@ -7,9 +7,9 @@ author: Alina
 recommendations: noDisplay, noCatalog
 hidefromtoc: true
 hide: true
-source-git-commit: 66dd7354f3723e266b77cb2f367b09c022e8c95e
+source-git-commit: 54a6e633e903c73a78b36e90fb27edb445dc8d47
 workflow-type: tm+mt
-source-wordcount: '1838'
+source-wordcount: '1883'
 ht-degree: 5%
 
 ---
@@ -198,7 +198,7 @@ Como administrador del espacio de trabajo, puede ajustar permisos a registros in
 
    >[!TIP]
    >
-   >No se pueden quitar entidades individuales de la lista Permisos heredados.
+   >No se pueden quitar entidades individuales de la lista Permisos heredados. <!--test this!-->
 
 1. (Opcional y condicional) Si desea compartir el registro con entidades específicas y otorgarles un acceso al tipo de registro diferente del que ya tienen para el espacio de trabajo, haga lo siguiente:
 
@@ -224,6 +224,7 @@ Como administrador del espacio de trabajo, puede ajustar permisos a registros in
    >* Si los usuarios tienen permisos de tipo Contribuir o Gestionar en el espacio de trabajo y el tipo de registro, mantendrán los permisos de Gestionar en el registro. El permiso Ver aparece atenuado. <!--this is not dimmed at this time, Lilit to check-->
    >* No puede conceder a los usuarios un permiso inferior al registro si tienen Contribute o superior al tipo de registro.
    > Para obtener más información, consulte [Información general sobre los permisos de uso compartido en Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md).
+   >* Cuando comparte un registro con un usuario, su rol de trabajo principal <span class="preview">y su correo electrónico</span> también se muestran en el campo. Debe tener activada la configuración Ver información de contacto para el objeto Usuarios en su nivel de acceso para poder ver el correo electrónico del usuario.
 
 1. Para que los usuarios que no tengan permisos de acceso al área de trabajo puedan ver un registro, en el campo **Conceder acceso a esta vista**, empiece a escribir el nombre de un usuario, un grupo, un equipo, una empresa o un rol y, a continuación, haga clic en él cuando aparezca en la lista.
 

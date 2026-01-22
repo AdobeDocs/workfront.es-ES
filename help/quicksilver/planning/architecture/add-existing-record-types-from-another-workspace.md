@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: b977d5dd-8975-42c4-9968-a7ac357972e6
-source-git-commit: 5d326776b9c5b4d9d24e802375df4630508c8bd0
+source-git-commit: 5bccad02f90fd99135b50c5a929913b16cc5b809
 workflow-type: tm+mt
-source-wordcount: '588'
-ht-degree: 6%
+source-wordcount: '657'
+ht-degree: 5%
 
 ---
 
@@ -138,7 +138,8 @@ And
 
       * Todos los campos originales
       * Todas las conexiones de registros
-   * Solo se pueden ver los registros agregados desde otros espacios de trabajo que utilizan el mismo tipo de registro global cuando se tiene al menos permisos de visualización para dichos espacios de trabajo. <!--replace this bullet by this with Jan 15 release: You can view records added from the original workspace of the global record type only when you have at least View permissions to that workspace.-->
+   * No se pueden ver los registros agregados desde el espacio de trabajo original del tipo de registro desde el espacio de trabajo secundario.
+   * Puede ver los registros agregados desde el espacio de trabajo original del tipo de registro en ese espacio de trabajo, sólo en el espacio de trabajo original, si tiene al menos permisos de Vista en ese espacio de trabajo.
    * El campo **Workspace** de solo lectura se agrega a la nueva vista de tabla de tipo de registro. El campo muestra el espacio de trabajo donde se creó cada registro.
 
      >[!NOTE]
@@ -147,7 +148,12 @@ And
      >
 
 1. (Opcional) Haga clic en y, a continuación, arrastre y suelte el tipo de registro recién añadido en cualquier sección del espacio de trabajo.
-1. (Opcional) Haga clic en el menú **Más** de la tarjeta del nuevo tipo de registro o a la derecha del nombre del tipo de registro en su página y, a continuación, haga clic en **Eliminar**.
+1. (Opcional) Haga clic en el menú **Más** de la tarjeta del nuevo tipo de registro o a la derecha del nombre del tipo de registro en su página y, a continuación, haga clic en una de las siguientes opciones:
+
+   * **Compartir** para compartir el tipo de registro desde el espacio de trabajo secundario.
+   * **Eliminar** para eliminar el tipo de registro del espacio de trabajo secundario. Al eliminar los tipos de registro del espacio de trabajo secundario también se eliminan los registros agregados desde el espacio de trabajo secundario.
+
+     Las vistas añadidas desde el espacio de trabajo secundario no se eliminan. <!--checking with Lilit - not sure if this is by design??-->
 
    Para obtener más información, vea la sección &quot;Eliminar tipos de registros globales&quot; en el artículo [Eliminar tipos de registros](/help/quicksilver/planning/architecture/delete-record-types.md).
 

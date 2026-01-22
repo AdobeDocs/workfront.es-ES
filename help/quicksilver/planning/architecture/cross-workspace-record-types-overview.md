@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: aeedd871-dcd3-4fb3-bfc5-99db3e7c9296
-source-git-commit: 5d326776b9c5b4d9d24e802375df4630508c8bd0
+source-git-commit: 5bccad02f90fd99135b50c5a929913b16cc5b809
 workflow-type: tm+mt
-source-wordcount: '1674'
+source-wordcount: '1640'
 ht-degree: 1%
 
 ---
@@ -109,12 +109,12 @@ El tipo de registro configurado para ser global tiene las siguientes propiedades
    * Creación y administración de formularios de solicitud
    * Creación y administración de automatizaciones
 
-* Los registros que agregue a un tipo de registro global sólo son visibles para los usuarios que tienen permisos de Vista en el área de trabajo donde se agregaron. <!-- this needs to be more specific: what does "o the workspace where they were added" mean? - added in which kind of workspaces? secondary or primary; asking Lilit-->
+* Los registros que agregue a un tipo de registro global sólo son visibles para los usuarios que tienen permisos de Vista en el área de trabajo donde se agregaron.
 * Los registros que agregue desde un espacio de trabajo secundario se acumulan y se muestran en el espacio de trabajo original. Todos los miembros del espacio de trabajo original obtienen permisos de visualización para ellos.
 * Cuando se agrega el tipo de registro global original a varios espacios de trabajo secundarios, se presentan los siguientes escenarios:
 
    * Los miembros del espacio de trabajo original obtienen automáticamente permisos de Vista para todos los registros agregados desde cualquier espacio de trabajo, incluso si no son miembros de dichos espacios de trabajo.
-   * Los miembros del área de trabajo secundaria sólo pueden ver registros de áreas de trabajo en las que son miembros. <!--change this to: Secondary workspace members can view only records from the workspace the records were added and where they have at least permissions to view the record workspace and the record type.-->
+   * Los miembros del área de trabajo secundaria sólo pueden ver registros de áreas de trabajo en las que son miembros.
 
 * Los tipos de registro conectados a un tipo de registro global estarán disponibles para la conexión desde los espacios de trabajo donde se agregue este tipo de registro.
 
@@ -172,23 +172,16 @@ El tipo de registro configurado para ser global tiene las siguientes propiedades
    * Creación y administración de formularios de solicitud
    * Creación y administración de automatizaciones
 
-* Los registros añadidos en un espacio de trabajo secundario son visibles desde los siguientes espacios de trabajo, solo si tiene permisos de Vista o superiores en estos espacios de trabajo:
+* Los registros añadidos en un espacio de trabajo secundario son visibles desde los siguientes espacios de trabajo, cuando tiene permisos de Vista o superiores en estos espacios de trabajo:
 
-   * Espacio de trabajo secundario donde se agregan.
-   * Espacio de trabajo original del tipo de registro global.
-   * Todos los demás espacios de trabajo en los que se agrega el espacio de trabajo global.
-
-  <!--replace he above bullet with this: 
-        * Records added in a secondary workspace are visible from the following workspaces, only if you have View or higher permissions to these workspaces:
-        * The secondary place where they were added
-        * The global record type's original workspace
-    -->
+   * El lugar secundario donde se agregaron
+   * Espacio de trabajo original del tipo de registro global
 
 * Los siguientes escenarios existen para registros creados en espacios de trabajo secundarios:
 
    * Si tiene permisos de Administración en el espacio de trabajo original y no tiene permisos en espacios de trabajo secundarios, puede ver los registros agregados desde los espacios de trabajo secundarios en el espacio de trabajo original, pero no puede administrarlos desde el espacio de trabajo original.
    * Si tiene permisos de Administración en el espacio de trabajo secundario, puede administrar los registros tanto del espacio de trabajo original del tipo de registro global como del espacio de trabajo secundario donde se agregaron.
-   * Puede ver los registros en espacios de trabajo secundarios adicionales en los que el tipo de registro global se agrega sólo si tiene permisos de visualización en dichos espacios de trabajo. <!-- take this bullet out when we change this functionality on Jan 15-->
+     <!--not anymore: * You can view the records in additional secondary workspaces where the global record type is added only if you have View permissions to those workspaces-->
 * No se pueden compartir públicamente vistas de un tipo de registro global en un espacio de trabajo secundario.
 
 ### Acceso a las conexiones de un tipo de registro global

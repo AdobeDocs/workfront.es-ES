@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 895fcc9e8bfc6ef21e82ae6dab4c370b0e267cad
+source-git-commit: 5bccad02f90fd99135b50c5a929913b16cc5b809
 workflow-type: tm+mt
-source-wordcount: '3165'
+source-wordcount: '3240'
 ht-degree: 21%
 
 ---
@@ -148,12 +148,11 @@ Para obtener más información acerca de los requisitos de acceso de Workfront, 
 
 ## Consideraciones al crear registros
 
-<!--
-* Depending which workspace they are added from, records added to global record types are visible by the following types of users:
+* Dependiendo del espacio de trabajo desde el que se agreguen, los registros agregados a los tipos de registro globales son visibles para los siguientes tipos de usuarios:
 
-    * Records added to the original workspace of a global record type are visible from the original workspace and all secondary workspaces where the record type is added. (***************check with Lilit on this one*************)
-    * Records added to a secondary workspace of a global record type are visible only from the workspace they were created and the original workspace of the global record type. 
-    For more information, see [Cross-workspace record type overview](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md). -->
+   * Los registros agregados al espacio de trabajo original de un tipo de registro global son visibles desde el espacio de trabajo original.
+   * Los registros agregados a un espacio de trabajo secundario de un tipo de registro global sólo son visibles desde el espacio de trabajo en el que se crearon y el espacio de trabajo original del tipo de registro global.
+Para obtener más información, vea [Información general sobre el tipo de registro entre espacios de trabajo](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md).
 
 * Según sus permisos en el espacio de trabajo y los tipos de registro, los usuarios pueden crear registros de las siguientes maneras:
 
