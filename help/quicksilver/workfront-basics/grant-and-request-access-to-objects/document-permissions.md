@@ -118,7 +118,7 @@ El usuario que carga un documento en Workfront tiene permisos de administración
 
 1. En la **pestaña Todos los** documentos **del Página Documentos**, mantén pulsada la tecla **Comando** (Mac) o **Ctrl** (Windows) del teclado y, a continuación, haz clic en cada documento quieras compartir.
 
-1. En la parte superior de la Página, haga clic en el **icono** Compartir![ icono Compartir](assets/share-icon.png). Se abre el modal compartido.
+1. En la parte superior de la Página, haga clic en el **icono** Compartir![&#x200B; icono Compartir](assets/share-icon.png). Se abre el modal compartido.
 
    ![Icono de compartir](assets/share-documents-in-bulk.png)
 
