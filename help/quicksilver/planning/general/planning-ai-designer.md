@@ -4,10 +4,10 @@ description: Con Adobe Planning Designer, puede generar un nuevo espacio de trab
 recommendations: noDisplay, noCatalog
 hidefromtoc: true
 hide: true
-source-git-commit: 866b237db5d109b0a435145119a6412e41d960ab
+source-git-commit: bd3dde54d986416af847b2f3b2a1e8570d5ce3f2
 workflow-type: tm+mt
-source-wordcount: '1020'
-ht-degree: 10%
+source-wordcount: '1278'
+ht-degree: 6%
 
 ---
 
@@ -35,7 +35,7 @@ Para obtener información sobre Workfront Planning, consulte los siguientes art�
 * [Información general sobre el acceso a Adobe Workfront Planning](/help/quicksilver/planning/access/access-overview.md)
 
 
-## Requisitos de acceso
+## Requisitos de acceso <!--edit theses??-->
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo. 
 
@@ -72,20 +72,29 @@ Para obtener más información acerca de los requisitos de acceso de Workfront, 
 
 ## Inscripción en el programa Beta cerrado para Planning Designer
 
-<!--edit this Or create a new article under Beta programs?? -->
+En la actualidad, puede solicitar participar en el programa Cerrado de Beta para Planning Designer enviándonos un correo electrónico a sargism@adobe.com.
 
-Actualmente, puede solicitar participar en el programa Beta cerrado para Planning Designer.
+Después de recibir el correo electrónico, nuestro equipo de ingeniería activará Planning Designer en su instancia de Workfront.
+
+>[!IMPORTANT]
+>
+>En primer lugar, su empresa debe aceptar el contrato de asistente de IA antes de que Planning Designer esté disponible en el sistema.
 
 ## Consideraciones sobre Planning Designer
 
-* Para utilizar el Designer de Planning, su organización debe cumplir los requisitos para utilizar el asistente de IA de Workfront.
+* Para utilizar Planning Designer, primero debe activar el asistente de IA para su organización. Debe establecerse lo siguiente para que el asistente de IA esté disponible para todos los miembros de la organización:
 
-  Para obtener más información, consulte [Requisitos previos para el asistente de IA](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant).
+   * Workfront debe poner el asistente de IA a disposición de su organización.
 
-* Para utilizar Planning Designer, un administrador del sistema debe activarlo en el área Preferencias del sistema de la configuración.
+     Para obtener más información, consulte [Requisitos previos para el asistente de IA](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant).
+   * Una vez que Workfront pone el asistente de IA a disposición de su organización, el administrador principal de Workfront puede acceder a él.
 
-* Puede utilizar indicadores para crear objetos de Planning mediante el Asistente de IA de Workfront desde el área de Planning o mediante el Designer de Planning.
+     Para obtener más información, consulte [Configurar información básica para el sistema](/help/quicksilver/administration-and-setup/get-started-wf-administration/configure-basic-info.md).
+   * El administrador de Workfront debe aceptar el acuerdo del asistente de IA y, a continuación, activar el asistente de IA para todos los demás usuarios.
 
+     Para obtener más información, consulte [Habilitar o deshabilitar el asistente de IA](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md).
+* Una vez que el administrador del sistema ha activado el asistente de IA para su organización, el asistente de planificación está disponible para todos los usuarios, de forma predeterminada, si se ha puesto a disposición de su organización.
+* Las acciones que realiza Planning Designer también las puede realizar el Asistente de IA cuando se utiliza en el área de Planning.
 * Las acciones que realiza el Asistente de IA en el área de Planning o las que realiza Planning Designer se encuentran en el contexto de los permisos de Workfront Planning y del nivel de acceso de Workfront.
 
   Para obtener más información, consulte los siguientes artículos:
@@ -93,11 +102,13 @@ Actualmente, puede solicitar participar en el programa Beta cerrado para Plannin
    * [Información general sobre los permisos de uso compartido en Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md)
    * [Información general sobre el tipo de licencia al usar Adobe Workfront Planning](/help/quicksilver/planning/access/license-type-overview.md)
 
-* Los cambios realizados por Planning Designer en nombre del usuario se rastrean en el panel del historial del registro.
+* Los cambios realizados por el asistente de IA o por Planning Designer en nombre del usuario se rastrean en el panel del historial del registro.
 
-* Puede utilizar comandos para deshacer las acciones. Por ejemplo, puede escribir “Deshacer el último cambio” para revertir el cambio.
+* Las acciones realizadas por el Designer de Planificación son permanentes y podrían ser irreversibles. Por ejemplo, no se puede deshacer la eliminación de un campo. Revise todas las acciones propuestas por Designer antes de aceptarlas.
 
-* Al crear, actualizar o eliminar un objeto a través de Planning Designer, muestra las acciones deseadas y solicita confirmación. A continuación, puede confirmar o cancelar las acciones.
+  >[!IMPORTANT]
+  >
+  >Al crear, actualizar o eliminar un objeto a través de Planning Designer, el mensaje solicitará confirmación solo para las acciones que son irreversibles. Por ejemplo, la eliminación de un tipo de registro o de un espacio de trabajo es irreversible. No se puede eliminar un registro. Planning Designer solo solicitará confirmación cuando intente eliminar un tipo de registro o espacio de trabajo.
 
 * Cuando se crean espacios de trabajo y tipos de registros utilizando Planning Designer, las vistas y los campos también se crean automáticamente.
 
@@ -107,7 +118,7 @@ Puede utilizar Planning Designer o el asistente de IA para realizar cualquiera d
 
 * Creación y configuración de espacios de trabajo
 
-* Crear tipos de registro
+* Crear tipos de registros, incluida la definición y adición de tipos de registros globales a espacios de trabajo
 
 * Campos de diseño o campos de fórmula
 
@@ -121,44 +132,32 @@ Puede utilizar Planning Designer o el asistente de IA para realizar cualquiera d
 
 * Creación de vistas personalizadas
 
-* Crear registros importando un documento.
+* Creación de registros importando un documento
 
-  La creación de registros a partir de un documento importado sólo está disponible en Planning Designer y no en el asistente de IA.
+  Por ejemplo, puede cargar una imagen de un organigrama en su empresa y Planning Designer puede crear un espacio de trabajo basado en ella.
 
-  Para obtener información sobre los tipos y tamaños de archivo aceptados, consulte la sección &quot;Protecciones de documentos&quot; en el artículo [Usar el relleno de formulario con tecnología de IA para rellenar una solicitud mediante peticiones de datos o documentos](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md).
+  La creación de objetos a partir de un documento importado sólo está disponible en Planning Designer y no en el asistente de IA.
+
+  >[!IMPORTANT]
+  >
+  >Aunque se admiten los tipos de archivo .XLSX y .CSV, no se pueden utilizar para la importación de registros a gran escala mediante Planning Designer.
+  >Si necesita importar un número considerable de registros en este momento, le recomendamos que lo haga mediante las funciones manuales disponibles en Planning.
+  >
+  >Para obtener más información, vea [Crear registros importando información desde un archivo CSV o de Excel](/help/quicksilver/planning/records/import-file-to-create-records.md).
+  >Para ver las limitaciones de tipo de archivo, consulte la sección &quot;Obtener sugerencias basadas en un documento que haya cargado&quot; en [Usar el relleno de formulario con tecnología de IA para rellenar una solicitud mediante peticiones de datos o documentos](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md).
+
 
   <!--* Generate thumbnail and over image for a record (not available yet, maybe Q2) -->
-
-## Habilitar Planning Designer para su organización
-
-Como administrador de Workfront, primero debe habilitar Planning Designer para su organización.
-
-<!--add steps here-->
-
-1. Inicie sesión en Workfront como administrador del sistema.
-1. Haga clic en **Menú principal** ![Icono del menú principal](assets/main-menu-shell.png) en la esquina superior izquierda de la pantalla y, a continuación, haga clic en **Configuración**.
-1. Haga clic en **Sistema** > en el panel izquierdo y, a continuación, vaya al área de **preferencias de IA**.
-1. Active la siguiente configuración:
-   * **Habilitar IA**
-   * **Adherirse a las beta de IA**
-   * **Planificación de Designer**
-
-   ![Configuración de Planning Designer en Preferencias del sistema](assets/planning-designer-toggle-in-system-preferences.png)
-1. Haga clic en **Guardar**.
-
-   Todos los usuarios del sistema que tengan una licencia Standard ahora pueden ver el botón **Diseñar con IA** en la página principal de Workspaces en el área de Planning. <!--check screen shot-->
-
-   ![Diseño con botón de IA en la página de Workspace](assets/design-with-ai-button-on-workspaces-page.png)
-
-   Ahora todos los usuarios pueden iniciar y utilizar Planning Designer para crear y actualizar objetos de Workfront Planning.
 
 ## Creación o actualización de objetos mediante Planning Designer
 
 Puede crear o actualizar objetos en Workfront Planning mediante Planning Designer o el Asistente de IA, a menos que se especifique lo contrario.
 
-1. Inicie sesión en Workfront y, a continuación, haga clic en el icono **Menú principal** ![Menú principal de líneas](assets/lines-main-menu.png) en la esquina superior izquierda.
+1. Inicie sesión en Workfront, luego haga clic en el icono **Menú principal** ![Menú principal de líneas](assets/lines-main-menu.png) en la esquina superior izquierda y, a continuación, haga clic en **Planificación**.
 
-1. Haga clic en **Planificación**. Se abre el área de Planning.
+   Se abre el área **Planificación**.
+
+   ![Diseñar con el botón de IA en la página Espacios de trabajo](assets/design-with-ai-button-on-workspaces-page.png)
 
 1. Haga clic en **Diseñar con IA**.
 
@@ -166,11 +165,11 @@ Puede crear o actualizar objetos en Workfront Planning mediante Planning Designe
 
    ![Ventana de Planning Designer](assets/planning-designer-window.png)
 
-1. En el espacio proporcionado, empiece a escribir comandos para el asistente de IA y, a continuación, haga clic en Intro cuando haya terminado.
+1. En el espacio proporcionado, empiece a escribir las solicitudes del Ayudante de IA y, cuando termine, haga clic en Entrar.
 
    <!--add screen shot-->
 
-   Por ejemplo, puede escribir una solicitud similar a las siguientes:
+   Por ejemplo, puede escribir mensajes similares a los siguientes:
 
    * Cree y configure un espacio de trabajo con cinco tipos de registros para administrar campañas
 
@@ -196,12 +195,35 @@ Puede crear o actualizar objetos en Workfront Planning mediante Planning Designe
 
    Cuando acepte crear los objetos, los cambios se mostrarán a la derecha del área de solicitud.
 
-   Puede revisar espacios de trabajo, tipos de registros, campos, vistas y registros en el área de vista previa a la derecha del mensaje.
+   Puede ver espacios de trabajo, tipos de registros, campos, vistas y registros en el área de vista previa a la derecha del mensaje.
+
+   >[!TIP]
+   >
+   >Algunos objetos se crean inmediatamente, sin necesidad de confirmación.
+
 1. (Opcional) Escriba peticiones de datos adicionales para editar más los objetos.
-1. (Opcional) Haga clic en el icono **Alternar la pantalla de vista previa de AI Workspace** ![Ocultar o mostrar el icono de la pantalla de vista previa](assets/hide-show-preview-screen-in-planning-designer.png) para abrir o cerrar la pantalla de vista previa a la derecha.
+1. (Opcional) Haga clic en el icono **Mostrar u ocultar pantalla de vista previa** ![Ocultar o mostrar icono de pantalla de vista previa](assets/hide-show-preview-screen-in-planning-designer.png) para abrir o cerrar la pantalla de vista previa a la derecha.
 1. Haga clic en el icono **Abrir espacio de trabajo en ficha nueva** ![Abrir espacio de trabajo en ficha nueva](assets/open-workspace-on-new-tab-icon.png) para abrir el espacio de trabajo que está actualizando en una ficha nueva.
 1. Haga clic en el icono **Cerrar** **X** para cerrar Planning Designer y abrir el área de Workspaces.
 1. Abra el espacio de trabajo editado con Planning Designer y realice más cambios en sus objetos.
+
+## Desactive Planning Designer para su organización
+
+Una vez que el administrador de Workfront acepta el acuerdo del Asistente de IA, Planning Designer se activa para todos los miembros de la organización de forma predeterminada.
+
+Para desactivarla:
+
+1. Inicie sesión en Workfront como administrador del sistema.
+1. Haga clic en **Menú principal** ![Icono del menú principal](assets/main-menu-shell.png) en la esquina superior izquierda de la pantalla y, a continuación, haga clic en **Configuración**.
+1. Haga clic en **Sistema** > en el panel izquierdo y, a continuación, vaya al área de **preferencias de IA**.
+1. Desactive la configuración de **Planning Designer**. <!--add new screen shot with info icon-->
+
+   ![Configuración de Planning Designer en Preferencias del sistema](assets/planning-designer-toggle-in-system-preferences.png)
+1. Haga clic en **Guardar**.
+
+   Esto elimina Planning Designer para todos los usuarios del sistema.
+
+
 
 
 

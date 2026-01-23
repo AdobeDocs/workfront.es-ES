@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 53f57953-fb9f-47ef-be18-a7164c844682
-source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
+source-git-commit: 179a20f1ae6ab723963cc78e9573560968500ac5
 workflow-type: tm+mt
-source-wordcount: '784'
-ht-degree: 67%
+source-wordcount: '797'
+ht-degree: 64%
 
 ---
 
@@ -78,7 +78,7 @@ Para obtener más información acerca de los requisitos de acceso de Workfront, 
 
 * Los cambios realizados por el asistente de IA en nombre del usuario se rastrean en el panel del historial del registro.
 
-* Puede utilizar comandos para deshacer las acciones. Por ejemplo, puede escribir “Deshacer el último cambio” para revertir el cambio.
+* Las medidas adoptadas por el auxiliar de inteligencia artificial son permanentes y podrían ser irreversibles. Por ejemplo, no se puede deshacer la eliminación de un campo. Revise todas las acciones propuestas por el asistente de IA antes de aceptarlas.
 
 * Al crear, actualizar o eliminar un objeto mediante el Asistente de IA, este muestra las acciones deseadas y solicita confirmación. A continuación, puede confirmar o cancelar las acciones.
 
