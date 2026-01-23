@@ -6,9 +6,9 @@ description: Configuración de marcas para el revisor de IA
 author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
-source-git-commit: cf1d4bfeedb94e8607dad47177d804169254ee85
+source-git-commit: cd2a5560fdf446e8e971afcb640af38b4d301d40
 workflow-type: tm+mt
-source-wordcount: '404'
+source-wordcount: '410'
 ht-degree: 10%
 
 ---
@@ -57,7 +57,7 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
 
 * Su organización debe haber migrado a Adobe IMS (sistema Identity Management).
 * La instancia de Workfront debe tener habilitadas las aprobaciones unificadas.
-  <!--* Your organization must have GenStudio Foundation.-->
+* Su organización debe tener GenStudio Foundation.
 * Adobe debe tener registrado un acuerdo de Adobe Gen AI.
 Para obtener más información sobre la firma del acuerdo, consulte [Firmar el acuerdo de Adobe Gen AI](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement).
 
