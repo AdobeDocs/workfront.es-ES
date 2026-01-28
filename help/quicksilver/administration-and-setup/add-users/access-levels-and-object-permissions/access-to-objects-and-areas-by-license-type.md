@@ -3,20 +3,20 @@ user-type: administrator
 content-type: reference
 product-area: system-administration
 navigation-topic: access-levels
-title: Acceso a objetos y áreas por tipo de licencia
+title: Acceso a objetos y áreas por tipo de licencia (heredada)
 description: En la siguiente tabla se indica el nivel más alto de acceso (Editar o Ver) que cada una de las licencias de Adobe Workfront permite para los objetos y áreas en Workfront.
 author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d8f2a295-c053-4763-bf6e-6e836087a839
-source-git-commit: 3d0a6932bda338af1e6b3dcba49bfc0ac486d919
+source-git-commit: 0ccf02a333b41705a582bcb10ab9a90198123997
 workflow-type: tm+mt
-source-wordcount: '480'
-ht-degree: 69%
+source-wordcount: '482'
+ht-degree: 68%
 
 ---
 
-# Acceso a objetos y áreas por tipo de licencia
+# Acceso a objetos y áreas por tipo de licencia (heredada)
 
 <!-- Audited: 11/2025 -->
 

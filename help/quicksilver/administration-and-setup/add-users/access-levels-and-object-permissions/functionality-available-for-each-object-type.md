@@ -4,20 +4,20 @@ content-type: reference
 product-area: system-administration
 keywords: acceso,modelo,canal,diagrama,niveles,permisos
 navigation-topic: access-levels
-title: Funcionalidad disponible para cada tipo de objeto para varios niveles de acceso
+title: Funcionalidad disponible para cada tipo de objeto para varios niveles de acceso (heredado)
 description: En las tablas siguientes se enumeran las funciones disponibles para cada tipo de objeto en los distintos niveles de acceso.
 author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 91b1b448-5a0b-4e64-a59e-458c8387ecbc
-source-git-commit: 3d0a6932bda338af1e6b3dcba49bfc0ac486d919
+source-git-commit: 0ccf02a333b41705a582bcb10ab9a90198123997
 workflow-type: tm+mt
-source-wordcount: '1586'
-ht-degree: 94%
+source-wordcount: '1588'
+ht-degree: 92%
 
 ---
 
-# Funcionalidad disponible para cada tipo de objeto para varios niveles de acceso
+# Funcionalidad disponible para cada tipo de objeto en varios niveles de acceso (heredado)
 
 {{highlighted-preview}}
 
@@ -66,7 +66,7 @@ Solo los usuarios con una licencia Plan pueden obtener acceso completo a los pro
 | Editar detalles del proyecto | ✓ |  |  |  |  |
 | Editar personal | ✓ |  |  |  |  |
 | Exportar a MS Project | ✓ | ✓ | ✓ |  |  |
-| Recalcular finanzas/líneas de tiempo | ✓ |  |  |  |  |
+| Recalcular finanzas/cronologías | ✓ |  |  |  |  |
 | Establecer propiedades de cola | ✓ |  |  |  |  |
 
 

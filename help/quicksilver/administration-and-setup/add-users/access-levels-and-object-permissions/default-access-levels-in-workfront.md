@@ -4,20 +4,20 @@ content-type: reference
 product-area: system-administration
 keywords: acceso,modelo,canal,diagrama,niveles,permisos
 navigation-topic: access-levels
-title: Niveles de acceso integrados
+title: Niveles de acceso integrados (heredados)
 description: Cada uno de los seis niveles de acceso integrados actuales está diseñado para un tipo particular de usuario, incluidos administrador del sistema, planificador, trabajador, revisor, solicitante y usuario externo. Estos niveles de acceso le permiten controlar lo que los usuarios pueden editar y ver en el sistema. Si necesita un nivel de acceso personalizado, puede copiar un nivel de acceso integrado y modificarlo según la cantidad de acceso que desee que permita para los distintos tipos de objetos de Workfront.
 author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 5cb42dd8-1557-4fa4-ab3d-8278ce9afd96
-source-git-commit: 3d0a6932bda338af1e6b3dcba49bfc0ac486d919
+source-git-commit: 0ccf02a333b41705a582bcb10ab9a90198123997
 workflow-type: tm+mt
-source-wordcount: '1654'
-ht-degree: 85%
+source-wordcount: '1656'
+ht-degree: 84%
 
 ---
 
-# Niveles de acceso integrados
+# Niveles de acceso integrados (heredados)
 
 <!--Audited: 01/2024-->
 

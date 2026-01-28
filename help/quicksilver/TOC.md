@@ -3,9 +3,9 @@ user-guide-title: Guía de Workfront
 user-guide-description: Utilice los siguientes documentos, tutoriales y recursos adicionales para aprender a implementar y utilizar Adobe Workfront de forma eficaz en su organización.
 role: User
 feature-set: Workfront
-source-git-commit: bf34bfa2059d227eca3faa3d719adcf4d711e457
+source-git-commit: 0ccf02a333b41705a582bcb10ab9a90198123997
 workflow-type: tm+mt
-source-wordcount: '13724'
+source-wordcount: '13721'
 ht-degree: 57%
 
 ---
@@ -42,7 +42,7 @@ ht-degree: 57%
          * [Mejoras de proyecto del cuarto trimestre de 2025](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-project.md)
          * [Mejoras en las solicitudes del cuarto trimestre de 2025](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-requests.md)
          * [Mejoras en la gestión de recursos del cuarto trimestre de 2025](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-resource-mgmt.md)
-         * [Otras mejoras del cuarto trimestre de 2025 &#x200B;](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-other.md)
+         * [Otras mejoras del cuarto trimestre de 2025 ](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-other.md)
          * [Actualizaciones de aspecto durante el periodo de tiempo de la versión del cuarto trimestre de 2025](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-look-and-feel-updates.md)
       * Versión del tercer trimestre de 2025 {#release-25-q3}
          * [Resumen de la versión del tercer trimestre de 2025](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-release-overview.md)
@@ -516,25 +516,25 @@ ht-degree: 57%
          * [Ver y exportar registros de auditoría](administration-and-setup/add-users/create-and-manage-users/view-and-export-audit-logs.md)
          * [Ver información de inicio de sesión de usuario](administration-and-setup/add-users/create-and-manage-users/view-user-login-info.md)
          * [Administración de usuarios en Adobe Admin Console](administration-and-setup/add-users/create-and-manage-users/admin-console.md)
-      * Funcionamiento de los nuevos niveles de acceso {#access-levels}
-         * [Funcionamiento de los nuevos niveles de acceso](administration-and-setup/add-users/how-access-levels-work/access-levels-toc.md)
-         * [Información general sobre nuevos niveles de acceso](administration-and-setup/add-users/how-access-levels-work/access-level-overview.md)
-         * [Información general sobre nuevas licencias](administration-and-setup/add-users/how-access-levels-work/licenses-overview.md)
-         * [Acceso a objetos y áreas con nuevas licencias](administration-and-setup/add-users/how-access-levels-work/access-to-objects-areas-license-types.md)
-         * [Funcionalidad disponible para cada tipo de objeto para los nuevos niveles de acceso](administration-and-setup/add-users/how-access-levels-work/functionality-available-for-objects.md)
-         * [Deshabilitación de la opción de actualización automática para usuarios sin pago en el nuevo plan de licencia](administration-and-setup/add-users/how-access-levels-work/disable-auto-upgrade.md)
+      * Funcionamiento de los niveles de acceso {#access-levels}
+         * [Funcionamiento de los niveles de acceso](administration-and-setup/add-users/how-access-levels-work/access-levels-toc.md)
+         * [Información general de los niveles de acceso](administration-and-setup/add-users/how-access-levels-work/access-level-overview.md)
+         * [Información general de licencias](administration-and-setup/add-users/how-access-levels-work/licenses-overview.md)
+         * [Acceso a objetos y áreas por licencias](administration-and-setup/add-users/how-access-levels-work/access-to-objects-areas-license-types.md)
+         * [Funcionalidad disponible para cada tipo de objeto](administration-and-setup/add-users/how-access-levels-work/functionality-available-for-objects.md)
+         * [Desactivar la opción de actualización automática para usuarios sin pago](administration-and-setup/add-users/how-access-levels-work/disable-auto-upgrade.md)
          * [Comparar funcionalidad entre modelos de licencia](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/comparing-old-and-new-license-models.md)
          * [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)
-      * Funcionamiento de los niveles de acceso {#legacy-access-levels}
-         * [Funcionamiento de los niveles de acceso](administration-and-setup/add-users/access-levels-and-object-permissions/access-levels.md)
-         * [Información general sobre el acceso](administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md)
-         * [Información general de licencias](administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md)
-         * [Niveles de acceso y permisos](administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md)
-         * [Acceso a objetos y áreas por tipo de licencia](administration-and-setup/add-users/access-levels-and-object-permissions/access-to-objects-and-areas-by-license-type.md)
-         * [Funcionalidad para cada tipo de objeto](administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md)
-         * [Acceso configurable para cada tipo de objeto](administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md)
-         * [Niveles de acceso integrados](administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md)
-         * [Enumerar los niveles de acceso y las licencias de los usuarios](administration-and-setup/add-users/access-levels-and-object-permissions/list-access-levels-and-licenses-for-your-users.md)
+      * Funcionamiento de los niveles de acceso heredados {#legacy-access-levels}
+         * [Funcionamiento de los niveles de acceso heredados](administration-and-setup/add-users/access-levels-and-object-permissions/access-levels.md)
+         * [Información general sobre el nivel de acceso heredado](administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md)
+         * [Resumen de licencias heredadas](administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md)
+         * [Niveles de acceso y permisos heredados](administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md)
+         * [Acceso a objetos y áreas por tipo de licencia (heredada)](administration-and-setup/add-users/access-levels-and-object-permissions/access-to-objects-and-areas-by-license-type.md)
+         * [Funcionalidad para cada tipo de objeto (heredado)](administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md)
+         * [Acceso configurable para cada tipo de objeto (heredado)](administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md)
+         * [Niveles de acceso integrados (heredados)](administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md)
+         * [Enumerar los niveles de acceso y las licencias de los usuarios (Heredado)](administration-and-setup/add-users/access-levels-and-object-permissions/list-access-levels-and-licenses-for-your-users.md)
       * Configuración del acceso a Workfront {#configure-access}
          * [Configuración del acceso](administration-and-setup/add-users/configure-and-grant-access/configure-access.md)
          * [Crear o modificar niveles de acceso personalizados](administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)
@@ -1784,7 +1784,7 @@ ht-degree: 57%
    * [Administrar recursos: índice de artículos](resource-mgmt/manage-resources.md)
    * Administración de recursos {#resource-management}
       * [Administración de recursos: índice de artículos](resource-mgmt/resource-mgmt-overview/resource-management-overview.md)
-      * [Introducción a la Administración de recursos &#x200B;](resource-mgmt/resource-mgmt-overview/get-started-resource-management.md)
+      * [Introducción a la Administración de recursos ](resource-mgmt/resource-mgmt-overview/get-started-resource-management.md)
    * Planificación de recursos en Adobe Workfront {#resource-planning-in-adobe-workfront}
       * [Planificación de recursos: índice de artículos](resource-mgmt/resource-planning/resource-planning-overview.md)
       * Conjuntos de recursos {#resource-pools}

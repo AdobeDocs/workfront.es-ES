@@ -1,5 +1,5 @@
 ---
-title: Cómo funcionan juntos los niveles de acceso y los permisos
+title: Cómo funcionan juntos los niveles de acceso y los permisos heredados
 user-type: administrator
 content-type: reference
 product-area: system-administration
@@ -10,14 +10,14 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 594e002c-19e3-4baa-b5f8-223c3fdf8ca8
-source-git-commit: 3d0a6932bda338af1e6b3dcba49bfc0ac486d919
+source-git-commit: 0ccf02a333b41705a582bcb10ab9a90198123997
 workflow-type: tm+mt
-source-wordcount: '899'
-ht-degree: 51%
+source-wordcount: '901'
+ht-degree: 50%
 
 ---
 
-# Funcionamiento conjunto de los niveles de acceso y los permisos
+# Cómo funcionan juntos los niveles de acceso heredados y los permisos
 
 >[!NOTE]
 >

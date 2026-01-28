@@ -4,20 +4,20 @@ content-type: reference
 product-area: system-administration
 keywords: acceso,modelo,canal,diagrama,niveles,permisos
 navigation-topic: access-levels
-title: Funcionalidad disponible para cada tipo de objeto para los nuevos niveles de acceso
+title: Funcionalidad disponible para cada tipo de objeto
 description: En las tablas siguientes se enumeran las funciones disponibles para cada tipo de objeto en los distintos niveles de acceso.
 author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: a419e4fe-7781-48ac-8765-bd605fa44bc9
-source-git-commit: eec482dceb9a35225cb28cccc13811a91536cc83
+source-git-commit: 0ccf02a333b41705a582bcb10ab9a90198123997
 workflow-type: tm+mt
-source-wordcount: '1334'
-ht-degree: 93%
+source-wordcount: '1326'
+ht-degree: 92%
 
 ---
 
-# Funcionalidad disponible para cada tipo de objeto para los nuevos niveles de acceso
+# Funcionalidad disponible para cada tipo de objeto
 
 {{highlighted-preview}}
 
@@ -32,7 +32,7 @@ También indica qué acciones pueden deshabilitar o habilitar los administradore
 >[!NOTE]
 >
 >* Este artículo describe la funcionalidad disponible para los niveles de acceso en el nuevo modelo de paquete de Workfront. Para ver la funcionalidad disponible en el modelo de paquete actual, consulte [Funcionalidad disponible para cada tipo de objeto para varios niveles de acceso](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md).
->* Para obtener una lista de las funcionalidades disponibles para los diferentes paquetes del modelo más reciente, consulte [Precios y paquetes de Adobe Workfront](https://business.adobe.com/es/products/workfront/pricing.html).
+>* Para obtener una lista de las funcionalidades disponibles para los diferentes paquetes del modelo más reciente, consulte [Precios y paquetes de Adobe Workfront](https://business.adobe.com/products/workfront/pricing.html).
 
 ## Proyectos
 
