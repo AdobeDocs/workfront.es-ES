@@ -6,10 +6,10 @@ description: Algunas características son diferentes entre  [!DNL Workfront]  y 
 author: Nolan
 feature: Get Started with Workfront
 exl-id: b9076fe0-26d7-4f33-80a4-564875ea13ba
-source-git-commit: 4ce69180b8f419ff5634d0dba802f9fb57cd758b
+source-git-commit: ff8866b2b48ead3b7b2e035a394fa038036fbfc0
 workflow-type: tm+mt
-source-wordcount: '1395'
-ht-degree: 91%
+source-wordcount: '1397'
+ht-degree: 88%
 
 ---
 
@@ -59,10 +59,7 @@ Para obtener información acerca de [!DNL Admin Console], consulte estos artícu
 
 ### ¿Qué debo hacer como cliente para facilitar la migración?
 
-Se contactará con los clientes existentes para programar las migraciones. Los compañeros de soporte del equipo de migración guiarán a los clientes a través del proceso, les aconsejarán sobre la configuración de [!DNL Admin Console] y les proporcionarán vínculos a la documentación necesaria para que el traslado sea lo más sencillo y libre de complicaciones posible.
-
-* [[!DNL Adobe Workfront] Información general sobre asistencia](https://experienceleague.adobe.com/es/docs/support-resources/adobe-support-tools-guide/workfront/overview)
-* [[!DNL Adobe Business Platform] y [!DNL Admin Console] preguntas más frecuentes](https://experienceleague.adobe.com/es/docs/support-resources/adobe-support-tools-guide/workfront/faq)
+Se contactará con los clientes existentes para programar las migraciones. Los compañeros de soporte del equipo de migración guiarán a los clientes a través del proceso, les aconsejarán sobre la configuración de [!DNL Admin Console] y proporcionarán los vínculos a la documentación necesaria para que el movimiento sea lo más sencillo y sencillo posible. Revisa las [[!DNL Adobe Business Platform] preguntas frecuentes [!DNL Admin Console]  y](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/workfront/faq)para obtener más información.
 
 ### ¿Cómo administra [!DNL Adobe Admin Console] para las compañías que ya lo tienen habilitado para Federated ID de forma distinta a la configuración del SSO de [!DNL Workfront]?
 
