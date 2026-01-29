@@ -6,20 +6,19 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 5d326776b9c5b4d9d24e802375df4630508c8bd0
+source-git-commit: 665e753880be59cf07062d75c66a7be5f2056aa1
 workflow-type: tm+mt
-source-wordcount: '1421'
-ht-degree: 55%
+source-wordcount: '1545'
+ht-degree: 47%
 
 ---
 
 
 # Administrar el diseño de página de registro
 
-<!--
-<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">La información resaltada en esta página hace referencia a funcionalidades que aún no están disponibles de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después de las versiones mensuales en Production, las mismas funciones también están disponibles en el entorno Production para los clientes que habilitaron versiones rápidas. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -172,7 +171,7 @@ Tenga en cuenta lo siguiente al añadir secciones a una página de registro:
 
 * No hay límite en cuanto a la cantidad de secciones que puede haber en una página.
 * No puede tener una sección vacía. Debe haber al menos un portafolio en el sistema.
-* Puede arrastrar y soltar campos de una sección a otra. Para obtener más información, consulte la sección [Reorganización de campos en la vista previa o en la página de detalles del registro](#rearrange-fields-in-the-record-preview-or-details-page) de este artículo.
+* Puede arrastrar y soltar campos de una sección a otra. Para obtener más información, consulte la sección [Administrar campos en la vista previa de registros o la página de detalles](#manage-fields-in-the-records-details-tab) en este artículo.
 * Al eliminar todos los campos de una sección, ésta se elimina automáticamente y no se puede recuperar.
 
 Para añadir una sección a una vista previa o a una página del registro:
@@ -205,7 +204,7 @@ Para añadir una sección a una vista previa o a una página del registro:
 
 1. En la pestaña **Detalles** de la página o vista previa del registro, pasa el ratón sobre el espacio en blanco a la izquierda de los campos y, a continuación, haz clic en el icono **Agregar sección** ![Agregar icono de sección](assets/add-section-icon.png) para agregar una sección.
 1. Haga clic dentro del nombre de la sección y reemplace **Sección sin título** por un nombre; a continuación, haga clic en Entrar. Los campos que se muestran en la sección forman parte automáticamente de la nueva sección.
-1. Empiece a arrastrar y soltar campos en la nueva sección, tal como se describe en la sección [Reorganización de los campos en la vista previa o en la página de detalles del registro](#rearrange-fields-in-the-record-preview-or-details-page) de este artículo.
+1. Empiece a arrastrar y soltar campos en la nueva sección, tal como se describe en la sección [Administrar campos en la vista previa del registro o en la página de detalles](#manage-fields-in-the-records-details-tab) de este artículo.
 
 1. (Opcional) Pase el ratón sobre el nombre de una sección y haga clic en el menú **Más** ![Menú más](assets/more-menu.png).
 
@@ -254,7 +253,7 @@ Ocurren lo siguiente:
    * El objeto Workfront también se quita del campo conectado del registro de Workfront Planning.
    * También se eliminan los valores de los campos de búsqueda de Workfront conectados al registro de Planning.
 
-## Reorganizar campos en la pestaña Detalles del registro
+## Administrar campos en la pestaña Detalles del registro
 
 {{step1-to-planning}}
 
@@ -281,6 +280,20 @@ Ocurren lo siguiente:
    La ficha **Detalles** del registro se abre de manera predeterminada.
 
    ![Página de detalles](assets/details-page.png)
+
+1. <span class="preview"> (opcional y condicional) Según los campos que desee mostrar en la página Detalles, realice una de las siguientes acciones:</span>
+
+   <div class="preview">
+
+   * Seleccione la opción **Mostrar campos de tabla** para ver únicamente los campos que no están ocultos en la vista de tabla del registro. Esta es la configuración predeterminada
+   * Anule la selección del ajuste **Mostrar campos de tabla** para ver todos los campos de la vista de tabla del registro, incluidos los ocultos.
+
+   <!--replace with this when they fix the UI text:
+   * Select the **Show all fields** setting to include all the record's fields in the **Details** page. This is the default setting. 
+   * Deselect the **Show all fields** setting to exclude the record's fields that are hidden in the table view of the record from the **Details** page.
+   -->
+
+   </div>
 
 1. En la ficha de registro **Detalles**, haga clic en el icono **agarrar** ![Icono de agarrar](assets/grab-icon.png) a la izquierda del nombre de un campo y, a continuación, arrástrelo y suéltelo en el lugar deseado.
 

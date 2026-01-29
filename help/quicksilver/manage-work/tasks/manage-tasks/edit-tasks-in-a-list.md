@@ -6,10 +6,10 @@ description: Puede editar la información de las tareas en una lista de tareas e
 author: Alina
 feature: Work Management
 exl-id: 2af81907-3657-459e-b780-65983e224ca8
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: 665e753880be59cf07062d75c66a7be5f2056aa1
 workflow-type: tm+mt
-source-wordcount: '2851'
-ht-degree: 63%
+source-wordcount: '3233'
+ht-degree: 58%
 
 ---
 
@@ -17,15 +17,13 @@ ht-degree: 63%
 
 <!-- Audited: 10/2025 -->
 
-<!--
+<div class="preview">
 
-<div class="preview"> 
+La información resaltada en esta página hace referencia a funcionalidades que aún no están disponibles de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Las mismas funciones también estarán disponibles en el entorno de producción para todos los clientes a partir de una semana desde la versión de vista previa.
 
-The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with a week from the Preview release.      
+Para obtener más información, vea [Modernización de la interfaz](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).
 
-For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
-
-</div> -->
+</div>
 
 Puede editar la información de las tareas en una lista de tareas editando los campos mostrados en la lista. Para obtener información acerca de otras formas de editar tareas, consulte [Editar tareas](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
 
@@ -482,7 +480,7 @@ Para editar tareas en una lista al utilizar la opción Guardar planificación de
       <td>Registrar horas.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Rutas de aprobación</td> 
+      <td role="rowheader">Aprobaciones</td> 
       <td>Agregar aprobaciones de tarea.</td> 
      </tr> 
      <tr> 
@@ -493,7 +491,11 @@ Para editar tareas en una lista al utilizar la opción Guardar planificación de
 
 ## Editar tareas de forma masiva
 
-Puede editar varias tareas a la vez. Asegúrese de tener permisos de administración en las tareas para poder editarlas.
+Puede editar varias tareas al mismo tiempo. Asegúrese de tener permisos de administración para las tareas que seleccione de forma masiva para poder editarlas.
+
+La edición de varias tareas al mismo tiempo difiere según el entorno que elija.
+
+### Editar tareas por lotes en el entorno de producción
 
 {{step1-to-projects}}
 
@@ -510,7 +512,7 @@ Puede editar varias tareas a la vez. Asegúrese de tener permisos de administrac
 
 1. Seleccione más de una tarea en la lista de tareas.
 1. (Opcional) Haga clic en el menú **Más** ![Menú más](assets/more-icon.png) en la parte superior de la lista de tareas y, a continuación, en **Volver a calcular expresiones** para actualizar toda la información en los campos personalizados calculados.
-1. Haga clic en el icono **Editar** ![Editar icono](assets/qs-edit-icon.png). El cuadro de diálogo **Editar tareas** se abre en la nueva experiencia.
+1. Haga clic en el icono **Editar** ![Editar icono](assets/qs-edit-icon.png). El cuadro **Editar tareas** se abre en la nueva experiencia.
 
    Editar la información de todas las tareas es idéntico a editar la información de una tarea.
 
@@ -551,4 +553,51 @@ Puede editar varias tareas a la vez. Asegúrese de tener permisos de administrac
 
    1. (Opcional) En la sección **Forms personalizado**, seleccione la opción **Volver a calcular expresiones personalizadas** para asegurarse de que todos los campos personalizados calculados que están en los formularios personalizados adjuntos a las tareas seleccionadas estén actualizados.
    1. Haga clic en **Guardar cambios**. Todos los cambios que haya realizado estarán ahora visibles en todas las tareas seleccionadas.
+
+<div class="preview">
+
+### Editar tareas por lotes en el entorno de vista previa
+
+{{step1-to-projects}}
+
+1. En la página **Proyectos**, seleccione un proyecto.
+1. En el panel izquierdo, haga clic en la sección **Tareas**.
+
+1. Haga clic en el icono **Modo de plan** ![Icono de modo de plan](assets/plan-mode-icon.png) en la parte superior de la lista y asegúrese de que la opción **Guardar automáticamente** esté seleccionada.
+
+   ![Habilitar la configuración de guardado automático](assets/autosave-setting-enabled-quicksilver-task-list-350x308.png)
+
+   >[!IMPORTANT]
+   >
+   >No puede editar tareas de forma masiva al guardar tareas manualmente.
+
+1. Seleccione más de una tarea en la lista de tareas.
+1. (Opcional) Haga clic en el menú **Más** ![Menú más](assets/more-icon.png) en la parte superior de la lista de tareas y, a continuación, en **Volver a calcular expresiones** para actualizar toda la información en los campos personalizados calculados.
+1. Haga clic en el icono **Editar** ![Editar icono](assets/qs-edit-icon.png). Se abre el cuadro **Editar tareas**.
+
+   Editar la información de todas las tareas es idéntico a editar la información de una tarea.
+
+   Para obtener más información sobre cómo editar una tarea, consulte [Editar tareas](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
+
+1. Especifique la información que desea cambiar para todas las tareas seleccionadas en cualquiera de las siguientes áreas:
+
+   * Información general
+   * Asignaciones
+   * Formularios personalizados
+   * Finanzas
+   * Configuración
+   * Configuración
+   * Comentario
+
+   >[!NOTE]
+   >
+   >* La información que está cambiando en todas las tareas seleccionadas anulará la información existente en las tareas individuales, excepto la del campo **Asignaciones**. Si se añade un nuevo usuario asignado en una edición masiva, se añadirá ese usuario asignado a todas las tareas seleccionadas. Si hay otras personas asignadas a las tareas seleccionadas, permanecerán asignadas además de las que se añadan mediante la edición masiva.
+   >* Si desea editar la duración de la tarea, las tareas seleccionadas deben tener la misma restricción de tarea. De lo contrario, el campo **Duration** no se rellena.
+   >
+   >* En la lista solo se muestran los formularios personalizados activos. Si las tareas seleccionadas no tienen ningún formulario personalizado en común, no se mostrará ningún formulario en esta sección.
+   >* Solo puede editar los campos de los formularios que están adjuntos a todas las tareas seleccionadas y para los que tiene permisos de edición.  Para obtener información sobre la edición en lotes de formularios personalizados, consulte [Administrar formularios personalizados adjuntos a objetos](../../../workfront-basics/work-with-custom-forms/manage-custom-forms-attached-to-objects.md).
+
+1. Haga clic en **Guardar**.
+
+</div>
 

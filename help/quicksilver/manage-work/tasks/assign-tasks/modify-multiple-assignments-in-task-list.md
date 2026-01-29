@@ -7,10 +7,10 @@ author: Lisa
 feature: Work Management, Tasks, Resource Management
 role: User
 exl-id: 04f7761f-da94-4858-85c5-8dc97bd78bee
-source-git-commit: 1f9a0e6064f83c6f0947e3c7ef596e96c934a687
+source-git-commit: 4167910f36921e04351190f722ea1e7fac9641c7
 workflow-type: tm+mt
-source-wordcount: '1047'
-ht-degree: 87%
+source-wordcount: '1496'
+ht-degree: 80%
 
 ---
 
@@ -49,7 +49,7 @@ Para obtener información sobre la asignación de una tarea a un recurso de una 
  <col> 
  <tbody> 
   <tr> 
-   <td>paquete de Adobe Workfront</td> 
+   <td>Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
@@ -127,85 +127,144 @@ When assigning users to work, their availability according to their schedules af
 
 1. Seleccione las tareas para las que desea modificar las asignaciones y, a continuación, haga clic en el icono de **Editar** ![](assets/edit-icon.png).
 
-   El cuadro **Editar tareas** se abre en la nueva experiencia. Realice una de las siguientes acciones:
+   La edición de asignaciones en tareas difiere según el entorno que elija.
 
-   * Para agregar usuarios asignados, empiece a escribir el nombre de un usuario asignado en el campo **Buscar personas, roles o equipos** y, a continuación, selecciónelos cuando se muestren en la lista.
-   * Para quitar usuarios asignados, haga clic en el icono **x** a la derecha de su nombre. En la lista solo se muestran las personas asignadas que son comunes a todas las tareas.
-   * Haga clic en Asignarme para asignarse las tareas seleccionadas.
+1. (Condicional) Si utiliza el entorno Producción para asignar tareas, se abrirá el cuadro **Editar tareas** en la nueva experiencia. Haga lo siguiente en el entorno de producción:
 
-1. (Condicional) Cuando uses la nueva experiencia, haz clic en **Guardar**.
+   1. Para agregar o quitar usuarios asignados, siga uno de estos procedimientos:
 
-1. (Opcional) Haga clic en **Cambiar a la experiencia anterior** en la parte inferior del cuadro **Editar tareas**.
+      * Para agregar usuarios asignados, empiece a escribir el nombre de un usuario asignado en el campo **Buscar personas, roles o equipos** y, a continuación, selecciónelos cuando se muestren en la lista.
+      * Para quitar usuarios asignados, haga clic en el icono **x** a la derecha de su nombre. En la lista solo se muestran las personas asignadas que son comunes a todas las tareas.
+      * Haga clic en Asignarme para asignarse las tareas seleccionadas.
 
-   El cuadro **Editar tareas** se abre en la experiencia anterior.
+   1. (Condicional) Cuando uses la nueva experiencia, haz clic en **Guardar**.
 
-   <!--
-   >[!TIP]
-   >
-   >The old experience is available by default in the Production environment.-->
+   1. (Opcional) Haga clic en **Cambiar a la experiencia anterior** en la parte inferior del cuadro **Editar tareas**.
 
-1. (Condicional) En la experiencia anterior, haga lo siguiente para modificar los usuarios asignados:
+      El cuadro **Editar tareas** se abre en la experiencia anterior.
 
-   1. Vaya a la sección **Asignaciones**.
+   1. (Condicional) En la experiencia anterior, haga lo siguiente para modificar los usuarios asignados:
 
-      >[!IMPORTANT]
-      >
-      >La eliminación de asignados puede afectar a las horas de la tarea y a los porcentajes de asignación. Para obtener más información, consulte la sección [Cómo afecta la eliminación de asignados a las horas de la tarea y a los porcentajes de asignación](#how-removing-assignees-affects-task-hours-and-allocation-percentages) en este artículo.
+      1. Vaya a la sección **Asignaciones**.
 
-   1. Realice una de las siguientes acciones para añadir o quitar asignados:
+         >[!IMPORTANT]
+         >
+         >La eliminación de asignados puede afectar a las horas de la tarea y a los porcentajes de asignación. Para obtener más información, consulte la sección [Cómo afecta la eliminación de asignados a las horas de la tarea y a los porcentajes de asignación](#how-removing-assignees-affects-task-hours-and-allocation-percentages) en este artículo.
 
-      * Para añadir un nuevo usuario asignado:
+      1. Realice una de las siguientes acciones para añadir o quitar asignados:
 
-         1. En la sección **Asignaciones**, seleccione **Asignado**.
+         * Para añadir un nuevo usuario asignado:
 
-            Se muestra la información que es común en todas las tareas seleccionadas. Por ejemplo, si se asigna el mismo usuario a todas las tareas, ese usuario se muestra en la columna **Asignado**. Si la información no es común en las tareas seleccionadas, no se muestra ninguna información.
+            1. En la sección **Asignaciones**, seleccione **Asignado**.
 
-         1. Empiece a escribir el nombre de un usuario, función o equipo y, a continuación, selecciónelo cuando aparezca en la lista. La asignación se añade y no reemplaza las asignaciones actuales en las tareas seleccionadas.
+               Se muestra la información que es común en todas las tareas seleccionadas. Por ejemplo, si se asigna el mismo usuario a todas las tareas, ese usuario se muestra en la columna **Asignado**. Si la información no es común en las tareas seleccionadas, no se muestra ninguna información.
 
+            1. Empiece a escribir el nombre de un usuario, función o equipo y, a continuación, selecciónelo cuando aparezca en la lista. La asignación se añade y no reemplaza las asignaciones actuales en las tareas seleccionadas.
 
-        >[!TIP]
-        >
-        > * Puede asignar varios usuarios, funciones o equipos. Solo puede asignar usuarios, funciones y equipos activos.
-        >   
-        > * Al añadir una asignación de usuario, observe el avatar, la función principal del usuario o su dirección de correo electrónico para distinguir entre usuarios con nombres idénticos. Los usuarios deben estar asociados con al menos una función para verla a medida que los añade. Debe tener habilitada la configuración Ver información de contacto en su nivel de acceso para que los usuarios vean los correos electrónicos de los usuarios. Para obtener más información, consulte [Conceder acceso a los usuarios](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
-        > 
-        >   Si se asignó un usuario, una función o un equipo antes de desactivarlos, permanecen asignados al elemento de trabajo. En este caso, se recomienda lo siguiente:
-        >   
-        >     * Reasignar el elemento de trabajo a los recursos activos.
-        >     * Asocie los usuarios de un equipo desactivado a un equipo activo y reasigne el elemento de trabajo al equipo activo.
+           >[!TIP]
+           >
+           > * Puede asignar varios usuarios, funciones o equipos. Solo puede asignar usuarios, funciones y equipos activos.
+           >   
+           > * Al añadir una asignación de usuario, observe el avatar, la función principal del usuario o su dirección de correo electrónico para distinguir entre usuarios con nombres idénticos. Los usuarios deben estar asociados con al menos una función para verla a medida que los añade. Debe tener habilitada la configuración Ver información de contacto en su nivel de acceso para que los usuarios vean los correos electrónicos de los usuarios. Para obtener más información, consulte [Conceder acceso a los usuarios](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
+           > 
+           >   Si se asignó un usuario, una función o un equipo antes de desactivarlos, permanecen asignados al elemento de trabajo. En este caso, se recomienda lo siguiente:
+           >   
+           >     * Reasignar el elemento de trabajo a los recursos activos.
+           >     * Asocie los usuarios de un equipo desactivado a un equipo activo y reasigne el elemento de trabajo al equipo activo.
 
 
-      * Para quitar usuarios asignados individuales:
+         * Para quitar usuarios asignados individuales:
 
-         1. Haga clic en el **icono X** junto al nombre del usuario asignado que desee eliminar si este aparece en la lista Asignaciones.
+            1. Haga clic en el **icono X** junto al nombre del usuario asignado que desee eliminar si este aparece en la lista Asignaciones.
 
-            O
+               O
 
-            (Condicional) Si el usuario asignado que desea eliminar no aparece en la sección Asignaciones porque solo está asignado a algunas de las tareas que ha seleccionado, haga clic en **Quitar usuario asignado** y empiece a escribir el nombre del usuario asignado que desea eliminar; a continuación, haga clic en el nombre cuando aparezca en la lista desplegable.
+               (Condicional) Si el usuario asignado que desea eliminar no aparece en la sección Asignaciones porque solo está asignado a algunas de las tareas que ha seleccionado, haga clic en **Quitar usuario asignado** y empiece a escribir el nombre del usuario asignado que desea eliminar; a continuación, haga clic en el nombre cuando aparezca en la lista desplegable.
 
-      * Para quitar todos los usuarios asignados existentes:
+         * Para quitar todos los usuarios asignados existentes:
 
-         1. Haga clic en **Quitar todos los usuarios asignados existentes** y, a continuación, en **Sí, eliminar todos los usuarios asignados**.
+            1. Haga clic en **Quitar todos los usuarios asignados existentes** y, a continuación, en **Sí, eliminar todos los usuarios asignados**.
 
-            De este modo se eliminan no solo los usuarios asignados comunes (los usuarios asignados que se muestran en el cuadro de diálogo de edición), sino también todos los usuarios asignados de todas las tareas seleccionadas.
+               De este modo se eliminan no solo los usuarios asignados comunes (los usuarios asignados que se muestran en el cuadro de diálogo de edición), sino también todos los usuarios asignados de todas las tareas seleccionadas.
 
-        Eliminar usuarios de las tareas puede afectar a las horas de las tareas y a los porcentajes de asignación.
+           Eliminar usuarios de las tareas puede afectar a las horas de las tareas y a los porcentajes de asignación.
 
-        Para obtener más información, consulte [Información general sobre la modificación de asignaciones de tareas](../../../manage-work/tasks/assign-tasks/modify-task-assignments-overview.md).
+           Para obtener más información, consulte [Información general sobre la modificación de asignaciones de tareas](../../../manage-work/tasks/assign-tasks/modify-task-assignments-overview.md).
 
-   1. (Opcional) Modifique cualquiera de las siguientes opciones para los usuarios asignados:
+      1. (Opcional) Modifique cualquiera de las siguientes opciones para los usuarios asignados:
 
-      * (Condicional) **Porcentaje de asignación de horas**: especifique un nuevo porcentaje de asignación de horas.
+         * (Condicional) **Porcentaje de asignación de horas**: especifique un nuevo porcentaje de asignación de horas.
 
-      >[!NOTE]
-      >
-      >Esta opción solo se puede modificar si el Tipo de duración es el mismo en todas las tareas que se están editando. Si el tipo de duración es Trabajo calculado o Condicionado por el esfuerzo, puede actualizar el porcentaje de asignación. Cuando el Tipo de duración es Simple, puede actualizar las Horas. Para obtener más información sobre los tipos de duración, consulte [Información general sobre la duración y el tipo de duración de la tarea](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
-      >
-      >
-      >Si el campo está en blanco, significa que el valor es diferente en las tareas; sin embargo, aún puede modificarlo.
+         >[!NOTE]
+         >
+         >Esta opción solo se puede modificar si el Tipo de duración es el mismo en todas las tareas que se están editando. Si el tipo de duración es Trabajo calculado o Condicionado por el esfuerzo, puede actualizar el porcentaje de asignación. Cuando el Tipo de duración es Simple, puede actualizar las Horas. Para obtener más información sobre los tipos de duración, consulte [Información general sobre la duración y el tipo de duración de la tarea](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
+         >
+         >
+         >Si el campo está en blanco, significa que el valor es diferente en las tareas; sin embargo, aún puede modificarlo.
 
-      * **Propietario de la tarea**: seleccione esta opción para que el usuario asignado sea el propietario de la tarea para todas las tareas que se están editando.
-      * **Función de usuario asignado**: seleccione una función de la lista desplegable. Si no se selecciona, Adobe Workfront selecciona automáticamente la función principal del usuario.
+         * **Propietario de la tarea**: seleccione esta opción para que el usuario asignado sea el propietario de la tarea para todas las tareas que se están editando.
+         * **Función de usuario asignado**: seleccione una función de la lista desplegable. Si no se selecciona, Adobe Workfront selecciona automáticamente la función principal del usuario.
 
-   1. Haga clic en **Guardar cambios.**
+      1. Haga clic en **Guardar cambios.**
+
+
+
+   1. <span class="preview">(Condicional) Si utiliza el entorno de vista previa para asignar tareas, se abrirá el cuadro **Editar tareas**. Haga lo siguiente en el entorno de vista previa: </span>
+
+      <div class="preview">
+
+      1. Para agregar o quitar usuarios asignados, siga uno de estos procedimientos:
+
+         * Para agregar usuarios asignados, empiece a escribir el nombre de un usuario asignado en el campo **Buscar personas, roles o equipos** y, a continuación, selecciónelos cuando se muestren en la lista.
+
+           El nuevo usuario asignado se agregará a los existentes en las tareas seleccionadas.
+         * Para quitar usuarios asignados, haga clic en el nombre de un usuario asignado en el cuadro **Quitar usuario asignado**
+
+           O
+
+           Haga clic en **Quitar todos los usuarios asignados existentes**.
+
+           Las personas asignadas se eliminarán de todas las tareas seleccionadas.
+
+           Eliminar usuarios de las tareas puede afectar a las horas de las tareas y a los porcentajes de asignación.
+
+           Para obtener más información, consulte [Información general sobre la modificación de asignaciones de tareas](../../../manage-work/tasks/assign-tasks/modify-task-assignments-overview.md).
+
+
+           >[!TIP]
+           >
+           >* Puede asignar varios usuarios, funciones o equipos. Solo puede asignar usuarios, funciones y equipos activos.
+           >   
+           >* Al añadir una asignación de usuario, observe el avatar, la función principal del usuario o su dirección de correo electrónico para distinguir entre usuarios con nombres idénticos. Los usuarios deben estar asociados con al menos una función para verla a medida que los añade. Debe tener habilitada la configuración Ver información de contacto en su nivel de acceso para que los usuarios vean los correos electrónicos de los usuarios. Para obtener más información, consulte [Conceder acceso a los usuarios](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
+           > 
+           >   Si se asignó un usuario, una función o un equipo antes de desactivarlos, permanecen asignados al elemento de trabajo. En este caso, se recomienda lo siguiente:
+           >   
+           >* Reasignar el elemento de trabajo a los recursos activos.
+           >* Asocie los usuarios de un equipo desactivado a un equipo activo y reasigne el elemento de trabajo al equipo activo.
+
+
+      1. (Opcional) Modifique cualquiera de las siguientes opciones para los usuarios asignados:
+
+         * (Condicional) **Porcentaje de asignación de horas**: especifique un nuevo porcentaje de asignación de horas.
+
+         >[!NOTE]
+         >
+         >Esta opción solo se puede modificar si el Tipo de duración es el mismo en todas las tareas que se están editando. Si el tipo de duración es Trabajo calculado o Condicionado por el esfuerzo, puede actualizar el porcentaje de asignación. Cuando el Tipo de duración es Simple, puede actualizar las Horas. Para obtener más información sobre los tipos de duración, consulte [Información general sobre la duración y el tipo de duración de la tarea](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
+         >
+         >
+         >Si el campo está en blanco, significa que el valor es diferente en las tareas; sin embargo, aún puede modificarlo.
+
+         * **Convertir en principal**: pase el ratón sobre las tareas seleccionadas y seleccione esta opción para que el usuario asignado sea el propietario de la tarea para todas las tareas que se están editando.
+         * **Función de usuario asignado**: seleccione una función de la lista desplegable. Si no se selecciona, Adobe Workfront selecciona automáticamente la función principal del usuario.
+         * **Tipo de duración**
+         * **Duración**
+         * **Horas planificadas**
+
+      1. Haga clic en **Guardar**.
+
+         </div>
+
+
+
+
 
