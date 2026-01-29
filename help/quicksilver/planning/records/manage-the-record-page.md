@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 665e753880be59cf07062d75c66a7be5f2056aa1
+source-git-commit: f5d6918889b7fed1159274105ee706a027f621bf
 workflow-type: tm+mt
-source-wordcount: '1545'
+source-wordcount: '1568'
 ht-degree: 47%
 
 ---
@@ -275,12 +275,6 @@ Ocurren lo siguiente:
 
    ![Cuadro de detalles](assets/details-box.png)
 
-1. (Opcional) Haga clic en el icono **Abrir en ficha nueva** ![Abrir cuadro de detalles en un icono de ficha nueva](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> en la esquina superior derecha de la vista previa del registro para abrir la página del registro en una ficha nueva.
-
-   La ficha **Detalles** del registro se abre de manera predeterminada.
-
-   ![Página de detalles](assets/details-page.png)
-
 1. <span class="preview"> (opcional y condicional) Según los campos que desee mostrar en la página Detalles, realice una de las siguientes acciones:</span>
 
    <div class="preview">
@@ -288,12 +282,23 @@ Ocurren lo siguiente:
    * Seleccione la opción **Mostrar campos de tabla** para ver únicamente los campos que no están ocultos en la vista de tabla del registro. Esta es la configuración predeterminada
    * Anule la selección del ajuste **Mostrar campos de tabla** para ver todos los campos de la vista de tabla del registro, incluidos los ocultos.
 
+   >[!TIP]
+   >
+   >La configuración **Mostrar campos de tabla** solo está disponible en el cuadro de vista previa de detalles del registro. No está disponible en la página Detalles del registro.
+
+
    <!--replace with this when they fix the UI text:
    * Select the **Show all fields** setting to include all the record's fields in the **Details** page. This is the default setting. 
    * Deselect the **Show all fields** setting to exclude the record's fields that are hidden in the table view of the record from the **Details** page.
    -->
 
    </div>
+
+1. (Opcional) Haga clic en el icono **Abrir en ficha nueva** ![Abrir cuadro de detalles en un icono de ficha nueva](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> en la esquina superior derecha de la vista previa del registro para abrir la página del registro en una ficha nueva.
+
+   La ficha **Detalles** del registro se abre de manera predeterminada.
+
+   ![Página de detalles](assets/details-page.png)
 
 1. En la ficha de registro **Detalles**, haga clic en el icono **agarrar** ![Icono de agarrar](assets/grab-icon.png) a la izquierda del nombre de un campo y, a continuación, arrástrelo y suéltelo en el lugar deseado.
 

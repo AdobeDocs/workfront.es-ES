@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 2ffd06f2f50d14b6d33bc79c92616ebed1d58fed
+source-git-commit: f5d6918889b7fed1159274105ee706a027f621bf
 workflow-type: tm+mt
 source-wordcount: '3518'
 ht-degree: 4%
@@ -121,7 +121,7 @@ Puede crear un formulario de solicitud a partir del tipo de registro asociado al
 1. Haga clic en el menú **Más** ![Menú más](assets/more-menu.png) que se encuentra a la derecha del nombre del tipo de registro en el encabezado de la página y, a continuación, haga clic en **Crear formulario de solicitud** o **Administrar formularios de solicitud**, si ya tiene un formulario y desea crear otros.
 1. (Condicional) Si desea agregar otro formulario, haga clic en **Nuevo formulario de solicitud**.
 
-   Se abrirá el cuadro de diálogo Crear formulario de solicitud.
+   Se abre el cuadro **Crear formulario de solicitud**.
 
 1. En el cuadro Crear formulario de solicitud, actualice el nombre del formulario de solicitud. De manera predeterminada, el nombre del formulario es **Formulario sin título**. <!--check this; you logged a bug to rename it to 'Untitled request form' but was it fixed?-->
 1. (Opcional) Agregue una **Descripción** para el formulario de solicitud.
@@ -170,7 +170,7 @@ Los detalles del formulario se dividen en pestañas.
 
   >[!NOTE]
   >
-  ><span class="preview">En el entorno de vista previa, la ficha Configuración reemplaza a la ficha Configuración.</span>
+  ><span class="preview">En el entorno de vista previa, la ficha Configuración reemplazó a la ficha Configuración.</span>
   <!--* <span class="preview">The **Automations** tab allows you to automate what will occur based on features of the request made with the form.</span>-->
 
 #### Configuración de detalles del formulario

@@ -3,9 +3,9 @@ title: Introducción a la prueba gratuita de Adobe Workfront Planning
 description: Adobe Workfront ofrece una versión de prueba gratuita de 60 días de Adobe Workfront Planning. Este ensayo es su oportunidad para ver cómo Planning conecta la estrategia global con el trabajo diario que la hace realidad. Planning proporciona una visibilidad centralizada del ciclo vital de marketing, lo que permite una mejor colaboración entre equipos, un seguimiento en tiempo real de campañas y flujos de trabajo automatizados. Puede crear espacios de trabajo personalizados y visualizar el trabajo con cronologías y calendarios interactivos. Con esta prueba, verá de primera mano cómo Planning ayuda a alinear el trabajo diario con los objetivos estratégicos, agilizar la ejecución y dirigir resultados mensurables para su organización.
 hidefromtoc: true
 hide: true
-source-git-commit: b52c188d767ee37699ead71ed90642458d9889fa
+source-git-commit: f5d6918889b7fed1159274105ee706a027f621bf
 workflow-type: tm+mt
-source-wordcount: '1134'
+source-wordcount: '1148'
 ht-degree: 2%
 
 ---
@@ -144,10 +144,11 @@ Para revisar y aceptar el acuerdo legal, siga uno de estos procedimientos:
 
 * **Entre el 2 de marzo y el 1 de mayo de 2026**:
 
-  Se le han concedido los siguientes permisos para los datos disponibles en la ficha **Áreas de trabajo de prácticas recomendadas** en el área **Prueba de Planning**:
+  Se le otorgan los siguientes permisos para los espacios de trabajo en el área de Planning durante la prueba gratuita:
 
-   * Todos los administradores del sistema tienen permisos de administración en la pestaña Espacios de trabajo de prácticas recomendadas del área de Planning.
-   * Todos los demás usuarios tienen permisos de Vista en la pestaña Espacios de trabajo de prácticas recomendadas del área de Planificación.
+   * Todos los administradores del sistema tienen permisos de administración en la pestaña Espacios de trabajo.
+   * Todos los demás usuarios tienen permisos de visualización en la pestaña Espacios de trabajo, pero el administrador del sistema puede concederles permisos de administración en los espacios de trabajo.
+   * Todos los usuarios, incluido el administrador del sistema, tienen permisos de visualización en la pestaña Espacios de trabajo de prácticas recomendadas del área de Planning.
 
 * **Después del 1 de mayo de 2026:**
 
