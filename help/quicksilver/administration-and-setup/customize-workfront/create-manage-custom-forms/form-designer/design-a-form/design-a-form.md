@@ -8,16 +8,18 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 45bc1820e4f6416e3d47139bbcf1a2156c5900dc
+source-git-commit: 9fcfea189bfc8827e41098823402f5e392b36d1b
 workflow-type: tm+mt
-source-wordcount: '6941'
-ht-degree: 53%
+source-wordcount: '7040'
+ht-degree: 52%
 
 ---
 
 # Crear un formulario personalizado
 
 <!-- Audited: 6/2025 -->
+
+{{preview-fast-release-general}}
 
 Puede diseñar un formulario personalizado con el diseñador de formularios en Adobe Workfront. Puede adjuntar formularios personalizados a diferentes objetos de Workfront para capturar datos sobre esos objetos.
 
@@ -157,6 +159,10 @@ Puede añadir varios campos de texto diferentes a un formulario personalizado.
 
 * **Campo de texto de una sola línea**: permite a los usuarios escribir una sola línea de texto en el campo.
 * **Campo de párrafo**: permite a los usuarios escribir varias líneas de texto en el campo.
+* <span class="preview">**Texto enriquecido**: Permite a los usuarios escribir varias líneas de texto en el campo y aplicarle formato de negrita, cursiva, subrayado, viñetas, numeración, subíndice y superíndice, hipervínculos, citas de bloque, encabezados y tablas. El límite de caracteres de 15.000 proporciona un gran espacio para texto y formato.</span>
+
+  <span class="preview">El tipo de campo Texto enriquecido reemplaza el texto por el tipo de campo de formato. Puede convertir rápidamente el texto existente con campos de formato en texto enriquecido haciendo clic en el botón **Convertir en texto enriquecido** en las opciones de campo de la derecha.</span>
+
 * **Campo de texto con formato**: permite a los usuarios escribir varias líneas de texto en el campo y aplicar al texto negrita, cursiva, subrayado, viñetas, numeración, hipervínculos y comillas de bloque. Un límite de 15 000 caracteres permite texto y formato abundantes.
 
   Este tipo de campo personalizado no se admite en filtros de listas e informes.
@@ -177,6 +183,7 @@ Para añadir un campo de texto:
 
    * Texto de línea única
    * Párrafo
+   * <span class="preview">Texto enriquecido</span>
    * Texto con formato
    * Texto descriptivo
 
@@ -197,6 +204,7 @@ Para añadir un campo de texto:
     <td><ul>
     <li>Texto de línea única</li>
     <li>Párrafo</li>
+    <li><span class="preview">Texto enriquecido</span></li>
     <li>Texto con formato</li>
     <li>Texto descriptivo</li>
     </ul></td>
@@ -208,6 +216,7 @@ Para añadir un campo de texto:
     <td><ul>
     <li>Texto de línea única</li>
     <li>Párrafo</li>
+    <li><span class="preview">Texto enriquecido</span></li>
     <li>Texto con formato</li>
     </ul></td>
     </tr>
@@ -219,6 +228,7 @@ Para añadir un campo de texto:
     <td><ul>
     <li>Texto de línea única</li>
     <li>Párrafo</li>
+    <li><span class="preview">Texto enriquecido</span></li>
     <li>Texto con formato</li>
     <li>Texto descriptivo</li>
     </ul></td>
@@ -231,6 +241,7 @@ Para añadir un campo de texto:
     <td><ul>
     <li>Texto de línea única</li>
     <li>Párrafo</li>
+    <li><span class="preview">Texto enriquecido</span></li>
     <li>Texto con formato</li>
     </ul></td>
     </tr>
@@ -266,15 +277,17 @@ Para añadir un campo de texto:
      <td><ul>
      <li>Texto de línea única</li>
      <li>Párrafo</li>
+     <li><span class="preview">Texto enriquecido</span></li>
      <li>Texto con formato</li>
      <li>Texto descriptivo</li></ul></td>
     </tr>
     <tr> 
-      <td role="rowheader">Cambiar un campo a obligatorio</td>
+      <td>Cambiar un campo a obligatorio</td>
       <td><p>Seleccione esta opción si desea que el campo sea obligatorio para que el usuario complete el formulario personalizado.</p></td>
     <td><ul>
     <li>Texto de línea única</li>
     <li>Párrafo</li>
+    <li><span class="preview">Texto enriquecido</span></li>
     <li>Texto con formato</li>
     </ul></td> 
     </tr> 
@@ -653,12 +666,12 @@ Para añadir una búsqueda externa:
       <td role="rowheader">Ruta JSON</td>
       <td><p>Escriba o pegue la ruta JSON para la API.</p> <p>Esta opción permite extraer datos del JSON devuelto por la URL de la API. Sirve para seleccionar qué valores dentro del JSON aparecerán en las opciones desplegables.</p><p>Por ejemplo, si la dirección URL de la API devuelve JSON en el siguiente formato, puede usar "$.data[*].name" para seleccionar EE. UU. y Canadá como opciones desplegables:</br>
       <pre>
-      &lbrace;
-       data: &lbrace;
+      {
+       data: {
          { name: "USA"},
          { name: "Canada"}
-       &rbrace;
-      &rbrace;
+       }
+      }
       </pre>
       </p>
      <p>Para obtener más información sobre la ruta JSON y cómo asegurarse de que escribe la ruta JSON correcta, consulte <a href="https://jsonpath.com/">https://jsonpath.com/</a>.</p></td>
