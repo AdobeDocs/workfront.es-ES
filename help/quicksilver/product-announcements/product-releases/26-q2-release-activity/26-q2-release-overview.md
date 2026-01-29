@@ -4,10 +4,10 @@ description: Esta página proporciona información sobre la funcionalidad que se
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 5e12cf9e34adda0a2fb9e8026f2c94cdfc0b41fd
+source-git-commit: 03142ce47e7b123eea63b409749346469f5feb14
 workflow-type: tm+mt
-source-wordcount: '708'
-ht-degree: 32%
+source-wordcount: '813'
+ht-degree: 29%
 
 ---
 
@@ -38,6 +38,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
 ## Mejoras de Adobe Workfront
 
 * [Mejoras en el administrador](#administrator-enhancements)
+* [Mejoras en el proyecto](#project-enhancements)
 * [Otras mejoras](#other-enhancements)
 
 ### Mejoras en el administrador
@@ -52,6 +53,14 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td><strong>Vista previa</strong></td>
         <td><strong>Liberación rápida</strong></td>
         <td><strong>Trimestralmente</strong></td>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">El tipo de campo de texto enriquecido ya está disponible en los formularios personalizados</a><p>El nuevo tipo de campo <b>Texto enriquecido</b> de los formularios personalizados es un editor de texto robusto con opciones de formato como superíndice y subíndice, encabezados y tablas, además de las opciones tradicionales de negrita, cursiva, subrayado, viñetas, numeración, hipervínculos y comillas de bloque. El límite de caracteres sigue siendo de 15 000.</p>
+        </td>
+        <td><p>viernes, 29 de enero de 2026</p></td>
+        <td><p>viernes, 12 de febrero de 2026</p></td>
+        <td><p>viernes, 16 de abril de 2026</p></td>
+    </tr>
     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Nuevas direcciones IP para notificaciones por correo electrónico de Workfront</a><p></p>
@@ -81,6 +90,29 @@ The <add release> release webinar will be held on <date>. You can [register for 
             </tbody>
         </table>
 
+### Mejoras en el proyecto
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 25%;" />
+            <tbody>
+               <tr>
+        <td><strong>Característica</strong>
+        </td>
+        <td><strong>Vista previa</strong></td>
+        <td><strong>Liberación rápida</strong></td>
+        <td><strong>Trimestralmente</strong></td>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-projects.md" class="MCXref xref" xrefformat="{para}">Experiencia actualizada al asignar tareas de forma única o masiva </a><p>[!BADGE Off schedule]{type=Neutral}</p><p> Hemos actualizado la sección Asignaciones en el cuadro Editar tareas al editar tareas únicas o editarlas por lotes. </p>
+        </td>
+        <td><p>martes, 26 de enero de 2026</p></td>
+        <td><p>A partir del 5 de febrero de 2026</p></td>
+        <td><p>A partir del 5 de febrero de 2026</p></td>
+    </tr>
+            </tbody>
+        </table>
+
 ### Otras mejoras
 
 <table>
@@ -101,7 +133,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td><p>viernes, 11 de diciembre de 2025</p></td>
         <td><p>jueves, 11 de febrero de 2026</p></td>
         <td><p>jueves, 11 de febrero de 2026</p></td>
-    <tr>
+    </tr>
             </tbody>
         </table>
 
@@ -169,10 +201,10 @@ Para ofrecer integraciones más estables y escalables, estamos adoptando un enfo
 * Workfront para Salesforce.
 
 Recomendamos utilizar la automatización e integración de Workfront para las necesidades de integración de su organización con Google Workspace.
-Para obtener una descripción general de la automatización e integración de Workfront, consulte [Información general de Adobe Workfront Fusion](https://experienceleague.adobe.com/es/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+Para obtener una descripción general de la automatización e integración de Workfront, consulte [Información general de Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 
 
-### Actualizaciones de mantenimiento de Workfront 
+### Actualizaciones de mantenimiento de Workfront
 
 Para obtener información sobre las actualizaciones de mantenimiento realizadas durante la versión del segundo trimestre de 2025, consulte [Actualizaciones de mantenimiento de Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=es).
 

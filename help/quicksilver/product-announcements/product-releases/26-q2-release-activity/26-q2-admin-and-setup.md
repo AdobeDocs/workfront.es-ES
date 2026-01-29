@@ -4,10 +4,10 @@ description: Mejoras del administrador en el segundo trimestre de 2026
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 5e12cf9e34adda0a2fb9e8026f2c94cdfc0b41fd
+source-git-commit: 7cde2f693336649d3d965100e33b71795ddc65a2
 workflow-type: tm+mt
-source-wordcount: '141'
-ht-degree: 41%
+source-wordcount: '251'
+ht-degree: 23%
 
 ---
 
@@ -16,6 +16,22 @@ ht-degree: 41%
 Esta página describe las mejoras realizadas por el administrador con la versión del segundo trimestre de 2026 en el entorno de vista previa. Estas mejoras estarán disponibles en el entorno de producción, como se ha indicado.
 
 Para obtener una lista de todos los cambios disponibles en este punto del ciclo de la versión del segundo trimestre de 2026, consulte [Información general de la versión del segundo trimestre de 2026](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md).
+
+
+
+## El tipo de campo de texto enriquecido ahora está disponible en formularios personalizados
+
+>[!NOTE]
+>
+>Vista previa: 29 de enero de 2026
+>Versión rápida de producción: 12 de febrero de 2026\
+>Producción para todos: 16 de abril de 2026
+
+El nuevo tipo de campo **Texto enriquecido** de los formularios personalizados es un editor de texto robusto con opciones de formato como superíndice y subíndice, encabezados y tablas, además de las opciones tradicionales de negrita, cursiva, subrayado, viñetas, numeración, hipervínculos y comillas de bloque. El límite de caracteres sigue siendo de 15 000.
+
+El tipo de campo Texto enriquecido reemplaza el tipo de campo Texto con formato. Puede convertir rápidamente el texto existente con campos de formato a texto enriquecido haciendo clic en el botón de las opciones de campo a la derecha.
+
+Para obtener más información, consulte [Crear un formulario personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ## Nuevas direcciones IP para notificaciones por correo electrónico de Workfront
 

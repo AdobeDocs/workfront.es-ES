@@ -3,9 +3,9 @@ user-guide-title: Guía de Workfront
 user-guide-description: Utilice los siguientes documentos, tutoriales y recursos adicionales para aprender a implementar y utilizar Adobe Workfront de forma eficaz en su organización.
 role: User
 feature-set: Workfront
-source-git-commit: 0ccf02a333b41705a582bcb10ab9a90198123997
+source-git-commit: 8164cce259c48ccd92d3cb73a9fcc0ca1907b612
 workflow-type: tm+mt
-source-wordcount: '13721'
+source-wordcount: '13726'
 ht-degree: 57%
 
 ---
@@ -21,8 +21,9 @@ ht-degree: 57%
       * [Preparación para una versión trimestral de Adobe Workfront](product-announcements/product-releases/release-readiness.md)
       * Versión del segundo trimestre de 2026 {#release-26-q2}
          * [Información general sobre la versión del segundo trimestre de 2026](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-release-overview.md)
-         * [Mejoras del administrador en el primer trimestre de 2026](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-admin-and-setup.md)
-         * [Primer trimestre de 2026 Otras mejoras](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-other.md)
+         * [Mejoras del administrador en el segundo trimestre de 2026](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-admin-and-setup.md)
+         * [Mejoras del proyecto del segundo trimestre de 2026](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-projects.md)
+         * [Segundo trimestre de 2026 Otras mejoras](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-other.md)
       * Versión del primer trimestre de 2026 {#release-26-q1}
          * [Información general sobre la versión del primer trimestre de 2026](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md)
          * [Mejoras del administrador en el primer trimestre de 2026](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-admin-and-setup.md)
@@ -42,7 +43,7 @@ ht-degree: 57%
          * [Mejoras de proyecto del cuarto trimestre de 2025](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-project.md)
          * [Mejoras en las solicitudes del cuarto trimestre de 2025](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-requests.md)
          * [Mejoras en la gestión de recursos del cuarto trimestre de 2025](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-resource-mgmt.md)
-         * [Otras mejoras del cuarto trimestre de 2025 &#x200B;](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-other.md)
+         * [Otras mejoras del cuarto trimestre de 2025 ](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-other.md)
          * [Actualizaciones de aspecto durante el periodo de tiempo de la versión del cuarto trimestre de 2025](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-look-and-feel-updates.md)
       * Versión del tercer trimestre de 2025 {#release-25-q3}
          * [Resumen de la versión del tercer trimestre de 2025](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-release-overview.md)
@@ -124,7 +125,7 @@ ht-degree: 57%
          * [Otras mejoras en el cuarto trimestre de 2023](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-other-enhancements.md)
          * [Actualizaciones de aspecto durante el periodo de tiempo de la versión del cuarto trimestre de 2023](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-look-and-feel-updates.md)
       * Versión 23.3 {#release-23-3}
-         * [Información general de la versión 23.3](product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md)
+         * [23.3 Información general sobre la versión](product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md)
          * [23.3 Mejoras del administrador](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-admin-enhancements.md)
          * [23.3 Mejoras de Agile](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md)
          * [23.3 Mejoras de Financial Management](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-finance-enhancements.md)
@@ -165,30 +166,30 @@ ht-degree: 57%
          * [22.3 Mejoras en aplicaciones móviles](product-announcements/product-releases/22.3-release-activity/22-3-mobile-enhancements.md)
          * [Otras mejoras de la versión 22.3](product-announcements/product-releases/22.3-release-activity/22-3-other-enhancements.md)
          * [22.3 Mejoras del proyecto](product-announcements/product-releases/22.3-release-activity/22-3-project-enhancements.md)
-         * [22.3 Mejoras en la gestión de recursos](product-announcements/product-releases/22.3-release-activity/22-3-resource-management-enhancements.md)
+         * [Mejoras en la administración de recursos de la versión 22.3](product-announcements/product-releases/22.3-release-activity/22-3-resource-management-enhancements.md)
          * [22,3 Mejoras en los informes](product-announcements/product-releases/22.3-release-activity/22-3-reporting-enhancements.md)
          * [Actualizaciones de aspecto durante el periodo de tiempo de la versión 22.3](product-announcements/product-releases/22.3-release-activity/22-3-look-and-feel-updates.md)
       * Versión 22.2 {#release-22-2}
          * [Información general sobre la versión 22.2](product-announcements/product-releases/22.2-release-activity/22-2-release-overview.md)
          * [Mejoras en el administrador con la versión 22.2](product-announcements/product-releases/22.2-release-activity/22-2-admin-enhancements.md)
          * [22.2 Mejoras en los proyectos](product-announcements/product-releases/22.2-release-activity/22-2-project-enhancements.md)
-         * [22.2 Mejoras de la gestión de recursos](product-announcements/product-releases/22.2-release-activity/22-2-resource-management-enhancements.md)
+         * [Mejoras en la administración de recursos de la versión 22.2](product-announcements/product-releases/22.2-release-activity/22-2-resource-management-enhancements.md)
          * [22.2 Mejoras en el hogar](product-announcements/product-releases/22.2-release-activity/22-2-home-enhancements.md)
          * [Mejoras de la versión 22.2 en aplicaciones móviles](product-announcements/product-releases/22.2-release-activity/22-2-mobile-enhancements.md)
          * [22.2 Mejoras en la integración](product-announcements/product-releases/22.2-release-activity/22-2-integration-enhancements.md)
          * [Otras mejoras sobre la versión 22.2](product-announcements/product-releases/22.2-release-activity/22-2-other-enhancements.md)
          * [Actualizaciones en la apariencia durante el periodo de tiempo de la versión 22.2](product-announcements/product-releases/22.2-release-activity/22-2-look-and-feel-updates.md)
       * Versión 22.1 {#release-22-1}
-         * [Información general de la versión 22.1](product-announcements/product-releases/22.1-release-activity/22-1-release-overview.md)
+         * [22.1 Información general sobre la versión](product-announcements/product-releases/22.1-release-activity/22-1-release-overview.md)
          * [Mejoras del administrador en la versión 22.1](product-announcements/product-releases/22.1-release-activity/22-1-admin-enhancements.md)
          * [Mejoras en proyectos con la versión 22.1](product-announcements/product-releases/22.1-release-activity/22-1-project-enhancements.md)
-         * [22.1 Mejoras en la gestión de recursos](product-announcements/product-releases/22.1-release-activity/22-1-resource-mgt-enhancements.md)
+         * [Mejoras en la administración de recursos de la versión 22.1](product-announcements/product-releases/22.1-release-activity/22-1-resource-mgt-enhancements.md)
          * [Mejoras de las solicitudes en la versión 22.1](product-announcements/product-releases/22.1-release-activity/22-1-requests-enhancements.md)
          * [22.1 Mejoras de revisión](product-announcements/product-releases/22.1-release-activity/22-1-proofing-enhancements.md)
          * [22.1 Otras mejoras](product-announcements/product-releases/22.1-release-activity/22-1-other-enhancements.md)
          * [Mejoras de la versión 22.1 en aplicaciones móviles](product-announcements/product-releases/22.1-release-activity/22-1-mobile-enhancements.md)
       * Versión 21.4 {#release-21-4}
-         * [21.4 Información general de la versión](product-announcements/product-releases/21.4-release-activity/21-4-release-overview.md)
+         * [21.4 Información general sobre la versión](product-announcements/product-releases/21.4-release-activity/21-4-release-overview.md)
          * [Mejoras del administrador en la versión 21.4](product-announcements/product-releases/21.4-release-activity/21-4-admin-enhancements.md)
          * [21.4 Mejoras de Agile](product-announcements/product-releases/21.4-release-activity/21-4-agile-enhancements.md)
          * [21.4 Mejoras del proyecto](product-announcements/product-releases/21.4-release-activity/21-4-project-enhancements.md)
@@ -293,13 +294,13 @@ ht-degree: 57%
             * [Otras mejoras en la versión 20.4](product-announcements/product-releases/20.4-release-activity/20-4-other-enhancements.md)
          * Versión 20.3 {#release-20-3}
             * [Información general de la versión 20.3](product-announcements/product-releases/20.3-release-activity/20-3-release-overview.md)
-            * [20.3 Mejoras en la gestión de recursos](product-announcements/product-releases/20.3-release-activity/20-3-resource-management-enhancements.md)
+            * [Mejoras en la administración de recursos de la versión 20.3](product-announcements/product-releases/20.3-release-activity/20-3-resource-management-enhancements.md)
             * [20.3 Mejoras de Analytics](product-announcements/product-releases/20.3-release-activity/20-3-analytics-enhancements.md)
             * [20.3: Mejoras en la administración de proyectos](product-announcements/product-releases/20.3-release-activity/20-3-project-management-enhancements.md)
             * [20.3 Mejoras de prueba](product-announcements/product-releases/20.3-release-activity/20-3-proof-enhancements.md)
             * [Mejoras de Agile en la versión 20.3](product-announcements/product-releases/20.3-release-activity/20-3-agile-enhancements.md)
             * [20.3 Integración y mejoras en la aplicación móvil](product-announcements/product-releases/20.3-release-activity/20-3-mobile-enhancements.md)
-            * [20.3 otras mejoras](product-announcements/product-releases/20.3-release-activity/20-3-other-enhancements.md)
+            * [Otras mejoras de 20.3](product-announcements/product-releases/20.3-release-activity/20-3-other-enhancements.md)
          * Versión 20.2 {#release-20-2}
             * [Información general sobre la versión 2020.2](product-announcements/product-releases/2020.2.-release-activity/2020-2-release-overview.md)
             * [Mejoras en la aplicación móvil 2020.2](product-announcements/product-releases/2020.2.-release-activity/2020-2-mobile-enhancements.md)
@@ -320,7 +321,7 @@ ht-degree: 57%
             * [Información general sobre la versión 2019.4](product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-release-activity-overview.md)
             * [2019.4: Mejoras en la lista](product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-list-enhancements.md)
             * [Mejoras de la versión 2019.4 en aplicaciones móviles](product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-mobile-enhancements.md)
-            * [2019.4 otras mejoras](product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-other-enhancements.md)
+            * [Otras mejoras de 2019.4](product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-other-enhancements.md)
             * [Mejoras en la administración de recursos 2019.4](product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-resource-management-enhancements.md)
             * [Otras funciones de Workfront Classic incluidas en el entorno de producción antes de la versión 2019.4](product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/other-workfront-classic-features-prior-to-19-4.md)
          * Versión 2019.3 {#release-19-3}
@@ -343,7 +344,7 @@ ht-degree: 57%
             * [Mejoras en aplicaciones móviles e integración de la versión 2019.1](product-announcements/product-releases/quarterly-release-archive/2019.1-release-activity/2019-1-mbl-intgrtn-enhncmnts.md)
             * [Mejoras del proyecto 2019.1](product-announcements/product-releases/quarterly-release-archive/2019.1-release-activity/2019-1-project-enhancements.md)
             * [Mejoras de revisión de la versión 2019.2](product-announcements/product-releases/quarterly-release-archive/2019.1-release-activity/2019-1-proofing-enhancements.md)
-            * [Mejoras en la administración de recursos de 2019.1](product-announcements/product-releases/quarterly-release-archive/2019.1-release-activity/2019-1-rsrc-mngmnt-enhncmnts.md)
+            * [Mejoras en la administración de recursos de la versión 2019.1](product-announcements/product-releases/quarterly-release-archive/2019.1-release-activity/2019-1-rsrc-mngmnt-enhncmnts.md)
          * Versión 2018.3 {#release-18-3}
             * [Actividad de la versión 2018.3](product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-release-activity.md)
             * [Información general sobre la actividad de la versión 2018.3](product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-release-activity-overview.md)
@@ -372,7 +373,7 @@ ht-degree: 57%
             * [Actividad de la versión final de Beta 2018.1](product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-beta-final-release-activity.md)
          * Versión 2017.3 {#release-17-3}
             * [Actividad de la versión 2017.3](product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-release-activity.md)
-            * [información general sobre la actividad de la versión 2017.3](product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-release-activity-overview.md)
+            * [Información general sobre la actividad de la versión 2017.3](product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-release-activity-overview.md)
             * [Actividad de la versión 2017.3 beta 1](product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-1-release-activity.md)
             * [Actividad de la versión 2017.3 Beta 2](product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-2-release-activity.md)
             * [Actividad de la versión Beta 3 2017.3](product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-3-release-activity.md)
@@ -381,7 +382,7 @@ ht-degree: 57%
             * [Seminarios web de la versión 2017.3](product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-release-webinars.md)
          * Versión 2017.2 {#release-17-2}
             * [Actividad en la versión 2017.2](product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-release-activity.md)
-            * [información general sobre la actividad de la versión 2017.2](product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-release-activity-overview.md)
+            * [Información general sobre la actividad de la versión 2017.2](product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-release-activity-overview.md)
             * [Actividad de la versión 2017.2 Beta 1](product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-beta-1-release-activity.md)
             * [Actividad de la versión 2017.2 beta 2](product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-beta-2-release-activity.md)
             * [Actividad de la versión 2017.2 Beta 3](product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-beta-3-release-activity.md)
@@ -1784,7 +1785,7 @@ ht-degree: 57%
    * [Administrar recursos: índice de artículos](resource-mgmt/manage-resources.md)
    * Administración de recursos {#resource-management}
       * [Administración de recursos: índice de artículos](resource-mgmt/resource-mgmt-overview/resource-management-overview.md)
-      * [Introducción a la Administración de recursos &#x200B;](resource-mgmt/resource-mgmt-overview/get-started-resource-management.md)
+      * [Introducción a la Administración de recursos ](resource-mgmt/resource-mgmt-overview/get-started-resource-management.md)
    * Planificación de recursos en Adobe Workfront {#resource-planning-in-adobe-workfront}
       * [Planificación de recursos: índice de artículos](resource-mgmt/resource-planning/resource-planning-overview.md)
       * Conjuntos de recursos {#resource-pools}
