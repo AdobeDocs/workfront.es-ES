@@ -59,7 +59,7 @@ Para obtener información acerca de [!DNL Admin Console], consulte estos artícu
 
 ### ¿Qué debo hacer como cliente para facilitar la migración?
 
-Se contactará con los clientes existentes para programar las migraciones. Los compañeros de soporte del equipo de migración guiarán a los clientes a través del proceso, les aconsejarán sobre la configuración de [!DNL Admin Console] y proporcionarán los vínculos a la documentación necesaria para que el movimiento sea lo más sencillo y sencillo posible. Revisa las [[!DNL Adobe Business Platform] preguntas frecuentes [!DNL Admin Console]  y](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/workfront/faq)para obtener más información.
+Se contactará con los clientes existentes para programar las migraciones. Los compañeros de soporte del equipo de migración guiarán a los clientes a través del proceso, les aconsejarán sobre la configuración de [!DNL Admin Console] y proporcionarán los vínculos a la documentación necesaria para que el movimiento sea lo más sencillo y sencillo posible. Revisa las [[!DNL Adobe Business Platform] preguntas frecuentes [!DNL Admin Console]  y](https://experienceleague.adobe.com/es/docs/support-resources/adobe-support-tools-guide/workfront/faq)para obtener más información.
 
 ### ¿Cómo administra [!DNL Adobe Admin Console] para las compañías que ya lo tienen habilitado para Federated ID de forma distinta a la configuración del SSO de [!DNL Workfront]?
 
