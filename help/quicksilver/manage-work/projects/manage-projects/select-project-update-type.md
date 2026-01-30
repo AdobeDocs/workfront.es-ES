@@ -6,10 +6,10 @@ description: Al seleccionar un Tipo de actualización para un proyecto, puede co
 author: Alina
 feature: Work Management
 exl-id: ffdfffec-d217-4daa-9849-cb0c794992c0
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
 workflow-type: tm+mt
-source-wordcount: '652'
-ht-degree: 65%
+source-wordcount: '664'
+ht-degree: 64%
 
 ---
 
@@ -66,7 +66,7 @@ Cuando se actualizan las tareas, sus objetos principales (tareas principales o e
 
 1. Haga clic en **Proyecto** **Configuración**.
 
-   ![](assets/update-type-field-on-project-edit-box-nwe-350x378.png)
+   ![Campo de tipo de actualización en el cuadro de edición del proyecto](assets/update-type-field-on-project-edit-box-nwe-350x378.png)
 
 1. En el campo **Tipo de actualización**, seleccione si desea que Workfront calcule la cronología del proyecto automáticamente a diario, cuando haya un cambio o si desea que el administrador ddel proyecto la calcule manualmente.
 
@@ -81,7 +81,7 @@ Cuando se actualizan las tareas, sus objetos principales (tareas principales o e
 
      Al actualizar una tarea o el proyecto y activar un recálculo de la cronología, se muestran inmediatamente todas las fechas disponibles, lo que le permite continuar trabajando. En proyectos con más de 100 tareas, las fechas que requieren cálculos más largos se atenúan.
 
-     ![](assets/dates-dimmed-when-insline-editing-350x146.png)
+     ![Fechas atenuadas al editar en línea](assets/dates-dimmed-when-insline-editing-350x146.png)
 
      Esto indica que el recálculo aún no ha finalizado y que las fechas están sujetas a cambios.
 

@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: f5d6918889b7fed1159274105ee706a027f621bf
+source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
 workflow-type: tm+mt
-source-wordcount: '3499'
+source-wordcount: '3507'
 ht-degree: 67%
 
 ---
@@ -237,7 +237,7 @@ Puede añadir hasta 500 campos (o columnas) en una vista de tabla.
    >
    >El número de campos ocultos se muestra a la izquierda del icono Campos de la barra de herramientas.
    >
-   ><span class="preview">De forma predeterminada, los campos ocultos no se muestran en el cuadro de vista previa **Detalles** del registro. Para obtener más información, vea [Administrar el diseño de la página de registros](/help/quicksilver/planning/records/manage-the-record-page.md)</span>
+   ><span class="preview">De forma predeterminada, los campos ocultos no se muestran en el cuadro de vista previa **Detalles** del registro. Todos los campos se muestran en la página Detalles del registro. Para obtener más información, vea [Administrar el diseño de la página de registros](/help/quicksilver/planning/records/manage-the-record-page.md)</span>
 
 
 1. Haga clic en el icono **Campos** y habilite la opción asociada a los campos que desea mostrar en las columnas de la tabla. Todos los campos se mostrarán de forma predeterminada.

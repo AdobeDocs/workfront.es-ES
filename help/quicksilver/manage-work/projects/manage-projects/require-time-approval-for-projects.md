@@ -6,10 +6,10 @@ description: Puede configurar el proyecto para requerir que el propietario del p
 author: Alina
 feature: Work Management
 exl-id: e4a27640-9f5c-4a9f-82cc-3384694594af
-source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
+source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
 workflow-type: tm+mt
-source-wordcount: '785'
-ht-degree: 80%
+source-wordcount: '790'
+ht-degree: 79%
 
 ---
 
@@ -33,7 +33,7 @@ Para obtener más información sobre los registros de facturación, consulte el 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
@@ -152,12 +152,12 @@ Para aprobar o rechazar las horas de un proyecto:
 1. Se muestran las horas registradas para problemas, tareas y el proyecto, y deben tener un estado de **Enviado**.\
    Haga clic en el cuadro situado a la izquierda de las entradas de horas para seleccionar las horas que desea aprobar.
 
-1. Haga clic en el icono **Aprobar** ![](assets/approve-hours-icon.png) en la parte superior de la lista de horas.\
+1. Haga clic en el icono **Aprobar** ![Aprobar icono](assets/approve-hours-icon.png) en la parte superior de la lista de horas.\
    El estado de las horas cambia a **Aprobado**.\
    Si posteriormente rechaza las horas aprobadas, el estado de las horas cambia a **No aprobado**.\
    Cuando se incluyen las horas aprobadas en un registro de facturación, el estado de las horas cambia a **Facturado y aprobado**. Las horas añadidas a un registro de facturación no se pueden eliminar. Para obtener más información sobre la creación de registros de facturación, consulte el artículo [Crear registros de facturación](../../../manage-work/projects/project-finances/create-billing-records.md)
 
-1. (Opcional) Haga clic en el icono **Rechazar** ![](assets/reject-hours-icon.png) para rechazar las entradas de tiempo del proyecto.\
+1. (Opcional) Haga clic en el icono **Rechazar** ![Rechazar icono de horas](assets/reject-hours-icon.png) para rechazar las entradas de tiempo del proyecto.\
    El estado de las horas cambia a **Rechazado**.
 
    >[!NOTE]

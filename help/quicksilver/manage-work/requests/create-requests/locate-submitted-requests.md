@@ -8,19 +8,26 @@ feature: Requests
 topic: Collaboration
 role: User
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
-source-git-commit: 9e7b94201705ce96dbc38fc6d9246461e4d4d7ea
+source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
 workflow-type: tm+mt
-source-wordcount: '1440'
-ht-degree: 47%
+source-wordcount: '1483'
+ht-degree: 45%
 
 ---
 
 # Vista de solicitudes enviadas
 
-Puede ver las solicitudes que usted u otra persona ha enviado, o las solicitudes que ha iniciado pero que nunca ha terminado de enviar. Puede localizar estas solicitudes en las siguientes áreas de Adobe Workfront:
+Puede ver las solicitudes que usted u otra persona ha enviado, o las solicitudes que ha iniciado pero que nunca ha terminado de enviar. Las solicitudes no finalizadas se guardarán como borradores.
+
+Puede localizar las solicitudes enviadas en las siguientes áreas de Adobe Workfront:
 
 * El área Solicitudes de Workfront
-* el widget Mis solicitudes en Inicio
+* El widget Mis solicitudes en Inicio
+
+El área Solicitudes muestra las siguientes solicitudes, en función de cómo decida consultarlas:
+
+* Solicitudes de Workfront al utilizar la experiencia heredada
+* Workfront, así como las solicitudes de Planning, al utilizar la nueva experiencia.
 
   >[!NOTE]
   >
@@ -107,16 +114,16 @@ La lista de solicitudes se filtra automáticamente a medida que se añaden las c
    Para obtener instrucciones, consulte [Crear o editar vistas en el área de solicitudes](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md).
 1. (Opcional) Compruebe el estado de una solicitud en la columna Estado. Los siguientes estados están disponibles en la nueva experiencia solicitante:
 
-   * Borrador: esta solicitud aún no se ha enviado.
-   * Pendiente de revisión: (solo Planning) esta solicitud tiene aprobadores y ninguno de ellos ha abierto la solicitud.
-   * En revisión: (solo Planning) esta solicitud tiene aprobadores y al menos un aprobador ha abierto la solicitud, pero no se ha tomado ninguna decisión.
-   * Rechazada: (Solo Planning) Esta solicitud tiene aprobadores y se ha rechazado.
-   * En curso:
-      * Flujo de trabajo de Workfront: la solicitud se ha convertido y el trabajo está en curso.
-      * Planificación de Workfront: la finalización de la solicitud se asigna a un campo de Planificación específico y el valor del campo aún no coincide con el valor de finalización.
+   * **Borrador**: esta solicitud aún no se ha enviado.
+   * **Revisión pendiente**: (Solo en Planning) Esta solicitud tiene aprobadores y ninguno de ellos ha abierto la solicitud.
+   * **En revisión**: (solo en planeación) Esta solicitud tiene aprobadores y al menos un aprobador ha abierto la solicitud, pero no se ha tomado ninguna decisión.
+   * **Rechazada**: (Solo en Planning) Esta solicitud tiene aprobadores y ha sido rechazada.
+   * **En curso**:
+      * Solicitudes Workfront: la solicitud se ha convertido y el trabajo está en curso.
+      * Solicitudes de Workfront Planning: la finalización de la solicitud se asigna a un campo de Planning específico y el valor del campo aún no coincide con el valor de finalización.
 
         Para obtener más información, consulte [Configurar detalles de configuración](/help/quicksilver/planning/requests/create-request-form.md#set-up-configuration-details) en el artículo Crear y administrar un formulario de solicitud en Adobe Workfront Planning.
-   * Completar: se completa la solicitud.
+   * **Completar**: la solicitud se completó.
 
 >[!NOTE]
 >

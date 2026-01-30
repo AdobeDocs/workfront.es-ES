@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: f5d6918889b7fed1159274105ee706a027f621bf
+source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
 workflow-type: tm+mt
 source-wordcount: '1568'
 ht-degree: 47%
@@ -282,9 +282,11 @@ Ocurren lo siguiente:
    * Seleccione la opción **Mostrar campos de tabla** para ver únicamente los campos que no están ocultos en la vista de tabla del registro. Esta es la configuración predeterminada
    * Anule la selección del ajuste **Mostrar campos de tabla** para ver todos los campos de la vista de tabla del registro, incluidos los ocultos.
 
+   </div>
+
    >[!TIP]
    >
-   >La configuración **Mostrar campos de tabla** solo está disponible en el cuadro de vista previa de detalles del registro. No está disponible en la página Detalles del registro.
+   ><span class="preview">La configuración **Mostrar campos de tabla** solo está disponible en el cuadro de vista previa de detalles del registro. No está disponible en la página Detalles del registro.</span>
 
 
    <!--replace with this when they fix the UI text:
@@ -296,7 +298,7 @@ Ocurren lo siguiente:
 
 1. (Opcional) Haga clic en el icono **Abrir en ficha nueva** ![Abrir cuadro de detalles en un icono de ficha nueva](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> en la esquina superior derecha de la vista previa del registro para abrir la página del registro en una ficha nueva.
 
-   La ficha **Detalles** del registro se abre de manera predeterminada.
+   La página de registro **Detalles** se abre en una nueva pestaña.
 
    ![Página de detalles](assets/details-page.png)
 

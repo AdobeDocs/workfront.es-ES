@@ -7,9 +7,9 @@ description: Los usuarios que están asociados a un proyecto en cierta capacidad
 author: Alina
 feature: Work Management
 exl-id: ceb25fb1-57fc-476c-b92c-fc41aadc0b5b
-source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
+source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
 workflow-type: tm+mt
-source-wordcount: '476'
+source-wordcount: '479'
 ht-degree: 7%
 
 ---
@@ -64,7 +64,7 @@ Si un usuario aparece en la lista del área Personas de un proyecto, ese proyect
 
 Puede ver si el filtro Proyectos en los que participo está seleccionado en el encabezado del área Proyectos. Puede aplicarlo desde el panel Filtros o desde el encabezado.
 
-![](assets/nwe-project-list-buttons-350x187.png)
+![Botones de filtro de proyecto](assets/nwe-project-list-buttons-350x187.png)
 
 >[!NOTE]
 >

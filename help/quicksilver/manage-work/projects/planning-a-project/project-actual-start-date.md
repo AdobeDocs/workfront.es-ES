@@ -7,10 +7,10 @@ description: Los proyectos, las tareas y los problemas tienen una fecha de inici
 author: Alina
 feature: Work Management
 exl-id: 4357b072-24f6-4f89-b624-f066f8af0722
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
 workflow-type: tm+mt
-source-wordcount: '525'
-ht-degree: 54%
+source-wordcount: '530'
+ht-degree: 52%
 
 ---
 
@@ -105,7 +105,7 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 Puede localizar la fecha real de inicio de un proyecto en las áreas siguientes:
 
 * En la sección Detalles de un proyecto.
-* En un informe o vista de proyecto, cuando se agrega la fecha de inicio real del objeto Proyecto en el informe.
+* En un informe o vista de proyecto, cuando agregue la **Fecha real de inicio** para el objeto Proyecto en el informe.
 
   Para obtener información sobre la creación de informes, consulte el artículo [Crear un informe personalizado](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
@@ -116,8 +116,8 @@ Para localizar la fecha de inicio real en la sección Detalles del proyecto:
 1. Haga clic en el proyecto cuya fecha de inicio real desea ver.
 1. Haga clic en **Detalles del proyecto** en el panel izquierdo y, a continuación, vaya a la sección **Información general**.
 
-   La fecha de inicio real se muestra junto con otras fechas del proyecto.
+   ![Fecha real de inicio del proyecto resaltada](assets/nwe-project-actual-start-date--highlighted-350x367.png)
 
-   ![](assets/nwe-project-actual-start-date--highlighted-350x367.png)
+   La **Fecha real de inicio** se muestra junto con las demás fechas del proyecto.
 
 

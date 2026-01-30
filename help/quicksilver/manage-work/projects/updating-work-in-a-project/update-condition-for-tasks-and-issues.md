@@ -6,10 +6,10 @@ description: La condición de una tarea o problema es un indicador colocado en e
 author: Alina
 feature: Work Management
 exl-id: 5d970af6-5996-4781-9b97-de02063dc32c
-source-git-commit: 2d8ad8baa6c470fd82b61202cb42443f568b1968
+source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
 workflow-type: tm+mt
-source-wordcount: '1059'
-ht-degree: 92%
+source-wordcount: '1070'
+ht-degree: 91%
 
 ---
 
@@ -38,7 +38,7 @@ Los valores de Condición a los que nos referimos en este artículo están dispo
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
@@ -167,7 +167,7 @@ Puede actualizar de forma manual la Condición de las tareas y los problemas en 
    * Algunas preocupaciones
    * Impedimentos mayores
 
-   ![](assets/condition-in-task-header-0925.png)
+   ![Condición en el encabezado de la tarea](assets/condition-in-task-header-0925.png)
 
 <!--1. Click Enter to save the Condition.-->
 
@@ -185,7 +185,7 @@ Puede actualizar de forma manual la Condición de las tareas y los problemas en 
 
 1. Actualice la **condición** del problema o tarea en línea, haciendo doble clic en la condición existente y seleccionando un nuevo valor en el menú desplegable.
 
-   ![](assets/condition-values-in-task-list-0925.png)
+   ![Valores de condición en la lista de tareas](assets/condition-values-in-task-list-0925.png)
 
    >[!NOTE]
    >

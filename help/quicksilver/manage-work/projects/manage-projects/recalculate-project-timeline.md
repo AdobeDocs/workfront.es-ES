@@ -6,9 +6,9 @@ description: Volver a calcular las escalas de tiempo permite a los administrador
 author: Alina
 feature: Work Management
 exl-id: ec5d9a07-e45a-4aa2-9f41-9421ca5d5920
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
 workflow-type: tm+mt
-source-wordcount: '1066'
+source-wordcount: '1077'
 ht-degree: 5%
 
 ---
@@ -96,7 +96,7 @@ De manera predeterminada, las escalas de tiempo de los proyectos se recalculan a
 > Un ejemplo de proyecto complejo puede ser un proyecto con varias dependencias, un gran número de tareas, varias tareas predecesoras entre proyectos o varias sangrías de tareas.
 > Workfront coloca una advertencia a la derecha del nombre del proyecto en la página del proyecto para advertir a los usuarios de que la cronología del proyecto debe recalcularse manualmente. Solo los usuarios con permisos de Administración del proyecto pueden recalcular manualmente la cronología.
 >
->   ![](assets/project-warning-to-manually-recalculate-timeline.png)
+>   ![Advertencia de proyecto para recalcular la escala de tiempo](assets/project-warning-to-manually-recalculate-timeline.png)
 >
 
 * [Recálculo automático de escalas de tiempo de proyectos](#automatic-recalculation-of-project-timelines)
@@ -183,7 +183,7 @@ Puede recalcular la cronología de un proyecto en Workfront desde la página del
 
    Vaya a una lista de proyectos o a un informe, seleccione uno o varios proyectos y, a continuación, haga clic en el icono **Más** ![Menú Más](assets/qs-more-menu.png) que se encuentra en la parte superior de la lista.
 
-   ![](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
+   ![Recalcular la escala de tiempo de expresiones con la lista desplegable de finanzas](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
 
    >[!TIP]
    >

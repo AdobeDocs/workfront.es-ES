@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: f5d6918889b7fed1159274105ee706a027f621bf
+source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
 workflow-type: tm+mt
-source-wordcount: '3518'
+source-wordcount: '3550'
 ht-degree: 4%
 
 ---
@@ -190,13 +190,14 @@ Los detalles del formulario se dividen en pestañas.
    * Campos de registro disponibles en la vista de tabla del tipo de registro seleccionado. <!--they are working on removing the limitation below-->
 
    * **Sección predeterminada**: Este es el salto de sección predeterminado que Workfront aplica al formulario de solicitud. Todos los campos de registro se muestran en el área **Sección predeterminada**.
-   * Campo **Asunto**: Campo que identificará la solicitud en Workfront. La configuración y el valor del campo Subject no se pueden editar.
+   * Campo **Asunto**: Campo que identificará la solicitud en Workfront. La configuración y el valor del campo **Subject** no se pueden editar.
 
      >[!NOTE]
      >
      >* El campo **Asunto** requiere un valor cuando esté visible en el formulario de solicitud. Sin embargo, puede quitar el campo **Subject** si es necesario, y los solicitantes no lo verán en el formulario cuando envíen la solicitud.
-     >* Cuando falta el campo Subject en un formulario de solicitud, pero hay un campo Name para el nombre del registro futuro, se asigna automáticamente el mismo nombre a la solicitud que al registro creado.
-     >* Cuando faltan los campos Asunto y Nombre en el formulario de solicitud, se asigna un nombre a la solicitud según el siguiente patrón: `< Record name > request form < Entry date of the request >`; el registro se denomina **Sin título**.
+     >* Cuando falta el campo **Subject** en un formulario de solicitud, pero hay un campo Nombre para el nombre del registro futuro, se asigna automáticamente el mismo nombre a la solicitud que al registro creado.
+     >* Cuando faltan los campos **Subject** y **Name** en el formulario de solicitud, se asigna un nombre a la solicitud según el siguiente patrón: `< Request form name > < Entry date of the request >`; el registro se denomina **Untitled**.
+     >* <span class="preview">Para ver la información del campo **Asunto** en Workfront Planning, puede agregar el campo de conexión **Solicitud original** al tipo de registro asociado con el formulario de solicitud. Para obtener más información, vea [Conectar tipos de registros](/help/quicksilver/planning/architecture/connect-record-types.md).</span>
 
    * Todos los campos asociados al tipo de registro.
 

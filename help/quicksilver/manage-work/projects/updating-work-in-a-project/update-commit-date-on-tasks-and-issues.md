@@ -6,10 +6,10 @@ description: Puede actualizar manualmente la fecha de confirmación de una tarea
 author: Alina
 feature: Work Management
 exl-id: 003c52c7-baf3-4316-bb4b-83b600172d48
-source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
+source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
 workflow-type: tm+mt
-source-wordcount: '565'
-ht-degree: 94%
+source-wordcount: '599'
+ht-degree: 89%
 
 ---
 
@@ -37,7 +37,7 @@ Puede actualizar manualmente la fecha de confirmación de una tarea o un problem
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
@@ -143,13 +143,13 @@ La actualización de la fecha de confirmación es idéntica para las tareas y lo
 
 1. (Condicional y opcional) Si el administrador del grupo o de Workfront ha añadido la fecha de confirmación al encabezado de la tarea o del problema, haga clic en el campo **Fecha de confirmación** del encabezado y, a continuación, seleccione una fecha del calendario. Si la fecha de confirmación no está en el encabezado, siga estos pasos.
 
-   ![](assets/commit-date-task-header.png)
+   ![Fecha de confirmación en el encabezado de la tarea](assets/commit-date-task-header.png)
 
 1. Haga clic en **Detalles de la tarea** o en **Detalles del problema** en el panel izquierdo.
 1. Haga clic en **Información general** para expandirla.
 1. Actualice el campo **Fecha de confirmación**.
 
-   ![](assets/task-commit-date-edit-highlighted-details-page.png)
+   ![Edición de fecha de confirmación de tarea resaltada en la página de detalles](assets/task-commit-date-edit-highlighted-details-page.png)
 
 1. Haga clic en **Guardar cambios**.
 
@@ -159,15 +159,15 @@ La actualización de la fecha de confirmación es idéntica para las tareas y lo
 
      En cambio, la fecha de confirmación y la fecha proyectada de finalización de la tarea o problema serán las mismas.
 
-     ![](assets/task-projected-completion-date-in-details-highlighted-nwe-350x230.png)
+     ![Fecha proyectada de finalización de la tarea en los detalles resaltados](assets/task-projected-completion-date-in-details-highlighted-nwe-350x230.png)
 
    * Se notifica al propietario del proyecto en una notificación en la aplicación de Workfront de que ha sugerido una nueva fecha de confirmación para la tarea o el problema.
    * El propietario del proyecto recibe una notificación en la sección Actualizaciones de que ha sugerido una nueva fecha de confirmación y pueden, en este momento, actualizar la fecha planificada de finalización de la tarea o problema para que coincida con la fecha de confirmación sugerida.
 
-     ![](assets/project-owner-notification-update-stream-that-commit-date-affects-project-timeline.png)
+     ![Notificación del propietario del proyecto en el flujo de actualización de que la fecha de confirmación afecta a la cronología del proyecto](assets/project-owner-notification-update-stream-that-commit-date-affects-project-timeline.png)
 
 
-     <!--![](assets/project-owner-notification-update-stream-that-commit-date-affects-project-timeline-highlighted-nwe-350x139.png)-->
+     <!--![Project owner notification in update stream that commit date affects the project timeline](assets/project-owner-notification-update-stream-that-commit-date-affects-project-timeline-highlighted-nwe-350x139.png)-->
 
      Para obtener información acerca de las notificaciones y actualizaciones activadas por este cambio, consulte la sección “Notificaciones y actualizaciones activadas al cambiar la fecha de confirmación” en el artículo [Información general sobre la fecha de confirmación](/help/quicksilver/manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).
 

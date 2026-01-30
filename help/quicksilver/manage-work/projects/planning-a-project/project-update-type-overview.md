@@ -7,10 +7,10 @@ description: El tipo de actualización de un proyecto indica cómo calcula Adobe
 author: Alina
 feature: Work Management
 exl-id: a6394961-2ac8-4b95-aa1b-dba8108c612f
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
 workflow-type: tm+mt
-source-wordcount: '515'
-ht-degree: 70%
+source-wordcount: '520'
+ht-degree: 69%
 
 ---
 
@@ -35,7 +35,7 @@ Para obtener información sobre cómo actualizar el tipo de actualización del p
 
   Al actualizar una tarea o el proyecto y activar un recálculo de la cronología, se muestran inmediatamente todas las fechas disponibles, lo que le permite continuar trabajando. En proyectos con más de 100 tareas, las fechas que requieren cálculos más largos se atenúan.
 
-  ![](assets/dates-dimmed-when-insline-editing-350x146.png)
+  ![Fechas atenuadas al editar en línea](assets/dates-dimmed-when-insline-editing-350x146.png)
 
   Esto indica que el recálculo aún no ha finalizado y que las fechas están sujetas a cambios.
 

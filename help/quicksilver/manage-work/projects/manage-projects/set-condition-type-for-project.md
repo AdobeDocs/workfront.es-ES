@@ -6,9 +6,9 @@ description: 'Como administrador del proyecto, puede determinar cómo se calcula
 author: Alina
 feature: Work Management
 exl-id: e6b99c48-5ccc-4956-8465-6f22f14468ef
-source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
+source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
 workflow-type: tm+mt
-source-wordcount: '301'
+source-wordcount: '304'
 ht-degree: 72%
 
 ---
@@ -27,7 +27,7 @@ Como administrador del proyecto, puede determinar cómo se calcula la condición
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
@@ -91,7 +91,7 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
    * Haga clic en el menú **Más** ![Menú más](assets/qs-more-menu.png) que se encuentra a la derecha del nombre del proyecto y, a continuación, haga clic en **Editar**.
    * Haga clic en **Detalles del proyecto** en el panel izquierdo.
 
-   ![](assets/update-condition-type-nwe-350x108.png)
+   ![Actualizar tipo de condición](assets/update-condition-type-nwe-350x108.png)
 
 1. En el campo **Tipo de condición**, elija una de las siguientes opciones:
 
