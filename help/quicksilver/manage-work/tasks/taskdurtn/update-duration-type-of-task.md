@@ -6,10 +6,10 @@ description: El tipo de duración de una tarea identifica la relación entre el 
 author: Alina
 feature: Work Management
 exl-id: 2f01566c-c3e0-4f59-bf53-2a67806a205c
-source-git-commit: c1b8af0d8a95714bb597db7a429794773358cf05
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '286'
-ht-degree: 95%
+source-wordcount: '292'
+ht-degree: 94%
 
 ---
 
@@ -26,7 +26,7 @@ El tipo de duración de una tarea identifica la relación entre el número de re
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
@@ -87,7 +87,7 @@ Para actualizar el tipo de duración de una tarea:
 1. Haga clic en la sección **Tareas** del panel izquierdo.
 1. Haga clic en **Detalles de la tarea** en el panel izquierdo y, a continuación, en el área Información general, haga clic en **Tipo de duración**.
 
-   ![](assets/duration-type-all-options-on-overview-350x155.png)
+   ![Duración escribe todas las opciones en Información general](assets/duration-type-all-options-on-overview-350x155.png)
 
 1. Seleccione entre las siguientes opciones
 

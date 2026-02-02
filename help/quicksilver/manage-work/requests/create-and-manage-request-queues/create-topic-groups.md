@@ -8,7 +8,7 @@ feature: Work Management, Requests
 topic: Collaboration
 role: User, Admin
 exl-id: 7c5959f4-f33f-4f5e-b031-748dbe1a24a5
-source-git-commit: 9cdf3d78e1d19f3d581f8d527919a608c5cc0ddc
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
 source-wordcount: '463'
 ht-degree: 83%
@@ -30,7 +30,7 @@ Los grupos de temas están asociados a las colas de solicitudes. Las colas de so
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera </p> </td> 
   </tr> 
   <tr> 
@@ -80,7 +80,7 @@ Para crear un grupo de temas:
 1. Haga clic en **Grupos de temas** en el panel izquierdo.
 1. Crear **Nuevo grupo de temas**
 
-   <!--   ![](assets/new-topic-group-box-nwe-350x306.png) -->
+   <!--   ![New topic group box](assets/new-topic-group-box-nwe-350x306.png) -->
 
 1. Especifique la siguiente información:
 

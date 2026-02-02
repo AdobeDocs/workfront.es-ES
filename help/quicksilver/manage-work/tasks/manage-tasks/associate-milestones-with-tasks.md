@@ -6,10 +6,10 @@ description: Puede asociar hitos con tareas para indicar cuándo se alcanzan pas
 author: Alina
 feature: Work Management
 exl-id: 56410640-fde4-417f-8ea0-f089315476f7
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '364'
-ht-degree: 96%
+source-wordcount: '372'
+ht-degree: 90%
 
 ---
 
@@ -28,7 +28,7 @@ Puede asociar hitos con tareas para indicar cuándo se alcanzan pasos importante
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
@@ -101,7 +101,7 @@ Para poder asociar un hito a una tarea, debe existir lo siguiente:
 
 Una vez asociada una ruta de hitos a un proyecto, se puede asignar un hito a las tareas.
 
-1. Vaya a una tarea, haga clic en el icono **Más** ![](assets/more-icon.png) a la derecha del nombre de la tarea y, a continuación, en **Editar**.
+1. Vaya a una tarea y, a continuación, haga clic en el icono **Más** ![Icono de más](assets/more-icon.png) a la derecha del nombre de la tarea y, a continuación, **Editar**.
 
    Las tareas y los hitos tienen una relación 1:1. No se puede adjuntar el mismo hito a varias tareas. Cada tarea se puede vincular a un solo hito, o cada hito se puede asignar a una tarea.
 
@@ -111,8 +111,8 @@ Una vez asociada una ruta de hitos a un proyecto, se puede asignar un hito a las
 
    Para obtener más información, consulte [Crear o editar vistas en Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md).
 
-   ![](assets/amwt3.png)
+   ![Iconos de estado](assets/amwt3.png)
 
 1. (Opcional) Vaya a una lista de proyectos y seleccione la vista **Hito** para identificar el progreso de sus tareas de hito.
 
-   ![](assets/milestone-view-project-list.png)
+   ![Lista de proyectos de vista de hito](assets/milestone-view-project-list.png)

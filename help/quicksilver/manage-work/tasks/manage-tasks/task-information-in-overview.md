@@ -6,10 +6,10 @@ description: Puede ver o editar la información de una tarea accediendo al área
 author: Alina
 feature: Work Management
 exl-id: 4980b28f-914d-4cf9-813f-14983aac660b
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '2102'
-ht-degree: 92%
+source-wordcount: '2104'
+ht-degree: 91%
 
 ---
 
@@ -113,7 +113,7 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
    >
    >Según la forma en que el administrador de Workfront o el administrador de grupos configuren la plantilla de diseño, los campos de la sección Detalles de tarea podrían volver a organizarse o no mostrarse. Para obtener más información, consulte [Personalizar la vista de detalles con una plantilla de diseño](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
 
-1. Haga clic en el icono de **Editar** ![](assets/edit-icon.png) en la esquina superior derecha de la sección Detalles y, a continuación, haga clic en **Información general**.
+1. Haga clic en el icono **Editar** ![Editar icono](assets/edit-icon.png) en la esquina superior derecha de la sección Detalles y, a continuación, haga clic en **Información general**.
 
    >[!TIP]
    >

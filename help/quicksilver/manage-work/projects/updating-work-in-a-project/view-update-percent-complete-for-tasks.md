@@ -6,9 +6,9 @@ description: Puede actualizar el porcentaje completado de una tarea para indicar
 author: Alina
 feature: Work Management
 exl-id: e53bca4d-1ed3-4e4d-8a35-217529a246dc
-source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '682'
+source-wordcount: '692'
 ht-degree: 42%
 
 ---
@@ -30,7 +30,7 @@ Actualizar el porcentaje completado por problemas es similar a actualizarlo para
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
@@ -100,7 +100,7 @@ Puede actualizar el porcentaje completado de una tarea en cualquiera de las sigu
 
 * **En el encabezado de tarea**: puede actualizar el porcentaje completado de una tarea en el encabezado de tarea.
 
-  ![](assets/nwe-updatetaskpercentinheader-350x54.png)
+  ![Porcentaje de actualización en el encabezado](assets/nwe-updatetaskpercentinheader-350x54.png)
 
 * **En el panel de resumen de una tarea**: puede actualizar el porcentaje completado de una tarea en la parte superior del panel Resumen al ver la tarea en las siguientes áreas:
 
@@ -108,7 +108,7 @@ Puede actualizar el porcentaje completado de una tarea en cualquiera de las sigu
    * Plantilla de horas
    * Distribuidor de cargas de trabajo
 
-  ![](assets/update-percent-complete-in-task-summary-highlighted.png)
+  ![Porcentaje de actualización resaltado en el resumen de la tarea](assets/update-percent-complete-in-task-summary-highlighted.png)
 
   Para obtener más información, consulte [Información general sobre el resumen](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md)
 

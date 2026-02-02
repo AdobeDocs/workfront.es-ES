@@ -1,5 +1,5 @@
 ---
-title: 'El marco de éxito: modele la jerarquía de campañas'
+title: 'Arquitectura de éxito: modele la jerarquía de campañas'
 description: Aprenda a traducir sus procesos empresariales complejos en una jerarquía de campañas escalable y controlada mediante "Centros de gravedad" y una arquitectura de espacio de trabajo múltiple.
 feature: Workfront Planning
 role: User, Admin
@@ -7,7 +7,7 @@ author: Alina
 recommendations: noDisplay, noCatalog
 hidefromtoc: true
 hide: true
-source-git-commit: 54a6e633e903c73a78b36e90fb27edb445dc8d47
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
 source-wordcount: '1060'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 ---
 
 
-# El marco para el éxito: modele la jerarquía de la campaña
+# Arquitectura de éxito: modele la jerarquía de campañas
 
 <!--see the file again for additional comments from Seth and others-->
 

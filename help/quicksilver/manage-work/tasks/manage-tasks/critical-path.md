@@ -7,10 +7,10 @@ description: La determinación de la ruta crítica de un proyecto es una forma a
 author: Alina
 feature: Work Management
 exl-id: 9cbc84bf-d02b-4bb7-8d5d-922554d1262e
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '684'
-ht-degree: 5%
+source-wordcount: '689'
+ht-degree: 6%
 
 ---
 
@@ -38,7 +38,7 @@ Las siguientes funciones pueden afectar a la ruta crítica de un proyecto:
      >Cuando la fecha sucesora de una tarea no afecta directamente a la fecha de sus tareas dependientes o a las fechas del proyecto, la tarea sucesora no se encuentra en la ruta crítica.
      >
      >
-     >![](assets/successor-not-on-critical-path-350x150.png)     >
+     >![El sucesor no se encuentra en la ruta crítica](assets/successor-not-on-critical-path-350x150.png)     >
      >
 
    * Cuando una subtarea se identifica como una tarea de ruta crítica, la tarea principal también se identifica como una tarea de ruta crítica si la fecha de inicio proyectada y la hora de la tarea principal son las mismas que la de la subtarea.
@@ -56,7 +56,7 @@ Cualquier retraso en la actividad de una tarea en la ruta crítica afecta direct
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 

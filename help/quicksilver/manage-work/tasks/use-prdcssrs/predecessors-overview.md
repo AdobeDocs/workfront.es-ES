@@ -7,10 +7,10 @@ description: Una predecesora es la tarea de la que depende otra tarea (denominad
 author: Alina
 feature: Work Management
 exl-id: b2020a50-0921-4ed2-8a34-1a0411992b99
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '1179'
-ht-degree: 99%
+source-wordcount: '1184'
+ht-degree: 98%
 
 ---
 
@@ -34,7 +34,7 @@ En el caso de dependencia entre proyectos, puede establecer predecesoras entre p
 
 Tanto si las tareas predecesoras como sucesoras pertenecen al mismo proyecto o a dos proyectos diferentes, las dependencias y las escalas de tiempo de cada proyecto se calculan de la misma manera.
 
-En el caso de las tareas predecesoras, la línea de tiempo del proyecto se ve afectada por lo siguiente:
+En el caso de las tareas predecesoras, la cronología del proyecto se ve afectada por lo siguiente:
 
 * Dependencia de predecesora
 * Valor y tipo de retardo\
@@ -100,13 +100,13 @@ Para buscar las predecesoras de una tarea, realice una de las siguientes accione
 
 Cuando vea tareas predecesoras en una lista de tareas, puede que vea cualquiera de los siguientes tipos de tareas predecesoras con sus respectivos tipos de dependencia y cantidades de retraso:
 
-* **1fs -** el número de tarea predecesora es 1. El tipo de dependencia es Fin-Inicio. En la línea de tiempo del proyecto, esta tarea está programada para iniciarse inmediatamente después de que finalice la tarea 1. A pesar de esto, aún puede marcarse como En curso o Completado.
+* **1fs -** el número de tarea predecesora es 1. El tipo de dependencia es Fin-Inicio. En la cronología del proyecto, esta tarea está programada para iniciarse inmediatamente después de que finalice la tarea 1. A pesar de esto, aún puede marcarse como En curso o Completado.
 * **1 -** el número de tarea predecesora es 1. Es igual que **1fs**, porque **fs** es la relación de predecesora predeterminada en Workfront.
 
-* **1fse -** el número de tarea predecesora es 1. El tipo de dependencia es Finalizar-Iniciar-Forzado. En la línea de tiempo del proyecto, esta tarea se muestra como si comenzara inmediatamente después de que finalice la tarea 1. Workfront no permite que se marque como En curso o Completado hasta que se complete la tarea 1. Sin embargo, Workfront permite que se informe de las horas de la tarea.
-* **1fs+3d -** el número de tarea predecesora es 1. El tipo de dependencia es Finalizar-Iniciar con un tiempo de retraso de 3 días. En la línea de tiempo del proyecto, esta tarea se muestra como el inicio de 3 días hábiles después de que finalice la tarea 1.
-* **1fs-3d -** el número de tarea predecesora es 1. El tipo de dependencia es Finalizar-Iniciar con un tiempo de retraso de 3 días. En la línea de tiempo del proyecto, esta tarea se muestra como el inicio de 3 días laborables antes de que finalice la tarea predecesora.
-* **1fs+3de**: el número de tarea predecesora es 1. El tipo de dependencia es Finalizar-Iniciar-Forzado con un tiempo de retraso de 3 días. En la línea de tiempo del proyecto, esta tarea se muestra como el inicio de 3 días hábiles después de que finalice la tarea 1. Workfront no permite que se marque como En curso o Completado hasta que se complete la tarea 1. Sin embargo, Workfront permite que se informe de las horas de la tarea.
+* **1fse -** el número de tarea predecesora es 1. El tipo de dependencia es Finalizar-Iniciar-Forzado. En la cronología del proyecto, esta tarea se muestra como si comenzara inmediatamente después de que finalice la tarea 1. Workfront no permite que se marque como En curso o Completado hasta que se complete la tarea 1. Sin embargo, Workfront permite que se informe de las horas de la tarea.
+* **1fs+3d -** el número de tarea predecesora es 1. El tipo de dependencia es Finalizar-Iniciar con un tiempo de retraso de 3 días. En la cronología del proyecto, esta tarea se muestra como el inicio de 3 días hábiles después de que finalice la tarea 1.
+* **1fs-3d -** el número de tarea predecesora es 1. El tipo de dependencia es Finalizar-Iniciar con un tiempo de retraso de 3 días. En la cronología del proyecto, esta tarea se muestra como el inicio de 3 días laborables antes de que finalice la tarea predecesora.
+* **1fs+3de**: el número de tarea predecesora es 1. El tipo de dependencia es Finalizar-Iniciar-Forzado con un tiempo de retraso de 3 días. En la cronología del proyecto, esta tarea se muestra como el inicio de 3 días hábiles después de que finalice la tarea 1. Workfront no permite que se marque como En curso o Completado hasta que se complete la tarea 1. Sin embargo, Workfront permite que se informe de las horas de la tarea.
 
   >[!NOTE]
   >
@@ -140,4 +140,4 @@ Puede ver la información de tareas predecesoras en las siguientes áreas de Wor
 
 * En el encabezado de la tarea al acceder a la tarea.
 
-  ![](assets/qs-predecessor-info-in-task-header-350x141.png)
+  ![Información de predecesora en el encabezado de la tarea](assets/qs-predecessor-info-in-task-header-350x141.png)

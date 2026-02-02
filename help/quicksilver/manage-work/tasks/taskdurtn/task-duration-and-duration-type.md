@@ -8,10 +8,10 @@ author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: c81e485a-7e8c-4907-8e6c-9991681c3541
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '1653'
-ht-degree: 64%
+source-wordcount: '1658'
+ht-degree: 63%
 
 ---
 
@@ -99,7 +99,7 @@ Si desea indicar que la duración de una tarea es de 3 días transcurridos, debe
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: stays QS only forever; for the pictures below: make the first one classic at preview time and the second one stays QS always. The second one is yellow >> take out at 21.2 production!!)</p>
 -->
 
-![](assets/duration-elapsed-days-tasks-nwe-350x282.png)
+![Duración de días transcurridos en tareas](assets/duration-elapsed-days-tasks-nwe-350x282.png)
 
 Tenga en cuenta lo siguiente al indicar la duración de una tarea:
 

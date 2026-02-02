@@ -6,10 +6,10 @@ description: El modo de seguimiento de una tarea determina cómo se actualiza el
 author: Alina
 feature: Work Management
 exl-id: 751071b4-3716-4153-97fe-4fe0ebc7cbb0
-source-git-commit: 87bf2a4485d3b0c29fcfe8e00dcca57874cdec04
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '194'
-ht-degree: 79%
+source-wordcount: '207'
+ht-degree: 75%
 
 ---
 
@@ -30,7 +30,7 @@ Para obtener más información sobre el modo de seguimiento de las tareas, consu
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
@@ -87,13 +87,13 @@ Para obtener más información sobre el modo de seguimiento de las tareas, consu
 ## Establecer el modo de seguimiento para las tareas
 
 1. Vaya a la tarea para la que desee establecer el modo de seguimiento.
-1. Haga clic en el icono **Más** ![](assets/qs-more-icon-on-an-object.png)junto al nombre de la tarea y, a continuación, haga clic en **Editar**.
+1. Haga clic en el icono **Más** ![Más sobre un objeto](assets/qs-more-icon-on-an-object.png)junto al nombre de la tarea y, a continuación, haga clic en **Editar**.
 
    Se abrirá el cuadro de diálogo Editar tarea.
 
 1. En la sección **Configuración**, use el menú desplegable **Modo de seguimiento** para seleccionar el Modo de seguimiento para la tarea.
 
-   ![](assets/tracking-mode-field-in-edit-task-settings-nwe-350x233.png)
+   ![Campo de modo de seguimiento en la sección Editar configuración de tarea](assets/tracking-mode-field-in-edit-task-settings-nwe-350x233.png)
 
 1. Seleccione entre las siguientes opciones:
 

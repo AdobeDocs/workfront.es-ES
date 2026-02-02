@@ -6,10 +6,10 @@ description: El coste planificado y real de las tareas y sus costes de mano de o
 author: Alina
 feature: Work Management
 exl-id: bc30ecab-7347-4dff-8e06-e8ea3f50d5b3
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '216'
-ht-degree: 91%
+source-wordcount: '223'
+ht-degree: 88%
 
 ---
 
@@ -84,7 +84,7 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 1. Haga clic en **Detalles de la tarea** en el panel izquierdo y, a continuación, expanda el área de **Finanzas**.
 1. Haga doble clic en **Tipo de coste** y seleccione el tipo de coste que desea aplicar a la tarea.
 
-   ![](assets/task-cost-type-options-in-tasks-details-nwe-350x233.png)
+   ![Opciones de tipo de costo de tarea en Detalles de tarea](assets/task-cost-type-options-in-tasks-details-nwe-350x233.png)
 
    Seleccione entre las siguientes opciones:
 

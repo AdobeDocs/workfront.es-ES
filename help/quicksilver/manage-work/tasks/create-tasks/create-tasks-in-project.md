@@ -7,10 +7,10 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 96f80e7b-6ad5-40ae-861d-8d97c570f2ac
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '1021'
-ht-degree: 57%
+source-wordcount: '1061'
+ht-degree: 53%
 
 ---
 
@@ -116,8 +116,8 @@ Para crear tareas en un proyecto:
 
 1. Vaya al proyecto donde desea crear una tarea.
 1. Haga clic en **Tareas** en el panel izquierdo.
-1. (Condicional) Si está viendo la lista de tareas en una vista de Agile, haga clic en el icono **Vista de lista** ![](assets/list-view-in-agile-view-for-tasks.png) en la esquina superior derecha para mostrar la lista de tareas.
-1. (Opcional) Haga clic en el icono **Modo de planificación** ![](assets/nwe-plan-mode-icon-task-list.png) y seleccione **Guardar de forma manual**; a continuación, seleccione **Estándar** o **Planificación de la cronología**. Esto deshabilita la opción **Guardar automáticamente**, que está habilitada de manera predeterminada.
+1. (Condicional) Si está viendo la lista de tareas en una vista de Agile, haga clic en el icono **Vista de lista** ![Vista de lista en la vista de Agile para tareas](assets/list-view-in-agile-view-for-tasks.png) en la esquina superior derecha para mostrar la lista de tareas.
+1. (Opcional) Haga clic en el icono **Modo de plan** ![Icono de modo de plan para la lista de tareas](assets/nwe-plan-mode-icon-task-list.png) y seleccione **Guardar de forma manual**; a continuación, seleccione **Estándar** o **Planificación de cronología**. Esto deshabilita la opción **Guardar automáticamente**, que está habilitada de manera predeterminada.
 
    ![Seleccione Guardar de forma manual](assets/manual-save-option.png)
 
@@ -130,7 +130,7 @@ Para crear tareas en un proyecto:
    * Haga clic en **Nueva tarea** en la parte superior de la lista de tareas.
    * Haga clic en **Agregar más tareas** en la parte inferior de la lista de tareas.
 
-   ![](assets/qs-new-task-or-add-task-buttons-in-list-highlighted-350x242.png)
+   ![Nueva tarea o botón Agregar tarea en una lista resaltada](assets/qs-new-task-or-add-task-buttons-in-list-highlighted-350x242.png)
 
 1. (Condicional) Si hizo clic en **Nueva tarea**, haga lo siguiente:
 
@@ -140,11 +140,11 @@ Para crear tareas en un proyecto:
 
       Para actualizar todos los campos de la tarea, haga clic en **Más opciones** para abrir el cuadro **Crear tarea**.
 
-      ![](assets/nwe-create-task-small-screen-350x272.png)
+      ![Crear cuadro pequeño de tarea](assets/nwe-create-task-small-screen-350x272.png)
 
       Se abre el cuadro **Crear tarea**.
 
-      ![](assets/create-task-larger-box-nwe-350x244.png)
+      ![Crear cuadro grande de tarea](assets/create-task-larger-box-nwe-350x244.png)
 
 
       >[!NOTE]
@@ -173,7 +173,7 @@ Para crear tareas en un proyecto:
 
    Se recomienda utilizar esta opción, especialmente cuando se agregan varias tareas a la lista.
 
-   ![](assets/add-more-tasks-inline.png)
+   ![Agregar más tareas en línea](assets/add-more-tasks-inline.png)
 
 1. (Condicional) Realice una de las siguientes acciones:
 
@@ -213,11 +213,11 @@ Para crear tareas en un proyecto:
 
    Para obtener más información, vea [Filtro: tareas personales](/help/quicksilver/reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-personal-tasks.md).
 
-   ![](assets/personal-tasks-report.png)
+   ![Informe de tareas personales](assets/personal-tasks-report.png)
 1. Haga clic en el nombre de una tarea en el informe de tareas personales para abrirla.
 
    Workfront guarda las tareas personales en un proyecto personal no enumerado al que siempre se le asigna un nombre según este patrón: Tareas de &quot;&lt; Nombre completo del usuario >. Por ejemplo, un proyecto personal podría llamarse &quot;Tareas de Rick&quot;.
 
-1. En la página de tareas, haga clic en el **menú Más** ![](assets/more-icon.png) y, a continuación, haga clic en **Mover**. Para obtener más información sobre cómo mover tareas, vea [Mover tareas](/help/quicksilver/manage-work/tasks/manage-tasks/move-tasks.md).
+1. En la página de tareas, haga clic en el **menú Más** ![icono Más](assets/more-icon.png) y, a continuación, haga clic en **Mover**. Para obtener más información sobre cómo mover tareas, vea [Mover tareas](/help/quicksilver/manage-work/tasks/manage-tasks/move-tasks.md).
 
    Cuando termine de mover la tarea, la tarea se mostrará en el proyecto seleccionado. La escala de tiempo del proyecto puede verse afectada por la escala de tiempo de la nueva tarea.

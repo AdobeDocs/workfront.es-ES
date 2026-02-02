@@ -7,10 +7,10 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: dbde5419-02ce-456b-a430-b2825d81fb87
-source-git-commit: c1b8af0d8a95714bb597db7a429794773358cf05
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '875'
-ht-degree: 99%
+source-wordcount: '890'
+ht-degree: 97%
 
 ---
 
@@ -31,7 +31,7 @@ Para obtener información general acerca de tareas recurrentes, incluido el impa
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
@@ -97,7 +97,7 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 
    Aparece el cuadro de diálogo Nueva tarea.
 
-   ![](assets/nwe-create-task-small-screen-350x272.png)
+   ![Crear pantalla pequeña de tarea](assets/nwe-create-task-small-screen-350x272.png)
 
 1. Haga clic en **Más opciones** y, a continuación, escriba un nombre para la tarea en el campo **Nombre de la tarea**.
 1. Continúe actualizando la tarea del mismo modo que lo haría si añadiera una tarea nueva. Para obtener más información sobre cómo añadir una tarea nueva, consulte [Crear tareas en un proyecto](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md).
@@ -109,7 +109,7 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 1. Haga clic en **Información general** en el panel izquierdo.
 1. Desplácese hacia abajo hasta la sección **Programación de periodicidad** y, a continuación, seleccione la opción **Convertir en tarea recurrente**.
 
-   ![](assets/recurrence-schedule-section-new-recurring-tasks-nwe-350x351.png)
+   ![Tareas recurrentes nuevas de la selección de programación de periodicidad](assets/recurrence-schedule-section-new-recurring-tasks-nwe-350x351.png)
 
 1. En la lista desplegable **Frecuencia**, seleccione el número de unidades de tiempo en que desea que se realice la tarea y el tipo de unidades de tiempo. Seleccione entre las siguientes opciones:
 
@@ -163,7 +163,7 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 
    Para obtener más información sobre los campos que se rellenan automáticamente a partir de la tarea principal recurrente, consulte [Información general sobre las tareas recurrentes](../../../manage-work/tasks/manage-tasks/recurring-tasks-overview.md).
 
-   ![](assets/recurring-tasks-in-task-list-nwe-350x87.png)
+   ![Tareas recurrentes en la lista de tareas](assets/recurring-tasks-in-task-list-nwe-350x87.png)
 
 1. (Opcional) Modifique cada tarea recurrente como lo haría con cualquier otra tarea del proyecto.
 

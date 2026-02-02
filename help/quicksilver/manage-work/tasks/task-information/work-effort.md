@@ -7,10 +7,10 @@ description: Información general de esfuerzo laboral
 author: Alina
 feature: Work Management
 exl-id: 70f51e4b-43cc-427a-99e4-ebb056bb1070
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '1474'
-ht-degree: 99%
+source-wordcount: '1488'
+ht-degree: 97%
 
 ---
 
@@ -66,7 +66,7 @@ Este artículo describe qué es el esfuerzo laboral y cómo debe utilizarlo al e
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
@@ -130,15 +130,15 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 
 ## Habilitar mediante esfuerzo laboral en lugar de horas planificadas
 
-1. Vaya a un proyecto y haga clic en el menú **Más** ![](assets/more-icon.png), y después haga clic en **Editar**.
+1. Vaya a un proyecto y haga clic en el menú **Más** ![Icono de más](assets/more-icon.png); a continuación, haga clic en **Editar**.
 1. Haga clic en **Configuración de la tarea** y, a continuación, seleccione la opción **Usar esfuerzo laboral para calcular automáticamente las horas planificadas para la tarea**. Esta opción está desactivada de forma predeterminada.
 
-   ![](assets/nwe-work-effort-on-projects-350x182.png)
+   ![Trabajo en proyectos](assets/nwe-work-effort-on-projects-350x182.png)
 
    Para obtener más información sobre cómo habilitar el uso del esfuerzo laboral en un proyecto, consulte la sección &quot;Configuración de tareas&quot; en el artículo [Editar proyectos](../../../manage-work/projects/manage-projects/edit-projects.md).
 
 1. Haga clic en **Tareas** en el panel izquierdo y luego haga clic en el nombre de una tarea para acceder a ella.
-1. Haga clic en el menú **Más** ![](assets/more-icon.png) y luego haga clic en **Editar**. Asegúrese de que la tarea tenga un Tipo de duración simple.
+1. Haga clic en el icono **Más** del menú ![Más](assets/more-icon.png) y luego haga clic en **Editar**. Asegúrese de que la tarea tenga un Tipo de duración simple.
 
    >[!TIP]
    >
@@ -146,7 +146,7 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 
 1. En el área **Información general**, haga clic en el menú desplegable Esfuerzo laboral para corregir la cantidad de esfuerzo necesario para completar la tarea.
 
-   ![](assets/work-effort-on-edit-task-page-350x239.png)
+   ![Trabaje en la página Editar tarea](assets/work-effort-on-edit-task-page-350x239.png)
 
    Para obtener más información sobre cómo actualizar el campo Esfuerzo laboral en una tarea, consulte los siguientes artículos:
 

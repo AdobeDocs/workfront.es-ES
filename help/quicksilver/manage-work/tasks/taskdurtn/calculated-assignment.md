@@ -7,10 +7,10 @@ description: La asignación calculada es un tipo de duración que puede establec
 author: Alina
 feature: Work Management
 exl-id: 5f1f6109-5d54-4c3f-9aa5-dc6ce165a1cd
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '481'
-ht-degree: 82%
+source-wordcount: '485'
+ht-degree: 81%
 
 ---
 
@@ -46,7 +46,7 @@ Planned Hours / Duration / Number of Resources = Allocation Percentage for each 
 
 Por ejemplo, en el escenario que se describe a continuación, cada tarea tiene una Duración de 3 días. El gestor del proyecto introduce manualmente tanto la Duración (3 días o 24 horas) como las Horas Planificadas, y como resultado, se calcula el porcentaje de asignación (o porcentaje de tarea asignada):
 
-![](assets/calcassign-350x80.png)
+![Tipo de duración de asignación calculada](assets/calcassign-350x80.png)
 
 ## Cambiar el tipo de duración de una tarea a Asignación calculada
 

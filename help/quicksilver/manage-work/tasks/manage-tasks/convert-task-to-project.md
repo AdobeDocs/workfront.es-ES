@@ -6,10 +6,10 @@ description: Cuando una tarea de un proyecto requiere un esfuerzo mayor en compl
 author: Alina
 feature: Work Management
 exl-id: a45f0af4-1768-4f20-80d4-912e6fe0fc03
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '1142'
-ht-degree: 82%
+source-wordcount: '1152'
+ht-degree: 80%
 
 ---
 
@@ -189,7 +189,7 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
     <td> <p>Transferencias desde la sección Acceso en la plantilla. </p> </td> 
     </tr> 
     <tr> 
-    <td>Rutas de aprobación</td> 
+    <td>Aprobaciones</td> 
     <td>Transferencia desde la plantilla. Las aprobaciones asociadas con la tarea se eliminan durante la conversión. </td> 
     </tr> 
   </tbody> 
@@ -199,13 +199,13 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 ## Convertir una tarea en un proyecto
 
 1. Vaya a la tarea que desea convertir en proyecto.
-1. Haga clic en el icono **Más** ![](assets/more-icon.png) y, a continuación, en **Convertir en un proyecto**.
+1. Haga clic en el icono **Más** ![Icono de más](assets/more-icon.png) y, a continuación, **Convertir a proyecto**.
 1. Elija alguna de las siguientes opciones:
 
    * **Nuevo proyecto**, para crear un proyecto sin usar una plantilla
    * Una plantilla en la sección **Seleccionar desde plantillas**
 
-     ![](assets/convert-task-to-project-template-option-dropdown-nwe-350x209.png)
+     ![Menú desplegable de opciones Convertir tarea en plantilla de proyecto](assets/convert-task-to-project-template-option-dropdown-nwe-350x209.png)
 
 1. Haga clic en **Continuar** en la notificación que aparece.
 1. En el cuadro **Convertir en proyecto**, especifique lo siguiente:

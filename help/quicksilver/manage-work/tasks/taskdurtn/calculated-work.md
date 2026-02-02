@@ -7,10 +7,10 @@ description: Trabajo calculado es un tipo de duración que puede establecer para
 author: Alina
 feature: Work Management
 exl-id: f521c2f5-8d58-44c0-af18-6940ad0950ea
-source-git-commit: c1b8af0d8a95714bb597db7a429794773358cf05
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '564'
-ht-degree: 93%
+source-wordcount: '568'
+ht-degree: 92%
 
 ---
 
@@ -80,7 +80,7 @@ En el ejemplo siguiente, el valor de Horas habituales por día laborable se esta
 
 En este caso, cada asignado se asigna al 100 % a la tarea Trabajo calculado.
 
-![](assets/calcwork-350x71.png)
+![Tipo de duración de trabajo calculada](assets/calcwork-350x71.png)
 
 ## Cambiar el tipo de duración de una tarea a Trabajo calculado
 

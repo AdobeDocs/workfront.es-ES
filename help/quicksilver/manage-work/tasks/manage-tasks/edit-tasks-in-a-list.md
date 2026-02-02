@@ -6,10 +6,10 @@ description: Puede editar la información de las tareas en una lista de tareas e
 author: Alina
 feature: Work Management
 exl-id: 2af81907-3657-459e-b780-65983e224ca8
-source-git-commit: b1d5122dd66d84a0e2a21f24eeb01fd3298374ad
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '3236'
-ht-degree: 58%
+source-wordcount: '3254'
+ht-degree: 57%
 
 ---
 
@@ -179,7 +179,7 @@ Para editar tareas en una lista y guardar cambios automáticamente:
 
    O
 
-   Haga clic en el menú **Más** ![](assets/more-icon-task-list.png) a la derecha del nombre de la tarea.
+   Haga clic en el icono **Más** del menú ![Más en la lista de tareas](assets/more-icon-task-list.png) a la derecha del nombre de la tarea.
 
 1. (Opcional) Seleccione entre las siguientes opciones:
 
@@ -299,7 +299,7 @@ Para editar tareas de una lista al seleccionar la opción estándar Guardar de f
 
    O
 
-   Haga clic en el menú **Más**![](assets/more-icon-task-list.png).
+   Haga clic en el icono de **Más** menú ![Modo en la lista de tareas](assets/more-icon-task-list.png).
 
 1. (Opcional) Seleccione entre las siguientes opciones:
 
@@ -407,7 +407,7 @@ Para editar tareas en una lista al utilizar la opción Guardar planificación de
 
    O
 
-   Haga clic en el menú **Más** ![](assets/more-icon-task-list.png).
+   Haga clic en el icono **Más** del menú ![Más en la lista de tareas](assets/more-icon-task-list.png).
 
 1. Seleccione entre las siguientes opciones:
 

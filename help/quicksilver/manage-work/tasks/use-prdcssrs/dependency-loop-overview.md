@@ -7,10 +7,10 @@ description: Al añadir relaciones de predecesoras a las tareas, puede encontrar
 author: Alina
 feature: Work Management
 exl-id: 142e9637-841c-43d1-b297-e42c28a9e010
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '253'
-ht-degree: 70%
+source-wordcount: '262'
+ht-degree: 67%
 
 ---
 
@@ -26,9 +26,9 @@ Los bucles de dependencia se producen cuando tiene dos o más tareas que depende
 
 Si intenta hacer que la Tarea 1 sea la predecesora de la Tarea 2, se producirá un error de bucle de dependencia porque no podrá iniciar la Tarea 1 hasta que se haya completado la Tarea 2, pero la Tarea 2 no podrá iniciarse hasta que finalice la Tarea 1.
 
-![](assets/dependency-loop-error-message-350x209.png)
+![Mensaje de error de bucle de dependencia](assets/dependency-loop-error-message-350x209.png)
 
-![](assets/dependency-loop-in-task-list-nwe-350x97.png)
+![Bucle de dependencia en la lista de tareas](assets/dependency-loop-in-task-list-nwe-350x97.png)
 
 ## Consideraciones sobre los bucles de dependencia
 

@@ -7,10 +7,10 @@ author: Lisa
 feature: Work Management, Tasks, Resource Management
 role: User
 exl-id: 04f7761f-da94-4858-85c5-8dc97bd78bee
-source-git-commit: b1d5122dd66d84a0e2a21f24eeb01fd3298374ad
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '1551'
-ht-degree: 77%
+source-wordcount: '1553'
+ht-degree: 76%
 
 ---
 
@@ -125,7 +125,7 @@ When assigning users to work, their availability according to their schedules af
    >
    >No use el campo **Asignado a**. Solo encontrará el propietario principal de la tarea en lugar de cualquiera de los usuarios que se les pudieran asignar.
 
-1. Seleccione las tareas para las que desea modificar las asignaciones y, a continuación, haga clic en el icono de **Editar** ![](assets/edit-icon.png).
+1. Seleccione las tareas para las que desea modificar las asignaciones y, a continuación, haga clic en el icono **Editar** ![Editar icono](assets/edit-icon.png).
 
    La edición de asignaciones en tareas difiere según el entorno que elija.
 

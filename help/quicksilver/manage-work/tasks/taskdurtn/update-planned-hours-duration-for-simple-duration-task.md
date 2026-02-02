@@ -6,10 +6,10 @@ description: De forma predeterminada, Adobe Workfront calcula la duración de un
 author: Alina
 feature: Work Management
 exl-id: 47a9b095-2b7d-4ed0-8cb6-e6bd5e37ce9c
-source-git-commit: c1b8af0d8a95714bb597db7a429794773358cf05
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '439'
-ht-degree: 12%
+source-wordcount: '450'
+ht-degree: 13%
 
 ---
 
@@ -32,7 +32,7 @@ En este artículo se describe cómo actualizar las horas y la duración planific
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
@@ -91,13 +91,13 @@ Para editar las horas planificadas y la duración de una tarea con un tipo de du
 1. En una lista de tareas, haga clic en el nombre de la tarea para la que desea cambiar el tipo de duración.
 1. Realice una de las siguientes acciones:
 
-   * Haga clic en el icono **Más** ![](assets/qs-more-icon-on-an-object.png) junto al nombre de la tarea, haga clic en **Editar** y luego en **Asignaciones**.
+   * Haga clic en el icono **Más** ![Más en un objeto](assets/qs-more-icon-on-an-object.png) junto al nombre de la tarea, haga clic en **Editar** y, a continuación, en **Asignaciones**.
    * Haga clic en **Asignado a** o en el nombre de las asignaciones en el área Asignaciones del encabezado de la tarea y, a continuación, haga clic en **Avanzado**.
 
 1. Escriba un valor total de **Horas planificadas** para todas las asignaciones, por ejemplo, 10 horas. El número total de horas planificadas se distribuye equitativamente entre todos los recursos asignados a la tarea.
 1. (Opcional) Ajuste manualmente las horas planificadas de cada recurso asignado a la tarea. El número total de horas planificadas para la tarea se actualiza para reflejar las nuevas horas asignadas individualmente a los recursos.
 1. Escriba un valor para la tarea **Duration**, por ejemplo 2 días.
 
-   ![](assets/advanced-assignments-simple-duration-multiple-resources-nwe-350x198.png)
+   ![Asignaciones avanzadas de duración simple con varios recursos](assets/advanced-assignments-simple-duration-multiple-resources-nwe-350x198.png)
 
 1. Haga clic en **Guardar**.

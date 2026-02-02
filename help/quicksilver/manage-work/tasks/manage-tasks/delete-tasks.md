@@ -6,9 +6,9 @@ description: Puede eliminar tareas que puedan ser duplicadas o que se hayan crea
 author: Alina
 feature: Work Management
 exl-id: aee5c293-e5fa-413e-9d9b-c62528941be7
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '782'
+source-wordcount: '790'
 ht-degree: 23%
 
 ---
@@ -109,7 +109,7 @@ Tenga en cuenta lo siguiente:
    * Problemas
    * Subtareas
    * Notas
-   * Rutas de aprobación
+   * Aprobaciones
 
 * Según la forma en que el administrador de Workfront configure las preferencias de eliminación de proyectos, tareas o problemas en las preferencias de plantilla de horas y horas de la instancia de Workfront, las horas registradas para las tareas se gestionan de una de las siguientes maneras al eliminar una tarea:
 
@@ -174,9 +174,9 @@ Tenga en cuenta lo siguiente:
 1. Haga clic en el nombre del proyecto que contiene la tarea que desea eliminar.
 1. Haga clic en **Tareas** en el panel izquierdo.
 1. Haga clic en el nombre de la tarea que desee eliminar.
-1. Haga clic en el icono **Más** ![](assets/qs-more-menu.png)en la esquina superior derecha.
+1. Haga clic en el icono **Más** ![Menú más](assets/qs-more-menu.png)en la esquina superior derecha.
 
-   ![](assets/delete-tasks-task-level-nwe-350x225.png)
+   ![Eliminar tareas en el nivel de tarea](assets/delete-tasks-task-level-nwe-350x225.png)
 
 1. Haga clic en **Eliminar tarea**.
 1. Si la eliminación está permitida, haga clic en **Eliminar**.

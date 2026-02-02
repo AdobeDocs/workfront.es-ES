@@ -7,10 +7,10 @@ description: El valor de porcentaje completado de un proyecto se calcula en func
 author: Alina
 feature: Work Management
 exl-id: d2395569-9fe5-42e7-a392-cff49eb519d9
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '778'
-ht-degree: 99%
+source-wordcount: '819'
+ht-degree: 94%
 
 ---
 
@@ -54,13 +54,13 @@ Considere los siguientes escenarios:
 
   El total de horas planificadas de la tarea principal representa la suma de todas las horas planificadas de cada una de las tareas secundarias.
 
-  ![](assets/project-with-tasks-percent-complete-planned-hours-calculation.png)
+  ![Proyecto con tareas por ciento completadas y horas planificadas](assets/project-with-tasks-percent-complete-planned-hours-calculation.png)
 
 * Si el sistema calcula el porcentaje completado en función de la duración, el porcentaje completado de la tarea principal se calcula mediante la siguiente fórmula:
 
   `Parent Task Percent Complete = (((Task 1 Duration * Task 1 Percent Complete) + (Task 2 Duration * Task 2 Percent Complete))/ Total Duration of Parent)*100`
 
-  ![](assets/project-with-tasks-percent-complete-duration-calculation.png)
+  ![Proyecto con cálculo de porcentaje completado y duración de tareas](assets/project-with-tasks-percent-complete-duration-calculation.png)
 
   >[!IMPORTANT]
   >
@@ -77,7 +77,7 @@ Según lo que haya seleccionado el administrador de Workfront o del grupo en las
 
   El total de horas planificadas del proyecto es la suma de las horas planificadas de todas las tareas principales del proyecto.
 
-  ![](assets/project-with-tasks-percent-complete-planned-hours-calculation.png)
+  ![Proyecto con cálculo de horas planificadas y porcentaje completado de tareas](assets/project-with-tasks-percent-complete-planned-hours-calculation.png)
 
   >[!NOTE]
   >
@@ -91,7 +91,7 @@ Según lo que haya seleccionado el administrador de Workfront o del grupo en las
   >
   >La duración del proyecto es el total de todas las duraciones de las tareas principales que muestran un porcentaje completado. Por ejemplo, un proyecto con una tarea independiente con una Duración de 2 días y una tarea principal con una Duración de 5 días en los que se haya completado el trabajo tendrá una Duración total de 7 días, incluso si las dos tareas pueden comenzar el mismo día.
 
-  ![](assets/project-with-tasks-percent-complete-duration-calculation.png)
+  ![Proyecto con cálculo de porcentaje completado y duración de tareas](assets/project-with-tasks-percent-complete-duration-calculation.png)
 
   >[!NOTE]
   >
@@ -101,7 +101,7 @@ Según lo que haya seleccionado el administrador de Workfront o del grupo en las
 
 Cuando utilice la Duración de las tareas para calcular el porcentaje completado de un proyecto, tenga en cuenta el siguiente ejemplo:
 
-![](assets/project-with-tasks-percent-complete-duration-calculation.png)
+![Proyecto con cálculo de porcentaje completado y duración de tareas](assets/project-with-tasks-percent-complete-duration-calculation.png)
 
 La siguiente información se utiliza para calcular el porcentaje completado del proyecto
 

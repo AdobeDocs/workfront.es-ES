@@ -6,10 +6,10 @@ description: A veces, puede haber conflictos entre las programaciones de tareas 
 author: Alina
 feature: Work Management
 exl-id: 6695448c-76ce-460c-aa59-63a3d5e2e18d
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '386'
-ht-degree: 91%
+source-wordcount: '391'
+ht-degree: 90%
 
 ---
 
@@ -85,7 +85,7 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 
 1. Haga clic en **Configuración**.
 
-   ![](assets/leveling-delay-edit-task-nwe-350x345.png)
+   ![Retraso de nivelación al editar la tarea](assets/leveling-delay-edit-task-nwe-350x345.png)
 
 1. Especifique el **Retraso de distribución**, en horas, y después elija una unidad de tiempo.\
    Es el tiempo que el recurso tardará en iniciar la tarea debido a conflictos de recursos.

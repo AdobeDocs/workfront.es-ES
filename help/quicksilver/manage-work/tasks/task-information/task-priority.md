@@ -7,10 +7,10 @@ description: Puede definir una prioridad para una tarea para indicar su importan
 author: Alina
 feature: Work Management
 exl-id: 653b62fe-6195-4288-ac05-f89e4a6113fd
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '275'
-ht-degree: 98%
+source-wordcount: '277'
+ht-degree: 93%
 
 ---
 
@@ -27,7 +27,7 @@ Puede definir una prioridad para una tarea para indicar su importancia.
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
@@ -102,5 +102,5 @@ Tenga en cuenta lo siguiente al utilizar las prioridades de tarea:
 
 1. Vaya a la tarea cuya prioridad desee modificar.
 1. Haga clic en **Detalles de tarea** en el panel de la izquierda.
-1. Haga clic en el icono **Editar** ![](assets/qs-edit-icon.png) y luego, en el área **Información general**, seleccione un valor para el campo **Prioridad**.
+1. Haga clic en el icono **Editar** ![Editar icono](assets/qs-edit-icon.png) y luego, en el área **Información general**, seleccione un valor para el campo **Prioridad**.
 1. Haga clic en **Guardar** **cambios**.

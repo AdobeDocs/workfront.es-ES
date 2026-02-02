@@ -6,10 +6,10 @@ description: Las restricciones de tarea determinan cuándo debe comenzar y final
 author: Alina
 feature: Work Management
 exl-id: 54b54892-f8b3-4704-8221-03bbb9f07917
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '298'
-ht-degree: 97%
+source-wordcount: '304'
+ht-degree: 95%
 
 ---
 
@@ -80,7 +80,7 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 1. Haga clic en la sección **Tareas** en el panel izquierdo.
 1. Haga clic en **Detalles de la tarea** en el panel izquierdo y, a continuación, en el área Información general, haga clic en **Restricción de tarea**.
 
-   ![](assets/task-constraint-all-options-in-overview-350x254.png)
+   ![Restricción de tarea en todas las opciones de Información general](assets/task-constraint-all-options-in-overview-350x254.png)
 
 1. Seleccione entre las siguientes opciones
 

@@ -6,10 +6,10 @@ description: Puede ver o editar la información financiera de una tarea accedien
 author: Alina
 feature: Work Management
 exl-id: 54ae48e5-bc8c-4e90-8fa1-0015523df4e6
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '830'
-ht-degree: 87%
+source-wordcount: '838'
+ht-degree: 84%
 
 ---
 
@@ -92,7 +92,7 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 1. Haga clic en **Detalles de la tarea**.
 1. (Opcional) Haga clic en el icono **Contraer todo** en la parte superior derecha de la página Detalles de la tarea.
 
-   ![](assets/collapse-all-icon-on-details-page.png)
+   ![Contraer todos los iconos en la página de detalles](assets/collapse-all-icon-on-details-page.png)
 
    >[!NOTE]
    >
@@ -100,7 +100,7 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 
 1. Haga clic en **Finanzas** para expandir y ver la información financiera de la tarea.
 
-   Haga clic en el icono **Editar** ![](assets/edit-icon.png) en la esquina superior derecha de la sección Detalles y, a continuación, haga clic en **Finanzas**.
+   Haga clic en el icono **Editar** ![Editar icono](assets/edit-icon.png) en la esquina superior derecha de la sección Detalles y, a continuación, haga clic en **Finanzas**.
 
 1. Edite cualquier campo que esté disponible para la edición haciendo clic en el campo o haga clic en **+Añadir** para añadir información a un campo vacío.
 1. Revise o edite la siguiente información en el área **Finanzas**:
@@ -166,4 +166,4 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
     </tbody> 
    </table>
 
-1. (Condicional) Si está editando los campos en la sección Finanzas, haga clic en **Guardar**&#x200B;**Cambios**.
+1. (Condicional) Si está editando los campos en la sección Finanzas, haga clic en **Guardar****Cambios**.

@@ -6,10 +6,10 @@ description: En Adobe Workfront, las tareas pueden tener relaciones principal-se
 author: Alina
 feature: Work Management
 exl-id: 3d970794-b5ea-422f-bc92-51846cb7db35
-source-git-commit: ac24b2486b9fc5a0b8c2944a6ec240140238b908
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '572'
-ht-degree: 73%
+source-wordcount: '578'
+ht-degree: 66%
 
 ---
 
@@ -28,7 +28,7 @@ En Adobe Workfront, las tareas pueden tener relaciones principal-secundario. Las
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
@@ -96,12 +96,12 @@ Puede crear subtareas desde la lista de tareas o desde la sección de subtareas 
 1. (Condicional) Si la tarea que desea convertir en la tarea secundaria no se encuentra ya directamente debajo de la tarea que desea convertir en la principal, arrástrela y suéltela en la ubicación adecuada en la lista de tareas.
 1. Seleccione la tarea que desea convertir en subtarea y realice una de las siguientes acciones:
 
-   * Haga clic en el icono **Sangría** ![](assets/indent-icon-nwe-33x29.png) para que la tarea seleccionada sea una subtarea de la tarea que hay directamente encima de ella.
+   * Haga clic en el icono **Sangrar** ![Icono de sangrar](assets/indent-icon-nwe-33x29.png) para que la tarea seleccionada sea una subtarea de la tarea directamente encima de ella.
    * Cuando utilice un teclado estándar inglés QWERTY, pulse Option + > (Mac) o Alt + > (Windows) en el teclado. Otros idiomas pueden utilizar los comandos Opción + , (Mac) o Alt + , (Windows) para aplicar sangría.
 
      >[!TIP]
      >
-     >Los métodos abreviados del teclado no funcionan cuando se editan tareas en la edición en línea. En este caso, utilice el icono Sangría ![](assets/indent-icon-nwe-33x29.png) para crear subtareas.
+     >Los métodos abreviados del teclado no funcionan cuando se editan tareas en la edición en línea. En este caso, use el icono Sangría ![Icono Sangría](assets/indent-icon-nwe-33x29.png) para crear subtareas.
 
    * Arrastre y suelte la tarea sobre la tarea que desea designar como la tarea principal.
 
@@ -132,7 +132,7 @@ Puede crear subtareas desde la lista de tareas o desde la sección de subtareas 
 1. Vaya al proyecto donde desea convertir una subtarea en una tarea principal.
 1. Haga clic en la sección **Tareas** en el panel izquierdo.
 1. Seleccione la subtarea que desea convertir en tarea principal.
-1. Haga clic en el icono **Anular sangría** ![](assets/outdent-icon-nwe-31x29.png) para que la subtarea sea una tarea principal.
+1. Haga clic en el icono **Anular sangría** ![Anular sangría](assets/outdent-icon-nwe-31x29.png) para que la subtarea sea una tarea principal.
 
    O
 

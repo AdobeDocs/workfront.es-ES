@@ -6,9 +6,9 @@ description: Además de utilizar los borradores disponibles que Workfront le sug
 author: Becky
 feature: Work Management
 exl-id: 664004e7-04c8-4a1f-b682-7b82d349643d
-source-git-commit: b58814d68d582a08457d1d4685d110c2bdd2087c
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '814'
+source-wordcount: '827'
 ht-degree: 16%
 
 ---
@@ -100,7 +100,7 @@ El procedimiento para crear solicitudes a partir de borradores difiere entre la 
 
    En esta lista se muestra un borrador para cada tema de cola de cada cola de solicitudes.
 
-   ![](assets/nwe-drafts-section-with-list-of-drafts-350x169.png)
+   ![Sección de borradores con lista de borradores](assets/nwe-drafts-section-with-list-of-drafts-350x169.png)
 
 1. (Opcional) Haga clic en un encabezado de columna para ordenar la lista por esa columna.
 
@@ -133,7 +133,7 @@ El procedimiento para crear solicitudes a partir de borradores difiere entre la 
 
      Haga clic en **Cerrar** si no estás listo para enviarlo y puede volver y terminarlo más adelante. La solicitud se guardará en la sección Borradores y estará disponible la próxima vez que envíe una solicitud para esta cola de solicitudes.
 
-     ![](assets/nwe-submit-close-discard-draft-buttons-on-new-request-350x340.png)
+     ![Botones Enviar, Cerrar y Descartar en una nueva solicitud](assets/nwe-submit-close-discard-draft-buttons-on-new-request-350x340.png)
 
      Al enviar la solicitud, el borrador se eliminará y no se podrá restaurar.
 

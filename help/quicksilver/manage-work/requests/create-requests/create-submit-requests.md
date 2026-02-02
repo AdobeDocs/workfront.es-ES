@@ -6,10 +6,10 @@ description: En Adobe Workfront, el trabajo planificado se representa mediante p
 author: Becky
 feature: Work Management
 exl-id: 8b023a3d-326d-4d63-9e1e-8171553a9e23
-source-git-commit: 2b4c13babecd3675f82699282c3dd42191c73df1
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '2532'
-ht-degree: 82%
+source-wordcount: '2575'
+ht-degree: 81%
 
 ---
 
@@ -158,7 +158,7 @@ Para crear una solicitud en la aplicación web de Workfront:
      >
      >Workfront guarda una ruta solo cuando realmente se le ha enviado una solicitud. No crea rutas para las solicitudes en borrador.
 
-     ![](assets/list-of-recent-paths-and-request-queues-when-entering-new-request-nwe-350x295.png)
+     ![Lista de rutas recientes y colas de solicitud al introducir una nueva solicitud](assets/list-of-recent-paths-and-request-queues-when-entering-new-request-nwe-350x295.png)
 
    * En la sección **Colas de solicitudes**, seleccione una cola de solicitudes.
    * Introduzca una palabra clave que pertenezca a una ruta a la que se haya accedido anteriormente para buscar una cola de solicitudes.
@@ -169,7 +169,7 @@ Para crear una solicitud en la aplicación web de Workfront:
      >
      >Cuando se escribe un nombre que contiene un carácter especial, la cola de solicitudes, el tema de la cola o el grupo de temas se muestran incluso cuando se omite escribir el carácter.
 
-     ![](assets/request-queue-search-findings-with-highlighted-results-350x210.png)
+     ![Solicitar resultados de búsqueda en cola con resultados resaltados](assets/request-queue-search-findings-with-highlighted-results-350x210.png)
 
      La lista de colas de solicitud disponibles y las rutas recientes se actualiza dinámicamente para incluir solo las rutas que contienen la palabra clave resaltada en los resultados.
 
@@ -206,7 +206,7 @@ Para crear una solicitud en la aplicación web de Workfront:
 
      Los tres borradores más recientes de tres temas de cola diferentes se muestran de forma predeterminada.
 
-     ![](assets/new-drafts-after-new-request-area-was-removed-350x162.png)
+     ![Nuevos borradores después de eliminar el área de solicitud](assets/new-drafts-after-new-request-area-was-removed-350x162.png)
 
    * Comience a introducir una nueva solicitud en la cola seleccionada.
 
@@ -219,7 +219,7 @@ Para crear una solicitud en la aplicación web de Workfront:
    >Al pasar el puntero por encima de un grupo de temas o un tema de la cola, el campo Descripción aparece a la derecha. Contiene información adicional sobre el grupo de temas o el tema de la cola.
    >
    >
-   >![](assets/show-description-on-queue-topic-when-submitting-request-nwe-350x81.png)
+   >![Mostrar descripción del tema de la cola al enviar la solicitud](assets/show-description-on-queue-topic-when-submitting-request-nwe-350x81.png)
    >
 
    Puede tener hasta 10 niveles de grupos de temas integrados en la cola de solicitudes.\
@@ -327,7 +327,7 @@ Para crear una solicitud en la aplicación web de Workfront:
 
      Haga clic en **Cerrar** si no estás listo para enviarlo y puede volver y terminarlo más adelante. La solicitud se guardará en la sección Borradores y estará disponible la próxima vez que envíe una solicitud para esta cola de solicitudes.
 
-     ![](assets/nwe-submit-close-discard-draft-buttons-on-new-request-350x340.png)
+     ![Enviar, cerrar, descartar botón de borrador en nueva solicitud](assets/nwe-submit-close-discard-draft-buttons-on-new-request-350x340.png)
 
    Al enviar la solicitud, el borrador se eliminará automáticamente y no se podrá restaurar.
 

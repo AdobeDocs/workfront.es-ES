@@ -7,10 +7,10 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 572c6008-3a67-47ae-8f5d-6b871ef1f37b
-source-git-commit: b1d5122dd66d84a0e2a21f24eeb01fd3298374ad
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '5369'
-ht-degree: 89%
+source-wordcount: '5428'
+ht-degree: 86%
 
 ---
 
@@ -162,7 +162,7 @@ Puede editar una tarea mediante las áreas Editar tarea o Detalles de la tarea. 
 1. Haga clic en la tarea que desee editar.
 1. (Condicional) Para editar información limitada sobre una tarea, haga clic en **Detalles de la tarea** en el panel izquierdo.
 
-   ![](assets/nwe-task-details-expanded-350x273.png)
+   ![Detalles de la tarea expandidos](assets/nwe-task-details-expanded-350x273.png)
 
    Considere la posibilidad de editar información en las siguientes áreas de la sección Detalles de la tarea:
 
@@ -184,15 +184,15 @@ Puede editar una tarea mediante las áreas Editar tarea o Detalles de la tarea. 
 
    Para editar la información de la sección Detalles, haga lo siguiente:
 
-   1. (Opcional) Haga clic en el icono **Contraer todo**![](assets/collapse-all-icon.png) en la esquina superior derecha para contraer todas las áreas.
-   1. (Opcional y condicional) Cuando un área esté contraída, haga clic en la **flecha que señala a la derecha** ![](assets/right-pointing-arrow.png) junto a cada área para expandir el área que desea editar.
+   1. (Opcional) Haga clic en el icono **Contraer todo** ![Contraer todo el icono](assets/collapse-all-icon.png) en la esquina superior derecha para contraer todas las áreas.
+   1. (Opcional y condicional) Cuando un área esté contraída, haga clic en la **flecha hacia la derecha** ![flecha hacia la derecha](assets/right-pointing-arrow.png) junto a cada área para expandir el área que desea editar.
    1. Para obtener más información sobre cómo editar la información en la pestaña Detalles de la tarea, consulte los siguientes artículos:
 
       * [Administrar información de tarea en el área Información general de detalles de la tarea](../../../manage-work/tasks/manage-tasks/task-information-in-overview.md)
       * [Administrar finanzas de tareas en la sección Detalles de tareas](../../../manage-work/tasks/manage-tasks/task-finances-in-details.md)
 
    1. (Opcional) Si no hay formularios personalizados adjuntos a la tarea, empiece a escribir el nombre de un formulario en el campo **Añadir formulario personalizado**, selecciónelo cuando se muestre en la lista y haga clic en **Guardar cambios**.
-   1. (Opcional) Haga clic en el icono **Exportar** ![](assets/export.png) para exportar la información general y de los formularios personalizados a un archivo de PDF y, a continuación, haga clic en **Exportar**. Seleccione entre las siguientes opciones:
+   1. (Opcional) Haga clic en el icono **Exportar** ![Icono de exportar](assets/export.png) para exportar la información general y de los formularios personalizados a un archivo de PDF y, a continuación, haga clic en **Exportar**. Seleccione entre las siguientes opciones:
 
       * Seleccionar todo (solo se muestra cuando hay al menos un formulario personalizado adjunto)
       * Información general
@@ -200,15 +200,15 @@ Puede editar una tarea mediante las áreas Editar tarea o Detalles de la tarea. 
 
       El archivo PDF se descarga en el equipo.
 
-      ![](assets/export-issue-details-selection-box-with-export-button-350x418.png)
+      ![Cuadro de selección de detalles del problema de exportación con el botón Exportar](assets/export-issue-details-selection-box-with-export-button-350x418.png)
 
       Para obtener más información, consulte [Exportar formularios personalizados y detalles de objetos](../../../workfront-basics/work-with-custom-forms/export-custom-forms-details.md).
 
-1. (Condicional) Para editar toda la información sobre la tarea, como usuario con permisos de administración para la tarea, haga clic en el menú **Más** ![](assets/more-icon.png) junto al nombre de la tarea y, a continuación, haga clic en **Editar**.
+1. (Condicional) Para editar toda la información sobre la tarea, como usuario con permisos de administración para la tarea, haga clic en el menú **Más** ![Icono de más](assets/more-icon.png) junto al nombre de la tarea y, a continuación, haga clic en **Editar**.
 
    O
 
-   En una lista de tareas, seleccione una tarea y haga clic en el icono **Editar** ![](assets/edit-icon.png) que se encuentra en la parte superior de la lista.
+   En una lista de tareas, selecciona una tarea y luego haz clic en el icono **Editar** ![Editar icono](assets/edit-icon.png) en la parte superior de la lista.
 
    Se abre el cuadro Editar tarea.
 
@@ -241,7 +241,7 @@ Puede editar una tarea mediante las áreas Editar tarea o Detalles de la tarea. 
 1. Comience a editar la tarea como se ha descrito anteriormente.
 1. Haga clic en el **Nombre de la tarea** en el panel izquierdo.
 
-   ![](assets/nwe-task-name-section-edit-task-box-350x122.png)
+   ![Sección Nombre de tarea en el cuadro Editar tarea](assets/nwe-task-name-section-edit-task-box-350x122.png)
 
 1. Actualice el nombre de la tarea.
 
@@ -252,7 +252,7 @@ Puede editar una tarea mediante las áreas Editar tarea o Detalles de la tarea. 
 1. Comience a editar la tarea como se ha descrito anteriormente.
 1. Haga clic en **Información general** en el panel izquierdo.
 
-   ![](assets/nwe-overview-section-edit-task-box-350x257.png)
+   ![Cuadro de tareas de edición de sección de información general](assets/nwe-overview-section-edit-task-box-350x257.png)
 
 1. Actualice la siguiente información sobre la tarea:
 
@@ -843,7 +843,7 @@ Puede definir formularios personalizados predeterminados que se adjuntarán auto
 1. Comience a editar la tarea como se ha descrito más arriba.
 1. Haga clic en **Formularios personalizados** en el panel izquierdo o haga clic en el nombre de un formulario personalizado si ya está adjunto.
 
-   ![](assets/nwe-custom-forms-section-edit-task-box-350x127.png)
+   ![Cuadro de tareas de edición de sección de formularios personalizados](assets/nwe-custom-forms-section-edit-task-box-350x127.png)
 
 1. Haga clic en **Añadir formulario personalizado** y seleccione el formulario o formularios personalizados que desee asociar con la tarea. Debe generar los formularios personalizados antes de que estén disponibles para seleccionarlos en este campo. En la lista solo se muestran los formularios personalizados activos.
 
@@ -862,7 +862,7 @@ Puede definir formularios personalizados predeterminados que se adjuntarán auto
 1. Empiece a editar la tarea tal como se describe en la sección [Editar tareas](#Edit2) de este artículo.
 1. Haga clic en **Finanzas** en el panel izquierdo.
 
-   ![](assets/nwe-finance-section-edit-task-box-350x298.png)
+   ![Cuadro de tareas de edición de la sección Finanzas](assets/nwe-finance-section-edit-task-box-350x298.png)
 
 1. Actualice los campos siguientes:
 
@@ -905,7 +905,7 @@ Puede definir formularios personalizados predeterminados que se adjuntarán auto
 1. Empiece a editar la tarea tal como se describe en la sección [Editar tareas](#Edit2) de este artículo.
 1. Haga clic en **Configuración** en el panel izquierdo.
 
-   ![](assets/nwe-settings-section-edit-task-box-350x304.png)
+   ![Sección de configuración en el cuadro de tareas Editar](assets/nwe-settings-section-edit-task-box-350x304.png)
 
 1. Actualice los campos siguientes:
 
@@ -992,7 +992,7 @@ Puede editar una cantidad limitada de información en el encabezado de la tarea.
 El administrador del sistema o de grupos puede personalizar los campos que se muestran en el encabezado de la tarea. Para obtener más información, consulte [Personalizar encabezados de objeto mediante una plantilla de diseño](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).
 
 
-![](assets/qs-task-header-without-approvals-and-with-dependecies-350x17.png)
+![Encabezado de tarea sin aprobaciones y con dependencias](assets/qs-task-header-without-approvals-and-with-dependecies-350x17.png)
 
 Los campos siguientes se incluyen en el encabezado de la tarea de forma predeterminada:
 

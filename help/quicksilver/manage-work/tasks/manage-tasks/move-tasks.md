@@ -6,10 +6,10 @@ description: Puede mover tareas a diferentes proyectos o a diferentes tareas pri
 author: Alina
 feature: Work Management
 exl-id: 93295d70-a6cf-46ca-b621-228fa6c983f5
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '1371'
-ht-degree: 48%
+source-wordcount: '1377'
+ht-degree: 47%
 
 ---
 
@@ -43,7 +43,7 @@ Puede mover una sola tarea o mover varias tareas a la vez desde una lista de tar
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
@@ -133,7 +133,7 @@ Tenga en cuenta lo siguiente al mover una tarea:
 
    * Haga clic en el **Icono de más** ![más](assets/main-more-icon.png) del menú en la parte superior de la lista de tareas y, a continuación, haga clic en **Mover a**.
    * Haga clic con el botón derecho en las tareas seleccionadas y luego haga clic en **Mover a**.
-   * Al seleccionar una tarea, haga clic en el menú **Más** ![](assets/more-icon-task-list.png) junto al nombre de la tarea en la lista y, a continuación, haga clic en **Mover a**.
+   * Al seleccionar una tarea, haga clic en el icono **Más** del menú ![Más en la lista de tareas](assets/more-icon-task-list.png) junto al nombre de la tarea en la lista y, a continuación, haga clic en **Mover a**.
 
    Se muestra el cuadro **Mover tarea**.
 
@@ -265,7 +265,7 @@ Además de mover tareas de una lista de tareas, puede mover una tarea al nivel d
 
    La tarea se muestra en la lista.
 
-   ![Seleccione la tarea principal al mover una tarea con la funcionalidad de búsqueda &#x200B;](assets/select-parent-when-moving-tasks-with-search-functionality-nwe-350x110.png)
+   ![Seleccione la tarea principal al mover una tarea con la funcionalidad de búsqueda ](assets/select-parent-when-moving-tasks-with-search-functionality-nwe-350x110.png)
 
    >[!NOTE]
    >

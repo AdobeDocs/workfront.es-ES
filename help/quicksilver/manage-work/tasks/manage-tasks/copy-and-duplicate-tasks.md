@@ -6,10 +6,10 @@ description: Puede copiar una tarea de un proyecto a otro o duplicar una tarea d
 author: Alina
 feature: Work Management
 exl-id: daf89062-cf58-4c39-83ff-727d969a9630
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '1679'
-ht-degree: 99%
+source-wordcount: '1744'
+ht-degree: 90%
 
 ---
 
@@ -28,7 +28,7 @@ Puede copiar o duplicar una o varias tareas o tareas principales a la vez.
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
@@ -108,9 +108,9 @@ Al copiar una tarea, tenga en cuenta lo siguiente:
    Ir a un informe de tareas.
 
 1. (Condicional) Haga clic en **Tareas** en el panel izquierdo si ha abierto el proyecto que contiene las tareas.
-1. Haga clic en el icono **Modo de plan** ![](assets/qs-list-mode-or-save-mode-icon-small.png) y asegúrese de que la opción **Guardar automáticamente** esté habilitada.
+1. Haga clic en el icono **Modo de planificación** ![Modo de lista o en el icono de modo de guardado](assets/qs-list-mode-or-save-mode-icon-small.png) y asegúrese de que la opción **Guardar automáticamente** esté habilitada.
 
-   ![](assets/autosave-icon-on-highlighted-350x202.png)
+   ![Icono de autoguardar activado y resaltado](assets/autosave-icon-on-highlighted-350x202.png)
 
    >[!IMPORTANT]
    >
@@ -120,9 +120,9 @@ Al copiar una tarea, tenga en cuenta lo siguiente:
 
    * Haga clic en el **menú Más** en la parte superior de la lista de tareas y luego haga clic en **Copiar en**.
    * Haga clic con el botón derecho en las tareas seleccionadas y luego haga clic en **Copiar en**.
-   * Al seleccionar una tarea, haga clic en el menú **Más** ![](assets/more-icon-task-list.png) junto al nombre de la tarea en la lista y, a continuación, haga clic en **Copiar en**.
+   * Al seleccionar una tarea, haga clic en el icono **Más** del menú ![Más en la lista de tareas](assets/more-icon-task-list.png) junto al nombre de la tarea en la lista y, a continuación, haga clic en **Copiar en**.
 
-   ![](assets/copy-task-in-list-nwe-350x131.png)
+   ![Copiar tarea en la lista](assets/copy-task-in-list-nwe-350x131.png)
 
 1. Continúe copiando la tarea, tal como se describe en la sección [Copie una tarea en el nivel de tarea](#copy-a-task-at-the-task-level) a partir del paso 4.
 
@@ -136,9 +136,9 @@ Además de copiar tareas en una lista de tareas, también puede copiar una tarea
 
 1. Encuentre una tarea en el sistema de Workfront buscándola.
 1. Haga clic en el nombre de la tarea para abrirla.
-1. Haga clic en el menú desplegable **Más** ![](assets/qs-more-menu.png) junto al nombre de la tarea y, a continuación, haga clic en **Copiar en**.
+1. Haga clic en el menú desplegable **Más** ![Menú más](assets/qs-more-menu.png) junto al nombre de la tarea y, a continuación, haga clic en **Copiar en**.
 
-   ![](assets/taskcopy-to-at-the-task-level-nwe-350x200.png)
+   ![Copia de tarea a la opción en el nivel de tarea](assets/taskcopy-to-at-the-task-level-nwe-350x200.png)
 
    Se muestra el cuadro Copiar tarea.
 
@@ -148,7 +148,7 @@ Además de copiar tareas en una lista de tareas, también puede copiar una tarea
    >
    >Este campo aparece atenuado y no se puede editar al seleccionar copiar varias tareas en una lista. Puede pasar el puntero por encima del campo Nombre de la tarea y se mostrará una lista de todas las tareas seleccionadas.
    >
-   >![](assets/copy-task-multiple-tasks-box-with-list-of-task-names-nwe-350x130.png)
+   >![Copiar tarea en un cuadro de varias tareas](assets/copy-task-multiple-tasks-box-with-list-of-task-names-nwe-350x130.png)
 
 1. Escriba el nombre del **Proyecto de destino** donde desea copiar la tarea en el campo **Seleccionar proyecto de destino**.
 
@@ -163,7 +163,7 @@ Además de copiar tareas en una lista de tareas, también puede copiar una tarea
 1. (Condicional) Haga clic en **solicitar acceso** para solicitar acceso al proyecto si no tiene acceso al proyecto seleccionado.
 1. (Condicional) Continúe copiando la tarea en el proyecto de destino seleccionado sin solicitar acceso si tiene acceso para añadir tareas a una de las tareas del proyecto de destino.
 
-   ![](assets/copy-task-request-access-from-project-nwe-350x125.png)
+   ![Copiar acceso de solicitud de tarea del proyecto](assets/copy-task-request-access-from-project-nwe-350x125.png)
 
    >[!TIP]
    >
@@ -241,7 +241,7 @@ Además de copiar tareas en una lista de tareas, también puede copiar una tarea
 
    La tarea se muestra en la lista.
 
-   ![Seleccione la tarea principal al mover una tarea con la funcionalidad de búsqueda &#x200B;](assets/select-parent-when-moving-tasks-with-search-functionality-nwe-350x110.png)
+   ![Seleccione la tarea principal al mover una tarea con la funcionalidad de búsqueda ](assets/select-parent-when-moving-tasks-with-search-functionality-nwe-350x110.png)
 
 1. Seleccione el botón de opción del elemento principal, una vez encontrado.
 
@@ -290,11 +290,11 @@ Puede duplicar rápidamente una tarea en una lista de tareas si necesita una tar
 1. Haga clic en **Tareas** en el panel izquierdo.
 1. Realice una de las siguientes acciones:
 
-   * (Condicional) Haga clic en el icono **Modo de plan** ![](assets/qs-list-mode-or-save-mode-icon-small.png) y asegúrese de que la opción **Guardar automáticamente** esté habilitada, seleccione las tareas que desee duplicar y, a continuación, haga clic en el **menú Más** ![](assets/qs-more-menu-29x11.png) > **Duplicar**.
+   * (Condicional) Haz clic en el icono **Modo de planificación** ![Modo de lista o en el icono pequeño del modo de guardado](assets/qs-list-mode-or-save-mode-icon-small.png) y asegúrate de que la opción **Guardar automáticamente** esté habilitada, selecciona las tareas que deseas duplicar y luego haz clic en el **menú Más** ![Menú más](assets/qs-more-menu-29x11.png) > **Duplicar**.
 
-     ![](assets/duplicate-tasks-in-list-nwe-350x196.png)
+     ![Duplicar tareas en elemento de menú de lista](assets/duplicate-tasks-in-list-nwe-350x196.png)
 
-   * (Condicional) Haga clic en el icono **Modo de plan** ![](assets/qs-list-mode-or-save-mode-icon-small.png) > **Guardar de forma manual** > **Estándar** o **Planificación de escala de tiempo**, y después haga lo siguiente:
+   * (Condicional) Haga clic en el icono **Modo de planificación** ![Modo de lista o en el icono pequeño del modo de guardado](assets/qs-list-mode-or-save-mode-icon-small.png) > **Guardar de forma manual** > **Estándar** o **Planificación de la cronología** y, a continuación, haga lo siguiente:
 
       1. Seleccione la tarea o tareas que desee duplicar y haga clic en **Duplicar**.
       1. (Opcional) Haga clic en **Deshacer** para revertir los cambios y no duplicar las tareas.
