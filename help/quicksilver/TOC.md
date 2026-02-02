@@ -3,9 +3,9 @@ user-guide-title: Guía de Workfront
 user-guide-description: Utilice los siguientes documentos, tutoriales y recursos adicionales para aprender a implementar y utilizar Adobe Workfront de forma eficaz en su organización.
 role: User
 feature-set: Workfront
-source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
+source-git-commit: dca61a5d1f89d1524b64280e6e0542984f3686a1
 workflow-type: tm+mt
-source-wordcount: '13750'
+source-wordcount: '13755'
 ht-degree: 57%
 
 ---
@@ -43,7 +43,7 @@ ht-degree: 57%
          * [Mejoras de proyecto del cuarto trimestre de 2025](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-project.md)
          * [Mejoras en las solicitudes del cuarto trimestre de 2025](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-requests.md)
          * [Mejoras en la gestión de recursos del cuarto trimestre de 2025](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-resource-mgmt.md)
-         * [Otras mejoras del cuarto trimestre de 2025 &#x200B;](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-other.md)
+         * [Otras mejoras del cuarto trimestre de 2025 ](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-other.md)
          * [Actualizaciones de aspecto durante el periodo de tiempo de la versión del cuarto trimestre de 2025](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-look-and-feel-updates.md)
       * Versión del tercer trimestre de 2025 {#release-25-q3}
          * [Resumen de la versión del tercer trimestre de 2025](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-release-overview.md)
@@ -1785,7 +1785,7 @@ ht-degree: 57%
    * [Administrar recursos: índice de artículos](resource-mgmt/manage-resources.md)
    * Administración de recursos {#resource-management}
       * [Administración de recursos: índice de artículos](resource-mgmt/resource-mgmt-overview/resource-management-overview.md)
-      * [Introducción a la Administración de recursos &#x200B;](resource-mgmt/resource-mgmt-overview/get-started-resource-management.md)
+      * [Introducción a la Administración de recursos ](resource-mgmt/resource-mgmt-overview/get-started-resource-management.md)
    * Planificación de recursos en Adobe Workfront {#resource-planning-in-adobe-workfront}
       * [Planificación de recursos: índice de artículos](resource-mgmt/resource-planning/resource-planning-overview.md)
       * Conjuntos de recursos {#resource-pools}
@@ -1853,7 +1853,7 @@ ht-degree: 57%
       * [Información general del estado de decisión del documento](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md)
       * [Introducción al revisor de IA de Workfront](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md)
       * [información general sobre el almacenamiento empresarial de Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md)
-      * [Información general sobre permisos y acceso al almacenamiento empresarial de Adobe](/help/quicksilver/review-and-approve-work/esm-access-permissions.md)
+      * [Permisos de objeto e información general del nivel de acceso para el modelo de almacenamiento empresarial de Adobe](/help/quicksilver/review-and-approve-work/esm-access-permissions.md)
       * Configuración y administración de aprobaciones de recursos y documentos {#manage-asset-review-and-approval}
          * [Configurar y administrar aprobaciones unificadas: índice de artículos](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/set-up-and-manage-doc-asset-approvals-toc.md)
          * [Crear revisores de IA](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/set-up-ai-reviewer.md)
