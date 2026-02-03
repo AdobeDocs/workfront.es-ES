@@ -6,10 +6,10 @@ description: Puede añadir una tarjeta en el tablero que esté conectada a tarea
 author: Jenny
 feature: Agile
 exl-id: c6d979dd-e4a4-48a5-a91b-b31d7ef848d1
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 6e136bed16c2b20f05267ac181dcc462b1a2aed4
 workflow-type: tm+mt
-source-wordcount: '1430'
-ht-degree: 96%
+source-wordcount: '1533'
+ht-degree: 89%
 
 ---
 
@@ -43,7 +43,7 @@ Para sincronizar tarjetas conectadas con Workfront, haz clic en el menú **[!UIC
 <table style="table-layout:auto"> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
@@ -97,7 +97,7 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
 
    O
 
-   Haga clic en el menú **[!UICONTROL Más]** ![menú Más &#x200B;](assets/more-icon-spectrum.png) de la tarjeta y seleccione **[!UICONTROL Editar]**.
+   Haga clic en el menú **[!UICONTROL Más]** ![menú Más ](assets/more-icon-spectrum.png) de la tarjeta y seleccione **[!UICONTROL Editar]**.
 
 1. En el cuadro **[!UICONTROL Detalles de la tarjeta]**, añada o actualice la siguiente información:
 
@@ -187,13 +187,21 @@ El objeto conectado, los usuarios asignados, las etiquetas, la fecha de vencimie
 
 Puede desconectar una tarjeta conectada de su objeto de Workfront y la tarjeta permanecerá en el tablero como una tarjeta ad hoc que puede editar.
 
-Para desconectar a nivel del tablero, haga lo siguiente:
+>[!NOTE]
+>
+>Si desconecta una tarjeta conectada en un tablero dinámico, volverá a aparecer cuando actualice el tablero, ya que este tipo de tablero extrae todas las tareas y problemas de un proyecto específico.
+>
+>Si desconecta una tarjeta conectada de cualquier otro tipo de tarjeta que tenga una columna de entrada, la tarjeta volverá a aparecer en la columna de entrada cuando actualice la tarjeta si la tarea o el problema conectado aún no se ha marcado como completado.
+>
+>En ambos casos, después de una actualización tendrá dos tarjetas para la misma tarea o problema: una tarjeta ad hoc y una tarjeta conectada.
+
+Para desconectar una tarjeta en el nivel del tablero:
 
 1. Acceda al tablero.
 1. Haga clic en el menú **[!UICONTROL Más]** ![menú Más](assets/more-icon-spectrum.png) de la tarjeta conectada y seleccione **[!UICONTROL Desconectar]**.
 1. Haga clic en **[!UICONTROL Desconectar]** en el mensaje de confirmación.
 
-Para desconectar a nivel de la tarjeta:
+Para desconectar una tarjeta en el nivel de la tarjeta:
 
 1. Acceda al tablero y abra la tarjeta conectada.
 1. Haga clic en el menú **[!UICONTROL Más]** ![menú Más](assets/more-icon-spectrum.png) del área Conexión de los detalles de la tarjeta y seleccione **[!UICONTROL Desconectar]**.
