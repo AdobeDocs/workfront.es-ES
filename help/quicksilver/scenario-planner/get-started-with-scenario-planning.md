@@ -15,7 +15,7 @@ ht-degree: 99%
 
 Puede usar [!DNL Adobe Workfront Scenario Planner] para generar planes de nivel empresarial que describan los resultados estratégicos generales de su compañía. Puede definir varias iniciativas para un plan y colocarlas en varios escenarios para encontrar la solución óptima para ejecutarlo.
 
-Para obtener información general de alto nivel sobre [!DNL Workfront Scenario Planner], vea [la Información general de [!DNL Scenario Planner] ](../scenario-planner/scenario-planner-overview.md).
+Para obtener información general de alto nivel sobre [!DNL Workfront Scenario Planner], vea [la Información general de [!DNL Scenario Planner] &#x200B;](../scenario-planner/scenario-planner-overview.md).
 
 
 ## Enfoques para usar [!DNL Workfront Scenario Planner]
