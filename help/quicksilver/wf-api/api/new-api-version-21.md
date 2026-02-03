@@ -6,16 +6,14 @@ description: Adobe Workfront publicó la versión 21 de la API el viernes, 23 de
 author: Becky
 feature: Workfront API
 role: Developer
-source-git-commit: 040e714c2f81ba764c7895be430446add1250a83
+source-git-commit: 7166a6b51a45b744a33df697c2bc8080427908a8
 workflow-type: tm+mt
-source-wordcount: '954'
-ht-degree: 77%
+source-wordcount: '932'
+ht-degree: 78%
 
 ---
 
 # Novedades de la versión 21 de la API
-
-<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa de espacio aislado.</span>
 
 >[!IMPORTANT]
 >
@@ -38,7 +36,7 @@ Adobe Workfront publicó la versión 21 de la API el viernes, 23 de octubre de 2
       <td>
         <ul>
           <li>entryDate</li>
-          <li>Identificador</li>
+          <li>ID</li>
           <li>requestID</li>
           <li>requestName</li>
         </ul>
@@ -48,7 +46,7 @@ Adobe Workfront publicó la versión 21 de la API el viernes, 23 de octubre de 2
       <td role="rowheader">Campos principales</td>
       <td>
         <ul>
-          <li>Identificador</li>
+          <li>ID</li>
           <li>objCode</li>
         </ul>
       </td>
@@ -680,8 +678,6 @@ Un objeto Rate representa una tarifa de facturación en Workfront.
 
 Un objeto Role (función) representa una capacidad funcional o un conjunto de aptitudes que un usuario podría completar, como un diseñador o un gestor de productos.
 
-<div class="preview">
-
 <table>
   <col/>
   <col/>
@@ -709,8 +705,6 @@ Un objeto Role (función) representa una capacidad funcional o un conjunto de ap
     </tr>
   </tbody>
 </table>
-
-</div>
 
 ### Informe programado (SCHREP)
 
