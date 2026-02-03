@@ -6,10 +6,10 @@ description: Al proporcionar comentarios de actualización sobre un objeto de Ad
 author: Alina
 feature: Get Started with Workfront
 exl-id: c4c0d74f-ac50-4fc5-89d6-28f004c25b29
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: 187505de92f9a912547018865f2742bfecec77ad
 workflow-type: tm+mt
-source-wordcount: '955'
-ht-degree: 93%
+source-wordcount: '960'
+ht-degree: 91%
 
 ---
 
@@ -62,7 +62,7 @@ En lugar de incluir a esos usuarios en el objeto asignándolos o haciendo que se
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>paquete de Adobe Workfront</strong></td> 
+   <td role="rowheader"><strong>Paquete de Adobe Workfront</strong></td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
@@ -167,13 +167,13 @@ También puede quitar usuarios etiquetados por error cuando edite o responda a u
 
    Los nombres de las entidades etiquetadas se muestran junto a sus avatares, con un máximo de dos entidades. Si se etiquetan más de dos entidades, se muestra el nombre de la primera, además del número de entidades adicionale etiquetadas.
 
-   ![](assets/members-icons-expanded-unshimmed.png)
+   ![Iconos de miembros expandidos](assets/members-icons-expanded-unshimmed.png)
 
    Cuando se le etiqueta en el texto de un comentario, su nombre queda resaltado en ese comentario.
 
    Para obtener información sobre la funcionalidad adicional disponible al actualizar un elemento de trabajo, consulte [Actualizar trabajo](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-1. (Opcional) Haga clic en el menú **Más** ![](assets/more-menu.png) en la esquina superior derecha del comentario y, a continuación, en **Editar**. Quite cualquiera de los usuarios etiquetados y luego haga clic en **Enviar**.
+1. (Opcional) Haga clic en el menú **Más** ![Menú más](assets/more-menu.png) en la esquina superior derecha del comentario y, a continuación, haga clic en **Editar**. Quite cualquiera de los usuarios etiquetados y luego haga clic en **Enviar**.
 
    >[!IMPORTANT]
    >
@@ -206,7 +206,7 @@ You can manually tag users in the legacy Updates section.
    >
    >You must have the View Contact Info setting enabled in your access level for Users to view users' emails. For information, see [Grant access to users](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
 
-   ![](assets/tag-users-in-update.png)
+   ![Tag users in update](assets/tag-users-in-update.png)
 
 1. (Optional) To make the update private, enable **Private to my company** in the lower-right corner of the update box. This makes the update visible just to users in your company. The **Private to my company** option is available only when a Company is specified in your Workfront profile. 
 
@@ -225,7 +225,7 @@ You can manually tag users in the legacy Updates section.
 
    You can see who has been tagged in each reply at the top of the update thread. These users, along with any users subscribed to the object, receive a notification whenever an update or reply is made on the object.
 
-   ![](assets/tagging-transparency-350x192.png)
+   ![Tagging transparency](assets/tagging-transparency-350x192.png)
 -->
 
 Para obtener información sobre la funcionalidad adicional disponible al actualizar un elemento de trabajo, consulte [Actualizar trabajo](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).

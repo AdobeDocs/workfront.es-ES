@@ -2,10 +2,9 @@
 title: Introducción al Scenario Planner
 description: Puede usar el Planificador de escenarios de Adobe Workfront para generar planes de nivel empresarial que describan los resultados estratégicos generales de su compañía. Puede definir varias iniciativas para un plan y colocarlas en varios escenarios para encontrar la solución óptima para ejecutarlo.
 author: Alina
-draft: Probably
 feature: Workfront Scenario Planner
 exl-id: a6afe39f-1663-493d-a582-0a396ce138c2
-source-git-commit: 86ee649cdf0ac04230035a94a1326c45b67d36d2
+source-git-commit: 187505de92f9a912547018865f2742bfecec77ad
 workflow-type: tm+mt
 source-wordcount: '774'
 ht-degree: 99%
@@ -16,7 +15,7 @@ ht-degree: 99%
 
 Puede usar [!DNL Adobe Workfront Scenario Planner] para generar planes de nivel empresarial que describan los resultados estratégicos generales de su compañía. Puede definir varias iniciativas para un plan y colocarlas en varios escenarios para encontrar la solución óptima para ejecutarlo.
 
-Para obtener información general de alto nivel sobre [!DNL Workfront Scenario Planner], vea [la Información general de [!DNL Scenario Planner] &#x200B;](../scenario-planner/scenario-planner-overview.md).
+Para obtener información general de alto nivel sobre [!DNL Workfront Scenario Planner], vea [la Información general de [!DNL Scenario Planner] ](../scenario-planner/scenario-planner-overview.md).
 
 
 ## Enfoques para usar [!DNL Workfront Scenario Planner]
@@ -30,7 +29,7 @@ Existen dos enfoques para usar [!DNL Workfront Scenario Planner]:
 
 Como administrador empresarial, debe planificar el conjunto correcto de iniciativas a una escala superior, utilizando un enfoque más amplio que el que le permiten las tareas diarias. Debe indicar el valor que estas iniciativas de alto nivel aportan a la organización, así como priorizar los recursos de toda la organización para las iniciativas adecuadas.
 
-Debe desarrollar de forma rápida y sencilla escenarios plausibles y, a continuación, determinar el mejor camino para garantizar que satisfaga sus necesidades comerciales.
+Debe desarrollar de forma rápida y sencilla escenarios plausibles y, a continuación, determinar el mejor camino para garantizar que satisfaga sus necesidades empresariales.
 
 Los siguientes son beneficios de [!DNL Workfront Scenario Planner] para ayudarle a lograr este resultado:
 

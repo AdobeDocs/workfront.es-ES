@@ -1,14 +1,14 @@
 ---
 content-type: overview
 title: Información general sobre el resumen
-description: Puede usar el Panel de resumen para revisar y actualizar la información del elemento de trabajo directamente desde una lista de tareas, problemas, documentos o desde otras áreas de  [!DNL Adobe Workfront] que muestran tareas y problemas.
+description: Puede usar el Panel de resumen para revisar y actualizar la información del elemento de trabajo directamente desde una lista de tareas, problemas, documentos o desde otras áreas de  [!DNL Adobe Workfront]  que muestran tareas y problemas.
 feature: Get Started with Workfront
 author: Nolan
 exl-id: 5e4026b2-5f2f-45c1-bef1-04e20c62ed8a
-source-git-commit: d7b8d7285d23d14f5390c9de1001de553c2b796f
+source-git-commit: 187505de92f9a912547018865f2742bfecec77ad
 workflow-type: tm+mt
-source-wordcount: '893'
-ht-degree: 93%
+source-wordcount: '908'
+ht-degree: 83%
 
 ---
 
@@ -107,11 +107,11 @@ Para obtener información sobre cómo acceder al [!UICONTROL Resumen] para docum
 ## Ver el panel [!UICONTROL Resumen] en una lista de tareas o problemas
 
 1. Vaya a una tarea o problema y seleccione un elemento de la lista.
-1. Haga clic en el icono **[!UICONTROL Resumen]**![](assets/qs-summary-in-new-toolbar-small.png)
+1. Haga clic en el icono **[!UICONTROL Resumen]** ![Resumen en la nueva barra de herramientas](assets/qs-summary-in-new-toolbar-small.png)
 
    o
 
-   Haga clic en el icono **[!UICONTROL Abrir resumen]** ![](assets/open-summary-with-text-nwe.png) en la sección [!UICONTROL Enviados] del área [!UICONTROL Solicitudes].
+   Haga clic en el icono **[!UICONTROL Abrir resumen]** ![Abrir resumen con texto](assets/open-summary-with-text-nwe.png) en la sección [!UICONTROL Enviados] del área [!UICONTROL Solicitudes].
 
    Después de abrir el Resumen, permanece abierto a medida que hace clic en otras tareas o problemas o los selecciona y permanece abierto hasta que lo cierra manualmente.
 
@@ -123,13 +123,13 @@ Para obtener información sobre cómo acceder al [!UICONTROL Resumen] para docum
 
 1. (Opcional) Para cerrar el panel [!UICONTROL Resumen], siga uno de estos procedimientos:
 
-   * En una tarea o lista de problemas, haga clic en el icono **[!UICONTROL Abrir resumen]** ![](assets/summary-panel-icon.png)
+   * En una tarea o lista de problemas, haga clic en el icono **[!UICONTROL Abrir resumen]** ![icono del panel de resumen](assets/summary-panel-icon.png)
 
      O
 
      Haga clic en el icono **X** en la esquina superior derecha del panel [!UICONTROL Resumen].
 
-   * En la sección [!UICONTROL Enviadas] del área de [!UICONTROL Solicitudes], haga clic en el icono **[!UICONTROL Cerrar resumen]** ![](assets/close-summary-with-text-nwe.png)
+   * En la sección [!UICONTROL Enviadas] del área de [!UICONTROL Solicitudes], haga clic en el icono **[!UICONTROL Cerrar resumen]** ![Cerrar resumen con texto](assets/close-summary-with-text-nwe.png)
 
      O
 
@@ -181,7 +181,7 @@ Si no hay [!UICONTROL horas] planificadas en la tarea o problema y ha registrado
 
 ![Sección de horas en el panel de resumen](assets/summary-hours-section.png)
 
-## Rutas de aprobación
+## Aprobaciones
 
 Utilice la sección [!UICONTROL Aprobaciones] del [!UICONTROL Resumen] para ver las aprobaciones adjuntas a la tarea o problema que haya seleccionado. Si no ha añadido ninguna aprobación, seleccione una aprobación existente en el menú desplegable o haga clic en **[!UICONTROL Crear proceso de aprobación de un solo uso]** para ir directamente a la pestaña [!UICONTROL Aprobaciones] en la tarea o problema.
 

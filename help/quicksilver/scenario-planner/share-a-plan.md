@@ -7,10 +7,10 @@ description: Puede compartir un plan que haya creado en el Planificador de escen
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: b8bbb533-4384-414c-8574-4e137962b8ca
-source-git-commit: 4897f165a7316a52b968601b45f95f7045f63840
+source-git-commit: 187505de92f9a912547018865f2742bfecec77ad
 workflow-type: tm+mt
-source-wordcount: '880'
-ht-degree: 89%
+source-wordcount: '882'
+ht-degree: 86%
 
 ---
 
@@ -221,7 +221,7 @@ Para obtener información acerca de los permisos del proyecto, consulte [Compart
 
    O
 
-   Si seleccionó varios planes para compartirlos en lote, haga clic en el icono **[!UICONTROL Compartir]** ![](assets/share-icon-26x26.png) en la parte superior de la lista de planes para abrir el cuadro de acceso del [!UICONTROL Plan].
+   Si seleccionó varios planes para compartirlos en lotes, haga clic en el icono **[!UICONTROL Compartir]** ![Compartir icono](assets/share-icon-26x26.png) que se encuentra en la parte superior de la lista de planes para abrir el cuadro de acceso de [!UICONTROL Plan].
 
    >[!TIP]
    >

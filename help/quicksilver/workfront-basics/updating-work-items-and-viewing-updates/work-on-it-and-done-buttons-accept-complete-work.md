@@ -8,9 +8,9 @@ author: Becky and Alina
 feature: Get Started with Workfront
 role: User
 exl-id: cfda6702-1a9a-4645-b031-8b2f201ac0af
-source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
+source-git-commit: 187505de92f9a912547018865f2742bfecec77ad
 workflow-type: tm+mt
-source-wordcount: '768'
+source-wordcount: '776'
 ht-degree: 65%
 
 ---
@@ -36,7 +36,7 @@ Según el área de Workfront desde la que acceda a la tarea o al problema, el bo
 
 * Cuando se le asigna por primera vez la tarea o el problema y el estado es Nuevo, el botón se muestra como Trabajar en ello.
 
-  ![](assets/nwe-work-on-it-button.png)
+  ![Botón Trabajar en ello](assets/nwe-work-on-it-button.png)
 
   >[!TIP]
   >
@@ -44,12 +44,12 @@ Según el área de Workfront desde la que acceda a la tarea o al problema, el bo
 
 * Después de hacer clic en Aceptar para Trabajar en ello, el botón cambia a Marcar como hecho. Para obtener información sobre dónde puede obtener acceso al botón Trabajar en ello, consulte la sección [Buscar el botón Trabajar en ello y Listo](#locate-the-work-on-it-and-done-button) en este artículo.
 
-  ![](assets/nwe-mark-as-done-button-350x122.png)
+  ![Botón Marcar como listo](assets/nwe-mark-as-done-button-350x122.png)
 
 
 <!--If you are not the only one assigned to the task or issue and you are accessing your work item from the My Work widget in the Home area, the button changes to Done with my part.
 
-  ![](assets/home-left-done-with-my-part-button-350x184.png)-->
+  ![Home left Done with my part button](assets/home-left-done-with-my-part-button-350x184.png)-->
 
 ## Busque el botón Trabajar en ello y Listo {#locate-the-work-on-it-and-done-button}
 

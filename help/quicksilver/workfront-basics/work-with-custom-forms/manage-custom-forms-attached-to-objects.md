@@ -6,10 +6,10 @@ description: Puede actualizar el orden en que se muestran los formularios person
 author: Alina
 feature: Get Started with Workfront
 exl-id: e5570a09-32cb-43e3-9c1d-4421db42fa24
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: 187505de92f9a912547018865f2742bfecec77ad
 workflow-type: tm+mt
-source-wordcount: '1054'
-ht-degree: 87%
+source-wordcount: '1064'
+ht-degree: 79%
 
 ---
 
@@ -86,10 +86,10 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 
 1. Vaya al objeto en el que desea cambiar el orden de los formularios personalizados añadidos y, a continuación, comience a editar el objeto.
 
-   **Ejemplo:** por ejemplo, para administrar los formularios personalizados de un proyecto, vaya al proyecto, haga clic en el menú **Más** ![](assets/more-icon.png) y, a continuación, haga clic en **Editar**.
+   **Ejemplo:** Por ejemplo, para administrar los formularios personalizados de un proyecto, ve al proyecto, haz clic en el menú **Más** ![Menú Más](assets/more-icon.png) y, a continuación, haz clic en **Editar** .
 
-1. En la sección **Formularios personalizados** para proyectos, tareas y problemas, haga clic en el icono ![](assets/move-icon---dots.png) situado junto al nombre de un formulario personalizado. Para los demás objetos, haga clic en **Administrar formularios**. Esta opción solo se mostrará si hay al menos un formulario personalizado adjunto al objeto.
-1. Arrastre un formulario ![](assets/move-icon---dots.png) a una nueva ubicación de la lista.
+1. En la sección **Forms personalizado** para proyectos, tareas y problemas, haz clic en el icono ![Mover icono](assets/move-icon---dots.png) junto al nombre de un formulario personalizado. Para los demás objetos, haga clic en **Administrar formularios**. Esta opción solo se mostrará si hay al menos un formulario personalizado adjunto al objeto.
+1. Arrastre un formulario ![Mover icono](assets/move-icon---dots.png) a una nueva ubicación de la lista.
 1. Para los formularios personalizados de proyectos, tareas y problemas, haga clic en **Guardar**.
 
    Para los demás objetos, haz clic en **He terminado de administrar** > **Guardar cambios**.
@@ -105,7 +105,7 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
    Por ejemplo, vaya a un proyecto y haga clic en la sección **Detalles del proyecto**.
 
 1. Haga clic en el icono **Editar** ![Editar icono](assets/edit-icon.png) en la esquina superior derecha de la página del objeto y, a continuación, haga clic en **Editar todo**.
-1. Haga clic en el icono **Eliminar** ![](assets/delete-icon.png) a la derecha del nombre de un formulario personalizado y, a continuación, haga clic en **Eliminar** para confirmar y quitar el formulario del objeto o en **Cancelar** para evitar la eliminación.
+1. Haga clic en el icono **Eliminar** ![Eliminar icono](assets/delete-icon.png) a la derecha del nombre de un formulario personalizado y, a continuación, haga clic en **Eliminar** para confirmar y quitar el formulario del objeto o en **Cancelar** para evitar la eliminación.
 1. Haga clic en **Guardar cambios** .
 
 ## Administrar varios formularios personalizados que contengan los mismos campos personalizados
@@ -135,7 +135,7 @@ Solo los formularios personalizados adjuntos a todos los objetos seleccionados s
 
 Para editar varios formularios personalizados al editar objetos por lotes, haga lo siguiente:
 
-1. En una lista de objetos, seleccione los objetos donde están adjuntos los formularios personalizados y, a continuación, haga clic en el icono **Editar** ![](assets/edit-icon.png).
+1. En los objetos de una lista, seleccione los objetos a los que están adjuntos los formularios personalizados y, a continuación, haga clic en el icono **Editar** ![Editar icono](assets/edit-icon.png).
 1. Haga clic en **Formularios personalizados**.
 
    Solo se pueden editar los formularios personalizados adjuntos a todos los objetos seleccionados.

@@ -6,10 +6,10 @@ description: Puede compartir una carpeta y su contenido desde el área Documento
 author: Alina
 feature: Get Started with Workfront
 exl-id: c0d318a8-b1cf-4522-b478-acf092687658
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: 187505de92f9a912547018865f2742bfecec77ad
 workflow-type: tm+mt
-source-wordcount: '839'
-ht-degree: 99%
+source-wordcount: '847'
+ht-degree: 93%
 
 ---
 
@@ -100,7 +100,7 @@ O
 
 Con un objeto de Workfront abierto, haga clic en **Documentos** en el panel izquierdo.
 
-1. Seleccione la carpeta y, a continuación, haga clic en el icono Compartir ![](assets/share-icon.png) de la barra de herramientas.
+1. Seleccione la carpeta y, a continuación, haga clic en el icono Compartir ![icono Compartir](assets/share-icon.png) de la barra de herramientas.
 
    La carpeta debe estar en los cinco niveles superiores de una jerarquía de carpetas en un objeto y no puede ser una carpeta inteligente.
 
@@ -132,7 +132,7 @@ Con un objeto de Workfront abierto, haga clic en **Documentos** en el panel izqu
    </table>
 
 1. (Opcional) Repita los pasos 3-4 para añadir otros nombres a la lista y configurar sus opciones.
-1. (Opcional) Si desea que todos los usuarios del sistema puedan ver la carpeta y su contenido, haga clic en el icono de engranaje ![](assets/gear-icon-settings-with-dn-arrow.jpg) en la esquina superior derecha del cuadro para compartir y, a continuación, haga clic en **Hacer esto visible en todo el sistema.**
+1. (Opcional) Si desea que todos los usuarios del sistema puedan ver la carpeta y su contenido, haga clic en el icono de engranaje ![Configuración del icono de engranaje con flecha abajo](assets/gear-icon-settings-with-dn-arrow.jpg) en la esquina superior derecha del cuadro para compartir y, a continuación, haga clic en **Hacer esto visible en todo el sistema.**
 
    Si cambia de opinión, puede hacer clic en **Quitar el acceso en todo el sistema** (la opción predeterminada).
 

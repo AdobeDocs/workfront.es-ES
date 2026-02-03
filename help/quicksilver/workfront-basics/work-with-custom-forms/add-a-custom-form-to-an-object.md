@@ -7,10 +7,10 @@ description: Puede agregar un formulario personalizado existente a cualquiera de
 author: Alina
 feature: Get Started with Workfront
 exl-id: c06666a7-ab78-4311-8fcb-1d1a68034133
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: 187505de92f9a912547018865f2742bfecec77ad
 workflow-type: tm+mt
-source-wordcount: '730'
-ht-degree: 12%
+source-wordcount: '740'
+ht-degree: 11%
 
 ---
 
@@ -114,7 +114,7 @@ Puede agregar un formulario personalizado a un objeto de dos formas:
 ### Agregar un formulario personalizado a un objeto editando el objeto {#add-a-custom-form-to-an-object-by-editing-the-object}
 
 1. Vaya al objeto donde desea agregar el formulario personalizado.
-1. Haga clic en el menú **Más** ![](assets/more-icon.png) y luego haga clic en **Editar** ![](assets/edit-icon.png).
+1. Haga clic en el menú **Más** ![Menú más](assets/more-icon.png) y, a continuación, haga clic en **Editar** ![Editar icono](assets/edit-icon.png).
 1. Haga clic en **Forms personalizado** > **Agregar Forms** y, a continuación, seleccione hasta 10 formularios en el menú desplegable.
 
 1. (Opcional) Actualice la información de los campos editables del formulario personalizado.
@@ -158,11 +158,11 @@ drafted for bulk-editing projects. When it releases to Prod for projects, take "
 1. Navegue hasta una lista de objetos.
 1. Seleccione varios objetos de la lista.
 
-1. Haga clic en el menú **Más** ![](assets/more-icon.png) y luego haga clic en el icono **Editar** ![](assets/edit-icon.png).
+1. Haga clic en el menú **Más** ![Menú más](assets/more-icon.png) y luego haga clic en el icono **Editar** ![Editar icono](assets/edit-icon.png).
 
    O
 
-   Haga clic en el icono **Editar** ![](assets/edit-icon.png) en la parte superior de la lista.
+   Haga clic en el icono **Editar** ![Editar icono](assets/edit-icon.png) en la parte superior de la lista.
 1. Haga clic en **Formularios personalizados** en el panel izquierdo. 
 1. en el menú desplegable **Realizar una selección**, seleccione el formulario que desee asociar con todos los objetos seleccionados.
 

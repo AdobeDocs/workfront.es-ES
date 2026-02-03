@@ -7,7 +7,7 @@ description: La sección Actualizaciones de un objeto muestra los comentarios qu
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: d77da0569389104172fc759c53a9eb00acec4f65
+source-git-commit: 187505de92f9a912547018865f2742bfecec77ad
 workflow-type: tm+mt
 source-wordcount: '1195'
 ht-degree: 71%
@@ -188,7 +188,7 @@ Existen diferencias entre la forma en que se muestran los comentarios y las actu
 <!--
 ### Overview of the legacy Updates section 
 
-![](assets/updates-tab-before-unified-experience-for-tasks.png)
+![Updates tab](assets/updates-tab-before-unified-experience-for-tasks.png)
 
 The legacy Updates section shows the following information:
 
