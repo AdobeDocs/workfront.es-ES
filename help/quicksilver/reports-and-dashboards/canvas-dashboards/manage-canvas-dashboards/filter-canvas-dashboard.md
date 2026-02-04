@@ -6,10 +6,10 @@ description: Puede aplicar un filtro a un panel de lienzo una vez que se haya cr
 author: Courtney and Jenny
 feature: Reports and Dashboards
 exl-id: 156e9d3f-49f6-4372-9749-c7124ff5baee
-source-git-commit: c6458d777726092d74e8b031f5c14dfd58710e11
+source-git-commit: f8c41105607e972d3395cf8d89fb1fdf29f0da85
 workflow-type: tm+mt
-source-wordcount: '989'
-ht-degree: 7%
+source-wordcount: '892'
+ht-degree: 8%
 
 ---
 
@@ -179,17 +179,3 @@ Todos los usuarios con acceso a un tablero pueden aplicar una solicitud de table
 1. Haga clic en el icono **Cerrar** ![Cerrar icono](assets/close-icon.png) en la esquina superior derecha para ocultar el panel.
 
 
-## Filtrado de un tablero por tipo de moneda
-
-Puede alternar entre diferentes tipos de moneda en el nivel de panel. Los informes que contienen campos de moneda se actualizarán para reflejar el tipo de moneda seleccionado.
-
->[!NOTE]
->
->Los campos de moneda se pueden bloquear en el nivel de informe. Si un campo de moneda está bloqueado, el tipo de moneda de ese informe no cambiará al cambiar el tipo de moneda del panel.
-
-Para cambiar el tipo de moneda del tablero,
-
-1. Haga clic en el menú desplegable de moneda en la esquina superior derecha de la página de detalles del panel.
-1. Seleccione el tipo de moneda deseado en la lista.
-
-   ![cambiar lista desplegable de moneda](assets/filter-by-currency.png)

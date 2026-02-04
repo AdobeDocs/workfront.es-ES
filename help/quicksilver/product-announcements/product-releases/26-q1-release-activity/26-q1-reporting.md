@@ -4,9 +4,9 @@ description: Mejoras en los informes del primer trimestre de 2026
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: ad16dfe737f33a7d1025d8cef00605595d0476c2
+source-git-commit: f8c41105607e972d3395cf8d89fb1fdf29f0da85
 workflow-type: tm+mt
-source-wordcount: '933'
+source-wordcount: '934'
 ht-degree: 4%
 
 ---
@@ -27,13 +27,14 @@ Para obtener una lista de todos los cambios disponibles en este punto del ciclo 
 >Versión rápida de producción: 14 de enero de 2026
 >Producción para todos: 15 de enero de 2026
 
-Hemos realizado las siguientes actualizaciones para los campos de moneda:
+Hemos realizado las siguientes actualizaciones para los campos de moneda nativa:
 
 * Cuando se definen varias monedas en Workfront, ahora puede elegir una moneda predeterminada para el panel durante la creación.
 
 * Al crear un informe, puede bloquear un campo de moneda. Esto garantiza que la preferencia de moneda en el nivel de panel no afecte a la visualización de estos valores.
 
 * Al ver un panel, los usuarios pueden alternar entre cualquier moneda definida en Workfront. Estos cambios se aplican a todo el tablero, excepto a los campos de moneda bloqueados.
+
 
 
 ## Resultados de tabla de búsqueda rápida en paneles de lienzo
