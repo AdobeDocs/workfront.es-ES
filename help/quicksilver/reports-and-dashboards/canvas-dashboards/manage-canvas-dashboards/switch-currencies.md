@@ -5,9 +5,9 @@ title: Uso de campos de moneda en paneles de lienzo
 description: Puede utilizar los campos de moneda en un panel de lienzo.
 author: Courtney
 feature: Reports and Dashboards
-source-git-commit: f8c41105607e972d3395cf8d89fb1fdf29f0da85
+source-git-commit: 3e4ab2dfc66efd262c0c2ad30a9c62758084f8ce
 workflow-type: tm+mt
-source-wordcount: '630'
+source-wordcount: '622'
 ht-degree: 10%
 
 ---
@@ -73,7 +73,7 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
 
    >[!IMPORTANT]
    >
-   >La funcionalidad descrita en este artículo se aplica solo a los campos de moneda nativa. Si tiene configurados tipos de cambio de moneda, próximamente se ofrecerá compatibilidad con los campos de moneda personalizados.
+   >La funcionalidad descrita en este artículo se aplica solo a los campos de moneda nativa. La compatibilidad con los campos de moneda personalizados estará disponible próximamente.
 
 
 ## Establecer una moneda predeterminada para un panel de lienzo
