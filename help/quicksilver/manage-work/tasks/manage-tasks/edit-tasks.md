@@ -7,10 +7,10 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 572c6008-3a67-47ae-8f5d-6b871ef1f37b
-source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
+source-git-commit: c9fa6d97607990710e6c2a74f3b373d06201d721
 workflow-type: tm+mt
-source-wordcount: '5428'
-ht-degree: 86%
+source-wordcount: '5475'
+ht-degree: 85%
 
 ---
 
@@ -377,6 +377,12 @@ Puede editar una tarea mediante las áreas Editar tarea o Detalles de la tarea. 
 La edición de asignaciones es diferente en el cuadro Editar tarea según el entorno que elija.
 
 #### Edite el área Asignaciones en el entorno de producción
+
+>[!NOTE]
+>
+><span class="preview">Algunos clientes pueden editar asignaciones en el cuadro Editar tarea de sus entornos de producción de la misma manera que las editan en su entorno de vista previa.</span>
+>
+><span class="preview">Para obtener información acerca de cómo editar tareas en el entorno de vista previa, consulte la sección [Editar el área Asignaciones en el entorno de vista previa](#edit-the-assignments-area-in-the-preview-environment) en este artículo. </span>
 
 1. Comience a editar la tarea como se ha descrito anteriormente.
 1. Haga clic en **Asignaciones** en el panel izquierdo.

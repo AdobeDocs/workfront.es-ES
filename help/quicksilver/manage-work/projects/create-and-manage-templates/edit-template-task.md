@@ -7,10 +7,10 @@ description: Después de crear una plantilla, puede editar la información sobre
 author: Alina
 feature: Work Management
 exl-id: 2df8522e-7eee-4440-be0f-f7483c5acdb0
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: c9fa6d97607990710e6c2a74f3b373d06201d721
 workflow-type: tm+mt
-source-wordcount: '4633'
-ht-degree: 74%
+source-wordcount: '7460'
+ht-degree: 71%
 
 ---
 
@@ -20,13 +20,13 @@ ht-degree: 74%
 
 <!--take out production and preview references and new/ old experiences at release-->
 
-<!--<div class="preview"> 
+<div class="preview">
 
-The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with a week from the Preview release.      
+La información resaltada en esta página hace referencia a funcionalidades que aún no están disponibles de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Las mismas funciones también estarán disponibles en el entorno de producción para todos los clientes a partir de una semana desde la versión de vista previa.
 
-For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
+Para obtener más información, vea [Modernización de la interfaz](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).
 
-</div> -->
+</div>
 
 Después de crear una plantilla, puede editar la información de las tareas de plantilla. La información que actualiza en una tarea de plantilla se asocia a tareas de proyecto después de utilizar la plantilla para crear un proyecto o de adjuntar la plantilla a un proyecto.
 
@@ -106,6 +106,17 @@ Antes de empezar, debe
 
 ## Editar tareas de plantilla
 
+La edición de tareas de plantilla difiere según el entorno en el que elija editar las tareas.
+
+### Editar tareas de plantilla en el entorno de producción
+
+>[!NOTE]
+>
+><span class="preview">Algunos clientes pueden editar tareas de plantilla en sus entornos de producción de la misma manera que lo hacen en su entorno de vista previa.</span>
+>
+><span class="preview">Para obtener información acerca de la edición de tareas en el entorno de vista previa, consulte la sección [Editar tareas de plantilla en el entorno de vista previa](#edit-template-tasks-in-the-preview-environment) en este artículo. </span>
+
+
 Puede editar una tarea de plantilla mediante las áreas Editar tarea de plantilla o Detalles de tarea de plantilla.
 
 {{step1-to-templates}}
@@ -163,9 +174,9 @@ Los nombres de los formularios personalizados solo se muestran si hay formulario
 
 1. Continúe editando la tarea de plantilla como se describe en la sección [Editar una tarea de plantilla usando la experiencia antigua](#edit-a-template-task-using-the-old-experience) de este artículo.
 
-### Editar una tarea de plantilla utilizando la experiencia antigua
+#### Editar una tarea de plantilla utilizando la experiencia antigua
 
-#### Información general {#overview}
+##### Información general {#overview}
 
 1. Comience a editar una tarea de plantilla como se ha descrito anteriormente.
 1. Haga clic en **Información general**.
@@ -266,7 +277,7 @@ Los nombres de los formularios personalizados solo se muestran si hay formulario
 
    Haga clic en **Guardar cambios**.
 
-#### Finanzas {#finance}
+##### Finanzas {#finance}
 
 1. Comience a editar una tarea de plantilla como se ha descrito anteriormente.
 1. Haga clic en **Finanzas**.
@@ -313,7 +324,7 @@ Los nombres de los formularios personalizados solo se muestran si hay formulario
 
    Haga clic en **Guardar cambios**.
 
-#### Configuración {#settings}
+##### Configuración {#settings}
 
 1. Comience a editar una tarea de plantilla como se ha descrito anteriormente.
 1. Haga clic en **Configuración**.
@@ -373,7 +384,7 @@ Los nombres de los formularios personalizados solo se muestran si hay formulario
 
    Haga clic en **Guardar cambios**.
 
-#### Asignaciones {#assignments}
+##### Asignaciones {#assignments}
 
 1. Comience a editar una tarea de plantilla como se ha descrito anteriormente.
 1. Haga clic en **Asignaciones**.
@@ -397,7 +408,7 @@ Los nombres de los formularios personalizados solo se muestran si hay formulario
 
    Haga clic en **Guardar cambios**.
 
-#### Formularios personalizados {#custom-forms}
+##### Formularios personalizados {#custom-forms}
 
 Puede definir formularios personalizados para que se adjunten automáticamente de forma predeterminada a las tareas cuando estas se añadan a un proyecto. Para obtener información sobre cómo configurar el proyecto para que incluya formularios personalizados de tareas predeterminados, consulte la sección &quot;Tareas&quot; en el artículo [Editar proyectos](../../../manage-work/projects/manage-projects/edit-projects.md).
 
@@ -430,7 +441,7 @@ Los formularios se añaden automáticamente a las tareas creadas a partir de la 
 
    Haga clic en **Guardar cambios**.
 
-#### Comentario {#comment}
+##### Comentario {#comment}
 
 1. Comience a editar una tarea de plantilla como se ha descrito anteriormente.
 1. Haga clic en **Aceptar**.
@@ -442,7 +453,7 @@ Los formularios se añaden automáticamente a las tareas creadas a partir de la 
 
    Cuando usted u otro usuario crea un proyecto a partir de esta plantilla, todos los ajustes aplicados a las tareas de plantilla se convierten en los ajustes de las tareas de proyecto.
 
-### Editar una tarea de plantilla con la nueva experiencia
+#### Editar una tarea de plantilla con la nueva experiencia
 
 Después de abrir el cuadro **Editar tarea de plantilla** en la nueva experiencia, considere la posibilidad de especificar información en cualquiera de las siguientes secciones:
 
@@ -454,7 +465,7 @@ Después de abrir el cuadro **Editar tarea de plantilla** en la nueva experienci
 * [Configuración](#settings-1)
 * [Comentario](#comment-1)
 
-#### Nombre de tarea de plantilla
+##### Nombre de tarea de plantilla
 
 >[!TIP]
 >
@@ -472,7 +483,7 @@ Después de abrir el cuadro **Editar tarea de plantilla** en la nueva experienci
 
    Haga clic en **Guardar**.
 
-#### Información general {#overview-1}
+##### Información general {#overview-1}
 
 1. Comience a editar una tarea de plantilla como se ha descrito anteriormente.
 1. En el cuadro **Editar tarea de plantilla**, haga clic en **Información general** en el panel izquierdo.
@@ -563,7 +574,7 @@ Después de abrir el cuadro **Editar tarea de plantilla** en la nueva experienci
 
    Haga clic en **Guardar**.
 
-#### Asignaciones {#assignments-1}
+##### Asignaciones {#assignments-1}
 
 1. Comience a editar una tarea de plantilla como se ha descrito anteriormente.
 1. En el cuadro **Editar tarea de plantilla**, haga clic en **Asignaciones** en el panel izquierdo.
@@ -613,7 +624,7 @@ Después de abrir el cuadro **Editar tarea de plantilla** en la nueva experienci
 
    Haga clic en **Guardar**.
 
-#### Finanzas {#finance-1}
+##### Finanzas {#finance-1}
 
 1. Comience a editar una tarea de plantilla como se ha descrito anteriormente.
 1. En el cuadro **Editar tarea de plantilla**, haga clic en **Finanzas** en el panel izquierdo.
@@ -660,7 +671,7 @@ Después de abrir el cuadro **Editar tarea de plantilla** en la nueva experienci
 
    Haga clic en **Guardar**.
 
-#### Formularios personalizados {#custom-forms-1}
+##### Formularios personalizados {#custom-forms-1}
 
 Puede definir formularios personalizados para que se adjunten automáticamente de forma predeterminada a las tareas cuando estas se añadan a un proyecto. Para obtener información sobre cómo configurar el proyecto para que incluya formularios personalizados de tareas predeterminados, consulte la sección &quot;Tareas&quot; en el artículo [Editar proyectos](../../../manage-work/projects/manage-projects/edit-projects.md).
 
@@ -695,7 +706,7 @@ Los formularios se añaden automáticamente a las tareas creadas a partir de la 
 
    Haga clic en **Guardar**.
 
-#### Configuración {#settings-1}
+##### Configuración {#settings-1}
 
 1. Comience a editar una tarea de plantilla como se ha descrito anteriormente.
 1. En el **Cuadro Editar tarea de plantilla**, haga clic en **Configuración** en el panel izquierdo.
@@ -756,7 +767,7 @@ Los formularios se añaden automáticamente a las tareas creadas a partir de la 
 
    Haga clic en **Guardar**.
 
-#### Comentario {#comment-1}
+##### Comentario {#comment-1}
 
 1. Comience a editar una tarea de plantilla como se ha descrito anteriormente.
 1. En el cuadro **Editar tarea de plantilla**, haga clic en **Comentario** en el panel izquierdo.
@@ -767,4 +778,468 @@ Los formularios se añaden automáticamente a las tareas creadas a partir de la 
 1. Haga clic en **Guardar**.
 
    Cuando usted u otro usuario crea un proyecto a partir de esta plantilla, todos los ajustes aplicados a las tareas de plantilla se convierten en los ajustes de las tareas de proyecto.
+
+
+<div class="preview">
+
+### Editar tareas de plantilla en el entorno de vista previa
+
+Puede editar una tarea de plantilla mediante las áreas Editar tarea de plantilla o Detalles de tarea de plantilla.
+
+{{step1-to-templates}}
+
+1. Seleccione el nombre de una plantilla para abrirla.
+1. Haga clic en **Tareas de plantilla** en el panel de la izquierda.
+1. Haga clic en el nombre de una tarea de plantilla en la lista para abrirla.
+1. Para editar información limitada sobre la tarea de plantilla, haga lo siguiente:
+   1. (Opcional) Haga clic en **Actualizaciones** en el panel izquierdo para agregar actualizaciones a la tarea de plantilla. Las actualizaciones de tareas de plantilla no se transfieren a tareas de proyecto cuando la plantilla se utiliza para crear un proyecto.
+   1. (Opcional) Haga clic en **Documentos** en el panel izquierdo para agregar documentos a la tarea de plantilla. Los documentos se transferirán a las tareas del proyecto cuando utilice la plantilla para crear el proyecto.
+   1. (Condicional) Para editar información limitada sobre una tarea de plantilla, haga clic en **Detalles de la tarea de plantilla** en el panel izquierdo y, a continuación, vaya a las áreas de la sección Detalles para editar la información de cada área.
+   1. (Opcional) Realice una de las siguientes acciones:
+      * Haga clic en el icono **Contraer todo** ![Contraer todo](assets/collapse-all-icon.png) para contraer todas las áreas.
+      * Haga clic en el icono **Editar** ![Editar icono](assets/edit-icon.png) y, a continuación, seleccione una de las áreas siguientes o haga clic en **Editar todo** para editar la información de todas las áreas:
+
+         * Información general
+         * Forms personalizado
+Los nombres de los formularios personalizados solo se muestran si hay formularios personalizados adjuntos a la tarea de plantilla.
+         * Finanzas
+
+        >[!TIP]
+        >
+        >Para obtener información acerca de todos los campos que se muestran en el área Detalles, continúe editando todos los campos mediante el cuadro Editar tarea de plantilla, como se describe a continuación.
+
+   1. (Opcional) Haga clic en la sección **Subtareas** del panel izquierdo para agregar tareas secundarias a la tarea de plantilla. Agregar subtareas para tareas de plantilla es similar a agregar subtareas de tareas de proyecto. Para obtener más información, vea la sección &quot;Crear subtareas a partir de la sección Subtareas de tareas&quot; en el artículo [Crear subtareas](/help/quicksilver/manage-work/tasks/create-tasks/create-subtasks.md).
+   1. (Opcional) Haga clic en **Gastos** en el panel izquierdo y agregue gastos a las tareas de la plantilla. Los gastos de las tareas de plantilla se transfieren a tareas de proyecto futuras cuando la plantilla se utiliza para crear un proyecto.
+   1. (Opcional) Haga clic en **Aprobaciones** en el panel izquierdo para crear aprobaciones o adjuntar aprobaciones globales o de nivel de grupo a las tareas de plantilla. Las aprobaciones se transfieren a tareas de proyecto futuras.
+   1. (Opcional) Haga clic en la sección **Predecesoras** del panel izquierdo para agregar predecesoras para las tareas de plantilla. Agregar predecesoras de tareas de plantilla es similar a agregar predecesoras de tareas de proyecto. Para obtener más información, vea [Crear una relación de predecesoras mediante el área Predecesoras](/help/quicksilver/manage-work/tasks/use-prdcssrs/create-predecessors-in-predecessors-area.md).
+
+1. (Condicional) Para editar toda la información sobre una tarea de plantilla o sobre varias tareas al mismo tiempo, haga clic para seleccionarlas en una lista y, a continuación, haga clic en el icono **Editar** ![Editar icono](assets/edit-icon.png) en la parte superior de la lista.
+
+   Se muestra el cuadro **Editar tarea de plantilla**.
+
+   ![Nueva experiencia para Editar tarea de plantilla](assets/edit-template-task-box-unshimmed.png)
+
+   >[!TIP]
+   >
+   >También puede seleccionar una tarea de plantilla en una lista, luego hacer clic en **Editar** a la derecha del nombre de la tarea de plantilla en el encabezado para abrir el cuadro **Editar tarea de plantilla**.
+
+1. Considere la posibilidad de especificar información en cualquiera de las siguientes secciones:
+
+* [Nombre de tarea de plantilla](#template-task-name)
+* [Información general](#overview-2)
+* [Asignaciones](#assignments-2)
+* [Finanzas](#finance-2)
+* [Formularios personalizados](#custom-forms-2)
+* [Configuración](#settings-2)
+* [Comentario](#comment-2)
+
+1. Continúe editando las tareas de plantilla como se describe en las secciones siguientes.
+
+#### Nombre de tarea de plantilla
+
+>[!TIP]
+>
+>La sección Nombre de tarea de plantilla no está disponible al editar tareas de plantilla de forma masiva.
+
+
+1. Comience a editar una tarea de plantilla como se ha descrito anteriormente.
+1. En el cuadro Editar tarea de plantilla, haga clic en **Nombre de tarea de plantilla** y agregue un nombre para la tarea de plantilla.
+
+   Esta vista no está disponible al editar tareas de plantilla de forma masiva.
+
+1. (Opcional) Siga editando las secciones siguientes, según la información que desee modificar.
+
+   O
+
+   Haga clic en **Guardar**.
+
+#### Información general {#overview-2}
+
+1. Comience a editar una tarea de plantilla como se ha descrito anteriormente.
+1. En el cuadro **Editar tarea de plantilla**, haga clic en **Información general** en el panel izquierdo.
+
+   ![Resumen de edición de tarea de plantilla](assets/template-task-edit-overview.png)
+
+1. Actualice cualquiera de las siguientes opciones:
+
+   <table style="table-layout:auto"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader"><strong>Descripción</strong> </td> 
+      <td>Añada información adicional sobre la tarea de plantilla.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><strong>Prioridad</strong> </td> 
+      <td> <p>Se trata de un indicador visual que le permite priorizar las tareas de plantilla. </p> <p>Seleccione entre las siguientes opciones:</p> 
+       <ul> 
+        <li> <p><strong>Ninguno</strong> </p> </li> 
+        <li> <p><strong>Bajo</strong> </p> </li> 
+        <li> <p> <b>Normal</b></p> </li> 
+        <li> <p><b>Alto</b> </p> </li> 
+        <li> <p><b>Urgente</b> </p> </li> 
+       </ul> <p>Según las Preferencias del proyecto seleccionadas por el administrador de Workfront, los nombres de las prioridades pueden ser diferentes para usted. Para obtener más información acerca de cómo editar prioridades, consulte <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md" class="MCXref xref">Crear y personalizar prioridades</a>.</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><strong>Restricción de tarea</strong> </td> 
+      <td> <p>La tarea en el proyecto creado a partir de esta plantilla tendrá esta restricción. Las restricciones de tarea identifican cuándo se debe completar una tarea. </p> <p>Seleccione entre las siguientes opciones:</p> 
+       <ul> 
+        <li><strong>Fechas fijas</strong>. Especifique un <strong>inicio planificado</strong> y una <strong>fecha planificada de finalización.</strong></li> 
+        <li><strong>Debe iniciarse el</strong>. Especifique una <strong>fecha de inicio planificada.</strong></li> 
+        <li><strong>Debe finalizarse el</strong>. Especifique una <strong>Fecha planificada de finalización</strong>.</li> 
+        <li><strong>Lo antes posible</strong> </li> 
+        <li><strong>Lo más tarde posible</strong> </li> 
+        <li style="font-weight: bold;"><strong>Lo más temprano disponible</strong> </li> 
+        <li style="font-weight: bold;"><strong>Lo más tarde posible</strong> </li> 
+        <li>No iniciar después del. Especifique una <strong>fecha de inicio planificada</strong>.</li> 
+        <li><strong>No iniciar antes del</strong>. Especifique una <strong>fecha de inicio planificada</strong>.</li> 
+        <li><strong>No terminar después de</strong>. Especifique una <strong>fecha planificada de finalización</strong>.</li> 
+        <li><strong>No terminar antes de</strong>. Especifique una <strong>fecha planificada de finalización</strong>.</li> 
+       </ul> <p>Para obtener más información sobre la restricción de tarea, consulte <a href="../../../manage-work/tasks/task-constraints/task-constraint-overview.md" class="MCXref xref">Información general sobre la restricción de tarea</a>.</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><span style="font-weight: bold;">Día de inicio</span><span style="font-weight: normal;"> (opcional y condicional)</span> </td> 
+      <td> <p> Puede especificar el Día de inicio de una tarea de plantilla sólo cuando la restricción de tarea sea una de las siguientes:</p> 
+       <ul> 
+        <li>Debe iniciarse el</li> 
+        <li>No iniciar antes del</li> 
+        <li>No iniciar después del</li> 
+        <li>Fechas fijas</li> 
+       </ul> <p>Esto corresponderá a la fecha dentro de la cronología del futuro proyecto en que comenzará la tarea. Para todas las demás delimitaciones, Workfront calcula el día de inicio en función de la dependencia de predecesoras entre las tareas. </p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><strong>Día de finalización</strong><span style="font-weight: normal;"> (opcional y condicional)</span> </td> 
+      <td> <p> Puede especificar el día de finalización de una tarea de plantilla solo cuando la restricción de tarea sea una de las siguientes:</p> 
+       <ul style="list-style-type: circle;"> 
+        <li>Debe finalizarse el</li> 
+        <li>No terminar antes de</li> 
+        <li>No terminar después de</li> 
+        <li>Fechas fijas</li> 
+       </ul> <p>Esto corresponderá con la fecha dentro de la cronología del futuro proyecto en que se completará la tarea. Para todas las demás restricciones, Workfront calcula el día de finalización en función de la duración y la dependencia de la predecesora. </p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><strong>URL</strong> </td> 
+      <td>Especifique un vínculo web relacionado con la información sobre la tarea de plantilla.</td> 
+     </tr>
+
+   <tr> 
+      <td role="rowheader"><strong>Esfuerzo de trabajo</strong> </td> 
+      <td>Elija entre las siguientes opciones:
+      <ul><li>Pequeño</li>
+      <li>Media</li>
+      <li>Grande</li></ul>
+
+   <p><b>IMPORTANTE</b></p>
+      <p>El campo Esfuerzo de trabajo se muestra al editar una tarea de plantilla solamente cuando selecciona la opción <b>Usar esfuerzo de trabajo para calcular automáticamente las horas planificadas para la tarea</b> al editar la plantilla.</p>
+
+   </td> 
+     </tr> 
+     </tbody> 
+   </table>
+
+1. (Opcional) Siga editando las secciones siguientes, según la información que desee modificar.
+
+   O
+
+   Haga clic en **Guardar**.
+
+#### Asignaciones {#assignments-2}
+
+1. Comience a editar la tarea de plantilla como se ha descrito anteriormente.
+1. Haga clic en **Asignaciones** en el panel izquierdo.
+
+   Se abre el área **Asignaciones**.
+
+   ![Asignaciones en tareas de plantilla](assets/assignments-edit-template-tasks-box.png)
+
+1. Empiece a escribir el nombre de un usuario, rol o equipo en el campo **Buscar personas, rol o equipo**, y después selecciónelos cuando se muestren en la lista.
+
+1. Actualice la siguiente información:
+
+   <table style="table-layout:auto"> 
+   <col> 
+   <col> 
+   <tbody> 
+   <tr> 
+   <td role="rowheader">Tipo de duración</td> 
+   <td> <p>Esto identifica la relación entre lo siguiente: </p> 
+   <ul> 
+   <li> <p>El número de recursos asignados a una tarea </p> </li> 
+   <li> <p>El esfuerzo total necesario para completar la tarea </p> </li> 
+   <li> <p> La duración total de la tarea. </p> </li> 
+   </ul> <p>El administrador de grupos o de Workfront selecciona la configuración predeterminada de Tipo de duración para las tareas del sistema o del grupo. Para obtener información sobre cómo establecer los valores predeterminados del proyecto, consulte <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md" class="MCXref xref">Configurar las preferencias de tareas y problemas en todo el sistema</a>. </p> <p>Los tipos de duración permiten establecer asignaciones de recursos coherentes según las necesidades de la tarea. Para obtener más información acerca del tipo de duración de una tarea, consulte <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Información general sobre la duración de la tarea y el tipo de duración</a>. </p> <p>Seleccione entre las siguientes opciones: </p> 
+   <ul> 
+   <li> <p>Asignación calculada </p> </li> 
+   <li> <p> Trabajo calculado </p> </li> 
+   <li> <p>Condicionada por el esfuerzo </p> </li> 
+   <li> <p>Simple</p> </li> 
+   </ul> </td> 
+   </tr> 
+   <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
+   <td role="rowheader">Duración por resolicitud</td> 
+   <td> <p>Esto solo se muestra en el elemento principal de las tareas recurrentes. Muestra la duración de cada tarea recurrente, tal como se definió cuando se creó la tarea. Para obtener información acerca de las tareas recurrentes, consulte <a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">Crear tareas recurrentes</a>. </p> <p> <b>NOTA</b>
+
+   Las duraciones modificadas en tareas recurrentes individuales no muestran el valor indicado en este campo. </p> </td>
+   </tr> 
+   <tr> 
+   <td role="rowheader">Duración</td> 
+   <td> 
+   <div> 
+   <div> 
+   <p>Es la cantidad de tiempo que permite que una tarea permanezca abierta antes de completarse. </p> 
+   <p><b>IMPORTANTE</b></p>
+   <p>Debido a que la duración de la tarea suele ser la cantidad de tiempo entre las fechas planificadas de inicio y finalización, afecta a la cronología del proyecto.</p> 
+   <p>Para indicar la duración de la tarea y la unidad de tiempo, haga lo siguiente:</p> 
+   <ul> 
+   <li> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Escriba la cantidad de tiempo y seleccione una de las unidades de tiempo disponibles en el menú desplegable.</p> <p><b>Sugerencia</b></p>
+   Al actualizar la duración de las tareas en una lista de tareas, puede utilizar la abreviatura para la unidad de tiempo. </p> </li> 
+   </ul> 
+   <p> Puede elegir entre las opciones de tiempo normal o tiempo transcurrido en la siguiente tabla: </p> 
+   <table style="table-layout:auto"> 
+   <col> 
+   <col data-mc-conditions=""> 
+   <tbody> 
+   <tr> 
+   <td>Unidad de tiempo</td> 
+   <td>Abreviatura</td> 
+   </tr> 
+   <tr> 
+   <td>minutos</td> 
+   <td>L</td> 
+   </tr> 
+   <tr> 
+   <td>Horas</td> 
+   <td>H</td> 
+   </tr> 
+   <tr> 
+   <td>Días. Es la opción predeterminada. </td> 
+   <td>D</td> 
+   </tr> 
+   <tr> 
+   <td>Semanas</td> 
+   <td>S</td> 
+   </tr> 
+   <tr> 
+   <td>Meses</td> 
+   <td>M</td> 
+   </tr> 
+   <tr> 
+   <td>Minutos transcurridos</td> 
+   <td>MT</td> 
+   </tr> 
+   <tr> 
+   <td>Horas transcurridas</td> 
+   <td>HT</td> 
+   </tr> 
+   <tr> 
+   <td>Días transcurridos</td> 
+   <td>DT</td> 
+   </tr> 
+   <tr> 
+   <td>Semanas transcurridas</td> 
+   <td>ST</td> 
+   </tr> 
+   <tr> 
+   <td>Meses transcurridos</td> 
+   <td>ET</td> 
+   </tr> 
+   </tbody> 
+   </table>
+
+   <p><b>NOTA</b>
+
+   <p>El tiempo transcurrido es una unidad de tiempo de la duración de una tarea. Es el tiempo entre la fecha de inicio planificada y la fecha de finalización planificada de una tarea que incluye días festivos, fines de semana y días libres. En otras palabras, el tiempo transcurrido es el paso de los días del calendario.
+
+   El tiempo habitual tiene en cuenta los días festivos, los fines de semana y los días libres, y los excluye de la duración de la tarea. Para obtener más información acerca de la duración de la tarea, consulte <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Información general sobre la duración de la tarea y el tipo de duración</a>. </p>
+   </div> 
+   </div> </td> 
+   </tr> 
+   <tr> 
+   <td role="rowheader">Horas planificadas</td> 
+   <td> <p>Especifique el número de horas planificadas para la tarea, en horas. Esta es la cantidad de tiempo real que tardarían los usuarios asignados a la tarea en completarla. Solamente puede especificar el número de horas planificadas para una tarea cuando el tipo de duración está establecido en Asignación calculada. Para obtener más información sobre los tipos de duración, consulte <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Información general de la duración de la tarea y tipos de duración</a>.</p> 
+   <b>NOTA</b>
+   <p>
+   Al crear tareas recurrentes, las horas planificadas son las de cada ocurrencia. Las horas planificadas de las tareas principales son el total de todas las horas planificadas de todas las ocurrencias. Para obtener información acerca de la creación de tareas recurrentes, consulte <a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">Crear tareas recurrentes</a>.
+   </p>
+
+   </td> 
+   </tr> 
+   <tr> 
+   <td role="rowheader">Asignación</td> 
+   <td> <p>Si la restricción de tarea es Trabajo Calculado o Condicionada por el esfuerzo, especifique el <strong>% de asignación</strong> (porcentaje de asignación) para cada usuario asignado. Esta es la cantidad de tiempo de la programación del usuario asignado que puede dedicar a esta tarea. Si se cambia el porcentaje de asignación de un usuario asignado, se cambiarán las horas planificadas de una tarea. </p> <p>Cuando la restricción de tarea es simple, puede especificar lo siguiente:</p> 
+   <ul> 
+   <li> <p>Horas de asignación de cada usuario asignado.</p> </li> 
+   <li> <p>Horas planificadas de la tarea</p> </li> 
+   <li> <p>Duración de la tarea</p> </li> 
+   </ul> </td> 
+   </tr> 
+   <tr> 
+   <td role="rowheader">Rol de asignado</td> 
+   <td> <p>Seleccione un rol del menú desplegable <strong>Rol de usuario asignado</strong> cuando haya seleccionado una persona como usuario asignado. Este es el rol que el usuario asignado puede desempeñar en esta tarea. </p> <p><b>Sugerencia</b>
+
+   En el menú desplegable solo aparecen los roles de trabajo asociados con cada usuario asignado en su perfil.</p> </td>
+   </tr> 
+   </tbody> 
+   </table>
+
+1. Haga clic en **Guardar** o continúe con las siguientes secciones.
+
+#### Finanzas {#finance-2}
+
+1. Comience a editar una tarea de plantilla como se ha descrito anteriormente.
+1. En el cuadro **Editar tarea de plantilla**, haga clic en **Finanzas** en el panel izquierdo.
+
+   ![Plantilla para editar la sección de finanzas](assets/template-task-edit-finance.png)
+
+1. Actualice cualquiera de las siguientes opciones:
+
+   <table style="table-layout:auto"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader"><strong>Tipo de coste</strong> </td> 
+      <td> <p>Especifique el tipo de coste para la tarea futura. Esto determinará cómo se calcula el coste de la tarea, en función del número de horas de las tareas. </p> <p>Seleccione entre las siguientes opciones:</p> 
+       <ul> 
+        <li> <p style="font-weight: normal;"><span>Sin coste</span> </p> </li> 
+        <li> <p style="font-weight: normal;"><span>Fijo por hora</span> </p> </li> 
+        <li> <p style="font-weight: normal;"><span>Usuario por hora</span> </p> </li> 
+        <li> <p style="font-weight: normal;"><span>Función por hora</span> </p> </li> 
+       </ul> <p>Para obtener más información sobre los costes de seguimiento, consulte <a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">Costes de seguimiento</a>.</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><strong>Tipo de ingresos</strong> </td> 
+      <td> <p>Especifique el tipo de ingresos para la tarea futura. Esto determina cómo se calculan los ingresos de la tarea, en función del número de horas de las tareas.</p> <p style="font-weight: normal;">Seleccione entre las siguientes opciones: </p> 
+       <ul> 
+        <li> <p style="font-weight: normal;">No facturable</p> </li> 
+        <li> <p style="font-weight: normal;">Usuario por hora</p> </li> 
+        <li> <p style="font-weight: normal;">Rol por hora</p> </li> 
+        <li> <p style="font-weight: normal;">Fijo por hora</p> </li> 
+        <li> <p style="font-weight: normal;">Usuario por hora sin límite</p> </li> 
+        <li> <p style="font-weight: normal;">Rol por hora con límite</p> </li> 
+        <li> <p style="font-weight: normal;">Usuario por hora más fijos</p> </li> 
+        <li> <p style="font-weight: normal;">Rol por hora más fijos</p> </li> 
+        <li> <p style="font-weight: normal;">Ingresos fijos</p> </li> 
+       </ul> <p>Para obtener más información sobre el seguimiento de los ingresos, consulte <a href="../../../manage-work/projects/project-finances/billing-and-revenue-overview.md" class="MCXref xref">Información general sobre facturación e ingresos</a>.</p> </td> 
+     </tr> 
+    </tbody> 
+   </table>
+
+1. (Opcional) Siga editando las secciones siguientes, según la información que desee modificar.
+
+   O
+
+   Haga clic en **Guardar**.
+
+#### Formularios personalizados {#custom-forms-2}
+
+Puede definir formularios personalizados para que se adjunten automáticamente de forma predeterminada a las tareas cuando estas se añadan a un proyecto. Para obtener información sobre cómo configurar el proyecto para que incluya formularios personalizados de tareas predeterminados, consulte la sección &quot;Tareas&quot; en el artículo [Editar proyectos](../../../manage-work/projects/manage-projects/edit-projects.md).
+
+También puede agregar formularios personalizados a las tareas futuras de un proyecto cuando el proyecto se cree a partir de una plantilla, agregando los formularios personalizados a las tareas de plantilla.
+
+1. Comience a editar una tarea de plantilla como se ha descrito anteriormente.
+1. En el cuadro **Editar tarea de plantilla**, haga clic en **Forms personalizado** en el panel izquierdo.
+
+   ![Plantilla para editar la sección de formularios personalizados](assets/template-task-edit-custom-forms.png)
+
+1. Seleccione el formulario o formularios personalizados que desee asociar a la tarea de plantilla.
+
+   Debe crear los formularios personalizados antes de que estén disponibles para seleccionarlos en este campo.
+En la lista solo se muestran los formularios personalizados activos.
+
+   Para obtener más información sobre la creación de formularios personalizados, consulte [Crear un formulario personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+
+   Puede agregar hasta diez formularios personalizados a una tarea de plantilla.
+Los formularios se añaden automáticamente a las tareas creadas a partir de la plantilla.
+1. (Condicional y opcional) Si adjuntó un formulario personalizado a la tarea de plantilla, edite los campos del formulario. Debe especificar todos los campos obligatorios antes de guardar la tarea de plantilla.
+
+   >[!NOTE]
+   >
+   >Según la forma en que el administrador de Workfront haya establecido los permisos para las secciones del formulario personalizado, no todos podrán ver o editar los mismos campos en un formulario personalizado determinado. Los permisos para editar campos dentro de una sección de un formulario personalizado dependen de los permisos que tenga sobre la tarea de plantilla o la tarea futura.\
+   >Para obtener información acerca de cómo establecer permisos en secciones de un formulario personalizado, consulte [Compartir un formulario personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md).\
+   >Para obtener información acerca de cómo establecer permisos para tareas, consulte [Compartir una tarea](../../../workfront-basics/grant-and-request-access-to-objects/share-a-task.md).\
+   >Para obtener información acerca de cómo establecer permisos de plantilla, consulte [Compartir una plantilla](../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md).
+
+1. (Opcional) Siga editando la sección siguiente, según la información que desee modificar.
+
+   O
+
+   Haga clic en **Guardar**.
+
+#### Configuración {#settings-2}
+
+1. Comience a editar una tarea de plantilla como se ha descrito anteriormente.
+1. En el **Cuadro Editar tarea de plantilla**, haga clic en **Configuración** en el panel izquierdo.
+
+   ![Sección de configuración de edición de tareas de plantilla](assets/template-task-edit-settings.png)
+
+1. Actualice cualquiera de las siguientes opciones:
+
+   <table style="table-layout:auto"> 
+    <col> 
+    <col> 
+    <tbody> 
+   <tr> 
+      <td role="rowheader"><p><b>Hito</b></p></strong> </td> 
+      <td> <p>Elija un hito para asociarlo a la tarea de plantilla seleccionada.</p>
+
+   <p><b>IMPORTANTE</b></p>
+   <p>Debe asociar una ruta del hito a una plantilla para que este campo se muestre. Para obtener más información, consulte <a href="../create-and-manage-templates/edit-templates.md">Editar plantillas de proyecto</a>.</p> 
+   </td> 
+     </tr>
+     <tr> 
+      <td role="rowheader"><strong>Modo de seguimiento</strong> </td> 
+      <td> <p>Especifique cómo se rastreará el estado de progreso de la tarea futura. </p> <p>Seleccione entre las siguientes opciones:</p> 
+       <ul> 
+        <li> <p><strong>El usuario debe actualizar</strong> </p> </li> 
+        <li> <p><strong>Asumir a tiempo</strong> </p> </li> 
+        <li> <p><strong>Ignorar advertencias tardías</strong> </p> </li> 
+        <li> <p><strong>Autocompletar</strong> </p> </li> 
+        <li> <p><strong>Predecesora</strong> </p> </li> 
+       </ul> <p>Para obtener más información sobre el modo de seguimiento de las tareas, consulte <a href="../../../manage-work/tasks/task-information/task-tracking-mode.md" class="MCXref xref">Información general sobre el modo de seguimiento de tareas</a>.</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><strong>Notificaciones de recordatorio</strong> </td> 
+      <td> <p>Seleccione las notificaciones de recordatorio que desee adjuntar a la tarea de plantilla. Se adjuntarán a las tareas futuras del proyecto creadas a partir de esta plantilla. El administrador del sistema debe configurar las notificaciones de recordatorio para poder seleccionarlas en una tarea. Para obtener más información acerca de cómo configurar notificaciones de recordatorio, consulte <a href="../../../administration-and-setup/manage-workfront/emails/set-up-reminder-notifications.md" class="MCXref xref">Configurar notificaciones de recordatorio</a>.</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><strong>Proceso de aprobación</strong> </td> 
+      <td> <p>Seleccione el proceso de aprobación que desea asociar con la tarea de plantilla. El administrador de Workfront debe definir los procesos de aprobación de tareas en el nivel del sistema para poder asociarlos a tareas de plantilla. <span>Un usuario con acceso administrativo a los procesos de aprobación también puede crear procesos de aprobación específicos del grupo.</span> Para obtener más información acerca de cómo crear procesos de aprobación, consulte <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md" class="MCXref xref">Crear un proceso de aprobación para elementos de trabajo</a>.</p> <p>Tenga en cuenta lo siguiente a la hora de añadir procesos de aprobación: </p> 
+       <ul> 
+       <li>En la lista solo se muestran los procesos de aprobación activos. </li> 
+       <li> <p>Los procesos de aprobación de todo el sistema y específicos del grupo se muestran en la lista. Los procesos de aprobación asociados a un grupo distinto al de la plantilla no se muestran en la lista.</p> <p>Importante: si el grupo asociado a la plantilla cambia, el proceso de aprobación específico del grupo se convierte en un proceso de aprobación de un solo uso. Para obtener más información acerca de cómo afectan los cambios en el grupo del proyecto o los cambios en el proceso de aprobación a la configuración de aprobación, consulte <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md" class="MCXref xref">Cómo afectan los cambios en el grupo y el proceso de aprobación a los procesos de aprobación asignados</a>. </p> </li> 
+       <li> <p>Si añadió un proceso de aprobación de un solo uso, se mostrará como “&lt;Custom&gt;" en este campo. Para obtener más información, consulte <a href="../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md" class="MCXref xref">Asociar un proceso de aprobación nuevo o existente con el trabajo</a>. </p>  </li> 
+       <li> <p>Cuando se editan por lotes tareas de plantilla, se dan los siguientes escenarios:</p> 
+       <ul> 
+       <li> <p>Al seleccionar tareas de plantilla del mismo grupo de plantillas, en este campo se muestran tanto los procesos de aprobación de nivel de sistema como de nivel de grupo.</p> </li> 
+       <li> <p>Al seleccionar tareas de plantilla de diferentes grupos de plantillas, solo se muestran en este campo los procesos de aprobación de nivel de sistema.</p> </li> 
+       <li> <p>Cuando cualquiera de las tareas de plantilla tiene un proceso de aprobación de un solo uso adjunto, se reemplaza por el proceso de aprobación de nivel de sistema <span> o de nivel de grupo </span> que seleccione. </p> </li> 
+       </ul> </li> 
+       </ul> </td> 
+     </tr>
+
+   </tbody> 
+   </table>
+
+1. (Opcional) Siga editando las secciones siguientes, según la información que desee modificar.
+
+   O
+
+   Haga clic en **Guardar**.
+
+#### Comentario {#comment-2}
+
+1. Comience a editar una tarea de plantilla como se ha descrito anteriormente.
+1. En el cuadro **Editar tarea de plantilla**, haga clic en **Comentario** en el panel izquierdo.
+
+   ![Sección de comentarios de edición de tarea de plantilla](assets/template-task-edit-comment.png)
+
+1. En el área **Agregar una actualización a la tarea de plantilla**, especifique un comentario que desee mostrar en el flujo de actualizaciones de la tarea de plantilla en el campo disponible. Este comentario es visible para todos los que tengan acceso de Vista a la plantilla y a la tarea de plantilla y con acceso para visualizar Notas.
+1. Haga clic en **Guardar**.
+
+   Cuando usted u otro usuario crea un proyecto a partir de esta plantilla, todos los ajustes aplicados a las tareas de plantilla se convierten en los ajustes de las tareas de proyecto.
+
+</div>
+
 
