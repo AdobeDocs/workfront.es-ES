@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
+source-git-commit: 233051de458917fd3b40a675914552ccd7d2f474
 workflow-type: tm+mt
 source-wordcount: '1568'
-ht-degree: 47%
+ht-degree: 46%
 
 ---
 
@@ -192,7 +192,7 @@ Para añadir una sección a una vista previa o a una página del registro:
 
    En la vista de tabla, haga clic en el icono **Abrir detalles** ![Abrir detalles en el campo de nombre de tabla](assets/open-details-icon-in-table-name-field.png) de la primera columna.
 
-   La vista previa del registro se abrirá en la vista.
+   <span class="preview">La vista previa del registro se abre en la vista.</span>
 
    ![Cuadro de detalles](assets/details-box.png)
 
@@ -271,7 +271,7 @@ Ocurren lo siguiente:
 
    En la vista de tabla, haga clic en el icono **Abrir detalles** ![Abrir detalles en el campo de nombre de tabla](assets/open-details-icon-in-table-name-field.png) de la primera columna.
 
-   La vista previa del registro se abrirá en la vista.
+   <span class="preview">La vista previa del registro se abre en la vista.</span>
 
    ![Cuadro de detalles](assets/details-box.png)
 

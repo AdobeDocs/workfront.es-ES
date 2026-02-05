@@ -3,9 +3,9 @@ title: Introducción a la prueba gratuita de Adobe Workfront Planning
 description: Adobe Workfront ofrece una versión de prueba gratuita de 60 días de Adobe Workfront Planning. Este ensayo es su oportunidad para ver cómo Planning conecta la estrategia global con el trabajo diario que la hace realidad. Planning proporciona una visibilidad centralizada del ciclo vital de marketing, lo que permite una mejor colaboración entre equipos, un seguimiento en tiempo real de campañas y flujos de trabajo automatizados. Puede crear espacios de trabajo personalizados y visualizar el trabajo con cronologías y calendarios interactivos. Con esta prueba, verá de primera mano cómo Planning ayuda a alinear el trabajo diario con los objetivos estratégicos, agilizar la ejecución y dirigir resultados mensurables para su organización.
 hidefromtoc: true
 hide: true
-source-git-commit: f5d6918889b7fed1159274105ee706a027f621bf
+source-git-commit: 233051de458917fd3b40a675914552ccd7d2f474
 workflow-type: tm+mt
-source-wordcount: '1148'
+source-wordcount: '1255'
 ht-degree: 2%
 
 ---
@@ -71,15 +71,29 @@ Las siguientes son fechas importantes asociadas con la oferta de prueba gratuita
    * Ventana de aceptación del acuerdo de prueba. Solamente un administrador de Workfront puede aceptar el acuerdo. Puede aceptar el acuerdo de prueba en cualquier momento a partir de esta fecha.
 * **2 de marzo de 2026**: Se inicia la versión de prueba de Workfront Planning.
 
+  Se añaden los siguientes elementos a la instancia de Workfront:
+
+   * Los titulares de Workfront Planning se siguen mostrando para todos los usuarios.
+   * La preferencia **Revisar acuerdo de prueba** se agrega al área **Configuración**.
+
   Se dan los siguientes escenarios:
 
    * Si el administrador de Workfront ha aceptado el acuerdo antes de esta fecha, puede encontrar el área de Planning en el menú principal y empezar a utilizar Workfront Planning.
    * Si el administrador de Workfront no ha aceptado el acuerdo antes de esta fecha, primero debe aceptarlo para poder acceder a Workfront Planning.
+* **1 de abril de 2026**: ya no puede inscribirse en el período de prueba.
+
+  Los siguientes elementos se eliminarán de la instancia de Workfront:
+
+   * Los titulares de prueba de Workfront Planning.
+   * La preferencia **Revisar acuerdo de prueba** se ha eliminado del área **Configuración**.
+
 * **1 de mayo de 2026**: La versión de prueba de Workfront Planning se cerrará y se eliminará su acceso a Planning.
 
-  Workfront protege los datos una vez finalizada la prueba, pero ya no tiene acceso a ellos.
+  Si ha participado en la versión de prueba, Workfront protege sus datos una vez finalizada la versión de prueba. Sin embargo, ya no tiene acceso a él después de esta fecha.
 
   Independientemente de cuándo acepte el acuerdo, su acceso a Planning finaliza en esta fecha.
+
+  Todas las versiones de prueba de Workfront Planning
 * **30 de noviembre de 2026**: Workfront ya no protege sus datos después de esta fecha. Si adquiere Workfront Planning antes de esta fecha, recuperará el acceso a Planning y a sus datos.
 
 <!--Lauren wanted this out: 
@@ -144,7 +158,9 @@ Para revisar y aceptar el acuerdo legal, siga uno de estos procedimientos:
 
 * **Entre el 2 de marzo y el 1 de mayo de 2026**:
 
-  Se le otorgan los siguientes permisos para los espacios de trabajo en el área de Planning durante la prueba gratuita:
+  Independientemente del nivel de acceso a la licencia de Workfront o Workflow, cuando acepte participar en el programa de prueba de Workfront Planning, recibirá una licencia de Workfront Planning Prime.
+
+  Los usuarios del sistema reciben los siguientes permisos en los espacios de trabajo del área de Planning durante la prueba gratuita:
 
    * Todos los administradores del sistema tienen permisos de administración en la pestaña Espacios de trabajo.
    * Todos los demás usuarios tienen permisos de visualización en la pestaña Espacios de trabajo, pero el administrador del sistema puede concederles permisos de administración en los espacios de trabajo.

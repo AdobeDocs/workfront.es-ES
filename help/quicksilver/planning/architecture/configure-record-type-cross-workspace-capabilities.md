@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: d36ab9fb-0275-483d-97be-0a88e170f8e0
-source-git-commit: 5d326776b9c5b4d9d24e802375df4630508c8bd0
+source-git-commit: 233051de458917fd3b40a675914552ccd7d2f474
 workflow-type: tm+mt
-source-wordcount: '1314'
+source-wordcount: '1411'
 ht-degree: 5%
 
 ---
@@ -22,9 +22,9 @@ ht-degree: 5%
 
 {{planning-important-intro}}
 
-<!--<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">La información resaltada en esta página hace referencia a funcionalidades que aún no están disponibles de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después de las versiones mensuales en Production, las mismas funciones también están disponibles en el entorno Production para los clientes que habilitaron versiones rápidas. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 Puede configurar los tipos de registros para que funcionen en varios espacios de trabajo en Adobe Workfront Planning.
 
@@ -198,7 +198,7 @@ Para configurar un tipo de registro como global:
    >
    >Sólo se puede editar el aspecto y la configuración del tipo de registro y sus campos originales desde el espacio de trabajo original.
 
-   * La tarjeta de tipo de registro muestra un icono **tipo de registro global** ![icono de tipo de registro global](assets/global-icon.png) para indicar que el tipo de registro está disponible para agregarse a otros espacios de trabajo.
+   * La tarjeta de tipo de registro muestra un icono **tipo de registro global** ![icono de tipo de registro global en el espacio de trabajo principal](assets/global-icon.png) para indicar que el tipo de registro está disponible para agregarse a otros espacios de trabajo.
    * Un campo **Workspace** generado por el sistema se agrega a la vista de tabla del tipo de registro y los detalles de sus registros.
 
      El campo Workspace muestra el espacio de trabajo desde el que se crea cada registro.
@@ -214,7 +214,7 @@ Para configurar un tipo de registro como global:
 
    Para obtener más información, vea [Agregar tipos de registros existentes desde otro área de trabajo](/help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md).
 
-   El tipo de registro agregado de un tipo de registro global en el área de trabajo secundaria también muestra un icono de **tipo de registro global** ![icono de tipo de registro global](assets/global-icon.png).
+   El tipo de registro agregado de un tipo de registro global en el área de trabajo secundaria muestra <span class="preview">un icono **tipo de registro global** similar ![icono de tipo de registro global en el área de trabajo secundaria](assets/global-icon-secondary-workspace.png) que incluye una flecha, que indica que el tipo de registro se importó desde otra área de trabajo. Cuando pasa el ratón sobre el icono global del área de trabajo secundaria, aprenderá el nombre del área de trabajo original.</span>
 1. (Opcional) Vuelva al espacio de trabajo original donde creó el tipo de registro global y edite el tipo de registro siguiendo los pasos del 1 al 4 anteriores a <!--ensure this stays accurate-->
 1. (Opcional) Revise la lista de espacios de trabajo donde se ha agregado el registro global en la sección **Espacios de trabajo donde se usa este tipo de registro**. El propietario del espacio de trabajo también aparece junto al nombre del espacio de trabajo.
 
