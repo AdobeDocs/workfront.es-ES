@@ -4,10 +4,10 @@ description: Esta página proporciona información sobre la funcionalidad que se
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 03142ce47e7b123eea63b409749346469f5feb14
+source-git-commit: c4ec10bde03404befd75464841f8d3c90421dde8
 workflow-type: tm+mt
-source-wordcount: '813'
-ht-degree: 29%
+source-wordcount: '854'
+ht-degree: 28%
 
 ---
 
@@ -102,6 +102,14 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td><strong>Vista previa</strong></td>
         <td><strong>Liberación rápida</strong></td>
         <td><strong>Trimestralmente</strong></td>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-projects.md" class="MCXref xref" xrefformat="{para}">Se actualizó la experiencia cuando y las tareas de plantilla de asignación única o masiva </a><p>[!BADGE Off schedule]{type=Neutral}</p><p> Hemos actualizado la sección Asignaciones en el cuadro Editar tareas de plantilla al editar tareas de plantilla únicas o editarlas por lotes.  </p>
+        </td>
+        <td><p>viernes, 05 de febrero de 2026</p></td>
+        <td><p>A partir del 5 de febrero de 2026</p></td>
+        <td><p>A partir del 5 de febrero de 2026</p></td>
+    </tr>
     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-projects.md" class="MCXref xref" xrefformat="{para}">Experiencia actualizada al asignar tareas de forma única o masiva </a><p>[!BADGE Off schedule]{type=Neutral}</p><p> Hemos actualizado la sección Asignaciones en el cuadro Editar tareas al editar tareas únicas o editarlas por lotes. </p>
@@ -201,7 +209,7 @@ Para ofrecer integraciones más estables y escalables, estamos adoptando un enfo
 * Workfront para Salesforce.
 
 Recomendamos utilizar la automatización e integración de Workfront para las necesidades de integración de su organización con Google Workspace.
-Para obtener una descripción general de la automatización e integración de Workfront, consulte [Información general de Adobe Workfront Fusion](https://experienceleague.adobe.com/es/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+Para obtener una descripción general de la automatización e integración de Workfront, consulte [Información general de Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 
 
 ### Actualizaciones de mantenimiento de Workfront
