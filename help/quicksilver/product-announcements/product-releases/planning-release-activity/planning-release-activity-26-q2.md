@@ -6,9 +6,9 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: f5d6918889b7fed1159274105ee706a027f621bf
+source-git-commit: f722940bd7222ebec85aad143378f8f849357e5a
 workflow-type: tm+mt
-source-wordcount: '476'
+source-wordcount: '561'
 ht-degree: 3%
 
 ---
@@ -20,6 +20,22 @@ Este artículo describe las funciones que se lanzarán para Workfront Planning d
 <!--keep the sentence below for all future quarterly release pages-->
 
 Para obtener una lista de todas las características publicadas para Adobe Workfront Planning, consulte [Actividad de la versión de Adobe Workfront Planning: índice de artículo](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+
+## Mejoras en los tipos de registros globales en espacios de trabajo secundarios
+
+>[!NOTE]
+>
+>Vista previa: 5 de febrero de 2026
+>Versión rápida de producción: 12 de marzo de 2026
+>Producción para todos: 16 de abril de 2026
+
+Hemos mejorado la visibilidad de los tipos de registros globales añadidos a un espacio de trabajo secundario desde un espacio de trabajo principal. Entre las mejoras se incluyen las siguientes:
+
+* Icono global ligeramente modificado que indica que el tipo de registro se agregó desde otro espacio de trabajo.
+
+* Información de objeto mejorada sobre el nuevo icono que identifica claramente el espacio de trabajo en el que se creó el tipo de registro.
+
+Para obtener más información, vea [Agregar tipos de registros existentes desde otro área de trabajo](/help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md).
 
 ## Configurar los campos mostrados en el cuadro de vista previa Detalles de un registro
 
