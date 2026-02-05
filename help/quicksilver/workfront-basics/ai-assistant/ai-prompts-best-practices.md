@@ -1,18 +1,18 @@
 ---
-title: El asistente de IA solicita prácticas recomendadas
+title: Preguntas frecuentes y prácticas recomendadas del Asistente de IA
 content-type: reference
 description: Conozca las prácticas recomendadas para utilizar el Asistente de IA y vea una lista de ejemplos rápidos.
 author: Jenny
 feature: Get Started with Workfront
 exl-id: 34a60482-e060-49f9-bbaf-8aed85845e26
-source-git-commit: 4bab0129d694d7134a5dae90474678226368ca78
+source-git-commit: dc472e93541641ee1c960ec7246365200f522a17
 workflow-type: tm+mt
-source-wordcount: '741'
+source-wordcount: '743'
 ht-degree: 4%
 
 ---
 
-# El asistente de IA solicita prácticas recomendadas
+# Preguntas frecuentes y prácticas recomendadas del Asistente de IA
 
 El asistente de IA de Workfront es una potente herramienta que puede ayudarle a realizar su trabajo de forma más eficaz al ofrecer información útil acerca de los datos de su cuenta y los tipos de objetos específicos.
 
@@ -64,7 +64,7 @@ En esta fase del desarrollo de AI Assistant, se recomienda verificar la informac
 Para obtener más información sobre las solicitudes de procesos de Workfront, consulte [Solicitudes para obtener más información acerca de las acciones de Workfront](#prompts-to-learn-about-workfront-actions) en este artículo.
 
 
-## Ejemplos de mensajes
+## Ejemplos de indicaciones
 
 Las tablas siguientes contienen ejemplos de indicadores que puede utilizar para generar información sobre su trabajo y obtener más información acerca de los procesos o acciones específicos de Workfront que desea realizar.
 
