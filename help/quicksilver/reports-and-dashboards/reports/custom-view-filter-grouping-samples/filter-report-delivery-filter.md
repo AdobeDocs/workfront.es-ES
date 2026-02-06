@@ -7,10 +7,10 @@ description: Este filtro de informes muestra todos los informes programados para
 author: Lisa and Jenny
 feature: Reports and Dashboards
 exl-id: 7b937384-80c9-4bc7-94be-5573cf86b35b
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: be102fd5f490b12837a231774253c030973c1c4f
 workflow-type: tm+mt
 source-wordcount: '179'
-ht-degree: 57%
+ht-degree: 59%
 
 ---
 
@@ -29,7 +29,7 @@ Este filtro de informes muestra todos los informes programados para ser entregad
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
@@ -66,8 +66,7 @@ Para aplicar este filtro:
 1. En el área **Establecer reglas de filtro para su informe**, copie y pegue el siguiente código:
 
    ```
-   scheduledReportID=0
-   scheduledReportID_Mod=notnull
+    scheduledReportsOM:ID_Mod=notblank
    ```
 
 1. Haga clic en **Guardar filtro**.
