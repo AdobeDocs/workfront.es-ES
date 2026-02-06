@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: 53596271a838733b858c0b14a4e22b07a7cd20f6
+source-git-commit: b2f1bbfbbec23a5400552eb0f989e0a0dc58413c
 workflow-type: tm+mt
-source-wordcount: '1181'
-ht-degree: 46%
+source-wordcount: '1343'
+ht-degree: 39%
 
 ---
 
@@ -26,7 +26,11 @@ ht-degree: 46%
 
 {{planning-important-intro}}
 
-Después de seleccionar un tipo de registro en el área de Adobe Workfront Planning, puede mostrar todos los registros de ese tipo en las siguientes vistas:
+Después de seleccionar un tipo de registro en el área de Adobe Workfront Planning, puede mostrar todos los registros de ese tipo de varias formas.
+
+Puede ver registros en vistas de varios formatos, lo que le ofrece la flexibilidad de explorar y comprender la información de la forma que mejor se adapte a sus necesidades. Tanto si desea una descripción general estructurada, una historia cronológica, un diseño basado en fechas o una lista simple desplazable, cada vista ofrece una perspectiva única.
+
+Puede ver los registros en las vistas siguientes:
 
 * Tabla
 
@@ -39,6 +43,19 @@ Después de seleccionar un tipo de registro en el área de Adobe Workfront Plann
 * Calendario
 
   Para obtener más información, consulte [Administrar la vista de calendario](/help/quicksilver/planning/views/manage-the-calendar-view.md).
+
+* Lista
+
+  Puede ver los registros de una página de registros Connected en una vista de lista.
+
+  >[!IMPORTANT]
+  >
+  >No se puede aplicar una vista de lista a una lista de registros de una página de tipo de registro. Sólo puede aplicar una vista de lista en una página de registro Conectado de un registro a una lista de proyectos conectados. <!--this will change-->
+
+  Para obtener más información, consulte los siguientes artículos:
+
+   * [Agregar una página Registros conectados a un registro](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md)
+   * [Administración de la vista de lista](/help/quicksilver/planning/views/manage-the-list-view.md)
 
 En este artículo se describe la siguiente información sobre las vistas de registros:
 
@@ -192,34 +209,42 @@ En la tabla siguiente se muestran las similitudes y diferencias entre las vistas
 
 <!--some of these are NOT available right now; if you make this public, comment out the ones not there-->
 
-| Función | Vista de tabla | Vista de cronología | Vista de calendario |
-|-----------------------------------------------------------------------|------------|---------------|--------------|
-| Mostrar registros en una lista o tabla | ✓ |              | |
-| Mostrar todos los campos como columnas en la tabla de forma predeterminada | ✓ |              |    |
-| Ocultar o mostrar campos (o columnas) | ✓ |               |    |
-| Editar valores de campo para cada registro | ✓ |               |             |
-| Añadir registros como filas nuevas en la vista | ✓ |               |        |
-| Añadir campos como nuevas columnas en la vista | ✓ |               |         |
-| Copiar filas de una lista externa y pegarlas en una tabla | ✓ |               |          |
-| Mostrar registros en una cronología |            | ✓ |             |
-| Filtrar registros | ✓ | ✓ | ✓ |
-| Mostrar registros en un calendario |           |              | ✓ |
-| Registros de grupo | ✓ | ✓ |  |
-| Ordenar registros | ✓ |              |  |
-| Registros con código de color | ✓ | ✓ | ✓ |
-| Agrupaciones de código de color |           | ✓ |  |
-| Buscar registros específicos | ✓ | ✓ |  |
-| Compartir la vista con otros usuarios | ✓ | ✓ | ✓ |
-| Abra la página del registro desde la vista | ✓ | ✓ |    |
-| Mostrar registros por año y trimestre |           | ✓ |    |
-| Mostrar registros por mes |           | ✓ | ✓ |
-| Mostrar registros por semana |           |               | ✓ |
-| Exportación de información desde una vista | ✓ |               |    |
-| Mostrar en pantalla completa | ✓ | ✓ | ✓ |
-| Creación de registros en la vista | ✓ | ✓ | ✓ |
-| Desglose de registros por sus conexiones |          | ✓ |    |
+| Función | Vista de tabla | Vista de cronología | Vista de calendario | Vista de lista |
+|-----------------------------------------------------------------------|------------|---------------|--------------|---------|
+| Mostrar registros en formato de tabla | ✓ |              | | ✓ |
+| Mostrar todos los campos como columnas en una tabla o lista | ✓ |              |    | ✓ |
+| Ocultar o mostrar campos (o columnas) | ✓ |               |    | ✓ |
+| Editar valores de campo para cada registro | ✓ |               |             | ✓ |
+| Añadir registros como filas nuevas en la vista | ✓ |               |        | ✓ |
+| Añadir campos como nuevas columnas en la vista | ✓ |               |         | ✓ |
+| Copiar filas de una lista externa y pegarlas en una tabla | ✓ |               |          | ✓ |
+| Mostrar registros en una cronología |            | ✓ |             |  |
+| Filtrar registros | ✓ | ✓ | ✓ | ✓ |
+| Mostrar registros en un calendario |           |              | ✓ |  |
+| Registros de grupo | ✓ | ✓ |  |  |
+| Ordenar registros | ✓ |              |  | ✓ |
+| Registros con código de color | ✓ | ✓ | ✓ |  |
+| Agrupaciones de código de color |           | ✓ |  |  |
+| Buscar registros específicos | ✓ | ✓ |  | ✓ |
+| Compartir la vista con otros usuarios | ✓ | ✓ | ✓ | ✓ |
+| Abra la página del registro desde la vista | ✓ | ✓ |    | ✓ |
+| Mostrar registros por año y trimestre |           | ✓ |    |  |
+| Mostrar registros por mes |           | ✓ | ✓ |  |
+| Mostrar registros por semana |           |               | ✓ |  |
+| Exportación de información desde una vista | ✓ |               |    |  |
+| Mostrar en pantalla completa | ✓ | ✓ | ✓ |  |
+| Creación de registros en la vista | ✓ | ✓ | ✓ | ✓ |
+| Desglose de registros por sus conexiones |          | ✓ |    |  |
 
 ## Crear o editar vistas {#create-or-edit-views}
+
+La información de esta sección se aplica a los siguientes tipos de vista:
+
+* Tabla
+* Cronología
+* Calendario
+
+Para obtener información acerca de las vistas de lista, vea [Administrar la vista de lista](/help/quicksilver/planning/views/manage-the-list-view.md).
 
 {{step1-to-planning}}
 
@@ -303,6 +328,10 @@ En la tabla siguiente se muestran las similitudes y diferencias entre las vistas
 ## Habilitar el indicador de presencia en tiempo real en una vista
 
 Puede ver si otros usuarios están editando registros al mismo tiempo que usted siguiendo los indicadores de presencia en tiempo real de la vista.
+
+>[!NOTE]
+>
+>No puede ver los indicadores de presencia en tiempo real en una vista de lista.
 
 De forma predeterminada, los avatares de otros usuarios que están editando información de registro al mismo tiempo que se muestran en la esquina superior derecha de todas las vistas de registros.
 

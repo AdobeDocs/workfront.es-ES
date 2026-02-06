@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 0f93014b-d0f7-4ea3-9b11-3314b46f1ef3
-source-git-commit: a215cf721cc4d517ee39cfa864e29dbbbfeb0a31
+source-git-commit: b2f1bbfbbec23a5400552eb0f989e0a0dc58413c
 workflow-type: tm+mt
-source-wordcount: '90'
-ht-degree: 68%
+source-wordcount: '94'
+ht-degree: 65%
 
 ---
 
@@ -26,5 +26,6 @@ En los siguientes artículos se describe cómo crear y administrar vistas de reg
 * [Administrar la vista de tabla](/help/quicksilver/planning/views/manage-the-table-view.md)
 * [Administrar la vista de cronología](/help/quicksilver/planning/views/manage-the-timeline-view.md)
 * [Administrar la vista de calendario](/help/quicksilver/planning/views/manage-the-calendar-view.md)
+* [Administración de la vista de lista](/help/quicksilver/planning/views/manage-the-list-view.md)
 * [Eliminar vistas de registros](/help/quicksilver/planning/views/delete-record-views.md)
 * [Duplicar vistas de registros](/help/quicksilver/planning/views/duplicate-record-views.md)

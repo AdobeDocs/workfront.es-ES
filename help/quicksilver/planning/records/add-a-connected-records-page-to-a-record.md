@@ -5,13 +5,13 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: 187505de92f9a912547018865f2742bfecec77ad
+exl-id: 5e0be9d9-efa5-4b16-bd56-f9c85bc57ced
+source-git-commit: b2f1bbfbbec23a5400552eb0f989e0a0dc58413c
 workflow-type: tm+mt
-source-wordcount: '2020'
+source-wordcount: '1843'
 ht-degree: 2%
 
 ---
-
 
 # Agregar una página Registros conectados a un registro
 
@@ -76,7 +76,7 @@ Tenga en cuenta lo siguiente al agregar una página Registros conectados a un re
    <ul><li><p>Licencia de Adobe Experience Manager Assets e integración entre AEM Assets y Workfront para conectar recursos de AEM con tipos de registros de Planning.</p>
    <p>Para obtener más información, consulte <a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">Adobe Workfront para Experience Manager Assets y Assets Essentials: índice de artículo</a>. </p></li>
    <li><p> Licencia de Adobe GenStudio for Performance Marketing para conectar tipos de registros con marcas de GenStudio</p>
-   <p>Para obtener más información, consulte <a href="https://experienceleague.adobe.com/es/docs/genstudio-for-performance-marketing/user-guide/get-started">Introducción a Adobe GenStudio for Performance Marketing</a>.</p></li></ul>
+   <p>Para obtener más información, consulte <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started">Introducción a Adobe GenStudio for Performance Marketing</a>.</p></li></ul>
    </td> 
   </tr>
 
@@ -295,7 +295,7 @@ Para obtener más información, consulte [Eliminar vistas de registros](/help/qu
 
 ### Administrar la página de registros conectados para proyectos de Workfront
 
-Cuando cree una página de registros conectados para proyectos conectados de Workfront, haga lo siguiente:
+Cuando cree una página de registros conectada para proyectos conectados de Workfront, haga lo siguiente para administrar la página:
 
 1. Vaya a una página de tipo de registro y haga clic en el nombre de un registro. Se abre la página de vista previa del registro.
 1. Haga clic en la ficha de una página de registros conectada que muestre proyectos de Workfront.
@@ -303,68 +303,34 @@ Los proyectos conectados al registro seleccionado se muestran en la vista de lis
 1. Haga clic en **Conectar registros** en la esquina superior derecha de la página de registros conectada para conectar proyectos existentes.
 
    Para obtener más información, consulte [Conectar registros](/help/quicksilver/planning/records/connect-records.md).
-1. Editar en línea la información del proyecto en la tabla.
-1. Haga clic en **Nueva fila** para crear un proyecto sin plantilla. El nuevo proyecto se conecta automáticamente al registro actual.
+1. Haga doble clic dentro de una celda en la vista de lista para editar los campos de un proyecto. Algunos campos son de solo lectura.
+1. Realice una de las siguientes acciones para editar la vista de lista:
 
-   Para obtener más información, vea [Crear objetos de Workfront desde Workfront Planning a medida que los conecta a registros](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md).
+   * Haga clic en **Nueva fila** para crear un proyecto sin plantilla. El nuevo proyecto se conecta automáticamente al registro actual.
 
-1. Pase el ratón sobre un nombre de proyecto en la lista y haga clic en el menú **Más** [Menú más](assets/more-menu.png)
+     Para obtener más información, vea [Crear objetos de Workfront desde Workfront Planning a medida que los conecta a registros](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md).
+   * Haga clic en **Crear registros **en la esquina superior derecha de la vista para agregar proyectos existentes. Los proyectos se conectan inmediatamente al registro seleccionado.
 
-   O
+   * Pase el ratón sobre un nombre de proyecto en la lista y haga clic en el menú **Más** [Menú más](assets/more-menu.png) y luego haga clic en **Ver** para abrir el proyecto en otra pestaña
 
-   Seleccione uno o varios proyectos, observe la barra azul en la parte inferior de la lista y, a continuación, haga clic en uno de los siguientes:
+     O
 
-   * **Eliminar** para eliminar el proyecto. Al eliminar un proyecto, se desconecta del registro y se mueve a la papelera de reciclaje de Workfront. Los administradores de Workfront pueden recuperar los proyectos eliminados hasta 30 días después de haberlos eliminado.
-   * **Desconectar** para desconectar el proyecto del registro. Al desconectar un proyecto, éste y todos los valores de sus campos de búsqueda se eliminan del registro actual.
+     Seleccione uno o más proyectos y, en la barra de acciones de la parte inferior de la lista, haga clic en **Eliminar** o en **Desconectar** para quitar el elemento de la lista.
 
-     >[!TIP]
-     >
-     >Puede seleccionar más de un proyecto para desconectarlos o eliminarlos.
-     >
 
-1. Haga clic en el menú desplegable de vistas y, a continuación, haga clic en **Nueva vista** para agregar una nueva vista para la página y, a continuación, haga lo siguiente:
+   * Haga clic en el menú desplegable de vistas y, a continuación, haga clic en **Nueva vista** para agregar una nueva vista para la página, haga lo siguiente o haga clic en el menú **Más** ![Menú más](assets/more-menu.png) a la derecha de un nuevo nombre y, a continuación, **Cambiar nombre**, **Compartir** o **Eliminar** la vista.
 
-   1. Agregar **nombre de vista**.
-   1. Seleccione **Lista** del área **Tipo de vista**.
-   1. Haga clic en **Crear**.
-Se ha agregado una nueva vista de lista al menú desplegable de vistas en el área de **Mis vistas**.
+     No puede cambiar el nombre, compartir ni eliminar las vistas del sistema o las vistas para las que no tiene permisos de administración.
 
-      Para obtener más información, consulte la sección [Administrar varias vistas desde la página de registros conectados](#manage-multiple-views-from-the-connected-records-page) en este artículo.
+     ![Ver más en el menú de la página Registros conectados a proyectos](assets/view-more-menu-projects-connected-records-page.png)
 
-   1. (Opcional) Pase el ratón sobre el nombre de una vista que haya creado, haga clic en el menú **Más** ![Menú más](assets/more-menu.png) y, a continuación, haga clic en una de las siguientes opciones:
-      * **Cambiar nombre**, para agregar un nuevo nombre para la vista.
-      * **Compartir**
+   * Haga clic en una de las siguientes opciones para actualizar los elementos de la vista:
 
-        Para obtener más información, consulte [Compartir vistas](/help/quicksilver/planning/access/share-views.md).
+      * **Filtro** para limitar la cantidad de información en la lista
+      * **Columnas** para ocultar columnas o cambiar su orden
+      * El icono **+** en la esquina superior derecha de la vista de tabla para agregar campos existentes a la lista. Los campos deben existir antes de poder agregarlos.
 
-      * **Eliminar**
-Para obtener más información, consulte [Eliminar vistas de registros](/help/quicksilver/planning/views/delete-record-views.md).
-
-        ![Ver más en el menú de la página Registros conectados a proyectos](assets/view-more-menu-projects-connected-records-page.png)
-
-        >[!NOTE]
-        >
-        >No puede cambiar el nombre, compartir ni eliminar una vista de sistema creada por Workfront.
-
-   1. Haga clic en el icono **Filtro** ![Icono de filtro](assets/filter-icon.png) y use el filtro para mostrar proyectos específicos.
-
-      >[!TIP]
-      >
-      >Para campos de tipo personas, como **Propietario** o **Patrocinador**, puede usar un comodín para mostrar proyectos donde el usuario que inició sesión esté asignado a estos roles.
-      >
-      >![Filtro con comodín de usuario para la página de registros conectados al proyecto](assets/filter-with-user-wildcard-project-connected-records-page.png)
-      >
-
-   1. Haga clic en el icono **Columnas** ![Icono de Columnas](assets/columns-icon.png) para ocultar o mostrar columnas en la lista.
-   1. Haga clic en el icono **+** en la esquina superior derecha de la vista de tabla para agregar campos existentes a la tabla. Los campos deben existir antes de poder agregarlos.
-
-      Se abre el cuadro **Administrador de columnas**. Haga lo siguiente:
-
-      1. Busque un campo de objeto existente en la columna **Disponible** y, a continuación, haga clic en **+** a la derecha del nombre del campo para agregarlo a la columna **Seleccionado**.
-
-         Los campos que seleccione se agregarán a la vista de tabla de la página registros conectados.
-      1. Haga clic en **-** a la derecha de un campo en la columna **Seleccionado** para quitarlo de la vista de tabla.
-      1. Haga clic en **Guardar** para guardar la vista de tabla de páginas de registros conectados.
+   Para obtener más información acerca de cómo administrar objetos en una vista de lista, vea [Administrar la vista de lista](/help/quicksilver/planning/views/manage-the-list-view.md).
 
 <!-- this is repetitive from an earlier section above: 
 
