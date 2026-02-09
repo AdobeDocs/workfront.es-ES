@@ -4,10 +4,11 @@ description: Mejoras del administrador en el segundo trimestre de 2026
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 7cde2f693336649d3d965100e33b71795ddc65a2
+exl-id: ce152c48-ed72-47ed-b1c5-940c93b4a9ec
+source-git-commit: f55ab45a7c11a4f0e4cdbe65ea890ba452b9bbba
 workflow-type: tm+mt
-source-wordcount: '251'
-ht-degree: 23%
+source-wordcount: '269'
+ht-degree: 21%
 
 ---
 
@@ -29,7 +30,7 @@ Para obtener una lista de todos los cambios disponibles en este punto del ciclo 
 
 El nuevo tipo de campo **Texto enriquecido** de los formularios personalizados es un editor de texto robusto con opciones de formato como superíndice y subíndice, encabezados y tablas, además de las opciones tradicionales de negrita, cursiva, subrayado, viñetas, numeración, hipervínculos y comillas de bloque. El límite de caracteres sigue siendo de 15 000.
 
-El tipo de campo Texto enriquecido reemplaza el tipo de campo Texto con formato. Puede convertir rápidamente el texto existente con campos de formato a texto enriquecido haciendo clic en el botón de las opciones de campo a la derecha.
+El tipo de campo Texto enriquecido reemplaza el tipo de campo Texto con formato. Puede convertir rápidamente el texto existente con campos de formato a texto enriquecido haciendo clic en el botón de las opciones de campo a la derecha. Al realizar la conversión, los datos históricos permanecen en el campo y se utilizan del mismo modo en los informes.
 
 Para obtener más información, consulte [Crear un formulario personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
@@ -53,6 +54,3 @@ UE:
 * 24.110.76.223
 
 Para obtener más información, consulte [Configurar la lista de permitidos del cortafuegos](/help/quicksilver/administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
-
-
-
