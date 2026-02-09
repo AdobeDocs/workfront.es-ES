@@ -5,10 +5,10 @@ description: Puede utilizar IA para rellenar automáticamente los campos de soli
 author: Becky
 feature: Get Started with Workfront
 exl-id: 4a22f9ea-c9ee-4947-8683-9989c54903b1
-source-git-commit: b34d7f48a51acf4bd6ddfa203c9e0024b2e8c280
+source-git-commit: 8e04117c08985f3ad5de86e4a08cb4aa53ac7706
 workflow-type: tm+mt
-source-wordcount: '1352'
-ht-degree: 8%
+source-wordcount: '1416'
+ht-degree: 7%
 
 ---
 
@@ -19,10 +19,6 @@ ht-degree: 8%
 >Para utilizar esta funcionalidad, su organización debe cumplir los requisitos para utilizar Workfront AI Assistant. Para obtener más información, consulte [Requisitos previos para el asistente de IA](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant).
 
 Rellenar formularios de IA puede ayudarle a rellenar automáticamente los campos de solicitud en función de una solicitud que haya introducido. También puede rellenar campos basados en texto como correos electrónicos o documentos cargados. Puede aprobar o rechazar estas sugerencias antes de enviar la solicitud.
-
-El relleno de formulario de IA no sobrescribe los campos que ya haya rellenado.
-
-Los usuarios no reciben sugerencias de datos a los que no tienen acceso de otro modo.
 
 ## Requisitos de acceso
 
@@ -59,7 +55,7 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 
 ## Requisitos previos
 
-Para usar el Relleno de formulario AI para rellenar solicitudes con un aviso o documento, se deben aplicar **todas** las siguientes condiciones:
+Para usar el relleno de formulario con tecnología de IA para rellenar una solicitud mediante un aviso o documento, se deben aplicar **todas** las siguientes opciones:
 
 * Su organización debe haber migrado a Adobe IMS (sistema Identity Management)
 * La experiencia unificada de Adobe debe estar habilitada
@@ -70,6 +66,15 @@ Para usar el Relleno de formulario AI para rellenar solicitudes con un aviso o d
 * El asistente de IA debe estar habilitado en la configuración del sistema de su organización. Esto lo administra el administrador de Workfront.
 
   Para obtener más información sobre cómo habilitar el Asistente de IA en la configuración del sistema, consulte [Habilitar o deshabilitar el Asistente de IA](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md).
+
+## Consideraciones al utilizar Rellenar formulario con tecnología de IA
+
+Tenga en cuenta lo siguiente al utilizar Rellenar formulario con tecnología de IA
+
+* El relleno de formulario de IA no sobrescribe los campos que ya haya rellenado.
+* Los usuarios no reciben sugerencias de datos a los que no tienen acceso de otro modo.
+* Los archivos que utiliza en el rellenado de formularios con tecnología de IA se cargan en el almacenamiento de Azure durante 24 horas. Esto es necesario para el procesamiento de documentos.
+* Todos los archivos cargados en Azure se almacenan actualmente en clústeres de Azure de EE. UU. durante el período de almacenamiento de 24 horas.
 
 ## Obtener sugerencias de un mensaje de texto
 
