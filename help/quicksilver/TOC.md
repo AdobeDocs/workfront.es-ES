@@ -3,9 +3,9 @@ user-guide-title: Guía de Workfront
 user-guide-description: Utilice los siguientes documentos, tutoriales y recursos adicionales para aprender a implementar y utilizar Adobe Workfront de forma eficaz en su organización.
 role: User
 feature-set: Workfront
-source-git-commit: f8c41105607e972d3395cf8d89fb1fdf29f0da85
+source-git-commit: 23f651b55b45db73baa67900ce868d9b692c958c
 workflow-type: tm+mt
-source-wordcount: '13765'
+source-wordcount: '13769'
 ht-degree: 57%
 
 ---
@@ -43,7 +43,7 @@ ht-degree: 57%
          * [Mejoras de proyecto del cuarto trimestre de 2025](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-project.md)
          * [Mejoras en las solicitudes del cuarto trimestre de 2025](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-requests.md)
          * [Mejoras en la gestión de recursos del cuarto trimestre de 2025](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-resource-mgmt.md)
-         * [Otras mejoras del cuarto trimestre de 2025 &#x200B;](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-other.md)
+         * [Otras mejoras del cuarto trimestre de 2025 ](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-other.md)
          * [Actualizaciones de aspecto durante el periodo de tiempo de la versión del cuarto trimestre de 2025](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-look-and-feel-updates.md)
       * Versión del tercer trimestre de 2025 {#release-25-q3}
          * [Resumen de la versión del tercer trimestre de 2025](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-release-overview.md)
@@ -442,7 +442,7 @@ ht-degree: 57%
       * [Requisitos del explorador](administration-and-setup/get-started-wf-administration/workfront-browser-requirements.md)
       * [Diferencias basadas en la plataforma](administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)
    * Configuración de Workfront {#set-up-wf}
-      * [Configuración de](administration-and-setup/set-up-workfront/set-up-workfront.md)
+      * [Configuración](administration-and-setup/set-up-workfront/set-up-workfront.md)
       * Configurar valores predeterminados del sistema {#configure-system-defaults}
          * [Configurar valores predeterminados del sistema: índice del artículo](administration-and-setup/set-up-workfront/configure-system-defaults/configure-system-defaults.md)
          * [Configurar preferencias del proyecto](administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)
@@ -1719,6 +1719,7 @@ ht-degree: 57%
       * Información general del uso de informes {#report-usage-overview}
          * [Información general del uso de informes](reports-and-dashboards/reports/report-usage/report-usage-overview.md)
          * [Acceso y organización de informes](reports-and-dashboards/reports/report-usage/access-organize-reports.md)
+         * [Uso de carpetas de informes compartibles](/help/quicksilver/reports-and-dashboards/reports/report-usage/use-sharable-report-folders.md)
          * [Creación de un informe sobre las actividades de creación de informes](reports-and-dashboards/reports/report-usage/create-report-reporting-activities.md)
          * [Obtenga información sobre cómo organizar informes en un tablero](reports-and-dashboards/reports/report-usage/understand-how-organize-reports-dashboard.md)
          * [Ver uso del informe](reports-and-dashboards/reports/report-usage/view-report-usage.md)
@@ -1786,7 +1787,7 @@ ht-degree: 57%
    * [Administrar recursos: índice de artículos](resource-mgmt/manage-resources.md)
    * Administración de recursos {#resource-management}
       * [Administración de recursos: índice de artículos](resource-mgmt/resource-mgmt-overview/resource-management-overview.md)
-      * [Introducción a la Administración de recursos &#x200B;](resource-mgmt/resource-mgmt-overview/get-started-resource-management.md)
+      * [Introducción a la Administración de recursos ](resource-mgmt/resource-mgmt-overview/get-started-resource-management.md)
    * Planificación de recursos en Adobe Workfront {#resource-planning-in-adobe-workfront}
       * [Planificación de recursos: índice de artículos](resource-mgmt/resource-planning/resource-planning-overview.md)
       * Conjuntos de recursos {#resource-pools}
