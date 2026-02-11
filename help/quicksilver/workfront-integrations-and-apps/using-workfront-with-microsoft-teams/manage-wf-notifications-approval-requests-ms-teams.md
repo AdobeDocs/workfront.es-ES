@@ -6,10 +6,10 @@ description: Puede recibir notificaciones de  [!DNL Adobe Workfront] acerca de l
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 7771a7d7-7e20-4b3d-95e7-1050aeb3af67
-source-git-commit: 4cf780aa1b1221cd6ff8e6ce58fbb7d3621f7fa9
+source-git-commit: 7720d51864428e6d7cf493f88bbee13b5203774b
 workflow-type: tm+mt
-source-wordcount: '1434'
-ht-degree: 92%
+source-wordcount: '1466'
+ht-degree: 87%
 
 ---
 
@@ -41,7 +41,7 @@ Estas notificaciones contienen [!DNL Workfront] acciones que puede realizar en [
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
@@ -122,7 +122,7 @@ Recibirá notificaciones de aprobación cuando se le pida que apruebe un objeto,
 * **[!UICONTROL Change]**: haga clic para aprobar el elemento con cambios.
 * **[!UICONTROL Reject]**: haga clic para rechazar el elemento.
 * **[!UICONTROL Comment]**: haga clic para hacer un comentario. Su comentario también aparece en [!DNL Workfront] como una actualización del objeto del que trata la notificación.
-* **[!UICONTROL Go to Proof]**: haga clic para abrir la prueba. A continuación, puede tomar una decisión directamente en la prueba. Para obtener más información, consulte [Tomar una decisión sobre una prueba en el visor de corrección](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md).
+* **[!UICONTROL Go to Proof]**: haga clic para abrir la prueba. A continuación, puede tomar una decisión directamente en la prueba. Para obtener más información, consulte [Tomar una decisión sobre una revisión en el visor de corrección](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md).
 
 >[!NOTE]
 >
@@ -221,7 +221,7 @@ Recibirá notificaciones de aprobación cuando se le pida que apruebe un objeto,
    <td> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Se ha aprobado una solicitud de aprobación de documento que usted solicitó</td> 
+   <td role="rowheader">Se aprueba una solicitud de aprobación de documento que ha solicitado*</td> 
    <td> </td> 
    <td> </td> 
    <td> </td> 
@@ -229,7 +229,7 @@ Recibirá notificaciones de aprobación cuando se le pida que apruebe un objeto,
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Se ha aprobado con cambios una solicitud de aprobación de documento que usted solicitó</td> 
+   <td role="rowheader">Se aprueba con cambios una solicitud de aprobación de documento que ha solicitado*</td> 
    <td> </td> 
    <td> </td> 
    <td> </td> 
@@ -237,7 +237,7 @@ Recibirá notificaciones de aprobación cuando se le pida que apruebe un objeto,
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Se ha rechazado una solicitud de aprobación de documento que usted solicitó</td> 
+   <td role="rowheader">Se rechazó una solicitud de aprobación de documento que usted solicitó*</td> 
    <td> </td> 
    <td> </td> 
    <td> </td> 
@@ -254,6 +254,8 @@ Recibirá notificaciones de aprobación cuando se le pida que apruebe un objeto,
   </tr> 
  </tbody> 
 </table>
+
+*Estas notificaciones hacen referencia a aprobaciones de documentos heredados. Las notificaciones de aprobación de documentos unificados no se admiten actualmente en [!DNL Microsoft Teams]. Para obtener más información acerca de los diferentes sistemas de aprobación de Workfront, consulte [Funcionalidad disponible para aprobaciones de documentos](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/asset-review-and-approval.md).
 
 ### Notificaciones de asignación {#assignment-notifications}
 
