@@ -7,10 +7,10 @@ author: Lisa
 feature: Work Management, Tasks
 role: User
 exl-id: 611b136e-2c3f-4eac-9d75-e8c12e06148d
-source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
+source-git-commit: 21c98e443a6d6ca79045e2f4aba5f792340833cd
 workflow-type: tm+mt
-source-wordcount: '2479'
-ht-degree: 77%
+source-wordcount: '1617'
+ht-degree: 85%
 
 ---
 
@@ -20,13 +20,13 @@ ht-degree: 77%
 
 <!--remove production/ preview and old/ new experience references at prod-->
 
-<div class="preview">
+<!--<div class="preview"> 
 
-La información resaltada en esta página hace referencia a funcionalidades que aún no están disponibles de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Las mismas funciones también estarán disponibles en el entorno de producción para todos los clientes a partir de una semana desde la versión de vista previa.
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
 
-Para obtener más información, consulte [Información general sobre la versión del segundo trimestre de 2026](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-release-overview.md).
+For more information, see [Second Quarter 2026 release overview](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-release-overview.md). 
 
-</div>
+</div>-->
 
 Puede asignar tareas a usuarios, funciones o equipos para indicar quién es el responsable de completar las tareas. Puede asignar una tarea a varios recursos a la vez.
 
@@ -224,102 +224,6 @@ Para asignar tareas de una lista:
 
 ## Asignar varias tareas de forma masiva desde una lista
 
-La asignación de varias tareas por lotes desde una lista difiere según el entorno que elija.
-
-### Asignar varias tareas por lotes desde una lista en el entorno de producción
-
-1. Vaya a una lista de tareas que desee asignar en lotes.
-1. (Condicional) Asegúrese de que la opción **Autoguardar** esté seleccionada si está en una lista de tareas de un proyecto.
-
-   >[!IMPORTANT]
-   >
-   >No puede editar las tareas en lotes al guardar las tareas manualmente en un proyecto.
-
-1. Seleccione varias tareas en la lista de tareas.
-1. Haga clic en **Editar**.
-
-   El cuadro de diálogo **Editar tareas** se abre en la nueva experiencia.
-
-1. Continúe asignando las tareas con la nueva experiencia.
-
-   Para obtener más información, consulte la sección [Asignar varias tareas de forma masiva desde una lista en la nueva experiencia](#assign-multiple-tasks-in-bulk-from-a-list-in-the-new-experience) en este artículo.
-
-1. (Opcional) Haga clic en **Volver a la experiencia anterior** en la parte inferior del cuadro **Editar tareas** para abrir la experiencia anterior.
-
-1. (Condicional) Con la experiencia anterior, en el área **Asignaciones**, seleccione la casilla **Usuario asignado** y, a continuación, empiece a escribir el nombre de un usuario, rol o equipo que desee asignar a todas las tareas.
-
-   >[!IMPORTANT]
-   >
-   >Si alguna de las tareas ya está asignada, los recursos que indique aquí se añaden a las tareas en lugar de reemplazar los recursos existentes en las tareas.
-
-1. (Opcional) Seleccione el botón de opción de la columna **Propietario de la tarea** para indicar qué recurso es el principal asignado o el Propietario de la tarea, cuando asigne más de un recurso a la tarea. Esto no está disponible para equipos.
-1. (Condicional) Especifique el **% de asignación** para cada recurso asignado a la tarea si todas las tareas seleccionadas tienen un tipo de duración de asignación calculada o condicionada por el esfuerzo. Esto indica la cantidad de tiempo que estos recursos deben dedicar a completar la tarea. Esto solo está disponible para usuarios y funciones.
-
-   O
-
-   Especifique la cantidad de **Horas** para cada recurso asignado a la tarea si todas las tareas que ha seleccionado tienen un Tipo de duración simple. El total de todas las horas de todos los recursos debe ser igual al número de horas planificadas para la tarea.
-
-   >[!IMPORTANT]
-   >
-   >No puede especificar el porcentaje de asignación ni el número de horas por recurso si las tareas seleccionadas tienen diferentes tipos de duración o si las tareas seleccionadas tienen diferentes tipos de duración.
-
-   Para obtener información acerca del tipo de duración de las tareas, consulte [Información general sobre la duración y el tipo de duración de la tarea](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
-
-1. (Opcional) Seleccione una función que el usuario debe cumplir en la tarea del menú desplegable **Elegir un rol** en la columna **Rol de asignado** cuando asigne usuarios a las tareas. Si no selecciona ninguna función, Workfront selecciona automáticamente la función principal del usuario.
-
-1. (Opcional) Si desea quitar las personas asignadas existentes de todas las tareas, realice una de las siguientes acciones:
-
-   1. Empiece a escribir el nombre del usuario, rol o equipo que desee quitar de la tarea, selecciónelo cuando aparezca en la lista y haga clic en **Quitar persona asignada** para quitar más personas asignadas.
-   1. Haga clic en **Quitar todas las personas asignadas actualmente** para quitar todas las personas asignadas de todas las tareas seleccionadas.
-
-1. Haga clic en **Guardar cambios**.
-1. (Opcional y condicional) Cuando los campos Asignado a o Asignaciones se muestren en su lista de tareas, haga clic dentro de una de estas columnas para una tarea y luego haga clic en el **icono X** junto al nombre de un usuario asignado para quitarlo de la tarea.
-
-
-#### Asignar varias tareas por lotes desde una lista en la nueva experiencia
-
-1. Vaya a una lista de tareas que desee asignar en lotes.
-1. (Condicional) Asegúrese de que la opción **Autoguardar** esté seleccionada si está en una lista de tareas de un proyecto.
-
-   >[!IMPORTANT]
-   >
-   >No puede editar las tareas en lotes al guardar las tareas manualmente en un proyecto.
-
-1. Seleccione varias tareas en la lista de tareas.
-1. Haga clic en **Editar**.
-
-   Se abre el cuadro de diálogo **Editar tareas**.
-
-1. En el área **Asignaciones**, empiece a escribir el nombre de los usuarios, equipos o roles en el campo **Buscar personas, roles o equipos** proporcionado y, a continuación, haga clic en ellos cuando se muestren en la lista
-
-   O
-
-   Haz clic en **Asignármelo** para asignártelo a ti mismo.
-
-   >[!IMPORTANT]
-   >
-   >Si alguna de las tareas ya está asignada, los recursos que indique aquí se añaden a las tareas en lugar de reemplazar los recursos existentes en las tareas.
-
-1. Haga clic dentro del campo **Tipo de duración** y elija un Tipo de duración.
-
-   Para obtener información acerca del tipo de duración de las tareas, consulte [Información general sobre la duración y el tipo de duración de la tarea](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
-
-1. (Condicional) Según el **Tipo de duración** que haya seleccionado, actualice los campos siguientes:
-
-   * Duración
-   * Horas planificadas
-
-     Para obtener más información, consulte [Editar tareas](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md).
-
-1. (Opcional) Si desea quitar los usuarios asignados existentes de todas las tareas, haga clic en **x** junto a su nombre en el campo **Buscar personas, roles o equipos**.
-
-1. Haga clic en **Guardar**.
-1. (Opcional y condicional) Cuando los campos **Asignado a** o **Asignaciones** se muestren en su lista de tareas, haga clic dentro de una de estas columnas para una tarea y luego haga clic en el **icono X** junto al nombre de un usuario asignado para quitarlo de la tarea.
-
-<div class="preview">
-
-### Asignar varias tareas por lotes desde una lista en el entorno de vista previa
-
 1. Vaya a una lista de tareas que desee asignar en lotes.
 1. (Condicional) Asegúrese de que la opción **Autoguardar** esté seleccionada si está en una lista de tareas de un proyecto.
 
@@ -355,7 +259,6 @@ La asignación de varias tareas por lotes desde una lista difiere según el ento
 1. Haga clic en **Guardar**.
 1. (Opcional y condicional) Cuando los campos **Asignado a** o **Asignaciones** se muestren en su lista de tareas, haga clic dentro de una de estas columnas para una tarea y luego haga clic en el **icono X** junto al nombre de un usuario asignado para quitarlo de la tarea.
 
-</div>
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -372,3 +275,98 @@ La asignación de varias tareas por lotes desde una lista difiere según el ento
 -->
 
 
+<!--Assigning multiple tasks in bulk from a list differs depending on which environment you choose. 
+
+### Assign multiple tasks in bulk from a list in the Production environment
+
+1. Go to a list of tasks that you want to assign in bulk. 
+1. (Conditional) Ensure that the **Autosave** option is selected if you are on a list of tasks under a project.
+
+   >[!IMPORTANT]
+   >
+   >You cannot edit tasks in bulk when saving tasks manually on a project.
+
+1. Select several tasks in the tasks list. 
+1. Click **Edit**.
+
+   The **Edit Tasks** dialog box opens in the new experience.
+
+1. Continue assigning the tasks using the new experience.
+
+   For more information, see the section [Assign multiple tasks in bulk from a list in the new experience](#assign-multiple-tasks-in-bulk-from-a-list-in-the-new-experience) in this article.
+
+1. (Optional) Click **Switch back to old experience** at the bottom of the **Edit Tasks** box to open the old experience.
+
+1. (Conditional) Using the old experience, in the **Assignments** area, select the **Assignee** box, then start typing the name of a user, job role, or team that you want to assign to all the tasks.
+
+   >[!IMPORTANT]
+   >
+   >If any of the tasks is already assigned, the resources you indicate here are added to the tasks instead of replacing the existing resources on the tasks. 
+
+1. (Optional) Select the radio button in the **Task Owner** column to indicate which resource is the primary assignee or the Owner of the task, when you assign more than one resource to the task. This is not available for teams. 
+1. (Conditional) Specify the **Allocation %** for each resource assigned to the task if all the tasks you selected have a Duration Type of Effort Driven or Calculated Assignment. This indicates how much of their time these resources should spend on completing the task. This is only available for users and job roles.
+
+   Or
+
+   Specify the amount of **Hours** for each resource assigned to the task if all the tasks you selected have a Duration Type of Simple. The total of all hours for all resources should equal the number of Planned Hours for the task.
+
+   >[!IMPORTANT]
+   >
+   >You cannot specify the allocation percentage or the number of hours per resource if the tasks you selected have different Duration Types or of the tasks you selected have different Duration Types.
+
+   For information about Duration Type on tasks, see [Overview of Task Duration and Duration Type](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
+
+1. (Optional) Select a role that the user should fulfill on the task from the **Pick a role** drop-down menu in the **Assignee's Role** column when you assign users to tasks. If you do not select a role, Workfront automatically selects the user's Primary Role. 
+
+1. (Optional) If you want to remove existing assignees from all tasks do one of the following:
+
+   1. Start typing the name of a user, role, or team you want to remove from the task, then select it when it appears on the list and click **Remove Assignee** to remove more assignees.
+   1. Click **Remove All Existing Assignees** to remove all assignees from all selected tasks.
+
+1. Click **Save Changes**.
+1. (Optional and conditional) When the Assigned to or the Assignments fields display in your list of tasks, click inside one of these columns for a task, then click the **X icon** next to the name of an assignee to remove it from the task.
+
+
+#### Assign multiple tasks in bulk from a list in the new experience
+
+1. Go to a list of tasks that you want to assign in bulk.
+1. (Conditional) Ensure that the **Autosave** option is selected if you are on a list of tasks under a project.
+
+   >[!IMPORTANT]
+   >
+   >You cannot edit tasks in bulk when saving tasks manually on a project.
+
+1. Select several tasks in the tasks list. 
+1. Click **Edit**.
+
+   The **Edit Tasks** dialog box opens.
+
+1. In the **Assignments** area, start typing the name of users, teams, or roles in the **Search people, roles, or teams** field provided, then click them when they display in the list
+
+   Or 
+
+   Click **Assign to me** to assign it to yourself.
+
+   >[!IMPORTANT]
+   >
+   >If any of the tasks is already assigned, the resources you indicate here are added to the tasks instead of replacing the existing resources on the tasks.
+
+1. Click inside the **Duration Type** field and choose a Duration Type. 
+
+   For information about Duration Type on tasks, see [Overview of Task Duration and Duration Type](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
+
+1. (Conditional) Depending on what **Duration Type** you selected, update the following fields: 
+
+   * Duration
+   * Planned Hours
+
+      For more information, see [Edit tasks](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md). 
+
+1. (Optional) If you want to remove existing assignees from all tasks, click the **x** next to their name in the **Search people, roles, or teams** field.
+
+1. Click **Save**.
+1. (Optional and conditional) When the **Assigned to** or the **Assignments** fields display in your list of tasks, click inside one of these columns for a task, then click the **X icon** next to the name of an assignee to remove it from the task.
+
+<div class="preview">
+### Assign multiple tasks in bulk from a list in the Preview environment
+-->

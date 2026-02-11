@@ -7,10 +7,10 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 572c6008-3a67-47ae-8f5d-6b871ef1f37b
-source-git-commit: c9fa6d97607990710e6c2a74f3b373d06201d721
+source-git-commit: 21c98e443a6d6ca79045e2f4aba5f792340833cd
 workflow-type: tm+mt
-source-wordcount: '5475'
-ht-degree: 85%
+source-wordcount: '3928'
+ht-degree: 88%
 
 ---
 
@@ -28,13 +28,13 @@ ht-degree: 85%
 </div>
 -->
 
-<div class="preview">
+<!--<div class="preview"> 
 
-La información resaltada en esta página hace referencia a funcionalidades que aún no están disponibles de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Las mismas funciones también estarán disponibles en el entorno de producción para todos los clientes a partir de una semana desde la versión de vista previa.
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
 
-Para obtener más información, consulte [Información general sobre la versión del segundo trimestre de 2026](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-release-overview.md).
+For more information, see [Second Quarter 2026 release overview](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-release-overview.md).
 
-</div>
+</div> -->
 
 Puede editar información sobre las tareas que ha creado o para las que tiene permisos de aportación o de administración. 
 
@@ -374,321 +374,11 @@ Puede editar una tarea mediante las áreas Editar tarea o Detalles de la tarea. 
 
 ### Asignaciones {#assignments}
 
-La edición de asignaciones es diferente en el cuadro Editar tarea según el entorno que elija.
-
-#### Edite el área Asignaciones en el entorno de producción
-
->[!NOTE]
->
-><span class="preview">Algunos clientes pueden editar asignaciones en el cuadro Editar tarea de sus entornos de producción de la misma manera que las editan en su entorno de vista previa.</span>
->
-><span class="preview">Para obtener información acerca de cómo editar tareas en el entorno de vista previa, consulte la sección [Editar el área Asignaciones en el entorno de vista previa](#edit-the-assignments-area-in-the-preview-environment) en este artículo. </span>
-
-1. Comience a editar la tarea como se ha descrito anteriormente.
-1. Haga clic en **Asignaciones** en el panel izquierdo.
-
-   El área Asignaciones se abre en la nueva experiencia.
-
-1. (Condicional) Con la nueva experiencia, haga lo siguiente:
-
-   1. Empiece a escribir el nombre de un usuario, rol o equipo en el campo **Buscar personas, rol o equipo**, y después selecciónelos cuando se muestren en la lista
-
-      O
-
-      Haga clic en **Asignármelo** para asignarse la tarea.
-
-   1. Actualice la siguiente información:
-
-      <table style="table-layout:auto"> 
-         <col> 
-         <col> 
-         <tbody> 
-         <tr> 
-         <td role="rowheader">Tipo de duración</td> 
-         <td> <p>Esto identifica la relación entre lo siguiente: </p> 
-         <ul> 
-         <li> <p>El número de recursos asignados a una tarea </p> </li> 
-         <li> <p>El esfuerzo total necesario para completar la tarea </p> </li> 
-         <li> <p> La duración total de la tarea. </p> </li> 
-         </ul> <p>El administrador de grupos o de Workfront selecciona la configuración predeterminada de Tipo de duración para las tareas del sistema o del grupo. Para obtener información sobre cómo establecer los valores predeterminados del proyecto, consulte <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md" class="MCXref xref">Configurar las preferencias de tareas y problemas en todo el sistema</a>. </p> <p>Los tipos de duración permiten establecer asignaciones de recursos coherentes según las necesidades de la tarea. Para obtener más información acerca del tipo de duración de una tarea, consulte <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Información general sobre la duración de la tarea y el tipo de duración</a>. </p> <p>Seleccione entre las siguientes opciones: </p> 
-         <ul> 
-         <li> <p>Asignación calculada </p> </li> 
-         <li> <p> Trabajo calculado </p> </li> 
-         <li> <p>Condicionada por el esfuerzo </p> </li> 
-         <li> <p>Simple</p> </li> 
-         </ul> </td> 
-         </tr> 
-         <td role="rowheader">Duración por resolicitud</td> 
-         <td> <p>Esto solo se muestra en el elemento principal de las tareas recurrentes. Muestra la duración de cada tarea recurrente, tal como se definió cuando se creó la tarea. Para obtener información acerca de las tareas recurrentes, consulte <a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">Crear tareas recurrentes</a>. </p> <p> <b>NOTA</b>          
-         Las duraciones modificadas en tareas recurrentes individuales no muestran el valor indicado en este campo. </p> </td> 
-         </tr>
-         <tr> 
-         <td role="rowheader">Duración</td> 
-         <td> 
-         <div> 
-         <div> 
-         <p>Es la cantidad de tiempo que permite que una tarea permanezca abierta antes de completarse. </p> 
-         <p><b>IMPORTANTE</b>
-
-      Debido a que la duración de la tarea suele ser la cantidad de tiempo entre las fechas planificadas de inicio y finalización, afecta a la cronología del proyecto.</p>
-
-      <p>Para indicar la duración de la tarea y la unidad de tiempo, haga lo siguiente:</p> 
-         <ul> 
-         <li> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Escriba la cantidad de tiempo y seleccione una de las unidades de tiempo disponibles en el menú desplegable.</p> <p><b>Sugerencia</b></p>
-         Al actualizar la duración de las tareas en una lista de tareas, puede utilizar la abreviatura para la unidad de tiempo. </p> </li> 
-         </ul> 
-         <p> Puede elegir entre las opciones de tiempo normal o tiempo transcurrido en la siguiente tabla: </p> 
-         <table style="table-layout:auto"> 
-         <col> 
-         <col data-mc-conditions=""> 
-         <tbody> 
-         <tr> 
-         <td>Unidad de tiempo</td> 
-         <td>Abreviatura</td> 
-         </tr> 
-         <tr> 
-         <td>minutos</td> 
-         <td>L</td> 
-         </tr> 
-         <tr> 
-         <td>Horas</td> 
-         <td>H</td> 
-         </tr> 
-         <tr> 
-         <td>Días. Es la opción predeterminada. </td> 
-         <td>D</td> 
-         </tr> 
-         <tr> 
-         <td>Semanas</td> 
-         <td>S</td> 
-         </tr> 
-         <tr> 
-         <td>Meses</td> 
-         <td>M</td> 
-         </tr> 
-         <tr> 
-         <td>Minutos transcurridos</td> 
-         <td>MT</td> 
-         </tr> 
-         <tr> 
-         <td>Horas transcurridas</td> 
-         <td>HT</td> 
-         </tr> 
-         <tr> 
-         <td>Días transcurridos</td> 
-         <td>DT</td> 
-         </tr> 
-         <tr> 
-         <td>Semanas transcurridas</td> 
-         <td>ST</td> 
-         </tr> 
-         <tr> 
-         <td>Meses transcurridos</td> 
-         <td>ET</td> 
-         </tr> 
-         </tbody> 
-         </table>
-
-      <p><b>NOTA</b>
-
-      <p>El tiempo transcurrido es una unidad de tiempo de la duración de una tarea. Es el tiempo entre la fecha de inicio planificada y la fecha de finalización planificada de una tarea que incluye días festivos, fines de semana y días libres. En otras palabras, el tiempo transcurrido es el paso de los días del calendario.
-
-      El tiempo habitual tiene en cuenta los días festivos, los fines de semana y los días libres, y los excluye de la duración de la tarea. Para obtener más información acerca de la duración de la tarea, consulte <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Información general sobre la duración de la tarea y el tipo de duración</a>. </p>
-      </td> 
-         </tr> 
-         <tr> 
-         <td role="rowheader">Horas planificadas</td> 
-         <td> <p>Especifique el número de horas planificadas para la tarea, en horas. Esta es la cantidad de tiempo real que tardarían los usuarios asignados a la tarea en completarla. Solamente puede especificar el número de horas planificadas para una tarea cuando el tipo de duración está establecido en Asignación calculada. Para obtener más información sobre los tipos de duración, consulte <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Información general de la duración de la tarea y tipos de duración</a>.</p> 
-         <b>NOTA</b>
-         <p>
-         Al crear tareas recurrentes, las horas planificadas son las de cada ocurrencia. Las horas planificadas de las tareas principales son el total de todas las horas planificadas de todas las ocurrencias. Para obtener información acerca de la creación de tareas recurrentes, consulte <a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">Crear tareas recurrentes</a>.
-         </p>
-
-      </td> 
-         </tr> 
-         </tbody> 
-         </table>
-
-
-      <!--<tr> 
-      <td role="rowheader">Allocation</td> 
-      <td> <p>If your Task Constraint is Calculated Work or Effort Driven, specify the <strong>Allocation %</strong> (allocation percentage) for each assignee. This is the amount of time from the schedule of the assignee that they can spend on this task. Changing the allocation percentage for an assignee will change the Planned Hours of a task. </p> <p>When the Task Constraint is Simple, you can specify the following:</p> 
-         <ul> 
-         <li> <p>Allocation Hours of each assignee.</p> </li> 
-         <li> <p>Planned Hours of the task</p> </li> 
-         <li> <p>Duration of the task</p> </li> 
-         </ul> </td> 
-      </tr> 
-      <tr> 
-      <td role="rowheader">Assignee's Role</td> 
-      <td> <p>Select a role from the <strong>Assignee's Role</strong> drop-down menu when you selected a person as an assignee. This is the role that the assignee can fulfill on this task. </p> <p><b>TIP</b>
-         Only the job roles associated with each assignee in their profile appear in the drop-down menu.</p> </td> 
-         </tr>
-         </tbody> 
-         </table>-->
-
-   1. (Opcional) Haga clic en **Cambiar a la experiencia anterior** en la parte inferior del cuadro **Editar tarea**.
-El área Asignaciones se abre en la experiencia antigua.
-
-      ![Sección Asignaciones en el cuadro Editar tarea](assets/nwe-assignments-section-edit-task-box-350x217.png)
-
-1. (Condicional) Con la experiencia antigua, haga lo siguiente:
-
-   1. Haga clic en **Buscar personas, roles o equipos** y empiece a escribir el nombre de un usuario, rol o equipo que desee asignar a la tarea; a continuación, haga clic en él o presione Entrar cuando aparezca en la lista.
-
-      >[!TIP]
-      >
-      >* Si el nombre del usuario contiene un carácter especial, debe incluirlo en el campo de búsqueda.
-      >* Puede asignar varios usuarios, funciones o equipos. Solo puede asignar usuarios, funciones y equipos activos.
-      >
-      >* Si se asignó un usuario, una función o un equipo antes de desactivarlos, permanecen asignados al elemento de trabajo. En este caso, se recomienda lo siguiente:
-      >
-      >* Reasignar el elemento de trabajo a los recursos activos.
-      >* Asocie los usuarios de un equipo desactivado a un equipo activo y reasigne el elemento de trabajo al equipo activo.
-
-   1. (Opcional) Pase el ratón sobre el nombre de un usuario asignado y luego haga clic en **Convertir en principal** para indicar si un usuario asignado es el principal o el propietario de la tarea. Un equipo no puede ser el principal asignado a una tarea.
-   1. (Opcional) Actualice los campos siguientes:
-
-      <table style="table-layout:auto"> 
-      <col> 
-      <col> 
-      <tbody> 
-      <tr> 
-         <td role="rowheader">Tipo de duración</td> 
-         <td> <p>Esto identifica la relación entre lo siguiente: </p> 
-         <ul> 
-         <li> <p>El número de recursos asignados a una tarea </p> </li> 
-         <li> <p>El esfuerzo total necesario para completar la tarea </p> </li> 
-         <li> <p> La duración total de la tarea. </p> </li> 
-         </ul> <p>El administrador de grupos o de Workfront selecciona la configuración predeterminada de Tipo de duración para las tareas del sistema o del grupo. Para obtener información sobre cómo establecer los valores predeterminados del proyecto, consulte <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md" class="MCXref xref">Configurar las preferencias de tareas y problemas en todo el sistema</a>. </p> <p>Los tipos de duración permiten establecer asignaciones de recursos coherentes según las necesidades de la tarea. Para obtener más información acerca del tipo de duración de una tarea, consulte <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Información general sobre la duración de la tarea y el tipo de duración</a>. </p> <p>Seleccione entre las siguientes opciones: </p> 
-         <ul> 
-         <li> <p>Asignación calculada </p> </li> 
-         <li> <p> Trabajo calculado </p> </li> 
-         <li> <p>Condicionada por el esfuerzo </p> </li> 
-         <li> <p>Simple</p> </li> 
-         </ul> </td> 
-      </tr> 
-      <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
-         <td role="rowheader">Duración por resolicitud</td> 
-         <td> <p>Esto solo se muestra en el elemento principal de las tareas recurrentes. Muestra la duración de cada tarea recurrente, tal como se definió cuando se creó la tarea. Para obtener información acerca de las tareas recurrentes, consulte <a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">Crear tareas recurrentes</a>. </p> <p> <b>NOTA</b>
-
-      Las duraciones modificadas en tareas recurrentes individuales no muestran el valor indicado en este campo. </p> </td>
-      </tr> 
-      <tr> 
-         <td role="rowheader">Duración</td> 
-         <td> 
-         <div> 
-         <div> 
-         <p>Es la cantidad de tiempo que permite que una tarea permanezca abierta antes de completarse. </p> 
-         <p><b>IMPORTANTE</b>
-
-      Debido a que la duración de la tarea suele ser la cantidad de tiempo entre las fechas planificadas de inicio y finalización, afecta a la cronología del proyecto.</p>
-
-      <p>Para indicar la duración de la tarea y la unidad de tiempo, haga lo siguiente:</p> 
-         <ul> 
-         <li> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Escriba la cantidad de tiempo y seleccione una de las unidades de tiempo disponibles en el menú desplegable.</p> <p><b>Sugerencia</b></p>
-         Al actualizar la duración de las tareas en una lista de tareas, puede utilizar la abreviatura para la unidad de tiempo. </p> </li> 
-         </ul> 
-         <p> Puede elegir entre las opciones de tiempo normal o tiempo transcurrido en la siguiente tabla: </p> 
-         <table style="table-layout:auto"> 
-         <col> 
-         <col data-mc-conditions=""> 
-         <tbody> 
-         <tr> 
-         <td>Unidad de tiempo</td> 
-         <td>Abreviatura</td> 
-         </tr> 
-         <tr> 
-         <td>minutos</td> 
-         <td>L</td> 
-         </tr> 
-         <tr> 
-         <td>Horas</td> 
-         <td>H</td> 
-         </tr> 
-         <tr> 
-         <td>Días. Es la opción predeterminada. </td> 
-         <td>D</td> 
-         </tr> 
-         <tr> 
-         <td>Semanas</td> 
-         <td>S</td> 
-         </tr> 
-         <tr> 
-         <td>Meses</td> 
-         <td>M</td> 
-         </tr> 
-         <tr> 
-         <td>Minutos transcurridos</td> 
-         <td>MT</td> 
-         </tr> 
-         <tr> 
-         <td>Horas transcurridas</td> 
-         <td>HT</td> 
-         </tr> 
-         <tr> 
-         <td>Días transcurridos</td> 
-         <td>DT</td> 
-         </tr> 
-         <tr> 
-         <td>Semanas transcurridas</td> 
-         <td>ST</td> 
-         </tr> 
-         <tr> 
-         <td>Meses transcurridos</td> 
-         <td>ET</td> 
-         </tr> 
-         </tbody> 
-      </table>
-
-      <p><b>NOTA</b>
-
-      <p>El tiempo transcurrido es una unidad de tiempo de la duración de una tarea. Es el tiempo entre la fecha de inicio planificada y la fecha de finalización planificada de una tarea que incluye días festivos, fines de semana y días libres. En otras palabras, el tiempo transcurrido es el paso de los días del calendario.
-
-      El tiempo habitual tiene en cuenta los días festivos, los fines de semana y los días libres, y los excluye de la duración de la tarea. Para obtener más información acerca de la duración de la tarea, consulte <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Información general sobre la duración de la tarea y el tipo de duración</a>. </p>
-      </div> 
-         </div> </td> 
-         </tr> 
-         <tr> 
-         <td role="rowheader">Horas planificadas</td> 
-         <td> <p>Especifique el número de horas planificadas para la tarea, en horas. Esta es la cantidad de tiempo real que tardarían los usuarios asignados a la tarea en completarla. Solamente puede especificar el número de horas planificadas para una tarea cuando el tipo de duración está establecido en Asignación calculada. Para obtener más información sobre los tipos de duración, consulte <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Información general de la duración de la tarea y tipos de duración</a>.</p> 
-         <b>NOTA</b>
-         <p>
-         Al crear tareas recurrentes, las horas planificadas son las de cada ocurrencia. Las horas planificadas de las tareas principales son el total de todas las horas planificadas de todas las ocurrencias. Para obtener información acerca de la creación de tareas recurrentes, consulte <a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">Crear tareas recurrentes</a>.
-         </p>
-
-      </td> 
-         </tr> 
-         <tr> 
-         <td role="rowheader">Asignación</td> 
-         <td> <p>Si la restricción de tarea es Trabajo Calculado o Condicionada por el esfuerzo, especifique el <strong>% de asignación</strong> (porcentaje de asignación) para cada usuario asignado. Esta es la cantidad de tiempo de la programación del usuario asignado que puede dedicar a esta tarea. Si se cambia el porcentaje de asignación de un usuario asignado, se cambiarán las horas planificadas de una tarea. </p> <p>Cuando la restricción de tarea es simple, puede especificar lo siguiente:</p> 
-            <ul> 
-            <li> <p>Horas de asignación de cada usuario asignado.</p> </li> 
-            <li> <p>Horas planificadas de la tarea</p> </li> 
-            <li> <p>Duración de la tarea</p> </li> 
-            </ul> </td> 
-         </tr> 
-         <tr> 
-         <td role="rowheader">Rol de asignado</td> 
-         <td> <p>Seleccione un rol del menú desplegable <strong>Rol de usuario asignado</strong> cuando haya seleccionado una persona como usuario asignado. Este es el rol que el usuario asignado puede desempeñar en esta tarea. </p> <p><b>Sugerencia</b>
-
-      En el menú desplegable solo aparecen los roles de trabajo asociados con cada usuario asignado en su perfil.</p> </td>
-      </tr>
-      </tbody>
-      </table>
-
-1. Haga clic en **Guardar** o continúe con las siguientes secciones.
-
-<div class="preview">
-
-#### Edite el área Asignaciones en el entorno de vista previa
-
 >[!TIP]
 >
 >Al editar asignaciones de tareas por lotes, verá un indicador de Varios valores para los campos cuyos valores difieren entre las tareas seleccionadas.
 >
 >No puede ver las asignaciones individuales de cada tarea seleccionada.
-
 
 1. Comience a editar la tarea como se ha descrito anteriormente.
 1. Haga clic en **Asignaciones** en el panel izquierdo.
@@ -839,8 +529,6 @@ El área Asignaciones se abre en la experiencia antigua.
    </table>
 
 1. Haga clic en **Guardar** o continúe con las siguientes secciones.
-
-</div>
 
 ### Formularios personalizados
 
@@ -1021,3 +709,314 @@ Los campos siguientes se incluyen en el encabezado de la tarea de forma predeter
 Puede editar las tareas en lote en una lista y actualizar toda su información al mismo tiempo si selecciona guardar automáticamente los cambios que realice en las tareas de la lista.
 
 Para obtener información acerca de cómo guardar tareas en lote, consulte la sección “Editar tareas en lote” en el artículo [Editar tareas de una lista](../../../manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md).
+
+<!--Temporary content while changing Assignments area: 
+
+Editing assignments is different in the Edit Task box depending on which environment you choose.
+
+#### Edit the Assignments area in the Production environment
+
+>[!NOTE]
+>
+><span class="preview">Some customers can edit Assignments in the Edit Task box in their Production environments the same way they edit them in their Preview environment.</span>
+>
+><span class="preview">For information about editing tasks in the Preview environment, see the section [Edit the Assignments area in the Preview environment](#edit-the-assignments-area-in-the-preview-environment) in this article. </span>
+
+1. Begin editing your task as described above.
+1. Click **Assignments** in the left panel.
+
+      The Assignments area opens in the new experience. 
+
+1. (Conditional) Using the new experience, do the following:
+ 
+   1. Start typing the name of a user, job role, or team in the **Search people, role or team** field, then select them when they display in the list
+
+      Or
+
+      Click **Assign to me** to assign the task to yourself. 
+
+   1. Update the following information:
+
+         <table style="table-layout:auto"> 
+         <col> 
+         <col> 
+         <tbody> 
+         <tr> 
+         <td role="rowheader">Duration Type</td> 
+         <td> <p>This identifies the relationship between the following: </p> 
+         <ul> 
+         <li> <p>The number of resources assigned to a task </p> </li> 
+         <li> <p>The total effort required to complete the task </p> </li> 
+         <li> <p> The total duration of the task. </p> </li> 
+         </ul> <p>Your Workfront administrator or a group administrator selects the default Duration Type setting for the tasks in your system or your group. For information about setting project defaults, see <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md" class="MCXref xref">Configure system-wide task and issue preferences</a>. </p> <p>Duration Types enable you to set consistent resource assignments based on the needs of the task. For more information about the Duration Type of a task, see <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Overview of Task Duration and Duration Type</a>. </p> <p>Select from the following options: </p> 
+         <ul> 
+         <li> <p>Calculated Assignment </p> </li> 
+         <li> <p> Calculated Work </p> </li> 
+         <li> <p>Effort Driven </p> </li> 
+         <li> <p>Simple</p> </li> 
+         </ul> </td> 
+         </tr> 
+         <td role="rowheader">Duration per Occurrence</td> 
+         <td> <p>This displays only on the parent of recurring tasks. It displays the duration of each recurring task, as defined when the task was created. For information about creating recurring tasks, see <a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">Create recurring tasks</a>. </p> <p> <b>NOTE</b>          
+         Durations modified in individual recurring tasks do not display the value indicated in this field. </p> </td> 
+         </tr>
+         <tr> 
+         <td role="rowheader">Duration</td> 
+         <td> 
+         <div> 
+         <div> 
+         <p>This is the amount of time that you allow a task to remain open before it is completed. </p> 
+         <p><b>IMPORTANT</b>
+      
+         Because the task duration is typically the amount of time between the Planned Start and the Planned Completion Dates, it affects the timeline of the project.</p> 
+      
+         <p>To indicate the Duration of the task and the unit of time do the following:</p> 
+         <ul> 
+         <li> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Type the length of time and select from the units of time available in the drop-down menu.</p> <p><b>TIP</b></p>
+         When you update the Duration of tasks in a task list, you can use the abbreviation for the unit of time. </p> </li> 
+         </ul> 
+         <p> You can choose from the regular time or elapsed time options in the following table: </p> 
+         <table style="table-layout:auto"> 
+         <col> 
+         <col data-mc-conditions=""> 
+         <tbody> 
+         <tr> 
+         <td>Unit of Time</td> 
+         <td>Abbreviation</td> 
+         </tr> 
+         <tr> 
+         <td>Minutes</td> 
+         <td>M</td> 
+         </tr> 
+         <tr> 
+         <td>Hours</td> 
+         <td>H</td> 
+         </tr> 
+         <tr> 
+         <td>Days. This is the default. </td> 
+         <td>D</td> 
+         </tr> 
+         <tr> 
+         <td>Weeks</td> 
+         <td>W</td> 
+         </tr> 
+         <tr> 
+         <td>Months</td> 
+         <td>T</td> 
+         </tr> 
+         <tr> 
+         <td>Elapsed Minutes</td> 
+         <td>EM</td> 
+         </tr> 
+         <tr> 
+         <td>Elapsed Hours</td> 
+         <td>EH</td> 
+         </tr> 
+         <tr> 
+         <td>Elapsed Days</td> 
+         <td>ED</td> 
+         </tr> 
+         <tr> 
+         <td>Elapsed Weeks</td> 
+         <td>EW</td> 
+         </tr> 
+         <tr> 
+         <td>Elapsed Months</td> 
+         <td>ET</td> 
+         </tr> 
+         </tbody> 
+         </table> 
+
+         <p><b>NOTE</b>
+         
+         <p>Elapsed time is a unit of time for a task's Duration. It is the time between the Planned Start Date and the Planned Completion Date of a task that includes holidays, weekends, and time off. In other words, elapsed time is the passage of calendar days. 
+
+         Regular time takes into account holidays, weekends, and time off and excludes them from the Duration of the task. For more information about task duration, see <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Overview of Task Duration and Duration Type</a>. </p>
+         </td> 
+         </tr> 
+         <tr> 
+         <td role="rowheader">Planned Hours</td> 
+         <td> <p>Specify the number of Planned Hours for the task, in hours. This is the amount of actual time that it would take the assignees of the task to complete it. You can only specify the number of Planned Hours for a task when the Duration Type is set to Calculated Assignment. For more information about duration types, see <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Overview of Task Duration and Duration Type</a>.</p> 
+         <b>NOTE</b>
+         <p>
+         When creating recurring tasks, the Planned Hours are those of each occurrence. The Planned Hours of the parent tasks are the total of all Planned Hours from all the occurrences. For information about creating recurring tasks, see <a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">Create recurring tasks</a>.
+         </p>
+         
+         </td> 
+         </tr> 
+         </tbody> 
+         </table>
+      
+   
+      <!--<tr> 
+      <td role="rowheader">Allocation</td> 
+      <td> <p>If your Task Constraint is Calculated Work or Effort Driven, specify the <strong>Allocation %</strong> (allocation percentage) for each assignee. This is the amount of time from the schedule of the assignee that they can spend on this task. Changing the allocation percentage for an assignee will change the Planned Hours of a task. </p> <p>When the Task Constraint is Simple, you can specify the following:</p> 
+         <ul> 
+         <li> <p>Allocation Hours of each assignee.</p> </li> 
+         <li> <p>Planned Hours of the task</p> </li> 
+         <li> <p>Duration of the task</p> </li> 
+         </ul> </td> 
+      </tr> 
+      <tr> 
+      <td role="rowheader">Assignee's Role</td> 
+      <td> <p>Select a role from the <strong>Assignee's Role</strong> drop-down menu when you selected a person as an assignee. This is the role that the assignee can fulfill on this task. </p> <p><b>TIP</b>
+         Only the job roles associated with each assignee in their profile appear in the drop-down menu.</p> </td> 
+         </tr>
+         </tbody> 
+         </table>**********************
+
+   1. (Optional) Click **Switch to old experience** at the bottom of the **Edit Task** box. 
+      The Assignments area opens in the old experience. 
+   
+      ![Assignments section in the Edit Task box](assets/nwe-assignments-section-edit-task-box-350x217.png)
+
+1. (Conditional) Using the old experience, do the following: 
+
+   1. Click **Search people, roles, or teams** and start typing the name of a user, role, or team that you want to assign to the task, then click it or press Enter when it displays on the list.
+
+      >[!TIP]
+      >
+      >* If the user's name contains a special character, you must include the special character in the search field.
+      >* You can assign multiple users, job roles, or teams. You can assign only active users, job roles, and teams.
+      >
+      >* If a user, job role, or a team was assigned before they were deactivated, they remain assigned to the work item. In this case, we recommend the following: 
+      >
+      >* Reassign the work item to active resources. 
+      >* Associate the users in a deactivated team with an active team and reassign the work item to the active team. 
+
+   1. (Optional) Hover over an assignee's name, then click **Make Primary** to indicate whether an assignee is the primary assignee or the owner of the task. A team cannot be the primary assignee of a task. 
+   1. (Optional) Update the following fields: 
+
+      <table style="table-layout:auto"> 
+      <col> 
+      <col> 
+      <tbody> 
+      <tr> 
+         <td role="rowheader">Duration Type</td> 
+         <td> <p>This identifies the relationship between the following: </p> 
+         <ul> 
+         <li> <p>The number of resources assigned to a task </p> </li> 
+         <li> <p>The total effort required to complete the task </p> </li> 
+         <li> <p> The total duration of the task. </p> </li> 
+         </ul> <p>Your Workfront administrator or a group administrator selects the default Duration Type setting for the tasks in your system or your group. For information about setting project defaults, see <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md" class="MCXref xref">Configure system-wide task and issue preferences</a>. </p> <p>Duration Types enable you to set consistent resource assignments based on the needs of the task. For more information about the Duration Type of a task, see <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Overview of Task Duration and Duration Type</a>. </p> <p>Select from the following options: </p> 
+         <ul> 
+         <li> <p>Calculated Assignment </p> </li> 
+         <li> <p> Calculated Work </p> </li> 
+         <li> <p>Effort Driven </p> </li> 
+         <li> <p>Simple</p> </li> 
+         </ul> </td> 
+      </tr> 
+      <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
+         <td role="rowheader">Duration per Occurrence</td> 
+         <td> <p>This displays only on the parent of recurring tasks. It displays the duration of each recurring task, as defined when the task was created. For information about creating recurring tasks, see <a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">Create recurring tasks</a>. </p> <p> <b>NOTE</b> 
+         
+         Durations modified in individual recurring tasks do not display the value indicated in this field. </p> </td> 
+      </tr> 
+      <tr> 
+         <td role="rowheader">Duration</td> 
+         <td> 
+         <div> 
+         <div> 
+         <p>This is the amount of time that you allow a task to remain open before it is completed. </p> 
+         <p><b>IMPORTANT</b>
+         
+         Because the task duration is typically the amount of time between the Planned Start and the Planned Completion Dates, it affects the timeline of the project.</p> 
+         
+         <p>To indicate the Duration of the task and the unit of time do the following:</p> 
+         <ul> 
+         <li> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Type the length of time and select from the units of time available in the drop-down menu.</p> <p><b>TIP</b></p>
+         When you update the Duration of tasks in a task list, you can use the abbreviation for the unit of time. </p> </li> 
+         </ul> 
+         <p> You can choose from the regular time or elapsed time options in the following table: </p> 
+         <table style="table-layout:auto"> 
+         <col> 
+         <col data-mc-conditions=""> 
+         <tbody> 
+         <tr> 
+         <td>Unit of Time</td> 
+         <td>Abbreviation</td> 
+         </tr> 
+         <tr> 
+         <td>Minutes</td> 
+         <td>M</td> 
+         </tr> 
+         <tr> 
+         <td>Hours</td> 
+         <td>H</td> 
+         </tr> 
+         <tr> 
+         <td>Days. This is the default. </td> 
+         <td>D</td> 
+         </tr> 
+         <tr> 
+         <td>Weeks</td> 
+         <td>W</td> 
+         </tr> 
+         <tr> 
+         <td>Months</td> 
+         <td>T</td> 
+         </tr> 
+         <tr> 
+         <td>Elapsed Minutes</td> 
+         <td>EM</td> 
+         </tr> 
+         <tr> 
+         <td>Elapsed Hours</td> 
+         <td>EH</td> 
+         </tr> 
+         <tr> 
+         <td>Elapsed Days</td> 
+         <td>ED</td> 
+         </tr> 
+         <tr> 
+         <td>Elapsed Weeks</td> 
+         <td>EW</td> 
+         </tr> 
+         <tr> 
+         <td>Elapsed Months</td> 
+         <td>ET</td> 
+         </tr> 
+         </tbody> 
+      </table> 
+
+         <p><b>NOTE</b>
+            
+         <p>Elapsed time is a unit of time for a task's Duration. It is the time between the Planned Start Date and the Planned Completion Date of a task that includes holidays, weekends, and time off. In other words, elapsed time is the passage of calendar days. 
+
+         Regular time takes into account holidays, weekends, and time off and excludes them from the Duration of the task. For more information about task duration, see <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Overview of Task Duration and Duration Type</a>. </p>
+         </div> 
+         </div> </td> 
+         </tr> 
+         <tr> 
+         <td role="rowheader">Planned Hours</td> 
+         <td> <p>Specify the number of Planned Hours for the task, in hours. This is the amount of actual time that it would take the assignees of the task to complete it. You can only specify the number of Planned Hours for a task when the Duration Type is set to Calculated Assignment. For more information about duration types, see <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Overview of Task Duration and Duration Type</a>.</p> 
+         <b>NOTE</b>
+         <p>
+         When creating recurring tasks, the Planned Hours are those of each occurrence. The Planned Hours of the parent tasks are the total of all Planned Hours from all the occurrences. For information about creating recurring tasks, see <a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">Create recurring tasks</a>.
+         </p>
+         
+         </td> 
+         </tr> 
+         <tr> 
+         <td role="rowheader">Allocation</td> 
+         <td> <p>If your Task Constraint is Calculated Work or Effort Driven, specify the <strong>Allocation %</strong> (allocation percentage) for each assignee. This is the amount of time from the schedule of the assignee that they can spend on this task. Changing the allocation percentage for an assignee will change the Planned Hours of a task. </p> <p>When the Task Constraint is Simple, you can specify the following:</p> 
+            <ul> 
+            <li> <p>Allocation Hours of each assignee.</p> </li> 
+            <li> <p>Planned Hours of the task</p> </li> 
+            <li> <p>Duration of the task</p> </li> 
+            </ul> </td> 
+         </tr> 
+         <tr> 
+         <td role="rowheader">Assignee's Role</td> 
+         <td> <p>Select a role from the <strong>Assignee's Role</strong> drop-down menu when you selected a person as an assignee. This is the role that the assignee can fulfill on this task. </p> <p><b>TIP</b>
+         
+         Only the job roles associated with each assignee in their profile appear in the drop-down menu.</p> </td> 
+            </tr> 
+            </tbody> 
+            </table>
+
+1. Click **Save** or continue with the following sections.
+
+<div class="preview">
+
+#### Edit the Assignments area in the Preview environment-->

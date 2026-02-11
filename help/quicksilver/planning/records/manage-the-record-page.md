@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 233051de458917fd3b40a675914552ccd7d2f474
+source-git-commit: 21c98e443a6d6ca79045e2f4aba5f792340833cd
 workflow-type: tm+mt
-source-wordcount: '1568'
+source-wordcount: '1567'
 ht-degree: 46%
 
 ---
@@ -279,14 +279,14 @@ Ocurren lo siguiente:
 
    <div class="preview">
 
-   * Seleccione la opción **Mostrar campos de tabla** para ver únicamente los campos que no están ocultos en la vista de tabla del registro. Esta es la configuración predeterminada
-   * Anule la selección del ajuste **Mostrar campos de tabla** para ver todos los campos de la vista de tabla del registro, incluidos los ocultos.
+   * Seleccione la opción **Mostrar todos los campos** para ver todos los campos de la vista de tabla del registro, incluidos los ocultos.
+   * Anule la selección del ajuste **Mostrar todos los campos** para ver únicamente los campos que no estén ocultos en la vista de tabla del registro. Esta es la configuración predeterminada
 
    </div>
 
    >[!TIP]
    >
-   ><span class="preview">La configuración **Mostrar campos de tabla** solo está disponible en el cuadro de vista previa de detalles del registro. No está disponible en la página Detalles del registro.</span>
+   ><span class="preview">La configuración **Mostrar todos los campos** solo está disponible en el cuadro de vista previa de detalles del registro. No está disponible en la página Detalles del registro.</span>
 
 
    <!--replace with this when they fix the UI text:
