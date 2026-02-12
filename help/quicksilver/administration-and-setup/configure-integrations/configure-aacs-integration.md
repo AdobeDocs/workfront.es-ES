@@ -6,10 +6,10 @@ description: Puede conectar su trabajo con su contenido en  [!DNL Experience Man
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: bc58cc77-a177-417f-a5a4-eec51e305219
-source-git-commit: 85ccee879fd4ba5a80b6e885458839901f83d26e
+source-git-commit: 315428ec517b3a6c0edae387b3a866093a49a2b2
 workflow-type: tm+mt
-source-wordcount: '1702'
-ht-degree: 94%
+source-wordcount: '1713'
+ht-degree: 91%
 
 ---
 
@@ -41,7 +41,7 @@ Puede conectar su trabajo con el contenido en [!DNL Experience Manager Assets]:
 
 <table>
   <tr>
-   <td>paquete de Adobe Workfront
+   <td>Paquete de Adobe Workfront
    </td>
    <td> <p>PRIME o ULTIMATE</p>
     <p>Workflow Ultimate</p>
@@ -122,7 +122,7 @@ Antes de empezar a asignar campos de metadatos, debe configurarlos tanto en Work
 
 Para configurar campos de metadatos:
 
-1. Configure un esquema de metadatos en [!DNL Experience Manager Assets] como se explica en [Configurar la asignación de metadatos de recursos entre Adobe [!DNL Workfront]  y  [!DNL Experience Manager Assets]](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
+1. Configure un esquema de metadatos en [!DNL Experience Manager Assets] como se explica en [Configurar la asignación de metadatos de recursos entre Adobe [!DNL Workfront]  y  [!DNL Experience Manager Assets]](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
 
 
 1. Configure campos de formulario personalizados en Workfront. [!DNL Workfront] tiene muchos campos personalizados integrados que puede utilizar. Sin embargo, también puede crear sus propios campos personalizados, tal como se explica en [Crear un formulario personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
@@ -152,7 +152,7 @@ Puede asignar cualquier campo compatible con Workfront a una etiqueta de Experie
 
 Una vez creadas las etiquetas en Experience Manager Assets, aparecerán en la lista desplegable Etiquetas de la sección Metadatos. Para vincular un campo a una etiqueta, seleccione `xcm:keywords` en la lista desplegable de campos de Experience Manager Assets en el área de asignación de metadatos.
 
-Para obtener más información sobre las etiquetas en Experience Manager Assets, incluyendo cómo crear y administrar etiquetas, consulte [Administración de etiquetas](https://experienceleague.adobe.com/es/docs/experience-manager-64/administering/contentmanagement/tags).
+Para obtener más información sobre las etiquetas en Experience Manager Assets, incluyendo cómo crear y administrar etiquetas, consulte [Administración de etiquetas](https://experienceleague.adobe.com/en/docs/experience-manager-64/administering/contentmanagement/tags).
 
 **Campos de esquema de metadatos personalizados de Experience Manager Assets**
 
@@ -285,11 +285,15 @@ Puede crear hasta 100 carpetas vinculadas por árbol de carpetas.
 
 1. Haga clic en **[!UICONTROL Save]** o continúe en la sección [Recursos de Publish que se han enviado a Adobe Experience Manager Assets](#publish-assets-that-are-sent-to-adobe-experience-manager-assets) de este artículo.
 
+
 >[!NOTE]
 >
->* Esta integración no creará más de 100 carpetas, independientemente de cuántos árboles de carpetas se creen. Por ejemplo, una integración con 4 árboles de carpetas puede crear hasta 100 carpetas, no 400 carpetas.
->* La primera carpeta del árbol de carpetas se marca automáticamente como vinculada a Workfront. Si no desea vincular esta carpeta, puede desvincularla.
+>* La integración nativa de Workfront AEM puede crear **no más de 100 carpetas por proyecto por integración**, independientemente de cuántos árboles de carpetas se incluyan.
+>   * Ejemplo: una integración con 4 árboles de carpetas en un solo proyecto puede crear hasta 100 carpetas en total, no 400.
+>* La primera carpeta de cada árbol de carpetas se marca automáticamente como vinculada a Workfront. Si no desea vincular esta carpeta, puede desvincularla.
 >* Si no se proporciona ningún árbol de carpetas, la carpeta raíz se convierte en la carpeta vinculada.
+
+
 
 
 ### Recursos de Publish que se han enviado a Adobe Experience Manager Assets
