@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: ba6a9e68-68a1-4152-b024-cd39e06d556f
-source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
+source-git-commit: 97f5adc8811a3be7be23137a82d10d45b76ec605
 workflow-type: tm+mt
-source-wordcount: '634'
-ht-degree: 93%
+source-wordcount: '677'
+ht-degree: 88%
 
 ---
 
@@ -35,7 +35,7 @@ Para obtener información acerca del uso de niveles de acceso personalizados par
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td>Cualquiera</td> 
   </tr> 
     <tr> 
@@ -68,6 +68,8 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
    >* Los usuarios con una licencia de revisión tienen derechos de visualización en los proyectos de problemas convertidos, pero sus derechos de visualización son limitados.
    >* Para obtener información sobre los permisos que los usuarios pueden conceder al compartir proyectos con otros, consulte [Compartir un proyecto en Adobe Workfront](../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).
    >* Cuando se establece una configuración de nivel de acceso para un tipo determinado de objeto, esa configuración no afecta al acceso de los usuarios a los objetos con una clasificación inferior. Por ejemplo, puede restringir la eliminación de proyectos en su nivel de acceso por parte de los usuarios, pero esto no les impide eliminar tareas, que son de menor clasificación que los proyectos. Para obtener más información sobre la jerarquía de objetos, consulte la sección [Interdependencia y jerarquía de objetos](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#understanding-interdependency-and-hierarchy-of-objects) en el artículo [Comprender los objetos en Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+   * Un usuario cuyo nivel de acceso no permite el acceso a los datos financieros no puede conceder acceso que permitiría a otros ver los datos financieros. Esto incluye dar acceso a proyectos que mostrarían datos financieros o modificar un nivel de acceso para permitir la visualización de datos financieros.
+
 
 1. (Opcional) Haga clic en **establecer valores predeterminados de uso compartido** a la derecha de la opción Crear y, a continuación, **Agregar regla** para agregar una regla de uso compartido para nuevos proyectos.
 

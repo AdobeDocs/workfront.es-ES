@@ -6,10 +6,10 @@ description: Es posible compartir o quitar permisos de un objeto que creó o de 
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 7c14702e-ac55-4266-88a7-f31618f84218
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: 97f5adc8811a3be7be23137a82d10d45b76ec605
 workflow-type: tm+mt
-source-wordcount: '1289'
-ht-degree: 84%
+source-wordcount: '1332'
+ht-degree: 82%
 
 ---
 
@@ -99,7 +99,9 @@ Es posible compartir los siguientes objetos en Workfront con otros usuarios:
 
 ## Limitaciones de uso compartido
 
-Es posible compartir un objeto con hasta 100 entidades (usuarios, equipos, grupos, roles o empresas). Se recomienda compartir objetos con grupos, equipos o empresas en lugar de con usuarios individuales para evitar esta limitación.
+* Es posible compartir un objeto con hasta 100 entidades (usuarios, equipos, grupos, roles o empresas). Se recomienda compartir objetos con grupos, equipos o empresas en lugar de con usuarios individuales para evitar esta limitación.
+* Un usuario cuyo nivel de acceso no permite el acceso a los datos financieros no puede conceder acceso que permitiría a otros ver los datos financieros. Esto incluye dar acceso a proyectos que mostrarían datos financieros o modificar un nivel de acceso para permitir la visualización de datos financieros.
+
 
 ## Permisos de uso compartido para objetos
 
