@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: d36ab9fb-0275-483d-97be-0a88e170f8e0
-source-git-commit: 233051de458917fd3b40a675914552ccd7d2f474
+source-git-commit: 5a725e747e8776a867cb0dc4129544f6a28ce8e0
 workflow-type: tm+mt
-source-wordcount: '1411'
+source-wordcount: '1420'
 ht-degree: 5%
 
 ---
@@ -139,7 +139,7 @@ Como administrador de espacio de trabajo, puede configurar un tipo de registro p
 
 Un administrador del espacio de trabajo puede agregar un tipo de registro global a un espacio de trabajo que administre. Los campos originales del tipo de registro también se añaden al espacio de trabajo secundario.
 
-Los usuarios pueden agregar registros a un tipo de registro global desde cualquier espacio de trabajo en el que tengan permisos de contribución y en el que se agregue el tipo de registro global, incluido su espacio de trabajo original. Pueden ver registros de espacios de trabajo a los que solo tienen permisos de visualización.
+Los usuarios pueden agregar registros a un tipo de registro global desde cualquier espacio de trabajo en el que tengan permisos de contribución y en el que se agregue el tipo de registro global, incluido su espacio de trabajo original. Pueden ver registros de espacios de trabajo a los que solo tienen permisos de Vista desde el espacio de trabajo principal del tipo de registro global.
 
 Para obtener más información, vea [Información general sobre los tipos de registros entre espacios de trabajo](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md).
 

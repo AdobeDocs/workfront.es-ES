@@ -7,7 +7,7 @@ description: Después de crear una plantilla, puede editar la información sobre
 author: Alina
 feature: Work Management
 exl-id: 2df8522e-7eee-4440-be0f-f7483c5acdb0
-source-git-commit: e812338b1f20c6f8dc8679afe3215dbecc8ffc60
+source-git-commit: e186b4aa0b5c229015cf8f3dcd8993f8f0443c44
 workflow-type: tm+mt
 source-wordcount: '2958'
 ht-degree: 70%
@@ -404,7 +404,7 @@ Los nombres de los formularios personalizados solo se muestran si hay formulario
    </tr> 
    </tbody> 
    </table>
-1. Pase el ratón sobre el nombre de un usuario asignado y haga clic en Convertir en principal. Este será el propietario de la tarea de proyecto futura.
+1. Pase el ratón sobre el nombre de un usuario asignado y haga clic en **Convertir en principal**. Este será el **Propietario** de la futura tarea del proyecto.
 
    >[!TIP]
    >
