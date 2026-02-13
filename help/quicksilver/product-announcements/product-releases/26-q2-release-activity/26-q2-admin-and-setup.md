@@ -5,10 +5,10 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: ce152c48-ed72-47ed-b1c5-940c93b4a9ec
-source-git-commit: f55ab45a7c11a4f0e4cdbe65ea890ba452b9bbba
+source-git-commit: 9160a68653999c35de32dd417b18ea8197ef446f
 workflow-type: tm+mt
-source-wordcount: '269'
-ht-degree: 21%
+source-wordcount: '281'
+ht-degree: 20%
 
 ---
 
@@ -25,8 +25,10 @@ Para obtener una lista de todos los cambios disponibles en este punto del ciclo 
 >[!NOTE]
 >
 >Vista previa: 29 de enero de 2026
->Versión rápida de producción: 12 de febrero de 2026\
+>Versión rápida de producción: 12 de febrero de 2026
 >Producción para todos: 16 de abril de 2026
+>
+>Esta función se eliminó temporalmente del entorno de producción el 13 de febrero de 2026.
 
 El nuevo tipo de campo **Texto enriquecido** de los formularios personalizados es un editor de texto robusto con opciones de formato como superíndice y subíndice, encabezados y tablas, además de las opciones tradicionales de negrita, cursiva, subrayado, viñetas, numeración, hipervínculos y comillas de bloque. El límite de caracteres sigue siendo de 15 000.
 
