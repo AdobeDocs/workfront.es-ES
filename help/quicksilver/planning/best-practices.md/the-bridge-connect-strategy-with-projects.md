@@ -95,7 +95,7 @@ Para organizaciones con solicitudes de gran volumen o necesidades de automatizac
 
 Necesitará una licencia para Adobe Workfront Fusion para este enfoque.
 
-Para obtener más información, consulte [Configurar y administrar Workfront Fusion: índice de artículos](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/set-up-and-manage-fusion/set-up-and-manage-workfront-fusion-toc).
+Para obtener más información, consulte [Configurar y administrar Workfront Fusion: índice de artículos](https://experienceleague.adobe.com/es/docs/workfront-fusion/using/set-up-and-manage-fusion/set-up-and-manage-workfront-fusion-toc).
 
 * **Usar déclencheur de envío:** Debido a que los formularios proporcionan un único evento de envío limpio, se pueden usar como déclencheur para las automatizaciones de Fusion. Un escenario de Fusion puede detectar un envío de formulario y generar inmediatamente un proyecto vinculado en Workfront.
 
