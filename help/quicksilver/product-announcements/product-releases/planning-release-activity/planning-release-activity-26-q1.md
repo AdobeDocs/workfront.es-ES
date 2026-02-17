@@ -6,9 +6,10 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: d60123df6e18025a886809fa390137bdf9287e6e
+exl-id: af1a54ea-1717-45fa-bb94-55774eb28f28
+source-git-commit: 699add479d958b9f3fc01ae30513ddf6689620f1
 workflow-type: tm+mt
-source-wordcount: '2014'
+source-wordcount: '2017'
 ht-degree: 1%
 
 ---
@@ -146,7 +147,7 @@ Para obtener más información sobre la configuración de vistas de conexión de
 
 >[!IMPORTANT]
 >
->Esto se ha eliminado temporalmente de los entornos de Previsualización y Producción.
+>Esto se eliminó temporalmente de los entornos de Previsualización y Producción entre el 20 de enero y el 17 de febrero de 2026.
 
 >[!NOTE]
 >
@@ -300,9 +301,3 @@ Tenga en cuenta lo siguiente con esta mejora:
 * Los valores de opción se muestran en minúsculas y están separados por guiones bajos en el caso de opciones de varias palabras. Si utiliza una etiqueta ya utilizada como otro nombre de opción para el mismo campo, Workfront añade un número secuencial al valor.
 
 Para obtener más información, consulte [Crear campos](/help/quicksilver/planning/fields/create-fields.md).
-
-
-
-
-
-

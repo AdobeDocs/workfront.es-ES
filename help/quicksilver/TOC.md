@@ -3,9 +3,9 @@ user-guide-title: Guía de Workfront
 user-guide-description: Utilice los siguientes documentos, tutoriales y recursos adicionales para aprender a implementar y utilizar Adobe Workfront de forma eficaz en su organización.
 role: User
 feature-set: Workfront
-source-git-commit: aa3645e2ed8c36a3b07caad72083a43467889fce
+source-git-commit: 699add479d958b9f3fc01ae30513ddf6689620f1
 workflow-type: tm+mt
-source-wordcount: '13769'
+source-wordcount: '13772'
 ht-degree: 57%
 
 ---
@@ -43,7 +43,7 @@ ht-degree: 57%
          * [Mejoras de proyecto del cuarto trimestre de 2025](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-project.md)
          * [Mejoras en las solicitudes del cuarto trimestre de 2025](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-requests.md)
          * [Mejoras en la gestión de recursos del cuarto trimestre de 2025](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-resource-mgmt.md)
-         * [Otras mejoras del cuarto trimestre de 2025 &#x200B;](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-other.md)
+         * [Otras mejoras del cuarto trimestre de 2025 ](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-other.md)
          * [Actualizaciones de aspecto durante el periodo de tiempo de la versión del cuarto trimestre de 2025](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-look-and-feel-updates.md)
       * Versión del tercer trimestre de 2025 {#release-25-q3}
          * [Resumen de la versión del tercer trimestre de 2025](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-release-overview.md)
@@ -1787,7 +1787,7 @@ ht-degree: 57%
    * [Administrar recursos: índice de artículos](resource-mgmt/manage-resources.md)
    * Administración de recursos {#resource-management}
       * [Administración de recursos: índice de artículos](resource-mgmt/resource-mgmt-overview/resource-management-overview.md)
-      * [Introducción a la Administración de recursos &#x200B;](resource-mgmt/resource-mgmt-overview/get-started-resource-management.md)
+      * [Introducción a la Administración de recursos ](resource-mgmt/resource-mgmt-overview/get-started-resource-management.md)
    * Planificación de recursos en Adobe Workfront {#resource-planning-in-adobe-workfront}
       * [Planificación de recursos: índice de artículos](resource-mgmt/resource-planning/resource-planning-overview.md)
       * Conjuntos de recursos {#resource-pools}
@@ -2111,11 +2111,11 @@ ht-degree: 57%
       * [Introducción a la prueba gratuita de Adobe Workfront Planning](planning/general/trial-workfront-planning.md)
    * Prácticas recomendadas para Adobe Workfront Planning {#adobe-workfront-planning-best-practices}
       * [Prácticas recomendadas de Adobe Workfront: índice de artículos](planning/best-practices.md/best-practices-article-index.md)
-      * [La plataforma de lanzamiento de 30 días: despliegue su hogar estratégico](planning/best-practices.md/30-day-launchpad.md)
-      * [Arquitectura de éxito: modele la jerarquía de campañas](planning/best-practices.md/model-campaign-hierarchy.md)
-      * [El calendario de marketing que se ha estado perdiendo: sin barajas, solo claridad](planning/best-practices.md/marketing-calendar.md)
-      * [Guía de estrategias: escalado administrado, después de la primera victoria](planning/best-practices.md/playbook-how-to-scale.md)
-      * [El puente: conectar la intención estratégica con los proyectos](planning/best-practices.md/the-bridge-connect-strategy-with-projects.md)
+      * [Despliegue su hogar estratégico: una plataforma de lanzamiento de 30 días](planning/best-practices.md/30-day-launchpad.md)
+      * [Arquitecta tu éxito: modelando la jerarquía de tu campaña](planning/best-practices.md/model-campaign-hierarchy.md)
+      * [Cree su calendario de marketing: sin cubiertas, solo claridad](planning/best-practices.md/marketing-calendar.md)
+      * [Convierta su primera victoria en un impulso sostenible: un manual para escalado administrado](planning/best-practices.md/playbook-how-to-scale.md)
+      * [Construya el puente: conectando la intención estratégica con los proyectos](planning/best-practices.md/the-bridge-connect-strategy-with-projects.md)
    * Arquitectura de Adobe Workfront Planning {#adobe-workfront-planning-architecture}
       * [Arquitectura: índice de artículos](planning/architecture/architecture-information.md)
       * [Información general sobre espacios de trabajo](planning/architecture/workspaces-overview.md)
