@@ -5,9 +5,9 @@ description: Las listas mejoradas utilizan un formato de tabla para mostrar los 
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 4c25ed54-b147-4fd3-8d00-6f1ba61bbd38
-source-git-commit: b935f3013c1be670dea834c041e02165f0e7047c
+source-git-commit: ee5bb3cbf6a69b85c3d6b87500164f85a1ba114a
 workflow-type: tm+mt
-source-wordcount: '1620'
+source-wordcount: '1617'
 ht-degree: 5%
 
 ---
@@ -53,7 +53,7 @@ A continuación se muestran algunos tipos de listas de objetos de Workfront que 
 
 >[!NOTE]
 >
->Esta lista no es completa. Cada una de estas listas de objetos también puede aparecer en un informe o en un panel de control. Por ejemplo, un informe de proyecto o un panel de control que contenga un informe de proyecto también mostrará una lista de proyectos.
+>Esta lista no es completa. Cada una de estas listas de objetos también puede aparecer en un informe o en un panel de control. Por ejemplo, un informe de solicitud o un tablero que contenga un informe de solicitud también mostrará una lista de solicitudes.
 
 | Lista de Workfront | Ubicación de la lista de objetos |
 |--- |--- |
@@ -61,14 +61,17 @@ A continuación se muestran algunos tipos de listas de objetos de Workfront que 
 | Lista de solicitudes | <ul><li>Solicitudes (solo nueva experiencia)</li><li>Widget de Mis solicitudes en Inicio</li></ul> |
 | Listas de estados, prioridades, gravedades y tasas de cambio en Configuración | <ul><li>Configuración > Preferencias de proyecto > Estados</li><li>Configuración > Preferencias del proyecto > Prioridades</li><li>Configuración > Preferencias del proyecto > Gravedades</li><li>Configuración > Preferencias del proyecto > Tasas de cambio</li></ul> |
 
-## Adición y edición de elementos en una lista mejorada
+## Agregar elementos a una lista mejorada
 
-Según la configuración de la lista mejorada, podría haber dos formas de agregar un elemento a la lista:
+En función de la lista mejorada que esté viendo, realice una de las siguientes acciones:
 
-* Haga clic en un botón situado encima de la lista. Esta opción abre un cuadro de diálogo en el que se introduce información y se guarda.
-* Haga clic en **Nueva fila** al final de la lista. Esta opción agrega una nueva fila a la tabla y se introduce información en cada celda.
+1. Haga clic en el botón azul en la parte superior derecha de la lista. Esta opción abre un cuadro de diálogo en el que puede introducir información. Los datos se guardan como una nueva fila en la tabla.
 
-  Las listas mejoradas admiten estos tipos de campos:
+   O
+
+1. Haga clic en **Nueva fila** al final de la lista. Esta opción agrega una nueva fila a la tabla. Haga doble clic en una celda para introducir información en ella. Cada celda representa un campo para el elemento de la lista. Los campos deben existir antes de verlos en la lista.
+
+   Las listas mejoradas admiten estos tipos de campos:
 
    * Texto
    * Número
@@ -81,50 +84,56 @@ Según la configuración de la lista mejorada, podría haber dos formas de agreg
    * Usuario asignado (uno o varios)
    * Selector de color
 
-  Al editar una celda, cada tipo de campo tiene sus propias opciones de edición.
-
-Para editar un elemento de la lista, haga doble clic en la celda que desee editar y escriba la información. Algunas celdas pueden ser de solo lectura.
+   >[!NOTE]
+   >
+   >Cada tipo de campo tiene sus propias opciones de edición. Algunos campos pueden ser de solo lectura.
 
 ![Ejemplo de lista mejorada](assets/glist-exchange-rates.png)
 
-## Utilice la barra de acciones y el menú Más en una lista mejorada
+## Editar elementos mediante la barra de acciones
 
-La barra de acciones muestra las acciones que se pueden realizar en un elemento de lista. Algunas acciones pueden ser específicas de esa lista y no aparecen en ninguna otra.
+Puede utilizar la barra de acciones de una lista mejorada para editar los elementos de la lista. No todas las barras de acciones incluyen las mismas opciones. Además, es posible que algunas listas no le permitan seleccionar elementos y que la barra de acciones no esté disponible.
 
-1. Active la casilla de verificación situada junto a un elemento de la lista mejorada.
+1. Active la casilla de verificación situada junto a un elemento de una lista mejorada.
 
    La barra de acciones aparece en la parte inferior de la pantalla.
 
    >[!NOTE]
    >
-   >Las distintas listas mejoradas pueden permitir seleccionar un solo elemento, editar por lotes (seleccionar más de un elemento) o no seleccionar ningún elemento.
+   >En función de la lista que edite, puede seleccionar uno o varios elementos para utilizarlos en la barra de acciones.
 
-1. Haga clic en un botón de la barra de acciones para realizar esa acción, como ver el elemento de la lista, eliminarlo o editarlo.
+1. Haga clic en una acción de la barra para editar los elementos. Estos son algunos ejemplos de acciones que puede elegir:
 
-   Si no hay acciones disponibles para el elemento seleccionado, la barra de acciones indica &quot;No hay acciones disponibles&quot;.
+   * Ver
+   * Editar
+   * Eliminar
+
+   Si no hay acciones disponibles para el elemento seleccionado, la barra de acciones muestra &quot;No hay acciones disponibles&quot;.
 
    ![Ejemplo de barra de acciones](assets/glist-action-bar-statuses.png)
 
-1. Pase el ratón sobre un campo principal de un elemento de la lista para ver el menú **Más**. (El campo principal es la columna situada más a la izquierda de la tabla).
+1. Pase el ratón sobre el campo principal de un elemento de la lista y luego haga clic en el **Más** icono de menú ![Más](assets/more-icon.png) para ver acciones adicionales. Algunas acciones pueden ser específicas de esa lista.
 
-1. Haga clic en el menú para ver acciones adicionales para el elemento. Algunas acciones pueden ser específicas de esa lista y no aparecen en ninguna otra.
+   >[!TIP]
+   >
+   >El campo principal se muestra en la primera columna de la lista.
 
    ![Ejemplo de menú más](assets/glist-more-menu-priorities.png)
 
-## Personalización de columnas en una lista mejorada
+## Personalizar columnas
 
-Algunas listas mejoradas permiten ocultar y mostrar columnas y reordenarlas.
+En función de los objetos que visualice en una lista mejorada, puede ocultar, mostrar o reordenar las columnas de la lista.
 
 1. Haga clic en **Columnas** sobre la lista.
 
    ![Ejemplo de columnas de visualización](assets/glist-display-move-columns.png)
 
 1. Utilice las teclas de alternancia para mostrar u ocultar columnas de la lista.
-1. Para reordenar las columnas, haga clic en el icono **Arrastrar** y mueva una columna a la ubicación que desee. Al mover columnas, la lista cambia automáticamente.
+1. Para reordenar las columnas, haga clic en el icono **Arrastrar** ![Arrastrar icono](assets/drag-icon.png) y mueva una columna a la ubicación que desee. Al mover columnas, la lista cambia automáticamente.
 
    >[!NOTE]
    >
-   >El campo principal es la columna situada más a la izquierda de la tabla. Se fija en la primera posición y no se puede cambiar su columna. Si el número de columnas es grande, el campo principal se bloquea a la izquierda y, cuando se desplaza horizontalmente, siempre lo ve.
+   >El campo principal es la primera columna de la lista. Se fija en la primera posición y no se puede cambiar su columna. Si el número de columnas es grande, el campo principal se bloquea a la izquierda y, cuando se desplaza horizontalmente, siempre lo ve.
    >
    >El icono junto al nombre de un campo muestra el tipo de campo, como el campo de texto o de fecha.
 
@@ -132,13 +141,13 @@ Algunas listas mejoradas permiten ocultar y mostrar columnas y reordenarlas.
 
    ![Indicador de columnas ocultas](assets/glist-columns-hidden-indicator.png)
 
-## Agregar y quitar columnas de una lista con el Administrador de columnas
+## Agregar y quitar columnas con el Administrador de columnas
 
-Algunas listas mejoradas ofrecen **Administrador de columnas**, que le permite agregar fácilmente columnas a la lista y quitarlas. Los campos nativos y personalizados están disponibles para seleccionarlos como columnas. Deben existir campos personalizados en el sistema para poder agregarlos como columnas de lista.
+Puede usar **Administrador de columnas** en algunas listas mejoradas para agregar y quitar fácilmente columnas de la lista. Puede agregar o quitar campos personalizados y del sistema que ya existen en Workfront como columnas a una lista mejorada.
 
 Para agregar y quitar columnas:
 
-1. Haga clic en el icono + en la parte superior derecha de la tabla para abrir el cuadro **Administrador de columnas**.
+1. Haga clic en el icono + en la esquina superior derecha de la tabla para abrir el cuadro **Administrador de columnas**.
 1. Busque un campo de objeto existente en la columna **Disponible** y, a continuación, haga clic en + a la derecha del nombre del campo para agregarlo a la columna **Seleccionado**.
 1. Haga clic en - a la derecha de un campo en la columna **Seleccionado** para quitarlo de la lista.
 
@@ -146,11 +155,13 @@ Para agregar y quitar columnas:
    >
    >Algunos campos pueden ser fijos y no se pueden eliminar.
 
+   <!-- Add info about Properties and KPIs when something gets released with those options -->
+
 1. Haga clic en **Guardar**.
 
    ![Administrador de columnas](assets/glist-column-manager.png)
 
-<!-- Add info about Properties and KPIs when something gets released with those options -->
+   La lista actualiza las columnas según las opciones que haya realizado.
 
 ## Visualización de datos con vistas en una lista mejorada
 
@@ -192,7 +203,7 @@ Para compartir una vista:
 
 1. Haga clic en **Guardar**.
 
-## Filtrar y agrupar elementos en una lista mejorada
+## Filtrar y agrupar elementos
 
 Los filtros le ayudan a reducir la cantidad de información que se muestra en la lista. Las agrupaciones separan los objetos de la lista en áreas basadas en criterios específicos.
 
