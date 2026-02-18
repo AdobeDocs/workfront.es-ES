@@ -5,10 +5,10 @@ description: Puede utilizar IA para rellenar automáticamente los campos de soli
 author: Becky
 feature: Get Started with Workfront
 exl-id: 4a22f9ea-c9ee-4947-8683-9989c54903b1
-source-git-commit: 8e04117c08985f3ad5de86e4a08cb4aa53ac7706
+source-git-commit: 8dc094718999af291443bd1a703cdc742d13f57e
 workflow-type: tm+mt
-source-wordcount: '1416'
-ht-degree: 7%
+source-wordcount: '1374'
+ht-degree: 8%
 
 ---
 
@@ -73,8 +73,11 @@ Tenga en cuenta lo siguiente al utilizar Rellenar formulario con tecnología de 
 
 * El relleno de formulario de IA no sobrescribe los campos que ya haya rellenado.
 * Los usuarios no reciben sugerencias de datos a los que no tienen acceso de otro modo.
-* Los archivos que utiliza en el rellenado de formularios con tecnología de IA se cargan en el almacenamiento de Azure durante 24 horas. Esto es necesario para el procesamiento de documentos.
-* Todos los archivos cargados en Azure se almacenan actualmente en clústeres de Azure de EE. UU. durante el período de almacenamiento de 24 horas.
+
+<!--
+* Files that you use in Form Fill powered by AI are uploaded to Azure storage for 24 hours. This is necessary for document processing. 
+* All files uploaded to Azure are currently stored in US Azure clusters for the 24 hour storage window. 
+-->
 
 ## Obtener sugerencias de un mensaje de texto
 
