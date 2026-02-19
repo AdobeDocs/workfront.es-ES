@@ -6,16 +6,24 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: e95ca8a2-6261-4f04-8c7c-1a0bfb1925f3
-source-git-commit: 699add479d958b9f3fc01ae30513ddf6689620f1
+source-git-commit: 7f3ca12d89a2a5fbebc12b3df8a40edbb17d0ead
 workflow-type: tm+mt
-source-wordcount: '1014'
+source-wordcount: '1080'
 ht-degree: 0%
 
 ---
 
 # Cree su calendario de marketing: sin cubiertas, solo claridad
 
-{{planning-important-intro}}
+>[!IMPORTANT]
+>
+>La información de este artículo hace referencia a Adobe Workfront Planning, una funcionalidad adicional de Adobe Workfront.
+>
+>Su organización debe tener un paquete de Workfront Planning Prime o superior para poder admitir las funciones recomendadas en este artículo.
+>
+>Para obtener una lista de los requisitos para acceder a Workfront Planning, consulte [Información general sobre el acceso a Adobe Workfront Planning](/help/quicksilver/planning/access/access-overview.md).
+> 
+>Para obtener información general sobre Workfront Planning, consulte [Introducción a Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
 
 Cada semana, los equipos de marketing pierden un día completo en los informes, no en la estrategia o el trabajo creativo.
 
