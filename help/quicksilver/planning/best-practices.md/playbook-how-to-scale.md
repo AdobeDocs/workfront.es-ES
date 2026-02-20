@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 54df36b3-01a3-4fd3-b2d3-64ffb2fe5918
-source-git-commit: 7f3ca12d89a2a5fbebc12b3df8a40edbb17d0ead
+source-git-commit: a5f33f914dabaa9368dea919510375bcb6ee03e2
 workflow-type: tm+mt
-source-wordcount: '2549'
+source-wordcount: '2574'
 ht-degree: 0%
 
 ---
@@ -91,6 +91,8 @@ Las siguientes son características de las rutas globales:
 
 * **Regla**: estos campos son compartidos y obligatorios.
 
+Para obtener más información, vea [Información general sobre el tipo de registro entre espacios de trabajo](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md).
+
 ### Las zonas de juegos locales (o los &quot;radios&quot;)
 
 Las siguientes son características de los parques infantiles locales
@@ -171,6 +173,8 @@ En su lugar, utilice la siguiente ruta de madurez de campo para permitir que el 
 * **Nivel 2: reconocimiento de patrones**: El administrador observa que los equipos B y C están usando o solicitando un campo similar.
 
 * **Nivel 3: estandarización empresarial**: El administrador crea una única versión estandarizada de ese campo como tipo de registro en la Workspace de taxonomía global y la asocia a los equipos.
+
+  Para obtener más información, vea [Información general sobre el tipo de registro entre espacios de trabajo](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md).
 
 ### Cómo retirar campos
 
@@ -334,6 +338,8 @@ Los siguientes son ejemplos de lo que debe incluir una lista de comprobación:
 * [ ] **Conceder visibilidad global**: Proporcióneles acceso de solo lectura a los espacios de trabajo primarios y al espacio de trabajo de taxonomía global relevantes el día 1.
 
 * [ ] **Establezca el traspaso**: ¿Cómo alimenta su trabajo los espacios de trabajo primarios relevantes? Por ejemplo, su trabajo podría incluirse en los espacios de trabajo primarios relevantes a través de un tipo de registro global o un campo de búsqueda específico.
+
+  Para obtener información acerca de los tipos de registro globales, vea [Información general sobre el tipo de registro entre espacios de trabajo](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md).
 
 <!--original content: 
 

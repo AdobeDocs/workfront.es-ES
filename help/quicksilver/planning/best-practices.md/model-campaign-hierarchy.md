@@ -6,9 +6,9 @@ role: Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 02e3b55f-9188-42bf-8d0b-c9fed86c63c4
-source-git-commit: 7f3ca12d89a2a5fbebc12b3df8a40edbb17d0ead
+source-git-commit: a5f33f914dabaa9368dea919510375bcb6ee03e2
 workflow-type: tm+mt
-source-wordcount: '1537'
+source-wordcount: '1541'
 ht-degree: 1%
 
 ---
@@ -109,7 +109,11 @@ Para crear la arquitectura con el enfoque radial, debe crear lo siguiente:
 
 Primero debe establecer un espacio de trabajo centralizado para las clasificaciones globales a fin de definir los conceptos principales que todos los miembros de su organización deben comprender. Por ejemplo, cree los siguientes tipos de registros en un espacio de trabajo central: Marcas, Regiones, Productos, Personas.
 
-Para obtener más información, consulte [Crear tipos de registros](/help/quicksilver/planning/architecture/create-record-types.md).
+Para obtener más información, consulte lo siguiente:
+
+* [Crear tipos de registro](/help/quicksilver/planning/architecture/create-record-types.md)
+
+* [Información general sobre el tipo de registro entre espacios de trabajo](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md)
 
 Establezca lo siguiente al crear sus clasificaciones:
 

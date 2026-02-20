@@ -7,10 +7,10 @@ description: Cuando planea estar fuera de la oficina por un corto período de ti
 author: Becky
 feature: Work Management
 exl-id: aec2ce78-278f-48d2-af8c-e4e5b31ac856
-source-git-commit: 9cdf3d78e1d19f3d581f8d527919a608c5cc0ddc
+source-git-commit: a5f33f914dabaa9368dea919510375bcb6ee03e2
 workflow-type: tm+mt
-source-wordcount: '902'
-ht-degree: 90%
+source-wordcount: '904'
+ht-degree: 89%
 
 ---
 
@@ -85,7 +85,7 @@ Tenga en cuenta lo siguiente al delegar tareas y problemas:
 | Aparece un usuario asignado o delegado en el encabezado del elemento de trabajo | Sí | Sí |
 | Las tareas o problemas asignados o delegados se muestran en el área de Inicio del asignado o delegado | Sí, hasta que finalice el artículo | Sí, solo durante el período de tiempo de la delegación |
 | Puede asignar o delegar trabajo a usuarios desde el área de Inicio | Sí | Sí |
-| Puede asignar o delegar trabajo a usuarios mediante | Sí | No |
+| Puede asignar o delegar trabajo a usuarios mediante el Distribuidor de cargas de trabajo | Sí | No |
 | Puede asignar o delegar trabajo a usuarios de una lista o desde el encabezado de un elemento de trabajo | Sí | No |
 | Cualquier usuario puede asignar o delegar otros usuarios con elementos de trabajo con los que no están asociados | Según permisos y nivel de acceso | No. Solo el asignado puede delegar sus propios elementos. |
 | Las horas planificadas, reales o presupuestadas para el trabajo asignado o delegado a un usuario se muestran para ese usuario en las herramientas de administración de recursos | Sí | No |

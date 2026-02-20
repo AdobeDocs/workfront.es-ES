@@ -6,7 +6,7 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 1c7e6973-6e9e-4c93-9d3b-89ed90df9d14
-source-git-commit: b2f1bbfbbec23a5400552eb0f989e0a0dc58413c
+source-git-commit: a5f33f914dabaa9368dea919510375bcb6ee03e2
 workflow-type: tm+mt
 source-wordcount: '1001'
 ht-degree: 2%
@@ -93,6 +93,8 @@ Para obtener más información sobre cómo administrar vistas de listas en Workf
 
    La página Registros conectados muestra los proyectos conectados al registro en la vista de lista.
 
+   <!--add new screen shot when they release Row colors/ special formatting for rows-->
+
    ![Proyectos en la página de registros conectados en la vista de lista](assets/projects-on-connected-records-page-list-view.png)
 
 1. (Opcional) Realice una de las siguientes acciones para modificar la vista de lista:
@@ -108,10 +110,12 @@ Para obtener más información sobre cómo administrar vistas de listas en Workf
 
       >[!NOTE]
       >
-      >Debe tener permisos de administración en una vista para poder editarla, compartirla o eliminarla.
+      >* Debe tener permisos de administración en una vista para poder editarla, compartirla o eliminarla.
       >
-      >No puede modificar Vistas del sistema.
+      >* No puede modificar Vistas del sistema.
       >
+      <!--* <span class="preview">You can reset a view that was shared with you after you modified it to restore its original preferences, or you can copy it with your changes and share the copy. For more information, see [Use enhanced lists](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md). </span>
+        -->
    1. Haga clic en el icono **Filtro** ![Icono de filtro](assets/filter-icon.png) para agregar un filtro a la vista. Los resultados se filtran inmediatamente en la lista. No puede guardar los filtros de nombre. Los filtros se recuerdan cuando acceda a la página en el futuro y forman parte de vistas compartidas.
    1. Haga clic en el icono **Columnas** ![Icono de columnas](assets/columns-icon.png) para seleccionar qué columnas mostrar u ocultar en la vista.
    1. Pase el ratón sobre el nombre de una columna, haga clic en la flecha hacia abajo situada a la izquierda del nombre de la columna y, a continuación, haga clic en una de las siguientes opciones:
@@ -123,7 +127,30 @@ Para obtener más información sobre cómo administrar vistas de listas en Workf
 
       Solo se pueden agregar campos existentes a la vista de lista.
 No se puede quitar el campo principal en la vista de lista que aparece en la primera columna.
+
+
+   <!--
+    1. <span class="preview">Click **Row colors** <!-insert icon and edit the name of the icon if they changed it->. The **Format** box opens. <!-change the name of the box when they update it-></span>
+        <span class="preview">Do the following: </span>
+        <div class="preview">
+        1. Define the formatting conditions in the **If** area by clicking **Add condition**, then select a field you want to format by and choose a field value. 
+            >[!TIP]
+            >
+            >Only field visible in the list view are available for conditional formatting.
+        1. (Optional) Click **Add condition** in the If area to add more conditions. 
+        1. Click the **Or** connector between conditions to change to **And**. **Or** is the default connector.  
+        1. In the **Format** area, select a field to indicate which column will be formatted. <!-edit this area, if it changes names???->
+        1. Click on the color circle to expand and choose another color.
+        1. Turn on the **Apply to row** setting to apply the formatting to the entire row that meets the conditions. 
+        1. (Optional) Click **Clear all** to remove all formatting.
+            The formatting is applies immediately.
+        1. Click outside the **Format** box to close it. 
+            This returns you to the list view. There is a blue dot next to the **Row colors** icon to indicate that the view has special formatting applied. <!-might need to edit the icon name and get a screen shot of the icon with the dot and insert it here->
+        </div>
+    -->
+
 1. (Opcional) Agregue una palabra clave al cuadro de búsqueda en la esquina superior derecha de la lista para buscar un elemento.
+
 
    Los elementos que coincidan con el término de búsqueda se resaltarán en la lista.
 1. (Opcional) Para agregar más elementos a la lista y conectarlos automáticamente al registro seleccionado, realice una de las siguientes acciones:

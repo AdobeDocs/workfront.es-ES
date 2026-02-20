@@ -6,9 +6,9 @@ role: Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 90b0e019-1b42-4ab2-8b4c-69f85e4c4d78
-source-git-commit: 7f3ca12d89a2a5fbebc12b3df8a40edbb17d0ead
+source-git-commit: a5f33f914dabaa9368dea919510375bcb6ee03e2
 workflow-type: tm+mt
-source-wordcount: '1303'
+source-wordcount: '1310'
 ht-degree: 0%
 
 ---
@@ -79,6 +79,8 @@ Para obtener más información, consulte [Crear espacios de trabajo](/help/quick
 Con esta arquitectura basada en el equipo, puede:
 
 * **Diseñe el concentrador para admitir el radio:** Puede enfocar el área de trabajo de clasificación global específicamente en los objetos que más importan a su equipo piloto (sus marcas o productos específicos). Esto confirma el protocolo de enlace colaborativo entre la gobernanza empresarial y la autonomía del equipo, a la vez que mantiene el esfuerzo de diseño manejable.
+
+  Para obtener más información, vea [Información general sobre el tipo de registro entre espacios de trabajo](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md).
 
 * **Actúa como un facilitador, no como un guardián:** Cambia tu rol del establecimiento de reglas al desarrollo de capacidades. Asociarse con el equipo de para estructurar su entorno de planificación.
 
