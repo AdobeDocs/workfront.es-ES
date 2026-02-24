@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d2a73d24-51d3-42e2-9c09-7f4bc30b2caa
-source-git-commit: 2a83e5a415ff254cf5525d6f44ecb0e447e7e70a
+source-git-commit: 0f2923851230e830eb647d422f2862a0c5d5472b
 workflow-type: tm+mt
-source-wordcount: '1505'
-ht-degree: 93%
+source-wordcount: '1468'
+ht-degree: 95%
 
 ---
 
@@ -39,7 +39,7 @@ Como administrador de Adobe Workfront, puede crear niveles de acceso personaliza
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td>Cualquiera</td> 
   </tr> 
   <tr> 
@@ -63,21 +63,11 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
 {{step-1-to-setup}}
 
 1. Haga clic en **Niveles de acceso** en el panel izquierdo.
-1. &#x200B;
-   * En el entorno de producción:
-Seleccione el nivel de acceso que quiera copiar y personalizar y luego haga clic en **Copiar**.
+1. Seleccione el nivel de acceso que quiera copiar y personalizar y luego haga clic en el icono **Copiar** ![Icono Copiar](assets/copy-icon.png).
 
-     O
+   O
 
-     Si está editando un nivel de acceso existente (que copió anteriormente), haga clic en su nombre.
-
-   * <span class="preview">En el entorno de vista previa:</span>
-
-     <span class="preview">Seleccione el nivel de acceso que desee copiar y personalizar y, a continuación, haga clic en el icono **Copiar** ![Icono Copiar](assets/copy-icon.png). </span>
-
-     <span class="preview">O </span>
-
-     <span class="preview">Si está editando un nivel de acceso existente, seleccione el nivel de acceso haciendo clic en el cuadro situado a la izquierda de dicho nivel de acceso y, a continuación, haga clic en el icono **Editar** ![Editar icono](assets/edit-icon.png). </span>
+   Si está editando un nivel de acceso existente, selecciónelo haciendo clic en el cuadro situado a la izquierda del nivel de acceso y, a continuación, haga clic en el icono **Editar** ![Editar icono](assets/edit-icon.png).
 
 1. Realice una de las siguientes acciones en el cuadro que aparece para comenzar a configurar el nivel de acceso personalizado:
 
