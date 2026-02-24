@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: c669217a-40e2-471f-951d-93157a34f1ee
-source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
+source-git-commit: 11b72c797203dcf364281665bc60cf67d25c8b5d
 workflow-type: tm+mt
-source-wordcount: '715'
+source-wordcount: '724'
 ht-degree: 3%
 
 ---
@@ -41,7 +41,6 @@ Puede crear los siguientes artículos utilizando automatizaciones en Workfront P
 * Un grupo
 * Un programa
 * Una cartera
-* Un proyecto
 
 ## Requisitos de acceso
 
@@ -57,7 +56,7 @@ Puede crear los siguientes artículos utilizando automatizaciones en Workfront P
 <tr> 
 </tr>   
 <tr> 
-   <td role="rowheader"><p>paquete de Adobe Workfront</p></td> 
+   <td role="rowheader"><p>Paquete de Adobe Workfront</p></td> 
    <td> 
 <p>Cualquier Workfront y cualquier paquete de Planning</p> <p>Cualquier flujo de trabajo y cualquier paquete de Planning</p>
 <p>Para obtener más información sobre lo que se incluye en cada paquete de Workfront Planning, póngase en contacto con su representante de cuentas de Workfront. </p> 
@@ -161,10 +160,21 @@ Para obtener más información acerca de los requisitos de acceso de Workfront, 
 
 * Los nuevos objetos o registros no anulan los existentes en el mismo campo. Al activar la misma automatización varias veces para el mismo registro, se agregan los nuevos objetos o registros en el mismo campo conectado del registro original, además de los creados anteriormente.
 
+
+
 <!--hide this for now; they are trying to remove this limitation: * The automation adds additional objects only in the Many to many or One to many connection type fields. In the all other cases, the automation creates the object, but it does not connect it to the original record from which the automation is triggered.-->
 
 
 ## Utilice una automatización de Workfront Planning para crear un objeto o un registro
+
+<!--For Feb 26 and add Preview disclosure at the top:
+
+<span class="preview">When you choose a Field value change-automation, Workfront Planning creates the objects automatically, when the conditions you define are met. </span>
+
+For information, see [Configure Adobe Workfront Planning automations to create records](/help/quicksilver/planning/records/configure-automations-to-create-records.md).</span>
+-->
+
+En esta sección se describe cómo crear objetos mediante la automatización de clics en Button.
 
 1. En Workfront Planning, abra la página de tipo de registro que contiene la automatización que desea utilizar para crear y conectar registros u objetos automáticamente.
 1. Abra la vista de tabla.

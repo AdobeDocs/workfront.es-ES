@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 475a519d-d3bd-4461-8099-0e296d556d34
-source-git-commit: 54a6e633e903c73a78b36e90fb27edb445dc8d47
+source-git-commit: 11b72c797203dcf364281665bc60cf67d25c8b5d
 workflow-type: tm+mt
-source-wordcount: '894'
+source-wordcount: '898'
 ht-degree: 12%
 
 ---
@@ -147,11 +147,32 @@ Para compartir un espacio de trabajo con otros usuarios:
 
 {{step1-to-planning}}
 
-1. Abra el área de trabajo que desea compartir y haga clic en **Compartir** en la esquina superior derecha de la pantalla.
+1. Abra el área de trabajo que desea compartir y haga clic en **Compartir** en la esquina superior derecha de la pantalla. Se abrirá el cuadro Compartir.
 
    ![Botón Compartir en la parte superior derecha del espacio de trabajo](assets/share-button-on-workspace-top-right.png)
 
-1. En el campo **Conceder acceso a este área de trabajo**, empiece a escribir el nombre de un usuario, grupo, equipo, empresa o rol y, a continuación, haga clic en él cuando se muestre en la lista.
+
+   <!--For Feb 26:1. <span class="preview">(Conditional) Depending on your access level, the following scenarios exist: </span>
+
+      * <span class="preview">If you are a System Administrator, select from the following options:</span>
+
+         <div class="preview">
+
+         * **Only invited people can access**: You must select entities in the sharing box and choose their access to the workspace. This is the default selection. 
+         * **Everyone in the system can view**: Everyone in the system with access to Planning can view the workspace in their **Workspaces** area in Planning.
+         
+         </div> 
+         
+      * <span class="preview">If you are a workspace manager with a Standard license, you can see one of the following selections but you cannot change them:</span>
+
+         <div class="preview">
+         
+         * **Only invited people can access**
+         * **Everyone in the system can view**
+         
+         </div>-->
+
+1. En el campo **Conceder acceso a este área de trabajo**, empiece a escribir el nombre de un usuario, grupo, equipo, empresa o rol y, a continuación, haga clic en él cuando se muestre en la lista. <!--update screen shot at the release of system-wide permissions for workspaces-->
 
    ![IU para compartir con grupos](assets/sharing-ui-with-groups.png)
 
@@ -160,7 +181,6 @@ Para compartir un espacio de trabajo con otros usuarios:
    >* Además de los equipos, grupos, empresas y funciones del puesto, solo puede compartir con los usuarios que se han añadido a Adobe Admin Console. No puede agregar usuarios solo de Workfront. Para obtener más información, consulte [Administrar usuarios en Adobe Admin Console](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md).
    >
    >* Cuando comparte un área de trabajo con un usuario, su rol de trabajo principal <span class="preview">y su correo electrónico</span> también se muestran en el campo. Debe tener activada la configuración Ver información de contacto para el objeto Usuarios en su nivel de acceso para poder ver el correo electrónico del usuario.
-
 
 1. Seleccione uno de los siguientes niveles de permisos en el menú desplegable:
    * Ver

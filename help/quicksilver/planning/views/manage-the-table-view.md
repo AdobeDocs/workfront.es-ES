@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
+source-git-commit: 11b72c797203dcf364281665bc60cf67d25c8b5d
 workflow-type: tm+mt
-source-wordcount: '3507'
+source-wordcount: '3508'
 ht-degree: 67%
 
 ---
@@ -504,7 +504,9 @@ para añadir una agrupación:
 
    ![Agrupación aplicada en la vista de tabla](assets/grouping-applied-in-table-view.png)
 
-
+   <!--For Feb 26, and change indent to the left:
+    1. <span class="preview">(Optional) Choose A-Z or Z-A from the sorting drop-down menu to the right of a selected field. This sorts the groupings in the timeline, accordingly.</span>
+    -->
 
 1. (Opcional) Dentro del cuadro **Agrupar registros por**, haga clic en el icono **x** a la derecha de un campo seleccionado para la agrupación para quitar la agrupación
 
@@ -582,9 +584,13 @@ Al mostrar la vista de tabla, también puede ver qué campo está editando otro 
 
 1. Vaya a una página de tipo de registro y abra cualquier vista.
 1. (Condicional) Si hay otros usuarios editando al mismo tiempo los registros del tipo seleccionado, sus avatares se mostrarán en la esquina superior derecha de la vista.
-1. Haga clic en el menú desplegable situado junto a los avatares y seleccione la opción **Mostrar colaboradores**. La opción está seleccionada de forma predeterminada.
+1. Haga clic en el menú desplegable situado junto a los avatares y active la configuración **Mostrar colaboradores**. La configuración está activada de forma predeterminada.
 
    ![Mostrar colaboradores seleccionados](assets/show-collaborators-toggle-selected.png)
+
+   >[!TIP]
+   >
+   >Puede seleccionar la opción **Mostrar colaboradores** de cualquier vista. El campo editado actualmente por otros usuarios sólo se describe en la vista de tabla.
 
 1. (Condicional) Abra una vista de tabla y el campo que otra persona está editando activamente se resaltará en el color correspondiente al contorno de su avatar en la vista de tabla.
 
@@ -592,9 +598,18 @@ Al mostrar la vista de tabla, también puede ver qué campo está editando otro 
 
    ![Campo de tabla de indicadores en tiempo real y conexión de avatar](assets/real-time-indicator-table-field-and-avatar-connection.png)
 
-   >[!TIP]
-   >
-   >Puede seleccionar la opción **Mostrar colaboradores** de cualquier vista. El campo editado actualmente por otros usuarios sólo se describe en la vista de tabla.
+<!--maybe include a screen shot after release if they update the UI text in this list of users-->
+
+<!--For Feb 26: 
+
+1. <span class="preview">(Optional) Click the triangle in the upper-right corner of the cell that contains the field edited by others. A list of users currently editing the field displays.</span> 
+
+>[!TIP]
+>
+><span class="preview">Real-time presence indicators display users that are currently editing a field anywhere in Workfront Planning. This includes either the table view or the Details area of the record.</span>
+
+-->
+
 
 
 

@@ -6,10 +6,10 @@ author: Alina, Becky
 feature: Workfront Planning
 role: User, Admin
 exl-id: ba7a4b04-5faa-41b6-86d0-4d0ce946ad1e
-source-git-commit: 21c98e443a6d6ca79045e2f4aba5f792340833cd
+source-git-commit: 11b72c797203dcf364281665bc60cf67d25c8b5d
 workflow-type: tm+mt
 source-wordcount: '1470'
-ht-degree: 5%
+ht-degree: 8%
 
 ---
 
@@ -35,7 +35,7 @@ Para obtener información sobre Workfront Planning, consulte los siguientes art�
 
 * [Información general sobre Adobe Workfront Planning](/help/quicksilver/planning/planning-information.md)
 * [Introducción a Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md)
-* [Información general sobre el acceso a Adobe Workfront Planning](/help/quicksilver/planning/access/access-overview.md)
+* [Información general de acceso a Adobe Workfront Planning](/help/quicksilver/planning/access/access-overview.md)
 
 
 ## Requisitos de acceso <!--edit theses??-->
@@ -137,6 +137,8 @@ Puede utilizar Planning Designer o el asistente de IA para realizar cualquiera d
 
 * Creación y configuración de espacios de trabajo
 
+<!--On March 2: * Edit workspaces-->
+
 * Crear tipos de registros, incluida la definición y adición de tipos de registros globales a espacios de trabajo
 
 * Campos de diseño o campos de fórmula
@@ -178,7 +180,7 @@ Puede crear o actualizar objetos en Workfront Planning mediante Planning Designe
 
    ![Diseñar con el botón de IA en la página Espacios de trabajo](assets/design-with-ai-button-on-workspaces-page.png)
 
-1. Haga clic en **Crear con IA**. <!--update this when they change it-->
+1. Haga clic en **Crear con IA**. <!--update this when they change it to Generate with AI-->
 
    Se abre la ventana **Planning Designer**. <!--remove the Beta tag here when this removes from Beta-->
 
@@ -225,6 +227,12 @@ Puede crear o actualizar objetos en Workfront Planning mediante Planning Designe
 1. Haga clic en el icono **Abrir espacio de trabajo en ficha nueva** ![Abrir espacio de trabajo en ficha nueva](assets/open-workspace-on-new-tab-icon.png) para abrir el espacio de trabajo que está actualizando en una ficha nueva.
 1. Haga clic en el icono **Cerrar** **X** para cerrar Planning Designer y abrir el área de Workspaces.
 1. Abra el espacio de trabajo editado con Planning Designer y realice más cambios en sus objetos.
+
+<!-- for March 2 -- replace the last step with this: 
+1. (Optional) To edit a workspace, do one of the following:
+
+    * Open the workspace and manually make changes to it. For information, see [Edit workspaces](/help/quicksilver/planning/architecture/edit-workspaces.md). 
+    * Click **Edit with AI**. This opens the Planning Designer. Repeat the steps above to use AI and make further changes to the workspace.-->
 
 ## Desactive Planning Designer para su organización
 
