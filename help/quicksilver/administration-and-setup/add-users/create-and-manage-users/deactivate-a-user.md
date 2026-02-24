@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: aba243ba-46c2-4eb7-b704-4368bf0ae3cc
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 793419db3e9552e2e425aec26300b8c2b4ab8583
 workflow-type: tm+mt
-source-wordcount: '1081'
+source-wordcount: '1133'
 ht-degree: 9%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 9%
 >
 >The procedure described on this page applies only to organizations that have not yet been onboarded to the Admin Console. If your organization has been onboarded to the Adobe Admin Console, you must perform this action through the Adobe Admin Console.
 >
->For instructions on deactivating a user in the Adobe Admin Console, see the section "Remove users" in the article [Manage users individually](https://helpx.adobe.com/es/enterprise/using/manage-users-individually.html) or contact your Adobe Admin Console Administrator.
+>For instructions on deactivating a user in the Adobe Admin Console, see the section "Remove users" in the article [Manage users individually](https://helpx.adobe.com/enterprise/using/manage-users-individually.html) or contact your Adobe Admin Console Administrator.
 >
 >For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Admin Console, see [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
@@ -49,6 +49,8 @@ Puede reactivar un usuario en cualquier momento.
 >* Al desactivar un usuario en Workfront, se eliminan sus licencias tanto de Workfront como de revisión digital. Además, ya no se puede asignar trabajo al usuario. Cuando se desactiva un usuario, su licencia de Workfront y su licencia de revisión quedan disponibles para que las utilice otro usuario. El resto de la información del perfil del usuario desactivado permanece sin cambios.
 >
 >* Al desactivar un usuario en Workfront, no se elimina del Perfil de productos de Workfront en Adobe Admin Console. Para obtener más información, consulte [Eliminar usuarios](../../../administration-and-setup/add-users/create-and-manage-users/delete-a-user.md).
+>
+>* Si un usuario está en un grupo de usuarios de Admin Console y el perfil de producto se ha agregado a uno o más de esos grupos de usuarios, desactivar el usuario de Workfront no los eliminará del producto. El usuario debe eliminarse de los grupos de usuarios en Admin Console.
 
 
 ## Requisitos de acceso
@@ -60,7 +62,7 @@ Puede reactivar un usuario en cualquier momento.
  <col> 
  <tbody> 
   <tr> 
-   <td>paquete de Adobe Workfront</td> 
+   <td>Paquete de Adobe Workfront</td> 
    <td><p>Cualquiera</p></td> 
   </tr> 
   <tr> 
