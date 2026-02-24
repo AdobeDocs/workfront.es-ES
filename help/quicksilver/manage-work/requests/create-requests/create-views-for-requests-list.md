@@ -5,16 +5,24 @@ title: Creación y administración de vistas en el área de solicitudes
 description: Si utiliza la nueva experiencia de solicitud, puede crear y guardar vistas para el área de solicitudes.
 author: Becky
 feature: Work Management
-source-git-commit: 9e7b94201705ce96dbc38fc6d9246461e4d4d7ea
+exl-id: ed066075-6411-4350-8b39-f21dc4fa96c9
+source-git-commit: 8db8382d63d06c23f93a74a326ddb0e1227f44c8
 workflow-type: tm+mt
-source-wordcount: '693'
-ht-degree: 7%
+source-wordcount: '689'
+ht-degree: 10%
 
 ---
 
+
 # Creación y administración de vistas en el área de solicitudes
 
-Si utiliza la nueva experiencia de solicitud, puede crear y guardar vistas para el área de solicitudes. Estas vistas incluyen filtros y disposiciones de columnas.
+<!--
+
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.</span>
+
+-->
+
+Si utiliza la nueva experiencia de solicitud, puede crear y guardar vistas para el área de solicitudes. Estas vistas incluyen filtros y disposiciones de columnas. <!--<span class="preview"> and groupings.</span> -->
 
 Las vistas se pueden crear y administrar en el área de solicitudes de Workfront.
 
@@ -58,7 +66,7 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
 
 +++
 
-## Creación de una vista en el área de Solicitudes
+## Creación de una vista para solicitudes
 
 Puede crear una vista en el área de Solicitudes de Workfront,.
 
@@ -73,7 +81,7 @@ Puede crear una vista en el área de Solicitudes de Workfront,.
 1. Escriba un nombre para la nueva vista y haga clic en **Crear**.
 1. Continuar a [Editar una vista en el área de solicitudes](#edit-a-view-in-the-requests-area).
 
-## Edición de una vista en el área de Solicitudes
+## Edición de una vista para solicitudes
 
 Puede editar las vistas existentes, incluidas las que acaba de crear.
 
@@ -110,6 +118,10 @@ Puede editar las vistas existentes, incluidas las que acaba de crear.
 La lista de solicitudes se filtra automáticamente a medida que se añaden las condiciones de filtro.
 
 
+<!--
+1. <Span class="preview">(Optional) Click **Group** and select the column that you want to group by.</span>
+
+-->
 
 >[!IMPORTANT]
 >
@@ -136,4 +148,3 @@ Puede compartir vistas que cree con otros usuarios, equipos o grupos.
 1. Seleccione **Compartir**.
 1. En el cuadro de diálogo que se abre, escriba los nombres de los usuarios, equipos o grupos con los que desea compartir la vista y, a continuación, selecciónelos en la lista cuando aparezcan.
 1. Haga clic en **Guardar**.
-
