@@ -7,10 +7,10 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
-source-git-commit: 0fd415767680d877c9dd1de448f7903e6616d155
+source-git-commit: 159c3b4a3627e29123afd96115e965d3bba8329c
 workflow-type: tm+mt
-source-wordcount: '3097'
-ht-degree: 65%
+source-wordcount: '3387'
+ht-degree: 93%
 
 ---
 
@@ -49,7 +49,7 @@ Para recibir cargas útiles de suscripciones a eventos a través del cortafuegos
 
 Los siguientes temas admiten la API de suscripción a eventos:
 
-## Objetos admitidos por suscripciones a eventos
+## Objetos admitidos por las suscripciones a eventos
 
 Las suscripciones a eventos admiten los siguientes objetos de Workfront.
 
@@ -60,7 +60,7 @@ Las suscripciones a eventos admiten los siguientes objetos de Workfront.
 * Compañía
 * Panel de control
 * Documento
-* Versión de documento
+* Versión del documento
 * Gasto
 * Campo
 * Hora
@@ -69,15 +69,15 @@ Las suscripciones a eventos admiten los siguientes objetos de Workfront.
 * Portafolio
 * Programa
 * Proyecto
-* Aprobación de revisión
+* Aprobación de la prueba
 * Registro
 * Tipo de registro
 * Informe
 * Plan de asignación de personal
 * Valor del parámetro del plan de asignación de personal
 * Recurso del plan de asignación de personal
-* Valor de atributo de recurso de plan de plantilla
-* Conjunto de valores de atributo de recurso de plan de plantilla
+* Valor de atributo de recurso de plan de asignación de personal
+* Conjunto de valores de atributo de recurso de plan de asignación de personal
 * Valor del parámetro de recurso del plan de asignación de personal
 * Tarea
 * Plantilla
@@ -89,7 +89,7 @@ Las suscripciones a eventos admiten los siguientes objetos de Workfront.
 >
 >Para obtener una lista de los campos admitidos por los objetos de suscripción a eventos, consulte [Campos de recurso de suscripción a eventos](../../wf-api/api/event-sub-resource-fields.md).
 
-## Autenticación de suscripción de evento
+## Autenticación de la suscripción a eventos
 
 Para crear, consultar o eliminar una suscripción a eventos, el usuario de Workfront necesita lo siguiente:
 
@@ -100,7 +100,7 @@ Para crear, consultar o eliminar una suscripción a eventos, el usuario de Workf
 
 ## Evitar sobrecargar suscripciones a eventos
 
-El servicio de suscripciones a eventos está diseñado para proporcionar un envío fiable de eventos para todos los usuarios. Para garantizar esto, se han implementado salvaguardas para evitar una producción de eventos excesiva por parte de un solo usuario que podría causar posibles problemas de calidad del servicio para todos los usuarios. Como resultado, un usuario que produce demasiados eventos a una tasa alta en un corto periodo de tiempo puede experimentar interferencias y retrasos en la entrega de eventos.
+El servicio de suscripciones a eventos está diseñado para proporcionar un envío fiable de eventos para todos los usuarios. Para garantizar esto, se han implementado protecciones para evitar una producción de eventos excesiva por parte de un solo usuario que podría causar posibles problemas de calidad del servicio para todos los usuarios. Como resultado, un usuario que produce demasiados eventos a una tasa alta en un corto periodo de tiempo puede experimentar interferencias y retrasos en la entrega de eventos.
 
 ## Formación del recurso de suscripción
 
@@ -134,7 +134,7 @@ El recurso de suscripción contiene los campos siguientes.
        </tr> 
        <tr> 
         <td scope="col">Participante de fase de aprobación</td> 
-        <td scope="col"><p>approval_stage_partition</p></td> 
+        <td scope="col"><p>approval_stage_participant</p></td> 
        </tr> 
        <tr> 
         <td scope="col">Asignación</td> 
@@ -153,7 +153,7 @@ El recurso de suscripción contiene los campos siguientes.
         <td scope="col">DOCU </td> 
        </tr> 
        <tr> 
-        <td scope="col"><p>Versión de documento</p></td> 
+        <td scope="col"><p>Versión del documento</p></td> 
         <td scope="col">DOCV </td> 
        </tr> 
        <tr> 
@@ -189,7 +189,7 @@ El recurso de suscripción contiene los campos siguientes.
         <td scope="col"><p>PROJ</p></td> 
        </tr> 
        <tr> 
-        <td scope="col"><p>Aprobación de revisión</p></td> 
+        <td scope="col"><p>Aprobación de la prueba</p></td> 
         <td scope="col"><p>PRFAPL</p></td> 
        </tr> 
        <tr> 
@@ -214,14 +214,14 @@ El recurso de suscripción contiene los campos siguientes.
        </tr> 
        <tr> 
         <td scope="col"><p>Recurso del plan de asignación de personal</p></td> 
-        <td scope="col"><p>PERSONAL</p></td> 
+        <td scope="col"><p>STAFFR</p></td> 
        </tr> 
        <tr> 
-        <td scope="col"><p>Valor de atributo de recurso de plan de plantilla</p></td> 
-        <td scope="col"><p>ESPAVAL</p></td> 
+        <td scope="col"><p>Valor de atributo de recurso de plan de asignación de personal</p></td> 
+        <td scope="col"><p>SPAVAL</p></td> 
        </tr> 
        <tr> 
-        <td scope="col"><p>Conjunto de valores de atributo de recurso de plan de plantilla</p></td> 
+        <td scope="col"><p>Conjunto de valores de atributo de recurso de plan de asignación de personal</p></td> 
         <td scope="col"><p>SAVSET</p></td> 
        </tr> 
        <tr> 
@@ -265,22 +265,22 @@ El recurso de suscripción contiene los campos siguientes.
 
 * authToken (obligatorio)
 
-   * **Cadena**: El token de portador de OAuth2 utilizado para autenticarse con la dirección URL especificada en el campo &quot;URL&quot;.
+   * **Cadena**: el token del portador de OAuth2 que se utiliza para la autenticación con la URL especificada en el campo “URL”.
 
-## Creación de solicitudes de API de suscripción de evento
+## Creación de solicitudes de API de suscripción a eventos
 
 Después de asegurarse de que el usuario tiene acceso de administrador y de formar el recurso de suscripción, está listo para crear suscripciones a eventos.
 
 Utilice la siguiente sintaxis para construir la dirección URL.
 
-**URL de solicitud**
+**URL de la solicitud**
 
 
 ```
 POST https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions
 ```
 
-**Encabezados de solicitud**
+**Encabezados de la solicitud**
 
 <table style="table-layout:auto"> 
  <col> 
@@ -316,7 +316,7 @@ POST https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions
             }
 ```
 
-**Ejemplo de cuerpo de respuesta**
+**Ejemplo del cuerpo de respuesta**
 
 ```
 {
@@ -332,11 +332,11 @@ POST https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions
 | 401 (No autorizado) | El sessionID proporcionado estaba vacío o se consideró no válido. |
 | 403 (Prohibido) | El usuario que coincide con el sessionID proporcionado no tiene acceso de administrador. |
 
-Si se pasa un recurso de suscripción como cuerpo de una solicitud (con el tipo de contenido &quot;application/json&quot;), se crea una suscripción de evento para el objeto especificado. Un código de respuesta 201 (Creado) indica que se creó la suscripción. Un código de respuesta distinto de 201 significa que la suscripción **NO** se ha creado.
+Si se pasa un recurso de suscripción como cuerpo de una solicitud (con el tipo de contenido “application/json”), se crea una suscripción de evento para el objeto especificado. Un código de respuesta 201 (Creado) indica que se creó la suscripción. Un código de respuesta distinto de 201 significa que la suscripción **NO** se ha creado.
 
 >[!NOTE]
 >
-> El encabezado de respuesta &quot;Ubicación&quot; contiene el URI de la suscripción de evento recién creada.
+> El encabezado de respuesta “Ubicación” contiene el URI de la suscripción al evento recién creada.
 
 **Ejemplo de encabezados de respuesta:**
 
@@ -450,7 +450,7 @@ Puede consultar suscripciones de eventos por el ID de suscripción de eventos. L
 GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRIPTION ID>
 ```
 
-**Encabezados de solicitud**
+**Encabezados de la solicitud**
 
 <table style="table-layout:auto"> 
  <col> 
@@ -478,7 +478,7 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRIPTI
 | 403 (Prohibido) | El usuario, que coincide con el sessionID proporcionado, no tiene acceso de administrador. |
 
 
-**Ejemplo de cuerpo de respuesta**
+**Ejemplo del cuerpo de respuesta**
 
 
 
@@ -507,21 +507,21 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRIPTI
 ```
 
 
-## Versiones de suscripción de evento
+## Versiones de la suscripción a eventos
 
 Workfront tiene dos versiones de suscripciones a eventos.
 
-La capacidad de actualizar o reducir las suscripciones a eventos garantiza que, cuando se realicen cambios en la estructura de los eventos, las suscripciones existentes no se rompan, lo que le permite probar y actualizar a la nueva versión sin interrupciones en la suscripción de evento.
+La capacidad de actualizar o de bajar de categoría las suscripciones a eventos garantiza que, cuando se realicen cambios en la estructura de los eventos, las suscripciones existentes no se rompan, lo que le permite probar y actualizar a la nueva versión sin interrupciones en la suscripción al evento.
 
-Para obtener más información sobre las versiones de suscripción de evento, incluidas las diferencias específicas entre la versión y las fechas importantes, consulte [Versiones de suscripción de evento](/help/quicksilver/wf-api/general/event-subs-versioning.md).
+Para obtener más información sobre las versiones de suscripción a evento, incluidas las diferencias específicas entre la versión y las fechas importantes, consulte [Versiones de suscripción a evento](/help/quicksilver/wf-api/general/event-subs-versioning.md).
 
 >[!NOTE]
 >
->Al actualizar o reducir la suscripción de evento a otra versión, se reciben eventos duplicados para cada entrega de evento durante un periodo de cinco minutos después del cambio de versión. Los duplicados incluyen una de cada versión de suscripción de evento 1 y una versión 2. Esto garantiza que no se pierda ningún evento debido al cambio de la versión de suscripción del evento.
+>Al actualizar o bajar de categoría la suscripción a evento a otra versión, recibe eventos duplicados para cada entrega de evento durante un período de cinco minutos después del cambio de versión. Los duplicados incluyen una suscripción a evento versión 1 y otra, versión 2. Esto garantiza que no pierda ningún evento debido al cambio de la versión de suscripción al evento.
 
-### Cambio de versión de suscripción única
+### Cambio de versión de una sola suscripción
 
-La sintaxis de solicitud para cambiar la versión de una sola suscripción es:
+La sintaxis de solicitud para el cambio de versión de una sola suscripción es la siguiente:
 
 **URL de solicitud**
 
@@ -554,11 +554,11 @@ PUT https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRIPTI
 * 404
 
 
-### Cambio de versión de suscripción múltiple
+### Cambio de versión de varias suscripciones
 
-Este punto de conexión cambia la versión de varias suscripciones, por lista de suscripciones o por indicador de todas las suscripciones del cliente.
+Este punto final cambia la versión de varias suscripciones por lista de suscripciones o por el indicador de todas las suscripciones del cliente.
 
-La sintaxis de solicitud para cambiar la versión de una sola suscripción es:
+La sintaxis de solicitud para el cambio de versión de una sola suscripción es la siguiente:
 
 **URL de solicitud**
 
@@ -619,7 +619,7 @@ Por ejemplo, una suscripción al evento **UPDATE - TASK** solo se puede establec
 * Aplicar varios filtros a una sola suscripción es una práctica equivalente a utilizar un operador lógico **AND**.
 * Se pueden aplicar varias suscripciones de eventos a un único objeto siempre que uno o más parámetros de campo de suscripción a eventos sean diferentes entre cada suscripción a evento.
 * Cuando se asignan varias suscripciones de eventos a un único objeto, todas las suscripciones de eventos asociadas a ese objeto se pueden devolver a un único punto final. Esta práctica se puede utilizar como un sustituto equivalente del operador lógico **OR** que no se puede establecer mediante parámetros de filtro.
-* Los campos siguientes no se pueden filtrar:
+* Los siguientes campos no son filtrables:
 
    * DOCU.groups
    * RECORD.data
@@ -772,11 +772,11 @@ Este filtro permite que se envíen mensajes si el cambio que se produjo contiene
 
 #### containsOnly
 
-Este filtro permite que los mensajes se transmitan únicamente cuando el conjunto completo de valores seleccionados coincide exactamente con fieldValue del filtro, independientemente del orden. No debe haber valores adicionales o que falten.
+Este filtro permite que los mensajes se transmitan únicamente cuando el conjunto completo de valores seleccionados coincide exactamente con fieldValue del filtro, independientemente del orden. No debe haber valores adicionales o faltantes.
 
 >[!NOTE]
 >
->Se utiliza para campos de tipo matriz (selección múltiple). Esta suscripción de ejemplo que se muestra a continuación permite que los mensajes se transmitan únicamente cuando el campo `groups` contiene exactamente &quot;Opción 3&quot; y &quot;Opción 4&quot;, sin valores adicionales o que falten, e independientemente del orden. Si se especifica una cadena o un entero en `fieldValue` en lugar de una matriz, la suscripción permite que los mensajes se transmitan solo cuando el campo `groups` contiene exactamente una opción y esa opción coincide exactamente con la cadena o el entero especificado en `fieldValue`&quot;
+>Se utiliza para campos de tipo matriz (selección múltiple). Esta suscripción de ejemplo que se muestra a continuación permite que los mensajes se transmitan únicamente cuando el campo `groups` contiene exactamente la “Opción 3” y la “Opción 4”, sin valores adicionales o que falten, independientemente del orden. Si se especifica una cadena o un número entero en `fieldValue` en lugar de una matriz, la suscripción permite que los mensajes se transmitan solo cuando el campo `groups` contiene exactamente una opción y esa opción coincide exactamente con la cadena o el número entero especificado en `fieldValue`”
 
 
 ```
@@ -801,11 +801,11 @@ Este filtro permite que los mensajes se transmitan únicamente cuando el conjunt
 
 #### notContains
 
-Este filtro permite que los mensajes se transmitan sólo cuando el campo especificado (`fieldName`) no contiene el valor especificado (`fieldValue`)
+Este filtro permite que los mensajes se transmitan solo cuando el campo especificado (`fieldName`) no contiene el valor especificado (`fieldValue`).
 
 >[!NOTE]
 >
->Se utiliza para campos de tipo matriz (selección múltiple) o cadena. Si el campo es una cadena, comprobaremos si el valor especificado no está contenido en la cadena (por ejemplo, &quot;Nuevo&quot; no está en la cadena &quot;Proyecto - Actualizado&quot;). Si el campo es una matriz y el valor de campo especificado es una cadena o un número entero, comprobaremos si la matriz no contiene el valor especificado (por ejemplo, &quot;Opción 1&quot; que no está en [&quot;Opción 2&quot;, &quot;Opción 3&quot;]). La suscripción de ejemplo siguiente permite que los mensajes se envíen únicamente cuando los campos `groups` no contienen la cadena &quot;Group 2&quot;.
+>Se utiliza para campos de tipo matriz (selección múltiple) o cadena. Si el campo es una cadena, comprobaremos si el valor especificado no está contenido en la cadena (por ejemplo, “Nuevo” no está en la cadena “Proyecto: Actualizado”). Si el campo es una matriz y el valor de campo especificado es una cadena o un número entero, comprobaremos si la matriz no contiene el valor especificado (por ejemplo, “Opción 1” no está en [“Opción 2”, “Opción 3”]). La suscripción de ejemplo siguiente permite que los mensajes se envíen únicamente cuando los campos `groups` no contienen la cadena “Grupo 2”.
 
 ```
 {
@@ -877,7 +877,7 @@ Este conector hace que el filtro se aplique al nuevo estado o al antiguo estado 
 
 ### Uso de filtros anidados
 
-La suscripción a evento admite el filtrado en campos anidados de eventos mediante el uso de nombres de campo anidados. Por ejemplo, para filtrar un mensaje donde `newState.data.customField1 = 'myCustomeFieldValue'`, se puede crear la siguiente suscripción con filtro:
+La suscripción a eventos admite el filtrado en campos anidados de eventos mediante el uso de nombres de campo anidados. Por ejemplo, para filtrar un mensaje donde `newState.data.customField1 = 'myCustomFieldValue'`, se puede crear la siguiente suscripción con filtro:
 
 ```
 {
@@ -919,6 +919,103 @@ También se pueden abordar los filtros doblemente anidados.
 "filterConnector": 'AND'
 ```
 
+### Uso de grupos de filtros (filtros combinados)
+
+Las suscripciones a eventos admiten grupos de filtros junto con filtros estándar para admitir condiciones lógicas anidadas.
+
+Los grupos de filtros le permiten crear condiciones lógicas anidadas (AND/OR) dentro de los filtros de suscripción de evento.
+
+Cada grupo de filtros puede tener:
+
+* Su propio conector: `AND` o `OR`
+* Varios filtros, cada uno con la misma sintaxis y comportamiento que los filtros independientes
+
+Todos los filtros dentro de un grupo admiten:
+
+* Operadores de comparación: `eq`, `ne`, `gt`, `gte`, `lt`, `lte`, `contains`, `notContains`, `containsOnly`, `changed`
+* Opciones de estado: `newState`, `oldState`
+* Segmentación de campos: cualquier nombre de campo de objeto válido
+
+Un grupo debe contener un mínimo de 2 filtros
+
+```
+{
+  "objCode": "TASK",
+  "eventType": "UPDATE",
+  "authToken": "token",
+  "url": "https://domain-for-subscription.com/API/endpoint/UpdatedTasks",
+  "filters": [
+    {
+      "fieldName": "percentComplete",
+      "fieldValue": "100",
+      "comparison": "lt"
+    },
+    {
+      "type": "group",
+      "connector": "OR",
+      "filters": [
+        {
+          "fieldName": "status",
+          "fieldValue": "CUR",
+          "comparison": "eq"
+        },
+        {
+          "fieldName": "priority",
+          "fieldValue": "1",
+          "comparison": "eq"
+        }
+      ]
+    }
+  ],
+  "filterConnector": "AND"
+}
+```
+
+Este ejemplo muestra:
+
+
+* Filtro de nivel superior (fuera del grupo):
+
+  { &quot;`fieldName`&quot;: &quot;`percentComplete`&quot;, &quot;`fieldValue`&quot;: &quot;`100`&quot;, &quot;`comparison`&quot;: &quot;`lt`&quot; }
+
+  Este filtro comprueba si el campo percentComplete de la tarea actualizada es inferior a 100.
+
+* Grupo de filtros (filtros anidados con `OR`):
+
+  { &quot;`type`&quot;: &quot;`group`&quot;, &quot;`connector`&quot;: &quot;`OR`&quot;, &quot;`filters`&quot;: [{ &quot;`fieldName`&quot;: &quot;`status`&quot;, &quot;`fieldValue`&quot;: &quot;`CUR`&quot;, &quot;`comparison`&quot;: &quot;`eq`&quot; }, { &quot;`fieldName`&quot;: &quot;`priority`&quot;, &quot;`fieldValue`&quot;: &quot;`1`&quot;, &quot;`comparison`&quot;: &quot;`eq`&quot; }] }
+
+  Este grupo evalúa dos filtros internos:
+
+   * El primero comprueba si el estado de la tarea es igual a “CUR” (actual).
+
+   * El segundo comprueba si la prioridad es igual a “1” (prioridad alta).
+
+  Como el conector es “OR”, este grupo se cumplirá si alguna de las condiciones es verdadera.
+
+* Conector de nivel superior (filterConnector: `AND`):
+
+  El conector más externo entre los filtros de nivel superior es `AND`.
+
+  Esto significa que tanto el filtro de nivel superior como el grupo se deben cumplir para que coincida el evento.
+
+* Los déclencheur de suscripción cuando:
+
+  percentComplete menor que 100
+
+  Y
+
+  El estado es &quot;CUR&quot; O la prioridad es &quot;1&quot;.
+
+#### Rendimiento y límites
+
+Para garantizar un rendimiento y un mantenimiento coherentes:
+
+* Cada suscripción admite hasta 10 grupos de filtros (y cada grupo contiene varios filtros).
+* Cada grupo de filtros puede incluir hasta cinco filtros para evitar una posible degradación del rendimiento durante el procesamiento de eventos.
+* Aunque se admiten hasta 10 grupos de filtros (cada uno con 5 filtros), tenga en cuenta que un gran número de suscripciones activas con una lógica de filtro compleja puede provocar un retraso durante la evaluación del evento.
+
+Si supera estos límites, considere la posibilidad de simplificar la lógica o dividir la suscripción en varias más pequeñas.
+
 ### Uso de campos de conector
 
 El campo `filterConnector` de la carga útil de suscripción le permite elegir cómo se deben aplicar los filtros. El valor predeterminado es “AND”, donde los filtros deben ser todos `true` para que se transmita el mensaje de suscripción. Si se especifica “OR&quot;, solo debe coincidir un filtro para que aparezca el mensaje de suscripción.
@@ -947,7 +1044,7 @@ El campo `filterConnector` de la carga útil de suscripción le permite elegir c
 
 ### Uso de grupos de filtros
 
-Los grupos de filtros le permiten crear condiciones lógicas anidadas (Y/O) dentro de los filtros de suscripción de evento.
+Los grupos de filtros le permiten crear condiciones lógicas anidadas (AND/OR) dentro de los filtros de suscripción de evento.
 
 Cada grupo de filtros puede tener lo siguiente:
 
@@ -956,12 +1053,12 @@ Cada grupo de filtros puede tener lo siguiente:
 
 >[!IMPORTANT]
 >
->Un grupo debe tener un mínimo de 2 filtros.
+>Un grupo debe tener un mínimo de dos filtros.
 
 
 Todos los filtros de un grupo admiten lo siguiente:
 
-* Operadores de comparación: eq, ne, gt, get, lt, lte, contains, notContains, containsOnly, changed.
+* Operadores de comparación: eq, ne, gt, gte, lt, lte, contains, notContains, containsOnly, changed.
 * Opciones de estado: newState, oldState.
 * Segmentación de campos: cualquier nombre de campo de objeto válido.
 
@@ -1010,24 +1107,24 @@ El ejemplo anterior contiene los siguientes componentes:
    * `{ "type": "group", "connector": "OR", "filters": [ { "fieldName": "status", "fieldValue": "CUR", "comparison": "eq" }, { "fieldName": "priority", "fieldValue": "1", "comparison": "eq" } ] }`
    * Este grupo evalúa dos filtros internos:
 
-      * El primero comprueba si el estado de la tarea es igual a &quot;CUR&quot; (actual).
-      * El segundo comprueba si la prioridad es igual a 1 (prioridad alta).
-   * Como el conector es &quot;OR&quot;, este grupo pasará si alguna de las condiciones es verdadera.
+      * El primero comprueba si el estado de la tarea es igual a “CUR” (actual).
+      * El segundo comprueba si la prioridad es igual a “1” (prioridad alta).
+   * Como el conector es “OR”, este grupo se cumplirá si alguna de las condiciones es verdadera.
 
 1. Conector de nivel superior (filterConnector: AND):
-   * El conector exterior entre los filtros de nivel superior es &quot;Y&quot;. Esto significa que tanto el filtro de nivel superior como el grupo deben pasar para que coincida el evento.
+   * El conector exterior entre los filtros de nivel superior es “AND”. Esto significa que tanto el filtro de nivel superior como el grupo se deben cumplir para que coincida el evento.
 
-1. Los déclencheur de suscripción cuando se cumplen las siguientes condiciones:
-   * percentComplete es inferior a 100.
-   * El estado es &quot;CUR&quot; o la prioridad es igual a &quot;1&quot;.
+1. La suscripción se activa cuando se cumplen las siguientes condiciones:
+   * El percentComplete es inferior a 100.
+   * El estado es “CUR” o la prioridad es igual a “1”.
 
 >[!NOTE]
 >
 >Existen límites para garantizar un rendimiento del sistema coherente al utilizar grupos de filtros, que incluyen lo siguiente:
 >
 >* Cada suscripción admite hasta 10 grupos de filtros (y cada grupo contiene varios filtros).
->* Cada grupo de filtros puede incluir hasta 5 filtros para evitar una posible degradación del rendimiento durante el procesamiento de eventos.
->* Aunque se admiten hasta 10 grupos de filtros (cada uno con 5 filtros), un gran número de suscripciones activas con una lógica de filtro compleja puede provocar un retraso durante la evaluación del evento.
+>* Cada grupo de filtros puede incluir hasta cinco filtros para evitar una posible degradación del rendimiento durante el procesamiento de eventos.
+>* Aunque se admiten hasta 10 grupos de filtros (cada uno con cinco filtros), un gran número de suscripciones activas con una lógica de filtro compleja puede provocar un retraso durante la evaluación del evento.
 
 ## Eliminación de suscripciones a eventos
 
