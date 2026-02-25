@@ -5,9 +5,9 @@ author: Alina, Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 6c0fa8af-cd89-4941-a6f6-aa4e84a7dc67
-source-git-commit: e34abb5ff1068de99eaba33dc95287164e556742
+source-git-commit: bb9ccfa61fa1a8ef41b0e873d5aa6313803c636d
 workflow-type: tm+mt
-source-wordcount: '1209'
+source-wordcount: '1216'
 ht-degree: 5%
 
 ---
@@ -40,7 +40,7 @@ An example of how this can be used would be helpful here and/or in the section <
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td>Cualquiera</td> 
   </tr> 
   <tr> 
@@ -100,7 +100,8 @@ Para obtener información sobre cómo crear una plantilla de correo electrónico
         <ul> 
          <li> <p>Las notificaciones de recordatorio comienzan 24 horas después de la fecha especificada y una vez que se cumplen todos los criterios.</p> </li> 
          <li> <p>Notificaciones de recordatorio para proyectos, tareas y problemas déclencheur todas las noches a medianoche, hora de la montaña de EE. UU. Todos los objetos que cumplen los requisitos para recibir una notificación de recordatorio a partir de ese día déclencheur una notificación a los usuarios designados poco después de esa hora.</p> </li> 
-         <li> <p>Las notificaciones de recordatorio para las hojas de horas se envían a la hora especificada en función de su zona horaria y de la fecha de finalización, fecha de inicio o fecha de última actualización de la hoja de horas.</p> </li> 
+         <li> <p>Los recordatorios de hojas de horas se basan en el huso horario de su organización y en la fecha de finalización, fecha de inicio o fecha de última actualización de la hoja de horas. Las zonas horarias de los usuarios individuales no afectan a la hora de las notificaciones de recordatorio.</p> 
+      </li> 
         </ul> </p> </td> 
      </tr> 
      <tr> 
