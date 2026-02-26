@@ -6,10 +6,10 @@ description: Recibir notificaciones de  [!DNL Adobe Workfront] en  [!DNL Slack]
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: bc1ce4ea-58be-4cd7-ab59-7dddb82949b9
-source-git-commit: 6178cabbf021fbf92bd8795c5c2bd0346801d64d
+source-git-commit: e6f61cdde9e8ad14a9226de4cc61fbcdcb6f839b
 workflow-type: tm+mt
-source-wordcount: '584'
-ht-degree: 99%
+source-wordcount: '614'
+ht-degree: 95%
 
 ---
 
@@ -36,7 +36,7 @@ Sin embargo, puede deshabilitar notificaciones de [!DNL Workfront] que podría r
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
@@ -76,6 +76,12 @@ Para poder recibir notificaciones de [!DNL Workfront] en [!DNL Slack], debe
    * [!UICONTROL Me han asignado una nueva tarea o problema]
    * [!UICONTROL A mi equipo se le ha asignado una nueva tarea o problema]
    * [!UICONTROL Recibo una nueva aprobación o solicitud de acceso]
+
+     >[!NOTE]
+     >
+     >Las aprobaciones hacen referencia a aprobaciones de documentos heredadas. En este momento no se admiten las aprobaciones de documentos unificados en [!DNL Slack]. Para obtener más información acerca de los diferentes sistemas de aprobación de Workfront, consulte [Funcionalidad disponible para aprobaciones de documentos](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/asset-review-and-approval.md).
+
+
    * [!UICONTROL Alguien me incluye en una actualización dirigida]
    * [!UICONTROL Alguien comenta a un hilo en el que estoy]
    * [!UICONTROL Se ha actualizado una tarea, problema o proyecto al cual estoy suscrito]

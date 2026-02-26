@@ -6,10 +6,10 @@ description: Puede acceder a su Lista de trabajos en Inicio, revisar y aceptar t
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 802a2f16-d827-455e-9e49-f58f4c5fc482
-source-git-commit: 6178cabbf021fbf92bd8795c5c2bd0346801d64d
+source-git-commit: e6f61cdde9e8ad14a9226de4cc61fbcdcb6f839b
 workflow-type: tm+mt
-source-wordcount: '907'
-ht-degree: 99%
+source-wordcount: '937'
+ht-degree: 96%
 
 ---
 
@@ -32,7 +32,7 @@ Para obtener más información sobre la configuración de [!DNL Workfront] con [
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
@@ -157,6 +157,8 @@ Para poder administrar su trabajo y las aprobaciones desde [!DNL Slack], debe
    El botón [!UICONTROL Work on it] desaparece.
 
 ## Administrar sus aprobaciones desde [!DNL Slack] {#manage-your-approvals-from-slack}
+
+Las aprobaciones hacen referencia a aprobaciones de documentos heredadas. En este momento no se admiten las aprobaciones de documentos unificados en [!DNL Microsoft Teams]. Para obtener más información acerca de los diferentes sistemas de aprobación de Workfront, consulte [Funcionalidad disponible para aprobaciones de documentos](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/asset-review-and-approval.md).
 
 1. Inicie sesión en su instancia de [!DNL Slack] e inicie sesión en [!DNL Workfront] desde [!DNL Slack].\
    Para obtener más información sobre el inicio de sesión en [!DNL Workfront] desde [!DNL Slack], consulte la sección “Inicio de sesión en [!DNL Workfront] desde [!DNL Slack]” en [Acceder a [!DNL Adobe Workfront] desde [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md).
