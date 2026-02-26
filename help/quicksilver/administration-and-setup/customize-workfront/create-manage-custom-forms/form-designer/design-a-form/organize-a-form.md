@@ -8,14 +8,16 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 08de894a-82f0-4440-a350-680d6648f01e
-source-git-commit: 15ac51cc13eeb57d2de194a9a6ceec7683acfbe6
+source-git-commit: 796c7e0a15a7a26c5cd3f0115d72946f0f28bcf2
 workflow-type: tm+mt
-source-wordcount: '1318'
+source-wordcount: '1353'
 ht-degree: 10%
 
 ---
 
 # Organización y previsualización de un formulario
+
+{{preview-fast-release-general}}
 
 Puede organizar un formulario personalizado con el diseñador de formularios y obtener una vista previa del mismo para comprobar que está correctamente configurado.
 
@@ -28,7 +30,7 @@ Puede organizar un formulario personalizado con el diseñador de formularios y o
  <col> 
  <tbody> 
   <tr> 
-   <td>paquete de Adobe Workfront</td> 
+   <td>Paquete de Adobe Workfront</td> 
    <td><p>Cualquiera</p></td> 
   </tr> 
   <tr> 
@@ -81,6 +83,10 @@ Para obtener información sobre los campos y widgets personalizados en los formu
       <td role="rowheader">Descripción</td> 
       <td>Escriba texto si desea explicar a los usuarios para qué sirve la sección. Esto se muestra debajo de la etiqueta de la sección en el formulario personalizado.</td> 
      </tr> 
+      <td><span class="preview">Contraído de forma predeterminada</span></td>
+      <td><span class="preview">De forma predeterminada, todas las secciones de un formulario personalizado se expanden cuando se expande el propio formulario. Seleccione esta opción para contraer la sección de forma predeterminada cuando un usuario abra el formulario.</span></td>
+     <tr>
+     </tr>
      <tr> 
       <td role="rowheader"> <p>Conceder acceso</p> </td> 
       <td> <p> Seleccione los permisos que necesitan los usuarios en un objeto donde se adjunta el formulario personalizado para ver esta sección y editar sus valores de campo. 
