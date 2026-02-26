@@ -358,7 +358,7 @@ Para obtener más información, consulte [Configurar la lista de permitidos del 
 
 Con Workfront One, descubrirá el contenido, los recursos y las noticias más importantes de Workfront: todo en un solo lugar, con un solo inicio de sesión. Hemos unificado los sitios de experiencia, comunidad y formación, para que le resulte más fácil encontrar lo que busca.
 
-[Más información sobre Workfront One](https://business.adobe.com/products/workfront.html).
+[Más información sobre Workfront One](https://business.adobe.com/es/products/workfront.html).
 
 ### Seminario web sobre la versión 2020.1 {#2020-1-release-webinar}
 
