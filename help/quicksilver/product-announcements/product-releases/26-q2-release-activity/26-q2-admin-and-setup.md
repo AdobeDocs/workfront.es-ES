@@ -5,10 +5,10 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: ce152c48-ed72-47ed-b1c5-940c93b4a9ec
-source-git-commit: 9160a68653999c35de32dd417b18ea8197ef446f
+source-git-commit: e716869407ff88b090b223708c688c7ed0da3e8e
 workflow-type: tm+mt
-source-wordcount: '281'
-ht-degree: 20%
+source-wordcount: '348'
+ht-degree: 16%
 
 ---
 
@@ -18,15 +18,19 @@ Esta página describe las mejoras realizadas por el administrador con la versió
 
 Para obtener una lista de todos los cambios disponibles en este punto del ciclo de la versión del segundo trimestre de 2026, consulte [Información general de la versión del segundo trimestre de 2026](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md).
 
+## Contraer sección de formulario personalizado de forma predeterminada
 
+De forma predeterminada, todas las secciones de un formulario personalizado se expanden cuando se expande el propio formulario. Una nueva opción del diseñador de formularios personalizado permite marcar una sección para que se contraiga de forma predeterminada cuando un usuario abre el formulario. Esta opción se aplica en el nivel de sección, no en los campos.
+
+Para obtener más información, vea [Organizar y obtener una vista previa de un formulario](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md).
 
 ## El tipo de campo de texto enriquecido ahora está disponible en formularios personalizados
 
 >[!NOTE]
 >
 >Vista previa: 29 de enero de 2026
->Versión rápida de producción: 12 de febrero de 2026
->Producción para todos: 16 de abril de 2026
+>Versión rápida de producción: por determinar
+>Producción para todos: por determinar
 >
 >Esta función se eliminó temporalmente del entorno de producción el 13 de febrero de 2026.
 
