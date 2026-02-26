@@ -5,14 +5,16 @@ description: Las listas mejoradas utilizan un formato de tabla para mostrar los 
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 4c25ed54-b147-4fd3-8d00-6f1ba61bbd38
-source-git-commit: ee5bb3cbf6a69b85c3d6b87500164f85a1ba114a
+source-git-commit: 2b01a9b4c697ae814ff894120fcc61df1a461e4e
 workflow-type: tm+mt
-source-wordcount: '1617'
-ht-degree: 5%
+source-wordcount: '2342'
+ht-degree: 3%
 
 ---
 
 # Uso de listas mejoradas
+
+{{preview-fast-release-general}}
 
 Las listas mejoradas están disponibles en algunas áreas de Adobe Workfront. Estas listas utilizan un formato de tabla para mostrar los elementos de la lista, y tienen un aspecto diferente al de las listas estándar. También se mejora la administración de vistas, incluidos el filtrado, la agrupación, la administración de columnas y la búsqueda.
 
@@ -56,10 +58,11 @@ A continuación se muestran algunos tipos de listas de objetos de Workfront que 
 >Esta lista no es completa. Cada una de estas listas de objetos también puede aparecer en un informe o en un panel de control. Por ejemplo, un informe de solicitud o un tablero que contenga un informe de solicitud también mostrará una lista de solicitudes.
 
 | Lista de Workfront | Ubicación de la lista de objetos |
-|--- |--- |
+| --- | --- |
 | Prioridades | <ul><li>Inicio > seleccione el icono Prioridades en el menú de la izquierda</li><li>Menú principal > Prioridades</li></ul> |
 | Lista de solicitudes | <ul><li>Solicitudes (solo nueva experiencia)</li><li>Widget de Mis solicitudes en Inicio</li></ul> |
 | Listas de estados, prioridades, gravedades y tasas de cambio en Configuración | <ul><li>Configuración > Preferencias de proyecto > Estados</li><li>Configuración > Preferencias del proyecto > Prioridades</li><li>Configuración > Preferencias del proyecto > Gravedades</li><li>Configuración > Preferencias del proyecto > Tasas de cambio</li></ul> |
+| <span class="preview">Lista de informes</span> | <span class="preview">Menú principal > Informes</span> <p><span class="preview">El formato de lista mejorado solo se aplica cuando se activa la opción **Usar carpetas que se pueden compartir**. Para obtener más información, consulte [Usar carpetas de informes que se pueden compartir](/help/quicksilver/reports-and-dashboards/reports/report-usage/use-sharable-report-folders.md).</span> |
 
 ## Agregar elementos a una lista mejorada
 
@@ -141,6 +144,18 @@ En función de los objetos que visualice en una lista mejorada, puede ocultar, m
 
    ![Indicador de columnas ocultas](assets/glist-columns-hidden-indicator.png)
 
+### Cambiar nombre de columnas
+
+Algunas columnas permiten guardar un nombre personalizado para el título de la columna.
+
+1. Pase el ratón sobre la columna, luego haga clic en la flecha hacia abajo y seleccione **Rename**.
+
+   ![Seleccionar Cambiar nombre en la columna](assets/glist-rename-or-sort-column.png)
+
+1. En el cuadro de diálogo **Cambiar nombre**, escriba el nombre de la columna en el campo **Etiqueta personalizada** y haga clic en **Guardar**.
+
+   El nuevo nombre de columna aparece en la lista.
+
 ## Agregar y quitar columnas con el Administrador de columnas
 
 Puede usar **Administrador de columnas** en algunas listas mejoradas para agregar y quitar fácilmente columnas de la lista. Puede agregar o quitar campos personalizados y del sistema que ya existen en Workfront como columnas a una lista mejorada.
@@ -163,51 +178,44 @@ Para agregar y quitar columnas:
 
    La lista actualiza las columnas según las opciones que haya realizado.
 
-## Visualización de datos con vistas en una lista mejorada
+## Actualizar elementos de lista mejorados
 
-Una vista es un conjunto personalizado de disposiciones de columnas y filtros que se pueden aplicar a una lista. Puede crear vistas nuevas y editar las existentes.
+Los siguientes elementos son componentes de una lista mejorada:
+
+* Ver: define las columnas, los filtros y las agrupaciones de la lista con ajustes preestablecidos
+* Filtros: Limita la cantidad de información mostrada en la lista
+* Agrupaciones: organizar las listas de elementos según campos comunes
+* Ordenar: organiza los elementos de una lista según el orden que identifique para un campo determinado
+* Buscar: Encuentra rápidamente un elemento mediante la palabra clave de búsqueda
 
 ### Aplicación y creación de vistas
 
-Para aplicar una vista, haga clic en el menú desplegable **Vistas** y seleccione la vista que desee aplicar a la lista.
+>[!NOTE]
+>
+>No todas las listas mejoradas tienen todos los elementos descritos en esta sección.
 
-Para crear una vista nueva:
+Para aplicar o crear una vista:
 
-1. Haga clic en el menú desplegable **Vistas** y seleccione **Nueva vista**.
-1. Escriba un nombre para la vista y haga clic en **Crear**.
+1. Haga clic en el menú desplegable **Vistas** y seleccione una vista existente para aplicarla a la lista
+
+   O
+
+   Haga clic en **Nueva vista** para crear una.
+
+1. (Condicional) Para agregar una vista nueva, escriba un nombre para la vista y haga clic en **Crear**.
 1. (Opcional) Oculte, muestre o reorganice las columnas. Para obtener más información, vea [Personalizar columnas en una lista mejorada](#customize-columns-in-an-enhanced-list).
-1. (Opcional) Filtre y agrupe los elementos de la lista. Para obtener más información, vea [Filtrar y agrupar elementos en una lista mejorada](#filter-and-group-items-in-an-enhanced-list).
+1. (Opcional) Filtre la lista. Para obtener más información, vea [Filtrar elementos en una lista mejorada](#filter-items-in-an-enhanced-list).
+1. (Opcional) Agrupe los elementos de la lista. Para obtener más información, consulte [Elementos de grupo en una lista mejorada](#group-items-in-an-enhanced-list).
 
-   Los cambios realizados en las vistas se guardan automáticamente y todos los usuarios de la vista pueden ver los cambios.
+   Los cambios en las vistas se guardan automáticamente. La próxima vez que aplique esta vista, la configuración de columna y filtro seguirá siendo la misma que la establecida.
 
-   La próxima vez que aplique esta vista, la configuración de columna y filtro seguirá siendo la misma que la establecida.
+### Filtrar elementos en una lista mejorada
 
-### Compartir una vista
+>[!NOTE]
+>
+>No todas las listas mejoradas tienen todos los elementos descritos en esta sección.
 
-En el menú desplegable **Vistas**, es posible que vea tres categorías de vistas:
-
-* **Vistas del sistema**: vistas que le asignó el administrador del sistema.
-* **Vistas compartidas**: Vistas que otros usuarios han compartido con usted.
-* **Mis vistas**: vistas que ha creado y que puede compartir con otros usuarios. Puede compartir vistas con otros usuarios, equipos o grupos.
-
-Para compartir una vista:
-
-1. En el menú desplegable **Vistas**, pasa el ratón sobre la vista de **Mis vistas** que quieras compartir y luego haz clic en el menú de tres puntos cuando aparezca.
-1. Seleccione **Compartir**.
-1. En el cuadro de diálogo Compartir, escriba los nombres de los usuarios, equipos o grupos con los que desea compartir la vista y, a continuación, selecciónelos en la lista cuando aparezcan.
-
-   Puede conceder los siguientes permisos a los destinatarios:
-
-   * **Vista**: los usuarios pueden aplicar la vista a la lista pero no compartirla.
-   * **Administrar**: Los usuarios pueden cambiar el nombre de la vista, compartirla con otros y eliminarla.
-
-1. Haga clic en **Guardar**.
-
-## Filtrar y agrupar elementos
-
-Los filtros le ayudan a reducir la cantidad de información que se muestra en la lista. Las agrupaciones separan los objetos de la lista en áreas basadas en criterios específicos.
-
-### Uso de filtros
+Los filtros le ayudan a reducir la cantidad de información que se muestra en la lista.
 
 1. Haga clic en **Filtro** sobre la lista.
 1. En el cuadro Filtro, haga clic en **Agregar condición**.
@@ -223,20 +231,32 @@ Los filtros le ayudan a reducir la cantidad de información que se muestra en la
    >
    >Para aplicar un comodín de usuario actual, seleccione **Me (usuario conectado)** como valor de campo. El filtro se aplica al usuario que está viendo la lista. Este comodín está disponible en campos donde el valor es un usuario.
 
-1. Haga clic en **Agregar condición** para agregar otra condición al filtro como una instrucción OR.
+1. Haga clic en **Agregar condición** para agregar otra condición al filtro.
+
+   Puede unir varios filtros mediante un conector AND u OR.
+
 1. Cuando se aplique el filtro, puede volver a abrir las opciones de **Filter** para cambiar las opciones de filtro o borrar todos los filtros.
 
    Aparece un indicador en el botón **Filter** cuando se aplica un filtro a la lista.
 
    ![Indicador de filtro aplicado](assets/glist-filter-applied-indicator.png)
 
-### Usar agrupaciones
+### Agrupar elementos en una lista mejorada
+
+>[!NOTE]
+>
+>No todas las listas mejoradas tienen todos los elementos descritos en esta sección.
+
+Las agrupaciones separan los objetos de la lista en áreas basadas en criterios específicos.
+
+Workfront proporciona un número limitado de agrupaciones predefinidas y no puede modificarlas.
 
 1. Haga clic en **Grupo** sobre la lista.
 1. Seleccione una agrupación para organizar la lista.
 
    ![Seleccionar una agrupación](assets/glist-grouping-choose-a-group-by.png)
 
+1. Haga clic en **Contraer todo** para mostrar la lista con todas las agrupaciones contraídas. La opción predeterminada es mostrar la lista con todas las agrupaciones expandidas.
 1. Cuando se aplique la agrupación, puede volver a abrir las opciones de Grupo para contraer o expandir todas las agrupaciones a la vez, cambiar la agrupación para agruparla por un campo diferente o borrar todas las agrupaciones.
 
    ![Agrupación en listas mejoradas](assets/glist-group-by-due-date-priorities.png)
@@ -245,11 +265,15 @@ Los filtros le ayudan a reducir la cantidad de información que se muestra en la
 
    ![Indicador aplicado de agrupación](assets/glist-grouping-applied-indicator.png)
 
-## Ordenar y buscar en una lista mejorada
+### Ordenar en una lista mejorada
+
+>[!NOTE]
+>
+>No todas las listas mejoradas tienen todos los elementos descritos en esta sección.
 
 Para ordenar columnas individuales:
 
-1. Vaya a la columna y haga clic en la flecha hacia abajo.
+1. Pase el ratón sobre la columna, luego haga clic en la flecha abajo y seleccione **Ordenar**.
 
    Un icono junto al nombre de una columna indica que la lista está ordenada por los valores de esa columna y la dirección de la ordenación.
 
@@ -261,12 +285,97 @@ Para ordenar columnas individuales:
 
 Para ordenar el trabajo dentro de una agrupación:
 
-1. Haga clic en **Grupo** y seleccione si desea ordenar en orden ascendente o descendente.
+1. Haga clic en **Grupo**, vaya a la línea de la agrupación aplicada, haga clic en la lista desplegable del clasificador y seleccione un orden ascendente o descendente.
 
    ![Ordenar en una agrupación](assets/sort-in-groups.png)
 
-Para buscar:
+### Búsqueda en una lista mejorada
 
-1. Escriba el término de búsqueda en el campo de búsqueda situado encima de la lista. Los resultados se resaltan en la lista a medida que escribe.
+>[!NOTE]
+>
+>No todas las listas mejoradas tienen todos los elementos descritos en esta sección.
+
+1. escriba la palabra clave por la que desee buscar en el cuadro Buscar de la esquina superior derecha de la lista. Los resultados se resaltan en la lista a medida que escribe.
 
    ![Término de búsqueda resaltado](assets/glist-search-highlighted.png)
+
+   >[!NOTE]
+   >
+   >La búsqueda busca en todas las columnas de todos los elementos de la lista. Si la lista es larga, la búsqueda incluye elementos que es posible que tenga que desplazarse para ver. Cuando se filtra la lista, la búsqueda solo observa lo que se muestra actualmente.
+
+### Compartir una vista
+
+>[!NOTE]
+>
+>No todas las listas mejoradas tienen todos los elementos descritos en esta sección.
+
+En el menú desplegable **Vistas**, es posible que vea tres categorías de vistas:
+
+* **Vistas del sistema**: vistas que le asignó el administrador del sistema. No puede compartir las vistas de sistema.
+* **Vistas compartidas**: Vistas que otros usuarios han compartido con usted.
+* **Mis vistas**: vistas que ha creado y que puede compartir con otros usuarios. Puede compartir vistas con otros usuarios, equipos o grupos.
+
+Al compartir una vista, se incluyen todos los elementos de la vista (columnas, filtros y agrupaciones).
+
+Para compartir una vista:
+
+1. En el menú desplegable **Vistas**, pasa el ratón sobre la vista de **Mis vistas** que quieras compartir, haz clic en el menú **Más** ![Menú más](assets/more-icon.png) y haz clic en **Compartir**.
+1. En el cuadro de diálogo Compartir, escriba los nombres de los usuarios, equipos, grupos, empresas o roles con los que desea compartir la vista y, a continuación, selecciónelos en la lista cuando aparezcan.
+
+   Puede conceder los siguientes permisos a los destinatarios:
+
+   * **Vista**: los usuarios pueden aplicar la vista a la lista pero no compartirla.
+
+     <span class="preview">Cuando los usuarios de acceso a Vista actualizan la vista, los cambios se guardan en las preferencias personales del usuario. Un punto azul en el nombre de la vista (en las **vistas compartidas** del usuario) muestra que se han aplicado actualizaciones personales a la vista.</span>
+
+   * **Administrar**: los usuarios pueden cambiar el nombre de la vista, compartirla o eliminarla, y editar sus elementos.
+
+     <span class="preview">Cuando los usuarios de Administración de acceso realicen cambios en la vista, todos los usuarios que tengan la vista compartida con ellos verán esas actualizaciones cuando se aplique la vista a la lista.</span>
+
+1. Haga clic en **Guardar**.
+
+   <span class="preview">Si comparte una vista con un usuario y luego elimina ese acceso, la vista se eliminará de las **vistas compartidas** del usuario. Si el usuario tenía la vista compartida aplicada a la lista cuando se quitó su acceso, se aplica la vista predeterminada del sistema.</span>
+
+<div class="preview">
+
+### Copiar una vista
+
+>[!NOTE]
+>
+>No todas las listas mejoradas tienen todos los elementos descritos en esta sección.
+
+Cuando se comparte con usted una vista para la que no tiene permiso de edición, puede copiar la vista y guardarla con un nombre nuevo. Primero debe realizar cambios en la vista para poder copiarla.
+
+1. En el menú desplegable Vistas, pase el ratón sobre la vista de **Vistas compartidas** que quiera copiar, haga clic en el menú **Más** ![Menú más](assets/more-icon.png) y luego haga clic en **Copiar con preferencias**.
+
+   Se crea una nueva vista automáticamente. Utiliza el nombre de vista original con (copiar) al final y aparece en la sección de vistas **Mis vistas**.
+
+   Usted es el propietario de esta vista y puede cambiarle el nombre, editarla, compartirla o eliminarla. Si el propietario de la vista original quita el acceso compartido a esa vista, seguirá teniendo acceso a la vista que ha creado.
+
+   >[!NOTE]
+   >
+   >La opción **Copiar con preferencias** solo está disponible si ha realizado cambios en una vista que se compartió con usted.
+
+</div>
+
+<div class="preview">
+
+### Restablecer una vista
+
+>[!NOTE]
+>
+>No todas las listas mejoradas tienen todos los elementos descritos en esta sección.
+
+Cuando se comparte con usted una vista para la que no tiene permiso de edición y la actualiza, puede restablecerla de nuevo a la vista original.
+
+1. En el menú desplegable **Vistas**, pase el ratón sobre la vista de **Vistas compartidas** que quiera restablecer, haga clic en el menú **Más** ![Menú más](assets/more-icon.png) y luego haga clic en **Restablecer valores predeterminados**.
+
+   Los elementos de vista (columnas, filtros y agrupaciones) se restablecen a su configuración original que se compartió con usted.
+
+   >[!NOTE]
+   >
+   >La opción **Restablecer al valor predeterminado** solo está disponible si ha realizado cambios en una vista que se compartió con usted.
+
+   ![Copiar y restablecer opciones de vista](assets/glist-copy-view-shared-with-you.png)
+
+</div>
