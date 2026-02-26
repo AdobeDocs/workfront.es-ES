@@ -7,9 +7,9 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4162cfb7-d5e1-4152-857a-fc4a6eb09cd7
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 255b4b83b6d1d37bb6ffff975f1b1f44130170bc
 workflow-type: tm+mt
-source-wordcount: '2566'
+source-wordcount: '2556'
 ht-degree: 99%
 
 ---
@@ -28,7 +28,7 @@ En esta página se proporciona información sobre la funcionalidad incluida en l
 
 Estas mejoras están disponibles actualmente en el entorno de vista previa y estarán disponibles en el entorno de producción la semana del 30 de marzo de 2020.
 
-Para descargar esta página en formato PDF, vaya [aquí](https://documentation.my.workfront.com/library/a/9f5c9e44-c9a9-4f33-beec-9e5dc2e0fdc2).
+<!--To download this page in PDF format, go [here](https://documentation.my.workfront.com/library/a/9f5c9e44-c9a9-4f33-beec-9e5dc2e0fdc2).-->
 
 Algunas funciones se lanzaron antes de la versión 2020.1. Para ver lo que se publicó antes de la versión 2020.1, consulte [Otras características de Workfront Classic publicadas en producción antes de la versión 2020.1](../../../product-announcements/product-releases/2020.1-release-activity/prior-to-2020-1.md).
 
@@ -71,9 +71,9 @@ Algunas funciones se lanzaron antes de la versión 2020.1. Para ver lo que se pu
    <td> <p><strong>Fechas de lanzamiento</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/2020.1-release-activity/2020-1-list-enhancements.md#new" class="MCXref xref" xrefformat="{para}" data-mc-conditions="OnlineOrPDF.OnlineOnly">Nuevo modo de guardado al realizar cambios en una lista de tareas: el modo de planificación de la línea de tiempo</a><!--
+   <td> <p><a href="../../../product-announcements/product-releases/2020.1-release-activity/2020-1-list-enhancements.md#new" class="MCXref xref" xrefformat="{para}" data-mc-conditions="OnlineOrPDF.OnlineOnly">Nuevo modo de guardado al realizar cambios en una lista de tareas: el modo de planificación de la cronología</a><!--
       <a href="https://experience.workfront.com/s/article/2020-1-List-Enhancements-1190593809?language=en_US&amp;r=3&amp;ui-force-components-controllers-recordGlobalValueProvider.RecordGvp.getRecord=1" target="_blank" data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">New saving mode when making changes in a task list: the Timeline Planning mode</a>
-     --> </p> <p>Según el tamaño y la complejidad del proyecto, la actualización de la lista de tareas, especialmente las fechas y duraciones, puede tardar más de lo deseado. Para realizar ediciones mucho más rápido, hemos introducido una nueva opción para guardar al editar tareas en una lista llamada Modo de planificación de la línea de tiempo. Antes de este modo, se podían guardar los cambios realizados en las listas de tareas automáticamente con Guardar automáticamente o manualmente al deshabilitar el movimiento Guardar automáticamente.</p> </td> 
+     --> </p> <p>Según el tamaño y la complejidad del proyecto, la actualización de la lista de tareas, especialmente las fechas y duraciones, puede tardar más de lo deseado. Para realizar ediciones mucho más rápido, hemos introducido una nueva opción para guardar al editar tareas en una lista llamada Modo de planificación de la cronología. Antes de este modo, se podían guardar los cambios realizados en las listas de tareas automáticamente con Guardar automáticamente o manualmente al deshabilitar el movimiento Guardar automáticamente.</p> </td> 
    <td> <p>Versión preliminar beta: 14 de marzo de 2020</p> <p>Versión de producción: con la versión 2020.1</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -144,7 +144,7 @@ Algunas funciones se lanzaron antes de la versión 2020.1. Para ver lo que se pu
    <td> <p>Versión preliminar beta: 27 de febrero de 2020</p> <p>Versión de producción: con la versión 2020.1</p> </td> 
   </tr> 
   <tr> 
-   <td> <p><a href="../../../product-announcements/product-releases/2020.1-release-activity/2020-1-resource-management-enhancements.md#adjust" class="MCXref xref" xrefformat="{para}" data-mc-conditions="OnlineOrPDF.OnlineOnly">Ajustar la duración de la línea de tiempo en el Distribuidor de carga de trabajo</a><!--
+   <td> <p><a href="../../../product-announcements/product-releases/2020.1-release-activity/2020-1-resource-management-enhancements.md#adjust" class="MCXref xref" xrefformat="{para}" data-mc-conditions="OnlineOrPDF.OnlineOnly">Ajustar la duración de la cronología en el Distribuidor de carga de trabajo</a><!--
       <a href="https://experience.workfront.com/s/article/2020-1-Resource-Management-enhancements-1967535178?language=en_US&amp;r=3&amp;ui-force-components-controllers-recordGlobalValueProvider.RecordGvp.getRecord=1" target="_blank" data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">Adjust timeline duration in the Workload Balancer</a>
      --> </p> <p>Ahora tiene la flexibilidad de seleccionar cuántas semanas se muestran en el Distribuidor de cargas de trabajo: puede seleccionar entre 2, 4 o 6 semanas. Anteriormente, el número de semanas se establecía en 4 de forma predeterminada.</p> </td> 
    <td> <p>Versión preliminar beta: 27 de febrero de 2020</p> <p>Versión de producción: con la versión 2020.1</p> </td> 
@@ -242,7 +242,7 @@ Algunas funciones se lanzaron antes de la versión 2020.1. Para ver lo que se pu
    <td> <p>Versión preliminar beta: 6 de diciembre de 2019</p> <p>Versión de producción planificada: con la versión 2020.1</p> </td> 
   </tr> 
   <tr> 
-   <td> <p><a href="../../../product-announcements/product-releases/2020.1-release-activity/2020-1-proofing-enhancements.md#document" class="MCXref xref" xrefformat="{para}">Icono de documento eliminado del visor de corrección</a> </p> <p>Se ha eliminado el icono del documento alineado con el nombre de la prueba en el visor de corrección. Este icono se utiliza para ir a los detalles del documento.</p> <p>Ahora puede hacer clic en el nombre de la prueba para ir a la página de detalles del documento.</p> <p>Este icono se ha eliminado debido a un cambio en la nueva experiencia de Workfront: vínculo a la nota de la versión de las rutas de exploración.</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/2020.1-release-activity/2020-1-proofing-enhancements.md#document" class="MCXref xref" xrefformat="{para}">Icono de documento eliminado del visor de corrección</a> </p> <p>Se ha eliminado el icono del documento alineado con el nombre de la revisión en el visor de corrección. Este icono se utiliza para ir a los detalles del documento.</p> <p>Ahora puede hacer clic en el nombre de la prueba para ir a la página de detalles del documento.</p> <p>Este icono se ha eliminado debido a un cambio en la nueva experiencia de Workfront: vínculo a la nota de la versión de las rutas de exploración.</p> </td> 
    <td> <p>Versión preliminar beta: 30 de enero de 2020</p> <p>Versión de producción planificada: con la versión 2020.1</p> </td> 
   </tr> 
  </tbody> 
@@ -331,7 +331,7 @@ Las herramientas de programación de recursos tienen la misma funcionalidad que 
 >La programación de recursos ha quedado obsoleta y se ha eliminado de Workfront.
 
 
-## Actualizaciones de mantenimiento de Workfront 
+## Actualizaciones de mantenimiento de Workfront
 
 Para obtener información sobre las actualizaciones de mantenimiento realizadas durante la versión 2020.1, consulte [Actualizaciones de mantenimiento de Workfront](https://experience.workfront.com/s/article/Workfront-Maintenance-Updates-1882317350).
 
@@ -358,7 +358,7 @@ Para obtener más información, consulte [Configurar la lista de permitidos del 
 
 Con Workfront One, descubrirá el contenido, los recursos y las noticias más importantes de Workfront: todo en un solo lugar, con un solo inicio de sesión. Hemos unificado los sitios de experiencia, comunidad y formación, para que le resulte más fácil encontrar lo que busca.
 
-[Más información sobre Workfront One](https://business.adobe.com/es/products/workfront.html).
+[Más información sobre Workfront One](https://business.adobe.com/products/workfront.html).
 
 ### Seminario web sobre la versión 2020.1 {#2020-1-release-webinar}
 
@@ -366,7 +366,7 @@ Consulte la grabación del seminario web de la versión 2020.1 aquí.
 
 ### Seminario web de la hoja de ruta del producto del primer trimestre {#q1-product-roadmap-webinar}
 
-Obtenga más información sobre lo que se avecina durante el [seminario web de la hoja de ruta del primer trimestre](https://webinars.on24.com/workfront/product_roadmap032620?partnerref=announcementcenter). Este seminario web se celebrará el 26 de marzo de 2020 a las 9:00 a. m. MT. Haga clic en el vínculo para registrarse
+Obtenga más información sobre lo que se avecina durante el [seminario web de la hoja de ruta del primer trimestre](https://webinars.on24.com/workfront/product_roadmap032620?partnerref=announcementcenter). Este seminario web se llevará a cabo el 26 de marzo de 2020 a las 9:00a.m. MT. Haga clic en el vínculo para registrarse
 
 <!--
 <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
