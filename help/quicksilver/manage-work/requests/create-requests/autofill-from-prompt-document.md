@@ -5,10 +5,10 @@ description: Puede utilizar IA para rellenar automáticamente los campos de soli
 author: Becky
 feature: Get Started with Workfront
 exl-id: 4a22f9ea-c9ee-4947-8683-9989c54903b1
-source-git-commit: 8dc094718999af291443bd1a703cdc742d13f57e
+source-git-commit: b55cb2df33ebba0d61d4254f17a49f92b7d6553e
 workflow-type: tm+mt
-source-wordcount: '1374'
-ht-degree: 8%
+source-wordcount: '1391'
+ht-degree: 13%
 
 ---
 
@@ -19,6 +19,8 @@ ht-degree: 8%
 >Para utilizar esta funcionalidad, su organización debe cumplir los requisitos para utilizar Workfront AI Assistant. Para obtener más información, consulte [Requisitos previos para el asistente de IA](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant).
 
 Rellenar formularios de IA puede ayudarle a rellenar automáticamente los campos de solicitud en función de una solicitud que haya introducido. También puede rellenar campos basados en texto como correos electrónicos o documentos cargados. Puede aprobar o rechazar estas sugerencias antes de enviar la solicitud.
+
+Esta funcionalidad está disponible al crear una solicitud en el área Solicitudes de Workfront y en Workfront Planning.
 
 ## Requisitos de acceso
 
@@ -57,10 +59,10 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 
 Para usar el relleno de formulario con tecnología de IA para rellenar una solicitud mediante un aviso o documento, se deben aplicar **todas** las siguientes opciones:
 
-* Su organización debe haber migrado a Adobe IMS (sistema Identity Management)
+* Su organización debe haber migrado a Adobe IMS (Identity Management System)
 * La experiencia unificada de Adobe debe estar habilitada
-* Su organización debe tener un plan Select, Prime o Ultimate Workfront
-* Adobe debe tener registrado un acuerdo de Adobe Gen AI
+* Su organización debe tener un plan Select, Primer o Ultimate de Workfront
+* Adobe debe tener un acuerdo firmado en el archivo de Adobe Gen AI
 
   Para obtener más información sobre la firma del acuerdo, consulte [Firmar el acuerdo de IA de Adobe Gen](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement) en el artículo Información general del Asistente de IA.
 * El asistente de IA debe estar habilitado en la configuración del sistema de su organización. Esto lo administra el administrador de Workfront.

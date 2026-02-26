@@ -6,14 +6,14 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
-source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
+source-git-commit: b55cb2df33ebba0d61d4254f17a49f92b7d6553e
 workflow-type: tm+mt
-source-wordcount: '2200'
+source-wordcount: '2252'
 ht-degree: 4%
 
 ---
 
-# Envío de solicitudes de Adobe Workfront Planning para crear registros
+# Enviar solicitudes de Adobe Workfront Planning para crear registros
 
 <!--update title when there will be more functionality added to the Planning requests, besides creating records-->
 <!--take Preview and Prod references out when releasing to Prod all-->
@@ -154,6 +154,9 @@ Si habilita esta configuración, los formularios de solicitud de Workfront Plann
 
    Se abrirá una ventana con el nombre del formulario de solicitud en la parte superior.
 1. Actualice los campos disponibles en el formulario de solicitud. Los campos con un asterisco rojo son obligatorios.
+1. (Condicional) Si su organización permite el rellenado de formularios con tecnología de IA, puede cargar documentos como mensajes. AI utiliza estos documentos para rellenar el formulario, y puede aceptar o rechazar las sugerencias de AI.
+
+   Para obtener instrucciones, consulte [Usar el relleno de formulario con tecnología de IA para rellenar una solicitud mediante avisos o documentos](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md).
 1. Haga clic en **Enviar**.
 
    El formulario de solicitud se cerrará y volverá al área **Solicitudes**.
