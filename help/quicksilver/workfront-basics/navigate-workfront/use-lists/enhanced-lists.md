@@ -5,9 +5,9 @@ description: Las listas mejoradas utilizan un formato de tabla para mostrar los 
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 4c25ed54-b147-4fd3-8d00-6f1ba61bbd38
-source-git-commit: 2b01a9b4c697ae814ff894120fcc61df1a461e4e
+source-git-commit: 8e2f41f18b57aca77fd6af905ff8e04486879e39
 workflow-type: tm+mt
-source-wordcount: '2342'
+source-wordcount: '2315'
 ht-degree: 3%
 
 ---
@@ -62,7 +62,8 @@ A continuación se muestran algunos tipos de listas de objetos de Workfront que 
 | Prioridades | <ul><li>Inicio > seleccione el icono Prioridades en el menú de la izquierda</li><li>Menú principal > Prioridades</li></ul> |
 | Lista de solicitudes | <ul><li>Solicitudes (solo nueva experiencia)</li><li>Widget de Mis solicitudes en Inicio</li></ul> |
 | Listas de estados, prioridades, gravedades y tasas de cambio en Configuración | <ul><li>Configuración > Preferencias de proyecto > Estados</li><li>Configuración > Preferencias del proyecto > Prioridades</li><li>Configuración > Preferencias del proyecto > Gravedades</li><li>Configuración > Preferencias del proyecto > Tasas de cambio</li></ul> |
-| <span class="preview">Lista de informes</span> | <span class="preview">Menú principal > Informes</span> <p><span class="preview">El formato de lista mejorado solo se aplica cuando se activa la opción **Usar carpetas que se pueden compartir**. Para obtener más información, consulte [Usar carpetas de informes que se pueden compartir](/help/quicksilver/reports-and-dashboards/reports/report-usage/use-sharable-report-folders.md).</span> |
+
+<!--|<span class="preview">List of reports</span> | <span class="preview">Main Menu &gt; Reports</span> <p><span class="preview">The enhanced list format is only applied when **Use shareable folders** is turned on. For information, see [Use shareable report folders](/help/quicksilver/reports-and-dashboards/reports/report-usage/use-sharable-report-folders.md).</span> |-->
 
 ## Agregar elementos a una lista mejorada
 

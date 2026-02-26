@@ -6,7 +6,7 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 973a095e8ff08e382010247d9ed38e48d4b2c564
+source-git-commit: f28d2eef57f63cede3a08b06053e8dc6431f21d4
 workflow-type: tm+mt
 source-wordcount: '3588'
 ht-degree: 66%
@@ -597,7 +597,6 @@ Al mostrar la vista de tabla, también puede ver qué campo está editando otro 
    ![Campo de tabla de indicadores en tiempo real y conexión de avatar](assets/real-time-indicator-table-field-and-avatar-connection.png)
 
 <!--maybe include a screen shot after release if they update the UI text in this list of users-->
-
 
 1. <span class="preview">(Opcional) Haga clic en el triángulo en la esquina superior derecha de la celda que contiene el campo editado por otros. Se muestra una lista de los usuarios que están editando el campo.</span>
 
