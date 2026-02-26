@@ -6,10 +6,10 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 11b72c797203dcf364281665bc60cf67d25c8b5d
+source-git-commit: 973a095e8ff08e382010247d9ed38e48d4b2c564
 workflow-type: tm+mt
-source-wordcount: '3508'
-ht-degree: 67%
+source-wordcount: '3588'
+ht-degree: 66%
 
 ---
 
@@ -504,9 +504,7 @@ para añadir una agrupación:
 
    ![Agrupación aplicada en la vista de tabla](assets/grouping-applied-in-table-view.png)
 
-   <!--For Feb 26, and change indent to the left:
-    1. <span class="preview">(Optional) Choose A-Z or Z-A from the sorting drop-down menu to the right of a selected field. This sorts the groupings in the timeline, accordingly.</span>
-    -->
+1. <span class="preview">(Opcional) Elija A-Z o Z-A en el menú desplegable de ordenación a la derecha de un campo seleccionado. Esto ordena las agrupaciones en la cronología según corresponda.</span>
 
 1. (Opcional) Dentro del cuadro **Agrupar registros por**, haga clic en el icono **x** a la derecha de un campo seleccionado para la agrupación para quitar la agrupación
 
@@ -600,15 +598,13 @@ Al mostrar la vista de tabla, también puede ver qué campo está editando otro 
 
 <!--maybe include a screen shot after release if they update the UI text in this list of users-->
 
-<!--For Feb 26: 
 
-1. <span class="preview">(Optional) Click the triangle in the upper-right corner of the cell that contains the field edited by others. A list of users currently editing the field displays.</span> 
+1. <span class="preview">(Opcional) Haga clic en el triángulo en la esquina superior derecha de la celda que contiene el campo editado por otros. Se muestra una lista de los usuarios que están editando el campo.</span>
 
 >[!TIP]
 >
-><span class="preview">Real-time presence indicators display users that are currently editing a field anywhere in Workfront Planning. This includes either the table view or the Details area of the record.</span>
+><span class="preview">Los indicadores de presencia en tiempo real muestran a los usuarios que están editando un campo en cualquier lugar de Workfront Planning. Esto incluye la vista de tabla o el área de detalles del registro.</span>
 
--->
 
 
 
