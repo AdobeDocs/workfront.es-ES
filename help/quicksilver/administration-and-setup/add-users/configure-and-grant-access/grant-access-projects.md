@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: ba6a9e68-68a1-4152-b024-cd39e06d556f
-source-git-commit: 97f5adc8811a3be7be23137a82d10d45b76ec605
+source-git-commit: f6aa8519748d98ba135fb0f572b7daade716c50f
 workflow-type: tm+mt
-source-wordcount: '677'
-ht-degree: 88%
+source-wordcount: '674'
+ht-degree: 83%
 
 ---
 
@@ -68,7 +68,7 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
    >* Los usuarios con una licencia de revisión tienen derechos de visualización en los proyectos de problemas convertidos, pero sus derechos de visualización son limitados.
    >* Para obtener información sobre los permisos que los usuarios pueden conceder al compartir proyectos con otros, consulte [Compartir un proyecto en Adobe Workfront](../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).
    >* Cuando se establece una configuración de nivel de acceso para un tipo determinado de objeto, esa configuración no afecta al acceso de los usuarios a los objetos con una clasificación inferior. Por ejemplo, puede restringir la eliminación de proyectos en su nivel de acceso por parte de los usuarios, pero esto no les impide eliminar tareas, que son de menor clasificación que los proyectos. Para obtener más información sobre la jerarquía de objetos, consulte la sección [Interdependencia y jerarquía de objetos](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#understanding-interdependency-and-hierarchy-of-objects) en el artículo [Comprender los objetos en Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
-   >* Un usuario cuyo nivel de acceso no permite el acceso a los datos financieros no puede conceder acceso que permitiría a otros ver los datos financieros. Esto incluye dar acceso a proyectos que mostrarían datos financieros o modificar un nivel de acceso para permitir la visualización de datos financieros.
+   * Un usuario cuyo nivel de acceso no permite el acceso a los datos financieros no puede conceder acceso que permitiría a otros ver los datos financieros. Esto incluye dar acceso a proyectos que mostrarían datos financieros o modificar un nivel de acceso para permitir la visualización de datos financieros.
 
 
 1. (Opcional) Haga clic en **establecer valores predeterminados de uso compartido** a la derecha de la opción Crear y, a continuación, **Agregar regla** para agregar una regla de uso compartido para nuevos proyectos.
@@ -93,9 +93,9 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
 
    Una vez creado el nivel de acceso, puede asignarlo a un usuario. Para obtener más información, consulte [Editar el perfil de un usuario](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
-## Acceso a informes, paneles de control y calendarios por tipo de licencia
+## Acceso a proyectos por tipo de licencia
 
-Para obtener información acerca de lo que los usuarios de cada nivel de acceso pueden hacer con los problemas, consulte la sección [Proyectos](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md#projects) en el artículo [Funcionalidad disponible para cada tipo de objeto](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md).
+Para obtener información acerca de lo que los usuarios de cada nivel de acceso pueden hacer con los proyectos, vea la sección [Proyectos](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md#projects) en el artículo [Funcionalidad disponible para cada tipo de objeto](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md).
 
 ## Acceso a proyectos compartidos
 
