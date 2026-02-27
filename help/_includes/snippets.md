@@ -1,8 +1,8 @@
 ---
-source-git-commit: 8fe1b2dc00c7b64b47717a17a51c0124da26d238
+source-git-commit: 703d2bb511109a68d2917fd83fd1b7f7a562f5a9
 workflow-type: tm+mt
-source-wordcount: '2644'
-ht-degree: 29%
+source-wordcount: '2670'
+ht-degree: 30%
 
 ---
 # Fragmentos
@@ -69,6 +69,8 @@ ht-degree: 29%
 
 1. Haga clic en el icono **[!UICONTROL Menú principal]** ![Menú principal](/help/_includes/assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront y, a continuación, haga clic en el nombre de usuario que aparece junto a la imagen de perfil. O (si está disponible), haz clic en tu imagen de perfil en el área de navegación superior y luego haz clic en **[!UICONTROL Perfil de Workfront]**.
 
+<!-- Notes for Workflow packaging -->
+
 ## Nota para Workflow Ultimate {#ultimate-package}
 
 >[!IMPORTANT]
@@ -80,6 +82,12 @@ ht-degree: 29%
 >[!IMPORTANT]
 >
 >Debe tener Workflow Prime o el paquete Workflow Ultimate para utilizar esta función.
+
+## Nota para el paquete de flujo de trabajo para la división coste/facturación {#workflow-package-for-cost-billing}
+
+>[!IMPORTANT]
+>
+>Debe tener el paquete Workflow Select, Prime o Ultimate para ver permisos de facturación y de coste independientes.
 
 <!-- Admin and Setup -->
 
