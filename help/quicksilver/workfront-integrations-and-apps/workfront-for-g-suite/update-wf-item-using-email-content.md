@@ -7,10 +7,10 @@ description: Es posible actualizar un proyecto, tarea o problema existente con i
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 2ac392f5-98a3-4ab6-a0e3-cda378f0f68b
-source-git-commit: 1e5b3c7d087c34870ccb0f4e65021358f08b81bf
+source-git-commit: 228fd22f1894689c0d256270350cc82954901641
 workflow-type: tm+mt
-source-wordcount: '742'
-ht-degree: 77%
+source-wordcount: '145'
+ht-degree: 32%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 77%
 
 >[!IMPORTANT]
 >
->Para ofrecer integraciones más estables y escalables, estamos adoptando un enfoque de integración moderno y flexible mediante la automatización e integración (Fusion) de Workfront. Como parte de este proceso de transición, la siguiente funcionalidad de Workfront para Google Workspace no estará disponible después del **28 de febrero de 2026**:
+>Para ofrecer integraciones más estables y escalables, hemos optado por un enfoque de integración moderno y flexible mediante la automatización e integración (Fusion) de Workfront. Como parte de este proceso de transición, la siguiente funcionalidad de Workfront para Google Workspace **ya no está disponible**:
 >
 >* Acceso a la funcionalidad de Google Workspace desde Workfront
 >
@@ -26,56 +26,58 @@ ht-degree: 77%
 >
 >Recomendamos utilizar la automatización e integración de Workfront para las necesidades de integración de su organización con Google Workspace.
 >
->Para obtener una descripción general de la automatización e integración de Workfront, consulte [Información general de Adobe Workfront Fusion](https://experienceleague.adobe.com/es/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+>Para obtener información general sobre la automatización e integración de Workfront, consulte [Información general de Adobe Workfront Fusion](https://experienceleague.adobe.com/es/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 >
->Para obtener información sobre las capacidades específicas de los módulos de integración y automatización de Workfront para Google Workspace, consulte [Módulos de Gmail](https://experienceleague.adobe.com/es/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/gmail-modules) y [Módulos de Google Calendar](https://experienceleague.adobe.com/es/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/google-calendar-modules).
+>Para obtener información sobre las capacidades específicas de los módulos de integración y automatización de Workfront para Google Workspace, consulte [Módulos de Gmail](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/gmail-modules) y [Módulos de Google Calendar](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/google-calendar-modules).
 
-Es posible actualizar un proyecto, tarea o problema existente con información de un mensaje de correo electrónico que no sea de [!DNL Adobe Workfront].
+<!--
 
-## Requisitos de acceso
+You can update an existing project, task, or issue with information from a non-[!DNL Adobe Workfront] email.
 
-+++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
+## Access requirements
+
++++ Expand to view access requirements for the functionality in this article.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
-   <td> <p>Cualquiera</p> </td> 
+   <td role="rowheader">Adobe Workfront package</td> 
+   <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licencia de Adobe Workfront</td> 
-   <td> <p>Estándar</p><p>Trabajo o superior</p>
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td> <p>Standard</p><p>Work or higher</p>
   </tr> 
  </tbody> 
 </table>
 
-Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
 +++
 
-## Requisitos previos
+## Prerequisites
 
-Antes de actualizar un elemento de [!DNL Workfront] mediante el contenido de un correo electrónico de [!DNL Google Workspace], es necesario
+Before you can update a [!DNL Workfront] item using email content from [!DNL Google Workspace], you must
 
-* Instalar [!DNL Workfront for Google Workspace]\
-   Para obtener instrucciones, consulte [Instalar [!DNL Adobe Workfront for Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/install-workfront-for-gsuite.md).
+* Install [!DNL Workfront for Google Workspace]\
+   For instructions, see [Install [!DNL Adobe Workfront for Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/install-workfront-for-gsuite.md).
 
-## Actualizar un elemento de [!DNL Workfront] mediante el contenido de correos electrónicos de [!DNL Google Workspace]
+## Update a [!DNL Workfront] item using email content from [!DNL Google Workspace]
 
-1. Si no se muestra el panel [!UICONTROL Workfront for Google Workspace], haga clic en el icono de Workfront ![Workfront icon](assets/wf-lion-icon.png) en la barra lateral de complementos de [!DNL Google Workspace], en el extremo derecho de la página.
-1. Con el mensaje de correo electrónico abierto en [!DNL Google Workspace], haga clic en **[!UICONTROL Publicar como nueva actualización]** en el panel [!DNL Google Workspace].
-1. En **[!UICONTROL Tipo]**, haga clic en la flecha desplegable y, a continuación, haga clic en el tipo de objeto en el que quiera añadir la actualización.
-1. Haga clic en la opción **[!UICONTROL Buscar]**, empiece a escribir el nombre del objeto en el que quiera añadir la actualización y, a continuación, seleccione el elemento cuando aparezca en la lista siguiente.
+1. If the [!UICONTROL Workfront for Google Workspace] panel is not displayed, click the Workfront icon ![Workfront icon](assets/wf-lion-icon.png) in the [!DNL Google Workspace] add-ons sidebar at the far-right of the page.
+1. With the email message open in [!DNL Google Workspace], click **[!UICONTROL Post as a new update]** in the [!DNL Google Workspace] panel.
+1. Under **[!UICONTROL Type]**, click the drop-down arrow, then click the type of object where you want to add the update.
+1. Click the **[!UICONTROL Search for]** option, start typing the name of the object where you want to add the update, then select the item when it appears in the list below.
 
-   Esta opción variará según lo seleccionado en el paso 3. Podría ser **[!UICONTROL Buscar un proyecto]**, **[!UICONTROL Buscar una tarea]** o **[!UICONTROL Buscar un problema]**.
+   This option varies, depending on what you selected in step 3. It might be **[!UICONTROL Search for a project]**, **[!UICONTROL Search for a task]**, or **[!UICONTROL Search for an issue]**.
 
    >[!NOTE]
    >
-   >Al escribir el nombre de una tarea, las tareas personales ad hoc se excluirán de la lista de nombres que aparece a continuación.
+   >When you are typing the name of a task, ad hoc personal tasks are excluded from the list of name that appears below.
 
-1. Realice cualquiera de estos cambios opcionales:
+1. Make any of these optional changes:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -83,34 +85,36 @@ Antes de actualizar un elemento de [!DNL Workfront] mediante el contenido de un 
     <tbody> 
      <tr> 
       <td role="rowheader">[!UICONTROL Update]</td> 
-      <td>Edite cualquier parte de este texto, que se toma de la línea de asunto y del texto del cuerpo del correo electrónico.</td> 
+      <td>Edit any part of this text, which is taken from the email's subject line and body text.</td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">[!UICONTROL Include email attachments]</td> 
-      <td><p>(Solo está disponible si el correo electrónico contiene al menos un archivo adjunto). Haga clic en esta opción para guardar los archivos adjuntos en la ficha [!UICONTROL Documents] de la tarea o el problema. </p><p>Si no desea guardar un archivo adjunto, haga clic en la X situada a la derecha de su nombre. </p><p>Si el correo electrónico contiene vínculos a documentos en [!DNL Google Drive], los vínculos se guardarán en la pestaña [!UICONTROL Overview] de la tarea o problema que esté creando. </p><p>Importante: <span style="color: #ff1493;"><span style="color: #000000;">Para que esto funcione, el administrador de </span></span>[!DNL Workfront]<span style="color: #ff1493;"><span style="color: #000000;"> deberá autorizar a [!DNL Google Drive] para que trabaje con [!DNL Workfront]</span></span></p>
-      <p>Si activa esta opción, permanecerá habilitada para otros correos electrónicos que convierta a tareas, problemas y actualizaciones.</p></td> 
+      <td><p>(Available only if the email contains at least one attachment.) Click this option to save attachments in the [!UICONTROL Documents] tab for the task or issue. </p><p>If you do not want to save an attachment, click the X to the right of its name. </p><p>If the email contains links to documents in [!DNL Google Drive], the links are saved to the [!UICONTROL Overview] tab of the task or issue you are creating. </p><p>Important: <span style="color: #ff1493;"><span style="color: #000000;">In order for this to work, your</span></span>[!DNL Workfront] administrator<span style="color: #ff1493;"><span style="color: #000000;"> must authorize [!DNL Google Drive] to work with [!DNL Workfront]</span></span></p>
+      <p>If you enable this option, it remains enabled for other emails you convert to tasks, issues, and updates.</p></td> 
      </tr> 
      <tr data-mc-conditions=""> 
-      <td role="rowheader">Notificar</td> 
-      <td>Haga clic en <strong>[!UICONTROL Notify]</strong> y en la opción <strong>[!UICONTROL Search for a user or team]</strong> que aparecerá y, a continuación, empiece a escribir el nombre de la persona o equipo y haga clic en él cuando aparezca en la lista siguiente. Repita esto para cada persona y equipo que quiera añadir y, a continuación, haga clic en <strong>[!UICONTROL Save]</strong>.</td> 
+      <td role="rowheader">Notify</td> 
+      <td>Click <strong>[!UICONTROL Notify]</strong>, click the <strong>[!UICONTROL Search for a user or team]</strong> option that appears, then start typing the name of the person or team and click it when it appears in the list below. Repeat this for each person and team you want to add, then click <strong>[!UICONTROL Save]</strong>.</td> 
      </tr> 
     </tbody> 
    </table>
 
-1. Haga clic en **[!UICONTROL Actualizar]**.
+1. Click **[!UICONTROL Update]**.
 
-   Al actualizar el explorador, un mensaje con un vínculo en la parte inferior del panel de [!DNL Workfront for Google Workspace] confirmará que convirtió el correo electrónico en una actualización:
+   When you refresh your browser, a message with a link at the bottom of the [!DNL Workfront for Google Workspace] panel confirms that you have converted the email to an update:
 
-   Haga clic en el vínculo para ir a la pestaña [!UICONTROL Actualizaciones] de [!DNL Workfront] para el objeto especificado en el paso 4.
+   You can click the link to go to the [!UICONTROL Updates] tab in [!DNL Workfront] for the object you specified in step 4.
 
-   Repita estos pasos para convertir el mismo correo electrónico en actualizaciones, tareas y problemas (consulte [Crear un problema de Adobe Workfront en [!DNL Google Workspace] uso del contenido del correo electrónico](../../workfront-integrations-and-apps/workfront-for-g-suite/create-wf-issue-in-g-suite-using-email-content.md)). Al actualizar el explorador o cuando vuelva al correo electrónico en otro momento, todos los vínculos creados para el correo electrónico se mostrarán en la parte inferior del panel [!UICONTROL Workfront para Google Workspace].
+   You can repeat these steps to convert the same email to updates, task, and issues (see [Create an Adobe Workfront issue in [!DNL Google Workspace] using email content](../../workfront-integrations-and-apps/workfront-for-g-suite/create-wf-issue-in-g-suite-using-email-content.md)). When you refresh your browser or return to the email at another time, all links you have created for the email are listed at the bottom of the [!UICONTROL Workfront for Google Workspace] panel.
 
-1. (Opcional) Continúe trabajando con la actualización en el panel de complementos de [!DNL Workfront] realizando cualquiera de las siguientes acciones:
+1. (Optional) Continue to work with the update in the [!DNL Workfront] add-on panel by doing any of the following:
 
-   * Para añadir otra actualización en la pestaña **[!UICONTROL Actualizaciones]**, haga clic en **[!UICONTROL Iniciar una nueva actualización]** y escriba la información.
+   * To add another update on the **[!UICONTROL Updates]** tab, click **[!UICONTROL Start a new update]** and type the information.
 
-   * Para responder a una actualización en la pestaña **[!UICONTROL Actualizaciones]**, haga clic en **[!UICONTROL Responder]** y escriba la respuesta.
+   * To reply to an update on the **[!UICONTROL Updates]** tab, click **[!UICONTROL Reply]** and type your reply.
 
-     Para ambas opciones, haga clic en **[!UICONTROL Notificar]** para especificar los destinatarios de la respuesta, como en el paso 5. Cuando esté listo, haga clic en **[!UICONTROL Publicar]** para añadir la actualización o la respuesta.
+      For both of the options above, you can click **[!UICONTROL Notify]** to specify recipients for the reply as in step 5. When you are ready, click **[!UICONTROL Post]** to add the update or reply.
 
-   * Haga clic en la pestaña **[!UICONTROL Detalles]** para ver los detalles del nuevo proyecto, tarea o problema.
+   * Click the **[!UICONTROL Details]** tab to view the details for the new project, task, or issue.
+
+   -->

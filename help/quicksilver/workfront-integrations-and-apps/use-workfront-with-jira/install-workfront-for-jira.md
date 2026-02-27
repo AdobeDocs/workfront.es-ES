@@ -6,10 +6,10 @@ description: Puede utilizar  [!DNL Adobe Workfront]  para  [!DNL Jira]  para int
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: f6e0feb1-349f-459f-9f93-c7492cb15f11
-source-git-commit: 53596271a838733b858c0b14a4e22b07a7cd20f6
+source-git-commit: 204324d5a5aaffbe47d31709096e739b62acecb8
 workflow-type: tm+mt
-source-wordcount: '582'
-ht-degree: 80%
+source-wordcount: '96'
+ht-degree: 27%
 
 ---
 
@@ -17,13 +17,13 @@ ht-degree: 80%
 
 >[!IMPORTANT]
 >
->Para ofrecer integraciones más estables y escalables, estamos adoptando un enfoque de integración moderno y flexible mediante la automatización e integración (Fusion) de Workfront. Como parte de este proceso de transición, la integración de Workfront para Jira no estará disponible después del **28 de febrero de 2026**.
+>Para ofrecer integraciones más estables y escalables, hemos optado por un enfoque de integración moderno y flexible mediante la automatización e integración (Fusion) de Workfront. Como parte de este proceso de transición, la integración de Workfront para Jira **ya no está disponible**.
 >
 >Recomendamos utilizar la automatización e integración de Workfront para las necesidades de integración de su organización con Jira.
 >
->Para obtener una descripción general de la automatización e integración de Workfront, consulte [Información general de Adobe Workfront Fusion](https://experienceleague.adobe.com/es/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+>Para obtener información general sobre la automatización e integración de Workfront, consulte [Información general de Adobe Workfront Fusion](https://experienceleague.adobe.com/es/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 >
->Para obtener información sobre las capacidades específicas de los módulos de integración y automatización de Workfront para Jira, consulte [Módulos de software de Jira](https://experienceleague.adobe.com/es/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/jira-modules-new).
+>Para obtener información sobre las capacidades específicas de los módulos de integración y automatización de Workfront para Jira, consulte [Módulos de software de Jira](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/jira-modules-new).
 
 <!--
 
@@ -35,100 +35,104 @@ ht-degree: 80%
 >
 >Eight ready-to-use Workfront Automation and Integration templates for Jira will be available by August to help replicate common workflows and accelerate implementation. Templates are fully customizable to meet specific business needs and can be extended as requirements evolve. 
 > 
->For an overview of Workfront Automation and Integration, see [Adobe Workfront Fusion overview](https://experienceleague.adobe.com/es/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview). 
+>For an overview of Workfront Automation and Integration, see [Adobe Workfront Fusion overview](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview). 
 >
->For information about the specific capabilities of the Workfront Automation and Integration modules for Jira, see [Jira Software modules](https://experienceleague.adobe.com/es/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/jira-software-modules). 
+>For information about the specific capabilities of the Workfront Automation and Integration modules for Jira, see [Jira Software modules](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/jira-software-modules). 
 
 -->
 
-Puede utilizar [!DNL Adobe Workfront for Jira] para integrar sus sistemas [!DNL Jira] y [!DNL Workfront].
+<!--
 
-Después de instalar el complemento, puede definir flujos de trabajo que creen automáticamente problemas de [!DNL Jira] cuando se creen elementos de trabajo de [!DNL Workfront]. Los elementos de ambas aplicaciones se vinculan y parte de su información se puede actualizar automáticamente en ambos sistemas.
+You can use [!DNL Adobe Workfront for Jira] to integrate your [!DNL Jira] and [!DNL Workfront] systems.
 
-Todos los usuarios de [!DNL Workfront] y [!DNL Jira] pueden beneficiarse de esta integración. Solo necesitan una licencia para el sistema en el que más trabajan, y no para ambos sistemas.
+After installing the add-on, you can define workflows that create [!DNL Jira] issues automatically when [!DNL Workfront] work items are created. The items in both applications become linked, and some of their information can be automatically updated in both systems. 
 
-Este complemento está disponible para las versiones [!UICONTROL Server] y [!UICONTROL OnDemand] (o [!UICONTROL Cloud]) del software de [!DNL Jira]. Este complemento no está disponible en la versión [!DNL Data Center] del software de [!DNL Jira].
+All users in [!DNL Workfront] and [!DNL Jira] can benefit from this integration. They only need a license for the system in which they work the most, and not for both systems. 
 
-Para obtener una lista de las versiones de [!DNL Jira] que [!DNL Workfront for Jira] admite actualmente, consulte [[!DNL [!DNL Workfront for Jira]]](https://marketplace.atlassian.com/apps/1218653/workfront-for-jira?hosting=cloud&tab=overview) en Atlassian Marketplace.
+This add-on is available for the [!UICONTROL Server] and [!UICONTROL OnDemand] (or [!UICONTROL Cloud]) versions of [!DNL Jira] Software. This add-on is not available for the [!DNL Data Center] version of [!DNL Jira] Software.
 
-## Requisitos de acceso
+For a list of [!DNL Jira] versions that [!DNL Workfront for Jira] currently supports, see [[!DNL [!DNL Workfront for Jira]]](https://marketplace.atlassian.com/apps/1218653/workfront-for-jira?hosting=cloud&tab=overview) at the Atlassian Marketplace.
 
-+++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
+## Access requirements
+
++++ Expand to view access requirements for the functionality in this article.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Paquete de Adobe Workfront</td> 
-   <td><p>Cualquiera</p>
+   <td role="rowheader">Adobe Workfront package</td> 
+   <td><p>Any</p>
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licencia de Adobe Workfront</td> 
-   <td><p>Estándar </p>
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td><p>Standard </p>
        <p>Plan </p>
    </td>
   </tr> 
   <tr> 
-   <td role="rowheader">Acceso a Jira</td> 
-   <td> <p>Acceso de administrador del sistema</p> <p>Importante: Se recomienda crear cuentas de administrador del sistema independientes en Jira y Workfront para dedicarlas a esta integración, en lugar de utilizar las existentes que podrían adjuntarse a los usuarios.</p> </td> 
+   <td role="rowheader">Jira access</td> 
+   <td> <p>System administrator access</p> <p>Important:  We recommend that you create separate system administrator accounts in Jira and Workfront to dedicate to this integration, rather than using existing ones that might be attached to users.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraciones de nivel de acceso</td> 
-   <td> <p>Debe ser administrador de Workfront.</p> </td> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>You must be a Workfront administrator.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
 +++
 
-## Instalación de [!DNL Workfront] para [!DNL Jira]
+## Install [!DNL Workfront] for [!DNL Jira]
 
-Instalar [!DNL Workfront] para [!DNL Jira] OnDemand es idéntico a instalarlo en una instancia de [!DNL Jira] Server.
+Installing [!DNL Workfront] for [!DNL Jira] OnDemand is identical to installing it on a [!DNL Jira] Server instance.
 
-Debe ser administrador de [!DNL Jira] para instalar el complemento de [!DNL Workfront].
+You must be a [!DNL Jira] administrator to install the [!DNL Workfront] add-on.
 
-Si no es administrador de [!DNL Jira], puede buscar el complemento de [!DNL Workfront] y solicitar que se lo instalen. Su solicitud se envía al administrador de [!DNL Jira] para su aprobación e instalación.
+If you are not a [!DNL Jira] administrator, you can browse for the [!DNL Workfront] add-on and request it to be installed. Your request is sent to the [!DNL Jira] administrator for approval and installation. 
 
-Para obtener más información sobre la solicitud de instalación de un complemento en la aplicación [!DNL Jira], consulte [Administrar solicitudes de usuario para complementos.](https://confluence.atlassian.com/upm/managing-user-requests-for-add-ons-781394968.html?lang=es)
+For more information about requesting an add-on to be installed on your [!DNL Jira] application, see [Managing user requests for add-ons.](https://confluence.atlassian.com/upm/managing-user-requests-for-add-ons-781394968.html)
 
-Para instalar [!DNL Workfront for Jira]:
+To install [!DNL Workfront for Jira]:
 
-1. Inicie sesión en [!DNL Jira] como administrador de [!DNL Jira].
-1. Busque el complemento de **[!DNL Workfront for Jira]** en [[!DNL Atlassian Marketplace]](https://marketplace.atlassian.com/apps/1218653/workfront-for-jira?hosting=cloud&tab=overview).
+1. Log in to [!DNL Jira] as a [!DNL Jira] administrator.
+1. Find the **[!DNL Workfront for Jira]** add-on in the [[!DNL Atlassian Marketplace]](https://marketplace.atlassian.com/apps/1218653/workfront-for-jira?hosting=cloud&tab=overview).
 
-1. Haga clic en **[!UICONTROL Obtenerlo ahora]** para instalarlo.
+1. Click **[!UICONTROL Get it now]** to install it.
 
-   Una vez finalizada la instalación, puede iniciar sesión en [!DNL Workfront] desde [!DNL Jira] y configurar la integración.
+   After the installation completes, you can log in to [!DNL Workfront] from [!DNL Jira] and configure your integration.
 
-   Para obtener más información, consulte [Configuración de Adobe Workfront para Jira](../../workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md).
+   For more information, see [Configure Adobe Workfront for Jira](../../workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md).
 
-## Consideraciones para una instalación de [!DNL Jira Server]
+## Considerations for a [!DNL Jira Server] installation
 
 >[!NOTE]
 >
->Estos requisitos no se aplican a la versión [!UICONTROL OnDemand] ([!UICONTROL Cloud]) del software de [!DNL Jira].
+>These requirements do not apply to the [!UICONTROL OnDemand] ([!UICONTROL Cloud]) version of [!DNL Jira] Software.
 
-Aunque la instalación del complemento de [!DNL Workfront] en los dos entornos de [!DNL Jira] es similar, debe tener en cuenta lo siguiente al trabajar con una instalación de [!DNL Jira Server]:
+Although installing the [!DNL Workfront] add-on in the two [!DNL Jira] environments is similar, you must consider the following when working with a [!DNL Jira Server] installation:
 
-* Al configurar el complemento en [!DNL Jira], es posible que la dirección especificada en el campo **[!DNL JIRA Base URL]** no tenga la misma URL que usa para obtener acceso a [!DNL Jira] en su servidor privado. **[!DNL JIRA Base URL]** debe ser una dirección de acceso público conectada a su servidor privado mediante protocolos NAT o de proxy inverso, para que [!DNL Workfront] pueda tener acceso a ella para realizar solicitudes al servidor.
+* When configuring the add-on in [!DNL Jira], the address specified in the **[!DNL JIRA Base URL]** field may not be the same URL you use to access [!DNL Jira] on your private server. The **[!DNL JIRA Base URL]** must be a publicly-accessible address connected to your private server using NAT or reverse proxy protocols, so [!DNL Workfront] can access it to make requests to your server.  
 
-* Debe utilizar el cifrado SSL para proteger la comunicación entre [!DNL Jira] y [!DNL Workfront]. Al habilitar SSL, debe tener una pila de certificados SSL completa de una autoridad de certificación. No admitimos certificados autofirmados.
-* Debe asegurarse de que se puede acceder al dominio [!DNL jira.workfront.com] desde los servidores corporativos. Actúa como entorno de middleware entre [!DNL Workfront] y [!DNL Jira] y es necesario para que funcione el complemento.
+* You must use SSL encryption to secure the communication between [!DNL Jira] and [!DNL Workfront]. When you enable SSL, you must have a full SSL certificate stack from a certificate authority. We do not support self-signed certificates. 
+* You must ensure that the [!DNL jira.workfront.com] domain is accessible from your corporate servers. It serves as a middleware environment between [!DNL Workfront] and [!DNL Jira] and is required for the add-on to operate.
 
-  También es necesario añadir las siguientes direcciones IP estáticas a la lista de permitidos del cortafuegos para conexiones salientes y entrantes.
+   You must also add the following static IP addresses to the allowlist on your firewall for outbound and inbound connections.
 
-  `35.162.128.73`
+   `35.162.128.73`
 
-  `34.213.36.118`
+   `34.213.36.118`
 
-  `35.160.0.242`
+   `35.160.0.242`
 
-  `3.209.27.146`
+   `3.209.27.146`
 
-  `18.205.251.4`
+   `18.205.251.4`
 
-  Para obtener más información sobre cómo configurar el firewall para una funcionalidad óptima con [!DNL Workfront], consulte [Configuración del firewall](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
+   For more information about configuring your firewall for optimal functionality with [!DNL Workfront], see [Configuring Your Firewall](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
+
+-->

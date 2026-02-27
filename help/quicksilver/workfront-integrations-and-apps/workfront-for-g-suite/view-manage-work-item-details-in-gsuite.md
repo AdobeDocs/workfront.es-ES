@@ -7,10 +7,10 @@ description: Puede ver y administrar los detalles de un elemento de trabajo sin 
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 0f15b05f-3b4a-4f0b-9d9a-21a0f97de1ea
-source-git-commit: 1e5b3c7d087c34870ccb0f4e65021358f08b81bf
+source-git-commit: 228fd22f1894689c0d256270350cc82954901641
 workflow-type: tm+mt
-source-wordcount: '543'
-ht-degree: 73%
+source-wordcount: '167'
+ht-degree: 41%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 73%
 
 >[!IMPORTANT]
 >
->Para ofrecer integraciones más estables y escalables, estamos adoptando un enfoque de integración moderno y flexible mediante la automatización e integración (Fusion) de Workfront. Como parte de este proceso de transición, la siguiente funcionalidad de Workfront para Google Workspace no estará disponible después del **28 de febrero de 2026**:
+>Para ofrecer integraciones más estables y escalables, hemos optado por un enfoque de integración moderno y flexible mediante la automatización e integración (Fusion) de Workfront. Como parte de este proceso de transición, la siguiente funcionalidad de Workfront para Google Workspace **ya no está disponible**:
 >
 >* Acceso a la funcionalidad de Google Workspace desde Workfront
 >
@@ -26,72 +26,76 @@ ht-degree: 73%
 >
 >Recomendamos utilizar la automatización e integración de Workfront para las necesidades de integración de su organización con Google Workspace.
 >
->Para obtener una descripción general de la automatización e integración de Workfront, consulte [Información general de Adobe Workfront Fusion](https://experienceleague.adobe.com/es/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+>Para obtener información general sobre la automatización e integración de Workfront, consulte [Información general de Adobe Workfront Fusion](https://experienceleague.adobe.com/es/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 >
->Para obtener información sobre las capacidades específicas de los módulos de integración y automatización de Workfront para Google Workspace, consulte [Módulos de Gmail](https://experienceleague.adobe.com/es/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/gmail-modules) y [Módulos de Google Calendar](https://experienceleague.adobe.com/es/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/google-calendar-modules).
+>Para obtener información sobre las capacidades específicas de los módulos de integración y automatización de Workfront para Google Workspace, consulte [Módulos de Gmail](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/gmail-modules) y [Módulos de Google Calendar](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/google-calendar-modules).
 
-Puede ver y administrar los detalles de un elemento de trabajo sin salir de [!DNL Google Workspace]. Por ejemplo, puede leer la descripción de una tarea, ver su objeto principal, cambiar su estado y marcarlo como completado, todo en [!DNL Adobe Workfront for Google Workspace].
+<!--
 
-## Requisitos de acceso
+You can view and manage the details of a work item without leaving [!DNL Google Workspace]. For example, you can read a task's description, view its parent object, change its status, and mark it as complete, all within [!DNL Adobe Workfront for Google Workspace].
 
-+++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
+## Access requirements
+
++++ Expand to view access requirements for the functionality in this article.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
-   <td> <p>Cualquiera</p> </td> 
+   <td role="rowheader">Adobe Workfront package</td> 
+   <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licencia de Adobe Workfront</td> 
-   <td> <p>Estándar</p><p>Trabajo o superior</p>
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td> <p>Standard</p><p>Work or higher</p>
   </tr> 
  </tbody> 
 </table>
 
-Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
 +++
 
-## Requisitos previos
+## Prerequisites
 
-Para poder ver y administrar los detalles del elemento de trabajo en [!DNL Google Workspace], debe
+Before you can view and manage work item details in [!DNL Google Workspace], you must
 
-* Instalar [!DNL Workfront for Google Workspace]\
-   Para obtener instrucciones, consulte [Instalar [!DNL Adobe Workfront for Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/install-workfront-for-gsuite.md).
+* Install [!DNL Workfront for Google Workspace]\
+   For instructions, see [Install [!DNL Adobe Workfront for Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/install-workfront-for-gsuite.md).
 
-## Ver y administrar detalles del elemento de trabajo en [!DNL Google Workspace]
+## View and manage work item details in [!DNL Google Workspace]
 
-1. Si no se muestra el panel [!UICONTROL Workfront for Google Workspace], haga clic en el icono [!DNL Workfront] ![Workfront icon](assets/wf-lion-icon.png) en la barra lateral de complementos de [!DNL Google Workspace], en el extremo derecho de la página.
-1. Vaya a la tarea o al problema de [!DNL Workfront] dentro de [!DNL Google Workspace], como se describe en [Acceder al contenido de  [!DNL Adobe Workfront] [!UICONTROL Home] desde [!DNL Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/access-wf-home-content-from-g-suite.md).
+1. If the [!UICONTROL Workfront for Google Workspace] panel is not displayed, click the [!DNL Workfront] icon ![Workfront icon](assets/wf-lion-icon.png) in the [!DNL Google Workspace] add-ons sidebar at the far-right of the page.
+1. Go to the [!DNL Workfront] task or issue within [!DNL Google Workspace], as described in [Access [!DNL Adobe Workfront] [!UICONTROL Home] content from [!DNL Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/access-wf-home-content-from-g-suite.md).
 
-   Al seleccionar una tarea o un problema, la pestaña **[!UICONTROL Detalles]** se abre. El área encima de la pestaña **[!UICONTROL Detalles]** muestra el nombre del objeto principal, el nombre de la tarea o el problema y la [!UICONTROL fecha de vencimiento] (si es una tarea) o [!UICONTROL fecha de prioridad] (si es un problema).
+   When you select a task or issue, the **[!UICONTROL Details]** tab is open. The area above the **[!UICONTROL Details]** tab displays the name of the parent object, the name of the task or issue, and the [!UICONTROL Due date] (if it's a task) or [!UICONTROL Priority date] (if it's an issue).
 
 
-   Puede realizar varias tareas en esta pestaña sin salir de [!DNL Google Workspace], entre ellas las siguientes:
+   You can do various tasks on this tab without leaving [!DNL Google Workspace], including the following:
 
-   * Vea la **[!UICONTROL Descripción]** del objeto y otros detalles, como los usuarios asignados al objeto, la **[!UICONTROL Prioridad]**, el solicitante, la **[!UICONTROL Fecha planificada de finalización]** y cualquier campo y formulario personalizado adjunto al objeto.
+   * View the object's **[!UICONTROL Description]** and other details, such as the users assigned to the object, the **[!UICONTROL Priority]**, the requester, the **[!UICONTROL Planned completion date]**, and any custom fields and forms attached to the object.
 
-     Los formularios personalizados solo muestran campos en los que se ha añadido información.
+      Custom forms display only fields where information has been added.
 
-   * Haga clic en el área **[!UICONTROL Proyecto principal]** para ver los detalles del objeto principal.
+   * Click the **[!UICONTROL Parent project]** area to view the details of the parent object.
 
-     >[!TIP]
-     >
-     >Esto puede resultar útil cuando tiene tareas y problemas con el mismo nombre y necesita diferenciarlos.
+      >[!TIP]
+      >
+      >This can be helpful when you have tasks and issues with the same name and you need to differentiate them.
 
-   * Para aceptar el trabajo que se le asignó haga clic en **[!UICONTROL Trabajar en ello]**.
-   * Edite varias opciones, como la opción **[!UICONTROL Listo]**, el **[!UICONTROL Estado]** y el **[!UICONTROL Porcentaje completado]**.
+   * Accept work assigned to you by clicking **[!UICONTROL Work on it]**.
+   * Edit various options, such as **[!UICONTROL Done]** option, the **[!UICONTROL Status]**, and the **[!UICONTROL Percent complete]**.
 
-     En **[!UICONTROL Porcentaje completado]**, escriba números y (opcionalmente) el símbolo de porcentaje % para indicar el progreso en un elemento.
-   * Consulte la información sobre una solicitud de aprobación, incluido el propietario, el tamaño y los archivos adjuntos.
-   * **[!UICONTROL Apruebe]** o **[!UICONTROL rechace]** solicitudes y documentos de aprobación.
+      Under **[!UICONTROL Percent complete]**, type numbers and (optionally) the percentage sign % to indicate your progress on an item.
+   * View information about an approval request, including the owner, size, and any attachments.
+   * **[!UICONTROL Approve]** or **[!UICONTROL Reject]** approval requests and documents.
 
-   * **[!UICONTROL Conceda]** o **[!UICONTROL Ignore]** solicitudes de acceso.
+   * **[!UICONTROL Grant]** or **[!UICONTROL Ignore]** access requests.
 
-1. (Opcional) Haga clic en **[!UICONTROL Ver en[!DNL Workfront]]** para ir al elemento de trabajo actual en [!DNL Workfront].
+1. (Optional) Click **[!UICONTROL View in [!DNL Workfront]]** to go to the current work item in [!DNL Workfront].
 
-* Para obtener información sobre el uso de la pestaña [!UICONTROL Actualizaciones] en [!DNL Workfront for Google Workspace], consulte [Actualizar un objeto de  [!DNL Adobe Workfront]  desde  [!DNL Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/update-a-workfront-object-in-gsuite.md).
-* Para obtener información sobre el uso de la pestaña [!UICONTROL Documentos] en [!DNL Workfront for Google Workspace], consulte [Ver y administrar documentos desde [!DNL G Suite]](../../workfront-integrations-and-apps/workfront-for-g-suite/view-and-manage-documents-in-gsuite.md).
+* For information about using the [!UICONTROL Updates] tab in [!DNL Workfront for Google Workspace], see [Update an [!DNL Adobe Workfront] object from [!DNL Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/update-a-workfront-object-in-gsuite.md).
+* For information about using the [!UICONTROL Documents] tab in [!DNL Workfront for Google Workspace], see [View and manage documents from [!DNL G Suite]](../../workfront-integrations-and-apps/workfront-for-g-suite/view-and-manage-documents-in-gsuite.md).
+
+-->

@@ -7,10 +7,10 @@ description: Puede instalar  [!DNL Adobe Workfront]  para Salesforce para permit
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 65d4cdae-1d34-4a8a-a1c0-706cd41fc75e
-source-git-commit: 85ccee879fd4ba5a80b6e885458839901f83d26e
+source-git-commit: 6af620284ed9c710196d8976a9f6cac1b3b36cf1
 workflow-type: tm+mt
-source-wordcount: '495'
-ht-degree: 63%
+source-wordcount: '110'
+ht-degree: 37%
 
 ---
 
@@ -20,80 +20,84 @@ ht-degree: 63%
 
 >[!IMPORTANT]
 >
->Para ofrecer integraciones más estables y escalables, estamos adoptando un enfoque de integración moderno y flexible mediante la automatización e integración (Fusion) de Workfront. Como parte de este proceso de transición, la integración de Workfront para Salesforce no estará disponible después del **28 de febrero de 2026**.
+>Para ofrecer integraciones más estables y escalables, hemos optado por un enfoque de integración moderno y flexible mediante la automatización e integración (Fusion) de Workfront. Como parte de este proceso de transición, la integración de Workfront para Salesforce **ya no está disponible**.
 >
 >Recomendamos utilizar la automatización e integración de Workfront para las necesidades de integración de su organización con Salesforce.
 >
->Para obtener una descripción general de la automatización e integración de Workfront, consulte [Información general de Adobe Workfront Fusion](https://experienceleague.adobe.com/es/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+>Para obtener información general sobre la automatización e integración de Workfront, consulte [Información general de Adobe Workfront Fusion](https://experienceleague.adobe.com/es/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 >
->Para obtener información sobre las capacidades específicas de los módulos de integración y automatización de Workfront para Salesforce, consulte [módulos de Salesforce](https://experienceleague.adobe.com/es/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/salesforce-modules).
+>Para obtener información sobre las capacidades específicas de los módulos de integración y automatización de Workfront para Salesforce, consulte [módulos de Salesforce](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/salesforce-modules).
 
-Puede instalar [!DNL Adobe Workfront for Salesforce] para permitir que los usuarios de [!DNL Salesforce] envíen solicitudes de [!DNL Workfront] y creen proyectos automáticamente sin salir de [!DNL Salesforce].
+<!--
 
-Como administrador de [!DNL Workfront], puede descargar y configurar [!DNL Workfront for Salesforce]. A continuación, puede compartirlo con los demás [!DNL Salesforce] usuarios.
+You can install [!DNL Adobe Workfront for Salesforce] to allow your [!DNL Salesforce] users to submit [!DNL Workfront] requests and automatically create projects without ever leaving [!DNL Salesforce].
 
-Para obtener más información sobre la instalación de [!DNL Workfront for Salesforce], consulte [Instalar [!DNL Adobe Workfront for Salesforce]](../../workfront-integrations-and-apps/using-workfront-with-salesforce/install-workfront-for-salesforce.md).
+As a [!DNL Workfront] administrator, you can download and configure [!DNL Workfront for Salesforce]. Then, you can share it with all other [!DNL Salesforce] users.
 
-Para obtener más información sobre cómo configurar la sección [!DNL Workfront] en [!DNL Salesforce] para todos los usuarios, consulte [Configurar la sección  [!DNL Adobe Workfront]  para los usuarios de  [!DNL Salesforce] &#x200B;](../../workfront-integrations-and-apps/using-workfront-with-salesforce/configure-wf-section-for-salesforce-users.md).
+For more information about installing [!DNL Workfront for Salesforce], see [Install [!DNL Adobe Workfront for Salesforce]](../../workfront-integrations-and-apps/using-workfront-with-salesforce/install-workfront-for-salesforce.md).
 
-## Requisitos de acceso
+For more information about configuring the [!DNL Workfront] section in [!DNL Salesforce] for all users, see [Configure the [!DNL Adobe Workfront] section for [!DNL Salesforce] users](../../workfront-integrations-and-apps/using-workfront-with-salesforce/configure-wf-section-for-salesforce-users.md).
 
-+++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
+## Access requirements
+
++++ Expand to view access requirements for the functionality in this article.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
-   <td> <p>Cualquiera</p> </td> 
+   <td role="rowheader">Adobe Workfront package</td> 
+   <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licencia de Adobe Workfront</td> 
-   <td> <p>Estándar</p>
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td> <p>Standard</p>
    <p>Plan</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
 +++
 
 ## [!DNL Workfront for Salesforce]
 
-Puede hacer lo siguiente al usar [!DNL Workfront for Salesforce]:
+You can do the following when using [!DNL Workfront for Salesforce]:
 
-* Crear manualmente nuevas solicitudes de [!DNL Workfront] desde [!DNL Salesforce] en una oportunidad o una cuenta.
+* Manually create new [!DNL Workfront] requests from [!DNL Salesforce] within an Opportunity or an Account.
 
-  Para obtener más información, consulte [Enviar [!DNL Adobe Workfront] solicitudes de [!DNL Salesforce] objetos](../../workfront-integrations-and-apps/using-workfront-with-salesforce/submit-workfront-requests-from-salesforce-objects.md).
+   For more information, see [Submit [!DNL Adobe Workfront] requests from [!DNL Salesforce] objects](../../workfront-integrations-and-apps/using-workfront-with-salesforce/submit-workfront-requests-from-salesforce-objects.md).
 
-* Activar automáticamente la creación de proyectos en [!DNL Workfront] cuando se cumplen determinados criterios en [!DNL Salesforce]. El administrador del sistema [!DNL Salesforce] debe configurar los activadores para crear proyectos desde [!DNL Salesforce].
+* Automatically trigger the creation of projects in [!DNL Workfront] when certain criteria are met in [!DNL Salesforce]. Your [!DNL Salesforce] system administrator must configure triggers for creating projects from [!DNL Salesforce].
 
-  Para obtener más información sobre la creación de proyectos de [!DNL Workfront] desde [!DNL Salesforce], consulte [Crear proyectos de  [!DNL Adobe Workfront]  desde objetos de  [!DNL Salesforce] &#x200B;](../../workfront-integrations-and-apps/using-workfront-with-salesforce/create-wf-projects-from-salesforce-objects.md).
+   For more information about creating [!DNL Workfront] projects from [!DNL Salesforce], see [Create [!DNL Adobe Workfront] projects from [!DNL Salesforce] objects](../../workfront-integrations-and-apps/using-workfront-with-salesforce/create-wf-projects-from-salesforce-objects.md).
 
-Tenga en cuenta lo siguiente al trabajar con [!DNL Workfront] para [!DNL Salesforce]:
+Consider the following when working with [!DNL Workfront] for [!DNL Salesforce]:
 
-* Admitimos los marcos de trabajo [!DNL Salesforce Classic] y [!DNL Lightning Experience].
-* Los elementos solamente se pueden crear de [!DNL Salesforce] a [!DNL Workfront].
-* Puede ver información sobre los elementos de [!DNL Workfront] en [!DNL Salesforce]. Esta información no se puede personalizar.
+* We support both the [!DNL Salesforce Classic] and [!DNL Lightning Experience] frameworks.
+* Items can be created only from [!DNL Salesforce] to [!DNL Workfront].
+* You can view some information about the [!DNL Workfront] items in [!DNL Salesforce]. This information cannot be customized.
 
-  Para obtener una lista de campos de [!DNL Workfront] que puede ver desde [!DNL Salesforce], consulte [Enviar solicitudes de  [!DNL Adobe Workfront]  desde objetos de  [!DNL Salesforce] &#x200B;](../../workfront-integrations-and-apps/using-workfront-with-salesforce/submit-workfront-requests-from-salesforce-objects.md) y [Crear proyectos de  [!DNL Adobe Workfront]  desde objetos de  [!DNL Salesforce] &#x200B;](../../workfront-integrations-and-apps/using-workfront-with-salesforce/create-wf-projects-from-salesforce-objects.md).
+   For a list of [!DNL Workfront] fields that you can view from [!DNL Salesforce], see  [Submit [!DNL Adobe Workfront] requests from [!DNL Salesforce] objects](../../workfront-integrations-and-apps/using-workfront-with-salesforce/submit-workfront-requests-from-salesforce-objects.md)  and [Create [!DNL Adobe Workfront] projects from [!DNL Salesforce] objects](../../workfront-integrations-and-apps/using-workfront-with-salesforce/create-wf-projects-from-salesforce-objects.md).
 
-* Puede acceder directamente a los elementos vinculados a [!DNL Salesforce] haciendo clic en el vínculo [!UICONTROL Ir a Salesforce] desde Workfront.
+* You can directly access items linked to [!DNL Salesforce] by clicking the [!UICONTROL Go to Salesforce] link from Workfront.
 
-  No puede ver ninguna información sobre los [!DNL Salesforce] elementos de [!DNL Workfront], pero hay un vínculo en Workfront que le lleva al elemento en Salesforce para que pueda revisarlo allí.
+   You cannot view any information about the [!DNL Salesforce] items in [!DNL Workfront], but there's a link in Workfront that takes you to the item in Salesforce so you can review it there.
 
-  [!UICONTROL El vínculo Ir a Salesforce] se muestra en las siguientes áreas:
+   [!UICONTROL The Go to Salesforce] link displays in the following areas:
 
-   * La sección [!UICONTROL Detalles] de un proyecto o problema.
-   * El encabezado de un proyecto o un problema.
+    * The [!UICONTROL Details] section of a project or an issue.
+    * The header of a project or an issue.
 
-     El administrador del sistema o de grupos debe añadir el campo [!UICONTROL Integraciones] a la plantilla de diseño para ver el vínculo [!UICONTROL Ir a Salesforce] en el encabezado del proyecto o problema.
-   * El panel [!DNL Summary] de un problema al seleccionar el problema en una lista, después de hacer clic en [!UICONTROL Abrir resumen] ![icono del panel de resumen](assets/summary-panel-icon.png) en la barra de herramientas de la lista.
+      Your system or group administrator must add the [!UICONTROL Integrations] field to your Layout Template to view the [!UICONTROL Go to Salesforce] link in the project or issue header.
+    * The [!DNL Summary] panel  of an issue when selecting the issue in a list, after clicking [!UICONTROL Open Summary] ![Summary panel icon](assets/summary-panel-icon.png) in the list's toolbar.
 
-     >[!NOTE]
-     >
-     >El vínculo [!UICONTROL Ir a Salesforce] es visible para todos los usuarios de [!DNL Workfront] que puedan ver el proyecto o el problema. Debe tener una cuenta de [!DNL Salesforce] para poder ir a la oportunidad o cuenta de [!DNL Salesforce] en la que se registró el problema.
+      >[!NOTE]
+      >
+      >The [!UICONTROL Go to Salesforce] link is visible to all [!DNL Workfront] users who can view the project or the issue. You must have a [!DNL Salesforce] account to be able to go to the [!DNL Salesforce] Opportunity or Account where the issue was logged.
 
-* Al actualizar los campos de un elemento en una aplicación, no se actualiza la información sobre los elementos vinculados en la otra aplicación.
+* Updating fields on one item in one application does not update any information on linked items in the other application.
+
+-->

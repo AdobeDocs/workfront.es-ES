@@ -7,10 +7,10 @@ description: Sin salir de Google Workspace, puede ver las actualizaciones y las 
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 13cd0478-4557-4d4c-915e-5b7b70aee8ce
-source-git-commit: 1e5b3c7d087c34870ccb0f4e65021358f08b81bf
+source-git-commit: 228fd22f1894689c0d256270350cc82954901641
 workflow-type: tm+mt
-source-wordcount: '277'
-ht-degree: 57%
+source-wordcount: '138'
+ht-degree: 28%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 57%
 
 >[!IMPORTANT]
 >
->Para ofrecer integraciones más estables y escalables, estamos adoptando un enfoque de integración moderno y flexible mediante la automatización e integración (Fusion) de Workfront. Como parte de este proceso de transición, la siguiente funcionalidad de Workfront para Google Workspace no estará disponible después del **28 de febrero de 2026**:
+>Para ofrecer integraciones más estables y escalables, hemos optado por un enfoque de integración moderno y flexible mediante la automatización e integración (Fusion) de Workfront. Como parte de este proceso de transición, la siguiente funcionalidad de Workfront para Google Workspace **ya no está disponible**:
 >
 >* Acceso a la funcionalidad de Google Workspace desde Workfront
 >
@@ -26,49 +26,53 @@ ht-degree: 57%
 >
 >Recomendamos utilizar la automatización e integración de Workfront para las necesidades de integración de su organización con Google Workspace.
 >
->Para obtener una descripción general de la automatización e integración de Workfront, consulte [Información general de Adobe Workfront Fusion](https://experienceleague.adobe.com/es/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+>Para obtener información general sobre la automatización e integración de Workfront, consulte [Información general de Adobe Workfront Fusion](https://experienceleague.adobe.com/es/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 >
->Para obtener información sobre las capacidades específicas de los módulos de integración y automatización de Workfront para Google Workspace, consulte [Módulos de Gmail](https://experienceleague.adobe.com/es/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/gmail-modules) y [Módulos de Google Calendar](https://experienceleague.adobe.com/es/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/google-calendar-modules).
+>Para obtener información sobre las capacidades específicas de los módulos de integración y automatización de Workfront para Google Workspace, consulte [Módulos de Gmail](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/gmail-modules) y [Módulos de Google Calendar](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/google-calendar-modules).
 
-Sin salir de [!DNL Google Workspace], puede ver las actualizaciones y las respuestas a las actualizaciones de un objeto de [!DNL Adobe Workfront].
+<!--
 
-## Requisitos de acceso
+Without leaving [!DNL Google Workspace], you can view updates and replies to updates on a [!DNL Adobe Workfront] object.
 
-+++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
+## Access requirements
+
++++ Expand to view access requirements for the functionality in this article.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
-   <td> <p>Cualquiera</p> </td> 
+   <td role="rowheader">Adobe Workfront package</td> 
+   <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licencia de Adobe Workfront</td> 
-   <td> <p>Estándar</p><p>Trabajo o superior</p>
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td> <p>Standard</p><p>Work or higher</p>
   </tr> 
  </tbody> 
 </table>
 
-Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
 +++
 
-## Requisitos previos
+## Prerequisites
 
-Para poder ver las actualizaciones de objetos en [!DNL Google Workspace], primero debe
+Before you can view object updates in [!DNL Google Workspace], you must
 
-* Instalar [!DNL Workfront for Google Workspace]\
-   Para obtener instrucciones, consulte [Instalar [!DNL Adobe Workfront for Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/install-workfront-for-gsuite.md).
+* Install [!DNL Workfront for Google Workspace]\
+   For instructions, see [Install [!DNL Adobe Workfront for Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/install-workfront-for-gsuite.md).
 
-## Ver actualizaciones de objetos en [!DNL Google Workspace]
+## View object updates in [!DNL Google Workspace]
 
-1. Ver el objeto en [!DNL Google Workspace] como se describe en [Ver y administrar detalles del objeto de  [!DNL Adobe Workfront]  desde [!DNL Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/view-manage-work-item-details-in-gsuite.md).
-1. Haga clic en la pestaña **[!UICONTROL Actualizaciones]**.
-1. Utilice la opción que aparece, que viene determinada por las actualizaciones ya añadidas al objeto:
+1. View the object in [!DNL Google Workspace] as described in [View and manage [!DNL Adobe Workfront] object details from [!DNL Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/view-manage-work-item-details-in-gsuite.md).
+1. Click the **[!UICONTROL Updates]** tab.
+1. Use the option that appears, which is determined by the updates already added to the object:
 
-   * Si la actualización tiene comentarios, haga clic en **[!UICONTROL Mostrar comentarios]** para ver el hilo de comentarios.
-   * Si desea añadir la primera respuesta a la actualización, haga clic en **[!UICONTROL Responder]** y escriba el comentario.
+   * If the update has comments, click **[!UICONTROL Show Comments]** to view the comments thread.
+   * If you want to add the first reply to the update, click **[!UICONTROL Reply]**, then type your comment.
 
-1. Para volver a la pestaña **[!UICONTROL Actualizaciones]**, haga clic en **[!UICONTROL Ver todas las actualizaciones]**.
+1. To return to the **[!UICONTROL Updates]** tab, click **[!UICONTROL View All Updates]**.
+
+-->

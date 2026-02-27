@@ -7,10 +7,10 @@ description: En este artículo se describe cómo iniciar o cerrar sesión en la 
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 8a91f1d9-bc67-4c27-a6c0-2482488c670b
-source-git-commit: 1e5b3c7d087c34870ccb0f4e65021358f08b81bf
+source-git-commit: c36b716663af8079894cc69a24f49b8078ddf196
 workflow-type: tm+mt
-source-wordcount: '346'
-ht-degree: 27%
+source-wordcount: '140'
+ht-degree: 10%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 27%
 
 >[!IMPORTANT]
 >
->Para ofrecer integraciones más estables y escalables, estamos adoptando un enfoque de integración moderno y flexible mediante la automatización e integración (Fusion) de Workfront. Como parte de este proceso de transición, la siguiente funcionalidad de Workfront para Google Workspace no estará disponible después del **28 de febrero de 2026**:
+>Para ofrecer integraciones más estables y escalables, hemos optado por un enfoque de integración moderno y flexible mediante la automatización e integración (Fusion) de Workfront. Como parte de este proceso de transición, la siguiente funcionalidad de Workfront para Google Workspace **ya no está disponible**:
 >
 >* Acceso a la funcionalidad de Google Workspace desde Workfront
 >
@@ -26,61 +26,65 @@ ht-degree: 27%
 >
 >Recomendamos utilizar la automatización e integración de Workfront para las necesidades de integración de su organización con Google Workspace.
 >
->Para obtener una descripción general de la automatización e integración de Workfront, consulte [Información general de Adobe Workfront Fusion](https://experienceleague.adobe.com/es/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+>Para obtener información general sobre la automatización e integración de Workfront, consulte [Información general de Adobe Workfront Fusion](https://experienceleague.adobe.com/es/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 >
->Para obtener información sobre las capacidades específicas de los módulos de integración y automatización de Workfront para Google Workspace, consulte [Módulos de Gmail](https://experienceleague.adobe.com/es/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/gmail-modules) y [Módulos de Google Calendar](https://experienceleague.adobe.com/es/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/google-calendar-modules).
+>Para obtener información sobre las capacidades específicas de los módulos de integración y automatización de Workfront para Google Workspace, consulte [Módulos de Gmail](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/gmail-modules) y [Módulos de Google Calendar](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/google-calendar-modules).
 
-## Requisitos de acceso
+<!--
 
-+++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
+## Access requirements
+
++++ Expand to view access requirements for the functionality in this article.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
-   <td> <p>Cualquiera</p> </td> 
+   <td role="rowheader">Adobe Workfront package</td> 
+   <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licencia de Adobe Workfront</td> 
-   <td> <p>Estándar</p><p>Trabajo o superior</p>
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td> <p>Standard</p><p>Work or higher</p>
   </tr> 
  </tbody> 
 </table>
 
-Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
 +++
 
-## Requisitos previos
+## Prerequisites
 
-Para poder iniciar o cerrar sesión en [!DNL Workfront for Google Workspace], debe
+Before you can log in or out of [!DNL Workfront for Google Workspace], you must
 
-* Instalar [!DNL Workfront for Google Workspace]\
-   Para obtener instrucciones, consulte [Instalar [!DNL Adobe Workfront for Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/install-workfront-for-gsuite.md).
+* Install [!DNL Workfront for Google Workspace]\
+   For instructions, see [Install [!DNL Adobe Workfront for Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/install-workfront-for-gsuite.md).
 
-## Iniciar sesión en [!DNL Adobe Workfront for Google Workspace]
+## Log into [!DNL Adobe Workfront for Google Workspace]
 
-1. Haga clic en el icono [!DNL Workfront] ![Workfront icon](assets/wf-lion-icon.png) en la barra lateral de complementos de [!DNL Google Workspace], en el extremo derecho de [!DNL Gmail], [!DNL Google Calendar] o [!DNL Google Drive].
+1. Click the [!DNL Workfront] icon ![Workfront icon](assets/wf-lion-icon.png) in the [!DNL Google Workspace] add-ons sidebar at the far-right of [!DNL Gmail], [!DNL Google Calendar], or [!DNL Google Drive].
 
-   Si acaba de instalar el complemento [!DNL Workfront for Google Workspace] y no puede ver este icono, intente actualizar la página del explorador.
+   If you have just installed the [!DNL Workfront for Google Workspace] add-on and you cannot see this icon, try refreshing the browser page.
 
-1. Haga clic en **[!UICONTROL Iniciar sesión]** en el complemento [!DNL Workfront for Google Workspace].
-1. Escriba su dirección de dominio [!DNL Workfront], como *companyname.my.workfront.com*.
-1. Siga las indicaciones para iniciar sesión en [!DNL Workfront].
+1. Click **[!UICONTROL Log In]** in the [!DNL Workfront for Google Workspace] add-on.
+1. Type your [!DNL Workfront] domain address, such as *companyname.my.workfront.com*.
+1. Follow the prompts to log in to [!DNL Workfront].
 
    >[!NOTE]
    >
-   >* [!DNL Workfront] se conecta a [!DNL Google Workspace] mediante OAuth 2.0, un estándar seguro utilizado por la mayoría de las integraciones basadas en la web para la autenticación y autorización de usuarios.
-   >* Cuando se le pida que introduzca el [dominio o host] de su cuenta de [!DNL Workfront], escríbalo con este formato: *yourCompany&#39;sDomain.my.workfront.com*. El dominio de su empresa suele ser el nombre de su empresa.
+   >* [!DNL Workfront] connects to [!DNL Google Workspace] using OAuth 2.0, a secure standard used by most web-based integrations for the authentication and authorization of users.
+   >* When you are prompted to enter the [domain or host] of your [!DNL Workfront] account, type it using this format: *yourCompany'sDomain.my.workfront.com*. Your company's domain is usually the name of your company.
 
 
-## Cerrar sesión de [!DNL Workfront for Google Workspace]
+## Log out of [!DNL Workfront for Google Workspace]
 
-1. Si no se muestra el panel [!UICONTROL Workfront for Google Workspace], haga clic en el icono [!DNL Workfront] ![Workfront icon](assets/wf-lion-icon.png) en la barra lateral de complementos de [!DNL Google Workspace], en el extremo derecho de la página.
-1. Haga clic en el icono **[!UICONTROL Más acciones]** en la parte superior del panel [!DNL Workfront for Google Workspace].
+1. If the [!UICONTROL Workfront for Google Workspace] panel is not displayed, click the [!DNL Workfront] icon ![Workfront icon](assets/wf-lion-icon.png) in the [!DNL Google Workspace] add-ons sidebar at the far-right of the page.
+1. Click the **[!UICONTROL More actions]** icon at the top of the [!DNL Workfront for Google Workspace] panel.
 
-1. Haga clic en **[!UICONTROL Cerrar sesión]** en el menú que aparece.
+1. Click **[!UICONTROL Logout]** in the menu that appears.
 
-   Esto no lo cierra de [!DNL Google Workspace].
+   This does not log you out of [!DNL Google Workspace].
+
+   -->
