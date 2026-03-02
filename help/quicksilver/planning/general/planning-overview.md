@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 53596271a838733b858c0b14a4e22b07a7cd20f6
+source-git-commit: ce3ca4d55fd3fe0630da4961f27159fe5e31612a
 workflow-type: tm+mt
-source-wordcount: '1998'
-ht-degree: 54%
+source-wordcount: '2086'
+ht-degree: 96%
 
 ---
 
@@ -19,9 +19,9 @@ ht-degree: 54%
 
 <!--do not use the snippet for IMPORTANT as it links to this article-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después de las versiones mensuales en Production, las mismas funciones también están disponibles en el entorno Production para los clientes que habilitaron versiones rápidas. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span> -->
+<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 >[!IMPORTANT]
 >
@@ -155,7 +155,7 @@ The following features are currently available in Workfront Planning:
 |     Reporting on Workfront Planning information (Canvas Dashboard)                              |                               |       ✓                           |                 |
 -->
 
-## Habilite Workfront Planning para los usuarios de la instancia de Workfront
+## Habilitar Workfront Planning para los usuarios de su instancia de Workfront
 
 Una vez que su organización haya adquirido un paquete de Workfront Planning, como administrador de Workfront, debe asegurarse de que dispone de lo siguiente para que los usuarios puedan acceder a Workfront Planning:
 
@@ -165,13 +165,13 @@ Una vez que su organización haya adquirido un paquete de Workfront Planning, co
 
      Los usuarios estándar y los administradores del sistema tienen Planning habilitado de forma predeterminada.
 
-  Para obtener más información, consulte [Personalizar el menú principal con una plantilla de diseño](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md) y [Asignar usuarios a una plantilla de diseño](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md).
+  Para obtener más información, consulte [Personalizar el menú principal mediante una plantilla de diseño](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md) y [Asignar usuarios a una plantilla de diseño](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md).
 
-* Asigne a los usuarios una licencia de Workfront y permisos de Workfront Planning que les permitan ver o crear objetos en Workfront Planning. Para obtener más información sobre cómo conceder acceso a Workfront Planning y permitir que otros lo usen, consulte [Información general sobre el acceso a Adobe Workfront Planning](/help/quicksilver/planning/access/access-overview.md).
+* Asigne a los usuarios una licencia de Workfront y permisos de Workfront Planning que les permitan ver o crear objetos en Workfront Planning. Para obtener más información sobre cómo conceder acceso a Workfront Planning y permitir que otros lo usen, consulte [Información general del acceso a Adobe Workfront Planning](/help/quicksilver/planning/access/access-overview.md).
 
 ## Terminología de Workfront Planning
 
-Aunque Workfront Planning forma parte de Workfront, incluye conceptos propietarios y terminología. Familiarícese con estos conceptos antes de comenzar a configurar Workfront Planning para su organización.
+Aunque Workfront Planning forma parte de Workfront, incluye conceptos propietarios y terminología. Familiarícese con los nuevos conceptos antes de comenzar a configurar Workfront Planning para su organización.
 
 El marco de Workfront Planning es totalmente personalizable. Es posible crear todos los tipos de registros, sus atributos y cualquier campo asociado a ellos para adaptarlos a las necesidades exactas de su organización.
 
@@ -181,11 +181,11 @@ A continuación, se muestran los objetos y conceptos principales de Workfront Pl
 
 * **Espacio de trabajo**: colección de tipos de registros que definen el ciclo de vida operativo de una determinada organización. Un espacio de trabajo es el marco de trabajo de una unidad organizativa.
 
-  ![Espacio de trabajo de marketing con taxonomías de tipo de registro que abren la página](assets/marketing-workspace-with-record-type-taxonomies-opening-page.png)
+  ![Espacio de trabajo de marketing con página de apertura de taxonomías de tipo de registro](assets/marketing-workspace-with-record-type-taxonomies-opening-page.png)
 
   Para obtener más información, consulte [Crear espacios de trabajo](/help/quicksilver/planning/architecture/create-workspaces.md).
 
-* **Tipo de registro**: Nombre de los tipos de objeto en Workfront Planning.
+* **Tipo de registro**: nombre de los tipos de objeto en Workfront Planning.
 
   Los tipos de registro rellenan espacios de trabajo.
 
@@ -203,7 +203,7 @@ A continuación, se muestran los objetos y conceptos principales de Workfront Pl
 
   Después de añadir un tipo de registro a un espacio de trabajo, podrá empezar a añadir registros de ese tipo a la página del tipo de registro.
 
-  Por ejemplo, &quot;Campaña&quot; puede ser un tipo de registro y &quot;Campaña de verano para EMEA&quot; es un registro del tipo de registro Campaña.
+  Por ejemplo, “Campaña” podría ser un tipo de registro y “Campaña de verano para EMEA” un registro del tipo de registro Campaña.
 
   Para obtener más información, consulte [Creación de registros](/help/quicksilver/planning/records/create-records.md).
 
@@ -219,7 +219,7 @@ A continuación, se muestran los objetos y conceptos principales de Workfront Pl
    * Administración de ventas
    * Administración de productos
 
-  Para obtener más información, vea [Lista de plantillas de área de trabajo](/help/quicksilver/planning/architecture/workspace-templates.md).
+  Para obtener más información, consulte [Lista de plantillas de área de trabajo](/help/quicksilver/planning/architecture/workspace-templates.md).
 
 * **Campos**: los campos son atributos que se pueden añadir a los tipos de registro. Los campos contienen información sobre el tipo de registro. <!--check the shot below, "Connection" needs to be in lowercase-->
 
@@ -229,7 +229,7 @@ A continuación, se muestran los objetos y conceptos principales de Workfront Pl
 
    * Aquellos campos que se añadan para un tipo de registro se asociarán automáticamente a todos los registros de ese tipo y se podrán utilizar para capturar datos sobre esos registros.
 
-   * Los campos se muestran como columnas en la vista Tabla aplicada a una página de tipo de registro. También se muestran en la página del registro.
+   * Los campos se muestran como columnas en la vista de tabla aplicada a una página de tipo de registro. También se muestran en la página del registro.
 
    * Los campos son únicos para un tipo de registro y no se transfieren de un tipo de registro a otro.
 
@@ -263,43 +263,43 @@ A continuación, se muestran los objetos y conceptos principales de Workfront Pl
    * Última modificación realizada por
    * Fecha de la última modificación
 
-* **Tipos de registros conectados**, **Registros conectados** y **Campos conectados**: Puede crear una conexión entre las siguientes entidades en Workfront Planning:
+* **Tipos de registros conectados**, **Registros conectados** y **Campos conectados**: puede crear una conexión entre las siguientes entidades en Workfront Planning:
 
    * Dos tipos de registros de Workfront Planning.
    * Un tipo de registro y un tipo de objeto de proyecto, programa, portafolio, compañía o grupo de Workfront.
    * Un tipo de registro y un recurso o carpeta de Adobe Experience Manager.
 
-     Debe tener una licencia de Adobe Experience Manager para conectar tipos de registros con objetos de Experience Manager.
+     Debe poseer una licencia de Adobe Experience Manager para conectar tipos de registros con objetos de Experience Manager.
 
      ![Nueva pestaña de conexión con las opciones de Workfront AEM](assets/new-connection-tab-with-workfront-aem-options.png)
 
    * Un tipo de registro y una marca Adobe GenStudio for Performance Marketing.
 
-     Debe tener una licencia de Adobe GenStudio for Performance Marketing para conectar tipos de registros con GenStudio Brands.
+     Debe poseer una licencia de Adobe GenStudio for Performance Marketing para conectar tipos de registros con marcas GenStudio.
 
      ![Nueva pestaña de conexión con la opción de marca Adobe GenStudio](assets/new-connection-tab-with-genstudio-option.png)
 
 
-  Después de establecer una conexión entre los tipos de registro, puede conectar registros individuales u objetos de esos tipos entre sí. La conexión entre los registros se muestra como un campo de registro conectado o como una conexión.
+  Después de establecer una conexión entre los tipos de registro, puede conectar registros individuales u objetos de esos tipos entre sí. La conexión entre los registros se muestra como un campo de registro conectado o una conexión.
 
-  La conexión de tipos de registros es útil cuando hay varios tipos de objetos de trabajo que se afectan entre sí. Por ejemplo, puede trabajar con campañas, y cada campaña puede adaptarse a varias marcas. Para indicar esta relación, puede conectar campañas a marcas. Además, el trabajo de cada campaña puede planificarse en varios proyectos en Workfront. Para indicar esto, puede conectar las campañas a los proyectos relevantes. La conexión de tipos de registros y, posteriormente, la conexión de registros individuales logra esta relación en Workfront Planning.
+  La conexión de tipos de registros es útil cuando tiene varios tipos de objetos de trabajo que se afectan entre sí. Por ejemplo, puede trabajar con campañas, y cada una puede adaptarse a varias marcas. Para indicar esta relación, puede conectar campañas a marcas. Además, el trabajo de cada campaña puede planificarse en varios proyectos en Workfront. Para indicar esto, puede conectar las campañas a los proyectos relevantes. La conexión de tipos de registros y, posteriormente, la conexión de registros individuales logra esta relación en Workfront Planning.
 
-* **Campos de búsqueda** (o campos vinculados): después de establecer la conexión entre dos tipos de registro y conectar registros individuales, puede hacer referencia a los campos desde los registros conectados desde el registro desde el que se conecta.
+* **Campos de búsqueda** (o campos vinculados): después de establecer la conexión entre dos tipos de registro y conectar registros individuales, puede hacer referencia a los campos de los registros vinculados desde el registro desde el que se conecta.
 
   Por ejemplo, si conecta un tipo de registro Campaña con un tipo de objeto Proyecto de Workfront, puede mostrar el campo Presupuesto de los proyectos conectados en los registros de campaña.
 
-  ![Agregar cuadro de campos de búsqueda](assets/add-lookup-fields-modal.png)
+  ![Añadir cuadro Campos de búsqueda](assets/add-lookup-fields-modal.png)
 
   >[!TIP]
   >
-  > No puede agregar los siguientes tipos de campo como campos de búsqueda desde el registro conectado o tipos de objeto:
-  >
-  >* Personas
-  >* Creado por
-  >* Última modificación realizada por
-  >* Campos de escritura anticipada de Workfront (incluidos campos como Propietario del proyecto o Patrocinador del proyecto)
+  >* No puede añadir los siguientes tipos de campo como campos de búsqueda desde el registro conectado o tipos de objeto:
+  >   * Creado por
+  >   * Última modificación realizada por
+  >   * Campos de escritura anticipada de Workfront (incluidos campos como Propietario del proyecto o Patrocinador del proyecto)
+  >* No puede agregar los siguientes tipos de campo como campos de búsqueda desde el registro conectado o el tipo de objeto en Producción, <span class="preview">pero puede agregarlos en el entorno de vista previa:</span>
+  >   * Personas
 
-  Para obtener información sobre cómo conectar tipos de registros, registros y crear campos vinculados, vea los siguientes artículos:
+  Para obtener información sobre la conexión de tipos de registros, registros y la creación de campos vinculados, consulte los siguientes artículos:
 
    * [Conectar tipos de registro](/help/quicksilver/planning/architecture/connect-record-types.md)
    * [Conectar registros](/help/quicksilver/planning/records/connect-records.md)
@@ -308,19 +308,19 @@ A continuación, se muestran los objetos y conceptos principales de Workfront Pl
 
 * **Vistas**: los registros se muestran en su página de tipo de registro respectiva en distintos tipos de vistas.
 
-  ![Lista desplegable de tipos de vista de la lista de tipos de registro](assets/view-types-drop-down-from-record-type-list.png)
+  ![Menú desplegable de tipos de vista en la lista de tipos de registro](assets/view-types-drop-down-from-record-type-list.png)
 
-  Las vistas contienen configuraciones personalizadas de un tipo de vista específico, como la lista de campos (columnas), una lista de registros (filas), su orden (ordenación), un filtro aplicado o aplicable y una agrupación.
+  Las vistas contienen configuraciones personalizadas de un tipo de vista específico, como la lista de campos (columnas), una lista de registros (filas), su orden (ordenación) y un filtro y agrupación aplicados o aplicables.
 
   Los siguientes son tipos de vista que puede aplicar a la página de tipo de registro:
 
-   * **Vista de tabla**: muestra los registros y sus campos, incluidos los campos conectados y de búsqueda, en formato de tabla. Las filas de la tabla son los registros individuales y las columnas son los campos del registro. La vista de tabla es la vista predeterminada.
+   * **Vista de tabla**: muestra los registros y sus campos, incluidos los campos conectados y de búsqueda, en formato de tabla. Las filas de la tabla son los registros individuales y las columnas son los campos del registro. La vista de tabla es la predeterminada.
 
      ![Ejemplo de vista de tabla](assets/table-view-example.png)
 
-   * **Vista de escala de tiempo**: muestra registros que tienen al menos dos campos de tipo Fecha en una escala de tiempo cronológica. Puede mostrar hasta 5 tipos de registros conectados y sus registros en la vista de escala de tiempo.
+   * **Vista de cronología**: muestra los registros que tienen al menos dos campos de tipo Fecha en una línea de tiempo cronológica. Puede mostrar hasta cinco tipos de registros conectados y sus registros en la vista de cronología.
 
-     ![Agrupación aplicada en la vista de escala de tiempo](assets/grouping-applied-in-timeline-view.png)
+     ![Agrupación aplicada en la vista de cronología](assets/grouping-applied-in-timeline-view.png)
 
    * **Vista de calendario**: muestra los registros que tienen al menos dos campos de tipo Fecha en formato de calendario.
      ![Ejemplo de vista de calendario](assets/calendar-view-example.png)
@@ -330,19 +330,19 @@ Para obtener más información, consulte [Administrar vistas de registros](/help
 
 ## Localizar Adobe Workfront Planning
 
-Para localizar Adobe Planning, asegúrese de que su organización ha recibido acceso a Workfront Planning y de que el administrador del sistema o del grupo ha añadido el área de Planning al menú principal. Para obtener más información, consulte [Información general sobre el acceso a Adobe Planning](/help/quicksilver/planning/access/access-overview.md).
+Para buscar Adobe Planning, asegúrese de que su organización haya recibido acceso a Workfront Planning y de que el administrador del sistema o de grupos haya añadido el área Planificación al menú principal. Para obtener más información, consulte [Información general del acceso a Adobe Planning](/help/quicksilver/planning/access/access-overview.md).
 
-Para localizar Workfront Planning:
+Para localizar Workfront Planning, haga lo siguiente:
 
 1. Inicie sesión en Workfront.
 
 {{step1-click-main-menu}}
 
-1. Haga clic en **Icono de Planning** ![Planning](assets/planning-icon.png).
+1. Haga clic en **Planning** ![Icono Planning](assets/planning-icon.png).
 
-   Se abrirá la página principal de Workfront Planning.
+   Se abre la página principal de Workfront Planning.
 
-   ![Administrador de página de aterrizaje de planificación](assets/planning-landing-page-admin.png)
+   ![Administrador de página de aterrizaje de Planning](assets/planning-landing-page-admin.png)
 
    >[!TIP]
    >
@@ -350,9 +350,9 @@ Para localizar Workfront Planning:
 
 1. (Condicional y opcional) Si es administrador de Workfront, haga clic en una de las siguientes pestañas:
    * **Espacios de trabajo en los que participo**: muestra los espacios de trabajo que ha creado o los que se han compartido con usted.
-   * **Otros espacios de trabajo**: Muestra todos los demás espacios de trabajo del sistema.
+   * **Otros espacios de trabajo**: muestra todos los demás espacios de trabajo del sistema.
 
-   Para todos los demás usuarios, los espacios de trabajo que han creado o que se comparten con ellos se muestran en el área **Espacios de trabajo**.
+   Para el resto de los usuarios, tanto los espacios de trabajo que hayan creado o como los que se hayan compartido con ellos se mostrarán en el área **Espacios de trabajo**.
 
 1. (Opcional y recomendado) Continúe con algunas de las siguientes acciones para crear la estructura de trabajo:
 
@@ -383,11 +383,11 @@ Para localizar Workfront Planning:
 
 Se publican nuevas funciones de Workfront Planning regularmente.
 
-Para obtener una lista actualizada de las características publicadas, consulte [Actividad de la versión de Adobe Workfront Planning: índice de artículo](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+Para obtener una lista actualizada de las funciones publicadas, consulte [Actividad de la versión de Adobe Workfront Planning: índice de artículos](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
 ## Recursos adicionales para Workfront Planning
 
-* [Información general sobre Adobe Workfront Planning](/help/quicksilver/planning/planning-information.md): Índice de todos los artículos que contienen documentación sobre Workfront Planning, agrupados por área de interés.
+* [Información general sobre Adobe Workfront Planning](/help/quicksilver/planning/planning-information.md): índice de todos los artículos que contienen documentación sobre Workfront Planning, agrupados por área de interés.
 * [Información general del Asistente de IA de Adobe Workfront Planning](/help/quicksilver/planning/general/planning-ai-assistant-overview.md): con el Asistente de IA de Workfront Planning puede buscar registros o crear, actualizar y eliminar registros mediante comandos y dejar que el asistente haga el trabajo por usted.
 
   <!--
@@ -399,7 +399,7 @@ Para obtener una lista actualizada de las características publicadas, consulte 
 
 * [Conceptos básicos de la API de Adobe Workfront Planning](/help/quicksilver/planning/general/planning-api-basics.md): la meta de la API de Planning de Adobe Workfront es simplificar la creación de integraciones con Planning mediante la introducción de una arquitectura REST-ful que funcione a través de HTTP.
 
-* [Introducción a la integración de Adobe Workfront Planning y Adobe GenStudio for Performance Marketing](/help/quicksilver/planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md): Puede administrar registros desde GenStudio for Performance Marketing en el área de trabajo de GenStudio en Workfront Planning.
+* [Introducción a la integración de Adobe Workfront Planning y Adobe GenStudio for Performance Marketing](/help/quicksilver/planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md): puede administrar registros desde GenStudio for Performance Marketing en el área de trabajo de GenStudio en Workfront Planning.
 
-* **Funciones de informes de Workfront Planning**: ahora puede ver información de Workfront Planning en un informe en Workfront mediante el panel de lienzo de Workfront. Para obtener más información, consulte [Información general sobre paneles de lienzo](/help/quicksilver/reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md).
+* **Funcionalidades de creación de informes de Workfront Planning**: ahora puede ver información de Workfront Planning en un informe de Workfront mediante el panel de lienzo de Workfront. Para obtener más información, consulte [Información general del panel de lienzo](/help/quicksilver/reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md).
 

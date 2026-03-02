@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 1c7e6973-6e9e-4c93-9d3b-89ed90df9d14
-source-git-commit: 973a095e8ff08e382010247d9ed38e48d4b2c564
+source-git-commit: ce3ca4d55fd3fe0630da4961f27159fe5e31612a
 workflow-type: tm+mt
-source-wordcount: '1342'
+source-wordcount: '1341'
 ht-degree: 1%
 
 ---
@@ -22,9 +22,9 @@ ht-degree: 1%
 
 {{planning-important-intro}}
 
-Puede mostrar objetos y sus campos en una vista de lista, al acceder a ellos en la página Registros conectados de un registro, en Adobe Workfront Planning.
+Puede mostrar proyectos y sus campos en una vista de lista, al acceder a ellos en la página Registros conectados de un registro, en Adobe Workfront Planning. <!--change 'projects' to other objects when they become available and the location of the list view-->
 
-Este artículo describe cómo se puede crear o editar una vista de lista en la página Registros conectados de un registro y cómo se pueden editar los objetos de la vista.
+Este artículo describe cómo se puede crear o editar una vista de lista que muestre proyectos en la página Registros conectados de un registro y cómo se pueden editar los proyectos en la vista. <!--change 'projects' to other objects when they become available and the location of the list view-->
 
 ## Requisitos de acceso
 
@@ -72,18 +72,19 @@ Para obtener más información acerca de los requisitos de acceso de Workfront, 
 
 ## Consideraciones sobre las vistas de lista
 
-* No puede ver registros en las páginas de tipo de registro en una vista de lista. Sólo se pueden mostrar los objetos siguientes en una vista de lista cuando se ven en la página Registros conectados de un registro:
+* No se pueden ver todos los tipos de objetos en las páginas de tipo de registro en una vista de lista.
+
+  Sólo se pueden mostrar los objetos siguientes en una vista de lista cuando se ven en la página Registros conectados de un registro:
 
    * Proyectos Workfront
 
   Para obtener información acerca de cómo crear una página de registros conectados, vea [Agregar una página de registros conectados a un registro](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md).
 * Para poder ver una vista de lista en una página de registros conectada de un registro, debe conectar los proyectos de Workfront con los tipos de registros de Planning. Para obtener más información, consulte [Conectar tipos de registros](/help/quicksilver/planning/architecture/connect-record-types.md).
-* Las vistas de lista son similares a las listas mejoradas. Para obtener más información, consulte [Usar listas mejoradas](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
 
 
 ## Administración de una vista de lista {#manage-a-list-view}
 
-Para obtener más información sobre cómo administrar vistas de listas en Workfront, consulte [Usar listas mejoradas](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
+Las vistas de lista son similares a las listas mejoradas. Para obtener más información, consulte [Usar listas mejoradas](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
 
 {{step1-to-planning}}
 
@@ -114,7 +115,7 @@ Para obtener más información sobre cómo administrar vistas de listas en Workf
       >
       >* No puede modificar Vistas del sistema.
       >
-      >* <span class="preview">Puede restablecer una vista que se compartió con usted después de modificarla para restaurar sus preferencias originales, o bien puede copiarla con sus cambios y compartir la copia. Para obtener más información, consulte [Usar listas mejoradas](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md). </span>
+      >* <span class="preview">Puede restablecer una vista que se compartió con usted y para la que sólo tiene permisos de vista, después de modificarla para restaurar sus preferencias originales, o bien puede copiarla con sus cambios y compartir la copia. Para obtener más información, consulte [Usar listas mejoradas](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md). </span>
 
    1. Haga clic en el icono **Filtro** ![Icono de filtro](assets/filter-icon.png) para agregar un filtro a la vista. Los resultados se filtran inmediatamente en la lista. No puede guardar los filtros de nombre. Los filtros se recuerdan cuando acceda a la página en el futuro y forman parte de vistas compartidas.
    1. Haga clic en el icono **Columnas** ![Icono de columnas](assets/columns-icon.png) para seleccionar qué columnas mostrar u ocultar en la vista.
@@ -128,23 +129,23 @@ Para obtener más información sobre cómo administrar vistas de listas en Workf
       Solo se pueden agregar campos existentes a la vista de lista.
 No se puede quitar el campo principal en la vista de lista que aparece en la primera columna.
 
-
    1. <span class="preview">Haga clic en el icono **Formato de celdas** ![Formato de celdas](assets/format-cells-icon.png). Se abre el cuadro **Formato**.</span> <!--change the name of the box when they update it-->
       <span class="preview">Haga lo siguiente: </span>
 
+      1. Haga clic en **Agregar condición**.
+      1. <span class="preview">En la línea **If**, seleccione un campo y elija un valor de campo; a continuación, haga clic en **Agregar condición**. </span>
+
+         >[!TIP]
+         >
+         ><span class="preview">Solo los campos visibles en la vista de lista están disponibles para el formato condicional.</span>
+
+      1. <span class="preview">(Opcional) Haga clic en **Agregar condición** en la línea **If** para agregar más condiciones a la misma regla.</span>
+
+         >[!TIP]
+         >
+         ><span class="preview">Puede agregar hasta 10 condiciones en una regla de condicionamiento y hasta 20 reglas para un campo.</span>
+
       <div class="preview">
-
-      1. En la línea **If**, haga clic en **Agregar condición**, seleccione un campo al que desee dar formato y elija un valor de campo.
-
-         >[!TIP]
-         >
-         >Solo los campos visibles en la vista de lista están disponibles para el formato condicional.
-
-      1. (Opcional) Haga clic en **Agregar condición** en la línea **If** para agregar más condiciones a la misma regla.
-
-         >[!TIP]
-         >
-         >Puede agregar hasta 10 condiciones en una regla de condicionamiento y hasta 20 reglas para un campo.
 
       1. Haga clic en el conector **Or** entre condiciones para cambiar a **And** e indicar que se deben cumplir varias condiciones al mismo tiempo. **Or** es el conector predeterminado.
       1. En la línea **Format**, seleccione un campo para indicar a qué columna se dará formato. <!--edit this area, if it changes names??-->

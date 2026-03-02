@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: f28d2eef57f63cede3a08b06053e8dc6431f21d4
+source-git-commit: ce3ca4d55fd3fe0630da4961f27159fe5e31612a
 workflow-type: tm+mt
-source-wordcount: '3588'
+source-wordcount: '3563'
 ht-degree: 66%
 
 ---
@@ -504,8 +504,6 @@ para añadir una agrupación:
 
    ![Agrupación aplicada en la vista de tabla](assets/grouping-applied-in-table-view.png)
 
-1. <span class="preview">(Opcional) Elija A-Z o Z-A en el menú desplegable de ordenación a la derecha de un campo seleccionado. Esto ordena las agrupaciones en la cronología según corresponda.</span>
-
 1. (Opcional) Dentro del cuadro **Agrupar registros por**, haga clic en el icono **x** a la derecha de un campo seleccionado para la agrupación para quitar la agrupación
 
    O
@@ -596,7 +594,7 @@ Al mostrar la vista de tabla, también puede ver qué campo está editando otro 
 
    ![Campo de tabla de indicadores en tiempo real y conexión de avatar](assets/real-time-indicator-table-field-and-avatar-connection.png)
 
-<!--maybe include a screen shot after release if they update the UI text in this list of users-->
+   <!--maybe include a screen shot after release if they update the UI text in this list of users-->
 
 1. <span class="preview">(Opcional) Haga clic en el triángulo en la esquina superior derecha de la celda que contiene el campo editado por otros. Se muestra una lista de los usuarios que están editando el campo.</span>
 

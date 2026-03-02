@@ -6,18 +6,18 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 5d326776b9c5b4d9d24e802375df4630508c8bd0
+source-git-commit: ce3ca4d55fd3fe0630da4961f27159fe5e31612a
 workflow-type: tm+mt
-source-wordcount: '3912'
+source-wordcount: '4014'
 ht-degree: 42%
 
 ---
 
 # Administrar la vista de cronología
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después de las versiones mensuales en Production, las mismas funciones también están disponibles en el entorno Production para los clientes que habilitaron versiones rápidas. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 
 {{planning-important-intro}}
@@ -406,12 +406,12 @@ Para añadir una agrupación en la vista de cronología:
 1. Haga clic en uno de los campos sugeridos o haga clic en **Elija un campo diferente** y busque un campo diferente; a continuación, haga clic en él cuando se muestre en la lista.
 
    La agrupación se aplica automáticamente a la cronología y los registros se muestran dentro del cuadro de agrupación.
-
+1. <span class="preview">(Opcional) Haga clic en el menú desplegable **A -> Z** o **Z -> A** junto al nombre del campo seleccionado para seleccionar un orden de clasificación ascendente o descendente para la agrupación. Las agrupaciones se muestran en el orden alfabético seleccionado en la vista de escala de tiempo. </span>
 1. (Opcional) Repita los pasos anteriores para añadir hasta 3 agrupaciones.
 
    El número de campos seleccionados para la agrupación se muestra junto al icono de Agrupación.
 
-   ![Agrupación aplicada en la vista de escala de tiempo](assets/grouping-applied-in-timeline-view.png)
+   ![Agrupación aplicada en la vista de cronología](assets/grouping-applied-in-timeline-view.png)
 
 1. En el cuadro **Agrupar registros por**, arrastre y suelte las agrupaciones en el orden correcto.
 
@@ -545,7 +545,7 @@ Actualice la configuración de la vista de cronología para indicar qué informa
 
 ### Desglose de registros conectados en la vista de cronología
 
-Puede mostrar los registros conectados en la vista de escala de tiempo de un registro mediante la función Desglose. El desglose de registros por sus conexiones le permite ver las escalas de tiempo de otros registros conectados y comprender cómo pueden afectar al rendimiento y a los plazos de los registros.
+Puede mostrar los registros conectados en la vista de escala de tiempo de un registro mediante la función Desglose. El desglose de registros por sus conexiones le permite ver las cronologías de otros registros conectados y comprender cómo pueden afectar al rendimiento y a los plazos de los registros.
 
 #### Consideraciones al utilizar la función Desglose
 

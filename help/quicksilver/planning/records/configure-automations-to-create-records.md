@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: cde20e5a-15a2-413a-8de4-ccf6eeb4395f
-source-git-commit: f28d2eef57f63cede3a08b06053e8dc6431f21d4
+source-git-commit: ce3ca4d55fd3fe0630da4961f27159fe5e31612a
 workflow-type: tm+mt
 source-wordcount: '1777'
 ht-degree: 5%
@@ -161,7 +161,7 @@ Se abre la página de detalles de automatización.
       * Clic en botón
       * <span class="preview">Cambio de valor de campo</span>
 
-   1. (Condicional) Si seleccionó **Clic en el botón**, vaya al paso siguiente que describe el área de **Acciones**.
+   1. (Condicional) Si seleccionó **Clic en el botón**, vaya al paso 9 que describe el área **Acciones**. <!--ensure this number stays accurate-->
 
    1. <span class="preview">(Condicional) Si seleccionó **Cambio de valor de campo**, haga lo siguiente en la sección **Configuración**: </span>
 

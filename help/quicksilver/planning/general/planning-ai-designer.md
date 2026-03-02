@@ -6,9 +6,9 @@ author: Alina, Becky
 feature: Workfront Planning
 role: User, Admin
 exl-id: ba7a4b04-5faa-41b6-86d0-4d0ce946ad1e
-source-git-commit: 11b72c797203dcf364281665bc60cf67d25c8b5d
+source-git-commit: ce3ca4d55fd3fe0630da4961f27159fe5e31612a
 workflow-type: tm+mt
-source-wordcount: '1470'
+source-wordcount: '1501'
 ht-degree: 8%
 
 ---
@@ -226,13 +226,10 @@ Puede crear o actualizar objetos en Workfront Planning mediante Planning Designe
 1. (Opcional) Haga clic en el icono **Mostrar u ocultar pantalla de vista previa** ![Ocultar o mostrar icono de pantalla de vista previa](assets/hide-show-preview-screen-in-planning-designer.png) para abrir o cerrar la pantalla de vista previa a la derecha.
 1. Haga clic en el icono **Abrir espacio de trabajo en ficha nueva** ![Abrir espacio de trabajo en ficha nueva](assets/open-workspace-on-new-tab-icon.png) para abrir el espacio de trabajo que está actualizando en una ficha nueva.
 1. Haga clic en el icono **Cerrar** **X** para cerrar Planning Designer y abrir el área de Workspaces.
-1. Abra el espacio de trabajo editado con Planning Designer y realice más cambios en sus objetos.
+1. (Opcional) Para editar un espacio de trabajo, siga uno de estos procedimientos:
 
-<!-- for March 2 -- replace the last step with this: 
-1. (Optional) To edit a workspace, do one of the following:
-
-    * Open the workspace and manually make changes to it. For information, see [Edit workspaces](/help/quicksilver/planning/architecture/edit-workspaces.md). 
-    * Click **Edit with AI**. This opens the Planning Designer. Repeat the steps above to use AI and make further changes to the workspace.-->
+   * Abra el espacio de trabajo y realice cambios manualmente en él. Para obtener más información, consulte [Edición de espacios de trabajo](/help/quicksilver/planning/architecture/edit-workspaces.md).
+   * Haga clic en **Editar con IA**. Se abrirá Planning Designer. Repita los pasos anteriores para utilizar IA y realizar más cambios en el espacio de trabajo.
 
 ## Desactive Planning Designer para su organización
 

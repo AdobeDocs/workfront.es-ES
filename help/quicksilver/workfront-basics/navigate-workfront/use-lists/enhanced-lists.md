@@ -5,9 +5,9 @@ description: Las listas mejoradas utilizan un formato de tabla para mostrar los 
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 4c25ed54-b147-4fd3-8d00-6f1ba61bbd38
-source-git-commit: c9015f5486721e3977efc00a297dd1618bc681d9
+source-git-commit: ce3ca4d55fd3fe0630da4961f27159fe5e31612a
 workflow-type: tm+mt
-source-wordcount: '2326'
+source-wordcount: '2337'
 ht-degree: 3%
 
 ---
@@ -344,13 +344,13 @@ Para compartir una vista:
 >
 >No todas las listas mejoradas tienen todos los elementos descritos en esta sección.
 
-Cuando se comparte con usted una vista para la que no tiene permiso de edición, puede copiar la vista y guardarla con un nombre nuevo. Primero debe realizar cambios en la vista para poder copiarla.
+Cuando se comparte con usted una vista para la que no tiene permiso de edición, puede copiarla y guardarla con un nombre nuevo. Primero debe realizar cambios en la vista para poder copiarla.
 
-1. En el menú desplegable Vistas, pase el ratón sobre la vista de **Vistas compartidas** que quiera copiar, haga clic en el menú **Más** ![Menú más](assets/more-icon.png) y luego haga clic en **Copiar con preferencias**.
+1. En el menú desplegable Vistas, pase el ratón sobre la vista de **Vistas compartidas** en la que modificó la configuración de y que desea copiar. Haga clic en el menú **Más** ![Menú más](assets/more-icon.png) y luego en **Copiar con preferencias**.
 
-   Se crea una nueva vista automáticamente. Utiliza el nombre de vista original con (copiar) al final y aparece en la sección de vistas **Mis vistas**.
+   Se crea una nueva vista automáticamente. El nombre de la vista copiada sigue el siguiente patrón: `Original view name (copy)`y se muestra en la sección de vistas **Mis vistas**.
 
-   Usted es el propietario de esta vista y puede cambiarle el nombre, editarla, compartirla o eliminarla. Si el propietario de la vista original quita el acceso compartido a esa vista, seguirá teniendo acceso a la vista que ha creado.
+   Usted es el propietario de esta vista y puede cambiarle el nombre, editarla, compartirla o eliminarla. Si el propietario de la vista original quita el acceso compartido a esa vista, seguirá teniendo acceso a la vista que creó copiando el original compartido.
 
    >[!NOTE]
    >
