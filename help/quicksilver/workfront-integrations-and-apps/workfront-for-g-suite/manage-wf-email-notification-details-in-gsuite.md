@@ -6,8 +6,9 @@ title: Administración de detalles de notificación de  [!DNL Adobe Workfront]  
 description: En Google Workspace, al abrir notificaciones por correo electrónico enviadas por Adobe  [!DNL Workfront] , es posible ver los detalles del elemento de trabajo asociado y responder sin salir de la bandeja de entrada. Si hubiera acciones disponibles, como aprobar una solicitud, será posible realizarlas directamente desde Workfront para Google Workspace.
 author: Becky
 feature: Workfront Integrations and Apps
+recommendations: noDisplay, noCatalog
 exl-id: d5ca31d8-3667-4405-a523-3dc248a94746
-source-git-commit: 228fd22f1894689c0d256270350cc82954901641
+source-git-commit: ddd1c964c4c885f71dfa30d1790cfbc6e26d6781
 workflow-type: tm+mt
 source-wordcount: '169'
 ht-degree: 42%
@@ -28,7 +29,7 @@ ht-degree: 42%
 >
 >Para obtener información general sobre la automatización e integración de Workfront, consulte [Información general de Adobe Workfront Fusion](https://experienceleague.adobe.com/es/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 >
->Para obtener información sobre las capacidades específicas de los módulos de integración y automatización de Workfront para Google Workspace, consulte [Módulos de Gmail](https://experienceleague.adobe.com/es/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/gmail-modules) y [Módulos de Google Calendar](https://experienceleague.adobe.com/es/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/google-calendar-modules).
+>Para obtener información sobre las capacidades específicas de los módulos de integración y automatización de Workfront para Google Workspace, consulte [Módulos de Gmail](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/gmail-modules) y [Módulos de Google Calendar](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/google-calendar-modules).
 
 <!--
 

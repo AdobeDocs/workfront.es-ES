@@ -5,8 +5,9 @@ title: 'Configurar la sección de  [!DNL Adobe Workfront]  para usuarios de  [!D
 description: Después de instalar  [!DNL Adobe Workfront]  para Salesforce como persona con la función de administrador de  [!DNL Workfront] , puede ponerlo a disposición de los usuarios añadiéndolo en una nueva sección a los diseños de página de Salesforce Oportunidad y Cuenta.
 author: Becky
 feature: Workfront Integrations and Apps
+recommendations: noDisplay, noCatalog
 exl-id: 81481813-74db-4408-8c85-c3b5b844f932
-source-git-commit: 6af620284ed9c710196d8976a9f6cac1b3b36cf1
+source-git-commit: ddd1c964c4c885f71dfa30d1790cfbc6e26d6781
 workflow-type: tm+mt
 source-wordcount: '125'
 ht-degree: 44%
@@ -23,7 +24,7 @@ ht-degree: 44%
 >
 >Para obtener información general sobre la automatización e integración de Workfront, consulte [Información general de Adobe Workfront Fusion](https://experienceleague.adobe.com/es/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 >
->Para obtener información sobre las capacidades específicas de los módulos de integración y automatización de Workfront para Salesforce, consulte [módulos de Salesforce](https://experienceleague.adobe.com/es/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/salesforce-modules).
+>Para obtener información sobre las capacidades específicas de los módulos de integración y automatización de Workfront para Salesforce, consulte [módulos de Salesforce](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/salesforce-modules).
 
 <!--
 
