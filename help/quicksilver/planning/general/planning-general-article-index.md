@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 8c4e4fbb-2f21-43a1-bfb0-d23ac1a33705
-source-git-commit: a5f33f914dabaa9368dea919510375bcb6ee03e2
+source-git-commit: 61c6bc0770416e02390f4e3de869d9e2565897d4
 workflow-type: tm+mt
-source-wordcount: '178'
-ht-degree: 77%
+source-wordcount: '187'
+ht-degree: 89%
 
 ---
 
@@ -31,6 +31,6 @@ Revise los siguientes artículos:
 * [Información general sobre las limitaciones de objetos de Adobe Workfront Planning](/help/quicksilver/planning/general/limitations-overview.md)
 * [Recomendaciones de implementación de Adobe Workfront Planning](/help/quicksilver/planning/general/planning-best-practices.md)
 * [Introducción a Adobe Workfront Planning Designer](/help/quicksilver/planning/general/planning-ai-designer.md)
-  <!--* [Get started with the Adobe Workfront Planning free trial](/help/quicksilver/planning/general/trial-workfront-planning.md)-->
+* [Introducción a la prueba gratuita de Adobe Workfront Planning](/help/quicksilver/planning/general/trial-workfront-planning.md)
 
 

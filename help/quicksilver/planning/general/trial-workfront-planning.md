@@ -1,28 +1,23 @@
 ---
 title: Introducción a la prueba gratuita de Adobe Workfront Planning
 description: Adobe Workfront ofrece una versión de prueba gratuita de 60 días de Adobe Workfront Planning. Este ensayo es su oportunidad para ver cómo Planning conecta la estrategia global con el trabajo diario que la hace realidad. Planning proporciona una visibilidad centralizada del ciclo vital de marketing, lo que permite una mejor colaboración entre equipos, un seguimiento en tiempo real de campañas y flujos de trabajo automatizados. Puede crear espacios de trabajo personalizados y visualizar el trabajo con cronologías y calendarios interactivos. Con esta prueba, verá de primera mano cómo Planning ayuda a alinear el trabajo diario con los objetivos estratégicos, agilizar la ejecución y dirigir resultados mensurables para su organización.
-hidefromtoc: true
-hide: true
-exl-id: fcad60b2-05e8-4774-8135-129bc1d3f9ce
-source-git-commit: 11b72c797203dcf364281665bc60cf67d25c8b5d
-workflow-type: tm+mt
-source-wordcount: '1490'
-ht-degree: 2%
-
----
-
-<!--add at release to the metadata:
 author: Alina
 feature: Workfront Planning
 role: User, Admin
-recommendations: noDisplay, noCatalog-->
+exl-id: fcad60b2-05e8-4774-8135-129bc1d3f9ce
+source-git-commit: 61c6bc0770416e02390f4e3de869d9e2565897d4
+workflow-type: tm+mt
+source-wordcount: '2122'
+ht-degree: 4%
+
+---
+
 
 # Introducción a la prueba gratuita de Adobe Workfront Planning
 
 <!-- are we still calling the tab "Best practice workspaces"? If not, reword below-->
 
 <!--add screen shots-->
-<!--remove the best practice link below and replace it with the folder for best practice instead-->
 <!--check the names of areas, buttons, and links: Learn more, Open Planning, Review trial agreement, etc-->
 
 Adobe Workfront Planning proporciona una visibilidad centralizada del ciclo vital de marketing, lo que permite una mejor colaboración entre equipos, un seguimiento en tiempo real de campañas y flujos de trabajo automatizados. Puede crear espacios de trabajo personalizados y visualizar el trabajo con cronologías y calendarios interactivos.
@@ -34,6 +29,7 @@ Adobe Workfront Planning proporciona una visibilidad centralizada del ciclo vita
 >* El juicio está disponible entre las siguientes fechas: del 2 de marzo al 1 de mayo de 2026.
 >
 >* Tenga en cuenta que la versión de prueba está disponible durante 60 días desde su lanzamiento y no durante 60 días desde el momento en que se una a ella.
+>* El periodo de registro finaliza el 1 de abril de 2026.
 
 Con esta versión de prueba, verá de primera mano cómo Planning ayuda a alinear el trabajo diario con los objetivos estratégicos, optimiza la ejecución y genera resultados mensurables para su organización.
 
@@ -67,18 +63,18 @@ Su empresa debe cumplir los siguientes requisitos para poder unirse a la versió
 Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 * Tener acceso a Adobe Admin Console
 * Forma parte del sistema de Identity Management (IMS)
-* Acepte el acuerdo de prueba legal disponible en la instancia de Workfront de su organización a partir del 26 de enero de 2026. Debe ser administrador de Workfront para aceptar el acuerdo de prueba.
+* Acepte el acuerdo de prueba legal disponible en la instancia de Workfront de su organización entre el 26 de enero y el 1 de abril de 2026 Debe ser administrador de Workfront para aceptar el acuerdo de prueba.
 
 ## Resumen de fechas importantes
 
 Las siguientes son fechas importantes asociadas con la oferta de prueba gratuita de Adobe Workfront Planning:
 
-* **26 de enero de 2026**: Los titulares de prueba gratuita de Workfront Planning se entregan a los clientes de Workfront. Los titulares incluyen lo siguiente:
+* **26 de enero de 2026**: se lanzaron los titulares de prueba gratuita de Workfront Planning para los clientes de Workfront. Los titulares incluyen lo siguiente:
    * Un vínculo a este documento.
    * Ventana de aceptación del acuerdo de prueba. Solamente un administrador de Workfront puede aceptar el acuerdo. Puede aceptar el acuerdo de prueba en cualquier momento a partir de esta fecha.
-* **2 de marzo de 2026**: Se inicia la versión de prueba de Workfront Planning.
+* **2 de marzo de 2026**: Se inició la versión de prueba de Workfront Planning.
 
-  Se añaden los siguientes elementos a la instancia de Workfront:
+  Con el lanzamiento de la versión de prueba, se añaden los siguientes elementos a la instancia de Workfront:
 
    * Los titulares de Workfront Planning se siguen mostrando para todos los usuarios.
    * La preferencia **Revisar acuerdo de prueba** se agrega al área **Configuración**.
@@ -94,7 +90,6 @@ Las siguientes son fechas importantes asociadas con la oferta de prueba gratuita
    * Si el administrador de Workfront no ha aceptado el acuerdo antes de esta fecha, primero debe aceptarlo para poder acceder a Workfront Planning.
 * **1 de abril de 2026**: ya no puede inscribirse en el período de prueba.
 
-
   Los siguientes elementos se eliminarán de la instancia de Workfront:
 
    * Los titulares de prueba de Workfront Planning.
@@ -106,7 +101,6 @@ Las siguientes son fechas importantes asociadas con la oferta de prueba gratuita
 
   Independientemente de cuándo acepte el acuerdo, su acceso a Planning finaliza en esta fecha.
 
-  Todas las versiones de prueba de Workfront Planning
 * **30 de noviembre de 2026**: Workfront ya no protege sus datos después de esta fecha. Si adquiere Workfront Planning antes de esta fecha, recuperará el acceso a Planning y a sus datos.
 
 <!--Lauren wanted this out: 
@@ -138,25 +132,25 @@ Para obtener prácticas recomendadas sobre cómo implementar Workfront Planning,
 
 <!--
 
-this information will be live on March 2 - the How to sign up below will be a ### instead of a ## section and the Navigate the trial section will be visible; also adjust ALL the ##s when you make this live: 
+this information will be live on March 2 - the How to sign up below will be a ### instead of a ## section and the Navigate the trial section will be visible; also adjust ALL the ##s when you make this live: -->
 
-## Get started with the Adobe Workfront Planning free trial-->
-
-## Inscríbase en la prueba gratuita de Workfront Planning
+## Inscríbase en la prueba gratuita de Adobe Workfront Planning
 
 Uno de los administradores de Workfront debe revisar y firmar el acuerdo de prueba legal antes de que todos los miembros de su organización reciban acceso a la prueba gratuita de Workfront Planning.
 
-Podrá revisar y firmar el acuerdo a partir del 26 de enero de 2026, antes de que el periodo de prueba comience el 2 de marzo de 2026. Sin embargo, su organización recibirá acceso a Workfront Planning el 2 de marzo de 2026.
+La suscripción al periodo de prueba de Planning está disponible desde el 26 de enero de 2026.
+
+El periodo de prueba comenzó y su organización recibió acceso para iniciar el periodo de prueba de Planning el 2 de marzo de 2026.
 
 >[!NOTE]
 >
 >Solamente un administrador del sistema debe aceptar el acuerdo. No es necesario que lo acepten todos los administradores del sistema.
 
-<!--check the steps here at release and take out the "before March 2" info-->
-
-Para revisar y aceptar el acuerdo legal y acordar comenzar el juicio el 2 de marzo, realice una de las siguientes acciones:
-
 ### Inscríbase en el periodo de prueba de Planning entre el 26 de enero y el 2 de marzo de 2026
+
+>[!WARNING]
+>
+>Este periodo ya está cerrado. Para obtener más información, consulte la sección [Inscribirse en la versión de prueba de Planning entre el 2 de marzo y el 1 de abril de 2026](#enroll-in-the-planning-trial-between-march-2-and-april-1-2026) en este artículo.
 
 1. (Condicional) Inicie sesión en Adobe Workfront como administrador del sistema.
 1. Realice una de las siguientes acciones:
@@ -174,7 +168,7 @@ Para revisar y aceptar el acuerdo legal y acordar comenzar el juicio el 2 de mar
 
 >[!WARNING]
 >
->El periodo de inclusión finaliza el 1 de abril de 2026.
+>El periodo de inclusión finaliza el 1 de abril de 2026. Sin embargo, las funciones de prueba de Planning están disponibles hasta el 1 de mayo de 2026.
 
 1. (Condicional) Inicie sesión en Adobe Workfront como administrador del sistema.
 
@@ -203,101 +197,104 @@ Para revisar y aceptar el acuerdo legal y acordar comenzar el juicio el 2 de mar
 
    Empiece a explorar la ficha **Espacios de trabajo de ejemplo** y revise, utilice o comparta los espacios de trabajo compartidos con usted.
 
-   Para obtener más información sobre el uso de Workfront Planning, consulte [Introducción a Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
+Para obtener más información sobre el uso de Workfront Planning, consulte [Introducción a Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
 
-   Para obtener prácticas recomendadas sobre cómo implementar Workfront Planning, consulte [Prácticas recomendadas de Adobe Workfront Planning: índice de artículos](/help/quicksilver/planning/best-practices.md/best-practices-article-index.md).
+Para obtener prácticas recomendadas sobre cómo implementar Workfront Planning, consulte [Prácticas recomendadas de Adobe Workfront Planning: índice de artículos](/help/quicksilver/planning/best-practices.md/best-practices-article-index.md).
 
-<!--uncomment this on March 2: 
 
-### Experience Workfront Planning through the free trial
+## Experimente la planificación de Workfront a través de la prueba gratuita
 
-You can review sample Planning workspaces and their objects as well as create your own when you enroll in the Workfront Planning trial. 
+Puede revisar espacios de trabajo de Planning de ejemplo y sus objetos, así como crear los suyos propios al inscribirse en la prueba de Workfront Planning.
 
-1. (Conditional and required) As a Workfront administrator, sign the free trial agreement. 
+1. (Condicional y obligatorio) Como administrador de Workfront, firme el acuerdo de prueba gratuita.
 
-    For information, see the section [Enroll in the Workfront Planning free trial](#enroll-in-the-workfront-planning-free-trial)
-1. Click the **Main Menu** icon ![](assets/main-menu-shell.png), then click **Planning**. The icon displays a **Trial** label next to it. 
-    
-    The **Planning** area opens in the **Sample workspaces** tab. 
-1. Review the following workspaces available in the **Sample workspaces** tab: 
+   Para obtener más información, consulte la sección [Inscribirse en la prueba gratuita de Adobe Workfront Planning](#enroll-in-the-adobe-workfront-planning-free-trial) en este artículo.
+1. Haga clic en el icono **Menú principal** ![](assets/main-menu-shell.png) y luego haga clic en **Planificación**. El icono muestra una etiqueta **Prueba** junto a él.
 
-    * **Global Classifications & Taxonomies**: Contains sample Planning object types that are the foundation of a Marketing System of Record. 
-    
-        All record types in this workspace can constitute de building blocks of your Workfront Planning structure. All record types are global and can be added or connected from all other workspaces. For more information, see [Cross-workspace record type overview](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md).
-        
-        For our recommendation on how to use the Global Taxonomies workspace, see [Turn your first win into sustainable momentum: a playbook for managed scaling](/help/quicksilver/planning/best-practices.md/playbook-how-to-scale.md). 
-    * Additional sample workspaces: The following workspaces serve as examples of what a sample company (Fréscopa) might need as specific workspaces, record types, fields, and views to architecture their organization and work structure: 
+   El área **Planning** se abre en la ficha **Espacios de trabajo de ejemplo**.
+1. Revise los siguientes espacios de trabajo disponibles en la ficha **Espacios de trabajo de ejemplo**:
 
-        * **Fréscopa Global Marketing**
-        * **Fréscopa Social Marketing**
-        * **Fréscopa Media & PR**
-        * **Fréscopa Executive Company Leadership**
+   * **Clasificaciones y taxonomías globales**: contiene tipos de objetos de Planning de ejemplo que constituyen la base de un sistema de registro de marketing.
 
-    >[!NOTE]
-    >
-    >As a System Administrator, you might be able to edit the sample workspaces. However, we recommend you keep them as they are to use them for guidance and instead build your own workspaces mirroring those we offer as samples. 
+     Todos los tipos de registros de este espacio de trabajo pueden constituir los componentes básicos de la estructura de Workfront Planning. Todos los tipos de registros son globales y se pueden agregar o conectar desde todos los demás espacios de trabajo. Para obtener más información, vea [Información general sobre el tipo de registro entre espacios de trabajo](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md).
 
-1. Click **Create workspace** to create your own workspace.
-    
-    For information, see [Create workspaces](/help/quicksilver/planning/architecture/create-workspaces.md). 
+     Para nuestra recomendación sobre cómo usar el espacio de trabajo de taxonomías globales, vea [Convierta su primera victoria en impulso sostenible: un manual para escalado administrado](/help/quicksilver/planning/best-practices.md/playbook-how-to-scale.md).
+   * Espacios de trabajo de muestra adicionales: los siguientes espacios de trabajo sirven como ejemplos de lo que una empresa de muestra (Fréscopa) puede necesitar como espacios de trabajo específicos, tipos de registros, campos y vistas para estructurar su organización y estructura de trabajo:
 
-    As a System Administrator, your new workspaces display on the **All workspaces** and the **Workspaces I'm on** tabs.
+      * **Marketing global Fréscopa**
+      * **Marketing social en Fréscopa**
+      * **Fréscopa Media &amp; PR**
+      * **Liderazgo ejecutivo de Fréscopa**
 
-    >[!TIP]
-    >
-    >Standard license users can create workspaces that will display in the **Workspaces** area.
+   >[!NOTE]
+   >
+   >Como administrador del sistema, es posible que pueda editar los espacios de trabajo de ejemplo. Sin embargo, le recomendamos que los mantenga tal cual para que los utilice como guía y que, en su lugar, cree sus propios espacios de trabajo que reflejen los que ofrecemos como ejemplos.
 
-1. Click **Generate with AI** to let the AI Assistant build a workspace for you, based on your specifications. (**********have they changed the button to Generate or is it Create???*********)
+1. Haga clic en **Crear espacio de trabajo** para crear su propio espacio de trabajo.
 
-    For information, see [Get started with the Adobe Workfront Planning Designer](/help/quicksilver/planning/general/planning-ai-designer.md).
+   Para obtener más información, consulte [Creación de espacios de trabajo](/help/quicksilver/planning/architecture/create-workspaces.md).
 
-    >[!NOTE]
-    >
-    >We do not require that you sign the Adobe Gen AI agreement to be able to use the Planning Designer in Workfront Planning during the trial.
+   Como administrador del sistema, los nuevos espacios de trabajo se mostrarán en las fichas **Todos los espacios de trabajo** y **Espacios de trabajo en los que estoy**.
 
-1. In the workspaces you created, create any of the following: 
+   >[!TIP]
+   >
+   >Los usuarios con licencia estándar pueden crear áreas de trabajo que se mostrarán en el área **Workspaces**.
 
-    * Record types
+1. Haga clic en **Crear con IA** para que el Asistente de IA cree un espacio de trabajo según sus especificaciones. <!--(**********have they changed the button to Generate or is it Create???*********)-->
 
-        For information, see [Create record types](/help/quicksilver/planning/architecture/create-record-types.md).
-    * Records
+   Para obtener más información, consulte [Introducción a Adobe Workfront Planning Designer](/help/quicksilver/planning/general/planning-ai-designer.md).
 
-        For information, see [Create records](/help/quicksilver/planning/records/create-records.md).
-    * Views
+   >[!IMPORTANT]
+   >
+   >No es necesario que firme el acuerdo de Adobe Gen AI para poder utilizar Planning Designer en Workfront Planning durante la versión de prueba.
 
-        For information, see [Manage record views](/help/quicksilver/planning/views/manage-record-views.md).
-    * Fields
+1. En los espacios de trabajo que ha creado, cree cualquiera de las siguientes opciones:
 
-        You can create custom fields for each record type, import them from Workfront, or create connections to other record types, Workfront object types, or object types from other applications. 
+   * Tipos de registro
 
-        For information, see the following articles: 
+     Para obtener más información, consulte [Creación de tipos de registros](/help/quicksilver/planning/architecture/create-record-types.md).
+   * Registros
 
-        * [Create fields](/help/quicksilver/planning/fields/create-fields.md)
-        * [Connect record types overview](/help/quicksilver/planning/architecture/connect-record-types-overview.md)
+     Para obtener más información, consulte [Crear registros](/help/quicksilver/planning/records/create-records.md).
+   * Vistas
 
-1. From the workspaces you created, share any of the following entities:
+     Para obtener más información, consulte [Administración de vistas de registros](/help/quicksilver/planning/views/manage-record-views.md).
+   * Campos
 
-    * Workspaces
+     Puede crear campos personalizados para cada tipo de registro, importarlos desde Workfront o crear conexiones con otros tipos de registro, tipos de objetos de Workfront o tipos de objetos de otras aplicaciones.
 
-        For information, see [Share workspaces](/help/quicksilver/planning/access/share-workspaces.md).
-    * Record types
+     Para obtener más información, consulte los siguientes artículos:
 
-        For information, see [Share record types](/help/quicksilver/planning/access/share-record-types.md).
-    * Views
+      * [Crear campos](/help/quicksilver/planning/fields/create-fields.md)
+      * [Información general sobre conectar tipos de registro](/help/quicksilver/planning/architecture/connect-record-types-overview.md)
 
-        For information, see [Share views](/help/quicksilver/planning/access/share-views.md). 
+1. En los espacios de trabajo que ha creado, comparta cualquiera de las siguientes entidades:
 
-    For additional information about how to implement Workfront Planning and how to create a center of governance for it, see the section [Additional information about Workfront Planning](#additional-information-about-workfront-planning) in this article.
-1. (Optional) To edit the workspace you created, do one of the following: 
+   * Espacios de trabajo
 
-    * Open the workspace and manually make changes to it. 
-    
-        For information, see [Edit workspaces](/help/quicksilver/planning/architecture/edit-workspaces.md). 
-    * Click **Edit with AI** next to the workspace name to open the **Planning Designer** and use AI to make further changes to the workspace. 
+     Para obtener más información, vea [Compartir espacios de trabajo](/help/quicksilver/planning/access/share-workspaces.md).
+   * Tipos de registro
 
-        For information, see [Get started with the Adobe Workfront Planning Designer](/help/quicksilver/planning/general/planning-ai-designer.md).
-1. (Optional) To remove the Planning area from the Main Menu for users, customize the the Layout Templates assigned to the users and remove it from the **Set Main Menu** area of the Layout Template. 
+     Para obtener más información, vea [Compartir tipos de registros](/help/quicksilver/planning/access/share-record-types.md).
+   * Vistas
 
-    For information, see [Customize the Main Menu using a layout template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
+     Para obtener más información, consulte [Compartir vistas](/help/quicksilver/planning/access/share-views.md).
 
--->
+   Para obtener información adicional sobre cómo implementar Workfront Planning y cómo crear un centro de control para él, consulte la sección [Información adicional sobre Workfront Planning](#additional-information-about-workfront-planning) en este artículo.
+1. (Opcional) Para editar el espacio de trabajo que ha creado, siga uno de estos procedimientos:
+
+   * Abra el espacio de trabajo y realice cambios manualmente en él.
+
+     Para obtener más información, consulte [Edición de espacios de trabajo](/help/quicksilver/planning/architecture/edit-workspaces.md).
+   * Haga clic en **Editar con IA** junto al nombre del área de trabajo para abrir **Planning Designer** y use IA para realizar más cambios en el área de trabajo.
+
+     Para obtener más información, consulte [Introducción a Adobe Workfront Planning Designer](/help/quicksilver/planning/general/planning-ai-designer.md).
+1. (Opcional) Para quitar el área de Planning del **Menú principal** para los usuarios, personalice las **plantillas de diseño** asignadas a los usuarios y elimínelas del área **Establecer menú principal** de la plantilla de diseño.
+
+   Para obtener más información, consulte [Personalizar el menú principal con una plantilla de diseño](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
+
+   >[!TIP]
+   >
+   >No puede quitar los titulares de promoción de Planning de la instancia de Workfront mediante plantillas de diseño.
+
+
