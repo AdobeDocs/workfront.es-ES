@@ -6,10 +6,10 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: ce3ca4d55fd3fe0630da4961f27159fe5e31612a
+source-git-commit: 892a86f053fb170872b0b4b6126b67974129d372
 workflow-type: tm+mt
-source-wordcount: '4014'
-ht-degree: 42%
+source-wordcount: '4067'
+ht-degree: 41%
 
 ---
 
@@ -401,12 +401,23 @@ Para añadir una agrupación en la vista de cronología:
 1. Cree una vista de cronología para un tipo de registro, tal y como se describe en el artículo [Administración de vistas de registros](/help/quicksilver/planning/views/manage-record-views.md).
 1. Haga clic en **Agrupación** en la esquina superior derecha de la vista de cronología.
 
-   ![Vista de línea de tiempo de IU de agrupación con campos vinculados](assets/grouping-ui-timeline-view-with-linked-fields.png)
+   <span class="preview">![Vista de línea de tiempo de IU de agrupación con campos vinculados](assets/grouping-ui-timeline-view-with-linked-fields.png)</span>
 
 1. Haga clic en uno de los campos sugeridos o haga clic en **Elija un campo diferente** y busque un campo diferente; a continuación, haga clic en él cuando se muestre en la lista.
 
    La agrupación se aplica automáticamente a la cronología y los registros se muestran dentro del cuadro de agrupación.
-1. <span class="preview">(Opcional) Haga clic en el menú desplegable **A -> Z** o **Z -> A** junto al nombre del campo seleccionado para seleccionar un orden de clasificación ascendente o descendente para la agrupación. Las agrupaciones se muestran en el orden alfabético seleccionado en la vista de escala de tiempo. </span>
+1. <span class="preview"> (opcional y condicional) Según el tipo de campo por el que seleccionó agrupar, seleccione una de las siguientes opciones de ordenación para ordenar las agrupaciones en orden ascendente o descendente: </span>
+
+   <div class="preview">
+
+   * **A -> Z** o **Z -> A** para Seleccionar campos, Campos de texto, Campos de párrafo, Registros u objetos conectados, Campos de personas
+   * **0 -> 9** o **9 -> 0** para los campos Número, Moneda o Porcentaje.
+   * **más antiguo -> más reciente** o **más reciente -> más antiguo** para los campos de fecha
+
+   </div>
+
+   <span class="preview"> Las agrupaciones en la vista de escala de tiempo se ordenan según corresponda. Los registros dentro de las agrupaciones se ordenan en el orden de **fecha de inicio**, que es la ordenación predeterminada. </span>
+
 1. (Opcional) Repita los pasos anteriores para añadir hasta 3 agrupaciones.
 
    El número de campos seleccionados para la agrupación se muestra junto al icono de Agrupación.
