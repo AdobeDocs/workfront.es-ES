@@ -6,9 +6,9 @@ description: Utilice carpetas de informes que se pueden compartir para organizar
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 65831f2e-9092-4e99-a86b-40df42c713bf
-source-git-commit: 650d24c36c3ccee810b8918ccdf456f607b055e9
+source-git-commit: 6a56485ef5a36aac92fbed73bd6749ed63796a58
 workflow-type: tm+mt
-source-wordcount: '767'
+source-wordcount: '771'
 ht-degree: 8%
 
 ---
@@ -93,7 +93,7 @@ Puede crear hasta 3 niveles de subcarpetas dentro de una carpeta de informes que
 
 ## Compartir una carpeta de informes con otros usuarios
 
-Cuando comparte una carpeta con los usuarios, estos heredan el acceso a todas las subcarpetas de ese árbol de carpetas. Los usuarios también deben tener acceso a cada informe, ya sea mediante permisos de carpeta o compartiendo informes directamente.
+Cuando comparte una carpeta con los usuarios, estos heredan el acceso a todas las subcarpetas de ese árbol de carpetas.
 
 {{step1-to-reports}}
 
@@ -135,3 +135,7 @@ Los permisos de informe concedidos a través de los permisos de carpeta se elimi
 ## Nueva experiencia de lista para carpetas compartibles
 
 Cuando acceda a carpetas compartibles en el área de Informes, verá una nueva experiencia de lista que le permitirá ver y administrar fácilmente sus carpetas e informes. Para obtener más información sobre la nueva experiencia de lista, consulte [Usar listas mejoradas](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
+
+>[!NOTE]
+>
+>La experiencia de lista mejorada no admite campos avanzados. Para trabajar con estos campos, puede crear un informe.
