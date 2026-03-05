@@ -8,16 +8,20 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 0f643d36-6235-4fd3-b6d3-54fbd03c9b33
-source-git-commit: 20ebcb74c79aea67ea7cb1ba083dfea623fe7c16
+source-git-commit: 20ea292d49c691335e98459ff3eb00051a78577d
 workflow-type: tm+mt
-source-wordcount: '363'
-ht-degree: 60%
+source-wordcount: '451'
+ht-degree: 49%
 
 ---
 
 # Habilitar trimestres personalizados
 
-<!--Audited: 11/2024-->
+<!--Audited: 03/2026-->
+
+<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después de las versiones mensuales en Production, las mismas funciones también están disponibles en el entorno Production para los clientes que habilitaron versiones rápidas. </span>
+
+<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 Con fines de creación de informes, es posible que desee crear trimestres personalizados si los trimestres de su organización se basan en criterios específicos distintos de las fechas del calendario (como días laborables o días de compras).
 
@@ -58,9 +62,12 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 
 {{step-1-to-setup}}
 
-1. Haga clic en **[!UICONTROL Project Preferences]** > **[!UICONTROL Projects].**
+1. (Condicional) Según el entorno desde el que acceda a Trimestres personalizados, realice una de las siguientes acciones:
 
-1. En la sección **[!UICONTROL Timelines]**, seleccione **[!UICONTROL Enable Custom Quarters]**.
+   * En el entorno Producción, haga clic en **[!UICONTROL Preferencias de proyecto]** > **[!UICONTROL Proyectos].**
+   * <span class="preview">En el entorno de vista previa, haga clic en **[!UICONTROL Trimestres personalizados]**.</span>
+
+1. Seleccione **[!UICONTROL Habilitar trimestres personalizados]**.
 
 1. Escriba un nombre para el trimestre personalizado, como “Primer trimestre fiscal de 2021”.
 1. Seleccione las fechas de inicio y finalización del trimestre personalizado.
@@ -77,7 +84,6 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 
 1. (Opcional y condicional) Si su empresa compró solo [!DNL Workfront], sin [!DNL Workfront Planning], cree un elemento de informe que haga referencia a los trimestres fiscales.
 
-
    **Ejemplo:** cree un filtro para una lista de [!UICONTROL project] e incluya la fecha planificada de finalización de un proyecto que haga referencia a los trimestres personalizados.
 
    ![Filtro de proyecto con trimestres personalizados](assets/example-of-project-filter-with-custom-quarters.png)
@@ -87,5 +93,5 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
    Para obtener información acerca de los elementos de informes, consulte [Elementos de creación de informes: filtros, vistas y agrupaciones](../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md).
 
    Para obtener información acerca de cómo crear filtros, consulte [Crear o editar filtros en [!DNL Adobe Workfront]](../../../reports-and-dashboards/reports/reporting-elements/create-filters.md).
-1. (Opcional y condicional) Si tiene acceso a [!DNL Workfront Planning], vaya a una página de tipo de registro y abra una vista de escala de tiempo. La vista muestra los nuevos trimestres personalizados.
-Para obtener más información, consulte [Administrar la vista de línea de tiempo](/help/quicksilver/planning/views/manage-the-timeline-view.md).
+1. (Opcional y condicional) Si su empresa ha adquirido Workfront Planning y tiene acceso a [!DNL Workfront Planning], vaya a una página de tipo de registro y abra una vista de escala de tiempo. La vista muestra los nuevos trimestres personalizados.
+Para obtener más información, consulte [Administrar la vista de cronología](/help/quicksilver/planning/views/manage-the-timeline-view.md).

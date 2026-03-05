@@ -8,19 +8,19 @@ author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: c69097fb-99e4-441b-9599-fd8af2dd7116
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 20ea292d49c691335e98459ff3eb00051a78577d
 workflow-type: tm+mt
-source-wordcount: '2742'
-ht-degree: 95%
+source-wordcount: '2839'
+ht-degree: 91%
 
 ---
 
 # Configurar las preferencias del proyecto de un grupo
 
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después de las versiones mensuales en Production, las mismas funciones también están disponibles en el entorno Production para los clientes que habilitaron versiones rápidas. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 Si fuese administrador de un grupo y un administrador de Adobe Workfront desbloquease una preferencia de proyecto para todos los grupos del sistema, configure esa preferencia para el grupo para que afecte a todos los proyectos posteriores que cree el grupo.
 
@@ -48,7 +48,7 @@ Para obtener información acerca de cómo un administrador de Workfront desbloqu
  <col> 
  <tbody> 
   <tr> 
-   <td>paquete de Adobe Workfront</td> 
+   <td>Paquete de Adobe Workfront</td> 
    <td><p>Cualquiera</p></td> 
   </tr> 
   <tr> 
@@ -128,11 +128,11 @@ Configure cualquiera de las siguientes preferencias para los proyectos recién c
   </tr> 
   <tr> 
    <td role="rowheader">Calcular el porcentaje completado en función de</td> 
-   <td> <p>El porcentaje completado de un proyecto o tarea principal se basa en el progreso general de las tareas. Esta información se puede calcular en función de la duración o las horas planificadas de las tareas de un proyecto.</p> <p>Si selecciona Duración, la duración de cada tarea de un proyecto determina el porcentaje completado global del proyecto, y la duración de cada subtarea determina el porcentaje completado global de su tarea principal.</p> <p>Si selecciona Duración, asegúrese de especificar las Horas típicas por día laborable y los Días laborables típicos por semana en la sección Líneas de tiempo. Workfront utiliza esta información para calcular el porcentaje completado de una tarea según la duración. </p> <p>Si selecciona Horas planificadas, asegúrese de que todas las tareas de cada proyecto tengan la cantidad de Horas planificadas definida y que la cantidad no sea cero.</p> </td> 
+   <td> <p>El porcentaje completado de un proyecto o tarea principal se basa en el progreso general de las tareas. Esta información se puede calcular en función de la duración o las horas planificadas de las tareas de un proyecto.</p> <p>Si selecciona Duración, la duración de cada tarea de un proyecto determina el porcentaje completado global del proyecto, y la duración de cada subtarea determina el porcentaje completado global de su tarea principal.</p> <p>Si selecciona Duración, asegúrese de especificar las Horas típicas por día laborable y los Días laborables típicos por semana en la sección Cronologías. Workfront utiliza esta información para calcular el porcentaje completado de una tarea según la duración. </p> <p>Si selecciona Horas planificadas, asegúrese de que todas las tareas de cada proyecto tengan la cantidad de Horas planificadas definida y que la cantidad no sea cero.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Establecer automáticamente Condición de proyecto según el estado de Progreso</td> 
-   <td> <p>Esta preferencia permite a los usuarios establecer manualmente la condición de un proyecto (según el objetivo, en riesgo o con problemas) o hacer que Workfront establezca la condición (estado de progreso) automáticamente en función de la progresión del proyecto en la línea de tiempo. Para obtener más información sobre la condición de los proyectos, consulte <a href="../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md" class="MCXref xref" data-mc-variable-override="">Información general sobre la condición del proyecto y el tipo de condición</a>.</p> </td> 
+   <td> <p>Esta preferencia permite a los usuarios establecer manualmente la condición de un proyecto (según el objetivo, en riesgo o con problemas) o hacer que Workfront establezca la condición (estado de progreso) automáticamente en función de la progresión del proyecto en la cronología. Para obtener más información sobre la condición de los proyectos, consulte <a href="../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md" class="MCXref xref" data-mc-variable-override="">Información general sobre la condición del proyecto y el tipo de condición</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Crear automáticamente líneas base</p> </td> 
@@ -166,7 +166,7 @@ Configure cualquiera de las siguientes preferencias para los proyectos recién c
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Programar desde</td> 
+   <td role="rowheader"><b>Programar desde</b></td> 
    <td> <p>Determine si los nuevos proyectos se programan desde la fecha de inicio o desde la fecha de finalización cuando se crean.</p> 
     <ul> 
      <li><strong>Fecha de inicio</strong>: las nuevas tareas tienen como valor predeterminado la restricción de tarea Lo antes posible y se pide a los gerentes del proyecto que proporcionen una fecha planificada de inicio para el proyecto.</li> 
@@ -174,7 +174,7 @@ Configure cualquiera de las siguientes preferencias para los proyectos recién c
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Días libres del usuario</td> 
+   <td role="rowheader"><b>Días libres del usuario</b></td> 
    <td> <p>Determine si el tiempo libre del usuario asignado principal de una tarea ajusta las fechas planificadas de esa tarea en un proyecto.</p> 
     <ul> 
      <li> <p><strong>Considere el tiempo libre del usuario en las duraciones de las tareas</strong>: cualquier tiempo libre programado para la persona asignada principal de una tarea ajusta las fechas planificadas de la tarea si el tiempo libre se produce durante la duración de la tarea. Esta es la configuración predeterminada. </p> <p>Por ejemplo, si una tarea con una restricción de Lo antes posible está programada para comenzar el 1 de junio y finalizar el 3 de junio, y la persona asignada principal tiene marcado el 2 de junio como tiempo libre, las fechas planificadas de la tarea se ajustarán del 1 de junio al 4 de junio.</p> <p><b>IMPORTANTE</b>: la duración de la tarea no cambia al seleccionar esta configuración. Solo cambian las fechas planificadas, dependiendo de la Restricción de tarea.</p> </li> 
@@ -192,23 +192,23 @@ Configure cualquiera de las siguientes preferencias para los proyectos recién c
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p><strong>Las líneas de tiempo del proyecto se recalculan automáticamente</strong> </p> </td> 
-   <td> <p>Determine cuándo se vuelve a calcular la línea de tiempo de un proyecto. Para obtener información sobre cómo recalcular la escala de tiempo del proyecto, consulte <a href="../../../manage-work/projects/manage-projects/recalculate-project-timeline.md" class="MCXref xref" data-mc-variable-override="">Recalcular las escalas de tiempo del proyecto</a>.</p> <p>Las siguientes opciones están habilitadas de forma predeterminada. Puede seleccionar una o varias de las siguientes opciones de configuración:</p> 
+   <td role="rowheader"> <p><strong>Las cronologías del proyecto se recalculan automáticamente</strong> </p> </td> 
+   <td> <p>Determine cuándo se vuelve a calcular la cronología de un proyecto. Para obtener información sobre cómo recalcular la escala de tiempo del proyecto, consulte <a href="../../../manage-work/projects/manage-projects/recalculate-project-timeline.md" class="MCXref xref" data-mc-variable-override="">Recalcular las escalas de tiempo del proyecto</a>.</p> <p>Las siguientes opciones están habilitadas de forma predeterminada. Puede seleccionar una o varias de las siguientes opciones de configuración:</p> 
     <ul> 
-     <li> <p><strong>Cada noche</strong>: seleccione esta opción para recalcular las líneas de tiempo del proyecto cada noche. Los cambios que realice en el proyecto y que puedan afectar a la línea de tiempo no serán visibles de inmediato. Workfront recalcula las líneas de tiempo por la noche solo para los proyectos en los que se cumplen las dos condiciones siguientes:</p> <p> 
+     <li> <p><strong>Cada noche</strong>: seleccione esta opción para recalcular las cronologías del proyecto cada noche. Los cambios que realice en el proyecto y que puedan afectar a la cronología no serán visibles de inmediato. Workfront recalcula las cronologías por la noche solo para los proyectos en los que se cumplen las dos condiciones siguientes:</p> <p> 
        <ul> 
         <li>Tiene un estado Actual</li> 
         <li>Ha tenido una actualización en los últimos 3 meses</li> 
        </ul> </p> </li> 
-     <li> <p><strong>Cuando cambia el ámbito de un proyecto</strong>: seleccione esta opción para recalcular las líneas de tiempo del proyecto inmediatamente cuando se produzca un cambio en el ámbito del proyecto. Para obtener información sobre lo que constituye un cambio de ámbito del proyecto, consulte <a href="../../../manage-work/projects/manage-projects/recalculate-project-timeline.md" class="MCXref xref" data-mc-variable-override="">Recalcular las escalas de tiempo del proyecto</a>.</p> </li> 
+     <li> <p><strong>Cuando cambia el ámbito de un proyecto</strong>: seleccione esta opción para recalcular las cronologías del proyecto inmediatamente cuando se produzca un cambio en el ámbito del proyecto. Para obtener información sobre lo que constituye un cambio de ámbito del proyecto, consulte <a href="../../../manage-work/projects/manage-projects/recalculate-project-timeline.md" class="MCXref xref" data-mc-variable-override="">Recalcular las escalas de tiempo del proyecto</a>.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p><strong>Cuando se asignan varios usuarios a una tarea, utilice la programación de ...</strong> </p> </td> 
-   <td> <p>Si un proyecto no tiene una programación asignada o si los usuarios asignados a sus tareas no tienen una programación asignada, Workfront utiliza el horario predeterminado del sistema para calcular la línea de tiempo de las tareas.</p> <p>Si asigna varios usuarios a la misma tarea en un proyecto que tiene una programación asignada (y los usuarios asignados a las tareas también tienen una programación asignada), Workfront utiliza las siguientes programaciones:</p> 
+   <td> <p>Si un proyecto no tiene una programación asignada o si los usuarios asignados a sus tareas no tienen una programación asignada, Workfront utiliza el horario predeterminado del sistema para calcular la cronología de las tareas.</p> <p>Si asigna varios usuarios a la misma tarea en un proyecto que tiene una programación asignada (y los usuarios asignados a las tareas también tienen una programación asignada), Workfront utiliza las siguientes programaciones:</p> 
     <ul> 
-     <li><strong>Asignación principal</strong>: Workfront usa la programación de la asignación principal de la tarea para calcular las líneas de tiempo.</li> 
-     <li><strong>Proyecto</strong>: Workfront usa la programación del proyecto para calcular la línea de tiempo de cada tarea.</li> 
+     <li><strong>Asignación principal</strong>: Workfront usa la programación de la asignación principal de la tarea para calcular las cronologías.</li> 
+     <li><strong>Proyecto</strong>: Workfront usa la programación del proyecto para calcular la cronología de cada tarea.</li> 
     </ul> <p>Para obtener más información acerca de las programaciones, consulte <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref" data-mc-variable-override="">Crear una programación</a>.</p> </td> 
   </tr> 
  <tr> 
@@ -222,18 +222,23 @@ Configure cualquiera de las siguientes preferencias para los proyectos recién c
     </ul> <p>Para obtener más información acerca de las programaciones, consulte <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref" data-mc-variable-override="">Crear una programación</a>.</p></td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>Cálculos de escala de tiempo </p> </td> 
+   <td role="rowheader"> <p><b>Cálculos de escala de tiempo</b></p> </td> 
    <td> 
     <ul> 
      <li><strong>Horas habituales por día laborable</strong>: establezca la cantidad de horas en un día laborable habitual para los usuarios que trabajarán en proyectos. El valor predeterminado es de 8 horas.</li> 
     </ul> 
     <ul> 
      <li><strong>Días laborables habituales por semana</strong>: establezca la semana laboral estándar para los usuarios que trabajarán en proyectos. El valor predeterminado es de 5 días.</li> 
-    </ul> <p>Estas dos opciones convierten los días en horas o las semanas en días.</p> <p>Por ejemplo, si tiene una tarea con 8 horas planificadas y la duración se calcula según las horas planificadas, Workfront convierte esas horas en días para mostrar la duración como días.</p> <p>En el campo Días laborables habituales por semana, Workfront calcula el valor de Equivalente a jornada completa (EJC) para su sistema. Esto es lo que utiliza Workfront al calcular las asignaciones para los usuarios.</p> <p>Estos valores se utilizan cuando se planifican las líneas de tiempo de los proyectos, se presupuestan los recursos o se registra el tiempo en los proyectos. </p> <p>No se usan cuando se establecen las plantillas de horas para los usuarios del sistema, tal como se describe en <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md" class="MCXref xref" data-mc-variable-override="">Configurar preferencias de plantilla de horas y horas</a>.</p> <p><b>NOTA</b>: Los administradores de Workfront no pueden desbloquear las preferencias de cálculos de línea de tiempo.</p> </td> 
+    </ul> <p>Estas dos opciones convierten los días en horas o las semanas en días.</p> <p>Por ejemplo, si tiene una tarea con 8 horas planificadas y la duración se calcula según las horas planificadas, Workfront convierte esas horas en días para mostrar la duración como días.</p> <p>En el campo Días laborables habituales por semana, Workfront calcula el valor de Equivalente a jornada completa (EJC) para su sistema. Esto es lo que utiliza Workfront al calcular las asignaciones para los usuarios.</p> <p>Estos valores se utilizan cuando se planifican las cronologías de los proyectos, se presupuestan los recursos o se registra el tiempo en los proyectos. </p> <p>No se usan cuando se establecen las plantillas de horas para los usuarios del sistema, tal como se describe en <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md" class="MCXref xref" data-mc-variable-override="">Configurar preferencias de plantilla de horas y horas</a>.</p> <p><b>NOTA</b>: Los administradores de Workfront no pueden desbloquear las preferencias de cálculos de cronología.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader"> <p><strong>Trimestres personalizados</strong> </p> </td> 
-   <td> <p>Configure trimestres anuales personalizados para los usuarios que trabajarán en proyectos. Los trimestres personalizados suelen ser trimestres que no coinciden con el desglose tradicional de trimestres durante un año natural. Puede añadir varios trimestres personalizados. Para obtener más información, consulte <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md" class="MCXref xref" data-mc-variable-override="">Habilitar trimestres personalizados</a>.</p> <p><b>NOTA</b>: Los administradores de Workfront no pueden desbloquear las preferencias de trimestres personalizados.</p> </td> 
+   <td> 
+   <span class="preview">El área Trimestres personalizados se ha eliminado de la sección Preferencias de proyecto del grupo en el entorno de vista previa.</span>
+   <p>Los trimestres personalizados suelen ser trimestres que no coinciden con el desglose tradicional de trimestres durante un año natural. Un administrador de Workfront puede agregar varios trimestres personalizados en el área <b>Configuración</b>. Para obtener más información, consulte <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md" class="MCXref xref" data-mc-variable-override="">Habilitar trimestres personalizados</a>.</p>  
+   <p><b>IMPORTANTE<b></p>
+   <p>No puede cambiar la configuración de Trimestre personalizado como administrador de grupo. <p>Los administradores de Workfront no pueden desbloquear las preferencias de Trimestres personalizados para que los administradores de grupos puedan administrarlas.</p> <p>El área Trimestres personalizados es de solo lectura para los administradores de grupos.</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>

@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 1a1affed-1b06-442c-98b2-9f360eee767b
-source-git-commit: 20ebcb74c79aea67ea7cb1ba083dfea623fe7c16
+source-git-commit: 20ea292d49c691335e98459ff3eb00051a78577d
 workflow-type: tm+mt
-source-wordcount: '2670'
-ht-degree: 93%
+source-wordcount: '2701'
+ht-degree: 91%
 
 ---
 
@@ -124,7 +124,7 @@ Configure cualquiera de las siguientes preferencias para proyectos recién cread
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Automatically set the project's Condition based on the Progress Status]</td> 
-   <td> <p>Esta preferencia permite a los usuarios establecer manualmente la [!UICONTROL Condition] de un proyecto en ([!UICONTROL On Target], [!UICONTROL At Risk] o [!UICONTROL In Trouble]) o hacer que [!DNL Workfront] establezca la [!UICONTROL Condition] (estado del progreso) automáticamente según la progresión del proyecto en la línea de tiempo. Para obtener más información acerca de la condición de los proyectos, consulte <a href="../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md" class="MCXref xref" data-mc-variable-override="">Información general sobre la condición y el tipo de condición del proyecto</a>.</p> </td> 
+   <td> <p>Esta preferencia permite a los usuarios establecer manualmente la [!UICONTROL Condition] de un proyecto en ([!UICONTROL On Target], [!UICONTROL At Risk] o [!UICONTROL In Trouble]) o hacer que [!DNL Workfront] establezca la [!UICONTROL Condition] (estado del progreso) automáticamente según la progresión del proyecto en la cronología. Para obtener más información acerca de la condición de los proyectos, consulte <a href="../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md" class="MCXref xref" data-mc-variable-override="">Información general sobre la condición y el tipo de condición del proyecto</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Create baselines automatically]</p> </td> 
@@ -139,7 +139,7 @@ Configure cualquiera de las siguientes preferencias para proyectos recién cread
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL Estimate at Completion &#x200B;]</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Estimate at Completion ]</p> </td> 
    <td> <p>Determine los datos que utiliza [!DNL Workfront] para calcular el [!UICONTROL Estimate at Completion] (EAC), que representa el coste proyectado total de un proyecto.</p> 
     <ul> 
      <li><strong>[!UICONTROL Calculate at project level]</strong>: el EAC de la tarea principal y el proyecto se determinan introduciendo las [!UICONTROL Actual Hours] o el [!UICONTROL Actual Labor Cost] en las fórmulas de EAC. El cálculo incluye las [!UICONTROL Actual Hours] o los [!UICONTROL Costs and Expenses] añadidos directamente a la tarea principal o el proyecto.</li> 
@@ -185,9 +185,9 @@ Configure cualquiera de las siguientes preferencias para proyectos recién cread
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Project timelines are automatically re-calculated]</p> </td> 
-   <td> <p>Determine cuándo se vuelve a calcular la línea de tiempo de un proyecto. Para obtener información sobre cómo recalcular la escala de tiempo del proyecto, consulte <a href="../../../manage-work/projects/manage-projects/recalculate-project-timeline.md" class="MCXref xref" data-mc-variable-override="">Recalcular las escalas de tiempo del proyecto</a>.</p> <p>Las siguientes opciones están habilitadas de forma predeterminada. Puede seleccionar una o varias de las siguientes opciones de configuración:</p> 
+   <td> <p>Determine cuándo se vuelve a calcular la cronología de un proyecto. Para obtener información sobre cómo recalcular la escala de tiempo del proyecto, consulte <a href="../../../manage-work/projects/manage-projects/recalculate-project-timeline.md" class="MCXref xref" data-mc-variable-override="">Recalcular las escalas de tiempo del proyecto</a>.</p> <p>Las siguientes opciones están habilitadas de forma predeterminada. Puede seleccionar una o varias de las siguientes opciones de configuración:</p> 
     <ul> 
-     <li> <p><strong>[!UICONTROL Every night]</strong>: seleccione esta opción para recalcular las escalas de tiempo del proyecto cada noche. Los cambios que realice en el proyecto y que puedan afectar a la línea de tiempo no serán visibles de inmediato. [!DNL Workfront​​​] recalcula las escalas de tiempo por la noche solamente para proyectos donde se cumplen las dos condiciones siguientes:</p> <p> 
+     <li> <p><strong>[!UICONTROL Every night]</strong>: seleccione esta opción para recalcular las escalas de tiempo del proyecto cada noche. Los cambios que realice en el proyecto y que puedan afectar a la cronología no serán visibles de inmediato. [!DNL Workfront​​​] recalcula las escalas de tiempo por la noche solamente para proyectos donde se cumplen las dos condiciones siguientes:</p> <p> 
        <ul> 
         <li>Tiene un estado de [!UICONTROL Current]</li> 
         <li>Ha tenido una actualización en los últimos 3 meses</li> 
@@ -233,11 +233,13 @@ Configure cualquiera de las siguientes preferencias para proyectos recién cread
     </ul> 
     <ul> 
      <li><strong>[!UICONTROL Typical work days per week]</strong>: establezca la semana laboral estándar para los usuarios que trabajan en proyectos. El valor predeterminado es de 5 días.</li> 
-    </ul> <p>Estas dos opciones convierten los días en horas o las semanas en días.</p> <p>Por ejemplo, si tiene una tarea con 8 horas planificadas y la duración se calcula según las horas planificadas, [!DNL Workfront] convierte esas horas en días para mostrar la duración como días.</p> <p>En el campo [!UICONTROL Typical work days per week], [!DNL Workfront] calcula el valor de Equivalente a jornada completa (FTE) para su sistema. Esto es lo que [!DNL Workfront] usa al calcular asignaciones para los usuarios.</p> <p>Estos valores se utilizan cuando se planifican las líneas de tiempo de los proyectos, se presupuestan los recursos o se registra el tiempo en los proyectos. </p> <p>No se usan al establecer plantillas de horas para los usuarios del sistema, tal como se describe en <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md" class="MCXref xref" data-mc-variable-override="">[!UICONTROL Configure] preferencias de hoja de horas y de horas</a>.</p> <p><b>NOTA</b>:</p> <p>[!DNL Workfront] Los administradores no pueden desbloquear las preferencias de [!UICONTROL Timeline Calculations].</p> </td> 
+    </ul> <p>Estas dos opciones convierten los días en horas o las semanas en días.</p> <p>Por ejemplo, si tiene una tarea con 8 horas planificadas y la duración se calcula según las horas planificadas, [!DNL Workfront] convierte esas horas en días para mostrar la duración como días.</p> <p>En el campo [!UICONTROL Typical work days per week], [!DNL Workfront] calcula el valor de Equivalente a jornada completa (FTE) para su sistema. Esto es lo que [!DNL Workfront] usa al calcular asignaciones para los usuarios.</p> <p>Estos valores se utilizan cuando se planifican las cronologías de los proyectos, se presupuestan los recursos o se registra el tiempo en los proyectos. </p> <p>No se usan al establecer plantillas de horas para los usuarios del sistema, tal como se describe en <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md" class="MCXref xref" data-mc-variable-override="">[!UICONTROL Configure] preferencias de hoja de horas y de horas</a>.</p> <p><b>NOTA</b>:</p> <p>[!DNL Workfront] Los administradores no pueden desbloquear las preferencias de [!UICONTROL Timeline Calculations].</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader"> <p>[!UICONTROL Custom Quarters]</p> </td> 
-   <td> <p>Configure trimestres anuales personalizados para los usuarios que trabajarán en proyectos. Los trimestres personalizados suelen ser trimestres que no coinciden con el desglose tradicional de trimestres durante un año natural. Puede añadir varios trimestres personalizados. Para obtener más información, consulte <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md" class="MCXref xref" data-mc-variable-override="">Habilitar trimestres personalizados</a>.</p>  <p><b>NOTA</b>: </p><p>[!DNL Workfront] Los administradores no pueden desbloquear las preferencias de [!UICONTROL Custom Quarters].</p> </td> 
+   <td> <span class="preview">El área Trimestres personalizados se ha eliminado de la sección Preferencias de proyecto en el entorno de vista previa.</span> 
+   <span class="preview">Para obtener más información, consulte <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md" class="MCXref xref" data-mc-variable-override="">Habilitar trimestres personalizados</a>.</p></span>
+   <p>En el entorno Producción, configure trimestres anuales personalizados para los usuarios que trabajarán en proyectos. Los trimestres personalizados suelen ser trimestres que no coinciden con el desglose tradicional de trimestres durante un año natural. Puede agregar varios trimestres personalizados.   <p><b>NOTA</b>: </p><p>[!DNL Workfront] los administradores no pueden desbloquear las preferencias de [!UICONTROL Trimestres personalizados] y los administradores de grupos no pueden editar esta configuración en el nivel de grupo.</p> </td> 
   </tr> 
  </tbody> 
 </table>

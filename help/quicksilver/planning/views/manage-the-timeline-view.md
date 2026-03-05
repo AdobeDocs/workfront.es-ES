@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 892a86f053fb170872b0b4b6126b67974129d372
+source-git-commit: 20ea292d49c691335e98459ff3eb00051a78577d
 workflow-type: tm+mt
-source-wordcount: '4067'
+source-wordcount: '4066'
 ht-degree: 41%
 
 ---
@@ -176,7 +176,7 @@ Para administrar una vista de cronología:
 
      >[!TIP]
      >
-     >Este mensaje solo debe mostrarse inmediatamente después de que las compras de su organización en Planning y en trimestres personalizados ya estuvieran habilitadas antes de la compra. No se permiten superposiciones y espacios entre los trimestres después de habilitar Workfront Planning para su organización.
+     >Este mensaje debe mostrarse inmediatamente después de que su organización compre Planning y los trimestres personalizados ya estaban habilitados antes de la compra. No se permiten superposiciones y espacios entre los trimestres después de habilitar Workfront Planning para su organización.
 
    * Si los trimestres se han configurado parcialmente y faltan algunos meses del mismo año, puede recibir una notificación cuando se desplace para mostrar los trimestres que faltan y que el resto del año debe configurarse con los trimestres que faltan.
 
