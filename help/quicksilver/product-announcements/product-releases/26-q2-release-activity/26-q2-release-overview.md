@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7e440fc0-45ad-4f73-ae7e-5374e4ae1480
-source-git-commit: 8fdc6d1b72967b2a52295c31cb83d43594817d6f
+source-git-commit: d721f04259046f271e9f420e445af6e87d67a5c0
 workflow-type: tm+mt
-source-wordcount: '1323'
+source-wordcount: '1352'
 ht-degree: 41%
 
 ---
@@ -51,12 +51,21 @@ The <add release> release webinar will be held on <date>. You can [register for 
             <col style="width: 50%;" />
             <col style="width: 25%;" />
             <tbody>
-               <tr>
+              <tr>
         <td><strong>Característica</strong>
         </td>
         <td><strong>Vista previa</strong></td>
         <td><strong>Versión rápida</strong></td>
         <td><strong>Trimestralmente</strong></td>
+        </tr>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Trimestres personalizados eliminados de las preferencias del proyecto</a><p>Hemos movido el área Trimestre personalizado de la sección Preferencias de proyecto. Ahora es una sección independiente en Configuración.</p>
+        </td>
+        <td><p>jueves, 05 de marzo de 2025</p></td>
+        <td><p>jueves, 15 de abril de 2026</p></td>
+        <td><p>viernes, 16 de abril de 2026</p></td>
+    </tr>
     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Contraer sección de formulario personalizado de forma predeterminada</a><p>De forma predeterminada, todas las secciones de un formulario personalizado se expanden cuando se expande el propio formulario. Una nueva opción del diseñador de formularios personalizado permite marcar una sección para que se contraiga de forma predeterminada cuando un usuario abre el formulario. Esta opción se aplica en el nivel de sección, no en los campos.</p>
@@ -65,7 +74,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td><p>viernes, 12 de marzo de 2026</p></td>
         <td><p>viernes, 16 de abril de 2026</p></td>
     </tr>
-    <tr>
+     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">El tipo de campo de texto enriquecido ya está disponible en los formularios personalizados</a><p>El nuevo tipo de campo <b>Texto enriquecido</b> de los formularios personalizados es un editor de texto robusto con opciones de formato como superíndice y subíndice, encabezados y tablas, además de las opciones tradicionales de negrita, cursiva, subrayado, viñetas, numeración, hipervínculos y comillas de bloque. El límite de caracteres sigue siendo de 15 000.</p>
         </td>

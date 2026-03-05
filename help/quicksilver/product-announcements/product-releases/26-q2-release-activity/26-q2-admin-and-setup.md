@@ -5,10 +5,10 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: ce152c48-ed72-47ed-b1c5-940c93b4a9ec
-source-git-commit: 860bd4bef75a90f4e1c5a21f38de95962804c00c
+source-git-commit: d3a7c3c03b6be87f3adf2fd67b9136bc2be9c24b
 workflow-type: tm+mt
-source-wordcount: '358'
-ht-degree: 19%
+source-wordcount: '466'
+ht-degree: 16%
 
 ---
 
@@ -17,6 +17,23 @@ ht-degree: 19%
 Esta página describe las mejoras realizadas por el administrador con la versión del segundo trimestre de 2026 en el entorno de vista previa. Estas mejoras estarán disponibles en el entorno de producción, como se ha indicado.
 
 Para obtener una lista de todos los cambios disponibles en este punto del ciclo de la versión del segundo trimestre de 2026, consulte [Información general de la versión del segundo trimestre de 2026](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md).
+
+## Los trimestres personalizados ahora están disponibles como una página independiente en Configuración
+
+>[!NOTE]
+>
+>Vista previa: 5 de marzo de 2026
+>Versión rápida de producción: jueves, 15 de abril de 2026
+>Producción para todos: viernes, 16 de abril de 2026
+
+Hemos movido el área Trimestre personalizado de la sección Preferencias de proyecto. Ahora es una sección independiente en Configuración. 
+Esta actualización incluye lo siguiente:
+
+* El área Trimestres personalizados se quita de la sección Preferencias de proyecto en Configuración
+* La sección Trimestres personalizados se agrega al panel izquierdo Configuración. La funcionalidad sigue siendo la misma. 
+* La sección Trimestres personalizados se ha eliminado de la sección Preferencias de proyecto de un grupo. Los administradores de grupo ya no tienen visibilidad de la configuración de trimestres personalizados. 
+
+Para obtener más información, consulte [Habilitar trimestres personalizados](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md).
 
 ## Contraer sección de formulario personalizado de forma predeterminada
 
