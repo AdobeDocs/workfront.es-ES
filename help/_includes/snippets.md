@@ -1,8 +1,8 @@
 ---
-source-git-commit: 703d2bb511109a68d2917fd83fd1b7f7a562f5a9
+source-git-commit: 550a4e94ce340083937ad89f5dad9e151abe9075
 workflow-type: tm+mt
-source-wordcount: '2670'
-ht-degree: 30%
+source-wordcount: '2688'
+ht-degree: 29%
 
 ---
 # Fragmentos
@@ -60,6 +60,10 @@ ht-degree: 30%
 ## Paso 1: Haga clic solo en el menú principal {#step1-click-main-menu}
 
 1. Haga clic en el icono **[!UICONTROL Menú principal]** ![Menú principal](/help/_includes/assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront, o (si está disponible), haga clic en el icono **[!UICONTROL Menú principal]** ![Menú principal](/help/_includes/assets/main-menu-icon-left-nav.png) en la esquina superior izquierda.
+
+## Paso 1: Haga clic solo en Shell del menú principal {#step1-click-main-menu-shell-only}
+
+1. Haga clic en el icono **[!UICONTROL Menú principal]** ![Menú principal](/help/_includes/assets/main-menu-icon-left-nav.png) en la esquina superior izquierda.
 
 ## Paso 1: Haga clic en Menú principal y luego en - {#step1-click-mm-then-click}
 

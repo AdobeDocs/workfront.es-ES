@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: ce3ca4d55fd3fe0630da4961f27159fe5e31612a
+source-git-commit: 550a4e94ce340083937ad89f5dad9e151abe9075
 workflow-type: tm+mt
-source-wordcount: '2086'
-ht-degree: 96%
+source-wordcount: '2348'
+ht-degree: 78%
 
 ---
 
@@ -179,154 +179,211 @@ Existen limitaciones en cuanto a la cantidad de objetos de Workfront Planning qu
 
 A continuación, se muestran los objetos y conceptos principales de Workfront Planning:
 
-* **Espacio de trabajo**: colección de tipos de registros que definen el ciclo de vida operativo de una determinada organización. Un espacio de trabajo es el marco de trabajo de una unidad organizativa.
+* [Espacios de trabajo](#workspaces)
+* [Tipos de registro](#record-types)
+* [Registros](#records)
+* [Plantillas de espacio de trabajo](#workspace-templates)
+* [Campos](#fields)
+* [Tipos de registros, registros y campos conectados](#connected-record-types-records-and-fields)
+* [Campos de búsqueda](#lookup-fields)
+* [Jerarquías](#hierarchies)
+* [Vistas](#views)
+* [Automatizaciones](#automations)
+* [Formularios de solicitud](#request-forms)
 
-  ![Espacio de trabajo de marketing con página de apertura de taxonomías de tipo de registro](assets/marketing-workspace-with-record-type-taxonomies-opening-page.png)
+### Espacios de trabajo
 
-  Para obtener más información, consulte [Crear espacios de trabajo](/help/quicksilver/planning/architecture/create-workspaces.md).
+Los espacios de trabajo representan el marco de trabajo de una unidad organizativa. Son colecciones de tipos de registros que definen el ciclo de vida operativo de una determinada organización.
 
-* **Tipo de registro**: nombre de los tipos de objeto en Workfront Planning.
+![Espacio de trabajo de marketing con página de apertura de taxonomías de tipo de registro](assets/marketing-workspace-with-record-type-taxonomies-opening-page.png)
 
-  Los tipos de registro rellenan espacios de trabajo.
+Para obtener más información, consulte [Crear espacios de trabajo](/help/quicksilver/planning/architecture/create-workspaces.md).
 
-  A diferencia de Workfront, donde los tipos de objeto están predefinidos, en Workfront Planning es posible crear tipos de objeto propios.
+### Tipos de registro
 
-  Por ejemplo, en Workfront, los tipos de objeto Programa, Portafolios, Proyecto, Tarea o Problema ya están creados.
+Los tipos de registro son los tipos de objetos de Workfront Planning.
 
-  En Workfront Planning es posible crear cualquier tipo de registro que cumpla con los flujos de trabajo de la organización. Posteriormente, defina cómo se relacionarán los tipos de registro entre sí o las dependencias de formularios.
+Los tipos de registro rellenan espacios de trabajo.
 
-  Para más información, consulte [Información general sobre tipos de registro](/help/quicksilver/planning/architecture/overview-of-record-types.md).
+A diferencia de Workfront, donde los tipos de objeto están predefinidos, en Workfront Planning es posible crear tipos de objeto propios.
 
-* **Registro**: instancia de un tipo de registro.
+Por ejemplo, en Workfront, los tipos de objeto Programa, Portafolios, Proyecto, Tarea o Problema ya están creados.
 
-  ![Registros resaltados en la lista de tipo de registro de campaña](assets/records-highlighted-in-campaign-record-type-list.png)
+En Workfront Planning es posible crear cualquier tipo de registro que cumpla con los flujos de trabajo de la organización. Posteriormente, defina cómo se relacionarán los tipos de registro entre sí o las dependencias de formularios.
 
-  Después de añadir un tipo de registro a un espacio de trabajo, podrá empezar a añadir registros de ese tipo a la página del tipo de registro.
+Para más información, consulte [Información general sobre tipos de registro](/help/quicksilver/planning/architecture/overview-of-record-types.md).
 
-  Por ejemplo, “Campaña” podría ser un tipo de registro y “Campaña de verano para EMEA” un registro del tipo de registro Campaña.
+### Registros
 
-  Para obtener más información, consulte [Creación de registros](/help/quicksilver/planning/records/create-records.md).
+Un registro es una instancia de un tipo de registro.
 
-* **Plantilla del espacio de trabajo**: es posible crear un espacio de trabajo con plantillas predefinidas. Utilice los tipos de registro predefinidos y los campos que se incluyan en una plantilla, o bien añada los suyos propios.
+![Registros resaltados en la lista de tipo de registro de campaña](assets/records-highlighted-in-campaign-record-type-list.png)
 
-  ![Página de espacios de trabajo con miniaturas de plantillas](assets/workspaces-page-with-templates-thumbnails.png)
+Después de añadir un tipo de registro a un espacio de trabajo, podrá empezar a añadir registros de ese tipo a la página del tipo de registro.
 
-  Adobe Workfront Planning contiene las siguientes plantillas:
+Por ejemplo, “Campaña” podría ser un tipo de registro y “Campaña de verano para EMEA” un registro del tipo de registro Campaña.
 
-   * Básico: administración de marketing
-   * Administración avanzada de marketing
-   * Empresa: administración de marketing
-   * Administración de ventas
-   * Administración de productos
+Para obtener más información, consulte [Creación de registros](/help/quicksilver/planning/records/create-records.md).
 
-  Para obtener más información, consulte [Lista de plantillas de área de trabajo](/help/quicksilver/planning/architecture/workspace-templates.md).
+### Plantillas de espacio de trabajo
 
-* **Campos**: los campos son atributos que se pueden añadir a los tipos de registro. Los campos contienen información sobre el tipo de registro. <!--check the shot below, "Connection" needs to be in lowercase-->
+Puede crear un espacio de trabajo con plantillas predefinidas. Utilice los tipos de registro predefinidos y los campos que se incluyan en una plantilla, o bien añada los suyos propios.
 
-  ![Lista desplegable de campos de registro](assets/drop-down-list-of-record-fields.png)
+![Página de espacios de trabajo con miniaturas de plantillas](assets/workspaces-page-with-templates-thumbnails.png)
 
-  Consideraciones sobre los campos de registro:
+Adobe Workfront Planning contiene las siguientes plantillas:
 
-   * Aquellos campos que se añadan para un tipo de registro se asociarán automáticamente a todos los registros de ese tipo y se podrán utilizar para capturar datos sobre esos registros.
+* Básico: administración de marketing
+* Administración avanzada de marketing
+* Empresa: administración de marketing
+* Administración de ventas
+* Administración de productos
 
-   * Los campos se muestran como columnas en la vista de tabla aplicada a una página de tipo de registro. También se muestran en la página del registro.
+Para obtener más información, consulte [Lista de plantillas de área de trabajo](/help/quicksilver/planning/architecture/workspace-templates.md).
 
-   * Los campos son únicos para un tipo de registro y no se transfieren de un tipo de registro a otro.
+### Campos
 
-   * Los campos son totalmente personalizables y solo se puede acceder a ellos desde Workfront Planning. No puede acceder a los campos de Workfront Planning desde Workfront.
+Los campos son atributos que se pueden agregar a los tipos de registro. Los campos contienen información sobre el tipo de registro.
 
-  Para obtener más información, consulte [Crear campos](/help/quicksilver/planning/fields/create-fields.md).
+![Lista desplegable de campos de registro](assets/drop-down-list-of-record-fields.png)
 
-  De forma predeterminada, un nuevo tipo de registro está asociado a los siguientes campos predefinidos:
+Consideraciones sobre los campos de registro:
 
-   * Nombre
-   * Descripción
-   * Fecha de inicio
-   * Fecha de finalización
-   * Estado
+* Aquellos campos que se añadan para un tipo de registro se asociarán automáticamente a todos los registros de ese tipo y se podrán utilizar para capturar datos sobre esos registros.
 
-  Puede crear campos personalizados de los siguientes tipos:
+* Los campos se muestran como columnas en la vista de tabla aplicada a una página de tipo de registro. También se muestran en la página del registro.
 
-   * Texto de línea única
-   * Párrafo
-   * Selección múltiple
-   * Selección única
-   * Fecha
-   * Número
-   * Porcentaje
-   * Divisa
-   * Casilla de verificación
-   * Fórmula
-   * Personas
-   * Creado por
-   * Fecha de creación
-   * Última modificación realizada por
-   * Fecha de la última modificación
+* Los campos son únicos para un tipo de registro y no se transfieren de un tipo de registro a otro.
 
-* **Tipos de registros conectados**, **Registros conectados** y **Campos conectados**: puede crear una conexión entre las siguientes entidades en Workfront Planning:
+* Los campos son totalmente personalizables y solo se puede acceder a ellos desde Workfront Planning. No puede acceder a los campos de Workfront Planning desde Workfront.
 
-   * Dos tipos de registros de Workfront Planning.
-   * Un tipo de registro y un tipo de objeto de proyecto, programa, portafolio, compañía o grupo de Workfront.
-   * Un tipo de registro y un recurso o carpeta de Adobe Experience Manager.
+Para obtener más información, consulte [Crear campos](/help/quicksilver/planning/fields/create-fields.md).
 
-     Debe poseer una licencia de Adobe Experience Manager para conectar tipos de registros con objetos de Experience Manager.
+De forma predeterminada, un nuevo tipo de registro está asociado a los siguientes campos predefinidos:
 
-     ![Nueva pestaña de conexión con las opciones de Workfront AEM](assets/new-connection-tab-with-workfront-aem-options.png)
+* Nombre
+* Descripción
+* Fecha de inicio
+* Fecha de finalización
+* Estado
 
-   * Un tipo de registro y una marca Adobe GenStudio for Performance Marketing.
+Puede crear campos personalizados de los siguientes tipos:
 
-     Debe poseer una licencia de Adobe GenStudio for Performance Marketing para conectar tipos de registros con marcas GenStudio.
-
-     ![Nueva pestaña de conexión con la opción de marca Adobe GenStudio](assets/new-connection-tab-with-genstudio-option.png)
+* Texto de línea única
+* Párrafo
+* Selección múltiple
+* Selección única
+* Fecha
+* Número
+* Porcentaje
+* Divisa
+* Casilla de verificación
+* Fórmula
+* Personas
+* Creado por
+* Fecha de creación
+* Última modificación realizada por
+* Fecha de la última modificación
 
 
-  Después de establecer una conexión entre los tipos de registro, puede conectar registros individuales u objetos de esos tipos entre sí. La conexión entre los registros se muestra como un campo de registro conectado o una conexión.
+### Tipos de registros, registros y campos conectados
 
-  La conexión de tipos de registros es útil cuando tiene varios tipos de objetos de trabajo que se afectan entre sí. Por ejemplo, puede trabajar con campañas, y cada una puede adaptarse a varias marcas. Para indicar esta relación, puede conectar campañas a marcas. Además, el trabajo de cada campaña puede planificarse en varios proyectos en Workfront. Para indicar esto, puede conectar las campañas a los proyectos relevantes. La conexión de tipos de registros y, posteriormente, la conexión de registros individuales logra esta relación en Workfront Planning.
+Puede crear una conexión entre las siguientes entidades en Workfront Planning:
 
-* **Campos de búsqueda** (o campos vinculados): después de establecer la conexión entre dos tipos de registro y conectar registros individuales, puede hacer referencia a los campos de los registros vinculados desde el registro desde el que se conecta.
+* Dos tipos de registros de Workfront Planning.
+* Un tipo de registro y un tipo de objeto de proyecto, programa, portafolio, compañía o grupo de Workfront.
+* Un tipo de registro y un recurso o carpeta de Adobe Experience Manager.
 
-  Por ejemplo, si conecta un tipo de registro Campaña con un tipo de objeto Proyecto de Workfront, puede mostrar el campo Presupuesto de los proyectos conectados en los registros de campaña.
+  Debe poseer una licencia de Adobe Experience Manager para conectar tipos de registros con objetos de Experience Manager.
 
-  ![Añadir cuadro Campos de búsqueda](assets/add-lookup-fields-modal.png)
+  ![Nueva pestaña de conexión con las opciones de Workfront AEM](assets/new-connection-tab-with-workfront-aem-options.png)
 
-  >[!TIP]
-  >
-  >* No puede añadir los siguientes tipos de campo como campos de búsqueda desde el registro conectado o tipos de objeto:
-  >   * Creado por
-  >   * Última modificación realizada por
-  >   * Campos de escritura anticipada de Workfront (incluidos campos como Propietario del proyecto o Patrocinador del proyecto)
-  >* No puede agregar los siguientes tipos de campo como campos de búsqueda desde el registro conectado o el tipo de objeto en Producción, <span class="preview">pero puede agregarlos en el entorno de vista previa:</span>
-  >   * Personas
+* Un tipo de registro y una marca Adobe GenStudio for Performance Marketing.
 
-  Para obtener información sobre la conexión de tipos de registros, registros y la creación de campos vinculados, consulte los siguientes artículos:
+  Debe poseer una licencia de Adobe GenStudio for Performance Marketing para conectar tipos de registros con marcas GenStudio.
 
-   * [Conectar tipos de registro](/help/quicksilver/planning/architecture/connect-record-types.md)
-   * [Conectar registros](/help/quicksilver/planning/records/connect-records.md)
+  ![Nueva pestaña de conexión con la opción de marca Adobe GenStudio](assets/new-connection-tab-with-genstudio-option.png)
+
+Después de establecer una conexión entre los tipos de registro o los tipos de registro y de objeto, puede conectar registros individuales u objetos de esos tipos entre sí. La conexión entre los registros se muestra como un campo de registro conectado o una conexión.
+
+La conexión de tipos de registros es útil cuando tiene varios tipos de objetos de trabajo que se afectan entre sí. Por ejemplo, puede trabajar con campañas, y cada una puede adaptarse a varias marcas. Para indicar esta relación, puede conectar campañas a marcas. Además, el trabajo de cada campaña puede planificarse en varios proyectos en Workfront. Para indicar esto, puede conectar las campañas a los proyectos relevantes. La conexión de tipos de registros y, posteriormente, la conexión de registros individuales logra esta relación en Workfront Planning.
+
+### Campos de búsqueda
+
+Después de establecer la conexión entre dos tipos de registro y conectar registros individuales, puede hacer referencia a los campos desde los registros conectados desde el registro desde el que se conecta.
+
+Por ejemplo, si conecta un tipo de registro Campaña con un tipo de objeto Proyecto de Workfront, puede mostrar el campo Presupuesto de los proyectos conectados en los registros de campaña.
+
+![Añadir cuadro Campos de búsqueda](assets/add-lookup-fields-modal.png)
+
+>[!TIP]
+>
+>* No puede añadir los siguientes tipos de campo como campos de búsqueda desde el registro conectado o tipos de objeto:
+>   * Creado por
+>   * Última modificación realizada por
+>   * Campos de escritura anticipada de Workfront (incluidos campos como Propietario del proyecto o Patrocinador del proyecto)
+>* No puede agregar los siguientes tipos de campo como campos de búsqueda desde el registro conectado o el tipo de objeto en Producción, <span class="preview">pero puede agregarlos en el entorno de vista previa:</span>
+>   * Personas
+
+Para obtener información sobre la conexión de tipos de registros, registros y la creación de campos vinculados, consulte los siguientes artículos:
+
+* [Conectar tipos de registro](/help/quicksilver/planning/architecture/connect-record-types.md)
+* [Conectar registros](/help/quicksilver/planning/records/connect-records.md)
 
 <!--not yet:* Fields are reusable across Record Types.  -->
 
-* **Vistas**: los registros se muestran en su página de tipo de registro respectiva en distintos tipos de vistas.
+### Jerarquías
 
-  ![Menú desplegable de tipos de vista en la lista de tipos de registro](assets/view-types-drop-down-from-record-type-list.png)
+Una vez que los tipos de registros están conectados en un espacio de trabajo, puede crear jerarquías que organicen esas conexiones. Las jerarquías organizan los tipos de registros y objetos en relaciones principal-secundario y pueden contener hasta cuatro niveles de tipos de objetos.
 
-  Las vistas contienen configuraciones personalizadas de un tipo de vista específico, como la lista de campos (columnas), una lista de registros (filas), su orden (ordenación) y un filtro y agrupación aplicados o aplicables.
+![Jerarquías en el área de configuración del área de trabajo](assets/hierarchies-in-workspace-settings-area.png)
 
-  Los siguientes son tipos de vista que puede aplicar a la página de tipo de registro:
+Si todavía no existe una conexión entre dos tipos de registro, se puede crear a medida que se configura la jerarquía. Una vez definida, la jerarquía establece una ruta estructurada entre los tipos de registros relacionados dentro del espacio de trabajo.
 
-   * **Vista de tabla**: muestra los registros y sus campos, incluidos los campos conectados y de búsqueda, en formato de tabla. Las filas de la tabla son los registros individuales y las columnas son los campos del registro. La vista de tabla es la predeterminada.
+Las jerarquías generan rutas de exploración para sus registros respectivos que se muestran en sus encabezados. De este modo, los usuarios saben dónde se encuentran en la jerarquía en cualquier fase del flujo de trabajo.
 
-     ![Ejemplo de vista de tabla](assets/table-view-example.png)
+Para obtener información general acerca de jerarquías y rutas de exploración, vea [Información general sobre jerarquías y rutas de exploración](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md).
 
-   * **Vista de cronología**: muestra los registros que tienen al menos dos campos de tipo Fecha en una línea de tiempo cronológica. Puede mostrar hasta cinco tipos de registros conectados y sus registros en la vista de cronología.
+### Vistas
 
-     ![Agrupación aplicada en la vista de cronología](assets/grouping-applied-in-timeline-view.png)
+Los registros se muestran en su página de tipo de registro respectiva en distintos tipos de vistas.
 
-   * **Vista de calendario**: muestra los registros que tienen al menos dos campos de tipo Fecha en formato de calendario.
-     ![Ejemplo de vista de calendario](assets/calendar-view-example.png)
+![Menú desplegable de tipos de vista en la lista de tipos de registro](assets/view-types-drop-down-from-record-type-list.png)
 
+Las vistas contienen configuraciones personalizadas de un tipo de vista específico, como la lista de campos (columnas), una lista de registros (filas), su orden (ordenación) y un filtro y agrupación aplicados o aplicables.
+
+Los siguientes son tipos de vista que puede aplicar a la página de tipo de registro:
+
+* **Vista de tabla**: muestra los registros y sus campos, incluidos los campos conectados y de búsqueda, en formato de tabla. Las filas de la tabla son los registros individuales y las columnas son los campos del registro. La vista de tabla es la predeterminada.
+
+  ![Ejemplo de vista de tabla](assets/table-view-example.png)
+
+* **Vista de cronología**: muestra los registros que tienen al menos dos campos de tipo Fecha en una línea de tiempo cronológica. Puede mostrar hasta cinco tipos de registros conectados y sus registros en la vista de cronología.
+
+  ![Agrupación aplicada en la vista de cronología](assets/grouping-applied-in-timeline-view.png)
+
+* **Vista de calendario**: muestra los registros que tienen al menos dos campos de tipo Fecha en formato de calendario.
+  ![Ejemplo de vista de calendario](assets/calendar-view-example.png)
+
+<!-- add List view here when it's possible to display Planning RTs in it??-->
 
 Para obtener más información, consulte [Administrar vistas de registros](/help/quicksilver/planning/views/manage-record-views.md).
+
+### Automatizaciones
+
+Puede configurar automatizaciones en Adobe Workfront Planning para que, cuando se activen, creen registros en Workfront Planning cuando se activen a partir de un registro de Planning. Los registros creados se conectan automáticamente a los registros desde los que activa la automatización.
+
+Puede configurar y activar la automatización en la página del tipo de registro en Workfront Planning.
+
+Por ejemplo, puede crear una automatización que tome una campaña de Workfront Planning y cree una marca para asociarla a la campaña.
+
+Para obtener información acerca de cómo crear objetos mediante una automatización existente, vea [Crear objetos mediante automatizaciones de registros de Adobe Workfront Planning](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md).
+
+### Formularios de solicitud
+
+Puede crear un formulario de solicitud y asociarlo a un tipo de registro en Adobe Workfront Planning. A continuación, puede compartir el formulario con otros usuarios y estos pueden enviar solicitudes para crear registros de ese tipo.
+
+Para obtener más información, consulte [Crear y administrar un formulario de solicitud en Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 
 ## Localizar Adobe Workfront Planning
 
@@ -336,7 +393,7 @@ Para localizar Workfront Planning, haga lo siguiente:
 
 1. Inicie sesión en Workfront.
 
-{{step1-click-main-menu}}
+{{step1-click-main-menu-shell-only}}
 
 1. Haga clic en **Planning** ![Icono Planning](assets/planning-icon.png).
 
@@ -376,14 +433,6 @@ Para localizar Workfront Planning, haga lo siguiente:
 
       * [Crear registros](/help/quicksilver/planning/records/create-records.md)
       * [Crear campos](/help/quicksilver/planning/fields/create-fields.md).
-
-## Actividad de versión de Workfront Planning
-
-<!--update this with the new release activity page - the article index for all Planning releases-->
-
-Se publican nuevas funciones de Workfront Planning regularmente.
-
-Para obtener una lista actualizada de las funciones publicadas, consulte [Actividad de la versión de Adobe Workfront Planning: índice de artículos](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
 ## Recursos adicionales para Workfront Planning
 
