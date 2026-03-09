@@ -8,7 +8,10 @@ description: Los perfiles empresariales son un modelo de permisos mejorado que p
 author: Becky
 feature: System Setup and Administration
 role: Admin
-source-git-commit: e092a3e827d984a39ae82c73824a0aadcf4e227b
+hide: true
+hidefromtoc: true
+exl-id: 7f62de33-e544-4be9-8dcf-03a2e09e8a05
+source-git-commit: 1389c6a1f41a14bafd6b70e2e079e40d22d47b07
 workflow-type: tm+mt
 source-wordcount: '1466'
 ht-degree: 1%
@@ -116,4 +119,3 @@ Para obtener información acerca de cómo funcionan juntos los niveles de acceso
 * Cuando se elimina un grupo de Workfront, todos los perfiles de negocio asignados a ese grupo se eliminan de los usuarios asociados.
 * Si un nivel de acceso forma parte de un perfil de negocio y se elimina el nivel de acceso, se le pedirá que elija un nuevo nivel de acceso para utilizarlo en su lugar.
 * Las actualizaciones de los perfiles empresariales se rastrean en los registros de auditoría de Workfront. Para obtener más información, consulte Información general sobre los registros de auditoría.
- 
