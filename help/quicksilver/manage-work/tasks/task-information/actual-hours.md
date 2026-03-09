@@ -7,9 +7,9 @@ description: Las horas que inicie sesión en los elementos de trabajo en Adobe W
 author: Alina
 feature: Work Management
 exl-id: c4b0e431-1765-416d-89f5-6ac663ac1d4f
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
 workflow-type: tm+mt
-source-wordcount: '1276'
+source-wordcount: '1270'
 ht-degree: 27%
 
 ---
@@ -201,7 +201,9 @@ Debe tener en cuenta la conversión de minutos a horas al acceder a estos campos
 
 Las horas reales registradas para proyectos, tareas o problemas se almacenan actualmente en la base de datos de Workfront como minutos y su valor es `actualWorkRequired`.
 
-Con la siguiente versión de la API de Workfront programada para su lanzamiento para finales de 2025, las horas reales se almacenan en los siguientes campos y unidades de la base de datos:
+Desde octubre de 2025, con la versión 21 de la API, las horas reales se almacenan en los siguientes campos y unidades de la base de datos:
+
+<!--above used to be this: With the following version of the Workfront API scheduled to release later in 2025, Actual Hours are stored in the following fields and units in the database: -->
 
 * **Horas reales**: Horas registradas para el proyecto, las tareas o los problemas después de mayo de 2021. Se almacenan en la base de datos de Workfront en horas y su campo de valor es `actualWorkRequiredDouble`.
 * **Horas reales heredadas**: Horas registradas para proyectos, tareas o problemas en cualquier momento, incluso antes de mayo de 2021. Se almacenan en la base de datos de Workfront en minutos y su valor es `actualWorkRequired`.

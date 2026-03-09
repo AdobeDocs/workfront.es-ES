@@ -6,10 +6,10 @@ description: Puede cerrar un objetivo cuando desee indicar que lo ha completado 
 author: Alina
 feature: Workfront Goals
 exl-id: bbb549c1-aea6-4f5e-8a6b-01fc04cf06ef
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
 workflow-type: tm+mt
-source-wordcount: '860'
-ht-degree: 18%
+source-wordcount: '873'
+ht-degree: 23%
 
 ---
 
@@ -28,7 +28,7 @@ Puede volver a abrir los objetivos que se han cerrado cuando vuelvan a ser relev
 
 >[!NOTE]
 >
->Su empresa puede optar por seguir utilizando los objetivos de Adobe Workfront si compró este paquete anteriormente. Debe hablar con el representante de su cuenta para obtener más detalles.
+>Su empresa puede optar por seguir utilizando Adobe Workfront Goals si compró este paquete antes. Debe hablar con su representante de cuentas para obtener más detalles.
 >
 >Adobe Workfront Goals ya no se puede adquirir.
 
@@ -43,7 +43,8 @@ Puede volver a abrir los objetivos que se han cerrado cuando vuelvan a ser relev
  <tr>
   <td> <p>Paquete de Adobe Workfront</p> </td> 
    <td> 
-   <p>Adobe Workfront Ultimate</p>
+   <p>Adobe Workfront Ultimate</p><p><b>NOTA</b></p>
+<p>Hable con su representante de Workfront si tiene un paquete de Workfront diferente.</p>
    </td> 
   </tr> 
  <tr>

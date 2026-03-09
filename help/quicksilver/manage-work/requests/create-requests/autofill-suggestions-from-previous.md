@@ -2,13 +2,13 @@
 title: Completar automáticamente una solicitud con datos de solicitudes anteriores
 content-type: reference
 description: Puede utilizar IA para completar automáticamente los campos de solicitud utilizando datos de solicitudes anteriores.
-author: Becky
+author: Alina
 feature: Get Started with Workfront
 exl-id: a0cd1fbf-d3c6-454c-a85a-ceca4b1e8a7b
-source-git-commit: 1b7964b533093c4eee20d69a74512a145e207e29
+source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
 workflow-type: tm+mt
 source-wordcount: '308'
-ht-degree: 21%
+ht-degree: 23%
 
 ---
 
@@ -29,7 +29,7 @@ Los usuarios no reciben sugerencias de datos a los que no tienen acceso de otro 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera </p> </td> 
   </tr> 
   <tr> 

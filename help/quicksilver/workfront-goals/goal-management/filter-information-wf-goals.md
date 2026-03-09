@@ -6,10 +6,10 @@ description: Puede ver las metas que usted o cualquier otro usuario haya añadid
 author: Alina
 feature: Workfront Goals
 exl-id: ec9b6789-fffe-425c-8316-eefe670ad0d6
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
 workflow-type: tm+mt
-source-wordcount: '1304'
-ht-degree: 88%
+source-wordcount: '1317'
+ht-degree: 91%
 
 ---
 
@@ -23,7 +23,7 @@ Puede ver las metas que usted o cualquier otro usuario haya añadido en Adobe Wo
 
 >[!NOTE]
 >
->Su empresa puede optar por seguir utilizando los objetivos de Adobe Workfront si compró este paquete anteriormente. Debe hablar con el representante de su cuenta para obtener más detalles.
+>Su empresa puede optar por seguir utilizando Adobe Workfront Goals si compró este paquete antes. Debe hablar con su representante de cuentas para obtener más detalles.
 >
 >Adobe Workfront Goals ya no se puede adquirir.
 
@@ -36,9 +36,10 @@ Puede ver las metas que usted o cualquier otro usuario haya añadido en Adobe Wo
 </col>
 <tbody>
  <tr>
-  <td> <p>paquete de Adobe Workfront</p> </td> 
+  <td> <p>Paquete de Adobe Workfront</p> </td> 
    <td> 
-   <p>Adobe Workfront Ultimate</p>
+   <p>Adobe Workfront Ultimate</p><p><b>NOTA</b></p>
+<p>Hable con su representante de Workfront si tiene un paquete de Workfront diferente.</p>
    </td> 
   </tr>
  <tr>

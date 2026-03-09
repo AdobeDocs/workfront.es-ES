@@ -3,17 +3,17 @@ product-area: requests;user-management
 navigation-topic: create-and-manage-request-queues
 title: Definición de Tipos de Solicitudes para un Proyecto
 description: Puede organizar el tipo de problemas o solicitudes que se registran en Adobe Workfront por tipos de solicitud.
-author: Becky
+author: Alina
 feature: Work Management
 exl-id: 627749bb-a8d7-4cc2-9d11-237811f82eb8
-source-git-commit: 9cdf3d78e1d19f3d581f8d527919a608c5cc0ddc
+source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
 workflow-type: tm+mt
 source-wordcount: '354'
-ht-degree: 16%
+ht-degree: 18%
 
 ---
 
-# Definición de tipos de solicitud para un proyecto
+# Definir tipos de solicitud para un proyecto
 
 <!-- Audited: 6/2025 -->
 
@@ -28,7 +28,7 @@ Puede organizar el tipo de problemas o solicitudes que se registran en Adobe Wor
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 

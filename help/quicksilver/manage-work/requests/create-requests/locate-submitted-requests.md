@@ -3,15 +3,15 @@ product-area: requests
 navigation-topic: create-requests
 title: Ver solicitudes enviadas
 description: Obtenga información sobre las áreas de Adobe Workfront en las que puede ver solicitudes que usted u otra persona ha enviado o solicitudes que nunca ha enviado y que se han guardado como borradores.
-author: Becky
+author: Alina
 feature: Requests
 topic: Collaboration
 role: User
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
-source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
+source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
 workflow-type: tm+mt
-source-wordcount: '1506'
-ht-degree: 38%
+source-wordcount: '1363'
+ht-degree: 44%
 
 ---
 
@@ -85,39 +85,32 @@ Puede ver las solicitudes enviadas en el área Solicitudes, que incluye vínculo
 
 >[!NOTE]
 >
->Los vínculos a objetos creados sólo están disponibles en la nueva experiencia de solicitud para solicitudes de Planning, en los casos en que la propia solicitud ha creado un objeto. Si una solicitud de Workfront se convierte en un proyecto u otro objeto, un vínculo a ese objeto convertido no estará disponible en la lista de solicitudes de la nueva experiencia de solicitud.
+>Los vínculos a objetos creados sólo están disponibles en la nueva experiencia de solicitud para solicitudes de Planning, en los casos en que la propia solicitud creó un registro.
+>
+>Si una solicitud de Workfront se convierte en un proyecto u otro objeto, un vínculo a ese objeto convertido no estará disponible en la lista de solicitudes de la nueva experiencia de solicitud.
 
 Para ver las solicitudes que usted u otros usuarios han enviado en la nueva experiencia de solicitud:
 
 {{step1-to-requests}}
 
-1. Asegúrese de que la opción **Usar nueva experiencia** esté habilitada en la esquina superior derecha de la pantalla.
+1. Asegúrese de que la opción **Usar nueva experiencia** de la esquina superior derecha de la pantalla esté activada.
 
-   Aparecerá la lista Solicitudes.
+   Se muestra la lista de solicitudes.
 
-1. (Opcional) Para buscar una solicitud, empiece a escribir en la barra de búsqueda situada en la parte superior derecha de la lista. Los resultados de la búsqueda aparecen a medida que escribe.
+1. (Opcional) Para buscar una solicitud, empiece a escribir en la barra de búsqueda de la esquina superior derecha de la lista. Los resultados de la búsqueda aparecen a medida que escribe.
 1. (Opcional) Haga clic en **Filtros** y empiece a agregar condiciones para las solicitudes que desee mostrar.
 
-   Puede filtrar por los siguientes campos:
+   Para obtener más información sobre los filtros, consulte [Crear y administrar vistas en el área de solicitudes](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md).
 
-   * **Workspace**: área de trabajo con la que está asociado el formulario de solicitud.
-   * **Tipo de registro**: Tipo de registro al que está asociado el formulario de solicitud.
-   * **Fecha de entrada**: La fecha en la que se envió la solicitud.
-   * **Formulario de solicitud**: Nombre del formulario de solicitud utilizado para enviar la solicitud.
-   * **Estado**: El estado de la solicitud.
-   * **Ingresado por**: nombre del usuario que agregó la solicitud. Si alguien fuera de Workfront agregó la solicitud, el campo **Ingresado por** muestra `N/A`.
+1. (Opcional) Haga clic en el menú desplegable **Vistas** para actualizar la vista o compartirla con otros.
 
-   Puede tener varios filtros unidos por **And** o **Or**.
-La lista de solicitudes se filtra automáticamente a medida que se añaden las condiciones de filtro.
-1. (Opcional) Utilice las vistas para centrarse en las solicitudes que desea mostrar.
-
-   Para obtener instrucciones, consulte [Crear o editar vistas en el área de solicitudes](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md).
-1. (Opcional) Compruebe el estado de una solicitud en la columna Estado. Los siguientes estados están disponibles en la nueva experiencia solicitante:
+   Para obtener más información, consulte [Crear o editar vistas en el área de solicitudes](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md).
+1. (Opcional) Compruebe el estado de una solicitud comprobando la columna **Estado**. Los siguientes estados están disponibles en la nueva experiencia solicitante:
 
    * **Borrador**: esta solicitud aún no se ha enviado.
    * **Revisión pendiente**: (Solo en Planning) Esta solicitud tiene aprobadores y ninguno de ellos ha abierto la solicitud.
    * **En revisión**: (solo en planeación) Esta solicitud tiene aprobadores y al menos un aprobador ha abierto la solicitud, pero no se ha tomado ninguna decisión.
-   * **Rechazada**: (Solo en Planning) Esta solicitud tiene aprobadores y ha sido rechazada.
+   * **Rechazada**: (Solo en Planning) Esta solicitud tiene aprobadores y ha sido rechazada. Esta solicitud no creará un registro.
    * **En curso**:
       * Solicitudes Workfront: la solicitud se ha convertido y el trabajo está en curso.
       * Solicitudes de Workfront Planning: la finalización de la solicitud se asigna a un campo de Planning específico y el valor del campo aún no coincide con el valor de finalización.
@@ -127,8 +120,8 @@ La lista de solicitudes se filtra automáticamente a medida que se añaden las c
 
 >[!NOTE]
 >
->* Si tiene Workfront Planning, las solicitudes de Workfront y Planning aparecen en la misma lista. Las solicitudes de Workfront muestran el valor `Issue` en la columna Tipo de objeto.
->* La lista Solicitudes aparece con 50 solicitudes mostradas. Para ver más solicitudes, desplácese hasta la parte inferior de la lista.
+>* Si tiene Workfront Planning, las solicitudes de Workfront y Planning aparecen en la misma lista. Las solicitudes Workfront muestran el valor `Issue` en la columna **Tipo de objeto**.
+>* De forma predeterminada, se muestran hasta 50 solicitudes en la lista del área Solicitudes. Para ver más solicitudes, desplácese hasta la parte inferior de la lista.
 
 ### Ver las solicitudes enviadas en la experiencia de solicitud heredada
 
@@ -234,15 +227,17 @@ Para ver las solicitudes que usted u otros usuarios han enviado en la experienci
 
 1. (Opcional) Haga clic en el icono **Filtrar página** ![Icono de búsqueda](assets/search-icon.png) en la parte superior de la lista para buscar una solicitud por su nombre. La lista se actualiza con los resultados que coinciden con los criterios de búsqueda.
 
-1. (Condicional) Para mostrar solo las colas de solicitud de Workfront, busque o filtre `Issue` tipos de objetos.</span>
-
-
    <!--
-   <li value="9" data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p>Click the <strong>Complete</strong> subtab to view requests that have been completed.</p> <p>(NOTE: this step will stay drafted even after release. We can't see Completed at this time!) <br>Requests with an Actual Completion Date or whose resolving object has an Actual Completion Date are listed in the Complete subtab.<br>Once a request receives an Actual Completion Date, it stays in the Recently Completed area for 10 business days. After that, it is moved to the Completed area. <br>For information about resolving and resolvable objects, see the article <a href="../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md" class="MCXref xref">Overview of Resolving and Resolvable Objects </a>.</p> </li>
+
+   1. (Conditional) To display only Workfront Request queues, search or filter for `Issue` object types.</span>
    -->
 
    <!--
-   <li value="10" data-mc-conditions="QuicksilverOrClassic.Draft mode">(Optional) Select an option from the <strong>Sort by</strong> drop-down menu to sort the requests by the following criteria:   (NOTE: this step will stay drafted even after release. We can't see Completed at this time!)  
+   <li> <p>Click the <strong>Complete</strong> subtab to view requests that have been completed.</p> <p>(NOTE: this step will stay drafted even after release. We can't see Completed at this time!) <br>Requests with an Actual Completion Date or whose resolving object has an Actual Completion Date are listed in the Complete subtab.<br>Once a request receives an Actual Completion Date, it stays in the Recently Completed area for 10 business days. After that, it is moved to the Completed area. <br>For information about resolving and resolvable objects, see the article <a href="../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md" class="MCXref xref">Overview of Resolving and Resolvable Objects </a>.</p> </li>
+   -->
+
+   <!--
+   <li>(Optional) Select an option from the <strong>Sort by</strong> drop-down menu to sort the requests by the following criteria:   (NOTE: this step will stay drafted even after release. We can't see Completed at this time!)  
    <ul>
    <li><strong>Assigned To</strong>: Requests are sorted alphabetically by the name of the assignee using the following criteria: 
    <ul>
@@ -262,19 +257,18 @@ Para ver las solicitudes que usted u otros usuarios han enviado en la experienci
 
 1. Haga clic en **Borradores** para ver todas las solicitudes redactadas. Workfront guarda un número ilimitado de borradores para cada cola de solicitudes en esta carpeta. Cuando se introduce una nueva solicitud para un tema de la cola que ya tiene un borrador, se le pedirá que utilice uno existente. Para obtener más información, consulte [Crear solicitudes a partir de borradores](../../../manage-work/requests/create-requests/create-requests-from-drafts.md).
 
-1. (Opcional y condicional) Si su organización compró un paquete de Workfront Planning, haga clic en la pestaña **Planning** y, a continuación, haga clic en **Enviado** en el panel izquierdo para ver las solicitudes de Workfront Planning.
+   <!--Planning tab has been removed and no longer visible in legacy Requests area: 
+   (Optional and conditional) If your organization purchased a Workfront Planning package, click the **Planning** tab, then click **Submitted** in the left panel to view Workfront Planning requests. 
+      Use **Filters** and **Columns** to update the information in the Planning request list. 
+      ![Planning tab submitted section in Requests area](assets/workfront-planning-tab-submitted-section-in-requests-area.png)
+      For information, see [Submit Adobe Workfront Planning requests to create records](/help/quicksilver/planning/requests/submit-requests.md).
+   -->
 
-   Use **Filtros** y **Columnas** para actualizar la información en la lista de solicitudes de Planning.
 
-   ![Sección enviada de la pestaña Planificación en el área de Solicitudes](assets/workfront-planning-tab-submitted-section-in-requests-area.png)
+1. (Opcional) Compruebe el estado de una solicitud comprobando la columna **Estado**. Los siguientes estados están disponibles en la nueva experiencia solicitante:
 
-   Para obtener más información, consulte [Enviar solicitudes de Adobe Workfront Planning para crear registros](/help/quicksilver/planning/requests/submit-requests.md).
-
-
-1. (Opcional) Compruebe el estado de una solicitud en la columna Estado. Los siguientes estados están disponibles en la nueva experiencia solicitante:
-
-   * Borrador: esta solicitud aún no se ha enviado.
-   * En curso
-   * Completar
+   * **Borrador**: esta solicitud aún no se ha enviado.
+   * **En curso**
+   * **Completado**
 
 

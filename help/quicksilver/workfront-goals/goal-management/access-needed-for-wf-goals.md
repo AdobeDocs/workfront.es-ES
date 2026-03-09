@@ -7,10 +7,10 @@ description: El administrador de Adobe Workfront debe asegurarse de que se cumpl
 author: Alina
 feature: Workfront Goals
 exl-id: 3c7c832b-3e00-4ced-8829-8b1c23fa3871
-source-git-commit: dacfd8ef7475b197ac6ce5dd598c99df97037479
+source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
 workflow-type: tm+mt
-source-wordcount: '644'
-ht-degree: 71%
+source-wordcount: '676'
+ht-degree: 66%
 
 ---
 
@@ -20,7 +20,13 @@ ht-degree: 71%
 
 El administrador de Adobe Workfront debe asegurarse de que se cumplan todas las condiciones siguientes antes de que pueda acceder a Adobe Workfront Goals:
 
-* Su organización ha comprado un paquete de Objetivos de Adobe Workfront en el pasado. Adobe Workfront Goals ya no se puede adquirir.
+* Su organización debe tener un paquete de Workfront Ultimate.
+
+  Workfront Goals no está disponible para los paquetes de Workfront Workflow.
+
+  Hable con el representante de su cuenta de Workfront si está renovando Workfront y desea conservar los Objetivos de Workfront.
+
+  Si es un cliente nuevo, los objetivos de Workfront ya no están disponibles para adquirir.
 
   Para obtener más información, consulte la sección [Obtener acceso a la organización de Workfront Goals](#obtain-workfront-goals-organization-access) en este artículo.
 
@@ -37,7 +43,7 @@ El administrador de Adobe Workfront debe asegurarse de que se cumplan todas las 
   >De forma predeterminada, los usuarios no tienen acceso a los objetivos de su nivel de acceso.
 
 
-* Asigne la plantilla de diseño que incluya el área Metas en el menú principal.
+* Asigne una plantilla de diseño que incluya el área Objetivos en el menú principal.
 
   >[!NOTE]
   >
@@ -52,7 +58,9 @@ El administrador de Adobe Workfront debe asegurarse de que se cumplan todas las 
 ## Obtener acceso a la organización de Workfront Goals {#obtain-workfront-goals-organization-access}
 
 El último paquete de Adobe Workfront que incluyó los objetivos de Workfront fue Adobe Workfront Ultimate.
+
 Los objetivos de Workfront ya no se pueden adquirir en paquetes más recientes.
+
 Hable con el representante de su cuenta para consultar sobre los objetivos de Workfront.
 
 <!--Old: >

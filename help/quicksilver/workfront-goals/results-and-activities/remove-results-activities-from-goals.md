@@ -7,10 +7,10 @@ description: Puede quitar resultados, actividades y proyectos de las metas en Ad
 author: Alina
 feature: Workfront Goals
 exl-id: 0e064dbd-6168-47b4-98ab-b5c0481e839e
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
 workflow-type: tm+mt
-source-wordcount: '646'
-ht-degree: 85%
+source-wordcount: '659'
+ht-degree: 89%
 
 ---
 
@@ -36,7 +36,7 @@ Puede eliminar la alineación entre las metas si elimina la conexión entre ella
 
 >[!NOTE]
 >
->Su empresa puede optar por seguir utilizando los objetivos de Adobe Workfront si compró este paquete anteriormente. Debe hablar con el representante de su cuenta para obtener más detalles.
+>Su empresa puede optar por seguir utilizando Adobe Workfront Goals si compró este paquete antes. Debe hablar con su representante de cuentas para obtener más detalles.
 >
 >Adobe Workfront Goals ya no se puede adquirir.
 
@@ -51,7 +51,8 @@ Puede eliminar la alineación entre las metas si elimina la conexión entre ella
  <tr>
   <td> <p>Paquete de Adobe Workfront</p> </td> 
    <td> 
-   <p>Adobe Workfront Ultimate</p>
+   <p>Adobe Workfront Ultimate</p><p><b>NOTA</b></p>
+<p>Hable con su representante de Workfront si tiene un paquete de Workfront diferente.</p>
    </td> 
   </tr>
  <tr>

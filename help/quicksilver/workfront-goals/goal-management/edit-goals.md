@@ -6,10 +6,10 @@ description: Puede editar las metas existentes de cualquier periodo de tiempo y 
 author: Alina
 feature: Workfront Goals
 exl-id: 74db534c-6897-40c2-bea9-a9d30a40f61c
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
 workflow-type: tm+mt
-source-wordcount: '563'
-ht-degree: 14%
+source-wordcount: '576'
+ht-degree: 21%
 
 ---
 
@@ -23,7 +23,7 @@ Puede editar las metas existentes de cualquier periodo de tiempo y en cualquier 
 
 >[!NOTE]
 >
->Su empresa puede optar por seguir utilizando los objetivos de Adobe Workfront si compró este paquete anteriormente. Debe hablar con el representante de su cuenta para obtener más detalles.
+>Su empresa puede optar por seguir utilizando Adobe Workfront Goals si compró este paquete antes. Debe hablar con su representante de cuentas para obtener más detalles.
 >
 >Adobe Workfront Goals ya no se puede adquirir.
 
@@ -38,7 +38,8 @@ Puede editar las metas existentes de cualquier periodo de tiempo y en cualquier 
  <tr>
   <td> <p>Paquete de Adobe Workfront</p> </td> 
    <td> 
-   <p>Adobe Workfront Ultimate</p>
+   <p>Adobe Workfront Ultimate</p><p><b>NOTA</b></p>
+<p>Hable con su representante de Workfront si tiene un paquete de Workfront diferente.</p>
    </td> 
   </tr>
  <tr>

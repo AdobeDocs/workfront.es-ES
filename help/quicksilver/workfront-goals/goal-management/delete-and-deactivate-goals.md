@@ -6,10 +6,10 @@ description: Cuando empiece a trabajar en una meta y esta se vuelva irrelevante 
 author: Alina
 feature: Workfront Goals
 exl-id: 3089adeb-3e56-492a-82fe-536f57079b73
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
 workflow-type: tm+mt
-source-wordcount: '590'
-ht-degree: 81%
+source-wordcount: '603'
+ht-degree: 86%
 
 ---
 
@@ -23,7 +23,7 @@ Cuando empiece a trabajar en una meta y esta se vuelva irrelevante en su organiz
 
 >[!NOTE]
 >
->Su empresa puede optar por seguir utilizando los objetivos de Adobe Workfront si compró este paquete anteriormente. Debe hablar con el representante de su cuenta para obtener más detalles.
+>Su empresa puede optar por seguir utilizando Adobe Workfront Goals si compró este paquete antes. Debe hablar con su representante de cuentas para obtener más detalles.
 >
 >Adobe Workfront Goals ya no se puede adquirir.
 
@@ -38,7 +38,8 @@ Cuando empiece a trabajar en una meta y esta se vuelva irrelevante en su organiz
  <tr>
   <td> <p>Paquete de Adobe Workfront</p> </td> 
    <td> 
-   <p>Adobe Workfront Ultimate</p>
+   <p>Adobe Workfront Ultimate</p><p><b>NOTA</b></p>
+<p>Hable con su representante de Workfront si tiene un paquete de Workfront diferente.</p>
    </td> 
   </tr>
  <tr>

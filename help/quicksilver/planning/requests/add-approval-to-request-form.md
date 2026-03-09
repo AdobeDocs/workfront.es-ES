@@ -3,13 +3,13 @@ title: Agregar una aprobación a un formulario de solicitud en Adobe Workfront P
 description: Puede agregar un proceso de aprobación a un formulario de solicitud de Adobe Workfront Planning para iniciar una aprobación para cada solicitud enviada antes de crear un registro.
 feature: Workfront Planning
 role: User, Admin
-author: Alina, Becky
+author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 058148db-1795-4d39-be87-271008ae3d47
-source-git-commit: f5d6918889b7fed1159274105ee706a027f621bf
+source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
 workflow-type: tm+mt
-source-wordcount: '1192'
-ht-degree: 4%
+source-wordcount: '1210'
+ht-degree: 5%
 
 ---
 
@@ -123,17 +123,15 @@ Para obtener más información acerca de los requisitos de acceso de Workfront, 
 
 <div class="preview">
 
-## Adición de reglas de aprobación a un formulario de solicitud
+## Adición de reglas de aprobación a un formulario de solicitud en el entorno de vista previa
 
->[!NOTE]
->
->Esta funcionalidad solo está disponible en el entorno de vista previa.
-
-Las reglas de aprobación definen el proceso de aprobación en función de los valores de campo en las solicitudes enviadas.
+Las reglas de aprobación definen el proceso de aprobación en función de los valores de los campos de las solicitudes enviadas.
 
 Por ejemplo, si un formulario de solicitud tiene el campo &quot;Tipo de campaña&quot;, se puede crear una regla que envíe la solicitud a una persona cuando el campo tenga el valor &quot;Digital&quot; y a una persona diferente cuando tenga el valor &quot;Imprimir&quot;.
 
 Tenga en cuenta lo siguiente al añadir reglas de aprobación:
+
+<!--below bullet list is duplicated in the Add approval to a request form in the Production environment section above-->
 
 * Puede añadir uno o varios aprobadores a una regla de aprobación.
 * Si al menos un aprobador rechaza la solicitud, esta se rechaza y no se crea el registro. La solicitud permanece en el área de solicitudes de Workfront.
@@ -142,18 +140,16 @@ Tenga en cuenta lo siguiente al añadir reglas de aprobación:
 
 Para definir reglas de aprobación para un formulario de solicitud:
 
-1. Comience a crear un formulario de solicitud para un tipo de registro, como se describe en [Crear y administrar un formulario de solicitud en Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
-1. Haga clic en **Configuración**.
+1. Comience a crear un formulario de solicitud para un tipo de registro, tal como se describe en el artículo [Crear y administrar un formulario de solicitud en Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
+1. Cuando se abra el formulario de solicitud, haga clic en **Configuración**.
 
-   Se muestra la pestaña Configuración.
+   Se abre la ficha **Configuración**.
 
 1. Para comenzar a configurar las reglas de aprobación, haga clic en **Aprobaciones** ![Icono de aprobaciones](assets/approvals-icon-on-form.png) en el panel izquierdo.
 
 1. (Opcional) Si desea establecer un proceso de aprobación predeterminado, agregue al menos un usuario o equipo al campo **Aprobadores** del área **Regla de aprobación predeterminada** y, a continuación, haga clic en la casilla de verificación **Solo se requiere una decisión** si desea que el registro se cree después de que cualquiera de los aprobadores predeterminados lo haya aprobado.
 
    ![Área de regla de aprobación predeterminada](assets/default-approvers.png)
-
-   <!--below bullet list is duplicated in the Add approval to a request form article-->
 
 1. (Opcional) Empiece a añadir reglas de aprobación. Para cada regla de aprobación, haga lo siguiente:
 
@@ -164,7 +160,7 @@ Para definir reglas de aprobación para un formulario de solicitud:
    1. Si el operador seleccionado requiere un valor, haga clic en el icono de signo más y añada uno o más valores.
    1. (Opcional) Haga clic en **Agregar condición** para agregar más condiciones y conectarlas mediante instrucciones **And** o **Or** configurando las condiciones adicionales como en los pasos C-E.
    1. En el área **Actions** de la regla de aprobación, en el campo **Aprobadores**, agregue al menos un usuario o equipo que se establecerá en el aprobador cuando se cumpla la condición.
-   1. (Condicional) Si desea que el registro se cree después de que cualquiera de los aprobadores lo haya aprobado, marque la casilla **Solo se requiere una decisión**.
+   1. (Condicional y opcional) Si desea que el registro se cree después de que cualquiera de los aprobadores lo haya aprobado, marque la casilla **Solo se requiere una decisión**. De lo contrario, todos los aprobadores deben decidir la aprobación antes de aceptar o rechazar la solicitud.
 
 1. Haga clic en **Guardar** para guardar las reglas de aprobación.
 1. (Opcional) Haga clic en **Publicar** si nunca antes había compartido el formulario de solicitud.

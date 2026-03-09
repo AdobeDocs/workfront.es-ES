@@ -3,11 +3,11 @@ product-area: requests
 navigation-topic: create-and-manage-request-queues
 title: Crear temas de la cola
 description: Los temas de la cola funcionan junto con las reglas de enrutamiento para asignar automáticamente el trabajo entrante a un usuario, función o equipo, o para colocarlo en un proyecto. Los temas de la cola definen las condiciones que deben darse para que se implemente la regla de enrutamiento.
-author: Becky
+author: Alina
 feature: Work Management, Requests
 role: User, Admin
 exl-id: 65a74698-011f-4caa-9739-d7510faeb66f
-source-git-commit: 1a56846647e443cf3f5f09eed8c3084434de5ddb
+source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
 workflow-type: tm+mt
 source-wordcount: '964'
 ht-degree: 79%
@@ -63,7 +63,7 @@ Una vez creados, no se pueden mover los temas de la cola de un proyecto o planti
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera </p> </td> 
   </tr> 
   <tr> 

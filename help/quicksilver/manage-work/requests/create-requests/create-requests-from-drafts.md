@@ -3,13 +3,13 @@ product-area: requests
 navigation-topic: create-requests
 title: Crear solicitudes a partir de borradores
 description: Además de utilizar los borradores disponibles que Workfront le sugiere al introducir una nueva solicitud, también puede acceder a una solicitud de borrador desde la sección Borradores y terminar de enviarla desde allí.
-author: Becky
+author: Alina
 feature: Work Management
 exl-id: 664004e7-04c8-4a1f-b682-7b82d349643d
-source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
+source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
 workflow-type: tm+mt
 source-wordcount: '827'
-ht-degree: 16%
+ht-degree: 17%
 
 ---
 

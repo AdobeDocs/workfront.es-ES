@@ -6,10 +6,10 @@ description: Si es un colaborador individual que tiene una meta personal, tal ve
 author: Alina
 feature: Workfront Goals
 exl-id: 4276f1c9-2ee9-4f74-b011-ae1e19fefe35
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
 workflow-type: tm+mt
-source-wordcount: '726'
-ht-degree: 87%
+source-wordcount: '739'
+ht-degree: 91%
 
 ---
 
@@ -37,7 +37,7 @@ En este artículo se describe cómo puede alinear metas conectándolas entre sí
 
 >[!NOTE]
 >
->Su empresa puede optar por seguir utilizando los objetivos de Adobe Workfront si compró este paquete anteriormente. Debe hablar con el representante de su cuenta para obtener más detalles.
+>Su empresa puede optar por seguir utilizando Adobe Workfront Goals si compró este paquete antes. Debe hablar con su representante de cuentas para obtener más detalles.
 >
 >Adobe Workfront Goals ya no se puede adquirir.
 
@@ -48,9 +48,11 @@ En este artículo se describe cómo puede alinear metas conectándolas entre sí
  <col> 
  <tbody>
 
-<td> <p>paquete de Adobe Workfront</p> </td> 
+<td> <p>Paquete de Adobe Workfront</p> 
+  </td> 
    <td> 
-   <p>Adobe Workfront Ultimate</p>
+   <p>Adobe Workfront Ultimate</p> <p><b>NOTA</b></p>
+<p>Hable con su representante de Workfront si tiene un paquete de Workfront diferente.</p>
    </td> 
   </tr> 
   <tr> 

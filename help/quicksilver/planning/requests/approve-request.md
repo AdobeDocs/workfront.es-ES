@@ -3,17 +3,17 @@ title: Aprobar una solicitud en Adobe Workfront Planning
 description: Cuando un usuario envía una solicitud a un formulario de solicitud asociado a una aprobación en Adobe Workfront Planning, los aprobadores reciben una notificación y un correo electrónico sobre la aprobación pendiente. Deben aprobar la solicitud antes de que Workfront Planning cree un objeto.
 feature: Workfront Planning
 role: User, Admin
-author: Alina, Becky
+author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: aca9b313-3420-43f6-8f6c-dd74888bd120
-source-git-commit: ec72e2af00bb5010288eaae725b67ad7dad55486
+source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
 workflow-type: tm+mt
 source-wordcount: '1072'
-ht-degree: 4%
+ht-degree: 6%
 
 ---
 
-# Aprobación de una solicitud en Adobe Workfront Planning
+# Aprobar una solicitud en Adobe Workfront Planning
 
 <!--take Preview and Production references at Production time-->
 
@@ -31,8 +31,8 @@ En este artículo se describe cómo un administrador del espacio de trabajo pued
 
 Le recomendamos que también vea los siguientes artículos:
 
-* [Creación y administración de un formulario de solicitud en Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md)
-* [Envío de solicitudes de Adobe Workfront Planning para crear registros](/help/quicksilver/planning/requests/submit-requests.md)
+* [Crear y administrar un formulario de solicitud en Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md)
+* [Enviar solicitudes de Adobe Workfront Planning para crear registros](/help/quicksilver/planning/requests/submit-requests.md)
 * [Añadir una aprobación a un formulario de solicitud](/help/quicksilver/planning/requests/add-approval-to-request-form.md)
 
 ## Consideraciones sobre la aprobación de solicitudes

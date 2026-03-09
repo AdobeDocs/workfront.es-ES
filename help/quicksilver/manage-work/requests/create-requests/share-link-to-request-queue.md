@@ -1,17 +1,17 @@
 ---
 title: Compartir un vínculo en una cola de solicitudes
 description: Puede compartir un vínculo a una cola de solicitudes, a un grupo de temas o a un tema de la cola mientras envía la solicitud.
-author: Becky
+author: Alina
 feature: Work Management
 exl-id: 91e456ae-a192-4f3a-afff-b3c48854e295
-source-git-commit: 187505de92f9a912547018865f2742bfecec77ad
+source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
 workflow-type: tm+mt
 source-wordcount: '288'
-ht-degree: 17%
+ht-degree: 23%
 
 ---
 
-# Compartir un vínculo a una cola de solicitudes
+# Compartir un vínculo en una cola de solicitudes
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: article conditioned for QS only - hard code when linking it from classic, if needed)</p>
@@ -52,7 +52,7 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 
 +++
 
-## Compartir un vínculo a una cola de solicitudes
+## Compartir un vínculo en una cola de solicitudes
 
 1. Comience a enviar una solicitud como se describe en [Crear y enviar solicitudes de Adobe Workfront](../../../manage-work/requests/create-requests/create-submit-requests.md).
 1. Realice una de las siguientes acciones:

@@ -3,13 +3,13 @@ product-area: requests
 navigation-topic: create-requests
 title: Eliminar una solicitud enviada como borrador de solicitud
 description: Puede eliminar las solicitudes enviadas o los borradores de solicitudes.
-author: Becky
+author: Alina
 feature: Work Management
 exl-id: 9098ada7-0e6b-4de2-97ad-5c6e590fbba3
-source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
+source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
 workflow-type: tm+mt
 source-wordcount: '608'
-ht-degree: 14%
+ht-degree: 17%
 
 ---
 

@@ -6,14 +6,14 @@ description: Puede actualizar la información de las metas individuales accedien
 author: Alina
 feature: Workfront Goals
 exl-id: e9df0d98-05a1-4977-b7f1-426b8f5b3eae
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
 workflow-type: tm+mt
-source-wordcount: '576'
-ht-degree: 11%
+source-wordcount: '589'
+ht-degree: 20%
 
 ---
 
-# Actualice las metas en la sección Detalles de las metas de Adobe Workfront Goals
+# Actualizar metas en la sección de detalles de metas de Adobe Workfront Goals
 
 <!--Audited for P&P only: 10/2025-->
 
@@ -27,7 +27,7 @@ Puede actualizar la información de las metas individuales accediendo al panel D
 
 >[!NOTE]
 >
->Su empresa puede optar por seguir utilizando los objetivos de Adobe Workfront si compró este paquete anteriormente. Debe hablar con el representante de su cuenta para obtener más detalles.
+>Su empresa puede optar por seguir utilizando Adobe Workfront Goals si compró este paquete antes. Debe hablar con su representante de cuentas para obtener más detalles.
 >
 >Adobe Workfront Goals ya no se puede adquirir.
 
@@ -42,7 +42,8 @@ Puede actualizar la información de las metas individuales accediendo al panel D
  <tr>
   <td> <p>Paquete de Adobe Workfront</p> </td> 
    <td> 
-   <p>Adobe Workfront Ultimate</p>
+   <p>Adobe Workfront Ultimate</p><p><b>NOTA</b></p>
+<p>Hable con su representante de Workfront si tiene un paquete de Workfront diferente.</p>
    </td> 
   </tr>
  <tr>
