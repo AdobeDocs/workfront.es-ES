@@ -1,5 +1,5 @@
 ---
-source-git-commit: 550a4e94ce340083937ad89f5dad9e151abe9075
+source-git-commit: c13d893ba3f8748666c8c2d36d66367a6ec4e855
 workflow-type: tm+mt
 source-wordcount: '2688'
 ht-degree: 29%
@@ -7,7 +7,8 @@ ht-degree: 29%
 ---
 # Fragmentos
 
-<!-- Add snippets within the section that the snippet is used. Snippets that are used throughout the Workfront documentation set should be added to the "General" section. -->
+<!-- 
+Add snippets within the section that the snippet is used. Snippets that are used throughout the Workfront documentation set should be added to the "General" section. -->
 
 <!-- General -->
 
@@ -220,78 +221,66 @@ Debe instalar el complemento correcto para la aplicación de Adobe Creative Clou
 1. (Opcional) Ajuste la configuración automatizada del flujo de trabajo de pruebas
 
    <table>
-      <tr>
-         <td colspan="2" ><strong>Fases de revisión</strong>
-         </td>
-      </tr>
-      <tr>
-         <td>Deshabilitar fases
-         </td>
-         <td>
+   <tr>
+      <td colspan="2" ><strong>Fases de revisión</strong>
+      </td>
+   </tr>
+   <tr>
+      <td>Deshabilitar fases
+      </td>
+      <td>
       <ol>
-
-   <li>Alternar Seleccionar todo para desactivar todas las fases. 
+      <li>Alternar Seleccionar todo para desactivar todas las fases. 
       <p>O</p></li>
       <li>Alternar etapas individuales.</li>
-
-   </ol>
-         </td>
-      </tr>
-      <tr>
-         <td>Añadir destinatarios
-         </td>
-         <td>
+      </ol>
+      </td>
+   </tr>
+   <tr>
+      <td>Añadir destinatarios
+      </td>
+      <td>
       <ol>
-
-   <li>En el cuadro Agregar nuevo destinatario, empiece a escribir el nombre del usuario.
-
-   <li>Especifique la Función de prueba.
-
-   <li>Elija el tipo de alertas de correo electrónico para el destinatario. 
+      <li>En el cuadro Agregar nuevo destinatario, empiece a escribir el nombre del usuario.</li>
+      <li>Especifique la Función de prueba.</li>
+      <li>Elija el tipo de alertas de correo electrónico para el destinatario.</li>
+      </ol>
+      </td>
+   </tr>
+   <tr>
+      <td>Establecer una fecha límite
+      </td>
+      <td>
+      <ol>
+      <li>Elija una fecha límite.</li>
+      </ol>
+      </td>
+   </tr>
+   <tr>
+      <td colspan="2" ><strong>Notificaciones por correo electrónico</strong>
+      </td>
+   </tr>
+   <tr>
+      <td>Notificación de la prueba a los destinatarios
+      </td>
+      <td>
+      <ol>
+      <li>Active la casilla de verificación para notificar a los usuarios cuándo se crea la prueba.</li>
+      </ol>
+      </td>
+   </tr>
+   <tr>
+      <td>Añadir un mensaje personalizado
+      </td>
+      <td>
+      <ol>
+      <li>Escriba un asunto.
+      <li>Escriba el mensaje personalizado.
       </li>
       </ol>
-         </td>
+      </td>
       </tr>
-      <tr>
-         <td>Establecer una fecha límite
-         </td>
-         <td>
-      <ol>
-
-   <li>Elija una fecha límite.
-      </li>
-      </ol>
-         </td>
-      </tr>
-      <tr>
-         <td colspan="2" ><strong>Notificaciones por correo electrónico</strong>
-         </td>
-      </tr>
-      <tr>
-         <td>Notificación de la prueba a los destinatarios
-         </td>
-         <td>
-      <ol>
-
-   <li>Active la casilla de verificación para notificar a los usuarios cuándo se crea la prueba.
-      </li>
-      </ol>
-         </td>
-      </tr>
-      <tr>
-         <td>Añadir un mensaje personalizado
-         </td>
-         <td>
-      <ol>
-
-   <li>Escriba un asunto.
-
-   <li>Escriba el mensaje personalizado.
-      </li>
-      </ol>
-         </td>
-      </tr>
-      </table>
+   </table>
 
 <!-- Workfront Planning -->
 
@@ -318,7 +307,8 @@ Debe instalar el complemento correcto para la aplicación de Adobe Creative Clou
 > 
 >Para obtener información general sobre Workfront Planning, consulte [Introducción a Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
 
-<!--Old - before Oct. 15, 2025:
+<!--
+Old - before Oct. 15, 2025:
 >[!IMPORTANT]
 >
 >The information in this article refers to Adobe Workfront Planning, an additional capability from Adobe Workfront. 
@@ -331,9 +321,11 @@ Debe instalar el complemento correcto para la aplicación de Adobe Creative Clou
 >
 > For a complete list of requirements to access Workfront Planning, see [Adobe Workfront Planning access overview](/help/quicksilver/planning/access/access-overview.md). 
 > 
->For more information about Workfront Planning, see [Get started with Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).-->
+>For more information about Workfront Planning, see [Get started with Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
+-->
 
-<!--OLD: 
+<!--
+OLD: 
 >[!IMPORTANT]
 >
 >The information in this article refers to Adobe Workfront Planning, a new offering from Adobe Workfront. 
@@ -464,11 +456,11 @@ Puede cambiar el estado aplicado al elemento de trabajo con el botón Listo. Tam
    >* Los tipos de problemas se pueden personalizar y pueden tener nombres diferentes a los que se enumeran a continuación en su entorno.\
    >  A continuación se muestran las tareas y los tipos de problemas predeterminados:
    >     
-   >   * Tareas
-   >   * Problema
-   >   * Solicitud
-   >   * Solicitud de cambio
-   >   * Informe de errores
+   >  * Tareas
+   >  * Problema
+   >  * Solicitud
+   >  * Solicitud de cambio
+   >  * Informe de errores
 
    Si la tarea o el problema se asignan a varios usuarios, verá la opción &quot;Listo con mi parte&quot; en el menú desplegable, además de los varios estados seleccionados para su equipo.
 
@@ -530,5 +522,4 @@ For each snippets, create a head 2 section and add an anchor, such as
 In any .md file, add {{classic-note}} where you want that shared snippet content to appear.
 
 -->
-
 

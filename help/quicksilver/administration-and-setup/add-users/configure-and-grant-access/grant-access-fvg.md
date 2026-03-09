@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 4fb6eefd-74dd-4941-91d4-0e5f637febf3
-source-git-commit: 2a83e5a415ff254cf5525d6f44ecb0e447e7e70a
+source-git-commit: c13d893ba3f8748666c8c2d36d66367a6ec4e855
 workflow-type: tm+mt
 source-wordcount: '386'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ Para obtener información sobre los controles de filtro, vista y agrupación, co
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td>Cualquiera</td> 
   </tr> 
   <tr> 
@@ -58,7 +58,8 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
 
    De forma predeterminada, los usuarios con una licencia de planificación, trabajo, revisor o solicitud tienen capacidades plenas de visualización y edición. Los usuarios con una licencia de usuario externo no tienen acceso a filtros, vistas y agrupaciones.
 
-   <!--If this changes, undraft section with table below
+   <!--
+   If this changes, undraft section with table below
    -->
 
 1. (Opcional) Para establecer la configuración de acceso para otros objetos y áreas en el nivel de acceso en el que esté trabajando, continúe con uno de los artículos enumerados en [Configurar el acceso a Adobe Workfront](../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md), como [Conceder acceso a las tareas](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md) y [Conceder acceso a los datos financieros](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
@@ -66,9 +67,11 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
 
    Una vez creado el nivel de acceso, puede asignarlo a un usuario. Para obtener más información, consulte [Editar el perfil de un usuario](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
-<!--## Access to filters, views, and groupings by license type
+<!--
+## Access to filters, views, and groupings by license type
 
-Drafting out this section for now because the table is redundant since all four license types can do everything.</span>-->
+Drafting out this section for now because the table is redundant since all four license types can do everything.</span>
+-->
 
 En esta tabla se enumera lo que un administrador de Workfront puede permitir que hagan los usuarios según cada tipo de licencia con los filtros, las vistas y las agrupaciones. Para obtener información sobre los tipos de licencia de Workfront, consulte [Información general sobre licencias de Adobe Workfront](../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md).
 

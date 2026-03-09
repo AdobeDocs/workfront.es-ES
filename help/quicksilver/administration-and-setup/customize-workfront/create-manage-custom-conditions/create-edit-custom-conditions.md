@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 5c950862-4358-4aab-997b-223972662150
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: c13d893ba3f8748666c8c2d36d66367a6ec4e855
 workflow-type: tm+mt
 source-wordcount: '623'
-ht-degree: 8%
+ht-degree: 9%
 
 ---
 
@@ -28,7 +28,7 @@ Como administrador de Adobe Workfront, puede crear o editar una condición perso
  <col> 
  <tbody> 
   <tr> 
-   <td>paquete de Adobe Workfront</td> 
+   <td>Paquete de Adobe Workfront</td> 
    <td><p>Cualquiera</p></td> 
   </tr> 
   <tr> 
@@ -128,7 +128,8 @@ Puede establecer la condición personalizada como condición predeterminada para
 Para obtener más información acerca de las condiciones personalizadas, vea [Condiciones personalizadas](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/custom-conditions.md).
 
 
-<!-- THIS WAS ORIGINALLY BETWEEN THE OTHER TWO BULLETS.
+<!-- 
+   THIS WAS ORIGINALLY BETWEEN THE OTHER TWO BULLETS.
    * When a user is changing the condition for a task or issue on the Updates tab:
 
      ![Change condition when updating comment](assets/change-condition-update-comment.png)
