@@ -6,10 +6,10 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 5d326776b9c5b4d9d24e802375df4630508c8bd0
+source-git-commit: 44ad9ef17277476448b59c3c7bdf1817ad84be37
 workflow-type: tm+mt
 source-wordcount: '2899'
-ht-degree: 8%
+ht-degree: 9%
 
 ---
 
@@ -29,7 +29,7 @@ Debe crear tipos de registros antes de empezar a crear y editar registros.
 
 Para obtener más información, consulte [Crear tipos de registros](/help/quicksilver/planning/architecture/create-record-types.md).
 
-Para obtener información sobre cómo crear registros, vea [Crear registros](/help/quicksilver/planning/records/create-records.md).
+Para obtener información sobre la creación de registros, consulte [Crear registros](/help/quicksilver/planning/records/create-records.md).
 
 &lt;!— mencione aquí que los campos de la vista Detalles son los mismos que los de la vista de tabla — este artículo está vinculado desde Administrar vistas de registros a hacer referencia a esta información—>
 
@@ -139,7 +139,7 @@ Para obtener más información acerca de los requisitos de acceso de Workfront, 
 * Los siguientes tipos de campos se actualizan automáticamente y no se pueden editar sus valores manualmente:
    * Campos vinculados de otros registros
    * Campos de tipo fórmula
-   * Campos del sistema (Creado por, Fecha de creación, Última modificación por, Fecha de última modificación, Fecha de aprobación, Aprobado por)
+   * Campos del sistema (Creado por, Fecha de creación, Última modificación por, Fecha de última modificación, Fecha de aprobación, Aprobado por <!--, <span class="preview">Record ID</span>-->)
 * Si los registros que muestra están vinculados a otros registros, la nueva información de los registros que está modificando se reflejará en los registros vinculados de todos los espacios de trabajo en los que esté vinculado ese registro.
 * No puede editar registros de forma masiva. <!--this will probably change-->
 * Las direcciones URL se reconocen como vínculos en tipos de campo de texto de una sola línea solo cuando comienzan con lo siguiente: http://, https://, ftp:// o www. .

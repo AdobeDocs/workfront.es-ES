@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
+source-git-commit: 44ad9ef17277476448b59c3c7bdf1817ad84be37
 workflow-type: tm+mt
 source-wordcount: '3550'
 ht-degree: 5%
@@ -81,6 +81,7 @@ Para obtener información sobre cómo enviar solicitudes de Workfront Planning, 
 
       * Creado por, Última modificación por, Aprobado por
       * Fecha de creación, Fecha de la última modificación, Fecha de aprobación
+        <!--* <span class="preview">Record ID</span>-->
       * Campos de búsqueda de objetos Workfront
       * Campos de búsqueda de registros conectados de Workfront Planning
 

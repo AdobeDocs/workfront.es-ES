@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 058148db-1795-4d39-be87-271008ae3d47
-source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
+source-git-commit: 44ad9ef17277476448b59c3c7bdf1817ad84be37
 workflow-type: tm+mt
-source-wordcount: '1210'
-ht-degree: 5%
+source-wordcount: '1288'
+ht-degree: 4%
 
 ---
 
@@ -151,7 +151,7 @@ Para definir reglas de aprobación para un formulario de solicitud:
 
    ![Área de regla de aprobación predeterminada](assets/default-approvers.png)
 
-1. (Opcional) Empiece a añadir reglas de aprobación. Para cada regla de aprobación, haga lo siguiente:
+1. (Opcional) Empiece a añadir reglas de aprobación. Para cada regla de aprobación personalizada, haga lo siguiente:
 
    1. Haga clic en **Agregar regla de aprobación**
    1. Haga clic en el título del marcador de posición **Regla de aprobación sin título** e introduzca un nombre para la regla de aprobación.
@@ -161,6 +161,14 @@ Para definir reglas de aprobación para un formulario de solicitud:
    1. (Opcional) Haga clic en **Agregar condición** para agregar más condiciones y conectarlas mediante instrucciones **And** o **Or** configurando las condiciones adicionales como en los pasos C-E.
    1. En el área **Actions** de la regla de aprobación, en el campo **Aprobadores**, agregue al menos un usuario o equipo que se establecerá en el aprobador cuando se cumpla la condición.
    1. (Condicional y opcional) Si desea que el registro se cree después de que cualquiera de los aprobadores lo haya aprobado, marque la casilla **Solo se requiere una decisión**. De lo contrario, todos los aprobadores deben decidir la aprobación antes de aceptar o rechazar la solicitud.
+
+   >[!NOTE]
+   >
+   >   Tenga en cuenta lo siguiente al añadir reglas de aprobación:
+   >
+   >   * Si solo se configura una regla predeterminada, se aplica a todas las solicitudes enviadas.
+   >   * Si se cumple una regla personalizada, el valor predeterminado no se aplica al flujo de trabajo de solicitud y aprobación. Solo se aplican las reglas personalizadas coincidentes para las aprobaciones y se ignora la regla predeterminada.
+   >   * Si se cumplen varias reglas personalizadas, se aplica la primera del orden. En este caso, la aprobación predeterminada no se aplica, si es que la hay.
 
 1. Haga clic en **Guardar** para guardar las reglas de aprobación.
 1. (Opcional) Haga clic en **Publicar** si nunca antes había compartido el formulario de solicitud.

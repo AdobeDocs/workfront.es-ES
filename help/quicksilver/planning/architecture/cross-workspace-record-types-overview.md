@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: aeedd871-dcd3-4fb3-bfc5-99db3e7c9296
-source-git-commit: 5a725e747e8776a867cb0dc4129544f6a28ce8e0
+source-git-commit: 44ad9ef17277476448b59c3c7bdf1817ad84be37
 workflow-type: tm+mt
 source-wordcount: '1709'
 ht-degree: 1%
@@ -120,13 +120,13 @@ El tipo de registro configurado para ser global tiene las siguientes propiedades
    * Tiene los mismos permisos para los registros creados en el espacio de trabajo principal que para el espacio de trabajo y para el tipo de registro global original.
    * Tiene los mismos permisos para los registros creados en un espacio de trabajo secundario que para el espacio de trabajo secundario y para el tipo de registro global de ese espacio.
 
-<!--Removed this as this was too confusing: 
-
-* When the original global record type is added to multiple secondary workspaces, users gain the following visibility to the records added to the global record types: 
-
-    * Members of the original workspace automatically gain View permissions to all records added from any workspace, even if they are  not members of those workspaces. They can view these records in the following workspaces, only if they are a member of these following workspaces: 
-        * The primary workspace
-        * The secondary workspace where the records were added. Secondary workspace members can view only records from workspaces where they are a member.-->
+  <!--
+    Removed this as this was too confusing: 
+    * When the original global record type is added to multiple secondary workspaces, users gain the following visibility to the records added to the global record types: 
+        * Members of the original workspace automatically gain View permissions to all records added from any workspace, even if they are  not members of those workspaces. They can view these records in the following workspaces, only if they are a member of these following workspaces: 
+            * The primary workspace
+            * The secondary workspace where the records were added. Secondary workspace members can view only records from workspaces where they are a member.
+    -->
 
 * Los tipos de registro conectados a un tipo de registro global estarán disponibles para la conexión desde los espacios de trabajo donde se agregue este tipo de registro.
 
@@ -167,14 +167,18 @@ El tipo de registro configurado para ser global tiene las siguientes propiedades
      Para obtener más información, consulte [Compartir vistas](/help/quicksilver/planning/access/share-views.md).
 
 
-<!--when they will be able to add fields to the secondary space, this bullet will need this extra information: 
-    After adding fields to the global record type in the secondary workspace, shared views might not open for other users in workspaces. The fields exist only in the secondary workspace and they would not be visible in any other workspace. Only fields created in the primary workspace are visible in all secondary workspaces where there the record type is added.-->
+<!--
+when they will be able to add fields to the secondary space, this bullet will need this extra information: 
+After adding fields to the global record type in the secondary workspace, shared views might not open for other users in workspaces. The fields exist only in the secondary workspace and they would not be visible in any other workspace. Only fields created in the primary workspace are visible in all secondary workspaces where there the record type is added.
+-->
 
-<!--These two capabilities will come later - and edit some of the bullets below after these capabilities are released:
+<!--
+These two capabilities will come later - and edit some of the bullets below after these capabilities are released:
 * Add new fields
     Fields added to a global record from a secondary workspace are visible only from the secondary workspace. 
 * Add request forms to it
-* Add automations to it-->
+* Add automations to it
+-->
 
 * Ningún usuario puede realizar las siguientes acciones en un tipo de registro global en un espacio de trabajo secundario:
 
@@ -193,7 +197,9 @@ El tipo de registro configurado para ser global tiene las siguientes propiedades
 
    * Si tiene permisos de Administración en el espacio de trabajo original y no tiene permisos en espacios de trabajo secundarios, puede ver los registros agregados desde los espacios de trabajo secundarios en el espacio de trabajo original, pero no puede administrarlos desde el espacio de trabajo original.
    * Si tiene permisos de administración en los espacios de trabajo original y secundario, puede administrar los registros tanto del espacio de trabajo original del tipo de registro global como del espacio de trabajo secundario donde se agregaron.
-     <!--not anymore: * You can view the records in additional secondary workspaces where the global record type is added only if you have View permissions to those workspaces-->
+  <!--
+    not anymore: * You can view the records in additional secondary workspaces where the global record type is added only if you have View permissions to those workspaces
+    -->
 * No se pueden compartir públicamente vistas de un tipo de registro global en un espacio de trabajo secundario.
 
 ### Acceso a las conexiones de un tipo de registro global
@@ -223,6 +229,10 @@ Para utilizar tipos de registros conectables, haga lo siguiente:
    Un gestor de espacio de trabajo puede seleccionar a qué espacios de trabajo está disponible un tipo de registro designado para conectarse.
 
    El tipo de registro original existirá en su espacio de trabajo original y se puede acceder a él desde otro espacio de trabajo.
+
+   <!--
+    <span class="preview">Only System Administrators can designate a record type to be connectable from all workspaces in the system. All other workspace managers can designate specific workspaces to connect to the record type from. </span>
+    -->
 
    Para obtener más información, vea [Configurar las capacidades entre espacios de trabajo para los tipos de registro](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md).
 1. Conéctese a un tipo de registro designado como conectable desde otro espacio de trabajo que administre.

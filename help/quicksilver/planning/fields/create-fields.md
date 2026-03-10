@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: bf34bfa2059d227eca3faa3d719adcf4d711e457
+source-git-commit: 44ad9ef17277476448b59c3c7bdf1817ad84be37
 workflow-type: tm+mt
 source-wordcount: '5510'
 ht-degree: 48%
@@ -14,11 +14,17 @@ ht-degree: 48%
 ---
 
 
-<!--Should the structure of this article be like this other one: https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/custom-form-builder/use-the-custom-form-builder/add-a-custom-field-to-a-custom-form.html?lang=es ??-->
+<!--
+Should the structure of this article be like this other one: https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/custom-form-builder/use-the-custom-form-builder/add-a-custom-field-to-a-custom-form.html?lang=en ??
+-->
 
-<!--will they add a way to create fields elsewhere than in a table?! - how will that change the structure of this article? -->
+<!--
+will they add a way to create fields elsewhere than in a table?! - how will that change the structure of this article? 
+-->
 
-<!--Do we need this for FORMULAS: when we release permissions to RECORDS and we release referring lookup fields in a formula field, update considerations to say that lookup fields from linked records depends on the permissions to the record; if they have no permissions to view a linked record, they won't be able to use that records's lookup fields in a formula - not sure is needed??-->
+<!--
+Do we need this for FORMULAS: when we release permissions to RECORDS and we release referring lookup fields in a formula field, update considerations to say that lookup fields from linked records depends on the permissions to the record; if they have no permissions to view a linked record, they won't be able to use that records's lookup fields in a formula - not sure is needed??
+-->
 
 # Crear campos
 
@@ -85,8 +91,9 @@ Para obtener más información acerca de los requisitos de acceso de Workfront, 
 
 +++   
 
-<!--Old:
+<!--
 
+Old:
  <table style="table-layout:auto"> 
 <col> 
 </col> 
@@ -141,7 +148,8 @@ Para obtener más información acerca de los requisitos de acceso de Workfront, 
    <p>System Administrators have permissions to all workspaces, including the ones they did not create.</p> </td> 
   </tr> 
 </tbody> 
-</table> -->
+</table>
+-->
 
 ## Creación de campos conectando tipos de registro
 
@@ -149,9 +157,11 @@ Puede crear campos de registro vinculados al añadir una nueva conexión entre d
 
 Para obtener información acerca de cómo conectar tipos de registros de Workfront Planning, vea [Conectar tipos de registros](/help/quicksilver/planning/architecture/connect-record-types.md).
 
-<!--## Create fields by importing record types using an Excel or CSV file
+<!--
 
-For more information, see [Create record types](/help/quicksilver/planning/architecture/create-record-types.md).-->
+## Create fields by importing record types using an Excel or CSV file
+For more information, see [Create record types](/help/quicksilver/planning/architecture/create-record-types.md).
+-->
 
 ## Creación de campos creando un tipo de registro
 
@@ -240,14 +250,17 @@ Para obtener más información, consulte [Importar campos de Workfront](/help/qu
    * [Fecha de la última modificación](#last-modified-date)
    * [Fecha de aprobación](#approved-date)
    * [Aprobado por](#approved-by)
+     <!--* <span class="preview">[Record ID](#record-id)</span>-->
      <!--* [Object](#object-field-type)-->
 
    >[!IMPORTANT]
    >
    >No se puede cambiar el tipo de campo después de guardarlo.
 
-   <!--Add this to the IMPORTANT above and make it a NOTE - should do directly to Prod:
-    * You can use any keyword that might be related to any of the field type names. For example, a search for "Budget" will display the Number or Currency field type.-->
+   <!--
+    Add this to the IMPORTANT above and make it a NOTE - should do directly to Prod:
+    * You can use any keyword that might be related to any of the field type names. For example, a search for "Budget" will display the Number or Currency field type.
+    -->
 
 1. Siga añadiendo cada campo, tal como se describe en las secciones siguientes.
 
@@ -575,7 +588,7 @@ Para obtener más información, consulte [Información general sobre campos de f
    >
    >* Puede hacer referencia a un campo que esté hasta 4 campos (y objetos) fuera del tipo de registro actual. Por ejemplo, si está creando un campo de fórmula para un tipo de registro Actividad (1) y la actividad está conectada al tipo de registro Campaña (2) que está conectado a un proyecto Workfront (3), puede hacer referencia al campo Presupuesto del proyecto (4) en la fórmula que está creando para el tipo de registro Actividad.
    >
-   >![Se quitaron cuatro campos del presupuesto del proyecto de ejemplo de fórmula &#x200B;](assets/formula-example-project-budget-four-fields-removed.png)
+   >![Se quitaron cuatro campos del presupuesto del proyecto de ejemplo de fórmula ](assets/formula-example-project-budget-four-fields-removed.png)
    >
 
 1. (Opcional) Haga clic en **Maximizar** para abrir el cuadro Fórmula en un área más grande.
@@ -797,6 +810,33 @@ Puede utilizar el tipo de campo Approved by para agregar al usuario que aprobó 
 
    El nuevo campo Approved by-type se agrega como una columna al tipo de registro y sus valores se rellenan previamente con el nombre del usuario que modificó cada registro por última vez.
 
+<!--
+<span class="preview">
+
+## Record ID
+
+You can use the Record ID field type to reveal a system-generated, read-only identifier for each record. 
+
+When created, the Record ID field auto-populates with an alpha-numeric value. You can use it in formula fields and in API integrations to uniquely identify each record. 
+
+You cannot manually modify the value of a Record ID field. 
+ 
+1. Start creating a field as described in the section [Create fields from scratch](#create-fields-from-scratch) in this article, then select the **Record ID** field type.
+ 
+   ![Record ID field type](assets/record-id-field-type.png)
+
+1. Add the following information in the **New field** tab:
+
+     * **Name**: The name of the field, as it will appear in a table or the record page. 
+     * **Description**: Additional information about the field. The description of a field displays when you hover over the field's column in a table, or when you click the information icon next to the field name in the record's details page.
+    
+1. Click **Create**.
+
+    The new Record ID-type field is added as a column to the record type and its values are prefilled with an alpha-numeric value.  
+
+</span>
+
+-->
 <!--
 
 ## Object field type

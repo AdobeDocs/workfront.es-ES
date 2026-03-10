@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 3b2fc764-f384-41bb-9d88-b2b88434ffc6
-source-git-commit: ca16652aa06b4652d0d1b41156ed1ef96225c49a
+source-git-commit: 44ad9ef17277476448b59c3c7bdf1817ad84be37
 workflow-type: tm+mt
-source-wordcount: '2170'
+source-wordcount: '2185'
 ht-degree: 2%
 
 ---
@@ -28,7 +28,7 @@ recommendations: noDisplay, noCatalog
 <!--use this article to make this one similar to it: https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-integrations/review-approval-integrations/wf-proof-and-genstudio-->
 
 
-# Introducción a la integración de Adobe Workfront Planning y Adobe GenStudio for Performance Marketing
+# Introducción a Adobe Workfront Planning y Adobe GenStudio para la integración de marketing de rendimiento
 
 <!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
@@ -107,7 +107,7 @@ En la tabla siguiente se describen los requisitos de acceso y permisos para util
    <td role="rowheader"><p>Funciones de usuario de Adobe GenStudio for Performance Marketing</p></td> 
    <td><p><ul><li>Cualquier función de usuario de GenStudio para acceder a campañas, productos y personas</li>
    <li>GenStudio System Manager para acceder a las activaciones <!--and Events--></li></ul>
-   Para obtener más información, consulte <a href="https://experienceleague.adobe.com/es/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">Funciones de usuario y permisos</a>. 
+   Para obtener más información, consulte <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">Funciones de usuario y permisos</a>. 
    </p>
   </td> 
   </tr>   
@@ -162,7 +162,7 @@ Para obtener más información sobre Adobe GenStudio for Performance Marketing, 
    <td role="rowheader"><p>Adobe GenStudio for Performance Marketing user roles</p></td> 
    <td><p><ul><li>Any GenStudio user role to access Campaigns, Products, and Personas</li>
    <li>GenSudio System Manager to access Activations ****and Events****</li></ul>
-   For information, see <a href="https://experienceleague.adobe.com/es/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
+   For information, see <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
    </p>
   </td> 
   </tr>   
@@ -296,6 +296,8 @@ Las secciones siguientes describen lo siguiente:
 ### Campos de tipo de registro en GenStudio Workspace
 
 Los campos de tipo de registro se importan de GenStudio for Performance Marketing a Workfront Planning de forma predeterminada.
+
+También puede crear campos de Planning para tipos de registros en el espacio de trabajo de GenStudio desde Planning.
 
 Tenga en cuenta lo siguiente sobre los campos de tipo de registro de GenStudio:
 
