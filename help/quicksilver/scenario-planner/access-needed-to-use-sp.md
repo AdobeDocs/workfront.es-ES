@@ -24,7 +24,7 @@ ht-degree: 71%
 might need to add information about the permissions to plans/ initiatives if those will be coming later?
 -->
 
-Sin el acceso o los permisos correctos, es posible que no pueda ver el área de [!UICONTROL Escenarios] de[!DNL  Adobe Workfront] ni administrar planes o iniciativas para su organización. La administración de planes e iniciativas incluye su creación, edición y eliminación.
+Sin el acceso o los permisos correctos, es posible que no pueda ver el área de [!UICONTROL Escenarios] de[!DNL &#x200B; Adobe Workfront] ni administrar planes o iniciativas para su organización. La administración de planes e iniciativas incluye su creación, edición y eliminación.
 
 ## Acceso necesario para ver y utilizar el [!DNL Adobe Workfront Scenario Planner]
 
