@@ -6,9 +6,9 @@ description: Las carpetas inteligentes se utilizan para administrar documentos f
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 62dfc6b9-72a4-4dd5-acd7-42269cd99b1b
-source-git-commit: 3f9a824780f2ded914d461a473aef3b6ecfa8701
+source-git-commit: abff7d82c89992e2e494aae13c9eb20868259b54
 workflow-type: tm+mt
-source-wordcount: '512'
+source-wordcount: '552'
 ht-degree: 17%
 
 ---
@@ -19,6 +19,11 @@ Las carpetas inteligentes se utilizan para administrar documentos fuera de un pr
 
 Hay dos carpetas inteligentes disponibles de forma predeterminada la primera vez que se accede al área Documentos: Todos los documentos y Recientes. Puede editar, cambiar el nombre o copiar carpetas inteligentes predeterminadas, pero no puede eliminarlas. Puede crear carpetas inteligentes adicionales para satisfacer otras necesidades de administración de recursos.
 
+>[!NOTE]
+>
+>Esta funcionalidad no está disponible en el área de nuevos documentos.<br>
+>Si su organización utiliza el almacenamiento empresarial, verá el área de nuevos documentos al acceder a ellos en Workfront. Para obtener más información acerca del almacenamiento empresarial, consulte [Descripción general del almacenamiento empresarial de Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
+
 ## Requisitos de acceso
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
@@ -28,7 +33,7 @@ Hay dos carpetas inteligentes disponibles de forma predeterminada la primera vez
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 

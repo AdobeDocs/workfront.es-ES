@@ -6,10 +6,10 @@ description: Puede vincular documentos y carpetas a Adobe Workfront desde fuente
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 97823f70-6544-445a-9a81-abe1e2f3de55
-source-git-commit: 430751f0e38c6c45145c965398990ee3652f36fe
+source-git-commit: abff7d82c89992e2e494aae13c9eb20868259b54
 workflow-type: tm+mt
-source-wordcount: '2545'
-ht-degree: 94%
+source-wordcount: '2585'
+ht-degree: 93%
 
 ---
 
@@ -57,6 +57,11 @@ Antes de vincular documentos o carpetas, el administrador de Workfront debe habi
 
 Puede revisar y aprobar documentos vinculados a un proveedor de servicios en la nube externo, del mismo modo que lo hace con los documentos cargados directamente en Workfront.
 
+>[!NOTE]
+>
+>Esta funcionalidad no está disponible en el área de nuevos documentos.<br>
+>Si su organización utiliza el almacenamiento empresarial, verá el área de nuevos documentos al acceder a ellos en Workfront. Para obtener más información acerca del almacenamiento empresarial, consulte [Descripción general del almacenamiento empresarial de Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
+
 ## Requisitos de acceso
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
@@ -66,7 +71,7 @@ Puede revisar y aprobar documentos vinculados a un proveedor de servicios en la 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td>
+   <td role="rowheader">Paquete de Adobe Workfront</td>
    <td> <p> Cualquiera</p> </td>
   </tr> 
   <tr> 

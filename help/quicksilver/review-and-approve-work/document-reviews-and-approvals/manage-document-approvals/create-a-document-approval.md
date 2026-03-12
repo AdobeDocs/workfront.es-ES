@@ -1,19 +1,21 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: Crear una solicitud de revisión o aprobación de documento
+title: Crear un flujo de trabajo de aprobación de documentos
 description: Puede solicitar la aprobación de otros usuarios para un documento en Adobe Workfront.
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: a02699e1-3557-47f0-89b7-dbecb507a174
-source-git-commit: b615236d2666ebcc6db0d1f796fb0baaf362e0f2
+source-git-commit: 149c8adcf886f837bc94ac78f8a3ea54c47e375c
 workflow-type: tm+mt
-source-wordcount: '454'
-ht-degree: 83%
+source-wordcount: '1002'
+ht-degree: 33%
 
 ---
 
-# Crear una solicitud de revisión o aprobación de documento
+# Crear un flujo de trabajo de aprobación de documentos
+
+<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa de espacio aislado.</span>
 
 Puede solicitar la aprobación de otros usuarios o equipos para un documento en Adobe Workfront o solicitar que revisen un documento sin necesidad de aprobarlo.
 
@@ -30,7 +32,7 @@ Puede solicitar la aprobación de otros usuarios o equipos para un documento en 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
@@ -56,18 +58,19 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 
 +++
 
-## Crear una solicitud de revisión o aprobación de documento desde la página de documento
+
+## Cree una solicitud de revisión o aprobación de documento desde la página de documento del entorno de producción
 
 1. Pase el puntero por encima del documento y haga clic en Detalles del documento.
    ![Detalles del documento](assets/doc-details.png)
 
-1. Cerca del nombre del documento, seleccione la versión del documento para la que desea crear una aprobación en la lista desplegable de versión. La última versión se selecciona de forma predeterminada.
+1. Cerca del nombre del documento, seleccione la versión del documento para la que desea crear una aprobación en la lista desplegable de versión. La última versión está seleccionada de forma predeterminada.
 
 1. Haga clic en **Aprobaciones** en el panel izquierdo.
 
 1. (Opcional) Establezca una fecha límite para la aprobación. Los usuarios y equipos reciben una notificación por correo electrónico 72 horas antes y 24 horas antes del plazo especificado.
 
-1. Para añadir un aprobador, haga clic en **Aprobador** y empiece a escribir el nombre de un usuario o equipo.
+1. Para agregar un aprobador, haga clic en **Aprobador** y empiece a escribir el nombre de un usuario o equipo.
 
 1. Para añadir un revisor, haga clic en la casilla de verificación **Revisor** y empiece a escribir el nombre de un usuario o equipo.
 
@@ -75,13 +78,13 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 
 1. Repita el paso anterior para añadir más aprobadores o revisores.
 
-## Crear una solicitud de revisión o aprobación de documento desde el panel Resumen de documento
+## Cree una solicitud de revisión o aprobación de documento desde el panel Resumen de documento en su entorno de producción
 
 1. Vaya al proyecto, tarea o problema que contiene el documento y, a continuación, seleccione **Documentos**.
 
-1. Haga clic en el documento que necesita, se abre el panel Resumen del documento para ese documento.
+1. Haga clic en el documento que necesite y se abrirá el panel izquierdo Resumen del documento para ese documento.
 
-1. Seleccione la versión del documento para la que desea crear una aprobación en el menú desplegable de versión. La última versión se selecciona de forma predeterminada.
+1. Seleccione la versión del documento para la que desea crear una aprobación en el menú desplegable de versión. La última versión está seleccionada de forma predeterminada.
 
 1. Desplácese hacia abajo hasta la sección **Aprobaciones** del panel Resumen del documento y haga clic en **Añadir**.
 
@@ -89,7 +92,7 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 
 1. (Opcional) Establezca una fecha límite para la aprobación. Los usuarios y equipos reciben una notificación por correo electrónico 72 horas antes y 24 horas antes del plazo especificado.
 
-1. Para añadir un aprobador, haga clic en **Aprobador** y empiece a escribir el nombre de un usuario o equipo.
+1. Para agregar un aprobador, haga clic en **Aprobador** y empiece a escribir el nombre de un usuario o equipo.
 
 1. Para añadir un revisor, haga clic en la casilla de verificación **Revisor** y empiece a escribir el nombre de un usuario o equipo.
 
@@ -97,7 +100,94 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 
 1. Repita el paso anterior para añadir más aprobadores o revisores.
 
+<div class="preview">
 
+## Cree un flujo de trabajo de aprobación desde el panel Resumen en el entorno de vista previa del área de documentos heredados
+
+Si su organización está en el almacenamiento de Workfront, verá el área de documentos heredados al acceder a documentos en Workfront. Para obtener más información sobre el almacenamiento de Workfront, consulte [Almacenamiento de Workfront frente al almacenamiento empresarial de Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md#workfront-storage-vs-adobe-enterprise-storage).
+
+Para crear un flujo de trabajo de aprobación:
+
+1. Vaya al proyecto, tarea o problema que contiene el documento y, a continuación, seleccione **Documentos** en el panel izquierdo.
+
+1. Haga clic en el documento que necesita y se abrirá el panel Resumen del documento para ese documento.
+
+1. Seleccione la versión del documento para la que desea crear una aprobación en el menú desplegable de versión. La última versión está seleccionada de forma predeterminada.
+
+1. Desplácese hacia abajo hasta la sección **Aprobaciones** y haga clic en **Crear flujo de trabajo**.
+
+
+1. Complete los siguientes detalles:
+
+   <table>
+   <tr>
+   <td><strong>Nombre de la fase</strong></td>
+   <td>Añada un nombre de fase. Puede cambiar el nombre por otro más descriptivo, como <em>Revisión inicial</em> o <em>Aprobación final</em>.</td>
+   </tr>
+   <tr>
+   <td><strong>Añadir nombres o correos electrónicos</strong></td>
+   <td>Empiece a escribir el nombre de un usuario o equipo que desee agregar como aprobador o revisor. Si solo tiene revisores, se les notificará y tendrán la opción de completar la revisión, pero no se requerirá ni se adoptará ninguna decisión.</td>
+   </tr>
+   <tr>
+   <td><strong>Se requiere una decisión (opcional)</strong></td>
+   <td>La primera persona que toma una decisión completa la etapa.</td>
+   </tr>
+   <tr>
+   <td><strong>Fecha de vencimiento (opcional)</strong></td>
+   <td>Establezca una fecha límite para la aprobación. Los usuarios y equipos reciben una notificación por correo electrónico 72 horas y, a continuación, 24 horas antes de la fecha de vencimiento especificada.</td>
+   </tr>
+   </table>
+
+1. (Opcional) Repita el paso anterior para agregar etapas adicionales según sea necesario.
+
+   >[!NOTE]
+   >
+   >Si agrega varias fases, el flujo de trabajo de aprobación se ejecuta en el orden en que se enumeran las fases. Cuando se toman todas las decisiones necesarias, comienza la siguiente etapa y se bloquea la anterior.
+
+   ![Detalles del documento](assets/new-stage.png)
+
+</div>
+
+## Cree un flujo de trabajo de aprobación desde el Panel de resumen en la nueva área de documento
+
+Si su organización utiliza el almacenamiento empresarial, verá el área de nuevos documentos al acceder a ellos en Workfront. Para obtener más información acerca del almacenamiento empresarial, vea [Información general sobre el almacenamiento empresarial](/help/quicksilver/review-and-approve-work/esm-overview.md).
+
+Para crear un flujo de trabajo de aprobación:
+
+1. Vaya al proyecto, tarea o problema que contiene el documento y, a continuación, seleccione **Documentos** en el panel izquierdo.
+
+1. Haga clic en el documento y, a continuación, en el icono Approvals situado en la parte derecha de la página.
+
+   ![Agregar aprobadores en el resumen del documento](assets/approvals-icon-new.png)
+
+1. Haga clic en **Crear flujo de trabajo** y rellene los siguientes detalles:
+
+   <table>
+   <tr>
+   <td><strong>Nombre de la fase</strong></td>
+   <td>Añada un nombre de fase. Puede cambiar el nombre por otro más descriptivo, como <em>Revisión inicial</em> o <em>Aprobación final</em>.</td>
+   </tr>
+   <tr>
+   <td><strong>Añadir nombres o correos electrónicos</strong></td>
+   <td>Empiece a escribir el nombre de un usuario o equipo que desee agregar como aprobador o revisor. Si solo tiene revisores, se les notificará y tendrán la opción de completar la revisión, pero no se requerirá ni se adoptará ninguna decisión.</td>
+   </tr>
+   <tr>
+   <td><strong>Se requiere una decisión (opcional)</strong></td>
+   <td>La primera persona que toma una decisión completa la etapa.</td>
+   </tr>
+   <tr>
+   <td><strong>Fecha de vencimiento (opcional)</strong></td>
+   <td>Establezca una fecha límite para la aprobación. Los usuarios y equipos reciben una notificación por correo electrónico 72 horas y, a continuación, 24 horas antes de la fecha de vencimiento especificada.</td>
+   </tr>
+   </table>
+
+1. (Opcional) Repita el paso anterior para agregar etapas adicionales según sea necesario.
+
+   >[!NOTE]
+   >
+   >Si agrega varias fases, el flujo de trabajo de aprobación se ejecuta en el orden en que se enumeran las fases. Cuando se toman todas las decisiones necesarias, comienza la siguiente etapa y se bloquea la anterior.
+
+   ![Detalles del documento](assets/new-stage.png)
 
 
 

@@ -1,32 +1,28 @@
 ---
-title: Compartir un documento
+title: Compartir un documento en el almacenamiento heredado de Workfront
 content-type: reference
 product-area: user-management
 navigation-topic: grant-and-request-access-to-objects
-description: El administrador de Adobe Systems Workfront concede a los usuarios acceso para vista o editar documentos cuando asignan niveles de acceso, tal y como se explica en Conceder acceso a documentos.
+description: El administrador de Adobe Workfront concede a los usuarios acceso para ver o editar documentos cuando asignan niveles de acceso, tal como se explica en Conceder acceso a documentos.
 author: Courtney
 feature: Get Started with Workfront
 exl-id: c83a3184-4af0-4897-985b-29f7ee3a0b73
-source-git-commit: 7f8c9b9f63770d6364f0eb1b9c23e4648dacaf93
+source-git-commit: abff7d82c89992e2e494aae13c9eb20868259b54
 workflow-type: tm+mt
-source-wordcount: '1387'
+source-wordcount: '1439'
 ht-degree: 21%
 
 ---
 
-# Compartir un documento
+# Compartir un documento en el almacenamiento heredado de Workfront
 
-El administrador de Workfront controla quién puede vista o editar documentos en el área Niveles de acceso en Configuración. Para obtener más información, consulte [Conceder acceso a documentos](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-documents.md).
+El administrador de Workfront controla quién puede ver o editar documentos en el área de Niveles de acceso de la Configuración. Para obtener más información, consulte [Conceder acceso a documentos](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-documents.md).
 
 Los usuarios también pueden compartir documentos que han cargado o a los que tienen acceso, lo que otorga a otros permisos para verlos o administrarlos.
 
 * Los permisos se aplican a elementos individuales y definen qué acciones puede realizar una persona.
 * La persona que carga un documento obtiene automáticamente control total (permisos de administración).
 * Para compartir una carpeta completa, vea [Compartir una carpeta de documentos](../../workfront-basics/grant-and-request-access-to-objects/share-a-document-folder.md).
-
->[!NOTE]
->
->Si la instancia de Workfront utiliza el almacenamiento empresarial de Adobe, no puede compartir documentos individuales. En su lugar, puede conceder acceso en el nivel de proyecto. Tenga en cuenta que compartir el proyecto puede conceder acceso a información confidencial del proyecto, como datos financieros, en función del nivel de permiso elegido.
 
 
 
@@ -65,15 +61,19 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
 
 
 
-## Compartir un documento
+## Compartir documentos en el área de documentos heredados
 
-El usuario que carga un documento en Workfront tiene permisos de administración en él, de forma predeterminada.
+Si su organización está en un almacenamiento de Workfront heredado, verá el área de documentos heredados al acceder a documentos en Workfront. Para obtener más información sobre el almacenamiento heredado de Workfront, consulte [Diferencias entre el almacenamiento heredado de Workfront y el almacenamiento empresarial de Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
+
+### Compartir un documento individual en el área de documentos heredados
+
+El usuario que carga un documento en Workfront tiene permisos de administración de forma predeterminada.
 
 {{step1-to-documents}}
 
-1. En el **Página Documentos**, coloca el cursor sobre la documento que quieras compartir y haz clic en el vincular Detalles **del** documento que aparece. Se abre la **Página de detalles** del documento.
+1. En la página **Documentos**, pase el ratón sobre el documento que quiera compartir y haga clic en el vínculo **Detalles del documento** que aparece. Se abre la página **Detalles del documento**.
 
-   ![Detalles del documento vincular](assets/document-details-link.png)
+   ![Vínculo Detalles del documento](assets/document-details-link.png)
 
 1. Haga clic en el icono **Más** ![Más icono](assets/more-icon.png) a la derecha del nombre del documento y, a continuación, haga clic en **Compartir**. Se abre el cuadro de diálogo **Compartir [nombre de documento]**.
 
@@ -89,11 +89,11 @@ El usuario que carga un documento en Workfront tiene permisos de administración
 1. (Opcional) Seleccione la lista desplegable **Quién tiene acceso** y seleccione el nivel de acceso del documento:
 
    * **Solo las personas invitadas pueden tener acceso a:** Solo los usuarios invitados al documento pueden tener acceso a él (predeterminado).
-   * **Todos los usuarios del sistema pueden vista**: todos los usuarios del sistema pueden vista el documento sin invitación.
+   * **Todos los usuarios del sistema pueden ver**: todos los usuarios del sistema pueden ver el documento sin invitación.
 
-1. (Opcional) Para que la documento sea pública, haga clic en el icono ![de engranaje Seleccione el icono](assets/gear-icon.png) de engranaje y, a continuación, haga clic en la casilla en línea con **Hacer público para usuarios** externos. La **botón Copiar vincular** pública aparece en la parte inferior del cuadro de diálogo.
+1. (Opcional) Para hacer público el documento, haga clic en el icono de engranaje ![Seleccione el icono de engranaje](assets/gear-icon.png) y, a continuación, haga clic en el cuadro en línea con **Convertir esto en público para usuarios externos**. El botón **Copiar vínculo público** aparece en la parte inferior del cuadro de diálogo.
 
-1. Haga clic en el menú desplegable a la derecha del nombre del usuario y seleccione su nivel de permiso para esta documento:
+1. Haga clic en la lista desplegable a la derecha del nombre del usuario y seleccione su nivel de permisos para este documento:
 
    * **Ver**: el usuario puede revisar y compartir el documento.
    * **Administrar**: el usuario tiene acceso completo al documento sin derechos administrativos, que se conceden en el nivel de acceso (también incluye todos los permisos de Vista).
@@ -112,26 +112,26 @@ El usuario que carga un documento en Workfront tiene permisos de administración
 
 1. Haga clic en **Guardar**.
 
-## Compartir documentos de forma masiva
+### Compartir documentos por lotes en el área de documentos heredados
 
 {{step1-to-documents}}
 
-1. En la **pestaña Todos los** documentos **del Página Documentos**, mantén pulsada la tecla **Comando** (Mac) o **Ctrl** (Windows) del teclado y, a continuación, haz clic en cada documento quieras compartir.
+1. En la ficha **Todos los documentos** de la página **Documentos**, mantenga presionada la tecla **Comando** (Mac) o **Ctrl** (Windows) del teclado y, a continuación, haga clic en cada documento que desee compartir.
 
-1. En la parte superior de la Página, haga clic en el **icono** Compartir![&#x200B; icono Compartir](assets/share-icon.png). Se abre el modal compartido.
+1. En la parte superior de la página, haz clic en el icono **Compartir** ![Compartir icono](assets/share-icon.png). Se abre el modal de uso compartido.
 
    ![Icono de compartir](assets/share-documents-in-bulk.png)
 
-1. En el **campo Conceder acceso a** documento, comience a escribir el nombre del usuario, equipo, función grupo o compañía con el que desea compartir el documentos y, a continuación, haga clic en el nombre cuando aparezca en el lista desplegable.
+1. En el campo **Conceder acceso al documento a**, empiece a escribir el nombre del usuario, equipo, función, grupo o compañía con el que desea compartir los documentos y, a continuación, haga clic en el nombre cuando aparezca en la lista desplegable.
 
    >[!TIP]
    >
-   >Solo puede compartir documentos con usuarios, equipos, roles o empresas activos.
+   >Solo puede compartir documentos con usuarios, equipos, funciones o empresas activos.
 
 
-1. (Opcional) Seleccione el **menú desplegable Quién tiene acceso** y seleccione el nivel de acceso del documentos:
+1. (Opcional) Seleccione la lista desplegable **Quién tiene acceso** y seleccione el nivel de acceso a los documentos:
 
-   * **Solo pueden acceder las personas invitadas:** solo los usuarios invitados a la documentos pueden acceder a ella (predeterminado).
+   * **Solo las personas invitadas pueden tener acceso a:** Solo los usuarios invitados a los documentos pueden tener acceso a ellos (predeterminado).
    * **Todos los usuarios del sistema pueden ver**: todos los usuarios del sistema pueden ver los documentos sin invitación.
 
 1. Haga clic en la lista desplegable a la derecha del nombre del usuario y seleccione su nivel de permisos para los documentos:
@@ -145,21 +145,11 @@ El usuario que carga un documento en Workfront tiene permisos de administración
 
 1. Haga clic en **Guardar**.
 
-## Uso compartido de documentos con Adobe Systems almacenamiento empresarial
-
-Workfront está haciendo la transición a la solución de almacenamiento empresarial Adobe Systems para proporcionar una mayor conectividad con Adobe Creative Cloud productos. Los clientes existentes se moverán al nuevo modelo en fases. Para obtener más información sobre las ventajas de Adobe Systems almacenamiento empresarial, visita [Adobe Systems descripción general](/help/quicksilver/review-and-approve-work/esm-overview.md) de almacenamiento empresarial.
-
-Si su instancia Workfront utiliza Adobe Systems almacenamiento empresarial, no puede compartir documentos individuales directamente. En su lugar, debe conceder acceso en el nivel de proyecto.
-
->[!IMPORTANT]
->
->Compartir un proyecto también puede dar a los usuarios acceso a información confidencial del proyecto, como datos financieros, según el nivel de permiso que elija.
->
->Asegúrese de revisar detenidamente la configuración de permisos antes de compartirlos.
-
-## Permisos de documento
+### Permisos de documento en la experiencia de documento heredada
 
 Los permisos son específicos de un elemento en Workfront y definen qué acciones se pueden realizar sobre ese elemento. Para obtener información acerca de los permisos de objetos, vea [Información general sobre los permisos de uso compartido en objetos](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
+
++++ Amplíe para ver una lista detallada de los permisos del documento
 
 La siguiente tabla muestra qué permisos puede conceder a los usuarios cuando les permite ver o administrar documentos:
 
@@ -201,7 +191,7 @@ La siguiente tabla muestra qué permisos puede conceder a los usuarios cuando le
    <td> </td> 
   </tr> 
   <tr> 
-   <td scope="row">Aprobadores añadir</td> 
+   <td scope="row">Agregar aprobadores</td> 
    <td>✓</td> 
    <td> </td> 
   </tr> 
@@ -261,7 +251,7 @@ La siguiente tabla muestra qué permisos puede conceder a los usuarios cuando le
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td scope="row">Generar prueba**</td> 
+   <td scope="row">Generar revisión**</td> 
    <td>✓</td> 
    <td> </td> 
   </tr> 
@@ -286,7 +276,7 @@ La siguiente tabla muestra qué permisos puede conceder a los usuarios cuando le
    <td> </td> 
   </tr> 
   <tr> 
-   <td scope="row">Compartir con una dirección correo electrónico externa</td> 
+   <td scope="row">Compartir con una dirección de correo electrónico externa</td> 
    <td> </td> 
    <td>✓</td> 
   </tr> 
@@ -317,7 +307,24 @@ La siguiente tabla muestra qué permisos puede conceder a los usuarios cuando le
 
 &#42;&#42; Para poder revisar documentos, debe tener asociada una licencia de revisión independiente con su cuenta de Workfront. Póngase en contacto con su administrador de cuentas para obtener una licencia de revisión. Para obtener más información sobre la revisión en Workfront, consulte [Revisión](../../review-and-approve-work/proofing/proofing.md).
 
-## Consideraciones sobre el uso compartido de documentos
++++
+
+## Compartir documentos en el área de nuevos documentos
+
+
+Workfront está realizando la transición a la solución de almacenamiento empresarial de Adobe para proporcionar una mayor conectividad con los productos de Adobe Creative Cloud. Si su organización utiliza el almacenamiento empresarial, verá el área de nuevos documentos al acceder a ellos en Workfront. Para obtener más información acerca del almacenamiento empresarial, consulte [Descripción general del almacenamiento empresarial de Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
+
+Si la instancia de Workfront utiliza el almacenamiento empresarial de Adobe, no puede compartir documentos individuales directamente. En su lugar, puede administrar el acceso en el proyecto, tarea o problema. Para obtener más información, consulte [Funcionamiento de los permisos de documentos](/help/quicksilver/review-and-approve-work/esm-access-permissions.md#how-document-permissions-work).
+
+>[!IMPORTANT]
+>
+>Compartir un proyecto también puede dar a los usuarios acceso a información confidencial del proyecto, como datos financieros, según el nivel de permiso que elija.
+>
+>Asegúrese de revisar detenidamente la configuración de permisos antes de compartirlos.
+
+
+
+## Consideraciones sobre el uso compartido de documentos en el almacenamiento heredado de Workfront
 
 Además de las consideraciones siguientes, consulte [Información general sobre los permisos de uso compartido en objetos](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
@@ -325,8 +332,8 @@ Además de las consideraciones siguientes, consulte [Información general sobre 
 >
 >Un administrador de Workfront puede añadir o quitar permisos a cualquier elemento del sistema, para todos los usuarios, sin que tengan que ser el propietario de esos elementos.
 
-* Compartir una documento es similar a compartir cualquier otro objeto en Workfront. Para obtener información sobre cómo compartir documentos en Workfront, consulte [Compartir un objeto](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md).
-* Puede conceder los siguientes permisos a documentos:
+* Compartir un documento es similar a compartir cualquier otro objeto en Workfront. Para obtener información acerca de cómo compartir documentos en Workfront, vea [Compartir un objeto](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md).
+* Puede conceder los siguientes permisos a los documentos:
 
    * Ver
    * Administrar
@@ -337,11 +344,11 @@ Además de las consideraciones siguientes, consulte [Información general sobre 
   >
   >Se recomienda tener precaución al compartir con usuarios externos un objeto que contenga información confidencial. Esto les permite ver información sin ser usuarios de Workfront ni parte de su organización.
 
-* Puede compartir una documento con alguien que no tenga un cuenta de Workfront, agregando su dirección correo electrónico en el campo Dar acceso a documento a.
-* Cuando comparte una documento, los usuarios tienen el mismo acceso a todas las versiones documento y a todas las pruebas documento.\
-  Para obtener más información sobre las pruebas en Workfront, consulte la [sección Pruebas](../../review-and-approve-work/proofing/proofing.md) .
+* Puede compartir un documento con alguien que no tenga cuenta de Workfront agregando su dirección de correo electrónico en el campo Conceder acceso al documento a.
+* Cuando comparte un documento, los usuarios tienen el mismo acceso a todas las versiones del documento y a todas las revisiones del documento.\
+  Para obtener más información sobre la revisión en Workfront, consulte la sección [Revisión](../../review-and-approve-work/proofing/proofing.md).
 
-* Puede heredar permisos para documentos de los objetos con los que están asociados. El administrador de Workfront puede restringir la herencia de permisos para documentos de su nivel de acceso.
+* Puede heredar los permisos a los documentos de los objetos con los que están asociados. El administrador de Workfront puede restringir la herencia de permisos para documentos de su nivel de acceso.
 
   Para obtener más información sobre la restricción de permisos heredados en documentos, consulte [Crear o modificar niveles de acceso personalizados](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 

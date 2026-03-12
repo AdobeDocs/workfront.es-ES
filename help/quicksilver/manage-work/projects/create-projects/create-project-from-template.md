@@ -6,7 +6,7 @@ description: Puede utilizar las plantillas como un marco de trabajo para crear p
 author: Alina
 feature: Work Management
 exl-id: 622cbfe0-b8c0-4045-bef2-9e21d45bfda0
-source-git-commit: 76379d5433cc13ee412c8c1045316ef253b3ee7d
+source-git-commit: 6d6ac026bb2aa10ba3e678fb7e0f32dc95d0405f
 workflow-type: tm+mt
 source-wordcount: '1150'
 ht-degree: 84%
@@ -50,7 +50,7 @@ Tiene las siguientes opciones para crear un proyecto a partir de una plantilla:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 

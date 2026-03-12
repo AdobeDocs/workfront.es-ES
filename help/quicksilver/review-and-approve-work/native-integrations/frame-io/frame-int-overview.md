@@ -7,10 +7,10 @@ author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: b5f0150b-40b5-4386-98bc-374e7ca65b74
-source-git-commit: 07fa7207960f424cc8580eb46fe13bd5af4e56a8
+source-git-commit: e93f8662acb95029e4997ec270b23511d3e880dd
 workflow-type: tm+mt
-source-wordcount: '815'
-ht-degree: 0%
+source-wordcount: '859'
+ht-degree: 1%
 
 ---
 
@@ -95,10 +95,10 @@ Para obtener más información acerca de la administración de proyectos en Work
 
 ### Convenciones de nomenclatura y estructura forzadas
 
-Debido a que esta integración se crea mediante Adobe Enterprise Storage, existen algunas convenciones de estructura y nomenclatura obligatorias que se deben tener en cuenta al administrar proyectos y documentos.
+Debido a que esta integración se crea mediante el almacenamiento empresarial de Adobe, existen algunas convenciones de estructura y nomenclatura obligatorias que se deben tener en cuenta al administrar proyectos y documentos.
 
 * Los nombres de objeto deben ser únicos y no se pueden duplicar
-* Adobe Enterprise Storage requiere nombres únicos para objetos del mismo nivel con el mismo elemento principal en el árbol de jerarquías
+* El almacenamiento empresarial de Adobe requiere nombres únicos para objetos del mismo nivel con el mismo elemento principal en el árbol de jerarquías
 * Los documentos no pueden tener el mismo nombre si pertenecen al mismo proyecto
 * Los nombres de documento no pueden contener ninguno de los siguientes caracteres especiales: \ / : * ? &quot; | &lt; >
 * Los nombres de documento están limitados a un máximo de 255 caracteres
@@ -134,9 +134,7 @@ En la tabla siguiente se muestra cómo se asignan los permisos de Workfront a lo
 
 ### Administración de documentos en Workfront
 
-Los documentos se administran en el nivel de proyecto con esta integración y no se pueden cargar en tareas o problemas en este momento.
-
-El acceso a los documentos también se administra en el nivel de proyecto. Si un usuario tiene acceso a un proyecto, puede acceder a todos los documentos asociados con ese proyecto.
+Los documentos cargados en Workfront se almacenan en Adobe enterprise storage y se puede acceder a ellos desde Workfront y Frame.io. Al cargar un documento en una tarea o un problema de Workfront, se crea una carpeta generada por el sistema en Adobe Enterprise Storage que hereda los permisos de la tarea o el problema. Todos los documentos cargados en esa tarea o problema se almacenan en esa carpeta y heredan los permisos de ella. Para obtener más información sobre los documentos de Workfront, consulte [Información general sobre el área de nuevos documentos](/help/quicksilver/documents/managing-documents/documents-area.md) y [Permisos de objetos e información general sobre el nivel de acceso para el modelo de almacenamiento empresarial de Adobe](/help/quicksilver/review-and-approve-work/esm-access-permissions.md).
 
 ### Documentar las limitaciones de experiencia
 
@@ -151,13 +149,3 @@ En esta integración no se incluirán las siguientes capacidades:
 * Visualizador de documentos en Workfront
 * Documentos favoritos
 * Solicitar documentos
-
-
-<!--#### Temporary limitations
-
-For now, the following capabilities are not available:
-
-* Send documents to Adobe Experience Manager Assets
-* Multi-stage approvals
-* Upload documents to comments or updates in Workfront
-* Upload documents to tasks or issues in Workfront-->

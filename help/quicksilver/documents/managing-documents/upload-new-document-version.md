@@ -6,10 +6,10 @@ description: Puede agregar una nueva versión de un documento que haya cargado a
 author: Courtney
 feature: Digital Content and Documents
 exl-id: d475e0f0-112e-4d4e-b666-6e0af3ea7702
-source-git-commit: 4a0448583cbcfd1f1df10d6474fdf4e77e7bff3e
+source-git-commit: abff7d82c89992e2e494aae13c9eb20868259b54
 workflow-type: tm+mt
-source-wordcount: '357'
-ht-degree: 19%
+source-wordcount: '557'
+ht-degree: 15%
 
 ---
 
@@ -34,7 +34,7 @@ Para obtener información sobre cómo agregar una nueva versión de un documento
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p> Cualquiera</p> </td> 
   </tr> 
   <tr> 
@@ -57,7 +57,11 @@ Para obtener información sobre cómo agregar una nueva versión de un documento
 Para obtener más información sobre el contenido de esta tabla, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 +++
 
-## Utilice arrastrar y soltar para agregar una nueva versión
+## Cargar una nueva versión del documento en el área de documentos heredados
+
+Si su organización está en un almacenamiento de Workfront heredado, verá el área de documentos heredados al acceder a documentos en Workfront. Para obtener más información sobre el almacenamiento heredado de Workfront, consulte [Diferencias entre el almacenamiento heredado de Workfront y el almacenamiento empresarial de Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
+
+### Utilice arrastrar y soltar para agregar una nueva versión
 
 >[!NOTE]
 >
@@ -74,7 +78,7 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
 
    Para obtener información acerca de cómo administrar versiones de documentos, vea [Administrar versiones de documentos](../../documents/managing-documents/manage-document-versions.md).
 
-## Utilice el menú Más para añadir una nueva versión
+### Utilice el menú Más para añadir una nueva versión
 
 1. Seleccione el documento en el que desea añadir una nueva versión.
 1. Haga clic en **Agregar nuevo** > **Versión**.
@@ -82,3 +86,42 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
    ![Agregar nueva versión](assets/add-new-version-350x185.png)
 
 1. Seleccione el tipo de documento que desea cargar y siga las indicaciones.
+
+## Cargar una nueva versión del documento en el área de nuevos documentos
+
+Si su organización utiliza el almacenamiento empresarial, verá el área de nuevos documentos al acceder a ellos en Workfront. Para obtener más información acerca del almacenamiento empresarial, consulte [Descripción general del almacenamiento empresarial de Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
+
+### Utilice arrastrar y soltar para agregar una nueva versión
+
+>[!NOTE]
+>
+>Arrastrar y soltar no funciona con Internet Explorer.
+
+1. Vaya al área Documentos donde se ha cargado el documento.
+1. Arrastre la nueva versión del documento sobre la versión existente en Workfront.
+
+   ![Arrastrar y soltar la versión del documento](assets/drag-drop-new-doc.png)
+
+1. Coloque la nueva versión sobre el archivo existente en la ficha **Documentos**.
+
+   Para obtener información acerca de cómo administrar versiones de documentos, vea [Administrar versiones de documentos](../../documents/managing-documents/manage-document-versions.md).
+
+### Utilice el menú Más para añadir una nueva versión
+
+1. Seleccione el documento en el que desea añadir una nueva versión.
+1. Abra el icono Mostrar versiones ![mostrar versiones](assets/show-versions.png) a la derecha.
+1. Haga clic en **Agregar nueva versión**.
+
+   ![Agregar nueva versión](assets/new-version-new-doc.png)
+
+1. Busque el documento y haga clic en **Abrir**.
+
+
+
+
+
+
+
+
+
+

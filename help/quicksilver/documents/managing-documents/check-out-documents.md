@@ -6,16 +6,21 @@ description: Puede extraer un documento para evitar que otros usuarios lo elimin
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 15d9ea43-1cee-4cb1-9365-4374a291c090
-source-git-commit: 4a0448583cbcfd1f1df10d6474fdf4e77e7bff3e
+source-git-commit: abff7d82c89992e2e494aae13c9eb20868259b54
 workflow-type: tm+mt
-source-wordcount: '634'
-ht-degree: 92%
+source-wordcount: '674'
+ht-degree: 87%
 
 ---
 
 # Extraer documentos
 
 Puede extraer un documento para evitar que otros usuarios lo eliminen o carguen una nueva versión. Solo un usuario puede extraer un documento a la vez. Puede extraer cualquier documento cargado en Adobe Workfront, así como documentos vinculados a proveedores de documentos de terceros (Box, Dropbox, Google Drive, Webdam, Workfront DAM, SharePoint o cualquier otro proveedor personalizado). 
+
+>[!NOTE]
+>
+>Esta funcionalidad no está disponible en el área de nuevos documentos.<br>
+>Si su organización utiliza el almacenamiento empresarial, verá el área de nuevos documentos al acceder a ellos en Workfront. Para obtener más información acerca del almacenamiento empresarial, consulte [Descripción general del almacenamiento empresarial de Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 ## Requisitos de acceso
 
@@ -26,7 +31,7 @@ Puede extraer un documento para evitar que otros usuarios lo eliminen o carguen 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 

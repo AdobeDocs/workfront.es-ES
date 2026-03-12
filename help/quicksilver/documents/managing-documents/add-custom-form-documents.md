@@ -6,10 +6,10 @@ description: Puede añadir un formulario personalizado a un documento o a una ve
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 6c974293-1f54-447b-8d42-8d039f7911f1
-source-git-commit: 4a0448583cbcfd1f1df10d6474fdf4e77e7bff3e
+source-git-commit: abff7d82c89992e2e494aae13c9eb20868259b54
 workflow-type: tm+mt
-source-wordcount: '282'
-ht-degree: 83%
+source-wordcount: '492'
+ht-degree: 56%
 
 ---
 
@@ -26,7 +26,7 @@ Puede añadir un formulario personalizado a un documento o a una versión de doc
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p> Cualquiera</p> </td> 
   </tr> 
   <tr> 
@@ -54,7 +54,9 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
 
 * El formulario personalizado tiene que haberse compartido con usted
 
-## Añadir un formulario personalizado
+## Agregar un formulario personalizado en el área de documentos heredados
+
+Si su organización utiliza un almacenamiento de Workfront heredado, verá el área de documentos heredados al acceder a documentos en Workfront. Para obtener más información sobre el almacenamiento de Workfront, consulte [Diferencias entre el almacenamiento empresarial de Adobe y el almacenamiento de Workfront heredado](/help/quicksilver/review-and-approve-work/esm-overview.md#differences-between-adobe-enterprise-storage-and-legacy-workfront-storage).
 
 Para añadir un formulario personalizado a un documento:
 
@@ -68,7 +70,7 @@ Para añadir un formulario personalizado a un documento:
    >
    >En el menú desplegable solo se muestran los formularios personalizados activos. Puede añadir hasta 10 formularios personalizados por documento. Si necesita crear un formulario personalizado, consulte [Crear un formulario personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
-## Edición de un formulario personalizado
+## Editar un formulario personalizado en el área de documentos heredados
 
 1. Vaya al proyecto, tarea o problema que contiene el documento y, a continuación, seleccione **Documentos**.
 1. Busque el documento que necesita.
@@ -78,3 +80,26 @@ Para añadir un formulario personalizado a un documento:
 1. Realice los cambios necesarios y luego haga clic en **Guardar**.
 
    ![Editar formulario personalizado](assets/edit-custom-form-350x265.png)
+
+## Agregar un formulario personalizado en el área de documento nueva
+
+Si su organización utiliza el almacenamiento empresarial, verá el área de nuevos documentos al acceder a ellos en Workfront. Para obtener más información acerca del almacenamiento empresarial, consulte [Descripción general del almacenamiento empresarial de Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
+
+Para añadir un formulario personalizado a un documento:
+
+1. Vaya al proyecto, tarea o problema que contiene el documento y, a continuación, seleccione **Documentos**.
+1. Seleccione el documento que necesite.
+1. En la sección **Detalles** de la derecha, haga clic en **Editar**.
+   ![botón de edición en la sección de detalles](assets/edit-custom-form.png)
+1. En el campo **Forms personalizado**, empiece a escribir y seleccione un formulario personalizado.
+1. Haga clic en **Guardar**. El formulario personalizado aparece en la sección de detalles.
+
+
+## Editar un formulario personalizado en el área de documento nueva
+
+1. Vaya al proyecto, tarea o problema que contiene el documento y, a continuación, seleccione **Documentos**.
+1. Seleccione el documento que necesite.
+1. En la sección **Detalles** de la derecha, haga clic en **Editar**.
+   ![botón de edición en la sección de detalles](assets/edit-custom-form.png)
+1. En la sección **Forms personalizado**, busque el formulario que desea editar.
+1. Realice los cambios necesarios y luego haga clic en **Guardar**.

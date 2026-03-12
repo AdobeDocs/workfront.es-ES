@@ -8,10 +8,10 @@ feature: Work Management
 hide: true
 hidefromtoc: true
 exl-id: 230d8e62-a3c9-4e38-9b26-5ba1c4f56391
-source-git-commit: 321449202f629f75464870bea7fa3db8b4c0e0cb
+source-git-commit: ad3478d3f1b54af596b146ac212a9eacf6f972f7
 workflow-type: tm+mt
-source-wordcount: '1168'
-ht-degree: 99%
+source-wordcount: '1155'
+ht-degree: 98%
 
 ---
 
@@ -143,7 +143,7 @@ Una vez creada una plantilla, puede utilizarla para crear proyectos.
 
 1. En el encabezado del proyecto, cambie el proyecto de **Planificación** a **Actual**.
 
-Una vez creado el proyecto y cargado por los creativos los recursos finalizados, puede asignar un flujo de trabajo de revisión y aprobación al recurso en Workfront. Para obtener más información, consulte [Crear una solicitud de revisión o aprobación de documento](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md). <!-- name may need to change -->
+Una vez creado el proyecto y cargado por los creativos los recursos finalizados, puede asignar un flujo de trabajo de revisión y aprobación al recurso en Workfront. Para obtener más información, vea [Crear un flujo de trabajo de aprobación de documentos](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md). <!-- name may need to change -->
 
 ## Creación de un proyecto desde cero
 
@@ -211,5 +211,3 @@ Workfront tiene funcionalidades sólidas de administración de proyectos. Se rec
 Una vez creado el proyecto y cargado por los creativos los recursos finalizados, puede asignar un flujo de trabajo de revisión y aprobación al recurso en Workfront.
 
 Una vez creado el proyecto y cargado por los creativos los recursos finalizados, puede asignar un flujo de trabajo de revisión y aprobación al recurso en Workfront.
-
-Para obtener más información, vea [Crear una solicitud de revisión o aprobación de documento](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md). <!-- name may need to change -->

@@ -6,9 +6,9 @@ description: Descripción general de los sistemas disponibles para su revisión 
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 37745149-b369-445d-bb39-f5ed790d2fae
-source-git-commit: aa3645e2ed8c36a3b07caad72083a43467889fce
+source-git-commit: e93f8662acb95029e4997ec270b23511d3e880dd
 workflow-type: tm+mt
-source-wordcount: '366'
+source-wordcount: '383'
 ht-degree: 1%
 
 ---
@@ -58,9 +58,11 @@ Para obtener más información acerca del uso del visor de revisión, vea [Usar 
 * Utilice Paneles de lienzo, actualmente en fase beta, para ver los detalles de creación de informes acerca de las aprobaciones unificadas
 Para obtener más información sobre los informes, consulte [Crear un tablero de informes para revisión y aprobaciones](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md).
 
-* Crear varias aprobaciones de etapa [!BADGE Próximamente]{type=Informative}
+* Creación de varias aprobaciones de fase
 
 * Acceda a las solicitudes de revisión y aprobación en el widget Mis aprobaciones del área de Inicio
+
+* Utilice la integración de Frame.io para revisar y aprobar documentos. Para obtener más información, consulte [Introducción a la integración de Frame.io](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/get-started-with-frame-integration.md).
 
 * Utilice el Revisor de IA para automatizar las revisiones de cumplimiento de marca. Para obtener más información, consulte [Introducción al Revisor de IA de Workfront](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md).
 
@@ -88,7 +90,3 @@ Funciones disponibles para la revisión:
 * Uso de flujos de trabajo básicos o automatizados
 
 * Acceda a las solicitudes de aprobación en el widget Mis aprobaciones del área de Inicio
-
-<!--
-## Upcoming deprecations
--->

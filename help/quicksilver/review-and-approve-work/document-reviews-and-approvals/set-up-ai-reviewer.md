@@ -1,20 +1,20 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: Crear revisores de IA
+title: Creación de comprobadores por IA
 description: Una vez que tenga al menos una marca configurada en Workfront, puede crear varios revisores de IA, que luego puede asignar a plantillas de aprobación y a solicitudes de revisión y aprobación individuales.
 author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 4673049e-119e-4315-95f0-f10d8b286856
-source-git-commit: de5f5d709ace99b7794ff2eaeb4ee7849cff8182
+source-git-commit: c5f726ec70b2caa7366ba5af7dac446554d2fa6b
 workflow-type: tm+mt
-source-wordcount: '246'
-ht-degree: 24%
+source-wordcount: '243'
+ht-degree: 21%
 
 ---
 
-# Crear revisores de IA
+# Creación de comprobadores por IA
 
 >[!NOTE]
 >
@@ -75,5 +75,5 @@ Para agregar un revisor de IA:
 
    Para obtener más información, consulte
 
-   * [Crear una plantilla de aprobación para recursos y documentos](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)
-   * [Crear una solicitud de revisión o aprobación de documento](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)
+   * [Creación de una plantilla de flujo de trabajo de aprobación para documentos](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)
+   * [Crear un flujo de trabajo de aprobación de documentos](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)

@@ -1,21 +1,23 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: Añadir aprobadores o revisores adicionales a un recurso o documento
+title: Agregar aprobadores o revisores adicionales a un flujo de trabajo de aprobación de documentos
 description: Puede añadir aprobadores o revisores adicionales a un documento que ya tenga aprobaciones pendientes.
-author: Nolan
+author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: f3d94dff-a855-44ae-9e85-1dcbc4d417a0
-source-git-commit: b615236d2666ebcc6db0d1f796fb0baaf362e0f2
+source-git-commit: 3fd4d18e1be14cc27b3b39d4abf399ec26ddcd51
 workflow-type: tm+mt
-source-wordcount: '450'
-ht-degree: 90%
+source-wordcount: '837'
+ht-degree: 24%
 
 ---
 
-# Añadir aprobadores o revisores adicionales a un recurso o documento
+# Agregar aprobadores o revisores adicionales a un flujo de trabajo de aprobación de documentos
 
-Puede añadir aprobadores o revisores adicionales a un recurso o documento que ya tenga aprobaciones pendientes.
+<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa de espacio aislado.</span>
+
+Puede agregar aprobadores o revisores adicionales a un flujo de trabajo de aprobación de documentos que ya tenga aprobaciones pendientes.
 
 >[!IMPORTANT]
 >
@@ -28,7 +30,7 @@ Puede añadir aprobadores o revisores adicionales a un recurso o documento que y
 <table style="table-layout:auto"> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
@@ -41,7 +43,7 @@ Puede añadir aprobadores o revisores adicionales a un recurso o documento que y
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso</td> 
-   <td> <p>Acceso de visualización o superior a Proyectos, Tareas, Problemas, Plantillas, Portafolios, Programas, Informes, Paneles de control y Calendarios, Documentos</p></td> 
+   <td> <p>Acceso de visualización o superior a Proyectos, Tareas, Problemas, Plantillas, Portafolios, Programas, Informes, Tableros, Calendarios y Documentos</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
@@ -54,31 +56,87 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 
 +++
 
-## Añadir aprobadores o revisores adicionales desde la página Detalles del documento
 
-1. Vaya a la página del documento haciendo clic en su nombre y, a continuación, seleccione la versión del documento a la que desea añadir un aprobador o revisor en el menú desplegable de la versión. La última versión se selecciona de forma predeterminada.
+## Agregue aprobadores o revisores adicionales desde la página Detalles del documento en su entorno de producción
+
+1. Vaya a la página del documento haciendo clic en el nombre del documento y, a continuación, seleccione la versión del documento a la que desea agregar un aprobador o revisor en el menú desplegable de la versión. La última versión está seleccionada de forma predeterminada.
 
 1. Seleccione **Aprobaciones** en el panel izquierdo. Aquí se enumeran todos los aprobadores y revisores existentes.
 
-1. Para añadir un aprobador, asegúrese de marcar la casilla de verificación **Aprobador** y, a continuación, empiece a escribir en el cuadro de texto **Revisores**. Puede añadir usuarios o equipos de Workfront por el nombre. Si desea añadir un revisor en su lugar, simplemente anule la selección de la casilla de verificación **Aprobador** antes de escribir.
+1. Para agregar un aprobador, asegúrese de que la casilla de verificación **Aprobador** esté marcada y, a continuación, empiece a escribir en el cuadro de texto **Revisores**. Puede añadir usuarios o equipos de Workfront por el nombre. Si desea añadir un revisor en su lugar, simplemente anule la selección de la casilla de verificación **Aprobador** antes de escribir.
 
 1. Repita el paso anterior para añadir más aprobadores o revisores.
 
-## Añadir aprobadores o revisores adicionales desde el resumen del documento
+## Agregar aprobadores o revisores adicionales del resumen del documento en el entorno de producción
 
 1. Vaya al proyecto, tarea o problema que contiene el documento y, a continuación, seleccione **Documentos**.
 
-1. Haga clic en el documento que necesita, se abre el panel Resumen del documento.
+1. Haga clic en el documento que necesita y se abrirá el panel Resumen del documento.
 
-1. Seleccione la versión del documento a la que desea añadir un aprobador o revisor en el menú desplegable de la versión. La última versión se selecciona de forma predeterminada.
+1. Seleccione la versión del documento a la que desea agregar un aprobador o revisor en el menú desplegable Versión. La última versión está seleccionada de forma predeterminada.
 
-1. Desplácese hacia abajo hasta la sección **Aprobaciones** del panel Resumen del documento, donde se enumeran todos los aprobadores y revisores existentes. Para añadir un aprobador, asegúrese de marcar la casilla de verificación **Aprobador** y, a continuación, empiece a escribir en el cuadro de texto **Revisores**. Puede añadir usuarios o equipos de Workfront por el nombre. Si desea añadir un revisor en su lugar, simplemente anule la selección de la casilla de verificación **Aprobador** antes de escribir.
+1. Desplácese hacia abajo hasta la sección **Aprobaciones** del panel Resumen del documento, donde se enumeran todos los aprobadores y revisores existentes. Para agregar un aprobador, asegúrese de que la casilla de verificación **Aprobador** esté marcada y, a continuación, empiece a escribir en el cuadro de texto **Revisores**. Puede añadir usuarios o equipos de Workfront por el nombre. Si desea añadir un revisor en su lugar, simplemente anule la selección de la casilla de verificación **Aprobador** antes de escribir.
 
 1. Repita el paso anterior para añadir más aprobadores o revisores.
 
-## Agregar revisores y aprobadores adicionales de una versión anterior
+<div class="preview">
 
-Si necesita aprobación para una nueva versión del documento, puede agregar fácilmente
+## Agregue aprobadores o revisores adicionales del Resumen del documento en el entorno de vista previa del área de documentos heredados
+
+Si su organización está en el almacenamiento de Workfront, verá el área de documentos heredados al acceder a documentos en Workfront. Para obtener más información sobre el almacenamiento de Workfront, consulte [Almacenamiento de Workfront frente al almacenamiento empresarial de Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md#workfront-storage-vs-adobe-enterprise-storage).
+
+Para agregar aprobadores o revisores adicionales desde el resumen de documento:
+
+1. Vaya al proyecto, tarea o problema que contiene el documento y, a continuación, seleccione **Documentos** en el panel izquierdo.
+
+1. Haga clic en el documento que necesita y se abrirá el panel Resumen del documento para ese documento.
+
+1. Seleccione la versión del documento a la que desea agregar un aprobador o revisor en el menú desplegable Versión. La última versión está seleccionada de forma predeterminada.
+
+1. Desplácese hacia abajo hasta la sección **Aprobaciones** y haga clic en **Editar flujo de trabajo**.
+
+   ![editar flujo de trabajo de aprobación](assets/edit-approval-in-legacy.png)
+
+1. Busque el escenario en el que desea agregar aprobadores o revisores y, a continuación, agregue el nombre del usuario o correo electrónico en el cuadro de texto. También puede agregar todo un equipo si es necesario.
+
+1. Una vez agregado el nombre, seleccione si es un aprobador o revisor.
+
+   ![lista desplegable de aprobadores o revisores](assets/choose-approver-or-reviewer.png)
+
+1. Repita los pasos del 5 al 6 para agregar más aprobadores o revisores.
+Una vez guardado, los participantes añadidos reciben una notificación por correo electrónico que indica que se necesita su aprobación o revisión en el documento.
+
+</div>
+
+
+## Agregar aprobadores o revisores adicionales del Resumen del documento en el área de nuevos documentos
+
+Si su organización utiliza el almacenamiento empresarial, verá el área de nuevos documentos al acceder a ellos en Workfront. Para obtener más información acerca del almacenamiento empresarial, vea [Información general sobre el almacenamiento empresarial](/help/quicksilver/review-and-approve-work/esm-overview.md).
+
+
+1. Vaya al proyecto, tarea o problema que contiene el documento y, a continuación, seleccione **Documentos** en el panel izquierdo.
+
+1. Haga clic en el documento y luego en el icono **Aprobaciones** que encontrará a la derecha de la página.
+
+   ![Agregar aprobadores en el resumen del documento](assets/approvals-icon-new.png)
+
+
+1. Haga clic en **Editar flujo de trabajo**.
+
+1. Busque el escenario en el que desea agregar aprobadores o revisores y, a continuación, agregue el nombre del usuario o correo electrónico en el cuadro de texto. También puede agregar todo un equipo si es necesario.
+
+1. Una vez agregado el nombre, seleccione si es un aprobador o revisor.
+
+   ![lista desplegable de aprobadores o revisores](assets/choose-approver-or-reviewer.png)
+
+1. Repita los pasos del 5 al 6 para agregar más aprobadores o revisores.
+Una vez guardado, los participantes añadidos reciben una notificación por correo electrónico que indica que se necesita su aprobación o revisión en el documento.
+
+
+
+
+
+
 
 <!--
 ## Add additional approvers or reviewers from Home

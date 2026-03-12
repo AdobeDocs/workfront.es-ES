@@ -6,16 +6,21 @@ description: Aunque no hay restricciones en cuanto a los tipos y tamaños de los
 author: Courtney
 feature: Digital Content and Documents
 exl-id: f5d1963e-b205-44b9-b2b6-b7de465c6977
-source-git-commit: 4a0448583cbcfd1f1df10d6474fdf4e77e7bff3e
+source-git-commit: abff7d82c89992e2e494aae13c9eb20868259b54
 workflow-type: tm+mt
-source-wordcount: '239'
-ht-degree: 100%
+source-wordcount: '279'
+ht-degree: 85%
 
 ---
 
 # Comprobar límites de almacenamiento de documentos
 
 Aunque no hay restricciones en cuanto a los tipos y tamaños de los archivos individuales que los usuarios pueden cargar en una instancia de Workfront, hay un límite en el plan de Workfront en cuanto a la cantidad total de almacenamiento utilizado por la instancia de Workfront. Como administrador de Adobe Workfront, puede supervisar el almacenamiento de documentos de la instancia desde el área Configuración.
+
+>[!NOTE]
+>
+>Esta funcionalidad no está disponible en el área de nuevos documentos.<br>
+>Si su organización utiliza el almacenamiento empresarial, verá el área de nuevos documentos al acceder a ellos en Workfront. Para obtener más información acerca del almacenamiento empresarial, consulte [Descripción general del almacenamiento empresarial de Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 ## Requisitos de acceso
 

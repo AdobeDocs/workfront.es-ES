@@ -6,16 +6,21 @@ description: Puede copiar un vínculo para cualquier carpeta de documentos conte
 author: Courtney
 feature: Digital Content and Documents
 exl-id: f8f83f44-7001-4774-9a35-359cd21124d9
-source-git-commit: 4a0448583cbcfd1f1df10d6474fdf4e77e7bff3e
+source-git-commit: abff7d82c89992e2e494aae13c9eb20868259b54
 workflow-type: tm+mt
-source-wordcount: '198'
-ht-degree: 98%
+source-wordcount: '238'
+ht-degree: 83%
 
 ---
 
 # Copiar y compartir un vínculo a una carpeta de documentos
 
 Puede copiar un vínculo directo para cualquier carpeta de documentos que contenga cualquiera de los siguientes objetos de [!DNL Workfront]: [!UICONTROL Programa], [!UICONTROL Portafolios], [!UICONTROL Proyecto], [!UICONTROL Tarea] o [!UICONTROL Problema]. No puede copiar un vínculo de ninguna carpeta contenida en el área de [!UICONTROL Documentos] del menú principal, ya que esas carpetas están vinculadas directamente a su perfil de usuario y no se pueden compartir con otros.
+
+>[!NOTE]
+>
+>Esta funcionalidad no está disponible en el área de nuevos documentos.<br>
+>Si su organización utiliza el almacenamiento empresarial, verá el área de nuevos documentos al acceder a ellos en Workfront. Para obtener más información acerca del almacenamiento empresarial, consulte [Descripción general del almacenamiento empresarial de Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 ## Requisitos de acceso
 
@@ -26,7 +31,7 @@ Puede copiar un vínculo directo para cualquier carpeta de documentos que conten
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 

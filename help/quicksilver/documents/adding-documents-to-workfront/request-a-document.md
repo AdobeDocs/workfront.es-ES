@@ -6,16 +6,21 @@ description: Puede solicitar un documento en cualquier objeto que admita documen
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 228b53ba-4a87-4edd-b478-501b216c4a1d
-source-git-commit: 430751f0e38c6c45145c965398990ee3652f36fe
+source-git-commit: abff7d82c89992e2e494aae13c9eb20868259b54
 workflow-type: tm+mt
-source-wordcount: '359'
-ht-degree: 98%
+source-wordcount: '399'
+ht-degree: 89%
 
 ---
 
 # Solicitar un documento
 
 Puede solicitar un documento en cualquier objeto que admita documentos.
+
+>[!NOTE]
+>
+>Esta funcionalidad no está disponible en el área de nuevos documentos.<br>
+>Si su organización utiliza el almacenamiento empresarial, verá el área de nuevos documentos al acceder a ellos en Workfront. Para obtener más información acerca del almacenamiento empresarial, consulte [Descripción general del almacenamiento empresarial de Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 ## Requisitos de acceso
 
@@ -26,7 +31,7 @@ Puede solicitar un documento en cualquier objeto que admita documentos.
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p> Cualquiera</p> </td> 
   </tr> 
   <tr> 

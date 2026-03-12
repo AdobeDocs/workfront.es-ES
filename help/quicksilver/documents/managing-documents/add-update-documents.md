@@ -6,10 +6,10 @@ description: Puede añadir o responder a las actualizaciones de un documento par
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 8ecf8281-7fbd-446e-80e4-f9f0a864ad65
-source-git-commit: 4a0448583cbcfd1f1df10d6474fdf4e77e7bff3e
+source-git-commit: abff7d82c89992e2e494aae13c9eb20868259b54
 workflow-type: tm+mt
-source-wordcount: '365'
-ht-degree: 89%
+source-wordcount: '501'
+ht-degree: 69%
 
 ---
 
@@ -29,7 +29,7 @@ Puede añadir o responder a las actualizaciones de un documento para comunicarse
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p> Cualquiera</p> </td> 
   </tr> 
   <tr> 
@@ -54,7 +54,11 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
 
 +++
 
-## Añadir o responder a una actualización de un documento
+## Añadir una actualización a un documento en el área de documentos heredados
+
+Si su organización está en un almacenamiento de Workfront heredado, verá el área de documentos heredados al acceder a documentos en Workfront. Para obtener más información sobre el almacenamiento heredado de Workfront, consulte [Diferencias entre el almacenamiento heredado de Workfront y el almacenamiento empresarial de Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
+
+### Añadir o responder a una actualización de un documento
 
 1. Vaya al objeto que contiene el documento y, a continuación, seleccione **Documentos** en el panel izquierdo.
 1. Busque el documento que necesita y realice una de las siguientes acciones:
@@ -66,13 +70,22 @@ Para obtener más información sobre cómo añadir actualizaciones a objetos, co
    Las actualizaciones y respuestas se añaden al documento y a los objetos mejor situados. Para obtener más información, consulte [Información general sobre la sección Actualizar](../../workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
 
-## Añadir una respuesta a un comentario de revisión de un documento
+### Añadir una respuesta a un comentario de revisión de un documento
 
 En el área de Actualizaciones, cuando responde a un comentario que alguien hizo mientras revisaba un documento, se inicia el visor de corrección para que pueda escribir la respuesta allí con el contexto que necesite. Su respuesta se mostrará tanto en el visor de corrección como en el área de Actualizaciones del documento.
 
 1. Vaya al proyecto, tarea o problema que contiene el documento y, a continuación, seleccione **Documentos**.
 1. Busque el documento que necesita.
 
-1. Haga clic en **Respuesta en prueba**, escriba el comentario en el visor de corrección que se inicia y, a continuación, haga clic en **Responder**.
+1. Haga clic en **Respuesta en revisión**, escriba el comentario en el visor de corrección que se inicia y, a continuación, haga clic en **Responder**.
 
-   Si necesita información sobre cómo escribir comentarios y respuestas en el visor de corrección, consulte [Comentario sobre una prueba](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/comment-on-proof-1.md).
+   Si necesita información sobre cómo escribir comentarios y respuestas en el visor de corrección, consulte [Comentario sobre una revisión](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/comment-on-proof-1.md).
+
+## Agregar una actualización a un documento en el área de nuevos documentos
+
+Si su organización utiliza el almacenamiento empresarial, verá el área de nuevos documentos al acceder a ellos en Workfront. Para obtener más información acerca del almacenamiento empresarial, consulte [Descripción general del almacenamiento empresarial de Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
+
+1. Vaya al objeto que contiene el documento y, a continuación, seleccione **Documentos** en el panel izquierdo.
+1. Busque el documento que necesita y, a continuación, haga clic en el icono de comentario ![Icono de comentario](assets/new-doc-comment-icon.png) para abrir el panel Comentarios.
+1. Escriba su comentario en el cuadro de texto y haga clic en **Enviar**.
+   ![Nuevo panel de comentarios del documento](assets/comments-new-doc.png)

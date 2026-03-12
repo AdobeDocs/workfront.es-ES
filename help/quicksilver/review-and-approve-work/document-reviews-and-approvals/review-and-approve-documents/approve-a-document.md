@@ -6,10 +6,10 @@ description: Si se le asigna a un documento en calidad de aprobador, puede tomar
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 5490973b-99a7-4790-9d89-bf8f16ff5765
-source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
+source-git-commit: 6d6ac026bb2aa10ba3e678fb7e0f32dc95d0405f
 workflow-type: tm+mt
-source-wordcount: '1180'
-ht-degree: 73%
+source-wordcount: '1178'
+ht-degree: 72%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 73%
 
 Si se le asigna a un documento en calidad de aprobador, puede tomar su decisión de aprobación de varias formas.
 
-Para obtener información sobre la creación de una nueva aprobación de documento, consulte [Crear una solicitud de revisión o aprobación de documento](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).
+Para obtener información acerca de cómo crear una nueva aprobación de documento, vea [Crear un flujo de trabajo de aprobación de documento](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).
 
 >[!IMPORTANT]
 >
@@ -33,7 +33,7 @@ Para obtener información sobre la creación de una nueva aprobación de documen
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
@@ -155,7 +155,7 @@ Para revisar y aprobar un documento:
 
    * **Aprobar**: el documento no necesita cambios y está listo para usarse.
    * **Aprobar con cambios**: el documento necesita cambios y está listo para usarse una vez que se hayan realizado. No se requiere una aprobación adicional.
-   * **Necesita trabajo**: el documento necesita cambios y no está listo para usarse. Una vez realizados los cambios especificados, el documento debe cargarse como una nueva versión y pasar por otra ronda de aprobaciones. Para obtener más información sobre cómo cargar una nueva versión, consulte [Crear una nueva versión según sea necesario](#create-a-new-version-as-needed) en este artículo.
+   * **Necesita trabajo**: el documento necesita cambios y no está listo para usarse. Una vez realizados los cambios especificados, el documento debe cargarse como una nueva versión y pasar por otra ronda de aprobaciones. Para obtener más información sobre cómo cargar una nueva versión, vea [Cargar una nueva versión de documento y solicitar una aprobación](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/upload-new-doc-version.md).
 
 Una vez que tome una decisión, se notifica al propietario del documento por correo electrónico.
 

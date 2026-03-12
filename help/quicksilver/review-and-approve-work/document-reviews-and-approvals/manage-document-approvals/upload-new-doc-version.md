@@ -6,20 +6,22 @@ description: Puede cargar una nueva versión del documento y solicitar la aproba
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 0eb8cfba-2317-419c-b28f-da2e7a99401c
-source-git-commit: b615236d2666ebcc6db0d1f796fb0baaf362e0f2
+source-git-commit: 3fd4d18e1be14cc27b3b39d4abf399ec26ddcd51
 workflow-type: tm+mt
-source-wordcount: '455'
-ht-degree: 13%
+source-wordcount: '902'
+ht-degree: 11%
 
 ---
 
 # Cargar una nueva versión del documento y solicitar una aprobación
 
-Si un documento está marcado necesita trabajar en una revisión anterior, puede cargar una nueva versión en el documento original e iniciar otra ronda de aprobaciones. Una vez cargada una nueva versión del documento, las versiones anteriores se bloquean.
+<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa de espacio aislado.</span>
+
+Si un documento está marcado como &quot;Necesita trabajo&quot; en una revisión anterior, puede cargar una nueva versión en el documento original e iniciar otra ronda de aprobaciones. Una vez cargada una nueva versión del documento, las versiones anteriores se bloquean.
 
 Si el nombre de archivo de la nueva versión es diferente del nombre de archivo de la versión anterior, Workfront muestra el documento con el nombre de archivo más reciente.
 
-Cuando se añade una nueva versión a un documento con aprobaciones pendientes, la aprobación de la versión anterior se muestra como Retirada. El proceso de aprobación previo se cierra, incluso si algunos participantes aún no han tomado una decisión.
+Cuando se añade una nueva versión a un documento con aprobaciones pendientes, la aprobación de la versión anterior se muestra como &quot;Retirada&quot;. El proceso de aprobación previo se cierra, incluso si algunos participantes aún no han tomado una decisión.
 
 Si se elimina la versión más reciente del documento, las versiones anteriores permanecerán bloqueadas. Si necesita editar una versión anterior, debe desbloquearla manualmente.
 
@@ -34,8 +36,8 @@ Si se elimina la versión más reciente del documento, las versiones anteriores 
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
-   <td> <p> Cualquiera</p> </td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
+   <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licencias de Adobe Workfront</td> 
@@ -59,7 +61,8 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 
 +++
 
-## Utilice arrastrar y soltar para agregar una nueva versión
+
+## Utilice arrastrar y soltar para agregar una nueva versión en el entorno de producción
 
 >[!NOTE]
 >
@@ -88,7 +91,7 @@ Para agregar una nueva versión:
 
    >[!TIP]
    >
-   >   Los usuarios con una licencia Standard pueden crear plantillas de aprobación reutilizables desde el área de Configuración. Para obtener más información, consulte [Crear una plantilla de aprobación para recursos y documentos](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md).
+   >   Los usuarios con una licencia Standard pueden crear plantillas de aprobación reutilizables desde el área de configuración. Para obtener más información, consulte [Crear una plantilla de flujo de trabajo de aprobación para los documentos](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md).
 
 
 1. (Opcional) Establezca una fecha límite para la aprobación. Los usuarios y equipos reciben una notificación por correo electrónico 72 horas antes y 24 horas antes del plazo especificado.
@@ -97,4 +100,81 @@ Para agregar una nueva versión:
 
    ![enviar nueva versión para su aprobación](assets/add-previous-participants.png)
 
+
+
+
+
+<div class="preview">
+
+## Utilice arrastrar y soltar para agregar una nueva versión al entorno de vista previa en el área de documentos heredados
+
+Si su organización está en el almacenamiento de Workfront, verá el área de documentos heredados al acceder a documentos en Workfront. Para obtener más información sobre el almacenamiento de Workfront, consulte [Almacenamiento de Workfront frente al almacenamiento empresarial de Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md#workfront-storage-vs-adobe-enterprise-storage).
+
+>[!NOTE]
+>
+>Arrastrar y soltar no funciona con Internet Explorer.
+
+
+Si necesita otra ronda de revisión y aprobación de un documento, puede crear una nueva versión del documento en Workfront.
+
+Puede agregar los participantes anteriores, nuevos participantes o una combinación de ambos. Puede ver información sobre versiones anteriores y participantes en la página Detalles del documento.
+
+Para agregar una nueva versión:
+
+1. Navegue hasta el documento en Workfront.
+1. Arrastre y suelte el nuevo archivo sobre el documento anterior. Esto crea automáticamente una nueva versión.
+
+1. Una vez que termine la carga del documento, seleccione el documento para abrir el panel Resumen del documento. Aquí verá el número de versión en la parte superior del panel.
+   ![Abrir la página de detalles del documento](assets/open-doc-details.png)
+
+
+1. Desplácese hacia abajo hasta la sección **Aprobaciones**.
+
+1. Haga clic en **Crear flujo de trabajo** y rellene los siguientes detalles:
+
+   <table>
+   <tr>
+   <td><strong>Nombre de la fase</strong></td>
+   <td>Añada un nombre de fase. Puede cambiar el nombre por otro más descriptivo, como <em>Revisión inicial</em> o <em>Aprobación final</em>.</td>
+   </tr>
+   <tr>
+   <td><strong>Añadir nombres o correos electrónicos</strong></td>
+   <td>Empiece a escribir el nombre de un usuario o equipo que desee agregar como aprobador o revisor. Si solo tiene revisores, se les notificará y tendrán la opción de completar la revisión, pero no se requerirá ni se adoptará ninguna decisión.</td>
+   </tr>
+   <tr>
+   <td><strong>Se requiere una decisión (opcional)</strong></td>
+   <td>La primera persona que toma una decisión completa la etapa.</td>
+   </tr>
+   <tr>
+   <td><strong>Fecha de vencimiento (opcional)</strong></td>
+   <td>Establezca una fecha límite para la aprobación. Los usuarios y equipos reciben una notificación por correo electrónico 72 horas y, a continuación, 24 horas antes de la fecha de vencimiento especificada.</td>
+   </tr>
+   </table>
+
+1. (Opcional) Repita el paso anterior para agregar etapas adicionales según sea necesario.
+
+   >[!NOTE]
+   >
+   >Si agrega varias fases, el flujo de trabajo de aprobación se ejecuta en el orden en que se enumeran las fases. Cuando se toman todas las decisiones necesarias, comienza la siguiente etapa y se bloquea la anterior.
+
+
+
+1. (Opcional) Para añadir una plantilla de aprobación existente, seleccione una plantilla en la parte izquierda del cuadro de diálogo.
+
+   >[!TIP]
+   >
+   >   Los usuarios con una licencia Standard pueden crear plantillas de aprobación reutilizables desde el área de configuración. Para obtener más información, consulte [Crear una plantilla de flujo de trabajo de aprobación para los documentos](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md).
+
+
+
+1. Una vez que haya agregado todas las etapas y los participantes que necesita, haga clic en **Solicitar aprobación**.
+
+   El flujo de trabajo de aprobación se inicia y los aprobadores reciben una notificación que les informa de que necesitan su aprobación en la nueva versión del documento. La versión anterior del documento está bloqueada y se retiran las aprobaciones pendientes de la versión anterior.
+
+   ![solicitar aprobación](assets/request-approval.png)
+   <!--1. To add all previous participants, click **Add all**. You can also add new participants or remove previous participants as needed.-->
+
+
+
+</div>
 

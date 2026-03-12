@@ -6,10 +6,10 @@ description: Un usuario con derechos para administrar un documento puede mover e
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 46039017-58b3-4e9d-8dcd-6e1f52d98d27
-source-git-commit: 4a0448583cbcfd1f1df10d6474fdf4e77e7bff3e
+source-git-commit: abff7d82c89992e2e494aae13c9eb20868259b54
 workflow-type: tm+mt
-source-wordcount: '216'
-ht-degree: 94%
+source-wordcount: '410'
+ht-degree: 58%
 
 ---
 
@@ -34,7 +34,7 @@ Al mover un documento, cualquiera de los siguientes elementos también se mover�
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p> Cualquiera</p> </td> 
   </tr> 
   <tr> 
@@ -58,16 +58,48 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
 
 +++
 
-## Mover un documento
+## Mover un documento al área de documentos heredados
+
+Si su organización utiliza un almacenamiento de Workfront heredado, verá el área de documentos heredados al acceder a documentos en Workfront. Para obtener más información sobre el almacenamiento de Workfront, consulte [Diferencias entre el almacenamiento empresarial de Adobe y el almacenamiento de Workfront heredado](/help/quicksilver/review-and-approve-work/esm-overview.md#differences-between-adobe-enterprise-storage-and-legacy-workfront-storage).
+
+Para mover un documento:
 
 1. Vaya al proyecto, tarea o problema que contiene el documento y, a continuación, seleccione **Documentos**.
 1. Busque el documento que necesita.
 
 1. Haga clic en el icono **Mover** ![Mover icono](assets/move-document--25x19.png).
+   ![Mover ubicación del icono en la página](assets/move-doc-legacy.png)
+
 1. En el menú desplegable del cuadro que aparece, haga clic en **Problema**, **Proyecto** o **Tarea** para indicar el tipo de objeto al que desea mover el documento. 
 
 1. Escriba el nombre del **Problema**, **Proyecto** o **Tarea** en el cuadro de texto.
 
+   >[!NOTE]
+   >
+   >Solo puede pasar a otro proyecto, tarea o problema mediante el almacenamiento heredado de Workfront.
+
 1. Haga clic en **Finalizar**.
 
 También puede mover un documento desde la página Detalles del documento.
+
+## Mover un documento al área de nuevos documentos
+
+Si su organización utiliza el almacenamiento empresarial, verá el área de nuevos documentos al acceder a ellos en Workfront. Para obtener más información acerca del almacenamiento empresarial, consulte [Descripción general del almacenamiento empresarial de Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
+
+Para mover un documento:
+
+1. Vaya al proyecto, tarea o problema que contiene el documento y, a continuación, seleccione **Documentos**.
+1. Busque el documento que necesita.
+1. Haga clic en **Mover** en la parte inferior de la página.
+
+![Mover ubicación del icono en la página](assets/move-new-doc.png)
+
+1. En el menú desplegable del cuadro que aparece, haga clic en **Problema**, **Proyecto** o **Tarea** para indicar el tipo de objeto al que desea mover el documento.
+
+1. Escriba el nombre del **Problema**, **Proyecto** o **Tarea** en el cuadro de texto.
+
+   >[!NOTE]
+   >
+   >Solo puede pasar a otro proyecto, tarea o problema mediante el almacenamiento empresarial.
+
+1. Haga clic en **Mover**.

@@ -6,10 +6,10 @@ description: Como revisor, puede previsualizar un documento que le ha sido envia
 author: Nolan
 feature: Work Management, Digital Content and Documents
 exl-id: 371970e4-cd3e-49b6-8a2d-6cb8fa628679
-source-git-commit: 7572dd64a7f23d6f8dcae374a327d67f2d6738c5
+source-git-commit: 3fd4d18e1be14cc27b3b39d4abf399ec26ddcd51
 workflow-type: tm+mt
-source-wordcount: '529'
-ht-degree: 71%
+source-wordcount: '560'
+ht-degree: 68%
 
 ---
 
@@ -30,7 +30,7 @@ Como revisor, puede ver un documento que le ha sido enviado para su revisión. A
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
@@ -109,6 +109,6 @@ Para revisar un documento:
 
 1. Para registrar que ha completado la revisión, haga clic en **Completar revisión**.
 
-<!--## Review a document from the Frame.io viewer
+## Revisar un documento desde el visor de Frame.io
 
-To review a document from the Frame.io viewer, your Workfront instance must be integrated with Frame.io. For more information, see the [Frame.io integration overview](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/frame-int-overview.md).-->
+Para revisar un documento desde el visor Frame.io, la instancia de Workfront debe estar integrada con Frame.io. Para obtener más información, consulte la [descripción general de la integración de Frame.io](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/frame-int-overview.md).

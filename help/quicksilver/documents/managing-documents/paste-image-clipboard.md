@@ -6,16 +6,21 @@ description: Puede añadir un archivo de imagen a Adobe Workfront copiándolo y 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 5c3f089c-9e66-4294-806a-424a08bbf225
-source-git-commit: 4a0448583cbcfd1f1df10d6474fdf4e77e7bff3e
+source-git-commit: abff7d82c89992e2e494aae13c9eb20868259b54
 workflow-type: tm+mt
-source-wordcount: '322'
-ht-degree: 98%
+source-wordcount: '362'
+ht-degree: 88%
 
 ---
 
 # Pegar imágenes desde el portapapeles
 
 Puede añadir un archivo de imagen a Adobe Workfront copiándolo y pegándolo desde el portapapeles del sistema en la estación de trabajo. 
+
+>[!NOTE]
+>
+>Esta funcionalidad no está disponible en el área de nuevos documentos.<br>
+>Si su organización utiliza el almacenamiento empresarial, verá el área de nuevos documentos al acceder a ellos en Workfront. Para obtener más información acerca del almacenamiento empresarial, consulte [Descripción general del almacenamiento empresarial de Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 ## Requisitos del explorador para pegar desde el portapapeles
 
@@ -37,7 +42,7 @@ Esta función es específica del explorador, como se indica a continuación:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p> Cualquiera</p> </td> 
   </tr> 
   <tr> 

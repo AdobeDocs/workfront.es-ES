@@ -7,9 +7,9 @@ author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 0f4fd3a7-9578-4fda-b10f-9b4be147f1de
-source-git-commit: cd2a5560fdf446e8e971afcb640af38b4d301d40
+source-git-commit: 7944822b0aa49498ef8a396768b90dc9ed85b607
 workflow-type: tm+mt
-source-wordcount: '663'
+source-wordcount: '653'
 ht-degree: 6%
 
 ---
@@ -65,7 +65,7 @@ Workfront AI Reviewer utiliza las directrices de marca al revisar el contenido. 
 Para obtener más información, consulte [Configurar marcas para el revisor de IA](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-a-brand.md).
 
 
-## Crear revisores de IA
+## Creación de comprobadores por IA
 
 Una vez que haya al menos una marca configurada, los administradores de Workfront pueden empezar a crear revisores de IA en el área de configuración. Estos revisores de IA se pueden asignar a plantillas de aprobación y a solicitudes de revisión y aprobación individuales. En este momento, los revisores de IA solo pueden revisar las directrices de marca de imagen.
 
@@ -83,7 +83,7 @@ Los usuarios pueden agregar revisores de IA a las plantillas de aprobación para
 
 Una vez creadas, las plantillas de aprobación se pueden aplicar a los recursos del área Documentos de un proyecto, tarea o problema.
 
-Para obtener más información, consulte [Crear una plantilla de aprobación para recursos y documentos](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md).
+Para obtener más información, consulte [Crear una plantilla de flujo de trabajo de aprobación para los documentos](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md).
 
 ![lista de plantillas que muestra revisores de IA](assets/ai-review-templates.png)
 
@@ -91,12 +91,12 @@ Para obtener más información, consulte [Crear una plantilla de aprobación par
 
 Cuando los usuarios crean solicitudes de revisión y aprobación individuales, pueden agregar un revisor de IA con otros participantes o pueden crear una única solicitud con solo el revisor de IA para comprobar el cumplimiento de la marca.
 
-Para obtener más información, vea [Crear una solicitud de revisión o aprobación de documento](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).
+Para obtener más información, consulte [Crear un flujo de trabajo de aprobación de documentos](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).
 
 
-![Se agregó un revisor de IA a la solicitud de aprobación individual](assets/ad-ai-reviewer-to-request.png)
 
-## Ver puntuación y comentarios del revisor de IA
+
+## Ver puntuación y comentarios del comprobador por IA
 
 Segundos después de enviar la solicitud de revisión y aprobación con un revisor de IA, la puntuación y los comentarios del revisor de IA están disponibles en el panel Resumen del documento, incluso si otros participantes siguen revisando y tomando decisiones.
 

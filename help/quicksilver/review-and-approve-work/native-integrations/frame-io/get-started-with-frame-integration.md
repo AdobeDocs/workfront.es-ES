@@ -7,10 +7,10 @@ author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: b9a83bc2-4dd8-4c77-a2e7-385baa809b3b
-source-git-commit: 8233bcad8409b6f293d365fe871338e643a410dc
+source-git-commit: e93f8662acb95029e4997ec270b23511d3e880dd
 workflow-type: tm+mt
-source-wordcount: '921'
-ht-degree: 2%
+source-wordcount: '960'
+ht-degree: 6%
 
 ---
 
@@ -38,10 +38,10 @@ Los coordinadores de proyectos pueden crear proyectos y planificar el trabajo en
 
 Si su organización tiene una licencia de Frame.io Enterprise, los proyectos creados en Workfront también son visibles en Frame.io, lo que permite a los usuarios interactuar y cargar recursos en cualquier producto.
 
-Para obtener información sobre el almacenamiento empresarial de Adobe o los proyectos en Frame.io, consulte
+Para obtener información sobre el almacenamiento empresarial o los proyectos de Adobe en Frame.io, consulte
 
 * [Información general de Workspace: Proyectos](https://help.frame.io/en/articles/9101001-workspace-overview#h_d9f8654895)
-* [Información general sobre Adobe Enterprise Storage](/help/quicksilver/review-and-approve-work/esm-overview.md)
+* [Información general sobre el almacenamiento empresarial de Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md)
 
 ## Revisión y aprobación de recursos
 
@@ -56,7 +56,7 @@ Para obtener más información sobre la configuración de proyectos, consulte
 
 ### Iniciar revisiones y aprobaciones formales en Workfront
 
-Los coordinadores de proyectos pueden crear aprobaciones y revisiones únicas o plantillas de aprobación reutilizables. Pueden asignar revisores, aprobadores o una combinación de ambos:
+Los coordinadores de proyecto pueden crear aprobaciones y revisiones únicas o plantillas de aprobación reutilizables. Pueden asignar revisores, aprobadores o una combinación de ambos:
 
 * **Los revisores** pueden agregar comentarios y marcar los recursos. Una vez finalizada, puede marcar su revisión como completada. No es necesario marcar la revisión como completada para que el recurso avance en el proceso de aprobación.
 * **Los aprobadores** pueden agregar comentarios y marcar los recursos. Deben tomar la decisión de adelantar el proceso de aprobación.
@@ -67,13 +67,13 @@ Los revisores y aprobadores se pueden añadir a un flujo de trabajo de aprobaci�
 
 * **Aprobaciones de un solo uso**: en el proyecto o tarea donde reside el recurso, el coordinador del proyecto puede asignar revisores y aprobadores y establecer un límite de finalización. Se recuerda a los revisores y aprobadores por correo electrónico 72 horas antes del plazo, 24 horas antes del plazo y, a continuación, en el propio plazo.
 
-  Para obtener más información, vea [Crear una solicitud de revisión o aprobación de documento](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).
+  Para obtener más información, consulte [Crear un flujo de trabajo de aprobación de documentos](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).
 
-* **Plantillas de aprobación**: en el área Configuración de Workfront, los coordinadores de proyectos pueden crear plantillas de aprobación reutilizables. En una plantilla, los usuarios pueden agregar revisores y aprobadores, y especificar un periodo de finalización. Cuando la plantilla de aprobación se aplica a un recurso, la fecha límite se calcula a partir del periodo de tiempo especificado.
+* **Plantillas de aprobación**: en el área Configuración de Workfront, los coordinadores de proyecto pueden crear plantillas de aprobación reutilizables. En una plantilla, los usuarios pueden agregar revisores y aprobadores, y especificar un periodo de finalización. Cuando la plantilla de aprobación se aplica a un recurso, la fecha límite se calcula a partir del periodo de tiempo especificado.
 
   Una vez creada una plantilla, se puede aplicar a un recurso para iniciar el proceso formal de revisión y aprobación en Workfront.
 
-  Para obtener más información, consulte [Crear una plantilla de aprobación](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md).
+  Para obtener más información, consulte [Crear una plantilla de flujo de trabajo de aprobación para los documentos](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md).
 
 
   ![Asignar plantilla](assets/assign-template.png)
@@ -106,6 +106,7 @@ Los comentarios y el marcado de recursos se pueden ver en el visor de Frame.io. 
 Una vez completada toda la actividad de revisión, los aprobadores deben tomar una de las siguientes decisiones:
 
 * **Aprobar**: el recurso no necesita cambios y está listo para usarse.
+* **Aprobado con cambios**: el recurso está casi completo, pero necesita cambios menores para poder utilizarlo. Una vez realizados los cambios especificados, el recurso está listo y no necesita pasar por otra ronda de aprobaciones.
 * **Necesita trabajo**: el recurso necesita cambios y no está listo para usarse. Una vez realizados los cambios especificados, el recurso debe cargarse como una nueva versión y pasar por otra ronda de aprobaciones. <!--is the same approval workflow automatically applied? Does the coordinator have to do anything to get the approval going? -->
 
 Los revisores pueden marcar su revisión como completada dentro de Workfront, pero esto no es necesario para que el recurso avance en el proceso de aprobación.
@@ -127,4 +128,4 @@ Los coordinadores de proyecto pueden monitorizar el progreso de todas las aproba
 
 Puede usar [!DNL Experience Manager Assets]&#x200B;&#x200B; para administrar y almacenar los recursos digitales que han pasado por el ciclo de revisión y aprobación. Esta integración le permite aprovechar las capacidades de Adobe Experience Manager, Frame.io y Workfront para optimizar los procesos de colaboración y administración de contenido.
 
-Para obtener más información, consulte [Usar Adobe Experience Manager con la integración Frame.io](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md).
+Para obtener más información, consulte [Usar Adobe Experience Manager con la integración de Frame.io](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md).

@@ -6,10 +6,10 @@ description: Al cargar un documento desde cualquier servicio por primera vez, Ad
 author: Courtney
 feature: Digital Content and Documents
 exl-id: fce8e8aa-fc48-49e1-a71d-c3933a179cf5
-source-git-commit: 430751f0e38c6c45145c965398990ee3652f36fe
+source-git-commit: abff7d82c89992e2e494aae13c9eb20868259b54
 workflow-type: tm+mt
-source-wordcount: '373'
-ht-degree: 98%
+source-wordcount: '413'
+ht-degree: 90%
 
 ---
 
@@ -21,6 +21,11 @@ Para obtener información sobre cómo vincular servicios de documentos externos 
 
 Dado que el servicio de documentos es el que permite vincular permisos a Workfront, Workfront no puede eliminar el permiso concedido por el servicio de documentos. Debe quitar el permiso desde la aplicación del servicio de documentos o llamar a nuestro equipo de soporte para quitar este vínculo de nuestros servidores.
 
+>[!NOTE]
+>
+>Esta funcionalidad no está disponible en el área de nuevos documentos.<br>
+>Si su organización utiliza el almacenamiento empresarial, verá el área de nuevos documentos al acceder a ellos en Workfront. Para obtener más información acerca del almacenamiento empresarial, consulte [Descripción general del almacenamiento empresarial de Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
+
 ## Requisitos de acceso
 
 +++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
@@ -30,7 +35,7 @@ Dado que el servicio de documentos es el que permite vincular permisos a Workfro
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p> Cualquiera</p> </td> 
   </tr> 
   <tr> 
