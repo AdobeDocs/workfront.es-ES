@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 44ad9ef17277476448b59c3c7bdf1817ad84be37
+source-git-commit: c91622e8155c62ecf7c17eaeb60b2bd4f69aaedf
 workflow-type: tm+mt
-source-wordcount: '2358'
+source-wordcount: '2360'
 ht-degree: 76%
 
 ---
@@ -286,7 +286,7 @@ Puede crear campos personalizados de los siguientes tipos:
 * Fecha de la última modificación
 * Aprobado por
 * Fecha de aprobación
-  <!--*<span class="preview">Record ID</span>-->
+* <span class="preview">Id. de registro</span>
   <!--update the screen shot above-->
 
 ### Tipos de registros, registros y campos conectados

@@ -6,19 +6,19 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: aeedd871-dcd3-4fb3-bfc5-99db3e7c9296
-source-git-commit: 44ad9ef17277476448b59c3c7bdf1817ad84be37
+source-git-commit: c91622e8155c62ecf7c17eaeb60b2bd4f69aaedf
 workflow-type: tm+mt
-source-wordcount: '1709'
-ht-degree: 1%
+source-wordcount: '1802'
+ht-degree: 2%
 
 ---
 
 
 # Información general sobre el tipo de registro entre espacios de trabajo
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después de las versiones mensuales en Production, las mismas funciones también están disponibles en el entorno Production para los clientes que habilitaron versiones rápidas. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span> -->
+<span class="preview">Para obtener información acerca de las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
 {{planning-important-intro}}
 
@@ -230,11 +230,11 @@ Para utilizar tipos de registros conectables, haga lo siguiente:
 
    El tipo de registro original existirá en su espacio de trabajo original y se puede acceder a él desde otro espacio de trabajo.
 
-   <!--
-    <span class="preview">Only System Administrators can designate a record type to be connectable from all workspaces in the system. All other workspace managers can designate specific workspaces to connect to the record type from. </span>
-    -->
-
-   Para obtener más información, vea [Configurar las capacidades entre espacios de trabajo para los tipos de registro](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md).
+   >[!TIP]
+   >
+   ><span class="preview">Solo los administradores del sistema pueden designar un tipo de registro para que se pueda conectar desde todos los espacios de trabajo del sistema. Todos los demás gestores de espacio de trabajo pueden designar espacios de trabajo específicos desde los que conectarse al tipo de registro. </span>
+   >
+   >Para obtener más información, vea [Configurar las capacidades entre espacios de trabajo para los tipos de registro](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md).
 1. Conéctese a un tipo de registro designado como conectable desde otro espacio de trabajo que administre.
 
    Para obtener más información, consulte [Conectar tipos de registros](/help/quicksilver/planning/architecture/connect-record-types.md).

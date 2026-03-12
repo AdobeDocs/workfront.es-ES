@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 058148db-1795-4d39-be87-271008ae3d47
-source-git-commit: 44ad9ef17277476448b59c3c7bdf1817ad84be37
+source-git-commit: c91622e8155c62ecf7c17eaeb60b2bd4f69aaedf
 workflow-type: tm+mt
-source-wordcount: '1288'
+source-wordcount: '1289'
 ht-degree: 4%
 
 ---
@@ -73,7 +73,7 @@ Para obtener más información acerca de los requisitos de acceso de Workfront, 
 
 ## Consideraciones sobre la adición de aprobaciones a un formulario de solicitud
 
-* Puede agregar uno o varios aprobadores a un formulario de solicitud. Solo puede agregar usuarios como aprobadores.
+* Puede agregar uno o varios aprobadores a un formulario de solicitud. Puede agregar usuarios y equipos como aprobadores.
 * Puede mostrar la información de aprobación de un registro creado enviando un formulario de solicitud en los campos Aprobado por y Fecha de aprobación. Para obtener más información, consulte [Crear campos](/help/quicksilver/planning/fields/create-fields.md).
 * Cuando se agregan varios aprobadores a un formulario de solicitud, todos los aprobadores deben aceptar la solicitud antes de crear un registro en Workfront Planning.
 * Si todos los aprobadores aprueban la solicitud, se crea un registro para el tipo de registro asociado al formulario de solicitud.
@@ -116,7 +116,7 @@ Para obtener más información acerca de los requisitos de acceso de Workfront, 
 
    >[!NOTE]
    >
-   >   La instancia de Workfront de su organización debe incorporarse a la experiencia unificada de Adobe para que los usuarios puedan recibir notificaciones por correo electrónico y en la aplicación.
+   >La instancia de Workfront de su organización debe incorporarse a la experiencia unificada de Adobe para que los usuarios puedan recibir notificaciones por correo electrónico y en la aplicación.
 
 
    Para obtener información acerca de cómo aprobar solicitudes, vea [Aprobar una solicitud](/help/quicksilver/planning/requests/approve-request.md).

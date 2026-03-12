@@ -6,15 +6,15 @@ feature: Workfront Planning
 recommendations: noDisplay, noCatalog
 role: User, Admin
 exl-id: 99fac041-a235-4991-b826-d19944164bc9
-source-git-commit: 5d326776b9c5b4d9d24e802375df4630508c8bd0
+source-git-commit: c91622e8155c62ecf7c17eaeb60b2bd4f69aaedf
 workflow-type: tm+mt
 source-wordcount: '751'
-ht-degree: 25%
+ht-degree: 30%
 
 ---
 
 
-# Información general sobre el acceso a Adobe Workfront Planning
+# Información general de acceso a Adobe Workfront Planning
 
 <!--do not use the snippet for IMPORTANT , as it links to this article-->
 
@@ -157,7 +157,7 @@ Para agregar o quitar áreas de Workfront Planning de los usuarios de la instanc
 
 Puede asignar licencias a los usuarios al configurar su nivel de acceso mientras los edita o crea.
 
-Para obtener más información, consulte [Editar los perfiles de un usuario](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)
+Para obtener más información, consulte [Editar el perfil de un usuario](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
 ## Configuración del nivel de acceso
 

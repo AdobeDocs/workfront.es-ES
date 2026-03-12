@@ -6,21 +6,19 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 940945df-391c-4672-9d9d-180d5028509b
-source-git-commit: 44ad9ef17277476448b59c3c7bdf1817ad84be37
+source-git-commit: c91622e8155c62ecf7c17eaeb60b2bd4f69aaedf
 workflow-type: tm+mt
-source-wordcount: '826'
-ht-degree: 8%
+source-wordcount: '887'
+ht-degree: 7%
 
 ---
 
 
 # Crear registros importando información desde un archivo CSV o de Excel
 
-<!--
+<span class="preview">La información de esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después de las versiones mensuales en Production, las mismas funciones también están disponibles en el entorno Production para los clientes que habilitaron versiones rápidas. </span>
 
-<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
-
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -147,7 +145,7 @@ Para obtener más información acerca de los requisitos de acceso de Workfront, 
    * Fecha de la última modificación, Última modificación por
    * Fecha de aprobación, Aprobado por
    * Personas
-     <!--* <span class="preview">Record ID</span>-->
+   * <span class="preview">Id. de registro</span>
    * Si se importa un campo de selección múltiple o única y tiene más opciones que un campo similar en Planning, las opciones adicionales se crean durante la importación. Solo los usuarios con permisos de Administrar en el espacio de trabajo pueden importar nuevas opciones.
 
 ## Creación de registros importando un archivo CSV o de Excel
