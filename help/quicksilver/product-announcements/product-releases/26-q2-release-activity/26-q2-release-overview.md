@@ -5,10 +5,10 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7e440fc0-45ad-4f73-ae7e-5374e4ae1480
-source-git-commit: d721f04259046f271e9f420e445af6e87d67a5c0
+source-git-commit: 93c22854ccc405c442331ac392d919d63b8a8aa8
 workflow-type: tm+mt
-source-wordcount: '1352'
-ht-degree: 41%
+source-wordcount: '1505'
+ht-degree: 38%
 
 ---
 
@@ -42,7 +42,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
 * [Mejoras de documento](#document-enhancements)
 * [Mejoras en los proyectos](#project-enhancements)
 * [Mejoras en la creación de informes](#reporting-enhancements)
-* [Solicitud de mejoras](#requesting-enhancements)
+* [Solicitar mejoras](#requesting-enhancements)
 * [Otras mejoras](#other-enhancements)
 
 ### Mejoras en el administrador
@@ -62,21 +62,21 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Trimestres personalizados eliminados de las preferencias del proyecto</a><p>Hemos movido el área Trimestre personalizado de la sección Preferencias de proyecto. Ahora es una sección independiente en Configuración.</p>
         </td>
-        <td><p>jueves, 05 de marzo de 2025</p></td>
+        <td><p>viernes, 05 de marzo de 2026</p></td>
         <td><p>jueves, 15 de abril de 2026</p></td>
         <td><p>viernes, 16 de abril de 2026</p></td>
     </tr>
     <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Contraer sección de formulario personalizado de forma predeterminada</a><p>De forma predeterminada, todas las secciones de un formulario personalizado se expanden cuando se expande el propio formulario. Una nueva opción del diseñador de formularios personalizado permite marcar una sección para que se contraiga de forma predeterminada cuando un usuario abre el formulario. Esta opción se aplica en el nivel de sección, no en los campos.</p>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Contraer sección de formulario personalizada de forma predeterminada</a><p>De forma predeterminada, todas las secciones de un formulario personalizado se expanden cuando se expande el propio formulario. Una nueva opción del diseñador de formularios personalizado permite marcar una sección para que se contraiga de forma predeterminada cuando un usuario abre el formulario. Esta opción se aplica en el nivel de sección, no en los campos.</p>
         </td>
-        <td><p>jueves, 26 de febrero de 2025</p></td>
+        <td><p>viernes, 26 de febrero de 2026</p></td>
         <td><p>viernes, 12 de marzo de 2026</p></td>
         <td><p>viernes, 16 de abril de 2026</p></td>
     </tr>
      <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">El tipo de campo de texto enriquecido ya está disponible en los formularios personalizados</a><p>El nuevo tipo de campo <b>Texto enriquecido</b> de los formularios personalizados es un editor de texto robusto con opciones de formato como superíndice y subíndice, encabezados y tablas, además de las opciones tradicionales de negrita, cursiva, subrayado, viñetas, numeración, hipervínculos y comillas de bloque. El límite de caracteres sigue siendo de 15 000.</p>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">El tipo de campo de texto enriquecido ya está disponible en los formularios personalizados</a><p>El nuevo tipo de campo <b>Texto enriquecido</b> de los formularios personalizados es un editor de texto robusto con opciones de formato como superíndice y subíndice, encabezados y tablas, además de las opciones tradicionales de negrita, cursiva, subrayado, viñetas, numeración, hipervínculos y comillas de bloque. El límite de caracteres sigue siendo 15 000.</p>
         </td>
         <td><p>viernes, 29 de enero de 2026</p></td>
         <td><p>viernes, 12 de febrero de 2026</p>
@@ -94,7 +94,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
             <li>206.55.149.214</li>
             <li>206.55.149.215</li>
             <li>206.55.149.213</li>
-            <li>206.55.149.211</li>
+            <li>206.5.149.211</li>
             </ul>
             </li>
             <li>UE: 
@@ -112,42 +112,49 @@ The <add release> release webinar will be held on <date>. You can [register for 
             </tbody>
         </table>
 
-<!--
-
-### Document enhancements
+### Mejoras de documento
 
 <table>
             <col style="width: 50%;" />
             <col style="width: 25%;" />
             <tbody>
                <tr>
-        <td><strong>Feature</strong>
+        <td><strong>Característica</strong>
         </td>
-        <td><strong>Preview</strong></td>
-        <td><strong>Fast release</strong></td>
-        <td><strong>Quarterly</strong></td>
+        <td><strong>Vista previa</strong></td>
+        <td><strong>Versión rápida</strong></td>
+        <td><strong>Trimestralmente</strong></td>
     <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-documents.md" class="MCXref xref" xrefformat="{para}">Multi‑stage approval workflows available for unified approvals</a><p></p>
-            <p>Multi‑stage approval workflows are now available in unified approvals, helping organizations enforce structured, repeatable approval processes that reflect how work is reviewed in the real world. </p>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-documents.md" class="MCXref xref" xrefformat="{para}">Revisión y aprobación unificadas con tecnología Workfront y Frame.io</a><p></p>
+            <p>Nos complace presentar Unified Review &amp; Approval con tecnología Workfront y Frame.io, una experiencia optimizada de revisión y aprobación que aúna la planificación, la revisión y la colaboración en un único flujo de trabajo conectado.
+ </p>
         </td>
-        <td><p>February 26, 2025</p></td>
-        <td><p>March 12, 2026</p></td>
-        <td><p>April 16, 2026</p></td>
+        <td><p>viernes, 12 de marzo de 2026</p></td>
+        <td><p>jueves, 15 de abril de 2026</p></td>
+        <td><p>viernes, 16 de abril de 2026</p></td>
     </tr>
     <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-documents.md" class="MCXref xref" xrefformat="{para}">Set up and use multi-stage approval workflow templates</a><p></p>
-            <p>You can now configure and reuse multi-stage approval workflow templates, making it easier to apply consistent governance across repeatable approval workflows. </p>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-documents.md" class="MCXref xref" xrefformat="{para}">Flujos de trabajo de aprobación de varias etapas disponibles para aprobaciones unificadas</a><p></p>
+            <p>Los flujos de trabajo de aprobación de varias fases ahora están disponibles en las aprobaciones unificadas, lo que ayuda a las organizaciones a aplicar procesos de aprobación estructurados y repetibles que reflejan cómo se revisa el trabajo en el mundo real. </p>
         </td>
-        <td><p>February 26, 2025</p></td>
-        <td><p>March 12, 2026</p></td>
-        <td><p>April 16, 2026</p></td>
+        <td><p>viernes, 12 de marzo de 2026</p></td>
+        <td><p>jueves, 15 de abril de 2026</p></td>
+        <td><p>viernes, 16 de abril de 2026</p></td>
+    </tr>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-documents.md" class="MCXref xref" xrefformat="{para}">Configurar y usar plantillas de flujo de trabajo de aprobación de varias etapas</a><p></p>
+            <p>Ahora puede configurar y reutilizar plantillas de flujo de trabajo de aprobación de varias etapas, lo que facilita la aplicación de un control coherente en todos los flujos de trabajo de aprobación repetibles. </p>
+        </td>
+        <td><p>viernes, 12 de marzo de 2026</p></td>
+        <td><p>jueves, 15 de abril de 2026</p></td>
+        <td><p>viernes, 16 de abril de 2026</p></td>
     </tr>
              </tbody>
-        </table>   
+        </table>
 
--->
 
 ### Mejoras en los proyectos
 
@@ -171,7 +178,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
     </tr>
     <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-reports.md" class="MCXref xref" xrefformat="{para}">Experiencia actualizada al asignar tareas de forma única o masiva </a><p>[!BADGE Off schedule]{type=Neutral}</p><p> Hemos actualizado la sección Asignaciones en el cuadro Editar tareas al editar tareas únicas o editarlas por lotes. </p>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-reports.md" class="MCXref xref" xrefformat="{para}">Experiencia actualizada al asignar tareas individuales o en bloque </a><p>[!BADGE Off schedule]{type=Neutral}</p><p> Hemos actualizado la sección Asignaciones en el cuadro Editar tareas al editar tareas únicas o editarlas por lotes. </p>
         </td>
         <td><p>martes, 26 de enero de 2026</p></td>
         <td><p>A partir del 5 de febrero de 2026</p></td>
@@ -192,12 +199,22 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td><strong>Vista previa</strong></td>
         <td><strong>Versión rápida</strong></td>
         <td><strong>Trimestralmente</strong></td>
+        </tr>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-reports.md" class="MCXref xref" xrefformat="{para}">Nuevas opciones de autenticación para la conexión de conexión de datos</a><p></p>
+            <p>Ahora puede autenticarse en Data Connect usando claves RSA o conexiones de Tokens de acceso programático (PAT), lo que agrega alternativas más seguras y flexibles a las credenciales tradicionales de nombre de usuario y contraseña. </p>
+        </td>
+        <td><p>viernes, 12 de marzo de 2026</p></td>
+        <td><p>viernes, 12 de marzo de 2026</p></td>
+        <td><p>viernes, 16 de abril de 2026</p></td>
+    </tr>
     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-reports.md" class="MCXref xref" xrefformat="{para}">Se muestran etiquetas de campo personalizado al generar informes</a><p></p>
             <p>La etiqueta de campo personalizado ahora se muestra antes del nombre del campo y el objeto en las herramientas de creación de informes, lo que le ayuda a localizar los campos con mayor facilidad. Las etiquetas de campo también se muestran al definir filtros, vistas y agrupaciones en listas.</p>
         </td>
-        <td><p>jueves, 26 de febrero de 2025</p></td>
+        <td><p>viernes, 26 de febrero de 2026</p></td>
         <td><p>viernes, 12 de marzo de 2026</p></td>
         <td><p>viernes, 16 de abril de 2026</p></td>
     </tr>
@@ -206,16 +223,16 @@ The <add release> release webinar will be held on <date>. You can [register for 
             <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-reports.md" class="MCXref xref" xrefformat="{para}">Carpetas de informe compartibles</a><p></p>
             <p>Ahora puede organizar y compartir informes utilizando carpetas de informes que se pueden compartir. Esta nueva función ayuda a los equipos que administran grandes volúmenes de informes a mantener un control de acceso escalable y coherente.</p>
         </td>
-        <td><p>jueves, 26 de febrero de 2025</p></td>
+        <td><p>viernes, 26 de febrero de 2026</p></td>
         <td><p>viernes, 12 de marzo de 2026</p></td>
         <td><p>viernes, 16 de abril de 2026</p></td>
     </tr>
     <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-reports.md" class="MCXref xref" xrefformat="{para}">Etiquetas de fecha mejoradas para agrupaciones de gráficos en paneles de lienzo</a><p></p>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-reports.md" class="MCXref xref" xrefformat="{para}">Etiquetas de fecha mejoradas para agrupaciones de gráficos en paneles de Canvas</a><p></p>
             <p>Los gráficos que agrupan datos por fecha ahora muestran etiquetas de fecha más claras y legibles. Con esta actualización, las etiquetas de fecha se ajustan dinámicamente en función de la opción Agrupar por seleccionada, como día, semana, mes o año, lo que facilita la lectura e interpretación rápida de los gráficos.</p><p>Nota: Paneles de lienzo se encuentra en la versión beta.</p>
         </td>
-        <td><p>jueves, 26 de febrero de 2025</p></td>
+        <td><p>viernes, 26 de febrero de 2026</p></td>
         <td><p>viernes, 12 de marzo de 2026</p></td>
         <td><p>viernes, 16 de abril de 2026</p></td>
     </tr>
@@ -236,10 +253,10 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td><strong>Trimestralmente</strong></td>
     <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-requests.md" class="MCXref xref" xrefformat="{para}">Se ha actualizado la experiencia para compartir vistas mejoradas</a><p></p>
-            <p>En el área Nuevas solicitudes, cuando comparte una vista mejorada con un usuario y le concede permisos de Vista, el usuario puede modificar los elementos de vista y esos cambios se guardan en las preferencias personales del usuario. Ahora tienen la opción de guardar una copia de la vista que incluye sus cambios o restablecer la vista compartida a su configuración original. Además, pueden compartir la vista copiada con otros usuarios. </p>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-requests.md" class="MCXref xref" xrefformat="{para}">Experiencia de uso compartido actualizada para vistas mejoradas</a><p></p>
+            <p>En el área Nuevas solicitudes, cuando se comparte una vista mejorada con un usuario y se le otorgan permisos de visualización, el usuario puede modificar los elementos de visualización y los cambios se guardan en las preferencias personales del usuario. Ahora tienen la opción de guardar una copia de la vista que incluye sus cambios o restablecer la vista compartida a su configuración original. Además, pueden compartir la vista copiada con otros usuarios. </p>
         </td>
-           <td><p>jueves, 26 de febrero de 2025</p></td>
+           <td><p>viernes, 26 de febrero de 2026</p></td>
         <td><p>viernes, 12 de marzo de 2026</p></td>
         <td><p>viernes, 16 de abril de 2026</p></td>
  </tr>
@@ -323,7 +340,7 @@ Esta actualización es para Mac y Windows.
 
 La versión de prueba de Workfront Planning ya está disponible para todos los clientes de Workfront.
 
-La versión de prueba gratuita ofrece a los clientes de Workfront una licencia de Prime de 60 días para acceder a Workfront Planning a partir del 2 de marzo de 2026. El periodo de prueba finaliza el 1 de mayo de 2026.
+La versión de prueba gratuita ofrece a los clientes de Workfront una licencia de Prime de 60 días para acceder a Workfront Planning a partir del 2 de marzo de 2026. El período de prueba finaliza el 1 de mayo de 2026.
 
 La versión de prueba gratuita de Workfront Planning ofrece lo siguiente:
 
@@ -363,7 +380,7 @@ Para obtener información general sobre la automatización e integración de Wor
 
 ### Actualizaciones de mantenimiento de Workfront
 
-Para obtener información sobre las actualizaciones de mantenimiento realizadas durante la versión del segundo trimestre de 2025, consulte [Actualizaciones de mantenimiento de Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=es).
+Para obtener información sobre las actualizaciones de mantenimiento realizadas durante la versión del segundo trimestre de 2026, consulte [Actualizaciones de mantenimiento de Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=es).
 
 ### Actualizaciones de aprendizaje
 
