@@ -5,10 +5,10 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 095aa9fe-600a-48cd-a907-2e8d93939bf0
-source-git-commit: 93c22854ccc405c442331ac392d919d63b8a8aa8
+source-git-commit: 7bf762870af2bbc4f4889d66cf713d4533a30ff5
 workflow-type: tm+mt
-source-wordcount: '581'
-ht-degree: 13%
+source-wordcount: '549'
+ht-degree: 14%
 
 ---
 
@@ -51,8 +51,6 @@ El almacenamiento empresarial de Adobe es una solución de almacenamiento basada
 El acceso al almacenamiento empresarial de Adobe también allana el camino para futuras integraciones de administración de recursos con otros productos de Adobe, como Adobe Creative Cloud.
 
 Para obtener más información, consulte [Información general sobre el almacenamiento empresarial de Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
-
-Workfront y Frame.io amplían el proceso básico de revisión y aprobación de GenStudio for Performance Marketing con funciones de revisión y aprobación más estructuradas. Las pruebas revisadas en esta integración se limitan a los formatos admitidos por GenStudio for Performance Marketing.
 
 ## Flujos de trabajo de aprobación de varias fases disponibles para aprobaciones unificadas
 
