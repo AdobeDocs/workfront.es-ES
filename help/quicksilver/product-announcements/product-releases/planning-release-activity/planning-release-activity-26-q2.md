@@ -7,10 +7,10 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 79d4ad4a-1dd0-431e-92cd-582b5a1b7ec8
-source-git-commit: e23cd8613a54ce54ae93ea1a4ea14c022fbd1ae2
+source-git-commit: 1e05945e24770848da9d2c77b81b9475e43797ea
 workflow-type: tm+mt
-source-wordcount: '1095'
-ht-degree: 16%
+source-wordcount: '1180'
+ht-degree: 15%
 
 ---
 
@@ -24,21 +24,33 @@ Para obtener una lista de todas las características publicadas para Adobe Workf
 
 <!--
 
-## Allow non-admin users to make a record type connectable 
+## New field type for Record ID  
 
 >[!NOTE]
 >
->Preview: March 5, 2026
+>Preview: March 12, 2026
 >Production fast release: April 15, 2026
 >Production for everyone: April 16, 2026
 
-We are now allowing non-administrators who are workspace managers to make a record type connectable from specific workspaces.  
+We have added a new field type for Record ID. This is a system-generated alpha-numeric indicator which uniquely identifies each record. The field displays in any record view as well as the record details area.  
 
-Before this update, non-administrators could not enable record types to be connectable. Now, they can enable the record types to be connectable from specific workspaces. They cannot enable record types to be connectable from all workspaces in the system. 
-
-For information, see [Configure cross-workspace capabilities for record types](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md).
+For information, see [Create fields](/help/quicksilver/planning/fields/create-fields.md).
 
 -->
+
+## Permitir que los usuarios que no son administradores puedan conectar un tipo de registro
+
+>[!NOTE]
+>
+>Vista previa: 12 de marzo de 2026
+>Versión rápida de producción: jueves, 15 de abril de 2026
+>Producción para todos: viernes, 16 de abril de 2026
+
+Ahora permitimos a los usuarios que no son administradores y que son administradores de espacio de trabajo hacer que un tipo de registro sea conectable desde espacios de trabajo específicos.
+
+Antes de esta actualización, los usuarios que no eran administradores no podían permitir que los tipos de registros fueran conectables. Ahora, pueden permitir que los tipos de registros sean conectables desde espacios de trabajo específicos. No pueden permitir que los tipos de registros sean conectables desde todos los espacios de trabajo del sistema.
+
+Para obtener más información, vea [Configurar las capacidades entre espacios de trabajo para los tipos de registro](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md).
 
 ## Automatización basada en déclencheur
 

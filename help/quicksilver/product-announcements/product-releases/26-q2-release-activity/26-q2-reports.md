@@ -5,10 +5,10 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4bc2fee9-fa86-41c7-80e7-44bf3e8077d8
-source-git-commit: aceb9f7bd6c62036838b15d74ee2a9b7843e5c11
+source-git-commit: ed4b03429a479797854a0cae08f9191a25eebc13
 workflow-type: tm+mt
-source-wordcount: '428'
-ht-degree: 16%
+source-wordcount: '548'
+ht-degree: 14%
 
 ---
 
@@ -17,6 +17,22 @@ ht-degree: 16%
 Esta página describe las mejoras de los informes realizadas con la versión del segundo trimestre de 2026 en el entorno de vista previa. Estas mejoras estarán disponibles en el entorno de producción, como se ha indicado.
 
 Para obtener una lista de todos los cambios disponibles en este punto del ciclo de la versión del segundo trimestre de 2026, consulte [Información general de la versión del segundo trimestre de 2026](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md).
+
+## Nuevas opciones de autenticación para la conexión de Data Connect
+
+>[!NOTE]
+>
+>Vista previa: 12 de marzo de 2026
+>Versión rápida de producción: viernes, 12 de marzo de 2026
+>Producción para todos: viernes, 16 de abril de 2026
+
+Ahora puede autenticarse en Data Connect usando claves RSA o conexiones de Tokens de acceso programático (PAT), lo que agrega alternativas más seguras y flexibles a las credenciales tradicionales de nombre de usuario y contraseña.
+
+Estas nuevas opciones permiten a las organizaciones mantener conexiones estables desde Power BI, Tableau y otras herramientas de BI de terceros sin depender de los métodos de inicio de sesión basados en el usuario.
+
+>[!IMPORTANT]
+>
+>En junio de 2026, se requerirán credenciales de nombre de usuario y contraseña para utilizar la autenticación de varios factores (MFA). Se recomienda realizar la transición a la autenticación RSA o basada en PAT para cuentas de usuario de servicio utilizadas para cargar datos de Data Connect en herramientas de visualización de terceros, procesadores de datos y scripts que no funcionarán con MFA en el proceso de autenticación.
 
 ## Etiquetas de campo personalizado que se muestran al crear informes
 
