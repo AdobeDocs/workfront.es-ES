@@ -1,13 +1,13 @@
 ---
 title: Editar la configuración de un equipo desde el área Configuración
 description: Como persona con la función de administrador de Adobe Workfront, puede editar la configuración de un equipo desde el área de configuración. Puede añadir usuarios a un equipo, establecer la plantilla de diseño de un equipo y establecer cómo se registra el estado cuando un equipo completa los elementos de trabajo.
-author: Jenny
+author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: 648a36ce-5793-472f-9fee-9dedf71991ef
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+source-git-commit: 963a7099aa673d6ac96b7058b9fcb745f325d21e
 workflow-type: tm+mt
-source-wordcount: '598'
+source-wordcount: '595'
 ht-degree: 91%
 
 ---
@@ -40,9 +40,8 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
   <tr> 
   <tr> 
    <td role="rowheader">Licencia de Adobe Workfront</td> 
-   <td><p>Nuevo: estándar</p>
-       <p>O</p>
-       <p>Actual: plan</p></td>
+   <td><p>Estándar</p>
+       <p>Plan</p></td>
   </tr> 
   </tr> 
   <tr> 
