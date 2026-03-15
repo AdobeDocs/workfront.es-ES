@@ -161,7 +161,7 @@ Hay muchas opciones de configuraci처n disponibles para generar un informe de gr�
 
 Siga los pasos a continuaci처n para configurar la secci처n **Filter**:
 
-1. En el panel izquierdo, haga clic en el icono **Filtro**![ Icono de filtro](assets/filter-icon.png).
+1. En el panel izquierdo, haga clic en el icono **Filtro**![&#x200B; Icono de filtro](assets/filter-icon.png).
 1. Seleccione **Editar filtro**.
 1. Haga clic en **Agregar condici처n** y, a continuaci처n, especifique el campo por el que desea filtrar y el modificador que define el tipo de condici처n que debe cumplir el campo.
 1. (Opcional) Haga clic en **Agregar grupo de filtros** para agregar otro conjunto de criterios de filtrado. El operador predeterminado entre los conjuntos es AND. Haga clic en el operador para cambiarlo a OR.

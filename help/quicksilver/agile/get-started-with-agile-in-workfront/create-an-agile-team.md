@@ -129,7 +129,7 @@ Para obtener más información, consulte [Descripción general del gráfico de d
       <td>Empiece a escribir el nombre del usuario que va a formar parte del equipo y, a continuación, seleccione el nombre cuando aparezca en la lista desplegable.<br>Repita este proceso para agregar varios usuarios al equipo.<br>Dado que los usuarios pueden estar en más de un equipo, pueden estar en equipos tanto Agile como no Agile.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>[!Descripción de UICONTROL]</strong> </td> 
+      <td role="rowheader"><strong>[!UICONTROL Descripción de]</strong> </td> 
       <td><p>Escriba una descripción para el equipo.</p> <p>La descripción se muestra en la parte superior derecha del área [!UICONTROL Teams] cuando se selecciona el equipo.</p>
       <p>Si la descripción es larga, puede hacer clic en ella para mostrar la descripción completa en una ventana emergente. Si tiene acceso para editar la [!UICONTROL team settings], también puede editar la descripción directamente en el elemento emergente.</p></td>
      </tr> 

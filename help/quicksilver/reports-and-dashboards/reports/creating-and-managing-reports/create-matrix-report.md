@@ -126,9 +126,8 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
      >   * Los campos de datos personalizados para valores numéricos y de moneda agregan todas las tareas: principales, secundarias, principales de principales y tareas independientes. Si ha creado el informe de matriz para mostrar las horas planificadas o las horas reales en la columna **Valor**, tenga en cuenta que la información de horas o costes de cualquier objeto principal (como las tareas principales) no se muestra en el informe de matriz. Para ver las horas de los objetos principales, debe consultar la pestaña **Detalles**.
      >   
      >   
-     >
+     >**Reglas condicionales:** configure cualquier regla de formato para los valores agregados.\
 
-   **Reglas condicionales:** configure cualquier regla de formato para los valores agregados.\
    Después de añadir una regla, puede definir estilos de campo y de texto para ver cómo se muestran los campos que coinciden con esa regla. Haga clic en **Añadir regla** después de haber terminado de definir la regla y, a continuación, **Listo** para guardarla.
 
 1. Haga clic en la pestaña **Filtros** para definir la información que se mostrará en el informe.
