@@ -6,9 +6,9 @@ author: Alina, Becky
 feature: Workfront Planning
 role: User, Admin
 exl-id: ba7a4b04-5faa-41b6-86d0-4d0ce946ad1e
-source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
+source-git-commit: c91622e8155c62ecf7c17eaeb60b2bd4f69aaedf
 workflow-type: tm+mt
-source-wordcount: '1504'
+source-wordcount: '1502'
 ht-degree: 8%
 
 ---
@@ -161,7 +161,7 @@ Puede utilizar Planning Designer o el asistente de IA para realizar cualquiera d
 
   >[!IMPORTANT]
   >
-  >Aunque se admiten los tipos de archivo .XLSX y .CSV, no se pueden utilizar para la importación de registros a gran escala mediante Planning Designer.
+  >Aunque se admiten los tipos de archivo .XLSX, no se pueden utilizar para la importación de registros a gran escala mediante Planning Designer.
   >Si necesita importar un número considerable de registros en este momento, le recomendamos que lo haga mediante las funciones manuales disponibles en Planning.
   >
   >Para obtener más información, vea [Crear registros importando información desde un archivo CSV o de Excel](/help/quicksilver/planning/records/import-file-to-create-records.md).
