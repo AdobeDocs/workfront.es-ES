@@ -2,32 +2,32 @@
 product-area: requests
 navigation-topic: create-requests
 title: Ver solicitudes enviadas
-description: Obtenga información sobre las áreas de Adobe Workfront en las que puede ver solicitudes que usted u otra persona ha enviado o solicitudes que nunca ha enviado y que se han guardado como borradores.
+description: Obtenga más información sobre las áreas de Adobe Workfront donde puede ver las solicitudes que usted u otra persona han enviado o las solicitudes que nunca ha enviado y que se han guardado como borradores.
 author: Alina
 feature: Requests
 topic: Collaboration
 role: User
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
-source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
+source-git-commit: 78ad910e8d121dda38c9a7da27b0b338e0e1dcda
 workflow-type: tm+mt
-source-wordcount: '1363'
+source-wordcount: '1360'
 ht-degree: 44%
 
 ---
 
 # Vista de solicitudes enviadas
 
-Puede ver las solicitudes que usted u otra persona ha enviado, o las solicitudes que ha iniciado pero que nunca ha terminado de enviar. Las solicitudes no finalizadas se guardarán como borradores.
+Puede ver las solicitudes que usted u otra persona hayan enviado, o las solicitudes que haya iniciado pero que nunca haya terminado de enviar. Las solicitudes no terminadas se guardan como borradores.
 
-Puede localizar las solicitudes enviadas en las siguientes áreas de Adobe Workfront:
+Puede encontrar las solicitudes enviadas en las siguientes áreas de Adobe Workfront:
 
 * El área Solicitudes de Workfront
-* El widget Mis solicitudes en Inicio
+* Widget Mis solicitudes en Inicio
 
-El área Solicitudes muestra las siguientes solicitudes, en función de cómo decida consultarlas:
+El área Solicitudes muestra las siguientes solicitudes, dependiendo de cómo decida visualizarla:
 
 * Solicitudes de Workfront al utilizar la experiencia heredada
-* Workfront, así como las solicitudes de Planning, al utilizar la nueva experiencia.
+* Workfront, así como las solicitudes de Planning cuando se utiliza la nueva experiencia.
 
   >[!NOTE]
   >
@@ -45,7 +45,9 @@ El área Solicitudes muestra las siguientes solicitudes, en función de cómo de
  <tbody> 
   <tr> 
    <td role="rowheader">Paquete de Adobe Workfront</td> 
-   <td> <p>Cualquiera </p> </td> 
+   <td> <p>Cualquier paquete de Adobe Workfront o Adobe Workflow</p> 
+   <p>Cualquier paquete de Adobe Workfront Planning</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licencia de Adobe Workfront</td> 
@@ -61,10 +63,12 @@ El área Solicitudes muestra las siguientes solicitudes, en función de cómo de
    <td role="rowheader">Permisos de objeto</td> 
    <td><p>Ver permisos o superiores en las solicitudes</p></td> 
   </tr> 
-  <tr> 
-   <td role="rowheader"> Producto</td> 
-   <td> <ul><li>Adobe Workfront</li><li>Debe tener Adobe Workfront Planning para ver solicitudes de Planning o formularios de solicitud</td> 
+  <!--
+  tr> 
+   <td role="rowheader"> Product</td> 
+   <td> <ul><li>Adobe Workfront</li><li>You must have Adobe Workfront Planning to view Planning requests or request forms</td> 
   </tr> 
+  -->
  </tbody> 
 </table>
 
@@ -72,16 +76,16 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 
 +++
 
-## Ver las solicitudes enviadas en el área Solicitudes
+## Ver solicitudes enviadas en el área Solicitudes
 
-La visualización de las solicitudes enviadas difiere en función de si utiliza la experiencia de solicitud nueva o heredada.
+La visualización de solicitudes enviadas varía en función de si está utilizando la experiencia de solicitud nueva o heredada.
 
 * [Ver las solicitudes enviadas en la nueva experiencia de solicitud](#view-submitted-requests-in-the-new-requesting-experience)
 * [Ver las solicitudes enviadas en la experiencia de solicitud heredada](#view-submitted-requests-in-the-legacy-requesting-experience)
 
 ### Ver las solicitudes enviadas en la nueva experiencia de solicitud
 
-Puede ver las solicitudes enviadas en el área Solicitudes, que incluye vínculos a objetos creados por solicitudes de Planning.
+Puede ver las solicitudes enviadas en el área Solicitudes, que incluye vínculos a objetos creados por solicitudes de Adobe Workfront Planning.
 
 >[!NOTE]
 >
@@ -105,7 +109,7 @@ Para ver las solicitudes que usted u otros usuarios han enviado en la nueva expe
 1. (Opcional) Haga clic en el menú desplegable **Vistas** para actualizar la vista o compartirla con otros.
 
    Para obtener más información, consulte [Crear o editar vistas en el área de solicitudes](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md).
-1. (Opcional) Compruebe el estado de una solicitud comprobando la columna **Estado**. Los siguientes estados están disponibles en la nueva experiencia solicitante:
+1. (Opcional) Compruebe el estado de una solicitud comprobando la columna **Estado**. Los siguientes estados están disponibles en la nueva experiencia de solicitud:
 
    * **Borrador**: esta solicitud aún no se ha enviado.
    * **Revisión pendiente**: (Solo en Planning) Esta solicitud tiene aprobadores y ninguno de ellos ha abierto la solicitud.
@@ -138,7 +142,7 @@ Para ver las solicitudes que usted u otros usuarios han enviado en la experienci
    >
    >No puede personalizar las columnas en la lista de solicitudes enviadas.
 
-   ![Solicitudes enviadas en una nueva lista](assets/nwe-submitted-requests-new-list-350x57.png)
+   ![Solicitudes enviadas nueva lista](assets/nwe-submitted-requests-new-list-350x57.png)
 
 
 1. Las siguientes columnas se muestran de forma predeterminada:
@@ -188,11 +192,11 @@ Para ver las solicitudes que usted u otros usuarios han enviado en la experienci
    >
    >Si el panel Resumen ya está abierto, el icono Abrir resumen cambia a Cerrar resumen.
 
-1. (Opcional y condicional) Haga clic en el icono **X** en la esquina superior derecha o en el icono **Cerrar resumen** ![Cerrar resumen con texto](assets/close-summary-with-text-nwe.png) para cerrar el Panel de resumen.
+1. (Opcional y condicional) Haga clic en el icono **X** de la esquina superior derecha o en el icono **Cerrar resumen** ![Cerrar resumen con texto](assets/close-summary-with-text-nwe.png) para cerrar el panel Resumen.
 
    Si un problema se convirtió en una tarea o proyecto y el problema se eliminó en el proceso de conversión, el panel Resumen está en blanco. Para obtener información sobre la conversión de problemas, consulte [Información general sobre la conversión de problemas en Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issues.md).
 
-1. Desde el **icono de filtro** ![icono de filtro](assets/filter-nwepng.png) en la parte superior derecha de la lista, seleccione cualquiera de los filtros enumerados en la tabla siguiente.
+1. En el **icono Filtro** ![icono Filtro](assets/filter-nwepng.png) situado en la parte superior derecha de la lista, seleccione cualquiera de los filtros de la tabla siguiente.
 
    >[!TIP]
    >
@@ -225,7 +229,7 @@ Para ver las solicitudes que usted u otros usuarios han enviado en la experienci
     </tbody> 
    </table>
 
-1. (Opcional) Haga clic en el icono **Filtrar página** ![Icono de búsqueda](assets/search-icon.png) en la parte superior de la lista para buscar una solicitud por su nombre. La lista se actualiza con los resultados que coinciden con los criterios de búsqueda.
+1. (Opcional) Haga clic en el icono **Filtrar página** ![Icono de búsqueda](assets/search-icon.png) en la parte superior de la lista para buscar una solicitud por nombre. La lista se actualiza con los resultados que coinciden con los criterios de búsqueda.
 
    <!--
 
