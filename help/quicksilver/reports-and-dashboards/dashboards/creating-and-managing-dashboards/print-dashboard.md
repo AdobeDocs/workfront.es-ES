@@ -3,10 +3,10 @@ product-area: dashboards
 navigation-topic: create-and-manage-dashboards
 title: Imprimir un panel de control
 description: Puede imprimir o exportar un panel de control a un archivo PDF. Para imprimir un panel de control, debe tener permiso para verlo.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 30f3481b-23b6-4dc9-be0d-9cffd5d4dfed
-source-git-commit: c8b7ad473b0c2120ef5ea52374b3501ad6f553f1
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '460'
 ht-degree: 98%
@@ -32,7 +32,7 @@ Puede imprimir o exportar un panel de control a un archivo PDF. Para imprimir un
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
@@ -93,7 +93,7 @@ La siguiente información no se incluye en el archivo de panel de control impres
 1. Vaya al panel de control que desee imprimir.
 1. Realice una de las siguientes acciones:
 
-   * Haga clic en **Acciones de panel** > **Vista preliminar**
+   * Haga clic en **Acciones del panel** > **Vista preliminar**
 
    * Presione **Ctrl+P** (en Windows) o **Comando+P** (en Mac)
 

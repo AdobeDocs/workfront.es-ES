@@ -2,15 +2,15 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 'Vista: Horas planificadas vs. Horas reales por asignación en una vista de tareas'
-description: Esta vista de tarea muestra el total de horas planificadas de una tarea, el número de horas planificadas asignadas a cada usuario asignado (cuando la tarea está asignada a varios usuarios), el total de horas reales de la tarea y el número de horas reales registradas por cada usuario asignado.
-author: Nolan
+title: 'Ver: Horas Planificadas frente a Horas Reales por Asignación en una Vista de Tareas'
+description: Esta vista de tareas muestra el total de horas planificadas de una tarea, el número de horas planificadas asignadas a cada responsable (cuando la tarea se asigna a varios usuarios), el total de horas reales de la tarea y el número de horas reales registradas por cada responsable.
+author: Courtney
 feature: Reports and Dashboards
 exl-id: f249ff57-50c7-4aa9-a563-cb7f5562b96a
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '269'
-ht-degree: 41%
+ht-degree: 42%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 41%
 
 <!--Audited: 11/2024-->
 
-Esta vista de tarea muestra el total de horas planificadas de una tarea, el número de horas planificadas asignadas a cada usuario asignado (cuando la tarea está asignada a varios usuarios), el total de horas reales de la tarea y el número de horas reales registradas por cada usuario asignado.
+Esta vista de tareas muestra el total de horas planificadas de una tarea, el número de horas planificadas asignadas a cada responsable (cuando la tarea se asigna a varios usuarios), el total de horas reales de la tarea y el número de horas reales registradas por cada responsable.
 
 ![multi_assignment_budget_vs_actual_for_tasks.png](assets/multi-assignment-budget-vs-actual-for-tasks-350x66.png)
 
@@ -31,7 +31,7 @@ Esta vista de tarea muestra el total de horas planificadas de una tarea, el núm
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
@@ -62,8 +62,8 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
 1. En el menú desplegable **Vista**, seleccione **Nueva vista**.
 
 1. En el área **Vista previa de columnas**, elimine todas las columnas excepto una.
-1. Haga clic en el encabezado de la columna restante y haga clic en **Cambiar al modo de texto** > **Editar modo de texto**.
-1. Elimine el texto que encuentre en el cuadro **Editar modo de texto** y reemplácelo por el siguiente código:
+1. Haga clic en el encabezado de la columna restante y haga clic en **Cambiar a modo de texto** > **Editar modo de texto**.
+1. Quite el texto que encuentre en el cuadro **Editar modo de texto** y sustitúyalo por el código siguiente:
 
    ```
    column.0.descriptionkey=name
@@ -128,4 +128,4 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
    column.4.width=300
    ```
 
-1. Haga clic en **Listo** > **Guardar vista**.
+1. Haga clic en **Hecho** > **Guardar vista**.

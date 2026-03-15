@@ -3,10 +3,10 @@ product-area: Canvas Dashboards
 navigation-topic: report-types
 title: Añadir un informe existente a un panel de control de lienzo
 description: Los informes creados con la herramienta Informes de Adobe Workfront se pueden añadir a un panel de control de lienzo.
-author: Courtney and Jenny
+author: Courtney
 feature: Reports and Dashboards
 exl-id: f77990ab-da7a-4dcb-89fa-f65ed2b79522
-source-git-commit: 1059950dd3b20e0959c626e580f958bed5076541
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '378'
 ht-degree: 32%
@@ -17,11 +17,11 @@ ht-degree: 32%
 
 >[!IMPORTANT]
 >
->Actualmente, la función Paneles de lienzo solo está disponible para los usuarios que participan en la fase beta. Es posible que algunas partes de la función no estén completas o que no funcionen según lo previsto durante esta fase. Envíe cualquier comentario sobre su experiencia siguiendo las instrucciones de la sección [Proporcionar comentarios](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) del artículo Información general sobre la versión beta de los paneles de lienzo.<br>
->&#x200B;>Si tiene comentarios acerca de un posible error o problema técnico, envíe un ticket al equipo de asistencia de Workfront. Para obtener más información, consulte [Póngase en contacto con Atención al cliente](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
->&#x200B;>Tenga en cuenta que esta versión beta no está disponible en los siguientes proveedores de la nube:
+>Actualmente, la función Paneles de lienzo sólo está disponible para los usuarios que participan en la fase beta. Es posible que algunas partes de la función no estén completas o funcionen según lo previsto durante esta etapa. Por favor, envíe sus comentarios con respecto a su experiencia siguiendo las instrucciones de la sección [Proporcionar comentarios](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) en el artículo general de Canvas Dashboards beta.<br>
+>Si tiene comentarios sobre un posible fallo o problema técnico, envíe un billete al soporte técnico de Workfront. Para obtener más información, vea [Contactar con el servicio de asistencia al cliente](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
+>Tenga en cuenta que esta beta no está disponible en los siguientes proveedores de servicios cloud:
 >
->* Traer su propia clave para Amazon Web Service
+>* Traer su propia clave para los servicios web de Amazon
 >* Azure
 >* Google Cloud Platform
 
@@ -38,7 +38,7 @@ Los informes creados con la herramienta Informes de Adobe Workfront se pueden a�
 </col> 
 <tbody> 
 <tr> 
-   <td role="rowheader"><p>paquete de Adobe Workfront</p></td> 
+   <td role="rowheader"><p>Paquete de Adobe Workfront</p></td> 
    <td> 
 <p>Cualquiera </p> 
    </td> 
@@ -71,7 +71,7 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
 
 1. Haga clic en **Nuevo panel** en la esquina superior derecha.
 
-1. En el cuadro **Crear tablero**, escriba el **Nombre** y la **Descripción** del tablero.
+1. En el cuadro **Crear panel**, escriba el **Nombre** y **Descripción** del panel.
 
 1. Haga clic en **Crear**.
 
@@ -79,21 +79,21 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
 
 1. En el lado izquierdo del cuadro **Usar informe existente**, seleccione una de las siguientes opciones:
 
-   * **Informes clásicos**: agregue un informe clásico existente al tablero.
+   * **Informes clásicos**: Agregue un informe clásico existente al panel.
 
-   * **Widgets de inicio**: agregue un widget de inicio de Workfront al tablero.
+   * **widgets de inicio**: Agregue un widget de inicio de trabajo al panel.
 
      >[!NOTE]
      >
-     > En este punto de la fase beta, el widget de inicio **Métricas de aprobaciones de documentos** es el único widget disponible. Esta lista se ampliará a medida que avance la fase beta.
+     > En este punto de la etapa beta, el widget de inicio de **Aprobaciones de documentos** es el único widget disponible. Esta lista se expandirá a medida que avance la fase beta.
 
 1. (Opcional) Para ver los detalles de un informe antes de agregarlo al panel, haga clic en **Ver** en línea con el informe deseado.
 
-1. Haga clic en **Agregar** en línea con el informe que desee agregar.
+1. Haga clic en **Agregar** en línea con el informe que desea agregar.
 
    >[!NOTE]
    >
-   > Si desea agregar un informe existente adicional a un tablero después de crearlo, haga clic en el botón **Agregar informe** en la esquina superior derecha de la página de detalles del tablero y, a continuación, repita los pasos 6-9.
+   > Si desea agregar un informe existente adicional a un panel después de crearlo, haga clic en el botón **Agregar informe** en la esquina superior derecha de la página de detalles del panel y, a continuación, repita los pasos 6 a 9.
 
 
 

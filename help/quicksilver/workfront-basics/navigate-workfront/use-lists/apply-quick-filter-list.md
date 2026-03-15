@@ -3,9 +3,9 @@ navigation-topic: use-lists
 title: Aplicar el filtro rápido a una lista
 description: Puede utilizar el filtro rápido en una lista de objetos para que solo le ayude a localizar los elementos que son importantes para usted, de modo que pueda revisarlos, actualizarlos o compartirlos rápidamente con otras personas.
 feature: Get Started with Workfront
-author: Nolan
+author: Courtney
 exl-id: 363f7ad1-f4f8-4cb1-a631-ee4e5ea28e5a
-source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '843'
 ht-degree: 89%
@@ -51,7 +51,7 @@ Tenga en cuenta lo siguiente al aplicar filtros rápidos a una lista:
 
 ## Requisitos de acceso
 
-+++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo.
++++ Expanda para ver los requisitos de acceso para la funcionalidad en este artículo. 
 
 Debe tener el siguiente acceso para realizar los pasos de este artículo:
 
@@ -120,7 +120,7 @@ Debe tener el siguiente acceso para realizar los pasos de este artículo:
    1. Seleccione todos o varios de los elementos de la lista y, a continuación, haga clic en **[!UICONTROL Editar]** para editar los elementos en lote.
    1. Después de completar las ediciones, haga clic en **[!UICONTROL Guardar cambios]**.
 
-1. (Opcional) Para exportar los elementos encontrados por el filtro rápido, seleccione todos o varios de los elementos de la lista y, a continuación, haga clic en el icono **[!UICONTROL Exportar]** ![Icono Exportar](assets/export.png).
+1. (Opcional) Para exportar los elementos encontrados por el filtro rápido, seleccione todos o varios de los elementos de la lista y, a continuación, haga clic en el icono **[!UICONTROL Exportar]** ![Exportar icono](assets/export.png).
 
    ![select_all_projects_with_highlight__1_.png](assets/select-all-projects-with-highlight--1--350x173.png)
 

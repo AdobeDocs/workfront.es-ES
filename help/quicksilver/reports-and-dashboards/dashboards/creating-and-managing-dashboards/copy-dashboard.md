@@ -3,10 +3,10 @@ product-area: dashboards
 navigation-topic: create-and-manage-dashboards
 title: Copiar un tablero
 description: Es posible copiar un tablero y todo su contenido (informes, calendarios y páginas externas). Al copiar el contenido de un tablero, es posible conservarlo tal y como aparece en el tablero original o crear elementos nuevos que sean copias de los que aparezcan en el tablero original. También es posible optar por no transferir ni copiar elementos en el nuevo tablero.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: a88cc171-2bb1-40f0-a778-8dac7eecb718
-source-git-commit: c8b7ad473b0c2120ef5ea52374b3501ad6f553f1
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '889'
 ht-degree: 98%
@@ -28,7 +28,7 @@ Es posible copiar un tablero y todo su contenido (informes, calendarios y págin
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
@@ -63,7 +63,7 @@ Para obtener información sobre cómo crear tableros, consulte [Creación de tab
 
 1. Haga clic en el icono **[!UICONTROL Menú principal]**![Menú principal](/help/_includes/assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront o (si está disponible), haga clic en el icono **[!UICONTROL Menú principal]**![Menú principal](/help/_includes/assets/main-menu-icon-left-nav.png) en la esquina superior izquierda y, a continuación, haga clic en **[!UICONTROL Paneles de control]**.
 
-1. Seleccione el tablero que quiera copiar y luego haga clic en **Copiar** ![Icono de copiar](assets/copy-icon.png).\
+1. Seleccione el panel que desea copiar y, a continuación, haga clic en **Copiar** ![Icono de Copiar](assets/copy-icon.png).\
    O\
    Abra el tablero que quiera copiar y, a continuación, haga clic en **Acciones de tablero** > **Copiar**.\
    Se mostrará el cuadro de diálogo Copia de tablero. Se mostrarán todos los elementos del tablero original.

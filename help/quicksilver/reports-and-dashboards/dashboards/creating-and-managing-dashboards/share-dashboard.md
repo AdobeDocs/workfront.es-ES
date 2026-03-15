@@ -3,13 +3,13 @@ product-area: dashboards
 navigation-topic: create-and-manage-dashboards
 title: Compartir un panel de control
 description: El administrador de Adobe Workfront concede a los usuarios acceso para ver o editar paneles cuando asignan niveles de acceso. Junto con el nivel de acceso que se concede a los usuarios, también puede concederles permisos para Ver o Administrar paneles específicos que tiene acceso para compartir.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 21bd531f-8732-4d6c-b91f-990887285447
-source-git-commit: c8b7ad473b0c2120ef5ea52374b3501ad6f553f1
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '501'
-ht-degree: 32%
+ht-degree: 33%
 
 ---
 
@@ -36,7 +36,7 @@ Los permisos son específicos de un elemento de Workfront y definen qué accione
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 

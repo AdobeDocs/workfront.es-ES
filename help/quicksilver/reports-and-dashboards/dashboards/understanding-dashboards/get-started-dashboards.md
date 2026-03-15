@@ -4,13 +4,13 @@ product-area: dashboards
 navigation-topic: understand-dashboards
 title: Introducción a los paneles de control
 description: El propósito de un panel de control es proporcionar un acceso rápido a la información. Puede recopilar información en los informes y, a continuación, colocarla en los paneles de control para facilitar el acceso a la información.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: b0e73f2d-bb50-4476-bb24-f0378807b2fe
-source-git-commit: c8b7ad473b0c2120ef5ea52374b3501ad6f553f1
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '693'
-ht-degree: 88%
+ht-degree: 89%
 
 ---
 
@@ -30,7 +30,7 @@ El propósito de un panel de control es proporcionar un acceso rápido a la info
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 

@@ -3,10 +3,10 @@ product-area: agile-and-teams;projects
 navigation-topic: scrum-board
 title: Agregar historias y problemas del panel de exploración
 description: Puede crear rápidamente una nueva historia o problema directamente desde el tablero de Scrum, o añadir una historia o problema existente desde el tablero.
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: d4eec3c5-8cea-467f-b1b4-3f9fab57b10f
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '421'
 ht-degree: 98%

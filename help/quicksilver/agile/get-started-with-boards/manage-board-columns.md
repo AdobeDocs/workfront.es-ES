@@ -3,10 +3,10 @@ product-area: agile-and-teams
 navigation-topic: get-started-with-boards
 title: Administrar columnas de tablero
 description: Un tablero nuevo contiene tres columnas de forma predeterminada. Puede añadir más columnas, cambiar el orden, cambiarles el nombre y eliminar las que no necesite. También puede definir directivas de columna.
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: a736cdfe-5ddc-4bf4-82a1-a78d16c0d70b
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '1081'
 ht-degree: 96%
@@ -34,7 +34,7 @@ Para obtener más información sobre cómo ordenar las tarjetas en columnas, vea
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
@@ -137,7 +137,7 @@ Una tarjeta permanecerá en la columna donde se coloque si el estado de la tarje
 
       ![Estado de las columnas](assets/boards-column-status.png)
 
-      También se muestran las opciones de traducción de estado de las tarjetas conectadas. (La traducción de estado no se aplica a tarjetas ad hoc). Estas opciones determinan el estado personalizado aplicado a la tarea o al problema en [!DNL Workfront] cuando se mueve una tarjeta conectada a esta columna.
+      También se muestran las opciones de traducción de estado de las tarjetas conectadas. (La traducción de estado no se aplica a tarjetas ad hoc.) Estas opciones determinan el estado personalizado aplicado a la tarea o problema en [!DNL Workfront] cuando se mueve una tarjeta conectada a esta columna.
 
    1. Seleccione un estado [!UICONTROL **Personalizado**] para aplicarlo a la tarjeta en tareas y problemas.
 

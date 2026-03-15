@@ -3,10 +3,10 @@ product-area: workfront-navigation
 navigation-topic: workfront-navigation
 title: Preguntas frecuentes sobre Adobe Unified Experience
 description: Algunas características son diferentes entre  [!DNL Workfront]  y Adobe Experience Cloud, y es posible que tenga algunas preguntas a medida que su instancia de  [!DNL Workfront] se migra a la experiencia unificada.
-author: Nolan
+author: Courtney
 feature: Get Started with Workfront
 exl-id: b9076fe0-26d7-4f33-80a4-564875ea13ba
-source-git-commit: ff8866b2b48ead3b7b2e035a394fa038036fbfc0
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '1397'
 ht-degree: 88%
@@ -33,8 +33,8 @@ En esta tabla se describen algunas funciones que difieren entre las dos experien
 | La navegación incluye un área de navegación de nivel superior para productos de [!DNL Adobe], notificaciones de [!DNL Adobe], ayuda y su perfil de usuario, además de la barra de navegación de [!DNL Workfront] | La navegación solo incluye la barra de navegación de [!DNL Workfront] |
 | Se puede acceder a la ayuda a través del [!UICONTROL Menú principal] y del área de navegación superior | Se puede acceder a la ayuda a través del [!UICONTROL Menú principal] y la barra de navegación de [!DNL Workfront] |
 | El visor de corrección se abre en una nueva ficha | El visor de corrección se abre en Workfront |
-| La URL utilizada para acceder a Workfront es `experience.adobe.com` | La URL utilizada para acceder a Workfront es `(CompanyName).my.workfront.adobe.com` |
-| El formato de fecha (como MM/DD/AAAA) se basa en la configuración del lenguaje de experiencia unificado. Si el usuario no ha actualizado la configuración de idioma, se utiliza la configuración de `en-US`. | El formato de la fecha (como MM/DD/AAAA) se basa en las preferencias del navegador. |
+| La dirección URL utilizada para tener acceso a Workfront es `experience.adobe.com` | La dirección URL utilizada para tener acceso a Workfront es `(CompanyName).my.workfront.adobe.com` |
+| El formato de fecha (como MM/DD/AAAA) se basa en la configuración de idioma de experiencia unificada. Si el usuario no ha actualizado su configuración de idioma, se utiliza la configuración `en-US`. | El formato de fecha (como MM/DD/AAAA) se basa en las preferencias del navegador |
 
 {style="table-layout:auto"}
 
@@ -59,11 +59,11 @@ Para obtener información acerca de [!DNL Admin Console], consulte estos artícu
 
 ### ¿Qué debo hacer como cliente para facilitar la migración?
 
-Se contactará con los clientes existentes para programar las migraciones. Los compañeros de soporte del equipo de migración guiarán a los clientes a través del proceso, les aconsejarán sobre la configuración de [!DNL Admin Console] y proporcionarán los vínculos a la documentación necesaria para que el movimiento sea lo más sencillo y sencillo posible. Revisa las [[!DNL Adobe Business Platform] preguntas frecuentes [!DNL Admin Console]  y](https://experienceleague.adobe.com/es/docs/support-resources/adobe-support-tools-guide/workfront/faq)para obtener más información.
+Se contactará con los clientes existentes para programar las migraciones. Los compañeros de soporte del equipo de migración pasarán a los clientes por el proceso, asesorarán sobre la configuración de [!DNL Admin Console] y proporcionarán vínculos a la documentación necesaria para que el movimiento sea lo más sencillo y sin complicaciones posible. Revise las [[!DNL Adobe Business Platform] Preguntas Frecuentes y  [!DNL Admin Console] FAQ](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/workfront/faq) para obtener más información.
 
 ### ¿Cómo administra [!DNL Adobe Admin Console] para las compañías que ya lo tienen habilitado para Federated ID de forma distinta a la configuración del SSO de [!DNL Workfront]?
 
-[!DNL Adobe Admin Console] tiene la opción de incluir [!DNL Workfront], reemplazando el SSO con el sistema Identity Management de Adobe (IMS). Todo el aprovisionamiento de usuarios se realiza en [!DNL Admin Console] y los usuarios verán la pantalla de inicio de sesión de [!DNL Adobe] para llegar a [!DNL Experience Cloud], donde verán [!DNL Workfront] como una opción (si se les concede acceso a este).
+[!DNL Adobe Admin Console] tiene la opción de incluir [!DNL Workfront], reemplazando SSO por el Sistema de administración de identidad (IMS) de Adobe. Todo el aprovisionamiento de usuarios se realiza en [!DNL Admin Console] y los usuarios verán la pantalla de inicio de sesión de [!DNL Adobe] para llegar a [!DNL Experience Cloud], donde verán [!DNL Workfront] como una opción (si se les concede acceso a este).
 
 ### ¿Cómo afecta esto a los clientes que ya tienen el panel de administración AEM para [!DNL Adobe Assets], pero tienen SSO configurado de forma diferente a [!DNL Workfront?]?
 
@@ -73,7 +73,7 @@ Una vez añadido [!DNL Workfront] como aplicación de [!DNL Admin Console], no d
 
 SSO se configura en [!DNL Admin Console] y la aplicación [!DNL Workfront] lo hereda.
 
-### ¿El SSO con nuestro [!DNL Active Directory] interno todavía será una opción con el sistema Identity Management de Adobe (IMS)?
+### ¿El SSO con nuestro [!DNL Active Directory] interno seguirá siendo una opción con el Sistema de Gestión de Identidad (IMS) de Adobe?
 
 IMS sustituye el sistema SSO y funciona prácticamente igual. Todos los permisos de usuario se han concedido y aprovisionado en [!DNL Adobe Admin Console], y el usuario verá la pantalla de inicio de sesión de [!DNL Adobe] en la que podrá elegir “[!UICONTROL Cuenta personal]” o “[!UICONTROL Cuenta de compañía]” para iniciar sesión (si tienen [!DNL Active Directory], la mayoría de usuarios iniciarán sesión con una cuenta de compañía).
 
@@ -99,7 +99,7 @@ Se migrará toda la cuenta de cliente de [!DNL Workfront] entera. No se puede ha
 
 ### ¿Todos los usuarios de [!DNL Workfront] tendrán que iniciar sesión a través de [!DNL Experience Cloud]? ¿O solo los administradores?
 
-Sí, todos los usuarios iniciarán sesión mediante [!DNL Experience Cloud]. El inicio de sesión de Adobe Identity Management System (IMS) reemplazará el SSO. Es una experiencia muy similar que solo tiene una pantalla de inicio de sesión diferente.
+Sí, todos los usuarios iniciarán sesión mediante [!DNL Experience Cloud]. El inicio de sesión de Adobe Identity Management System (IMS) reemplazará a SSO. Es una experiencia muy similar que solo tiene una pantalla de inicio de sesión diferente.
 
 ### ¿Tendrán los usuarios que vincular sus cuentas de [!DNL Adobe] a sus cuentas de [!DNL Workfront] si ya tienen ambas?
 
@@ -141,6 +141,6 @@ Los usuarios de [!DNL Creative Cloud] no se verán afectados por la migración a
 
 Los usuarios móviles de [!DNL Workfront] no deberían verse afectados por la migración a [!DNL Adobe Unified Experience].
 
-### JumpSeat no funciona con [!DNL Adobe Unified Experience]. ¿Cómo puedo resolver esto?
+### JumpSeat no está trabajando con [!DNL Adobe Unified Experience], ¿cómo puedo resolver esto?
 
-JumpSeat funciona con [!DNL Adobe Unified Experience], pero requiere una actualización de configuración. Con el panel de administración de JumpSeat, cambie la dirección URL de la aplicación de `workfront.com` a `.workfront.adobe.com`
+JumpSeat funciona con [!DNL Adobe Unified Experience], pero requiere una actualización de la configuración. Con el panel de administración de JumpSeat, cambie la dirección URL de la aplicación de `workfront.com` para terminar con `.workfront.adobe.com`

@@ -3,13 +3,13 @@ product-area: agile-and-teams;projects
 navigation-topic: use-kanban-in-an-agile-team
 title: Usar indicadores en historias en el Panel Kanban
 description: En el tablero  [!DNL Kanban] , los indicadores proporcionan una indicación visual de cuándo una historia está lista para moverse al siguiente estado. Esto permite a los equipos de Kanban utilizar un enfoque de “extracción” en lugar de “inserción” al mover historias entre estados.
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: e19a007d-737c-42d4-aa69-771d8a9e9fd8
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '476'
-ht-degree: 85%
+ht-degree: 86%
 
 ---
 
@@ -37,7 +37,7 @@ Tenga en cuenta lo siguiente al utilizar indicadores en historias:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 

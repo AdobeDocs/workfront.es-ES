@@ -3,13 +3,13 @@ product-area: calendars
 navigation-topic: calendars-navigation-topic
 title: Agregar eventos ad hoc a un informe de calendario
 description: Puede añadir eventos ad hoc a un calendario. Un evento ad hoc simplemente sirve como recordatorio en el calendario y no está asociado a un proyecto, tarea o problema.
-author: Jenny
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 4145119e-ef2c-4f0d-89e7-86669ca5b127
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '197'
-ht-degree: 59%
+ht-degree: 60%
 
 ---
 
@@ -28,7 +28,7 @@ Puede añadir eventos ad hoc a un calendario. Un evento ad hoc simplemente sirve
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 

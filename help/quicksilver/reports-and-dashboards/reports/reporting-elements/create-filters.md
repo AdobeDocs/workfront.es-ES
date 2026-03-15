@@ -3,10 +3,10 @@ product-area: reporting
 navigation-topic: reporting-elements
 title: Crear o editar filtros en Adobe Workfront
 description: Puede limitar la cantidad de información que se muestra en pantalla en una lista de elementos con un filtro. Se pueden definir ciertos criterios basados en información concreta sobre un objeto y mostrar únicamente los objetos que cumplen esos criterios.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 2e912e32-7924-418d-9d55-ce3c09f67d3e
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '2375'
 ht-degree: 96%
@@ -40,7 +40,7 @@ Puede aplicar los siguientes tipos de filtros en Adobe Workfront:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 

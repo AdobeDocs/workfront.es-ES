@@ -4,11 +4,11 @@ product-area: reporting
 navigation-topic: reports
 title: Crear y administrar informes
 description: Aprender a crear y administrar informes
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: e3596bd2-4f22-45c8-8cc2-cac08359a093
-source-git-commit: b2b17c34fe4887e291e69facf76f5071bca43b06
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '131'
 ht-degree: 89%
@@ -26,7 +26,7 @@ Esta sección contiene los siguientes artículos:
 * [Ejecutar un informe](../../../reports-and-dashboards/reports/creating-and-managing-reports/run-report.md)
 * [Crear un informe de matriz](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md)
 * [Crear una copia de un informe](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md)
-* [Filtrar informes por intervalos de tiempo](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/filter-reports-time-frames.md)
+* [Filtrar informes por marcos temporales](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/filter-reports-time-frames.md)
 * [Añadir una indicación a un informe](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md)
 * [Añadir un gráfico a un informe](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md)
 * [Información general sobre la entrega de informes](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md)
@@ -39,7 +39,7 @@ Esta sección contiene los siguientes artículos:
 * [Crear informes de datos financieros con tipos de cambio únicos](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-financial-data-reports-unique-exchange-rates.md)
 * [Editar la configuración de informes](../../../reports-and-dashboards/reports/creating-and-managing-reports/edit-report-settings.md)
 * [Cambiar el propietario de un informe](../../../reports-and-dashboards/reports/creating-and-managing-reports/change-owner-report.md)
-* [Informe sobre el área de Actualizaciones con un informe de Entrada de cuaderno](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md)
+* [Informe sobre el área Actualizaciones con un informe de entrada de diario](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md)
 * [Crear un informe de delegación de usuarios](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-user-delegation-report.md)
 
 <!--outdated: For in-depth training on reports, see [Basic Report Creation Program for the new Workfront experience](https://one.workfront.com/s/basic-report-creation-program).-->

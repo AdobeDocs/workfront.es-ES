@@ -4,10 +4,10 @@ product-area: reporting
 navigation-topic: reporting-elements
 title: Información general sobre agrupaciones en Adobe Workfront
 description: Puede agregar agrupaciones para administrar el diseño de la información en los informes y las listas.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: d050372e-c4a0-4c49-b220-5b35334ab8d0
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '813'
 ht-degree: 4%
@@ -38,7 +38,7 @@ De forma predeterminada, las agrupaciones se muestran en un resaltado gris en el
 
 Se pueden agregar hasta tres agrupaciones a un informe. Puede organizar la información con hasta cuatro agrupaciones creando un informe de matriz. Para obtener más información sobre los informes de matriz, consulte [Creación de un informe de matriz](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md).
 
-El número entre paréntesis después del nombre de la agrupación representa el número de resultados bajo esa agrupación. Si el informe abarca varias páginas, asegúrese de mostrar *Todos* los resultados en el informe o lista para obtener un recuento preciso de los resultados en cada agrupación.
+El número entre paréntesis después del nombre de la agrupación representa el número de resultados bajo esa agrupación. Si el informe abarca varias páginas, asegúrese de mostrar *Todos* los resultados en el informe o lista para obtener un recuento exacto de los resultados en cada agrupación.
 
 Tenga en cuenta lo siguiente al trabajar con agrupaciones:
 
@@ -69,9 +69,9 @@ Puede acumular los datos mostrados en el informe en la línea de agrupación res
 >
 >Las siguientes excepciones se aplican a los objetos principales (por ejemplo, las tareas principales) cuando se agregan valores para los siguientes campos en >agrupaciones:
 >
->* Todos los campos de número, moneda y fecha, excepto Horas reales, agregan valores solo para tareas secundarias y tareas independientes. No acumulan valores para tareas principales o principales de elementos principales. Al agregar campos de número, moneda y fecha en una lista que incluya sólo tareas principales, no se mostrará un valor agregado en la barra de agrupación.
+>* Todos los campos de número, moneda y fecha, excepto Horas reales, agregan valores solo para tareas secundarias y tareas independientes. No agregan valores para las tareas principales ni para las principales de las principales. Al agregar campos de número, moneda y fecha en una lista que incluya sólo tareas principales, no se mostrará un valor agregado en la barra de agrupación.
 >
->* Las horas reales acumulan valores para las tareas principales e independientes; no acumulan los números de las tareas secundarias o principales de las tareas principales. <!--Examples of Actual hours include Planned/Actual Labor Cost, Planned/Actual Expense Cost, Planned/Actual Cost, and Planned Hours.-->
+>* Las horas reales agregan valores para las tareas principales principales e independientes; no agregan los números de las tareas secundarias ni de las principales de las tareas principales. <!--Examples of Actual hours include Planned/Actual Labor Cost, Planned/Actual Expense Cost, Planned/Actual Cost, and Planned Hours.-->
 >
 >* Los campos de datos personalizados para valores numéricos y de moneda agregan todas las tareas: principales, secundarias, principales de principales y tareas independientes.
 

@@ -3,13 +3,13 @@ product-area: reporting
 navigation-topic: reporting-elements
 title: Modificar la anchura y el orden de las columnas
 description: Lea este artículo para obtener más información sobre las directrices sobre la anchura de las columnas, para cambiar su anchura y orden en Workfront.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: ece3f908-a0da-45d4-9f4f-0b34c69ce8fa
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '1004'
-ht-degree: 96%
+ht-degree: 97%
 
 ---
 
@@ -45,7 +45,7 @@ A continuación se ofrecen directrices sobre cómo funcionan las anchuras de las
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
@@ -128,7 +128,7 @@ Para obtener más información acerca de cómo exportar datos de listas e inform
 #### Reordene las columnas temporalmente {#reorder-columns-temporarily}
 
 1. Vaya a la lista que desee modificar.
-1. Haga clic en el encabezado de columna que desee mover a la ubicación deseada y arrástrelo.
+1. Haga clic y arrastre el encabezado de columna que desea mover a la ubicación deseada.
 
 >[!TIP]
 >

@@ -3,10 +3,10 @@ product-area: agile-and-teams
 navigation-topic: iterations
 title: Crear una iteración
 description: Las iteraciones son un componente clave para los equipos de Scrum Agile a la hora de planificar la capacidad de trabajo. [!DNL Adobe Workfront] permite que los equipos de Scrum Agile administren su trabajo creando múltiples iteraciones para satisfacer las necesidades del equipo.
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: a25cdd4a-f2e3-4b8a-a7f4-3757940b635e
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '1022'
 ht-degree: 68%

@@ -3,10 +3,10 @@ product-area: documents
 navigation-topic: approvals
 title: Ver el número de decisiones de la revisión y el documento para todos los usuarios
 description: Puede ver el número de decisiones de la revisión y del documento que han tomado los usuarios en la instancia de Workfront.
-author: Courtney and Jenny
+author: Courtney
 feature: Work Management
 exl-id: e7b1ee0a-3306-49a8-aa4f-142b9d894834
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '333'
 ht-degree: 100%

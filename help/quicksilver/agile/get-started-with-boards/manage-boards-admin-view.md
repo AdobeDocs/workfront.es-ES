@@ -1,19 +1,19 @@
 ---
 product-area: agile-and-teams
 navigation-topic: get-started-with-boards
-title: Administrar la vista de administración de tableros
+title: Administrar la vista de administración del tablero
 description: La vista Administrador de tableros contiene una lista de todos los tableros de su cuenta que los administradores del sistema pueden utilizar para obtener una instantánea rápida de los detalles generales de los tableros.
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: 4a7f2f68-14d2-4532-8c76-2ba78b45deac
-source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '618'
-ht-degree: 6%
+ht-degree: 8%
 
 ---
 
-# Administrar la vista de administración de tableros
+# Administrar la vista de administración del tablero
 
 La vista Administrador de tableros contiene una lista de todos los tableros de su cuenta que los administradores del sistema pueden utilizar para obtener una instantánea rápida de los detalles generales de los tableros, incluyendo cuándo se actualizaron por última vez, cuántas tarjetas tiene cada uno y más.
 
@@ -34,7 +34,7 @@ Desde esta área, puede realizar las siguientes acciones:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
@@ -91,9 +91,9 @@ Para obtener más información acerca de los tipos de plantillas de tablero, vea
 
 1. En la página **Tableros**, seleccione la pestaña **Vista de administración**.
 
-1. Seleccionar **columnas**. Se abre el panel **Campos de visibilidad y orden**.
+1. Seleccione **Columnas**. Se abre el panel **Campos de visibilidad y orden**.
 
-1. Configure las columnas que aparecerán en la lista Tableros seleccionando o anulando la selección de la opción en línea con cada columna:
+1. Configure qué columnas aparecen en la lista Tableros seleccionando o deseleccionando el conmutador en línea con cada columna:
 
    * **Propietario**
    * **Última actualización**

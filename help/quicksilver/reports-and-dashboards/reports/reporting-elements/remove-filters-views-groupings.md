@@ -3,13 +3,13 @@ product-area: reporting
 navigation-topic: reporting-elements
 title: Quitar filtros, vistas y agrupaciones
 description: Puede quitar un filtro, una vista o una agrupación de listas e informes si los ha creado o si se han compartido con usted. No se pueden quitar filtros, vistas o agrupaciones predeterminados.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 422d262e-e19d-4070-85f1-77ecb7430342
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '801'
-ht-degree: 95%
+ht-degree: 96%
 
 ---
 
@@ -28,7 +28,7 @@ Puede quitar un filtro, una vista o una agrupación de listas e informes si los 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 

@@ -4,13 +4,13 @@ product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Informe: vista y agrupación combinadas de tareas y problemas'
 description: Este informe de elemento de trabajo muestra las tareas y los problemas en los que los usuarios han aceptado trabajar en un informe. Es mejor cuando se combina con una agrupación personalizada.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 6eaae772-229d-44ea-b285-cbaf9e46eade
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '403'
-ht-degree: 50%
+ht-degree: 51%
 
 ---
 
@@ -37,7 +37,7 @@ Este informe usa `sharecol=true` en la vista para combinar varios campos bajo el
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 

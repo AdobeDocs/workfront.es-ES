@@ -3,13 +3,13 @@ product-area: Canvas Dashboards
 navigation-topic: report-types
 title: Creación de un informe de gráfico en un panel de control de lienzo
 description: Se puede añadir a un panel de control de lienzo un informe de gráfico que visualice los datos como un gráfico de barras, de columnas, de líneas o circular.
-author: Courtney and Jenny
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 4262cae8-602f-416d-94b9-409eb9d6241c
-source-git-commit: c6458d777726092d74e8b031f5c14dfd58710e11
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '1814'
-ht-degree: 6%
+ht-degree: 10%
 
 ---
 
@@ -18,14 +18,14 @@ ht-degree: 6%
 >[!IMPORTANT]
 >
 >Actualmente, la función Paneles de lienzo solo está disponible para los usuarios que participan en la fase beta. Es posible que algunas partes de la función no estén completas o que no funcionen según lo previsto durante esta fase. Envíe cualquier comentario sobre su experiencia siguiendo las instrucciones de la sección [Proporcionar comentarios](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) del artículo Información general sobre la versión beta de los paneles de lienzo.<br>
->Si tiene comentarios acerca de un posible error o problema técnico, envíe un ticket al equipo de asistencia de Workfront. Para obtener más información, consulte [Póngase en contacto con Atención al cliente](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
->Tenga en cuenta que esta versión beta no está disponible en los siguientes proveedores de la nube:
+>Si tiene comentarios sobre un posible fallo o problema técnico, envíe un billete al soporte técnico de Workfront. Para obtener más información, vea [Contactar con el servicio de asistencia al cliente](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
+>Tenga en cuenta que esta beta no está disponible en los siguientes proveedores de servicios cloud:
 >
->* Traer su propia clave para Amazon Web Service
+>* Traer su propia clave para los servicios web de Amazon
 >* Azure
 >* Google Cloud Platform
 
-Puede crear y agregar un informe de gráfico a un panel de lienzo para visualizar los datos como un gráfico de barras, columnas, líneas o circulares.
+Puede generar y agregar un informe de gráfico a un panel de lienzo para visualizar los datos como una barra, columna, línea o gráfico circular.
 
 ![Informe de gráfico](assets/chart-report-main.png)
 
@@ -70,7 +70,7 @@ Debe crear un tablero para poder crear un informe de gráfico.
 
 ## Creación de un informe de gráfico en un panel de control de lienzo
 
-Hay muchas opciones de configuración disponibles para crear un informe de gráfico. En esta sección, le guiaremos a través del proceso general de creación de uno.
+Hay muchas opciones de configuración disponibles para generar un informe de gráfico. En esta sección, le guiaremos por el proceso general de creación de uno.
 
 {{step1-to-dashboards}}
 
@@ -88,26 +88,26 @@ Hay muchas opciones de configuración disponibles para crear un informe de gráf
 
 1. En la esquina superior derecha, haga clic en **Crear informe**.
 
-1. (Opcional) Siga los pasos a continuación para configurar la sección **Detalles**:
+1. (Opcional) Siga los pasos siguientes para configurar la sección **Detalles**:
 
-   1. Escriba un informe **Nombre**.
+   1. Escriba un informe **Name**.
 
-   1. Escriba un informe **Descripción**.
+   1. Escriba un informe **Description**.
 
-   1. Si lo desea, desmarque la casilla **Mostrar series adicionales como &quot;Otro&quot;**.
+   1. Si lo desea, desactive la casilla **Mostrar serie adicional como &quot;Otro&quot;**.
 
       >[!NOTE]
       >
-      >Hay un número máximo de 60 series que se pueden mostrar en un gráfico. Cuando se marca esta casilla, cualquier serie por encima del límite se consolida en una agrupación **Other** del gráfico.
+      >Hay un número máximo de 60 series que se pueden mostrar en un gráfico. Cuando esta casilla está marcada, cualquier serie que supere el límite se consolida en un **Otro** del gráfico.
 1. Elija el tipo de gráfico que desea crear:
-   * [Gráfico de barras, columnas o líneas](#bar-column-or-line-chart)
+   * [gráfico de barras, columnas o líneas](#bar-column-or-line-chart)
    * [Gráfico circular](#pie-chart)
 
-### Gráfico de barras, columnas o líneas
+### gráfico de barras, columnas o líneas
 
 >[!NOTE]
 >
->Puede haber campos adicionales según el tipo de campo que seleccione. Las opciones que se describen a continuación son estándar para todos los tipos de campo.
+>Puede haber campos adicionales dependiendo del tipo de campo que seleccione. Las opciones que se describen a continuación son estándar para todos los tipos de campo.
 
 
 1. En el panel izquierdo, haga clic en el icono **Crear gráfico** ![Crear gráfico](assets/build-chart-icon.png).
@@ -115,64 +115,64 @@ Hay muchas opciones de configuración disponibles para crear un informe de gráf
 1. En la lista desplegable **Tipo de gráfico**, seleccione **Barra**, **Columna** o **Línea**.
 1. En el segundo menú desplegable, seleccione el tipo de barra, columna o línea:
    * **Simple**
-   * **Varias series**
-   * **Apiladas**
+   * **Serie múltiple**
+   * **apilado**
 
-1. En la sección **Eje inferior (X)**, seleccione el **campo Actualizar**, luego busque y seleccione el campo que contiene los datos que se resumirán en el gráfico.
-1. En la lista desplegable **Tipo de agregación**, seleccione cómo se acumulan los datos para generar el resultado del gráfico.
-1. (Opcional) Añada un rótulo de eje en el espacio proporcionado.
-1. (Opcional) Active **Ocultar eje**.
-1. (Opcional) Escriba un **Valor de línea de referencia** para establecer un objetivo o umbral en el gráfico.
-1. Elija **Tipo de línea** en el menú desplegable.
-1. Seleccione el botón **Actualizar campo** de la segunda sección y, a continuación, busque y seleccione el segundo campo que desee mostrar en el gráfico.
+1. En la sección **Eje inferior (X)**, seleccione el campo **Actualizar**, a continuación busque y seleccione el campo que contiene los datos que se resumirán en el gráfico.
+1. En la lista desplegable **Tipo de agregación**, seleccione cómo se acumulan los datos para producir el resultado del gráfico.
+1. (Opcional) Agregue una etiqueta de eje en el espacio proporcionado.
+1. (Opcional) Conmute **Ocultar el eje** en.
+1. (Opcional) Escriba un **valor de línea de referencia** para establecer un destino o umbral en el gráfico.
+1. Elija un **tipo de línea** en el menú desplegable.
+1. Seleccione el botón **Actualizar campo** bajo la segunda sección, y busque y seleccione el segundo campo que desee mostrar en el gráfico.
 
 
 ### Gráfico circular
 
 >[!NOTE]
 >
->Puede haber campos adicionales según el tipo de campo que seleccione. Las opciones que se describen a continuación son estándar para todos los tipos de campo.
+>Puede haber campos adicionales dependiendo del tipo de campo que seleccione. Las opciones que se describen a continuación son estándar para todos los tipos de campo.
 
 
-1. En el panel izquierdo, haga clic en el icono **Crear gráfico** ![Crear gráfico](assets/build-chart-icon.png).
+1. En el panel izquierdo, haga clic en el icono **Generar gráfico** ![Generar gráfico](assets/build-chart-icon.png).
 
 1. En la lista desplegable **Tipo de gráfico**, seleccione **Barra**.
 1. En la sección **Métrica**, seleccione el **campo de actualización**, luego busque y seleccione el campo que contiene los datos que se resumirán en el gráfico.
 1. En la lista desplegable **Tipo de agregación**, seleccione cómo se acumulan los datos para generar el resultado del gráfico.
 1. En la sección **Segmento**, seleccione **Actualizar campo**, luego busque y seleccione el campo que contiene los segmentos que desea mostrar en el gráfico circular.
-1. (Opcional) En la sección **Circular**, active **Mostrar etiquetas de segmento** para mostrar las etiquetas de segmento.
-1. (Opcional) Active **Mostrar total** para mostrar el total en medio del gráfico. Cuando está activada, hay opciones adicionales para mostrar una etiqueta central y elegir el formato de valor.
+1. (Opcional) En la sección **Pie**, alterne **Mostrar etiquetas de segmentos** para mostrar etiquetas de segmentos.
+1. (Opcional) Conmute **Mostrar total** para mostrar el total en el medio del gráfico. Cuando está activado, hay opciones adicionales para mostrar una etiqueta central y elegir el formato de valor.
 
 >[!NOTE]
 >
 >Los tipos de agregación se muestran de la siguiente manera:
 >
->* Contar tipos de agregación: el valor central mostrado es un recuento de todos los segmentos del gráfico.
->* Suma de tipos de agregación: el valor central mostrado es el total agregado del valor numérico o de divisa.
->* Tipos de agregación Average, max y min: el valor central muestra el valor promedio, máximo o mínimo en consecuencia.
+>* Tipos de agregación de recuento: El valor central mostrado es un recuento de todos los segmentos del gráfico.
+>* Tipos de agregación de suma: El valor central mostrado es el total agregado del valor numérico o de divisa.
+>* Tipos de agregación promedio, máximo y mínimo: El valor central muestra el valor promedio, máximo o mínimo en consecuencia.
 
-1. (Opcional) En la sección Leyenda, active **Mostrar leyenda** para mostrar la leyenda del gráfico.
+1. (Opcional) En la sección Leyenda, active la opción **Mostrar leyenda** para mostrar la leyenda del gráfico.
 
-1. (Opcional) Elija una **Posición de leyenda** en el menú desplegable.
+1. (Opcional) Elija una **posición de leyenda** en el menú desplegable.
 
-## Configurar opciones adicionales del informe de gráfico
+## Configurar opciones adicionales de informes de gráficos
 
 ### Filtros
 
 Siga los pasos a continuación para configurar la sección **Filter**:
 
-1. En el panel izquierdo, haga clic en el icono **Filtro**![&#x200B; Icono de filtro](assets/filter-icon.png).
+1. En el panel izquierdo, haga clic en el icono **Filtro**![ Icono de filtro](assets/filter-icon.png).
 1. Seleccione **Editar filtro**.
-1. Haga clic en **Agregar condición** y, a continuación, especifique el campo por el que desea filtrar y el modificador que define qué tipo de condición debe cumplir el campo.
-1. (Opcional) Haga clic en **Agregar grupo de filtros** para agregar otro conjunto de criterios de filtrado. El operador predeterminado entre los conjuntos es Y. Haga clic en el operador para cambiarlo a OR.
+1. Haga clic en **Agregar condición** y, a continuación, especifique el campo por el que desea filtrar y el modificador que define el tipo de condición que debe cumplir el campo.
+1. (Opcional) Haga clic en **Agregar grupo de filtros** para agregar otro conjunto de criterios de filtrado. El operador predeterminado entre los conjuntos es AND. Haga clic en el operador para cambiarlo a OR.
 
 ### Configuración de desglose
 
 Siga los pasos a continuación para configurar la sección **Configuración de columna detallada**:
 
-1. En el panel izquierdo, haga clic en el icono **Columnas de desglose** ![Columnas de desglose](assets/drilldown-column.png). Los campos del gráfico aparecen automáticamente como columnas en la sección de vista previa a la derecha.
+1. En el panel izquierdo, haga clic en el icono **Columnas de desglose** ![Icono de columnas de desglose](assets/drilldown-column.png). Los campos del gráfico aparecen automáticamente como columnas en la sección de vista previa de la derecha.
 
-1. (Opcional) Para actualizar cualquiera de las configuraciones de columna existentes, seleccione la columna que desee actualizar en la sección **Columnas actuales** y, a continuación, actualice la información deseada (por ejemplo: etiqueta, estado vinculado y condiciones).
+1. (Opcional) Para actualizar cualquiera de las configuraciones de columna existentes, seleccione la columna que desea actualizar en la sección **Columnas actuales** y, a continuación, actualice la información deseada (por ejemplo, etiqueta, estado vinculado y condiciones).
 
 1. Haga clic en **Agregar columna** y, a continuación, seleccione el campo que desee mostrar como columna en la tabla. Repita este proceso para cada columna que desee agregar.
 
@@ -186,9 +186,9 @@ Siga los pasos a continuación para configurar la sección **Configuración del 
 
 1. Haga clic en **Guardar** para crear el informe y agregarlo al tablero.
 
-## Crear un ejemplo de informe de gráfico
+## Generar un ejemplo de informe de gráfico
 
-En esta sección, veremos los pasos para crear un gráfico de columnas que muestre las tareas vencidas por el propietario del proyecto.
+En esta sección, recorremos los pasos para crear un gráfico de columnas que muestre las tareas pendientes por el propietario del proyecto.
 
 {{step1-to-dashboards}}
 
@@ -196,7 +196,7 @@ En esta sección, veremos los pasos para crear un gráfico de columnas que muest
 
 1. Haga clic en **Nuevo panel** en la esquina superior derecha.
 
-1. En el cuadro **Crear tablero**, escriba el **Nombre** y la **Descripción** del tablero.
+1. En el cuadro **Crear panel**, escriba el **Nombre** y **Descripción** del panel.
 
 1. Haga clic en **Crear**.
 
@@ -206,9 +206,9 @@ En esta sección, veremos los pasos para crear un gráfico de columnas que muest
 
 1. En la esquina superior derecha, haga clic en **Crear informe**.
 
-1. Siga los pasos a continuación para configurar la sección **Detalles**:
+1. Siga los pasos siguientes para configurar la sección **Detalles**:
 
-   1. Escriba un informe **Nombre** (p. ej. *Tareas vencidas por el propietario del proyecto*).
+   1. Introduzca un informe **Name** (por ejemplo, *Overdue Tasks by Project Owner*).
 
    1. Escriba un informe **Descripción**.
 
@@ -220,17 +220,17 @@ En esta sección, veremos los pasos para crear un gráfico de columnas que muest
 
    1. En la lista desplegable **Tipo de columna**, seleccione **Simple**.
 
-   1. Seleccione el botón **Actualizar campo** en la sección **Eje inferior (X)**, luego busque y seleccione el campo **Tarea** > **Proyecto** > **Propietario** > **Nombre**.
+   1. Seleccione el botón **Actualizar campo** en la sección **Abajo (X) del eje**, y luego localice y seleccione el campo **Tarea** > **Proyecto** > **Propietario** > **Nombre**.
 
-      ![Actualizar campo](assets/bottom-x-axis.png)
+      ![Campo de actualización](assets/bottom-x-axis.png)
 
-   1. Haga clic en el botón **Seleccionar campo** de la sección **Eje izquierdo (Y)**, a continuación, busque y seleccione el campo **Tarea** > **Nombre**.
+   1. Haga clic en el botón **Seleccionar campo** bajo la sección **Eje izquierdo**, y luego busque y seleccione el campo **Tarea** > **Nombre**.
 
-   1. En el menú desplegable **Tipo de agregación**, seleccione **Recuento**.
+   1. En la lista desplegable **Tipo de agregación**, seleccione **Recuento**.
 
       ![Campo de tipo de agregación](assets/left-y-axis.png)
 
-1. Siga los pasos a continuación para configurar la sección **Filter**:
+1. Siga los pasos siguientes para configurar la sección **Filtro**:
 
    1. En el panel izquierdo, haga clic en el icono **Filtro**.
 
@@ -238,13 +238,13 @@ En esta sección, veremos los pasos para crear un gráfico de columnas que muest
 
    1. Haga clic en **Agregar condición**.
 
-   1. Haga clic en el área de condición vacía y luego seleccione **Seleccionar campo**.
+   1. Haga clic en el área de condición vacía y, a continuación, seleccione **Campo de selección**.
 
    1. Seleccione el campo **Porcentaje completado**.
 
-   1. En el menú desplegable **Operadores**, seleccione **Menor que** y, a continuación, escriba *100* en el campo de evaluador.
+   1. En la lista desplegable **Operadores**, seleccione **Menos de** y, a continuación, escriba *100* en el campo de evaluador.
 
-   1. Haga clic en **Agregar condición** y luego en **Seleccionar campo**.
+   1. Haga clic en **Agregar condición** y, a continuación, en **Elegir campo**.
 
    1. Seleccione el campo **Fecha planificada de finalización**.
 
@@ -254,25 +254,25 @@ En esta sección, veremos los pasos para crear un gráfico de columnas que muest
 
    1. Escriba *$$TODAY* en el campo del evaluador.
 
-      Para obtener más información sobre los caracteres comodín, consulte la sección Variables de filtro basadas en fecha en el artículo [Editar filtros de informe en un panel de lienzo](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/edit-report-filters.md).
+      Para obtener más información sobre los comodines, vea la sección Variables de filtro de comodines basadas en fecha en el artículo [Editar filtros de informe en un panel de lienzo](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/edit-report-filters.md).
 
-      ![Campo del evaluador](assets/add-condition.png)
+      ![Campo Evaluador](assets/add-condition.png)
 
-1. Siga los pasos a continuación para configurar la sección **Configuración de columna detallada**:
+1. Siga los pasos siguientes para configurar la sección **Configuración de columnas de desglose**:
 
-   1. En el panel izquierdo, haga clic en el icono **Columnas de desglose** ![Columnas de desglose](assets/drilldown-column.png). Los campos del gráfico aparecen automáticamente como columnas en la sección de vista previa a la derecha.
+   1. En el panel izquierdo, haga clic en el icono **Columnas de desglose** ![Columnas de desglose](assets/drilldown-column.png). Los campos del gráfico aparecen automáticamente como columnas en la sección de vista previa de la derecha.
 
-   1. Haga clic en **Agregar columna** y luego seleccione el campo **Asignado a** > **Nombre**.
+   1. Haga clic en **Agregar columna** y, a continuación, seleccione el campo **Asignado a** > **Nombre**.
 
-   1. Haga clic en **Agregar columna** y, a continuación, seleccione el campo **Fecha planificada de inicio**.
+   1. Haga clic en **Agregar columna** y, a continuación, seleccione el campo **Fecha de inicio planificada**.
 
-   1. Haga clic en **Agregar columna** y, a continuación, seleccione el campo **Fecha planificada de finalización**.
+   1. Haga clic en **Agregar columna** y, a continuación, seleccione el campo **Fecha de finalización planificada**.
 
-   1. Haga clic en **Agregar columna** y, a continuación, seleccione el campo **Fecha de última actualización**.
+   1. Haga clic en **Agregar columna** y, a continuación, seleccione el campo **Última fecha de actualización**.
 
-   1. (Opcional) Para mostrar la hora de actualización, seleccione la opción **Última fecha de actualización** en el campo **Columnas actuales** y, a continuación, seleccione una opción de valor de hora en la lista desplegable **Formato de fecha**.
+   1. (Opcional) Para mostrar la hora de actualización, seleccione la opción **Última fecha de actualización** en el campo **Columnas actuales**, a continuación, seleccione una opción de valor de hora en la lista desplegable **Formato de fecha**.
 
-1. Siga los pasos a continuación para configurar la sección **Configuración del grupo de desglose**:
+1. Siga los pasos siguientes para configurar la sección **Configuración del grupo de desglose**:
 
    1. En el panel izquierdo, haga clic en el icono **Configuración de grupo** ![Configuración de grupo](assets/drilldown-group-icon.png).
 
@@ -280,29 +280,29 @@ En esta sección, veremos los pasos para crear un gráfico de columnas que muest
 
 1. Haga clic en **Guardar** para crear el informe y agregarlo al tablero.
 
-## Consideraciones al crear un informe de gráfico
+## Consideraciones al generar un informe de gráfico
 
 ### Informes con datos financieros
 
-Los usuarios con acceso de Vista o Edición en los datos financieros en su nivel de acceso seguirán viendo los datos financieros en las visualizaciones del Panel de lienzo, incluso si el permiso de Ver finanzas se elimina en el nivel de tarea o proyecto.
+Los usuarios que tengan acceso a Ver o Editar a datos financieros en su nivel de acceso seguirán viendo datos financieros en visualizaciones de paneles de lienzo, incluso si se elimina el permiso de financiación Ver en el nivel de tarea o proyecto.
 
 * Los usuarios sin derechos de datos financieros en el nivel de acceso no verán los datos financieros en los informes.
-* Los usuarios que sí ven datos financieros se limitan a registros para los que ya tienen permiso de visualización (proyectos, tareas, problemas, etc.). No verán los valores financieros de los registros a los que no pueden acceder.
-* Los creadores de informes deben tener cuidado al incluir datos financieros en los paneles y tener en cuenta con quién comparten los paneles para evitar el acceso no deseado.
+* Los usuarios que sí ven los datos financieros se limitan a registros para los que ya tienen permiso de visualización (proyectos, tareas, problemas, etc.). No verán los valores financieros de los registros a los que no pueden acceder.
+* Los creadores de informes deben tener cuidado al incluir datos financieros en los paneles y tener en cuenta con quién los comparten para evitar el acceso no deseado.
 
-Se trata de un límite conocido y tenemos previsto abordarlo lo antes posible.
+Se trata de un límite conocido, y tenemos previsto abordarlo lo antes posible.
 
-### Uso del selector de campos
+### Utilizar el selector de campo
 
 La lista desplegable **Secciones** de la sección **Crear gráfico** está diseñada para reducir las opciones de un selector de campo y facilitar la búsqueda de un objeto al crear un informe de tabla. Para empezar, debe seleccionar un objeto de entidad base.
 
-* **Todas las secciones**: Todos los tipos de objetos en Workfront Workflow y Workfront Planning.
-* **Objetos Workfront**: objetos nativos de flujo de trabajo de Workfront.
-* **Tipos de registros de planificación**: tipos de registros personalizados definidos en Workfront Planning.
+* **Todas las secciones**: Todos los tipos de objeto en Flujo de trabajo delantero y Planificación en el área de trabajo.
+* **Objetos Workfront**: Objetos de flujo de trabajo nativos.
+* **Planning Record Types**: Tipos de registro personalizados definidos en Workfront Planning.
 
-![Lista desplegable de secciones](assets/sections-dropdown.png)
+![desplegable Secciones](assets/sections-dropdown.png)
 
-Una vez seleccionado el objeto de entidad base, la lista desplegable **Secciones** se actualiza con las opciones de tipo de campo aplicables para elegir.
+Una vez seleccionado el objeto de entidad base, el desplegable **Secciones** se actualiza con las opciones de tipo de campo aplicables a elegir.
 
 * **Todas las secciones**: campos nativos, campos personalizados y objetos relacionados.
 * **Todos los campos**: campos nativos y personalizados (excluye relaciones).
@@ -312,9 +312,9 @@ Una vez seleccionado el objeto de entidad base, la lista desplegable **Secciones
 
 ![Selección de objetos de informe](assets/reportable-objects-selection.png)
 
-### Referencia a objetos secundarios
+### Hacer referencia a objetos secundarios
 
-Las relaciones disponibles para columnas adicionales, opciones de filtro y atributos de agrupación generalmente se limitan a objetos superiores en la jerarquía de objetos de Workfront o tienen una sola selección en el objeto de entidad base del informe. Hay algunas excepciones a este respecto, que incluyen las siguientes:
+Las relaciones disponibles para columnas adicionales, opciones de filtrado y atributos de agrupación se limitan generalmente a objetos superiores en la jerarquía de objetos Workfront o tienen una única selección en el objeto de entidad base del informe. Hay algunas excepciones a esto, que incluyen lo siguiente:
 
 * Proyecto > Tareas
 * Aprobación de documento > Fases de aprobación de documento

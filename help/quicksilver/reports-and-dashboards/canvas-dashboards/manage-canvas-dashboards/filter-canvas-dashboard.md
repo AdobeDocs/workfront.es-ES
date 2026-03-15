@@ -1,23 +1,23 @@
 ---
 product-area: Canvas Dashboards
 navigation-topic: report-types
-title: Filtrado de un panel de lienzo
+title: Filtrar un panel de lienzo
 description: Puede aplicar un filtro a un panel de lienzo una vez que se haya creado.
-author: Courtney and Jenny
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 156e9d3f-49f6-4372-9749-c7124ff5baee
-source-git-commit: f8c41105607e972d3395cf8d89fb1fdf29f0da85
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '892'
-ht-degree: 8%
+ht-degree: 9%
 
 ---
 
-# Filtrado de un panel de lienzo
+# Filtrar un panel de lienzo
 
 >[!IMPORTANT]
 >
->Actualmente, la función Paneles de lienzo solo está disponible para los usuarios que participan en la fase beta. Es posible que algunas partes de la función no estén completas o que no funcionen según lo previsto durante esta fase. Envíe cualquier comentario sobre su experiencia siguiendo las instrucciones de la sección [Proporcionar comentarios](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) del artículo Información general sobre la versión beta de los paneles de lienzo.<br>
+>Actualmente, la función Paneles de lienzo sólo está disponible para los usuarios que participan en la fase beta. Es posible que algunas partes de la función no estén completas o funcionen según lo previsto durante esta etapa. Por favor, envíe sus comentarios con respecto a su experiencia siguiendo las instrucciones de la sección [Proporcionar comentarios](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) en el artículo general de Canvas Dashboards beta.<br>
 >Si tiene comentarios acerca de un posible error o problema técnico, envíe un ticket al equipo de asistencia de Workfront. Para obtener más información, consulte [Póngase en contacto con Atención al cliente](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
 >Tenga en cuenta que esta versión beta no está disponible en los siguientes proveedores de la nube:
 >
@@ -71,7 +71,7 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
 
 ## Requisitos previos
 
-Debe crear un tablero para poder filtrarlo.
+Debe crear un panel antes de que se pueda filtrar.
 
 Para obtener más información, consulte [Crear un panel de lienzo](/help/quicksilver/reports-and-dashboards/canvas-dashboards/create-dashboards/create-dashboards.md).
 
@@ -101,11 +101,11 @@ Con un filtro de panel, puede aplicar un filtro común a todos los informes disp
 
 1. En el panel izquierdo, haga clic en **Paneles de control de lienzo**.
 
-1. En la página **Paneles de lienzo**, seleccione el panel al que desee aplicar un filtro.
+1. En la página **Canvas Dashboards**, seleccione el panel al que desea aplicar un filtro.
 
-1. En la esquina superior izquierda de la página de detalles del panel, haga clic en **Filtros**. Se abrirá el panel lateral de filtros.
+1. En la esquina superior izquierda de la página de detalles del panel, haga clic en **Filtros**. Se abre el panel lateral de filtros.
 
-1. Seleccione **Editar filtros**. Se abre el cuadro de diálogo **Filtros del panel**.
+1. Seleccione **Editar filtros**. Se abre el cuadro de diálogo **Filtros de panel**.
 
 1. (Opcional) Para agregar una regla, siga los pasos a continuación:
 
@@ -115,7 +115,7 @@ Con un filtro de panel, puede aplicar un filtro común a todos los informes disp
 
    1. Haga clic en **Agregar condición** y, a continuación, agregue la siguiente información:
       * Seleccione un campo por el que desee filtrar.
-      * Seleccione una opción (o modificador de filtro) para definir qué tipo de condición debe cumplir el campo.
+      * Seleccione una opción (o modificador de filtro) para definir el tipo de condición que debe cumplir el campo.
 
    1. (Opcional) Haga clic en **Agregar grupo de filtros** para agregar otro conjunto de criterios de filtrado. El operador predeterminado entre los conjuntos es Y. Haga clic en el operador para cambiarlo a OR.
 
@@ -130,13 +130,13 @@ Una solicitud de panel ofrece a los usuarios la opción de aplicar filtros perso
 >
 >Las opciones de solicitud de panel solo las puede configurar un usuario con acceso de Administración al panel.
 
-1. Para agregar una solicitud, siga los pasos a continuación:
+1. Para agregar un mensaje, siga los pasos siguientes:
 
-   1. Seleccione **Agregar solicitud**. Los nuevos campos aparecen en la parte derecha de la pantalla.
+   1. Seleccione **Agregar símbolo del sistema**. En el lado derecho de la pantalla aparecen nuevos campos.
 
-   1. Escriba una etiqueta en el campo **Personalizar etiqueta**.
+   1. Introduzca una etiqueta en el campo **Personalizar etiqueta**.
 
-   1. Seleccione el campo en el que desea basar la solicitud escribiendo el nombre del campo y seleccionándolo cuando aparezca en la lista. 
+   1. Seleccione el campo en el que desea que se base el mensaje escribiendo el nombre del campo y, a continuación, seleccionándolo cuando aparezca en la lista. 
 
 1. Para agregar una solicitud personalizada, siga los pasos a continuación:
 
@@ -146,7 +146,7 @@ Una solicitud de panel ofrece a los usuarios la opción de aplicar filtros perso
 
    1. Haga clic en **Agregar nueva opción**.
 
-   1. Escriba el nombre del mensaje en el campo **Valor de opción**.
+   1. Introduzca el nombre del mensaje en el campo **Valor de opción**.
 
    1. Haga clic en **Agregar condición** y, a continuación, especifique el campo por el que desea filtrar y el modificador que define qué tipo de condición debe cumplir el campo.
 
@@ -171,9 +171,9 @@ Todos los usuarios con acceso a un tablero pueden aplicar una solicitud de table
 
 1. En la página **Paneles de lienzo**, seleccione el panel al que desee aplicar la solicitud.
 
-1. En la esquina superior izquierda de la página de detalles del panel, haga clic en **Filtros**. Se abrirá el panel lateral de filtros.
+1. En la esquina superior izquierda de la página de detalles del panel, haga clic en **Filtros**. Se abre el panel lateral de filtros.
 
-1. En la sección **Mostrar registros donde...**, elija una condición para uno o todos los mensajes mostrados. Se aplica la solicitud y aparece la etiqueta **Filtros del panel aplicados** en la esquina del widget de informe.
+1. En la sección **Mostrar registros donde...**, elija una condición para uno o todos los mensajes que se muestran. Se aplica el símbolo del sistema y aparece una etiqueta **Filtro de panel aplicado** en la esquina del widget de informe.
    ![Seleccionar condición](assets/prompts-list.png)
 
 1. Haga clic en el icono **Cerrar** ![Cerrar icono](assets/close-icon.png) en la esquina superior derecha para ocultar el panel.

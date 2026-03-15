@@ -4,13 +4,13 @@ product-area: reporting;projects;user-management
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Agrupación: patrocinador del proyecto por horas'
 description: Esta agrupación de horas organiza las horas por el patrocinador del proyecto en el que se registran. La interfaz estándar de Report Builder para las agrupaciones de horas no proporciona ninguna asignación al campo Patrocinador del proyecto. Debe utilizar la interfaz del Modo de texto para acceder a este campo.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 6b35b0ef-18b7-4121-ae39-d7957d76c04b
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '234'
-ht-degree: 80%
+ht-degree: 82%
 
 ---
 
@@ -31,7 +31,7 @@ Esta agrupación de horas organiza las horas por el patrocinador del proyecto en
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 

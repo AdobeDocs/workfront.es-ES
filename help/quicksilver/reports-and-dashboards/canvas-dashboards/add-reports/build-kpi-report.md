@@ -3,13 +3,13 @@ product-area: Canvas Dashboards
 navigation-topic: report-types
 title: Generar un informe de KPI en un panel de control de lienzo
 description: Se puede añadir a un panel de control de lienzo un informe de KPI que muestre de forma destacada un único KPI agregado.
-author: Courtney and Jenny
+author: Courtney
 feature: Reports and Dashboards
 exl-id: e1c68ac3-112e-4f9e-b644-f44bb0778b92
-source-git-commit: d7caaa0871263fb8ef4224a9c298778f3ee2454a
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '1260'
-ht-degree: 8%
+ht-degree: 14%
 
 ---
 
@@ -192,8 +192,8 @@ Para obtener más información sobre ejemplos de informes KPI, consulte [Crear u
 Los usuarios con acceso de Vista o Edición en los datos financieros en su nivel de acceso seguirán viendo los datos financieros en las visualizaciones del Panel de lienzo, incluso si el permiso de Ver finanzas se elimina en el nivel de tarea o proyecto.
 
 * Los usuarios sin derechos de datos financieros en el nivel de acceso no verán los datos financieros en los informes.
-* Los usuarios que sí ven datos financieros se limitan a registros para los que ya tienen permiso de visualización (proyectos, tareas, problemas, etc.). No verán los valores financieros de los registros a los que no pueden acceder.
-* Los creadores de informes deben tener cuidado al incluir datos financieros en los paneles y tener en cuenta con quién comparten los paneles para evitar el acceso no deseado.
+* Los usuarios que sí ven los datos financieros se limitan a registros para los que ya tienen permiso de visualización (proyectos, tareas, problemas, etc.). No verán los valores financieros de los registros a los que no pueden acceder.
+* Los creadores de informes deben tener cuidado al incluir datos financieros en los paneles y tener en cuenta con quién los comparten para evitar el acceso no deseado.
 
 Se trata de un límite conocido y tenemos previsto abordarlo lo antes posible.
 

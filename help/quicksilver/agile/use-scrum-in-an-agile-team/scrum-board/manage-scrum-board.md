@@ -1,23 +1,23 @@
 ---
 product-area: agile-and-teams;projects;user-management
 navigation-topic: scrum-board
-title: Administrar historias y problemas en el panel de exploración
-description: Puede mover una historia o un problema del panel de exploración a otra iteración o al registro de pendientes, o eliminarlo del panel de exploración. Cuando elimina una historia o un problema, se mueve a la papelera de reciclaje durante 30 días y solo el administrador del sistema puede recuperarlo.
-author: Jenny
+title: Gestionar historias y problemas en la placa base
+description: Puede mover un artículo o un problema desde la placa de Scrum a otra iteración o al trabajo pendiente, o eliminarlo del panel de Scrum. Cuando elimina una historia o un problema, se mueve a la papelera de reciclaje durante 30 días y solo el administrador del sistema puede recuperarlo.
+author: Courtney
 feature: Agile
 exl-id: 72990251-0264-4e68-83ef-1a9cde5b685c
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '477'
 ht-degree: 41%
 
 ---
 
-# Administrar historias y problemas en el tablero [!UICONTROL Scrum]
+# Administrar historias y problemas en la placa [!UICONTROL Scrum]
 
-Puede mover una historia o un problema del tablero [!UICONTROL Scrum] a otra iteración o al registro de pendientes, o eliminarlo del tablero [!UICONTROL Scrum]. Cuando elimina una historia o un problema, se mueve a la papelera de reciclaje durante 30 días y solo el administrador del sistema puede recuperarlo.
+Puede mover un artículo o un problema desde la placa [!UICONTROL Scrum] a otra iteración o al registro atrasado, o eliminarlo de la placa [!UICONTROL Scrum]. Cuando elimina una historia o un problema, se mueve a la papelera de reciclaje durante 30 días y solo el administrador del sistema puede recuperarlo.
 
-Para eliminar una tarea o un problema de la iteración sin eliminarlo ni enviarlo al registro de pendientes, vaya al proyecto y elimine el equipo de Agile de la columna de asignación. Esto elimina la tarea o el problema del panel de exploración, pero permanece en el proyecto.
+Para quitar una tarea o un problema de la iteración sin eliminarla o enviarla al trabajo atrasado, vaya al proyecto y quite el equipo ágil de la columna de asignación. Esto quita la tarea o el problema del panel de Scrum, pero permanece en el proyecto.
 
 ## Requisitos de acceso
 
@@ -48,26 +48,26 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
 
 +++
 
-## Mover una historia o un problema del tablero [!UICONTROL Scrum]
+## Mover un artículo o problema desde la placa [!UICONTROL Scrum]
 
 {{step1-to-team}}
 
-1. Haga clic en el icono **[!UICONTROL Cambiar equipo]** ![Cambiar icono de equipo](assets/switch-team-icon.png) y, a continuación, seleccione un equipo de Scrum en el menú desplegable o busque un equipo en la barra de búsqueda.
+1. Haga clic en el icono **[!UICONTROL Cambiar equipo]** ![Cambiar icono de equipo](assets/switch-team-icon.png), a continuación seleccione un equipo de Scrum en el menú desplegable o busque un equipo en la barra de búsqueda.
 1. En el panel izquierdo, seleccione **[!UICONTROL Iteraciones]** para elegir una iteración específica o seleccione **[!UICONTROL Iteración actual]**.
-1. Haz clic en el icono **[!UICONTROL Más]** de la historia o el problema y selecciona **[!UICONTROL Mover a]**.
+1. Haga clic en el icono **[!UICONTROL More]** en el artículo o problema y seleccione **[!UICONTROL Move to]**.
 
-   ![Eliminar o mover historia del panel de exploración](assets/scrum-delete-move-story.png)
+   ![Borrar o mover la historia de la placa de Scrum](assets/scrum-delete-move-story.png)
 
 1. En el mensaje de confirmación, elija:
 
    <table style="table-layout:auto">
     <tr>
         <td><strong>[!UICONTROL Otra iteración]</strong></td>
-        <td>Seleccione para mover el elemento a otra iteración y, a continuación, elija a qué iteración se moverá la historia o el problema. Si no se definen iteraciones futuras, no se puede mover el elemento.</td>
+        <td>Seleccione esta opción para mover el elemento a otra iteración y, a continuación, elija a qué iteración se moverá el artículo o problema. Si no se definen iteraciones futuras, no se puede mover el elemento.</td>
     </tr>
     <tr>
         <td><strong>[!UICONTROL Backlog]</strong></td>
-        <td>Seleccione para mover la historia o el problema al registro de asuntos pendientes del equipo.</td>
+        <td>Seleccione esta opción para mover el artículo o el problema al trabajo atrasado del equipo.</td>
     </tr>
    </table>
 
@@ -77,14 +77,14 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
 
 1. Haga clic en **[!UICONTROL Mover]**.
 
-## Eliminar una historia o un problema del tablero [!UICONTROL Scrum]
+## Borrar un artículo o problema de la placa [!UICONTROL Scrum]
 
 {{step1-to-team}}
 
-1. Haga clic en el icono **[!UICONTROL Cambiar equipo]** ![Cambiar icono de equipo](assets/switch-team-icon.png) y, a continuación, seleccione un equipo de Scrum en el menú desplegable o busque un equipo en la barra de búsqueda.
+1. Haga clic en el icono **[!UICONTROL Cambiar equipo]** ![Cambiar icono de equipo](assets/switch-team-icon.png), a continuación seleccione un equipo de Scrum en el menú desplegable o busque un equipo en la barra de búsqueda.
 1. En el panel izquierdo, seleccione **[!UICONTROL Iteraciones]** para elegir una iteración específica o seleccione **[!UICONTROL Iteración actual]**.
-1. Haga clic en el icono **[!UICONTROL Más]** del artículo o problema y seleccione **[!UICONTROL Eliminar artículo]** o **[!UICONTROL Eliminar problema]**.
+1. Haga clic en el icono **[!UICONTROL Más]** del artículo o problema, y seleccione **[!UICONTROL Eliminar historia]** o **[!UICONTROL Eliminar problema]**.
 
-   ![Eliminar o mover historia del panel de exploración](assets/scrum-delete-move-story.png)
+   ![Borrar o mover la historia de la placa de Scrum](assets/scrum-delete-move-story.png)
 
 1. En el mensaje de confirmación, haga clic en **[!UICONTROL Sí, eliminarlo]**.

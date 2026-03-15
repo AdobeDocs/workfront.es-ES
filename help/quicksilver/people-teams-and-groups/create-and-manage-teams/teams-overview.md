@@ -4,10 +4,10 @@ product-area: agile-and-teams
 navigation-topic: create-and-manage-teams
 title: Información general de equipos
 description: El propósito de un equipo en Adobe Workfront es capturar la dinámica en la vida real de los grupos de trabajo funcionales en el lugar de trabajo.
-author: Jenny
+author: Courtney
 feature: People Teams and Groups
 exl-id: c62c0789-2aaa-4091-9c45-b9e7801043a9
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '236'
 ht-degree: 99%

@@ -1,18 +1,18 @@
 ---
-title: Mejoras del proyecto del primer trimestre de 2024
+title: Mejoras en los proyectos del primer trimestre de 2024
 description: Mejoras del proyecto del primer trimestre de 2024
-author: Nolan
+author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 260e629d-361b-4022-8be0-7d2e7d66770f
-source-git-commit: e620074ab0509e3052678e8c7e46e9629f3b34f2
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '260'
-ht-degree: 78%
+ht-degree: 82%
 
 ---
 
-# Mejoras del proyecto del primer trimestre de 2024
+# Mejoras en los proyectos del primer trimestre de 2024
 
 Esta página describe todas las mejoras de proyecto realizadas con la versión del primer trimestre de 2024 en el entorno de vista previa. Estas mejoras estarán disponibles en el entorno de producción con la versión del primer trimestre de 2024.
 

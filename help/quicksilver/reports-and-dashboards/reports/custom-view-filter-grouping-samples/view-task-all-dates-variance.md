@@ -2,32 +2,32 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 'Ver: Tarea con Desviación de Todas las Fechas'
-description: Esta vista de tareas es similar a la vista "Todas las fechas" proporcionada con su cuenta de Adobe Workfront. Esta vista en particular incluye las columnas Varianza, que calculan la diferencia en días entre fechas.
-author: Nolan
+title: 'Ver: Tarea con variación de todas las fechas'
+description: Esta vista de tareas es similar a la vista "Todas las fechas" proporcionada con la cuenta de Adobe Workfront. Esta vista particular incluye columnas Variance, que calculan la diferencia en días entre fechas.
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 20df7cd8-113e-4c0d-b3f5-1def7db968a5
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '314'
-ht-degree: 27%
+ht-degree: 30%
 
 ---
 
-# Ver: tarea con variación de todas las fechas
+# Vista: tarea con variación de todas las fechas
 
 <!--Audited: 11/2024-->
 
-Esta vista de tareas es similar a la vista &quot;Todas las fechas&quot; proporcionada con su cuenta de Adobe Workfront. Esta vista en particular incluye *Variance* columnas, que calculan la diferencia en días entre las fechas siguientes:
+Esta vista de tareas es similar a la vista &quot;Todas las fechas&quot; proporcionada con la cuenta de Adobe Workfront. Esta vista particular incluye *columnas Variance*, que calculan la diferencia en días entre las siguientes fechas:
 
 * Fechas de inicio planificadas y proyectadas
-* Fechas de inicio planificadas y reales
-* Fechas planificadas y proyectadas de finalización
-* Fechas planificadas y reales de finalización
+* Fechas de inicio planeadas y reales
+* Fechas de finalización planificadas y previstas
+* Fechas de finalización previstas y reales
 
-Esta vista representa un ejemplo de columnas calculadas, en el que puede tomar los valores de dos columnas diferentes y conectarlos mediante un cálculo para obtener un tercer valor. En este caso, se resta la fecha 1 de la fecha 2.
+Esta vista representa un ejemplo de columnas calculadas, en las que se pueden tomar los valores de dos columnas diferentes y conectarlos mediante un cálculo para obtener un tercer valor. En este caso, restará la fecha 1 a partir de la fecha 2.
 
-Para obtener más información acerca del uso de cálculos en una vista, vea la sección [Información general sobre usos comunes del modo de texto](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md) en  [Información general sobre usos comunes del modo de texto](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md).
+Para obtener más información sobre cómo utilizar cálculos en una vista, vea la sección [Información general sobre los usos comunes para el modo de texto](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md) en  [Información general sobre los usos comunes para el modo de texto](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md).
 
 ![Ver tarea con todas las fechas](assets/view-task-with-all-dates-variance.png)
 
@@ -40,14 +40,14 @@ Para obtener más información acerca del uso de cálculos en una vista, vea la 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licencia de Adobe Workfront</td> 
    <td> 
-   <p>Colaborador o solicitud para modificar una vista </p>
-   <p>Estándar o Plan para modificar un informe</p>
+   <p>Colaborador o Solicitud de modificación de una vista </p>
+   <p>Estándar o plan para modificar un informe</p>
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso</td> 
@@ -65,14 +65,14 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
 
 +++
 
-## Ver tareas con variación de todas las fechas
+## Ver tareas con la varianza Todas las fechas
 
 1. Vaya a una lista de tareas.
 1. En el menú desplegable **Vista**, seleccione **Nueva vista**.
 
 1. En el área **Vista previa de columnas**, elimine todas las columnas excepto una.
 1. Haga clic en el encabezado de la columna restante y, a continuación, haga clic en **Cambiar al modo de texto** > **Editar modo de texto**.
-1. Elimine el texto que encuentre en el cuadro **Editar modo de texto** y reemplácelo por el siguiente código:
+1. Quite el texto que encuentre en el cuadro **Editar modo de texto**, y reemplácelo por el código siguiente:
 
    ```
    column.1.descriptionkey=name

@@ -3,10 +3,10 @@ product-area: dashboards
 navigation-topic: create-and-manage-dashboards
 title: Creación de un panel de control
 description: Puede crear paneles de control para acceder rápidamente a la información en Adobe Workfront. Se pueden añadir informes, calendarios y páginas externas a los paneles de control, los cuales puede compartir con otros para lograr una colaboración óptima.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 6a284df4-f011-4b4c-b44c-2e20918f643f
-source-git-commit: 507cb64eb21c2798cdafe184794c0d9ed7ebc0c6
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '494'
 ht-degree: 84%

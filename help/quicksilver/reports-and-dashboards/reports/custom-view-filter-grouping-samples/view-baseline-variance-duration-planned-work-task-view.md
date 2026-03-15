@@ -2,33 +2,33 @@
 content-type: reference
 product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 'Vista: Desviación prevista para duración y trabajo planificado en una vista de tareas'
-description: Ver la variación de línea de base para Duración y Trabajo planificado.
-author: Nolan
+title: 'View: Baseline Variance for Duration and Planned Work in a Task View'
+description: View the baseline variance for Duration and Planned work.
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 2a1eef9c-016c-4a04-acda-6070fcb0e23d
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '243'
-ht-degree: 29%
+ht-degree: 35%
 
 ---
 
-# Vista: variación prevista para Duración y Trabajo planificado en una vista de tareas
+# Vista: variación de línea de base para duración y trabajo planificado en una vista de tarea
 
 <!--Audited: 11/2024-->
 
-Esta vista muestra lo siguiente en una vista de tareas:
+This view displays the following in a task view:
 
-* Información de la tarea con información de la tarea prevista.
-* Diferencia entre Duración y Duración de línea de base predeterminada.
-* Diferencia entre el trabajo planificado y el trabajo planificado previsto predeterminado.
+* Task information with baseline task information.
+* The difference between Duration and the Default Baseline Duration.
+* The difference between the Planned Work and the Default Baseline Planned Work.
 
 >[!NOTE]
 >
->Los datos mostrados en la vista siguiente comparan los valores reales de las tareas con los valores asociados con las tareas de Línea de base predeterminada.
+>The data displayed in the following view compares actual task values to the values associated with the Default Baseline tasks.
 
-![variación_línea_base_en_vista_de_tareas.png](assets/baseline-variance-in-a-task-view-350x38.png)
+![baseline_variance_in_a_task_view.png](assets/baseline-variance-in-a-task-view-350x38.png)
 
 ## Requisitos de acceso
 
@@ -39,14 +39,14 @@ Esta vista muestra lo siguiente en una vista de tareas:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licencia de Adobe Workfront</td> 
    <td> 
-   <p>Colaborador o solicitud para modificar un filtro </p>
-   <p>Estándar o Plan para modificar un informe</p>
+   <p>Contributor or Request to modify a filter </p>
+   <p>Standard or Plan to modify a report</p>
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso</td> 
@@ -63,13 +63,13 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
 
 +++
 
-## Ver variación prevista para Duración y Trabajo planificado en una vista de tareas
+## View baseline variance for Duration and Planned Work in a task view
 
 1. Vaya a una lista de tareas.
-1. En el menú desplegable **Vista**, seleccione **Nueva vista** o edite una vista existente.
-1. Quite todas las columnas de la vista, excepto la primera.
-1. Con la primera columna seleccionada, haga clic en **Cambiar al modo de texto** y luego haga clic en **Editar vista de texto**.
-1. Copie el texto siguiente y péguelo en la primera columna de la vista:
+1. In the **View** drop-down menu, select **New View** or edit an existing view.
+1. Remove all the columns in the view, except the first one.
+1. With the first column selected, click **Switch to Text Mode**, then click **Edit Text View**.
+1. Copy the text below and paste it in the first column of the view:
 
    ```
    column.0.descriptionkey=name

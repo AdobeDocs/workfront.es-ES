@@ -2,20 +2,20 @@
 content-type: reference
 product-area: reporting
 navigation-topic: reports
-title: Información general sobre elementos de informes
+title: Información general sobre elementos de creación de informes
 description: 'Todos los informes y listas de Adobe Workfront son una combinación de tres elementos esenciales: vistas, filtros y agrupaciones.'
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 5b5385ac-3b75-4500-bf4d-ec6ad4bf727a
-source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '178'
-ht-degree: 2%
+ht-degree: 100%
 
 ---
 
-# Información general sobre elementos de informes
+# Información general sobre elementos de creación de informes
 
 <!-- Audited: 11/2024 -->
 
@@ -25,30 +25,30 @@ Todos los informes y listas de Adobe Workfront son una combinación de tres elem
 * Un filtro
 * Una agrupación
 
-De forma opcional, también puede agregar indicadores y gráficos a los informes.
+De forma opcional, también puede añadir solicitudes y gráficos a los informes.
 
-Para obtener información sobre cómo crear avisos, vea [Agregar un aviso a un informe](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
+Para obtener información sobre cómo crear avisos, consulte [Añadir una solicitud a un informe](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
 
-Para obtener información acerca de cómo crear un gráfico en un informe, vea [Agregar un gráfico a un informe](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md).
+Para obtener información sobre cómo crear un gráfico en un informe, consulte [Añadir un gráfico a un informe](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md).
 
 Esta sección contiene los siguientes artículos:
 
 <!--outdated: * [Basic Report Creation Program](https://one.workfront.com/s/basic-report-creation-program)-->
-* [Elementos de informes: filtros, vistas y agrupaciones](../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md)
-* [Resumen de filtros](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)
+* [Elementos para la creación de informes: filtros, vistas y agrupaciones](../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md)
+* [Información general sobre los filtros](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)
 * [Crear o editar filtros en Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/create-filters.md)
 * [Modificadores de filtro y condición](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md)
-* [Resumen de variables de filtro comodín](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md)
-* [Resumen de vistas en Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)
-* [Crear o editar vistas en Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/create-edit-views.md)
-* [Uso de formato condicional en vistas](../../../reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md)
-* [Información general de agrupaciones en Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md)
-* [Crear agrupaciones en Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/create-groupings.md)
+* [Información general sobre las variables de filtro comodín](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md)
+* [Información general sobre vistas en Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)
+* [Creación o edición de vistas en Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/create-edit-views.md)
+* [Usar formato condicional en vistas](../../../reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md)
+* [Información general sobre agrupaciones en Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md)
+* [Creación de agrupaciones en Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/create-groupings.md)
 * [Editar agrupaciones existentes](../../../reports-and-dashboards/reports/reporting-elements/edit-existing-groupings.md)
-* [Crear o editar vistas en Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/create-edit-views.md)
-* [Use caracteres comodín basados en fecha para generalizar informes](../../../reports-and-dashboards/reports/reporting-elements/use-date-based-wildcards-generalize-reports.md)
-* [Use caracteres comodín basados en usuarios para generalizar informes](../../../reports-and-dashboards/reports/reporting-elements/use-user-based-wildcards-generalize-reports.md)
-* [Compartir un filtro, vista o agrupación](../../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md)
+* [Creación o edición de vistas en Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/create-edit-views.md)
+* [Usar comodines basados en fecha para generalizar informes](../../../reports-and-dashboards/reports/reporting-elements/use-date-based-wildcards-generalize-reports.md)
+* [Usar comodines basados en fecha para generalizar informes](../../../reports-and-dashboards/reports/reporting-elements/use-user-based-wildcards-generalize-reports.md)
+* [Compartir un filtro, una vista o una agrupación](../../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md)
 * [Quitar filtros, vistas y agrupaciones](../../../reports-and-dashboards/reports/reporting-elements/remove-filters-views-groupings.md)
-* [Usar la vista de Hito](../../../reports-and-dashboards/reports/reporting-elements/use-milestone-view.md)
-* [Modificar el ancho y el orden de las columnas](../../../reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md)
+* [Uso de la vista de hito](../../../reports-and-dashboards/reports/reporting-elements/use-milestone-view.md)
+* [Modificar la anchura y el orden de las columnas](../../../reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md)

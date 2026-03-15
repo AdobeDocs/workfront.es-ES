@@ -4,17 +4,17 @@ product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Ver: Problemas con la información de aprobación'
 description: La siguiente vista de problema muestra el proceso de aprobación, el paso, los nombres de los aprobadores y el estado del problema antes de que se concediera la aprobación. Algunos de estos campos no son accesibles a través del generador de interfaces estándar.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 4e123844-a0d6-474b-87fb-d30ed391ad07
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '239'
-ht-degree: 31%
+ht-degree: 35%
 
 ---
 
-# Ver: problemas con la información de aprobación
+# Vista: problemas con la información de aprobación
 
 <!--Audited: 11/2024-->
 
@@ -31,7 +31,7 @@ La siguiente vista de problema muestra el proceso de aprobación, el paso, los n
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 

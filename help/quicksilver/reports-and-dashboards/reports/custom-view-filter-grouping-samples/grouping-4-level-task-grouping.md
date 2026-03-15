@@ -4,17 +4,17 @@ product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Agrupación: agrupación de tareas de 4 niveles para el propietario de Portfolio, el propietario del programa, el propietario del proyecto y el estado del proyecto'
 description: Esta tarea Grouping ofrece 4 niveles de Grouping. En este caso, las tareas se agrupan por Propietario de Portfolio, Propietario del programa, Propietario del proyecto y Estado del proyecto. Solo puede tener hasta 3 niveles de agrupación mediante la interfaz estándar. Para agregar un cuarto nivel, debe utilizar el modo Texto. No se pueden agrupar informes por más de 4 criterios al mismo tiempo.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: a1780a57-b94c-4d3a-b526-9bf45dba21f1
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '365'
-ht-degree: 27%
+ht-degree: 31%
 
 ---
 
-# Agrupación: agrupación de tareas de 4 niveles para el Propietario de Portfolio, Propietario de programa, Propietario del proyecto y Estado del proyecto
+# Agrupación: agrupación de tareas de cuatro niveles para el propietario de portafolio, de programa y de proyecto, y el estado del proyecto.
 
 <!--Audited: 10/2024-->
 
@@ -31,7 +31,7 @@ Esta tarea Grouping ofrece 4 niveles de Grouping. En este caso, las tareas se ag
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 

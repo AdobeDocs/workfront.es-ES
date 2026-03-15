@@ -4,13 +4,13 @@ product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Ver: Elementos de informes utilizados en informes'
 description: Esta vista muestra la vista, el filtro y la agrupación utilizados para generar cada informe en Adobe Workfront cuando se utiliza en una lista de informes.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 67f86523-e136-4768-af93-586a107b106f
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '223'
-ht-degree: 62%
+ht-degree: 63%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 62%
 
 Esta vista muestra la vista, el filtro y la agrupación utilizados para generar cada informe en Adobe Workfront cuando se utiliza en una lista de informes.
 
-Puede ver `valuefields` o `valueexpressions` utilizados en cada elemento del informe.
+Puede ver los `valuefields` o `valueexpressions` utilizados en cada elemento del informe.
 
 ![report_with_elements_definitions.png](assets/report-with-elements-definitions-350x130.png)
 
@@ -33,7 +33,7 @@ Puede ver `valuefields` o `valueexpressions` utilizados en cada elemento del inf
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
@@ -63,8 +63,8 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
 1. Vaya a una lista de informes.
 1. En el menú desplegable **Vista**, seleccione **Nueva vista**.
 1. En el área **Vista previa de columna**, elimine todas las columnas excepto una.
-1. Haga clic en el encabezado de la columna restante y, a continuación, haga clic en **Cambiar al modo de texto** > **Editar modo de texto**.
-1. Elimine el texto que encuentre en el cuadro **Editar modo de texto** y reemplácelo por el siguiente código:
+1. Haga clic en el encabezado de la columna restante y, a continuación, haga clic en **Cambiar a modo de texto** > **Editar modo de texto**.
+1. Quite el texto que encuentre en el cuadro **Editar modo de texto** y sustitúyalo por el código siguiente:
 
 
    ```
@@ -108,4 +108,4 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
    column.5.valueformat=HTML
    ```
 
-1. Haga clic en **Listo** > **Guardar vista**.
+1. Haga clic en **Hecho** > **Guardar vista**.

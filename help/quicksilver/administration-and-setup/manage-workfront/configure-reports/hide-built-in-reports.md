@@ -6,12 +6,12 @@ title: Ocultar Informes Integrados
 description: Adobe Workfront tiene una extensa lista de informes integrados predeterminados a los que los usuarios pueden acceder y ver. Como administrador de Workfront, puede modificar el nivel de acceso de un usuario para ocultar los informes integrados de modo que los usuarios no tengan acceso a ellos.
 feature: System Setup and Administration
 role: Admin
-author: Nolan, Lisa
+author: Courtney, Lisa
 exl-id: d48b0dd7-933e-4e91-a2f1-8d64b1c6dbb3
-source-git-commit: ebdc4cef2d7054cd14002910872a1fc3deadad91
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '177'
-ht-degree: 94%
+ht-degree: 96%
 
 ---
 
@@ -28,7 +28,7 @@ Adobe Workfront tiene una extensa lista de informes integrados predeterminados a
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td>Cualquiera</td> 
   </tr> 
   <tr> 

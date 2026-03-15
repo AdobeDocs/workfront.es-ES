@@ -1,12 +1,12 @@
 ---
 product-area: agile-and-teams;projects;user-management
 navigation-topic: scrum-board
-title: Filtrar por usuario en el panel de exploración
+title: Filtrar por usuario en el tablero Scrum
 description: Puede utilizar el filtro del tablero de Scrum para ver qué elementos de trabajo están asociados con otros usuarios y cuáles no están asignados.
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: ccb1dc6e-b6c0-4897-9278-7410f10d40ae
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '201'
 ht-degree: 96%

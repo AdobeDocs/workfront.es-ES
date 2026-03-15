@@ -3,10 +3,10 @@ product-area: projects
 navigation-topic: approvals
 title: Revisión de un documento en Workfront
 description: Como revisor, puede previsualizar un documento que le ha sido enviado para su revisión.
-author: Nolan
+author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 371970e4-cd3e-49b6-8a2d-6cb8fa628679
-source-git-commit: 3fd4d18e1be14cc27b3b39d4abf399ec26ddcd51
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '560'
 ht-degree: 68%
@@ -76,7 +76,7 @@ Add once functionality is added
 1. (Opcional) Una vez que haya revisado el documento, puede dejar un comentario para el solicitante en la sección **Actualizaciones** del documento. Para obtener más información sobre los comentarios, consulte [Actualizar trabajo](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 1. Para registrar que ha completado la revisión, haga clic en **Completar revisión**.
 
-## Revisar un documento desde el panel Resumen del documento
+## Revisar un documento del panel Resumen del documento
 
 1. Vaya al proyecto, tarea o problema que contiene el documento y, a continuación, seleccione **Documentos**.
 
@@ -84,7 +84,7 @@ Add once functionality is added
 
 1. Seleccione la versión del documento que desee revisar en el menú desplegable de la versión. La última versión se selecciona de forma predeterminada.
 
-1. Pase el ratón sobre la vista previa del documento en la sección **Detalles** de la parte superior del panel Resumen del documento. A continuación, puede hacer lo siguiente:
+1. Controle la vista previa del documento en la sección **Detalles** de la parte superior del panel Resumen del documento. A continuación, puede hacer lo siguiente:
 
    Hacer clic en **Vista previa** para abrir una versión de solo lectura del documento en una nueva ventana.
 
@@ -94,21 +94,21 @@ Add once functionality is added
 
 1. (Opcional) Una vez que haya revisado el documento, puede dejar un comentario para el solicitante en la sección **Actualizaciones** del documento. Para obtener más información sobre los comentarios, consulte [Actualizar trabajo](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-1. (Opcional) También puede obtener una vista previa o descargar una versión específica del documento. Para ello, desplácese hacia abajo hasta la sección **Versiones** del panel Resumen del documento y, a continuación, haga clic en el icono Más ![Icono Más](../assets/more-icon.png) junto a la versión que desee revisar y seleccione **Descargar** o **Vista previa**.
+1. (Opcional) También puede obtener una vista previa o descargar una versión específica del documento desplazándose a la sección **Versiones** del panel Resumen del documento, haciendo clic en el icono Más ![Más icono](../assets/more-icon.png) junto a la versión que desea revisar y seleccionando **Descargar** o **Vista previa**.
 1. Para registrar que ha completado la revisión, haga clic en **Completar revisión**.
 
-## Revisión de un documento desde el visor de pruebas
+## Revisar un documento desde el visor de pruebas
 
 Para revisar un documento:
 
-1. Vaya a la notificación de correo electrónico de revisión y haga clic en **Ir a revisión**.
+1. Vaya a su notificación de correo electrónico de revisión y haga clic en **Ir a revisión**.
 
-1. Una vez que estés en Workfront, haz clic en **Ir a la revisión**.
+1. Una vez en Workfront, haga clic en **Ir a la prueba**.
 
-1. Revise el contenido y agregue cualquier comentario o marca. Para obtener más información acerca de cómo usar el visor de revisión, vea [Revisar pruebas en Adobe Workfront: índice de artículos](/help/quicksilver/review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md).
+1. Revise el contenido y agregue cualquier comentario o marcado. Para obtener más información sobre cómo utilizar el visor de pruebas, vea [Revisar pruebas en Adobe Workfront: índice de artículos](/help/quicksilver/review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md).
 
 1. Para registrar que ha completado la revisión, haga clic en **Completar revisión**.
 
 ## Revisar un documento desde el visor de Frame.io
 
-Para revisar un documento desde el visor Frame.io, la instancia de Workfront debe estar integrada con Frame.io. Para obtener más información, consulte la [descripción general de la integración de Frame.io](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/frame-int-overview.md).
+Para revisar un documento desde el visor Frame.io, la instancia de Workfront debe estar integrada con Frame.io. Para obtener más información, vea [Información general sobre la integración de Frame.io](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/frame-int-overview.md).

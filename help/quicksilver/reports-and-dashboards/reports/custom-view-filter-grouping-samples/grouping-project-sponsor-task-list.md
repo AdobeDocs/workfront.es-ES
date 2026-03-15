@@ -4,13 +4,13 @@ product-area: reporting;projects;user-management
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Agrupación: patrocinador del proyecto para una lista de tareas'
 description: Esta agrupación de tareas le permite agrupar tareas por el patrocinador del proyecto.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 2d8f85ea-492e-4b08-82f5-726170acc7d5
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '177'
-ht-degree: 71%
+ht-degree: 72%
 
 ---
 
@@ -31,7 +31,7 @@ Esta agrupación de tareas le permite agrupar tareas por el patrocinador del pro
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
@@ -64,7 +64,7 @@ Para aplicar esta agrupación:
 1. En el menú desplegable **Agrupación**, seleccione **Nueva agrupación**.
 
 1. Haga clic en **Cambiar al modo de texto**.
-1. Elimine el texto del área que se muestra y reemplácelo por el siguiente código:
+1. Quite el texto del área que se muestra y sustitúyalo por el código siguiente:
 
    ```
    group.0.name=Project Sponsor
@@ -73,5 +73,5 @@ Para aplicar esta agrupación:
    ```
 
 1. Haga clic en **Listo**.
-1. Actualice el nombre de la agrupación y haga clic en **Guardar agrupación**.
+1. Actualice el nombre de la agrupación y, a continuación, haga clic en **Guardar agrupación**.
 

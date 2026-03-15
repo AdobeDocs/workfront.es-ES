@@ -4,11 +4,11 @@ product-area: system-administration;templates;setup
 navigation-topic: emails-administration
 title: Configurar plantillas de correo electrónico
 description: Como administrador de Adobe Workfront, puede configurar plantillas de correo electrónico para que admitan notificaciones de recordatorio.
-author: Nolan
+author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: 2ebc3be5-2734-4012-9277-86176c070137
-source-git-commit: e34abb5ff1068de99eaba33dc95287164e556742
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '808'
 ht-degree: 98%
@@ -37,7 +37,7 @@ Las plantillas de correo electrónico se pueden asociar con notificaciones de re
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td>Cualquiera</td> 
   </tr> 
   <tr> 
@@ -236,7 +236,7 @@ Un proyecto que administra se ha retrasado
 
 Esto genera un correo electrónico similar al siguiente:
 
-![El proyecto se retrasó al recibir correo electrónico](assets/project-became-late-email.png)
+![El proyecto se retrasó en el correo electrónico](assets/project-became-late-email.png)
 
 #### Recordatorio de tarea o problema a punto de iniciarse {#task-or-issue-about-to-start-reminder-example}
 

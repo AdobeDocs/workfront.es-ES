@@ -3,10 +3,10 @@ product-area: reporting
 navigation-topic: report-usage
 title: Ver uso del informe
 description: Ver uso del informe
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 51d9067c-8c55-433e-b560-7da241ef33ae
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '960'
 ht-degree: 19%
@@ -46,7 +46,7 @@ Para obtener más información sobre los campos por los que puede filtrar un inf
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 

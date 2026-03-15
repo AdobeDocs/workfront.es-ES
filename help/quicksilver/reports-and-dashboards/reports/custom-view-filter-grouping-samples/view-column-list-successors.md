@@ -4,17 +4,17 @@ product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Ver: Agregar una lista de sucesores de tareas en una columna'
 description: Puede agregar una columna a una vista de tareas para mostrar una lista de las sucesoras de las tareas. La columna Sucesoras de tareas incluye el número de la tarea sucesora así como el nombre.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 45e9cb13-99c7-4401-962e-2aea5e5258c0
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '233'
-ht-degree: 31%
+ht-degree: 36%
 
 ---
 
-# Ver: Agregar una lista de tareas sucesoras en una columna
+# Vista: añadir una lista de tareas sucesoras en una columna.
 
 <!--Audited: 11/2024-->
 
@@ -31,7 +31,7 @@ Puede agregar una columna a una vista de tareas para mostrar una lista de las su
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 

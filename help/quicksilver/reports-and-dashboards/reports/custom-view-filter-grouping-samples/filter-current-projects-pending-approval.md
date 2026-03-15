@@ -4,13 +4,13 @@ product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Filtro: mostrar los proyectos actuales con aprobación pendiente'
 description: 'El siguiente filtro de proyecto muestra los proyectos en el estado Actual: aprobación pendiente, donde el usuario que ha iniciado sesión es el Patrocinador del proyecto o el Administrador de portafolios.'
-author: Lisa and Jenny
+author: Lisa and Courtney
 feature: Reports and Dashboards
 exl-id: 32045aec-acc5-44d2-bad5-7759dc797414
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '197'
-ht-degree: 78%
+ht-degree: 79%
 
 ---
 
@@ -29,7 +29,7 @@ El siguiente filtro de proyecto muestra los proyectos en el estado Actual - Apro
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
@@ -58,7 +58,7 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
 Para aplicar este filtro:
 
 1. Ir a una lista de proyectos.
-1. En el menú desplegable **Filtro**, seleccione **Nuevo filtro**.
+1. En el menú desplegable **Filtro**, selecciona **Nuevo filtro**.
 
 1. Haga clic en **Modo de texto**.
 1. En el área mostrada, copie y pegue el siguiente código:

@@ -4,13 +4,13 @@ product-area: agile-and-teams
 navigation-topic: boards
 title: Revisar métricas de iteración
 description: Las métricas están disponibles para cada iteración de una secuencia de trabajo, en el tablero del proceso de la teración.
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: 09743566-161d-4850-9a1a-b96da6d537a7
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '230'
-ht-degree: 96%
+ht-degree: 98%
 
 ---
 
@@ -31,7 +31,7 @@ Las métricas están disponibles para cada iteración de una secuencia de trabaj
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 

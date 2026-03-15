@@ -4,13 +4,13 @@ product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Ver: Horas con Información de Tarea Principal'
 description: Esta vista de horas muestra el nombre de la tarea en la que se registraron las horas, así como el nombre de la tarea principal.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: c24555fc-3bae-451b-8a44-28a8158199d1
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '209'
-ht-degree: 70%
+ht-degree: 72%
 
 ---
 
@@ -31,7 +31,7 @@ Esta vista de horas muestra el nombre de la tarea en la que se registraron las h
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
@@ -64,7 +64,7 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
 1. En el área **Vista previa de columna**, elimine todas las columnas excepto una.
 1. Haga clic en el encabezado de la columna restante y, a continuación, haga clic en **Cambiar al modo de texto**.
 1. Haga clic en **Editar modo de texto**.
-1. Elimine el texto que encuentre en el cuadro **Editar modo de texto** y reemplácelo por el siguiente código:
+1. Quite el texto que encuentre en el cuadro **Editar modo de texto** y sustitúyalo por el código siguiente:
 
 
 
@@ -124,5 +124,5 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
    column.2.width=150
    ```
 
-1. Haga clic en **Listo** y luego en **Guardar vista**.
+1. Haga clic en **Listo** y, a continuación, en **Guardar vista**.
 

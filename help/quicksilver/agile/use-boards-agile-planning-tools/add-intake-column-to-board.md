@@ -4,10 +4,10 @@ product-area: agile-and-teams
 navigation-topic: agile-navigation-topic
 title: Adición de una columna de admisión a un tablero
 description: Si lo desea, puede añadir una columna de entrada al tablero que recupere automáticamente las tareas y los problemas como tarjetas conectadas cuando se añadan a Workfront, según los filtros que defina.
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: 4991f4f7-6f3d-4e15-ae8d-96433ed46557
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '1033'
 ht-degree: 69%
@@ -57,7 +57,7 @@ Para obtener más información sobre las columnas, consulte [Administrar columna
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 

@@ -3,10 +3,10 @@ product-area: reporting
 navigation-topic: reporting-elements
 title: Usar formato condicional en vistas
 description: Cuando compartas tus informes con otros usuarios en Adobe Workfront, considera personalizar la vista de los informes para hacer que cierta información sea más fácil de leer o simplemente resalte.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 0ea65b3f-fbcf-40f4-a4d1-4dd91619c349
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '1146'
 ht-degree: 96%
@@ -44,7 +44,7 @@ Los cambios que realices en la vista del informe solo se aplican en la pestaña 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 

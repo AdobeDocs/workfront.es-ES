@@ -1,11 +1,11 @@
 ---
 title: Configuración de notificaciones de recordatorio
 description: Las notificaciones de recordatorio generan correos electrónicos que se envían a los usuarios en función de criterios específicos. Las notificaciones de recordatorio recuerdan a los usuarios de una acción que deben realizar para una tarea, un problema, un proyecto o una hoja de horas.
-author: Alina, Nolan
+author: Alina, Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: 6c0fa8af-cd89-4941-a6f6-aa4e84a7dc67
-source-git-commit: bb9ccfa61fa1a8ef41b0e873d5aa6313803c636d
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '1216'
 ht-degree: 5%
@@ -16,7 +16,7 @@ ht-degree: 5%
 
 <!-- Audited: 1/2024 -->
 
-Como administrador de Workfront, puede crear notificaciones de recordatorio para los usuarios y asociarlos a objetos a los que desee que presten especial atención.
+Como administrador de Workfront, puede crear avisos de recordatorio para los usuarios y asociarlos a objetos a los que quiera que presten especial atención.
 
 Las notificaciones de recordatorio generan correos electrónicos que se envían a los usuarios en función de criterios específicos. Las notificaciones de recordatorio recuerdan a los usuarios de una acción que deben realizar para una tarea, un problema, un proyecto o una hoja de horas.
 
@@ -60,11 +60,11 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 
 +++
 
-## Personalizar el correo electrónico del recordatorio
+## Personalizar el correo electrónico de recordatorio
 
-Puede personalizar el asunto, el cuerpo y HTML en el correo electrónico de notificación de recordatorio.
+Puede personalizar el asunto, el cuerpo y el HTML en el correo electrónico de notificación de recordatorio.
 
-O bien, puede utilizar el correo electrónico predeterminado incluido con la notificación de recordatorio. El correo electrónico predeterminado utiliza el nombre de la notificación de recordatorio como asunto del correo electrónico y el nombre del objeto en el cuerpo del correo electrónico, incluido el evento que activó la notificación.
+O bien, puede utilizar el correo electrónico predeterminado incluido con la notificación del recordatorio. El correo electrónico predeterminado utiliza el nombre de notificación del recordatorio como asunto del correo electrónico y el nombre del objeto en el cuerpo del correo electrónico, incluido el evento que desencadenó la notificación.
 
 Si desea personalizar el correo electrónico del recordatorio, debe crear una plantilla de correo electrónico y adjuntarla a la notificación del recordatorio.
 
@@ -96,43 +96,43 @@ Para obtener información sobre cómo crear una plantilla de correo electrónico
      </tr> 
      <tr> 
       <td role="rowheader">Período de calificación</td> 
-      <td> <p>Especifique el número de horas, días laborables, días (días del calendario), semanas o meses antes o después de la fecha en el campo <strong>Intervalos</strong>.</p> <p><b>NOTA</b>:  
+      <td> <p>Especifique el número de horas, días laborables, días (días naturales), semanas o meses antes o después de la fecha en el campo <strong>Timing</strong>.</p> <p><b>NOTA</b>:  
         <ul> 
          <li> <p>Las notificaciones de recordatorio comienzan 24 horas después de la fecha especificada y una vez que se cumplen todos los criterios.</p> </li> 
-         <li> <p>Notificaciones de recordatorio para proyectos, tareas y problemas déclencheur todas las noches a medianoche, hora de la montaña de EE. UU. Todos los objetos que cumplen los requisitos para recibir una notificación de recordatorio a partir de ese día déclencheur una notificación a los usuarios designados poco después de esa hora.</p> </li> 
-         <li> <p>Los recordatorios de hojas de horas se basan en el huso horario de su organización y en la fecha de finalización, fecha de inicio o fecha de última actualización de la hoja de horas. Las zonas horarias de los usuarios individuales no afectan a la hora de las notificaciones de recordatorio.</p> 
+         <li> <p>Las notificaciones de recordatorio para proyectos, tareas y problemas se disparan cada noche a la medianoche, hora de las montañas de Estados Unidos. Todos los objetos que cumplen los requisitos para recibir una notificación de recordatorio a partir de ese día inician una notificación a los usuarios designados poco después de esa fecha.</p> </li> 
+         <li> <p>Los avisos del parte de horas se basan en la zona horaria de la organización y en la Fecha de finalización, Fecha de inicio o Fecha de la última actualización del parte de horas. Las zonas horarias de los usuarios individuales no afectan a la temporización de las notificaciones de recordatorio.</p> 
       </li> 
         </ul> </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Intervalo</td> 
-      <td> <p>Seleccione el evento que almacena en déclencheur la notificación de recordatorio que se va a programar.</p> <p>Si la notificación de recordatorio está destinada a proyectos, tareas o problemas, las opciones disponibles están relacionadas con la Fecha de finalización o Fecha de inicio. La notificación de recordatorio tiene en cuenta la marca de tiempo de las fechas de finalización y de inicio de los proyectos, las tareas y los problemas.</p>
+      <td> <p>Seleccione el evento que activa la notificación de recordatorio que se va a programar.</p> <p>Si la notificación de recordatorio está destinada a proyectos, tareas o problemas, las opciones disponibles están relacionadas con la fecha de finalización o la fecha de inicio. La notificación del recordatorio tiene en cuenta la marca de tiempo de las fechas de finalización y de inicio de los proyectos, tareas y problemas.</p>
 
-   <p>Si la notificación de recordatorio está destinada a hojas de horas, las opciones disponibles están relacionadas con la fecha de finalización, la fecha de inicio o la fecha de última actualización. La notificación de recordatorio para las plantillas de horas tiene en cuenta la marca de tiempo de las fechas de finalización, inicio y última actualización de la plantilla de horas. La plantilla de horas comienza a medianoche del día de la fecha de inicio (12:00 a.m.) y finaliza justo antes de la medianoche de la fecha de finalización (11:59 p.m.).</p>
+   <p>Si la notificación de recordatorio está destinada a las hojas de hora, las opciones disponibles están relacionadas con la fecha de finalización, la fecha de inicio o la fecha de última actualización. La notificación de recordatorio para las plantillas de horas tiene en cuenta la marca de tiempo de las fechas de finalización, inicio y última actualización de la plantilla de horas. La plantilla de horas comienza a medianoche del día de la fecha de inicio (12:00 a.m.) y finaliza justo antes de la medianoche de la fecha de finalización (11:59 p.m.).</p>
 
    <p><b>NOTA</b></p>
-      <p>Las notificaciones de recordatorio de hoja de horas solo se distribuyen una vez cada 24 horas.</p> <p>Cuando configura varias notificaciones de recordatorio en un periodo de 24 horas, Workfront envía un correo electrónico de notificación con todos los recordatorios incluidos en esa notificación.</p>
-      <p>Por ejemplo, si configura tres notificaciones de recordatorio para que se almacenen en déclencheur 10 horas antes, 2 horas antes y 1 hora antes de una fecha de vencimiento, los tres recordatorios se combinarán en la misma notificación si se producen durante el mismo día.</p> <p>Sin embargo, si establece una notificación de recordatorio para 26 horas antes y otra para 1 hora antes de una fecha de vencimiento, los usuarios recibirán dos notificaciones independientes. </p>
+      <p>Las notificaciones de recordatorio del parte de horas sólo se distribuyen una vez cada 24 horas.</p> <p>Cuando configura varias notificaciones de recordatorio en un período de 24 horas, Workfront envía un correo electrónico de notificación con todos los recordatorios incluidos en esa notificación.</p>
+      <p>Por ejemplo, si configura tres notificaciones de recordatorio para que se activen 10 horas antes, 2 horas antes y 1 hora antes de la fecha de vencimiento, los tres recordatorios se combinarán en la misma notificación si se producen durante el mismo día.</p> <p>Sin embargo, si establece una notificación de recordatorio para 26 horas antes y otra para 1 hora antes de una fecha de vencimiento, los usuarios recibirán dos notificaciones independientes. </p>
 
    </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Criterios</td> 
-      <td> <p>Seleccione los criterios para calificar la notificación de recordatorio para que se programe. Las notificaciones de recordatorio no están programadas a menos que se cumpla la selección de criterios.</p> <p>Las siguientes opciones de criterios están disponibles, según el tipo de objeto seleccionado en el paso 4:</p> 
+      <td> <p>Seleccione los criterios para calificar la notificación de recordatorio que se va a programar. Las notificaciones de recordatorio no se programan a menos que se cumpla la selección de criterios.</p> <p>Las siguientes opciones de criterios están disponibles, dependiendo del tipo de objeto seleccionado en el paso 4:</p> 
        <ul> 
-        <li><strong>Incompleto en proyectos actuales:</strong> <i>(disponible para recordatorios de tareas y problemas)</i> La notificación de recordatorio está programada para enviarse solamente cuando el estado del objeto con el que está asociada la notificación de recordatorio no es Completo y el estado del proyecto es Actual.</li> 
-        <li><strong>Todo en proyectos actuales:</strong> <i>(disponible para recordatorios de tareas y problemas)</i> La notificación de recordatorio está programada para enviarse independientemente del estado del objeto y solo cuando el estado del proyecto con el que está asociada la notificación de recordatorio es Actual.</li> 
-        <li><strong>Proyectos incompletos:</strong> <i>(disponible para recordatorios de proyectos)</i> La notificación de recordatorio está programada para enviarse cuando el estado del proyecto sea cualquier cosa menos Completado.</li> 
-        <li><strong>Todos los proyectos:</strong> <i>(disponible para recordatorios de proyectos)</i> La notificación de recordatorio está programada para enviarse independientemente del estado del proyecto.</li> 
-        <li><strong>Abrir hojas de horas:</strong> <i>(disponible para recordatorios de hojas de horas)</i> Se ha programado el envío de la notificación de recordatorio cuando el estado de la hoja de horas sea Abierto.</li> 
-        <li><strong>Hojas de horas enviadas:</strong> <i>(disponible para recordatorios de hojas de horas)</i> La notificación de recordatorio está programada para enviarse cuando se envíe el estado de la hoja de horas.</li> 
-        <li><strong>Abrir hoja de horas o menos de 40 horas a la semana:</strong> <i>(disponible para recordatorios de hojas de horas)</i> La notificación de recordatorio está programada para enviarse cuando el estado de la hoja de horas es Abierta o cuando la hoja de horas tiene menos de 40 horas registradas.</li> 
+        <li><strong>Incompleto en Proyectos actuales:</strong> <i>(Disponible para recordatorios de tarea y de emisión)</i> La notificación del recordatorio está programada para enviarse sólo cuando el estado del objeto con el que se asocia la notificación del recordatorio no esté completado y el estado del proyecto sea Actual.</li> 
+        <li><strong>Todo en proyectos actuales:</strong> <i>(disponible para recordatorios de tareas y problemas)</i> La notificación de recordatorio está programada para enviarse independientemente del estado del objeto y solo cuando el estado del proyecto al que está asociada la notificación de recordatorio sea Actual.</li> 
+        <li><strong>Proyectos incompletos:</strong> <i>(disponible para avisos de proyectos)</i> La notificación de aviso está programada para enviarse cuando el estado del proyecto no sea Completado.</li> 
+        <li><strong>Todos los proyectos:</strong> <i>(Disponible para los recordatorios de proyectos)</i> La notificación de recordatorio está programada para enviarse independientemente del estado del proyecto.</li> 
+        <li><strong>Abrir partes de horas:</strong> <i>(Disponible para avisos de partes de horas)</i> La notificación de aviso está programada para enviarse cuando el estado del parte de horas es Abierto.</li> 
+        <li><strong>Partes de horas enviados:</strong> <i>(Disponible para avisos de partes de horas)</i> La notificación de aviso está programada para enviarse cuando se envíe el estado del parte de horas.</li> 
+        <li><strong>Abrir parte de horas o Menos de 40 horas por semana:</strong> <i>(Disponible para recordatorios de parte de horas)</i> La notificación del recordatorio está programada para enviarse cuando el estado del parte de horas esté abierto o cuando el parte de horas tenga menos de 40 horas registradas.</li> 
         <li><strong>Plantilla de correo electrónico:</strong> En la lista desplegable, seleccione una plantilla de correo electrónico para adjuntarla al recordatorio.<br>Para obtener información sobre cómo generar una plantilla de correo electrónico, consulte <a href="../../../administration-and-setup/manage-workfront/emails/configure-email-templates.md" class="MCXref xref">Configurar plantillas de correo electrónico</a>.</li> 
        </ul> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Destinatarios</td> 
-      <td><p>Según el objeto para el que sea la notificación de recordatorio, seleccione entre los siguientes tipos de usuarios que desea que reciban la notificación:</p>
+      <td><p>En función del objeto para el que esté la notificación de recordatorio, seleccione entre los siguientes tipos de usuarios a los que desea recibir la notificación:</p>
       <ul>
       <li>Asignado a</li>
       <li>Introducido por</li>
@@ -155,14 +155,14 @@ Para obtener información sobre cómo crear una plantilla de correo electrónico
 
 Cuando se cumple la condición en el elemento que tiene adjunta la notificación de recordatorio, se activa una notificación por correo electrónico al usuario definido en la notificación de recordatorio.
 
-Para obtener más información sobre cómo recibir notificaciones de recordatorio, consulte la sección [Notificaciones de recordatorio](../../../workfront-basics/using-notifications/wf-notifications.md#reminder-notifications) en [Notificaciones de Adobe Workfront](../../../workfront-basics/using-notifications/wf-notifications.md).
+Para obtener más información sobre la recepción de notificaciones de recordatorio, consulta la sección [Notificaciones de recordatorio](../../../workfront-basics/using-notifications/wf-notifications.md#reminder-notifications) en [Notificaciones de Adobe Workfront](../../../workfront-basics/using-notifications/wf-notifications.md).
 
-## Envío de notificación de recordatorio de prueba
+## Entrega de notificación de recordatorio de prueba
 
-Déclencheur de notificaciones de recordatorio todas las noches a medianoche, hora de la montaña. Todos los objetos que cumplen los requisitos para una notificación de recordatorio almacenan en déclencheur una notificación a los usuarios designados poco después de esa fecha.
+Las notificaciones de recordatorio se activan todas las noches a medianoche, hora de la montaña. Todos los objetos que cumplen los requisitos para recibir una notificación de recordatorio activan una notificación a los usuarios designados poco después.
 
-Para que las notificaciones de recordatorio entren en déclencheur manualmente, primero debe cumplirse la condición del recordatorio.\
-Por ejemplo, si un recordatorio se establece en déclencheur una hora después de la fecha planificada de finalización de un proyecto, ese tiempo debe haber pasado entre el momento en que se estableció el recordatorio y ahora. Los proyectos en los que se haya aprobado la fecha planificada de finalización antes de activar el recordatorio no almacenarán en déclencheur notificaciones.
+Para que las notificaciones de recordatorio se activen manualmente, se debe cumplir primero la condición del recordatorio.\
+Por ejemplo, si se establece un recordatorio para que se active una hora después de la fecha de finalización planificada de un proyecto, esa hora debe haber pasado entre el momento en que se estableció el recordatorio y ahora. Los proyectos en los que se haya aprobado la fecha planificada de finalización antes de activar el recordatorio no almacenarán en déclencheur notificaciones.
 
 Para que una notificación de recordatorio se almacene en déclencheur manualmente:
 
@@ -170,7 +170,7 @@ Para que una notificación de recordatorio se almacene en déclencheur manualmen
 
 1. Haga clic en **Sistema** > **Diagnóstico** en la esquina inferior izquierda de Workfront.
 
-1. Haga clic en **Enviar notificaciones de recordatorio** y espere a que se confirme en la parte superior de la pantalla que se han enviado.
+1. Haga clic en **Enviar notificaciones de recordatorio** y espere la confirmación en la parte superior de la pantalla de que se han enviado.
 
    Los usuarios designados en la notificación de recordatorio recibirán un correo electrónico.
 

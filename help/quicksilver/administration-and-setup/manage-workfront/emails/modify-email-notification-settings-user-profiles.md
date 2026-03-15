@@ -3,16 +3,16 @@ user-type: administrator
 product-area: system-administration
 keywords: modificar, correo electrónico, notificación, configuración, por lote, edición por lote, configurar, varios, usuarios
 navigation-topic: emails-administration
-title: Modificar la configuración de notificaciones por correo electrónico de varios usuarios
+title: Modificar la configuración de notificación de correo electrónico de varios usuarios
 description: Este artículo proporciona información para los administradores de grupos o de Workfront sobre cómo pueden actualizar las notificaciones de correo electrónico de otros usuarios.
-author: Nolan
+author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: 658f97cd-0500-421d-9c89-26041ca59655
-source-git-commit: e34abb5ff1068de99eaba33dc95287164e556742
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '440'
-ht-degree: 87%
+ht-degree: 88%
 
 ---
 
@@ -35,7 +35,7 @@ También puede configurar las notificaciones por correo electrónico para un usu
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td>Cualquiera</td> 
   </tr> 
   <tr> 
@@ -67,7 +67,7 @@ Para modificar la configuración de las notificaciones por correo electrónico p
 
 1. Expanda una categoría para ver la configuración de notificaciones relacionada con esa categoría.
 
-   Si hay al menos un usuario seleccionado en el que las notificaciones no coinciden con las notificaciones de los demás usuarios seleccionados, la casilla de verificación de categoría de esa notificación contiene una línea horizontal ![Línea en lugar de marca de verificación](assets/straight-line-instead-of-checkmark.jpg).
+   Si hay al menos un usuario seleccionado en el que las notificaciones no coinciden con las notificaciones de los demás usuarios seleccionados, la casilla de verificación categoría de esa notificación contiene una línea horizontal ![Línea en lugar de marcar](assets/straight-line-instead-of-checkmark.jpg) en lugar de una marca de verificación.
 
 
 1. Haga clic en cualquier notificación que desee que los usuarios reciban diaria o instantáneamente, o borre las notificaciones que desea que dejen de recibir.
@@ -79,7 +79,7 @@ Para modificar la configuración de las notificaciones por correo electrónico p
 
 1. Si seleccionó que las notificaciones se enviaran como un resumen diario, seleccione la hora del día a la que desea que se envíe el resumen en la parte superior de la sección **Notificaciones** en el menú **Resumen diario de correo electrónico después de**.
 
-   ![Tiempo de resumen diario](assets/daily-digest-time.png)
+   ![Hora diaria de resumen](assets/daily-digest-time.png)
 
    El resumen diario incluye eventos que cumplen los criterios de las notificaciones 24 horas antes de la hora seleccionada. Los usuarios reciben un correo electrónico de resumen diario para cada tipo de notificación.
 

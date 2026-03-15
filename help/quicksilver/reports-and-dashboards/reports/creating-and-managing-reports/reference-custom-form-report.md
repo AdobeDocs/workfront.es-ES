@@ -3,10 +3,10 @@ product-area: reporting
 navigation-topic: create-and-manage-reports
 title: Hacer referencia a un formulario personalizado en un informe
 description: Puede hacer referencia a los formularios personalizados de un objeto en las vistas, filtros y agrupaciones de un informe para ese objeto.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 8b0d2e7f-cc92-4f43-a91c-ab2b2d8a1c01
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '959'
 ht-degree: 94%
@@ -30,7 +30,7 @@ Puede hacer referencia al contenido de los formularios personalizados para inclu
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 

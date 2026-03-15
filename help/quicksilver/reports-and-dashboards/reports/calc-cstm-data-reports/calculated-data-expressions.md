@@ -2,19 +2,19 @@
 content-type: reference
 product-area: reporting
 navigation-topic: calculate-custom-data-reports
-title: Información general de las expresiones de datos calculados
+title: Información general de expresiones de datos calculados
 description: Puede utilizar expresiones de datos para definir campos de datos personalizados calculados en Adobe Workfront. Las expresiones calculadas conectan los campos de Workfront existentes en las instrucciones que generan un nuevo campo.
-author: Jenny, Lisa
+author: Courtney, Lisa
 feature: Reports and Dashboards
 exl-id: cfb3ace9-76c3-4006-878f-e2ad25ffa03b
-source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '2551'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
-# Información general de las expresiones de datos calculados
+# Información general de expresiones de datos calculados
 
 <!--Audited: 12/2023-->
 
@@ -385,7 +385,7 @@ Puede crear un campo personalizado calculado que muestre un valor con formato de
  </thead> 
  <tbody> 
   <tr> 
-   <td><strong>MATRIZ</strong> </td> 
+   <td><strong>ARRAY</strong> </td> 
    <td> <p>Convierte una cadena en una matriz. El delimitador puede ser cualquier cadena.</p> 
    <p>La expresión tiene el siguiente formato:</p>
    <p><code>ARRAY(string1, "delimiter")</code></p> 
@@ -394,7 +394,7 @@ Puede crear un campo personalizado calculado que muestre un valor con formato de
 
 <tr> 
    <td><strong>ARRAYCONTAINS</strong> </td> 
-   <td> <p>Busca un valor específico en una lista o matriz. Si se encuentra el valor, la función devuelve True; en caso contrario, devuelve False. </p> 
+   <td> <p>Busca un valor específico en una lista o matriz. Si se encuentra el valor, la función devuelve Verdadero; en caso contrario, devuelve Falso. </p> 
    <p>La expresión tiene el siguiente formato:</p>
    <p><code>ARRAYCONTAINS(array, value)</code></p> 
    </td> 
@@ -402,8 +402,8 @@ Puede crear un campo personalizado calculado que muestre un valor con formato de
 
 
 <tr> 
-   <td><strong>LONGITUD DE MATRIZ</strong> </td> 
-   <td> <p>Devuelve el número de elementos de la matriz con el siguiente formato:</p>
+   <td><strong>ARRAYLENGTH</strong> </td> 
+   <td> <p>Devuelve el número de elementos de la matriz y tiene el siguiente formato:</p>
    <p><code>ARRAYLENGTH(array)</code></p> 
    </td> 
   </tr>
@@ -452,9 +452,9 @@ Puede crear un campo personalizado calculado que muestre un valor con formato de
 <p><code>ENCODEURL(string)</code></p></td> 
   </tr> 
   <tr> 
-   <td><strong>FORMATO</strong> </td> 
-   <td><p>Devuelve texto con formato. Solo se permiten con FORMAT las opciones de parámetro enumeradas aquí.</p>
-   <p>Las opciones de color son $$POSITIVE, $$INFORMATIVE, $$NEGATIVE, $$NOTICE y las demás opciones de formato son $$BOLD, $$ITALIC, $$UNDERLINE. Solo se permite una opción de color, junto con hasta tres opciones de formato más. Si no se especifica ninguna opción de color, se aplica el color predeterminado del sistema.</p>
+   <td><strong>FORMAT</strong> </td> 
+   <td><p>Devuelve texto con formato. Solo se permiten las opciones de parámetros enumeradas aquí con FORMAT.</p>
+   <p>Las opciones de color son $$POSITIVE, $$INFORMATIVE, $$NEGATIVE, $$NOTICE, y las demás opciones de formato son $$BOLD, $$ITALIC, $$UNDERLINE. Solo se permite una opción de color, junto con hasta tres opciones de formato más. Si no se especifica ninguna opción de color, se aplica el color predeterminado del sistema.</p>
    <p>La expresión tiene el siguiente formato:</p>
    <p><code>FORMAT($$POSITIVE, $$BOLD, $$ITALIC)</code></p>
    <p>Nota: Esta expresión no se admite en Workfront Planning.</p></td> 
@@ -532,30 +532,30 @@ Puede crear un campo personalizado calculado que muestre un valor con formato de
    <td> <p>Convierte la cadena de entrada en PascalCase al poner en mayúscula la primera letra de cada palabra y eliminar todos los espacios. </p>
    <p>La expresión tiene el siguiente formato:</p>
    <p><code>PASCAL(string) </code></p>
-   <p>Por ejemplo, "hello world" se convierte en "HelloWorld"</p> 
+   <p>Por ejemplo, “hello world” se convierte en “HelloWorld”.</p> 
    </td> 
   </tr>
   <tr> 
-   <td><strong>ELIMINAR ACENTOS</strong> </td> 
+   <td><strong>REMOVEACCENTS</strong> </td> 
    <td> <p>Elimina las marcas diacríticas de todos los caracteres acentuados de la cadena de entrada. </p> 
    <p>La expresión tiene el siguiente formato:</p>
    <p><code>REMOVEACCENTS(string)</code></p> 
-   <p>Por ejemplo, "Héllo world with àccénts" se convierte en "Hello world with accents". </p>
+   <p>Por ejemplo, “Héllo world with àccénts” se convierte en “Hello world with accents”. </p>
    </td> 
   </tr>
   <tr> 
    <td><strong>REPLACE</strong> </td> 
-   <td> <p>Reemplaza todas las ocurrencias de string2 por string3 en string1</p> <p>La expresión tiene el siguiente formato:</p>
+   <td> <p>Reemplaza todas las ocurrencias de string2 por string3 en string1.</p> <p>La expresión tiene el siguiente formato:</p>
 
 <p><code>REPLACE(string1, string2, string3)</code></p> </td> 
   </tr>
 
 <tr> 
-   <td><strong>PATRÓN DE REEMPLAZO</strong> </td> 
-   <td> <p>Reemplaza las coincidencias del patrón determinado por la cadena de reemplazo. </p> 
+   <td><strong>REPLACEPATTERN</strong> </td> 
+   <td> <p>Reemplaza las coincidencias del patrón proporcionado con la cadena de reemplazo. </p> 
    <p>La expresión tiene el siguiente formato:</p>
    <p><code>REPLACEPATTERN (string, pattern, replacement string)</code></p> 
-   <p>Por ejemplo, REPLACEPATTERN("foo123bar", "\d+", "_") genera la cadena "foo_bar".
+   <p>Por ejemplo, REPLACEPATTERN("foo123bar", "\d+", "_") genera la cadena “foo_bar”.
    </td> 
   </tr> 
   <tr> 
@@ -609,7 +609,7 @@ Puede crear un campo personalizado calculado que muestre un valor con formato de
 <p><code>SUBSTR({string}, number of start position, number of end position)</code></p> </td> 
   </tr> 
   <tr> 
-   <td><strong>CONMUTADOR</strong> </td> 
+   <td><strong>SWITCH</strong> </td> 
    <td> <p>Evalúa la expresión frente a una lista de valores y devuelve el resultado correspondiente al primer valor coincidente.</p>
    <p>La expresión tiene el siguiente formato:</p>
    <p><code>SWITCH(expression, value1, result1, [value2, result2], ...)</code></p>

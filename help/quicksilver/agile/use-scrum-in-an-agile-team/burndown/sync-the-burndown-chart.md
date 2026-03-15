@@ -3,13 +3,13 @@ product-area: agile-and-teams
 navigation-topic: burndown
 title: Sincronizar datos en el gráfico de evolución
 description: El gráfico de evolución se sincroniza automáticamente con los datos del proyecto o de la iteración. Si el gráfico de evolución alguna vez no está sincronizado con los datos del proyecto o la iteración, puede sincronizarlo de forma manual.
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: 39086d73-4835-4e15-8fa6-7a7efc48a38b
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '184'
-ht-degree: 93%
+ht-degree: 95%
 
 ---
 
@@ -28,7 +28,7 @@ El gráfico de evolución se sincroniza automáticamente con los datos del proye
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 

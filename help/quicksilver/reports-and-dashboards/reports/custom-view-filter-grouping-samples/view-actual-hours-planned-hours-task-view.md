@@ -4,13 +4,13 @@ product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Vista: Horas reales sobre Horas planificadas en la misma columna de una tarea Vista'
 description: En esta vista de tareas, la cantidad real de horas registradas en una tarea se muestra a lo largo de las horas planificadas para cada tarea. La variación de horas entre las horas planificadas y las reales también se muestra en una columna independiente.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: c1179283-dc2e-40d3-b8e0-4b1b79f83ad3
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '269'
-ht-degree: 53%
+ht-degree: 54%
 
 ---
 
@@ -31,7 +31,7 @@ En esta vista de tareas, la cantidad real de horas registradas en una tarea se m
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 

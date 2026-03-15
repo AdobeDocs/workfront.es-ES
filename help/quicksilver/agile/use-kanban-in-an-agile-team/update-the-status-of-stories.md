@@ -3,13 +3,13 @@ product-area: agile-and-teams;projects
 navigation-topic: use-kanban-in-an-agile-team
 title: Actualizar el estado de las historias en el Panel Kanban
 description: Puede cambiar el estado de una historia directamente desde el tablero Kanban para reflejar cómo progresan las historias.
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: fd75ab8e-08c4-4643-bc67-aada5b5c005e
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '219'
-ht-degree: 87%
+ht-degree: 89%
 
 ---
 
@@ -32,7 +32,7 @@ Puede cambiar el estado de una historia directamente desde el tablero [!UICONTRO
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 

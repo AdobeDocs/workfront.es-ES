@@ -3,13 +3,13 @@ product-area: calendars
 navigation-topic: calendars-navigation-topic
 title: Ver informes de calendario y detalles de eventos
 description: Puede ver informes de calendario y detalles de eventos que haya creado o que se hayan compartido con usted en Adobe Workfront.
-author: Jenny
+author: Courtney
 feature: Reports and Dashboards
 exl-id: db016e91-43e4-400c-ac9d-1639c7f94479
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '576'
-ht-degree: 67%
+ht-degree: 68%
 
 ---
 
@@ -28,7 +28,7 @@ Puede ver informes de calendario y detalles de eventos que haya creado o que se 
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 

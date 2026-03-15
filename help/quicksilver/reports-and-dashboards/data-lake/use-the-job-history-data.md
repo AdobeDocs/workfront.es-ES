@@ -3,10 +3,11 @@ product-area: reports and dashboards
 navigation-topic: data-connect
 title: Uso de la vista Historial de trabajos en Data Connect
 description: Con Data Connect, los administradores de Workfront pueden acceder a los registros detallados de cada trabajo de actualización de datos en la vista Historial de trabajos.
-author: Jenny
+author: Courtney
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
-source-git-commit: 05cf34fe6659c50da76d2478c6e79352346dc9a5
+exl-id: d658c3df-5fa5-4756-ac42-71d9aed481df
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '448'
 ht-degree: 0%

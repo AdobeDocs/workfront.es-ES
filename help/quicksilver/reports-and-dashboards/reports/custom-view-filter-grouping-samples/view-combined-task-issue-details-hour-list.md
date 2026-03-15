@@ -4,13 +4,13 @@ product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Ver: Detalles combinados de tareas y problemas en una lista de horas'
 description: Esta vista de horas combina las columnas de nombre de tarea y nombre de problema, así como las Horas planificadas de tarea y problema usando la etiqueta sharecol. Dado que una entrada de hora solo puede pertenecer a una tarea o a un problema, ambos objetos no pueden aparecer en la misma columna al mismo tiempo. Cada línea de la vista se rellena con la información de una tarea o de un problema.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: cf1137fd-c26a-4907-afe9-2373d3434631
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '326'
-ht-degree: 65%
+ht-degree: 66%
 
 ---
 
@@ -33,7 +33,7 @@ Para obtener más información sobre la etiqueta `sharecol`, consulte [Ver: comb
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 

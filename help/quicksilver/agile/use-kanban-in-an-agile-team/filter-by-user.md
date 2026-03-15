@@ -1,15 +1,15 @@
 ---
 product-area: agile-and-teams;projects;user-management
 navigation-topic: use-kanban-in-an-agile-team
-title: Filtrar por usuario en el Panel Kanban
+title: Filter by User on the Kanban Board
 description: Puede utilizar el filtro de un tablero Kanban para ver qué elementos de trabajo están asociados a otros usuarios y cuáles no se han asignado.
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: e6f6beda-aaf9-4053-97ed-3a48e617d8e9
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '213'
-ht-degree: 95%
+ht-degree: 96%
 
 ---
 
@@ -28,7 +28,7 @@ Puede utilitzar el filtro de un tablero [!UICONTROL Kanban] para ver qué elemen
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 

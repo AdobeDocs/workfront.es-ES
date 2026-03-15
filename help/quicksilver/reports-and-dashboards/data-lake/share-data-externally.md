@@ -2,19 +2,19 @@
 content-type: overview;reference
 product-area: reports and dashboards
 navigation-topic: data connect
-title: Establezca una conexión con Workfront Data Connect
+title: Establecimiento de una conexión con Workfront Data Conect
 description: Workfront Data Connect le permite utilizar los datos de Workfront de su organización con herramientas de inteligencia empresarial o almacenarlos en un almacén de datos externo.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 8348f5ff-c1f8-4608-b683-15f6407c6128
-source-git-commit: 7764e512a3fb30a89e6645a4d8544a5fcffee231
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '570'
-ht-degree: 54%
+ht-degree: 57%
 
 ---
 
-# Establezca una conexión con Workfront Data Connect
+# Establecimiento de una conexión con Workfront Data Conect
 
 Workfront Data Connect le permite utilizar los datos de Workfront de su organización con herramientas de inteligencia empresarial o almacenarlos en un almacén de datos externo.
 
@@ -50,7 +50,7 @@ La mayoría de los productos necesitarán la siguiente información sobre su lag
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td><p>Ultimate</p>
     <p>Workflow Ultimate</p>
    </td>

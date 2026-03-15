@@ -5,11 +5,11 @@ product-area: system-administration;workfront-integrations
 navigation-topic: best-practices-catalog
 title: Información general de modelos
 description: Los modelos son conjuntos de objetos de Workfront que abordan casos de uso comunes en Workfront. Puede descargar e instalar un modelo y, a continuación, configurar los objetos para su caso de uso específico.
-author: Jenny
+author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: 4c487598-2066-4507-8dfe-1a54d38f5eea
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '834'
 ht-degree: 99%

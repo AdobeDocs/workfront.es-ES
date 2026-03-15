@@ -2,15 +2,15 @@
 content-type: reference
 product-area: user-management;agile-and-teams
 navigation-topic: people-teams-and-groups
-title: Administrar solicitudes de trabajo y equipo
+title: Administrar solicitudes de trabajo y de equipo
 description: Una solicitud representa una asignación de tarea o problema pendiente. Las solicitudes de trabajo se realizan a individuos y las solicitudes de equipo se realizan a equipos.
-author: Jenny
+author: Courtney
 feature: People Teams and Groups, Work Management
 exl-id: ef96e520-0d5f-4180-a27a-1fbbffff8f2b
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '486'
-ht-degree: 95%
+ht-degree: 96%
 
 ---
 
@@ -31,14 +31,14 @@ Una solicitud representa una asignación de tarea o problema pendiente. Las soli
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td>Cualquiera</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licencia de Adobe Workfront</td> 
    <td>
    <p>Para asignar o trabajar en una solicitud:
-   <p>Ligero o superior</p>
+   <p>Luz o superior</p>
   <p>Revisión o superior</p>
    <p>Para reasignar una solicitud:
    <p>Estándar</p>

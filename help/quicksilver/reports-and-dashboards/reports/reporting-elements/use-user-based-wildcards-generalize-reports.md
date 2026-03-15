@@ -3,13 +3,13 @@ product-area: reporting
 navigation-topic: reporting-elements
 title: Usar comodines basados en el usuario para generalizar informes
 description: Puede generalizar un informe utilizando comodines en lugar de información específica al crear determinados elementos de informes.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 216e2869-b4f8-4cc7-9497-a12ebe00fe49
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '448'
-ht-degree: 96%
+ht-degree: 97%
 
 ---
 
@@ -34,7 +34,7 @@ Puede utilizar comodines basados en usuarios al crear los siguientes elementos d
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
@@ -46,7 +46,7 @@ Puede utilizar comodines basados en usuarios al crear los siguientes elementos d
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso</td> 
-   <td> <p>Acceso de edición a filtros, vistas y agrupaciones</p> <p>Editar el acceso a los informes, paneles y calendarios para editar los elementos de un informe</p>
+   <td> <p>Acceso de edición a filtros, vistas y agrupaciones</p> <p>Editar el acceso a informes, paneles y calendarios para editar los elementos de informes de un informe</p>
    </td> 
   </tr> 
   <tr> 

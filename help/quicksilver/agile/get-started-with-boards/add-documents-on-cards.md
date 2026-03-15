@@ -3,13 +3,13 @@ product-area: agile-and-teams
 navigation-topic: get-started-with-boards
 title: Agregar documentos a las tarjetas
 description: Puede añadir documentos a las tarjetas conectadas en los paneles de Adobe Workfront.
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: d68c1eec-c527-44b0-bdc5-ca3b7731b648
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '263'
-ht-degree: 96%
+ht-degree: 98%
 
 ---
 
@@ -30,7 +30,7 @@ Puede añadir documentos a las tarjetas conectadas en los paneles de Adobe Workf
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 

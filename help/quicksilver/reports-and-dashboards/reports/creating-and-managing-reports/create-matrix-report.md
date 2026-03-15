@@ -3,10 +3,10 @@ product-area: reporting
 navigation-topic: create-and-manage-reports
 title: Creación de un informe de matriz
 description: Los informes de matriz presentan la información de resumen en un formato de tabla agregado, lo que hace más fácil su visualización que si se mostrara en una lista como en un informe tradicional.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 714f2802-089f-4a41-8205-f397cf474a24
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '1083'
 ht-degree: 98%
@@ -41,7 +41,7 @@ Sin embargo, otras columnas (como Estado) se pueden seguir mostrando en el infor
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
@@ -126,8 +126,9 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
      >   * Los campos de datos personalizados para valores numéricos y de moneda agregan todas las tareas: principales, secundarias, principales de principales y tareas independientes. Si ha creado el informe de matriz para mostrar las horas planificadas o las horas reales en la columna **Valor**, tenga en cuenta que la información de horas o costes de cualquier objeto principal (como las tareas principales) no se muestra en el informe de matriz. Para ver las horas de los objetos principales, debe consultar la pestaña **Detalles**.
      >   
      >   
-     >**Reglas condicionales:** configure cualquier regla de formato para los valores agregados.\
+     >
 
+   **Reglas condicionales:** configure cualquier regla de formato para los valores agregados.\
    Después de añadir una regla, puede definir estilos de campo y de texto para ver cómo se muestran los campos que coinciden con esa regla. Haga clic en **Añadir regla** después de haber terminado de definir la regla y, a continuación, **Listo** para guardarla.
 
 1. Haga clic en la pestaña **Filtros** para definir la información que se mostrará en el informe.

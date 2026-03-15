@@ -2,23 +2,23 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 'Filtro: mostrar predecesoras entre proyectos incompletas'
-description: Este filtro de tareas devuelve predecesoras entre proyectos incompletas.
-author: Lisa and Jenny
+title: 'Filtro: mostrar predecesoras entre proyectos incompletos'
+description: Este filtro de tareas devuelve predecesoras incompletas entre proyectos.
+author: Lisa and Courtney
 feature: Reports and Dashboards
 exl-id: 7ee2432c-1d82-454e-a73a-f1f6b6a5c10d
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '199'
-ht-degree: 33%
+ht-degree: 39%
 
 ---
 
-# Filtro: mostrar predecesoras entre proyectos incompletas
+# Filtro: mostrar predecesoras entre proyectos incompletos
 
 <!--Audited: 10/2024-->
 
-Este filtro de tareas devuelve predecesoras entre proyectos incompletas.
+Este filtro de tareas devuelve predecesoras incompletas entre proyectos.
 
 ## Requisitos de acceso
 
@@ -29,7 +29,7 @@ Este filtro de tareas devuelve predecesoras entre proyectos incompletas.
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
@@ -53,15 +53,15 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
 
 +++
 
-## Filtrar predecesoras entre proyectos
+## Filtrar predecesores entre proyectos
 
 Para aplicar este filtro:
 
-1. Ir a una lista de tareas o a un informe de tareas.
-1. En el menú desplegable **Filtro**, seleccione **Nuevo filtro**.
+1. Vaya a una lista de tareas o a un informe de tareas.
+1. En el menú desplegable **Filtro**, selecciona **Nuevo filtro**.
 
-1. (Condicional) Haga clic en **Modo de texto** si accedió al filtro desde una lista o en **Cambiar al modo de texto** si accedió al filtro desde un informe.
+1. (Condicional) Haga clic en **Modo de texto** si ha accedido al filtro desde una lista o en **Cambiar al modo de texto** si ha accedido al filtro desde un informe.
 1. En la nueva área, pegue el siguiente código:
    <pre>predecesorsMM:projectID=FIELD:projectID<br>predecesorsMM:projectID_Mod=ne<br>percentComplete=100<br>percentComplete_Mod=ne</pre>
 
-1. (Condicional) Haga clic en **Guardar filtro** si accedió al filtro desde un informe, o en **Aplicar** y después en **Guardar como nuevo** si accedió al filtro desde una lista de tareas.
+1. (Condicional) Haga clic en **Guardar filtro** si ha accedido al filtro desde un informe o en **Aplicar** y, a continuación, en **Guardar como nuevo** si ha accedido al filtro desde una lista de tareas.

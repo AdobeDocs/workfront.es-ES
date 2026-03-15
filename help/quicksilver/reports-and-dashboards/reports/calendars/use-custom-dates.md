@@ -3,10 +3,10 @@ product-area: calendars
 navigation-topic: calendars-navigation-topic
 title: Uso de campos de fecha personalizados en un informe de calendario
 description: Un informe de calendario es un informe dinámico que proporciona una representación visual del trabajo. Puede utilizar campos de fecha personalizados en un informe de calendario para tareas, problemas y proyectos.
-author: Jenny
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 40cc8628-7641-41ce-b8e5-7f5ed5ad36c7
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '630'
 ht-degree: 58%
@@ -32,7 +32,7 @@ Un informe de [!UICONTROL calendario] es un informe dinámico que proporciona un
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 

@@ -4,17 +4,17 @@ product-area: agile-and-teams
 navigation-topic: burndown
 title: Resumen del gráfico de evolución de Agile
 description: El gráfico de evolución proporciona una representación visual de cómo las historias progresan a través de la iteración o el proyecto La tasa de evolución real se mide comparándola con la tasa de evolución ideal para la iteración o la cronología del proyecto.
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: 414e3315-35ed-4aa4-a2d8-be42ec585f29
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '970'
 ht-degree: 0%
 
 ---
 
-# Resumen del gráfico de evolución Agile
+# Información general del gráfico de evolución Agile
 
 El gráfico de evolución proporciona una representación visual de cómo las historias progresan a través de la iteración. La tasa de evolución real se mide comparándola con la tasa de evolución ideal para la cronología de la iteración.
 

@@ -3,13 +3,13 @@ product-area: reporting
 navigation-topic: create-and-manage-reports
 title: Enviar un informe en el entorno de zona protegida de vista previa
 description: 'La información de esta página hace referencia a una funcionalidad que solo está disponible en los entornos de zona protegida de vista previa y de actualización personalizada. Esta funcionalidad no está disponible en el entorno de producción. '
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 568360df-bec9-4767-8b5a-32a294d05d47
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '617'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -42,7 +42,7 @@ Según la ubicación en la que programe los informes, la funcionalidad de envío
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 

@@ -4,13 +4,13 @@ product-area: reporting;user-management
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Ver: Compañía y grupo de inicio del usuario asignado'
 description: Esta vista de tarea muestra la compañía y el grupo de inicio del propietario principal de la tarea. Son valores que no están disponibles en la interfaz estándar, pero a los que se puede acceder mediante el modo de texto.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 818c1f3a-4e82-4dc3-af86-4f9dcf5c11a4
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '248'
-ht-degree: 68%
+ht-degree: 70%
 
 ---
 
@@ -31,7 +31,7 @@ Esta vista de tarea muestra la compañía y el grupo de inicio del propietario p
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 

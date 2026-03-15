@@ -4,10 +4,10 @@ product-area: calendars
 navigation-topic: calendars-navigation-topic
 title: Resumen de informes de calendario
 description: Un informe de calendario es un informe dinámico que proporciona una representación visual del trabajo. Puede visualizar información sobre fechas en un informe de calendario para tareas, problemas y proyectos.
-author: Jenny
+author: Courtney
 feature: Reports and Dashboards
 exl-id: c65cf8ab-e37f-42a4-9a81-70962629e9ba
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '352'
 ht-degree: 99%

@@ -2,15 +2,15 @@
 filename: configure-backlog-workstream-board.md
 content-type: reference
 navigation-topic: boards
-title: Configurar el registro de pendientes en un panel de flujo de trabajo
+title: Configurar el registro atrasado en un panel de trabajo
 description: Puede elegir mostrar una columna de registro de asuntos pendientes en un tablero de una secuencia de trabajo y definir una consulta para las tarjetas que se incorporan al registro de asuntos pendientes del tablero desde la lista de tarjetas de la secuencia de trabajo.
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: fd2f6eeb-a565-4461-a153-0504ad3c07d7
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '487'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -37,7 +37,7 @@ La columna de registro de asuntos pendientes y la consulta no están disponibles
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 

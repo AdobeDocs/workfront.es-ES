@@ -4,11 +4,11 @@ product-area: system-administration;workfront-integrations
 navigation-topic: administration-and-setup
 title: Lista de modelos disponibles
 description: Los administradores del sistema tienen disponibles los modelos [!DNL Adobe Workfront] enumerados para instalarlos.
-author: Jenny
+author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: a5cdcb89-71c0-43f0-a5cf-dc99fac542ba
-source-git-commit: 08305c9e82b7ba56a1a03fa351e643916bbfe44e
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '2143'
 ht-degree: 80%

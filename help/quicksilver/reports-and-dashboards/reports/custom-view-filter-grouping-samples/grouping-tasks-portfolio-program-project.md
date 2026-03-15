@@ -4,13 +4,13 @@ product-area: reporting;projects;portfolios;programs
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Agrupación: Tareas por Portfolio, Programa y Proyecto'
 description: Utilice esta agrupación de tareas para agrupar tareas por el portafolio, por programa y luego por el proyecto con el que están asociadas.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 8fdad6a1-54b3-4d3e-8f21-4f2efc2dc27a
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '200'
-ht-degree: 49%
+ht-degree: 51%
 
 ---
 
@@ -31,7 +31,7 @@ Utilice esta agrupación de tareas para agrupar tareas por el portafolio, por pr
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 

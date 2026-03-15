@@ -2,15 +2,15 @@
 content-type: reference
 product-area: reporting;projects;portfolios;programs
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 'Ver: Mostrar Información de Programa y Portfolio en una Vista de Tareas'
+title: 'View: Display Program and Portfolio Information in a Task View'
 description: Esta vista de tareas muestra el programa y el portafolio asociados al proyecto de la tarea. Esta información no está disponible en Report Builder al crear una vista de tareas. Esta información solo está disponible en modo de texto.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: cdd5a1e9-3cbf-4951-b803-fca544b2519a
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '270'
-ht-degree: 74%
+ht-degree: 75%
 
 ---
 
@@ -20,7 +20,7 @@ Esta vista de tareas muestra el programa y el portafolio asociados al proyecto d
 
 La vista también proporciona vínculos al proyecto, programa y portafolio desde una lista de tareas.
 
-![Ver programa y portafolio](assets/view--program-and-portfolio-350x116.png)
+![View program and portfolio](assets/view--program-and-portfolio-350x116.png)
 
 ## Requisitos de acceso
 
@@ -31,14 +31,14 @@ La vista también proporciona vínculos al proyecto, programa y portafolio desde
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licencia de Adobe Workfront</td> 
    <td> 
-   <p>Colaborador o solicitud para modificar un filtro </p>
-   <p>Estándar o Plan para modificar un informe</p>
+   <p>Contributor or Request to modify a filter </p>
+   <p>Standard or Plan to modify a report</p>
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso</td> 
@@ -60,8 +60,8 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
 1. En el menú desplegable **Vista**, seleccione **Nueva vista**.
 
 1. En el área **Vista previa de columnas**, elimine todas las columnas excepto una.
-1. Haga clic en el encabezado de la columna restante, haga clic en **Cambiar al modo de texto** y, a continuación, en **Editar modo de texto**.
-1. Elimine el texto que encuentre en el cuadro **Editar modo de texto** y reemplácelo por el siguiente código:
+1. Click the header of the remaining column, click **Switch to Text Mode**, then **Edit Text Mode**.
+1. Remove the text you find in the **Edit Text Mode** box, and replace it with the following code:
 
    ```
    column.0.descriptionkey=name
@@ -132,4 +132,4 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
    column.3.width=150 
    ```
 
-1. Haga clic en **Listo** > **Guardar vista**.
+1. Click **Done** > **Save View**.

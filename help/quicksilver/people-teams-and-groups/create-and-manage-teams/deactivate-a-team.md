@@ -3,17 +3,17 @@ product-area: agile-and-teams
 navigation-topic: create-and-manage-teams
 title: Desactivar o eliminar un equipo
 description: Puede desactivar los equipos que ya no utilice y conservar los datos históricos asociados. Los administradores de Adobe Workfront pueden reactivar un equipo en cualquier momento desde el área Equipos de la Configuración.
-author: Jenny
+author: Courtney
 feature: People Teams and Groups
 exl-id: 634e4c0f-aa1d-4197-92e3-54f414344ac0
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '444'
-ht-degree: 68%
+ht-degree: 70%
 
 ---
 
-# Desactivar o eliminar un equipo
+# Desactivación o eliminación de un equipo
 
 Puede desactivar los equipos que ya no utilice y conservar los datos históricos asociados. Los administradores de [!DNL Adobe Workfront] pueden reactivar un equipo en cualquier momento desde el área Equipos en Configuración. Si desactiva un equipo, este deja de mostrarse en las siguientes áreas:
 
@@ -51,7 +51,7 @@ Los equipos desactivados no aparecen cuando buscas un equipo, pero se mostrarán
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>paquete de Adobe Workfront</p> </td> 
+   <td role="rowheader"> <p>Paquete de Adobe Workfront</p> </td> 
    <td>Cualquiera</td> 
   </tr> 
   <tr> 

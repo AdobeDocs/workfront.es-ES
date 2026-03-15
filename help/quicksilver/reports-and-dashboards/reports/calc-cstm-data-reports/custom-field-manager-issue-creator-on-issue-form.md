@@ -4,13 +4,13 @@ product-area: reporting
 navigation-topic: calculate-custom-data-reports
 title: 'Ejemplo del campo personalizado calculado: mostrar el administrador del creador de un problema en el formulario personalizado del problema'
 description: Con un campo personalizado calculado, puede mostrar el nombre del administrador del creador de un problema en un formulario personalizado adjunto al problema. Con la misma instrucción, puede generar campos calculados similares para proyectos, problemas y otros objetos.
-author: Jenny
+author: Courtney
 feature: Reports and Dashboards
 exl-id: f501ce1a-7a80-458b-9b30-2292426c9262
-source-git-commit: a1ead6d0c1c85bfbe6d7302506743db8d8b3e205
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '334'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -33,7 +33,7 @@ Con un campo personalizado calculado, puede mostrar el nombre del administrador 
  <col> 
  <tbody> 
   <tr> 
-   <td> <p>paquete de Adobe Workfront</p> </td> 
+   <td> <p>Paquete de Adobe Workfront</p> </td> 
    <td><p>Cualquiera</p></td> 
   </tr> 
   <tr> 

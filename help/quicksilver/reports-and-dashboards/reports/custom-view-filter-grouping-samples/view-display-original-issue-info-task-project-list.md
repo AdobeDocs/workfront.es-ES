@@ -2,31 +2,31 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Ver: mostrar la información original del problema en las listas de tareas o proyectos"
-description: Puede mostrar información del problema original en una vista de listas de tareas y proyectos, una vez que el problema se haya convertido a las tareas y proyectos de la lista.
-author: Nolan
+title: 'Ver: Muestra la información original del problema en las listas de tareas o proyectos'
+description: Una vez que el problema original se haya convertido a las tareas y proyectos de la lista, se puede mostrar información de este en una vista de listas de tareas y proyectos.
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 235156b6-a9b6-484e-b126-54874da705c8
-source-git-commit: 6405c01c8b1d842a4175f9caa18a7ed31316a3a1
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '134'
-ht-degree: 5%
+ht-degree: 85%
 
 ---
 
 # Ver: mostrar la información original del problema en listas de tareas o proyectos
 
-Puede mostrar la siguiente información del problema original en una vista de listas de tareas y proyectos, una vez que el problema se haya convertido a las tareas y proyectos de la lista:
+Una vez que el problema original se haya convertido a las tareas y proyectos de la lista, se puede mostrar la siguiente información en una vista de listas de tareas y proyectos:
 
 * Nombre de problema convertido
 * Fecha de entrada de problema convertido
-* Nombre del creador del problema convertido
+* Nombre de generador de problema convertido
 
-Para obtener información sobre cómo crear una vista con Report Builder estándar, consulte [Información general sobre vistas en Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+Para obtener más información sobre cómo crear una vista con el generador de informes estándar, consulte [Información general sobre vistas en Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
 ![task_and_project_list_with_original_issue_info.png](assets/task-and-project-list-with-original-issue-info-350x59.png)
 
-Para obtener más información acerca de cómo incluir información adicional sobre problemas en proyectos y listas de tareas, consulte también [Ver: detalles del problema de origen de tareas y proyectos](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-originating-issue-details-tasks-projects.md).
+Para obtener más información sobre la inclusión de información adicional acerca de problemas en proyectos y listas de tareas, consulte también [Vista: detalles del problema de origen de tareas y proyectos](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-originating-issue-details-tasks-projects.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

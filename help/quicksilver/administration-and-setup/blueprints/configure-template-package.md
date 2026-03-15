@@ -4,11 +4,11 @@ product-area: system-administration;workfront-integrations
 navigation-topic: best-practices-catalog
 title: Configurar un modelo
 description: Puede configurar los detalles de la plantilla de proyecto o la estructura organizativa antes de instalar el modelo.
-author: Jenny
+author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: df10bc8f-b980-4c61-ae6d-bcea03103738
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '1841'
 ht-degree: 97%
@@ -28,7 +28,7 @@ Puede configurar los detalles del modelo antes de instalarlo. Los tipos de model
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td>Cualquiera</td> 
   </tr> 
   <tr> 

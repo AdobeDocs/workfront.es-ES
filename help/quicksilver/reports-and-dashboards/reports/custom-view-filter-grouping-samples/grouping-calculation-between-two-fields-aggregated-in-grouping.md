@@ -5,13 +5,13 @@ keywords: calculados,agregados,avanzados,vistas
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Agrupación: Muestra el resultado de la agregación de varios valores calculados en una agrupación'
 description: Puede utilizar el modo de texto en una columna para mostrar un cálculo entre dos campos en la vista de un informe o una lista. Cada línea muestra el cálculo para cada objeto en el informe o la lista.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: e67c0b10-af9f-4657-8f99-8b63ae3c0865
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '530'
-ht-degree: 82%
+ht-degree: 83%
 
 ---
 
@@ -34,7 +34,7 @@ Puede mostrar el valor agregado de varios elementos de vista calculados en la mi
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 

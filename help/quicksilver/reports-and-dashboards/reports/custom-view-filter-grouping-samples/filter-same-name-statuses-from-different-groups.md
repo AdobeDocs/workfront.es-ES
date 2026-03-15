@@ -4,13 +4,13 @@ product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Filtrar: Muestra los elementos por estados del mismo nombre cuando los estados están asociados a grupos diferentes'
 description: Puede tener un estado de tarea asignado al grupo A denominado Nuevo estado con la clave de tres letras NST. Es posible que tenga otro estado de tarea asignado al grupo B, también denominado Nuevo estado con la clave de tres letras NES. Aunque los nombres de los dos estados pueden ser idénticos, el código de tres letras siempre es único. Para obtener más información sobre los estados de grupo, consulte Crear o editar un estado de grupo.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 8ddcd8b1-44a9-4341-80c7-76ba70d2953b
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '472'
-ht-degree: 63%
+ht-degree: 64%
 
 ---
 
@@ -33,7 +33,7 @@ Con el generador de filtros, no se puede identificar entre los dos estados que t
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 

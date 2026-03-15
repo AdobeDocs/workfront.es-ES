@@ -1,19 +1,19 @@
 ---
 product-area: Canvas Dashboards
 navigation-topic: report-types
-title: Cambiar el nombre o la descripción de un panel de lienzo
+title: Cambio del nombre o la descripción de un panel de lienzo
 description: Puede editar el nombre o la descripción de un panel de lienzo una vez que se haya creado.
-author: Courtney and Jenny
+author: Courtney
 feature: Reports and Dashboards
 exl-id: e768de3d-ec07-40bd-a7d8-39252e6583c0
-source-git-commit: ed5a8725442a0b3de993a4e8f47280bfc7d88160
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '324'
-ht-degree: 18%
+ht-degree: 24%
 
 ---
 
-# Cambiar el nombre o la descripción de un panel de lienzo
+# Cambio del nombre o la descripción de un panel de lienzo
 
 >[!IMPORTANT]
 >
@@ -41,7 +41,7 @@ Cualquier cambio que realice en un tablero afectará a todos los usuarios que te
 </col> 
 <tbody> 
 <tr> 
-   <td role="rowheader"><p>paquete de Adobe Workfront</p></td> 
+   <td role="rowheader"><p>Paquete de Adobe Workfront</p></td> 
    <td> 
 <p>Cualquiera </p> 
    </td> 

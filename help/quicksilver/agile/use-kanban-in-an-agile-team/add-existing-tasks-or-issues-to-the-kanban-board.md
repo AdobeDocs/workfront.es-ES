@@ -3,10 +3,10 @@ product-area: agile-and-teams;projects
 navigation-topic: use-kanban-in-an-agile-team
 title: Agregar tareas o problemas existentes al Panel Kanban
 description: Puede agregar cualquier tarea o problema a un tablero Kanban si tiene acceso de Administración al proyecto.
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: 5f94a451-8530-478f-85c2-41bc15c22dd1
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '480'
 ht-degree: 27%

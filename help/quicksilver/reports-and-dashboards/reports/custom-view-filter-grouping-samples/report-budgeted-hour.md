@@ -4,10 +4,10 @@ product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Informe: Hora presupuestada'
 description: 'Informe: Hora presupuestada'
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 2c0b60a6-fae4-4b29-8243-2a7f7d1f574b
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '656'
 ht-degree: 72%
@@ -28,7 +28,7 @@ Si desea compartir información de horas presupuestadas con otros usuarios que n
 >
 >Las horas presupuestadas por lo general se actualizan cada hora (con poca frecuencia, puede tardar un máximo de tres horas) en la base de datos de Adobe Workfront. Actualizar el informe no actualiza por fuerza la información horaria que contiene. Puede ver el tiempo transcurrido desde la última actualización en la esquina superior derecha de todos los informes Hora presupuestada. Al actualizar el informe, se actualiza la información que contiene solo cuando ha transcurrido más de una hora desde la última actualización.
 >
->![Advertencia de sincronización de tiempo de informe de hora presupuestada](assets/budgeted-hour-report-time-sync-warning-350x74.png)
+>![Advertencia de sincronización horaria del informe de horas presupuestadas](assets/budgeted-hour-report-time-sync-warning-350x74.png)
 
 ## Requisitos de acceso
 
@@ -39,7 +39,7 @@ Si desea compartir información de horas presupuestadas con otros usuarios que n
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
@@ -65,13 +65,13 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
 
 ## Generación de un informe Hora presupuestada
 
-1. Haga clic en el icono **Menú principal** ![Icono del menú principal](assets/main-menu-icon.png) en la esquina superior derecha, o en el icono **Menú principal** ![Líneas del menú principal](assets/lines-main-menu.png) en la esquina superior izquierda, si está disponible, y luego haga clic en **Informes**.
+1. Haga clic en el icono **Menú principal** ![icono Menú principal](assets/main-menu-icon.png) en la esquina superior derecha, o en el icono **Menú principal** ![Líneas del menú principal](assets/lines-main-menu.png) en la esquina superior izquierda, si está disponible, y luego haga clic en **Informes**.
 
 1. Haga clic en **Nuevo informe** > **Más** > **Hora presupuestada**.
 
    La vista predeterminada se aplica al informe.
 
-1. (Opcional) Para facilitar la lectura del informe, haga clic en **Bud. Horas** columna, luego **Cambiar al modo de texto**, luego haga clic en **Editar modo de texto**.
+1. (Opcional) Para facilitar la lectura del informe, haga clic en **Bud. Columna Horas**, luego **Cambiar a modo de texto** y, a continuación, haz clic en **Editar modo de texto**.
 1. Cambie la línea `valuefield` a `valueexpreesion` e introduzca la expresión de redondeo.
 
    Esto redondea el número de horas presupuestadas al número de decimales que especifique.
@@ -84,9 +84,9 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
 
    Haga clic en la pestaña **Agrupaciones** y, después, siga uno o varios de estos procedimientos:
 
-   * Haga clic en **Agregar agrupación** y empiece a escribir &quot;Nombre de proyecto&quot;. A continuación, selecciónelo cuando aparezca en la lista.
-   * Haga clic en **Agregar agrupación** y empiece a escribir &quot;Nombre de rol&quot;. A continuación, selecciónelo cuando aparezca en la lista.
-   * Haga clic en **Agregar agrupación** y empiece a escribir &quot;Fecha de asignación&quot;, selecciónela cuando aparezca en la lista y, a continuación, seleccione el periodo de tiempo por el que desea agrupar desde el campo **Agrupar fechas por**.
+   * Haga clic en **Agregar agrupación** y empiece a escribir &quot;Nombre del proyecto&quot;; a continuación, selecciónelo cuando aparezca en la lista.
+   * Haga clic en **Agregar agrupación** y empiece a escribir &quot;Nombre de función de trabajo&quot; y, a continuación, selecciónela cuando aparezca en la lista.
+   * Haga clic en **Agregar agrupación** y empiece a escribir &quot;Fecha de asignación&quot;, selecciónela cuando aparezca en la lista y, a continuación, seleccione el período de tiempo por el que desea agrupar en el campo **Agrupar fechas por**.
 
 1. (Opcional) Haga clic en **Filtros** para agregar filtros al informe.
 1. (Opcional) Haga clic en **Gráfico** para agregar un gráfico al informe.

@@ -4,12 +4,12 @@ navigation-topic: use-lists
 title: Editar elementos en línea en una lista en  [!DNL Adobe Workfront]
 description: Puede editar objetos en línea cuando se muestren en una lista o un informe. Cuando se edita la información sobre los objetos mostrados en una lista o un informe, el objeto se actualiza inmediatamente.
 feature: Get Started with Workfront
-author: Nolan
+author: Courtney
 exl-id: a94b5aaf-71de-4fcd-946b-459ca3edf7e4
-source-git-commit: f0b3b8aa64fa0b03a196bbcc2bdd037eeeb0f89e
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '696'
-ht-degree: 95%
+ht-degree: 96%
 
 ---
 
@@ -44,7 +44,7 @@ Aunque la mayoría de los objetos mostrados en listas o informes se pueden edita
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 

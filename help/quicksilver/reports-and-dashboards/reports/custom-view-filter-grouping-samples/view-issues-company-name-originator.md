@@ -4,13 +4,13 @@ product-area: reporting;user-management
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Ver: Problemas con el nombre de la compañía del creador'
 description: Esta vista de problemas muestra el nombre de la compañía asociada al usuario que envió el problema.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: e628f7cf-4a7b-4125-bea6-348c72477bd7
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '211'
-ht-degree: 59%
+ht-degree: 60%
 
 ---
 
@@ -31,7 +31,7 @@ Esta vista de problemas muestra el nombre de la compañía asociada al usuario q
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 

@@ -3,13 +3,13 @@ product-area: reporting
 navigation-topic: create-and-manage-reports
 title: Añadir una indicación a un informe
 description: Los filtros y los indicadores son similares en el sentido de que ambos restringen la cantidad de información que se muestra en un informe.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: b4058fb3-7360-474f-8be1-1c6b584749b0
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '1361'
-ht-degree: 76%
+ht-degree: 77%
 
 ---
 
@@ -46,7 +46,7 @@ Un filtro puede indicar a Adobe Workfront que muestre solo las horas introducida
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 

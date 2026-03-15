@@ -2,15 +2,15 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 'Ver: Muestra la relación principal-secundario en una tarea sangrando las tareas'
+title: 'Ver: Mostrar la relación principal-secundario en una tarea sangrando las tareas'
 description: Puede mantener la distinción de relaciones principal-secundaria en una lista de tareas exportada añadiendo una vista personalizada a la lista de tareas y asegurándose de que esta vista esté seleccionada antes de exportar la lista.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 4987501f-a1d9-47cd-bfbe-83acfc225204
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '239'
-ht-degree: 77%
+ht-degree: 78%
 
 ---
 
@@ -31,7 +31,7 @@ Puede mantener la distinción de relaciones principal-secundaria en una lista de
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
@@ -61,7 +61,7 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
 1. Vaya al proyecto con la lista de tareas que desee exportar.
 1. Haga clic en el menú desplegable **Vista** y seleccione **Nueva vista**.
 1. Haga clic en el encabezado de columna **Nombre de la tarea**.
-1. Seleccione **Cambiar al modo de texto** en la esquina superior derecha.
+1. Seleccione **Cambiar a modo de texto** en la esquina superior derecha.
 1. Haga clic en **Editar modo de texto** y quite todo el texto existente.
 1. Pegue el siguiente texto:
 
@@ -76,4 +76,4 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
    valueformat=HTML
    ```
 
-1. Haga clic en **Listo** > **Guardar vista**.
+1. Haga clic en **Hecho** > **Guardar vista**.

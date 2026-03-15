@@ -5,14 +5,14 @@ product-area: system-administration;workfront-integrations
 navigation-topic: best-practices-catalog
 title: Instalar un modelo
 description: Instale un modelo en el entorno de producción o un entorno de zona protegida.
-author: Jenny
+author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: 546e19ab-dc50-4d23-b5f6-31bde1c82b6a
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '475'
-ht-degree: 74%
+ht-degree: 75%
 
 ---
 
@@ -31,7 +31,7 @@ Instale un modelo en el entorno de producción o un entorno de zona protegida.
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td>Cualquiera</td> 
   </tr> 
   <tr> 

@@ -3,14 +3,14 @@ content-type: reference
 product-area: reporting;user-management
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Vista: días libres personales del usuario'
-description: 'Ver: Tiempo libre personal del usuario'
-author: Nolan
+description: 'Ver: Tiempo de espera personal del usuario desactivado'
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 9b55b302-5cdc-4437-9ce4-a15b5b43dccb
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '239'
-ht-degree: 83%
+ht-degree: 84%
 
 ---
 
@@ -33,14 +33,14 @@ Puede generar un informe de días libres para capturar la información de los d�
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licencia de Adobe Workfront</td> 
    <td> 
-   <p>Colaborador o solicitud para modificar una vista </p>
-   <p>Estándar o Plan para modificar un informe</p>
+   <p>Colaborador o Solicitud de modificación de una vista </p>
+   <p>Estándar o plan para modificar un informe</p>
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso</td> 
@@ -59,7 +59,7 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
 
 ## Ver días libres personales del usuario
 
-1. Haga clic en el icono **Menú principal** ![Icono del menú principal](assets/main-menu-icon.png) en la esquina superior derecha y luego haga clic en **Informes > Nuevo informe**.
+1. Haga clic en el icono **Menú principal** ![Main Menu icon](assets/main-menu-icon.png) en la esquina superior derecha y, a continuación, haga clic en **Reports > New Report**.
 1. En el menú desplegable, seleccione **Días libres**.
 1. Haga clic en **Guardar + Cerrar**.
 

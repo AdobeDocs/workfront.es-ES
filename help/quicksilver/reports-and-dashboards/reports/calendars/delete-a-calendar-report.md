@@ -3,13 +3,13 @@ product-area: calendars
 navigation-topic: calendars-navigation-topic
 title: Eliminar un informe de calendario
 description: Puede eliminar un calendario que sea suyo o que otros hayan compartido con usted. Una vez eliminado, el calendario deja de ser accesible para los usuarios con los que lo ha compartido.
-author: Jenny
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 6208442e-21af-4cd1-ad55-52215bd4d959
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '188'
-ht-degree: 76%
+ht-degree: 78%
 
 ---
 
@@ -30,7 +30,7 @@ No puede eliminar el calendario predeterminado a menos que tenga un calendario a
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 

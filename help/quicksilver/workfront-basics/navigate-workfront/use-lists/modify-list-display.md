@@ -3,12 +3,12 @@ navigation-topic: use-lists
 title: Modificación del modo en que se muestra una lista
 description: En  [!DNL Adobe Workfront], puede personalizar el modo en que se muestra una lista. Otros usuarios que ven la lista no ven los cambios.
 feature: Get Started with Workfront
-author: Nolan
+author: Courtney
 exl-id: 3ef7ff03-7293-4b56-9481-e89e1a47a904
-source-git-commit: f0b3b8aa64fa0b03a196bbcc2bdd037eeeb0f89e
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '706'
-ht-degree: 6%
+ht-degree: 7%
 
 ---
 
@@ -41,7 +41,7 @@ Para obtener información sobre cómo modificar la información que aparece en l
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 

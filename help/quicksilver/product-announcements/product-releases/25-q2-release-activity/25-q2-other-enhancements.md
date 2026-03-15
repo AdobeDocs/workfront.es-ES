@@ -1,18 +1,18 @@
 ---
-title: Otras mejoras durante el segundo trimestre de 2025
+title: Otras mejoras durante el periodo de tiempo de la versión del segundo trimestre de 2025
 description: Otras mejoras durante el periodo de tiempo de lanzamiento del segundo trimestre de 2025
-author: Nolan
+author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 214f0e67-1da4-4abd-b942-09889e8bd92b
-source-git-commit: d603edee0099b6ce3e4f8d3414d1b31f94209196
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '329'
-ht-degree: 10%
+ht-degree: 28%
 
 ---
 
-# Otras mejoras durante el segundo trimestre de 2025
+# Otras mejoras durante el periodo de tiempo de la versión del segundo trimestre de 2025
 
 Esta página describe las mejoras realizadas con la versión del segundo trimestre de 2025 en el entorno de vista previa. Estas mejoras estarán disponibles en el entorno de producción, como se ha indicado.
 
@@ -26,7 +26,7 @@ Para obtener una lista de todos los cambios disponibles en este punto del ciclo 
 
 Workfront ahora tiene versiones de suscripciones a eventos. La nueva versión no es un cambio en la API de Workfront, sino un cambio en la funcionalidad de suscripción de evento.
 
-La capacidad de actualizar o reducir las suscripciones a eventos garantiza que, cuando se realicen cambios en la estructura de los eventos, las suscripciones existentes no se rompan, lo que le permite probar y actualizar a la nueva versión sin interrupciones en la suscripción de evento.
+La capacidad de actualizar o de bajar de categoría las suscripciones a eventos garantiza que, cuando se realicen cambios en la estructura de los eventos, las suscripciones existentes no se rompan, lo que le permite probar y actualizar a la nueva versión sin interrupciones en la suscripción al evento.
 
 Para obtener más información sobre las diferencias entre las dos versiones, consulte el artículo [Versiones de suscripción de evento](/help/quicksilver/wf-api/general/event-subs-versioning.md).
 

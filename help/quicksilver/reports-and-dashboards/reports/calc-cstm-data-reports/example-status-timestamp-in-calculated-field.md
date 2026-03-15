@@ -2,15 +2,15 @@
 content-type: reference
 product-area: reporting
 navigation-topic: calculate-custom-data-reports
-title: 'Ejemplo del campo personalizado calculado: mostrar una marca de tiempo de estado en un formulario personalizado'
+title: 'Ejemplo de campo personalizado calculado: mostrar una marca de tiempo de estado en un formulario personalizado'
 description: El siguiente campo calculado muestra la fecha en la que el estado del objeto se marca como En curso (INP). Puede utilizar la misma información para los campos personalizados calculados para problemas, tareas o proyectos.
-author: Jenny
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 55817a68-3655-4288-8cc7-48547829c46e
-source-git-commit: a1ead6d0c1c85bfbe6d7302506743db8d8b3e205
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '341'
-ht-degree: 81%
+ht-degree: 86%
 
 ---
 
@@ -31,7 +31,7 @@ El siguiente campo calculado muestra la fecha en la que el estado del objeto se 
  <col> 
  <tbody> 
   <tr> 
-   <td> <p>paquete de Adobe Workfront</p> </td> 
+   <td> <p>Paquete de Adobe Workfront</p> </td> 
    <td><p>Cualquiera</p></td> 
   </tr> 
   <tr> 
@@ -63,7 +63,7 @@ Para añadir un campo calculado que muestre el historial de edición de un campo
 
 1. Vaya a un formulario personalizado en el que desee añadir el campo.
 1. Haga clic en **Calculado** para añadir un campo personalizado calculado al formulario.
-1. Escriba una **Etiqueta** para el campo personalizado. Por ejemplo, &quot;Campo personalizado Marca de tiempo de estado&quot;.
+1. Escriba **Label** para el campo personalizado. Por ejemplo, &quot;Campo personalizado de marca de tiempo de estado&quot;.
 1. Haga clic en **Guardar + Cerrar**.
 1. Vuelva a abrir el formulario personalizado y, a continuación, seleccione el nuevo **Campo personalizado de marca de tiempo de estado** en el formulario.
 1. En el cuadro **Cálculo**, copie y pegue el siguiente cálculo para el campo personalizado:

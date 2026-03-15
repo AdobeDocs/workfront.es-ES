@@ -3,13 +3,13 @@ product-area: agile-and-teams
 navigation-topic: get-started-with-boards
 title: Añadir etiquetas
 description: Puede añadir etiquetas a las tarjetas para mostrar visualmente que son similares. A continuación, puede filtrar por esas etiquetas para mostrar tarjetas relacionadas.
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: 0071fa0d-8164-42d2-bbc6-bd60f8e0c052
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '543'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ Puede añadir etiquetas a las tarjetas para mostrar visualmente que son similare
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
@@ -94,7 +94,7 @@ Las etiquetas de una secuencia de trabajo están disponibles para todos los tabl
 
    O
 
-   Haga clic en el menú **[!UICONTROL Más]** ![[!UICONTROL menú Más &#x200B;]](assets/more-icon-spectrum.png) de la tarjeta y seleccione **[!UICONTROL Editar]**.
+   Haga clic en el menú **[!UICONTROL Más]** ![[!UICONTROL menú Más ]](assets/more-icon-spectrum.png) de la tarjeta y seleccione **[!UICONTROL Editar]**.
 
 1. En el cuadro **[!UICONTROL Etiquetas]**, escriba el nombre de una etiqueta existente y selecciónela en los resultados de búsqueda.\
    O\

@@ -2,15 +2,15 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 'Agrupación: organizar los resultados de la lista por un valor calculado común a todos los objetos de la agrupación'
+title: 'Agrupación: Organizar resultados de lista por un valor calculado común a todos los objetos de la agrupación'
 description: Es posible que desee ver las tareas agrupadas por porcentaje completado en intervalos de 0-25, 26-50, 51-75, 75-99 y 100. Para ello, puede crear una agrupación mediante el modo de texto.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 93b743ce-7e54-4a96-933b-912e2107a84f
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '247'
-ht-degree: 81%
+ht-degree: 82%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 81%
 
 Es posible que desee ver las tareas agrupadas por porcentaje completado en intervalos de 0-25, 26-50, 51-75, 75-99 y 100. Para ello, puede crear una agrupación mediante el modo de texto.
 
-![Agrupación por valor calculado](assets/grouping-calculated-value-column-to-all-objects.png)
+![Agrupando por valor calculado](assets/grouping-calculated-value-column-to-all-objects.png)
 
 ## Requisitos de acceso
 
@@ -31,7 +31,7 @@ Es posible que desee ver las tareas agrupadas por porcentaje completado en inter
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 

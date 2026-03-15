@@ -4,10 +4,10 @@ keywords: cambiar,propietario,compartido,informe,compartir,ejecutar,usuario,acce
 navigation-topic: report-usage
 title: Creación de un informe sobre las actividades de creación de informes
 description: Al crear un informe sobre los informes, puede identificar información específica, que puede incluir si los informes se asignan a usuarios desactivados, si los informes se definen para que se ejecuten con los derechos de acceso de un usuario desactivado, si los usuarios acceden a un informe que planea eliminar, etc.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 3861ac81-d2e4-4dec-b9cd-96eee0b66a38
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '608'
 ht-degree: 97%
@@ -27,7 +27,7 @@ Al crear un informe sobre los informes, puede identificar información específi
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
@@ -53,7 +53,7 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
 
 ## Creación del informe sobre informes existentes {#create-the-report-about-existing-reports}
 
-1. Haga clic en el icono **Menú principal** ![Icono del menú principal](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront.
+1. Haga clic en el icono **Menú principal** ![icono Menú principal](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront.
 1. Haga clic en **Informes** y luego en **Nuevo informe**.
 1. En el menú desplegable **Nuevo informe**, seleccione **Informe** para crear un informe con los informes existentes.
 

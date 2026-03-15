@@ -4,10 +4,10 @@ product-area: reporting
 navigation-topic: reporting-navigation-topic
 title: Introducción a los informes
 description: Los informes proporcionan visibilidad acerca de lo que sucede con usuarios y trabajo. Con los informes, puede mostrar información sobre los objetos de Adobe Workfront.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 478512af-a47c-4488-878a-581e238e0064
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '3292'
 ht-degree: 95%
@@ -64,7 +64,7 @@ Para mejorar los informes, puede añadir los siguientes elementos:
 
 Al crear un informe, puede modificar cualquiera de estos elementos de forma individual en Report Builder.
 
-Otra forma de mejorar la relevancia de la información incluida en los informes es aplicar formato condicional a las vistas. Para obtener información sobre el uso del formato condicional, consulte [Usar formato condicional en vistas](../../../reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md).
+Otra forma de mejorar la relevancia de la información incluida en los informes consiste en aplicar formato condicional a las vistas. Para obtener información sobre el uso del formato condicional, consulte [Usar formato condicional en vistas](../../../reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md).
 
 ## Informes del sistema
 
@@ -88,7 +88,7 @@ Para obtener información sobre cómo crear informes, consulte [Crear un informe
 
 ### Requisitos previos para crear informes {#prerequisites-for-creating-reports}
 
-* Debe tener una licencia estándar o de planificación para crear sus propios informes.
+* Debe tener una licencia estándar o de plan para crear sus propios informes.
 
   Para obtener información sobre los tipos de licencia de Workfront, consulte [Información general sobre licencias](../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md) para las licencias actuales e [Información general sobre licencias nuevas](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md) para las licencias nuevas.
 
@@ -177,7 +177,7 @@ La pestaña Detalles de un informe muestra el objeto de los informes y los atrib
 >[!IMPORTANT]
 >
 >La información de la pestaña Detalles puede mostrarse de forma diferente a la de la pestaña Gráfico en función de la zona horaria.\
->Por ejemplo, un usuario de California completó una tarea a las 9:30 p.m. PST del 12 de febrero. Cuando un usuario de Nueva York ve un informe que incluye la finalización de esta tarea, la fecha de finalización real se muestra como 13 de febrero tanto en la pestaña Detalles como en los detalles del gráfico porque se completó a las 12:30 am EST del 13 de febrero. Sin embargo, en el gráfico, se incluye en la agrupación del 12 de febrero hasta que expanda el elemento de gráfico.
+>Por ejemplo, un usuario de California completó una tarea a las 9:30 pm PST el 12 de febrero. Cuando un usuario de Nueva York ve un informe que incluye esta finalización de tarea, la Fecha de finalización real aparece como 13 de febrero tanto en la ficha Detalles como en los detalles del gráfico porque se completó a las 12:30 de la mañana EST del 13 de febrero. Sin embargo, en el gráfico, se incluye en la agrupación del 12 de febrero hasta que expanda el elemento de gráfico.
 
 ### Pestaña Resumen {#summary-tab}
 
@@ -206,7 +206,7 @@ Considere la posibilidad de incluir un gráfico en sus informes para presentar i
 >[!IMPORTANT]
 >
 >Al hacer clic en un elemento del gráfico, la información expandida puede mostrarse de forma diferente a la del gráfico en función de la zona horaria.\
->Por ejemplo, un usuario de California completó una tarea a las 9:30 p.m. PST del 12 de febrero. Cuando un usuario de Nueva York ve un informe que incluye la finalización de esta tarea, la fecha de finalización real se muestra como 13 de febrero tanto en la pestaña Detalles como en los detalles del gráfico porque se completó a las 12:30 am EST del 13 de febrero. Sin embargo, en el gráfico, se incluye en la agrupación del 12 de febrero hasta que expanda el elemento de gráfico.
+>Por ejemplo, un usuario de California completó una tarea a las 9:30 pm PST el 12 de febrero. Cuando un usuario de Nueva York ve un informe que incluye esta finalización de tarea, la Fecha de finalización real aparece como 13 de febrero tanto en la ficha Detalles como en los detalles del gráfico porque se completó a las 12:30 de la mañana EST del 13 de febrero. Sin embargo, en el gráfico, se incluye en la agrupación del 12 de febrero hasta que expanda el elemento de gráfico.
 
 Para obtener información acerca de cómo crear un informe con un gráfico, consulte el artículo [Añadir un gráfico a un informe](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md).
 
@@ -325,7 +325,7 @@ Los siguientes términos se utilizan en referencia a los informes de Workfront:
   </tr> 
   <tr> 
    <td>Campos</td> 
-   <td> <p>Se refiere a los atributos de los objetos. Por ejemplo, “Estado” es un campo para Proyectos, Tareas o Problemas. “Administrador de portafolios” es un campo para el objeto Portafolio.</p> <p>También puede tener campos personalizados que ha creado usted mismo y añadido a los formularios personalizados.<br>Para obtener información sobre cómo crear formularios personalizados, consulte el artículo <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md">Crear un formulario personalizado</a>.</p> </td> 
+   <td> <p>Se refiere a los atributos de los objetos. Por ejemplo, “Estado” es un campo para Proyectos, Tareas o Problemas. “Administrador de portafolios” es un campo para el objeto Portafolio.</p> <p>También puede tener campos personalizados que ha creado usted mismo y añadido a los formularios personalizados.<br>Para obtener información sobre la creación de formularios personalizados, consulte el artículo <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md">Crear un formulario personalizado</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>Nombre de campo </td> 

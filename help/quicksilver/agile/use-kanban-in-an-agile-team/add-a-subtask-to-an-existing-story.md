@@ -1,15 +1,15 @@
 ---
 product-area: agile-and-teams;projects
 navigation-topic: use-kanban-in-an-agile-team
-title: Agregar una subtarea a una historia existente en el Panel Kanban
+title: Adición de una Subtarea a un Artículo Existente en el Tablero Kanban
 description: Revise este artículo para aprender a crear subtareas para historias existentes en el tablero Kanban.
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: c6610616-80e5-4ded-9d23-63f15536e45c
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '312'
-ht-degree: 91%
+ht-degree: 92%
 
 ---
 
@@ -38,7 +38,7 @@ Al crear subtareas para historias existentes, tenga en cuenta lo siguiente:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
@@ -48,7 +48,7 @@ Al crear subtareas para historias existentes, tenga en cuenta lo siguiente:
   </tr>
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td>Acceso de contribución o administración a la tarea en la que se encuentra la subtarea</td> 
+   <td>Contribute o Administrar el acceso a la tarea en la que se encuentra la subtarea</td> 
   </tr> 
  </tbody> 
 </table>

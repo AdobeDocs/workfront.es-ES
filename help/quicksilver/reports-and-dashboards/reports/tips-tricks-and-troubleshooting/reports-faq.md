@@ -4,10 +4,10 @@ product-area: reporting
 navigation-topic: tips-tricks-and-troubleshooting-reports
 title: Preguntas frecuentes sobre informes
 description: Preguntas frecuentes sobre informes
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 5e267d45-7922-4c0f-8530-59a8c152f625
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '1500'
 ht-degree: 86%
@@ -35,7 +35,7 @@ Las siguientes son las preguntas más frecuentes sobre los informes.
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
@@ -88,7 +88,7 @@ En función del campo Horas reales que desee utilizar para el cálculo, las fór
 
   `valueexpression=SUB(workRequired/60,actualWorkRequiredDouble)`
 
-Para obtener más información, vea [Ver horas reales](/help/quicksilver/manage-work/tasks/task-information/actual-hours.md).
+Para obtener más información, consulte [Ver horas reales](/help/quicksilver/manage-work/tasks/task-information/actual-hours.md).
 
 ## ¿Por qué no se muestra en el gráfico el valor de cada uno de los elementos de mi gráfico en un informe?
 

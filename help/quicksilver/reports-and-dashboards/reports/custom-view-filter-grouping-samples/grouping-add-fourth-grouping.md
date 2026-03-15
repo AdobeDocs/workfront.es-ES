@@ -4,13 +4,13 @@ product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Agrupación: añadir una cuarta agrupación a una lista'
 description: Puede tener 4 agrupaciones en un informe de matriz. Para obtener más información sobre los informes de matriz, consulte Creación de un informe de matriz.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 1147a47b-c6e2-496e-b202-eefeb500054e
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '249'
-ht-degree: 84%
+ht-degree: 85%
 
 ---
 
@@ -35,7 +35,7 @@ Por ejemplo, puede tener un informe de tarea que está agrupado por nombre de pr
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 

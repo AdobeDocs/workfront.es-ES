@@ -3,13 +3,13 @@ product-area: reporting
 navigation-topic: report-usage
 title: Acceso y organización de informes
 description: Los informes se pueden usar en Adobe Workfront para revisar o editar la información sobre los objetos del sistema. Puede crear sus propios informes, organizar los que cree y ver los que se han compartido con usted o de manera pública.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: a444d863-12a8-43d0-ae84-ee24863ad87b
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '469'
-ht-degree: 85%
+ht-degree: 86%
 
 ---
 
@@ -26,7 +26,7 @@ Los informes se pueden usar en Adobe Workfront para revisar o editar la informac
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 

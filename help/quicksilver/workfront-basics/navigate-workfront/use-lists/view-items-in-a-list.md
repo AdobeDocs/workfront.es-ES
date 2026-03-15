@@ -3,9 +3,9 @@ navigation-topic: use-lists
 title: Introducción a las listas en  [!DNL Adobe Workfront]
 description: Puede ver listas de objetos en  [!DNL Adobe Workfront]  para obtener información sobre ellos, como sus fechas de inicio y vencimiento, los usuarios asignados a ellos y otros objetos asociados con ellos.
 feature: Get Started with Workfront
-author: Nolan
+author: Courtney
 exl-id: d4262b8e-bbe0-4ac2-8f1f-5d32541311c8
-source-git-commit: 0c0ffbeefb0eed8d1ca2a6e68ed19b40080726df
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '2301'
 ht-degree: 72%

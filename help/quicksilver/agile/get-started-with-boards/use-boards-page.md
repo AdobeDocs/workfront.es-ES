@@ -3,13 +3,13 @@ product-area: agile-and-teams
 navigation-topic: get-started-with-boards
 title: Uso del tablero de tableros
 description: El panel de control [!UICONTROL Tableros] muestra la lista de tableros a los que tiene acceso, incluidos los tableros que ha creado y los tableros a los que se le ha añadido.
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: bb275f4f-efaf-4dcc-b184-40e015f089b6
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '815'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -42,7 +42,7 @@ Para obtener información sobre cómo crear un tablero nuevo o editar uno existe
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 

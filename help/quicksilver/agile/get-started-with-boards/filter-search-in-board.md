@@ -3,13 +3,13 @@ product-area: agile-and-teams
 navigation-topic: get-started-with-boards
 title: Filtrar y buscar en un tablero
 description: Puede filtrar un tablero para mostrar solo determinadas tarjetas.
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: 26abce82-dcd9-4865-96f4-c710f7f0a0d8
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '675'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -41,7 +41,7 @@ Cuando se aplican filtros, se muestra un indicador en el tablero ![Filtro aplica
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 

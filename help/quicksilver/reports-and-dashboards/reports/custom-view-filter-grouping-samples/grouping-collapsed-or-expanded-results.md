@@ -4,13 +4,13 @@ product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Agrupación: Indique Si los resultados de una agrupación deben contraerse o expandirse en el modo Texto'
 description: 'Agrupación: indica si los resultados de una agrupación deben contraerse o expandirse mediante el modo de texto'
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 2880e06f-34f3-47b1-9462-5a15a20d6fee
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '329'
-ht-degree: 46%
+ht-degree: 47%
 
 ---
 
@@ -45,7 +45,7 @@ También puede indicar si una agrupación debe mostrarse expandida o contraída 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 

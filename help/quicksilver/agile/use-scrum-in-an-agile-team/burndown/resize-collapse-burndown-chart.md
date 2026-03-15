@@ -1,23 +1,23 @@
 ---
 product-area: agile-and-teams
 navigation-topic: burndown
-title: Cambiar el tamaño y contraer el gráfico de evolución
-description: Puede cambiar el tamaño o contraer el gráfico de evolución para ajustar la cantidad de espacio que ocupa en el guion gráfico.
-author: Jenny
+title: Redimensionar y contraer el gráfico de activación
+description: Puede cambiar el tamaño o contraer el gráfico de desactivación para ajustar el espacio que ocupa en el tablero de artículos.
+author: Courtney
 feature: Agile
 exl-id: ad7ea883-987a-4278-8d24-7c1dd4e542a3
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '244'
-ht-degree: 38%
+ht-degree: 41%
 
 ---
 
 # Cambiar el tamaño y contraer el gráfico de evolución
 
-Puede cambiar el tamaño o contraer el gráfico de evolución para ajustar la cantidad de espacio que ocupa en el guion gráfico.
+Puede cambiar el tamaño o contraer el gráfico de desactivación para ajustar el espacio que ocupa en el tablero de artículos.
 
-Cualquier cambio que realice en el tamaño o la visibilidad del gráfico de evolución solo será visible para usted y se restablecerá cuando borre la caché del explorador.
+Los cambios que realice en el tamaño o visibilidad del gráfico desplegable sólo serán visibles para usted y se restablecerán cuando borre la caché del explorador.
 
 ## Requisitos de acceso
 
@@ -30,12 +30,12 @@ Cualquier cambio que realice en el tamaño o la visibilidad del gráfico de evol
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licencia de Adobe Workfront</td> 
-   <td> <p>Ligero o superior</p> 
+   <td> <p>Luz o superior</p> 
    <p>Revisión o superior</p> </td> 
   </tr>
  </tbody> 
@@ -45,21 +45,21 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
 
 +++
 
-## Cambiar el tamaño del gráfico de evolución
+## Cambiar el tamaño de la gráfica de descarga
 
 {{step1-to-team}}
 
 1. (Opcional) Haga clic en el icono **[!UICONTROL Cambiar equipo]** ![Cambiar icono de equipo](assets/switch-team-icon.png) y, a continuación, seleccione un nuevo equipo de [!UICONTROL Scrum] en el menú desplegable o busque un equipo en la barra de búsqueda.
 
-1. Vaya a la iteración que contiene el gráfico de evolución cuyo tamaño desea cambiar.
-1. Pase el ratón sobre la línea inferior del gráfico de evolución y arrastre el gráfico al tamaño deseado.
-   ![Cambiar el tamaño del gráfico de evolución](assets/burndown-resize.png)
+1. Vaya a la iteración que contiene el gráfico desplegable que desea cambiar el tamaño.
+1. Pasar por encima de la línea inferior del gráfico desplegable y, a continuación, arrastrar el gráfico hasta el tamaño deseado.
+   ![Redimensionar el gráfico de interrupción](assets/burndown-resize.png)
 
-## Contraer el gráfico de evolución
+## Contraer el gráfico de interrupción
 
 {{step1-to-team}}
 
 1. (Opcional) Haga clic en el icono **[!UICONTROL Cambiar equipo]** ![Cambiar icono de equipo](assets/switch-team-icon.png) y, a continuación, seleccione un nuevo equipo de [!UICONTROL Scrum] en el menú desplegable o busque un equipo en la barra de búsqueda.
 
-1. Vaya a la iteración que contiene el gráfico de evolución que desea contraer.
-1. Haga clic en el icono de flecha a la izquierda de la barra de estado [!UICONTROL Porcentaje completado].
+1. Vaya a la iteración que contiene el gráfico desplegable que desea contraer.
+1. Haga clic en el icono de flecha situado a la izquierda de la barra de estado [!UICONTROL Porcentaje completado].

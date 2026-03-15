@@ -3,10 +3,10 @@ product-area: agile-and-teams
 navigation-topic: get-started-with-boards
 title: Agregar tareas o problemas existentes a un tablero de Workfront
 description: Puede agregar cualquier tarea o problema a un tablero de Adobe Workfront desde una vista de lista o de informe.
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: 5e6fd681-8068-4091-9f42-0364b17e0465
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '585'
 ht-degree: 12%
@@ -30,7 +30,7 @@ Puede agregar cualquier tarea o problema a un tablero o flujo de trabajo en [!DN
  <col>
  <tbody>
   <tr>
-   <td role="rowheader">paquete de Adobe Workfront</td>
+   <td role="rowheader">Paquete de Adobe Workfront</td>
    <td> <p>Cualquiera</p> </td>
   </tr>
   <tr>
@@ -68,7 +68,7 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
 
 1. Haga clic en [!UICONTROL **Add**].
 
-   Para un tablero: la tarea o el problema se añaden al tablero como una tarjeta. Si el tablero tiene políticas de columna aplicadas para el estado, la tarjeta se añade en la columna correspondiente a su estado. De lo contrario, aparece en la primera columna de la izquierda, sin incluir la columna de entrada.
+   Para un tablero: la tarea o el problema se añade al tablero como una tarjeta. Si el tablero tiene directivas de columna aplicadas para el estado, la tarjeta se agrega en la columna correspondiente a su estado. De lo contrario, aparece en la primera columna de la izquierda, sin incluir la columna de admisión.
 
    Para obtener información sobre las directivas de columna, consulte [Administrar columnas del tablero](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md).
 
@@ -88,7 +88,7 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
 
 1. Haga clic en [!UICONTROL **Add**].
 
-   Para un tablero: la tarea o el problema se añaden al tablero como una tarjeta. Si el tablero tiene políticas de columna aplicadas para el estado, la tarjeta se añade en la columna correspondiente a su estado. De lo contrario, aparece en la primera columna de la izquierda, sin incluir la columna de entrada.
+   Para un tablero: la tarea o el problema se añade al tablero como una tarjeta. Si el tablero tiene directivas de columna aplicadas para el estado, la tarjeta se agrega en la columna correspondiente a su estado. De lo contrario, aparece en la primera columna de la izquierda, sin incluir la columna de admisión.
 
    Para obtener información sobre las directivas de columna, consulte [Administrar columnas del tablero](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md).
 
@@ -103,6 +103,6 @@ Para obtener información sobre las vistas, consulte [Crear o editar vistas en A
 
    ![Mostrar tableros en la columna](assets/show-boards-in-column.png)
 
-1. Haga clic en el nombre de un tablero para abrir la tarea o el problema conectado en el tablero.
+1. Haga clic en el nombre de un tablero para abrir la tarea o problema conectados en el tablero.
 
    ![Seleccionar un tablero](assets/select-board-in-column.png)

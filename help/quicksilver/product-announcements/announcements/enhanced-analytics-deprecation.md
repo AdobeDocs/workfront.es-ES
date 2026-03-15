@@ -1,19 +1,19 @@
 ---
 navigation-topic: announcements
-title: Guía de desaprobación de Analytics mejorada
+title: Guía de obsolescencia de análisis mejorado
 description: Esta página contiene información sobre la próxima desaprobación de Enhanced Analytics.
-author: Nolan
+author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 0de6119d-6a47-41f2-87da-2c6752ca436b
-source-git-commit: da5c7197b3826855bae5dd3d3bf2ba9d07d7f188
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '343'
-ht-degree: 0%
+ht-degree: 6%
 
 ---
 
-# Guía de desaprobación de Analytics mejorada
+# Guía de obsolescencia de análisis mejorado
 
 Debido al uso cada vez menor y a la funcionalidad limitada, el análisis mejorado pronto dejará de usarse en Adobe Workfront. Hemos lanzado Workfront Data Connect como una alternativa que puede replicar las visualizaciones de Analytics mejorado que utiliza actualmente, además de crear nuevas visualizaciones potentes que no eran posibles con el Analytics mejorado. Para garantizar una transición correcta para su organización, esta página contiene información sobre qué cambiará exactamente, consejos sobre cómo prepararse para la transición y respuestas a las preguntas más frecuentes.
 
@@ -49,9 +49,9 @@ Utilice las consultas de los artículos siguientes para crear visualizaciones de
 
 
 * [Consultas de KPI](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/kpi-queries.md)
-* [Consultas de plan de vuelo](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/flight-plan-queries.md)
-* [Consultas de actividades de proyecto](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/project-activity-queries.md)
-* [Consultas de diagrama de proyecto](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/project-tree-map-queries.md)
+* [Consultas del plan de vuelo](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/flight-plan-queries.md)
+* [Consultas de actividades del proyecto](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/project-activity-queries.md)
+* [Consultas del mapa de árbol del proyecto](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/project-tree-map-queries.md)
 * [Actividad por consultas de equipo](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/team-queries.md)
 
 ### Pedir ayuda

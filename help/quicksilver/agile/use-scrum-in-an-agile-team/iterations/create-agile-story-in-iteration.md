@@ -1,21 +1,21 @@
 ---
 product-area: agile-and-teams;projects
 navigation-topic: iterations
-title: Crear una historia de Agile en una iteración
-description: Este artículo describe cómo crear una nueva historia de Agile cuando ya está en la iteración.
-author: Jenny
+title: Creación de una historia ágil en una iteración
+description: Este artículo describe cómo crear un nuevo artículo ágil cuando ya se está en la iteración.
+author: Courtney
 feature: Agile
 exl-id: 9712e065-5fbf-4deb-a39f-36e0e918ed12
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '509'
-ht-degree: 23%
+ht-degree: 26%
 
 ---
 
-# Crear una historia de Agile en una iteración
+# Crear una historia Agile en una iteración
 
-Este artículo describe cómo crear una nueva historia de Agile cuando ya está en la iteración. Para obtener información sobre cómo crear una historia de Agile a partir de una tarea, un problema u otra área de [!DNL Adobe Workfront], vea [Agregar historias a una iteración existente](../../../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md).
+Este artículo describe cómo crear un nuevo artículo ágil cuando ya se está en la iteración. Para obtener información sobre cómo crear un artículo ágil a partir de una tarea, un problema u otro área de [!DNL Adobe Workfront], vea [Agregar artículos a una iteración existente](../../../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md).
 
 ## Requisitos de acceso
 
@@ -34,7 +34,7 @@ Este artículo describe cómo crear una nueva historia de Agile cuando ya está 
   </tr>
    <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td>Administrar el acceso al proyecto en el que se encuentra la historia </td> 
+   <td>Administrar el acceso al proyecto en el que se encuentra el artículo </td> 
   </tr>
  </tbody> 
 </table>
@@ -43,9 +43,9 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
 
 +++
 
-## Crear una historia de Agile en una iteración
+## Crear una historia Agile en una iteración
 
-1. Vaya a la iteración Agile en la que desea crear la historia:
+1. Vaya a la iteración ágil en la que desea crear la historia:
 
    {{step1-to-team}}
 
@@ -53,9 +53,9 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
 
    1. En el panel izquierdo, seleccione **[!UICONTROL Iterations]**.
    1. Haga clic en el nombre de la iteración específica en la que desea crear un artículo.
-   1. En el panel izquierdo, seleccione **[!UICONTROL Historias]**.
+   1. En el panel izquierdo, seleccione **[!UICONTROL Artículos]**.
 
-1.  Haga clic en **[!UICONTROL Nueva historia]**.
+1.  Haga clic en **[!UICONTROL Nuevo artículo]**.
 1. Especifique la siguiente información:
 
    <table style="table-layout:auto">
@@ -63,34 +63,34 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
     <col>
     <tbody>
      <tr>
-      <td role="rowheader"><strong>[!UICONTROL Nombre de artículo]</strong></td>
-      <td>Escriba un nombre para la historia.</td>
+      <td role="rowheader"><strong>[!UICONTROL Nombre del artículo]</strong></td>
+      <td>Escriba un nombre para el artículo.</td>
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Description]</strong></td>
-      <td>Escriba una descripción para la historia.</td>
+      <td>Escriba una descripción del artículo.</td>
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Ready]</strong></td>
-      <td>Seleccione esta opción si el artículo está listo para añadirse a una iteración. Cuando se selecciona esta opción, se indica a los usuarios qué historias del registro de pendientes están listas para agregarse a una iteración.<br>Se puede agregar una historia a una iteración independientemente de si está marcada o no <strong>[!UICONTROL Ready].</strong></td>
+      <td>Seleccione esta opción si el artículo está listo para añadirse a una iteración. Cuando se selecciona esta opción, se indica a los usuarios qué artículos del trabajo pendiente están listos para añadirse a una iteración.<br>Se puede agregar un artículo a una iteración, esté o no marcado como <strong>[!UICONTROL Ready].</strong></td>
      </tr>
      <tr>
-      <td role="rowheader"><strong>[!UICONTROL Estimar] (puntos)</strong></td>
-      <td>Especifique la estimación para la historia. Si su equipo Agile está configurado para estimar las historias en puntos, de forma predeterminada 1 punto equivale a 8 horas. Las estimaciones se añaden como [!UICONTROL Planned Hours] en la historia.<br>Por ejemplo, si estima una historia como 3 puntos, el comportamiento predeterminado es agregar 24 horas planificadas a la historia.<br>Si un artículo contiene subtareas, recuerde que las estimaciones combinadas de todas las subtareas determinan la estimación del artículo principal. Para obtener más información, vea <a href="../../../agile/use-scrum-in-an-agile-team/scrum-board/add-a-subtask-to-an-existing-story-scrum.md" class="MCXref xref">Agregar una subtarea a una historia existente en el tablero [!UICONTROL Scrum]</a>.</td>
+      <td role="rowheader"><strong>[!UICONTROL Estimación] (puntos)</strong></td>
+      <td>Especifique la estimación del artículo. Si su equipo Agile está configurado para estimar las historias en puntos, de forma predeterminada 1 punto equivale a 8 horas. Las estimaciones se añaden como [!UICONTROL Planned Hours] en la historia.<br>Por ejemplo, si calcula un artículo en 3 puntos, el comportamiento predeterminado es agregar 24 horas programadas al artículo.<br>Si un artículo contiene subtareas, recuerde que las estimaciones combinadas de todas las subtareas determinan la estimación del artículo principal. Para obtener más información, vea <a href="../../../agile/use-scrum-in-an-agile-team/scrum-board/add-a-subtask-to-an-existing-story-scrum.md" class="MCXref xref">Agregar una subtarea a un artículo existente en el tablero [!UICONTROL Scrum]</a>.</td>
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Parent Project]</strong></td>
-      <td>Empiece a escribir el nombre del proyecto con el que se asociará esta historia.<br>De manera predeterminada, el color de la historia se muestra con el mismo color que otras historias de este proyecto.<br>El estado del proyecto debe establecerse en [!UICONTROL Actual]. Si el estado del proyecto es cualquier cosa excepto [!UICONTROL Actual], no se muestra en el menú desplegable.</td>
+      <td>Comience a escribir el nombre del proyecto al que se asociará este artículo.<br>De forma predeterminada, el color de la historia se muestra con el mismo color que otras historias de este proyecto.<br>El estado del proyecto debe establecerse en [!UICONTROL Current]. Si el estado del proyecto no es [!UICONTROL Current], no se muestra en el menú desplegable.</td>
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Parent Task]</strong></td>
-      <td>Después de elegir un proyecto principal, tiene la opción de elegir una tarea principal. Al seleccionar una tarea principal, el artículo se crea como una subtarea de la tarea principal en el proyecto seleccionado.<br>Empiece a escribir el nombre de la tarea principal de la historia y, a continuación, haga clic en ella cuando aparezca en la lista desplegable.</td>
+      <td>Después de elegir un proyecto principal, tiene la opción de elegir una tarea principal. Al seleccionar una tarea principal, el artículo se crea como una subtarea de la tarea principal en el proyecto seleccionado.<br>Comience a escribir el nombre de la tarea principal del artículo y, a continuación, haga clic en ella cuando aparezca en la lista desplegable.</td>
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Custom Forms]</strong></td>
-      <td>Seleccione cualquier formulario personalizado para agregar al artículo.</td>
+      <td>Seleccione los formularios personalizados que desee agregar al artículo.</td>
      </tr>
     </tbody>
    </table>
 
-1. Haga clic en **[!UICONTROL Guardar historia]**.
+1. Haga clic en **[!UICONTROL Guardar artículo]**.

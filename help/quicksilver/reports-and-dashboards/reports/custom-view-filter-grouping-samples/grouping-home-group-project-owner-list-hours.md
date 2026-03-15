@@ -4,13 +4,13 @@ product-area: reporting;projects;user-management
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Agrupación: grupo de inicio del propietario del proyecto en una lista de horas'
 description: Puede mostrar el nombre del grupo de inicio del propietario del proyecto en una lista de horas o en un informe.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 6491ab9b-c09e-4bdb-99c2-56bb44f66947
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '222'
-ht-degree: 77%
+ht-degree: 78%
 
 ---
 
@@ -33,7 +33,7 @@ La agrupación también agrupa los resultados por el nombre del Propietario del 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 

@@ -4,17 +4,17 @@ product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Ver: Detalles de predecesoras'
 description: Esta vista de tareas muestra detalles de las tareas predecesoras de las tareas mediante una vista de colección. En una vista de colección, puede mostrar información sobre objetos que están en una relación "uno a varios". En este caso, cada tarea (una) puede tener varias predecesoras (muchas). La vista muestra el nombre de las tareas, así como los nombres de sus predecesoras, los nombres de proyecto de sus predecesoras, las fechas planificadas de finalización de sus predecesoras y los estados de sus predecesoras.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 0187da94-4895-47b1-914f-284fed9e0fd0
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '297'
-ht-degree: 30%
+ht-degree: 32%
 
 ---
 
-# Ver: detalles de predecesoras
+# Vista: detalles predecesores
 
 <!--Audited: 11/2024-->
 
@@ -33,7 +33,7 @@ Para obtener información acerca de las referencias a colecciones en los informe
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 

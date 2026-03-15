@@ -2,15 +2,15 @@
 content-type: reference
 product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 'Vista: URL externa con campo de datos personalizados'
+title: 'Ver: URL externa con campo de datos personalizado'
 description: Puede mostrar un vínculo a una URL personalizada interna utilizando un campo personalizado calculado denominado “URL personalizada” en una vista de tareas.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 5e402fed-71ce-438a-8da9-8f8d37550ea8
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '526'
-ht-degree: 80%
+ht-degree: 81%
 
 ---
 
@@ -37,7 +37,7 @@ Con los mismos pasos, puede crear campos personalizados calculados y vistas pers
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
@@ -91,7 +91,7 @@ Para personalizar esta vista:
 1. Quite todas las columnas dentro de la vista, excepto la primera.
 1. Haga clic en el encabezado de la primera columna.
 1. Haga clic en **Cambiar al modo de texto** > **Editar modo de texto**.
-1. Elimine el texto del cuadro **Editar modo de texto** y reemplácelo por el siguiente código:
+1. Quite el texto del cuadro **Editar modo de texto** y sustitúyalo por el código siguiente:
 
 
    ```
@@ -135,6 +135,6 @@ Para personalizar esta vista:
    column.2.width=150
    ```
 
-   En este ejemplo, &#39;column.1.&#39;  Las líneas muestran el valor del campo &quot;URL personalizada&quot; como un vínculo a la sección **Información general** de la tarea; &quot;columna.2.&quot; muestra el valor almacenado en el **campo URL** de la tarea.
+   En este ejemplo, &#39;column.1.&#39;  Las líneas muestran el valor en el campo &#39;URL personalizada&#39; como un vínculo a la sección **Información general** de la tarea; &#39;columna.2.&#39; muestra el valor almacenado en el **campo URL** de la tarea.
 
-1. Haga clic en **Listo** > **Guardar vista**.
+1. Haga clic en **Hecho** > **Guardar vista**.

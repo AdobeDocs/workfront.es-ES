@@ -3,13 +3,13 @@ product-area: agile-and-teams
 navigation-topic: get-started-with-boards
 title: Agregar una tarjeta ad hoc a un tablero
 description: Puede añadir rápidamente una tarjeta ad hoc a un tablero y asignarla a un miembro del tablero. La tarjeta puede representar una tarea, un problema, una persona, un grupo o cualquier tipo de elemento que desee incluir en el tablero.
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: 9bc1f92a-85b0-44fd-b5de-09a69af6def5
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '879'
-ht-degree: 35%
+ht-degree: 37%
 
 ---
 
@@ -30,7 +30,7 @@ Puede añadir rápidamente una tarjeta a un tablero y asignarla a un miembro del
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
@@ -147,7 +147,7 @@ Puede añadir tarjetas ad hoc con un solo título para rellenar rápidamente el 
 
    O
 
-   Haga clic en el menú **[!UICONTROL Más]** ![[!UICONTROL menú Más &#x200B;]](assets/more-icon-spectrum.png) de la tarjeta y seleccione **[!UICONTROL Editar]**.
+   Haga clic en el menú **[!UICONTROL Más]** ![[!UICONTROL menú Más ]](assets/more-icon-spectrum.png) de la tarjeta y seleccione **[!UICONTROL Editar]**.
 
 1. En el cuadro [!UICONTROL Detalles de la tarjeta], actualice la información según sea necesario y haga clic en **[!UICONTROL Cerrar]** para volver al tablero.
 

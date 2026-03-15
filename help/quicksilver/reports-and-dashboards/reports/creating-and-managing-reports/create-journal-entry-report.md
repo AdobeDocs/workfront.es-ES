@@ -1,11 +1,11 @@
 ---
-title: Informe del área de actualizaciones con un informe de entrada de diario
+title: Informe del Área Actualizaciones con un Informe de Asientos
 description: El informe Entrada de cuaderno muestra las actualizaciones del sistema desde el área Actualizaciones de proyectos, tareas, problemas y otros objetos que anteriormente solo estaban disponibles a través de la API de Adobe Workfront. Aunque se trata de un informe avanzado diseñado para casos de uso específicos, el formato más asequible facilita la elaboración de informes sobre la actividad del proyecto y las actualizaciones del sistema en Workfront.
-author: Nolan
+author: Courtney
 draft: Probably
 feature: Reports and Dashboards
 exl-id: ecf947ce-54d8-4103-8903-f455b1d86c39
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '2763'
 ht-degree: 94%
@@ -40,7 +40,7 @@ El informe Entrada de cuaderno puede mostrar lo siguiente:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
@@ -164,7 +164,7 @@ Esta información se puede utilizar para ayudar con las auditorías y para ilust
 1. Haga clic en el icono **[!UICONTROL Main Menu]** ![Menú principal](/help/_includes/assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront o (si está disponible), haga clic en el icono **[!UICONTROL Main Menu]** ![Menú principal](/help/_includes/assets/main-menu-icon-left-nav.png) en la esquina superior izquierda y, a continuación, haga clic en **Informes**.
 1. Haga clic en **Nuevo informe** y, a continuación, seleccione **Entrada de cuaderno**.
 
-   ![Seleccionar entrada de diario](assets/nwe-select-journal-entry-350x273.png)
+   ![Seleccionar entrada del diario](assets/nwe-select-journal-entry-350x273.png)
 
    Se carga Report Builder.
 
@@ -278,7 +278,7 @@ Para ver cuándo se ha eliminado una tarea o un problema:
 1. Haga clic en el icono **[!UICONTROL Menú principal]** ![Menú principal](/help/_includes/assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront o (si está disponible), haga clic en el icono **[!UICONTROL Menú principal]** ![Menú principal](/help/_includes/assets/main-menu-icon-left-nav.png) en la esquina superior izquierda y, a continuación, haga clic en **Informes**.
 1. Haga clic en **Nuevo informe** y, a continuación, seleccione **Entrada de cuaderno**.
 
-   ![Seleccionar entrada de diario](assets/nwe-select-journal-entry-350x273.png)
+   ![Seleccionar entrada del diario](assets/nwe-select-journal-entry-350x273.png)
 
    Se carga Report Builder.
 
@@ -322,7 +322,7 @@ Para ver cuándo se ha eliminado una tarea o un problema:
 1. En la pestaña **Filtros**, haga clic en **Añadir regla de filtro** y, a continuación, añada los siguientes filtros:
 
    * **Tipo de cambio** > **Igual** > **Eliminar**
-   * **Id. de proyecto** > **Igual** > **&lt; nombre de proyecto >**
+   * **Id. del proyecto** > **Igual** > **&lt; nombre del proyecto >**
 
      <!--WRITER check link; this png file has spaces
      [![Task or issue deleted](assets/classic-task-or-issue-deleted-350x90.png)](../../../Resources/Images/Reports/Creating and Managing Reports/QS_Task or issue deleted.png)-->
@@ -362,11 +362,11 @@ Para ver cómo han cambiado los campos personalizados durante el ciclo de vida d
 1. Haga clic en el icono **[!UICONTROL Main Menu]** ![Menú principal](/help/_includes/assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront o (si está disponible), haga clic en el icono **[!UICONTROL Main Menu]** ![Menú principal](/help/_includes/assets/main-menu-icon-left-nav.png) en la esquina superior izquierda y, a continuación, haga clic en **Informes**.
 1. Haga clic en **Nuevo informe** y, a continuación, seleccione **Entrada de cuaderno**.
 
-   ![Seleccionar entrada de diario](assets/nwe-select-journal-entry-350x273.png)
+   ![Seleccionar entrada del diario](assets/nwe-select-journal-entry-350x273.png)
 
    Se carga Report Builder.
 
-1. En la ficha **Columnas (vista)**, asegúrese de que tiene o haga clic en **Agregar columna** para agregar las siguientes columnas:
+1. En la pestaña **Columnas (Ver)**, asegúrese de tener o haga clic en **Agregar columna** para agregar las siguientes columnas:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -423,17 +423,17 @@ Para ver cómo han cambiado los campos personalizados durante el ciclo de vida d
 
    Para obtener más información sobre cómo añadir columnas, consulte [Información general sobre las vistas en Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
-1. En la ficha **Filtros**, haga clic en **Agregar una regla de filtro** y, a continuación, agregue los siguientes filtros:
+1. En la pestaña **Filtros**, haz clic en **Agregar una regla de filtro** y, a continuación, añade los siguientes filtros:
 
    * **Nombre del campo de entrada de diario** > **Contains** > **DE**
 
      >[!TIP]
      >
-     >Para limitar este informe a campos personalizados específicos, agregue la regla de filtro **Nombre del campo de entrada de diario** > **Igual** > **&lt; Nombre de campo personalizado>**.
+     >Para limitar este informe a campos personalizados específicos, agregue la regla de filtro **Nombre del campo de entrada de diario** > **Igual** > **&lt; nombre de campo personalizado>**.
 
-   * **Id. de proyecto** > **Igual** > **&lt; proyecto >**.
+   * **Id. del proyecto** > **Igual** > **&lt; proyecto >**.
 
-   ![El formulario personalizado cambia el filtro](assets/qs-custom-form-changes-filter-350x92.png)
+   ![Filtro de cambios de formulario personalizados](assets/qs-custom-form-changes-filter-350x92.png)
 
    Para obtener más información sobre cómo añadir filtros, consulte [Información general de los filtros](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
@@ -464,7 +464,7 @@ Puede configurar el informe Entrada de cuaderno para mostrar la frecuencia con l
 1. Haga clic en el icono **[!UICONTROL Menú principal]** ![Menú principal](/help/_includes/assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront o (si está disponible), haga clic en el icono **[!UICONTROL Menú principal]** ![Menú principal](/help/_includes/assets/main-menu-icon-left-nav.png) en la esquina superior izquierda y, a continuación, haga clic en **Informes**.
 1. Haga clic en **Nuevo informe** y, a continuación, seleccione **Entrada de cuaderno**.
 
-   ![Seleccionar entrada de diario](assets/nwe-select-journal-entry-350x273.png)
+   ![Seleccionar entrada del diario](assets/nwe-select-journal-entry-350x273.png)
 
    Se carga Report Builder.
 
@@ -529,12 +529,12 @@ Puede configurar el informe Entrada de cuaderno para mostrar la frecuencia con l
 
    Para obtener más información sobre la adición de columnas, consulte [Información general sobre las vistas en Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
-1. En la ficha **Filtros**, haga clic en **Agregar una regla de filtro** y, a continuación, agregue lo siguiente:
+1. En la pestaña **Filtros**, haz clic en **Agregar una regla de filtro** y, a continuación, añade lo siguiente:
 
    * **Nombre de campo** > **Igual** > **Fecha**
-   * **Id. de proyecto** > **Igual** > **&lt; nombre de proyecto >**.
+   * **Id. del proyecto** > **Igual** > **&lt; nombre del proyecto >**.
 
-   ![Filtro de cambio de fecha planificada de finalización](assets/qs-planned-completion-date-change-filter-350x91.png)
+   ![Filtro de cambio de fecha de finalización planeado](assets/qs-planned-completion-date-change-filter-350x91.png)
 
    Para obtener más información sobre cómo añadir filtros, consulte [Información general de los filtros](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
@@ -565,7 +565,7 @@ Puede configurar el informe Entrada de cuaderno para que muestre cuántas veces 
 1. Haga clic en el icono **[!UICONTROL Main Menu]** ![Menú principal](/help/_includes/assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront o (si está disponible), haga clic en el icono **[!UICONTROL Main Menu]** ![Menú principal](/help/_includes/assets/main-menu-icon-left-nav.png) en la esquina superior izquierda y, a continuación, haga clic en **Informes**.
 1. Haga clic en **Nuevo informe** y, a continuación, seleccione **Entrada de cuaderno**.
 
-   ![Seleccionar entrada de diario](assets/nwe-select-journal-entry-350x273.png)
+   ![Seleccionar entrada del diario](assets/nwe-select-journal-entry-350x273.png)
 
    Se carga Report Builder.
 
@@ -621,7 +621,7 @@ Puede configurar el informe Entrada de cuaderno para que muestre cuántas veces 
 1. En la pestaña **Filtros**, haga clic en **Añadir regla de filtro** y, a continuación, añada lo siguiente:
 
    * **Nombre de campo** > **Igual** > **ownerID**
-   * **Id. de proyecto** > **Igual** > **&lt; nombre de proyecto >**.
+   * **Id. del proyecto** > **Igual** > **&lt; nombre del proyecto >**.
 
    ![Filtro de cambio de propietario](assets/qs-owner-changes-filter-350x94.png)
 
@@ -645,4 +645,4 @@ Puede configurar el informe Entrada de cuaderno para que muestre cuántas veces 
 
 1. Haga clic en **Guardar + Cerrar**.
 
-   Se muestra el informe de nueva entrada de diario.
+   Se muestra el nuevo informe de asientos.

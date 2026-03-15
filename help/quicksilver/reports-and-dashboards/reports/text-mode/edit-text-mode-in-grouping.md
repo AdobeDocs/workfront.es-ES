@@ -3,13 +3,13 @@ product-area: reporting
 navigation-topic: text-mode-reporting
 title: Edición de una agrupación mediante el modo de texto
 description: Puede editar una agrupación en una lista o informe utilizando el modo de texto para acceder a campos que no están disponibles en la interfaz estándar y crear agrupaciones más complejas.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 2eeecc16-ea6d-4a56-8ea3-e213706e89bf
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '1539'
-ht-degree: 11%
+ht-degree: 13%
 
 ---
 
@@ -32,7 +32,7 @@ Puede editar una agrupación en una lista o informe utilizando el modo de texto 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 

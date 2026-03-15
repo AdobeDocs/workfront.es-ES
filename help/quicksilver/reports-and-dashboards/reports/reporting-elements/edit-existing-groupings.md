@@ -1,13 +1,13 @@
 ---
 title: Editar agrupaciones existentes
 description: Editar agrupaciones existentes
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: bd9e6794-3196-4a73-a86a-9ba6048e613b
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '439'
-ht-degree: 51%
+ht-degree: 53%
 
 ---
 
@@ -28,7 +28,7 @@ Puede personalizar una agrupación existente que haya creado originalmente o que
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 

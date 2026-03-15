@@ -2,15 +2,15 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 'Ver: Problemas con la resolución de detalles del objeto'
+title: 'Ver: Problemas con la resolución de detalles de objetos'
 description: Esta vista del problema muestra el nombre y el porcentaje completado del objeto de resolución del problema, lo que permite que el que ha originado el problema tenga una perspectiva del progreso, incluso sin tener acceso a la tarea o al proyecto de resolución.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 7f4c923a-01e4-4896-9f54-1f0c66d64bb5
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '278'
-ht-degree: 69%
+ht-degree: 70%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 69%
 
 Esta vista del problema muestra el nombre y el porcentaje completado del objeto de resolución del problema, lo que permite que el que ha originado el problema tenga una perspectiva del progreso, incluso sin tener acceso a la tarea o al proyecto de resolución.
 
-Esta vista usa la etiqueta `sharecol=true` para combinar varios campos bajo el mismo encabezado de columna. Para obtener más información sobre la etiqueta `sharecol`, consulte [Vista: combinar información de varias columnas en una columna compartida](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-merge-columns.md).
+Esta vista utiliza la etiqueta `sharecol=true` para combinar varios campos bajo el mismo encabezado de columna. Para obtener más información sobre la etiqueta `sharecol`, consulte [Vista: combinar información de varias columnas en una columna compartida](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-merge-columns.md).
 
 ![issue_custom_view_with_resolve_object_name_and_percent_complete.png](assets/issue-custom-view-350x77.png)
 
@@ -33,7 +33,7 @@ Esta vista usa la etiqueta `sharecol=true` para combinar varios campos bajo el m
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
@@ -64,8 +64,8 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
 1. En el menú desplegable **Vista**, seleccione **Nueva vista**.
 
 1. En el área **Vista previa de columnas**, elimine todas las columnas excepto una.
-1. Haga clic en el encabezado de la columna restante, haga clic en **Cambiar al modo de texto** y, a continuación, haga clic en **Editar modo de texto**.
-1. Elimine el texto que encuentre en el cuadro **Editar modo de texto** y reemplácelo por el siguiente código:
+1. Haga clic en el encabezado de la columna restante, haga clic en **Cambiar a modo de texto** y, a continuación, haga clic en **Editar modo de texto**.
+1. Quite el texto que encuentre en el cuadro **Editar modo de texto** y sustitúyalo por el código siguiente:
 
    ```
    column.0.querysort=name
@@ -166,5 +166,5 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
    column.9.valueformat=doubleAsPercentRounded
    ```
 
-1. Haga clic en **Listo** > **Guardar vista**.
+1. Haga clic en **Hecho** > **Guardar vista**.
 1. (Opcional) Actualice el nombre de la vista y, a continuación, haga clic en **Guardar vista**.

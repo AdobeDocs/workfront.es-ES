@@ -4,17 +4,17 @@ product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Ver y Agrupar: Muestra la duración real del proyecto agregada por el promedio en una agrupación'
 description: Puede agregar la siguiente columna en un informe de proyecto para mostrar la duración real agregada como promedio en una agrupación.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 31794fe9-a04a-437d-8d2e-40e0cb6e6104
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '264'
-ht-degree: 24%
+ht-degree: 31%
 
 ---
 
-# Ver y agrupar: muestra la duración real del proyecto agregada por el promedio en una agrupación
+# Vista y agrupación: mostrar la duración real del proyecto añadida por el promedio en una agrupación
 
 <!--Audited: 11/2024-->
 
@@ -31,7 +31,7 @@ Puede agregar la siguiente columna en una vista de proyecto para mostrar la dura
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 

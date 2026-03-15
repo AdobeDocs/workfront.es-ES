@@ -5,13 +5,13 @@ keywords: audit,trail,custom,field
 navigation-topic: calculate-custom-data-reports
 title: 'Ejemplo de campo personalizado calculado: mostrar el historial de ediciones de un campo'
 description: Si los usuarios actualizan los campos personalizados de forma regular y desea capturar un registro de todos los cambios realizados en un campo, así como una fecha en la que se produzcan los cambios, puede capturar esta información en un campo personalizado calculado.
-author: Jenny
+author: Courtney
 feature: Reports and Dashboards
 exl-id: e233ef28-c95a-42a1-b2eb-448dad5feddb
-source-git-commit: a1ead6d0c1c85bfbe6d7302506743db8d8b3e205
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '612'
-ht-degree: 54%
+ht-degree: 55%
 
 ---
 
@@ -44,7 +44,7 @@ Esto hace lo siguiente:
  <col> 
  <tbody> 
   <tr> 
-   <td> <p>paquete de Adobe Workfront</p> </td> 
+   <td> <p>Paquete de Adobe Workfront</p> </td> 
    <td><p>Cualquiera</p></td> 
   </tr> 
   <tr> 

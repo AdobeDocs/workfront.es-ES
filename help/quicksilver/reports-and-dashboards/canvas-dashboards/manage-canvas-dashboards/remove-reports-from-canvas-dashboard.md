@@ -3,11 +3,11 @@ product-area: Canvas Dashboards
 navigation-topic: report-types
 title: Eliminación de informes de un tablero
 description: Puede quitar informes de un tablero una vez que se hayan agregado.
-author: Courtney and Jenny
+author: Courtney
 feature: Reports and Dashboards
 hidefromtoc: true
 hide: true
-source-git-commit: d22cd176947387ce5f24e4fc91444b7aca698f5d
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '224'
 ht-degree: 20%
@@ -24,7 +24,7 @@ Una vez creado un tablero y agregado los informes, puede quitar los informes má
 
 La eliminación de un informe de un tablero es permanente. Si necesita volver a agregar un informe después de eliminarlo, deberá volver a crear el informe.
 
-+++ Amplíe para ver los requisitos de acceso.
++++ Amplíe para ver los requisitos de acceso. 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -48,7 +48,7 @@ La eliminación de un informe de un tablero es permanente. Si necesita volver a 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Configuraciones de nivel de acceso</p></td> 
-   <td><p>Editar el acceso a Informes, Paneles y Calendarios</p>
+   <td><p>Editar el acceso a Informes, Paneles de control y Calendarios</p>
   </td> 
   </tr>  
     </tr>  
@@ -75,7 +75,7 @@ Debe agregar informes a un tablero para poder eliminarlos.
 
 {{step1-to-dashboards}}
 
-1. En el panel izquierdo, haga clic en **Paneles de lienzo**.
+1. En el panel izquierdo, haga clic en **Paneles de control de lienzo**.
 
 1. En la página **Paneles de lienzo**, seleccione el icono **Más** ![Más](assets/more-icon.png) en la esquina superior derecha del panel que desee actualizar y, a continuación, seleccione **Quitar**.
 

@@ -3,13 +3,13 @@ product-area: calendars
 navigation-topic: calendars-navigation-topic
 title: Compartir un informe de calendario
 description: Puede compartir un calendario con otros usuarios y ponerlo a disposición del público, permitiendo que alguien sin una licencia de  [!DNL Adobe Workfront]  lo vea.
-author: Jenny
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 77eed0fe-2d47-40c4-a03d-590f7fa17dbe
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '590'
-ht-degree: 80%
+ht-degree: 81%
 
 ---
 
@@ -29,7 +29,7 @@ Puede compartir un calendario con otros usuarios y ponerlo a disposición del p�
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
@@ -111,5 +111,5 @@ Puede compartir un vínculo de calendario privado con usuarios de [!DNL Workfron
 
    >[!NOTE]
    >
-   >Los usuarios de [!DNL Workfront] deben tener acceso al calendario para tener acceso a él con el vínculo. Para conceder acceso, consulte [Compartir un calendario con los usuarios de  [!DNL Workfront] &#x200B;](#share-a-calendar-with-workfront-users).\
+   >Los usuarios de [!DNL Workfront] deben tener acceso al calendario para tener acceso a él con el vínculo. Para conceder acceso, consulte [Compartir un calendario con los usuarios de  [!DNL Workfront] ](#share-a-calendar-with-workfront-users).\
    >Si los usuarios no tienen acceso, pueden solicitarlo después de pegar el vínculo en el explorador.

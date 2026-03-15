@@ -3,12 +3,12 @@ product-area: projects
 navigation-topic: update-work-items-and-view-updates
 title: Responder a las actualizaciones
 description: Cuando alguien añade o responde a una actualización en un objeto de trabajo, su respuesta aparece en el hilo de comunicación en la sección de Actualizaciones del objeto. Puede añadir una respuesta a una actualización o marcarla como Me gusta si tiene acceso de vista al objeto.
-author: Nolan and Alina
+author: Courtney and Alina
 feature: Get Started with Workfront
 role: User
 topic: Collaboration
 exl-id: a8271f3c-7a08-4eb3-aaff-deb250f5af73
-source-git-commit: 187505de92f9a912547018865f2742bfecec77ad
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '705'
 ht-degree: 92%
@@ -71,7 +71,7 @@ Este artículo describe cómo responder a los comentarios de la mayoría de los 
    <li><p>Solicitud o superior</p></li></ul>
 
 <p>Para todos los demás objetos:</p>
-   <ul><li><p>Ligero o superior</p></li>
+   <ul><li><p>Claro o superior</p></li>
    <li><p>Revisión o superior</p></li></ul>
 
 </td>  
@@ -82,7 +82,7 @@ Este artículo describe cómo responder a los comentarios de la mayoría de los 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Permisos de objeto</strong></td> 
-   <td> <p>Ver permisos del objeto</p> </td> 
+   <td> <p>Ver permisos para el objeto</p> </td> 
   </tr> 
  </tbody> 
    </table>
@@ -148,7 +148,7 @@ Responder a un comentario en la sección Actualizaciones de un objeto es similar
 
 1. Haga clic en **Enviar** para guardar la respuesta.
 
-1. (Opcional) Haga clic en el menú **Más** ![Menú más](assets/more-menu.png) en la esquina superior derecha del comentario al que desea responder para obtener más opciones y administrar la respuesta. Para obtener más información, consulte [Trabajo de actualización](../updating-work-items-and-viewing-updates/update-work.md).
+1. (Opcional) Haga clic en el menú **Más** ![Más menú](assets/more-menu.png) situado en la esquina superior derecha del comentario al que desea responder para ver más opciones para administrar la respuesta. Para obtener más información, consulte [Trabajo de actualización](../updating-work-items-and-viewing-updates/update-work.md).
 
 <!--
 ### Reply to an update or reply in the legacy Updates section

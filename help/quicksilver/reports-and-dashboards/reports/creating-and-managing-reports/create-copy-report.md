@@ -2,23 +2,23 @@
 product-area: reporting;user-management
 keywords: guardar,nuevo,informe,copiar
 navigation-topic: create-and-manage-reports
-title: Creación de una copia de un informe
-description: Puede crear una copia de cualquier informe al que tenga acceso. Puede crear una copia exacta de un informe personalizado o guardar una nueva versión de un informe predeterminado. Una vez copiado un informe, pasa a ser el propietario del informe copiado y aparece en la sección Mis informes.
-author: Nolan
+title: Crear una copia de un informe
+description: Puede crear una copia de cualquier informe al que tenga acceso. Puede crear una copia exacta de un informe personalizado o guardar una nueva versión de un informe predeterminado. Después de copiar un informe, se convierte en el propietario del informe copiado y se muestra en la sección Mis informes.
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 84737f48-efc5-45f1-acd1-b9f5d353f80f
-source-git-commit: 0841594c855c39fedf4eab5492994ff4f7acfbdf
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '641'
-ht-degree: 14%
+ht-degree: 17%
 
 ---
 
-# Creación de una copia de un informe
+# Crear una copia de un informe
 
 <!-- Audited: 11/2024 -->
 
-Puede crear una copia de cualquier informe al que tenga acceso. Puede crear una copia exacta de un informe personalizado o guardar una nueva versión de un informe predeterminado. Una vez copiado un informe, pasa a ser el propietario del informe copiado y aparece en la sección Mis informes.
+Puede crear una copia de cualquier informe al que tenga acceso. Puede crear una copia exacta de un informe personalizado o guardar una nueva versión de un informe predeterminado. Después de copiar un informe, se convierte en el propietario del informe copiado y se muestra en la sección Mis informes.
 
 ## Requisitos de acceso
 
@@ -29,7 +29,7 @@ Puede crear una copia de cualquier informe al que tenga acceso. Puede crear una 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
@@ -56,66 +56,66 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
 
 ## Crear una copia exacta de un informe
 
-Si desea realizar una copia de un informe personalizado, haga lo siguiente:
+Si desea hacer una copia de un informe personalizado, haga lo siguiente:
 
 1. Haga clic en el icono **[!UICONTROL Main Menu]** ![Menú principal](/help/_includes/assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront o (si está disponible), haga clic en el icono **[!UICONTROL Main Menu]** ![Menú principal](/help/_includes/assets/main-menu-icon-left-nav.png) en la esquina superior izquierda y, a continuación, haga clic en **[!UICONTROL Informes]**.
 
 1. Haga clic en **Todos los informes** y, a continuación, abra un informe.
 
-1. Haga clic en **Acciones de informe** y luego en **Copiar**.
+1. Haga clic en **Informar de acciones** y, a continuación, en **Copiar**.
 
    >[!TIP]
    >
-   >Si el informe es un informe predeterminado, la opción Copiar no aparece en el menú Acciones de informe.\
+   >Si el informe es un informe predeterminado, la opción Copiar no aparece en el menú Acciones del informe.\
    >Para obtener información sobre cómo crear una copia de un informe predeterminado, consulte [Crear una nueva versión de un informe](#create-a-new-version-of-a-report).
 
    ![Copiar informe](assets/unshimmed-report-actions-copy.png)
 
-   Se crea una copia del informe original con el nombre predeterminado _[Nombre del informe original]_ _(copia)_. Por ejemplo, una copia del informe &quot;Tareas completadas en el cuarto trimestre&quot; se llamaría &quot;Tareas completadas en el cuarto trimestre (copia)&quot;.
+   Se crea una copia del informe original con el nombre predeterminado _[Nombre del informe original]_ _(Copia)_. Por ejemplo, una copia del informe &quot;Tareas completadas en el cuarto trimestre&quot; se denominaría &quot;Tareas completadas en el cuarto trimestre (copia)&quot;.
 
-1. (Opcional) Para cambiar el nombre del informe, haga clic en **Acciones de informe** y luego en **Editar**. Escriba un nombre nuevo en el cuadro de texto de la esquina superior izquierda y haga clic en **Guardar + Cerrar** cuando termine.
+1. (Opcional) Para cambiar el nombre del informe, haga clic en **Acciones del informe** y, a continuación, en **Editar**. Escriba un nuevo nombre en el cuadro de texto de la esquina superior izquierda y, a continuación, haga clic en **Guardar + Cerrar** cuando haya terminado.
 
-1. (Opcional) Para compartir la nueva versión del informe con otros usuarios, haga clic en **Acciones de informe** y luego en **Compartir**.
+1. (Opcional) Para compartir la nueva versión del informe con otros usuarios, haga clic en **Acciones del informe** y, a continuación, en **Uso compartido**.
 
    >[!NOTE]
    >
    >La información compartida no se transfiere al informe copiado desde la versión original.\
-   >Para obtener información sobre cómo ver con quién se compartió el informe anterior, consulte [Crear un informe de actividades de informes](../../../reports-and-dashboards/reports/report-usage/create-report-reporting-activities.md#identify).
+   >Para obtener información sobre cómo ver con quién se compartió el informe anterior, consulte [Crear un informe sobre las actividades de informes](../../../reports-and-dashboards/reports/report-usage/create-report-reporting-activities.md#identify).
 
-1. (Opcional) Si tiene permisos de Administración para el informe original y este ya no es necesario, puede eliminarlo para eliminar los informes duplicados innecesarios en Workfront.
+1. (Opcional) Si tiene permisos de administración para el informe original y este ya no se necesita, puede eliminarlo para eliminar los informes duplicados innecesarios en Workfront.
 
    Para eliminar el informe original, haga lo siguiente:
 
    1. Vaya al informe.
 
-   1. Haga clic en **Acciones de informe** y luego en **Eliminar**.
+   1. Haga clic en **Informar de acciones** y, a continuación, en **Eliminar**.
 
    1. Haga clic en **Sí, eliminarlo** para confirmar que desea eliminar el informe.
 
-## Creación de una nueva versión de un informe {#create-a-new-version-of-a-report}
+## Crear una nueva versión de un informe {#create-a-new-version-of-a-report}
 
 Si desea crear una copia de un informe integrado, haga lo siguiente:
 
-1. Haga clic en el icono **Menú principal** ![Icono del menú principal](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront.
+1. Haga clic en el icono **Menú principal** ![icono Menú principal](assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront.
 
-1. Haga clic en **Informes** y luego en **Todos los informes**.
+1. Haga clic en **Informes** y, a continuación, en **Todos los informes**.
 1. Haga clic en el nombre de un informe integrado para abrirlo.
 1. Haga clic en **Acciones de informe** y, a continuación, en **Editar**.
 
    ![Editar informe](assets/unshimmed-report-actions-default-report.png)
 
-1. Realice las modificaciones necesarias en las siguientes pestañas del informe:
+1. Realice las modificaciones que necesite en las siguientes fichas del informe:
 
-   * **Columnas (vista)**: para obtener más información acerca de cómo personalizar vistas, vea el artículo [Información general sobre vistas en Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
-   * **Agrupaciones**: para obtener más información acerca de cómo personalizar agrupaciones, vea el artículo [Información general sobre agrupaciones en Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
-   * **Filtros**: para obtener más información acerca de cómo personalizar filtros, vea el artículo [Resumen de filtros](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
-   * **Gráfico**: para obtener más información acerca de cómo personalizar un gráfico de informe, vea el artículo [Agregar un gráfico a un informe](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md).
+   * **Columnas (Ver)**: Para obtener más información sobre la personalización de vistas, consulte el artículo [Introducción a las vistas en Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+   * **Agrupaciones**: Para obtener más información sobre la personalización de agrupaciones, consulte el artículo [Introducción a las agrupaciones en Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
+   * **Filtros**: Para obtener más información sobre la personalización de filtros, consulte el artículo [Información general sobre filtros](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+   * **Gráfico**: Para obtener más información sobre la personalización de un gráfico de informe, vea el artículo [Agregar un gráfico a un informe](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md).
 
 1. En la esquina superior derecha, haga clic en **Configuración de informes**.
-1. En el campo **Título del informe**, asigne un nombre nuevo al informe.
+1. En el campo **Título del informe**, asigne un nuevo nombre al informe.
 1. Haga clic en **Listo**.
 1. Haga clic en **Guardar como nuevo informe**.
 
    ![Guardar como nuevo informe](assets/unshimmed-save-as-new-report.png)
 
-1. (Opcional) Para compartir la nueva versión del informe con otros usuarios, haga clic en **Acciones de informe** y luego en **Compartir**.
+1. (Opcional) Para compartir la nueva versión del informe con otros usuarios, haga clic en **Acciones del informe** y, a continuación, en **Uso compartido**.

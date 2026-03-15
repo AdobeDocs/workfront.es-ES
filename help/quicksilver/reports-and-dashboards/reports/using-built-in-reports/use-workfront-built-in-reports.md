@@ -3,10 +3,10 @@ product-area: reporting
 navigation-topic: using-built-in-reports
 title: Uso de informes integrados de Adobe Workfront
 description: Adobe Workfront tiene una extensa lista de informes integrados que están listos para usar. Los administradores de Workfront pueden ocultar los informes integrados para que los usuarios no tengan acceso a ellos.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 32a47c25-192a-4e97-9016-42e6b6e201b9
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '2978'
 ht-degree: 97%
@@ -30,7 +30,7 @@ Los administradores de Workfront pueden ocultar los informes integrados para que
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 

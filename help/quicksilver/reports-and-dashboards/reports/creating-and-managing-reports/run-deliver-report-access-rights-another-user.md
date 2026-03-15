@@ -1,25 +1,25 @@
 ---
 product-area: reporting
 navigation-topic: create-and-manage-reports
-title: Ejecutar y entregar un informe con los derechos de acceso de otro usuario
+title: Ejecutar y enviar un informe con los derechos de acceso de otro usuario
 description: De forma predeterminada, los usuarios solo pueden ver los objetos de un informe para los que tienen permisos de visualización.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: e5e2b683-876c-45b4-ab61-07b1ad0b5650
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '1185'
-ht-degree: 19%
+ht-degree: 21%
 
 ---
 
-# Ejecutar y entregar un informe con los derechos de acceso de otro usuario
+# Ejecutar y enviar un informe con los derechos de acceso de otro usuario
 
 <!-- Audited: 11/2024 -->
 
-De forma predeterminada, los usuarios solo pueden ver los objetos de un informe para los que tienen permisos de visualización.
+De forma predeterminada, los usuarios sólo pueden ver los objetos de un informe que tienen permisos para Ver.
 
-Puede permitir que todos los usuarios vean los mismos resultados en un informe que otro usuario, independientemente de su nivel de acceso o de permiso en los objetos dentro del informe.
+Puede permitir que todos los usuarios vean los mismos resultados en un informe que otro usuario, independientemente de su nivel de acceso o nivel de permiso en los objetos del informe.
 
 Si ejecuta un informe con los derechos de acceso de otro usuario con acceso superior (por ejemplo, los derechos de acceso de un administrador de Adobe Workfront), todos los usuarios que tengan permisos para Ver el informe podrán ver la información en el informe como el usuario especificado en Report Builder. Puede configurarlo tanto para los informes que los usuarios encuentran en la interfaz de Workfront como para los informes que se entregan a los usuarios como datos adjuntos a un correo electrónico.
 
@@ -37,7 +37,7 @@ Si ejecuta un informe con los derechos de acceso de otro usuario con acceso supe
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
@@ -65,9 +65,9 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
 
 ## Mostrar un informe con los derechos de acceso de otro usuario
 
-Rellenar el campo **Ejecutar este informe con los derechos de acceso de:** garantiza que un informe contenga los mismos datos, independientemente de qué usuario tenga acceso al informe. El informe se muestra tal como lo haría para el usuario especificado.
+Al rellenar el campo **Ejecutar este informe con los derechos de acceso de:**, se garantiza que un informe contiene los mismos datos, independientemente del usuario que tenga acceso al informe. El informe se muestra como lo haría para el usuario especificado.
 
-Los usuarios que accedan al informe deben tener al menos permisos de visualización en el informe para poder verlo. Si el usuario que aparece en el campo **Ejecutar este informe con los derechos de acceso de:** está desactivado, el informe ya no se mostrará a ningún otro usuario con el que se comparta el informe.
+Los usuarios que tengan acceso al informe deben tener al menos permisos Ver en el informe para poder verlo. Si el usuario que aparece en la lista del campo **Ejecutar este informe con los derechos de acceso de:** está desactivado, el informe ya no se muestra para ningún otro usuario con el que se comparte el informe.
 
 Para ejecutar un informe con los derechos de acceso de otro usuario:
 
@@ -83,11 +83,11 @@ Para ejecutar un informe con los derechos de acceso de otro usuario:
 
    >[!NOTE]
    >
-   >Los usuarios con un nivel de acceso inferior que tienen permiso para generar informes no tienen la capacidad de seleccionar a un usuario que no sean ellos mismos para el campo **Ejecutar este informe con los derechos de acceso de:**.
+   >Los usuarios con un nivel de acceso inferior al permitido para generar informes no tienen la capacidad de seleccionar un usuario distinto de ellos para el campo **Ejecutar este informe con los derechos de acceso de:**.
 
 1. Haga clic en **Listo**.
 1. Haga clic en **Guardar + Cerrar**.\
-   El informe ahora se muestra para todos los usuarios con los que se comparte el informe como si lo viera el usuario especificado en el campo **Ejecutar este informe con los derechos de acceso de:**.
+   El informe se muestra ahora para todos los usuarios con los que se comparte el informe como si lo viera el usuario especificado en el campo **Ejecutar este informe con los derechos de acceso de:**.
 
 >[!IMPORTANT]
 >
@@ -101,21 +101,21 @@ Puede configurar los informes para que se envíen como archivos adjuntos a un co
 
 Para entregar un informe con los derechos de acceso de otro usuario:
 
-1. Haga clic en el icono **Menú principal** ![Menú principal](assets/main-menu-icon.png) en la esquina superior derecha de Workfront y, a continuación, haga clic en **Informes**.
+1. Haga clic en el icono **Menú principal** ![Main Menu icon](assets/main-menu-icon.png) en la esquina superior derecha de Workfront y, a continuación, haga clic en **Reports**.
 
-1. Seleccione el informe que desea enviar con los derechos de acceso de otro usuario.
+1. Seleccione el informe que desea entregar con los derechos de acceso de otro usuario.
 1. Haga clic en el nombre del informe para seleccionarlo.
 1. Haga clic en **Acciones de informe**.
 1. Haga clic en **Enviar informe**.
 
-1. En el campo **Enviar este informe con los derechos de acceso de:**, empiece a escribir el nombre del usuario que desea que muestre el informe como cuando se envía en un mensaje de correo electrónico y, a continuación, selecciónelo cuando lo vea en la lista. El valor predeterminado es el nombre del usuario que está creando el informe.\
+1. En el campo **Enviar este informe con los derechos de acceso de:**, empiece a escribir el nombre del usuario que desea que muestre el informe como cuando se envía en un mensaje de correo electrónico y, a continuación, selecciónelo cuando lo vea en la lista. El valor predeterminado es el nombre del usuario que está generando el informe.\
    ![Informe enviado con derechos de acceso de](assets/unshimmed-send-report-access-rights-of.png)
 
    >[!NOTE]
    >
-   >Los usuarios con un nivel de acceso inferior que pueden generar informes no tienen la capacidad de seleccionar a otro usuario que no sea a sí mismos para el campo **Enviar este informe con los derechos de acceso de:**.
+   >Los usuarios con un nivel de acceso inferior al permitido para generar informes no tienen la capacidad de seleccionar un usuario distinto de ellos para el campo **Entregar este informe con los derechos de acceso de:**.
 
-1. Seleccione el **formato** que desea que el informe muestre en el correo electrónico:
+1. Seleccione el **formato** que desea que el informe se muestre en el correo electrónico:
 
    * HTML
    * PDF
@@ -125,10 +125,10 @@ Para entregar un informe con los derechos de acceso de otro usuario:
 
 1. Haga clic en **Enviar ahora** para enviarlo inmediatamente.\
    O\
-   Haga clic en **Hacer entrega repetida** para programar una entrega recurrente para el informe.\
-   Para obtener más información sobre las entregas de informes, consulte el artículo [Resumen de entrega de informes](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md).
+   Haga clic en **Realizar entrega repetitiva** para programar una entrega recurrente para el informe.\
+   Para obtener más información sobre las entregas de informes, vea el artículo [Información general sobre la entrega de informes](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md).
 
-## Limitaciones para informes con una columna Source
+## Limitaciones para los informes con una columna Origen
 
 Los siguientes informes muestran una columna Source en la que puede ver información sobre el objeto principal:
 
@@ -144,7 +144,7 @@ Por ejemplo, puede añadir cualquiera de las siguientes opciones a un informe co
 
 * Las columnas Nombre del proyecto, Nombre de tarea o Nombre del problema a un documento o informe de horas.
 * Las columnas Nombre del proyecto o Nombre de tarea a un informe de problemas.
-* Columna que utiliza expresiones en modo de texto que hace referencia a los tres objetos. El siguiente es un ejemplo de un informe de horas:
+* Columna que utiliza expresiones de modo de texto que hace referencia a los tres objetos. A continuación se muestra un ejemplo de un informe de hora:
 
   ```
   displayname=Custom Source
@@ -164,4 +164,4 @@ Por ejemplo, puede añadir cualquiera de las siguientes opciones a un informe co
   valueformat=HTML
   ```
 
-  Para obtener información acerca de las vistas en modo de texto, vea [Editar una vista con modo de texto](../text-mode/edit-text-mode-in-view.md).
+  Para obtener información sobre las vistas de modo de texto, vea [Editar una vista con el modo de texto](../text-mode/edit-text-mode-in-view.md).

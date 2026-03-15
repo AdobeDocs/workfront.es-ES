@@ -6,12 +6,12 @@ title: Configurar integración de JumpSeat
 description: Puede integrar [!DNL JumpSeat] con [!DNL Workfront] para crear una guía personalizada en el producto.
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
-author: Nolan, Becky
+author: Courtney, Becky
 exl-id: 23edb48b-8cad-47be-8ace-5238a5869677
-source-git-commit: 85ccee879fd4ba5a80b6e885458839901f83d26e
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '257'
-ht-degree: 91%
+ht-degree: 92%
 
 ---
 
@@ -25,7 +25,7 @@ Puede integrar [!DNL JumpSeat] con [!DNL Workfront] para crear una guía persona
 
 <table>
   <tr>
-   <td>paquete de Adobe Workfront
+   <td>Paquete de Adobe Workfront
    </td>
     <p>Workflow Ultimate</p>
    <td> <p>PRIME o ULTIMATE</p>
@@ -82,7 +82,7 @@ Para configurar la integración de [!DNL JumpSeat]:
 {{step-1-to-setup}}
 
 1. En el panel izquierdo, haga clic en **[!UICONTROL Sistema]** > Integración de **[!UICONTROL [!DNL JumpSeat]]**.
-1. Introduzca la URL **de**&#x200B;[!DNL JumpSeat], que se encuentra en el icono de extensión en [!DNL JumpSeat].
+1. Introduzca la URL ]**de**[!UICONTROL [!DNL JumpSeat], que se encuentra en el icono de extensión en [!DNL JumpSeat].
 
 >[!BEGINSHADEBOX]
 
@@ -90,11 +90,11 @@ Para configurar la integración de [!DNL JumpSeat]:
 
 https://{mycompanyname}.jumpseat.io
 
-&#x200B;>>
+>>
 
 >[!ENDSHADEBOX]
 
-1. Introducir token **de integración de**&#x200B;[!DNL JumpSeat]. Lo puede encontrar en la página **[!UICONTROL Configuración]** en [!DNL JumpSeat].
+1. Introducir token ]**de integración de**[!UICONTROL [!DNL JumpSeat]. Lo puede encontrar en la página **[!UICONTROL Configuración]** en [!DNL JumpSeat].
 
    **Ejemplo:** $2y$10$BevsKeQ8...OYR.LurSg2U64O
 

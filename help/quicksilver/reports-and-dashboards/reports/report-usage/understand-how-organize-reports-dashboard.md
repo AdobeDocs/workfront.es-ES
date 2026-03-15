@@ -4,13 +4,13 @@ product-area: reporting;dashboards
 navigation-topic: report-usage
 title: Obtenga información sobre cómo organizar informes en un tablero
 description: Puede ver si un informe se añade a un panel de control en Adobe Workfront. Esto puede resultar útil a la hora de decidir qué informes se pueden conservar y cuáles se pueden eliminar del sistema. Si los informes están en los paneles de control, es posible que los usuarios sigan dependiendo de ellos. Se recomienda no eliminar los informes que se enumeran en los paneles de control que utilizan los usuarios. Para obtener más información sobre cómo añadir informes a los paneles de control, consulte el artículo Añadir un informe a un panel de control.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: ce00c307-9e64-49f5-997b-f7fc461c960c
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '601'
-ht-degree: 92%
+ht-degree: 93%
 
 ---
 
@@ -40,7 +40,7 @@ Para obtener más información sobre cómo generar un informe, consulte el artí
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 

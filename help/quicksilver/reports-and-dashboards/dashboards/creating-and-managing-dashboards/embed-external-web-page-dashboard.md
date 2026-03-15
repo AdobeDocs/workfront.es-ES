@@ -3,10 +3,10 @@ product-area: dashboards
 navigation-topic: create-and-manage-dashboards
 title: Incrustar una página web externa en un panel de control
 description: Puede incrustar una página web externa en un panel de control para proporcionar acceso a información relacionada de otros sistemas dentro de Adobe Workfront o a otras páginas de Workfront.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 04b623b5-38b0-4c32-b54e-204f1d422e45
-source-git-commit: c8b7ad473b0c2120ef5ea52374b3501ad6f553f1
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '1017'
 ht-degree: 87%
@@ -29,7 +29,7 @@ Por ejemplo, si su organización tiene un repositorio de documentos basado en we
 >
 >
 >* Las páginas de panel de control ya no se admiten como páginas externas incrustadas en los paneles de control. Aunque los tableros existentes no se modificarán automáticamente para eliminar estas páginas externas, cualquier modificación en un panel de control que incluya una referencia de este tipo no podrá guardarse hasta que se elimine o cambie la referencia.
->  &#x200B;> En concreto, los subdominios Workfront.com que ya no se admiten son los siguientes:
+> En concreto, los subdominios Workfront.com que ya no se admiten son los siguientes:
 >
 >     * /dashboards
 >     * /dashboard/:ID&#x200B;
@@ -58,7 +58,7 @@ Por ejemplo, si su organización tiene un repositorio de documentos basado en we
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 

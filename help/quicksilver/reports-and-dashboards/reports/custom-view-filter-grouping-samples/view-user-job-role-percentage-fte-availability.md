@@ -4,17 +4,17 @@ product-area: reporting;user-management
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Ver: Porcentaje de rol de usuario de disponibilidad de FTE'
 description: Puede agregar una columna a la vista de una lista de usuarios para mostrar una lista de los roles a los que está asociado el usuario, así como el porcentaje de disponibilidad de FTE para cada rol, tal como se define en el perfil de usuario.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: d479b0b1-8ad5-47d6-8ef8-80261b46ecea
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '276'
-ht-degree: 24%
+ht-degree: 28%
 
 ---
 
-# Ver: porcentaje de puesto de usuario con disponibilidad de ETC
+# Vista: porcentaje de disponibilidad de FTE de función de usuario
 
 <!--Audited: 11/2024-->
 
@@ -33,7 +33,7 @@ Para obtener información acerca de cómo definir el porcentaje de disponibilida
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 

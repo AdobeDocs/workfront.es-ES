@@ -3,13 +3,13 @@ product-area: calendars
 navigation-topic: calendars-navigation-topic
 title: Editar un informe de calendario existente
 description: Es posible modificar calendarios existentes añadiendo o eliminando un vínculo a un proyecto. También se pueden modificar las agrupaciones de calendario asociadas a un informe de calendario.
-author: Jenny
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 494d040c-bd1d-4356-824f-a75890803617
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '279'
-ht-degree: 68%
+ht-degree: 69%
 
 ---
 
@@ -32,7 +32,7 @@ Es posible modificar calendarios existentes añadiendo o eliminando un vínculo 
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
@@ -42,11 +42,11 @@ Es posible modificar calendarios existentes añadiendo o eliminando un vínculo 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso</td> 
-   <td> <p> Editar el acceso a Informes, Paneles y Calendarios</p></td> 
+   <td> <p> Editar el acceso a informes, paneles y calendarios</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td>Administrar el acceso al informe de calendario</td> 
+   <td>Administrar el acceso al informe del calendario</td> 
   </tr> 
  </tbody> 
 </table>
@@ -60,19 +60,19 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
 
 {{step1-to-calendars}}
 
-1. (Opcional) Para cambiar el nombre del informe de calendario, haga clic en **Cambiar nombre** junto al menú desplegable de calendario.
+1. (Opcional) Para cambiar el nombre del informe de calendario, haga clic en el botón **Cambiar nombre** junto al menú desplegable de calendario.
 Si compartió el informe de calendario con otros usuarios o equipos, el nombre del calendario modificado se actualizará automáticamente en la vista de calendario.
 
 1. (Opcional) Para añadir un proyecto al informe de calendario:
    1. Haga clic en **[!UICONTROL Añadir al calendario].**
-   1. Empiece a escribir el nombre del proyecto desde el que desea agregar eventos de calendario y, a continuación, haga clic en el nombre cuando aparezca en la lista desplegable.
+   1. Comience a escribir el nombre de un proyecto desde el que desee agregar eventos de calendario y, a continuación, haga clic en el nombre cuando aparezca en la lista desplegable.
    1. Haga clic en **Add**.
       ![agregar un proyecto a un calendario](assets/add-a-calendar-project.png)
 
 
 1. (Opcional) Para añadir una agrupación de calendario o modificar una existente:
-   1. Haga clic en el menú **Más** junto al nombre del proyecto y luego haga clic en **Editar**.
-      ![editar proyecto en calendario](assets/edit-project-in-calendar.png)
+   1. Haga clic en el menú **More** junto al nombre del proyecto y, a continuación, haga clic en **Edit**.
+      ![editar proyecto en el calendario](assets/edit-project-in-calendar.png)
 
    1. Elija cómo quiere agrupar los elementos:
 

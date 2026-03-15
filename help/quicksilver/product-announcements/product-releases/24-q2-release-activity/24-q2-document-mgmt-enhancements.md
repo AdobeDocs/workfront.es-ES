@@ -1,11 +1,11 @@
 ---
 title: Mejoras en la administración de documentos del segundo trimestre de 2024
 description: Mejoras en la administración de documentos del segundo trimestre de 2024
-author: Nolan
+author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9f7873e0-3645-49db-8dec-fb0c6eff3e8d
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '333'
 ht-degree: 100%
@@ -60,4 +60,4 @@ Para ayudarle a administrar y analizar sus solicitudes de aprobación de un vist
 * Aprobaciones pendientes
 * Aprobaciones vencidas
 
-Puede explorar en profundidad las categorías enumeradas anteriormente para obtener una vista más detallada. El widget Todas las aprobaciones está disponible en los nuevos paneles de inicio y de lienzo.
+Puede explorar en profundidad las categorías enumeradas anteriormente para obtener una vista más detallada. El widget Todas las aprobaciones está disponible en los nuevos paneles de control de inicio y de lienzo.

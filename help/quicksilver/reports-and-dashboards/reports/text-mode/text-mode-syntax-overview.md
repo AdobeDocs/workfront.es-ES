@@ -3,11 +3,11 @@ product-area: reporting
 navigation-topic: text-mode-reporting
 title: Resumen de sintaxis de modo de texto
 description: Puede utilizar la interfaz de modo de texto para crear vistas, filtros, agrupaciones y peticiones de datos personalizadas más complejos en listas e informes. Con el modo de texto, puede acceder a campos y sus atributos que no están disponibles en la interfaz del modo estándar.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 role: User
 exl-id: f24430e1-c5f7-4925-93df-0e956a03c863
-source-git-commit: 9caac488522d2a12d3bdf4bf23ba7e44c6dbf7d2
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '1862'
 ht-degree: 98%
@@ -29,7 +29,7 @@ Para obtener más información sobre la creación de informes con el modo de tex
 ## Consideraciones sobre la sintaxis del modo de texto
 
 * Debe comprender la sintaxis de Adobe Workfront antes de poder empezar a crear elementos de informes en modo de texto. La sintaxis de Workfront para el modo de texto es única para esta aplicación y tiene características únicas con las que debe estar familiarizado.
-* Antes de empezar a usar el modo de texto en los informes, le recomendamos encarecidamente que tome nuestras clases sobre informes avanzados para comprender mejor nuestro lenguaje del modo de texto.
+* Before you start using text mode in your reports, we strongly recommend that you take our classes on advanced reporting, to gain a deeper understanding of our text mode language.
 * Puede personalizar vistas, filtros y agrupaciones mediante la interfaz de modo estándar. Sin embargo, puede crear indicadores personalizados solo con el modo de texto.
 
 ## Directrices comunes para crear elementos de informes en modo de texto

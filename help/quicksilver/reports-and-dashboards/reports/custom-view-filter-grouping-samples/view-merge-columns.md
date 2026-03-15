@@ -4,17 +4,17 @@ product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Ver: Combinar información de varias columnas en una columna compartida'
 description: Puede combinar la información que se muestra en varias columnas independientes y mostrarla en una columna compartida.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: d4f9db12-59ce-4cfc-90dd-e611b49fafdf
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '1070'
-ht-degree: 7%
+ht-degree: 8%
 
 ---
 
-# Ver: combinar información de varias columnas en una columna compartida
+# Vista: combinar información de varias columnas en una columna compartida
 
 <!-- Audited: 11/2024 -->
 
@@ -29,7 +29,7 @@ Puede combinar la información que se muestra en varias columnas independientes 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
@@ -63,15 +63,15 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
 
   Existen las siguientes excepciones:
 
-   * Al ver información en Workfront, se conserva el formato de la primera columna y el de todas las demás columnas si las columnas que componen una columna combinada tienen un formato diferente entre sí,.
-   * Al exportar la vista a un archivo PDF, el formato condicional se aplica a la primera columna de una columna combinada.
+   * Al ver información en Workfront, se mantiene el formato de la primera columna y se omite el formato de todas las demás columnas si las columnas que componen una columna combinada tienen un formato diferente entre sí.
+   * Al exportar la vista a un archivo de PDF, el formato condicional se aplica a la primera columna de una columna combinada.
    * Al exportar la vista a un archivo de Excel, las columnas combinadas se muestran como columnas independientes. Las columnas individuales también muestran sus respectivas reglas de formato condicional.
 
-* Las columnas con el atributo **viewalias** pueden limitar la cantidad de columnas que se pueden combinar. Para evitar estos límites, evite utilizar el atributo **viewalias**. Si debe incluir el atributo **viewalias** en una columna, asegúrese de que sea el último elemento que aparezca en la columna.
+* Las columnas con el atributo **viewalias** pueden limitar la cantidad de columnas que se pueden combinar. Para evitar estos límites, evite utilizar el atributo **viewalias**. Si debe incluir el atributo **viewalias** en una columna, asegúrese de que sea el último elemento de la columna.
 
-* Si exporta una lista con columnas compartidas a un formato de Excel o Delimitado por tabuladores, estas columnas se separan en el archivo exportado.
+* Si exporta una lista con columnas compartidas a un formato de Excel o Delimitado por tabulaciones, estas columnas se separan en el archivo exportado.
 
-* Cuando una o ambas columnas muestran un campo de tipo `tile`, se introduce automáticamente un salto de línea forzado en la columna combinada. Por ejemplo, los campos de texto con formato son de tipo `tile`. En este caso, hay un código de línea de `type=tile` cuando se visualizan las columnas en modo de texto.
+* Cuando una o ambas columnas muestran un campo de tipo `tile`, se introduce automáticamente un salto de línea forzado en la columna combinada. Por ejemplo, los campos de texto con formato son campos de tipo `tile`. En este caso, hay un código de línea de `type=tile` al ver las columnas en modo de texto.
 
 ## Combinar datos de dos columnas sin un salto de línea
 
@@ -94,10 +94,10 @@ Para combinar datos de dos columnas sin un salto de línea:
 
    Debe anteponer el número de columna de la primera columna al número de esa columna. El recuento de columnas siempre comienza con la columna situada más a la izquierda de la lista o del informe con la etiqueta `column.0.`.
 
-   Si comparte más de una columna, asegúrese de agregar el número de columna en las líneas de código que contienen la información para compartir de cada columna.
+   Si comparte más de una columna, asegúrese de agregar el número de columna en las líneas de código que contienen la información de uso compartido de cada columna.
 
 
-   **EJEMPLO:** A continuación se muestra el código de modo de texto de una columna combinada que contiene tres columnas independientes, comenzando por la segunda columna de la lista. Los valores combinados son Nombre del proyecto, Fecha planificada de inicio y Nombre del propietario del proyecto. No hay ningún salto entre los tres valores:
+   **EJEMPLO:** A continuación se muestra el código de modo de texto de una columna combinada que contiene tres columnas independientes, comenzando por la segunda columna de la lista. Los valores combinados son Nombre del proyecto, Fecha de inicio planeada y Nombre del propietario del proyecto, y no hay interrupción entre los tres valores:
 
    ```
    column.1.valuefield=name
@@ -113,7 +113,7 @@ Para combinar datos de dos columnas sin un salto de línea:
    ![Columna compartida sin saltos de línea](assets/shared-column-no-line-breaks-350x142.png)
 
 
-1. Haga clic en **Listo** y luego en **Guardar vista**.
+1. Haga clic en **Listo** y, a continuación, en **Guardar vista**.
 
 ## Combinar datos de dos columnas con un salto de línea
 
@@ -145,9 +145,9 @@ Haga lo siguiente para combinar los datos de varias columnas y mostrarlos en una
 
    Si la columna combinada está en el centro de la vista, las columnas se numeran según su lugar en la vista. El recuento de columnas siempre comienza con la columna situada más a la izquierda de la lista o del informe con la etiqueta `column.0.`.
 
-   Si comparte más de una columna, asegúrese de agregar el número de columna en las líneas de código que contienen la información para compartir.
+   Si comparte más de una columna, asegúrese de agregar el número de columna en las líneas de código que contienen la información compartida.
 
-   **EJEMPLO:** A continuación se muestra el código de modo de texto de una columna compartida que contiene el nombre del proyecto, la fecha planificada de inicio y el nombre del propietario del proyecto con un salto de línea. La columna compartida es la segunda columna de una vista de proyecto.
+   **EJEMPLO:** A continuación se muestra el código de modo de texto de una columna compartida que contiene Nombre del proyecto, Fecha de inicio planeada y Nombre del propietario del proyecto con un salto de línea. La columna compartida es la segunda columna de una vista de proyecto.
 
    ```
    column.1.displayname=Project_StartDate_Owner
@@ -173,4 +173,4 @@ Haga lo siguiente para combinar los datos de varias columnas y mostrarlos en una
 
    ![Columna compartida con saltos de línea](assets/shared-column-with-line-breaks-350x199.png)
 
-1. Haga clic en **Listo** y luego en **Guardar vista**.
+1. Haga clic en **Listo** y, a continuación, en **Guardar vista**.

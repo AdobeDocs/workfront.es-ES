@@ -4,10 +4,10 @@ product-area: agile-and-teams
 navigation-topic: boards
 title: Administrar flujos de trabajo
 description: Un flujo de trabajo es un grupo configurable de tableros y tarjetas para colaborar en el trabajo.
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: c46c42e8-e14d-414d-b883-c4d885338e42
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '934'
 ht-degree: 99%
@@ -35,7 +35,7 @@ Los flujos de trabajo aparecen en el panel de control junto a tableros individua
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 

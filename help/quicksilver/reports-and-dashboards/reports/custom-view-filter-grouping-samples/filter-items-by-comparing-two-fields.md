@@ -4,13 +4,13 @@ product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Filtrar: eliminar elementos de una lista comparando dos campos'
 description: Puede filtrar elementos de una lista comparando dos de sus campos. Por ejemplo, puede mostrar solo las tareas cuya fecha real de finalización sea mayor que la fecha planificada de finalización.
-author: Lisa and Jenny
+author: Lisa and Courtney
 feature: Reports and Dashboards
 exl-id: 6a41db8e-1456-4031-bf2a-ca6d4111ad44
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '233'
-ht-degree: 77%
+ht-degree: 78%
 
 ---
 
@@ -29,7 +29,7 @@ Puede filtrar elementos de una lista comparando dos de sus campos. Por ejemplo, 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 

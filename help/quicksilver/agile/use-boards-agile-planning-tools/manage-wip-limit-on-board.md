@@ -4,13 +4,13 @@ product-area: agile-and-teams
 navigation-topic: agile-navigation-topic
 title: Administrar el límite de trabajo en curso (WIP) en un tablero
 description: Puede configurar un límite de trabajo en curso (WIP) para cada columna de un tablero.
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: 7901c6e7-75a4-41e4-b288-d527c4a6d031
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '249'
-ht-degree: 20%
+ht-degree: 22%
 
 ---
 
@@ -29,7 +29,7 @@ El límite de trabajo en curso es simplemente una advertencia visual y no le imp
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 

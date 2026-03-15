@@ -4,13 +4,13 @@ product-area: reporting;projects;user-management
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Ver: Lista de usuarios del proyecto con roles'
 description: Puede aplicar esta vista en una lista de proyectos o un informe para mostrar una lista de los usuarios asociados al proyecto, así como una lista de las funciones que desempeñan en el proyecto.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: a3f59f69-7f39-4814-bd2f-7734d620081e
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '335'
-ht-degree: 77%
+ht-degree: 78%
 
 ---
 
@@ -37,7 +37,7 @@ La información de este informe también se puede encontrar en el área Personas
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 

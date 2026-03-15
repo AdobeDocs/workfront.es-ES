@@ -1,18 +1,18 @@
 ---
-title: Mejoras del proyecto del primer trimestre de 2025
-description: Mejoras del proyecto del primer trimestre de 2025
-author: Nolan
+title: Mejoras en los proyectos del primer trimestre de 2025
+description: Mejoras en los proyectos del primer trimestre de 2025
+author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 998f3508-623e-471b-9ab7-bded5add6b5b
-source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '181'
-ht-degree: 23%
+ht-degree: 31%
 
 ---
 
-# Mejoras del proyecto del primer trimestre de 2025
+# Mejoras en los proyectos del primer trimestre de 2025
 
 Esta página describe todas las mejoras de proyecto realizadas con la versión del primer trimestre de 2025 en el entorno de vista previa. Estas mejoras estarán disponibles en el entorno de producción, como se ha indicado.
 

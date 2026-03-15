@@ -2,15 +2,15 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 'Ver: Mostrar tareas principales con una profundidad de hasta 4 niveles'
+title: 'Ver: Mostrar tareas principales de hasta 4 niveles de profundidad'
 description: Esta vista de tareas muestra el nombre de la tarea en la primera columna y (si existen) hasta 4 tareas principales en columnas independientes en la misma lista.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 66b45d64-794d-4adc-b208-2ded0dc9c5dc
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '248'
-ht-degree: 77%
+ht-degree: 78%
 
 ---
 
@@ -31,7 +31,7 @@ Esta vista de tareas muestra el nombre de la tarea en la primera columna y (si e
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
@@ -61,7 +61,7 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
 1. Vaya a una lista de tareas.
 1. En el menú desplegable **Vista**, seleccione **Nueva vista**.
 1. En el área **Vista previa de columna**, elimine todas las columnas excepto una.
-1. Haga clic en el encabezado de la columna restante y, a continuación, haga clic en **Cambiar al modo de texto** > **Editar modo de texto**.
+1. Haga clic en el encabezado de la columna restante y, a continuación, haga clic en **Cambiar a modo de texto** > **Editar modo de texto**.
 1. Quite el texto que encuentra en el cuadro **Modo de texto** y sustitúyalo por el siguiente código:
 
 
@@ -147,6 +147,6 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
    column.4.width=150
    ```
 
-1. Haga clic en **Listo** > **Guardar vista**.
+1. Haga clic en **Hecho** > **Guardar vista**.
 
    El nombre de la tarea se muestra en la primera columna y, si la tarea tiene elementos principales, se muestran hasta 4 elementos principales en las columnas restantes.

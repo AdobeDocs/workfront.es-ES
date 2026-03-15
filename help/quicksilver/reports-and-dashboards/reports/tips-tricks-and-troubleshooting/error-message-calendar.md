@@ -2,15 +2,15 @@
 content-type: tips-tricks-troubleshooting
 product-area: reporting;calendars
 navigation-topic: tips-tricks-and-troubleshooting-reports
-title: 'Mensaje de error en el calendario: "Este calendario tiene los derechos de visualización de un usuario desactivado".'
+title: 'Mensaje de error en el calendario: ''Este calendario tiene los derechos de vista de un usuario desactivado.'''
 description: Obtenga información acerca del mensaje de error “Este calendario tiene los derechos de visualización de un usuario desactivado”.
-author: Jenny
+author: Courtney
 feature: Reports and Dashboards
 exl-id: ba1e25f2-4960-47f7-ac7d-6f6b0f59cfe2
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '258'
-ht-degree: 93%
+ht-degree: 94%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 93%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 

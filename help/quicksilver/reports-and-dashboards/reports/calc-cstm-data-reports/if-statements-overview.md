@@ -4,10 +4,10 @@ product-area: reporting
 navigation-topic: calculate-custom-data-reports
 title: Información general sobre las instrucciones IF
 description: Las instrucciones “IF” se pueden utilizar en lenguajes de programación generales. En Adobe Workfront, las instrucciones “IF” le permiten comparar, dar formato y agrupar campos de datos para fines de creación de informes y datos personalizados. Además, el pensamiento matemático en las instrucciones “IF” conduce a una mejor comprensión conceptual, ya que las variables para expresiones se utilizan con frecuencia.
-author: Jenny
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 090a85fd-fdbe-4507-8bad-ce8c29bf8fc9
-source-git-commit: a1ead6d0c1c85bfbe6d7302506743db8d8b3e205
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '925'
 ht-degree: 100%

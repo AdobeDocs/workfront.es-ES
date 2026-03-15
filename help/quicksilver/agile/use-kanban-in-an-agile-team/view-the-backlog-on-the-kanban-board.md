@@ -3,10 +3,10 @@ product-area: agile-and-teams;projects
 navigation-topic: use-kanban-in-an-agile-team
 title: Agregar el registro de pendientes al Panel Kanban
 description: Puede mostrar la columna [!UICONTROL Registro de asuntos pendientes] directamente en el tablero Kanban. La columna [!UICONTROL Registro de asuntos pendientes] del tablero  [!DNL Kanban]  contiene los primeros 20 elementos del registro de asuntos pendientes del tablero  [!DNL Kanban] . Las tareas y problemas deben pertenecer a un proyecto con un estado igual a Actual para que aparezca en el registro de asuntos pendientes.
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: 77c7f7c7-66d9-4aec-9a0c-bfdc470a58d7
-source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '250'
 ht-degree: 92%

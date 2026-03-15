@@ -4,10 +4,10 @@ product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Informes o listas: mostrar los usuarios asociados a un objeto'
 description: Puede mostrar usuarios, funciones y equipos asociados con objetos en informes o listas, así como hacer referencia a ellos en filtros. No se puede agrupar por usuarios, funciones ni equipos asociados a objetos.
-author: Lisa and Jenny
+author: Lisa and Courtney
 feature: Reports and Dashboards
 exl-id: 9abdaafb-da2c-4b5d-9117-59afa4a1e71f
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '674'
 ht-degree: 97%

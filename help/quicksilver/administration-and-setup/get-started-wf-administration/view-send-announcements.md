@@ -4,18 +4,18 @@ product-area: system-administration
 navigation-topic: start-with-workfront-administration
 title: Enviar anuncios
 description: Como administrador de Adobe Workfront, puede utilizar la página Anuncios para enviar anuncios a los usuarios.
-author: Nolan
+author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: 413e3051-fcb5-44d7-b6bd-6b05d39935e8
-source-git-commit: 15ea03bf586054f7ef421f8cacede6f42835a6e4
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '566'
-ht-degree: 6%
+ht-degree: 7%
 
 ---
 
-# Envío de anuncios
+# Enviar anuncios
 
 Como administrador de Adobe Workfront, puede utilizar la página Anuncios para enviar anuncios a los usuarios.
 

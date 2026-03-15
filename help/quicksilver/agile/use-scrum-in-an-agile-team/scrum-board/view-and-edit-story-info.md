@@ -3,10 +3,10 @@ product-area: agile-and-teams;projects
 navigation-topic: scrum-board
 title: Ver y editar la información de la historia en el panel de exploración
 description: Al ver el mosaico de una historia en el tablero Kanban, determinada información está disponible para editar en línea, directamente desde el mosaico de la historia.
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: 88d156ea-0913-425e-b3eb-6ae81d2d2336
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '466'
 ht-degree: 56%

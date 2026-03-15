@@ -4,13 +4,13 @@ product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Filtro: mostrar solo los elementos en un estado de aprobación'
 description: Solo puede mostrar elementos en un estado determinado que esté actualmente en Aprobación pendiente. Funciona igual para cualquier otro objeto con un estado de aprobación.
-author: Lisa and Jenny
+author: Lisa and Courtney
 feature: Reports and Dashboards
 exl-id: c1de5193-d3d5-406c-aa68-e6ba6d6751ae
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '265'
-ht-degree: 76%
+ht-degree: 77%
 
 ---
 
@@ -35,7 +35,7 @@ Puede colocar los siguientes objetos en un estado de aprobación:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 

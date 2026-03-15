@@ -4,10 +4,10 @@ product-area: reporting
 navigation-topic: calculate-custom-data-reports
 title: Operadores de condición en expresiones personalizadas calculadas
 description: Puede utilizar operadores o modificadores de condición al crear datos personalizados calculados en Adobe Workfront cuando utilice el modo de texto.
-author: Jenny
+author: Courtney
 feature: Reports and Dashboards
 exl-id: ce98ca39-cb86-4ef7-b75c-29ceb916e885
-source-git-commit: a1ead6d0c1c85bfbe6d7302506743db8d8b3e205
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '731'
 ht-degree: 98%
@@ -37,7 +37,7 @@ Los ejemplos de esta guía ilustran el uso de operadores de condición en campos
 
 Para obtener información acerca de la diferencia de sintaxis entre los campos personalizados calculados y los datos personalizados calculados en los informes, consulte [Campos personalizados calculados frente a columnas calculadas](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-fields-calculated-columns.md).
 
-Para obtener información acerca de las reglas de negocio, vea [Crear y editar reglas de negocio](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/business-rules.md).
+Para obtener información sobre reglas de negocio, consulte [Crear y editar reglas de negocio](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/business-rules.md).
 
 Consulte el Explorador de API para buscar los campos a los que desea hacer referencia en las expresiones personalizadas calculadas. Para obtener información sobre el Explorador de API, consulte [Explorador de API](../../../wf-api/general/api-explorer.md).
 

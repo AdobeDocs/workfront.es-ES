@@ -4,17 +4,17 @@ product-area: reporting;projects;portfolios;programs
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Ver: Mostrar Sangrías de Tarea en una Lista de Tareas'
 description: En esta vista de tareas, puede agregar código a la columna Nombre de tarea para mostrar las tareas con sangría según la Estructura de desglose de trabajo del proyecto.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: f7f43e1e-db32-48b8-9a23-ff9fa6195386
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '241'
-ht-degree: 31%
+ht-degree: 36%
 
 ---
 
-# Ver: mostrar las sangrías de las tareas en una lista de tareas
+# Vista: mostrar sangrías de tareas en una lista de tareas.
 
 <!--Audited: 11/2024-->
 
@@ -31,7 +31,7 @@ En esta vista de tareas, puede agregar código a la columna Nombre de tarea para
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 

@@ -1,19 +1,19 @@
 ---
 product-area: reporting
 navigation-topic: reporting-elements
-title: "Elementos de creación de informes: filtros, vistas y agrupaciones"
+title: 'Elementos para la creación de informes: filtros, vistas y agrupaciones'
 description: Los elementos principales que cada lista e informe debe tener en Workfront son un filtro, una vista y una agrupación. Cada elemento proporciona información diferente dentro de un informe.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 5697905e-42c0-403b-85d4-798a1a3a2e7f
-source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '838'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
-# Elementos de informes: filtros, vistas y agrupaciones
+# Elementos para la creación de informes: filtros, vistas y agrupaciones
 
 <!-- Audited: 11/2024 -->
 

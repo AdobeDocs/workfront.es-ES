@@ -4,13 +4,13 @@ product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Filtro: Mostrar informes programados para su envío'
 description: Este filtro de informes muestra todos los informes programados para ser entregados automáticamente en Adobe Workfront. Se recomienda utilizarlo con la vista estándar.
-author: Lisa and Jenny
+author: Lisa and Courtney
 feature: Reports and Dashboards
 exl-id: 7b937384-80c9-4bc7-94be-5573cf86b35b
-source-git-commit: be102fd5f490b12837a231774253c030973c1c4f
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '179'
-ht-degree: 59%
+ht-degree: 62%
 
 ---
 

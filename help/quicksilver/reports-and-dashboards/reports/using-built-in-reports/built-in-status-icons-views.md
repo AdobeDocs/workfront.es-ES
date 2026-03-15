@@ -3,13 +3,13 @@ product-area: reporting
 navigation-topic: using-built-in-reports
 title: Iconos de estado integrados en las vistas
 description: Puede añadir el campo Iconos de estado integrado como una columna en las vistas para mejorar la visibilidad de los puntos clave sobre los objetos.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 7831d5c1-e982-4780-a5a8-54dc6decb3a1
-source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '1205'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -52,7 +52,7 @@ Tenga en cuenta lo siguiente:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 

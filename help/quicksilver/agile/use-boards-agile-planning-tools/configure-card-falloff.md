@@ -4,13 +4,13 @@ content-type: reference
 navigation-topic: boards
 title: Configurar la caída de tarjetas
 description: Puede configurar un tablero para que las tarjetas se archiven o se caigan del tablero según una programación.
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: 0e4f6b3c-75aa-4314-9cb0-737e5a9d3bda
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '235'
-ht-degree: 40%
+ht-degree: 42%
 
 ---
 
@@ -29,7 +29,7 @@ Cuando una tarjeta se cae del tablero, se archiva. Puede mostrar tarjetas archiv
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 

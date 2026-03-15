@@ -2,15 +2,15 @@
 content-type: reference
 product-area: reporting;user-management
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 'Ver: Detalles del usuario ampliados'
+title: 'Ver: Detalles de usuario ampliados'
 description: Esta vista de usuario muestra información sobre los usuarios. Además del nombre, los niveles de acceso y la compañía, también muestra listas de sus grupos, equipos y roles.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 6a978b43-4718-43fb-80b8-844b35e09d06
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '215'
-ht-degree: 72%
+ht-degree: 73%
 
 ---
 
@@ -31,7 +31,7 @@ Esta vista de usuario muestra información sobre los usuarios. Además del nombr
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
@@ -63,8 +63,8 @@ Para aplicar este vista:
 1. En el menú desplegable **Vista**, seleccione **Nueva vista**.
 
 1. En el área **Vista previa de columnas**, elimine todas las columnas excepto una.
-1. Haga clic en el encabezado de la columna restante y, a continuación, haga clic en **Cambiar al modo de texto** > **Editar modo de texto**.
-1. Elimine el texto que encuentre en el cuadro **Editar modo de texto** y reemplácelo por el siguiente código:
+1. Haga clic en el encabezado de la columna restante y, a continuación, haga clic en **Cambiar a modo de texto** > **Editar modo de texto**.
+1. Quite el texto que encuentre en el cuadro **Editar modo de texto** y sustitúyalo por el código siguiente:
 
    ```
    column.0.descriptionkey=name 
@@ -151,4 +151,4 @@ Para aplicar este vista:
    column.5.width=150
    ```
 
-1. Haga clic en **Listo** > **Guardar vista**.
+1. Haga clic en **Hecho** > **Guardar vista**.

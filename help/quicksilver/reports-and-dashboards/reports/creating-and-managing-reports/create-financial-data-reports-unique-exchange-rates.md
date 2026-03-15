@@ -3,10 +3,10 @@ product-area: reporting
 navigation-topic: create-and-manage-reports
 title: Cree informes de datos financieros con tipos de cambio únicos
 description: Si se configuraron varios tipos de cambio en Adobe Workfront, es posible establecer valores financieros en informes y listas para que se muestren en una moneda distinta de la predeterminada.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: a0837c70-8330-4c38-98dc-8cf2e7e2e4bd
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '976'
 ht-degree: 98%
@@ -36,7 +36,7 @@ Si hubiera proyectos con una sola moneda en el informe, las sumas de las agrupac
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 

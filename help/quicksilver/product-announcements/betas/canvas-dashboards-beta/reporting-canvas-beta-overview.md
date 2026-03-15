@@ -1,17 +1,17 @@
 ---
 content-type: reference
 navigation-topic: betas
-title: "Resumen del lienzo de informes beta:"
+title: Resumen de Lienzo de informes beta
 description: Información sobre el programa beta para la próxima herramienta Lienzo de informes para Adobe Workfront
-author: Nolan
+author: Courtney
 feature: Product Announcements
 hidefromtoc: true
 hide: true
 exl-id: 5767ef7d-1bc3-40d8-abeb-02b15166a0a3
-source-git-commit: 535e9c8481ce0781ee0d35636bb6d56de4d1e102
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '1061'
-ht-degree: 1%
+ht-degree: 4%
 
 ---
 
@@ -108,9 +108,9 @@ Para ofrecer la versión beta a nuestros clientes lo antes posible, la hemos lan
 * Nota
 * Portafolio
 * Proyecto
-* Programar
+* Programa
 * Tarea
-* Hoja de horas
+* Plantilla de horas
 * Elemento de trabajo
 +++
 

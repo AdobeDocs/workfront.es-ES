@@ -4,17 +4,17 @@ product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Ver: Ruta de envío de problemas'
 description: Puede mostrar la ruta a través de la cual se ha enviado un problema en la vista de un informe de problemas. La ruta indica la cola, el grupo de temas y el tema de la cola donde se envió el problema originalmente.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: bee1e066-c3f4-4d74-92b0-ab7f43d52a50
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '226'
-ht-degree: 30%
+ht-degree: 33%
 
 ---
 
-# Ver: ruta de envío de problemas
+# Vista: ruta de envío de problemas
 
 <!--Audited: 11/2024-->
 
@@ -31,7 +31,7 @@ Puede mostrar la ruta a través de la cual se ha enviado un problema en la vista
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 

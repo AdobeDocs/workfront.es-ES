@@ -1,18 +1,19 @@
 ---
 product-area: Canvas Dashboards
 navigation-topic: report-types
-title: Duplicación de un informe en un panel de lienzo
+title: Generar un informe en un panel de lienzo
 description: Puede duplicar un informe en un panel de lienzo.
-author: Courtney and Jenny
+author: Courtney
 feature: Reports and Dashboards
-source-git-commit: 7e14f7224b5383f94c330a1543b9e01b651ed821
+exl-id: e0f9d091-bb89-4c5b-a18d-b1e339084e67
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '350'
-ht-degree: 16%
+ht-degree: 24%
 
 ---
 
-# Duplicación de un informe en un panel de lienzo
+# Generar un informe en un panel de lienzo
 
 >[!IMPORTANT]
 >
@@ -38,7 +39,7 @@ Puede duplicar un informe de KPI, tabla o gráfico en un panel de lienzo una vez
 </col> 
 <tbody> 
 <tr> 
-   <td role="rowheader"><p>paquete de Adobe Workfront</p></td> 
+   <td role="rowheader"><p>Paquete de Adobe Workfront</p></td> 
    <td> 
 <p>Cualquiera </p> 
    </td> 

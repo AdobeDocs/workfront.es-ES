@@ -4,13 +4,13 @@ product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Ver: Mostrar el nombre de las tareas principales en mayúsculas'
 description: Puede añadir esta columna a una vista de tareas para mostrar el nombre de las tareas principales en mayúsculas.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: bb489920-6b17-4689-b432-b0c28bcb5d10
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '244'
-ht-degree: 68%
+ht-degree: 69%
 
 ---
 
@@ -31,7 +31,7 @@ Puede añadir esta columna a una vista de tareas para mostrar el nombre de las t
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 

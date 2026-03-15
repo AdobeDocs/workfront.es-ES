@@ -3,17 +3,17 @@ product-area: agile-and-teams
 navigation-topic: work-in-an-agile-environment
 title: Administrar el registro de pendientes de Agile
 description: Las tareas y los problemas se pueden asignar a un equipo Agile y agregarse al registro de asuntos pendientes de ese equipo como historias, según la metodología Agile que utilice el equipo.
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: 59660840-7ab8-482e-8b43-96b4a1ecc538
-source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '1334'
-ht-degree: 7%
+ht-degree: 8%
 
 ---
 
-# Administrar el registro de pendientes de Agile
+# Administrar el registro de asuntos pendientes Agile
 
 Los siguientes elementos de trabajo se pueden asignar a un equipo Agile y añadirse al registro de asuntos pendientes de ese equipo como historias, según la metodología Agile que utilice el equipo:
 

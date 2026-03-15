@@ -3,13 +3,13 @@ product-area: reporting
 navigation-topic: text-mode-reporting
 title: Comparar campos en formato condicional
 description: Puede utilizar el formato condicional para comparar dos campos diferentes en una vista y resaltarlos cuando se cumplan determinados criterios entre los campos.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: da4447ba-6e76-4701-88ee-87a30393bed9
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '468'
-ht-degree: 15%
+ht-degree: 18%
 
 ---
 
@@ -28,7 +28,7 @@ Puede utilizar el formato condicional para comparar dos campos diferentes en una
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 

@@ -4,13 +4,13 @@ product-area: reports and dashboards
 navigation-topic: data connect
 title: Ver métricas de uso de Workfront Data Connect
 description: Con la pestaña Métricas de Workfront Data Connect, puede ver las métricas de uso de su organización según el número mensual de horas de cálculo utilizadas y el número de consultas realizadas.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 29185bd1-e058-4b42-a508-53406fb9ddd2
-source-git-commit: 7764e512a3fb30a89e6645a4d8544a5fcffee231
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '309'
-ht-degree: 21%
+ht-degree: 24%
 
 ---
 
@@ -27,7 +27,7 @@ Con la pestaña [!DNL Workfront Data Connect] [!UICONTROL Métricas], puede ver 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td><p>Ultimate</p>
     <p>Workflow Ultimate</p>
    </td>

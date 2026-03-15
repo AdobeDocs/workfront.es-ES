@@ -1,19 +1,19 @@
 ---
 product-area: reporting;setup
 navigation-topic: create-and-manage-reports
-title: Resumen de entrega de informes
-description: Resumen de entrega de informes
-author: Nolan
+title: Información general sobre la entrega de informes
+description: Información general sobre la entrega de informes
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 1637df59-ca1d-4cf6-b83d-2b27936cdb96
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '1534'
-ht-degree: 24%
+ht-degree: 25%
 
 ---
 
-# Resumen de entrega de informes
+# Información general sobre la entrega de informes
 
 <!-- Audited: 11/2024 -->
 
@@ -21,7 +21,7 @@ ht-degree: 24%
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: This is linked to the UI in the Send Report box inside the Preview sandbox. If you change title, log bug for Dev to fix the link) </p>
 -->
 
-Los informes se pueden programar para que se envíen automáticamente a los usuarios según una programación definida, o bien para que se envíen informes de forma manual y única. Cuando envía un informe desde Adobe Workfront, el usuario recibe un correo electrónico con el informe de Workfront en un archivo adjunto independiente.
+Puede programar los informes para que se entreguen automáticamente a los usuarios con arreglo a una programación definida, o puede enviar informes de forma manual y única. Cuando envía un informe desde Adobe Workfront, el usuario recibe un correo electrónico con el informe de Workfront en un archivo adjunto independiente.
 
 Para obtener información sobre cómo configurar un informe para su entrega, consulte el artículo [Programar una entrega automática de informes](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-automatic-report-delivery.md).
 
@@ -36,18 +36,18 @@ Para obtener más información sobre la entrega de informes en el entorno de vis
 
 Tenga en cuenta lo siguiente al programar informes para su envío:
 
-* Puede programar hasta 10 envíos repetidos de informes para cualquier informe determinado.
-* Puede programar la entrega de un informe solamente si es usted el creador del informe. Si necesita enviar un informe que no ha creado, puede enviarlo de forma manual.
+* Puede programar hasta 10 entregas de informes de repetición para cualquier informe dado.
+* Sólo puede programar un informe para que se entregue si es el creador del informe. Si necesita enviar un informe que no ha creado, puede enviarlo manualmente.
 
 ## Límites de exportación
 
-Existen varios límites de tamaño que afectan a cómo se muestran los informes en Workfront y a cómo se exportan a través de una exportación manual, un informe enviado o a través de la API:
+Existen varios límites de tamaño que afectan la forma en que se muestran los informes en Workfront y la forma en que se exportan a través de una exportación manual, un informe entregado o a través de la API:
 
 * **Tamaño de archivo de 10 MB:** límite de tamaño de archivo para cualquier informe exportado programado para su envío. Si un archivo exportado adjunto a un correo electrónico supera los 5 MB, se enviará por correo electrónico un vínculo donde se pueda descargar el archivo en lugar del informe exportado adjunto.
 
   >[!NOTE]
   >
-  >Los archivos .xlsx de Excel con un tamaño superior a 10 MB no generan un correo electrónico. Puede exportar manualmente el informe a este formato. Para obtener información sobre la exportación de informes, consulte [Exportar datos](../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md).
+  >Los archivos .xlsx de Excel de más de 10 MB no generan un correo electrónico. Puede exportar manualmente el informe a este formato. Para obtener información sobre la exportación de informes, vea [Exportar datos](../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md).
 
 * **50 000 filas:** número de filas de datos permitidas en la exportación de un informe para archivos .pdf y delimitados por tabulaciones.
 
@@ -57,7 +57,7 @@ Existen varios límites de tamaño que afectan a cómo se muestran los informes 
 
   Estos límites excluyen los encabezados de columna y las filas de las agrupaciones del informe. Por ejemplo, si tiene 6 agrupaciones en un informe y 50 000 filas de datos, el archivo exportado tendrá 50 000 filas.
 
-  Si el informe tiene más elementos que estos límites, se genera un error que indica que la exportación y la entrega del informe no se han realizado correctamente. Reduzca el número de elementos que ve en la pantalla a un número inferior o igual a estos límites para poder ofrecer los resultados. Si desea exportar todos los datos, le sugerimos que utilice filtros para obtener cargas de datos más pequeñas y, a continuación, realice varias exportaciones. Para obtener más información, consulte [Información general sobre los filtros](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+  Si el informe tiene más elementos que estos límites, se genera un error que indica que la exportación y la entrega del informe no se han realizado correctamente. Reduzca el número de elementos que ve en la pantalla a un número menor o igual a estos límites para poder ofrecer los resultados. Si desea exportar todos los datos, le sugerimos que utilice filtros para obtener cargas de datos más pequeñas y, a continuación, realice varias exportaciones. Para obtener más información, consulte [Información general sobre los filtros](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
   Estos límites se aplican a lo siguiente:
 
@@ -85,7 +85,7 @@ Además, se detendrán los informes que tarden más de 60 minutos en ejecutarse.
 
 Si tiene dudas o problemas con respecto a su límite, póngase en contacto con el soporte técnico de Workfront.
 
-## Comprensión de las marcas de tiempo en los informes entregados
+## Comprender los sellos de tiempo en los informes entregados
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Note about if this is delivered at a time based on the user's time zone settings?)</p>
@@ -95,39 +95,39 @@ Cuando se recibe un informe por correo electrónico, es posible que la marca de 
 
 Tenga en cuenta lo siguiente:
 
-* Cuando se visualiza un informe en el explorador, la marca de tiempo y el formato del informe coinciden con la configuración regional y la zona horaria del explorador, tal como se definen en la configuración del explorador.
-* Cuando el informe se envía en un correo electrónico, se entrega con la marca de tiempo y el formato que coinciden con la configuración regional y la zona horaria del usuario, tal como se especifican en el perfil de Workfront.\
-  Para obtener más información sobre la configuración regional y la zona horaria del usuario en Workfront, consulte el artículo [Editar el perfil de un usuario](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+* Al ver un informe en el explorador, la marca de tiempo y el formato del informe coinciden con la configuración regional y la zona horaria del explorador, tal como se define en la configuración del explorador.
+* Cuando el informe se entrega en un correo electrónico, el informe se entrega con la marca de tiempo y el formato que coinciden con la configuración regional de usuario y la zona horaria tal como se especifican en el perfil de Workfront.\
+  Para obtener más información sobre la configuración regional de usuario y la zona horaria en el área de trabajo, vea el artículo [Editar el perfil de un usuario](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
 ## Informes con una vista especial {#reports-with-a-special-view}
 
-Cuando se aplica una vista especial a un informe, la vista especial se muestra en de la pestaña Detalles del informe en Workfront.
+Cuando se aplica una vista especial a un informe, la vista especial aparece en la ficha Detalles del informe en el área de trabajo.
 
-Cuando se programa la entrega de un informe que tiene una vista especial, la pestaña Detalles se entrega en el archivo adjunto del correo electrónico enviado, en lugar de en la vista especial.
+Cuando planifica la entrega de un informe que tiene una vista especial, la ficha Detalles se entrega en el anexo del correo electrónico enviado, en lugar de la vista especial.
 
 Se consideran opiniones especiales las siguientes:
 
-* Vista de Hito en un informe de proyecto
-* Vista Gantt en un informe de proyecto o tarea
-* Informes con un gráfico como ficha predeterminada
+* Vista hito de un informe de proyecto
+* Vista de Gantt en un informe de proyecto o tarea
+* Informes con un gráfico como la pestaña predeterminada
 
 >[!NOTE]
 >
->Si también hay una pestaña Matriz en el informe, además de la pestaña predeterminada con una vista especial, el informe se envía tal y como se muestra en la pestaña Matriz.
+>Si también hay una ficha Matrix en el informe además de la ficha predeterminada con una vista especial, el informe se entrega tal como se muestra en la ficha Matriz.
 
-Para obtener más información acerca de cómo aplicar una vista especial a un informe, vea el artículo [Crear un informe personalizado](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+Para obtener más información sobre cómo aplicar una vista especial a un informe, vea el artículo [Crear un informe personalizado](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
-## Usar el archivo enviado
+## Usar el archivo entregado
 
-Cuando envía un informe desde Workfront, el usuario recibe un correo electrónico con el informe en un archivo adjunto independiente.
+Cuando envía un informe desde Workfront, el usuario recibe un correo electrónico con el informe en un adjunto independiente.
 
-* [Línea de asunto, nombre de archivo adjunto y título del informe](#subject-line-attachment-name-and-report-title)
+* [Línea de asunto, nombre del adjunto y título del informe](#subject-line-attachment-name-and-report-title)
 * [Marcas de tiempo](#timestamps)
 * [Marca](#branding)
 * [Formato](#formatting)
 * [Vínculos](#links)
 
-### Línea de asunto, nombre del archivo adjunto y título del informe {#subject-line-attachment-name-and-report-title}
+### Línea de asunto, nombre adjunto y título del informe {#subject-line-attachment-name-and-report-title}
 
 Para obtener más información sobre la línea de asunto del correo electrónico del informe enviado, consulte [Programar una entrega automática de informes](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-automatic-report-delivery.md).
 
@@ -145,7 +145,7 @@ Los informes programados para enviarse en formato Excel, Excel (.xlsx) o TSV no 
 
 ### Marcas de tiempo {#timestamps}
 
-La marca de tiempo solo se mostrará en el archivo adjunto si el formato del archivo es un .pdf. La marca de tiempo se encuentra en el pie de página del archivo adjunto.
+Sólo se muestra una marca de tiempo en el archivo adjunto si el formato del archivo es .pdf. La marca de tiempo está en el pie de página del archivo adjunto.
 
 La marca de tiempo incluye:
 
@@ -155,21 +155,21 @@ La marca de tiempo incluye:
 
 ### Personalización de marca {#branding}
 
-Si el administrador de Workfront ha añadido una personalización de la marca a la instancia de Workfront, los informes enviados en formato .pdf también incluyen el logotipo personalizado.
+Si el administrador de Workfront ha agregado una marca personalizada a la instancia de Workfront, los informes enviados en formato .pdf también incluyen su logotipo personalizado.
 
 Los informes enviados en todos los demás formatos no se pueden personalizar con su logotipo.
 
-Para obtener más información sobre cómo personalizar la marca de la instancia de Workfront, consulte el artículo [Crear una marca para la instancia de Adobe Workfront](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md).
+Para obtener más información sobre cómo etiquetar la instancia de Workfront, vea el artículo [Marca la instancia de Adobe Workfront](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md).
 
 ### Formato {#formatting}
 
 Siempre recibe la pestaña Detalles de un informe cuando se envía un informe o cuando se programa una entrega, a menos que el informe tenga una vista especial.
 
-Si el informe tiene un formato especial en la aplicación web, el informe debe entregarse con el formato especial cuando las pestañas Detalles y Matriz solo se entregan para archivos .pdf y Excel.
+Si el informe tiene un formato especial en la aplicación web, el informe se debe entregar con el formato especial cuando los detalles y las fichas Matrix se entregan sólo para archivos .pdf y Excel.
 
-El filtro, la vista o la agrupación del informe no se incluyen en el archivo enviado. La descripción del informe solo se incluye cuando se envía el informe como archivo PDF.
+El filtro, la vista o la agrupación del informe no se incluyen en el archivo entregado. La descripción del informe sólo se incluye cuando se envía el informe como archivo PDF.
 
-Para obtener más información acerca de cómo recibir informes con una vista especial, vea el artículo [Informes con una vista especial](#reports-with-a-special-view).\
+Para obtener más información sobre la recepción de informes con una vista especial, vea el artículo [Informes con una vista especial](#reports-with-a-special-view).\
 Para obtener más información sobre cómo seleccionar la ficha predeterminada de un informe y sobre el formato especial, vea [Crear un informe personalizado](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
 ### Vínculos {#links}
@@ -180,17 +180,17 @@ El nombre del informe que aparece en el mensaje de correo electrónico también 
 
 ## Informes sobre informes programados
 
-Puede ver si un informe se ha configurado para enviarse creando lo siguiente:
+Puede ver si se ha configurado la entrega de un informe creando lo siguiente:
 
-* **Vista** para el objeto Informe en una lista o un informe para informes: cree una vista en una lista de informes o en un informe para informes y agregue la siguiente columna a la vista:\
-  *Nombre de informe programado.\
-  * Los nombres de todas las entregas programadas para ese informe se enumeran en la columna en una lista con viñetas.\
-  ![informes_programados_información_en_vista.png](assets/scheduled-reports-info-in-view-350x294.png)
+* **Vista** del objeto Report en una lista o un informe para informes: Cree una vista en una lista de informes o en un informe para informes y agregue la siguiente columna a la vista:\
+  *Nombre del informe programado.\
+  *Los nombres de todas las entregas programadas para ese informe se enumeran en la columna de una lista con viñetas.\
+  ![informes_programados_info_in_view.png](assets/scheduled-reports-info-in-view-350x294.png)
 
-* **Un filtro** para el objeto de informe: cree un filtro en una lista de informes o en un informe de informes con la siguiente instrucción: *El Id. de informe programado no está en blanco*.\
-  Esto solo mostrará los informes que se hayan programado en su lista o informe.\
+* **Un filtro** para el objeto Report: Cree un filtro en una lista de informes o en un informe de informes con la instrucción siguiente: *El Id. de informe programado no está en blanco*.\
+  Esto sólo mostrará los informes que se han programado en su lista o informe.\
   ![Filtro de informe programado](assets/qs-scheduled-report-filter-350x101.png)\
-  Para obtener más información sobre la creación de informes, consulte [Crear un informe personalizado](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md). Para obtener información sobre cómo crear un informe de informes, consulte [Crear un informe de actividades de informes](../../../reports-and-dashboards/reports/report-usage/create-report-reporting-activities.md).
+  Para obtener más información sobre cómo crear informes, vea [Crear un informe personalizado](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md). Para obtener información sobre cómo crear un informe sobre informes, vea [Crear un informe sobre las actividades de informes](../../../reports-and-dashboards/reports/report-usage/create-report-reporting-activities.md).
 
 <!--
 <h2 data-mc-conditions="QuicksilverOrClassic.Draft mode">Scheduling a Repeating Report Delivery</h2>

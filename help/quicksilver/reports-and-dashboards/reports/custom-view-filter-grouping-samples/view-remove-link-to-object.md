@@ -4,13 +4,13 @@ product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Ver: Quitar vínculo a un objeto en una columna'
 description: De forma predeterminada, algunos objetos que se muestran en una vista se vinculan a la página Detalles del objeto. Por ejemplo, la columna que muestra el nombre de un proyecto es un vínculo al proyecto; la columna que muestra el nombre de un usuario es un vínculo a la página de perfil del usuario.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 08264437-f12d-43fa-8cb4-264806c6479b
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '371'
-ht-degree: 75%
+ht-degree: 76%
 
 ---
 
@@ -31,7 +31,7 @@ Puede quitar este vínculo mediante el modo de texto en columnas que se muestran
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 

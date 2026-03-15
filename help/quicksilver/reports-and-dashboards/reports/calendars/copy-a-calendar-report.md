@@ -3,13 +3,13 @@ product-area: calendars
 navigation-topic: calendars-navigation-topic
 title: Copiar un informe de calendario
 description: Si ha creado un calendario, puede copiarlo y utilizarlo como punto de partida para un nuevo calendario.
-author: Jenny
+author: Courtney
 feature: Reports and Dashboards
 exl-id: f72cf896-294f-4166-b731-eaec0c2156b1
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '309'
-ht-degree: 74%
+ht-degree: 75%
 
 ---
 
@@ -32,7 +32,7 @@ Además, si tiene acceso de [!UICONTROL administración] a un calendario del que
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 

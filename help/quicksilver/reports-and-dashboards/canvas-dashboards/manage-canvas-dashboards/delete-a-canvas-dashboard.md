@@ -2,14 +2,14 @@
 product-area: Canvas Dashboards
 navigation-topic: report-types
 title: Eliminación de un panel de control del lienzo
-description: Puede organizar la forma en que se muestran los informes en un panel de lienzo después de agregarlos a uno.
-author: Courtney and Jenny
+description: Puede organizar cómo se muestran los informes en un panel de Canvas después de que se hayan añadido a uno.
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 075df18c-08b8-467d-a0e4-60cd3abd5807
-source-git-commit: 1059950dd3b20e0959c626e580f958bed5076541
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '311'
-ht-degree: 22%
+ht-degree: 23%
 
 ---
 
@@ -17,16 +17,16 @@ ht-degree: 22%
 
 >[!IMPORTANT]
 >
->Actualmente, la función Paneles de lienzo solo está disponible para los usuarios que participan en la fase beta. Es posible que algunas partes de la función no estén completas o que no funcionen según lo previsto durante esta fase. Envíe cualquier comentario sobre su experiencia siguiendo las instrucciones de la sección [Proporcionar comentarios](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) del artículo Información general sobre la versión beta de los paneles de lienzo.<br>
->&#x200B;>Si tiene comentarios acerca de un posible error o problema técnico, envíe un ticket al equipo de asistencia de Workfront. Para obtener más información, consulte [Póngase en contacto con Atención al cliente](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
->&#x200B;>Tenga en cuenta que esta versión beta no está disponible en los siguientes proveedores de la nube:
+>Actualmente, la función Paneles de lienzo solo está disponible para los usuarios que participen en la fase beta. Es posible que algunas partes de la función no estén completas o no funcionen según lo previsto durante esta fase. Envíe cualquier comentario sobre su experiencia siguiendo las instrucciones de la sección [Proporcionar comentarios](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) del artículo de introducción a la versión beta de Canvas Dashboards.<br>
+>Si tiene comentarios sobre un posible error o problema técnico, envíe un ticket al servicio de asistencia de Workfront. Para obtener más información, consulte [Contactar con el servicio de atención al cliente](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
+>Tenga en cuenta que esta versión beta no está disponible en los siguientes proveedores en la nube:
 >
->* Traer su propia clave para Amazon Web Service
+>* Trae tu propia clave para Amazon Web Service
 >* Azure
 >* Google Cloud Platform
 
 
-Una vez que ya no necesite un panel de lienzo, puede eliminarlo de Adobe Workfront.
+Cuando ya no necesite un panel de Canvas, puede eliminarlo de Adobe Workfront.
 
 ## Requisitos de acceso
 
@@ -39,7 +39,7 @@ Una vez que ya no necesite un panel de lienzo, puede eliminarlo de Adobe Workfro
 </col> 
 <tbody> 
 <tr> 
-   <td role="rowheader"><p>paquete de Adobe Workfront</p></td> 
+   <td role="rowheader"><p>Paquete de Adobe Workfront</p></td> 
    <td> 
 <p>Cualquiera </p> 
    </td> 
@@ -60,7 +60,7 @@ Una vez que ya no necesite un panel de lienzo, puede eliminarlo de Adobe Workfro
     </tr>  
         <tr> 
    <td role="rowheader"><p>Permisos de objeto</p></td> 
-   <td><p>Administración de permisos para el tablero</p>
+   <td><p>Administrar permisos para el panel</p>
   </td> 
   </tr>
 </tbody> 
@@ -73,24 +73,24 @@ Para obtener más información sobre esta tabla, consulte [Requisitos de acceso 
 
 Debe crear un tablero para poder eliminarlo.
 
-Para obtener más información, consulte [Crear un panel de lienzo](/help/quicksilver/reports-and-dashboards/canvas-dashboards/create-dashboards/create-dashboards.md).
+Para obtener más información, consulte [Crear un panel de Canvas](/help/quicksilver/reports-and-dashboards/canvas-dashboards/create-dashboards/create-dashboards.md).
 
 ## Eliminación de un panel de control
 
 >[!WARNING]
 >
-> Una vez que se elimina un tablero, el tablero y todos sus informes o visualizaciones personalizados no se pueden recuperar.<br>
-> &#x200B;> Si elimina un tablero que contiene un informe clásico, este no se eliminará.
+> Una vez que se elimina un panel, el panel y todos sus informes personalizados y/o visualizaciones no se pueden recuperar.<br>
+> Si elimina un tablero que contiene un informe clásico, el informe clásico no se eliminará.
 
 {{step1-to-dashboards}}
 
 1. En el panel izquierdo, haga clic en **Paneles de control de lienzo**.
 
-1. En la página **Paneles de lienzo**, seleccione el panel que desee eliminar.
+1. En la página **Tableros de lienzo**, seleccione el tablero que desea eliminar.
 
-1. En la esquina superior derecha, seleccione el icono **Más** ![Más](assets/more-icon.png) y, a continuación, seleccione **Eliminar tablero**.
-   ![Eliminar tablero](assets/delete-dashboard.png)
+1. En la esquina superior derecha, seleccione el icono **Más** ![Más](assets/more-icon.png) y luego seleccione **Eliminar panel**.
+   ![Eliminar panel](assets/delete-dashboard.png)
 
-1. En el cuadro de diálogo **Eliminar panel**, active la casilla de verificación **Confirmo que deseo eliminar este panel**.
+1. En el cuadro de diálogo **Eliminar panel**, seleccione la casilla de verificación **Confirmo que deseo eliminar este panel**.
 
 1. Haga clic **eliminar**.

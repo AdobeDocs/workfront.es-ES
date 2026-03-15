@@ -3,10 +3,10 @@ product-area: agile-and-teams;projects
 navigation-topic: iterations
 title: Agregar historias a una iteración existente
 description: Puede añadir historias a una iteración de muchas maneras.
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: b016fda1-789a-42b3-9f97-2c61c4ec0917
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '614'
 ht-degree: 76%
@@ -17,7 +17,7 @@ ht-degree: 76%
 
 Puede añadir historias a una iteración de cualquiera de las siguientes maneras:
 
-* Del registro de pendientes una vez creada la iteración, como se describe en la sección [Mover historias del registro de pendientes a una iteración o [!UICONTROL Panel Kanban]](../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md#move-stories-from-the-backlog-to-an-iteration-or--board) de [Administrar el registro de pendientes Agile](../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md)
+* Desde el registro atrasado después de crear la iteración, como se describe en [Mover historias del registro atrasado a una iteración o en la sección [!UICONTROL Kanban] board](../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md#move-stories-from-the-backlog-to-an-iteration-or--board) en [Administrar el registro atrasado de águilas](../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md)
 
 * Desde la página [!UICONTROL Detalles] de la tarea o problema individual
 * Desde una lista de tareas o problemas
@@ -41,7 +41,7 @@ Puede añadir historias a una iteración de cualquiera de las siguientes maneras
   </tr>
    <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td>Administrar el acceso al proyecto en el que se encuentra la historia </td> 
+   <td>Administrar el acceso al proyecto en el que se encuentra el artículo </td> 
   </tr>
  </tbody> 
 </table>
@@ -83,7 +83,7 @@ Puede configurar equipos de Scrum individuales para que utilicen las fechas del 
 Puede añadir cualquier tarea o problema a cualquier iteración si tiene acceso de Administración al proyecto. Tenga en cuenta lo siguiente al mover una tarea o un problema a una iteración:
 
 * Si añade varios equipos, la tarea o el problema solo se pueden mostrar en la iteración de un equipo. Esta es la iteración que elige en el paso tres siguiente.
-* Si la tarea o el problema se asignan a un equipo Agile y se mueven a la iteración de otro equipo, la asignación del equipo no cambia.
+* Si la tarea o el problema se asigna a un equipo ágil y se mueve a la iteración de otro equipo, la asignación de equipo no cambia.
 * Si la tarea o el problema no se han asignado a un equipo, se asignará al equipo propietario de la iteración.
 * No se pueden añadir tareas principales a la iteración. Si añade tareas secundarias, la tarea principal aparece en el tablero de Scrum como un carril.
 
@@ -93,12 +93,12 @@ Puede añadir cualquier tarea o problema a cualquier iteración si tiene acceso 
 
 1. Abra la tarea o el problema que desee agregar a una iteración.
 O
-Vaya al proyecto, informe o panel que contiene la tarea o el problema que desea agregar a una iteración. A continuación, seleccione una o varias tareas o problemas.
+Vaya al proyecto, informe o panel que contiene la tarea o el problema que desea agregar a una iteración. A continuación, seleccione una o más tareas o problemas.
 
-1. Haga clic en **[!UICONTROL Más]** ![Icono de más](assets/more-icon.png) > **[!UICONTROL Agregar a la iteración]**.
-No puede asignar tareas o problemas asignados a equipos que no sean de Agile.
+1. Haga clic en **[!UICONTROL Más]** ![Más icono](assets/more-icon.png) > **[!UICONTROL Agregar a iteración]**.
+No puede asignar tareas o problemas asignados a equipos que no sean ágiles.
 
-1. En el cuadro **[!UICONTROL Agregar a]**, empiece a escribir el nombre de la iteración y selecciónela cuando aparezca en la lista.
+1. En el cuadro **[!UICONTROL Agregar a]**, comience a escribir el nombre de la iteración y selecciónela cuando aparezca en la lista.
 
    >[!NOTE]
    >

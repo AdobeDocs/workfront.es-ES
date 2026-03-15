@@ -3,13 +3,13 @@ product-area: Canvas Dashboards
 navigation-topic: report-types
 title: Crear un panel de lienzo
 description: Con los paneles de lienzo, puede crear y agregar informes a un panel personalizable para visualizar rápidamente los datos de su cuenta.
-author: Courtney and Jenny
+author: Courtney
 feature: Reports and Dashboards
 exl-id: bd31e426-7c4a-4ff8-9432-c95dc8ee3743
-source-git-commit: 507cb64eb21c2798cdafe184794c0d9ed7ebc0c6
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '480'
-ht-degree: 15%
+ht-degree: 17%
 
 ---
 

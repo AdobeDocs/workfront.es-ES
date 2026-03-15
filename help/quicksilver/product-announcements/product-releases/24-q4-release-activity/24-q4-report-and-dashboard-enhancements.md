@@ -1,14 +1,14 @@
 ---
 title: Mejoras en informes y paneles del cuarto trimestre de 2024
 description: Mejoras en informes y paneles del cuarto trimestre de 2024
-author: Nolan
+author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: d4b7b926-f747-4aee-b983-fe6b5f2e0dfd
-source-git-commit: 1f33ef44b8e5d703c5407cdd2fc8ca24fba48bb1
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '239'
-ht-degree: 14%
+ht-degree: 18%
 
 ---
 
@@ -22,7 +22,7 @@ Para obtener una lista de todos los cambios disponibles en este punto del ciclo 
 
 >[!NOTE]
 >
->Versión de producción para todos los clientes: con la versión de 24.10 (17 de octubre de 2024)
+>Versión de producción para todos los clientes: con la versión 24.10 (viernes, 17 de octubre de 2024)
 >
 >_Solo disponible para organizaciones que cuentan con uno de los nuevos planes de Adobe Workfront. Data Connect está incluido en el plan de Ultimate y estará disponible para su compra como complemento de los planes Prime y Select en el primer semestre de 2025._
 

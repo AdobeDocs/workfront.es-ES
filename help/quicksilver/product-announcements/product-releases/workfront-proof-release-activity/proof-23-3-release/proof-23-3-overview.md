@@ -4,14 +4,14 @@ content-type: release-notes
 navigation-topic: proof-release-activity
 title: Adobe Workfront Proof con la versión 23.3
 description: Esta página proporciona información sobre la funcionalidad de Adobe Workfront Proof en la nueva experiencia de Adobe Workfront que se lanzará al entorno de producción con la versión 23.3.
-author: Nolan
+author: Courtney
 feature: Product Announcements, Workfront Proof
 recommendations: noDisplay, noCatalog
 exl-id: b4e3f45f-b687-40e5-93f9-a7c3b58d55bd
-source-git-commit: ccba3a3d7c0cac50dbd29cae677b076811904a91
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '257'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 Esta página proporciona información sobre la funcionalidad de Adobe Workfront Proof que se lanza al entorno de producción dentro del periodo de tiempo de la versión 23.3.
 
-Para obtener una lista de todos los cambios disponibles en todas las áreas de Workfront en este punto del ciclo de la versión 23.3, consulte [Descripción general de la versión 23.3](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
+Para obtener una lista de todos los cambios disponibles en todas las áreas de Workfront en este punto del ciclo de la versión 23.3, consulte [Información general de la versión 23.3](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
 
 <table>
             <col style="width: 50%;" />
@@ -27,7 +27,7 @@ Para obtener una lista de todos los cambios disponibles en todas las áreas de W
             <tbody>
                 <tr>
                     <td>
-                        <p><span class="bold">Característica</span>
+                        <p><span class="bold">Función</span>
                         </p>
                     </td>
                     <td>
@@ -37,25 +37,25 @@ Para obtener una lista de todos los cambios disponibles en todas las áreas de W
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-jul-17.md" class="MCXref xref" xrefformat="{para}">Posponer actualizaciones para el Visor de corrección de escritorio</a> </p>
-                        <p>En función de los comentarios de los usuarios, hemos añadido la opción de posponer las actualizaciones para el Visor de pruebas de escritorio. Los usuarios ahora pueden optar por retrasar una actualización y continuar con su trabajo, pero se les recordará que hay una actualización disponible cada vez que abren el Visor de corrección de escritorio.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-jul-17.md" class="MCXref xref" xrefformat="{para}">Posponer actualizaciones para el visor de corrección de escritorio</a> </p>
+                        <p>Basándonos en los comentarios de los usuarios, hemos añadido la opción de posponer las actualizaciones del Visor de corrección de escritorio. Los usuarios ahora pueden optar por retrasar una actualización y continuar con su trabajo, pero se les recordará que hay una actualización disponible cada vez que abran el Visor de corrección de escritorio.</p>
                     </td>
                     <td><p><b>Disponible en estas fechas:</b></p>
                         <ul>
                             <li>
                                 <p><i>Para usuarios que utilizan la instalación manual, con versión 2.1.26</i></p>
-                                <p>Versión de vista previa y producción: 27 de julio de 2023</p>
+                                <p>Versión preliminar y de producción: 27 de julio de 2023</p>
                             </li>
                             <li>
                                 <p><i>Para usuarios con instalación automática, con versión 2.1.28</i></p>
-                                <p>Versión de vista previa y producción: 10 de agosto de 2023</p>
+                                <p>Versión preliminar y de producción: 10 de agosto de 2023</p>
                             </li>
                         </ul>
                     </td>
                 </tr>                
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-jun-5.md" class="MCXref xref" xrefformat="{para}">Cambiando la compatibilidad con las pruebas de Microsoft Office</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-jun-5.md" class="MCXref xref" xrefformat="{para}">Cambio de la compatibilidad para pruebas de Microsoft Office</a></p>
                         <p>Para mantener una solución de procesamiento de pruebas sólida y escalable, estamos cambiando los tipos de archivo compatibles de Microsoft Office y los límites de tamaño de archivo.</p>
                     </td>
                     <td><p><b>Disponible en estas fechas:</b></p>
@@ -71,8 +71,8 @@ Para obtener una lista de todos los cambios disponibles en todas las áreas de W
                 </tr>                
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-may-8.md">Actualización del Visor de corrección de escritorio</a></p>
-                        <p>El Visor de corrección de escritorio se ha actualizado a la versión 2.1.24. Esta actualización incluye la compatibilidad con Chrome v100 para revisar pruebas interactivas, así como una serie de correcciones de problemas.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-may-8.md">Actualización del visor de revisión de escritorio</a></p>
+                        <p>El visor de corrección de escritorio se ha actualizado a la versión 2.1.24. Esta actualización incluye compatibilidad con Chrome versión 100 para revisar pruebas interactivas, así como una serie de correcciones de problemas.</p>
                     </td>
                     <td><p><b>Disponible en estas fechas:</b></p>
                      <p>

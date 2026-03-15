@@ -3,10 +3,10 @@ product-area: reporting
 navigation-topic: text-mode-reporting
 title: Creación de filtros complejos de modo de texto mediante instrucciones EXISTS
 description: Puede crear filtros complejos de modo de texto mediante instrucciones EXISTS. Este artículo requiere una comprensión exhaustiva de la API de Adobe Workfront y de la interfaz de creación de informes en modo de texto.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 106f7c9d-46cc-46c5-ae34-93fd13a36c14
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '2668'
 ht-degree: 97%
@@ -97,7 +97,7 @@ Tenga en cuenta las siguientes reglas al utilizar instrucciones EXISTS en un fil
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
@@ -155,7 +155,7 @@ Para crear un filtro que abarque varios niveles en la jerarquía de objetos:
    Por ejemplo, cree un filtro de Problema.\
    Para obtener información sobre la creación de filtros, consulte [Información general sobre los filtros](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
-1. Haga clic en **Cambiar al modo de texto** y después en **Editar modo de texto**.
+1. Click **Switch to Text Mode** then **Edit Text Mode**.
 1. Pegue el siguiente ejemplo de fórmula en la interfaz de modo de texto del nuevo filtro y reemplace el texto de ejemplo por los objetos y campos correctos:
 
    ```
@@ -203,7 +203,7 @@ Para crear un filtro que haga referencia a los objetos que faltan:
    Por ejemplo, cree un filtro de parámetro.\
    Para obtener información sobre la creación de filtros, consulte [Información general sobre los filtros](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
-1. Haga clic en **Cambiar al modo de texto** y después en **Editar modo de texto**.
+1. Click **Switch to Text Mode** then **Edit Text Mode**.
 1. (Condicional) Si está filtrando por objetos que faltan, pegue el siguiente ejemplo de fórmula en la interfaz de modo de texto del nuevo filtro y reemplace el texto de ejemplo por los objetos y campos correctos:
 
    ```
@@ -229,7 +229,7 @@ Para filtrar problemas por nombre de propietario de portafolio:
 1. Cree un informe de problemas.\
    Para obtener información sobre la creación de filtros, consulte [Información general sobre los filtros](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
-1. Haga clic en **Cambiar al modo de texto** y después en **Editar modo de texto**.
+1. Click **Switch to Text Mode** then **Edit Text Mode**.
 1. Consulte el siguiente código genérico:
 
    ```
@@ -271,7 +271,7 @@ Para filtrar por campos personalizados que no están asociados a un formulario p
 1. Cree un filtro de parámetro o de campo personalizado.\
    Para obtener información sobre la creación de filtros, consulte [Información general sobre los filtros](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
-1. Haga clic en **Cambiar al modo de texto** y después en **Editar modo de texto**.
+1. Click **Switch to Text Mode** then **Edit Text Mode**.
 1. Consulte el siguiente código genérico:
 
    ```
@@ -308,7 +308,7 @@ Para filtrar por usuarios que no registraron el tiempo durante la semana pasada:
 1. Cree un filtro de usuario.\
    Para obtener información sobre la creación de filtros, consulte [Información general sobre los filtros](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
-1. Haga clic en **Cambiar al modo de texto** y después en **Editar modo de texto**.
+1. Click **Switch to Text Mode** then **Edit Text Mode**.
 1. Consulte el siguiente código genérico:
 
    ```
@@ -355,7 +355,7 @@ Para filtrar tareas por nombre de propietario del portafolio e ID del cuadro de 
 1. Cree un filtro de tareas.\
    Para obtener información sobre la creación de filtros, consulte [Información general sobre los filtros](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
-1. Haga clic en **Cambiar al modo de texto** y después en **Editar modo de texto**.
+1. Click **Switch to Text Mode** then **Edit Text Mode**.
 1. Pegue el siguiente código en el área **Establecer reglas de filtro para su informe**:
 
    ```

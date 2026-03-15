@@ -4,13 +4,13 @@ product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Vista: mostrar una imagen en lugar de una cadena en una columna'
 description: Puede reemplazar el nombre de un objeto en una vista con una imagen mediante el modo de texto. También puede añadir un vínculo a la imagen que permita abrir el objeto al que reemplaza.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: e1e4a993-f05c-4b6e-b00a-e96c9ab4c94f
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '483'
-ht-degree: 83%
+ht-degree: 84%
 
 ---
 
@@ -35,7 +35,7 @@ Puede reemplazar el nombre de un objeto en una vista con una imagen mediante el 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 

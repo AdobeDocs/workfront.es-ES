@@ -3,13 +3,13 @@ product-area: agile-and-teams
 navigation-topic: get-started-with-boards
 title: Agregar o quitar miembros de un tablero
 description: Los usuarios deben añadirse al tablero como miembros para poder ver el tablero y ser asignados a las tarjetas.
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: 8a46846c-f9b8-45cb-9923-e7596854557b
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '481'
-ht-degree: 60%
+ht-degree: 62%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 60%
 
 Los usuarios y los equipos deben añadirse al tablero como miembros para poder verlo.
 
-El creador de un tablero es el propietario de forma predeterminada. El propietario del tablero es la única persona que puede eliminar ese tablero o actualizar sus filtros en el panel Configurar. Solamente un administrador del sistema o el propietario actual del tablero puede cambiar el propietario del tablero.
+El creador de un tablero es el propietario de forma predeterminada. El propietario del tablero es la única persona que puede eliminar dicho tablero o actualizar sus filtros en el panel Configurar. Solo un administrador del sistema o el propietario actual del tablero puede cambiar el propietario del tablero.
 
 ## Requisitos de acceso
 
@@ -28,7 +28,7 @@ El creador de un tablero es el propietario de forma predeterminada. El propietar
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
@@ -84,15 +84,15 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
 
 >[!NOTE]
 >
->Solamente un administrador del sistema o el propietario actual del tablero puede cambiar el propietario del tablero. Un tablero solo puede tener un propietario.
+>Solo un administrador del sistema o el propietario actual del tablero puede cambiar el propietario del tablero. Un tablero solo puede tener un propietario.
 >
->La capacidad de cambiar el propietario del tablero está disponible en tableros básicos, retrospectivos y Kanban, pero no en tableros dinámicos.
+>La capacidad de cambiar el propietario del tablero está disponible en los tableros básicos, retrospectivos y kanban, pero no en los tableros dinámicos.
 
 1. Acceda al tablero.
-1. Haga clic en el menú **[!UICONTROL Más]** ![Menú más](assets/more-icon-spectrum.png) que está junto al nombre del tablero y, a continuación, elija **[!UICONTROL Cambiar propietario del tablero]**.
+1. Haga clic en el menú **[!UICONTROL Más]** ![Más menú](assets/more-icon-spectrum.png) junto al nombre del tablero y, a continuación, elija **[!UICONTROL Cambiar propietario del tablero]**.
 1. En el cuadro de diálogo Cambiar propietario del tablero, busque y seleccione el usuario que desea convertir en propietario.
 
-   No puede buscar usuarios que ya sean miembros del tablero. Para convertir a un miembro existente en el propietario, primero debe eliminarlo del tablero. Convertir a un usuario en el propietario del tablero los añade al tablero.
+   No puede buscar usuarios que ya sean miembros del tablero. Para hacer que un miembro existente sea el propietario, primero debe eliminarlo del tablero. Convertir a un usuario en el propietario del tablero lo añade al tablero.
 
    Solo un usuario puede ser el propietario del tablero. Un equipo no puede ser propietario.
 

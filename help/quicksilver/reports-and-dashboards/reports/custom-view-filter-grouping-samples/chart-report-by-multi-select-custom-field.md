@@ -4,10 +4,10 @@ product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: Trazar un informe con un campo personalizado de selección múltiple
 description: Puede crear un gráfico de un informe mediante un campo personalizado de selección múltiple solo después de crear un campo calculado adicional que capture las opciones seleccionadas en el campo personalizado de selección múltiple.
-author: Jenny
+author: Courtney
 feature: Reports and Dashboards
 exl-id: cda77319-dce6-409d-8f59-53838820cafb
-source-git-commit: ce986a912c2ee231b9dc2e1c7a3e9587b20aa0ba
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '947'
 ht-degree: 12%
@@ -48,7 +48,7 @@ Sin embargo, si no es posible tener campos independientes para cada opción de u
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
