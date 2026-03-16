@@ -6,10 +6,11 @@ description: Adobe Workfront publicó la versión 21 de la API el viernes, 23 de
 author: Becky
 feature: Workfront API
 role: Developer
-source-git-commit: 7166a6b51a45b744a33df697c2bc8080427908a8
+exl-id: 7fb9131a-b815-4990-acba-cc75a24f389f
+source-git-commit: ec696c0ffa6a25cd274d494c9c1b475f99f661e2
 workflow-type: tm+mt
-source-wordcount: '932'
-ht-degree: 78%
+source-wordcount: '929'
+ht-degree: 84%
 
 ---
 
@@ -17,9 +18,9 @@ ht-degree: 78%
 
 >[!IMPORTANT]
 >
->Este cambio de versión de API presenta un cambio radical que puede afectar a sus llamadas de API existentes. Esto se debe a que la versión 21 de la API utiliza la versión 2 de Suscripciones de eventos.
+>Este cambio de versión de API presenta un cambio radical que puede afectar a sus llamadas de API existentes. Esto se debe a que la versión 21 de la API utiliza la versión 2 de Suscripciones a eventos.
 >
-> Para los campos de selección múltiple, la versión 2 de Suscripciones de eventos siempre envía como una matriz. La versión 1 enviaba una matriz si se seleccionaba más de un valor. Si solo se seleccionaba un valor, se enviaba una cadena.
+> Para los campos de selección múltiple, la versión 2 de Suscripciones a eventos siempre envía una matriz. La versión 1 enviaba una matriz si se seleccionaba más de un valor. Si solo se seleccionaba un valor, se enviaba una cadena.
 
 Adobe Workfront publicó la versión 21 de la API el viernes, 23 de octubre de 2025. La versión 21 de la API incorpora los siguientes cambios con respecto a la versión 20.
 
@@ -483,7 +484,7 @@ Un objeto Parameter es un campo personalizado.
             <p>Se ha añadido el siguiente valor posible:</p>
              <ul>
               <li>
-                <p><code>RICHLX</code> (Texto enriquecido léxico)</p>
+                <p><code>HTML</code> </p>
               </li>
             </ul>
          </li>
@@ -983,5 +984,3 @@ Un objeto de trabajo es una interfaz común que heredan Tarea y OpTask, y que co
     </tr>
   </tbody>
 </table>
-
-
