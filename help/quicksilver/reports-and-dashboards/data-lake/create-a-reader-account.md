@@ -138,7 +138,7 @@ Para crear una cuenta de lector:
 
 Debe utilizar la clave RSA con el nombre de usuario que eligió para iniciar sesión en Snowflake, así que asegúrese de mantener un registro de ella y de la dirección URL. Marque la casilla que indica que lo ha hecho y luego haga clic en **Cerrar**.
 
-¡    ![Cuadro de diálogo de clave RSA](Assets/rsa-test.png)
+    ![Cuadro de diálogo de clave RSA](Assets/rsa-test.png)
 
 ## Revocar una cuenta de lector
 
