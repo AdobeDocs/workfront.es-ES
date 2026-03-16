@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: aca9b313-3420-43f6-8f6c-dd74888bd120
-source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
+source-git-commit: 4f6909c2862f120c14798c089de52ac6679e7fd9
 workflow-type: tm+mt
-source-wordcount: '1072'
-ht-degree: 6%
+source-wordcount: '987'
+ht-degree: 8%
 
 ---
 
@@ -84,7 +84,7 @@ Para obtener más información acerca de los requisitos de acceso de Workfront, 
 
 +++
 
-## Aprobar una solicitud para crear un registro
+## Aprobar una solicitud de Planning para crear un registro
 
 Después de que los usuarios agreguen solicitudes a un formulario de solicitud de tipo de registro asociado a una aprobación, la solicitud se envía a los aprobadores.
 
@@ -93,65 +93,66 @@ Los aprobadores reciben las siguientes notificaciones sobre una solicitud pendie
 * Una notificación en la aplicación
 * Una notificación por correo electrónico
 
+Para obtener información sobre la aprobación de solicitudes de notificaciones, consulte los siguientes artículos:
+
+* [Administrar notificaciones por correo electrónico de Adobe Workfront Planning](/help/quicksilver/planning/notifications/manage-planning-email-notifications.md)
+* [Administrar notificaciones en la aplicación de Planificación de Adobe Workfront](/help/quicksilver/planning/notifications/manage-planning-in-app-notifications.md)
+
 >[!NOTE]
 >
 >La instancia de Workfront de su organización debe incorporarse a la experiencia unificada de Adobe para que los usuarios puedan recibir notificaciones por correo electrónico y en la aplicación.
 
 Puede aprobar solicitudes para crear registros desde la propia solicitud o desde el widget Mis aprobaciones en Inicio.
 
-* [Aprobar una solicitud de la solicitud en Workfront Planning](#approve-a-request-from-the-request-in-workfront-planning)
-* [Aprobar una solicitud del widget Mis aprobaciones en Inicio](#approve-a-request-from-the-my-approvals-widget-in-home)
+### Aprobar una solicitud de Planning desde una notificación o desde el área de solicitudes
 
-### Aprobar una solicitud de la solicitud en Workfront Planning
+1. Abra la solicitud siguiendo uno de estos procedimientos:
 
-1. (Condicional) Si utiliza la experiencia de solicitud heredada en Workfront, abra la solicitud siguiendo uno de estos procedimientos:
-
-   * Si tiene acceso a Workfront Planning y puede ver al menos un área de trabajo, haga clic en **Menú principal** ![Menú principal de puntos](assets/dots-menu.png) en la esquina superior derecha de la pantalla, o en **Menú principal** ![Menú principal de líneas](assets/lines-menu.png) en la esquina superior izquierda, si está disponible, luego haga clic en **Solicitudes** > **Enviadas** > **Planificación** y haga clic en la solicitud con el estado de **Revisión pendiente** o **En revisar**.
+   * Haga clic en **Menú principal** ![Menú principal de líneas](assets/lines-menu.png) en la esquina superior izquierda, luego haga clic en **Solicitudes** > **Usar nueva experiencia** y haga clic en la solicitud con el estado de **Revisión pendiente**.
 
      >[!TIP]
      >
-     >Si no tiene acceso a Workfront Planning o no tiene acceso para ver ningún espacio de trabajo, solo puede acceder a una solicitud para aprobarla mediante el correo electrónico o las notificaciones en la aplicación.
+     >* Si no tiene acceso a Workfront Planning o no tiene acceso para ver ningún espacio de trabajo, solo puede acceder a una solicitud para aprobarla mediante el correo electrónico o las notificaciones en la aplicación.
+     >* No puede acceder a las solicitudes de Planning desde la experiencia de solicitud heredada.
 
    * Haga clic en el icono del área **Notificaciones** ![Icono del área Notificaciones en Unified Shell](assets/notifications-area-icon-unified-shell.png) en la esquina superior derecha de la pantalla y haga clic en la notificación sobre una solicitud pendiente de su aprobación para abrirla.
-   * Vaya a la notificación por correo electrónico del mensaje que le notifica una solicitud pendiente de aprobación y, a continuación, haga clic en **Abrir solicitud** para abrir la solicitud. <!--add the name of the button here, from the email-->
+   * Vaya a la notificación por correo electrónico del mensaje que le notifica una solicitud pendiente de aprobación y, a continuación, haga clic en **Abrir solicitud** para abrir la solicitud.
 
    La página de solicitud se abre en modo de solo lectura.
 
    ![Página de solicitud de solo lectura en el estado de revisión](assets/read-only-reqeust-page-in-review-status.png)
-1. Si está usando la nueva experiencia de solicitud en Workfront, haga clic en **Menú principal** ![Menú principal de puntos](assets/dots-menu.png) en la esquina superior derecha de la pantalla, o en **Menú principal** ![Menú principal de líneas](assets/lines-menu.png) en la esquina superior izquierda, si está disponible, luego haga clic en **Solicitudes** y luego haga clic en la solicitud que desee aprobar con el estado **Revisión pendiente**.
 1. (Opcional) Haga clic en el icono **Aprobaciones** ![Icono de aprobaciones](assets/approvals-icon.png) en la esquina superior derecha de la solicitud para ver los aprobadores.
 1. Haga clic en **Revisar y aprobar**, y después elija una de las siguientes opciones:
 
    * **Aprobar**: Esto aprueba la solicitud. Se crea inmediatamente un registro para el tipo de registro asociado al formulario de solicitud después de que todos los aprobadores aprueben la solicitud.
    * **Rechazar**: Esto rechaza la solicitud, incluso cuando usted es el único aprobador que la rechaza. No se crea ningún registro para el tipo de registro asociado al formulario de solicitud.
 
-   El usuario que ha enviado la solicitud recibe un correo electrónico y notificaciones en una aplicación cuando se aprueba o rechaza su solicitud.
+   El usuario que ha enviado la solicitud recibe un correo electrónico y una notificación dentro de la aplicación cuando se aprueba o rechaza su solicitud.
 
    El estado de la solicitud cambia a lo siguiente, según la decisión de aprobación:
 
    * **Completada**: la solicitud está aprobada.
    * **Rechazada**: la solicitud es rechazada.
 
-   La solicitud permanece en el área de solicitudes de Workfront.
+   La solicitud permanece en el área de **Solicitudes** de Workfront.
 
 ### Aprobar una solicitud del widget Mis aprobaciones en Inicio
 
 {{step1-to-home}}
 
-O
+1. Vaya al widget **Mis aprobaciones** en **Inicio**.
 
-Haga clic en el icono [!UICONTROL Inicio] ![Icono de inicio](/help/_includes/assets/home-icon-30x29.png) en la esquina superior izquierda de Adobe Workfront y, a continuación, busque el widget Mis aprobaciones.
+   ![Widget de mis aprobaciones en Inicio](assets/my-approvals-widget-in-home.png)
+1. Busque la solicitud de Planning que desea aprobar o rechazar.
 
-1. Busque el objeto que desea aprobar o rechazar.
+1. (Opcional) Agregue un comentario haciendo clic en la flecha desplegable junto a **Aprobar** o **Rechazar**, escribiendo la nota y haciendo clic en **Agregar**.
 
-1. (Opcional) Agregue un comentario haciendo clic en la flecha desplegable situada junto a Aprobar o Rechazar, escribiendo en la nota y haciendo clic en Agregar.
-
-1. Seleccione una de las siguientes opciones:
+1. Haga clic en una de las siguientes opciones:
 
    * **Aprobar**: Esto aprueba la solicitud. Se crea inmediatamente un registro para el tipo de registro asociado al formulario de solicitud después de que todos los aprobadores aprueben la solicitud.
    * **Rechazar**: Esto rechaza la solicitud, incluso cuando usted es el único aprobador que la rechaza. No se crea ningún registro para el tipo de registro asociado al formulario de solicitud.
 
-   El usuario que ha enviado la solicitud recibe un correo electrónico y notificaciones en una aplicación cuando se aprueba o rechaza su solicitud.
+   El usuario que ha enviado la solicitud recibe un correo electrónico y una notificación dentro de la aplicación cuando se aprueba o rechaza su solicitud.
 
    El estado de la solicitud cambia a lo siguiente, según la decisión de aprobación:
 

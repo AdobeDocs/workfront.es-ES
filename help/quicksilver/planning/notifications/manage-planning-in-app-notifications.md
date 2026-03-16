@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: a6eb8c7c-a34d-4c84-a45c-7e7f050a4302
-source-git-commit: 5404cec0cb02d363154a3696b63aaedaafc82688
+source-git-commit: 4f6909c2862f120c14798c089de52ac6679e7fd9
 workflow-type: tm+mt
-source-wordcount: '359'
-ht-degree: 17%
+source-wordcount: '416'
+ht-degree: 15%
 
 ---
 
@@ -155,8 +155,16 @@ OLD:
 
 ## Administración de notificaciones en la aplicación al solicitar y conceder permisos
 
-Recibirá notificaciones en la aplicación cuando alguien solicite o le conceda permisos para una vista o un espacio de trabajo. <!--<span class="preview">or record</span>-->
+Recibirá notificaciones en la aplicación cuando alguien solicite o le conceda permisos para una vista, un espacio de trabajo o un tipo de registro. <!--<span class="preview">or record</span>-->
 
 Para obtener información sobre cómo solicitar, conceder o denegar permisos, vea [Solicitar permisos a una vista o área de trabajo](/help/quicksilver/planning/access/request-permissions.md).
 
 Para obtener información sobre cómo administrar las notificaciones de Workfront Planning, consulte [Administrar las preferencias de notificación de Adobe Workfront Planning](/help/quicksilver/planning/notifications/manage-notification-preferences.md).
+
+## Administrar notificaciones en la aplicación al aprobar o rechazar solicitudes de Planning
+
+Recibirá una notificación en la aplicación cuando alguien envíe una solicitud de aprobación o cuando alguien apruebe una solicitud que usted haya enviado.
+
+Para obtener información sobre cómo enviar solicitudes, consulte [Enviar solicitudes de Adobe Workfront Planning para crear registros](/help/quicksilver/planning/requests/submit-requests.md).
+
+Para obtener información acerca de cómo aprobar solicitudes, vea [Aprobar una solicitud en Adobe Workfront Planning](/help/quicksilver/planning/requests/approve-request.md).

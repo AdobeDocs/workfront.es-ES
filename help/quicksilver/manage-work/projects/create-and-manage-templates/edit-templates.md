@@ -6,10 +6,10 @@ description: Puede editar las plantillas de proyecto para reflejar los cambios e
 author: Alina
 feature: Work Management
 exl-id: da0fca31-6a50-4862-ad9a-a453ef968773
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: 4f6909c2862f120c14798c089de52ac6679e7fd9
 workflow-type: tm+mt
-source-wordcount: '5672'
-ht-degree: 88%
+source-wordcount: '4971'
+ht-degree: 87%
 
 ---
 
@@ -269,94 +269,36 @@ Puede editar las plantillas de una en una o editarlas de forma masiva.
 1. Actualice los campos siguientes:
 
    <table style="table-layout:auto"> 
-       <col> 
-       <col> 
-       <tbody> 
-         <tr> 
-         <td role="rowheader"><strong>Descripción</strong></td> 
-         <td>Añada información adicional sobre la plantilla.</td> 
-       </tr> 
-         <tr> 
-         <td role="rowheader"><strong>Prioridad</strong></td> 
-         <td><p>Es tan solo un indicador visual que le permite priorizar sus proyectos futuros. Seleccione entre las siguientes opciones:</p> 
-         <ul> 
-         <li><p><strong>Ninguno</strong></p></li> 
-         <li><p><strong>Bajo</strong></p></li> 
-         <li><p><strong>Normal</strong></p></li> 
-         <li><p><strong>Alto</strong></p></li> 
-         <li><p><strong>Urgente</strong></p></li> 
-         </ul><p><p>Según las Preferencias del proyecto seleccionadas por el administrador de Workfront, los nombres de las prioridades pueden ser diferentes para usted. Para obtener más información sobre cómo editar prioridades, consulte <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md" class="MCXref xref">Crear y personalizar prioridades</a>.</p></p></td> 
-       </tr> 
-       <tr> 
-       <td role="rowheader"><strong>URL</strong></td> 
-         <td>Especifique un vínculo web relacionado con la información sobre esta plantilla.</td> 
-       </tr>
+    <col> 
+    <col> 
+    <tbody> 
       <tr> 
-      <td role="rowheader"><strong>Activo</strong></td> 
-      <td><p>Active esta opción si desea que la plantilla esté activa. Otros usuarios pueden encontrar esta plantilla y adjuntarla a proyectos al crearlos. Desactive la opción si desea desactivar las plantillas que ya no se utilizan. Las plantillas desactivadas no se pueden adjuntar a los proyectos. Esta opción está habilitada de forma predeterminada. </p><p><b>Sugerencia</b></p>
-
-   <p>Puede desactivar una plantilla desde el encabezado de la plantilla tal como se describe en la sección "Activar o desactivar una plantilla" de este artículo.</p></td> 
+      <td role="rowheader"><strong>Divisa</strong></td> 
+      <td><p>Especifique la moneda para el proyecto futuro, si es diferente a la moneda predeterminada del sistema. Este campo no está visible si solo tiene la moneda predeterminada en el sistema.<br>Para obtener más información sobre la moneda, consulte <a href="../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">Configurar tasas de cambio</a>.</p></td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><strong>Presupuesto</strong></td> 
+      <td><p>Especifique un presupuesto para los proyectos creados a partir de esta plantilla.</p></td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><strong>Método de índice de rendimiento</strong></td> 
+      <td><p>Especifique si las métricas del valor ganado del proyecto futuro se calculan mediante horas o costes. Para obtener más información acerca del método de índice de rendimiento, consulte <a href="../../../manage-work/projects/project-finances/set-pim.md" class="MCXref xref">Establecer el método de índice de rendimiento (PIM)</a>. </p></td> 
+     </tr>
+     <tr> 
+      <td role="rowheader"><strong>Beneficio planificado</strong></td> 
+      <td><p>Especifique el beneficio planificado de los proyectos que se crean a partir de esta plantilla. El beneficio planificado se utiliza en el Caso empresarial del proyecto y en el Optimizador de portafolios. </p><p>Para obtener más información sobre el beneficio planificado de un proyecto, consulte <a href="../../../manage-work/projects/project-finances/project-planned-benefit.md" class="MCXref xref">Información general sobre el beneficio planificado del proyecto</a>. El Beneficio planificado de un proyecto se tiene en cuenta cuando se calcula el valor neto de un proyecto. </p><p>Para obtener más información sobre el uso de Portfolio Optimizer, consulte <a href="../../../manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md" class="MCXref xref">Administrar proyectos en Portfolio Optimizer</a>. </p></td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><strong>Coste fijo</strong></td> 
+      <td><p>Especifique el coste fijo de los proyectos creados a partir de esta plantilla. Esto es diferente al coste de mano de obra que proviene de las horas en el proyecto y al coste de gasto que proviene de la cantidad de gastos en el proyecto. El coste fijo de un proyecto se tiene en cuenta al calcular su valor neto y forma parte del coste presupuestado.</p></td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><strong>Ingresos fijos</strong></td> 
+      <td><p>Especifique los ingresos fijos de los proyectos creados a partir de esta plantilla.</p></td> 
      </tr>
 
-   <tr> 
-      <td role="rowheader"><strong>Tipo de condición</strong></td> 
-      <td><p>Seleccione entre los siguientes tipos de condición:</p> 
-      <ul> 
-      <li><strong>Manual:</strong> el propietario del proyecto establece manualmente la condición del proyecto en el proyecto. <strong></strong></li> 
-      <li><strong>Estado del progreso:</strong> Workfront establece automáticamente la condición del proyecto futuro en función del estado del progreso de las tareas en la ruta crítica. Para obtener más información sobre el significado del estado de progreso, consulte <a href="../../../manage-work/tasks/task-information/task-progress-status.md" class="MCXref xref">Información general sobre el estado de progreso de la tarea</a>.</li> 
-      </ul>
-      </td> 
-      </tr> 
-      <tr> 
-      <td role="rowheader"><strong>Modo de programación</strong></td> 
-      <td><p>Especifique si el proyecto que usa esta plantilla está programado a partir de la <strong>fecha de inicio</strong> o a partir de la <strong>fecha de finalización</strong>. Esta selección determina las fechas planificadas de las tareas futuras del proyecto mediante esta plantilla. </p><p>Seleccione entre las siguientes opciones: </p> 
-      <ul> 
-      <li><p><strong>Programar a partir de la fecha de inicio</strong>: la fecha de inicio de la plantilla es en realidad el día de inicio. Cuando se programa una plantilla a partir de la fecha de inicio, Adobe Workfront calcula el día de finalización de la plantilla en función de la duración de todas las tareas de plantilla. El día de inicio de la plantilla se convierte en la fecha de inicio planificada del futuro proyecto.</p></li> 
-      <li><p><strong>Programar a partir de la fecha de finalización</strong>: la fecha de finalización de la plantilla es en realidad el día de finalización. Cuando se programa una plantilla a partir de la fecha de finalización, Workfront calcula el día de inicio de la plantilla en función de la duración de todas las tareas de plantilla. El día de finalización de la plantilla se convierte en la fecha planificada de finalización del futuro proyecto. </p></li> 
-      </ul><p>Para obtener más información sobre los días de inicio y finalización de las tareas de plantilla, consulte <a href="../../../manage-work/projects/create-and-manage-templates/overview-of-start-completion-day-on-template.md" class="MCXref xref">Información general sobre los días de inicio y finalización en una plantilla</a>. </p><p>La configuración de Programación desde de las plantillas es similar a la de los proyectos. El administrador de Workfront selecciona la configuración predeterminada Programación desde para los proyectos del sistema. Para obtener información sobre cómo establecer los valores predeterminados del proyecto, consulte <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configurar las preferencias del proyecto en todo el sistema</a>.</p></td> 
-      </tr>
-
-   <tr> 
-      <td role="rowheader"><strong>Portafolio</strong></td> 
-      <td><p>Especifique un portafolio para los proyectos creados a partir de esta plantilla. Para que un Portafolio aparezca en la lista desplegable, primero debe crearlo. </p><p>En la lista solo se muestran los portafolios activos. Para obtener más información sobre la creación de portafolios, consulte <a href="../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md" class="MCXref xref">Crear un portafolio </a>.</p></td> 
-      </tr> 
-      <tr> 
-      <td role="rowheader"><strong>Programa</strong></td> 
-      <td><p>Si ha seleccionado un portafolio para la plantilla, especifique un <strong>Programa</strong> para el proyecto futuro. Es posible que algunos portafolios no tengan programa. Para que un programa aparezca en esta lista desplegable, primero debe crearlo. En la lista solo se muestran los programas activos.</p><p>Para obtener más información sobre cómo crear programas, consulte <a href="../../../manage-work/portfolios/create-and-manage-programs/create-program.md" class="MCXref xref">Crear un programa</a>.</p></td> 
-      </tr>  
-      <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
-      <td role="rowheader"><strong>Grupo</strong></td> 
-      <td><p>En la lista desplegable, seleccione el grupo que desea asociar a los proyectos creados a partir de la plantilla. Puede ser un grupo de cualquier nivel. </p><p>Para asegurarse de que está seleccionando el grupo correcto, pase el puntero por encima de él y haga clic en el icono de información <img src="assets/info-icon.png"> que se muestra junto a él. Esta acción muestra la ayuda contextual con información sobre el grupo, como la jerarquía de los grupos que tiene por encima y sus administradores.</p> <p><b>NOTAS</b>
-
-   <ul> 
-      <li><p>En el área Proyectos de la página de un grupo, cuando alguien crea un proyecto con una plantilla que no tiene un grupo seleccionado, el sistema asocia el grupo que está abierto en ese momento con el proyecto.</p><p>Esto es distinto en otras áreas en las que el sistema asocia el grupo de inicio de un usuario con el proyecto cuando el usuario crea el proyecto mediante una plantilla que no tiene un grupo seleccionado.</p></li> 
-      <li><p>Si un usuario selecciona una plantilla que tiene un grupo seleccionado cuando está creando un proyecto (o al convertir una tarea o un problema en un proyecto), el usuario puede elegir un grupo diferente para el proyecto.</p></li> 
-      <li>Aunque este campo está disponible solamente en las plantillas de la nueva experiencia de Adobe Workfront, puede verlo en listas e informes tanto allí como en Adobe Workfront Classic. </li> 
-      </ul> </p></td> 
-      </tr> 
-      <tr> 
-      <td role="rowheader"><strong>Compañía</strong></td> 
-      <td><p>Especifique la Compañía que desee asociar con la plantilla. En la lista solo se muestran las compañías activas.</p></td> 
-      </tr> 
-      <tr> 
-      <td role="rowheader"><strong>Propietario de la plantilla</strong></td> 
-      <td><p>El usuario designado como Propietario de la plantilla debe ser un usuario activo de Workfront. </p><p>Tenga en cuenta lo siguiente sobre el usuario designado como propietario de la plantilla: </p> 
-      <ul> 
-      <li>Se les otorgan automáticamente permisos de administración en la plantilla. </li> 
-      <li>Se añaden al equipo del proyecto y se les otorgan automáticamente permisos de administración en el proyecto creado a partir de la plantilla. </li> 
-      <li>Se convierten en Propietario del proyecto cuando el proyecto se crea a partir de esta plantilla. </li> 
-      <li> Si el usuario designado como Propietario de la plantilla tiene acceso limitado a las plantillas o proyectos desde su nivel de acceso, sus permisos de administración en la plantilla y en los proyectos estarán limitados. Por ejemplo, si solo tienen acceso para Ver en las plantillas o proyectos de su nivel de acceso, recibirán automáticamente permisos para Ver en la plantilla y el proyecto cuando se designen como Propietario de la plantilla.</li>
-      </ul></td> 
-      </tr> 
-      <tr> 
-      <td role="rowheader"><strong>Patrocinador de plantilla</strong></td> 
-      <td><p>El usuario especificado en este campo se convierte en patrocinador del proyecto cuando la plantilla se añade al proyecto. Este usuario se añade al equipo del proyecto y se le conceden automáticamente permisos para Ver en el proyecto. El usuario designado como Patrocinador de la plantilla debe ser un usuario activo de Workfront. </p></td> 
-      </tr> 
-      <tr> 
-      <td role="rowheader"><strong>Gerente de recursos</strong></td> 
-      <td><p>A los usuarios especificados se les conceden automáticamente permisos de administración en los proyectos futuros y pueden asignar recursos a las tareas y problemas de los proyectos. Puede especificar más de un Administrador de recursos. </p></td> 
-      </tr> 
-      </table>
+   </tbody> 
+   </table>
 
 1. (Opcional) Siga editando las secciones siguientes, según la información que desee modificar.
 
@@ -807,7 +749,7 @@ Puede añadir los siguientes elementos a las tareas de la plantilla:
 
   Para obtener más información sobre cómo añadir gastos, consulte [Administrar gastos del proyecto](../../../manage-work/projects/project-finances/manage-project-expenses.md).
 
-* Rutas de aprobación
+* Aprobaciones
 
   Para obtener más información sobre cómo asociar las aprobaciones con el trabajo, consulte [Asociar un proceso de aprobación nuevo o existente con trabajo](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md).
 

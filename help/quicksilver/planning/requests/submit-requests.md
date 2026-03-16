@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
-source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
+source-git-commit: 4f6909c2862f120c14798c089de52ac6679e7fd9
 workflow-type: tm+mt
 source-wordcount: '2252'
 ht-degree: 4%
@@ -185,7 +185,7 @@ Si habilita esta configuración, los formularios de solicitud de Workfront Plann
 
      >[!NOTE]
      >
-     >Las notificaciones por correo electrónico y en la aplicación solo son visibles cuando la instancia de Workfront de su organización está integrada en la experiencia unificada de Adobe.
+     >El correo electrónico y las notificaciones en la aplicación solo son visibles cuando la instancia de Workfront de su organización está integrada en la experiencia unificada de Adobe.
      >
      >Hay un vínculo a la solicitud en la confirmación de correo electrónico o la notificación de aprobación.
 
@@ -272,7 +272,7 @@ La información de esta sección solo se aplica a los usuarios de Workfront que 
 
      >[!NOTE]
      >
-     >Las notificaciones por correo electrónico y en la aplicación solo son visibles cuando la instancia de Workfront de su organización está integrada en la experiencia unificada de Adobe.
+     >El correo electrónico y las notificaciones en la aplicación solo son visibles cuando la instancia de Workfront de su organización está integrada en la experiencia unificada de Adobe.
 
    <!-- <span class="preview"> After the request was approved and the record was created, the Approved by and Approved date fields display information about the approval on the record.</span>-->
 
