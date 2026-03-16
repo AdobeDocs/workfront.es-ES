@@ -7,10 +7,11 @@ description: Puede habilitar el almacenamiento empresarial de Adobe para que su 
 author: Courtney
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 97c351ca38a8b6075634b2f755f2330562bc8b52
+exl-id: 48b581c7-a21a-45de-95c5-eafb0713b42e
+source-git-commit: e70a65447fe508d055809271edad399d823f66dd
 workflow-type: tm+mt
-source-wordcount: '244'
-ht-degree: 15%
+source-wordcount: '320'
+ht-degree: 11%
 
 ---
 
@@ -65,5 +66,10 @@ Para habilitar el almacenamiento empresarial de Adobe para su organización:
    >Al habilitar esta opción, los usuarios pueden seleccionar el proveedor de almacenamiento cuando creen un nuevo proyecto. almacenamiento empresarial está etiquetado como &quot;Nuevo proyecto&quot; ya que es el proveedor de almacenamiento predeterminado. El almacenamiento heredado de Workfront está etiquetado como &quot;Proyecto heredado&quot;.
    >
    >![nuevas opciones de proyecto y de proyecto heredado](assets/new-esm-project.png)
+
+1. En el menú desplegable Se aplica a, elija una de las siguientes opciones:
+
+   - **Organización completa**: esta opción aplica el proveedor de almacenamiento predeterminado a todo el entorno de Workfront. Cada vez que un usuario cree un nuevo proyecto, se utilizará el proveedor de almacenamiento predeterminado.
+   - **Grupos específicos**: esta opción aplica el proveedor de almacenamiento predeterminado solamente a grupos específicos dentro de su organización. Cada vez que un usuario de los grupos especificados cree un nuevo proyecto, se utilizará el proveedor de almacenamiento predeterminado
 
 1. Haga clic en **Guardar**.
