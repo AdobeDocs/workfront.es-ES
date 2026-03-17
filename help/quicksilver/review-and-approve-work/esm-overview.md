@@ -7,7 +7,7 @@ author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 16c564a9-abd7-4b07-be3e-9c823f40177d
-source-git-commit: 7f17ffc179914747d29c4acb08b34341c5a4b7b4
+source-git-commit: c4c4eb8e04b8e43a6681a92c3ee1e3a177ad0983
 workflow-type: tm+mt
 source-wordcount: '846'
 ht-degree: 2%
@@ -103,6 +103,6 @@ Los clientes existentes pueden habilitar el almacenamiento empresarial de Adobe 
 
 ## Consideraciones
 
-* Es posible que Workfront no esté sincronizado con Frame.io o Creative Cloud, como un recurso que se está eliminando en Workfront pero que aún aparece en Frame.io, póngase en contacto con el servicio de asistencia de Workfront para que se vuelva a sincronizar su entorno.
+* Es posible que Workfront no esté sincronizado con Frame.io o Creative Cloud, como un recurso que se está eliminando en Workfront pero que sigue apareciendo en Frame.io, póngase en contacto con el servicio de asistencia de Workfront para que se vuelva a sincronizar su entorno.
 
 

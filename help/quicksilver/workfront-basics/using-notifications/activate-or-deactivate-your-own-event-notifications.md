@@ -7,10 +7,10 @@ description: Este artículo describe cómo administrar las notificaciones por co
 author: Courtney, Becky
 feature: Get Started with Workfront
 exl-id: 3d1f877e-6bb4-494e-b08e-c18ec87dd001
-source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
+source-git-commit: 571deef920ed11f6cd7d59da5ba91ef58e88ab9e
 workflow-type: tm+mt
-source-wordcount: '613'
-ht-degree: 95%
+source-wordcount: '631'
+ht-degree: 93%
 
 ---
 
@@ -30,7 +30,7 @@ Para obtener más información sobre las notificaciones por correo electrónico,
 >
 >* Si activa un tipo de notificación y, a continuación, observa que no recibe notificaciones de ese tipo, puede deberse a que ese tipo no se aplica a su función.
 >* El administrador de [!DNL Workfront] o un administrador de grupo no pueden configurar notificaciones para [!DNL Workfront Goals]. Para obtener más información sobre las notificaciones que puede configurar el administrador de [!DNL Workfront], consulte [Configurar notificaciones de eventos para todos los usuarios del sistema](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md). Para obtener información acerca de cómo configurar notificaciones individuales para [!DNL Workfront Goals], siga leyendo este artículo.
->
+>* Las notificaciones de aprobación solo se aplican a aprobaciones de documentos heredados. Los controles de notificación para las aprobaciones de documentos unificadas no están disponibles actualmente.
 
 ## Requisitos de acceso
 
