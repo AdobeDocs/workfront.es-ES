@@ -7,10 +7,10 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 54859930-7619-4b93-8dff-29b10e43d6d5
-source-git-commit: 11fe205b9590b6f8330e0923bbe47d2ed693cf16
+source-git-commit: 9a3b04a40cf871661ba5451c0dc611057f7e4f5d
 workflow-type: tm+mt
-source-wordcount: '1050'
-ht-degree: 74%
+source-wordcount: '1051'
+ht-degree: 77%
 
 ---
 
@@ -152,7 +152,7 @@ En la tabla siguiente se enumeran los campos disponibles para los recursos de su
   </tr> 
   <tr> 
    <td>Participante de fase de aprobación<p>(Subs de evento v2)</p></td> 
-   <td>approval_stage_partition</td> 
+   <td>approval_stage_participant</td> 
    <td>createdAt</td> 
   </tr> 
   <tr> 
@@ -2647,7 +2647,7 @@ En la tabla siguiente se enumeran los campos disponibles para los recursos de su
   </tr> 
   <tr> 
    <td>Recurso del plan de asignación de personal <p>(Subs de evento v2)</p></td> 
-   <td>PERSONAL</td> 
+   <td>STAFFR</td> 
    <td>accessorIDs</td> 
   </tr> 
   <tr> 
@@ -2734,8 +2734,8 @@ En la tabla siguiente se enumeran los campos disponibles para los recursos de su
    <td>totalEstimatedRevenue</td> 
   </tr> 
   <tr> 
-   <td>Valor de atributo de recurso de plan de plantilla<p>(Subs de evento v2)</p></td> 
-   <td>ESPAVAL</td> 
+   <td>Valor de atributo de recurso de plan de asignación de personal<p>(Subs de evento v2)</p></td> 
+   <td>SPAVAL</td> 
    <td>attributeAttachableID</td> 
   </tr> 
   <tr> 
@@ -2782,7 +2782,7 @@ En la tabla siguiente se enumeran los campos disponibles para los recursos de su
    <td>refGroupID</td> 
   </tr> 
   <tr> 
-   <td>Conjunto de valores de atributo de recurso de plan de plantilla <p>(Subs de evento v2)</p></td> 
+   <td>Conjunto de valores de atributo de recurso de plan de asignación de personal <p>(Subs de evento v2)</p></td> 
    <td>SAVSET</td> 
    <td>attributeAttachableID</td> 
   </tr> 
@@ -2885,6 +2885,11 @@ En la tabla siguiente se enumeran los campos disponibles para los recursos de su
    <td> </td> 
    <td> </td> 
    <td>billingRecordID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>canStart</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -3109,12 +3114,12 @@ En la tabla siguiente se enumeran los campos disponibles para los recursos de su
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>deliverableScoreCardID</td> 
+   <td>customerID</td> 
   </tr> 
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>customerID</td> 
+   <td>deliverableScoreCardID</td> 
   </tr> 
   <tr> 
    <td> </td> 
