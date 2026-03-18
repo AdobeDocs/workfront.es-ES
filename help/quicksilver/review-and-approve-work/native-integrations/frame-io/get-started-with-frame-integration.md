@@ -7,9 +7,9 @@ author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: b9a83bc2-4dd8-4c77-a2e7-385baa809b3b
-source-git-commit: e93f8662acb95029e4997ec270b23511d3e880dd
+source-git-commit: 990af6c3e0f026de495b666a108a8bbce5118c1b
 workflow-type: tm+mt
-source-wordcount: '960'
+source-wordcount: '958'
 ht-degree: 6%
 
 ---
@@ -67,16 +67,13 @@ Los revisores y aprobadores se pueden añadir a un flujo de trabajo de aprobaci�
 
 * **Aprobaciones de un solo uso**: en el proyecto o tarea donde reside el recurso, el coordinador del proyecto puede asignar revisores y aprobadores y establecer un límite de finalización. Se recuerda a los revisores y aprobadores por correo electrónico 72 horas antes del plazo, 24 horas antes del plazo y, a continuación, en el propio plazo.
 
-  Para obtener más información, consulte [Crear un flujo de trabajo de aprobación de documentos](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).
+  Para obtener más información, consulte [Crear un flujo de trabajo de aprobación de documentos](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md#create-an-approval-workflow-from-the-summary-panel-in-the-new-document-area).
 
 * **Plantillas de aprobación**: en el área Configuración de Workfront, los coordinadores de proyecto pueden crear plantillas de aprobación reutilizables. En una plantilla, los usuarios pueden agregar revisores y aprobadores, y especificar un periodo de finalización. Cuando la plantilla de aprobación se aplica a un recurso, la fecha límite se calcula a partir del periodo de tiempo especificado.
 
   Una vez creada una plantilla, se puede aplicar a un recurso para iniciar el proceso formal de revisión y aprobación en Workfront.
 
   Para obtener más información, consulte [Crear una plantilla de flujo de trabajo de aprobación para los documentos](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md).
-
-
-  ![Asignar plantilla](assets/assign-template.png)
 
 ### Revisión y aprobación de recursos en el visor de Frame.io
 
