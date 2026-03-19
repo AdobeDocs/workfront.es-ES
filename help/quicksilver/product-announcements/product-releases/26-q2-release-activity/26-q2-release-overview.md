@@ -5,10 +5,10 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7e440fc0-45ad-4f73-ae7e-5374e4ae1480
-source-git-commit: 50ee9ac593e230e6f869f4158a67e4c3113aed45
+source-git-commit: 0cd80741d5c92bf633b4d4becefa1b64d5f5d938
 workflow-type: tm+mt
-source-wordcount: '1505'
-ht-degree: 38%
+source-wordcount: '1496'
+ht-degree: 35%
 
 ---
 
@@ -316,13 +316,11 @@ En este punto de la versión, no hay actualizaciones de lo siguiente:
 
 ## Actualizaciones del visor de revisión de escritorio
 
-### Versión 2.1.54
+### Versión 2.1.55
 
-**Versión de producción para todos los clientes: 11 de diciembre de 2025**
+Lanzamiento de producción para todos los clientes: jueves, 19 de marzo de 2025
 
-El visor de revisión de escritorio se ha actualizado de la versión 2.1.52 a la versión 2.1.54. Esta actualización incluye actualizaciones de las herramientas internas y no afecta a la funcionalidad para el usuario final.
-
-La versión 2.1.53 también incluye cambios en las herramientas internas.
+El Visor de pruebas de escritorio se ha actualizado a desde la versión 2.1.54 a la versión 2.1.55. Esta actualización incluyó actualizaciones de las herramientas internas y no afectó a la funcionalidad del usuario final.
 
 Esta actualización es para Mac y Windows.
 
