@@ -7,9 +7,9 @@ description: Si lo desea, puede añadir una columna de entrada al tablero que re
 author: Courtney
 feature: Agile
 exl-id: 4991f4f7-6f3d-4e15-ae8d-96433ed46557
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+source-git-commit: db2e91e795bbc4ecc9953eb0c7643c7ae1f1c911
 workflow-type: tm+mt
-source-wordcount: '1033'
+source-wordcount: '1023'
 ht-degree: 69%
 
 ---
@@ -145,8 +145,6 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
 ## Utilizar la columna de entrada
 
 Para poder editar las tarjetas de la columna de entrada, debe moverlas a otras columnas del tablero. Haga clic en la tarjeta para abrirla en una vista de solo lectura, o bien haga clic en ![Abrir tarea o problema](assets/boards-launch-icon.png) para abrir la tarea o el problema en una nueva pestaña del explorador.
-
-Los elementos de la columna de entrada se pueden reordenar manualmente.
 
 En la parte superior derecha de la columna de entrada, los iconos muestran cuántas tarjetas hay en la columna y cuántos filtros se aplican.
 
