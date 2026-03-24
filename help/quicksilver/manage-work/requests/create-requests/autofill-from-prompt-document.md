@@ -5,10 +5,10 @@ description: Puede utilizar IA para rellenar automáticamente los campos de soli
 author: Alina
 feature: Get Started with Workfront
 exl-id: 4a22f9ea-c9ee-4947-8683-9989c54903b1
-source-git-commit: 65bb04377c3d819de3df12a0dc9dfc3878152d51
+source-git-commit: 1afc69b23138ddfc6e369bf6231dec9ecb5d0bdb
 workflow-type: tm+mt
-source-wordcount: '1390'
-ht-degree: 13%
+source-wordcount: '1491'
+ht-degree: 14%
 
 ---
 
@@ -80,6 +80,19 @@ Tenga en cuenta lo siguiente al utilizar Rellenar formulario con tecnología de 
 * Files that you use in Form Fill powered by AI are uploaded to Azure storage for 24 hours. This is necessary for document processing. 
 * All files uploaded to Azure are currently stored in US Azure clusters for the 24 hour storage window. 
 -->
+
+
+## Habilite el rellenado de formularios con tecnología de IA para su organización
+
+>[!NOTE]
+>
+>El relleno de formulario con tecnología IA está habilitado en el nivel de organización y no se puede habilitar ni deshabilitar para usuarios o niveles de acceso específicos.
+
+1. Haga clic en el icono **[!UICONTROL Main Menu]** ![Menú principal](/help/_includes/assets/main-menu-icon.png) en la esquina superior derecha de Adobe Workfront o, si está disponible, haga clic en el icono **[!UICONTROL Main Menu]** ![Menú principal](/help/_includes/assets/main-menu-icon-left-nav.png) en la esquina superior izquierda y, a continuación, haga clic en **[!UICONTROL Setup]** ![Icono de Configuración](/help/_includes/assets/gear-icon-setup.png).
+1. Haga clic en **Sistema** y, a continuación, en Sistema, haga clic en **Preferencias**.
+1. En la sección de preferencias de IA, asegúrese de que la opción **Habilitar IA** esté activada.
+1. Alternar en **Relleno de formulario AI**.
+1. Para deshabilitar el relleno de formulario con tecnología de IA, desactive **Relleno de formulario de IA**.
 
 ## Obtener sugerencias de un mensaje de texto
 
