@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 780c996c-5cf1-42fe-898d-2cc208bbae7b
-source-git-commit: b6731b9877237916259a862863b30c8ef65ad343
+source-git-commit: 061694c7db64d3f4957903ae21e436f52c77a07e
 workflow-type: tm+mt
-source-wordcount: '1318'
-ht-degree: 76%
+source-wordcount: '1326'
+ht-degree: 77%
 
 ---
 
@@ -40,7 +40,7 @@ Las reglas empresariales se aplican a la creación, edición y eliminación de o
  <col> 
  <tbody> 
   <tr>
-   <td>paquete de Adobe Workfront
+   <td>Paquete de Adobe Workfront
    </td>
    <td> <p>Ultimate</p>
     <p>Workflow Ultimate</p>
@@ -144,6 +144,12 @@ IF(
    * Riesgo
    * Tarjeta de tarifas
    * Asignación
+   * Usuario
+   * Función
+   * Hora
+   * Plantilla
+   * Días libres
+   * Conjunto de recursos
 
 1. Escriba **Name** para la regla de negocio en el cuadro de diálogo del generador de reglas.
 1. En el campo **Está activa**, seleccione si la regla debe estar activa al guardarla.
