@@ -6,10 +6,10 @@ description: Puede solicitar a los usuarios que aprueben un documento que cargue
 author: Courtney
 feature: Digital Content and Documents
 exl-id: f8b25cfa-02d9-4c5a-88c1-924a283cdffb
-source-git-commit: abff7d82c89992e2e494aae13c9eb20868259b54
+source-git-commit: 86d5ed6f91bca0b68748a43476710028d34d6ad2
 workflow-type: tm+mt
-source-wordcount: '119'
-ht-degree: 66%
+source-wordcount: '121'
+ht-degree: 65%
 
 ---
 
@@ -24,4 +24,4 @@ También puede pedir a los usuarios que revisen un documento como revisión en A
 >Las pruebas no están disponibles si su organización está en el almacenamiento empresarial. En su lugar, puede utilizar la revisión y aprobación de Workfront con la integración de Frame.io. Para obtener más información sobre el almacenamiento empresarial o la integración de Frame.io, consulte
 >
 >* [descripción general del almacenamiento empresarial de Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md)
->* [Resumen de la integración de Frame.io](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/frame-int-overview.md)
+>* [Resumen unificado de revisión y aprobación](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)

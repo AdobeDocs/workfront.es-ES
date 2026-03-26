@@ -1,81 +1,202 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: Resumen de aprobaciones unificadas
-description: Puede añadir aprobadores o revisores adicionales a un documento que ya tenga aprobaciones pendientes.
+title: Resumen de revisión y aprobación unificadas
+description: Obtenga más información acerca de la revisión unificada y las aprobaciones con tecnología Workfront y Frame.io.
 author: Courtney
 feature: Work Management, Digital Content and Documents
+recommendations: noDisplay, noCatalog
 exl-id: 32cb95c2-8d12-492b-ad89-b38e2a337fc5
-source-git-commit: 72915fc9f3c262d9c90fd205c6be3776ac20e303
+source-git-commit: 61a176b006f5d7088b3bdb7568977de6624f9603
 workflow-type: tm+mt
-source-wordcount: '324'
-ht-degree: 17%
+source-wordcount: '838'
+ht-degree: 0%
 
 ---
 
-# Resumen de aprobaciones unificadas
+
+# Resumen de revisión y aprobación unificadas
+
+La revisión unificada y las aprobaciones con tecnología Workfront y Frame.io permiten a los coordinadores de proyectos administrar proyectos y planificar el trabajo en Workfront, mientras que los creativos, los especialistas en marketing y las partes interesadas pueden revisar y aprobar los recursos en Frame.io.
+
+## Requisitos de integración
+
+* Workfront y Frame.io deben implementarse en la misma organización de Identity Management system (IMS).
+
+* Los usuarios solo pueden pertenecer a una instancia de Workfront dentro de la organización IMS.
+
+* La instancia de Workfront debe habilitarse en la experiencia unificada de Adobe y en el almacenamiento empresarial de Adobe.
+
+* Adobe Professional Services debe configurar la integración.
+
+
+## Basado en el almacenamiento empresarial de Adobe
+
+La revisión y las aprobaciones unificadas se basan en el almacenamiento empresarial de Adobe, una solución de almacenamiento basada en la nube que sirve como repositorio central para los recursos de los productos empresariales de Adobe, incluidos Workfront y Frame.io. <!--, and Creative Cloud.-->
+
+Entre las ventajas clave del almacenamiento empresarial de Adobe se incluyen:
+
+* Capa de almacenamiento unificada para recursos creativos y de administración de trabajo
+* Permisos centralizados a través del sistema Adobe Identity Management (IMS) para el control de acceso seguro
+* Visibilidad completa de recursos entre Workfront y Frame.io <!--, and Creative Cloud apps -->
+* Almacenamiento escalable y administración de cuotas para las necesidades empresariales
+
+Para obtener más información, consulte [Información general sobre el almacenamiento empresarial de Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
+
+## Revisión y aprobación unificadas
+
+Con la revisión y las aprobaciones unificadas, puede:
+
+* Cree y administre revisiones y aprobaciones directamente desde Workfront
+* Seguimiento del estado de las revisiones y aprobaciones en tiempo real
+* Centralice los comentarios y las aprobaciones en un solo lugar
+* Asegúrese de que todas las partes interesadas tengan acceso a las versiones más recientes de los recursos
+* Utilice los revisores de IA para automatizar las revisiones de cumplimiento de marca
+* y más
+
+Para obtener más información, consulte [Aprobaciones de documentos unificados: índice de artículo](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-reviews-and-approvals.md).
+
+
+### Uso del visor Frame.io
+
+Utilice el visor de Frame.io para revisar y aprobar recursos. El visor Frame.io proporciona
+
+* Herramientas de marcado y comentarios
+* Historial y comparación de versiones
+* Comentarios con marca de tiempo para críticas de vídeo
+* Acceso móvil para revisiones y aprobaciones sobre la marcha
+
+Para obtener más información, consulte [Introducción a la revisión y aprobación unificadas](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/get-started-with-frame-integration.md).
+
+#### Límites de revisión de vídeo
+
+Hay un límite anual para las solicitudes de revisión de vídeo establecido en el 10 % del total de licencias de usuario de Workfront pagadas de una organización: Estándar y Ligeras. Este límite se aplica en el nivel de organización.
+
+Los administradores de Workfront recibirán notificaciones cuando el uso alcance el 80 % y el 100 % del límite.
+
+Este límite no se aplica a los clientes de Frame.io Enterprise.
+
+#### Tipos de archivo compatibles con el visor Frame.io
+
+El visor Frame.io es compatible con todos los tipos comunes de vídeo, imagen, audio, PDF y MS® Office. Para obtener una lista detallada de los archivos compatibles, consulte [Tipos de archivo compatibles en Frame.io](https://help.frame.io/en/articles/9436564-supported-file-types-on-frame-io).
+
+#### Acceso y licencias para el visor Frame.io
+
+El visor Frame.io es el visor predeterminado para todos los flujos de trabajo de revisión y aprobación de Workfront. Se incluye automáticamente para todos los usuarios de Workfront con una licencia de pago. No se requiere ninguna licencia adicional de Frame.io para utilizar el visor de Frame.io en las revisiones y aprobaciones.
+
+Si su organización desea aprovechar las ventajas de la funcionalidad Frame.io adicional disponible con esta integración, como cargar recursos directamente en proyectos en Frame.io, puede adquirir una licencia empresarial de Frame.io. Póngase en contacto con su representante de cuentas de Adobe para programar una demostración y explorar las ventajas de la solución Frame.io completa.
+
+La funcionalidad de revisión de Workfront no está disponible con esta integración.
+
+## Potente administración de proyectos en Workfront
+
+Los coordinadores de proyectos pueden aprovechar las potentes funciones de administración de proyectos de Workfront para planificar, rastrear y administrar el trabajo.
+
+Para obtener más información acerca de la administración de proyectos en Workfront, vea [Proyectos: índice de artículos](/help/quicksilver/manage-work/projects/create-projects/create-project.md).
+
+### Convenciones de nomenclatura y estructura forzadas
+
+Debido a que la revisión y las aprobaciones unificadas se crean mediante el almacenamiento empresarial de Adobe, hay algunas convenciones de estructura y nomenclatura obligatorias que se deben tener en cuenta al administrar proyectos y documentos.
+
+* Los nombres de objeto deben ser únicos y no se pueden duplicar
+* El almacenamiento empresarial de Adobe requiere nombres únicos para objetos del mismo nivel con el mismo elemento principal en el árbol de jerarquías
+* Los documentos no pueden tener el mismo nombre si pertenecen al mismo proyecto
+* Los nombres de documento no pueden contener ninguno de los siguientes caracteres especiales: \ / : * ? &quot; | &lt; >
+* Los nombres de documento están limitados a un máximo de 255 caracteres
+
+Teniendo en cuenta estas limitaciones, Workfront cambia automáticamente el nombre de los objetos o documentos según sea necesario para evitar conflictos.
+
+### Uso compartido y permisos
+
+Como parte de la integración, los permisos de usuario se controlan en Workfront y fluyen a Frame.io. Esto significa que no puede invitar a un usuario a un proyecto en Frame.io ni modificar los permisos de usuario en Frame.io. Estas acciones deben realizarse mediante el modal Uso compartido de proyectos en Workfront.
+
+En la tabla siguiente se muestra cómo se asignan los permisos de Workfront a los permisos de Frame.io:
+
+<table>
+<tr>
+<th>Permiso de usuario de Workfront</th>
+<th>Permiso de usuario de Frame.io</th>
+</tr>
+<tr>
+<td>Administrar</td>
+<td>Editar y compartir</td>
+</tr>
+<tr>
+<td>Aportar</td>
+<td>Editar y compartir</td>
+</tr>
+<tr>
+<td>Ver</td>
+<td>Solo comentario</td>
+</tr>
+</table>
+
+
+
+### Administración de documentos en Workfront
+
+Los documentos cargados en Workfront se almacenan en Adobe enterprise storage y se puede acceder a ellos desde Workfront y Frame.io. Al cargar un documento en una tarea o un problema de Workfront, se crea una carpeta generada por el sistema en Adobe Enterprise Storage que hereda los permisos de la tarea o el problema. Todos los documentos cargados en esa tarea o problema se almacenan en esa carpeta y heredan los permisos de ella. Para obtener más información sobre los documentos de Workfront, consulte [Información general sobre el área de nuevos documentos](/help/quicksilver/documents/managing-documents/documents-area.md) y [Permisos de objetos e información general sobre el nivel de acceso para el modelo de almacenamiento empresarial de Adobe](/help/quicksilver/review-and-approve-work/esm-access-permissions.md).
+
+### Documentar las limitaciones de experiencia
+
+No se deben incluir las siguientes capacidades de documentos:
+
+<!--* External document providers-->
+* Acceso a la revisión en Workfront
+* Visualizador de documentos en Workfront
+* Documentos favoritos
+* Solicitar documentos
+
+
+
+
+
+
+
+
+
+
+<!--
+# Unified Approvals overview
 
 >[!IMPORTANT]
 >
->El contenido de este artículo hace referencia a la funcionalidad actualizada de aprobación de documentos que solo está disponible para cuentas específicas. Para obtener información sobre los procesos de aprobación estándar, consulte los artículos enumerados en [Aprobaciones de trabajo](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md).
+>The content of this article refers to updated document approval functionality that is only available for specific accounts. For information on standard approval processes, see the articles listed in [Work approvals](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md).
 
-Las aprobaciones unificadas, anteriormente denominadas nuevas aprobaciones de documentos, son un rediseño integral del proceso de aprobaciones existente que se encuentra actualmente en desarrollo para Adobe Workfront. Actualmente disponible en versiones limitadas, está diseñado para ser una solución práctica y eficaz para las empresas que requieren una participación integral de las partes interesadas y aprobaciones de documentos específicas para cada versión. Su cuidadoso diseño y sus nuevas características facilitan la colaboración, la claridad de funciones y el control de versiones en el proceso de aprobación, mejorando la eficiencia y la responsabilidad.
+Unified Approvals, previously referred to as New Document Approvals, is a holistic redesign of the existing approvals process that is currently in development for Adobe Workfront. Currently available in limited release, it is designed to be a practical and effective solution for businesses requiring comprehensive stakeholder engagement and version-specific document approvals. Its thoughtful design and purposeful new features facilitate collaboration, role clarity, and version control in the approval process, enhancing efficiency and accountability.
 
-## Diferencias clave con las aprobaciones de pruebas y documentos heredados
+## Key differences from Proofing and legacy document approvals
 
-**Diferencias con la revisión**
+**Differences from Proofing**
 
-* Los participantes en la aprobación del documento se muestran en el resumen del documento, no en la pestaña del flujo de trabajo de revisión.
-* Las aprobaciones unificadas no son compatibles con la herramienta de sistema de informes actual.
+* Document approval participants display in the document Summary, not the proofing workflow tab.
+* Unified Approvals are not supported in the current reporting tool. 
 
-  Puede unirse a la nueva versión beta de Paneles de lienzo para [Crear un panel de informes para revisión y aprobaciones](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md), o puede usar el widget de métricas de aprobación de documentos disponible en los nuevos Paneles de inicio y lienzo que proporciona los siguientes detalles sobre las aprobaciones unificadas:
+    You can join the new Canvas Dashboards beta to [Create a report dashboard for review and approvals](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md), or you can use the Document approval metrics widget available in new Home and Canvas Dashboards provides the following details about Unified Approvals:
 
-   * Aprobaciones por decisión
-   * Tiempo medio de aprobación
-   * Aprobaciones pendientes
-   * Aprobaciones vencidas
+    * Approvals by decision
+    * Average approval time
+    * Pending approvals
+    * Overdue approvals
 
-**Diferencias con las aprobaciones de documentos heredadas**
+**Differences from Legacy document approvals**
 
-Con las aprobaciones unificadas, puede
+With Unified Approvals, you can
 
-* Agregar revisores además de aprobadores
-* Designar todo un equipo de Workfront como revisores o aprobadores
-* Establecer una fecha límite para la revisión o aprobación
-* Creación y reutilización de plantillas de aprobación
-* Utilizar las nuevas versiones
-* Vea varios indicadores de rendimiento clave para sus aprobaciones en los widgets de inicio de Workfront
-* Utilice los paneles de lienzo para ver los detalles de creación de informes sobre las aprobaciones unificadas
+* Add reviewers in addition to approvers
+* Designate an entire Workfront team as either reviewers or approvers
+* Set a deadline for the review or approval
+* Create and resuse approval templates
+* Utilize new versions 
+* View multiple key performance indicators for your approvals in Workfront Home widgets
+* Use Canvas Dashboards to view reporting details about Unified Approvals
 
-## Uso de aprobaciones unificadas
+## Using Unified Approvals
 
-Para los usuarios que buscan crear o administrar aprobaciones de documentos, vea los artículos enumerados en [Configurar y administrar aprobaciones unificadas: índice de artículos](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/set-up-and-manage-doc-asset-approvals-toc.md)
+For users looking to create or manage document approvals, see the articles listed in [Set up and manage unified approvals: article index](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/set-up-and-manage-doc-asset-approvals-toc.md)
 
-Para los usuarios que buscan revisar o aprobar documentos para los que han recibido una solicitud, vea los artículos enumerados en [Aprobar y revisar documentos: índice de artículos](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-documents-toc.md).
+For users looking to review or approve documents for which they have received a request, see the articles listed in [Approve and review documents: article index](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-documents-toc.md).
 
-<!--
-
-## New features and design goals
-
->[!VIDEO](https://video.tv.adobe.com/v/3420544/)  
-
-* **Inclusive stakeholder participation**\
-    Unified Approvals allow the inclusion of both individual contributors and entire teams in the approval process. Facilitating this broader participation ensures comprehensive stakeholder engagement and fosters a more informed and collaborative decision-making environment.
-
-* **Differentiated review and approval roles**\
-     Unified Approvals is designed to recognize and respect the varying roles within the approval process. By providing the ability to identify and designate reviewers—users who are notified to provide feedback but do not have decision-making authority—the quality of feedback is enhanced while maintaining clarity of final approval authority.
-
-* **Version-specific approvals**\
-    The iterative nature of document development often leads to multiple versions of the same document. Unified Approvals accommodates this reality by providing unique approval chains for each version of a document. This allows users to upload a new version and add new approvers or reviewers as needed, ensuring that feedback and approval are specific to the document version and eliminating potential confusion.
-
-* **Audit trails**\
-    With Unified Approvals, an audit trail of all approval activities is maintained in the activity stream, providing a valuable resource for future reference and compliance.
-
-## Release plan
-
-We are making Unified Approvals available to users over the course of several releases. In addition to adding new features, we will also expand the number of accounts for which Unified Approvals are available with each release.
-
-If you would like to have Unified Approvals enabled in your production environment, please reach out to your Customer Success or Strategic Account Manager.
 
 
 -->

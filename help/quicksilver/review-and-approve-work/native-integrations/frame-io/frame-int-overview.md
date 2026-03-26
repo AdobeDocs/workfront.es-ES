@@ -1,22 +1,24 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: Información general sobre la integración de Frame.io
-description: Información general sobre la integración de Frame.io
+title: Resumen de revisión y aprobación unificadas
+description: Obtenga más información acerca de la revisión unificada y las aprobaciones con tecnología Workfront y Frame.io.
 author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
+hide: true
+hidefromtoc: true
 exl-id: b5f0150b-40b5-4386-98bc-374e7ca65b74
-source-git-commit: e93f8662acb95029e4997ec270b23511d3e880dd
+source-git-commit: 61a176b006f5d7088b3bdb7568977de6624f9603
 workflow-type: tm+mt
-source-wordcount: '859'
-ht-degree: 1%
+source-wordcount: '838'
+ht-degree: 0%
 
 ---
 
-# Información general sobre la integración de Frame.io
+# Resumen de revisión y aprobación unificadas
 
-La integración de Workfront y Frame.io permite a los coordinadores de proyectos administrar proyectos y planificar el trabajo en Workfront, mientras que los creativos, los especialistas en marketing y las partes interesadas pueden revisar y aprobar los recursos en Frame.io.
+La revisión unificada y las aprobaciones con tecnología Workfront y Frame.io permiten a los coordinadores de proyectos administrar proyectos y planificar el trabajo en Workfront, mientras que los creativos, los especialistas en marketing y las partes interesadas pueden revisar y aprobar los recursos en Frame.io.
 
 ## Requisitos de integración
 
@@ -31,7 +33,7 @@ La integración de Workfront y Frame.io permite a los coordinadores de proyectos
 
 ## Basado en el almacenamiento empresarial de Adobe
 
-El núcleo de esta integración es el almacenamiento empresarial de Adobe, una solución de almacenamiento basada en la nube que sirve como repositorio central para los recursos de los productos empresariales de Adobe, incluidos Workfront y Frame.io. <!--, and Creative Cloud.-->
+La revisión y las aprobaciones unificadas se basan en el almacenamiento empresarial de Adobe, una solución de almacenamiento basada en la nube que sirve como repositorio central para los recursos de los productos empresariales de Adobe, incluidos Workfront y Frame.io. <!--, and Creative Cloud.-->
 
 Entre las ventajas clave del almacenamiento empresarial de Adobe se incluyen:
 
@@ -44,7 +46,7 @@ Para obtener más información, consulte [Información general sobre el almacena
 
 ## Revisión y aprobación unificadas
 
-La integración de Workfront y Frame.io utiliza la funcionalidad de aprobación unificada de Workfront para administrar revisiones y aprobaciones. Con las aprobaciones unificadas, puede:
+Con la revisión y las aprobaciones unificadas, puede:
 
 * Cree y administre revisiones y aprobaciones directamente desde Workfront
 * Seguimiento del estado de las revisiones y aprobaciones en tiempo real
@@ -58,14 +60,14 @@ Para obtener más información, consulte [Aprobaciones de documentos unificados:
 
 ### Uso del visor Frame.io
 
-La integración también se conecta con el visor Frame.io. El visor Frame.io proporciona
+Utilice el visor de Frame.io para revisar y aprobar recursos. El visor Frame.io proporciona
 
 * Herramientas de marcado y comentarios
 * Historial y comparación de versiones
 * Comentarios con marca de tiempo para críticas de vídeo
 * Acceso móvil para revisiones y aprobaciones sobre la marcha
 
-Para obtener más información, consulte [Introducción a la integración de Frame.io](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/get-started-with-frame-integration.md).
+Para obtener más información, consulte [Introducción a la revisión y aprobación unificadas](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/get-started-with-frame-integration.md).
 
 #### Límites de revisión de vídeo
 
@@ -89,13 +91,13 @@ La funcionalidad de revisión de Workfront no está disponible con esta integrac
 
 ## Potente administración de proyectos en Workfront
 
-Con la integración de Workfront y Frame.io, los coordinadores de proyectos pueden aprovechar las potentes capacidades de administración de proyectos de Workfront para planificar, rastrear y administrar el trabajo.
+Los coordinadores de proyectos pueden aprovechar las potentes funciones de administración de proyectos de Workfront para planificar, rastrear y administrar el trabajo.
 
 Para obtener más información acerca de la administración de proyectos en Workfront, vea [Proyectos: índice de artículos](/help/quicksilver/manage-work/projects/create-projects/create-project.md).
 
 ### Convenciones de nomenclatura y estructura forzadas
 
-Debido a que esta integración se crea mediante el almacenamiento empresarial de Adobe, existen algunas convenciones de estructura y nomenclatura obligatorias que se deben tener en cuenta al administrar proyectos y documentos.
+Debido a que la revisión y las aprobaciones unificadas se crean mediante el almacenamiento empresarial de Adobe, hay algunas convenciones de estructura y nomenclatura obligatorias que se deben tener en cuenta al administrar proyectos y documentos.
 
 * Los nombres de objeto deben ser únicos y no se pueden duplicar
 * El almacenamiento empresarial de Adobe requiere nombres únicos para objetos del mismo nivel con el mismo elemento principal en el árbol de jerarquías
@@ -138,11 +140,7 @@ Los documentos cargados en Workfront se almacenan en Adobe enterprise storage y 
 
 ### Documentar las limitaciones de experiencia
 
-Debido a que esta integración se crea mediante el almacenamiento empresarial de Adobe, existen algunas limitaciones para la experiencia original del documento en Workfront:
-
-#### Limitaciones
-
-En esta integración no se incluirán las siguientes capacidades:
+No se deben incluir las siguientes capacidades de documentos:
 
 <!--* External document providers-->
 * Acceso a la revisión en Workfront

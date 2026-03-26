@@ -1,26 +1,26 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: Introducción a la integración de Frame.io
-description: Introducción a la integración de Frame.io.
+title: Introducción a la revisión y aprobación unificadas
+description: Obtenga más información acerca de la revisión y aprobación unificadas con tecnología Workfront y Frame.io.
 author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: b9a83bc2-4dd8-4c77-a2e7-385baa809b3b
-source-git-commit: 990af6c3e0f026de495b666a108a8bbce5118c1b
+source-git-commit: 86d5ed6f91bca0b68748a43476710028d34d6ad2
 workflow-type: tm+mt
-source-wordcount: '958'
-ht-degree: 6%
+source-wordcount: '969'
+ht-degree: 4%
 
 ---
 
-# Introducción a la integración de Frame.io
+# Introducción a la revisión y aprobación unificadas
 
-La integración de Workfront y Frame.io mantiene a los creativos, los especialistas en marketing y las partes interesadas alineados con un flujo de trabajo fluido. Acceda a actualizaciones en tiempo real, evite trabajos duplicados y asegúrese de que los recursos se aprueban antes del lanzamiento.
+La revisión y aprobación unificadas con tecnología Workfront y Frame.io mantienen a los creativos, especialistas en marketing e interesados alineados con un flujo de trabajo fluido. Acceda a actualizaciones en tiempo real, evite trabajos duplicados y asegúrese de que los recursos se aprueban antes del lanzamiento.
 
 Para obtener más información sobre Frame.io, consulte [Introducción a Frame.io](https://support.frame.io/en/collections/49298-getting-started).
 
-Debe tener la integración de Workfront y Frame.io configurada en la instancia de Workfront. Para obtener más información, consulte [Resumen de la integración de Frame.io](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/frame-int-overview.md#integration-requirements).
+Debe tener la integración de Workfront y Frame.io configurada en la instancia de Workfront. Para obtener más información, vea [Resumen de revisión y aprobación unificadas](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md#integration-requirements).
 
 ## Requisitos de integración
 
@@ -52,7 +52,6 @@ Una vez creado el flujo de trabajo de aprobación, los revisores y aprobadores p
 Para obtener más información sobre la configuración de proyectos, consulte
 
 * [Crear un proyecto](/help/quicksilver/manage-work/projects/create-projects/create-project.md)
-* [Información general sobre la integración de Frame.io](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/frame-int-overview.md)
 
 ### Iniciar revisiones y aprobaciones formales en Workfront
 
