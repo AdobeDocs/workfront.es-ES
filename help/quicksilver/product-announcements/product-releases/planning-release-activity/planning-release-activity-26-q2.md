@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 79d4ad4a-1dd0-431e-92cd-582b5a1b7ec8
-source-git-commit: 50ee9ac593e230e6f869f4158a67e4c3113aed45
+source-git-commit: fa4d8132cecd51b93f26c28803535a84bebad137
 workflow-type: tm+mt
-source-wordcount: '1180'
+source-wordcount: '1248'
 ht-degree: 15%
 
 ---
@@ -21,6 +21,18 @@ Este artículo describe las funciones que se lanzarán para Workfront Planning d
 <!--keep the sentence below for all future quarterly release pages-->
 
 Para obtener una lista de todas las características publicadas para Adobe Workfront Planning, consulte [Actividad de la versión de Adobe Workfront Planning: índice de artículo](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+
+## Rediseño de ruta
+
+>[!NOTE]
+>
+>Vista previa: 26 de marzo de 2026
+>Versión rápida de producción: jueves, 15 de abril de 2026
+>Producción para todos: viernes, 16 de abril de 2026
+
+Hemos rediseñado la forma en que se muestran las rutas de exploración en los tipos de registros y registros. Ahora, al hacer clic en Más en la línea de ruta de exploración, los nombres de los registros y objetos se muestran en varias líneas. Antes de esta mejora, al hacer clic en Más se mostraban los nombres de registros y objetos en los menús desplegables.
+
+Para obtener más información, consulte [Información general sobre jerarquía y ruta de exploración](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md).
 
 <!--
 
