@@ -6,16 +6,18 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: c91622e8155c62ecf7c17eaeb60b2bd4f69aaedf
+source-git-commit: 6cc42c6f9e6a5088e94d26034f03a3fafce2d0c3
 workflow-type: tm+mt
-source-wordcount: '2360'
+source-wordcount: '2357'
 ht-degree: 76%
 
 ---
 
 # Introducción a Adobe Workfront Planning
 
-<!--this article is linked to the WF Planning landing page - do not change URL or move it; send the team a new URL after we add the redirects for this page-->
+<!--
+this article is linked to the WF Planning landing page - do not change URL or move it; send the team a new URL after we add the redirects for this page
+-->
 
 <!--do not use the snippet for IMPORTANT as it links to this article-->
 
@@ -106,7 +108,8 @@ The following features are currently available in Workfront Planning:
 
 -->
 
-<!--OLD: 
+<!--
+OLD: 
 
 |       Feature                                      |     Available now  |     Coming soon   |     In research  |
 |----------------------------------------------------|:-----------------------------:|:--------------------------------:|:----------------:|
@@ -287,7 +290,8 @@ Puede crear campos personalizados de los siguientes tipos:
 * Aprobado por
 * Fecha de aprobación
 * <span class="preview">Id. de registro</span>
-  <!--update the screen shot above-->
+
+<!--update the screen shot above-->
 
 ### Tipos de registros, registros y campos conectados
 
@@ -336,11 +340,13 @@ Para obtener información sobre la conexión de tipos de registros, registros y 
 * [Conectar tipos de registro](/help/quicksilver/planning/architecture/connect-record-types.md)
 * [Conectar registros](/help/quicksilver/planning/records/connect-records.md)
 
-<!--not yet:* Fields are reusable across Record Types.  -->
+<!--
+not yet:* Fields are reusable across Record Types.
+-->
 
 ### Jerarquías
 
-Una vez que los tipos de registros están conectados en un espacio de trabajo, puede crear jerarquías que organicen esas conexiones. Las jerarquías organizan los tipos de registros y objetos en relaciones principal-secundario y pueden contener hasta cuatro niveles de tipos de objetos.
+Una vez que los tipos de registros están conectados en un espacio de trabajo, puede crear jerarquías que organicen esas conexiones. Las jerarquías organizan los tipos de registros y objetos en relaciones principal-secundario y pueden contener hasta cuatro tipos de objetos.
 
 ![Jerarquías en el área de configuración del área de trabajo](assets/hierarchies-in-workspace-settings-area.png)
 
@@ -371,7 +377,9 @@ Los siguientes son tipos de vista que puede aplicar a la página de tipo de regi
 * **Vista de calendario**: muestra los registros que tienen al menos dos campos de tipo Fecha en formato de calendario.
   ![Ejemplo de vista de calendario](assets/calendar-view-example.png)
 
-<!-- add List view here when it's possible to display Planning RTs in it??-->
+<!--
+add List view here when it's possible to display Planning RTs in it??
+-->
 
 Para obtener más información, consulte [Administrar vistas de registros](/help/quicksilver/planning/views/manage-record-views.md).
 
@@ -448,7 +456,8 @@ Para localizar Workfront Planning, haga lo siguiente:
   <!--
     >[!NOTE]
     >
-    >    The Workfront AI Assistant has been temporarily removed and it will be available at a later date.-->
+    >The Workfront AI Assistant has been temporarily removed and it will be available at a later date.
+    -->
 
 * [Módulos de Adobe Workfront Planning para Workfront Fusion](https://experienceleague.adobe.com/es/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules): Con los módulos de Adobe Workfront Planning, puede activar un escenario cuando se produzcan eventos en Workfront Planning. También puede crear, leer, actualizar y eliminar registros, o realizar una llamada de API personalizada a su cuenta de Adobe Workfront Planning.
 

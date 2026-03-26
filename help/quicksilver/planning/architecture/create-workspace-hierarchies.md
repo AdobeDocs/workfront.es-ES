@@ -6,15 +6,15 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 2f83c427-4439-499d-a0b2-fc8630552cae
-source-git-commit: 9a7ab1928bfd25c197fca65eddfba1bc01977ea7
+source-git-commit: 16da53ace7c5b3fadf9b4142ac6146bc3fe5ebd5
 workflow-type: tm+mt
-source-wordcount: '894'
+source-wordcount: '949'
 ht-degree: 4%
 
 ---
 
 
-# Crear jerarquías de Workspace
+# Crear jerarquías de espacio de trabajo
 
 <!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
@@ -22,7 +22,9 @@ ht-degree: 4%
 
 Como administrador de espacio de trabajo, puede crear varias jerarquías de espacio de trabajo entre tipos de registro en Adobe Workfront Planning.
 
-Una vez que los tipos de registros están conectados en un espacio de trabajo, puede crear una jerarquía que organice esas conexiones. Las jerarquías organizan los tipos de registros y objetos en relaciones principal-secundario y pueden contener hasta cuatro niveles de tipos de objetos.
+Una vez que los tipos de registros están conectados en un espacio de trabajo, puede crear una jerarquía que organice esas conexiones.
+
+Las jerarquías organizan los tipos de registro y de objeto en relaciones principal-secundario y pueden contener hasta 4 tipos de objeto cada uno. Se pueden crear hasta cinco jerarquías en un espacio de trabajo.
 
 Si todavía no existe una conexión entre dos tipos de registro, se puede crear a medida que se configura la jerarquía. Una vez definida, la jerarquía establece una ruta estructurada entre los tipos de registros relacionados dentro del espacio de trabajo.
 
@@ -70,8 +72,6 @@ Para obtener más información acerca de los requisitos de acceso de Workfront, 
 +++
 
 ## Creación de una jerarquía de Workspace
-
-Se pueden crear hasta cinco jerarquías en un espacio de trabajo.
 
 {#step1-to-planning}
 
@@ -158,6 +158,10 @@ Cada tipo de objeto adicional se convierte en secundario de los tipos de objeto 
 
    * **Editar**: Se abre el cuadro **Editar jerarquía** donde puede realizar cambios.
    * **Eliminar**: Esto elimina la jerarquía de forma permanente. Las jerarquías eliminadas no se pueden recuperar. Los campos de conexión no se eliminan.
+
+1. (Opcional) Haga clic en el nombre del último tipo de registro de la jerarquía y, a continuación, en el nombre de un registro de la vista de ese tipo de registro. Se abre la página de detalles del registro. Busque la jerarquía que creó en la ruta de exploración de un registro en la parte superior de la página del registro.
+
+   Para obtener más información, consulte [Administrar el diseño de la página de registros](/help/quicksilver/planning/records/manage-the-record-page.md).
 
 
 
