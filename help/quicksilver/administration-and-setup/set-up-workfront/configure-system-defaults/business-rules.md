@@ -8,16 +8,32 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 780c996c-5cf1-42fe-898d-2cc208bbae7b
-source-git-commit: 061694c7db64d3f4957903ae21e436f52c77a07e
+source-git-commit: c16d107d8162f77436337d0b08ea5826d5c25d83
 workflow-type: tm+mt
-source-wordcount: '1326'
-ht-degree: 77%
+source-wordcount: '1417'
+ht-degree: 65%
 
 ---
 
 # Crear y editar reglas empresariales
 
-Una regla empresarial permite aplicar la validación a objetos de Workfront e impedir que los usuarios creen, editen o eliminen un objeto cuando se cumplen determinadas condiciones. Las reglas empresariales ayudan a mejorar la calidad de los datos y la eficacia operativa mediante la prevención de acciones que podrían poner en peligro la integridad de los datos.
+<!--
+
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+-->
+
+Una regla empresarial permite aplicar la validación a objetos de Workfront e impedir que los usuarios creen, editen o eliminen un objeto cuando se cumplen determinadas condiciones. La validación de reglas empresariales ayuda a mejorar la calidad de los datos y la eficacia operativa mediante la prevención de acciones que podrían poner en peligro la integridad de los datos.
+
+<!--
+
+<div class="preview">
+
+Organizations that have the Workflow Ultimate package can also configure business rules to automate actions for the created, edited, or modified object when certain conditions are met. Available actions include sharing the object, notifying a user, or attaching a custom form to the object.  
+
+</div>
+
+-->
 
 Una sola regla empresarial solo se puede asignar a un objeto. Por ejemplo, si crea una regla empresarial para no editar proyectos en determinadas condiciones, no puede aplicar la misma regla a las tareas. Tendría que crear una regla empresarial independiente con las mismas condiciones para las tareas.
 
@@ -42,8 +58,9 @@ Las reglas empresariales se aplican a la creación, edición y eliminación de o
   <tr>
    <td>Paquete de Adobe Workfront
    </td>
-   <td> <p>Ultimate</p>
-    <p>Workflow Ultimate</p>
+   <td> <p>Validación de regla de negocio:<ul><li><p>Ultimate</p></li><li>
+    <p>Workflow Ultimate</p></li></ul></p><p>Automatización de reglas empresariales:<ul><li>
+    <p>Workflow Ultimate</p></li><ul></p>
    </td>
   </tr> 
   <tr> 
@@ -63,7 +80,12 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 
 ## Escenarios para reglas empresariales
 
-El formato de una regla empresarial es: “SI se cumple la condición definida, se impide realizar la acción sobre el objeto y se muestra el mensaje”.
+* [Escenarios para la validación de reglas de negocio](#scenarios-for-business-rule-validation)
+* [Escenarios para la automatización de reglas de negocio](#scenarios-for-business-rule-automation)
+
+### Escenarios para la validación de reglas de negocio
+
+El formato de una validación de regla de negocio es &quot;SI se cumple la condición definida, se impide al usuario realizar la acción en el objeto y se muestra el mensaje&quot;.
 
 La sintaxis de las propiedades y otras funciones de una regla empresarial es la misma que la sintaxis de un campo calculado en un formulario personalizado. Para obtener más información sobre la sintaxis, consulte [Añadir campos calculados con el diseñador de formularios](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
 
@@ -117,15 +139,53 @@ IF(
 )
 ```
 
+
+<!--
+
+## Scenarios for business rule automation
+
+>[!NOTE]
+>
+>Your organization must have a Workflow Ultimate package to use business rule automation.
+
+The format of a business rule automation is "IF the defined condition is met, then the selected automation is triggered."
+
+Business rule automation formulas do not require an error message
+
+To ensure that an automation runs whenever the selected object and action occurs, such as when a project is created, use the following formula:
+
+```
+IF(true, true)
+```
+
+To share a project only if that's project has been approved, use a formula like the following:
+
+```
+IF({status} = "APR", true)
+```
+
+You can use wildcards in business rule actions, as described in the section [Scenarios for business rule validation](#scenarios-for-business-rule-validation).
+
+-->
+
 ## Añadir una nueva regla empresarial
 
 {{step-1-to-setup}}
 
 1. Haga clic en **Reglas empresariales** en el panel de la izquierda.
 1. Haga clic en **Nueva regla empresarial**.
-1. Seleccione el tipo de objeto al que asignar la regla empresarial y haga clic en **Continuar**.
 
-   ![Seleccione un objeto](assets/object-for-business-rule3.png)
+1. Escriba **Name** para la regla de negocio en el cuadro de diálogo del generador de reglas.
+1. En el campo **Está activa**, seleccione si la regla debe estar activa al guardarla.
+
+   Si selecciona **No**, la regla se guardará como inactiva y podrá activarla más tarde.
+
+1. (Opcional) Introduzca una **descripción** de la regla empresarial y lo que sucederá cuando se aplique.
+
+
+1. Seleccione el tipo de objeto al que asignar la regla de negocio.
+
+   ![Seleccione un objeto](assets/object-for-business-rule4.png)
 
    Puede aplicar reglas de negocio a los siguientes objetos:
 
@@ -150,6 +210,17 @@ IF(
    * Plantilla
    * Días libres
    * Conjunto de recursos
+<!--
+   * <span class="preview">Job role</span>
+   * <span class="preview">Non-labor resource category</span>
+   * <span class="preview">Resource Pool</span>
+   * <span class="preview">Time Off</span>
+   * <span class="preview">Hour</span>
+   * <span class="preview">Staffing Plan</span>
+   * <span class="preview">Template</span>
+   * <span class="preview">Staffing Plan Resource</span>
+   * <span class="preview">Team</span>
+-->
 
 1. Escriba **Name** para la regla de negocio en el cuadro de diálogo del generador de reglas.
 1. En el campo **Está activa**, seleccione si la regla debe estar activa al guardarla.
@@ -158,11 +229,10 @@ IF(
 
 1. Seleccione un **activador** para la regla empresarial. Las opciones son los siguientes:
 
-   * **Al crear un objeto:** la regla se aplica cuando se intenta crear un objeto.
-   * **Al editar un objeto:** la regla se aplica cuando se intenta editar un objeto.
-   * **Al eliminar un objeto:** la regla se aplica cuando se intenta eliminar un objeto.
+   * **Creado**: la regla se aplica cuando un usuario intenta crear un objeto.
+   * **Editado**: la regla se aplica cuando un usuario intenta editar un objeto.
+   * **Eliminado**: la regla se aplica cuando un usuario intenta eliminar un objeto.
 
-1. (Opcional) Introduzca una **descripción** de la regla empresarial y lo que sucederá cuando se aplique.
 1. Genere la fórmula en el editor de fórmulas, en el centro del diálogo de la regla empresarial.
 
    El formato de una regla empresarial es: “SI se cumple la condición definida, se impide realizar la acción sobre el objeto y se muestra el mensaje”.
@@ -172,13 +242,13 @@ IF(
    * El “objeto” es el tipo de objeto seleccionado al crear la regla empresarial. Se muestra en el encabezado del diálogo.
    * La “acción” es el activador seleccionado para la regla: crear, editar o eliminar el objeto.
    * Como el objeto y la acción ya están definidos, no se incluyen en la fórmula.
-   * El mensaje de error personalizado se muestra cuando se activa la regla empresarial. Debe proporcionar instrucciones claras sobre qué ha fallado y cómo corregir el problema.
+   * El mensaje de error personalizado <!--<span class="preview">is included only if the rule is for validation, and </span>--> se muestra al usuario cuando almacena en déclencheur la regla de negocio. Debe proporcionar instrucciones claras sobre qué ha fallado y cómo corregir el problema.
 
      Puede incluir una URL estática en el mensaje de error para vincular a la documentación u otras páginas útiles y guiar al usuario sobre cómo modificar su acción dentro de la restricción de la regla.
 
      En este ejemplo, &quot;Más información&quot; se vincula a la dirección URL. `"You are not allowed to add a new project in November.[Learn more](http://url)"`: la dirección URL debe estar entre paréntesis, pero no se requiere el texto entre corchetes para los vínculos. Puede mostrar la dirección URL completa, que será un vínculo en el que puede hacer clic.
 
-   ![Add business rule dialog](assets/add-business-rule-dialog-no-ai-button.png)
+   ![Agregar cuadro de diálogo de regla de negocio](assets/add-business-rule-dialog-no-ai-button.png) <!--UPDATE ME-->
 
    Este ejemplo es una regla de negocio para proyectos. Si el mes actual es noviembre, no se permite a los usuarios crear nuevos proyectos y en el mensaje se explica esto.
 
@@ -190,11 +260,46 @@ IF(
 
    La lista de campos disponibles se limita a los campos relacionados con el tipo de objeto de la regla empresarial.
 
+1. (Condicional) Si está validando la acción, si su organización está en el paquete de Workfront Ultimate, en el área Entonces, seleccione **Validar el objeto**.
+
+   Para otros paquetes, esta opción está preseleccionada.
+
+<!--
+
+1. (Conditional) To automate another action,, select the action. 
+
+   For details on these actions, see the section [Business rule automation options](#business-rule-automation-options) in this article.
+
+   >[!NOTE]
+   >
+   >Your organization must be on the Workflow Ultimate package to use actions besides validation. If you do not see these other options, your organization is not on the Workflow Ultimate package.
+
+   -->
+
 1. Haga clic en **Guardar** cuando termine de generar la regla empresarial.
 
 >[!NOTE]
 >
 >Después de añadir una regla empresarial, debe probarla añadiendo, editando o eliminando el objeto asociado para asegurarse de que la regla se aplica correctamente.
+
+<!--
+
+<div class="preview">
+
+### Business rule automation options
+
+   >[!NOTE]
+   >
+   >Your organization must be on the Workflow Ultimate package to use actions besides validation. If you do not see these other options, your organization is not on the Workflow Ultimate package.
+
+You can set these actions to automate when the business rule is triggered. Available actions depend on the selected object type.
+
+|Automation|Further configuration|
+|---|---|
+|Attach a custom form|Select the custom form that you want to add|
+|Share the object|Select the people, roles, groups, companies, or access levels that you want to share the object with.|
+
+-->
 
 ## Activar una regla empresarial
 
