@@ -6,7 +6,7 @@ description: Obtenga más información acerca de la revisión y aprobación unif
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 10962d59-284e-4c41-8523-18ea4ed78362
-source-git-commit: b57b9262d71ccd1aff529111424182ff4a269470
+source-git-commit: 9dc15e8f50b91dde3536902bb57229cfbe164317
 workflow-type: tm+mt
 source-wordcount: '994'
 ht-degree: 4%
@@ -22,7 +22,7 @@ Para obtener más información sobre Frame.io, consulte [Introducción a Frame.i
 
 Debe tener la integración de Workfront y Frame.io configurada en la instancia de Workfront. Para obtener más información, vea [Resumen de revisión y aprobación unificadas](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md#integration-requirements).
 
-## Vídeo de demostración
+## Vídeo de información general
 
 >[!VIDEO](https://video.tv.adobe.com/v/3471078)
 
