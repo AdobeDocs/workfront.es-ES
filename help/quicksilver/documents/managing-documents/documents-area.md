@@ -7,10 +7,10 @@ description: En el área Documentos puede organizar, administrar y ver los metad
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 64612345-d1ce-41db-939b-3af30d1c6a51
-source-git-commit: abff7d82c89992e2e494aae13c9eb20868259b54
+source-git-commit: d35e6c33479ed051aaa87b07ddf38811fffc0cc0
 workflow-type: tm+mt
-source-wordcount: '769'
-ht-degree: 43%
+source-wordcount: '770'
+ht-degree: 42%
 
 ---
 
@@ -84,7 +84,7 @@ Al seleccionar un documento en el área de documentos, puede utilizar el Panel d
 
 Puede revisar y aprobar documentos en el área de nuevos documentos con el visor Frame.io.
 
-Para obtener más información, consulte [Introducción a la integración de Frame.io](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/get-started-with-frame-integration.md).
+Para obtener más información, consulte [Introducción a la revisión y aprobación unificadas](/help/quicksilver/review-and-approve-work/get-started-with-unified-approvals.md).
 
 #### Administrar versiones
 

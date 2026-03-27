@@ -6,9 +6,9 @@ description: Descripción general de los sistemas disponibles para su revisión 
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 37745149-b369-445d-bb39-f5ed790d2fae
-source-git-commit: e93f8662acb95029e4997ec270b23511d3e880dd
+source-git-commit: d35e6c33479ed051aaa87b07ddf38811fffc0cc0
 workflow-type: tm+mt
-source-wordcount: '383'
+source-wordcount: '384'
 ht-degree: 1%
 
 ---
@@ -62,7 +62,7 @@ Para obtener más información sobre los informes, consulte [Crear un tablero de
 
 * Acceda a las solicitudes de revisión y aprobación en el widget Mis aprobaciones del área de Inicio
 
-* Utilice la integración de Frame.io para revisar y aprobar documentos. Para obtener más información, consulte [Introducción a la integración de Frame.io](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/get-started-with-frame-integration.md).
+* Utilice el visor Frame.io para revisar y aprobar documentos. Para obtener más información, consulte [Introducción a la revisión y aprobación unificadas](/help/quicksilver/review-and-approve-work/get-started-with-unified-approvals.md).
 
 * Utilice el Revisor de IA para automatizar las revisiones de cumplimiento de marca. Para obtener más información, consulte [Introducción al Revisor de IA de Workfront](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md).
 

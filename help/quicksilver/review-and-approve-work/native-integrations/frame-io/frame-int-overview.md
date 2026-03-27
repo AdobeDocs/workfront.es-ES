@@ -9,7 +9,7 @@ recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
 exl-id: b5f0150b-40b5-4386-98bc-374e7ca65b74
-source-git-commit: 61a176b006f5d7088b3bdb7568977de6624f9603
+source-git-commit: d35e6c33479ed051aaa87b07ddf38811fffc0cc0
 workflow-type: tm+mt
 source-wordcount: '838'
 ht-degree: 0%
@@ -67,7 +67,7 @@ Utilice el visor de Frame.io para revisar y aprobar recursos. El visor Frame.io 
 * Comentarios con marca de tiempo para críticas de vídeo
 * Acceso móvil para revisiones y aprobaciones sobre la marcha
 
-Para obtener más información, consulte [Introducción a la revisión y aprobación unificadas](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/get-started-with-frame-integration.md).
+Para obtener más información, consulte [Introducción a la revisión y aprobación unificadas](/help/quicksilver/review-and-approve-work/get-started-with-unified-approvals.md).
 
 #### Límites de revisión de vídeo
 

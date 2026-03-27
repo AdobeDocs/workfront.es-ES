@@ -7,10 +7,10 @@ description: El resumen le permite interactuar con información importante direc
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 7a4a4bd3-ad60-4d84-b4b0-332c2a4eb8fb
-source-git-commit: abff7d82c89992e2e494aae13c9eb20868259b54
+source-git-commit: d35e6c33479ed051aaa87b07ddf38811fffc0cc0
 workflow-type: tm+mt
-source-wordcount: '695'
-ht-degree: 43%
+source-wordcount: '696'
+ht-degree: 42%
 
 ---
 
@@ -140,7 +140,7 @@ Utilice la sección Approvals para crear un flujo de trabajo de aprobación. Tam
 
 Para obtener más información sobre las aprobaciones y Frame.io, consulte
 
-* [Introducción a la integración de Frame.io](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/get-started-with-frame-integration.md)
+* [Introducción a la revisión y aprobación unificadas](/help/quicksilver/review-and-approve-work/get-started-with-unified-approvals.md)
 * [Crear una solicitud de revisión o aprobación de documento](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).
 
 ![Experiencia de aprobaciones de resumen de documentos en nuevos documentos](assets/summary-approvals.png)

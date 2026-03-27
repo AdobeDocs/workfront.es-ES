@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 095aa9fe-600a-48cd-a907-2e8d93939bf0
-source-git-commit: 7bf762870af2bbc4f4889d66cf713d4533a30ff5
+source-git-commit: d35e6c33479ed051aaa87b07ddf38811fffc0cc0
 workflow-type: tm+mt
-source-wordcount: '549'
+source-wordcount: '550'
 ht-degree: 14%
 
 ---
@@ -38,7 +38,7 @@ Cree flujos de trabajo de aprobación más estructurados y sofisticados con apro
 
 #### Revisión y aprobación del contenido en Frame.io
 
-Revise y apruebe contenido directamente en el visor Frame.io y elimine la necesidad de cambiar de plataforma. Esta integración permite ciclos de comentarios más rápidos y mantiene toda la actividad de revisión en un solo lugar. Para obtener más información, consulte [Introducción a la integración de Frame.io](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/get-started-with-frame-integration.md).
+Revise y apruebe contenido directamente en el visor Frame.io y elimine la necesidad de cambiar de plataforma. Esta integración permite ciclos de comentarios más rápidos y mantiene toda la actividad de revisión en un solo lugar. Para obtener más información, consulte [Introducción a la revisión y aprobación unificadas](/help/quicksilver/review-and-approve-work/get-started-with-unified-approvals.md).
 
 #### Conexión con Adobe Experience Manager
 
