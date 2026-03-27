@@ -7,9 +7,9 @@ author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: b9a83bc2-4dd8-4c77-a2e7-385baa809b3b
-source-git-commit: 86d5ed6f91bca0b68748a43476710028d34d6ad2
+source-git-commit: df02fa91f5cf87e73a9bf6183b57d42ba965ba09
 workflow-type: tm+mt
-source-wordcount: '969'
+source-wordcount: '970'
 ht-degree: 4%
 
 ---
@@ -24,7 +24,7 @@ Debe tener la integración de Workfront y Frame.io configurada en la instancia d
 
 ## Requisitos de integración
 
-* Workfront y Frame.io deben implementarse en la misma organización de Identity Management system (IMS).
+* Workfront y Frame.io deben implementarse en la misma organización de Identity Management System (IMS).
 
 * Los usuarios solo pueden pertenecer a una instancia de Workfront dentro de la organización IMS.
 
@@ -68,7 +68,7 @@ Los revisores y aprobadores se pueden añadir a un flujo de trabajo de aprobaci�
 
   Para obtener más información, consulte [Crear un flujo de trabajo de aprobación de documentos](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md#create-an-approval-workflow-from-the-summary-panel-in-the-new-document-area).
 
-* **Plantillas de aprobación**: en el área Configuración de Workfront, los coordinadores de proyecto pueden crear plantillas de aprobación reutilizables. En una plantilla, los usuarios pueden agregar revisores y aprobadores, y especificar un periodo de finalización. Cuando la plantilla de aprobación se aplica a un recurso, la fecha límite se calcula a partir del periodo de tiempo especificado.
+* **Plantillas de aprobación**: en el área Configuración de Workfront, los coordinadores de proyectos pueden crear plantillas de aprobación reutilizables. En una plantilla, los usuarios pueden agregar revisores y aprobadores, así como especificar un periodo de finalización. Cuando la plantilla de aprobación se aplica a un recurso, la fecha límite se calcula a partir del periodo de tiempo especificado.
 
   Una vez creada una plantilla, se puede aplicar a un recurso para iniciar el proceso formal de revisión y aprobación en Workfront.
 

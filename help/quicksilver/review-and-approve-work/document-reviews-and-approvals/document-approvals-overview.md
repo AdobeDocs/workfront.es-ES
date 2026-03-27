@@ -2,14 +2,14 @@
 product-area: documents
 navigation-topic: approvals
 title: Resumen de revisión y aprobación unificadas
-description: Obtenga más información acerca de la revisión unificada y las aprobaciones con tecnología Workfront y Frame.io.
+description: Obtenga más información acerca de la revisión y aprobación unificadas con tecnología Workfront y Frame.io.
 author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 32cb95c2-8d12-492b-ad89-b38e2a337fc5
-source-git-commit: 61a176b006f5d7088b3bdb7568977de6624f9603
+source-git-commit: df02fa91f5cf87e73a9bf6183b57d42ba965ba09
 workflow-type: tm+mt
-source-wordcount: '838'
+source-wordcount: '835'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # Resumen de revisión y aprobación unificadas
 
-La revisión unificada y las aprobaciones con tecnología Workfront y Frame.io permiten a los coordinadores de proyectos administrar proyectos y planificar el trabajo en Workfront, mientras que los creativos, los especialistas en marketing y las partes interesadas pueden revisar y aprobar los recursos en Frame.io.
+La revisión y aprobación unificadas con tecnología Workfront y Frame.io permiten a los coordinadores de proyectos administrar proyectos y planificar el trabajo en Workfront, mientras que los creativos, los especialistas en marketing y las partes interesadas pueden revisar y aprobar los recursos en Frame.io.
 
 ## Requisitos de integración
 
@@ -32,12 +32,12 @@ La revisión unificada y las aprobaciones con tecnología Workfront y Frame.io p
 
 ## Basado en el almacenamiento empresarial de Adobe
 
-La revisión y las aprobaciones unificadas se basan en el almacenamiento empresarial de Adobe, una solución de almacenamiento basada en la nube que sirve como repositorio central para los recursos de los productos empresariales de Adobe, incluidos Workfront y Frame.io. <!--, and Creative Cloud.-->
+La revisión y aprobación unificadas se basan en el almacenamiento empresarial de Adobe, una solución de almacenamiento basada en la nube que sirve como repositorio central de recursos en los productos empresariales de Adobe, incluidos Workfront y Frame.io. <!--, and Creative Cloud.-->
 
 Entre las ventajas clave del almacenamiento empresarial de Adobe se incluyen:
 
 * Capa de almacenamiento unificada para recursos creativos y de administración de trabajo
-* Permisos centralizados a través del sistema Adobe Identity Management (IMS) para el control de acceso seguro
+* Permisos centralizados con el sistema Adobe Identity Management (IMS) para el control de acceso seguro
 * Visibilidad completa de recursos entre Workfront y Frame.io <!--, and Creative Cloud apps -->
 * Almacenamiento escalable y administración de cuotas para las necesidades empresariales
 
@@ -45,7 +45,7 @@ Para obtener más información, consulte [Información general sobre el almacena
 
 ## Revisión y aprobación unificadas
 
-Con la revisión y las aprobaciones unificadas, puede:
+Con la revisión y la aprobación unificadas, puede:
 
 * Cree y administre revisiones y aprobaciones directamente desde Workfront
 * Seguimiento del estado de las revisiones y aprobaciones en tiempo real
@@ -72,7 +72,7 @@ Para obtener más información, consulte [Introducción a la revisión y aprobac
 
 Hay un límite anual para las solicitudes de revisión de vídeo establecido en el 10 % del total de licencias de usuario de Workfront pagadas de una organización: Estándar y Ligeras. Este límite se aplica en el nivel de organización.
 
-Los administradores de Workfront recibirán notificaciones cuando el uso alcance el 80 % y el 100 % del límite.
+Los administradores de Workfront reciben notificaciones cuando el uso alcanza el 80 % y el 100 % del límite.
 
 Este límite no se aplica a los clientes de Frame.io Enterprise.
 
@@ -84,7 +84,7 @@ El visor Frame.io es compatible con todos los tipos comunes de vídeo, imagen, a
 
 El visor Frame.io es el visor predeterminado para todos los flujos de trabajo de revisión y aprobación de Workfront. Se incluye automáticamente para todos los usuarios de Workfront con una licencia de pago. No se requiere ninguna licencia adicional de Frame.io para utilizar el visor de Frame.io en las revisiones y aprobaciones.
 
-Si su organización desea aprovechar las ventajas de la funcionalidad Frame.io adicional disponible con esta integración, como cargar recursos directamente en proyectos en Frame.io, puede adquirir una licencia empresarial de Frame.io. Póngase en contacto con su representante de cuentas de Adobe para programar una demostración y explorar las ventajas de la solución Frame.io completa.
+Si su organización desea aprovechar las ventajas de la funcionalidad Frame.io adicional disponible con esta integración, como cargar recursos directamente en proyectos en Frame.io, puede adquirir una licencia de Frame.io Enterprise. Póngase en contacto con su representante de cuentas de Adobe para programar una demostración y explorar las ventajas de la solución Frame.io completa.
 
 La funcionalidad de revisión de Workfront no está disponible con esta integración.
 
@@ -96,7 +96,7 @@ Para obtener más información acerca de la administración de proyectos en Work
 
 ### Convenciones de nomenclatura y estructura forzadas
 
-Debido a que la revisión y las aprobaciones unificadas se crean mediante el almacenamiento empresarial de Adobe, hay algunas convenciones de estructura y nomenclatura obligatorias que se deben tener en cuenta al administrar proyectos y documentos.
+Debido a que la revisión y la aprobación unificadas se crean mediante el almacenamiento empresarial de Adobe, hay algunas convenciones de estructura y nomenclatura obligatorias que se deben tener en cuenta al administrar proyectos y documentos.
 
 * Los nombres de objeto deben ser únicos y no se pueden duplicar
 * El almacenamiento empresarial de Adobe requiere nombres únicos para objetos del mismo nivel con el mismo elemento principal en el árbol de jerarquías
@@ -139,7 +139,7 @@ Los documentos cargados en Workfront se almacenan en Adobe enterprise storage y 
 
 ### Documentar las limitaciones de experiencia
 
-No se deben incluir las siguientes capacidades de documentos:
+No se incluyen las siguientes capacidades de documentos:
 
 <!--* External document providers-->
 * Acceso a la revisión en Workfront
