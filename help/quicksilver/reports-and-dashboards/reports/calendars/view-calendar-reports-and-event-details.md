@@ -6,10 +6,10 @@ description: Puede ver informes de calendario y detalles de eventos que haya cre
 author: Courtney
 feature: Reports and Dashboards
 exl-id: db016e91-43e4-400c-ac9d-1639c7f94479
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+source-git-commit: 8d2f7abc188be5e0d94524e3d42cee72126967f3
 workflow-type: tm+mt
-source-wordcount: '576'
-ht-degree: 68%
+source-wordcount: '587'
+ht-degree: 66%
 
 ---
 
@@ -80,6 +80,10 @@ Puede elegir entre las siguientes vistas de informes de calendario:
    * **[!UICONTROL Gantt]**: muestra una vista continua del calendario
 
      Puede ver más eventos en una vista de **Gantt** desplazándose hacia abajo o hacia los lados. Aparecerá un símbolo de carga a medida que se rellenen los datos para la vista.
+
+   >[!NOTE]
+   >
+   >Los calendarios pueden mostrar eventos de hasta 5 años en el futuro.
 
    >[!NOTE]
    >
