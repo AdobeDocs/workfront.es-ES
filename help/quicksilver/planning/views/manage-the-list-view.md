@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 1c7e6973-6e9e-4c93-9d3b-89ed90df9d14
-source-git-commit: ce3ca4d55fd3fe0630da4961f27159fe5e31612a
+source-git-commit: ddf10844646a79c43accaffa1789caf24290cc8a
 workflow-type: tm+mt
-source-wordcount: '1341'
+source-wordcount: '1490'
 ht-degree: 1%
 
 ---
@@ -22,9 +22,17 @@ ht-degree: 1%
 
 {{planning-important-intro}}
 
-Puede mostrar proyectos y sus campos en una vista de lista, al acceder a ellos en la página Registros conectados de un registro, en Adobe Workfront Planning. <!--change 'projects' to other objects when they become available and the location of the list view-->
+Puede ver objetos en la vista de lista en las siguientes áreas de Workfront Planning:
 
-Este artículo describe cómo se puede crear o editar una vista de lista que muestre proyectos en la página Registros conectados de un registro y cómo se pueden editar los proyectos en la vista. <!--change 'projects' to other objects when they become available and the location of the list view-->
+* Página de registros conectada para proyectos en el área de detalles de un registro
+
+  ![Proyectos en la página de registros conectados en la vista de lista](assets/projects-on-connected-records-page-list-view.png)
+
+* Una lista de formularios de solicitud en el nivel de tipo de registro
+
+  ![Solicitar formularios en la vista de lista](assets/request-forms-in-list-view.png)
+
+En este artículo se describe cómo desplazarse, crear o editar una vista de lista que muestra objetos en Workfront Planning. <!--change 'projects' to other objects when they become available and the location of the list view-->
 
 ## Requisitos de acceso
 
@@ -72,35 +80,62 @@ Para obtener más información acerca de los requisitos de acceso de Workfront, 
 
 ## Consideraciones sobre las vistas de lista
 
-* No se pueden ver todos los tipos de objetos en las páginas de tipo de registro en una vista de lista.
+* Tenga en cuenta lo siguiente para la vista de lista de páginas de registros conectados:
 
-  Sólo se pueden mostrar los objetos siguientes en una vista de lista cuando se ven en la página Registros conectados de un registro:
-
-   * Proyectos Workfront
+   * Sólo se pueden ver proyectos en la vista de lista de la página de registros conectados de un registro. La vista de lista no está disponible para ningún otro tipo de objeto o registro de una página de registros conectada.
 
   Para obtener información acerca de cómo crear una página de registros conectados, vea [Agregar una página de registros conectados a un registro](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md).
-* Para poder ver una vista de lista en una página de registros conectada de un registro, debe conectar los proyectos de Workfront con los tipos de registros de Planning. Para obtener más información, consulte [Conectar tipos de registros](/help/quicksilver/planning/architecture/connect-record-types.md).
+   * Para poder ver una vista de lista en una página de registros conectada de un registro, debe conectar los proyectos de Workfront con los tipos de registros de Planning. Para obtener más información, consulte [Conectar tipos de registros](/help/quicksilver/planning/architecture/connect-record-types.md).
+   * Puede crear varias vistas de lista para proyectos en la página de registros conectados de un registro.
+
+* Tenga en cuenta lo siguiente para la vista de lista de formularios de solicitud:
+
+   * No se pueden crear ni editar vistas de lista adicionales para formularios de solicitud de Planning. Workfront crea una vista de lista para los formularios de solicitud. <!--this will change-->
+
+     Para obtener información acerca de los formularios de solicitud, vea [Crear y administrar un formulario de solicitud en Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
+* Dependiendo de dónde se muestre, no todas las vistas de lista tienen los mismos elementos descritos en este artículo.
 
 
 ## Administración de una vista de lista {#manage-a-list-view}
 
-Las vistas de lista son similares a las listas mejoradas. Para obtener más información, consulte [Usar listas mejoradas](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
+Las vistas de lista son similares a las listas mejoradas. La mayoría de los elementos de las vistas mejoradas también existen en las vistas de lista de Workfront Planning.
 
+Para obtener más información, consulte [Usar listas mejoradas](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
+
+<!--
 {{step1-to-planning}}
 
-1. Haga clic en una tarjeta de espacio de trabajo y, a continuación, haga clic en una tarjeta de tipo de registro.
-1. Desde cualquier vista, haga clic en el nombre de un registro para abrir la página de vista previa o de detalles del registro.
-1. Agregue una **página Registros conectados** para proyectos conectados como se describe en el artículo [Agregar una página Registros conectados a un registro](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md).
+1. (Conditional) To access a projects connected page, do the following: 
 
-   La página Registros conectados muestra los proyectos conectados al registro en la vista de lista.
+    1. Click a workspace card, then click a record type card. 
+    1. From any view, click the name of a record to open the record's preview or details page. 
+    1. Add a **Connected records page** for connected projects as described in the article [Add a Connected records page to a record](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md).
 
-   <!--add new screen shot when they release Conditional formatting MVP -->
+    The Connected records page displays projects connected to the record in the list view. 
 
-   ![Proyectos en la página de registros conectados en la vista de lista](assets/projects-on-connected-records-page-list-view.png)
+    ![Projects on connected records page in list view](assets/projects-on-connected-records-page-list-view.png)
 
-1. (Opcional) Realice una de las siguientes acciones para modificar la vista de lista:
+1. (Conditional) To access a list of request forms, do the following: 
 
-   1. Expanda el menú de vistas desplegables en la esquina superior derecha de la lista para seleccionar otra vista, o haga clic en **Nueva vista** y cree otra.
+    1. {{step1-to-planning}}
+
+    1. (Conditional) To access a projects connected page, do the following: 
+
+    1. Click a workspace card, then click a record type card.
+    1. Click the **More** menu ![More menu](assets/more-menu.png) to the right of the record name in the header, then click **Manage request forms**.
+
+        A list of request forms displays.
+
+-->
+
+1. Vaya a una vista de lista en una de las siguientes áreas:
+
+   * Página de registros conectados en el área de detalles de un registro
+   * La página Formularios de solicitud de un registro
+
+1. (Condicional) Cuando esté disponible, realice una de las siguientes acciones para modificar la vista de la lista:
+
+   1. Expanda el menú de vistas desplegables en la esquina superior izquierda de la lista para seleccionar otra vista, o haga clic en **Nueva vista** y cree otra.
 
       Las vistas se comparten en todo el sistema. Si crea una vista Proyectos para un tipo de registro, puede verla en otros tipos de registro que muestran proyectos conectados.
 
@@ -116,6 +151,17 @@ Las vistas de lista son similares a las listas mejoradas. Para obtener más info
       >* No puede modificar Vistas del sistema.
       >
       >* <span class="preview">Puede restablecer una vista que se compartió con usted y para la que sólo tiene permisos de vista, después de modificarla para restaurar sus preferencias originales, o bien puede copiarla con sus cambios y compartir la copia. Para obtener más información, consulte [Usar listas mejoradas](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md). </span>
+
+      <!--
+        And hide everything else below for these elements, after moving it to the Use enhanced lists article: 
+        1. <span class="preview">To update one of the following view elements, see [Use enhanced lists](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md):</span>
+            <div class="preview">
+            * Filter
+            * Columns
+            * Format cells
+            * Row height
+            </div>
+        -->
 
    1. Haga clic en el icono **Filtro** ![Icono de filtro](assets/filter-icon.png) para agregar un filtro a la vista. Los resultados se filtran inmediatamente en la lista. No puede guardar los filtros de nombre. Los filtros se recuerdan cuando acceda a la página en el futuro y forman parte de vistas compartidas.
    1. Haga clic en el icono **Columnas** ![Icono de columnas](assets/columns-icon.png) para seleccionar qué columnas mostrar u ocultar en la vista.
@@ -133,7 +179,13 @@ No se puede quitar el campo principal en la vista de lista que aparece en la pri
       <span class="preview">Haga lo siguiente: </span>
 
       1. Haga clic en **Agregar condición**.
-      1. <span class="preview">En la línea **If**, seleccione un campo y elija un valor de campo; a continuación, haga clic en **Agregar condición**. </span>
+      1. <span class="preview">En la línea **If**, seleccione un campo, elija un valor de campo y agregue un modificador. Los modificadores cambian según el tipo de campo elegido. </span>
+
+         >[!TIP]
+         >
+         ><span class="preview">Solo los campos visibles en la vista de lista están disponibles para el formato condicional.</span>
+
+      1. <span class="preview">(Opcional) En lugar de agregar un valor de campo, haga clic en el icono **Comparar con otro campo** ![Comparar con otro campo](assets/compare-to-another-field-icon.png) y elija un campo cuyo valor desee comparar con el valor del campo seleccionado. Por ejemplo, puede filtrar por proyectos cuyo Propietario del proyecto coincida con el Patrocinador del proyecto. </span>
 
          >[!TIP]
          >
@@ -149,7 +201,7 @@ No se puede quitar el campo principal en la vista de lista que aparece en la pri
 
       1. Haga clic en el conector **Or** entre condiciones para cambiar a **And** e indicar que se deben cumplir varias condiciones al mismo tiempo. **Or** es el conector predeterminado.
       1. En la línea **Format**, seleccione un campo para indicar a qué columna se dará formato. <!--edit this area, if it changes names??-->
-      1. (Opcional) Haga clic en el icono **círculo de color** ![icono de círculo de color](assets/color-circle.png) junto al campo seleccionado, para expandirlo y elegir otro color.
+      1. (Opcional) Haga clic en el icono **círculo de color** ![icono de círculo de color](assets/color-circle.png) junto al campo seleccionado, para expandirlo y elegir otro color <!--for a cell or the text of the cell that matches your criteria-->. <!--is this where the bold, italic is? I had no UI for this when I wrote it-->
       1. Active la opción **Aplicar a fila** para aplicar el formato a toda la fila del campo que cumpla las condiciones.
       1. (Opcional) Haga clic en **Agregar condición** en el cuadro **Formato** para agregar otra regla para otro campo y, a continuación, repita los pasos anteriores.
       1. (Opcional) Haga clic en **Borrar todo** para quitar todo el formato.
@@ -160,6 +212,8 @@ El formato se aplica inmediatamente a la vista de lista.
 Hay un punto azul al lado del icono **Formato de celdas** para indicar que la vista tiene un formato especial aplicado.
 
       </div>
+
+   <!--leave these here-->
 
 1. (Opcional) Agregue una palabra clave al cuadro de búsqueda en la esquina superior derecha de la lista para buscar un elemento.
 
@@ -178,9 +232,9 @@ Hay un punto azul al lado del icono **Formato de celdas** para indicar que la vi
 
    O
 
-   Seleccione uno o varios elementos, observe la barra de acciones situada en la parte inferior de la lista y, a continuación, haga clic en una de las siguientes opciones:
+   Seleccione uno o varios elementos, observe la barra de acciones situada en la parte inferior de la lista y, a continuación, haga clic en uno de los siguientes, cuando esté disponible:
 
-   * **Eliminar** para eliminar el proyecto. Al eliminar un proyecto, se desconecta del registro y se mueve a la papelera de reciclaje de Workfront. Los administradores de Workfront pueden recuperar los proyectos eliminados hasta 30 días después de haberlos eliminado.
+   * **Eliminar** para eliminar el elemento. Al eliminar un proyecto, se desconecta del registro y se mueve a la papelera de reciclaje de Workfront. Los administradores de Workfront pueden recuperar los proyectos eliminados hasta 30 días después de haberlos eliminado. Al eliminar un formulario, no se eliminan las solicitudes ni los registros creados cuando se envió el formulario.
    * **Desconectar** para desconectar el proyecto del registro. Al desconectar un proyecto, éste y todos los valores de sus campos de búsqueda se eliminan del registro actual.
 
    ![Barra de acciones en la vista Lista de páginas de registros conectados](assets/actions-bar-connected-records-page-list-view.png)

@@ -6,7 +6,7 @@ description: Además de utilizar los borradores disponibles que Workfront le sug
 author: Alina
 feature: Work Management
 exl-id: 664004e7-04c8-4a1f-b682-7b82d349643d
-source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
+source-git-commit: a9cc76139c0f542e4b27e8e3591a40bf626342f4
 workflow-type: tm+mt
 source-wordcount: '827'
 ht-degree: 17%
@@ -27,7 +27,8 @@ Además de utilizar los borradores disponibles que Workfront le sugiere al intro
  <tbody> 
   <tr> 
    <td role="rowheader">Paquete de Adobe Workfront</td> 
-   <td> <p>Cualquiera </p> </td> 
+   <td> <p>Cualquier paquete de flujo de trabajo o Adobe Workfront</p>
+   <p>Cualquier paquete de Adobe Workfront Planning para crear solicitudes para Workfront Planning. </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licencia de Adobe Workfront</td> 
@@ -38,12 +39,9 @@ Además de utilizar los borradores disponibles que Workfront le sugiere al intro
   <tr> 
    <td role="rowheader">Configuraciones de nivel de acceso</td> 
    <td> <p>Editar acceso a Problemas</p>  </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"> Producto</td> 
-   <td> <ul><li>Adobe Workfront</li><li>Debe tener Adobe Workfront Planning para ver solicitudes de Planning o formularios de solicitud</td> 
-  </tr> 
- </tbody> 
+  </tr>
+
+</tbody> 
 </table>
 
 Para obtener más información, consulte [Requisitos de acceso en la documentación de Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).

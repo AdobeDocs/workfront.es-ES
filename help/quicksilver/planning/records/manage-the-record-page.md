@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 2f1c3d4311f54f7f273b2304e39e6fbfc0f4b657
+source-git-commit: 8252e3456e26de3352ebcfd2d66f3d2e63b46428
 workflow-type: tm+mt
 source-wordcount: '1648'
 ht-degree: 44%
@@ -282,23 +282,25 @@ Ocurren lo siguiente:
    * Seleccione la opción **Mostrar todos los campos** para ver todos los campos de la vista de tabla del registro, incluidos los ocultos.
    * Anule la selección del ajuste **Mostrar todos los campos** para ver únicamente los campos que no estén ocultos en la vista de tabla del registro. Esta es la configuración predeterminada
 
-     <!--
+   </div>
+
+   <!--
       replace with this when they fix the UI text:
       * Select the **Show all fields** setting to include all the record's fields in the **Details** page. This is the default setting. 
       * Deselect the **Show all fields** setting to exclude the record's fields that are hidden in the table view of the record from the **Details** page.
       -->
 
-   </div>
-
    >[!TIP]
    >
    ><span class="preview">La configuración **Mostrar todos los campos** solo está disponible en el cuadro de vista previa de detalles del registro. No está disponible en la página Detalles del registro.</span>
-1. (Opcional) Si desea desplazarse a un registro conectado, haga clic en el nombre de ese registro en la ruta de exploración situada en la parte superior de la página de detalles. <span class="preview">Si no puede ver el nombre de un registro en la ruta de exploración, haga clic en **Más**. Esto muestra la ruta de exploración en varias filas. Haga clic en **Menos** para acortar la ruta de exploración y mostrarla en una fila.</span>
+
+1. (Opcional) Si desea desplazarse a un registro conectado, haga clic en el nombre de ese registro en la ruta de exploración situada en la parte superior de la página de detalles. <span class="preview">
+
+   Si no puede ver el nombre de un registro en la ruta de exploración, haga clic en **Más**. Esto muestra la ruta de exploración en varias filas. Haga clic en **Menos** para acortar la ruta de exploración y mostrarla en una fila.</span>
 
    >[!TIP]
    >
    >Para poder ver las rutas de exploración en la página de detalles del registro, debe haber conectado los tipos de registros, los registros y las jerarquías del área de trabajo.
-
 
 1. (Opcional) Haga clic en el icono **Abrir en ficha nueva** ![Abrir cuadro de detalles en un icono de ficha nueva](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> en la esquina superior derecha de la vista previa del registro para abrir la página del registro en una ficha nueva.
 

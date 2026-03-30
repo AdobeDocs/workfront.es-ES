@@ -6,10 +6,10 @@ description: Puede enviar solicitudes en el widget Mis solicitudes. También pue
 author: Alina, Courtney
 feature: Get Started with Workfront
 exl-id: 2b994f44-2404-4aa3-8c38-0686a0c287b7
-source-git-commit: 3893a57fb7ae31a1649b20beccc1f0b79f2421fb
+source-git-commit: a9cc76139c0f542e4b27e8e3591a40bf626342f4
 workflow-type: tm+mt
-source-wordcount: '1118'
-ht-degree: 11%
+source-wordcount: '659'
+ht-degree: 15%
 
 ---
 
@@ -18,13 +18,13 @@ ht-degree: 11%
 >[!IMPORTANT]
 >
 >Este artículo describe el nuevo widget Mis solicitudes. Debe tener la nueva experiencia de solicitud habilitada para ver el nuevo widget.
->Puede activar la nueva experiencia de solicitud en el área Solicitudes.
+>Puede activar la nueva experiencia de solicitud en el área de solicitudes.
 
-El widget Mis solicitudes muestra las solicitudes que ha enviado. Puede filtrar las solicitudes, buscar solicitudes específicas o ajustar el orden de columnas y la visibilidad. También puede crear una nueva solicitud desde el widget Mis solicitudes.
+El widget Mis solicitudes muestra las solicitudes que ha enviado. Puede filtrar las solicitudes, buscar solicitudes específicas o ajustar el orden y la visibilidad de las columnas. También puede crear una nueva solicitud desde el widget Mis solicitudes.
 
 >[!NOTE]
 >
->* Cuando se carga el widget Mis solicitudes, se muestran hasta 50 solicitudes. Para mostrar más solicitudes, desplácese hacia abajo por la lista.
+>* Cuando se carga el widget Mis solicitudes, muestra hasta 50 solicitudes. Para mostrar más solicitudes, desplácese hacia abajo por la lista.
 
 ## Requisitos de acceso
 
@@ -36,8 +36,8 @@ El widget Mis solicitudes muestra las solicitudes que ha enviado. Puede filtrar 
  <tbody> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront package]</strong></td> 
-   <td> <p>Cualquier paquete de Workfront o Workflow</p>
-   <p>Cualquier paquete de Workfront Planning para acceder a las solicitudes de Workfront Planning y sus objetos creados</p>
+   <td> <p>Cualquier paquete de flujo de trabajo o Workfront</p>
+   <p>Cualquier paquete de Workfront Planning para acceder a las solicitudes de Workfront Planning y a sus objetos creados</p>
     </td> 
   </tr> 
   <tr> 
@@ -53,7 +53,7 @@ El widget Mis solicitudes muestra las solicitudes que ha enviado. Puede filtrar 
    </tr> 
    -->
    <td role="rowheader"><strong>Configuración de nivel de acceso</strong></td> 
-   <td> <p>Acceso de visualización o superior a cualquier objeto para el que esté etiquetado en una conversación o necesite resolver una aprobación (proyectos, tareas, problemas, documentos)</p> </td> 
+   <td> <p>Acceso superior o de visualización a cualquier objeto para el que esté etiquetado en una conversación o que necesite resolver una aprobación (proyectos, tareas, problemas, documentos)</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Permisos de objeto</strong></td> 
@@ -66,7 +66,7 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 
 +++
 
-## Crear una solicitud
+## Creación de una solicitud
 
 Puede crear una solicitud directamente desde el widget Mis solicitudes.
 
@@ -76,80 +76,110 @@ Para obtener instrucciones, vea la sección [Crear una solicitud](/help/quicksil
 
 Puede copiar una solicitud en el widget Mis solicitudes, editarla y enviarla como una solicitud nueva.
 
-Para obtener instrucciones, vea [Copiar y enviar solicitudes](/help/quicksilver/manage-work/requests/create-requests/copy-and-submit-requests.md).
+Para obtener instrucciones, consulte [Copiar y enviar solicitudes](/help/quicksilver/manage-work/requests/create-requests/copy-and-submit-requests.md).
 
-## Filtrar solicitudes
+## Administrar información en la lista de solicitudes en el widget Mis solicitudes
 
-El widget Mis solicitudes presenta un filtro personalizable que le permite controlar qué solicitudes aparecen en el widget. Puede configurar este filtro para diferentes campos y valores, y puede apilar condiciones mediante los operadores AND y OR.
+<!--
+The My Requests widget features a customizable filter that allows you to control which requests appear in the widget. You can configure this filter for different fields and values, and can stack conditions using AND and OR operators.
 
-Para configurar el filtro en el widget Mis solicitudes:
+To configure the filter in the My Requests widget:
+-->
 
-1. Haga clic en el **[!UICONTROL Menú principal]** ![icono de menú principal](assets/main-menu-icon.png) en la esquina superior derecha y, a continuación, haga clic en **[!UICONTROL Inicio]**.
-1. (Condicional) Para agregar el widget **Mis solicitudes** a la pantalla de inicio. Haga clic en **Personalizar**, busque **Mis solicitudes** y, a continuación, haga clic en él para agregarlo a la **página principal**.
-1. En el widget **Mis solicitudes**, haga clic en **Filtro**.
-1. Seleccione el campo por el que desea filtrar. Entre las opciones disponibles se encuentran:
+1. Haga clic en el **[!UICONTROL Menú principal]** ![icono del menú principal](assets/lines-main-menu.png) en la esquina superior izquierda y, a continuación, haga clic en **[!UICONTROL Inicio]**.
+1. (Condicional) Para agregar el widget **Mis solicitudes** a la pantalla de inicio. Haz clic en **Personalizar**, busca **Mis solicitudes** y luego haz clic en él para agregarlo a **Inicio**.
+1. (Opcional) Para administrar la forma en que se muestra la información en la lista de solicitudes, actualice los siguientes elementos de vista para la lista:
 
-   * Espacio de trabajo
-   * Tipo de objeto
-   * Fecha de entrada
-   * Formulario de solicitud
-   * Estado
-   * Introducido por
-   * Campos personalizados de la solicitud o del objeto creado
+   * Ver
+   * Filtro
+   * Columnas
 
-1. En el campo siguiente, seleccione el operador que desee utilizar para esta condición de filtro. Los operadores disponibles dependen del campo elegido.
-1. (Condicional) Si un campo aparece a la derecha del operador, seleccione el valor por el que desea filtrar.
-1. (Opcional) Para agregar otra condición de filtro, haga clic en **Agregar condición** y repita los pasos 4-6.
-1. (Opcional y condicional) Si tiene varias condiciones, cambie el valor AND u OR haciendo clic en **And** o **Or** a la izquierda de la condición.
+   <!--
+   <div class="preview">
+      * Group
+   * Format cells
+   * Row height
+      </div>
+   -->
 
-El filtro se guarda automáticamente.
+   Para obtener más información sobre la administración de información en la lista de solicitudes, vea [Usar listas mejoradas](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
+
+
+<!-- Removed all these sections because this is common to ALL the Glists/ enhanced lists. So, we will update that article with all the specific steps: 
+1. Select the field that you want to filter by. Available options are:
+
+   * Workspace
+   * Object type
+   * Entry date
+   * Request form
+   * Status
+   * Entered by
+   * Custom fields from the request or from the created object   
+
+1. In the next field, select the operator that you want to use for this filter condition. Available operators depend on the chosen field.
+1. (Conditional) If a field appears to the right of the operator, select the value that you want to filter by.
+1. (Optional) To add another filter condition, click **Add condition** and repeat steps 4-6.
+1. (Optional and conditional) If you have multiple conditions, switch the And or Or value by clicking **And** or **Or** to the left of the condition.
+
+
+The filter is saved automatically.
+
+-->
 
 >[!TIP]
 >
->Si su organización ha adquirido Workfront Planning además de Adobe Workfront, el widget Mis solicitudes incluirá las solicitudes de Workfront y Workfront Planning.
+>Si su organización ha adquirido Workfront Planning además de Adobe Workfront, el widget Mis solicitudes incluirá tanto las solicitudes de Workfront como las de Workfront Planning.
 > 
->* Para filtrar solo por solicitudes de Workfront, establezca el filtro en **Tipo de objeto** > **Tiene alguno de** > **Problemas**.
+>* Para filtrar solo las solicitudes Workfront, establezca el filtro en **Tipo de objeto** > **Tiene cualquiera de** > **Problemas**.
 >* Para filtrar solo las solicitudes de Workfront Planning, establezca el filtro en **Tipo de objeto** > **No tiene ninguno de** > **Problemas**.
 
-## Ajuste o adición de columnas
+<!--
 
-Puede elegir cuál de las columnas disponibles aparece en el widget Mis solicitudes y establecer su orden.
+## Adjust or add columns
 
-Las columnas disponibles incluyen:
+You can choose which of the available columns appear on the My Requests widget, and set their order.
 
-* Asunto
-* Objeto creado
-* Tipo de objeto
-* Estado
-* Formulario de solicitud
-* Fecha de entrada
-* Introducido por
+Available columns include:
 
-Para ajustar las columnas en el widget Mis solicitudes:
+* Subject
+* Created object
+* Object type
+* Status
+* Request form
+* Entry date
+* Entered by
 
-1. Haga clic en el **[!UICONTROL Menú principal]** ![icono del menú principal](assets/main-menu-icon.png) en la esquina superior derecha y, a continuación, haga clic en **[!UICONTROL Inicio]**.
-1. (Condicional) Para agregar el widget **Mis solicitudes** a la pantalla de inicio. Haz clic en **Personalizar**, busca **Mis solicitudes** y luego haz clic en él para agregarlo a **Inicio**.
-1. En el widget **Mis solicitudes**, haga clic en **Columnas**.
-1. (Opcional) Para reordenar las columnas, haga clic en el controlador de arrastre ![controlador de arrastre](assets/drag-handle.png) de la columna que desee mover y arrástrelo a las ubicaciones que desee. La columna situada en la parte superior de la lista aparece en el widget Mis solicitudes como primera columna.
-1. (Opcional) Utilice el botón de alternancia para ocultar o mostrar la columna en la lista de solicitudes.
-1. Para agregar un campo personalizado como columna, haga clic en el icono **Agregar columna** ![Agregar columna](assets/add-column.png) situado en la esquina superior derecha de la lista, y haga clic en el icono más situado junto al campo personalizado que desea agregar como columna al widget.
+To adjust the columns on the My Requests widget:
 
-   Los campos personalizados de los formularios adjuntos al objeto en la lista están disponibles para agregarse como columnas.
+1. Click the **[!UICONTROL Main Menu]** ![Main Menu icon](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
+1. (Conditional) To add the **My Requests** widget to your home screen. Click **Customize**, and find **My Requests**, then click it to add it to **Home**. 
+1. In the **My Requests** widget, click **Columns**.
+1. (Optional) To reorder columns, click the drag handle ![drag handle](assets/drag-handle.png) of the column you want to move and drag it to the desired locations. The column at the top of the list appears in the My Requests widget as the first column.
+1. (Optional) Use the toggle to hide or show the column in the requests list.
+1. To add a custom field as a column, click the **Add column** icon ![Add column](assets/add-column.png) in the upper-right corner of the list, and click the plus icon next to the custom field that you want to add as a column to the widget.
 
-Las preferencias de columna se guardan automáticamente.
+   Custom fields on forms attached to the object in the list are available to add as columns.
 
-## Crear una vista
+Column preferences are saved automatically.
 
-Puede crear vistas en el widget Mis solicitudes para cambiar la forma en que se muestra la información en la lista de solicitudes.
+-->
 
-Tenga en cuenta lo siguiente al trabajar con vistas en el widget Mis solicitudes:
+<!--
 
-* Una vista del widget Mis solicitudes contiene las columnas y filtros aplicados a la vista.
-* Puede crear vistas y compartirlas con otros usuarios. Los filtros y las columnas que seleccione para la vista antes de compartirla se incluyen en las vistas que comparta.
-* La siguiente es una vista de sistema que no se puede editar, compartir ni eliminar:
+## Create a view
 
-   * Widget Unified Requests Vista predeterminada
-* Crear y editar una vista en el widget Mis solicitudes es similar a las listas mejoradas. Para obtener más información, consulte [Usar listas mejoradas](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
+You can create views in the My Requests widget to change the way the information displays in the request list. 
+
+Consider the following when working with views in the My Requests widget:
+
+* A view in the My Requests widget contains the columns and filters applied to the view.
+* You can create views and share them with others. The filters and columns you select for the view before you share it are included in the views you share. 
+* The following is a system view which you cannot edit, share, or delete: 
+
+   * Widget Unified Requests Default View
+* Creating and editing a view in the My Requests widget is similar to enhanced lists. For information, see [Use enhanced lists](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md). 
+
+-->
 
 ## Solicitudes de búsqueda
 
@@ -161,7 +191,7 @@ Para buscar solicitudes específicas en el widget Mis solicitudes:
 
    Las solicitudes que contienen el término se resaltan en naranja.
 
-1. (Opcional) Para saltar a las solicitudes resaltadas, haga clic en las flechas arriba o abajo en la barra de búsqueda.
+1. (Opcional) Para saltar a las solicitudes resaltadas, haga clic en las flechas arriba o abajo de la barra de búsqueda.
 
 ## Ir a un objeto creado por una solicitud
 
@@ -169,12 +199,12 @@ Puede encontrar objetos creados por una solicitud en el widget Mis solicitudes.
 
 >[!NOTE]
 >
->Los vínculos a objetos creados están disponibles en la nueva experiencia de solicitud sólo para solicitudes de Planning, en los casos en los que la propia solicitud creó un objeto. Si una solicitud de Workfront se convierte en un proyecto u otro objeto, un vínculo a ese objeto convertido no estará disponible en la lista de solicitudes de la nueva experiencia de solicitud.
+>Los vínculos a objetos creados sólo están disponibles en la nueva experiencia de solicitud para solicitudes de Planning, en los casos en que la propia solicitud ha creado un objeto. Si una solicitud de Workfront se convierte en un proyecto u otro objeto, un vínculo a ese objeto convertido no estará disponible en la lista de solicitudes de la nueva experiencia de solicitud.
 
-1. Haga clic en el **[!UICONTROL Menú principal]** ![icono de menú principal](assets/main-menu-icon.png) en la esquina superior derecha y, a continuación, haga clic en **[!UICONTROL Inicio]**.
-1. (Condicional) Para agregar el widget **Mis solicitudes** a la pantalla de inicio. Haga clic en **Personalizar**, busque **Mis solicitudes** y, a continuación, haga clic en él para agregarlo a la **página principal**.
+1. Haga clic en el **[!UICONTROL Menú principal]** ![icono del menú principal](assets/main-menu-icon.png) en la esquina superior derecha y, a continuación, haga clic en **[!UICONTROL Inicio]**.
+1. (Condicional) Para agregar el widget **Mis solicitudes** a la pantalla de inicio. Haz clic en **Personalizar**, busca **Mis solicitudes** y luego haz clic en él para agregarlo a **Inicio**.
 1. Busque la solicitud que creó el objeto.
-1. Haga clic en el nombre del objeto en la columna **Objeto creado** para esa solicitud.
+1. Haga clic en el nombre de objeto en la columna **Objeto creado** para esa solicitud.
 
    Se abre la página del objeto.
 

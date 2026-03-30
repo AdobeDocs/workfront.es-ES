@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: c91622e8155c62ecf7c17eaeb60b2bd4f69aaedf
+source-git-commit: ddf10844646a79c43accaffa1789caf24290cc8a
 workflow-type: tm+mt
-source-wordcount: '3552'
+source-wordcount: '3568'
 ht-degree: 5%
 
 ---
@@ -120,6 +120,11 @@ Puede crear un formulario de solicitud a partir del tipo de registro asociado al
    La página de tipo de registro se abre en la vista a la que se accedió por última vez. De forma predeterminada, se abre una página de tipo de registro en la vista de tabla.
 
 1. Haga clic en el menú **Más** ![Menú más](assets/more-menu.png) que se encuentra a la derecha del nombre del tipo de registro en el encabezado de la página y, a continuación, haga clic en **Crear formulario de solicitud** o **Administrar formularios de solicitud**, si ya tiene un formulario y desea crear otros.
+
+   Se abre la página **Formularios de solicitud** y las solicitudes se muestran en la vista de lista.
+
+   ![Página de formularios de solicitud](assets/request-forms-in-list-view.png)
+
 1. (Condicional) Si desea agregar otro formulario, haga clic en **Nuevo formulario de solicitud**.
 
    Se abre el cuadro **Crear formulario de solicitud**.

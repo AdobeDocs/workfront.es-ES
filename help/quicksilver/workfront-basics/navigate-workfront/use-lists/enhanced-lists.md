@@ -5,9 +5,9 @@ description: Las listas mejoradas utilizan un formato de tabla para mostrar los 
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 4c25ed54-b147-4fd3-8d00-6f1ba61bbd38
-source-git-commit: ce3ca4d55fd3fe0630da4961f27159fe5e31612a
+source-git-commit: a9cc76139c0f542e4b27e8e3591a40bf626342f4
 workflow-type: tm+mt
-source-wordcount: '2337'
+source-wordcount: '2350'
 ht-degree: 3%
 
 ---
@@ -156,7 +156,7 @@ Algunas columnas permiten guardar un nombre personalizado para el título de la 
 
    El nuevo nombre de columna aparece en la lista.
 
-## Agregar y quitar columnas con el Administrador de columnas
+### Agregar y quitar columnas con el Administrador de columnas
 
 Puede usar **Administrador de columnas** en algunas listas mejoradas para agregar y quitar fácilmente columnas de la lista. Puede agregar o quitar campos personalizados y del sistema que ya existen en Workfront como columnas a una lista mejorada.
 
@@ -283,11 +283,13 @@ Para ordenar columnas individuales:
 
    ![Ordenar por una columna](assets/glist-sort-by-column.png)
 
-Para ordenar el trabajo dentro de una agrupación:
-
-1. Haga clic en **Grupo**, vaya a la línea de la agrupación aplicada, haga clic en la lista desplegable del clasificador y seleccione un orden ascendente o descendente.
+1. (Opcional) Para ordenar su trabajo dentro de una agrupación, haga clic en **Grupo**, vaya a la línea de la agrupación aplicada, haga clic en el menú desplegable del clasificador y seleccione un orden ascendente o descendente.
 
    ![Ordenar en una agrupación](assets/sort-in-groups.png)
+
+   >[!TIP]
+   >
+   >El orden de clasificación difiere según el tipo de campo por el que ordene.
 
 ### Búsqueda en una lista mejorada
 

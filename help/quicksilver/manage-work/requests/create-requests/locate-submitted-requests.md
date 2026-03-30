@@ -2,32 +2,44 @@
 product-area: requests
 navigation-topic: create-requests
 title: Ver solicitudes enviadas
-description: Obtenga más información sobre las áreas de Adobe Workfront donde puede ver las solicitudes que usted u otra persona han enviado o las solicitudes que nunca ha enviado y que se han guardado como borradores.
+description: Obtenga información sobre las áreas de Adobe Workfront en las que puede ver solicitudes que usted u otra persona ha enviado o solicitudes que nunca ha enviado y que se han guardado como borradores.
 author: Alina
 feature: Requests
 topic: Collaboration
 role: User
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
-source-git-commit: 78ad910e8d121dda38c9a7da27b0b338e0e1dcda
+source-git-commit: a9cc76139c0f542e4b27e8e3591a40bf626342f4
 workflow-type: tm+mt
-source-wordcount: '1360'
-ht-degree: 44%
+source-wordcount: '1347'
+ht-degree: 45%
 
 ---
 
 # Vista de solicitudes enviadas
 
-Puede ver las solicitudes que usted u otra persona hayan enviado, o las solicitudes que haya iniciado pero que nunca haya terminado de enviar. Las solicitudes no terminadas se guardan como borradores.
+<!--
+Remove production and preview references at release
+-->
 
-Puede encontrar las solicitudes enviadas en las siguientes áreas de Adobe Workfront:
+<!--
+
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
+-->
+
+Puede ver las solicitudes que usted u otra persona ha enviado, o las solicitudes que ha iniciado pero que nunca ha terminado de enviar. Las solicitudes no finalizadas se guardarán como borradores.
+
+Puede localizar las solicitudes enviadas en las siguientes áreas de Adobe Workfront:
 
 * El área Solicitudes de Workfront
-* Widget Mis solicitudes en Inicio
+* El widget Mis solicitudes en Inicio
 
-El área Solicitudes muestra las siguientes solicitudes, dependiendo de cómo decida visualizarla:
+El área Solicitudes muestra las siguientes solicitudes, en función de cómo decida consultarlas:
 
 * Solicitudes de Workfront al utilizar la experiencia heredada
-* Workfront, así como las solicitudes de Planning cuando se utiliza la nueva experiencia.
+* Workfront, así como las solicitudes de Planning, al utilizar la nueva experiencia.
 
   >[!NOTE]
   >
@@ -76,22 +88,37 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 
 +++
 
-## Ver solicitudes enviadas en el área Solicitudes
+## Ver las solicitudes enviadas en el área Solicitudes
 
-La visualización de solicitudes enviadas varía en función de si está utilizando la experiencia de solicitud nueva o heredada.
+La visualización de las solicitudes enviadas difiere en función de si utiliza la experiencia de solicitud nueva o heredada.
 
 * [Ver las solicitudes enviadas en la nueva experiencia de solicitud](#view-submitted-requests-in-the-new-requesting-experience)
 * [Ver las solicitudes enviadas en la experiencia de solicitud heredada](#view-submitted-requests-in-the-legacy-requesting-experience)
 
 ### Ver las solicitudes enviadas en la nueva experiencia de solicitud
 
-Puede ver las solicitudes enviadas en el área Solicitudes, que incluye vínculos a objetos creados por solicitudes de Adobe Workfront Planning.
+>[!NOTE]
+>
+>* Si tiene Workfront Planning, las solicitudes de Workfront y Planning aparecen en la misma lista. Las solicitudes Workfront muestran el valor `Issue` en la columna **Tipo de objeto**.
+>* De forma predeterminada, se muestran hasta 50 solicitudes en la lista del área Solicitudes. Para ver más solicitudes, desplácese hasta la parte inferior de la lista.
+
+Puede ver las solicitudes enviadas en el área Solicitudes, que incluye vínculos a registros creados por solicitudes de Adobe Workfront Planning en el entorno de producción <!--, or links to records created by Planning requests or <span objects converted from Workfront issues in the Preview environment-->.
 
 >[!NOTE]
 >
 >Los vínculos a objetos creados sólo están disponibles en la nueva experiencia de solicitud para solicitudes de Planning, en los casos en que la propia solicitud creó un registro.
 >
 >Si una solicitud de Workfront se convierte en un proyecto u otro objeto, un vínculo a ese objeto convertido no estará disponible en la lista de solicitudes de la nueva experiencia de solicitud.
+
+<!--
+replace the note above with this at release: 
+>[!NOTE]
+>
+>Links to created objects are available in the new requesting experience only for Planning requests in the Production environment, in cases where the request itself created a record. 
+>
+>If a Workfront request is converted to a project or other object, a link to that converted object is not available in the request list in the new requesting experience in the Production environment.
+><span class="preview">In the Preview environment, you can access both Workfront objects converted from Workfront requests and Planning records created from Planning requests from the Requests area list.</span>
+-->
 
 Para ver las solicitudes que usted u otros usuarios han enviado en la nueva experiencia de solicitud:
 
@@ -102,14 +129,23 @@ Para ver las solicitudes que usted u otros usuarios han enviado en la nueva expe
    Se muestra la lista de solicitudes.
 
 1. (Opcional) Para buscar una solicitud, empiece a escribir en la barra de búsqueda de la esquina superior derecha de la lista. Los resultados de la búsqueda aparecen a medida que escribe.
-1. (Opcional) Haga clic en **Filtros** y empiece a agregar condiciones para las solicitudes que desee mostrar.
+1. (Opcional) Para administrar la forma en que se muestra la información en la lista de solicitudes, actualice los siguientes elementos de vista para la lista:
 
-   Para obtener más información sobre los filtros, consulte [Crear y administrar vistas en el área de solicitudes](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md).
+   * Ver
+   * Filtro
+   * Columnas
 
-1. (Opcional) Haga clic en el menú desplegable **Vistas** para actualizar la vista o compartirla con otros.
+   <!--
+   <div class="preview">
+      * Group
+   * Format cells
+   * Row height
+      </div>
+   -->
 
-   Para obtener más información, consulte [Crear o editar vistas en el área de solicitudes](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md).
-1. (Opcional) Compruebe el estado de una solicitud comprobando la columna **Estado**. Los siguientes estados están disponibles en la nueva experiencia de solicitud:
+   Para obtener más información sobre la administración de información en la lista de solicitudes, vea [Usar listas mejoradas](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
+
+1. (Opcional) Compruebe el estado de una solicitud comprobando la columna **Estado**. Los siguientes estados están disponibles en la nueva experiencia solicitante:
 
    * **Borrador**: esta solicitud aún no se ha enviado.
    * **Revisión pendiente**: (Solo en Planning) Esta solicitud tiene aprobadores y ninguno de ellos ha abierto la solicitud.
@@ -121,11 +157,6 @@ Para ver las solicitudes que usted u otros usuarios han enviado en la nueva expe
 
         Para obtener más información, consulte [Configurar detalles de configuración](/help/quicksilver/planning/requests/create-request-form.md#set-up-configuration-details) en el artículo Crear y administrar un formulario de solicitud en Adobe Workfront Planning.
    * **Completar**: la solicitud se completó.
-
->[!NOTE]
->
->* Si tiene Workfront Planning, las solicitudes de Workfront y Planning aparecen en la misma lista. Las solicitudes Workfront muestran el valor `Issue` en la columna **Tipo de objeto**.
->* De forma predeterminada, se muestran hasta 50 solicitudes en la lista del área Solicitudes. Para ver más solicitudes, desplácese hasta la parte inferior de la lista.
 
 ### Ver las solicitudes enviadas en la experiencia de solicitud heredada
 
@@ -142,7 +173,7 @@ Para ver las solicitudes que usted u otros usuarios han enviado en la experienci
    >
    >No puede personalizar las columnas en la lista de solicitudes enviadas.
 
-   ![Solicitudes enviadas nueva lista](assets/nwe-submitted-requests-new-list-350x57.png)
+   ![Solicitudes enviadas en una nueva lista](assets/nwe-submitted-requests-new-list-350x57.png)
 
 
 1. Las siguientes columnas se muestran de forma predeterminada:
@@ -192,11 +223,11 @@ Para ver las solicitudes que usted u otros usuarios han enviado en la experienci
    >
    >Si el panel Resumen ya está abierto, el icono Abrir resumen cambia a Cerrar resumen.
 
-1. (Opcional y condicional) Haga clic en el icono **X** de la esquina superior derecha o en el icono **Cerrar resumen** ![Cerrar resumen con texto](assets/close-summary-with-text-nwe.png) para cerrar el panel Resumen.
+1. (Opcional y condicional) Haga clic en el icono **X** en la esquina superior derecha o en el icono **Cerrar resumen** ![Cerrar resumen con texto](assets/close-summary-with-text-nwe.png) para cerrar el Panel de resumen.
 
    Si un problema se convirtió en una tarea o proyecto y el problema se eliminó en el proceso de conversión, el panel Resumen está en blanco. Para obtener información sobre la conversión de problemas, consulte [Información general sobre la conversión de problemas en Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issues.md).
 
-1. En el **icono Filtro** ![icono Filtro](assets/filter-nwepng.png) situado en la parte superior derecha de la lista, seleccione cualquiera de los filtros de la tabla siguiente.
+1. Desde el **icono de filtro** ![icono de filtro](assets/filter-nwepng.png) en la parte superior derecha de la lista, seleccione cualquiera de los filtros enumerados en la tabla siguiente.
 
    >[!TIP]
    >
@@ -229,7 +260,7 @@ Para ver las solicitudes que usted u otros usuarios han enviado en la experienci
     </tbody> 
    </table>
 
-1. (Opcional) Haga clic en el icono **Filtrar página** ![Icono de búsqueda](assets/search-icon.png) en la parte superior de la lista para buscar una solicitud por nombre. La lista se actualiza con los resultados que coinciden con los criterios de búsqueda.
+1. (Opcional) Haga clic en el icono **Filtrar página** ![Icono de búsqueda](assets/search-icon.png) en la parte superior de la lista para buscar una solicitud por su nombre. La lista se actualiza con los resultados que coinciden con los criterios de búsqueda.
 
    <!--
 
@@ -271,7 +302,7 @@ Para ver las solicitudes que usted u otros usuarios han enviado en la experienci
 
 1. (Opcional) Compruebe el estado de una solicitud comprobando la columna **Estado**. Los siguientes estados están disponibles en la nueva experiencia solicitante:
 
-   * **Borrador**: esta solicitud aún no se ha enviado.
+   * **borrador**. Esta solicitud aún no se ha enviado.
    * **En curso**
    * **Completado**
 
