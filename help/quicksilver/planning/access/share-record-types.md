@@ -6,9 +6,11 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: bf49db73-09f1-417e-836b-16c6062740d4
-source-git-commit: 54a6e633e903c73a78b36e90fb27edb445dc8d47
+last-update: 2026-04-01T18:23:03Z
+git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
+source-git-commit: 10d2bcf3f2d349418a8a04e96873bc5c2d3af4a1
 workflow-type: tm+mt
-source-wordcount: '1547'
+source-wordcount: '1586'
 ht-degree: 5%
 
 ---
@@ -16,7 +18,7 @@ ht-degree: 5%
 
 <!-- take the Remove permissions section out, at the end - this is what Lilit said: Because of "Everyone in the workspace can view" wildcard, currently it's not possible to entirely remove access to a record type. Let's take out this section. -->
 
-# Compartir tipos de registros
+# Compartir tipos de registro
 
 <span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después de las versiones mensuales en Production, las mismas funciones también están disponibles en el entorno Production para los clientes que habilitaron versiones rápidas. </span>
 
@@ -89,7 +91,8 @@ Para obtener más información acerca de los requisitos de acceso de Workfront, 
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
 <col> 
@@ -147,7 +150,8 @@ Para obtener más información acerca de los requisitos de acceso de Workfront, 
   </tr> 
  
 </tbody> 
-</table>-->
+</table>
+-->
 
 ## Consideraciones al compartir tipos de registros
 
@@ -215,11 +219,15 @@ Puede ajustar los permisos a los tipos de registro individuales de un espacio de
 
    1. Seleccione **Deshabilitar** del menú desplegable **Permisos heredados**.
 
-   >[!TIP]
-   >
-   >Los administradores de Workspace siguen teniendo permisos de administración en el tipo de registro.
+      >[!TIP]
+      >
+      >Los administradores de Workspace siguen teniendo permisos de administración en el tipo de registro.
 
    1. En el campo **Conceder acceso a este tipo de registro**, agregue los usuarios, equipos, grupos, empresas o roles de trabajo a los que desee conceder un nivel de permiso diferente del que tienen para el área de trabajo.
+   1. <span class="preview">(Opcional) Cuando comparta con un grupo, equipo, función o empresa, pase el ratón sobre el nombre de la entidad y haga clic en la flecha que señala a la derecha para expandir la lista de usuarios que reciben los permisos. </span>
+
+      ![Compartir tipo de registro con el grupo](assets/share-record-type-with-group-expanding-arrow-highlighted.png)
+
    1. Elija un nivel de permisos.
 
    >[!IMPORTANT]
@@ -270,7 +278,8 @@ Puede quitar los permisos de los usuarios de un tipo de registro. Sin embargo, c
 
    No hay ninguna notificación para los usuarios que se han eliminado del acceso al tipo de registro de que ya no tienen estos permisos.
 
-<!-- This is not working yet: *************************** edit this before publishing, because this was not tested with record types - this section came from sharing views *******************: 
+<!--
+ This is not working yet: *************************** edit this before publishing, because this was not tested with record types - this section came from sharing views *******************: 
 
 ## Grant permissions to a record type from a permission request
 
@@ -295,5 +304,8 @@ Users who access a link to a record type to which they do not have permissions c
 1. Select the user for whom you want to approve or deny the permission, then click **Approve all** or **Deny all**. 
 1. Click the left-pointing arrow to the left of **Pending access requests**, then click **Save**.
 
-   If you approved the request, the users are added to the sharing box of the view. The user requesting the permission receives an email confirmation that their request was approved. <!--will they also get an in-app notification??-->
+   If you approved the request, the users are added to the sharing box of the view. The user requesting the permission receives an email confirmation that their request was approved. 
+   
+   will they also get an in-app notification??
+-->
 

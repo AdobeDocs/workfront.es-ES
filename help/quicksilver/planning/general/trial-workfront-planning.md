@@ -5,9 +5,11 @@ author: Alina
 feature: Workfront Planning
 role: User, Admin
 exl-id: fcad60b2-05e8-4774-8135-129bc1d3f9ce
-source-git-commit: ce3ca4d55fd3fe0630da4961f27159fe5e31612a
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: ff87e425389f30dfaa1a178ea2b548d1c41179bb
 workflow-type: tm+mt
-source-wordcount: '2168'
+source-wordcount: '2184'
 ht-degree: 4%
 
 ---
@@ -26,10 +28,12 @@ Adobe Workfront Planning proporciona una visibilidad centralizada del ciclo vita
 >
 >* Adobe Workfront ofrece una prueba gratuita de 60 días de Adobe Workfront Planning a todos los clientes de Adobe Workfront que no sean también clientes de Workfront Planning.
 >
->* El juicio está disponible entre las siguientes fechas: del 2 de marzo al 1 de mayo de 2026.
+>* El periodo de registro finalizó el 1 de abril de 2026 y ahora está cerrado.
 >
->* Tenga en cuenta que la versión de prueba está disponible durante 60 días desde su lanzamiento y no durante 60 días desde el momento en que se una a ella.
->* El periodo de registro finaliza el 1 de abril de 2026.
+>* Si ha aceptado el acuerdo de prueba y está inscrito en la prueba, estará disponible entre las siguientes fechas: del 2 de marzo al 1 de mayo de 2026.
+>
+>* Tenga en cuenta que la versión de prueba está disponible durante 60 días desde su lanzamiento y no durante 60 días desde el momento en que se unió a ella.
+>
 
 Con esta versión de prueba, verá de primera mano cómo Planning ayuda a alinear el trabajo diario con los objetivos estratégicos, optimiza la ejecución y genera resultados mensurables para su organización.
 
@@ -104,8 +108,10 @@ Las siguientes son fechas importantes asociadas con la oferta de prueba gratuita
 
 * **30 de noviembre de 2026**: Workfront ya no protege sus datos después de esta fecha. Si adquiere Workfront Planning antes de esta fecha, recuperará el acceso a Planning y a sus datos.
 
-<!--Lauren wanted this out: 
-* **November 30, 2026** - Workfront no longer makes your data available after this date. You can still purchase Workfront Planning, but your data is removed after this date. -->
+<!--
+Lauren wanted this out: 
+* **November 30, 2026** - Workfront no longer makes your data available after this date. You can still purchase Workfront Planning, but your data is removed after this date.
+-->
 
 ## Permisos para datos de Workfront Planning durante y después de la prueba gratuita
 
@@ -133,7 +139,8 @@ Para obtener prácticas recomendadas sobre cómo implementar Workfront Planning,
 
 <!--
 
-this information will be live on March 2 - the How to sign up below will be a ### instead of a ## section and the Navigate the trial section will be visible; also adjust ALL the ##s when you make this live: -->
+this information will be live on March 2 - the How to sign up below will be a ### instead of a ## section and the Navigate the trial section will be visible; also adjust ALL the ##s when you make this live:
+-->
 
 ## Inscríbase en la prueba gratuita de Adobe Workfront Planning
 

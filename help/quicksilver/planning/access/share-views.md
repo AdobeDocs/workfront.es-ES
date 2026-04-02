@@ -6,10 +6,12 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 673dd888-3135-48b0-8198-c8d6d6706ddf
-source-git-commit: 54a6e633e903c73a78b36e90fb27edb445dc8d47
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 10d2bcf3f2d349418a8a04e96873bc5c2d3af4a1
 workflow-type: tm+mt
-source-wordcount: '1946'
-ht-degree: 43%
+source-wordcount: '2016'
+ht-degree: 42%
 
 ---
 
@@ -37,7 +39,8 @@ Puede compartir una vista con otros usuarios para garantizar la colaboración cu
 
 
 <!--
-This article describes how you can share a view with others. For information about requesting, granting, or denying permissions to a view, see [Request permissions to a view or a workspace](/help/quicksilver/planning/access/request-permissions.md). -->
+This article describes how you can share a view with others. For information about requesting, granting, or denying permissions to a view, see [Request permissions to a view or a workspace](/help/quicksilver/planning/access/request-permissions.md).
+-->
 
 ## Requisitos de acceso
 
@@ -91,7 +94,8 @@ Para obtener más información acerca de los requisitos de acceso de Workfront, 
 
 +++
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
 <col> 
 </col> 
@@ -149,7 +153,8 @@ Para obtener más información acerca de los requisitos de acceso de Workfront, 
   </tr> 
 
 </tbody> 
-</table> -->
+</table>
+-->
 
 ## Consideraciones al compartir vistas
 
@@ -214,12 +219,15 @@ Puede compartir las vistas que ha creado o las vistas en las que tiene permiso d
    >
    >* Cuando comparte una vista con un usuario, su rol de trabajo principal <span class="preview">y su correo electrónico</span> también se muestran en el campo. Debe tener activada la configuración Ver información de contacto para el objeto Usuarios en su nivel de acceso para poder ver el correo electrónico del usuario.
 
-
    * **Todos los usuarios del espacio de trabajo pueden ver**: todos los usuarios que tengan permisos de visualización o superiores en los espacios de trabajo pueden acceder a la vista.
 
 1. En el campo **Conceder acceso a esta vista**, empiece a escribir el nombre de un usuario, un grupo, un equipo, una empresa o un rol y, a continuación, haga clic en él cuando se muestre en la lista.
 
    ![Compartir una vista con grupos](assets/sharing-a-view-ui-with-groups.png)
+
+1. <span class="preview">(Opcional) Cuando comparta con un grupo, equipo, función o empresa, pase el ratón sobre el nombre de la entidad y haga clic en la flecha que señala a la derecha para expandir la lista de usuarios que reciben los permisos. </span>
+
+   ![Compartir vista con el equipo](assets/share-view-with-team-expanding-arrow-highlighted.png)
 
 1. Seleccione uno de los siguientes niveles de permisos en el menú desplegable:
    * Ver
@@ -294,8 +302,16 @@ Para compartir una vista públicamente en Workfront Planning:
    >
    >Las vistas sin un icono de personas o global son vistas que ha creado y no se comparten con otros. Las vistas no compartidas solo son visibles para usted.
 
-
 1. (Opcional) Pegue el vínculo que ha copiado en un correo electrónico, mensaje de chat, documento o comentario de Workfront para compartirlo con otros usuarios.
+
+   <div class="preview">
+
+   Cuando otros usuarios abren una vista pública, ven la siguiente información sobre la vista en el encabezado:
+
+   * Nombre e icono de la vista
+   * El nombre del tipo de registro que muestra la vista
+
+   </div>
 
 ## Copia de un vínculo a una vista
 

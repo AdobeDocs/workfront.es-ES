@@ -6,9 +6,11 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: b2f1bbfbbec23a5400552eb0f989e0a0dc58413c
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 10d2bcf3f2d349418a8a04e96873bc5c2d3af4a1
 workflow-type: tm+mt
-source-wordcount: '1343'
+source-wordcount: '1375'
 ht-degree: 39%
 
 ---
@@ -54,7 +56,7 @@ Puede ver los registros en las vistas siguientes:
 
   Para obtener más información, consulte los siguientes artículos:
 
-   * [Agregar una página Registros conectados a un registro](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md)
+   * [Agregar una página de Registros conectados a un registro](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md)
    * [Administración de la vista de lista](/help/quicksilver/planning/views/manage-the-list-view.md)
 
 En este artículo se describe la siguiente información sobre las vistas de registros:
@@ -65,7 +67,7 @@ En este artículo se describe la siguiente información sobre las vistas de regi
 
 Para obtener más información sobre la administración de vistas de registros de Workfront Planning, consulte también los siguientes artículos:
 
-* [Eliminar vistas de registros](/help/quicksilver/planning/views/delete-record-views.md)
+* [Eliminar vistas de registro](/help/quicksilver/planning/views/delete-record-views.md)
 * [Duplicar vistas de registros](/help/quicksilver/planning/views/duplicate-record-views.md)
 * [Compartir vistas](/help/quicksilver/planning/access/share-views.md)
 
@@ -115,7 +117,8 @@ Para obtener más información acerca de los requisitos de acceso de Workfront, 
 +++
 
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
 <col> 
 </col> 
@@ -177,7 +180,8 @@ Para obtener más información acerca de los requisitos de acceso de Workfront, 
 </td>
   </tr>
 </tbody> 
-</table>-->
+</table>
+-->
 
 ## Consideraciones al trabajar con vistas de registros
 
@@ -281,9 +285,19 @@ Para obtener información acerca de las vistas de lista, vea [Administrar la vis
    ![Crear cuadro de vista](assets/create-view-box.png)
 
 1. (Opcional) Para editar una vista existente, haga clic en el menú desplegable a la derecha del nombre de la vista actual, luego escriba el nombre de una vista en el campo **Buscar** y presione Entrar en el teclado.
+
+   >[!TIP]
+   >
+   ><span class="preview">Puede usar la siguiente combinación de teclas para abrir el cuadro de búsqueda global desde cualquier página de Workfront Planning y buscar vistas :</span>
+   >
+   >* <span class="preview">CTRL+K para Windows</span>
+   >* <span class="preview">⌘+K para Mac</span>
+   >
+   >![Cuadro de búsqueda global](assets/global-search-box.png)
+
 1. (Opcional) En el menú desplegable de vista, arrastre y suelte las vistas en orden de sus preferencias.
 
-   ![Lista desplegable de tipos de vista de la lista de tipos de registro](assets/view-types-drop-down-from-record-type-list.png)
+   ![Menú desplegable de tipos de vista en la lista de tipos de registro](assets/view-types-drop-down-from-record-type-list.png)
 
 1. (Condicional) Haga clic en **Siguiente** al crear una vista de cronología o de calendario.
 
