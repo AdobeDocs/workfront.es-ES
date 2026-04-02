@@ -5,14 +5,17 @@ title: Administrar las aprobaciones con el widget Mis aprobaciones
 description: El widget Mis aprobaciones muestra todas las aprobaciones pendientes, asignadas, delegadas y enviadas en un solo lugar. Aquí puede filtrar y organizar sus aprobaciones, tomar decisiones y delegar aprobaciones según sea necesario.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: 4981d9adb2cae53e30f13aa2a7aa6857befbf3ca
+exl-id: 276a33f5-92de-440c-ae3a-8cd01731434f
+source-git-commit: 30e27ba5a12733660a88cd7e9643bea868503774
 workflow-type: tm+mt
-source-wordcount: '396'
-ht-degree: 19%
+source-wordcount: '431'
+ht-degree: 22%
 
 ---
 
 # Administrar las aprobaciones con el widget Mis aprobaciones
+
+{{highlighted-preview}}
 
 El widget Mis aprobaciones muestra todas las aprobaciones pendientes, asignadas, delegadas y enviadas en un solo lugar. Aquí puede filtrar y organizar sus aprobaciones, tomar decisiones y delegar aprobaciones según sea necesario.
 
@@ -35,7 +38,7 @@ El widget Mis aprobaciones admite aprobaciones de los siguientes objetos de Work
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td> <p>Cualquiera</p> </td> 
   </tr> 
   <tr> 
@@ -70,9 +73,16 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
    >Las aprobaciones asignadas a roles o grupos de trabajos no se muestran en Inicio. Las aprobaciones asignadas a los equipos se muestran en el widget Mis aprobaciones para cada miembro del equipo.
 
 
+1. <span class="preview">(Condicional) Haga clic en el menú desplegable **Ordenar** y, a continuación, seleccione **Más recientes primero** para ver las aprobaciones agregadas más recientemente.</span>
+
+
+1. <span class="preview">(Opcional) Haga clic en el icono de pantalla completa ![Icono de pantalla completa](assets/full-screen.png) para abrir el widget Mis aprobaciones en pantalla completa.</span>
+
 1. Seleccione el elemento en el que desea tomar una decisión de aprobación.
 
    ![Widget de mis aprobaciones](assets/my-approvals-widget.png)
+
+   <!--update screenshot after production release-->
 
 1. Haga clic en una de las opciones disponibles al tomar una decisión de aprobación en el panel derecho. Las siguientes opciones se muestran en la esquina superior derecha de la página, según el tipo de elemento que apruebe:
 
