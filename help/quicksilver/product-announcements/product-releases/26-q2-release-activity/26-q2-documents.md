@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 095aa9fe-600a-48cd-a907-2e8d93939bf0
-source-git-commit: 34f367e1bd1aa0c75433f2f59baf4efc1284e61b
+source-git-commit: b334e8b234c9c87dd1b1ecd26df6645b3381ffb0
 workflow-type: tm+mt
-source-wordcount: '550'
+source-wordcount: '713'
 ht-degree: 14%
 
 ---
@@ -20,12 +20,44 @@ Esta página describe las mejoras realizadas en los documentos con la versión d
 
 Para obtener una lista de todos los cambios disponibles en este punto del ciclo de la versión del segundo trimestre de 2026, consulte [Información general de la versión del segundo trimestre de 2026](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md).
 
-## Revisión unificada y aprobaciones con tecnología Workfront y Frame.io
+## Aprovisionamiento de GenStudio Foundations habilitado para admitir colaboradores de IA
 
+>[!NOTE]
+>
+>Vista previa: 31 de marzo de 2026
+>Versión rápida de producción: miércoles, 31 de marzo de 2026
+>Producción para todos: miércoles, 31 de marzo de 2026
+
+El 31 de marzo de 2026, todos los clientes de Workfront se aprovisionaron para GenStudio Foundation y los administradores del sistema de Admin Console habrán recibido un correo electrónico que les informará de esta adición. Este producto se proporciona únicamente para que los clientes de Workfront puedan proporcionar a las marcas acceso a los clientes de Workfront según sea necesario para el lanzamiento de los colaboradores de IA. El producto en sí es solo un mecanismo de acceso para marcas y no hay ninguna funcionalidad adicional disponible en el producto GenStudio Foundation.
+
+No se cobrará a los clientes por este nuevo producto.
+
+## Mis actualizaciones del widget de aprobación
+
+>[!NOTE]
+>
+>Vista previa: 2 de abril de 2026
+>Versión rápida de producción: jueves, 15 de abril de 2026
+>Producción para todos: viernes, 16 de abril de 2026
+
+Hemos añadido las siguientes mejoras al widget Mis aprobaciones en Inicio:
+
+* Ordene la lista de aprobaciones por las fechas más antiguas o más recientes
+* Expanda el widget a pantalla completa
+
+Para obtener más información, consulte [Administrar las aprobaciones con el widget Mis aprobaciones](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-approvals-widget.md).
+
+## Revisión unificada y aprobaciones con tecnología Workfront y Frame.io
 
 >[!IMPORTANT]
 >
 >Esta nueva funcionalidad está disponible para los clientes nuevos netos y para los clientes existentes tras la renovación.
+
+>[!NOTE]
+>
+>Vista previa: 12 de marzo de 2026
+>Versión rápida de producción: jueves, 15 de abril de 2026
+>Producción para todos: viernes, 16 de abril de 2026
 
 
 Nos complace presentar Unified Review &amp; Approval con tecnología Workfront y Frame.io, una experiencia optimizada de revisión y aprobación.

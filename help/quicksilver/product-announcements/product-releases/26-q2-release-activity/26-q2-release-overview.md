@@ -5,10 +5,12 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7e440fc0-45ad-4f73-ae7e-5374e4ae1480
-source-git-commit: 0cd80741d5c92bf633b4d4becefa1b64d5f5d938
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: b334e8b234c9c87dd1b1ecd26df6645b3381ffb0
 workflow-type: tm+mt
-source-wordcount: '1496'
-ht-degree: 35%
+source-wordcount: '2228'
+ht-degree: 25%
 
 ---
 
@@ -18,10 +20,7 @@ Esta página proporciona información sobre la funcionalidad que se incluye en l
 
 Las mejoras de esta página están disponibles en el entorno de vista previa. Esta página se actualizará con mejoras adicionales a medida que la versión del segundo trimestre de 2026 se aproxime a su versión de producción planificada.
 
-
-<!-- Keep commented until Final Preview release.
-
-The <add release> release webinar will be held on <date>. You can [register for the webinar here <get link from product ops>. -->
+Se celebran seminarios web en directo para cada versión trimestral, en los que se destacan las nuevas funciones y se proporciona información detallada. Para registrarse, visite la [página de eventos](https://experienceleague.adobe.com/en/events?filters=Workfront) y filtre por Workfront.
 
 >[!IMPORTANT]
 >
@@ -30,7 +29,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
 >
 >| Versión mensual | Versión trimestral |
 >|----|----|
->| <ul><li>26.2 (12 de febrero de 2026)</li><li>26.3 (12 de marzo de 2026)</li><li>26.4 (15 de abril de 2026)</li></ul> | <ul><li>26.1 (16 de abril de 2026)</li></ul> |
+>| <ul><li>26.2 (12 de febrero de 2026)</li><li>26.3 (12 de marzo de 2026)</li><li>26.4 (15 de abril de 2026)</li></ul> | <ul><li>26.4 (16 de abril de 2026)</li></ul> |
 >
 >Tenga en cuenta que, para la versión final de cada trimestre (26.4 este trimestre), los usuarios con la programación de versiones rápidas recibirán la versión un día antes (15 de abril de 2026).
 >
@@ -40,6 +39,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
 
 * [Mejoras en el administrador](#administrator-enhancements)
 * [Mejoras de documento](#document-enhancements)
+* [Mejoras de operaciones empresariales](#enterprise-operations-enhancements)
 * [Mejoras en los proyectos](#project-enhancements)
 * [Mejoras en la creación de informes](#reporting-enhancements)
 * [Solicitud de mejoras](#requesting-enhancements)
@@ -58,6 +58,14 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td><strong>Versión rápida</strong></td>
         <td><strong>Trimestralmente</strong></td>
         </tr>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Colaboradores de IA ya disponibles</a><p>Para facilitarle las ventajas de la IA en su trabajo diario, hemos creado AI Collaborators.  Los colaboradores de IA son una forma de incorporar agentes de IA en sus proyectos y tareas. Puede configurar un colaborador de IA con directrices de marca y, a continuación, asignarlo a una tarea como lo haría con un usuario.</p>
+        </td>
+        <td><p>viernes, 02 de abril de 2026</p></td>
+        <td><p>jueves, 15 de abril de 2026</p></td>
+        <td><p>viernes, 16 de abril de 2026</p></td>
+    </tr>
     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Trimestres personalizados eliminados de las preferencias del proyecto</a><p>Hemos movido el área Trimestre personalizado de la sección Preferencias de proyecto. Ahora es una sección independiente en Configuración.</p>
@@ -126,6 +134,24 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td><strong>Trimestralmente</strong></td>
     <tr>
         <td>
+            Se habilitó el aprovisionamiento de <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-documents.md" class="MCXref xref" xrefformat="{para}">GenStudio Foundations para admitir colaboradores de IA </a><p></p>
+            <p>El 31 de marzo de 2026, todos los clientes de Workfront se aprovisionaron para GenStudio Foundation y los administradores del sistema de Admin Console habrán recibido un correo electrónico que les informará de esta adición. Este producto se proporciona únicamente para que los clientes de Workfront puedan proporcionar a las marcas acceso a los clientes de Workfront según sea necesario para el lanzamiento de los colaboradores de IA. El producto en sí es solo un mecanismo de acceso para marcas y no hay ninguna funcionalidad adicional disponible en el producto GenStudio Foundation.</p><p>No se cobrará a los clientes por este nuevo producto.</p>
+        </td>
+        <td><p>miércoles, 31 de marzo de 2026</p></td>
+        <td><p>miércoles, 31 de marzo de 2026</p></td>
+        <td><p>miércoles, 31 de marzo de 2026</p></td>
+    </tr>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-documents.md" class="MCXref xref" xrefformat="{para}">Mis actualizaciones del widget de aprobación </a><p></p>
+            <p>Hemos añadido las siguientes mejoras al widget Mis aprobaciones en Inicio:<ul><li>Ordene la lista de aprobaciones por las fechas más antiguas o más recientes</li><li>Expanda el widget a pantalla completa</li><ul> </p>
+        </td>
+        <td><p>viernes, 02 de abril de 2026</p></td>
+        <td><p>jueves, 15 de abril de 2026</p></td>
+        <td><p>viernes, 16 de abril de 2026</p></td>
+    </tr>
+    <tr>
+        <td>
             <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-documents.md" class="MCXref xref" xrefformat="{para}">Revisión y aprobación unificadas con tecnología Workfront y Frame.io</a><p></p>
             <p>Nos complace presentar Unified Review &amp; Approval con tecnología Workfront y Frame.io, una experiencia optimizada de revisión y aprobación que aúna la planificación, la revisión y la colaboración en un único flujo de trabajo conectado.
  </p>
@@ -155,6 +181,30 @@ The <add release> release webinar will be held on <date>. You can [register for 
              </tbody>
         </table>
 
+### Mejoras de operaciones empresariales
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 25%;" />
+            <tbody>
+               <tr>
+        <td><strong>Característica</strong>
+        </td>
+        <td><strong>Vista previa</strong></td>
+        <td><strong>Versión rápida</strong></td>
+        <td><strong>Trimestralmente</strong></td>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-enterprise-operations-enhancements.md" class="MCXref xref" xrefformat="{para}">Funciones de operaciones empresariales ahora disponibles en Adobe Workfront</a><p></p>
+            <p>Las funciones avanzadas de operaciones empresariales de Adobe Workfront son una forma unificada y escalable de administrar las finanzas, los proyectos y el acceso empresarial. Estas capacidades proporcionan la visibilidad y el control que las empresas necesitan para operar de manera rentable y eficiente.</p><p>Estas funciones incluyen las siguientes actualizaciones:<ul><li>Administración financiera avanzada: incluye atributos de tasa, tarjetas de tasa, una experiencia de asignaciones avanzadas rediseñada, tasas de cambio efectivas en la fecha y funciones avanzadas adicionales</li><li>Seguimiento de datos históricos: incluidas las instantáneas de proyectos</li><li>Permisos empresariales: incluidos perfiles empresariales y tarifas de facturación y costes independientes en niveles de acceso y permisos de objetos</li><li>Mejoras en los campos y formularios personalizados, incluidos nuevos tipos de lógica avanzada, una configuración de tipo de permiso Finanzas en campos con formato de moneda, la capacidad de agregar formularios personalizados a más objetos y mejoras en la interfaz del diseñador de formularios</li><li>Mejoras en la plantilla de diseño: se incluye la personalización de los encabezados y los menús de navegación de la izquierda de más objetos, actualizaciones de las opciones del menú principal en las plantillas de diseño y la personalización del menú Más</li><li>Localización personalizada: incluye la capacidad de definir términos y frases personalizados en diferentes idiomas.</li><li>Mejoras en Business Rules: incluida la capacidad de automatizar acciones para el objeto creado, editado o modificado cuando se cumplen determinadas condiciones</li></ul></p>
+ </p>
+        </td>
+        <td><p>viernes, 02 de abril de 2026</p></td>
+        <td><p>jueves, 15 de abril de 2026</p></td>
+        <td><p>viernes, 16 de abril de 2026</p></td>
+    </tr>
+              </tbody>
+        </table>
 
 ### Mejoras en los proyectos
 
@@ -200,6 +250,24 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td><strong>Versión rápida</strong></td>
         <td><strong>Trimestralmente</strong></td>
         </tr>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-reports.md" class="MCXref xref" xrefformat="{para}">Ejecutar informes como un usuario específico en paneles de lienzo</a><p></p>
+            <p>Ahora puede configurar informes en paneles de lienzo para que se ejecuten como un usuario específico. Cuando se habilita, el informe muestra datos en función del acceso del usuario seleccionado en lugar de los permisos del visor.</p>
+        </td>
+        <td><p>viernes, 02 de abril de 2026</p></td>
+        <td><p>jueves, 15 de abril de 2026</p></td>
+        <td><p>viernes, 16 de abril de 2026</p></td>
+    </tr>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-reports.md" class="MCXref xref" xrefformat="{para}">La Entrega Programada De Informes Ahora Admite Correos Electrónicos Basados En Vínculos</a><p></p>
+            <p>Workfront ahora incluye un nuevo tipo de envío de vínculo para los informes programados. En lugar de generar y adjuntar un archivo, esta opción envía un correo electrónico con un vínculo directo al informe en Workfront, lo que permite a los destinatarios ver los datos más actuales en la aplicación.</p>
+        </td>
+        <td><p>viernes, 02 de abril de 2026</p></td>
+        <td><p>jueves, 15 de abril de 2026</p></td>
+        <td><p>viernes, 16 de abril de 2026</p></td>
+    </tr>
     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-reports.md" class="MCXref xref" xrefformat="{para}">Nuevas opciones de autenticación para la conexión de conexión de datos</a><p></p>
@@ -253,6 +321,15 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td><strong>Trimestralmente</strong></td>
     <tr>
         <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-requests.md" class="MCXref xref" xrefformat="{para}">Mejoras en la visibilidad del objeto creado en las listas de solicitudes </a><p></p>
+            <p>Ahora puede ver y abrir tareas y proyectos convertidos a partir de problemas de Workfront en la nueva experiencia de solicitudes, desde el campo Objeto creado.</p><p>Además, se ha añadido el campo Estado del objeto creado para indicar el estado del objeto convertido. </p>
+        </td>
+           <td><p>viernes, 02 de abril de 2026</p></td>
+        <td><p>jueves, 15 de abril de 2026</p></td>
+        <td><p>viernes, 16 de abril de 2026</p></td>
+ </tr>
+    <tr>
+        <td>
             <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-requests.md" class="MCXref xref" xrefformat="{para}">Se ha actualizado la experiencia para compartir vistas mejoradas</a><p></p>
             <p>En el área Nuevas solicitudes, cuando comparte una vista mejorada con un usuario y le concede permisos de Vista, el usuario puede modificar los elementos de vista y esos cambios se guardan en las preferencias personales del usuario. Ahora tienen la opción de guardar una copia de la vista que incluye sus cambios o restablecer la vista compartida a su configuración original. Además, pueden compartir la vista copiada con otros usuarios. </p>
         </td>
@@ -275,6 +352,33 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td><strong>Vista previa</strong></td>
         <td><strong>Versión rápida</strong></td>
         <td><strong>Trimestralmente</strong></td>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-other.md" class="MCXref xref" xrefformat="{para}">Aplicar formato condicional a las listas de solicitudes enviadas en el área Solicitudes y el widget Mis solicitudes</a><p></p>
+            <p>Ahora puede aplicar formato condicional a las listas de solicitudes en el área Solicitudes y al widget Mis solicitudes en Inicio. Esta funcionalidad no existía en la vista de lista antes de esta mejora.</p>
+        </td>
+           <td><p>viernes, 02 de abril de 2026</p></td>
+        <td><p>jueves, 15 de abril de 2026</p></td>
+        <td><p>viernes, 16 de abril de 2026</p></td>
+ </tr>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-other.md" class="MCXref xref" xrefformat="{para}">Se agregaron vistas predefinidas a la lista de solicitudes en el área de solicitudes y al widget Mis solicitudes </a><p></p>
+            <p>Para ayudarle a organizar mejor su lista de solicitudes, hemos agregado vistas predefinidas a la lista de solicitudes en el área de Solicitudes y al widget Mis solicitudes en Inicio.</p>
+        </td>
+           <td><p>viernes, 02 de abril de 2026</p></td>
+        <td><p>jueves, 15 de abril de 2026</p></td>
+        <td><p>viernes, 16 de abril de 2026</p></td>
+ </tr>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-other.md" class="MCXref xref" xrefformat="{para}">Crear agrupaciones en la lista de solicitudes y el widget Mis solicitudes </a><p></p>
+            <p>Para facilitarle la búsqueda de las solicitudes que necesita, hemos agregado agrupaciones a la lista de solicitudes y al widget Mis solicitudes. Ahora puede agrupar las solicitudes por cualquier columna de la lista. Estas agrupaciones pasan a formar parte de la vista que está utilizando al crear la agrupación.</p>
+        </td>
+           <td><p>viernes, 02 de abril de 2026</p></td>
+        <td><p>jueves, 15 de abril de 2026</p></td>
+        <td><p>viernes, 16 de abril de 2026</p></td>
+ </tr>
     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-other.md" class="MCXref xref" xrefformat="{para}">Adobe Unified Experience ya está disponible para más organizaciones de Workfront</a><p></p>

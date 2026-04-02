@@ -7,10 +7,12 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 79d4ad4a-1dd0-431e-92cd-582b5a1b7ec8
-source-git-commit: fa4d8132cecd51b93f26c28803535a84bebad137
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 64ee7798e79324af0ab48af91f49d04d94ece3a9
 workflow-type: tm+mt
-source-wordcount: '1248'
-ht-degree: 15%
+source-wordcount: '1882'
+ht-degree: 14%
 
 ---
 
@@ -21,6 +23,138 @@ Este artículo describe las funciones que se lanzarán para Workfront Planning d
 <!--keep the sentence below for all future quarterly release pages-->
 
 Para obtener una lista de todas las características publicadas para Adobe Workfront Planning, consulte [Actividad de la versión de Adobe Workfront Planning: índice de artículo](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+
+
+## Nueva capacidad para aumentar el alto de fila para la vista de lista
+
+>[!NOTE]
+>
+>Vista previa: 2 de abril de 2026
+>Versión rápida de producción: jueves, 15 de abril de 2026
+>Producción para todos: viernes, 16 de abril de 2026
+
+Se ha añadido una nueva configuración para ajustar el alto de la fila en la vista de lista.
+
+Para obtener más información, consulte Administrar la vista de lista (help/quicksilver/planning/views/manage-the-list-view.md).
+
+Para obtener más información, consulte [Administrar la vista de lista](/help/quicksilver/planning/views/manage-the-list-view.md).
+
+## Agregar el nombre del tipo de registro y el icono de vista a las vistas compartidas públicamente
+
+>[!NOTE]
+>
+>Vista previa: 2 de abril de 2026
+>Versión rápida de producción: jueves, 15 de abril de 2026
+>Producción para todos: viernes, 16 de abril de 2026
+
+Para garantizar que los destinatarios siempre comprendan qué vista recibieron cuando abrieron un vínculo compartido públicamente a un tipo de registro, se ha agregado el nombre del tipo de registro a la página de vista compartida, además del icono de vista y el nombre de la vista.
+
+Para obtener más información, consulte [Compartir vistas](/help/quicksilver/planning/access/share-views.md)
+
+## Nueva funcionalidad de agrupación agregada a la lista Formularios de solicitud
+
+>[!NOTE]
+>
+>Vista previa: 2 de abril de 2026
+>Versión rápida de producción: jueves, 15 de abril de 2026
+>Producción para todos: viernes, 16 de abril de 2026
+
+Para ayudarle a organizar mejor la información, hemos agregado la capacidad de agrupar elementos en la página Formularios de solicitud de un tipo de registro.
+
+Antes de esta mejora, esta funcionalidad no existía en esta área.
+
+Para obtener más información, consulte [Administrar la vista de lista](/help/quicksilver/planning/views/manage-the-list-view.md).
+
+## Expandir la lista de entidades compartidas para mostrar los usuarios
+
+>[!NOTE]
+>
+>Vista previa: 2 de abril de 2026
+>Versión rápida de producción: jueves, 15 de abril de 2026
+>Producción para todos: viernes, 16 de abril de 2026
+
+Ahora puede expandir grupos, equipos, compañías y roles para ver sus miembros cuando comparta un área de trabajo o una vista con ellos. Antes de esta mejora, las listas de miembros estaban disponibles para estos objetos solo cuando se compartían tipos de registros.
+
+Para obtener más información, vea [Compartir espacios de trabajo](/help/quicksilver/planning/access/share-workspaces.md).
+
+## Plantilla de prácticas recomendadas para varios espacios de trabajo para la implementación de Workfront Planning
+
+>[!NOTE]
+>
+>Vista previa: 2 de abril de 2026
+>Versión rápida de producción: jueves, 15 de abril de 2026
+>Producción para todos: viernes, 16 de abril de 2026
+
+Presentamos un paquete de plantillas para ayudarle a optimizar la implementación de Workfront Planning en su organización. Al instalar la plantilla del marco de prácticas recomendadas, puede crear hasta seis espacios de trabajo que contengan toda la información necesaria para empezar a mover la planificación estratégica en Workfront.
+
+La plantilla de varios espacios de trabajo contiene una plantilla global que establece los tipos de registro principales que puede utilizar en cualquier espacio de trabajo personalizado que haya creado. Además, la plantilla incluye 5 espacios de trabajo más que puede utilizar como ejemplos y que están interconectados entre sí y con otros objetos de Workfront.
+
+Para obtener más información, consulte [Creación de espacios de trabajo](/help/quicksilver/planning/architecture/create-workspaces.md).
+
+>[!NOTE]
+>
+> Esta mejora solo está disponible para clientes con un paquete Prime o superior.
+
+## Búsqueda global de objetos de Workfront Planning desde cualquier página de Workfront Planning
+
+>[!NOTE]
+>
+>Vista previa: 2 de abril de 2026
+>Versión rápida de producción: jueves, 15 de abril de 2026
+>Producción para todos: viernes, 16 de abril de 2026
+
+Ahora puede buscar espacios de trabajo, tipos de registro o vistas desde cualquier página de Workfront Planning mediante las siguientes combinaciones de teclas desde cualquier página de Planning:
+
+* CTRL+K para Windows
+* ⌘+K para Mac
+
+También puede buscar espacios de trabajo, tipos de registros o vistas desde el nuevo cuadro de búsqueda agregado a la página de aterrizaje de Planning.
+
+Para obtener más información, consulte [Edición de espacios de trabajo](/help/quicksilver/planning/architecture/edit-workspaces.md).
+
+## Aplicar formato condicional adicional a una lista de proyectos de la página conectada de un registro
+
+>[!NOTE]
+>
+>Vista previa: 2 de abril de 2026
+>Versión rápida de producción: jueves, 15 de abril de 2026
+>Producción para todos: viernes, 16 de abril de 2026
+
+Ahora puede aplicar formato condicional adicional a una lista de proyectos de la página conectada de un registro.
+
+Las nuevas funciones de formato condicional incluyen lo siguiente:
+
+* Añadir color al texto
+
+* Poner el texto en negrita o en cursiva en una celda
+
+* Posibilidad de aplicar el formato condicional a toda una fila
+
+Antes de esta mejora, solo existía la capacidad de añadir color al fondo de una celda.
+
+Para obtener más información, consulte [Administrar la vista de lista](/help/quicksilver/planning/views/manage-the-list-view.md).
+
+## Se han añadido nombres personalizados para los filtros en la vista de lista
+
+>[!NOTE]
+>
+>Vista previa: 2 de abril de 2026
+>Versión rápida de producción: jueves, 15 de abril de 2026
+>Producción para todos: viernes, 16 de abril de 2026
+
+Se han agregado los siguientes nombres personalizados para un filtro de equipo, grupo, compañía y función en la vista de lista:
+
+* Mi equipo local, Mis equipos
+
+* Mi grupo de inicio, Mis grupos
+
+* Mi función principal, Mis funciones
+
+* Mi compañía
+
+Los campos deben existir en los objetos mostrados en la vista para que las opciones de filtro sean visibles.
+
+Para obtener más información, consulte [Administrar la vista de lista](/help/quicksilver/planning/views/manage-the-list-view.md).
 
 ## Rediseño de ruta
 
