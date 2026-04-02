@@ -5,9 +5,11 @@ description: Las listas mejoradas utilizan un formato de tabla para mostrar los 
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 4c25ed54-b147-4fd3-8d00-6f1ba61bbd38
-source-git-commit: a9cc76139c0f542e4b27e8e3591a40bf626342f4
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: f4d7484145226eb85bc547e582438e5202dec023
 workflow-type: tm+mt
-source-wordcount: '2350'
+source-wordcount: '2913'
 ht-degree: 3%
 
 ---
@@ -63,6 +65,12 @@ A continuación se muestran algunos tipos de listas de objetos de Workfront que 
 | Lista de solicitudes | <ul><li>Solicitudes (solo nueva experiencia)</li><li>Widget de Mis solicitudes en Inicio</li></ul> |
 | Listas de estados, prioridades, gravedades y tasas de cambio en Configuración | <ul><li>Configuración > Preferencias de proyecto > Estados</li><li>Configuración > Preferencias del proyecto > Prioridades</li><li>Configuración > Preferencias del proyecto > Gravedades</li><li>Configuración > Preferencias del proyecto > Tasas de cambio</li></ul> |
 | <span class="preview">Lista de informes</span> | <span class="preview">Informes (**Usar carpetas compartibles** debe estar activado)</span> |
+| <span class="preview">Lista de roles y tarifas en la instalación</span> | <span class="preview">Configuración > Tarjetas de tarifas > seleccione una tarjeta de tarifas > Funciones del puesto y tarifas</span> |
+| <span class="preview">Lista de traducciones</span> | <span class="preview">Configuración > Localización</span> |
+| <span class="preview">Lista de instantáneas</span> | <span class="preview">Proyecto > Instantáneas</span> |
+| <span class="preview">Lista de recursos para facturación</span> | <span class="preview">Proyecto > Recurso de facturación</span> |
+| <span class="preview">Nuevas asignaciones avanzadas en una tarea</span> | <span class="preview">Tarea > Asignaciones > Avanzadas </span> |
+
 
 ## Agregar elementos a una lista mejorada
 
@@ -110,6 +118,9 @@ Puede utilizar la barra de acciones de una lista mejorada para editar los elemen
    * Ver
    * Editar
    * Eliminar
+   * Copiar
+   * Mover a la carpeta
+   * Compartir
 
    Si no hay acciones disponibles para el elemento seleccionado, la barra de acciones muestra &quot;No hay acciones disponibles&quot;.
 
@@ -178,15 +189,33 @@ Para agregar y quitar columnas:
 
    La lista actualiza las columnas según las opciones que haya realizado.
 
+<div class="preview">
+
+### Cambiar el alto de fila en una vista
+
+>[!NOTE]
+>
+>No todas las listas mejoradas tienen todos los elementos descritos en esta sección.
+
+1. Haga clic en el icono **Alto de fila** ![Icono de alto de fila](assets/row-height-icon.png) en una lista mejorada.
+
+   Esto actualiza la longitud vertical de una fila. Elija entre las siguientes opciones:
+   * Baja
+   * Estándar. Esta es la opción predeterminada.
+   * Media
+   * Alta
+
+</div>
+
 ## Actualizar elementos de lista mejorados
 
 Los siguientes elementos son componentes de una lista mejorada:
 
-* Ver: define las columnas, los filtros y las agrupaciones de la lista con ajustes preestablecidos
-* Filtros: Limita la cantidad de información mostrada en la lista
-* Agrupaciones: organizar las listas de elementos según campos comunes
-* Ordenar: organiza los elementos de una lista según el orden que identifique para un campo determinado
-* Buscar: Encuentra rápidamente un elemento mediante la palabra clave de búsqueda
+* **Vista**: define las columnas, filtros y agrupaciones de la lista con ajustes preestablecidos
+* **Filtros**: Limita la cantidad de información mostrada en la lista
+* **Agrupaciones**: organice los elementos de la lista según campos comunes
+* **Ordenar**: organiza los elementos de una lista según el orden que identifique para un campo determinado
+* **Buscar**: Encuentra rápidamente un elemento usando una palabra clave de búsqueda
 
 ### Aplicación y creación de vistas
 
@@ -208,102 +237,6 @@ Para aplicar o crear una vista:
 1. (Opcional) Agrupe los elementos de la lista. Para obtener más información, consulte [Elementos de grupo en una lista mejorada](#group-items-in-an-enhanced-list).
 
    Los cambios en las vistas se guardan automáticamente. La próxima vez que aplique esta vista, la configuración de columna y filtro seguirá siendo la misma que la establecida.
-
-### Filtrar elementos en una lista mejorada
-
->[!NOTE]
->
->No todas las listas mejoradas tienen todos los elementos descritos en esta sección.
-
-Los filtros le ayudan a reducir la cantidad de información que se muestra en la lista.
-
-1. Haga clic en **Filtro** sobre la lista.
-1. En el cuadro Filtro, haga clic en **Agregar condición**.
-1. Seleccione un campo por el que filtrar.
-1. Seleccione un modificador de filtro, como &quot;Tiene cualquiera de&quot;, &quot;No tiene ninguno de&quot;, &quot;Es anterior a&quot; o &quot;Es posterior a&quot;. Las opciones del modificador son diferentes según el tipo de campo por el que esté filtrando.
-1. Seleccione el valor o los valores del campo. Según el tipo de campo por el que filtre, se le puede pedir que seleccione el elemento de una lista, lo busque o utilice un calendario para seleccionar un intervalo de fechas.
-
-   ![Filtrar en listas mejoradas](assets/glist-filter-with-options.png)
-
-   El filtro se aplica automáticamente a la lista.
-
-   >[!TIP]
-   >
-   >Para aplicar un comodín de usuario actual, seleccione **Me (usuario conectado)** como valor de campo. El filtro se aplica al usuario que está viendo la lista. Este comodín está disponible en campos donde el valor es un usuario.
-
-1. Haga clic en **Agregar condición** para agregar otra condición al filtro.
-
-   Puede unir varios filtros mediante un conector AND u OR.
-
-1. Cuando se aplique el filtro, puede volver a abrir las opciones de **Filter** para cambiar las opciones de filtro o borrar todos los filtros.
-
-   Aparece un indicador en el botón **Filter** cuando se aplica un filtro a la lista.
-
-   ![Indicador de filtro aplicado](assets/glist-filter-applied-indicator.png)
-
-### Agrupar elementos en una lista mejorada
-
->[!NOTE]
->
->No todas las listas mejoradas tienen todos los elementos descritos en esta sección.
-
-Las agrupaciones separan los objetos de la lista en áreas basadas en criterios específicos.
-
-Workfront proporciona un número limitado de agrupaciones predefinidas y no puede modificarlas.
-
-1. Haga clic en **Grupo** sobre la lista.
-1. Seleccione una agrupación para organizar la lista.
-
-   ![Seleccionar una agrupación](assets/glist-grouping-choose-a-group-by.png)
-
-1. Haga clic en **Contraer todo** para mostrar la lista con todas las agrupaciones contraídas. La opción predeterminada es mostrar la lista con todas las agrupaciones expandidas.
-1. Cuando se aplique la agrupación, puede volver a abrir las opciones de Grupo para contraer o expandir todas las agrupaciones a la vez, cambiar la agrupación para agruparla por un campo diferente o borrar todas las agrupaciones.
-
-   ![Agrupación en listas mejoradas](assets/glist-group-by-due-date-priorities.png)
-
-   Aparece un indicador en el botón **Grupo** cuando se aplica una agrupación a la lista.
-
-   ![Indicador aplicado de agrupación](assets/glist-grouping-applied-indicator.png)
-
-### Ordenar en una lista mejorada
-
->[!NOTE]
->
->No todas las listas mejoradas tienen todos los elementos descritos en esta sección.
-
-Para ordenar columnas individuales:
-
-1. Pase el ratón sobre la columna, luego haga clic en la flecha abajo y seleccione **Ordenar**.
-
-   Un icono junto al nombre de una columna indica que la lista está ordenada por los valores de esa columna y la dirección de la ordenación.
-
-   >[!NOTE]
-   >
-   >Es posible que algunas columnas no se puedan ordenar, según la lista.
-
-   ![Ordenar por una columna](assets/glist-sort-by-column.png)
-
-1. (Opcional) Para ordenar su trabajo dentro de una agrupación, haga clic en **Grupo**, vaya a la línea de la agrupación aplicada, haga clic en el menú desplegable del clasificador y seleccione un orden ascendente o descendente.
-
-   ![Ordenar en una agrupación](assets/sort-in-groups.png)
-
-   >[!TIP]
-   >
-   >El orden de clasificación difiere según el tipo de campo por el que ordene.
-
-### Búsqueda en una lista mejorada
-
->[!NOTE]
->
->No todas las listas mejoradas tienen todos los elementos descritos en esta sección.
-
-1. escriba la palabra clave por la que desee buscar en el cuadro Buscar de la esquina superior derecha de la lista. Los resultados se resaltan en la lista a medida que escribe.
-
-   ![Término de búsqueda resaltado](assets/glist-search-highlighted.png)
-
-   >[!NOTE]
-   >
-   >La búsqueda busca en todas las columnas de todos los elementos de la lista. Si la lista es larga, la búsqueda incluye elementos que es posible que tenga que desplazarse para ver. Cuando se filtra la lista, la búsqueda solo observa lo que se muestra actualmente.
 
 ### Compartir una vista
 
@@ -381,3 +314,165 @@ Cuando se comparte con usted una vista para la que no tiene permiso de edición 
    ![Copiar y restablecer opciones de vista](assets/glist-copy-view-shared-with-you.png)
 
 </div>
+
+<div class="preview">
+
+### Aplicar formato condicional en una vista
+
+>[!NOTE]
+>
+>No todas las listas mejoradas tienen todos los elementos descritos en esta sección.
+
+El formato condicional le ayuda a resaltar información importante en la vista en función de criterios comunes.
+
+1. Haga clic en el icono **Formato de celdas** ![Formato de celdas](assets/format-cells-icon.png). Se abre el cuadro **Formato**.
+
+1. Haga clic en **Agregar condición**.
+1. En la línea **If**, seleccione un campo, elija un valor de campo y agregue un modificador. Los modificadores cambian según el tipo de campo elegido.
+
+   >[!TIP]
+   >
+   >Solo los campos visibles en la lista mejorada están disponibles para el formato condicional.
+
+1. (Opcional) En lugar de agregar un valor de campo, haga clic en el icono **Comparar con otro campo** ![Comparar con otro campo](assets/compare-to-another-field-icon.png) y elija un campo cuyo valor desee comparar con el valor del campo seleccionado. Por ejemplo, puede comparar los campos Asunto y Descripción en los elementos de solicitud.
+
+   >[!TIP]
+   >
+   >Solo los campos visibles en la vista de lista están disponibles para el formato condicional. Los campos que compare deben ser del mismo tipo.
+
+1. (Opcional) Haga clic en **Agregar condición** en la línea **If** para agregar más condiciones a la misma regla.
+
+   >[!TIP]
+   >
+   >Puede agregar hasta 10 condiciones en una regla de condicionamiento y hasta 20 reglas para un campo.
+
+1. Haga clic en el conector **Or** entre condiciones para cambiar a **And** e indicar que se deben cumplir varias condiciones al mismo tiempo. **Or** es el conector predeterminado.
+1. En la línea **Format**, seleccione un campo para indicar a qué columna se dará formato.
+1. (Opcional) Haga clic en el icono **círculo de color** ![Icono de formato de color](assets/color-format-icon.png) junto al campo seleccionado, para expandirlo y elegir otro color en el área **Relleno de celda** para cambiar el color del fondo de una celda o elegir un color del área **Color de texto** para cambiar el color del texto en una celda.
+1. Haga clic en el icono **Formato de texto** ![Icono de formato de texto](assets/text-format-icon.png) y seleccione una de las siguientes opciones para dar formato al texto en una celda:
+   * Negrita
+   * Cursiva
+
+1. Active la opción **Aplicar a fila** para aplicar el formato a toda la fila del campo que cumpla las condiciones.
+
+1. (Opcional) Haga clic en **Agregar condición** en el cuadro **Formato** para agregar otra regla para otro campo y, a continuación, repita los pasos anteriores.
+1. (Opcional) Haga clic en **Borrar todo** para quitar todo el formato.
+1. Haga clic fuera del cuadro **Formato** para cerrarlo.
+
+   Esto le devuelve a la vista de lista.
+El formato se aplica inmediatamente a la vista de lista.
+Hay un punto azul al lado del icono **Formato de celdas** para indicar que la vista tiene un formato especial aplicado.
+
+</div>
+
+### Filtrar elementos en una lista mejorada
+
+>[!NOTE]
+>
+>No todas las listas mejoradas tienen todos los elementos descritos en esta sección.
+
+Los filtros le ayudan a reducir la cantidad de información que se muestra en la lista.
+
+1. Haga clic en **Filtro** sobre la lista.
+1. En el cuadro Filtro, haga clic en **Agregar condición**.
+1. Seleccione un campo por el que filtrar.
+1. Seleccione un modificador de filtro, como &quot;Tiene cualquiera de&quot;, &quot;No tiene ninguno de&quot;, &quot;Es anterior a&quot; o &quot;Es posterior a&quot;. Las opciones del modificador son diferentes según el tipo de campo por el que esté filtrando.
+1. Seleccione el valor o los valores del campo. Según el tipo de campo por el que filtre, se le puede pedir que seleccione el elemento de una lista, lo busque o utilice un calendario para seleccionar un intervalo de fechas.
+
+   ![Filtrar en listas mejoradas](assets/glist-filter-with-options.png)
+
+   El filtro se aplica automáticamente a la lista.
+
+   >[!TIP]
+   >
+   ><span class="preview">Para aplicar un filtro personalizado, seleccione una de las siguientes opciones para un valor de campo:</span>
+   >
+   ><div class="preview">
+   >
+   >* **Yo (usuario conectado)** para hacer referencia al usuario conectado en los campos que hacen referencia a los usuarios.
+   >
+   >* **Mis equipos** o **Mi equipo de inicio** para hacer referencia a sus equipos en campos que hacen referencia a equipos.
+   >
+   >* **Mis grupos** o **Mi grupo de inicio** para hacer referencia a sus grupos en campos que hacen referencia a grupos.
+   >
+   >* **Mi compañía** para hacer referencia a su compañía en campos que hacen referencia a compañías.
+   > 
+   >* **Mis roles** o **Mi rol principal** para hacer referencia a sus roles en los campos que hacen referencia a los roles.
+   >
+   ></div>
+
+1. Haga clic en **Agregar condición** para agregar otra condición al filtro.
+
+   Puede unir varios filtros mediante un conector AND u OR.
+
+1. Cuando se aplique el filtro, puede volver a abrir las opciones de **Filter** para cambiar las opciones de filtro o borrar todos los filtros.
+
+   Aparece un indicador en el botón **Filter** cuando se aplica un filtro a la lista.
+
+   ![Indicador de filtro aplicado](assets/glist-filter-applied-indicator.png)
+
+### Agrupar elementos en una lista mejorada
+
+>[!NOTE]
+>
+>No todas las listas mejoradas tienen todos los elementos descritos en esta sección.
+
+Las agrupaciones separan los objetos de la lista en áreas basadas en criterios específicos.
+
+Workfront proporciona un número limitado de agrupaciones predefinidas y no puede modificarlas.
+
+1. Haga clic en **Grupo** sobre la lista.
+1. Seleccione una agrupación para organizar la lista.
+
+   ![Seleccionar una agrupación](assets/glist-grouping-choose-a-group-by.png)
+
+1. Haga clic en **Contraer todo** para mostrar la lista con todas las agrupaciones contraídas. La opción predeterminada es mostrar la lista con todas las agrupaciones expandidas.
+1. Cuando se aplique la agrupación, puede volver a abrir las opciones de Grupo para contraer o expandir todas las agrupaciones a la vez, cambiar la agrupación para agruparla por un campo diferente o borrar todas las agrupaciones.
+
+   ![Agrupación en listas mejoradas](assets/glist-group-by-due-date-priorities.png)
+
+   Aparece un indicador en el botón **Grupo** cuando se aplica una agrupación a la lista.
+
+   ![Indicador aplicado de agrupación](assets/glist-grouping-applied-indicator.png)
+
+### Ordenar en una lista mejorada
+
+>[!NOTE]
+>
+>No todas las listas mejoradas tienen todos los elementos descritos en esta sección.
+
+Para ordenar columnas individuales:
+
+1. Pase el ratón sobre la columna, luego haga clic en la flecha abajo y seleccione **Ordenar**.
+
+   Un icono junto al nombre de una columna indica que la lista está ordenada por los valores de esa columna y la dirección de la ordenación.
+
+   >[!NOTE]
+   >
+   >Es posible que algunas columnas no se puedan ordenar, según la lista.
+
+   ![Ordenar por una columna](assets/glist-sort-by-column.png)
+
+1. (Opcional) Para ordenar su trabajo dentro de una agrupación, haga clic en **Grupo**, vaya a la línea de la agrupación aplicada, haga clic en el menú desplegable del clasificador y seleccione un orden ascendente o descendente.
+
+   ![Ordenar en una agrupación](assets/sort-in-groups.png)
+
+   >[!TIP]
+   >
+   >El orden de clasificación difiere según el tipo de campo por el que ordene.
+
+### Búsqueda en una lista mejorada
+
+>[!NOTE]
+>
+>No todas las listas mejoradas tienen todos los elementos descritos en esta sección.
+
+1. Escriba la palabra clave por la que desee buscar en el cuadro Buscar de la esquina superior derecha de la lista. Los resultados se resaltan en la lista a medida que escribe.
+
+   ![Término de búsqueda resaltado](assets/glist-search-highlighted.png)
+
+   >[!NOTE]
+   >
+   >La búsqueda busca en todas las columnas de todos los elementos de la lista. Si la lista es larga, la búsqueda incluye elementos que es posible que tenga que desplazarse para ver. Cuando se filtra la lista, la búsqueda solo observa lo que se muestra actualmente.
+
+

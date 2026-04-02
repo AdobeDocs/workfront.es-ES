@@ -5,9 +5,11 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 3769e96b-da6e-4af2-b885-c55cd4751bbd
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 442ddab8c7b92d52e0de699bb7acf99a5ca0f215
 workflow-type: tm+mt
-source-wordcount: '801'
+source-wordcount: '803'
 ht-degree: 12%
 
 ---
@@ -32,25 +34,25 @@ Vea [Vídeo de demostración sobre mejoras de prioridades](#priorities-enhanceme
 
 Utilice un lenguaje natural para filtrar rápidamente el trabajo en la lista de trabajos de Prioridades. Puede escribir cosas como
 
-* Mostrar las tareas atrasadas
-* Mostrar las tareas pendientes esta semana
+* Mostrarme las tareas atrasadas
+* Mostrar las tareas pendientes de esta semana
 * Mostrar prioridades principales
 
-Sólo disponible para instancias con IMS.
+Solo está disponible para instancias habilitadas para IMS.
 
-Para obtener más información, vea [Filtrar y agrupar su trabajo con Prioridades](/help/quicksilver/workfront-basics/priorities/filter-group-work-priorities.md).
+Para obtener más información, vea [Filtrar, agrupar y ordenar su trabajo con prioridades](/help/quicksilver/workfront-basics/priorities/filter-group-work-priorities.md).
 
 ## Ponerse al día con el trabajo en Prioridades
 
 >[!NOTE]
 >
->Versión preliminar: 20 de diciembre de 2024; Versión de producción para todos los clientes: con la versión 25.1 (16 de enero de 2025)
+>Versión de vista previa: 20 de diciembre de 2024; versión de producción para todos los clientes: con la versión 25.1 (16 de enero de 2025)
 >
->_Esta característica sólo está disponible para los clientes de la experiencia de Adobe unificado mediante el Asistente de IA._
+>_Esta característica solo está disponible para los clientes de Unified Adobe Experience que usen el Asistente para IA._
 
-Puede usar Catch me para ayudar a reducir la cantidad de tiempo que se necesita para buscar información sobre proyectos activos.
+Puede usar Ponerme al día para ayudar a reducir el tiempo que se tarda en buscar información sobre proyectos activos.
 
-Presentado por el Asistente de IA de Workfront, Catch me resume las actualizaciones, los documentos cargados y otros cambios notables sobre sus proyectos en los siguientes plazos: 24 horas, 3 días o 7 días.
+Con la tecnología del asistente de IA de Workfront, Catch me up resume las actualizaciones, los documentos cargados y otros cambios importantes sobre sus proyectos en los siguientes lapsos de tiempo: 24 horas, 3 días o 7 días.
 
 Para obtener más información, consulte [Ponerse al día con el trabajo en Prioridades](/help/quicksilver/workfront-basics/priorities/catch-me-up.md).
 
@@ -60,9 +62,9 @@ Para obtener más información, consulte [Ponerse al día con el trabajo en Prio
 >
 >Versión de vista previa: 19 de diciembre de 2024; versión de producción para todos los clientes: con la versión 25.1 (16 de enero de 2025)
 
-Ahora puede ver actualizaciones en tiempo real en la página Detalles de una tarea o un problema. También puede ver si otros están viendo la página al mismo tiempo que con indicadores de presencia en tiempo real.
+Ahora puede ver actualizaciones en tiempo real en la página Detalles de una tarea o un problema. También puede ver si otros usuarios están viendo la página al mismo tiempo que usted con indicadores de presencia en tiempo real.
 
-Para obtener más información, vea [Ver detalles del proyecto y de la tarea en la lista de trabajo Prioridades](/help/quicksilver/workfront-basics/priorities/view-task-project-details.md).
+Para obtener más información, vea [Ver detalles de proyectos y tareas en la lista de trabajo de prioridades](/help/quicksilver/workfront-basics/priorities/view-task-project-details.md).
 
 ## Carga y visualización de documentos y pruebas en Prioridades
 
@@ -74,25 +76,25 @@ Ahora puede interactuar con documentos y pruebas para tareas y problemas de la l
 
 * Cargar un documento
 * Crear una prueba
-* Iniciar el visor de pruebas
+* Iniciar el visor de revisión
 * Y más
 
-Para obtener más información, vea [Cargar documentos y crear pruebas en Prioridades](/help/quicksilver/workfront-basics/priorities/documents-and-proofs-priorities.md).
+Para obtener más información, consulte [Cargar documentos y crear pruebas en Prioridades](/help/quicksilver/workfront-basics/priorities/documents-and-proofs-priorities.md).
 
-## Vista de calendario disponible en Prioridades
+## La vista de calendario ya está disponible en Prioridades
 
 >[!NOTE]
 >
->Versión preliminar: 19 de diciembre de 2024; Versión de producción para todos los clientes: con la versión 25.1 (16 de enero de 2025)
+>Versión de vista previa: 19 de diciembre de 2024; versión de producción para todos los clientes: con la versión 25.1 (16 de enero de 2025)
 
-Ahora puede realizar un seguimiento de su trabajo con un calendario visual claro. Con el calendario Prioridades, puede
+Ahora puede realizar un seguimiento del trabajo con un calendario visual y claro. Con el calendario de Prioridades, puede
 
-* Utilizar filtros para buscar el trabajo
-* Aplicar campos personalizados como estado y nivel de enfoque para identificar trabajo de alta prioridad
-* Aplicar colores a la organización rápida
+* Utilice los filtros para encontrar su trabajo
+* Aplique campos personalizados como estado y nivel de enfoque para identificar el trabajo de alta prioridad
+* Aplicar colores para una organización rápida
 * Y más
 
-Para obtener más información, vea [Administrar el trabajo en el calendario Prioridades](/help/quicksilver/workfront-basics/priorities/calendar-priorities.md).
+Para obtener más información, consulte [Administrar su trabajo en el calendario de prioridades](/help/quicksilver/workfront-basics/priorities/calendar-priorities.md).
 
 ## Actualizaciones de la Lista de trabajos de prioridades
 
@@ -104,21 +106,21 @@ Hemos actualizado la Lista de trabajo de prioridades para mejorar las capacidade
 
 ### Cambios visuales
 
-* Las opciones de filtro, vistas y agrupación ahora aparecen en el lado izquierdo del encabezado de la lista de trabajo
+* Las opciones de filtro, vistas y agrupación ahora aparecen en la parte izquierda del encabezado de la lista de trabajo
 * Nueva apariencia para los menús desplegables de columna y agrupación
-* Número total de elementos de lista ahora en la esquina inferior derecha de la lista de trabajo
-* Nueva barra de búsqueda expandida en el lado derecho del encabezado de la lista de trabajo
+* Número total de elementos de lista que hay ahora en la esquina inferior derecha de la lista de trabajo
+* Nueva barra de búsqueda expandida a la derecha del encabezado de la lista de trabajo
 
-Para obtener más información, vea [Comenzar con prioridades](/help/quicksilver/workfront-basics/priorities/get-started-with-priorities.md).
+Para obtener más información, consulte [Introducción a Prioridades](/help/quicksilver/workfront-basics/priorities/get-started-with-priorities.md).
 
 ### Cambios funcionales
 
-Ahora puedes
+Ahora puede
 
-* Ordenar elementos dentro de los grupos
-* Arrastrar y soltar elementos al agrupar por Mi prioridad o estado
+* Ordenar elementos dentro de las agrupaciones
+* Arrastrar y soltar elementos al agrupar por Mi prioridad o Estado
 
-Para obtener más información, vea [Filtrar y agrupar su trabajo con Prioridades](/help/quicksilver/workfront-basics/priorities/filter-group-work-priorities.md).
+Para obtener más información, vea [Filtrar, agrupar y ordenar su trabajo con prioridades](/help/quicksilver/workfront-basics/priorities/filter-group-work-priorities.md).
 
 ### Eliminado
 
@@ -134,7 +136,7 @@ Ahora puede navegar directamente a un proyecto en Workfront desde la lista de tr
 
 Para obtener más información, vea [Ver detalles de proyectos y tareas en la lista de trabajo de prioridades](/help/quicksilver/workfront-basics/priorities/view-task-project-details.md).
 
-## Opciones actualizadas en la columna Mi foco en Prioridades
+## Opciones actualizadas en la columna Mi enfoque en Prioridades
 
 >[!NOTE]
 >
@@ -147,7 +149,7 @@ Hemos actualizado las opciones de la columna Mi enfoque para ayudarle a prioriza
 * Normal
 * Bajo
 
-Este cambio hace más fácil ver y organizar el trabajo sobre la base de la urgencia. Para obtener más información, vea [Dar prioridad a los elementos de trabajo importantes](/help/quicksilver/workfront-basics/priorities/prioritize-work-items.md).
+Este cambio facilita la visualización y organización del trabajo en función de la urgencia. Para obtener más información, vea [Priorizar elementos de trabajo importantes](/help/quicksilver/workfront-basics/priorities/prioritize-work-items.md).
 
 ## Ver detalles del proyecto en Prioridades
 
@@ -155,13 +157,13 @@ Este cambio hace más fácil ver y organizar el trabajo sobre la base de la urge
 >
 >Versión preliminar: jueves, 06 de noviembre de 2024; producción para la versión rápida: con la versión 24.11 (viernes, 14 de noviembre de 2024); producción para versión trimestral: con la versión 25.1 (viernes, 16 de enero de 2025)
 
-Ahora puede ver los detalles del proyecto y los comentarios de la lista de trabajo en Prioridades.
+Ahora puede ver los detalles y comentarios del proyecto desde la lista de trabajo en Prioridades.
 
-Para obtener más información, vea [Ver detalles del proyecto y de la tarea en la lista de trabajo Prioridades](/help/quicksilver/workfront-basics/priorities/view-task-project-details.md).
+Para obtener más información, vea [Ver detalles de proyectos y tareas en la lista de trabajo de prioridades](/help/quicksilver/workfront-basics/priorities/view-task-project-details.md).
 
-## Vídeo de demostración de mejoras prioritarias
+## Vídeo de demostración de mejoras de prioridades
 
-Vea el video de abajo para una demostración detallada de las nuevas características agregadas a Prioridades este trimestre.
+Vea el siguiente vídeo para ver una demostración detallada de las nuevas funciones añadidas a Prioridades este trimestre.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3442751/?quality=12&learn=on)
 

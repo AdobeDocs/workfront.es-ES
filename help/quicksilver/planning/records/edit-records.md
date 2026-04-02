@@ -6,9 +6,11 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: c91622e8155c62ecf7c17eaeb60b2bd4f69aaedf
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 442ddab8c7b92d52e0de699bb7acf99a5ca0f215
 workflow-type: tm+mt
-source-wordcount: '2961'
+source-wordcount: '2978'
 ht-degree: 9%
 
 ---
@@ -69,7 +71,8 @@ Para obtener más información acerca de los requisitos de acceso de Workfront, 
 
 +++   
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
 <col> 
 </col> 
@@ -122,7 +125,8 @@ Para obtener más información acerca de los requisitos de acceso de Workfront, 
    <td role="rowheader"><p>Object permissions</p></td> 
    <td>  <p>Contribute or higher permissions to a workspace and record type </a> </p>  
    <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>  </td> 
-  </tr> -->
+  </tr>
+  -->
 
 ## Consideraciones acerca de la edición de registros
 
@@ -187,6 +191,8 @@ Para obtener más información, consulte [Crear registros](/help/quicksilver/pla
 1. (Condicional) Haga clic en la ficha de una vista de tabla o haga clic en **+ Ver** para crear una vista de tabla. La vista de tabla debe ser la vista predeterminada, a menos que haya visto el tipo de registro en otro tipo de vista cuando accedió por última vez.
 
    Los registros asociados al tipo de registro seleccionado se muestran en la vista de tabla.
+1. (Opcional) Haga clic en el cuadro de búsqueda y agregue una palabra clave para buscar el registro que desea editar.
+
 1. Haga clic dentro de la fila de un registro para empezar a editar la información sobre el registro en línea.
 
    ![Editar campo de párrafo de registro con vista de tabla de formato](assets/edit-record-paragraph-field-with-formatting-table-view.png)

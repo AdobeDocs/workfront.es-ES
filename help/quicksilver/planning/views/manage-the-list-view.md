@@ -6,15 +6,21 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 1c7e6973-6e9e-4c93-9d3b-89ed90df9d14
-source-git-commit: ddf10844646a79c43accaffa1789caf24290cc8a
+last-update: 2026-04-01T18:23:03Z
+git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
+source-git-commit: f4d7484145226eb85bc547e582438e5202dec023
 workflow-type: tm+mt
-source-wordcount: '1490'
+source-wordcount: '1857'
 ht-degree: 1%
 
 ---
 
 
 # Administrar la vista de lista en Adobe Workfront Planning
+
+<!--
+although list views in Planning are very similar to Workfront enhanced lists, keep this one separate with all the information, because of Planning standalone; some information here is also duplicated in this main Glist article: help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md
+-->
 
 <span class="preview">La información resaltada en esta página hace referencia a funcionalidades que aún no están disponibles de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después de las versiones mensuales en Production, las mismas funciones también están disponibles en el entorno Production para los clientes que habilitaron versiones rápidas. </span>
 
@@ -32,7 +38,7 @@ Puede ver objetos en la vista de lista en las siguientes áreas de Workfront Pla
 
   ![Solicitar formularios en la vista de lista](assets/request-forms-in-list-view.png)
 
-En este artículo se describe cómo desplazarse, crear o editar una vista de lista que muestra objetos en Workfront Planning. <!--change 'projects' to other objects when they become available and the location of the list view-->
+En este artículo se describe cómo desplazarse, crear o editar una vista de lista en Workfront Planning.
 
 ## Requisitos de acceso
 
@@ -93,16 +99,16 @@ Para obtener más información acerca de los requisitos de acceso de Workfront, 
    * No se pueden crear ni editar vistas de lista adicionales para formularios de solicitud de Planning. Workfront crea una vista de lista para los formularios de solicitud. <!--this will change-->
 
      Para obtener información acerca de los formularios de solicitud, vea [Crear y administrar un formulario de solicitud en Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
-* Dependiendo de dónde se muestre, no todas las vistas de lista tienen los mismos elementos descritos en este artículo.
-
+* Dependiendo de dónde se muestre, no todas las vistas de lista tienen todos los elementos descritos en este artículo.
 
 ## Administración de una vista de lista {#manage-a-list-view}
 
-Las vistas de lista son similares a las listas mejoradas. La mayoría de los elementos de las vistas mejoradas también existen en las vistas de lista de Workfront Planning.
+Las vistas de lista de Workfront Planning son similares a las listas mejoradas de Workfront. La mayoría de los elementos de las vistas mejoradas también existen en las vistas de lista de Workfront Planning.
 
 Para obtener más información, consulte [Usar listas mejoradas](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
 
 <!--
+Removed - more direct steps below: 
 {{step1-to-planning}}
 
 1. (Conditional) To access a projects connected page, do the following: 
@@ -130,14 +136,16 @@ Para obtener más información, consulte [Usar listas mejoradas](/help/quicksilv
 
 1. Vaya a una vista de lista en una de las siguientes áreas:
 
-   * Página de registros conectados en el área de detalles de un registro
-   * La página Formularios de solicitud de un registro
+   * Página de registros conectada para proyectos en el área de detalles de un registro
+   * La página Formularios de solicitud de un tipo de registro
 
 1. (Condicional) Cuando esté disponible, realice una de las siguientes acciones para modificar la vista de la lista:
 
    1. Expanda el menú de vistas desplegables en la esquina superior izquierda de la lista para seleccionar otra vista, o haga clic en **Nueva vista** y cree otra.
 
-      Las vistas se comparten en todo el sistema. Si crea una vista Proyectos para un tipo de registro, puede verla en otros tipos de registro que muestran proyectos conectados.
+      >[!TIP]
+      >
+      >Las vistas se comparten en todo el sistema. Si crea una vista Proyectos para un tipo de registro, puede verla en otros tipos de registro que muestran proyectos conectados.
 
    1. Pase el ratón sobre el nombre de una vista existente y haga clic en el menú **Más** ![Menú más](assets/more-menu.png); a continuación, haga clic en una de las siguientes opciones:
       * **Cambiar nombre**, para asignar un nuevo nombre a la vista
@@ -152,18 +160,26 @@ Para obtener más información, consulte [Usar listas mejoradas](/help/quicksilv
       >
       >* <span class="preview">Puede restablecer una vista que se compartió con usted y para la que sólo tiene permisos de vista, después de modificarla para restaurar sus preferencias originales, o bien puede copiarla con sus cambios y compartir la copia. Para obtener más información, consulte [Usar listas mejoradas](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md). </span>
 
-      <!--
-        And hide everything else below for these elements, after moving it to the Use enhanced lists article: 
-        1. <span class="preview">To update one of the following view elements, see [Use enhanced lists](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md):</span>
-            <div class="preview">
-            * Filter
-            * Columns
-            * Format cells
-            * Row height
-            </div>
-        -->
-
    1. Haga clic en el icono **Filtro** ![Icono de filtro](assets/filter-icon.png) para agregar un filtro a la vista. Los resultados se filtran inmediatamente en la lista. No puede guardar los filtros de nombre. Los filtros se recuerdan cuando acceda a la página en el futuro y forman parte de vistas compartidas.
+
+      >[!TIP]
+      >
+      ><span class="preview">Para aplicar un filtro personalizado, seleccione una de las siguientes opciones para un valor de campo:
+      >
+      ><div class="preview">
+      >
+      >* **Yo (usuario conectado)** para hacer referencia al usuario conectado en los campos que hacen referencia a los usuarios.
+      >
+      >* **Mis equipos** o **Mi equipo de inicio** para hacer referencia a sus equipos en campos que hacen referencia a equipos.
+      >
+      >* **Mis grupos** o **Mi grupo de inicio** para hacer referencia a sus grupos en campos que hacen referencia a grupos.
+      >
+      >* **Mi compañía** para hacer referencia a su compañía en campos que hacen referencia a compañías.
+      > 
+      >* **Mis roles** o **Mi rol principal** para hacer referencia a sus roles en los campos que hacen referencia a los roles.
+      >
+      ></div>
+
    1. Haga clic en el icono **Columnas** ![Icono de columnas](assets/columns-icon.png) para seleccionar qué columnas mostrar u ocultar en la vista.
    1. Pase el ratón sobre el nombre de una columna, haga clic en la flecha hacia abajo situada a la izquierda del nombre de la columna y, a continuación, haga clic en una de las siguientes opciones:
       * **Cambiar nombre**, para agregar una **etiqueta personalizada** para la columna. El nombre del campo original en Workfront no cambia.
@@ -178,18 +194,18 @@ No se puede quitar el campo principal en la vista de lista que aparece en la pri
    1. <span class="preview">Haga clic en el icono **Formato de celdas** ![Formato de celdas](assets/format-cells-icon.png). Se abre el cuadro **Formato**.</span> <!--change the name of the box when they update it-->
       <span class="preview">Haga lo siguiente: </span>
 
-      1. Haga clic en **Agregar condición**.
+      1. <span class="preview">Haga clic en **Agregar condición**.</span>
       1. <span class="preview">En la línea **If**, seleccione un campo, elija un valor de campo y agregue un modificador. Los modificadores cambian según el tipo de campo elegido. </span>
 
          >[!TIP]
          >
          ><span class="preview">Solo los campos visibles en la vista de lista están disponibles para el formato condicional.</span>
 
-      1. <span class="preview">(Opcional) En lugar de agregar un valor de campo, haga clic en el icono **Comparar con otro campo** ![Comparar con otro campo](assets/compare-to-another-field-icon.png) y elija un campo cuyo valor desee comparar con el valor del campo seleccionado. Por ejemplo, puede filtrar por proyectos cuyo Propietario del proyecto coincida con el Patrocinador del proyecto. </span>
+      1. <span class="preview">(Opcional) En lugar de agregar un valor de campo, haga clic en el icono **Comparar con otro campo** ![Comparar con otro campo](assets/compare-to-another-field-icon.png) y elija un campo cuyo valor desee comparar con el valor del campo seleccionado. Por ejemplo, puede comparar los campos Propietario del proyecto y Patrocinador del proyecto. </span>
 
          >[!TIP]
          >
-         ><span class="preview">Solo los campos visibles en la vista de lista están disponibles para el formato condicional.</span>
+         ><span class="preview">Solo los campos visibles en la vista de lista están disponibles para el formato condicional. Los campos que compare deben ser del mismo tipo. </span>
 
       1. <span class="preview">(Opcional) Haga clic en **Agregar condición** en la línea **If** para agregar más condiciones a la misma regla.</span>
 
@@ -197,29 +213,44 @@ No se puede quitar el campo principal en la vista de lista que aparece en la pri
          >
          ><span class="preview">Puede agregar hasta 10 condiciones en una regla de condicionamiento y hasta 20 reglas para un campo.</span>
 
+      1. <span class="preview">Haga clic en el conector **Or** entre condiciones para cambiar a **And** e indicar que se deben cumplir varias condiciones al mismo tiempo. **Or** es el conector predeterminado.</span>
+      1. <span class="preview">En la línea **Formato**, seleccione un campo para indicar a qué columna se dará formato.</span> <!--edit this area, if it changes names??-->
+      1. <span class="preview">(Opcional) Haga clic en el icono **círculo de color** ![icono de círculo de color](assets/color-circle.png) junto al campo seleccionado, para expandirlo y elegir otro color en el área **Relleno de celda** para cambiar el color del fondo de una celda o elegir un color del área **Color de texto** para cambiar el color del texto de una celda.</span>
+      1. <span class="preview">Haga clic en el icono **Formato de texto** ![Icono de formato de texto](assets/text-format-icon.png) y seleccione una de las siguientes opciones para dar formato al texto de una celda:</span>
+         * <span class="preview">Negrita</span>
+         * <span class="preview">Cursiva</span>
+
+      1. <span class="preview">Active la opción **Aplicar a la fila** para aplicar el formato a toda la fila del campo que cumpla las condiciones.</span>
+      1. <span class="preview">(Opcional) Haga clic en **Agregar condición** en el cuadro **Formato** para agregar otra regla para otro campo y, a continuación, repita los pasos anteriores.</span>
+      1. <span class="preview">(Opcional) Haga clic en **Borrar todo** para quitar todo el formato.</span>
+      1. <span class="preview">Haga clic fuera del cuadro **Formato** para cerrarlo.</span>
+
+         <span class="preview">Esto le devuelve a la vista de lista.</span>
+         <span class="preview">El formato se aplica inmediatamente a la vista de lista.</span>
+         <span class="preview">Hay un punto azul al lado del icono **Formato de celdas** para indicar que la vista tiene un formato especial aplicado.</span>
+
+   1. <span class="preview">(Opcional) Haga clic en el icono **Agrupación** ![Icono de agrupación](assets/grouping-icon.png) &lt;!-lo han actualizado a &quot;Agrupación&quot;??-> para agrupar los elementos de la lista por un campo común. Seleccione una de las opciones o utilice la barra de búsqueda para buscar un campo.</span>
+
+      <span class="preview">El campo debe ser una columna de la lista para poder agruparlo. No se pueden usar todos los tipos de campo para las agrupaciones.</span>
+
+   1. <span class="preview">Haga clic en el icono **Altura de fila** ![Icono de altura de fila](assets/row-height-icon.png) para actualizar la longitud vertical de una fila. Elija entre las siguientes opciones: </span>
+
       <div class="preview">
 
-      1. Haga clic en el conector **Or** entre condiciones para cambiar a **And** e indicar que se deben cumplir varias condiciones al mismo tiempo. **Or** es el conector predeterminado.
-      1. En la línea **Format**, seleccione un campo para indicar a qué columna se dará formato. <!--edit this area, if it changes names??-->
-      1. (Opcional) Haga clic en el icono **círculo de color** ![icono de círculo de color](assets/color-circle.png) junto al campo seleccionado, para expandirlo y elegir otro color <!--for a cell or the text of the cell that matches your criteria-->. <!--is this where the bold, italic is? I had no UI for this when I wrote it-->
-      1. Active la opción **Aplicar a fila** para aplicar el formato a toda la fila del campo que cumpla las condiciones.
-      1. (Opcional) Haga clic en **Agregar condición** en el cuadro **Formato** para agregar otra regla para otro campo y, a continuación, repita los pasos anteriores.
-      1. (Opcional) Haga clic en **Borrar todo** para quitar todo el formato.
-      1. Haga clic fuera del cuadro **Formato** para cerrarlo.
-
-         Esto le devuelve a la vista de lista.
-El formato se aplica inmediatamente a la vista de lista.
-Hay un punto azul al lado del icono **Formato de celdas** para indicar que la vista tiene un formato especial aplicado.
+      * Baja
+      * Estándar. Esta es la opción predeterminada.
+      * Media
+      * Alta
 
       </div>
 
-   <!--leave these here-->
+   <!--leave these here, although they duplicate for Enhanced lists in Workfront-->
 
 1. (Opcional) Agregue una palabra clave al cuadro de búsqueda en la esquina superior derecha de la lista para buscar un elemento.
 
    Los elementos que coincidan con el término de búsqueda se resaltarán en la lista.
 
-1. (Opcional) Para agregar más elementos a la lista y conectarlos automáticamente al registro seleccionado, realice una de las siguientes acciones:
+1. (Opcional y condicional) En la página conectada de los proyectos <!--change projects to items here when more items will display in the Glist-->, para agregar más elementos a la lista y conectarlos automáticamente al registro seleccionado, realice una de las siguientes acciones:
 
    * Haga clic en **Conectar registros** en la esquina superior derecha de la lista para agregar los elementos existentes.
    * Haga clic en **Nueva fila** al final de la lista para agregar nuevos elementos.
@@ -232,10 +263,21 @@ Hay un punto azul al lado del icono **Formato de celdas** para indicar que la vi
 
    O
 
-   Seleccione uno o varios elementos, observe la barra de acciones situada en la parte inferior de la lista y, a continuación, haga clic en uno de los siguientes, cuando esté disponible:
+   Seleccione uno o varios elementos, observe la barra de acciones situada en la parte inferior de la lista y, a continuación, haga clic en uno de los siguientes, cuando esté disponible. Según el área desde la que acceda a la vista de lista, haga clic en una de las siguientes opciones:
 
    * **Eliminar** para eliminar el elemento. Al eliminar un proyecto, se desconecta del registro y se mueve a la papelera de reciclaje de Workfront. Los administradores de Workfront pueden recuperar los proyectos eliminados hasta 30 días después de haberlos eliminado. Al eliminar un formulario, no se eliminan las solicitudes ni los registros creados cuando se envió el formulario.
    * **Desconectar** para desconectar el proyecto del registro. Al desconectar un proyecto, éste y todos los valores de sus campos de búsqueda se eliminan del registro actual.
 
-   ![Barra de acciones en la vista Lista de páginas de registros conectados](assets/actions-bar-connected-records-page-list-view.png)
+     <!--update screen shot at preview release-->
+
+     ![Barra de acciones en la vista Lista de páginas de registros conectados](assets/actions-bar-connected-records-page-list-view.png)
+
+   * **Editar formulario**: abre un formulario de solicitud de Planning y le permite editarlo.
+   * **Cancelar publicación**: cancela la publicación de un formulario de solicitud. Esto quita el formulario del área de solicitudes y los usuarios ya no pueden agregar solicitudes a este tipo de registro.
+   * **Compartir**: abre el cuadro Compartir de un formulario de solicitud donde puede compartir con otros usuarios.
+   * **Copiar vínculo**: copia un vínculo a un formulario de solicitud de Planning para que pueda compartirlo con otros usuarios. Si el formulario se comparte públicamente, puede compartir el vínculo con usuarios que no pertenezcan a Workfront Planning.
+
+     ![Barra de acciones en la lista de solicitudes de Planning](assets/actions-bar-in-inake-forms-list.png)
+
+
 

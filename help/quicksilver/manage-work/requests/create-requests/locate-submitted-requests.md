@@ -8,10 +8,12 @@ feature: Requests
 topic: Collaboration
 role: User
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
-source-git-commit: a9cc76139c0f542e4b27e8e3591a40bf626342f4
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: f4d7484145226eb85bc547e582438e5202dec023
 workflow-type: tm+mt
-source-wordcount: '1347'
-ht-degree: 45%
+source-wordcount: '1441'
+ht-degree: 41%
 
 ---
 
@@ -21,13 +23,9 @@ ht-degree: 45%
 Remove production and preview references at release
 -->
 
-<!--
+<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después de las versiones mensuales en Production, las mismas funciones también están disponibles en el entorno Production para los clientes que habilitaron versiones rápidas. </span>
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
-
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
-
--->
+<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 Puede ver las solicitudes que usted u otra persona ha enviado, o las solicitudes que ha iniciado pero que nunca ha terminado de enviar. Las solicitudes no finalizadas se guardarán como borradores.
 
@@ -45,7 +43,7 @@ El área Solicitudes muestra las siguientes solicitudes, en función de cómo de
   >
   >* Solo puede ver sus propias solicitudes de borrador.
   >* En la nueva experiencia solicitante, las solicitudes enviadas y los borradores se encuentran en la misma lista.
-  >* Los borradores creados en la experiencia heredada no aparecen en la nueva experiencia de solicitud.
+  >* Los borradores creados en la experiencia heredada no se muestran en la nueva experiencia de solicitud.
 
 ## Requisitos de acceso
 
@@ -90,6 +88,10 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 
 ## Ver las solicitudes enviadas en el área Solicitudes
 
+Puede ver las solicitudes enviadas en el área de Solicitudes o en el widget Mis solicitudes de Inicio.
+
+Para obtener información sobre Mis solicitudes, consulte [Usar el widget Mis solicitudes](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md).
+
 La visualización de las solicitudes enviadas difiere en función de si utiliza la experiencia de solicitud nueva o heredada.
 
 * [Ver las solicitudes enviadas en la nueva experiencia de solicitud](#view-submitted-requests-in-the-new-requesting-experience)
@@ -102,23 +104,15 @@ La visualización de las solicitudes enviadas difiere en función de si utiliza 
 >* Si tiene Workfront Planning, las solicitudes de Workfront y Planning aparecen en la misma lista. Las solicitudes Workfront muestran el valor `Issue` en la columna **Tipo de objeto**.
 >* De forma predeterminada, se muestran hasta 50 solicitudes en la lista del área Solicitudes. Para ver más solicitudes, desplácese hasta la parte inferior de la lista.
 
-Puede ver las solicitudes enviadas en el área Solicitudes, que incluye vínculos a registros creados por solicitudes de Adobe Workfront Planning en el entorno de producción <!--, or links to records created by Planning requests or <span objects converted from Workfront issues in the Preview environment-->.
+Puede ver las solicitudes enviadas en el área de Solicitudes y en el widget Mis solicitudes de Inicio.
 
 >[!NOTE]
 >
->Los vínculos a objetos creados sólo están disponibles en la nueva experiencia de solicitud para solicitudes de Planning, en los casos en que la propia solicitud creó un registro.
+>Los siguientes objetos tienen vínculos de la lista de solicitudes del área de solicitudes y del widget Mis solicitudes, al habilitar la nueva experiencia de solicitudes:
 >
->Si una solicitud de Workfront se convierte en un proyecto u otro objeto, un vínculo a ese objeto convertido no estará disponible en la lista de solicitudes de la nueva experiencia de solicitud.
-
-<!--
-replace the note above with this at release: 
->[!NOTE]
->
->Links to created objects are available in the new requesting experience only for Planning requests in the Production environment, in cases where the request itself created a record. 
->
->If a Workfront request is converted to a project or other object, a link to that converted object is not available in the request list in the new requesting experience in the Production environment.
-><span class="preview">In the Preview environment, you can access both Workfront objects converted from Workfront requests and Planning records created from Planning requests from the Requests area list.</span>
--->
+>* Solicitudes de Planning y Workfront en el campo Asunto.
+>* Registros de Planning creados a partir de solicitudes de Planning en el campo Objeto creado.
+>* <span class="preview">Las tareas y problemas de Workfront se convirtieron desde solicitudes de Workfront en el campo Objeto creado, en el entorno de vista previa. </span>
 
 Para ver las solicitudes que usted u otros usuarios han enviado en la nueva experiencia de solicitud:
 
@@ -135,13 +129,13 @@ Para ver las solicitudes que usted u otros usuarios han enviado en la nueva expe
    * Filtro
    * Columnas
 
-   <!--
    <div class="preview">
-      * Group
-   * Format cells
-   * Row height
-      </div>
-   -->
+
+   * Grupo
+   * Formatear celdas
+   * Altura de la fila
+
+   </div>
 
    Para obtener más información sobre la administración de información en la lista de solicitudes, vea [Usar listas mejoradas](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
 
@@ -292,7 +286,8 @@ Para ver las solicitudes que usted u otros usuarios han enviado en la experienci
 
 1. Haga clic en **Borradores** para ver todas las solicitudes redactadas. Workfront guarda un número ilimitado de borradores para cada cola de solicitudes en esta carpeta. Cuando se introduce una nueva solicitud para un tema de la cola que ya tiene un borrador, se le pedirá que utilice uno existente. Para obtener más información, consulte [Crear solicitudes a partir de borradores](../../../manage-work/requests/create-requests/create-requests-from-drafts.md).
 
-   <!--Planning tab has been removed and no longer visible in legacy Requests area: 
+   <!--
+   Planning tab has been removed and no longer visible in legacy Requests area: 
    (Optional and conditional) If your organization purchased a Workfront Planning package, click the **Planning** tab, then click **Submitted** in the left panel to view Workfront Planning requests. 
       Use **Filters** and **Columns** to update the information in the Planning request list. 
       ![Planning tab submitted section in Requests area](assets/workfront-planning-tab-submitted-section-in-requests-area.png)

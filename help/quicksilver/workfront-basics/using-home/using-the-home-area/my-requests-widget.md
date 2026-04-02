@@ -6,14 +6,22 @@ description: Puede enviar solicitudes en el widget Mis solicitudes. También pue
 author: Alina, Courtney
 feature: Get Started with Workfront
 exl-id: 2b994f44-2404-4aa3-8c38-0686a0c287b7
-source-git-commit: a9cc76139c0f542e4b27e8e3591a40bf626342f4
+last-update: 2026-04-01T18:23:03Z
+git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
+source-git-commit: f4d7484145226eb85bc547e582438e5202dec023
 workflow-type: tm+mt
-source-wordcount: '659'
-ht-degree: 15%
+source-wordcount: '777'
+ht-degree: 11%
 
 ---
 
 # Uso del widget Mis solicitudes
+
+<!--remove Preview and Production references at Production release April 15, 2026-->
+
+<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después de las versiones mensuales en Production, las mismas funciones también están disponibles en el entorno Production para los clientes que habilitaron versiones rápidas. </span>
+
+<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 >[!IMPORTANT]
 >
@@ -70,7 +78,7 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 
 Puede crear una solicitud directamente desde el widget Mis solicitudes.
 
-Para obtener instrucciones, vea la sección [Crear una solicitud](/help/quicksilver/workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md/#create-a-request) en el artículo [Crear elementos de trabajo y proyectos desde el área de inicio](/help/quicksilver/workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md).
+Para obtener instrucciones, vea la sección [Crear una solicitud](/help/quicksilver/workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md#create-a-request) en el artículo [Crear elementos de trabajo y proyectos desde el área de inicio](/help/quicksilver/workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md).
 
 ## Copiar una solicitud
 
@@ -81,6 +89,7 @@ Para obtener instrucciones, consulte [Copiar y enviar solicitudes](/help/quicksi
 ## Administrar información en la lista de solicitudes en el widget Mis solicitudes
 
 <!--
+This is similar to what we document in Enhanced lists, so we will link to that to avoid documentation duplication:
 The My Requests widget features a customizable filter that allows you to control which requests appear in the widget. You can configure this filter for different fields and values, and can stack conditions using AND and OR operators.
 
 To configure the filter in the My Requests widget:
@@ -88,24 +97,25 @@ To configure the filter in the My Requests widget:
 
 1. Haga clic en el **[!UICONTROL Menú principal]** ![icono del menú principal](assets/lines-main-menu.png) en la esquina superior izquierda y, a continuación, haga clic en **[!UICONTROL Inicio]**.
 1. (Condicional) Para agregar el widget **Mis solicitudes** a la pantalla de inicio. Haz clic en **Personalizar**, busca **Mis solicitudes** y luego haz clic en él para agregarlo a **Inicio**.
-1. (Opcional) Para administrar la forma en que se muestra la información en la lista de solicitudes, actualice los siguientes elementos de vista para la lista:
+1. (Opcional) Para administrar la forma en que se muestra la información en la lista de solicitudes, cree o actualice los siguientes elementos de vista para la lista:
 
    * Ver
    * Filtro
    * Columnas
 
-   <!--
    <div class="preview">
-      * Group
-   * Format cells
-   * Row height
-      </div>
-   -->
 
-   Para obtener más información sobre la administración de información en la lista de solicitudes, vea [Usar listas mejoradas](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
+   * Grupo
+   * Formatear celdas
+   * Altura de la fila
+
+   </div>
+
+   Para obtener más información sobre cómo actualizar elementos de vista en la lista de solicitudes, consulte [Usar listas mejoradas](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
 
 
-<!-- Removed all these sections because this is common to ALL the Glists/ enhanced lists. So, we will update that article with all the specific steps: 
+<!--
+ Removed all these sections because this is common to ALL the Glists/ enhanced lists. So, we will update that article with all the specific steps: 
 1. Select the field that you want to filter by. Available options are:
 
    * Workspace
@@ -120,10 +130,7 @@ To configure the filter in the My Requests widget:
 1. (Conditional) If a field appears to the right of the operator, select the value that you want to filter by.
 1. (Optional) To add another filter condition, click **Add condition** and repeat steps 4-6.
 1. (Optional and conditional) If you have multiple conditions, switch the And or Or value by clicking **And** or **Or** to the left of the condition.
-
-
 The filter is saved automatically.
-
 -->
 
 >[!TIP]
@@ -134,6 +141,8 @@ The filter is saved automatically.
 >* Para filtrar solo las solicitudes de Workfront Planning, establezca el filtro en **Tipo de objeto** > **No tiene ninguno de** > **Problemas**.
 
 <!--
+
+Use enhanced lists and other requests articles describe all of these:
 
 ## Adjust or add columns
 
@@ -185,7 +194,7 @@ Consider the following when working with views in the My Requests widget:
 
 Para buscar solicitudes específicas en el widget Mis solicitudes:
 
-1. Haga clic en el **[!UICONTROL Menú principal]** ![icono del menú principal](assets/main-menu-icon.png) en la esquina superior derecha y, a continuación, haga clic en **[!UICONTROL Inicio]**.
+1. Haga clic en el **[!UICONTROL Menú principal]** ![icono del menú principal](assets/lines-main-menu.png) en la esquina superior izquierda y, a continuación, haga clic en **[!UICONTROL Inicio]**.
 1. (Condicional) Para agregar el widget **Mis solicitudes** a la pantalla de inicio. Haz clic en **Personalizar**, busca **Mis solicitudes** y luego haz clic en él para agregarlo a **Inicio**.
 1. En la barra de búsqueda cerca de la parte superior derecha del widget Mis solicitudes, introduzca el término que desea buscar.
 
@@ -199,12 +208,25 @@ Puede encontrar objetos creados por una solicitud en el widget Mis solicitudes.
 
 >[!NOTE]
 >
->Los vínculos a objetos creados sólo están disponibles en la nueva experiencia de solicitud para solicitudes de Planning, en los casos en que la propia solicitud ha creado un objeto. Si una solicitud de Workfront se convierte en un proyecto u otro objeto, un vínculo a ese objeto convertido no estará disponible en la lista de solicitudes de la nueva experiencia de solicitud.
+>Los siguientes objetos tienen vínculos de la lista de solicitudes en el widget Mis solicitudes, cuando se habilita la nueva experiencia de solicitudes en el área Solicitudes:
+>
+>* Solicitudes de Planning y Workfront en el campo Asunto.
+>* Registros de Planning creados a partir de solicitudes de Planning en el campo Objeto creado.
+>* <span class="preview">Las tareas y problemas de Workfront se convirtieron a partir de solicitudes de Workfront en el campo Objeto creado, en el entorno de vista previa.</span>
 
-1. Haga clic en el **[!UICONTROL Menú principal]** ![icono del menú principal](assets/main-menu-icon.png) en la esquina superior derecha y, a continuación, haga clic en **[!UICONTROL Inicio]**.
+1. Haga clic en el **[!UICONTROL Menú principal]** ![icono del menú principal](assets/lines-main-menu.png) en la esquina superior izquierda y, a continuación, haga clic en **[!UICONTROL Inicio]**.
 1. (Condicional) Para agregar el widget **Mis solicitudes** a la pantalla de inicio. Haz clic en **Personalizar**, busca **Mis solicitudes** y luego haz clic en él para agregarlo a **Inicio**.
 1. Busque la solicitud que creó el objeto.
 1. Haga clic en el nombre de objeto en la columna **Objeto creado** para esa solicitud.
 
    Se abre la página del objeto.
+
+   >[!TIP]
+   >
+   >En el entorno Producción, solo los registros de Planning tienen un vínculo en el campo **Objeto creado**.
+   >   
+   ><span class="preview">En el entorno de vista previa, las tareas y proyectos de Workfront convertidos de problemas, así como los registros de Planning creados a partir de solicitudes de Planning, tienen un vínculo en el campo **Objeto creado**.</span>
+   >
+
+
 

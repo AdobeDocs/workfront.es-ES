@@ -6,10 +6,12 @@ description: Además de utilizar los borradores disponibles que Workfront le sug
 author: Alina
 feature: Work Management
 exl-id: 664004e7-04c8-4a1f-b682-7b82d349643d
-source-git-commit: a9cc76139c0f542e4b27e8e3591a40bf626342f4
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 442ddab8c7b92d52e0de699bb7acf99a5ca0f215
 workflow-type: tm+mt
-source-wordcount: '827'
-ht-degree: 17%
+source-wordcount: '855'
+ht-degree: 16%
 
 ---
 
@@ -58,7 +60,9 @@ Debe hacer lo siguiente para poder crear una solicitud a partir de un borrador:
 
 ## Crear solicitudes a partir de borradores
 
-El procedimiento para crear solicitudes a partir de borradores difiere entre la nueva experiencia solicitante y la experiencia heredada.
+Puede crear solicitudes a partir de borradores para solicitudes de Workfront y Planning.
+
+La creación de solicitudes a partir de borradores difiere entre la nueva experiencia solicitante y la experiencia heredada.
 
 * [Crear solicitudes a partir de borradores en la nueva experiencia solicitante](#create-requests-from-drafts-in-the-new-requesting-experience)
 * [Crear solicitudes a partir de borradores en la experiencia de solicitud heredada](#create-requests-from-drafts-in-the-legacy-requesting-experience)
@@ -88,9 +92,14 @@ El procedimiento para crear solicitudes a partir de borradores difiere entre la 
 
 1. Después de completar la información de la solicitud, haz clic en **Enviar**.
 
-   Al enviar la solicitud, el borrador se eliminará y no se podrá restaurar.
+   Al enviar la solicitud, el borrador se reemplazará por la nueva solicitud y no se podrá restaurar como borrador.
 
 ### Crear solicitudes a partir de borradores en la experiencia de solicitud heredada
+
+>[!NOTE]
+>
+>No puede crear solicitudes a partir de borradores de solicitudes de Planning utilizando la experiencia heredada.
+
 
 {{step1-to-requests}}
 

@@ -6,10 +6,12 @@ feature: Work Management
 role: User
 topic: Collaboration
 exl-id: 3d7581d0-e99c-4204-b1e5-04fde72251bb
-source-git-commit: a9cc76139c0f542e4b27e8e3591a40bf626342f4
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 442ddab8c7b92d52e0de699bb7acf99a5ca0f215
 workflow-type: tm+mt
-source-wordcount: '1529'
-ht-degree: 82%
+source-wordcount: '1615'
+ht-degree: 78%
 
 ---
 
@@ -28,7 +30,9 @@ Cuando envía solicitudes similares con frecuencia, puede copiar una solicitud e
  <tbody> 
   <tr> 
    <td role="rowheader">Paquete de Adobe Workfront</td> 
-   <td> <p>Cualquiera </p> </td> 
+   <td> <p>Cualquier paquete de flujo de trabajo o Workfront</p>
+
+<p>Cualquier paquete de Workfront Planning para copiar y enviar solicitudes de Planning. </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licencia de Adobe Workfront</td> 
@@ -44,10 +48,12 @@ Cuando envía solicitudes similares con frecuencia, puede copiar una solicitud e
    <td role="rowheader">Permisos de objeto</td> 
    <td><p>Acceso para añadir solicitudes a una cola de solicitudes</p> <p>Ver permisos superiores en la solicitud existente</p> <p>Para obtener información sobre cómo configurar una cola de solicitudes, consulte <a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">Crear una cola de solicitudes</a>. </p> </td> 
   </tr>
+  <!--
   <tr> 
-   <td role="rowheader"> Producto</td> 
-   <td> <ul><li>Adobe Workfront</li><li>Debe tener Adobe Workfront Planning para ver solicitudes de Planning o formularios de solicitud</td> 
+   <td role="rowheader"> Product</td> 
+   <td> <ul><li>Adobe Workfront</li><li>You must have Adobe Workfront Planning to view Planning requests or request forms</td> 
   </tr> 
+  -->
  </tbody> 
 </table>
 
@@ -58,6 +64,11 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 ## Requisitos previos
 
 Debe tener una solicitud que usted o alguien de su organización haya enviado anteriormente para poder copiarla y volver a enviarla. Si la solicitud pertenece a otra persona, debe tener al menos acceso a la Vista para poder copiarla y enviarla como nueva.
+
+Puede copiar y volver a enviar uno de los siguientes tipos de solicitudes:
+
+* Una solicitud Workfront, enviada a una cola de solicitudes
+* Una solicitud de Workfront Planning enviada a un formulario de solicitud de Planning, si su empresa compró un paquete de Planning.
 
 ## Consideraciones sobre cómo copiar y enviar solicitudes como nuevas
 
@@ -92,7 +103,51 @@ Debe tener una solicitud que usted o alguien de su organización haya enviado an
   >
   >La solicitud copiada no está vinculada a un objeto de resolución.
 
+## Copiar y enviar solicitudes en la nueva experiencia de solicitud
+
+Puede copiar y enviar solicitudes en el área de Solicitudes de Workfront o desde el widget Mis solicitudes en Inicio.
+
+1. Realice una de las siguientes acciones:
+
+   {{step1-to-requests}}
+
+   1. Para acceder al widget **Mis solicitudes** en **Inicio**:
+
+   {{step1-to-home}}
+
+   1. Busque el widget **Mis solicitudes**.
+
+      Para obtener más información sobre el widget Mis solicitudes, consulte [Usar el widget Mis solicitudes](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md).
+
+1. En la lista **Solicitudes** o en el widget **Mis solicitudes** de Inicio, pase el ratón sobre la solicitud que quiera copiar y, a continuación, haga clic en el menú **Más** junto a su nombre.
+
+   ![Menú Más](assets/more-menu.png)
+
+1. Haga clic en **Copiar**
+
+   O
+
+   Haga clic con el botón derecho en la solicitud seleccionada y luego haga clic en **Copiar**.
+
+   >[!TIP]
+   >
+   >Cuando no tiene acceso para crear problemas, recibe la advertencia de que el administrador le ha restringido la creación de solicitudes.
+
+1. (Opcional) Actualice la información de la solicitud copiada. Los campos disponibles dependen de la cola de solicitud o del formulario de solicitud que se utilice para la solicitud.
+
+   Al introducir o cambiar cualquier valor de campo en la solicitud copiada, se guarda como borrador.
+
+1. Haga clic en **Enviar**.
+
+   La solicitud copiada se envía como una solicitud nueva.
+
+   Los objetos de resolución de la solicitud original no se copian.
+
+   Cuando copia y vuelve a enviar una solicitud de Planning, se crea otro registro para el tipo de registro asociado al formulario de la solicitud original.
+
 ## Copiar y enviar solicitudes en la experiencia de solicitud heredada
+
+Si su empresa ha adquirido un paquete de Workfront Planning, no puede copiar y enviar solicitudes de Planning en la experiencia de solicitud heredada.
 
 {{step1-to-requests}}
 
@@ -222,42 +277,6 @@ Debe tener una solicitud que usted o alguien de su organización haya enviado an
 
    La solicitud copiada se envía como una nueva solicitud en la cola de solicitudes especificada.
 
-## Copiar y enviar solicitudes en la nueva experiencia de solicitud
 
-Puede copiar y enviar solicitudes en el área de Solicitudes de Workfront o desde el widget Mis solicitudes en Inicio.
-
-1. Realice una de las siguientes acciones:
-
-   {{step1-to-requests}}
-
-   1. Para acceder al widget **Mis solicitudes** en **Inicio**:
-
-   {{step1-to-home}}
-
-   1. Busque el widget **Mis solicitudes**.
-
-      Para obtener más información sobre el widget Mis solicitudes, consulte [Usar el widget Mis solicitudes](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md).
-
-1. En la lista **Solicitudes** o en el widget **Mis solicitudes** de Inicio, pase el ratón sobre la solicitud que quiera copiar y, a continuación, haga clic en el menú **Más** junto a su nombre.
-
-   ![Menú Más](assets/more-menu.png)
-
-1. Haga clic en **Copiar**
-
-   O
-
-   Haga clic con el botón derecho en la solicitud seleccionada y luego haga clic en **Copiar**.
-
-   >[!TIP]
-   >
-   >Cuando no tiene acceso para crear problemas, recibe la advertencia de que el administrador le ha restringido la creación de solicitudes.
-
-1. (Opcional) Actualice la información de la solicitud copiada. Los campos disponibles dependen de la cola de solicitud o del formulario de solicitud que se utilice para la solicitud.
-
-   Al introducir o cambiar cualquier valor de campo en la solicitud copiada, se guarda como borrador.
-
-1. Haga clic en **Enviar**.
-
-   La solicitud copiada se envía como una solicitud nueva.
 
 

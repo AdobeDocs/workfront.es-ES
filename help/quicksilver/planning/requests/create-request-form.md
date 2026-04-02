@@ -6,9 +6,11 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: ddf10844646a79c43accaffa1789caf24290cc8a
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: f4d7484145226eb85bc547e582438e5202dec023
 workflow-type: tm+mt
-source-wordcount: '3568'
+source-wordcount: '3602'
 ht-degree: 5%
 
 ---
@@ -105,7 +107,7 @@ Para crear un formulario de solicitud, debe empezar a crearlo, configurar los de
 
 ### Empezar a crear un formulario de solicitud
 
-Puede crear un formulario de solicitud a partir del tipo de registro asociado al formulario <!--span class="preview">, or from the Requests area of Workfront.</span>-->.
+Puede crear un formulario de solicitud a partir del tipo de registro asociado al formulario <!--<span class="preview"> or from the Requests area of Workfront</span>-->.
 
 #### Creación de un formulario de solicitud a partir de un tipo de registro
 
@@ -160,8 +162,6 @@ Puede crear un formulario de solicitud a partir del tipo de registro asociado al
 
    The request form for the selected record type opens in the Form tab.
 1. Continue to [Set up details for the request form](#set-up-details-for-the-request-form).
-
-
 
 </div>
 
@@ -414,7 +414,19 @@ For information on creating automations in other areas of Workfront Planning, se
 
 1. Haga clic en el menú **Más** ![Menú más](assets/more-menu.png) que se encuentra a la derecha del nombre del tipo de registro en el encabezado de la página y, a continuación, haga clic en **Administrar formularios de solicitud**.
 
-   Todos los formularios de solicitud asociados al tipo de registro se muestran en una vista de tabla.
+   Se abre la página **Formularios de solicitud** y todos los formularios de solicitud asociados con el tipo de registro se muestran en una vista de tabla.
+1. (Opcional) Actualice los siguientes elementos de vista en la página **Formularios de solicitud** para cambiar el modo en que se muestra la información en la tabla:
+
+   * Columnas
+
+   <!--
+   <div class="preview">
+   * Grouping <!-ensure they will change the label by Prod->
+   * Row height
+   </div>
+   -->
+
+   Para obtener más información, consulte [Administrar la vista de lista](/help/quicksilver/planning/views/manage-the-list-view.md).
 
 1. (Opcional) Pase el ratón sobre el nombre de un formulario de solicitud en la vista de tabla, luego haga clic en el menú **Más** ![Menú Más](assets/more-menu.png) a la derecha del nombre del formulario y haga clic en una de las siguientes opciones:
 
@@ -423,6 +435,8 @@ For information on creating automations in other areas of Workfront Planning, se
    * **Compartir**: haga clic aquí para modificar quién tiene acceso al formulario.
    * **Copiar vínculo**: haga clic aquí para copiar rápidamente el vínculo del formulario de solicitud sin abrir el formulario.
    * **Eliminar**: haga clic aquí para eliminar el formulario. No se eliminan todas las solicitudes y registros agregados mediante el formulario. El formulario no se puede recuperar.
+
+   <!--update screen shot at preview:-->
 
    ![Menú más en el formulario de solicitud de la lista de formularios de solicitud](assets/more-menu-on-request-form-from-request-forms-list.png)
 

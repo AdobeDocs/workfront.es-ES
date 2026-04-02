@@ -6,14 +6,18 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: b80d5ccf-4d22-49f2-89b6-bb9678a353c2
-source-git-commit: 609396b2eb6413c8f6e84361757f00c2cc5e3ad6
+source-git-commit: f4d7484145226eb85bc547e582438e5202dec023
 workflow-type: tm+mt
-source-wordcount: '372'
-ht-degree: 92%
+source-wordcount: '447'
+ht-degree: 78%
 
 ---
 
 # Información general sobre espacios de trabajo
+
+<span class="preview">La información de esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa para todos los clientes. Después de las versiones mensuales en Production, las mismas funciones también están disponibles en el entorno Production para los clientes que habilitaron versiones rápidas. </span>
+
+<span class="preview">Para obtener información sobre las versiones rápidas, consulte [Habilitar o deshabilitar las versiones rápidas para su organización](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -30,8 +34,11 @@ Un espacio de trabajo es un conjunto de tipos de registros que utiliza una unida
 
    * Desde cero
    * Mediante una plantilla. Las plantillas contienen un número preconfigurado de tipos de registro y sus campos.
+   * Uso de Planning Designer con tecnología de IA. Esta función se encuentra actualmente en Beta.
+   * <span class="preview">Usando un paquete de plantillas de área de trabajo múltiple.</span>
 
   Para obtener más información, consulte [Creación de espacios de trabajo](/help/quicksilver/planning/architecture/create-workspaces.md).
+
 * Los espacios de trabajo son marcos en los que trabajan las unidades organizativas (un equipo, un grupo, un departamento o una división). No se pueden asociar a campos. Solo los tipos de registro dentro de un espacio de trabajo pueden asociarse con campos.
 
   Para obtener más información, vea [Información general sobre los tipos de registro](/help/quicksilver/planning/architecture/overview-of-record-types.md).
@@ -40,7 +47,7 @@ Un espacio de trabajo es un conjunto de tipos de registros que utiliza una unida
    * Para los administradores del sistema, los espacios de trabajo se muestran en las siguientes pestañas:
 
       * **Espacios de trabajo en los que trabajo**: muestra los espacios de trabajo que ha creado o los que se han compartido con usted.
-      * **Otros espacios de trabajo**: Muestra todos los demás espacios de trabajo del sistema.
+      * **Otros espacios de trabajo**: muestra todos los demás espacios de trabajo del sistema.
 
    * Para el resto de los usuarios, los espacios de trabajo que han creado otros y los que otros han compartido con ellos se muestran en el área Espacios de trabajo.
 

@@ -6,9 +6,11 @@ author: Alina, Becky
 feature: Workfront Planning
 role: User, Admin
 exl-id: ba7a4b04-5faa-41b6-86d0-4d0ce946ad1e
-source-git-commit: c91622e8155c62ecf7c17eaeb60b2bd4f69aaedf
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 442ddab8c7b92d52e0de699bb7acf99a5ca0f215
 workflow-type: tm+mt
-source-wordcount: '1502'
+source-wordcount: '1524'
 ht-degree: 8%
 
 ---
@@ -180,7 +182,7 @@ Puede crear o actualizar objetos en Workfront Planning mediante Planning Designe
 
    ![Diseñar con el botón de IA en la página Espacios de trabajo](assets/design-with-ai-button-on-workspaces-page.png)
 
-1. Haga clic en **Crear con IA**. <!--update this when they change it to Generate with AI-->
+1. Haga clic en **Crear con IA** o haga clic en **Crear espacio de trabajo** y, a continuación, utilice la ventana de solicitud de la parte superior para indicar qué tipo de espacio de trabajo desea crear. <!--update this when they change it to Generate with AI-->
 
    Se abre la ventana **Planning Designer**. <!--remove the Beta tag here when this removes from Beta-->
 

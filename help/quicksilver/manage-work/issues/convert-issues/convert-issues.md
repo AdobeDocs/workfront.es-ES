@@ -8,10 +8,12 @@ feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 97c83b65-208b-4e3f-b4cc-681237d82aa3
-source-git-commit: 0542587bb3254dec5664de493c1c321528cf7f3e
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 442ddab8c7b92d52e0de699bb7acf99a5ca0f215
 workflow-type: tm+mt
-source-wordcount: '1497'
-ht-degree: 92%
+source-wordcount: '1541'
+ht-degree: 90%
 
 ---
 
@@ -34,7 +36,7 @@ Para obtener información acerca de cómo convertir problemas en proyectos, vea 
 * Tenga en cuenta lo siguiente:
 
    * Durante la conversión, es posible que se le pregunte si desea mantener el problema y su resolución asociados al proyecto o la tarea que está creando.
-   * Si mantiene el problema, el estado y el porcentaje completado del proyecto o la tarea actualizan automáticamente el estado y el porcentaje completado del problema cuando se producen cambios en el proyecto, la tarea o el problema, o cuando Workfront vuelve a calcular la línea de tiempo.
+   * Si mantiene el problema, el estado y el porcentaje completado del proyecto o la tarea actualizan automáticamente el estado y el porcentaje completado del problema cuando se producen cambios en el proyecto, la tarea o el problema, o cuando Workfront vuelve a calcular la cronología.
 
   >[!NOTE]
   >
@@ -158,13 +160,14 @@ En la tabla siguiente se muestra información del proyecto y si se transfiere de
    <td> <p>Transferencias desde la sección Acceso en la plantilla. </p> </td> 
   </tr> 
   <tr> 
-   <td>Rutas de aprobación</td> 
+   <td>Aprobaciones</td> 
    <td>Transferencia desde la plantilla. Las aprobaciones asociadas con el problema se eliminan durante la conversión. </td> 
   </tr> 
  </tbody> 
 </table>
 
-<!--WRITER
+<!--
+WRITER
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <h2>Convert an issue to a project</h2> 
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: moved to its own article)</p>
@@ -256,3 +259,12 @@ La siguiente tabla ilustra qué campos de problema son visibles desde los proyec
 >[!CAUTION]
 >
 >Si el Contacto principal de un problema cambia o si el problema se desvincula del proyecto o de la tarea después de que se haya convertido, el Nombre del generador de problema convertido no se actualiza y muestra el Contacto principal original del problema en el momento en el que este se convirtió.
+
+## Ver el problema original y los objetos convertidos de las listas de solicitudes
+
+Puede ver el problema original y los objetos convertidos en el área de Solicitudes y en el widget Mis solicitudes de Inicio.
+
+Para obtener más información, consulte los siguientes artículos:
+
+* [Vista de solicitudes enviadas](/help/quicksilver/manage-work/requests/create-requests/locate-submitted-requests.md)
+* [Uso del widget Mis solicitudes](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md)

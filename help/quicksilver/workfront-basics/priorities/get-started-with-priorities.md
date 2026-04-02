@@ -6,10 +6,12 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 17767006-2329-43b7-b4b3-0ca323cc41e0
-source-git-commit: 4e3c2e50bb3dc1c49939a4c2064e6d89d20e4c24
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 442ddab8c7b92d52e0de699bb7acf99a5ca0f215
 workflow-type: tm+mt
-source-wordcount: '1017'
-ht-degree: 7%
+source-wordcount: '1018'
+ht-degree: 9%
 
 ---
 
@@ -103,7 +105,7 @@ Después de filtrar el trabajo, puede agrupar los elementos en función de
 * Estado
 * Proyecto
 
-Para obtener más información, vea [Filtrar y agrupar su trabajo en Prioridades](/help/quicksilver/workfront-basics/priorities/filter-group-work-priorities.md).
+Para obtener más información, vea [Filtrar, agrupar y ordenar su trabajo con prioridades](/help/quicksilver/workfront-basics/priorities/filter-group-work-priorities.md).
 
 ### Priorizar elementos de trabajo importantes con Mi enfoque
 
@@ -196,7 +198,7 @@ Desde la pestaña Documentos de una tarea o un problema, puede
 
 Use la característica [!DNL Catch me up] para ver lo que se perdió. Ponerme al día resumirá las actualizaciones, los documentos cargados, las aprobaciones y otros cambios importantes sobre sus proyectos en los siguientes lapsos de tiempo: 24 horas, 3 días, 7 días.
 
-Para obtener más información, vea [Ponerse al día con el trabajo en Prioridades](/help/quicksilver/workfront-basics/priorities/catch-me-up.md).
+Para obtener más información, consulte [Ponerse al día con el trabajo en Prioridades](/help/quicksilver/workfront-basics/priorities/catch-me-up.md).
 
 ![Ponerme al día](assets/catch-me-up.png)
 
@@ -210,4 +212,5 @@ Puede ver actualizaciones en tiempo real en la página Detalles de una tarea o u
 <!--
 ## Considerations
 
-* Accessing tasks in Priorities is across tabs. We plan to add additional tabs, like Documents, Subtasks, Approvals, etc, in the future. Let us know you need these items by submitting feedback using the **Give Feedback** button.-->
+* Accessing tasks in Priorities is across tabs. We plan to add additional tabs, like Documents, Subtasks, Approvals, etc, in the future. Let us know you need these items by submitting feedback using the **Give Feedback** button.
+-->
