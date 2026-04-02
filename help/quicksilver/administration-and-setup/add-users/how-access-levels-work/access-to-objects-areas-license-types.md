@@ -9,10 +9,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 87fb5673-6e36-4182-958a-d69a56fe7b68
-source-git-commit: 0ccf02a333b41705a582bcb10ab9a90198123997
+source-git-commit: 09bbb257a80c3f85abea9d238900d63c493fea2e
 workflow-type: tm+mt
-source-wordcount: '468'
-ht-degree: 80%
+source-wordcount: '488'
+ht-degree: 84%
 
 ---
 
@@ -20,9 +20,11 @@ ht-degree: 80%
 
 <!-- Audited: 2/2024 -->
 
+{{highlighted-preview}}
+
 >[!NOTE]
 >
->La información de este artículo hace referencia a los niveles de acceso actuales. Para obtener información acerca de los niveles de acceso heredados, vea [Información general sobre los niveles de acceso](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
+>La información de este artículo hace referencia a los niveles de acceso actuales. Para obtener información acerca de los niveles de acceso heredados, consulte [Información general sobre los niveles de acceso](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
 
 En la siguiente tabla se indica el nivel más alto de acceso (Editar o Ver) que cada una de las licencias de Adobe Workfront permite para los objetos y áreas en Workfront.
 
@@ -105,6 +107,13 @@ En la siguiente tabla se indica el nivel más alto de acceso (Editar o Ver) que 
         <td>Ver</td>
     </tr>
     <tr>
+        <td><span class="preview">Roles</span></td>
+        <td>Editar</td>
+        <td>Ver</td>
+        <td>Ver</td>
+        <td>Sin acceso</td>
+    </tr>
+    <tr>
         <td>Equipos</td>
         <td>Editar</td>
         <td>Ver</td>
@@ -134,6 +143,13 @@ En la siguiente tabla se indica el nivel más alto de acceso (Editar o Ver) que 
     </tr>
     <tr>
         <td>Planificador de escenarios</td>
+        <td>Editar</td>
+        <td>Ver</td>
+        <td>Sin acceso</td>
+        <td>Sin acceso</td>
+    </tr>
+    <tr>
+        <td><span class="preview">Tarjetas de tarifas</span></td>
         <td>Editar</td>
         <td>Ver</td>
         <td>Sin acceso</td>
@@ -176,4 +192,5 @@ Puede encontrar información detallada sobre lo que permiten los niveles de acce
 * [Conceder acceso a los datos financieros](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md)
 * [Conceder acceso a Administración de recursos](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md)
 * [Conceder acceso al Planificador de escenarios](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-sp.md)
+* [Conceder acceso a las tarjetas de tarifa](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-rate-cards.md)
 * [Conceder acceso a Adobe Workfront Goals](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md)

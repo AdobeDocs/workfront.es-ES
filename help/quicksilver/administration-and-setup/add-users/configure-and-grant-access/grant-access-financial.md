@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: bf4a37ee-9435-4c1c-b18c-a7338a548ab7
-source-git-commit: 97f5adc8811a3be7be23137a82d10d45b76ec605
+source-git-commit: d45c34b1f48a7ffcae29556d34558bb4d1d8a016
 workflow-type: tm+mt
-source-wordcount: '823'
-ht-degree: 94%
+source-wordcount: '853'
+ht-degree: 83%
 
 ---
 
@@ -61,13 +61,18 @@ Tenga en cuenta lo siguiente al conceder a los usuarios acceso a los datos finan
 * Un usuario cuyo nivel de acceso no permite el acceso a los datos financieros no puede conceder acceso que permitiría a otros ver los datos financieros. Esto incluye dar acceso a proyectos que mostrarían datos financieros o modificar un nivel de acceso para permitir la visualización de datos financieros.
 * Un usuario cuyo nivel de acceso no permite el acceso a los datos financieros no puede crear un riesgo para un proyecto. Para obtener más información, consulte [Crear y editar riesgos en proyectos](../../../manage-work/projects/define-a-business-case/create-edit-risks-on-projects.md).
 * También puede utilizar un nivel de acceso para determinar qué actividades de Administración de recursos puede utilizar un usuario para presupuestar o ver la asignación de recursos. Para obtener más información, consulte [Conceder acceso a Administración de recursos](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md).
+* <span class="preview">El acceso a las tarifas de facturación, las tarifas de costo y las finanzas generales es independiente, lo que permite un control más preciso de las diferentes funciones de usuario que administran detalles financieros complejos. Las finanzas generales son datos financieros adicionales que no incluyen las tarifas de facturación y de costo.</span>
 
 ## Configuración del acceso de los usuarios a los datos financieros mediante un nivel de acceso personalizado
 
 1. Comience a crear o editar el nivel de acceso, tal como se explica en [Crear o modificar niveles de acceso personalizados](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 1. Haga clic en el icono de engranaje ![](assets/gear-icon-settings.png) en el botón **Ver** o **Editar** que se encuentra a la derecha de Datos financieros y, a continuación, seleccione las facultades que desea conceder en **Ajustar la configuración**.
 
-   ![](assets/financial-data-fine-tune-nwe.png)
+   <span class="preview">Imagen de muestra en el entorno de vista previa:</span>
+   ![Ajustar el acceso a datos financieros](assets/financial-data-access-fine-tune.png)
+
+   Imagen de muestra en el entorno de producción:
+   ![Ajustar el acceso a datos financieros](assets/financial-data-fine-tune-nwe.png)
 
 1. (Opcional) En el área **Permitir acceso administrativo para**, seleccione las siguientes opciones:
 
@@ -126,15 +131,9 @@ Un usuario sin acceso a datos financieros no tiene acceso a lo siguiente:
 
 * Sección Finanzas bajo Objetos de proyecto y tarea
 * Caso empresarial
-* Tarifas de facturación y registros de facturación
-* <span class="preview">Tarjetas de tarifas</span>
-* Coste por hora y facturación por hora según las preferencias del usuario
-
-  Esto se puede configurar con el icono de engranaje ![](assets/gear-icon-settings.png) en el botón Ver del paso 4.
-
+* Tasas de facturación y registros de facturación en los proyectos
+* Coste por hora y facturación por hora en perfiles de usuario
 * Coste por hora y facturación por hora en Funciones
-
-  Esto se puede configurar con el icono de engranaje ![](assets/gear-icon-settings.png) en el botón Ver del paso 4.
 
 ### Acceso de visualización
 
@@ -142,8 +141,8 @@ Un usuario con acceso de visualización a datos financieros puede ver (no editar
 
 * Sección Finanzas bajo Objetos de proyecto y tarea
 * Caso empresarial
-* Tarifas de facturación y registros de facturación
-* Coste por hora y facturación por hora según las preferencias del usuario
+* Tasas de facturación y registros de facturación en los proyectos
+* Coste por hora y facturación por hora en perfiles de usuario
 
   Esto se puede configurar con el icono de engranaje ![](assets/gear-icon-settings.png) en el botón Ver del paso 4.
 
@@ -157,9 +156,8 @@ Un usuario con acceso de edición a datos financieros puede ver y editar lo sigu
 
 * Sección Finanzas bajo Objetos de proyecto y tarea
 * Caso empresarial
-* Tarifas de facturación y registros de facturación
-* <span class="preview">Tarjetas de tarifas</span>
-* Coste por hora y facturación por hora según las preferencias del usuario
+* Tarifas de facturación, registros de facturación y tarifas de costo en los proyectos
+* Coste por hora y facturación por hora en perfiles de usuario
 
   Esto se puede configurar con el icono de engranaje ![](assets/gear-icon-settings.png) en el botón Editar del paso 4.
 

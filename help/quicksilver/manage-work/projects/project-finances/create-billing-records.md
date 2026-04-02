@@ -5,10 +5,10 @@ description: Además de configurar los ingresos y llevar el seguimiento de los g
 author: Lisa
 feature: Work Management
 exl-id: 6f17a892-7f64-4712-8ee2-7a1940b99be3
-source-git-commit: 23a4d055871c9138818e70fa1cd936581dbd7552
+source-git-commit: 8f6f14d4b36a9eee499111b1a37912f641c9f2ba
 workflow-type: tm+mt
-source-wordcount: '1635'
-ht-degree: 38%
+source-wordcount: '1633'
+ht-degree: 39%
 
 ---
 
@@ -29,7 +29,7 @@ No puede crear registros de facturación para tareas; sólo puede crear registro
  <col> 
  <tbody> 
   <tr> 
-   <td>paquete de Adobe Workfront</td> 
+   <td>Paquete de Adobe Workfront</td> 
    <td>Cualquiera</td> 
   </tr> 
   <tr> 
@@ -144,7 +144,7 @@ Puede añadir horas a un registro de facturación cuando se cumplan las siguient
      >[!NOTE]
      >
      >Puede anular las tarifas de facturación de las funciones a nivel de proyecto.\
-     >Para obtener más información, consulte la sección &quot;Anulación de las tarifas de facturación de rol en el nivel de proyecto&quot; en el artículo [Información general sobre la anulación de tarifas de facturación de rol y el cálculo de ingresos en un proyecto](../../../manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
+     >Para obtener más información, consulte la sección &quot;Anulación de las tarifas de facturación de rol en el nivel de proyecto&quot; en el artículo [Información general sobre la anulación de tarifas de facturación y el cálculo de ingresos en un proyecto](/help/quicksilver/manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
 
 * Si la opción Requerir tiempo para aprobar de este proyecto está seleccionada en Configuración del proyecto, el propietario del proyecto debe aprobar las horas registradas.\
   Para obtener más información, vea [Requerir tiempo para aprobar un proyecto](../../../manage-work/projects/manage-projects/require-time-approval-for-projects.md).

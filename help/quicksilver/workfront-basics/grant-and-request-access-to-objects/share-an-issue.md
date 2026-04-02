@@ -6,14 +6,16 @@ description: El administrador de Adobe Workfront concede a los usuarios acceso p
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 91ee72e0-20a9-4b06-9f80-a343dd4fbe06
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: ddaecaf65fc7080e27ae67d6c8f4980586f1241e
 workflow-type: tm+mt
-source-wordcount: '1237'
-ht-degree: 23%
+source-wordcount: '1263'
+ht-degree: 25%
 
 ---
 
 # Compartir un problema
+
+<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa de espacio aislado.</span>
 
 El administrador de Adobe Workfront concede a los usuarios acceso para ver o editar problemas cuando asignan niveles de acceso. Para obtener más información sobre la concesión de acceso a los problemas, consulte [Conceder acceso a los problemas](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md).
 
@@ -85,7 +87,7 @@ Además de las consideraciones siguientes, consulte [Información general sobre 
    * Especifique los permisos en cualquiera de los objetos principales del problema: proyecto, programa o portafolio. Los problemas heredan los permisos de sus objetos principales. Para obtener información acerca de cómo ver permisos heredados en objetos, consulte [Ver permisos heredados en objetos](../../workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md).
    * Agregue entidades al Uso compartido de proyectos en una plantilla utilizada para crear el proyecto en el que se encuentra el problema. Para obtener información sobre cómo compartir proyectos desde plantillas, consulte [Compartir una plantilla](../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md).
 
-   * Especifique los permisos sobre todos los problemas de un proyecto al editarlo. Para obtener información sobre cómo administrar el acceso a problemas o solicitudes en el proyecto en función de los permisos de un usuario para el proyecto, consulte la sección [&#128279;](../../manage-work/projects/manage-projects/edit-projects.md#access) en el artículo [Editar proyectos](../../manage-work/projects/manage-projects/edit-projects.md).
+   * Especifique los permisos sobre todos los problemas de un proyecto al editarlo. Para obtener información sobre cómo administrar el acceso a problemas o solicitudes en el proyecto en función de los permisos de un usuario para el proyecto, consulte la sección [](../../manage-work/projects/manage-projects/edit-projects.md#access) en el artículo [Editar proyectos](../../manage-work/projects/manage-projects/edit-projects.md).
 
      >[!TIP]
      >
@@ -167,7 +169,7 @@ Además de las consideraciones siguientes, consulte [Información general sobre 
 
    ![Botón Compartir problema](assets/share-issue-button.png)
 
-1. En el campo **Conceder acceso al problema a**, empiece a escribir el nombre del usuario, equipo, función, grupo o compañía con el que desea compartir el problema y, a continuación, haga clic en el nombre cuando aparezca en la lista desplegable.
+1. En el campo **Conceder acceso al problema a**, empiece a escribir el nombre del usuario, equipo, rol, grupo, compañía, <span class="preview">o perfil empresarial</span> con el que desea compartir el problema y, a continuación, haga clic en el nombre cuando aparezca en la lista desplegable.
 
    >[!TIP]
    >
@@ -201,7 +203,7 @@ Además de las consideraciones siguientes, consulte [Información general sobre 
 
    ![Problemas de uso compartido en lotes](assets/bulk-share-issues.png)
 
-1. En el campo **Conceder acceso al problema a**, empiece a escribir el nombre del usuario, equipo, función, grupo o compañía con el que desee compartir los problemas y, a continuación, haga clic en el nombre cuando aparezca en la lista desplegable.
+1. En el campo **Conceder acceso al problema a**, empiece a escribir el nombre del usuario, equipo, rol, grupo, compañía, <span class="preview">o perfil empresarial</span> con el que desea compartir los problemas y, a continuación, haga clic en el nombre cuando aparezca en la lista desplegable.
 
    >[!TIP]
    >

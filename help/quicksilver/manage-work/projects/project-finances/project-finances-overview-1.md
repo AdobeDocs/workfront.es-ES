@@ -7,10 +7,10 @@ description: Llevar un seguimiento de las finanzas del proyecto es fundamental p
 author: Lisa
 feature: Work Management
 exl-id: a5e69dea-d0aa-47cd-9b59-6199cec56fe4
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: 8f6f14d4b36a9eee499111b1a37912f641c9f2ba
 workflow-type: tm+mt
-source-wordcount: '594'
-ht-degree: 96%
+source-wordcount: '592'
+ht-degree: 93%
 
 ---
 
@@ -95,7 +95,7 @@ La siguiente tabla muestra algunas de las finanzas que puede seguir en Workfront
   </tr> 
   <tr> 
    <td>Tarifas de facturación</td> 
-   <td> <p>Puede establecer tarifas de facturación para usuarios o roles de trabajo.</p> <p>Para obtener información sobre cómo asociar usuarios con tarifas de facturación, consulte <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">Editar el perfil de un usuario</a>.</p> <p>Para obtener información sobre cómo asociar roles con tarifas de facturación, consulte <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md" class="MCXref xref">Crear y administrar funciones de trabajo</a>.</p> <p>Las Tarifas de facturación calculan los Ingresos de sus proyectos y tareas. Puede sobrescribir las tarifas de facturación por rol para un proyecto o para una empresa. </p> <p>Para obtener información sobre cómo sobrescribir las tarifas de facturación en proyectos, consulte <a href="../../../manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md" class="MCXref xref">Resumen de anulación de Tarifas de facturación de rol y cálculo de ingresos en un proyecto y el cálculo de los ingresos en un proyecto</a>.</p> <p>Para obtener información sobre cómo anular las tarifas de facturación de las empresas, consulte <a href="../../../manage-work/projects/project-finances/override-project-level-with-company-level-billing-rates.md" class="MCXref xref">Anular tarifas de facturación a nivel de proyecto con tarifas de facturación a nivel de compañía</a>.</p> </td> 
+   <td> <p>Puede establecer tarifas de facturación para usuarios o roles de trabajo.</p> <p>Para obtener información sobre cómo asociar usuarios con tarifas de facturación, consulte <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">Editar el perfil de un usuario</a>.</p> <p>Para obtener información sobre cómo asociar roles con tarifas de facturación, consulte <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md" class="MCXref xref">Crear y administrar funciones de trabajo</a>.</p> <p>Las Tarifas de facturación calculan los Ingresos de sus proyectos y tareas. Puede sobrescribir las tarifas de facturación por rol para un proyecto o para una empresa. </p> <p>Para obtener información sobre cómo anular las tarifas de facturación en los proyectos, consulte <a href="../../../manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md" class="MCXref xref">Información general sobre cómo anular las tarifas de facturación y calcular los ingresos en un proyecto</a>.</p> <p>Para obtener información sobre cómo anular las tarifas de facturación de las empresas, consulte <a href="../../../manage-work/projects/project-finances/override-project-level-with-company-level-billing-rates.md" class="MCXref xref">Anular tarifas de facturación a nivel de proyecto con tarifas de facturación a nivel de compañía</a>.</p> </td> 
    <td>✔</td> 
    <td>✔</td> 
    <td> </td> 

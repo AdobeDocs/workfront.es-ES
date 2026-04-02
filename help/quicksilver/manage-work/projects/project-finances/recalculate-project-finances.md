@@ -6,10 +6,10 @@ description: Las finanzas se calculan en un proyecto a medida que se producen ca
 author: Lisa
 feature: Work Management
 exl-id: 5a90c5a1-8b26-4b6f-b9ec-f446a2e94ff0
-source-git-commit: 23a4d055871c9138818e70fa1cd936581dbd7552
+source-git-commit: 8f6f14d4b36a9eee499111b1a37912f641c9f2ba
 workflow-type: tm+mt
-source-wordcount: '1609'
-ht-degree: 91%
+source-wordcount: '1605'
+ht-degree: 88%
 
 ---
 
@@ -26,7 +26,7 @@ Las finanzas se calculan en un proyecto a medida que se producen cambios en las 
  <col> 
  <tbody> 
   <tr> 
-   <td>paquete de Adobe Workfront</td> 
+   <td>Paquete de Adobe Workfront</td> 
    <td>Cualquiera </td> 
   </tr> 
   <tr> 
@@ -93,7 +93,7 @@ Las tarifas de ingresos pueden cambiar en los siguientes niveles:
   Para obtener más información, consulte [Anular tarifas de facturación de función laboral a nivel de compañía](../../../administration-and-setup/set-up-workfront/organizational-setup/override-job-role-billing-rates-company-level.md).
 
 * El nivel del proyecto (para funciones)\
-  Para obtener más información sobre la anulación de tarifas para las funciones en el nivel de proyecto, consulte [Información general sobre cómo anular las tarifas de facturación de funciones y calcular los ingresos en un proyecto](../../../manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
+  Para obtener más información acerca de la anulación de tarifas de rol en el nivel de proyecto, vea el artículo [Información general sobre la anulación de tarifas de facturación y el cálculo de ingresos en un proyecto](/help/quicksilver/manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
 
 Por ejemplo, la tarifa de facturación de un usuario cambia durante el transcurso de un proyecto de 50 a 75 dólares la hora y desea que todos los datos existentes permanezcan calculados con la tarifa antigua (50 dólares la hora). Sin embargo, cuando se recalculen las finanzas del proyecto, los ingresos de las tareas que ya tengan datos financieros se actualizarán para reflejar la nueva tarifa de facturación (de 75 dólares la hora).
 
@@ -112,7 +112,7 @@ Para obtener más información sobre la creación de registros de facturación, 
 
 Cuando cambian las tarifas de facturación de funciones en el nivel de proyecto, puede conservar los ingresos existentes que ya se han calculado en el proyecto mediante el uso de varias anulaciones de tarifas de facturación que están bloqueadas dentro de un lapso de tiempo especificado.
 
-Para obtener más información acerca de cómo usar varias anulaciones de tarifas de facturación, consulte el artículo [Información general sobre cómo anular las tarifas de facturación de funciones y calcular los ingresos en un proyecto](../../../manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
+Para obtener más información sobre cómo usar varias anulaciones de tarifas de facturación, consulte el artículo [Información general sobre cómo anular las tarifas de facturación y calcular los ingresos en un proyecto](/help/quicksilver/manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
 
 >[!NOTE]
 >

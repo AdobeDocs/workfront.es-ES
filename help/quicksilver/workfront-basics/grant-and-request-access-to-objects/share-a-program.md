@@ -7,14 +7,16 @@ description: El administrador de Adobe Workfront puede otorgarle acceso para ver
 author: Courtney
 feature: Get Started with Workfront
 exl-id: bfa6ce97-24ad-44b3-9c2f-7fac6b748f94
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: ddaecaf65fc7080e27ae67d6c8f4980586f1241e
 workflow-type: tm+mt
-source-wordcount: '892'
+source-wordcount: '918'
 ht-degree: 46%
 
 ---
 
 # Compartir un programa
+
+<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa de espacio aislado.</span>
 
 
 El administrador de Adobe Workfront puede otorgarle acceso para ver o editar programas al asignar su nivel de acceso. Debe tener una licencia de Planificación para tener acceso a la edición de un programa. Para obtener más información, consulte [Conceder acceso a los programas](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-programs.md).
@@ -89,7 +91,7 @@ Además de las consideraciones siguientes, consulte [Información general sobre 
 
    ![Botón Compartir programa](assets/share-program-button.png)
 
-1. En el campo **Conceder acceso al programa a**, empiece a escribir el nombre del usuario, equipo, rol, grupo o compañía con el que desea compartir el programa y, a continuación, haga clic en el nombre cuando aparezca en la lista desplegable.
+1. En el campo **Conceder acceso al programa a**, empiece a escribir el nombre del usuario, equipo, rol, grupo, compañía, <span class="preview">o perfil empresarial</span> con el que desea compartir el programa y, a continuación, haga clic en el nombre cuando aparezca en la lista desplegable.
 
    >[!TIP]
    >
@@ -125,7 +127,7 @@ Además de las consideraciones siguientes, consulte [Información general sobre 
 
    ![Programas compartidos en lotes](assets/bulk-share-programs.png)
 
-1. En el campo **Conceder acceso al programa a**, empiece a escribir el nombre del usuario, equipo, rol, grupo o compañía con el que desea compartir los programas y, a continuación, haga clic en el nombre cuando aparezca en la lista desplegable.
+1. En el campo **Conceder acceso al programa a**, empiece a escribir el nombre del usuario, equipo, rol, grupo, compañía, <span class="preview">o perfil empresarial</span> con el que desea compartir los programas y, a continuación, haga clic en el nombre cuando aparezca en la lista desplegable.
 
    >[!TIP]
    >

@@ -8,7 +8,9 @@ author: Courtney
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: beac1ea6-a983-4d12-8972-91150914f731
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: b9e0747a58618353caf3ce1c7e8521d22d2b412d
 workflow-type: tm+mt
 source-wordcount: '708'
 ht-degree: 96%
@@ -47,7 +49,7 @@ En esta sección se ofrecen ejemplos de vistas, filtros y agrupaciones personali
 * [Vista: detalles combinados de tareas y problemas en una lista de horas](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-combined-task-issue-details-hour-list.md)
 * [Vista: mostrar una imagen en lugar de una cadena en una columna](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-image-in-view.md)
 * [Vista: mostrar objetos que no están incluidos en la interfaz estándar](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-objects-not-in-standard-interface.md)
-* [Ver: muestra la información del problema original en las listas de tareas o proyectos](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-original-issue-info-task-project-list.md)
+* [Vista: mostrar información original del problema en listas de tareas o proyectos](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-original-issue-info-task-project-list.md)
 * [Vista: mostrar información sobre el programa y el portafolio en una vista de tarea](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-program-portfolio-info-task-view.md)
 * [Vista: mostrar sangrías de tareas en una lista de tareas](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-task-identations.md)
 * [Vista: informe de documento con vínculo a una prueba](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-document-report-with-proof-link.md)
@@ -263,7 +265,7 @@ En esta sección se ofrecen ejemplos de vistas, filtros y agrupaciones personali
 <p><li>Click the <strong>Filter</strong>, <strong>View</strong>, or <strong>Grouping</strong> drop-down menu again, then click <strong>Share Filter</strong>, <strong>Share View</strong>, or <strong>Share Grouping</strong>.<br />The Filter Access, View Access, or Grouping Access dialog box is displayed.<br /><img src="/hc/en-us/article_attachments/209683908/share_filterviewgrouping.png" alt="" /></li></p>
 <p><li>Complete either of the following, depending on who you want to share with:</li></p>
 <p><ul></p>
-<p><li><strong>To share with individual users, teams, roles, groups, or companies:</strong> In the provided field, begin typing the name of the user, team, role, group, or company you want to share with, then click the name when it appears in the drop-down list.<br />Repeat this process to share access with multiple users, teams, roles, groups, or companies.</li></p>
+<p><li><strong>To share with individual users, teams, roles, groups, or companies:</strong> In the provided field, begin typing the name of the user, team, role, group, company, <span class="preview">or business profile</span> you want to share with, then click the name when it appears in the drop-down list.<br />Repeat this process to share access with multiple users, teams, roles, groups, or companies.</li></p>
 <p><li><strong>To share with all users in the system:</strong> Click the <strong>Settings</strong> icon, then click <strong>Make this visible system-wide</strong>.<br />Your administrator must select the Share System-wide option for this option to be available.&nbsp;For more information,&nbsp;see <a href="/hc/en-us/articles/217179297" target="_blank" rel="noopener">"Creating or Modifying Access Levels"</a> and&nbsp;<a href="/hc/en-us/articles/217179407" target="_blank" rel="noopener">"Reporting Permissions."</a></li></p>
 <p></ul></p>
 <p><li>(Conditional) If you are sharing with individual users, teams, roles, groups, or companies, click the drop-down menu to define the level of access you want to grant. <br /><img src="/hc/en-us/article_attachments/209684008/share_filterviewgrouping_dropdown.png" alt="" /><br />You can select from the following options:<br /><strong>View it:</strong> Select this option to allow the share recipients only to use the shared Filter, View, or Grouping. When this option is selected, recipients cannot make any modifications to the shared item.<br /><strong>Manage it:</strong> Select this option to allow the share recipients to use and modify the shared Filter, View, or Grouping.<br /><strong>Share:</strong> Click <strong>Advanced Settings</strong>, then select or deselect the <strong>Share</strong> option, depending on whether you want the share recipients to be able to share with others.</li></p>

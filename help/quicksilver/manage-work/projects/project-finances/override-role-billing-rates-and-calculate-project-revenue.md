@@ -1,28 +1,58 @@
 ---
 product-area: projects
 navigation-topic: financials
-title: Visión General de Sustitución de Tasas de Facturación de Rol y Cálculo de Ingresos en un Proyecto
-description: Puede utilizar tarifas de facturación para calcular los ingresos de sus proyectos cuando los multiplique por las horas invertidas en el proyecto. Para obtener más información sobre las tarifas de facturación y los ingresos, consulte el artículo Información general sobre facturación e ingresos.
+title: Visión General de Sustitución de Tarifas de Facturación y Cálculo de Ingresos en un Proyecto
+description: Puede usar tarifas de facturación para calcular los ingresos de sus proyectos cuando los multiplique por las horas invertidas en el proyecto.
 author: Lisa
 feature: Work Management
 exl-id: 63ba6758-ba62-48b4-89f4-d784e32a1bfa
-source-git-commit: 01a80f6140650ca12aaee14115f79449dcfa2a18
+source-git-commit: fda01f74912b5b9f28085e6dbc79ca3ba69e38fc
 workflow-type: tm+mt
-source-wordcount: '3859'
-ht-degree: 99%
+source-wordcount: '4653'
+ht-degree: 77%
 
 ---
 
-# Información general sobre cómo anular las tarifas de facturación de funciones y calcular los ingresos en un proyecto
+# Información general sobre la anulación de tarifas de facturación y el cálculo de ingresos en un proyecto
 
 {{highlighted-preview}}
 
 Puede utilizar tarifas de facturación para calcular los ingresos de sus proyectos cuando los multiplique por las horas invertidas en el proyecto. Para obtener más información sobre las tarifas de facturación y los ingresos, consulte el artículo [Información general sobre facturación e ingresos](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md).
 
-## Visión general de tarifas de facturación de funciones y tipos de ingresos de rol por hora
+## Resumen de tarifas de facturación y tipos de ingresos de tareas
 
 Como administrador de Adobe Workfront, puede asociar las tarifas de facturación tanto con los usuarios como con las funciones.\
 Para obtener más información sobre cómo crear usuarios y asociarlos con tarifas de facturación, consulte el artículo [Añadir usuarios](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md). Para obtener más información sobre cómo crear funciones y asociarlas con tarifas de facturación, consulte el artículo [Crear y administrar funciones de trabajo](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
+
+<div class="preview">
+
+### Información general: paquete Workflow Ultimate
+
+Las tarifas de facturación asociadas con los usuarios y los roles se pueden sobrescribir en el nivel de proyecto.
+
+Para calcular los ingresos de los proyectos en función de las tarifas de facturación de las funciones de trabajo, el **Tipo de ingresos** de las tareas de los proyectos debe ser uno de los siguientes:
+
+* Rol por hora
+* Rol por hora con límite
+* Rol por hora más fijos
+* Usuario y función por hora
+* Usuario y rol por hora con tope
+* Usuario y función por hora más fijos
+
+Para calcular los ingresos de los proyectos en función de las tarifas de facturación de los usuarios, el Tipo de ingresos de las tareas de los proyectos debe ser uno de los siguientes:
+
+* Usuario por hora
+* Usuario por hora con límite
+* Usuario por hora más fijos
+* Usuario y función por hora
+* Usuario y rol por hora con tope
+* Usuario y función por hora más fijos
+
+Para obtener más información sobre **Tipo de ingresos** y tarifas de facturación, consulte [Información general sobre facturación e ingresos](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md).
+
+</div>
+
+### Información general: todos los demás paquetes de Workfront y flujo de trabajo
 
 Las tarifas de facturación asociadas con los usuarios no se pueden anular.
 
@@ -36,7 +66,31 @@ Para calcular los ingresos de los proyectos en función de las tarifas de factur
 
 Para obtener más información sobre **Tipo de ingresos** y tarifas de facturación, consulte [Información general sobre facturación e ingresos](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md).
 
-## La jerarquía de tarifa de facturación se anula al calcular ingresos
+<div class="preview">
+
+## Sustituciones de jerarquía de tarifa de facturación al calcular ingresos: paquete Ultimate de flujo de trabajo
+
+>[!NOTE]
+>
+>Los tipos de ingresos por hora de usuario y rol siguen una jerarquía detallada al localizar la tasa de facturación para el cálculo de ingresos. Para obtener más información, consulte [Información general sobre la jerarquía de ingresos y costos](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md).
+
+Una función puede tener asociada una tarifa de facturación de las siguientes maneras:
+
+* Como administrador de Workfront, puede definir la tarifa de facturación a nivel del sistema asociada con una función de trabajo al crear dicha función.\
+  Para obtener más información sobre cómo crear funciones, consulte [Crear y administrar funciones de trabajo](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
+
+* Como administrador de Workfront, puede definir tarjetas de tarifas con varias tarifas de facturación por rol, en función de los atributos y las fechas en vigor. Cuando se adjunta una tarjeta de tarifas a un proyecto, todas las funciones, sus atributos y sus tarifas de facturación asociadas se agregan a la sección de tarifas de facturación del proyecto. Al adjuntar una tarjeta de tarifas, se anulan las tarifas de facturación existentes en el proyecto.
+
+  Para obtener más información, consulte [Administrar tarjetas de tarifas](/help/quicksilver/administration-and-setup/manage-enterprise-operations/manage-rate-cards.md) y [Adjuntar una tarjeta de tarifas a un proyecto](/help/quicksilver/manage-work/projects/project-finances/attach-rate-card-to-project.md).
+
+* Como gerente del proyecto, puede definir la tarifa de facturación para la mismo función en el nivel de proyecto.\
+  Las tarifas de funciones cambiadas en el proyecto solo afectarán a ese proyecto.
+
+  Para obtener información sobre cómo anular las tarifas de funciones para el proyecto, consulte [Anular tarifas de facturación de funciones a nivel de proyecto](../../../manage-work/projects/project-finances/override-job-role-billing-rates-at-the-project-level.md).
+
+</div>
+
+## La jerarquía de tarifas de facturación anula al calcular los ingresos: todos los demás paquetes de Workfront y flujo de trabajo
 
 Una función puede tener asociada una tarifa de facturación de las siguientes maneras:
 
@@ -56,14 +110,6 @@ Una función puede tener asociada una tarifa de facturación de las siguientes m
 * Como administrador de Workfront, puede habilitar una opción al editar un proyecto para aplicar cambios en las tarifas de facturación a nivel de compañía en el proyecto cuando los usuarios recalculen manualmente las finanzas de un proyecto.\
   Para obtener más información, [Anular las tarifas de facturación a nivel de proyecto con las tarifas de facturación a nivel de compañía](../../../manage-work/projects/project-finances/override-project-level-with-company-level-billing-rates.md).
 
-<div class="preview">
-
-* Como administrador de Workfront, puede definir tarjetas de tarifas con varias tarifas de facturación por función, según la ubicación y la fecha. Cuando se adjunta una tarjeta de tarifas a un proyecto, todas las funciones (por ubicación, si se utilizan ubicaciones) y sus tarifas de facturación asociadas se añaden a la sección de tarifas de facturación del proyecto. Al adjuntar una tarjeta de tarifas, se anulan las tarifas de facturación existentes en el proyecto.
-
-  Para obtener más información, consulte [Administrar tarjetas de tarifas](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md) y [Adjuntar una tarjeta de tarifas a un proyecto](/help/quicksilver/manage-work/projects/project-finances/attach-rate-card-to-project.md).
-
-</div>
-
 * Como gerente del proyecto, puede definir la tarifa de facturación para la mismo función en el nivel de proyecto.\
   Las tarifas de funciones cambiadas en el proyecto solo afectarán a ese proyecto.
 
@@ -81,13 +127,41 @@ Como gerente del proyecto, puede especificar cuál es la tarifa de facturación 
 
 Para obtener información sobre cómo anular las tarifas de facturación de funciones a nivel del proyecto, consulte [Anular tarifas de facturación de funciones a nivel de proyecto](../../../manage-work/projects/project-finances/override-job-role-billing-rates-at-the-project-level.md).
 
-Para obtener más información sobre qué función se utiliza para calcular los ingresos del proyecto, consulte la sección “Cálculos de ingresos para tareas basadas en asignaciones de usuarios y funciones” en [Información general sobre facturación e ingresos](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md). <span class="preview">Para obtener información sobre cómo adjuntar una tarjeta de tarifas a un proyecto, consulte [Adjuntar una tarjeta de tarifas a un proyecto](/help/quicksilver/manage-work/projects/project-finances/attach-rate-card-to-project.md).</span>
+Para obtener más información sobre qué rol se usa para calcular los ingresos del proyecto, consulte la sección [Cálculos de ingresos para tareas basados en asignaciones de usuarios y roles](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md#revenue-calculations-for-tasks-based-on-user-and-role-assignments) en [Información general sobre facturación e ingresos](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md).
+
+<span class="preview">Para obtener información sobre cómo adjuntar una tarjeta de tarifas a un proyecto, consulte [Adjuntar una tarjeta de tarifas a un proyecto](/help/quicksilver/manage-work/projects/project-finances/attach-rate-card-to-project.md).</span>
 
 >[!NOTE]
 >
 >En el caso de los ingresos reales, las tarifas de facturación aplicadas a las horas que se añaden a un Registro de facturación que está marcado como Facturado, no deben verse afectadas por las anulaciones de tarifas de facturación que ocurren después de que se haya facturado el Registro de facturación.
 
-## Visión general de la sección de tarifas de facturación de un proyecto
+<div class="preview">
+
+## Visión general de la sección Tasas de facturación de un proyecto: paquete Ultimate de flujo de trabajo
+
+Después de especificar las tarifas de facturación de reemplazo para los roles de trabajo asociados con el proyecto, puede ver todos los roles de trabajo y sus invalidaciones en la pestaña **Tarifas > Tarifas de facturación** del proyecto.
+
+### Agrupaciones de tarifa
+
+Las tarifas de facturación se agrupan en el área **Tarifas de facturación** primero por su origen (tarjeta de tarifas o anulación) y luego por los tipos de recursos: rol o usuario.
+
+En la línea de agrupación correspondiente a un rol, observe la tarifa de facturación para ese rol en el nivel de proyecto en la columna **Valor**. Si la función tiene tasas de sustitución con fecha en vigor, las tasas se muestran en orden por fecha.
+
+Cuando existen tasas de anulación o tasas de tarjeta de tasa para una función de trabajo, la tasa predeterminada del sistema para la función de trabajo no se aplica automáticamente al calcular los ingresos del proyecto. Se sigue la jerarquía para determinar la tasa de facturación, en función del tipo de ingresos. Para obtener más información, consulte [Información general sobre la jerarquía de ingresos y costos](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md).
+
+### Varios valores de tarifa de facturación para un rol
+
+Si tiene varias tarifas de facturación de anulación para un rol específico, se enumeran en la agrupación de roles. Con la edición en línea, puede cambiar las tarifas de anulación y la **Fecha de inicio** y la **Fecha de finalización** de las tarifas de facturación de anulación en esta pestaña. O bien, seleccione una tarifa y haga clic en el icono **Editar** para establecer tasas de anulación con efecto de fecha.
+
+>[!NOTE]
+>
+>Cuando **Fecha de inicio** o **Fecha de finalización** están en blanco para una tarifa con fecha en vigor, Workfront supone que la primera tarifa de invalidación se aplica a todas las horas con una fecha anterior a la **Fecha de finalización** de la primera invalidación, y la última tarifa de invalidación se aplica a todas las horas con una fecha posterior a la **Fecha de inicio** de la última invalidación.
+>Si se registra una hora antes de la Fecha de inicio planificada del proyecto, se usa la primera tarifa de facturación.\
+>Si se registra una hora después de la Fecha planificada de finalización del proyecto, se usa la última tarifa de facturación.
+
+</div>
+
+## Visión general de la sección Tasas de facturación de un proyecto: todos los demás paquetes de Workfront y Flujo de trabajo
 
 Después de especificar la anulación de las tarifas de facturación para las funciones asociadas con el proyecto, puede ver todas las funciones y sus anulaciones en la pestaña **Tarifas de facturación** del proyecto.
 
@@ -101,7 +175,7 @@ Tenga en cuenta la siguiente información de la lista de **Tarifas de facturaci�
 
 ### Agrupación de funciones {#job-role-grouping}
 
-Las tarifas de facturación se agrupan en el área **Tarifas de facturación** según sus respectivas funciones. <span class="preview">Si se adjunta una tarjeta de tarifas al proyecto, las funciones también se agrupan por tarjeta de tarifas. Si las ubicaciones se aplican a las funciones, el nombre de la ubicación se incluye como parte del nombre de la función. Podría tener la misma función en la lista para varias ubicaciones.</span>
+Las tarifas de facturación se agrupan en el área **Tarifas de facturación** según sus respectivos roles de trabajo.
 
 ### Valor de tarifa de facturación del proyecto {#project-billing-rate-value}
 
@@ -121,13 +195,11 @@ En la línea de agrupación de una función, tenga en cuenta la tarifa de factur
 
 >[!NOTE]
 >
-><span class="preview">Cuando se adjunta una tarjeta de tarifas al proyecto, las **tarifas de facturación de la compañía** no se importan en las tarifas de facturación. Los cálculos se basan en las tarifas de la tarjeta de tarifas o en las tarifas de la compañía para las funciones.</span>
->
 >Si hay tarifas de facturación del proyecto para una función, la **tarifa de facturación de la compañía** nunca se aplica en el cálculo de los ingresos del proyecto. Para calcular los ingresos solo se aplican las **tarifas de facturación del proyecto**.
 
 ### Varios valores de tarifa de facturación y periodos de tiempo {#multiple-billing-rate-values-and-timeframes}
 
-Si tiene varias anulaciones de tarifas de facturación para una función específica, se enumeran en la agrupación de esa función. Con la edición en línea, puede cambiar la anulación de tarifas y la **Fecha** **de inicio** y la **Fecha de finalización** de la anulación de las tarifas de facturación en esta pestaña.
+Si tiene varias anulaciones de tarifas de facturación para una función específica, se enumeran en la agrupación de esa función. Con la edición en línea, puede cambiar las tarifas de anulación y las **fechas de inicio**, **fecha** y **fecha de finalización** de las tarifas de facturación de anulación en esta pestaña. O bien, seleccione una tarifa y haga clic en el icono **Editar** para establecer tasas de anulación con efecto de fecha.
 
 >[!NOTE]
 >
@@ -143,9 +215,11 @@ Si tiene varias anulaciones de tarifas de facturación para una función especí
 
 ### Calcular ingresos planificados según una anulación de tarifa de facturación única {#calculate-planned-revenue-based-on-a-one-time-billing-rate-override}
 
-Tenga en cuenta lo siguiente al calcular los ingresos planificados según una anulación de tarifa de facturación única:
+Tenga en cuenta lo siguiente al calcular los ingresos planificados en función de una anulación de tasa de facturación única:
 
 * Cuando el **Tipo de ingresos** de una tarea es **Rol por hora**, Workfront multiplica las horas planificadas de una tarea por la tarifa de facturación de la función asociada con la tarea para calcular los ingresos planificados en la tarea.
+
+* <span class="preview">Cuando el **Tipo de ingresos** de una tarea es **Usuario y Rol por hora**, Workfront usa una jerarquía para determinar la tasa de facturación de cada tarea. Para obtener más información, vea [Información general sobre la jerarquía de ingresos y costos](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md).</span>
 
 * Cuando la tarifa de facturación de la función se ha anulado en el nivel de proyecto, Workfront utiliza la anulación de tarifa del proyecto para calcular los ingresos planificados.
 * Cuando una tarea tiene varias asignaciones, los ingresos planificados se calculan multiplicando la tarifa de facturación de la función de cada asignación y su respectiva asignación de horas planificadas.
@@ -158,11 +232,22 @@ Para obtener más información sobre qué función se usa para calcular los ingr
 
 ### Calcular ingresos planificados según múltiples anulaciones de tarifas de facturación {#calculate-planned-revenue-based-on-multiple-billing-rate-overrides}
 
-Tenga en cuenta lo siguiente al calcular los ingresos planificados según múltiples anulaciones de tarifas de facturación:
+Tenga en cuenta lo siguiente al calcular los ingresos planificados en función de varias anulaciones de tarifas de facturación:
 
 * Cuando el **Tipo de ingresos** de una tarea es **Rol por hora**, Workfront multiplica las horas planificadas de una tarea por la tarifa de facturación de la función asociada con la tarea para calcular los ingresos planificados en la tarea.
 
   Para obtener más información sobre qué función se usa para calcular los ingresos planificados, consulte la sección “Explicación de los cálculos de ingresos para tareas basadas en asignaciones de usuarios y funciones” en el artículo [Información general sobre facturación e ingresos](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md).
+
+<div class="preview">
+
+* Cuando el **Tipo de ingresos** de una tarea es **Usuario y Rol por hora** y no se ha asignado un usuario, Workfront multiplica las Horas planificadas de una tarea por cualquiera de estas para calcular los Ingresos planificados en la tarea:
+
+   * Una tasa de anulación manual para el rol en la tarea
+   * La tasa de rol del proyecto, que puede provenir de una tarjeta de tasa o del nivel del sistema.
+
+  Para obtener más información sobre qué rol se usa para calcular los ingresos planificados, consulte [Información general sobre la jerarquía de ingresos y costos](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md) y la sección [Cálculos de ingresos para tareas basados en asignaciones de usuarios y roles](/help/quicksilver/manage-work/projects/project-finances/billing-and-revenue-overview.md#revenue-calculations-for-tasks-based-on-user-and-role-assignments) del artículo [Información general sobre facturación e ingresos](/help/quicksilver/manage-work/projects/project-finances/billing-and-revenue-overview.md).
+
+</div>
 
 * En caso de múltiples anulaciones de tarifas de facturación, la tarifa por la que se multiplican las horas planificadas cambia durante la duración de una tarea. De forma predeterminada, Workfront distribuye las horas planificadas de forma uniforme a lo largo de la duración de una tarea y asigna un número igual de horas a cada día de la tarea. Al calcular **Ingresos planificados** para una tarea, Workfront multiplica la hora planificada por día por la tasa de facturación de ese día. En caso de múltiples tarifas de facturación, esa tarifa podría ser diferente cada día.
 
@@ -197,6 +282,8 @@ Tenga en cuenta lo siguiente al comprender la distribución de las horas planifi
 
 ## Calcular ingresos reales
 
+La tasa de facturación de los Ingresos reales se basa en el propietario de las horas registradas en una tarea. El &quot;propietario&quot; es la persona cuyo tiempo se registra en la tarea, incluso si no está asignada a la tarea.
+
 * [Calcular ingresos reales según una anulación de tarifa de facturación única](#calculate-actual-revenue-based-on-a-one-time-billing-rate-override)
 * [Calcular ingresos reales en función de varias anulaciones de tarifa de facturación](#calculate-actual-revenue-based-on-multiple-billing-rate-overrides)
 
@@ -207,6 +294,8 @@ Tenga en cuenta lo siguiente al calcular los ingresos reales en función de una 
 * Si el **Tipo de ingresos** de una tarea es **Rol por hora**, Workfront multiplica las **Horas reales** de una tarea por la tasa de facturación de la función asociada con la tarea para calcular los **Ingresos reales** en la tarea. Las horas reales son horas registradas directamente en la tarea.
 
   Para obtener más información sobre qué función se usa para calcular los **Ingresos reales**, consulte la sección “Explicación de los cálculos de ingresos para tareas basadas en asignaciones de usuarios y funciones” en el artículo [Información general sobre facturación e ingresos](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md).
+
+* <span class="preview">Cuando el **Tipo de ingresos** de una tarea es **Usuario y Rol por hora**, Workfront usa una jerarquía para determinar la tasa de facturación de cada tarea. Para obtener más información, vea [Información general sobre la jerarquía de ingresos y costos](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md).</span>
 
 * Si la tasa de facturación de la función se ha anulado en el nivel de proyecto, Workfront utiliza la tasa de anulación del proyecto para calcular los ingresos reales. Cuando se anula la tarifa de facturación de la función en el proyecto, los **ingresos reales** del proyecto se recalculan automáticamente usando la nueva tarifa ajustada.
 
@@ -223,6 +312,8 @@ Tenga en cuenta lo siguiente al calcular los ingresos reales en función de vari
 
 * Cuando el **Tipo de ingresos** de una tarea es **Rol por hora**, Workfront multiplica las **Horas reales** en la tarea con la tasa de facturación de las funciones asignadas a la tarea para calcular los **Ingresos reales** en la tarea. Las horas reales son horas registradas directamente en la tarea.
 
+* <span class="preview">Cuando el **Tipo de ingresos** de una tarea es **Usuario y Rol por hora**, Workfront usa una jerarquía para determinar la tasa de facturación de cada tarea. Para obtener más información, vea [Información general sobre la jerarquía de ingresos y costos](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md).</span>
+
 * En caso de que haya varias anulaciones de tarifas de facturación, la tarifa por la cual se multiplican las **Horas reales** para calcular los **Ingresos reales** podría cambiar durante la duración de una tarea. Workfront usa la tarifa de facturación de la función cuyo lapso de tiempo coincide con la **Fecha de entrada** de las horas registradas para la tarea a fin de calcular los **Ingresos reales.**
 
   Por ejemplo, una tarea tiene el **Tipo de ingresos** de **Rol por hora** y se asigna a la función de Administrador de proyectos. Anule la tarifa de facturación de esta función con la tarifa 1 para las fechas entre el 19 de junio y el 25 de junio. A partir del 26 de junio, anule la tarifa de facturación con la tarifa 2. Registre 2 horas para el 20 de junio y 3 horas para el 28 de junio.
@@ -235,7 +326,7 @@ Tenga en cuenta lo siguiente al calcular los ingresos reales en función de vari
 
   Para obtener más información acerca de qué función se usa para calcular los **Ingresos reales**, consulte la sección “Explicación de los cálculos de ingresos para tareas basadas en asignaciones de usuarios y funciones” en el artículo [Información general sobre facturación e ingresos](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md).
 
-## El impacto de las zonas horarias al calcular ingresos basados en varias tarifas de facturación
+## Impacto de las zonas horarias al calcular ingresos basados en varias tarifas de facturación
 
 Los usuarios pueden ver diferentes horas planificadas por día de otros usuarios si se producen diferencias de zona horaria entre ellos y otras entidades de Workfront. Los siguientes escenarios podrían distorsionar la información de Horas planificadas por día de un usuario con respecto a lo que otro usuario ve:
 
@@ -249,7 +340,7 @@ En estos casos, el número de horas planificadas por día puede ser diferente en
 * [Calcular los ingresos planificados para usuarios en diferentes zonas horarias](#calculate-planned-revenue-for-users-in-different-time-zones)
 * [Calcular los ingresos reales para usuarios en diferentes zonas horarias](#calculate-actual-revenue-for-users-in-different-time-zones)
 
-### Calcular los ingresos planificados para usuarios en diferentes zonas horarias {#calculate-planned-revenue-for-users-in-different-time-zones}
+### Calcular ingresos planificados para usuarios en diferentes zonas horarias {#calculate-planned-revenue-for-users-in-different-time-zones}
 
 >[!NOTE]
 >
@@ -257,11 +348,11 @@ En estos casos, el número de horas planificadas por día puede ser diferente en
 
 Tenga en cuenta lo siguiente al calcular los ingresos planificados para usuarios en diferentes zonas horarias:
 
-* En el caso de las tareas que tienen un **Tipo de ingresos** de **Rol por hora** y que están asignadas a funciones, los **Ingresos planificados** se calculan multiplicando las **Horas planificadas** de una tarea por la tarifa de facturación de la función.
+* Para las tareas que tienen **Tipo de ingresos** de **Rol por hora** o <span class="preview">**Usuario y Rol por hora**</span> y que están asignadas a roles de trabajo, **Ingresos planificados** se calcula multiplicando las **Horas planificadas** de una tarea por la tasa de facturación del rol.
 
 * Las **Horas planificadas** se distribuyen de manera uniforme en la **Duración** de la tarea.
 
-* La **duración** es el período de tiempo entre la **Fecha planificada de inicio** **&#x200B;**&#x200B;y la **Fecha planificada de finalización** de la tarea. Dado que la **Fecha de inicio planificada** y la **Fecha de finalización planificada** de las tareas pueden diferir según las zonas horarias de los usuarios que ven la tarea, la cantidad de horas planificadas por día puede ser diferente para dos usuarios en dos zonas horarias diferentes.
+* La **duración** es el período de tiempo entre la **Fecha planificada de inicio** **** y la **Fecha planificada de finalización** de la tarea. Dado que la **Fecha de inicio planificada** y la **Fecha de finalización planificada** de las tareas pueden diferir según las zonas horarias de los usuarios que ven la tarea, la cantidad de horas planificadas por día puede ser diferente para dos usuarios en dos zonas horarias diferentes.
 
 * La cantidad de horas planificadas por día no cambia los ingresos planificados de un proyecto si la tarifa de facturación de la función no cambia, o cuando solo hay una anulación de tarifa de facturación. En este caso, incluso si dos usuarios de dos zonas horarias diferentes ven diferentes horas planificadas por día, los ingresos planificados generales del proyecto son idénticos entre los dos usuarios.
 
@@ -270,11 +361,11 @@ Tenga en cuenta lo siguiente al calcular los ingresos planificados para usuarios
 * La cantidad exacta de **Ingresos planificados** es la que ve el usuario que tiene la misma zona horaria que la de la instancia de Workfront. El administrador de Workfront define la zona horaria de Workfront en el área Información del cliente del sistema.\
   Para obtener más información sobre la definición de la zona horaria de su sistema, consulte el artículo [Configurar la información básica del sistema](../../../administration-and-setup/get-started-wf-administration/configure-basic-info.md).
 
-### Calcular los ingresos reales para usuarios en diferentes zonas horarias {#calculate-actual-revenue-for-users-in-different-time-zones}
+### Calcular ingresos reales para usuarios de diferentes zonas horarias {#calculate-actual-revenue-for-users-in-different-time-zones}
 
-Tenga en cuenta lo siguiente al calcular los ingresos reales para usuarios de diferentes zonas horarias:
+Tenga en cuenta lo siguiente al calcular los ingresos reales para los usuarios de diferentes zonas horarias:
 
-* Si el **Tipo de ingresos** de una tarea es **Rol por hora**, Workfront multiplica las **Horas reales** en la tarea con la tarifa de facturación de los roles asignados a la tarea para calcular los **Ingresos reales**. Las horas reales son horas registradas directamente en la tarea.
+* Si el **Tipo de ingresos** de una tarea es **Rol por hora** o <span class="preview">**Usuario y Rol por hora**</span>, Workfront multiplica las **Horas reales** en la tarea con la tasa de facturación de los roles asignados a la tarea para calcular los **Ingresos reales**. Las horas reales son horas registradas directamente en la tarea.
 
 * En caso de varias anulaciones de tarifas de facturación, Workfront usa la tarifa de facturación de la función cuyo lapso de tiempo coincida con la **Fecha de entrada** de las horas registradas para la tarea a fin de calcular los **Ingresos reales**.
 

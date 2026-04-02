@@ -6,10 +6,10 @@ description: Como administrador de proyectos, puede configurar un proyecto para 
 author: Lisa
 feature: Work Management
 exl-id: c496fe92-5c17-41a5-972b-1c063643bde3
-source-git-commit: 23a4d055871c9138818e70fa1cd936581dbd7552
+source-git-commit: b16523bf6c37747702efe3b5ecfcc33801526af1
 workflow-type: tm+mt
-source-wordcount: '509'
-ht-degree: 98%
+source-wordcount: '567'
+ht-degree: 85%
 
 ---
 
@@ -28,7 +28,7 @@ Antes de poder usar divisas alternativas, como se describe en esta sección, el 
  <col> 
  <tbody> 
   <tr> 
-   <td>paquete de Adobe Workfront</td> 
+   <td>Paquete de Adobe Workfront</td> 
    <td>Cualquiera </td> 
   </tr> 
   <tr> 
@@ -55,10 +55,11 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 ## Consideraciones a la hora de cambiar la divisa de un proyecto en Workfront
 
 * No se puede cambiar la moneda de un proyecto cuando ya contiene información financiera
-* Las tasas se utilizan para los costes laborales; los cálculos de ingresos y se utilizan en el futuro para fines de creación de informes.
+* Las tarifas se utilizan para costes laborales, cálculos de ingresos e informes.
 * Si no especifica una moneda diferente para un proyecto, Workfront supone que la del proyecto es la predeterminada del sistema. Para obtener información sobre la moneda predeterminada a nivel de sistema, consulte [Configuración de tipos de cambio](../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md).
 * De forma predeterminada, todos los usuarios con licencia completa tienen acceso para ver las monedas y los tipos de cambio. El administrador de Workfront debe conceder acceso administrativo adicional para los **tipos de cambio**, a fin de permitir que los usuarios establezcan tipos específicas en los proyectos.
 * Los tipos de cambio en Workfront no son dinámicos. El valor lo establece un administrador y debe actualizarse cuando se produzcan cambios en los tipos de cambio.
+* <span class="preview">Si se aplican fechas efectivas a una moneda y sus tasas de cambio, la tasa de cambio podría cambiar durante la vigencia del proyecto. Para obtener información sobre las tasas de cambio con fecha efectiva, consulte [Configurar tasas de cambio](/help/quicksilver/administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md).</span>
 * Cuando se crea un informe para reflejar la moneda de un proyecto, todos los informes se agrupan por la divisa predeterminada del proyecto. Si crea un informe con varios proyectos que tienen tipos de cambio diferentes, cualquier agrupación aplicada al proyecto refleja el tipo de cambio predeterminado en el nivel del sistema. Para obtener más información, consulte el artículo [Crear informes de datos financieros con tipos de cambio únicos](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-financial-data-reports-unique-exchange-rates.md).
 
 ## Configuración de la moneda de un proyecto
@@ -72,7 +73,12 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 1. Haga clic en **Detalles del proyecto** en el panel izquierdo y, a continuación, vaya al área de **Finanzas**.
 1. Haga clic en **Añadir** en el campo **moneda** y seleccione la que desee usar como moneda predeterminada para el proyecto. Se muestran todas las monedas que el administrador de Workfront ha definido para la instancia de Workfront.
 
-   ![Moneda en el proyecto](assets/currency-on-project-expanded-nwe.png)
+   ![Moneda en el proyecto](assets/currency-on-project.png)
 
 1. (Condicional) Si selecciona una moneda distinta de la predeterminada establecida para el sistema de Workfront, especifique la tarifa de la moneda seleccionada, en relación con la establecida como base en el sistema.
+
+   >[!NOTE]
+   >
+   ><span class="preview">Si la opción **Usar tasas de cambio con fecha efectiva del sistema** está activada para este proyecto, no se permiten las invalidaciones de tasas de cambio. Para obtener más información, consulte [Editar proyectos](/help/quicksilver/manage-work/projects/manage-projects/edit-projects.md).</span>
+
 1. Haga clic en **Guardar cambios**.

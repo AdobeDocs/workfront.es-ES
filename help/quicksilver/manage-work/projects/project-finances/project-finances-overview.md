@@ -8,10 +8,10 @@ author: Lisa
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: 7dda021d-4cf8-4f65-b187-23fcd935a842
-source-git-commit: 97d755c71eb1bdfa8a031fa387741318f9a7f261
+source-git-commit: 5a112a0fe9f7e40f57fef82b35860615c9408b95
 workflow-type: tm+mt
-source-wordcount: '211'
-ht-degree: 98%
+source-wordcount: '242'
+ht-degree: 80%
 
 ---
 
@@ -69,13 +69,9 @@ Para obtener información sobre las áreas en las que puede encontrar informaci�
 
 [Calcular coste planificado de mano de obra](../../../manage-work/projects/project-finances/planned-labor-cost.md)
 
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Quicksilver,QuicksilverOrClassic.Draft mode"><a href="../../../manage-work/projects/project-finances/export-billing-record-details.md" class="MCXref xref" xrefformat="{para}">Export billing record details as a PDF file</a> </p>
--->
+[Resumen de la jerarquía de ingresos y costes](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md)
 
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../../manage-work/projects/project-finances/how-workfront-calculates-finances.md" class="MCXref xref" xrefformat="{para}">How Adobe Workfront calculates finances </a> </p>
--->
+[Anular las tasas de costo de usuario en el nivel de proyecto](/help/quicksilver/manage-work/projects/project-finances/override-user-cost-rates.md)
 
 ## Tarifas de facturación
 
@@ -85,8 +81,14 @@ Para obtener información sobre las áreas en las que puede encontrar informaci�
 
 [Anular las tarifas de facturación a nivel de proyecto con las tarifas de facturación a nivel de compañía](../../../manage-work/projects/project-finances/override-project-level-with-company-level-billing-rates.md)
 
-[Información general sobre cómo anular las tarifas de facturación de funciones y calcular los ingresos en un proyecto](../../../manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md)
+[Información general sobre la anulación de tarifas de facturación y el cálculo de ingresos en un proyecto](/help/quicksilver/manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md)
 
 [Anular tarifas de facturación de funciones a nivel de proyecto](../../../manage-work/projects/project-finances/override-job-role-billing-rates-at-the-project-level.md)
 
+[Anular las tarifas de facturación del usuario en el nivel de proyecto](/help/quicksilver/manage-work/projects/project-finances/override-user-billing-rates-project-level.md)
+
 [Adjuntar una tarjeta de tarifas a un proyecto](/help/quicksilver/manage-work/projects/project-finances/attach-rate-card-to-project.md)
+
+[Configurar un rol de trabajo para facturación](/help/quicksilver/manage-work/projects/project-finances/set-up-job-role-for-billing.md)
+
+[Definir una proporción de horas extra](/help/quicksilver/manage-work/projects/project-finances/define-overtime-ratio.md)

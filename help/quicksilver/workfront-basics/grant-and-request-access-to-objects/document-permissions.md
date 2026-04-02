@@ -7,14 +7,18 @@ description: El administrador de Adobe Workfront concede a los usuarios acceso p
 author: Courtney
 feature: Get Started with Workfront
 exl-id: c83a3184-4af0-4897-985b-29f7ee3a0b73
-source-git-commit: abff7d82c89992e2e494aae13c9eb20868259b54
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: b9e0747a58618353caf3ce1c7e8521d22d2b412d
 workflow-type: tm+mt
-source-wordcount: '1439'
+source-wordcount: '1465'
 ht-degree: 21%
 
 ---
 
 # Compartir un documento en el almacenamiento heredado de Workfront
+
+<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa de espacio aislado.</span>
 
 El administrador de Workfront controla quién puede ver o editar documentos en el área de Niveles de acceso de la Configuración. Para obtener más información, consulte [Conceder acceso a documentos](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-documents.md).
 
@@ -79,7 +83,7 @@ El usuario que carga un documento en Workfront tiene permisos de administración
 
    ![Compartir un documento](assets/share-a-document-350x160.png)
 
-1. En el campo **Conceder acceso al documento a**, empiece a escribir el nombre del usuario, equipo, función, grupo o compañía con el que desea compartir el documento y, a continuación, haga clic en el nombre cuando aparezca en la lista desplegable.
+1. En el campo **Conceder acceso al documento a**, empiece a escribir el nombre del usuario, equipo, rol, grupo, compañía, <span class="preview">o perfil empresarial</span> con el que desea compartir el documento y, a continuación, haga clic en el nombre cuando aparezca en la lista desplegable.
 
    >[!TIP]
    >
@@ -122,7 +126,7 @@ El usuario que carga un documento en Workfront tiene permisos de administración
 
    ![Icono de compartir](assets/share-documents-in-bulk.png)
 
-1. En el campo **Conceder acceso al documento a**, empiece a escribir el nombre del usuario, equipo, función, grupo o compañía con el que desea compartir los documentos y, a continuación, haga clic en el nombre cuando aparezca en la lista desplegable.
+1. En el campo **Conceder acceso al documento a**, empiece a escribir el nombre del usuario, equipo, rol, grupo, compañía, <span class="preview">o perfil empresarial</span> con el que desea compartir los documentos y, a continuación, haga clic en el nombre cuando aparezca en la lista desplegable.
 
    >[!TIP]
    >

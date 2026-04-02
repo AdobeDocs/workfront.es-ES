@@ -3,19 +3,21 @@ title: Agregar reglas lógicas a campos y Forms personalizados
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
-description: Puede decidir qué secciones de un formulario personalizado se deben mostrar u omitir en función de las opciones que realice un usuario al rellenarlo.
+description: Las reglas lógicas permiten personalizar aún más los campos del formulario.
 author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 5f5dbeb5-b974-489c-8f4d-ebaa00f5e5ba
-source-git-commit: 15ac51cc13eeb57d2de194a9a6ceec7683acfbe6
+source-git-commit: a060b0023d6ea04f0eb1210c61b7add37a943842
 workflow-type: tm+mt
-source-wordcount: '1682'
-ht-degree: 64%
+source-wordcount: '3485'
+ht-degree: 29%
 
 ---
 
-# Agregar reglas lógicas a formularios y campos personalizados
+# Añadir reglas lógicas a formularios y campos personalizados
+
+{{highlighted-preview}}
 
 Las reglas lógicas permiten personalizar aún más los campos del formulario.
 
@@ -34,8 +36,9 @@ Por ejemplo, puede mostrar u omitir campos o secciones en un formulario personal
  <col> 
  <tbody> 
   <tr> 
-   <td>paquete de Adobe Workfront</td> 
-   <td><p>Cualquiera</p></td> 
+   <td>Paquete de Adobe Workfront</td> 
+   <td> <p>Para aplicar una visualización avanzada, un valor predeterminado, un formato condicional o una lógica de editabilidad: Workflow Prime o superior</p>
+         <p>Para aplicar todos los demás tipos de lógica: Cualquier paquete de Workfront o de flujo de trabajo</p> </td> 
   </tr> 
   <tr> 
    <td>Licencia de Adobe Workfront</td> 
@@ -53,20 +56,30 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 
 +++
 
-## Mostrar y omitir iconos lógicos
+## Iconos de indicador lógico
 
-Los formularios personalizados muestran iconos para indicar cuándo se aplica la lógica de visualización u omisión a determinados campos. Los iconos de un campo en el diseñador de formularios indican que se aplica lógica al campo.
+Los formularios personalizados muestran iconos para indicar cuándo se aplica la lógica a los campos.
 
-| Icono | Ubicación en el campo en el diseñador de formularios | Definición |
-|--- |--- |--- |
-| ![Lógica de visualización para el campo de destino](assets/display-logic-bottom-left.png) | Inferior izquierda | El campo es el campo de destino para la lógica de visualización. Si se realiza una selección específica en el formulario, se muestra este campo. |
-| ![Definir icono de lógica de visualización](assets/display-logic-bottom-right.png) | Inferior derecha | El campo define la lógica de visualización. Una selección o un valor específico de este campo muestra el campo de destino. |
-| ![Omitir lógica para campo de destino](assets/skip-logic-bottom-left.png) | Inferior izquierda | El campo es el campo de destino para la lógica de omisión. Si se realiza una selección específica en el formulario, este se salta este campo y los campos intermedios están ocultos. |
-| ![Definir icono de omisión de lógica](assets/skip-logic-bottom-right.png) | Inferior derecha | El campo define la lógica de omisión. Una selección o valor específico de este campo omite otros campos y va directamente al campo de destino. |
+<span class="preview">Haga clic en **Mostrar lógica** en el encabezado del diseñador de formularios para mostrar u ocultar los iconos de los distintos tipos de lógica de campo.</span>
 
-![Iconos lógicos](assets/logic-icons-3.png)
+| Icono | Definición |
+| --- | --- |
+| ![Lógica de visualización para el campo de destino](assets/display-logic-bottom-right.png) | El campo es el campo de destino donde se aplica la lógica de visualización. Si se realiza una selección específica en el formulario, se muestra este campo. |
+| ![Icono de lógica de visualización para el campo de referencia](assets/display-logic-bottom-left.png) | El campo es el campo de referencia para la lógica de visualización. Una selección o un valor específico de este campo muestra el campo de destino. |
+| ![Omitir lógica para campo de destino](assets/skip-logic-bottom-right.png) | El campo es el campo de destino donde se aplica la lógica de omisión. Una selección o valor específico de este campo omite otros campos y va directamente al campo de referencia. |
+| ![Icono de omitir lógica para el campo de referencia](assets/skip-logic-bottom-left.png) | El campo es el campo de referencia para la lógica de omisión. Si se realiza una selección específica en el campo de destino, el formulario se salta este campo y los campos intermedios están ocultos. |
+| ![Lógica de validación para el campo de destino](assets/validation-logic-icon.png) | El campo es el campo de destino donde se aplica la lógica de validación. Una selección o un valor específico del campo de referencia determina si la validación falla. El campo de destino y el campo de referencia pueden ser los mismos para la lógica de validación. |
+| ![Lógica de validación para el campo de referencia](assets/validation-logic-reference-field.png) | El campo es el campo de referencia para la lógica de validación. Una selección o un valor específicos de este campo determinan si la validación falla en el campo de destino. El campo de destino y el campo de referencia pueden ser los mismos para la lógica de validación. |
+| ![Lógica de valor predeterminada para el campo de destino](assets/default-value-logic-icon.png) | <span class="preview">El campo es el campo de destino donde se aplica la lógica de valor predeterminada. Una selección o un valor específico del campo de referencia determina el valor predeterminado. El campo de destino y el campo de referencia pueden ser iguales para la lógica de valor predeterminado.</span> |
+| ![Lógica de valor predeterminada para el campo de referencia](assets/default-value-logic-reference-field.png) | <span class="preview">El campo es el campo de referencia para la lógica de valor predeterminada. Una selección o un valor específicos de este campo determinan el valor predeterminado del campo de destino. El campo de destino y el campo de referencia pueden ser iguales para la lógica de valor predeterminado.</span> |
+| ![Lógica de formato para el campo de destino](assets/formatting-logic-icon.png) | <span class="preview">El campo es el campo de destino donde se aplica la lógica de formato. Una selección o un valor específico del campo de referencia determina el formato. El campo de destino y el campo de referencia pueden ser iguales para la lógica de formato.</span> |
+| ![Lógica de formato para el campo de referencia](assets/formatting-logic-reference-field.png) | <span class="preview">El campo es el campo de referencia para la lógica de formato. Una selección o un valor específico de este campo determina el formato del campo de destino. El campo de destino y el campo de referencia pueden ser iguales para la lógica de formato.</span> |
+| ![Lógica de editabilidad para el campo de destino](assets/editability-logic-icon.png) | <span class="preview">El campo es el campo de destino donde se aplica la lógica de editabilidad. El campo puede ser editable o de solo lectura cuando se cumplen las condiciones definidas. El campo de destino y el campo de referencia pueden ser iguales para la lógica de editabilidad.</span> |
+| ![Lógica de editabilidad para el campo de referencia](assets/editability-logic-reference-field.png) | <span class="preview">El campo es el campo de referencia para la lógica de editabilidad. Cuando se cumplen las condiciones definidas en este campo, la lógica se aplica en el campo de destino. El campo de destino y el campo de referencia pueden ser iguales para la lógica de editabilidad.</span> |
 
-Seleccione un campo con lógica aplicada para mostrar las reglas lógicas existentes en la configuración del campo.
+<!-- ![Logic icons](assets/logic-icons-3.png) -->
+
+Solo para lógica de visualización y de omisión, seleccione un campo para mostrar las reglas lógicas existentes en la configuración del campo.
 
 ![Reglas lógicas](assets/form-designer-view-only-logic.png)
 
@@ -94,11 +107,9 @@ Para obtener información sobre los campos y widgets personalizados en los formu
 
 La lógica de visualización define qué campos personalizados aparecen en el formulario cuando el usuario selecciona un valor específico en un campo de opción múltiple. La lógica se añade al campo de destino, que solo se muestra cuando se selecciona el valor.
 
-<!--
 >[!NOTE]
 >
-><span class="preview">This procedure describes the basic mode for display logic. Advanced display logic is also available. For more information, see [Add advanced display logic to a custom form](#add-advanced-display-logic-to-a-custom-form), in this article.</span>
--->
+><span class="preview">Este procedimiento describe el modo básico de la lógica de visualización. También está disponible la lógica de visualización avanzada. Para obtener más información, consulte [Agregar lógica de visualización avanzada a un formulario personalizado](#add-advanced-display-logic-to-a-custom-form), en este artículo.</span>
 
 {{step-1-to-setup}}
 
@@ -126,60 +137,66 @@ La lógica de visualización define qué campos personalizados aparecen en el fo
 
    Los iconos de la lógica de visualización se añaden al campo objetivo y al campo definitorio en el diseñador de formularios.
 
-<!--
 <div class="preview">
 
-## Add advanced display logic to a custom form
+## Agregar lógica de visualización avanzada a un formulario personalizado
 
-The advanced display logic for custom form fields allows you to build complex logic using formulas. You can apply this logic to the following field types: drop-down, radio button, checkbox, typeahead, single line text, paragraph text, date field, text with formatting, and calculated fields.
+La lógica de visualización avanzada para campos de formulario personalizados le permite crear una lógica compleja mediante fórmulas. Puede aplicar esta lógica a los siguientes tipos de campo: texto de una sola línea, párrafo, texto con formato, lista desplegable de selección única, lista desplegable de selección múltiple, búsqueda externa, búsqueda externa de selección múltiple, referencia de campo nativo, escritura anticipada, calculada, fecha, grupo de casillas de verificación y botones de opción.
 
-### Examples
+>[!NOTE]
+>
+>Este procedimiento describe el modo avanzado de la lógica de visualización. También está disponible la lógica básica de visualización. Para obtener más información, consulte [Agregar lógica de visualización a un formulario personalizado](#add-display-logic-to-a-custom-form), en este artículo.
 
-You can use advanced display logic to control the visibility of custom form sections based on user roles and the visibility of a field based on another field's status.
+### Ejemplos
 
-No logic is applied to the default section on the form, so it is always visible to all users.
+Puede utilizar la lógica de visualización avanzada para controlar la visibilidad de las secciones de formulario personalizadas en función de las funciones de usuario y la visibilidad de un campo en función del estado de otro campo.
 
-Using the following condition, the Resources Required section is only displayed when a user with the job role of Resource Manager views the form.
+No se aplica ninguna lógica a la sección predeterminada del formulario, por lo que siempre es visible para todos los usuarios.
+
+Con la siguiente condición, la sección Recursos necesarios solo se muestra cuando un usuario con la función de administrador de recursos ve el formulario.
 
 ```IF($$USER.{roleID}="123abc", true)```
 
-Note that ```123abc``` represents the role ID of the Resource Manager.
+Tenga en cuenta que ```123abc``` representa el identificador de rol del Administrador de recursos.
 
-![Form section displayed for role](assets/advanced-display-on-form1.png)
+![Se muestra la sección del formulario para el rol](assets/advanced-display-on-form1.png)
 
-The same condition with a different role ID is applied to the Project Financial KPIs section to define that  only the Financial Advisor role can view the section.
+La misma condición con un ID de rol diferente se aplica a la sección de KPI financieros del proyecto para definir que solo la función de Asesor financiero pueda ver la sección.
 
-Using the following condition, the Sold KPI field only becomes visible when the project is complete. This logic is applied directly to the field instead of to a form section. There is no need to specify which role can view the field, because that is already defined in the section that the field is in.
+Con la siguiente condición, el campo KPI Vendido solo se vuelve visible cuando se completa el proyecto. Esta lógica se aplica directamente al campo en lugar de a una sección del formulario. No es necesario especificar qué función puede ver el campo, porque eso ya está definido en la sección en la que se encuentra el campo.
 
 ```IF({status}="CPL", true)```
 
-![Field is visible on complete project](assets/advanced-display-on-form2.png)
+![El campo está visible en el proyecto completo](assets/advanced-display-on-form2.png)
 
-### Define advanced display logic
+### Definir lógica de visualización avanzada
 
 {{step-1-to-setup}}
 
-1. Click **Custom Forms**.
-1. Create a new custom form or open an existing form. See [Create a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) for details.
-1. Add fields to the form as needed.
-1. Select the field to apply logic to, and click **Add Logic**.
-1. Select the **Display** tab on the logic builder.
-1. Turn on **Advanced mode**.
-   
-   This option might be turned on automatically, for fields that do not support the simple mode of display logic.
+1. Haga clic en **Formularios personalizados**.
+1. Cree un nuevo formulario personalizado o abra uno existente. Consulte [Crear un formulario personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) para obtener más información.
+1. Agregue campos al formulario según sea necesario.
+1. Seleccione el campo al que aplicar lógica y haga clic en **Agregar lógica**.
+1. Seleccione la ficha **Mostrar** en el generador de lógica.
+1. Activar **modo avanzado**.
 
-   ![Advanced mode for display logic](assets/advanced-display-logic-blank-editor.png)
+   Esta opción podría activarse automáticamente en los campos que no admitan el modo simple de lógica de visualización.
 
-1. Build the display condition in the editor.
+   ![Modo avanzado para lógica de visualización](assets/advanced-display-logic-blank-editor.png)
 
-   For more information about calculations and expressions, see [Add calculated fields to a form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md) and [Overview of calculated data expressions](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+1. Cree la condición de visualización en el editor.
 
-1. Click **Apply**.
-   
-   The logic is applied to the field and the display logic icon is added in the form designer.
+   Para obtener más información sobre cálculos y expresiones, vea [Agregar campos calculados a un formulario](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md) y [Información general sobre expresiones de datos calculados](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+
+1. Haga clic en **Aplicar**.
+
+   La lógica se aplica al campo y el icono de lógica de visualización se agrega en el diseñador de formularios.
+
+   >[!NOTE]
+   >
+   >La lógica de visualización avanzada no se admite en el modo de vista previa del diseñador de formularios.
 
 </div>
--->
 
 ## Agregar lógica de omisión a un formulario personalizado
 
@@ -211,13 +228,63 @@ La lógica de omisión define campos de formulario personalizados que se omiten 
 
    Los iconos de lógica de omisión se agregan al campo de destino y al campo de definición en el diseñador de formularios.
 
+<div class="preview">
+
+## Agregar la lógica de valores predeterminada a un formulario personalizado
+
+La lógica de valores predeterminada permite configurar los valores predeterminados de los campos de formulario personalizados mediante fórmulas. El valor predeterminado se muestra cuando se cumplen las condiciones definidas. Un valor predeterminado puede ser un valor estático o dinámico que haga referencia a otros campos dentro del objeto. Aunque el valor predeterminado puede hacer referencia a otros campos, no cambiará a medida que cambien otros campos del formulario.
+
+Puede aplicar lógica de valor predeterminada avanzada a los siguientes tipos de campo: texto de una línea, párrafo, lista desplegable de selección única, lista desplegable de selección múltiple, búsqueda externa, búsqueda externa de selección múltiple. referencia de campo nativo, escritura anticipada, grupo de casillas de verificación y botones de opción.
+
+>[!TIP]
+>
+>Un valor predeterminado se aplica solo una vez a un campo personalizado, cuando el formulario personalizado se adjunta al objeto. Si la fórmula de valor predeterminada depende del valor de otro campo, el valor del otro campo ya debe existir cuando se adjunta el formulario personalizado.
+
+>[!NOTE]
+>
+>La lógica de valor predeterminada estándar del diseñador de formularios sigue existiendo. Si ambos tipos se aplican en el mismo campo, la lógica avanzada tiene prioridad. Para obtener información sobre la lógica de valor predeterminada estándar, consulte [Agregar botones de opción, grupos de casillas de verificación y listas desplegables](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-radio-buttons-checkbox-groups-and-drop-downs) en [Crear un formulario personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+
+### Ejemplo
+
+Mediante la fórmula siguiente, el campo desplegable de selección múltiple al que se aplica la lógica extraerá su valor predeterminado de la descripción del proyecto cuando el estado del proyecto sea Planificación.
+
+```
+IF({status} = 'PLN', ARRAY({description}, ','))
+```
+
+Cuando el formulario personalizado se adjunta a un proyecto y el estado del proyecto es Planificación, el valor del campo de descripción del proyecto se utiliza como valor predeterminado en el campo de selección múltiple. Como es un campo de selección múltiple, se puede extraer más de un valor cuando los valores coinciden con la descripción. Si el valor de descripción no coincide con ninguna de las opciones de valores de selección múltiple, el campo de selección múltiple no tendrá un valor predeterminado y el usuario puede seleccionar un valor de la lista desplegable.
+
+### Definir lógica de valor predeterminada
+
+1. Haga clic en **Formularios personalizados**.
+1. Cree un nuevo formulario personalizado o abra uno existente. Consulte [Crear un formulario personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) para obtener más información.
+1. Agregue campos al formulario según sea necesario.
+1. Seleccione el campo al que aplicar lógica y haga clic en **Agregar lógica**.
+1. Seleccione la ficha **Valor predeterminado** en el generador de lógica.
+
+   ![Generador de lógica de valor predeterminado](assets/default-value-blank-editor.png)
+
+1. Cree la condición de valor predeterminado en el editor.
+
+   Para obtener más información sobre cálculos y expresiones, vea [Agregar campos calculados a un formulario](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md) y [Información general sobre expresiones de datos calculados](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+
+1. Haga clic en **Aplicar**.
+
+   La lógica se aplica al campo en el diseñador de formularios.
+
+   >[!NOTE]
+   >
+   >La lógica de valor predeterminada no se admite en el modo de vista previa del diseñador de formularios.
+
+</div>
+
 ## Agregar lógica de validación a un formulario personalizado
 
 La lógica de validación se crea mediante fórmulas y puede hacer que la lógica sea tan simple o tan compleja como necesite. La validación se puede basar en los valores de otros campos o en el estado de los objetos, y puede proporcionar un mensaje de error para cuando falle la validación.
 
 Si el campo con la lógica aplicada cumple las condiciones de validación definidas cuando un usuario rellena el formulario personalizado, el campo se resalta y se muestra el mensaje de error.
 
-Puede aplicar lógica de validación a los siguientes tipos de campo: texto de una línea, párrafo, lista desplegable de selección única, lista desplegable de selección múltiple, búsqueda externa, escritura anticipada, fecha, grupo de casillas de verificación y botones de opción.
+Puede aplicar lógica de validación a los siguientes tipos de campo: texto de una línea, párrafo, lista desplegable de selección única, lista desplegable de selección múltiple, búsqueda externa de selección múltiple, búsqueda externa de selección múltiple, escritura anticipada, fecha, grupo de casillas de verificación y botones de opción.
 
 ### Ejemplos
 
@@ -260,22 +327,21 @@ Para obtener más ejemplos de lógica de validación, consulte [Ejemplos de lóg
    >
    >La lógica de validación no se admite en el modo de vista previa del diseñador de formularios.
 
-<!--
 <div class="preview">
 
-## Add formatting logic to a custom form
+## Agregar lógica de formato a un formulario personalizado
 
-Formatting logic highlights a field value when it meets the defined conditions. The applied formatting will work on multiple fields at once.
+La lógica de formato resalta un valor de campo cuando cumple las condiciones definidas. El formato aplicado funciona en varios campos a la vez.
 
-You can apply formatting logic to the following field types: single line text, paragraph, single-select dropdown, multi-select dropdown, external lookup, typeahead, calculated, date, checkbox group, and radio buttons.
+Puede aplicar lógica de formato a los siguientes tipos de campo: texto de una línea, párrafo, lista desplegable de selección única, lista desplegable de selección múltiple, búsqueda externa de selección múltiple, búsqueda externa de selección múltiple, escritura anticipada, calculado, fecha, grupo de casillas de verificación y botones de opción.
 
-Formatting applied to custom forms is separate from formatting applied to lists and reports. For information on report formatting, see [Use conditional formatting in views](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md).
+El formato aplicado a los formularios personalizados es independiente del formato aplicado a las listas y los informes. Para obtener información sobre el formato del informe, vea [Usar formato condicional en las vistas](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md).
 
-### Example
+### Ejemplo
 
-Using the following condition, the Budget field appears red when the user enters a value of 1000 or more. The field appears yellow when the user enters a value of 500 or more.
+Con la siguiente condición, el campo Presupuesto aparece en rojo cuando el usuario introduce un valor de 1000 o más. El campo aparece en amarillo cuando el usuario introduce un valor de 500 o más.
 
-To add a hover-over definition of the formatting, use the Instructions field in the custom form. For example, a message on the Budget field could say "Please enter a budget within a reasonable range. Values over 500 are a warning notice, and above 1000 is considered too high."
+Para añadir una definición de formato al pasar el ratón por encima, utilice el campo Instrucciones en el formulario personalizado. Por ejemplo, un mensaje en el campo Presupuesto podría decir &quot;Introduzca un presupuesto dentro de un rango razonable. Los valores superiores a 500 son un aviso de advertencia y superiores a 1000 se consideran demasiado altos&quot;.
 
 ```
 IF(
@@ -285,42 +351,99 @@ IF(
 )
 ```
 
-### Define formatting logic
+### Definir lógica de formato
 
 {{step-1-to-setup}}
 
-1. Click **Custom Forms**.
-1. Create a new custom form or open an existing form. See [Create a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) for details.
-1. Add fields to the form as needed.
-1. Select the field to apply logic to, and click **Add Logic**.
-1. Select the **Formatting** tab on the logic builder.
+1. Haga clic en **Formularios personalizados**.
+1. Cree un nuevo formulario personalizado o abra uno existente. Consulte [Crear un formulario personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) para obtener más información.
+1. Agregue campos al formulario según sea necesario.
+1. Seleccione el campo al que aplicar lógica y haga clic en **Agregar lógica**.
+1. Seleccione la ficha **Formato** en el generador de lógica.
 
-   ![Formatting logic builder](assets/formatting-logic-blank-editor.png)
+   ![Generador de lógica de formato](assets/formatting-logic-blank-editor.png)
 
-1. Build the formatting condition in the editor.
+1. Cree la condición de formato en el editor.
 
-   You can add up to five formatting rules per field.
+   Puede agregar hasta cinco reglas de formato por campo.
 
-   The field highlighting color options are:
+   Las opciones de color de resaltado de campo son:
 
    * `$$POSITIVE (green)`
    * `$$INFORMATIVE (blue)`
    * `$$NEGATIVE (red)`
    * `$$NOTICE (orange)`
-   
-   The text formatting options are:
-   
+
+   Las opciones de formato de texto son:
+
    * `$$BOLD`
    * `$$ITALIC`
    * `$$UNDERLINE`
 
-   Only one color option may be used per function, along with up to three additional text formatting options. If no color option is specified, the system's default color is applied.
+   Solo se puede utilizar una opción de color por función, junto con hasta tres opciones de formato de texto adicionales. Si no se especifica ninguna opción de color, se aplica el color predeterminado del sistema.
 
-   For more information about calculations and expressions, see [Add calculated fields to a form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md) and [Overview of calculated data expressions](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+   Para obtener más información sobre cálculos y expresiones, vea [Agregar campos calculados a un formulario](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md) y [Información general sobre expresiones de datos calculados](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
 
-1. Click **Apply**.
-   
-   The logic is applied to the field in the form designer.
+1. Haga clic en **Aplicar**.
+
+   La lógica se aplica al campo en el diseñador de formularios.
+
+   >[!NOTE]
+   >
+   >La lógica de formato no se admite en el modo de vista previa del diseñador de formularios.
 
 </div>
--->
+
+<div class="preview">
+
+## Agregar lógica de edición a un formulario personalizado
+
+La lógica de editabilidad determina si un campo de formulario personalizado se puede editar o si es de solo lectura. Esta lógica se crea mediante fórmulas y cuando el campo cumple las condiciones definidas, se puede establecer como editable o de solo lectura.
+
+Puede aplicar lógica de editabilidad a los siguientes tipos de campos: texto de una sola línea, párrafo, texto con formato, lista desplegable de selección única, lista desplegable de selección múltiple, búsqueda externa, búsqueda externa de selección múltiple, escritura anticipada, fecha, grupo de casillas de verificación y botones de opción.
+
+### Ejemplo
+
+Con la fórmula siguiente, el campo con lógica aplicada solo se puede editar cuando otro campo llamado Radio tiene seleccionada la opción Enabled.
+
+```
+IF({DE:Radio} = "Enabled", true)
+```
+
+Con la siguiente fórmula, el campo Descripción solo se puede editar cuando está en blanco. Una vez introducido un valor, este se convierte en de solo lectura.
+
+```
+IF(ISBLANK({DE:Description}), true)
+```
+
+Con la fórmula siguiente, el campo con lógica aplicada solo se puede editar cuando un usuario con la función de trabajo de Administrador de recursos ve el formulario.
+
+```
+IF($$USER.{role}.{name}="Resource Manager", true)
+```
+
+### Definir lógica de edición
+
+{{step-1-to-setup}}
+
+1. Haga clic en **Formularios personalizados**.
+1. Cree un nuevo formulario personalizado o abra uno existente. Consulte [Crear un formulario personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) para obtener más información.
+1. Agregue campos al formulario según sea necesario.
+1. Seleccione el campo al que aplicar lógica y haga clic en **Agregar lógica**.
+1. Seleccione la ficha **Editabilidad** en el generador de lógica.
+
+   ![Generador de lógica de editabilidad](assets/editability-blank-editor.png)
+
+1. Cree la condición de editabilidad en el editor.
+
+   Para obtener más información sobre cálculos y expresiones, vea [Agregar campos calculados a un formulario](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md) y [Información general sobre expresiones de datos calculados](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+
+1. Haga clic en **Aplicar**.
+
+   La lógica se aplica al campo en el diseñador de formularios.
+
+   >[!NOTE]
+   >
+   >La lógica de editabilidad no se admite en el modo de vista previa del diseñador de formularios.
+
+</div>

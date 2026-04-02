@@ -5,10 +5,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 5e87cad4-4a5d-4cb2-848f-7c97ff11d0e8
-source-git-commit: 2a83e5a415ff254cf5525d6f44ecb0e447e7e70a
+source-git-commit: d45c34b1f48a7ffcae29556d34558bb4d1d8a016
 workflow-type: tm+mt
-source-wordcount: '731'
-ht-degree: 25%
+source-wordcount: '738'
+ht-degree: 26%
 
 ---
 
@@ -26,7 +26,7 @@ Como administrador de Adobe Workfront, puede utilizar un nivel de acceso para de
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">paquete de Adobe Workfront</td> 
+   <td role="rowheader">Paquete de Adobe Workfront</td> 
    <td>Cualquiera</td> 
   </tr> 
   <tr> 
@@ -47,21 +47,21 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
 
 ## Configuración del acceso a los usuarios
 
-Puede administrar la información que los usuarios pueden ver y editar para otros usuarios mediante un nivel de acceso predeterminado o personalizado que usted cree. Los usuarios con las licencias de planificación y trabajo predeterminadas pueden ver la información de contacto de otros usuarios. Cualquiera de los siguientes usuarios puede crear y editar otros usuarios:
+Puede administrar la información que los usuarios pueden ver y editar para otros usuarios mediante un nivel de acceso predeterminado o personalizado que usted cree. Los usuarios con las licencias predeterminadas Estándar, Plan y Trabajo pueden ver la información de contacto de otros usuarios. Cualquiera de los siguientes usuarios puede crear y editar otros usuarios:
 
 * Un administrador de Workfront.
 
   Para obtener más información, consulte [Conceder acceso administrativo completo a un usuario](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md).
 
-* Un usuario con una licencia de Plan predeterminada que también tiene acceso a los usuarios, como se explica en este artículo.
+* Un usuario con una licencia predeterminada de planificación o estándar que también tiene acceso a los usuarios, como se explica en este artículo.
 
   Los usuarios con restricciones para ver solo los usuarios de su compañía o de la compañía principal tienen acceso para editar solo los usuarios que pueden ver. Para obtener más información, consulte [Creación o modificación de niveles de acceso personalizados](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
-* Usuario con una licencia de planificación predeterminada que también se especifica como administrador de otro usuario.
+* Usuario con licencia predeterminada de planificación o estándar que también se especifica como administrador de otro usuario.
 
   Los usuarios a los que se concede acceso de edición a los usuarios de su nivel de acceso pueden administrar los usuarios que dependen de ellos. Para obtener información acerca de cómo administrar un usuario, vea [Ver el organigrama](../../../people-teams-and-groups/work-directly-with-others/view-the-org-chart.md).
 
-* Un usuario con una licencia de planificación predeterminada que haya creado un usuario puede desactivar, eliminar o editar el usuario que ha creado. Para obtener información sobre cómo crear usuarios nuevos, consulte [Agregar usuarios](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md).
+* Un usuario con una licencia predeterminada de planificación o estándar que haya creado un usuario puede desactivar, eliminar o editar el usuario que ha creado. Para obtener información sobre cómo crear usuarios nuevos, consulte [Agregar usuarios](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md).
 
 ## Configurar el acceso de los usuarios para editar usuarios con un nivel de acceso personalizado
 
@@ -81,7 +81,7 @@ Puede administrar la información que los usuarios pueden ver y editar para otro
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader"><strong>Crear</strong> </td> 
+      <td role="rowheader"><strong>Create</strong> </td> 
       <td> <p>Permite a los usuarios crear usuarios.<br>Esta opción está deshabilitada de forma predeterminada.</p> 
      <p><b>NOTA</b>: Esto no está disponible si su organización se ha incorporado a Adobe Admin Console. Consulte al administrador de red o de TI si necesita más información.</p>
         </td>  

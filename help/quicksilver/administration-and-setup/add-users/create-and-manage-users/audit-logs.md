@@ -8,16 +8,18 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 6adb4146-42fd-4eda-b46f-c61d7ff71df6
-source-git-commit: 85c6985d27ef0806e9152ecf2cbd90ca63a588c6
+source-git-commit: 5f5a32b9a569221acc3d5f38568bb6a1e609070f
 workflow-type: tm+mt
-source-wordcount: '1523'
-ht-degree: 6%
+source-wordcount: '1578'
+ht-degree: 7%
 
 ---
 
-# Resumen de registros de auditoría
+# Información general de registros de auditoría
 
 <!--Audited: 08/2025-->
+
+<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa de espacio aislado.</span>
 
 Como administrador de Adobe Workfront, puede realizar un seguimiento de los cambios de usuario activados en el sistema durante los últimos 90 días mediante los registros de auditoría que se describen a continuación.
 
@@ -65,7 +67,8 @@ En cada entrada de registro de auditoría se registran los campos siguientes:
 ## Tipos de registros de auditoría y las acciones que los almacenan en déclencheur
 
 * [Nivel de acceso](#access-level)
-* [Reglas empresariales](#business-rules)
+* [Perfiles de empresa](#business-profiles)
+* <span class="preview">[Reglas de negocio](#business-rules)</span>
 * [Compañía](#company)
 * [Condición](#condition)
 * [Campo personalizado](#custom-field)
@@ -98,6 +101,18 @@ El sistema genera una entrada de registro de nivel de acceso cuando un usuario r
      >El sistema no registra ningún cambio de permiso en los datos financieros o en los siguientes tipos de acceso: Ver y Editar.
      >
      >Por ejemplo, si un usuario cambia el tipo de acceso del Planificador de Ver a Editar, el sistema no muestra la información contenida en el menú desplegable Ajustar la configuración.
+
+<div class="preview">
+
+### Perfiles de empresa
+
+El sistema genera una entrada de registro de auditoría de perfil empresarial cuando un usuario realiza una de las siguientes acciones:
+
+* Crea un perfil empresarial
+* Edita un perfil empresarial:
+* Elimina un perfil empresarial
+
+</div>
 
 ### Reglas empresariales
 

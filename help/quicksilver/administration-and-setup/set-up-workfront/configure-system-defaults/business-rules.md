@@ -8,10 +8,12 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 780c996c-5cf1-42fe-898d-2cc208bbae7b
-source-git-commit: c16d107d8162f77436337d0b08ea5826d5c25d83
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: b9e0747a58618353caf3ce1c7e8521d22d2b412d
 workflow-type: tm+mt
-source-wordcount: '1417'
-ht-degree: 65%
+source-wordcount: '1823'
+ht-degree: 52%
 
 ---
 
@@ -29,7 +31,7 @@ Una regla empresarial permite aplicar la validación a objetos de Workfront e im
 
 <div class="preview">
 
-Organizations that have the Workflow Ultimate package can also configure business rules to automate actions for the created, edited, or modified object when certain conditions are met. Available actions include sharing the object, notifying a user, or attaching a custom form to the object.  
+Organizations that have the Workflow Ultimate package can also configure business rules to automate actions for the created, edited, or modified object when certain conditions are met. Available actions include sharing the object or attaching a custom form to the object.  
 
 </div>
 
@@ -139,34 +141,51 @@ IF(
 )
 ```
 
+### Habilitar la localización en una regla de negocio
 
-<!--
+Si su organización utiliza la localización personalizada, debe habilitar la traducción de un mensaje de regla de negocio en la regla de negocio. Si la traducción no está habilitada, el mensaje aparece en inglés para el lector, incluso si el texto del mensaje está en la lista Localización y el explorador del usuario está configurado en el idioma adecuado.
 
-## Scenarios for business rule automation
+Al configurar la regla, inserte la palabra TRANSLATE antes del mensaje y encierre el mensaje entre paréntesis.
+
+>[!BEGINSHADEBOX]
+
+Ejemplo:
+
+En este ejemplo se supone que el mensaje &quot;No se pueden editar los proyectos completados&quot; está incluido en el área de localización de la Configuración y que el explorador del usuario está configurado en el idioma localizado.
+
+* `IF({status} = "CPL", "You cannot edit completed projects.") `
+El mensaje aparece en inglés.
+* `IF({status} = "CPL", TRANSLATE("You cannot edit completed projects."))`
+El mensaje aparece en el idioma localizado.
+
+>[!ENDSHADEBOX]
+
+Para obtener información sobre la localización personalizada, consulte [Configurar la localización personalizada](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-custom-localization.md).
+
+## Escenarios para la automatización de reglas de negocio
 
 >[!NOTE]
 >
->Your organization must have a Workflow Ultimate package to use business rule automation.
+>Su organización debe tener un paquete Ultimate de flujo de trabajo para utilizar la automatización de reglas empresariales.
 
-The format of a business rule automation is "IF the defined condition is met, then the selected automation is triggered."
+El formato de la automatización de una regla de negocio es &quot;SI se cumple la condición definida, se activa la automatización seleccionada&quot;.
 
-Business rule automation formulas do not require an error message
+Las fórmulas de automatización de reglas de negocio no requieren un mensaje de error
 
-To ensure that an automation runs whenever the selected object and action occurs, such as when a project is created, use the following formula:
+Para asegurarse de que se ejecuta una automatización cada vez que se produce el objeto y la acción seleccionados, como cuando se crea un proyecto, utilice la fórmula siguiente:
 
 ```
 IF(true, true)
 ```
 
-To share a project only if that's project has been approved, use a formula like the following:
+Para compartir un proyecto solo si su proyecto se ha aprobado, utilice una fórmula como la siguiente:
 
 ```
 IF({status} = "APR", true)
 ```
 
-You can use wildcards in business rule actions, as described in the section [Scenarios for business rule validation](#scenarios-for-business-rule-validation).
+Puede usar caracteres comodín en las acciones de regla de negocio, tal como se describe en la sección [Escenarios para la validación de reglas de negocio](#scenarios-for-business-rule-validation).
 
--->
 
 ## Añadir una nueva regla empresarial
 
@@ -210,15 +229,15 @@ You can use wildcards in business rule actions, as described in the section [Sce
    * Plantilla
    * Días libres
    * Conjunto de recursos
+   * Función
+   * Categoría de recurso no laboral
+   * Conjunto de recursos
+   * Días libres
+   * Hora
+   * Plan de asignación de personal
+   * Plantilla
+   * Recurso del plan de asignación de personal
 <!--
-   * <span class="preview">Job role</span>
-   * <span class="preview">Non-labor resource category</span>
-   * <span class="preview">Resource Pool</span>
-   * <span class="preview">Time Off</span>
-   * <span class="preview">Hour</span>
-   * <span class="preview">Staffing Plan</span>
-   * <span class="preview">Template</span>
-   * <span class="preview">Staffing Plan Resource</span>
    * <span class="preview">Team</span>
 -->
 
@@ -242,13 +261,13 @@ You can use wildcards in business rule actions, as described in the section [Sce
    * El “objeto” es el tipo de objeto seleccionado al crear la regla empresarial. Se muestra en el encabezado del diálogo.
    * La “acción” es el activador seleccionado para la regla: crear, editar o eliminar el objeto.
    * Como el objeto y la acción ya están definidos, no se incluyen en la fórmula.
-   * El mensaje de error personalizado <!--<span class="preview">is included only if the rule is for validation, and </span>--> se muestra al usuario cuando almacena en déclencheur la regla de negocio. Debe proporcionar instrucciones claras sobre qué ha fallado y cómo corregir el problema.
+   * El mensaje de error personalizado <span class="preview"> solo se incluye si la regla es para validación y </span> se muestra al usuario cuando almacena en déclencheur la regla de negocio. Debe proporcionar instrucciones claras sobre qué ha fallado y cómo corregir el problema.
 
      Puede incluir una URL estática en el mensaje de error para vincular a la documentación u otras páginas útiles y guiar al usuario sobre cómo modificar su acción dentro de la restricción de la regla.
 
      En este ejemplo, &quot;Más información&quot; se vincula a la dirección URL. `"You are not allowed to add a new project in November.[Learn more](http://url)"`: la dirección URL debe estar entre paréntesis, pero no se requiere el texto entre corchetes para los vínculos. Puede mostrar la dirección URL completa, que será un vínculo en el que puede hacer clic.
 
-   ![Agregar cuadro de diálogo de regla de negocio](assets/add-business-rule-dialog-no-ai-button.png) <!--UPDATE ME-->
+   ![Add business rule dialog](assets/add-business-rule-new.png)
 
    Este ejemplo es una regla de negocio para proyectos. Si el mes actual es noviembre, no se permite a los usuarios crear nuevos proyectos y en el mensaje se explica esto.
 
@@ -264,17 +283,13 @@ You can use wildcards in business rule actions, as described in the section [Sce
 
    Para otros paquetes, esta opción está preseleccionada.
 
-<!--
+1. <span class="preview">(Condicional) Para automatizar otra acción, seleccione la acción. </span>
 
-1. (Conditional) To automate another action,, select the action. 
-
-   For details on these actions, see the section [Business rule automation options](#business-rule-automation-options) in this article.
+   <span class="preview">Para obtener detalles sobre estas acciones, consulte la sección [Opciones de automatización de reglas de negocio](#business-rule-automation-options) en este artículo.</span>
 
    >[!NOTE]
    >
-   >Your organization must be on the Workflow Ultimate package to use actions besides validation. If you do not see these other options, your organization is not on the Workflow Ultimate package.
-
-   -->
+   ><span class="preview">Su organización debe estar en el paquete Workflow Ultimate para utilizar acciones además de la validación. Si no ve estas otras opciones, su organización no está en el paquete de flujo de trabajo de Ultimate.</span>
 
 1. Haga clic en **Guardar** cuando termine de generar la regla empresarial.
 
@@ -282,24 +297,22 @@ You can use wildcards in business rule actions, as described in the section [Sce
 >
 >Después de añadir una regla empresarial, debe probarla añadiendo, editando o eliminando el objeto asociado para asegurarse de que la regla se aplica correctamente.
 
-<!--
-
 <div class="preview">
 
-### Business rule automation options
+### Opciones de automatización de reglas empresariales
 
-   >[!NOTE]
-   >
-   >Your organization must be on the Workflow Ultimate package to use actions besides validation. If you do not see these other options, your organization is not on the Workflow Ultimate package.
+>[!NOTE]
+>
+>Su organización debe estar en el paquete Workflow Ultimate para utilizar acciones además de la validación. Si no ve estas otras opciones, su organización no está en el paquete de flujo de trabajo de Ultimate.
 
-You can set these actions to automate when the business rule is triggered. Available actions depend on the selected object type.
+Puede configurar estas acciones para que se automaticen cuando se active la regla de negocio. Las acciones disponibles dependen del tipo de objeto seleccionado.
 
-|Automation|Further configuration|
+| Automatización | Más configuración |
 |---|---|
-|Attach a custom form|Select the custom form that you want to add|
-|Share the object|Select the people, roles, groups, companies, or access levels that you want to share the object with.|
+| Adjuntar un formulario personalizado | Seleccione el formulario personalizado que desee agregar |
+| Compartir el objeto | Seleccione las personas, las funciones, los grupos, las empresas o los niveles de acceso con los que desea compartir el objeto. |
 
--->
+</div>
 
 ## Activar una regla empresarial
 
@@ -310,3 +323,4 @@ Para activar una regla empresarial:
 1. Seleccione la regla empresarial en la lista de reglas y haga clic en el icono Editar.
 1. Seleccione **Sí** en **Está activa**, en el diálogo de regla empresarial.
 1. Haga clic en **Guardar**.
+

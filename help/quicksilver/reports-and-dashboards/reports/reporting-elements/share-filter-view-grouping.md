@@ -6,10 +6,12 @@ description: Puede compartir filtros, vistas y agrupaciones a las que tenga acce
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 63a6db90-d52c-4147-a442-7904ef9e9d49
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: b9e0747a58618353caf3ce1c7e8521d22d2b412d
 workflow-type: tm+mt
-source-wordcount: '1170'
-ht-degree: 100%
+source-wordcount: '1194'
+ht-degree: 95%
 
 ---
 
@@ -17,8 +19,12 @@ ht-degree: 100%
 
 <!-- Audited: 11/2024 -->
 
-<!--(NOTE: CONSIDER SPLITTING THIS in three articles for each reporting element?)
-(NOTE: This is linked from the TOC article in WF Basics > permissions section)-->
+<!--
+(NOTE: CONSIDER SPLITTING THIS in three articles for each reporting element?)
+(NOTE: This is linked from the TOC article in WF Basics > permissions section)
+-->
+
+<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa de espacio aislado.</span>
 
 El administrador de Adobe Workfront concede a los usuarios acceso para ver o editar objetos cuando asignan niveles de acceso. Para obtener más información acerca de la concesión de acceso a objetos, consulte [Crear o modificar niveles de acceso personalizados](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
@@ -167,7 +173,7 @@ El uso compartido de filtros, vistas y agrupaciones en la interfaz heredada es i
 
 1. Complete cualquiera de las siguientes opciones, según con quién desee compartir:
 
-   **Para compartir con usuarios, equipos, funciones, grupos o compañías individuales:** en el campo proporcionado, empiece a escribir el nombre del usuario, equipo, función, grupo o compañía con el que desea compartir y, a continuación, haga clic sobre el nombre cuando aparezca en la lista.\
+   **Para compartir con usuarios, equipos, roles, grupos o empresas individuales:** En el campo proporcionado, empiece a escribir el nombre del usuario, equipo, rol, grupo, compañía, <span class="preview">o perfil empresarial</span> con el que desea compartir y, a continuación, haga clic en el nombre cuando aparezca en la lista desplegable.\
    Repita este proceso para compartir el acceso con varios usuarios, equipos, funciones, grupos o empresas.
 
    >[!TIP]

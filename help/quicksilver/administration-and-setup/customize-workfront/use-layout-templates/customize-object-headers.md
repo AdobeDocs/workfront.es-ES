@@ -8,20 +8,22 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: cbeaa0d7-a61a-4806-a871-96663d9ce124
-source-git-commit: c037b4f9e5530d8dd796bed25021f7073f16061f
+source-git-commit: 106ff601a4a19dbbf50cb3329675928ad7087b21
 workflow-type: tm+mt
-source-wordcount: '532'
-ht-degree: 62%
+source-wordcount: '548'
+ht-degree: 47%
 
 ---
 
 # Personalización de los encabezados de los objetos mediante una plantilla de diseño
 
+{{highlighted-preview}}
+
 Como administrador de Adobe Workfront o de un grupo, puede utilizar una plantilla de diseño para configurar los campos que ven los usuarios en el encabezado del objeto cuando abren la página de un objeto.
 
 >[!IMPORTANT]
 >
->Actualmente, la personalización de los encabezados de los objetos está disponible para proyectos, tareas y problemas.
+>La personalización de encabezados de objeto está disponible actualmente para proyectos, tareas, problemas, <span class="preview">portafolios, programas, plantillas, registros de facturación, equipos, grupos, usuarios, empresas, grupos y tarjetas de tarifas.</span>
 
 ![Campos de encabezado de objeto](assets/object-header-fields.png)
 
@@ -64,10 +66,7 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 ## Personalización de los encabezados de los objetos
 
 1. Empiece a trabajar en una plantilla de diseño, tal como se describe en [Crear y administrar plantillas de diseño](../../customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
-1. En el menú desplegable **Personalizar lo que ven los usuarios**, seleccione **Proyectos**, **Tareas** o **Problemas**.
-
-   <!--when this will be possible for more than 3 objects, at production, make this more general: update the sentence above to say "select an object you want to customize in the Customize what users see drop-down menu). -->
-
+1. En el menú desplegable **Personalizar lo que ven los usuarios**, seleccione un objeto cuyo encabezado desee personalizar.
 1. En la sección [!UICONTROL Campos de encabezado], pase el ratón sobre los campos actuales y realice una de las siguientes acciones:
    * Haga clic en el icono **x** para eliminar un campo
 
@@ -75,12 +74,12 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 
    * Mantenga pulsado el icono **agarrar** para arrastrar y soltar el campo en una nueva ubicación.
 
-   <!--(NOTE: make sure the default names of these fields have not changed; otherwise, update screen shot)-->
-
    ![Los campos de encabezado de objeto ocultan y mueven iconos](assets/object-header-field-x-and-grab-icons-in-lt.png)
 
 1. Se pueden incluir hasta cinco campos en el encabezado de un objeto.
-Si ya tiene cinco campos seleccionados, debe quitar un campo para poder añadir uno nuevo.
+
+   Si ya tiene cinco campos seleccionados, debe quitar un campo para poder añadir uno nuevo.
+
 1. En el cuadro **Agregar campo**, empiece a escribir el nombre de un campo personalizado o de un campo nativo de Workfront que desee agregar y, a continuación, selecciónelo cuando se muestre en la lista. El campo se añade inmediatamente a la derecha del cuadro Agregar campo y se muestra como el primer campo en la esquina superior derecha del encabezado del objeto.
 
    >[!TIP]
@@ -89,7 +88,7 @@ Si ya tiene cinco campos seleccionados, debe quitar un campo para poder añadir 
    >
    >* Cuando un usuario edita un campo personalizado en el encabezado y está contenido en un formulario personalizado que no está adjunto al objeto, el formulario personalizado se agrega automáticamente al objeto.
    >
-   >* Cuando añade el campo “Resuelto por” al encabezado de un problema, el campo cambia a “Resolviendo problema, tarea o proyecto”, cuando hay un objeto de resolución asociado al problema.
+   >* Cuando agrega el campo &quot;Resuelto por&quot; al encabezado de un problema, el campo cambia a &quot;Resolviendo problema, tarea o proyecto&quot;, cuando hay un objeto de resolución asociado al problema.
 
    ![Agregar campo al encabezado](assets/add-field-to-header-in-lt-list.png)
 

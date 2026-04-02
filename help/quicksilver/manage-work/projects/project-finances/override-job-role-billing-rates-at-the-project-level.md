@@ -6,24 +6,26 @@ description: Como gerente del proyecto, puede especificar cuál es la tarifa de 
 author: Lisa
 feature: Work Management
 exl-id: b7a33459-6929-4611-8546-06ca979e5dbe
-source-git-commit: 1992e1c07e5e530a2e627ef5d2059b2384b31000
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: b9e0747a58618353caf3ce1c7e8521d22d2b412d
 workflow-type: tm+mt
-source-wordcount: '826'
-ht-degree: 28%
+source-wordcount: '856'
+ht-degree: 27%
 
 ---
 
 # Anular tarifas de facturación de funciones a nivel de proyecto
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment, and is being released in a phased rollout to Production.</span>-->
+{{highlighted-preview}}
 
 Como gerente del proyecto, puede especificar cuál es la tarifa de facturación de una función en un proyecto específico. Esta tarifa de facturación en el nivel de proyecto anula la tarifa de facturación en el nivel de sistema para esta función. Workfront utiliza la tarifa de facturación en el nivel de proyecto de la función de trabajo para calcular los ingresos, en lugar de utilizar la tarifa de facturación en el nivel de sistema.
 
 Este artículo describe cómo puede anular las tarifas de facturación de funciones del sistema para un proyecto.
 
-Para obtener información general acerca de la anulación de tarifas de facturación de roles de trabajo para proyectos y el cálculo de ingresos de proyectos, consulte [Información general sobre la anulación de tarifas de facturación de roles de trabajo y el cálculo de ingresos en un proyecto](../../../manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
+Para obtener información general acerca de cómo anular las tarifas de facturación de rol para los proyectos y calcular los ingresos del proyecto, vea [Información general sobre cómo anular las tarifas de facturación y calcular los ingresos en un proyecto](/help/quicksilver/manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
 
-Para obtener más información sobre qué rol se usa para calcular los ingresos del proyecto, consulte la sección &quot;Explicación de los cálculos de ingresos para tareas basadas en asignaciones de usuarios y roles&quot; en el artículo [Información general sobre facturación e ingresos](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md).
+Para obtener más información sobre qué rol se usa para calcular los ingresos del proyecto, consulte [Información general sobre la jerarquía de ingresos y costos](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md) y la sección [Cálculos de ingresos para tareas basados en asignaciones de usuarios y roles](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md#revenue-calculations-for-tasks-based-on-user-and-role-assignments) del artículo [Información general sobre facturación e ingresos](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md).
 
 >[!NOTE]
 >
@@ -38,8 +40,9 @@ Para obtener más información sobre qué rol se usa para calcular los ingresos 
  <col> 
  <tbody> 
   <tr> 
-   <td>paquete de Adobe Workfront</td> 
-   <td>Cualquiera</td> 
+   <td>Paquete de Adobe Workfront</td> 
+   <td> <p>Para anular una tasa de facturación de rol para un proyecto: Cualquier paquete de Workfront o de flujo de trabajo</p>
+        <p>Para aplicar atributos al rol: Workflow Ultimate</p> </td> 
   </tr> 
   <tr> 
    <td>Licencia de Adobe Workfront</td> 
@@ -64,58 +67,64 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 
 ## Anular tarifas de facturación de funciones a nivel de proyecto
 
-Puede anular la tasa de facturación de un rol en un proyecto de las siguientes maneras:
+Al sustituir la tasa de facturación de un trabajo en un proyecto, puede asignar fechas en vigor y cada intervalo de fechas tiene una tasa diferente. Si no asigna fechas en vigor, la anulación de la tarifa de facturación que introduzca se utilizará durante toda la duración del proyecto para calcular los ingresos.
 
-* Una vez, seleccionando una nueva tasa para el rol.\
-  La nueva tarifa se utiliza durante toda la duración del proyecto para calcular los ingresos.
-
-* Varias veces, seleccionando varias tasas nuevas para intervalos de fechas específicos.\
-  Se puede utilizar una tasa diferente durante cada intervalo de fechas especificado.
-
-* Puede agregar nuevas tarifas de facturación a una plantilla de proyecto, que se convertirán en tarifas de facturación del proyecto cuando cree el proyecto a partir de esa plantilla. Para obtener información sobre cómo editar plantillas, consulte [Editar plantillas del proyecto](/help/quicksilver/manage-work/projects/create-and-manage-templates/edit-templates.md).
+Puede agregar nuevas tarifas de facturación a una plantilla de proyecto, que se convertirán en tarifas de facturación del proyecto cuando cree el proyecto a partir de esa plantilla. Para obtener información sobre cómo editar plantillas, consulte [Editar plantillas del proyecto](/help/quicksilver/manage-work/projects/create-and-manage-templates/edit-templates.md).
 
 >[!TIP]
 >
->No puede anular las tarifas de facturación de un usuario en un proyecto.
+>No puede anular las tarifas de facturación del usuario de un proyecto a menos que tenga el paquete Workflow Ultimate.
 
 Para sustituir una tarifa de facturación para un proyecto:
 
 1. Vaya al proyecto para el que desea anular las tarifas de facturación.
 1. Haga clic en **Tarifas de facturación** en el panel de la izquierda.
+
+   O
+
+   <span class="preview">Haga clic en **Tarifas** en el panel izquierdo y luego haga clic en la ficha **Facturación** si aún no está seleccionada.</span>
+
 1. Haga clic en **Agregar tarifa de facturación** > **Nueva tarifa de facturación**.
+
+   O
+
+   <span class="preview">Haga Clic En **Agregar Tarifa De Facturación > Nueva Tarifa De Facturación De Rol**.</span>
 
    Se abre la casilla Nueva tarifa de facturación.
 
 1. En el campo **Rol**, seleccione el rol para el cual desea cambiar la tarifa de facturación.
 
-   El campo **Tarifa de facturación predeterminada** muestra la tarifa a nivel del sistema para este rol.
+1. <span class="preview">(Opcional) Seleccione cualquier atributo para la tarifa de facturación, como agencia o ubicación.</span>
 
-1. En el campo **Tasas de facturación 1**, ingrese la anulación de tarifa de facturación única y luego haga clic en **Guardar** para anular la tarifa de facturación una vez
+   <span class="preview">El administrador del sistema define los atributos de tarifa en el área de instalación.</span>
+
+1. Seleccione la **Moneda** para la anulación de tarifa de facturación.
+1. En el campo **Tarifa de facturación**, ingresa la anulación de tarifa de facturación y luego haz clic en **Guardar** para anular la tarifa de facturación una vez
 
    O
 
    Haga clic en **Agregar tarifa** para agregar más anulaciones de tarifas de facturación.
 
-1. (Condicional) Si agrega más de una anulación de tarifa de facturación, especifique la siguiente información:
+1. (Condicional) Para las sustituciones de ratios de facturación con fecha en vigor, introduzca la siguiente información para cada fila:
 
-   * **Tarifas de facturación 1**: el valor de la tarifa de facturación desde el comienzo del proyecto hasta la primera fecha de la primera anulación. Generalmente es la misma cantidad que la **tarifa predeterminada**.
-   * **Fecha de inicio**: esta es la fecha en la que finaliza la tarifa predeterminada.
-   * **Fecha de finalización**: la fecha en la que finaliza la nueva anulación de tarifa de facturación.
+   * **Tarifa de facturación**: Valor de la tarifa de facturación desde el comienzo del proyecto hasta la primera fecha de la primera anulación.
+   * **Fecha de inicio**: La fecha en la que comienza la anulación de la tarifa de facturación.
+   * **Fecha de finalización**: La fecha en la que finaliza la anulación de la tarifa de facturación.
 
-   <!--<span class="preview">Sample image in the Preview environment:</span>-->
-   ![Tarifas de facturación con fechas de anulación](assets/billing-rates-093025.png)
+   ![Tarifas de facturación con fechas de anulación](assets/new-job-role-billing-rate-on-project2.png)
 
-   <!--Sample image in the Production environment:
-   ![Billing rates with override dates](assets/new-billing-rate-with-adjustment-dates-350x266.png)-->
+   Workfront aplica la tasa de funciones de reemplazo a las horas que se producen durante estos lapsos de tiempo al calcular los ingresos del proyecto.
 
-1. La zona horaria de las fechas que seleccione se mostrará en la parte inferior del cuadro Nueva tarifa de facturación. Esta es la zona horaria asociada a la instancia de Workfront, como se muestra en el área de Información del cliente de la Configuración. Para obtener más información, consulte [Configurar información básica para el sistema](../../../administration-and-setup/get-started-wf-administration/configure-basic-info.md).
-1. Workfront aplica la tasa de rol de reemplazo a las horas que ocurren durante los lapsos de tiempo especificados al calcular los ingresos en el proyecto.
-1. No debe haber espacios entre los marcos de tiempo de dos tasas de anulación. La **fecha de inicio** de una tasa de invalidación debe ser el día inmediatamente posterior a la **fecha de finalización** de la fecha de invalidación anterior.
+   Workfront le permite dejar espacios entre marcos de tiempo de anulación, pero recibirá una advertencia para confirmar que esto es intencional.
 
-1. No puede especificar una fecha de inicio para la primera tasa de sustitución ni una fecha de finalización para la última tasa de sustitución.\
-   Le recomendamos que utilice la Tasa predeterminada para la primera tasa de anulación.\
-   Workfront supone que la primera tasa de anulación se aplica a todas las horas con una fecha anterior a la fecha de finalización de la primera anulación y que la última tasa de anulación se aplica a todas las horas con una fecha posterior a la fecha de inicio de la última anulación.\
-   Si se registra una hora antes de la fecha planificada de inicio del proyecto, se usa la primera tarifa de facturación.\
+   No es necesario especificar una fecha de inicio para la primera tasa de sustitución, ni una fecha de finalización para la última tasa de sustitución.
+
+   Si introduce solo una anulación de tarifa de facturación, esa tarifa se aplica a toda la duración del proyecto. Si agrega varias anulaciones con fecha en vigor, Workfront supone que la primera anulación se aplica a todas las horas antes de su fecha de finalización y la última anulación se aplica a todas las horas después de su fecha de inicio.
+
+   Workfront supone que la primera tasa de anulación se aplica a todas las horas con una fecha anterior a la fecha de finalización de la primera anulación y que la última tasa de anulación se aplica a todas las horas con una fecha posterior a la fecha de inicio de la última anulación.
+
+   Si se registra una hora antes de la fecha planificada de inicio del proyecto, se usa la primera tarifa de facturación.
+
    Si se registra una hora después de la fecha planificada de finalización del proyecto, se utiliza la última tarifa de facturación.
 
 1. Haga clic en **Guardar**.

@@ -7,10 +7,12 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
-source-git-commit: 233051de458917fd3b40a675914552ccd7d2f474
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: b9e0747a58618353caf3ce1c7e8521d22d2b412d
 workflow-type: tm+mt
-source-wordcount: '7726'
-ht-degree: 93%
+source-wordcount: '7855'
+ht-degree: 92%
 
 ---
 
@@ -18,9 +20,11 @@ ht-degree: 93%
 
 <!--Audited: 07/2024-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 <!--
 <p>***Linked to many articles,</p>
@@ -48,7 +52,8 @@ Lo ideal es editar un proyecto cuando se encuentra en estado de Planificación. 
  <tbody> 
   <tr> 
    <td role="rowheader">Paquete de Adobe Workfront</td> 
-   <td> <p>Cualquiera</p> </td> 
+   <td> <p>Para establecer tasas de cambio a nivel de sistema para el proyecto y conservar las tasas de facturación del proyecto: Flujo de trabajo Ultimate</p>
+      <p>Para editar el resto de la configuración: Cualquier paquete de flujo de trabajo o Workfront</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licencia de Adobe Workfront</td> 
@@ -72,7 +77,8 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -101,7 +107,8 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
  </tbody> 
 </table>
 
-*For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).-->
+*For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+-->
 
 ## Limitaciones para editar proyectos
 
@@ -399,11 +406,12 @@ Al seleccionar más de un proyecto para editarlos de forma masiva y en tiempo re
 
 Para editar campos en el área Finanzas:
 
-
 1. Empiece a editar el proyecto como se ha descrito anteriormente.
 1. Haga clic en **Finanzas** en el panel izquierdo.
 
    ![Área de finanzas en el cuadro de edición del proyecto](assets/nwe-finance-in-edit-project-box-350x183.png)
+
+   <!--![Finance area in the project edit box](assets/edit-project-finance-section.png)-->
 
 1. Actualice la siguiente información financiera para el proyecto:
 
@@ -411,9 +419,17 @@ Para editar campos en el área Finanzas:
     <col> 
     <col> 
     <tbody> 
+     <tr>
+      <td><strong><span class="preview">Usar tipos de cambio de fecha efectiva del sistema</span></strong></td>
+      <td><p><span class="preview">Cuando se selecciona esta opción, siempre se utilizan las tasas de cambio efectivas por fecha a nivel de sistema y no se permiten las anulaciones de tasas de cambio en el proyecto.</span></p> <p><span class="preview">También debe seleccionar la <strong>Fecha de tasa de cambio</strong> desde la que se debe comenzar, cuando se seleccione la opción.</span></p></td> 
+     </tr>
+     <tr>
+      <td><strong><span class="preview">Conservar información de tarifas de facturación del proyecto</span></strong></td>
+      <td><p><span class="preview">Al habilitar esta opción, todas las tarifas de facturación de asignación se congelan permanentemente a la tarifa aplicable más alta de la jerarquía de facturación. Se trata de una selección única y no puede deshabilitar la opción una vez que el proyecto tenga asignaciones u horas. Después de la conservación, las tarifas de facturación de la asignación no se pueden cambiar, editar ni anular en ningún lugar del proyecto.</span></p></td>
+     </tr>
      <tr data-mc-conditions=""> 
       <td role="rowheader"> <strong>Divisa</strong> </td> 
-      <td> <p> <p>Especifique la moneda del proyecto si es diferente a la moneda predeterminada del sistema. No se puede cambiar la moneda de un proyecto cuando ya contiene información financiera. Este campo no está visible si solo tiene la moneda predeterminada en el sistema. </p> <p>Para obtener más información sobre la moneda, consulte <a href="../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">Configurar tasas de cambio</a>.<br></p> </p> </td> 
+      <td> <p>Especifique la moneda del proyecto si es diferente a la moneda predeterminada del sistema. No se puede cambiar la moneda de un proyecto cuando ya contiene información financiera. Este campo no está visible si solo tiene la moneda predeterminada en el sistema. </p> <p>Para obtener más información sobre la moneda, consulte <a href="../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">Configurar tasas de cambio</a>. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Presupuesto</strong> </td> 
@@ -850,7 +866,8 @@ Para obtener más información acerca de cómo editar el área de acceso, vea la
 1. Haga clic en **Guardar**.
 
 
-<!-- Old information for how to bulk edit in classic/ before project bulk edit redesign: 
+<!--
+ Old information for how to bulk edit in classic/ before project bulk edit redesign: 
 
 ### Edit projects in bulk in the Production environment
 

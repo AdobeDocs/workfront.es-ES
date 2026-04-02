@@ -6,14 +6,18 @@ description: El administrador de Adobe Workfront puede otorgarle acceso para ver
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 0d0e13d9-b234-48d3-a818-5b6fb36a4688
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: b9e0747a58618353caf3ce1c7e8521d22d2b412d
 workflow-type: tm+mt
-source-wordcount: '504'
-ht-degree: 18%
+source-wordcount: '587'
+ht-degree: 23%
 
 ---
 
 # Compartir permisos financieros en un objeto
+
+{{highlighted-preview}}
 
 El administrador de Adobe Workfront puede otorgarle acceso para ver o editar datos financieros al asignar su nivel de acceso. Para obtener más información, consulte [Concesión de acceso a los datos financieros](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
 
@@ -23,7 +27,8 @@ Para obtener información acerca de lo que los usuarios de cada nivel de acceso 
 
 ## Requisitos de acceso
 
-<!--drafted for P&P:
+<!--
+drafted for P&P:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -75,7 +80,8 @@ Para obtener información acerca de lo que los usuarios de cada nivel de acceso 
   </tr> 
   <tr> 
    <td role="rowheader">Permisos de objeto</td> 
-   <td> <p>Ver permisos o superiores de proyectos, tareas y problemas que incluyen al menos Ver permisos de finanzas</p></td> 
+   <td> <p>Ver permisos o superiores de proyectos, tareas y problemas que incluyen al menos Ver permisos de finanzas</p>
+   <p><span class="preview">Ver permisos o superiores en proyectos, tareas y problemas que incluyan al menos Ver tarifas de facturación, Ver tarifas de costo o Ver permisos financieros generales</span></p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -89,12 +95,12 @@ Para obtener más información sobre el contenido de esta tabla, consulte [Requi
 Tenga en cuenta lo siguiente al conceder permisos financieros a objetos:
 
 * Puede conceder permisos financieros a proyectos, tareas y problemas.
-* Los permisos se pueden heredar: si tiene permisos de Ver finanzas en un proyecto, hereda automáticamente los permisos de Ver finanzas en las tareas y problemas del proyecto.
+* Los permisos se pueden heredar: si tiene permisos de Ver finanzas generales en un proyecto, hereda automáticamente los permisos de Ver finanzas generales en las tareas y problemas del proyecto.
 
 Para conceder permisos financieros a un objeto:
 
 1. Vaya a una tarea, proyecto o problema que desee compartir con otros.
-1. Cerca del nombre del objeto, haga clic en el menú Más ![](assets/more-icon.png) y, a continuación, haga clic en **Compartir**.
+1. Cerca del nombre del objeto, haga clic en **Compartir**.
 
 1. En el campo **Dar acceso a `<Object name>` a** comience a escribir el nombre de un usuario, equipo, rol, grupo o compañía con el que desee compartir el objeto.
 
@@ -102,22 +108,24 @@ Para conceder permisos financieros a un objeto:
    >
    >Únicamente puede compartir un objeto con usuarios, equipos, funciones o compañías activas.
 
-1. Si aparece un menú desplegable a la derecha del nombre seleccionado, haga clic en una de las siguientes opciones disponibles:
+1. Haga clic en la lista desplegable a la derecha del nombre del usuario y seleccione una de las siguientes opciones:
 
-   * **Ver**
+   * **Vista**
    * **Aportar**
    * **Administrar**
 
-1. En el mismo menú desplegable, haga clic en **Configuración avanzada** y, a continuación, siga uno de estos procedimientos:
+1. En el mismo menú desplegable, haga clic en el icono de opciones avanzadas situado junto al nivel de permisos y, a continuación, realice una de las siguientes acciones:
 
    * Si seleccionó una de las tres opciones en el paso anterior, asegúrese de que **Ver finanzas** está seleccionada.
    * Si seleccionaste **Administrar finanzas** en el paso anterior, asegúrate de que **Administrar finanzas** esté seleccionado.
+   * <span class="preview">Para cualquier nivel de permiso, seleccione **Ver tarifas de facturación**, **Ver tarifas de costo** y **Ver finanzas generales** según sea necesario.</span>
+   * <span class="preview">Solo para permisos de **Administrar**, selecciona **Editar tarifas de facturación**, **Editar tarifas de costo** y **Editar finanzas generales** según sea necesario.</span>
 
 1. Haga clic en **Guardar**.
 
 ## Permiso financiero para todos los niveles de uso compartido
 
-En la tabla siguiente se muestran los permisos financieros que obtienen los usuarios cuando se les conceden permisos de Ver, Contribuir o Administrar en objetos:
+En la tabla siguiente se muestran los permisos financieros que obtienen los usuarios cuando se les conceden los permisos de Ver, Contribuir o Administrar en objetos:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -153,6 +161,42 @@ En la tabla siguiente se muestran los permisos financieros que obtienen los usua
   </tr> 
   <tr> 
    <td>Ver finanzas</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>  ✓</td> 
+  </tr>
+  <tr> 
+   <td><span class="preview">Editar tarifas de facturación</span></td> 
+   <td>✓</td> 
+   <td></td> 
+   <td>  </td> 
+  </tr> 
+  <tr> 
+   <td><span class="preview">Editar tarifas de coste</span></td> 
+   <td>✓</td> 
+   <td></td> 
+   <td>  </td> 
+  </tr>  
+  <tr> 
+   <td><span class="preview">Editar finanzas generales</span></td> 
+   <td>✓</td> 
+   <td></td> 
+   <td>  </td> 
+  </tr>
+  <tr> 
+   <td><span class="preview">Ver tarifas de facturación</span></td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>  ✓</td> 
+  </tr> 
+  <tr> 
+   <td><span class="preview">Ver tarifas de coste</span></td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>  ✓</td> 
+  </tr>  
+  <tr> 
+   <td><span class="preview">Ver finanzas generales</span></td> 
    <td>✓</td> 
    <td>✓</td> 
    <td>  ✓</td> 

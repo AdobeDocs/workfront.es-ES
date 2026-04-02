@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 0343fe74-1be4-43e2-9e3d-8aa1f7ea26fa
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: e5ac8fde409b960aacd3cf7daa0532e9bc3e8121
 workflow-type: tm+mt
-source-wordcount: '3403'
-ht-degree: 70%
+source-wordcount: '3478'
+ht-degree: 68%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 70%
 >
 >The procedure described on this page applies only to organizations that have not yet been onboarded to the Admin Console. If your organization has been onboarded to the Adobe Admin Console, you must perform this action through the Adobe Admin Console.
 >
->For instructions on editing a user's profile in the Adobe Admin Console, see the section "Edit user details" in the article [Manage users individually](https://helpx.adobe.com/es/enterprise/using/manage-users-individually.html) or contact your Adobe Admin Console Administrator.
+>For instructions on editing a user's profile in the Adobe Admin Console, see the section "Edit user details" in the article [Manage users individually](https://helpx.adobe.com/enterprise/using/manage-users-individually.html) or contact your Adobe Admin Console Administrator.
 >
 >For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Admin Console, see [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 -->
@@ -43,8 +43,9 @@ Para obtener información acerca de los usuarios que actualizan sus propios perf
  <col> 
  <tbody> 
   <tr> 
-   <td>paquete de Adobe Workfront</td> 
-   <td><p>Cualquiera</p></td> 
+   <td>Paquete de Adobe Workfront</td> 
+   <td><p>Para editar el perfil de un usuario: Cualquier paquete de flujo de trabajo o Workfront</p>
+       <p>Para definir atributos de ratio y la sustitución de ratio de coste: Workflow Ultimate</p></td> 
   </tr> 
   <tr> 
    <td>Licencia de Adobe Workfront</td> 
@@ -105,7 +106,7 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
   No puede restablecer la contraseña de un administrador de Workfront.
 
 * **Nombre de usuario de &lt;Configuración de SSO>**: si el administrador de Workfront ha habilitado una integración de SSO con Workfront, el nombre de usuario de SSO se mostrará en este campo. El tipo de configuración de SSO habilitada para la instancia de Workfront se puede ver en este campo.
-* **Permitir solo la autenticación de &lt;configuración de SSO>**: si el administrador de Workfront ha habilitado una integración de SSO con Workfront y ha actualizado todos los usuarios para SSO, este campo está seleccionado de forma predeterminada. El tipo de configuración de SSO habilitada para la instancia de Workfront se puede ver en este campo.
+*  **Permitir solo la autenticación de &lt;configuración de SSO>**: si el administrador de Workfront ha habilitado una integración de SSO con Workfront y ha actualizado todos los usuarios para SSO, este campo está seleccionado de forma predeterminada. El tipo de configuración de SSO habilitada para la instancia de Workfront se puede ver en este campo.
 
   Cuando se selecciona este campo, el usuario debe iniciar sesión en Workfront con sus credenciales de SSO. Si lo desmarca, podrán iniciar sesión en Workfront con sus credenciales de Workfront.
 
@@ -264,9 +265,11 @@ Para obtener más información, consulte [Configurar notificaciones de eventos p
 
   Para obtener información acerca de cómo configurar las preferencias de Administración de recursos, vea [Configurar las preferencias de Administración de recursos](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
 
-  <span class="preview">(Opcional) Las asignaciones de funciones en vigor por fecha se utilizan en los cálculos financieros si la función de funciones del usuario cambia durante un proyecto.</span>
+<!--
+<span class="preview">(Optional) Date effective job role assignments are used in financial calculations if the user's job role changes during a project.</span>
 
-  <span class="preview">Haga clic en **Definir roles por fecha**, seleccione el **Rol principal** y **Otros roles** e introduzca el porcentaje de asignación para cada rol. Las funciones podrían ser las mismas que las funciones existentes (con porcentajes diferentes) o que las nuevas funciones. Seleccione la fecha de inicio en la que se activarán estos roles. Esta puede ser una fecha futura. Cuando se activen las funciones más recientes, puede hacer clic en **Mostrar funciones anteriores** para ver las funciones anteriores e inactivas.</span>
+  <span class="preview">Click **Define roles by date**, select the **Primary Role** and **Other Roles**, and enter the allocation percentage for each role. The roles could be the same as the existing roles (using different percentages), or new roles. Select the Start date when these roles become active. This can be a future date. When the newest roles become active, you can click **Show previous roles** to see the previous, inactive roles.</span>
+-->
 
 * **Horario**: asocie un horario al usuario. La programación del usuario calcula la cronología de las tareas que se le asignan.
 
@@ -316,6 +319,8 @@ Para obtener más información, consulte [Configurar notificaciones de eventos p
 
   Algunas fechas se añaden automáticamente. Por ejemplo, si la tarifa de coste 1 no tiene una fecha de finalización y añade la tarifa de coste 2 con una fecha de inicio del 1 de mayo de 2023, se añade la fecha de finalización del 30 de abril de 2023 a la tarifa de coste 1 para que no existan brechas.
 
+* <span class="preview">**Se permite la invalidación de la tasa de costo**: Active esta opción para permitir invalidaciones de la tasa de costo para este usuario en los proyectos. Para obtener más información, vea [Anular las tasas de costo de usuario en el nivel de proyecto](/help/quicksilver/manage-work/projects/project-finances/override-user-cost-rates.md).</span>
+
 * **Tarifa de facturación**: la cantidad de facturación por hora para el usuario.
 
   Para ver las tarifas de facturación vigentes por fecha, haga clic en **Añadir tarifa**. Introduzca el valor de la tarifa de facturación para el período de tiempo y asigne una Fecha de inicio y una Fecha de finalización según sea necesario. La tarifa de facturación 1 no tendrá una fecha de inicio y la última tarifa de facturación no tendrá una fecha de finalización.
@@ -333,6 +338,28 @@ Asocie un formulario personalizado de usuario existente con este usuario. Debe c
 >Las funciones de formulario personalizadas avanzadas, como los campos de búsqueda externa y los campos nativos de Workfront, solo están disponibles cuando abre el registro de usuario en la página de detalles, no en el cuadro de diálogo Editar usuario. (En la lista de usuarios, haga clic en el nombre del usuario para abrir los detalles).
 
 Para obtener información sobre cómo crear formularios personalizados, consulte [Crear un formulario personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+
+<div class="preview">
+
+### Atributos
+
+Los atributos de tarifa son compatibles con las áreas de Workfront donde existen tarifas, como roles de trabajo y usuarios. Cuando se aplican atributos en el perfil de un usuario, sus asignaciones se resuelven automáticamente en las tasas correctas.
+
+1. Haga clic en **Agregar nuevo conjunto**.
+1. Seleccione los valores de atributo.
+
+   El administrador de Workfront establece los atributos disponibles. Pueden incluir atributos de agencia, ubicación, centro de coste, cliente u otros atributos necesarios para su organización.
+
+1. (Opcional) Para agregar otro conjunto de atributos con fechas en vigor:
+
+   1. Haga clic en **Agregar nuevo conjunto**.
+   1. Seleccione una **fecha de finalización** para el conjunto de atributos actual.
+
+      La **fecha de inicio** del siguiente conjunto se agrega automáticamente.
+
+   1. Agregue los valores de atributo para el siguiente conjunto de atributos. Estos valores se aplican a la fecha de inicio.
+
+</div>
 
 ### Comentario
 

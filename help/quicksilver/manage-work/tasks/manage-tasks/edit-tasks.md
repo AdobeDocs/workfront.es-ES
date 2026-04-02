@@ -7,14 +7,18 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 572c6008-3a67-47ae-8f5d-6b871ef1f37b
-source-git-commit: 21c98e443a6d6ca79045e2f4aba5f792340833cd
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: b9e0747a58618353caf3ce1c7e8521d22d2b412d
 workflow-type: tm+mt
-source-wordcount: '3928'
-ht-degree: 88%
+source-wordcount: '4076'
+ht-degree: 85%
 
 ---
 
 # Editar tareas
+
+{{highlighted-preview}}
 
 <!--Audited: 10/2025-->
 
@@ -28,13 +32,16 @@ ht-degree: 88%
 </div>
 -->
 
-<!--<div class="preview"> 
+<!--
+<div class="preview"> 
 
 The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
 
 For more information, see [Second Quarter 2026 release overview](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-release-overview.md).
 
-</div> -->
+</div>
+-->
+
 
 Puede editar información sobre las tareas que ha creado o para las que tiene permisos de aportación o de administración. 
 
@@ -48,7 +55,8 @@ Puede editar información sobre las tareas que ha creado o para las que tiene pe
  <tbody> 
   <tr> 
    <td role="rowheader">Paquete de Adobe Workfront</td> 
-   <td> <p>Cualquiera</p> </td> 
+   <td>  <p>Para utilizar los tipos de costos e ingresos por hora de usuario y rol y agregar una relación de horas extra: Flujo de trabajo Ultimate</p>
+      <p>Para editar todas las demás configuraciones y utilizar todos los demás tipos de ingresos y costes: Cualquier paquete de Workfront o flujo de trabajo</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licencia de Adobe Workfront</td> 
@@ -82,7 +90,8 @@ Puede editar información sobre las tareas que ha creado o para las que tiene pe
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -118,7 +127,8 @@ Puede editar información sobre las tareas que ha creado o para las que tiene pe
     </ul> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Limitaciones para editar tareas
 
@@ -572,6 +582,7 @@ Puede definir formularios personalizados predeterminados que se adjuntarán auto
         <li> <p>Fijo por hora </p> </li> 
         <li> <p> Usuario por hora </p> </li> 
         <li> <p> Rol por hora</p> </li> 
+        <li> <p> <span class="preview">Usuario y rol por hora</span></p> </li> 
        </ul> <p>Para obtener más información sobre los costes de seguimiento, consulte <a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">Costes de seguimiento</a>. El administrador de Workfront o de un grupo selecciona la configuración predeterminada Tipo de coste para las tareas del sistema o del grupo. Para obtener información sobre cómo establecer los valores predeterminados del proyecto, consulte <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configurar las preferencias de proyecto de todo el sistema</a>.</p> </td> 
      </tr> 
      <tr> 
@@ -581,14 +592,26 @@ Puede definir formularios personalizados predeterminados que se adjuntarán auto
       <li> <p> No facturable </p> </li> 
       <li> <p>Usuario por hora </p> </li> 
       <li> <p>Rol por hora </p> </li> 
+      <li> <p> <span class="preview">Usuario y rol por hora</span></p> </li> 
       <li> <p>Fijo por hora </p> </li> 
       <li> <p>Usuario por hora sin límite </p> </li> 
       <li> <p>Rol por hora con límite </p> </li> 
+      <li> <p> <span class="preview">Usuario y rol por hora con tope</span></p> </li> 
       <li> <p>Usuario por hora más fijos </p> </li> 
       <li> <p>Rol por hora más fijos </p> </li> 
+      <li> <p> <span class="preview">Usuario y rol por hora más fijos</span></p> </li> 
       <li> <p>Ingresos fijos </p> </li> 
-       </ul> <p>Para obtener más información sobre el seguimiento de los ingresos, consulte <a href="../../../manage-work/projects/project-finances/billing-and-revenue-overview.md" class="MCXref xref">Información general sobre facturación e ingresos</a>. </p> <p>El administrador de Workfront o del grupo selecciona la configuración predeterminada Tipo de ingresos para las tareas del sistema o del grupo. Para obtener información sobre cómo establecer los valores predeterminados del proyecto, consulte <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configurar las preferencias de proyecto de todo el sistema</a>.</p> </td> 
+       </ul> <p>Para obtener más información sobre el seguimiento de los ingresos, consulte <a href="../../../manage-work/projects/project-finances/billing-and-revenue-overview.md" class="MCXref xref">Información general sobre facturación e ingresos</a> e <a href="/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md">Información general sobre la jerarquía de ingresos y costos</a>. </p> <p>El administrador de Workfront o del grupo selecciona la configuración predeterminada Tipo de ingresos para las tareas del sistema o del grupo. Para obtener información sobre cómo establecer los valores predeterminados del proyecto, consulte <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configurar las preferencias de proyecto de todo el sistema</a>.</p> </td> 
      </tr> 
+     <tr>
+      <td><span class="preview">Proporción de horas extra</span></td> 
+      <td><span class="preview"><p>Introduzca el multiplicador de horas extra para la tarea como, por ejemplo, 1,5 o 2,0. El valor predeterminado es 1,0 (sin multiplicador). Para obtener más información, vea <a href="/help/quicksilver/manage-work/projects/project-finances/define-overtime-ratio.md">Definir una proporción de horas extra</a>.</p><p>Para ver el campo Proporción de horas extra:</p>
+       <ul>
+       <li>El tipo de ingresos de la tarea debe ser Usuario y Rol por hora. Para obtener más información, consulte <a href="/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md">Información general sobre la jerarquía de ingresos y costos</a>.</li>
+       <li>El campo debe estar habilitado en la plantilla de diseño para el área Finanzas en la vista Detalles de la tarea. Para obtener más información, consulte <a href="/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md">Personalizar la vista de detalles con una plantilla de diseño</a>.</li>
+       </ul>
+      </span></td>
+     </tr>
     </tbody> 
    </table>
 
@@ -710,7 +733,8 @@ Puede editar las tareas en lote en una lista y actualizar toda su información a
 
 Para obtener información acerca de cómo guardar tareas en lote, consulte la sección “Editar tareas en lote” en el artículo [Editar tareas de una lista](../../../manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md).
 
-<!--Temporary content while changing Assignments area: 
+<!--
+Temporary content while changing Assignments area: 
 
 Editing assignments is different in the Edit Task box depending on which environment you choose.
 
@@ -848,7 +872,8 @@ Editing assignments is different in the Edit Task box depending on which environ
          </table>
       
    
-      <!--<tr> 
+      <!--
+      <tr> 
       <td role="rowheader">Allocation</td> 
       <td> <p>If your Task Constraint is Calculated Work or Effort Driven, specify the <strong>Allocation %</strong> (allocation percentage) for each assignee. This is the amount of time from the schedule of the assignee that they can spend on this task. Changing the allocation percentage for an assignee will change the Planned Hours of a task. </p> <p>When the Task Constraint is Simple, you can specify the following:</p> 
          <ul> 
@@ -1019,4 +1044,5 @@ Editing assignments is different in the Edit Task box depending on which environ
 
 <div class="preview">
 
-#### Edit the Assignments area in the Preview environment-->
+#### Edit the Assignments area in the Preview environment
+-->

@@ -8,14 +8,16 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: b04ed2e8-c60e-4978-8a9d-b9e087987ef4
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: 34c63e1b7d6323a4cf25514aaff9f923010d8958
 workflow-type: tm+mt
-source-wordcount: '382'
+source-wordcount: '397'
 ht-degree: 23%
 
 ---
 
 # Información general sobre formularios personalizados
+
+{{highlighted-preview}}
 
 <!--Audited: 12/2023-->
 
@@ -30,6 +32,16 @@ Por ejemplo, puede adjuntar un formulario personalizado llamado &quot;Investigac
 El diseñador de formularios tiene un área de trabajo de estilo lienzo que le permite ver los campos, el lienzo y la configuración de los campos al mismo tiempo. También permite arrastrar y soltar campos dentro de las secciones al diseñar el formulario. Puede cambiar el tamaño del lado derecho de la pantalla para proporcionar más espacio para las opciones de campo.
 
 Para obtener más información, consulte [Crear un formulario personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+
+<div class="preview">
+
+Imagen de muestra en el entorno de vista previa:
+
+![Diseñador de formularios de ejemplo](assets/form-designer-example-032526.png)
+
+</div>
+
+Imagen de muestra en el entorno de producción:
 
 ![Diseñador de formularios de ejemplo](assets/form-designer-example.png)
 

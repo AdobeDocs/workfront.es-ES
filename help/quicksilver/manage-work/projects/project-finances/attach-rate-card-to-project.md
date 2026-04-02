@@ -5,10 +5,10 @@ author: Lisa
 feature: Work Management
 role: User
 exl-id: 97c33c5a-e42d-4015-841f-69dc44a0599d
-source-git-commit: 23a4d055871c9138818e70fa1cd936581dbd7552
+source-git-commit: 58d3f084c343bcc404f30edd270017fa5f86eb58
 workflow-type: tm+mt
-source-wordcount: '377'
-ht-degree: 93%
+source-wordcount: '566'
+ht-degree: 23%
 
 ---
 
@@ -16,19 +16,17 @@ ht-degree: 93%
 
 {{highlighted-preview-article-level}}
 
-Las tarjetas de tarifas almacenan varias tarifas de facturación por función, según la ubicación. Podría tener una función de diseñador con sede en París y un segundo diseñador con sede en Nueva York, cada uno con diferentes tarifas de facturación. Sin embargo, no se requiere una ubicación para las funciones en una tarjeta de tarifas. Una tarifa de facturación para una función (y posiblemente una ubicación) en una tarjeta de tarifas también puede incluir fechas efectivas.
+Las tarjetas de tarifas almacenan varias tarifas de facturación por rol, según los atributos. Por ejemplo, podría tener una función de Designer con sede en París para la Agencia A, otra Designer con sede en París para la Agencia B y una tercera Designer con sede en Nueva York no asignada a una agencia, cada una con diferentes tarifas de facturación. Sin embargo, los atributos no son necesarios para las funciones del puesto en una tarjeta de tasas. Los atributos sirven como herramientas para establecer tasas más granulares. Una tarifa de facturación en una tarjeta de tarifas también puede ser efectiva por fecha, de manera que la tarifa comience y termine en fechas especificadas.
 
-Al adjuntar una tarjeta de tarifas a un proyecto, se añaden al proyecto todas las funciones por ubicación y sus tarifas de facturación asociadas.
+Al adjuntar una tarjeta de tarifas a un proyecto, se agregan al proyecto todas las funciones y sus tarifas de facturación asociadas.
 
 >[!NOTE]
 >
->Al adjuntar una tarjeta de tarifas, se anulan las tarifas de facturación existentes en el proyecto.
+>Al adjuntar una tarjeta de tarifas, se anulan las tarifas de facturación de la tarjeta de tarifas existentes en el proyecto. Las anulaciones de tarifas de facturación que se agregaron directamente al proyecto no se eliminan.
 
-Puede editar las tarifas de facturación desde la tarjeta de tarifas directamente en el proyecto. Esto no afecta a las tarifas guardadas en la tarjeta de tarifas predeterminadas.
+Para obtener información sobre cómo crear tarjetas de tarifas, consulte [Administrar tarjetas de tarifas](/help/quicksilver/administration-and-setup/manage-enterprise-operations/manage-rate-cards.md).
 
-Para obtener información sobre cómo crear tarjetas de tarifas, consulte [Administrar tarjetas de tarifas](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).
-
-Para obtener información general acerca de cómo anular las tarifas de facturación de funciones para los proyectos y calcular los ingresos del proyecto, consulte [Información general sobre cómo anular las tarifas de facturación de funciones y calcular los ingresos en un proyecto](/help/quicksilver/manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
+Para obtener información general sobre cómo anular las tarifas de facturación de roles de trabajo para los proyectos y calcular los ingresos del proyecto, consulte [Información general sobre cómo anular las tarifas de facturación y calcular los ingresos en un proyecto](/help/quicksilver/manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
 
 ## Requisitos de acceso
 
@@ -39,22 +37,20 @@ Para obtener información general acerca de cómo anular las tarifas de facturac
  <col> 
  <tbody> 
   <tr> 
-   <td>paquete de Adobe Workfront</td> 
-   <td>Cualquiera</td> 
+   <td>Paquete de Adobe Workfront</td> 
+   <td>Workflow Ultimate</td> 
   </tr> 
   <tr> 
    <td>Licencia de Adobe Workfront</td> 
-   <td>
-   <p>Estándar</p>
-   <p>Plan</p></td> 
+   <td>Estándar</td> 
   </tr> 
   <tr> 
    <td>Configuraciones de nivel de acceso</td> 
-   <td> <p>Acceso de edición a proyectos y datos financieros</p> <p>Acceso administrativo para funciones del puesto</p></td> 
+   <td>Editar acceso a Proyectos, Datos financieros y Tarjetas de tarifas</td> 
   </tr> 
   <tr> 
    <td>Permisos de objeto</td> 
-   <td>Administrar permisos para el proyecto que incluye Editar datos financieros </td> 
+   <td>Administre permisos al proyecto con permisos para Editar tarifas de facturación</td> 
   </tr> 
  </tbody> 
 </table>
@@ -66,17 +62,33 @@ Para obtener más información, consulte [Requisitos de acceso en la documentaci
 ## Adjuntar una tarjeta de tarifas a un proyecto
 
 1. Vaya al proyecto. 
-1. Haga clic en **Tarifas de facturación** en el panel de la izquierda.
+1. Haga clic en **Tarifas** en el panel izquierdo y luego seleccione **Facturación**.
 1. Haga clic en **Añadir tarifa de facturación > Adjuntar una tarjeta de tarifas**.
 
-   Se abre la página Adjuntar una tarjeta de tarifas. Para obtener más información, consulte [Administrar tarjetas de tarifas](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).
+   Se abre el cuadro **Adjuntar una tarjeta de tarifa**. Puede buscar una tarjeta de tarifa en la lista.
+
+   ![Adjuntar un cuadro de tarjeta de tarifa](assets/attach-rate-card-dialog.png)
+
+   >[!NOTE]
+   >
+   >El Grupo y la Empresa de las tarjetas de tarifas se utilizan como filtros en esta lista. Como los proyectos también incluyen campos de Grupo y Compañía, Workfront utiliza estos valores para reducir la lista de tarjetas de tarifa disponibles a las relevantes para el contexto del proyecto y no a todas las tarjetas de tarifa en el sistema.
+   >
+   >No es necesario que la coincidencia sea exacta. Las tarjetas de tarifas con valores de Grupo y/o Compañía en blanco pueden seguir apareciendo según la configuración de Grupo/Compañía del proyecto. Por ejemplo, si un proyecto tiene seleccionado un Grupo pero la Empresa está en blanco, puede ver tarjetas de tarifa asociadas con ese Grupo incluso si la Empresa de la tarjeta de tarifa es diferente o está en blanco.
 
 1. Seleccione la tarjeta de tarifas que se añadirá al proyecto y haga clic en **Adjuntar**.
 
    La tarjeta de tarifas y todas las tarifas de su función se añaden a la lista de tarifas de facturación.
 
-   ![Tarjeta de tarifas añadida al proyecto](assets/billing-rates-added-from-rate-card.png)
+   ![Tarjeta de tarifas añadida al proyecto](assets/rate-card-on-project.png)
 
-   >[!NOTE]
-   >
-   >En la lista de tarifas de facturación, puede eliminar una o varias funciones que provengan de una tarjeta de tarifas. Al quitar una tarifa de facturación de función del proyecto, no se elimina de la tarjeta de tarifas predeterminada.
+## Quitar una tarjeta de tarifa de un proyecto
+
+Al eliminar una tarjeta de tarifas de un proyecto, se eliminan todas sus tarifas de funciones. No puede eliminar una tarifa individual del proyecto que provenga de una tarjeta de tarifas.
+
+Las anulaciones de tarifas de facturación para usuarios o roles de trabajo que se agregaron directamente al proyecto se pueden eliminar sin eliminar toda la tarjeta de tarifas.
+
+1. Vaya al proyecto. 
+1. Haga clic en **Tarifas** en el panel izquierdo y luego seleccione **Facturación**.
+1. Haga clic en el icono **Quitar** ![Quitar icono](assets/remove-icon.png).
+1. Haz clic en **Confirmar** en el mensaje de confirmación para eliminar la tarjeta de tarifas.
+

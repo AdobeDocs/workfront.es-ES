@@ -4,14 +4,16 @@ description: Puede compartir un portafolio con otros usuarios si tiene permisos 
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 79643202-2d91-4028-b673-c3443b50d898
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: ddaecaf65fc7080e27ae67d6c8f4980586f1241e
 workflow-type: tm+mt
-source-wordcount: '870'
+source-wordcount: '896'
 ht-degree: 46%
 
 ---
 
 # Compartir un portafolio
+
+<span class="preview">La información resaltada en esta página hace referencia a una funcionalidad que aún no está disponible de forma general. Solo está disponible en el entorno de vista previa de espacio aislado.</span>
 
 El administrador de Adobe Workfront puede concederle acceso para ver o editar portafolios cuando le asigna su nivel de acceso. Debe tener una licencia de Plan para poder acceder y editar un portafolio. Para obtener más información, consulte [Conceder acceso a portafolios](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-portfolios.md).
 
@@ -82,7 +84,7 @@ Para obtener más información sobre la jerarquía de objetos en Workfront, cons
 
    ![Botón Compartir portafolio](assets/share-portfolio-button.png)
 
-1. En el campo **Conceder acceso al portafolio a**, empiece a escribir el nombre del usuario, equipo, rol, grupo o compañía con el que desea compartir el portafolio y, a continuación, haga clic en el nombre cuando aparezca en la lista desplegable.
+1. En el campo **Conceder acceso al portafolio a**, empiece a escribir el nombre del usuario, equipo, rol, grupo, compañía, <span class="preview">o perfil empresarial</span> con el que desea compartir el portafolio y, a continuación, haga clic en el nombre cuando aparezca en la lista desplegable.
 
    >[!TIP]
    >
@@ -115,7 +117,7 @@ Para obtener más información sobre la jerarquía de objetos en Workfront, cons
 
    ![Portafolios de uso compartido en lotes](assets/bulk-share-portfolios.png)
 
-1. En el campo **Conceder acceso al portafolio a**, empiece a escribir el nombre del usuario, equipo, rol, grupo o compañía con el que desea compartir los portafolios y, a continuación, haga clic en el nombre cuando aparezca en la lista desplegable.
+1. En el campo **Conceder acceso al portafolio a**, empiece a escribir el nombre del usuario, equipo, rol, grupo, compañía, <span class="preview">o perfil empresarial</span> con el que desea compartir los portafolios y, a continuación, haga clic en el nombre cuando aparezca en la lista desplegable.
 
    >[!TIP]
    >
